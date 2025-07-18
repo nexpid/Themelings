@@ -147,16 +147,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = record[ctrled];
             cntext = config.bind(tangon)(cntext);
             cntext = cntext.t;
-            cntext = cntext.Kfcszs;
-            cntext = papara.bind(target)(cntext);
-            entity['addNewBurstReactionAccessibilityLabel'] = cntext;
-            cntext = record[ctrled];
-            cntext = config.bind(tangon)(cntext);
-            target = cntext.intl;
-            papara = target.string;
-            cntext = record[ctrled];
-            cntext = config.bind(tangon)(cntext);
-            cntext = cntext.t;
             cntext = cntext.5IEsGx;
             cntext = papara.bind(target)(cntext);
             entity['replyAccessibilityLabel'] = cntext;
@@ -199,8 +189,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['truncation'] = result;
             entity['addReactionLabel'] = foxtra;
             entity['alwaysShowAddReaction'] = romeon;
-            if(!(option == golfie)) { _fun00002_ip = 742; continue _fun00001 }
- 691:
+            if(!(option == golfie)) { _fun00002_ip = 693; continue _fun00001 }
+ 642:
             romeon = _closure1_slot1;
             foxtra = _closure1_slot2;
             option = 13;
@@ -213,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['isEditing'] = kiloes;
             option['isAutomodBlockedMessage'] = backup;
             golfie = romeon.bind(foxtra)(option);
- 742:
+ 693:
             entity['backgroundHighlight'] = golfie;
             golfie = _closure1_slot1;
             option = _closure1_slot2;
@@ -222,14 +212,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = golfie.bind(tangon)(oscard);
             golfie = option.createSwipeActions;
             oscard = verify;
-            if(!verify) { _fun00002_ip = 782; continue _fun00001 }
- 779:
+            if(!verify) { _fun00002_ip = 733; continue _fun00001 }
+ 730:
             oscard = yankee;
- 782:
-            if(!verify) { _fun00002_ip = 788; continue _fun00001 }
- 785:
+ 733:
+            if(!verify) { _fun00002_ip = 739; continue _fun00001 }
+ 736:
             verify = offset;
- 788:
+ 739:
             oscard = golfie.bind(option)(oscard, verify);
             entity['swipeActions'] = oscard;
             entity['children'] = report;
@@ -719,16 +709,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.lfIHs7;
             echoed = source.bind(ctrled)(echoed);
             entity['addNewReactionAccessibilityLabel'] = echoed;
-            echoed = output[golfie];
-            echoed = update.bind(oscard)(echoed);
-            ctrled = echoed.intl;
-            source = ctrled.string;
-            echoed = output[golfie];
-            echoed = update.bind(oscard)(echoed);
-            echoed = echoed.t;
-            echoed = echoed.Kfcszs;
-            echoed = source.bind(ctrled)(echoed);
-            entity['addNewBurstReactionAccessibilityLabel'] = echoed;
             entity['reactionsTheme'] = result;
             result = output[golfie];
             result = update.bind(oscard)(result);
@@ -748,8 +728,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['addReactionLabel'] = option;
             entity['alwaysShowAddReaction'] = report;
             romeon = null;
-            if(!(romeon == tangon)) { _fun00006_ip = 533; continue _fun00005 }
- 455:
+            if(!(romeon == tangon)) { _fun00006_ip = 484; continue _fun00005 }
+ 406:
             option = _closure1_slot1;
             offset = _closure1_slot2;
             report = 13;
@@ -768,7 +748,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = romeon != yankee;
             report['isAutomodBlockedMessage'] = yankee;
             tangon = option.bind(offset)(report);
- 533:
+ 484:
             entity['backgroundHighlight'] = tangon;
             report = _closure1_slot1;
             option = _closure1_slot2;
@@ -777,15 +757,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = report.bind(oscard)(tangon);
             report = option.createSwipeActions;
             tangon = zuuluu.enableSwipeActions;
-            if(!tangon) { _fun00006_ip = 579; continue _fun00005 }
- 573:
+            if(!tangon) { _fun00006_ip = 530; continue _fun00005 }
+ 524:
             tangon = verify.canReply;
- 579:
+ 530:
             zuuluu = zuuluu.enableSwipeActions;
-            if(!zuuluu) { _fun00006_ip = 594; continue _fun00005 }
- 588:
+            if(!zuuluu) { _fun00006_ip = 545; continue _fun00005 }
+ 539:
             zuuluu = verify.canEdit;
- 594:
+ 545:
             zuuluu = report.bind(option)(tangon, zuuluu);
             entity['swipeActions'] = zuuluu;
             report = _closure1_slot0;

@@ -129,31 +129,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            report = argFoo;
-            tangon = _closure1_slot1;
-            zuuluu = tangon.getCurrentConfig;
-            michal = {};
-            michal['location'] = report;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.delayMs;
-            zuuluu = zuuluu.inExperiment;
-            if(zuuluu) { _fun00002_ip = 89; continue _fun00001 }
- 42:
-            tangon = _closure1_slot0;
-            zuuluu = tangon.getConfig;
-            entity = {};
-            entity['location'] = report;
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = {};
-            tangon = zuuluu.delayMs;
-            entity['delayMs'] = tangon;
-            zuuluu = zuuluu.inExperiment;
-            entity['inExperiment'] = zuuluu;
-            return entity;
- 89:
-            entity = {};
-            entity['delayMs'] = michal;
+            oscard = argFoo;
+            golfie = _closure1_slot1;
+            report = golfie.getCurrentConfig;
+            tangon = {};
+            tangon['location'] = oscard;
+            zuuluu = {};
             michal = true;
+            zuuluu['autoTrackExposure'] = michal;
+            tangon = report.bind(golfie)(tangon, zuuluu);
+            zuuluu = tangon.delayMs;
+            tangon = tangon.inExperiment;
+            if(tangon) { _fun00002_ip = 99; continue _fun00001 }
+ 52:
+            report = _closure1_slot0;
+            tangon = report.getConfig;
+            entity = {};
+            entity['location'] = oscard;
+            tangon = tangon.bind(report)(entity);
+            entity = {};
+            report = tangon.delayMs;
+            entity['delayMs'] = report;
+            tangon = tangon.inExperiment;
+            entity['inExperiment'] = tangon;
+            return entity;
+ 99:
+            entity = {};
+            entity['delayMs'] = zuuluu;
             entity['inExperiment'] = michal;
             return entity;
         }

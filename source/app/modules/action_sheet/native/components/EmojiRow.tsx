@@ -238,11 +238,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  347:
             offset = backup.lfIHs7;
             offset = kiloes.bind(sizing)(offset);
-            _fun00004_ip = 371; continue _fun00003;
+            _fun00004_ip = 373; continue _fun00003;
  360:
             backup = backup.Kfcszs;
             offset = kiloes.bind(sizing)(backup);
- 371:
+ 373:
             report['accessibilityLabel'] = offset;
             offset = function() { // Original name: onPress
                 option = _closure1_slot0;
@@ -277,13 +277,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[1] = foxtra;
             report['style'] = offset;
             offset = _closure1_slot9;
-            if(golfie) { _fun00004_ip = 435; continue _fun00003 }
- 421:
+            if(golfie) { _fun00004_ip = 437; continue _fun00003 }
+ 423:
             golfie = {};
             golfie['color'] = verify;
             golfie = offset.bind(tangon)(option, golfie);
-            _fun00004_ip = 530; continue _fun00003;
- 435:
+            _fun00004_ip = 532; continue _fun00003;
+ 437:
             verify = _closure1_slot1;
             kiloes = _closure1_slot2;
             option = 21;
@@ -360,7 +360,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             option['children'] = yankee;
             golfie = offset.bind(tangon)(verify, option);
- 530:
+ 532:
             report['children'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);
             entity['children'] = report;

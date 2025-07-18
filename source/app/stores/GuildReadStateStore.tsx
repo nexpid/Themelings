@@ -845,22 +845,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot42;
             michal = michal.bind(report)(tangon, zuuluu);
             var _closure2_slot1 = michal;
-            option = _closure1_slot0;
-            verify = _closure1_slot2;
-            golfie = 24;
-            golfie = verify[golfie];
-            verify = option.bind(report)(golfie);
-            option = verify.getIsNotificationsTabMerged;
-            golfie = {};
-            yankee = 'GuildReadStateStore.recountGuild';
-            golfie['location'] = yankee;
-            golfie = option.bind(verify)(golfie);
-            option = golfie.enabled;
-            var _closure2_slot2 = option;
-            golfie = golfie.removeHomeMentionBadges;
-            var _closure2_slot3 = golfie;
             golfie = false;
-            var _closure2_slot4 = golfie;
+            var _closure2_slot2 = golfie;
             option = offset.forEach;
             golfie = function(argFoo) {
                 _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
@@ -869,78 +855,65 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = _closure1_slot16;
                     entity = michal.getChannel;
                     entity = entity.bind(michal)(oscard);
-                    option = null;
-                    if(!(option == entity)) { _fun00036_ip = 48; continue _fun00035 }
+                    golfie = null;
+                    if(!(golfie == entity)) { _fun00036_ip = 48; continue _fun00035 }
  26:
                     michal = _closure2_slot1;
                     michal = michal.mentionCounts;
                     michal = delete michal[oscard];
-                    _fun00036_ip = 294; continue _fun00035;
+                    _fun00036_ip = 257; continue _fun00035;
  48:
                     michal = entity.getGuildId;
                     report = michal.bind(entity)();
                     zuuluu = _closure2_slot0;
-                    if(!(report === zuuluu)) { _fun00036_ip = 294; continue _fun00035 }
+                    if(!(report === zuuluu)) { _fun00036_ip = 257; continue _fun00035 }
  72:
-                    report = _closure2_slot2;
-                    zuuluu = 0;
-                    golfie = 0;
-                    if(!report) { _fun00036_ip = 107; continue _fun00035 }
- 83:
-                    report = _closure2_slot3;
-                    golfie = 0;
-                    if(!report) { _fun00036_ip = 107; continue _fun00035 }
- 92:
-                    verify = _closure1_slot9;
-                    report = verify.getMentionCountForChannel;
-                    golfie = report.bind(verify)(oscard);
- 107:
+                    report = _closure1_slot19;
+                    zuuluu = report.getMentionCount;
+                    report = zuuluu.bind(report)(oscard);
+                    zuuluu = _closure2_slot0;
+                    zuuluu = golfie !== zuuluu;
+                    if(!zuuluu) { _fun00036_ip = 105; continue _fun00035 }
+ 98:
+                    golfie = _closure2_slot2;
+                    zuuluu = !golfie;
+ 105:
+                    if(!zuuluu) { _fun00036_ip = 128; continue _fun00035 }
+ 108:
                     verify = _closure1_slot19;
-                    report = verify.getMentionCount;
-                    report = report.bind(verify)(oscard);
-                    report = report - golfie;
-                    golfie = _closure2_slot0;
-                    golfie = option !== golfie;
-                    if(!golfie) { _fun00036_ip = 144; continue _fun00035 }
- 137:
-                    option = _closure2_slot4;
-                    golfie = !option;
- 144:
-                    if(!golfie) { _fun00036_ip = 167; continue _fun00035 }
- 147:
-                    offset = _closure1_slot19;
-                    verify = offset.hasUnread;
-                    option = entity.id;
-                    golfie = verify.bind(offset)(option);
- 167:
-                    if(!golfie) { _fun00036_ip = 185; continue _fun00035 }
- 170:
-                    offset = _closure1_slot38;
-                    verify = undefined;
-                    option = true;
-                    golfie = offset.bind(verify)(entity, report, option);
- 185:
-                    if(!golfie) { _fun00036_ip = 209; continue _fun00035 }
- 188:
-                    golfie = true;
-                    _closure2_slot4 = golfie;
-                    option = _closure2_slot1;
+                    option = verify.hasUnread;
                     golfie = entity.id;
-                    option['unreadChannelId'] = golfie;
- 209:
-                    if(!(report > zuuluu)) { _fun00036_ip = 228; continue _fun00035 }
- 213:
+                    zuuluu = option.bind(verify)(golfie);
+ 128:
+                    if(!zuuluu) { _fun00036_ip = 146; continue _fun00035 }
+ 131:
+                    verify = _closure1_slot38;
+                    option = undefined;
+                    golfie = true;
+                    zuuluu = verify.bind(option)(entity, report, golfie);
+ 146:
+                    if(!zuuluu) { _fun00036_ip = 170; continue _fun00035 }
+ 149:
+                    zuuluu = true;
+                    _closure2_slot2 = zuuluu;
+                    golfie = _closure2_slot1;
+                    zuuluu = entity.id;
+                    golfie['unreadChannelId'] = zuuluu;
+ 170:
+                    zuuluu = 0;
+                    if(!(report > zuuluu)) { _fun00036_ip = 191; continue _fun00035 }
+ 176:
                     golfie = _closure1_slot38;
                     zuuluu = undefined;
                     zuuluu = golfie.bind(zuuluu)(entity, report);
-                    if(zuuluu) { _fun00036_ip = 249; continue _fun00035 }
- 228:
+                    if(zuuluu) { _fun00036_ip = 212; continue _fun00035 }
+ 191:
                     zuuluu = _closure2_slot1;
                     golfie = zuuluu.mentionCounts;
                     zuuluu = entity.id;
                     zuuluu = delete golfie[zuuluu];
-                    _fun00036_ip = 294; continue _fun00035;
- 249:
+                    _fun00036_ip = 257; continue _fun00035;
+ 212:
                     michal = _closure2_slot1;
                     zuuluu = michal.mentionCounts;
                     michal = entity.id;
@@ -951,7 +924,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.bind(report)(oscard);
                     entity['isMentionLowImportance'] = tangon;
                     zuuluu[michal] = entity;
- 294:
+ 257:
                     entity = undefined;
                     return entity;
                 }
@@ -960,7 +933,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = michal.unreadByType;
             golfie = _closure1_slot25;
             golfie = golfie.CHANNEL;
-            oscard = _closure2_slot4;
+            oscard = _closure2_slot2;
             option[golfie] = oscard;
             golfie = michal.unreadByType;
             oscard = _closure1_slot25;
@@ -970,53 +943,53 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = _closure1_slot25;
             oscard = oscard.CHANNEL;
             oscard = option[oscard];
-            if(!(golfie !== oscard)) { _fun00034_ip = 361; continue _fun00033 }
- 203:
+            if(!(golfie !== oscard)) { _fun00034_ip = 299; continue _fun00033 }
+ 141:
             golfie = michal.unreadByType;
             oscard = _closure1_slot25;
             oscard = oscard.CHANNEL;
             oscard = golfie[oscard];
-            if(oscard) { _fun00034_ip = 361; continue _fun00033 }
- 229:
+            if(oscard) { _fun00034_ip = 299; continue _fun00033 }
+ 167:
             option = _closure1_slot16;
             golfie = option.getChannel;
             oscard = zuuluu.unreadChannelId;
             option = golfie.bind(option)(oscard);
             oscard = null;
-            if(!(oscard != option)) { _fun00034_ip = 350; continue _fun00033 }
- 255:
+            if(!(oscard != option)) { _fun00034_ip = 288; continue _fun00033 }
+ 193:
             verify = offset.includes;
             golfie = option.id;
             golfie = verify.bind(offset)(golfie);
-            if(golfie) { _fun00034_ip = 350; continue _fun00033 }
- 273:
+            if(golfie) { _fun00034_ip = 288; continue _fun00033 }
+ 211:
             offset = _closure1_slot19;
             verify = offset.hasUnread;
             golfie = option.id;
             golfie = verify.bind(offset)(golfie);
-            if(!golfie) { _fun00034_ip = 350; continue _fun00033 }
- 296:
+            if(!golfie) { _fun00034_ip = 288; continue _fun00033 }
+ 234:
             golfie = _closure1_slot38;
             golfie = golfie.bind(report)(option);
-            if(!golfie) { _fun00034_ip = 350; continue _fun00033 }
- 308:
-            if(!(oscard != tangon)) { _fun00034_ip = 326; continue _fun00033 }
- 312:
+            if(!golfie) { _fun00034_ip = 288; continue _fun00033 }
+ 246:
+            if(!(oscard != tangon)) { _fun00034_ip = 264; continue _fun00033 }
+ 250:
             golfie = _closure1_slot29;
             oscard = golfie.add;
             oscard = oscard.bind(golfie)(tangon);
- 326:
+ 264:
             option = michal.unreadByType;
             oscard = _closure1_slot25;
             golfie = oscard.CHANNEL;
             oscard = true;
             option[golfie] = oscard;
-            _fun00034_ip = 361; continue _fun00033;
- 350:
+            _fun00034_ip = 299; continue _fun00033;
+ 288:
             oscard = _closure1_slot49;
             oscard = oscard.bind(report)(tangon);
             return oscard;
- 361:
+ 299:
             entity = _closure1_slot46;
             entity = entity.bind(report)(tangon, michal, zuuluu);
             return entity;
@@ -1060,169 +1033,139 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = zuuluu.bind(report)(entity);
             entity = _closure1_slot34;
             tangon = entity.bind(report)(oscard);
-            zuuluu = _closure1_slot0;
-            golfie = _closure1_slot2;
-            entity = 24;
-            entity = golfie[entity];
-            golfie = zuuluu.bind(report)(entity);
-            zuuluu = golfie.getIsNotificationsTabMerged;
-            entity = {};
-            option = 'GuildReadStateStore.recountGuild';
-            entity['location'] = option;
-            entity = zuuluu.bind(golfie)(entity);
-            source = entity.enabled;
-            update = entity.removeHomeMentionBadges;
             option = null;
-            if(!(option != oscard)) { _fun00040_ip = 992; continue _fun00039 }
- 89:
+            if(!(option != oscard)) { _fun00040_ip = 880; continue _fun00039 }
+ 35:
             zuuluu = _closure1_slot21;
             entity = zuuluu.isMuted;
             vacuum = entity.bind(zuuluu)(oscard);
-            if(!vacuum) { _fun00040_ip = 119; continue _fun00039 }
- 107:
+            if(!vacuum) { _fun00040_ip = 65; continue _fun00039 }
+ 53:
             entity = false;
             zuuluu = argBar;
-            if(!(entity !== zuuluu)) { _fun00040_ip = 990; continue _fun00039 }
- 119:
+            if(!(entity !== zuuluu)) { _fun00040_ip = 878; continue _fun00039 }
+ 65:
             golfie = _closure1_slot21;
             zuuluu = golfie.getMutedChannels;
-            echoed = zuuluu.bind(golfie)(oscard);
+            output = zuuluu.bind(golfie)(oscard);
             golfie = _closure1_slot21;
             zuuluu = golfie.getChannelOverrides;
-            result = zuuluu.bind(golfie)(oscard);
+            sizing = zuuluu.bind(golfie)(oscard);
             golfie = _closure1_slot0;
             verify = _closure1_slot2;
             zuuluu = 22;
             zuuluu = verify[zuuluu];
             golfie = golfie.bind(report)(zuuluu);
             zuuluu = golfie.isOptInEnabledForGuild;
-            output = zuuluu.bind(golfie)(oscard);
+            kiloes = zuuluu.bind(golfie)(oscard);
             golfie = _closure1_slot16;
             zuuluu = golfie.getMutableBasicGuildChannelsForGuild;
-            sizing = zuuluu.bind(golfie)(oscard);
-            backup = sizing;
-            offset = global;
-            ctrled = 0;
+            backup = zuuluu.bind(golfie)(oscard);
+            romeon = backup;
             verify = true;
-            golfie = undefined;
+            ctrled = 0;
             zuuluu = undefined;
-            for(yankee in backup)
- 219:
+            for(golfie in romeon)
+ 161:
             {
+ 173:
+                source = golfie;
+                echoed = backup[source];
+                cntext = vacuum;
+                if(vacuum) { _fun00040_ip = 196; continue _fun00039 }
+ 186:
+                result = output.has;
+                cntext = result.bind(output)(source);
+ 196:
+                if(cntext) { _fun00040_ip = 231; continue _fun00039 }
+ 199:
+                result = echoed.parent_id;
+                result = option != result;
+                if(!result) { _fun00040_ip = 228; continue _fun00039 }
+ 212:
+                sequen = output.has;
+                update = echoed.parent_id;
+                result = sequen.bind(output)(update);
+ 228:
+                cntext = result;
  231:
-                cntext = yankee;
-                record = sizing[cntext];
-                sierra = vacuum;
-                if(vacuum) { _fun00040_ip = 254; continue _fun00039 }
- 244:
-                sequen = echoed.has;
-                sierra = sequen.bind(echoed)(cntext);
- 254:
-                if(sierra) { _fun00040_ip = 289; continue _fun00039 }
- 257:
-                sequen = record.parent_id;
-                sequen = option != sequen;
-                if(!sequen) { _fun00040_ip = 286; continue _fun00039 }
- 270:
-                papara = echoed.has;
-                config = record.parent_id;
-                sequen = papara.bind(echoed)(config);
- 286:
-                sierra = sequen;
- 289:
-                config = tangon.unreadByType;
-                sequen = _closure1_slot25;
-                sequen = sequen.CHANNEL;
-                config = config[sequen];
-                papara = _closure1_slot19;
-                sequen = papara.getGuildChannelUnreadState;
-                variable38 = papara;
-                variable37 = record;
-                variable36 = output;
-                quebec = result;
-                equals = sierra;
-                whisks = config;
-                sequen = variable38[sequen](variable37, variable36, quebec, equals, whisks, limora);
-                status = sequen.mentionCount;
-                papara = sequen.unread;
-                target = sequen.isMentionLowImportance;
-                sequen = status > ctrled;
-                if(sequen) { _fun00040_ip = 372; continue _fun00039 }
- 366:
-                if(sierra) { _fun00040_ip = 219; continue _fun00039 }
- 372:
-                config = !config;
-                if(!config) { _fun00040_ip = 390; continue _fun00039 }
- 378:
-                sierra = !sierra;
-                if(sierra) { _fun00040_ip = 387; continue _fun00039 }
- 384:
-                sierra = sequen;
- 387:
-                config = sierra;
- 390:
-                if(!config) { _fun00040_ip = 396; continue _fun00039 }
- 393:
-                config = papara;
- 396:
-                if(config) { _fun00040_ip = 408; continue _fun00039 }
+                update = tangon.unreadByType;
+                result = _closure1_slot25;
+                result = result.CHANNEL;
+                result = update[result];
+                sequen = _closure1_slot19;
+                update = sequen.getGuildChannelUnreadState;
+                quebec = sequen;
+                equals = echoed;
+                whisks = kiloes;
+                limora = sizing;
+                sierra = cntext;
+                status = result;
+                update = quebec[update](equals, whisks, limora, sierra, status, target);
+                config = update.mentionCount;
+                record = update.unread;
+                sequen = update.isMentionLowImportance;
+                update = config > ctrled;
+                if(update) { _fun00040_ip = 314; continue _fun00039 }
+ 308:
+                if(cntext) { _fun00040_ip = 161; continue _fun00039 }
+ 314:
+                result = !result;
+                if(!result) { _fun00040_ip = 332; continue _fun00039 }
+ 320:
+                cntext = !cntext;
+                if(cntext) { _fun00040_ip = 329; continue _fun00039 }
+ 326:
+                cntext = update;
+ 329:
+                result = cntext;
+ 332:
+                if(!result) { _fun00040_ip = 338; continue _fun00039 }
+ 335:
+                result = record;
+ 338:
+                if(result) { _fun00040_ip = 350; continue _fun00039 }
+ 341:
+                zuuluu = result;
+                if(!update) { _fun00040_ip = 161; continue _fun00039 }
+ 350:
+                record = _closure1_slot39;
+                record = record.bind(report)(echoed, config, kiloes);
+                zuuluu = result;
+                if(!record) { _fun00040_ip = 161; continue _fun00039 }
+ 370:
+                if(!result) { _fun00040_ip = 399; continue _fun00039 }
+ 373:
+                cntext = tangon.unreadByType;
+                record = _closure1_slot25;
+                record = record.CHANNEL;
+                cntext[record] = verify;
+                tangon['unreadChannelId'] = source;
  399:
-                golfie = config;
-                if(!sequen) { _fun00040_ip = 219; continue _fun00039 }
+                zuuluu = result;
+                if(!update) { _fun00040_ip = 161; continue _fun00039 }
  408:
-                papara = _closure1_slot39;
-                papara = papara.bind(report)(record, status, output);
-                golfie = config;
-                if(!papara) { _fun00040_ip = 219; continue _fun00039 }
- 428:
-                if(!config) { _fun00040_ip = 457; continue _fun00039 }
- 431:
-                sierra = tangon.unreadByType;
-                papara = _closure1_slot25;
-                papara = papara.CHANNEL;
-                sierra[papara] = verify;
-                tangon['unreadChannelId'] = cntext;
- 457:
-                golfie = config;
-                if(!sequen) { _fun00040_ip = 219; continue _fun00039 }
- 466:
-                sequen = 0;
-                if(!source) { _fun00040_ip = 496; continue _fun00039 }
- 471:
-                sequen = 0;
-                if(!update) { _fun00040_ip = 496; continue _fun00039 }
- 476:
-                sierra = _closure1_slot9;
-                papara = sierra.getMentionCountForChannel;
-                cntext = record.id;
-                sequen = papara.bind(sierra)(cntext);
- 496:
-                papara = offset.Math;
-                cntext = papara.max;
-                sequen = status - sequen;
-                sequen = cntext.bind(papara)(sequen, ctrled);
-                if(target) { _fun00040_ip = 538; continue _fun00039 }
- 520:
-                cntext = tangon.highImportanceMentionCount;
-                cntext = cntext + sequen;
-                tangon['highImportanceMentionCount'] = cntext;
-                _fun00040_ip = 554; continue _fun00039;
- 538:
-                cntext = tangon.lowImportanceMentionCount;
-                cntext = cntext + sequen;
-                tangon['lowImportanceMentionCount'] = cntext;
- 554:
-                papara = tangon.mentionCounts;
-                cntext = record.id;
-                record = {};
-                record['count'] = sequen;
-                record['isMentionLowImportance'] = target;
-                papara[cntext] = record;
-                golfie = config;
-                zuuluu = sequen;
-                _fun00040_ip = 219; continue _fun00039;
+                if(sequen) { _fun00040_ip = 429; continue _fun00039 }
+ 411:
+                update = tangon.highImportanceMentionCount;
+                update = update + config;
+                tangon['highImportanceMentionCount'] = update;
+                _fun00040_ip = 445; continue _fun00039;
+ 429:
+                update = tangon.lowImportanceMentionCount;
+                update = update + config;
+                tangon['lowImportanceMentionCount'] = update;
+ 445:
+                source = tangon.mentionCounts;
+                update = echoed.id;
+                echoed = {};
+                echoed['count'] = config;
+                echoed['isMentionLowImportance'] = sequen;
+                source[update] = echoed;
+                zuuluu = result;
+                _fun00040_ip = 161; continue _fun00039;
             }
- 591:
+ 479:
             golfie = _closure1_slot10;
             zuuluu = golfie.getActiveJoinedThreadsForGuild;
             source = zuuluu.bind(golfie)(oscard);
@@ -1231,12 +1174,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             config = undefined;
             sequen = undefined;
             for(sizing in echoed)
- 626:
+ 514:
             {
                 offset = record;
                 golfie = config;
                 zuuluu = sequen;
- 647:
+ 535:
                 yankee = sizing;
                 backup = source[yankee];
                 record = offset;
@@ -1246,44 +1189,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = config;
                 zuuluu = sequen;
                 ForInLoopInit(obj_props_register=14, obj_register=13, iter_index_register=12, iter_size_register=11);
-                if(kiloes === undefined) { _fun00040_ip = 626; continue _fun00039 }
- 680:
+                if(kiloes === undefined) { _fun00040_ip = 514; continue _fun00039 }
+ 568:
                 record = offset;
                 config = golfie;
                 sequen = zuuluu;
                 ForInLoopNextIter(next_value_register=10, obj_props_register=14, obj_register=13, iter_index_register=12, iter_size_register=11);
-                if(yankee === undefined) { _fun00040_ip = 626; continue _fun00039 }
- 698:
+                if(yankee === undefined) { _fun00040_ip = 514; continue _fun00039 }
+ 586:
                 record = yankee;
                 config = tangon.unreadByType;
                 sequen = _closure1_slot25;
                 sequen = sequen.CHANNEL;
                 sequen = config[sequen];
-                if(sequen) { _fun00040_ip = 742; continue _fun00039 }
- 724:
+                if(sequen) { _fun00040_ip = 630; continue _fun00039 }
+ 612:
                 cntext = _closure1_slot19;
                 config = cntext.hasUnread;
                 config = config.bind(cntext)(record);
                 sequen = !config;
- 742:
-                if(sequen) { _fun00040_ip = 760; continue _fun00039 }
- 745:
+ 630:
+                if(sequen) { _fun00040_ip = 648; continue _fun00039 }
+ 633:
                 cntext = _closure1_slot11;
                 config = cntext.isMuted;
                 sequen = config.bind(cntext)(record);
- 760:
-                if(sequen) { _fun00040_ip = 766; continue _fun00039 }
- 763:
+ 648:
+                if(sequen) { _fun00040_ip = 654; continue _fun00039 }
+ 651:
                 sequen = vacuum;
- 766:
-                if(sequen) { _fun00040_ip = 795; continue _fun00039 }
- 769:
+ 654:
+                if(sequen) { _fun00040_ip = 683; continue _fun00039 }
+ 657:
                 config = tangon.unreadByType;
                 sequen = _closure1_slot25;
                 sequen = sequen.CHANNEL;
                 config[sequen] = verify;
                 tangon['unreadChannelId'] = record;
- 795:
+ 683:
                 config = _closure1_slot19;
                 sequen = config.getMentionCount;
                 config = sequen.bind(config)(record);
@@ -1293,19 +1236,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 offset = record;
                 golfie = config;
                 zuuluu = sequen;
-                if(!(config > ctrled)) { _fun00040_ip = 680; continue _fun00039 }
- 841:
-                if(sequen) { _fun00040_ip = 862; continue _fun00039 }
- 844:
+                if(!(config > ctrled)) { _fun00040_ip = 568; continue _fun00039 }
+ 729:
+                if(sequen) { _fun00040_ip = 750; continue _fun00039 }
+ 732:
                 cntext = tangon.highImportanceMentionCount;
                 cntext = cntext + config;
                 tangon['highImportanceMentionCount'] = cntext;
-                _fun00040_ip = 878; continue _fun00039;
- 862:
+                _fun00040_ip = 766; continue _fun00039;
+ 750:
                 cntext = tangon.lowImportanceMentionCount;
                 cntext = cntext + config;
                 tangon['lowImportanceMentionCount'] = cntext;
- 878:
+ 766:
                 papara = tangon.mentionCounts;
                 cntext = {};
                 cntext['count'] = config;
@@ -1314,31 +1257,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 offset = record;
                 golfie = config;
                 zuuluu = sequen;
-                _fun00040_ip = 680; continue _fun00039;
+                _fun00040_ip = 568; continue _fun00039;
             }
- 913:
+ 801:
             golfie = tangon.unreadByType;
             zuuluu = _closure1_slot25;
             zuuluu = zuuluu.GUILD_EVENT;
             zuuluu = golfie[zuuluu];
             zuuluu = !zuuluu;
-            if(!zuuluu) { _fun00040_ip = 959; continue _fun00039 }
- 939:
+            if(!zuuluu) { _fun00040_ip = 847; continue _fun00039 }
+ 827:
             offset = _closure1_slot41;
             golfie = _closure1_slot25;
             golfie = golfie.GUILD_EVENT;
             zuuluu = offset.bind(report)(oscard, golfie);
- 959:
-            if(!zuuluu) { _fun00040_ip = 1116; continue _fun00039 }
- 965:
+ 847:
+            if(!zuuluu) { _fun00040_ip = 1004; continue _fun00039 }
+ 853:
             golfie = tangon.unreadByType;
             zuuluu = _closure1_slot25;
             zuuluu = zuuluu.GUILD_EVENT;
             golfie[zuuluu] = verify;
-            _fun00040_ip = 1116; continue _fun00039;
- 990:
+            _fun00040_ip = 1004; continue _fun00039;
+ 878:
             return entity;
- 992:
+ 880:
             zuuluu = _closure1_slot16;
             entity = zuuluu.getMutablePrivateChannels;
             foxtra = entity.bind(zuuluu)();
@@ -1346,22 +1289,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = false;
             entity = 0;
             for(golfie in yankee)
- 1021:
+ 909:
             {
- 1030:
+ 918:
                 output = golfie;
                 backup = foxtra[output];
                 sizing = _closure1_slot19;
                 kiloes = sizing.getMentionCount;
                 output = kiloes.bind(sizing)(output);
                 kiloes = output > entity;
-                if(!kiloes) { _fun00040_ip = 1069; continue _fun00039 }
- 1059:
+                if(!kiloes) { _fun00040_ip = 957; continue _fun00039 }
+ 947:
                 sizing = _closure1_slot38;
                 kiloes = sizing.bind(report)(backup, output);
- 1069:
-                if(!kiloes) { _fun00040_ip = 1021; continue _fun00039 }
- 1072:
+ 957:
+                if(!kiloes) { _fun00040_ip = 909; continue _fun00039 }
+ 960:
                 kiloes = tangon.highImportanceMentionCount;
                 kiloes = kiloes + output;
                 tangon['highImportanceMentionCount'] = kiloes;
@@ -1371,9 +1314,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 backup['count'] = output;
                 backup['isMentionLowImportance'] = zuuluu;
                 sizing[kiloes] = backup;
-                _fun00040_ip = 1021; continue _fun00039;
+                _fun00040_ip = 909; continue _fun00039;
             }
- 1116:
+ 1004:
             entity = _closure1_slot43;
             entity = entity.bind(report)(tangon);
             entity = _closure1_slot35;
@@ -1381,53 +1324,53 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = tangon.unread;
             entity = zuuluu.unread;
             entity = golfie !== entity;
-            if(entity) { _fun00040_ip = 1169; continue _fun00039 }
- 1153:
+            if(entity) { _fun00040_ip = 1057; continue _fun00039 }
+ 1041:
             verify = tangon.highImportanceMentionCount;
             golfie = zuuluu.highImportanceMentionCount;
             entity = verify !== golfie;
- 1169:
-            if(entity) { _fun00040_ip = 1188; continue _fun00039 }
- 1172:
+ 1057:
+            if(entity) { _fun00040_ip = 1076; continue _fun00039 }
+ 1060:
             verify = tangon.lowImportanceMentionCount;
             golfie = zuuluu.lowImportanceMentionCount;
             entity = verify !== golfie;
- 1188:
-            if(!entity) { _fun00040_ip = 1289; continue _fun00039 }
- 1191:
+ 1076:
+            if(!entity) { _fun00040_ip = 1177; continue _fun00039 }
+ 1079:
             verify = _closure1_slot28;
             golfie = oscard;
-            if(!(option == oscard)) { _fun00040_ip = 1206; continue _fun00039 }
- 1202:
+            if(!(option == oscard)) { _fun00040_ip = 1094; continue _fun00039 }
+ 1090:
             golfie = _closure1_slot27;
- 1206:
+ 1094:
             verify[golfie] = tangon;
-            if(!(option != oscard)) { _fun00040_ip = 1249; continue _fun00039 }
- 1214:
+            if(!(option != oscard)) { _fun00040_ip = 1137; continue _fun00039 }
+ 1102:
             golfie = tangon.unread;
             verify = _closure1_slot29;
-            if(golfie) { _fun00040_ip = 1239; continue _fun00039 }
- 1227:
+            if(golfie) { _fun00040_ip = 1127; continue _fun00039 }
+ 1115:
             golfie = verify.delete;
             golfie = golfie.bind(verify)(oscard);
-            _fun00040_ip = 1249; continue _fun00039;
- 1239:
+            _fun00040_ip = 1137; continue _fun00039;
+ 1127:
             golfie = verify.add;
             golfie = golfie.bind(verify)(oscard);
- 1249:
+ 1137:
             golfie = _closure1_slot30;
             golfie = golfie + 1;
             _closure1_slot30 = golfie;
             golfie = _closure1_slot36;
-            if(!(option == oscard)) { _fun00040_ip = 1272; continue _fun00039 }
- 1268:
+            if(!(option == oscard)) { _fun00040_ip = 1160; continue _fun00039 }
+ 1156:
             oscard = _closure1_slot27;
- 1272:
+ 1160:
             oscard = golfie.bind(report)(oscard);
             michal = _closure1_slot44;
             michal = michal.bind(report)(tangon, zuuluu);
             entity = true;
- 1289:
+ 1177:
             return entity;
         }
     };
@@ -1866,7 +1809,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = michal.channels;
         report = _closure1_slot1;
         zuuluu = _closure1_slot2;
-        michal = 25;
+        michal = 24;
         michal = zuuluu[michal];
         zuuluu = undefined;
         michal = report.bind(zuuluu)(michal);
@@ -1913,7 +1856,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = michal.channels;
         report = _closure1_slot1;
         zuuluu = _closure1_slot2;
-        michal = 25;
+        michal = 24;
         michal = zuuluu[michal];
         zuuluu = undefined;
         michal = report.bind(zuuluu)(michal);
@@ -2046,7 +1989,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = argFoo;
             tangon = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 26;
+            entity = 25;
             entity = report[entity];
             report = undefined;
             tangon = tangon.bind(report)(entity);
@@ -2923,7 +2866,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     sizing = tangon;
     michal = new sizing[michal](kiloes);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 27;
+    tangon = 26;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

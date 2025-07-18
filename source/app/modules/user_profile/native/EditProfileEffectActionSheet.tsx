@@ -1159,10 +1159,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
                     michal = _closure2_slot12;
-                    if(michal) { _fun00026_ip = 188; continue _fun00025 }
+                    if(michal) { _fun00026_ip = 181; continue _fun00025 }
  13:
                     michal = _closure2_slot13;
-                    if(michal) { _fun00026_ip = 188; continue _fun00025 }
+                    if(michal) { _fun00026_ip = 181; continue _fun00025 }
  23:
                     michal = _closure2_slot14;
                     zuuluu = _closure1_slot0;
@@ -1175,7 +1175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = zuuluu.bind(michal)(tangon);
                     michal = tangon.navigateToNitroManagement;
                     michal = michal.bind(tangon)();
-                    _fun00026_ip = 332; continue _fun00025;
+                    _fun00026_ip = 325; continue _fun00025;
  70:
                     michal = 27;
                     michal = verify[michal];
@@ -1203,11 +1203,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = _closure1_slot11;
                     report = report.SHOP_ALL;
                     michal['screen'] = report;
-                    report = false;
-                    michal['scrollToTop'] = report;
                     michal = zuuluu.bind(tangon)(michal);
-                    _fun00026_ip = 332; continue _fun00025;
- 188:
+                    _fun00026_ip = 325; continue _fun00025;
+ 181:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
                     zuuluu = 25;
@@ -1228,28 +1226,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = null;
                     zuuluu = golfie == zuuluu;
                     oscard = undefined;
-                    if(zuuluu) { _fun00026_ip = 287; continue _fun00025 }
- 278:
+                    if(zuuluu) { _fun00026_ip = 280; continue _fun00025 }
+ 271:
                     zuuluu = _closure2_slot7;
                     oscard = zuuluu.id;
- 287:
+ 280:
                     option = golfie != oscard;
                     zuuluu = null;
-                    if(!option) { _fun00026_ip = 299; continue _fun00025 }
- 296:
+                    if(!option) { _fun00026_ip = 292; continue _fun00025 }
+ 289:
                     zuuluu = oscard;
- 299:
+ 292:
                     oscard = _closure2_slot6;
                     oscard = golfie == oscard;
                     michal = undefined;
-                    if(oscard) { _fun00026_ip = 321; continue _fun00025 }
- 312:
+                    if(oscard) { _fun00026_ip = 314; continue _fun00025 }
+ 305:
                     oscard = _closure2_slot6;
                     michal = oscard.id;
- 321:
+ 314:
                     entity = _closure2_slot1;
                     entity = tangon.bind(report)(zuuluu, michal, entity);
- 332:
+ 325:
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
                     entity = 29;

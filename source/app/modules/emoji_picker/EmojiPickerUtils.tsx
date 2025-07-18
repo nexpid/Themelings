@@ -1269,32 +1269,32 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal['index_num'] = oscard;
             offset = option == verify;
             oscard = undefined;
-            if(offset) { _fun00024_ip = 288; continue _fun00023 }
- 282:
+            if(offset) { _fun00024_ip = 290; continue _fun00023 }
+ 284:
             oscard = verify.loadId;
- 288:
+ 290:
             michal['load_id'] = oscard;
             offset = option == verify;
             oscard = undefined;
-            if(offset) { _fun00024_ip = 322; continue _fun00023 }
- 302:
+            if(offset) { _fun00024_ip = 324; continue _fun00023 }
+ 304:
             offset = verify.results;
             yankee = option == offset;
             oscard = undefined;
-            if(yankee) { _fun00024_ip = 322; continue _fun00023 }
- 317:
+            if(yankee) { _fun00024_ip = 324; continue _fun00023 }
+ 319:
             oscard = offset.length;
- 322:
+ 324:
             michal['total_results'] = oscard;
             offset = option == verify;
             oscard = undefined;
-            if(offset) { _fun00024_ip = 381; continue _fun00023 }
- 336:
+            if(offset) { _fun00024_ip = 383; continue _fun00023 }
+ 338:
             offset = verify.results;
             option = option == offset;
             oscard = undefined;
-            if(option) { _fun00024_ip = 381; continue _fun00023 }
- 351:
+            if(option) { _fun00024_ip = 383; continue _fun00023 }
+ 353:
             verify = offset.map;
             option = function(argFoo) {
                 entity = argFoo;
@@ -1311,7 +1311,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             oscard = option.bind(verify)(golfie);
- 381:
+ 383:
             michal['emoji_suggestion_ids'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return entity;

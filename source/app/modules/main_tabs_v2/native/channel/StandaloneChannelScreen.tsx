@@ -540,7 +540,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 21;
             entity = verify[entity];
             report = golfie.bind(tangon)(entity);
-            entity = report.useIsSwipeToMemberListAllowed;
+            entity = report.useIsSwipeToMemberListEnabled;
             entity = entity.bind(report)();
             offset = _closure1_slot1;
             report = 22;

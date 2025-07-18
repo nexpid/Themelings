@@ -514,17 +514,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             entity = argFoo;
             report = entity.searchContext;
-            option = entity.channelId;
-            foxtra = entity.entityType;
-            romeon = entity.entityId;
-            yankee = entity.index;
+            romeon = entity.channelId;
+            foxtra = entity.messageId;
+            yankee = entity.userId;
+            backup = entity.index;
             golfie = entity.totalSearchResults;
             zuuluu = _closure1_slot14;
             entity = undefined;
             verify = zuuluu.bind(entity)(report);
             tangon = _closure1_slot3;
             zuuluu = tangon.getChannel;
-            offset = zuuluu.bind(tangon)(option);
+            offset = zuuluu.bind(tangon)(romeon);
             tangon = _closure1_slot4;
             option = tangon.getState;
             zuuluu = function(argFoo) {
@@ -533,7 +533,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            kiloes = option.bind(tangon)(report, zuuluu);
+            sizing = option.bind(tangon)(report, zuuluu);
             option = tangon.getState;
             zuuluu = function(argFoo) {
                 michal = argFoo;
@@ -541,7 +541,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            backup = option.bind(tangon)(report, zuuluu);
+            kiloes = option.bind(tangon)(report, zuuluu);
             zuuluu = tangon.getState;
             michal = function(argFoo) {
                 michal = argFoo;
@@ -559,39 +559,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot8;
             zuuluu = michal.SEARCH_V2_RESULT_CLICKED;
             michal = {};
-            echoed = michal;
-            result = verify;
-            verify = copyDataProperties(echoed, result);
+            update = michal;
+            echoed = verify;
+            verify = copyDataProperties(update, echoed);
             verify = null;
-            output = verify == offset;
-            sizing = undefined;
-            if(output) { _fun00012_ip = 192; continue _fun00011 }
- 187:
-            sizing = offset.type;
- 192:
+            result = verify == offset;
+            output = undefined;
+            if(result) { _fun00012_ip = 190; continue _fun00011 }
+ 185:
+            output = offset.type;
+ 190:
             offset = 'search_result_channel_type';
+            michal[offset] = output;
+            offset = sizing.trim;
+            offset = offset.bind(sizing)();
+            sizing = offset.length;
+            offset = 'search_query_length';
             michal[offset] = sizing;
             offset = kiloes.trim;
             offset = offset.bind(kiloes)();
             kiloes = offset.length;
-            offset = 'search_query_length';
-            michal[offset] = kiloes;
-            offset = backup.trim;
-            offset = offset.bind(backup)();
-            backup = offset.length;
             offset = 'search_query_content_length';
-            michal[offset] = backup;
-            offset = 'entity_type';
-            michal[offset] = foxtra;
-            offset = 'entity_id';
-            michal[offset] = romeon;
+            michal[offset] = kiloes;
             offset = 'search_result_index';
+            michal[offset] = backup;
+            offset = 'search_result_message_id';
+            michal[offset] = foxtra;
+            offset = 'search_result_channel_id';
+            michal[offset] = romeon;
+            offset = 'search_result_user_id';
             michal[offset] = yankee;
             verify = null;
-            if(option) { _fun00012_ip = 288; continue _fun00011 }
- 285:
+            if(option) { _fun00012_ip = 305; continue _fun00011 }
+ 302:
             verify = golfie;
- 288:
+ 305:
             golfie = 'total_search_results';
             michal[golfie] = verify;
             golfie = 'is_initial_search_query';

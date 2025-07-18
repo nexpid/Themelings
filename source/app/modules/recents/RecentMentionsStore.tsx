@@ -162,51 +162,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             option = argFoo;
             tangon = _closure1_slot10;
-            zuuluu = tangon.getChannel;
+            zuuluu = tangon.getBasicChannel;
             entity = option.channel_id;
-            golfie = zuuluu.bind(tangon)(entity);
+            zuuluu = zuuluu.bind(tangon)(entity);
             entity = null;
-            if(!(entity != golfie)) { _fun00012_ip = 253; continue _fun00011 }
- 34:
-            zuuluu = _closure1_slot21;
-            report = zuuluu.GUILD_TEXTUAL;
-            tangon = report.has;
-            zuuluu = golfie.type;
-            zuuluu = tangon.bind(report)(zuuluu);
-            if(!zuuluu) { _fun00012_ip = 253; continue _fun00011 }
- 65:
-            tangon = _closure1_slot15;
-            zuuluu = tangon.resolvedMessageNotifications;
-            tangon = zuuluu.bind(tangon)(golfie);
-            zuuluu = _closure1_slot20;
-            zuuluu = zuuluu.ALL_MESSAGES;
-            if(!(zuuluu !== tangon)) { _fun00012_ip = 249; continue _fun00011 }
- 97:
-            zuuluu = _closure1_slot20;
-            zuuluu = zuuluu.ONLY_MENTIONS;
-            if(!(zuuluu !== tangon)) { _fun00012_ip = 125; continue _fun00011 }
- 111:
-            zuuluu = _closure1_slot20;
-            zuuluu = zuuluu.NO_MESSAGES;
-            zuuluu = false;
-            return zuuluu;
- 125:
+            if(!(entity != zuuluu)) { _fun00012_ip = 244; continue _fun00011 }
+ 35:
+            tangon = _closure1_slot21;
+            oscard = tangon.GUILD_TEXTUAL;
+            report = oscard.has;
+            tangon = zuuluu.type;
+            tangon = report.bind(oscard)(tangon);
+            if(!tangon) { _fun00012_ip = 244; continue _fun00011 }
+ 66:
             report = _closure1_slot15;
-            tangon = report.isSuppressEveryoneEnabled;
-            zuuluu = golfie.getGuildId;
-            zuuluu = zuuluu.bind(golfie)();
-            oscard = tangon.bind(report)(zuuluu);
+            tangon = report.resolvedMessageNotifications;
+            report = tangon.bind(report)(zuuluu);
+            tangon = _closure1_slot20;
+            tangon = tangon.ALL_MESSAGES;
+            if(!(tangon !== report)) { _fun00012_ip = 240; continue _fun00011 }
+ 98:
+            tangon = _closure1_slot20;
+            tangon = tangon.ONLY_MENTIONS;
+            if(!(tangon !== report)) { _fun00012_ip = 126; continue _fun00011 }
+ 112:
+            tangon = _closure1_slot20;
+            tangon = tangon.NO_MESSAGES;
+            tangon = false;
+            return tangon;
+ 126:
+            oscard = _closure1_slot15;
+            report = oscard.isSuppressEveryoneEnabled;
+            tangon = zuuluu.guild_id;
+            oscard = report.bind(oscard)(tangon);
             report = _closure1_slot15;
             tangon = report.isSuppressRolesEnabled;
-            zuuluu = golfie.getGuildId;
-            zuuluu = zuuluu.bind(golfie)();
+            zuuluu = zuuluu.guild_id;
             report = tangon.bind(report)(zuuluu);
             tangon = _closure1_slot16;
             zuuluu = tangon.getCurrentUser;
             golfie = zuuluu.bind(tangon)();
             entity = entity != golfie;
-            if(!entity) { _fun00012_ip = 247; continue _fun00011 }
- 195:
+            if(!entity) { _fun00012_ip = 238; continue _fun00011 }
+ 186:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 17;
@@ -220,12 +218,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['suppressEveryone'] = oscard;
             michal['suppressRoles'] = report;
             entity = zuuluu.bind(tangon)(michal);
- 247:
+ 238:
             return entity;
- 249:
+ 240:
             entity = true;
             return entity;
- 253:
+ 244:
             entity = false;
             return entity;
         }

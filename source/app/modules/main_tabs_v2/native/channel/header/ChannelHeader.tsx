@@ -248,12 +248,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 7;
             zuuluu = report[zuuluu];
             tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.getIsSwipeToMemberListExperimentEnabled;
-            zuuluu = zuuluu.bind(tangon)(option);
+            zuuluu = tangon.isSwipeToMemberListEnabled;
+            zuuluu = zuuluu.bind(tangon)();
             tangon = _closure1_slot0;
             report = _closure1_slot2;
-            if(zuuluu) { _fun00004_ip = 211; continue _fun00003 }
- 137:
+            if(zuuluu) { _fun00004_ip = 210; continue _fun00003 }
+ 136:
             zuuluu = 9;
             zuuluu = report[zuuluu];
             verify = tangon.bind(entity)(zuuluu);
@@ -261,21 +261,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = zuuluu.bind(verify)();
             zuuluu = null;
             zuuluu = zuuluu != yankee;
-            if(!zuuluu) { _fun00004_ip = 178; continue _fun00003 }
- 168:
+            if(!zuuluu) { _fun00004_ip = 177; continue _fun00003 }
+ 167:
             verify = yankee.isReady;
             zuuluu = verify.bind(yankee)();
- 178:
-            if(!zuuluu) { _fun00004_ip = 265; continue _fun00003 }
- 181:
+ 177:
+            if(!zuuluu) { _fun00004_ip = 264; continue _fun00003 }
+ 180:
             offset = yankee.navigate;
             verify = {};
             verify['channelId'] = golfie;
             verify['source'] = option;
             zuuluu = 'sidebar';
             zuuluu = offset.bind(yankee)(zuuluu, verify);
-            _fun00004_ip = 265; continue _fun00003;
- 211:
+            _fun00004_ip = 264; continue _fun00003;
+ 210:
             zuuluu = 8;
             zuuluu = report[zuuluu];
             zuuluu = tangon.bind(entity)(zuuluu);
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['channelId'] = golfie;
             michal['screenIndex'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
- 265:
+ 264:
             return entity;
         }
     };

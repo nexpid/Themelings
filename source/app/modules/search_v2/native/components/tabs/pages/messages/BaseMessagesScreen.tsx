@@ -32,14 +32,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.SearchResultAnalyticsEntityTypes;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
-    tangon = 15;
+    var _closure1_slot6 = tangon;
+    tangon = 14;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -88,13 +83,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = tangon.bind(golfie)(oscard, entity);
             output = _closure1_slot0;
             result = _closure1_slot2;
-            entity = 5;
+            entity = 4;
             entity = result[entity];
             tangon = output.bind(report)(entity);
             entity = tangon.getSearchTabFetchId;
             entity = entity.bind(tangon)(oscard, echoed, golfie);
             _closure2_slot5 = entity;
-            golfie = 7;
+            golfie = 6;
             entity = result[golfie];
             update = output.bind(report)(entity);
             sizing = update.useStateFromStores;
@@ -132,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot6 = update;
             source = entity.documentsIndexed;
             _closure2_slot7 = source;
-            entity = 8;
+            entity = 7;
             entity = result[entity];
             romeon = output.bind(report)(entity);
             golfie = romeon.useMessageSearchErrorScreen;
@@ -146,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot8 = sequen;
             sizing = romeon.showErrorToast;
             _closure2_slot9 = sizing;
-            romeon = 9;
+            romeon = 8;
             romeon = result[romeon];
             output = output.bind(report)(romeon);
             romeon = output.useSearchFetchPendingManager;
@@ -184,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  52:
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    michal = 10;
+                    michal = 9;
                     zuuluu = zuuluu[michal];
                     michal = undefined;
                     report = tangon.bind(michal)(zuuluu);
@@ -302,10 +297,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = null;
                     if(!michal) { _fun00010_ip = 106; continue _fun00009 }
  42:
-                    report = _closure1_slot7;
+                    report = _closure1_slot6;
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
-                    michal = 11;
+                    michal = 10;
                     michal = tangon[michal];
                     tangon = undefined;
                     zuuluu = zuuluu.bind(tangon)(michal);
@@ -332,10 +327,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 0;
             if(!(entity === zuuluu)) { _fun00002_ip = 623; continue _fun00001 }
  585:
-            tangon = _closure1_slot7;
+            tangon = _closure1_slot6;
             zuuluu = _closure1_slot1;
             sizing = _closure1_slot2;
-            entity = 13;
+            entity = 12;
             entity = sizing[entity];
             zuuluu = zuuluu.bind(report)(entity);
             entity = {};
@@ -343,10 +338,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = tangon.bind(report)(zuuluu, entity);
             _fun00002_ip = 694; continue _fun00001;
  623:
-            golfie = _closure1_slot7;
+            golfie = _closure1_slot6;
             tangon = _closure1_slot1;
             sizing = _closure1_slot2;
-            zuuluu = 14;
+            zuuluu = 13;
             zuuluu = sizing[zuuluu];
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = {};
@@ -362,10 +357,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  694:
             _fun00002_ip = 733; continue _fun00001;
  696:
-            tangon = _closure1_slot7;
+            tangon = _closure1_slot6;
             zuuluu = _closure1_slot1;
             golfie = _closure1_slot2;
-            michal = 12;
+            michal = 11;
             michal = golfie[michal];
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
@@ -378,42 +373,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     zuuluu['default'] = tangon;
     michal = function(argFoo) { // Original name: trackMessageItemPress
         entity = argFoo;
-        offset = entity.searchContext;
-        verify = entity.channelId;
+        verify = entity.searchContext;
+        option = entity.channelId;
         golfie = entity.messageId;
         oscard = entity.index;
         romeon = entity.tab;
-        zuuluu = _closure1_slot5;
-        michal = zuuluu.getState;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.getState;
         entity = function(argFoo) {
             michal = argFoo;
             entity = michal.getSearchResultsQuery;
             entity = entity.bind(michal)();
             return entity;
         };
-        yankee = michal.bind(zuuluu)(offset, entity);
+        yankee = zuuluu.bind(tangon)(verify, entity);
         zuuluu = _closure1_slot0;
         tangon = _closure1_slot2;
-        entity = 5;
-        michal = tangon[entity];
+        entity = 4;
+        report = tangon[entity];
         entity = undefined;
-        report = zuuluu.bind(entity)(michal);
-        michal = report.getSearchTabFetchId;
-        yankee = michal.bind(report)(offset, romeon, yankee);
+        offset = zuuluu.bind(entity)(report);
+        report = offset.getSearchTabFetchId;
+        offset = report.bind(offset)(verify, romeon, yankee);
         report = _closure1_slot4;
         michal = report.getTotalCount;
-        report = michal.bind(report)(yankee);
-        michal = 6;
+        report = michal.bind(report)(offset);
+        michal = 5;
         michal = tangon[michal];
         tangon = zuuluu.bind(entity)(michal);
         zuuluu = tangon.trackSearchResultClicked;
         michal = {};
-        michal['searchContext'] = offset;
-        michal['channelId'] = verify;
-        option = _closure1_slot6;
-        option = option.MESSAGE;
-        michal['entityType'] = option;
-        michal['entityId'] = golfie;
+        michal['searchContext'] = verify;
+        michal['channelId'] = option;
+        michal['messageId'] = golfie;
         michal['index'] = oscard;
         michal['totalSearchResults'] = report;
         michal = zuuluu.bind(tangon)(michal);

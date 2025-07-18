@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = new Array(0);
             option = _closure1_slot0;
             tangon = _closure1_slot2;
-            zuuluu = 13;
+            zuuluu = 12;
             zuuluu = tangon[zuuluu];
             tangon = undefined;
             option = option.bind(tangon)(zuuluu);
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie.push;
             option = _closure1_slot0;
             verify = _closure1_slot2;
-            entity = 14;
+            entity = 13;
             entity = verify[entity];
             entity = option.bind(tangon)(entity);
             entity = entity.DismissibleContent;
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  118:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
-            entity = 15;
+            entity = 14;
             entity = option[entity];
             zuuluu = zuuluu.bind(tangon)(entity);
             entity = zuuluu.useCanSeeCreatorMonetizationOnboardingV2Upsell;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie.push;
             option = _closure1_slot0;
             verify = _closure1_slot2;
-            entity = 14;
+            entity = 13;
             entity = verify[entity];
             entity = option.bind(tangon)(entity);
             entity = entity.DismissibleContent;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  194:
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
-            entity = 16;
+            entity = 15;
             entity = option[entity];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.bind(tangon)(michal);
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie.push;
             option = _closure1_slot0;
             verify = _closure1_slot2;
-            entity = 14;
+            entity = 13;
             entity = verify[entity];
             entity = option.bind(tangon)(entity);
             entity = entity.DismissibleContent;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  264:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
-            entity = 17;
+            entity = 16;
             entity = option[entity];
             zuuluu = zuuluu.bind(tangon)(entity);
             entity = zuuluu.useCanUseRoleSubscriptionIAP;
@@ -89,77 +89,73 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie.push;
             option = _closure1_slot0;
             verify = _closure1_slot2;
-            entity = 14;
+            entity = 13;
             entity = verify[entity];
             entity = option.bind(tangon)(entity);
             entity = entity.DismissibleContent;
             entity = entity.GUILD_ROLE_SUBSCRIPTION_IAP_UPSELL;
             entity = zuuluu.bind(golfie)(entity);
  340:
-            zuuluu = golfie.push;
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
-            option = 14;
-            entity = offset[option];
-            entity = verify.bind(tangon)(entity);
-            entity = entity.DismissibleContent;
-            entity = entity.ACTIVITIES_MOBILE_NUX;
-            entity = zuuluu.bind(golfie)(entity);
-            entity = 18;
-            entity = offset[entity];
-            zuuluu = verify.bind(tangon)(entity);
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
+            entity = 17;
+            entity = verify[entity];
+            zuuluu = option.bind(tangon)(entity);
             entity = zuuluu.useCanSeeSafetyEducationBlockMuteCoachmark;
             entity = entity.bind(zuuluu)();
-            zuuluu = 19;
-            zuuluu = offset[zuuluu];
-            verify = verify.bind(tangon)(zuuluu);
-            zuuluu = verify.useIsSafetyConsumerEducationBlockMuteBucket;
-            zuuluu = zuuluu.bind(verify)();
-            if(!entity) { _fun00002_ip = 516; continue _fun00001 }
- 429:
+            zuuluu = 18;
+            zuuluu = verify[zuuluu];
+            option = option.bind(tangon)(zuuluu);
+            zuuluu = option.useIsSafetyConsumerEducationBlockMuteBucket;
+            zuuluu = zuuluu.bind(option)();
+            if(!entity) { _fun00002_ip = 488; continue _fun00001 }
+ 395:
             entity = 1;
-            if(!(entity !== zuuluu)) { _fun00002_ip = 477; continue _fun00001 }
- 436:
+            if(!(entity !== zuuluu)) { _fun00002_ip = 446; continue _fun00001 }
+ 402:
             zuuluu = golfie.push;
-            verify = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[option];
-            entity = verify.bind(tangon)(entity);
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
+            entity = 13;
+            entity = verify[entity];
+            entity = option.bind(tangon)(entity);
             entity = entity.DismissibleContent;
             entity = entity.USER_SAFETY_CONSUMER_EDUCATION_BLOCK;
             entity = zuuluu.bind(golfie)(entity);
-            _fun00002_ip = 516; continue _fun00001;
- 477:
+            _fun00002_ip = 488; continue _fun00001;
+ 446:
             zuuluu = golfie.push;
-            verify = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[option];
-            entity = verify.bind(tangon)(entity);
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
+            entity = 13;
+            entity = verify[entity];
+            entity = option.bind(tangon)(entity);
             entity = entity.DismissibleContent;
             entity = entity.USER_SAFETY_CONSUMER_EDUCATION_MUTE;
             entity = zuuluu.bind(golfie)(entity);
- 516:
+ 488:
             zuuluu = _closure1_slot1;
-            verify = _closure1_slot2;
-            entity = 20;
-            entity = verify[entity];
+            option = _closure1_slot2;
+            entity = 19;
+            entity = option[entity];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.bind(tangon)(michal);
-            if(!entity) { _fun00002_ip = 583; continue _fun00001 }
- 544:
+            if(!entity) { _fun00002_ip = 558; continue _fun00001 }
+ 516:
             michal = golfie.push;
             zuuluu = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[option];
+            option = _closure1_slot2;
+            entity = 13;
+            entity = option[entity];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.DismissibleContent;
             entity = entity.SERVER_SUBSCRIPTION_TIER_TEMPLATE_UPSELL;
             entity = michal.bind(golfie)(entity);
- 583:
+ 558:
             zuuluu = _closure1_slot6;
             michal = _closure1_slot1;
             option = _closure1_slot2;
-            entity = 21;
+            entity = 20;
             entity = option[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
@@ -176,13 +172,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     var _closure3_slot0 = oscard;
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
-                    option = 14;
+                    option = 13;
                     entity = entity[option];
                     tangon = undefined;
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.GUILD_HEADER_ROLE_SUBSCRIPTION_UPSELL;
-                    if(!(entity !== michal)) { _fun00004_ip = 831; continue _fun00003 }
+                    if(!(entity !== michal)) { _fun00004_ip = 697; continue _fun00003 }
  65:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -190,183 +186,146 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.GUILD_ROLE_SUBSCRIPTION_IAP_UPSELL;
-                    if(!(entity !== michal)) { _fun00004_ip = 757; continue _fun00003 }
+                    if(!(entity !== michal)) { _fun00004_ip = 623; continue _fun00003 }
  101:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[option];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.DismissibleContent;
-                    entity = entity.ACTIVITIES_MOBILE_NUX;
-                    if(!(entity !== michal)) { _fun00004_ip = 659; continue _fun00003 }
+                    entity = entity.CREATOR_MONETIZATION_ONBOARDING_V2_UPSELL;
+                    if(!(entity !== michal)) { _fun00004_ip = 549; continue _fun00003 }
  137:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[option];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.DismissibleContent;
-                    entity = entity.CREATOR_MONETIZATION_ONBOARDING_V2_UPSELL;
-                    if(!(entity !== michal)) { _fun00004_ip = 585; continue _fun00003 }
+                    entity = entity.USER_SAFETY_CONSUMER_EDUCATION_MUTE;
+                    if(!(entity !== michal)) { _fun00004_ip = 486; continue _fun00003 }
  173:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[option];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.DismissibleContent;
-                    entity = entity.USER_SAFETY_CONSUMER_EDUCATION_MUTE;
-                    if(!(entity !== michal)) { _fun00004_ip = 522; continue _fun00003 }
+                    entity = entity.USER_SAFETY_CONSUMER_EDUCATION_BLOCK;
+                    if(!(entity !== michal)) { _fun00004_ip = 423; continue _fun00003 }
  209:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[option];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.DismissibleContent;
-                    entity = entity.USER_SAFETY_CONSUMER_EDUCATION_BLOCK;
-                    if(!(entity !== michal)) { _fun00004_ip = 459; continue _fun00003 }
- 245:
-                    zuuluu = _closure1_slot0;
-                    entity = _closure1_slot2;
-                    entity = entity[option];
-                    entity = zuuluu.bind(tangon)(entity);
-                    entity = entity.DismissibleContent;
                     entity = entity.SERVER_SUBSCRIPTION_TIER_TEMPLATE_UPSELL;
-                    if(!(entity !== michal)) { _fun00004_ip = 385; continue _fun00003 }
- 278:
+                    if(!(entity !== michal)) { _fun00004_ip = 349; continue _fun00003 }
+ 242:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[option];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.DismissibleContent;
                     entity = entity.NUX_GUILD_CHANNEL_EXPLAINER;
-                    if(!(entity !== michal)) { _fun00004_ip = 315; continue _fun00003 }
- 311:
+                    if(!(entity !== michal)) { _fun00004_ip = 279; continue _fun00003 }
+ 275:
                     entity = null;
                     return entity;
- 315:
+ 279:
                     zuuluu = _closure1_slot6;
                     michal = _closure1_slot0;
                     option = _closure1_slot2;
-                    entity = 22;
+                    entity = 21;
                     entity = option[entity];
                     entity = michal.bind(tangon)(entity);
                     michal = entity.DismissibleActionSheet;
                     entity = {};
-                    option = function(argFoo) { // Original name: markAsDismissed
+                    golfie = function(argFoo) { // Original name: markAsDismissed
                         zuuluu = _closure3_slot0;
                         michal = undefined;
                         entity = argFoo;
                         entity = zuuluu.bind(michal)(entity);
                         return entity;
                     };
-                    entity['markAsDismissed'] = option;
-                    option = _closure1_slot7;
-                    entity['actionSheetKey'] = option;
-                    option = _closure1_slot8;
-                    entity['importer'] = option;
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    return entity;
- 385:
-                    zuuluu = _closure1_slot6;
-                    michal = _closure1_slot0;
-                    option = _closure1_slot2;
-                    entity = 22;
-                    entity = option[entity];
-                    entity = michal.bind(tangon)(entity);
-                    michal = entity.DismissibleActionSheet;
-                    entity = {};
-                    option = _closure1_slot7;
-                    entity['actionSheetKey'] = option;
-                    option = _closure1_slot15;
-                    entity['importer'] = option;
-                    entity['markAsDismissed'] = oscard;
-                    option = _closure2_slot0;
-                    entity['guildId'] = option;
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    return entity;
- 459:
-                    zuuluu = _closure1_slot6;
-                    michal = _closure1_slot0;
-                    option = _closure1_slot2;
-                    entity = 22;
-                    entity = option[entity];
-                    entity = michal.bind(tangon)(entity);
-                    michal = entity.DismissibleActionSheet;
-                    entity = {};
-                    option = _closure1_slot7;
-                    entity['actionSheetKey'] = option;
-                    option = _closure1_slot13;
-                    entity['importer'] = option;
-                    entity['markAsDismissed'] = oscard;
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    return entity;
- 522:
-                    zuuluu = _closure1_slot6;
-                    michal = _closure1_slot0;
-                    option = _closure1_slot2;
-                    entity = 22;
-                    entity = option[entity];
-                    entity = michal.bind(tangon)(entity);
-                    michal = entity.DismissibleActionSheet;
-                    entity = {};
-                    option = _closure1_slot7;
-                    entity['actionSheetKey'] = option;
-                    option = _closure1_slot14;
-                    entity['importer'] = option;
-                    entity['markAsDismissed'] = oscard;
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    return entity;
- 585:
-                    zuuluu = _closure1_slot6;
-                    michal = _closure1_slot0;
-                    option = _closure1_slot2;
-                    entity = 22;
-                    entity = option[entity];
-                    entity = michal.bind(tangon)(entity);
-                    michal = entity.DismissibleActionSheet;
-                    entity = {};
-                    entity['markAsDismissed'] = oscard;
-                    option = _closure1_slot12;
-                    entity['importer'] = option;
-                    option = _closure1_slot7;
-                    entity['actionSheetKey'] = option;
-                    option = _closure2_slot0;
-                    entity['guildId'] = option;
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    return entity;
- 659:
-                    zuuluu = _closure1_slot6;
-                    option = _closure1_slot0;
-                    verify = _closure1_slot2;
-                    entity = 22;
-                    entity = verify[entity];
-                    entity = option.bind(tangon)(entity);
-                    michal = entity.DismissibleActionSheet;
-                    entity = {};
-                    golfie = function(argFoo) { // Original name: markAsDismissed
-                        zuuluu = _closure3_slot0;
-                        entity = undefined;
-                        michal = argFoo;
-                        michal = zuuluu.bind(entity)(michal);
-                        return entity;
-                    };
                     entity['markAsDismissed'] = golfie;
+                    golfie = _closure1_slot7;
+                    entity['actionSheetKey'] = golfie;
+                    golfie = _closure1_slot8;
+                    entity['importer'] = golfie;
+                    entity = zuuluu.bind(tangon)(michal, entity);
+                    return entity;
+ 349:
+                    zuuluu = _closure1_slot6;
+                    michal = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    entity = 21;
+                    entity = golfie[entity];
+                    entity = michal.bind(tangon)(entity);
+                    michal = entity.DismissibleActionSheet;
+                    entity = {};
+                    golfie = _closure1_slot7;
+                    entity['actionSheetKey'] = golfie;
+                    golfie = _closure1_slot14;
+                    entity['importer'] = golfie;
+                    entity['markAsDismissed'] = oscard;
+                    golfie = _closure2_slot0;
+                    entity['guildId'] = golfie;
+                    entity = zuuluu.bind(tangon)(michal, entity);
+                    return entity;
+ 423:
+                    zuuluu = _closure1_slot6;
+                    michal = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    entity = 21;
+                    entity = golfie[entity];
+                    entity = michal.bind(tangon)(entity);
+                    michal = entity.DismissibleActionSheet;
+                    entity = {};
+                    golfie = _closure1_slot7;
+                    entity['actionSheetKey'] = golfie;
+                    golfie = _closure1_slot12;
+                    entity['importer'] = golfie;
+                    entity['markAsDismissed'] = oscard;
+                    entity = zuuluu.bind(tangon)(michal, entity);
+                    return entity;
+ 486:
+                    zuuluu = _closure1_slot6;
+                    michal = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    entity = 21;
+                    entity = golfie[entity];
+                    entity = michal.bind(tangon)(entity);
+                    michal = entity.DismissibleActionSheet;
+                    entity = {};
+                    golfie = _closure1_slot7;
+                    entity['actionSheetKey'] = golfie;
+                    golfie = _closure1_slot13;
+                    entity['importer'] = golfie;
+                    entity['markAsDismissed'] = oscard;
+                    entity = zuuluu.bind(tangon)(michal, entity);
+                    return entity;
+ 549:
+                    zuuluu = _closure1_slot6;
+                    michal = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    entity = 21;
+                    entity = golfie[entity];
+                    entity = michal.bind(tangon)(entity);
+                    michal = entity.DismissibleActionSheet;
+                    entity = {};
+                    entity['markAsDismissed'] = oscard;
                     golfie = _closure1_slot11;
                     entity['importer'] = golfie;
                     golfie = _closure1_slot7;
                     entity['actionSheetKey'] = golfie;
-                    golfie = 23;
-                    golfie = verify[golfie];
-                    golfie = option.bind(tangon)(golfie);
-                    golfie = golfie.TutorialTypes;
-                    golfie = golfie.NUX;
-                    entity['type'] = golfie;
+                    golfie = _closure2_slot0;
+                    entity['guildId'] = golfie;
                     entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
- 757:
+ 623:
                     zuuluu = _closure1_slot6;
                     michal = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    entity = 22;
+                    entity = 21;
                     entity = golfie[entity];
                     entity = michal.bind(tangon)(entity);
                     michal = entity.DismissibleActionSheet;
@@ -380,11 +339,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['guildId'] = golfie;
                     entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
- 831:
+ 697:
                     zuuluu = _closure1_slot6;
                     michal = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    entity = 22;
+                    entity = 21;
                     entity = golfie[entity];
                     entity = michal.bind(tangon)(entity);
                     michal = entity.DismissibleActionSheet;
@@ -405,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot17 = michal;
+    var _closure1_slot16 = michal;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -478,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot10 = report;
-    report = function() { // Original name: ActivitiesTutorialActionSheetImporter
+    report = function() { // Original name: CreatorMonetizationOnboardingV2UpsellActionSheetImporter
         zuuluu = _closure1_slot0;
         entity = _closure1_slot2;
         michal = 5;
@@ -492,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot11 = report;
-    report = function() { // Original name: CreatorMonetizationOnboardingV2UpsellActionSheetImporter
+    report = function() { // Original name: UserSafetyEducationBlockActionSheetImporter
         zuuluu = _closure1_slot0;
         entity = _closure1_slot2;
         michal = 5;
@@ -506,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot12 = report;
-    report = function() { // Original name: UserSafetyEducationBlockActionSheetImporter
+    report = function() { // Original name: UserSafetyEducationMuteActionSheetImporter
         zuuluu = _closure1_slot0;
         entity = _closure1_slot2;
         michal = 5;
@@ -520,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot13 = report;
-    report = function() { // Original name: UserSafetyEducationMuteActionSheetImporter
+    report = function() { // Original name: TierTemplatesUpsellActionSheetImporter
         zuuluu = _closure1_slot0;
         entity = _closure1_slot2;
         michal = 5;
@@ -534,25 +493,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot14 = report;
-    report = function() { // Original name: TierTemplatesUpsellActionSheetImporter
-        zuuluu = _closure1_slot0;
-        entity = _closure1_slot2;
-        michal = 5;
-        michal = entity[michal];
-        tangon = undefined;
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = 12;
-        michal = entity[michal];
-        entity = entity.paths;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
-    };
-    var _closure1_slot15 = report;
     report = {};
     option = 'function GuildTooltipActionSheetsTsx1(){const{runOnJS,setShouldRender}=this.__closure;return runOnJS(setShouldRender)(true);}';
     report['code'] = option;
-    var _closure1_slot16 = report;
-    report = 25;
+    var _closure1_slot15 = report;
+    report = 23;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -578,7 +523,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = function() {
                 option = _closure1_slot0;
                 verify = _closure1_slot2;
-                golfie = 24;
+                golfie = 22;
                 michal = verify[golfie];
                 entity = undefined;
                 tangon = option.bind(entity)(michal);
@@ -586,7 +531,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = function() { // Original name: s
                     michal = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    entity = 24;
+                    entity = 22;
                     entity = zuuluu[entity];
                     zuuluu = undefined;
                     tangon = michal.bind(zuuluu)(entity);
@@ -607,7 +552,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['__closure'] = oscard;
                 oscard = 6076095421855.0;
                 michal['__workletHash'] = oscard;
-                report = _closure1_slot16;
+                report = _closure1_slot15;
                 michal['__initData'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 michal = michal.bind(entity)();
@@ -619,7 +564,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!zuuluu) { _fun00006_ip = 106; continue _fun00005 }
  80:
             tangon = _closure1_slot6;
-            zuuluu = _closure1_slot17;
+            zuuluu = _closure1_slot16;
             michal = {};
             option = argFoo;
             verify = michal;

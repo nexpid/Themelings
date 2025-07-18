@@ -585,10 +585,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.isAndroid;
             sizing = kiloes.bind(sizing)();
             kiloes = 'ascii-capable';
-            if(!sizing) { _fun00004_ip = 594; continue _fun00003 }
- 588:
+            if(!sizing) { _fun00004_ip = 590; continue _fun00003 }
+ 584:
             kiloes = 'visible-password';
- 594:
+ 590:
             yankee['keyboardType'] = kiloes;
             yankee['value'] = backup;
             yankee = foxtra.bind(tangon)(romeon, yankee);

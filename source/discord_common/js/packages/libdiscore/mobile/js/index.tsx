@@ -147,21 +147,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity['registerStore'] = zuuluu;
-            zuuluu = function() { // Original name: getActions
-                michal = _closure1_slot2;
-                entity = michal.getRegisteredActionTypes;
-                entity = entity.bind(michal)();
-                return entity;
-            };
-            entity['getActions'] = zuuluu;
-            michal = function(argFoo) { // Original name: dispatchAction
+            tangon = _closure1_slot2;
+            tangon = tangon.getRegisteredActionTypes;
+            entity['getActions'] = tangon;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.dispatchAction;
+            entity['dispatchAction'] = zuuluu;
+            michal = function(argFoo) { // Original name: getMemoryStatistics
                 zuuluu = _closure1_slot2;
-                michal = zuuluu.dispatchAction;
+                michal = zuuluu.getKvStoreMemoryStatistics;
                 entity = argFoo;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            entity['dispatchAction'] = michal;
+            entity['getMemoryStatistics'] = michal;
             return entity;
         };
         zuuluu['getKvDatabaseApi'] = tangon;

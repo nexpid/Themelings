@@ -636,10 +636,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     michal = _closure2_slot10;
-                    if(michal) { _fun00018_ip = 185; continue _fun00017 }
+                    if(michal) { _fun00018_ip = 178; continue _fun00017 }
  13:
                     michal = _closure2_slot11;
-                    if(michal) { _fun00018_ip = 185; continue _fun00017 }
+                    if(michal) { _fun00018_ip = 178; continue _fun00017 }
  23:
                     michal = _closure2_slot12;
                     zuuluu = _closure1_slot0;
@@ -652,7 +652,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = zuuluu.bind(michal)(tangon);
                     michal = tangon.navigateToNitroManagement;
                     michal = michal.bind(tangon)();
-                    _fun00018_ip = 274; continue _fun00017;
+                    _fun00018_ip = 267; continue _fun00017;
  70:
                     michal = 25;
                     michal = verify[michal];
@@ -680,11 +680,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = _closure1_slot12;
                     report = report.SHOP_ALL;
                     michal['screen'] = report;
-                    report = false;
-                    michal['scrollToTop'] = report;
                     michal = zuuluu.bind(tangon)(michal);
-                    _fun00018_ip = 274; continue _fun00017;
- 185:
+                    _fun00018_ip = 267; continue _fun00017;
+ 178:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
                     michal = 23;
@@ -704,7 +702,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot1;
                     entity = _closure2_slot7;
                     entity = zuuluu.bind(tangon)(michal, entity);
- 274:
+ 267:
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
                     entity = 28;

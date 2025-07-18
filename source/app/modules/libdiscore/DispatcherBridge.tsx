@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = undefined;
             if(!verify) { _fun00002_ip = 246; continue _fun00001 }
  233:
-            verify = _closure1_slot10;
+            verify = _closure1_slot11;
             golfie = verify.bind(option)(zuuluu, option);
  246:
             _fun00002_ip = 264; continue _fun00001;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie;
             _fun00002_ip = 282; continue _fun00001;
  269:
-            golfie = _closure1_slot10;
+            golfie = _closure1_slot11;
             oscard = golfie.bind(option)(zuuluu, option);
  282:
             tangon = oscard;
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot10 = entity;
     entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot11 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -218,6 +218,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot6 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AnalyticEvents;
+    var _closure1_slot7 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
     yankee = offset.bind(entity)(tangon);
     tangon = yankee.prototype;
     offset = Object.create(tangon, {constructor: {value: yankee}});
@@ -225,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     kiloes = offset;
     tangon = new kiloes[yankee](backup, foxtra);
     tangon = tangon instanceof Object ? tangon : offset;
-    var _closure1_slot7 = tangon;
+    var _closure1_slot8 = tangon;
     tangon = new Array(2);
     tangon[0] = verify;
     tangon[1] = golfie;
@@ -275,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     golfie['BACKGROUND_SYNC'] = verify;
-    var _closure1_slot8 = golfie;
+    var _closure1_slot9 = golfie;
     golfie = function(argFoo) { // Original name: DispatcherBridge
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -290,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = undefined;
             var _closure2_slot1 = romeon;
             golfie = _closure1_slot3;
-            report = _closure1_slot11;
+            report = _closure1_slot12;
             report = golfie.bind(entity)(romeon, report);
             report = global;
             golfie = report.Map;
@@ -303,7 +308,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  79: // try_start_0
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = foxtra[golfie];
             romeon = romeon.bind(entity)(golfie);
             golfie = romeon.getKvStoreApi;
@@ -358,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = undefined;
                 return entity;
             };
-            romeon = _closure1_slot9;
+            romeon = _closure1_slot10;
             golfie = option;
             golfie = romeon.bind(entity)(golfie);
             yankee = golfie;
@@ -377,7 +382,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.done;
             if(!golfie) { _fun00008_ip = 173; continue _fun00007 }
  207:
-            golfie = _closure1_slot7;
+            golfie = _closure1_slot8;
             verify = golfie.info;
             backup = option.length;
             offset = oscard;
@@ -410,89 +415,158 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = function(argFoo) { // Original name: actionHandler
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                    yankee = argFoo;
-                    michal = _closure1_slot8;
-                    entity = yankee.type;
+                    romeon = argFoo;
+                    michal = _closure1_slot9;
+                    entity = romeon.type;
                     oscard = michal[entity];
-                    verify = null;
-                    if(!(verify == oscard)) { _fun00010_ip = 46; continue _fun00009 }
- 25:
-                    entity = global;
-                    michal = entity.JSON;
+                    offset = global;
+                    michal = offset.performance;
+                    entity = michal.now;
+                    option = entity.bind(michal)();
+                    golfie = null;
+                    if(!(golfie == oscard)) { _fun00010_ip = 61; continue _fun00009 }
+ 42:
+                    michal = offset.JSON;
                     entity = michal.stringify;
-                    zuuluu = entity.bind(michal)(yankee);
-                    _fun00010_ip = 90; continue _fun00009;
- 46:
-                    entity = global;
-                    tangon = entity.JSON;
+                    yankee = entity.bind(michal)(romeon);
+                    _fun00010_ip = 103; continue _fun00009;
+ 61:
+                    tangon = offset.JSON;
                     michal = tangon.stringify;
                     entity = {};
-                    report = yankee.type;
+                    report = romeon.type;
                     entity['type'] = report;
                     report = undefined;
-                    result = oscard.bind(report)(yankee);
-                    echoed = entity;
-                    report = copyDataProperties(echoed, result);
-                    zuuluu = michal.bind(tangon)(entity);
- 90:
-                    michal = _closure2_slot2;
-                    entity = michal.dispatchAction;
-                    entity = entity.bind(michal)(zuuluu);
-                    if(!(verify == entity)) { _fun00010_ip = 151; continue _fun00009 }
- 112:
-                    oscard = _closure1_slot7;
-                    report = oscard.info;
-                    tangon = yankee.type;
-                    zuuluu = 'When dispatching action';
-                    michal = 'libdiscore returned a failure. Check native logs for more info.';
-                    michal = report.bind(oscard)(zuuluu, tangon, michal);
-                    _fun00010_ip = 290; continue _fun00009;
- 151:
-                    michal = _closure1_slot9;
-                    entity = entity.storeTokens;
-                    golfie = undefined;
-                    oscard = michal.bind(golfie)(entity);
-                    michal = oscard.bind(golfie)();
-                    entity = michal.done;
-                    report = 'When dispatching action';
-                    tangon = 'we got a store token';
-                    zuuluu = 'that is unknown';
-                    if(entity) { _fun00010_ip = 290; continue _fun00009 }
- 200:
-                    backup = michal.value;
-                    entity = _closure2_slot0;
-                    romeon = entity.tokenToStore;
-                    entity = romeon.get;
-                    romeon = entity.bind(romeon)(backup);
-                    if(!(verify != romeon)) { _fun00010_ip = 242; continue _fun00009 }
- 229:
-                    entity = romeon.doEmitChanges;
-                    entity = entity.bind(romeon)(yankee);
-                    _fun00010_ip = 275; continue _fun00009;
- 242:
-                    foxtra = _closure1_slot7;
-                    romeon = foxtra.warn;
-                    result = yankee.type;
-                    update = foxtra;
-                    echoed = report;
-                    output = tangon;
-                    sizing = backup;
-                    kiloes = zuuluu;
-                    entity = update[romeon](echoed, result, output, sizing, kiloes, backup);
- 275:
-                    romeon = oscard.bind(golfie)();
-                    entity = romeon.done;
-                    michal = romeon;
-                    if(!entity) { _fun00010_ip = 200; continue _fun00009 }
- 290:
+                    sequen = oscard.bind(report)(romeon);
+                    config = entity;
+                    report = copyDataProperties(config, sequen);
+                    yankee = michal.bind(tangon)(entity);
+ 103:
+                    michal = {};
+                    entity = 'json_stringify_action';
+                    michal['kind'] = entity;
+                    tangon = offset.performance;
+                    entity = tangon.now;
+                    entity = entity.bind(tangon)();
+                    entity = entity - option;
+                    michal['durationMillis'] = entity;
+                    oscard = _closure1_slot0;
+                    entity = _closure1_slot2;
+                    tangon = 9;
+                    report = entity[tangon];
                     entity = undefined;
+                    report = oscard.bind(entity)(report);
+                    oscard = report.TelemetryExperiment;
+                    report = oscard.shouldCollectMetrics;
+                    report = report.bind(oscard)();
+                    verify = _closure2_slot2;
+                    oscard = verify.dispatchAction;
+                    verify = oscard.bind(verify)(yankee, report);
+                    yankee = offset.performance;
+                    oscard = yankee.now;
+                    oscard = oscard.bind(yankee)();
+                    yankee = oscard - option;
+                    if(!(golfie == verify)) { _fun00010_ip = 260; continue _fun00009 }
+ 221:
+                    kiloes = _closure1_slot8;
+                    backup = kiloes.info;
+                    foxtra = romeon.type;
+                    option = 'When dispatching action';
+                    oscard = 'libdiscore returned a failure. Check native logs for more info.';
+                    oscard = backup.bind(kiloes)(option, foxtra, oscard);
+                    _fun00010_ip = 627; continue _fun00009;
+ 260:
+                    option = _closure1_slot10;
+                    oscard = verify.storeTokens;
+                    sizing = option.bind(entity)(oscard);
+                    option = sizing.bind(entity)();
+                    oscard = option.done;
+                    kiloes = 'When dispatching action';
+                    backup = 'we got a store token';
+                    foxtra = 'that is unknown';
+                    if(oscard) { _fun00010_ip = 397; continue _fun00009 }
+ 307:
+                    update = option.value;
+                    oscard = _closure2_slot0;
+                    result = oscard.tokenToStore;
+                    oscard = result.get;
+                    result = oscard.bind(result)(update);
+                    if(!(golfie != result)) { _fun00010_ip = 349; continue _fun00009 }
+ 336:
+                    oscard = result.doEmitChanges;
+                    oscard = oscard.bind(result)(romeon);
+                    _fun00010_ip = 382; continue _fun00009;
+ 349:
+                    echoed = _closure1_slot8;
+                    result = echoed.warn;
+                    sequen = romeon.type;
+                    record = echoed;
+                    config = kiloes;
+                    vacuum = backup;
+                    ctrled = update;
+                    source = foxtra;
+                    oscard = record[result](config, sequen, vacuum, ctrled, source, update);
+ 382:
+                    result = sizing.bind(entity)();
+                    oscard = result.done;
+                    option = result;
+                    if(!oscard) { _fun00010_ip = 307; continue _fun00009 }
+ 397:
+                    oscard = verify.metrics;
+                    if(!(golfie != oscard)) { _fun00010_ip = 627; continue _fun00009 }
+ 410:
+                    if(!report) { _fun00010_ip = 627; continue _fun00009 }
+ 416:
+                    foxtra = new Array(1);
+                    foxtra[0] = michal;
+                    michal = verify.metrics;
+                    sequen = michal.timings;
+                    vacuum = 1;
+                    config = foxtra;
+                    michal = arraySpread(config, sequen, vacuum);
+                    oscard = _closure1_slot1;
+                    michal = _closure1_slot2;
+                    report = 10;
+                    report = michal[report];
+                    option = oscard.bind(entity)(report);
+                    golfie = option.track;
+                    report = _closure1_slot7;
+                    oscard = report.LIBDISCORE_DISPATCH_BRIDGE_TELEMETRY;
+                    report = {};
+                    romeon = romeon.type;
+                    report['action_type'] = romeon;
+                    report['total_duration_millis'] = yankee;
+                    romeon = offset.JSON;
+                    yankee = romeon.stringify;
+                    yankee = yankee.bind(romeon)(foxtra);
+                    report['timings'] = yankee;
+                    foxtra = offset.JSON;
+                    romeon = foxtra.stringify;
+                    yankee = verify.metrics;
+                    yankee = yankee.mutations;
+                    yankee = romeon.bind(foxtra)(yankee);
+                    report['mutations'] = yankee;
+                    yankee = offset.JSON;
+                    offset = yankee.stringify;
+                    verify = verify.metrics;
+                    verify = verify.memory;
+                    verify = offset.bind(yankee)(verify);
+                    report['memory_usage'] = verify;
+                    report = golfie.bind(option)(oscard, report);
+                    zuuluu = _closure1_slot0;
+                    michal = michal[tangon];
+                    michal = zuuluu.bind(entity)(michal);
+                    zuuluu = michal.TelemetryExperiment;
+                    michal = zuuluu.didEmit;
+                    michal = michal.bind(zuuluu)();
+ 627:
                     return entity;
                 }
             };
             var _closure2_slot4 = tangon;
             golfie = _closure1_slot1;
             verify = _closure1_slot2;
-            tangon = 8;
+            tangon = 11;
             oscard = verify[tangon];
             option = golfie.bind(entity)(oscard);
             golfie = option.register;
@@ -524,7 +598,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  468: // try_end0
             _fun00008_ip = 518; continue _fun00007;
  470: // try_start_1
-            report = _closure1_slot7;
+            report = _closure1_slot8;
             tangon = report.info;
             zuuluu = 'Not initializing the action bridge, because discore kvStoreApi is unavailable.';
             zuuluu = tangon.bind(report)(zuuluu);
@@ -533,7 +607,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return zuuluu;
  495: // catch_target0 // catch_target1
             CatchBlockStart(arg_register=4);
-            tangon = _closure1_slot7;
+            tangon = _closure1_slot8;
             zuuluu = tangon.error;
             michal = 'Failed to initialize the dispatcher bridge';
             michal = zuuluu.bind(tangon)(michal, report);
@@ -541,7 +615,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot11 = golfie;
+    var _closure1_slot12 = golfie;
     golfie = option.bind(entity)(golfie);
     michal = function(argFoo) { // Original name: filterKvStores
         zuuluu = argFoo;
@@ -561,7 +635,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     kiloes = tangon;
     michal = new kiloes[golfie](backup, foxtra);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 9;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

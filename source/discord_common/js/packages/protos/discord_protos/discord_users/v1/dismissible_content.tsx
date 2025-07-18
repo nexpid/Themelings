@@ -602,10 +602,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['SUPER_REACTIONS_TOOLTIP_COACHMARK'] = michal;
     entity = 'SUPER_REACTIONS_TOOLTIP_COACHMARK';
     tangon[michal] = entity;
-    michal = 216;
-    tangon['SOUNDBOARD_VOLUME_EDUCATION'] = michal;
-    entity = 'SOUNDBOARD_VOLUME_EDUCATION';
-    tangon[michal] = entity;
     michal = 217;
     tangon['NAGBAR_NOTICE_POMELO'] = michal;
     entity = 'NAGBAR_NOTICE_POMELO';

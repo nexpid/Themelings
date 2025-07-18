@@ -10,29 +10,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function() { // Original name: useSwipeToReplySettingValue
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscard = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 7;
-            entity = zuuluu[entity];
+            report = _closure1_slot0;
+            oscard = _closure1_slot2;
+            entity = 6;
+            entity = oscard[entity];
             tangon = undefined;
-            entity = oscard.bind(tangon)(entity);
-            report = entity.SwipeRightToLeftModeSetting;
-            entity = report.useSetting;
-            entity = entity.bind(report)();
-            report = 4;
-            zuuluu = zuuluu[report];
-            zuuluu = oscard.bind(tangon)(zuuluu);
+            entity = report.bind(tangon)(entity);
+            michal = entity.SwipeRightToLeftModeSetting;
+            entity = michal.useSetting;
+            entity = entity.bind(michal)();
+            michal = 7;
+            michal = oscard[michal];
+            zuuluu = report.bind(tangon)(michal);
+            michal = zuuluu.useSwipeActionDefaultValue;
+            michal = michal.bind(zuuluu)();
+            zuuluu = 3;
+            zuuluu = oscard[zuuluu];
+            zuuluu = report.bind(tangon)(zuuluu);
             zuuluu = zuuluu.SwipeRightToLeftMode;
             zuuluu = zuuluu.SWIPE_RIGHT_TO_LEFT_UNSET;
-            if(!(entity === zuuluu)) { _fun00002_ip = 98; continue _fun00001 }
- 69:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[report];
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.SwipeRightToLeftMode;
-            entity = michal.SWIPE_RIGHT_TO_LEFT_CHANNEL_DETAILS;
- 98:
+            if(!(entity === zuuluu)) { _fun00002_ip = 94; continue _fun00001 }
+ 91:
+            entity = michal;
+ 94:
             return entity;
         }
     };
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function() { // Original name: title
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 5;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function() { // Original name: additionalSearchTerms
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 5;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -110,13 +110,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = zuuluu.bind(entity)(michal);
         zuuluu = _closure1_slot0;
         report = _closure1_slot2;
-        michal = 4;
+        michal = 3;
         michal = report[michal];
         michal = zuuluu.bind(entity)(michal);
         michal = michal.SwipeRightToLeftMode;
         verify = michal.SWIPE_RIGHT_TO_LEFT_REPLY;
         oscard = _closure1_slot1;
-        michal = 6;
+        michal = 5;
         michal = report[michal];
         option = oscard.bind(entity)(michal);
         golfie = option.track;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify['section'] = offset;
         michal['location'] = verify;
         michal = golfie.bind(option)(oscard, michal);
-        michal = 7;
+        michal = 6;
         michal = report[michal];
         michal = zuuluu.bind(entity)(michal);
         zuuluu = michal.SwipeRightToLeftModeSetting;
@@ -144,14 +144,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = {};
         golfie = _closure1_slot0;
         option = _closure1_slot2;
-        tangon = 4;
+        tangon = 3;
         entity = option[tangon];
         oscard = undefined;
         entity = golfie.bind(oscard)(entity);
         entity = entity.SwipeRightToLeftMode;
         entity = entity.SWIPE_RIGHT_TO_LEFT_CHANNEL_DETAILS;
         michal['value'] = entity;
-        zuuluu = 5;
+        zuuluu = 4;
         entity = option[zuuluu];
         entity = golfie.bind(oscard)(entity);
         verify = entity.intl;
@@ -194,19 +194,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     report['useOptions'] = oscard;
-    oscard = function() { // Original name: useHasSwipeToReplySetting
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot2;
-        entity = 3;
-        michal = michal[entity];
-        entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.useIsSwipeToMemberListExperimentEnabled;
-        entity = 'settings';
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
-    };
-    report['usePredicate'] = oscard;
     oscard = 8;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
@@ -218,29 +205,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function() { // Original name: getSwipeToReplySettingValue
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscard = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 7;
-            entity = zuuluu[entity];
+            report = _closure1_slot0;
+            oscard = _closure1_slot2;
+            entity = 6;
+            entity = oscard[entity];
             tangon = undefined;
-            entity = oscard.bind(tangon)(entity);
-            report = entity.SwipeRightToLeftModeSetting;
-            entity = report.getSetting;
-            entity = entity.bind(report)();
-            report = 4;
-            zuuluu = zuuluu[report];
-            zuuluu = oscard.bind(tangon)(zuuluu);
+            entity = report.bind(tangon)(entity);
+            zuuluu = entity.SwipeRightToLeftModeSetting;
+            entity = zuuluu.getSetting;
+            entity = entity.bind(zuuluu)();
+            zuuluu = 3;
+            zuuluu = oscard[zuuluu];
+            zuuluu = report.bind(tangon)(zuuluu);
             zuuluu = zuuluu.SwipeRightToLeftMode;
             zuuluu = zuuluu.SWIPE_RIGHT_TO_LEFT_UNSET;
-            if(!(entity === zuuluu)) { _fun00004_ip = 98; continue _fun00003 }
+            if(!(entity === zuuluu)) { _fun00004_ip = 99; continue _fun00003 }
  69:
             zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[report];
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.SwipeRightToLeftMode;
-            entity = michal.SWIPE_RIGHT_TO_LEFT_CHANNEL_DETAILS;
- 98:
+            report = _closure1_slot2;
+            michal = 7;
+            michal = report[michal];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = zuuluu.getSwipeActionDefaultValue;
+            entity = michal.bind(zuuluu)();
+ 99:
             return entity;
         }
     };

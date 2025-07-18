@@ -139,36 +139,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = 26;
                     zuuluu = report[zuuluu];
                     tangon = tangon.bind(entity)(zuuluu);
-                    zuuluu = tangon.getIsSwipeToMemberListExperimentEnabled;
-                    golfie = 'channel-header-search';
-                    zuuluu = zuuluu.bind(tangon)(golfie);
+                    zuuluu = tangon.isSwipeToMemberListEnabled;
+                    zuuluu = zuuluu.bind(tangon)();
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    if(zuuluu) { _fun00004_ip = 268; continue _fun00003 }
- 176:
+                    if(zuuluu) { _fun00004_ip = 261; continue _fun00003 }
+ 169:
                     zuuluu = 28;
                     zuuluu = report[zuuluu];
-                    option = tangon.bind(entity)(zuuluu);
-                    zuuluu = option.getRootNavigationRef;
-                    offset = zuuluu.bind(option)();
+                    golfie = tangon.bind(entity)(zuuluu);
+                    zuuluu = golfie.getRootNavigationRef;
+                    verify = zuuluu.bind(golfie)();
                     zuuluu = null;
-                    if(!(zuuluu != offset)) { _fun00004_ip = 266; continue _fun00003 }
- 204:
-                    zuuluu = offset.isReady;
-                    zuuluu = zuuluu.bind(offset)();
-                    if(!zuuluu) { _fun00004_ip = 266; continue _fun00003 }
- 217:
-                    verify = offset.navigate;
-                    option = {'channelId': null, 'search': true, 'source': 'channel-header-search'};
+                    if(!(zuuluu != verify)) { _fun00004_ip = 259; continue _fun00003 }
+ 197:
+                    zuuluu = verify.isReady;
+                    zuuluu = zuuluu.bind(verify)();
+                    if(!zuuluu) { _fun00004_ip = 259; continue _fun00003 }
+ 210:
+                    option = verify.navigate;
+                    golfie = {'channelId': null, 'search': true, 'source': 'channel-header-search'};
                     zuuluu = _closure2_slot0;
                     zuuluu = zuuluu.id;
-                    option['channelId'] = zuuluu;
+                    golfie['channelId'] = zuuluu;
                     zuuluu = 'sidebar';
-                    zuuluu = verify.bind(offset)(zuuluu, option);
-                    _fun00004_ip = 335; continue _fun00003;
- 266:
+                    zuuluu = option.bind(verify)(zuuluu, golfie);
+                    _fun00004_ip = 334; continue _fun00003;
+ 259:
                     return entity;
- 268:
+ 261:
                     zuuluu = 27;
                     zuuluu = report[zuuluu];
                     zuuluu = tangon.bind(entity)(zuuluu);
@@ -177,6 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure1_slot10;
                     zuuluu = michal.SHOW_CHANNEL_DETAILS;
                     michal = {};
+                    golfie = 'channel-header-search';
                     michal['source'] = golfie;
                     golfie = _closure2_slot0;
                     golfie = golfie.id;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = _closure2_slot1;
                     michal['screenIndex'] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
- 335:
+ 334:
                     return entity;
                 }
             };

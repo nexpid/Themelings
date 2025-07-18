@@ -1477,8 +1477,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.bind(golfie)();
                     report['hardware_enabled'] = oscard;
                     oscard = _closure2_slot14;
-                    if(!(zuuluu == oscard)) { _fun00016_ip = 2325; continue _fun00015 }
- 2281:
+                    if(!(zuuluu == oscard)) { _fun00016_ip = 2323; continue _fun00015 }
+ 2279:
                     option = _closure1_slot7;
                     oscard = option.getInputDevices;
                     golfie = oscard.bind(option)();
@@ -1487,18 +1487,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = golfie[oscard];
                     option = zuuluu == golfie;
                     oscard = undefined;
-                    if(option) { _fun00016_ip = 2323; continue _fun00015 }
- 2318:
+                    if(option) { _fun00016_ip = 2321; continue _fun00015 }
+ 2316:
                     oscard = golfie.name;
+ 2321:
+                    _fun00016_ip = 2327; continue _fun00015;
  2323:
-                    _fun00016_ip = 2329; continue _fun00015;
- 2325:
                     oscard = _closure2_slot14;
- 2329:
+ 2327:
                     report['audio_input_device_name'] = oscard;
                     oscard = _closure2_slot15;
-                    if(!(zuuluu == oscard)) { _fun00016_ip = 2388; continue _fun00015 }
- 2344:
+                    if(!(zuuluu == oscard)) { _fun00016_ip = 2386; continue _fun00015 }
+ 2342:
                     option = _closure1_slot7;
                     oscard = option.getOutputDevices;
                     golfie = oscard.bind(option)();
@@ -1507,18 +1507,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = golfie[oscard];
                     option = zuuluu == golfie;
                     oscard = undefined;
-                    if(option) { _fun00016_ip = 2386; continue _fun00015 }
- 2381:
+                    if(option) { _fun00016_ip = 2384; continue _fun00015 }
+ 2379:
                     oscard = golfie.name;
+ 2384:
+                    _fun00016_ip = 2390; continue _fun00015;
  2386:
-                    _fun00016_ip = 2392; continue _fun00015;
- 2388:
                     oscard = _closure2_slot15;
- 2392:
+ 2390:
                     report['audio_output_device_name'] = oscard;
                     oscard = _closure2_slot16;
-                    if(!(zuuluu == oscard)) { _fun00016_ip = 2451; continue _fun00015 }
- 2407:
+                    if(!(zuuluu == oscard)) { _fun00016_ip = 2449; continue _fun00015 }
+ 2405:
                     option = _closure1_slot7;
                     oscard = option.getVideoDevices;
                     golfie = oscard.bind(option)();
@@ -1527,14 +1527,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = golfie[oscard];
                     golfie = zuuluu == oscard;
                     zuuluu = undefined;
-                    if(golfie) { _fun00016_ip = 2449; continue _fun00015 }
- 2444:
+                    if(golfie) { _fun00016_ip = 2447; continue _fun00015 }
+ 2442:
                     zuuluu = oscard.name;
+ 2447:
+                    _fun00016_ip = 2453; continue _fun00015;
  2449:
-                    _fun00016_ip = 2455; continue _fun00015;
- 2451:
                     zuuluu = _closure2_slot16;
- 2455:
+ 2453:
                     report['video_device_name'] = zuuluu;
                     golfie = _closure1_slot7;
                     zuuluu = golfie.getMediaEngine;

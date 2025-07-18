@@ -21,14 +21,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 7;
             michal = tangon[michal];
             tangon = undefined;
-            yankee = golfie.bind(tangon)(michal);
-            golfie = yankee.useIsSwipeToMemberListExperimentEnabled;
-            michal = global;
-            michal = michal.HermesInternal;
-            romeon = michal.concat;
-            michal = 'SearchTabsPage-';
-            michal = romeon.bind(michal)(offset);
-            yankee = golfie.bind(yankee)(michal);
+            golfie = golfie.bind(tangon)(michal);
+            michal = golfie.useIsSwipeToMemberListEnabled;
+            yankee = michal.bind(golfie)();
             golfie = _closure1_slot4;
             michal = golfie.useState;
             romeon = michal.bind(golfie)(verify);
@@ -59,54 +54,54 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu = new Array(0);
             zuuluu = romeon.bind(foxtra)(golfie, zuuluu);
-            if(michal) { _fun00002_ip = 172; continue _fun00001 }
- 168:
+            if(michal) { _fun00002_ip = 147; continue _fun00001 }
+ 143:
             michal = null;
             return michal;
- 172:
+ 147:
             michal = _closure1_slot7;
             michal = michal.RECENT;
-            if(!(michal !== offset)) { _fun00002_ip = 792; continue _fun00001 }
- 189:
+            if(!(michal !== offset)) { _fun00002_ip = 767; continue _fun00001 }
+ 164:
             michal = _closure1_slot7;
             michal = michal.PEOPLE;
-            if(!(michal !== offset)) { _fun00002_ip = 748; continue _fun00001 }
- 206:
+            if(!(michal !== offset)) { _fun00002_ip = 723; continue _fun00001 }
+ 181:
             michal = _closure1_slot7;
             michal = michal.MEMBERS;
-            if(!(michal !== offset)) { _fun00002_ip = 704; continue _fun00001 }
- 223:
+            if(!(michal !== offset)) { _fun00002_ip = 679; continue _fun00001 }
+ 198:
             michal = _closure1_slot7;
             michal = michal.GUILD_CHANNELS;
-            if(!(michal !== offset)) { _fun00002_ip = 660; continue _fun00001 }
- 240:
+            if(!(michal !== offset)) { _fun00002_ip = 635; continue _fun00001 }
+ 215:
             michal = _closure1_slot7;
             michal = michal.MEDIA;
-            if(!(michal !== offset)) { _fun00002_ip = 606; continue _fun00001 }
- 257:
+            if(!(michal !== offset)) { _fun00002_ip = 581; continue _fun00001 }
+ 232:
             michal = _closure1_slot7;
             michal = michal.FILES;
-            if(!(michal !== offset)) { _fun00002_ip = 552; continue _fun00001 }
- 274:
+            if(!(michal !== offset)) { _fun00002_ip = 527; continue _fun00001 }
+ 249:
             michal = _closure1_slot7;
             michal = michal.LINKS;
-            if(!(michal !== offset)) { _fun00002_ip = 498; continue _fun00001 }
- 291:
+            if(!(michal !== offset)) { _fun00002_ip = 473; continue _fun00001 }
+ 266:
             michal = _closure1_slot7;
             michal = michal.THREADS;
-            if(!(michal !== offset)) { _fun00002_ip = 448; continue _fun00001 }
- 308:
+            if(!(michal !== offset)) { _fun00002_ip = 423; continue _fun00001 }
+ 283:
             michal = _closure1_slot7;
             michal = michal.MESSAGES;
-            if(!(michal !== offset)) { _fun00002_ip = 394; continue _fun00001 }
- 322:
+            if(!(michal !== offset)) { _fun00002_ip = 369; continue _fun00001 }
+ 297:
             michal = _closure1_slot7;
             michal = michal.PINS;
-            if(!(michal !== offset)) { _fun00002_ip = 340; continue _fun00001 }
- 336:
+            if(!(michal !== offset)) { _fun00002_ip = 315; continue _fun00001 }
+ 311:
             michal = null;
             return michal;
- 340:
+ 315:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -120,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 394:
+ 369:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -134,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 448:
+ 423:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -147,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['showFloatingActionButton'] = yankee;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 498:
+ 473:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -161,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 552:
+ 527:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -175,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 606:
+ 581:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -189,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 660:
+ 635:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -201,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 704:
+ 679:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -213,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 748:
+ 723:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -225,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 792:
+ 767:
             zuuluu = _closure1_slot8;
             michal = _closure1_slot1;
             golfie = _closure1_slot2;

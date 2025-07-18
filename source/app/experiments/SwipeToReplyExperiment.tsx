@@ -21,7 +21,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.LaunchPadTypes;
     var _closure1_slot3 = tangon;
-    tangon = 4;
+    tangon = 3;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -30,40 +30,27 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     michal = function() { // Original name: useIsMessageSwipeActionsEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            report = _closure1_slot1;
-            oscard = _closure1_slot2;
+            zuuluu = _closure1_slot1;
+            report = _closure1_slot2;
             michal = 1;
-            zuuluu = oscard[michal];
-            michal = undefined;
-            zuuluu = report.bind(michal)(zuuluu);
-            tangon = zuuluu.bind(michal)();
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.GESTURE_FULL;
-            tangon = tangon === zuuluu;
-            zuuluu = _closure1_slot0;
+            michal = report[michal];
+            tangon = undefined;
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = michal.bind(tangon)();
+            michal = _closure1_slot3;
+            michal = michal.GESTURE_FULL;
+            zuuluu = zuuluu === michal;
+            michal = _closure1_slot0;
             entity = 2;
-            entity = oscard[entity];
-            zuuluu = zuuluu.bind(michal)(entity);
-            entity = zuuluu.useIsSwipeToMemberListAllowed;
-            zuuluu = entity.bind(zuuluu)();
-            entity = 3;
-            entity = oscard[entity];
-            report = report.bind(michal)(entity);
-            michal = report.useExperiment;
-            entity = {};
-            oscard = 'useIsMessageSwipeActionsEnabled';
-            entity['location'] = oscard;
-            entity = michal.bind(report)(entity);
-            michal = entity.swipeDisabled;
-            entity = !tangon;
-            if(tangon) { _fun00002_ip = 117; continue _fun00001 }
- 114:
+            entity = report[entity];
+            michal = michal.bind(tangon)(entity);
+            entity = michal.useIsSwipeToMemberListEnabled;
+            michal = entity.bind(michal)();
             entity = !zuuluu;
- 117:
-            if(!entity) { _fun00002_ip = 123; continue _fun00001 }
- 120:
+            if(zuuluu) { _fun00002_ip = 78; continue _fun00001 }
+ 75:
             entity = !michal;
- 123:
+ 78:
             return entity;
         }
     };

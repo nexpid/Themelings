@@ -647,8 +647,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = _closure1_slot12;
                         entity = entity.SHOP_ALL;
                         michal['screen'] = entity;
-                        entity = false;
-                        michal['scrollToTop'] = entity;
                         entity = _closure3_slot0;
                         michal['initialProductSkuId'] = entity;
                         entity = undefined;
