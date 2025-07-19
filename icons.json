@@ -13063,16 +13063,6 @@
         "width": 24,
         "height": 24
     },
-    "StickerWink2Icon": {
-        "file": "design/components/Icon/native/redesign/generated/images/StickerWink2Icon.png",
-        "hash": "f2e39525c94447d5191d788374f38714",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "stream": {
         "file": "modules/voice_panel/native/images/stream.png",
         "hash": "4d740f655500daa7dbc22677153114f7",
