@@ -68,7 +68,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8 = var4 instanceof Object ? var4 : var7;
     var _closure1_slot7 = var8;
     var7 = var8.setOptions;
-    var4 = {'renderCodedLinks': false, 'renderGiftCode': false, 'renderActivityInstanceEmbed': false, 'renderActivityInviteEmbed': false, 'renderEmbeds': true, 'ignoreMentioned': true, 'inlineAttachmentMedia': false, 'inlineEmbedMedia': true, 'renderReactions': false, 'renderShortcuts': false};
+    var4 = {'renderCodedLinks': false, 'renderGiftCode': false, 'renderActivityInstanceEmbed': false, 'renderActivityInviteEmbed': false, 'renderEmbeds': true, 'ignoreMentioned': true, 'inlineAttachmentMedia': false, 'inlineEmbedMedia': true, 'renderReactions': false};
     var4 = var7.bind(var8)(var4);
     var4 = 10;
     var4 = var6[var4];

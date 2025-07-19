@@ -5,8 +5,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var3 = native6;
     var6 = native7;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -39,90 +38,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot30 = var2;
+            _closure1_slot16 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot30 = var1;
-    var1 = function _getSelectedFormat() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
-            var4 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 6;
-            var3 = var3[var1];
-            var1 = undefined;
-            var5 = var4.bind(var1)(var3);
-            var4 = var5.getCurrentConfig;
-            var3 = {};
-            var1 = 'GIFPickerViewStore';
-            var3['location'] = var1;
-            var1 = {};
-            var6 = true;
-            var1['autoTrackExposure'] = var6;
-            var1 = var4.bind(var5)(var3, var1);
-            var1 = var1.optimizationsEnabled;
-            if(var1) { _fun0002_ip = 73; continue _fun0002 }
- 67:
-            var1 = _closure1_slot10;
-            _fun0002_ip = 77; continue _fun0002;
- 73:
-            var1 = _closure1_slot16;
- 77:
-            return var1;
-        }
-    };
-    var _closure1_slot31 = var1;
-    var1 = function isVideoFormat(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
-            var2 = arg1;
-            var3 = _closure1_slot17;
-            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 14:
-            var3 = _closure1_slot18;
-            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 22:
-            var3 = _closure1_slot19;
-            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 30:
-            var3 = _closure1_slot20;
-            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 38:
-            var3 = _closure1_slot21;
-            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 46:
-            var3 = _closure1_slot22;
-            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 54:
-            var3 = _closure1_slot9;
-            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 62:
-            var3 = _closure1_slot11;
-            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 70:
-            var3 = _closure1_slot12;
-            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 78:
-            var3 = _closure1_slot13;
-            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 86:
-            var3 = _closure1_slot14;
-            if(!(var3 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 94:
-            var1 = _closure1_slot15;
-            if(!(var1 !== var2)) { _fun0003_ip = 106; continue _fun0003 }
- 102:
-            var1 = false;
-            return var1;
- 106:
-            var1 = true;
-            return var1;
-        }
-    };
-    var _closure1_slot32 = var1;
+    var _closure1_slot16 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -135,100 +57,78 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var6[var1];
     var1 = undefined;
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot3 = var2;
+    var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot4 = var2;
+    var _closure1_slot3 = var2;
     var2 = 2;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot5 = var2;
+    var _closure1_slot4 = var2;
     var2 = 3;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot6 = var2;
+    var _closure1_slot5 = var2;
     var2 = 4;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot7 = var2;
+    var _closure1_slot6 = var2;
     var2 = 5;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.GIFPickerResultTypes;
+    var _closure1_slot7 = var2;
+    var2 = 6;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.GIFType;
+    var2 = var2.IMAGE;
     var _closure1_slot8 = var2;
-    var2 = 'mp4';
-    var _closure1_slot9 = var2;
-    var2 = 'tinygif';
-    var _closure1_slot10 = var2;
-    var2 = 'tinymp4';
-    var _closure1_slot11 = var2;
-    var2 = 'nanomp4';
-    var _closure1_slot12 = var2;
-    var2 = 'webm';
-    var _closure1_slot13 = var2;
-    var2 = 'tinywebm';
-    var _closure1_slot14 = var2;
-    var2 = 'nanowebm';
-    var _closure1_slot15 = var2;
-    var2 = 'tinywebp';
-    var _closure1_slot16 = var2;
-    var2 = 'fixed_height.mp4';
-    var _closure1_slot17 = var2;
-    var2 = 'fixed_height_small.mp4';
-    var _closure1_slot18 = var2;
-    var2 = 'fixed_width.mp4';
-    var _closure1_slot19 = var2;
-    var2 = 'fixed_width_small.mp4';
-    var _closure1_slot20 = var2;
-    var2 = 'downsized_small.mp4';
-    var _closure1_slot21 = var2;
-    var2 = 'original.mp4';
-    var _closure1_slot22 = var2;
     var2 = null;
-    var _closure1_slot23 = var2;
+    var _closure1_slot9 = var2;
     var2 = '';
-    var _closure1_slot24 = var2;
-    var _closure1_slot25 = var2;
+    var _closure1_slot10 = var2;
+    var _closure1_slot11 = var2;
     var2 = new Array(0);
-    var _closure1_slot26 = var2;
+    var _closure1_slot12 = var2;
     var2 = new Array(0);
-    var _closure1_slot27 = var2;
+    var _closure1_slot13 = var2;
     var2 = new Array(0);
-    var _closure1_slot28 = var2;
+    var _closure1_slot14 = var2;
     var2 = new Array(0);
-    var _closure1_slot29 = var2;
-    var2 = 9;
+    var _closure1_slot15 = var2;
+    var2 = 8;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
     var2 = function(arg1) {
         var4 = function GIFPickerViewStore() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
-                var1 = _closure1_slot3;
+                var1 = _closure1_slot2;
                 var2 = _closure2_slot0;
                 var1 = var1.bind(var3)(var4, var2);
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
-                var2 = _closure1_slot5;
-                var1 = _closure1_slot30;
+                var2 = _closure1_slot4;
+                var1 = _closure1_slot16;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0004_ip = 69; continue _fun0004 }
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0004_ip = 105; continue _fun0004;
+                _fun0002_ip = 105; continue _fun0002;
  69:
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
-                var6 = _closure1_slot6;
+                var6 = _closure1_slot5;
                 var6 = var6.bind(var3)(var4);
                 var6 = var6.constructor;
                 var5 = arguments;
@@ -239,16 +139,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var _closure2_slot0 = var4;
-        var5 = _closure1_slot7;
+        var5 = _closure1_slot6;
         var3 = undefined;
         var2 = arg1;
         var2 = var5.bind(var3)(var4, var2);
-        var2 = _closure1_slot4;
+        var2 = _closure1_slot3;
         var5 = {};
         var1 = 'getAnalyticsID';
         var5['key'] = var1;
         var1 = function value() {
-            var1 = _closure1_slot23;
+            var1 = _closure1_slot9;
             return var1;
         };
         var5['value'] = var1;
@@ -258,7 +158,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getQuery';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot24;
+            var1 = _closure1_slot10;
             return var1;
         };
         var5['value'] = var7;
@@ -267,7 +167,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getResultQuery';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot25;
+            var1 = _closure1_slot11;
             return var1;
         };
         var5['value'] = var7;
@@ -276,7 +176,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getResultItems';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot26;
+            var1 = _closure1_slot12;
             return var1;
         };
         var5['value'] = var7;
@@ -285,7 +185,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getTrendingCategories';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot27;
+            var1 = _closure1_slot13;
             return var1;
         };
         var5['value'] = var7;
@@ -294,9 +194,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getSelectedFormat';
         var5['key'] = var7;
         var7 = function value() {
-            var2 = _closure1_slot31;
-            var1 = undefined;
-            var1 = var2.bind(var1)();
+            var1 = 'tinywebp';
             return var1;
         };
         var5['value'] = var7;
@@ -305,7 +203,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getSuggestions';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot28;
+            var1 = _closure1_slot14;
             return var1;
         };
         var5['value'] = var7;
@@ -314,7 +212,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getTrendingSearchTerms';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot29;
+            var1 = _closure1_slot15;
             return var1;
         };
         var5['value'] = var6;
@@ -325,32 +223,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8 = var2.bind(var1)(var8);
     var2 = 'GIFPickerViewStore';
     var8['displayName'] = var2;
-    var2 = 10;
+    var2 = 9;
     var2 = var6[var2];
     var12 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function handleInitialize(arg1) {
         var1 = arg1;
         var2 = var1.analyticsID;
-        _closure1_slot23 = var2;
+        _closure1_slot9 = var2;
         var1 = undefined;
         return var1;
     };
     var2['GIF_PICKER_INITIALIZE'] = var9;
     var9 = function handleQuery(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var1 = arg1;
             var3 = var1.query;
-            _closure1_slot24 = var3;
+            _closure1_slot10 = var3;
             var1 = '';
-            if(!(var1 === var3)) { _fun0005_ip = 43; continue _fun0005 }
+            if(!(var1 === var3)) { _fun0003_ip = 43; continue _fun0003 }
  23:
-            _closure1_slot25 = var1;
+            _closure1_slot11 = var1;
             var1 = new Array(0);
-            _closure1_slot26 = var1;
+            _closure1_slot12 = var1;
             var1 = new Array(0);
-            _closure1_slot28 = var1;
+            _closure1_slot14 = var1;
  43:
             var1 = undefined;
             return var1;
@@ -358,66 +256,46 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['GIF_PICKER_QUERY'] = var9;
     var9 = function handleQuerySuccess(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var1 = arg1;
             var2 = var1.query;
             var3 = null;
-            if(!(var3 != var2)) { _fun0006_ip = 29; continue _fun0006 }
+            if(!(var3 != var2)) { _fun0004_ip = 29; continue _fun0004 }
  14:
-            var4 = _closure1_slot24;
-            var2 = _closure1_slot25;
-            if(!(var4 !== var2)) { _fun0006_ip = 84; continue _fun0006 }
+            var4 = _closure1_slot10;
+            var2 = _closure1_slot11;
+            if(!(var4 !== var2)) { _fun0004_ip = 84; continue _fun0004 }
  29:
             var2 = var1.query;
-            if(!(var3 != var2)) { _fun0006_ip = 50; continue _fun0006 }
+            if(!(var3 != var2)) { _fun0004_ip = 50; continue _fun0004 }
  38:
             var3 = var1.query;
-            _closure1_slot25 = var3;
+            _closure1_slot11 = var3;
  50:
             var3 = var1.items;
             var2 = var3.map;
             var1 = function(arg1) {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
-                    var1 = arg1;
-                    var7 = var1.width;
-                    var6 = var1.height;
-                    var5 = var1.src;
-                    var4 = var1.gif_src;
-                    var3 = var1.url;
-                    var2 = var1.id;
-                    var1 = {};
-                    var1['width'] = var7;
-                    var1['height'] = var6;
-                    var1['src'] = var5;
-                    var1['gifSrc'] = var4;
-                    var1['url'] = var3;
-                    var1['id'] = var2;
-                    var4 = _closure1_slot32;
-                    var2 = _closure1_slot31;
-                    var5 = undefined;
-                    var2 = var2.bind(var5)();
-                    var2 = var4.bind(var5)(var2);
-                    var4 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var3 = 7;
-                    var3 = var6[var3];
-                    var3 = var4.bind(var5)(var3);
-                    var3 = var3.GIFType;
-                    if(var2) { _fun0007_ip = 126; continue _fun0007 }
- 118:
-                    var2 = var3.IMAGE;
-                    _fun0007_ip = 132; continue _fun0007;
- 126:
-                    var2 = var3.VIDEO;
- 132:
-                    var1['format'] = var2;
-                    return var1;
-                }
+                var1 = arg1;
+                var7 = var1.width;
+                var6 = var1.height;
+                var5 = var1.src;
+                var4 = var1.gif_src;
+                var3 = var1.url;
+                var2 = var1.id;
+                var1 = {};
+                var1['width'] = var7;
+                var1['height'] = var6;
+                var1['src'] = var5;
+                var1['gifSrc'] = var4;
+                var1['url'] = var3;
+                var1['id'] = var2;
+                var2 = _closure1_slot8;
+                var1['format'] = var2;
+                return var1;
             };
             var2 = var2.bind(var3)(var1);
-            _closure1_slot26 = var2;
+            _closure1_slot12 = var2;
             var1 = undefined;
             return var1;
  84:
@@ -427,16 +305,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['GIF_PICKER_QUERY_SUCCESS'] = var9;
     var9 = function handleQueryFailure(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var1 = arg1;
             var1 = var1.query;
             var2 = null;
-            if(!(var2 != var1)) { _fun0008_ip = 33; continue _fun0008 }
+            if(!(var2 != var1)) { _fun0005_ip = 33; continue _fun0005 }
  14:
-            _closure1_slot25 = var1;
+            _closure1_slot11 = var1;
             var1 = new Array(0);
-            _closure1_slot26 = var1;
+            _closure1_slot12 = var1;
             var1 = undefined;
             return var1;
  33:
@@ -446,53 +324,49 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['GIF_PICKER_QUERY_FAILURE'] = var9;
     var9 = function handleTrendingFetchSuccess(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            var1 = arg1;
-            var5 = var1.trendingCategories;
-            var3 = var1.trendingGIFPreview;
-            var2 = null;
-            if(!(var2 == var3)) { _fun0009_ip = 30; continue _fun0009 }
+            var4 = arg1;
+            var5 = var4.trendingCategories;
+            var2 = var4.trendingGIFPreview;
+            var1 = null;
+            if(!(var1 == var2)) { _fun0006_ip = 27; continue _fun0006 }
  21:
             var3 = new Array(0);
-            _fun0009_ip = 168; continue _fun0009;
- 30:
+            _fun0006_ip = 145; continue _fun0006;
+ 27:
             var2 = {};
-            var6 = _closure1_slot8;
+            var6 = _closure1_slot7;
             var6 = var6.TRENDING_GIFS;
             var2['type'] = var6;
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var8 = 8;
-            var9 = var7[var8];
-            var4 = undefined;
-            var9 = var6.bind(var4)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var8 = var7[var8];
-            var8 = var6.bind(var4)(var8);
-            var8 = var8.t;
-            var8 = var8.H6zNFx;
-            var8 = var9.bind(var10)(var8);
-            var2['name'] = var8;
-            var1 = var1.trendingGIFPreview;
-            var1 = var1.src;
-            var2['src'] = var1;
-            var1 = 7;
-            var1 = var7[var1];
-            var1 = var6.bind(var4)(var1);
-            var1 = var1.GIFType;
-            var1 = var1.IMAGE;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var6 = 7;
+            var7 = var11[var6];
+            var9 = undefined;
+            var7 = var10.bind(var9)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var6 = var11[var6];
+            var6 = var10.bind(var9)(var6);
+            var6 = var6.t;
+            var6 = var6.H6zNFx;
+            var6 = var7.bind(var8)(var6);
+            var2['name'] = var6;
+            var4 = var4.trendingGIFPreview;
+            var4 = var4.src;
+            var2['src'] = var4;
+            var1 = _closure1_slot8;
             var2['format'] = var1;
             var1 = new Array(1);
             var1[0] = var2;
             var3 = var1;
- 168:
+ 145:
             var2 = new Array(0);
-            var11 = 0;
-            var13 = var2;
-            var12 = var3;
-            var11 = arraySpread(var13, var12, var11);
+            var12 = 0;
+            var14 = var2;
+            var13 = var3;
+            var12 = arraySpread(var14, var13, var12);
             var4 = var5.map;
             var1 = function(arg1) {
                 var2 = arg1;
@@ -503,26 +377,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var2.src;
                 var2 = 'src';
                 var1[var2] = var3;
-                var3 = _closure1_slot8;
+                var3 = _closure1_slot7;
                 var4 = var3.TRENDING_CATEGORY;
                 var3 = 'type';
                 var1[var3] = var4;
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var2 = 7;
-                var3 = var3[var2];
-                var2 = undefined;
-                var2 = var4.bind(var2)(var3);
-                var2 = var2.GIFType;
-                var3 = var2.VIDEO;
+                var3 = _closure1_slot8;
                 var2 = 'format';
                 var1[var2] = var3;
                 return var1;
             };
-            var12 = var4.bind(var5)(var1);
-            var13 = var2;
-            var1 = arraySpread(var13, var12, var11);
-            _closure1_slot27 = var2;
+            var13 = var4.bind(var5)(var1);
+            var14 = var2;
+            var1 = arraySpread(var14, var13, var12);
+            _closure1_slot13 = var2;
             var1 = undefined;
             return var1;
         }
@@ -531,7 +398,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = function handleSuggestionsSuccess(arg1) {
         var1 = arg1;
         var2 = var1.items;
-        _closure1_slot28 = var2;
+        _closure1_slot14 = var2;
         var1 = undefined;
         return var1;
     };
@@ -539,7 +406,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = function handleTrendingSearchSuccess(arg1) {
         var1 = arg1;
         var2 = var1.items;
-        _closure1_slot29 = var2;
+        _closure1_slot15 = var2;
         var1 = undefined;
         return var1;
     };
@@ -550,7 +417,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = var2;
     var2 = new var13[var8](var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

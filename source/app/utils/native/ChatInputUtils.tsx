@@ -1,151 +1,178 @@
 // app/utils/native/ChatInputUtils.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
+    var7 = native2;
     var3 = native6;
-    var5 = native7;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var5;
-    var1 = function getHighestIndexForScreenIndexMap(arg1) {
+    var6 = native7;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var6;
+    var5 = function getHighestActiveScreenIndex() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var3 = arg1;
-            var1 = var3.size;
-            var9 = 0;
-            if(!(var9 === var1)) { _fun0001_ip = 18; continue _fun0001 }
- 14:
-            var1 = undefined;
-            return var1;
- 18:
-            var1 = var3.has;
-            var2 = 'voice-panel';
-            var1 = var1.bind(var3)(var2);
-            if(var1) { _fun0001_ip = 198; continue _fun0001 }
- 40:
-            var1 = var3.has;
-            var4 = 'message-request';
-            var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0001_ip = 186; continue _fun0001 }
- 62:
-            var1 = var3.has;
-            var5 = 'new-message';
-            var1 = var1.bind(var3)(var5);
-            if(var1) { _fun0001_ip = 174; continue _fun0001 }
- 81:
-            var1 = global;
-            var8 = var1.Array;
-            var7 = var8.from;
-            var6 = var3.keys;
-            var6 = var6.bind(var3)();
-            var8 = var7.bind(var8)(var6);
-            var7 = var8.filter;
+            var10 = arguments[0];
+            var5 = undefined;
+            if(!(var10 === var5)) { _fun0001_ip = 16; continue _fun0001 }
+ 9:
+            var10 = _closure1_slot3;
+ 16:
+            var1 = var10.size;
+            var8 = 0;
+            if(!(var8 !== var1)) { _fun0001_ip = 140; continue _fun0001 }
+ 27:
+            var2 = var10.has;
+            var1 = 'voice-panel';
+            var2 = var2.bind(var10)(var1);
+            if(var2) { _fun0001_ip = 188; continue _fun0001 }
+ 49:
+            var3 = var10.has;
+            var2 = 'message-request';
+            var3 = var3.bind(var10)(var2);
+            if(var3) { _fun0001_ip = 186; continue _fun0001 }
+ 68:
+            var4 = var10.has;
+            var3 = 'new-message';
+            var4 = var4.bind(var10)(var3);
+            if(var4) { _fun0001_ip = 184; continue _fun0001 }
+ 87:
+            var4 = global;
+            var9 = var4.Array;
+            var7 = var9.from;
+            var6 = var10.keys;
+            var6 = var6.bind(var10)();
+            var9 = var7.bind(var9)(var6);
+            var7 = var9.filter;
             var6 = function(arg1) {
-                var3 = _closure1_slot4;
-                var2 = var3.has;
-                var1 = arg1;
-                var1 = var2.bind(var3)(var1);
-                var1 = !var1;
-                return var1;
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    var4 = arg1;
+                    var2 = 'number';
+                    var1 = typeof var4;
+                    var1 = var2 === var1;
+                    if(!var1) { _fun0002_ip = 37; continue _fun0002 }
+ 17:
+                    var3 = _closure1_slot4;
+                    var2 = var3.has;
+                    var2 = var2.bind(var3)(var4);
+                    var1 = !var2;
+ 37:
+                    return var1;
+                }
             };
-            var11 = var7.bind(var8)(var6);
-            var7 = var1.Math;
-            var6 = var7.max;
-            var1 = new Array(0);
-            var12 = var1;
-            var10 = 0;
-            var8 = arraySpread(var12, var11, var10);
-            var12 = var6;
-            var11 = var1;
-            var10 = var7;
-            var6 = apply(var12, var11, var10);
-            var1 = var3.get;
-            var1 = var1.bind(var3)(var6);
-            return var1;
- 174:
-            var1 = var3.get;
-            var1 = var1.bind(var3)(var5);
-            return var1;
+            var7 = var7.bind(var9)(var6);
+            var6 = var7.length;
+            if(!(var8 === var6)) { _fun0001_ip = 142; continue _fun0001 }
+ 140:
+            return var5;
+ 142:
+            var6 = var4.Math;
+            var5 = var6.max;
+            var4 = new Array(0);
+            var13 = var4;
+            var12 = var7;
+            var11 = 0;
+            var7 = arraySpread(var13, var12, var11);
+            var13 = var5;
+            var12 = var4;
+            var11 = var6;
+            var4 = apply(var13, var12, var11);
+            return var4;
+ 184:
+            return var3;
  186:
-            var1 = var3.get;
-            var1 = var1.bind(var3)(var4);
+            return var2;
+ 188:
             return var1;
- 198:
+        }
+    };
+    var _closure1_slot5 = var5;
+    var1 = function getHighestIndexForScreenIndexMap(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+            var3 = arg1;
+            var2 = _closure1_slot5;
+            var1 = undefined;
+            var2 = var2.bind(var1)(var3);
+            var4 = null;
+            if(!(var4 == var2)) { _fun0003_ip = 25; continue _fun0003 }
+ 23:
+            return var1;
+ 25:
             var1 = var3.get;
             var1 = var1.bind(var3)(var2);
             return var1;
         }
     };
-    var _closure1_slot5 = var1;
+    var _closure1_slot6 = var1;
     var4 = function getBestActiveInput() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            var3 = _closure1_slot5;
+            var3 = _closure1_slot6;
             var2 = _closure1_slot3;
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
             var3 = null;
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0002_ip = 34; continue _fun0002 }
+            if(var5) { _fun0004_ip = 34; continue _fun0004 }
  29:
             var2 = var4.current;
  34:
             var3 = var3 != var2;
             var1 = undefined;
-            if(!var3) { _fun0002_ip = 46; continue _fun0002 }
+            if(!var3) { _fun0004_ip = 46; continue _fun0004 }
  43:
             var1 = var2;
  46:
             return var1;
         }
     };
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var8 = {};
-    var7 = true;
-    var8['value'] = var7;
-    var7 = '__esModule';
-    var7 = var9.bind(var10)(var3, var7, var8);
-    var7 = var1.Map;
-    var8 = var7.prototype;
-    var8 = Object.create(var8, {constructor: {value: var7}});
-    var14 = var8;
-    var7 = new var14[var7](var13);
-    var7 = var7 instanceof Object ? var7 : var8;
-    var _closure1_slot2 = var7;
-    var7 = var1.Map;
-    var8 = var7.prototype;
-    var8 = Object.create(var8, {constructor: {value: var7}});
-    var14 = var8;
-    var7 = new var14[var7](var13);
-    var7 = var7 instanceof Object ? var7 : var8;
-    var _closure1_slot3 = var7;
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var9 = {};
+    var8 = true;
+    var9['value'] = var8;
+    var8 = '__esModule';
+    var8 = var10.bind(var11)(var3, var8, var9);
+    var8 = var1.Map;
+    var9 = var8.prototype;
+    var9 = Object.create(var9, {constructor: {value: var8}});
+    var15 = var9;
+    var8 = new var15[var8](var14);
+    var8 = var8 instanceof Object ? var8 : var9;
+    var _closure1_slot2 = var8;
+    var8 = var1.Map;
+    var9 = var8.prototype;
+    var9 = Object.create(var9, {constructor: {value: var8}});
+    var15 = var9;
+    var8 = new var15[var8](var14);
+    var8 = var8 instanceof Object ? var8 : var9;
+    var _closure1_slot3 = var8;
     var1 = var1.Set;
-    var7 = var1.prototype;
-    var7 = Object.create(var7, {constructor: {value: var1}});
-    var14 = var7;
-    var1 = new var14[var1](var13);
-    var1 = var1 instanceof Object ? var1 : var7;
+    var8 = var1.prototype;
+    var8 = Object.create(var8, {constructor: {value: var1}});
+    var15 = var8;
+    var1 = new var15[var1](var14);
+    var1 = var1 instanceof Object ? var1 : var8;
     var _closure1_slot4 = var1;
     var1 = 5;
-    var5 = var5[var1];
+    var6 = var6[var1];
     var1 = undefined;
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'utils/native/ChatInputUtils.tsx';
-    var5 = var6.bind(var7)(var5);
-    var5 = function freezeScreenIndex(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'utils/native/ChatInputUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = function freezeScreenIndex(arg1, arg2) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var3 = arg2;
             var2 = _closure1_slot4;
             var1 = arg1;
-            if(var1) { _fun0003_ip = 28; continue _fun0003 }
+            if(var1) { _fun0005_ip = 28; continue _fun0005 }
  16:
             var1 = var2.delete;
             var1 = var1.bind(var2)(var3);
-            _fun0003_ip = 38; continue _fun0003;
+            _fun0005_ip = 38; continue _fun0005;
  28:
             var1 = var2.add;
             var1 = var1.bind(var2)(var3);
@@ -154,12 +181,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var3['freezeScreenIndex'] = var5;
-    var5 = function createInputRefTracker(arg1, arg2) {
+    var3['freezeScreenIndex'] = var6;
+    var6 = function createInputRefTracker(arg1, arg2) {
         var1 = arg2;
         var _closure2_slot0 = var1;
         var1 = function addRef(arg1, arg2, arg3) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var5 = arg1;
                 var7 = arg2;
@@ -168,7 +195,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4.get;
                 var6 = var2.bind(var4)(var7);
                 var2 = null;
-                if(!(var2 == var6)) { _fun0004_ip = 60; continue _fun0004 }
+                if(!(var2 == var6)) { _fun0006_ip = 60; continue _fun0006 }
  32:
                 var2 = global;
                 var2 = var2.Map;
@@ -191,7 +218,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2.env;
                 var4 = var2.DEVELOPMENT;
                 var2 = 'development';
-                if(!(var2 === var4)) { _fun0004_ip = 145; continue _fun0004 }
+                if(!(var2 === var4)) { _fun0006_ip = 145; continue _fun0006 }
  131:
                 var2 = _closure1_slot3;
                 var1 = var2.has;
@@ -203,7 +230,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         };
         var _closure2_slot3 = var1;
         var1 = function removeRef(arg1, arg2, arg3) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                 var5 = arg2;
                 var3 = arg3;
@@ -211,13 +238,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4.get;
                 var2 = var2.bind(var4)(var5);
                 var4 = null;
-                if(!(var4 != var2)) { _fun0005_ip = 78; continue _fun0005 }
+                if(!(var4 != var2)) { _fun0007_ip = 78; continue _fun0007 }
  29:
                 var4 = var2.delete;
                 var4 = var4.bind(var2)(var3);
                 var4 = var2.size;
                 var2 = 0;
-                if(!(var2 === var4)) { _fun0005_ip = 64; continue _fun0005 }
+                if(!(var2 === var4)) { _fun0007_ip = 64; continue _fun0007 }
  50:
                 var4 = _closure1_slot2;
                 var2 = var4.delete;
@@ -240,21 +267,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure2_slot2 = var1;
         var1 = {};
         var3 = function handleRef(arg1, arg2) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                 var1 = arg1;
                 var6 = arg2;
                 var2 = _closure2_slot2;
                 var2['current'] = var6;
                 var2 = null;
-                if(!(var2 != var1)) { _fun0006_ip = 76; continue _fun0006 }
+                if(!(var2 != var1)) { _fun0008_ip = 76; continue _fun0008 }
  25:
                 var4 = _closure2_slot1;
-                if(!(var2 != var4)) { _fun0006_ip = 45; continue _fun0006 }
+                if(!(var2 != var4)) { _fun0008_ip = 45; continue _fun0008 }
  33:
                 var4 = _closure2_slot1;
                 var4['current'] = var1;
-                _fun0006_ip = 72; continue _fun0006;
+                _fun0008_ip = 72; continue _fun0008;
  45:
                 var7 = _closure2_slot3;
                 var5 = {};
@@ -268,7 +295,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
  76:
                 var1 = _closure2_slot1;
-                if(!(var2 != var1)) { _fun0006_ip = 107; continue _fun0006 }
+                if(!(var2 != var1)) { _fun0008_ip = 107; continue _fun0008 }
  84:
                 var5 = _closure2_slot4;
                 var4 = _closure2_slot0;
@@ -283,11 +310,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         };
         var1['handleRef'] = var3;
         var3 = function register() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                 var3 = _closure2_slot1;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0007_ip = 59; continue _fun0007 }
+                if(!(var1 != var3)) { _fun0009_ip = 59; continue _fun0009 }
  13:
                 var6 = _closure2_slot4;
                 var1 = _closure2_slot2;
@@ -306,11 +333,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         };
         var1['register'] = var3;
         var2 = function unregister() {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
                 var3 = _closure2_slot1;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0008_ip = 39; continue _fun0008 }
+                if(!(var2 != var3)) { _fun0010_ip = 39; continue _fun0010 }
  13:
                 var4 = _closure2_slot4;
                 var2 = _closure2_slot2;
@@ -326,13 +353,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1['unregister'] = var2;
         return var1;
     };
-    var3['createInputRefTracker'] = var5;
+    var3['createInputRefTracker'] = var6;
+    var3['getHighestActiveScreenIndex'] = var5;
     var5 = function getChatInputRef(arg1, arg2) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var4 = arg1;
             var3 = null;
-            if(!(var3 == var4)) { _fun0009_ip = 13; continue _fun0009 }
+            if(!(var3 == var4)) { _fun0011_ip = 13; continue _fun0011 }
  9:
             var1 = undefined;
             return var1;
@@ -342,20 +370,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var1.bind(var2)(var4);
             var4 = var3 == var6;
             var2 = undefined;
-            if(var4) { _fun0009_ip = 66; continue _fun0009 }
+            if(var4) { _fun0011_ip = 66; continue _fun0011 }
  39:
             var5 = var6.get;
             var4 = arg2;
             var4 = var5.bind(var6)(var4);
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0009_ip = 66; continue _fun0009 }
+            if(var5) { _fun0011_ip = 66; continue _fun0011 }
  61:
             var2 = var4.current;
  66:
             var3 = var3 != var2;
             var1 = undefined;
-            if(!var3) { _fun0009_ip = 78; continue _fun0009 }
+            if(!var3) { _fun0011_ip = 78; continue _fun0011 }
  75:
             var1 = var2;
  78:
@@ -364,32 +392,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['getChatInputRef'] = var5;
     var5 = function getBestActiveInputForChannelId(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var5 = arg1;
             var3 = null;
-            if(!(var3 != var5)) { _fun0010_ip = 30; continue _fun0010 }
+            if(!(var3 != var5)) { _fun0012_ip = 30; continue _fun0012 }
  9:
             var4 = _closure1_slot2;
             var2 = var4.get;
             var4 = var2.bind(var4)(var5);
-            if(!(var3 == var4)) { _fun0010_ip = 34; continue _fun0010 }
+            if(!(var3 == var4)) { _fun0012_ip = 34; continue _fun0012 }
  30:
             var2 = undefined;
             return var2;
  34:
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot6;
             var1 = undefined;
             var4 = var2.bind(var1)(var4);
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0010_ip = 59; continue _fun0010 }
+            if(var5) { _fun0012_ip = 59; continue _fun0012 }
  54:
             var2 = var4.current;
  59:
             var3 = var3 != var2;
             var1 = undefined;
-            if(!var3) { _fun0010_ip = 71; continue _fun0010 }
+            if(!var3) { _fun0012_ip = 71; continue _fun0012 }
  68:
             var1 = var2;
  71:
@@ -399,7 +427,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var3['getBestActiveInputForChannelId'] = var5;
     var3['getBestActiveInput'] = var4;
     var2 = function dismissKeyboard() {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -409,10 +437,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var4.bind(var1)(var3);
             var3 = var4.dismissGlobalKeyboard;
             var3 = var3.bind(var4)();
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot7;
             var4 = var3.bind(var1)();
             var3 = null;
-            if(!(var3 != var4)) { _fun0011_ip = 58; continue _fun0011 }
+            if(!(var3 != var4)) { _fun0013_ip = 58; continue _fun0013 }
  48:
             var3 = var4.closeCustomKeyboard;
             var3 = var3.bind(var4)();
@@ -429,7 +457,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var5.bind(var1)(var3);
             var3 = var3.KeyboardTypes;
             var3 = var3.SYSTEM;
-            if(!(var4 !== var3)) { _fun0011_ip = 174; continue _fun0011 }
+            if(!(var4 !== var3)) { _fun0013_ip = 174; continue _fun0013 }
  116:
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;

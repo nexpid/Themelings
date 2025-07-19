@@ -23,25 +23,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var7;
     var4 = 1;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.ExpressionPickerViewType;
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot6 = var4;
-    var4 = 4;
+    var _closure1_slot4 = var4;
+    var4 = 2;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
     var10 = {'borderRadius': null, 'paddingHorizontal': 6, 'paddingVertical': 6, 'height': 36, 'width': 36};
-    var11 = 5;
+    var11 = 3;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.radii;
@@ -56,106 +47,82 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var10['tintColor'] = var11;
     var4['expressionButtonIcon'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot7 = var4;
+    var _closure1_slot5 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
-            var12 = var2.style;
-            var9 = var2.active;
+            var11 = var2.style;
+            var7 = var2.active;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 24; continue _fun0001 }
+            if(!(var7 === var4)) { _fun0001_ip = 24; continue _fun0001 }
  22:
-            var9 = false;
+            var7 = false;
  24:
             var6 = var2.onPress;
             var _closure2_slot0 = var6;
-            var _closure2_slot1 = var4;
-            var2 = _closure1_slot7;
-            var11 = var2.bind(var4)();
-            var5 = _closure1_slot4;
-            var3 = var5.useField;
-            var2 = 'showingExpressionSuggestions';
-            var7 = var3.bind(var5)(var2);
-            _closure2_slot1 = var7;
+            var2 = _closure1_slot5;
+            var10 = var2.bind(var4)();
             var3 = _closure1_slot3;
             var5 = var3.useCallback;
-            var2 = new Array(2);
+            var2 = new Array(1);
             var2[0] = var6;
-            var2[1] = var7;
             var1 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
-                    var3 = _closure2_slot0;
-                    var4 = _closure2_slot1;
-                    var1 = undefined;
-                    var2 = undefined;
-                    if(!var4) { _fun0002_ip = 31; continue _fun0002 }
- 18:
-                    var4 = _closure1_slot5;
-                    var2 = var4.STICKER;
- 31:
-                    var2 = var3.bind(var1)(var2);
-                    return var1;
-                }
+                var2 = _closure2_slot0;
+                var1 = undefined;
+                var2 = var2.bind(var1)(var1);
+                return var1;
             };
             var5 = var5.bind(var3)(var1, var2);
             var2 = var3.useRef;
             var1 = null;
             var8 = var2.bind(var3)(var1);
-            var3 = _closure1_slot6;
-            var14 = _closure1_slot0;
+            var3 = _closure1_slot4;
+            var13 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 6;
+            var1 = 4;
             var1 = var6[var1];
-            var1 = var14.bind(var4)(var1);
+            var1 = var13.bind(var4)(var1);
             var2 = var1.PressableOpacity;
             var1 = {};
             var1['ref'] = var8;
-            var13 = var11.expressionButton;
+            var12 = var10.expressionButton;
             var8 = new Array(2);
-            var8[0] = var13;
-            var8[1] = var12;
+            var8[0] = var12;
+            var8[1] = var11;
             var1['style'] = var8;
             var8 = 'button';
             var1['accessibilityRole'] = var8;
-            var8 = 7;
-            var12 = var6[var8];
-            var12 = var14.bind(var4)(var12);
-            var13 = var12.intl;
-            var12 = var13.string;
+            var8 = 5;
+            var11 = var6[var8];
+            var11 = var13.bind(var4)(var11);
+            var12 = var11.intl;
+            var11 = var12.string;
             var8 = var6[var8];
-            var8 = var14.bind(var4)(var8);
+            var8 = var13.bind(var4)(var8);
             var8 = var8.t;
             var8 = var8.iZ7Mz8;
-            var8 = var12.bind(var13)(var8);
+            var8 = var11.bind(var12)(var8);
             var1['accessibilityLabel'] = var8;
             var1['onPress'] = var5;
             var8 = _closure1_slot1;
-            var5 = 8;
+            var5 = 6;
             var5 = var6[var5];
             var6 = var8.bind(var4)(var5);
             var5 = {};
-            var11 = var11.expressionButtonIcon;
-            var5['style'] = var11;
+            var10 = var10.expressionButtonIcon;
+            var5['style'] = var10;
             var10 = _closure1_slot2;
-            if(var9) { _fun0001_ip = 294; continue _fun0001 }
- 273:
-            if(var7) { _fun0001_ip = 285; continue _fun0001 }
- 276:
-            var7 = 11;
+            if(var7) { _fun0001_ip = 251; continue _fun0001 }
+ 242:
+            var7 = 8;
             var7 = var10[var7];
-            _fun0001_ip = 292; continue _fun0001;
- 285:
-            var9 = 10;
+            _fun0001_ip = 258; continue _fun0001;
+ 251:
+            var9 = 7;
             var7 = var10[var9];
- 292:
-            _fun0001_ip = 301; continue _fun0001;
- 294:
-            var9 = 9;
-            var7 = var10[var9];
- 301:
+ 258:
             var7 = var8.bind(var4)(var7);
             var5['source'] = var7;
             var5 = var3.bind(var4)(var6, var5);
@@ -165,7 +132,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 12;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

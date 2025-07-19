@@ -257,7 +257,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var _closure1_slot19 = var4;
     var7 = var9.setOptions;
-    var4 = {'renderCodedLinks': false, 'renderGiftCode': false, 'renderActivityInstanceEmbed': false, 'renderActivityInviteEmbed': false, 'renderComponents': false, 'renderEmbeds': false, 'ignoreMentioned': true, 'inlineAttachmentMedia': false, 'inlineEmbedMedia': false, 'renderReactions': true, 'renderShortcuts': false, 'renderAttachments': false, 'renderReplies': false, 'renderThreadEmbeds': false, 'renderPolls': false, 'renderForumPostActions': false, 'forcedTheme': null, 'forceHideSimpleEmbedContent': true};
+    var4 = {'renderCodedLinks': false, 'renderGiftCode': false, 'renderActivityInstanceEmbed': false, 'renderActivityInviteEmbed': false, 'renderComponents': false, 'renderEmbeds': false, 'ignoreMentioned': true, 'inlineAttachmentMedia': false, 'inlineEmbedMedia': false, 'renderReactions': true, 'renderAttachments': false, 'renderReplies': false, 'renderThreadEmbeds': false, 'renderPolls': false, 'renderForumPostActions': false, 'forcedTheme': null, 'forceHideSimpleEmbedContent': true};
     var11 = var11.DARK;
     var4['forcedTheme'] = var11;
     var4 = var7.bind(var9)(var4);

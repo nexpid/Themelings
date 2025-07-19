@@ -68,10 +68,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var9.bind(var4)(var1);
             var10 = var1.bind(var4)();
             var _closure2_slot4 = var10;
-            var12 = _closure1_slot9;
-            var3 = var12.useField;
-            var1 = 'chatInputContainerHeight';
-            var12 = var3.bind(var12)(var1);
+            var1 = _closure1_slot9;
+            var12 = var1.bind(var4)();
             var _closure2_slot5 = var12;
             var1 = 21;
             var1 = var8[var1];
@@ -124,13 +122,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var16[var6];
             var6 = var7.bind(var4)(var6);
             var6 = var6.OrientationType;
-            if(var13) { _fun0001_ip = 467; continue _fun0001 }
- 459:
+            if(var13) { _fun0001_ip = 456; continue _fun0001 }
+ 448:
             var16 = var6.PORTRAIT;
-            _fun0001_ip = 473; continue _fun0001;
- 467:
+            _fun0001_ip = 462; continue _fun0001;
+ 456:
             var16 = var6.LANDSCAPE;
- 473:
+ 462:
             _closure2_slot9 = var16;
             var7 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -140,16 +138,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var6.bind(var4)(var16);
             var6 = null;
             var18 = var16;
-            if(!(var6 == var17)) { _fun0001_ip = 529; continue _fun0001 }
- 511:
+            if(!(var6 == var17)) { _fun0001_ip = 518; continue _fun0001 }
+ 500:
             var16 = var6 == var8;
             var7 = undefined;
-            if(var16) { _fun0001_ip = 526; continue _fun0001 }
- 520:
+            if(var16) { _fun0001_ip = 515; continue _fun0001 }
+ 509:
             var7 = var8.screenOrientation;
- 526:
+ 515:
             var17 = var7;
- 529:
+ 518:
             _closure2_slot10 = var17;
             var16 = _closure1_slot4;
             var8 = var16.useEffect;
@@ -335,15 +333,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure2_slot15 = var1;
             var1 = _closure1_slot26;
             var1 = var1.HIDE_PIP;
-            if(!(var1 !== var5)) { _fun0001_ip = 1015; continue _fun0001 }
- 895:
+            if(!(var1 !== var5)) { _fun0001_ip = 1004; continue _fun0001 }
+ 884:
             var1 = _closure1_slot26;
             var1 = var1.HANDLE_THERMAL_EVENT;
-            if(!(var1 !== var5)) { _fun0001_ip = 918; continue _fun0001 }
- 909:
+            if(!(var1 !== var5)) { _fun0001_ip = 907; continue _fun0001 }
+ 898:
             var20 = new Array(0);
-            _fun0001_ip = 1099; continue _fun0001;
- 918:
+            _fun0001_ip = 1088; continue _fun0001;
+ 907:
             var2 = {};
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -366,8 +364,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = new Array(1);
             var1[0] = var2;
             var20 = var1;
-            _fun0001_ip = 1099; continue _fun0001;
- 1015:
+            _fun0001_ip = 1088; continue _fun0001;
+ 1004:
             var2 = {};
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -398,7 +396,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = new Array(1);
             var1[0] = var2;
             var20 = var1;
- 1099:
+ 1088:
             var1 = function useGesture(arg1) {
                 var5 = arg1;
                 var _closure3_slot0 = var5;
@@ -476,8 +474,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = {};
             var5 = var6 == var5;
             var6 = null;
-            if(var5) { _fun0001_ip = 1205; continue _fun0001 }
- 1128:
+            if(var5) { _fun0001_ip = 1194; continue _fun0001 }
+ 1117:
             var8 = _closure1_slot21;
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -496,7 +494,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var12.bind(var4)(var11, var9);
             var5['children'] = var9;
             var6 = var8.bind(var4)(var7, var5);
- 1205:
+ 1194:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot21;
@@ -545,10 +543,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var17.bind(var4)(var16);
             var16 = {};
             var16['ref'] = var27;
-            if(!var22) { _fun0001_ip = 1406; continue _fun0001 }
- 1403:
+            if(!var22) { _fun0001_ip = 1395; continue _fun0001 }
+ 1392:
             var22 = var23;
- 1406:
+ 1395:
             var22 = !var22;
             var16['disabled'] = var22;
             var23 = _closure1_slot21;
@@ -596,10 +594,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var15.bind(var4)(var14, var9);
             var10['children'] = var9;
             var9 = 'portrait';
-            if(!var13) { _fun0001_ip = 1522; continue _fun0001 }
- 1518:
+            if(!var13) { _fun0001_ip = 1511; continue _fun0001 }
+ 1507:
             var9 = 'landscape';
- 1522:
+ 1511:
             var9 = var12.bind(var4)(var11, var10, var9);
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
@@ -645,7 +643,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useBestActiveChatInputContainerHeight;
     var _closure1_slot9 = var4;
     var4 = 6;
     var4 = var6[var4];

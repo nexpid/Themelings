@@ -75,7 +75,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.RemoveEmojiEffectsExperiment;
+    var4 = var4.KrispVADNegativeExperiment;
     var8[12] = var4;
     var4 = 6;
     var4 = var6[var4];

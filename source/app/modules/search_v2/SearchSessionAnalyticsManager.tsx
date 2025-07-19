@@ -321,7 +321,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1['value'] = var6;
         var2[7] = var1;
         var1 = {};
-        var6 = 'refreshQueryId';
+        var6 = 'refreshSearchQueryAnalyticsId';
         var1['key'] = var6;
         var6 = function value(arg1) {
             var6 = _closure1_slot0;

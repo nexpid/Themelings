@@ -14,17 +14,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = null;
             var4 = var3 == var2;
             var1 = null;
-            if(var4) { _fun0001_ip = 37; continue _fun0001 }
+            if(var4) { _fun0001_ip = 39; continue _fun0001 }
  14:
             var2 = var2.id;
             var3 = var3 != var2;
             var2 = 'unicode';
-            if(!var3) { _fun0001_ip = 34; continue _fun0001 }
- 30:
+            if(!var3) { _fun0001_ip = 36; continue _fun0001 }
+ 32:
             var2 = 'custom';
- 34:
+ 36:
             var1 = var2;
- 37:
+ 39:
             return var1;
         }
     };

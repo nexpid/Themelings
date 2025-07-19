@@ -137,15 +137,49 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         };
         var _closure2_slot0 = var3;
         var1 = {};
-        var2 = 'getCachedConfig';
+        var2 = 'getEnabledFeatureName';
         var1['key'] = var2;
         var2 = function value() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
+                var3 = this;
+                var1 = var3.getCachedConfig;
+                var2 = var1.bind(var3)();
+                var4 = undefined;
+                var1 = null;
+                if(!(var4 !== var2)) { _fun0003_ip = 77; continue _fun0003 }
+ 21:
+                var6 = var2.treatmentId;
+                var4 = 0;
+                var4 = var6 <= var4;
+                var1 = null;
+                if(var4) { _fun0003_ip = 77; continue _fun0003 }
+ 38:
+                var6 = var3.id;
+                var5 = var2.treatmentId;
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var4 = var2.concat;
+                var3 = '';
+                var2 = ':';
+                var1 = var4.bind(var3)(var6, var2, var5);
+ 77:
+                return var1;
+            }
+        };
+        var1['value'] = var2;
+        var2 = new Array(4);
+        var2[0] = var1;
+        var1 = {};
+        var6 = 'getCachedConfig';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
                 var1 = this;
                 var4 = var1.cachedConfig;
                 var3 = _closure1_slot9;
-                if(!(var4 === var3)) { _fun0003_ip = 112; continue _fun0003 }
+                if(!(var4 === var3)) { _fun0004_ip = 112; continue _fun0004 }
  20:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -155,10 +189,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var6.bind(var4)(var3);
                 var3 = var6.isLibdiscoreLoaded;
                 var3 = var3.bind(var6)();
-                if(var3) { _fun0003_ip = 63; continue _fun0003 }
+                if(var3) { _fun0004_ip = 63; continue _fun0004 }
  55:
                 var1['cachedConfig'] = var4;
-                _fun0003_ip = 112; continue _fun0003;
+                _fun0004_ip = 112; continue _fun0004;
  63:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
@@ -175,9 +209,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             }
         };
-        var1['value'] = var2;
-        var2 = new Array(3);
-        var2[0] = var1;
+        var1['value'] = var6;
+        var2[1] = var1;
         var1 = {};
         var6 = 'setExperiment';
         var1['key'] = var6;
@@ -189,7 +222,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var1['value'] = var6;
-        var2[1] = var1;
+        var2[2] = var1;
         var1 = {};
         var6 = 'getCurrentConfig';
         var1['key'] = var6;
@@ -215,7 +248,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var1['value'] = var5;
-        var2[2] = var1;
+        var2[3] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
@@ -247,7 +280,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = 'getCachedKvStoreMode';
         var5['key'] = var1;
         var1 = function value() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                 var2 = this;
                 var1 = var2.getCachedConfig;
@@ -255,21 +288,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = null;
                 var4 = var2 == var3;
                 var1 = undefined;
-                if(var4) { _fun0004_ip = 30; continue _fun0004 }
+                if(var4) { _fun0005_ip = 30; continue _fun0005 }
  24:
                 var1 = var3.treatmentId;
  30:
                 var3 = var2 != var1;
                 var2 = -1;
-                if(!var3) { _fun0004_ip = 46; continue _fun0004 }
+                if(!var3) { _fun0005_ip = 46; continue _fun0005 }
  43:
                 var2 = var1;
  46:
                 var1 = 1;
-                if(!(var1 !== var2)) { _fun0004_ip = 74; continue _fun0004 }
+                if(!(var1 !== var2)) { _fun0005_ip = 74; continue _fun0005 }
  53:
                 var1 = 2;
-                if(!(var1 !== var2)) { _fun0004_ip = 66; continue _fun0004 }
+                if(!(var1 !== var2)) { _fun0005_ip = 66; continue _fun0005 }
  60:
                 var1 = 'typescript';
                 return var1;
@@ -285,22 +318,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = new Array(4);
         var1[0] = var5;
         var5 = {};
-        var7 = 'isEnabled';
+        var7 = 'getEnabledFeatureName';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var2 = this;
-                var1 = var2.getCachedConfig;
-                var2 = var1.bind(var2)();
-                var1 = undefined;
-                var1 = var1 !== var2;
-                if(!var1) { _fun0005_ip = 34; continue _fun0005 }
- 22:
-                var3 = var2.treatmentId;
-                var2 = 0;
-                var1 = var3 > var2;
- 34:
+                var1 = var2.getCachedKvStoreMode;
+                var7 = var1.bind(var2)();
+                var3 = 'typescript';
+                var1 = null;
+                if(!(var3 !== var7)) { _fun0006_ip = 63; continue _fun0006 }
+ 23:
+                var11 = var2.storeName;
+                var2 = global;
+                var2 = var2.HermesInternal;
+                var5 = var2.concat;
+                var12 = 'KvStore[';
+                var10 = ',';
+                var8 = ']';
+                var9 = var7;
+                var1 = var12[var5](var11, var10, var9, var8, var7);
+ 63:
                 return var1;
             }
         };
@@ -370,37 +409,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot7;
         var5 = {};
-        var1 = 'isEnabled';
+        var1 = 'getLabel';
         var5['key'] = var1;
         var1 = function value() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
-                var2 = this;
-                var1 = var2.getCachedConfig;
-                var2 = var1.bind(var2)();
-                var1 = undefined;
-                var1 = var1 !== var2;
-                if(!var1) { _fun0006_ip = 34; continue _fun0006 }
- 22:
-                var3 = var2.treatmentId;
-                var2 = 0;
-                var1 = var3 > var2;
- 34:
-                return var1;
-            }
-        };
-        var5['value'] = var1;
-        var1 = new Array(6);
-        var1[0] = var5;
-        var5 = {};
-        var7 = 'getLabel';
-        var5['key'] = var7;
-        var7 = function value() {
             var1 = 'libdiscore Telemetry';
             return var1;
         };
-        var5['value'] = var7;
-        var1[1] = var5;
+        var5['value'] = var1;
+        var1 = new Array(5);
+        var1[0] = var5;
         var5 = {};
         var7 = 'getTreatments';
         var5['key'] = var7;
@@ -417,7 +434,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[1] = var5;
         var5 = {};
         var7 = 'getMetricsSampleRate';
         var5['key'] = var7;
@@ -456,7 +473,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[2] = var5;
         var5 = {};
         var7 = 'didEmit';
         var5['key'] = var7;
@@ -469,7 +486,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'shouldCollectMetrics';
         var5['key'] = var7;
@@ -507,7 +524,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var6;
-        var1[5] = var5;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

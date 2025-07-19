@@ -1,4 +1,4 @@
-// app/modules/video_calls/RemoveEmojiEffectsExperiment.tsx
+// app/modules/noise_cancellation/KrispVADNegativeExperiment.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
     var5 = native2;
     var3 = native6;
@@ -7,8 +7,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var1.Object;
     var4 = var7.defineProperty;
     var2 = {};
-    var10 = true;
-    var2['value'] = var10;
+    var11 = true;
+    var2['value'] = var11;
     var1 = '__esModule';
     var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
@@ -16,20 +16,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
     var8 = var2.CommonTriggerPoints;
+    var10 = {};
+    var2 = false;
+    var10['disableKrispVAD'] = var2;
     var2 = 1;
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createExperiment;
-    var2 = {'kind': 'user', 'id': '2025-01_remove_emoji_effects', 'label': 'Remove emoji effects'};
-    var9 = {};
-    var11 = false;
-    var9['removeEmojiEffects'] = var11;
-    var2['defaultConfig'] = var9;
+    var2 = {'kind': 'user', 'id': '2025-07_krisp_vad_negative_test', 'label': 'Krisp VAD Negative Experiment'};
     var8 = var8.VOICE_CALL;
     var2['commonTriggerPoint'] = var8;
-    var9 = {'id': 1, 'label': 'Remove emoji effects'};
+    var2['defaultConfig'] = var10;
+    var9 = {'id': 1, 'label': 'Disable Krisp VAD'};
     var8 = {};
-    var8['removeEmojiEffects'] = var10;
+    var14 = var8;
+    var13 = var10;
+    var10 = copyDataProperties(var14, var13);
+    var10 = 'disableKrispVAD';
+    var8[var10] = var11;
     var9['config'] = var8;
     var8 = new Array(1);
     var8[0] = var9;
@@ -39,8 +43,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/video_calls/RemoveEmojiEffectsExperiment.tsx';
+    var4 = 'modules/noise_cancellation/KrispVADNegativeExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['RemoveEmojiEffectsExperiment'] = var2;
+    var3['KrispVADNegativeExperiment'] = var2;
     return var1;
 })();

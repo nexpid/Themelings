@@ -15,7 +15,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 607; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 638; continue _fun0001 }
  10:
                     var2 = global;
                     var4 = var2.Promise;
@@ -30,7 +30,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = var5[var2];
                     var2 = var5.paths;
                     var9 = var10.bind(var8)(var9, var2);
-                    var2 = new Array(18);
+                    var2 = new Array(19);
                     var2[0] = var9;
                     var9 = var5[var6];
                     var11 = var7.bind(var8)(var9);
@@ -143,16 +143,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = var5.paths;
                     var9 = var11.bind(var8)(var10, var9);
                     var2[16] = var9;
+                    var9 = var5[var6];
+                    var11 = var7.bind(var8)(var9);
+                    var9 = 18;
+                    var10 = var5[var9];
+                    var9 = var5.paths;
+                    var9 = var11.bind(var8)(var10, var9);
+                    var2[17] = var9;
                     var6 = var5[var6];
                     var7 = var7.bind(var8)(var6);
-                    var6 = 18;
+                    var6 = 19;
                     var6 = var5[var6];
                     var5 = var5.paths;
                     var5 = var7.bind(var8)(var6, var5);
-                    var2[17] = var5;
+                    var2[18] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var2;
- 607:
+ 638:
                     return var1;
                 }
             };
@@ -182,7 +189,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
-    var4 = 19;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -111,7 +111,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var6 = 'version';
     var6 = var9.bind(var1)(var6);
     var _closure1_slot14 = var6;
-    var6 = 11;
+    var6 = 12;
     var6 = var8[var6];
     var6 = var7.bind(var1)(var6);
     var6 = var6.Store;
@@ -120,13 +120,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var9 = arg1;
-                var8 = arguments[1];
+                var14 = arguments[1];
                 var7 = this;
                 var _closure3_slot0 = var9;
                 var6 = undefined;
-                if(!(var8 === var6)) { _fun0002_ip = 25; continue _fun0002 }
+                if(!(var14 === var6)) { _fun0002_ip = 25; continue _fun0002 }
  21:
-                var8 = 'typescript';
+                var14 = 'typescript';
  25:
                 var _closure3_slot1 = var6;
                 var _closure3_slot2 = var6;
@@ -136,14 +136,39 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = _closure1_slot3;
                 var1 = _closure2_slot0;
                 var1 = var5.bind(var6)(var7, var1);
+                var5 = 'typescript';
+                var1 = var5 === var14;
+                if(var1) { _fun0002_ip = 106; continue _fun0002 }
+ 76:
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot2;
+                var8 = 8;
+                var8 = var11[var8];
+                var10 = var10.bind(var6)(var8);
+                var8 = var10.hasKvDatabaseAPI;
+                var1 = var8.bind(var10)();
+ 106:
+                var8 = var14;
+                if(var1) { _fun0002_ip = 160; continue _fun0002 }
+ 112:
+                var11 = _closure1_slot10;
+                var10 = var11.warn;
+                var1 = global;
+                var1 = var1.HermesInternal;
+                var13 = var1.concat;
+                var12 = 'Attempted to create a KvStore in mode ';
+                var1 = ', but libdiscore is not available. Falling back to typescript mode.';
+                var1 = var13.bind(var12)(var14, var1);
+                var1 = var10.bind(var11)(var1);
+                var8 = var5;
+ 160:
                 var1 = {};
                 _closure3_slot2 = var1;
-                var5 = 'typescript';
-                if(!(var5 !== var8)) { _fun0002_ip = 89; continue _fun0002 }
- 79:
+                if(!(var5 !== var8)) { _fun0002_ip = 180; continue _fun0002 }
+ 170:
                 var10 = 'typescript-libdiscore-dual-read';
-                if(!(var10 === var8)) { _fun0002_ip = 177; continue _fun0002 }
- 89:
+                if(!(var10 === var8)) { _fun0002_ip = 268; continue _fun0002 }
+ 180:
                 var10 = false;
                 _closure3_slot3 = var10;
                 var10 = {};
@@ -306,19 +331,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var12 = var9;
                 for(var9 in var12)
- 155:
+ 246:
                 {
- 164:
+ 255:
                     var15 = var9;
                     _closure3_slot5 = var15;
                     var15 = var14.bind(var6)();
-                    _fun0002_ip = 155; continue _fun0002;
+                    _fun0002_ip = 246; continue _fun0002;
                 }
- 177:
+ 268:
                 var4 = _closure2_slot0;
                 var10 = _closure1_slot1;
                 var11 = _closure1_slot2;
-                var9 = 8;
+                var9 = 9;
                 var9 = var11[var9];
                 var9 = var10.bind(var6)(var9);
                 var13 = new Array(2);
@@ -329,12 +354,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = _closure1_slot6;
                 var1 = _closure1_slot15;
                 var1 = var1.bind(var6)();
-                if(var1) { _fun0002_ip = 250; continue _fun0002 }
- 237:
+                if(var1) { _fun0002_ip = 341; continue _fun0002 }
+ 328:
                 var1 = var12.apply;
                 var1 = var1.bind(var12)(var7, var13);
-                _fun0002_ip = 284; continue _fun0002;
- 250:
+                _fun0002_ip = 375; continue _fun0002;
+ 341:
                 var9 = global;
                 var11 = var9.Reflect;
                 var10 = var11.construct;
@@ -342,7 +367,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var9.bind(var6)(var7);
                 var9 = var9.constructor;
                 var1 = var10.bind(var11)(var12, var13, var9);
- 284:
+ 375:
                 var1 = var4.bind(var6)(var7, var1);
                 _closure3_slot1 = var1;
                 var1['mode'] = var8;
@@ -370,13 +395,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = var12.bind(var11)(var14, var7, var13);
                 var7 = var9.bind(var10)(var7);
                 var7 = 'typescript-libdiscore-dual-read';
-                if(!(var7 !== var8)) { _fun0002_ip = 528; continue _fun0002 }
- 413:
+                if(!(var7 !== var8)) { _fun0002_ip = 619; continue _fun0002 }
+ 504:
                 var7 = 'libdiscore';
-                if(!(var7 !== var8)) { _fun0002_ip = 500; continue _fun0002 }
- 423:
-                if(!(var5 !== var8)) { _fun0002_ip = 477; continue _fun0002 }
- 427:
+                if(!(var7 !== var8)) { _fun0002_ip = 591; continue _fun0002 }
+ 514:
+                if(!(var5 !== var8)) { _fun0002_ip = 568; continue _fun0002 }
+ 518:
                 var7 = var4.Error;
                 var4 = var4.HermesInternal;
                 var5 = var4.concat;
@@ -388,7 +413,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = new var19[var7](var18, var17);
                 var4 = var4 instanceof Object ? var4 : var5;
                 throw var4;
- 477:
+ 568:
                 var5 = _closure1_slot12;
                 var7 = _closure1_slot11;
                 var4 = function() {
@@ -404,8 +429,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var1[var7] = var4;
                 var1[var5] = var4;
-                _fun0002_ip = 603; continue _fun0002;
- 500:
+                _fun0002_ip = 694; continue _fun0002;
+ 591:
                 var5 = _closure1_slot12;
                 var4 = function(arg1) {
                     var2 = _closure3_slot1;
@@ -426,8 +451,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var1[var5] = var4;
-                _fun0002_ip = 603; continue _fun0002;
- 528:
+                _fun0002_ip = 694; continue _fun0002;
+ 619:
                 var4 = {};
                 var5 = {};
                 var4['root'] = var5;
@@ -441,7 +466,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = function(arg1) {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 9;
+                    var1 = 10;
                     var2 = var2[var1];
                     var1 = undefined;
                     var5 = var3.bind(var1)(var2);
@@ -462,7 +487,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = function(arg1, arg2) {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 9;
+                    var1 = 10;
                     var2 = var2[var1];
                     var1 = undefined;
                     var5 = var3.bind(var1)(var2);
@@ -486,7 +511,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = function() {
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var1 = 9;
+                    var1 = 10;
                     var2 = var5[var1];
                     var1 = undefined;
                     var7 = var4.bind(var1)(var2);
@@ -497,7 +522,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = 'Shadow state must be set in dual-read mode before running validation.';
                     var4 = var7.bind(var1)(var6, var4);
                     var4 = _closure1_slot0;
-                    var3 = 10;
+                    var3 = 11;
                     var3 = var5[var3];
                     var6 = var4.bind(var1)(var3);
                     var5 = var6.runDualReadValidation;
@@ -517,7 +542,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var2 = var3.bind(var1)(var2);
- 603:
+ 694:
                 return var1;
             }
         };
@@ -528,23 +553,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot4;
         var5 = {};
-        var1 = 'actionsHandledByLibdiscore';
+        var1 = 'getMode';
         var5['key'] = var1;
-        var1 = function actionsHandledByLibdiscore() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
-                var2 = this;
-                var3 = var2.mode;
-                var1 = 'libdiscore';
-                var1 = var1 === var3;
-                if(var1) { _fun0007_ip = 36; continue _fun0007 }
- 21:
-                var3 = var2.mode;
-                var2 = 'typescript-libdiscore-dual-read';
-                var1 = var2 === var3;
- 36:
-                return var1;
-            }
+        var1 = function getMode() {
+            var1 = this;
+            var1 = var1.mode;
+            return var1;
         };
         var5['value'] = var1;
         var1 = new Array(6);
@@ -563,7 +577,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.bind(var2)();
             var _closure3_slot2 = var2;
             var1 = function() {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                     var2 = _closure3_slot0;
                     var2 = var2.derived;
@@ -572,7 +586,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var5.call;
                     var3 = _closure3_slot2;
                     var3 = var4.bind(var5)(var2, var3);
-                    if(var3) { _fun0008_ip = 75; continue _fun0008 }
+                    if(var3) { _fun0007_ip = 75; continue _fun0007 }
  44:
                     var5 = _closure3_slot1;
                     var3 = _closure3_slot0;
@@ -596,7 +610,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'version';
         var5['key'] = var7;
         var7 = function version() {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                 var5 = this;
                 var1 = var5.derived;
@@ -604,7 +618,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = _closure1_slot14;
                 var1 = var3[var1];
                 var3 = null;
-                if(!(var3 == var1)) { _fun0009_ip = 70; continue _fun0009 }
+                if(!(var3 == var1)) { _fun0008_ip = 70; continue _fun0008 }
  32:
                 var3 = var5.derived;
                 var4 = var3.memoized;
@@ -661,7 +675,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2 = var2.bind(var1)(var6);
-    var6 = 12;
+    var6 = 13;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

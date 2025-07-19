@@ -78,7 +78,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = undefined;
             if(!var9) { _fun0001_ip = 246; continue _fun0001 }
  233:
-            var9 = _closure1_slot11;
+            var9 = _closure1_slot13;
             var7 = var9.bind(var8)(var3, var8);
  246:
             _fun0001_ip = 264; continue _fun0001;
@@ -90,7 +90,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7;
             _fun0001_ip = 282; continue _fun0001;
  269:
-            var7 = _closure1_slot11;
+            var7 = _closure1_slot13;
             var6 = var7.bind(var8)(var3, var8);
  282:
             var4 = var6;
@@ -149,7 +149,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -182,30 +182,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var _closure1_slot13 = var1;
+    var8 = global;
+    var9 = var8.Object;
+    var7 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var7.bind(var9)(var3, var1, var4);
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var8 = var10.bind(var1)(var4);
+    var4 = var10.bind(var1)(var4);
+    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var10.bind(var1)(var4);
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var9 = var10.bind(var1)(var4);
     var4 = 3;
     var4 = var6[var4];
     var4 = var10.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
     var7 = var10.bind(var1)(var4);
@@ -213,14 +214,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var11 = var4._libdiscoreSetKvDerivedData;
-    var _closure1_slot5 = var11;
+    var _closure1_slot6 = var11;
     var4 = var4._libdiscoreSetKvRoot;
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.AnalyticEvents;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 7;
     var4 = var6[var4];
     var11 = var10.bind(var1)(var4);
@@ -230,7 +231,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var15 = var10;
     var4 = new var15[var11](var14, var13);
     var4 = var4 instanceof Object ? var4 : var10;
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = new Array(2);
     var4[0] = var9;
     var4[1] = var7;
@@ -240,7 +241,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var4 = arg1;
         var5 = var1;
         var2 = copyDataProperties(var5, var4);
-        var3 = _closure1_slot4;
+        var3 = _closure1_slot5;
         var2 = var3.getId;
         var3 = var2.bind(var3)();
         var2 = 'currentUserId';
@@ -280,350 +281,494 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var7['BACKGROUND_SYNC'] = var9;
-    var _closure1_slot9 = var7;
-    var7 = function DispatcherBridge(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+    var _closure1_slot10 = var7;
+    var7 = function() {
+        var4 = _closure1_slot4;
+        var3 = function DispatcherBridge(arg1) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            var12 = this;
-            var _closure2_slot0 = var12;
-            var8 = arg1;
-            var1 = undefined;
-            var4 = undefined;
-            var9 = undefined;
-            var6 = undefined;
-            var10 = undefined;
-            var11 = undefined;
-            var _closure2_slot1 = var12;
-            var7 = _closure1_slot3;
-            var5 = _closure1_slot12;
-            var5 = var7.bind(var1)(var12, var5);
-            var5 = global;
-            var7 = var5.Map;
-            var13 = var7.prototype;
-            var13 = Object.create(var13, {constructor: {value: var7}});
-            var19 = var13;
-            var7 = new var19[var7](var18);
-            var7 = var7 instanceof Object ? var7 : var13;
-            var12['tokenToStore'] = var7;
- 79: // try_start_0
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var7 = 8;
-            var7 = var13[var7];
-            var12 = var12.bind(var1)(var7);
-            var7 = var12.getKvStoreApi;
-            var12 = var7.bind(var12)();
-            var4 = var12;
-            var _closure2_slot2 = var12;
-            var7 = null;
-            if(!(var7 != var12)) { _fun0004_ip = 470; continue _fun0004 }
- 125:
-            var7 = new Array(0);
-            var6 = var7;
-            var _closure2_slot3 = var7;
-            var10 = function _loop(arg1) {
-                var4 = arg1;
-                var _closure3_slot0 = var4;
-                var1 = var4.getName;
-                var7 = var1.bind(var4)();
-                var6 = _closure2_slot2;
-                var5 = var6.registerStore;
-                var3 = function(arg1, arg2) {
-                    var4 = _closure3_slot0;
-                    var1 = _closure1_slot6;
-                    var3 = var4[var1];
-                    var2 = arg1;
-                    var1 = arg2;
-                    var1 = var3.bind(var4)(var2, var1);
-                    return var1;
-                };
-                var2 = function(arg1) {
-                    var3 = _closure3_slot0;
-                    var1 = _closure1_slot5;
-                    var2 = var3[var1];
-                    var1 = arg1;
+                var7 = arg1;
+                var13 = this;
+                var _closure3_slot0 = var13;
+                var8 = var7;
+                var1 = undefined;
+                var4 = undefined;
+                var9 = undefined;
+                var6 = undefined;
+                var10 = undefined;
+                var11 = undefined;
+                var _closure3_slot1 = var13;
+                var12 = _closure1_slot3;
+                var5 = _closure2_slot0;
+                var5 = var12.bind(var1)(var13, var5);
+                var5 = global;
+                var12 = var5.Map;
+                var14 = var12.prototype;
+                var14 = Object.create(var14, {constructor: {value: var12}});
+                var19 = var14;
+                var12 = new var19[var12](var18);
+                var12 = var12 instanceof Object ? var12 : var14;
+                var13['tokenToStore'] = var12;
+                var12 = var7.length;
+                var7 = 0;
+                if(!(var7 !== var12)) { _fun0004_ip = 532; continue _fun0004 }
+ 99:
+                var12 = _closure1_slot0;
+                var13 = _closure1_slot2;
+                var7 = 8;
+                var7 = var13[var7];
+                var7 = var12.bind(var1)(var7);
+                var12 = var7.KV_DATABASE_API;
+                var4 = var12;
+                var _closure3_slot2 = var12;
+                var7 = null;
+                if(!(var7 == var12)) { _fun0004_ip = 164; continue _fun0004 }
+ 138:
+                var13 = _closure1_slot9;
+                var12 = var13.info;
+                var7 = 'Not initializing DispatcherBridge, because kvStoreApi is unavailable.';
+                var7 = var12.bind(var13)(var7);
+                _fun0004_ip = 532; continue _fun0004;
+ 164: // try_start_0
+                var7 = new Array(0);
+                var6 = var7;
+                var _closure3_slot3 = var7;
+                var10 = function _loop(arg1) {
+                    var4 = arg1;
+                    var _closure4_slot0 = var4;
+                    var1 = var4.getName;
+                    var10 = var1.bind(var4)();
+                    var6 = _closure3_slot2;
+                    var5 = var6.registerStore;
+                    var3 = function(arg1, arg2) {
+                        var4 = _closure4_slot0;
+                        var1 = _closure1_slot7;
+                        var3 = var4[var1];
+                        var2 = arg1;
+                        var1 = arg2;
+                        var1 = var3.bind(var4)(var2, var1);
+                        return var1;
+                    };
+                    var2 = function(arg1) {
+                        var3 = _closure4_slot0;
+                        var1 = _closure1_slot6;
+                        var2 = var3[var1];
+                        var1 = arg1;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
+                    };
+                    var2 = var5.bind(var6)(var10, var3, var2);
+                    var9 = var2.storeToken;
+                    var2 = _closure3_slot1;
+                    var3 = var2.tokenToStore;
+                    var2 = var3.set;
+                    var2 = var2.bind(var3)(var9, var4);
+                    var3 = _closure3_slot3;
+                    var2 = var3.push;
+                    var1 = var4.getMode;
+                    var12 = var1.bind(var4)();
+                    var1 = global;
+                    var1 = var1.HermesInternal;
+                    var7 = var1.concat;
+                    var17 = '';
+                    var15 = ' => [token: ';
+                    var13 = ', mode: ';
+                    var11 = ']';
+                    var16 = var10;
+                    var14 = var9;
+                    var1 = var17[var7](var16, var15, var14, var13, var12, var11, var10);
                     var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
                     return var1;
                 };
-                var2 = var5.bind(var6)(var7, var3, var2);
-                var6 = var2.token;
-                var2 = _closure2_slot1;
-                var3 = var2.tokenToStore;
-                var2 = var3.set;
-                var2 = var2.bind(var3)(var6, var4);
-                var3 = _closure2_slot3;
-                var2 = var3.push;
-                var1 = global;
-                var1 = var1.HermesInternal;
-                var5 = var1.concat;
-                var4 = '';
-                var1 = ' => ';
-                var1 = var5.bind(var4)(var7, var1, var6);
-                var1 = var2.bind(var3)(var1);
-                var1 = undefined;
-                return var1;
-            };
-            var12 = _closure1_slot10;
-            var7 = var8;
-            var7 = var12.bind(var1)(var7);
-            var11 = var7;
-            var7 = var7.bind(var1)();
-            var9 = var7;
-            var7 = var7.done;
-            if(var7) { _fun0004_ip = 207; continue _fun0004 }
- 173:
-            var12 = var10;
-            var7 = var9;
-            var7 = var7.value;
-            var7 = var12.bind(var1)(var7);
-            var7 = var11;
-            var7 = var7.bind(var1)();
-            var9 = var7;
-            var7 = var7.done;
-            if(!var7) { _fun0004_ip = 173; continue _fun0004 }
- 207:
-            var7 = _closure1_slot8;
-            var9 = var7.info;
-            var14 = var8.length;
-            var10 = var6;
-            var6 = var10.join;
-            var8 = ', ';
-            var16 = var6.bind(var10)(var8);
-            var6 = var5.HermesInternal;
-            var11 = var6.concat;
-            var19 = 'Registered ';
-            var17 = ' store(s), mapping: ';
-            var13 = '.';
-            var18 = var14;
-            var15 = var13;
-            var6 = var19[var11](var18, var17, var16, var15, var14);
-            var6 = var9.bind(var7)(var6);
-            var6 = var4;
-            var4 = var6.getActions;
-            var12 = var4.bind(var6)();
-            var6 = var7.info;
-            var11 = var12.length;
-            var4 = var12.join;
-            var16 = var4.bind(var12)(var8);
-            var4 = var5.HermesInternal;
-            var9 = var4.concat;
-            var19 = 'Registering ';
-            var17 = ' bridged action(s): ';
-            var18 = var11;
-            var4 = var19[var9](var18, var17, var16, var15, var14);
-            var4 = var6.bind(var7)(var4);
-            var4 = function actionHandler(arg1) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                var12 = _closure1_slot12;
+                var7 = var8;
+                var7 = var12.bind(var1)(var7);
+                var11 = var7;
+                var7 = var7.bind(var1)();
+                var9 = var7;
+                var7 = var7.done;
+                if(var7) { _fun0004_ip = 246; continue _fun0004 }
+ 212:
+                var12 = var10;
+                var7 = var9;
+                var7 = var7.value;
+                var7 = var12.bind(var1)(var7);
+                var7 = var11;
+                var7 = var7.bind(var1)();
+                var9 = var7;
+                var7 = var7.done;
+                if(!var7) { _fun0004_ip = 212; continue _fun0004 }
+ 246:
+                var7 = _closure1_slot9;
+                var9 = var7.info;
+                var14 = var8.length;
+                var10 = var6;
+                var6 = var10.join;
+                var8 = ', ';
+                var16 = var6.bind(var10)(var8);
+                var6 = var5.HermesInternal;
+                var11 = var6.concat;
+                var19 = 'Registered ';
+                var17 = ' store(s), mapping: ';
+                var13 = '.';
+                var18 = var14;
+                var15 = var13;
+                var6 = var19[var11](var18, var17, var16, var15, var14);
+                var6 = var9.bind(var7)(var6);
+                var6 = var4;
+                var4 = var6.getActions;
+                var12 = var4.bind(var6)();
+                var6 = var7.info;
+                var11 = var12.length;
+                var4 = var12.join;
+                var16 = var4.bind(var12)(var8);
+                var4 = var5.HermesInternal;
+                var9 = var4.concat;
+                var19 = 'Registering ';
+                var17 = ' bridged action(s): ';
+                var18 = var11;
+                var4 = var19[var9](var18, var17, var16, var15, var14);
+                var4 = var6.bind(var7)(var4);
+                var4 = function actionHandler(arg1) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    var12 = arg1;
-                    var2 = _closure1_slot9;
-                    var1 = var12.type;
-                    var6 = var2[var1];
-                    var10 = global;
-                    var2 = var10.performance;
-                    var1 = var2.now;
-                    var8 = var1.bind(var2)();
-                    var7 = null;
-                    if(!(var7 == var6)) { _fun0005_ip = 61; continue _fun0005 }
- 42:
-                    var2 = var10.JSON;
-                    var1 = var2.stringify;
-                    var11 = var1.bind(var2)(var12);
-                    _fun0005_ip = 103; continue _fun0005;
- 61:
-                    var4 = var10.JSON;
-                    var2 = var4.stringify;
-                    var1 = {};
-                    var5 = var12.type;
-                    var1['type'] = var5;
-                    var5 = undefined;
-                    var24 = var6.bind(var5)(var12);
-                    var25 = var1;
-                    var5 = copyDataProperties(var25, var24);
-                    var11 = var2.bind(var4)(var1);
- 103:
-                    var2 = {};
-                    var1 = 'json_stringify_action';
-                    var2['kind'] = var1;
-                    var4 = var10.performance;
-                    var1 = var4.now;
-                    var1 = var1.bind(var4)();
-                    var1 = var1 - var8;
-                    var2['durationMillis'] = var1;
-                    var6 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var4 = 9;
-                    var5 = var1[var4];
-                    var1 = undefined;
-                    var5 = var6.bind(var1)(var5);
-                    var6 = var5.TelemetryExperiment;
-                    var5 = var6.shouldCollectMetrics;
-                    var5 = var5.bind(var6)();
-                    var9 = _closure2_slot2;
-                    var6 = var9.dispatchAction;
-                    var9 = var6.bind(var9)(var11, var5);
-                    var11 = var10.performance;
-                    var6 = var11.now;
-                    var6 = var6.bind(var11)();
-                    var11 = var6 - var8;
-                    if(!(var7 == var9)) { _fun0005_ip = 260; continue _fun0005 }
- 221:
-                    var15 = _closure1_slot8;
-                    var14 = var15.info;
-                    var13 = var12.type;
-                    var8 = 'When dispatching action';
-                    var6 = 'libdiscore returned a failure. Check native logs for more info.';
-                    var6 = var14.bind(var15)(var8, var13, var6);
-                    _fun0005_ip = 627; continue _fun0005;
- 260:
-                    var8 = _closure1_slot10;
-                    var6 = var9.storeTokens;
-                    var16 = var8.bind(var1)(var6);
-                    var8 = var16.bind(var1)();
-                    var6 = var8.done;
-                    var15 = 'When dispatching action';
-                    var14 = 'we got a store token';
-                    var13 = 'that is unknown';
-                    if(var6) { _fun0005_ip = 397; continue _fun0005 }
- 307:
-                    var20 = var8.value;
-                    var6 = _closure2_slot0;
-                    var18 = var6.tokenToStore;
-                    var6 = var18.get;
-                    var18 = var6.bind(var18)(var20);
-                    if(!(var7 != var18)) { _fun0005_ip = 349; continue _fun0005 }
- 336:
-                    var6 = var18.doEmitChanges;
-                    var6 = var6.bind(var18)(var12);
-                    _fun0005_ip = 382; continue _fun0005;
- 349:
-                    var19 = _closure1_slot8;
-                    var18 = var19.warn;
-                    var24 = var12.type;
-                    var26 = var19;
-                    var25 = var15;
-                    var23 = var14;
-                    var22 = var20;
-                    var21 = var13;
-                    var6 = var26[var18](var25, var24, var23, var22, var21, var20);
- 382:
-                    var18 = var16.bind(var1)();
-                    var6 = var18.done;
-                    var8 = var18;
-                    if(!var6) { _fun0005_ip = 307; continue _fun0005 }
- 397:
-                    var6 = var9.metrics;
-                    if(!(var7 != var6)) { _fun0005_ip = 627; continue _fun0005 }
- 410:
-                    if(!var5) { _fun0005_ip = 627; continue _fun0005 }
- 416:
-                    var13 = new Array(1);
-                    var13[0] = var2;
-                    var2 = var9.metrics;
-                    var24 = var2.timings;
-                    var23 = 1;
-                    var25 = var13;
-                    var2 = arraySpread(var25, var24, var23);
-                    var6 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var5 = 10;
-                    var5 = var2[var5];
-                    var8 = var6.bind(var1)(var5);
-                    var7 = var8.track;
-                    var5 = _closure1_slot7;
-                    var6 = var5.LIBDISCORE_DISPATCH_BRIDGE_TELEMETRY;
-                    var5 = {};
-                    var12 = var12.type;
-                    var5['action_type'] = var12;
-                    var5['total_duration_millis'] = var11;
-                    var12 = var10.JSON;
-                    var11 = var12.stringify;
-                    var11 = var11.bind(var12)(var13);
-                    var5['timings'] = var11;
-                    var13 = var10.JSON;
-                    var12 = var13.stringify;
-                    var11 = var9.metrics;
-                    var11 = var11.mutations;
-                    var11 = var12.bind(var13)(var11);
-                    var5['mutations'] = var11;
-                    var11 = var10.JSON;
-                    var10 = var11.stringify;
-                    var9 = var9.metrics;
-                    var9 = var9.memory;
-                    var9 = var10.bind(var11)(var9);
-                    var5['memory_usage'] = var9;
-                    var5 = var7.bind(var8)(var6, var5);
-                    var3 = _closure1_slot0;
-                    var2 = var2[var4];
-                    var2 = var3.bind(var1)(var2);
-                    var3 = var2.TelemetryExperiment;
-                    var2 = var3.didEmit;
-                    var2 = var2.bind(var3)();
- 627:
+                        var7 = arg1;
+                        var5 = var7;
+                        var2 = undefined;
+                        var11 = undefined;
+                        var9 = undefined;
+                        var3 = undefined;
+                        var6 = undefined;
+                        var8 = undefined;
+                        var17 = undefined;
+                        var13 = undefined;
+                        var18 = undefined;
+                        var19 = undefined;
+                        var20 = undefined;
+                        var10 = _closure1_slot10;
+                        var7 = var7.type;
+                        var22 = var10[var7];
+                        var12 = global;
+                        var10 = var12.performance;
+                        var7 = var10.now;
+                        var9 = var7.bind(var10)();
+                        var10 = null;
+                        if(!(var10 == var22)) { _fun0005_ip = 89; continue _fun0005 }
+ 67:
+                        var15 = var12.JSON;
+                        var14 = var15.stringify;
+                        var7 = var5;
+                        var7 = var14.bind(var15)(var7);
+                        _fun0005_ip = 132; continue _fun0005;
+ 89:
+                        var16 = var12.JSON;
+                        var15 = var16.stringify;
+                        var14 = {};
+                        var21 = var5;
+                        var23 = var21.type;
+                        var14['type'] = var23;
+                        var28 = var22.bind(var2)(var21);
+                        var29 = var14;
+                        var21 = copyDataProperties(var29, var28);
+                        var7 = var15.bind(var16)(var14);
+ 132:
+                        var11 = var7;
+                        var7 = {};
+                        var14 = 'json_stringify_action';
+                        var7['kind'] = var14;
+                        var15 = var12.performance;
+                        var14 = var15.now;
+                        var15 = var14.bind(var15)();
+                        var14 = var9;
+                        var14 = var15 - var14;
+                        var7['durationMillis'] = var14;
+                        var6 = var7;
+                        var15 = _closure1_slot0;
+                        var14 = _closure1_slot2;
+                        var7 = 9;
+                        var14 = var14[var7];
+                        var14 = var15.bind(var2)(var14);
+                        var15 = var14.TelemetryExperiment;
+                        var14 = var15.shouldCollectMetrics;
+                        var8 = var14.bind(var15)();
+ 215: // try_start_0
+                        var21 = _closure3_slot2;
+                        var15 = var21.dispatchAction;
+                        var14 = var11;
+                        var11 = var8;
+                        var3 = var15.bind(var21)(var14, var11);
+ 240: // try_end0
+                        var14 = var12.performance;
+                        var11 = var14.now;
+                        var11 = var11.bind(var14)();
+                        var13 = var11 - var9;
+                        var11 = _closure1_slot12;
+                        var9 = var3;
+                        var9 = var9.storeTokens;
+                        var9 = var11.bind(var2)(var9);
+                        var18 = var9;
+                        var9 = var9.bind(var2)();
+                        var17 = var9;
+                        var9 = var9.done;
+                        var15 = 'When dispatching action';
+                        var14 = 'we got a store token';
+                        var11 = 'that is unknown';
+                        if(var9) { _fun0005_ip = 426; continue _fun0005 }
+ 315:
+                        var9 = var17;
+                        var22 = var9.value;
+                        var19 = var22;
+                        var9 = _closure3_slot0;
+                        var21 = var9.tokenToStore;
+                        var9 = var21.get;
+                        var9 = var9.bind(var21)(var22);
+                        var20 = var9;
+                        if(!(var10 != var9)) { _fun0005_ip = 372; continue _fun0005 }
+ 353:
+                        var22 = var20;
+                        var21 = var22.doEmitChanges;
+                        var9 = var5;
+                        var9 = var21.bind(var22)(var9);
+                        _fun0005_ip = 408; continue _fun0005;
+ 372:
+                        var23 = _closure1_slot9;
+                        var22 = var23.warn;
+                        var9 = var5;
+                        var28 = var9.type;
+                        var26 = var19;
+                        var30 = var23;
+                        var29 = var15;
+                        var27 = var14;
+                        var25 = var11;
+                        var9 = var30[var22](var29, var28, var27, var26, var25, var24);
+ 408:
+                        var9 = var18;
+                        var9 = var9.bind(var2)();
+                        var17 = var9;
+                        var9 = var9.done;
+                        if(!var9) { _fun0005_ip = 315; continue _fun0005 }
+ 426:
+                        var9 = var3;
+                        var9 = var9.metrics;
+                        if(!(var10 != var9)) { _fun0005_ip = 665; continue _fun0005 }
+ 442:
+                        if(!var8) { _fun0005_ip = 665; continue _fun0005 }
+ 448:
+                        var15 = new Array(1);
+                        var15[0] = var6;
+                        var11 = var3;
+                        var3 = var11.metrics;
+                        var28 = var3.timings;
+                        var27 = 1;
+                        var29 = var15;
+                        var3 = arraySpread(var29, var28, var27);
+                        var8 = _closure1_slot1;
+                        var3 = _closure1_slot2;
+                        var6 = 11;
+                        var6 = var3[var6];
+                        var10 = var8.bind(var2)(var6);
+                        var9 = var10.track;
+                        var6 = _closure1_slot8;
+                        var8 = var6.LIBDISCORE_DISPATCH_BRIDGE_TELEMETRY;
+                        var6 = {};
+                        var14 = var5;
+                        var14 = var14.type;
+                        var6['action_type'] = var14;
+                        var6['total_duration_millis'] = var13;
+                        var14 = var12.JSON;
+                        var13 = var14.stringify;
+                        var13 = var13.bind(var14)(var15);
+                        var6['timings'] = var13;
+                        var15 = var12.JSON;
+                        var14 = var15.stringify;
+                        var13 = var11.metrics;
+                        var13 = var13.mutations;
+                        var13 = var14.bind(var15)(var13);
+                        var6['mutations'] = var13;
+                        var13 = var12.JSON;
+                        var12 = var13.stringify;
+                        var11 = var11.metrics;
+                        var11 = var11.memory;
+                        var11 = var12.bind(var13)(var11);
+                        var6['memory_usage'] = var11;
+                        var6 = var9.bind(var10)(var8, var6);
+                        var6 = _closure1_slot0;
+                        var3 = var3[var7];
+                        var3 = var6.bind(var2)(var3);
+                        var6 = var3.TelemetryExperiment;
+                        var3 = var6.didEmit;
+                        var3 = var3.bind(var6)();
+ 665:
+                        return var2;
+ 667: // catch_target0
+                        CatchBlockStart(arg_register=6);
+                        var1 = var7;
+                        var8 = _closure3_slot2;
+                        var6 = var8.findStoresThatCanHandleActionType;
+                        var9 = var5;
+                        var5 = var9.type;
+                        var6 = var6.bind(var8)(var5);
+                        var5 = _closure3_slot0;
+                        var3 = var5.filterAuthorativeStores;
+                        var6 = var3.bind(var5)(var6);
+                        var5 = var6.map;
+                        var3 = function(arg1) {
+                            var2 = arg1;
+                            var1 = var2.getName;
+                            var1 = var1.bind(var2)();
+                            return var1;
+                        };
+                        var3 = var5.bind(var6)(var3);
+                        var12 = _closure1_slot9;
+                        var11 = var12.error;
+                        var28 = var9.type;
+                        var29 = 'Failed to dispatch action';
+                        var27 = 'authorative stores';
+                        var25 = 'error:';
+                        var30 = var12;
+                        var26 = var3;
+                        var24 = var7;
+                        var5 = var30[var11](var29, var28, var27, var26, var25, var24, var23);
+                        var5 = _closure1_slot1;
+                        var6 = _closure1_slot2;
+                        var4 = 10;
+                        var4 = var6[var4];
+                        var6 = var5.bind(var2)(var4);
+                        var5 = var6.captureException;
+                        var4 = {};
+                        var8 = {};
+                        var9 = var9.type;
+                        var8['action_type'] = var9;
+                        var8['authorative_stores'] = var3;
+                        var4['extra'] = var8;
+                        var8 = {};
+                        var9 = 'libdiscore';
+                        var8['source'] = var9;
+                        var4['tags'] = var8;
+                        var4 = var5.bind(var6)(var7, var4);
+                        var4 = var3.length;
+                        var3 = 0;
+                        if(!(!(var4 > var3))) { _fun0005_ip = 867; continue _fun0005 }
+ 865:
+                        return var2;
+ 867:
+                        throw var1;
+                    }
+                };
+                var _closure3_slot4 = var4;
+                var7 = _closure1_slot1;
+                var9 = _closure1_slot2;
+                var4 = 12;
+                var6 = var9[var4];
+                var8 = var7.bind(var1)(var6);
+                var7 = var8.register;
+                var10 = var5.Object;
+                var6 = var10.fromEntries;
+                var11 = var12.map;
+                var5 = function(arg1) {
+                    var1 = new Array(2);
+                    var2 = arg1;
+                    var1[0] = var2;
+                    var2 = _closure3_slot4;
+                    var1[1] = var2;
                     return var1;
-                }
-            };
-            var _closure2_slot4 = var4;
-            var7 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var4 = 11;
-            var6 = var9[var4];
-            var8 = var7.bind(var1)(var6);
-            var7 = var8.register;
-            var10 = var5.Object;
-            var6 = var10.fromEntries;
-            var11 = var12.map;
-            var5 = function(arg1) {
-                var1 = new Array(2);
+                };
+                var5 = var11.bind(var12)(var5);
+                var17 = var6.bind(var10)(var5);
+                var5 = _closure1_slot0;
+                var4 = var9[var4];
+                var4 = var5.bind(var1)(var4);
+                var4 = var4.DispatchBand;
+                var15 = var4.Database;
+                var18 = 'LibDiscoreDispatcherBridge';
+                var16 = function() {
+                    var1 = undefined;
+                    return var1;
+                };
+                var19 = var8;
+                var3 = var19[var7](var18, var17, var16, var15, var14);
+ 507: // try_end0
+                _fun0004_ip = 532; continue _fun0004;
+ 509: // catch_target0
+                CatchBlockStart(arg_register=4);
+                var4 = _closure1_slot9;
+                var3 = var4.error;
+                var2 = 'Failed to initialize the dispatcher bridge';
+                var2 = var3.bind(var4)(var2, var5);
+ 532:
+                return var1;
+            }
+        };
+        var _closure2_slot0 = var3;
+        var1 = {};
+        var5 = 'filterAuthorativeStores';
+        var1['key'] = var5;
+        var2 = function filterAuthorativeStores(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+                var8 = this;
+                var1 = new Array(0);
+                var3 = _closure1_slot12;
+                var7 = undefined;
                 var2 = arg1;
-                var1[0] = var2;
-                var2 = _closure2_slot4;
-                var1[1] = var2;
+                var6 = var3.bind(var7)(var2);
+                var3 = var6.bind(var7)();
+                var2 = var3.done;
+                var5 = 'libdiscore';
+                var4 = null;
+                if(var2) { _fun0006_ip = 114; continue _fun0006 }
+ 44:
+                var10 = var3.value;
+                var9 = var8.tokenToStore;
+                var2 = var9.get;
+                var9 = var2.bind(var9)(var10);
+                var2 = var4 != var9;
+                if(!var2) { _fun0006_ip = 86; continue _fun0006 }
+ 72:
+                var10 = var9.getMode;
+                var10 = var10.bind(var9)();
+                var2 = var5 === var10;
+ 86:
+                if(!var2) { _fun0006_ip = 99; continue _fun0006 }
+ 89:
+                var2 = var1.push;
+                var2 = var2.bind(var1)(var9);
+ 99:
+                var9 = var6.bind(var7)();
+                var2 = var9.done;
+                var3 = var9;
+                if(!var2) { _fun0006_ip = 44; continue _fun0006 }
+ 114:
                 return var1;
-            };
-            var5 = var11.bind(var12)(var5);
-            var17 = var6.bind(var10)(var5);
-            var5 = _closure1_slot0;
-            var4 = var9[var4];
-            var4 = var5.bind(var1)(var4);
-            var4 = var4.DispatchBand;
-            var15 = var4.Database;
-            var18 = 'LibDiscoreDispatcherBridge';
-            var16 = function() {
-                var1 = undefined;
-                return var1;
-            };
-            var19 = var8;
-            var3 = var19[var7](var18, var17, var16, var15, var14);
- 468: // try_end0
-            _fun0004_ip = 518; continue _fun0004;
- 470: // try_start_1
-            var5 = _closure1_slot8;
-            var4 = var5.info;
-            var3 = 'Not initializing the action bridge, because discore kvStoreApi is unavailable.';
-            var3 = var4.bind(var5)(var3);
- 491: // try_end1
-            var3 = undefined;
-            return var3;
- 495: // catch_target0 // catch_target1
-            CatchBlockStart(arg_register=4);
-            var4 = _closure1_slot8;
-            var3 = var4.error;
-            var2 = 'Failed to initialize the dispatcher bridge';
-            var2 = var3.bind(var4)(var2, var5);
- 518:
-            return var1;
-        }
+            }
+        };
+        var1['value'] = var2;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var1 = undefined;
+        var1 = var4.bind(var1)(var3, var2);
+        return var1;
     };
-    var _closure1_slot12 = var7;
-    var7 = var8.bind(var1)(var7);
+    var7 = var7.bind(var1)();
+    var10 = var8.Set;
+    var8 = var10.prototype;
+    var9 = Object.create(var8, {constructor: {value: var10}});
+    var14 = ['libdiscore', 'typescript-libdiscore-dual-read'];
+    var15 = var9;
+    var8 = new var15[var10](var14, var13);
+    var8 = var8 instanceof Object ? var8 : var9;
+    var _closure1_slot11 = var8;
     var2 = function filterKvStores(arg1) {
         var3 = arg1;
         var2 = var3.filter;
         var1 = function(arg1) {
-            var2 = arg1;
-            var1 = var2.actionsHandledByLibdiscore;
-            var1 = var1.bind(var2)();
+            var4 = arg1;
+            var3 = _closure1_slot11;
+            var2 = var3.has;
+            var1 = var4.getMode;
+            var1 = var1.bind(var4)();
+            var1 = var2.bind(var3)(var1);
             return var1;
         };
         var1 = var2.bind(var3)(var1);
@@ -635,7 +780,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var15 = var4;
     var2 = new var15[var7](var14, var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

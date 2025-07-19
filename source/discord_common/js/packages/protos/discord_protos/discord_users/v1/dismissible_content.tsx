@@ -318,10 +318,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['GUILD_AUTOMOD_REGEX_UPSELL'] = var2;
     var1 = 'GUILD_AUTOMOD_REGEX_UPSELL';
     var4[var2] = var1;
-    var2 = 103;
-    var4['VOICE_CHANNEL_EFFECTS_REDUCED_MOTION_TOOLTIP'] = var2;
-    var1 = 'VOICE_CHANNEL_EFFECTS_REDUCED_MOTION_TOOLTIP';
-    var4[var2] = var1;
     var2 = 108;
     var4['CONNECTIONS_NUX'] = var2;
     var1 = 'CONNECTIONS_NUX';

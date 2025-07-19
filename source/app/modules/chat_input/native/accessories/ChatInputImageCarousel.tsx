@@ -35,7 +35,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot5 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useChatShowingAutoComplete;
     var _closure1_slot6 = var4;
     var4 = 5;
     var4 = var6[var4];
@@ -51,16 +52,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot0 = var10;
             var7 = var1.channelId;
             var _closure2_slot1 = var7;
-            var4 = _closure1_slot6;
-            var3 = var4.useField;
-            var1 = 'showingAutoComplete';
-            var1 = var3.bind(var4)(var1);
+            var3 = var1.screenIndex;
+            var1 = _closure1_slot6;
+            var5 = undefined;
+            var1 = var1.bind(var5)(var3);
             var _closure2_slot2 = var1;
             var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var3 = 6;
-            var3 = var5[var3];
-            var5 = undefined;
+            var3 = var8[var3];
             var9 = var4.bind(var5)(var3);
             var8 = var9.useStateFromStores;
             var3 = _closure1_slot5;
@@ -107,8 +107,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var8.bind(var9)(var4, var1, var3);
             var1 = null;
             var3 = var1 != var8;
-            if(!var3) { _fun0001_ip = 189; continue _fun0001 }
- 136:
+            if(!var3) { _fun0001_ip = 185; continue _fun0001 }
+ 132:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -135,7 +135,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var2['onRemove'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 189:
+ 185:
             return var1;
         }
     };

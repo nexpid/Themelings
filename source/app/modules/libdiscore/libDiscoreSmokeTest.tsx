@@ -107,15 +107,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var3 = function(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                var1 = arg1;
-                var2 = var1.isEnabled;
-                var2 = var2.bind(var1)();
-                if(!var2) { _fun0002_ip = 38; continue _fun0002 }
- 16:
-                var3 = _closure2_slot0;
-                var2 = var3.push;
-                var1 = var1.id;
-                var1 = var2.bind(var3)(var1);
+                var2 = arg1;
+                var1 = var2.getEnabledFeatureName;
+                var3 = var1.bind(var2)();
+                var1 = null;
+                if(!(var1 != var3)) { _fun0002_ip = 38; continue _fun0002 }
+ 21:
+                var2 = _closure2_slot0;
+                var1 = var2.push;
+                var1 = var1.bind(var2)(var3);
  38:
                 var1 = undefined;
                 return var1;

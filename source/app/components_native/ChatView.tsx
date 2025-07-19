@@ -1015,7 +1015,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var12[4] = var14;
                     var14 = _closure2_slot27;
                     var13 = null;
-                    if(!var14) { _fun0011_ip = 884; continue _fun0011 }
+                    if(!var14) { _fun0011_ip = 893; continue _fun0011 }
  852:
                     var16 = _closure1_slot14;
                     var15 = _closure1_slot1;
@@ -1024,8 +1024,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var14 = var17[var14];
                     var15 = var15.bind(var4)(var14);
                     var14 = {};
+                    var17 = _closure2_slot10;
+                    var14['screenIndex'] = var17;
                     var13 = var16.bind(var4)(var15, var14);
- 884:
+ 893:
                     var12[5] = var13;
                     var8['children'] = var12;
                     var8 = var11.bind(var4)(var10, var8);

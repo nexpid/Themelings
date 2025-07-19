@@ -107,7 +107,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = new var8[var1](var7);
                 var1 = var1 instanceof Object ? var1 : var2;
                 var3 = var1.setOptions;
-                var2 = {'renderEmbeds': null, 'inlineEmbedMedia': null, 'inlineAttachmentMedia': null, 'renderReactions': false, 'renderShortcuts': false, 'animateEmoji': false, 'gifAutoPlay': false, 'renderReplies': false, 'renderCodedLinks': false, 'renderGiftCode': false, 'renderActivityInviteEmbed': false, 'renderThreadEmbeds': false, 'renderForumPostActions': false, 'ignoreMentioned': true, 'enableSwipeActions': false, 'renderExecutedCommands': false, 'useAlternateEmbedColors': true};
+                var2 = {'renderEmbeds': null, 'inlineEmbedMedia': null, 'inlineAttachmentMedia': null, 'renderReactions': false, 'animateEmoji': false, 'gifAutoPlay': false, 'renderReplies': false, 'renderCodedLinks': false, 'renderGiftCode': false, 'renderActivityInviteEmbed': false, 'renderThreadEmbeds': false, 'renderForumPostActions': false, 'ignoreMentioned': true, 'enableSwipeActions': false, 'renderExecutedCommands': false, 'useAlternateEmbedColors': true};
                 var5 = _closure2_slot4;
                 var2['renderEmbeds'] = var5;
                 var5 = _closure2_slot5;
@@ -330,8 +330,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6[var7] = var9;
         var7 = 'renderReactions';
         var6[var7] = var9;
-        var7 = 'renderShortcuts';
-        var6[var7] = var9;
         var7 = 'renderEmbeds';
         var6[var7] = var8;
         var7 = 'gifAutoPlay';
@@ -492,8 +490,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6[var7] = var9;
         var7 = 'renderReactions';
         var6[var7] = var9;
-        var7 = 'renderShortcuts';
-        var6[var7] = var9;
         var7 = 'renderEmbeds';
         var6[var7] = var8;
         var7 = 'renderAttachments';
@@ -595,8 +591,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'renderThreadEmbeds';
         var6[var7] = var9;
         var7 = 'renderReactions';
-        var6[var7] = var9;
-        var7 = 'renderShortcuts';
         var6[var7] = var9;
         var7 = 'gifAutoPlay';
         var6[var7] = var10;

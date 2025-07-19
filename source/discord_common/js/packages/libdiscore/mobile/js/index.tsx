@@ -128,7 +128,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         };
         var3['consumeLogs'] = var5;
         var3['BlockedDomainsStore'] = var4;
-        var4 = function getKvDatabaseApi() {
+        var4 = function getKvDatabaseAPI() {
             var1 = {};
             var3 = function registerStore(arg1, arg2, arg3) {
                 var5 = arg2;
@@ -137,16 +137,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = arg1;
                 var1 = arg3;
                 var1 = var3.bind(var4)(var2, var5, var1);
-                var2 = var1.token;
+                var2 = var1.storeToken;
                 var4 = var1.root;
                 var3 = var1.derived;
                 var1 = undefined;
                 var1 = var5.bind(var1)(var4, var3);
                 var1 = {};
-                var1['token'] = var2;
+                var1['storeToken'] = var2;
                 return var1;
             };
             var1['registerStore'] = var3;
+            var4 = _closure1_slot2;
+            var4 = var4.findStoresThatCanHandleActionType;
+            var1['findStoresThatCanHandleActionType'] = var4;
             var4 = _closure1_slot2;
             var4 = var4.getRegisteredActionTypes;
             var1['getActions'] = var4;
@@ -163,7 +166,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['getMemoryStatistics'] = var2;
             return var1;
         };
-        var3['getKvDatabaseApi'] = var4;
+        var3['getKvDatabaseAPI'] = var4;
         var4 = function crash() {
             var2 = _closure1_slot2;
             var1 = var2.crash;

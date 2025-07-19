@@ -198,25 +198,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = function(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            var2 = arg1;
-            var1 = var2.route;
-            var3 = var1.params;
-            var17 = var3.channelId;
+            var1 = arg1;
+            var1 = var1.route;
+            var2 = var1.params;
+            var17 = var2.channelId;
             var _closure2_slot0 = var17;
-            var16 = var3.applicationId;
-            var14 = var3.search;
-            var1 = var3.source;
+            var16 = var2.applicationId;
+            var14 = var2.search;
+            var1 = var2.source;
             var _closure2_slot1 = var1;
-            var5 = var3.initialRouteName;
+            var5 = var2.initialRouteName;
             var4 = undefined;
             if(!(var5 === var4)) { _fun0004_ip = 71; continue _fun0004 }
  58:
-            var3 = _closure1_slot5;
-            var5 = var3.DETAILS;
+            var2 = _closure1_slot5;
+            var5 = var2.DETAILS;
  71:
             var _closure2_slot2 = var5;
-            var2 = var2.navigation;
-            var _closure2_slot3 = var2;
             var7 = _closure1_slot3;
             var3 = var7.useEffect;
             var2 = new Array(3);
@@ -305,18 +303,37 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                    var3 = _closure2_slot3;
-                    var1 = var3.canGoBack;
-                    var1 = var1.bind(var3)();
-                    var3 = !var1;
-                    var1 = !var3;
-                    if(var3) { _fun0006_ip = 42; continue _fun0006 }
- 26:
-                    var3 = _closure2_slot3;
-                    var2 = var3.goBack;
-                    var2 = var2.bind(var3)();
-                    var1 = true;
- 42:
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 17;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var1 = var2.getRootNavigationRef;
+                    var4 = var1.bind(var2)();
+                    var1 = null;
+                    var2 = var1 == var4;
+                    if(var2) { _fun0006_ip = 57; continue _fun0006 }
+ 44:
+                    var1 = var4.isReady;
+                    var1 = var1.bind(var4)();
+                    var2 = !var1;
+ 57:
+                    var1 = !var2;
+                    if(var2) { _fun0006_ip = 97; continue _fun0006 }
+ 63:
+                    var2 = var4.canGoBack;
+                    var2 = var2.bind(var4)();
+                    var3 = !var2;
+                    var2 = !var3;
+                    if(var3) { _fun0006_ip = 94; continue _fun0006 }
+ 82:
+                    var3 = var4.goBack;
+                    var3 = var3.bind(var4)();
+                    var2 = true;
+ 94:
+                    var1 = var2;
+ 97:
                     return var1;
                 }
             };
@@ -355,7 +372,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = function getComponent() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 17;
+                var1 = 18;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -390,7 +407,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var8 = arg1;
                     var9 = var1;
                     var4 = copyDataProperties(var9, var8);
-                    var4 = 18;
+                    var4 = 19;
                     var4 = var7[var4];
                     var5 = var6.bind(var5)(var4);
                     var4 = var5.isAndroid;
@@ -405,7 +422,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = _closure1_slot8;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 19;
+                    var1 = 20;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -433,7 +450,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = function getComponent() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 20;
+                var1 = 21;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -486,7 +503,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = function getComponent() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -554,7 +571,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = function getComponent() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 22;
+                var1 = 23;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -660,7 +677,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 23;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

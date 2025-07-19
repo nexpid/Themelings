@@ -193,31 +193,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5 = function isUserFilterPrefixAutocomplete(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            var5 = _closure1_slot15;
-            var4 = var5.getState;
-            var3 = arg1;
-            var1 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getPrefixTag;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var1 = var4.bind(var5)(var3, var1);
-            var3 = null;
-            if(!(var3 != var1)) { _fun0003_ip = 76; continue _fun0003 }
- 37:
+            var1 = arg1;
+            var2 = null;
+            if(!(var2 != var1)) { _fun0003_ip = 51; continue _fun0003 }
+ 9:
             var3 = var1.searchTokenType;
             var1 = _closure1_slot19;
             var1 = var1.FILTER_FROM;
             var1 = var3 === var1;
-            if(var1) { _fun0003_ip = 74; continue _fun0003 }
- 60:
+            if(var1) { _fun0003_ip = 49; continue _fun0003 }
+ 35:
             var2 = _closure1_slot19;
             var2 = var2.FILTER_MENTIONS;
             var1 = var3 === var2;
- 74:
+ 49:
             return var1;
- 76:
+ 51:
             var1 = false;
             return var1;
         }
@@ -670,26 +661,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = function isChannelFilterPrefixAutocomplete(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-            var5 = _closure1_slot15;
-            var4 = var5.getState;
-            var3 = arg1;
-            var2 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getPrefixTag;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var3 = var4.bind(var5)(var3, var2);
-            var2 = null;
-            var4 = var2 == var3;
-            var2 = undefined;
-            if(var4) { _fun0009_ip = 48; continue _fun0009 }
- 42:
-            var2 = var3.searchTokenType;
- 48:
-            var1 = _closure1_slot19;
-            var1 = var1.FILTER_IN;
-            var1 = var2 === var1;
+            var2 = arg1;
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0009_ip = 35; continue _fun0009 }
+ 12:
+            var3 = var2.searchTokenType;
+            var2 = _closure1_slot19;
+            var2 = var2.FILTER_IN;
+            var1 = var3 === var2;
+ 35:
             return var1;
         }
     };
@@ -697,26 +678,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = function isHasFilterPrefixAutocomplete(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-            var5 = _closure1_slot15;
-            var4 = var5.getState;
-            var3 = arg1;
-            var2 = function(arg1) {
-                var2 = arg1;
-                var1 = var2.getPrefixTag;
-                var1 = var1.bind(var2)();
-                return var1;
-            };
-            var3 = var4.bind(var5)(var3, var2);
-            var2 = null;
-            var4 = var2 == var3;
-            var2 = undefined;
-            if(var4) { _fun0010_ip = 48; continue _fun0010 }
- 42:
-            var2 = var3.searchTokenType;
- 48:
-            var1 = _closure1_slot19;
-            var1 = var1.FILTER_HAS;
-            var1 = var2 === var1;
+            var2 = arg1;
+            var1 = null;
+            var1 = var1 != var2;
+            if(!var1) { _fun0010_ip = 35; continue _fun0010 }
+ 12:
+            var3 = var2.searchTokenType;
+            var2 = _closure1_slot19;
+            var2 = var2.FILTER_HAS;
+            var1 = var3 === var2;
+ 35:
             return var1;
         }
     };

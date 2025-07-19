@@ -44,7 +44,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot9 = var4;
     var4 = 5;
     var4 = var6[var4];
-    var4 = var13.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useBestActiveChatInputContainerHeight;
     var _closure1_slot10 = var4;
     var4 = 6;
     var4 = var6[var4];
@@ -693,10 +694,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = 0;
  73:
             _closure2_slot0 = var14;
-            var5 = _closure1_slot10;
-            var3 = var5.useField;
-            var2 = 'chatInputContainerHeight';
-            var8 = var3.bind(var5)(var2);
+            var2 = _closure1_slot10;
+            var8 = var2.bind(var4)();
             _closure2_slot1 = var8;
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;

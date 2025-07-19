@@ -158,7 +158,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = 1;
             var2 = {'flex': 1, 'alignItems': 'center'};
             var1['rootContainer'] = var2;
-            var2 = {'width': null, 'flexDirection': 'row', 'gap': 32, 'paddingBottom': 32};
+            var2 = {'width': null, 'flexDirection': 'row', 'justifyContent': 'center', 'gap': 32, 'paddingBottom': 32};
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
             var7 = 5;

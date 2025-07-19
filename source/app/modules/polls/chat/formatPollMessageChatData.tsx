@@ -1026,19 +1026,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['pollMedia'] = var13;
                     var1['isSelected'] = var11;
                     var11 = _closure2_slot7;
-                    if(!var11) { _fun0010_ip = 644; continue _fun0010 }
- 641:
+                    if(!var11) { _fun0010_ip = 652; continue _fun0010 }
+ 649:
                     var11 = var12;
- 644:
+ 652:
                     var1['isVictor'] = var11;
                     var1['didSelfVote'] = var9;
                     var1['style'] = var8;
                     var8 = _closure2_slot10;
-                    if(!var8) { _fun0010_ip = 674; continue _fun0010 }
- 667:
+                    if(!var8) { _fun0010_ip = 682; continue _fun0010 }
+ 675:
                     var9 = _closure2_slot1;
                     var8 = !var9;
- 674:
+ 682:
                     var1['shouldAnimateTransition'] = var8;
                     var9 = var4.Math;
                     var8 = var9.round;

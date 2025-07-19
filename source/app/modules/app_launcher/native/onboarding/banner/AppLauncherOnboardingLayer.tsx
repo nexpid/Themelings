@@ -26,7 +26,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot2 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var12.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.useBestActiveChatInputContainerHeight;
     var _closure1_slot3 = var4;
     var4 = 3;
     var4 = var6[var4];
@@ -59,14 +60,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = _closure1_slot5;
             var5 = undefined;
             var7 = var1.bind(var5)();
-            var3 = _closure1_slot3;
-            var2 = var3.useField;
-            var1 = 'chatInputContainerHeight';
-            var11 = var2.bind(var3)(var1);
+            var1 = _closure1_slot3;
+            var11 = var1.bind(var5)();
             var1 = null;
             var2 = var1 != var8;
-            if(!var2) { _fun0001_ip = 149; continue _fun0001 }
- 61:
+            if(!var2) { _fun0001_ip = 138; continue _fun0001 }
+ 50:
             var4 = _closure1_slot4;
             var3 = _closure1_slot2;
             var2 = {};
@@ -89,7 +88,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 149:
+ 138:
             return var1;
         }
     };

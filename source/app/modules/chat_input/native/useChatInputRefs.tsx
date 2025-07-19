@@ -353,10 +353,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var4.bind(var3)(var1);
             var4 = var5.debounce;
             var3 = function(arg1) {
-                var3 = _closure1_slot9;
+                var4 = _closure1_slot9;
+                var1 = _closure2_slot12;
+                var1 = var1.current;
+                var3 = var1.screenIndex;
                 var1 = undefined;
                 var2 = arg1;
-                var2 = var3.bind(var1)(var2);
+                var2 = var4.bind(var1)(var3, var2);
                 return var1;
             };
             var1 = 32;

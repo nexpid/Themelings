@@ -355,15 +355,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var _closure3_slot0 = var5;
                     var3['current'] = var2;
                     var2 = _closure2_slot9;
-                    if(!var2) { _fun0003_ip = 280; continue _fun0003 }
+                    if(!var2) { _fun0003_ip = 275; continue _fun0003 }
  42:
                     var2 = _closure2_slot8;
                     var3 = null;
-                    if(!(var3 != var2)) { _fun0003_ip = 280; continue _fun0003 }
+                    if(!(var3 != var2)) { _fun0003_ip = 275; continue _fun0003 }
  55:
                     var2 = _closure2_slot13;
                     var2 = var2.current;
-                    if(!(var3 != var2)) { _fun0003_ip = 280; continue _fun0003 }
+                    if(!(var3 != var2)) { _fun0003_ip = 275; continue _fun0003 }
  71:
                     var2 = _closure1_slot6;
                     var2 = var2.roleStyle;
@@ -375,7 +375,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2['renderEmbeds'] = var7;
                     var7 = _closure2_slot5;
                     var2['renderReactions'] = var7;
-                    var2['renderShortcuts'] = var7;
                     var7 = _closure2_slot3;
                     var2['inlineEmbedMedia'] = var7;
                     var7 = _closure2_slot2;
@@ -453,7 +452,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = false;
                     var1['isLoadingAtTop'] = var6;
                     var1 = var4.bind(var5)(var3, var2, var1);
- 280:
+ 275:
                     var1 = undefined;
                     return var1;
                 }

@@ -32,7 +32,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot5 = var7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.useShouldShowJumpToPresentButton;
+    var4 = var4.useChatInputContainerHeight;
     var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
@@ -75,45 +75,59 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var14 = var1.channelId;
-            var _closure2_slot0 = var14;
-            var3 = var1.screenIndex;
-            var12 = var1.didTapJump;
+            var12 = var1.channelId;
+            var _closure2_slot0 = var12;
+            var4 = var1.screenIndex;
+            var _closure2_slot1 = var4;
+            var9 = var1.didTapJump;
             var1 = _closure1_slot9;
-            var6 = undefined;
-            var8 = var1.bind(var6)();
-            var10 = _closure1_slot5;
-            var2 = var10.useField;
-            var1 = 'showingAutoComplete';
-            var4 = var2.bind(var10)(var1);
-            var2 = var10.useField;
-            var1 = 'showingExpressionSuggestions';
-            var2 = var2.bind(var10)(var1);
-            var1 = _closure1_slot6;
-            var1 = var1.bind(var6)(var14, var3);
-            var5 = var10.useField;
-            var3 = 'chatInputContainerHeight';
-            var15 = var5.bind(var10)(var3);
-            var _closure2_slot1 = var15;
-            var11 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var3 = 7;
-            var5 = var13[var3];
-            var10 = var11.bind(var6)(var5);
-            var5 = var10.useIsVoicePanelMounted;
-            var5 = var5.bind(var10)(var14);
-            var3 = var13[var3];
-            var10 = var11.bind(var6)(var3);
-            var3 = var10.useIsVoicePanelOpen;
-            var3 = var3.bind(var10)(var14);
-            var10 = 8;
-            var10 = var13[var10];
-            var14 = var11.bind(var6)(var10);
-            var13 = var14.useStateFromStores;
-            var10 = _closure1_slot7;
-            var11 = new Array(1);
-            var11[0] = var10;
-            var10 = function() {
+            var5 = undefined;
+            var6 = var1.bind(var5)();
+            var2 = _closure1_slot5;
+            var1 = function(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    var3 = arg1;
+                    var5 = var3.showingAutoComplete;
+                    var4 = var5.get;
+                    var1 = _closure2_slot1;
+                    var1 = var4.bind(var5)(var1);
+                    var1 = !var1;
+                    if(!var1) { _fun0002_ip = 60; continue _fun0002 }
+ 32:
+                    var5 = var3.showJumpToPresentButtonChannelId;
+                    var4 = var5.get;
+                    var3 = _closure2_slot1;
+                    var3 = var4.bind(var5)(var3);
+                    var2 = _closure2_slot0;
+                    var1 = var3 === var2;
+ 60:
+                    return var1;
+                }
+            };
+            var1 = var2.bind(var5)(var1);
+            var2 = _closure1_slot6;
+            var13 = var2.bind(var5)(var4);
+            var _closure2_slot2 = var13;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var2 = 7;
+            var4 = var11[var2];
+            var7 = var10.bind(var5)(var4);
+            var4 = var7.useIsVoicePanelMounted;
+            var4 = var4.bind(var7)(var12);
+            var2 = var11[var2];
+            var7 = var10.bind(var5)(var2);
+            var2 = var7.useIsVoicePanelOpen;
+            var2 = var2.bind(var7)(var12);
+            var7 = 8;
+            var7 = var11[var7];
+            var12 = var10.bind(var5)(var7);
+            var11 = var12.useStateFromStores;
+            var7 = _closure1_slot7;
+            var10 = new Array(1);
+            var10[0] = var7;
+            var7 = function() {
                 var3 = _closure1_slot7;
                 var2 = var3.getMessages;
                 var1 = _closure2_slot0;
@@ -123,102 +137,97 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1 != var2;
                 return var1;
             };
-            var13 = var13.bind(var14)(var11, var10);
-            var14 = _closure1_slot3;
-            var11 = var14.useMemo;
-            var10 = new Array(1);
-            var10[0] = var15;
-            var9 = function() {
+            var10 = var11.bind(var12)(var10, var7);
+            var12 = _closure1_slot3;
+            var11 = var12.useMemo;
+            var7 = new Array(1);
+            var7[0] = var13;
+            var3 = function() {
                 var1 = {};
-                var3 = _closure2_slot1;
+                var3 = _closure2_slot2;
                 var2 = 12;
                 var2 = var3 + var2;
                 var1['bottom'] = var2;
                 return var1;
             };
-            var9 = var11.bind(var14)(var9, var10);
-            if(var4) { _fun0001_ip = 435; continue _fun0001 }
- 231:
-            if(var2) { _fun0001_ip = 435; continue _fun0001 }
- 237:
-            if(!var1) { _fun0001_ip = 435; continue _fun0001 }
- 243:
+            var7 = var11.bind(var12)(var3, var7);
+            if(var1) { _fun0001_ip = 288; continue _fun0001 }
+ 198:
+            var1 = null;
+            if(!var4) { _fun0001_ip = 283; continue _fun0001 }
+ 203:
+            var1 = null;
+            if(!var2) { _fun0001_ip = 283; continue _fun0001 }
+ 208:
             var4 = _closure1_slot8;
-            var2 = _closure1_slot4;
-            var1 = {};
-            var11 = var8.container;
-            var10 = new Array(2);
-            var10[0] = var11;
-            var10[1] = var9;
-            var1['style'] = var10;
-            var11 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var10 = 10;
-            var10 = var14[var10];
-            var10 = var11.bind(var6)(var10);
-            var11 = var10.IconButton;
-            var10 = {};
-            var17 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var14 = 11;
-            var15 = var18[var14];
-            var15 = var17.bind(var6)(var15);
-            var16 = var15.intl;
-            var15 = var16.string;
-            var14 = var18[var14];
-            var14 = var17.bind(var6)(var14);
-            var14 = var14.t;
-            if(var13) { _fun0001_ip = 364; continue _fun0001 }
- 349:
-            var13 = var14.gpoQsL;
-            var13 = var15.bind(var16)(var13);
-            _fun0001_ip = 377; continue _fun0001;
- 364:
-            var14 = var14.dpjpOj;
-            var13 = var15.bind(var16)(var14);
- 377:
-            var10['accessibilityLabel'] = var13;
-            var10['onPress'] = var12;
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var12 = 12;
-            var12 = var14[var12];
-            var12 = var13.bind(var6)(var12);
-            var10['icon'] = var12;
-            var12 = 'secondary';
-            var10['variant'] = var12;
-            var10 = var4.bind(var6)(var11, var10);
-            var1['children'] = var10;
-            var1 = var4.bind(var6)(var2, var1);
-            _fun0001_ip = 523; continue _fun0001;
- 435:
-            var2 = null;
-            if(!var5) { _fun0001_ip = 520; continue _fun0001 }
- 440:
-            var2 = null;
-            if(!var3) { _fun0001_ip = 520; continue _fun0001 }
- 445:
-            var5 = _closure1_slot8;
-            var4 = _closure1_slot4;
-            var3 = {};
-            var10 = var8.container;
-            var8 = new Array(2);
-            var8[0] = var10;
-            var8[1] = var9;
-            var3['style'] = var8;
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var7 = 9;
-            var7 = var9[var7];
-            var7 = var8.bind(var6)(var7);
-            var8 = var7.MemoedVoicePanelDismissChatButton;
-            var7 = {};
-            var7 = var5.bind(var6)(var8, var7);
-            var3['children'] = var7;
-            var2 = var5.bind(var6)(var4, var3);
- 520:
-            var1 = var2;
- 523:
+            var3 = _closure1_slot4;
+            var2 = {};
+            var12 = var6.container;
+            var11 = new Array(2);
+            var11[0] = var12;
+            var11[1] = var7;
+            var2['style'] = var11;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var11 = 9;
+            var11 = var13[var11];
+            var11 = var12.bind(var5)(var11);
+            var12 = var11.MemoedVoicePanelDismissChatButton;
+            var11 = {};
+            var11 = var4.bind(var5)(var12, var11);
+            var2['children'] = var11;
+            var1 = var4.bind(var5)(var3, var2);
+ 283:
+            _fun0001_ip = 478; continue _fun0001;
+ 288:
+            var4 = _closure1_slot8;
+            var3 = _closure1_slot4;
+            var2 = {};
+            var11 = var6.container;
+            var6 = new Array(2);
+            var6[0] = var11;
+            var6[1] = var7;
+            var2['style'] = var6;
+            var7 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var6 = 10;
+            var6 = var11[var6];
+            var6 = var7.bind(var5)(var6);
+            var7 = var6.IconButton;
+            var6 = {};
+            var14 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var11 = 11;
+            var12 = var15[var11];
+            var12 = var14.bind(var5)(var12);
+            var13 = var12.intl;
+            var12 = var13.string;
+            var11 = var15[var11];
+            var11 = var14.bind(var5)(var11);
+            var11 = var11.t;
+            if(var10) { _fun0001_ip = 409; continue _fun0001 }
+ 394:
+            var10 = var11.gpoQsL;
+            var10 = var12.bind(var13)(var10);
+            _fun0001_ip = 422; continue _fun0001;
+ 409:
+            var11 = var11.dpjpOj;
+            var10 = var12.bind(var13)(var11);
+ 422:
+            var6['accessibilityLabel'] = var10;
+            var6['onPress'] = var9;
+            var9 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var8 = 12;
+            var8 = var10[var8];
+            var8 = var9.bind(var5)(var8);
+            var6['icon'] = var8;
+            var8 = 'secondary';
+            var6['variant'] = var8;
+            var6 = var4.bind(var5)(var7, var6);
+            var2['children'] = var6;
+            var1 = var4.bind(var5)(var3, var2);
+ 478:
             return var1;
         }
     };

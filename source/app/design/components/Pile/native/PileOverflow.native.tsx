@@ -136,10 +136,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = null;
             var13 = var9 != var12;
             var9 = 'text-md/semibold';
-            if(!var13) { _fun0001_ip = 216; continue _fun0001 }
- 213:
+            if(!var13) { _fun0001_ip = 220; continue _fun0001 }
+ 217:
             var9 = var12;
- 216:
+ 220:
             var5['variant'] = var9;
             var9 = _closure1_slot0;
             var12 = _closure1_slot1;

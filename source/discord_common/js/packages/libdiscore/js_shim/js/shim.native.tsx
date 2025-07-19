@@ -76,18 +76,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var3['getExperimentCacher'] = var6;
-    var2 = function getKvStoreApi() {
+    var2 = function getKvDatabaseAPI() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
-        var1 = var2.getKvDatabaseApi;
+        var1 = var2.getKvDatabaseAPI;
         var1 = var1.bind(var2)();
         return var1;
     };
-    var3['getKvStoreApi'] = var2;
+    var3['getKvDatabaseAPI'] = var2;
     var2 = 0;
     var6 = var5[var2];
     var6 = var4.bind(var1)(var6);

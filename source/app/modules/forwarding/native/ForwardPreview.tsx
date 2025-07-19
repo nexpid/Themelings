@@ -109,7 +109,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = new var5[var1](var4);
                 var1 = var1 instanceof Object ? var1 : var2;
                 var3 = var1.setOptions;
-                var2 = {'renderEmbeds': false, 'renderReactions': false, 'renderShortcuts': false, 'inlineEmbedMedia': false, 'inlineAttachmentMedia': false, 'animateEmoji': true, 'gifAutoPlay': false, 'renderCodedLinks': false, 'renderGiftCode': false, 'renderActivityInstanceEmbed': false, 'renderActivityInviteEmbed': false, 'renderComponents': false, 'renderThreadEmbeds': false, 'renderReplies': false, 'renderCommunicationDisabled': false, 'renderAttachments': false, 'renderExecutedCommands': false, 'renderPolls': false, 'renderForumPostActions': false, 'ignoreMentioned': false, 'ignoreEmbedDescriptionCache': false, 'forceHideSimpleEmbedContent': false, 'enableSwipeActions': false, 'useAlternateEmbedColors': false};
+                var2 = {'renderEmbeds': false, 'renderReactions': false, 'inlineEmbedMedia': false, 'inlineAttachmentMedia': false, 'animateEmoji': true, 'gifAutoPlay': false, 'renderCodedLinks': false, 'renderGiftCode': false, 'renderActivityInstanceEmbed': false, 'renderActivityInviteEmbed': false, 'renderComponents': false, 'renderThreadEmbeds': false, 'renderReplies': false, 'renderCommunicationDisabled': false, 'renderAttachments': false, 'renderExecutedCommands': false, 'renderPolls': false, 'renderForumPostActions': false, 'ignoreMentioned': false, 'ignoreEmbedDescriptionCache': false, 'forceHideSimpleEmbedContent': false, 'enableSwipeActions': false, 'useAlternateEmbedColors': false};
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };

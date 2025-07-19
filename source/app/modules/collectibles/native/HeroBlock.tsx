@@ -91,7 +91,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['heroProductsContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 23;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -102,120 +102,122 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var1 = arg1;
             var28 = var1.heroBlock;
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
             var1 = 7;
-            var1 = var7[var1];
+            var1 = var5[var1];
             var4 = undefined;
-            var2 = var6.bind(var4)(var1);
+            var2 = var3.bind(var4)(var1);
             var1 = var2.useNavigation;
             var1 = var1.bind(var2)();
             var _closure2_slot0 = var1;
             var1 = 8;
-            var1 = var7[var1];
-            var2 = var6.bind(var4)(var1);
+            var1 = var5[var1];
+            var2 = var3.bind(var4)(var1);
             var1 = var2.useCollectiblesAnalyticsContext;
             var1 = var1.bind(var2)();
             var _closure2_slot1 = var1;
             var1 = _closure1_slot11;
             var13 = var1.bind(var4)();
             var1 = 9;
-            var1 = var7[var1];
-            var3 = var6.bind(var4)(var1);
-            var2 = var3.useToken;
-            var5 = _closure1_slot1;
+            var1 = var5[var1];
+            var6 = var3.bind(var4)(var1);
+            var2 = var6.useToken;
+            var7 = _closure1_slot1;
             var20 = 6;
-            var1 = var7[var20];
-            var1 = var5.bind(var4)(var1);
+            var1 = var5[var20];
+            var1 = var7.bind(var4)(var1);
             var1 = var1.colors;
             var1 = var1.BACKGROUND_PRIMARY;
-            var29 = var2.bind(var3)(var1);
+            var29 = var2.bind(var6)(var1);
             var1 = 10;
-            var2 = var7[var1];
-            var3 = var6.bind(var4)(var2);
-            var2 = var3.hexToRgbaString;
-            var1 = var7[var1];
-            var5 = var6.bind(var4)(var1);
-            var1 = var5.hexWithOpacity;
+            var2 = var5[var1];
+            var6 = var3.bind(var4)(var2);
+            var2 = var6.hexToRgbaString;
+            var1 = var5[var1];
+            var7 = var3.bind(var4)(var1);
+            var1 = var7.hexWithOpacity;
             var15 = 0;
-            var1 = var1.bind(var5)(var29, var15);
-            var30 = var2.bind(var3)(var1);
+            var1 = var1.bind(var7)(var29, var15);
+            var30 = var2.bind(var6)(var1);
             var1 = 11;
-            var1 = var7[var1];
-            var2 = var6.bind(var4)(var1);
+            var1 = var5[var1];
+            var2 = var3.bind(var4)(var1);
             var1 = var2.useMobileShopCardV2Enabled;
-            var3 = 'HeroBlock';
-            var1 = var1.bind(var2)(var3);
+            var6 = 'HeroBlock';
+            var1 = var1.bind(var2)(var6);
             var _closure2_slot2 = var1;
             var1 = 12;
-            var1 = var7[var1];
-            var2 = var6.bind(var4)(var1);
+            var1 = var5[var1];
+            var2 = var3.bind(var4)(var1);
             var1 = var2.useMobileCanPurchaseNameplates;
-            var1 = var1.bind(var2)(var3);
-            var2 = 13;
-            var2 = var7[var2];
-            var3 = var6.bind(var4)(var2);
-            var2 = var3.useBadBundleFilter;
-            var2 = var2.bind(var3)();
-            var3 = 14;
-            var3 = var7[var3];
-            var5 = var6.bind(var4)(var3);
-            var3 = var5.useAndroidUnsyncedFilter;
-            var3 = var3.bind(var5)();
-            var5 = 15;
-            var5 = var7[var5];
-            var6 = var6.bind(var4)(var5);
-            var5 = var6.useNameplateFilter;
-            var5 = var5.bind(var6)();
-            var8 = _closure1_slot5;
-            var7 = var8.getCategory;
-            var6 = var28.categorySkuId;
-            var9 = var7.bind(var8)(var6);
+            var8 = var1.bind(var2)(var6);
+            var1 = 13;
+            var1 = var5[var1];
+            var2 = var3.bind(var4)(var1);
+            var1 = var2.useBadBundleFilter;
+            var2 = var1.bind(var2)();
+            var1 = 14;
+            var1 = var5[var1];
+            var6 = var3.bind(var4)(var1);
+            var1 = var6.useAndroidUnsyncedFilter;
+            var6 = var1.bind(var6)();
+            var1 = 15;
+            var1 = var5[var1];
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.useNameplateFilter;
+            var1 = var1.bind(var3)();
+            var7 = _closure1_slot5;
+            var5 = var7.getCategory;
+            var3 = var28.categorySkuId;
+            var9 = var5.bind(var7)(var3);
             var _closure2_slot3 = var9;
-            if(!(var4 !== var9)) { _fun0001_ip = 1247; continue _fun0001 }
+            var5 = var4 !== var9;
+            if(var5) { _fun0001_ip = 340; continue _fun0001 }
  334:
-            var27 = null;
-            var6 = var27 == var9;
-            if(var1) { _fun0001_ip = 361; continue _fun0001 }
- 343:
-            var1 = undefined;
-            if(var6) { _fun0001_ip = 354; continue _fun0001 }
- 348:
-            var1 = var9.products;
- 354:
-            var1 = var5.bind(var4)(var1);
-            _fun0001_ip = 375; continue _fun0001;
- 361:
-            var5 = undefined;
-            if(var6) { _fun0001_ip = 372; continue _fun0001 }
- 366:
-            var5 = var9.products;
- 372:
-            var1 = var5;
- 375:
-            var1 = var3.bind(var4)(var1);
-            var18 = var2.bind(var4)(var1);
+            var3 = new Array(0);
+            _fun0001_ip = 369; continue _fun0001;
+ 340:
+            var7 = var9.products;
+            if(var8) { _fun0001_ip = 356; continue _fun0001 }
+ 349:
+            var1 = var1.bind(var4)(var7);
+            _fun0001_ip = 359; continue _fun0001;
+ 356:
+            var1 = var7;
+ 359:
+            var1 = var6.bind(var4)(var1);
+            var3 = var2.bind(var4)(var1);
+ 369:
+            var2 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 16;
+            var1 = var6[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.usePurchasedProductsSort;
+            var18 = var1.bind(var2)(var3);
+            if(!(var4 !== var9)) { _fun0001_ip = 1267; continue _fun0001 }
+ 407:
             var3 = _closure1_slot8;
             var2 = _closure1_slot4;
             var1 = {};
-            var6 = var13.heroContainer;
-            var5 = new Array(1);
-            var5[0] = var6;
-            var1['style'] = var5;
-            var5 = var4 !== var9;
-            if(!var5) { _fun0001_ip = 1235; continue _fun0001 }
- 423:
+            var7 = var13.heroContainer;
+            var6 = new Array(1);
+            var6[0] = var7;
+            var1['style'] = var6;
+            if(!var5) { _fun0001_ip = 1255; continue _fun0001 }
+ 441:
             var8 = _closure1_slot10;
             var7 = _closure1_slot9;
             var6 = {};
             var17 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var10 = 16;
+            var10 = 17;
             var10 = var12[var10];
             var10 = var17.bind(var4)(var10);
             var14 = var10.PressableOpacity;
             var10 = {'accessibilityRole': 'button', 'accessibilityLabel': null, 'activeOpacity': 0.8, 'androidRippleConfig': null, 'hitSlop': 8};
-            var22 = 17;
+            var22 = 18;
             var11 = var12[var22];
             var11 = var17.bind(var4)(var11);
             var23 = var11.intl;
@@ -253,15 +255,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var10['onPress'] = var11;
             var12 = var28.bannerAsset;
+            var27 = null;
             var17 = var27 == var12;
             var11 = undefined;
-            if(var17) { _fun0001_ip = 609; continue _fun0001 }
- 603:
+            if(var17) { _fun0001_ip = 629; continue _fun0001 }
+ 623:
             var11 = var12.static;
- 609:
+ 629:
             var11 = var27 != var11;
-            if(!var11) { _fun0001_ip = 791; continue _fun0001 }
- 619:
+            if(!var11) { _fun0001_ip = 811; continue _fun0001 }
+ 639:
             var21 = _closure1_slot10;
             var17 = _closure1_slot9;
             var12 = {};
@@ -274,10 +277,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var31 = var28.bannerAsset;
             var32 = var27 == var31;
             var27 = undefined;
-            if(var32) { _fun0001_ip = 672; continue _fun0001 }
- 666:
+            if(var32) { _fun0001_ip = 692; continue _fun0001 }
+ 686:
             var27 = var31.static;
- 672:
+ 692:
             var26['uri'] = var27;
             var23['source'] = var26;
             var24 = var25.bind(var4)(var24, var23);
@@ -286,7 +289,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var26 = _closure1_slot8;
             var25 = _closure1_slot1;
             var27 = _closure1_slot2;
-            var24 = 18;
+            var24 = 19;
             var24 = var27[var24];
             var25 = var25.bind(var4)(var24);
             var24 = {};
@@ -305,7 +308,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23[1] = var24;
             var12['children'] = var23;
             var11 = var21.bind(var4)(var17, var12);
- 791:
+ 811:
             var23 = new Array(2);
             var23[0] = var11;
             var12 = _closure1_slot8;
@@ -333,7 +336,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var28['style'] = var17;
             var21 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var29 = 19;
+            var29 = 20;
             var29 = var17[var29];
             var29 = var21.bind(var4)(var29);
             var30 = var29.ChevronSmallRightIcon;
@@ -355,7 +358,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = {};
             var13 = var13.heroProductsContainer;
             var10['style'] = var13;
-            var13 = 20;
+            var13 = 21;
             var13 = var17[var13];
             var13 = var21.bind(var4)(var13);
             var14 = var13.FlashList;
@@ -397,7 +400,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = _closure1_slot2;
                     if(var6) { _fun0002_ip = 126; continue _fun0002 }
  84:
-                    var6 = 22;
+                    var6 = 23;
                     var6 = var11[var6];
                     var7 = var8.bind(var4)(var6);
                     var6 = {};
@@ -408,7 +411,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var9.bind(var4)(var7, var6);
                     _fun0002_ip = 173; continue _fun0002;
  126:
-                    var7 = 21;
+                    var7 = 22;
                     var7 = var11[var7];
                     var8 = var8.bind(var4)(var7);
                     var7 = {};
@@ -436,7 +439,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var13['renderItem'] = var18;
-            var18 = 22;
+            var18 = 23;
             var18 = var17[var18];
             var18 = var21.bind(var4)(var18);
             var18 = var18.COLLECTIBLES_SHOP_CARD_WIDTH;
@@ -513,11 +516,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9[1] = var10;
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 1235:
+ 1255:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 1247:
+ 1267:
             var1 = null;
             return var1;
         }

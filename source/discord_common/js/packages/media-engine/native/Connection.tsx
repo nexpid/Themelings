@@ -1104,18 +1104,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var1['handleNoInput'] = var8;
-                var8 = function() {
-                    var4 = _closure3_slot0;
-                    var3 = var4.emit;
-                    var5 = _closure1_slot0;
+                var8 = function(arg1, arg2) {
+                    var6 = _closure3_slot0;
+                    var5 = var6.emit;
+                    var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var1 = 10;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var2 = var5.bind(var1)(var2);
+                    var2 = var3.bind(var1)(var2);
                     var2 = var2.BaseConnectionEvent;
-                    var2 = var2.DesktopSourceEnd;
-                    var2 = var3.bind(var4)(var2);
+                    var4 = var2.DesktopSourceEnd;
+                    var3 = arg1;
+                    var2 = arg2;
+                    var2 = var5.bind(var6)(var4, var3, var2);
                     return var1;
                 };
                 var1['handleDesktopSourceEnded'] = var8;

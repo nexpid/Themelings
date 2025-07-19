@@ -585,10 +585,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var16.isAndroid;
             var16 = var15.bind(var16)();
             var15 = 'ascii-capable';
-            if(!var16) { _fun0002_ip = 590; continue _fun0002 }
- 584:
+            if(!var16) { _fun0002_ip = 594; continue _fun0002 }
+ 588:
             var15 = 'visible-password';
- 590:
+ 594:
             var11['keyboardType'] = var15;
             var11['value'] = var14;
             var11 = var13.bind(var4)(var12, var11);

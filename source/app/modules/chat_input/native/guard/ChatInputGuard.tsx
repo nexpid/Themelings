@@ -432,31 +432,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = function ChatInputGuardContainer(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            var1 = arg1;
-            var10 = var1.children;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 8;
-            var1 = var3[var1];
+            var2 = arg1;
+            var6 = var2.screenIndex;
+            var _closure2_slot0 = var6;
+            var10 = var2.children;
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 8;
+            var2 = var4[var2];
             var4 = undefined;
-            var1 = var2.bind(var4)(var1);
-            var12 = var1.bind(var4)();
-            var1 = _closure1_slot9;
-            var13 = var1.bind(var4)(var12);
+            var2 = var3.bind(var4)(var2);
+            var12 = var2.bind(var4)();
+            var2 = _closure1_slot9;
+            var13 = var2.bind(var4)(var12);
             var5 = _closure1_slot3;
             var3 = var5.useCallback;
-            var2 = function(arg1) {
+            var2 = new Array(1);
+            var2[0] = var6;
+            var1 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.nativeEvent;
                 var1 = var1.layout;
-                var3 = _closure1_slot6;
+                var4 = _closure1_slot6;
+                var3 = _closure2_slot0;
                 var2 = var1.height;
                 var1 = undefined;
-                var2 = var3.bind(var1)(var2);
+                var2 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var1 = new Array(0);
-            var5 = var3.bind(var5)(var2, var1);
+            var5 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot8;
             var2 = _closure1_slot5;
             var1 = {};
@@ -466,15 +470,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = false;
             var1['collapsable'] = var5;
             var6 = null;
-            if(var12) { _fun0003_ip = 136; continue _fun0003 }
- 110:
+            if(var12) { _fun0003_ip = 150; continue _fun0003 }
+ 124:
             var8 = _closure1_slot7;
             var7 = _closure1_slot5;
             var5 = {};
             var14 = var13.underlay;
             var5['style'] = var14;
             var6 = var8.bind(var4)(var7, var5);
- 136:
+ 150:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot8;
@@ -483,8 +487,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var13.content;
             var6['style'] = var13;
             var11 = null;
-            if(!var12) { _fun0003_ip = 212; continue _fun0003 }
- 168:
+            if(!var12) { _fun0003_ip = 226; continue _fun0003 }
+ 182:
             var13 = _closure1_slot7;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -493,7 +497,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var12.bind(var4)(var9);
             var9 = {'absolute': true, 'wide': true, 'tall': true, 'mix': true};
             var11 = var13.bind(var4)(var12, var9);
- 212:
+ 226:
             var9 = new Array(2);
             var9[0] = var11;
             var9[1] = var10;

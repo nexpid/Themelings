@@ -806,13 +806,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var15.Q8gkVF;
             var15 = var16.bind(var17)(var15);
             var9['accessibilityLabel'] = var15;
-            if(var18) { _fun0005_ip = 663; continue _fun0005 }
- 655:
+            if(var18) { _fun0005_ip = 659; continue _fun0005 }
+ 651:
             var15 = var11.iconBg;
-            _fun0005_ip = 669; continue _fun0005;
- 663:
+            _fun0005_ip = 665; continue _fun0005;
+ 659:
             var15 = var11.iconBgSelected;
- 669:
+ 665:
             var9['style'] = var15;
             var17 = _closure1_slot13;
             var16 = _closure1_slot0;
@@ -822,15 +822,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var16.bind(var4)(var15);
             var16 = var15.MicrophoneIcon;
             var15 = {};
-            if(var18) { _fun0005_ip = 721; continue _fun0005 }
- 708:
+            if(var18) { _fun0005_ip = 717; continue _fun0005 }
+ 704:
             var18 = var11.iconFill;
             var18 = var18.color;
-            _fun0005_ip = 732; continue _fun0005;
- 721:
+            _fun0005_ip = 728; continue _fun0005;
+ 717:
             var19 = var11.iconFillSelected;
             var18 = var19.color;
- 732:
+ 728:
             var15['color'] = var18;
             var18 = 'lg';
             var15['size'] = var18;

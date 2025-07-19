@@ -114,7 +114,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8 = var1.Set;
     var6 = var8.prototype;
     var7 = Object.create(var6, {constructor: {value: var8}});
-    var11 = [0, 1, 2, 3, 5, 10, 11, 12, 13, 14, 15, 16, 17];
+    var11 = [0, 1, 2, 3, 5, 10, 11, 12, 13, 14, 15, 16, 17, 18];
     var12 = var7;
     var6 = new var12[var8](var11, var10);
     var6 = var6 instanceof Object ? var6 : var7;
@@ -386,7 +386,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var1.Set;
     var1 = var7.prototype;
     var6 = Object.create(var1, {constructor: {value: var7}});
-    var11 = [0, 1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 15, 16, 17];
+    var11 = [0, 1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 15, 16, 17, 18];
     var12 = var6;
     var1 = new var12[var7](var11, var10);
     var1 = var1 instanceof Object ? var1 : var6;
