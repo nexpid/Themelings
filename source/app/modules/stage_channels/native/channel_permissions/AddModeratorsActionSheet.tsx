@@ -277,7 +277,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  181:
             var10 = var2;
  184:
-            if(!(var1 != var14)) { _fun0001_ip = 667; continue _fun0001 }
+            if(!(var1 != var14)) { _fun0001_ip = 663; continue _fun0001 }
  191:
             var2 = global;
             var4 = var2.Object;
@@ -314,10 +314,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var20[var10];
             var10 = var19.bind(var5)(var10);
             var10 = var10.Button;
-            if(!var8) { _fun0001_ip = 362; continue _fun0001 }
- 359:
-            if(var15) { _fun0001_ip = 445; continue _fun0001 }
- 362:
+            if(!var8) { _fun0001_ip = 358; continue _fun0001 }
+ 355:
+            if(var15) { _fun0001_ip = 441; continue _fun0001 }
+ 358:
             var8 = {};
             var19 = 'sm';
             var8['size'] = var19;
@@ -345,8 +345,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var8['onPress'] = var15;
-            _fun0001_ip = 525; continue _fun0001;
- 445:
+            _fun0001_ip = 521; continue _fun0001;
+ 441:
             var15 = {};
             var19 = 'sm';
             var15['size'] = var19;
@@ -375,7 +375,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var15['onPress'] = var18;
             var8 = var15;
- 525:
+ 521:
             var8 = var4.bind(var5)(var10, var8);
             var6['trailing'] = var8;
             var6 = var4.bind(var5)(var7, var6);
@@ -408,7 +408,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 667:
+ 663:
             return var1;
         }
     };

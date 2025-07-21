@@ -278,7 +278,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = new Array(2);
             var11[0] = var19;
             var19 = null;
-            if(!var20) { _fun0001_ip = 653; continue _fun0001 }
+            if(!var20) { _fun0001_ip = 657; continue _fun0001 }
  538:
             var22 = _closure1_slot10;
             var24 = _closure1_slot0;
@@ -303,7 +303,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23[1] = var24;
             var20['children'] = var23;
             var19 = var22.bind(var4)(var21, var20);
- 653:
+ 657:
             var11[1] = var19;
             var7['children'] = var11;
             var9 = var3.bind(var4)(var9, var7);
@@ -313,12 +313,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var9.length;
             var9 = 0;
             var11 = var11 > var9;
-            if(!var11) { _fun0001_ip = 697; continue _fun0001 }
- 694:
+            if(!var11) { _fun0001_ip = 701; continue _fun0001 }
+ 698:
             var11 = !var18;
- 697:
-            if(!var11) { _fun0001_ip = 785; continue _fun0001 }
- 700:
+ 701:
+            if(!var11) { _fun0001_ip = 789; continue _fun0001 }
+ 704:
             var19 = _closure1_slot9;
             var18 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -336,16 +336,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = var22.bind(var23)(var21, var20);
             var16['children'] = var20;
             var11 = var19.bind(var4)(var18, var16);
- 785:
+ 789:
             var7[1] = var11;
             var8 = var8 != var10;
-            if(!var8) { _fun0001_ip = 805; continue _fun0001 }
- 796:
+            if(!var8) { _fun0001_ip = 809; continue _fun0001 }
+ 800:
             var10 = var10.length;
             var8 = var10 > var9;
- 805:
-            if(!var8) { _fun0001_ip = 863; continue _fun0001 }
- 808:
+ 809:
+            if(!var8) { _fun0001_ip = 867; continue _fun0001 }
+ 812:
             var16 = _closure1_slot9;
             var11 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -359,13 +359,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = 2;
             var10['lineClamp'] = var17;
             var8 = var16.bind(var4)(var11, var10);
- 863:
+ 867:
             var7[2] = var8;
             var8 = var15.reactions;
             var8 = var8.length;
             var8 = var8 > var9;
-            if(!var8) { _fun0001_ip = 958; continue _fun0001 }
- 885:
+            if(!var8) { _fun0001_ip = 962; continue _fun0001 }
+ 889:
             var11 = _closure1_slot9;
             var10 = _closure1_slot4;
             var9 = {};
@@ -384,7 +384,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var11.bind(var4)(var13, var12);
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 958:
+ 962:
             var7[3] = var8;
             var6['children'] = var7;
             var6 = var3.bind(var4)(var2, var6);

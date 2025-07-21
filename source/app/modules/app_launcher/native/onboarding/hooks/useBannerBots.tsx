@@ -396,10 +396,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = null;
             var12 = var4 == var11;
             var10 = undefined;
-            if(var12) { _fun0004_ip = 173; continue _fun0004 }
- 168:
+            if(var12) { _fun0004_ip = 169; continue _fun0004 }
+ 164:
             var10 = var11.guild_id;
- 173:
+ 169:
             var5['guildId'] = var10;
             var5['fetchesShelf'] = var9;
             var5 = var6.bind(var7)(var5);
@@ -421,12 +421,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var9.bind(var10)(var7, var6);
             var9 = var4 != var6;
             var7 = null;
-            if(!var9) { _fun0004_ip = 261; continue _fun0004 }
- 246:
+            if(!var9) { _fun0004_ip = 257; continue _fun0004 }
+ 242:
             var9 = var14.get;
             var6 = var6.applicationId;
             var7 = var9.bind(var14)(var6);
- 261:
+ 257:
             _closure2_slot0 = var7;
             var2 = _closure1_slot5;
             var12 = var2.bind(var15)(var3);
@@ -438,46 +438,46 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = undefined;
             var7 = var11;
             var10 = undefined;
-            if(var2) { _fun0004_ip = 443; continue _fun0004 }
- 304:
+            if(var2) { _fun0004_ip = 439; continue _fun0004 }
+ 300:
             var16 = var9.value;
             var2 = var13.get;
             var2 = var2.bind(var13)(var16);
             var16 = var11;
             var17 = var6;
-            if(!(var4 != var2)) { _fun0004_ip = 414; continue _fun0004 }
- 329:
+            if(!(var4 != var2)) { _fun0004_ip = 410; continue _fun0004 }
+ 325:
             var18 = var14.get;
             var2 = var2.applicationId;
             var2 = var18.bind(var14)(var2);
             var16 = var11;
             var17 = var6;
             var3 = var2;
-            if(!(var4 != var2)) { _fun0004_ip = 414; continue _fun0004 }
+            if(!(var4 != var2)) { _fun0004_ip = 410; continue _fun0004 }
+ 353:
+            if(!(var4 != var11)) { _fun0004_ip = 397; continue _fun0004 }
  357:
-            if(!(var4 != var11)) { _fun0004_ip = 401; continue _fun0004 }
- 361:
             var19 = var2.id;
             var20 = var4 == var11;
             var18 = undefined;
-            if(var20) { _fun0004_ip = 380; continue _fun0004 }
- 375:
+            if(var20) { _fun0004_ip = 376; continue _fun0004 }
+ 371:
             var18 = var11.id;
- 380:
+ 376:
             var16 = var11;
             var17 = var16;
             var3 = var2;
             var7 = var17;
             var10 = var3;
-            if(!(var19 === var18)) { _fun0004_ip = 443; continue _fun0004 }
- 399:
-            _fun0004_ip = 414; continue _fun0004;
- 401:
+            if(!(var19 === var18)) { _fun0004_ip = 439; continue _fun0004 }
+ 395:
+            _fun0004_ip = 410; continue _fun0004;
+ 397:
             _closure2_slot0 = var2;
             var16 = var2;
             var17 = var6;
             var3 = var16;
- 414:
+ 410:
             var18 = var12.bind(var15)();
             var2 = var18.done;
             var11 = var16;
@@ -485,14 +485,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var18;
             var7 = var11;
             var10 = undefined;
-            if(!var2) { _fun0004_ip = 304; continue _fun0004 }
+            if(!var2) { _fun0004_ip = 300; continue _fun0004 }
+ 439:
+            if(!(var4 != var7)) { _fun0004_ip = 475; continue _fun0004 }
  443:
-            if(!(var4 != var7)) { _fun0004_ip = 479; continue _fun0004 }
- 447:
             var6 = var7;
             var2 = var10;
-            if(!(var4 == var10)) { _fun0004_ip = 526; continue _fun0004 }
- 457:
+            if(!(var4 == var10)) { _fun0004_ip = 522; continue _fun0004 }
+ 453:
             var9 = var8.find;
             var3 = function(arg1) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -513,42 +513,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var2 = var9.bind(var8)(var3);
             var6 = var7;
-            _fun0004_ip = 526; continue _fun0004;
- 479:
+            _fun0004_ip = 522; continue _fun0004;
+ 475:
             var9 = var8.length;
             var3 = 0;
-            if(!(var9 > var3)) { _fun0004_ip = 501; continue _fun0004 }
- 490:
+            if(!(var9 > var3)) { _fun0004_ip = 497; continue _fun0004 }
+ 486:
             var3 = var8[var3];
             _closure2_slot0 = var3;
             var7 = var3;
- 501:
+ 497:
             var9 = var8.length;
             var3 = 1;
             var6 = var7;
             var2 = var10;
-            if(!(var9 > var3)) { _fun0004_ip = 526; continue _fun0004 }
- 519:
+            if(!(var9 > var3)) { _fun0004_ip = 522; continue _fun0004 }
+ 515:
             var2 = var8[var3];
             var6 = var7;
+ 522:
+            if(!(var4 != var6)) { _fun0004_ip = 544; continue _fun0004 }
  526:
-            if(!(var4 != var6)) { _fun0004_ip = 548; continue _fun0004 }
- 530:
             var3 = var6;
-            if(!(var4 == var2)) { _fun0004_ip = 568; continue _fun0004 }
- 537:
+            if(!(var4 == var2)) { _fun0004_ip = 564; continue _fun0004 }
+ 533:
             var4 = 0;
             var2 = var5[var4];
             var3 = var6;
-            _fun0004_ip = 568; continue _fun0004;
- 548:
+            _fun0004_ip = 564; continue _fun0004;
+ 544:
             var4 = 0;
             var4 = var5[var4];
             _closure2_slot0 = var4;
             var1 = 1;
             var2 = var5[var1];
             var3 = var4;
- 568:
+ 564:
             var1 = {};
             var1['firstBotApplication'] = var3;
             var1['secondBotApplication'] = var2;

@@ -191,8 +191,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = '';
                     var12 = var10.PLAN_SELECT;
                     var10 = undefined;
-                    if(!(var11 === var12)) { _fun0002_ip = 74; continue _fun0002 }
- 67:
+                    if(!(var11 === var12)) { _fun0002_ip = 70; continue _fun0002 }
+ 63:
                     var10 = function(arg1) {
                         var4 = arg1;
                         var2 = _closure1_slot0;
@@ -222,7 +222,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
- 74:
+ 70:
                     var2['headerLeft'] = var10;
                     var10 = function render() {
                         var4 = _closure1_slot5;
@@ -243,8 +243,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = {};
                     var2['title'] = var7;
                     var10 = var10.CUSTOMIZATION;
-                    if(!(var11 !== var10)) { _fun0002_ip = 155; continue _fun0002 }
- 123:
+                    if(!(var11 !== var10)) { _fun0002_ip = 151; continue _fun0002 }
+ 119:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var10 = 6;
@@ -252,8 +252,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = var11.bind(var9)(var10);
                     var10 = var11.getHeaderBackButton;
                     var10 = var10.bind(var11)();
-                    _fun0002_ip = 186; continue _fun0002;
- 155:
+                    _fun0002_ip = 182; continue _fun0002;
+ 151:
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
                     var11 = 6;
@@ -261,7 +261,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var12 = var12.bind(var9)(var11);
                     var11 = var12.getHeaderCloseButton;
                     var10 = var11.bind(var12)(var8);
- 186:
+ 182:
                     var2['headerLeft'] = var10;
                     var10 = var5.header;
                     var2['headerStyle'] = var10;

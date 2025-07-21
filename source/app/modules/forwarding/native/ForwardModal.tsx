@@ -479,7 +479,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             StartGenerator();
                             var15 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0006_ip = 1018; continue _fun0006 }
+                            if(var2) { _fun0006_ip = 1022; continue _fun0006 }
  15:
                             var13 = undefined;
                             var _closure5_slot0 = var13;
@@ -509,7 +509,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var5 = var7.bind(var8)(var5);
                             var2['content'] = var5;
                             var2 = var3.bind(var4)(var2);
-                            _fun0006_ip = 785; continue _fun0006;
+                            _fun0006_ip = 789; continue _fun0006;
  140:
                             var2 = _closure2_slot5;
                             var17 = true;
@@ -532,7 +532,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var2;
  217:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0006_ip = 1015; continue _fun0006 }
+                            if(var4) { _fun0006_ip = 1019; continue _fun0006 }
  226:
                             var5 = var2.filter;
                             var8 = _closure1_slot0;
@@ -598,7 +598,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var3;
  328:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                            if(var4) { _fun0006_ip = 1012; continue _fun0006 }
+                            if(var4) { _fun0006_ip = 1016; continue _fun0006 }
  337:
                             if(var3) { _fun0006_ip = 356; continue _fun0006 }
  340:
@@ -617,7 +617,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4 = var4.bind(var5)();
                             var5 = var11.length;
                             var4 = 1;
-                            if(!(var4 === var5)) { _fun0006_ip = 500; continue _fun0006 }
+                            if(!(var4 === var5)) { _fun0006_ip = 504; continue _fun0006 }
  398:
                             var5 = _closure1_slot1;
                             var7 = _closure1_slot2;
@@ -635,7 +635,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var4;
  445:
                             ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                            if(var7) { _fun0006_ip = 1009; continue _fun0006 }
+                            if(var7) { _fun0006_ip = 1013; continue _fun0006 }
  454:
                             var8 = _closure1_slot0;
                             var14 = _closure1_slot2;
@@ -646,7 +646,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var7 = var11[var5];
                             var5 = {'navigationReplace': true, 'openTextInVoiceIfVoiceChannel': true};
                             var5 = var8.bind(var14)(var7, var5);
- 500:
+ 504:
                             var7 = _closure1_slot1;
                             var8 = _closure1_slot2;
                             var5 = 28;
@@ -661,13 +661,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var18 = 'withMessage';
                             var5[var18] = var15;
                             var5 = var8.bind(var14)(var7, var11, var5);
-                            SaveGenerator(address=563);
- 561:
+                            SaveGenerator(address=567);
+ 565:
                             return var5;
- 563:
+ 567:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                            if(var7) { _fun0006_ip = 1006; continue _fun0006 }
- 572:
+                            if(var7) { _fun0006_ip = 1010; continue _fun0006 }
+ 576:
                             _closure5_slot0 = var5;
                             var8 = var5.every;
                             var7 = function(arg1) {
@@ -684,8 +684,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var7 = var18[var7];
                             var8 = var8.bind(var13)(var7);
                             var7 = var8.trackForwardSent;
-                            if(var14) { _fun0006_ip = 788; continue _fun0006 }
- 626:
+                            if(var14) { _fun0006_ip = 792; continue _fun0006 }
+ 630:
                             var14 = {};
                             var18 = _closure2_slot3;
                             var14['channelId'] = var18;
@@ -693,11 +693,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var14['messageId'] = var18;
                             var14['hasError'] = var17;
                             var17 = var12 != var15;
-                            if(!var17) { _fun0006_ip = 664; continue _fun0006 }
- 656:
+                            if(!var17) { _fun0006_ip = 668; continue _fun0006 }
+ 660:
                             var18 = '';
                             var17 = var18 !== var15;
- 664:
+ 668:
                             var14['hasContextMessage'] = var17;
                             var17 = var11.length;
                             var14['numDestinations'] = var17;
@@ -732,9 +732,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var17 = _closure2_slot0;
                             var6['forwardOptions'] = var17;
                             var6 = var14.bind(var16)(var6);
- 785:
+ 789:
                             return var13;
- 788:
+ 792:
                             var6 = {};
                             var14 = _closure2_slot3;
                             var6['channelId'] = var14;
@@ -743,11 +743,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var14 = false;
                             var6['hasError'] = var14;
                             var12 = var12 != var15;
-                            if(!var12) { _fun0006_ip = 828; continue _fun0006 }
- 820:
+                            if(!var12) { _fun0006_ip = 832; continue _fun0006 }
+ 824:
                             var14 = '';
                             var12 = var14 !== var15;
- 828:
+ 832:
                             var6['hasContextMessage'] = var12;
                             var11 = var11.length;
                             var6['numDestinations'] = var11;
@@ -788,15 +788,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var6 = var7.bind(var8)(var6);
                             var6 = undefined;
                             return var6;
- 1006:
+ 1010:
                             return var5;
- 1009:
+ 1013:
                             return var4;
- 1012:
+ 1016:
                             return var3;
- 1015:
+ 1019:
                             return var2;
- 1018:
+ 1022:
                             return var1;
                         }
                     };

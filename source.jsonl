@@ -5789,7 +5789,7 @@
 { "file": "discord_common/js/shared/shared-constants/CollectiblesMarketingSurface.tsx", "size": 999 }
 { "file": "app/modules/app_launcher/utils/AppLauncherBadgeUtils.tsx", "size": 2882 }
 { "file": "app/modules/user_settings/AfkTimeoutDefaultExperiment.tsx", "size": 3156 }
-{ "file": "app/modules/user_settings/DefaultGuildActivityExperiment.tsx", "size": 3685 }
+{ "file": "app/modules/user_settings/DefaultGuildActivityExperiment.tsx", "size": 4636 }
 { "file": "app/intl/defaultMessageProxy.tsx", "size": 913 }
 { "file": "app/intl/messages/untranslated.messages.js", "size": 1633 }
 { "file": "app/intl/messages/international.messages.js", "size": 1634 }
@@ -7106,7 +7106,7 @@
 { "file": "app/modules/accept_invite/native/AcceptInviteManager.tsx", "size": 15345 }
 { "file": "app/modules/accept_invite/native/components/AcceptInviteModal.tsx", "size": 4461 }
 { "file": "app/modules/friend_invites/native/FriendInviteUtils.tsx", "size": 7108 }
-{ "file": "app/modules/age_gate/native/AgeGateManager.tsx", "size": 12860 }
+{ "file": "app/modules/age_gate/native/AgeGateManager.tsx", "size": 13755 }
 { "file": "app/modules/age_gate/native/components/ExistingUserAgeGateModal.tsx", "size": 18962 }
 { "file": "app/modules/age_gate/native/ExistingUserAgeGateConstants.tsx", "size": 989 }
 { "file": "app/modules/age_gate/native/components/ExistingUserAgeGate.tsx", "size": 27112 }

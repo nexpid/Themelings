@@ -169,21 +169,33 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = 'handlePostConnectionOpen';
         var5['key'] = var1;
         var1 = function value() {
-            var3 = _closure1_slot11;
-            var2 = var3.getGuildId;
-            var5 = var2.bind(var3)();
-            var3 = _closure1_slot10;
-            var2 = var3.getChannelId;
-            var4 = var2.bind(var3)();
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 11;
-            var2 = var2[var1];
-            var1 = undefined;
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.maybeShowAgeGate;
-            var2 = var2.bind(var3)(var5, var4);
-            return var1;
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                var3 = _closure1_slot11;
+                var1 = var3.getGuildId;
+                var5 = var1.bind(var3)();
+                var3 = _closure1_slot10;
+                var1 = var3.getChannelId;
+                var4 = var1.bind(var3)();
+                var7 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var6 = 11;
+                var3 = var1[var6];
+                var1 = undefined;
+                var7 = var7.bind(var1)(var3);
+                var3 = var7.isCurrentUserMissingDateOfBirth;
+                var3 = var3.bind(var7)();
+                if(!var3) { _fun0003_ip = 95; continue _fun0003 }
+ 66:
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var2 = var2[var6];
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.maybeShowAgeGate;
+                var2 = var2.bind(var3)(var5, var4);
+ 95:
+                return var1;
+            }
         };
         var5['value'] = var1;
         var1 = new Array(5);
@@ -192,7 +204,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'handleChannelSelect';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                 var1 = arg1;
                 var5 = var1.guildId;
@@ -202,11 +214,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var2.bind(var3)(var4);
                 var6 = null;
                 var2 = var6 != var5;
-                if(!var2) { _fun0003_ip = 67; continue _fun0003 }
+                if(!var2) { _fun0004_ip = 67; continue _fun0004 }
  39:
                 var7 = var6 == var3;
                 var6 = undefined;
-                if(var7) { _fun0003_ip = 53; continue _fun0003 }
+                if(var7) { _fun0004_ip = 53; continue _fun0004 }
  48:
                 var6 = var3.type;
  53:
@@ -214,8 +226,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3.GUILD_VOICE;
                 var2 = var6 !== var3;
  67:
-                if(!var2) { _fun0003_ip = 115; continue _fun0003 }
+                if(!var2) { _fun0004_ip = 102; continue _fun0004 }
  70:
+                var7 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var3 = 11;
+                var6 = var6[var3];
+                var3 = undefined;
+                var6 = var7.bind(var3)(var6);
+                var3 = var6.isCurrentUserMissingDateOfBirth;
+                var2 = var3.bind(var6)();
+ 102:
+                if(!var2) { _fun0004_ip = 150; continue _fun0004 }
+ 105:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 11;
@@ -226,7 +249,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = _closure1_slot13;
                 var1 = var1.NSFW_CHANNEL;
                 var1 = var2.bind(var3)(var5, var4, var1);
- 115:
+ 150:
                 var1 = undefined;
                 return var1;
             }
@@ -250,11 +273,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = _closure1_slot3;
             var3 = function* () {
                 var1 = function* anon_0_() {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0004_ip = 140; continue _fun0004 }
+                        if(var2) { _fun0005_ip = 140; continue _fun0005 }
  10:
                         var4 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -271,13 +294,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var2;
  57:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0004_ip = 137; continue _fun0004 }
+                        if(var3) { _fun0005_ip = 137; continue _fun0005 }
  63:
                         var3 = var2.default;
                         var6 = _closure3_slot0;
                         var4 = _closure1_slot13;
                         var4 = var4.AUTH;
-                        if(!(var6 === var4)) { _fun0004_ip = 134; continue _fun0004 }
+                        if(!(var6 === var4)) { _fun0005_ip = 134; continue _fun0005 }
  89:
                         var4 = {};
                         var6 = _closure1_slot0;
@@ -329,7 +352,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'handleGuildUpdate';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var1 = arg1;
                 var1 = var1.guild;
@@ -338,19 +361,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var3.bind(var4)();
                 var4 = null;
                 var3 = var4 != var6;
-                if(!var3) { _fun0005_ip = 43; continue _fun0005 }
+                if(!var3) { _fun0006_ip = 43; continue _fun0006 }
  34:
                 var5 = var1.id;
                 var3 = var5 === var6;
  43:
-                if(!var3) { _fun0005_ip = 66; continue _fun0005 }
+                if(!var3) { _fun0006_ip = 66; continue _fun0006 }
  46:
                 var6 = var1.nsfw_level;
                 var5 = _closure1_slot15;
                 var5 = var5.AGE_RESTRICTED;
                 var3 = var6 === var5;
  66:
-                if(!var3) { _fun0005_ip = 108; continue _fun0005 }
+                if(!var3) { _fun0006_ip = 108; continue _fun0006 }
  69:
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;

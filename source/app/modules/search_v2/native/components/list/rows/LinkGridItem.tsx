@@ -169,7 +169,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     var2 = _closure2_slot7;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0003_ip = 177; continue _fun0003 }
+                    if(!(var1 != var2)) { _fun0003_ip = 173; continue _fun0003 }
  16:
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -206,7 +206,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['children'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
- 177:
+ 173:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var1 = 11;

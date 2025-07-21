@@ -487,8 +487,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = true;
             var1['header'] = var8;
             var7 = null;
-            if(!var5) { _fun0001_ip = 667; continue _fun0001 }
- 599:
+            if(!var5) { _fun0001_ip = 663; continue _fun0001 }
+ 595:
             var10 = _closure1_slot6;
             var8 = _closure1_slot5;
             var5 = {};
@@ -505,7 +505,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = var10.bind(var4)(var17, var16);
             var5['children'] = var16;
             var7 = var10.bind(var4)(var8, var5);
- 667:
+ 663:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot6;
@@ -524,10 +524,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var9.SafeAreaPaddingView;
             var9 = {};
             var9['bottom'] = var15;
-            if(!(var14 === var13)) { _fun0001_ip = 747; continue _fun0001 }
- 744:
+            if(!(var14 === var13)) { _fun0001_ip = 743; continue _fun0001 }
+ 740:
             var11 = var12;
- 747:
+ 743:
             var9['children'] = var11;
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;
