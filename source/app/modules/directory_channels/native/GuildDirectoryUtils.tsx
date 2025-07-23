@@ -40,7 +40,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 184; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 185; continue _fun0001 }
  15:
                     var12 = var2.directoryChannelId;
                     var3 = var2.directoryGuildName;
@@ -51,13 +51,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = var2.category;
                     var6 = var2.onClose;
                     var4 = undefined;
-                    SaveGenerator(address=62);
- 60:
+                    SaveGenerator(address=63);
+ 61:
                     return var4;
- 62:
+ 63:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 181; continue _fun0001 }
- 68:
+                    if(var5) { _fun0001_ip = 182; continue _fun0001 }
+ 69:
                     var9 = _closure1_slot2;
                     var13 = _closure1_slot3;
                     var7 = 3;
@@ -70,13 +70,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var15 = var11;
                     var14 = var10;
                     var3 = var18[var7](var17, var16, var15, var14, var13);
-                    SaveGenerator(address=122);
- 120:
+                    SaveGenerator(address=123);
+ 121:
                     return var3;
- 122:
+ 123:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 178; continue _fun0001 }
- 128:
+                    if(var7) { _fun0001_ip = 179; continue _fun0001 }
+ 129:
                     var6 = var6.bind(var4)();
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot3;
@@ -126,11 +126,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5['importer'] = var8;
                     var5 = var6.bind(var7)(var5);
                     return var4;
- 178:
+ 179:
                     return var3;
- 181:
+ 182:
                     return var2;
- 184:
+ 185:
                     return var1;
                 }
             };

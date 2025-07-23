@@ -25,20 +25,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var6[var13];
     var4 = var5.bind(var1)(var4);
     var12 = var4.StyleSheet;
-    var4 = var4.View;
-    var _closure1_slot4 = var4;
+    var7 = var4.View;
+    var _closure1_slot4 = var7;
+    var4 = var4.TouchableOpacity;
+    var _closure1_slot5 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.GIFPickerResultTypes;
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var _closure1_slot7 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -116,7 +118,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9['marginRight'] = var10;
     var4['categoryNameIcon'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -131,7 +133,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot0 = var6;
             var12 = var2.item;
             var _closure2_slot1 = var12;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot9;
             var4 = undefined;
             var14 = var2.bind(var4)();
             var5 = _closure1_slot3;
@@ -148,21 +150,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var5 = var3.bind(var5)(var1, var2);
-            var3 = _closure1_slot7;
+            var10 = var3.bind(var5)(var1, var2);
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 6;
+            var3 = var7[var1];
+            var3 = var2.bind(var4)(var3);
+            var5 = var3.intl;
+            var3 = var5.formatToPlainString;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
-            var2 = var1.Pressable;
+            var1 = var1.t;
+            var2 = var1.j+63p6;
             var1 = {};
-            var6 = var14.container;
-            var1['style'] = var6;
-            var1['onPress'] = var5;
-            var8 = _closure1_slot6;
+            var6 = var12.name;
+            var1['categoryName'] = var6;
+            var8 = var3.bind(var5)(var2, var1);
             var6 = _closure1_slot1;
-            var5 = 7;
+            var1 = 7;
+            var1 = var7[var1];
+            var1 = var6.bind(var4)(var1);
+            var18 = var1.bind(var4)(var10, var8);
+            var3 = _closure1_slot8;
+            var2 = _closure1_slot5;
+            var1 = {};
+            var11 = var14.container;
+            var1['style'] = var11;
+            var1['onPress'] = var10;
+            var10 = true;
+            var1['accessible'] = var10;
+            var10 = 'button';
+            var1['accessibilityRole'] = var10;
+            var1['accessibilityLabel'] = var8;
+            var19 = var1;
+            var5 = copyDataProperties(var19, var18);
+            var8 = _closure1_slot7;
+            var5 = 8;
             var5 = var7[var5];
             var6 = var6.bind(var4)(var5);
             var5 = {};
@@ -172,33 +195,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var12.src;
             var7['uri'] = var10;
             var5['source'] = var7;
-            var6 = var8.bind(var4)(var6, var5);
-            var5 = new Array(3);
-            var5[0] = var6;
+            var5 = var8.bind(var4)(var6, var5);
+            var6 = new Array(3);
+            var6[0] = var5;
             var7 = _closure1_slot4;
-            var6 = {};
+            var5 = {};
             var10 = var14.gifOverlay;
-            var6['style'] = var10;
-            var6 = var8.bind(var4)(var7, var6);
-            var5[1] = var6;
-            var6 = {};
+            var5['style'] = var10;
+            var5 = var8.bind(var4)(var7, var5);
+            var6[1] = var5;
+            var5 = {};
             var8 = var14.categoryName;
-            var6['style'] = var8;
+            var5['style'] = var8;
+            var8 = false;
+            var5['accessible'] = var8;
             var10 = var12.type;
-            var8 = _closure1_slot5;
+            var8 = _closure1_slot6;
             var8 = var8.TRENDING_GIFS;
-            if(!(var10 !== var8)) { _fun0001_ip = 344; continue _fun0001 }
- 234:
+            if(!(var10 !== var8)) { _fun0001_ip = 443; continue _fun0001 }
+ 333:
             var11 = var12.type;
-            var8 = _closure1_slot5;
+            var8 = _closure1_slot6;
             var8 = var8.FAVORITES;
             var10 = null;
-            if(!(var11 === var8)) { _fun0001_ip = 342; continue _fun0001 }
- 255:
-            var13 = _closure1_slot6;
+            if(!(var11 === var8)) { _fun0001_ip = 441; continue _fun0001 }
+ 354:
+            var13 = _closure1_slot7;
             var11 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var8 = 9;
+            var8 = 10;
             var8 = var17[var8];
             var8 = var11.bind(var4)(var8);
             var11 = var8.StarIcon;
@@ -215,13 +240,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var15.WHITE;
             var8['color'] = var15;
             var10 = var13.bind(var4)(var11, var8);
- 342:
-            _fun0001_ip = 431; continue _fun0001;
- 344:
-            var13 = _closure1_slot6;
+ 441:
+            _fun0001_ip = 530; continue _fun0001;
+ 443:
+            var13 = _closure1_slot7;
             var11 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var8 = 8;
+            var8 = 9;
             var8 = var16[var8];
             var8 = var11.bind(var4)(var8);
             var11 = var8.AnalyticsIcon;
@@ -238,39 +263,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var14.WHITE;
             var8['color'] = var14;
             var10 = var13.bind(var4)(var11, var8);
- 431:
+ 530:
             var8 = new Array(2);
             var8[0] = var10;
-            var11 = _closure1_slot6;
-            var14 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var9 = 10;
-            var9 = var17[var9];
-            var9 = var14.bind(var4)(var9);
+            var11 = _closure1_slot7;
+            var10 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var9 = 11;
+            var9 = var13[var9];
+            var9 = var10.bind(var4)(var9);
             var10 = var9.Text;
-            var9 = {'variant': 'text-sm/semibold', 'color': 'always-white', 'accessibilityLabel': null, 'maxFontSizeMultiplier': 2};
-            var13 = 11;
-            var15 = var17[var13];
-            var15 = var14.bind(var4)(var15);
-            var16 = var15.intl;
-            var15 = var16.formatToPlainString;
-            var13 = var17[var13];
-            var13 = var14.bind(var4)(var13);
-            var13 = var13.t;
-            var14 = var13.j+63p6;
-            var13 = {};
-            var17 = var12.name;
-            var13['categoryName'] = var17;
-            var13 = var15.bind(var16)(var14, var13);
-            var9['accessibilityLabel'] = var13;
+            var9 = {'variant': 'text-sm/semibold', 'color': 'always-white', 'maxFontSizeMultiplier': 2, 'accessible': false};
             var12 = var12.name;
             var9['children'] = var12;
             var9 = var11.bind(var4)(var10, var9);
             var8[1] = var9;
-            var6['children'] = var8;
-            var6 = var3.bind(var4)(var7, var6);
-            var5[2] = var6;
-            var1['children'] = var5;
+            var5['children'] = var8;
+            var5 = var3.bind(var4)(var7, var5);
+            var6[2] = var5;
+            var5 = 'children';
+            var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

@@ -63,11 +63,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0002_ip = 74; continue _fun0002;
- 72: // catch_target0
+ 72: // try_end0
+            _fun0002_ip = 76; continue _fun0002;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -360,8 +360,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var4.bind(var2)(var3, var1);
         return var1;
     };
-    var4 = var4.bind(var1)();
-    var5 = function(arg1) {
+    var5 = var4.bind(var1)();
+    var4 = function(arg1) {
         var4 = function SearchFetcherImpl() {
             var5 = this;
             var4 = undefined;
@@ -389,21 +389,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = this;
                 var4 = var2.searchType;
                 var3 = _closure1_slot9;
-                var3 = var3.DMS;
-                if(!(var3 !== var4)) { _fun0006_ip = 253; continue _fun0006 }
+                var3 = var3.FAVORITES;
+                if(!(var3 !== var4)) { _fun0006_ip = 224; continue _fun0006 }
  29:
                 var3 = _closure1_slot9;
-                var3 = var3.FAVORITES;
-                if(!(var3 !== var4)) { _fun0006_ip = 241; continue _fun0006 }
+                var3 = var3.GUILD;
+                if(!(var3 !== var4)) { _fun0006_ip = 171; continue _fun0006 }
  46:
                 var3 = _closure1_slot9;
-                var3 = var3.GUILD;
-                if(!(var3 !== var4)) { _fun0006_ip = 188; continue _fun0006 }
- 63:
-                var3 = _closure1_slot9;
                 var3 = var3.CHANNEL;
-                if(!(var3 !== var4)) { _fun0006_ip = 135; continue _fun0006 }
- 77:
+                if(!(var3 !== var4)) { _fun0006_ip = 118; continue _fun0006 }
+ 60:
                 var3 = global;
                 var5 = var3.Error;
                 var6 = var2.searchType;
@@ -417,47 +413,43 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = new var8[var5](var7, var6);
                 var3 = var3 instanceof Object ? var3 : var4;
                 throw var3;
- 135:
+ 118:
                 var4 = var2.searchId;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0006_ip = 184; continue _fun0006 }
- 147:
+                if(!(var3 != var4)) { _fun0006_ip = 167; continue _fun0006 }
+ 130:
                 var4 = var2.searchId;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0006_ip = 184; continue _fun0006 }
- 161:
+                if(!(var3 !== var4)) { _fun0006_ip = 167; continue _fun0006 }
+ 144:
                 var5 = _closure1_slot10;
                 var4 = var5.SEARCH_CHANNEL;
                 var3 = var2.searchId;
                 var3 = var4.bind(var5)(var3);
                 return var3;
- 184:
+ 167:
                 var3 = undefined;
                 return var3;
- 188:
+ 171:
                 var4 = var2.searchId;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0006_ip = 237; continue _fun0006 }
- 200:
+                if(!(var3 != var4)) { _fun0006_ip = 220; continue _fun0006 }
+ 183:
                 var4 = var2.searchId;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0006_ip = 237; continue _fun0006 }
- 214:
+                if(!(var3 !== var4)) { _fun0006_ip = 220; continue _fun0006 }
+ 197:
                 var4 = _closure1_slot10;
                 var3 = var4.SEARCH_GUILD;
                 var2 = var2.searchId;
                 var2 = var3.bind(var4)(var2);
                 return var2;
- 237:
+ 220:
                 var2 = undefined;
                 return var2;
- 241:
-                var2 = _closure1_slot10;
-                var2 = var2.SEARCH_FAVORITES;
-                return var2;
- 253:
+ 224:
                 var1 = _closure1_slot10;
-                var1 = var1.SEARCH_DMS;
+                var1 = var1.SEARCH_FAVORITES;
                 return var1;
             }
         };
@@ -509,7 +501,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var5 = var5.bind(var1)(var4);
+    var4 = var4.bind(var1)(var5);
     var2 = function(arg1) {
         var4 = function SearchTabFetcherImpl(arg1, arg2, arg3, arg4) {
             var5 = this;
@@ -655,15 +647,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var2 = var2.bind(var1)(var4);
+    var2 = var2.bind(var1)(var5);
     var6 = 11;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
     var6 = 'lib/SearchFetcher.tsx';
     var6 = var7.bind(var8)(var6);
-    var3['default'] = var5;
-    var3['SearchFetcher'] = var4;
+    var3['SearchFetcher'] = var5;
+    var3['SearchFetcherImpl'] = var4;
     var3['SearchTabFetcherImpl'] = var2;
     return var1;
 })();

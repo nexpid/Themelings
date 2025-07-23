@@ -445,7 +445,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = 25;
                     var3 = var9[var3];
                     var4 = var4.bind(var1)(var3);
-                    if(var2) { _fun0002_ip = 845; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 846; continue _fun0002 }
  721:
                     var3 = var4.trackEmojiSelect;
                     var2 = {};
@@ -458,20 +458,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = _closure2_slot1;
                     var12 = var10 == var11;
                     var11 = undefined;
-                    if(var12) { _fun0002_ip = 774; continue _fun0002 }
- 765:
+                    if(var12) { _fun0002_ip = 775; continue _fun0002 }
+ 766:
                     var12 = _closure2_slot1;
                     var11 = var12.guild_id;
- 774:
-                    if(!(var10 == var11)) { _fun0002_ip = 790; continue _fun0002 }
- 778:
+ 775:
+                    if(!(var10 == var11)) { _fun0002_ip = 791; continue _fun0002 }
+ 779:
                     var11 = _closure1_slot6;
                     var11 = var11.DM_CHANNEL;
-                    _fun0002_ip = 800; continue _fun0002;
- 790:
+                    _fun0002_ip = 801; continue _fun0002;
+ 791:
                     var12 = _closure1_slot6;
                     var11 = var12.GUILD_CHANNEL;
- 800:
+ 801:
                     var9['page'] = var11;
                     var11 = _closure1_slot7;
                     var11 = var11.EMOJI_PICKER_POPOUT;
@@ -481,8 +481,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9['object'] = var11;
                     var2['location'] = var9;
                     var2 = var3.bind(var4)(var2);
-                    _fun0002_ip = 965; continue _fun0002;
- 845:
+                    _fun0002_ip = 966; continue _fun0002;
+ 846:
                     var3 = var4.trackEmojiSearchSelect;
                     var2 = {};
                     var2['emoji'] = var7;
@@ -490,20 +490,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = _closure2_slot1;
                     var11 = var10 == var9;
                     var9 = undefined;
-                    if(var11) { _fun0002_ip = 882; continue _fun0002 }
- 873:
+                    if(var11) { _fun0002_ip = 883; continue _fun0002 }
+ 874:
                     var11 = _closure2_slot1;
                     var9 = var11.guild_id;
- 882:
-                    if(!(var10 == var9)) { _fun0002_ip = 898; continue _fun0002 }
- 886:
+ 883:
+                    if(!(var10 == var9)) { _fun0002_ip = 899; continue _fun0002 }
+ 887:
                     var9 = _closure1_slot6;
                     var9 = var9.DM_CHANNEL;
-                    _fun0002_ip = 908; continue _fun0002;
- 898:
+                    _fun0002_ip = 909; continue _fun0002;
+ 899:
                     var10 = _closure1_slot6;
                     var9 = var10.GUILD_CHANNEL;
- 908:
+ 909:
                     var7['page'] = var9;
                     var9 = _closure1_slot7;
                     var9 = var9.EMOJI_PICKER_POPOUT;
@@ -516,7 +516,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = _closure2_slot5;
                     var2['intention'] = var5;
                     var2 = var3.bind(var4)(var2);
- 965:
+ 966:
                     return var1;
                 }
             };
@@ -586,7 +586,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var8.bind(var4)(var2);
                     var2 = var2.EmojiPickerFlashListItemType;
                     var2 = var2.NATIVE_SECTION;
-                    if(!(var2 !== var6)) { _fun0004_ip = 860; continue _fun0004 }
+                    if(!(var2 !== var6)) { _fun0004_ip = 861; continue _fun0004 }
  68:
                     var8 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -594,7 +594,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var8.bind(var4)(var2);
                     var2 = var2.EmojiPickerFlashListItemType;
                     var2 = var2.PLACEHOLDER;
-                    if(!(var2 !== var6)) { _fun0004_ip = 860; continue _fun0004 }
+                    if(!(var2 !== var6)) { _fun0004_ip = 861; continue _fun0004 }
  104:
                     var8 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -602,7 +602,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var8.bind(var4)(var2);
                     var2 = var2.EmojiPickerFlashListItemType;
                     var2 = var2.EMOJI_ROW_SLIM;
-                    if(!(var2 !== var6)) { _fun0004_ip = 860; continue _fun0004 }
+                    if(!(var2 !== var6)) { _fun0004_ip = 861; continue _fun0004 }
  140:
                     var8 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -610,7 +610,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var8.bind(var4)(var2);
                     var2 = var2.EmojiPickerFlashListItemType;
                     var2 = var2.TITLE;
-                    if(!(var2 !== var6)) { _fun0004_ip = 751; continue _fun0004 }
+                    if(!(var2 !== var6)) { _fun0004_ip = 752; continue _fun0004 }
  176:
                     var8 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -618,7 +618,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var8.bind(var4)(var2);
                     var2 = var2.EmojiPickerFlashListItemType;
                     var2 = var2.PREMIUM_INLINE_ROADBLOCK;
-                    if(!(var2 !== var6)) { _fun0004_ip = 696; continue _fun0004 }
+                    if(!(var2 !== var6)) { _fun0004_ip = 697; continue _fun0004 }
  212:
                     var8 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -643,7 +643,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.EmojiPickerFlashListItemType;
                     var2 = var2.FOOTER_UPSELL;
                     var10 = undefined;
-                    if(!(var2 === var6)) { _fun0004_ip = 597; continue _fun0004 }
+                    if(!(var2 === var6)) { _fun0004_ip = 598; continue _fun0004 }
  322:
                     var8 = _closure1_slot13;
                     var6 = _closure1_slot0;
@@ -668,7 +668,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = _closure2_slot11;
                     var2['useTier0UpsellContent'] = var9;
                     var10 = var8.bind(var4)(var6, var2);
-                    _fun0004_ip = 597; continue _fun0004;
+                    _fun0004_ip = 598; continue _fun0004;
  414:
                     var8 = _closure1_slot13;
                     var6 = _closure1_slot0;
@@ -679,7 +679,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var2.NSFWRow;
                     var2 = {};
                     var10 = var8.bind(var4)(var6, var2);
-                    _fun0004_ip = 597; continue _fun0004;
+                    _fun0004_ip = 598; continue _fun0004;
  457:
                     var14 = var5.emojis;
                     var13 = var5.emojisDisabled;
@@ -710,15 +710,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2['row'] = var11;
                     var2['isSectionNitroLocked'] = var9;
                     var10 = var8.bind(var4)(var6, var2);
- 597:
+ 598:
                     var8 = _closure1_slot15;
                     var6 = _closure1_slot14;
                     var2 = {};
                     var11 = var5.isSectionNitroLocked;
                     var9 = true;
                     var11 = var9 === var11;
-                    if(!var11) { _fun0004_ip = 672; continue _fun0004 }
- 622:
+                    if(!var11) { _fun0004_ip = 673; continue _fun0004 }
+ 623:
                     var13 = _closure1_slot13;
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
@@ -730,14 +730,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var14 = _closure2_slot11;
                     var9['useTier0UpsellContent'] = var14;
                     var11 = var13.bind(var4)(var12, var9);
- 672:
+ 673:
                     var9 = new Array(2);
                     var9[0] = var11;
                     var9[1] = var10;
                     var2['children'] = var9;
                     var2 = var8.bind(var4)(var6, var2);
                     return var2;
- 696:
+ 697:
                     var8 = _closure1_slot13;
                     var6 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -751,19 +751,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2['useTier0UpsellContent'] = var9;
                     var2 = var8.bind(var4)(var6, var2);
                     return var2;
- 751:
+ 752:
                     var6 = var5.title;
                     var2 = 'StickyHeader';
-                    if(!(var2 === var3)) { _fun0004_ip = 793; continue _fun0004 }
- 764:
+                    if(!(var2 === var3)) { _fun0004_ip = 794; continue _fun0004 }
+ 765:
                     var2 = _closure2_slot0;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 793; continue _fun0004 }
- 782:
+                    if(!(var2 != var3)) { _fun0004_ip = 794; continue _fun0004 }
+ 783:
                     var2 = var3.onStickyHeaderRendered;
                     var2 = var2.bind(var3)(var7);
- 793:
+ 794:
                     var3 = _closure1_slot13;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -779,7 +779,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['useTier0UpsellContent'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
- 860:
+ 861:
                     var1 = null;
                     return var1;
                 }

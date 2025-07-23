@@ -184,13 +184,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = arg1;
             var2 = var1.profileEffectConfig;
             var _closure2_slot0 = var2;
-            var16 = var1.replayOnNavigationFocus;
+            var15 = var1.replayOnNavigationFocus;
             var4 = undefined;
-            if(!(var16 === var4)) { _fun0002_ip = 29; continue _fun0002 }
+            if(!(var15 === var4)) { _fun0002_ip = 29; continue _fun0002 }
  27:
-            var16 = false;
+            var15 = false;
  29:
-            var _closure2_slot1 = var16;
+            var _closure2_slot1 = var15;
             var9 = var1.style;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
@@ -200,9 +200,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
             var _closure2_slot9 = var4;
-            var _closure2_slot10 = var4;
-            var _closure2_slot11 = var4;
-            var _closure2_slot12 = var4;
             var3 = _closure1_slot10;
             var8 = var3.bind(var4)();
             var3 = _closure1_slot12;
@@ -231,117 +228,47 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var7 = var7.bind(var13)(var2, var3);
-            _closure2_slot4 = var7;
+            var2 = _closure1_slot11;
+            var3 = var2.bind(var4)(var7);
+            var2 = var3.loaded;
+            _closure2_slot4 = var2;
+            var3 = var3.onLayerLoaded;
+            _closure2_slot5 = var3;
+            var12 = var13.useState;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var2 = 7;
-            var2 = var11[var2];
-            var12 = var10.bind(var4)(var2);
-            var3 = var12.getProfileEffectNativePreloadExperiment;
-            var2 = 'ProfileEffect';
-            var3 = var3.bind(var12)(var2);
-            _closure2_slot5 = var3;
-            var14 = var13.useMemo;
-            var12 = new Array(2);
-            var12[0] = var7;
-            var12[1] = var3;
-            var2 = function() {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
-                    var1 = _closure2_slot5;
-                    if(var1) { _fun0003_ip = 16; continue _fun0003 }
- 10:
-                    var1 = new Array(0);
-                    _fun0003_ip = 20; continue _fun0003;
- 16:
-                    var1 = _closure2_slot4;
- 20:
-                    return var1;
-                }
-            };
-            var12 = var14.bind(var13)(var2, var12);
-            var2 = _closure1_slot11;
-            var12 = var2.bind(var4)(var12);
-            var2 = var12.loaded;
-            _closure2_slot6 = var2;
-            var12 = var12.onLayerLoaded;
-            _closure2_slot7 = var12;
-            var14 = var13.useMemo;
-            var12 = new Array(1);
-            var12[0] = var3;
-            var3 = function() {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-                    var1 = _closure2_slot5;
-                    var2 = 0;
-                    if(var1) { _fun0004_ip = 57; continue _fun0004 }
- 12:
-                    var5 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var1 = 8;
-                    var4 = var4[var1];
-                    var1 = undefined;
-                    var4 = var5.bind(var1)(var4);
-                    var1 = var4.isAndroid;
-                    var1 = var1.bind(var4)();
-                    var2 = 0;
-                    if(!var1) { _fun0004_ip = 57; continue _fun0004 }
- 51:
-                    var2 = 900;
- 57:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var1 = 9;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var1 = var4.bind(var1)(var3);
-                    var1 = var1.ENTRY_DELAY;
-                    var1 = -var1;
-                    var1 = var1 - var2;
-                    return var1;
-                }
-            };
-            var15 = var14.bind(var13)(var3, var12);
-            _closure2_slot8 = var15;
-            var3 = var13.useState;
-            var14 = var3.bind(var13)(var15);
+            var3 = 7;
+            var3 = var11[var3];
+            var3 = var10.bind(var4)(var3);
+            var3 = var3.ENTRY_DELAY;
+            var3 = -var3;
+            var14 = var12.bind(var13)(var3);
             var12 = _closure1_slot3;
             var3 = 2;
             var12 = var12.bind(var4)(var14, var3);
             var3 = 0;
             var3 = var12[var3];
-            _closure2_slot9 = var3;
+            _closure2_slot6 = var3;
             var3 = 1;
             var3 = var12[var3];
-            _closure2_slot10 = var3;
-            var14 = var13.useEffect;
-            var12 = new Array(1);
-            var12[0] = var15;
-            var3 = function() {
-                var3 = _closure2_slot10;
-                var2 = _closure2_slot8;
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            var3 = var14.bind(var13)(var3, var12);
+            _closure2_slot7 = var3;
             var12 = _closure1_slot1;
-            var3 = 10;
+            var3 = 8;
             var3 = var11[var3];
             var3 = var12.bind(var4)(var3);
             var14 = var13.useCallback;
             var12 = new Array(1);
             var12[0] = var2;
             var2 = function(arg1) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var2 = arg1;
                     var _closure3_slot0 = var2;
-                    var3 = _closure2_slot6;
+                    var3 = _closure2_slot4;
                     var3 = var3.current;
-                    if(!var3) { _fun0005_ip = 40; continue _fun0005 }
+                    if(!var3) { _fun0003_ip = 40; continue _fun0003 }
  24:
-                    var3 = _closure2_slot10;
+                    var3 = _closure2_slot7;
                     var2 = undefined;
                     var1 = function(arg1) {
                         var2 = _closure3_slot0;
@@ -358,34 +285,39 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var14.bind(var13)(var2, var12);
             var2 = var3.bind(var4)(var2);
             var14 = var2.stop;
-            _closure2_slot11 = var14;
+            _closure2_slot8 = var14;
             var2 = var2.reset;
-            _closure2_slot12 = var2;
-            var3 = 11;
+            _closure2_slot9 = var2;
+            var3 = 9;
             var3 = var11[var3];
             var10 = var10.bind(var4)(var3);
             var3 = var10.useFocusEffect;
             var12 = var13.useCallback;
-            var11 = new Array(4);
-            var11[0] = var16;
-            var11[1] = var15;
-            var11[2] = var14;
-            var11[3] = var2;
+            var11 = new Array(3);
+            var11[0] = var15;
+            var11[1] = var14;
+            var11[2] = var2;
             var2 = function() {
-                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     var2 = _closure2_slot1;
-                    if(!var2) { _fun0006_ip = 33; continue _fun0006 }
+                    if(!var2) { _fun0004_ip = 61; continue _fun0004 }
  10:
-                    var4 = _closure2_slot10;
-                    var3 = _closure2_slot8;
+                    var4 = _closure2_slot7;
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 7;
+                    var3 = var3[var2];
                     var2 = undefined;
+                    var3 = var5.bind(var2)(var3);
+                    var3 = var3.ENTRY_DELAY;
+                    var3 = -var3;
                     var3 = var4.bind(var2)(var3);
-                    var1 = _closure2_slot12;
+                    var1 = _closure2_slot9;
                     var1 = var1.bind(var2)();
- 33:
+ 61:
                     var1 = function() {
-                        var2 = _closure2_slot11;
+                        var2 = _closure2_slot8;
                         var1 = undefined;
                         var2 = var2.bind(var1)();
                         return var1;
@@ -414,16 +346,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var2 + var1;
                 var3 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var2 = 12;
+                var2 = 10;
                 var2 = var9[var2];
                 var4 = undefined;
                 var7 = var3.bind(var4)(var2);
                 var3 = var7.shouldAnimate;
-                var2 = _closure2_slot9;
+                var2 = _closure2_slot6;
                 var7 = var3.bind(var7)(var8, var2);
                 var3 = _closure1_slot9;
                 var2 = _closure1_slot1;
-                var1 = 13;
+                var1 = 11;
                 var1 = var9[var1];
                 var2 = var2.bind(var4)(var1);
                 var1 = {};
@@ -433,9 +365,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['width'] = var7;
                 var7 = _closure2_slot3;
                 var1['accessibilityLabel'] = var7;
-                var7 = _closure2_slot7;
+                var7 = _closure2_slot5;
                 var1['onLoad'] = var7;
-                var6 = _closure2_slot6;
+                var6 = _closure2_slot4;
                 var6 = var6.current;
                 var1['loaded'] = var6;
                 var1 = var3.bind(var4)(var2, var1, var5);
@@ -449,13 +381,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var _closure1_slot13 = var5;
     var5 = function StaticEffect(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var3 = arg1;
             var2 = var3.config;
             var13 = var3.bannerAdjustment;
             var4 = undefined;
-            if(!(var13 === var4)) { _fun0007_ip = 24; continue _fun0007 }
+            if(!(var13 === var4)) { _fun0005_ip = 24; continue _fun0005 }
  22:
             var13 = 0;
  24:
@@ -495,19 +427,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2[2] = var15;
             var2[3] = var18;
             var1 = function() {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                     var4 = _closure2_slot3;
                     var3 = 0;
-                    if(!(var3 !== var4)) { _fun0008_ip = 62; continue _fun0008 }
+                    if(!(var3 !== var4)) { _fun0006_ip = 62; continue _fun0006 }
  15:
                     var5 = _closure1_slot7;
                     var4 = var5.getSize;
                     var3 = _closure2_slot0;
-                    if(var3) { _fun0008_ip = 41; continue _fun0008 }
+                    if(var3) { _fun0006_ip = 41; continue _fun0006 }
  35:
                     var3 = _closure2_slot1;
-                    _fun0008_ip = 45; continue _fun0008;
+                    _fun0006_ip = 45; continue _fun0006;
  41:
                     var3 = _closure2_slot2;
  45:
@@ -527,7 +459,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = _closure2_slot3;
                         var5 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 14;
+                        var1 = 12;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var5.bind(var1)(var2);
@@ -545,7 +477,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var3.bind(var8)(var1, var2);
             var3 = _closure1_slot9;
             var2 = _closure1_slot5;
-            if(!(var12 !== var14)) { _fun0007_ip = 352; continue _fun0007 }
+            if(!(var12 !== var14)) { _fun0005_ip = 352; continue _fun0005 }
  206:
             var1 = {};
             var8 = var7.profileEffects;
@@ -556,12 +488,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = _closure1_slot9;
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var5 = 15;
+            var5 = 13;
             var5 = var11[var5];
             var8 = var8.bind(var4)(var5);
             var5 = {'resizeMode': 'cover', 'resizeMethod': 'resize', 'enableAnimation': true};
             var11 = {};
-            if(!var18) { _fun0007_ip = 278; continue _fun0007 }
+            if(!var18) { _fun0005_ip = 278; continue _fun0005 }
  275:
             var16 = var17;
  278:
@@ -582,7 +514,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5['style'] = var10;
             var5 = var9.bind(var4)(var8, var5);
             var1['children'] = var5;
-            _fun0007_ip = 381; continue _fun0007;
+            _fun0005_ip = 381; continue _fun0005;
  352:
             var5 = {};
             var7 = var7.profileEffects;
@@ -597,19 +529,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var _closure1_slot14 = var5;
-    var5 = 19;
+    var5 = 16;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/profile_effects/native/ProfileEffect.tsx';
     var5 = var6.bind(var7)(var5);
     var4 = function _default(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var7 = arg1;
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 16;
+            var1 = 14;
             var1 = var4[var1];
             var6 = undefined;
             var4 = var2.bind(var6)(var1);
@@ -618,92 +550,50 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.bind(var4)(var1);
             var1 = null;
             var4 = var1 == var2;
-            var11 = undefined;
-            if(var4) { _fun0009_ip = 63; continue _fun0009 }
- 58:
-            var11 = var2.config;
- 63:
-            var4 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 17;
-            var2 = var10[var2];
-            var12 = var4.bind(var6)(var2);
-            var8 = var12.useStateFromStores;
+            var8 = undefined;
+            if(var4) { _fun0007_ip = 61; continue _fun0007 }
+ 56:
+            var8 = var2.config;
+ 61:
+            var5 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 15;
+            var2 = var9[var2];
+            var11 = var5.bind(var6)(var2);
+            var10 = var11.useStateFromStores;
             var2 = _closure1_slot8;
-            var5 = new Array(1);
-            var5[0] = var2;
+            var4 = new Array(1);
+            var4[0] = var2;
             var2 = function() {
                 var1 = _closure1_slot8;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var5 = var8.bind(var12)(var5, var2);
-            var2 = 6;
-            var2 = var10[var2];
-            var8 = var4.bind(var6)(var2);
-            var2 = var8.usePotentiallyRandomizedConfig;
-            var8 = var2.bind(var8)(var11);
-            var2 = 7;
-            var2 = var10[var2];
-            var10 = var4.bind(var6)(var2);
-            var4 = var10.getProfileEffectNativePreloadExperiment;
-            var2 = 'WrappedProfileEffect';
-            var4 = var4.bind(var10)(var2);
-            var11 = _closure1_slot4;
-            var10 = var11.useState;
-            var2 = false;
-            var11 = var10.bind(var11)(var2);
-            var10 = _closure1_slot3;
-            var2 = 2;
-            var11 = var10.bind(var6)(var11, var2);
-            var2 = 0;
-            var2 = var11[var2];
-            var10 = 1;
-            var10 = var11[var10];
-            var _closure2_slot0 = var10;
-            var10 = var1 == var8;
+            var2 = var10.bind(var11)(var4, var2);
+            var4 = 6;
+            var4 = var9[var4];
+            var5 = var5.bind(var6)(var4);
+            var4 = var5.usePotentiallyRandomizedConfig;
+            var8 = var4.bind(var5)(var8);
+            var4 = var1 == var8;
             var1 = null;
-            if(var10) { _fun0009_ip = 366; continue _fun0009 }
- 221:
-            if(var5) { _fun0009_ip = 321; continue _fun0009 }
- 224:
-            var5 = var7.useThumbnail;
-            if(var5) { _fun0009_ip = 321; continue _fun0009 }
- 233:
-            if(var4) { _fun0009_ip = 288; continue _fun0009 }
- 236:
-            if(var2) { _fun0009_ip = 288; continue _fun0009 }
- 239:
+            if(var4) { _fun0007_ip = 233; continue _fun0007 }
+ 143:
+            if(var2) { _fun0007_ip = 188; continue _fun0007 }
+ 146:
+            var2 = var7.useThumbnail;
+            if(var2) { _fun0007_ip = 188; continue _fun0007 }
+ 155:
             var5 = _closure1_slot9;
-            var4 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var2 = 18;
-            var2 = var10[var2];
-            var4 = var4.bind(var6)(var2);
+            var4 = _closure1_slot13;
             var2 = {};
             var2['profileEffectConfig'] = var8;
-            var9 = function onReady() {
-                var3 = _closure2_slot0;
-                var1 = undefined;
-                var2 = true;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            var2['onReady'] = var9;
+            var13 = var2;
+            var12 = var7;
+            var9 = copyDataProperties(var13, var12);
             var2 = var5.bind(var6)(var4, var2);
-            _fun0009_ip = 319; continue _fun0009;
- 288:
-            var9 = _closure1_slot9;
-            var5 = _closure1_slot13;
-            var4 = {};
-            var4['profileEffectConfig'] = var8;
-            var14 = var4;
-            var13 = var7;
-            var10 = copyDataProperties(var14, var13);
-            var2 = var9.bind(var6)(var5, var4);
- 319:
-            _fun0009_ip = 363; continue _fun0009;
- 321:
+            _fun0007_ip = 230; continue _fun0007;
+ 188:
             var5 = _closure1_slot9;
             var4 = _closure1_slot14;
             var3 = {};
@@ -713,9 +603,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var7.useThumbnail;
             var3['useThumbnail'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 363:
+ 230:
             var1 = var2;
- 366:
+ 233:
             return var1;
         }
     };

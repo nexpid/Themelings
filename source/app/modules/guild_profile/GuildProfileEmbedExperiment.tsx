@@ -16,7 +16,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = undefined;
     var9 = var5.bind(var1)(var4);
     var8 = var9.createExperiment;
-    var7 = {'kind': 'user', 'id': '2025-07_guild_profile_invite_embed_holdout', 'label': 'Holdout for guild profile invite embeds'};
+    var7 = {'kind': 'user', 'id': '2025-07_guild_profile_invite_embed_holdout_two', 'label': 'Holdout for guild profile invite embeds'};
     var4 = {};
     var10 = false;
     var4['enabled'] = var10;

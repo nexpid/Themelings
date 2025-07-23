@@ -219,33 +219,33 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var3 == var7;
             var5 = undefined;
             var9 = undefined;
-            if(var4) { _fun0003_ip = 172; continue _fun0003 }
- 166:
+            if(var4) { _fun0003_ip = 173; continue _fun0003 }
+ 167:
             var9 = var7.gradient;
- 172:
+ 173:
             var12 = var6;
             var4 = var1;
-            if(!(var3 != var9)) { _fun0003_ip = 441; continue _fun0003 }
- 185:
+            if(!(var3 != var9)) { _fun0003_ip = 442; continue _fun0003 }
+ 186:
             var9 = 'gradient';
             var9 = var9 in var8;
             var12 = var6;
             var4 = var1;
-            if(!var9) { _fun0003_ip = 441; continue _fun0003 }
- 205:
+            if(!var9) { _fun0003_ip = 442; continue _fun0003 }
+ 206:
             var9 = var8.gradient;
             var13 = var3 == var7;
             var8 = undefined;
-            if(var13) { _fun0003_ip = 231; continue _fun0003 }
- 220:
+            if(var13) { _fun0003_ip = 232; continue _fun0003 }
+ 221:
             var13 = var7.gradient;
             var8 = var13.theme;
- 231:
+ 232:
             var8 = var9[var8];
             var12 = var6;
             var4 = var1;
-            if(!(var3 != var8)) { _fun0003_ip = 441; continue _fun0003 }
- 248:
+            if(!(var3 != var8)) { _fun0003_ip = 442; continue _fun0003 }
+ 249:
             var6 = _closure1_slot1;
             var9 = _closure1_slot2;
             var1 = 7;
@@ -254,84 +254,84 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var8.color;
             var1 = _closure1_slot5;
             var1 = var9 in var1;
-            if(var1) { _fun0003_ip = 315; continue _fun0003 }
- 284:
+            if(var1) { _fun0003_ip = 316; continue _fun0003 }
+ 285:
             var9 = var3 == var7;
             var1 = undefined;
-            if(var9) { _fun0003_ip = 313; continue _fun0003 }
- 293:
+            if(var9) { _fun0003_ip = 314; continue _fun0003 }
+ 294:
             var9 = var7.gradient;
             var13 = var9.colors;
             var9 = var8.color;
             var1 = var13[var9];
- 313:
-            _fun0003_ip = 328; continue _fun0003;
- 315:
+ 314:
+            _fun0003_ip = 329; continue _fun0003;
+ 316:
             var13 = _closure1_slot5;
             var9 = var8.color;
             var1 = var13[var9];
- 328:
+ 329:
             var13 = var6.bind(var5)(var1);
             var1 = 'saturation';
             var1 = var1 in var8;
             var14 = var13;
-            if(!var1) { _fun0003_ip = 370; continue _fun0003 }
- 347:
+            if(!var1) { _fun0003_ip = 371; continue _fun0003 }
+ 348:
             var9 = var13.set;
             var6 = var8.saturation;
             var1 = 'hsl.s';
             var14 = var9.bind(var13)(var1, var6);
- 370:
+ 371:
             var1 = 'lightness';
             var1 = var1 in var8;
             var6 = var14;
-            if(!var1) { _fun0003_ip = 407; continue _fun0003 }
- 384:
+            if(!var1) { _fun0003_ip = 408; continue _fun0003 }
+ 385:
             var13 = var14.set;
             var9 = var8.lightness;
             var1 = 'hsl.l';
             var6 = var13.bind(var14)(var1, var9);
- 407:
+ 408:
             var1 = var6.hex;
             var6 = var1.bind(var6)();
             var1 = 'opacity';
             var9 = var1 in var8;
             var1 = 1;
-            if(!var9) { _fun0003_ip = 435; continue _fun0003 }
- 430:
+            if(!var9) { _fun0003_ip = 436; continue _fun0003 }
+ 431:
             var1 = var8.opacity;
- 435:
+ 436:
             var4 = var1;
             var12 = var6;
- 441:
+ 442:
             var6 = var3 == var7;
             var1 = undefined;
-            if(var6) { _fun0003_ip = 456; continue _fun0003 }
- 450:
+            if(var6) { _fun0003_ip = 457; continue _fun0003 }
+ 451:
             var1 = var7.contrast;
- 456:
+ 457:
             var8 = var3 != var1;
             var6 = 1;
             var9 = var6;
-            if(!var8) { _fun0003_ip = 472; continue _fun0003 }
- 469:
+            if(!var8) { _fun0003_ip = 473; continue _fun0003 }
+ 470:
             var9 = var1;
- 472:
+ 473:
             var8 = var3 == var7;
             var1 = undefined;
-            if(var8) { _fun0003_ip = 487; continue _fun0003 }
- 481:
+            if(var8) { _fun0003_ip = 488; continue _fun0003 }
+ 482:
             var1 = var7.saturation;
- 487:
+ 488:
             var3 = var3 != var1;
             var7 = var6;
-            if(!var3) { _fun0003_ip = 500; continue _fun0003 }
- 497:
+            if(!var3) { _fun0003_ip = 501; continue _fun0003 }
+ 498:
             var7 = var1;
- 500:
+ 501:
             var8 = var12;
-            if(!(var7 < var6)) { _fun0003_ip = 540; continue _fun0003 }
- 507:
+            if(!(var7 < var6)) { _fun0003_ip = 541; continue _fun0003 }
+ 508:
             var3 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 8;
@@ -339,10 +339,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var5)(var1);
             var1 = var3.transformColorForReducedSaturation;
             var8 = var1.bind(var3)(var12, var10, var7);
- 540:
+ 541:
             var3 = var8;
-            if(!(var6 !== var9)) { _fun0003_ip = 592; continue _fun0003 }
- 547:
+            if(!(var6 !== var9)) { _fun0003_ip = 593; continue _fun0003 }
+ 548:
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
             var1 = 8;
@@ -355,10 +355,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = var11;
             var15 = var9;
             var3 = var19[var1](var18, var17, var16, var15, var14);
- 592:
+ 593:
             var1 = var3;
-            if(!(var6 !== var4)) { _fun0003_ip = 644; continue _fun0003 }
- 599:
+            if(!(var6 !== var4)) { _fun0003_ip = 645; continue _fun0003 }
+ 600:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 7;
@@ -369,7 +369,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var2.bind(var3)(var4);
             var2 = var3.hex;
             var1 = var2.bind(var3)();
- 644:
+ 645:
             return var1;
         }
     };

@@ -22,14 +22,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/color_picker/native/showCustomColorPickerActionSheet.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function showCustomColorPickerActionSheet(arg1) {
+    var2 = function showCustomColorPickerActionSheet(arg1, arg2) {
         var5 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 0;
         var4 = var2[var1];
         var1 = undefined;
-        var6 = var5.bind(var1)(var4);
-        var5 = var6.openLazy;
+        var7 = var5.bind(var1)(var4);
+        var6 = var7.openLazy;
         var4 = _closure1_slot0;
         var3 = 2;
         var3 = var2[var3];
@@ -37,12 +37,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var3 = 1;
         var3 = var2[var3];
         var2 = var2.paths;
-        var4 = var4.bind(var1)(var3, var2);
-        var3 = 'CustomColorPicker';
-        var2 = arg1;
-        var2 = var5.bind(var6)(var4, var3, var2);
+        var11 = var4.bind(var1)(var3, var2);
+        var10 = 'CustomColorPicker';
+        var9 = arg1;
+        var8 = arg2;
+        var12 = var7;
+        var2 = var12[var6](var11, var10, var9, var8, var7);
         return var1;
     };
     var3['default'] = var2;
+    var2 = 'CustomColorPicker';
+    var3['CUSTOM_COLOR_PICKER_KEY'] = var2;
     return var1;
 })();

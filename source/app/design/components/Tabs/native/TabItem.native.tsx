@@ -381,10 +381,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16[0] = var17;
             var17 = {};
             var18 = 0;
-            if(!var19) { _fun0002_ip = 250; continue _fun0002 }
- 247:
+            if(!var19) { _fun0002_ip = 248; continue _fun0002 }
+ 245:
             var18 = 1;
- 250:
+ 248:
             var17['flexGrow'] = var18;
             var16[1] = var17;
             var1['style'] = var16;
@@ -430,8 +430,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[0] = var8;
             var8 = var5 != var13;
             var5 = null;
-            if(!var8) { _fun0002_ip = 421; continue _fun0002 }
- 387:
+            if(!var8) { _fun0002_ip = 417; continue _fun0002 }
+ 383:
             var9 = _closure1_slot4;
             var8 = _closure1_slot15;
             var7 = {};
@@ -440,7 +440,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['activeIndex'] = var11;
             var7['pressed'] = var10;
             var5 = var9.bind(var4)(var8, var7);
- 421:
+ 417:
             var6[1] = var5;
             var5 = 'children';
             var1[var5] = var6;

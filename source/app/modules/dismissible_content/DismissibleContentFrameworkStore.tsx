@@ -323,7 +323,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var5[var2];
                 var2 = undefined;
                 var5 = var7.bind(var2)(var5);
-                var2 = var5.isSingleUseGuildDismissibleContent;
+                var2 = var5.isGuildDismissibleConent;
                 var1 = var2.bind(var5)(var4);
  122:
                 if(!var1) { _fun0005_ip = 150; continue _fun0005 }
@@ -507,7 +507,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = 7;
             var3 = var5[var3];
             var4 = var4.bind(var1)(var3);
-            var3 = var4.isSingleUseGuildDismissibleContent;
+            var3 = var4.isGuildDismissibleConent;
             var4 = var3.bind(var4)(var7);
             if(!var4) { _fun0006_ip = 176; continue _fun0006 }
  170:

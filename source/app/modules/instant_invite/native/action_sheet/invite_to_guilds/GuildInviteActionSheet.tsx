@@ -100,8 +100,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = {};
             var8 = function renderItem(arg1) {
                 var1 = arg1;
-                var6 = var1.item;
-                var5 = var1.style;
+                var7 = var1.item;
+                var6 = var1.start;
+                var5 = var1.end;
                 var4 = _closure1_slot6;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -110,12 +111,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
                 var1 = {};
-                var1['row'] = var6;
-                var7 = _closure2_slot0;
-                var1['recipientId'] = var7;
-                var6 = _closure2_slot1;
-                var1['source'] = var6;
-                var1['style'] = var5;
+                var1['row'] = var7;
+                var8 = _closure2_slot0;
+                var1['recipientId'] = var8;
+                var7 = _closure2_slot1;
+                var1['source'] = var7;
+                var1['start'] = var6;
+                var1['end'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };

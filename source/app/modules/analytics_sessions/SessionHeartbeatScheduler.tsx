@@ -46,7 +46,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure1_slot16 = var3;
             var2 = true;
  110:
-            if(!var2) { _fun0001_ip = 192; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 193; continue _fun0001 }
  113:
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -67,7 +67,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.bind(var3)(var1);
             var1 = var2.drainClickstream;
             var1 = var1.bind(var2)();
- 192:
+ 193:
             var1 = undefined;
             return var1;
         }
@@ -94,7 +94,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 518; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 519; continue _fun0002 }
  10:
                     var5 = global;
                     var3 = var5.Date;
@@ -108,7 +108,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var2;
  44:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(var6) { _fun0002_ip = 515; continue _fun0002 }
+                    if(var6) { _fun0002_ip = 516; continue _fun0002 }
  53:
                     var7 = var5.Date;
                     var6 = var7.now;
@@ -131,7 +131,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var12.bind(var11)(var13, var6);
                     var6 = var10.bind(var3)(var6);
                     var6 = var8.bind(var9)(var6);
-                    _fun0002_ip = 512; continue _fun0002;
+                    _fun0002_ip = 513; continue _fun0002;
  152:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -167,10 +167,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var6.bind(var8)();
                     var7 = var7 != var6;
                     var8 = 0;
-                    if(!var7) { _fun0002_ip = 300; continue _fun0002 }
- 297:
+                    if(!var7) { _fun0002_ip = 301; continue _fun0002 }
+ 298:
                     var8 = var6;
- 300:
+ 301:
                     var6 = {};
                     var9 = _closure1_slot6;
                     var7 = var9.isIdle;
@@ -215,11 +215,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = var5.bind(var3)(var4);
                     var4 = var5.drainClickstream;
                     var4 = var4.bind(var5)();
- 512:
+ 513:
                     return var3;
- 515:
+ 516:
                     return var2;
- 518:
+ 519:
                     return var1;
                 }
             };

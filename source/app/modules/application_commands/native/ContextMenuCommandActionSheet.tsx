@@ -211,21 +211,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                 var1 = arg1;
-                var5 = var1.item;
-                var _closure3_slot0 = var5;
-                var2 = var5.type;
+                var7 = var1.item;
+                var _closure3_slot0 = var7;
+                var6 = var1.start;
+                var5 = var1.end;
+                var2 = var7.type;
                 var1 = 'placeholder';
-                if(!(var1 !== var2)) { _fun0004_ip = 181; continue _fun0004 }
- 30:
-                var1 = 'no_commands';
-                if(!(var1 !== var2)) { _fun0004_ip = 136; continue _fun0004 }
+                if(!(var1 !== var2)) { _fun0004_ip = 207; continue _fun0004 }
  40:
+                var1 = 'no_commands';
+                if(!(var1 !== var2)) { _fun0004_ip = 154; continue _fun0004 }
+ 50:
                 var1 = 'command';
-                if(!(var1 !== var2)) { _fun0004_ip = 52; continue _fun0004 }
- 48:
+                if(!(var1 !== var2)) { _fun0004_ip = 62; continue _fun0004 }
+ 58:
                 var1 = undefined;
                 return var1;
- 52:
+ 62:
                 var4 = _closure1_slot7;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot3;
@@ -234,9 +236,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
                 var1 = {};
-                var7 = var5.command;
-                var1['item'] = var7;
-                var6 = function onPress() {
+                var9 = var7.command;
+                var1['item'] = var9;
+                var8 = function onPress() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                         var3 = _closure2_slot2;
@@ -254,15 +256,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     }
                 };
-                var1['onPress'] = var6;
-                var6 = _closure2_slot7;
-                var5 = var5.command;
-                var5 = var5.applicationId;
-                var5 = var6[var5];
-                var1['section'] = var5;
+                var1['onPress'] = var8;
+                var8 = _closure2_slot7;
+                var7 = var7.command;
+                var7 = var7.applicationId;
+                var7 = var8[var7];
+                var1['section'] = var7;
+                var1['start'] = var6;
+                var1['end'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
- 136:
+ 154:
                 var4 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot3;
@@ -272,9 +276,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var2.bind(var3)(var1);
                 var2 = var1.ContextMenuCommandEmptyItem;
                 var1 = {};
+                var1['start'] = var6;
+                var1['end'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
- 181:
+ 207:
                 var4 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot3;
@@ -284,6 +290,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var2.bind(var3)(var1);
                 var2 = var1.ContextMenuCommandLoadingItem;
                 var1 = {};
+                var1['start'] = var6;
+                var1['end'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             }

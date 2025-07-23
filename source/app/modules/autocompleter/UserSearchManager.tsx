@@ -552,7 +552,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot16 = var2;
     var2 = function() {
         var4 = _closure1_slot8;
-        var3 = function SearchContext(arg1, arg2) {
+        var3 = function UserSearchContext(arg1, arg2) {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
                 var2 = arguments[2];
@@ -1884,7 +1884,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5['value'] = var7;
         var1[3] = var5;
         var5 = {};
-        var7 = 'getSearchContext';
+        var7 = 'getUserSearchContext';
         var5['key'] = var7;
         var6 = function value(arg1) {
             _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
@@ -1942,6 +1942,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5 = 'modules/autocompleter/UserSearchManager.tsx';
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
-    var3['SearchContext'] = var2;
+    var3['UserSearchContext'] = var2;
     return var1;
 })();

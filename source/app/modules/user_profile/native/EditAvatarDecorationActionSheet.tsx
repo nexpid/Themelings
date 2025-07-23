@@ -793,8 +793,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var1 = arg1;
-            var22 = var1.pendingAvatarSrc;
-            var25 = var1.user;
+            var20 = var1.pendingAvatarSrc;
+            var22 = var1.user;
             var2 = var1.selectedAvatarDecoration;
             var _closure2_slot0 = var2;
             var3 = var1.setSelectedAvatarDecoration;
@@ -808,8 +808,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = false;
  60:
             var _closure2_slot3 = var3;
-            var24 = var1.guildId;
-            var _closure2_slot4 = var24;
+            var21 = var1.guildId;
+            var _closure2_slot4 = var21;
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 41;
@@ -829,7 +829,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1.locale;
                 return var1;
             };
-            var33 = var11.bind(var12)(var10, var9);
+            var32 = var11.bind(var12)(var10, var9);
             var1 = var7[var1];
             var10 = var3.bind(var4)(var1);
             var9 = var10.useStateFromStores;
@@ -854,16 +854,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.skuId;
  210:
             var1 = var5.bind(var4)(var1);
-            var20 = var1.product;
-            var30 = var1.purchase;
-            var5 = var23 == var30;
+            var19 = var1.product;
+            var29 = var1.purchase;
+            var5 = var23 == var29;
             var1 = undefined;
             if(var5) { _fun0010_ip = 242; continue _fun0010 }
  236:
-            var1 = var30.expiresAt;
+            var1 = var29.expiresAt;
  242:
             var1 = var23 != var1;
-            var31 = null;
+            var30 = null;
             if(!var1) { _fun0010_ip = 317; continue _fun0010 }
  251:
             var5 = _closure1_slot0;
@@ -879,8 +879,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var38 = var5;
             var1 = new var38[var1](var37);
             var5 = var1 instanceof Object ? var1 : var5;
-            var1 = var30.expiresAt;
-            var31 = var7.bind(var9)(var5, var1);
+            var1 = var29.expiresAt;
+            var30 = var7.bind(var9)(var5, var1);
  317:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -900,10 +900,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var7[var1];
             var5 = var5.bind(var4)(var1);
             var1 = var5.isPremiumCollectiblesProduct;
-            var11 = var1.bind(var5)(var20);
-            var12 = var23 != var30;
-            var21 = var2;
-            if(!(var23 != var24)) { _fun0010_ip = 445; continue _fun0010 }
+            var11 = var1.bind(var5)(var19);
+            var12 = var23 != var29;
+            var18 = var2;
+            if(!(var23 != var21)) { _fun0010_ip = 445; continue _fun0010 }
  417:
             var1 = var2;
             if(!(var23 == var2)) { _fun0010_ip = 442; continue _fun0010 }
@@ -916,7 +916,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  439:
             var1 = var2;
  442:
-            var21 = var1;
+            var18 = var1;
  445:
             var1 = _closure1_slot18;
             var17 = var1.bind(var4)();
@@ -929,182 +929,193 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var17.avatarDisplayContainer;
             var5['style'] = var7;
             var13 = _closure1_slot15;
-            var19 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var10 = _closure1_slot1;
+            var24 = _closure1_slot2;
             var7 = 43;
-            var7 = var9[var7];
-            var18 = var19.bind(var4)(var7);
+            var7 = var24[var7];
+            var9 = var10.bind(var4)(var7);
             var7 = {};
-            var7['user'] = var25;
-            var7['guildId'] = var24;
-            var7['pendingAvatarSrc'] = var22;
-            var7['pendingAvatarDecoration'] = var21;
-            var10 = _closure1_slot0;
-            var26 = 44;
-            var26 = var9[var26];
-            var26 = var10.bind(var4)(var26);
-            var26 = var26.AvatarSizes;
-            var26 = var26.EDIT_AVATAR_DECORATION;
-            var7['size'] = var26;
-            var18 = var13.bind(var4)(var18, var7);
+            var7['user'] = var22;
+            var7['guildId'] = var21;
+            var7['pendingAvatarSrc'] = var20;
+            var7['pendingAvatarDecoration'] = var18;
+            var26 = _closure1_slot0;
+            var25 = 44;
+            var25 = var24[var25];
+            var25 = var26.bind(var4)(var25);
+            var25 = var25.AvatarSizes;
+            var25 = var25.EDIT_AVATAR_DECORATION;
+            var7['size'] = var25;
+            var9 = var13.bind(var4)(var9, var7);
             var7 = new Array(2);
-            var7[0] = var18;
-            var18 = 45;
-            var18 = var9[var18];
-            var19 = var19.bind(var4)(var18);
-            var18 = {};
-            var18['user'] = var25;
-            var18['guildId'] = var24;
-            var18['pendingAvatarSrc'] = var22;
-            var18['pendingAvatarDecoration'] = var21;
-            var18 = var13.bind(var4)(var19, var18);
-            var7[1] = var18;
+            var7[0] = var9;
+            var9 = 45;
+            var9 = var24[var9];
+            var10 = var10.bind(var4)(var9);
+            var9 = {};
+            var9['user'] = var22;
+            var9['guildId'] = var21;
+            var9['pendingAvatarSrc'] = var20;
+            var9['pendingAvatarDecoration'] = var18;
+            var9 = var13.bind(var4)(var10, var9);
+            var7[1] = var9;
             var5['children'] = var7;
             var7 = var3.bind(var4)(var2, var5);
             var5 = new Array(3);
             var5[0] = var7;
             var7 = {};
-            var18 = var17.descriptionContainer;
-            var7['style'] = var18;
-            var18 = 38;
-            var9 = var9[var18];
-            var9 = var10.bind(var4)(var9);
-            var10 = var9.Text;
+            var9 = var17.descriptionContainer;
+            var7['style'] = var9;
+            var10 = var23 == var19;
+            var9 = undefined;
+            if(var10) { _fun0010_ip = 660; continue _fun0010 }
+ 655:
+            var9 = var19.name;
+ 660:
+            var10 = var23 != var9;
+            if(!var10) { _fun0010_ip = 734; continue _fun0010 }
+ 667:
+            var18 = _closure1_slot15;
+            var13 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var9 = 38;
+            var9 = var20[var9];
+            var9 = var13.bind(var4)(var9);
+            var13 = var9.Text;
             var9 = {'variant': 'heading-md/bold', 'color': 'text-normal'};
-            var19 = var17.description;
-            var9['style'] = var19;
-            var21 = var23 == var20;
-            var19 = undefined;
-            if(var21) { _fun0010_ip = 700; continue _fun0010 }
- 695:
-            var19 = var20.name;
- 700:
+            var20 = var17.description;
+            var9['style'] = var20;
+            var19 = var19.name;
             var9['children'] = var19;
-            var10 = var13.bind(var4)(var10, var9);
+            var10 = var18.bind(var4)(var13, var9);
+ 734:
             var9 = new Array(3);
             var9[0] = var10;
             var10 = var12;
-            if(!var10) { _fun0010_ip = 1210; continue _fun0010 }
- 727:
-            var20 = _closure1_slot16;
-            var19 = _closure1_slot17;
+            if(!var10) { _fun0010_ip = 1240; continue _fun0010 }
+ 751:
+            var19 = _closure1_slot16;
+            var18 = _closure1_slot17;
             var13 = {};
-            var22 = var23 != var31;
-            if(!var22) { _fun0010_ip = 877; continue _fun0010 }
- 747:
-            var25 = _closure1_slot15;
-            var27 = _closure1_slot0;
-            var32 = _closure1_slot2;
-            var21 = var32[var18];
-            var21 = var27.bind(var4)(var21);
-            var24 = var21.Text;
-            var21 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
-            var26 = var17.purchasedAt;
-            var21['style'] = var26;
-            var26 = 22;
-            var28 = var32[var26];
-            var28 = var27.bind(var4)(var28);
-            var29 = var28.intl;
-            var28 = var29.format;
-            var26 = var32[var26];
-            var26 = var27.bind(var4)(var26);
-            var26 = var26.t;
-            var27 = var26.Io7ozs;
-            var26 = {};
-            var32 = var31.days;
-            var31 = var32.toString;
-            var31 = var31.bind(var32)();
-            var26['days'] = var31;
-            var26 = var28.bind(var29)(var27, var26);
-            var21['children'] = var26;
-            var22 = var25.bind(var4)(var24, var21);
- 877:
-            var21 = new Array(3);
-            var21[0] = var22;
+            var21 = var23 != var30;
+            if(!var21) { _fun0010_ip = 904; continue _fun0010 }
+ 771:
+            var24 = _closure1_slot15;
+            var26 = _closure1_slot0;
+            var31 = _closure1_slot2;
+            var20 = 38;
+            var20 = var31[var20];
+            var20 = var26.bind(var4)(var20);
+            var22 = var20.Text;
+            var20 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var25 = var17.purchasedAt;
+            var20['style'] = var25;
+            var25 = 22;
+            var27 = var31[var25];
+            var27 = var26.bind(var4)(var27);
+            var28 = var27.intl;
+            var27 = var28.format;
+            var25 = var31[var25];
+            var25 = var26.bind(var4)(var25);
+            var25 = var25.t;
+            var26 = var25.Io7ozs;
+            var25 = {};
+            var31 = var30.days;
+            var30 = var31.toString;
+            var30 = var30.bind(var31)();
+            var25['days'] = var30;
+            var25 = var27.bind(var28)(var26, var25);
+            var20['children'] = var25;
+            var21 = var24.bind(var4)(var22, var20);
+ 904:
+            var20 = new Array(3);
+            var20[0] = var21;
             var25 = _closure1_slot15;
             var27 = _closure1_slot0;
             var26 = _closure1_slot2;
-            var22 = var26[var18];
-            var22 = var27.bind(var4)(var22);
-            var24 = var22.Text;
-            var22 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var22 = 38;
+            var21 = var26[var22];
+            var21 = var27.bind(var4)(var21);
+            var24 = var21.Text;
+            var21 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
             var28 = var17.purchasedAt;
-            var22['style'] = var28;
-            var31 = 22;
-            var28 = var26[var31];
+            var21['style'] = var28;
+            var30 = 22;
+            var28 = var26[var30];
             var28 = var27.bind(var4)(var28);
-            var29 = var28.intl;
-            var28 = var29.format;
-            var26 = var26[var31];
+            var31 = var28.intl;
+            var28 = var31.format;
+            var26 = var26[var30];
             var26 = var27.bind(var4)(var26);
             var26 = var26.t;
             var27 = var26.gW9R4O;
             var26 = {};
-            var35 = var30.purchasedAt;
+            var35 = var29.purchasedAt;
             var34 = var35.toLocaleDateString;
-            var32 = {'month': 'long', 'year': 'numeric'};
-            var32 = var34.bind(var35)(var33, var32);
-            var26['date'] = var32;
-            var26 = var28.bind(var29)(var27, var26);
-            var22['children'] = var26;
-            var22 = var25.bind(var4)(var24, var22);
-            var21[1] = var22;
-            var22 = var30.expiresAt;
-            var22 = var23 != var22;
-            if(!var22) { _fun0010_ip = 1196; continue _fun0010 }
- 1052:
-            var25 = _closure1_slot15;
-            var27 = _closure1_slot0;
-            var26 = _closure1_slot2;
-            var23 = var26[var18];
-            var23 = var27.bind(var4)(var23);
-            var24 = var23.Text;
-            var23 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
-            var28 = var17.purchasedAt;
-            var23['style'] = var28;
-            var28 = var26[var31];
-            var28 = var27.bind(var4)(var28);
-            var29 = var28.intl;
-            var28 = var29.format;
-            var26 = var26[var31];
-            var26 = var27.bind(var4)(var26);
-            var26 = var26.t;
-            var27 = var26.eZSTa2;
-            var26 = {};
-            var32 = var30.expiresAt;
-            var31 = var32.toLocaleDateString;
-            var30 = {'minute': 'numeric', 'hour': 'numeric', 'day': 'numeric', 'month': 'long', 'year': 'numeric'};
-            var30 = var31.bind(var32)(var33, var30);
-            var26['date'] = var30;
-            var26 = var28.bind(var29)(var27, var26);
-            var23['children'] = var26;
-            var22 = var25.bind(var4)(var24, var23);
- 1196:
-            var21[2] = var22;
-            var13['children'] = var21;
-            var10 = var20.bind(var4)(var19, var13);
- 1210:
+            var33 = {'month': 'long', 'year': 'numeric'};
+            var33 = var34.bind(var35)(var32, var33);
+            var26['date'] = var33;
+            var26 = var28.bind(var31)(var27, var26);
+            var21['children'] = var26;
+            var21 = var25.bind(var4)(var24, var21);
+            var20[1] = var21;
+            var21 = var29.expiresAt;
+            var21 = var23 != var21;
+            if(!var21) { _fun0010_ip = 1226; continue _fun0010 }
+ 1082:
+            var24 = _closure1_slot15;
+            var26 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var22 = var25[var22];
+            var22 = var26.bind(var4)(var22);
+            var23 = var22.Text;
+            var22 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
+            var27 = var17.purchasedAt;
+            var22['style'] = var27;
+            var27 = var25[var30];
+            var27 = var26.bind(var4)(var27);
+            var28 = var27.intl;
+            var27 = var28.format;
+            var25 = var25[var30];
+            var25 = var26.bind(var4)(var25);
+            var25 = var25.t;
+            var26 = var25.eZSTa2;
+            var25 = {};
+            var31 = var29.expiresAt;
+            var30 = var31.toLocaleDateString;
+            var29 = {'minute': 'numeric', 'hour': 'numeric', 'day': 'numeric', 'month': 'long', 'year': 'numeric'};
+            var29 = var30.bind(var31)(var32, var29);
+            var25['date'] = var29;
+            var25 = var27.bind(var28)(var26, var25);
+            var22['children'] = var25;
+            var21 = var24.bind(var4)(var23, var22);
+ 1226:
+            var20[2] = var21;
+            var13['children'] = var20;
+            var10 = var19.bind(var4)(var18, var13);
+ 1240:
             var9[1] = var10;
             var10 = !var12;
-            if(var12) { _fun0010_ip = 1223; continue _fun0010 }
- 1220:
+            if(var12) { _fun0010_ip = 1253; continue _fun0010 }
+ 1250:
             var10 = var11;
- 1223:
-            if(!var10) { _fun0010_ip = 1411; continue _fun0010 }
- 1229:
+ 1253:
+            if(!var10) { _fun0010_ip = 1444; continue _fun0010 }
+ 1259:
             var13 = _closure1_slot15;
             var12 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var11 = var11[var18];
+            var18 = _closure1_slot2;
+            var11 = 38;
+            var11 = var18[var11];
             var11 = var12.bind(var4)(var11);
             var12 = var11.Text;
             var11 = {'variant': 'text-sm/medium', 'color': 'header-primary'};
             var17 = var17.purchasedAt;
             var11['style'] = var17;
-            if(!var16) { _fun0010_ip = 1344; continue _fun0010 }
- 1282:
-            if(var14) { _fun0010_ip = 1344; continue _fun0010 }
- 1285:
+            if(!var16) { _fun0010_ip = 1377; continue _fun0010 }
+ 1315:
+            if(var14) { _fun0010_ip = 1377; continue _fun0010 }
+ 1318:
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
             var14 = 22;
@@ -1117,8 +1128,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var14.t;
             var14 = var14.e1UiOT;
             var14 = var16.bind(var17)(var14);
-            _fun0010_ip = 1401; continue _fun0010;
- 1344:
+            _fun0010_ip = 1434; continue _fun0010;
+ 1377:
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
             var15 = 22;
@@ -1131,10 +1142,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var15.t;
             var15 = var15.FyBDiY;
             var14 = var16.bind(var17)(var15);
- 1401:
+ 1434:
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 1411:
+ 1444:
             var9[2] = var10;
             var7['children'] = var9;
             var7 = var3.bind(var4)(var2, var7);
@@ -1356,7 +1367,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var22 = var3.bind(var4)(var22, var13);
             var13 = new Array(2);
             var13[0] = var22;
-            if(var15) { _fun0012_ip = 746; continue _fun0012 }
+            if(var15) { _fun0012_ip = 752; continue _fun0012 }
  533:
             var23 = _closure1_slot16;
             var22 = _closure1_slot6;
@@ -1370,9 +1381,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var24 = var34[var24];
             var24 = var33.bind(var4)(var24);
             var25 = var24.Text;
-            var24 = {};
-            var28 = 'redesign/heading-18/bold';
-            var24['variant'] = var28;
+            var24 = {'variant': 'redesign/heading-18/bold', 'style': null, 'accessibilityRole': 'header'};
             var28 = var27.title;
             var24['style'] = var28;
             var28 = 22;
@@ -1406,8 +1415,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var24[1] = var25;
             var15['children'] = var24;
             var15 = var23.bind(var4)(var22, var15);
-            _fun0012_ip = 803; continue _fun0012;
- 746:
+            _fun0012_ip = 809; continue _fun0012;
+ 752:
             var24 = _closure1_slot15;
             var23 = _closure1_slot6;
             var22 = {};
@@ -1420,7 +1429,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var25 = var24.bind(var4)(var26, var25);
             var22['children'] = var25;
             var15 = var24.bind(var4)(var23, var22);
- 803:
+ 809:
             var13[1] = var15;
             var10['children'] = var13;
             var12 = var9.bind(var4)(var12, var10);

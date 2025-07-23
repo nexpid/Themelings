@@ -20,8 +20,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = native4;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
-    var10 = 1;
-    var4 = var6[var10];
+    var12 = 1;
+    var4 = var6[var12];
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
     var _closure1_slot3 = var4;
@@ -38,58 +38,37 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var12 = 'row';
-    var9['flexDirection'] = var12;
+    var10 = 'row';
+    var9['flexDirection'] = var10;
+    var10 = 4;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var9['marginHorizontal'] = var13;
     var4['header'] = var9;
-    var9 = {'width': 24, 'height': 24};
+    var9 = {};
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_24;
+    var9['width'] = var13;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_24;
+    var9['height'] = var13;
     var4['headerSpacer'] = var9;
     var9 = {};
-    var9['flex'] = var10;
+    var9['flex'] = var12;
     var4['list'] = var9;
     var9 = {};
-    var10 = 4;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
-    var9['backgroundColor'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.lg;
-    var9['borderRadius'] = var12;
-    var4['contentContainer'] = var9;
-    var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.colors;
-    var12 = var12.BG_SURFACE_RAISED;
-    var9['backgroundColor'] = var12;
-    var4['row'] = var9;
-    var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.lg;
-    var9['borderTopLeftRadius'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.lg;
-    var9['borderTopRightRadius'] = var12;
-    var4['firstRow'] = var9;
-    var9 = {};
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.radii;
-    var12 = var12.lg;
-    var9['borderBottomLeftRadius'] = var12;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.radii;
-    var10 = var10.lg;
-    var9['borderBottomRightRadius'] = var10;
-    var4['lastRow'] = var9;
+    var10 = var10.spacing;
+    var10 = var10.PX_16;
+    var9['marginHorizontal'] = var10;
+    var4['contentContainer'] = var9;
     var9 = {};
     var10 = 64;
     var9['marginLeft'] = var10;
@@ -128,7 +107,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = 9;
             var1 = var7[var1];
             var1 = var2.bind(var4)(var1);
-            var2 = var1.ActionSheet;
+            var2 = var1.BottomSheet;
             var1 = {};
             var25 = var1;
             var5 = copyDataProperties(var25, var24);
@@ -221,8 +200,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var3 = arg1;
-            var9 = var3.data;
-            var _closure2_slot0 = var9;
+            var12 = var3.data;
+            var _closure2_slot0 = var12;
             var6 = var3.contentContainerStyle;
             var1 = var3.renderItem;
             var _closure2_slot1 = var1;
@@ -234,17 +213,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = var3;
             var15 = var2;
             var16 = copyDataProperties(var17, var16, var15);
-            var2 = _closure1_slot6;
+            var1 = _closure1_slot6;
             var4 = undefined;
-            var7 = var2.bind(var4)();
+            var7 = var1.bind(var4)();
             var _closure2_slot2 = var7;
-            var3 = _closure1_slot1;
+            var2 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var2 = 5;
-            var2 = var14[var2];
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.bind(var4)();
-            var10 = var2.bottom;
+            var1 = 5;
+            var1 = var14[var1];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.bind(var4)();
+            var9 = var1.bottom;
             var3 = _closure1_slot4;
             var13 = _closure1_slot0;
             var1 = 6;
@@ -255,31 +234,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var1;
             var8 = copyDataProperties(var17, var16);
             var8 = 'data';
-            var1[var8] = var9;
-            var8 = var7.list;
-            var9 = new Array(2);
-            var9[0] = var8;
-            var8 = {};
-            var12 = 7;
-            var12 = var14[var12];
-            var13 = var13.bind(var4)(var12);
-            var12 = var13.isAndroid;
-            var12 = var12.bind(var13)();
-            var11 = 0;
-            if(!var12) { _fun0002_ip = 200; continue _fun0002 }
- 197:
-            var11 = 16;
- 200:
-            var10 = var10 + var11;
-            var8['marginBottom'] = var10;
-            var9[1] = var8;
+            var1[var8] = var12;
+            var12 = var7.list;
             var8 = 'style';
-            var1[var8] = var9;
-            var9 = function ItemSeparatorComponent() {
+            var1[var8] = var12;
+            var12 = function ItemSeparatorComponent() {
                 var4 = _closure1_slot4;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 8;
+                var1 = 7;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -292,48 +255,53 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var8 = 'ItemSeparatorComponent';
-            var1[var8] = var9;
+            var1[var8] = var12;
             var8 = var7.contentContainer;
-            var7 = new Array(2);
+            var7 = new Array(3);
             var7[0] = var8;
-            var7[1] = var6;
+            var8 = {};
+            var12 = 8;
+            var12 = var14[var12];
+            var13 = var13.bind(var4)(var12);
+            var12 = var13.isAndroid;
+            var12 = var12.bind(var13)();
+            var10 = 0;
+            if(!var12) { _fun0002_ip = 256; continue _fun0002 }
+ 226:
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var11 = 4;
+            var11 = var13[var11];
+            var11 = var12.bind(var4)(var11);
+            var11 = var11.spacing;
+            var10 = var11.PX_16;
+ 256:
+            var9 = var9 + var10;
+            var8['paddingBottom'] = var9;
+            var7[1] = var8;
+            var7[2] = var6;
             var6 = 'contentContainerStyle';
             var1[var6] = var7;
             var6 = function renderItem(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
-                    var2 = arg1;
-                    var1 = var2.item;
-                    var6 = var2.index;
-                    var3 = _closure2_slot1;
-                    var2 = {};
-                    var2['item'] = var1;
-                    var2['index'] = var6;
-                    var1 = 0;
-                    var4 = var1 === var6;
-                    if(!var4) { _fun0003_ip = 49; continue _fun0003 }
- 39:
-                    var1 = _closure2_slot2;
-                    var4 = var1.firstRow;
- 49:
-                    var1 = new Array(2);
-                    var1[0] = var4;
-                    var4 = _closure2_slot0;
-                    var7 = var4.length;
-                    var4 = 1;
-                    var4 = var7 - var4;
-                    var4 = var6 === var4;
-                    if(!var4) { _fun0003_ip = 90; continue _fun0003 }
- 80:
-                    var5 = _closure2_slot2;
-                    var4 = var5.lastRow;
- 90:
-                    var1[1] = var4;
-                    var2['style'] = var1;
-                    var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
-                    return var1;
-                }
+                var1 = arg1;
+                var5 = var1.item;
+                var4 = var1.index;
+                var3 = _closure2_slot1;
+                var2 = {};
+                var2['item'] = var5;
+                var2['index'] = var4;
+                var5 = 0;
+                var5 = var5 === var4;
+                var2['start'] = var5;
+                var1 = _closure2_slot0;
+                var5 = var1.length;
+                var1 = 1;
+                var1 = var5 - var1;
+                var1 = var4 === var1;
+                var2['end'] = var1;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
             };
             var5 = 'renderItem';
             var1[var5] = var6;
@@ -373,43 +341,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = 'contentContainerStyle';
         var1[var6] = var7;
         var7 = function renderItem(arg1) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-                var2 = arg1;
-                var1 = var2.item;
-                var4 = var2.section;
-                var6 = var2.index;
-                var3 = _closure2_slot0;
-                var2 = {};
-                var2['item'] = var1;
-                var1 = _closure2_slot1;
-                var7 = var1.row;
-                var1 = new Array(3);
-                var1[0] = var7;
-                var7 = 0;
-                var7 = var7 === var6;
-                if(!var7) { _fun0004_ip = 68; continue _fun0004 }
- 58:
-                var8 = _closure2_slot1;
-                var7 = var8.firstRow;
- 68:
-                var1[1] = var7;
-                var4 = var4.data;
-                var7 = var4.length;
-                var4 = 1;
-                var4 = var7 - var4;
-                var4 = var6 === var4;
-                if(!var4) { _fun0004_ip = 106; continue _fun0004 }
- 96:
-                var5 = _closure2_slot1;
-                var4 = var5.lastRow;
- 106:
-                var1[2] = var4;
-                var2['style'] = var1;
-                var1 = undefined;
-                var1 = var3.bind(var1)(var2);
-                return var1;
-            }
+            var2 = arg1;
+            var5 = var2.item;
+            var1 = var2.section;
+            var4 = var2.index;
+            var3 = _closure2_slot0;
+            var2 = {};
+            var2['item'] = var5;
+            var5 = 0;
+            var5 = var5 === var4;
+            var2['start'] = var5;
+            var1 = var1.data;
+            var5 = var1.length;
+            var1 = 1;
+            var1 = var5 - var1;
+            var1 = var4 === var1;
+            var2['end'] = var1;
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
         };
         var6 = 'renderItem';
         var1[var6] = var7;
@@ -417,7 +367,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = _closure1_slot4;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);

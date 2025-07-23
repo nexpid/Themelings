@@ -1,4 +1,4 @@
-// discord_assets/assets/orbs/reward_tile_v2.webm.js
+// discord_assets/assets/premium/wumpus-avatar.png.js
 module.exports = (function(native1, native2, native3, native4, native5, native6, native7) {
     var3 = native6;
     var1 = global;
@@ -16,13 +16,9 @@ module.exports = (function(native1, native2, native3, native4, native5, native6,
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/orbs/reward_tile_v2.webm.js';
+    var2 = '../discord_assets/assets/premium/wumpus-avatar.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/eff35518172b971fa47c521ca21c7576d3a245433a669a6765f63b744b7b733a.webm';
+    var2 = 'https://cdn.discordapp.com/assets/content/2532e8cd0600ccfbc61ff81c21959bde90a6645d0e71644a92f6cde5bfc48439.png';
     var3['default'] = var2;
-    var2 = {};
-    var4 = 130591;
-    var2['fileBytes'] = var4;
-    var3['metadata'] = var2;
     return var1;
 })();

@@ -13,6 +13,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure2_slot1 = var2;
         var2 = arg3;
         var _closure2_slot2 = var2;
+        var2 = arg4;
+        var _closure2_slot3 = var2;
         var3 = _closure1_slot2;
         var2 = var3.useEffect;
         var1 = function() {
@@ -22,7 +24,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure3_slot0 = var3;
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
-            var3 = 17;
+            var3 = 18;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var5 = var3.BatchedStoreListener;
@@ -42,7 +44,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var9 == var7;
                     if(var4) { _fun0001_ip = 57; continue _fun0001 }
  39:
-                    var6 = _closure1_slot12;
+                    var6 = _closure1_slot13;
                     var5 = var6.isSoundDisabled;
                     var4 = var5.bind(var6)(var7);
  57:
@@ -50,7 +52,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  60:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot1;
-                    var4 = 18;
+                    var4 = 19;
                     var4 = var6[var4];
                     var6 = var5.bind(var1)(var4);
                     var5 = var6.playSound;
@@ -86,36 +88,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot25 = var1;
     var1 = function MuteDeafen() {
-        var5 = _closure1_slot24;
-        var3 = _closure1_slot11;
+        var5 = _closure1_slot25;
+        var3 = _closure1_slot12;
         var4 = new Array(2);
         var4[0] = var3;
-        var2 = _closure1_slot14;
+        var2 = _closure1_slot15;
         var4[1] = var2;
         var3 = undefined;
         var2 = function() {
             var1 = {};
-            var4 = _closure1_slot14;
+            var4 = _closure1_slot15;
             var3 = var4.getVoiceChannelId;
             var4 = var3.bind(var4)();
             var3 = null;
             var3 = var3 != var4;
             var1['inVoiceChannel'] = var3;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot12;
             var3 = var4.isSelfMute;
             var3 = var3.bind(var4)();
             var1['selfMute'] = var3;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot12;
             var3 = var4.isSelfDeaf;
             var3 = var3.bind(var4)();
             var1['selfDeaf'] = var3;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot12;
             var3 = var4.isNativeAudioPermissionReady;
             var3 = var3.bind(var4)();
             var1['audioPermissionReady'] = var3;
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot12;
             var2 = var3.shouldSkipMuteUnmuteSound;
             var2 = var2.bind(var3)();
             var1['shouldSkipMuteUnmuteSound'] = var2;
@@ -159,7 +161,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  94:
                 _fun0002_ip = 117; continue _fun0002;
  96:
-                var5 = _closure1_slot11;
+                var5 = _closure1_slot12;
                 var4 = var5.notifyMuteUnmuteSoundWasSkipped;
                 var4 = var4.bind(var5)();
                 var3 = undefined;
@@ -180,22 +182,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = null;
         return var1;
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot26 = var1;
     var1 = function Camera() {
-        var5 = _closure1_slot24;
-        var3 = _closure1_slot11;
+        var5 = _closure1_slot25;
+        var3 = _closure1_slot12;
         var4 = new Array(2);
         var4[0] = var3;
-        var2 = _closure1_slot14;
+        var2 = _closure1_slot15;
         var4[1] = var2;
         var3 = undefined;
         var2 = function() {
             var1 = {};
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot12;
             var3 = var4.isVideoEnabled;
             var3 = var3.bind(var4)();
             var1['videoEnabled'] = var3;
-            var3 = _closure1_slot14;
+            var3 = _closure1_slot15;
             var2 = var3.getVoiceChannelId;
             var3 = var2.bind(var3)();
             var2 = null;
@@ -212,7 +214,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2.inVoiceChannel;
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var4 = 19;
+                var4 = 20;
                 var5 = var5[var4];
                 var4 = undefined;
                 var6 = var6.bind(var4)(var5);
@@ -247,15 +249,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = null;
         return var1;
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot27 = var1;
     var1 = function RTCConnect() {
-        var5 = _closure1_slot24;
-        var3 = _closure1_slot9;
+        var5 = _closure1_slot25;
+        var3 = _closure1_slot10;
         var4 = new Array(4);
         var4[0] = var3;
-        var3 = _closure1_slot13;
-        var4[1] = var3;
         var3 = _closure1_slot14;
+        var4[1] = var3;
+        var3 = _closure1_slot15;
         var4[2] = var3;
         var2 = _closure1_slot5;
         var4[3] = var2;
@@ -263,9 +265,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                var4 = _closure1_slot9;
+                var4 = _closure1_slot10;
                 var3 = var4.getChannel;
-                var5 = _closure1_slot14;
+                var5 = _closure1_slot15;
                 var1 = var5.getVoiceChannelId;
                 var1 = var1.bind(var5)();
                 var4 = var3.bind(var4)(var1);
@@ -283,29 +285,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var4.getGuildId;
                 var5 = var1.bind(var4)();
  66:
-                var4 = _closure1_slot13;
+                var4 = _closure1_slot14;
                 var1 = var4.getWasEverRtcConnected;
                 var4 = var1.bind(var4)();
-                var6 = _closure1_slot13;
+                var6 = _closure1_slot14;
                 var1 = var6.getState;
                 var6 = var1.bind(var6)();
                 var1 = {};
                 var1['channelType'] = var7;
                 var1['guildId'] = var5;
-                var5 = _closure1_slot20;
+                var5 = _closure1_slot21;
                 var5 = var5.RTC_CONNECTED;
                 var5 = var6 === var5;
                 var1['connected'] = var5;
                 var4 = !var4;
                 if(!var4) { _fun0004_ip = 144; continue _fun0004 }
  130:
-                var5 = _closure1_slot20;
+                var5 = _closure1_slot21;
                 var5 = var5.DISCONNECTED;
                 var4 = var6 !== var5;
  144:
                 if(var4) { _fun0004_ip = 161; continue _fun0004 }
  147:
-                var5 = _closure1_slot20;
+                var5 = _closure1_slot21;
                 var5 = var5.RTC_CONNECTED;
                 var4 = var6 === var5;
  161:
@@ -348,7 +350,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = null;
                 if(!(var6 != var8)) { _fun0005_ip = 98; continue _fun0005 }
  78:
-                var7 = _closure1_slot6;
+                var7 = _closure1_slot7;
                 var6 = var7.has;
                 var6 = var6.bind(var7)(var8);
                 if(var6) { _fun0005_ip = 104; continue _fun0005 }
@@ -370,7 +372,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = null;
                 if(!(var1 != var3)) { _fun0005_ip = 146; continue _fun0005 }
  126:
-                var2 = _closure1_slot6;
+                var2 = _closure1_slot7;
                 var1 = var2.has;
                 var1 = var1.bind(var2)(var3);
                 if(var1) { _fun0005_ip = 152; continue _fun0005 }
@@ -389,15 +391,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = null;
         return var1;
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot28 = var1;
     var1 = function Speaking() {
-        var5 = _closure1_slot24;
-        var2 = _closure1_slot15;
+        var5 = _closure1_slot25;
+        var2 = _closure1_slot16;
         var4 = new Array(1);
         var4[0] = var2;
         var3 = undefined;
         var2 = function() {
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot16;
             var1 = var2.isCurrentUserSpeaking;
             var1 = var1.bind(var2)();
             return var1;
@@ -409,13 +411,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = arg1;
                 if(!(var1 !== var2)) { _fun0006_ip = 71; continue _fun0006 }
  10:
-                var4 = _closure1_slot11;
+                var4 = _closure1_slot12;
                 var1 = var4.isSelfMute;
                 var1 = var1.bind(var4)();
-                var5 = _closure1_slot11;
+                var5 = _closure1_slot12;
                 var4 = var5.getMode;
                 var4 = var4.bind(var5)();
-                var3 = _closure1_slot18;
+                var3 = _closure1_slot19;
                 var3 = var3.PUSH_TO_TALK;
                 if(!(var4 === var3)) { _fun0006_ip = 71; continue _fun0006 }
  55:
@@ -436,15 +438,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = null;
         return var1;
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot29 = var1;
     var1 = function VoiceFilter() {
-        var5 = _closure1_slot24;
-        var2 = _closure1_slot11;
+        var5 = _closure1_slot25;
+        var2 = _closure1_slot12;
         var4 = new Array(1);
         var4[0] = var2;
         var3 = undefined;
         var2 = function() {
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var1 = var2.getActiveVoiceFilter;
             var1 = var1.bind(var2)();
             return var1;
@@ -479,15 +481,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = null;
         return var1;
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot30 = var1;
     var1 = function SelfMutedTemporarily() {
-        var5 = _closure1_slot24;
-        var2 = _closure1_slot11;
+        var5 = _closure1_slot25;
+        var2 = _closure1_slot12;
         var4 = new Array(1);
         var4[0] = var2;
         var3 = undefined;
         var2 = function() {
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot12;
             var1 = var2.isSelfMutedTemporarily;
             var1 = var1.bind(var2)();
             return var1;
@@ -499,13 +501,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = arg1;
                 if(!(var1 !== var2)) { _fun0008_ip = 71; continue _fun0008 }
  10:
-                var4 = _closure1_slot11;
+                var4 = _closure1_slot12;
                 var1 = var4.isSelfMute;
                 var1 = var1.bind(var4)();
-                var5 = _closure1_slot11;
+                var5 = _closure1_slot12;
                 var4 = var5.getMode;
                 var4 = var4.bind(var5)();
-                var3 = _closure1_slot18;
+                var3 = _closure1_slot19;
                 var3 = var3.VOICE_ACTIVITY;
                 if(!(var4 === var3)) { _fun0008_ip = 71; continue _fun0008 }
  55:
@@ -526,15 +528,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = null;
         return var1;
     };
-    var _closure1_slot30 = var1;
+    var _closure1_slot31 = var1;
     var1 = function PriorityVAD() {
-        var5 = _closure1_slot24;
-        var2 = _closure1_slot15;
+        var5 = _closure1_slot25;
+        var2 = _closure1_slot16;
         var4 = new Array(1);
         var4[0] = var2;
         var3 = undefined;
         var2 = function() {
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot16;
             var1 = var2.isCurrentUserPrioritySpeaker;
             var1 = var1.bind(var2)();
             return var1;
@@ -546,13 +548,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = arg1;
                 if(!(var1 !== var2)) { _fun0009_ip = 71; continue _fun0009 }
  10:
-                var4 = _closure1_slot11;
+                var4 = _closure1_slot12;
                 var1 = var4.isSelfMute;
                 var1 = var1.bind(var4)();
-                var5 = _closure1_slot11;
+                var5 = _closure1_slot12;
                 var4 = var5.getMode;
                 var4 = var4.bind(var5)();
-                var3 = _closure1_slot18;
+                var3 = _closure1_slot19;
                 var3 = var3.VOICE_ACTIVITY;
                 if(!(var4 === var3)) { _fun0009_ip = 71; continue _fun0009 }
  55:
@@ -573,15 +575,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = null;
         return var1;
     };
-    var _closure1_slot31 = var1;
+    var _closure1_slot32 = var1;
     var1 = function UserHasBeenMoved() {
-        var5 = _closure1_slot24;
-        var2 = _closure1_slot16;
+        var5 = _closure1_slot25;
+        var2 = _closure1_slot17;
         var4 = new Array(1);
         var4[0] = var2;
         var3 = undefined;
         var2 = function() {
-            var1 = _closure1_slot16;
+            var1 = _closure1_slot17;
             var1 = var1.userHasBeenMovedVersion;
             return var1;
         };
@@ -603,30 +605,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = null;
         return var1;
     };
-    var _closure1_slot32 = var1;
+    var _closure1_slot33 = var1;
     var1 = function UserInvitedToSpeak() {
-        var5 = _closure1_slot24;
-        var3 = _closure1_slot14;
+        var5 = _closure1_slot25;
+        var3 = _closure1_slot15;
         var4 = new Array(2);
         var4[0] = var3;
-        var2 = _closure1_slot16;
+        var2 = _closure1_slot17;
         var4[1] = var2;
         var3 = undefined;
         var2 = function() {
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-                var3 = _closure1_slot14;
+                var3 = _closure1_slot15;
                 var2 = var3.getVoiceChannelId;
                 var4 = var2.bind(var3)();
                 var2 = null;
                 if(!(var2 != var4)) { _fun0011_ip = 73; continue _fun0011 }
  23:
-                var3 = _closure1_slot16;
+                var3 = _closure1_slot17;
                 var2 = var3.getVoiceStateForChannel;
                 var4 = var2.bind(var3)(var4);
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var2 = 20;
+                var2 = 21;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var5.bind(var2)(var3);
@@ -636,7 +638,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  73:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var1 = 20;
+                var1 = 21;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -654,7 +656,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  10:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var1 = 20;
+                var1 = 21;
                 var3 = var3[var1];
                 var1 = undefined;
                 var1 = var4.bind(var1)(var3);
@@ -673,33 +675,33 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = null;
         return var1;
     };
-    var _closure1_slot33 = var1;
+    var _closure1_slot34 = var1;
     var1 = function VoiceChannel() {
-        var5 = _closure1_slot24;
-        var3 = _closure1_slot14;
+        var5 = _closure1_slot25;
+        var3 = _closure1_slot15;
         var4 = new Array(5);
         var4[0] = var3;
-        var3 = _closure1_slot7;
-        var4[1] = var3;
         var3 = _closure1_slot8;
+        var4[1] = var3;
+        var3 = _closure1_slot9;
         var4[2] = var3;
-        var3 = _closure1_slot16;
+        var3 = _closure1_slot17;
         var4[3] = var3;
-        var2 = _closure1_slot9;
+        var2 = _closure1_slot10;
         var4[4] = var2;
         var3 = undefined;
         var2 = function() {
             _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
-                var3 = _closure1_slot14;
+                var3 = _closure1_slot15;
                 var2 = var3.getVoiceChannelId;
                 var8 = var2.bind(var3)();
-                var3 = _closure1_slot8;
+                var3 = _closure1_slot9;
                 var2 = var3.getId;
                 var3 = var2.bind(var3)();
                 var _closure3_slot0 = var3;
                 var12 = new Array(0);
-                var4 = _closure1_slot7;
+                var4 = _closure1_slot8;
                 var2 = var4.getAllActiveStreams;
                 var2 = var2.bind(var4)();
                 var5 = null;
@@ -710,7 +712,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var12;
                 if(!var4) { _fun0013_ip = 201; continue _fun0013 }
  76:
-                var10 = _closure1_slot9;
+                var10 = _closure1_slot10;
                 var4 = var10.getChannel;
                 var4 = var4.bind(var10)(var8);
                 var10 = var5 != var4;
@@ -720,11 +722,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(!var10) { _fun0013_ip = 201; continue _fun0013 }
  104:
                 var12 = var4.type;
-                var15 = _closure1_slot17;
+                var15 = _closure1_slot18;
                 var13 = var15.countVoiceStatesForChannel;
                 var10 = var4.id;
                 var13 = var13.bind(var15)(var10);
-                var16 = _closure1_slot16;
+                var16 = _closure1_slot17;
                 var15 = var16.isInChannel;
                 var10 = var4.id;
                 var15 = var15.bind(var16)(var10);
@@ -734,7 +736,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var10 = 1;
  157:
                 var7 = var13 - var10;
-                var15 = _closure1_slot7;
+                var15 = _closure1_slot8;
                 var13 = var15.getAllApplicationStreamsForChannel;
                 var4 = var4.id;
                 var15 = var13.bind(var15)(var4);
@@ -751,7 +753,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = 1;
                 if(!(var4 !== var10)) { _fun0013_ip = 229; continue _fun0013 }
  213:
-                var10 = _closure1_slot7;
+                var10 = _closure1_slot8;
                 var4 = var10.getCurrentUserActiveStream;
                 var13 = var4.bind(var10)();
                 _fun0013_ip = 235; continue _fun0013;
@@ -765,7 +767,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  244:
                 var10 = var13.state;
  249:
-                var4 = _closure1_slot19;
+                var4 = _closure1_slot20;
                 var4 = var4.CONNECTING;
                 if(!(var10 === var4)) { _fun0013_ip = 265; continue _fun0013 }
  263:
@@ -778,12 +780,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  276:
                 var12 = _closure1_slot0;
                 var15 = _closure1_slot1;
-                var10 = 21;
+                var10 = 22;
                 var10 = var15[var10];
                 var12 = var12.bind(var14)(var10);
                 var10 = var12.encodeStreamKey;
                 var10 = var10.bind(var12)(var13);
-                var12 = _closure1_slot7;
+                var12 = _closure1_slot8;
                 var11 = var12.getViewerIds;
                 var12 = var11.bind(var12)(var10);
                 var11 = var12.filter;
@@ -832,7 +834,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = null;
                 if(!(var6 != var13)) { _fun0014_ip = 484; continue _fun0014 }
  90:
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot10;
                 var10 = var12.getChannel;
                 var13 = var10.bind(var12)(var13);
                 var12 = var6 == var13;
@@ -845,7 +847,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var10 = false;
                 if(var12) { _fun0014_ip = 174; continue _fun0014 }
  135:
-                var14 = _closure1_slot10;
+                var14 = _closure1_slot11;
                 var12 = var14.getGuild;
                 var14 = var12.bind(var14)(var15);
                 var12 = var6 != var14;
@@ -861,7 +863,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  180:
                 if(!(var6 != var11)) { _fun0014_ip = 204; continue _fun0014 }
  184:
-                var10 = _closure1_slot6;
+                var10 = _closure1_slot7;
                 var3 = var10.has;
                 var3 = var3.bind(var10)(var11);
                 if(var3) { _fun0014_ip = 484; continue _fun0014 }
@@ -995,24 +997,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = null;
         return var1;
     };
-    var _closure1_slot34 = var1;
+    var _closure1_slot35 = var1;
     var1 = function ActivitySounds() {
-        var5 = _closure1_slot24;
-        var3 = _closure1_slot14;
+        var5 = _closure1_slot25;
+        var3 = _closure1_slot15;
         var4 = new Array(3);
         var4[0] = var3;
         var3 = _closure1_slot3;
         var4[1] = var3;
-        var2 = _closure1_slot8;
+        var2 = _closure1_slot9;
         var4[2] = var2;
         var3 = undefined;
         var2 = function() {
             _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
-                var2 = _closure1_slot14;
+                var2 = _closure1_slot15;
                 var1 = var2.getVoiceChannelId;
                 var9 = var1.bind(var2)();
-                var2 = _closure1_slot14;
+                var2 = _closure1_slot15;
                 var1 = var2.getChannelId;
                 var11 = var1.bind(var2)();
                 var2 = _closure1_slot3;
@@ -1020,16 +1022,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var1.bind(var2)();
                 var2 = _closure1_slot0;
                 var1 = _closure1_slot1;
-                var3 = 22;
+                var3 = 23;
                 var3 = var1[var3];
                 var7 = undefined;
                 var5 = var2.bind(var7)(var3);
                 var3 = var5.getEmbeddedActivityLocationChannelId;
                 var10 = var3.bind(var5)(var6);
-                var5 = _closure1_slot8;
+                var5 = _closure1_slot9;
                 var3 = var5.getId;
                 var5 = var3.bind(var5)();
-                var8 = 23;
+                var8 = 24;
                 var1 = var1[var8];
                 var2 = var2.bind(var7)(var1);
                 var1 = var2.isNotNullish;
@@ -1140,7 +1142,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var5.bind(var6)(var1);
                 var12 = _closure1_slot0;
                 var1 = _closure1_slot1;
-                var11 = 23;
+                var11 = 24;
                 var1 = var1[var11];
                 var10 = undefined;
                 var12 = var12.bind(var10)(var1);
@@ -1403,7 +1405,100 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = null;
         return var1;
     };
-    var _closure1_slot35 = var1;
+    var _closure1_slot36 = var1;
+    var1 = function HangStatusSounds() {
+        var6 = _closure1_slot25;
+        var3 = _closure1_slot6;
+        var5 = new Array(2);
+        var5[0] = var3;
+        var2 = _closure1_slot15;
+        var5[1] = var2;
+        var11 = undefined;
+        var9 = function() {
+            var1 = {};
+            var4 = _closure1_slot6;
+            var3 = var4.getCurrentHangStatus;
+            var3 = var3.bind(var4)();
+            var1['hangStatus'] = var3;
+            var4 = _closure1_slot6;
+            var3 = var4.getCustomHangStatus;
+            var3 = var3.bind(var4)();
+            var1['customHangStatus'] = var3;
+            var3 = _closure1_slot15;
+            var2 = var3.getVoiceChannelId;
+            var3 = var2.bind(var3)();
+            var2 = null;
+            var2 = var2 != var3;
+            var1['inVoice'] = var2;
+            return var1;
+        };
+        var8 = function(arg1, arg2) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+ 0:
+                var8 = arg1;
+                var1 = arg2;
+                var3 = var1.hangStatus;
+                var5 = var1.customHangStatus;
+                var1 = var8.inVoice;
+                if(var1) { _fun0019_ip = 31; continue _fun0019 }
+ 27:
+                var1 = undefined;
+                return var1;
+ 31:
+                var9 = null;
+                if(!(var9 != var3)) { _fun0019_ip = 53; continue _fun0019 }
+ 37:
+                var2 = var8.hangStatus;
+                var1 = 'hang_status_select';
+                if(!(var3 === var2)) { _fun0019_ip = 170; continue _fun0019 }
+ 53:
+                if(!(var9 != var5)) { _fun0019_ip = 165; continue _fun0019 }
+ 57:
+                var7 = var5.status;
+                var2 = var8.customHangStatus;
+                var4 = var9 == var2;
+                var3 = undefined;
+                var6 = undefined;
+                if(var4) { _fun0019_ip = 84; continue _fun0019 }
+ 79:
+                var6 = var2.status;
+ 84:
+                var4 = 'hang_status_select';
+                var2 = var4;
+                if(!(var7 === var6)) { _fun0019_ip = 167; continue _fun0019 }
+ 97:
+                var7 = _closure1_slot0;
+                var10 = _closure1_slot1;
+                var6 = 25;
+                var6 = var10[var6];
+                var7 = var7.bind(var3)(var6);
+                var6 = var7.isEqual;
+                var5 = var5.emoji;
+                var8 = var8.customHangStatus;
+                var9 = var9 == var8;
+                var3 = undefined;
+                if(var9) { _fun0019_ip = 153; continue _fun0019 }
+ 147:
+                var3 = var8.emoji;
+ 153:
+                var3 = var6.bind(var7)(var5, var3);
+                var2 = var4;
+                if(!var3) { _fun0019_ip = 167; continue _fun0019 }
+ 165:
+                var2 = undefined;
+ 167:
+                var1 = var2;
+ 170:
+                return var1;
+            }
+        };
+        var7 = 0.15;
+        var10 = var5;
+        var1 = var11[var6](var10, var9, var8, var7, var6);
+        var1 = null;
+        return var1;
+    };
+    var _closure1_slot37 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -1432,12 +1527,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.SILENT_JOIN_LEAVE_CHANNEL_TYPES;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.SILENT_JOIN_LEAVE_CHANNEL_TYPES;
     var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
@@ -1481,79 +1576,87 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot17 = var4;
     var4 = 15;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.InputModes;
-    var _closure1_slot18 = var7;
-    var7 = var4.ApplicationStreamStates;
-    var _closure1_slot19 = var7;
-    var4 = var4.RTCConnectionStates;
-    var _closure1_slot20 = var4;
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot18 = var4;
     var4 = 16;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var7 = var4.InputModes;
+    var _closure1_slot19 = var7;
+    var7 = var4.ApplicationStreamStates;
+    var _closure1_slot20 = var7;
+    var4 = var4.RTCConnectionStates;
+    var _closure1_slot21 = var4;
+    var4 = 17;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot21 = var7;
-    var7 = var4.Fragment;
     var _closure1_slot22 = var7;
+    var7 = var4.Fragment;
+    var _closure1_slot23 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot23 = var4;
-    var4 = 24;
+    var _closure1_slot24 = var4;
+    var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'components_common/SoundPlayer.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function SoundPlayer() {
-        var4 = _closure1_slot23;
-        var3 = _closure1_slot22;
+        var4 = _closure1_slot24;
+        var3 = _closure1_slot23;
         var2 = {};
-        var8 = _closure1_slot21;
-        var7 = _closure1_slot25;
+        var8 = _closure1_slot22;
+        var7 = _closure1_slot26;
         var1 = undefined;
         var5 = {};
         var7 = var8.bind(var1)(var7, var5);
-        var5 = new Array(11);
+        var5 = new Array(12);
         var5[0] = var7;
-        var9 = _closure1_slot26;
-        var7 = {};
-        var7 = var8.bind(var1)(var9, var7);
-        var5[1] = var7;
         var9 = _closure1_slot27;
         var7 = {};
         var7 = var8.bind(var1)(var9, var7);
-        var5[2] = var7;
+        var5[1] = var7;
         var9 = _closure1_slot28;
         var7 = {};
         var7 = var8.bind(var1)(var9, var7);
-        var5[3] = var7;
-        var9 = _closure1_slot30;
-        var7 = {};
-        var7 = var8.bind(var1)(var9, var7);
-        var5[4] = var7;
-        var9 = _closure1_slot32;
-        var7 = {};
-        var7 = var8.bind(var1)(var9, var7);
-        var5[5] = var7;
-        var9 = _closure1_slot34;
-        var7 = {};
-        var7 = var8.bind(var1)(var9, var7);
-        var5[6] = var7;
-        var9 = _closure1_slot33;
-        var7 = {};
-        var7 = var8.bind(var1)(var9, var7);
-        var5[7] = var7;
-        var9 = _closure1_slot35;
-        var7 = {};
-        var7 = var8.bind(var1)(var9, var7);
-        var5[8] = var7;
+        var5[2] = var7;
         var9 = _closure1_slot29;
         var7 = {};
         var7 = var8.bind(var1)(var9, var7);
+        var5[3] = var7;
+        var9 = _closure1_slot31;
+        var7 = {};
+        var7 = var8.bind(var1)(var9, var7);
+        var5[4] = var7;
+        var9 = _closure1_slot33;
+        var7 = {};
+        var7 = var8.bind(var1)(var9, var7);
+        var5[5] = var7;
+        var9 = _closure1_slot35;
+        var7 = {};
+        var7 = var8.bind(var1)(var9, var7);
+        var5[6] = var7;
+        var9 = _closure1_slot34;
+        var7 = {};
+        var7 = var8.bind(var1)(var9, var7);
+        var5[7] = var7;
+        var9 = _closure1_slot36;
+        var7 = {};
+        var7 = var8.bind(var1)(var9, var7);
+        var5[8] = var7;
+        var9 = _closure1_slot30;
+        var7 = {};
+        var7 = var8.bind(var1)(var9, var7);
         var5[9] = var7;
-        var7 = _closure1_slot31;
+        var9 = _closure1_slot32;
+        var7 = {};
+        var7 = var8.bind(var1)(var9, var7);
+        var5[10] = var7;
+        var7 = _closure1_slot37;
         var6 = {};
         var6 = var8.bind(var1)(var7, var6);
-        var5[10] = var6;
+        var5[11] = var6;
         var2['children'] = var5;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

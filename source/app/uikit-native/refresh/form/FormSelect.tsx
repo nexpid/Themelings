@@ -233,7 +233,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['style'] = var5;
             var5 = null;
             var6 = var5 != var16;
-            if(!var6) { _fun0003_ip = 152; continue _fun0003 }
+            if(!var6) { _fun0003_ip = 156; continue _fun0003 }
  82:
             var8 = _closure1_slot6;
             var7 = _closure1_slot0;
@@ -249,7 +249,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var15.bind(var16)();
             var5['children'] = var15;
             var6 = var8.bind(var4)(var7, var5);
- 152:
+ 156:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot6;

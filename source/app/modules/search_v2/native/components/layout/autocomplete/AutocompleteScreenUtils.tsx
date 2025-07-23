@@ -392,7 +392,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.getUser;
             var1 = var1.bind(var2)(var6);
             var2 = null;
-            if(!(var2 == var1)) { _fun0005_ip = 273; continue _fun0005 }
+            if(!(var2 == var1)) { _fun0005_ip = 287; continue _fun0005 }
  47:
             var5 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -408,30 +408,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var5.getCurrentUser;
             var2 = var2.bind(var5)();
             var5 = null;
-            if(!(var5 == var2)) { _fun0005_ip = 271; continue _fun0005 }
+            if(!(var5 == var2)) { _fun0005_ip = 285; continue _fun0005 }
  105:
-            var5 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var3 = var10[var3];
-            var9 = var5.bind(var7)(var3);
-            var8 = var9.searchUsers;
-            var3 = 17;
-            var3 = var10[var3];
-            var10 = var5.bind(var7)(var3);
-            var5 = var10.getBackwardCompatibilitySearchId;
-            var3 = arg1;
-            var5 = var5.bind(var10)(var3);
-            var3 = 1;
-            var5 = var8.bind(var9)(var6, var5, var3);
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var3 = var11[var3];
+            var8 = var10.bind(var7)(var3);
+            var5 = var8.searchUsers;
+            var3 = {};
+            var3['query'] = var6;
+            var9 = 17;
+            var9 = var11[var9];
+            var11 = var10.bind(var7)(var9);
+            var10 = var11.getBackwardCompatibilitySearchId;
+            var9 = arg1;
+            var9 = var10.bind(var11)(var9);
+            var3['searchId'] = var9;
+            var9 = 1;
+            var3['maxResults'] = var9;
+            var5 = var5.bind(var8)(var3);
             var3 = 0;
             var5 = var5[var3];
             var3 = null;
             var8 = var3 == var5;
             var3 = undefined;
-            if(var8) { _fun0005_ip = 186; continue _fun0005 }
- 181:
+            if(var8) { _fun0005_ip = 200; continue _fun0005 }
+ 195:
             var3 = var5.user;
- 186:
+ 200:
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
             var4 = 18;
@@ -445,20 +449,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var4.bind(var6)();
             var4 = var3;
             var3 = undefined;
-            if(!(var8 === var5)) { _fun0005_ip = 269; continue _fun0005 }
- 246:
+            if(!(var8 === var5)) { _fun0005_ip = 283; continue _fun0005 }
+ 260:
             var5 = var6.trim;
             var6 = var5.bind(var6)();
             var5 = '';
             var3 = undefined;
-            if(!(var5 !== var6)) { _fun0005_ip = 269; continue _fun0005 }
- 266:
+            if(!(var5 !== var6)) { _fun0005_ip = 283; continue _fun0005 }
+ 280:
             var3 = var4;
- 269:
+ 283:
             return var3;
- 271:
+ 285:
             return var2;
- 273:
+ 287:
             return var1;
         }
     };

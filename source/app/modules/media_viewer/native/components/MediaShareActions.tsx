@@ -192,7 +192,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = _closure2_slot0;
                     var4 = var3.sourceURI;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0004_ip = 114; continue _fun0004 }
+                    if(!(var3 != var4)) { _fun0004_ip = 116; continue _fun0004 }
  54:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -219,7 +219,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var2['onConfirm'] = var5;
                     var2 = var3.bind(var4)(var2);
- 114:
+ 116:
                     return var1;
                 }
             };
@@ -405,19 +405,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.bind(var16)(var3);
             var3 = var5.useCanForwardMessage;
             var5 = var3.bind(var5)(var15);
-            if(!var5) { _fun0001_ip = 476; continue _fun0001 }
- 444:
+            if(!var5) { _fun0001_ip = 490; continue _fun0001 }
+ 458:
             var15 = var4.attachmentId;
             var3 = null;
             var3 = var3 != var15;
-            if(var3) { _fun0001_ip = 473; continue _fun0001 }
- 459:
+            if(var3) { _fun0001_ip = 487; continue _fun0001 }
+ 473:
             var15 = var4.accessoryType;
             var4 = 'embed';
             var3 = var4 === var15;
- 473:
+ 487:
             var5 = var3;
- 476:
+ 490:
             _closure2_slot13 = var5;
             var4 = _closure1_slot3;
             var3 = var4.useMemo;

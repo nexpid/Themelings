@@ -681,7 +681,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
-            var3 = var4.getSearchContext;
+            var3 = var4.getUserSearchContext;
             var2 = _closure1_slot33;
             var1 = 1000;
             var1 = var3.bind(var4)(var2, var1);

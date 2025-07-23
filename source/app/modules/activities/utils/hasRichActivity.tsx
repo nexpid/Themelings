@@ -23,66 +23,78 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/activities/utils/hasRichActivity.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function hasRichActivity(arg1) {
+    var2 = function hasRichActivity(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var3 = arg1;
-            var4 = null;
-            var1 = var4 != var3;
-            if(!var1) { _fun0001_ip = 34; continue _fun0001 }
- 12:
-            var5 = var3.type;
-            var2 = _closure1_slot0;
-            var2 = var2.CUSTOM_STATUS;
-            var1 = var5 !== var2;
- 34:
-            if(!var1) { _fun0001_ip = 59; continue _fun0001 }
- 37:
-            var5 = var3.type;
-            var2 = _closure1_slot0;
-            var2 = var2.HANG_STATUS;
-            var1 = var5 !== var2;
- 59:
-            if(!var1) { _fun0001_ip = 170; continue _fun0001 }
- 62:
-            var2 = var3.details;
-            var2 = var4 != var2;
-            if(var2) { _fun0001_ip = 129; continue _fun0001 }
- 75:
-            var5 = var3.assets;
-            var5 = var4 != var5;
-            if(!var5) { _fun0001_ip = 126; continue _fun0001 }
- 88:
-            var6 = var3.assets;
-            var6 = var6.large_image;
-            var6 = var4 != var6;
-            if(var6) { _fun0001_ip = 123; continue _fun0001 }
- 107:
-            var7 = var3.assets;
-            var7 = var7.small_text;
-            var6 = var4 != var7;
- 123:
-            var5 = var6;
- 126:
-            var2 = var5;
- 129:
-            if(var2) { _fun0001_ip = 142; continue _fun0001 }
- 132:
-            var5 = var3.party;
-            var2 = var4 != var5;
- 142:
-            if(var2) { _fun0001_ip = 155; continue _fun0001 }
- 145:
-            var5 = var3.secrets;
-            var2 = var4 != var5;
- 155:
-            if(var2) { _fun0001_ip = 167; continue _fun0001 }
- 158:
-            var3 = var3.state;
-            var2 = var4 != var3;
- 167:
+            var4 = arg1;
+            var5 = null;
+            var1 = var5 == var4;
+            var2 = undefined;
+            if(var1) { _fun0001_ip = 19; continue _fun0001 }
+ 14:
+            var2 = var4.type;
+ 19:
+            var1 = _closure1_slot0;
+            var1 = var1.HANG_STATUS;
+            var2 = var2 === var1;
+            if(!var2) { _fun0001_ip = 45; continue _fun0001 }
+ 39:
+            var1 = arg2;
+            var2 = !var1;
+ 45:
+            var1 = !var2;
+            if(var2) { _fun0001_ip = 194; continue _fun0001 }
+ 54:
+            var2 = var5 != var4;
+            if(!var2) { _fun0001_ip = 80; continue _fun0001 }
+ 61:
+            var6 = var4.type;
+            var3 = _closure1_slot0;
+            var3 = var3.CUSTOM_STATUS;
+            var2 = var6 !== var3;
+ 80:
+            if(!var2) { _fun0001_ip = 191; continue _fun0001 }
+ 83:
+            var3 = var4.details;
+            var3 = var5 != var3;
+            if(var3) { _fun0001_ip = 150; continue _fun0001 }
+ 96:
+            var6 = var4.assets;
+            var6 = var5 != var6;
+            if(!var6) { _fun0001_ip = 147; continue _fun0001 }
+ 109:
+            var7 = var4.assets;
+            var7 = var7.large_image;
+            var7 = var5 != var7;
+            if(var7) { _fun0001_ip = 144; continue _fun0001 }
+ 128:
+            var8 = var4.assets;
+            var8 = var8.small_text;
+            var7 = var5 != var8;
+ 144:
+            var6 = var7;
+ 147:
+            var3 = var6;
+ 150:
+            if(var3) { _fun0001_ip = 163; continue _fun0001 }
+ 153:
+            var6 = var4.party;
+            var3 = var5 != var6;
+ 163:
+            if(var3) { _fun0001_ip = 176; continue _fun0001 }
+ 166:
+            var6 = var4.secrets;
+            var3 = var5 != var6;
+ 176:
+            if(var3) { _fun0001_ip = 188; continue _fun0001 }
+ 179:
+            var4 = var4.state;
+            var3 = var5 != var4;
+ 188:
+            var2 = var3;
+ 191:
             var1 = var2;
- 170:
+ 194:
             return var1;
         }
     };

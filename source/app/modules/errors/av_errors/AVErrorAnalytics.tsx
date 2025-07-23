@@ -711,139 +711,139 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = null;
                     var2 = var3 != var1;
                     var1 = null;
-                    if(!var2) { _fun0008_ip = 87; continue _fun0008 }
- 83:
+                    if(!var2) { _fun0008_ip = 88; continue _fun0008 }
+ 84:
                     var1 = _closure2_slot6;
- 87:
+ 88:
                     var5['underlying_error'] = var1;
                     var1 = _closure2_slot7;
                     var2 = var3 != var1;
                     var1 = null;
-                    if(!var2) { _fun0008_ip = 111; continue _fun0008 }
- 107:
+                    if(!var2) { _fun0008_ip = 112; continue _fun0008 }
+ 108:
                     var1 = _closure2_slot7;
- 111:
+ 112:
                     var5['error_message'] = var1;
                     var1 = _closure2_slot4;
                     var2 = var3 == var1;
                     var1 = undefined;
                     var7 = undefined;
-                    if(var2) { _fun0008_ip = 140; continue _fun0008 }
- 131:
+                    if(var2) { _fun0008_ip = 141; continue _fun0008 }
+ 132:
                     var2 = _closure2_slot4;
                     var7 = var2.guild_id;
- 140:
+ 141:
                     var8 = var3 != var7;
                     var2 = null;
-                    if(!var8) { _fun0008_ip = 152; continue _fun0008 }
- 149:
+                    if(!var8) { _fun0008_ip = 153; continue _fun0008 }
+ 150:
                     var2 = var7;
- 152:
+ 153:
                     var5['guild_id'] = var2;
                     var2 = _closure2_slot3;
                     var7 = var3 != var2;
                     var2 = null;
-                    if(!var7) { _fun0008_ip = 173; continue _fun0008 }
- 169:
+                    if(!var7) { _fun0008_ip = 174; continue _fun0008 }
+ 170:
                     var2 = _closure2_slot3;
- 173:
+ 174:
                     var5['channel_id'] = var2;
                     var2 = _closure2_slot4;
                     var2 = var3 == var2;
                     var7 = undefined;
-                    if(var2) { _fun0008_ip = 199; continue _fun0008 }
- 190:
+                    if(var2) { _fun0008_ip = 200; continue _fun0008 }
+ 191:
                     var2 = _closure2_slot4;
                     var7 = var2.type;
- 199:
+ 200:
                     var8 = var3 != var7;
                     var2 = null;
-                    if(!var8) { _fun0008_ip = 211; continue _fun0008 }
- 208:
+                    if(!var8) { _fun0008_ip = 212; continue _fun0008 }
+ 209:
                     var2 = var7;
- 211:
+ 212:
                     var5['channel_type'] = var2;
                     var2 = _closure2_slot9;
                     var7 = var3 != var2;
                     var2 = null;
-                    if(!var7) { _fun0008_ip = 233; continue _fun0008 }
- 229:
+                    if(!var7) { _fun0008_ip = 234; continue _fun0008 }
+ 230:
                     var2 = _closure2_slot9;
- 233:
+ 234:
                     var5['rtc_connection_id'] = var2;
                     var2 = _closure2_slot8;
-                    if(!(var3 == var2)) { _fun0008_ip = 265; continue _fun0008 }
- 246:
+                    if(!(var3 == var2)) { _fun0008_ip = 266; continue _fun0008 }
+ 247:
                     var7 = _closure1_slot8;
                     var2 = var7.getMediaSessionId;
                     var7 = var2.bind(var7)();
-                    _fun0008_ip = 269; continue _fun0008;
- 265:
+                    _fun0008_ip = 270; continue _fun0008;
+ 266:
                     var7 = _closure2_slot8;
- 269:
+ 270:
                     var8 = var3 != var7;
                     var2 = null;
-                    if(!var8) { _fun0008_ip = 281; continue _fun0008 }
- 278:
+                    if(!var8) { _fun0008_ip = 282; continue _fun0008 }
+ 279:
                     var2 = var7;
- 281:
+ 282:
                     var5['media_session_id'] = var2;
                     var2 = _closure2_slot18;
                     var2 = var3 == var2;
                     var7 = undefined;
-                    if(var2) { _fun0008_ip = 309; continue _fun0008 }
- 299:
+                    if(var2) { _fun0008_ip = 310; continue _fun0008 }
+ 300:
                     var2 = _closure2_slot18;
                     var7 = var2.parentMediaSessionId;
- 309:
+ 310:
                     var8 = var3 != var7;
                     var2 = null;
-                    if(!var8) { _fun0008_ip = 321; continue _fun0008 }
- 318:
+                    if(!var8) { _fun0008_ip = 322; continue _fun0008 }
+ 319:
                     var2 = var7;
- 321:
+ 322:
                     var5['parent_media_session_id'] = var2;
                     var2 = _closure2_slot5;
                     var7 = var3 != var2;
                     var2 = null;
-                    if(!var7) { _fun0008_ip = 343; continue _fun0008 }
- 339:
+                    if(!var7) { _fun0008_ip = 344; continue _fun0008 }
+ 340:
                     var2 = _closure2_slot5;
- 343:
+ 344:
                     var5['context'] = var2;
                     var8 = _closure1_slot8;
                     var7 = var8.getRTCConnection;
                     var9 = var7.bind(var8)();
                     var7 = var3 == var9;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 385; continue _fun0008 }
- 373:
+                    if(var7) { _fun0008_ip = 386; continue _fun0008 }
+ 374:
                     var7 = var9.getVoiceVersion;
                     var8 = var7.bind(var9)();
- 385:
+ 386:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 397; continue _fun0008 }
- 394:
+                    if(!var9) { _fun0008_ip = 398; continue _fun0008 }
+ 395:
                     var7 = var8;
- 397:
+ 398:
                     var5['voice_backend_version'] = var7;
                     var8 = _closure1_slot8;
                     var7 = var8.getRTCConnection;
                     var9 = var7.bind(var8)();
                     var7 = var3 == var9;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 437; continue _fun0008 }
- 425:
+                    if(var7) { _fun0008_ip = 438; continue _fun0008 }
+ 426:
                     var7 = var9.getRtcWorkerVersion;
                     var8 = var7.bind(var9)();
- 437:
+ 438:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 449; continue _fun0008 }
- 446:
+                    if(!var9) { _fun0008_ip = 450; continue _fun0008 }
+ 447:
                     var7 = var8;
- 449:
+ 450:
                     var5['rtc_worker_backend_version'] = var7;
                     var9 = _closure1_slot9;
                     var8 = var9.getRegion;
@@ -853,86 +853,86 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var8 = var8.bind(var9)(var7);
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 495; continue _fun0008 }
- 492:
+                    if(!var9) { _fun0008_ip = 496; continue _fun0008 }
+ 493:
                     var7 = var8;
- 495:
+ 496:
                     var5['guild_region'] = var7;
                     var8 = _closure1_slot8;
                     var7 = var8.getHostname;
                     var8 = var7.bind(var8)();
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 526; continue _fun0008 }
- 523:
+                    if(!var9) { _fun0008_ip = 527; continue _fun0008 }
+ 524:
                     var7 = var8;
- 526:
+ 527:
                     var5['hostname'] = var7;
                     var7 = _closure2_slot19;
                     var7 = var3 == var7;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 558; continue _fun0008 }
- 544:
+                    if(var7) { _fun0008_ip = 559; continue _fun0008 }
+ 545:
                     var9 = _closure2_slot19;
                     var7 = var9.getDurationSeconds;
                     var8 = var7.bind(var9)();
- 558:
+ 559:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 570; continue _fun0008 }
- 567:
+                    if(!var9) { _fun0008_ip = 571; continue _fun0008 }
+ 568:
                     var7 = var8;
- 570:
+ 571:
                     var5['duration'] = var7;
                     var7 = _closure2_slot29;
                     var8 = var3 != var7;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 591; continue _fun0008 }
- 587:
+                    if(!var8) { _fun0008_ip = 592; continue _fun0008 }
+ 588:
                     var7 = _closure2_slot29;
- 591:
+ 592:
                     var5['participant_type'] = var7;
                     var7 = _closure2_slot1;
                     var8 = var3 == var7;
                     var9 = undefined;
-                    if(var8) { _fun0008_ip = 615; continue _fun0008 }
- 609:
+                    if(var8) { _fun0008_ip = 616; continue _fun0008 }
+ 610:
                     var9 = var7.num_frames;
- 615:
+ 616:
                     var10 = var3 != var9;
                     var8 = 0;
-                    if(!var10) { _fun0008_ip = 627; continue _fun0008 }
- 624:
+                    if(!var10) { _fun0008_ip = 628; continue _fun0008 }
+ 625:
                     var8 = var9;
- 627:
+ 628:
                     var5['num_frames'] = var8;
                     var8 = _closure2_slot1;
                     var10 = var3 == var8;
                     var9 = undefined;
-                    if(var10) { _fun0008_ip = 651; continue _fun0008 }
- 645:
+                    if(var10) { _fun0008_ip = 652; continue _fun0008 }
+ 646:
                     var9 = var8.num_packets;
- 651:
+ 652:
                     var10 = var3 != var9;
                     var8 = 0;
-                    if(!var10) { _fun0008_ip = 663; continue _fun0008 }
- 660:
+                    if(!var10) { _fun0008_ip = 664; continue _fun0008 }
+ 661:
                     var8 = var9;
- 663:
+ 664:
                     var5['num_packets'] = var8;
                     var8 = _closure2_slot1;
                     var10 = var3 == var8;
                     var9 = undefined;
-                    if(var10) { _fun0008_ip = 687; continue _fun0008 }
- 681:
+                    if(var10) { _fun0008_ip = 688; continue _fun0008 }
+ 682:
                     var9 = var8.num_bytes;
- 687:
+ 688:
                     var10 = var3 != var9;
                     var8 = 0;
-                    if(!var10) { _fun0008_ip = 699; continue _fun0008 }
- 696:
+                    if(!var10) { _fun0008_ip = 700; continue _fun0008 }
+ 697:
                     var8 = var9;
- 699:
+ 700:
                     var5['num_bytes'] = var8;
                     var11 = _closure1_slot18;
                     var10 = _closure2_slot26;
@@ -941,20 +941,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = var11.bind(var1)(var10, var9, var8);
                     var10 = var3 == var9;
                     var8 = undefined;
-                    if(var10) { _fun0008_ip = 742; continue _fun0008 }
- 736:
+                    if(var10) { _fun0008_ip = 743; continue _fun0008 }
+ 737:
                     var8 = var9.packetsLost;
- 742:
+ 743:
                     var9 = var3 != var8;
                     var7 = 0;
-                    if(!var9) { _fun0008_ip = 754; continue _fun0008 }
- 751:
+                    if(!var9) { _fun0008_ip = 755; continue _fun0008 }
+ 752:
                     var7 = var8;
- 754:
+ 755:
                     var5['num_packets_lost'] = var7;
                     var7 = _closure2_slot10;
-                    if(!(var3 == var7)) { _fun0008_ip = 845; continue _fun0008 }
- 769:
+                    if(!(var3 == var7)) { _fun0008_ip = 846; continue _fun0008 }
+ 770:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var7 = 16;
@@ -968,26 +968,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = var12.bind(var1)(var11, var10, var7);
                     var11 = var3 == var10;
                     var7 = undefined;
-                    if(var11) { _fun0008_ip = 838; continue _fun0008 }
- 827:
+                    if(var11) { _fun0008_ip = 839; continue _fun0008 }
+ 828:
                     var10 = var10.codec;
                     var7 = var10.name;
- 838:
+ 839:
                     var8 = var8.bind(var9)(var7);
-                    _fun0008_ip = 849; continue _fun0008;
- 845:
+                    _fun0008_ip = 850; continue _fun0008;
+ 846:
                     var8 = _closure2_slot10;
- 849:
+ 850:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 861; continue _fun0008 }
- 858:
+                    if(!var9) { _fun0008_ip = 862; continue _fun0008 }
+ 859:
                     var7 = var8;
- 861:
+ 862:
                     var5['video_codec'] = var7;
                     var7 = _closure2_slot11;
-                    if(!(var3 == var7)) { _fun0008_ip = 935; continue _fun0008 }
- 874:
+                    if(!(var3 == var7)) { _fun0008_ip = 936; continue _fun0008 }
+ 875:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var7 = 16;
@@ -999,25 +999,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = var10.bind(var1)(var7);
                     var11 = var3 == var10;
                     var7 = undefined;
-                    if(var11) { _fun0008_ip = 928; continue _fun0008 }
- 922:
+                    if(var11) { _fun0008_ip = 929; continue _fun0008 }
+ 923:
                     var7 = var10.encoderImplementationName;
- 928:
+ 929:
                     var8 = var8.bind(var9)(var7);
-                    _fun0008_ip = 939; continue _fun0008;
- 935:
+                    _fun0008_ip = 940; continue _fun0008;
+ 936:
                     var8 = _closure2_slot11;
- 939:
+ 940:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 951; continue _fun0008 }
- 948:
+                    if(!var9) { _fun0008_ip = 952; continue _fun0008 }
+ 949:
                     var7 = var8;
- 951:
+ 952:
                     var5['video_encoder'] = var7;
                     var7 = _closure2_slot12;
-                    if(!(var3 == var7)) { _fun0008_ip = 1032; continue _fun0008 }
- 966:
+                    if(!(var3 == var7)) { _fun0008_ip = 1033; continue _fun0008 }
+ 967:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var7 = 16;
@@ -1030,29 +1030,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = var11.bind(var1)(var10, var7);
                     var11 = var3 == var10;
                     var7 = undefined;
-                    if(var11) { _fun0008_ip = 1025; continue _fun0008 }
- 1019:
+                    if(var11) { _fun0008_ip = 1026; continue _fun0008 }
+ 1020:
                     var7 = var10.decoderImplementationName;
- 1025:
+ 1026:
                     var8 = var8.bind(var9)(var7);
-                    _fun0008_ip = 1036; continue _fun0008;
- 1032:
+                    _fun0008_ip = 1037; continue _fun0008;
+ 1033:
                     var8 = _closure2_slot12;
- 1036:
+ 1037:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1048; continue _fun0008 }
- 1045:
+                    if(!var9) { _fun0008_ip = 1049; continue _fun0008 }
+ 1046:
                     var7 = var8;
- 1048:
+ 1049:
                     var5['video_decoder'] = var7;
                     var7 = _closure2_slot13;
                     var8 = var3 != var7;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1072; continue _fun0008 }
- 1068:
+                    if(!var8) { _fun0008_ip = 1073; continue _fun0008 }
+ 1069:
                     var7 = _closure2_slot13;
- 1072:
+ 1073:
                     var5['audio_capture_sample_rate_mismatch_percent'] = var7;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -1071,192 +1071,192 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var10.bind(var1)(var9, var8, var7);
                     var9 = var3 == var7;
                     var8 = undefined;
-                    if(var9) { _fun0008_ip = 1163; continue _fun0008 }
- 1157:
+                    if(var9) { _fun0008_ip = 1164; continue _fun0008 }
+ 1158:
                     var8 = var7.bitrate;
- 1163:
+ 1164:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1175; continue _fun0008 }
- 1172:
+                    if(!var9) { _fun0008_ip = 1176; continue _fun0008 }
+ 1173:
                     var7 = var8;
- 1175:
+ 1176:
                     var5['bitrate'] = var7;
                     var8 = _closure2_slot26;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1229; continue _fun0008 }
- 1189:
+                    if(!var8) { _fun0008_ip = 1230; continue _fun0008 }
+ 1190:
                     var9 = _closure1_slot16;
                     var8 = _closure2_slot30;
                     var9 = var9.bind(var1)(var8);
                     var10 = var3 == var9;
                     var8 = undefined;
-                    if(var10) { _fun0008_ip = 1217; continue _fun0008 }
- 1211:
+                    if(var10) { _fun0008_ip = 1218; continue _fun0008 }
+ 1212:
                     var8 = var9.bitrateTarget;
- 1217:
+ 1218:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1229; continue _fun0008 }
- 1226:
+                    if(!var9) { _fun0008_ip = 1230; continue _fun0008 }
+ 1227:
                     var7 = var8;
- 1229:
+ 1230:
                     var5['target_bitrate'] = var7;
                     var7 = _closure2_slot26;
                     var9 = _closure2_slot27;
                     var8 = _closure2_slot28;
-                    if(var7) { _fun0008_ip = 1290; continue _fun0008 }
- 1251:
+                    if(var7) { _fun0008_ip = 1291; continue _fun0008 }
+ 1252:
                     var7 = _closure1_slot17;
                     var8 = var7.bind(var1)(var9, var8);
                     var10 = var3 == var8;
                     var7 = undefined;
-                    if(var10) { _fun0008_ip = 1276; continue _fun0008 }
- 1270:
+                    if(var10) { _fun0008_ip = 1277; continue _fun0008 }
+ 1271:
                     var7 = var8.frameRateDecode;
- 1276:
+ 1277:
                     var10 = var3 != var7;
                     var8 = null;
-                    if(!var10) { _fun0008_ip = 1288; continue _fun0008 }
- 1285:
+                    if(!var10) { _fun0008_ip = 1289; continue _fun0008 }
+ 1286:
                     var8 = var7;
- 1288:
-                    _fun0008_ip = 1329; continue _fun0008;
- 1290:
+ 1289:
+                    _fun0008_ip = 1330; continue _fun0008;
+ 1291:
                     var7 = _closure1_slot16;
                     var7 = var7.bind(var1)(var9);
                     var10 = var3 == var7;
                     var9 = undefined;
-                    if(var10) { _fun0008_ip = 1314; continue _fun0008 }
- 1308:
+                    if(var10) { _fun0008_ip = 1315; continue _fun0008 }
+ 1309:
                     var9 = var7.frameRateEncode;
- 1314:
+ 1315:
                     var10 = var3 != var9;
                     var7 = null;
-                    if(!var10) { _fun0008_ip = 1326; continue _fun0008 }
- 1323:
+                    if(!var10) { _fun0008_ip = 1327; continue _fun0008 }
+ 1324:
                     var7 = var9;
- 1326:
+ 1327:
                     var8 = var7;
- 1329:
+ 1330:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1341; continue _fun0008 }
- 1338:
+                    if(!var9) { _fun0008_ip = 1342; continue _fun0008 }
+ 1339:
                     var7 = var8;
- 1341:
+ 1342:
                     var5['fps'] = var7;
                     var9 = _closure2_slot27;
                     var7 = _closure1_slot14;
                     var8 = var7.STREAM;
                     var7 = null;
-                    if(!(var9 === var8)) { _fun0008_ip = 1379; continue _fun0008 }
- 1366:
+                    if(!(var9 === var8)) { _fun0008_ip = 1380; continue _fun0008 }
+ 1367:
                     var8 = _closure2_slot26;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1379; continue _fun0008 }
- 1375:
+                    if(!var8) { _fun0008_ip = 1380; continue _fun0008 }
+ 1376:
                     var7 = _closure2_slot21;
- 1379:
+ 1380:
                     var5['target_fps'] = var7;
                     var7 = _closure2_slot17;
                     var7 = var3 == var7;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 1409; continue _fun0008 }
- 1399:
+                    if(var7) { _fun0008_ip = 1410; continue _fun0008 }
+ 1400:
                     var7 = _closure2_slot17;
                     var8 = var7.ownerId;
- 1409:
+ 1410:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1421; continue _fun0008 }
- 1418:
+                    if(!var9) { _fun0008_ip = 1422; continue _fun0008 }
+ 1419:
                     var7 = var8;
- 1421:
+ 1422:
                     var5['sender_user_id'] = var7;
                     var7 = _closure2_slot18;
                     var7 = var3 == var7;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 1453; continue _fun0008 }
- 1439:
+                    if(var7) { _fun0008_ip = 1454; continue _fun0008 }
+ 1440:
                     var9 = _closure2_slot18;
                     var7 = var9.getRegion;
                     var8 = var7.bind(var9)();
- 1453:
+ 1454:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1465; continue _fun0008 }
- 1462:
+                    if(!var9) { _fun0008_ip = 1466; continue _fun0008 }
+ 1463:
                     var7 = var8;
- 1465:
+ 1466:
                     var5['stream_region'] = var7;
                     var8 = _closure2_slot26;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1529; continue _fun0008 }
- 1479:
+                    if(!var8) { _fun0008_ip = 1530; continue _fun0008 }
+ 1480:
                     var8 = _closure2_slot18;
                     var9 = var3 == var8;
                     var8 = undefined;
-                    if(var9) { _fun0008_ip = 1517; continue _fun0008 }
- 1492:
+                    if(var9) { _fun0008_ip = 1518; continue _fun0008 }
+ 1493:
                     var9 = _closure2_slot18;
                     var9 = var9.analyticsContext;
                     var10 = var3 == var9;
                     var8 = undefined;
-                    if(var10) { _fun0008_ip = 1517; continue _fun0008 }
- 1511:
+                    if(var10) { _fun0008_ip = 1518; continue _fun0008 }
+ 1512:
                     var8 = var9.streamSourceType;
- 1517:
+ 1518:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1529; continue _fun0008 }
- 1526:
+                    if(!var9) { _fun0008_ip = 1530; continue _fun0008 }
+ 1527:
                     var7 = var8;
- 1529:
+ 1530:
                     var5['stream_source_type'] = var7;
                     var7 = _closure2_slot18;
                     var7 = var3 == var7;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 1572; continue _fun0008 }
- 1547:
+                    if(var7) { _fun0008_ip = 1573; continue _fun0008 }
+ 1548:
                     var7 = _closure2_slot18;
                     var7 = var7.analyticsContext;
                     var9 = var3 == var7;
                     var8 = undefined;
-                    if(var9) { _fun0008_ip = 1572; continue _fun0008 }
- 1566:
+                    if(var9) { _fun0008_ip = 1573; continue _fun0008 }
+ 1567:
                     var8 = var7.numViewers;
- 1572:
+ 1573:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1584; continue _fun0008 }
- 1581:
+                    if(!var9) { _fun0008_ip = 1585; continue _fun0008 }
+ 1582:
                     var7 = var8;
- 1584:
+ 1585:
                     var5['num_stream_viewers'] = var7;
                     var8 = _closure2_slot26;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1617; continue _fun0008 }
- 1600:
+                    if(!var8) { _fun0008_ip = 1618; continue _fun0008 }
+ 1601:
                     var8 = _closure2_slot20;
                     var8 = var3 != var8;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1617; continue _fun0008 }
- 1613:
+                    if(!var8) { _fun0008_ip = 1618; continue _fun0008 }
+ 1614:
                     var7 = _closure2_slot20;
- 1617:
+ 1618:
                     var5['video_input_resolution_height'] = var7;
                     var8 = _closure2_slot26;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1650; continue _fun0008 }
- 1633:
+                    if(!var8) { _fun0008_ip = 1651; continue _fun0008 }
+ 1634:
                     var8 = _closure2_slot21;
                     var8 = var3 != var8;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1650; continue _fun0008 }
- 1646:
+                    if(!var8) { _fun0008_ip = 1651; continue _fun0008 }
+ 1647:
                     var7 = _closure2_slot21;
- 1650:
+ 1651:
                     var5['video_input_frame_rate'] = var7;
                     var8 = _closure1_slot21;
                     var7 = _closure2_slot30;
@@ -1265,177 +1265,177 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = _closure2_slot22;
                     var8 = var3 != var7;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1694; continue _fun0008 }
- 1690:
+                    if(!var8) { _fun0008_ip = 1695; continue _fun0008 }
+ 1691:
                     var7 = _closure2_slot22;
- 1694:
+ 1695:
                     var5['share_application_name'] = var7;
                     var7 = _closure2_slot23;
                     var8 = var3 != var7;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1716; continue _fun0008 }
- 1712:
+                    if(!var8) { _fun0008_ip = 1717; continue _fun0008 }
+ 1713:
                     var7 = _closure2_slot23;
- 1716:
+ 1717:
                     var5['share_application_id'] = var7;
                     var7 = _closure2_slot24;
                     var8 = var3 != var7;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1738; continue _fun0008 }
- 1734:
+                    if(!var8) { _fun0008_ip = 1739; continue _fun0008 }
+ 1735:
                     var7 = _closure2_slot24;
- 1738:
+ 1739:
                     var5['share_application_executable'] = var7;
                     var7 = _closure2_slot25;
                     var8 = var3 != var7;
                     var7 = null;
-                    if(!var8) { _fun0008_ip = 1760; continue _fun0008 }
- 1756:
+                    if(!var8) { _fun0008_ip = 1761; continue _fun0008 }
+ 1757:
                     var7 = _closure2_slot25;
- 1760:
+ 1761:
                     var5['share_application_distributor'] = var7;
                     var7 = var3 == var6;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 1780; continue _fun0008 }
- 1774:
+                    if(var7) { _fun0008_ip = 1781; continue _fun0008 }
+ 1775:
                     var8 = var6.cpu_brand;
- 1780:
+ 1781:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1792; continue _fun0008 }
- 1789:
+                    if(!var9) { _fun0008_ip = 1793; continue _fun0008 }
+ 1790:
                     var7 = var8;
- 1792:
+ 1793:
                     var5['cpu_brand'] = var7;
                     var7 = var3 == var6;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 1812; continue _fun0008 }
- 1806:
+                    if(var7) { _fun0008_ip = 1813; continue _fun0008 }
+ 1807:
                     var8 = var6.cpu_vendor;
- 1812:
+ 1813:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1824; continue _fun0008 }
- 1821:
+                    if(!var9) { _fun0008_ip = 1825; continue _fun0008 }
+ 1822:
                     var7 = var8;
- 1824:
+ 1825:
                     var5['cpu_vendor'] = var7;
                     var7 = var3 == var6;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 1844; continue _fun0008 }
- 1838:
+                    if(var7) { _fun0008_ip = 1845; continue _fun0008 }
+ 1839:
                     var8 = var6.cpu_memory;
- 1844:
+ 1845:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1856; continue _fun0008 }
- 1853:
+                    if(!var9) { _fun0008_ip = 1857; continue _fun0008 }
+ 1854:
                     var7 = var8;
- 1856:
+ 1857:
                     var5['cpu_memory'] = var7;
                     var7 = var3 == var6;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 1876; continue _fun0008 }
- 1870:
+                    if(var7) { _fun0008_ip = 1877; continue _fun0008 }
+ 1871:
                     var8 = var6.gpu_brand;
- 1876:
+ 1877:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1888; continue _fun0008 }
- 1885:
+                    if(!var9) { _fun0008_ip = 1889; continue _fun0008 }
+ 1886:
                     var7 = var8;
- 1888:
+ 1889:
                     var5['gpu_brand'] = var7;
                     var7 = var3 == var6;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 1908; continue _fun0008 }
- 1902:
+                    if(var7) { _fun0008_ip = 1909; continue _fun0008 }
+ 1903:
                     var8 = var6.gpu_count;
- 1908:
+ 1909:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1920; continue _fun0008 }
- 1917:
+                    if(!var9) { _fun0008_ip = 1921; continue _fun0008 }
+ 1918:
                     var7 = var8;
- 1920:
+ 1921:
                     var5['gpu_count'] = var7;
                     var7 = var3 == var6;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 1940; continue _fun0008 }
- 1934:
+                    if(var7) { _fun0008_ip = 1941; continue _fun0008 }
+ 1935:
                     var8 = var6.gpu_memory;
- 1940:
+ 1941:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1952; continue _fun0008 }
- 1949:
+                    if(!var9) { _fun0008_ip = 1953; continue _fun0008 }
+ 1950:
                     var7 = var8;
- 1952:
+ 1953:
                     var5['gpu_memory'] = var7;
                     var7 = var3 == var6;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 1972; continue _fun0008 }
- 1966:
+                    if(var7) { _fun0008_ip = 1973; continue _fun0008 }
+ 1967:
                     var8 = var6.gpu_device_vendor_id;
- 1972:
+ 1973:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 1984; continue _fun0008 }
- 1981:
+                    if(!var9) { _fun0008_ip = 1985; continue _fun0008 }
+ 1982:
                     var7 = var8;
- 1984:
+ 1985:
                     var5['gpu_device_vendor_id'] = var7;
                     var7 = var3 == var6;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 2004; continue _fun0008 }
- 1998:
+                    if(var7) { _fun0008_ip = 2005; continue _fun0008 }
+ 1999:
                     var8 = var6.gpu_device_device_id;
- 2004:
+ 2005:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 2016; continue _fun0008 }
- 2013:
+                    if(!var9) { _fun0008_ip = 2017; continue _fun0008 }
+ 2014:
                     var7 = var8;
- 2016:
+ 2017:
                     var5['gpu_device_device_id'] = var7;
                     var7 = var3 == var6;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 2036; continue _fun0008 }
- 2030:
+                    if(var7) { _fun0008_ip = 2037; continue _fun0008 }
+ 2031:
                     var8 = var6.gpu_device_sub_sys_id;
- 2036:
+ 2037:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 2048; continue _fun0008 }
- 2045:
+                    if(!var9) { _fun0008_ip = 2049; continue _fun0008 }
+ 2046:
                     var7 = var8;
- 2048:
+ 2049:
                     var5['gpu_device_sub_sys_id'] = var7;
                     var7 = var3 == var6;
                     var8 = undefined;
-                    if(var7) { _fun0008_ip = 2068; continue _fun0008 }
- 2062:
+                    if(var7) { _fun0008_ip = 2069; continue _fun0008 }
+ 2063:
                     var8 = var6.gpu_device_revision;
- 2068:
+ 2069:
                     var9 = var3 != var8;
                     var7 = null;
-                    if(!var9) { _fun0008_ip = 2080; continue _fun0008 }
- 2077:
+                    if(!var9) { _fun0008_ip = 2081; continue _fun0008 }
+ 2078:
                     var7 = var8;
- 2080:
+ 2081:
                     var5['gpu_device_revision'] = var7;
                     var8 = var3 == var6;
                     var7 = undefined;
-                    if(var8) { _fun0008_ip = 2100; continue _fun0008 }
- 2094:
+                    if(var8) { _fun0008_ip = 2101; continue _fun0008 }
+ 2095:
                     var7 = var6.gpu_driver_version;
- 2100:
+ 2101:
                     var8 = var3 != var7;
                     var6 = null;
-                    if(!var8) { _fun0008_ip = 2112; continue _fun0008 }
- 2109:
+                    if(!var8) { _fun0008_ip = 2113; continue _fun0008 }
+ 2110:
                     var6 = var7;
- 2112:
+ 2113:
                     var5['gpu_driver_version'] = var6;
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -1446,10 +1446,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var6.bind(var7)();
                     var9 = var3 != var7;
                     var6 = null;
-                    if(!var9) { _fun0008_ip = 2159; continue _fun0008 }
- 2156:
+                    if(!var9) { _fun0008_ip = 2160; continue _fun0008 }
+ 2157:
                     var6 = var7;
- 2159:
+ 2160:
                     var5['cpu_usage'] = var6;
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -1459,10 +1459,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var6.bind(var7)();
                     var8 = var3 != var7;
                     var6 = null;
-                    if(!var8) { _fun0008_ip = 2205; continue _fun0008 }
- 2202:
+                    if(!var8) { _fun0008_ip = 2206; continue _fun0008 }
+ 2203:
                     var6 = var7;
- 2205:
+ 2206:
                     var5['memory_usage'] = var6;
                     var7 = _closure1_slot19;
                     var6 = _closure2_slot30;
@@ -1477,8 +1477,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var6.bind(var7)();
                     var5['hardware_enabled'] = var6;
                     var6 = _closure2_slot14;
-                    if(!(var3 == var6)) { _fun0008_ip = 2323; continue _fun0008 }
- 2279:
+                    if(!(var3 == var6)) { _fun0008_ip = 2324; continue _fun0008 }
+ 2280:
                     var8 = _closure1_slot7;
                     var6 = var8.getInputDevices;
                     var7 = var6.bind(var8)();
@@ -1487,18 +1487,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var7[var6];
                     var8 = var3 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0008_ip = 2321; continue _fun0008 }
- 2316:
+                    if(var8) { _fun0008_ip = 2322; continue _fun0008 }
+ 2317:
                     var6 = var7.name;
- 2321:
-                    _fun0008_ip = 2327; continue _fun0008;
- 2323:
+ 2322:
+                    _fun0008_ip = 2328; continue _fun0008;
+ 2324:
                     var6 = _closure2_slot14;
- 2327:
+ 2328:
                     var5['audio_input_device_name'] = var6;
                     var6 = _closure2_slot15;
-                    if(!(var3 == var6)) { _fun0008_ip = 2386; continue _fun0008 }
- 2342:
+                    if(!(var3 == var6)) { _fun0008_ip = 2387; continue _fun0008 }
+ 2343:
                     var8 = _closure1_slot7;
                     var6 = var8.getOutputDevices;
                     var7 = var6.bind(var8)();
@@ -1507,18 +1507,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var7[var6];
                     var8 = var3 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0008_ip = 2384; continue _fun0008 }
- 2379:
+                    if(var8) { _fun0008_ip = 2385; continue _fun0008 }
+ 2380:
                     var6 = var7.name;
- 2384:
-                    _fun0008_ip = 2390; continue _fun0008;
- 2386:
+ 2385:
+                    _fun0008_ip = 2391; continue _fun0008;
+ 2387:
                     var6 = _closure2_slot15;
- 2390:
+ 2391:
                     var5['audio_output_device_name'] = var6;
                     var6 = _closure2_slot16;
-                    if(!(var3 == var6)) { _fun0008_ip = 2449; continue _fun0008 }
- 2405:
+                    if(!(var3 == var6)) { _fun0008_ip = 2450; continue _fun0008 }
+ 2406:
                     var8 = _closure1_slot7;
                     var6 = var8.getVideoDevices;
                     var7 = var6.bind(var8)();
@@ -1527,14 +1527,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var7[var6];
                     var7 = var3 == var6;
                     var3 = undefined;
-                    if(var7) { _fun0008_ip = 2447; continue _fun0008 }
- 2442:
+                    if(var7) { _fun0008_ip = 2448; continue _fun0008 }
+ 2443:
                     var3 = var6.name;
- 2447:
-                    _fun0008_ip = 2453; continue _fun0008;
- 2449:
+ 2448:
+                    _fun0008_ip = 2454; continue _fun0008;
+ 2450:
                     var3 = _closure2_slot16;
- 2453:
+ 2454:
                     var5['video_device_name'] = var3;
                     var7 = _closure1_slot7;
                     var3 = var7.getMediaEngine;

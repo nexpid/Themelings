@@ -2678,16 +2678,49 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var4.bind(var6)(var3, var2);
  641:
             var2 = function handleOpenMutualGuilds() {
-                var2 = function close() {
-                    var4 = _closure1_slot1;
+                var5 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 84;
+                var4 = var2[var1];
+                var1 = undefined;
+                var6 = var5.bind(var1)(var4);
+                var5 = var6.openLazy;
+                var4 = _closure1_slot0;
+                var3 = 86;
+                var3 = var2[var3];
+                var4 = var4.bind(var1)(var3);
+                var3 = 93;
+                var3 = var2[var3];
+                var2 = var2.paths;
+                var4 = var4.bind(var1)(var3, var2);
+                var3 = {};
+                var2 = _closure2_slot3;
+                var3['user'] = var2;
+                var2 = function onPressMutualGuild(arg1) {
+                    var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 84;
+                    var1 = 94;
                     var3 = var5[var1];
                     var1 = undefined;
+                    var7 = var4.bind(var1)(var3);
+                    var6 = var7.trackUserProfileAction;
+                    var3 = {};
+                    var8 = 'PRESS_MUTUAL_GUILD';
+                    var3['action'] = var8;
+                    var3 = var6.bind(var7)(var3);
+                    var3 = 95;
+                    var3 = var5[var3];
+                    var6 = var4.bind(var1)(var3);
+                    var4 = var6.transitionToGuild;
+                    var3 = arg1;
+                    var3 = var4.bind(var6)(var3);
+                    var4 = _closure1_slot1;
+                    var3 = 84;
+                    var3 = var5[var3];
                     var6 = var4.bind(var1)(var3);
                     var3 = var6.hideActionSheet;
                     var3 = var3.bind(var6)();
-                    var3 = 93;
+                    var3 = 96;
                     var3 = var5[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.popWithKey;
@@ -2695,27 +2728,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var3.bind(var4)(var2);
                     return var1;
                 };
-                var6 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 84;
-                var5 = var3[var1];
-                var1 = undefined;
-                var6 = var6.bind(var1)(var5);
-                var5 = var6.openLazy;
-                var7 = _closure1_slot0;
-                var4 = 86;
-                var4 = var3[var4];
-                var7 = var7.bind(var1)(var4);
-                var4 = 94;
-                var4 = var3[var4];
-                var3 = var3.paths;
-                var4 = var7.bind(var1)(var4, var3);
-                var3 = {};
-                var7 = _closure2_slot3;
-                var7 = var7.id;
-                var3['userId'] = var7;
-                var3['onClose'] = var2;
-                var3['onSelectMutualGuild'] = var2;
+                var3['onPressMutualGuild'] = var2;
                 var2 = 'MutualGuildsActionSheet';
                 var2 = var5.bind(var6)(var4, var2, var3);
                 return var1;
@@ -2808,7 +2821,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 95;
+                var1 = 97;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -2837,7 +2850,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6['accessibilityLabel'] = var19;
             var27 = _closure1_slot42;
             var20 = _closure1_slot1;
-            var29 = 96;
+            var29 = 98;
             var19 = var21[var29];
             var20 = var20.bind(var5)(var19);
             var19 = {};
@@ -2938,7 +2951,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = _closure1_slot42;
             var16 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var15 = 97;
+            var15 = 99;
             var15 = var19[var15];
             var15 = var16.bind(var5)(var15);
             var16 = var15.ChatProvisionalAccountExplainerCard;
@@ -2993,12 +3006,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = var9.mutualGuildsContainer;
                     var1['style'] = var5;
                     var8 = _closure1_slot42;
-                    var5 = 98;
+                    var5 = 100;
                     var5 = var14[var5];
                     var5 = var10.bind(var3)(var5);
                     var7 = var5.GuildIconPile;
                     var5 = {};
-                    var12 = 99;
+                    var12 = 101;
                     var12 = var14[var12];
                     var12 = var10.bind(var3)(var12);
                     var12 = var12.GuildIconSizes;
@@ -3021,7 +3034,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5 = _closure1_slot42;
                         var3 = _closure1_slot1;
                         var8 = _closure1_slot2;
-                        var6 = 99;
+                        var6 = 101;
                         var2 = var8[var6];
                         var4 = undefined;
                         var3 = var3.bind(var4)(var2);
@@ -3109,7 +3122,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  24:
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 101;
+                            var1 = 103;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -3126,7 +3139,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  91:
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 100;
+                            var1 = 102;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -3283,7 +3296,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = function onPress() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 100;
+                        var1 = 102;
                         var2 = var2[var1];
                         var1 = undefined;
                         var5 = var3.bind(var1)(var2);
@@ -3431,7 +3444,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = _closure1_slot42;
             var12 = _closure1_slot7;
             var9 = {};
-            var11 = 102;
+            var11 = 104;
             var11 = var17[var11];
             var11 = var13.bind(var4)(var11);
             var9['source'] = var11;
@@ -3441,7 +3454,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = _closure1_slot42;
             var10 = {};
             var15 = _closure1_slot0;
-            var13 = 103;
+            var13 = 105;
             var13 = var17[var13];
             var15 = var15.bind(var4)(var13);
             var13 = var15.isThemeDark;
@@ -3450,12 +3463,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = _closure1_slot2;
             if(var13) { _fun0027_ip = 252; continue _fun0027 }
  238:
-            var13 = 105;
+            var13 = 107;
             var13 = var16[var13];
             var13 = var15.bind(var4)(var13);
             _fun0027_ip = 264; continue _fun0027;
  252:
-            var14 = 104;
+            var14 = 106;
             var14 = var16[var14];
             var13 = var15.bind(var4)(var14);
  264:
@@ -3487,7 +3500,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = _closure1_slot42;
         var12 = _closure1_slot0;
         var16 = _closure1_slot2;
-        var11 = 106;
+        var11 = 108;
         var5 = var16[var11];
         var1 = undefined;
         var5 = var12.bind(var1)(var5);
@@ -3564,7 +3577,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = function() {
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 107;
+                var1 = 109;
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
@@ -3597,7 +3610,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = var4.bind(var5)(var2);
                         var6 = _closure1_slot1;
                         var7 = _closure1_slot2;
-                        var2 = 108;
+                        var2 = 110;
                         var2 = var7[var2];
                         var8 = var6.bind(var5)(var2);
                         var7 = var8.mobileCreateInvite;
@@ -3659,12 +3672,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 109;
+                    var1 = 111;
                     var3 = var7[var1];
                     var1 = undefined;
                     var5 = var6.bind(var1)(var3);
                     var4 = var5.UNSAFE_isDismissibleContentDismissed;
-                    var3 = 110;
+                    var3 = 112;
                     var3 = var7[var3];
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.DismissibleContent;
@@ -3674,7 +3687,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  63:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 111;
+                    var2 = 113;
                     var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = {};
@@ -3698,12 +3711,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 109;
+                    var1 = 111;
                     var3 = var7[var1];
                     var1 = undefined;
                     var5 = var6.bind(var1)(var3);
                     var4 = var5.UNSAFE_isDismissibleContentDismissed;
-                    var3 = 110;
+                    var3 = 112;
                     var3 = var7[var3];
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.DismissibleContent;
@@ -3713,7 +3726,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  63:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 111;
+                    var2 = 113;
                     var2 = var4[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = {};
@@ -3730,7 +3743,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var17 = var3.bind(var5)(var1, var2);
             var2 = var15.id;
-            var1 = 112;
+            var1 = 114;
             var1 = var6[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.FAKE_PLACEHOLDER_PRIVATE_CHANNEL_ID;
@@ -3741,14 +3754,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var21.centerHeader;
             var1['style'] = var5;
             var10 = _closure1_slot42;
-            var5 = 113;
+            var5 = 115;
             var5 = var6[var5];
             var9 = var9.bind(var4)(var5);
             var5 = {};
             var13 = var21.avatarRedesign;
             var5['style'] = var13;
             var5['channel'] = var15;
-            var13 = 96;
+            var13 = 98;
             var13 = var6[var13];
             var13 = var8.bind(var4)(var13);
             var13 = var13.AvatarSizes;
@@ -3840,7 +3853,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['onPress'] = var19;
             var25 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var20 = 114;
+            var20 = 116;
             var20 = var19[var20];
             var20 = var25.bind(var4)(var20);
             var20 = var20.GroupPlusIcon;
@@ -3877,7 +3890,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13['onPress'] = var17;
             var21 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var19 = 115;
+            var19 = 117;
             var19 = var17[var19];
             var19 = var21.bind(var4)(var19);
             var19 = var19.LinkIcon;
@@ -3923,7 +3936,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = _closure1_slot42;
             var13 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var12 = 116;
+            var12 = 118;
             var12 = var16[var12];
             var13 = var13.bind(var4)(var12);
             var12 = {};
@@ -3942,7 +3955,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var _closure1_slot56 = var4;
-    var4 = 119;
+    var4 = 121;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -3993,7 +4006,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var11 = var8.bind(var11)(var2, var1);
             var2 = _closure1_slot1;
-            var1 = 117;
+            var1 = 119;
             var1 = var6[var1];
             var12 = var2.bind(var4)(var1);
             var8 = var12.useExperiment;
@@ -4098,7 +4111,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot42;
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 118;
+            var1 = 120;
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.RedesignCompat;

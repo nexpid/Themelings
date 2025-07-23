@@ -1,4 +1,4 @@
-// app/modules/stickers/native/StickersPremiumUpsellAlert.tsx
+// app/modules/stickers/native/premium/StickersPremiumUpsellAlert.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
     var5 = native2;
     var12 = native3;
@@ -267,7 +267,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/stickers/native/StickersPremiumUpsellAlert.tsx';
+    var4 = 'modules/stickers/native/premium/StickersPremiumUpsellAlert.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {

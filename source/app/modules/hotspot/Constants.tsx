@@ -96,6 +96,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['BLOCK_USER_FEEDBACK'] = var1;
     var1 = 'SEARCH_RESULTS_FEEDBACK';
     var2['SEARCH_RESULTS_FEEDBACK'] = var1;
+    var1 = 'AGE_VERIFICATION_FEEDBACK';
+    var2['AGE_VERIFICATION_FEEDBACK'] = var1;
     var1 = 'CLIPS_CHANNEL_ATTACH_REMINDER';
     var2['CLIPS_CHANNEL_ATTACH_REMINDER'] = var1;
     var4 = native7;

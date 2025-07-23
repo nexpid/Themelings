@@ -32,50 +32,50 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = var9 == var2;
         var1 = undefined;
         var5 = undefined;
-        if(var6) { _fun0001_ip = 151; continue _fun0001 }
- 130:
+        if(var6) { _fun0001_ip = 153; continue _fun0001 }
+ 132:
         var2 = var2.navigator;
         var6 = var9 == var2;
         var5 = undefined;
-        if(var6) { _fun0001_ip = 151; continue _fun0001 }
- 145:
+        if(var6) { _fun0001_ip = 153; continue _fun0001 }
+ 147:
         var5 = var2.platform;
- 151:
+ 153:
         var2 = 'MacIntel';
         var2 = var2 === var5;
-        if(!var2) { _fun0001_ip = 204; continue _fun0001 }
- 164:
+        if(!var2) { _fun0001_ip = 206; continue _fun0001 }
+ 166:
         var6 = var4.window;
         var7 = var9 == var6;
         var5 = undefined;
-        if(var7) { _fun0001_ip = 200; continue _fun0001 }
- 179:
+        if(var7) { _fun0001_ip = 202; continue _fun0001 }
+ 181:
         var6 = var6.navigator;
         var7 = var9 == var6;
         var5 = undefined;
-        if(var7) { _fun0001_ip = 200; continue _fun0001 }
- 194:
+        if(var7) { _fun0001_ip = 202; continue _fun0001 }
+ 196:
         var5 = var6.standalone;
- 200:
+ 202:
         var2 = var1 !== var5;
- 204:
-        if(!var2) { _fun0001_ip = 252; continue _fun0001 }
- 207:
+ 206:
+        if(!var2) { _fun0001_ip = 254; continue _fun0001 }
+ 209:
         var4 = var4.window;
         var6 = var9 == var4;
         var5 = undefined;
-        if(var6) { _fun0001_ip = 245; continue _fun0001 }
- 222:
+        if(var6) { _fun0001_ip = 247; continue _fun0001 }
+ 224:
         var4 = var4.navigator;
         var6 = var9 == var4;
         var5 = undefined;
-        if(var6) { _fun0001_ip = 245; continue _fun0001 }
- 237:
+        if(var6) { _fun0001_ip = 247; continue _fun0001 }
+ 239:
         var5 = var4.maxTouchPoints;
- 245:
+ 247:
         var4 = 1;
         var2 = var5 > var4;
- 252:
+ 254:
         var6 = var12.has;
         var7 = 0;
         var4 = var8[var7];
@@ -84,71 +84,71 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var14 = var9 != var13;
         var5 = '';
         var4 = var5;
-        if(!var14) { _fun0001_ip = 291; continue _fun0001 }
- 288:
+        if(!var14) { _fun0001_ip = 293; continue _fun0001 }
+ 290:
         var4 = var13;
- 291:
+ 293:
         var6 = var6.bind(var12)(var4);
-        if(var6) { _fun0001_ip = 302; continue _fun0001 }
- 299:
+        if(var6) { _fun0001_ip = 304; continue _fun0001 }
+ 301:
         var6 = var2;
- 302:
+ 304:
         var2 = !var6;
-        if(!var2) { _fun0001_ip = 376; continue _fun0001 }
- 308:
+        if(!var2) { _fun0001_ip = 378; continue _fun0001 }
+ 310:
         var4 = var11.has;
         var12 = var8[var7];
         var12 = var10.bind(var1)(var12);
         var13 = var9 == var12;
         var12 = undefined;
-        if(var13) { _fun0001_ip = 361; continue _fun0001 }
- 331:
+        if(var13) { _fun0001_ip = 363; continue _fun0001 }
+ 333:
         var13 = var8[var7];
         var13 = var10.bind(var1)(var13);
         var13 = var13.os;
         var14 = var9 == var13;
         var12 = undefined;
-        if(var14) { _fun0001_ip = 361; continue _fun0001 }
- 355:
+        if(var14) { _fun0001_ip = 363; continue _fun0001 }
+ 357:
         var12 = var13.family;
- 361:
+ 363:
         var13 = var9 != var12;
-        if(!var13) { _fun0001_ip = 371; continue _fun0001 }
- 368:
+        if(!var13) { _fun0001_ip = 373; continue _fun0001 }
+ 370:
         var5 = var12;
- 371:
+ 373:
         var2 = var4.bind(var11)(var5);
- 376:
+ 378:
         var4 = var8[var7];
         var4 = var10.bind(var1)(var4);
         var4 = var9 == var4;
         var5 = undefined;
-        if(var4) { _fun0001_ip = 424; continue _fun0001 }
- 394:
+        if(var4) { _fun0001_ip = 426; continue _fun0001 }
+ 396:
         var4 = var8[var7];
         var4 = var10.bind(var1)(var4);
         var4 = var4.os;
         var11 = var9 == var4;
         var5 = undefined;
-        if(var11) { _fun0001_ip = 424; continue _fun0001 }
- 418:
+        if(var11) { _fun0001_ip = 426; continue _fun0001 }
+ 420:
         var5 = var4.family;
- 424:
+ 426:
         var4 = var8[var7];
         var4 = var10.bind(var1)(var4);
         var11 = var9 == var4;
         var4 = undefined;
-        if(var11) { _fun0001_ip = 472; continue _fun0001 }
- 442:
+        if(var11) { _fun0001_ip = 474; continue _fun0001 }
+ 444:
         var7 = var8[var7];
         var7 = var10.bind(var1)(var7);
         var7 = var7.os;
         var9 = var9 == var7;
         var4 = undefined;
-        if(var9) { _fun0001_ip = 472; continue _fun0001 }
- 466:
+        if(var9) { _fun0001_ip = 474; continue _fun0001 }
+ 468:
         var4 = var7.family;
- 472:
+ 474:
         var7 = 1;
         var8 = var8[var7];
         var7 = native2;

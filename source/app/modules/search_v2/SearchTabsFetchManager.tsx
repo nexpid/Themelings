@@ -1,4 +1,4 @@
-// app/modules/search_v2/SearchFetchManager.tsx
+// app/modules/search_v2/SearchTabsFetchManager.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
     var5 = native2;
     var7 = native3;
@@ -83,10 +83,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.SEARCH_FILTERS_BY_TAB;
-    var _closure1_slot9 = var8;
-    var8 = var4.SEARCH_QUERY_BY_SEARCH_FILTER;
-    var _closure1_slot10 = var8;
+    var7 = var4.SEARCH_FILTERS_BY_TAB;
+    var _closure1_slot9 = var7;
+    var7 = var4.SEARCH_QUERY_BY_SEARCH_FILTER;
+    var _closure1_slot10 = var7;
     var4 = var4.SEARCH_QUERY_DEFAULT_FILTERS;
     var _closure1_slot11 = var4;
     var4 = 7;
@@ -94,53 +94,43 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var5.bind(var1)(var4);
     var4 = var4.SearchTypes;
     var _closure1_slot12 = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AbstractSearchFetchManager;
     var2 = function(arg1) {
-        var4 = function SearchFetchManager(arg1) {
+        var4 = function SearchTabsFetchManager() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var4 = this;
-                var12 = 0;
-                var1 = copyRestArgs(var12);
-                var7 = _closure1_slot4;
-                var2 = _closure2_slot0;
                 var3 = undefined;
-                var7 = var7.bind(var3)(var4, var2);
-                var9 = new Array(0);
-                var12 = var9;
-                var11 = var1;
-                var10 = 0;
-                var1 = arraySpread(var12, var11, var10);
+                var5 = undefined;
+                var1 = _closure1_slot4;
+                var2 = _closure2_slot0;
+                var1 = var1.bind(var3)(var4, var2);
                 var1 = _closure1_slot7;
-                var8 = var1.bind(var3)(var2);
+                var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot6;
                 var1 = _closure1_slot13;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0002_ip = 84; continue _fun0002 }
- 71:
-                var1 = var8.apply;
-                var1 = var1.bind(var8)(var4, var9);
-                _fun0002_ip = 118; continue _fun0002;
- 84:
-                var6 = global;
-                var7 = var6.Reflect;
-                var6 = var7.construct;
-                var5 = _closure1_slot7;
-                var5 = var5.bind(var3)(var4);
-                var5 = var5.constructor;
-                var1 = var6.bind(var7)(var8, var9, var5);
- 118:
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
+ 51:
+                var7 = var9.apply;
+                var5 = arguments;
+                var1 = var5;
+                var1 = var7.bind(var9)(var4, var1);
+                _fun0002_ip = 105; continue _fun0002;
+ 69:
+                var7 = global;
+                var8 = var7.Reflect;
+                var7 = var8.construct;
+                var6 = _closure1_slot7;
+                var6 = var6.bind(var3)(var4);
+                var6 = var6.constructor;
+                var5 = arguments;
+                var1 = var7.bind(var8)(var9, var5, var6);
+ 105:
                 var1 = var2.bind(var3)(var4, var1);
-                var2 = global;
-                var2 = var2.Map;
-                var3 = var2.prototype;
-                var3 = Object.create(var3, {constructor: {value: var2}});
-                var13 = var3;
-                var2 = new var13[var2](var12);
-                var2 = var2 instanceof Object ? var2 : var3;
-                var1['searchTabFetchers'] = var2;
                 return var1;
             }
         };
@@ -151,7 +141,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot5;
         var5 = {};
-        var1 = 'createSearchTabsPayload';
+        var1 = 'createRequestPayload';
         var5['key'] = var1;
         var1 = function value(arg1) {
             var1 = arg1;
@@ -220,10 +210,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(5);
+        var1 = new Array(3);
         var1[0] = var5;
         var5 = {};
-        var7 = 'createSearchTabFetcher';
+        var7 = 'createWithPayload';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -236,7 +226,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var2.getLimit;
                 var7 = var2.pagination;
                 var5 = var2.trackExactTotalHits;
-                var3 = var4.createSearchTabsPayload;
+                var3 = var4.createRequestPayload;
                 var2 = {};
                 var2['searchQuery'] = var6;
                 var2['searchTabs'] = var9;
@@ -333,104 +323,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
-        var7 = '_terminate';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = this;
-            var4 = var1.searchTabFetchers;
-            var3 = var4.forEach;
-            var2 = function(arg1) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
-                    var3 = arg1;
-                    var1 = null;
-                    var2 = var1 == var3;
-                    var1 = undefined;
-                    if(var2) { _fun0005_ip = 24; continue _fun0005 }
- 14:
-                    var2 = var3.cancel;
-                    var1 = var2.bind(var3)();
- 24:
-                    return var1;
-                }
-            };
-            var2 = var3.bind(var4)(var2);
-            var2 = var1.searchTabFetchers;
-            var1 = var2.clear;
-            var1 = var1.bind(var2)();
-            var1 = undefined;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[2] = var5;
-        var5 = {};
-        var7 = 'cancelInFlightRequests';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot1;
-                var1 = 9;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.getSearchContextId;
-                var2 = arg1;
-                var4 = var3.bind(var4)(var2);
-                var2 = this;
-                var3 = var2.searchTabFetchers;
-                var2 = var3.get;
-                var3 = var2.bind(var3)(var4);
-                var2 = null;
-                if(!(var2 != var3)) { _fun0006_ip = 74; continue _fun0006 }
- 64:
-                var2 = var3.cancel;
-                var2 = var2.bind(var3)();
- 74:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[3] = var5;
-        var5 = {};
-        var7 = 'getSearchTabFetcher';
+        var7 = 'create';
         var5['key'] = var7;
         var6 = function value(arg1) {
             var1 = arg1;
-            var2 = this;
-            var5 = var1.searchContext;
+            var4 = this;
+            var3 = var1.id;
+            var10 = var1.searchContext;
             var9 = var1.searchQuery;
             var8 = var1.searchTabs;
             var7 = var1.getLimit;
             var6 = var1.pagination;
-            var4 = var1.trackExactTotalHits;
-            var1 = var2.cancelInFlightRequests;
-            var1 = var1.bind(var2)(var5);
-            var3 = var2.createSearchTabFetcher;
+            var5 = var1.trackExactTotalHits;
+            var1 = var4.cancel;
+            var1 = var1.bind(var4)(var3);
+            var2 = var4.createWithPayload;
             var1 = {};
-            var1['searchContext'] = var5;
+            var1['searchContext'] = var10;
             var1['searchQuery'] = var9;
             var1['searchTabs'] = var8;
             var1['getLimit'] = var7;
             var1['pagination'] = var6;
-            var1['trackExactTotalHits'] = var4;
-            var1 = var3.bind(var2)(var1);
-            var6 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var3 = 9;
-            var4 = var4[var3];
-            var3 = undefined;
-            var4 = var6.bind(var3)(var4);
-            var3 = var4.getSearchContextId;
-            var4 = var3.bind(var4)(var5);
-            var3 = var2.searchTabFetchers;
-            var2 = var3.set;
-            var2 = var2.bind(var3)(var4, var1);
+            var1['trackExactTotalHits'] = var5;
+            var1 = var2.bind(var4)(var1);
+            var2 = var4.set;
+            var2 = var2.bind(var4)(var3, var1);
             return var1;
         };
         var5['value'] = var6;
-        var1[4] = var5;
+        var1[2] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -440,11 +361,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/search_v2/SearchFetchManager.tsx';
+    var4 = 'modules/search_v2/SearchTabsFetchManager.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

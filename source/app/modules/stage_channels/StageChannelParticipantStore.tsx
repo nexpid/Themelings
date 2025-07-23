@@ -542,31 +542,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
             var3 = arg1;
-            var4 = arg2;
+            var6 = arg2;
             var2 = arg3;
-            var1 = null;
-            if(!(var1 != var2)) { _fun0016_ip = 85; continue _fun0016 }
+            var4 = null;
+            if(!(var4 != var2)) { _fun0016_ip = 97; continue _fun0016 }
  15:
-            var5 = var3.has;
-            var5 = var5.bind(var3)(var2);
-            if(var5) { _fun0016_ip = 85; continue _fun0016 }
+            var1 = var3.has;
+            var1 = var1.bind(var3)(var2);
+            if(var1) { _fun0016_ip = 97; continue _fun0016 }
  28:
-            var6 = _closure1_slot10;
-            var5 = var6.getChannel;
-            var6 = var5.bind(var6)(var2);
-            var1 = var1 != var6;
-            if(!var1) { _fun0016_ip = 62; continue _fun0016 }
+            var7 = _closure1_slot10;
+            var5 = var7.getChannel;
+            var8 = var5.bind(var7)(var2);
+            var5 = var4 != var8;
+            if(!var5) { _fun0016_ip = 62; continue _fun0016 }
  52:
-            var5 = var6.isGuildStageVoice;
-            var1 = var5.bind(var6)();
+            var7 = var8.isGuildStageVoice;
+            var5 = var7.bind(var8)();
  62:
-            if(!var1) { _fun0016_ip = 85; continue _fun0016 }
+            if(!var5) { _fun0016_ip = 97; continue _fun0016 }
  65:
-            var1 = var4.add;
-            var1 = var1.bind(var4)(var2);
+            var5 = var6.add;
+            var5 = var5.bind(var6)(var2);
+            var1 = _closure1_slot23;
+            var1 = var1[var2];
+            if(!(var4 == var1)) { _fun0016_ip = 97; continue _fun0016 }
+ 87:
             var1 = var3.add;
             var1 = var1.bind(var3)(var2);
- 85:
+ 97:
             var1 = undefined;
             return var1;
         }

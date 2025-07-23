@@ -770,7 +770,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = {};
                 var4['affinities'] = var6;
                 var7 = null;
-                var4['searchContext'] = var7;
+                var4['userSearchContext'] = var7;
                 var9 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var8 = 12;
@@ -1257,7 +1257,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = 14;
                 var5 = var7[var5];
                 var7 = var6.bind(var1)(var5);
-                var6 = var7.getSearchContext;
+                var6 = var7.getUserSearchContext;
                 var5 = function(arg1) {
                     _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
  0:
@@ -1351,7 +1351,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = 20;
                 var3 = var6.bind(var7)(var5, var4);
  79:
-                var2['searchContext'] = var3;
+                var2['userSearchContext'] = var3;
                 var5 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var4 = 15;
@@ -1446,7 +1446,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = this;
                 var1 = undefined;
                 var2['onUpdate'] = var1;
-                var4 = var2.searchContext;
+                var4 = var2.userSearchContext;
                 var3 = null;
                 if(!(var3 != var4)) { _fun0026_ip = 33; continue _fun0026 }
  23:
@@ -1568,7 +1568,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = null;
                 var3 = var4.bind(var5)(var3, var6);
  90:
-                var5 = var2.searchContext;
+                var5 = var2.userSearchContext;
                 var3 = null;
                 if(!(var3 != var5)) { _fun0027_ip = 169; continue _fun0027 }
  102:
@@ -1582,7 +1582,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var4.bind(var5)(var3);
                 _fun0027_ip = 169; continue _fun0027;
  147:
-                var3 = var2.searchContext;
+                var3 = var2.userSearchContext;
                 var2 = null;
                 if(!(var2 != var3)) { _fun0027_ip = 169; continue _fun0027 }
  159:

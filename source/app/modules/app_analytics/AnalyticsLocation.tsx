@@ -188,6 +188,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['GUILD_POWERUPS_COACHMARK_NEW_PERKS'] = var1;
     var1 = 'guild powerups - coachmark - purchaseable perks';
     var2['GUILD_POWERUPS_COACHMARK_PURCHASEABLE_PERKS'] = var1;
+    var1 = 'guild powerups - coachmark - new perk available';
+    var2['GUILD_POWERUPS_COACHMARK_NEW_PERK_AVAILABLE'] = var1;
     var1 = 'guild powerups - marketing';
     var2['GUILD_POWERUPS_MARKETING'] = var1;
     var1 = 'guild boosting premium upsell';

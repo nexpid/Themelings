@@ -205,7 +205,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = 3;
             var10 = var21[var10];
             var19 = var19.bind(var5)(var10);
-            var10 = var19.fetchUserProfileEffects;
+            var10 = var19.fetchAllProfileEffects;
             var10 = var10.bind(var19)();
             if(!(var12 != var20)) { _fun0001_ip = 535; continue _fun0001 }
  504:

@@ -21,7 +21,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = {'id': 0, 'label': 'Control'};
     var6 = {'enabled': false, 'delayMs': 0, 'inExperiment': true};
     var4['config'] = var6;
-    var10 = new Array(3);
+    var10 = new Array(6);
     var10[0] = var4;
     var6 = {'id': 1, 'label': 'Delay 100 ms'};
     var4 = 1;
@@ -33,6 +33,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var12 = {'enabled': true, 'delayMs': 200, 'inExperiment': true};
     var11['config'] = var12;
     var10[2] = var11;
+    var11 = {'id': 3, 'label': 'Control (overlap)'};
+    var12 = {'enabled': false, 'delayMs': 0, 'inExperiment': true};
+    var11['config'] = var12;
+    var10[3] = var11;
+    var11 = {'id': 4, 'label': 'Delay 100 ms (overlap)'};
+    var12 = {'enabled': true, 'delayMs': 100, 'inExperiment': true};
+    var11['config'] = var12;
+    var10[4] = var11;
+    var11 = {'id': 5, 'label': 'Delay 200 ms (overlap)'};
+    var12 = {'enabled': true, 'delayMs': 200, 'inExperiment': true};
+    var11['config'] = var12;
+    var10[5] = var11;
     var5['treatments'] = var10;
     var5 = var9.bind(var1)(var5);
     var _closure1_slot0 = var5;
@@ -48,6 +60,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9[1] = var10;
     var10 = {'enabled': true, 'delayMs': 200, 'inExperiment': true};
     var9[2] = var10;
+    var10 = {'enabled': false, 'delayMs': 0, 'inExperiment': true};
+    var9[3] = var10;
+    var10 = {'enabled': true, 'delayMs': 100, 'inExperiment': true};
+    var9[4] = var10;
+    var10 = {'enabled': true, 'delayMs': 200, 'inExperiment': true};
+    var9[5] = var10;
     var4['variations'] = var9;
     var4 = var8.bind(var1)(var4);
     var _closure1_slot1 = var4;
@@ -67,31 +85,33 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.getCurrentConfig;
             var2 = {};
             var2['location'] = var6;
-            var4 = var3.bind(var4)(var2);
-            var3 = var4.enabled;
-            var2 = var4.delayMs;
-            var4 = var4.inExperiment;
-            if(var4) { _fun0001_ip = 103; continue _fun0001 }
- 47:
+            var2 = var3.bind(var4)(var2);
+            var4 = var2.enabled;
+            var3 = var2.delayMs;
+            var7 = var2.inExperiment;
             var5 = _closure1_slot1;
-            var4 = var5.getConfig;
+            var2 = var5.getConfig;
             var1 = {};
             var1['location'] = var6;
-            var4 = var4.bind(var5)(var1);
-            var1 = {};
-            var5 = var4.enabled;
-            var1['enabled'] = var5;
-            var5 = var4.delayMs;
-            var1['delayMs'] = var5;
-            var4 = var4.inExperiment;
-            var1['inExperiment'] = var4;
-            return var1;
- 103:
-            var1 = {};
-            var1['enabled'] = var3;
-            var1['delayMs'] = var2;
-            var2 = true;
-            var1['inExperiment'] = var2;
+            var1 = var2.bind(var5)(var1);
+            var6 = var1.enabled;
+            var5 = var1.delayMs;
+            var1 = var1.inExperiment;
+            var2 = {};
+            if(var7) { _fun0001_ip = 106; continue _fun0001 }
+ 87:
+            var2['enabled'] = var6;
+            var2['delayMs'] = var5;
+            var2['inExperiment'] = var1;
+            var1 = var2;
+            _fun0001_ip = 125; continue _fun0001;
+ 106:
+            var2['enabled'] = var4;
+            var2['delayMs'] = var3;
+            var3 = true;
+            var2['inExperiment'] = var3;
+            var1 = var2;
+ 125:
             return var1;
         }
     };

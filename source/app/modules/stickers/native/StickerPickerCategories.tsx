@@ -153,13 +153,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.GUILD;
             var20 = null;
             var17 = null;
-            if(!(var3 === var2)) { _fun0001_ip = 174; continue _fun0001 }
- 155:
+            if(!(var3 === var2)) { _fun0001_ip = 175; continue _fun0001 }
+ 156:
             var5 = _closure1_slot6;
             var3 = var5.getGuild;
             var2 = var12.id;
             var17 = var3.bind(var5)(var2);
- 174:
+ 175:
             _closure2_slot3 = var17;
             var5 = _closure1_slot4;
             var3 = var5.useCallback;
@@ -265,10 +265,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.length;
             var7 = var5 > var19;
             var5 = undefined;
-            if(!var7) { _fun0001_ip = 320; continue _fun0001 }
- 317:
+            if(!var7) { _fun0001_ip = 321; continue _fun0001 }
+ 318:
             var5 = var6;
- 320:
+ 321:
             var1['onPress'] = var5;
             var5 = var16.item;
             var1['style'] = var5;
@@ -278,18 +278,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var16.itemInner;
             var8 = new Array(2);
             var8[0] = var9;
-            if(var15) { _fun0001_ip = 368; continue _fun0001 }
- 360:
+            if(var15) { _fun0001_ip = 369; continue _fun0001 }
+ 361:
             var9 = var16.fadedItem;
-            _fun0001_ip = 374; continue _fun0001;
- 368:
+            _fun0001_ip = 375; continue _fun0001;
+ 369:
             var9 = var16.activeItem;
- 374:
+ 375:
             var8[1] = var9;
             var5['style'] = var8;
             var8 = var12.icon;
-            if(!(var20 == var8)) { _fun0001_ip = 617; continue _fun0001 }
- 394:
+            if(!(var20 == var8)) { _fun0001_ip = 618; continue _fun0001 }
+ 395:
             var9 = var12.type;
             var10 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -297,8 +297,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var10.bind(var4)(var8);
             var8 = var8.StickerCategoryTypes;
             var8 = var8.GUILD;
-            if(!(var9 !== var8)) { _fun0001_ip = 529; continue _fun0001 }
- 432:
+            if(!(var9 !== var8)) { _fun0001_ip = 530; continue _fun0001 }
+ 433:
             var10 = _closure1_slot14;
             var9 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -308,28 +308,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = {};
             var18 = 'previewSticker';
             var18 = var18 in var12;
-            if(!var18) { _fun0001_ip = 479; continue _fun0001 }
- 469:
+            if(!var18) { _fun0001_ip = 480; continue _fun0001 }
+ 470:
             var18 = var12.previewSticker;
-            if(!(var20 == var18)) { _fun0001_ip = 491; continue _fun0001 }
- 479:
+            if(!(var20 == var18)) { _fun0001_ip = 492; continue _fun0001 }
+ 480:
             var18 = var12.stickers;
             var18 = var18[var19];
-            _fun0001_ip = 497; continue _fun0001;
- 491:
+            _fun0001_ip = 498; continue _fun0001;
+ 492:
             var18 = var12.previewSticker;
- 497:
+ 498:
             var8['sticker'] = var18;
-            if(!var11) { _fun0001_ip = 508; continue _fun0001 }
- 505:
+            if(!var11) { _fun0001_ip = 509; continue _fun0001 }
+ 506:
             var11 = var15;
- 508:
+ 509:
             var8['animated'] = var11;
             var11 = _closure1_slot11;
             var8['size'] = var11;
             var8 = var10.bind(var4)(var9, var8);
-            _fun0001_ip = 615; continue _fun0001;
- 529:
+            _fun0001_ip = 616; continue _fun0001;
+ 530:
             var11 = _closure1_slot14;
             var10 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -349,9 +349,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var16.guildIcon;
             var9['style'] = var15;
             var8 = var11.bind(var4)(var10, var9);
- 615:
-            _fun0001_ip = 730; continue _fun0001;
- 617:
+ 616:
+            _fun0001_ip = 731; continue _fun0001;
+ 618:
             var11 = _closure1_slot14;
             var10 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -377,7 +377,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var13.bind(var14)(var12);
             var9['source'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 730:
+ 731:
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;

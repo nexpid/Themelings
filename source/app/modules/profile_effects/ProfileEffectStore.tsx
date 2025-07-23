@@ -190,7 +190,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot3;
         var5 = {};
-        var1 = 'isFetching';
+        var1 = 'isFetchingAll';
         var5['key'] = var1;
         var1 = function get() {
             var1 = _closure1_slot9;
@@ -298,18 +298,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var6[var2];
     var12 = var7.bind(var1)(var2);
     var2 = {};
-    var9 = function USER_PROFILE_EFFECTS_FETCH() {
+    var9 = function PROFILE_EFFECTS_FETCH_ALL() {
         var1 = true;
         _closure1_slot9 = var1;
         var1 = undefined;
         return var1;
     };
-    var2['USER_PROFILE_EFFECTS_FETCH'] = var9;
-    var9 = function USER_PROFILE_EFFECTS_FETCH_SUCCESS(arg1) {
+    var2['PROFILE_EFFECTS_FETCH_ALL'] = var9;
+    var9 = function PROFILE_EFFECTS_FETCH_ALL_SUCCESS(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var1 = arg1;
-            var4 = var1.profileEffects;
+            var4 = var1.presets;
             var1 = undefined;
             _closure1_slot10 = var1;
             var2 = global;
@@ -333,8 +333,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var2['USER_PROFILE_EFFECTS_FETCH_SUCCESS'] = var9;
-    var9 = function USER_PROFILE_EFFECTS_FETCH_FAILURE(arg1) {
+    var2['PROFILE_EFFECTS_FETCH_ALL_SUCCESS'] = var9;
+    var9 = function PROFILE_EFFECTS_FETCH_ALL_FAILURE(arg1) {
         var1 = arg1;
         var1 = var1.error;
         _closure1_slot10 = var1;
@@ -364,7 +364,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _closure1_slot9 = var2;
         return var1;
     };
-    var2['USER_PROFILE_EFFECTS_FETCH_FAILURE'] = var9;
+    var2['PROFILE_EFFECTS_FETCH_ALL_FAILURE'] = var9;
     var9 = function PROFILE_EFFECTS_SET_TRY_IT_OUT(arg1) {
         var1 = arg1;
         var2 = var1.id;

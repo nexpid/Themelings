@@ -108,7 +108,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
-            var2 = var3.fetchUserProfileEffects;
+            var2 = var3.fetchAllProfileEffects;
             var2 = var2.bind(var3)(var4);
             return var1;
         };

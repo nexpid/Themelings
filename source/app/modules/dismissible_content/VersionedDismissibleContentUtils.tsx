@@ -41,7 +41,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-            if(!(var3 !== var6)) { _fun0001_ip = 380; continue _fun0001 }
+            if(!(var3 !== var6)) { _fun0001_ip = 417; continue _fun0001 }
  47:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -49,7 +49,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GIFTING_PROMOTION_ICON;
-            if(!(var3 !== var6)) { _fun0001_ip = 352; continue _fun0001 }
+            if(!(var3 !== var6)) { _fun0001_ip = 389; continue _fun0001 }
  83:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -57,7 +57,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GIFTING_PROMOTION_DESKTOP_FIRST_TIME_COACHMARK;
-            if(!(var3 !== var6)) { _fun0001_ip = 352; continue _fun0001 }
+            if(!(var3 !== var6)) { _fun0001_ip = 389; continue _fun0001 }
  119:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -65,7 +65,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
-            if(!(var3 !== var6)) { _fun0001_ip = 352; continue _fun0001 }
+            if(!(var3 !== var6)) { _fun0001_ip = 389; continue _fun0001 }
  155:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -73,7 +73,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.GIFTING_PROMOTION_REMINDER;
-            if(!(var3 !== var6)) { _fun0001_ip = 352; continue _fun0001 }
+            if(!(var3 !== var6)) { _fun0001_ip = 389; continue _fun0001 }
  191:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -81,8 +81,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var2)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.ACTIVITIES_VOICE_LAUNCHER_BADGE;
-            if(!(var3 !== var6)) { _fun0001_ip = 269; continue _fun0001 }
+            if(!(var3 !== var6)) { _fun0001_ip = 306; continue _fun0001 }
  224:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var3 = var3[var5];
+            var3 = var4.bind(var2)(var3);
+            var3 = var3.DismissibleContent;
+            var3 = var3.GUILD_POWERUP_NEW_PERK_AVAILABLE_COACHMARK;
+            if(!(var3 !== var6)) { _fun0001_ip = 302; continue _fun0001 }
+ 257:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 7;
@@ -95,7 +103,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var5)(var6, var3);
             var3 = 0;
             return var3;
- 269:
+ 302:
+            var3 = 0;
+            return var3;
+ 306:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var3 = 5;
@@ -115,7 +126,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['surface'] = var6;
             var3 = var4.bind(var5)(var3);
             return var3;
- 352:
+ 389:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var3 = 4;
@@ -123,7 +134,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var2)(var3);
             var3 = var3.SUMMER_2025_GIFTING_PROMOTION_VERSION;
             return var3;
- 380:
+ 417:
             var4 = _closure1_slot3;
             var3 = var4.getMarketingBySurface;
             var5 = _closure1_slot0;
@@ -137,16 +148,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = null;
             var4 = var1 == var3;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 444; continue _fun0001 }
- 438:
+            if(var4) { _fun0001_ip = 481; continue _fun0001 }
+ 475:
             var2 = var3.version;
- 444:
+ 481:
             var3 = var1 != var2;
             var1 = 0;
-            if(!var3) { _fun0001_ip = 456; continue _fun0001 }
- 453:
+            if(!var3) { _fun0001_ip = 493; continue _fun0001 }
+ 490:
             var1 = var2;
- 456:
+ 493:
             return var1;
         }
     };

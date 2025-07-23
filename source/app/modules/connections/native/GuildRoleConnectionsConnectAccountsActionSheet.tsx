@@ -1056,20 +1056,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var16 = {'variant': 'text-md/medium', 'color': 'header-primary'};
                     var27 = var17 == var25;
                     var23 = undefined;
-                    if(var27) { _fun0008_ip = 1503; continue _fun0008 }
- 1498:
+                    if(var27) { _fun0008_ip = 1499; continue _fun0008 }
+ 1494:
                     var23 = var25.name;
+ 1499:
+                    if(!(var17 == var23)) { _fun0008_ip = 1520; continue _fun0008 }
  1503:
-                    if(!(var17 == var23)) { _fun0008_ip = 1524; continue _fun0008 }
- 1507:
                     var27 = var17 == var26;
                     var25 = undefined;
-                    if(var27) { _fun0008_ip = 1521; continue _fun0008 }
- 1516:
+                    if(var27) { _fun0008_ip = 1517; continue _fun0008 }
+ 1512:
                     var25 = var26.name;
- 1521:
+ 1517:
                     var23 = var25;
- 1524:
+ 1520:
                     var16['children'] = var23;
                     var20 = var22.bind(var4)(var20, var16);
                     var16 = new Array(3);
@@ -1077,8 +1077,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var16[1] = var19;
                     var18 = var17 != var18;
                     var17 = null;
-                    if(!var18) { _fun0008_ip = 1673; continue _fun0008 }
- 1555:
+                    if(!var18) { _fun0008_ip = 1669; continue _fun0008 }
+ 1551:
                     var20 = _closure1_slot28;
                     var19 = _closure1_slot7;
                     var18 = {};
@@ -1133,7 +1133,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var21 = var23.bind(var4)(var22, var21);
                     var18['children'] = var21;
                     var17 = var20.bind(var4)(var19, var18);
- 1673:
+ 1669:
                     var16[2] = var17;
                     var11['children'] = var16;
                     var13 = var15.bind(var4)(var13, var11);

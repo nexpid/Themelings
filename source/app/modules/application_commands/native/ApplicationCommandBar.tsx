@@ -809,8 +809,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var9.applicationTopWrapperScrollView;
             var5['contentContainerStyle'] = var7;
             var8 = var18 != var17;
-            if(!var8) { _fun0006_ip = 492; continue _fun0006 }
- 446:
+            if(!var8) { _fun0006_ip = 488; continue _fun0006 }
+ 442:
             var16 = _closure1_slot7;
             var12 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -822,7 +822,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['style'] = var20;
             var7['source'] = var17;
             var8 = var16.bind(var4)(var12, var7);
- 492:
+ 488:
             var7 = new Array(4);
             var7[0] = var8;
             var16 = _closure1_slot7;
@@ -844,8 +844,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var15.options;
             var12 = var18 == var17;
             var8 = undefined;
-            if(var12) { _fun0006_ip = 615; continue _fun0006 }
- 598:
+            if(var12) { _fun0006_ip = 611; continue _fun0006 }
+ 594:
             var16 = var17.map;
             var12 = function(arg1) {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
@@ -899,11 +899,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var8 = var16.bind(var17)(var12);
- 615:
+ 611:
             var7[2] = var8;
             var8 = null;
-            if(!var10) { _fun0006_ip = 855; continue _fun0006 }
- 627:
+            if(!var10) { _fun0006_ip = 851; continue _fun0006 }
+ 623:
             var16 = _closure1_slot9;
             var12 = _closure1_slot8;
             var10 = {};
@@ -914,10 +914,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23 = new Array(2);
             var23[0] = var25;
             var24 = !var24;
-            if(!var24) { _fun0006_ip = 673; continue _fun0006 }
- 667:
+            if(!var24) { _fun0006_ip = 669; continue _fun0006 }
+ 663:
             var24 = var9.applicationOptionalOptionsDividerWithNoRequired;
- 673:
+ 669:
             var23[1] = var24;
             var17['style'] = var23;
             var21 = var22.bind(var4)(var21, var17);
@@ -948,8 +948,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = var15.options;
             var20 = var18 == var21;
             var18 = undefined;
-            if(var20) { _fun0006_ip = 841; continue _fun0006 }
- 824:
+            if(var20) { _fun0006_ip = 837; continue _fun0006 }
+ 820:
             var20 = var21.map;
             var19 = function(arg1) {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
@@ -993,11 +993,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var18 = var20.bind(var21)(var19);
- 841:
+ 837:
             var17[2] = var18;
             var10['children'] = var17;
             var8 = var16.bind(var4)(var12, var10);
- 855:
+ 851:
             var7[3] = var8;
             var5['children'] = var7;
             var6 = var3.bind(var4)(var6, var5);

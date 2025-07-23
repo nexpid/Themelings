@@ -36,7 +36,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot7 = var4;
-    var4 = 13;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -47,26 +47,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var1 = arg1;
             var2 = var1.channel;
-            var11 = var1.disableTint;
+            var8 = var1.isSmallSize;
+            var9 = var1.disableTint;
             var4 = undefined;
-            if(!(var11 === var4)) { _fun0001_ip = 24; continue _fun0001 }
- 22:
-            var11 = false;
- 24:
-            var9 = var1.isSmallSize;
+            if(!(var9 === var4)) { _fun0001_ip = 30; continue _fun0001 }
+ 28:
+            var9 = false;
+ 30:
             var _closure2_slot0 = var4;
             var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
-            var12 = _closure1_slot1;
-            var17 = _closure1_slot3;
+            var11 = _closure1_slot1;
+            var16 = _closure1_slot3;
             var1 = 4;
-            var1 = var17[var1];
-            var1 = var12.bind(var4)(var1);
+            var1 = var16[var1];
+            var1 = var11.bind(var4)(var1);
             var3 = var1.bind(var4)(var2);
-            var16 = _closure1_slot0;
+            var15 = _closure1_slot0;
             var1 = 5;
-            var1 = var17[var1];
-            var7 = var16.bind(var4)(var1);
+            var1 = var16[var1];
+            var7 = var15.bind(var4)(var1);
             var5 = var7.useStateFromStores;
             var1 = _closure1_slot5;
             var2 = new Array(1);
@@ -79,24 +79,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1 != var2;
                 return var1;
             };
-            var13 = var5.bind(var7)(var2, var1);
+            var12 = var5.bind(var7)(var2, var1);
             var1 = 6;
-            var1 = var17[var1];
-            var2 = var16.bind(var4)(var1);
+            var1 = var16[var1];
+            var2 = var15.bind(var4)(var1);
             var1 = var2.createMuteHandler;
-            var1 = var1.bind(var2)(var3, var13);
+            var1 = var1.bind(var2)(var3, var12);
             var7 = var1.mute;
             _closure2_slot0 = var7;
             var1 = var1.onPress;
             _closure2_slot1 = var1;
-            var1 = 7;
-            var1 = var17[var1];
-            var2 = var12.bind(var4)(var1);
-            var1 = {};
-            var3 = 'ChannelCallMicButton';
-            var1['location'] = var3;
-            var1 = var2.bind(var4)(var1);
-            var8 = var1.enabled;
             var5 = _closure1_slot4;
             var2 = var5.useRef;
             var1 = null;
@@ -112,7 +104,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = _closure1_slot7;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var1 = 8;
+                    var1 = 7;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -136,23 +128,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var3.bind(var5)(var1, var2);
             var3 = _closure1_slot7;
             var2 = _closure1_slot2;
-            var1 = 9;
-            var1 = var17[var1];
+            var1 = 8;
+            var1 = var16[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.ToggledActionButton;
             var1 = {};
-            var1['appearsDisabled'] = var13;
-            var13 = 10;
-            var14 = var17[var13];
-            var14 = var16.bind(var4)(var14);
-            var15 = var14.intl;
-            var14 = var15.string;
-            var13 = var17[var13];
-            var13 = var16.bind(var4)(var13);
-            var13 = var13.t;
-            var13 = var13.B3zz0N;
-            var13 = var14.bind(var15)(var13);
-            var1['accessibilityLabel'] = var13;
+            var1['appearsDisabled'] = var12;
+            var12 = 9;
+            var13 = var16[var12];
+            var13 = var15.bind(var4)(var13);
+            var14 = var13.intl;
+            var13 = var14.string;
+            var12 = var16[var12];
+            var12 = var15.bind(var4)(var12);
+            var12 = var12.t;
+            var12 = var12.B3zz0N;
+            var12 = var13.bind(var14)(var12);
+            var1['accessibilityLabel'] = var12;
             var10 = function onPress() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -179,41 +171,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var1['onPress'] = var10;
-            var10 = false;
-            var1['disableTint'] = var10;
-            var14 = _closure1_slot3;
-            if(var7) { _fun0001_ip = 361; continue _fun0001 }
- 352:
-            var10 = 12;
-            var10 = var14[var10];
-            _fun0001_ip = 368; continue _fun0001;
- 361:
-            var13 = 11;
-            var10 = var14[var13];
- 368:
-            var10 = var12.bind(var4)(var10);
+            var13 = _closure1_slot3;
+            if(var7) { _fun0001_ip = 322; continue _fun0001 }
+ 313:
+            var10 = 11;
+            var10 = var13[var10];
+            _fun0001_ip = 329; continue _fun0001;
+ 322:
+            var12 = 10;
+            var10 = var13[var12];
+ 329:
+            var10 = var11.bind(var4)(var10);
             var1['source'] = var10;
-            var10 = var7;
-            if(var8) { _fun0001_ip = 392; continue _fun0001 }
- 383:
-            if(var11) { _fun0001_ip = 389; continue _fun0001 }
- 386:
-            var11 = !var7;
- 389:
-            var10 = var11;
- 392:
-            var1['isActive'] = var10;
-            var1['isSmallSize'] = var9;
+            if(var9) { _fun0001_ip = 344; continue _fun0001 }
+ 341:
+            var9 = var7;
+ 344:
+            var1['isActive'] = var9;
+            var1['isSmallSize'] = var8;
             var1['lottieComponent'] = var5;
             var5 = undefined;
-            if(!var8) { _fun0001_ip = 427; continue _fun0001 }
- 412:
-            var5 = undefined;
-            if(!var7) { _fun0001_ip = 427; continue _fun0001 }
- 417:
+            if(!var7) { _fun0001_ip = 374; continue _fun0001 }
+ 364:
             var6 = _closure1_slot6;
             var5 = var6.RED_400;
- 427:
+ 374:
             var1['tintColor'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

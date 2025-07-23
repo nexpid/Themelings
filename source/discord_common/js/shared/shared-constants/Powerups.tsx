@@ -20,5 +20,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var4.bind(var5)(var2);
     var2 = '1387197800336330924';
     var3['VANITY_URL_POWERUP_SKU_ID'] = var2;
+    var2 = '1395150519886024775';
+    var3['GUILD_TAGS_BADGE_PACK_PETS_POWERUP_SKU_ID'] = var2;
+    var2 = '1395150923734581339';
+    var3['GUILD_TAGS_BADGE_PACK_FLEX_POWERUP_SKU_ID'] = var2;
     return var1;
 })();

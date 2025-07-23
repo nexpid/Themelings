@@ -86,7 +86,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = var7[var1];
                     var1 = undefined;
                     var5 = var6.bind(var1)(var5);
-                    if(var4) { _fun0002_ip = 273; continue _fun0002 }
+                    if(var4) { _fun0002_ip = 271; continue _fun0002 }
  38:
                     var8 = var5.addFavoriteGIF;
                     var4 = {};
@@ -142,8 +142,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = var10.GifIcon;
                     var4['IconComponent'] = var10;
                     var4 = var8.bind(var9)(var4);
-                    _fun0002_ip = 401; continue _fun0002;
- 273:
+                    _fun0002_ip = 399; continue _fun0002;
+ 271:
                     var4 = var5.removeFavoriteGIF;
                     var3 = _closure2_slot1;
                     var3 = var4.bind(var5)(var3);
@@ -172,7 +172,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = var5.GifIcon;
                     var2['IconComponent'] = var5;
                     var2 = var3.bind(var4)(var2);
- 401:
+ 399:
                     return var1;
                 }
             };
@@ -186,7 +186,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  222:
             var2 = var2.isGIFV;
             var1 = null;
-            if(!var2) { _fun0001_ip = 481; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 477; continue _fun0001 }
  236:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
@@ -206,30 +206,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var13[var8];
             var8 = var9.bind(var5)(var8);
             var9 = var8.t;
-            if(var6) { _fun0001_ip = 330; continue _fun0001 }
+            if(var6) { _fun0001_ip = 328; continue _fun0001 }
  315:
             var8 = var9.nIH0v7;
             var8 = var11.bind(var12)(var8);
-            _fun0001_ip = 343; continue _fun0001;
- 330:
+            _fun0001_ip = 339; continue _fun0001;
+ 328:
             var9 = var9.5/NS7+;
             var8 = var11.bind(var12)(var9);
- 343:
+ 339:
             var2['accessibilityLabel'] = var8;
             var2['onPress'] = var7;
             var9 = _closure1_slot4;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
-            if(var6) { _fun0001_ip = 406; continue _fun0001 }
- 366:
+            if(var6) { _fun0001_ip = 402; continue _fun0001 }
+ 362:
             var6 = 12;
             var6 = var12[var6];
             var6 = var8.bind(var5)(var6);
             var7 = var6.StarOutlineIcon;
             var6 = {'color': 'interactive-normal', 'size': 'md'};
             var6 = var9.bind(var5)(var7, var6);
-            _fun0001_ip = 471; continue _fun0001;
- 406:
+            _fun0001_ip = 467; continue _fun0001;
+ 402:
             var7 = 10;
             var7 = var12[var7];
             var7 = var8.bind(var5)(var7);
@@ -245,10 +245,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = 'md';
             var7['size'] = var10;
             var6 = var9.bind(var5)(var8, var7);
- 471:
+ 467:
             var2['icon'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 481:
+ 477:
             return var1;
         }
     };

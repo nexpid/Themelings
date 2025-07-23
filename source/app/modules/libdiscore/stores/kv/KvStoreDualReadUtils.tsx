@@ -1,4 +1,4 @@
-// app/modules/libdiscore/KvStoreDualReadUtils.tsx
+// app/modules/libdiscore/stores/kv/KvStoreDualReadUtils.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
     var5 = native2;
     var3 = native6;
@@ -555,7 +555,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/libdiscore/KvStoreDualReadUtils.tsx';
+    var4 = 'modules/libdiscore/stores/kv/KvStoreDualReadUtils.tsx';
     var4 = var5.bind(var6)(var4);
     var4 = function runDualReadValidation(arg1, arg2, arg3) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {

@@ -211,6 +211,80 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var _closure1_slot7 = var1;
+    var1 = function _UNSAFE_markTimeRecurringGuildDismissibleContentAsDismissed() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+                    StartGenerator();
+                    var8 = arg1;
+                    var7 = arguments[2];
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0004_ip = 141; continue _fun0004 }
+ 16:
+                    var4 = undefined;
+                    if(!(var7 === var4)) { _fun0004_ip = 24; continue _fun0004 }
+ 22:
+                    var7 = {};
+ 24:
+                    SaveGenerator(address=28);
+ 26:
+                    return var4;
+ 28:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0004_ip = 138; continue _fun0004 }
+ 34:
+                    var6 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var9 = 5;
+                    var10 = var3[var9];
+                    var11 = var6.bind(var4)(var10);
+                    var10 = var11.markDismissibleContentAsDismissedPreProcessing;
+                    var10 = var10.bind(var11)(var8, var7);
+                    var3 = var3[var9];
+                    var10 = var6.bind(var4)(var3);
+                    var6 = var10.UNSAFE_addTimeRecurringGuildDismissedContent;
+                    var3 = arg2;
+                    var3 = var6.bind(var10)(var8, var3);
+                    SaveGenerator(address=97);
+ 95:
+                    return var3;
+ 97:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(var6) { _fun0004_ip = 135; continue _fun0004 }
+ 103:
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var5 = var5[var9];
+                    var6 = var6.bind(var4)(var5);
+                    var5 = var6.markDismissibleContentAsDismissedPostProcessing;
+                    var5 = var5.bind(var6)(var8, var7);
+                    return var4;
+ 135:
+                    return var3;
+ 138:
+                    return var2;
+ 141:
+                    return var1;
+                }
+            };
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot8 = var1;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -271,7 +345,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['UNSAFE_markDismissibleContentAsDismissed'] = var4;
     var4 = function UNSAFE_isSnowflakeBoundDismissibleContentDismissed(arg1, arg2) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var5 = arg1;
             var2 = _closure1_slot0;
@@ -282,7 +356,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.bind(var6)(var1);
             var1 = var2.disableNewUserDismissibleContent;
             var1 = var1.bind(var2)(var5);
-            if(var1) { _fun0004_ip = 157; continue _fun0004 }
+            if(var1) { _fun0005_ip = 157; continue _fun0005 }
  42:
             var1 = _closure1_slot4;
             var1 = var1.settings;
@@ -290,19 +364,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = null;
             var7 = var3 == var1;
             var2 = undefined;
-            if(var7) { _fun0004_ip = 94; continue _fun0004 }
+            if(var7) { _fun0005_ip = 94; continue _fun0005 }
  69:
             var1 = var1.recurringDismissibleContentStates;
             var1 = var1[var5];
             var5 = var3 == var1;
             var2 = undefined;
-            if(var5) { _fun0004_ip = 94; continue _fun0004 }
+            if(var5) { _fun0005_ip = 94; continue _fun0005 }
  88:
             var2 = var1.lastDismissedObjectId;
  94:
             var1 = {};
             var3 = var3 != var2;
-            if(!var3) { _fun0004_ip = 145; continue _fun0004 }
+            if(!var3) { _fun0005_ip = 145; continue _fun0005 }
  103:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -324,7 +398,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var3['UNSAFE_isSnowflakeBoundDismissibleContentDismissed'] = var4;
-    var2 = function UNSAFE_markSingleUseGuildDismissibleContentAsDismissed() {
+    var4 = function UNSAFE_markSingleUseGuildDismissibleContentAsDismissed() {
         var1 = undefined;
         var4 = _closure1_slot7;
         var3 = var4.apply;
@@ -334,6 +408,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['UNSAFE_markSingleUseGuildDismissibleContentAsDismissed'] = var2;
+    var3['UNSAFE_markSingleUseGuildDismissibleContentAsDismissed'] = var4;
+    var2 = function UNSAFE_markTimeRecurringGuildDismissibleContentAsDismissed() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['UNSAFE_markTimeRecurringGuildDismissibleContentAsDismissed'] = var2;
     return var1;
 })();

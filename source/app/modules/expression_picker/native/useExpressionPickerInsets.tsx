@@ -66,10 +66,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var8.bind(var9)(var3, var7);
             var1['safeAreaStyle'] = var3;
             var3 = 0;
-            if(!var6) { _fun0001_ip = 131; continue _fun0001 }
- 127:
-            var3 = _closure1_slot3;
+            if(!var6) { _fun0001_ip = 135; continue _fun0001 }
  131:
+            var3 = _closure1_slot3;
+ 135:
             var3 = var4 + var3;
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;

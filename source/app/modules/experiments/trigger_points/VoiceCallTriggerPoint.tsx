@@ -24,7 +24,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.VanillaExperiment;
-    var8 = new Array(16);
+    var8 = new Array(14);
     var8[0] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
@@ -80,18 +80,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.VoiceMicButtonStateExperiment;
-    var8[13] = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.HideRTCButtonsExperiment;
-    var8[14] = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.ChangeDisconnectIconExperiment;
-    var8[15] = var4;
+    var8[13] = var4;
     var11 = var2.VOICE_CALL;
     var2 = {};
     var4 = 'voice call initiated';
@@ -103,7 +93,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var10 = var2;
     var2 = new var13[var9](var12, var11, var10, var9);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 9;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

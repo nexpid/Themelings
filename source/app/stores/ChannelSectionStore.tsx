@@ -692,15 +692,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5 = function handleChannelToggleMembersSection() {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
-            var1 = _closure1_slot22;
-            if(!var1) { _fun0013_ip = 29; continue _fun0013 }
+            var1 = _closure1_slot24;
+            if(!var1) { _fun0013_ip = 58; continue _fun0013 }
  10:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 16;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var4.bind(var1)(var2);
+            var4 = var1.ComponentDispatch;
+            var2 = var4.dispatch;
+            var1 = _closure1_slot16;
+            var1 = var1.SEARCH_RESULTS_CLOSE;
+            var1 = var2.bind(var4)(var1);
+ 58:
+            var1 = _closure1_slot22;
+            if(!var1) { _fun0013_ip = 84; continue _fun0013 }
+ 65:
             var4 = _closure1_slot29;
             var2 = _closure1_slot22;
             var1 = undefined;
             var1 = var4.bind(var1)(var2);
             _closure1_slot22 = var1;
- 29:
+ 84:
             var4 = _closure1_slot29;
             var2 = _closure1_slot21;
             var1 = undefined;

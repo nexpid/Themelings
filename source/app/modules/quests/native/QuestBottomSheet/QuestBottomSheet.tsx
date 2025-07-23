@@ -1261,16 +1261,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var20[var15];
             var17 = var16.bind(var4)(var17);
             var18 = var17.intl;
-            if(var14) { _fun0010_ip = 453; continue _fun0010 }
- 419:
+            if(var14) { _fun0010_ip = 449; continue _fun0010 }
+ 415:
             var17 = var18.string;
             var14 = var20[var15];
             var14 = var16.bind(var4)(var14);
             var14 = var14.t;
             var14 = var14.YstzGB;
             var14 = var17.bind(var18)(var14);
-            _fun0010_ip = 510; continue _fun0010;
- 453:
+            _fun0010_ip = 506; continue _fun0010;
+ 449:
             var17 = var18.formatToPlainString;
             var15 = var20[var15];
             var15 = var16.bind(var4)(var15);
@@ -1282,7 +1282,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = var19.gameTitle;
             var15['gameTitle'] = var19;
             var14 = var17.bind(var18)(var16, var15);
- 510:
+ 506:
             var11['children'] = var14;
             var11 = var13.bind(var4)(var12, var11);
             var10[1] = var11;

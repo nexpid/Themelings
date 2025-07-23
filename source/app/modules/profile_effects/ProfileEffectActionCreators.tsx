@@ -87,7 +87,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     if(var4) { _fun0001_ip = 409; continue _fun0001 }
  62:
                     var4 = _closure1_slot4;
-                    var4 = var4.isFetching;
+                    var4 = var4.isFetchingAll;
                     if(var4) { _fun0001_ip = 409; continue _fun0001 }
  81:
                     var6 = _closure1_slot4;
@@ -102,7 +102,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = var7.bind(var3)(var4);
                     var7 = var9.dispatch;
                     var4 = {};
-                    var10 = 'USER_PROFILE_EFFECTS_FETCH';
+                    var10 = 'PROFILE_EFFECTS_FETCH_ALL';
                     var4['type'] = var10;
                     var4 = var7.bind(var9)(var4);
  145: // try_start_0
@@ -145,9 +145,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = var7.bind(var3)(var5);
                     var7 = var9.dispatch;
                     var5 = {};
-                    var11 = 'USER_PROFILE_EFFECTS_FETCH_SUCCESS';
+                    var11 = 'PROFILE_EFFECTS_FETCH_ALL_SUCCESS';
                     var5['type'] = var11;
-                    var5['profileEffects'] = var10;
+                    var5['presets'] = var10;
                     var5 = var7.bind(var9)(var5);
  297: // try_end0
                     _fun0001_ip = 409; continue _fun0001;
@@ -176,7 +176,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.dispatch;
                     var4 = {};
-                    var8 = 'USER_PROFILE_EFFECTS_FETCH_FAILURE';
+                    var8 = 'PROFILE_EFFECTS_FETCH_ALL_FAILURE';
                     var4['type'] = var8;
                     var4['error'] = var7;
                     var4 = var5.bind(var6)(var4);
@@ -213,7 +213,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/profile_effects/ProfileEffectActionCreators.tsx';
     var5 = var6.bind(var7)(var5);
-    var3['fetchUserProfileEffects'] = var4;
+    var3['fetchAllProfileEffects'] = var4;
     var2 = function(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

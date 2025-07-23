@@ -1,4 +1,4 @@
-// app/modules/libdiscore/KvStore.tsx
+// app/modules/libdiscore/stores/kv/KvStore.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
     var7 = native2;
     var5 = native3;
@@ -579,26 +579,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                    var2 = _closure3_slot0;
-                    var2 = var2.derived;
-                    var2 = var2.memoized;
+                    var1 = _closure3_slot0;
+                    var1 = var1.derived;
+                    var4 = var1.memoized;
+                    var6 = _closure3_slot2;
+                    var1 = var4[var6];
                     var5 = _closure1_slot13;
-                    var4 = var5.call;
+                    var2 = var5.call;
+                    var2 = var2.bind(var5)(var4, var6);
+                    if(var2) { _fun0007_ip = 80; continue _fun0007 }
+ 48:
+                    var6 = _closure3_slot1;
+                    var2 = _closure3_slot0;
+                    var5 = var2.root;
+                    var2 = undefined;
+                    var2 = var6.bind(var2)(var5);
                     var3 = _closure3_slot2;
-                    var3 = var4.bind(var5)(var2, var3);
-                    if(var3) { _fun0007_ip = 75; continue _fun0007 }
- 44:
-                    var5 = _closure3_slot1;
-                    var3 = _closure3_slot0;
-                    var4 = var3.root;
-                    var3 = undefined;
-                    var3 = var5.bind(var3)(var4);
-                    var4 = _closure3_slot2;
-                    var2[var4] = var3;
-                    return var3;
- 75:
-                    var1 = _closure3_slot2;
-                    var1 = var2[var1];
+                    var4[var3] = var2;
+                    var1 = var2;
+ 80:
                     return var1;
                 }
             };
@@ -679,7 +678,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
-    var6 = 'modules/libdiscore/KvStore.tsx';
+    var6 = 'modules/libdiscore/stores/kv/KvStore.tsx';
     var6 = var7.bind(var8)(var6);
     var3['_libdiscoreSetKvRoot'] = var5;
     var3['_libdiscoreSetKvDerivedData'] = var4;

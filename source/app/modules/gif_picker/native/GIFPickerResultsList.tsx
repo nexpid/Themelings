@@ -28,8 +28,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = 2;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
-    var7 = var7.jsx;
+    var7 = var7.View;
     var _closure1_slot5 = var7;
+    var7 = 3;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.jsx;
+    var _closure1_slot6 = var7;
     var8 = {};
     var7 = 20;
     var8['length'] = var7;
@@ -42,7 +47,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var7 = var9.bind(var10)(var7);
-    var _closure1_slot6 = var7;
+    var _closure1_slot7 = var7;
     var7 = var4.Array;
     var4 = var7.from;
     var8 = var4.bind(var7)(var8);
@@ -66,8 +71,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 7;
+    var _closure1_slot8 = var4;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -77,36 +82,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var4 = arg1;
-            var9 = var4.columns;
-            var _closure2_slot0 = var9;
+            var11 = var4.columns;
+            var _closure2_slot0 = var11;
             var5 = var4.columnWidth;
             var _closure2_slot1 = var5;
-            var13 = var4.resultItems;
+            var15 = var4.resultItems;
             var3 = var4.onPressGIF;
             var _closure2_slot2 = var3;
             var2 = var4.inActionSheet;
-            var8 = var4.ListFooterComponent;
+            var10 = var4.ListFooterComponent;
             var6 = var4.loading;
             var4 = undefined;
             var _closure2_slot3 = var4;
-            var10 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var7 = 3;
-            var7 = var11[var7];
-            var10 = var10.bind(var4)(var7);
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var7 = 4;
+            var7 = var9[var7];
+            var8 = var8.bind(var4)(var7);
             var7 = {};
-            var11 = false;
-            var7['hasCategories'] = var11;
-            var7 = var10.bind(var4)(var7);
-            var15 = var7.safeAreaBottomKeyboardAware;
+            var9 = false;
+            var7['hasCategories'] = var9;
+            var7 = var8.bind(var4)(var7);
+            var17 = var7.safeAreaBottomKeyboardAware;
             if(!var6) { _fun0001_ip = 115; continue _fun0001 }
  111:
-            var13 = _closure1_slot6;
+            var15 = _closure1_slot7;
  115:
-            var14 = _closure1_slot4;
-            var7 = var14.useCallback;
-            var6 = new Array(1);
-            var6[0] = var5;
+            var6 = _closure1_slot4;
+            var8 = var6.useCallback;
+            var7 = new Array(1);
+            var7[0] = var5;
             var5 = function(arg1, arg2) {
                 var1 = {};
                 var3 = _closure2_slot1;
@@ -118,10 +123,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['height'] = var2;
                 return var1;
             };
-            var16 = var7.bind(var14)(var5, var6);
-            _closure2_slot3 = var16;
-            var7 = var14.useCallback;
-            var6 = function(arg1, arg2) {
+            var8 = var8.bind(var6)(var5, var7);
+            _closure2_slot3 = var8;
+            var9 = var6.useCallback;
+            var7 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var4 = arg1;
@@ -142,7 +147,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var5 = new Array(0);
-            var10 = var7.bind(var14)(var6, var5);
+            var12 = var9.bind(var6)(var7, var5);
             var5 = function useViewedItemIndexes() {
                 var5 = _closure1_slot4;
                 var4 = var5.useState;
@@ -222,13 +227,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var5 = var5.bind(var4)();
-            var11 = var5.viewedItemIndexes;
-            var7 = var5.onViewableItemsChanged;
-            var6 = var14.useCallback;
+            var13 = var5.viewedItemIndexes;
+            var9 = var5.onViewableItemsChanged;
+            var7 = var6.useCallback;
             var5 = new Array(3);
-            var5[0] = var9;
+            var5[0] = var11;
             var5[1] = var3;
-            var5[2] = var16;
+            var5[2] = var8;
             var3 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -249,12 +254,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = var1.height;
                     var1 = var2.has;
                     var1 = var1.bind(var2)(var3);
-                    var6 = _closure1_slot5;
+                    var6 = _closure1_slot6;
                     if(var1) { _fun0004_ip = 147; continue _fun0004 }
  89:
                     var4 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 5;
                     var1 = var12[var1];
                     var1 = var4.bind(var7)(var1);
                     var4 = var1.GIFPickerItemPlaceholder;
@@ -269,7 +274,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  147:
                     var4 = _closure1_slot1;
                     var12 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 5;
                     var2 = var12[var2];
                     var4 = var4.bind(var7)(var2);
                     var2 = {};
@@ -286,7 +291,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  214:
                     return var1;
  216:
-                    var2 = _closure1_slot7;
+                    var2 = _closure1_slot8;
                     var2 = var2[var3];
                     var7 = var2.width;
                     var3 = var2.height;
@@ -295,10 +300,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.bind(var4)(var7, var3);
                     var8 = var2.width;
                     var7 = var2.height;
-                    var3 = _closure1_slot5;
+                    var3 = _closure1_slot6;
                     var2 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 5;
                     var1 = var9[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.GIFPickerItemPlaceholder;
@@ -312,10 +317,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var5 = var6.bind(var14)(var3, var5);
-            var6 = var14.useCallback;
+            var7 = var7.bind(var6)(var3, var5);
+            var5 = var6.useCallback;
             var3 = new Array(1);
-            var3[0] = var16;
+            var3[0] = var8;
             var1 = function(arg1, arg2, arg3) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -331,7 +336,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var1.height;
                     _fun0005_ip = 60; continue _fun0005;
  41:
-                    var3 = _closure1_slot7;
+                    var3 = _closure1_slot8;
                     var1 = arg3;
                     var1 = var3[var1];
                     var2 = var1.height;
@@ -342,46 +347,58 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var6 = var6.bind(var14)(var1, var3);
+            var8 = var5.bind(var6)(var1, var3);
             var3 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var1 = 5;
-            var1 = var14[var1];
+            var5 = _closure1_slot2;
+            var1 = 6;
+            var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             if(var2) { _fun0001_ip = 275; continue _fun0001 }
  267:
-            var3 = var1.MasonryFlashList;
+            var6 = var1.MasonryFlashList;
             _fun0001_ip = 281; continue _fun0001;
  275:
-            var3 = var1.BottomSheetMasonryFlashList;
+            var6 = var1.BottomSheetMasonryFlashList;
  281:
+            var3 = _closure1_slot6;
             var2 = _closure1_slot5;
             var1 = {};
-            var14 = {};
-            var14['paddingBottom'] = var15;
-            var1['contentContainerStyle'] = var14;
-            var1['data'] = var13;
-            var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var12 = 6;
-            var15 = var14[var12];
-            var15 = var13.bind(var4)(var15);
-            var15 = var15.GIF_PICKER_ITEM_ESIMTATED_HEIGHT;
-            var1['drawDistance'] = var15;
-            var12 = var14[var12];
-            var12 = var13.bind(var4)(var12);
-            var12 = var12.GIF_PICKER_ITEM_ESIMTATED_HEIGHT;
-            var1['estimatedItemSize'] = var12;
-            var1['extraData'] = var11;
-            var1['keyExtractor'] = var10;
-            var1['numColumns'] = var9;
-            var1['ListFooterComponent'] = var8;
-            var8 = true;
-            var1['optimizeItemArrangement'] = var8;
-            var1['onViewableItemsChanged'] = var7;
-            var1['overrideItemLayout'] = var6;
-            var1['renderItem'] = var5;
-            var1 = var2.bind(var4)(var3, var1);
+            var5 = {};
+            var16 = 1;
+            var5['flex'] = var16;
+            var1['style'] = var5;
+            var5 = 'box-none';
+            var1['pointerEvents'] = var5;
+            var5 = {};
+            var16 = {};
+            var16['paddingBottom'] = var17;
+            var5['contentContainerStyle'] = var16;
+            var5['data'] = var15;
+            var15 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var14 = 7;
+            var17 = var16[var14];
+            var17 = var15.bind(var4)(var17);
+            var17 = var17.GIF_PICKER_ITEM_ESIMTATED_HEIGHT;
+            var5['drawDistance'] = var17;
+            var14 = var16[var14];
+            var14 = var15.bind(var4)(var14);
+            var14 = var14.GIF_PICKER_ITEM_ESIMTATED_HEIGHT;
+            var5['estimatedItemSize'] = var14;
+            var5['extraData'] = var13;
+            var5['keyExtractor'] = var12;
+            var12 = 'always';
+            var5['keyboardShouldPersistTaps'] = var12;
+            var5['numColumns'] = var11;
+            var5['ListFooterComponent'] = var10;
+            var10 = true;
+            var5['optimizeItemArrangement'] = var10;
+            var5['onViewableItemsChanged'] = var9;
+            var5['overrideItemLayout'] = var8;
+            var5['renderItem'] = var7;
+            var5 = var3.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };

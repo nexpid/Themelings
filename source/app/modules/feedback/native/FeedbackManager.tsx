@@ -176,6 +176,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var3['BLOCK_USER_SHOW_FEEDBACK'] = var4;
+                var4 = function AGE_VERIFICATION_SHOW_FEEDBACK() {
+                    var2 = _closure3_slot0;
+                    var1 = var2.handleAgeVerificationFeedback;
+                    var1 = var1.bind(var2)();
+                    return var1;
+                };
+                var3['AGE_VERIFICATION_SHOW_FEEDBACK'] = var4;
                 var1['actions'] = var3;
                 var3 = function(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -510,7 +517,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var1['handleInAppReportsFeedback'] = var3;
-                var2 = function() {
+                var3 = function() {
                     var4 = _closure3_slot0;
                     var3 = var4.possiblyShowFeedbackModal;
                     var1 = _closure1_slot12;
@@ -552,7 +559,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = undefined;
                     return var1;
                 };
-                var1['handleBlockUserFeedback'] = var2;
+                var1['handleBlockUserFeedback'] = var3;
+                var2 = function() {
+                    var1 = undefined;
+                    return var1;
+                };
+                var1['handleAgeVerificationFeedback'] = var2;
                 return var1;
             }
         };

@@ -769,7 +769,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var13.length;
             var7 = var5 > var7;
             var5 = null;
-            if(!var7) { _fun0002_ip = 572; continue _fun0002 }
+            if(!var7) { _fun0002_ip = 573; continue _fun0002 }
  413:
             var9 = _closure1_slot9;
             var8 = _closure1_slot1;
@@ -802,12 +802,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = null;
             var11 = var6 != var10;
             var6 = 'default';
-            if(!var11) { _fun0002_ip = 565; continue _fun0002 }
- 562:
+            if(!var11) { _fun0002_ip = 566; continue _fun0002 }
+ 563:
             var6 = var10;
- 565:
+ 566:
             var5 = var9.bind(var4)(var8, var7, var6);
- 572:
+ 573:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -954,7 +954,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var11.length;
             var6 = 0;
             var6 = var7 > var6;
-            if(!var6) { _fun0007_ip = 398; continue _fun0007 }
+            if(!var6) { _fun0007_ip = 399; continue _fun0007 }
  255:
             var8 = _closure1_slot9;
             var7 = _closure1_slot1;
@@ -985,7 +985,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = 'always';
             var6['keyboardShouldPersistTaps'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 398:
+ 399:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

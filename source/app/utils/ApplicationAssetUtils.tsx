@@ -992,36 +992,84 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7[var11] = var10;
     var11 = {};
     var10 = function deserialize(arg1) {
-        var2 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 4;
-        var1 = var3[var1];
-        var5 = undefined;
-        var4 = var2.bind(var5)(var1);
-        var1 = global;
-        var2 = var1.window;
-        var2 = var2.GLOBAL_ENV;
-        var3 = var2.MEDIA_PROXY_ENDPOINT;
-        var2 = null;
-        var3 = var2 != var3;
-        var2 = 'MEDIA_PROXY_ENDPOINT not configured';
-        var2 = var4.bind(var5)(var3, var2);
-        var4 = var1.URL;
-        var2 = var1.location;
-        var2 = var2.protocol;
-        var1 = var1.window;
-        var1 = var1.GLOBAL_ENV;
-        var1 = var1.MEDIA_PROXY_ENDPOINT;
-        var6 = var2 + var1;
-        var1 = var4.prototype;
-        var2 = Object.create(var1, {constructor: {value: var4}});
-        var7 = arg1;
-        var8 = var2;
-        var1 = new var8[var4](var7, var6, var5);
-        var2 = var1 instanceof Object ? var1 : var2;
-        var1 = var2.toString;
-        var1 = var1.bind(var2)();
-        return var1;
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+ 0:
+            var5 = arg1;
+            var2 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 4;
+            var1 = var3[var1];
+            var6 = undefined;
+            var4 = var2.bind(var6)(var1);
+            var1 = global;
+            var2 = var1.window;
+            var2 = var2.GLOBAL_ENV;
+            var3 = var2.MEDIA_PROXY_ENDPOINT;
+            var2 = null;
+            var3 = var2 != var3;
+            var2 = 'MEDIA_PROXY_ENDPOINT not configured';
+            var2 = var4.bind(var6)(var3, var2);
+            var3 = var1.URL;
+            var2 = var1.location;
+            var2 = var2.protocol;
+            var1 = var1.window;
+            var1 = var1.GLOBAL_ENV;
+            var1 = var1.MEDIA_PROXY_ENDPOINT;
+            var9 = var2 + var1;
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var11 = var2;
+            var10 = var5;
+            var1 = new var11[var3](var10, var9, var8);
+            var2 = var1 instanceof Object ? var1 : var2;
+            var1 = var5.toLowerCase;
+            var4 = var1.bind(var5)();
+            var3 = var4.endsWith;
+            var1 = '.gif';
+            var1 = var3.bind(var4)(var1);
+            var3 = var5.toLowerCase;
+            var6 = var3.bind(var5)();
+            var4 = var6.endsWith;
+            var3 = '.webp';
+            var4 = var4.bind(var6)(var3);
+            var3 = var5.toLowerCase;
+            var6 = var3.bind(var5)();
+            var5 = var6.endsWith;
+            var3 = '.avif';
+            var3 = var5.bind(var6)(var3);
+            var5 = var1;
+            if(var1) { _fun0017_ip = 219; continue _fun0017 }
+ 216:
+            var5 = var3;
+ 219:
+            if(!var5) { _fun0017_ip = 249; continue _fun0017 }
+ 222:
+            var8 = var2.searchParams;
+            var7 = var8.set;
+            var6 = 'format';
+            var5 = 'webp';
+            var5 = var7.bind(var8)(var6, var5);
+ 249:
+            if(var1) { _fun0017_ip = 255; continue _fun0017 }
+ 252:
+            var1 = var4;
+ 255:
+            if(var1) { _fun0017_ip = 261; continue _fun0017 }
+ 258:
+            var1 = var3;
+ 261:
+            if(!var1) { _fun0017_ip = 289; continue _fun0017 }
+ 264:
+            var5 = var2.searchParams;
+            var4 = var5.set;
+            var3 = 'animated';
+            var1 = 'true';
+            var1 = var4.bind(var5)(var3, var1);
+ 289:
+            var1 = var2.toString;
+            var1 = var1.bind(var2)();
+            return var1;
+        }
     };
     var11['deserialize'] = var10;
     var10 = function serialize(arg1) {
@@ -1042,22 +1090,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var8.bind(var9)(var7);
     var3['getAssetFromImageURL'] = var6;
     var6 = function getAssetImage(arg1, arg2, arg3) {
-        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
             var15 = arg1;
             var4 = arg2;
             var7 = arg3;
             var2 = null;
-            if(!(var2 != var4)) { _fun0017_ip = 35; continue _fun0017 }
+            if(!(var2 != var4)) { _fun0018_ip = 35; continue _fun0018 }
  15:
             var1 = var4.includes;
             var3 = ':';
             var1 = var1.bind(var4)(var3);
-            if(var1) { _fun0017_ip = 372; continue _fun0017 }
+            if(var1) { _fun0018_ip = 372; continue _fun0018 }
  35:
-            if(!(var2 != var15)) { _fun0017_ip = 43; continue _fun0017 }
+            if(!(var2 != var15)) { _fun0018_ip = 43; continue _fun0018 }
  39:
-            if(!(var2 == var4)) { _fun0017_ip = 47; continue _fun0017 }
+            if(!(var2 == var4)) { _fun0018_ip = 47; continue _fun0018 }
  43:
             var1 = undefined;
             return var1;
@@ -1067,7 +1115,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var6.isArray;
             var1 = var1.bind(var6)(var7);
             var8 = var7;
-            if(!var1) { _fun0017_ip = 111; continue _fun0017 }
+            if(!var1) { _fun0018_ip = 111; continue _fun0018 }
  71:
             var9 = var5.Math;
             var6 = var9.max;
@@ -1085,7 +1133,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = 'number';
             var1 = typeof var8;
             var13 = var14;
-            if(!(var6 === var1)) { _fun0017_ip = 187; continue _fun0017 }
+            if(!(var6 === var1)) { _fun0018_ip = 187; continue _fun0018 }
  129:
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -1103,7 +1151,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var5.window;
             var1 = var1.GLOBAL_ENV;
             var1 = var1.CDN_HOST;
-            if(!(var2 == var1)) { _fun0017_ip = 291; continue _fun0017 }
+            if(!(var2 == var1)) { _fun0018_ip = 291; continue _fun0018 }
  209:
             var8 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -1123,7 +1171,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = var4;
             var18 = var13;
             var1 = var25[var9](var24, var23, var22, var21, var20, var19, var18, var17);
-            _fun0017_ip = 370; continue _fun0017;
+            _fun0018_ip = 370; continue _fun0018;
  291:
             var6 = var5.location;
             var24 = var6.protocol;
@@ -1156,7 +1204,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var4[var1];
             var1 = _closure1_slot7;
             var1 = var1.TWITCH;
-            if(!(var8 !== var1)) { _fun0017_ip = 487; continue _fun0017 }
+            if(!(var8 !== var1)) { _fun0018_ip = 487; continue _fun0018 }
  427:
             var1 = global;
             var1 = var1.Object;
@@ -1166,20 +1214,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = _closure1_slot10;
             var4 = var4.bind(var9)(var1, var8);
             var1 = undefined;
-            if(!var4) { _fun0017_ip = 485; continue _fun0017 }
+            if(!var4) { _fun0018_ip = 485; continue _fun0018 }
  466:
             var4 = _closure1_slot10;
             var8 = var4[var8];
             var4 = var8.deserialize;
             var1 = var4.bind(var8)(var6);
  485:
-            _fun0017_ip = 601; continue _fun0017;
+            _fun0018_ip = 601; continue _fun0018;
  487:
-            if(!(var2 != var7)) { _fun0017_ip = 534; continue _fun0017 }
+            if(!(var2 != var7)) { _fun0018_ip = 534; continue _fun0018 }
  491:
             var4 = 'number';
             var2 = typeof var7;
-            if(!(var4 !== var2)) { _fun0017_ip = 534; continue _fun0017 }
+            if(!(var4 !== var2)) { _fun0018_ip = 534; continue _fun0018 }
  502:
             var4 = _closure1_slot10;
             var2 = _closure1_slot7;
@@ -1187,7 +1235,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var4[var2];
             var2 = var4.deserialize;
             var2 = var2.bind(var4)(var6, var7);
-            _fun0017_ip = 598; continue _fun0017;
+            _fun0018_ip = 598; continue _fun0018;
  534:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -1214,14 +1262,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var3['getAssets'] = var5;
     var3['fetchAssetIds'] = var4;
     var2 = function getAssetIds(arg1, arg2) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
             var5 = arg2;
             var1 = new Array(0);
             var3 = _closure1_slot21;
             var4 = undefined;
             var3 = var3.bind(var4)(var5, var1);
-            if(var3) { _fun0018_ip = 77; continue _fun0018 }
+            if(var3) { _fun0019_ip = 77; continue _fun0019 }
  25:
             var7 = _closure1_slot5;
             var6 = var7.getApplicationAssets;
@@ -1230,11 +1278,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = null;
             var8 = var6 == var7;
             var3 = undefined;
-            if(var8) { _fun0018_ip = 60; continue _fun0018 }
+            if(var8) { _fun0019_ip = 60; continue _fun0019 }
  54:
             var3 = var7.assets;
  60:
-            if(!(var6 != var3)) { _fun0018_ip = 75; continue _fun0018 }
+            if(!(var6 != var3)) { _fun0019_ip = 75; continue _fun0019 }
  64:
             var2 = _closure1_slot22;
             var2 = var2.bind(var4)(var5, var1, var3);

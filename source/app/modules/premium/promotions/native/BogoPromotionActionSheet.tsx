@@ -187,20 +187,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var13 = var7.bind(var5)(var2, var3);
-        var7 = var5.useEffect;
-        var3 = function() {
-            var1 = function() {
-                var3 = _closure2_slot0;
-                var1 = _closure1_slot12;
-                var2 = var1.USER_DISMISS;
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            return var1;
-        };
-        var2 = new Array(0);
-        var2 = var7.bind(var5)(var3, var2);
         var3 = var5.useCallback;
         var2 = new Array(1);
         var2[0] = var6;

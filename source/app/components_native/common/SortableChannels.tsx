@@ -702,7 +702,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     var2 = _closure3_slot0;
                     var2 = var2.moved;
-                    if(var2) { _fun0011_ip = 85; continue _fun0011 }
+                    if(var2) { _fun0011_ip = 89; continue _fun0011 }
  16:
                     var2 = _closure3_slot0;
                     var3 = var2.state;
@@ -721,7 +721,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var3.setState;
                     var1 = {'active': null, 'hoveringIndex': 4294967295, 'activeIndex': 4294967295};
                     var1 = var2.bind(var3)(var1);
- 85:
+ 89:
                     var1 = undefined;
                     return var1;
                 }
@@ -1101,30 +1101,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.category;
                     var2 = var2.id;
                     var3 = var3.bind(var4)(var2);
-                    if(var12) { _fun0018_ip = 91; continue _fun0018 }
- 85:
+                    if(var12) { _fun0018_ip = 92; continue _fun0018 }
+ 86:
                     var4 = _closure1_slot17;
-                    _fun0018_ip = 95; continue _fun0018;
- 91:
+                    _fun0018_ip = 96; continue _fun0018;
+ 92:
                     var4 = _closure1_slot18;
- 95:
+ 96:
                     var11 = !var12;
-                    if(!var11) { _fun0018_ip = 136; continue _fun0018 }
- 101:
+                    if(!var11) { _fun0018_ip = 137; continue _fun0018 }
+ 102:
                     var13 = null;
                     var15 = var13 == var10;
                     var8 = undefined;
-                    if(var15) { _fun0018_ip = 132; continue _fun0018 }
- 112:
+                    if(var15) { _fun0018_ip = 133; continue _fun0018 }
+ 113:
                     var10 = var10.rowData;
                     var13 = var13 == var10;
                     var8 = undefined;
-                    if(var13) { _fun0018_ip = 132; continue _fun0018 }
- 127:
+                    if(var13) { _fun0018_ip = 133; continue _fun0018 }
+ 128:
                     var8 = var10.index;
- 132:
+ 133:
                     var11 = var8 === var3;
- 136:
+ 137:
                     var8 = _closure3_slot0;
                     var8 = var8.props;
                     var8 = var8.order;
@@ -1132,10 +1132,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var14 = null;
                     var13 = var14 != var8;
                     var10 = '';
-                    if(!var13) { _fun0018_ip = 171; continue _fun0018 }
- 168:
+                    if(!var13) { _fun0018_ip = 172; continue _fun0018 }
+ 169:
                     var10 = var8;
- 171:
+ 172:
                     var8 = {};
                     var8['data'] = var7;
                     var8['index'] = var3;
@@ -1159,22 +1159,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var13 = var7.section;
                     var13 = var13.key;
                     var14 = null;
-                    if(!(var10 === var13)) { _fun0018_ip = 288; continue _fun0018 }
- 273:
+                    if(!(var10 === var13)) { _fun0018_ip = 289; continue _fun0018 }
+ 274:
                     var15 = _closure3_slot0;
                     var13 = var15.renderActiveDivider;
                     var14 = var13.bind(var15)(var10);
- 288:
+ 289:
                     var13 = 'activeDivider';
                     var2[var13] = var14;
                     var13 = var7.section;
                     var14 = var13.key;
                     var13 = 'key';
                     var2[var13] = var14;
-                    if(var12) { _fun0018_ip = 324; continue _fun0018 }
- 321:
+                    if(var12) { _fun0018_ip = 325; continue _fun0018 }
+ 322:
                     var12 = var11;
- 324:
+ 325:
                     var11 = 'active';
                     var2[var11] = var12;
                     var6 = _closure3_slot0;
@@ -1795,7 +1795,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var5.onMoveEnd;
                     var4 = var4.bind(var5)();
  73:
-                    if(!(var7 != var2)) { _fun0028_ip = 334; continue _fun0028 }
+                    if(!(var7 != var2)) { _fun0028_ip = 342; continue _fun0028 }
  80:
                     var4 = var2.layout;
                     var5 = var4.frameHeight;
@@ -1807,7 +1807,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  116:
                     var9 = var10;
  119:
-                    if(!(var9 !== var10)) { _fun0028_ip = 307; continue _fun0028 }
+                    if(!(var9 !== var10)) { _fun0028_ip = 311; continue _fun0028 }
  126:
                     var4 = {};
                     var2 = var2.rowData;
@@ -1837,14 +1837,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = 0;
                     var9 = var8.bind(var9)(var4, var5);
                     var2 = var2.scrollValue;
-                    if(!(var2 > var9)) { _fun0028_ip = 271; continue _fun0028 }
- 250:
+                    if(!(var2 > var9)) { _fun0028_ip = 275; continue _fun0028 }
+ 254:
                     var8 = _closure3_slot0;
                     var5 = var8.scrollTo;
                     var2 = {};
                     var2['y'] = var9;
                     var2 = var5.bind(var8)(var2);
- 271:
+ 275:
                     var2 = _closure3_slot0;
                     var5 = var2.state;
                     var5['active'] = var7;
@@ -1853,23 +1853,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2['moveY'] = var4;
                     var2 = undefined;
                     return var2;
- 307:
+ 311:
                     var5 = _closure3_slot0;
                     var4 = var5.setState;
                     var2 = {'active': null, 'hoveringIndex': 4294967295, 'activeIndex': 4294967295};
                     var2 = var4.bind(var5)(var2);
                     return var2;
- 334:
+ 342:
                     var2 = 0;
-                    if(!(var3 >= var2)) { _fun0028_ip = 368; continue _fun0028 }
- 340:
+                    if(!(var3 >= var2)) { _fun0028_ip = 376; continue _fun0028 }
+ 348:
                     var5 = _closure3_slot0;
                     var4 = var5.setState;
                     var3 = {};
                     var6 = -1;
                     var3['hoveringIndex'] = var6;
                     var3 = var4.bind(var5)(var3);
- 368:
+ 376:
                     var1 = _closure3_slot0;
                     var1['moveY'] = var2;
                     var1 = undefined;

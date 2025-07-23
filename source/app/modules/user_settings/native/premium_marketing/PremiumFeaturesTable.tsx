@@ -1185,8 +1185,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary', 'accessible': true};
             var14 = var10.headerText;
             var5['style'] = var14;
-            if(!(var13 == var12)) { _fun0003_ip = 2616; continue _fun0003 }
- 2564:
+            if(!(var13 == var12)) { _fun0003_ip = 2608; continue _fun0003 }
+ 2556:
             var16 = _closure1_slot0;
             var13 = _closure1_slot2;
             var14 = var13[var17];
@@ -1198,7 +1198,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var13.t;
             var13 = var13.vLz3Zm;
             var12 = var14.bind(var15)(var13);
- 2616:
+ 2608:
             var5['children'] = var12;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);

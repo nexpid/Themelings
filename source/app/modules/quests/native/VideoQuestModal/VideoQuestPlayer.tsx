@@ -1512,18 +1512,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var _closure3_slot0 = var2;
                     var1 = function() {
                         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
- 0:
-                            var2 = _closure3_slot0;
+ 0: // try_start_0
+                            var3 = _closure3_slot0;
                             var5 = null;
-                            var2 = var5 == var2;
-                            if(var2) { _fun0019_ip = 30; continue _fun0019 }
- 16:
+                            var3 = var5 == var3;
+                            var2 = var3;
+                            if(var3) { _fun0019_ip = 33; continue _fun0019 }
+ 19:
                             var3 = _closure3_slot0;
                             var3 = var3.setNativeProps;
                             var2 = var5 == var3;
- 30:
-                            if(var2) { _fun0019_ip = 69; continue _fun0019 }
  33:
+                            if(var2) { _fun0019_ip = 72; continue _fun0019 }
+ 36:
                             var3 = _closure3_slot0;
                             var2 = var3.setNativeProps;
                             var1 = {};
@@ -1533,7 +1534,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4['uri'] = var5;
                             var1['src'] = var4;
                             var1 = var2.bind(var3)(var1);
- 69:
+ 72: // try_end0
+                            _fun0019_ip = 112; continue _fun0019;
+ 74: // catch_target0
+                            CatchBlockStart(arg_register=2);
+                            var4 = _closure1_slot1;
+                            var2 = _closure1_slot2;
+                            var1 = 27;
+                            var2 = var2[var1];
+                            var1 = undefined;
+                            var2 = var4.bind(var1)(var2);
+                            var1 = var2.captureException;
+                            var1 = var1.bind(var2)(var3);
+ 112:
                             var1 = undefined;
                             return var1;
                         }
@@ -1584,7 +1597,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var47 = var4.bind(var6)(var2, var3);
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 27;
+            var2 = 28;
             var2 = var4[var2];
             var2 = var3.bind(var5)(var2);
             var6 = var2.bind(var5)();
@@ -1624,7 +1637,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6['onPress'] = var9;
             var21 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var28 = 28;
+            var28 = 29;
             var13 = var9[var28];
             var13 = var21.bind(var5)(var13);
             var19 = var13.intl;
@@ -1665,7 +1678,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = _closure1_slot12;
             var19 = _closure1_slot0;
             var39 = _closure1_slot2;
-            var13 = 29;
+            var13 = 30;
             var13 = var39[var13];
             var13 = var19.bind(var5)(var13);
             var19 = var13.VideoQuestCaptions;
@@ -1832,7 +1845,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var29 = _closure1_slot12;
             var38 = _closure1_slot0;
             var41 = _closure1_slot2;
-            var23 = 30;
+            var23 = 31;
             var22 = var41[var23];
             var22 = var38.bind(var5)(var22);
             var26 = var22.PressableOpacity;
@@ -1852,7 +1865,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var22['onPress'] = var37;
             var37 = var16.controlButton;
             var22['style'] = var37;
-            var37 = 31;
+            var37 = 32;
             var37 = var41[var37];
             var37 = var38.bind(var5)(var37);
             var38 = var37.ClosedCaptionsOutlineIcon;
@@ -1893,7 +1906,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23['onPress'] = var31;
             var31 = var16.controlButton;
             var23['style'] = var31;
-            var31 = 32;
+            var31 = 33;
             var31 = var38[var31];
             var31 = var37.bind(var5)(var31);
             var37 = var31.TranscriptOutlineIcon;
@@ -1918,7 +1931,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var31 = _closure1_slot12;
             var40 = _closure1_slot0;
             var37 = _closure1_slot2;
-            var23 = 33;
+            var23 = 34;
             var22 = var37[var23];
             var22 = var40.bind(var5)(var22);
             var26 = var22.VideoQuestPlayerControlButton;
@@ -1940,7 +1953,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var38 = var39.bind(var41)(var38);
             var22['accessibilityLabel'] = var38;
             var22['onPress'] = var27;
-            var27 = 34;
+            var27 = 35;
             var27 = var37[var27];
             var27 = var40.bind(var5)(var27);
             var38 = var27.SkipBackwardIcon;
@@ -1980,13 +1993,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var37 = _closure1_slot2;
             if(var32) { _fun0002_ip = 3724; continue _fun0002 }
  3704:
-            var32 = 37;
+            var32 = 38;
             var32 = var37[var32];
             var32 = var36.bind(var5)(var32);
             var34 = var32.PauseIcon;
             _fun0002_ip = 3742; continue _fun0002;
  3724:
-            var32 = 36;
+            var32 = 37;
             var32 = var37[var32];
             var32 = var36.bind(var5)(var32);
             var34 = var32.PlayIcon;
@@ -2000,7 +2013,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var36 = _closure1_slot12;
             var35 = _closure1_slot0;
             var37 = _closure1_slot2;
-            var34 = 35;
+            var34 = 36;
             var34 = var37[var34];
             var34 = var35.bind(var5)(var34);
             var35 = var34.RetryIcon;
@@ -2032,7 +2045,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var33 = var34.bind(var35)(var33);
             var23['accessibilityLabel'] = var33;
             var23['onPress'] = var30;
-            var30 = 38;
+            var30 = 39;
             var30 = var32[var30];
             var30 = var31.bind(var5)(var30);
             var31 = var30.SkipForwardIcon;
@@ -2062,7 +2075,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20['style'] = var23;
             var26 = _closure1_slot0;
             var27 = _closure1_slot2;
-            var23 = 30;
+            var23 = 31;
             var23 = var27[var23];
             var23 = var26.bind(var5)(var23);
             var24 = var23.PressableOpacity;
@@ -2081,7 +2094,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23['onPress'] = var25;
             var25 = var16.controlButton;
             var23['style'] = var25;
-            var25 = 39;
+            var25 = 40;
             var25 = var27[var25];
             var25 = var26.bind(var5)(var25);
             var26 = var25.FullscreenEnterIcon;
@@ -2129,7 +2142,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var2 = var5.bind(var8)(var2);
-    var5 = 40;
+    var5 = 41;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

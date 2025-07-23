@@ -139,7 +139,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var4;
             var11 = var18[var10](var17, var16, var15, var14, var13, var12);
             var10 = null;
-            if(!(var10 != var11)) { _fun0002_ip = 268; continue _fun0002 }
+            if(!(var10 != var11)) { _fun0002_ip = 272; continue _fun0002 }
  68:
             var6 = var10 == var11;
             var1 = undefined;
@@ -184,7 +184,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  188:
             var7 = var10 != var6;
             var6 = undefined;
-            if(!var7) { _fun0002_ip = 259; continue _fun0002 }
+            if(!var7) { _fun0002_ip = 263; continue _fun0002 }
  197:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -195,16 +195,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = {'id': null, 'animated': false, 'size': 16};
             var12 = var10 == var11;
             var10 = undefined;
-            if(var12) { _fun0002_ip = 248; continue _fun0002 }
- 242:
+            if(var12) { _fun0002_ip = 252; continue _fun0002 }
+ 246:
             var10 = var11.emojiId;
- 248:
+ 252:
             var7['id'] = var10;
             var6 = var8.bind(var9)(var7);
- 259:
+ 263:
             var1['emojiSrc'] = var6;
             return var1;
- 268:
+ 272:
             var1 = {};
             var6 = 'text';
             var1['type'] = var6;

@@ -200,6 +200,103 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var _closure1_slot11 = var1;
+    var1 = function canShowTimeRecurringContent(arg1, arg2, arg3) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+            var2 = arg1;
+            var7 = arg2;
+            var8 = arg3;
+            var6 = null;
+            var4 = var6 != var7;
+            var1 = undefined;
+            var3 = undefined;
+            if(!var4) { _fun0006_ip = 71; continue _fun0006 }
+ 22:
+            var5 = global;
+            var10 = var5.Number;
+            var9 = var10.isNaN;
+            var4 = var5.Number;
+            var4 = var4.bind(var1)(var7);
+            var9 = var9.bind(var10)(var4);
+            var4 = undefined;
+            if(var9) { _fun0006_ip = 68; continue _fun0006 }
+ 57:
+            var5 = var5.Number;
+            var4 = var5.bind(var1)(var7);
+ 68:
+            var3 = var4;
+ 71:
+            var5 = 0;
+            if(!(var1 !== var3)) { _fun0006_ip = 87; continue _fun0006 }
+ 77:
+            var1 = var8.cooldownDurationMs;
+            var5 = var3 + var1;
+ 87:
+            var1 = global;
+            var4 = var1.Date;
+            var1 = var4.now;
+            var4 = var1.bind(var4)();
+            var1 = var8.showAfterTimestamp;
+            var7 = var6 == var1;
+            if(var7) { _fun0006_ip = 155; continue _fun0006 }
+ 117:
+            var1 = var8.showAfterTimestamp;
+            var1 = var4 >= var1;
+            if(!var1) { _fun0006_ip = 152; continue _fun0006 }
+ 130:
+            var10 = var6 != var3;
+            var9 = 0;
+            if(!var10) { _fun0006_ip = 142; continue _fun0006 }
+ 139:
+            var9 = var3;
+ 142:
+            var8 = var8.showAfterTimestamp;
+            var1 = var9 <= var8;
+ 152:
+            var7 = var1;
+ 155:
+            var9 = _closure1_slot4;
+            var8 = var9.hasLoaded;
+            var1 = _closure1_slot10;
+            var1 = var1.PRELOADED_USER_SETTINGS;
+            var1 = var8.bind(var9)(var1);
+            if(var1) { _fun0006_ip = 214; continue _fun0006 }
+ 186:
+            var1 = var6 != var3;
+            if(!var1) { _fun0006_ip = 212; continue _fun0006 }
+ 193:
+            var8 = var2;
+            if(!var2) { _fun0006_ip = 202; continue _fun0006 }
+ 199:
+            var8 = var7;
+ 202:
+            if(!var8) { _fun0006_ip = 209; continue _fun0006 }
+ 205:
+            var8 = var4 >= var5;
+ 209:
+            var1 = var8;
+ 212:
+            _fun0006_ip = 240; continue _fun0006;
+ 214:
+            if(!var2) { _fun0006_ip = 220; continue _fun0006 }
+ 217:
+            var2 = var7;
+ 220:
+            if(!var2) { _fun0006_ip = 237; continue _fun0006 }
+ 223:
+            var3 = var6 == var3;
+            if(var3) { _fun0006_ip = 234; continue _fun0006 }
+ 230:
+            var3 = var4 >= var5;
+ 234:
+            var2 = var3;
+ 237:
+            var1 = var2;
+ 240:
+            return var1;
+        }
+    };
+    var _closure1_slot12 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -251,7 +348,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = 'modules/dismissible_content/useGetDismissibleContent.tsx';
     var4 = var5.bind(var6)(var4);
     var4 = function useGetDismissibleContent(arg1, arg2) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var7 = arg2;
             var _closure2_slot0 = var7;
@@ -266,7 +363,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = new Array(1);
             var6[0] = var1;
             var1 = function() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                     var1 = _closure1_slot4;
                     var1 = var1.settings;
@@ -274,7 +371,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0007_ip = 36; continue _fun0007 }
+                    if(var3) { _fun0008_ip = 36; continue _fun0008 }
  30:
                     var1 = var2.dismissedContents;
  36:
@@ -310,11 +407,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = _closure1_slot10;
             var5 = var5.PRELOADED_USER_SETTINGS;
             var5 = var10.bind(var11)(var5);
-            if(var5) { _fun0006_ip = 200; continue _fun0006 }
+            if(var5) { _fun0007_ip = 200; continue _fun0007 }
  167:
             var1 = var8 != var1;
             var8 = null;
-            if(!var1) { _fun0006_ip = 222; continue _fun0006 }
+            if(!var1) { _fun0007_ip = 222; continue _fun0007 }
  176:
             var5 = var9.find;
             var1 = function(arg1) {
@@ -334,16 +431,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var5.bind(var9)(var1);
             _closure2_slot3 = var1;
             var8 = var1;
-            _fun0006_ip = 222; continue _fun0006;
+            _fun0007_ip = 222; continue _fun0007;
  200:
             var5 = var9.find;
             var1 = function(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     var3 = _closure2_slot1;
                     var1 = null;
                     var1 = var1 == var3;
-                    if(var1) { _fun0008_ip = 63; continue _fun0008 }
+                    if(var1) { _fun0009_ip = 63; continue _fun0009 }
  16:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -375,11 +472,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3[1] = var7;
             var3[2] = var6;
             var2 = function(arg1, arg2) {
-                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
                     var2 = _closure2_slot3;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0009_ip = 89; continue _fun0009 }
+                    if(!(var1 != var2)) { _fun0010_ip = 89; continue _fun0010 }
  13:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -411,7 +508,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['useGetDismissibleContent'] = var4;
     var4 = function useGetVersionedDismissibleContent(arg1, arg2, arg3) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var5 = arg1;
             var6 = arg2;
@@ -430,30 +527,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = new Array(1);
             var11[0] = var10;
             var10 = function() {
-                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
                     var2 = _closure2_slot0;
                     var4 = null;
                     var1 = undefined;
-                    if(!(var4 !== var2)) { _fun0011_ip = 84; continue _fun0011 }
+                    if(!(var4 !== var2)) { _fun0012_ip = 84; continue _fun0012 }
  15:
                     var2 = _closure1_slot4;
                     var2 = var2.settings;
                     var6 = var2.userContent;
                     var7 = var4 == var6;
                     var2 = undefined;
-                    if(var7) { _fun0011_ip = 81; continue _fun0011 }
+                    if(var7) { _fun0012_ip = 81; continue _fun0012 }
  43:
                     var6 = var6.recurringDismissibleContentStates;
                     var7 = var4 == var6;
                     var2 = undefined;
-                    if(var7) { _fun0011_ip = 81; continue _fun0011 }
+                    if(var7) { _fun0012_ip = 81; continue _fun0012 }
  58:
                     var3 = _closure2_slot0;
                     var3 = var6[var3];
                     var4 = var4 == var3;
                     var2 = undefined;
-                    if(var4) { _fun0011_ip = 81; continue _fun0011 }
+                    if(var4) { _fun0012_ip = 81; continue _fun0012 }
  75:
                     var2 = var3.lastDismissedVersion;
  81:
@@ -481,7 +578,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot4 = var11;
             var1 = var11 != var5;
             var9 = null;
-            if(!var1) { _fun0010_ip = 260; continue _fun0010 }
+            if(!var1) { _fun0011_ip = 260; continue _fun0011 }
  135:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -496,33 +593,33 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = _closure1_slot10;
             var1 = var1.PRELOADED_USER_SETTINGS;
             var1 = var13.bind(var14)(var1);
-            if(var1) { _fun0010_ip = 232; continue _fun0010 }
+            if(var1) { _fun0011_ip = 232; continue _fun0011 }
  197:
             var1 = var11 != var10;
             var9 = null;
-            if(!var1) { _fun0010_ip = 260; continue _fun0010 }
+            if(!var1) { _fun0011_ip = 260; continue _fun0011 }
  206:
             var1 = null;
-            if(!var12) { _fun0010_ip = 223; continue _fun0010 }
+            if(!var12) { _fun0011_ip = 223; continue _fun0011 }
  211:
             var13 = var10 < var6;
             var1 = null;
-            if(!var13) { _fun0010_ip = 223; continue _fun0010 }
+            if(!var13) { _fun0011_ip = 223; continue _fun0011 }
  220:
             var1 = var5;
  223:
             _closure2_slot4 = var1;
             var9 = var1;
-            _fun0010_ip = 260; continue _fun0010;
+            _fun0011_ip = 260; continue _fun0011;
  232:
             var1 = null;
-            if(!var12) { _fun0010_ip = 253; continue _fun0010 }
+            if(!var12) { _fun0011_ip = 253; continue _fun0011 }
  237:
-            if(!(var11 != var10)) { _fun0010_ip = 250; continue _fun0010 }
+            if(!(var11 != var10)) { _fun0011_ip = 250; continue _fun0011 }
  241:
             var10 = var10 < var6;
             var1 = null;
-            if(!var10) { _fun0010_ip = 253; continue _fun0010 }
+            if(!var10) { _fun0011_ip = 253; continue _fun0011 }
  250:
             var1 = var5;
  253:
@@ -546,11 +643,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3[2] = var7;
             var3[3] = var6;
             var2 = function(arg1, arg2) {
-                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
                     var2 = _closure2_slot4;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0012_ip = 99; continue _fun0012 }
+                    if(!(var1 != var2)) { _fun0013_ip = 99; continue _fun0013 }
  13:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -584,48 +681,47 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['useGetVersionedDismissibleContent'] = var4;
     var4 = function useGetTimeRecurringDismissibleContent(arg1, arg2, arg3) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
             var5 = arg1;
-            var15 = arg2;
             var7 = arg3;
             var _closure2_slot0 = var5;
             var _closure2_slot1 = var7;
             var6 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var8 = 10;
-            var1 = var1[var8];
+            var8 = _closure1_slot2;
+            var1 = 10;
+            var9 = var8[var1];
             var4 = undefined;
-            var10 = var6.bind(var4)(var1);
-            var9 = var10.useStateFromStores;
-            var1 = _closure1_slot4;
-            var6 = new Array(1);
-            var6[0] = var1;
-            var1 = function() {
-                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            var12 = var6.bind(var4)(var9);
+            var11 = var12.useStateFromStores;
+            var9 = _closure1_slot4;
+            var10 = new Array(1);
+            var10[0] = var9;
+            var9 = function() {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                     var2 = _closure2_slot0;
                     var4 = null;
                     var1 = undefined;
-                    if(!(var4 !== var2)) { _fun0014_ip = 84; continue _fun0014 }
+                    if(!(var4 !== var2)) { _fun0015_ip = 84; continue _fun0015 }
  15:
                     var2 = _closure1_slot4;
                     var2 = var2.settings;
                     var6 = var2.userContent;
                     var7 = var4 == var6;
                     var2 = undefined;
-                    if(var7) { _fun0014_ip = 81; continue _fun0014 }
+                    if(var7) { _fun0015_ip = 81; continue _fun0015 }
  43:
                     var6 = var6.recurringDismissibleContentStates;
                     var7 = var4 == var6;
                     var2 = undefined;
-                    if(var7) { _fun0014_ip = 81; continue _fun0014 }
+                    if(var7) { _fun0015_ip = 81; continue _fun0015 }
  58:
                     var3 = _closure2_slot0;
                     var3 = var6[var3];
                     var4 = var4 == var3;
                     var2 = undefined;
-                    if(var4) { _fun0014_ip = 81; continue _fun0014 }
+                    if(var4) { _fun0015_ip = 81; continue _fun0015 }
  75:
                     var2 = var3.lastDismissedAtMs;
  81:
@@ -634,29 +730,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var9 = var9.bind(var10)(var6, var1);
-            var10 = null;
-            var1 = var10 != var9;
-            var12 = undefined;
-            if(!var1) { _fun0013_ip = 132; continue _fun0013 }
- 83:
-            var6 = global;
-            var13 = var6.Number;
-            var11 = var13.isNaN;
-            var1 = var6.Number;
-            var1 = var1.bind(var4)(var9);
-            var11 = var11.bind(var13)(var1);
-            var1 = undefined;
-            if(var11) { _fun0013_ip = 129; continue _fun0013 }
- 118:
-            var6 = var6.Number;
-            var1 = var6.bind(var4)(var9);
- 129:
-            var12 = var1;
- 132:
-            var6 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var1 = var1[var8];
+            var12 = var11.bind(var12)(var10, var9);
+            var1 = var8[var1];
             var9 = var6.bind(var4)(var1);
             var8 = var9.useStateFromStores;
             var1 = _closure1_slot5;
@@ -670,92 +745,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var6 = var8.bind(var9)(var6, var1);
             var _closure2_slot2 = var6;
-            var _closure2_slot3 = var10;
-            var1 = var10 != var5;
+            var1 = null;
+            var _closure2_slot3 = var1;
+            var9 = var1 != var5;
             var8 = null;
-            if(!var1) { _fun0013_ip = 416; continue _fun0013 }
- 197:
-            var9 = _closure1_slot0;
+            if(!var9) { _fun0014_ip = 188; continue _fun0014 }
+ 125:
+            var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 12;
-            var1 = var11[var1];
-            var9 = var9.bind(var4)(var1);
-            var1 = var9.disableNewUserDismissibleContent;
-            var1 = var1.bind(var9)(var5);
-            var14 = !var1;
-            var11 = 0;
-            if(!(var4 !== var12)) { _fun0013_ip = 247; continue _fun0013 }
- 237:
-            var1 = var15.cooldownDurationMs;
-            var11 = var12 + var1;
- 247:
-            var1 = global;
-            var9 = var1.Date;
-            var1 = var9.now;
-            var9 = var1.bind(var9)();
-            var1 = var15.showAfterTimestamp;
-            var13 = var10 == var1;
-            if(var13) { _fun0013_ip = 315; continue _fun0013 }
- 277:
-            var1 = var15.showAfterTimestamp;
-            var1 = var9 >= var1;
-            if(!var1) { _fun0013_ip = 312; continue _fun0013 }
- 290:
-            var17 = var10 != var12;
-            var16 = 0;
-            if(!var17) { _fun0013_ip = 302; continue _fun0013 }
- 299:
-            var16 = var12;
- 302:
-            var15 = var15.showAfterTimestamp;
-            var1 = var16 <= var15;
- 312:
-            var13 = var1;
- 315:
-            var16 = _closure1_slot4;
-            var15 = var16.hasLoaded;
-            var1 = _closure1_slot10;
-            var1 = var1.PRELOADED_USER_SETTINGS;
-            var1 = var15.bind(var16)(var1);
-            if(var1) { _fun0013_ip = 383; continue _fun0013 }
- 343:
-            var1 = var10 != var12;
-            var8 = null;
-            if(!var1) { _fun0013_ip = 416; continue _fun0013 }
- 352:
+            var9 = 12;
+            var9 = var11[var9];
+            var10 = var10.bind(var4)(var9);
+            var9 = var10.disableNewUserDismissibleContent;
+            var9 = var9.bind(var10)(var5);
+            var11 = !var9;
+            var10 = _closure1_slot12;
+            var9 = arg2;
+            var9 = var10.bind(var4)(var11, var12, var9);
             var1 = null;
-            if(!var14) { _fun0013_ip = 374; continue _fun0013 }
- 357:
-            var1 = null;
-            if(!var13) { _fun0013_ip = 374; continue _fun0013 }
- 362:
-            var15 = var9 >= var11;
-            var1 = null;
-            if(!var15) { _fun0013_ip = 374; continue _fun0013 }
- 371:
+            if(!var9) { _fun0014_ip = 181; continue _fun0014 }
+ 178:
             var1 = var5;
- 374:
+ 181:
             _closure2_slot3 = var1;
             var8 = var1;
-            _fun0013_ip = 416; continue _fun0013;
- 383:
-            var1 = null;
-            if(!var14) { _fun0013_ip = 409; continue _fun0013 }
- 388:
-            var1 = null;
-            if(!var13) { _fun0013_ip = 409; continue _fun0013 }
- 393:
-            if(!(var10 != var12)) { _fun0013_ip = 406; continue _fun0013 }
- 397:
-            var9 = var9 >= var11;
-            var1 = null;
-            if(!var9) { _fun0013_ip = 409; continue _fun0013 }
- 406:
-            var1 = var5;
- 409:
-            _closure2_slot3 = var1;
-            var8 = var1;
- 416:
+ 188:
             var1 = _closure1_slot11;
             var4 = var1.bind(var4)(var8, var6, var7);
             var1 = new Array(2);
@@ -767,11 +781,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3[1] = var7;
             var3[2] = var6;
             var2 = function(arg1, arg2) {
-                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+                _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
                     var2 = _closure2_slot3;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0015_ip = 89; continue _fun0015 }
+                    if(!(var1 != var2)) { _fun0016_ip = 89; continue _fun0016 }
  13:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -803,7 +817,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['useGetTimeRecurringDismissibleContent'] = var4;
     var4 = function useGetSnowflakeBoundDismissibleContent(arg1, arg2, arg3) {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
             var5 = arg1;
             var6 = arg2;
@@ -822,30 +836,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = new Array(1);
             var11[0] = var10;
             var10 = function() {
-                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
                     var2 = _closure2_slot0;
                     var4 = null;
                     var1 = undefined;
-                    if(!(var4 !== var2)) { _fun0017_ip = 84; continue _fun0017 }
+                    if(!(var4 !== var2)) { _fun0018_ip = 84; continue _fun0018 }
  15:
                     var2 = _closure1_slot4;
                     var2 = var2.settings;
                     var6 = var2.userContent;
                     var7 = var4 == var6;
                     var2 = undefined;
-                    if(var7) { _fun0017_ip = 81; continue _fun0017 }
+                    if(var7) { _fun0018_ip = 81; continue _fun0018 }
  43:
                     var6 = var6.recurringDismissibleContentStates;
                     var7 = var4 == var6;
                     var2 = undefined;
-                    if(var7) { _fun0017_ip = 81; continue _fun0017 }
+                    if(var7) { _fun0018_ip = 81; continue _fun0018 }
  58:
                     var3 = _closure2_slot0;
                     var3 = var6[var3];
                     var4 = var4 == var3;
                     var2 = undefined;
-                    if(var4) { _fun0017_ip = 81; continue _fun0017 }
+                    if(var4) { _fun0018_ip = 81; continue _fun0018 }
  75:
                     var2 = var3.lastDismissedObjectId;
  81:
@@ -873,7 +887,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot4 = var12;
             var1 = var12 != var5;
             var9 = null;
-            if(!var1) { _fun0016_ip = 324; continue _fun0016 }
+            if(!var1) { _fun0017_ip = 324; continue _fun0017 }
  135:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -888,14 +902,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = _closure1_slot10;
             var1 = var1.PRELOADED_USER_SETTINGS;
             var1 = var11.bind(var14)(var1);
-            if(var1) { _fun0016_ip = 264; continue _fun0016 }
+            if(var1) { _fun0017_ip = 264; continue _fun0017 }
  197:
             var1 = var12 != var13;
             var9 = null;
-            if(!var1) { _fun0016_ip = 324; continue _fun0016 }
+            if(!var1) { _fun0017_ip = 324; continue _fun0017 }
  206:
             var1 = null;
-            if(!var10) { _fun0016_ip = 255; continue _fun0016 }
+            if(!var10) { _fun0017_ip = 255; continue _fun0017 }
  211:
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -906,18 +920,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var11.bind(var14)(var6, var13);
             var11 = 1;
             var1 = null;
-            if(!(var11 === var14)) { _fun0016_ip = 255; continue _fun0016 }
+            if(!(var11 === var14)) { _fun0017_ip = 255; continue _fun0017 }
  252:
             var1 = var5;
  255:
             _closure2_slot4 = var1;
             var9 = var1;
-            _fun0016_ip = 324; continue _fun0016;
+            _fun0017_ip = 324; continue _fun0017;
  264:
             var1 = null;
-            if(!var10) { _fun0016_ip = 317; continue _fun0016 }
+            if(!var10) { _fun0017_ip = 317; continue _fun0017 }
  269:
-            if(!(var12 != var13)) { _fun0016_ip = 314; continue _fun0016 }
+            if(!(var12 != var13)) { _fun0017_ip = 314; continue _fun0017 }
  273:
             var11 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -928,7 +942,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var10.bind(var11)(var6, var13);
             var10 = 1;
             var1 = null;
-            if(!(var10 === var11)) { _fun0016_ip = 317; continue _fun0016 }
+            if(!(var10 === var11)) { _fun0017_ip = 317; continue _fun0017 }
  314:
             var1 = var5;
  317:
@@ -947,11 +961,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3[2] = var7;
             var3[3] = var6;
             var2 = function(arg1, arg2) {
-                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
                     var2 = _closure2_slot4;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0018_ip = 94; continue _fun0018 }
+                    if(!(var1 != var2)) { _fun0019_ip = 94; continue _fun0019 }
  13:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -984,7 +998,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['useGetSnowflakeBoundDismissibleContent'] = var4;
     var4 = function useGetTimeReccuringSnowflakeBoundDismissibleContent(arg1, arg2, arg3, arg4) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
  0:
             var1 = arg1;
             var6 = arg3;
@@ -1012,7 +1026,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = null;
             var _closure2_slot3 = var9;
             var5 = var9 == var1;
-            if(var5) { _fun0019_ip = 125; continue _fun0019 }
+            if(var5) { _fun0020_ip = 125; continue _fun0020 }
  89:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -1024,7 +1038,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var11.bind(var12)(var1, var6, var10);
  125:
             var9 = null;
-            if(var5) { _fun0019_ip = 137; continue _fun0019 }
+            if(var5) { _fun0020_ip = 137; continue _fun0020 }
  130:
             _closure2_slot3 = var1;
             var9 = var1;
@@ -1041,11 +1055,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3[2] = var7;
             var3[3] = var6;
             var2 = function(arg1, arg2) {
-                _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+                _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
  0:
                     var2 = _closure2_slot3;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0020_ip = 94; continue _fun0020 }
+                    if(!(var1 != var2)) { _fun0021_ip = 94; continue _fun0021 }
  13:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -1078,7 +1092,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['useGetTimeReccuringSnowflakeBoundDismissibleContent'] = var4;
     var4 = function UNSAFE_useGetSingleUseGuildDismissibleContent(arg1, arg2, arg3) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
  0:
             var6 = arg2;
             var7 = arg3;
@@ -1116,22 +1130,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = _closure1_slot10;
             var5 = var5.PRELOADED_USER_SETTINGS;
             var5 = var10.bind(var11)(var5);
-            if(var5) { _fun0021_ip = 166; continue _fun0021 }
+            if(var5) { _fun0022_ip = 166; continue _fun0022 }
  133:
             var1 = var8 != var1;
             var8 = null;
-            if(!var1) { _fun0021_ip = 188; continue _fun0021 }
+            if(!var1) { _fun0022_ip = 188; continue _fun0022 }
  142:
             var5 = var9.find;
             var1 = function(arg1) {
-                _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+                _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
  0:
                     var3 = arg1;
                     var1 = _closure2_slot2;
                     var4 = var1[var3];
                     var1 = null;
                     var1 = var1 == var4;
-                    if(var1) { _fun0022_ip = 43; continue _fun0022 }
+                    if(var1) { _fun0023_ip = 43; continue _fun0023 }
  23:
                     var2 = _closure2_slot2;
                     var2 = var2[var3];
@@ -1145,23 +1159,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var5.bind(var9)(var1);
             _closure2_slot3 = var1;
             var8 = var1;
-            _fun0021_ip = 188; continue _fun0021;
+            _fun0022_ip = 188; continue _fun0022;
  166:
             var5 = var9.find;
             var1 = function(arg1) {
-                _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+                _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
  0:
                     var3 = arg1;
                     var1 = _closure2_slot2;
                     var5 = null;
                     var1 = var5 == var1;
-                    if(var1) { _fun0023_ip = 31; continue _fun0023 }
+                    if(var1) { _fun0024_ip = 31; continue _fun0024 }
  19:
                     var4 = _closure2_slot2;
                     var4 = var4[var3];
                     var1 = var5 == var4;
  31:
-                    if(var1) { _fun0023_ip = 54; continue _fun0023 }
+                    if(var1) { _fun0024_ip = 54; continue _fun0024 }
  34:
                     var2 = _closure2_slot2;
                     var2 = var2[var3];
@@ -1187,11 +1201,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3[1] = var7;
             var3[2] = var6;
             var2 = function(arg1, arg2) {
-                _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+                _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
  0:
                     var2 = _closure2_slot3;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0024_ip = 90; continue _fun0024 }
+                    if(!(var1 != var2)) { _fun0025_ip = 90; continue _fun0025 }
  13:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -1222,6 +1236,116 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var3['UNSAFE_useGetSingleUseGuildDismissibleContent'] = var4;
+    var4 = function UNSAFE_useGetTimeRecurringGuildDismissibleContent(arg1, arg2, arg3, arg4) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+ 0:
+            var5 = arg1;
+            var6 = arg2;
+            var7 = arg4;
+            var _closure2_slot0 = var6;
+            var _closure2_slot1 = var7;
+            var8 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 10;
+            var1 = var4[var1];
+            var4 = undefined;
+            var10 = var8.bind(var4)(var1);
+            var9 = var10.useStateFromStores;
+            var1 = _closure1_slot4;
+            var8 = new Array(1);
+            var8[0] = var1;
+            var1 = function() {
+                var3 = _closure1_slot4;
+                var2 = var3.getGuildDismissedContentState;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var9 = var9.bind(var10)(var8, var1);
+            var1 = null;
+            var _closure2_slot2 = var1;
+            var10 = var1 != var5;
+            var8 = null;
+            if(!var10) { _fun0026_ip = 181; continue _fun0026 }
+ 87:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var10 = 12;
+            var10 = var12[var10];
+            var11 = var11.bind(var4)(var10);
+            var10 = var11.disableNewUserDismissibleContent;
+            var10 = var10.bind(var11)(var5);
+            var12 = !var10;
+            var10 = var1 == var9;
+            var11 = null;
+            if(var10) { _fun0026_ip = 152; continue _fun0026 }
+ 130:
+            var10 = var9[var5];
+            var13 = var1 == var10;
+            var9 = undefined;
+            if(var13) { _fun0026_ip = 149; continue _fun0026 }
+ 143:
+            var9 = var10.lastDismissedAtMs;
+ 149:
+            var11 = var9;
+ 152:
+            var10 = _closure1_slot12;
+            var9 = arg3;
+            var9 = var10.bind(var4)(var12, var11, var9);
+            var1 = null;
+            if(!var9) { _fun0026_ip = 174; continue _fun0026 }
+ 171:
+            var1 = var5;
+ 174:
+            _closure2_slot2 = var1;
+            var8 = var1;
+ 181:
+            var1 = _closure1_slot11;
+            var4 = var1.bind(var4)(var8, var6, var7);
+            var1 = new Array(2);
+            var1[0] = var4;
+            var5 = _closure1_slot3;
+            var4 = var5.useCallback;
+            var3 = new Array(3);
+            var3[0] = var8;
+            var3[1] = var7;
+            var3[2] = var6;
+            var2 = function(arg1, arg2) {
+                _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+ 0:
+                    var2 = _closure2_slot2;
+                    var1 = null;
+                    if(!(var1 != var2)) { _fun0027_ip = 90; continue _fun0027 }
+ 13:
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 14;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var5 = var3.bind(var1)(var2);
+                    var4 = var5.UNSAFE_markTimeRecurringGuildDismissibleContentAsDismissed;
+                    var3 = _closure2_slot2;
+                    var2 = _closure2_slot0;
+                    var1 = {};
+                    var7 = arg1;
+                    var1['dismissAction'] = var7;
+                    var6 = _closure2_slot1;
+                    var1['groupName'] = var6;
+                    var1['guildId'] = var2;
+                    var6 = arg2;
+                    var1['forceTrack'] = var6;
+                    var1 = var4.bind(var5)(var3, var2, var1);
+ 90:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var2 = var4.bind(var5)(var2, var3);
+            var1[1] = var2;
+            return var1;
+        }
+    };
+    var3['UNSAFE_useGetTimeRecurringGuildDismissibleContent'] = var4;
     var2 = function useDangerouslyPeekDismissibleContents(arg1) {
         var3 = arg1;
         var6 = _closure1_slot0;
@@ -1235,7 +1359,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var4 = new Array(1);
         var4[0] = var2;
         var2 = function() {
-            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
  0:
                 var1 = _closure1_slot4;
                 var1 = var1.settings;
@@ -1243,7 +1367,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0025_ip = 36; continue _fun0025 }
+                if(var3) { _fun0028_ip = 36; continue _fun0028 }
  30:
                 var1 = var2.dismissedContents;
  36:
@@ -1254,12 +1378,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure2_slot0 = var2;
         var2 = var3.filter;
         var1 = function(arg1) {
-            _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
  0:
                 var3 = _closure2_slot0;
                 var1 = null;
                 var1 = var1 != var3;
-                if(!var1) { _fun0026_ip = 63; continue _fun0026 }
+                if(!var1) { _fun0029_ip = 63; continue _fun0029 }
  16:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;

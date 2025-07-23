@@ -24,52 +24,57 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var5 = var1.details;
-            var6 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var4 = 0;
-            var2 = var2[var4];
-            var3 = undefined;
-            var2 = var6.bind(var3)(var2);
-            var2 = var2.CustomStatusLabel;
-            var2 = var2.QUESTION;
-            if(!(var2 !== var5)) { _fun0001_ip = 318; continue _fun0001 }
- 52:
-            var6 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var4];
-            var2 = var6.bind(var3)(var2);
-            var2 = var2.CustomStatusLabel;
-            var2 = var2.EXCITED;
-            if(!(var2 !== var5)) { _fun0001_ip = 287; continue _fun0001 }
- 88:
-            var6 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var4];
-            var2 = var6.bind(var3)(var2);
-            var2 = var2.CustomStatusLabel;
-            var2 = var2.RECOMMEND;
-            if(!(var2 !== var5)) { _fun0001_ip = 256; continue _fun0001 }
- 124:
-            var6 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var4];
-            var2 = var6.bind(var3)(var2);
-            var2 = var2.CustomStatusLabel;
-            var2 = var2.THINK;
-            if(!(var2 !== var5)) { _fun0001_ip = 225; continue _fun0001 }
- 157:
-            var6 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var4];
-            var2 = var6.bind(var3)(var2);
-            var2 = var2.CustomStatusLabel;
-            var2 = var2.LOVE;
-            if(!(var2 !== var5)) { _fun0001_ip = 194; continue _fun0001 }
- 190:
             var2 = null;
+            var4 = var2 == var1;
+            var3 = undefined;
+            var6 = undefined;
+            if(var4) { _fun0001_ip = 22; continue _fun0001 }
+ 16:
+            var6 = var1.details;
+ 22:
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var4 = 0;
+            var5 = var5[var4];
+            var5 = var7.bind(var3)(var5);
+            var5 = var5.CustomStatusLabel;
+            var5 = var5.QUESTION;
+            if(!(var5 !== var6)) { _fun0001_ip = 327; continue _fun0001 }
+ 63:
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var5 = var5[var4];
+            var5 = var7.bind(var3)(var5);
+            var5 = var5.CustomStatusLabel;
+            var5 = var5.EXCITED;
+            if(!(var5 !== var6)) { _fun0001_ip = 296; continue _fun0001 }
+ 99:
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var5 = var5[var4];
+            var5 = var7.bind(var3)(var5);
+            var5 = var5.CustomStatusLabel;
+            var5 = var5.RECOMMEND;
+            if(!(var5 !== var6)) { _fun0001_ip = 265; continue _fun0001 }
+ 135:
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var5 = var5[var4];
+            var5 = var7.bind(var3)(var5);
+            var5 = var5.CustomStatusLabel;
+            var5 = var5.THINK;
+            if(!(var5 !== var6)) { _fun0001_ip = 234; continue _fun0001 }
+ 168:
+            var7 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var5 = var5[var4];
+            var5 = var7.bind(var3)(var5);
+            var5 = var5.CustomStatusLabel;
+            var5 = var5.LOVE;
+            if(!(var5 !== var6)) { _fun0001_ip = 203; continue _fun0001 }
+ 201:
             return var2;
- 194:
+ 203:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var4];
@@ -77,7 +82,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.CustomStatusLabel;
             var2 = var2.LOVE;
             return var2;
- 225:
+ 234:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var4];
@@ -85,7 +90,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.CustomStatusLabel;
             var2 = var2.THINK;
             return var2;
- 256:
+ 265:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var4];
@@ -93,7 +98,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.CustomStatusLabel;
             var2 = var2.RECOMMEND;
             return var2;
- 287:
+ 296:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var4];
@@ -101,7 +106,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.CustomStatusLabel;
             var2 = var2.EXCITED;
             return var2;
- 318:
+ 327:
             var2 = _closure1_slot0;
             var1 = _closure1_slot1;
             var1 = var1[var4];

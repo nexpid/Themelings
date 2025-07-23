@@ -743,11 +743,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var17 = var1.actionIconStyle;
                 var10 = null;
                 var12 = null;
-                if(!var20) { _fun0007_ip = 83; continue _fun0007 }
- 72:
+                if(!var20) { _fun0007_ip = 84; continue _fun0007 }
+ 73:
                 var1 = var5.props;
                 var12 = var1.sortHandlers;
- 83:
+ 84:
                 var3 = _closure1_slot21;
                 var2 = _closure1_slot11;
                 var1 = {};
@@ -818,23 +818,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var18[var5];
                 var5 = var7.bind(var4)(var5);
                 var5 = var5.unsafe_rawColors;
-                if(var6) { _fun0007_ip = 302; continue _fun0007 }
- 278:
+                if(var6) { _fun0007_ip = 303; continue _fun0007 }
+ 279:
                 var7 = var5.PRIMARY_200;
                 var6 = 0.6;
                 var6 = var8.bind(var9)(var7, var6);
-                _fun0007_ip = 324; continue _fun0007;
- 302:
+                _fun0007_ip = 325; continue _fun0007;
+ 303:
                 var7 = var5.PRIMARY_700;
                 var5 = 0.6;
                 var6 = var8.bind(var9)(var7, var5);
- 324:
+ 325:
                 var7 = var10 != var6;
                 var5 = undefined;
-                if(!var7) { _fun0007_ip = 336; continue _fun0007 }
- 333:
+                if(!var7) { _fun0007_ip = 337; continue _fun0007 }
+ 334:
                 var5 = var6;
- 336:
+ 337:
                 var1['underlayColor'] = var5;
                 var23 = var1;
                 var22 = var12;
@@ -859,18 +859,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var16 = new Array(2);
                 var16[0] = var18;
                 var18 = null;
-                if(!var20) { _fun0007_ip = 442; continue _fun0007 }
- 436:
+                if(!var20) { _fun0007_ip = 443; continue _fun0007 }
+ 437:
                 var18 = var19.sortingCategoryView;
- 442:
+ 443:
                 var16[1] = var18;
                 var8['viewStyle'] = var16;
-                if(!(var10 == var13)) { _fun0007_ip = 518; continue _fun0007 }
- 455:
+                if(!(var10 == var13)) { _fun0007_ip = 519; continue _fun0007 }
+ 456:
                 var12 = var10 != var12;
                 var10 = null;
-                if(!var12) { _fun0007_ip = 516; continue _fun0007 }
- 464:
+                if(!var12) { _fun0007_ip = 517; continue _fun0007 }
+ 465:
                 var16 = _closure1_slot21;
                 var19 = _closure1_slot1;
                 var20 = _closure1_slot3;
@@ -884,9 +884,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var12['source'] = var18;
                 var12['style'] = var17;
                 var10 = var16.bind(var4)(var13, var12);
- 516:
-                _fun0007_ip = 549; continue _fun0007;
- 518:
+ 517:
+                _fun0007_ip = 550; continue _fun0007;
+ 519:
                 var13 = _closure1_slot21;
                 var12 = _closure1_slot25;
                 var11 = {};
@@ -901,7 +901,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var11['onPress'] = var14;
                 var10 = var13.bind(var4)(var12, var11);
- 549:
+ 550:
                 var8['icon'] = var10;
                 var8 = var7.bind(var4)(var9, var8);
                 var5['children'] = var8;
@@ -1118,62 +1118,62 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = null;
                     var1 = 'null';
                     var10 = null;
-                    if(!(var1 !== var3)) { _fun0010_ip = 88; continue _fun0010 }
- 73:
+                    if(!(var1 !== var3)) { _fun0010_ip = 89; continue _fun0010 }
+ 74:
                     var2 = _closure1_slot17;
                     var1 = var2.getLocalChannel;
                     var10 = var1.bind(var2)(var3);
- 88:
-                    if(!(var6 == var10)) { _fun0010_ip = 157; continue _fun0010 }
- 92:
+ 89:
+                    if(!(var6 == var10)) { _fun0010_ip = 158; continue _fun0010 }
+ 93:
                     var3 = _closure1_slot21;
                     var2 = _closure1_slot10;
                     var1 = {};
                     var13 = var6 == var8;
                     var4 = null;
-                    if(!var13) { _fun0010_ip = 145; continue _fun0010 }
- 111:
+                    if(!var13) { _fun0010_ip = 146; continue _fun0010 }
+ 112:
                     var12 = var12.null;
                     var13 = var12.length;
                     var12 = 0;
                     var12 = var13 > var12;
                     var4 = null;
-                    if(!var12) { _fun0010_ip = 145; continue _fun0010 }
- 133:
+                    if(!var12) { _fun0010_ip = 146; continue _fun0010 }
+ 134:
                     var12 = {};
                     var13 = 36;
                     var12['marginTop'] = var13;
                     var4 = var12;
- 145:
+ 146:
                     var1['style'] = var4;
                     var1 = var3.bind(var5)(var2, var1);
-                    _fun0010_ip = 243; continue _fun0010;
- 157:
+                    _fun0010_ip = 245; continue _fun0010;
+ 158:
                     var4 = _closure1_slot21;
                     var3 = _closure1_slot24;
                     var2 = {};
                     var2['category'] = var10;
                     var10 = var6 != var8;
-                    if(!var10) { _fun0010_ip = 198; continue _fun0010 }
- 178:
+                    if(!var10) { _fun0010_ip = 200; continue _fun0010 }
+ 180:
                     var12 = var8.has;
                     var11 = _closure1_slot18;
                     var11 = var11.GUILD_CATEGORY;
                     var10 = var12.bind(var8)(var11);
- 198:
+ 200:
                     var2['sortingEnabled'] = var10;
                     var9 = var9.edit;
                     var2['editStyle'] = var9;
                     var8 = var6 == var8;
                     var6 = undefined;
-                    if(!var8) { _fun0010_ip = 233; continue _fun0010 }
- 223:
+                    if(!var8) { _fun0010_ip = 235; continue _fun0010 }
+ 225:
                     var7 = _closure3_slot0;
                     var6 = var7.handleChannelPress;
- 233:
+ 235:
                     var2['onPress'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
- 243:
+ 245:
                     return var1;
                 }
             };
@@ -1946,7 +1946,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var2 = _closure1_slot19;
                                 var2 = var2.VIEW_CHANNEL;
                                 var2 = var4.bind(var6)(var2, var5);
-                                if(!var2) { _fun0019_ip = 158; continue _fun0019 }
+                                if(!var2) { _fun0019_ip = 159; continue _fun0019 }
  61:
                                 var6 = _closure4_slot4;
                                 var4 = 1;
@@ -2010,7 +2010,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var3 = _closure4_slot3;
                                 var2 = var3.push;
                                 var2 = var2.bind(var3)(var4);
- 158:
+ 159:
                                 return var1;
                             }
                         };

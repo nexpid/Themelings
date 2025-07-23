@@ -776,10 +776,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var8['onPress'] = var19;
             var19 = 'primary';
-            if(!var13) { _fun0007_ip = 494; continue _fun0007 }
- 490:
-            var19 = 'secondary';
+            if(!var13) { _fun0007_ip = 498; continue _fun0007 }
  494:
+            var19 = 'secondary';
+ 498:
             var8['variant'] = var19;
             var8['disabled'] = var13;
             var8 = var11.bind(var4)(var10, var8);

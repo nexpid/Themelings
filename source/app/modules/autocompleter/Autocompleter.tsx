@@ -472,7 +472,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3[var1];
                 var1 = undefined;
                 var5 = var4.bind(var1)(var3);
-                var4 = var5.getSearchContext;
+                var4 = var5.getUserSearchContext;
                 var3 = var2.parseUserResults;
                 var1 = var2._limit;
                 var1 = var4.bind(var5)(var3, var1);

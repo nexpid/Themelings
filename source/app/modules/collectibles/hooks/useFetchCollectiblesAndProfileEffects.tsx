@@ -63,7 +63,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5[0] = var4;
             var4 = function() {
                 var2 = _closure1_slot5;
-                var3 = var2.isFetching;
+                var3 = var2.isFetchingAll;
                 var1 = new Array(3);
                 var1[0] = var3;
                 var3 = var2.fetchError;
@@ -90,7 +90,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
-                var3 = var4.fetchUserProfileEffects;
+                var3 = var4.fetchAllProfileEffects;
                 var2 = true;
                 var2 = var3.bind(var4)(var2);
                 return var1;

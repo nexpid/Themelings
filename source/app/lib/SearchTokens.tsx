@@ -968,79 +968,246 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var _closure1_slot41 = var1;
-    var6 = function searchUsers(arg1, arg2) {
+    var6 = function searchUsers(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-            var6 = arg1;
-            var10 = arg2;
-            var13 = arguments[2];
-            var12 = arguments[3];
+            var3 = arg1;
+            var8 = var3.query;
+            var10 = var3.searchId;
+            var2 = var3.maxResults;
             var11 = undefined;
-            if(!(var13 === var11)) { _fun0011_ip = 23; continue _fun0011 }
- 20:
-            var13 = 10;
- 23:
-            if(!(var12 === var11)) { _fun0011_ip = 29; continue _fun0011 }
- 27:
-            var12 = false;
- 29:
+            if(!(var2 === var11)) { _fun0011_ip = 31; continue _fun0011 }
+ 28:
+            var2 = 10;
+ 31:
+            var7 = var3.tokens;
             var _closure2_slot0 = var11;
             var _closure2_slot1 = var11;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 16;
-            var2 = var4[var2];
-            var3 = var3.bind(var11)(var2);
-            var2 = var3.getSearchType;
-            var4 = var2.bind(var3)(var10);
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 16;
+            var3 = var6[var3];
+            var4 = var4.bind(var11)(var3);
+            var3 = var4.getSearchType;
+            var4 = var3.bind(var4)(var10);
             var9 = {};
-            var3 = var6.split;
-            var2 = '#';
-            var2 = var3.bind(var6)(var2);
+            var6 = var8.split;
+            var3 = '#';
+            var3 = var6.bind(var8)(var3);
             var6 = 0;
-            var3 = var2[var6];
+            var3 = var3[var6];
             var9['query'] = var3;
-            var9['limit'] = var13;
-            var9['request'] = var12;
+            var9['limit'] = var2;
+            var2 = false;
+            var9['request'] = var2;
             var2 = _closure1_slot18;
             var2 = var2.GUILD;
-            if(!(var2 !== var4)) { _fun0011_ip = 317; continue _fun0011 }
- 124:
+            if(!(var2 !== var4)) { _fun0011_ip = 503; continue _fun0011 }
+ 134:
             var2 = _closure1_slot18;
             var2 = var2.CHANNEL;
-            if(!(var2 !== var4)) { _fun0011_ip = 263; continue _fun0011 }
- 141:
+            if(!(var2 !== var4)) { _fun0011_ip = 449; continue _fun0011 }
+ 151:
             var2 = _closure1_slot18;
             var2 = var2.DMS;
-            if(!(var2 !== var4)) { _fun0011_ip = 161; continue _fun0011 }
- 155:
+            if(!(var2 !== var4)) { _fun0011_ip = 171; continue _fun0011 }
+ 165:
             var2 = new Array(0);
             return var2;
- 161:
+ 171:
+            var2 = null;
+            if(!(var2 == var7)) { _fun0011_ip = 181; continue _fun0011 }
+ 177:
+            var7 = new Array(0);
+ 181:
+            var4 = function getPrivateChannelRecipients(arg1) {
+                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+ 0:
+                    var5 = arg1;
+                    var1 = null;
+                    if(!(var1 != var5)) { _fun0012_ip = 106; continue _fun0012 }
+ 11:
+                    var1 = global;
+                    var1 = var1.Set;
+                    var3 = var1.prototype;
+                    var3 = Object.create(var3, {constructor: {value: var1}});
+                    var7 = var3;
+                    var1 = new var7[var1](var6);
+                    var1 = var1 instanceof Object ? var1 : var3;
+                    var _closure3_slot0 = var1;
+                    var4 = new Array(0);
+                    var _closure3_slot1 = var4;
+                    var3 = var5.forEach;
+                    var1 = function(arg1) {
+                        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+ 0:
+                            var3 = arg1;
+                            var2 = var3.getData;
+                            var1 = 'channel';
+                            var1 = var2.bind(var3)(var1);
+                            var2 = null;
+                            if(!(var2 != var1)) { _fun0013_ip = 46; continue _fun0013 }
+ 24:
+                            var3 = _closure3_slot1;
+                            var2 = var3.push;
+                            var1 = var1.id;
+                            var1 = var2.bind(var3)(var1);
+ 46:
+                            var1 = undefined;
+                            return var1;
+                        }
+                    };
+                    var1 = var3.bind(var5)(var1);
+                    var1 = function maybeAddUser(arg1) {
+                        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+ 0:
+                            var1 = arg1;
+                            var2 = null;
+                            var2 = var2 == var1;
+                            if(var2) { _fun0014_ip = 34; continue _fun0014 }
+ 12:
+                            var5 = _closure3_slot0;
+                            var4 = var5.has;
+                            var3 = var1.id;
+                            var2 = var4.bind(var5)(var3);
+ 34:
+                            if(var2) { _fun0014_ip = 73; continue _fun0014 }
+ 37:
+                            var4 = _closure3_slot3;
+                            var3 = var4.push;
+                            var3 = var3.bind(var4)(var1);
+                            var3 = _closure3_slot0;
+                            var2 = var3.add;
+                            var1 = var1.id;
+                            var1 = var2.bind(var3)(var1);
+ 73:
+                            var1 = undefined;
+                            return var1;
+                        }
+                    };
+                    var _closure3_slot2 = var1;
+                    var1 = new Array(0);
+                    var _closure3_slot3 = var1;
+                    var3 = var4.forEach;
+                    var2 = function(arg1) {
+                        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+ 0:
+                            var4 = _closure1_slot4;
+                            var3 = var4.getChannel;
+                            var2 = arg1;
+                            var3 = var3.bind(var4)(var2);
+                            var2 = null;
+                            if(!(var2 != var3)) { _fun0015_ip = 118; continue _fun0015 }
+ 26:
+                            var2 = var3.isDM;
+                            var2 = var2.bind(var3)();
+                            if(var2) { _fun0015_ip = 79; continue _fun0015 }
+ 39:
+                            var2 = var3.isGroupDM;
+                            var2 = var2.bind(var3)();
+                            if(!var2) { _fun0015_ip = 118; continue _fun0015 }
+ 52:
+                            var5 = var3.recipients;
+                            var4 = var5.forEach;
+                            var2 = function(arg1) {
+                                var3 = _closure1_slot13;
+                                var2 = var3.getUser;
+                                var1 = arg1;
+                                var3 = var2.bind(var3)(var1);
+                                var2 = _closure3_slot2;
+                                var1 = undefined;
+                                var2 = var2.bind(var1)(var3);
+                                return var1;
+                            };
+                            var2 = var4.bind(var5)(var2);
+                            _fun0015_ip = 118; continue _fun0015;
+ 79:
+                            var2 = var3.getRecipientId;
+                            var3 = var2.bind(var3)();
+                            var2 = _closure1_slot13;
+                            var1 = var2.getUser;
+                            var3 = var1.bind(var2)(var3);
+                            var2 = _closure3_slot2;
+                            var1 = undefined;
+                            var1 = var2.bind(var1)(var3);
+ 118:
+                            var1 = undefined;
+                            return var1;
+                        }
+                    };
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+ 106:
+                    var1 = new Array(0);
+                    return var1;
+                }
+            };
+            var14 = var4.bind(var11)(var7);
+            if(!(var2 != var14)) { _fun0011_ip = 206; continue _fun0011 }
+ 197:
+            var4 = var14.length;
+            if(!(!(var4 > var6))) { _fun0011_ip = 311; continue _fun0011 }
+ 206:
+            var7 = _closure1_slot1;
+            var17 = _closure1_slot2;
+            var12 = 19;
+            var4 = var17[var12];
+            var8 = var7.bind(var11)(var4);
+            var7 = var8.queryAllUsers;
+            var4 = {};
+            var19 = var4;
+            var18 = var9;
+            var13 = copyDataProperties(var19, var18);
+            var16 = _closure1_slot0;
+            var12 = var17[var12];
+            var15 = var16.bind(var11)(var12);
+            var13 = var15.getBoosterMap;
+            var12 = 20;
+            var12 = var17[var12];
+            var12 = var16.bind(var11)(var12);
+            var12 = var12.AutocompleterResultTypes;
+            var12 = var12.USER;
+            var13 = var13.bind(var15)(var12);
+            var12 = 'boosters';
+            var4[var12] = var13;
+            var7 = var7.bind(var8)(var4);
+            _fun0011_ip = 555; continue _fun0011;
+ 311:
+            var8 = _closure1_slot13;
+            var4 = var8.getCurrentUser;
+            var4 = var4.bind(var8)();
+            if(!(var2 != var4)) { _fun0011_ip = 338; continue _fun0011 }
+ 328:
+            var2 = var14.push;
+            var2 = var2.bind(var14)(var4);
+ 338:
             var4 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var8 = 19;
-            var2 = var15[var8];
-            var7 = var4.bind(var11)(var2);
-            var4 = var7.queryUsers;
+            var16 = _closure1_slot2;
+            var12 = 19;
+            var2 = var16[var12];
+            var8 = var4.bind(var11)(var2);
+            var4 = var8.queryUsers;
             var2 = {};
-            var2['query'] = var3;
-            var2['limit'] = var13;
-            var2['request'] = var12;
-            var14 = _closure1_slot0;
-            var8 = var15[var8];
-            var13 = var14.bind(var11)(var8);
-            var12 = var13.getBoosterMap;
-            var8 = 20;
-            var8 = var15[var8];
-            var8 = var14.bind(var11)(var8);
-            var8 = var8.AutocompleterResultTypes;
-            var8 = var8.USER;
-            var8 = var12.bind(var13)(var8);
-            var2['boosters'] = var8;
-            var7 = var4.bind(var7)(var2);
-            _fun0011_ip = 369; continue _fun0011;
- 263:
+            var19 = var2;
+            var18 = var9;
+            var13 = copyDataProperties(var19, var18);
+            var13 = 'users';
+            var2[var13] = var14;
+            var15 = _closure1_slot0;
+            var12 = var16[var12];
+            var14 = var15.bind(var11)(var12);
+            var13 = var14.getBoosterMap;
+            var12 = 20;
+            var12 = var16[var12];
+            var12 = var15.bind(var11)(var12);
+            var12 = var12.AutocompleterResultTypes;
+            var12 = var12.USER;
+            var13 = var13.bind(var14)(var12);
+            var12 = 'boosters';
+            var2[var12] = var13;
+            var7 = var4.bind(var8)(var2);
+            _fun0011_ip = 555; continue _fun0011;
+ 449:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 19;
@@ -1048,14 +1215,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var4.bind(var11)(var2);
             var4 = var8.queryChannelUsers;
             var2 = {};
-            var17 = var2;
-            var16 = var9;
-            var12 = copyDataProperties(var17, var16);
+            var19 = var2;
+            var18 = var9;
+            var12 = copyDataProperties(var19, var18);
             var12 = 'channelId';
             var2[var12] = var10;
             var7 = var4.bind(var8)(var2);
-            _fun0011_ip = 369; continue _fun0011;
- 317:
+            _fun0011_ip = 555; continue _fun0011;
+ 503:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 19;
@@ -1063,13 +1230,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var4.bind(var11)(var2);
             var4 = var8.queryGuildUsers;
             var2 = {};
-            var17 = var2;
-            var16 = var9;
-            var9 = copyDataProperties(var17, var16);
+            var19 = var2;
+            var18 = var9;
+            var9 = copyDataProperties(var19, var18);
             var9 = 'guildId';
             var2[var9] = var10;
             var7 = var4.bind(var8)(var2);
- 369:
+ 555:
             var4 = _closure1_slot13;
             var2 = var4.getCurrentUser;
             var4 = var2.bind(var4)();
@@ -1082,13 +1249,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var9.bind(var10)(var8, var2);
             var2 = null;
             var2 = var2 != var4;
-            if(!var2) { _fun0011_ip = 443; continue _fun0011 }
- 434:
+            if(!var2) { _fun0011_ip = 629; continue _fun0011 }
+ 620:
             var3 = var3.length;
             var2 = var3 > var6;
- 443:
-            if(!var2) { _fun0011_ip = 547; continue _fun0011 }
- 446:
+ 629:
+            if(!var2) { _fun0011_ip = 733; continue _fun0011 }
+ 632:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
             var3 = 13;
@@ -1103,21 +1270,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var6.bind(var8)(var3);
             var3 = var6.startsWith;
             var3 = var3.bind(var6)(var9);
-            if(var3) { _fun0011_ip = 544; continue _fun0011 }
- 515:
+            if(var3) { _fun0011_ip = 730; continue _fun0011 }
+ 701:
             var10 = _closure1_slot15;
             var8 = var10.substr;
             var6 = 1;
             var8 = var8.bind(var10)(var6);
             var6 = var8.startsWith;
             var3 = var6.bind(var8)(var9);
- 544:
+ 730:
             var2 = var3;
- 547:
+ 733:
             _closure2_slot1 = var2;
             var6 = var7.filter;
             var3 = function(arg1) {
-                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
                     var1 = arg1;
                     var3 = var1.record;
@@ -1125,17 +1292,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var4.isBlockedOrIgnored;
                     var1 = var3.id;
                     var1 = var2.bind(var4)(var1);
-                    if(var1) { _fun0012_ip = 81; continue _fun0012 }
+                    if(var1) { _fun0016_ip = 81; continue _fun0016 }
  35:
                     var2 = _closure2_slot1;
-                    if(!var2) { _fun0012_ip = 78; continue _fun0012 }
+                    if(!var2) { _fun0016_ip = 78; continue _fun0016 }
  45:
                     var4 = var3.id;
                     var6 = _closure2_slot0;
                     var3 = null;
                     var6 = var3 == var6;
                     var3 = undefined;
-                    if(var6) { _fun0012_ip = 74; continue _fun0012 }
+                    if(var6) { _fun0016_ip = 74; continue _fun0016 }
  65:
                     var5 = _closure2_slot0;
                     var3 = var5.id;
@@ -1167,15 +1334,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var1 = var3.bind(var6)(var1);
-            if(!var2) { _fun0011_ip = 613; continue _fun0011 }
- 588:
+            if(!var2) { _fun0011_ip = 799; continue _fun0011 }
+ 774:
             var3 = var1.unshift;
             var2 = {};
             var5 = _closure1_slot15;
             var2['text'] = var5;
             var2['user'] = var4;
             var2 = var3.bind(var1)(var2);
- 613:
+ 799:
             return var1;
         }
     };
@@ -1188,7 +1355,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var _closure1_slot43 = var1;
     var1 = function getInFilterAutocompletions(arg1, arg2, arg3) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
             var8 = arg1;
             var5 = arg2;
@@ -1196,21 +1363,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var8.startsWith;
             var3 = '"';
             var2 = var2.bind(var8)(var3);
-            if(!var2) { _fun0013_ip = 43; continue _fun0013 }
+            if(!var2) { _fun0017_ip = 43; continue _fun0017 }
  29:
             var2 = var8.endsWith;
             var2 = var2.bind(var8)(var3);
-            if(var2) { _fun0013_ip = 76; continue _fun0013 }
+            if(var2) { _fun0017_ip = 76; continue _fun0017 }
  43:
             var2 = var8.startsWith;
             var2 = var2.bind(var8)(var3);
             var7 = var8;
-            if(!var2) { _fun0013_ip = 100; continue _fun0013 }
+            if(!var2) { _fun0017_ip = 100; continue _fun0017 }
  60:
             var3 = var8.substring;
             var2 = 1;
             var7 = var3.bind(var8)(var2);
-            _fun0013_ip = 100; continue _fun0013;
+            _fun0017_ip = 100; continue _fun0017;
  76:
             var6 = var8.substring;
             var2 = var8.length;
@@ -1222,7 +1389,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7[var2];
             var2 = '#';
             var3 = var7;
-            if(!(var2 === var6)) { _fun0013_ip = 131; continue _fun0013 }
+            if(!(var2 === var6)) { _fun0017_ip = 131; continue _fun0017 }
  117:
             var6 = var7.substring;
             var2 = 1;
@@ -1238,7 +1405,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var6.bind(var8)(var5);
             var6 = _closure1_slot18;
             var6 = var6.GUILD;
-            if(!(var8 !== var6)) { _fun0013_ip = 263; continue _fun0013 }
+            if(!(var8 !== var6)) { _fun0017_ip = 262; continue _fun0017 }
  181:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -1252,18 +1419,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var9.bind(var10)(var6);
             var7 = _closure1_slot18;
             var7 = var7.DMS;
-            if(!(var8 === var7)) { _fun0013_ip = 241; continue _fun0013 }
+            if(!(var8 === var7)) { _fun0017_ip = 241; continue _fun0017 }
  238:
-            if(var6) { _fun0013_ip = 247; continue _fun0013 }
+            if(var6) { _fun0017_ip = 247; continue _fun0017 }
  241:
             var6 = new Array(0);
-            _fun0013_ip = 261; continue _fun0013;
+            _fun0017_ip = 260; continue _fun0017;
  247:
-            var7 = function getInFilterAutocompletionsForDMs(arg1, arg2, arg3) {
-                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            var7 = function getInFilterAutocompletionsForDMs(arg1, arg2) {
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
                     var5 = arg1;
-                    var4 = arg3;
+                    var4 = arg2;
                     var7 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var14 = 19;
@@ -1325,14 +1492,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1['channel'] = var2;
                         return var1;
                     };
+                    var7 = var3.bind(var7)(var2);
+                    var3 = var7.filter;
+                    var2 = function(arg1) {
+                        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+ 0:
+                            var2 = arg1;
+                            var1 = var2.text;
+                            var3 = null;
+                            var1 = var3 != var1;
+                            if(!var1) { _fun0019_ip = 26; continue _fun0019 }
+ 17:
+                            var2 = var2.channel;
+                            var1 = var3 != var2;
+ 26:
+                            return var1;
+                        }
+                    };
                     var3 = var3.bind(var7)(var2);
                     var2 = var3.value;
                     var3 = var2.bind(var3)();
                     var2 = var5.trim;
                     var5 = var2.bind(var5)();
                     var2 = '';
-                    if(!(var2 === var5)) { _fun0014_ip = 589; continue _fun0014 }
- 292:
+                    if(!(var2 === var5)) { _fun0018_ip = 606; continue _fun0018 }
+ 309:
                     var5 = _closure1_slot10;
                     var2 = var5.getChannelId;
                     var7 = var2.bind(var5)();
@@ -1341,12 +1525,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var5.getChannel;
                     var5 = var2.bind(var5)(var7);
                     var2 = null;
-                    if(!(var2 != var5)) { _fun0014_ip = 589; continue _fun0014 }
- 333:
+                    if(!(var2 != var5)) { _fun0018_ip = 606; continue _fun0018 }
+ 350:
                     var7 = var5.isPrivate;
                     var7 = var7.bind(var5)();
-                    if(!var7) { _fun0014_ip = 589; continue _fun0014 }
- 349:
+                    if(!var7) { _fun0018_ip = 606; continue _fun0018 }
+ 366:
                     var7 = var3.findIndex;
                     var6 = function(arg1) {
                         var1 = arg1;
@@ -1358,23 +1542,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var6 = var7.bind(var3)(var6);
                     var7 = -1;
-                    if(!(var7 === var6)) { _fun0014_ip = 559; continue _fun0014 }
- 380:
+                    if(!(var7 === var6)) { _fun0018_ip = 576; continue _fun0018 }
+ 397:
                     var7 = var5.isGroupDM;
                     var7 = var7.bind(var5)();
-                    if(var7) { _fun0014_ip = 495; continue _fun0014 }
- 393:
+                    if(var7) { _fun0018_ip = 512; continue _fun0018 }
+ 410:
                     var7 = var5.isDM;
                     var7 = var7.bind(var5)();
-                    if(!var7) { _fun0014_ip = 589; continue _fun0014 }
- 409:
+                    if(!var7) { _fun0018_ip = 606; continue _fun0018 }
+ 426:
                     var7 = var5.getRecipientId;
                     var10 = var7.bind(var5)();
                     var9 = _closure1_slot13;
                     var7 = var9.getUser;
                     var9 = var7.bind(var9)(var10);
-                    if(!(var2 != var9)) { _fun0014_ip = 589; continue _fun0014 }
- 441:
+                    if(!(var2 != var9)) { _fun0018_ip = 606; continue _fun0018 }
+ 458:
                     var7 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var2 = 15;
@@ -1387,8 +1571,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2['text'] = var9;
                     var2['channel'] = var5;
                     var2 = var7.bind(var3)(var2);
-                    _fun0014_ip = 589; continue _fun0014;
- 495:
+                    _fun0018_ip = 606; continue _fun0018;
+ 512:
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var2 = 14;
@@ -1403,27 +1587,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['text'] = var7;
                     var1['channel'] = var5;
                     var1 = var2.bind(var3)(var1);
-                    _fun0014_ip = 589; continue _fun0014;
- 559:
+                    _fun0018_ip = 606; continue _fun0018;
+ 576:
                     var2 = var3[var6];
                     var5 = var3.splice;
                     var1 = 1;
                     var1 = var5.bind(var3)(var6, var1);
                     var1 = var3.unshift;
                     var1 = var1.bind(var3)(var2);
- 589:
+ 606:
                     var2 = var3.slice;
                     var1 = 0;
                     var1 = var2.bind(var3)(var1, var4);
                     return var1;
                 }
             };
-            var6 = var7.bind(var2)(var3, var2, var4);
- 261:
+            var6 = var7.bind(var2)(var3, var4);
+ 260:
             return var6;
- 263:
+ 262:
             var1 = function getInFilterAutocompletionsForGuild(arg1, arg2, arg3) {
-                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+                _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
  0:
                     var6 = arg1;
                     var7 = arg2;
@@ -1476,7 +1660,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = var6.trim;
                     var6 = var5.bind(var6)();
                     var5 = '';
-                    if(!(var5 === var6)) { _fun0015_ip = 273; continue _fun0015 }
+                    if(!(var5 === var6)) { _fun0020_ip = 273; continue _fun0020 }
  194:
                     var6 = _closure1_slot10;
                     var5 = var6.getChannelId;
@@ -1492,7 +1676,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var6 = var6.bind(var3)(var5);
                     var5 = null;
-                    if(!(var5 != var6)) { _fun0015_ip = 273; continue _fun0015 }
+                    if(!(var5 != var6)) { _fun0020_ip = 273; continue _fun0020 }
  236:
                     var9 = var3.splice;
                     var5 = var3.indexOf;
@@ -1517,7 +1701,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var3.bind(var4)(var2);
                     var2 = var3.map;
                     var1 = function(arg1) {
-                        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+                        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
  0:
                             var2 = arg1;
                             var1 = {};
@@ -1527,11 +1711,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var3 = null;
                             var6 = var3 == var4;
                             var5 = undefined;
-                            if(var6) { _fun0016_ip = 37; continue _fun0016 }
+                            if(var6) { _fun0021_ip = 37; continue _fun0021 }
  32:
                             var5 = var4.name;
  37:
-                            if(!(var3 == var5)) { _fun0016_ip = 46; continue _fun0016 }
+                            if(!(var3 == var5)) { _fun0021_ip = 46; continue _fun0021 }
  41:
                             var5 = var2.name;
  46:
@@ -1940,13 +2124,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var15.CqCvio;
             var15 = var16.bind(var17)(var15);
             var2['plainText'] = var15;
-            var15 = function getAutocompletions(arg1, arg2, arg3) {
-                var5 = _closure1_slot41;
-                var4 = _closure3_slot0;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = arg3;
-                var1 = var5.bind(var3)(var2, var1, var4);
+            var15 = function getAutocompletions(arg1) {
+                var1 = arg1;
+                var5 = var1.query;
+                var4 = var1.maxResults;
+                var3 = _closure1_slot41;
+                var2 = _closure3_slot0;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var5, var4, var2);
                 return var1;
             };
             var2['getAutocompletions'] = var15;
@@ -2133,14 +2318,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = var16.qZ+7BA;
             var16 = var17.bind(var18)(var16);
             var2['plainText'] = var16;
-            var16 = function getAutocompletions(arg1, arg2, arg3) {
-                var5 = _closure1_slot40;
+            var16 = function getAutocompletions(arg1) {
+                var1 = arg1;
+                var5 = var1.query;
+                var4 = var1.maxResults;
+                var3 = _closure1_slot40;
                 var1 = _closure1_slot16;
-                var4 = var1.FILTER_BEFORE;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = arg3;
-                var1 = var5.bind(var3)(var2, var1, var4);
+                var2 = var1.FILTER_BEFORE;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var5, var4, var2);
                 return var1;
             };
             var2['getAutocompletions'] = var16;
@@ -2197,14 +2383,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var15.h2NzSU;
             var15 = var16.bind(var17)(var15);
             var2['plainText'] = var15;
-            var15 = function getAutocompletions(arg1, arg2, arg3) {
-                var5 = _closure1_slot40;
+            var15 = function getAutocompletions(arg1) {
+                var1 = arg1;
+                var5 = var1.query;
+                var4 = var1.maxResults;
+                var3 = _closure1_slot40;
                 var1 = _closure1_slot16;
-                var4 = var1.FILTER_ON;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = arg3;
-                var1 = var5.bind(var3)(var2, var1, var4);
+                var2 = var1.FILTER_ON;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var5, var4, var2);
                 return var1;
             };
             var2['getAutocompletions'] = var15;
@@ -2245,14 +2432,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var15.KSDx7O;
             var15 = var16.bind(var17)(var15);
             var2['plainText'] = var15;
-            var15 = function getAutocompletions(arg1, arg2, arg3) {
-                var5 = _closure1_slot40;
+            var15 = function getAutocompletions(arg1) {
+                var1 = arg1;
+                var5 = var1.query;
+                var4 = var1.maxResults;
+                var3 = _closure1_slot40;
                 var1 = _closure1_slot16;
-                var4 = var1.FILTER_AFTER;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = arg3;
-                var1 = var5.bind(var3)(var2, var1, var4);
+                var2 = var1.FILTER_AFTER;
+                var1 = undefined;
+                var1 = var3.bind(var1)(var5, var4, var2);
                 return var1;
             };
             var2['getAutocompletions'] = var15;
@@ -2374,13 +2562,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var2['validator'] = var15;
-            var15 = function getAutocompletions(arg1, arg2, arg3) {
-                var5 = _closure1_slot44;
-                var4 = undefined;
-                var3 = arg1;
-                var2 = arg2;
-                var1 = arg3;
-                var1 = var5.bind(var4)(var3, var2, var1);
+            var15 = function getAutocompletions(arg1) {
+                var1 = arg1;
+                var5 = var1.query;
+                var4 = var1.searchId;
+                var3 = var1.maxResults;
+                var2 = _closure1_slot44;
+                var1 = undefined;
+                var1 = var2.bind(var1)(var5, var4, var3);
                 return var1;
             };
             var2['getAutocompletions'] = var15;
@@ -2464,18 +2653,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = 'pinned';
             var2['queryKey'] = var5;
             var4 = function validator(arg1) {
-                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+                _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
  0:
                     var5 = arg1;
                     var2 = var5.getMatch;
                     var1 = 1;
                     var2 = var2.bind(var5)(var1);
                     var1 = 'true';
-                    if(!(var1 !== var2)) { _fun0017_ip = 58; continue _fun0017 }
+                    if(!(var1 !== var2)) { _fun0022_ip = 58; continue _fun0022 }
  25:
                     var1 = 'false';
                     var1 = var1 === var2;
-                    if(!var1) { _fun0017_ip = 56; continue _fun0017 }
+                    if(!var1) { _fun0022_ip = 56; continue _fun0022 }
  36:
                     var4 = var5.setData;
                     var3 = 'pinned';
@@ -2483,7 +2672,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var4.bind(var5)(var3, var2);
                     var1 = true;
  56:
-                    _fun0017_ip = 78; continue _fun0017;
+                    _fun0022_ip = 78; continue _fun0022;
  58:
                     var4 = var5.setData;
                     var3 = 'pinned';
@@ -2506,88 +2695,79 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var3['rebuildSearchTokenConfigs'] = var5;
     var3['isSearchFilterTokenType'] = var4;
     var4 = function getFilterAutocompletions(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
  0:
-            var3 = arguments[1];
-            var2 = arg1;
-            var _closure2_slot0 = var2;
-            var6 = undefined;
-            if(!(var3 === var6)) { _fun0018_ip = 48; continue _fun0018 }
- 18:
+            var10 = arg1;
+            var9 = arguments[1];
+            var8 = undefined;
+            if(!(var9 === var8)) { _fun0023_ip = 42; continue _fun0023 }
+ 12:
+            var1 = global;
+            var3 = var1.Object;
+            var2 = var3.keys;
+            var1 = _closure1_slot25;
+            var1 = var2.bind(var3)(var1);
+            var9 = var1.length;
+ 42:
+            var1 = new Array(0);
             var2 = global;
-            var5 = var2.Object;
-            var4 = var5.keys;
+            var4 = var2.Object;
+            var3 = var4.keys;
             var2 = _closure1_slot25;
-            var2 = var4.bind(var5)(var2);
-            var3 = var2.length;
- 48:
-            var5 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var4 = 12;
-            var4 = var7[var4];
-            var5 = var5.bind(var6)(var4);
-            var4 = _closure1_slot25;
-            var5 = var5.bind(var6)(var4);
-            var4 = var5.keys;
-            var5 = var4.bind(var5)();
-            var4 = var5.filter;
+            var6 = var3.bind(var4)(var2);
+            var2 = var6.length;
+            var5 = 0;
+            var2 = var5 < var2;
+            var4 = 18;
+            var3 = null;
+            if(!var2) { _fun0023_ip = 204; continue _fun0023 }
+ 90:
+            var13 = var6[var5];
+            var2 = var1.length;
+            if(!(!(var2 >= var9))) { _fun0023_ip = 204; continue _fun0023 }
+ 103:
+            var2 = _closure1_slot25;
+            var2 = var2[var13];
+            var12 = var2.key;
             var2 = _closure1_slot45;
-            var5 = var4.bind(var5)(var2);
-            var4 = var5.filter;
-            var2 = function(arg1) {
-                var2 = _closure1_slot25;
-                var1 = arg1;
-                var1 = var2[var1];
-                var2 = var1.key;
-                var1 = null;
-                var1 = var1 != var2;
-                return var1;
-            };
-            var5 = var4.bind(var5)(var2);
-            var4 = var5.map;
-            var2 = function(arg1) {
-                var3 = arg1;
-                var1 = {};
-                var1['token'] = var3;
-                var2 = _closure1_slot25;
-                var2 = var2[var3];
-                var2 = var2.key;
-                var1['text'] = var2;
-                return var1;
-            };
-            var4 = var4.bind(var5)(var2);
-            var2 = var4.filter;
-            var1 = function(arg1) {
-                var1 = arg1;
-                var4 = var1.text;
-                var2 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 18;
-                var1 = var3[var1];
-                var3 = undefined;
-                var2 = var2.bind(var3)(var1);
-                var5 = _closure2_slot0;
-                var1 = var5.toLowerCase;
-                var1 = var1.bind(var5)();
-                var1 = var2.bind(var3)(var1, var4);
-                return var1;
-            };
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.take;
-            var2 = var1.bind(var2)(var3);
-            var1 = var2.value;
-            var1 = var1.bind(var2)();
+            var2 = var2.bind(var8)(var13);
+            if(!var2) { _fun0023_ip = 132; continue _fun0023 }
+ 128:
+            var2 = var3 != var12;
+ 132:
+            if(!var2) { _fun0023_ip = 168; continue _fun0023 }
+ 135:
+            var14 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var11 = var11[var4];
+            var14 = var14.bind(var8)(var11);
+            var11 = var10.toLowerCase;
+            var11 = var11.bind(var10)();
+            var2 = var14.bind(var8)(var11, var12);
+ 168:
+            if(!var2) { _fun0023_ip = 192; continue _fun0023 }
+ 171:
+            var11 = var1.push;
+            var2 = {};
+            var2['token'] = var13;
+            var2['text'] = var12;
+            var2 = var11.bind(var1)(var2);
+ 192:
+            var5 = var5 + 1;
+            var2 = var6.length;
+            if(var5 < var2) { _fun0023_ip = 90; continue _fun0023 }
+ 204:
             return var1;
         }
     };
     var3['getFilterAutocompletions'] = var4;
     var2 = function isMeAutcompleteAnswer(arg1) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
  0:
             var2 = arg1;
             var3 = var2.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0019_ip = 161; continue _fun0019 }
+            if(!(var1 !== var3)) { _fun0024_ip = 161; continue _fun0024 }
  17:
             var1 = var2.toLowerCase;
             var4 = var1.bind(var2)();
@@ -2610,7 +2790,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var5)(var1);
             var1 = var3.startsWith;
             var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0019_ip = 159; continue _fun0019 }
+            if(var1) { _fun0024_ip = 159; continue _fun0024 }
  130:
             var5 = _closure1_slot15;
             var3 = var5.substring;

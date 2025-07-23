@@ -421,7 +421,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var11[var13];
             var13 = var6.bind(var4)(var13);
             var14 = var13.Text;
-            var13 = {'variant': 'heading-lg/bold', 'color': 'header-primary'};
+            var13 = {'variant': 'heading-lg/bold', 'color': 'header-primary', 'accessibilityRole': 'header'};
             var15 = 10;
             var16 = var11[var15];
             var16 = var6.bind(var4)(var16);

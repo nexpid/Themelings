@@ -296,13 +296,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.getGuild;
             var5 = var1.bind(var2)(var6);
             var1 = null;
-            if(!(var1 != var5)) { _fun0005_ip = 441; continue _fun0005 }
+            if(!(var1 != var5)) { _fun0005_ip = 442; continue _fun0005 }
  39:
             var3 = _closure1_slot9;
             var2 = var3.getCheck;
             var2 = var2.bind(var3)(var6);
             var3 = var2.canChat;
-            if(var3) { _fun0005_ip = 437; continue _fun0005 }
+            if(var3) { _fun0005_ip = 438; continue _fun0005 }
  66:
             var6 = var5.verificationLevel;
             var3 = _closure1_slot12;
@@ -312,7 +312,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var5.verificationLevel;
             var3 = _closure1_slot12;
             var3 = var3.HIGH;
-            if(!(var6 === var3)) { _fun0005_ip = 437; continue _fun0005 }
+            if(!(var6 === var3)) { _fun0005_ip = 438; continue _fun0005 }
  109:
             var6 = var5.verificationLevel;
             var3 = _closure1_slot12;
@@ -343,7 +343,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.accountDeadline;
             var10 = var3.bind(var6)(var2);
  213:
-            if(!(var1 != var10)) { _fun0005_ip = 437; continue _fun0005 }
+            if(!(var1 != var10)) { _fun0005_ip = 438; continue _fun0005 }
  220:
             var3 = var10.isSameOrBefore;
             var2 = _closure1_slot1;
@@ -355,7 +355,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var1.bind(var8)();
             var1 = 'minute';
             var1 = var3.bind(var10)(var2, var1);
-            if(var1) { _fun0005_ip = 437; continue _fun0005 }
+            if(var1) { _fun0005_ip = 438; continue _fun0005 }
  268:
             var6 = {};
             var1 = _closure1_slot10;
@@ -394,10 +394,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = 'local';
             var1['category'] = var4;
             var1 = var2.bind(var3)(var1);
- 437:
+ 438:
             var1 = undefined;
             return var1;
- 441:
+ 442:
             var1 = false;
             return var1;
         }

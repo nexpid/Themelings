@@ -93,7 +93,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot0 = var16;
             var7 = var1.favoritesCategory;
             var _closure2_slot1 = var7;
-            var10 = var1.inActionSheet;
+            var12 = var1.inActionSheet;
             var5 = var1.onSelectCategory;
             var _closure2_slot2 = var5;
             var4 = undefined;
@@ -110,7 +110,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var8[var1];
             var1 = var6.bind(var4)(var1);
             var1 = var1.GIF_PICKER_ITEM_ESIMTATED_HEIGHT;
-            var8 = var1 / var2;
+            var10 = var1 / var2;
             _fun0001_ip = 130; continue _fun0001;
  101:
             var2 = _closure1_slot0;
@@ -118,30 +118,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = 5;
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
-            var8 = var1.GIF_PICKER_ITEM_ESIMTATED_HEIGHT;
+            var10 = var1.GIF_PICKER_ITEM_ESIMTATED_HEIGHT;
  130:
-            _closure2_slot3 = var8;
+            _closure2_slot3 = var10;
             var2 = _closure1_slot7;
-            var15 = var2.bind(var4)(var8);
+            var15 = var2.bind(var4)(var10);
             _closure2_slot4 = var15;
             var2 = _closure1_slot1;
-            var13 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var6 = 7;
-            var6 = var13[var6];
-            var9 = var2.bind(var4)(var6);
+            var6 = var9[var6];
+            var8 = var2.bind(var4)(var6);
             var6 = {};
             var11 = false;
             var6['hasCategories'] = var11;
-            var6 = var9.bind(var4)(var6);
-            var9 = var6.safeAreaBottomKeyboardAware;
-            var12 = _closure1_slot0;
+            var6 = var8.bind(var4)(var6);
+            var11 = var6.safeAreaBottomKeyboardAware;
+            var8 = _closure1_slot0;
             var6 = 8;
-            var6 = var13[var6];
-            var17 = var12.bind(var4)(var6);
+            var6 = var9[var6];
+            var17 = var8.bind(var4)(var6);
             var14 = var17.useStateFromStoresObject;
             var6 = _closure1_slot5;
-            var11 = new Array(1);
-            var11[0] = var6;
+            var13 = new Array(1);
+            var13[0] = var6;
             var6 = function() {
                 var1 = {};
                 var3 = _closure1_slot5;
@@ -150,15 +150,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['trendingCategories'] = var2;
                 return var1;
             };
-            var6 = var14.bind(var17)(var11, var6);
+            var6 = var14.bind(var17)(var13, var6);
             var6 = var6.trendingCategories;
             _closure2_slot5 = var6;
             var14 = _closure1_slot3;
             var17 = var14.useMemo;
-            var11 = new Array(3);
-            var11[0] = var16;
-            var11[1] = var7;
-            var11[2] = var6;
+            var13 = new Array(3);
+            var13[0] = var16;
+            var13[1] = var7;
+            var13[2] = var6;
             var7 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -220,13 +220,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var7 = var17.bind(var14)(var7, var11);
+            var7 = var17.bind(var14)(var7, var13);
             var17 = var7.data;
             _closure2_slot6 = var17;
             var7 = var7.sections;
             var18 = var14.useEffect;
-            var11 = new Array(1);
-            var11[0] = var6;
+            var13 = new Array(1);
+            var13[0] = var6;
             var6 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -248,8 +248,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var6 = var18.bind(var14)(var6, var11);
-            var11 = var14.useCallback;
+            var6 = var18.bind(var14)(var6, var13);
+            var13 = var14.useCallback;
             var6 = new Array(4);
             var6[0] = var16;
             var6[1] = var17;
@@ -317,10 +317,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var5 = var11.bind(var14)(var5, var6);
-            var11 = var14.useMemo;
+            var5 = var13.bind(var14)(var5, var6);
+            var13 = var14.useMemo;
             var6 = new Array(3);
-            var6[0] = var8;
+            var6[0] = var10;
             var6[1] = var16;
             var6[2] = var15;
             var3 = function() {
@@ -363,30 +363,41 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['sectionItem'] = var2;
                 return var1;
             };
-            var6 = var11.bind(var14)(var3, var6);
+            var6 = var13.bind(var14)(var3, var6);
             var3 = _closure1_slot6;
             var1 = 12;
-            var1 = var13[var1];
+            var1 = var9[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var11 = 13;
-            var11 = var13[var11];
-            var12 = var12.bind(var4)(var11);
-            var11 = var12.getCustomKeyboardHeight;
-            var11 = var11.bind(var12)();
-            var1['estimatedListSize'] = var11;
-            var1['inActionSheet'] = var10;
-            var1['insetEnd'] = var9;
-            var1['itemSize'] = var8;
+            var13 = 13;
+            var13 = var9[var13];
+            var14 = var8.bind(var4)(var13);
+            var13 = var14.getCustomKeyboardHeight;
+            var13 = var13.bind(var14)();
+            var1['estimatedListSize'] = var13;
+            var1['inActionSheet'] = var12;
+            var1['insetEnd'] = var11;
+            var1['itemSize'] = var10;
             var1['sections'] = var7;
             var1['placeholderConfig'] = var6;
             var1['renderItem'] = var5;
+            var5 = 14;
+            var6 = var9[var5];
+            var6 = var8.bind(var4)(var6);
+            var7 = var6.intl;
+            var6 = var7.string;
+            var5 = var9[var5];
+            var5 = var8.bind(var4)(var5);
+            var5 = var5.t;
+            var5 = var5.ffgJrq;
+            var5 = var6.bind(var7)(var5);
+            var1['accessibilityLabel'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 14;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
