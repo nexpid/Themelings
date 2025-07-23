@@ -4339,17 +4339,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_bulb": {
-        "file": "images/native/icons/ic_bulb.png",
-        "hash": "4e20cf7640f83eeaa507e2ebc5b20963",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 37,
-        "height": 37
-    },
     "ic_call_ended": {
         "file": "images/native/icons/ic_call_ended.png",
         "hash": "ad0a0192f3d9972c7fa14a73a20aa24e",
