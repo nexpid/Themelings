@@ -346,11 +346,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var3.includes;
                 var1 = var10.type;
                 var1 = var2.bind(var3)(var1);
-                if(var1) { _fun0004_ip = 87; continue _fun0004 }
- 83:
+                if(var1) { _fun0004_ip = 88; continue _fun0004 }
+ 84:
                 var1 = null;
                 return var1;
- 87:
+ 88:
                 var2 = var10.type;
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -359,8 +359,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var3.bind(var4)(var1);
                 var1 = var1.IntegrationTypes;
                 var1 = var1.YOUTUBE;
-                if(!(var1 !== var2)) { _fun0004_ip = 194; continue _fun0004 }
- 128:
+                if(!(var1 !== var2)) { _fun0004_ip = 195; continue _fun0004 }
+ 129:
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot2;
                 var1 = var1[var5];
@@ -368,26 +368,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1.IntegrationTypes;
                 var1 = var1.TWITCH;
                 var14 = undefined;
-                if(!(var1 === var2)) { _fun0004_ip = 219; continue _fun0004 }
- 163:
+                if(!(var1 === var2)) { _fun0004_ip = 220; continue _fun0004 }
+ 164:
                 var3 = var10.name;
                 var1 = global;
                 var1 = var1.HermesInternal;
                 var2 = var1.concat;
                 var1 = 'twitch.tv/';
                 var14 = var2.bind(var1)(var3);
-                _fun0004_ip = 219; continue _fun0004;
- 194:
+                _fun0004_ip = 220; continue _fun0004;
+ 195:
                 var2 = var10.account;
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0004_ip = 216; continue _fun0004 }
- 211:
+                if(var3) { _fun0004_ip = 217; continue _fun0004 }
+ 212:
                 var1 = var2.name;
- 216:
+ 217:
                 var14 = var1;
- 219:
+ 220:
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 16;
@@ -399,8 +399,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var15 = null;
                 var1 = var15 != var11;
                 var13 = null;
-                if(!var1) { _fun0004_ip = 375; continue _fun0004 }
- 265:
+                if(!var1) { _fun0004_ip = 376; continue _fun0004 }
+ 266:
                 var3 = _closure1_slot16;
                 var2 = _closure1_slot9;
                 var1 = {};
@@ -416,20 +416,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var16.isThemeDark;
                 var5 = var5.bind(var16)(var17);
                 var11 = var11.icon;
-                if(var5) { _fun0004_ip = 340; continue _fun0004 }
- 332:
+                if(var5) { _fun0004_ip = 341; continue _fun0004 }
+ 333:
                 var5 = var11.lightPNG;
-                _fun0004_ip = 346; continue _fun0004;
- 340:
+                _fun0004_ip = 347; continue _fun0004;
+ 341:
                 var5 = var11.darkPNG;
- 346:
+ 347:
                 var5 = var6.bind(var8)(var5);
                 var1['source'] = var5;
                 var5 = _closure1_slot18;
                 var5 = var5.platformIcon;
                 var1['style'] = var5;
                 var13 = var3.bind(var4)(var2, var1);
- 375:
+ 376:
                 var3 = _closure1_slot17;
                 var8 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -446,11 +446,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var17 = var10.user;
                 var16 = var15 == var17;
                 var15 = undefined;
-                if(var16) { _fun0004_ip = 451; continue _fun0004 }
- 442:
+                if(var16) { _fun0004_ip = 452; continue _fun0004 }
+ 443:
                 var16 = var17.toString;
                 var15 = var16.bind(var17)();
- 451:
+ 452:
                 var5['label'] = var15;
                 var5['subLabel'] = var14;
                 var16 = _closure1_slot17;
@@ -460,23 +460,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var17 = var17.trailingWrapper;
                 var14['style'] = var17;
                 var18 = var10.syncing;
-                if(!var18) { _fun0004_ip = 521; continue _fun0004 }
- 493:
+                if(!var18) { _fun0004_ip = 522; continue _fun0004 }
+ 494:
                 var20 = _closure1_slot16;
                 var19 = _closure1_slot8;
                 var17 = {'animating': true, 'size': 'small'};
                 var18 = var20.bind(var4)(var19, var17);
- 521:
+ 522:
                 var17 = new Array(2);
                 var17[0] = var18;
                 var18 = var10.enabled;
-                if(!var18) { _fun0004_ip = 546; continue _fun0004 }
- 537:
+                if(!var18) { _fun0004_ip = 547; continue _fun0004 }
+ 538:
                 var19 = var10.syncing;
                 var18 = !var19;
- 546:
-                if(!var18) { _fun0004_ip = 590; continue _fun0004 }
- 549:
+ 547:
+                if(!var18) { _fun0004_ip = 591; continue _fun0004 }
+ 550:
                 var21 = _closure1_slot16;
                 var20 = _closure1_slot0;
                 var19 = _closure1_slot2;
@@ -486,7 +486,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var20 = var19.Arrow;
                 var19 = {};
                 var18 = var21.bind(var4)(var20, var19);
- 590:
+ 591:
                 var17[1] = var18;
                 var14['children'] = var17;
                 var14 = var16.bind(var4)(var15, var14);
@@ -494,10 +494,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5['leading'] = var13;
                 var13 = var10.enabled;
                 var13 = !var13;
-                if(var13) { _fun0004_ip = 631; continue _fun0004 }
- 625:
+                if(var13) { _fun0004_ip = 632; continue _fun0004 }
+ 626:
                 var13 = var10.syncing;
- 631:
+ 632:
                 var5['disabled'] = var13;
                 var12 = function onPress() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {

@@ -102,6 +102,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['SDK_SOCIAL_LAYER'] = var2;
     var2 = 'lobbies.write';
     var4['LOBBIES_WRITE'] = var2;
+    var2 = 'application_identities.write';
+    var4['APPLICATION_IDENTITIES_WRITE'] = var2;
     var2 = {};
     var7 = var1.Set;
     var5 = var7.prototype;
@@ -114,7 +116,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
-    var11 = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds.channels.read', 'lobbies.write', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'sdk.social_layer', 'sdk.social_layer_presence', 'voice'];
+    var11 = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'gateway.connect', 'guilds.channels.read', 'lobbies.write', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'sdk.social_layer', 'sdk.social_layer_presence', 'voice'];
     var12 = var6;
     var5 = new var12[var7](var11, var10);
     var5 = var5 instanceof Object ? var5 : var6;
@@ -268,7 +270,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var6 = var1.Set;
     var1 = var6.prototype;
     var5 = Object.create(var1, {constructor: {value: var6}});
-    var11 = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'applications.builds.read', 'applications.builds.upload', 'applications.commands', 'applications.commands.permissions.update', 'applications.entitlements', 'applications.store.update', 'bot', 'connections', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'email', 'gateway.connect', 'gdm.join', 'guilds', 'guilds.channels.read', 'guilds.join', 'guilds.members.read', 'identify', 'lobbies.write', 'messages.read', 'openid', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'role_connections.write', 'rpc', 'rpc.activities.write', 'rpc.notifications.read', 'rpc.screenshare.read', 'rpc.screenshare.write', 'rpc.video.read', 'rpc.video.write', 'rpc.voice.read', 'rpc.voice.write', 'sdk.social_layer', 'sdk.social_layer_presence', 'voice', 'webhook.incoming'];
+    var11 = ['account.global_name.update', 'activities.invites.write', 'activities.read', 'activities.write', 'application_identities.write', 'applications.builds.read', 'applications.builds.upload', 'applications.commands', 'applications.commands.permissions.update', 'applications.entitlements', 'applications.store.update', 'bot', 'connections', 'dm_channels.messages.read', 'dm_channels.messages.write', 'dm_channels.read', 'email', 'gateway.connect', 'gdm.join', 'guilds', 'guilds.channels.read', 'guilds.join', 'guilds.members.read', 'identify', 'lobbies.write', 'messages.read', 'openid', 'payment_sources.country_code', 'presences.read', 'presences.write', 'relationships.read', 'relationships.write', 'role_connections.write', 'rpc', 'rpc.activities.write', 'rpc.notifications.read', 'rpc.screenshare.read', 'rpc.screenshare.write', 'rpc.video.read', 'rpc.video.write', 'rpc.voice.read', 'rpc.voice.write', 'sdk.social_layer', 'sdk.social_layer_presence', 'voice', 'webhook.incoming'];
     var12 = var5;
     var1 = new var12[var6](var11, var10);
     var1 = var1 instanceof Object ? var1 : var5;

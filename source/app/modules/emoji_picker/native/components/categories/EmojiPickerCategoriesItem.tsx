@@ -234,14 +234,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var18.type;
             var5 = _closure1_slot5;
             var5 = var5.GUILD;
-            if(!(var6 !== var5)) { _fun0001_ip = 352; continue _fun0001 }
- 345:
+            if(!(var6 !== var5)) { _fun0001_ip = 351; continue _fun0001 }
+ 344:
             var5 = var18.name;
-            _fun0001_ip = 362; continue _fun0001;
- 352:
+            _fun0001_ip = 361; continue _fun0001;
+ 351:
             var6 = var18.guild;
             var5 = var6.name;
- 362:
+ 361:
             var1['accessibilityLabel'] = var5;
             var7 = _closure1_slot8;
             var6 = _closure1_slot1;
@@ -258,8 +258,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var18.type;
             var8 = _closure1_slot5;
             var8 = var8.GUILD;
-            if(!(var10 !== var8)) { _fun0001_ip = 478; continue _fun0001 }
- 435:
+            if(!(var10 !== var8)) { _fun0001_ip = 477; continue _fun0001 }
+ 434:
             var11 = _closure1_slot7;
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -270,8 +270,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var18.id;
             var8['id'] = var12;
             var10 = var11.bind(var4)(var10, var8);
-            _fun0001_ip = 563; continue _fun0001;
- 478:
+            _fun0001_ip = 562; continue _fun0001;
+ 477:
             var12 = _closure1_slot7;
             var11 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -291,11 +291,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var15.guildItem;
             var8['style'] = var14;
             var10 = var12.bind(var4)(var11, var8);
- 563:
+ 562:
             var8 = new Array(2);
             var8[0] = var10;
-            if(!var9) { _fun0001_ip = 648; continue _fun0001 }
- 574:
+            if(!var9) { _fun0001_ip = 647; continue _fun0001 }
+ 573:
             var12 = _closure1_slot7;
             var11 = _closure1_slot4;
             var10 = {};
@@ -313,7 +313,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var12.bind(var4)(var14, var13);
             var10['children'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 648:
+ 647:
             var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

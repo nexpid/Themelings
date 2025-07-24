@@ -237,21 +237,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = null;
             var5 = var13 == var6;
             var1 = undefined;
-            if(var5) { _fun0004_ip = 175; continue _fun0004 }
- 150:
+            if(var5) { _fun0004_ip = 176; continue _fun0004 }
+ 151:
             var5 = var6.isGroupDM;
             var5 = var13 == var5;
             var1 = undefined;
-            if(var5) { _fun0004_ip = 175; continue _fun0004 }
- 165:
+            if(var5) { _fun0004_ip = 176; continue _fun0004 }
+ 166:
             var5 = var6.isGroupDM;
             var1 = var5.bind(var6)();
- 175:
+ 176:
             var5 = var13 != var1;
-            if(!var5) { _fun0004_ip = 185; continue _fun0004 }
- 182:
+            if(!var5) { _fun0004_ip = 186; continue _fun0004 }
+ 183:
             var5 = var1;
- 185:
+ 186:
             var1 = {};
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -264,10 +264,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['autoTrackExposure'] = var5;
             var6 = 'createChangeChannelIconSystemMessage';
             var6 = var9.bind(var16)(var6, var8, var7);
-            if(!var6) { _fun0004_ip = 242; continue _fun0004 }
- 239:
-            if(var5) { _fun0004_ip = 312; continue _fun0004 }
- 242:
+            if(!var6) { _fun0004_ip = 243; continue _fun0004 }
+ 240:
+            if(var5) { _fun0004_ip = 313; continue _fun0004 }
+ 243:
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
             var5 = 6;
@@ -283,8 +283,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5['username'] = var15;
             var5['usernameOnClick'] = var10;
             var5 = var7.bind(var8)(var6, var5);
-            _fun0004_ip = 432; continue _fun0004;
- 312:
+            _fun0004_ip = 433; continue _fun0004;
+ 313:
             var7 = _closure1_slot0;
             var16 = _closure1_slot2;
             var6 = 6;
@@ -304,17 +304,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['action'] = var15;
             var15 = var13 == var14;
             var13 = undefined;
-            if(var15) { _fun0004_ip = 401; continue _fun0004 }
- 395:
+            if(var15) { _fun0004_ip = 402; continue _fun0004 }
+ 396:
             var13 = var14.linkColor;
- 401:
+ 402:
             var10['linkColor'] = var13;
             var12 = var12.channel_id;
             var10['messageChannelId'] = var12;
             var10['medium'] = var11;
             var6['onEditGroup'] = var10;
             var5 = var8.bind(var9)(var7, var6);
- 432:
+ 433:
             var1['content'] = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;

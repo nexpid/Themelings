@@ -234,22 +234,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var8.7lwpzc;
             var8 = {};
             var12 = '';
-            if(!(var4 !== var17)) { _fun0001_ip = 488; continue _fun0001 }
+            if(!(var4 !== var17)) { _fun0001_ip = 506; continue _fun0001 }
  303:
             var14 = var17.length;
             var24 = 1;
-            if(!(var24 !== var14)) { _fun0001_ip = 463; continue _fun0001 }
+            if(!(var24 !== var14)) { _fun0001_ip = 481; continue _fun0001 }
  318:
             var18 = var17.length;
             var14 = 2;
             if(!(!(var18 > var14))) { _fun0001_ip = 335; continue _fun0001 }
  330:
             var23 = var17;
-            _fun0001_ip = 345; continue _fun0001;
+            _fun0001_ip = 363; continue _fun0001;
  335:
-            var14 = var17.reverse;
-            var23 = var14.bind(var17)();
- 345:
+            var14 = global;
+            var18 = var14.Array;
+            var14 = var18.from;
+            var18 = var14.bind(var18)(var17);
+            var14 = var18.reverse;
+            var23 = var14.bind(var18)();
+ 363:
             var18 = _closure1_slot0;
             var14 = _closure1_slot2;
             var15 = var14[var15];
@@ -275,15 +279,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = var21.bind(var4)(var22, var20);
             var14['perk2'] = var20;
             var12 = var18.bind(var19)(var15, var14);
-            _fun0001_ip = 488; continue _fun0001;
- 463:
+            _fun0001_ip = 506; continue _fun0001;
+ 481:
             var15 = _closure1_slot7;
             var14 = _closure1_slot9;
             var13 = {};
             var16 = var17[var16];
             var13['powerup'] = var16;
             var12 = var15.bind(var4)(var14, var13);
- 488:
+ 506:
             var8['perks'] = var12;
             var8 = var10.bind(var11)(var9, var8);
             var5['children'] = var8;

@@ -357,10 +357,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.theme;
             var5 = var5.bind(var6)(var3);
             var3 = 'light';
-            if(!var5) { _fun0005_ip = 142; continue _fun0005 }
- 138:
+            if(!var5) { _fun0005_ip = 143; continue _fun0005 }
+ 139:
             var3 = 'dark';
- 142:
+ 143:
             var1['blurTheme'] = var3;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -371,10 +371,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.useSetting;
             var3 = var2.bind(var3)();
             var2 = 'png';
-            if(!var3) { _fun0005_ip = 194; continue _fun0005 }
- 192:
+            if(!var3) { _fun0005_ip = 195; continue _fun0005 }
+ 193:
             var2 = null;
- 194:
+ 195:
             var1['format'] = var2;
             return var1;
         }

@@ -271,7 +271,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var21.bind(var4)(var19, var12);
             var11[3] = var12;
             var12 = null;
-            if(!var14) { _fun0001_ip = 890; continue _fun0001 }
+            if(!var14) { _fun0001_ip = 886; continue _fun0001 }
  782:
             var19 = _closure1_slot6;
             var24 = _closure1_slot0;
@@ -293,7 +293,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = var22.bind(var23)(var21);
             var13['children'] = var21;
             var12 = var19.bind(var4)(var14, var13);
- 890:
+ 886:
             var11[4] = var12;
             var5['children'] = var11;
             var11 = var3.bind(var4)(var2, var5);
@@ -310,10 +310,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = 'primary';
             var11['variant'] = var19;
             var19 = 'lg';
-            if(!var8) { _fun0001_ip = 963; continue _fun0001 }
- 959:
+            if(!var8) { _fun0001_ip = 959; continue _fun0001 }
+ 955:
             var19 = 'md';
- 963:
+ 959:
             var11['size'] = var19;
             var11['text'] = var18;
             var18 = function onPress() {
@@ -331,8 +331,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var14.bind(var4)(var12, var11);
             var5[1] = var11;
             var7 = null;
-            if(!var8) { _fun0001_ip = 1151; continue _fun0001 }
- 1017:
+            if(!var8) { _fun0001_ip = 1147; continue _fun0001 }
+ 1013:
             var12 = _closure1_slot6;
             var11 = _closure1_slot5;
             var8 = {};
@@ -374,7 +374,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var12.bind(var4)(var14, var13);
             var8['children'] = var13;
             var7 = var12.bind(var4)(var11, var8);
- 1151:
+ 1147:
             var5[2] = var7;
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;

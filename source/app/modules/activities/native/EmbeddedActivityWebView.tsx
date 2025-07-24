@@ -1475,7 +1475,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(var2) { _fun0021_ip = 365; continue _fun0021 }
+                                    if(var2) { _fun0021_ip = 361; continue _fun0021 }
  10:
                                     var2 = undefined;
                                     var10 = undefined;
@@ -1484,10 +1484,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                     if(var5) { _fun0021_ip = 32; continue _fun0021 }
  26:
                                     var5 = _closure2_slot17;
-                                    _fun0021_ip = 46; continue _fun0021;
+                                    _fun0021_ip = 42; continue _fun0021;
  32:
                                     var5 = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
- 46:
+ 42:
                                     var10 = var5;
                                     var6 = {};
                                     var5 = 'safeAreaUpdateEvent';
@@ -1499,11 +1499,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                     var7 = null;
                                     var11 = var7 == var11;
                                     var12 = undefined;
-                                    if(var11) { _fun0021_ip = 96; continue _fun0021 }
- 87:
+                                    if(var11) { _fun0021_ip = 92; continue _fun0021 }
+ 83:
                                     var11 = _closure2_slot9;
                                     var12 = var11.left;
- 96:
+ 92:
                                     var11 = var10;
                                     var11 = var11.left;
                                     var11 = var13.bind(var2)(var12, var11);
@@ -1512,11 +1512,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                     var11 = _closure2_slot9;
                                     var11 = var7 == var11;
                                     var12 = undefined;
-                                    if(var11) { _fun0021_ip = 140; continue _fun0021 }
- 131:
+                                    if(var11) { _fun0021_ip = 136; continue _fun0021 }
+ 127:
                                     var11 = _closure2_slot9;
                                     var12 = var11.right;
- 140:
+ 136:
                                     var11 = var10;
                                     var11 = var11.right;
                                     var11 = var13.bind(var2)(var12, var11);
@@ -1525,11 +1525,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                     var11 = _closure2_slot9;
                                     var11 = var7 == var11;
                                     var12 = undefined;
-                                    if(var11) { _fun0021_ip = 184; continue _fun0021 }
- 175:
+                                    if(var11) { _fun0021_ip = 180; continue _fun0021 }
+ 171:
                                     var11 = _closure2_slot9;
                                     var12 = var11.top;
- 184:
+ 180:
                                     var11 = var10;
                                     var11 = var11.top;
                                     var11 = var13.bind(var2)(var12, var11);
@@ -1538,18 +1538,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                     var11 = _closure2_slot9;
                                     var13 = var7 == var11;
                                     var11 = undefined;
-                                    if(var13) { _fun0021_ip = 228; continue _fun0021 }
- 219:
+                                    if(var13) { _fun0021_ip = 224; continue _fun0021 }
+ 215:
                                     var13 = _closure2_slot9;
                                     var11 = var13.bottom;
- 228:
+ 224:
                                     var10 = var10.bottom;
                                     var10 = var12.bind(var2)(var11, var10);
                                     var9['bottom'] = var10;
                                     var8['insets'] = var9;
                                     var6['data'] = var8;
                                     var3 = var6;
- 255: // try_start_0
+ 251: // try_start_0
                                     var9 = _closure2_slot15;
                                     var8 = var9.injectJavaScript;
                                     var10 = _closure1_slot1;
@@ -1560,22 +1560,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                     var6 = var3;
                                     var6 = var10.bind(var2)(var6);
                                     var6 = var8.bind(var9)(var6);
-                                    SaveGenerator(address=302);
- 300:
+                                    SaveGenerator(address=298);
+ 296:
                                     return var6;
- 302:
+ 298:
                                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                                    if(var8) { _fun0021_ip = 310; continue _fun0021 }
- 308: // try_end0
-                                    _fun0021_ip = 362; continue _fun0021;
- 310:
+                                    if(var8) { _fun0021_ip = 306; continue _fun0021 }
+ 304: // try_end0
+                                    _fun0021_ip = 358; continue _fun0021;
+ 306:
                                     return var6;
- 313: // catch_target0
+ 309: // catch_target0
                                     CatchBlockStart(arg_register=5);
                                     var6 = _closure2_slot31;
                                     var6 = var6.current;
-                                    if(!(var7 != var6)) { _fun0021_ip = 362; continue _fun0021 }
- 328:
+                                    if(!(var7 != var6)) { _fun0021_ip = 358; continue _fun0021 }
+ 324:
                                     var4 = _closure2_slot32;
                                     var6 = _closure1_slot1;
                                     var7 = _closure1_slot3;
@@ -1584,9 +1584,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                     var5 = var6.bind(var2)(var5);
                                     var3 = var5.bind(var2)(var3);
                                     var3 = var4.bind(var2)(var3);
- 362:
+ 358:
                                     return var2;
- 365:
+ 361:
                                     return var1;
                                 }
                             };

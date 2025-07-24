@@ -38,13 +38,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot17 = var2;
+            _closure1_slot16 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -76,18 +76,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot6 = var8;
     var8 = new Array(0);
     var _closure1_slot7 = var8;
-    var9 = new Array(0);
-    var _closure1_slot8 = var9;
     var9 = false;
-    var _closure1_slot9 = var9;
-    var _closure1_slot10 = var1;
-    var _closure1_slot11 = var8;
+    var _closure1_slot8 = var9;
+    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var8;
     var8 = {};
-    var _closure1_slot12 = var8;
+    var _closure1_slot11 = var8;
     var8 = null;
-    var _closure1_slot13 = var8;
-    var _closure1_slot14 = var1;
-    var _closure1_slot15 = var2;
+    var _closure1_slot12 = var8;
+    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var2;
     var2 = function _updatePresets(arg1) {
         var5 = _closure1_slot0;
         var2 = _closure1_slot1;
@@ -98,58 +96,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = var6.cloneDeep;
         var2 = arg1;
         var6 = var5.bind(var6)(var2);
-        _closure1_slot11 = var6;
+        _closure1_slot10 = var6;
         var2 = {};
         var _closure2_slot0 = var2;
         var5 = var6.forEach;
         var4 = function(arg1) {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
-                var2 = arg1;
-                var4 = _closure2_slot0;
-                var1 = var2.id;
-                var4[var1] = var2;
-                var4 = _closure1_slot8;
-                var5 = var4.length;
-                var4 = 0;
-                if(!(var5 > var4)) { _fun0002_ip = 108; continue _fun0002 }
- 37:
-                var3 = _closure2_slot0;
-                var2 = var2.id;
-                var2 = var3[var2];
-                var2 = var2.config;
-                var5 = _closure1_slot0;
-                var4 = _closure1_slot1;
-                var3 = 5;
-                var4 = var4[var3];
-                var3 = undefined;
-                var4 = var5.bind(var3)(var4);
-                var3 = var4.sample;
-                var1 = _closure1_slot8;
-                var1 = var3.bind(var4)(var1);
-                var3 = null;
-                if(!(var3 == var1)) { _fun0002_ip = 102; continue _fun0002 }
- 98:
-                var1 = new Array(0);
- 102:
-                var2['effects'] = var1;
- 108:
-                var1 = undefined;
-                return var1;
-            }
+            var3 = arg1;
+            var2 = _closure2_slot0;
+            var1 = var3.id;
+            var2[var1] = var3;
+            var1 = undefined;
+            return var1;
         };
         var4 = var5.bind(var6)(var4);
-        _closure1_slot12 = var2;
+        _closure1_slot11 = var2;
         return var1;
     };
-    var _closure1_slot16 = var2;
+    var _closure1_slot15 = var2;
     var2 = 6;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
     var2 = function(arg1) {
         var4 = function ProfileEffectStore() {
-            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var4 = this;
                 var3 = undefined;
@@ -160,15 +130,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot17;
+                var1 = _closure1_slot16;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0003_ip = 69; continue _fun0003 }
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0003_ip = 105; continue _fun0003;
+                _fun0002_ip = 105; continue _fun0002;
  69:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -193,7 +163,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = 'isFetchingAll';
         var5['key'] = var1;
         var1 = function get() {
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot8;
             return var1;
         };
         var5['get'] = var1;
@@ -203,7 +173,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'fetchError';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot9;
             return var1;
         };
         var5['get'] = var7;
@@ -212,7 +182,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'profileEffects';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot10;
             return var1;
         };
         var5['get'] = var7;
@@ -221,7 +191,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'tryItOutId';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot12;
             return var1;
         };
         var5['get'] = var7;
@@ -230,18 +200,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'canFetch';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                var3 = _closure1_slot14;
+                var3 = _closure1_slot13;
                 var1 = null;
                 var1 = var1 == var3;
-                if(var1) { _fun0004_ip = 41; continue _fun0004 }
+                if(var1) { _fun0003_ip = 41; continue _fun0003 }
  16:
                 var3 = global;
                 var4 = var3.Date;
                 var3 = var4.now;
                 var3 = var3.bind(var4)();
-                var2 = _closure1_slot14;
+                var2 = _closure1_slot13;
                 var1 = var3 >= var2;
  41:
                 return var1;
@@ -253,14 +223,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'hasFetched';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                var1 = _closure1_slot14;
+                var1 = _closure1_slot13;
                 var3 = null;
                 var1 = var3 != var1;
-                if(!var1) { _fun0005_ip = 24; continue _fun0005 }
+                if(!var1) { _fun0004_ip = 24; continue _fun0004 }
  16:
-                var2 = _closure1_slot10;
+                var2 = _closure1_slot9;
                 var1 = var3 == var2;
  24:
                 return var1;
@@ -272,15 +242,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getProfileEffectById';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                 var3 = arg1;
                 var1 = null;
                 var2 = var1 != var3;
                 var1 = undefined;
-                if(!var2) { _fun0006_ip = 25; continue _fun0006 }
+                if(!var2) { _fun0005_ip = 25; continue _fun0005 }
  14:
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot11;
                 var1 = var2[var3];
  25:
                 return var1;
@@ -300,36 +270,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = {};
     var9 = function PROFILE_EFFECTS_FETCH_ALL() {
         var1 = true;
-        _closure1_slot9 = var1;
+        _closure1_slot8 = var1;
         var1 = undefined;
         return var1;
     };
     var2['PROFILE_EFFECTS_FETCH_ALL'] = var9;
     var9 = function PROFILE_EFFECTS_FETCH_ALL_SUCCESS(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var1 = arg1;
             var4 = var1.presets;
             var1 = undefined;
-            _closure1_slot10 = var1;
+            _closure1_slot9 = var1;
             var2 = global;
             var5 = var2.Date;
             var2 = var5.now;
             var5 = var2.bind(var5)();
             var2 = 300000;
             var2 = var5 + var2;
-            _closure1_slot14 = var2;
+            _closure1_slot13 = var2;
             var6 = 0;
-            _closure1_slot15 = var6;
-            var2 = _closure1_slot16;
+            _closure1_slot14 = var6;
+            var2 = _closure1_slot15;
             var5 = var4.length;
-            if(!(var6 === var5)) { _fun0007_ip = 72; continue _fun0007 }
+            if(!(var6 === var5)) { _fun0006_ip = 72; continue _fun0006 }
  68:
             var4 = _closure1_slot7;
  72:
             var2 = var2.bind(var1)(var4);
             var2 = false;
-            _closure1_slot9 = var2;
+            _closure1_slot8 = var2;
             return var1;
         }
     };
@@ -337,14 +307,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = function PROFILE_EFFECTS_FETCH_ALL_FAILURE(arg1) {
         var1 = arg1;
         var1 = var1.error;
-        _closure1_slot10 = var1;
+        _closure1_slot9 = var1;
         var1 = global;
         var4 = var1.Date;
         var2 = var4.now;
         var2 = var2.bind(var4)();
         var6 = var1.Math;
         var5 = var6.min;
-        var7 = _closure1_slot15;
+        var7 = _closure1_slot14;
         var8 = 2;
         var4 = exponentiationOperator(var8, var7);
         var1 = 60000;
@@ -352,37 +322,37 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = 3600000;
         var1 = var5.bind(var6)(var4, var1);
         var1 = var2 + var1;
-        _closure1_slot14 = var1;
-        var1 = _closure1_slot15;
+        _closure1_slot13 = var1;
+        var1 = _closure1_slot14;
         var1 = var1 + 1;
-        _closure1_slot15 = var1;
-        var4 = _closure1_slot16;
+        _closure1_slot14 = var1;
+        var4 = _closure1_slot15;
         var2 = _closure1_slot7;
         var1 = undefined;
         var2 = var4.bind(var1)(var2);
         var2 = false;
-        _closure1_slot9 = var2;
+        _closure1_slot8 = var2;
         return var1;
     };
     var2['PROFILE_EFFECTS_FETCH_ALL_FAILURE'] = var9;
     var9 = function PROFILE_EFFECTS_SET_TRY_IT_OUT(arg1) {
         var1 = arg1;
         var2 = var1.id;
-        _closure1_slot13 = var2;
+        _closure1_slot12 = var2;
         var1 = undefined;
         return var1;
     };
     var2['PROFILE_EFFECTS_SET_TRY_IT_OUT'] = var9;
     var4 = function LOGOUT() {
-        var4 = _closure1_slot16;
+        var4 = _closure1_slot15;
         var2 = _closure1_slot7;
         var1 = undefined;
         var2 = var4.bind(var1)(var2);
         var2 = null;
-        _closure1_slot13 = var2;
-        _closure1_slot14 = var1;
+        _closure1_slot12 = var2;
+        _closure1_slot13 = var1;
         var2 = false;
-        _closure1_slot9 = var2;
+        _closure1_slot8 = var2;
         return var1;
     };
     var2['LOGOUT'] = var4;

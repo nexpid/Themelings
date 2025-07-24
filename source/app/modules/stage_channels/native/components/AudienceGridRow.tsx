@@ -93,12 +93,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var1.bind(var4)();
             var8 = 0;
             var10 = 0;
-            if(!var13) { _fun0002_ip = 76; continue _fun0002 }
- 63:
+            if(!var13) { _fun0002_ip = 77; continue _fun0002 }
+ 64:
             var2 = _closure1_slot3;
             var1 = var9.length;
             var10 = var2 - var1;
- 76:
+ 77:
             var3 = _closure1_slot5;
             var2 = _closure1_slot2;
             var1 = {};
@@ -107,10 +107,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[0] = var11;
             var11 = {};
             var12 = 'center';
-            if(!var13) { _fun0002_ip = 115; continue _fun0002 }
- 109:
+            if(!var13) { _fun0002_ip = 116; continue _fun0002 }
+ 110:
             var12 = 'space-between';
- 115:
+ 116:
             var11['justifyContent'] = var12;
             var6[1] = var11;
             var1['style'] = var6;
@@ -138,14 +138,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = new Array(2);
             var5[0] = var6;
             var6 = null;
-            if(!(var10 > var8)) { _fun0002_ip = 178; continue _fun0002 }
- 158:
+            if(!(var10 > var8)) { _fun0002_ip = 179; continue _fun0002 }
+ 159:
             var9 = _closure1_slot4;
             var8 = _closure1_slot7;
             var7 = {};
             var7['count'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 178:
+ 179:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

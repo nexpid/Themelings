@@ -340,7 +340,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0005_ip = 953; continue _fun0005 }
+                            if(var2) { _fun0005_ip = 949; continue _fun0005 }
  12:
                             var2 = undefined;
                             var7 = undefined;
@@ -350,7 +350,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var8 = undefined;
                             var3 = _closure2_slot7;
                             var3 = var3.current;
-                            if(var3) { _fun0005_ip = 950; continue _fun0005 }
+                            if(var3) { _fun0005_ip = 946; continue _fun0005 }
  48:
                             var3 = _closure2_slot7;
                             var5 = true;
@@ -376,7 +376,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var3;
  135:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                            if(var6) { _fun0005_ip = 901; continue _fun0005 }
+                            if(var6) { _fun0005_ip = 897; continue _fun0005 }
  144:
                             var9 = var3.filter;
                             var11 = _closure1_slot0;
@@ -389,7 +389,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var7 = var6;
                             var6 = var6.length;
                             var9 = 0;
-                            if(!(var9 !== var6)) { _fun0005_ip = 795; continue _fun0005 }
+                            if(!(var9 !== var6)) { _fun0005_ip = 791; continue _fun0005 }
  197:
                             var6 = _closure2_slot0;
                             var12 = var6.attachments;
@@ -513,7 +513,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var6;
  285:
                             ResumeGenerator(result_out_reg=5, return_bool_out_reg=10);
-                            if(var11) { _fun0005_ip = 771; continue _fun0005 }
+                            if(var11) { _fun0005_ip = 767; continue _fun0005 }
  294:
                             _closure4_slot2 = var6;
                             var12 = var6.every;
@@ -597,7 +597,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var10 = var10.bind(var2)(var11);
                             var10 = _closure2_slot7;
                             var10['current'] = var11;
-                            _fun0005_ip = 950; continue _fun0005;
+                            _fun0005_ip = 946; continue _fun0005;
  561: // try_start_1
                             var11 = var7[var9];
                             var8 = var11;
@@ -615,7 +615,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var7;
  609:
                             ResumeGenerator(result_out_reg=6, return_bool_out_reg=8);
-                            if(var9) { _fun0005_ip = 747; continue _fun0005 }
+                            if(var9) { _fun0005_ip = 743; continue _fun0005 }
  618:
                             var9 = _closure1_slot0;
                             var10 = _closure1_slot2;
@@ -631,16 +631,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var9 = var9.bind(var2)(var8);
                             var8 = var9.isAndroid;
                             var8 = var8.bind(var9)();
-                            if(!var8) { _fun0005_ip = 713; continue _fun0005 }
- 691:
+                            if(!var8) { _fun0005_ip = 709; continue _fun0005 }
+ 687:
                             var8 = _closure1_slot6;
                             var9 = var8.ShareManager;
                             var8 = var9.launchApp;
                             var8 = var8.bind(var9)();
- 713:
+ 709:
                             var8 = _closure2_slot1;
                             var8 = var8.bind(var2)();
- 721: // try_end1
+ 717: // try_end1
                             var9 = _closure2_slot6;
                             var10 = false;
                             var9 = var9.bind(var2)(var10);
@@ -648,21 +648,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var9['current'] = var10;
                             var8 = undefined;
                             return var8;
- 747:
+ 743:
                             var8 = _closure2_slot6;
                             var9 = false;
                             var8 = var8.bind(var2)(var9);
                             var8 = _closure2_slot7;
                             var8['current'] = var9;
                             return var7;
- 771:
+ 767:
                             var7 = _closure2_slot6;
                             var8 = false;
                             var7 = var7.bind(var2)(var8);
                             var7 = _closure2_slot7;
                             var7['current'] = var8;
                             return var6;
- 795: // try_start_2
+ 791: // try_start_2
                             var10 = _closure1_slot0;
                             var11 = _closure1_slot2;
                             var5 = 18;
@@ -680,7 +680,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var5 = var5.wFcUiI;
                             var5 = var8.bind(var9)(var5);
                             var5 = var6.bind(var7)(var5);
- 875: // try_end2
+ 871: // try_end2
                             var6 = _closure2_slot6;
                             var7 = false;
                             var6 = var6.bind(var2)(var7);
@@ -688,14 +688,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var6['current'] = var7;
                             var5 = undefined;
                             return var5;
- 901:
+ 897:
                             var5 = _closure2_slot6;
                             var6 = false;
                             var5 = var5.bind(var2)(var6);
                             var5 = _closure2_slot7;
                             var5['current'] = var6;
                             return var3;
- 925: // catch_target0 // catch_target1 // catch_target2
+ 921: // catch_target0 // catch_target1 // catch_target2
                             CatchBlockStart(arg_register=2);
                             var6 = _closure2_slot6;
                             var5 = false;
@@ -703,9 +703,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4 = _closure2_slot7;
                             var4['current'] = var5;
                             throw var3;
- 950:
+ 946:
                             return var2;
- 953:
+ 949:
                             return var1;
                         }
                     };

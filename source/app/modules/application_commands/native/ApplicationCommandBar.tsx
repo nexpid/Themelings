@@ -809,8 +809,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var9.applicationTopWrapperScrollView;
             var5['contentContainerStyle'] = var7;
             var8 = var18 != var17;
-            if(!var8) { _fun0006_ip = 488; continue _fun0006 }
- 442:
+            if(!var8) { _fun0006_ip = 492; continue _fun0006 }
+ 446:
             var16 = _closure1_slot7;
             var12 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -822,7 +822,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['style'] = var20;
             var7['source'] = var17;
             var8 = var16.bind(var4)(var12, var7);
- 488:
+ 492:
             var7 = new Array(4);
             var7[0] = var8;
             var16 = _closure1_slot7;
@@ -844,8 +844,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var15.options;
             var12 = var18 == var17;
             var8 = undefined;
-            if(var12) { _fun0006_ip = 611; continue _fun0006 }
- 594:
+            if(var12) { _fun0006_ip = 615; continue _fun0006 }
+ 598:
             var16 = var17.map;
             var12 = function(arg1) {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
@@ -899,11 +899,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var8 = var16.bind(var17)(var12);
- 611:
+ 615:
             var7[2] = var8;
             var8 = null;
             if(!var10) { _fun0006_ip = 851; continue _fun0006 }
- 623:
+ 627:
             var16 = _closure1_slot9;
             var12 = _closure1_slot8;
             var10 = {};
@@ -914,10 +914,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23 = new Array(2);
             var23[0] = var25;
             var24 = !var24;
-            if(!var24) { _fun0006_ip = 669; continue _fun0006 }
- 663:
+            if(!var24) { _fun0006_ip = 673; continue _fun0006 }
+ 667:
             var24 = var9.applicationOptionalOptionsDividerWithNoRequired;
- 669:
+ 673:
             var23[1] = var24;
             var17['style'] = var23;
             var21 = var22.bind(var4)(var21, var17);

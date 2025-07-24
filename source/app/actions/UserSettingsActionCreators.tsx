@@ -240,7 +240,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = {};
             var6 = {};
             var6['shouldSync'] = var7;
-            if(var7) { _fun0003_ip = 151; continue _fun0003 }
+            if(var7) { _fun0003_ip = 153; continue _fun0003 }
  55:
             var7 = {};
             var9 = _closure1_slot5;
@@ -252,10 +252,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = null;
             var12 = var10 == var11;
             var10 = undefined;
-            if(var12) { _fun0003_ip = 98; continue _fun0003 }
- 93:
+            if(var12) { _fun0003_ip = 100; continue _fun0003 }
+ 95:
             var10 = var11.id;
- 98:
+ 100:
             var9['backgroundGradientPresetId'] = var10;
             var7['clientThemeSettings'] = var9;
             var9 = _closure1_slot0;
@@ -267,10 +267,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var9.getSetting;
             var8 = var8.bind(var9)();
             var7['developerMode'] = var8;
-            _fun0003_ip = 153; continue _fun0003;
- 151:
-            var7 = {};
+            _fun0003_ip = 155; continue _fun0003;
  153:
+            var7 = {};
+ 155:
             var6['settings'] = var7;
             var5['appearance'] = var6;
             var2['changes'] = var5;
@@ -378,8 +378,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var5.shouldSync;
             var6 = 'appearance';
             var4 = var4.bind(var5)(var6);
-            if(!var4) { _fun0004_ip = 166; continue _fun0004 }
- 101:
+            if(!var4) { _fun0004_ip = 167; continue _fun0004 }
+ 102:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 5;
@@ -401,7 +401,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var2 = var4.bind(var5)(var6, var2, var3);
- 166:
+ 167:
             return var1;
         }
     };
@@ -539,8 +539,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot2 = var12;
             var3 = var2.useSystemTheme;
             var6 = undefined;
-            if(!(var5 === var6)) { _fun0006_ip = 84; continue _fun0006 }
- 49:
+            if(!(var5 === var6)) { _fun0006_ip = 85; continue _fun0006 }
+ 50:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 5;
@@ -548,22 +548,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var4.bind(var6)(var2);
             var2 = var2.UserSettingsDelay;
             var5 = var2.INFREQUENT_USER_ACTION;
- 84:
+ 85:
             var2 = 'system';
             var13 = var2 === var12;
             var4 = _closure1_slot7;
-            if(var13) { _fun0006_ip = 110; continue _fun0006 }
- 102:
+            if(var13) { _fun0006_ip = 111; continue _fun0006 }
+ 103:
             var16 = var4.OFF;
-            _fun0006_ip = 116; continue _fun0006;
- 110:
+            _fun0006_ip = 117; continue _fun0006;
+ 111:
             var16 = var4.ON;
- 116:
+ 117:
             var4 = null;
-            if(!(var4 != var3)) { _fun0006_ip = 125; continue _fun0006 }
- 122:
+            if(!(var4 != var3)) { _fun0006_ip = 126; continue _fun0006 }
+ 123:
             var16 = var3;
- 125:
+ 126:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 8;
@@ -591,10 +591,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11['customUserThemeSettings'] = var14;
             var10['clientThemeSettings'] = var11;
             var11 = undefined;
-            if(var13) { _fun0006_ip = 232; continue _fun0006 }
- 229:
+            if(var13) { _fun0006_ip = 233; continue _fun0006 }
+ 230:
             var11 = var12;
- 232:
+ 233:
             var10['theme'] = var11;
             var9['settings'] = var10;
             var8['appearance'] = var9;
@@ -604,10 +604,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var7.shouldSync;
             var4 = 'appearance';
             var3 = var3.bind(var7)(var4);
-            if(var3) { _fun0006_ip = 280; continue _fun0006 }
- 278:
-            return var6;
+            if(var3) { _fun0006_ip = 282; continue _fun0006 }
  280:
+            return var6;
+ 282:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 5;

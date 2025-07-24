@@ -1284,10 +1284,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var24 = var26.isThemeLight;
             var26 = var24.bind(var26)(var27);
             var24 = null;
-            if(!var26) { _fun0004_ip = 939; continue _fun0004 }
- 933:
+            if(!var26) { _fun0004_ip = 940; continue _fun0004 }
+ 934:
             var24 = var25.visualEffectViewBackground;
- 939:
+ 940:
             var19[1] = var24;
             var11['style'] = var19;
             var14 = var18.bind(var4)(var14, var11);

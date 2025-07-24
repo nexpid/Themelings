@@ -103,24 +103,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = null;
             var7 = 'username';
             var2 = null;
-            if(!(var7 === var11)) { _fun0001_ip = 216; continue _fun0001 }
- 213:
+            if(!(var7 === var11)) { _fun0001_ip = 217; continue _fun0001 }
+ 214:
             var2 = var10;
- 216:
+ 217:
             var1['linkColor'] = var2;
             var1['roleColor'] = var10;
             var2 = null;
-            if(!var16) { _fun0001_ip = 234; continue _fun0001 }
- 231:
+            if(!var16) { _fun0001_ip = 235; continue _fun0001 }
+ 232:
             var2 = var12;
- 234:
+ 235:
             var1['roleColors'] = var2;
             var2 = 'dot';
             var2 = var2 === var11;
-            if(!var2) { _fun0001_ip = 254; continue _fun0001 }
- 250:
+            if(!var2) { _fun0001_ip = 255; continue _fun0001 }
+ 251:
             var2 = var5 != var10;
- 254:
+ 255:
             var1['shouldShowRoleDot'] = var2;
             var2 = var15.channel_id;
             var1['messageChannelId'] = var2;
@@ -129,8 +129,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14['usernameOnClick'] = var1;
             var2 = var15.content;
             var1 = '';
-            if(!(var1 !== var2)) { _fun0001_ip = 384; continue _fun0001 }
- 294:
+            if(!(var1 !== var2)) { _fun0001_ip = 385; continue _fun0001 }
+ 295:
             var2 = global;
             var12 = var2.Date;
             var20 = var15.content;
@@ -149,7 +149,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var2.currentLocale;
             var2 = {'hour': 'numeric', 'minute': '2-digit'};
             var1 = var12.bind(var16)(var10, var2);
- 384:
+ 385:
             var14['time'] = var1;
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -194,10 +194,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1[var7] = var6;
             var6 = var5 != var4;
             var5 = null;
-            if(!var6) { _fun0001_ip = 582; continue _fun0001 }
- 579:
+            if(!var6) { _fun0001_ip = 583; continue _fun0001 }
+ 580:
             var5 = var4;
- 582:
+ 583:
             var4 = 'usernameColor';
             var1[var4] = var5;
             var8 = _closure1_slot0;
@@ -432,10 +432,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['avatarURL'] = var6;
             var6 = null;
             var8 = var6 != var7;
-            if(!var8) { _fun0002_ip = 511; continue _fun0002 }
- 508:
+            if(!var8) { _fun0002_ip = 512; continue _fun0002 }
+ 509:
             var6 = var7;
- 511:
+ 512:
             var1['usernameColor'] = var6;
             var19 = var1;
             var18 = var5;
@@ -490,24 +490,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = null;
             var7 = 'username';
             var2 = null;
-            if(!(var7 === var11)) { _fun0004_ip = 197; continue _fun0004 }
- 194:
+            if(!(var7 === var11)) { _fun0004_ip = 198; continue _fun0004 }
+ 195:
             var2 = var10;
- 197:
+ 198:
             var1['linkColor'] = var2;
             var1['roleColor'] = var10;
             var2 = null;
-            if(!var15) { _fun0004_ip = 215; continue _fun0004 }
- 212:
+            if(!var15) { _fun0004_ip = 216; continue _fun0004 }
+ 213:
             var2 = var12;
- 215:
+ 216:
             var1['roleColors'] = var2;
             var2 = 'dot';
             var2 = var2 === var11;
-            if(!var2) { _fun0004_ip = 235; continue _fun0004 }
- 231:
+            if(!var2) { _fun0004_ip = 236; continue _fun0004 }
+ 232:
             var2 = var5 != var10;
- 235:
+ 236:
             var1['shouldShowRoleDot'] = var2;
             var2 = var13.channel_id;
             var1['messageChannelId'] = var2;
@@ -557,10 +557,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1[var7] = var6;
             var6 = var5 != var4;
             var5 = null;
-            if(!var6) { _fun0004_ip = 455; continue _fun0004 }
- 452:
+            if(!var6) { _fun0004_ip = 456; continue _fun0004 }
+ 453:
             var5 = var4;
- 455:
+ 456:
             var4 = 'usernameColor';
             var1[var4] = var5;
             var8 = _closure1_slot0;
@@ -749,10 +749,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['avatarURL'] = var6;
             var6 = null;
             var8 = var6 != var7;
-            if(!var8) { _fun0005_ip = 445; continue _fun0005 }
- 442:
+            if(!var8) { _fun0005_ip = 446; continue _fun0005 }
+ 443:
             var6 = var7;
- 445:
+ 446:
             var1['usernameColor'] = var6;
             var18 = var1;
             var17 = var5;

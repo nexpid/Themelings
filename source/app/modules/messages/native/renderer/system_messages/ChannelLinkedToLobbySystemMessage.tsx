@@ -52,13 +52,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = null;
             var13 = var1 != var11;
             var2 = '';
-            if(!var13) { _fun0001_ip = 86; continue _fun0001 }
- 83:
+            if(!var13) { _fun0001_ip = 87; continue _fun0001 }
+ 84:
             var2 = var11;
- 86:
+ 87:
             var2 = var6.bind(var10)(var2);
-            if(!(var1 != var2)) { _fun0001_ip = 500; continue _fun0001 }
- 98:
+            if(!(var1 != var2)) { _fun0001_ip = 501; continue _fun0001 }
+ 99:
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
             var6 = 3;
@@ -86,28 +86,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6['colorString'] = var11;
             var15 = 'username';
             var8 = null;
-            if(!(var15 === var12)) { _fun0001_ip = 227; continue _fun0001 }
- 224:
+            if(!(var15 === var12)) { _fun0001_ip = 228; continue _fun0001 }
+ 225:
             var8 = var11;
- 227:
-            if(!(var1 == var8)) { _fun0001_ip = 237; continue _fun0001 }
- 231:
+ 228:
+            if(!(var1 == var8)) { _fun0001_ip = 238; continue _fun0001 }
+ 232:
             var8 = var9.defaultUsernameColor;
- 237:
+ 238:
             var6['linkColor'] = var8;
             var6['roleColor'] = var11;
             var8 = null;
-            if(!var14) { _fun0001_ip = 255; continue _fun0001 }
- 252:
+            if(!var14) { _fun0001_ip = 256; continue _fun0001 }
+ 253:
             var8 = var13;
- 255:
+ 256:
             var6['roleColors'] = var8;
             var8 = 'dot';
             var8 = var8 === var12;
-            if(!var8) { _fun0001_ip = 275; continue _fun0001 }
- 271:
+            if(!var8) { _fun0001_ip = 276; continue _fun0001 }
+ 272:
             var8 = var1 != var11;
- 275:
+ 276:
             var6['shouldShowRoleDot'] = var8;
             var7 = var7.channel_id;
             var6['messageChannelId'] = var7;
@@ -158,7 +158,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = var2;
             var3 = copyDataProperties(var19, var18);
             return var2;
- 500:
+ 501:
             return var1;
         }
     };

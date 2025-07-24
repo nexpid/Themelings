@@ -1232,7 +1232,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var3 = var3.bind(var1)(var2);
                             var2 = var3.areArraysShallowEqual;
                             var2 = var2.bind(var3)(var5, var4);
-                            if(var2) { _fun0017_ip = 101; continue _fun0017 }
+                            if(var2) { _fun0017_ip = 97; continue _fun0017 }
  46:
                             var3 = _closure3_slot2;
                             var2 = {'fieldName': null, 'primaryType': 'array', 'shadowType': 'array'};
@@ -1243,7 +1243,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4 = var4.length;
                             var2['secondaryArrayLength'] = var4;
                             var2 = var3.bind(var1)(var2);
- 101:
+ 97:
                             return var1;
                         }
                     };

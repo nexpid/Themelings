@@ -668,7 +668,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = var5[var6];
                 var1 = undefined;
                 var8 = var3.bind(var1)(var7);
-                var7 = var8.clearAllSearchStates;
+                var7 = var8.clearAllSearchMesssages;
                 var7 = var7.bind(var8)();
                 var6 = var5[var6];
                 var7 = var3.bind(var1)(var6);

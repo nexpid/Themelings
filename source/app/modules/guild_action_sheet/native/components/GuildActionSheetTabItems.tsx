@@ -79,7 +79,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = 8;
             var2 = var8[var2];
             var3 = var12.bind(var4)(var2);
-            var2 = var3.useIsPinPermissionMigrationAvailableToCurrentUser;
+            var2 = var3.useIsPinPermissionMigrationNotificationAvailable;
             var15 = var2.bind(var3)(var1);
             var3 = _closure1_slot1;
             var2 = 9;

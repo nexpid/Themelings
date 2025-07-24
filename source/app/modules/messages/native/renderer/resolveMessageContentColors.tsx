@@ -48,15 +48,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = 4;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
-            if(var1) { _fun0001_ip = 80; continue _fun0001 }
- 67:
+            if(var1) { _fun0001_ip = 81; continue _fun0001 }
+ 68:
             var1 = var2.unsafe_rawColors;
             var1 = var1.PRIMARY_200;
-            _fun0001_ip = 91; continue _fun0001;
- 80:
+            _fun0001_ip = 92; continue _fun0001;
+ 81:
             var2 = var2.colors;
             var1 = var2.INTERACTIVE_NORMAL;
- 91:
+ 92:
             return var1;
         }
     };
@@ -83,13 +83,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0002_ip = 80; continue _fun0002 }
- 72:
+            if(var1) { _fun0002_ip = 81; continue _fun0002 }
+ 73:
             var1 = var2.PRIMARY_500;
-            _fun0002_ip = 86; continue _fun0002;
- 80:
+            _fun0002_ip = 87; continue _fun0002;
+ 81:
             var1 = var2.WHITE_500;
- 86:
+ 87:
             return var1;
         }
     };
@@ -115,15 +115,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = 4;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
-            if(var1) { _fun0003_ip = 80; continue _fun0003 }
- 67:
+            if(var1) { _fun0003_ip = 81; continue _fun0003 }
+ 68:
             var1 = var2.colors;
             var1 = var1.BACKGROUND_SECONDARY;
-            _fun0003_ip = 91; continue _fun0003;
- 80:
+            _fun0003_ip = 92; continue _fun0003;
+ 81:
             var2 = var2.unsafe_rawColors;
             var1 = var2.PRIMARY_700;
- 91:
+ 92:
             return var1;
         }
     };
@@ -150,13 +150,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0004_ip = 80; continue _fun0004 }
- 72:
+            if(var1) { _fun0004_ip = 81; continue _fun0004 }
+ 73:
             var1 = var2.PRIMARY_630;
-            _fun0004_ip = 86; continue _fun0004;
- 80:
+            _fun0004_ip = 87; continue _fun0004;
+ 81:
             var1 = var2.PRIMARY_300;
- 86:
+ 87:
             return var1;
         }
     };
@@ -183,13 +183,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0005_ip = 80; continue _fun0005 }
- 72:
+            if(var1) { _fun0005_ip = 81; continue _fun0005 }
+ 73:
             var1 = var2.BRAND_200;
-            _fun0005_ip = 86; continue _fun0005;
- 80:
+            _fun0005_ip = 87; continue _fun0005;
+ 81:
             var1 = var2.BRAND_260;
- 86:
+ 87:
             return var1;
         }
     };

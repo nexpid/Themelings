@@ -605,12 +605,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = _closure2_slot6;
                     var4 = var2.current;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0006_ip = 142; continue _fun0006 }
+                    if(!(var2 != var4)) { _fun0006_ip = 138; continue _fun0006 }
  117:
                     var3 = var4.scrollToOffset;
                     var2 = {'offset': 0, 'animated': false};
                     var2 = var3.bind(var4)(var2);
- 142:
+ 138:
                     return var1;
                 }
             };

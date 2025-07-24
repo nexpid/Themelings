@@ -30,38 +30,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
-            var8 = var2.searchContext;
-            var _closure2_slot0 = var8;
-            var13 = var2.searchTabs;
-            var7 = var2.searchQueryString;
-            var15 = var2.pagination;
-            var14 = var2.trackExactTotalHits;
+            var10 = var2.searchContext;
+            var _closure2_slot0 = var10;
+            var7 = var2.searchTabs;
+            var9 = var2.searchQueryString;
+            var14 = var2.pagination;
+            var13 = var2.trackExactTotalHits;
             var3 = var2.getId;
             var _closure2_slot1 = var3;
-            var16 = var2.getLimit;
-            var4 = var2.onFetchStart;
+            var15 = var2.getLimit;
+            var6 = var2.onFetchStart;
             var3 = var2.onFetchSuccess;
             var _closure2_slot2 = var3;
-            var12 = var2.searchMode;
-            var3 = undefined;
-            if(!(var12 === var3)) { _fun0001_ip = 98; continue _fun0001 }
+            var17 = var2.searchMode;
+            var4 = undefined;
+            if(!(var17 === var4)) { _fun0001_ip = 98; continue _fun0001 }
  85:
             var2 = _closure1_slot4;
-            var12 = var2.NEWEST;
+            var17 = var2.NEWEST;
  98:
-            var _closure2_slot3 = var3;
-            var _closure2_slot4 = var3;
-            var6 = _closure1_slot2;
-            var2 = _closure1_slot3;
-            var11 = 1;
-            var5 = var2[var11];
-            var9 = var6.bind(var3)(var5);
-            var5 = var9.tokenizeQuery;
-            var9 = var5.bind(var9)(var7);
-            var5 = var2[var11];
-            var6 = var6.bind(var3)(var5);
-            var5 = var6.getSearchQueryFromTokens;
-            var10 = var5.bind(var6)(var9);
+            var _closure2_slot3 = var4;
+            var _closure2_slot4 = var4;
+            var8 = _closure1_slot2;
+            var3 = _closure1_slot3;
+            var16 = 1;
+            var5 = var3[var16];
+            var11 = var8.bind(var4)(var5);
+            var5 = var11.tokenizeQuery;
+            var11 = var5.bind(var11)(var9);
+            var5 = var3[var16];
+            var8 = var8.bind(var4)(var5);
+            var5 = var8.getSearchQueryFromTokens;
+            var12 = var5.bind(var8)(var11);
             var5 = function fixSearchQueryPinned(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -88,83 +88,85 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var5 = var5.bind(var3)(var10);
+            var5 = var5.bind(var4)(var12);
             var5 = _closure1_slot0;
-            var6 = 2;
-            var6 = var2[var6];
-            var9 = var5.bind(var3)(var6);
-            var6 = var9.searchModeToSearchQueryParams;
-            var9 = var6.bind(var9)(var12);
-            var6 = {};
-            var21 = var6;
-            var20 = var10;
-            var10 = copyDataProperties(var21, var20);
-            var21 = var6;
-            var20 = var9;
-            var9 = copyDataProperties(var21, var20);
-            var17 = 3;
-            var2 = var2[var17];
-            var5 = var5.bind(var3)(var2);
-            var2 = var5.getGuildIdFromSearchContext;
-            var10 = var2.bind(var5)(var8);
-            _closure2_slot3 = var10;
-            var2 = null;
-            if(!(var2 != var10)) { _fun0001_ip = 283; continue _fun0001 }
+            var8 = 2;
+            var8 = var3[var8];
+            var11 = var5.bind(var4)(var8);
+            var8 = var11.searchModeToSearchQueryParams;
+            var11 = var8.bind(var11)(var17);
+            var8 = {};
+            var21 = var8;
+            var20 = var12;
+            var12 = copyDataProperties(var21, var20);
+            var21 = var8;
+            var20 = var11;
+            var11 = copyDataProperties(var21, var20);
+            var18 = 3;
+            var3 = var3[var18];
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.getGuildIdFromSearchContext;
+            var12 = var3.bind(var5)(var10);
+            _closure2_slot3 = var12;
+            var3 = null;
+            if(!(var3 != var12)) { _fun0001_ip = 283; continue _fun0001 }
  254:
-            var9 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var5 = _closure1_slot3;
-            var5 = var5[var11];
-            var9 = var9.bind(var3)(var5);
-            var5 = var9.setIncludeNSFW;
-            var5 = var5.bind(var9)(var6, var10);
+            var5 = var5[var16];
+            var11 = var11.bind(var4)(var5);
+            var5 = var11.setIncludeNSFW;
+            var5 = var5.bind(var11)(var8, var12);
  283:
-            var10 = _closure1_slot1;
-            var11 = _closure1_slot3;
+            var11 = _closure1_slot1;
+            var16 = _closure1_slot3;
             var5 = 4;
-            var5 = var11[var5];
-            var12 = var10.bind(var3)(var5);
-            var9 = var12.create;
+            var5 = var16[var5];
+            var12 = var11.bind(var4)(var5);
+            var11 = var12.create;
             var5 = {};
-            var18 = _closure1_slot0;
-            var17 = var11[var17];
-            var18 = var18.bind(var3)(var17);
-            var17 = var18.getSearchContextId;
-            var17 = var17.bind(var18)(var8);
-            var5['id'] = var17;
-            var5['searchContext'] = var8;
-            var5['searchQuery'] = var6;
-            var5['searchTabs'] = var13;
-            var5['getLimit'] = var16;
-            var5['pagination'] = var15;
-            var5['trackExactTotalHits'] = var14;
-            var5 = var9.bind(var12)(var5);
-            var12 = var13.map;
-            var9 = function(arg1) {
+            var17 = _closure1_slot0;
+            var16 = var16[var18];
+            var17 = var17.bind(var4)(var16);
+            var16 = var17.getSearchContextId;
+            var16 = var16.bind(var17)(var10);
+            var5['id'] = var16;
+            var5['searchContext'] = var10;
+            var5['searchQuery'] = var8;
+            var5['searchTabs'] = var7;
+            var5['getLimit'] = var15;
+            var5['pagination'] = var14;
+            var5['trackExactTotalHits'] = var13;
+            var5 = var11.bind(var12)(var5);
+            if(!(var3 != var6)) { _fun0001_ip = 399; continue _fun0001 }
+ 377:
+            var3 = {};
+            var3['searchContext'] = var10;
+            var3['searchQueryString'] = var9;
+            var3['searchQuery'] = var8;
+            var3 = var6.bind(var4)(var3);
+ 399:
+            var6 = var7.map;
+            var3 = function(arg1) {
                 var3 = _closure2_slot1;
                 var2 = undefined;
                 var1 = arg1;
                 var1 = var3.bind(var2)(var1);
                 return var1;
             };
-            var12 = var12.bind(var13)(var9);
-            _closure2_slot4 = var12;
-            var9 = 5;
-            var9 = var11[var9];
-            var11 = var10.bind(var3)(var9);
-            var10 = var11.dispatch;
-            var9 = {};
-            var13 = 'SEARCH_MESSAGES_START';
-            var9['type'] = var13;
-            var9['ids'] = var12;
-            var9 = var10.bind(var11)(var9);
-            if(!(var2 != var4)) { _fun0001_ip = 459; continue _fun0001 }
- 437:
+            var6 = var6.bind(var7)(var3);
+            _closure2_slot4 = var6;
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot3;
+            var2 = 5;
+            var2 = var7[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.dispatch;
             var2 = {};
-            var2['searchContext'] = var8;
-            var2['searchQueryString'] = var7;
-            var2['searchQuery'] = var6;
-            var2 = var4.bind(var3)(var2);
- 459:
+            var7 = 'SEARCH_MESSAGES_START';
+            var2['type'] = var7;
+            var2['ids'] = var6;
+            var2 = var3.bind(var4)(var2);
             var4 = var5.fetch;
             var3 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -458,7 +460,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2['clearSearchRecentMessages'] = var7;
-    var7 = function clearAllSearchStates() {
+    var7 = function clearAllSearchMesssages() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
         var1 = 5;
@@ -472,8 +474,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['clearAllSearchStates'] = var7;
-    var7 = function clearSearchState(arg1) {
+    var2['clearAllSearchMesssages'] = var7;
+    var7 = function clearSearchMessages(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
         var1 = 5;
@@ -489,7 +491,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['clearSearchState'] = var7;
+    var2['clearSearchMessages'] = var7;
     var7 = function addSearchHistoryItem(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:

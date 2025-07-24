@@ -76,7 +76,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot6 = var2;
     var2 = {};
     var _closure1_slot7 = var2;
-    var2 = 6;
+    var2 = 7;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
@@ -156,19 +156,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = function value(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                var3 = arg1;
+                var4 = arg1;
                 var1 = null;
-                var1 = var1 != var3;
-                if(!var1) { _fun0004_ip = 31; continue _fun0004 }
+                var1 = var1 != var4;
+                if(!var1) { _fun0004_ip = 72; continue _fun0004 }
  12:
-                var2 = _closure1_slot7;
-                var2 = var2[var3];
-                if(var2) { _fun0004_ip = 28; continue _fun0004 }
- 26:
-                var2 = false;
- 28:
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var2 = 6;
+                var5 = var5[var2];
+                var2 = undefined;
+                var5 = var6.bind(var2)(var5);
+                var2 = var5.shouldAgeVerifyForAgeGate;
+                var2 = var2.bind(var5)();
+                var2 = !var2;
+                if(!var2) { _fun0004_ip = 69; continue _fun0004 }
+ 53:
+                var3 = _closure1_slot7;
+                var3 = var3[var4];
+                if(var3) { _fun0004_ip = 66; continue _fun0004 }
+ 64:
+                var3 = false;
+ 66:
+                var2 = var3;
+ 69:
                 var1 = var2;
- 31:
+ 72:
                 return var1;
             }
         };
@@ -180,7 +193,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8 = var2.bind(var1)(var8);
     var2 = 'GuildNSFWAgreeStore';
     var8['displayName'] = var2;
-    var2 = 7;
+    var2 = 8;
     var2 = var6[var2];
     var12 = var7.bind(var1)(var2);
     var2 = {};
@@ -210,7 +223,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = var2;
     var2 = new var13[var8](var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

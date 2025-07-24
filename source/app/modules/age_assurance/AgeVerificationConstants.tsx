@@ -156,5 +156,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var3['getAgeVerificationGetStartedSteps'] = var2;
     var2 = 'AGE_VERIFICATION_MODAL_KEY';
     var3['AGE_VERIFICATION_MODAL_KEY'] = var2;
+    var2 = 'AGE_VERIFICATION_GET_STARTED_MODAL_KEY';
+    var3['AGE_VERIFICATION_GET_STARTED_MODAL_KEY'] = var2;
     return var1;
 })();

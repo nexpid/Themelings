@@ -49,7 +49,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = 'RETRY';
     var4['RETRY'] = var7;
     var _closure1_slot6 = var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -71,7 +71,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 8;
+                var1 = 9;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -121,15 +121,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = 5;
                     var12 = var9[var5];
                     var6 = undefined;
-                    var13 = var8.bind(var6)(var12);
-                    var12 = var13.getHeaderCloseButton;
-                    var12 = var12.bind(var13)(var7);
+                    var14 = var8.bind(var6)(var12);
+                    var13 = var14.getHeaderCloseButton;
+                    var12 = function() {
+                        var2 = _closure4_slot1;
+                        var1 = undefined;
+                        var2 = var2.bind(var1)();
+                        var3 = _closure1_slot1;
+                        var4 = _closure1_slot2;
+                        var2 = 6;
+                        var2 = var4[var2];
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.maybeOpenAgeVerificationUserFeedback;
+                        var2 = {'location': 'age_verification_get_started_modal', 'didStartVerification': false};
+                        var2 = var3.bind(var4)(var2);
+                        return var1;
+                    };
+                    var12 = var13.bind(var14)(var12);
                     var3['headerLeft'] = var12;
                     var12 = function render() {
                         var4 = _closure1_slot4;
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 6;
+                        var1 = 7;
                         var1 = var3[var1];
                         var3 = undefined;
                         var2 = var2.bind(var3)(var1);
@@ -161,7 +175,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = _closure1_slot4;
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 7;
+                        var1 = 8;
                         var1 = var3[var1];
                         var3 = undefined;
                         var2 = var2.bind(var3)(var1);
@@ -189,7 +203,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = function() {
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var3 = 9;
+                var3 = 10;
                 var2 = var8[var3];
                 var1 = undefined;
                 var6 = var7.bind(var1)(var2);
@@ -207,7 +221,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot4;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Navigator;
@@ -224,7 +238,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['initialRouteName'] = var6;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var5 = 11;
+            var5 = 12;
             var6 = var9[var5];
             var6 = var8.bind(var4)(var6);
             var7 = var6.intl;

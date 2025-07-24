@@ -21,9 +21,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = 7;
             var2 = var4[var2];
             var4 = undefined;
-            var7 = var7.bind(var4)(var2);
-            var2 = var7.useIsSwipeToMemberListEnabled;
-            var11 = var2.bind(var7)();
+            var11 = var7.bind(var4)(var2);
+            var7 = var11.useChannelDetailsHeaderExperimentV2Enabled;
+            var2 = 'channel-details';
+            var11 = var7.bind(var11)(var2);
             var7 = _closure1_slot4;
             var2 = var7.useState;
             var12 = var2.bind(var7)(var9);
@@ -54,54 +55,54 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var3 = new Array(0);
             var3 = var12.bind(var13)(var7, var3);
-            if(var2) { _fun0001_ip = 147; continue _fun0001 }
- 143:
+            if(var2) { _fun0001_ip = 154; continue _fun0001 }
+ 150:
             var2 = null;
             return var2;
- 147:
+ 154:
             var2 = _closure1_slot7;
             var2 = var2.RECENT;
-            if(!(var2 !== var10)) { _fun0001_ip = 767; continue _fun0001 }
- 164:
+            if(!(var2 !== var10)) { _fun0001_ip = 774; continue _fun0001 }
+ 171:
             var2 = _closure1_slot7;
             var2 = var2.PEOPLE;
-            if(!(var2 !== var10)) { _fun0001_ip = 723; continue _fun0001 }
- 181:
+            if(!(var2 !== var10)) { _fun0001_ip = 730; continue _fun0001 }
+ 188:
             var2 = _closure1_slot7;
             var2 = var2.MEMBERS;
-            if(!(var2 !== var10)) { _fun0001_ip = 679; continue _fun0001 }
- 198:
+            if(!(var2 !== var10)) { _fun0001_ip = 686; continue _fun0001 }
+ 205:
             var2 = _closure1_slot7;
             var2 = var2.GUILD_CHANNELS;
-            if(!(var2 !== var10)) { _fun0001_ip = 635; continue _fun0001 }
- 215:
+            if(!(var2 !== var10)) { _fun0001_ip = 642; continue _fun0001 }
+ 222:
             var2 = _closure1_slot7;
             var2 = var2.MEDIA;
-            if(!(var2 !== var10)) { _fun0001_ip = 581; continue _fun0001 }
- 232:
+            if(!(var2 !== var10)) { _fun0001_ip = 588; continue _fun0001 }
+ 239:
             var2 = _closure1_slot7;
             var2 = var2.FILES;
-            if(!(var2 !== var10)) { _fun0001_ip = 527; continue _fun0001 }
- 249:
+            if(!(var2 !== var10)) { _fun0001_ip = 534; continue _fun0001 }
+ 256:
             var2 = _closure1_slot7;
             var2 = var2.LINKS;
-            if(!(var2 !== var10)) { _fun0001_ip = 473; continue _fun0001 }
- 266:
+            if(!(var2 !== var10)) { _fun0001_ip = 480; continue _fun0001 }
+ 273:
             var2 = _closure1_slot7;
             var2 = var2.THREADS;
-            if(!(var2 !== var10)) { _fun0001_ip = 423; continue _fun0001 }
- 283:
+            if(!(var2 !== var10)) { _fun0001_ip = 430; continue _fun0001 }
+ 290:
             var2 = _closure1_slot7;
             var2 = var2.MESSAGES;
-            if(!(var2 !== var10)) { _fun0001_ip = 369; continue _fun0001 }
- 297:
+            if(!(var2 !== var10)) { _fun0001_ip = 376; continue _fun0001 }
+ 304:
             var2 = _closure1_slot7;
             var2 = var2.PINS;
-            if(!(var2 !== var10)) { _fun0001_ip = 315; continue _fun0001 }
- 311:
+            if(!(var2 !== var10)) { _fun0001_ip = 322; continue _fun0001 }
+ 318:
             var2 = null;
             return var2;
- 315:
+ 322:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -115,7 +116,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 369:
+ 376:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -129,7 +130,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 423:
+ 430:
             var7 = _closure1_slot8;
             var3 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -142,7 +143,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['showFloatingActionButton'] = var11;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 473:
+ 480:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -156,7 +157,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 527:
+ 534:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -170,7 +171,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 581:
+ 588:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -184,7 +185,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 635:
+ 642:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -196,7 +197,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 679:
+ 686:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -208,7 +209,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 723:
+ 730:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -220,7 +221,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 767:
+ 774:
             var3 = _closure1_slot8;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;

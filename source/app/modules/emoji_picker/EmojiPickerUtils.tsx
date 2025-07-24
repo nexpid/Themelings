@@ -1390,46 +1390,46 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var2.category;
             var11 = var2.subCategory;
             var1 = undefined;
-            if(!(var11 === var1)) { _fun0014_ip = 51; continue _fun0014 }
- 38:
+            if(!(var11 === var1)) { _fun0014_ip = 50; continue _fun0014 }
+ 37:
             var3 = _closure1_slot10;
             var11 = var3.NONE;
- 51:
+ 50:
             var8 = var2.position;
             var7 = var2.newlyAddedHighlight;
             var6 = var2.isBurstReaction;
             var3 = _closure1_slot17;
             var3 = var3.REACTION;
-            if(!(var3 !== var4)) { _fun0014_ip = 123; continue _fun0014 }
- 85:
+            if(!(var3 !== var4)) { _fun0014_ip = 122; continue _fun0014 }
+ 84:
             var3 = _closure1_slot17;
             var3 = var3.STATUS;
-            if(!(var3 !== var4)) { _fun0014_ip = 111; continue _fun0014 }
- 99:
+            if(!(var3 !== var4)) { _fun0014_ip = 110; continue _fun0014 }
+ 98:
             var3 = _closure1_slot19;
             var15 = var3.EMOJI_PICKER_EMOJI_CLICKED;
-            _fun0014_ip = 147; continue _fun0014;
- 111:
+            _fun0014_ip = 146; continue _fun0014;
+ 110:
             var3 = _closure1_slot19;
             var15 = var3.EMOJI_PICKER_STATUS_EMOJI_CLICKED;
-            _fun0014_ip = 147; continue _fun0014;
- 123:
+            _fun0014_ip = 146; continue _fun0014;
+ 122:
             var4 = _closure1_slot19;
-            if(var6) { _fun0014_ip = 138; continue _fun0014 }
- 130:
+            if(var6) { _fun0014_ip = 137; continue _fun0014 }
+ 129:
             var3 = var4.EMOJI_PICKER_REACTION_EMOJI_CLICKED;
-            _fun0014_ip = 144; continue _fun0014;
- 138:
+            _fun0014_ip = 143; continue _fun0014;
+ 137:
             var3 = var4.EMOJI_PICKER_SUPER_REACTION_EMOJI_CLICKED;
- 144:
+ 143:
             var15 = var3;
- 147:
+ 146:
             var13 = var12.uniqueName;
             var9 = null;
-            if(!(var9 == var13)) { _fun0014_ip = 164; continue _fun0014 }
- 159:
+            if(!(var9 == var13)) { _fun0014_ip = 163; continue _fun0014 }
+ 158:
             var13 = var12.name;
- 164:
+ 163:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 22;
@@ -1454,11 +1454,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['expression_picker_section'] = var10;
             var10 = var9 == var11;
             var9 = undefined;
-            if(var10) { _fun0014_ip = 285; continue _fun0014 }
- 276:
+            if(var10) { _fun0014_ip = 284; continue _fun0014 }
+ 275:
             var10 = var11.toString;
             var9 = var10.bind(var11)();
- 285:
+ 284:
             var2['expression_section'] = var9;
             var2['emoji_position'] = var8;
             var2['newly_added_highlight'] = var7;

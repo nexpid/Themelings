@@ -389,18 +389,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = global;
             var15 = var15.Boolean;
             var15 = var15.bind(var4)(var16);
-            if(!var15) { _fun0001_ip = 551; continue _fun0001 }
- 545:
+            if(!var15) { _fun0001_ip = 552; continue _fun0001 }
+ 546:
             var15 = var17.minHeightGuard;
- 551:
+ 552:
             var12[1] = var15;
             var6['style'] = var12;
-            if(var11) { _fun0001_ip = 631; continue _fun0001 }
- 562:
+            if(var11) { _fun0001_ip = 632; continue _fun0001 }
+ 563:
             var11 = var9 != var16;
             var9 = null;
-            if(!var11) { _fun0001_ip = 629; continue _fun0001 }
- 571:
+            if(!var11) { _fun0001_ip = 630; continue _fun0001 }
+ 572:
             var15 = _closure1_slot9;
             var12 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -415,9 +415,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11['variant'] = var17;
             var11['children'] = var16;
             var9 = var15.bind(var4)(var12, var11);
- 629:
-            _fun0001_ip = 721; continue _fun0001;
- 631:
+ 630:
+            _fun0001_ip = 722; continue _fun0001;
+ 632:
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
             var11 = var11[var14];
@@ -430,19 +430,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var14[var11];
             var11 = var13.bind(var4)(var11);
             var11 = var11.unsafe_rawColors;
-            if(var12) { _fun0001_ip = 695; continue _fun0001 }
- 687:
+            if(var12) { _fun0001_ip = 696; continue _fun0001 }
+ 688:
             var13 = var11.PRIMARY_500;
-            _fun0001_ip = 701; continue _fun0001;
- 695:
+            _fun0001_ip = 702; continue _fun0001;
+ 696:
             var13 = var11.WHITE_500;
- 701:
+ 702:
             var12 = _closure1_slot9;
             var11 = _closure1_slot5;
             var10 = {};
             var10['color'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 721:
+ 722:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

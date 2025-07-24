@@ -229,11 +229,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  251:
             var5 = _closure1_slot5;
             var5 = var5.isFetchingCurrentQuests;
-            if(var5) { _fun0003_ip = 1313; continue _fun0003 }
+            if(var5) { _fun0003_ip = 1314; continue _fun0003 }
  267:
-            if(!(var7 == var1)) { _fun0003_ip = 1104; continue _fun0003 }
+            if(!(var7 == var1)) { _fun0003_ip = 1105; continue _fun0003 }
  274:
-            if(!(var7 != var4)) { _fun0003_ip = 892; continue _fun0003 }
+            if(!(var7 != var4)) { _fun0003_ip = 893; continue _fun0003 }
  281:
             var1 = {};
             var1['themeColors'] = var2;
@@ -274,13 +274,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var10.isThemeDark;
             var10 = var1.bind(var10)(var11);
             var1 = _closure1_slot8;
-            if(var10) { _fun0003_ip = 455; continue _fun0003 }
- 447:
+            if(var10) { _fun0003_ip = 456; continue _fun0003 }
+ 448:
             var17 = var1.LIGHT;
-            _fun0003_ip = 461; continue _fun0003;
- 455:
+            _fun0003_ip = 462; continue _fun0003;
+ 456:
             var17 = var1.DARK;
- 461:
+ 462:
             var1 = _closure1_slot5;
             var1 = var1.questEnrollmentBlockedUntil;
             var7 = var7 != var1;
@@ -329,10 +329,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var24 = var11.bind(var13)(var10);
             var25 = var1;
             var10 = copyDataProperties(var25, var24);
-            if(var9) { _fun0003_ip = 760; continue _fun0003 }
- 687:
-            if(var6) { _fun0003_ip = 760; continue _fun0003 }
- 690:
+            if(var9) { _fun0003_ip = 761; continue _fun0003 }
+ 688:
+            if(var6) { _fun0003_ip = 761; continue _fun0003 }
+ 691:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
             var10 = var9[var14];
@@ -342,17 +342,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var9[var14];
             var9 = var12.bind(var13)(var9);
             var9 = var9.t;
-            if(var7) { _fun0003_ip = 747; continue _fun0003 }
- 734:
+            if(var7) { _fun0003_ip = 748; continue _fun0003 }
+ 735:
             var7 = var9.kUQLMD;
             var7 = var10.bind(var11)(var7);
-            _fun0003_ip = 758; continue _fun0003;
- 747:
+            _fun0003_ip = 759; continue _fun0003;
+ 748:
             var9 = var9.th2+0t;
             var7 = var10.bind(var11)(var9);
- 758:
-            _fun0003_ip = 831; continue _fun0003;
- 760:
+ 759:
+            _fun0003_ip = 832; continue _fun0003;
+ 761:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
             var10 = var9[var14];
@@ -362,17 +362,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var9[var14];
             var9 = var12.bind(var13)(var9);
             var9 = var9.t;
-            if(var6) { _fun0003_ip = 817; continue _fun0003 }
- 804:
+            if(var6) { _fun0003_ip = 818; continue _fun0003 }
+ 805:
             var6 = var9.th2+0t;
             var6 = var10.bind(var11)(var6);
-            _fun0003_ip = 828; continue _fun0003;
- 817:
+            _fun0003_ip = 829; continue _fun0003;
+ 818:
             var9 = var9.hvVgAQ;
             var6 = var10.bind(var11)(var9);
- 828:
+ 829:
             var7 = var6;
- 831:
+ 832:
             var6 = 'acceptLabelText';
             var1[var6] = var7;
             var6 = var5.acceptBlurpleLabelBackgroundColor;
@@ -385,8 +385,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = 8;
             var4 = 'thumbnailCornerRadius';
             var1[var4] = var5;
-            _fun0003_ip = 1099; continue _fun0003;
- 892:
+            _fun0003_ip = 1100; continue _fun0003;
+ 893:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var4 = 16;
@@ -431,9 +431,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var7.uri;
             var4['thumbnailUrl'] = var7;
             var1 = var5.bind(var6)(var4);
- 1099:
-            _fun0003_ip = 1311; continue _fun0003;
- 1104:
+ 1100:
+            _fun0003_ip = 1312; continue _fun0003;
+ 1105:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var4 = 16;
@@ -478,15 +478,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var7.uri;
             var4['thumbnailUrl'] = var7;
             var1 = var5.bind(var6)(var4);
- 1311:
-            _fun0003_ip = 1331; continue _fun0003;
- 1313:
+ 1312:
+            _fun0003_ip = 1332; continue _fun0003;
+ 1314:
             var4 = _closure1_slot11;
             var3 = {};
             var3['themeColors'] = var2;
             var2 = undefined;
             var1 = var4.bind(var2)(var3);
- 1331:
+ 1332:
             return var1;
         }
     };

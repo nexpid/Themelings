@@ -244,10 +244,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var1.id;
             var15 = var2.bind(var3)(var23, var1, var17);
             var20 = var13;
-            if(var13) { _fun0002_ip = 235; continue _fun0002 }
- 232:
+            if(var13) { _fun0002_ip = 236; continue _fun0002 }
+ 233:
             var20 = var12;
- 235:
+ 236:
             var3 = _closure1_slot7;
             var9 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -313,10 +313,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = null;
             var25 = var17 != var23;
             var18 = undefined;
-            if(!var25) { _fun0002_ip = 439; continue _fun0002 }
- 436:
+            if(!var25) { _fun0002_ip = 440; continue _fun0002 }
+ 437:
             var18 = var23;
- 439:
+ 440:
             var7['guildId'] = var18;
             var23 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -326,22 +326,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = var18.LARGE;
             var7['size'] = var18;
             var18 = var20;
-            if(!var20) { _fun0002_ip = 488; continue _fun0002 }
- 482:
+            if(!var20) { _fun0002_ip = 489; continue _fun0002 }
+ 483:
             var18 = var16.faded;
- 488:
+ 489:
             var7['style'] = var18;
             var9 = var14.bind(var4)(var9, var7);
             var7 = new Array(2);
             var7[0] = var9;
-            if(!var8) { _fun0002_ip = 530; continue _fun0002 }
- 509:
+            if(!var8) { _fun0002_ip = 531; continue _fun0002 }
+ 510:
             var18 = _closure1_slot6;
             var14 = _closure1_slot10;
             var9 = {};
             var9['rtsState'] = var19;
             var8 = var18.bind(var4)(var14, var9);
- 530:
+ 531:
             var7[1] = var8;
             var5['children'] = var7;
             var6 = var3.bind(var4)(var6, var5);
@@ -354,8 +354,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = new Array(1);
             var9[0] = var14;
             var6['style'] = var9;
-            if(!var13) { _fun0002_ip = 621; continue _fun0002 }
- 583:
+            if(!var13) { _fun0002_ip = 622; continue _fun0002 }
+ 584:
             var18 = _closure1_slot6;
             var14 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -365,11 +365,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var9.BlockedStatus;
             var9 = {};
             var13 = var18.bind(var4)(var14, var9);
- 621:
+ 622:
             var9 = new Array(4);
             var9[0] = var13;
-            if(!var12) { _fun0002_ip = 670; continue _fun0002 }
- 632:
+            if(!var12) { _fun0002_ip = 671; continue _fun0002 }
+ 633:
             var18 = _closure1_slot6;
             var14 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -379,7 +379,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var13.IgnoredStatus;
             var13 = {};
             var12 = var18.bind(var4)(var14, var13);
- 670:
+ 671:
             var9[1] = var12;
             var14 = _closure1_slot6;
             var13 = _closure1_slot0;
@@ -393,32 +393,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = new Array(3);
             var16[0] = var18;
             var18 = var10;
-            if(var10) { _fun0002_ip = 729; continue _fun0002 }
- 726:
+            if(var10) { _fun0002_ip = 730; continue _fun0002 }
+ 727:
             var18 = var20;
- 729:
-            if(!var18) { _fun0002_ip = 771; continue _fun0002 }
- 732:
+ 730:
+            if(!var18) { _fun0002_ip = 772; continue _fun0002 }
+ 733:
             var19 = {};
             var24 = 1;
             var23 = var24;
-            if(!var10) { _fun0002_ip = 752; continue _fun0002 }
- 743:
+            if(!var10) { _fun0002_ip = 753; continue _fun0002 }
+ 744:
             var23 = var24;
-            if(!var20) { _fun0002_ip = 752; continue _fun0002 }
- 749:
+            if(!var20) { _fun0002_ip = 753; continue _fun0002 }
+ 750:
             var23 = 2;
- 752:
+ 753:
             var20 = 18;
             var20 = var20 * var23;
             var20 = var22 - var20;
             var19['maxWidth'] = var20;
             var18 = var19;
- 771:
+ 772:
             var16[1] = var18;
             var17 = var17 != var21;
-            if(!var17) { _fun0002_ip = 864; continue _fun0002 }
- 782:
+            if(!var17) { _fun0002_ip = 865; continue _fun0002 }
+ 783:
             var18 = {};
             var20 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -433,16 +433,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = var22[var20];
             var20 = var21.bind(var4)(var20);
             var20 = var20.unsafe_rawColors;
-            if(var19) { _fun0002_ip = 851; continue _fun0002 }
- 843:
+            if(var19) { _fun0002_ip = 852; continue _fun0002 }
+ 844:
             var19 = var20.PRIMARY_860;
-            _fun0002_ip = 857; continue _fun0002;
- 851:
+            _fun0002_ip = 858; continue _fun0002;
+ 852:
             var19 = var20.WHITE_500;
- 857:
+ 858:
             var18['color'] = var19;
             var17 = var18;
- 864:
+ 865:
             var16[2] = var17;
             var12['style'] = var16;
             var16 = 1;
@@ -450,8 +450,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12['children'] = var15;
             var12 = var14.bind(var4)(var13, var12);
             var9[2] = var12;
-            if(!var10) { _fun0002_ip = 997; continue _fun0002 }
- 897:
+            if(!var10) { _fun0002_ip = 998; continue _fun0002 }
+ 898:
             var13 = _closure1_slot6;
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -475,7 +475,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var14.GUILD_BOOSTING_PINK;
             var11['color'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 997:
+ 998:
             var9[3] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

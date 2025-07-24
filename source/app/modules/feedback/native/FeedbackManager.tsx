@@ -96,7 +96,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var5.bind(var1)(var4);
     var4 = var4.FeedbackType;
     var _closure1_slot12 = var4;
-    var4 = 20;
+    var4 = 21;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -176,10 +176,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var3['BLOCK_USER_SHOW_FEEDBACK'] = var4;
-                var4 = function AGE_VERIFICATION_SHOW_FEEDBACK() {
-                    var2 = _closure3_slot0;
-                    var1 = var2.handleAgeVerificationFeedback;
-                    var1 = var1.bind(var2)();
+                var4 = function AGE_VERIFICATION_SHOW_FEEDBACK(arg1) {
+                    var3 = _closure3_slot0;
+                    var2 = var3.handleAgeVerificationFeedback;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
                     return var1;
                 };
                 var3['AGE_VERIFICATION_SHOW_FEEDBACK'] = var4;
@@ -560,7 +561,50 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var1['handleBlockUserFeedback'] = var3;
-                var2 = function() {
+                var2 = function(arg1) {
+                    var2 = arg1;
+                    var2 = var2.didStartVerification;
+                    var _closure4_slot0 = var2;
+                    var4 = _closure3_slot0;
+                    var3 = var4.possiblyShowFeedbackModal;
+                    var2 = _closure1_slot12;
+                    var2 = var2.AGE_VERIFICATION;
+                    var1 = function() {
+                        var4 = _closure1_slot0;
+                        var5 = _closure1_slot2;
+                        var1 = 12;
+                        var3 = var5[var1];
+                        var1 = undefined;
+                        var7 = var4.bind(var1)(var3);
+                        var3 = 20;
+                        var6 = var5[var3];
+                        var3 = var5.paths;
+                        var3 = var7.bind(var1)(var6, var3);
+                        var _closure5_slot0 = var3;
+                        var3 = 13;
+                        var3 = var5[var3];
+                        var4 = var4.bind(var1)(var3);
+                        var3 = var4.runAfterInteractions;
+                        var2 = function() {
+                            var3 = _closure1_slot1;
+                            var2 = _closure1_slot2;
+                            var1 = 14;
+                            var2 = var2[var1];
+                            var1 = undefined;
+                            var6 = var3.bind(var1)(var2);
+                            var5 = var6.openLazy;
+                            var4 = _closure5_slot0;
+                            var3 = {};
+                            var2 = _closure4_slot0;
+                            var3['didStartVerification'] = var2;
+                            var2 = 'AgeVerificationFeedback';
+                            var2 = var5.bind(var6)(var4, var2, var3);
+                            return var1;
+                        };
+                        var2 = var3.bind(var4)(var2);
+                        return var1;
+                    };
+                    var1 = var3.bind(var4)(var2, var1);
                     var1 = undefined;
                     return var1;
                 };
@@ -583,7 +627,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

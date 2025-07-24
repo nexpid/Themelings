@@ -567,8 +567,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var15 = var6.bind(var7)(var3, var5);
-            if(var2) { _fun0004_ip = 2839; continue _fun0004 }
- 456:
+            if(var2) { _fun0004_ip = 2840; continue _fun0004 }
+ 457:
             var5 = _closure1_slot21;
             var3 = _closure1_slot6;
             var2 = {};
@@ -648,10 +648,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = var16.TableSwitchRow;
             var17 = {};
             var16 = 'Light Theme';
-            if(!var12) { _fun0004_ip = 746; continue _fun0004 }
- 740:
+            if(!var12) { _fun0004_ip = 747; continue _fun0004 }
+ 741:
             var16 = '(using system theme)';
- 746:
+ 747:
             var17['label'] = var16;
             var17['disabled'] = var12;
             var22 = _closure1_slot20;
@@ -804,10 +804,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = {};
             var16 = 'Change to en-US';
             var23 = 'en-US';
-            if(!(var23 === var25)) { _fun0004_ip = 1208; continue _fun0004 }
- 1202:
+            if(!(var23 === var25)) { _fun0004_ip = 1209; continue _fun0004 }
+ 1203:
             var16 = 'Change to pt-BR';
- 1208:
+ 1209:
             var12['label'] = var16;
             var16 = 'Toggle to a non-english locale for change log testing, etc.';
             var12['subLabel'] = var16;
@@ -1046,8 +1046,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var15.isAndroid;
             var15 = var12.bind(var15)();
             var12 = null;
-            if(!var15) { _fun0004_ip = 2318; continue _fun0004 }
- 2205:
+            if(!var15) { _fun0004_ip = 2319; continue _fun0004 }
+ 2206:
             var16 = _closure1_slot20;
             var23 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -1078,7 +1078,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var13['onValueChange'] = var21;
             var12 = var16.bind(var4)(var15, var13);
- 2318:
+ 2319:
             var20[9] = var12;
             var13 = _closure1_slot20;
             var16 = _closure1_slot0;
@@ -1227,7 +1227,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 2839:
+ 2840:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 38;

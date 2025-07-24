@@ -89,14 +89,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var _closure4_slot0 = var3;
                         var4 = _closure2_slot2;
                         var4 = var4.current;
-                        if(!var4) { _fun0003_ip = 170; continue _fun0003 }
+                        if(!var4) { _fun0003_ip = 168; continue _fun0003 }
  27:
                         var3 = var3.data;
                         var3 = var3.action;
                         var4 = var3.type;
                         var3 = 'POP';
-                        if(!(var3 === var4)) { _fun0003_ip = 90; continue _fun0003 }
- 52:
+                        if(!(var3 === var4)) { _fun0003_ip = 88; continue _fun0003 }
+ 50:
                         var5 = _closure1_slot0;
                         var4 = _closure1_slot1;
                         var3 = 2;
@@ -105,12 +105,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5 = var5.bind(var3)(var4);
                         var4 = var5.isIOS;
                         var4 = var4.bind(var5)();
-                        if(var4) { _fun0003_ip = 142; continue _fun0003 }
- 90:
+                        if(var4) { _fun0003_ip = 140; continue _fun0003 }
+ 88:
                         var5 = _closure2_slot0;
                         var4 = null;
-                        if(!(var4 != var5)) { _fun0003_ip = 170; continue _fun0003 }
- 100:
+                        if(!(var4 != var5)) { _fun0003_ip = 168; continue _fun0003 }
+ 98:
                         var5 = _closure2_slot0;
                         var4 = {};
                         var6 = true;
@@ -131,18 +131,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4['goBack'] = var2;
                         var2 = undefined;
                         var2 = var5.bind(var2)(var4);
-                        _fun0003_ip = 170; continue _fun0003;
- 142:
+                        _fun0003_ip = 168; continue _fun0003;
+ 140:
                         var4 = _closure2_slot0;
                         var2 = null;
-                        if(!(var2 != var4)) { _fun0003_ip = 170; continue _fun0003 }
- 152:
+                        if(!(var2 != var4)) { _fun0003_ip = 168; continue _fun0003 }
+ 150:
                         var2 = _closure2_slot0;
                         var1 = {};
                         var4 = false;
                         var1['preventable'] = var4;
                         var1 = var2.bind(var3)(var1);
- 170:
+ 168:
                         var1 = undefined;
                         return var1;
                     }

@@ -25,7 +25,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['emojiDescriptionWrapper'] = var8;
     var8 = {'marginLeft': 4294967288, 'marginRight': 8};
     var2['emojiWrapper'] = var8;
-    var8 = {'width': 40, 'height': 40, 'marginRight': 12};
+    var8 = {'width': 40, 'height': 40, 'marginRight': 12, 'borderRadius': null, 'resizeMode': 'contain'};
     var9 = var6[var10];
     var9 = var11.bind(var1)(var9);
     var9 = var9.radii;

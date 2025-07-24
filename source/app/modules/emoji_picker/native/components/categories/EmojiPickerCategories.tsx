@@ -716,7 +716,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8[0] = var11;
             var12 = var9 != var19;
             var11 = null;
-            if(!var12) { _fun0001_ip = 1141; continue _fun0001 }
+            if(!var12) { _fun0001_ip = 1140; continue _fun0001 }
  1081:
             var16 = _closure1_slot9;
             var15 = _closure1_slot1;
@@ -732,12 +732,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var14.item;
             var12['style'] = var17;
             var11 = var16.bind(var4)(var15, var12);
- 1141:
+ 1140:
             var8[1] = var11;
             var11 = var9 != var13;
             var9 = null;
-            if(!var11) { _fun0001_ip = 1211; continue _fun0001 }
- 1154:
+            if(!var11) { _fun0001_ip = 1210; continue _fun0001 }
+ 1153:
             var12 = _closure1_slot9;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -751,7 +751,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['iconStyle'] = var14;
             var10['onBackspace'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 1211:
+ 1210:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

@@ -386,18 +386,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = null;
             var7 = var2 != var6;
             var5 = 50;
-            if(!var7) { _fun0007_ip = 69; continue _fun0007 }
- 66:
+            if(!var7) { _fun0007_ip = 71; continue _fun0007 }
+ 68:
             var5 = var6;
- 69:
+ 71:
             var1['midpointPercentage'] = var5;
             var5 = var4.angle;
             var6 = var2 != var5;
             var2 = 0;
-            if(!var6) { _fun0007_ip = 92; continue _fun0007 }
- 89:
+            if(!var6) { _fun0007_ip = 94; continue _fun0007 }
+ 91:
             var2 = var5;
- 92:
+ 94:
             var1['angle'] = var2;
             var5 = _closure1_slot7;
             var6 = var4.colors;
@@ -447,26 +447,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var1.LIGHT;
             var1 = 'light';
             var7 = var1;
-            if(!(var3 !== var5)) { _fun0008_ip = 91; continue _fun0008 }
- 32:
+            if(!(var3 !== var5)) { _fun0008_ip = 92; continue _fun0008 }
+ 33:
             var3 = _closure1_slot4;
             var3 = var3.DARK;
             var6 = 'darker';
             var7 = var6;
-            if(!(var3 !== var5)) { _fun0008_ip = 91; continue _fun0008 }
- 53:
+            if(!(var3 !== var5)) { _fun0008_ip = 92; continue _fun0008 }
+ 54:
             var3 = _closure1_slot4;
             var3 = var3.DARKER;
             var7 = var6;
-            if(!(var3 !== var5)) { _fun0008_ip = 91; continue _fun0008 }
- 70:
+            if(!(var3 !== var5)) { _fun0008_ip = 92; continue _fun0008 }
+ 71:
             var3 = _closure1_slot4;
             var3 = var3.MIDNIGHT;
             var7 = 'midnight';
-            if(!(var3 !== var5)) { _fun0008_ip = 91; continue _fun0008 }
- 88:
+            if(!(var3 !== var5)) { _fun0008_ip = 92; continue _fun0008 }
+ 89:
             var7 = var1;
- 91:
+ 92:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var1 = 6;

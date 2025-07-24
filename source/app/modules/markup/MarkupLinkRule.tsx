@@ -504,44 +504,53 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var4 = arg1;
-            var1 = _closure1_slot13;
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 5;
+            var1 = var5[var1];
             var6 = undefined;
+            var2 = var2.bind(var6)(var1);
+            var1 = var2.isSuspiciousCodedLink;
+            var1 = var1.bind(var2)(var4);
+            if(var1) { _fun0007_ip = 242; continue _fun0007 }
+ 45:
+            var1 = _closure1_slot13;
             var1 = var1.bind(var6)(var4);
             var1 = var1.whitespaceSanitized;
-            if(!(var1 === var4)) { _fun0007_ip = 201; continue _fun0007 }
- 30:
+            if(!(var1 === var4)) { _fun0007_ip = 238; continue _fun0007 }
+ 67:
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var7 = 5;
+            var7 = 6;
             var1 = var1[var7];
             var2 = var2.bind(var6)(var1);
             var1 = var2.toURLSafe;
             var1 = var1.bind(var2)(var4);
             var2 = null;
-            if(!(var2 != var1)) { _fun0007_ip = 197; continue _fun0007 }
- 70:
+            if(!(var2 != var1)) { _fun0007_ip = 234; continue _fun0007 }
+ 107:
             var5 = var1.protocol;
             var2 = 'http:';
-            if(!(var2 !== var5)) { _fun0007_ip = 98; continue _fun0007 }
- 84:
+            if(!(var2 !== var5)) { _fun0007_ip = 135; continue _fun0007 }
+ 121:
             var2 = var1.protocol;
             var1 = 'https:';
-            if(!(var1 === var2)) { _fun0007_ip = 193; continue _fun0007 }
- 98:
+            if(!(var1 === var2)) { _fun0007_ip = 230; continue _fun0007 }
+ 135:
             var2 = var4.split;
             var1 = '/';
             var5 = var2.bind(var4)(var1);
             var2 = var5.length;
             var1 = 3;
             var1 = var2 < var1;
-            if(var1) { _fun0007_ip = 191; continue _fun0007 }
- 127:
+            if(var1) { _fun0007_ip = 228; continue _fun0007 }
+ 164:
             var2 = 1;
             var4 = var5[var2];
             var2 = '';
             var2 = var2 !== var4;
-            if(var2) { _fun0007_ip = 188; continue _fun0007 }
- 145:
+            if(var2) { _fun0007_ip = 225; continue _fun0007 }
+ 182:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var3 = var3[var7];
@@ -552,17 +561,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var6.bind(var7)(var4);
             var3 = var5[var3];
             var2 = var4 !== var3;
- 188:
+ 225:
             var1 = var2;
- 191:
+ 228:
             return var1;
- 193:
+ 230:
             var1 = false;
             return var1;
- 197:
+ 234:
             var1 = true;
             return var1;
- 201:
+ 238:
+            var1 = true;
+            return var1;
+ 242:
             var1 = true;
             return var1;
         }
@@ -650,7 +662,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var5;
             var9 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var5 = 6;
+            var5 = 7;
             var5 = var8[var5];
             var10 = var9.bind(var7)(var5);
             var9 = var10.toASCII;
@@ -891,7 +903,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var6[13] = var10;
     var _closure1_slot10 = var6;
     var6 = {};
-    var10 = 7;
+    var10 = 8;
     var10 = var9[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.defaultRules;
@@ -908,7 +920,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  14:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 7;
+            var2 = 8;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
@@ -989,13 +1001,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = _closure1_slot17;
             var17 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var10 = 7;
+            var10 = 8;
             var5 = var7[var10];
             var19 = var17.bind(var2)(var5);
             var5 = var19.unescapeUrl;
             var5 = var5.bind(var19)(var21);
             var5 = var18.bind(var2)(var5);
-            var18 = 8;
+            var18 = 5;
             var7 = var7[var18];
             var7 = var17.bind(var2)(var7);
             var7 = var7.bind(var2)(var15);

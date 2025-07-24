@@ -483,14 +483,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var28 = null;
                 var3 = var28 != var1;
                 var14 = null;
-                if(!var3) { _fun0005_ip = 75; continue _fun0005 }
- 71:
+                if(!var3) { _fun0005_ip = 76; continue _fun0005 }
+ 72:
                 var14 = var2[var1];
- 75:
+ 76:
                 var1 = var28 != var14;
                 var18 = undefined;
-                if(!var1) { _fun0005_ip = 303; continue _fun0005 }
- 87:
+                if(!var1) { _fun0005_ip = 304; continue _fun0005 }
+ 88:
                 var3 = _closure1_slot14;
                 var2 = _closure1_slot8;
                 var1 = {};
@@ -537,11 +537,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5[1] = var7;
                 var1['children'] = var5;
                 var18 = var3.bind(var4)(var2, var1);
- 303:
+ 304:
                 var2 = var26.type;
                 var1 = 'youtube';
-                if(!(var1 !== var2)) { _fun0005_ip = 460; continue _fun0005 }
- 319:
+                if(!(var1 !== var2)) { _fun0005_ip = 461; continue _fun0005 }
+ 320:
                 var3 = var26.name;
                 var1 = global;
                 var1 = var1.HermesInternal;
@@ -571,15 +571,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var25.handleToggleEmotes;
                 var1['onPress'] = var8;
                 var11 = var7.bind(var4)(var5, var1);
-                _fun0005_ip = 564; continue _fun0005;
- 460:
+                _fun0005_ip = 565; continue _fun0005;
+ 461:
                 var1 = var26.account;
                 var2 = var28 == var1;
                 var3 = undefined;
-                if(var2) { _fun0005_ip = 480; continue _fun0005 }
- 475:
+                if(var2) { _fun0005_ip = 481; continue _fun0005 }
+ 476:
                 var3 = var1.name;
- 480:
+ 481:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var1 = 10;
@@ -598,7 +598,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var30 = var1.7lNtcX;
                 var21 = var3;
                 var11 = undefined;
- 564:
+ 565:
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 18;
@@ -609,8 +609,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var2.bind(var3)(var1);
                 var1 = var28 != var9;
                 var20 = null;
-                if(!var1) { _fun0005_ip = 714; continue _fun0005 }
- 608:
+                if(!var1) { _fun0005_ip = 715; continue _fun0005 }
+ 609:
                 var3 = _closure1_slot13;
                 var2 = _closure1_slot9;
                 var1 = {};
@@ -626,19 +626,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var10.isThemeDark;
                 var5 = var5.bind(var10)(var12);
                 var9 = var9.icon;
-                if(var5) { _fun0005_ip = 683; continue _fun0005 }
- 675:
+                if(var5) { _fun0005_ip = 684; continue _fun0005 }
+ 676:
                 var5 = var9.lightPNG;
-                _fun0005_ip = 689; continue _fun0005;
- 683:
+                _fun0005_ip = 690; continue _fun0005;
+ 684:
                 var5 = var9.darkPNG;
- 689:
+ 690:
                 var5 = var7.bind(var8)(var5);
                 var1['source'] = var5;
                 var5 = var29.integrationIcon;
                 var1['style'] = var5;
                 var20 = var3.bind(var4)(var2, var1);
- 714:
+ 715:
                 var1 = function getSubGracePeriodOptions() {
                     var3 = [1, 3, 7, 14, 30];
                     var2 = var3.map;
@@ -707,11 +707,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var32 = var26.user;
                 var31 = var28 == var32;
                 var29 = undefined;
-                if(var31) { _fun0005_ip = 898; continue _fun0005 }
- 889:
+                if(var31) { _fun0005_ip = 899; continue _fun0005 }
+ 890:
                 var31 = var32.toString;
                 var29 = var31.bind(var32)();
- 898:
+ 899:
                 var22['text'] = var29;
                 var22 = var24.bind(var4)(var23, var22);
                 var13['label'] = var22;
@@ -779,10 +779,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var22 = {};
                 var29 = var26.syncing;
                 var28 = var28 != var29;
-                if(!var28) { _fun0005_ip = 1215; continue _fun0005 }
- 1212:
+                if(!var28) { _fun0005_ip = 1216; continue _fun0005 }
+ 1213:
                 var28 = var29;
- 1215:
+ 1216:
                 var22['isSyncing'] = var28;
                 var25 = var25.handleSync;
                 var22['onPress'] = var25;
@@ -1054,15 +1054,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  187:
             var3 = var4 == var10;
             var1 = null;
-            if(var3) { _fun0006_ip = 258; continue _fun0006 }
+            if(var3) { _fun0006_ip = 259; continue _fun0006 }
  196:
             var3 = var4 == var8;
             var1 = null;
-            if(var3) { _fun0006_ip = 258; continue _fun0006 }
+            if(var3) { _fun0006_ip = 259; continue _fun0006 }
  205:
             var3 = var4 == var9;
             var1 = null;
-            if(var3) { _fun0006_ip = 258; continue _fun0006 }
+            if(var3) { _fun0006_ip = 259; continue _fun0006 }
  214:
             var4 = _closure1_slot13;
             var3 = _closure1_slot17;
@@ -1074,7 +1074,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['theme'] = var7;
             var2['contentContainerStyle'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 258:
+ 259:
             return var1;
         }
     };

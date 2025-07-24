@@ -84,7 +84,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var8 = undefined;
                     var1 = arg2;
                     var1 = var3.bind(var8)(var5, var1);
-                    if(!var1) { _fun0001_ip = 226; continue _fun0001 }
+                    if(!var1) { _fun0001_ip = 222; continue _fun0001 }
  27:
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot1;
@@ -126,7 +126,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = var6.bind(var7)(var5);
                     var2['shouldRestrictUpdatingRoleSubscriptionSettings'] = var5;
                     var1 = var3.bind(var4)(var2);
- 226:
+ 222:
                     return var1;
                 }
             };

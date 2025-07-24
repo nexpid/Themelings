@@ -738,26 +738,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var31.isAndroid;
             var31 = var12.bind(var31)();
             var12 = var29;
-            if(!var31) { _fun0005_ip = 1020; continue _fun0005 }
- 971:
+            if(!var31) { _fun0005_ip = 1021; continue _fun0005 }
+ 972:
             var12 = var29;
-            if(var28) { _fun0005_ip = 1020; continue _fun0005 }
- 977:
-            if(!var27) { _fun0005_ip = 992; continue _fun0005 }
- 980:
+            if(var28) { _fun0005_ip = 1021; continue _fun0005 }
+ 978:
+            if(!var27) { _fun0005_ip = 993; continue _fun0005 }
+ 981:
             var12 = var29;
-            if(var15) { _fun0005_ip = 1020; continue _fun0005 }
- 986:
+            if(var15) { _fun0005_ip = 1021; continue _fun0005 }
+ 987:
             var12 = var29;
-            if(var14) { _fun0005_ip = 1020; continue _fun0005 }
- 992:
+            if(var14) { _fun0005_ip = 1021; continue _fun0005 }
+ 993:
             var28 = _closure1_slot0;
             var27 = _closure1_slot2;
             var27 = var27[var30];
             var28 = var28.bind(var6)(var27);
             var27 = var28.filterGPlaySyncedCategories;
             var12 = var27.bind(var28)(var29);
- 1020:
+ 1021:
             var23 = var23.bind(var26)(var22, var12);
             _closure2_slot8 = var23;
             var27 = _closure1_slot0;
@@ -837,37 +837,37 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var24 = var27.bind(var28)(var24, var26);
             var24 = var19 == var1;
             var1 = null;
-            if(var24) { _fun0005_ip = 1807; continue _fun0005 }
- 1197:
+            if(var24) { _fun0005_ip = 1808; continue _fun0005 }
+ 1198:
             var24 = var23.length;
-            if(!(var9 !== var24)) { _fun0005_ip = 1222; continue _fun0005 }
- 1206:
-            if(var18) { _fun0005_ip = 1222; continue _fun0005 }
- 1209:
-            if(!(var19 != var21)) { _fun0005_ip = 1240; continue _fun0005 }
- 1213:
+            if(!(var9 !== var24)) { _fun0005_ip = 1223; continue _fun0005 }
+ 1207:
+            if(var18) { _fun0005_ip = 1223; continue _fun0005 }
+ 1210:
+            if(!(var19 != var21)) { _fun0005_ip = 1241; continue _fun0005 }
+ 1214:
             var18 = var21.length;
-            if(!(var9 === var18)) { _fun0005_ip = 1240; continue _fun0005 }
- 1222:
-            if(var14) { _fun0005_ip = 1770; continue _fun0005 }
- 1228:
-            if(var15) { _fun0005_ip = 1770; continue _fun0005 }
- 1234:
-            if(var11) { _fun0005_ip = 1770; continue _fun0005 }
- 1240:
+            if(!(var9 === var18)) { _fun0005_ip = 1241; continue _fun0005 }
+ 1223:
+            if(var14) { _fun0005_ip = 1771; continue _fun0005 }
+ 1229:
+            if(var15) { _fun0005_ip = 1771; continue _fun0005 }
+ 1235:
+            if(var11) { _fun0005_ip = 1771; continue _fun0005 }
+ 1241:
             var4 = var4 > var9;
-            if(!var4) { _fun0005_ip = 1253; continue _fun0005 }
- 1247:
+            if(!var4) { _fun0005_ip = 1254; continue _fun0005 }
+ 1248:
             var11 = false;
             var4 = var11 === var14;
- 1253:
-            if(!var4) { _fun0005_ip = 1265; continue _fun0005 }
- 1256:
+ 1254:
+            if(!var4) { _fun0005_ip = 1266; continue _fun0005 }
+ 1257:
             var5 = var5.size;
             var4 = var9 === var5;
- 1265:
-            if(!var4) { _fun0005_ip = 1305; continue _fun0005 }
- 1268:
+ 1266:
+            if(!var4) { _fun0005_ip = 1306; continue _fun0005 }
+ 1269:
             var5 = _closure1_slot1;
             var9 = _closure1_slot2;
             var4 = 44;
@@ -876,9 +876,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var9.captureMessage;
             var4 = 'collectibles mobile shop loaded empty categories';
             var4 = var5.bind(var9)(var4);
- 1305:
-            if(!(var19 !== var10)) { _fun0005_ip = 1350; continue _fun0005 }
- 1309:
+ 1306:
+            if(!(var19 !== var10)) { _fun0005_ip = 1351; continue _fun0005 }
+ 1310:
             var5 = _closure1_slot1;
             var9 = _closure1_slot2;
             var4 = 44;
@@ -888,7 +888,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = 'collectibles mobile shop failed to fetch google sku ids: ';
             var4 = var4 + var10;
             var4 = var5.bind(var9)(var4);
- 1350:
+ 1351:
             var5 = _closure1_slot17;
             var15 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -946,12 +946,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = new Array(0);
             var14['skuIDs'] = var18;
             var14['activeSubscription'] = var19;
-            if(!var16) { _fun0005_ip = 1605; continue _fun0005 }
- 1591:
+            if(!var16) { _fun0005_ip = 1606; continue _fun0005 }
+ 1592:
             var16 = _closure1_slot12;
             var16 = var16.SHOP_ALL;
-            if(!(var17 === var16)) { _fun0005_ip = 1656; continue _fun0005 }
- 1605:
+            if(!(var17 === var16)) { _fun0005_ip = 1657; continue _fun0005 }
+ 1606:
             var18 = _closure1_slot17;
             var17 = _closure1_slot21;
             var16 = {};
@@ -979,14 +979,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16['renderItem'] = var23;
             var23 = var19 != var22;
             var19 = undefined;
-            if(!var23) { _fun0005_ip = 1643; continue _fun0005 }
- 1640:
+            if(!var23) { _fun0005_ip = 1644; continue _fun0005 }
+ 1641:
             var19 = var22;
- 1643:
+ 1644:
             var16['initialScrollIndex'] = var19;
             var16 = var18.bind(var6)(var17, var16);
-            _fun0005_ip = 1688; continue _fun0005;
- 1656:
+            _fun0005_ip = 1689; continue _fun0005;
+ 1657:
             var19 = _closure1_slot17;
             var18 = _closure1_slot21;
             var17 = {};
@@ -1029,7 +1029,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var17['renderItem'] = var20;
             var16 = var19.bind(var6)(var18, var17);
- 1688:
+ 1689:
             var14['children'] = var16;
             var14 = var5.bind(var6)(var15, var14);
             var12['children'] = var14;
@@ -1048,8 +1048,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var10.bind(var6)(var9, var8);
             var2['children'] = var8;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0005_ip = 1804; continue _fun0005;
- 1770:
+            _fun0005_ip = 1805; continue _fun0005;
+ 1771:
             var5 = _closure1_slot17;
             var4 = _closure1_slot5;
             var3 = {};
@@ -1058,9 +1058,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = 'large';
             var3['size'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 1804:
+ 1805:
             var1 = var2;
- 1807:
+ 1808:
             return var1;
         }
     };

@@ -5,8 +5,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var3 = native6;
     var6 = native7;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -39,33 +38,33 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot17 = var2;
+            _closure1_slot16 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot16 = var1;
     var1 = function getOrCreateSearchState(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var2 = arg1;
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot11;
             var4 = var3[var2];
             var3 = null;
             if(!(var3 == var4)) { _fun0002_ip = 48; continue _fun0002 }
  20:
-            var4 = _closure1_slot12;
-            var3 = {'searchId': null, 'isIndexing': false, 'isHistoricalIndexing': false, 'isSearching': false, 'analyticsId': null, 'editorState': null, 'offset': 0, 'query': null, 'hasError': false, 'rawResults': null, 'totalResults': 0, 'documentsIndexed': 0, 'resultsBlocked': 0, 'showBlockedResults': false, 'showNoResultsAlt': false, 'searchResultsQueryString': null, 'searchResultsQuery': null};
+            var4 = _closure1_slot11;
+            var3 = {'searchId': null, 'editorState': null, 'showBlockedResults': false, 'showNoResultsAlt': false, 'searchResultsQueryString': null, 'searchResultsQuery': null, 'searchResultsOffset': null};
             var3['searchId'] = var2;
             var4[var2] = var3;
  48:
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot11;
             var1 = var1[var2];
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot17 = var1;
     var1 = function withSearchState(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -79,7 +78,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = null;
             if(!(var3 != var4)) { _fun0003_ip = 48; continue _fun0003 }
  20:
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot11;
             var4 = var2[var4];
             var2 = var1;
             if(!(var3 != var4)) { _fun0003_ip = 46; continue _fun0003 }
@@ -92,29 +91,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot18 = var1;
     var1 = function setCurrentSearchId(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var2 = arg1;
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             if(!(var2 !== var3)) { _fun0004_ip = 57; continue _fun0004 }
  14:
             var5 = null;
             var3 = var5 != var2;
             if(!var3) { _fun0004_ip = 35; continue _fun0004 }
  23:
-            var4 = _closure1_slot12;
+            var4 = _closure1_slot11;
             var4 = var4[var2];
             var3 = var5 == var4;
  35:
             if(!var3) { _fun0004_ip = 49; continue _fun0004 }
  38:
-            var4 = _closure1_slot18;
+            var4 = _closure1_slot17;
             var3 = undefined;
             var3 = var4.bind(var3)(var2);
  49:
-            _closure1_slot16 = var2;
+            _closure1_slot15 = var2;
             var1 = undefined;
             return var1;
  57:
@@ -122,7 +121,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -135,50 +134,50 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var6[var1];
     var1 = undefined;
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot3 = var2;
+    var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot4 = var2;
+    var _closure1_slot3 = var2;
     var2 = 2;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot5 = var2;
+    var _closure1_slot4 = var2;
     var2 = 3;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot6 = var2;
+    var _closure1_slot5 = var2;
     var2 = 4;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot7 = var2;
+    var _closure1_slot6 = var2;
     var2 = 5;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot8 = var2;
+    var _closure1_slot7 = var2;
     var2 = 6;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot9 = var2;
+    var _closure1_slot8 = var2;
     var2 = 7;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot10 = var2;
+    var _closure1_slot9 = var2;
     var2 = 8;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.SearchTypes;
+    var _closure1_slot10 = var2;
+    var2 = {};
     var _closure1_slot11 = var2;
-    var2 = {};
-    var _closure1_slot12 = var2;
     var2 = false;
+    var _closure1_slot12 = var2;
     var _closure1_slot13 = var2;
-    var _closure1_slot14 = var2;
     var2 = {};
-    var _closure1_slot15 = var2;
+    var _closure1_slot14 = var2;
     var2 = null;
-    var _closure1_slot16 = var2;
-    var2 = 13;
+    var _closure1_slot15 = var2;
+    var2 = 12;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
@@ -189,13 +188,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
-                var1 = _closure1_slot3;
+                var1 = _closure1_slot2;
                 var2 = _closure2_slot0;
                 var1 = var1.bind(var3)(var4, var2);
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
-                var2 = _closure1_slot5;
-                var1 = _closure1_slot17;
+                var2 = _closure1_slot4;
+                var1 = _closure1_slot16;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0005_ip = 69; continue _fun0005 }
  51:
@@ -208,7 +207,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
-                var6 = _closure1_slot6;
+                var6 = _closure1_slot5;
                 var6 = var6.bind(var3)(var4);
                 var6 = var6.constructor;
                 var5 = arguments;
@@ -219,11 +218,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var _closure2_slot0 = var4;
-        var5 = _closure1_slot7;
+        var5 = _closure1_slot6;
         var3 = undefined;
         var2 = arg1;
         var2 = var5.bind(var3)(var4, var2);
-        var2 = _closure1_slot4;
+        var2 = _closure1_slot3;
         var5 = {};
         var1 = 'initialize';
         var5['key'] = var1;
@@ -232,13 +231,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                 var6 = this;
                 var5 = var6.waitFor;
-                var4 = _closure1_slot10;
-                var2 = _closure1_slot9;
-                var1 = _closure1_slot8;
+                var4 = _closure1_slot9;
+                var2 = _closure1_slot8;
+                var1 = _closure1_slot7;
                 var1 = var5.bind(var6)(var4, var2, var1);
                 var4 = _closure1_slot0;
-                var1 = _closure1_slot2;
-                var5 = 10;
+                var1 = _closure1_slot1;
+                var5 = 9;
                 var2 = var1[var5];
                 var1 = undefined;
                 var2 = var4.bind(var1)(var2);
@@ -323,10 +322,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var4 = var4.bind(var1)(var2);
-                _closure1_slot15 = var2;
+                _closure1_slot14 = var2;
  118:
                 var4 = _closure1_slot0;
-                var2 = _closure1_slot2;
+                var2 = _closure1_slot1;
                 var2 = var2[var5];
                 var2 = var4.bind(var1)(var2);
                 var5 = var2.Storage;
@@ -339,258 +338,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  166:
                 var2 = false;
  168:
-                _closure1_slot13 = var2;
+                _closure1_slot12 = var2;
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(23);
+        var1 = new Array(11);
         var1[0] = var5;
         var5 = {};
         var7 = 'getCurrentSearchId';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot16;
+            var1 = _closure1_slot15;
             return var1;
         };
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
-        var7 = 'isActive';
+        var7 = 'isTokenized';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
-                var5 = arguments[0];
-                var4 = this;
-                var1 = undefined;
-                if(!(var5 === var1)) { _fun0009_ip = 19; continue _fun0009 }
- 12:
-                var5 = _closure1_slot16;
- 19:
-                var1 = null;
-                var1 = var1 != var5;
-                if(!var1) { _fun0009_ip = 72; continue _fun0009 }
- 28:
-                var2 = var4.isIndexing;
-                var2 = var2.bind(var4)(var5);
-                if(var2) { _fun0009_ip = 53; continue _fun0009 }
- 42:
-                var3 = var4.isSearching;
-                var2 = var3.bind(var4)(var5);
- 53:
-                if(var2) { _fun0009_ip = 69; continue _fun0009 }
- 56:
-                var3 = var4.hasResults;
-                var2 = var3.bind(var4)(var5);
- 69:
-                var1 = var2;
- 72:
-                return var1;
-            }
+            var1 = _closure1_slot12;
+            return var1;
         };
         var5['value'] = var7;
         var1[2] = var5;
         var5 = {};
-        var7 = 'isTokenized';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot13;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[3] = var5;
-        var5 = {};
-        var7 = 'getRawResults';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            var4 = _closure1_slot19;
-            var3 = undefined;
-            var2 = arg1;
-            var1 = function(arg1) {
-                var1 = arg1;
-                var1 = var1.rawResults;
-                return var1;
-            };
-            var1 = var4.bind(var3)(var2, var1);
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[4] = var5;
-        var5 = {};
-        var7 = 'hasResults';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            var4 = _closure1_slot19;
-            var3 = undefined;
-            var2 = arg1;
-            var1 = function(arg1) {
-                var1 = arg1;
-                var1 = var1.rawResults;
-                return var1;
-            };
-            var2 = var4.bind(var3)(var2, var1);
-            var1 = null;
-            var1 = var1 != var2;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[5] = var5;
-        var5 = {};
-        var7 = 'isIndexing';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
- 0:
-                var4 = _closure1_slot19;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = function(arg1) {
-                    var1 = arg1;
-                    var1 = var1.isIndexing;
-                    return var1;
-                };
-                var1 = var4.bind(var3)(var2, var1);
-                if(var1) { _fun0010_ip = 30; continue _fun0010 }
- 28:
-                var1 = false;
- 30:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[6] = var5;
-        var5 = {};
-        var7 = 'isHistoricalIndexing';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
- 0:
-                var4 = _closure1_slot19;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = function(arg1) {
-                    var1 = arg1;
-                    var1 = var1.isHistoricalIndexing;
-                    return var1;
-                };
-                var1 = var4.bind(var3)(var2, var1);
-                if(var1) { _fun0011_ip = 30; continue _fun0011 }
- 28:
-                var1 = false;
- 30:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[7] = var5;
-        var5 = {};
-        var7 = 'isSearching';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
- 0:
-                var4 = _closure1_slot19;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = function(arg1) {
-                    var1 = arg1;
-                    var1 = var1.isSearching;
-                    return var1;
-                };
-                var1 = var4.bind(var3)(var2, var1);
-                if(var1) { _fun0012_ip = 30; continue _fun0012 }
- 28:
-                var1 = false;
- 30:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[8] = var5;
-        var5 = {};
-        var7 = 'getAnalyticsId';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            var4 = _closure1_slot19;
-            var3 = undefined;
-            var2 = arg1;
-            var1 = function(arg1) {
-                var1 = arg1;
-                var1 = var1.analyticsId;
-                return var1;
-            };
-            var1 = var4.bind(var3)(var2, var1);
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[9] = var5;
-        var5 = {};
-        var7 = 'getResultsBlocked';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            var4 = _closure1_slot19;
-            var3 = undefined;
-            var2 = arg1;
-            var1 = function(arg1) {
-                var1 = arg1;
-                var1 = var1.resultsBlocked;
-                return var1;
-            };
-            var1 = var4.bind(var3)(var2, var1);
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[10] = var5;
-        var5 = {};
-        var7 = 'getDocumentsIndexedCount';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            var4 = _closure1_slot19;
-            var3 = undefined;
-            var2 = arg1;
-            var1 = function(arg1) {
-                var1 = arg1;
-                var1 = var1.documentsIndexed;
-                return var1;
-            };
-            var1 = var4.bind(var3)(var2, var1);
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[11] = var5;
-        var5 = {};
-        var7 = 'getTotalResults';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
- 0:
-                var4 = _closure1_slot19;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = function(arg1) {
-                    var1 = arg1;
-                    var1 = var1.totalResults;
-                    return var1;
-                };
-                var2 = var4.bind(var3)(var2, var1);
-                var1 = null;
-                var3 = var1 != var2;
-                var1 = 0;
-                if(!var3) { _fun0013_ip = 39; continue _fun0013 }
- 36:
-                var1 = var2;
- 39:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[12] = var5;
-        var5 = {};
         var7 = 'getEditorState';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot18;
             var3 = undefined;
             var2 = arg1;
             var1 = function(arg1) {
@@ -602,95 +379,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getHistory';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot14;
             var1 = arg1;
             var1 = var2[var1];
             return var1;
         };
         var5['value'] = var7;
-        var1[14] = var5;
-        var5 = {};
-        var7 = 'getOffset';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
- 0:
-                var4 = _closure1_slot19;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = function(arg1) {
-                    var1 = arg1;
-                    var1 = var1.offset;
-                    return var1;
-                };
-                var2 = var4.bind(var3)(var2, var1);
-                var1 = null;
-                var3 = var1 != var2;
-                var1 = 0;
-                if(!var3) { _fun0014_ip = 39; continue _fun0014 }
- 36:
-                var1 = var2;
- 39:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[15] = var5;
-        var5 = {};
-        var7 = 'getQuery';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            var4 = _closure1_slot19;
-            var3 = undefined;
-            var2 = arg1;
-            var1 = function(arg1) {
-                var1 = arg1;
-                var1 = var1.query;
-                return var1;
-            };
-            var1 = var4.bind(var3)(var2, var1);
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[16] = var5;
-        var5 = {};
-        var7 = 'hasError';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
- 0:
-                var4 = _closure1_slot19;
-                var3 = undefined;
-                var2 = arg1;
-                var1 = function(arg1) {
-                    var1 = arg1;
-                    var1 = var1.hasError;
-                    return var1;
-                };
-                var2 = var4.bind(var3)(var2, var1);
-                var1 = null;
-                var1 = var1 != var2;
-                if(!var1) { _fun0015_ip = 37; continue _fun0015 }
- 34:
-                var1 = var2;
- 37:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[17] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'shouldShowBlockedResults';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                var5 = _closure1_slot19;
+                var5 = _closure1_slot18;
                 var4 = undefined;
                 var3 = arg1;
                 var2 = function(arg1) {
@@ -702,7 +409,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var5.bind(var4)(var3, var2, var1);
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0016_ip = 40; continue _fun0016 }
+                if(!var1) { _fun0009_ip = 40; continue _fun0009 }
  37:
                 var1 = var2;
  40:
@@ -710,14 +417,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'shouldShowNoResultsAlt';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                var5 = _closure1_slot19;
+                var5 = _closure1_slot18;
                 var4 = undefined;
                 var3 = arg1;
                 var2 = function(arg1) {
@@ -729,7 +436,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var5.bind(var4)(var3, var2, var1);
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0017_ip = 40; continue _fun0017 }
+                if(!var1) { _fun0010_ip = 40; continue _fun0010 }
  37:
                 var1 = var2;
  40:
@@ -737,12 +444,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var7;
-        var1[19] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getSearchResultsQueryString';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot18;
             var3 = undefined;
             var2 = arg1;
             var1 = function(arg1) {
@@ -754,12 +461,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getSearchResultsQuery';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot18;
             var3 = undefined;
             var2 = arg1;
             var1 = function(arg1) {
@@ -771,83 +478,82 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[8] = var5;
         var5 = {};
-        var7 = 'getResultsState';
+        var7 = 'getSearchResultsOffset';
         var5['key'] = var7;
-        var6 = function value(arg1) {
-            var4 = arg1;
-            var3 = this;
-            var1 = {};
-            var2 = var3.isSearching;
-            var2 = var2.bind(var3)(var4);
-            var1['isSearching'] = var2;
-            var2 = var3.isIndexing;
-            var2 = var2.bind(var3)(var4);
-            var1['isIndexing'] = var2;
-            var2 = var3.isHistoricalIndexing;
-            var2 = var2.bind(var3)(var4);
-            var1['isHistoricalIndexing'] = var2;
-            var2 = var3.getDocumentsIndexedCount;
-            var2 = var2.bind(var3)(var4);
-            var1['documentsIndexed'] = var2;
-            var2 = var3.getOffset;
-            var2 = var2.bind(var3)(var4);
-            var1['offset'] = var2;
-            var2 = var3.getTotalResults;
-            var2 = var2.bind(var3)(var4);
-            var1['totalResults'] = var2;
-            var2 = var3.hasError;
-            var2 = var2.bind(var3)(var4);
-            var1['hasError'] = var2;
-            var2 = var3.shouldShowBlockedResults;
-            var2 = var2.bind(var3)(var4);
-            var1['showBlockedResults'] = var2;
-            var2 = var3.shouldShowNoResultsAlt;
-            var2 = var2.bind(var3)(var4);
-            var1['showNoResultsAlt'] = var2;
+        var7 = function value(arg1) {
+            var4 = _closure1_slot18;
+            var3 = undefined;
+            var2 = arg1;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.searchResultsOffset;
+                return var1;
+            };
+            var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
+        var5['value'] = var7;
+        var1[9] = var5;
+        var5 = {};
+        var7 = 'hasSearchState';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+ 0:
+                var4 = arg1;
+                var3 = null;
+                var1 = var3 != var4;
+                if(!var1) { _fun0011_ip = 27; continue _fun0011 }
+ 12:
+                var2 = _closure1_slot11;
+                var2 = var2[var4];
+                var1 = var3 != var2;
+ 27:
+                return var1;
+            }
+        };
         var5['value'] = var6;
-        var1[22] = var5;
+        var1[10] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
     var8 = var2.bind(var1)(var8);
     var2 = 'SearchStore';
     var8['displayName'] = var2;
-    var2 = 14;
+    var2 = 13;
     var2 = var6[var2];
     var12 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function handleConnectionOpen() {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var2 = true;
-            _closure1_slot14 = var2;
-            var3 = _closure1_slot16;
+            _closure1_slot13 = var2;
+            var3 = _closure1_slot15;
             var2 = null;
             var2 = var2 != var3;
-            if(!var2) { _fun0018_ip = 73; continue _fun0018 }
+            if(!var2) { _fun0012_ip = 73; continue _fun0012 }
  22:
             var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var3 = 11;
+            var4 = _closure1_slot1;
+            var3 = 10;
             var4 = var4[var3];
             var3 = undefined;
             var5 = var5.bind(var3)(var4);
             var4 = var5.getSearchType;
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot15;
             var4 = var4.bind(var5)(var3);
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot10;
             var3 = var3.CHANNEL;
             var2 = var4 === var3;
  73:
-            if(!var2) { _fun0018_ip = 121; continue _fun0018 }
+            if(!var2) { _fun0012_ip = 121; continue _fun0012 }
  76:
             var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var3 = 12;
+            var4 = _closure1_slot1;
+            var3 = 11;
             var4 = var4[var3];
             var3 = undefined;
             var5 = var5.bind(var3)(var4);
@@ -857,10 +563,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['location'] = var6;
             var2 = var4.bind(var5)(var3);
  121:
-            if(!var2) { _fun0018_ip = 145; continue _fun0018 }
+            if(!var2) { _fun0012_ip = 145; continue _fun0012 }
  124:
-            var3 = _closure1_slot20;
-            var1 = _closure1_slot11;
+            var3 = _closure1_slot19;
+            var1 = _closure1_slot10;
             var2 = var1.DMS;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
@@ -870,146 +576,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var2['CONNECTION_OPEN'] = var9;
-    var9 = function handleSearchStart(arg1) {
-        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
- 0:
-            var1 = arg1;
-            var3 = var1.queryString;
-            var4 = var1.searchId;
-            var5 = var1.query;
-            var2 = _closure1_slot18;
-            var1 = undefined;
-            var2 = var2.bind(var1)(var4);
-            var4 = true;
-            var2['isSearching'] = var4;
-            var4 = null;
-            var2['rawResults'] = var4;
-            var2['analyticsId'] = var4;
-            var7 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var6 = 9;
-            var6 = var8[var6];
-            var8 = var7.bind(var1)(var6);
-            var7 = var8.omit;
-            var6 = 'type';
-            var6 = var7.bind(var8)(var5, var6);
-            var2['query'] = var6;
-            var5 = var5.offset;
-            var6 = var4 != var5;
-            var4 = 0;
-            if(!var6) { _fun0019_ip = 116; continue _fun0019 }
- 113:
-            var4 = var5;
- 116:
-            var2['offset'] = var4;
-            var4 = false;
-            var2['showBlockedResults'] = var4;
-            var2['searchResultsQueryString'] = var3;
-            return var1;
-        }
-    };
-    var2['SEARCH_START'] = var9;
-    var9 = function guildIsIndexing(arg1) {
-        var1 = arg1;
-        var3 = var1.searchId;
-        var2 = _closure1_slot18;
-        var1 = undefined;
-        var3 = var2.bind(var1)(var3);
-        var2 = true;
-        var3['isIndexing'] = var2;
-        var3['isHistoricalIndexing'] = var2;
-        var2 = false;
-        var3['isSearching'] = var2;
-        return var1;
-    };
-    var2['SEARCH_INDEXING'] = var9;
-    var9 = function finishedSearch(arg1) {
-        _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
- 0:
-            var2 = arg1;
-            var4 = _closure1_slot18;
-            var3 = var2.searchId;
-            var1 = undefined;
-            var3 = var4.bind(var1)(var3);
-            var5 = false;
-            var3['isSearching'] = var5;
-            var3['isIndexing'] = var5;
-            var4 = var2.doingHistoricalIndex;
-            if(var4) { _fun0020_ip = 48; continue _fun0020 }
- 46:
-            var4 = false;
- 48:
-            var3['isHistoricalIndexing'] = var4;
-            var4 = var2.totalResults;
-            var3['totalResults'] = var4;
-            var4 = var2.hasError;
-            var3['hasError'] = var4;
-            var4 = var2.analyticsId;
-            var3['analyticsId'] = var4;
-            var5 = var2.documentsIndexed;
-            var4 = null;
-            var6 = var4 != var5;
-            var5 = 0;
-            if(!var6) { _fun0020_ip = 113; continue _fun0020 }
- 107:
-            var5 = var2.documentsIndexed;
- 113:
-            var3['documentsIndexed'] = var5;
-            var5 = global;
-            var6 = var5.Math;
-            var5 = var6.random;
-            var6 = var5.bind(var6)();
-            var5 = 0.05;
-            var5 = var6 < var5;
-            var3['showNoResultsAlt'] = var5;
-            var2 = var2.messages;
-            var3['rawResults'] = var2;
-            var2 = var3.query;
-            if(!(var4 == var2)) { _fun0020_ip = 186; continue _fun0020 }
- 178:
-            var2 = true;
-            var3['hasError'] = var2;
- 186:
-            return var1;
-        }
-    };
-    var2['SEARCH_FINISH'] = var9;
     var9 = function handleSearchResultsQueryUpdate(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
             var1 = arg1;
             var6 = var1.searchId;
             var5 = var1.queryString;
             var2 = var1.query;
             var4 = var1.offset;
-            var3 = _closure1_slot18;
+            var3 = _closure1_slot17;
             var1 = undefined;
             var3 = var3.bind(var1)(var6);
             var3['searchResultsQueryString'] = var5;
-            var3['query'] = var2;
+            var3['searchResultsQuery'] = var2;
             var2 = null;
             var5 = var2 != var4;
             var2 = 0;
-            if(!var5) { _fun0021_ip = 66; continue _fun0021 }
+            if(!var5) { _fun0013_ip = 66; continue _fun0013 }
  63:
             var2 = var4;
  66:
-            var3['offset'] = var2;
+            var3['searchResultsOffset'] = var2;
             return var1;
         }
     };
     var2['SEARCH_RESULTS_QUERY_UPDATE'] = var9;
     var9 = function clearSearchState(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
             var1 = arg1;
             var2 = var1.searchId;
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot11;
             var4 = var3[var2];
             var3 = null;
-            if(!(var3 != var4)) { _fun0022_ip = 38; continue _fun0022 }
+            if(!(var3 != var4)) { _fun0014_ip = 38; continue _fun0014 }
  26:
-            var1 = _closure1_slot12;
+            var1 = _closure1_slot11;
             var1 = delete var1[var2];
             var1 = undefined;
             return var1;
@@ -1020,14 +622,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['SEARCH_EDITOR_STATE_CLEAR'] = var9;
     var9 = function ensureEditorState(arg1) {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
             var1 = arg1;
             var3 = var1.searchId;
             var1 = null;
-            if(!(var1 != var3)) { _fun0023_ip = 29; continue _fun0023 }
+            if(!(var1 != var3)) { _fun0015_ip = 29; continue _fun0015 }
  15:
-            var2 = _closure1_slot18;
+            var2 = _closure1_slot17;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
  29:
@@ -1040,7 +642,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = arg1;
         var4 = var1.searchId;
         var3 = var1.editorState;
-        var2 = _closure1_slot18;
+        var2 = _closure1_slot17;
         var1 = undefined;
         var2 = var2.bind(var1)(var4);
         var2['editorState'] = var3;
@@ -1051,7 +653,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = arg1;
         var4 = var1.searchId;
         var3 = var1.showBlocked;
-        var2 = _closure1_slot18;
+        var2 = _closure1_slot17;
         var1 = undefined;
         var2 = var2.bind(var1)(var4);
         var2['showBlockedResults'] = var3;
@@ -1061,7 +663,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = function setShowNoResultsAlt(arg1) {
         var1 = arg1;
         var3 = var1.searchId;
-        var2 = _closure1_slot18;
+        var2 = _closure1_slot17;
         var1 = undefined;
         var3 = var2.bind(var1)(var3);
         var2 = global;
@@ -1077,24 +679,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = function handleSearchScreenOpen(arg1) {
         var1 = arg1;
         var3 = var1.searchId;
-        var2 = _closure1_slot20;
+        var2 = _closure1_slot19;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
     };
     var2['SEARCH_SCREEN_OPEN'] = var9;
     var9 = function handleChannelSelect(arg1) {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
             var1 = arg1;
             var3 = var1.guildId;
             var5 = var1.channelId;
             var1 = null;
-            if(!(var1 == var3)) { _fun0024_ip = 107; continue _fun0024 }
+            if(!(var1 == var3)) { _fun0016_ip = 107; continue _fun0016 }
  19:
             var6 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 12;
+            var4 = _closure1_slot1;
+            var2 = 11;
             var2 = var4[var2];
             var4 = undefined;
             var7 = var6.bind(var4)(var2);
@@ -1102,21 +704,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = {};
             var8 = 'SearchStore_handleChannelSelect';
             var2['location'] = var8;
-            var8 = _closure1_slot14;
+            var8 = _closure1_slot13;
             var2['autoTrackExposure'] = var8;
             var6 = var6.bind(var7)(var2);
-            var2 = _closure1_slot20;
-            if(var6) { _fun0024_ip = 90; continue _fun0024 }
+            var2 = _closure1_slot19;
+            if(var6) { _fun0016_ip = 90; continue _fun0016 }
  83:
             var5 = var2.bind(var4)(var5);
-            _fun0024_ip = 121; continue _fun0024;
+            _fun0016_ip = 121; continue _fun0016;
  90:
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot10;
             var1 = var1.DMS;
             var1 = var2.bind(var4)(var1);
-            _fun0024_ip = 121; continue _fun0024;
+            _fun0016_ip = 121; continue _fun0016;
  107:
-            var2 = _closure1_slot20;
+            var2 = _closure1_slot19;
             var1 = undefined;
             var1 = var2.bind(var1)(var3);
  121:
@@ -1126,33 +728,33 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['CHANNEL_SELECT'] = var9;
     var9 = function clearSearchHistory(arg1) {
-        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
             var1 = arg1;
             var3 = var1.searchId;
             var1 = null;
-            if(!(var1 != var3)) { _fun0025_ip = 84; continue _fun0025 }
+            if(!(var1 != var3)) { _fun0017_ip = 84; continue _fun0017 }
  15:
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot14;
             var2 = delete var2[var3];
             var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var2 = 10;
+            var3 = _closure1_slot1;
+            var2 = 9;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
             var4 = var2.Storage;
             var3 = var4.set;
             var2 = {};
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot14;
             var2['history'] = var1;
             var1 = 'SearchStore';
             var1 = var3.bind(var4)(var1, var2);
-            _fun0025_ip = 138; continue _fun0025;
+            _fun0017_ip = 138; continue _fun0017;
  84:
             var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 10;
+            var3 = _closure1_slot1;
+            var1 = 9;
             var3 = var3[var1];
             var1 = undefined;
             var1 = var4.bind(var1)(var3);
@@ -1161,7 +763,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = 'SearchStore';
             var1 = var3.bind(var4)(var1);
             var1 = {};
-            _closure1_slot15 = var1;
+            _closure1_slot14 = var1;
  138:
             var1 = undefined;
             return var1;
@@ -1169,18 +771,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['SEARCH_CLEAR_HISTORY'] = var9;
     var9 = function removeQueryFromHistory(arg1) {
-        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
             var1 = arg1;
             var4 = var1.searchId;
             var1 = var1.query;
             var _closure2_slot0 = var1;
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot14;
             var5 = var3[var4];
             var3 = null;
-            if(!(var3 != var5)) { _fun0026_ip = 120; continue _fun0026 }
+            if(!(var3 != var5)) { _fun0018_ip = 120; continue _fun0018 }
  37:
-            var3 = _closure1_slot15;
+            var3 = _closure1_slot14;
             var6 = var3[var4];
             var5 = var6.filter;
             var2 = function(arg1) {
@@ -1192,15 +794,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var5.bind(var6)(var2);
             var3[var4] = var2;
             var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var2 = 10;
+            var3 = _closure1_slot1;
+            var2 = 9;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
             var4 = var2.Storage;
             var3 = var4.set;
             var2 = {};
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot14;
             var2['history'] = var1;
             var1 = 'SearchStore';
             var1 = var3.bind(var4)(var1, var2);
@@ -1211,24 +813,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['SEARCH_REMOVE_HISTORY'] = var9;
     var9 = function addQueryToHistory(arg1) {
-        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
             var1 = arg1;
             var5 = var1.searchId;
             var2 = var1.query;
             var3 = 'string';
             var1 = typeof var2;
-            if(!(var3 === var1)) { _fun0027_ip = 268; continue _fun0027 }
+            if(!(var3 === var1)) { _fun0019_ip = 268; continue _fun0019 }
  28:
             var1 = var2.trim;
             var3 = var1.bind(var2)();
             var7 = '';
-            if(!(var7 !== var3)) { _fun0027_ip = 268; continue _fun0027 }
+            if(!(var7 !== var3)) { _fun0019_ip = 268; continue _fun0019 }
  49:
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot14;
             var4 = var2[var5];
             var8 = null;
-            if(!(var8 == var4)) { _fun0027_ip = 70; continue _fun0027 }
+            if(!(var8 == var4)) { _fun0019_ip = 70; continue _fun0019 }
  66:
             var4 = new Array(0);
  70:
@@ -1237,28 +839,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var2.bind(var4)(var3);
             var2 = -1;
             var5 = var4;
-            if(!(var2 === var6)) { _fun0027_ip = 157; continue _fun0027 }
+            if(!(var2 === var6)) { _fun0019_ip = 157; continue _fun0019 }
  98:
             var2 = 0;
             var4 = var5[var2];
-            if(!(var8 != var4)) { _fun0027_ip = 134; continue _fun0027 }
+            if(!(var8 != var4)) { _fun0019_ip = 134; continue _fun0019 }
  108:
             var4 = var5[var2];
-            if(!(var7 !== var4)) { _fun0027_ip = 134; continue _fun0027 }
+            if(!(var7 !== var4)) { _fun0019_ip = 134; continue _fun0019 }
  116:
             var7 = var3.startsWith;
             var4 = var5[var2];
             var4 = var7.bind(var3)(var4);
-            if(var4) { _fun0027_ip = 151; continue _fun0027 }
+            if(var4) { _fun0019_ip = 151; continue _fun0019 }
  134:
-            if(!(var6 < var2)) { _fun0027_ip = 183; continue _fun0027 }
+            if(!(var6 < var2)) { _fun0019_ip = 183; continue _fun0019 }
  138:
             var4 = var5.unshift;
             var4 = var4.bind(var5)(var3);
-            _fun0027_ip = 183; continue _fun0027;
+            _fun0019_ip = 183; continue _fun0019;
  151:
             var5[var2] = var3;
-            _fun0027_ip = 183; continue _fun0027;
+            _fun0019_ip = 183; continue _fun0019;
  157:
             var4 = var5.splice;
             var2 = 1;
@@ -1268,22 +870,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  183:
             var2 = var5.length;
             var4 = 5;
-            if(!(var2 > var4)) { _fun0027_ip = 212; continue _fun0027 }
+            if(!(var2 > var4)) { _fun0019_ip = 212; continue _fun0019 }
  195:
             var3 = var5.splice;
             var2 = var5.length;
             var2 = var3.bind(var5)(var4, var2);
  212:
             var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var2 = 10;
+            var3 = _closure1_slot1;
+            var2 = 9;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
             var4 = var2.Storage;
             var3 = var4.set;
             var2 = {};
-            var1 = _closure1_slot15;
+            var1 = _closure1_slot14;
             var2['history'] = var1;
             var1 = 'SearchStore';
             var1 = var3.bind(var4)(var1, var2);
@@ -1295,8 +897,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['SEARCH_ADD_HISTORY'] = var9;
     var4 = function handleLogOut() {
         var4 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 10;
+        var2 = _closure1_slot1;
+        var1 = 9;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var4.bind(var1)(var2);
@@ -1305,7 +907,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = 'SearchStore';
         var2 = var4.bind(var5)(var2);
         var2 = {};
-        _closure1_slot15 = var2;
+        _closure1_slot14 = var2;
         return var1;
     };
     var2['LOGOUT'] = var4;
@@ -1315,7 +917,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = var2;
     var2 = new var13[var8](var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 15;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

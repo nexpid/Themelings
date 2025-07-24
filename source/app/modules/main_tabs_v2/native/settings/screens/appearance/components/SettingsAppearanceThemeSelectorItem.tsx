@@ -180,13 +180,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = new Array(2);
             var5[0] = var8;
             var8 = var6;
-            if(!var6) { _fun0002_ip = 113; continue _fun0002 }
- 94:
+            if(!var6) { _fun0002_ip = 114; continue _fun0002 }
+ 95:
             var9 = {};
             var13 = 0.5;
             var9['opacity'] = var13;
             var8 = var9;
- 113:
+ 114:
             var5[1] = var8;
             var1['style'] = var5;
             var9 = _closure1_slot6;
@@ -207,19 +207,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5['gradientOverride'] = var12;
             var12 = true;
             var5['mix'] = var12;
-            if(var11) { _fun0002_ip = 202; continue _fun0002 }
- 196:
+            if(var11) { _fun0002_ip = 203; continue _fun0002 }
+ 197:
             var11 = _closure1_slot11;
-            _fun0002_ip = 206; continue _fun0002;
- 202:
+            _fun0002_ip = 207; continue _fun0002;
+ 203:
             var11 = _closure1_slot10;
- 206:
+ 207:
             var5['mixColorOverride'] = var11;
             var8 = var9.bind(var4)(var8, var5);
             var5 = new Array(2);
             var5[0] = var8;
-            if(!var6) { _fun0002_ip = 286; continue _fun0002 }
- 228:
+            if(!var6) { _fun0002_ip = 287; continue _fun0002 }
+ 229:
             var9 = _closure1_slot6;
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -234,7 +234,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var10.lock;
             var7['style'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 286:
+ 287:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -265,15 +265,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var6)(var2, var1);
             var1 = var5.theme;
             var7 = 'system';
-            if(!(var7 !== var1)) { _fun0003_ip = 85; continue _fun0003 }
- 78:
+            if(!(var7 !== var1)) { _fun0003_ip = 87; continue _fun0003 }
+ 79:
             var6 = var5.theme;
-            _fun0003_ip = 102; continue _fun0003;
- 85:
+            _fun0003_ip = 104; continue _fun0003;
+ 87:
             var2 = _closure1_slot4;
             var1 = var2.themePreferenceForSystemTheme;
             var6 = var1.bind(var2)(var3);
- 102:
+ 104:
             var2 = _closure1_slot0;
             var12 = _closure1_slot2;
             var1 = 14;
@@ -317,8 +317,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['style'] = var6;
             var6 = var5.theme;
             var5 = null;
-            if(!(var7 === var6)) { _fun0003_ip = 389; continue _fun0003 }
- 318:
+            if(!(var7 === var6)) { _fun0003_ip = 392; continue _fun0003 }
+ 321:
             var8 = _closure1_slot6;
             var7 = _closure1_slot3;
             var6 = {};
@@ -334,7 +334,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 389:
+ 392:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

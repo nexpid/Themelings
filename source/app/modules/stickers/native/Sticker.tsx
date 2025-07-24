@@ -160,7 +160,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.LOTTIE;
-            if(!(var2 !== var1)) { _fun0002_ip = 568; continue _fun0002 }
+            if(!(var2 !== var1)) { _fun0002_ip = 569; continue _fun0002 }
  175:
             var2 = var11.format_type;
             var3 = _closure1_slot0;
@@ -244,17 +244,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var13.bind(var14)(var9);
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
-            if(var9) { _fun0002_ip = 521; continue _fun0002 }
- 507:
+            if(var9) { _fun0002_ip = 522; continue _fun0002 }
+ 508:
             var9 = 12;
             var9 = var15[var9];
             var9 = var14.bind(var4)(var9);
-            _fun0002_ip = 533; continue _fun0002;
- 521:
+            _fun0002_ip = 534; continue _fun0002;
+ 522:
             var13 = 11;
             var13 = var15[var13];
             var9 = var14.bind(var4)(var13);
- 533:
+ 534:
             var1['placeholder'] = var9;
             var9 = {};
             var9['uri'] = var12;
@@ -264,7 +264,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['accessibilityLabel'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 568:
+ 569:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -277,10 +277,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = null;
             var13 = var11 != var12;
             var11 = '';
-            if(!var13) { _fun0002_ip = 619; continue _fun0002 }
- 616:
+            if(!var13) { _fun0002_ip = 620; continue _fun0002 }
+ 617:
             var11 = var12;
- 619:
+ 620:
             var1['asset'] = var11;
             var1['width'] = var10;
             var1['height'] = var10;
@@ -290,13 +290,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var7[var9];
             var7 = var8.bind(var4)(var7);
             var7 = var7.NativeLottieRenderMode;
-            if(var6) { _fun0002_ip = 670; continue _fun0002 }
- 662:
+            if(var6) { _fun0002_ip = 671; continue _fun0002 }
+ 663:
             var6 = var7.STILL;
-            _fun0002_ip = 676; continue _fun0002;
- 670:
+            _fun0002_ip = 677; continue _fun0002;
+ 671:
             var6 = var7.LOOP;
- 676:
+ 677:
             var1['renderMode'] = var6;
             var1['accessibilityLabel'] = var5;
             var1 = var3.bind(var4)(var2, var1);

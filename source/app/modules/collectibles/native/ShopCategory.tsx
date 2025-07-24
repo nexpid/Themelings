@@ -428,8 +428,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var10['onPress'] = var12;
             var12 = var8 != var26;
-            if(!var12) { _fun0001_ip = 937; continue _fun0001 }
- 900:
+            if(!var12) { _fun0001_ip = 936; continue _fun0001 }
+ 899:
             var24 = _closure1_slot7;
             var19 = _closure1_slot4;
             var8 = {};
@@ -439,7 +439,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var25 = var18.imageBackground;
             var8['style'] = var25;
             var12 = var24.bind(var4)(var19, var8);
- 937:
+ 936:
             var8 = new Array(2);
             var8[0] = var12;
             var12 = _closure1_slot7;

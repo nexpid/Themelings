@@ -73,7 +73,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = arg1;
                     var11 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 940; continue _fun0002 }
+                    if(var3) { _fun0002_ip = 941; continue _fun0002 }
  16:
                     var8 = var2;
                     var9 = arg3;
@@ -116,8 +116,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4[3] = var13;
                     var5 = var4;
                     var2 = var2.description;
-                    if(!(var3 !== var2)) { _fun0002_ip = 220; continue _fun0002 }
- 185:
+                    if(!(var3 !== var2)) { _fun0002_ip = 221; continue _fun0002 }
+ 186:
                     var13 = var5;
                     var4 = var13.push;
                     var2 = {};
@@ -127,11 +127,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var14 = var14.description;
                     var2['value'] = var14;
                     var2 = var4.bind(var13)(var2);
- 220:
+ 221:
                     var2 = var8;
                     var2 = var2.url;
-                    if(!(var3 !== var2)) { _fun0002_ip = 269; continue _fun0002 }
- 232:
+                    if(!(var3 !== var2)) { _fun0002_ip = 270; continue _fun0002 }
+ 233:
                     var13 = var5;
                     var4 = var13.push;
                     var2 = {};
@@ -141,12 +141,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var14 = var14.url;
                     var2['value'] = var14;
                     var2 = var4.bind(var13)(var2);
- 269:
+ 270:
                     var2 = var8;
                     var4 = var2.buildOverride;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0002_ip = 322; continue _fun0002 }
- 284:
+                    if(!(var2 != var4)) { _fun0002_ip = 323; continue _fun0002 }
+ 285:
                     var14 = var5;
                     var13 = var14.push;
                     var4 = {};
@@ -156,24 +156,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var15 = var15.buildOverride;
                     var4['value'] = var15;
                     var4 = var13.bind(var14)(var4);
- 322:
+ 323:
                     var4 = var8;
                     var13 = var4.feature;
                     var14 = var2 == var13;
                     var4 = undefined;
-                    if(var14) { _fun0002_ip = 346; continue _fun0002 }
- 340:
+                    if(var14) { _fun0002_ip = 347; continue _fun0002 }
+ 341:
                     var4 = var13.asana_inbox_id;
- 346:
+ 347:
                     var7 = var4;
                     var4 = var2 != var4;
-                    if(!var4) { _fun0002_ip = 363; continue _fun0002 }
- 356:
+                    if(!var4) { _fun0002_ip = 364; continue _fun0002 }
+ 357:
                     var13 = var7;
                     var4 = var3 !== var13;
- 363:
-                    if(!var4) { _fun0002_ip = 412; continue _fun0002 }
- 366:
+ 364:
+                    if(!var4) { _fun0002_ip = 413; continue _fun0002 }
+ 367:
                     var14 = var5;
                     var13 = var14.push;
                     var4 = {};
@@ -185,22 +185,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var15 = var15.bind(var3)(var16);
                     var4['value'] = var15;
                     var4 = var13.bind(var14)(var4);
- 412:
+ 413:
                     var4 = var8;
                     var4 = var4.feature;
                     var14 = var2 == var4;
                     var13 = undefined;
-                    if(var14) { _fun0002_ip = 435; continue _fun0002 }
- 430:
+                    if(var14) { _fun0002_ip = 436; continue _fun0002 }
+ 431:
                     var13 = var4.name;
- 435:
+ 436:
                     var2 = var2 != var13;
-                    if(!var2) { _fun0002_ip = 446; continue _fun0002 }
- 442:
+                    if(!var2) { _fun0002_ip = 447; continue _fun0002 }
+ 443:
                     var2 = var3 !== var13;
- 446:
-                    if(!var2) { _fun0002_ip = 476; continue _fun0002 }
- 449:
+ 447:
+                    if(!var2) { _fun0002_ip = 477; continue _fun0002 }
+ 450:
                     var4 = var5;
                     var3 = var4.push;
                     var2 = {};
@@ -208,10 +208,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2['name'] = var14;
                     var2['value'] = var13;
                     var2 = var3.bind(var4)(var2);
- 476:
+ 477:
                     var2 = var11.overridePlatformInformation;
-                    if(!var2) { _fun0002_ip = 719; continue _fun0002 }
- 488:
+                    if(!var2) { _fun0002_ip = 720; continue _fun0002 }
+ 489:
                     var4 = var5;
                     var3 = var4.push;
                     var2 = {};
@@ -264,7 +264,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = var11.locale;
                     var2['value'] = var11;
                     var2 = var3.bind(var4)(var2);
- 719:
+ 720:
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var2 = 5;
@@ -277,15 +277,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var11.isIOS;
                     var2 = var2.bind(var11)();
                     var11 = _closure1_slot5;
-                    if(var2) { _fun0002_ip = 782; continue _fun0002 }
- 774:
+                    if(var2) { _fun0002_ip = 783; continue _fun0002 }
+ 775:
                     var2 = var11.ANDROID_APP;
-                    _fun0002_ip = 788; continue _fun0002;
- 782:
+                    _fun0002_ip = 789; continue _fun0002;
+ 783:
                     var2 = var11.IOS_APP;
- 788:
+ 789:
                     var2 = var3.bind(var4)(var2);
- 793: // try_start_0
+ 794: // try_start_0
                     var3 = _closure1_slot1;
                     var11 = _closure1_slot2;
                     var2 = 7;
@@ -315,20 +315,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = false;
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=923);
- 921:
+                    SaveGenerator(address=924);
+ 922:
                     return var2;
- 923:
+ 924:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 932; continue _fun0002 }
- 929: // try_end0
+                    if(var3) { _fun0002_ip = 933; continue _fun0002 }
+ 930: // try_end0
                     return var2;
- 932:
+ 933:
                     return var2;
- 935: // catch_target0
+ 936: // catch_target0
                     CatchBlockStart(arg_register=1);
                     return var2;
- 940:
+ 941:
                     return var1;
                 }
             };

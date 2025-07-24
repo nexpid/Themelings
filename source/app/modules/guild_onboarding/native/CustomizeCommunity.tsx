@@ -341,7 +341,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!(var3 === var8)) { _fun0004_ip = 287; continue _fun0004 }
  281:
             var1 = null;
-            if(!(var3 !== var7)) { _fun0004_ip = 372; continue _fun0004 }
+            if(!(var3 !== var7)) { _fun0004_ip = 368; continue _fun0004 }
  287:
             var4 = _closure1_slot18;
             var3 = _closure1_slot0;
@@ -360,7 +360,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 372:
+ 368:
             return var1;
         }
     };

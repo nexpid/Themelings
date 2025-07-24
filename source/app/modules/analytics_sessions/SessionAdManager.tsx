@@ -309,7 +309,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  22:
                         var3 = _closure3_slot0;
                         var3 = var3.schedulerStarted;
-                        if(!var3) { _fun0006_ip = 149; continue _fun0006 }
+                        if(!var3) { _fun0006_ip = 148; continue _fun0006 }
  38:
                         var2 = _closure3_slot0;
                         var3 = false;
@@ -335,7 +335,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = var2.heartbeatInterval;
                         var2 = var3.stop;
                         var2 = var2.bind(var3)();
- 149:
+ 148:
                         return var1;
                     }
                 };

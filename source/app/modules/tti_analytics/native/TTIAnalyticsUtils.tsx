@@ -526,7 +526,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     StartGenerator();
                     var10 = arg4;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 365; continue _fun0007 }
+                    if(var2) { _fun0007_ip = 366; continue _fun0007 }
  13:
                     var6 = _closure1_slot26;
                     var3 = undefined;
@@ -542,7 +542,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var2;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0007_ip = 362; continue _fun0007 }
+                    if(var5) { _fun0007_ip = 363; continue _fun0007 }
  69:
                     var11 = var2.JSBundleLoadedTimestamp;
                     var9 = var2.JSBundleParsedTimestamp;
@@ -608,9 +608,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4['logEventProperties'] = var9;
                     var4 = var7.bind(var8)(var6, var5, var4);
                     return var3;
- 362:
+ 363:
                     return var2;
- 365:
+ 366:
                     return var1;
                 }
             };
@@ -647,7 +647,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 386; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 387; continue _fun0008 }
  12:
                     var3 = undefined;
                     var _closure4_slot0 = var3;
@@ -707,7 +707,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var2;
  138:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(var8) { _fun0008_ip = 383; continue _fun0008 }
+                    if(var8) { _fun0008_ip = 384; continue _fun0008 }
  147:
                     var13 = _closure1_slot1;
                     var14 = _closure1_slot2;
@@ -758,8 +758,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var8 = var7.TTIManager;
                     var7 = var8.runningTTIAutomation;
                     var7 = var7.bind(var8)();
-                    if(!var7) { _fun0008_ip = 380; continue _fun0008 }
- 369:
+                    if(!var7) { _fun0008_ip = 381; continue _fun0008 }
+ 370:
                     var4 = function logToDevice(arg1, arg2) {
                         var7 = {};
                         var3 = _closure1_slot24;
@@ -878,11 +878,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var4 = var4.bind(var3)(var5, var6);
- 380:
+ 381:
                     return var3;
- 383:
+ 384:
                     return var2;
- 386:
+ 387:
                     return var1;
                 }
             };

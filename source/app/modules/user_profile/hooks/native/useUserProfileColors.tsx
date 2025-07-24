@@ -108,12 +108,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var5.bind(var7)(var4, var8);
             var1['statusBackground'] = var4;
             var4 = null;
-            if(!(var4 != var6)) { _fun0001_ip = 601; continue _fun0001 }
- 365:
-            if(!(var4 != var15)) { _fun0001_ip = 601; continue _fun0001 }
- 372:
-            if(!(var4 != var2)) { _fun0001_ip = 601; continue _fun0001 }
- 379:
+            if(!(var4 != var6)) { _fun0001_ip = 602; continue _fun0001 }
+ 366:
+            if(!(var4 != var15)) { _fun0001_ip = 602; continue _fun0001 }
+ 373:
+            if(!(var4 != var2)) { _fun0001_ip = 602; continue _fun0001 }
+ 380:
             var8 = var2.sectionBox;
             var14 = var2.overlay;
             var7 = var2.overlaySyncedWithUserTheme;
@@ -124,10 +124,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var4.bind(var9)(var2);
             var4 = var5.calculateOverlayedColor;
             var2 = var14;
-            if(!var11) { _fun0001_ip = 432; continue _fun0001 }
- 429:
+            if(!var11) { _fun0001_ip = 433; continue _fun0001 }
+ 430:
             var2 = var7;
- 432:
+ 433:
             var7 = var4.bind(var5)(var6, var2);
             var2 = {};
             var18 = var2;
@@ -165,7 +165,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = 'statusBackground';
             var2[var3] = var4;
             return var2;
- 601:
+ 602:
             return var1;
         }
     };

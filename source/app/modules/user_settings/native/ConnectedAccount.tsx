@@ -2093,13 +2093,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var12.isThemeDark;
                 var6 = var6.bind(var12)(var13);
                 var10 = var10.icon;
-                if(var6) { _fun0016_ip = 203; continue _fun0016 }
- 195:
+                if(var6) { _fun0016_ip = 204; continue _fun0016 }
+ 196:
                 var6 = var10.lightPNG;
-                _fun0016_ip = 209; continue _fun0016;
- 203:
+                _fun0016_ip = 210; continue _fun0016;
+ 204:
                 var6 = var10.darkPNG;
- 209:
+ 210:
                 var6 = var7.bind(var9)(var6);
                 var1['source'] = var6;
                 var1['disableColor'] = var5;

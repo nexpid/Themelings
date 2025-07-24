@@ -899,7 +899,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var4[var3];
                     var3 = undefined;
                     var4 = var5.bind(var3)(var4);
-                    var3 = var4.clearAllSearchStates;
+                    var3 = var4.clearAllSearchMesssages;
                     var3 = var3.bind(var4)();
                     var4 = _closure1_slot5;
                     var3 = var4.setState;
@@ -929,7 +929,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var4.bind(var1)(var2);
-                    var2 = var4.clearAllSearchStates;
+                    var2 = var4.clearAllSearchMesssages;
                     var2 = var2.bind(var4)();
                     var5 = _closure1_slot7;
                     var4 = _closure2_slot0;

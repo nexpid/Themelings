@@ -27,13 +27,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = 2;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var2 = var2.AGE_VERIFICATION_MODAL_KEY;
-    var _closure1_slot4 = var2;
+    var7 = var2.AGE_VERIFICATION_MODAL_KEY;
+    var _closure1_slot4 = var7;
+    var2 = var2.AGE_VERIFICATION_GET_STARTED_MODAL_KEY;
+    var _closure1_slot5 = var2;
     var2 = 3;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var2 = var2.jsx;
-    var _closure1_slot5 = var2;
+    var _closure1_slot6 = var2;
     var2 = {};
     var7 = function showAgeVerification(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -43,7 +45,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = undefined;
             if(!(var2 === var1)) { _fun0001_ip = 24; continue _fun0001 }
  17:
-            var2 = function s() {
+            var2 = function n() {
                 var1 = undefined;
                 return var1;
             };
@@ -94,7 +96,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = var2.default;
                         _closure4_slot0 = var4;
                         var3 = function() {
-                            var4 = _closure1_slot5;
+                            var4 = _closure1_slot6;
                             var3 = _closure4_slot0;
                             var2 = {};
                             var5 = _closure2_slot0;
@@ -128,34 +130,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var1 = arg1;
             var _closure2_slot0 = var1;
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
             var1 = 7;
-            var3 = var3[var1];
+            var4 = var4[var1];
             var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.isAgeVerified;
-            var3 = var3.bind(var4)();
-            if(!var3) { _fun0003_ip = 84; continue _fun0003 }
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.isAgeVerified;
+            var4 = var4.bind(var5)();
+            if(!var4) { _fun0003_ip = 84; continue _fun0003 }
  47:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var4 = 8;
-            var4 = var7[var4];
-            var7 = var6.bind(var1)(var4);
+            var5 = 8;
+            var5 = var7[var5];
+            var7 = var6.bind(var1)(var5);
             var6 = var7.isEligibleForSensitiveContentDefaults;
-            var4 = 'age_verification_utils';
-            var3 = var6.bind(var7)(var4);
+            var5 = 'age_verification_utils';
+            var4 = var6.bind(var7)(var5);
  84:
-            var _closure2_slot1 = var3;
-            var4 = _closure1_slot1;
+            var _closure2_slot1 = var4;
+            var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var3 = 4;
-            var3 = var6[var3];
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.pushLazy;
-            var5 = _closure1_slot3;
-            var2 = function* () {
+            var4 = 4;
+            var4 = var6[var4];
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.pushLazy;
+            var4 = _closure1_slot3;
+            var3 = function* () {
                 var1 = function* anon_0_() {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -184,7 +186,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = var2.default;
                         _closure4_slot0 = var4;
                         var3 = function() {
-                            var4 = _closure1_slot5;
+                            var4 = _closure1_slot6;
                             var3 = _closure4_slot0;
                             var2 = {};
                             var5 = _closure2_slot0;
@@ -204,8 +206,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 return var1;
             };
-            var2 = var5.bind(var1)(var2);
-            var2 = var3.bind(var4)(var2);
+            var4 = var4.bind(var1)(var3);
+            var3 = _closure1_slot5;
+            var2 = {};
+            var2 = var5.bind(var6)(var4, var2, var3);
             return var1;
         }
     };

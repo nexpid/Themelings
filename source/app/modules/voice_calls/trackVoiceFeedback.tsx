@@ -16,7 +16,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     StartGenerator();
                     var2 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 595; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 593; continue _fun0001 }
  13:
                     var23 = var2.rating;
                     var21 = var2.category;
@@ -26,13 +26,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var17 = var2.feedback;
                     var5 = var2.analyticsData;
                     var4 = undefined;
-                    SaveGenerator(address=60);
- 58:
+                    SaveGenerator(address=59);
+ 57:
                     return var4;
- 60:
+ 59:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 592; continue _fun0001 }
- 69:
+                    if(var3) { _fun0001_ip = 590; continue _fun0001 }
+ 68:
                     var7 = _closure1_slot3;
                     var3 = var7.getSettings;
                     var9 = var3.bind(var7)();
@@ -77,13 +77,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var7.bind(var4)(var3);
                     var3 = var7.getKrispModel;
                     var3 = var3.bind(var7)();
-                    SaveGenerator(address=278);
- 276:
+                    SaveGenerator(address=277);
+ 275:
                     return var3;
- 278:
+ 277:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 589; continue _fun0001 }
- 287:
+                    if(var7) { _fun0001_ip = 587; continue _fun0001 }
+ 286:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot1;
                     var6 = 3;
@@ -94,10 +94,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var12 = null;
                     var24 = var12 != var23;
                     var22 = 'no response';
-                    if(!var24) { _fun0001_ip = 332; continue _fun0001 }
- 329:
+                    if(!var24) { _fun0001_ip = 331; continue _fun0001 }
+ 328:
                     var22 = var23;
- 332:
+ 331:
                     var6['rating'] = var22;
                     var6['category'] = var21;
                     var6['reason_code'] = var20;
@@ -126,24 +126,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6['noise_cancellation_enabled'] = var14;
                     var17 = var12 == var16;
                     var14 = undefined;
-                    if(var17) { _fun0001_ip = 494; continue _fun0001 }
- 489:
+                    if(var17) { _fun0001_ip = 492; continue _fun0001 }
+ 487:
                     var14 = var16.name;
- 494:
+ 492:
                     var6['input_device_name'] = var14;
                     var16 = var12 == var15;
                     var14 = undefined;
-                    if(var16) { _fun0001_ip = 513; continue _fun0001 }
- 508:
+                    if(var16) { _fun0001_ip = 511; continue _fun0001 }
+ 506:
                     var14 = var15.name;
- 513:
+ 511:
                     var6['output_device_name'] = var14;
                     var14 = var12 == var13;
                     var12 = undefined;
-                    if(var14) { _fun0001_ip = 534; continue _fun0001 }
- 529:
+                    if(var14) { _fun0001_ip = 532; continue _fun0001 }
+ 527:
                     var12 = var13.name;
- 534:
+ 532:
                     var6['video_device_name'] = var12;
                     var6['audio_subsystem'] = var11;
                     var6['audio_layer'] = var10;
@@ -156,11 +156,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = arg1;
                     var5 = var7.bind(var8)(var5, var6);
                     return var4;
- 589:
+ 587:
                     return var3;
- 592:
+ 590:
                     return var2;
- 595:
+ 593:
                     return var1;
                 }
             };

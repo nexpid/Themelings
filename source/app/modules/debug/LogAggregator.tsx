@@ -266,7 +266,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!var2) { _fun0004_ip = 71; continue _fun0004 }
  189:
             var2 = typeof var7;
-            if(!(var3 !== var2)) { _fun0004_ip = 259; continue _fun0004 }
+            if(!(var3 !== var2)) { _fun0004_ip = 258; continue _fun0004 }
  196:
             var5 = _closure1_slot0;
             var3 = var5.push;
@@ -281,8 +281,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['timing'] = var9;
             var2['message'] = var6;
             var2 = var3.bind(var5)(var2);
-            _fun0004_ip = 304; continue _fun0004;
- 259:
+            _fun0004_ip = 302; continue _fun0004;
+ 258:
             var5 = _closure1_slot0;
             var3 = var5.push;
             var2 = {};
@@ -293,18 +293,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['category'] = var7;
             var2['message'] = var6;
             var2 = var3.bind(var5)(var2);
- 304:
+ 302:
             var2 = _closure1_slot0;
             var2 = var2.length;
             var3 = 5000;
-            if(!(var2 > var3)) { _fun0004_ip = 346; continue _fun0004 }
- 323:
+            if(!(var2 > var3)) { _fun0004_ip = 344; continue _fun0004 }
+ 321:
             var2 = _closure1_slot0;
             var5 = var2.shift;
             var5 = var5.bind(var2)();
             var2 = var2.length;
-            if(var2 > var3) { _fun0004_ip = 323; continue _fun0004 }
- 346:
+            if(var2 > var3) { _fun0004_ip = 321; continue _fun0004 }
+ 344:
             return var1;
         }
     };
@@ -330,14 +330,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = _closure2_slot0;
                 var1 = null;
                 var1 = var1 == var3;
-                if(var1) { _fun0005_ip = 39; continue _fun0005 }
+                if(var1) { _fun0005_ip = 38; continue _fun0005 }
  16:
                 var4 = _closure2_slot0;
                 var3 = var4.includes;
                 var2 = arg1;
                 var2 = var2.category;
                 var1 = var3.bind(var4)(var2);
- 39:
+ 38:
                 return var1;
             }
         };

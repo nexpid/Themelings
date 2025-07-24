@@ -73,7 +73,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['VERIFIED_TEEN'] = var7;
     var7 = 'error';
     var4['ERROR'] = var7;
-    var7 = 16;
+    var7 = 17;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -442,83 +442,108 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var7 = arg1;
+            var4 = arguments[1];
             var _closure2_slot0 = var7;
-            var8 = _closure1_slot5;
-            var3 = var8.useState;
-            var2 = false;
-            var6 = var3.bind(var8)(var2);
-            var4 = _closure1_slot4;
             var2 = undefined;
-            var3 = 2;
-            var6 = var4.bind(var2)(var6, var3);
-            var3 = 0;
-            var3 = var6[var3];
-            var4 = 1;
-            var4 = var6[var4];
+            if(!(var4 === var2)) { _fun0010_ip = 20; continue _fun0010 }
+ 18:
+            var4 = false;
+ 20:
             var _closure2_slot1 = var4;
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var4 = 10;
-            var4 = var9[var4];
-            var10 = var6.bind(var2)(var4);
-            var9 = var10.useStateFromStores;
-            var4 = _closure1_slot8;
-            var6 = new Array(1);
-            var6[0] = var4;
-            var4 = function() {
+            var _closure2_slot2 = var2;
+            var _closure2_slot3 = var2;
+            var _closure2_slot4 = var2;
+            var9 = _closure1_slot5;
+            var6 = var9.useState;
+            var3 = false;
+            var8 = var6.bind(var9)(var3);
+            var6 = _closure1_slot4;
+            var3 = 2;
+            var8 = var6.bind(var2)(var8, var3);
+            var3 = 0;
+            var3 = var8[var3];
+            var6 = 1;
+            var6 = var8[var6];
+            _closure2_slot2 = var6;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var6 = 10;
+            var6 = var10[var6];
+            var11 = var8.bind(var2)(var6);
+            var10 = var11.useStateFromStores;
+            var6 = _closure1_slot8;
+            var8 = new Array(1);
+            var8[0] = var6;
+            var6 = function() {
                 var2 = _closure1_slot8;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var9 = var9.bind(var10)(var6, var4);
-            var6 = var8.useRef;
-            var4 = null;
-            var10 = var4 == var9;
-            var4 = undefined;
-            if(var10) { _fun0010_ip = 130; continue _fun0010 }
- 124:
-            var4 = var9.ageVerificationStatus;
- 130:
-            var4 = var6.bind(var8)(var4);
-            var4 = var4.current;
-            var _closure2_slot2 = var4;
+            var10 = var10.bind(var11)(var8, var6);
+            var8 = var9.useRef;
+            var6 = null;
+            var11 = var6 == var10;
+            var6 = undefined;
+            if(var11) { _fun0010_ip = 155; continue _fun0010 }
+ 149:
+            var6 = var10.ageVerificationStatus;
+ 155:
+            var6 = var8.bind(var9)(var6);
+            var9 = var6.current;
+            _closure2_slot3 = var9;
             var5 = _closure1_slot5;
             var8 = var5.useCallback;
-            var6 = new Array(1);
-            var6[0] = var4;
+            var6 = new Array(2);
+            var6[0] = var9;
+            var6[1] = var4;
             var4 = function() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 11;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.dispatch;
-                var2 = {};
-                var5 = 'CLOSE_AGE_VERIFICATION_MODAL';
-                var2['type'] = var5;
-                var5 = _closure2_slot2;
-                var2['status'] = var5;
-                var2 = var3.bind(var4)(var2);
-                return var1;
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+ 0:
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 11;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var6 = var4.bind(var1)(var3);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var3 = 'CLOSE_AGE_VERIFICATION_MODAL';
+                    var4['type'] = var3;
+                    var7 = _closure2_slot3;
+                    var4['status'] = var7;
+                    var4 = var5.bind(var6)(var4);
+                    var3 = _closure2_slot1;
+                    if(var3) { _fun0011_ip = 110; continue _fun0011 }
+ 65:
+                    var3 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 12;
+                    var2 = var4[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.maybeOpenAgeVerificationUserFeedback;
+                    var2 = {'location': 'age_verification_intro_screen', 'didStartVerification': true};
+                    var2 = var3.bind(var4)(var2);
+ 110:
+                    return var1;
+                }
             };
             var6 = var8.bind(var5)(var4, var6);
-            var _closure2_slot3 = var6;
+            _closure2_slot4 = var6;
             var4 = var5.useCallback;
             var1 = function() {
                 var4 = _closure1_slot3;
                 var3 = undefined;
                 var2 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
-                        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+                        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0011_ip = 285; continue _fun0011 }
+                            if(var2) { _fun0012_ip = 285; continue _fun0012 }
  10:
                             var8 = arg1;
-                            var4 = _closure2_slot1;
+                            var4 = _closure2_slot2;
                             var5 = undefined;
                             var2 = true;
                             var2 = var4.bind(var5)(var2);
@@ -534,7 +559,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var2['type'] = var10;
                             var2 = var6.bind(var9)(var2);
                             var6 = _closure1_slot0;
-                            var2 = 12;
+                            var2 = 13;
                             var2 = var7[var2];
                             var6 = var6.bind(var5)(var2);
                             var2 = var6.initiateVerification;
@@ -544,11 +569,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var2;
  104:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(var6) { _fun0011_ip = 188; continue _fun0011 }
+                            if(var6) { _fun0012_ip = 188; continue _fun0012 }
  110:
                             var6 = _closure1_slot1;
                             var7 = _closure1_slot2;
-                            var4 = 13;
+                            var4 = 14;
                             var4 = var7[var4];
                             var7 = var6.bind(var5)(var4);
                             var6 = var7.showAgeVerification;
@@ -557,16 +582,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4['webviewUrl'] = var9;
                             var9 = _closure2_slot0;
                             var4['onComplete'] = var9;
-                            var9 = _closure2_slot3;
+                            var9 = _closure2_slot4;
                             var4['onClose'] = var9;
-                            var9 = _closure2_slot3;
+                            var9 = _closure2_slot4;
                             var4['onCancel'] = var9;
                             var4['entryPoint'] = var8;
                             var4 = var6.bind(var7)(var4);
  186: // try_end0
-                            _fun0011_ip = 256; continue _fun0011;
+                            _fun0012_ip = 256; continue _fun0012;
  188: // try_end1
-                            var6 = _closure2_slot1;
+                            var6 = _closure2_slot2;
                             var4 = false;
                             var4 = var6.bind(var5)(var4);
                             return var2;
@@ -574,23 +599,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             CatchBlockStart(arg_register=1);
                             var6 = _closure1_slot1;
                             var7 = _closure1_slot2;
-                            var4 = 14;
+                            var4 = 15;
                             var4 = var7[var4];
                             var6 = var6.bind(var5)(var4);
                             var4 = var6.showFailedToast;
                             var2 = _closure1_slot11;
                             var2 = var2.TIGGER_PAWTECT_ERROR;
                             var2 = var4.bind(var6)(var2);
-                            var2 = _closure2_slot3;
+                            var2 = _closure2_slot4;
                             var2 = var2.bind(var5)();
  256: // try_end2
-                            var4 = _closure2_slot1;
+                            var4 = _closure2_slot2;
                             var2 = false;
                             var2 = var4.bind(var5)(var2);
                             return var5;
  270: // catch_target1 // catch_target2
                             CatchBlockStart(arg_register=1);
-                            var4 = _closure2_slot1;
+                            var4 = _closure2_slot2;
                             var3 = false;
                             var3 = var4.bind(var5)(var3);
                             throw var2;
@@ -627,7 +652,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['useInitiateAgeVerification'] = var4;
     var4 = function useWatchAgeVerificationStatusChange(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
             var8 = arg1;
             var _closure2_slot0 = var8;
@@ -642,7 +667,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = new Array(1);
             var5[0] = var4;
             var4 = function() {
-                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
                     var2 = _closure1_slot8;
                     var1 = var2.getCurrentUser;
@@ -650,7 +675,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0013_ip = 33; continue _fun0013 }
+                    if(var3) { _fun0014_ip = 33; continue _fun0014 }
  27:
                     var1 = var2.ageVerificationStatus;
  33:
@@ -659,7 +684,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var9 = var6.bind(var9)(var5, var4);
             var5 = _closure1_slot1;
-            var4 = 15;
+            var4 = 16;
             var4 = var11[var4];
             var4 = var5.bind(var1)(var4);
             var6 = var4.bind(var1)(var9);
@@ -692,17 +717,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var10.bind(var11)(var7, var4);
             var10 = null;
             var7 = var10 != var6;
-            if(!var7) { _fun0012_ip = 166; continue _fun0012 }
+            if(!var7) { _fun0013_ip = 166; continue _fun0013 }
  162:
             var7 = var10 != var9;
  166:
-            if(!var7) { _fun0012_ip = 173; continue _fun0012 }
+            if(!var7) { _fun0013_ip = 173; continue _fun0013 }
  169:
             var7 = var6 !== var9;
  173:
             var _closure2_slot1 = var7;
             var6 = !var5;
-            if(!var6) { _fun0012_ip = 186; continue _fun0012 }
+            if(!var6) { _fun0013_ip = 186; continue _fun0013 }
  183:
             var6 = !var4;
  186:
@@ -714,14 +739,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3[1] = var7;
             var3[2] = var6;
             var2 = function() {
-                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                     var2 = _closure2_slot1;
-                    if(var2) { _fun0014_ip = 14; continue _fun0014 }
+                    if(var2) { _fun0015_ip = 14; continue _fun0015 }
  10:
                     var2 = _closure2_slot2;
  14:
-                    if(!var2) { _fun0014_ip = 27; continue _fun0014 }
+                    if(!var2) { _fun0015_ip = 27; continue _fun0015 }
  17:
                     var2 = _closure2_slot0;
                     var1 = undefined;
@@ -737,12 +762,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['useWatchAgeVerificationStatusChange'] = var4;
     var2 = function isFullscreenAgeVerificationEntryPoint(arg1) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
             var4 = arg1;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0015_ip = 29; continue _fun0015 }
+            if(!var1) { _fun0016_ip = 29; continue _fun0016 }
  12:
             var3 = _closure1_slot9;
             var2 = var3.has;

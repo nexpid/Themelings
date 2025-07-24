@@ -1099,7 +1099,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = 45;
             var3 = var21[var3];
             var5 = var10.bind(var4)(var3);
-            var3 = var5.useIsPinPermissionMigrationAvailableToCurrentUser;
+            var3 = var5.useIsPinPermissionMigrationNotificationAvailable;
             var16 = var3.bind(var5)(var22);
             var8 = _closure1_slot4;
             var7 = var8.useEffect;

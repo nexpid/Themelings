@@ -275,21 +275,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = null;
             var1 = var12 == var6;
             var5 = undefined;
-            if(var1) { _fun0003_ip = 175; continue _fun0003 }
- 150:
+            if(var1) { _fun0003_ip = 176; continue _fun0003 }
+ 151:
             var1 = var6.isGroupDM;
             var1 = var12 == var1;
             var5 = undefined;
-            if(var1) { _fun0003_ip = 175; continue _fun0003 }
- 165:
+            if(var1) { _fun0003_ip = 176; continue _fun0003 }
+ 166:
             var1 = var6.isGroupDM;
             var5 = var1.bind(var6)();
- 175:
+ 176:
             var1 = var12 != var5;
-            if(!var1) { _fun0003_ip = 185; continue _fun0003 }
- 182:
+            if(!var1) { _fun0003_ip = 186; continue _fun0003 }
+ 183:
             var1 = var5;
- 185:
+ 186:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var5 = 5;
@@ -301,14 +301,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6['autoTrackExposure'] = var1;
             var5 = 'createChangeChannelNameSystemMessage';
             var5 = var8.bind(var9)(var5, var7, var6);
-            if(!var5) { _fun0003_ip = 240; continue _fun0003 }
- 237:
+            if(!var5) { _fun0003_ip = 241; continue _fun0003 }
+ 238:
             var5 = var1;
- 240:
+ 241:
             var6 = var11.content;
             var1 = '';
-            if(!(var1 !== var6)) { _fun0003_ip = 286; continue _fun0003 }
- 253:
+            if(!(var1 !== var6)) { _fun0003_ip = 287; continue _fun0003 }
+ 254:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 6;
@@ -316,8 +316,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var6.bind(var3)(var1);
             var1 = var1.t;
             var9 = var1.rk0be3;
-            _fun0003_ip = 319; continue _fun0003;
- 286:
+            _fun0003_ip = 320; continue _fun0003;
+ 287:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 6;
@@ -325,7 +325,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var6.bind(var3)(var1);
             var1 = var1.t;
             var9 = var1.hToFyc;
- 319:
+ 320:
             var1 = {};
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -334,29 +334,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7.bind(var3)(var6);
             var8 = var6.intl;
             var7 = var8.formatToParts;
-            if(var5) { _fun0003_ip = 429; continue _fun0003 }
- 355:
+            if(var5) { _fun0003_ip = 430; continue _fun0003 }
+ 356:
             var6 = var4.isForumPost;
             var15 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var16];
             var5 = var15.bind(var3)(var5);
             var5 = var5.t;
-            if(var6) { _fun0003_ip = 394; continue _fun0003 }
- 386:
+            if(var6) { _fun0003_ip = 395; continue _fun0003 }
+ 387:
             var6 = var5.XCPMEB;
-            _fun0003_ip = 400; continue _fun0003;
- 394:
+            _fun0003_ip = 401; continue _fun0003;
+ 395:
             var6 = var5.qa0e/v;
- 400:
+ 401:
             var5 = {};
             var5['username'] = var14;
             var5['usernameOnClick'] = var10;
             var15 = var11.content;
             var5['channelName'] = var15;
             var5 = var7.bind(var8)(var6, var5);
-            _fun0003_ip = 503; continue _fun0003;
- 429:
+            _fun0003_ip = 504; continue _fun0003;
+ 430:
             var6 = {};
             var6['username'] = var14;
             var6['usernameOnClick'] = var10;
@@ -367,16 +367,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['action'] = var14;
             var14 = var12 == var13;
             var12 = undefined;
-            if(var14) { _fun0003_ip = 477; continue _fun0003 }
- 471:
+            if(var14) { _fun0003_ip = 478; continue _fun0003 }
+ 472:
             var12 = var13.linkColor;
- 477:
+ 478:
             var10['linkColor'] = var12;
             var11 = var11.channel_id;
             var10['messageChannelId'] = var11;
             var6['onEditGroup'] = var10;
             var5 = var7.bind(var8)(var9, var6);
- 503:
+ 504:
             var1['content'] = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;

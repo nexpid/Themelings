@@ -392,7 +392,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!(var9 === var22)) { _fun0002_ip = 808; continue _fun0002 }
  802:
             var11 = null;
-            if(!(var9 !== var21)) { _fun0002_ip = 893; continue _fun0002 }
+            if(!(var9 !== var21)) { _fun0002_ip = 889; continue _fun0002 }
  808:
             var15 = _closure1_slot16;
             var12 = _closure1_slot0;
@@ -411,7 +411,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20[2] = var21;
             var9['children'] = var20;
             var11 = var15.bind(var4)(var12, var9);
- 893:
+ 889:
             var9 = new Array(2);
             var9[0] = var11;
             var12 = _closure1_slot15;
@@ -425,28 +425,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = new Array(2);
             var15[0] = var20;
             var20 = var16;
-            if(!var16) { _fun0002_ip = 953; continue _fun0002 }
- 947:
+            if(!var16) { _fun0002_ip = 949; continue _fun0002 }
+ 943:
             var20 = var17.buttonTextDisabled;
- 953:
+ 949:
             var15[1] = var20;
             var10['textStyle'] = var15;
             var20 = var17.footerButton;
             var15 = new Array(3);
             var15[0] = var20;
-            if(!var18) { _fun0002_ip = 982; continue _fun0002 }
- 979:
+            if(!var18) { _fun0002_ip = 978; continue _fun0002 }
+ 975:
             var18 = !var19;
- 982:
-            if(!var18) { _fun0002_ip = 991; continue _fun0002 }
- 985:
+ 978:
+            if(!var18) { _fun0002_ip = 987; continue _fun0002 }
+ 981:
             var18 = var17.buttonSkip;
- 991:
+ 987:
             var15[1] = var18;
-            if(!var16) { _fun0002_ip = 1004; continue _fun0002 }
- 998:
+            if(!var16) { _fun0002_ip = 1000; continue _fun0002 }
+ 994:
             var16 = var17.buttonDisabled;
- 1004:
+ 1000:
             var15[2] = var16;
             var10['style'] = var15;
             var10['text'] = var14;

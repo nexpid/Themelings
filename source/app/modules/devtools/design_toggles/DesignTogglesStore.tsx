@@ -71,7 +71,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var _closure1_slot4 = var2;
-    var2 = {'enable_recently_active': 'Enable recently active channels', 'theme_setting_in_account_sheet': 'Show theme settings in the Account action sheet', 'mobile_profile_effect_debug_controls': 'mobile_profile_effect_debug_controls', 'nav_experiment_server_drawer_enabled': '[NavI] Enable expandable server drawer', 'shop_include_unpublished': '[Shop] show unpublished items in shop', 'show_icymi_debug_scores': 'Show ICYMI debug scores', 'channel_list_scrim': 'Dim the channel list when chat appears'};
+    var2 = {'enable_recently_active': 'Enable recently active channels', 'theme_setting_in_account_sheet': 'Show theme settings in the Account action sheet', 'nav_experiment_server_drawer_enabled': '[NavI] Enable expandable server drawer', 'shop_include_unpublished': '[Shop] show unpublished items in shop', 'show_icymi_debug_scores': 'Show ICYMI debug scores', 'channel_list_scrim': 'Dim the channel list when chat appears'};
     var _closure1_slot5 = var2;
     var4 = {};
     var _closure1_slot6 = var4;

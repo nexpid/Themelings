@@ -221,10 +221,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['avatarURL'] = var6;
             var6 = null;
             var8 = var6 != var7;
-            if(!var8) { _fun0001_ip = 516; continue _fun0001 }
- 513:
+            if(!var8) { _fun0001_ip = 517; continue _fun0001 }
+ 514:
             var6 = var7;
- 516:
+ 517:
             var1['usernameColor'] = var6;
             var19 = var1;
             var18 = var5;
@@ -286,24 +286,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = null;
             var7 = 'username';
             var2 = null;
-            if(!(var7 === var11)) { _fun0003_ip = 230; continue _fun0003 }
- 227:
+            if(!(var7 === var11)) { _fun0003_ip = 231; continue _fun0003 }
+ 228:
             var2 = var10;
- 230:
+ 231:
             var1['linkColor'] = var2;
             var1['roleColor'] = var10;
             var2 = null;
-            if(!var16) { _fun0003_ip = 248; continue _fun0003 }
- 245:
+            if(!var16) { _fun0003_ip = 249; continue _fun0003 }
+ 246:
             var2 = var12;
- 248:
+ 249:
             var1['roleColors'] = var2;
             var2 = 'dot';
             var2 = var2 === var11;
-            if(!var2) { _fun0003_ip = 268; continue _fun0003 }
- 264:
+            if(!var2) { _fun0003_ip = 269; continue _fun0003 }
+ 265:
             var2 = var5 != var10;
- 268:
+ 269:
             var1['shouldShowRoleDot'] = var2;
             var2 = var15.channel_id;
             var1['messageChannelId'] = var2;
@@ -353,10 +353,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1[var7] = var6;
             var6 = var5 != var4;
             var5 = null;
-            if(!var6) { _fun0003_ip = 488; continue _fun0003 }
- 485:
+            if(!var6) { _fun0003_ip = 489; continue _fun0003 }
+ 486:
             var5 = var4;
- 488:
+ 489:
             var4 = 'usernameColor';
             var1[var4] = var5;
             var8 = _closure1_slot0;

@@ -78,13 +78,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = _closure1_slot3;
             var1 = {};
             var1['style'] = var7;
-            if(var5) { _fun0001_ip = 299; continue _fun0001 }
+            if(var5) { _fun0001_ip = 300; continue _fun0001 }
  143:
             var5 = null;
-            if(!(var5 != var13)) { _fun0001_ip = 299; continue _fun0001 }
+            if(!(var5 != var13)) { _fun0001_ip = 300; continue _fun0001 }
  152:
             var5 = '';
-            if(!(var5 !== var13)) { _fun0001_ip = 299; continue _fun0001 }
+            if(!(var5 !== var13)) { _fun0001_ip = 300; continue _fun0001 }
  163:
             var8 = _closure1_slot5;
             var7 = _closure1_slot1;
@@ -106,24 +106,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var14.bind(var15)(var12);
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
-            if(var12) { _fun0001_ip = 263; continue _fun0001 }
- 249:
+            if(var12) { _fun0001_ip = 264; continue _fun0001 }
+ 250:
             var12 = 10;
             var12 = var16[var12];
             var12 = var15.bind(var4)(var12);
-            _fun0001_ip = 275; continue _fun0001;
- 263:
+            _fun0001_ip = 276; continue _fun0001;
+ 264:
             var14 = 9;
             var14 = var16[var14];
             var12 = var15.bind(var4)(var14);
- 275:
+ 276:
             var5['placeholder'] = var12;
             var12 = {};
             var12['uri'] = var13;
             var5['source'] = var12;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 357; continue _fun0001;
- 299:
+            _fun0001_ip = 358; continue _fun0001;
+ 300:
             var8 = _closure1_slot5;
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -138,7 +138,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6['adjustsFontSizeToFit'] = var10;
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 357:
+ 358:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

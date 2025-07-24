@@ -105,30 +105,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var5 == var6;
             var1 = undefined;
             var3 = undefined;
-            if(var7) { _fun0001_ip = 43; continue _fun0001 }
- 38:
+            if(var7) { _fun0001_ip = 44; continue _fun0001 }
+ 39:
             var3 = var6.id;
- 43:
+ 44:
             var6 = var5 != var3;
             var10 = null;
-            if(!var6) { _fun0001_ip = 55; continue _fun0001 }
- 52:
+            if(!var6) { _fun0001_ip = 56; continue _fun0001 }
+ 53:
             var10 = var3;
- 55:
+ 56:
             var3 = _closure1_slot6;
             var3 = var3.settings;
             var6 = var3.appearance;
             var7 = var5 == var6;
             var3 = undefined;
-            if(var7) { _fun0001_ip = 101; continue _fun0001 }
- 80:
+            if(var7) { _fun0001_ip = 102; continue _fun0001 }
+ 81:
             var6 = var6.clientThemeSettings;
             var7 = var5 == var6;
             var3 = undefined;
-            if(var7) { _fun0001_ip = 101; continue _fun0001 }
- 95:
+            if(var7) { _fun0001_ip = 102; continue _fun0001 }
+ 96:
             var3 = var6.customUserThemeSettings;
- 101:
+ 102:
             var9 = var5 != var3;
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -212,32 +212,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = null;
             var5 = var1 != var7;
             var3 = null;
-            if(!var5) { _fun0002_ip = 159; continue _fun0002 }
+            if(!var5) { _fun0002_ip = 160; continue _fun0002 }
  129:
             var9 = var1 == var6;
             var5 = undefined;
-            if(var9) { _fun0002_ip = 156; continue _fun0002 }
+            if(var9) { _fun0002_ip = 157; continue _fun0002 }
  138:
             var6 = var6[var7];
             var7 = var1 == var6;
             var5 = undefined;
-            if(var7) { _fun0002_ip = 156; continue _fun0002 }
+            if(var7) { _fun0002_ip = 157; continue _fun0002 }
  151:
             var5 = var6.theme;
- 156:
+ 157:
             var3 = var5;
- 159:
-            if(!(var1 == var3)) { _fun0002_ip = 179; continue _fun0002 }
- 163:
+ 160:
+            if(!(var1 == var3)) { _fun0002_ip = 180; continue _fun0002 }
+ 164:
             var1 = _closure1_slot8;
             var1 = var1.MIDNIGHT;
             var1 = var4 === var1;
-            _fun0002_ip = 193; continue _fun0002;
- 179:
+            _fun0002_ip = 194; continue _fun0002;
+ 180:
             var2 = _closure1_slot8;
             var2 = var2.MIDNIGHT;
             var1 = var3 === var2;
- 193:
+ 194:
             return var1;
         }
     };

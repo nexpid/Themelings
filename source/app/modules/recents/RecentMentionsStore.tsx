@@ -166,31 +166,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var8.channel_id;
             var3 = var3.bind(var4)(var1);
             var1 = null;
-            if(!(var1 != var3)) { _fun0006_ip = 244; continue _fun0006 }
+            if(!(var1 != var3)) { _fun0006_ip = 280; continue _fun0006 }
  35:
             var4 = _closure1_slot21;
             var6 = var4.GUILD_TEXTUAL;
             var5 = var6.has;
             var4 = var3.type;
             var4 = var5.bind(var6)(var4);
-            if(!var4) { _fun0006_ip = 244; continue _fun0006 }
+            if(!var4) { _fun0006_ip = 280; continue _fun0006 }
  66:
+            var7 = _closure1_slot15;
+            var6 = var7.isGuildOrCategoryOrChannelMuted;
+            var5 = var3.guild_id;
+            var4 = var3.id;
+            var4 = var6.bind(var7)(var5, var4);
+            if(var4) { _fun0006_ip = 276; continue _fun0006 }
+ 98:
             var5 = _closure1_slot15;
             var4 = var5.resolvedMessageNotifications;
             var5 = var4.bind(var5)(var3);
             var4 = _closure1_slot20;
             var4 = var4.ALL_MESSAGES;
-            if(!(var4 !== var5)) { _fun0006_ip = 240; continue _fun0006 }
- 98:
+            if(!(var4 !== var5)) { _fun0006_ip = 272; continue _fun0006 }
+ 130:
             var4 = _closure1_slot20;
             var4 = var4.ONLY_MENTIONS;
-            if(!(var4 !== var5)) { _fun0006_ip = 126; continue _fun0006 }
- 112:
+            if(!(var4 !== var5)) { _fun0006_ip = 158; continue _fun0006 }
+ 144:
             var4 = _closure1_slot20;
             var4 = var4.NO_MESSAGES;
             var4 = false;
             return var4;
- 126:
+ 158:
             var6 = _closure1_slot15;
             var5 = var6.isSuppressEveryoneEnabled;
             var4 = var3.guild_id;
@@ -203,8 +210,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.getCurrentUser;
             var7 = var3.bind(var4)();
             var1 = var1 != var7;
-            if(!var1) { _fun0006_ip = 238; continue _fun0006 }
- 186:
+            if(!var1) { _fun0006_ip = 270; continue _fun0006 }
+ 218:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 17;
@@ -218,12 +225,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['suppressEveryone'] = var6;
             var2['suppressRoles'] = var5;
             var1 = var3.bind(var4)(var2);
- 238:
+ 270:
             return var1;
- 240:
+ 272:
             var1 = true;
             return var1;
- 244:
+ 276:
+            var1 = false;
+            return var1;
+ 280:
             var1 = false;
             return var1;
         }

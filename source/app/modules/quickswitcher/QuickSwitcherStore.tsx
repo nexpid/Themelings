@@ -1492,11 +1492,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = null;
                 var4 = var3 != var4;
                 var3 = '';
-                if(!var4) { _fun0022_ip = 44; continue _fun0022 }
- 35:
+                if(!var4) { _fun0022_ip = 46; continue _fun0022 }
+ 37:
                 var4 = _closure1_slot25;
                 var3 = var4.query;
- 44:
+ 46:
                 var1['query'] = var3;
                 var3 = _closure1_slot30;
                 var1['queryMode'] = var3;

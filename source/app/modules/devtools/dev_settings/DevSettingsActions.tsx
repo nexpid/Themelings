@@ -61,20 +61,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var2 = _closure1_slot2;
-            var1 = var2.all;
+            var1 = var2.enabled;
             var7 = var1.bind(var2)();
             var1 = undefined;
             var2 = false;
             for(var3 in var7)
- 29:
+ 28:
             {
- 38:
+ 37:
                 var10 = var3;
                 var9 = _closure1_slot3;
                 var9 = var9.bind(var1)(var10, var2);
-                _fun0002_ip = 29; continue _fun0002;
+                _fun0002_ip = 28; continue _fun0002;
             }
- 53:
+ 52:
             return var1;
         }
     };

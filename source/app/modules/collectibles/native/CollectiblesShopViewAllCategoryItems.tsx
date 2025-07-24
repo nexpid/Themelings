@@ -86,22 +86,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.bind(var4)(var2);
             var3 = var2.backgroundColors;
             var5 = null;
-            if(!(var5 != var7)) { _fun0001_ip = 101; continue _fun0001 }
- 90:
+            if(!(var5 != var7)) { _fun0001_ip = 100; continue _fun0001 }
+ 89:
             var8 = var7.length;
             var2 = 0;
-            if(!(!(var8 > var2))) { _fun0001_ip = 127; continue _fun0001 }
- 101:
+            if(!(!(var8 > var2))) { _fun0001_ip = 126; continue _fun0001 }
+ 100:
             var8 = var5 == var3;
             var5 = undefined;
-            if(var8) { _fun0001_ip = 125; continue _fun0001 }
- 110:
+            if(var8) { _fun0001_ip = 124; continue _fun0001 }
+ 109:
             var8 = var3.label;
             var3 = var8.toHexString;
             var5 = var3.bind(var8)();
- 125:
-            _fun0001_ip = 184; continue _fun0001;
- 127:
+ 124:
+            _fun0001_ip = 183; continue _fun0001;
+ 126:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var3 = 8;
@@ -112,12 +112,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.isDark;
             var3 = var2.bind(var3)();
             var2 = 'rgba(30, 30, 30, 0.8)';
-            if(!var3) { _fun0001_ip = 181; continue _fun0001 }
- 175:
+            if(!var3) { _fun0001_ip = 180; continue _fun0001 }
+ 174:
             var2 = 'rgba(255, 255, 255, 0.8)';
- 181:
+ 180:
             var5 = var2;
- 184:
+ 183:
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -250,13 +250,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var10.useNameplateFilter;
             var3 = var3.bind(var10)();
             var10 = var17.products;
-            if(var12) { _fun0002_ip = 390; continue _fun0002 }
- 383:
+            if(var12) { _fun0002_ip = 389; continue _fun0002 }
+ 382:
             var3 = var3.bind(var4)(var10);
-            _fun0002_ip = 393; continue _fun0002;
- 390:
+            _fun0002_ip = 392; continue _fun0002;
+ 389:
             var3 = var10;
- 393:
+ 392:
             var3 = var7.bind(var4)(var3);
             var16 = var6.bind(var4)(var3);
             var6 = _closure1_slot0;
@@ -329,10 +329,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = null;
             var3 = var20 == var8;
             var9 = undefined;
-            if(var3) { _fun0002_ip = 580; continue _fun0002 }
- 574:
+            if(var3) { _fun0002_ip = 579; continue _fun0002 }
+ 573:
             var9 = var8.sessionId;
- 580:
+ 579:
             var3 = new Array(3);
             var3[0] = var9;
             var3[1] = var5;
@@ -421,8 +421,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = new Array(4);
             var10[0] = var13;
             var23 = _closure1_slot7;
-            if(var12) { _fun0002_ip = 854; continue _fun0002 }
- 784:
+            if(var12) { _fun0002_ip = 853; continue _fun0002 }
+ 783:
             var13 = _closure1_slot1;
             var26 = _closure1_slot2;
             var12 = 9;
@@ -433,22 +433,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12['logo'] = var26;
             var26 = var20 == var25;
             var20 = undefined;
-            if(var26) { _fun0002_ip = 841; continue _fun0002 }
- 826:
+            if(var26) { _fun0002_ip = 840; continue _fun0002 }
+ 825:
             var26 = var25.label;
             var25 = var26.toHexString;
             var20 = var25.bind(var26)();
- 841:
+ 840:
             var12['buttonColor'] = var20;
             var12 = var23.bind(var4)(var13, var12);
-            _fun0002_ip = 876; continue _fun0002;
- 854:
+            _fun0002_ip = 874; continue _fun0002;
+ 853:
             var20 = _closure1_slot10;
             var13 = {};
             var13['category'] = var17;
             var13['backgroundUrl'] = var24;
             var12 = var23.bind(var4)(var20, var13);
- 876:
+ 874:
             var10[1] = var12;
             var13 = _closure1_slot7;
             var12 = _closure1_slot1;

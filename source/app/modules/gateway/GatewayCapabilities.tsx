@@ -31,10 +31,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.bind(var1)(var2);
             var1 = var2.isChannelMetadataObfuscationEnabled;
             var2 = var1.bind(var2)();
-            var1 = 948223;
+            var1 = 1734655;
             if(!var2) { _fun0001_ip = 49; continue _fun0001 }
  43:
-            var1 = 980991;
+            var1 = 1767423;
  49:
             return var1;
         }

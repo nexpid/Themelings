@@ -597,19 +597,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot1 = var2;
             var12 = var1.titleOverride;
             var2 = var1.isFractionalOnly;
+            var5 = var1.hidePrice;
             var1 = _closure1_slot12;
             var10 = var1.bind(var4)();
             var3 = _closure1_slot1;
-            var5 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var1 = 10;
-            var1 = var5[var1];
+            var1 = var7[var1];
             var1 = var3.bind(var4)(var1);
             var17 = var1.bind(var4)();
             var3 = _closure1_slot0;
             var1 = 18;
-            var1 = var5[var1];
-            var7 = var3.bind(var4)(var1);
-            var5 = var7.useStateFromStoresArray;
+            var1 = var7[var1];
+            var8 = var3.bind(var4)(var1);
+            var7 = var8.useStateFromStoresArray;
             var1 = _closure1_slot6;
             var3 = new Array(1);
             var3[0] = var1;
@@ -636,50 +637,50 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1[1] = var2;
                 return var1;
             };
-            var5 = var5.bind(var7)(var3, var1);
+            var7 = var7.bind(var8)(var3, var1);
             var3 = _closure1_slot3;
             var1 = 2;
-            var3 = var3.bind(var4)(var5, var1);
+            var3 = var3.bind(var4)(var7, var1);
             var1 = 0;
-            var5 = var3[var1];
+            var7 = var3[var1];
             var1 = 1;
             var3 = var3[var1];
             var13 = null;
-            var7 = var13 == var5;
+            var8 = var13 == var7;
             var1 = undefined;
-            if(var7) { _fun0003_ip = 182; continue _fun0003 }
- 176:
-            var1 = var5.priceString;
+            if(var8) { _fun0003_ip = 188; continue _fun0003 }
  182:
+            var1 = var7.priceString;
+ 188:
             var7 = var13 != var1;
-            var5 = '$...';
-            var11 = var5;
-            if(!var7) { _fun0003_ip = 201; continue _fun0003 }
- 198:
-            var11 = var1;
- 201:
+            var11 = '$...';
+            var21 = var11;
+            if(!var7) { _fun0003_ip = 207; continue _fun0003 }
+ 204:
+            var21 = var1;
+ 207:
             var7 = var13 == var3;
             var1 = undefined;
-            if(var7) { _fun0003_ip = 216; continue _fun0003 }
- 210:
-            var1 = var3.priceString;
+            if(var7) { _fun0003_ip = 222; continue _fun0003 }
  216:
+            var1 = var3.priceString;
+ 222:
             var3 = var13 != var1;
-            if(!var3) { _fun0003_ip = 226; continue _fun0003 }
- 223:
-            var5 = var1;
- 226:
-            var21 = _closure1_slot0;
+            if(!var3) { _fun0003_ip = 232; continue _fun0003 }
+ 229:
+            var11 = var1;
+ 232:
+            var22 = _closure1_slot0;
             var15 = _closure1_slot2;
             var3 = 20;
             var1 = var15[var3];
-            var14 = var21.bind(var4)(var1);
+            var14 = var22.bind(var4)(var1);
             var8 = var14.getMaxFileSizeForPremiumType;
             var1 = _closure1_slot9;
             var7 = var1.TIER_0;
             var20 = var8.bind(var14)(var7);
             var3 = var15[var3];
-            var7 = var21.bind(var4)(var3);
+            var7 = var22.bind(var4)(var3);
             var3 = var7.getMaxFileSizeForPremiumType;
             var1 = var1.TIER_2;
             var16 = var3.bind(var7)(var1);
@@ -694,22 +695,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['style'] = var19;
             var19 = 11;
             var15 = var15[var19];
-            var21 = var21.bind(var4)(var15);
-            var15 = var21.isThemeDark;
-            var15 = var15.bind(var21)(var17);
-            var22 = _closure1_slot1;
-            var23 = _closure1_slot2;
-            if(var15) { _fun0003_ip = 387; continue _fun0003 }
- 373:
+            var22 = var22.bind(var4)(var15);
+            var15 = var22.isThemeDark;
+            var15 = var15.bind(var22)(var17);
+            var23 = _closure1_slot1;
+            var24 = _closure1_slot2;
+            if(var15) { _fun0003_ip = 393; continue _fun0003 }
+ 379:
             var15 = 23;
-            var15 = var23[var15];
-            var15 = var22.bind(var4)(var15);
-            _fun0003_ip = 399; continue _fun0003;
- 387:
-            var21 = 22;
-            var21 = var23[var21];
-            var15 = var22.bind(var4)(var21);
- 399:
+            var15 = var24[var15];
+            var15 = var23.bind(var4)(var15);
+            _fun0003_ip = 405; continue _fun0003;
+ 393:
+            var22 = 22;
+            var22 = var24[var22];
+            var15 = var23.bind(var4)(var22);
+ 405:
             var7['source'] = var15;
             var7 = var14.bind(var4)(var8, var7);
             var1['column1'] = var7;
@@ -728,17 +729,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var14.bind(var15)(var17);
             var17 = _closure1_slot1;
             var19 = _closure1_slot2;
-            if(var14) { _fun0003_ip = 497; continue _fun0003 }
- 483:
+            if(var14) { _fun0003_ip = 503; continue _fun0003 }
+ 489:
             var14 = 25;
             var14 = var19[var14];
             var14 = var17.bind(var4)(var14);
-            _fun0003_ip = 509; continue _fun0003;
- 497:
+            _fun0003_ip = 515; continue _fun0003;
+ 503:
             var15 = 24;
             var15 = var19[var15];
             var14 = var17.bind(var4)(var15);
- 509:
+ 515:
             var3['source'] = var14;
             var3 = var8.bind(var4)(var7, var3);
             var1['column2'] = var3;
@@ -748,10 +749,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = {};
             var8 = _closure1_slot10;
             var19 = _closure1_slot16;
-            var21 = {};
+            var22 = {};
             var7 = _closure1_slot0;
             var14 = _closure1_slot2;
             var17 = 16;
+            var23 = var14[var17];
+            var23 = var7.bind(var4)(var23);
+            var25 = var23.intl;
+            var24 = var25.string;
+            var23 = var14[var17];
+            var23 = var7.bind(var4)(var23);
+            var23 = var23.t;
+            var23 = var23.LkKGZ2;
+            var23 = var24.bind(var25)(var23);
+            var22['text'] = var23;
+            var22 = var8.bind(var4)(var19, var22);
+            var1['label'] = var22;
             var22 = var14[var17];
             var22 = var7.bind(var4)(var22);
             var24 = var22.intl;
@@ -761,29 +774,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var22 = var22.t;
             var22 = var22.LkKGZ2;
             var22 = var23.bind(var24)(var22);
-            var21['text'] = var22;
-            var21 = var8.bind(var4)(var19, var21);
-            var1['label'] = var21;
-            var21 = var14[var17];
-            var21 = var7.bind(var4)(var21);
-            var23 = var21.intl;
-            var22 = var23.string;
-            var21 = var14[var17];
-            var21 = var7.bind(var4)(var21);
-            var21 = var21.t;
-            var21 = var21.LkKGZ2;
-            var21 = var22.bind(var23)(var21);
-            var1['rowName'] = var21;
+            var1['rowName'] = var22;
+            var22 = {};
+            var22['text'] = var21;
+            var22 = var8.bind(var4)(var19, var22);
+            var1['column1'] = var22;
+            var1['column1AccessibilityLabel'] = var21;
             var21 = {};
             var21['text'] = var11;
             var21 = var8.bind(var4)(var19, var21);
-            var1['column1'] = var21;
-            var1['column1AccessibilityLabel'] = var11;
-            var11 = {};
-            var11['text'] = var5;
-            var11 = var8.bind(var4)(var19, var11);
-            var1['column2'] = var11;
-            var1['column2AccessibilityLabel'] = var5;
+            var1['column2'] = var21;
+            var1['column2AccessibilityLabel'] = var11;
+            var1['hidden'] = var5;
             var3[1] = var1;
             var1 = {};
             var5 = {};
@@ -1185,8 +1187,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary', 'accessible': true};
             var14 = var10.headerText;
             var5['style'] = var14;
-            if(!(var13 == var12)) { _fun0003_ip = 2608; continue _fun0003 }
- 2556:
+            if(!(var13 == var12)) { _fun0003_ip = 2627; continue _fun0003 }
+ 2575:
             var16 = _closure1_slot0;
             var13 = _closure1_slot2;
             var14 = var13[var17];
@@ -1198,7 +1200,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var13.t;
             var13 = var13.vLz3Zm;
             var12 = var14.bind(var15)(var13);
- 2608:
+ 2627:
             var5['children'] = var12;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);

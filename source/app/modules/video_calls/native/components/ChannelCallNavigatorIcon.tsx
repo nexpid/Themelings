@@ -112,15 +112,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var1.disabled;
             var14 = var1.theme;
             var4 = undefined;
-            if(!(var14 === var4)) { _fun0001_ip = 55; continue _fun0001 }
- 51:
+            if(!(var14 === var4)) { _fun0001_ip = 56; continue _fun0001 }
+ 52:
             var14 = 'dark';
- 55:
+ 56:
             var10 = var1.disableBackground;
-            if(!(var10 === var4)) { _fun0001_ip = 67; continue _fun0001 }
- 65:
+            if(!(var10 === var4)) { _fun0001_ip = 68; continue _fun0001 }
+ 66:
             var10 = true;
- 67:
+ 68:
             var17 = var1.containerStyle;
             var18 = var1.IconComponent;
             var1 = _closure1_slot8;
@@ -167,10 +167,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = new Array(3);
             var11[0] = var19;
             var11[1] = var17;
-            if(!var13) { _fun0001_ip = 206; continue _fun0001 }
- 201:
+            if(!var13) { _fun0001_ip = 207; continue _fun0001 }
+ 202:
             var13 = var16.disabled;
- 206:
+ 207:
             var11[2] = var13;
             var8['style'] = var11;
             var13 = _closure1_slot0;
@@ -182,11 +182,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var11.bind(var13)(var14);
             var11 = null;
             var13 = null;
-            if(!var14) { _fun0001_ip = 312; continue _fun0001 }
- 252:
+            if(!var14) { _fun0001_ip = 313; continue _fun0001 }
+ 253:
             var13 = null;
-            if(var10) { _fun0001_ip = 312; continue _fun0001 }
- 257:
+            if(var10) { _fun0001_ip = 313; continue _fun0001 }
+ 258:
             var17 = _closure1_slot6;
             var14 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -200,11 +200,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = var19.absoluteFill;
             var10['style'] = var19;
             var13 = var17.bind(var4)(var14, var10);
- 312:
+ 313:
             var10 = new Array(3);
             var10[0] = var13;
-            if(!(var11 == var18)) { _fun0001_ip = 402; continue _fun0001 }
- 324:
+            if(!(var11 == var18)) { _fun0001_ip = 403; continue _fun0001 }
+ 325:
             var17 = _closure1_slot6;
             var20 = _closure1_slot1;
             var21 = _closure1_slot2;
@@ -222,8 +222,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = var19.SMALL_20;
             var13['size'] = var19;
             var13 = var17.bind(var4)(var14, var13);
-            _fun0001_ip = 437; continue _fun0001;
- 402:
+            _fun0001_ip = 438; continue _fun0001;
+ 403:
             var17 = _closure1_slot6;
             var14 = {};
             var19 = var16.iconColor;
@@ -232,16 +232,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = 'sm';
             var14['size'] = var19;
             var13 = var17.bind(var4)(var18, var14);
- 437:
+ 438:
             var10[1] = var13;
             var11 = var11 != var15;
-            if(!var11) { _fun0001_ip = 454; continue _fun0001 }
- 448:
+            if(!var11) { _fun0001_ip = 455; continue _fun0001 }
+ 449:
             var13 = 0;
             var11 = var15 > var13;
- 454:
-            if(!var11) { _fun0001_ip = 508; continue _fun0001 }
- 457:
+ 455:
+            if(!var11) { _fun0001_ip = 509; continue _fun0001 }
+ 458:
             var14 = _closure1_slot6;
             var13 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -254,7 +254,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12['style'] = var16;
             var12['children'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 508:
+ 509:
             var10[2] = var11;
             var8['children'] = var10;
             var10 = var7.bind(var4)(var2, var8);
