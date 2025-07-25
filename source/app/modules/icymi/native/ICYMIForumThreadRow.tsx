@@ -129,30 +129,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     var4 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var5 = 10;
-                    var2 = var1[var5];
+                    var2 = _closure1_slot2;
+                    var1 = 10;
+                    var2 = var2[var1];
                     var1 = undefined;
-                    var9 = var4.bind(var1)(var2);
-                    var8 = var9.trackItemInteraction;
+                    var2 = var4.bind(var1)(var2);
+                    var8 = var2.ICYMIAnalytics;
+                    var7 = var8.trackItemInteraction;
                     var4 = _closure2_slot1;
-                    var7 = var4.id;
-                    var6 = 'forum_thread';
+                    var6 = var4.id;
+                    var5 = 'forum_thread';
                     var4 = 'press_forum_thread';
-                    var4 = var8.bind(var9)(var7, var6, var4);
+                    var4 = var7.bind(var8)(var6, var5, var4);
                     var4 = _closure2_slot0;
-                    var7 = null;
-                    var4 = var7 != var4;
-                    if(!var4) { _fun0004_ip = 83; continue _fun0004 }
- 75:
-                    var6 = _closure2_slot2;
-                    var4 = var7 != var6;
- 83:
-                    if(!var4) { _fun0004_ip = 143; continue _fun0004 }
- 86:
+                    var6 = null;
+                    var4 = var6 != var4;
+                    if(!var4) { _fun0004_ip = 89; continue _fun0004 }
+ 81:
+                    var5 = _closure2_slot2;
+                    var4 = var6 != var5;
+ 89:
+                    if(!var4) { _fun0004_ip = 152; continue _fun0004 }
+ 92:
                     var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var3 = var3[var5];
+                    var5 = _closure1_slot2;
+                    var3 = 11;
+                    var3 = var5[var3];
                     var6 = var4.bind(var1)(var3);
                     var5 = var6.navigateToPost;
                     var3 = _closure2_slot0;
@@ -162,7 +164,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = _closure2_slot1;
                     var2 = var2.id;
                     var2 = var5.bind(var6)(var4, var3, var2);
- 143:
+ 152:
                     return var1;
                 }
             };
@@ -180,28 +182,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = _closure2_slot0;
                     var3 = var2.parent_id;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0005_ip = 111; continue _fun0005 }
+                    if(!(var2 != var3)) { _fun0005_ip = 117; continue _fun0005 }
  19:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var2 = 10;
                     var2 = var5[var2];
                     var3 = undefined;
-                    var9 = var4.bind(var3)(var2);
+                    var2 = var4.bind(var3)(var2);
+                    var9 = var2.ICYMIAnalytics;
                     var8 = var9.trackItemInteraction;
                     var2 = _closure2_slot1;
                     var7 = var2.id;
                     var6 = 'forum_thread';
                     var2 = 'long_press_forum_thread';
                     var2 = var8.bind(var9)(var7, var6, var2);
-                    var2 = 11;
+                    var2 = 12;
                     var2 = var5[var2];
                     var3 = var4.bind(var3)(var2);
                     var2 = var3.openChannelLongPressActionSheet;
                     var1 = _closure2_slot0;
                     var1 = var1.parent_id;
                     var1 = var2.bind(var3)(var1);
- 111:
+ 117:
                     var1 = undefined;
                     return var1;
                 }
@@ -223,24 +226,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                    var5 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var4 = 10;
-                    var3 = var1[var4];
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 10;
+                    var3 = var3[var1];
                     var1 = undefined;
-                    var10 = var5.bind(var1)(var3);
-                    var9 = var10.trackItemInteraction;
+                    var3 = var4.bind(var1)(var3);
+                    var9 = var3.ICYMIAnalytics;
+                    var8 = var9.trackItemInteraction;
                     var3 = _closure2_slot1;
-                    var8 = var3.id;
-                    var7 = 'forum_thread';
-                    var5 = 'press_comments';
-                    var5 = var9.bind(var10)(var8, var7, var5);
+                    var7 = var3.id;
+                    var5 = 'forum_thread';
+                    var4 = 'press_comments';
+                    var4 = var8.bind(var9)(var7, var5, var4);
                     var7 = null;
-                    if(!(var7 != var3)) { _fun0006_ip = 129; continue _fun0006 }
- 68:
+                    if(!(var7 != var3)) { _fun0006_ip = 138; continue _fun0006 }
+ 74:
                     var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var2 = var2[var4];
+                    var4 = _closure1_slot2;
+                    var2 = 11;
+                    var2 = var4[var2];
                     var5 = var3.bind(var1)(var2);
                     var4 = var5.navigateToPost;
                     var2 = _closure2_slot0;
@@ -248,13 +253,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = _closure2_slot2;
                     var7 = var7 == var2;
                     var2 = undefined;
-                    if(var7) { _fun0006_ip = 122; continue _fun0006 }
- 113:
+                    if(var7) { _fun0006_ip = 131; continue _fun0006 }
+ 122:
                     var6 = _closure2_slot2;
                     var2 = var6.id;
- 122:
+ 131:
                     var2 = var4.bind(var5)(var3, var2, var1);
- 129:
+ 138:
                     return var1;
                 }
             };
@@ -283,7 +288,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = _closure1_slot8;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var18 = 10;
+            var18 = 11;
             var2 = var16[var18];
             var2 = var12.bind(var5)(var2);
             var3 = var2.MessageContentPost;
@@ -294,7 +299,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var14.id;
             var2['id'] = var6;
             var24 = _closure1_slot1;
-            var6 = 12;
+            var6 = 13;
             var6 = var16[var6];
             var8 = var24.bind(var5)(var6);
             var7 = var8.extractTimestamp;
@@ -307,7 +312,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['onHeaderLongPress'] = var9;
             var2['message'] = var14;
             var8 = _closure1_slot7;
-            var6 = 13;
+            var6 = 14;
             var6 = var16[var6];
             var6 = var12.bind(var5)(var6);
             var7 = var6.PressableHighlight;
@@ -326,7 +331,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var19.container;
             var9['style'] = var17;
             var25 = _closure1_slot7;
-            var20 = 14;
+            var20 = 15;
             var17 = var16[var20];
             var17 = var12.bind(var5)(var17);
             var23 = var17.Text;
@@ -343,7 +348,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = {'variant': 'text-md/normal', 'color': 'text-secondary', 'style': null, 'lineClamp': 5};
             var23 = var19.subtitle;
             var20['style'] = var23;
-            var23 = 15;
+            var23 = 16;
             var23 = var16[var23];
             var30 = var24.bind(var5)(var23);
             var29 = var30.parseInlineReply;
@@ -354,7 +359,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = var27.bind(var5)(var25, var20);
             var17[1] = var20;
             var25 = _closure1_slot7;
-            var20 = 16;
+            var20 = 17;
             var20 = var16[var20];
             var24 = var24.bind(var5)(var20);
             var20 = {};
@@ -393,7 +398,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = new Array(2);
             var10[0] = var13;
             var13 = _closure1_slot7;
-            var11 = 17;
+            var11 = 18;
             var11 = var16[var11];
             var11 = var12.bind(var5)(var11);
             var12 = var11.MessageReplyRow;
@@ -484,7 +489,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var6['threadAsComments'] = var11;
     var6 = var9.bind(var10)(var6);
     var _closure1_slot9 = var6;
-    var6 = 18;
+    var6 = 19;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

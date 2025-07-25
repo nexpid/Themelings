@@ -582,16 +582,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var11.bind(var5)(var6);
             var6 = var11.isFreeCollectiblesProduct;
             var6 = var6.bind(var11)(var8);
-            if(var10) { _fun0007_ip = 389; continue _fun0007 }
+            if(var10) { _fun0007_ip = 399; continue _fun0007 }
  167:
-            if(var1) { _fun0007_ip = 287; continue _fun0007 }
- 170:
-            if(!var4) { _fun0007_ip = 219; continue _fun0007 }
+            if(var1) { _fun0007_ip = 297; continue _fun0007 }
  173:
-            if(var3) { _fun0007_ip = 219; continue _fun0007 }
+            if(!var4) { _fun0007_ip = 229; continue _fun0007 }
  176:
-            if(var6) { _fun0007_ip = 219; continue _fun0007 }
+            if(var3) { _fun0007_ip = 229; continue _fun0007 }
  179:
+            if(var6) { _fun0007_ip = 229; continue _fun0007 }
+ 182:
             var11 = _closure1_slot8;
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -600,15 +600,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var10.bind(var5)(var1);
             var10 = var1.UnlockWithNitroButton;
             var1 = {};
+            var12 = true;
+            var1['shouldShrink'] = var12;
             var1 = var11.bind(var5)(var10, var1);
-            _fun0007_ip = 285; continue _fun0007;
- 219:
-            if(var6) { _fun0007_ip = 261; continue _fun0007 }
- 222:
-            if(!var4) { _fun0007_ip = 228; continue _fun0007 }
- 225:
-            if(var3) { _fun0007_ip = 261; continue _fun0007 }
- 228:
+            _fun0007_ip = 295; continue _fun0007;
+ 229:
+            if(var6) { _fun0007_ip = 271; continue _fun0007 }
+ 232:
+            if(!var4) { _fun0007_ip = 238; continue _fun0007 }
+ 235:
+            if(var3) { _fun0007_ip = 271; continue _fun0007 }
+ 238:
             var6 = _closure1_slot8;
             var4 = _closure1_slot12;
             var3 = {};
@@ -616,18 +618,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['onMainScreen'] = var9;
             var3['isFetchingGoogleSkus'] = var7;
             var3 = var6.bind(var5)(var4, var3);
-            _fun0007_ip = 282; continue _fun0007;
- 261:
+            _fun0007_ip = 292; continue _fun0007;
+ 271:
             var7 = _closure1_slot8;
             var6 = _closure1_slot11;
             var4 = {};
             var4['product'] = var8;
             var3 = var7.bind(var5)(var6, var4);
- 282:
+ 292:
             var1 = var3;
- 285:
-            _fun0007_ip = 387; continue _fun0007;
- 287:
+ 295:
+            _fun0007_ip = 397; continue _fun0007;
+ 297:
             var6 = _closure1_slot8;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -648,9 +650,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var8.bind(var9)(var7);
             var3['children'] = var7;
             var1 = var6.bind(var5)(var4, var3);
- 387:
-            _fun0007_ip = 489; continue _fun0007;
- 389:
+ 397:
+            _fun0007_ip = 499; continue _fun0007;
+ 399:
             var4 = _closure1_slot8;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -671,7 +673,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7.bind(var8)(var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 489:
+ 499:
             return var1;
         }
     };

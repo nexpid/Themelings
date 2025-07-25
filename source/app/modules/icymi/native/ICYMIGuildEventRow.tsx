@@ -127,7 +127,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 14;
                 var2 = var4[var1];
                 var1 = undefined;
-                var9 = var3.bind(var1)(var2);
+                var2 = var3.bind(var1)(var2);
+                var9 = var2.ICYMIAnalytics;
                 var8 = var9.trackItemInteraction;
                 var7 = var5.id;
                 var6 = 'guild_event';
@@ -162,7 +163,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 14;
                 var2 = var5[var1];
                 var1 = undefined;
-                var9 = var4.bind(var1)(var2);
+                var2 = var4.bind(var1)(var2);
+                var9 = var2.ICYMIAnalytics;
                 var8 = var9.trackItemInteraction;
                 var3 = _closure2_slot0;
                 var7 = var3.id;
@@ -210,7 +212,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot10;
             var14 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 14;
+            var1 = 18;
             var1 = var11[var1];
             var1 = var14.bind(var4)(var1);
             var2 = var1.GuildEventPost;
@@ -228,7 +230,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var1['onHeaderPress'] = var5;
             var7 = _closure1_slot11;
-            var5 = 18;
+            var5 = 19;
             var5 = var11[var5];
             var5 = var14.bind(var4)(var5);
             var6 = var5.Card;
@@ -249,7 +251,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var25.timeAndUserPillContainer;
             var8['style'] = var15;
             var15 = _closure1_slot10;
-            var22 = 19;
+            var22 = 20;
             var11 = var11[var22];
             var11 = var14.bind(var4)(var11);
             var14 = var11.Text;
@@ -304,7 +306,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var15.bind(var4)(var10);
             var11 = var10.Text;
             var10 = {'variant': 'text-md/normal', 'color': 'text-secondary', 'lineClamp': 5};
-            var14 = 20;
+            var14 = 21;
             var14 = var16[var14];
             var16 = var15.bind(var4)(var14);
             var15 = var16.guildEventDetailsParser;
@@ -337,7 +339,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var27 = _closure1_slot10;
             var17 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var15 = 21;
+            var15 = 22;
             var15 = var16[var15];
             var15 = var17.bind(var4)(var15);
             var18 = var15.GroupIcon;
@@ -380,7 +382,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var27 = _closure1_slot10;
             var29 = _closure1_slot1;
             var30 = _closure1_slot2;
-            var28 = 22;
+            var28 = 23;
             var16 = var30[var28];
             var18 = var29.bind(var4)(var16);
             var16 = {};
@@ -419,7 +421,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  1283:
             var22 = _closure1_slot0;
             var25 = _closure1_slot2;
-            var21 = 20;
+            var21 = 21;
             var21 = var25[var21];
             var22 = var22.bind(var4)(var21);
             var21 = var22.guildEventDetailsParser;
@@ -548,7 +550,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['locationContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 24;
+    var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -562,7 +564,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot0 = var2;
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 23;
+            var3 = 24;
             var6 = var7[var3];
             var5 = undefined;
             var10 = var4.bind(var5)(var6);

@@ -192,20 +192,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                                 var1 = arg1;
                                 var3 = var1.index;
-                                var1 = var1.isViewable;
-                                var2 = null;
-                                if(!(var2 !== var3)) { _fun0003_ip = 52; continue _fun0003 }
- 20:
+                                var2 = var1.isViewable;
+                                var1 = null;
+                                var1 = var1 !== var3;
+                                if(!var1) { _fun0003_ip = 26; continue _fun0003 }
+ 23:
+                                var1 = var2;
+ 26:
+                                if(!var1) { _fun0003_ip = 46; continue _fun0003 }
+ 29:
                                 var2 = _closure5_slot0;
-                                if(var1) { _fun0003_ip = 42; continue _fun0003 }
- 30:
-                                var1 = var2.delete;
-                                var1 = var1.bind(var2)(var3);
-                                _fun0003_ip = 52; continue _fun0003;
- 42:
                                 var1 = var2.add;
                                 var1 = var1.bind(var2)(var3);
- 52:
+ 46:
                                 var1 = undefined;
                                 return var1;
                             }

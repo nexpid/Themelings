@@ -64,7 +64,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     StartGenerator();
                     var4 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 415; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 392; continue _fun0001 }
  13:
                     var3 = undefined;
                     if(!(var4 === var3)) { _fun0001_ip = 21; continue _fun0001 }
@@ -77,24 +77,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var3;
  27:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                    if(var6) { _fun0001_ip = 412; continue _fun0001 }
+                    if(var6) { _fun0001_ip = 389; continue _fun0001 }
  36:
-                    if(var4) { _fun0001_ip = 62; continue _fun0001 }
- 39:
                     var6 = _closure1_slot4;
-                    var4 = var6.hasFetched;
-                    var4 = var4.bind(var6)();
-                    if(var4) { _fun0001_ip = 409; continue _fun0001 }
- 62:
-                    var4 = _closure1_slot4;
-                    var4 = var4.isFetchingAll;
-                    if(var4) { _fun0001_ip = 409; continue _fun0001 }
- 81:
+                    var6 = var6.isFetchingAll;
+                    if(var6) { _fun0001_ip = 386; continue _fun0001 }
+ 55:
+                    if(var4) { _fun0001_ip = 80; continue _fun0001 }
+ 58:
                     var6 = _closure1_slot4;
                     var4 = var6.canFetch;
                     var4 = var4.bind(var6)();
-                    if(!var4) { _fun0001_ip = 409; continue _fun0001 }
- 103:
+                    if(!var4) { _fun0001_ip = 386; continue _fun0001 }
+ 80:
                     var7 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var6 = 3;
@@ -105,7 +100,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = 'PROFILE_EFFECTS_FETCH_ALL';
                     var4['type'] = var10;
                     var4 = var7.bind(var9)(var4);
- 145: // try_start_0
+ 122: // try_start_0
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var4 = 4;
@@ -120,22 +115,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = false;
                     var4['rejectWithError'] = var10;
                     var4 = var7.bind(var9)(var4);
-                    SaveGenerator(address=206);
- 204:
+                    SaveGenerator(address=183);
+ 181:
                     return var4;
- 206:
+ 183:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 299; continue _fun0001 }
- 212:
+                    if(var7) { _fun0001_ip = 276; continue _fun0001 }
+ 189:
                     var9 = var4.body;
                     var5 = var9;
                     var7 = null;
                     var7 = var7 == var9;
                     var9 = undefined;
-                    if(var7) { _fun0001_ip = 239; continue _fun0001 }
- 231:
+                    if(var7) { _fun0001_ip = 216; continue _fun0001 }
+ 208:
                     var9 = var5.profile_effect_configs;
- 239:
+ 216:
                     var7 = var9.map;
                     var5 = _closure1_slot6;
                     var10 = var7.bind(var9)(var5);
@@ -149,11 +144,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5['type'] = var11;
                     var5['presets'] = var10;
                     var5 = var7.bind(var9)(var5);
- 297: // try_end0
-                    _fun0001_ip = 409; continue _fun0001;
- 299:
+ 274: // try_end0
+                    _fun0001_ip = 386; continue _fun0001;
+ 276:
                     return var4;
- 302: // catch_target0
+ 279: // catch_target0
                     CatchBlockStart(arg_register=9);
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -180,11 +175,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4['type'] = var8;
                     var4['error'] = var7;
                     var4 = var5.bind(var6)(var4);
- 409:
+ 386:
                     return var3;
- 412:
+ 389:
                     return var2;
- 415:
+ 392:
                     return var1;
                 }
             };
@@ -213,7 +208,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/profile_effects/ProfileEffectActionCreators.tsx';
     var5 = var6.bind(var7)(var5);
-    var3['fetchAllProfileEffects'] = var4;
+    var3['maybeFetchAllProfileEffects'] = var4;
     var2 = function(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

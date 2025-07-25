@@ -53,14 +53,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['code'] = var7;
     var _closure1_slot13 = var4;
     var4 = {};
-    var7 = 'function useLaunchPadGestureTsx5(event,manager){const{gestureState,State,getWindowDimensionsWorklet,launchPadType,LaunchPadTypes,LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE,searchEnabled,LAUNCH_PAD_PULL_TAB_WIDTH,LAUNCH_PAD_PULL_TAB_HIT_SLOP,launchPadPullTabState,LAUNCH_PAD_PULL_TAB_HEIGHT,updaters,LAUNCH_PAD_PULL_TAB_SCALE_FACTOR,launchPadSharedState,MANUAL_ACTIVATION_THRESHOLD}=this.__closure;const{active:active,initialLaunchPadPosition:initialLaunchPadPosition,initialTouchX:initialTouchX,initialTouchY:initialTouchY}=gestureState.get();if(event.state!==State.BEGAN||active)return;const currentTouch=event.changedTouches[0];const{x:x,y:y}=currentTouch;const{width:windowWidth}=getWindowDimensionsWorklet();if(currentTouch==null||launchPadType===LaunchPadTypes.GESTURE_EDGE&&initialLaunchPadPosition===0&&initialTouchX<windowWidth-LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE||!searchEnabled&&launchPadType===LaunchPadTypes.DISABLED){manager.fail();return;}if(searchEnabled&&launchPadType===LaunchPadTypes.DISABLED&&gestureState.get().initialLaunchPadPosition===0){manager.fail();return;}if(launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition===0){const inPullTabX=x>windowWidth-LAUNCH_PAD_PULL_TAB_WIDTH-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&x<windowWidth;const inPullTabY=y>launchPadPullTabState.get().position-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&y<launchPadPullTabState.get().position+LAUNCH_PAD_PULL_TAB_HEIGHT+LAUNCH_PAD_PULL_TAB_HIT_SLOP;if(inPullTabX&&inPullTabY){gestureState.set({...gestureState.get(),initialPullTabPosition:launchPadPullTabState.get().position,active:true});updaters.setLaunchPadPullTabScale(LAUNCH_PAD_PULL_TAB_SCALE_FACTOR);updaters.setLaunchPadShown(true);manager.activate();return;}}if(launchPadType!==LaunchPadTypes.PULL_TAB||launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition>0){const horizontalDistance=x-initialTouchX;const verticalDistance=Math.abs(y-initialTouchY);const hasMovedCorrectDirection=launchPadSharedState.get()>0&&horizontalDistance>0||launchPadSharedState.get()<=0&&horizontalDistance<0;if(hasMovedCorrectDirection&&Math.abs(horizontalDistance)>verticalDistance){if(Math.abs(horizontalDistance)<MANUAL_ACTIVATION_THRESHOLD){return;}gestureState.set({...gestureState.get(),active:true});updaters.setLaunchPadShown(true);manager.activate();return;}}manager.fail();}';
+    var7 = 'function useLaunchPadGestureTsx5(event,manager){const{gestureState,State,getWindowDimensionsWorklet,launchPadType,LaunchPadTypes,LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE,LAUNCH_PAD_PULL_TAB_WIDTH,LAUNCH_PAD_PULL_TAB_HIT_SLOP,launchPadPullTabState,LAUNCH_PAD_PULL_TAB_HEIGHT,updaters,LAUNCH_PAD_PULL_TAB_SCALE_FACTOR,launchPadSharedState,MANUAL_ACTIVATION_THRESHOLD}=this.__closure;const{active:active,initialLaunchPadPosition:initialLaunchPadPosition,initialTouchX:initialTouchX,initialTouchY:initialTouchY}=gestureState.get();if(event.state!==State.BEGAN||active)return;const currentTouch=event.changedTouches[0];const{x:x,y:y}=currentTouch;const{width:windowWidth}=getWindowDimensionsWorklet();if(currentTouch==null||launchPadType===LaunchPadTypes.GESTURE_EDGE&&initialLaunchPadPosition===0&&initialTouchX<windowWidth-LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE||launchPadType===LaunchPadTypes.DISABLED){manager.fail();return;}if(launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition===0){const inPullTabX=x>windowWidth-LAUNCH_PAD_PULL_TAB_WIDTH-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&x<windowWidth;const inPullTabY=y>launchPadPullTabState.get().position-LAUNCH_PAD_PULL_TAB_HIT_SLOP&&y<launchPadPullTabState.get().position+LAUNCH_PAD_PULL_TAB_HEIGHT+LAUNCH_PAD_PULL_TAB_HIT_SLOP;if(inPullTabX&&inPullTabY){gestureState.set({...gestureState.get(),initialPullTabPosition:launchPadPullTabState.get().position,active:true});updaters.setLaunchPadPullTabScale(LAUNCH_PAD_PULL_TAB_SCALE_FACTOR);updaters.setLaunchPadShown(true);manager.activate();return;}}if(launchPadType!==LaunchPadTypes.PULL_TAB||launchPadType===LaunchPadTypes.PULL_TAB&&initialLaunchPadPosition>0){const horizontalDistance=x-initialTouchX;const verticalDistance=Math.abs(y-initialTouchY);const hasMovedCorrectDirection=launchPadSharedState.get()>0&&horizontalDistance>0||launchPadSharedState.get()<=0&&horizontalDistance<0;if(hasMovedCorrectDirection&&Math.abs(horizontalDistance)>verticalDistance){if(Math.abs(horizontalDistance)<MANUAL_ACTIVATION_THRESHOLD){return;}gestureState.set({...gestureState.get(),active:true});updaters.setLaunchPadShown(true);manager.activate();return;}}manager.fail();}';
     var4['code'] = var7;
     var _closure1_slot14 = var4;
     var4 = {};
     var7 = 'function useLaunchPadGestureTsx6(event){const{gestureState,launchPadSharedState}=this.__closure;const{x:x,y:y}=event.changedTouches[0];gestureState.set({active:false,initialLaunchPadPosition:launchPadSharedState.get(),initialPullTabPosition:0,initialTouchX:x,initialTouchY:y,positionOffsetX:0,positionOffsetY:0,startTime:Date.now(),requiresPop:launchPadSharedState.get()===0,startShown:!(launchPadSharedState.get()===0)});}';
     var4['code'] = var7;
     var _closure1_slot15 = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -68,54 +68,45 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var5.bind(var6)(var4);
     var2 = function useLaunchPadGesture(arg1) {
         var1 = arg1;
-        var9 = var1.launchPadType;
-        var _closure2_slot0 = var9;
-        var10 = var1.launchPadSharedState;
-        var _closure2_slot1 = var10;
-        var11 = var1.launchPadPullTabState;
-        var _closure2_slot2 = var11;
-        var14 = var1.gestureState;
-        var _closure2_slot3 = var14;
-        var8 = var1.updaters;
-        var _closure2_slot4 = var8;
+        var8 = var1.launchPadType;
+        var _closure2_slot0 = var8;
+        var9 = var1.launchPadSharedState;
+        var _closure2_slot1 = var9;
+        var10 = var1.launchPadPullTabState;
+        var _closure2_slot2 = var10;
+        var13 = var1.gestureState;
+        var _closure2_slot3 = var13;
+        var7 = var1.updaters;
+        var _closure2_slot4 = var7;
         var5 = _closure1_slot0;
-        var7 = _closure1_slot2;
+        var6 = _closure1_slot2;
         var2 = 2;
-        var2 = var7[var2];
-        var4 = undefined;
-        var6 = var5.bind(var4)(var2);
-        var2 = var6.useIsModalOpen;
-        var12 = var2.bind(var6)();
-        var _closure2_slot5 = var12;
-        var6 = _closure1_slot1;
-        var2 = 3;
-        var2 = var7[var2];
-        var2 = var6.bind(var4)(var2);
-        var13 = var2.bind(var4)();
-        var _closure2_slot6 = var13;
+        var4 = var6[var2];
+        var2 = undefined;
+        var5 = var5.bind(var2)(var4);
+        var4 = var5.useIsModalOpen;
+        var11 = var4.bind(var5)();
+        var _closure2_slot5 = var11;
+        var5 = _closure1_slot1;
+        var4 = 3;
+        var4 = var6[var4];
+        var4 = var5.bind(var2)(var4);
+        var12 = var4.bind(var2)();
+        var _closure2_slot6 = var12;
         var6 = _closure1_slot3;
         var1 = var6.useRef;
-        var2 = var1.bind(var6)(var4);
+        var2 = var1.bind(var6)(var2);
         var _closure2_slot7 = var2;
-        var1 = 4;
-        var1 = var7[var1];
-        var5 = var5.bind(var4)(var1);
-        var4 = var5.useICYMISearchExperienceExperiment;
-        var1 = 'useLaunchPadGesture';
-        var1 = var4.bind(var5)(var1);
-        var7 = var1.searchEnabled;
-        var _closure2_slot8 = var7;
         var1 = {};
         var5 = var6.useMemo;
-        var4 = new Array(8);
-        var4[0] = var14;
-        var4[1] = var13;
-        var4[2] = var12;
-        var4[3] = var11;
-        var4[4] = var10;
-        var4[5] = var9;
-        var4[6] = var8;
-        var4[7] = var7;
+        var4 = new Array(7);
+        var4[0] = var13;
+        var4[1] = var12;
+        var4[2] = var11;
+        var4[3] = var10;
+        var4[4] = var9;
+        var4[5] = var8;
+        var4[6] = var7;
         var3 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -132,7 +123,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  44:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var8 = 5;
+                var8 = 4;
                 var2 = var2[var8];
                 var10 = undefined;
                 var2 = var3.bind(var10)(var2);
@@ -142,18 +133,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var5.enabled;
                 var2 = _closure2_slot5;
                 var2 = !var2;
-                if(!var2) { _fun0001_ip = 125; continue _fun0001 }
+                if(!var2) { _fun0001_ip = 115; continue _fun0001 }
  97:
-                var9 = _closure2_slot8;
-                if(var9) { _fun0001_ip = 122; continue _fun0001 }
- 104:
-                var12 = _closure2_slot0;
-                var11 = _closure1_slot9;
-                var11 = var11.DISABLED;
-                var9 = var12 !== var11;
- 122:
-                var2 = var9;
- 125:
+                var11 = _closure2_slot0;
+                var9 = _closure1_slot9;
+                var9 = var9.DISABLED;
+                var2 = var11 !== var9;
+ 115:
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.withRef;
                 var2 = _closure2_slot7;
@@ -166,7 +152,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var5.manualActivation;
                 var15 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var2 = 6;
+                var2 = 5;
                 var2 = var11[var2];
                 var9 = var15.bind(var10)(var2);
                 var2 = var9.isAndroid;
@@ -232,7 +218,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2['__initData'] = var9;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.onTouchesMove;
-                var2 = function X(arg1, arg2) {
+                var2 = function b(arg1, arg2) {
                     _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                         var5 = arg1;
@@ -247,15 +233,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var10 = var5.state;
                         var12 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var1 = 5;
+                        var1 = 4;
                         var8 = var8[var1];
                         var1 = undefined;
                         var8 = var12.bind(var1)(var8);
                         var8 = var8.State;
                         var8 = var8.BEGAN;
-                        if(!(var10 === var8)) { _fun0002_ip = 785; continue _fun0002 }
+                        if(!(var10 === var8)) { _fun0002_ip = 715; continue _fun0002 }
  95:
-                        if(var6) { _fun0002_ip = 785; continue _fun0002 }
+                        if(var6) { _fun0002_ip = 715; continue _fun0002 }
  101:
                         var5 = var5.changedTouches;
                         var6 = 0;
@@ -264,14 +250,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var8 = var13.y;
                         var12 = _closure1_slot0;
                         var14 = _closure1_slot2;
-                        var10 = 7;
+                        var10 = 6;
                         var10 = var14[var10];
                         var12 = var12.bind(var1)(var10);
                         var10 = var12.getWindowDimensionsWorklet;
                         var10 = var10.bind(var12)();
                         var12 = var10.width;
                         var10 = null;
-                        if(!(var10 != var13)) { _fun0002_ip = 775; continue _fun0002 }
+                        if(!(var10 != var13)) { _fun0002_ip = 705; continue _fun0002 }
  167:
                         var13 = _closure2_slot0;
                         var10 = _closure1_slot9;
@@ -282,37 +268,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  189:
                         var10 = _closure1_slot4;
                         var10 = var12 - var10;
-                        if(!(!(var7 < var10))) { _fun0002_ip = 775; continue _fun0002 }
+                        if(!(!(var7 < var10))) { _fun0002_ip = 705; continue _fun0002 }
  204:
-                        var10 = _closure2_slot8;
-                        if(var10) { _fun0002_ip = 232; continue _fun0002 }
- 211:
                         var13 = _closure2_slot0;
                         var10 = _closure1_slot9;
                         var10 = var10.DISABLED;
-                        if(!(var13 !== var10)) { _fun0002_ip = 775; continue _fun0002 }
- 232:
-                        var10 = _closure2_slot8;
-                        if(!var10) { _fun0002_ip = 283; continue _fun0002 }
- 239:
-                        var13 = _closure2_slot0;
-                        var10 = _closure1_slot9;
-                        var10 = var10.DISABLED;
-                        if(!(var13 === var10)) { _fun0002_ip = 283; continue _fun0002 }
- 257:
-                        var13 = _closure2_slot3;
-                        var10 = var13.get;
-                        var10 = var10.bind(var13)();
-                        var10 = var10.initialLaunchPadPosition;
-                        if(!(var6 !== var10)) { _fun0002_ip = 763; continue _fun0002 }
- 283:
+                        if(!(var13 !== var10)) { _fun0002_ip = 705; continue _fun0002 }
+ 225:
                         var13 = _closure2_slot0;
                         var10 = _closure1_slot9;
                         var10 = var10.PULL_TAB;
-                        if(!(var13 === var10)) { _fun0002_ip = 406; continue _fun0002 }
- 301:
-                        if(!(var6 === var9)) { _fun0002_ip = 406; continue _fun0002 }
- 305:
+                        if(!(var13 === var10)) { _fun0002_ip = 348; continue _fun0002 }
+ 243:
+                        if(!(var6 === var9)) { _fun0002_ip = 348; continue _fun0002 }
+ 247:
                         var13 = _closure2_slot2;
                         var10 = var13.get;
                         var10 = var10.bind(var13)();
@@ -320,8 +289,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var10 = _closure1_slot6;
                         var10 = var13 - var10;
                         var10 = var8 > var10;
-                        if(!var10) { _fun0002_ip = 376; continue _fun0002 }
- 338:
+                        if(!var10) { _fun0002_ip = 318; continue _fun0002 }
+ 280:
                         var14 = _closure2_slot2;
                         var13 = var14.get;
                         var13 = var13.bind(var14)();
@@ -331,29 +300,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var13 = _closure1_slot6;
                         var13 = var14 + var13;
                         var10 = var8 < var13;
- 376:
+ 318:
                         var13 = _closure1_slot8;
                         var14 = var12 - var13;
                         var13 = _closure1_slot6;
                         var13 = var14 - var13;
-                        if(!(var5 > var13)) { _fun0002_ip = 406; continue _fun0002 }
- 396:
-                        if(!(var5 < var12)) { _fun0002_ip = 406; continue _fun0002 }
- 400:
-                        if(var10) { _fun0002_ip = 649; continue _fun0002 }
- 406:
+                        if(!(var5 > var13)) { _fun0002_ip = 348; continue _fun0002 }
+ 338:
+                        if(!(var5 < var12)) { _fun0002_ip = 348; continue _fun0002 }
+ 342:
+                        if(var10) { _fun0002_ip = 591; continue _fun0002 }
+ 348:
                         var12 = _closure2_slot0;
                         var10 = _closure1_slot9;
                         var10 = var10.PULL_TAB;
-                        if(!(var12 === var10)) { _fun0002_ip = 446; continue _fun0002 }
- 424:
+                        if(!(var12 === var10)) { _fun0002_ip = 388; continue _fun0002 }
+ 366:
                         var12 = _closure2_slot0;
                         var10 = _closure1_slot9;
                         var10 = var10.PULL_TAB;
-                        if(!(var12 === var10)) { _fun0002_ip = 536; continue _fun0002 }
- 442:
-                        if(!(var9 > var6)) { _fun0002_ip = 536; continue _fun0002 }
- 446:
+                        if(!(var12 === var10)) { _fun0002_ip = 478; continue _fun0002 }
+ 384:
+                        if(!(var9 > var6)) { _fun0002_ip = 478; continue _fun0002 }
+ 388:
                         var7 = var5 - var7;
                         var5 = global;
                         var10 = var5.Math;
@@ -363,32 +332,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var10 = _closure2_slot1;
                         var9 = var10.get;
                         var9 = var9.bind(var10)();
-                        if(!(var9 > var6)) { _fun0002_ip = 494; continue _fun0002 }
- 490:
-                        if(!(!(var7 > var6))) { _fun0002_ip = 515; continue _fun0002 }
- 494:
+                        if(!(var9 > var6)) { _fun0002_ip = 436; continue _fun0002 }
+ 432:
+                        if(!(!(var7 > var6))) { _fun0002_ip = 457; continue _fun0002 }
+ 436:
                         var10 = _closure2_slot1;
                         var9 = var10.get;
                         var9 = var9.bind(var10)();
-                        if(!(var9 <= var6)) { _fun0002_ip = 536; continue _fun0002 }
- 511:
-                        if(!(var7 < var6)) { _fun0002_ip = 536; continue _fun0002 }
- 515:
+                        if(!(var9 <= var6)) { _fun0002_ip = 478; continue _fun0002 }
+ 453:
+                        if(!(var7 < var6)) { _fun0002_ip = 478; continue _fun0002 }
+ 457:
                         var9 = var5.Math;
                         var6 = var9.abs;
                         var6 = var6.bind(var9)(var7);
-                        if(!(!(var6 > var8))) { _fun0002_ip = 551; continue _fun0002 }
- 536:
+                        if(!(!(var6 > var8))) { _fun0002_ip = 493; continue _fun0002 }
+ 478:
                         var6 = var3.fail;
                         var6 = var6.bind(var3)();
-                        _fun0002_ip = 785; continue _fun0002;
- 551:
+                        _fun0002_ip = 715; continue _fun0002;
+ 493:
                         var6 = var5.Math;
                         var5 = var6.abs;
                         var6 = var5.bind(var6)(var7);
                         var5 = 3;
-                        if(!(!(var6 < var5))) { _fun0002_ip = 647; continue _fun0002 }
- 575:
+                        if(!(!(var6 < var5))) { _fun0002_ip = 589; continue _fun0002 }
+ 517:
                         var8 = _closure2_slot3;
                         var6 = var8.set;
                         var5 = {};
@@ -407,9 +376,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5 = var5.bind(var3)();
                         var5 = undefined;
                         return var5;
- 647:
+ 589:
                         return var1;
- 649:
+ 591:
                         var8 = _closure2_slot3;
                         var7 = var8.set;
                         var6 = {};
@@ -437,14 +406,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = var2.bind(var3)();
                         var2 = undefined;
                         return var2;
- 763:
+ 705:
                         var2 = var3.fail;
                         var2 = var2.bind(var3)();
-                        _fun0002_ip = 785; continue _fun0002;
- 775:
-                        var2 = var3.fail;
-                        var2 = var2.bind(var3)();
- 785:
+ 715:
                         return var1;
                     }
                 };
@@ -454,7 +419,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var15.bind(var10)(var8);
                 var8 = var8.State;
                 var12['State'] = var8;
-                var14 = 7;
+                var14 = 6;
                 var8 = var11[var14];
                 var8 = var15.bind(var10)(var8);
                 var8 = var8.getWindowDimensionsWorklet;
@@ -465,8 +430,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var12['LaunchPadTypes'] = var8;
                 var16 = _closure1_slot4;
                 var12['LAUNCH_PAD_EDGE_GESTURE_AFFORDANCE'] = var16;
-                var16 = _closure2_slot8;
-                var12['searchEnabled'] = var16;
                 var16 = _closure1_slot8;
                 var12['LAUNCH_PAD_PULL_TAB_WIDTH'] = var16;
                 var16 = _closure1_slot6;
@@ -483,13 +446,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var16 = 3;
                 var12['MANUAL_ACTIVATION_THRESHOLD'] = var16;
                 var2['__closure'] = var12;
-                var12 = 8290161883240.0;
+                var12 = 5887887666279.0;
                 var2['__workletHash'] = var12;
                 var12 = _closure1_slot14;
                 var2['__initData'] = var12;
                 var5 = var3.bind(var5)(var2);
                 var3 = var5.onChange;
-                var2 = function I(arg1) {
+                var2 = function X(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                         var1 = arg1;
@@ -509,7 +472,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = var2.requiresPop;
                         var8 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var4 = 7;
+                        var4 = 6;
                         var6 = var6[var4];
                         var4 = undefined;
                         var8 = var8.bind(var4)(var6);
@@ -548,7 +511,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  229:
                         var10 = _closure1_slot1;
                         var12 = _closure1_slot2;
-                        var6 = 8;
+                        var6 = 7;
                         var6 = var12[var6];
                         var10 = var10.bind(var4)(var6);
                         var6 = _closure2_slot3;
@@ -565,11 +528,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3['positionOffsetX'] = var5;
                         var3 = var10.bind(var4)(var6, var3);
                         var10 = _closure1_slot0;
-                        var3 = 9;
+                        var3 = 8;
                         var3 = var12[var3];
                         var14 = var10.bind(var4)(var3);
                         var13 = var14.runOnJS;
-                        var3 = 10;
+                        var3 = 9;
                         var6 = var12[var3];
                         var6 = var10.bind(var4)(var6);
                         var6 = var6.triggerHapticFeedback;
@@ -607,7 +570,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  457:
                         var3 = _closure1_slot1;
                         var6 = _closure1_slot2;
-                        var2 = 8;
+                        var2 = 7;
                         var2 = var6[var2];
                         var3 = var3.bind(var4)(var2);
                         var2 = _closure2_slot3;
@@ -633,16 +596,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var12['PIP_POP_DISTANCE'] = var8;
                 var12['updaters'] = var6;
                 var9 = _closure1_slot1;
-                var8 = 8;
+                var8 = 7;
                 var14 = var11[var8];
                 var14 = var9.bind(var10)(var14);
                 var12['updateSharedValueIfChanged'] = var14;
-                var14 = 9;
+                var14 = 8;
                 var14 = var11[var14];
                 var14 = var15.bind(var10)(var14);
                 var14 = var14.runOnJS;
                 var12['runOnJS'] = var14;
-                var14 = 10;
+                var14 = 9;
                 var16 = var11[var14];
                 var16 = var15.bind(var10)(var16);
                 var16 = var16.triggerHapticFeedback;
@@ -760,7 +723,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  72:
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 8;
+                        var1 = 7;
                         var3 = var3[var1];
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
@@ -786,7 +749,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = function t() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 8;
+                    var1 = 7;
                     var2 = var2[var1];
                     var1 = undefined;
                     var5 = var3.bind(var1)(var2);

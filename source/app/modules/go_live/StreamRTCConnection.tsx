@@ -668,10 +668,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = this;
                 var2 = var1.isOwner;
                 var1 = 'receiver';
-                if(!var2) { _fun0007_ip = 24; continue _fun0007 }
- 18:
+                if(!var2) { _fun0007_ip = 22; continue _fun0007 }
+ 16:
                 var1 = 'streamer';
- 24:
+ 22:
                 return var1;
             }
         };
@@ -1900,10 +1900,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['guild_region'] = var10;
                 var11 = var2.isOwner;
                 var10 = 'receiver';
-                if(!var11) { _fun0019_ip = 262; continue _fun0019 }
- 256:
+                if(!var11) { _fun0019_ip = 260; continue _fun0019 }
+ 254:
                 var10 = 'streamer';
- 262:
+ 260:
                 var1['participant_type'] = var10;
                 var1['share_application_name'] = var9;
                 var1['share_application_id'] = var8;
@@ -2027,23 +2027,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var3.ownerId;
                 var3 = var6._videoQuality;
                 var _closure3_slot5 = var3;
-                if(!(var4 != var3)) { _fun0021_ip = 382; continue _fun0021 }
+                if(!(var4 != var3)) { _fun0021_ip = 380; continue _fun0021 }
  87:
                 var4 = var3.getNetworkStats;
                 var4 = var4.bind(var3)();
                 var _closure3_slot2 = var4;
                 var4 = var6.isOwner;
                 var8 = var3.getCodecUsageStats;
-                if(var4) { _fun0021_ip = 130; continue _fun0021 }
+                if(var4) { _fun0021_ip = 128; continue _fun0021 }
  116:
                 var4 = 'receiver';
                 var4 = var8.bind(var3)(var4, var5);
-                _fun0021_ip = 147; continue _fun0021;
- 130:
+                _fun0021_ip = 145; continue _fun0021;
+ 128:
                 var7 = var6.userId;
                 var5 = 'streamer';
                 var4 = var8.bind(var3)(var5, var7);
- 147:
+ 145:
                 var _closure3_slot3 = var4;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -2066,35 +2066,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4.getSettings;
                 var5 = var2.bind(var4)();
                 var2 = var6.isOwner;
-                if(var2) { _fun0021_ip = 252; continue _fun0021 }
- 248:
+                if(var2) { _fun0021_ip = 250; continue _fun0021 }
+ 246:
                 var2 = {};
-                _fun0021_ip = 289; continue _fun0021;
- 252:
+                _fun0021_ip = 287; continue _fun0021;
+ 250:
                 var4 = {};
                 var7 = var5.clipsEnabled;
-                if(!var7) { _fun0021_ip = 266; continue _fun0021 }
- 263:
+                if(!var7) { _fun0021_ip = 264; continue _fun0021 }
+ 261:
                 var7 = var8;
- 266:
+ 264:
                 var4['clips_enabled'] = var7;
                 var5 = var5.clipsLength;
                 var4['clips_buffer_length'] = var5;
                 var2 = var4;
- 289:
+ 287:
                 var _closure3_slot7 = var2;
                 var2 = var6.isOwner;
-                if(var2) { _fun0021_ip = 306; continue _fun0021 }
- 302:
+                if(var2) { _fun0021_ip = 304; continue _fun0021 }
+ 300:
                 var2 = {};
-                _fun0021_ip = 328; continue _fun0021;
- 306:
+                _fun0021_ip = 326; continue _fun0021;
+ 304:
                 var4 = {};
                 var5 = var6.getBandwidthEstimationExperiment;
                 var5 = var5.bind(var6)();
                 var4['bandwidth_estimation_experiment'] = var5;
                 var2 = var4;
- 328:
+ 326:
                 var _closure3_slot8 = var2;
                 var2 = var3.getOutboundStats;
                 var5 = var2.bind(var3)();
@@ -2320,7 +2320,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     }
                 };
                 var1 = var2.bind(var3)(var1);
- 382:
+ 380:
                 var1 = undefined;
                 return var1;
             }

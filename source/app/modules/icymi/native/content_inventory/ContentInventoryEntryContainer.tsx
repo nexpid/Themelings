@@ -102,7 +102,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2 = var5.bind(var8)(var2);
     var _closure1_slot9 = var2;
-    var5 = 13;
+    var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -169,7 +169,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 10;
                 var3 = var5[var1];
                 var1 = undefined;
-                var9 = var4.bind(var1)(var3);
+                var3 = var4.bind(var1)(var3);
+                var9 = var3.ICYMIAnalytics;
                 var8 = var9.trackItemInteraction;
                 var7 = _closure2_slot0;
                 var6 = _closure2_slot2;
@@ -186,7 +187,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var2['onPress'] = var6;
-            var6 = 10;
+            var6 = 12;
             var6 = var9[var6];
             var6 = var7.bind(var5)(var6);
             var7 = var6.SimplePost;
@@ -213,7 +214,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = _closure1_slot7;
             var17 = _closure1_slot1;
             var24 = _closure1_slot2;
-            var22 = 12;
+            var22 = 13;
             var16 = var24[var22];
             var17 = var17.bind(var5)(var16);
             var16 = {};

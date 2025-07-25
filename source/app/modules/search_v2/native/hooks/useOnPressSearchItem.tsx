@@ -536,7 +536,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var6 = var7.bind(var1)(var6);
     var6 = var6.StaticChannelRoute;
     var _closure1_slot16 = var6;
-    var6 = 35;
+    var6 = 36;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -1093,88 +1093,100 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
                             StartGenerator();
-                            var5 = arg1;
+                            var6 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0011_ip = 269; continue _fun0011 }
+                            if(var2) { _fun0011_ip = 314; continue _fun0011 }
  15:
-                            var _closure6_slot0 = var5;
-                            var6 = _closure1_slot0;
-                            var7 = _closure1_slot2;
-                            var3 = 30;
-                            var3 = var7[var3];
-                            var7 = undefined;
-                            var8 = var6.bind(var7)(var3);
-                            var6 = var8.getChannelRoleSubscriptionStatus;
-                            var3 = var5.id;
-                            var3 = var6.bind(var8)(var3);
-                            var3 = var3.needSubscriptionToAccess;
-                            var6 = var5.getGuildId;
-                            var6 = var6.bind(var5)();
+                            var _closure6_slot0 = var6;
+                            var7 = _closure1_slot0;
+                            var4 = _closure1_slot2;
+                            var2 = 30;
+                            var4 = var4[var2];
+                            var2 = undefined;
+                            var8 = var7.bind(var2)(var4);
+                            var7 = var8.maybeOpenAgeGateForVoiceChannel;
+                            var4 = var6.id;
+                            var4 = var7.bind(var8)(var4);
+                            if(var4) { _fun0011_ip = 311; continue _fun0011 }
+ 66:
+                            var7 = _closure1_slot0;
+                            var8 = _closure1_slot2;
+                            var4 = 31;
+                            var4 = var8[var4];
+                            var8 = var7.bind(var2)(var4);
+                            var7 = var8.getChannelRoleSubscriptionStatus;
+                            var4 = var6.id;
+                            var4 = var7.bind(var8)(var4);
+                            var4 = var4.needSubscriptionToAccess;
+                            var7 = var6.getGuildId;
+                            var7 = var7.bind(var6)();
                             var8 = null;
-                            if(!(var8 != var6)) { _fun0011_ip = 116; continue _fun0011 }
- 82:
+                            if(!(var8 != var7)) { _fun0011_ip = 158; continue _fun0011 }
+ 124:
                             var9 = _closure1_slot0;
                             var10 = _closure1_slot2;
-                            var8 = 31;
+                            var8 = 32;
                             var8 = var10[var8];
-                            var9 = var9.bind(var7)(var8);
+                            var9 = var9.bind(var2)(var8);
                             var8 = var9.shouldShowMembershipVerificationGate;
-                            var8 = var8.bind(var9)(var6);
-                            if(var8) { _fun0011_ip = 196; continue _fun0011 }
- 116:
-                            if(var3) { _fun0011_ip = 132; continue _fun0011 }
- 119:
-                            var3 = _closure1_slot21;
-                            var3 = var3.bind(var7)(var5);
-                            var3 = undefined;
-                            _fun0011_ip = 194; continue _fun0011;
- 132:
+                            var8 = var8.bind(var9)(var7);
+                            if(var8) { _fun0011_ip = 238; continue _fun0011 }
+ 158:
+                            if(var4) { _fun0011_ip = 174; continue _fun0011 }
+ 161:
+                            var4 = _closure1_slot21;
+                            var4 = var4.bind(var2)(var6);
+                            var4 = undefined;
+                            _fun0011_ip = 236; continue _fun0011;
+ 174:
                             var9 = _closure1_slot0;
                             var10 = _closure1_slot2;
-                            var8 = 33;
+                            var8 = 34;
                             var8 = var10[var8];
-                            var9 = var9.bind(var7)(var8);
+                            var9 = var9.bind(var2)(var8);
                             var8 = var9.transitionTo;
                             var12 = _closure1_slot12;
                             var11 = var12.CHANNEL;
-                            var10 = var5.guild_id;
-                            var5 = _closure1_slot16;
-                            var5 = var5.ROLE_SUBSCRIPTIONS;
-                            var5 = var11.bind(var12)(var10, var5);
-                            var3 = var8.bind(var9)(var5);
- 194:
-                            _fun0011_ip = 263; continue _fun0011;
- 196:
-                            var8 = _closure1_slot0;
-                            var2 = _closure1_slot2;
-                            var5 = 25;
-                            var5 = var2[var5];
-                            var8 = var8.bind(var7)(var5);
-                            var5 = 32;
-                            var5 = var2[var5];
-                            var2 = var2.paths;
-                            var2 = var8.bind(var7)(var5, var2);
-                            SaveGenerator(address=238);
+                            var10 = var6.guild_id;
+                            var6 = _closure1_slot16;
+                            var6 = var6.ROLE_SUBSCRIPTIONS;
+                            var6 = var11.bind(var12)(var10, var6);
+                            var4 = var8.bind(var9)(var6);
  236:
-                            return var2;
+                            _fun0011_ip = 305; continue _fun0011;
  238:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0011_ip = 266; continue _fun0011 }
- 244:
-                            var5 = var2.openMemberVerificationModal;
-                            var4 = function() {
+                            var8 = _closure1_slot0;
+                            var3 = _closure1_slot2;
+                            var6 = 25;
+                            var6 = var3[var6];
+                            var8 = var8.bind(var2)(var6);
+                            var6 = 33;
+                            var6 = var3[var6];
+                            var3 = var3.paths;
+                            var3 = var8.bind(var2)(var6, var3);
+                            SaveGenerator(address=280);
+ 278:
+                            return var3;
+ 280:
+                            ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                            if(var6) { _fun0011_ip = 308; continue _fun0011 }
+ 286:
+                            var6 = var3.openMemberVerificationModal;
+                            var5 = function() {
                                 var3 = _closure1_slot21;
                                 var2 = _closure6_slot0;
                                 var1 = undefined;
                                 var1 = var3.bind(var1)(var2);
                                 return var1;
                             };
-                            var3 = var5.bind(var7)(var6, var4);
- 263:
+                            var4 = var6.bind(var2)(var7, var5);
+ 305:
+                            return var4;
+ 308:
                             return var3;
- 266:
+ 311:
                             return var2;
- 269:
+ 314:
                             return var1;
                         }
                     };
@@ -1329,7 +1341,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  25:
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 34;
+                        var1 = 35;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);

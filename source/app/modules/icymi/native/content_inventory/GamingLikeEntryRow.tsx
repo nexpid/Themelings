@@ -369,14 +369,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = var2.GameShareModal;
                         var _closure4_slot0 = var3;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0006_ip = 149; continue _fun0006 }
+                        if(!(var2 != var3)) { _fun0006_ip = 155; continue _fun0006 }
  24:
                         var4 = _closure1_slot0;
                         var6 = _closure1_slot3;
                         var2 = 16;
                         var2 = var6[var2];
                         var5 = undefined;
-                        var10 = var4.bind(var5)(var2);
+                        var2 = var4.bind(var5)(var2);
+                        var10 = var2.ICYMIAnalytics;
                         var9 = var10.trackItemInteraction;
                         var2 = _closure2_slot0;
                         var8 = var2.id;
@@ -406,7 +407,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var13 = var4;
                         var11 = var3;
                         var1 = var15[var5](var14, var13, var12, var11, var10);
- 149:
+ 155:
                         var1 = undefined;
                         return var1;
                     }

@@ -538,20 +538,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var2.searchType;
                 var3 = _closure1_slot9;
                 var3 = var3.DMS;
-                if(!(var3 !== var4)) { _fun0008_ip = 241; continue _fun0008 }
+                if(!(var3 !== var4)) { _fun0008_ip = 258; continue _fun0008 }
  29:
                 var3 = _closure1_slot9;
                 var3 = var3.GUILD_CHANNEL;
-                if(!(var3 !== var4)) { _fun0008_ip = 188; continue _fun0008 }
+                if(!(var3 !== var4)) { _fun0008_ip = 205; continue _fun0008 }
  46:
                 var3 = _closure1_slot9;
                 var3 = var3.GUILD;
-                if(!(var3 !== var4)) { _fun0008_ip = 188; continue _fun0008 }
+                if(!(var3 !== var4)) { _fun0008_ip = 205; continue _fun0008 }
  63:
                 var3 = _closure1_slot9;
+                var3 = var3.THREAD;
+                if(!(var3 !== var4)) { _fun0008_ip = 205; continue _fun0008 }
+ 80:
+                var3 = _closure1_slot9;
                 var3 = var3.CHANNEL;
-                if(!(var3 !== var4)) { _fun0008_ip = 135; continue _fun0008 }
- 77:
+                if(!(var3 !== var4)) { _fun0008_ip = 152; continue _fun0008 }
+ 94:
                 var3 = global;
                 var5 = var3.Error;
                 var6 = var2.searchType;
@@ -565,41 +569,41 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = new var8[var5](var7, var6);
                 var3 = var3 instanceof Object ? var3 : var4;
                 throw var3;
- 135:
+ 152:
                 var4 = var2.searchId;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0008_ip = 184; continue _fun0008 }
- 147:
+                if(!(var3 != var4)) { _fun0008_ip = 201; continue _fun0008 }
+ 164:
                 var4 = var2.searchId;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0008_ip = 184; continue _fun0008 }
- 161:
+                if(!(var3 !== var4)) { _fun0008_ip = 201; continue _fun0008 }
+ 178:
                 var5 = _closure1_slot10;
                 var4 = var5.SEARCH_TABS_CHANNEL;
                 var3 = var2.searchId;
                 var3 = var4.bind(var5)(var3);
                 return var3;
- 184:
+ 201:
                 var3 = undefined;
                 return var3;
- 188:
+ 205:
                 var4 = var2.searchId;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0008_ip = 237; continue _fun0008 }
- 200:
+                if(!(var3 != var4)) { _fun0008_ip = 254; continue _fun0008 }
+ 217:
                 var4 = var2.searchId;
                 var3 = '';
-                if(!(var3 !== var4)) { _fun0008_ip = 237; continue _fun0008 }
- 214:
+                if(!(var3 !== var4)) { _fun0008_ip = 254; continue _fun0008 }
+ 231:
                 var4 = _closure1_slot10;
                 var3 = var4.SEARCH_TABS_GUILD;
                 var2 = var2.searchId;
                 var2 = var3.bind(var4)(var2);
                 return var2;
- 237:
+ 254:
                 var2 = undefined;
                 return var2;
- 241:
+ 258:
                 var1 = _closure1_slot10;
                 var1 = var1.SEARCH_TABS_DMS;
                 return var1;

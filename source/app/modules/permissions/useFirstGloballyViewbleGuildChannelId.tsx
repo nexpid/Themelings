@@ -244,8 +244,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var2.done;
                 var7 = 3;
                 var6 = var2;
-                if(var1) { _fun0004_ip = 144; continue _fun0004 }
- 68:
+                if(var1) { _fun0004_ip = 146; continue _fun0004 }
+ 70:
                 var1 = var6.value;
                 var1 = var1.channel;
                 var10 = _closure1_slot1;
@@ -256,31 +256,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = _closure1_slot4;
                 var2 = var2.VIEW_CHANNEL;
                 var2 = var10.bind(var11)(var2, var1);
-                if(var2) { _fun0004_ip = 137; continue _fun0004 }
- 120:
+                if(var2) { _fun0004_ip = 139; continue _fun0004 }
+ 122:
                 var10 = var8.bind(var4)();
                 var2 = var10.done;
                 var6 = var10;
-                if(var2) { _fun0004_ip = 144; continue _fun0004 }
- 135:
-                _fun0004_ip = 68; continue _fun0004;
+                if(var2) { _fun0004_ip = 146; continue _fun0004 }
  137:
+                _fun0004_ip = 70; continue _fun0004;
+ 139:
                 var1 = var1.id;
                 return var1;
- 144:
+ 146:
                 var2 = var3 == var5;
                 var1 = undefined;
-                if(var2) { _fun0004_ip = 178; continue _fun0004 }
- 153:
+                if(var2) { _fun0004_ip = 180; continue _fun0004 }
+ 155:
                 var2 = 0;
                 var2 = var5[var2];
                 var3 = var3 == var2;
                 var1 = undefined;
-                if(var3) { _fun0004_ip = 178; continue _fun0004 }
- 168:
+                if(var3) { _fun0004_ip = 180; continue _fun0004 }
+ 170:
                 var2 = var2.channel;
                 var1 = var2.id;
- 178:
+ 180:
                 return var1;
             }
         };

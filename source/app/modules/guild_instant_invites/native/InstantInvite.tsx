@@ -1,61 +1,72 @@
 // app/modules/guild_instant_invites/native/InstantInvite.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
+    var6 = native2;
     var3 = native6;
-    var6 = native7;
-    var _closure1_slot0 = var5;
+    var7 = native7;
+    var _closure1_slot0 = var6;
     var1 = native3;
     var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
+    var _closure1_slot2 = var7;
     var1 = global;
     var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var5 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var5.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var7 = var6[var1];
+    var5 = var7[var1];
     var4 = native4;
     var1 = undefined;
-    var7 = var4.bind(var1)(var7);
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
+    var8 = var4.bind(var1)(var5);
+    var _closure1_slot3 = var8;
+    var11 = 1;
+    var4 = var7[var11];
+    var4 = var6.bind(var1)(var4);
     var4 = var4.View;
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot4 = var8;
-    var4 = var4.jsxs;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.Routes;
     var _closure1_slot5 = var4;
     var4 = 3;
-    var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.jsx;
+    var _closure1_slot6 = var5;
+    var4 = var4.jsxs;
+    var _closure1_slot7 = var4;
+    var4 = 4;
+    var4 = var7[var4];
+    var9 = var6.bind(var1)(var4);
+    var5 = var9.createStyles;
     var4 = {};
     var10 = {'marginLeft': 4294967280, 'marginBottom': 4294967280, 'marginTop': 8, 'flex': 1};
     var4['creatorWrapper'] = var10;
-    var4 = var8.bind(var9)(var4);
-    var _closure1_slot6 = var4;
-    var4 = var7.memo;
-    var2 = function(arg1) {
+    var10 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'gap': 8};
+    var4['gameWrapper'] = var10;
+    var10 = {};
+    var10['flex'] = var11;
+    var4['gameText'] = var10;
+    var4 = var5.bind(var9)(var4);
+    var _closure1_slot8 = var4;
+    var5 = var8.memo;
+    var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
             var19 = var1.invite;
             var5 = var1.onInviteRevoked;
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot8;
             var4 = undefined;
             var14 = var1.bind(var4)();
             var13 = var19.uses;
             var12 = var19.maxUses;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 4;
+            var1 = 21;
             var1 = var8[var1];
             var3 = var7.bind(var4)(var1);
             var2 = var3.useInviteActions;
@@ -63,19 +74,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['invite'] = var19;
             var1['onInviteRevoked'] = var5;
             var18 = var2.bind(var3)(var1);
-            var3 = _closure1_slot5;
-            var1 = 5;
+            var3 = _closure1_slot7;
+            var1 = 13;
             var1 = var8[var1];
             var1 = var7.bind(var4)(var1);
             var2 = var1.Card;
             var1 = {};
-            var6 = 6;
+            var6 = 14;
             var5 = var8[var6];
             var5 = var7.bind(var4)(var5);
             var10 = var5.Stack;
             var5 = {'direction': 'horizontal', 'justify': 'space-between'};
-            var11 = _closure1_slot4;
-            var15 = 7;
+            var11 = _closure1_slot6;
+            var15 = 16;
             var15 = var8[var15];
             var15 = var7.bind(var4)(var15);
             var16 = var15.Text;
@@ -85,7 +96,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = var11.bind(var4)(var16, var15);
             var15 = new Array(2);
             var15[0] = var16;
-            var16 = 8;
+            var16 = 17;
             var16 = var8[var16];
             var16 = var7.bind(var4)(var16);
             var17 = var16.ContextMenu;
@@ -102,22 +113,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var13 = var3;
                 var12 = var2;
                 var13 = copyDataProperties(var14, var13, var12);
-                var4 = _closure1_slot4;
+                var4 = _closure1_slot6;
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var1 = 9;
+                var1 = 18;
                 var1 = var11[var1];
                 var3 = undefined;
                 var1 = var10.bind(var3)(var1);
                 var2 = var1.IconButton;
                 var1 = {'size': 'sm', 'variant': 'secondary'};
                 var8 = _closure1_slot1;
-                var7 = 10;
+                var7 = 12;
                 var7 = var11[var7];
                 var7 = var8.bind(var3)(var7);
                 var7 = var7.more;
                 var1['icon'] = var7;
-                var7 = 11;
+                var7 = 9;
                 var8 = var11[var7];
                 var8 = var10.bind(var3)(var8);
                 var9 = var8.intl;
@@ -141,19 +152,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var3.bind(var4)(var10, var5);
             var5 = new Array(3);
             var5[0] = var10;
-            var10 = 12;
+            var10 = 19;
             var10 = var8[var10];
             var10 = var7.bind(var4)(var10);
             var15 = var10.InstantInviteDetails;
             var10 = {};
-            var10['invite'] = var19;
+            var16 = var19.channel;
+            var10['channel'] = var16;
+            var16 = var19.getExpiresAt;
+            var16 = var16.bind(var19)();
+            var10['expiresAt'] = var16;
             var10 = var11.bind(var4)(var15, var10);
             var5[1] = var10;
             var6 = var8[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.Stack;
             var6 = {'direction': 'horizontal', 'align': 'flex-end'};
-            var10 = _closure1_slot3;
+            var10 = _closure1_slot4;
             var8 = {};
             var14 = var14.creatorWrapper;
             var8['style'] = var14;
@@ -161,47 +176,47 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = null;
             var16 = var18 == var15;
             var14 = undefined;
-            if(var16) { _fun0001_ip = 365; continue _fun0001 }
- 360:
+            if(var16) { _fun0001_ip = 384; continue _fun0001 }
+ 379:
             var14 = var15.id;
- 365:
+ 384:
             var15 = var18 != var14;
             var14 = null;
-            if(!var15) { _fun0001_ip = 461; continue _fun0001 }
- 374:
-            var17 = _closure1_slot4;
+            if(!var15) { _fun0001_ip = 480; continue _fun0001 }
+ 393:
+            var17 = _closure1_slot6;
             var16 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var15 = 13;
+            var15 = 20;
             var15 = var20[var15];
             var16 = var16.bind(var4)(var15);
             var15 = {'start': true, 'end': true};
             var21 = var19.inviter;
             var22 = var18 == var21;
             var20 = undefined;
-            if(var22) { _fun0001_ip = 428; continue _fun0001 }
- 423:
+            if(var22) { _fun0001_ip = 447; continue _fun0001 }
+ 442:
             var20 = var21.id;
- 428:
+ 447:
             var15['userId'] = var20;
             var19 = var19.guild;
             var20 = var18 == var19;
             var18 = undefined;
-            if(var20) { _fun0001_ip = 451; continue _fun0001 }
- 446:
+            if(var20) { _fun0001_ip = 470; continue _fun0001 }
+ 465:
             var18 = var19.id;
- 451:
+ 470:
             var15['guildId'] = var18;
             var14 = var17.bind(var4)(var16, var15);
- 461:
+ 480:
             var8['children'] = var14;
             var10 = var11.bind(var4)(var10, var8);
             var8 = new Array(2);
             var8[0] = var10;
-            var11 = _closure1_slot4;
+            var11 = _closure1_slot6;
             var10 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var9 = 14;
+            var9 = 22;
             var9 = var14[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};
@@ -217,13 +232,355 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var2 = var4.bind(var7)(var2);
-    var4 = 15;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/guild_instant_invites/native/InstantInvite.tsx';
-    var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var4 = var5.bind(var8)(var4);
+    var5 = 23;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/guild_instant_invites/native/InstantInvite.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var2 = function LinkedChannelInvite(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+            var1 = arg1;
+            var15 = var1.channel;
+            var _closure2_slot0 = var15;
+            var4 = undefined;
+            var _closure2_slot1 = var4;
+            var _closure2_slot2 = var4;
+            var _closure2_slot3 = var4;
+            var1 = _closure1_slot8;
+            var13 = var1.bind(var4)();
+            var1 = var15.linkedLobby;
+            var11 = null;
+            var2 = var11 == var1;
+            var16 = undefined;
+            if(var2) { _fun0002_ip = 62; continue _fun0002 }
+ 56:
+            var16 = var1.linked_by;
+ 62:
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 5;
+            var1 = var3[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.useGetOrFetchApplication;
+            var5 = var15.linkedLobby;
+            var6 = var11 == var5;
+            var1 = undefined;
+            if(var6) { _fun0002_ip = 109; continue _fun0002 }
+ 103:
+            var1 = var5.application_id;
+ 109:
+            var22 = var2.bind(var3)(var1);
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 6;
+            var1 = var3[var1];
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.useCanUnlinkLobbyChannel;
+            var6 = var1.bind(var2)(var15);
+            _closure2_slot1 = var6;
+            var2 = _closure1_slot1;
+            var1 = 7;
+            var1 = var3[var1];
+            var3 = var2.bind(var4)(var1);
+            var2 = var15.id;
+            var1 = var11 == var22;
+            var5 = undefined;
+            if(var1) { _fun0002_ip = 184; continue _fun0002 }
+ 179:
+            var5 = var22.name;
+ 184:
+            var7 = var11 != var5;
+            var1 = '';
+            if(!var7) { _fun0002_ip = 198; continue _fun0002 }
+ 195:
+            var1 = var5;
+ 198:
+            var1 = var3.bind(var4)(var2, var1);
+            _closure2_slot2 = var1;
+            var5 = _closure1_slot3;
+            var3 = var5.useCallback;
+            var2 = new Array(2);
+            var2[0] = var6;
+            var2[1] = var1;
+            var1 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                    var2 = _closure2_slot1;
+                    if(var2) { _fun0003_ip = 158; continue _fun0003 }
+ 13:
+                    var3 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var2 = 8;
+                    var2 = var10[var2];
+                    var9 = undefined;
+                    var4 = var3.bind(var9)(var2);
+                    var3 = var4.show;
+                    var2 = {};
+                    var8 = _closure1_slot0;
+                    var5 = 9;
+                    var6 = var10[var5];
+                    var6 = var8.bind(var9)(var6);
+                    var11 = var6.intl;
+                    var7 = var11.string;
+                    var6 = var10[var5];
+                    var6 = var8.bind(var9)(var6);
+                    var6 = var6.t;
+                    var6 = var6.JmUENj;
+                    var6 = var7.bind(var11)(var6);
+                    var2['title'] = var6;
+                    var6 = var10[var5];
+                    var6 = var8.bind(var9)(var6);
+                    var7 = var6.intl;
+                    var6 = var7.string;
+                    var5 = var10[var5];
+                    var5 = var8.bind(var9)(var5);
+                    var5 = var5.t;
+                    var5 = var5.SrvsMD;
+                    var5 = var6.bind(var7)(var5);
+                    var2['body'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    _fun0003_ip = 168; continue _fun0003;
+ 158:
+                    var2 = _closure2_slot2;
+                    var1 = undefined;
+                    var1 = var2.bind(var1)();
+ 168:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var1 = var3.bind(var5)(var1, var2);
+            _closure2_slot3 = var1;
+            var3 = var5.useMemo;
+            var6 = var15.guild_id;
+            var2 = new Array(3);
+            var2[0] = var6;
+            var6 = var15.id;
+            var2[1] = var6;
+            var2[2] = var1;
+            var1 = function() {
+                var2 = {};
+                var9 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var4 = 9;
+                var1 = var6[var4];
+                var5 = undefined;
+                var1 = var9.bind(var5)(var1);
+                var8 = var1.intl;
+                var7 = var8.string;
+                var1 = var6[var4];
+                var1 = var9.bind(var5)(var1);
+                var1 = var1.t;
+                var1 = var1.aW2YlJ;
+                var1 = var7.bind(var8)(var1);
+                var2['label'] = var1;
+                var1 = 10;
+                var1 = var6[var1];
+                var1 = var9.bind(var5)(var1);
+                var1 = var1.ArrowSmallRightIcon;
+                var2['IconComponent'] = var1;
+                var1 = function action() {
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 11;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var4 = var4.bind(var1)(var3);
+                    var3 = var4.transitionTo;
+                    var7 = _closure1_slot5;
+                    var6 = var7.CHANNEL;
+                    var2 = _closure2_slot0;
+                    var5 = var2.guild_id;
+                    var2 = var2.id;
+                    var2 = var6.bind(var7)(var5, var2);
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                };
+                var2['action'] = var1;
+                var1 = new Array(2);
+                var1[0] = var2;
+                var2 = {};
+                var7 = var6[var4];
+                var7 = var9.bind(var5)(var7);
+                var8 = var7.intl;
+                var7 = var8.string;
+                var4 = var6[var4];
+                var4 = var9.bind(var5)(var4);
+                var4 = var4.t;
+                var4 = var4.JmUENj;
+                var4 = var7.bind(var8)(var4);
+                var2['label'] = var4;
+                var4 = _closure1_slot1;
+                var3 = 12;
+                var3 = var6[var3];
+                var3 = var4.bind(var5)(var3);
+                var3 = var3.revoke;
+                var2['iconSource'] = var3;
+                var3 = 'destructive';
+                var2['variant'] = var3;
+                var3 = _closure2_slot3;
+                var2['action'] = var3;
+                var1[1] = var2;
+                return var1;
+            };
+            var20 = var3.bind(var5)(var1, var2);
+            var3 = _closure1_slot7;
+            var17 = _closure1_slot0;
+            var21 = _closure1_slot2;
+            var1 = 13;
+            var1 = var21[var1];
+            var1 = var17.bind(var4)(var1);
+            var2 = var1.Card;
+            var1 = {};
+            var9 = 14;
+            var5 = var21[var9];
+            var5 = var17.bind(var4)(var5);
+            var10 = var5.Stack;
+            var5 = {'direction': 'horizontal', 'justify': 'space-between'};
+            var7 = _closure1_slot4;
+            var6 = {};
+            var8 = var13.gameWrapper;
+            var6['style'] = var8;
+            var18 = _closure1_slot6;
+            var14 = _closure1_slot1;
+            var23 = 15;
+            var8 = var21[var23];
+            var14 = var14.bind(var4)(var8);
+            var8 = {};
+            var8['game'] = var22;
+            var23 = var21[var23];
+            var23 = var17.bind(var4)(var23);
+            var23 = var23.GameIconSizes;
+            var23 = var23.SIZE_24;
+            var8['size'] = var23;
+            var14 = var18.bind(var4)(var14, var8);
+            var8 = new Array(2);
+            var8[0] = var14;
+            var14 = 16;
+            var14 = var21[var14];
+            var14 = var17.bind(var4)(var14);
+            var17 = var14.Text;
+            var14 = {'ellipsizeMode': 'tail', 'lineClamp': 1, 'variant': 'text-lg/bold'};
+            var21 = var13.gameText;
+            var14['style'] = var21;
+            var23 = var11 == var22;
+            var21 = undefined;
+            if(var23) { _fun0002_ip = 491; continue _fun0002 }
+ 486:
+            var21 = var22.name;
+ 491:
+            var14['children'] = var21;
+            var14 = var18.bind(var4)(var17, var14);
+            var8[1] = var14;
+            var6['children'] = var8;
+            var6 = var3.bind(var4)(var7, var6);
+            var14 = new Array(2);
+            var14[0] = var6;
+            var8 = _closure1_slot6;
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var17 = 17;
+            var17 = var6[var17];
+            var17 = var7.bind(var4)(var17);
+            var18 = var17.ContextMenu;
+            var17 = {};
+            var17['items'] = var20;
+            var19 = function children(arg1) {
+                var3 = arg1;
+                var6 = var3.ref;
+                var1 = null;
+                var2 = Object.create(var1);
+                var1 = 0;
+                var2['ref'] = var1;
+                var14 = {};
+                var13 = var3;
+                var12 = var2;
+                var13 = copyDataProperties(var14, var13, var12);
+                var4 = _closure1_slot6;
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot2;
+                var1 = 18;
+                var1 = var11[var1];
+                var3 = undefined;
+                var1 = var10.bind(var3)(var1);
+                var2 = var1.IconButton;
+                var1 = {'size': 'sm', 'variant': 'secondary'};
+                var8 = _closure1_slot1;
+                var7 = 12;
+                var7 = var11[var7];
+                var7 = var8.bind(var3)(var7);
+                var7 = var7.more;
+                var1['icon'] = var7;
+                var7 = 9;
+                var8 = var11[var7];
+                var8 = var10.bind(var3)(var8);
+                var9 = var8.intl;
+                var8 = var9.string;
+                var7 = var11[var7];
+                var7 = var10.bind(var3)(var7);
+                var7 = var7.t;
+                var7 = var7.DEoVWV;
+                var7 = var8.bind(var9)(var7);
+                var1['accessibilityLabel'] = var7;
+                var1['ref'] = var6;
+                var14 = var1;
+                var5 = copyDataProperties(var14, var13);
+                var1 = var4.bind(var3)(var2, var1);
+                return var1;
+            };
+            var17['children'] = var19;
+            var17 = var8.bind(var4)(var18, var17);
+            var14[1] = var17;
+            var5['children'] = var14;
+            var10 = var3.bind(var4)(var10, var5);
+            var5 = new Array(3);
+            var5[0] = var10;
+            var10 = 19;
+            var10 = var6[var10];
+            var10 = var7.bind(var4)(var10);
+            var14 = var10.InstantInviteDetails;
+            var10 = {};
+            var10['channel'] = var15;
+            var10 = var8.bind(var4)(var14, var10);
+            var5[1] = var10;
+            var6 = var6[var9];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.Stack;
+            var6 = {'direction': 'horizontal', 'align': 'flex-end'};
+            var10 = _closure1_slot4;
+            var9 = {};
+            var13 = var13.creatorWrapper;
+            var9['style'] = var13;
+            var13 = var11 != var16;
+            var11 = null;
+            if(!var13) { _fun0002_ip = 740; continue _fun0002 }
+ 687:
+            var14 = _closure1_slot6;
+            var13 = _closure1_slot1;
+            var17 = _closure1_slot2;
+            var12 = 20;
+            var12 = var17[var12];
+            var13 = var13.bind(var4)(var12);
+            var12 = {'start': true, 'end': true};
+            var12['userId'] = var16;
+            var15 = var15.guild_id;
+            var12['guildId'] = var15;
+            var11 = var14.bind(var4)(var13, var12);
+ 740:
+            var9['children'] = var11;
+            var9 = var8.bind(var4)(var10, var9);
+            var6['children'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['LinkedChannelInvite'] = var2;
     return var1;
 })();

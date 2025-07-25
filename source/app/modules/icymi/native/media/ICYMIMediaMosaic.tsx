@@ -1705,7 +1705,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 31;
                 var4 = var3[var1];
                 var1 = undefined;
-                var9 = var5.bind(var1)(var4);
+                var4 = var5.bind(var1)(var4);
+                var9 = var4.ICYMIAnalytics;
                 var8 = var9.trackItemInteraction;
                 var4 = _closure2_slot0;
                 var7 = var4.id;

@@ -10,27 +10,59 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = function getHeaderCopy(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var5 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var2 = _closure1_slot1;
+            var4 = _closure1_slot2;
             var1 = 5;
-            var3 = var6[var1];
-            var2 = undefined;
-            var3 = var5.bind(var2)(var3);
-            var4 = var3.intl;
-            var3 = var4.string;
-            var1 = var6[var1];
-            var1 = var5.bind(var2)(var1);
-            var2 = var1.t;
+            var1 = var4[var1];
+            var7 = undefined;
+            var5 = var2.bind(var7)(var1);
+            var4 = var5.getCurrentConfig;
+            var2 = {};
+            var1 = 'getHeaderCopy';
+            var2['location'] = var1;
+            var1 = {};
+            var6 = false;
+            var1['autoTrackExposure'] = var6;
+            var2 = var4.bind(var5)(var2, var1);
             var1 = arg1;
-            if(var1) { _fun0001_ip = 68; continue _fun0001 }
- 55:
-            var1 = var2.USo4s7;
-            var1 = var3.bind(var4)(var1);
-            _fun0001_ip = 81; continue _fun0001;
- 68:
-            var2 = var2.M47CJS;
-            var1 = var3.bind(var4)(var2);
- 81:
+            if(var1) { _fun0001_ip = 121; continue _fun0001 }
+ 64:
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 6;
+            var4 = var8[var1];
+            var4 = var6.bind(var7)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var1 = var8[var1];
+            var1 = var6.bind(var7)(var1);
+            var1 = var1.t;
+            var1 = var1.USo4s7;
+            var1 = var4.bind(var5)(var1);
+            _fun0001_ip = 202; continue _fun0001;
+ 121:
+            var2 = var2.enabled;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 6;
+            var4 = var8[var3];
+            var4 = var6.bind(var7)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var6.bind(var7)(var3);
+            var3 = var3.t;
+            if(var2) { _fun0001_ip = 188; continue _fun0001 }
+ 173:
+            var2 = var3.M47CJS;
+            var2 = var4.bind(var5)(var2);
+            _fun0001_ip = 199; continue _fun0001;
+ 188:
+            var3 = var3.USo4s7;
+            var2 = var4.bind(var5)(var3);
+ 199:
+            var1 = var2;
+ 202:
             return var1;
         }
     };
@@ -38,82 +70,125 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = function getSubheaderCopy(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            var10 = arg1;
-            var3 = _closure1_slot1;
+            var12 = arg1;
+            var2 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 6;
+            var1 = 7;
             var1 = var4[var1];
-            var7 = undefined;
-            var4 = var3.bind(var7)(var1);
-            var3 = var4.getArticleURL;
+            var8 = undefined;
+            var6 = var2.bind(var8)(var1);
+            var5 = var6.getArticleURL;
             var1 = _closure1_slot6;
             var1 = var1.REFERRAL_PROGRAM;
-            var6 = var3.bind(var4)(var1);
-            var1 = arg2;
-            if(var1) { _fun0002_ip = 248; continue _fun0002 }
- 58:
-            var1 = 0;
-            if(!(!(var10 > var1))) { _fun0002_ip = 154; continue _fun0002 }
- 64:
-            var9 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var7 = var5.bind(var6)(var1);
             var1 = 5;
-            var3 = var11[var1];
-            var3 = var9.bind(var7)(var3);
-            var5 = var3.intl;
-            var4 = var5.format;
-            var1 = var11[var1];
-            var1 = var9.bind(var7)(var1);
-            var1 = var1.t;
-            var3 = var1.FjrXCg;
-            var1 = {};
-            var8 = 7;
-            var8 = var11[var8];
-            var8 = var9.bind(var7)(var8);
-            var8 = var8.MAX_REFERRALS_SENT;
-            var1['numFriends'] = var8;
-            var1['helpdeskArticle'] = var6;
-            var1 = var4.bind(var5)(var3, var1);
-            _fun0002_ip = 246; continue _fun0002;
- 154:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var3 = 5;
-            var4 = var12[var3];
-            var4 = var11.bind(var7)(var4);
-            var8 = var4.intl;
-            var5 = var8.format;
-            var3 = var12[var3];
-            var3 = var11.bind(var7)(var3);
-            var3 = var3.t;
-            var4 = var3.EkWiZm;
-            var3 = {};
-            var9 = 7;
-            var9 = var12[var9];
-            var9 = var11.bind(var7)(var9);
-            var9 = var9.MAX_REFERRALS_SENT;
-            var9 = var9 - var10;
-            var3['numFriends'] = var9;
-            var3['helpdeskArticle'] = var6;
-            var1 = var5.bind(var8)(var4, var3);
- 246:
-            _fun0002_ip = 313; continue _fun0002;
- 248:
-            var3 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 5;
-            var4 = var8[var2];
-            var4 = var3.bind(var7)(var4);
-            var5 = var4.intl;
-            var4 = var5.format;
-            var2 = var8[var2];
-            var2 = var3.bind(var7)(var2);
-            var2 = var2.t;
-            var3 = var2.3OYZMT;
+            var1 = var4[var1];
+            var5 = var2.bind(var8)(var1);
+            var4 = var5.getCurrentConfig;
             var2 = {};
-            var2['helpdeskArticle'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
- 313:
+            var1 = 'getSubheaderCopy';
+            var2['location'] = var1;
+            var1 = {};
+            var6 = false;
+            var1['autoTrackExposure'] = var6;
+            var2 = var4.bind(var5)(var2, var1);
+            var1 = arg2;
+            if(var1) { _fun0002_ip = 360; continue _fun0002 }
+ 103:
+            var1 = 0;
+            if(!(!(var12 > var1))) { _fun0002_ip = 234; continue _fun0002 }
+ 112:
+            var1 = var2.enabled;
+            var11 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var4 = 6;
+            var5 = var13[var4];
+            var5 = var11.bind(var8)(var5);
+            var9 = var5.intl;
+            var6 = var9.format;
+            var4 = var13[var4];
+            var4 = var11.bind(var8)(var4);
+            var4 = var4.t;
+            if(var1) { _fun0002_ip = 210; continue _fun0002 }
+ 164:
+            var5 = var4.FjrXCg;
+            var1 = {};
+            var10 = 8;
+            var10 = var13[var10];
+            var10 = var11.bind(var8)(var10);
+            var10 = var10.MAX_REFERRALS_SENT;
+            var1['numFriends'] = var10;
+            var1['helpdeskArticle'] = var7;
+            var1 = var6.bind(var9)(var5, var1);
+            _fun0002_ip = 229; continue _fun0002;
+ 210:
+            var5 = var4.omMr+f;
+            var4 = {};
+            var4['helpdeskArticle'] = var7;
+            var1 = var6.bind(var9)(var5, var4);
+ 229:
+            _fun0002_ip = 358; continue _fun0002;
+ 234:
+            var4 = var2.enabled;
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var5 = 6;
+            var6 = var14[var5];
+            var6 = var13.bind(var8)(var6);
+            var10 = var6.intl;
+            var9 = var10.format;
+            var5 = var14[var5];
+            var5 = var13.bind(var8)(var5);
+            var5 = var5.t;
+            if(var4) { _fun0002_ip = 336; continue _fun0002 }
+ 286:
+            var6 = var5.EkWiZm;
+            var4 = {};
+            var11 = 8;
+            var11 = var14[var11];
+            var11 = var13.bind(var8)(var11);
+            var11 = var11.MAX_REFERRALS_SENT;
+            var11 = var11 - var12;
+            var4['numFriends'] = var11;
+            var4['helpdeskArticle'] = var7;
+            var4 = var9.bind(var10)(var6, var4);
+            _fun0002_ip = 355; continue _fun0002;
+ 336:
+            var6 = var5.omMr+f;
+            var5 = {};
+            var5['helpdeskArticle'] = var7;
+            var4 = var9.bind(var10)(var6, var5);
+ 355:
+            var1 = var4;
+ 358:
+            _fun0002_ip = 459; continue _fun0002;
+ 360:
+            var2 = var2.enabled;
+            var4 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 6;
+            var5 = var9[var3];
+            var5 = var4.bind(var8)(var5);
+            var6 = var5.intl;
+            var5 = var6.format;
+            var3 = var9[var3];
+            var3 = var4.bind(var8)(var3);
+            var3 = var3.t;
+            if(var2) { _fun0002_ip = 435; continue _fun0002 }
+ 412:
+            var4 = var3.3OYZMT;
+            var2 = {};
+            var2['helpdeskArticle'] = var7;
+            var2 = var5.bind(var6)(var4, var2);
+            _fun0002_ip = 456; continue _fun0002;
+ 435:
+            var4 = var3.TYu+MD;
+            var3 = {};
+            var3['helpdeskArticle'] = var7;
+            var2 = var5.bind(var6)(var4, var3);
+ 456:
+            var1 = var2;
+ 459:
             return var1;
         }
     };
@@ -133,7 +208,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot7;
             var13 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var1 = var11[var1];
             var2 = var13.bind(var5)(var1);
             var1 = {};
@@ -141,10 +216,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['style'] = var4;
             var4 = 90;
             var1['angle'] = var4;
-            var8 = 12;
+            var8 = 13;
             var4 = var11[var8];
             var12 = var13.bind(var5)(var4);
-            var7 = 9;
+            var7 = 10;
             var4 = var11[var7];
             var4 = var13.bind(var5)(var4);
             var4 = var4.unsafe_rawColors;
@@ -174,7 +249,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['useAngle'] = var4;
             var8 = _closure1_slot7;
             var7 = _closure1_slot0;
-            var4 = 13;
+            var4 = 14;
             var4 = var11[var4];
             var4 = var7.bind(var5)(var4);
             var7 = var4.Text;
@@ -197,7 +272,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = _closure1_slot7;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var9 = 10;
+            var9 = 11;
             var6 = var11[var9];
             var7 = var7.bind(var5)(var6);
             var6 = {};
@@ -232,7 +307,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var1 = 11;
+            var1 = 12;
             var1 = var6[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -250,10 +325,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['angle'] = var6;
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var7 = 12;
+            var7 = 13;
             var5 = var9[var7];
             var10 = var8.bind(var4)(var5);
-            var6 = 9;
+            var6 = 10;
             var5 = var9[var6];
             var5 = var8.bind(var4)(var5);
             var5 = var5.unsafe_rawColors;
@@ -426,13 +501,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot7 = var7;
     var4 = var4.jsxs;
     var _closure1_slot8 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'height': 175, 'backgroundColor': null, 'flexDirection': 'row', 'justifyContent': 'center'};
-    var13 = 9;
+    var13 = 10;
     var11 = var6[var13];
     var11 = var14.bind(var1)(var11);
     var11 = var11.colors;
@@ -462,7 +537,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['connectorHighlighted'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -473,14 +548,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 14;
+            var1 = 15;
             var1 = var6[var1];
             var5 = undefined;
             var7 = var4.bind(var5)(var1);
             var2 = var7.useIsEligibleSenderForReferralProgram;
             var1 = 'nitro-home';
             var2 = var2.bind(var7)(var1);
-            var1 = 7;
+            var1 = 8;
             var1 = var6[var1];
             var4 = var4.bind(var5)(var1);
             var1 = var4.useReferralProgramBannerDetails;
@@ -503,10 +578,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  112:
             var9 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var4 = 15;
+            var4 = 16;
             var4 = var11[var4];
             var6 = var9.bind(var5)(var4);
-            var4 = 16;
+            var4 = 17;
             var4 = var11[var4];
             var4 = var9.bind(var5)(var4);
             var4 = var4.PREMIUM_MARKETING_REFERALL_PROGRAM_PROGRESS_BAR;
@@ -520,7 +595,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = function() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 17;
+                var1 = 18;
                 var4 = var2[var1];
                 var1 = undefined;
                 var8 = var5.bind(var1)(var4);
@@ -531,15 +606,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = _closure2_slot0;
                 var4['location_stack'] = var9;
                 var4 = var7.bind(var8)(var6, var4);
-                var4 = 18;
+                var4 = 19;
                 var4 = var2[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.openLazy;
                 var6 = _closure1_slot0;
-                var3 = 20;
+                var3 = 21;
                 var3 = var2[var3];
                 var6 = var6.bind(var1)(var3);
-                var3 = 19;
+                var3 = 20;
                 var3 = var2[var3];
                 var2 = var2.paths;
                 var3 = var6.bind(var1)(var3, var2);
@@ -554,7 +629,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var2 = 21;
+            var2 = 22;
             var2 = var9[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -573,7 +648,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['headerComponent'] = var9;
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var8 = 5;
+            var8 = 6;
             var9 = var12[var8];
             var9 = var11.bind(var5)(var9);
             var10 = var9.intl;

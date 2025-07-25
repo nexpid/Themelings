@@ -80,6 +80,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5 = 10000;
     var3['FEED_OFF_BY_DEFAULT_ABOVE_MEMBER_COUNT'] = var5;
     var3['NEW_RELEASE_CUTOFF_DAYS'] = var4;
+    var4 = ['1395438911366627454'];
+    var3['GAMESCOM_GUILD_IDS'] = var4;
+    var4 = ['432980957394370572', '1377010135989223574'];
+    var3['GAMESCOM_APP_IDS'] = var4;
     var3['ContentInventoryEntryProviderTypes'] = var2;
     return var1;
 })();

@@ -92,23 +92,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3['version'] = var2;
                 var5 = var6.type;
                 var2 = _closure1_slot8;
-                var2 = var2.GUILD_CHANNEL;
-                if(!(var5 !== var2)) { _fun0001_ip = 130; continue _fun0001 }
+                var2 = var2.THREAD;
+                if(!(var2 !== var5)) { _fun0001_ip = 144; continue _fun0001 }
  121:
+                var2 = _closure1_slot8;
+                var2 = var2.GUILD_CHANNEL;
+                if(!(var2 !== var5)) { _fun0001_ip = 144; continue _fun0001 }
+ 135:
                 var2 = new Array(0);
-                _fun0001_ip = 317; continue _fun0001;
- 130:
+                _fun0001_ip = 367; continue _fun0001;
+ 144:
                 var9 = _closure1_slot4;
                 var8 = var9.getChannel;
                 var5 = var6.channelId;
-                var5 = var8.bind(var9)(var5);
-                var8 = null;
-                var8 = var8 == var5;
-                var11 = undefined;
-                if(var8) { _fun0001_ip = 165; continue _fun0001 }
- 160:
-                var11 = var5.name;
- 165:
+                var8 = var8.bind(var9)(var5);
+                var5 = null;
+                var9 = var5 == var8;
+                var10 = undefined;
+                if(var9) { _fun0001_ip = 179; continue _fun0001 }
+ 174:
+                var10 = var8.name;
+ 179:
+                if(!(var5 != var10)) { _fun0001_ip = 360; continue _fun0001 }
+ 186:
                 var5 = {};
                 var8 = _closure1_slot5;
                 var8 = var8.COMPLETE;
@@ -116,23 +122,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = _closure1_slot7;
                 var8 = var8.FILTER_IN;
                 var5['searchTokenType'] = var8;
-                var12 = _closure1_slot0;
-                var13 = _closure1_slot1;
+                var9 = _closure1_slot0;
+                var12 = _closure1_slot1;
                 var8 = 6;
-                var9 = var13[var8];
-                var9 = var12.bind(var1)(var9);
-                var10 = var9.intl;
-                var9 = var10.string;
-                var8 = var13[var8];
-                var8 = var12.bind(var1)(var8);
+                var11 = var12[var8];
+                var11 = var9.bind(var1)(var11);
+                var13 = var11.intl;
+                var11 = var13.string;
+                var8 = var12[var8];
+                var8 = var9.bind(var1)(var8);
                 var8 = var8.t;
                 var8 = var8.WNpFHR;
-                var10 = var9.bind(var10)(var8);
+                var11 = var11.bind(var13)(var8);
+                var8 = 7;
+                var8 = var12[var8];
+                var9 = var9.bind(var1)(var8);
+                var8 = var9.quoteChannelName;
+                var10 = var8.bind(var9)(var10);
                 var7 = var7.HermesInternal;
                 var9 = var7.concat;
                 var8 = '';
                 var7 = ': ';
-                var7 = var9.bind(var8)(var10, var7, var11);
+                var7 = var9.bind(var8)(var11, var7, var10);
                 var5['text'] = var7;
                 var6 = var6.channelId;
                 var5['channelId'] = var6;
@@ -141,8 +152,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5['location'] = var4;
                 var4 = new Array(1);
                 var4[0] = var5;
+                _fun0001_ip = 364; continue _fun0001;
+ 360:
+                var4 = new Array(0);
+ 364:
                 var2 = var4;
- 317:
+ 367:
                 var3['defaultTags'] = var2;
                 var2 = var3.defaultTags;
                 var3['tags'] = var2;
@@ -693,7 +708,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2 = var2.bind(var1)();
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -28,7 +28,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = null;
             if(!var3) { _fun0001_ip = 229; continue _fun0001 }
  70:
-            var4 = _closure1_slot5;
+            var4 = _closure1_slot6;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var2 = 8;
@@ -64,7 +64,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot8 = var2;
+    var _closure1_slot9 = var2;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -90,14 +90,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5 = 3;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
+    var8 = var5.SubscriptionStatusTypes;
+    var _closure1_slot5 = var8;
     var11 = var5.USER_SETTINGS_CONTAINER_HORIZONTAL_PADDING;
     var13 = 4;
     var5 = var7[var13];
     var5 = var6.bind(var1)(var5);
     var8 = var5.jsx;
-    var _closure1_slot5 = var8;
+    var _closure1_slot6 = var8;
     var5 = var5.jsxs;
-    var _closure1_slot6 = var5;
+    var _closure1_slot7 = var5;
     var5 = 5;
     var5 = var7[var5];
     var10 = var6.bind(var1)(var5);
@@ -127,7 +129,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11['marginTop'] = var12;
     var8['billingManageGoogle'] = var11;
     var8 = var9.bind(var10)(var8);
-    var _closure1_slot7 = var8;
+    var _closure1_slot8 = var8;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -139,63 +141,77 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = arg1;
             var6 = var1.style;
             var17 = var1.subscription;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot8;
             var5 = undefined;
             var13 = var1.bind(var5)();
-            var2 = _closure1_slot0;
+            var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 11;
+            var2 = var9[var1];
+            var4 = var7.bind(var5)(var2);
+            var3 = var4.useSubscriptionInvoicePreview;
+            var2 = {'subscriptionId': null, 'renewal': true, 'applyEntitlements': true};
+            var10 = var17.id;
+            var2['subscriptionId'] = var10;
+            var11 = _closure1_slot1;
+            var10 = 12;
+            var10 = var9[var10];
+            var10 = var11.bind(var5)(var10);
+            var10 = var10.bind(var5)();
+            var2['analyticsLocations'] = var10;
+            var10 = 13;
+            var10 = var9[var10];
+            var10 = var11.bind(var5)(var10);
+            var10 = var10.PREMIUM_BILLING_INFO;
+            var2['analyticsLocation'] = var10;
+            var2 = var3.bind(var4)(var2);
+            var4 = _closure1_slot3;
+            var3 = 1;
+            var10 = var4.bind(var5)(var2, var3);
+            var2 = 0;
+            var21 = var10[var2];
             var1 = var9[var1];
-            var3 = var2.bind(var5)(var1);
-            var2 = var3.useSubscriptionInvoicePreview;
-            var1 = {'subscriptionId': null, 'renewal': true, 'applyEntitlements': true};
-            var4 = var17.id;
-            var1['subscriptionId'] = var4;
-            var7 = _closure1_slot1;
-            var4 = 12;
-            var4 = var9[var4];
-            var4 = var7.bind(var5)(var4);
-            var4 = var4.bind(var5)();
-            var1['analyticsLocations'] = var4;
-            var4 = 13;
-            var4 = var9[var4];
-            var4 = var7.bind(var5)(var4);
-            var4 = var4.PREMIUM_BILLING_INFO;
-            var1['analyticsLocation'] = var4;
-            var3 = var2.bind(var3)(var1);
-            var2 = _closure1_slot3;
-            var1 = 1;
-            var2 = var2.bind(var5)(var3, var1);
-            var1 = 0;
-            var20 = var2[var1];
+            var9 = var7.bind(var5)(var1);
+            var7 = var9.useGetSubscriptionInvoice;
+            var1 = {};
+            var10 = var17.id;
+            var1['subscriptionId'] = var10;
+            var11 = var17.status;
+            var10 = _closure1_slot5;
+            var10 = var10.PAST_DUE;
+            var10 = var11 !== var10;
+            var1['preventFetch'] = var10;
+            var1 = var7.bind(var9)(var1);
+            var1 = var4.bind(var5)(var1, var3);
+            var20 = var1[var2];
             var1 = null;
-            if(!(var1 != var20)) { _fun0002_ip = 619; continue _fun0002 }
- 159:
+            if(!(var1 != var21)) { _fun0002_ip = 686; continue _fun0002 }
+ 225:
             var19 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            var22 = _closure1_slot2;
             var2 = 14;
-            var2 = var21[var2];
+            var2 = var22[var2];
             var3 = var19.bind(var5)(var2);
             var2 = var3.getExternalManagementMessage;
             var11 = var2.bind(var3)(var17);
-            var4 = _closure1_slot6;
+            var4 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
             var2['style'] = var6;
-            var9 = _closure1_slot5;
+            var9 = _closure1_slot6;
             var14 = 15;
-            var6 = var21[var14];
+            var6 = var22[var14];
             var6 = var19.bind(var5)(var6);
             var7 = var6.Text;
             var6 = {'style': null, 'accessibilityRole': 'header', 'variant': 'eyebrow', 'color': 'header-secondary'};
             var10 = var13.title;
             var6['style'] = var10;
             var15 = 9;
-            var10 = var21[var15];
+            var10 = var22[var15];
             var10 = var19.bind(var5)(var10);
             var16 = var10.intl;
             var12 = var16.string;
-            var10 = var21[var15];
+            var10 = var22[var15];
             var10 = var19.bind(var5)(var10);
             var10 = var10.t;
             var10 = var10.Sb6wIy;
@@ -207,18 +223,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = {};
             var9 = var13.billingContainer;
             var7['style'] = var9;
-            var12 = _closure1_slot5;
-            var9 = var21[var14];
+            var12 = _closure1_slot6;
+            var9 = var22[var14];
             var9 = var19.bind(var5)(var9);
             var10 = var9.Text;
             var9 = {};
             var16 = 'text-md/semibold';
             var9['variant'] = var16;
-            var16 = var21[var15];
+            var16 = var22[var15];
             var16 = var19.bind(var5)(var16);
             var18 = var16.intl;
             var16 = var18.string;
-            var15 = var21[var15];
+            var15 = var22[var15];
             var15 = var19.bind(var5)(var15);
             var15 = var15.t;
             var15 = var15.KXQjfX;
@@ -227,8 +243,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var12.bind(var5)(var10, var9);
             var9 = new Array(3);
             var9[0] = var10;
-            var16 = _closure1_slot5;
-            var10 = var21[var14];
+            var16 = _closure1_slot6;
+            var10 = var22[var14];
             var10 = var19.bind(var5)(var10);
             var15 = var10.Text;
             var10 = {};
@@ -237,15 +253,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = 'text-sm/medium';
             var10['variant'] = var12;
             var18 = 10;
-            var18 = var21[var18];
+            var18 = var22[var18];
             var19 = var19.bind(var5)(var18);
             var18 = var19.getBillingInformationString;
-            var18 = var18.bind(var19)(var17, var20);
+            var18 = var18.bind(var19)(var17, var21, var20);
             var10['children'] = var18;
             var10 = var16.bind(var5)(var15, var10);
             var9[1] = var10;
-            var16 = _closure1_slot5;
-            var15 = _closure1_slot8;
+            var16 = _closure1_slot6;
+            var15 = _closure1_slot9;
             var10 = {};
             var18 = var13.billingManageGoogle;
             var10['style'] = var18;
@@ -257,9 +273,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[1] = var7;
             var9 = var1 != var11;
             var7 = null;
-            if(!var9) { _fun0002_ip = 603; continue _fun0002 }
- 551:
-            var10 = _closure1_slot5;
+            if(!var9) { _fun0002_ip = 670; continue _fun0002 }
+ 618:
+            var10 = _closure1_slot6;
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
             var8 = var8[var14];
@@ -271,12 +287,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8['variant'] = var12;
             var8['children'] = var11;
             var7 = var10.bind(var5)(var9, var8);
- 603:
+ 670:
             var6[2] = var7;
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 619:
+ 686:
             return var1;
         }
     };

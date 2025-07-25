@@ -161,49 +161,69 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = function BasicApplicationRecord(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                var2 = arg1;
+                var3 = arg1;
                 var5 = this;
                 var6 = _closure1_slot3;
                 var4 = _closure2_slot0;
-                var3 = undefined;
-                var6 = var6.bind(var3)(var5, var4);
+                var2 = undefined;
+                var6 = var6.bind(var2)(var5, var4);
                 var1 = _closure1_slot11;
-                var1 = var1.bind(var3)(var5, var4);
-                var3 = var2.id;
-                var1['id'] = var3;
-                var3 = var2.name;
-                var1['name'] = var3;
-                var3 = var2.icon;
-                var1['icon'] = var3;
-                var3 = var2.splash;
-                var1['splash'] = var3;
-                var3 = var2.primarySkuId;
-                var1['primarySkuId'] = var3;
-                var3 = var2.thirdPartySkus;
+                var1 = var1.bind(var2)(var5, var4);
+                var2 = var3.id;
+                var1['id'] = var2;
+                var2 = var3.name;
+                var1['name'] = var2;
+                var2 = var3.icon;
+                var1['icon'] = var2;
+                var2 = var3.splash;
+                var1['splash'] = var2;
+                var2 = var3.primarySkuId;
+                var1['primarySkuId'] = var2;
+                var2 = var3.thirdPartySkus;
                 var4 = null;
-                if(!(var4 == var3)) { _fun0004_ip = 111; continue _fun0004 }
+                if(!(var4 == var2)) { _fun0004_ip = 111; continue _fun0004 }
  107:
-                var3 = new Array(0);
+                var2 = new Array(0);
  111:
-                var1['thirdPartySkus'] = var3;
-                var3 = var2.description;
-                var1['description'] = var3;
-                var3 = var2.bot;
-                var1['bot'] = var3;
-                var3 = var2.coverImage;
-                var1['coverImage'] = var3;
-                var3 = var2.type;
-                var1['type'] = var3;
-                var3 = var2.is_monetized;
-                var1['isMonetized'] = var3;
-                var3 = var2.is_verified;
-                if(!(var4 == var3)) { _fun0004_ip = 193; continue _fun0004 }
- 187:
-                var3 = var2.isVerified;
- 193:
-                var1['isVerified'] = var3;
-                var2 = var2.roleConnectionsVerificationUrl;
+                var1['thirdPartySkus'] = var2;
+                var2 = var3.description;
+                var1['description'] = var2;
+                var2 = var3.bot;
+                var1['bot'] = var2;
+                var2 = var3.coverImage;
+                var1['coverImage'] = var2;
+                var2 = var3.type;
+                var1['type'] = var2;
+                var2 = var3.is_monetized;
+                if(!(var4 == var2)) { _fun0004_ip = 179; continue _fun0004 }
+ 173:
+                var2 = var3.isMonetized;
+ 179:
+                var1['isMonetized'] = var2;
+                var2 = var3.is_verified;
+                if(!(var4 == var2)) { _fun0004_ip = 203; continue _fun0004 }
+ 197:
+                var2 = var3.isVerified;
+ 203:
+                var1['isVerified'] = var2;
+                var2 = var3.role_connections_verification_url;
+                if(!(var4 == var2)) { _fun0004_ip = 225; continue _fun0004 }
+ 219:
+                var2 = var3.roleConnectionsVerificationUrl;
+ 225:
                 var1['roleConnectionsVerificationUrl'] = var2;
+                var2 = var3.parent_id;
+                if(!(var4 == var2)) { _fun0004_ip = 247; continue _fun0004 }
+ 241:
+                var2 = var3.parentId;
+ 247:
+                var1['parentId'] = var2;
+                var2 = var3.connection_entrypoint_url;
+                if(!(var4 == var2)) { _fun0004_ip = 269; continue _fun0004 }
+ 263:
+                var2 = var3.connectionEntrypointUrl;
+ 269:
+                var1['connectionEntrypointUrl'] = var2;
                 return var1;
             }
         };
@@ -390,8 +410,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var2.third_party_skus;
                 var4 = 'thirdPartySkus';
                 var1[var4] = var5;
-                var4 = var2.role_connections_verification_url;
-                var2 = 'roleConnectionsVerificationUrl';
+                var5 = var2.role_connections_verification_url;
+                var4 = 'roleConnectionsVerificationUrl';
+                var1[var4] = var5;
+                var5 = var2.parent_id;
+                var4 = 'parentId';
+                var1[var4] = var5;
+                var4 = var2.connection_entrypoint_url;
+                var2 = 'connectionEntrypointUrl';
                 var1[var2] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

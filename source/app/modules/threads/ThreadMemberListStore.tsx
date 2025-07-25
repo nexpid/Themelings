@@ -30,11 +30,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun0001_ip = 74; continue _fun0001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -68,7 +68,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  48:
             var2 = var3.@@iterator;
  54:
-            if(var2) { _fun0002_ip = 344; continue _fun0002 }
+            if(var2) { _fun0002_ip = 342; continue _fun0002 }
  60:
             var6 = var5.Array;
             var4 = var6.isArray;
@@ -181,7 +181,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             return var1;
- 344:
+ 342:
             var1 = var2.call;
             var3 = var1.bind(var2)(var3);
             var2 = var3.next;
@@ -523,7 +523,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4.guildId;
                 var1 = var2 === var5;
  33:
-                if(!var1) { _fun0008_ip = 115; continue _fun0008 }
+                if(!var1) { _fun0008_ip = 111; continue _fun0008 }
  36:
                 var5 = var6.filter;
                 var2 = function(arg1) {
@@ -538,12 +538,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var6.length;
                 var2 = 0;
                 var2 = var2 !== var5;
-                if(!var2) { _fun0008_ip = 112; continue _fun0008 }
- 67:
+                if(!var2) { _fun0008_ip = 108; continue _fun0008 }
+ 65:
                 var7 = var6.length;
                 var5 = 50;
-                if(!(!(var7 > var5))) { _fun0008_ip = 100; continue _fun0008 }
- 79:
+                if(!(!(var7 > var5))) { _fun0008_ip = 96; continue _fun0008 }
+ 77:
                 var5 = var6.forEach;
                 var3 = function(arg1) {
                     var3 = _closure3_slot0;
@@ -554,14 +554,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var3 = var5.bind(var6)(var3);
                 var2 = true;
-                _fun0008_ip = 112; continue _fun0008;
- 100:
+                _fun0008_ip = 108; continue _fun0008;
+ 96:
                 var3 = var4.rebuild;
                 var3 = var3.bind(var4)();
                 var2 = true;
- 112:
+ 108:
                 var1 = var2;
- 115:
+ 111:
                 return var1;
             }
         };
@@ -837,11 +837,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var1[var2];
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0013_ip = 106; continue _fun0013 }
+                if(!var1) { _fun0013_ip = 104; continue _fun0013 }
  34:
                 var2 = var5.usersById;
                 var2 = var7 in var2;
-                if(!var2) { _fun0013_ip = 103; continue _fun0013 }
+                if(!var2) { _fun0013_ip = 101; continue _fun0013 }
  47:
                 var6 = var5.usersById;
                 var6 = delete var6[var7];
@@ -859,9 +859,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3 + 1;
                 var4['version'] = var3;
                 var2 = true;
- 103:
+ 101:
                 var1 = var2;
- 106:
+ 104:
                 return var1;
             }
         };
@@ -1281,7 +1281,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  32:
             var6 = var3.addedMembers;
             var2 = null;
-            if(!(var2 != var6)) { _fun0022_ip = 61; continue _fun0022 }
+            if(!(var2 != var6)) { _fun0022_ip = 59; continue _fun0022 }
  44:
             var5 = var6.forEach;
             var4 = function(arg1) {
@@ -1296,10 +1296,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var4 = var5.bind(var6)(var4);
- 61:
+ 59:
             var3 = var3.removedMemberIds;
-            if(!(var2 != var3)) { _fun0022_ip = 88; continue _fun0022 }
- 71:
+            if(!(var2 != var3)) { _fun0022_ip = 84; continue _fun0022 }
+ 69:
             var2 = var3.forEach;
             var1 = function(arg1) {
                 var2 = _closure1_slot18;
@@ -1312,7 +1312,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
- 88:
+ 84:
             var1 = undefined;
             return var1;
         }
@@ -1394,26 +1394,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = false;
             var1 = false;
             for(var4 in var8)
- 75:
+ 73:
             {
                 var1 = var2;
- 87:
+ 85:
                 var12 = var4;
                 var13 = var10.has;
                 var11 = _closure1_slot18;
                 var11 = var11[var12];
                 var11 = var11.parentId;
                 var11 = var13.bind(var10)(var11);
-                if(!var11) { _fun0025_ip = 75; continue _fun0025 }
- 117:
+                if(!var11) { _fun0025_ip = 73; continue _fun0025 }
+ 115:
                 var11 = _closure1_slot18;
                 var12 = var11[var12];
                 var11 = var12.rebuild;
                 var11 = var11.bind(var12)();
                 var2 = true;
-                _fun0025_ip = 75; continue _fun0025;
+                _fun0025_ip = 73; continue _fun0025;
             }
- 139:
+ 137:
             return var1;
         }
     };
@@ -1436,7 +1436,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  50:
             var8 = var5.parent_id;
  56:
-            if(!(var4 != var8)) { _fun0026_ip = 139; continue _fun0026 }
+            if(!(var4 != var8)) { _fun0026_ip = 137; continue _fun0026 }
  60:
             var5 = _closure1_slot18;
             var4 = _closure1_slot19;
@@ -1460,7 +1460,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var2 = var5.bind(var6)(var2);
             var2 = var3.bind(var4)(var2);
- 139:
+ 137:
             return var1;
         }
     };
@@ -1536,21 +1536,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = false;
             var1 = false;
             for(var4 in var7)
- 125:
+ 123:
             {
                 var1 = var2;
- 137:
+ 135:
                 var12 = var4;
                 var11 = _closure1_slot18;
                 var12 = var11[var12];
                 var11 = var12.updateMultipleUserIds;
                 var11 = var11.bind(var12)(var9);
-                if(!var11) { _fun0027_ip = 125; continue _fun0027 }
- 162:
+                if(!var11) { _fun0027_ip = 123; continue _fun0027 }
+ 160:
                 var2 = true;
-                _fun0027_ip = 125; continue _fun0027;
+                _fun0027_ip = 123; continue _fun0027;
             }
- 166:
+ 164:
             return var1;
         }
     };
@@ -1568,7 +1568,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var3;
             var3 = false;
             var1 = false;
-            if(var2) { _fun0029_ip = 158; continue _fun0029 }
+            if(var2) { _fun0029_ip = 156; continue _fun0029 }
  44:
             var2 = var4.value;
             var17 = var2.guildId;
@@ -1585,28 +1585,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3;
             var10 = var2;
             for(var11 in var14)
- 95:
+ 93:
             {
                 var10 = var2;
- 107:
+ 105:
                 var19 = var11;
                 var18 = _closure1_slot18;
                 var19 = var18[var19];
                 var18 = var19.updateMultipleUserIds;
                 var18 = var18.bind(var19)(var16, var17);
-                if(!var18) { _fun0029_ip = 95; continue _fun0029 }
- 133:
+                if(!var18) { _fun0029_ip = 93; continue _fun0029 }
+ 131:
                 var2 = true;
-                _fun0029_ip = 95; continue _fun0029;
+                _fun0029_ip = 93; continue _fun0029;
             }
- 137:
+ 135:
             var11 = var6.bind(var7)();
             var2 = var11.done;
             var3 = var10;
             var4 = var11;
             var1 = var3;
             if(!var2) { _fun0029_ip = 44; continue _fun0029 }
- 158:
+ 156:
             return var1;
         }
     };

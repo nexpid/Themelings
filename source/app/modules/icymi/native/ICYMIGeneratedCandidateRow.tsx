@@ -446,7 +446,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['messages'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 20;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -720,41 +720,43 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     var4 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var5 = 14;
-                    var2 = var1[var5];
+                    var2 = _closure1_slot2;
+                    var1 = 14;
+                    var2 = var2[var1];
                     var1 = undefined;
-                    var9 = var4.bind(var1)(var2);
-                    var8 = var9.trackItemInteraction;
+                    var2 = var4.bind(var1)(var2);
+                    var8 = var2.ICYMIAnalytics;
+                    var7 = var8.trackItemInteraction;
                     var4 = _closure2_slot0;
-                    var7 = var4.content_id;
-                    var6 = 'generated_candidate';
+                    var6 = var4.content_id;
+                    var5 = 'generated_candidate';
                     var4 = 'press_header';
-                    var4 = var8.bind(var9)(var7, var6, var4);
+                    var4 = var7.bind(var8)(var6, var5, var4);
                     var4 = _closure2_slot2;
-                    var7 = null;
-                    var4 = var7 != var4;
-                    if(!var4) { _fun0009_ip = 84; continue _fun0009 }
- 76:
-                    var6 = _closure2_slot1;
-                    var4 = var7 != var6;
- 84:
-                    if(!var4) { _fun0009_ip = 139; continue _fun0009 }
- 87:
+                    var6 = null;
+                    var4 = var6 != var4;
+                    if(!var4) { _fun0009_ip = 90; continue _fun0009 }
+ 82:
+                    var5 = _closure2_slot1;
+                    var4 = var6 != var5;
+ 90:
+                    if(!var4) { _fun0009_ip = 148; continue _fun0009 }
+ 93:
                     var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var3 = var3[var5];
+                    var5 = _closure1_slot2;
+                    var3 = 15;
+                    var3 = var5[var3];
                     var6 = var4.bind(var1)(var3);
                     var5 = var6.navigateToPost;
                     var3 = _closure2_slot2;
-                    var13 = var3.id;
+                    var12 = var3.id;
                     var2 = _closure2_slot1;
-                    var12 = var2.id;
-                    var10 = false;
-                    var14 = var6;
-                    var11 = undefined;
-                    var2 = var14[var5](var13, var12, var11, var10, var9);
- 139:
+                    var11 = var2.id;
+                    var9 = false;
+                    var13 = var6;
+                    var10 = undefined;
+                    var2 = var13[var5](var12, var11, var10, var9, var8);
+ 148:
                     return var1;
                 }
             };
@@ -773,7 +775,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = 14;
                     var2 = var2[var1];
                     var1 = undefined;
-                    var8 = var4.bind(var1)(var2);
+                    var2 = var4.bind(var1)(var2);
+                    var8 = var2.ICYMIAnalytics;
                     var7 = var8.trackItemInteraction;
                     var4 = _closure2_slot0;
                     var6 = var4.content_id;
@@ -782,18 +785,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var7.bind(var8)(var6, var5, var4);
                     var5 = _closure2_slot2;
                     var4 = null;
-                    if(!(var4 != var5)) { _fun0010_ip = 113; continue _fun0010 }
- 73:
+                    if(!(var4 != var5)) { _fun0010_ip = 119; continue _fun0010 }
+ 79:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 15;
+                    var3 = 16;
                     var3 = var5[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.openChannelLongPressActionSheet;
                     var2 = _closure2_slot2;
                     var2 = var2.id;
                     var2 = var3.bind(var4)(var2);
- 113:
+ 119:
                     return var1;
                 }
             };
@@ -818,20 +821,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = 0;
                     var2 = var4 > var3;
  31:
-                    if(!var2) { _fun0011_ip = 145; continue _fun0011 }
+                    if(!var2) { _fun0011_ip = 154; continue _fun0011 }
  34:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var2 = 14;
-                    var6 = var5[var2];
+                    var2 = var5[var2];
                     var3 = undefined;
-                    var10 = var4.bind(var3)(var6);
-                    var9 = var10.trackItemInteraction;
-                    var6 = _closure2_slot0;
-                    var8 = var6.content_id;
-                    var7 = 'generated_candidate';
-                    var6 = 'press_content';
-                    var6 = var9.bind(var10)(var8, var7, var6);
+                    var2 = var4.bind(var3)(var2);
+                    var9 = var2.ICYMIAnalytics;
+                    var8 = var9.trackItemInteraction;
+                    var2 = _closure2_slot0;
+                    var7 = var2.content_id;
+                    var6 = 'generated_candidate';
+                    var2 = 'press_content';
+                    var2 = var8.bind(var9)(var7, var6, var2);
+                    var2 = 15;
                     var2 = var5[var2];
                     var5 = var4.bind(var3)(var2);
                     var4 = var5.navigateToPost;
@@ -843,7 +848,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var6[var1];
                     var1 = var1.id;
                     var1 = var4.bind(var5)(var3, var2, var1);
- 145:
+ 154:
                     var1 = undefined;
                     return var1;
                 }
@@ -917,7 +922,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = _closure1_slot11;
             var19 = _closure1_slot0;
             var21 = _closure1_slot2;
-            var2 = 14;
+            var2 = 15;
             var2 = var21[var2];
             var2 = var19.bind(var5)(var2);
             var3 = var2.GeneratedCandidateContentPost;
@@ -941,7 +946,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var12.container;
             var13['style'] = var17;
             var27 = _closure1_slot10;
-            var18 = 16;
+            var18 = 17;
             var17 = var21[var18];
             var17 = var19.bind(var5)(var17);
             var20 = var17.Text;
@@ -971,7 +976,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = _closure1_slot10;
             var20 = _closure1_slot0;
             var27 = _closure1_slot2;
-            var19 = 17;
+            var19 = 18;
             var19 = var27[var19];
             var19 = var20.bind(var5)(var19);
             var20 = var19.PressableOpacity;
@@ -991,7 +996,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = _closure1_slot10;
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var3 = 18;
+                    var3 = 19;
                     var3 = var5[var3];
                     var5 = undefined;
                     var4 = var4.bind(var5)(var3);
@@ -1044,7 +1049,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = _closure1_slot10;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var11 = 19;
+            var11 = 20;
             var11 = var16[var11];
             var11 = var12.bind(var5)(var11);
             var12 = var11.GeneratedCandidateReplyRow;

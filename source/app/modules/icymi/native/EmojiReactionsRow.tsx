@@ -298,7 +298,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 24;
                 var2 = var10[var1];
                 var1 = undefined;
-                var6 = var9.bind(var1)(var2);
+                var2 = var9.bind(var1)(var2);
+                var6 = var2.ICYMIAnalytics;
                 var5 = var6.trackItemInteraction;
                 var8 = _closure2_slot0;
                 var4 = _closure2_slot4;
@@ -741,7 +742,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var7 = var10.bind(var11)(var7);
     var _closure1_slot18 = var7;
-    var7 = 40;
+    var7 = 41;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -849,7 +850,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 24;
                 var2 = var4[var1];
                 var1 = undefined;
-                var9 = var3.bind(var1)(var2);
+                var2 = var3.bind(var1)(var2);
+                var9 = var2.ICYMIAnalytics;
                 var8 = var9.trackItemInteraction;
                 var5 = _closure2_slot0;
                 var7 = var5.id;
@@ -876,16 +878,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = function() {
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var6 = 24;
-                var2 = var4[var6];
+                var1 = 24;
+                var2 = var4[var1];
                 var1 = undefined;
-                var11 = var3.bind(var1)(var2);
-                var10 = var11.trackItemInteraction;
+                var2 = var3.bind(var1)(var2);
+                var10 = var2.ICYMIAnalytics;
+                var9 = var10.trackItemInteraction;
                 var5 = _closure2_slot0;
-                var9 = var5.id;
-                var8 = 'message';
-                var7 = 'press_reply';
-                var7 = var10.bind(var11)(var9, var8, var7);
+                var8 = var5.id;
+                var7 = 'message';
+                var6 = 'press_reply';
+                var6 = var9.bind(var10)(var8, var7, var6);
+                var6 = 33;
                 var6 = var4[var6];
                 var10 = var3.bind(var1)(var6);
                 var9 = var10.navigateToPost;
@@ -894,7 +898,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = var6.guild_id;
                 var2 = var5.id;
                 var2 = var9.bind(var10)(var8, var7, var2);
-                var2 = 33;
+                var2 = 34;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.createPendingReply;
@@ -956,7 +960,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var6 = copyDataProperties(var10, var9);
                         var8 = _closure1_slot0;
                         var7 = _closure1_slot2;
-                        var6 = 34;
+                        var6 = 35;
                         var7 = var7[var6];
                         var6 = undefined;
                         var6 = var8.bind(var6)(var7);
@@ -977,7 +981,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = copyDataProperties(var10, var9);
                         var6 = _closure1_slot0;
                         var5 = _closure1_slot2;
-                        var4 = 34;
+                        var4 = 35;
                         var5 = var5[var4];
                         var4 = undefined;
                         var4 = var6.bind(var4)(var5);
@@ -1015,7 +1019,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  400:
             var12 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var2 = 35;
+            var2 = 36;
             var2 = var19[var2];
             var5 = var12.bind(var4)(var2);
             var3 = var5.useToken;
@@ -1060,7 +1064,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.bind(var8)(var3, var2);
             var8 = _closure1_slot4;
             var3 = var8.useContext;
-            var2 = 36;
+            var2 = 37;
             var2 = var19[var2];
             var2 = var12.bind(var4)(var2);
             var2 = var2.ICYMIContext;
@@ -1088,7 +1092,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = var8.type;
                     var12 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var10 = 34;
+                    var10 = 35;
                     var9 = var2[var10];
                     var2 = undefined;
                     var9 = var12.bind(var2)(var9);
@@ -1167,7 +1171,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = var8.type;
                     var12 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var10 = 34;
+                    var10 = 35;
                     var9 = var2[var10];
                     var2 = undefined;
                     var9 = var12.bind(var2)(var9);
@@ -1242,7 +1246,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var33 = _closure1_slot15;
             var37 = _closure1_slot1;
             var35 = _closure1_slot2;
-            var31 = 37;
+            var31 = 38;
             var31 = var35[var31];
             var32 = var37.bind(var4)(var31);
             var31 = {};
@@ -1253,7 +1257,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var31['start'] = var38;
             var34 = var34.END;
             var31['end'] = var34;
-            var34 = 38;
+            var34 = 39;
             var34 = var35[var34];
             var34 = var37.bind(var4)(var34);
             var37 = var34.bind(var4)(var36);
@@ -1275,7 +1279,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var31[0] = var32;
             var34 = _closure1_slot15;
             var33 = _closure1_slot0;
-            var32 = 39;
+            var32 = 40;
             var32 = var35[var32];
             var32 = var33.bind(var4)(var32);
             var33 = var32.ChevronSmallRightIcon;
@@ -1310,7 +1314,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 24;
                 var2 = var2[var1];
                 var1 = undefined;
-                var5 = var3.bind(var1)(var2);
+                var1 = var3.bind(var1)(var2);
+                var5 = var1.ICYMIAnalytics;
                 var4 = var5.trackItemInteraction;
                 var2 = _closure2_slot0;
                 var3 = var2.id;

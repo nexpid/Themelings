@@ -252,7 +252,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['buttonIcon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot16 = var4;
-    var4 = 37;
+    var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -531,18 +531,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var _closure3_slot1 = var1;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var4 = var3[var1];
                 var1 = undefined;
-                var8 = var5.bind(var1)(var4);
+                var4 = var5.bind(var1)(var4);
+                var8 = var4.ICYMIAnalytics;
                 var7 = var8.trackItemInteraction;
                 var6 = 'edit_custom_status_row';
                 var4 = 'press_media';
                 var4 = var7.bind(var8)(var6, var6, var4);
-                var4 = 23;
+                var4 = 24;
                 var4 = var3[var4];
                 var5 = var5.bind(var1)(var4);
-                var4 = 22;
+                var4 = 23;
                 var4 = var3[var4];
                 var3 = var3.paths;
                 var4 = var5.bind(var1)(var4, var3);
@@ -669,12 +670,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  975:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 24;
+            var2 = 25;
             var2 = var8[var2];
             var3 = var4.bind(var5)(var2);
             var2 = var3.age;
             var3 = var2.bind(var3)(var44);
-            var2 = 25;
+            var2 = 26;
             var2 = var8[var2];
             var2 = var4.bind(var5)(var2);
             var2 = var2.Millis;
@@ -686,7 +687,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = _closure1_slot12;
             var16 = _closure1_slot1;
             var24 = _closure1_slot2;
-            var2 = 26;
+            var2 = 27;
             var2 = var24[var2];
             var3 = var16.bind(var5)(var2);
             var2 = {};
@@ -707,7 +708,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var13.bind(var5)(var11);
             var13 = var11.Text;
             var11 = {'variant': 'text-md/semibold', 'color': 'header-primary'};
-            var15 = 27;
+            var15 = 28;
             var15 = var24[var15];
             var16 = var16.bind(var5)(var15);
             var15 = var16.getName;
@@ -731,12 +732,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = var41.bind(var5)(var16);
             var24 = var16.Text;
             var16 = {'lineClamp': 1, 'variant': 'text-sm/normal', 'color': 'header-muted'};
-            var38 = 28;
+            var38 = 29;
             var38 = var45[var38];
             var42 = var41.bind(var5)(var38);
             var41 = var42.getRelativeTimestamp;
             var43 = _closure1_slot1;
-            var38 = 24;
+            var38 = 25;
             var38 = var45[var38];
             var43 = var43.bind(var5)(var38);
             var38 = var43.extractTimestamp;
@@ -753,7 +754,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var38 = _closure1_slot11;
             var26 = _closure1_slot1;
             var41 = _closure1_slot2;
-            var24 = 29;
+            var24 = 30;
             var24 = var41[var24];
             var26 = var26.bind(var5)(var24);
             var24 = {};
@@ -819,7 +820,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = _closure1_slot12;
             var11 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var42 = 30;
+            var42 = 31;
             var6 = var10[var42];
             var7 = var11.bind(var5)(var6);
             var6 = {};
@@ -941,7 +942,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = _closure1_slot12;
             var15 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var17 = 31;
+            var17 = 32;
             var14 = var14[var17];
             var14 = var15.bind(var5)(var14);
             var15 = var14.PressableHighlight;
@@ -1051,7 +1052,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var31 = _closure1_slot11;
             var28 = _closure1_slot0;
             var37 = _closure1_slot2;
-            var27 = 32;
+            var27 = 33;
             var27 = var37[var27];
             var27 = var28.bind(var5)(var27);
             var28 = var27.GravityAttachmentMediaMosaic;
@@ -1132,7 +1133,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19[2] = var21;
             var15['style'] = var19;
             var24 = _closure1_slot11;
-            var19 = 35;
+            var19 = 36;
             var19 = var27[var19];
             var19 = var23.bind(var5)(var19);
             var21 = var19.ArrowAngleLeftUpIcon;
@@ -1171,7 +1172,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21[2] = var24;
             var16['style'] = var21;
             var24 = _closure1_slot11;
-            var21 = 36;
+            var21 = 37;
             var21 = var27[var21];
             var21 = var23.bind(var5)(var21);
             var23 = var21.ReactionIcon;
@@ -1215,7 +1216,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23[2] = var31;
             var16['style'] = var23;
             var33 = _closure1_slot11;
-            var23 = 33;
+            var23 = 34;
             var23 = var24[var23];
             var23 = var21.bind(var5)(var23);
             var32 = var23.TrashIcon;
@@ -1254,7 +1255,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var22[2] = var25;
             var17['style'] = var22;
             var22 = _closure1_slot11;
-            var20 = 34;
+            var20 = 35;
             var20 = var24[var20];
             var20 = var21.bind(var5)(var20);
             var21 = var20.PencilIcon;

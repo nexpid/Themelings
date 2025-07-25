@@ -3431,7 +3431,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  51:
                             var2 = var4;
  54:
-                            if(!(var2 > var3)) { _fun0050_ip = 341; continue _fun0050 }
+                            if(!(var2 > var3)) { _fun0050_ip = 339; continue _fun0050 }
  61:
                             var12 = _closure1_slot1;
                             var13 = _closure1_slot3;
@@ -3494,7 +3494,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var16 = var2;
                             var6 = copyDataProperties(var16, var15);
                             var2 = var4.bind(var5)(var3, var2);
- 341:
+ 339:
                             return var1;
                         }
                     };
@@ -6326,12 +6326,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = this;
                     var2 = var3._videoQuality;
                     var4 = null;
-                    if(!(var4 != var2)) { _fun0081_ip = 401; continue _fun0081 }
+                    if(!(var4 != var2)) { _fun0081_ip = 399; continue _fun0081 }
  21:
                     var5 = var3.context;
                     var1 = _closure1_slot24;
                     var1 = var1.DEFAULT;
-                    if(!(var5 === var1)) { _fun0081_ip = 401; continue _fun0081 }
+                    if(!(var5 === var1)) { _fun0081_ip = 399; continue _fun0081 }
  46:
                     var1 = var2.getInboundStats;
                     var9 = var1.bind(var2)(var7);
@@ -6349,9 +6349,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  85:
                     var1 = var6;
  88:
-                    if(!(var4 != var9)) { _fun0081_ip = 401; continue _fun0081 }
+                    if(!(var4 != var9)) { _fun0081_ip = 399; continue _fun0081 }
  95:
-                    if(!(var1 > var5)) { _fun0081_ip = 401; continue _fun0081 }
+                    if(!(var1 > var5)) { _fun0081_ip = 399; continue _fun0081 }
  102:
                     var12 = _closure1_slot1;
                     var14 = _closure1_slot3;
@@ -6414,23 +6414,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var2.destroyUser;
                     var1 = var1.bind(var2)(var7);
                     var2 = var3._videoHealthManager;
-                    if(!(var4 != var2)) { _fun0081_ip = 401; continue _fun0081 }
- 390:
+                    if(!(var4 != var2)) { _fun0081_ip = 399; continue _fun0081 }
+ 388:
                     var1 = var2.deleteUser;
                     var1 = var1.bind(var2)(var7);
- 401:
+ 399:
                     var2 = var3._connection;
-                    if(!(var4 != var2)) { _fun0081_ip = 422; continue _fun0081 }
- 411:
+                    if(!(var4 != var2)) { _fun0081_ip = 420; continue _fun0081 }
+ 409:
                     var1 = var2.destroyUser;
                     var1 = var1.bind(var2)(var7);
- 422:
+ 420:
                     var2 = var3._localMediaSinkWantsManager;
-                    if(!(var4 != var2)) { _fun0081_ip = 443; continue _fun0081 }
- 432:
+                    if(!(var4 != var2)) { _fun0081_ip = 441; continue _fun0081 }
+ 430:
                     var1 = var2.destroyUser;
                     var1 = var1.bind(var2)(var7);
- 443:
+ 441:
                     var2 = var3._userIds;
                     var1 = var2.delete;
                     var1 = var1.bind(var2)(var7);
@@ -6445,32 +6445,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = var5.ClientDisconnect;
                     var5 = var6.bind(var3)(var5, var7);
                     var7 = var3._goLiveQualityManager;
-                    if(!(var4 != var7)) { _fun0081_ip = 535; continue _fun0081 }
- 518:
+                    if(!(var4 != var7)) { _fun0081_ip = 533; continue _fun0081 }
+ 516:
                     var6 = var7.updateCallUserIds;
                     var5 = var3._userIds;
                     var5 = var6.bind(var7)(var5);
- 535:
+ 533:
                     var7 = var3._localMediaSinkWantsManager;
-                    if(!(var4 != var7)) { _fun0081_ip = 562; continue _fun0081 }
- 545:
+                    if(!(var4 != var7)) { _fun0081_ip = 560; continue _fun0081 }
+ 543:
                     var6 = var7.updateCallUserIds;
                     var5 = var3._userIds;
                     var5 = var6.bind(var7)(var5);
- 562:
+ 560:
                     var6 = var3._videoQuality;
-                    if(!(var4 != var6)) { _fun0081_ip = 594; continue _fun0081 }
- 572:
+                    if(!(var4 != var6)) { _fun0081_ip = 592; continue _fun0081 }
+ 570:
                     var5 = var6.updateCallUserIdsCount;
                     var4 = var3._userIds;
                     var4 = var4.size;
                     var4 = var5.bind(var6)(var4);
- 594:
+ 592:
                     var4 = var3._userIds;
                     var5 = var4.size;
                     var4 = 1;
-                    if(!(var4 === var5)) { _fun0081_ip = 647; continue _fun0081 }
- 612:
+                    if(!(var4 === var5)) { _fun0081_ip = 645; continue _fun0081 }
+ 610:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot3;
                     var2 = 17;
@@ -6479,7 +6479,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var4.now;
                     var2 = var2.bind(var4)();
                     var3['_secureFramesLastBecameAloneTime'] = var2;
- 647:
+ 645:
                     return var1;
                 }
             };

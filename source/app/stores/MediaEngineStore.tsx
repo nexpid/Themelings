@@ -434,7 +434,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var7.vadUseKrisp;
             if(!var7) { _fun0009_ip = 92; continue _fun0009 }
  84:
-            var9 = _closure1_slot153;
+            var9 = _closure1_slot155;
             var7 = var9.bind(var1)();
  92:
             if(!var7) { _fun0009_ip = 151; continue _fun0009 }
@@ -716,7 +716,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot49;
             _fun0012_ip = 420; continue _fun0012;
  392:
-            var7 = _closure1_slot141;
+            var7 = _closure1_slot143;
             var6 = _closure1_slot78;
             var5 = _closure1_slot124;
             var5 = var5.bind(var1)();
@@ -747,7 +747,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot124;
             var3 = var3.bind(var1)();
             var13 = var3.videoHook;
-            var3 = _closure1_slot132;
+            var3 = _closure1_slot134;
             var12 = var3.bind(var1)();
             var11 = 0;
             if(!var12) { _fun0012_ip = 721; continue _fun0012 }
@@ -763,11 +763,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  574:
             var7 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var9 = 54;
+            var9 = 55;
             var9 = var5[var9];
             var14 = var7.bind(var1)(var9);
             var9 = var14.satisfies;
-            var16 = 55;
+            var16 = 56;
             var5 = var5[var16];
             var5 = var7.bind(var1)(var5);
             var5 = var4 == var5;
@@ -823,7 +823,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['useLoopback'] = var11;
             var11 = true;
             var3['useQuartzCapturer'] = var11;
-            var11 = _closure1_slot133;
+            var11 = _closure1_slot135;
             var11 = var11.bind(var1)();
             var3['allowScreenCaptureKit'] = var11;
             var11 = 500;
@@ -909,6 +909,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var _closure1_slot129 = var1;
+    var1 = function getAutomaticGainControlConfig(arg1) {
+        var6 = arg1;
+        var1 = {};
+        var1['enabled'] = var6;
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot3;
+        var2 = 41;
+        var3 = var3[var2];
+        var2 = undefined;
+        var5 = var4.bind(var2)(var3);
+        var4 = var5.getCurrentConfig;
+        var3 = {};
+        var2 = 'getAutomaticGainControlConfig';
+        var3['location'] = var2;
+        var2 = {};
+        var7 = true;
+        var2['autoTrackExposure'] = var7;
+        var6 = !var6;
+        var2['disable'] = var6;
+        var8 = var4.bind(var5)(var3, var2);
+        var9 = var1;
+        var2 = copyDataProperties(var9, var8);
+        return var1;
+    };
+    var _closure1_slot130 = var1;
+    var1 = function setAutomaticGainControl(arg1, arg2) {
+        var4 = arg1;
+        var3 = var4.setAutomaticGainControl;
+        var5 = _closure1_slot130;
+        var1 = undefined;
+        var2 = arg2;
+        var2 = var5.bind(var1)(var2);
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var _closure1_slot131 = var1;
     var1 = function updateConnectionVoiceProcessing(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
@@ -935,15 +971,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var2.noiseSuppression;
  87:
             var5 = var6.bind(var4)(var5);
-            var6 = var4.setAutomaticGainControl;
+            var6 = _closure1_slot131;
             var7 = _closure1_slot18;
             var5 = var7.hasAutomaticGainControl;
             var5 = var5.bind(var7)(var8);
-            if(var5) { _fun0014_ip = 122; continue _fun0014 }
- 116:
+            if(var5) { _fun0014_ip = 120; continue _fun0014 }
+ 114:
             var5 = var2.automaticGainControl;
- 122:
-            var5 = var6.bind(var4)(var5);
+ 120:
+            var5 = var6.bind(var1)(var4, var5);
             var6 = var4.setNoiseCancellation;
             var5 = var2.noiseCancellation;
             var5 = var6.bind(var4)(var5);
@@ -957,21 +993,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.bind(var1)(var3);
             var3 = var5.isWeb;
             var3 = var3.bind(var5)();
-            if(!var3) { _fun0014_ip = 226; continue _fun0014 }
- 192:
+            if(!var3) { _fun0014_ip = 225; continue _fun0014 }
+ 191:
             var2 = var2.noiseCancellation;
             var3 = -100;
-            if(!var2) { _fun0014_ip = 213; continue _fun0014 }
- 207:
+            if(!var2) { _fun0014_ip = 212; continue _fun0014 }
+ 206:
             var3 = -150;
- 213:
+ 212:
             var2 = var4.setSilenceThreshold;
             var2 = var2.bind(var4)(var3);
- 226:
+ 225:
             return var1;
         }
     };
-    var _closure1_slot130 = var1;
+    var _closure1_slot132 = var1;
     var1 = function setupMediaEngine() {
         var10 = _closure1_slot66;
         var9 = var10.on;
@@ -993,7 +1029,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var5.bind(var1)(var4);
                 var5 = _closure1_slot127;
                 var5 = var5.bind(var1)(var4);
-                var5 = _closure1_slot130;
+                var5 = _closure1_slot132;
                 var5 = var5.bind(var1)(var4);
                 var5 = _closure1_slot124;
                 var6 = var5.bind(var1)();
@@ -1032,12 +1068,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(!(var5 == var6)) { _fun0015_ip = 205; continue _fun0015 }
  192:
                 var9 = _closure1_slot3;
-                var7 = 42;
+                var7 = 43;
                 var7 = var9[var7];
                 _fun0015_ip = 216; continue _fun0015;
  205:
                 var10 = _closure1_slot3;
-                var9 = 41;
+                var9 = 42;
                 var7 = var10[var9];
  216:
                 var12 = var8.bind(var1)(var7);
@@ -1087,7 +1123,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  377:
                 var10 = _closure1_slot1;
                 var11 = _closure1_slot3;
-                var9 = 43;
+                var9 = 44;
                 var9 = var11[var9];
                 var11 = var10.bind(var1)(var9);
                 var10 = var11.getCurrentConfig;
@@ -1123,7 +1159,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  535:
                 var9 = _closure1_slot1;
                 var10 = _closure1_slot3;
-                var6 = 44;
+                var6 = 45;
                 var6 = var10[var6];
                 var9 = var9.bind(var1)(var6);
                 var6 = var9.getConfig;
@@ -1133,7 +1169,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var4.configureGoLiveSimulcast;
                 var6 = var6.bind(var4)(var11, var9);
                 var9 = _closure1_slot0;
-                var6 = 45;
+                var6 = 46;
                 var6 = var10[var6];
                 var10 = var9.bind(var1)(var6);
                 var9 = var10.getGoLiveTileResolutionExperimentConfig;
@@ -1219,13 +1255,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var9.setHasFullbandPerformance;
                 var10 = _closure1_slot1;
                 var8 = _closure1_slot3;
-                var5 = 46;
+                var5 = 47;
                 var5 = var8[var5];
                 var5 = var10.bind(var1)(var5);
                 var5 = var5.bind(var1)();
                 var5 = var6.bind(var9)(var5);
                 var6 = _closure1_slot0;
-                var5 = 47;
+                var5 = 48;
                 var5 = var8[var5];
                 var6 = var6.bind(var1)(var5);
                 var5 = var6.getAudioNackExperimentConfig;
@@ -1241,7 +1277,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var6.bind(var4)(var5);
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot3;
-                var5 = 48;
+                var5 = 49;
                 var5 = var7[var5];
                 var6 = var6.bind(var1)(var5);
                 var5 = _closure1_slot64;
@@ -1258,7 +1294,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var7.bind(var4)(var6, var5);
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot3;
-                var5 = 49;
+                var5 = 50;
                 var5 = var7[var5];
                 var9 = var6.bind(var1)(var5);
                 var7 = var9.getCurrentConfig;
@@ -1380,7 +1416,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = function(arg1, arg2) {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var1 = 50;
+                    var1 = 51;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -1452,7 +1488,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = function() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var1 = 50;
+                    var1 = 51;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -1477,7 +1513,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = function(arg1) {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var1 = 50;
+                    var1 = 51;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -1512,7 +1548,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  33:
                         var9 = _closure1_slot1;
                         var10 = _closure1_slot3;
-                        var2 = 51;
+                        var2 = 52;
                         var2 = var10[var2];
                         var5 = var9.bind(var1)(var2);
                         var4 = var5.track;
@@ -1531,7 +1567,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2['success'] = var7;
                         var7 = arg6;
                         var2['reinitialization'] = var7;
-                        var7 = 52;
+                        var7 = 53;
                         var7 = var10[var7];
                         var7 = var9.bind(var1)(var7);
                         var8 = _closure1_slot68;
@@ -1585,7 +1621,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = true;
                     _closure1_slot107 = var3;
                     var3 = _closure1_slot1;
-                    var6 = 51;
+                    var6 = 52;
                     var6 = var4[var6];
                     var8 = var3.bind(var1)(var6);
                     var7 = var8.track;
@@ -1594,7 +1630,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = {};
                     var2['noise_canceller_error'] = var5;
                     var2 = var7.bind(var8)(var6, var2);
-                    var2 = 50;
+                    var2 = 51;
                     var6 = var4[var2];
                     var8 = var3.bind(var1)(var6);
                     var7 = var8.dispatch;
@@ -1649,7 +1685,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2['underlyingError'] = var7;
                     var2 = var3.bind(var6)(var2);
                     var3 = _closure1_slot1;
-                    var2 = 51;
+                    var2 = 52;
                     var2 = var4[var2];
                     var8 = var3.bind(var1)(var2);
                     var7 = var8.track;
@@ -1658,7 +1694,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = {};
                     var2['noise_canceller_error'] = var5;
                     var2 = var7.bind(var8)(var6, var2);
-                    var2 = 50;
+                    var2 = 51;
                     var6 = var4[var2];
                     var8 = var3.bind(var1)(var6);
                     var7 = var8.dispatch;
@@ -1703,7 +1739,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = function(arg1, arg2, arg3, arg4) {
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot3;
-                    var1 = 51;
+                    var1 = 52;
                     var3 = var3[var1];
                     var1 = undefined;
                     var5 = var4.bind(var1)(var3);
@@ -1731,7 +1767,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = function(arg1) {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var1 = 50;
+                    var1 = 51;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -1769,7 +1805,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = function(arg1, arg2, arg3) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -1796,7 +1832,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = function(arg1, arg2) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -1821,7 +1857,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -1842,7 +1878,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure1_slot109 = var2;
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -1863,7 +1899,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = function(arg1) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -1895,7 +1931,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  14: // try_start_0
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 53;
+                    var4 = 54;
                     var4 = var6[var4];
                     var6 = var5.bind(var2)(var4);
                     var5 = var6.submitLiveCrashReport;
@@ -1943,7 +1979,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var5.bind(var6)(var4);
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 51;
+                    var4 = 52;
                     var4 = var6[var4];
                     var6 = var5.bind(var2)(var4);
                     var5 = var6.track;
@@ -1973,7 +2009,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = arg1;
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot3;
-                var1 = 51;
+                var1 = 52;
                 var2 = var2[var1];
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
@@ -2030,7 +2066,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = arg1;
             var11 = _closure1_slot1;
             var12 = _closure1_slot3;
-            var1 = 51;
+            var1 = 52;
             var2 = var12[var1];
             var1 = undefined;
             var5 = var11.bind(var1)(var2);
@@ -2070,7 +2106,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -2095,7 +2131,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure3_slot1 = var1;
             var4 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -2103,7 +2139,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot3;
-                var1 = 50;
+                var1 = 51;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -2191,7 +2227,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = function(arg1, arg2) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -2216,7 +2252,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = function(arg1) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -2239,7 +2275,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = function(arg1) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -2262,7 +2298,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = function(arg1, arg2, arg3) {
             var4 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var1 = 51;
+            var1 = 52;
             var3 = var3[var1];
             var1 = undefined;
             var5 = var4.bind(var1)(var3);
@@ -2366,7 +2402,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = arg1;
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -2413,17 +2449,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = arg1;
                         var2 = var4.taskMetrics;
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0022_ip = 421; continue _fun0022 }
+                        if(!(var1 != var2)) { _fun0022_ip = 425; continue _fun0022 }
  20:
                         var2 = var4.taskMetrics;
                         var2 = var2.length;
                         var14 = 0;
-                        if(!(var14 !== var2)) { _fun0022_ip = 421; continue _fun0022 }
+                        if(!(var14 !== var2)) { _fun0022_ip = 425; continue _fun0022 }
  40:
                         var2 = var4.taskMetrics;
                         var5 = var2.length;
                         var2 = 1;
-                        if(!(var2 !== var5)) { _fun0022_ip = 419; continue _fun0022 }
+                        if(!(var2 !== var5)) { _fun0022_ip = 423; continue _fun0022 }
  61:
                         var2 = {'metrics_period_ms': null, 'total_tasks': 0, 'total_exec_time_ns': 0};
                         var5 = var4.periodMs;
@@ -2487,10 +2523,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var13 = 'slow_task_';
                         var12 = '_longest_exec_time_ns';
                         var11 = 0;
- 244:
+ 248:
                         var4 = var5.length;
-                        if(!(var11 < var4)) { _fun0022_ip = 310; continue _fun0022 }
- 253:
+                        if(!(var11 < var4)) { _fun0022_ip = 314; continue _fun0022 }
+ 257:
                         var4 = var5[var11];
                         var15 = var3.HermesInternal;
                         var15 = var15.concat;
@@ -2502,14 +2538,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var15 = var15.bind(var13)(var11, var12);
                         var4 = var4.longestExecTimeNs;
                         var2[var15] = var4;
- 310:
+ 314:
                         var11 = var11 + 1;
                         var4 = 0;
-                        if(var11 < var9) { _fun0022_ip = 244; continue _fun0022 }
- 319:
+                        if(var11 < var9) { _fun0022_ip = 248; continue _fun0022 }
+ 323:
                         var11 = var10.length;
-                        if(!(var4 < var11)) { _fun0022_ip = 385; continue _fun0022 }
- 328:
+                        if(!(var4 < var11)) { _fun0022_ip = 389; continue _fun0022 }
+ 332:
                         var11 = var10[var4];
                         var12 = var3.HermesInternal;
                         var12 = var12.concat;
@@ -2521,18 +2557,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var12 = var12.bind(var8)(var4, var6);
                         var11 = var11.longestQueueTimeNs;
                         var2[var12] = var11;
- 385:
+ 389:
                         var4 = var4 + 1;
-                        if(var4 < var9) { _fun0022_ip = 319; continue _fun0022 }
- 392:
+                        if(var4 < var9) { _fun0022_ip = 323; continue _fun0022 }
+ 396:
                         var4 = var3.JSON;
                         var3 = var4.stringify;
                         var3 = var3.bind(var4)(var5);
                         var2['full_task_report'] = var3;
                         return var2;
- 419:
+ 423:
                         return var1;
- 421:
+ 425:
                         return var1;
                     }
                 };
@@ -2544,7 +2580,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  23:
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot3;
-                var3 = 51;
+                var3 = 52;
                 var3 = var6[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.track;
@@ -2567,7 +2603,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure3_slot2 = var1;
             var4 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var1 = 50;
+            var1 = 51;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -2575,7 +2611,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot3;
-                var1 = 50;
+                var1 = 51;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -2619,7 +2655,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot131 = var1;
+    var _closure1_slot133 = var1;
     var1 = function supportsWindowsGraphicsCapture() {
         _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
  0:
@@ -2635,11 +2671,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  38:
             var6 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var4 = 54;
+            var4 = 55;
             var4 = var3[var4];
             var5 = var6.bind(var8)(var4);
             var4 = var5.satisfies;
-            var9 = 55;
+            var9 = 56;
             var3 = var3[var9];
             var6 = var6.bind(var8)(var3);
             var3 = null;
@@ -2660,7 +2696,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot132 = var1;
+    var _closure1_slot134 = var1;
     var1 = function supportsScreenCaptureKit() {
         _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
  0:
@@ -2684,11 +2720,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  66:
             var6 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var4 = 54;
+            var4 = 55;
             var4 = var3[var4];
             var5 = var6.bind(var8)(var4);
             var4 = var5.satisfies;
-            var9 = 55;
+            var9 = 56;
             var3 = var3[var9];
             var6 = var6.bind(var8)(var3);
             var3 = null;
@@ -2709,7 +2745,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot133 = var1;
+    var _closure1_slot135 = var1;
     var1 = function supportsAutomaticAudioSubsystem() {
         _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
  0:
@@ -2740,7 +2776,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot134 = var1;
+    var _closure1_slot136 = var1;
     var1 = function isReadyToMigrateToSingleAdmOffering() {
         var3 = _closure1_slot66;
         var2 = var3.supports;
@@ -2749,13 +2785,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot135 = var1;
+    var _closure1_slot137 = var1;
     var1 = function loadSettings() {
         _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
  0:
             var4 = _closure1_slot0;
             var1 = _closure1_slot3;
-            var6 = 56;
+            var6 = 57;
             var2 = var1[var6];
             var1 = undefined;
             var2 = var4.bind(var1)(var2);
@@ -2834,7 +2870,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var3.modeOptions;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot3;
-                    var5 = 57;
+                    var5 = 58;
                     var5 = var8[var5];
                     var8 = var7.bind(var1)(var5);
                     var7 = var8.toCombo;
@@ -3004,7 +3040,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot136 = var1;
+    var _closure1_slot138 = var1;
     var1 = function mergeSettings(arg1) {
         _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
  0:
@@ -3031,7 +3067,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  68:
             var4 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var3 = 56;
+            var3 = 57;
             var3 = var6[var3];
             var3 = var4.bind(var5)(var3);
             var5 = var3.Storage;
@@ -3043,7 +3079,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot137 = var1;
+    var _closure1_slot139 = var1;
     var1 = function tryEnable() {
         _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
  0:
@@ -3057,7 +3093,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot3;
-                var1 = 50;
+                var1 = 51;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -3072,7 +3108,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot138 = var1;
+    var _closure1_slot140 = var1;
     var18 = function makeDisabledDevice(arg1) {
         var1 = {};
         var2 = _closure1_slot48;
@@ -3088,7 +3124,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1['containerId'] = var2;
         return var1;
     };
-    var _closure1_slot139 = var18;
+    var _closure1_slot141 = var18;
     var1 = function convertDevices(arg1, arg2) {
         _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
  0:
@@ -3132,7 +3168,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var1.bind(var2)();
             return var1;
  87:
-            var3 = _closure1_slot139;
+            var3 = _closure1_slot141;
             var2 = undefined;
             var1 = arg2;
             var3 = var3.bind(var2)(var1);
@@ -3142,7 +3178,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot140 = var1;
+    var _closure1_slot142 = var1;
     var1 = function getDeviceId(arg1, arg2) {
         _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
  0:
@@ -3171,15 +3207,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot141 = var1;
+    var _closure1_slot143 = var1;
     var1 = function setInputDevices(arg1) {
         _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
  0:
             var6 = _closure1_slot76;
-            var7 = _closure1_slot140;
+            var7 = _closure1_slot142;
             var9 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var3 = 58;
+            var3 = 59;
             var4 = var5[var3];
             var1 = undefined;
             var4 = var9.bind(var1)(var4);
@@ -3204,7 +3240,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  118:
             var3 = _closure1_slot124;
             var3 = var3.bind(var1)();
-            var5 = _closure1_slot141;
+            var5 = _closure1_slot143;
             var4 = _closure1_slot76;
             var3 = var3.inputDeviceId;
             var4 = var5.bind(var1)(var4, var3);
@@ -3215,15 +3251,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot142 = var1;
+    var _closure1_slot144 = var1;
     var1 = function setOutputDevices(arg1) {
         _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
  0:
             var6 = _closure1_slot77;
-            var7 = _closure1_slot140;
+            var7 = _closure1_slot142;
             var9 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var3 = 58;
+            var3 = 59;
             var4 = var5[var3];
             var1 = undefined;
             var4 = var9.bind(var1)(var4);
@@ -3248,7 +3284,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  118:
             var3 = _closure1_slot124;
             var3 = var3.bind(var1)();
-            var5 = _closure1_slot141;
+            var5 = _closure1_slot143;
             var4 = _closure1_slot77;
             var3 = var3.outputDeviceId;
             var4 = var5.bind(var1)(var4, var3);
@@ -3259,7 +3295,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot143 = var1;
+    var _closure1_slot145 = var1;
     var1 = function setVideoDevices(arg1) {
         _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
  0:
@@ -3269,10 +3305,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2 > var1;
             _closure1_slot90 = var1;
             var6 = _closure1_slot78;
-            var4 = _closure1_slot140;
+            var4 = _closure1_slot142;
             var9 = _closure1_slot0;
             var10 = _closure1_slot3;
-            var3 = 58;
+            var3 = 59;
             var7 = var10[var3];
             var1 = undefined;
             var7 = var9.bind(var1)(var7);
@@ -3328,7 +3364,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot144 = var1;
+    var _closure1_slot146 = var1;
     var1 = function applyRemoteSettings() {
         _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
  0:
@@ -3406,7 +3442,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var _closure4_slot1 = var5;
                             var6 = _closure1_slot0;
                             var3 = _closure1_slot3;
-                            var1 = 59;
+                            var1 = 60;
                             var3 = var3[var1];
                             var1 = undefined;
                             var9 = var6.bind(var1)(var3);
@@ -3555,7 +3591,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var10;
                     if(!var3) { _fun0037_ip = 338; continue _fun0037 }
  363:
-                    var3 = _closure1_slot137;
+                    var3 = _closure1_slot139;
                     var2 = {};
                     var2['localMutes'] = var6;
                     var2['localVolumes'] = var5;
@@ -3582,14 +3618,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot145 = var1;
+    var _closure1_slot147 = var1;
     var1 = function getSoundshareId(arg1) {
         _fun0040: for(var _fun0040_ip = 0; ; ) switch(_fun0040_ip) {
  0:
             var6 = arg1;
             var3 = _closure1_slot64;
             var2 = null;
-            if(!(var2 == var3)) { _fun0040_ip = 53; continue _fun0040 }
+            if(!(var2 == var3)) { _fun0040_ip = 49; continue _fun0040 }
  16:
             var5 = _closure1_slot58;
             var4 = var5.info;
@@ -3597,42 +3633,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var5)(var3);
             var3 = {'soundshareId': null, 'soundshareSession': ''};
             return var3;
- 53:
+ 49:
             var4 = _closure1_slot64;
             var3 = var4.getExperimentalSoundshare;
             var4 = var3.bind(var4)();
             var3 = var6;
-            if(var4) { _fun0040_ip = 106; continue _fun0040 }
- 73:
+            if(var4) { _fun0040_ip = 102; continue _fun0040 }
+ 69:
             var7 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var4 = 53;
+            var4 = 54;
             var5 = var5[var4];
             var4 = undefined;
             var5 = var7.bind(var4)(var5);
             var4 = var5.getAudioPid;
             var3 = var4.bind(var5)(var6);
- 106:
+ 102:
             var4 = var2 != var3;
             var2 = '';
-            if(!var4) { _fun0040_ip = 150; continue _fun0040 }
- 117:
+            if(!var4) { _fun0040_ip = 146; continue _fun0040 }
+ 113:
             var5 = _closure1_slot1;
             var4 = _closure1_slot3;
-            var1 = 53;
+            var1 = 54;
             var4 = var4[var1];
             var1 = undefined;
             var4 = var5.bind(var1)(var4);
             var1 = var4.generateSessionFromPid;
             var2 = var1.bind(var4)(var3);
- 150:
+ 146:
             var1 = {};
             var1['soundshareId'] = var3;
             var1['soundshareSession'] = var2;
             return var1;
         }
     };
-    var _closure1_slot146 = var1;
+    var _closure1_slot148 = var1;
     var1 = function tryHookSoundshare(arg1, arg2) {
         _fun0041: for(var _fun0041_ip = 0; ; ) switch(_fun0041_ip) {
  0:
@@ -3677,7 +3713,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  48:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot3;
-                    var2 = 50;
+                    var2 = 51;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var4.bind(var2)(var3);
@@ -3685,7 +3721,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot3;
-                        var1 = 50;
+                        var1 = 51;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -3709,7 +3745,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot147 = var1;
+    var _closure1_slot149 = var1;
     var1 = function resetProbingState() {
         _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
  0:
@@ -3746,7 +3782,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var10.length;
             if(var6 < var4) { _fun0043_ip = 71; continue _fun0043 }
  123:
-            var4 = _closure1_slot137;
+            var4 = _closure1_slot139;
             var3 = {};
             var3['videoToggleStateMap'] = var2;
             var2 = false;
@@ -3754,7 +3790,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot148 = var1;
+    var _closure1_slot150 = var1;
     var1 = function trackVoiceProcessing(arg1) {
         _fun0044: for(var _fun0044_ip = 0; ; ) switch(_fun0044_ip) {
  0:
@@ -3767,7 +3803,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = _closure1_slot66;
             var3 = var4.getAudioLayer;
             var7 = var3.bind(var4)();
-            var5 = _closure1_slot141;
+            var5 = _closure1_slot143;
             var4 = _closure1_slot76;
             var3 = var9.inputDeviceId;
             var4 = var5.bind(var1)(var4, var3);
@@ -3782,7 +3818,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  85:
             var4 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var3 = 51;
+            var3 = 52;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);
             var4 = var5.track;
@@ -3808,9 +3844,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot149 = var1;
+    var _closure1_slot151 = var1;
     var1 = function setSidechainCompression(arg1) {
-        var4 = _closure1_slot137;
+        var4 = _closure1_slot139;
         var2 = {};
         var1 = arg1;
         var2['sidechainCompression'] = var1;
@@ -3822,13 +3858,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot150 = var1;
+    var _closure1_slot152 = var1;
     var1 = function setMaybePreprocessMute() {
         _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
  0:
             var4 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var1 = 66;
+            var1 = 68;
             var3 = var3[var1];
             var1 = undefined;
             var6 = var4.bind(var1)(var3);
@@ -3863,7 +3899,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot151 = var1;
+    var _closure1_slot153 = var1;
     var1 = function setLoopback() {
         _fun0046: for(var _fun0046_ip = 0; ; ) switch(_fun0046_ip) {
  0:
@@ -3874,41 +3910,43 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var4.size;
             var4 = 0;
             var5 = var5 > var4;
-            var7 = var3.inputDeviceId;
+            var8 = var3.inputDeviceId;
             var6 = _closure1_slot18;
             var4 = var6.hasEchoCancellation;
-            var11 = var4.bind(var6)(var7);
+            var11 = var4.bind(var6)(var8);
             if(var11) { _fun0046_ip = 58; continue _fun0046 }
  52:
             var11 = var3.echoCancellation;
  58:
             var6 = _closure1_slot18;
             var4 = var6.hasNoiseSuppression;
-            var10 = var4.bind(var6)(var7);
+            var10 = var4.bind(var6)(var8);
             if(var10) { _fun0046_ip = 82; continue _fun0046 }
  76:
             var10 = var3.noiseSuppression;
  82:
-            var6 = _closure1_slot18;
-            var4 = var6.hasAutomaticGainControl;
-            var9 = var4.bind(var6)(var7);
-            if(var9) { _fun0046_ip = 106; continue _fun0046 }
- 100:
-            var9 = var3.automaticGainControl;
- 106:
+            var6 = _closure1_slot130;
+            var7 = _closure1_slot18;
+            var4 = var7.hasAutomaticGainControl;
+            var4 = var4.bind(var7)(var8);
+            if(var4) { _fun0046_ip = 110; continue _fun0046 }
+ 104:
+            var4 = var3.automaticGainControl;
+ 110:
+            var9 = var6.bind(var1)(var4);
             var7 = var3.noiseCancellation;
             var8 = _closure1_slot102;
             var6 = _closure1_slot112;
             var4 = var6.has;
             var3 = 'voice_filter';
             var6 = var4.bind(var6)(var3);
-            if(!var6) { _fun0046_ip = 155; continue _fun0046 }
- 139:
+            if(!var6) { _fun0046_ip = 164; continue _fun0046 }
+ 148:
             var3 = _closure1_slot112;
             var4 = var3.size;
             var3 = 1;
             var6 = var3 === var4;
- 155:
+ 164:
             var4 = _closure1_slot66;
             var3 = var4.setLoopback;
             var2 = {};
@@ -3916,7 +3954,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = !var5;
             var2['echoCancellationPreEcho'] = var11;
             var2['noiseSuppression'] = var10;
-            var2['automaticGainControl'] = var9;
+            var2['automaticGainControlConfig'] = var9;
             var2['noiseCancellation'] = var7;
             var7 = null;
             var7 = var7 !== var8;
@@ -3926,7 +3964,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot152 = var1;
+    var _closure1_slot154 = var1;
     var1 = function hasAdvancedVoiceActivity() {
         _fun0047: for(var _fun0047_ip = 0; ; ) switch(_fun0047_ip) {
  0:
@@ -3938,7 +3976,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot153 = var1;
+    var _closure1_slot155 = var1;
     var1 = function _setupKrispNativeModule() {
         var5 = undefined;
         var1 = undefined;
@@ -3959,7 +3997,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  20: // try_start_0 // try_start_1
                     var9 = _closure1_slot1;
                     var3 = _closure1_slot3;
-                    var13 = 68;
+                    var13 = 70;
                     var3 = var3[var13];
                     var9 = var9.bind(var2)(var3);
                     var3 = var9.ensureModule;
@@ -4052,7 +4090,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = var10.bind(var11)(var9);
                     var10 = _closure1_slot1;
                     var11 = _closure1_slot3;
-                    var9 = 69;
+                    var9 = 71;
                     var9 = var11[var9];
                     var10 = var10.bind(var2)(var9);
                     var9 = var10.captureException;
@@ -4093,7 +4131,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  473:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 51;
+                    var4 = 52;
                     var4 = var6[var4];
                     var7 = var5.bind(var2)(var4);
                     var6 = var7.track;
@@ -4102,7 +4140,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = {};
                     var4['noise_canceller_error'] = var8;
                     var4 = var6.bind(var7)(var5, var4);
-                    var4 = _closure1_slot137;
+                    var4 = _closure1_slot139;
                     var3 = {};
                     var5 = false;
                     var3['noiseCancellation'] = var5;
@@ -4123,7 +4161,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot154 = var4;
+        _closure1_slot156 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -4131,7 +4169,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot154 = var1;
+    var _closure1_slot156 = var1;
     var1 = function maybeSetupKrispModule() {
         _fun0049: for(var _fun0049_ip = 0; ; ) switch(_fun0049_ip) {
  0:
@@ -4147,7 +4185,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  38:
             var6 = _closure1_slot1;
             var7 = _closure1_slot3;
-            var4 = 68;
+            var4 = 70;
             var4 = var7[var4];
             var4 = var6.bind(var1)(var4);
             var6 = var4.architecture;
@@ -4184,7 +4222,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure1_slot95 = var3;
             var3 = function setupKrispNativeModule() {
                 var1 = undefined;
-                var4 = _closure1_slot154;
+                var4 = _closure1_slot156;
                 var3 = var4.apply;
                 var1 = arguments;
                 var2 = var1;
@@ -4218,7 +4256,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var4)();
             if(!var3) { _fun0049_ip = 301; continue _fun0049 }
  261:
-            var4 = _closure1_slot137;
+            var4 = _closure1_slot139;
             var3 = {};
             var5 = false;
             var3['noiseCancellation'] = var5;
@@ -4234,9 +4272,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot155 = var1;
+    var _closure1_slot157 = var1;
     var7 = function handleVoiceFilterFailed() {
-        var3 = _closure1_slot137;
+        var3 = _closure1_slot139;
         var2 = {};
         var1 = null;
         var2['mostRecentlyRequestedVoiceFilter'] = var1;
@@ -4252,7 +4290,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.AUTOMATIC;
             if(!(var4 !== var2)) { _fun0050_ip = 57; continue _fun0050 }
  20:
-            var5 = _closure1_slot137;
+            var5 = _closure1_slot139;
             var3 = {};
             var2 = false;
             var3['automaticAudioSubsystem'] = var2;
@@ -4263,20 +4301,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.bind(var3)(var4);
             _fun0050_ip = 85; continue _fun0050;
  57:
-            var4 = _closure1_slot137;
+            var4 = _closure1_slot139;
             var3 = {};
             var2 = true;
             var3['automaticAudioSubsystem'] = var2;
             var2 = undefined;
             var3 = var4.bind(var2)(var3);
-            var1 = _closure1_slot157;
+            var1 = _closure1_slot159;
             var1 = var1.bind(var2)();
  85:
             var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot156 = var1;
+    var _closure1_slot158 = var1;
     var1 = function interpretAutomaticAudioSubsystem() {
         var3 = _closure1_slot66;
         var2 = var3.queueAudioSubsystem;
@@ -4286,7 +4324,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot157 = var1;
+    var _closure1_slot159 = var1;
     var10 = function handleUserSettingsModal(arg1) {
         _fun0051: for(var _fun0051_ip = 0; ; ) switch(_fun0051_ip) {
  0:
@@ -4296,7 +4334,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.VOICE;
             if(!(var3 === var2)) { _fun0051_ip = 35; continue _fun0051 }
  25:
-            var2 = _closure1_slot138;
+            var2 = _closure1_slot140;
             var1 = undefined;
             var1 = var2.bind(var1)();
  35:
@@ -4714,7 +4752,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  24:
                             var4 = _closure1_slot1;
                             var3 = _closure1_slot3;
-                            var1 = 50;
+                            var1 = 51;
                             var3 = var3[var1];
                             var1 = undefined;
                             var5 = var4.bind(var1)(var3);
@@ -4812,7 +4850,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2.handleSilence;
                 var2 = var6.bind(var7)(var5, var2);
                 var2 = _closure1_slot1;
-                var1 = 50;
+                var1 = 51;
                 var1 = var4[var1];
                 var3 = var2.bind(var3)(var1);
                 var2 = var3.dispatch;
@@ -4890,7 +4928,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = new var29[var9](var28);
     var9 = var9 instanceof Object ? var9 : var11;
     var _closure1_slot117 = var9;
-    var9 = 72;
+    var9 = 74;
     var9 = var6[var9];
     var9 = var8.bind(var1)(var9);
     var11 = var9.Store;
@@ -4941,14 +4979,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5['key'] = var1;
         var1 = function initialize() {
             var12 = this;
-            var3 = _closure1_slot131;
+            var3 = _closure1_slot133;
             var1 = undefined;
             var3 = var3.bind(var1)();
-            var3 = _closure1_slot136;
+            var3 = _closure1_slot138;
             var3 = var3.bind(var1)();
-            var3 = _closure1_slot155;
+            var3 = _closure1_slot157;
             var3 = var3.bind(var1)();
-            var3 = _closure1_slot148;
+            var3 = _closure1_slot150;
             var3 = var3.bind(var1)();
             var3 = {};
             var4 = _closure1_slot45;
@@ -5072,7 +5110,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'isNoiseCancellationSupported';
         var5['key'] = var7;
         var7 = function isNoiseCancellationSupported() {
-            var2 = _closure1_slot153;
+            var2 = _closure1_slot155;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
@@ -5107,7 +5145,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = function shouldOfferManualSubsystemSelection() {
             _fun0059: for(var _fun0059_ip = 0; ; ) switch(_fun0059_ip) {
  0:
-                var2 = _closure1_slot135;
+                var2 = _closure1_slot137;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
                 var1 = !var1;
@@ -5161,7 +5199,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'isAdvancedVoiceActivitySupported';
         var5['key'] = var7;
         var7 = function isAdvancedVoiceActivitySupported() {
-            var2 = _closure1_slot153;
+            var2 = _closure1_slot155;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
@@ -5238,7 +5276,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  79:
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot3;
-                var2 = 44;
+                var2 = 45;
                 var2 = var5[var2];
                 var3 = var3.bind(var4)(var2);
                 var2 = var3.simulcastEnabled;
@@ -6100,7 +6138,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getInputDeviceId';
         var5['key'] = var7;
         var7 = function getInputDeviceId() {
-            var4 = _closure1_slot141;
+            var4 = _closure1_slot143;
             var3 = _closure1_slot76;
             var1 = _closure1_slot124;
             var2 = undefined;
@@ -6115,7 +6153,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getOutputDeviceId';
         var5['key'] = var7;
         var7 = function getOutputDeviceId() {
-            var4 = _closure1_slot141;
+            var4 = _closure1_slot143;
             var3 = _closure1_slot77;
             var1 = _closure1_slot124;
             var2 = undefined;
@@ -6130,7 +6168,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getVideoDeviceId';
         var5['key'] = var7;
         var7 = function getVideoDeviceId() {
-            var4 = _closure1_slot141;
+            var4 = _closure1_slot143;
             var3 = _closure1_slot78;
             var1 = _closure1_slot124;
             var2 = undefined;
@@ -6425,7 +6463,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = function getAudioSubsystem() {
             _fun0087: for(var _fun0087_ip = 0; ; ) switch(_fun0087_ip) {
  0:
-                var1 = _closure1_slot134;
+                var1 = _closure1_slot136;
                 var3 = undefined;
                 var1 = var1.bind(var3)();
                 if(!var1) { _fun0087_ip = 33; continue _fun0087 }
@@ -6694,12 +6732,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  31:
                 var6 = _closure1_slot1;
                 var3 = _closure1_slot3;
-                var4 = 54;
+                var4 = 55;
                 var4 = var3[var4];
                 var8 = undefined;
                 var5 = var6.bind(var8)(var4);
                 var4 = var5.satisfies;
-                var9 = 55;
+                var9 = 56;
                 var3 = var3[var9];
                 var6 = var6.bind(var8)(var3);
                 var3 = null;
@@ -6754,11 +6792,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  97:
                 var9 = _closure1_slot1;
                 var6 = _closure1_slot3;
-                var7 = 54;
+                var7 = 55;
                 var7 = var6[var7];
                 var8 = var9.bind(var11)(var7);
                 var7 = var8.satisfies;
-                var12 = 55;
+                var12 = 56;
                 var6 = var6[var12];
                 var9 = var9.bind(var11)(var6);
                 var6 = null;
@@ -6962,11 +7000,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  211:
                 var6 = _closure1_slot1;
                 var5 = _closure1_slot3;
-                var7 = 54;
+                var7 = 55;
                 var7 = var5[var7];
                 var8 = var6.bind(var4)(var7);
                 var7 = var8.satisfies;
-                var10 = 55;
+                var10 = 56;
                 var5 = var5[var10];
                 var6 = var6.bind(var4)(var5);
                 var5 = null;
@@ -6986,7 +7024,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  299:
                 if(!var2) { _fun0095_ip = 310; continue _fun0095 }
  302:
-                var3 = _closure1_slot133;
+                var3 = _closure1_slot135;
                 var2 = var3.bind(var4)();
  310:
                 var1 = var2;
@@ -7102,7 +7140,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  47:
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot3;
-                var2 = 71;
+                var2 = 73;
                 var2 = var6[var2];
                 var2 = var4.bind(var5)(var2);
                 var5 = var2.DaveForBrowserExperiment;
@@ -7140,7 +7178,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  38:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot3;
-                var2 = 71;
+                var2 = 73;
                 var2 = var5[var2];
                 var2 = var3.bind(var4)(var2);
                 var5 = var2.DaveForBrowserExperiment;
@@ -7160,7 +7198,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2.bind(var3)();
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot3;
-                var1 = 71;
+                var1 = 73;
                 var1 = var5[var1];
                 var1 = var3.bind(var4)(var1);
                 var4 = var1.SecureFramesUserExperiment;
@@ -7215,7 +7253,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var9 = var9.bind(var1)(var11);
     var9['displayName'] = var2;
-    var2 = 50;
+    var2 = 51;
     var2 = var6[var2];
     var28 = var8.bind(var1)(var2);
     var2 = {};
@@ -7258,7 +7296,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  108:
             if(!var2) { _fun0099_ip = 153; continue _fun0099 }
  111:
-            var3 = _closure1_slot137;
+            var3 = _closure1_slot139;
             var2 = {'deaf': false, 'mute': false};
             var2 = var3.bind(var4)(var2);
             var3 = _closure1_slot66;
@@ -7365,9 +7403,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = arg1;
             var1 = var1.sessionId;
             var _closure1_slot67 = var1;
-            var1 = false;
-            _closure1_slot79 = var1;
-            _closure1_slot82 = var1;
+            var7 = false;
+            _closure1_slot79 = var7;
+            _closure1_slot82 = var7;
             var4 = _closure1_slot0;
             var1 = _closure1_slot3;
             var6 = 29;
@@ -7380,10 +7418,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  61:
             var4 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var3 = 60;
+            var3 = 61;
             var3 = var5[var3];
-            var7 = var4.bind(var1)(var3);
-            var5 = var7.subscribe;
+            var8 = var4.bind(var1)(var3);
+            var5 = var8.subscribe;
             var4 = {};
             var3 = 'handleConnectionOpen';
             var4['location'] = var3;
@@ -7400,12 +7438,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var5.sidechainCompression;
                     if(!var4) { _fun0102_ip = 65; continue _fun0102 }
  34:
-                    var6 = _closure1_slot137;
+                    var6 = _closure1_slot139;
                     var4 = {};
                     var7 = 0;
                     var4['sidechainCompressionSettingVersion'] = var7;
                     var4 = var6.bind(var1)(var4);
-                    var6 = _closure1_slot150;
+                    var6 = _closure1_slot152;
                     var4 = false;
                     var4 = var6.bind(var1)(var4);
                     _fun0102_ip = 124; continue _fun0102;
@@ -7419,112 +7457,146 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  87:
                     if(!var4) { _fun0102_ip = 124; continue _fun0102 }
  90:
-                    var5 = _closure1_slot137;
+                    var5 = _closure1_slot139;
                     var4 = {};
                     var6 = 1;
                     var4['sidechainCompressionSettingVersion'] = var6;
                     var4 = var5.bind(var1)(var4);
-                    var3 = _closure1_slot150;
+                    var3 = _closure1_slot152;
                     var2 = var2.sidechainEnabled;
                     var2 = var3.bind(var1)(var2);
  124:
                     return var1;
                 }
             };
-            var3 = var5.bind(var7)(var4, var3);
-            var3 = _closure1_slot151;
+            var3 = var5.bind(var8)(var4, var3);
+            var3 = _closure1_slot153;
             var3 = var3.bind(var1)();
  118:
             var3 = _closure1_slot124;
             var4 = var3.bind(var1)();
-            var3 = _closure1_slot134;
+            var3 = _closure1_slot136;
             var3 = var3.bind(var1)();
             if(!var3) { _fun0101_ip = 186; continue _fun0101 }
  137:
-            var3 = _closure1_slot135;
+            var3 = _closure1_slot137;
             var3 = var3.bind(var1)();
             if(var3) { _fun0101_ip = 167; continue _fun0101 }
  148:
             var3 = var4.automaticAudioSubsystem;
             if(!var3) { _fun0101_ip = 186; continue _fun0101 }
  157:
-            var3 = _closure1_slot157;
+            var3 = _closure1_slot159;
             var3 = var3.bind(var1)();
             _fun0101_ip = 186; continue _fun0101;
  167:
-            var5 = _closure1_slot156;
+            var5 = _closure1_slot158;
             var3 = _closure1_slot44;
             var3 = var3.AUTOMATIC;
             var3 = var5.bind(var1)(var3);
  186:
-            var7 = _closure1_slot66;
-            var5 = var7.supports;
+            var8 = _closure1_slot66;
+            var5 = var8.supports;
             var3 = _closure1_slot45;
             var3 = var3.OFFLOAD_ADM_CONTROLS;
-            var3 = var5.bind(var7)(var3);
-            if(!var3) { _fun0101_ip = 291; continue _fun0101 }
- 214:
+            var3 = var5.bind(var8)(var3);
+            if(!var3) { _fun0101_ip = 409; continue _fun0101 }
+ 217:
             var5 = _closure1_slot0;
-            var7 = _closure1_slot3;
-            var3 = 61;
-            var3 = var7[var3];
-            var3 = var5.bind(var1)(var3);
-            var8 = var3.AsyncAudioDeviceExperiment;
-            var7 = var8.getCurrentConfig;
-            var5 = {};
-            var3 = 'handleConnectionOpen';
-            var5['location'] = var3;
+            var3 = _closure1_slot3;
+            var3 = var3[var6];
+            var5 = var5.bind(var1)(var3);
+            var3 = var5.isDesktop;
+            var3 = var3.bind(var5)();
+            var5 = _closure1_slot0;
+            var8 = _closure1_slot3;
+            if(var3) { _fun0101_ip = 356; continue _fun0101 }
+ 255:
+            var3 = var8[var6];
+            var9 = var5.bind(var1)(var3);
+            var3 = var9.isIOS;
+            var3 = var3.bind(var9)();
+            if(var3) { _fun0101_ip = 303; continue _fun0101 }
+ 277:
+            var10 = _closure1_slot0;
+            var9 = _closure1_slot3;
+            var9 = var9[var6];
+            var10 = var10.bind(var1)(var9);
+            var9 = var10.isAndroid;
+            var3 = var9.bind(var10)();
+ 303:
+            var7 = false;
+            if(!var3) { _fun0101_ip = 394; continue _fun0101 }
+ 308:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot3;
+            var3 = 63;
+            var3 = var10[var3];
+            var10 = var9.bind(var1)(var3);
+            var9 = var10.getAsyncAudioDeviceMobileExperimentConfig;
             var3 = {};
-            var9 = true;
-            var3['autoTrackExposure'] = var9;
-            var3 = var7.bind(var8)(var5, var3);
+            var11 = 'handleConnectionOpen';
+            var3['location'] = var11;
+            var3 = var9.bind(var10)(var3);
             var7 = var3.enabled;
+            _fun0101_ip = 394; continue _fun0101;
+ 356:
+            var3 = 62;
+            var3 = var8[var3];
+            var8 = var5.bind(var1)(var3);
+            var5 = var8.getAsyncAudioDeviceExperimentConfig;
+            var3 = {};
+            var9 = 'handleConnectionOpen';
+            var3['location'] = var9;
+            var3 = var5.bind(var8)(var3);
+            var7 = var3.enabled;
+ 394:
             var5 = _closure1_slot66;
             var3 = var5.setOffloadAdmControls;
             var3 = var3.bind(var5)(var7);
- 291:
+ 409:
             var5 = _closure1_slot0;
             var7 = _closure1_slot3;
-            var3 = 62;
+            var3 = 64;
             var3 = var7[var3];
             var7 = var5.bind(var1)(var3);
             var5 = var7.isVoiceFiltersEnabled;
             var3 = {'location': 'MediaEngineStore', 'autoTrackExposure': false};
             var3 = var5.bind(var7)(var3);
-            if(!var3) { _fun0101_ip = 351; continue _fun0101 }
- 339:
+            if(!var3) { _fun0101_ip = 469; continue _fun0101 }
+ 457:
             var5 = var4.mostRecentlyRequestedVoiceFilter;
             var4 = null;
             var3 = var4 !== var5;
- 351:
-            if(!var3) { _fun0101_ip = 381; continue _fun0101 }
- 354:
+ 469:
+            if(!var3) { _fun0101_ip = 499; continue _fun0101 }
+ 472:
             var5 = _closure1_slot0;
             var4 = _closure1_slot3;
             var4 = var4[var6];
             var5 = var5.bind(var1)(var4);
             var4 = var5.isDesktop;
             var3 = var4.bind(var5)();
- 381:
-            if(!var3) { _fun0101_ip = 516; continue _fun0101 }
- 387:
+ 499:
+            if(!var3) { _fun0101_ip = 634; continue _fun0101 }
+ 505:
             var4 = _closure1_slot15;
             var3 = var4.getLastInitAttemptMayHaveCrashed;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0101_ip = 438; continue _fun0101 }
- 406:
+            if(var3) { _fun0101_ip = 556; continue _fun0101 }
+ 524:
             var4 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var3 = 63;
+            var3 = 65;
             var3 = var5[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.maybeSetupVoiceFiltersNativeModule;
             var3 = var3.bind(var4)();
-            _fun0101_ip = 516; continue _fun0101;
- 438:
+            _fun0101_ip = 634; continue _fun0101;
+ 556:
             var4 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var3 = 50;
+            var3 = 51;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);
             var4 = var5.dispatch;
@@ -7533,13 +7605,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var6.DEFAULT;
             var3['context'] = var6;
             var3 = var4.bind(var5)(var3);
-            var4 = _closure1_slot137;
+            var4 = _closure1_slot139;
             var3 = {};
             var5 = null;
             var3['mostRecentlyRequestedVoiceFilter'] = var5;
             var3 = var4.bind(var1)(var3);
- 516:
-            var2 = _closure1_slot145;
+ 634:
+            var2 = _closure1_slot147;
             var2 = var2.bind(var1)();
             return var1;
         }
@@ -7596,7 +7668,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var _closure4_slot0 = var6;
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot3;
-                        var1 = 64;
+                        var1 = 66;
                         var3 = var3[var1];
                         var1 = undefined;
                         var8 = var5.bind(var1)(var3);
@@ -7624,7 +7696,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = _closure1_slot110;
                     var4 = var6.clear;
                     var4 = var4.bind(var6)();
-                    var4 = _closure1_slot137;
+                    var4 = _closure1_slot139;
                     var3 = {};
                     var3['disabledLocalVideos'] = var2;
                     var2 = false;
@@ -7637,7 +7709,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var3 = undefined;
             var2 = var2.bind(var3)();
-            var2 = _closure1_slot148;
+            var2 = _closure1_slot150;
             var2 = var2.bind(var3)();
             _fun0103_ip = 124; continue _fun0103;
  90:
@@ -7651,7 +7723,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure1_slot93 = var2;
             _fun0103_ip = 124; continue _fun0103;
  114:
-            var3 = _closure1_slot138;
+            var3 = _closure1_slot140;
             var2 = undefined;
             var2 = var3.bind(var2)();
  124:
@@ -7716,7 +7788,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = true;
             _closure1_slot85 = var3;
  125:
-            var4 = _closure1_slot137;
+            var4 = _closure1_slot139;
             var3 = {};
             var3['mute'] = var7;
             var3['deaf'] = var6;
@@ -7739,7 +7811,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var2.context;
             var1 = var2.mute;
             var3 = var2.playSoundEffect;
-            var5 = _closure1_slot137;
+            var5 = _closure1_slot139;
             var4 = {};
             var4['mute'] = var1;
             var1 = undefined;
@@ -7760,7 +7832,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = function handleToggleSelfDeafen(arg1) {
         var1 = arg1;
         var5 = var1.context;
-        var4 = _closure1_slot137;
+        var4 = _closure1_slot139;
         var3 = {};
         var6 = _closure1_slot124;
         var1 = undefined;
@@ -7803,7 +7875,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  80:
             var4 = delete var7[var4];
  84:
-            var6 = _closure1_slot137;
+            var6 = _closure1_slot139;
             var4 = {};
             var4['localMutes'] = var7;
             var4 = var6.bind(var1)(var4, var5);
@@ -7845,7 +7917,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot1 = var1;
             var8 = _closure1_slot1;
             var4 = _closure1_slot3;
-            var18 = 64;
+            var18 = 66;
             var4 = var4[var18];
             var9 = var8.bind(var1)(var4);
             var4 = var7;
@@ -7962,7 +8034,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  460:
             var18 = _closure1_slot1;
             var20 = _closure1_slot3;
-            var16 = 65;
+            var16 = 67;
             var16 = var20[var16];
             var18 = var18.bind(var1)(var16);
             var20 = _closure1_slot54;
@@ -7976,7 +8048,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = var18.bind(var1)(var6, var16, var12);
  508:
             var19[var6] = var17;
-            var18 = _closure1_slot137;
+            var18 = _closure1_slot139;
             var16 = {};
             var16['videoToggleStateMap'] = var19;
             var16 = var18.bind(var1)(var16, var5, var7);
@@ -8065,7 +8137,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  824:
             var13 = _closure1_slot1;
             var14 = _closure1_slot3;
-            var11 = 65;
+            var11 = 67;
             var11 = var14[var11];
             var13 = var13.bind(var1)(var11);
             var11 = _closure1_slot54;
@@ -8075,7 +8147,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  866:
             var13 = _closure1_slot1;
             var14 = _closure1_slot3;
-            var11 = 65;
+            var11 = 67;
             var11 = var14[var11];
             var13 = var13.bind(var1)(var11);
             var14 = _closure1_slot54;
@@ -8104,7 +8176,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  936:
             var11 = _closure1_slot1;
             var13 = _closure1_slot3;
-            var10 = 65;
+            var10 = 67;
             var10 = var13[var10];
             var11 = var11.bind(var1)(var10);
             var13 = _closure1_slot54;
@@ -8144,7 +8216,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = true;
             var8[var6] = var4;
  1051:
-            var6 = _closure1_slot137;
+            var6 = _closure1_slot139;
             var4 = {};
             var4['disabledLocalVideos'] = var8;
             var4 = var6.bind(var1)(var4, var5, var7);
@@ -8207,7 +8279,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  101:
             var3 = delete var7[var3];
  105:
-            var5 = _closure1_slot137;
+            var5 = _closure1_slot139;
             var3 = {};
             var3['localVolumes'] = var7;
             var3 = var5.bind(var6)(var3, var4);
@@ -8245,7 +8317,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var4['left'] = var9;
         var4['right'] = var8;
         var7[var6] = var4;
-        var6 = _closure1_slot137;
+        var6 = _closure1_slot139;
         var4 = {};
         var4['localPans'] = var7;
         var4 = var6.bind(var1)(var4, var5);
@@ -8269,7 +8341,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = var1.context;
         var6 = var1.mode;
         var1 = var1.options;
-        var4 = _closure1_slot137;
+        var4 = _closure1_slot139;
         var3 = {};
         var3['mode'] = var6;
         var3['modeOptions'] = var1;
@@ -8288,7 +8360,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = function handleAudioSetInputVolume(arg1) {
         var1 = arg1;
         var4 = var1.volume;
-        var5 = _closure1_slot137;
+        var5 = _closure1_slot139;
         var3 = {};
         var6 = _closure1_slot126;
         var1 = undefined;
@@ -8304,7 +8376,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = function handleAudioSetOutputVolume(arg1) {
         var1 = arg1;
         var4 = var1.volume;
-        var5 = _closure1_slot137;
+        var5 = _closure1_slot139;
         var3 = {};
         var3['outputVolume'] = var4;
         var1 = undefined;
@@ -8318,7 +8390,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = function handleSetInputDevice(arg1) {
         var1 = arg1;
         var5 = var1.id;
-        var4 = _closure1_slot141;
+        var4 = _closure1_slot143;
         var3 = _closure1_slot76;
         var1 = undefined;
         var4 = var4.bind(var1)(var3, var5);
@@ -8327,7 +8399,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var3 = var5.now;
         var3 = var3.bind(var5)();
         _closure1_slot75 = var3;
-        var5 = _closure1_slot137;
+        var5 = _closure1_slot139;
         var3 = {};
         var3['inputDeviceId'] = var4;
         var3 = var5.bind(var1)(var3);
@@ -8340,9 +8412,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = function handleSetOutputDevice(arg1) {
         var1 = arg1;
         var7 = var1.id;
-        var5 = _closure1_slot137;
+        var5 = _closure1_slot139;
         var3 = {};
-        var6 = _closure1_slot141;
+        var6 = _closure1_slot143;
         var4 = _closure1_slot77;
         var1 = undefined;
         var4 = var6.bind(var1)(var4, var7);
@@ -8357,7 +8429,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = function handleSetActiveInputProfile(arg1) {
         var1 = arg1;
         var1 = var1.inputProfile;
-        var5 = _closure1_slot137;
+        var5 = _closure1_slot139;
         var3 = {};
         var3['activeInputProfile'] = var1;
         var1 = undefined;
@@ -8367,13 +8439,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = var6.eachConnection;
         var4 = function(arg1) {
             var4 = arg1;
-            var2 = _closure1_slot125;
+            var3 = _closure1_slot125;
             var1 = undefined;
-            var2 = var2.bind(var1)(var4);
-            var5 = var4.setAutomaticGainControl;
+            var3 = var3.bind(var1)(var4);
+            var5 = _closure1_slot131;
             var2 = _closure2_slot0;
             var3 = var2.automaticGainControl;
-            var3 = var5.bind(var4)(var3);
+            var3 = var5.bind(var1)(var4, var3);
             var5 = var4.setEchoCancellation;
             var3 = var2.echoCancellation;
             var3 = var5.bind(var4)(var3);
@@ -8396,14 +8468,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var4 = _closure1_slot117;
         var3 = var4.update;
         var3 = var3.bind(var4)();
-        var2 = _closure1_slot152;
+        var2 = _closure1_slot154;
         var2 = var2.bind(var1)();
         return var1;
     };
     var2['AUDIO_SET_ACTIVE_INPUT_PROFILE'] = var11;
     var11 = function handleSetEchoCancellation(arg1) {
         var2 = arg1;
-        var6 = _closure1_slot137;
+        var6 = _closure1_slot139;
         var5 = {};
         var1 = var2.enabled;
         var5['echoCancellation'] = var1;
@@ -8421,16 +8493,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var4 = var5.bind(var6)(var4);
-        var4 = _closure1_slot152;
+        var4 = _closure1_slot154;
         var4 = var4.bind(var1)();
-        var3 = _closure1_slot149;
+        var3 = _closure1_slot151;
         var2 = var2.location;
         var2 = var3.bind(var1)(var2);
         return var1;
     };
     var2['AUDIO_SET_ECHO_CANCELLATION'] = var11;
     var11 = function handleSetSidechainCompression(arg1) {
-        var3 = _closure1_slot150;
+        var3 = _closure1_slot152;
         var1 = arg1;
         var2 = var1.enabled;
         var1 = undefined;
@@ -8439,7 +8511,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['AUDIO_SET_SIDECHAIN_COMPRESSION'] = var11;
     var11 = function handleSetSidechainCompressionStrength(arg1) {
-        var4 = _closure1_slot137;
+        var4 = _closure1_slot139;
         var2 = {};
         var1 = arg1;
         var1 = var1.strength;
@@ -8469,10 +8541,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var3.add;
             var1 = var1.bind(var3)(var4);
  46:
-            var3 = _closure1_slot151;
+            var3 = _closure1_slot153;
             var1 = undefined;
             var3 = var3.bind(var1)();
-            var2 = _closure1_slot152;
+            var2 = _closure1_slot154;
             var2 = var2.bind(var1)();
             return var1;
         }
@@ -8480,7 +8552,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['AUDIO_SET_LOOPBACK'] = var11;
     var11 = function handleSetNoiseSuppression(arg1) {
         var2 = arg1;
-        var6 = _closure1_slot137;
+        var6 = _closure1_slot139;
         var5 = {};
         var1 = var2.enabled;
         var5['noiseSuppression'] = var1;
@@ -8498,9 +8570,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var4 = var5.bind(var6)(var4);
-        var4 = _closure1_slot152;
+        var4 = _closure1_slot154;
         var4 = var4.bind(var1)();
-        var3 = _closure1_slot149;
+        var3 = _closure1_slot151;
         var2 = var2.location;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -8508,7 +8580,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['AUDIO_SET_NOISE_SUPPRESSION'] = var11;
     var11 = function handleSetAutomaticGainControl(arg1) {
         var2 = arg1;
-        var6 = _closure1_slot137;
+        var6 = _closure1_slot139;
         var5 = {};
         var1 = var2.enabled;
         var5['automaticGainControl'] = var1;
@@ -8518,17 +8590,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = _closure1_slot66;
         var5 = var6.eachConnection;
         var4 = function(arg1) {
-            var3 = arg1;
-            var2 = var3.setAutomaticGainControl;
+            var4 = _closure1_slot131;
             var1 = _closure2_slot0;
-            var1 = var1.automaticGainControl;
-            var1 = var2.bind(var3)(var1);
+            var3 = var1.automaticGainControl;
+            var1 = undefined;
+            var2 = arg1;
+            var2 = var4.bind(var1)(var2, var3);
             return var1;
         };
         var4 = var5.bind(var6)(var4);
-        var4 = _closure1_slot152;
+        var4 = _closure1_slot154;
         var4 = var4.bind(var1)();
-        var3 = _closure1_slot149;
+        var3 = _closure1_slot151;
         var2 = var2.location;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -8536,7 +8609,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['AUDIO_SET_AUTOMATIC_GAIN_CONTROL'] = var11;
     var11 = function handleSetNoiseCancellation(arg1) {
         var2 = arg1;
-        var6 = _closure1_slot137;
+        var6 = _closure1_slot139;
         var5 = {};
         var1 = var2.enabled;
         var5['noiseCancellation'] = var1;
@@ -8554,9 +8627,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var4 = var5.bind(var6)(var4);
-        var4 = _closure1_slot152;
+        var4 = _closure1_slot154;
         var4 = var4.bind(var1)();
-        var3 = _closure1_slot149;
+        var3 = _closure1_slot151;
         var2 = var2.location;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -8566,7 +8639,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var3 = arg1;
         var5 = _closure1_slot1;
         var4 = _closure1_slot3;
-        var1 = 67;
+        var1 = 69;
         var4 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var4);
@@ -8575,13 +8648,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var4 = var5.bind(var6)(var4);
         var3 = var3.model;
         _closure1_slot99 = var3;
-        var2 = _closure1_slot152;
+        var2 = _closure1_slot154;
         var2 = var2.bind(var1)();
         return var1;
     };
     var2['AUDIO_SET_KRISP_MODEL_OVERRIDE'] = var11;
     var11 = function handleSetSilenceWarning(arg1) {
-        var4 = _closure1_slot137;
+        var4 = _closure1_slot139;
         var3 = {};
         var1 = arg1;
         var1 = var1.enabled;
@@ -8610,7 +8683,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _closure1_slot98 = var4;
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 67;
+        var1 = 69;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -8650,7 +8723,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['AUDIO_SET_NOISE_CANCELLATION_ENABLE_STATS'] = var11;
     var11 = function handleSetVideoHook(arg1) {
-        var3 = _closure1_slot137;
+        var3 = _closure1_slot139;
         var2 = {};
         var1 = arg1;
         var1 = var1.enabled;
@@ -8661,7 +8734,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['MEDIA_ENGINE_SET_VIDEO_HOOK'] = var11;
     var11 = function handleSetExperimentalSoundshare(arg1) {
-        var3 = _closure1_slot137;
+        var3 = _closure1_slot139;
         var2 = {};
         var1 = arg1;
         var1 = var1.enabled;
@@ -8674,7 +8747,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = function handleSetUseSystemScreensharePicker(arg1) {
         var1 = arg1;
         var1 = var1.enabled;
-        var3 = _closure1_slot137;
+        var3 = _closure1_slot139;
         var2 = {};
         var2['useSystemScreensharePicker'] = var1;
         var1 = undefined;
@@ -8687,7 +8760,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = var1.attenuation;
         var6 = var1.attenuateWhileSpeakingSelf;
         var1 = var1.attenuateWhileSpeakingOthers;
-        var5 = _closure1_slot137;
+        var5 = _closure1_slot139;
         var4 = {};
         var4['attenuation'] = var7;
         var4['attenuateWhileSpeakingSelf'] = var6;
@@ -8715,7 +8788,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = arg1;
         var1 = var1.enabled;
         var _closure2_slot0 = var1;
-        var5 = _closure1_slot137;
+        var5 = _closure1_slot139;
         var4 = {};
         var4['qos'] = var1;
         var1 = undefined;
@@ -8738,12 +8811,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = var1.inputDevices;
         var5 = var1.outputDevices;
         var3 = var1.videoDevices;
-        var4 = _closure1_slot142;
+        var4 = _closure1_slot144;
         var1 = undefined;
         var4 = var4.bind(var1)(var6);
-        var4 = _closure1_slot143;
+        var4 = _closure1_slot145;
         var4 = var4.bind(var1)(var5);
-        var2 = _closure1_slot144;
+        var2 = _closure1_slot146;
         var2 = var2.bind(var1)(var3);
         return var1;
     };
@@ -8752,7 +8825,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = arg1;
         var6 = var1.inputVolume;
         var4 = var1.outputVolume;
-        var3 = _closure1_slot137;
+        var3 = _closure1_slot139;
         var2 = {};
         var5 = _closure1_slot126;
         var1 = undefined;
@@ -8766,7 +8839,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = function handleReset() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot3;
-        var1 = 56;
+        var1 = 57;
         var3 = var3[var1];
         var1 = undefined;
         var3 = var4.bind(var1)(var3);
@@ -8803,7 +8876,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['AUDIO_INPUT_DETECTED'] = var11;
     var11 = function handleSetAudioSubsystem(arg1) {
-        var3 = _closure1_slot156;
+        var3 = _closure1_slot158;
         var1 = arg1;
         var2 = var1.subsystem;
         var1 = undefined;
@@ -8814,7 +8887,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = function handleBypassSystemInputProcessing(arg1) {
         var2 = arg1;
         var6 = var2.bypassEnabled;
-        var5 = _closure1_slot137;
+        var5 = _closure1_slot139;
         var4 = {};
         var4['bypassSystemInputProcessing'] = var6;
         var1 = undefined;
@@ -8822,7 +8895,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = _closure1_slot66;
         var4 = var5.setAudioInputBypassSystemProcessing;
         var4 = var4.bind(var5)(var6);
-        var3 = _closure1_slot149;
+        var3 = _closure1_slot151;
         var2 = var2.location;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -8837,7 +8910,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.unmute;
             if(!var2) { _fun0115_ip = 49; continue _fun0115 }
  24:
-            var4 = _closure1_slot137;
+            var4 = _closure1_slot139;
             var3 = undefined;
             var2 = {'mute': false, 'deaf': false};
             var2 = var4.bind(var3)(var2);
@@ -8985,7 +9058,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  299:
             var3 = _closure1_slot1;
             var7 = _closure1_slot3;
-            var2 = 53;
+            var2 = 54;
             var2 = var7[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.getPidFromDesktopSource;
@@ -9006,7 +9079,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = null;
             if(!(var3 === var4)) { _fun0117_ip = 426; continue _fun0117 }
  379:
-            var3 = _closure1_slot146;
+            var3 = _closure1_slot148;
             var3 = var3.bind(var1)(var9);
             var4 = var3.soundshareId;
             var3 = var3.soundshareSession;
@@ -9014,7 +9087,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var4;
             if(!(var12 != var8)) { _fun0117_ip = 426; continue _fun0117 }
  410:
-            var11 = _closure1_slot147;
+            var11 = _closure1_slot149;
             var11 = var11.bind(var1)(var4, var3);
             var8 = var4;
             var7 = var3;
@@ -9062,9 +9135,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = function handleSetVideoDevice(arg1) {
         var1 = arg1;
         var7 = var1.id;
-        var4 = _closure1_slot137;
+        var4 = _closure1_slot139;
         var3 = {};
-        var6 = _closure1_slot141;
+        var6 = _closure1_slot143;
         var5 = _closure1_slot78;
         var1 = undefined;
         var5 = var6.bind(var1)(var5, var7);
@@ -9076,7 +9149,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['MEDIA_ENGINE_SET_VIDEO_DEVICE'] = var11;
     var11 = function handleSetExperimentalEncoders(arg1) {
-        var5 = _closure1_slot137;
+        var5 = _closure1_slot139;
         var4 = {};
         var1 = arg1;
         var1 = var1.enabled;
@@ -9127,7 +9200,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var10 = function handleSetCertifiedDevices() {
         var3 = _closure1_slot66;
         var2 = var3.eachConnection;
-        var1 = _closure1_slot130;
+        var1 = _closure1_slot132;
         var1 = var2.bind(var3)(var1);
         var1 = false;
         return var1;
@@ -9181,7 +9254,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var1 = arg1;
             var1 = var1.enabled;
-            var5 = _closure1_slot137;
+            var5 = _closure1_slot139;
             var4 = {};
             var4['openH264'] = var1;
             var1 = undefined;
@@ -9224,7 +9297,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var1 = arg1;
             var1 = var1.enabled;
-            var5 = _closure1_slot137;
+            var5 = _closure1_slot139;
             var4 = {};
             var4['hardwareEncoding'] = var1;
             var1 = undefined;
@@ -9288,7 +9361,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var1.state;
             var5 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var2 = 70;
+            var2 = 72;
             var2 = var3[var2];
             var3 = undefined;
             var5 = var5.bind(var3)(var2);
@@ -9437,7 +9510,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var10 = function handleSetAecDump(arg1) {
         var1 = arg1;
         var1 = var1.enabled;
-        var4 = _closure1_slot137;
+        var4 = _closure1_slot139;
         var2 = {};
         var2['aecDumpEnabled'] = var1;
         var1 = undefined;
@@ -9544,7 +9617,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = null;
             if(!(var2 == var3)) { _fun0128_ip = 67; continue _fun0128 }
  52:
-            var3 = _closure1_slot145;
+            var3 = _closure1_slot147;
             var1 = undefined;
             var2 = true;
             var2 = var3.bind(var1)(var2);
@@ -9575,7 +9648,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  70:
             var2 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var1 = 55;
+            var1 = 56;
             var1 = var3[var1];
             var10 = undefined;
             var1 = var2.bind(var10)(var1);
@@ -9584,12 +9657,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  101:
             var3 = _closure1_slot1;
             var6 = _closure1_slot3;
-            var1 = 53;
+            var1 = 54;
             var1 = var6[var1];
             var3 = var3.bind(var10)(var1);
             var1 = var3.getPidFromDesktopSource;
             var6 = var1.bind(var3)(var9);
-            var1 = _closure1_slot146;
+            var1 = _closure1_slot148;
             var3 = var1.bind(var10)(var6);
             var1 = {};
             var7 = {};
@@ -9646,7 +9719,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  348:
             if(!(var2 != var6)) { _fun0129_ip = 362; continue _fun0129 }
  352:
-            var2 = _closure1_slot147;
+            var2 = _closure1_slot149;
             var2 = var2.bind(var10)(var6, var3);
  362:
             _closure1_slot69 = var1;
@@ -9668,7 +9741,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var11.soundshareId;
             var6['soundshareId'] = var11;
             var6['useVideoHook'] = var9;
-            var9 = _closure1_slot132;
+            var9 = _closure1_slot134;
             var9 = var9.bind(var10)();
             var6['useGraphicsCapture'] = var9;
             var11 = _closure1_slot64;
@@ -9677,7 +9750,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6['useLoopback'] = var9;
             var9 = true;
             var6['useQuartzCapturer'] = var9;
-            var9 = _closure1_slot133;
+            var9 = _closure1_slot135;
             var9 = var9.bind(var10)();
             var6['allowScreenCaptureKit'] = var9;
             var9 = 500;
@@ -9727,7 +9800,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = arg1;
         var1 = var1.newVoiceFilterId;
         var _closure2_slot0 = var1;
-        var5 = _closure1_slot137;
+        var5 = _closure1_slot139;
         var4 = {};
         var4['mostRecentlyRequestedVoiceFilter'] = var1;
         var1 = undefined;
@@ -9752,7 +9825,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var1.enabled;
             var5 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var1 = 51;
+            var1 = 52;
             var3 = var3[var1];
             var1 = undefined;
             var7 = var5.bind(var1)(var3);
@@ -9770,7 +9843,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['active_voice_filter_id'] = var8;
             var3['enabled'] = var4;
             var3 = var6.bind(var7)(var5, var3);
-            var3 = _closure1_slot137;
+            var3 = _closure1_slot139;
             var2 = {};
             var2['voiceFilterPlaybackEnabled'] = var4;
             var2 = var3.bind(var1)(var2);
@@ -9811,7 +9884,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = new var29[var9](var28, var27, var26);
     var2 = var2 instanceof Object ? var2 : var7;
     var _closure1_slot64 = var2;
-    var4 = 73;
+    var4 = 75;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

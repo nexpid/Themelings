@@ -147,7 +147,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var _closure1_slot11 = var4;
-    var4 = 29;
+    var4 = 28;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -272,13 +272,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = var16.BUNDLE;
             var6 = var17 !== var16;
  461:
-            if(var15) { _fun0001_ip = 1210; continue _fun0001 }
+            if(var15) { _fun0001_ip = 1189; continue _fun0001 }
  467:
-            if(!var3) { _fun0001_ip = 537; continue _fun0001 }
+            if(!var3) { _fun0001_ip = 516; continue _fun0001 }
  470:
-            if(var2) { _fun0001_ip = 537; continue _fun0001 }
+            if(var2) { _fun0001_ip = 516; continue _fun0001 }
  473:
-            if(var9) { _fun0001_ip = 537; continue _fun0001 }
+            if(var9) { _fun0001_ip = 516; continue _fun0001 }
  476:
             var17 = _closure1_slot7;
             var16 = _closure1_slot0;
@@ -288,45 +288,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var16.bind(var4)(var15);
             var16 = var15.UnlockWithNitroButton;
             var15 = {};
-            var18 = function text() {
-                var4 = _closure1_slot7;
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
-                var1 = 26;
-                var1 = var9[var1];
-                var3 = undefined;
-                var1 = var8.bind(var3)(var1);
-                var2 = var1.Text;
-                var1 = {'variant': 'text-sm/semibold', 'color': 'interactive-active'};
-                var5 = 13;
-                var6 = var9[var5];
-                var6 = var8.bind(var3)(var6);
-                var7 = var6.intl;
-                var6 = var7.string;
-                var5 = var9[var5];
-                var5 = var8.bind(var3)(var5);
-                var5 = var5.t;
-                var5 = var5.sEAnVF;
-                var5 = var6.bind(var7)(var5);
-                var1['children'] = var5;
-                var1 = var4.bind(var3)(var2, var1);
-                return var1;
-            };
-            var15['text'] = var18;
-            var18 = var14.unlockWithNitroButton;
-            var15['style'] = var18;
             var15 = var17.bind(var4)(var16, var15);
             return var15;
- 537:
-            if(var9) { _fun0001_ip = 1100; continue _fun0001 }
- 543:
-            if(!var3) { _fun0001_ip = 552; continue _fun0001 }
- 546:
-            if(var2) { _fun0001_ip = 1100; continue _fun0001 }
- 552:
+ 516:
+            if(var9) { _fun0001_ip = 1079; continue _fun0001 }
+ 522:
+            if(!var3) { _fun0001_ip = 531; continue _fun0001 }
+ 525:
+            if(var2) { _fun0001_ip = 1079; continue _fun0001 }
+ 531:
             var3 = _closure1_slot0;
             var24 = _closure1_slot2;
-            var2 = 27;
+            var2 = 26;
             var2 = var24[var2];
             var15 = var3.bind(var4)(var2);
             var9 = var15.match;
@@ -462,15 +435,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = new Array(2);
             var16[0] = var17;
             var17 = var6;
-            if(!var6) { _fun0001_ip = 890; continue _fun0001 }
- 864:
+            if(!var6) { _fun0001_ip = 869; continue _fun0001 }
+ 843:
             var21 = _closure1_slot7;
             var20 = _closure1_slot11;
             var18 = {};
             var18['product'] = var11;
             var18['analyticsLocations'] = var10;
             var17 = var21.bind(var4)(var20, var18);
- 890:
+ 869:
             var16[1] = var17;
             var9['children'] = var16;
             var15 = var3.bind(var4)(var15, var9);
@@ -479,24 +452,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = _closure1_slot7;
             var16 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var15 = 28;
+            var15 = 27;
             var15 = var18[var15];
             var15 = var16.bind(var4)(var15);
             var16 = var15.TextWithIOSLinkWorkaround;
             var15 = {};
-            if(var19) { _fun0001_ip = 955; continue _fun0001 }
- 947:
+            if(var19) { _fun0001_ip = 934; continue _fun0001 }
+ 926:
             var18 = var14.disclaimer;
-            _fun0001_ip = 961; continue _fun0001;
- 955:
+            _fun0001_ip = 940; continue _fun0001;
+ 934:
             var18 = var14.disclaimerCondensed;
- 961:
+ 940:
             var15['style'] = var18;
             var18 = 'text-xs/normal';
-            if(!var19) { _fun0001_ip = 980; continue _fun0001 }
- 974:
+            if(!var19) { _fun0001_ip = 959; continue _fun0001 }
+ 953:
             var18 = 'text-xxs/normal';
- 980:
+ 959:
             var15['variant'] = var18;
             var18 = 'interactive-active';
             var15['color'] = var18;
@@ -523,7 +496,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['children'] = var9;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 1100:
+ 1079:
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -549,7 +522,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['onPress'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 1210:
+ 1189:
             var3 = _closure1_slot8;
             var2 = _closure1_slot4;
             var1 = {};
@@ -581,15 +554,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var9.bind(var4)(var8, var5);
             var5 = new Array(2);
             var5[0] = var8;
-            if(!var6) { _fun0001_ip = 1373; continue _fun0001 }
- 1347:
+            if(!var6) { _fun0001_ip = 1352; continue _fun0001 }
+ 1326:
             var9 = _closure1_slot7;
             var8 = _closure1_slot11;
             var7 = {};
             var7['product'] = var11;
             var7['analyticsLocations'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 1373:
+ 1352:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

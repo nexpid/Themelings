@@ -1144,7 +1144,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 497; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 493; continue _fun0005 }
  10:
                     var5 = undefined;
                     var8 = undefined;
@@ -1183,21 +1183,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  126:
                     var3['color'] = var2;
                     var2 = _closure2_slot3;
-                    if(!(var9 == var2)) { _fun0005_ip = 177; continue _fun0005 }
+                    if(!(var9 == var2)) { _fun0005_ip = 173; continue _fun0005 }
  138:
                     var2 = {'primary_color': null, 'secondary_color': null, 'tertiary_color': null};
                     var7 = _closure2_slot2;
                     var7 = var9 != var7;
                     var4 = 0;
-                    if(!var7) { _fun0005_ip = 169; continue _fun0005 }
- 165:
+                    if(!var7) { _fun0005_ip = 165; continue _fun0005 }
+ 161:
                     var4 = _closure2_slot2;
- 169:
+ 165:
                     var2['primary_color'] = var4;
-                    _fun0005_ip = 181; continue _fun0005;
- 177:
+                    _fun0005_ip = 177; continue _fun0005;
+ 173:
                     var2 = _closure2_slot3;
- 181:
+ 177:
                     var3['colors'] = var2;
                     var7 = _closure1_slot2;
                     var9 = _closure1_slot3;
@@ -1207,7 +1207,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var4.NONE;
                     var3['permissions'] = var4;
                     var8 = var3;
- 222: // try_start_0
+ 218: // try_start_0
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot3;
                     var3 = 15;
@@ -1227,13 +1227,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var8 = false;
                     var3['rejectWithError'] = var8;
                     var3 = var4.bind(var7)(var3);
-                    SaveGenerator(address=304);
- 302:
+                    SaveGenerator(address=300);
+ 298:
                     return var3;
- 304:
+ 300:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0005_ip = 447; continue _fun0005 }
- 313:
+                    if(var4) { _fun0005_ip = 443; continue _fun0005 }
+ 309:
                     var4 = var3.body;
                     var8 = _closure1_slot2;
                     var9 = _closure1_slot3;
@@ -1263,11 +1263,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var8.checkGuildTemplateDirty;
                     var6 = _closure2_slot0;
                     var6 = var7.bind(var8)(var6);
- 444: // try_end0
+ 440: // try_end0
                     return var4;
- 447:
+ 443:
                     return var3;
- 450: // catch_target0
+ 446: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot3;
@@ -1281,7 +1281,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = new var14[var2](var13, var12);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
- 497:
+ 493:
                     return var1;
                 }
             };

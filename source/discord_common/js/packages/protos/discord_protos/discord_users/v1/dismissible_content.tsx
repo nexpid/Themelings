@@ -870,10 +870,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['SEASONAL_GIFTING_COACHMARK_2023'] = var2;
     var1 = 'SEASONAL_GIFTING_COACHMARK_2023';
     var4[var2] = var1;
-    var2 = 334;
-    var4['COLLECTIBLES_GIFTING_COACHMARK'] = var2;
-    var1 = 'COLLECTIBLES_GIFTING_COACHMARK';
-    var4[var2] = var1;
     var2 = 335;
     var4['SEEN_LAUNCH_WELCOME'] = var2;
     var1 = 'SEEN_LAUNCH_WELCOME';
@@ -1677,6 +1673,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = 568;
     var4['GUILD_PIN_PERMISSION_MIGRATION_NOTIFICATION'] = var2;
     var1 = 'GUILD_PIN_PERMISSION_MIGRATION_NOTIFICATION';
+    var4[var2] = var1;
+    var2 = 569;
+    var4['VANITY_URL_POWERUP_ROLLBACK_NOTIFICATION'] = var2;
+    var1 = 'VANITY_URL_POWERUP_ROLLBACK_NOTIFICATION';
     var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;

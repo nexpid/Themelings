@@ -450,7 +450,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = 20;
                     var1 = var3[var1];
                     var3 = undefined;
-                    var8 = var2.bind(var3)(var1);
+                    var1 = var2.bind(var3)(var1);
+                    var8 = var1.ICYMIAnalytics;
                     var7 = var8.trackItemInteraction;
                     var2 = _closure2_slot0;
                     var6 = var2.id;
@@ -460,18 +461,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = _closure2_slot5;
                     var5 = var4.id;
                     var1 = null;
-                    if(!(var1 == var5)) { _fun0006_ip = 85; continue _fun0006 }
- 78:
+                    if(!(var1 == var5)) { _fun0006_ip = 91; continue _fun0006 }
+ 84:
                     var1 = var4.surrogates;
-                    _fun0006_ip = 113; continue _fun0006;
- 85:
+                    _fun0006_ip = 119; continue _fun0006;
+ 91:
                     var6 = var4.name;
                     var4 = global;
                     var4 = var4.HermesInternal;
                     var5 = var4.concat;
                     var4 = ':';
                     var1 = var5.bind(var4)(var6, var4);
- 113:
+ 119:
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 }
@@ -532,7 +533,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0008_ip = 295; continue _fun0008 }
+                    if(!(var2 != var3)) { _fun0008_ip = 301; continue _fun0008 }
  16:
                     var2 = _closure2_slot0;
                     var4 = var2.content_type;
@@ -570,7 +571,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = _closure1_slot2;
                     var4 = 20;
                     var4 = var2[var4];
-                    var10 = var7.bind(var8)(var4);
+                    var4 = var7.bind(var8)(var4);
+                    var10 = var4.ICYMIAnalytics;
                     var9 = var10.trackItemInteraction;
                     var6 = _closure2_slot0;
                     var5 = var6.id;
@@ -598,7 +600,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2['onPressEmoji'] = var1;
                     var1 = 'ReactActionSheet';
                     var1 = var4.bind(var5)(var3, var1, var2);
- 295:
+ 301:
                     var1 = undefined;
                     return var1;
                 }

@@ -63,43 +63,110 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var10.type;
             var12 = _closure1_slot8;
             var12 = var12.GUILD_DIRECTORY;
-            if(!(var12 !== var14)) { _fun0001_ip = 720; continue _fun0001 }
+            if(!(var12 !== var14)) { _fun0001_ip = 768; continue _fun0001 }
  208:
             var12 = _closure1_slot8;
             var12 = var12.GUILD_FORUM;
-            if(!(var12 !== var14)) { _fun0001_ip = 586; continue _fun0001 }
+            if(!(var12 !== var14)) { _fun0001_ip = 634; continue _fun0001 }
  225:
             var12 = _closure1_slot8;
             var12 = var12.GUILD_MEDIA;
-            if(!(var12 !== var14)) { _fun0001_ip = 586; continue _fun0001 }
+            if(!(var12 !== var14)) { _fun0001_ip = 634; continue _fun0001 }
  242:
             var12 = _closure1_slot8;
             var12 = var12.PUBLIC_THREAD;
-            if(!(var12 !== var14)) { _fun0001_ip = 421; continue _fun0001 }
- 259:
+            if(!(var12 !== var14)) { _fun0001_ip = 287; continue _fun0001 }
+ 256:
             var12 = _closure1_slot8;
             var12 = var12.PRIVATE_THREAD;
-            if(!(var12 !== var14)) { _fun0001_ip = 421; continue _fun0001 }
- 276:
+            if(!(var12 !== var14)) { _fun0001_ip = 287; continue _fun0001 }
+ 270:
             var12 = _closure1_slot8;
             var12 = var12.ANNOUNCEMENT_THREAD;
-            if(!(var12 !== var14)) { _fun0001_ip = 421; continue _fun0001 }
- 293:
-            var14 = var7.push;
+            if(!(var12 === var14)) { _fun0001_ip = 506; continue _fun0001 }
+ 287:
+            var14 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var12 = 20;
+            var12 = var15[var12];
+            var15 = var14.bind(var4)(var12);
+            var14 = var15.getCurrentConfig;
             var12 = {};
-            var16 = _closure1_slot1;
-            var19 = _closure1_slot2;
-            var15 = 15;
-            var15 = var19[var15];
-            var15 = var16.bind(var4)(var15);
-            var12['source'] = var15;
-            var18 = _closure1_slot0;
-            var15 = 16;
-            var15 = var19[var15];
-            var15 = var18.bind(var4)(var15);
-            var15 = var15.MagnifyingGlassIcon;
-            var12['IconComponent'] = var15;
-            var15 = function onPress() {
+            var16 = 'ChannelActionButtons';
+            var12['location'] = var16;
+            var12 = var14.bind(var15)(var12);
+            var12 = var12.enabled;
+            if(var12) { _fun0001_ip = 506; continue _fun0001 }
+ 341:
+            var12 = var10.isForumPost;
+            var12 = var12.bind(var10)();
+            if(var12) { _fun0001_ip = 891; continue _fun0001 }
+ 357:
+            var12 = _closure1_slot1;
+            if(!(var13 !== var11)) { _fun0001_ip = 378; continue _fun0001 }
+ 365:
+            var13 = _closure1_slot2;
+            var11 = 22;
+            var11 = var13[var11];
+            _fun0001_ip = 389; continue _fun0001;
+ 378:
+            var14 = _closure1_slot2;
+            var13 = 21;
+            var11 = var14[var13];
+ 389:
+            var13 = var12.bind(var4)(var11);
+            var12 = var7.push;
+            var11 = {};
+            var11['source'] = var13;
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var13 = 23;
+            var13 = var17[var13];
+            var13 = var16.bind(var4)(var13);
+            var13 = var13.BellIcon;
+            var11['IconComponent'] = var13;
+            var13 = function onPress() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 24;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.showThreadNotificationsBottomSheet;
+                var2 = _closure2_slot0;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var11['onPress'] = var13;
+            var13 = 18;
+            var14 = var17[var13];
+            var14 = var16.bind(var4)(var14);
+            var15 = var14.intl;
+            var14 = var15.string;
+            var13 = var17[var13];
+            var13 = var16.bind(var4)(var13);
+            var13 = var13.t;
+            var13 = var13.HcoRu7;
+            var13 = var14.bind(var15)(var13);
+            var11['accessibilityLabel'] = var13;
+            var11 = var12.bind(var7)(var11);
+            _fun0001_ip = 891; continue _fun0001;
+ 506:
+            var12 = var7.push;
+            var11 = {};
+            var14 = _closure1_slot1;
+            var17 = _closure1_slot2;
+            var13 = 15;
+            var13 = var17[var13];
+            var13 = var14.bind(var4)(var13);
+            var11['source'] = var13;
+            var16 = _closure1_slot0;
+            var13 = 16;
+            var13 = var17[var13];
+            var13 = var16.bind(var4)(var13);
+            var13 = var13.MagnifyingGlassIcon;
+            var11['IconComponent'] = var13;
+            var13 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var7 = _closure1_slot7;
@@ -111,7 +178,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var7.bind(var1)(var5, var4, var3);
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 24;
+                    var3 = 25;
                     var3 = var5[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.isIOS;
@@ -120,7 +187,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  67:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 25;
+                    var3 = 26;
                     var3 = var5[var3];
                     var7 = var4.bind(var1)(var3);
                     var5 = var7.getChatInputRef;
@@ -136,7 +203,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  128:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 26;
+                    var3 = 27;
                     var3 = var5[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.isSwipeToMemberListEnabled;
@@ -145,7 +212,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = _closure1_slot2;
                     if(var3) { _fun0002_ip = 261; continue _fun0002 }
  169:
-                    var3 = 28;
+                    var3 = 29;
                     var3 = var5[var3];
                     var7 = var4.bind(var1)(var3);
                     var3 = var7.getRootNavigationRef;
@@ -168,7 +235,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  259:
                     return var1;
  261:
-                    var3 = 27;
+                    var3 = 28;
                     var3 = var5[var3];
                     var3 = var4.bind(var1)(var3);
                     var5 = var3.ComponentDispatch;
@@ -188,60 +255,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var12['onPress'] = var15;
-            var15 = 18;
-            var16 = var19[var15];
-            var16 = var18.bind(var4)(var16);
-            var17 = var16.intl;
-            var16 = var17.string;
-            var15 = var19[var15];
-            var15 = var18.bind(var4)(var15);
-            var15 = var15.t;
-            var15 = var15.5h0QOD;
-            var15 = var16.bind(var17)(var15);
-            var12['accessibilityLabel'] = var15;
-            var12 = var14.bind(var7)(var12);
-            _fun0001_ip = 843; continue _fun0001;
- 421:
-            var12 = var10.isForumPost;
-            var12 = var12.bind(var10)();
-            if(var12) { _fun0001_ip = 843; continue _fun0001 }
- 437:
-            var12 = _closure1_slot1;
-            if(!(var13 !== var11)) { _fun0001_ip = 458; continue _fun0001 }
- 445:
-            var13 = _closure1_slot2;
-            var11 = 21;
-            var11 = var13[var11];
-            _fun0001_ip = 469; continue _fun0001;
- 458:
-            var14 = _closure1_slot2;
-            var13 = 20;
-            var11 = var14[var13];
- 469:
-            var13 = var12.bind(var4)(var11);
-            var12 = var7.push;
-            var11 = {};
-            var11['source'] = var13;
-            var16 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            var13 = 22;
-            var13 = var17[var13];
-            var13 = var16.bind(var4)(var13);
-            var13 = var13.BellIcon;
-            var11['IconComponent'] = var13;
-            var13 = function onPress() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 23;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.showThreadNotificationsBottomSheet;
-                var2 = _closure2_slot0;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
             var11['onPress'] = var13;
             var13 = 18;
             var14 = var17[var13];
@@ -251,14 +264,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var17[var13];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            var13 = var13.HcoRu7;
+            var13 = var13.5h0QOD;
             var13 = var14.bind(var15)(var13);
             var11['accessibilityLabel'] = var13;
             var11 = var12.bind(var7)(var11);
-            _fun0001_ip = 843; continue _fun0001;
- 586:
-            if(!var3) { _fun0001_ip = 843; continue _fun0001 }
- 592:
+            _fun0001_ip = 891; continue _fun0001;
+ 634:
+            if(!var3) { _fun0001_ip = 891; continue _fun0001 }
+ 640:
             var11 = var7.push;
             var3 = {};
             var13 = _closure1_slot1;
@@ -300,8 +313,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var13.bind(var14)(var12);
             var3['accessibilityLabel'] = var12;
             var3 = var11.bind(var7)(var3);
-            _fun0001_ip = 843; continue _fun0001;
- 720:
+            _fun0001_ip = 891; continue _fun0001;
+ 768:
             var11 = var7.push;
             var3 = {};
             var13 = _closure1_slot1;
@@ -343,15 +356,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var13.bind(var14)(var12);
             var3['accessibilityLabel'] = var12;
             var3 = var11.bind(var7)(var3);
- 843:
-            if(!var2) { _fun0001_ip = 857; continue _fun0001 }
- 846:
+ 891:
+            if(!var2) { _fun0001_ip = 905; continue _fun0001 }
+ 894:
             var11 = var7.length;
             var3 = 0;
             var2 = var3 !== var11;
- 857:
-            if(var2) { _fun0001_ip = 986; continue _fun0001 }
- 863:
+ 905:
+            if(var2) { _fun0001_ip = 1034; continue _fun0001 }
+ 911:
             var3 = {};
             var3['channel'] = var10;
             var3['isChannelNSFWGated'] = var9;
@@ -364,47 +377,47 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var10.type;
             var3 = var8.bind(var12)(var3);
             var8 = !var3;
-            if(!var8) { _fun0001_ip = 924; continue _fun0001 }
- 921:
+            if(!var8) { _fun0001_ip = 972; continue _fun0001 }
+ 969:
             var8 = var11;
- 924:
-            if(!var8) { _fun0001_ip = 955; continue _fun0001 }
- 927:
+ 972:
+            if(!var8) { _fun0001_ip = 1003; continue _fun0001 }
+ 975:
             var11 = _closure1_slot9;
             var13 = var11.GUILD_THREADS_ONLY;
             var12 = var13.has;
             var11 = var10.type;
             var11 = var12.bind(var13)(var11);
             var8 = !var11;
- 955:
-            if(!var3) { _fun0001_ip = 961; continue _fun0001 }
- 958:
+ 1003:
+            if(!var3) { _fun0001_ip = 1009; continue _fun0001 }
+ 1006:
             var3 = !var9;
- 961:
-            if(!var3) { _fun0001_ip = 977; continue _fun0001 }
- 964:
+ 1009:
+            if(!var3) { _fun0001_ip = 1025; continue _fun0001 }
+ 1012:
             var9 = var10.isForumLikeChannel;
             var9 = var9.bind(var10)();
             var3 = !var9;
- 977:
-            if(!var3) { _fun0001_ip = 983; continue _fun0001 }
- 980:
+ 1025:
+            if(!var3) { _fun0001_ip = 1031; continue _fun0001 }
+ 1028:
             var3 = var8;
- 983:
+ 1031:
             var2 = !var3;
- 986:
-            if(var2) { _fun0001_ip = 1116; continue _fun0001 }
- 992:
+ 1034:
+            if(var2) { _fun0001_ip = 1164; continue _fun0001 }
+ 1040:
             var3 = var7.unshift;
             var2 = {};
             var9 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var8 = 29;
+            var8 = 30;
             var8 = var12[var8];
             var8 = var9.bind(var4)(var8);
             var2['source'] = var8;
             var11 = _closure1_slot0;
-            var8 = 30;
+            var8 = 31;
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.ThreadIcon;
@@ -412,7 +425,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = function onPress() {
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 31;
+                var1 = 32;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -433,7 +446,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var9.bind(var10)(var8);
             var2['accessibilityLabel'] = var8;
             var2 = var3.bind(var7)(var2);
- 1116:
+ 1164:
             var3 = _closure1_slot13;
             var2 = _closure1_slot3;
             var1 = {};
@@ -449,7 +462,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = _closure1_slot12;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 32;
+                var1 = 33;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -498,7 +511,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var7 = var9.bind(var10)(var7, var1);
-            var1 = 33;
+            var1 = 34;
             var1 = var8[var1];
             var3 = var3.bind(var5)(var1);
             var1 = var3.useShouldAgeGateChannel;
@@ -510,7 +523,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  107:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var8 = 34;
+            var8 = 35;
             var8 = var10[var8];
             var10 = var9.bind(var5)(var8);
             var9 = var10.shouldNSFWGateGuild;
@@ -606,7 +619,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['actionWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
-    var4 = 37;
+    var4 = 38;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -701,7 +714,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = _closure1_slot13;
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var7 = 36;
+            var7 = 37;
             var7 = var11[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
@@ -713,7 +726,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = _closure1_slot13;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 35;
+            var6 = 36;
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.ForumChannelCloseSearchButton;

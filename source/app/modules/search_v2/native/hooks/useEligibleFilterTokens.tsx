@@ -62,17 +62,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var4.FILTER_IN;
                 var4 = var5.bind(var1)(var4);
  123:
+                var4 = _closure2_slot0;
+                var5 = var4.type;
+                var4 = _closure1_slot5;
+                var4 = var4.GUILD_CHANNEL;
+                if(!(var5 === var4)) { _fun0001_ip = 166; continue _fun0001 }
+ 146:
+                var5 = var1.push;
+                var4 = _closure1_slot4;
+                var4 = var4.FILTER_IN;
+                var4 = var5.bind(var1)(var4);
+ 166:
                 var3 = _closure2_slot0;
                 var4 = var3.type;
                 var3 = _closure1_slot5;
-                var3 = var3.GUILD_CHANNEL;
-                if(!(var4 === var3)) { _fun0001_ip = 166; continue _fun0001 }
- 146:
+                var3 = var3.THREAD;
+                if(!(var4 === var3)) { _fun0001_ip = 209; continue _fun0001 }
+ 189:
                 var4 = var1.push;
                 var3 = _closure1_slot4;
                 var3 = var3.FILTER_IN;
                 var3 = var4.bind(var1)(var3);
- 166:
+ 209:
                 var4 = var1.push;
                 var3 = _closure1_slot4;
                 var3 = var3.FILTER_ON;

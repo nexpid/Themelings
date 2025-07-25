@@ -715,7 +715,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 25;
                 var5 = var2[var1];
                 var1 = undefined;
-                var8 = var4.bind(var1)(var5);
+                var5 = var4.bind(var1)(var5);
+                var8 = var5.ICYMIAnalytics;
                 var7 = var8.trackItemInteraction;
                 var6 = 'icymi_settings_action_sheet';
                 var5 = 'double_tap_behavior_button';
@@ -788,7 +789,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 25;
                 var3 = var4[var1];
                 var1 = undefined;
-                var8 = var5.bind(var1)(var3);
+                var3 = var5.bind(var1)(var3);
+                var8 = var3.ICYMIAnalytics;
                 var7 = var8.trackItemInteraction;
                 var6 = 'icymi_settings_action_sheet';
                 var3 = 'custom_scoring_button';

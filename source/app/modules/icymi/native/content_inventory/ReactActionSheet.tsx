@@ -431,7 +431,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 134; continue _fun0003 }
+                        if(var2) { _fun0003_ip = 140; continue _fun0003 }
  10:
                         var5 = _closure2_slot5;
                         var3 = undefined;
@@ -441,7 +441,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var6 = _closure1_slot2;
                         var2 = 18;
                         var2 = var6[var2];
-                        var8 = var5.bind(var3)(var2);
+                        var2 = var5.bind(var3)(var2);
+                        var8 = var2.ICYMIAnalytics;
                         var7 = var8.trackItemInteraction;
                         var2 = _closure2_slot0;
                         var6 = var2.id;
@@ -451,13 +452,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5 = _closure2_slot2;
                         var2 = _closure2_slot7;
                         var2 = var5.bind(var3)(var2);
-                        SaveGenerator(address=98);
- 96:
+                        SaveGenerator(address=104);
+ 102:
                         return var2;
- 98:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0003_ip = 131; continue _fun0003 }
  104:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                        if(var5) { _fun0003_ip = 137; continue _fun0003 }
+ 110:
                         var6 = _closure2_slot5;
                         var5 = false;
                         var5 = var6.bind(var3)(var5);
@@ -465,9 +466,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = '';
                         var4 = var5.bind(var3)(var4);
                         return var3;
- 131:
+ 137:
                         return var2;
- 134:
+ 140:
                         return var1;
                     }
                 };
@@ -492,7 +493,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0004_ip = 117; continue _fun0004 }
+                            if(var2) { _fun0004_ip = 123; continue _fun0004 }
  7:
                             var5 = _closure2_slot5;
                             var3 = undefined;
@@ -502,7 +503,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var6 = _closure1_slot2;
                             var2 = 18;
                             var2 = var6[var2];
-                            var8 = var5.bind(var3)(var2);
+                            var2 = var5.bind(var3)(var2);
+                            var8 = var2.ICYMIAnalytics;
                             var7 = var8.trackItemInteraction;
                             var2 = _closure2_slot0;
                             var6 = var2.id;
@@ -512,20 +514,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var5 = _closure2_slot1;
                             var2 = arg1;
                             var2 = var5.bind(var3)(var2);
-                            SaveGenerator(address=94);
- 92:
+                            SaveGenerator(address=100);
+ 98:
                             return var2;
- 94:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0004_ip = 114; continue _fun0004 }
  100:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                            if(var5) { _fun0004_ip = 120; continue _fun0004 }
+ 106:
                             var5 = _closure2_slot5;
                             var4 = false;
                             var4 = var5.bind(var3)(var4);
                             return var3;
- 114:
+ 120:
                             return var2;
- 117:
+ 123:
                             return var1;
                         }
                     };
@@ -867,7 +869,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 18;
                 var2 = var2[var1];
                 var1 = undefined;
-                var5 = var3.bind(var1)(var2);
+                var1 = var3.bind(var1)(var2);
+                var5 = var1.ICYMIAnalytics;
                 var4 = var5.trackItemInteraction;
                 var2 = _closure2_slot0;
                 var3 = var2.id;

@@ -362,7 +362,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot19 = var4;
     var4 = null;
     var _closure1_slot20 = var4;
-    var4 = 20;
+    var4 = 21;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -446,7 +446,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0007_ip = 153; continue _fun0007 }
+                            if(var2) { _fun0007_ip = 193; continue _fun0007 }
  10:
                             var2 = _closure1_slot9;
                             var3 = var2.NativePermissionManager;
@@ -457,35 +457,46 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var2;
  37:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(var3) { _fun0007_ip = 150; continue _fun0007 }
- 43:
-                            var5 = _closure1_slot0;
-                            var6 = _closure1_slot2;
+                            if(var3) { _fun0007_ip = 190; continue _fun0007 }
+ 46:
+                            var9 = _closure1_slot0;
+                            var10 = _closure1_slot2;
                             var3 = 18;
-                            var4 = var6[var3];
+                            var4 = var10[var3];
                             var3 = undefined;
-                            var5 = var5.bind(var3)(var4);
+                            var5 = var9.bind(var3)(var4);
                             var4 = var5.allowInAppNotifications;
                             var8 = var4.bind(var5)();
                             var5 = _closure1_slot1;
                             var4 = 19;
-                            var4 = var6[var4];
+                            var4 = var10[var4];
                             var7 = var5.bind(var3)(var4);
                             var6 = var7.track;
                             var4 = _closure1_slot17;
                             var5 = var4.NOTIFICATION_PERMISSION_STATUS;
                             var4 = {};
-                            var9 = _closure1_slot18;
-                            var9 = var9.AUTHORIZED;
-                            var9 = var2 === var9;
-                            var4['os_enabled'] = var9;
+                            var11 = _closure1_slot18;
+                            var11 = var11.AUTHORIZED;
+                            var11 = var2 === var11;
+                            var4['os_enabled'] = var11;
                             var4['foreground_app_enabled'] = var8;
                             var4['background_app_enabled'] = var8;
+                            var8 = 20;
+                            var8 = var10[var8];
+                            var9 = var9.bind(var3)(var8);
+                            var8 = var9.isIOS;
+                            var9 = var8.bind(var9)();
+                            var8 = null;
+                            if(!var9) { _fun0007_ip = 174; continue _fun0007 }
+ 171:
+                            var8 = var2;
+ 174:
+                            var4['notification_authorization_status'] = var8;
                             var4 = var6.bind(var7)(var5, var4);
                             return var3;
- 150:
+ 190:
                             return var2;
- 153:
+ 193:
                             return var1;
                         }
                     };
@@ -819,7 +830,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

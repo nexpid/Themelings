@@ -126,7 +126,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = 'function CaughtUpRowTsx3(){const{visibleSharedValue,withDelay,withSequence,withTiming,Easing}=this.__closure;return{transform:[{translateY:visibleSharedValue.get()?withDelay(115,withSequence(withTiming(8,{duration:150,easing:Easing.inOut(Easing.ease)}),withTiming(0,{duration:300,easing:Easing.out(Easing.ease)}))):0}]};}';
     var4['code'] = var7;
     var _closure1_slot13 = var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -204,7 +204,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 138; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 144; continue _fun0002 }
  10:
                     var4 = _closure2_slot2;
                     var3 = undefined;
@@ -214,7 +214,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = _closure1_slot2;
                     var2 = 10;
                     var2 = var5[var2];
-                    var8 = var4.bind(var3)(var2);
+                    var2 = var4.bind(var3)(var2);
+                    var8 = var2.ICYMIAnalytics;
                     var7 = var8.trackItemInteraction;
                     var6 = 'caught_up';
                     var2 = 'press_explore';
@@ -224,13 +225,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var4.bind(var3)(var2);
                     var2 = var4.maybeFetchGuildDiscoveryCategories;
                     var2 = var2.bind(var4)();
-                    SaveGenerator(address=100);
- 98:
+                    SaveGenerator(address=106);
+ 104:
                     return var2;
- 100:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 135; continue _fun0002 }
  106:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0002_ip = 141; continue _fun0002 }
+ 112:
                     var4 = global;
                     var6 = var4.setTimeout;
                     var5 = function() {
@@ -259,9 +260,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = 100;
                     var4 = var6.bind(var3)(var5, var4);
                     return var3;
- 135:
+ 141:
                     return var2;
- 138:
+ 144:
                     return var1;
                 }
             };
@@ -279,7 +280,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 10;
                 var2 = var4[var1];
                 var1 = undefined;
-                var7 = var3.bind(var1)(var2);
+                var2 = var3.bind(var1)(var2);
+                var7 = var2.ICYMIAnalytics;
                 var6 = var7.trackItemInteraction;
                 var5 = 'caught_up';
                 var2 = 'press_home';
@@ -290,15 +292,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var3.getRootNavigationRef;
                 var5 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 != var5)) { _fun0003_ip = 105; continue _fun0003 }
- 78:
+                if(!(var2 != var5)) { _fun0003_ip = 111; continue _fun0003 }
+ 84:
                 var4 = var5.navigate;
                 var3 = {};
                 var2 = 'guilds';
                 var3['screen'] = var2;
                 var2 = 'tabs';
                 var2 = var4.bind(var5)(var2, var3);
- 105:
+ 111:
                 return var1;
             }
         };
@@ -728,20 +730,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = var3.bind(var4)(var2, var5);
         var5 = new Array(3);
         var5[0] = var6;
-        var6 = 10;
+        var6 = 19;
         var6 = var14[var6];
         var6 = var10.bind(var4)(var6);
         var7 = var6.Separator;
         var6 = {};
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;
-        var6 = 19;
+        var6 = 20;
         var6 = var14[var6];
         var7 = var13.bind(var4)(var6);
         var6 = {};
         var9 = var9.gradient;
         var6['style'] = var9;
-        var9 = 20;
+        var9 = 21;
         var15 = var14[var9];
         var15 = var10.bind(var4)(var15);
         var15 = var15.VerticalGradient;
@@ -752,7 +754,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var9 = var9.VerticalGradient;
         var9 = var9.END;
         var6['end'] = var9;
-        var10 = 21;
+        var10 = 22;
         var9 = var14[var10];
         var9 = var13.bind(var4)(var9);
         var16 = var9.bind(var4)(var11);

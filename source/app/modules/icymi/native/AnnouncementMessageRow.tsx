@@ -209,7 +209,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 13;
                 var2 = var5[var1];
                 var1 = undefined;
-                var9 = var4.bind(var1)(var2);
+                var2 = var4.bind(var1)(var2);
+                var9 = var2.ICYMIAnalytics;
                 var8 = var9.trackItemInteraction;
                 var3 = _closure2_slot0;
                 var7 = var3.id;
@@ -236,7 +237,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 13;
                 var5 = var4[var1];
                 var1 = undefined;
-                var11 = var3.bind(var1)(var5);
+                var5 = var3.bind(var1)(var5);
+                var11 = var5.ICYMIAnalytics;
                 var10 = var11.trackItemInteraction;
                 var6 = _closure2_slot0;
                 var9 = var6.id;
@@ -272,40 +274,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var3 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var6 = 13;
-                    var2 = var1[var6];
+                    var2 = _closure1_slot2;
+                    var1 = 13;
+                    var2 = var2[var1];
                     var1 = undefined;
-                    var10 = var3.bind(var1)(var2);
-                    var9 = var10.trackItemInteraction;
-                    var4 = _closure2_slot0;
-                    var8 = var4.id;
-                    var7 = 'announcement';
+                    var2 = var3.bind(var1)(var2);
+                    var9 = var2.ICYMIAnalytics;
+                    var8 = var9.trackItemInteraction;
+                    var5 = _closure2_slot0;
+                    var7 = var5.id;
+                    var6 = 'announcement';
                     var2 = 'press_message';
-                    var2 = var9.bind(var10)(var8, var7, var2);
+                    var2 = var8.bind(var9)(var7, var6, var2);
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0003_ip = 194; continue _fun0003 }
- 69:
-                    var7 = _closure1_slot1;
-                    var4 = _closure1_slot2;
+                    if(!(var2 != var5)) { _fun0003_ip = 203; continue _fun0003 }
+ 75:
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
                     var2 = 16;
-                    var2 = var4[var2];
-                    var9 = var7.bind(var1)(var2);
-                    var8 = var9.ackGravityItems;
-                    var10 = {};
+                    var2 = var6[var2];
+                    var8 = var5.bind(var1)(var2);
+                    var7 = var8.ackGravityItems;
+                    var9 = {};
                     var2 = _closure2_slot0;
-                    var7 = var2.id;
-                    var10['id'] = var7;
-                    var7 = global;
-                    var11 = var7.Date;
-                    var7 = var11.now;
-                    var7 = var7.bind(var11)();
-                    var10['timestamp'] = var7;
-                    var7 = new Array(1);
-                    var7[0] = var10;
-                    var7 = var8.bind(var9)(var7);
+                    var5 = var2.id;
+                    var9['id'] = var5;
+                    var5 = global;
+                    var10 = var5.Date;
+                    var5 = var10.now;
+                    var5 = var5.bind(var10)();
+                    var9['timestamp'] = var5;
+                    var5 = new Array(1);
+                    var5[0] = var9;
+                    var5 = var7.bind(var8)(var5);
                     var5 = _closure1_slot0;
-                    var4 = var4[var6];
+                    var4 = 17;
+                    var4 = var6[var4];
                     var6 = var5.bind(var1)(var4);
                     var5 = var6.navigateToPost;
                     var4 = _closure2_slot2;
@@ -314,7 +318,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var3.id;
                     var2 = var2.id;
                     var2 = var5.bind(var6)(var4, var3, var2);
- 194:
+ 203:
                     return var1;
                 }
             };
@@ -328,23 +332,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     var4 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var5 = 13;
-                    var3 = var1[var5];
+                    var3 = _closure1_slot2;
+                    var1 = 13;
+                    var3 = var3[var1];
                     var1 = undefined;
-                    var10 = var4.bind(var1)(var3);
-                    var9 = var10.trackItemInteraction;
-                    var6 = _closure2_slot0;
-                    var8 = var6.id;
-                    var7 = 'announcement';
+                    var3 = var4.bind(var1)(var3);
+                    var9 = var3.ICYMIAnalytics;
+                    var8 = var9.trackItemInteraction;
+                    var5 = _closure2_slot0;
+                    var7 = var5.id;
+                    var6 = 'announcement';
                     var4 = 'press_comments';
-                    var4 = var9.bind(var10)(var8, var7, var4);
+                    var4 = var8.bind(var9)(var7, var6, var4);
                     var4 = null;
-                    if(!(var4 != var6)) { _fun0004_ip = 119; continue _fun0004 }
- 66:
+                    if(!(var4 != var5)) { _fun0004_ip = 128; continue _fun0004 }
+ 72:
                     var4 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var2 = var2[var5];
+                    var5 = _closure1_slot2;
+                    var2 = 17;
+                    var2 = var5[var2];
                     var6 = var4.bind(var1)(var2);
                     var5 = var6.navigateToPost;
                     var2 = _closure2_slot0;
@@ -353,7 +359,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var3.id;
                     var2 = var2.id;
                     var2 = var5.bind(var6)(var4, var3, var2);
- 119:
+ 128:
                     return var1;
                 }
             };
@@ -364,7 +370,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = _closure1_slot14;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var11 = 13;
+            var11 = 17;
             var5 = var16[var11];
             var5 = var12.bind(var4)(var5);
             var6 = var5.AnnouncementContentPost;
@@ -374,7 +380,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5['message'] = var14;
             var5['author'] = var22;
             var17 = _closure1_slot1;
-            var22 = 17;
+            var22 = 18;
             var22 = var16[var22];
             var26 = var17.bind(var4)(var22);
             var25 = var26.extractTimestamp;
@@ -386,7 +392,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5['id'] = var9;
             var5['onHeaderPress'] = var20;
             var5['onHeaderLongPress'] = var8;
-            var8 = 18;
+            var8 = 19;
             var8 = var16[var8];
             var8 = var12.bind(var4)(var8);
             var9 = var8.PressableHighlight;
@@ -395,7 +401,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8['onLongPress'] = var19;
             var19 = 'button';
             var8['accessibilityRole'] = var19;
-            var19 = 19;
+            var19 = 20;
             var20 = var16[var19];
             var22 = var17.bind(var4)(var20);
             var20 = {};
@@ -415,7 +421,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8['unstable_pressDelay'] = var19;
             var19 = var10.pressable;
             var8['style'] = var19;
-            var19 = 20;
+            var19 = 21;
             var19 = var16[var19];
             var19 = var12.bind(var4)(var19);
             var20 = var19.MessageRowContent;
@@ -434,7 +440,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = {};
             var10 = var10.footer;
             var9['style'] = var10;
-            var10 = 21;
+            var10 = 22;
             var10 = var16[var10];
             var17 = var17.bind(var4)(var10);
             var10 = {};
@@ -464,7 +470,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot16 = var4;
-    var4 = 23;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -525,7 +531,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var8 = var12.bind(var14)(var8, var3);
-            var3 = 22;
+            var3 = 23;
             var3 = var10[var3];
             var4 = var4.bind(var5)(var3);
             var3 = var4.useGravityMessage;

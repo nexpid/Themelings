@@ -482,52 +482,52 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var4.channel_id;
                 var1 = var3[var1];
                 var5 = null;
-                if(!(var5 == var1)) { _fun0007_ip = 54; continue _fun0007 }
+                if(!(var5 == var1)) { _fun0007_ip = 50; continue _fun0007 }
  27:
                 var7 = _closure2_slot0;
                 var3 = var4.channel_id;
                 var1 = {'numOfAttachments': 0, 'numOfAttachmentsPendingScan': 0, 'numOfEmbeds': 0, 'numOfEmbedsPendingScan': 0};
                 var7[var3] = var1;
- 54:
+ 50:
                 var3 = _closure2_slot1;
                 var1 = var4.id;
                 var1 = var3[var1];
-                if(!(var5 == var1)) { _fun0007_ip = 109; continue _fun0007 }
- 71:
+                if(!(var5 == var1)) { _fun0007_ip = 105; continue _fun0007 }
+ 67:
                 var7 = _closure2_slot1;
                 var3 = var4.id;
                 var1 = {'channelId': null, 'numOfAttachments': 0, 'numOfGoreAttachments': 0, 'numOfExplicitAttachments': 0, 'numOfEmbeds': 0, 'numOfGoreEmbeds': 0, 'numOfExplicitEmbeds': 0};
                 var8 = var4.channel_id;
                 var1['channelId'] = var8;
                 var7[var3] = var1;
- 109:
+ 105:
                 var3 = var4.attachments;
                 var8 = var5 == var3;
                 var1 = undefined;
                 var7 = undefined;
-                if(var8) { _fun0007_ip = 131; continue _fun0007 }
- 126:
+                if(var8) { _fun0007_ip = 127; continue _fun0007 }
+ 122:
                 var7 = var3.length;
- 131:
+ 127:
                 var8 = var5 != var7;
                 var9 = 0;
-                if(!var8) { _fun0007_ip = 143; continue _fun0007 }
- 140:
+                if(!var8) { _fun0007_ip = 139; continue _fun0007 }
+ 136:
                 var9 = var7;
- 143:
+ 139:
                 var8 = var4.embeds;
                 var10 = var5 == var8;
                 var7 = undefined;
-                if(var10) { _fun0007_ip = 163; continue _fun0007 }
- 158:
+                if(var10) { _fun0007_ip = 159; continue _fun0007 }
+ 154:
                 var7 = var8.length;
- 163:
+ 159:
                 var10 = var5 != var7;
                 var8 = 0;
-                if(!var10) { _fun0007_ip = 175; continue _fun0007 }
- 172:
+                if(!var10) { _fun0007_ip = 171; continue _fun0007 }
+ 168:
                 var8 = var7;
- 175:
+ 171:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var7 = 16;
@@ -566,8 +566,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var10 = var4.attachments;
                 var7 = var5 == var10;
                 var8 = undefined;
-                if(var7) { _fun0007_ip = 388; continue _fun0007 }
- 368:
+                if(var7) { _fun0007_ip = 384; continue _fun0007 }
+ 364:
                 var9 = var10.filter;
                 var7 = function(arg1) {
                     var7 = _closure1_slot0;
@@ -596,19 +596,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var7 = var9.bind(var10)(var7);
                 var8 = var7.length;
- 388:
+ 384:
                 var9 = var5 != var8;
                 var7 = 0;
-                if(!var9) { _fun0007_ip = 400; continue _fun0007 }
- 397:
+                if(!var9) { _fun0007_ip = 396; continue _fun0007 }
+ 393:
                 var7 = var8;
- 400:
+ 396:
                 var2['numOfExplicitAttachments'] = var7;
                 var10 = var4.embeds;
                 var7 = var5 == var10;
                 var8 = undefined;
-                if(var7) { _fun0007_ip = 441; continue _fun0007 }
- 421:
+                if(var7) { _fun0007_ip = 437; continue _fun0007 }
+ 417:
                 var9 = var10.filter;
                 var7 = function(arg1) {
                     var7 = _closure1_slot0;
@@ -637,19 +637,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var7 = var9.bind(var10)(var7);
                 var8 = var7.length;
- 441:
+ 437:
                 var9 = var5 != var8;
                 var7 = 0;
-                if(!var9) { _fun0007_ip = 453; continue _fun0007 }
- 450:
+                if(!var9) { _fun0007_ip = 449; continue _fun0007 }
+ 446:
                 var7 = var8;
- 453:
+ 449:
                 var2['numOfExplicitEmbeds'] = var7;
                 var10 = var4.attachments;
                 var7 = var5 == var10;
                 var8 = undefined;
-                if(var7) { _fun0007_ip = 494; continue _fun0007 }
- 474:
+                if(var7) { _fun0007_ip = 490; continue _fun0007 }
+ 470:
                 var9 = var10.filter;
                 var7 = function(arg1) {
                     var7 = _closure1_slot0;
@@ -678,19 +678,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var7 = var9.bind(var10)(var7);
                 var8 = var7.length;
- 494:
+ 490:
                 var9 = var5 != var8;
                 var7 = 0;
-                if(!var9) { _fun0007_ip = 506; continue _fun0007 }
- 503:
+                if(!var9) { _fun0007_ip = 502; continue _fun0007 }
+ 499:
                 var7 = var8;
- 506:
+ 502:
                 var2['numOfGoreAttachments'] = var7;
                 var8 = var4.embeds;
                 var7 = var5 == var8;
                 var4 = undefined;
-                if(var7) { _fun0007_ip = 547; continue _fun0007 }
- 527:
+                if(var7) { _fun0007_ip = 543; continue _fun0007 }
+ 523:
                 var7 = var8.filter;
                 var6 = function(arg1) {
                     var7 = _closure1_slot0;
@@ -719,13 +719,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var6 = var7.bind(var8)(var6);
                 var4 = var6.length;
- 547:
+ 543:
                 var5 = var5 != var4;
                 var3 = 0;
-                if(!var5) { _fun0007_ip = 559; continue _fun0007 }
- 556:
+                if(!var5) { _fun0007_ip = 555; continue _fun0007 }
+ 552:
                 var3 = var4;
- 559:
+ 555:
                 var2['numOfGoreEmbeds'] = var3;
                 return var1;
             }

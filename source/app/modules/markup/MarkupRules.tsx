@@ -1175,7 +1175,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = var9.text;
     var9 = var9.order;
     var2['order'] = var9;
-    var9 = ['<'];
+    var9 = ['<', '@', '$'];
     var2['requiredFirstCharacters'] = var9;
     var9 = function match(arg1, arg2) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {

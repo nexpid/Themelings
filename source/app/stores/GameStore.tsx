@@ -959,22 +959,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var1.etag;
                 var6 = null;
                 var1 = var6 != var2;
-                if(!var1) { _fun0018_ip = 37; continue _fun0018 }
- 26:
+                if(!var1) { _fun0018_ip = 35; continue _fun0018 }
+ 24:
                 var3 = _closure1_slot14;
                 var1 = var3 !== var2;
- 37:
-                if(!var1) { _fun0018_ip = 47; continue _fun0018 }
- 40:
+ 35:
+                if(!var1) { _fun0018_ip = 45; continue _fun0018 }
+ 38:
                 _closure1_slot14 = var2;
- 47:
+ 45:
                 var2 = _closure1_slot18;
                 var1 = undefined;
                 var5 = var2.bind(var1)(var4);
                 var4 = var5.bind(var1)();
                 var2 = var4.done;
-                if(var2) { _fun0018_ip = 331; continue _fun0018 }
- 76:
+                if(var2) { _fun0018_ip = 329; continue _fun0018 }
+ 74:
                 var8 = var4.value;
                 var7 = _closure1_slot21;
                 var2 = {};
@@ -983,47 +983,47 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var8.name;
                 var2['name'] = var9;
                 var11 = var8.executables;
-                if(!(var6 == var11)) { _fun0018_ip = 119; continue _fun0018 }
- 115:
+                if(!(var6 == var11)) { _fun0018_ip = 117; continue _fun0018 }
+ 113:
                 var11 = new Array(0);
- 119:
+ 117:
                 var10 = var11.map;
                 var9 = _closure1_slot8;
                 var9 = var10.bind(var11)(var9);
                 var2['executables'] = var9;
                 var10 = var8.overlay;
                 var9 = var6 != var10;
-                if(!var9) { _fun0018_ip = 154; continue _fun0018 }
- 151:
+                if(!var9) { _fun0018_ip = 152; continue _fun0018 }
+ 149:
                 var9 = var10;
- 154:
+ 152:
                 var2['overlay'] = var9;
                 var10 = var8.overlay_warn;
                 var9 = var6 != var10;
-                if(!var9) { _fun0018_ip = 175; continue _fun0018 }
- 172:
+                if(!var9) { _fun0018_ip = 173; continue _fun0018 }
+ 170:
                 var9 = var10;
- 175:
+ 173:
                 var2['overlayWarn'] = var9;
                 var10 = var8.overlay_compatibility_hook;
                 var9 = var6 != var10;
-                if(!var9) { _fun0018_ip = 196; continue _fun0018 }
- 193:
+                if(!var9) { _fun0018_ip = 194; continue _fun0018 }
+ 191:
                 var9 = var10;
- 196:
+ 194:
                 var2['overlayCompatibilityHook'] = var9;
                 var10 = var8.hook;
                 var9 = var6 == var10;
-                if(var9) { _fun0018_ip = 217; continue _fun0018 }
- 214:
+                if(var9) { _fun0018_ip = 215; continue _fun0018 }
+ 212:
                 var9 = var10;
- 217:
+ 215:
                 var2['hook'] = var9;
                 var9 = var8.aliases;
-                if(!(var6 == var9)) { _fun0018_ip = 236; continue _fun0018 }
- 232:
+                if(!(var6 == var9)) { _fun0018_ip = 234; continue _fun0018 }
+ 230:
                 var9 = new Array(0);
- 236:
+ 234:
                 var2['aliases'] = var9;
                 var11 = _closure1_slot7;
                 var10 = var11.supportsOutOfProcessOverlay;
@@ -1031,25 +1031,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var10.bind(var11)(var9);
                 var2['supportsOutOfProcessOverlay'] = var9;
                 var9 = var8.themes;
-                if(!(var6 == var9)) { _fun0018_ip = 281; continue _fun0018 }
- 277:
+                if(!(var6 == var9)) { _fun0018_ip = 279; continue _fun0018 }
+ 275:
                 var9 = new Array(0);
- 281:
+ 279:
                 var2['themes'] = var9;
                 var9 = var8.icon_hash;
                 var10 = var6 != var9;
                 var8 = undefined;
-                if(!var10) { _fun0018_ip = 304; continue _fun0018 }
- 301:
+                if(!var10) { _fun0018_ip = 302; continue _fun0018 }
+ 299:
                 var8 = var9;
- 304:
+ 302:
                 var2['icon'] = var8;
                 var2 = var7.bind(var1)(var2);
                 var7 = var5.bind(var1)();
                 var2 = var7.done;
                 var4 = var7;
-                if(!var2) { _fun0018_ip = 76; continue _fun0018 }
- 331:
+                if(!var2) { _fun0018_ip = 74; continue _fun0018 }
+ 329:
                 _closure1_slot15 = var1;
                 var2 = global;
                 var4 = var2.Date;

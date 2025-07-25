@@ -30,7 +30,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot5 = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -46,94 +46,81 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
-            var11 = var6.message;
-            var _closure2_slot0 = var11;
-            var1 = var11.getChannelId;
-            var13 = var1.bind(var11)();
-            var _closure2_slot1 = var13;
+            var13 = var6.message;
+            var _closure2_slot0 = var13;
+            var1 = var13.getChannelId;
+            var15 = var1.bind(var13)();
+            var _closure2_slot1 = var15;
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 8;
-            var3 = var7[var3];
-            var8 = var5.bind(var4)(var3);
+            var2 = 7;
+            var2 = var7[var2];
+            var8 = var5.bind(var4)(var2);
             var7 = var8.useStateFromStores;
-            var3 = _closure1_slot4;
+            var2 = _closure1_slot4;
             var5 = new Array(1);
-            var5[0] = var3;
-            var3 = function() {
+            var5[0] = var2;
+            var2 = function() {
                 var3 = _closure1_slot4;
                 var2 = var3.getChannel;
                 var1 = _closure2_slot1;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var9 = var7.bind(var8)(var5, var3);
-            var7 = null;
-            var3 = var7 == var9;
-            var5 = undefined;
-            if(var3) { _fun0001_ip = 141; continue _fun0001 }
+            var8 = var7.bind(var8)(var5, var2);
+            var5 = null;
+            var7 = var5 == var8;
+            var2 = undefined;
+            if(var7) { _fun0001_ip = 141; continue _fun0001 }
  116:
-            var3 = var9.isGroupDM;
-            var3 = var7 == var3;
-            var5 = undefined;
-            if(var3) { _fun0001_ip = 141; continue _fun0001 }
+            var7 = var8.isGroupDM;
+            var7 = var5 == var7;
+            var2 = undefined;
+            if(var7) { _fun0001_ip = 141; continue _fun0001 }
  131:
-            var3 = var9.isGroupDM;
-            var5 = var3.bind(var9)();
+            var7 = var8.isGroupDM;
+            var2 = var7.bind(var8)();
  141:
-            var3 = var7 != var5;
-            if(!var3) { _fun0001_ip = 151; continue _fun0001 }
+            var11 = var5 != var2;
+            if(!var11) { _fun0001_ip = 151; continue _fun0001 }
  148:
-            var3 = var5;
+            var11 = var2;
  151:
-            var8 = var7 == var9;
-            var5 = undefined;
-            if(var8) { _fun0001_ip = 185; continue _fun0001 }
- 160:
-            var8 = var9.isForumPost;
-            var8 = var7 == var8;
-            var5 = undefined;
-            if(var8) { _fun0001_ip = 185; continue _fun0001 }
- 175:
-            var8 = var9.isForumPost;
-            var5 = var8.bind(var9)();
- 185:
-            var10 = var7 != var5;
-            if(!var10) { _fun0001_ip = 195; continue _fun0001 }
- 192:
-            var10 = var5;
- 195:
-            _closure2_slot2 = var10;
-            var7 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var5 = 4;
-            var5 = var8[var5];
-            var5 = var7.bind(var4)(var5);
-            var5 = var5.bind(var4)(var11);
-            var12 = var5.nick;
+            _closure2_slot2 = var11;
+            var7 = var5 == var8;
+            var2 = undefined;
+            if(var7) { _fun0001_ip = 189; continue _fun0001 }
+ 164:
+            var7 = var8.isForumPost;
+            var7 = var5 == var7;
+            var2 = undefined;
+            if(var7) { _fun0001_ip = 189; continue _fun0001 }
+ 179:
+            var7 = var8.isForumPost;
+            var2 = var7.bind(var8)();
+ 189:
+            var12 = var5 != var2;
+            if(!var12) { _fun0001_ip = 199; continue _fun0001 }
+ 196:
+            var12 = var2;
+ 199:
             _closure2_slot3 = var12;
-            var7 = _closure1_slot0;
-            var5 = 5;
-            var5 = var8[var5];
-            var9 = var7.bind(var4)(var5);
-            var8 = var9.useIsGdmBedazzleExperimentEnabled;
-            var7 = {};
-            var7['autoTrackExposure'] = var3;
-            var5 = 'NativeChangeChannelNameSystemMessage';
-            var9 = var8.bind(var9)(var5, var13, var7);
-            if(!var9) { _fun0001_ip = 282; continue _fun0001 }
- 279:
-            var9 = var3;
- 282:
-            _closure2_slot4 = var9;
-            var7 = _closure1_slot3;
-            var8 = var7.useCallback;
-            var5 = new Array(1);
-            var5[0] = var13;
-            var3 = function() {
+            var2 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var5 = 4;
+            var5 = var7[var5];
+            var5 = var2.bind(var4)(var5);
+            var5 = var5.bind(var4)(var13);
+            var14 = var5.nick;
+            _closure2_slot4 = var14;
+            var9 = _closure1_slot3;
+            var10 = var9.useCallback;
+            var8 = new Array(1);
+            var8[0] = var15;
+            var5 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 9;
+                var1 = 8;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -143,21 +130,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var8 = var8.bind(var7)(var3, var5);
-            _closure2_slot5 = var8;
-            var5 = var7.useMemo;
-            var3 = new Array(7);
-            var3[0] = var13;
-            var3[1] = var12;
-            var12 = var11.author;
-            var12 = var12.id;
-            var3[2] = var12;
-            var11 = var11.content;
-            var3[3] = var11;
-            var3[4] = var10;
-            var3[5] = var9;
-            var3[6] = var8;
-            var2 = function() {
+            var10 = var10.bind(var9)(var5, var8);
+            _closure2_slot5 = var10;
+            var8 = var9.useMemo;
+            var5 = new Array(7);
+            var5[0] = var15;
+            var5[1] = var14;
+            var14 = var13.author;
+            var14 = var14.id;
+            var5[2] = var14;
+            var13 = var13.content;
+            var5[3] = var13;
+            var5[4] = var12;
+            var5[5] = var11;
+            var5[6] = var10;
+            var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var7 = {};
@@ -171,10 +158,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7['messageChannelId'] = var1;
                     var1 = true;
                     var7['medium'] = var1;
-                    var10 = _closure2_slot4;
+                    var10 = _closure2_slot2;
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 6;
+                    var2 = 5;
                     var4 = var9[var2];
                     var3 = undefined;
                     var4 = var8.bind(var3)(var4);
@@ -182,7 +169,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var5.formatToParts;
                     if(var10) { _fun0002_ip = 173; continue _fun0002 }
  93:
-                    var10 = _closure2_slot2;
+                    var10 = _closure2_slot3;
                     var11 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var2];
@@ -196,7 +183,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = var1.qa0e/v;
  136:
                     var1 = {};
-                    var11 = _closure2_slot3;
+                    var11 = _closure2_slot4;
                     var1['username'] = var11;
                     var1['usernameOnClick'] = var7;
                     var11 = _closure2_slot0;
@@ -210,7 +197,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.t;
                     var3 = var2.rk0be3;
                     var2 = {};
-                    var8 = _closure2_slot3;
+                    var8 = _closure2_slot4;
                     var2['username'] = var8;
                     var2['usernameOnClick'] = var7;
                     var7 = _closure2_slot0;
@@ -223,11 +210,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var5 = var5.bind(var7)(var2, var3);
+            var5 = var8.bind(var9)(var3, var5);
             var3 = _closure1_slot5;
-            var2 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var7[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -273,90 +258,75 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var11.channel_id;
             var6 = var5.bind(var6)(var1);
             var12 = null;
-            var1 = var12 == var6;
-            var5 = undefined;
-            if(var1) { _fun0003_ip = 176; continue _fun0003 }
+            var5 = var12 == var6;
+            var1 = undefined;
+            if(var5) { _fun0003_ip = 176; continue _fun0003 }
  151:
-            var1 = var6.isGroupDM;
-            var1 = var12 == var1;
-            var5 = undefined;
-            if(var1) { _fun0003_ip = 176; continue _fun0003 }
+            var5 = var6.isGroupDM;
+            var5 = var12 == var5;
+            var1 = undefined;
+            if(var5) { _fun0003_ip = 176; continue _fun0003 }
  166:
-            var1 = var6.isGroupDM;
-            var5 = var1.bind(var6)();
+            var5 = var6.isGroupDM;
+            var1 = var5.bind(var6)();
  176:
-            var1 = var12 != var5;
-            if(!var1) { _fun0003_ip = 186; continue _fun0003 }
+            var5 = var12 != var1;
+            if(!var5) { _fun0003_ip = 186; continue _fun0003 }
  183:
-            var1 = var5;
- 186:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var5 = 5;
-            var5 = var7[var5];
-            var9 = var6.bind(var3)(var5);
-            var8 = var9.isGdmBedazzleExperimentEnabled;
-            var7 = var11.channel_id;
-            var6 = {};
-            var6['autoTrackExposure'] = var1;
-            var5 = 'createChangeChannelNameSystemMessage';
-            var5 = var8.bind(var9)(var5, var7, var6);
-            if(!var5) { _fun0003_ip = 241; continue _fun0003 }
- 238:
             var5 = var1;
- 241:
+ 186:
             var6 = var11.content;
             var1 = '';
-            if(!(var1 !== var6)) { _fun0003_ip = 287; continue _fun0003 }
- 254:
+            if(!(var1 !== var6)) { _fun0003_ip = 232; continue _fun0003 }
+ 199:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 6;
+            var1 = 5;
             var1 = var7[var1];
             var1 = var6.bind(var3)(var1);
             var1 = var1.t;
             var9 = var1.rk0be3;
-            _fun0003_ip = 320; continue _fun0003;
- 287:
+            _fun0003_ip = 265; continue _fun0003;
+ 232:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 6;
+            var1 = 5;
             var1 = var7[var1];
             var1 = var6.bind(var3)(var1);
             var1 = var1.t;
             var9 = var1.hToFyc;
- 320:
+ 265:
             var1 = {};
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var16 = 6;
+            var16 = 5;
             var6 = var6[var16];
             var6 = var7.bind(var3)(var6);
             var8 = var6.intl;
             var7 = var8.formatToParts;
-            if(var5) { _fun0003_ip = 430; continue _fun0003 }
- 356:
+            if(var5) { _fun0003_ip = 375; continue _fun0003 }
+ 301:
             var6 = var4.isForumPost;
             var15 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var16];
             var5 = var15.bind(var3)(var5);
             var5 = var5.t;
-            if(var6) { _fun0003_ip = 395; continue _fun0003 }
- 387:
+            if(var6) { _fun0003_ip = 340; continue _fun0003 }
+ 332:
             var6 = var5.XCPMEB;
-            _fun0003_ip = 401; continue _fun0003;
- 395:
+            _fun0003_ip = 346; continue _fun0003;
+ 340:
             var6 = var5.qa0e/v;
- 401:
+ 346:
             var5 = {};
             var5['username'] = var14;
             var5['usernameOnClick'] = var10;
             var15 = var11.content;
             var5['channelName'] = var15;
             var5 = var7.bind(var8)(var6, var5);
-            _fun0003_ip = 504; continue _fun0003;
- 430:
+            _fun0003_ip = 449; continue _fun0003;
+ 375:
             var6 = {};
             var6['username'] = var14;
             var6['usernameOnClick'] = var10;
@@ -367,25 +337,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['action'] = var14;
             var14 = var12 == var13;
             var12 = undefined;
-            if(var14) { _fun0003_ip = 478; continue _fun0003 }
- 472:
+            if(var14) { _fun0003_ip = 423; continue _fun0003 }
+ 417:
             var12 = var13.linkColor;
- 478:
+ 423:
             var10['linkColor'] = var12;
             var11 = var11.channel_id;
             var10['messageChannelId'] = var11;
             var6['onEditGroup'] = var10;
             var5 = var7.bind(var8)(var9, var6);
- 504:
+ 449:
             var1['content'] = var5;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 7;
+            var2 = 6;
             var2 = var6[var2];
             var2 = var5.bind(var3)(var2);
-            var18 = var2.bind(var3)(var4);
-            var19 = var1;
-            var2 = copyDataProperties(var19, var18);
+            var17 = var2.bind(var3)(var4);
+            var18 = var1;
+            var2 = copyDataProperties(var18, var17);
             return var1;
         }
     };

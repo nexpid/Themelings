@@ -411,11 +411,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!(var4 !== var3)) { _fun0010_ip = 113; continue _fun0010 }
  39:
             var4 = _closure1_slot8;
-            var4 = var4.CHANNEL;
-            if(!(var4 !== var3)) { _fun0010_ip = 106; continue _fun0010 }
+            var4 = var4.THREAD;
+            if(!(var4 !== var3)) { _fun0010_ip = 113; continue _fun0010 }
  53:
             var4 = _closure1_slot8;
-            var4 = var4.THREAD;
+            var4 = var4.CHANNEL;
             if(!(var4 !== var3)) { _fun0010_ip = 106; continue _fun0010 }
  67:
             var4 = _closure1_slot8;
@@ -718,20 +718,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = arg1;
             var4 = var1.type;
             var3 = _closure1_slot8;
-            var3 = var3.GUILD_CHANNEL;
-            if(!(var3 !== var4)) { _fun0014_ip = 106; continue _fun0014 }
+            var3 = var3.THREAD;
+            if(!(var3 !== var4)) { _fun0014_ip = 120; continue _fun0014 }
  25:
             var3 = _closure1_slot8;
-            var3 = var3.GUILD;
-            if(!(var3 !== var4)) { _fun0014_ip = 106; continue _fun0014 }
+            var3 = var3.GUILD_CHANNEL;
+            if(!(var3 !== var4)) { _fun0014_ip = 120; continue _fun0014 }
  39:
             var3 = _closure1_slot8;
-            var3 = var3.CHANNEL;
-            if(!(var3 !== var4)) { _fun0014_ip = 57; continue _fun0014 }
+            var3 = var3.GUILD;
+            if(!(var3 !== var4)) { _fun0014_ip = 120; continue _fun0014 }
  53:
+            var3 = _closure1_slot8;
+            var3 = var3.CHANNEL;
+            if(!(var3 !== var4)) { _fun0014_ip = 71; continue _fun0014 }
+ 67:
             var3 = null;
             return var3;
- 57:
+ 71:
             var4 = _closure1_slot3;
             var3 = var4.getChannel;
             var2 = var1.channelId;
@@ -739,18 +743,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = null;
             var5 = var2 == var4;
             var3 = undefined;
-            if(var5) { _fun0014_ip = 92; continue _fun0014 }
- 87:
+            if(var5) { _fun0014_ip = 106; continue _fun0014 }
+ 101:
             var3 = var4.guild_id;
- 92:
+ 106:
             var4 = var2 != var3;
             var2 = null;
-            if(!var4) { _fun0014_ip = 104; continue _fun0014 }
- 101:
+            if(!var4) { _fun0014_ip = 118; continue _fun0014 }
+ 115:
             var2 = var3;
- 104:
+ 118:
             return var2;
- 106:
+ 120:
             var1 = var1.guildId;
             return var1;
         }

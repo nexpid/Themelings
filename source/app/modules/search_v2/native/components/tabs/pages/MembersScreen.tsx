@@ -543,12 +543,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = 14;
             var3 = var5[var3];
             var5 = undefined;
-            var10 = var4.bind(var5)(var3);
-            var4 = var10.useStateFromStores;
-            var11 = _closure1_slot7;
-            var3 = new Array(1);
-            var3[0] = var11;
-            var1 = function() {
+            var11 = var4.bind(var5)(var3);
+            var10 = var11.useStateFromStores;
+            var3 = _closure1_slot7;
+            var4 = new Array(1);
+            var4[0] = var3;
+            var3 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     var3 = _closure1_slot7;
@@ -571,10 +571,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var1 = var4.bind(var10)(var3, var1);
+            var3 = var10.bind(var11)(var4, var3);
+            var10 = _closure1_slot11;
+            var4 = var10.useState;
+            var1 = function(arg1) {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+ 0:
+                    var3 = arg1;
+                    var1 = var3.isInitialSearchQuery;
+                    var1 = var1.bind(var3)();
+                    if(!var1) { _fun0010_ip = 29; continue _fun0010 }
+ 16:
+                    var2 = var3.isTagsEmpty;
+                    var2 = var2.bind(var3)();
+                    var1 = !var2;
+ 29:
+                    return var1;
+                }
+            };
+            var1 = var4.bind(var10)(var8, var1);
+            if(var3) { _fun0008_ip = 163; continue _fun0008 }
+ 111:
+            if(!var1) { _fun0008_ip = 163; continue _fun0008 }
+ 114:
             var4 = _closure1_slot17;
-            if(var1) { _fun0008_ip = 138; continue _fun0008 }
- 93:
             var3 = _closure1_slot1;
             var10 = _closure1_slot3;
             var1 = 25;
@@ -586,15 +606,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = true;
             var1['disableStickySections'] = var9;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0008_ip = 164; continue _fun0008;
- 138:
+            _fun0008_ip = 193; continue _fun0008;
+ 163:
+            var4 = _closure1_slot17;
             var3 = _closure1_slot19;
             var2 = {};
             var2['searchContext'] = var8;
             var2['guildId'] = var7;
             var2['onViewableItemsChanged'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 164:
+ 193:
             return var1;
         }
     };
@@ -680,7 +701,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot18 = var4;
     var4 = var7.memo;
     var2 = function MembersScreen(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var1 = arg1;
             var12 = var1.searchContext;
@@ -702,19 +723,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var12.type;
             var2 = _closure1_slot16;
             var2 = var2.CHANNEL;
-            if(!(var2 !== var3)) { _fun0010_ip = 327; continue _fun0010 }
+            if(!(var2 !== var3)) { _fun0011_ip = 327; continue _fun0011 }
  99:
             var2 = _closure1_slot16;
             var2 = var2.THREAD;
-            if(!(var2 !== var3)) { _fun0010_ip = 281; continue _fun0010 }
+            if(!(var2 !== var3)) { _fun0011_ip = 281; continue _fun0011 }
  116:
             var2 = _closure1_slot16;
             var2 = var2.GUILD_CHANNEL;
-            if(!(var2 !== var3)) { _fun0010_ip = 201; continue _fun0010 }
+            if(!(var2 !== var3)) { _fun0011_ip = 201; continue _fun0011 }
  130:
             var2 = _closure1_slot16;
             var2 = var2.GUILD;
-            if(!(var2 !== var3)) { _fun0010_ip = 201; continue _fun0010 }
+            if(!(var2 !== var3)) { _fun0011_ip = 201; continue _fun0011 }
  144:
             var2 = global;
             var6 = var2.Error;

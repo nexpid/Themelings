@@ -270,89 +270,116 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = function canWatchStream(arg1, arg2, arg3, arg4, arg5) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            var6 = arg1;
-            var10 = arg2;
-            var9 = arg5;
-            var7 = null;
-            if(!(var7 != var6)) { _fun0005_ip = 240; continue _fun0005 }
+            var2 = arg1;
+            var9 = arg2;
+            var10 = arg5;
+            var8 = null;
+            if(!(var8 != var2)) { _fun0005_ip = 327; continue _fun0005 }
  18:
-            var2 = var10.isInChannel;
-            var1 = var6.id;
-            var1 = var2.bind(var10)(var1);
-            var2 = _closure1_slot4;
-            var5 = var6 instanceof var2;
+            var3 = var9.isInChannel;
+            var1 = var2.id;
+            var1 = var3.bind(var9)(var1);
+            var4 = _closure1_slot4;
+            var5 = var2 instanceof var4;
             if(!var5) { _fun0005_ip = 86; continue _fun0005 }
  48:
-            var8 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 9;
-            var4 = var4[var2];
-            var2 = undefined;
-            var8 = var8.bind(var2)(var4);
-            var4 = var8.isChannelFull;
-            var2 = arg3;
-            var5 = var4.bind(var8)(var6, var10, var2);
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var4 = 9;
+            var6 = var6[var4];
+            var4 = undefined;
+            var7 = var7.bind(var4)(var6);
+            var6 = var7.isChannelFull;
+            var4 = arg3;
+            var5 = var6.bind(var7)(var2, var9, var4);
  86:
-            var4 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var2 = 7;
-            var2 = var8[var2];
-            var8 = undefined;
-            var4 = var4.bind(var8)(var2);
-            var2 = arg4;
-            var4 = var4.bind(var8)(var6, var2);
-            var2 = var9.getAwaitingRemoteSessionInfo;
-            var2 = var2.bind(var9)();
-            var6 = var7 != var2;
-            if(var6) { _fun0005_ip = 148; continue _fun0005 }
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var4 = 7;
+            var4 = var7[var4];
+            var9 = undefined;
+            var6 = var6.bind(var9)(var4);
+            var4 = arg4;
+            var4 = var6.bind(var9)(var2, var4);
+            var6 = var10.getAwaitingRemoteSessionInfo;
+            var6 = var6.bind(var10)();
+            var7 = var8 != var6;
+            if(var7) { _fun0005_ip = 148; continue _fun0005 }
  134:
-            var2 = var9.getRemoteSessionId;
-            var2 = var2.bind(var9)();
-            var6 = var7 != var2;
+            var6 = var10.getRemoteSessionId;
+            var6 = var6.bind(var10)();
+            var7 = var8 != var6;
  148:
-            if(var6) { _fun0005_ip = 195; continue _fun0005 }
- 151:
-            if(var4) { _fun0005_ip = 169; continue _fun0005 }
- 154:
-            if(var1) { _fun0005_ip = 169; continue _fun0005 }
- 157:
+            var8 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var11 = 10;
+            var6 = var6[var11];
+            var8 = var8.bind(var9)(var6);
+            var6 = var8.shouldAgeVerifyForAgeGate;
+            var6 = var6.bind(var8)();
+            if(!var6) { _fun0005_ip = 214; continue _fun0005 }
+ 181:
+            var10 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var8 = var8[var11];
+            var10 = var10.bind(var9)(var8);
+            var8 = var10.shouldShowAgeGateForChannelId;
+            var2 = var2.id;
+            var6 = var8.bind(var10)(var2);
+ 214:
+            if(var7) { _fun0005_ip = 276; continue _fun0005 }
+ 217:
+            if(var6) { _fun0005_ip = 264; continue _fun0005 }
+ 220:
+            if(var4) { _fun0005_ip = 238; continue _fun0005 }
+ 223:
+            if(var1) { _fun0005_ip = 238; continue _fun0005 }
+ 226:
             var2 = _closure1_slot10;
             var2 = var2.NO_PERMISSION;
-            _fun0005_ip = 205; continue _fun0005;
- 169:
-            var7 = var5;
-            if(!var7) { _fun0005_ip = 178; continue _fun0005 }
- 175:
-            var7 = !var1;
- 178:
+            _fun0005_ip = 286; continue _fun0005;
+ 238:
+            var8 = var5;
+            if(!var8) { _fun0005_ip = 247; continue _fun0005 }
+ 244:
+            var8 = !var1;
+ 247:
             var2 = undefined;
-            if(!var7) { _fun0005_ip = 205; continue _fun0005 }
- 183:
-            var7 = _closure1_slot10;
-            var2 = var7.CHANNEL_FULL;
-            _fun0005_ip = 205; continue _fun0005;
- 195:
+            if(!var8) { _fun0005_ip = 286; continue _fun0005 }
+ 252:
+            var8 = _closure1_slot10;
+            var2 = var8.CHANNEL_FULL;
+            _fun0005_ip = 286; continue _fun0005;
+ 264:
+            var8 = _closure1_slot10;
+            var2 = var8.AGE_RESTRICTED;
+            _fun0005_ip = 286; continue _fun0005;
+ 276:
             var3 = _closure1_slot10;
             var2 = var3.REMOTE_MODE;
- 205:
+ 286:
+            var3 = !var7;
+            if(var7) { _fun0005_ip = 295; continue _fun0005 }
+ 292:
             var3 = !var6;
-            if(var6) { _fun0005_ip = 226; continue _fun0005 }
- 211:
-            if(var1) { _fun0005_ip = 223; continue _fun0005 }
- 214:
-            if(!var4) { _fun0005_ip = 220; continue _fun0005 }
- 217:
+ 295:
+            if(!var3) { _fun0005_ip = 313; continue _fun0005 }
+ 298:
+            if(var1) { _fun0005_ip = 310; continue _fun0005 }
+ 301:
+            if(!var4) { _fun0005_ip = 307; continue _fun0005 }
+ 304:
             var4 = !var5;
- 220:
+ 307:
             var1 = var4;
- 223:
+ 310:
             var3 = var1;
- 226:
+ 313:
             var1 = new Array(2);
             var1[0] = var3;
             var1[1] = var2;
             return var1;
- 240:
+ 327:
             var1 = new Array(2);
             var2 = false;
             var1[0] = var2;
@@ -371,23 +398,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5['value'] = var1;
     var1 = '__esModule';
     var1 = var10.bind(var11)(var3, var1, var5);
-    var12 = 0;
-    var5 = var9[var12];
+    var13 = 0;
+    var5 = var9[var13];
     var1 = undefined;
     var5 = var7.bind(var1)(var5);
     var _closure1_slot3 = var5;
-    var11 = 1;
-    var5 = var9[var11];
+    var12 = 1;
+    var5 = var9[var12];
     var5 = var8.bind(var1)(var5);
     var5 = var5.ChannelRecordBase;
     var _closure1_slot4 = var5;
-    var10 = 2;
-    var5 = var9[var10];
+    var11 = 2;
+    var5 = var9[var11];
     var5 = var8.bind(var1)(var5);
     var5 = var5.GUILD_VOCAL_CHANNELS_KEY;
     var _closure1_slot5 = var5;
-    var5 = 3;
-    var5 = var9[var5];
+    var10 = 3;
+    var5 = var9[var10];
     var5 = var7.bind(var1)(var5);
     var _closure1_slot6 = var5;
     var5 = 4;
@@ -404,17 +431,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5 = var5.Permissions;
     var _closure1_slot9 = var5;
     var5 = {};
-    var5['REMOTE_MODE'] = var12;
+    var5['REMOTE_MODE'] = var13;
     var7 = 'REMOTE_MODE';
-    var5[var12] = var7;
-    var5['CHANNEL_FULL'] = var11;
+    var5[var13] = var7;
+    var5['CHANNEL_FULL'] = var12;
     var7 = 'CHANNEL_FULL';
-    var5[var11] = var7;
-    var5['NO_PERMISSION'] = var10;
+    var5[var12] = var7;
+    var5['NO_PERMISSION'] = var11;
     var7 = 'NO_PERMISSION';
+    var5[var11] = var7;
+    var5['AGE_RESTRICTED'] = var10;
+    var7 = 'AGE_RESTRICTED';
     var5[var10] = var7;
     var _closure1_slot10 = var5;
-    var7 = 11;
+    var7 = 12;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -427,16 +457,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = arg1;
             var2 = _closure1_slot10;
             var2 = var2.REMOTE_MODE;
-            if(!(var2 !== var3)) { _fun0006_ip = 231; continue _fun0006 }
+            if(!(var2 !== var3)) { _fun0006_ip = 307; continue _fun0006 }
  23:
             var2 = _closure1_slot10;
             var2 = var2.CHANNEL_FULL;
-            if(!(var2 !== var3)) { _fun0006_ip = 172; continue _fun0006 }
+            if(!(var2 !== var3)) { _fun0006_ip = 248; continue _fun0006 }
  40:
             var2 = _closure1_slot10;
             var2 = var2.NO_PERMISSION;
-            if(!(var2 !== var3)) { _fun0006_ip = 113; continue _fun0006 }
- 54:
+            if(!(var2 !== var3)) { _fun0006_ip = 189; continue _fun0006 }
+ 57:
+            var2 = _closure1_slot10;
+            var2 = var2.AGE_RESTRICTED;
+            if(!(var2 !== var3)) { _fun0006_ip = 130; continue _fun0006 }
+ 71:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 8;
@@ -451,7 +485,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.7Xq/nZ;
             var2 = var3.bind(var4)(var2);
             return var2;
- 113:
+ 130:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 8;
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var7[var2];
+            var2 = var6.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.b5FqhI;
+            var2 = var3.bind(var4)(var2);
+            return var2;
+ 189:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 8;
@@ -466,7 +515,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.pgUTZG;
             var2 = var3.bind(var4)(var2);
             return var2;
- 172:
+ 248:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 8;
@@ -481,7 +530,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.elyVbm;
             var2 = var3.bind(var4)(var2);
             return var2;
- 231:
+ 307:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 8;
@@ -505,16 +554,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = arg1;
             var2 = _closure1_slot10;
             var2 = var2.REMOTE_MODE;
-            if(!(var2 !== var3)) { _fun0007_ip = 456; continue _fun0007 }
+            if(!(var2 !== var3)) { _fun0007_ip = 606; continue _fun0007 }
  23:
             var2 = _closure1_slot10;
             var2 = var2.CHANNEL_FULL;
-            if(!(var2 !== var3)) { _fun0007_ip = 323; continue _fun0007 }
+            if(!(var2 !== var3)) { _fun0007_ip = 473; continue _fun0007 }
  40:
             var2 = _closure1_slot10;
             var2 = var2.NO_PERMISSION;
-            if(!(var2 !== var3)) { _fun0007_ip = 190; continue _fun0007 }
+            if(!(var2 !== var3)) { _fun0007_ip = 340; continue _fun0007 }
  57:
+            var2 = _closure1_slot10;
+            var2 = var2.AGE_RESTRICTED;
+            if(!(var2 !== var3)) { _fun0007_ip = 207; continue _fun0007 }
+ 74:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 8;
@@ -544,7 +597,37 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = ': ';
             var2 = var4.bind(var3)(var6, var2, var5);
             return var2;
- 190:
+ 207:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 8;
+            var3 = var8[var2];
+            var5 = undefined;
+            var3 = var7.bind(var5)(var3);
+            var6 = var3.intl;
+            var4 = var6.string;
+            var3 = var8[var2];
+            var3 = var7.bind(var5)(var3);
+            var3 = var3.t;
+            var3 = var3.7Xq/nZ;
+            var6 = var4.bind(var6)(var3);
+            var3 = var8[var2];
+            var3 = var7.bind(var5)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var8[var2];
+            var2 = var7.bind(var5)(var2);
+            var2 = var2.t;
+            var2 = var2.b5FqhI;
+            var5 = var3.bind(var4)(var2);
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var4 = var2.concat;
+            var3 = '';
+            var2 = ': ';
+            var2 = var4.bind(var3)(var6, var2, var5);
+            return var2;
+ 340:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 8;
@@ -574,7 +657,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = ': ';
             var2 = var4.bind(var3)(var6, var2, var5);
             return var2;
- 323:
+ 473:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 8;
@@ -604,7 +687,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = ': ';
             var2 = var4.bind(var3)(var6, var2, var5);
             return var2;
- 456:
+ 606:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 8;
@@ -644,7 +727,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure2_slot0 = var2;
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var2 = 10;
+        var2 = 11;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);

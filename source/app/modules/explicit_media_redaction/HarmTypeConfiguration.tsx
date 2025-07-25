@@ -233,8 +233,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = {'setting': null, 'isDm': true, 'isFriend': true};
             var13 = var7 == var9;
             var6 = undefined;
-            if(var13) { _fun0002_ip = 462; continue _fun0002 }
- 429:
+            if(var13) { _fun0002_ip = 466; continue _fun0002 }
+ 433:
             var14 = _closure1_slot0;
             var13 = _closure1_slot1;
             var13 = var13[var12];
@@ -242,7 +242,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var13.ContentHarmTypeChannel;
             var13 = var13.FRIEND_DM;
             var6 = var9[var13];
- 462:
+ 466:
             var2['setting'] = var6;
             var6 = true;
             var2 = var4.bind(var10)(var2);
@@ -259,8 +259,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = {};
             var10 = var7 == var9;
             var7 = undefined;
-            if(var10) { _fun0002_ip = 568; continue _fun0002 }
- 535:
+            if(var10) { _fun0002_ip = 572; continue _fun0002 }
+ 539:
             var10 = _closure1_slot0;
             var8 = _closure1_slot1;
             var8 = var8[var12];
@@ -268,7 +268,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var8.ContentHarmTypeChannel;
             var8 = var8.NON_FRIEND_DM;
             var7 = var9[var8];
- 568:
+ 572:
             var2['setting'] = var7;
             var2['isDm'] = var6;
             var2 = var4.bind(var5)(var2);
@@ -470,8 +470,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = {'setting': null, 'isDm': true, 'isFriend': true};
             var13 = var7 == var9;
             var6 = undefined;
-            if(var13) { _fun0004_ip = 462; continue _fun0004 }
- 429:
+            if(var13) { _fun0004_ip = 466; continue _fun0004 }
+ 433:
             var14 = _closure1_slot0;
             var13 = _closure1_slot1;
             var13 = var13[var12];
@@ -479,7 +479,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var13.ContentHarmTypeChannel;
             var13 = var13.FRIEND_DM;
             var6 = var9[var13];
- 462:
+ 466:
             var2['setting'] = var6;
             var6 = true;
             var2 = var4.bind(var10)(var2);
@@ -496,8 +496,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = {};
             var10 = var7 == var9;
             var7 = undefined;
-            if(var10) { _fun0004_ip = 568; continue _fun0004 }
- 535:
+            if(var10) { _fun0004_ip = 572; continue _fun0004 }
+ 539:
             var10 = _closure1_slot0;
             var8 = _closure1_slot1;
             var8 = var8[var12];
@@ -505,7 +505,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var8.ContentHarmTypeChannel;
             var8 = var8.NON_FRIEND_DM;
             var7 = var9[var8];
- 568:
+ 572:
             var2['setting'] = var7;
             var2['isDm'] = var6;
             var2 = var4.bind(var5)(var2);

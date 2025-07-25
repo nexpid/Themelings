@@ -128,13 +128,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['spent'] = var2;
                     var2 = _closure2_slot1;
                     var1['total'] = var2;
-                    _fun0004_ip = 95; continue _fun0004;
+                    _fun0004_ip = 99; continue _fun0004;
  73:
                     var2 = {'available': 0, 'spent': 0};
                     var3 = _closure2_slot1;
                     var2['total'] = var3;
                     var1 = var2;
- 95:
+ 99:
                     return var1;
                 }
             };

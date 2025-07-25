@@ -374,7 +374,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var11[var8];
             var6 = var9.bind(var10)(var3);
             var4 = var6.useAnimatedStyle;
-            var3 = function b() {
+            var3 = function C() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var2 = _closure3_slot10;
@@ -1119,7 +1119,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5['code'] = var9;
     var _closure1_slot38 = var5;
     var5 = {};
-    var9 = 'function VoicePanelUITsx10(event){const{gestureState,mode,VoicePanelModes,calculatePIPPositionFromVelocity,windowDimensions,safeArea,updateSharedValueIfChanged,wrapperDimensions,wrapperOffset,connected,runOnJS,setMode,lockScrolling,dismissPanel}=this.__closure;if(gestureState.get().cancel)return;const{velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY}=event;if(mode.get()===VoicePanelModes.PIP){const{pipX:pipX,pipY:pipY}=calculatePIPPositionFromVelocity({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY,windowDimensions:windowDimensions.get(),safeArea:safeArea.get()});updateSharedValueIfChanged(wrapperDimensions,{pipX:pipX,pipY:pipY});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});}else if(mode.get()===VoicePanelModes.PANEL){if(velocityY>0){if(connected.get()){if(!gestureState.get().requiresPop){runOnJS(setMode)(VoicePanelModes.PIP);updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});runOnJS(dismissPanel)();return;}}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}}';
+    var9 = 'function VoicePanelUITsx10(event){const{gestureState,mode,VoicePanelModes,calculatePIPPositionFromVelocity,windowDimensions,safeArea,updateSharedValueIfChanged,wrapperDimensions,wrapperOffset,connected,runOnJS,setMode,lockScrolling,MIN_DISMISS_MOVE_PERCENTAGE,dismissPanel}=this.__closure;if(gestureState.get().cancel)return;const{velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY}=event;if(mode.get()===VoicePanelModes.PIP){const{pipX:pipX,pipY:pipY}=calculatePIPPositionFromVelocity({velocityX:velocityX,velocityY:velocityY,absoluteX:absoluteX,absoluteY:absoluteY,windowDimensions:windowDimensions.get(),safeArea:safeArea.get()});updateSharedValueIfChanged(wrapperDimensions,{pipX:pipX,pipY:pipY});updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});}else if(mode.get()===VoicePanelModes.PANEL){if(velocityY>0){if(connected.get()){if(!gestureState.get().requiresPop){runOnJS(setMode)(VoicePanelModes.PIP);updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}else{const panelHeight=wrapperDimensions.get().drawerHeight-wrapperDimensions.get().drawerY;const dismissThreshold=panelHeight*MIN_DISMISS_MOVE_PERCENTAGE;if(wrapperOffset.get().y>dismissThreshold){updateSharedValueIfChanged(wrapperOffset,{gestureActive:false});runOnJS(dismissPanel)();return;}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}}else{updateSharedValueIfChanged(wrapperOffset,{gestureActive:false,x:0,y:0});lockScrolling.set(false);}}}';
     var5['code'] = var9;
     var _closure1_slot39 = var5;
     var5 = {};
@@ -1857,7 +1857,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = var20[var2];
                 var35 = var13.bind(var15)(var7);
                 var12 = var35.useAnimatedReaction;
-                var8 = function _e() {
+                var8 = function Pe() {
                     _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
                         var2 = _closure3_slot13;
@@ -1893,7 +1893,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8['__workletHash'] = var7;
                 var7 = _closure1_slot35;
                 var8['__initData'] = var7;
-                var7 = function Pe(arg1, arg2) {
+                var7 = function _e(arg1, arg2) {
                     _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
                         var3 = arg1;
@@ -2748,7 +2748,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var3 = var4.get;
                             var3 = var3.bind(var4)();
                             var3 = var3.cancel;
-                            if(var3) { _fun0019_ip = 629; continue _fun0019 }
+                            if(var3) { _fun0019_ip = 769; continue _fun0019 }
  31:
                             var11 = var2.velocityX;
                             var10 = var2.velocityY;
@@ -2759,14 +2759,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4 = var2.bind(var3)();
                             var3 = _closure1_slot15;
                             var3 = var3.PIP;
-                            if(!(var4 !== var3)) { _fun0019_ip = 460; continue _fun0019 }
+                            if(!(var4 !== var3)) { _fun0019_ip = 600; continue _fun0019 }
  88:
                             var4 = _closure3_slot13;
                             var3 = var4.get;
                             var4 = var3.bind(var4)();
                             var3 = _closure1_slot15;
                             var3 = var3.PANEL;
-                            if(!(var4 === var3)) { _fun0019_ip = 629; continue _fun0019 }
+                            if(!(var4 === var3)) { _fun0019_ip = 769; continue _fun0019 }
  118:
                             var3 = 0;
                             if(!(!(var10 > var3))) { _fun0019_ip = 187; continue _fun0019 }
@@ -2784,13 +2784,44 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4 = _closure3_slot22;
                             var3 = var4.set;
                             var3 = var3.bind(var4)(var5);
-                            _fun0019_ip = 629; continue _fun0019;
+                            _fun0019_ip = 769; continue _fun0019;
  187:
                             var4 = _closure3_slot6;
                             var3 = var4.get;
                             var3 = var3.bind(var4)();
-                            if(var3) { _fun0019_ip = 283; continue _fun0019 }
- 203:
+                            if(var3) { _fun0019_ip = 423; continue _fun0019 }
+ 206:
+                            var5 = _closure3_slot18;
+                            var3 = var5.get;
+                            var3 = var3.bind(var5)();
+                            var4 = var3.drawerHeight;
+                            var3 = var5.get;
+                            var3 = var3.bind(var5)();
+                            var3 = var3.drawerY;
+                            var5 = var4 - var3;
+                            var4 = _closure3_slot19;
+                            var3 = var4.get;
+                            var3 = var3.bind(var4)();
+                            var4 = var3.y;
+                            var3 = 0.2;
+                            var3 = var3 * var5;
+                            if(!(!(var4 > var3))) { _fun0019_ip = 343; continue _fun0019 }
+ 280:
+                            var4 = _closure1_slot1;
+                            var5 = _closure1_slot2;
+                            var3 = 19;
+                            var3 = var5[var3];
+                            var7 = undefined;
+                            var6 = var4.bind(var7)(var3);
+                            var4 = _closure3_slot19;
+                            var5 = false;
+                            var3 = {'gestureActive': false, 'x': 0, 'y': 0};
+                            var3 = var6.bind(var7)(var4, var3);
+                            var4 = _closure3_slot22;
+                            var3 = var4.set;
+                            var3 = var3.bind(var4)(var5);
+                            _fun0019_ip = 769; continue _fun0019;
+ 343:
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
                             var3 = 19;
@@ -2810,14 +2841,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var3 = _closure3_slot8;
                             var3 = var5.bind(var6)(var3);
                             var3 = var3.bind(var4)();
-                            _fun0019_ip = 629; continue _fun0019;
- 283:
+                            _fun0019_ip = 769; continue _fun0019;
+ 423:
                             var4 = _closure3_slot28;
                             var3 = var4.get;
                             var3 = var3.bind(var4)();
                             var3 = var3.requiresPop;
-                            if(var3) { _fun0019_ip = 397; continue _fun0019 }
- 305:
+                            if(var3) { _fun0019_ip = 537; continue _fun0019 }
+ 445:
                             var4 = _closure1_slot0;
                             var5 = _closure1_slot2;
                             var3 = 14;
@@ -2837,8 +2868,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4 = _closure3_slot19;
                             var3 = {'gestureActive': false, 'x': 0, 'y': 0};
                             var3 = var5.bind(var6)(var4, var3);
-                            _fun0019_ip = 629; continue _fun0019;
- 397:
+                            _fun0019_ip = 769; continue _fun0019;
+ 537:
                             var4 = _closure1_slot1;
                             var5 = _closure1_slot2;
                             var3 = 19;
@@ -2852,8 +2883,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4 = _closure3_slot22;
                             var3 = var4.set;
                             var3 = var3.bind(var4)(var5);
-                            _fun0019_ip = 629; continue _fun0019;
- 460:
+                            _fun0019_ip = 769; continue _fun0019;
+ 600:
                             var6 = _closure1_slot0;
                             var5 = _closure1_slot2;
                             var3 = 22;
@@ -2893,7 +2924,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var5 = false;
                             var1['gestureActive'] = var5;
                             var1 = var3.bind(var4)(var2, var1);
- 629:
+ 769:
                             var1 = undefined;
                             return var1;
                         }
@@ -2924,10 +2955,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var17 = _closure3_slot15;
                     var14['setMode'] = var17;
                     var14['lockScrolling'] = var16;
+                    var16 = 0.2;
+                    var14['MIN_DISMISS_MOVE_PERCENTAGE'] = var16;
                     var15 = _closure3_slot8;
                     var14['dismissPanel'] = var15;
                     var5['__closure'] = var14;
-                    var14 = 1126515767518.0;
+                    var14 = 10532794222556.0;
                     var5['__workletHash'] = var14;
                     var14 = _closure1_slot39;
                     var5['__initData'] = var14;
@@ -2964,7 +2997,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var13.bind(var15)(var6);
                 var7 = var8.useAnimatedScrollHandler;
                 var6 = {};
-                var21 = function Oe(arg1) {
+                var21 = function ve(arg1) {
                     var4 = _closure3_slot0;
                     var3 = var4.set;
                     var2 = arg1;
@@ -2987,7 +3020,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var22 = _closure1_slot45;
                 var21['__initData'] = var22;
                 var6['onBeginDrag'] = var21;
-                var21 = function ve() {
+                var21 = function Oe() {
                     var3 = _closure3_slot1;
                     var2 = var3.set;
                     var1 = false;
@@ -3201,7 +3234,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var20[var2];
                 var21 = var13.bind(var15)(var6);
                 var7 = var21.useAnimatedProps;
-                var6 = function be() {
+                var6 = function Ce() {
                     _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
  0:
                         var2 = _closure3_slot13;
@@ -3295,7 +3328,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var20[var2];
                 var13 = var13.bind(var15)(var2);
                 var2 = var13.useDerivedValue;
-                var1 = function Ce() {
+                var1 = function be() {
                     _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
  0:
                         var3 = _closure3_slot13;

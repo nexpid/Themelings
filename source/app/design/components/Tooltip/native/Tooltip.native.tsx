@@ -399,8 +399,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5[1] = var6;
             var6 = 'top';
             var6 = var6 === var8;
-            if(!var6) { _fun0001_ip = 877; continue _fun0001 }
- 798:
+            if(!var6) { _fun0001_ip = 881; continue _fun0001 }
+ 802:
             var9 = _closure1_slot6;
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -420,7 +420,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10[3] = var11;
             var7['style'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 877:
+ 881:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -237,20 +237,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var1.type;
                 var3 = _closure1_slot12;
                 var3 = var3.GUILD;
-                if(!(var3 !== var4)) { _fun0004_ip = 344; continue _fun0004 }
+                if(!(var3 !== var4)) { _fun0004_ip = 361; continue _fun0004 }
  107:
                 var3 = _closure1_slot12;
                 var3 = var3.GUILD_CHANNEL;
-                if(!(var3 !== var4)) { _fun0004_ip = 344; continue _fun0004 }
+                if(!(var3 !== var4)) { _fun0004_ip = 361; continue _fun0004 }
  124:
                 var3 = _closure1_slot12;
-                var3 = var3.CHANNEL;
-                if(!(var3 !== var4)) { _fun0004_ip = 278; continue _fun0004 }
+                var3 = var3.THREAD;
+                if(!(var3 !== var4)) { _fun0004_ip = 361; continue _fun0004 }
  141:
                 var3 = _closure1_slot12;
+                var3 = var3.CHANNEL;
+                if(!(var3 !== var4)) { _fun0004_ip = 295; continue _fun0004 }
+ 158:
+                var3 = _closure1_slot12;
                 var3 = var3.DMS;
-                if(!(var3 !== var4)) { _fun0004_ip = 212; continue _fun0004 }
- 155:
+                if(!(var3 !== var4)) { _fun0004_ip = 229; continue _fun0004 }
+ 172:
                 var3 = global;
                 var7 = var3.Error;
                 var8 = var1.type;
@@ -264,7 +268,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = new var15[var7](var14, var13);
                 var3 = var3 instanceof Object ? var3 : var4;
                 throw var3;
- 212:
+ 229:
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var3 = 8;
@@ -282,7 +286,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = new var15[var8](var14, var13, var12, var11, var10);
                 var3 = var3 instanceof Object ? var3 : var4;
                 return var3;
- 278:
+ 295:
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var3 = 8;
@@ -300,7 +304,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = new var15[var8](var14, var13, var12, var11, var10);
                 var3 = var3 instanceof Object ? var3 : var4;
                 return var3;
- 344:
+ 361:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
                 var2 = 8;

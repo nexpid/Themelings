@@ -67,7 +67,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = "function LaunchPadContainerTsx1(){const{interpolate,launchPadSharedState,withSpring,windowDimensions,LAUNCH_PAD_SPRING_CONFIG}=this.__closure;return{borderRadius:interpolate(launchPadSharedState.get(),[0,1],[0,16]),transform:[{scale:withSpring(interpolate(launchPadSharedState.get(),[0,1],[1,(windowDimensions.get().width-16*3)/windowDimensions.get().width]),LAUNCH_PAD_SPRING_CONFIG,'animate-always')},{translateY:withSpring(interpolate(launchPadSharedState.get(),[0,1],[0,-4]),LAUNCH_PAD_SPRING_CONFIG,'animate-always')}]};}";
     var4['code'] = var7;
     var _closure1_slot9 = var4;
-    var4 = 15;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -77,19 +77,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
-            var14 = var2.children;
+            var13 = var2.children;
             var2 = _closure1_slot8;
             var4 = undefined;
-            var21 = var2.bind(var4)();
-            var13 = _closure1_slot1;
-            var23 = _closure1_slot2;
+            var14 = var2.bind(var4)();
+            var11 = _closure1_slot1;
+            var22 = _closure1_slot2;
             var2 = 5;
-            var2 = var23[var2];
-            var2 = var13.bind(var4)(var2);
+            var2 = var22[var2];
+            var2 = var11.bind(var4)(var2);
             var20 = var2.bind(var4)();
             var2 = 6;
-            var2 = var23[var2];
-            var2 = var13.bind(var4)(var2);
+            var2 = var22[var2];
+            var2 = var11.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var17 = var2.launchPadSharedState;
             var _closure2_slot0 = var17;
@@ -98,8 +98,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = var2.gestureState;
             var15 = var2.updaters;
             var2 = 7;
-            var2 = var23[var2];
-            var3 = var13.bind(var4)(var2);
+            var2 = var22[var2];
+            var3 = var11.bind(var4)(var2);
             var2 = {};
             var2['launchPadType'] = var20;
             var2['launchPadSharedState'] = var17;
@@ -110,28 +110,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.bind(var4)(var2);
             var7 = var2.gesture;
             var5 = var2.gestureRef;
-            var6 = _closure1_slot0;
             var2 = 8;
-            var2 = var23[var2];
-            var8 = var6.bind(var4)(var2);
-            var3 = var8.useICYMISearchExperienceExperiment;
-            var2 = 'LaunchPadContainer';
-            var2 = var3.bind(var8)(var2);
-            var11 = var2.searchEnabled;
-            var2 = 9;
-            var2 = var23[var2];
-            var2 = var13.bind(var4)(var2);
+            var2 = var22[var2];
+            var2 = var11.bind(var4)(var2);
             var9 = var2.bind(var4)();
             var _closure2_slot1 = var9;
-            var10 = 10;
-            var2 = var23[var10];
+            var6 = _closure1_slot0;
+            var10 = 9;
+            var2 = var22[var10];
             var3 = var6.bind(var4)(var2);
             var2 = var3.useAnimatedStyle;
             var1 = function l() {
                 var1 = {};
                 var11 = _closure1_slot0;
                 var12 = _closure1_slot2;
-                var4 = 10;
+                var4 = 9;
                 var2 = var12[var4];
                 var10 = undefined;
                 var13 = var11.bind(var10)(var2);
@@ -144,7 +137,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var8.bind(var13)(var6, var5, var3);
                 var1['borderRadius'] = var3;
                 var3 = {};
-                var5 = 11;
+                var5 = 10;
                 var6 = var12[var5];
                 var13 = var11.bind(var10)(var6);
                 var6 = var13.withSpring;
@@ -194,16 +187,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var8 = {};
-            var22 = var23[var10];
-            var22 = var6.bind(var4)(var22);
-            var22 = var22.interpolate;
-            var8['interpolate'] = var22;
+            var21 = var22[var10];
+            var21 = var6.bind(var4)(var21);
+            var21 = var21.interpolate;
+            var8['interpolate'] = var21;
             var8['launchPadSharedState'] = var17;
-            var22 = 11;
-            var22 = var23[var22];
-            var22 = var6.bind(var4)(var22);
-            var22 = var22.withSpring;
-            var8['withSpring'] = var22;
+            var21 = 10;
+            var21 = var22[var21];
+            var21 = var6.bind(var4)(var21);
+            var21 = var21.withSpring;
+            var8['withSpring'] = var21;
             var8['windowDimensions'] = var9;
             var9 = _closure1_slot4;
             var8['LAUNCH_PAD_SPRING_CONFIG'] = var9;
@@ -212,16 +205,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['__workletHash'] = var8;
             var8 = _closure1_slot9;
             var1['__initData'] = var8;
-            var22 = var2.bind(var3)(var1);
+            var21 = var2.bind(var3)(var1);
             var3 = _closure1_slot6;
-            var1 = 12;
-            var1 = var23[var1];
-            var1 = var13.bind(var4)(var1);
+            var1 = 11;
+            var1 = var22[var1];
+            var1 = var11.bind(var4)(var1);
             var2 = var1.Provider;
             var1 = {};
             var1['value'] = var5;
-            var5 = 13;
-            var5 = var23[var5];
+            var5 = 12;
+            var5 = var22[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.GestureDetector;
             var5 = {};
@@ -229,32 +222,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = _closure1_slot7;
             var8 = _closure1_slot3;
             var7 = {};
-            var24 = var21.wrapper;
-            var7['style'] = var24;
-            var10 = var23[var10];
-            var10 = var13.bind(var4)(var10);
-            var13 = var10.View;
+            var23 = var14.wrapper;
+            var7['style'] = var23;
+            var10 = var22[var10];
+            var10 = var11.bind(var4)(var10);
+            var11 = var10.View;
             var10 = {};
-            var23 = var21.container;
-            var21 = new Array(2);
-            var21[0] = var23;
-            var21[1] = var22;
-            var10['style'] = var21;
-            var10['children'] = var14;
-            var13 = var3.bind(var4)(var13, var10);
+            var22 = var14.container;
+            var14 = new Array(2);
+            var14[0] = var22;
+            var14[1] = var21;
+            var10['style'] = var14;
+            var10['children'] = var13;
+            var11 = var3.bind(var4)(var11, var10);
             var10 = new Array(2);
-            var10[0] = var13;
-            if(var11) { _fun0001_ip = 488; continue _fun0001 }
- 472:
+            var10[0] = var11;
             var11 = _closure1_slot5;
             var13 = var11.DISABLED;
             var11 = undefined;
-            if(!(var20 !== var13)) { _fun0001_ip = 550; continue _fun0001 }
- 488:
+            if(!(var20 !== var13)) { _fun0001_ip = 512; continue _fun0001 }
+ 450:
             var14 = _closure1_slot6;
             var13 = _closure1_slot1;
             var21 = _closure1_slot2;
-            var12 = 14;
+            var12 = 13;
             var12 = var21[var12];
             var13 = var13.bind(var4)(var12);
             var12 = {};
@@ -265,7 +256,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12['launchPadPullTabState'] = var16;
             var12['updaters'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 550:
+ 512:
             var10[1] = var11;
             var7['children'] = var10;
             var7 = var9.bind(var4)(var8, var7);

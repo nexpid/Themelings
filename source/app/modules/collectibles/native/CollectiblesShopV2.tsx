@@ -643,7 +643,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = 29;
             var1 = var32[var1];
             var8 = var31.bind(var6)(var1);
-            var1 = var8.useReloadProfileEffectWhenConfigsAreMissing;
+            var1 = var8.useFetchMissingProfileEffects;
             var1 = var1.bind(var8)();
             var1 = 30;
             var1 = var32[var1];

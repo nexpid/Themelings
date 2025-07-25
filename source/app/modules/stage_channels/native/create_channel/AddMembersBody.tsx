@@ -600,7 +600,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5[0] = var12;
             var12 = null;
             var18 = var12 != var23;
-            if(!var18) { _fun0002_ip = 1114; continue _fun0002 }
+            if(!var18) { _fun0002_ip = 1118; continue _fun0002 }
  1027:
             var20 = _closure1_slot16;
             var19 = _closure1_slot7;
@@ -620,10 +620,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = var20.bind(var4)(var22, var21);
             var18['children'] = var21;
             var12 = var20.bind(var4)(var19, var18);
- 1114:
+ 1118:
             var5[1] = var12;
-            if(!var8) { _fun0002_ip = 1260; continue _fun0002 }
- 1124:
+            if(!var8) { _fun0002_ip = 1264; continue _fun0002 }
+ 1128:
             var19 = _closure1_slot16;
             var18 = _closure1_slot7;
             var12 = {};
@@ -654,11 +654,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = var19.bind(var4)(var21, var20);
             var12['children'] = var20;
             var8 = var19.bind(var4)(var18, var12);
- 1260:
+ 1264:
             var5[2] = var8;
             var8 = _closure1_slot16;
-            if(var6) { _fun0002_ip = 1392; continue _fun0002 }
- 1271:
+            if(var6) { _fun0002_ip = 1396; continue _fun0002 }
+ 1275:
             var6 = {};
             var12 = {};
             var19 = _closure1_slot1;
@@ -945,8 +945,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = 'always';
             var6['keyboardShouldPersistTaps'] = var10;
             var6 = var8.bind(var4)(var7, var6);
-            _fun0002_ip = 1535; continue _fun0002;
- 1392:
+            _fun0002_ip = 1539; continue _fun0002;
+ 1396:
             var7 = {};
             var11 = _closure1_slot1;
             var12 = _closure1_slot3;
@@ -979,7 +979,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var8.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var8.bind(var4)(var9, var7);
- 1535:
+ 1539:
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

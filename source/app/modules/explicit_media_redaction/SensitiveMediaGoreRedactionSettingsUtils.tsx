@@ -303,10 +303,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = {'setting': null, 'isDm': true, 'isFriend': true};
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0005_ip = 165; continue _fun0005 }
- 159:
+            if(var7) { _fun0005_ip = 169; continue _fun0005 }
+ 163:
             var5 = var6.goreContentFriendDm;
- 165:
+ 169:
             var2['setting'] = var5;
             var2 = var3.bind(var4)(var2);
             var1['goreContentFriendDm'] = var2;

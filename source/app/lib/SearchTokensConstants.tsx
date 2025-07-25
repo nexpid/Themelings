@@ -18,7 +18,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var5.fileFinishedImporting;
     var2 = 'lib/SearchTokensConstants.tsx';
     var2 = var4.bind(var5)(var2);
-    var2 = /(?:\s*#?((?:"[^"]*")|(?:[^\s]+)))/i;
+    var2 = /(?:\s*#?((?:"(\\\\|\\"|[^\\"])*")|(?:[^\s]+)))/i;
     var3['ANSWER_IN_REGEX'] = var2;
     return var1;
 })();

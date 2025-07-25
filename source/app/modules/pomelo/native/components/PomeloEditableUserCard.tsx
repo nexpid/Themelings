@@ -371,22 +371,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var7.9AjdkJ;
             var7 = var9.bind(var10)(var7);
             var6 = var6.EDIT_DISPLAY_NAME;
-            if(!(var36 !== var6)) { _fun0002_ip = 696; continue _fun0002 }
- 593:
+            if(!(var36 !== var6)) { _fun0002_ip = 700; continue _fun0002 }
+ 597:
             var6 = _closure1_slot8;
             var6 = var6.EDIT_USERNAME;
             var6 = var36 !== var6;
-            if(!var6) { _fun0002_ip = 624; continue _fun0002 }
- 610:
+            if(!var6) { _fun0002_ip = 628; continue _fun0002 }
+ 614:
             var9 = _closure1_slot8;
             var9 = var9.SUGGESTION;
             var6 = var36 !== var9;
- 624:
+ 628:
             var35 = var7;
             var33 = var2;
             var32 = var1;
-            if(var6) { _fun0002_ip = 754; continue _fun0002 }
- 636:
+            if(var6) { _fun0002_ip = 758; continue _fun0002 }
+ 640:
             var10 = _closure1_slot0;
             var6 = _closure1_slot2;
             var7 = var6[var8];
@@ -400,8 +400,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var35 = var7.bind(var9)(var6);
             var33 = var5;
             var32 = var3;
-            _fun0002_ip = 754; continue _fun0002;
- 696:
+            _fun0002_ip = 758; continue _fun0002;
+ 700:
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
             var5 = var3[var8];
@@ -415,7 +415,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var35 = var5.bind(var6)(var3);
             var33 = var2;
             var32 = var1;
- 754:
+ 758:
             var3 = _closure1_slot9;
             var2 = _closure1_slot5;
             var1 = {};
@@ -430,10 +430,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7.isAndroid;
             var7 = var6.bind(var7)();
             var6 = null;
-            if(var7) { _fun0002_ip = 818; continue _fun0002 }
- 812:
+            if(var7) { _fun0002_ip = 822; continue _fun0002 }
+ 816:
             var6 = var20.shadow;
- 818:
+ 822:
             var5[1] = var6;
             var1['style'] = var5;
             var7 = _closure1_slot11;
@@ -451,8 +451,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var10.isAndroid;
             var10 = var9.bind(var10)();
             var9 = null;
-            if(!var10) { _fun0002_ip = 921; continue _fun0002 }
- 890:
+            if(!var10) { _fun0002_ip = 925; continue _fun0002 }
+ 894:
             var10 = {};
             var46 = var20.shadow;
             var47 = var10;
@@ -461,12 +461,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var47 = var10;
             var11 = copyDataProperties(var47, var46);
             var9 = var10;
- 921:
+ 925:
             var8[2] = var9;
             var5['style'] = var8;
             var9 = var26;
-            if(!var26) { _fun0002_ip = 967; continue _fun0002 }
- 935:
+            if(!var26) { _fun0002_ip = 971; continue _fun0002 }
+ 939:
             var11 = _closure1_slot9;
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -475,7 +475,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var10.bind(var4)(var8);
             var8 = {};
             var9 = var11.bind(var4)(var10, var8);
- 967:
+ 971:
             var8 = new Array(3);
             var8[0] = var9;
             var11 = _closure1_slot9;
@@ -496,8 +496,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12[1] = var13;
             var9['style'] = var12;
             var12 = var40 != var21;
-            if(!var12) { _fun0002_ip = 1081; continue _fun0002 }
- 1051:
+            if(!var12) { _fun0002_ip = 1085; continue _fun0002 }
+ 1055:
             var17 = _closure1_slot9;
             var15 = _closure1_slot3;
             var13 = {};
@@ -505,7 +505,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13['style'] = var22;
             var13['source'] = var21;
             var12 = var17.bind(var4)(var15, var13);
- 1081:
+ 1085:
             var9['children'] = var12;
             var9 = var11.bind(var4)(var10, var9);
             var8[1] = var9;
@@ -548,8 +548,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var27 = true;
             var17['transitionEnter'] = var27;
             var23 = var26;
-            if(!var26) { _fun0002_ip = 1387; continue _fun0002 }
- 1258:
+            if(!var26) { _fun0002_ip = 1391; continue _fun0002 }
+ 1262:
             var29 = _closure1_slot9;
             var44 = _closure1_slot1;
             var45 = _closure1_slot2;
@@ -631,7 +631,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var30 = var29.bind(var4)(var31, var30);
             var24['children'] = var30;
             var23 = var29.bind(var4)(var25, var24);
- 1387:
+ 1391:
             var17['children'] = var23;
             var17 = var22.bind(var4)(var21, var17);
             var15[1] = var17;
@@ -653,8 +653,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var22 = {};
             var22['style'] = var16;
             var25 = !var26;
-            if(var26) { _fun0002_ip = 1667; continue _fun0002 }
- 1478:
+            if(var26) { _fun0002_ip = 1671; continue _fun0002 }
+ 1482:
             var31 = _closure1_slot9;
             var30 = _closure1_slot13;
             var29 = {};
@@ -662,10 +662,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var39 = new Array(2);
             var39[0] = var42;
             var40 = null;
-            if(!var41) { _fun0002_ip = 1512; continue _fun0002 }
- 1507:
+            if(!var41) { _fun0002_ip = 1516; continue _fun0002 }
+ 1511:
             var40 = var20.error;
- 1512:
+ 1516:
             var39[1] = var40;
             var29['style'] = var39;
             var29['label'] = var35;
@@ -678,22 +678,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var32 = _closure1_slot8;
             var32 = var32.EDIT_USERNAME;
             var32 = var36 === var32;
-            if(!var32) { _fun0002_ip = 1592; continue _fun0002 }
- 1566:
+            if(!var32) { _fun0002_ip = 1596; continue _fun0002 }
+ 1570:
             var35 = _closure1_slot0;
             var33 = _closure1_slot2;
             var33 = var33[var38];
             var35 = var35.bind(var4)(var33);
             var33 = var35.isAndroid;
             var32 = var33.bind(var35)();
- 1592:
+ 1596:
             var29['secureTextEntry'] = var32;
             var32 = _closure1_slot8;
             var33 = var32.EDIT_USERNAME;
             var35 = 'default';
             var32 = var35;
-            if(!(var36 === var33)) { _fun0002_ip = 1656; continue _fun0002 }
- 1618:
+            if(!(var36 === var33)) { _fun0002_ip = 1660; continue _fun0002 }
+ 1622:
             var36 = _closure1_slot0;
             var33 = _closure1_slot2;
             var33 = var33[var38];
@@ -701,13 +701,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var33 = var36.isAndroid;
             var33 = var33.bind(var36)();
             var32 = var35;
-            if(!var33) { _fun0002_ip = 1656; continue _fun0002 }
- 1650:
+            if(!var33) { _fun0002_ip = 1660; continue _fun0002 }
+ 1654:
             var32 = 'visible-password';
- 1656:
+ 1660:
             var29['keyboardType'] = var32;
             var25 = var31.bind(var4)(var30, var29);
- 1667:
+ 1671:
             var22['children'] = var25;
             var23 = var24.bind(var4)(var23, var22);
             var22 = new Array(2);
@@ -722,8 +722,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var28 = _closure1_slot5;
             var23['component'] = var28;
             var23['transitionEnter'] = var27;
-            if(!var26) { _fun0002_ip = 1879; continue _fun0002 }
- 1734:
+            if(!var26) { _fun0002_ip = 1883; continue _fun0002 }
+ 1738:
             var29 = _closure1_slot11;
             var28 = _closure1_slot1;
             var35 = _closure1_slot2;
@@ -753,7 +753,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var30[1] = var31;
             var27['children'] = var30;
             var26 = var29.bind(var4)(var28, var27);
- 1879:
+ 1883:
             var23['children'] = var26;
             var23 = var25.bind(var4)(var24, var23);
             var22[1] = var23;

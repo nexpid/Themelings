@@ -267,7 +267,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot8 = var7;
     var4 = var4.jsxs;
     var _closure1_slot9 = var4;
-    var4 = 32;
+    var4 = 31;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -366,7 +366,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['message'] = var14;
             var1 = var20.bind(var5)(var19, var10);
  360:
-            var10 = new Array(16);
+            var10 = new Array(15);
             var10[0] = var1;
             var1 = !var18;
             if(var18) { _fun0002_ip = 377; continue _fun0002 }
@@ -511,50 +511,50 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var17.bind(var5)(var16, var15);
  853:
             var10[9] = var13;
-            var16 = var14.type;
-            var17 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var15 = 14;
-            var13 = var13[var15];
-            var13 = var17.bind(var5)(var13);
+            var15 = var14.type;
+            var16 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var13 = 14;
+            var13 = var17[var13];
+            var13 = var16.bind(var5)(var13);
             var13 = var13.MessageTypes;
             var13 = var13.PREMIUM_REFERRAL;
-            var13 = var16 === var13;
+            var13 = var15 === var13;
             if(!var13) { _fun0002_ip = 937; continue _fun0002 }
  901:
-            var18 = _closure1_slot8;
-            var17 = _closure1_slot1;
-            var19 = _closure1_slot2;
-            var16 = 25;
-            var16 = var19[var16];
-            var17 = var17.bind(var5)(var16);
-            var16 = {};
-            var16['message'] = var14;
-            var13 = var18.bind(var5)(var17, var16);
+            var17 = _closure1_slot8;
+            var16 = _closure1_slot1;
+            var18 = _closure1_slot2;
+            var15 = 25;
+            var15 = var18[var15];
+            var16 = var16.bind(var5)(var15);
+            var15 = {};
+            var15['message'] = var14;
+            var13 = var17.bind(var5)(var16, var15);
  937:
             var10[10] = var13;
             if(!var11) { _fun0002_ip = 980; continue _fun0002 }
  944:
-            var17 = _closure1_slot8;
-            var16 = _closure1_slot1;
-            var18 = _closure1_slot2;
+            var16 = _closure1_slot8;
+            var15 = _closure1_slot1;
+            var17 = _closure1_slot2;
             var13 = 26;
-            var13 = var18[var13];
-            var16 = var16.bind(var5)(var13);
+            var13 = var17[var13];
+            var15 = var15.bind(var5)(var13);
             var13 = {};
             var13['message'] = var14;
-            var11 = var17.bind(var5)(var16, var13);
+            var11 = var16.bind(var5)(var15, var13);
  980:
             var10[11] = var11;
-            var16 = _closure1_slot8;
+            var15 = _closure1_slot8;
             var13 = _closure1_slot1;
-            var17 = _closure1_slot2;
+            var16 = _closure1_slot2;
             var11 = 27;
-            var11 = var17[var11];
+            var11 = var16[var11];
             var13 = var13.bind(var5)(var11);
             var11 = {};
             var11['message'] = var14;
-            var11 = var16.bind(var5)(var13, var11);
+            var11 = var15.bind(var5)(var13, var11);
             var10[12] = var11;
             var11 = var14.isPoll;
             var13 = var11.bind(var14)();
@@ -564,53 +564,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = null;
             if(!var12) { _fun0002_ip = 1080; continue _fun0002 }
  1044:
-            var16 = _closure1_slot8;
-            var13 = _closure1_slot1;
-            var17 = _closure1_slot2;
-            var12 = 28;
-            var12 = var17[var12];
-            var13 = var13.bind(var5)(var12);
-            var12 = {};
-            var12['message'] = var14;
-            var11 = var16.bind(var5)(var13, var12);
- 1080:
-            var10[13] = var11;
-            var13 = var14.type;
-            var12 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var11 = var11[var15];
-            var11 = var12.bind(var5)(var11);
-            var11 = var11.MessageTypes;
-            var12 = var11.VOICE_HANGOUT_INVITE;
-            var11 = null;
-            if(!(var13 === var12)) { _fun0002_ip = 1160; continue _fun0002 }
- 1124:
             var15 = _closure1_slot8;
             var13 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var12 = 29;
+            var12 = 28;
             var12 = var16[var12];
             var13 = var13.bind(var5)(var12);
             var12 = {};
             var12['message'] = var14;
             var11 = var15.bind(var5)(var13, var12);
- 1160:
-            var10[14] = var11;
+ 1080:
+            var10[13] = var11;
             var13 = _closure1_slot8;
             var12 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var11 = 30;
+            var11 = 29;
             var11 = var15[var11];
             var12 = var12.bind(var5)(var11);
             var11 = {};
             var11['message'] = var14;
             var11 = var13.bind(var5)(var12, var11);
-            var10[15] = var11;
+            var10[14] = var11;
             var3['children'] = var10;
             var6 = var8.bind(var5)(var6, var3);
             var3 = var1 != var4;
-            if(!var3) { _fun0002_ip = 1254; continue _fun0002 }
- 1221:
+            if(!var3) { _fun0002_ip = 1174; continue _fun0002 }
+ 1141:
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var9];
@@ -618,17 +597,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var1.NestedMessageType;
             var1 = var1.BLOCKED_MESSAGE;
             var3 = var4 !== var1;
- 1254:
+ 1174:
             var1 = var6;
-            if(var3) { _fun0002_ip = 1285; continue _fun0002 }
- 1260:
+            if(var3) { _fun0002_ip = 1205; continue _fun0002 }
+ 1180:
             var4 = _closure1_slot8;
             var3 = _closure1_slot11;
             var2 = {};
             var2['row'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1285:
+ 1205:
             return var1;
         }
     };
@@ -678,7 +657,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['type'] = var17;
             var20 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var19 = 31;
+            var19 = 30;
             var19 = var17[var19];
             var20 = var20.bind(var6)(var19);
             var19 = {};

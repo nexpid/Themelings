@@ -167,10 +167,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = var21.RED;
             var12['color'] = var21;
             var12['onPress'] = var20;
-            if(var18) { _fun0001_ip = 447; continue _fun0001 }
- 444:
+            if(var18) { _fun0001_ip = 451; continue _fun0001 }
+ 448:
             var18 = var19;
- 447:
+ 451:
             var12['disabled'] = var18;
             var12 = var3.bind(var4)(var13, var12);
             var10[4] = var12;

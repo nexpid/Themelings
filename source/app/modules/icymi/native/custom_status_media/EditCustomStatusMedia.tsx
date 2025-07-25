@@ -1124,14 +1124,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0013_ip = 341; continue _fun0013 }
+                        if(var2) { _fun0013_ip = 347; continue _fun0013 }
  10:
                         var3 = _closure1_slot0;
                         var5 = _closure1_slot2;
                         var2 = 37;
                         var2 = var5[var2];
                         var4 = undefined;
-                        var8 = var3.bind(var4)(var2);
+                        var2 = var3.bind(var4)(var2);
+                        var8 = var2.ICYMIAnalytics;
                         var7 = var8.trackItemInteraction;
                         var3 = 'edit_custom_status_modal';
                         var2 = 'press_save_new_custom_status';
@@ -1148,8 +1149,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = _closure2_slot9;
                         var3 = var2.length;
                         var2 = 0;
-                        if(!(var3 > var2)) { _fun0013_ip = 172; continue _fun0013 }
- 118:
+                        if(!(var3 > var2)) { _fun0013_ip = 178; continue _fun0013 }
+ 124:
                         var3 = _closure1_slot0;
                         var7 = _closure1_slot2;
                         var2 = 39;
@@ -1159,13 +1160,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = _closure2_slot9;
                         var2 = _closure2_slot1;
                         var2 = var7.bind(var9)(var3, var2, var8);
-                        SaveGenerator(address=163);
- 161:
+                        SaveGenerator(address=169);
+ 167:
                         return var2;
- 163:
+ 169:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0013_ip = 338; continue _fun0013 }
- 172:
+                        if(var3) { _fun0013_ip = 344; continue _fun0013 }
+ 178:
                         var7 = _closure1_slot1;
                         var9 = _closure1_slot2;
                         var3 = 40;
@@ -1180,13 +1181,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3['clearAfter'] = var9;
                         var3['createdAtMs'] = var8;
                         var3 = var7.bind(var4)(var3);
-                        SaveGenerator(address=234);
- 232:
+                        SaveGenerator(address=240);
+ 238:
                         return var3;
- 234:
-                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                        if(var7) { _fun0013_ip = 335; continue _fun0013 }
  240:
+                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
+                        if(var7) { _fun0013_ip = 341; continue _fun0013 }
+ 246:
                         var11 = _closure1_slot0;
                         var12 = _closure1_slot2;
                         var6 = 41;
@@ -1208,11 +1209,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5 = _closure2_slot0;
                         var5 = var5.bind(var4)();
                         return var4;
- 335:
-                        return var3;
- 338:
-                        return var2;
  341:
+                        return var3;
+ 344:
+                        return var2;
+ 347:
                         return var1;
                     }
                 };

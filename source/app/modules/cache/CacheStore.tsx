@@ -289,7 +289,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = arg2;
                     var6 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 394; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 398; continue _fun0006 }
  19:
                     var3 = global;
                     var4 = var3.performance;
@@ -298,7 +298,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = null;
                     if(!(var2 != var10)) { _fun0006_ip = 49; continue _fun0006 }
  42:
-                    if(!(var2 == var6)) { _fun0006_ip = 177; continue _fun0006 }
+                    if(!(var2 == var6)) { _fun0006_ip = 181; continue _fun0006 }
  49:
                     var8 = _closure1_slot19;
                     var4 = var8.verbose;
@@ -326,7 +326,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4['messages'] = var8;
                     var2[1] = var4;
                     return var2;
- 177:
+ 181:
                     var9 = _closure1_slot1;
                     var8 = _closure1_slot3;
                     var2 = 16;
@@ -340,13 +340,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var19 = var7;
                     var18 = var6;
                     var2 = var21[var8](var20, var19, var18, var17, var16);
-                    SaveGenerator(address=234);
- 232:
+                    SaveGenerator(address=238);
+ 236:
                     return var2;
- 234:
+ 238:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(var8) { _fun0006_ip = 391; continue _fun0006 }
- 243:
+                    if(var8) { _fun0006_ip = 395; continue _fun0006 }
+ 247:
                     var9 = _closure1_slot19;
                     var8 = var9.verbose;
                     var4 = var2.messages;
@@ -378,9 +378,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3[0] = var5;
                     var3[1] = var4;
                     return var3;
- 391:
+ 395:
                     return var2;
- 394:
+ 398:
                     return var1;
                 }
             };

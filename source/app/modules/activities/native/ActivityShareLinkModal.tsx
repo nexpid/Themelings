@@ -698,13 +698,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['isVisible'] = var15;
             var10['loading'] = var17;
             var15 = undefined;
-            if(var17) { _fun0001_ip = 1059; continue _fun0001 }
- 1056:
+            if(var17) { _fun0001_ip = 1055; continue _fun0001 }
+ 1052:
             var15 = var16;
- 1059:
+ 1055:
             var10['onPress'] = var15;
-            if(!(var13 !== var19)) { _fun0001_ip = 1128; continue _fun0001 }
- 1067:
+            if(!(var13 !== var19)) { _fun0001_ip = 1124; continue _fun0001 }
+ 1063:
             var15 = _closure1_slot0;
             var13 = _closure1_slot2;
             var16 = var13[var18];
@@ -718,8 +718,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = {};
             var13['count'] = var19;
             var13 = var16.bind(var17)(var15, var13);
-            _fun0001_ip = 1180; continue _fun0001;
- 1128:
+            _fun0001_ip = 1176; continue _fun0001;
+ 1124:
             var17 = _closure1_slot0;
             var14 = _closure1_slot2;
             var15 = var14[var18];
@@ -731,7 +731,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var14.t;
             var14 = var14.TXNS7e;
             var13 = var15.bind(var16)(var14);
- 1180:
+ 1176:
             var10['text'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var9[2] = var10;

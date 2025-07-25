@@ -328,36 +328,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4['tertiary_color'] = var9;
                 var6[var8] = var4;
                 var4 = var2.colors;
-                if(!(var5 != var4)) { _fun0006_ip = 385; continue _fun0006 }
- 299:
+                if(!(var5 != var4)) { _fun0006_ip = 381; continue _fun0006 }
+ 295:
                 var4 = {};
                 var8 = var2.colors;
                 var8 = var8.primary_color;
-                if(!(var5 == var8)) { _fun0006_ip = 320; continue _fun0006 }
- 316:
+                if(!(var5 == var8)) { _fun0006_ip = 316; continue _fun0006 }
+ 312:
                 var8 = _closure1_slot15;
- 320:
+ 316:
                 var4['primary_color'] = var8;
                 var8 = var2.colors;
                 var9 = var8.secondary_color;
                 var10 = var5 != var9;
                 var8 = null;
-                if(!var10) { _fun0006_ip = 348; continue _fun0006 }
- 345:
+                if(!var10) { _fun0006_ip = 344; continue _fun0006 }
+ 341:
                 var8 = var9;
- 348:
+ 344:
                 var4['secondary_color'] = var8;
                 var8 = var2.colors;
                 var8 = var8.tertiary_color;
                 var9 = var5 != var8;
                 var5 = null;
-                if(!var9) { _fun0006_ip = 376; continue _fun0006 }
- 373:
+                if(!var9) { _fun0006_ip = 372; continue _fun0006 }
+ 369:
                 var5 = var8;
- 376:
+ 372:
                 var4['tertiary_color'] = var5;
                 var6[var7] = var4;
- 385:
+ 381:
                 var5 = _closure1_slot33;
                 var4 = var5.set;
                 var3 = var2.id;

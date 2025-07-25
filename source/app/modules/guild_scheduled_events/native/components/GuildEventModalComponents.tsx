@@ -925,7 +925,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var2.canEveryoneRoleViewEvent;
             var2 = var1.can_broadcast;
             var1 = null;
-            if(!var2) { _fun0007_ip = 425; continue _fun0007 }
+            if(!var2) { _fun0007_ip = 429; continue _fun0007 }
  70:
             var4 = _closure1_slot12;
             var3 = _closure1_slot5;
@@ -999,21 +999,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var11[var15];
             var11 = var14.bind(var5)(var11);
             var11 = var11.t;
-            if(var10) { _fun0007_ip = 388; continue _fun0007 }
- 373:
+            if(var10) { _fun0007_ip = 392; continue _fun0007 }
+ 377:
             var10 = var11.gTgUmZ;
             var10 = var12.bind(var13)(var10);
-            _fun0007_ip = 401; continue _fun0007;
- 388:
+            _fun0007_ip = 405; continue _fun0007;
+ 392:
             var11 = var11.V8Oq8P;
             var10 = var12.bind(var13)(var11);
- 401:
+ 405:
             var7['children'] = var10;
             var7 = var9.bind(var5)(var8, var7);
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 425:
+ 429:
             return var1;
         }
     };

@@ -220,7 +220,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = 7;
                     var4 = var7[var1];
                     var1 = undefined;
-                    var8 = var3.bind(var1)(var4);
+                    var4 = var3.bind(var1)(var4);
+                    var8 = var4.ICYMIAnalytics;
                     var6 = var8.trackItemInteraction;
                     var5 = 'edit_custom_status_row';
                     var4 = 'press_new_custom_status';
@@ -243,13 +244,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var3.isAndroid;
                     var2 = var2.bind(var3)();
                     var3 = undefined;
-                    if(!var2) { _fun0004_ip = 142; continue _fun0004 }
- 128:
+                    if(!var2) { _fun0004_ip = 148; continue _fun0004 }
+ 134:
                     var2 = {};
                     var7 = 'modal';
                     var2['presentation'] = var7;
                     var3 = var2;
- 142:
+ 148:
                     var10 = 'EditCustomStatusMediaModal';
                     var13 = var6;
                     var12 = var4;
@@ -268,7 +269,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = 7;
                 var3 = var8[var1];
                 var1 = undefined;
-                var6 = var7.bind(var1)(var3);
+                var3 = var7.bind(var1)(var3);
+                var6 = var3.ICYMIAnalytics;
                 var5 = var6.trackItemInteraction;
                 var4 = 'edit_custom_status_row';
                 var3 = 'press_clear_custom_status';
