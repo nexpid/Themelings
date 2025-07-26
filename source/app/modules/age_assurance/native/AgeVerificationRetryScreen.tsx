@@ -114,7 +114,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var6 = var1.onClose;
+            var7 = var1.onClose;
             var1 = var1.modalSessionId;
             var _closure2_slot0 = var1;
             var2 = _closure1_slot15;
@@ -124,10 +124,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = _closure1_slot2;
             var2 = 9;
             var2 = var5[var2];
-            var5 = var3.bind(var4)(var2);
-            var3 = var5.useInitiateAgeVerification;
-            var2 = true;
-            var2 = var3.bind(var5)(var6, var2);
+            var6 = var3.bind(var4)(var2);
+            var5 = var6.useInitiateAgeVerification;
+            var3 = true;
+            var2 = null;
+            var2 = var5.bind(var6)(var7, var3, var2);
             var6 = var2.loading;
             var7 = var2.initiateAgeVerification;
             var _closure2_slot1 = var7;
@@ -286,8 +287,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot13;
             var2 = _closure1_slot14;
             var1 = {};
-            if(!var6) { _fun0001_ip = 234; continue _fun0001 }
- 131:
+            if(!var6) { _fun0001_ip = 237; continue _fun0001 }
+ 134:
             var8 = _closure1_slot12;
             var7 = _closure1_slot5;
             var5 = {};
@@ -303,8 +304,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var11.isAndroid;
             var11 = var9.bind(var11)();
             var9 = undefined;
-            if(!var11) { _fun0001_ip = 224; continue _fun0001 }
- 193:
+            if(!var11) { _fun0001_ip = 227; continue _fun0001 }
+ 196:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
             var11 = 8;
@@ -312,10 +313,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var12.bind(var4)(var11);
             var11 = var11.unsafe_rawColors;
             var9 = var11.WHITE_500;
- 224:
+ 227:
             var5['color'] = var9;
             var6 = var8.bind(var4)(var7, var5);
- 234:
+ 237:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot13;

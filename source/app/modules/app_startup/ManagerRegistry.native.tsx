@@ -860,7 +860,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1['inlineRequire'] = var8;
     var2['RedesignNewUserManager'] = var1;
     var1 = {};
-    var8 = ['MESSAGE_CREATE', 'INVITE_ACCEPT_SUCCESS', 'RELATIONSHIP_ADD', 'POST_CONNECTION_OPEN'];
+    var8 = ['MESSAGE_CREATE', 'INVITE_ACCEPT_SUCCESS', 'RELATIONSHIP_ADD', 'POST_CONNECTION_OPEN', 'APP_STATE_UPDATE'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

@@ -38,7 +38,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot7 = var4;
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -46,13 +46,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var5.bind(var6)(var4);
     var2 = function AgeVerificationFeedbackActionSheet(arg1) {
         var1 = arg1;
-        var1 = var1.didStartVerification;
+        var1 = var1.dismissibleContent;
         var _closure2_slot0 = var1;
-        var14 = _closure1_slot1;
+        var13 = _closure1_slot0;
         var15 = _closure1_slot2;
         var2 = 4;
         var2 = var15[var2];
         var4 = undefined;
+        var6 = var13.bind(var4)(var2);
+        var3 = var6.useSelectedDismissibleContent;
+        var2 = new Array(1);
+        var2[0] = var1;
+        var2 = var3.bind(var6)(var2);
+        var14 = _closure1_slot1;
+        var2 = 5;
+        var2 = var15[var2];
         var3 = var14.bind(var4)(var2);
         var2 = _closure1_slot5;
         var2 = var2.bind(var4)(var1);
@@ -78,7 +86,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var3 = function() {
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 5;
+            var1 = 6;
             var3 = var3[var1];
             var1 = undefined;
             var5 = var4.bind(var1)(var3);
@@ -107,7 +115,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var9 == var4;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var5 = 6;
+                var5 = 7;
                 var8 = var7[var5];
                 var1 = undefined;
                 var13 = var6.bind(var1)(var8);
@@ -152,7 +160,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  160:
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 7;
+                var2 = 8;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.presentFeedbackSent;
@@ -163,17 +171,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         };
         var6 = var3.bind(var6)(var1, var2);
         var3 = _closure1_slot7;
-        var1 = 8;
+        var1 = 9;
         var1 = var15[var1];
         var2 = var14.bind(var4)(var1);
         var1 = {'headerLabel': null, 'showHeaderCloseButton': true, 'hideDontShowAgainCheckbox': true};
-        var13 = _closure1_slot0;
-        var12 = 9;
+        var12 = 10;
         var11 = var15[var12];
         var11 = var13.bind(var4)(var11);
         var18 = var11.intl;
         var17 = var18.string;
-        var11 = 10;
+        var11 = 11;
         var16 = var15[var11];
         var16 = var14.bind(var4)(var16);
         var16 = var16.RqoA4u;
@@ -219,14 +226,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  37:
                 var4 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var2 = 9;
+                var2 = 10;
                 var2 = var8[var2];
                 var7 = undefined;
                 var2 = var4.bind(var7)(var2);
                 var5 = var2.intl;
                 var4 = var5.string;
                 var6 = _closure1_slot1;
-                var2 = 10;
+                var2 = 11;
                 var2 = var8[var2];
                 var2 = var6.bind(var7)(var2);
                 var2 = var2.zApKaW;
@@ -235,14 +242,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  100:
                 var5 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var4 = 9;
+                var4 = 10;
                 var4 = var8[var4];
                 var7 = undefined;
                 var4 = var5.bind(var7)(var4);
                 var5 = var4.intl;
                 var4 = var5.string;
                 var6 = _closure1_slot1;
-                var3 = 10;
+                var3 = 11;
                 var3 = var8[var3];
                 var3 = var6.bind(var7)(var3);
                 var3 = var3.Q5cQ4+;

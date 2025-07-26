@@ -563,7 +563,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['handleBlockUserFeedback'] = var3;
                 var2 = function(arg1) {
                     var2 = arg1;
-                    var2 = var2.didStartVerification;
+                    var2 = var2.dismissibleContent;
                     var _closure4_slot0 = var2;
                     var4 = _closure3_slot0;
                     var3 = var4.possiblyShowFeedbackModal;
@@ -596,7 +596,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4 = _closure5_slot0;
                             var3 = {};
                             var2 = _closure4_slot0;
-                            var3['didStartVerification'] = var2;
+                            var3['dismissibleContent'] = var2;
                             var2 = 'AgeVerificationFeedback';
                             var2 = var5.bind(var6)(var4, var2, var3);
                             return var1;

@@ -38,13 +38,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot30 = var2;
+            _closure1_slot29 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot30 = var1;
+    var _closure1_slot29 = var1;
     var16 = function handleInit() {
         var1 = _closure1_slot8;
         var1 = var1.OPEN;
@@ -54,7 +54,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot31 = var16;
+    var _closure1_slot30 = var16;
     var15 = function handleClose() {
         var1 = _closure1_slot8;
         var1 = var1.CLOSED;
@@ -64,22 +64,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot32 = var15;
+    var _closure1_slot31 = var15;
     var12 = function handleResetAllPending() {
-        var2 = _closure1_slot34;
+        var2 = _closure1_slot33;
         var1 = undefined;
         var2 = var2.bind(var1)();
-        var2 = _closure1_slot35;
+        var2 = _closure1_slot34;
+        var2 = var2.bind(var1)();
+        var2 = _closure1_slot36;
         var2 = var2.bind(var1)();
         var2 = _closure1_slot37;
-        var2 = var2.bind(var1)();
-        var2 = _closure1_slot38;
         var2 = var2.bind(var1)();
         var2 = {};
         _closure1_slot28 = var2;
         return var1;
     };
-    var _closure1_slot33 = var12;
+    var _closure1_slot32 = var12;
     var14 = function handleResetPendingAccountChanges() {
         var1 = undefined;
         var _closure1_slot10 = var1;
@@ -89,7 +89,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure1_slot14 = var1;
         return var1;
     };
-    var _closure1_slot34 = var14;
+    var _closure1_slot33 = var14;
     var13 = function handleResetPendingProfileChanges() {
         var1 = undefined;
         var _closure1_slot15 = var1;
@@ -100,7 +100,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _closure1_slot13 = var1;
         return var1;
     };
-    var _closure1_slot35 = var13;
+    var _closure1_slot34 = var13;
     var11 = function handleResetTryItOut() {
         var1 = undefined;
         var _closure1_slot23 = var1;
@@ -110,19 +110,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure1_slot22 = var1;
         return var1;
     };
-    var _closure1_slot36 = var11;
+    var _closure1_slot35 = var11;
     var10 = function handleResetPendingLegacyUsernameDisabled() {
         var1 = undefined;
         var _closure1_slot20 = var1;
         return var1;
     };
-    var _closure1_slot37 = var10;
+    var _closure1_slot36 = var10;
     var9 = function handleResetPendingPrimaryGuildChanges() {
         var1 = undefined;
         var _closure1_slot21 = var1;
         return var1;
     };
-    var _closure1_slot38 = var9;
+    var _closure1_slot37 = var9;
     var1 = global;
     var17 = var1.Object;
     var8 = var17.defineProperty;
@@ -165,8 +165,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot27 = var2;
     var2 = {};
     var _closure1_slot28 = var2;
-    var2 = /<(a?):(\w+):(\d+)>/g;
-    var _closure1_slot29 = var2;
     var2 = 7;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -184,7 +182,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot30;
+                var1 = _closure1_slot29;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
@@ -310,17 +308,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = _closure1_slot16;
                 var1 = undefined;
                 var1 = var1 !== var3;
-                if(!var1) { _fun0004_ip = 52; continue _fun0004 }
+                if(!var1) { _fun0004_ip = 33; continue _fun0004 }
  16:
-                var6 = _closure1_slot16;
-                var5 = var6.replace;
-                var4 = _closure1_slot29;
-                var3 = 'x';
-                var3 = var5.bind(var6)(var4, var3);
+                var3 = _closure1_slot16;
                 var3 = var3.length;
                 var2 = _closure1_slot7;
                 var1 = var3 > var2;
- 52:
+ 33:
                 return var1;
             }
         };
@@ -536,7 +530,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var3 === var1;
             if(!var1) { _fun0005_ip = 40; continue _fun0005 }
  28:
-            var3 = _closure1_slot31;
+            var3 = _closure1_slot30;
             var2 = undefined;
             var3 = var3.bind(var2)();
             var1 = undefined;
@@ -547,12 +541,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['USER_SETTINGS_MODAL_SET_SECTION'] = var16;
     var2['USER_SETTINGS_ACCOUNT_CLOSE'] = var15;
     var15 = function handleResetFullForm() {
-        var3 = _closure1_slot33;
+        var3 = _closure1_slot32;
         var1 = undefined;
         var3 = var3.bind(var1)();
-        var3 = _closure1_slot36;
+        var3 = _closure1_slot35;
         var3 = var3.bind(var1)();
-        var2 = _closure1_slot32;
+        var2 = _closure1_slot31;
         var2 = var2.bind(var1)();
         return var1;
     };

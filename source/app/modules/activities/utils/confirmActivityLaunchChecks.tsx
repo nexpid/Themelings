@@ -29,7 +29,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 335; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 331; continue _fun0001 }
  13:
                     var12 = var2.applicationId;
                     var13 = var2.channelId;
@@ -41,7 +41,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var3;
  36:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 332; continue _fun0001 }
+                    if(var4) { _fun0001_ip = 328; continue _fun0001 }
  45: // try_start_0
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -96,18 +96,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var12 = var13;
                     var14 = var10 != var12;
                     var12 = null;
-                    if(!var14) { _fun0001_ip = 243; continue _fun0001 }
- 240:
+                    if(!var14) { _fun0001_ip = 239; continue _fun0001 }
+ 236:
                     var12 = var13;
- 243:
+ 239:
                     var4['channelId'] = var12;
                     var12 = var11;
                     var12 = var10 != var12;
                     var10 = null;
-                    if(!var12) { _fun0001_ip = 262; continue _fun0001 }
- 259:
+                    if(!var12) { _fun0001_ip = 258; continue _fun0001 }
+ 255:
                     var10 = var11;
- 262:
+ 258:
                     var4['guildId'] = var10;
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
@@ -125,9 +125,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4['locationKind'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 332:
+ 328:
                     return var2;
- 335:
+ 331:
                     return var1;
                 }
             };

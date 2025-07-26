@@ -819,7 +819,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = this;
             var _closure3_slot0 = var2;
             var3 = _closure1_slot14;
-            var2 = var3.map;
+            var2 = var3.some;
             var1 = function(arg1) {
                 var3 = _closure3_slot0;
                 var2 = var3.isFetchingForSKU;
@@ -827,9 +827,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var3 = var2.bind(var3)(var1);
-            var2 = var3.includes;
-            var1 = true;
             var1 = var2.bind(var3)(var1);
             return var1;
         };

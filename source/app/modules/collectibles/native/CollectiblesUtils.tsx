@@ -1,12 +1,12 @@
 // app/modules/collectibles/native/CollectiblesUtils.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var5 = native3;
+    var7 = native2;
     var3 = native6;
-    var9 = native7;
-    var _closure1_slot0 = var8;
-    var _closure1_slot1 = var5;
-    var _closure1_slot2 = var9;
+    var8 = native7;
+    var _closure1_slot0 = var7;
+    var1 = native3;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var8;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -78,7 +78,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = undefined;
             if(!var9) { _fun0001_ip = 246; continue _fun0001 }
  233:
-            var9 = _closure1_slot10;
+            var9 = _closure1_slot8;
             var7 = var9.bind(var8)(var3, var8);
  246:
             _fun0001_ip = 264; continue _fun0001;
@@ -90,7 +90,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7;
             _fun0001_ip = 282; continue _fun0001;
  269:
-            var7 = _closure1_slot10;
+            var7 = _closure1_slot8;
             var6 = var7.bind(var8)(var3, var8);
  282:
             var4 = var6;
@@ -149,7 +149,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot7 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -182,72 +182,56 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot8 = var1;
     var1 = global;
-    var7 = var1.Object;
-    var6 = var7.defineProperty;
+    var6 = var1.Object;
+    var5 = var6.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = var5.bind(var6)(var3, var1, var4);
     var1 = 0;
-    var4 = var9[var1];
+    var4 = var8[var1];
     var1 = undefined;
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var9[var4];
-    var4 = var8.bind(var1)(var4);
+    var4 = var7.bind(var1)(var4);
     var4 = var4.PriceSetAssignmentPurchaseTypes;
-    var _closure1_slot4 = var4;
-    var6 = function extractPriceByPurchaseTypes(arg1, arg2) {
+    var _closure1_slot3 = var4;
+    var5 = function extractPriceByPurchaseTypes(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var2 = arg1;
             var7 = arg2;
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 3;
+            var1 = 2;
             var4 = var4[var1];
             var1 = undefined;
             var5 = var5.bind(var1)(var4);
             var4 = var5.isAndroid;
             var4 = var4.bind(var5)();
+            if(var4) { _fun0004_ip = 77; continue _fun0004 }
+ 43:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            if(var4) { _fun0004_ip = 77; continue _fun0004 }
- 51:
-            var4 = 6;
-            var4 = var6[var4];
-            var8 = var5.bind(var1)(var4);
-            var4 = var8.extractPriceByPurchaseTypes;
-            var4 = var4.bind(var8)(var2, var7);
-            return var4;
- 77:
             var4 = 4;
             var4 = var6[var4];
-            var6 = var5.bind(var1)(var4);
-            var5 = var6.isInCollectiblesMobileBundleExperiment;
-            var4 = 'collectiblesUtils';
-            var4 = var5.bind(var6)(var4);
-            if(var4) { _fun0004_ip = 124; continue _fun0004 }
- 109:
-            var4 = _closure1_slot6;
-            var4 = var4.bind(var1)(var2);
-            if(!var4) { _fun0004_ip = 267; continue _fun0004 }
- 124:
-            var4 = _closure1_slot4;
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.extractPriceByPurchaseTypes;
+            var4 = var4.bind(var5)(var2, var7);
+            return var4;
+ 77:
+            var4 = _closure1_slot3;
             var4 = var4.MOBILE;
-            if(!(var7 !== var4)) { _fun0004_ip = 152; continue _fun0004 }
- 138:
-            var4 = _closure1_slot4;
+            if(!(var7 !== var4)) { _fun0004_ip = 105; continue _fun0004 }
+ 91:
+            var4 = _closure1_slot3;
             var4 = var4.MOBILE_PREMIUM_TIER_2;
-            if(!(var7 === var4)) { _fun0004_ip = 267; continue _fun0004 }
- 152:
+            if(!(var7 === var4)) { _fun0004_ip = 220; continue _fun0004 }
+ 105:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 5;
+            var3 = 3;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);
             var4 = var5.getProduct;
@@ -255,15 +239,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = null;
             var8 = var2 == var6;
             var3 = undefined;
-            if(var8) { _fun0004_ip = 199; continue _fun0004 }
- 195:
+            if(var8) { _fun0004_ip = 152; continue _fun0004 }
+ 148:
             var3 = var6[var7];
- 199:
+ 152:
             var3 = var4.bind(var5)(var3);
             var2 = var2 != var3;
             var1 = undefined;
-            if(!var2) { _fun0004_ip = 265; continue _fun0004 }
- 213:
+            if(!var2) { _fun0004_ip = 218; continue _fun0004 }
+ 166:
             var2 = {};
             var4 = var3.price;
             var2['amount'] = var4;
@@ -276,50 +260,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = false;
             var2['taxInclusive'] = var3;
             var1 = var2;
- 265:
+ 218:
             return var1;
- 267:
+ 220:
             var1 = null;
             return var1;
         }
     };
-    var _closure1_slot5 = var6;
-    var5 = function isNotBundleProduct(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
-            var3 = arg1;
-            var1 = null;
-            var1 = var1 == var3;
-            var6 = undefined;
-            var4 = undefined;
-            if(var1) { _fun0005_ip = 21; continue _fun0005 }
- 16:
-            var4 = var3.type;
- 21:
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var1 = 7;
-            var1 = var7[var1];
-            var1 = var5.bind(var6)(var1);
-            var1 = var1.CollectiblesItemType;
-            var1 = var1.BUNDLE;
-            var1 = var4 !== var1;
-            if(!var1) { _fun0005_ip = 71; continue _fun0005 }
- 63:
-            var2 = _closure1_slot3;
-            var1 = var3 instanceof var2;
- 71:
-            return var1;
-        }
-    };
-    var _closure1_slot6 = var5;
+    var _closure1_slot4 = var5;
     var4 = function isGPlaySynced(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var7 = arg1;
             var3 = _closure1_slot1;
             var1 = _closure1_slot2;
-            var8 = 5;
+            var8 = 3;
             var1 = var1[var8];
             var2 = undefined;
             var5 = var3.bind(var2)(var1);
@@ -328,9 +283,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = null;
             var9 = var3 == var10;
             var1 = undefined;
-            if(var9) { _fun0006_ip = 65; continue _fun0006 }
+            if(var9) { _fun0005_ip = 65; continue _fun0005 }
  51:
-            var9 = _closure1_slot4;
+            var9 = _closure1_slot3;
             var9 = var9.MOBILE;
             var1 = var10[var9];
  65:
@@ -343,28 +298,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var7.googleSkuIds;
             var8 = var3 == var7;
             var2 = undefined;
-            if(var8) { _fun0006_ip = 122; continue _fun0006 }
+            if(var8) { _fun0005_ip = 122; continue _fun0005 }
  108:
-            var6 = _closure1_slot4;
+            var6 = _closure1_slot3;
             var6 = var6.MOBILE_PREMIUM_TIER_2;
             var2 = var7[var6];
  122:
             var2 = var4.bind(var5)(var2);
             var1 = var3 != var1;
-            if(!var1) { _fun0006_ip = 138; continue _fun0006 }
+            if(!var1) { _fun0005_ip = 138; continue _fun0005 }
  134:
             var1 = var3 != var2;
  138:
             return var1;
         }
     };
-    var _closure1_slot7 = var4;
-    var7 = function hasAtLeastOneGPlaySynced(arg1) {
+    var _closure1_slot5 = var4;
+    var6 = function hasAtLeastOneGPlaySynced(arg1) {
         var1 = arg1;
         var3 = var1.products;
         var2 = var3.filter;
         var1 = function(arg1) {
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot5;
             var2 = undefined;
             var1 = arg1;
             var1 = var3.bind(var2)(var1);
@@ -376,61 +331,61 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var2 > var1;
         return var1;
     };
-    var _closure1_slot8 = var7;
-    var7 = 8;
-    var7 = var9[var7];
-    var9 = var8.bind(var1)(var7);
-    var8 = var9.fileFinishedImporting;
-    var7 = 'modules/collectibles/native/CollectiblesUtils.tsx';
-    var7 = var8.bind(var9)(var7);
-    var7 = function(arg1, arg2, arg3) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+    var _closure1_slot6 = var6;
+    var6 = 6;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/collectibles/native/CollectiblesUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var6 = function(arg1, arg2, arg3) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var1 = arg2;
-            var3 = _closure1_slot4;
+            var3 = _closure1_slot3;
             var4 = arg3;
-            if(var4) { _fun0007_ip = 35; continue _fun0007 }
+            if(var4) { _fun0006_ip = 35; continue _fun0006 }
  16:
-            if(var1) { _fun0007_ip = 27; continue _fun0007 }
+            if(var1) { _fun0006_ip = 27; continue _fun0006 }
  19:
             var4 = var3.DEFAULT;
-            _fun0007_ip = 33; continue _fun0007;
+            _fun0006_ip = 33; continue _fun0006;
  27:
             var4 = var3.PREMIUM_TIER_2;
  33:
-            _fun0007_ip = 55; continue _fun0007;
+            _fun0006_ip = 55; continue _fun0006;
  35:
-            if(var1) { _fun0007_ip = 46; continue _fun0007 }
+            if(var1) { _fun0006_ip = 46; continue _fun0006 }
  38:
             var1 = var3.MOBILE;
-            _fun0007_ip = 52; continue _fun0007;
+            _fun0006_ip = 52; continue _fun0006;
  46:
             var1 = var3.MOBILE_PREMIUM_TIER_2;
  52:
             var4 = var1;
  55:
-            var3 = _closure1_slot5;
+            var3 = _closure1_slot4;
             var5 = undefined;
             var1 = arg1;
             var3 = var3.bind(var5)(var1, var4);
             var6 = null;
             var4 = var6 == var3;
             var1 = null;
-            if(var4) { _fun0007_ip = 146; continue _fun0007 }
+            if(var4) { _fun0006_ip = 146; continue _fun0006 }
  81:
             var4 = var3.priceString;
-            if(!(var6 == var4)) { _fun0007_ip = 137; continue _fun0007 }
+            if(!(var6 == var4)) { _fun0006_ip = 137; continue _fun0006 }
  91:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 2;
+            var2 = 1;
             var2 = var6[var2];
             var6 = var4.bind(var5)(var2);
             var5 = var6.formatPrice;
             var4 = var3.amount;
             var2 = var3.currency;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0007_ip = 143; continue _fun0007;
+            _fun0006_ip = 143; continue _fun0006;
  137:
             var2 = var3.priceString;
  143:
@@ -439,31 +394,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var3['getFormattedPriceForCollectiblesProduct'] = var7;
-    var3['extractPriceByPurchaseTypes'] = var6;
-    var3['isNotBundleProduct'] = var5;
+    var3['getFormattedPriceForCollectiblesProduct'] = var6;
+    var3['extractPriceByPurchaseTypes'] = var5;
     var3['isGPlaySynced'] = var4;
     var4 = function(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0008_ip = 92; continue _fun0008 }
+            if(!(var1 != var4)) { _fun0007_ip = 92; continue _fun0007 }
  9:
             var1 = new Array(0);
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot7;
             var2 = var4.values;
             var2 = var2.bind(var4)();
             var5 = undefined;
             var4 = var3.bind(var5)(var2);
             var3 = var4.bind(var5)();
             var2 = var3.done;
-            if(var2) { _fun0008_ip = 90; continue _fun0008 }
+            if(var2) { _fun0007_ip = 90; continue _fun0007 }
  48:
             var7 = var3.value;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot6;
             var2 = var2.bind(var5)(var7);
-            if(!var2) { _fun0008_ip = 75; continue _fun0008 }
+            if(!var2) { _fun0007_ip = 75; continue _fun0007 }
  65:
             var2 = var1.push;
             var2 = var2.bind(var1)(var7);
@@ -471,7 +425,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var4.bind(var5)();
             var2 = var7.done;
             var3 = var7;
-            if(!var2) { _fun0008_ip = 48; continue _fun0008 }
+            if(!var2) { _fun0007_ip = 48; continue _fun0007 }
  90:
             return var1;
  92:
@@ -486,13 +440,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure2_slot0 = var2;
         var2 = var3.filter;
         var1 = function(arg1) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                 var4 = arg1;
                 var2 = var4.unpublishedAt;
                 var1 = null;
                 var1 = var1 == var2;
-                if(var1) { _fun0009_ip = 56; continue _fun0009 }
+                if(var1) { _fun0008_ip = 56; continue _fun0008 }
  18:
                 var3 = var4.unpublishedAt;
                 var2 = global;
@@ -510,7 +464,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3 > var2;
                 var2 = _closure2_slot0;
                 var2 = !var2;
-                if(var2) { _fun0009_ip = 112; continue _fun0009 }
+                if(var2) { _fun0008_ip = 112; continue _fun0008 }
  86:
                 var6 = var4.products;
                 var5 = var6.some;
@@ -523,7 +477,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = var1.type;
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 7;
+                        var1 = 5;
                         var3 = var3[var1];
                         var1 = undefined;
                         var1 = var4.bind(var1)(var3);
@@ -538,11 +492,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var2 = var5.bind(var6)(var4);
  112:
-                if(!var1) { _fun0009_ip = 118; continue _fun0009 }
+                if(!var1) { _fun0008_ip = 118; continue _fun0008 }
  115:
                 var1 = var3;
  118:
-                if(!var1) { _fun0009_ip = 124; continue _fun0009 }
+                if(!var1) { _fun0008_ip = 124; continue _fun0008 }
  121:
                 var1 = var2;
  124:

@@ -70,42 +70,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = arg1;
             var16 = var1.categories;
             var24 = var1.categoryIndexActive;
-            var13 = var1.emojiPickerListRef;
-            var _closure2_slot0 = var13;
-            var12 = var1.emojis;
+            var15 = var1.emojiPickerListRef;
+            var _closure2_slot0 = var15;
+            var14 = var1.emojis;
             var22 = var1.channel;
             var _closure2_slot1 = var22;
             var20 = var1.guildId;
             var _closure2_slot2 = var20;
             var23 = var1.onPressEmoji;
             var _closure2_slot3 = var23;
-            var8 = var1.onLongPressEmoji;
-            var _closure2_slot4 = var8;
+            var10 = var1.onLongPressEmoji;
+            var _closure2_slot4 = var10;
             var25 = var1.emojiPickerIntention;
             var _closure2_slot5 = var25;
-            var15 = var1.insetBottom;
+            var5 = var1.insetBottom;
             var4 = undefined;
-            if(!(var15 === var4)) { _fun0001_ip = 95; continue _fun0001 }
+            if(!(var5 === var4)) { _fun0001_ip = 95; continue _fun0001 }
  93:
-            var15 = 0;
+            var5 = 0;
  95:
-            var14 = var1.insetTop;
-            if(!(var14 === var4)) { _fun0001_ip = 107; continue _fun0001 }
+            var6 = var1.insetTop;
+            if(!(var6 === var4)) { _fun0001_ip = 107; continue _fun0001 }
  105:
-            var14 = 0;
+            var6 = 0;
  107:
-            var5 = var1.inActionSheet;
-            if(!(var5 === var4)) { _fun0001_ip = 119; continue _fun0001 }
+            var7 = var1.inActionSheet;
+            if(!(var7 === var4)) { _fun0001_ip = 119; continue _fun0001 }
  117:
-            var5 = false;
+            var7 = false;
  119:
             var2 = var1.inPortalKeyboard;
             if(!(var2 === var4)) { _fun0001_ip = 131; continue _fun0001 }
  129:
             var2 = false;
  131:
-            var11 = var1.searchQueryRef;
-            var _closure2_slot6 = var11;
+            var13 = var1.searchQueryRef;
+            var _closure2_slot6 = var13;
             var29 = var1.analyticsObject;
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
@@ -115,52 +115,52 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot12 = var4;
             var _closure2_slot13 = var4;
             var _closure2_slot14 = var4;
-            var6 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var8 = _closure1_slot1;
+            var11 = _closure1_slot2;
             var3 = 7;
-            var3 = var9[var3];
-            var10 = var6.bind(var4)(var3);
+            var3 = var11[var3];
+            var12 = var8.bind(var4)(var3);
             var3 = 8;
-            var3 = var9[var3];
-            var3 = var6.bind(var4)(var3);
+            var3 = var11[var3];
+            var3 = var8.bind(var4)(var3);
             var3 = var3.EMOJI;
-            var3 = var10.bind(var4)(var3);
+            var3 = var12.bind(var4)(var3);
             var26 = var3.analyticsLocations;
             _closure2_slot7 = var26;
             var3 = 9;
-            var3 = var9[var3];
-            var3 = var6.bind(var4)(var3);
-            var27 = var3.bind(var4)(var5, var2);
+            var3 = var11[var3];
+            var3 = var8.bind(var4)(var3);
+            var27 = var3.bind(var4)(var7, var2);
             _closure2_slot8 = var27;
             var3 = global;
             var17 = var3.Math;
-            var10 = var17.floor;
+            var12 = var17.floor;
             var19 = _closure1_slot11;
             var18 = var27 - var19;
             var3 = _closure1_slot4;
             var3 = var3 + var19;
             var3 = var18 / var3;
-            var28 = var10.bind(var17)(var3);
+            var28 = var12.bind(var17)(var3);
             _closure2_slot9 = var28;
             var3 = 10;
-            var3 = var9[var3];
-            var3 = var6.bind(var4)(var3);
+            var3 = var11[var3];
+            var3 = var8.bind(var4)(var3);
             var3 = var3.bind(var4)(var20, var25);
             var3 = var3.newlyAddedEmojis;
-            var9 = var3.length;
-            var6 = 0;
-            var9 = var9 > var6;
+            var11 = var3.length;
+            var8 = 0;
+            var11 = var11 > var8;
             var21 = null;
             var19 = var2;
             var2 = null;
-            if(!var9) { _fun0001_ip = 354; continue _fun0001 }
+            if(!var11) { _fun0001_ip = 354; continue _fun0001 }
  345:
-            var3 = var3[var6];
+            var3 = var3[var8];
             var2 = var3.id;
  354:
             _closure2_slot10 = var2;
-            var10 = _closure1_slot3;
-            var9 = var10.useEffect;
+            var12 = _closure1_slot3;
+            var11 = var12.useEffect;
             var3 = new Array(2);
             var3[0] = var2;
             var3[1] = var20;
@@ -177,16 +177,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var2 = var9.bind(var10)(var2, var3);
-            var9 = _closure1_slot1;
-            var10 = _closure1_slot2;
+            var2 = var11.bind(var12)(var2, var3);
+            var11 = _closure1_slot1;
+            var12 = _closure1_slot2;
             var2 = 12;
-            var2 = var10[var2];
-            var2 = var9.bind(var4)(var2);
+            var2 = var12[var2];
+            var2 = var11.bind(var4)(var2);
             var2 = var2.bind(var4)();
             var17 = _closure1_slot0;
             var3 = 13;
-            var3 = var10[var3];
+            var3 = var12[var3];
             var18 = var17.bind(var4)(var3);
             var17 = var18.useTrackOnEmojiPickerOpenedForReactions;
             var3 = {};
@@ -195,50 +195,50 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['analyticsObject'] = var29;
             var3 = var17.bind(var18)(var3);
             var3 = 14;
-            var3 = var10[var3];
-            var3 = var9.bind(var4)(var3);
+            var3 = var12[var3];
+            var3 = var11.bind(var4)(var3);
             var3 = var3.bind(var4)();
-            var9 = var3.computeCategories;
-            var10 = var3.computeSearchResults;
-            if(!(var21 == var12)) { _fun0001_ip = 514; continue _fun0001 }
+            var11 = var3.computeCategories;
+            var12 = var3.computeSearchResults;
+            if(!(var21 == var14)) { _fun0001_ip = 514; continue _fun0001 }
  490:
             var3 = {};
             var3['categories'] = var16;
             var3['rowSize'] = var28;
             var3['isNativeEmojiPickerEnabled'] = var2;
-            var3 = var9.bind(var4)(var3);
+            var3 = var11.bind(var4)(var3);
             _fun0001_ip = 544; continue _fun0001;
  514:
-            var9 = {};
-            var9['emojis'] = var12;
-            var9['rowSize'] = var28;
-            var12 = undefined;
+            var11 = {};
+            var11['emojis'] = var14;
+            var11['rowSize'] = var28;
+            var14 = undefined;
             if(!var2) { _fun0001_ip = 534; continue _fun0001 }
  531:
-            var12 = 200;
+            var14 = 200;
  534:
-            var9['limit'] = var12;
-            var3 = var10.bind(var4)(var9);
+            var11['limit'] = var14;
+            var3 = var12.bind(var4)(var11);
  544:
-            var12 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var10 = 15;
-            var10 = var9[var10];
-            var17 = var12.bind(var4)(var10);
+            var14 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var12 = 15;
+            var12 = var11[var12];
+            var17 = var14.bind(var4)(var12);
             var16 = var17.usePremiumUpsellConfig;
-            var10 = 16;
-            var10 = var9[var10];
-            var29 = var12.bind(var4)(var10);
+            var12 = 16;
+            var12 = var11[var12];
+            var29 = var14.bind(var4)(var12);
             var18 = var29.getUpsellType;
-            var10 = 17;
-            var10 = var9[var10];
-            var10 = var12.bind(var4)(var10);
-            var10 = var10.EntitlementFeatureNames;
-            var10 = var10.EMOJIS_EVERYWHERE;
-            var10 = var18.bind(var29)(var10);
-            var10 = var16.bind(var17)(var10);
-            var10 = var10.useTier0UpsellContent;
-            _closure2_slot11 = var10;
+            var12 = 17;
+            var12 = var11[var12];
+            var12 = var14.bind(var4)(var12);
+            var12 = var12.EntitlementFeatureNames;
+            var12 = var12.EMOJIS_EVERYWHERE;
+            var12 = var18.bind(var29)(var12);
+            var12 = var16.bind(var17)(var12);
+            var12 = var12.useTier0UpsellContent;
+            _closure2_slot11 = var12;
             var16 = _closure1_slot3;
             var18 = var16.useCallback;
             var17 = new Array(6);
@@ -247,8 +247,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17[2] = var22;
             var17[3] = var20;
             var17[4] = var23;
-            var17[5] = var11;
-            var11 = function(arg1, arg2) {
+            var17[5] = var13;
+            var13 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var7 = arg1;
@@ -520,12 +520,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var18 = var18.bind(var16)(var11, var17);
+            var18 = var18.bind(var16)(var13, var17);
             _closure2_slot12 = var18;
             var17 = var16.useCallback;
-            var11 = new Array(1);
-            var11[0] = var8;
-            var8 = function(arg1) {
+            var13 = new Array(1);
+            var13[0] = var10;
+            var10 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var3 = _closure2_slot4;
@@ -541,36 +541,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var17 = var17.bind(var16)(var8, var11);
+            var17 = var17.bind(var16)(var10, var13);
             _closure2_slot13 = var17;
-            var8 = _closure1_slot1;
-            var11 = 26;
-            var11 = var9[var11];
-            var23 = var8.bind(var4)(var11);
-            var11 = {};
-            var11['emojiSections'] = var3;
-            var11['rowSize'] = var28;
-            var11['isNativeEmojiPickerEnabled'] = var2;
-            var23 = var23.bind(var4)(var11);
-            var11 = 27;
-            var11 = var9[var11];
-            var11 = var12.bind(var4)(var11);
-            var12 = var11.AnimateEmoji;
-            var11 = var12.useSetting;
-            var25 = var11.bind(var12)();
+            var10 = _closure1_slot1;
+            var13 = 26;
+            var13 = var11[var13];
+            var23 = var10.bind(var4)(var13);
+            var13 = {};
+            var13['emojiSections'] = var3;
+            var13['rowSize'] = var28;
+            var13['isNativeEmojiPickerEnabled'] = var2;
+            var23 = var23.bind(var4)(var13);
+            var13 = 27;
+            var13 = var11[var13];
+            var13 = var14.bind(var4)(var13);
+            var14 = var13.AnimateEmoji;
+            var13 = var14.useSetting;
+            var25 = var13.bind(var14)();
             _closure2_slot14 = var25;
-            var12 = var16.useCallback;
-            var11 = new Array(9);
-            var11[0] = var26;
-            var11[1] = var18;
-            var11[2] = var17;
-            var11[3] = var22;
-            var11[4] = var28;
-            var11[5] = var27;
-            var11[6] = var25;
-            var11[7] = var13;
-            var11[8] = var10;
-            var7 = function(arg1) {
+            var14 = var16.useCallback;
+            var13 = new Array(9);
+            var13[0] = var26;
+            var13[1] = var18;
+            var13[2] = var17;
+            var13[3] = var22;
+            var13[4] = var28;
+            var13[5] = var27;
+            var13[6] = var25;
+            var13[7] = var15;
+            var13[8] = var12;
+            var9 = function(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     var1 = arg1;
@@ -784,37 +784,37 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var12 = var12.bind(var16)(var7, var11);
-            var7 = 33;
-            var7 = var9[var7];
-            var7 = var8.bind(var4)(var7);
-            var7 = var7.bind(var4)();
-            var11 = var7.shouldShowUpsell;
-            var16 = var7.onShowNitroUpsell;
+            var14 = var14.bind(var16)(var9, var13);
+            var9 = 33;
+            var9 = var11[var9];
+            var9 = var10.bind(var4)(var9);
+            var9 = var9.bind(var4)();
+            var13 = var9.shouldShowUpsell;
+            var16 = var9.onShowNitroUpsell;
             var3 = var3.length;
-            if(!(var6 !== var3)) { _fun0001_ip = 1091; continue _fun0001 }
+            if(!(var8 !== var3)) { _fun0001_ip = 1091; continue _fun0001 }
  878:
             var3 = _closure1_slot1;
-            var7 = _closure1_slot2;
+            var9 = _closure1_slot2;
             if(var2) { _fun0001_ip = 898; continue _fun0001 }
  889:
             var2 = 36;
-            var2 = var7[var2];
+            var2 = var9[var2];
             _fun0001_ip = 905; continue _fun0001;
  898:
-            var6 = 35;
-            var2 = var7[var6];
+            var8 = 35;
+            var2 = var9[var8];
  905:
-            var9 = var3.bind(var4)(var2);
-            var6 = _closure1_slot15;
+            var11 = var3.bind(var4)(var2);
+            var8 = _closure1_slot15;
             var3 = _closure1_slot14;
             var2 = {};
-            var8 = _closure1_slot13;
-            var7 = {};
-            var7['analyticsLocations'] = var26;
-            var7['animateEmoji'] = var25;
-            var7['categoryIndexActive'] = var24;
-            var7['data'] = var23;
+            var10 = _closure1_slot13;
+            var9 = {};
+            var9['analyticsLocations'] = var26;
+            var9['animateEmoji'] = var25;
+            var9['categoryIndexActive'] = var24;
+            var9['data'] = var23;
             if(!(var21 == var20)) { _fun0001_ip = 966; continue _fun0001 }
  949:
             var23 = var21 == var22;
@@ -825,43 +825,45 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  963:
             var20 = var21;
  966:
-            var7['guildId'] = var20;
-            var7['inActionSheet'] = var5;
-            var7['inPortalKeyboard'] = var19;
-            var7['onPressEmoji'] = var18;
-            var7['onLongPressEmoji'] = var17;
-            var7['onShowNitroUpsell'] = var16;
-            var7['paddingBottom'] = var15;
-            var7['paddingTop'] = var14;
-            var7['ref'] = var13;
-            var7['renderItem'] = var12;
-            var7['useTier0UpsellContent'] = var10;
-            var8 = var8.bind(var4)(var9, var7);
-            var7 = new Array(2);
-            var7[0] = var8;
-            var10 = _closure1_slot13;
-            var9 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var8 = 37;
-            var8 = var12[var8];
-            var9 = var9.bind(var4)(var8);
-            var8 = {};
-            var8['inActionSheet'] = var5;
-            var8['shouldShow'] = var11;
-            var8 = var10.bind(var4)(var9, var8);
-            var7[1] = var8;
-            var2['children'] = var7;
-            var2 = var6.bind(var4)(var3, var2);
+            var9['guildId'] = var20;
+            var9['inActionSheet'] = var7;
+            var9['inPortalKeyboard'] = var19;
+            var9['onPressEmoji'] = var18;
+            var9['onLongPressEmoji'] = var17;
+            var9['onShowNitroUpsell'] = var16;
+            var9['paddingBottom'] = var5;
+            var9['paddingTop'] = var6;
+            var9['ref'] = var15;
+            var9['renderItem'] = var14;
+            var9['useTier0UpsellContent'] = var12;
+            var10 = var10.bind(var4)(var11, var9);
+            var9 = new Array(2);
+            var9[0] = var10;
+            var12 = _closure1_slot13;
+            var11 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var10 = 37;
+            var10 = var14[var10];
+            var11 = var11.bind(var4)(var10);
+            var10 = {};
+            var10['inActionSheet'] = var7;
+            var10['shouldShow'] = var13;
+            var10 = var12.bind(var4)(var11, var10);
+            var9[1] = var10;
+            var2['children'] = var9;
+            var2 = var8.bind(var4)(var3, var2);
             return var2;
  1091:
             var3 = _closure1_slot13;
             var2 = _closure1_slot1;
-            var6 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var1 = 34;
-            var1 = var6[var1];
+            var1 = var8[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var1['inActionSheet'] = var5;
+            var1['inActionSheet'] = var7;
+            var1['insetTop'] = var6;
+            var1['insetBottom'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

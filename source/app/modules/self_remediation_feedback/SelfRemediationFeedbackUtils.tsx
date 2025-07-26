@@ -261,15 +261,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = function(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            var2 = _closure1_slot5;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var3 = var3[var1];
+            var1 = undefined;
+            var1 = var4.bind(var1)(var3);
+            var1 = var1.DismissibleContent;
+            var3 = var1.AGE_VERIFICATION_SURVEY_MODAL_CLOSE;
             var1 = arg1;
-            if(var1) { _fun0005_ip = 21; continue _fun0005 }
- 13:
-            var1 = var2.GET_STARTED;
-            _fun0005_ip = 27; continue _fun0005;
- 21:
+            if(!(var1 !== var3)) { _fun0005_ip = 56; continue _fun0005 }
+ 44:
+            var1 = _closure1_slot5;
+            var1 = var1.GET_STARTED;
+            _fun0005_ip = 66; continue _fun0005;
+ 56:
+            var2 = _closure1_slot5;
             var1 = var2.KID_STARTED;
- 27:
+ 66:
             return var1;
         }
     };

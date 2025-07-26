@@ -135,10 +135,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var1.KeyboardTypes;
             var4 = var1.SYSTEM;
             var1 = null;
-            if(!(var7 !== var4)) { _fun0001_ip = 222; continue _fun0001 }
+            if(!(var7 !== var4)) { _fun0001_ip = 226; continue _fun0001 }
  159:
             var1 = null;
-            if(var2) { _fun0001_ip = 222; continue _fun0001 }
+            if(var2) { _fun0001_ip = 226; continue _fun0001 }
  164:
             var4 = _closure1_slot6;
             var3 = _closure1_slot4;
@@ -152,7 +152,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 222:
+ 226:
             return var1;
         }
     };

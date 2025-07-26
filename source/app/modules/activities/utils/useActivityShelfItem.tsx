@@ -200,37 +200,37 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var2 = arg1;
             var6 = var2.application;
-            var _closure2_slot0 = var6;
             var3 = var2.botUserIdForAppDM;
-            var _closure2_slot1 = var3;
+            var _closure2_slot0 = var3;
             var10 = var2.context;
-            var _closure2_slot2 = var10;
+            var _closure2_slot1 = var10;
             var3 = var2.locationObject;
-            var _closure2_slot3 = var3;
+            var _closure2_slot2 = var3;
             var3 = var2.embeddedActivitiesManager;
-            var _closure2_slot4 = var3;
+            var _closure2_slot3 = var3;
             var3 = var2.onActivityItemSelectedProp;
-            var _closure2_slot5 = var3;
+            var _closure2_slot4 = var3;
             var3 = var2.launchingComponentId;
-            var _closure2_slot6 = var3;
+            var _closure2_slot5 = var3;
             var3 = var2.commandOrigin;
-            var _closure2_slot7 = var3;
+            var _closure2_slot6 = var3;
             var3 = var2.sectionName;
-            var _closure2_slot8 = var3;
+            var _closure2_slot7 = var3;
             var3 = var2.source;
-            var _closure2_slot9 = var3;
+            var _closure2_slot8 = var3;
             var8 = var2.fetchesApplication;
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0004_ip = 118; continue _fun0004 }
- 116:
+            if(!(var8 === var4)) { _fun0004_ip = 114; continue _fun0004 }
+ 112:
             var8 = true;
- 118:
+ 114:
             var3 = var2.customId;
-            var _closure2_slot10 = var3;
+            var _closure2_slot9 = var3;
             var3 = var2.referrerId;
-            var _closure2_slot11 = var3;
+            var _closure2_slot10 = var3;
             var2 = var2.onConfirmActivityLaunchChecksAlertOpen;
-            var _closure2_slot12 = var2;
+            var _closure2_slot11 = var2;
+            var _closure2_slot12 = var4;
             var _closure2_slot13 = var4;
             var _closure2_slot14 = var4;
             var _closure2_slot15 = var4;
@@ -247,7 +247,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  187:
             var9 = var2;
  190:
-            _closure2_slot13 = var9;
+            _closure2_slot12 = var9;
             var7 = _closure1_slot9;
             var5 = {};
             var5['context'] = var10;
@@ -261,28 +261,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var8.bind(var4)(var7);
             var7 = var7.bind(var4)();
             var7 = var7.analyticsLocations;
-            _closure2_slot14 = var7;
+            _closure2_slot13 = var7;
             var7 = 11;
             var7 = var9[var7];
             var7 = var8.bind(var4)(var7);
             var7 = var7.bind(var4)();
+            _closure2_slot14 = var7;
+            var8 = _closure1_slot0;
+            var7 = 16;
+            var7 = var9[var7];
+            var8 = var8.bind(var4)(var7);
+            var7 = var8.useCanLaunchFrame;
+            var7 = var7.bind(var8)(var6);
             _closure2_slot15 = var7;
-            if(!(var3 != var6)) { _fun0004_ip = 368; continue _fun0004 }
- 279:
+            if(!(var3 != var6)) { _fun0004_ip = 399; continue _fun0004 }
+ 310:
             var3 = _closure1_slot7;
             var3 = var3.START;
-            if(!(var3 !== var5)) { _fun0004_ip = 350; continue _fun0004 }
- 293:
+            if(!(var3 !== var5)) { _fun0004_ip = 381; continue _fun0004 }
+ 324:
             var3 = _closure1_slot7;
             var3 = var3.JOIN;
-            if(!(var3 !== var5)) { _fun0004_ip = 332; continue _fun0004 }
- 307:
+            if(!(var3 !== var5)) { _fun0004_ip = 363; continue _fun0004 }
+ 338:
             var3 = _closure1_slot7;
             var3 = var3.LEAVE;
-            if(!(var3 !== var5)) { _fun0004_ip = 323; continue _fun0004 }
- 321:
+            if(!(var3 !== var5)) { _fun0004_ip = 354; continue _fun0004 }
+ 352:
             return var4;
- 323:
+ 354:
             var3 = function() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -291,26 +298,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var1.bind(var2)();
                     if(var1) { _fun0005_ip = 100; continue _fun0005 }
  20:
-                    var2 = _closure2_slot15;
+                    var2 = _closure2_slot14;
                     var3 = null;
                     if(!(var3 != var2)) { _fun0005_ip = 71; continue _fun0005 }
  33:
-                    var5 = _closure2_slot4;
+                    var5 = _closure2_slot3;
                     var4 = var5.leaveActivity;
                     var2 = {};
-                    var6 = _closure2_slot15;
+                    var6 = _closure2_slot14;
                     var6 = var6.location;
                     var2['location'] = var6;
-                    var6 = _closure2_slot13;
+                    var6 = _closure2_slot12;
                     var2['applicationId'] = var6;
                     var2 = var4.bind(var5)(var2);
  71:
-                    var2 = _closure2_slot5;
+                    var2 = _closure2_slot4;
                     if(!(var3 != var2)) { _fun0005_ip = 100; continue _fun0005 }
  79:
-                    var3 = _closure2_slot5;
+                    var3 = _closure2_slot4;
                     var2 = {};
-                    var1 = _closure2_slot13;
+                    var1 = _closure2_slot12;
                     var2['applicationId'] = var1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
@@ -320,7 +327,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             return var3;
- 332:
+ 363:
             var5 = _closure1_slot3;
             var3 = function* () {
                 var1 = function* anon_0_() {
@@ -342,32 +349,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = undefined;
                         var3 = var3.bind(var4)(var2);
                         var2 = {};
-                        var6 = _closure2_slot13;
+                        var6 = _closure2_slot12;
                         var2['applicationId'] = var6;
-                        var6 = _closure2_slot2;
+                        var6 = _closure2_slot1;
                         var8 = var6.type;
                         var7 = 'channel';
                         var6 = undefined;
                         if(!(var7 === var8)) { _fun0006_ip = 101; continue _fun0006 }
  87:
-                        var7 = _closure2_slot2;
+                        var7 = _closure2_slot1;
                         var7 = var7.channel;
                         var6 = var7.id;
  101:
                         var2['activityChannelId'] = var6;
-                        var6 = _closure2_slot3;
+                        var6 = _closure2_slot2;
                         var2['locationObject'] = var6;
-                        var6 = _closure2_slot14;
+                        var6 = _closure2_slot13;
                         var2['analyticsLocations'] = var6;
-                        var6 = _closure2_slot6;
+                        var6 = _closure2_slot5;
                         var2['componentId'] = var6;
-                        var6 = _closure2_slot8;
+                        var6 = _closure2_slot7;
                         var2['sectionName'] = var6;
-                        var6 = _closure2_slot9;
+                        var6 = _closure2_slot8;
                         var2['source'] = var6;
-                        var6 = _closure2_slot10;
+                        var6 = _closure2_slot9;
                         var2['customId'] = var6;
-                        var5 = _closure2_slot11;
+                        var5 = _closure2_slot10;
                         var2['referrerId'] = var5;
                         var4 = var3.bind(var4)(var2);
                         var3 = var4.then;
@@ -377,16 +384,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var1 = arg1;
                                 if(!var1) { _fun0007_ip = 48; continue _fun0007 }
  6:
-                                var3 = _closure2_slot5;
+                                var3 = _closure2_slot4;
                                 var2 = null;
                                 var3 = var2 == var3;
                                 var5 = undefined;
                                 var2 = undefined;
                                 if(var3) { _fun0007_ip = 45; continue _fun0007 }
  26:
-                                var4 = _closure2_slot5;
+                                var4 = _closure2_slot4;
                                 var3 = {};
-                                var6 = _closure2_slot13;
+                                var6 = _closure2_slot12;
                                 var3['applicationId'] = var6;
                                 var2 = var4.bind(var5)(var3);
  45:
@@ -415,7 +422,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var3 = var5.bind(var4)(var3);
             return var3;
- 350:
+ 381:
             var3 = _closure1_slot3;
             var2 = function* () {
                 var1 = function* anon_0_() {
@@ -423,101 +430,94 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0008_ip = 410; continue _fun0008 }
+                        if(var2) { _fun0008_ip = 385; continue _fun0008 }
  10:
                         var2 = undefined;
-                        var8 = undefined;
-                        var5 = _closure1_slot0;
-                        var6 = _closure1_slot2;
-                        var4 = 16;
-                        var4 = var6[var4];
-                        var7 = var5.bind(var2)(var4);
-                        var6 = var7.canLaunchFrame;
+                        var7 = undefined;
+                        var3 = _closure2_slot15;
+                        if(var3) { _fun0008_ip = 304; continue _fun0008 }
+ 27:
+                        var3 = _closure2_slot1;
+                        var6 = var3.type;
+                        var4 = 'channel';
+                        var3 = undefined;
+                        if(!(var4 === var6)) { _fun0008_ip = 60; continue _fun0008 }
+ 46:
+                        var4 = _closure2_slot1;
+                        var4 = var4.channel;
+                        var3 = var4.id;
+ 60:
+                        var7 = var3;
                         var4 = _closure2_slot0;
-                        var4 = var6.bind(var7)(var4);
-                        if(var4) { _fun0008_ip = 332; continue _fun0008 }
- 61:
-                        var4 = _closure2_slot2;
-                        var7 = var4.type;
-                        var6 = 'channel';
-                        var4 = undefined;
-                        if(!(var6 === var7)) { _fun0008_ip = 94; continue _fun0008 }
- 80:
-                        var6 = _closure2_slot2;
-                        var6 = var6.channel;
-                        var4 = var6.id;
- 94:
-                        var8 = var4;
-                        var6 = _closure2_slot1;
-                        var4 = null;
-                        if(!(var4 != var6)) { _fun0008_ip = 172; continue _fun0008 }
- 107: // try_start_0
+                        var3 = null;
+                        if(!(var3 != var4)) { _fun0008_ip = 141; continue _fun0008 }
+ 73: // try_start_0
+                        var4 = _closure1_slot1;
+                        var6 = _closure1_slot2;
+                        var3 = 18;
+                        var3 = var6[var3];
+                        var6 = var4.bind(var2)(var3);
+                        var4 = var6.openPrivateChannel;
+                        var3 = {};
+                        var8 = _closure2_slot0;
+                        var3['recipientIds'] = var8;
+                        var8 = true;
+                        var3['navigateToChannel'] = var8;
+                        var3 = var4.bind(var6)(var3);
+                        SaveGenerator(address=129);
+ 127:
+                        return var3;
+ 129:
+                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                        if(var4) { _fun0008_ip = 296; continue _fun0008 }
+ 138:
+                        var7 = var3;
+ 141: // try_end0
                         var6 = _closure1_slot1;
-                        var7 = _closure1_slot2;
-                        var4 = 18;
-                        var4 = var7[var4];
-                        var7 = var6.bind(var2)(var4);
-                        var6 = var7.openPrivateChannel;
+                        var8 = _closure1_slot2;
+                        var4 = 19;
+                        var4 = var8[var4];
+                        var6 = var6.bind(var2)(var4);
                         var4 = {};
-                        var9 = _closure2_slot1;
-                        var4['recipientIds'] = var9;
-                        var9 = true;
-                        var4['navigateToChannel'] = var9;
-                        var4 = var6.bind(var7)(var4);
-                        SaveGenerator(address=160);
- 158:
-                        return var4;
- 160:
-                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                        if(var6) { _fun0008_ip = 324; continue _fun0008 }
- 169:
-                        var8 = var4;
- 172: // try_end0
-                        var7 = _closure1_slot1;
-                        var9 = _closure1_slot2;
-                        var6 = 19;
-                        var6 = var9[var6];
-                        var7 = var7.bind(var2)(var6);
-                        var6 = {};
-                        var9 = _closure2_slot13;
-                        var6['targetApplicationId'] = var9;
-                        var9 = _closure2_slot3;
-                        var6['locationObject'] = var9;
-                        var6['channelId'] = var8;
-                        var8 = _closure2_slot14;
-                        var6['analyticsLocations'] = var8;
-                        var8 = _closure2_slot6;
-                        var6['componentId'] = var8;
-                        var8 = _closure2_slot7;
-                        var6['commandOrigin'] = var8;
-                        var8 = _closure2_slot8;
-                        var6['sectionName'] = var8;
-                        var8 = _closure2_slot9;
-                        var6['source'] = var8;
-                        var8 = _closure2_slot10;
-                        var6['customId'] = var8;
-                        var8 = _closure2_slot11;
-                        var6['referrerId'] = var8;
                         var8 = _closure2_slot12;
-                        var6['onConfirmActivityLaunchChecksAlertOpen'] = var8;
-                        var8 = var7.bind(var2)(var6);
-                        var7 = var8.then;
-                        var6 = function(arg1) {
+                        var4['targetApplicationId'] = var8;
+                        var8 = _closure2_slot2;
+                        var4['locationObject'] = var8;
+                        var4['channelId'] = var7;
+                        var7 = _closure2_slot13;
+                        var4['analyticsLocations'] = var7;
+                        var7 = _closure2_slot5;
+                        var4['componentId'] = var7;
+                        var7 = _closure2_slot6;
+                        var4['commandOrigin'] = var7;
+                        var7 = _closure2_slot7;
+                        var4['sectionName'] = var7;
+                        var7 = _closure2_slot8;
+                        var4['source'] = var7;
+                        var7 = _closure2_slot9;
+                        var4['customId'] = var7;
+                        var7 = _closure2_slot10;
+                        var4['referrerId'] = var7;
+                        var7 = _closure2_slot11;
+                        var4['onConfirmActivityLaunchChecksAlertOpen'] = var7;
+                        var7 = var6.bind(var2)(var4);
+                        var6 = var7.then;
+                        var4 = function(arg1) {
                             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                                 var1 = arg1;
                                 if(!var1) { _fun0009_ip = 48; continue _fun0009 }
  6:
-                                var3 = _closure2_slot5;
+                                var3 = _closure2_slot4;
                                 var2 = null;
                                 var3 = var2 == var3;
                                 var5 = undefined;
                                 var2 = undefined;
                                 if(var3) { _fun0009_ip = 45; continue _fun0009 }
  26:
-                                var4 = _closure2_slot5;
+                                var4 = _closure2_slot4;
                                 var3 = {};
-                                var6 = _closure2_slot13;
+                                var6 = _closure2_slot12;
                                 var3['applicationId'] = var6;
                                 var2 = var4.bind(var5)(var3);
  45:
@@ -526,21 +526,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 return var1;
                             }
                         };
-                        var6 = var7.bind(var8)(var6);
-                        SaveGenerator(address=315);
- 313:
-                        return var6;
- 315:
-                        ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                        if(!var7) { _fun0008_ip = 402; continue _fun0008 }
- 321:
-                        return var6;
- 324:
+                        var4 = var6.bind(var7)(var4);
+                        SaveGenerator(address=287);
+ 285:
                         return var4;
- 327: // catch_target0
-                        CatchBlockStart(arg_register=3);
+ 287:
+                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                        if(!var6) { _fun0008_ip = 377; continue _fun0008 }
+ 293:
+                        return var4;
+ 296:
+                        return var3;
+ 299: // catch_target0
+                        CatchBlockStart(arg_register=2);
                         return var2;
- 332: // try_start_1
+ 304: // try_start_1
                         var4 = _closure1_slot0;
                         var6 = _closure1_slot2;
                         var3 = 17;
@@ -548,24 +548,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var6 = var4.bind(var2)(var3);
                         var4 = var6.launchFrame;
                         var3 = {};
-                        var7 = _closure2_slot13;
+                        var7 = _closure2_slot12;
                         var3['applicationId'] = var7;
                         var3 = var4.bind(var6)(var3);
-                        var4 = _closure2_slot5;
+                        var4 = _closure2_slot4;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0008_ip = 402; continue _fun0008 }
- 383:
-                        var4 = _closure2_slot5;
+                        if(!(var3 != var4)) { _fun0008_ip = 377; continue _fun0008 }
+ 358:
+                        var4 = _closure2_slot4;
                         var3 = {};
-                        var5 = _closure2_slot13;
+                        var5 = _closure2_slot12;
                         var3['applicationId'] = var5;
                         var3 = var4.bind(var2)(var3);
- 402: // try_end1
+ 377: // try_end1
                         return var2;
- 405: // catch_target1
+ 380: // catch_target1
                         CatchBlockStart(arg_register=2);
                         return var2;
- 410:
+ 385:
                         return var1;
                     }
                 };
@@ -573,15 +573,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var2 = var3.bind(var4)(var2);
             return var2;
- 368:
+ 399:
             var1 = function() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                    var3 = _closure2_slot5;
+                    var3 = _closure2_slot4;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0010_ip = 34; continue _fun0010 }
  13:
-                    var3 = _closure2_slot5;
+                    var3 = _closure2_slot4;
                     var2 = {};
                     var1 = '';
                     var2['applicationId'] = var1;

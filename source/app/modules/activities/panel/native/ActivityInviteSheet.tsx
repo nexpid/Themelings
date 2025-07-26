@@ -585,14 +585,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var5.BottomSheet;
             var5 = {'showGradient': null, 'scrollable': true, 'startExpanded': true};
             var10 = var19 != var12;
-            if(var10) { _fun0002_ip = 453; continue _fun0002 }
- 450:
+            if(var10) { _fun0002_ip = 457; continue _fun0002 }
+ 454:
             var10 = !var9;
- 453:
-            if(var10) { _fun0002_ip = 459; continue _fun0002 }
- 456:
+ 457:
+            if(var10) { _fun0002_ip = 463; continue _fun0002 }
+ 460:
             var10 = !var8;
- 459:
+ 463:
             var5['showGradient'] = var10;
             var15 = _closure1_slot14;
             var26 = _closure1_slot0;
@@ -615,12 +615,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['title'] = var16;
             var10 = var15.bind(var4)(var11, var10);
             var5['header'] = var10;
-            if(!(var19 == var12)) { _fun0002_ip = 958; continue _fun0002 }
- 565:
-            if(var9) { _fun0002_ip = 940; continue _fun0002 }
- 571:
-            if(var8) { _fun0002_ip = 826; continue _fun0002 }
- 577:
+            if(!(var19 == var12)) { _fun0002_ip = 962; continue _fun0002 }
+ 569:
+            if(var9) { _fun0002_ip = 944; continue _fun0002 }
+ 575:
+            if(var8) { _fun0002_ip = 830; continue _fun0002 }
+ 581:
             var10 = _closure1_slot16;
             var9 = _closure1_slot15;
             var8 = {};
@@ -675,8 +675,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11[1] = var15;
             var8['children'] = var11;
             var8 = var10.bind(var4)(var9, var8);
-            _fun0002_ip = 938; continue _fun0002;
- 826:
+            _fun0002_ip = 942; continue _fun0002;
+ 830:
             var11 = _closure1_slot14;
             var10 = _closure1_slot6;
             var9 = {};
@@ -711,16 +711,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var17.bind(var4)(var16, var15);
             var9['children'] = var15;
             var8 = var11.bind(var4)(var10, var9);
- 938:
-            _fun0002_ip = 956; continue _fun0002;
- 940:
+ 942:
+            _fun0002_ip = 960; continue _fun0002;
+ 944:
             var11 = _closure1_slot14;
             var10 = _closure1_slot18;
             var9 = {};
             var8 = var11.bind(var4)(var10, var9);
- 956:
-            _fun0002_ip = 1031; continue _fun0002;
- 958:
+ 960:
+            _fun0002_ip = 1035; continue _fun0002;
+ 962:
             var11 = _closure1_slot14;
             var10 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -738,7 +738,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9['Illustration'] = var13;
             var9['title'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 1031:
+ 1035:
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;

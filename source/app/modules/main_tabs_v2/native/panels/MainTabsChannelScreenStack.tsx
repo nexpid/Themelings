@@ -246,29 +246,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot0 = var23;
             var24 = var2.cleanup;
             var _closure2_slot1 = var24;
-            var13 = var2.isActive;
-            var5 = var2.freeze;
+            var10 = var2.isActive;
+            var13 = var2.freeze;
             var14 = var2.index;
-            var10 = _closure1_slot1;
-            var12 = _closure1_slot2;
+            var8 = _closure1_slot1;
+            var9 = _closure1_slot2;
             var2 = 9;
-            var2 = var12[var2];
+            var2 = var9[var2];
             var4 = undefined;
-            var2 = var10.bind(var4)(var2);
-            var21 = var2.bind(var4)();
+            var2 = var8.bind(var4)(var2);
+            var20 = var2.bind(var4)();
             var2 = _closure1_slot15;
-            var19 = var2.bind(var4)();
-            var8 = _closure1_slot0;
+            var18 = var2.bind(var4)();
+            var6 = _closure1_slot0;
             var2 = 15;
-            var2 = var12[var2];
-            var3 = var8.bind(var4)(var2);
+            var2 = var9[var2];
+            var3 = var6.bind(var4)(var2);
             var2 = var3.useNavigation;
             var2 = var2.bind(var3)();
             var _closure2_slot2 = var2;
             var22 = _closure1_slot4;
             var3 = var22.useRef;
-            var6 = false;
-            var3 = var3.bind(var22)(var6);
+            var5 = false;
+            var3 = var3.bind(var22)(var5);
             var _closure2_slot3 = var3;
             var7 = var22.useCallback;
             var3 = new Array(2);
@@ -302,38 +302,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var7 = var7.bind(var22)(var2, var3);
             var2 = 16;
-            var2 = var12[var2];
-            var3 = var10.bind(var4)(var2);
+            var2 = var9[var2];
+            var3 = var8.bind(var4)(var2);
             var2 = {};
-            var9 = 11;
-            var9 = var12[var9];
-            var9 = var8.bind(var4)(var9);
-            var9 = var9.TransitionStates;
-            var9 = var9.YEETED;
-            var9 = var23 !== var9;
-            var2['canDrag'] = var9;
+            var11 = 11;
+            var11 = var9[var11];
+            var11 = var6.bind(var4)(var11);
+            var11 = var11.TransitionStates;
+            var11 = var11.YEETED;
+            var11 = var23 !== var11;
+            var2['canDrag'] = var11;
             var2['onVisibilityChange'] = var7;
             var7 = 17;
-            var7 = var12[var7];
-            var7 = var8.bind(var4)(var7);
+            var7 = var9[var7];
+            var7 = var6.bind(var4)(var7);
             var7 = var7.dismissKeyboard;
             var2['onDragStart'] = var7;
-            var2['startShown'] = var6;
+            var2['startShown'] = var5;
             var3 = var3.bind(var4)(var2);
-            var7 = var3.gesture;
-            var9 = var3.panelGestureContext;
-            var18 = var3.isDragging;
-            var6 = var3.translateX;
+            var5 = var3.gesture;
+            var7 = var3.panelGestureContext;
+            var19 = var3.isDragging;
+            var11 = var3.translateX;
             var2 = var3.movePanel;
             var3 = var3.maxWidth;
-            var20 = {};
-            var20['cleanup'] = var24;
-            var20['movePanel'] = var2;
-            var _closure2_slot4 = var20;
+            var21 = {};
+            var21['cleanup'] = var24;
+            var21['movePanel'] = var2;
+            var _closure2_slot4 = var21;
             var2 = var22.useRef;
-            var2 = var2.bind(var22)(var20);
+            var2 = var2.bind(var22)(var21);
             var _closure2_slot5 = var2;
-            var20 = var22.useEffect;
+            var21 = var22.useEffect;
             var2 = function() {
                 var2 = _closure2_slot5;
                 var1 = _closure2_slot4;
@@ -341,8 +341,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = undefined;
                 return var1;
             };
-            var2 = var20.bind(var22)(var2);
-            var20 = var22.useEffect;
+            var2 = var21.bind(var22)(var2);
+            var21 = var22.useEffect;
             var2 = new Array(1);
             var2[0] = var23;
             var1 = function() {
@@ -400,77 +400,78 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var1 = var20.bind(var22)(var1, var2);
+            var1 = var21.bind(var22)(var1, var2);
             var1 = 10;
-            var1 = var12[var1];
-            var2 = var8.bind(var4)(var1);
+            var1 = var9[var1];
+            var2 = var6.bind(var4)(var1);
             var1 = var2.useMainTabsChannelScreenStyles;
-            var18 = var1.bind(var2)(var18, var6, var3);
+            var11 = var1.bind(var2)(var19, var11, var3);
             var3 = _closure1_slot13;
-            var1 = 12;
-            var1 = var12[var1];
-            var1 = var8.bind(var4)(var1);
-            var2 = var1.Freeze;
+            var1 = 18;
+            var1 = var9[var1];
+            var1 = var6.bind(var4)(var1);
+            var2 = var1.GestureDetector;
             var1 = {};
-            var1['freeze'] = var5;
-            var5 = 18;
-            var5 = var12[var5];
-            var5 = var8.bind(var4)(var5);
-            var6 = var5.GestureDetector;
+            var1['gesture'] = var5;
+            var5 = 19;
+            var5 = var9[var5];
+            var5 = var6.bind(var4)(var5);
+            var5 = var5.MainTabsChannelScreenStackContext;
+            var6 = var5.Provider;
             var5 = {};
-            var5['gesture'] = var7;
-            var7 = 19;
-            var7 = var12[var7];
-            var7 = var8.bind(var4)(var7);
-            var7 = var7.MainTabsChannelScreenStackContext;
-            var8 = var7.Provider;
+            var5['value'] = var7;
+            var7 = 13;
+            var7 = var9[var7];
+            var8 = var8.bind(var4)(var7);
             var7 = {};
-            var7['value'] = var9;
-            var9 = 13;
-            var9 = var12[var9];
-            var10 = var10.bind(var4)(var9);
-            var9 = {};
-            var12 = new Array(2);
-            var12[0] = var18;
-            var18 = _closure1_slot12;
-            var20 = var18.MIDNIGHT;
-            var18 = undefined;
-            if(!(var21 === var20)) { _fun0003_ip = 522; continue _fun0003 }
- 516:
-            var18 = var19.midnightContainerStyles;
- 522:
-            var12[1] = var18;
-            var9['style'] = var12;
-            var12 = !var13;
-            if(var12) { _fun0003_ip = 538; continue _fun0003 }
- 536:
-            var12 = undefined;
- 538:
-            var9['accessibilityElementsHidden'] = var12;
-            var12 = 'no-hide-descendants';
-            if(!var13) { _fun0003_ip = 554; continue _fun0003 }
- 552:
-            var12 = undefined;
- 554:
-            var9['importantForAccessibility'] = var12;
-            var13 = _closure1_slot13;
-            var12 = _closure1_slot1;
+            var9 = new Array(2);
+            var9[0] = var11;
+            var11 = _closure1_slot12;
+            var19 = var11.MIDNIGHT;
+            var11 = undefined;
+            if(!(var20 === var19)) { _fun0003_ip = 497; continue _fun0003 }
+ 491:
+            var11 = var18.midnightContainerStyles;
+ 497:
+            var9[1] = var11;
+            var7['style'] = var9;
+            var9 = !var10;
+            if(var9) { _fun0003_ip = 513; continue _fun0003 }
+ 511:
+            var9 = undefined;
+ 513:
+            var7['accessibilityElementsHidden'] = var9;
+            var9 = 'no-hide-descendants';
+            if(!var10) { _fun0003_ip = 529; continue _fun0003 }
+ 527:
+            var9 = undefined;
+ 529:
+            var7['importantForAccessibility'] = var9;
+            var11 = _closure1_slot13;
+            var10 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var11 = 14;
-            var11 = var18[var11];
-            var12 = var12.bind(var4)(var11);
-            var11 = {};
-            var11['guildId'] = var17;
-            var11['channelId'] = var16;
-            var11['showCreateThread'] = var15;
+            var9 = 12;
+            var9 = var18[var9];
+            var9 = var10.bind(var4)(var9);
+            var10 = var9.Freeze;
+            var9 = {};
+            var9['freeze'] = var13;
+            var13 = _closure1_slot1;
+            var12 = 14;
+            var12 = var18[var12];
+            var13 = var13.bind(var4)(var12);
+            var12 = {};
+            var12['guildId'] = var17;
+            var12['channelId'] = var16;
+            var12['showCreateThread'] = var15;
             var15 = true;
-            var11['isNavigationScreen'] = var15;
+            var12['isNavigationScreen'] = var15;
             var15 = null;
-            var11['frame'] = var15;
-            var11['screenIndex'] = var14;
-            var11 = var13.bind(var4)(var12, var11);
-            var9['children'] = var11;
-            var9 = var3.bind(var4)(var10, var9);
+            var12['frame'] = var15;
+            var12['screenIndex'] = var14;
+            var12 = var11.bind(var4)(var13, var12);
+            var9['children'] = var12;
+            var9 = var11.bind(var4)(var10, var9);
             var7['children'] = var9;
             var7 = var3.bind(var4)(var8, var7);
             var5['children'] = var7;

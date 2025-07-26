@@ -21,7 +21,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.VanillaExperiment;
-    var9 = new Array(94);
+    var9 = new Array(95);
     var9[0] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
@@ -457,9 +457,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9[92] = var4;
     var4 = 76;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.GamePresenceNegativeTestExperiment;
     var9[93] = var4;
     var4 = 77;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var9[94] = var4;
+    var4 = 78;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.CommonTriggerPointConfiguration;
@@ -474,7 +479,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = var2;
     var2 = new var14[var8](var13, var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 78;
+    var4 = 79;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

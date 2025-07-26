@@ -146,6 +146,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['INTERNAL_PREVIEW_TOOL'] = var6;
     var2 = 'INTERNAL_PREVIEW_TOOL';
     var4[var6] = var2;
+    var6 = 34;
+    var4['ORBS_REHEAT_COACHMARK_CTA'] = var6;
+    var2 = 'ORBS_REHEAT_COACHMARK_CTA';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

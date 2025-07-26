@@ -12,7 +12,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var3 = _closure1_slot5;
             var2 = var3.useContext;
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot13;
             var2 = var2.bind(var3)(var1);
             var1 = null;
             var3 = var1 == var2;
@@ -24,7 +24,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot12 = var4;
+    var _closure1_slot14 = var4;
     var5 = global;
     var11 = var5.Object;
     var9 = var11.defineProperty;
@@ -49,25 +49,41 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot5 = var9;
     var6 = 3;
     var6 = var8[var6];
-    var6 = var10.bind(var1)(var6);
-    var _closure1_slot6 = var6;
+    var6 = var7.bind(var1)(var6);
+    var11 = var6.getVisibleChannelIdsMethod;
+    var _closure1_slot6 = var11;
+    var6 = var6.getVisibleGuildIdsMethod;
+    var _closure1_slot7 = var6;
     var6 = 4;
+    var6 = var8[var6];
+    var6 = var10.bind(var1)(var6);
+    var6 = 5;
+    var6 = var8[var6];
+    var6 = var10.bind(var1)(var6);
+    var6 = 6;
+    var6 = var8[var6];
+    var6 = var10.bind(var1)(var6);
+    var6 = 7;
+    var6 = var8[var6];
+    var6 = var10.bind(var1)(var6);
+    var _closure1_slot8 = var6;
+    var6 = 8;
     var6 = var8[var6];
     var6 = var7.bind(var1)(var6);
     var6 = var6.AnalyticEvents;
-    var _closure1_slot7 = var6;
-    var6 = 5;
+    var _closure1_slot9 = var6;
+    var6 = 9;
     var6 = var8[var6];
     var6 = var7.bind(var1)(var6);
     var6 = var6.jsx;
-    var _closure1_slot8 = var6;
+    var _closure1_slot10 = var6;
     var5 = var5.Set;
     var6 = var5.prototype;
     var6 = Object.create(var6, {constructor: {value: var5}});
     var15 = var6;
     var5 = new var15[var5](var14);
     var5 = var5 instanceof Object ? var5 : var6;
-    var _closure1_slot9 = var5;
+    var _closure1_slot11 = var5;
     var5 = function() {
         var4 = _closure1_slot4;
         var3 = function QuestContentImpression(arg1) {
@@ -76,26 +92,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = arg1;
                 var3 = this;
                 var _closure3_slot0 = var3;
-                var10 = var2.questOrQuests;
-                var11 = var2.questContent;
-                var6 = var2.triggeredByStatusChange;
-                var7 = var2.trackGuildAndChannelMetadata;
-                var9 = var2.questContentPosition;
-                var5 = var2.questContentRowIndex;
-                var8 = var2.minViewTimeSeconds;
+                var11 = var2.questOrQuests;
+                var12 = var2.questContent;
+                var7 = var2.triggeredByStatusChange;
+                var8 = var2.trackGuildAndChannelMetadata;
+                var10 = var2.questContentPosition;
+                var6 = var2.questContentRowIndex;
+                var9 = var2.minViewTimeSeconds;
                 var1 = undefined;
-                if(!(var8 === var1)) { _fun0002_ip = 63; continue _fun0002 }
+                if(!(var9 === var1)) { _fun0002_ip = 63; continue _fun0002 }
  60:
-                var8 = 1;
+                var9 = 1;
  63:
-                var4 = var2.isQuestEnrollmentBlocked;
-                var2 = var2.sourceQuestContent;
-                var15 = _closure1_slot3;
-                var14 = _closure2_slot0;
-                var14 = var15.bind(var1)(var3, var14);
-                var14 = false;
-                var3['isRunning'] = var14;
-                var14 = function() {
+                var5 = var2.isQuestEnrollmentBlocked;
+                var4 = var2.sourceQuestContent;
+                var2 = var2.brandSafetyContext;
+                var16 = _closure1_slot3;
+                var15 = _closure2_slot0;
+                var15 = var16.bind(var1)(var3, var15);
+                var15 = false;
+                var3['isRunning'] = var15;
+                var15 = function() {
                     var1 = _closure3_slot0;
                     var3 = var1.quests;
                     var2 = var3.forEach;
@@ -106,7 +123,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var _closure5_slot0 = var8;
                             var9 = _closure1_slot0;
                             var7 = _closure1_slot2;
-                            var1 = 6;
+                            var1 = 10;
                             var4 = var7[var1];
                             var1 = undefined;
                             var5 = var9.bind(var1)(var4);
@@ -118,7 +135,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var18 = var4.questName;
                             var6 = _closure3_slot0;
                             var21 = var6.minViewTimeSeconds;
-                            var4 = 7;
+                            var4 = 11;
                             var4 = var7[var4];
                             var11 = var9.bind(var1)(var4);
                             var10 = var11.getQuestContentName;
@@ -139,7 +156,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var10 = var13.bind(var14)(var12, var10);
                             var10 = false;
                             var _closure5_slot1 = var10;
-                            var10 = 8;
+                            var10 = 12;
                             var7 = var7[var10];
                             var9 = var9.bind(var1)(var7);
                             var7 = var9.getQuestPlacementFromQuestContent;
@@ -153,7 +170,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var6 = var4.concat;
                             var4 = '_';
                             var7 = var6.bind(var11)(var7, var4, var9);
-                            var6 = _closure1_slot9;
+                            var6 = _closure1_slot11;
                             var4 = var6.has;
                             var4 = var4.bind(var6)(var7);
                             var4 = !var4;
@@ -171,7 +188,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             _closure5_slot1 = var4;
                             if(!var4) { _fun0003_ip = 313; continue _fun0003 }
  299:
-                            var6 = _closure1_slot9;
+                            var6 = _closure1_slot11;
                             var4 = var6.add;
                             var4 = var4.bind(var6)(var7);
  313:
@@ -183,9 +200,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4['min_viewport_percentage'] = var5;
                             var5 = var7.triggeredByStatusChange;
                             var4['triggered_by_status_change'] = var5;
+                            var5 = var7.brandSafetyContext;
+                            var4['brand_safety_context'] = var5;
                             var9 = _closure1_slot1;
                             var5 = _closure1_slot2;
-                            var6 = 9;
+                            var6 = 13;
                             var6 = var5[var6];
                             var6 = var9.bind(var1)(var6);
                             var22 = var6.bind(var1)();
@@ -197,7 +216,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var6 = copyDataProperties(var23, var22);
                             var _closure5_slot2 = var4;
                             var4 = _closure1_slot0;
-                            var3 = 10;
+                            var3 = 14;
                             var3 = var5[var3];
                             var4 = var4.bind(var1)(var3);
                             var3 = var4.getAdUser;
@@ -212,7 +231,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  9:
                                     var6 = _closure1_slot0;
                                     var3 = _closure1_slot2;
-                                    var5 = 11;
+                                    var5 = 15;
                                     var3 = var3[var5];
                                     var4 = undefined;
                                     var6 = var6.bind(var4)(var3);
@@ -239,7 +258,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  120:
                                     var3 = _closure1_slot0;
                                     var2 = _closure1_slot2;
-                                    var1 = 7;
+                                    var1 = 11;
                                     var2 = var2[var1];
                                     var1 = undefined;
                                     var4 = var3.bind(var1)(var2);
@@ -248,7 +267,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                     var7 = _closure5_slot0;
                                     var7 = var7.id;
                                     var2['questId'] = var7;
-                                    var5 = _closure1_slot7;
+                                    var5 = _closure1_slot9;
                                     var5 = var5.QUEST_CONTENT_VIEWED;
                                     var2['event'] = var5;
                                     var5 = _closure3_slot0;
@@ -272,8 +291,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = undefined;
                     return var1;
                 };
-                var3['onMinViewTimeReached'] = var14;
-                var14 = function() {
+                var3['onMinViewTimeReached'] = var15;
+                var15 = function() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                         var3 = arguments[0];
@@ -307,7 +326,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var6 = var3.bind(var5)(var2);
                                 var8 = _closure1_slot0;
                                 var3 = _closure1_slot2;
-                                var2 = 6;
+                                var2 = 10;
                                 var2 = var3[var2];
                                 var3 = undefined;
                                 var8 = var8.bind(var3)(var2);
@@ -341,14 +360,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var1 = var9.bind(var10)(var2, var1);
                                 var2 = _closure1_slot0;
                                 var9 = _closure1_slot2;
-                                var1 = 7;
+                                var1 = 11;
                                 var1 = var9[var1];
                                 var3 = var2.bind(var3)(var1);
                                 var2 = var3.trackQuestEvent;
                                 var1 = {};
                                 var9 = var7.id;
                                 var1['questId'] = var9;
-                                var5 = _closure1_slot7;
+                                var5 = _closure1_slot9;
                                 var5 = var5.QUEST_CONTENT_VIEW_TIME;
                                 var1['event'] = var5;
                                 var5 = {};
@@ -381,8 +400,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     }
                 };
-                var3['beat'] = var14;
-                var14 = function(arg1) {
+                var3['beat'] = var15;
+                var15 = function(arg1) {
                     var9 = arg1;
                     var1 = {};
                     var2 = _closure3_slot0;
@@ -390,7 +409,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['impression_id'] = var3;
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 8;
+                    var3 = 12;
                     var3 = var6[var3];
                     var4 = undefined;
                     var10 = var5.bind(var4)(var3);
@@ -403,7 +422,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var2.isQuestEnrollmentBlocked;
                     var3 = 'is_quest_enrollment_blocked';
                     var1[var3] = var7;
-                    var3 = 7;
+                    var3 = 11;
                     var7 = var6[var3];
                     var8 = var5.bind(var4)(var7);
                     var7 = var8.getQuestStatus;
@@ -421,8 +440,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = copyDataProperties(var13, var12);
                     return var1;
                 };
-                var3['commonProperties'] = var14;
-                var14 = function(arg1) {
+                var3['commonProperties'] = var15;
+                var15 = function(arg1) {
                     var1 = arg1;
                     var4 = var1.triggeredByStatusChange;
                     var2 = _closure3_slot0;
@@ -453,8 +472,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var1 instanceof Object ? var1 : var2;
                     return var1;
                 };
-                var3['clone'] = var14;
-                var14 = function() {
+                var3['clone'] = var15;
+                var15 = function() {
                     _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                         var3 = _closure3_slot0;
@@ -491,7 +510,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var8 = arg1;
                             var3 = _closure1_slot0;
                             var4 = _closure1_slot2;
-                            var1 = 6;
+                            var1 = 10;
                             var2 = var4[var1];
                             var1 = undefined;
                             var5 = var3.bind(var1)(var2);
@@ -501,7 +520,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var2 = var8.config;
                             var2 = var2.messages;
                             var14 = var2.questName;
-                            var2 = 7;
+                            var2 = 11;
                             var5 = var4[var2];
                             var12 = var3.bind(var1)(var5);
                             var9 = var12.getQuestContentName;
@@ -524,7 +543,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var2 = {};
                             var7 = var8.id;
                             var2['questId'] = var7;
-                            var6 = _closure1_slot7;
+                            var6 = _closure1_slot9;
                             var6 = var6.QUEST_CONTENT_LOADED;
                             var2['event'] = var6;
                             var6 = {};
@@ -545,7 +564,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1 = var3.bind(var4)(var1);
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 12;
+                        var1 = 16;
                         var3 = var3[var1];
                         var1 = undefined;
                         var5 = var4.bind(var1)(var3);
@@ -556,19 +575,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  198:
                         var4 = _closure1_slot1;
                         var9 = _closure1_slot2;
-                        var3 = 13;
+                        var3 = 17;
                         var3 = var9[var3];
                         var5 = var4.bind(var1)(var3);
                         var4 = var5.increment;
                         var3 = {};
                         var8 = _closure1_slot0;
-                        var7 = 14;
+                        var7 = 18;
                         var7 = var9[var7];
                         var7 = var8.bind(var1)(var7);
                         var7 = var7.MetricEvents;
                         var7 = var7.QUEST_CONTENT_IMPRESSION;
                         var3['name'] = var7;
-                        var7 = 7;
+                        var7 = 11;
                         var7 = var9[var7];
                         var9 = var8.bind(var1)(var7);
                         var8 = var9.getQuestContentName;
@@ -590,8 +609,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     }
                 };
-                var3['start'] = var14;
-                var13 = function() {
+                var3['start'] = var15;
+                var14 = function() {
                     _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                         var2 = arguments[0];
@@ -621,37 +640,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     }
                 };
-                var3['stop'] = var13;
-                var13 = _closure1_slot0;
-                var14 = _closure1_slot2;
-                var12 = 15;
-                var12 = var14[var12];
-                var13 = var13.bind(var1)(var12);
-                var12 = var13.v4;
-                var12 = var12.bind(var13)();
-                var3['id'] = var12;
-                var3['questContent'] = var11;
-                var3['questContentPosition'] = var9;
-                var3['minViewTimeSeconds'] = var8;
-                var8 = 0.5;
-                var3['minViewportPercentage'] = var8;
-                var8 = global;
-                var9 = var8.Array;
-                var8 = var9.isArray;
-                var9 = var8.bind(var9)(var10);
-                var8 = var10;
-                if(var9) { _fun0002_ip = 286; continue _fun0002 }
- 275:
-                var9 = new Array(1);
-                var9[0] = var10;
-                var8 = var9;
- 286:
-                var3['quests'] = var8;
-                var3['trackGuildAndChannelMetadata'] = var7;
-                var3['triggeredByStatusChange'] = var6;
-                var3['questContentRowIndex'] = var5;
-                var3['isQuestEnrollmentBlocked'] = var4;
-                var3['sourceQuestContent'] = var2;
+                var3['stop'] = var14;
+                var14 = _closure1_slot0;
+                var15 = _closure1_slot2;
+                var13 = 19;
+                var13 = var15[var13];
+                var14 = var14.bind(var1)(var13);
+                var13 = var14.v4;
+                var13 = var13.bind(var14)();
+                var3['id'] = var13;
+                var3['questContent'] = var12;
+                var3['questContentPosition'] = var10;
+                var3['minViewTimeSeconds'] = var9;
+                var9 = 0.5;
+                var3['minViewportPercentage'] = var9;
+                var9 = global;
+                var10 = var9.Array;
+                var9 = var10.isArray;
+                var10 = var9.bind(var10)(var11);
+                var9 = var11;
+                if(var10) { _fun0002_ip = 292; continue _fun0002 }
+ 281:
+                var10 = new Array(1);
+                var10[0] = var11;
+                var9 = var10;
+ 292:
+                var3['quests'] = var9;
+                var3['trackGuildAndChannelMetadata'] = var8;
+                var3['triggeredByStatusChange'] = var7;
+                var3['questContentRowIndex'] = var6;
+                var3['isQuestEnrollmentBlocked'] = var5;
+                var3['sourceQuestContent'] = var4;
+                var3['brandSafetyContext'] = var2;
                 return var1;
             }
         };
@@ -682,11 +702,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var5 = var5.bind(var1)();
-    var _closure1_slot10 = var5;
+    var _closure1_slot12 = var5;
     var6 = var9.createContext;
     var6 = var6.bind(var9)(var1);
-    var _closure1_slot11 = var6;
-    var6 = 19;
+    var _closure1_slot13 = var6;
+    var6 = 24;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -735,7 +755,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = function useQuestImpressionId() {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot14;
             var1 = undefined;
             var3 = var2.bind(var1)();
             var2 = null;
@@ -765,47 +785,61 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot4 = var14;
             var10 = var8.sourceQuestContent;
             var _closure2_slot5 = var10;
-            var4 = var8.questOrQuests;
-            var1 = global;
-            var3 = var1.Array;
-            var1 = var3.isArray;
-            var1 = var1.bind(var3)(var4);
+            var5 = var8.questOrQuests;
+            var3 = global;
+            var4 = var3.Array;
+            var1 = var4.isArray;
+            var1 = var1.bind(var4)(var5);
+            var17 = null;
             var11 = null;
-            var6 = null;
             if(var1) { _fun0011_ip = 134; continue _fun0011 }
  98:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 7;
-            var3 = var3[var1];
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 11;
+            var4 = var4[var1];
             var1 = undefined;
-            var3 = var5.bind(var1)(var3);
-            var1 = var3.getQuestStatus;
-            var6 = var1.bind(var3)(var4);
+            var4 = var6.bind(var1)(var4);
+            var1 = var4.getQuestStatus;
+            var11 = var1.bind(var4)(var5);
  134:
             var5 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var3 = 16;
-            var3 = var9[var3];
+            var4 = 21;
+            var6 = var9[var4];
             var4 = undefined;
-            var3 = var5.bind(var4)(var3);
-            var3 = var3.bind(var4)(var6);
-            var12 = var6 !== var3;
+            var6 = var5.bind(var4)(var6);
+            var6 = var6.bind(var4)(var11);
+            var12 = var11 !== var6;
             var _closure2_slot6 = var12;
+            var18 = var8.questOrQuests;
+            var20 = var8.questContent;
+            var11 = _closure1_slot0;
+            var6 = 12;
+            var6 = var9[var6];
+            var19 = var11.bind(var4)(var6);
+            var6 = var19.isBillableQuestContent;
+            var6 = var6.bind(var19)(var20);
+            var6 = _closure1_slot7;
+            var6 = var6.bind(var4)();
+            var6 = _closure1_slot6;
+            var6 = var6.bind(var4)();
+            var6 = var3.Array;
+            var3 = var6.isArray;
+            var3 = var3.bind(var6)(var18);
             var6 = _closure1_slot5;
             var3 = var6.useRef;
-            var6 = var3.bind(var6)(var11);
+            var6 = var3.bind(var6)(var17);
             var _closure2_slot7 = var6;
-            var11 = _closure1_slot0;
-            var3 = 17;
+            var3 = 22;
             var3 = var9[var3];
             var19 = var11.bind(var4)(var3);
             var18 = var19.useStateFromStores;
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot8;
             var17 = new Array(1);
             var17[0] = var3;
             var11 = function() {
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot8;
                 var2 = var1.questEnrollmentBlockedUntil;
                 var1 = null;
                 var1 = var1 != var2;
@@ -814,7 +848,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = new Array(0);
             var11 = var18.bind(var19)(var17, var11, var3);
             var _closure2_slot8 = var11;
-            var3 = 18;
+            var3 = 23;
             var3 = var9[var3];
             var5 = var5.bind(var4)(var3);
             var3 = function() {
@@ -840,7 +874,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var5.bind(var4)(var3);
             var9 = _closure1_slot5;
             var5 = var9.useEffect;
-            var3 = new Array(13);
+            var3 = new Array(14);
             var3[0] = var16;
             var3[1] = var15;
             var3[2] = var14;
@@ -860,6 +894,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3[10] = var12;
             var3[11] = var11;
             var3[12] = var10;
+            var3[13] = var4;
             var2 = function() {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
@@ -913,10 +948,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var4.stop;
                     var3 = var3.bind(var4)();
  111:
-                    if(!var2) { _fun0013_ip = 274; continue _fun0013 }
+                    if(!var2) { _fun0013_ip = 281; continue _fun0013 }
  117:
                     var3 = _closure2_slot7;
-                    var5 = _closure1_slot10;
+                    var5 = _closure1_slot12;
                     var2 = {};
                     var4 = _closure2_slot0;
                     var6 = var4.questOrQuests;
@@ -937,6 +972,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2['isQuestEnrollmentBlocked'] = var4;
                     var4 = _closure2_slot5;
                     var2['sourceQuestContent'] = var4;
+                    var4 = undefined;
+                    var2['brandSafetyContext'] = var4;
                     var4 = var5.prototype;
                     var4 = Object.create(var4, {constructor: {value: var5}});
                     var8 = var4;
@@ -948,14 +985,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var1.current;
                     var1 = var2.start;
                     var1 = var1.bind(var2)();
- 274:
+ 281:
                     var1 = undefined;
                     return var1;
                 }
             };
             var2 = var5.bind(var9)(var2, var3);
-            var3 = _closure1_slot8;
-            var1 = _closure1_slot11;
+            var3 = _closure1_slot10;
+            var1 = _closure1_slot13;
             var2 = var1.Provider;
             var1 = {};
             var1['value'] = var6;

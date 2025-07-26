@@ -149,7 +149,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var3['computeActivityFlags'] = var4;
-    var2 = function isContextlessEmbeddedActivity(arg1) {
+    var4 = function isContextlessEmbeddedActivity(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var4 = arg1;
@@ -188,6 +188,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var3['isContextlessEmbeddedActivity'] = var2;
+    var3['isContextlessEmbeddedActivity'] = var4;
+    var2 = function applyContextlessFlags(arg1) {
+        var1 = _closure1_slot3;
+        var2 = var1.CONTEXTLESS;
+        var1 = arg1;
+        var1 = var1 | var2;
+        return var1;
+    };
+    var3['applyContextlessFlags'] = var2;
     return var1;
 })();

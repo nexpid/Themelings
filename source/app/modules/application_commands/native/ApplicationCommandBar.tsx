@@ -902,7 +902,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  615:
             var7[2] = var8;
             var8 = null;
-            if(!var10) { _fun0006_ip = 851; continue _fun0006 }
+            if(!var10) { _fun0006_ip = 855; continue _fun0006 }
  627:
             var16 = _closure1_slot9;
             var12 = _closure1_slot8;
@@ -948,8 +948,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = var15.options;
             var20 = var18 == var21;
             var18 = undefined;
-            if(var20) { _fun0006_ip = 837; continue _fun0006 }
- 820:
+            if(var20) { _fun0006_ip = 841; continue _fun0006 }
+ 824:
             var20 = var21.map;
             var19 = function(arg1) {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
@@ -993,11 +993,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var18 = var20.bind(var21)(var19);
- 837:
+ 841:
             var17[2] = var18;
             var10['children'] = var17;
             var8 = var16.bind(var4)(var12, var10);
- 851:
+ 855:
             var7[3] = var8;
             var5['children'] = var7;
             var6 = var3.bind(var4)(var6, var5);

@@ -1735,36 +1735,41 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = arg2;
                         var5 = _closure3_slot0;
                         var5 = var5.destroyed;
-                        if(var5) { _fun0024_ip = 271; continue _fun0024 }
+                        if(var5) { _fun0024_ip = 301; continue _fun0024 }
  27:
                         var5 = null;
                         if(!(var5 != var4)) { _fun0024_ip = 44; continue _fun0024 }
  33:
                         var6 = '';
-                        if(!(var6 === var4)) { _fun0024_ip = 194; continue _fun0024 }
+                        if(!(var6 === var4)) { _fun0024_ip = 224; continue _fun0024 }
  44:
-                        if(!(var5 != var3)) { _fun0024_ip = 158; continue _fun0024 }
- 48:
-                        var12 = var3.protocol;
-                        var _closure4_slot0 = var12;
-                        var11 = var3.address;
-                        var _closure4_slot1 = var11;
-                        var10 = var3.port;
-                        var _closure4_slot2 = var10;
-                        var3 = _closure3_slot0;
-                        var6 = var3.logger;
-                        var5 = var6.info;
+                        if(!(var5 != var3)) { _fun0024_ip = 188; continue _fun0024 }
+ 51:
+                        var5 = _closure3_slot0;
+                        var5['transportInfo'] = var3;
+                        var14 = var3.protocol;
+                        var _closure4_slot0 = var14;
+                        var13 = var3.address;
+                        var _closure4_slot1 = var13;
+                        var12 = var3.port;
+                        var _closure4_slot2 = var12;
+                        var8 = var5.logger;
+                        var7 = var8.info;
                         var3 = global;
-                        var3 = var3.HermesInternal;
-                        var9 = var3.concat;
-                        var18 = 'Connected with local address ';
-                        var16 = ':';
-                        var14 = ' and protocol: ';
-                        var17 = var11;
-                        var15 = var10;
-                        var13 = var12;
-                        var3 = var18[var9](var17, var16, var15, var14, var13, var12);
-                        var3 = var5.bind(var6)(var3);
+                        var6 = var3.HermesInternal;
+                        var11 = var6.concat;
+                        var20 = 'Connected with local address ';
+                        var18 = ':';
+                        var16 = ' and protocol: ';
+                        var19 = var13;
+                        var17 = var12;
+                        var15 = var14;
+                        var6 = var20[var11](var19, var18, var17, var16, var15, var14);
+                        var6 = var7.bind(var8)(var6);
+                        var6 = var3.performance;
+                        var3 = var6.now;
+                        var3 = var3.bind(var6)();
+                        var5['onConnectStarted'] = var3;
                         var5 = _closure3_slot4;
                         var3 = undefined;
                         var2 = function(arg1) {
@@ -2259,18 +2264,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             }
                         };
                         var2 = var5.bind(var3)(var2);
-                        _fun0024_ip = 271; continue _fun0024;
- 158:
+                        _fun0024_ip = 301; continue _fun0024;
+ 188:
                         var2 = global;
                         var5 = var2.Error;
                         var2 = var5.prototype;
                         var3 = Object.create(var2, {constructor: {value: var5}});
-                        var17 = 'Invalid transport info';
-                        var18 = var3;
-                        var2 = new var18[var5](var17, var16);
+                        var19 = 'Invalid transport info';
+                        var20 = var3;
+                        var2 = new var20[var5](var19, var18);
                         var2 = var2 instanceof Object ? var2 : var3;
                         throw var2;
- 194:
+ 224:
                         var3 = _closure3_slot0;
                         var5 = var3.setConnectionState;
                         var2 = _closure1_slot21;
@@ -2288,7 +2293,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1 = var2.bind(var3)(var1, var4);
                         var1 = undefined;
                         return var1;
- 271:
+ 301:
                         var1 = undefined;
                         return var1;
                     }

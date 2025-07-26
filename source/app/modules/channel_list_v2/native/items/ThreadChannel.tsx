@@ -463,11 +463,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['channelInfo'] = var15;
             var15 = var21.length;
             var13 = null;
-            if(!(var16 !== var15)) { _fun0001_ip = 1200; continue _fun0001 }
+            if(!(var16 !== var15)) { _fun0001_ip = 1196; continue _fun0001 }
  961:
             var16 = _closure1_slot17;
             var15 = _closure1_slot4;
-            if(!(var14 !== var17)) { _fun0001_ip = 1127; continue _fun0001 }
+            if(!(var14 !== var17)) { _fun0001_ip = 1123; continue _fun0001 }
  976:
             var14 = {};
             var17 = var19.voiceStatesCollapsed;
@@ -498,8 +498,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17['guildId'] = var24;
             var17 = var23.bind(var4)(var20, var17);
             var14['children'] = var17;
-            _fun0001_ip = 1194; continue _fun0001;
- 1127:
+            _fun0001_ip = 1190; continue _fun0001;
+ 1123:
             var17 = {};
             var19 = var19.voiceStates;
             var17['style'] = var19;
@@ -517,9 +517,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = var20.bind(var4)(var19, var18);
             var17['children'] = var18;
             var14 = var17;
- 1194:
+ 1190:
             var13 = var16.bind(var4)(var15, var14);
- 1200:
+ 1196:
             var10['children'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var9[2] = var10;

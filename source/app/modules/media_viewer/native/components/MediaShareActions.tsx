@@ -405,19 +405,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.bind(var16)(var3);
             var3 = var5.useCanForwardMessage;
             var5 = var3.bind(var5)(var15);
-            if(!var5) { _fun0001_ip = 490; continue _fun0001 }
- 458:
+            if(!var5) { _fun0001_ip = 486; continue _fun0001 }
+ 454:
             var15 = var4.attachmentId;
             var3 = null;
             var3 = var3 != var15;
-            if(var3) { _fun0001_ip = 487; continue _fun0001 }
- 473:
+            if(var3) { _fun0001_ip = 483; continue _fun0001 }
+ 469:
             var15 = var4.accessoryType;
             var4 = 'embed';
             var3 = var4 === var15;
- 487:
+ 483:
             var5 = var3;
- 490:
+ 486:
             _closure2_slot13 = var5;
             var4 = _closure1_slot3;
             var3 = var4.useMemo;
