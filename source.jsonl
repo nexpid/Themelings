@@ -4943,7 +4943,7 @@
 { "file": "app/modules/keyboard/native/AnimatedKeyboardProviderController.tsx", "size": 7548 }
 { "file": "app/modules/keyboard/native/AnimatedKeyboardProviderLegacy.tsx", "size": 3820 }
 { "file": "app/modules/keyboard/native/useAnimatedKeyboardHeight.tsx", "size": 997 }
-{ "file": "app/modules/main_tabs_v2/native/channel/useSafeAreaBottomKeyboardInfoController.tsx", "size": 5359 }
+{ "file": "app/modules/main_tabs_v2/native/channel/useSafeAreaBottomKeyboardInfoController.tsx", "size": 9374 }
 { "file": "app/modules/voice_messages/native/components/VoiceMessageOverlay.tsx", "size": 100142 }
 { "file": "app/modules/chat_input/native/useChatInputBottomDimensions.tsx", "size": 5681 }
 { "file": "app/modules/device/native/WakeLock.tsx", "size": 4063 }

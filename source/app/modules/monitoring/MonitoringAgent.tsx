@@ -344,7 +344,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3['url'] = var6;
                 var6 = {};
                 var6['metrics'] = var7;
-                var7 = {'built_at': '1753507336417', 'build_number': '4404'};
+                var7 = {'built_at': '1753516469181', 'build_number': '4406'};
                 var6['client_info'] = var7;
                 var3['body'] = var6;
                 var6 = 1;
