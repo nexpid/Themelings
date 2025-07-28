@@ -58,10 +58,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!(var6 !== var5)) { _fun0001_ip = 120; continue _fun0001 }
  114:
             var5 = new Array(0);
-            _fun0001_ip = 130; continue _fun0001;
+            _fun0001_ip = 128; continue _fun0001;
  120:
             var5 = ['bottom'];
- 130:
+ 128:
             var1['edges'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

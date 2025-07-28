@@ -3795,11 +3795,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = new Array(0);
             var2 = var17;
             var12 = var13;
-            if(!(var12 < var8)) { _fun0036_ip = 527; continue _fun0036 }
+            if(!(var12 < var8)) { _fun0036_ip = 525; continue _fun0036 }
  326:
             var12 = var13;
             var2 = var17;
-            if(!var5) { _fun0036_ip = 527; continue _fun0036 }
+            if(!var5) { _fun0036_ip = 525; continue _fun0036 }
  338:
             var1 = var6.getGuildId;
             var18 = var1.bind(var6)();
@@ -3810,7 +3810,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = null;
             var12 = var13;
             var2 = var17;
-            if(!(var14 != var15)) { _fun0036_ip = 527; continue _fun0036 }
+            if(!(var14 != var15)) { _fun0036_ip = 525; continue _fun0036 }
  384:
             var18 = _closure1_slot1;
             var14 = _closure1_slot3;
@@ -3897,25 +3897,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var1.length;
             var12 = var13 + var3;
             var2 = var1;
- 527:
+ 525:
             var3 = new Array(0);
             var1 = var6.isPrivate;
             var1 = var1.bind(var6)();
             var1 = !var1;
-            if(!var1) { _fun0036_ip = 550; continue _fun0036 }
- 547:
+            if(!var1) { _fun0036_ip = 548; continue _fun0036 }
+ 545:
             var1 = var11;
- 550:
-            if(!var1) { _fun0036_ip = 556; continue _fun0036 }
- 553:
+ 548:
+            if(!var1) { _fun0036_ip = 554; continue _fun0036 }
+ 551:
             var1 = var5;
- 556:
+ 554:
             var5 = var12;
-            if(!var1) { _fun0036_ip = 737; continue _fun0036 }
- 565:
+            if(!var1) { _fun0036_ip = 735; continue _fun0036 }
+ 563:
             var1 = var12 < var8;
-            if(!var1) { _fun0036_ip = 614; continue _fun0036 }
- 572:
+            if(!var1) { _fun0036_ip = 612; continue _fun0036 }
+ 570:
             var14 = _closure1_slot1;
             var15 = _closure1_slot3;
             var13 = 35;
@@ -3925,23 +3925,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var11.bind(var7)();
             var11 = var11.test;
             var1 = var13.bind(var7)(var10, var11);
- 614:
+ 612:
             var11 = var12;
-            if(!var1) { _fun0036_ip = 648; continue _fun0036 }
- 620:
+            if(!var1) { _fun0036_ip = 646; continue _fun0036 }
+ 618:
             var13 = var3.push;
             var1 = _closure1_slot53;
             var1 = var1.bind(var7)();
             var1 = var13.bind(var3)(var1);
             var1 = 1;
             var11 = var12 + var1;
- 648:
-            if(!var9) { _fun0036_ip = 655; continue _fun0036 }
- 651:
+ 646:
+            if(!var9) { _fun0036_ip = 653; continue _fun0036 }
+ 649:
             var9 = var11 < var8;
- 655:
-            if(!var9) { _fun0036_ip = 700; continue _fun0036 }
- 658:
+ 653:
+            if(!var9) { _fun0036_ip = 698; continue _fun0036 }
+ 656:
             var13 = _closure1_slot1;
             var14 = _closure1_slot3;
             var12 = 35;
@@ -3951,19 +3951,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var1.bind(var7)();
             var1 = var1.test;
             var9 = var12.bind(var7)(var10, var1);
- 700:
+ 698:
             var1 = var11;
-            if(!var9) { _fun0036_ip = 734; continue _fun0036 }
- 706:
+            if(!var9) { _fun0036_ip = 732; continue _fun0036 }
+ 704:
             var12 = var3.push;
             var9 = _closure1_slot54;
             var9 = var9.bind(var7)();
             var9 = var12.bind(var3)(var9);
             var9 = 1;
             var1 = var11 + var9;
- 734:
+ 732:
             var5 = var1;
- 737:
+ 735:
             var11 = _closure1_slot0;
             var12 = _closure1_slot3;
             var9 = 49;
@@ -3981,18 +3981,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6['autoTrackExposure'] = var13;
             var6 = var11.bind(var12)(var9, var6);
             var6 = var6.enabled;
-            if(!var6) { _fun0036_ip = 826; continue _fun0036 }
- 816:
+            if(!var6) { _fun0036_ip = 824; continue _fun0036 }
+ 814:
             var11 = _closure1_slot55;
             var9 = null;
             var6 = var9 != var11;
- 826:
-            if(!var6) { _fun0036_ip = 833; continue _fun0036 }
- 829:
+ 824:
+            if(!var6) { _fun0036_ip = 831; continue _fun0036 }
+ 827:
             var6 = var5 < var8;
- 833:
-            if(!var6) { _fun0036_ip = 875; continue _fun0036 }
- 836:
+ 831:
+            if(!var6) { _fun0036_ip = 873; continue _fun0036 }
+ 834:
             var9 = _closure1_slot1;
             var11 = _closure1_slot3;
             var8 = 35;
@@ -4002,16 +4002,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var8.bind(var7)();
             var8 = var8.test;
             var6 = var9.bind(var7)(var10, var8);
- 875:
-            if(!var6) { _fun0036_ip = 903; continue _fun0036 }
- 878:
+ 873:
+            if(!var6) { _fun0036_ip = 901; continue _fun0036 }
+ 876:
             var6 = var3.push;
             var1 = _closure1_slot55;
             var1 = var1.bind(var7)();
             var1 = var6.bind(var3)(var1);
             var1 = 1;
             var1 = var5 + var1;
- 903:
+ 901:
             var1 = {};
             var1['users'] = var4;
             var1['globals'] = var3;
