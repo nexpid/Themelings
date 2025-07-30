@@ -983,6 +983,12 @@
     "midnight": "#6c6f7c52",
     "darker": "#6c6f7c52"
   },
+  "INPUT_BORDER_CRITICAL_HOVER": {
+    "dark": "#fd928d",
+    "light": "#c12a35",
+    "midnight": "#e95d5c",
+    "darker": "#f16f6c"
+  },
   "INPUT_ERROR_BACKGROUND": {
     "dark": "#a128291f",
     "light": "#a128291f",
@@ -1006,6 +1012,18 @@
     "light": "#00000029",
     "midnight": "#6c6f7c3d",
     "darker": "#6c6f7c52"
+  },
+  "INPUT_FOREGROUND_CRITICAL": {
+    "dark": "#fa777b",
+    "light": "#a12829",
+    "midnight": "#fa777b",
+    "darker": "#fa777b"
+  },
+  "INPUT_FOREGROUND_DEFAULT": {
+    "dark": "#dfe0e2",
+    "light": "#323339",
+    "midnight": "#dbdcdf",
+    "darker": "#efeff0"
   },
   "INPUT_PLACEHOLDER_TEXT": {
     "dark": "#87898c",
