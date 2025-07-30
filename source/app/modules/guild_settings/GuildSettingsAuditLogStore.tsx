@@ -5,9 +5,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var3 = native6;
     var6 = native7;
     var _closure1_slot0 = var7;
-    var1 = native4;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -242,7 +240,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(!(var5 != var1)) { _fun0005_ip = 74; continue _fun0005 }
  19:
                 var2 = var7.push;
-                var8 = _closure1_slot9;
+                var8 = _closure1_slot8;
                 var1 = _closure1_slot17;
                 var22 = var1.REASON;
                 var20 = var4.reason;
@@ -276,7 +274,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(var1) { _fun0005_ip = 332; continue _fun0005 }
  143:
                 var1 = var3.value;
-                var18 = _closure1_slot9;
+                var18 = _closure1_slot8;
                 var22 = var1.key;
                 var21 = var1.old_value;
                 var20 = var1.new_value;
@@ -350,7 +348,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var4.options;
                 var11 = var3.delete_member_days;
  415:
-                var10 = _closure1_slot9;
+                var10 = _closure1_slot8;
                 var3 = _closure1_slot17;
                 var22 = var3.PRUNE_DELETE_DAYS;
                 var6 = var10.prototype;
@@ -378,7 +376,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(!(var5 != var3)) { _fun0005_ip = 565; continue _fun0005 }
  508:
                 var6 = var7.push;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot8;
                 var3 = _closure1_slot17;
                 var22 = var3.AUTO_MODERATION_TRIGGERED_RULE_NAME;
                 var3 = var4.options;
@@ -409,7 +407,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(!var3) { _fun0005_ip = 670; continue _fun0005 }
  614:
                 var6 = var7.push;
-                var12 = _closure1_slot9;
+                var12 = _closure1_slot8;
                 var3 = _closure1_slot17;
                 var22 = var3.STATUS;
                 var3 = var4.options;
@@ -422,7 +420,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3 instanceof Object ? var3 : var10;
                 var3 = var6.bind(var7)(var3);
  670:
-                var6 = _closure1_slot8;
+                var6 = _closure1_slot7;
                 var3 = {};
                 var10 = var4.id;
                 var3['id'] = var10;
@@ -467,8 +465,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(!var10) { _fun0005_ip = 874; continue _fun0005 }
  830:
                 var14 = _closure1_slot0;
-                var13 = _closure1_slot2;
-                var11 = 11;
+                var13 = _closure1_slot1;
+                var11 = 13;
                 var13 = var13[var11];
                 var11 = undefined;
                 var15 = var14.bind(var11)(var13);
@@ -607,7 +605,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  1272:
                 if(var2) { _fun0005_ip = 1293; continue _fun0005 }
  1275:
-                var9 = _closure1_slot10;
+                var9 = _closure1_slot9;
                 var8 = var8.oldValue;
                 var8 = var9.bind(var11)(var8);
                 var2 = !var8;
@@ -703,14 +701,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!var6) { _fun0006_ip = 115; continue _fun0006 }
  96:
             var8 = _closure1_slot12;
-            var7 = var8.getRoles;
+            var7 = var8.getUnsafeMutableRoles;
             var6 = _closure1_slot21;
             var4 = var7.bind(var8)(var6);
  115:
             _closure2_slot1 = var4;
             var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var4 = 11;
+            var7 = _closure1_slot1;
+            var4 = 13;
             var4 = var7[var4];
             var4 = var6.bind(var1)(var4);
             var6 = var4.bind(var1)(var5);
@@ -723,52 +721,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = function(arg1) {
                     _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                        var1 = _closure2_slot0;
-                        var3 = null;
-                        if(!(var3 == var1)) { _fun0007_ip = 19; continue _fun0007 }
- 15:
-                        var1 = undefined;
-                        return var1;
- 19:
-                        var1 = _closure3_slot0;
-                        var5 = var1.userId;
-                        var1 = _closure2_slot0;
-                        var1 = var1.ownerId;
-                        if(!(var5 !== var1)) { _fun0007_ip = 107; continue _fun0007 }
- 45:
-                        var1 = _closure2_slot1;
-                        var5 = var3 == var1;
-                        var1 = undefined;
-                        if(var5) { _fun0007_ip = 69; continue _fun0007 }
+                        var3 = _closure2_slot0;
+                        var1 = null;
+                        if(!(var1 == var3)) { _fun0007_ip = 17; continue _fun0007 }
+ 13:
+                        var3 = undefined;
+                        return var3;
+ 17:
+                        var3 = _closure3_slot0;
+                        var4 = var3.userId;
+                        var3 = _closure2_slot0;
+                        var3 = var3.ownerId;
+                        if(!(var4 !== var3)) { _fun0007_ip = 95; continue _fun0007 }
+ 43:
+                        var3 = _closure2_slot1;
+                        var3 = var1 == var3;
+                        var5 = undefined;
+                        var4 = undefined;
+                        if(var3) { _fun0007_ip = 69; continue _fun0007 }
  58:
-                        var5 = _closure2_slot1;
-                        var4 = arg1;
-                        var1 = var5[var4];
+                        var3 = _closure2_slot1;
+                        var2 = arg1;
+                        var4 = var3[var2];
  69:
-                        var _closure4_slot0 = var1;
-                        var1 = var3 != var1;
-                        if(!var1) { _fun0007_ip = 105; continue _fun0007 }
- 80:
-                        var4 = _closure1_slot20;
-                        var3 = var4.some;
-                        var2 = function(arg1) {
-                            var3 = _closure1_slot1;
-                            var2 = _closure1_slot2;
-                            var1 = 12;
-                            var2 = var2[var1];
-                            var1 = undefined;
-                            var4 = var3.bind(var1)(var2);
-                            var3 = var4.has;
-                            var1 = _closure4_slot0;
-                            var2 = var1.permissions;
-                            var1 = arg1;
-                            var1 = var3.bind(var4)(var2, var1);
-                            return var1;
-                        };
-                        var1 = var3.bind(var4)(var2);
- 105:
+                        var1 = var1 != var4;
+                        if(!var1) { _fun0007_ip = 93; continue _fun0007 }
+ 76:
+                        var3 = _closure1_slot10;
+                        var2 = _closure1_slot20;
+                        var1 = var3.bind(var5)(var4, var2);
+ 93:
                         return var1;
- 107:
+ 95:
                         var1 = true;
                         return var1;
                     }
@@ -806,49 +790,54 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8 = var6[var2];
     var1 = undefined;
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot3 = var8;
+    var _closure1_slot2 = var8;
     var8 = 1;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot4 = var8;
+    var _closure1_slot3 = var8;
     var8 = 2;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot5 = var8;
+    var _closure1_slot4 = var8;
     var8 = 3;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot6 = var8;
+    var _closure1_slot5 = var8;
     var8 = 4;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot7 = var8;
+    var _closure1_slot6 = var8;
     var8 = 5;
     var10 = var6[var8];
     var10 = var7.bind(var1)(var10);
-    var _closure1_slot8 = var10;
+    var _closure1_slot7 = var10;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.AuditLogChange;
-    var _closure1_slot9 = var8;
+    var _closure1_slot8 = var8;
     var8 = 6;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.isGuildSelectableChannelType;
-    var _closure1_slot10 = var8;
+    var _closure1_slot9 = var8;
     var8 = 7;
     var8 = var6[var8];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot11 = var8;
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.hasAnyPermission;
+    var _closure1_slot10 = var8;
     var8 = 8;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot12 = var8;
+    var _closure1_slot11 = var8;
     var8 = 9;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot13 = var8;
+    var _closure1_slot12 = var8;
     var8 = 10;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot13 = var8;
+    var8 = 11;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var10 = var8.AuditLogActions;
@@ -863,34 +852,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot18 = var11;
     var11 = var8.GuildSettingsSections;
     var _closure1_slot19 = var11;
-    var11 = var8.Permissions;
-    var13 = var11.KICK_MEMBERS;
-    var8 = new Array(13);
-    var8[0] = var13;
-    var13 = var11.BAN_MEMBERS;
-    var8[1] = var13;
-    var13 = var11.ADMINISTRATOR;
-    var8[2] = var13;
-    var13 = var11.MANAGE_CHANNELS;
-    var8[3] = var13;
-    var13 = var11.MANAGE_GUILD;
-    var8[4] = var13;
-    var13 = var11.MANAGE_MESSAGES;
-    var8[5] = var13;
-    var13 = var11.MANAGE_NICKNAMES;
-    var8[6] = var13;
-    var13 = var11.MANAGE_ROLES;
-    var8[7] = var13;
-    var13 = var11.MANAGE_WEBHOOKS;
-    var8[8] = var13;
-    var13 = var11.MANAGE_GUILD_EXPRESSIONS;
-    var8[9] = var13;
-    var13 = var11.MOVE_MEMBERS;
-    var8[10] = var13;
-    var13 = var11.MUTE_MEMBERS;
-    var8[11] = var13;
-    var11 = var11.DEAFEN_MEMBERS;
-    var8[12] = var11;
+    var8 = var8.Permissions;
+    var11 = 12;
+    var13 = var6[var11];
+    var11 = native4;
+    var25 = var11.bind(var1)(var13);
+    var24 = var25.combine;
+    var38 = var8.KICK_MEMBERS;
+    var37 = var8.BAN_MEMBERS;
+    var36 = var8.ADMINISTRATOR;
+    var35 = var8.MANAGE_CHANNELS;
+    var34 = var8.MANAGE_GUILD;
+    var33 = var8.MANAGE_MESSAGES;
+    var32 = var8.MANAGE_NICKNAMES;
+    var31 = var8.MANAGE_ROLES;
+    var30 = var8.MANAGE_WEBHOOKS;
+    var29 = var8.MANAGE_GUILD_EXPRESSIONS;
+    var28 = var8.MOVE_MEMBERS;
+    var27 = var8.MUTE_MEMBERS;
+    var26 = var8.DEAFEN_MEMBERS;
+    var39 = var25;
+    var8 = var39[var24](var38, var37, var36, var35, var34, var33, var32, var31, var30, var29, var28, var27, var26, var25);
     var _closure1_slot20 = var8;
     var8 = null;
     var _closure1_slot21 = var8;
@@ -923,7 +905,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8 = {};
     var _closure1_slot38 = var8;
     var _closure1_slot39 = var2;
-    var2 = 13;
+    var2 = 14;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
@@ -934,12 +916,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
-                var1 = _closure1_slot3;
+                var1 = _closure1_slot2;
                 var2 = _closure2_slot0;
                 var1 = var1.bind(var3)(var4, var2);
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
-                var2 = _closure1_slot5;
+                var2 = _closure1_slot4;
                 var1 = _closure1_slot40;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0008_ip = 69; continue _fun0008 }
@@ -953,7 +935,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
-                var6 = _closure1_slot6;
+                var6 = _closure1_slot5;
                 var6 = var6.bind(var3)(var4);
                 var6 = var6.constructor;
                 var5 = arguments;
@@ -964,11 +946,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var _closure2_slot0 = var4;
-        var5 = _closure1_slot7;
+        var5 = _closure1_slot6;
         var3 = undefined;
         var2 = arg1;
         var2 = var5.bind(var3)(var4, var2);
-        var2 = _closure1_slot4;
+        var2 = _closure1_slot3;
         var5 = {};
         var1 = 'initialize';
         var5['key'] = var1;
@@ -1153,9 +1135,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8 = var2.bind(var1)(var8);
     var2 = 'GuildSettingsAuditLogStore';
     var8['displayName'] = var2;
-    var2 = 14;
+    var2 = 15;
     var2 = var6[var2];
-    var16 = var7.bind(var1)(var2);
+    var38 = var7.bind(var1)(var2);
     var2 = {};
     var10 = function handleStartFetchingLogs() {
         var1 = true;
@@ -1371,11 +1353,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['GUILD_SETTINGS_CLOSE'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
-    var17 = var4;
-    var15 = var2;
-    var2 = new var17[var8](var16, var15, var14);
+    var39 = var4;
+    var37 = var2;
+    var2 = new var39[var8](var38, var37, var36);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

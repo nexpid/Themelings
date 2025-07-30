@@ -374,7 +374,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['registrationName'] = var5;
     var1['topTapAppMessageEmbed'] = var2;
     var4['directEventTypes'] = var1;
-    var2 = {'inverted': true, 'keyboardResponderProxyTag': true, 'scrollEnabled': true, 'animateEmoji': true, 'HACK_fixModalInteraction': true, 'alwaysRespectKeyboard': true, 'roleStyle': true, 'adjustContentOffsetWithBounds': true, 'keyboardBackgroundRgba': true};
+    var2 = {'inverted': true, 'keyboardResponderProxyTag': true, 'animateEmoji': true, 'HACK_fixModalInteraction': true, 'alwaysRespectKeyboard': true, 'roleStyle': true, 'adjustContentOffsetWithBounds': true, 'keyboardBackgroundRgba': true};
     var1 = 0;
     var5 = var8[var1];
     var1 = undefined;

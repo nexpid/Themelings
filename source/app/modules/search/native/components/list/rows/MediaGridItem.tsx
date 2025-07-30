@@ -1,0 +1,475 @@
+// app/modules/search/native/components/list/rows/MediaGridItem.tsx
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var15 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var15;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var10 = 0;
+    var7 = var6[var10];
+    var4 = native4;
+    var1 = undefined;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var9 = 1;
+    var4 = var6[var9];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.View;
+    var _closure1_slot4 = var8;
+    var8 = var4.Pressable;
+    var _closure1_slot5 = var8;
+    var4 = var4.useWindowDimensions;
+    var _closure1_slot6 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var15.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var15.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var13 = var4.SEARCH_LIST_SECTION_TOP_PADDING;
+    var4 = var4.SearchMediaTypes;
+    var _closure1_slot9 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.jsx;
+    var _closure1_slot10 = var8;
+    var4 = var4.jsxs;
+    var _closure1_slot11 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var11 = var5.bind(var1)(var4);
+    var8 = var11.createStyles;
+    var4 = {};
+    var12 = {};
+    var14 = 7;
+    var16 = var6[var14];
+    var16 = var15.bind(var1)(var16);
+    var16 = var16.radii;
+    var16 = var16.xs;
+    var12['borderRadius'] = var16;
+    var16 = 'hidden';
+    var12['overflow'] = var16;
+    var14 = var6[var14];
+    var14 = var15.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BACKGROUND_MODIFIER_ACCENT;
+    var12['backgroundColor'] = var14;
+    var4['container'] = var12;
+    var12 = {'flex': 1, 'resizeMode': 'cover'};
+    var4['image'] = var12;
+    var12 = {};
+    var12['marginTop'] = var13;
+    var4['marginTop'] = var12;
+    var12 = {'position': 'absolute', 'top': 8, 'right': 8};
+    var4['avatar'] = var12;
+    var12 = {};
+    var12['padding'] = var10;
+    var4['card'] = var12;
+    var4 = var8.bind(var11)(var4);
+    var _closure1_slot12 = var4;
+    var4 = {};
+    var4['HIDDEN'] = var10;
+    var8 = 'HIDDEN';
+    var4[var10] = var8;
+    var4['VISIBLE'] = var9;
+    var8 = 'VISIBLE';
+    var4[var9] = var8;
+    var _closure1_slot13 = var4;
+    var4 = {};
+    var8 = 'function MediaGridItemTsx1(){const{withTiming,opacity,timingStandard}=this.__closure;return{opacity:withTiming(opacity.get(),timingStandard)};}';
+    var4['code'] = var8;
+    var _closure1_slot14 = var4;
+    var4 = var7.memo;
+    var2 = function MediaGridItem(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var1 = arg1;
+            var17 = var1.media;
+            var _closure2_slot0 = var17;
+            var14 = var1.size;
+            var _closure2_slot1 = var14;
+            var7 = var1.containerStyle;
+            var3 = var1.onPress;
+            var _closure2_slot2 = var3;
+            var1 = var1.animate;
+            var4 = undefined;
+            var _closure2_slot5 = var4;
+            var5 = _closure1_slot12;
+            var16 = var5.bind(var4)();
+            var5 = _closure1_slot6;
+            var5 = var5.bind(var4)();
+            var18 = var5.scale;
+            var10 = _closure1_slot3;
+            var5 = var10.useRef;
+            var9 = null;
+            var11 = var5.bind(var10)(var9);
+            var _closure2_slot3 = var11;
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var5 = 8;
+            var12 = var8[var5];
+            var20 = var6.bind(var4)(var12);
+            var19 = var20.useStateFromStores;
+            var12 = _closure1_slot8;
+            var13 = new Array(1);
+            var13[0] = var12;
+            var12 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    var2 = _closure2_slot0;
+                    var4 = var2.type;
+                    var3 = _closure1_slot9;
+                    var3 = var3.ATTACHMENT;
+                    if(!(var4 !== var3)) { _fun0002_ip = 120; continue _fun0002 }
+ 29:
+                    var3 = _closure2_slot0;
+                    var4 = var3.type;
+                    var3 = _closure1_slot9;
+                    var3 = var3.EMBED;
+                    if(!(var4 !== var3)) { _fun0002_ip = 120; continue _fun0002 }
+ 52:
+                    var4 = _closure1_slot8;
+                    var3 = var4.getMessage;
+                    var1 = _closure2_slot0;
+                    var1 = var1.messageId;
+                    var4 = var3.bind(var4)(var1);
+                    var1 = null;
+                    var1 = var1 != var4;
+                    if(!var1) { _fun0002_ip = 118; continue _fun0002 }
+ 85:
+                    var5 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 9;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var5.bind(var3)(var2);
+                    var2 = var2.bind(var3)(var4);
+                    var1 = var2.hasSpoilerEmbeds;
+ 118:
+                    return var1;
+ 120:
+                    var1 = false;
+                    return var1;
+                }
+            };
+            var13 = var19.bind(var20)(var13, var12);
+            var5 = var8[var5];
+            var12 = var6.bind(var4)(var5);
+            var8 = var12.useStateFromStores;
+            var5 = _closure1_slot7;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = function() {
+                var3 = _closure1_slot7;
+                var2 = var3.getChannel;
+                var1 = _closure2_slot0;
+                var1 = var1.channelId;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var12 = var8.bind(var12)(var6, var5);
+            var _closure2_slot4 = var12;
+            var8 = var10.useMemo;
+            var5 = var17.author;
+            var6 = new Array(2);
+            var6[0] = var5;
+            var19 = var9 == var12;
+            var5 = undefined;
+            if(var19) { _fun0001_ip = 222; continue _fun0001 }
+ 217:
+            var5 = var12.guild_id;
+ 222:
+            var6[1] = var5;
+            var5 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                    var1 = _closure2_slot0;
+                    var3 = var1.author;
+                    var2 = var3.getAvatarSource;
+                    var5 = _closure2_slot4;
+                    var1 = null;
+                    var5 = var1 == var5;
+                    var1 = undefined;
+                    if(var5) { _fun0003_ip = 43; continue _fun0003 }
+ 34:
+                    var4 = _closure2_slot4;
+                    var1 = var4.guild_id;
+ 43:
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                }
+            };
+            var21 = var8.bind(var10)(var5, var6);
+            var8 = _closure1_slot3;
+            var6 = var8.useCallback;
+            var5 = new Array(2);
+            var5[0] = var17;
+            var5[1] = var3;
+            var3 = function() {
+                var3 = _closure2_slot2;
+                var2 = {};
+                var4 = _closure2_slot0;
+                var2['media'] = var4;
+                var1 = _closure2_slot3;
+                var1 = var1.current;
+                var2['originView'] = var1;
+                var1 = undefined;
+                var2 = var3.bind(var1)(var2);
+                return var1;
+            };
+            var8 = var6.bind(var8)(var3, var5);
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var5 = 10;
+            var3 = var3[var5];
+            var6 = var6.bind(var4)(var3);
+            var3 = var6.useSharedValue;
+            var10 = _closure1_slot13;
+            if(var1) { _fun0001_ip = 313; continue _fun0001 }
+ 305:
+            var1 = var10.VISIBLE;
+            _fun0001_ip = 319; continue _fun0001;
+ 313:
+            var1 = var10.HIDDEN;
+ 319:
+            var3 = var3.bind(var6)(var1);
+            _closure2_slot5 = var3;
+            var22 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var6 = var1[var5];
+            var12 = var22.bind(var4)(var6);
+            var10 = var12.useAnimatedStyle;
+            var6 = function D() {
+                var1 = {};
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var2 = 11;
+                var2 = var8[var2];
+                var6 = undefined;
+                var5 = var7.bind(var6)(var2);
+                var4 = var5.withTiming;
+                var3 = _closure2_slot5;
+                var2 = var3.get;
+                var3 = var2.bind(var3)();
+                var2 = 12;
+                var2 = var8[var2];
+                var2 = var7.bind(var6)(var2);
+                var2 = var2.timingStandard;
+                var2 = var4.bind(var5)(var3, var2);
+                var1['opacity'] = var2;
+                return var1;
+            };
+            var19 = {};
+            var20 = 11;
+            var20 = var1[var20];
+            var20 = var22.bind(var4)(var20);
+            var20 = var20.withTiming;
+            var19['withTiming'] = var20;
+            var19['opacity'] = var3;
+            var20 = 12;
+            var20 = var1[var20];
+            var20 = var22.bind(var4)(var20);
+            var20 = var20.timingStandard;
+            var19['timingStandard'] = var20;
+            var6['__closure'] = var19;
+            var19 = 9644750191833.0;
+            var6['__workletHash'] = var19;
+            var19 = _closure1_slot14;
+            var6['__initData'] = var19;
+            var6 = var10.bind(var12)(var6);
+            var12 = _closure1_slot3;
+            var19 = var12.useEffect;
+            var10 = new Array(1);
+            var10[0] = var3;
+            var3 = function() {
+                var3 = _closure2_slot5;
+                var2 = var3.set;
+                var1 = _closure1_slot13;
+                var1 = var1.VISIBLE;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
+            };
+            var3 = var19.bind(var12)(var3, var10);
+            var10 = var12.useMemo;
+            var3 = new Array(1);
+            var3[0] = var14;
+            var2 = function() {
+                var1 = {};
+                var2 = _closure2_slot1;
+                var1['width'] = var2;
+                var1['height'] = var2;
+                return var1;
+            };
+            var10 = var10.bind(var12)(var2, var3);
+            var3 = _closure1_slot10;
+            var2 = _closure1_slot1;
+            var1 = var1[var5];
+            var1 = var2.bind(var4)(var1);
+            var2 = var1.View;
+            var1 = {};
+            var12 = var16.container;
+            var5 = new Array(4);
+            var5[0] = var12;
+            var5[1] = var7;
+            var5[2] = var10;
+            var5[3] = var6;
+            var1['style'] = var5;
+            var7 = _closure1_slot11;
+            var6 = _closure1_slot5;
+            var5 = {};
+            var5['ref'] = var11;
+            var5['style'] = var10;
+            var10 = 'button';
+            var5['accessibilityRole'] = var10;
+            var5['onPress'] = var8;
+            var10 = var17.type;
+            var8 = _closure1_slot9;
+            var8 = var8.EMBED;
+            var10 = var10 === var8;
+            if(!var10) { _fun0001_ip = 709; continue _fun0001 }
+ 606:
+            var12 = _closure1_slot10;
+            var11 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var8 = 13;
+            var8 = var19[var8];
+            var8 = var11.bind(var4)(var8);
+            var11 = var8.SearchEmbedMediaImage;
+            var8 = {};
+            var19 = var17.embed;
+            var8['embed'] = var19;
+            var19 = var17.messageId;
+            var8['messageId'] = var19;
+            var19 = var17.channelId;
+            var8['channelId'] = var19;
+            var19 = var17.author;
+            var19 = var19.id;
+            var8['authorId'] = var19;
+            var8['scale'] = var18;
+            var8['imageHeight'] = var14;
+            var8['imageWidth'] = var14;
+            var8['hasSpoilerEmbeds'] = var13;
+            var10 = var12.bind(var4)(var11, var8);
+ 709:
+            var8 = new Array(4);
+            var8[0] = var10;
+            var11 = var17.type;
+            var10 = _closure1_slot9;
+            var10 = var10.ATTACHMENT;
+            var10 = var11 === var10;
+            if(!var10) { _fun0001_ip = 828; continue _fun0001 }
+ 739:
+            var13 = _closure1_slot10;
+            var12 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var11 = 13;
+            var11 = var19[var11];
+            var11 = var12.bind(var4)(var11);
+            var12 = var11.SearchAttachmentMediaImage;
+            var11 = {};
+            var19 = var17.attachment;
+            var11['attachment'] = var19;
+            var19 = var17.channelId;
+            var11['channelId'] = var19;
+            var19 = var17.author;
+            var19 = var19.id;
+            var11['authorId'] = var19;
+            var11['scale'] = var18;
+            var11['imageHeight'] = var14;
+            var11['imageWidth'] = var14;
+            var10 = var13.bind(var4)(var12, var11);
+ 828:
+            var8[1] = var10;
+            var11 = var17.type;
+            var10 = _closure1_slot9;
+            var10 = var10.SOUND;
+            var10 = var11 === var10;
+            if(!var10) { _fun0001_ip = 900; continue _fun0001 }
+ 854:
+            var13 = _closure1_slot10;
+            var12 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var11 = 13;
+            var11 = var18[var11];
+            var11 = var12.bind(var4)(var11);
+            var12 = var11.SearchSoundMediaImage;
+            var11 = {};
+            var11['height'] = var14;
+            var11['width'] = var14;
+            var10 = var13.bind(var4)(var12, var11);
+ 900:
+            var8[2] = var10;
+            var9 = var9 != var21;
+            if(!var9) { _fun0001_ip = 1071; continue _fun0001 }
+ 914:
+            var12 = _closure1_slot10;
+            var11 = _closure1_slot4;
+            var10 = {};
+            var13 = var16.avatar;
+            var10['style'] = var13;
+            var19 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var13 = 14;
+            var13 = var20[var13];
+            var13 = var19.bind(var4)(var13);
+            var14 = var13.Card;
+            var13 = {};
+            var18 = 'low';
+            var13['shadow'] = var18;
+            var16 = var16.card;
+            var13['style'] = var16;
+            var16 = _closure1_slot1;
+            var18 = 15;
+            var15 = var20[var18];
+            var16 = var16.bind(var4)(var15);
+            var15 = {};
+            var15['source'] = var21;
+            var18 = var20[var18];
+            var18 = var19.bind(var4)(var18);
+            var18 = var18.AvatarSizes;
+            var18 = var18.XSMALL;
+            var15['size'] = var18;
+            var17 = var17.author;
+            var17 = var17.avatarDecoration;
+            var15['avatarDecoration'] = var17;
+            var15 = var12.bind(var4)(var16, var15);
+            var13['children'] = var15;
+            var13 = var12.bind(var4)(var14, var13);
+            var10['children'] = var13;
+            var9 = var12.bind(var4)(var11, var10);
+ 1071:
+            var8[3] = var9;
+            var5['children'] = var8;
+            var5 = var7.bind(var4)(var6, var5);
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var2 = var4.bind(var7)(var2);
+    var4 = 16;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/search/native/components/list/rows/MediaGridItem.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
+})();

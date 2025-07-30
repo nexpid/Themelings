@@ -69,11 +69,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = _closure1_slot4;
                     if(var1) { _fun0002_ip = 29; continue _fun0002 }
  17:
-                    var1 = var3.getApps;
+                    var1 = var3.getNewestTokens;
                     var1 = var1.bind(var3)();
                     _fun0002_ip = 39; continue _fun0002;
  29:
-                    var2 = var3.getNonChildrenApps;
+                    var2 = var3.getNewestTokensForNonChildrenApplications;
                     var1 = var2.bind(var3)();
  39:
                     return var1;

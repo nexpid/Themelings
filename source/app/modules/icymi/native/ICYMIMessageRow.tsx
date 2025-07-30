@@ -332,22 +332,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  141:
             var28 = var2.colorString;
  147:
-            if(!(var1 == var28)) { _fun0004_ip = 186; continue _fun0004 }
+            if(!(var1 == var28)) { _fun0004_ip = 155; continue _fun0004 }
  151:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 19;
-            var2 = var4[var2];
-            var4 = var3.bind(var5)(var2);
-            var3 = var4.int2hex;
-            var2 = _closure1_slot14;
-            var28 = var3.bind(var4)(var2);
- 186:
+            var28 = _closure1_slot14;
+ 155:
             var4 = _closure1_slot3;
             var3 = var4.useContext;
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var19 = 20;
+            var19 = 19;
             var2 = var2[var19];
             var2 = var6.bind(var5)(var2);
             var2 = var2.ICYMIContext;
@@ -355,8 +348,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var25 = var2.width;
             var2 = var1 == var31;
             var1 = null;
-            if(var2) { _fun0004_ip = 821; continue _fun0004 }
- 244:
+            if(var2) { _fun0004_ip = 790; continue _fun0004 }
+ 213:
             var4 = _closure1_slot17;
             var3 = _closure1_slot4;
             var2 = {};
@@ -365,7 +358,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = _closure1_slot16;
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var14 = 21;
+            var14 = 20;
             var6 = var15[var14];
             var6 = var16.bind(var5)(var6);
             var7 = var6.Text;
@@ -374,7 +367,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = 'italic';
             var9['fontStyle'] = var11;
             var6['style'] = var9;
-            var9 = 22;
+            var9 = 21;
             var11 = var15[var9];
             var11 = var16.bind(var5)(var11);
             var12 = var11.intl;
@@ -395,7 +388,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['style'] = var10;
             var12 = _closure1_slot16;
             var11 = _closure1_slot1;
-            var13 = 23;
+            var13 = 22;
             var10 = var15[var13];
             var11 = var11.bind(var5)(var10);
             var10 = {};
@@ -442,7 +435,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var27 = {};
             var27['color'] = var28;
             var14['style'] = var27;
-            var27 = 24;
+            var27 = 23;
             var27 = var15[var27];
             var30 = var16.bind(var5)(var27);
             var29 = var30.getName;
@@ -489,7 +482,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 821:
+ 790:
             return var1;
         }
     };
@@ -549,7 +542,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5 = 9;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var10 = var5.DEFAULT_ROLE_COLOR;
+    var10 = var5.DEFAULT_ROLE_COLOR_HEX;
     var _closure1_slot14 = var10;
     var5 = var5.MessageEmbedTypes;
     var _closure1_slot15 = var5;
@@ -744,7 +737,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  33:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var3 = 25;
+                    var3 = 24;
                     var3 = var5[var3];
                     var5 = var4.bind(var1)(var3);
                     var4 = var5.requestMembersById;
@@ -767,7 +760,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var5.bind(var7)(var2, var3);
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var5 = 26;
+            var5 = 25;
             var2 = var2[var5];
             var9 = var3.bind(var4)(var2);
             var7 = var9.useICYMIMessage;
@@ -806,7 +799,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = function() {
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 27;
+                var1 = 26;
                 var2 = var6[var1];
                 var1 = undefined;
                 var2 = var5.bind(var1)(var2);
@@ -817,7 +810,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = 'message';
                 var4 = 'press_message';
                 var4 = var9.bind(var10)(var8, var7, var4);
-                var4 = 28;
+                var4 = 27;
                 var4 = var6[var4];
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.navigateToPost;
@@ -839,7 +832,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = function() {
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 27;
+                var1 = 26;
                 var2 = var5[var1];
                 var1 = undefined;
                 var2 = var4.bind(var1)(var2);
@@ -850,7 +843,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = 'message';
                 var3 = 'long_press_channel';
                 var3 = var8.bind(var9)(var7, var6, var3);
-                var3 = 29;
+                var3 = 28;
                 var3 = var5[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.openChannelLongPressActionSheet;
@@ -868,7 +861,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = function() {
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var1 = 27;
+                var1 = 26;
                 var2 = var4[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -879,7 +872,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = 'message';
                 var2 = 'long_press_message';
                 var2 = var10.bind(var11)(var9, var8, var2);
-                var2 = 30;
+                var2 = 29;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.showLongPressMessageActionSheet;
@@ -908,7 +901,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 27;
+                    var1 = 26;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var4.bind(var1)(var2);
@@ -924,7 +917,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  72:
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 28;
+                    var3 = 27;
                     var3 = var5[var3];
                     var5 = var4.bind(var1)(var3);
                     var4 = var5.navigateToPost;
@@ -941,7 +934,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot17;
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var17 = 28;
+            var17 = 27;
             var1 = var13[var17];
             var1 = var11.bind(var4)(var1);
             var2 = var1.MessageContentPost;
@@ -956,7 +949,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = 'message';
             var1['type'] = var7;
             var24 = _closure1_slot1;
-            var7 = 31;
+            var7 = 30;
             var7 = var13[var7];
             var25 = var24.bind(var4)(var7);
             var8 = var25.extractTimestamp;
@@ -966,7 +959,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['onHeaderPress'] = var23;
             var1['onHeaderLongPress'] = var5;
             var8 = _closure1_slot17;
-            var5 = 32;
+            var5 = 31;
             var5 = var13[var5];
             var5 = var11.bind(var4)(var5);
             var7 = var5.PressableHighlight;
@@ -977,7 +970,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5['unstable_pressDelay'] = var9;
             var9 = 'button';
             var5['accessibilityRole'] = var9;
-            var9 = 33;
+            var9 = 32;
             var23 = var13[var9];
             var24 = var24.bind(var4)(var23);
             var23 = {};
@@ -1043,7 +1036,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = _closure1_slot16;
             var13 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var10 = 34;
+            var10 = 33;
             var10 = var11[var10];
             var13 = var13.bind(var4)(var10);
             var10 = {};
@@ -1074,7 +1067,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var5 = var8.bind(var9)(var5);
     var _closure1_slot21 = var5;
-    var5 = 35;
+    var5 = 34;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -1089,7 +1082,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var2.visible;
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 26;
+            var3 = 25;
             var3 = var11[var3];
             var5 = undefined;
             var8 = var4.bind(var5)(var3);

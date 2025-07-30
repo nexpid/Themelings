@@ -632,6 +632,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['CHANNEL_SELECT'] = var10;
     var2['LOGOUT'] = var9;
     var2['CACHE_LOADED'] = var4;
+    var2['CONNECTION_OPEN'] = var4;
     var2['OVERLAY_INITIALIZE'] = var4;
     var2['SELECTIVELY_SYNCED_USER_SETTINGS_UPDATE'] = var4;
     var2['UNSYNCED_USER_SETTINGS_UPDATE'] = var4;

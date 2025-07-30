@@ -643,7 +643,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var7 = var7.bind(var10)(var9, var6);
                         var6 = new Array(2);
                         var6[0] = var7;
-                        var7 = var9.isPomelo;
+                        var7 = var9.hasUniqueUsername;
                         var7 = var7.bind(var9)();
                         var7 = !var7;
                         if(!var7) { _fun0008_ip = 474; continue _fun0008 }

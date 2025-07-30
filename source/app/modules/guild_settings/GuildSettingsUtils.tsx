@@ -79,7 +79,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = undefined;
             if(!var9) { _fun0001_ip = 246; continue _fun0001 }
  233:
-            var9 = _closure1_slot6;
+            var9 = _closure1_slot7;
             var7 = var9.bind(var8)(var3, var8);
  246:
             _fun0001_ip = 264; continue _fun0001;
@@ -91,7 +91,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7;
             _fun0001_ip = 282; continue _fun0001;
  269:
-            var7 = _closure1_slot6;
+            var7 = _closure1_slot7;
             var6 = var7.bind(var8)(var3, var8);
  282:
             var4 = var6;
@@ -150,7 +150,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot5 = var1;
+    var _closure1_slot6 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -183,7 +183,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot7 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -196,11 +196,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var6[var1];
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
+    var4 = var4.hasPermission;
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
     var7 = var4.ElevatedPermissions;
-    var _closure1_slot3 = var7;
+    var _closure1_slot4 = var7;
     var4 = var4.ElevatedPermissionsList;
-    var _closure1_slot4 = var4;
-    var4 = 3;
+    var _closure1_slot5 = var4;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -209,14 +214,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = function isRolePowerful(arg1) {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var2 = 1;
+        var2 = 2;
         var3 = var3[var2];
         var2 = undefined;
         var4 = var4.bind(var2)(var3);
         var3 = var4.hasAny;
         var2 = arg1;
         var2 = var2.permissions;
-        var1 = _closure1_slot3;
+        var1 = _closure1_slot4;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
@@ -224,47 +229,41 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = function getPowerfulPermissionTitles(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            var9 = arg2;
+            var8 = arg2;
             var1 = new Array(0);
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 2;
+            var2 = 3;
             var2 = var4[var2];
-            var7 = undefined;
-            var4 = var3.bind(var7)(var2);
+            var6 = undefined;
+            var4 = var3.bind(var6)(var2);
             var3 = var4.getGuildPermissionSpecMap;
             var2 = arg1;
-            var6 = var3.bind(var4)(var2);
-            var3 = _closure1_slot5;
-            var2 = _closure1_slot4;
-            var5 = var3.bind(var7)(var2);
-            var3 = var5.bind(var7)();
+            var5 = var3.bind(var4)(var2);
+            var3 = _closure1_slot6;
+            var2 = _closure1_slot5;
+            var4 = var3.bind(var6)(var2);
+            var3 = var4.bind(var6)();
             var2 = var3.done;
-            var4 = 1;
-            if(var2) { _fun0004_ip = 159; continue _fun0004 }
- 74:
-            var11 = var3.value;
-            var10 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var2 = var2[var4];
-            var12 = var10.bind(var7)(var2);
-            var10 = var12.has;
-            var2 = var9.permissions;
-            var2 = var10.bind(var12)(var2, var11);
-            if(!var2) { _fun0004_ip = 144; continue _fun0004 }
- 116:
-            var10 = var1.push;
-            var2 = var11.toString;
-            var2 = var2.bind(var11)();
-            var2 = var6[var2];
+            if(var2) { _fun0004_ip = 132; continue _fun0004 }
+ 71:
+            var10 = var3.value;
+            var2 = _closure1_slot3;
+            var2 = var2.bind(var6)(var8, var10);
+            if(!var2) { _fun0004_ip = 117; continue _fun0004 }
+ 89:
+            var9 = var1.push;
+            var2 = var10.toString;
+            var2 = var2.bind(var10)();
+            var2 = var5[var2];
             var2 = var2.title;
-            var2 = var10.bind(var1)(var2);
- 144:
-            var10 = var5.bind(var7)();
-            var2 = var10.done;
-            var3 = var10;
-            if(!var2) { _fun0004_ip = 74; continue _fun0004 }
- 159:
+            var2 = var9.bind(var1)(var2);
+ 117:
+            var9 = var4.bind(var6)();
+            var2 = var9.done;
+            var3 = var9;
+            if(!var2) { _fun0004_ip = 71; continue _fun0004 }
+ 132:
             return var1;
         }
     };

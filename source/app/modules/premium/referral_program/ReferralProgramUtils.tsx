@@ -15,7 +15,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var6['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var6);
-    var1 = 6;
+    var1 = 5;
     var4 = var4[var1];
     var1 = undefined;
     var6 = var5.bind(var1)(var4);
@@ -146,68 +146,47 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var1 = arg1;
-            var4 = var1.trialOffer;
-            var2 = _closure1_slot1;
-            var3 = _closure1_slot2;
-            var1 = 4;
-            var1 = var3[var1];
-            var10 = undefined;
-            var3 = var2.bind(var10)(var1);
-            var2 = var3.useExperiment;
-            var1 = {};
-            var5 = 'useIsReferralProgramBadgeShowable';
-            var1['location'] = var5;
-            var6 = var2.bind(var3)(var1);
-            var2 = var6.enabled;
-            var1 = false;
-            if(!(var1 !== var2)) { _fun0002_ip = 238; continue _fun0002 }
- 71:
-            var2 = null;
-            if(!(var2 != var4)) { _fun0002_ip = 236; continue _fun0002 }
- 80:
-            var2 = var4.referrer_id;
-            var2 = var10 !== var2;
-            var3 = var4.redeemed_at;
-            var5 = var10 === var3;
-            var3 = global;
-            var8 = var3.Date;
-            var9 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var7 = 5;
-            var7 = var11[var7];
-            var9 = var9.bind(var10)(var7);
-            var7 = var9.extractTimestamp;
-            var4 = var4.id;
-            var12 = var7.bind(var9)(var4);
-            var7 = var8.prototype;
-            var7 = Object.create(var7, {constructor: {value: var8}});
-            var13 = var7;
-            var4 = new var13[var8](var12, var11);
-            var4 = var4 instanceof Object ? var4 : var7;
-            var7 = var4.setDate;
-            var8 = var4.getDate;
-            var8 = var8.bind(var4)();
-            var6 = var6.nDelayDays;
-            var6 = var8 + var6;
-            var6 = var7.bind(var4)(var6);
-            var3 = var3.Date;
-            var6 = var3.prototype;
-            var6 = Object.create(var6, {constructor: {value: var3}});
-            var13 = var6;
-            var3 = new var13[var3](var12);
-            var3 = var3 instanceof Object ? var3 : var6;
-            if(!var2) { _fun0002_ip = 227; continue _fun0002 }
- 224:
-            var2 = var5;
- 227:
-            if(!var2) { _fun0002_ip = 234; continue _fun0002 }
- 230:
-            var2 = var3 >= var4;
- 234:
-            return var2;
- 236:
+            var3 = var1.trialOffer;
+            var1 = null;
+            if(!(var1 != var3)) { _fun0002_ip = 148; continue _fun0002 }
+ 18:
+            var1 = var3.referrer_id;
+            var8 = undefined;
+            var1 = var8 !== var1;
+            var2 = var3.redeemed_at;
+            var4 = var8 === var2;
+            var2 = global;
+            var6 = var2.Date;
+            var7 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var5 = 4;
+            var5 = var9[var5];
+            var7 = var7.bind(var8)(var5);
+            var5 = var7.extractTimestamp;
+            var3 = var3.id;
+            var10 = var5.bind(var7)(var3);
+            var5 = var6.prototype;
+            var5 = Object.create(var5, {constructor: {value: var6}});
+            var11 = var5;
+            var3 = new var11[var6](var10, var9);
+            var3 = var3 instanceof Object ? var3 : var5;
+            var2 = var2.Date;
+            var5 = var2.prototype;
+            var5 = Object.create(var5, {constructor: {value: var2}});
+            var11 = var5;
+            var2 = new var11[var2](var10);
+            var2 = var2 instanceof Object ? var2 : var5;
+            if(!var1) { _fun0002_ip = 139; continue _fun0002 }
+ 136:
+            var1 = var4;
+ 139:
+            if(!var1) { _fun0002_ip = 146; continue _fun0002 }
+ 142:
+            var1 = var2 >= var3;
+ 146:
             return var1;
- 238:
+ 148:
+            var1 = false;
             return var1;
         }
     };

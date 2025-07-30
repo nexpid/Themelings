@@ -5,9 +5,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var3 = native6;
     var6 = native7;
     var _closure1_slot0 = var5;
-    var1 = native4;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -231,8 +229,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var1.role;
             var2 = var1.isPreviewingRoles;
             var4 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var7 = 13;
+            var1 = _closure1_slot1;
+            var7 = 14;
             var1 = var1[var7];
             var3 = undefined;
             var4 = var4.bind(var3)(var1);
@@ -247,7 +245,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!var4) { _fun0005_ip = 223; continue _fun0005 }
  80:
             var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot1;
             var4 = var4[var7];
             var7 = var5.bind(var3)(var4);
             var4 = var7.isSubscriptionRoleAvailableForPurchase;
@@ -302,7 +300,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = function isChannelSubscriptionGatedInGuild(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            var12 = arg1;
+            var10 = arg1;
             var8 = arg2;
             var3 = var8.features;
             var2 = var3.has;
@@ -321,119 +319,112 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = false;
             return var1;
  71:
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var2 = var3.isViewingServerShop;
             var1 = var8.id;
             var6 = var2.bind(var3)(var1);
             var1 = global;
-            var4 = var1.Object;
-            var3 = var4.keys;
-            var2 = var12.permissionOverwrites;
-            var10 = var3.bind(var4)(var2);
-            var2 = var10.length;
-            var5 = 0;
-            var2 = var5 < var2;
-            var4 = 14;
-            var3 = undefined;
-            var9 = 0;
-            if(!var2) { _fun0006_ip = 251; continue _fun0006 }
- 136:
-            var11 = var10[var9];
-            var14 = _closure1_slot12;
-            var13 = var14.getRole;
-            var2 = var8.id;
-            var14 = var13.bind(var14)(var2, var11);
-            var13 = _closure1_slot22;
-            var2 = {};
-            var15 = var8.id;
-            var2['guildId'] = var15;
-            var2['role'] = var14;
-            var2['isPreviewingRoles'] = var6;
-            var2 = var13.bind(var3)(var2);
-            if(!var2) { _fun0006_ip = 239; continue _fun0006 }
- 194:
-            var2 = var12.permissionOverwrites;
-            var13 = var2[var11];
-            var11 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var4];
-            var11 = var11.bind(var3)(var2);
-            var2 = var11.isChannelAccessGrantedBy;
-            var2 = var2.bind(var11)(var12, var13);
-            if(var2) { _fun0006_ip = 508; continue _fun0006 }
- 239:
-            var9 = var9 + 1;
-            var2 = var10.length;
-            if(var9 < var2) { _fun0006_ip = 136; continue _fun0006 }
- 251:
-            var9 = _closure1_slot12;
-            var2 = var9.getEveryoneRole;
-            var9 = var2.bind(var9)(var8);
-            var11 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var10 = 15;
-            var10 = var2[var10];
-            var13 = var11.bind(var3)(var10);
-            var11 = var13.has;
-            var10 = var9.permissions;
-            var9 = _closure1_slot15;
-            var9 = var9.VIEW_CHANNEL;
-            var9 = var11.bind(var13)(var10, var9);
-            var9 = !var9;
-            var10 = _closure1_slot0;
-            var2 = var2[var4];
-            var11 = var10.bind(var3)(var2);
-            var10 = var11.isChannelAccessDeniedBy;
-            var13 = var12.permissionOverwrites;
-            var2 = var8.id;
-            var2 = var13[var2];
-            var2 = var10.bind(var11)(var12, var2);
-            if(!var9) { _fun0006_ip = 504; continue _fun0006 }
- 362:
-            if(var2) { _fun0006_ip = 504; continue _fun0006 }
- 368:
-            var9 = var1.Object;
-            var2 = var9.values;
-            var11 = _closure1_slot12;
-            var10 = var11.getRoles;
+            var3 = var1.Object;
+            var2 = var3.keys;
+            var1 = var10.permissionOverwrites;
+            var3 = var2.bind(var3)(var1);
+            var1 = var3.length;
+            var2 = 0;
+            var1 = var2 < var1;
+            var5 = 15;
+            var4 = undefined;
+            if(!var1) { _fun0006_ip = 249; continue _fun0006 }
+ 134:
+            var9 = var3[var2];
+            var12 = _closure1_slot12;
+            var11 = var12.getRole;
             var1 = var8.id;
-            var1 = var10.bind(var11)(var1);
-            var2 = var2.bind(var9)(var1);
-            var1 = var2.length;
-            var1 = var5 < var1;
-            var5 = 0;
-            if(!var1) { _fun0006_ip = 504; continue _fun0006 }
- 418:
-            var10 = var2[var5];
+            var12 = var11.bind(var12)(var1, var9);
+            var11 = _closure1_slot22;
+            var1 = {};
+            var13 = var8.id;
+            var1['guildId'] = var13;
+            var1['role'] = var12;
+            var1['isPreviewingRoles'] = var6;
+            var1 = var11.bind(var4)(var1);
+            if(!var1) { _fun0006_ip = 237; continue _fun0006 }
+ 192:
+            var1 = var10.permissionOverwrites;
+            var11 = var1[var9];
+            var9 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var5];
+            var9 = var9.bind(var4)(var1);
+            var1 = var9.isChannelAccessGrantedBy;
+            var1 = var1.bind(var9)(var10, var11);
+            if(var1) { _fun0006_ip = 478; continue _fun0006 }
+ 237:
+            var2 = var2 + 1;
+            var1 = var3.length;
+            if(var2 < var1) { _fun0006_ip = 134; continue _fun0006 }
+ 249:
+            var2 = _closure1_slot12;
+            var1 = var2.getEveryoneRole;
+            var3 = var1.bind(var2)(var8);
+            var2 = _closure1_slot9;
+            var1 = _closure1_slot15;
+            var1 = var1.VIEW_CHANNEL;
+            var1 = var2.bind(var4)(var3, var1);
+            var2 = !var1;
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var5];
+            var9 = var3.bind(var4)(var1);
+            var3 = var9.isChannelAccessDeniedBy;
+            var11 = var10.permissionOverwrites;
+            var1 = var8.id;
+            var1 = var11[var1];
+            var1 = var3.bind(var9)(var10, var1);
+            if(!var2) { _fun0006_ip = 474; continue _fun0006 }
+ 337:
+            if(var1) { _fun0006_ip = 474; continue _fun0006 }
+ 343:
+            var2 = _closure1_slot20;
+            var9 = _closure1_slot12;
+            var3 = var9.getSortedRoles;
+            var1 = var8.id;
+            var1 = var3.bind(var9)(var1);
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.bind(var4)();
+            var1 = var2.done;
+            if(var1) { _fun0006_ip = 474; continue _fun0006 }
+ 384:
+            var10 = var2.value;
             var9 = _closure1_slot22;
             var1 = {};
             var11 = var8.id;
             var1['guildId'] = var11;
             var1['role'] = var10;
             var1['isPreviewingRoles'] = var6;
-            var1 = var9.bind(var3)(var1);
-            if(!var1) { _fun0006_ip = 486; continue _fun0006 }
- 455:
+            var1 = var9.bind(var4)(var1);
+            if(!var1) { _fun0006_ip = 453; continue _fun0006 }
+ 422:
             var9 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var1 = var1[var4];
-            var9 = var9.bind(var3)(var1);
-            var1 = var9.isAllChannelsRole;
+            var1 = _closure1_slot1;
+            var1 = var1[var5];
+            var9 = var9.bind(var4)(var1);
+            var1 = var9.hasViewChannelPermission;
             var1 = var1.bind(var9)(var10);
-            if(var1) { _fun0006_ip = 500; continue _fun0006 }
- 486:
-            var5 = var5 + 1;
-            var1 = var2.length;
-            if(var5 < var1) { _fun0006_ip = 418; continue _fun0006 }
- 498:
-            _fun0006_ip = 504; continue _fun0006;
- 500:
+            if(var1) { _fun0006_ip = 470; continue _fun0006 }
+ 453:
+            var9 = var3.bind(var4)();
+            var1 = var9.done;
+            var2 = var9;
+            if(var1) { _fun0006_ip = 474; continue _fun0006 }
+ 468:
+            _fun0006_ip = 384; continue _fun0006;
+ 470:
             var1 = true;
             return var1;
- 504:
+ 474:
             var1 = false;
             return var1;
- 508:
+ 478:
             var1 = true;
             return var1;
         }
@@ -551,53 +542,58 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8 = var6[var1];
     var1 = undefined;
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot3 = var8;
+    var _closure1_slot2 = var8;
     var8 = 1;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot4 = var8;
+    var _closure1_slot3 = var8;
     var8 = 2;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot5 = var8;
+    var _closure1_slot4 = var8;
     var8 = 3;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot6 = var8;
+    var _closure1_slot5 = var8;
     var8 = 4;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot7 = var8;
+    var _closure1_slot6 = var8;
     var8 = 5;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot8 = var8;
+    var _closure1_slot7 = var8;
     var8 = 6;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var8 = var8.THREAD_CHANNEL_TYPES;
-    var _closure1_slot9 = var8;
+    var _closure1_slot8 = var8;
     var8 = 7;
     var8 = var6[var8];
-    var8 = var7.bind(var1)(var8);
-    var _closure1_slot10 = var8;
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.hasPermission;
+    var _closure1_slot9 = var8;
     var8 = 8;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot11 = var8;
+    var _closure1_slot10 = var8;
     var8 = 9;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot12 = var8;
+    var _closure1_slot11 = var8;
     var8 = 10;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot13 = var8;
+    var _closure1_slot12 = var8;
     var8 = 11;
     var8 = var6[var8];
     var8 = var7.bind(var1)(var8);
-    var _closure1_slot14 = var8;
+    var _closure1_slot13 = var8;
     var8 = 12;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot14 = var8;
+    var8 = 13;
     var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var13 = var8.Permissions;
@@ -624,12 +620,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = this;
                 var3 = undefined;
                 var5 = undefined;
-                var1 = _closure1_slot3;
+                var1 = _closure1_slot2;
                 var2 = _closure2_slot0;
                 var1 = var1.bind(var3)(var4, var2);
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
-                var2 = _closure1_slot5;
+                var2 = _closure1_slot4;
                 var1 = _closure1_slot19;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0009_ip = 69; continue _fun0009 }
@@ -643,7 +639,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = global;
                 var8 = var7.Reflect;
                 var7 = var8.construct;
-                var6 = _closure1_slot6;
+                var6 = _closure1_slot5;
                 var6 = var6.bind(var3)(var4);
                 var6 = var6.constructor;
                 var5 = arguments;
@@ -654,11 +650,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var _closure2_slot0 = var4;
-        var5 = _closure1_slot7;
+        var5 = _closure1_slot6;
         var3 = undefined;
         var2 = arg1;
         var2 = var5.bind(var3)(var4, var2);
-        var2 = _closure1_slot4;
+        var2 = _closure1_slot3;
         var5 = {};
         var1 = 'initialize';
         var5['key'] = var1;
@@ -668,11 +664,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = _closure1_slot13;
             var10 = _closure1_slot12;
             var9 = _closure1_slot10;
-            var8 = _closure1_slot8;
+            var8 = _closure1_slot7;
             var12 = var7;
             var2 = var12[var6](var11, var10, var9, var8, var7);
             var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot1;
             var1 = 19;
             var2 = var2[var1];
             var1 = undefined;
@@ -730,7 +726,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(!var5) { _fun0010_ip = 261; continue _fun0010 }
  119:
                 var6 = _closure1_slot0;
-                var7 = _closure1_slot2;
+                var7 = _closure1_slot1;
                 var5 = 16;
                 var5 = var7[var5];
                 var11 = undefined;
@@ -740,7 +736,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(var5) { _fun0010_ip = 189; continue _fun0010 }
  155:
                 var6 = _closure1_slot0;
-                var7 = _closure1_slot2;
+                var7 = _closure1_slot1;
                 var5 = 17;
                 var5 = var7[var5];
                 var6 = var6.bind(var11)(var5);
@@ -842,7 +838,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  64:
                 if(var3) { _fun0012_ip = 98; continue _fun0012 }
  67:
-                var7 = _closure1_slot9;
+                var7 = _closure1_slot8;
                 var6 = var7.has;
                 var8 = var1 == var2;
                 var1 = undefined;
@@ -943,7 +939,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var1.guildId;
             var6 = var1.restrictions;
             var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot1;
             var1 = 18;
             var2 = var2[var1];
             var1 = undefined;

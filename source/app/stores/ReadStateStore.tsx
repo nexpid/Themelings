@@ -1814,49 +1814,49 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var2.bind(var1)(var3);
         return var1;
     };
-    var14 = function handleSearchFinish(arg1) {
-        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
- 0:
+    var14 = function handleSearchMessagesSuccess(arg1) {
+        var1 = arg1;
+        var3 = var1.data;
+        var2 = var3.forEach;
+        var1 = function(arg1) {
             var1 = arg1;
-            var5 = var1.messages;
+            var4 = var1.messages;
             var3 = var1.threads;
-            var4 = _closure1_slot82;
-            var1 = undefined;
-            var7 = var4.bind(var1)(var5);
-            var5 = var7.bind(var1)();
-            var4 = var5.done;
-            var6 = 57;
-            if(var4) { _fun0029_ip = 123; continue _fun0029 }
- 46:
-            var9 = _closure1_slot96;
-            var11 = var5.value;
-            var10 = var11.map;
-            var4 = function(arg1) {
-                var1 = arg1;
-                var1 = var1.thread;
+            var2 = var4.forEach;
+            var1 = function(arg1) {
+                var5 = arg1;
+                var3 = _closure1_slot96;
+                var4 = var5.map;
+                var2 = function(arg1) {
+                    var1 = arg1;
+                    var1 = var1.thread;
+                    return var1;
+                };
+                var5 = var4.bind(var5)(var2);
+                var4 = var5.filter;
+                var6 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 57;
+                var2 = var2[var1];
+                var1 = undefined;
+                var2 = var6.bind(var1)(var2);
+                var2 = var2.isNotNullish;
+                var2 = var4.bind(var5)(var2);
+                var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var11 = var10.bind(var11)(var4);
-            var10 = var11.filter;
-            var12 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var4 = var4[var6];
-            var4 = var12.bind(var1)(var4);
-            var4 = var4.isNotNullish;
-            var4 = var10.bind(var11)(var4);
-            var4 = var9.bind(var1)(var4);
-            var9 = var7.bind(var1)();
-            var4 = var9.done;
-            var5 = var9;
-            if(!var4) { _fun0029_ip = 46; continue _fun0029 }
- 123:
+            var1 = var2.bind(var4)(var1);
             var2 = _closure1_slot96;
+            var1 = undefined;
             var2 = var2.bind(var1)(var3);
             return var1;
-        }
+        };
+        var1 = var2.bind(var3)(var1);
+        var1 = undefined;
+        return var1;
     };
     var1 = function currentUserIsEventCreator(arg1) {
-        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
  0:
             var3 = arg1;
             var2 = _closure1_slot39;
@@ -1865,11 +1865,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var3.creator_id;
             var4 = null;
             var1 = var4 != var1;
-            if(!var1) { _fun0030_ip = 38; continue _fun0030 }
+            if(!var1) { _fun0029_ip = 38; continue _fun0029 }
  34:
             var1 = var4 != var2;
  38:
-            if(!var1) { _fun0030_ip = 56; continue _fun0030 }
+            if(!var1) { _fun0029_ip = 56; continue _fun0029 }
  41:
             var3 = var3.creator_id;
             var2 = var2.id;
@@ -1889,14 +1889,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var1 = function handleChannelSectionStoreUpdate() {
-        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
  0:
             var3 = _closure1_slot28;
             var2 = var3.getCurrentSidebarChannelId;
             var1 = _closure1_slot64;
             var3 = var2.bind(var3)(var1);
             var1 = _closure1_slot65;
-            if(!(var1 === var3)) { _fun0031_ip = 95; continue _fun0031 }
+            if(!(var1 === var3)) { _fun0030_ip = 95; continue _fun0030 }
  30:
             var5 = _closure1_slot102;
             var2 = {};
@@ -1911,11 +1911,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['objectType'] = var1;
             var1 = undefined;
             var1 = var5.bind(var1)(var2, var3);
-            if(var1) { _fun0031_ip = 93; continue _fun0031 }
+            if(var1) { _fun0030_ip = 93; continue _fun0030 }
  91:
             var1 = false;
  93:
-            _fun0031_ip = 114; continue _fun0031;
+            _fun0030_ip = 114; continue _fun0030;
  95:
             var6 = _closure1_slot109;
             var5 = _closure1_slot65;
@@ -1928,11 +1928,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var _closure1_slot107 = var1;
     var1 = function clearManualAck(arg1) {
-        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
+        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
  0:
             var3 = arg1;
             var1 = null;
-            if(!(var1 != var3)) { _fun0032_ip = 34; continue _fun0032 }
+            if(!(var1 != var3)) { _fun0031_ip = 34; continue _fun0031 }
  9:
             var2 = _closure1_slot78;
             var1 = var2.get;
@@ -1946,11 +1946,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var _closure1_slot108 = var1;
     var1 = function clearOldestUnreadMessageId(arg1) {
-        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
+        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
  0:
             var4 = arg1;
             var3 = null;
-            if(!(var3 != var4)) { _fun0033_ip = 52; continue _fun0033 }
+            if(!(var3 != var4)) { _fun0032_ip = 52; continue _fun0032 }
  9:
             var2 = _closure1_slot78;
             var1 = var2.get;
@@ -1958,7 +1958,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.hasUnread;
             var1 = var1.bind(var2)();
             var1 = !var1;
-            if(!var1) { _fun0033_ip = 50; continue _fun0033 }
+            if(!var1) { _fun0032_ip = 50; continue _fun0032 }
  42:
             var2['oldestUnreadMessageId'] = var3;
             var1 = true;
@@ -1971,7 +1971,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var _closure1_slot109 = var1;
     var16 = function handleMessageAck(arg1) {
-        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
+        _fun0033: for(var _fun0033_ip = 0; ; ) switch(_fun0033_ip) {
  0:
             var2 = arg1;
             var4 = var2.channelId;
@@ -1981,18 +1981,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot78;
             var2 = var3.get;
             var4 = var2.bind(var3)(var4);
-            if(var1) { _fun0034_ip = 91; continue _fun0034 }
+            if(var1) { _fun0033_ip = 91; continue _fun0033 }
  45:
             var1 = var4._ackMessageId;
             var1 = var6 !== var1;
-            if(!var1) { _fun0034_ip = 89; continue _fun0034 }
+            if(!var1) { _fun0033_ip = 89; continue _fun0033 }
  58:
             var3 = var4.ack;
             var2 = {'messageId': null, 'local': true, 'trackAnalytics': false};
             var2['messageId'] = var6;
             var1 = var3.bind(var4)(var2);
  89:
-            _fun0034_ip = 118; continue _fun0034;
+            _fun0033_ip = 118; continue _fun0033;
  91:
             var3 = var4.rebuildChannelState;
             var2 = true;
@@ -2018,7 +2018,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var _closure1_slot111 = var12;
     var1 = function handleNonChannelAck(arg1, arg2, arg3, arg4) {
-        _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
+        _fun0034: for(var _fun0034_ip = 0; ; ) switch(_fun0034_ip) {
  0:
             var8 = arg3;
             var7 = arg4;
@@ -2029,30 +2029,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var4.bind(var5)(var2, var1);
             var1 = var5.ackMessageId;
             var1 = var8 !== var1;
-            if(!var1) { _fun0035_ip = 59; continue _fun0035 }
+            if(!var1) { _fun0034_ip = 59; continue _fun0034 }
  43:
             var4 = var5.lastMessageId;
             var2 = var5.ackMessageId;
             var1 = var4 !== var2;
  59:
-            if(!var1) { _fun0035_ip = 194; continue _fun0035 }
+            if(!var1) { _fun0034_ip = 194; continue _fun0034 }
  65:
             var2 = var5.lastMessageId;
             var6 = null;
             var2 = var6 != var2;
-            if(var2) { _fun0035_ip = 92; continue _fun0035 }
+            if(var2) { _fun0034_ip = 92; continue _fun0034 }
  80:
             var9 = var5.mentionCount;
             var4 = 0;
             var2 = var4 !== var9;
  92:
-            if(!var2) { _fun0035_ip = 191; continue _fun0035 }
+            if(!var2) { _fun0034_ip = 191; continue _fun0034 }
  95:
-            if(!(var6 == var8)) { _fun0035_ip = 105; continue _fun0035 }
+            if(!(var6 == var8)) { _fun0034_ip = 105; continue _fun0034 }
  99:
             var8 = var5.lastMessageId;
  105:
-            if(!(var6 == var8)) { _fun0035_ip = 152; continue _fun0035 }
+            if(!(var6 == var8)) { _fun0034_ip = 152; continue _fun0034 }
  109:
             var9 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -2069,7 +2069,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = {};
             var3['messageId'] = var8;
             var6 = var6 == var7;
-            if(var6) { _fun0035_ip = 174; continue _fun0035 }
+            if(var6) { _fun0034_ip = 174; continue _fun0034 }
  171:
             var6 = var7;
  174:
@@ -2343,14 +2343,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = 'addWindowId';
         var1['key'] = var2;
         var2 = function value(arg1, arg2) {
-            _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
+            _fun0035: for(var _fun0035_ip = 0; ; ) switch(_fun0035_ip) {
  0:
                 var2 = arg1;
                 var1 = this;
                 var3 = var1.channelWindowIds;
                 var4 = var3[var2];
                 var3 = null;
-                if(!(var3 == var4)) { _fun0036_ip = 60; continue _fun0036 }
+                if(!(var3 == var4)) { _fun0035_ip = 60; continue _fun0035 }
  22:
                 var4 = var1.channelWindowIds;
                 var3 = global;
@@ -2372,13 +2372,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var1['value'] = var2;
-        var2 = new Array(7);
+        var2 = new Array(8);
         var2[0] = var1;
         var1 = {};
         var6 = 'hasWindowId';
         var1['key'] = var6;
         var6 = function value(arg1, arg2) {
-            _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
+            _fun0036: for(var _fun0036_ip = 0; ; ) switch(_fun0036_ip) {
  0:
                 var3 = arg1;
                 var2 = this;
@@ -2386,7 +2386,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var1[var3];
                 var1 = null;
                 var1 = var1 != var4;
-                if(!var1) { _fun0037_ip = 48; continue _fun0037 }
+                if(!var1) { _fun0036_ip = 48; continue _fun0036 }
  25:
                 var2 = var2.channelWindowIds;
                 var4 = var2[var3];
@@ -2403,7 +2403,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = 'isChannelAckable';
         var1['key'] = var6;
         var6 = function value(arg1) {
-            _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
+            _fun0037: for(var _fun0037_ip = 0; ; ) switch(_fun0037_ip) {
  0:
                 var3 = arg1;
                 var2 = this;
@@ -2411,7 +2411,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var1[var3];
                 var1 = null;
                 var1 = var1 != var4;
-                if(!var1) { _fun0038_ip = 46; continue _fun0038 }
+                if(!var1) { _fun0037_ip = 46; continue _fun0037 }
  25:
                 var2 = var2.channelWindowIds;
                 var2 = var2[var3];
@@ -2428,14 +2428,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = 'getAllWindowIds';
         var1['key'] = var6;
         var6 = function value(arg1) {
-            _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
+            _fun0038: for(var _fun0038_ip = 0; ; ) switch(_fun0038_ip) {
  0:
                 var4 = arg1;
                 var1 = this;
                 var2 = var1.channelWindowIds;
                 var3 = var2[var4];
                 var2 = null;
-                if(!(var2 != var3)) { _fun0039_ip = 52; continue _fun0039 }
+                if(!(var2 != var3)) { _fun0038_ip = 52; continue _fun0038 }
  22:
                 var2 = global;
                 var3 = var2.Array;
@@ -2443,7 +2443,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1.channelWindowIds;
                 var1 = var1[var4];
                 var1 = var2.bind(var3)(var1);
-                _fun0039_ip = 56; continue _fun0039;
+                _fun0038_ip = 56; continue _fun0038;
  52:
                 var1 = new Array(0);
  56:
@@ -2452,6 +2452,64 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         };
         var1['value'] = var6;
         var2[3] = var1;
+        var1 = {};
+        var6 = 'getAllChannelIdsForWindowId';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            _fun0039: for(var _fun0039_ip = 0; ; ) switch(_fun0039_ip) {
+ 0:
+                var11 = arg1;
+                var1 = global;
+                var2 = var1.Set;
+                var3 = var2.prototype;
+                var3 = Object.create(var3, {constructor: {value: var2}});
+                var16 = var3;
+                var2 = new var16[var2](var15);
+                var3 = var2 instanceof Object ? var2 : var3;
+                var4 = _closure1_slot82;
+                var5 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var2 = 40;
+                var2 = var6[var2];
+                var9 = undefined;
+                var6 = var5.bind(var9)(var2);
+                var5 = var6.entries;
+                var2 = this;
+                var2 = var2.channelWindowIds;
+                var2 = var5.bind(var6)(var2);
+                var8 = var4.bind(var9)(var2);
+                var4 = var8.bind(var9)();
+                var2 = var4.done;
+                var7 = 2;
+                var6 = 0;
+                var5 = 1;
+                if(var2) { _fun0039_ip = 166; continue _fun0039 }
+ 105:
+                var12 = var4.value;
+                var2 = _closure1_slot7;
+                var2 = var2.bind(var9)(var12, var7);
+                var12 = var2[var6];
+                var13 = var2[var5];
+                var2 = var13.has;
+                var2 = var2.bind(var13)(var11);
+                if(!var2) { _fun0039_ip = 151; continue _fun0039 }
+ 141:
+                var2 = var3.add;
+                var2 = var2.bind(var3)(var12);
+ 151:
+                var12 = var8.bind(var9)();
+                var2 = var12.done;
+                var4 = var12;
+                if(!var2) { _fun0039_ip = 105; continue _fun0039 }
+ 166:
+                var2 = var1.Array;
+                var1 = var2.from;
+                var1 = var1.bind(var2)(var3);
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[4] = var1;
         var1 = {};
         var6 = 'isAnyWindowFocused';
         var1['key'] = var6;
@@ -2496,7 +2554,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var1['value'] = var6;
-        var2[4] = var1;
+        var2[5] = var1;
         var1 = {};
         var6 = 'removeWindowId';
         var1['key'] = var6;
@@ -2529,7 +2587,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var1['value'] = var6;
-        var2[5] = var1;
+        var2[6] = var1;
         var1 = {};
         var6 = 'forEachChannel';
         var1['key'] = var6;
@@ -2571,7 +2629,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var1['value'] = var5;
-        var2[6] = var1;
+        var2[7] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
@@ -5659,7 +5717,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(29);
+        var1 = new Array(30);
         var1[0] = var5;
         var5 = {};
         var7 = 'getReadStatesByChannel';
@@ -6605,7 +6663,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = {};
         var7 = 'getSnapshot';
         var5['key'] = var7;
-        var6 = function value(arg1, arg2) {
+        var7 = function value(arg1, arg2) {
             _fun0125: for(var _fun0125_ip = 0; ; ) switch(_fun0125_ip) {
  0:
                 var3 = _closure1_slot78;
@@ -6635,8 +6693,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[28] = var5;
+        var5 = {};
+        var7 = 'getChannelIdsForWindowId';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            var3 = _closure1_slot71;
+            var2 = var3.getAllChannelIdsForWindowId;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[29] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -8120,8 +8190,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5['THREAD_LIST_SYNC'] = var16;
     var5['LOAD_THREADS_SUCCESS'] = var15;
     var5['LOAD_ARCHIVED_THREADS_SUCCESS'] = var15;
-    var5['SEARCH_FINISH'] = var14;
-    var5['MOD_VIEW_SEARCH_FINISH'] = var14;
+    var5['SEARCH_MESSAGES_SUCCESS'] = var14;
+    var5['MOD_VIEW_SEARCH_MESSAGES_SUCCESS'] = var14;
     var14 = function handleThreadMemberUpdate(arg1) {
         var1 = arg1;
         var3 = var1.id;

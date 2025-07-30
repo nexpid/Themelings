@@ -1429,7 +1429,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var4[var3];
                 var3 = undefined;
                 var4 = var5.bind(var3)(var4);
-                var3 = var4.isAllChannelsRole;
+                var3 = var4.hasViewChannelPermission;
                 var1 = _closure2_slot0;
                 var1 = var3.bind(var4)(var1);
                 var2 = _closure1_slot9;

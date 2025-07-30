@@ -1118,7 +1118,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = _closure1_slot19;
             var6 = var7.get;
             var7 = var6.bind(var7)(var5);
-            if(!(var1 == var7)) { _fun0009_ip = 144; continue _fun0009 }
+            if(!(var1 == var7)) { _fun0009_ip = 148; continue _fun0009 }
  98:
             var6 = {'connectedAccounts': null, 'applicationRoleConnections': null, 'premiumSince': null, 'premiumGuildSince': null, 'application': null, 'legacyUsername': null, 'userId': null, 'banner': null, 'accentColor': null, 'bio': '', 'pronouns': '', 'premiumType': null, 'fetchStartedAt': 0, 'fetchEndedAt': 0};
             var8 = new Array(0);
@@ -1129,7 +1129,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = undefined;
             var6['fetchError'] = var8;
             var7 = var6;
- 144:
+ 148:
             var7['fetchStartedAt'] = var4;
             var4 = global;
             var6 = var4.Date;
@@ -1143,13 +1143,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var1 == var3;
             var1 = undefined;
             var4 = undefined;
-            if(var6) { _fun0009_ip = 210; continue _fun0009 }
- 205:
+            if(var6) { _fun0009_ip = 214; continue _fun0009 }
+ 209:
             var4 = var3.status;
- 210:
+ 214:
             var3 = 404;
-            if(!(var3 === var4)) { _fun0009_ip = 275; continue _fun0009 }
- 220:
+            if(!(var3 === var4)) { _fun0009_ip = 279; continue _fun0009 }
+ 224:
             var6 = _closure1_slot24;
             var4 = var6.set;
             var3 = 0;
@@ -1162,7 +1162,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.set;
             var2 = _closure1_slot27;
             var2 = var3.bind(var4)(var5, var2);
- 275:
+ 279:
             return var1;
         }
     };

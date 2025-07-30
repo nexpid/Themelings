@@ -27,32 +27,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = function getCurrentRole(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            var5 = arg1;
+            var4 = arg1;
             var6 = arg2;
-            var1 = null;
-            if(!(var1 != var5)) { _fun0002_ip = 77; continue _fun0002 }
- 12:
-            if(!(var1 != var6)) { _fun0002_ip = 77; continue _fun0002 }
- 16:
-            var4 = _closure1_slot2;
-            var2 = var4.getMember;
-            var2 = var2.bind(var4)(var5, var6);
-            if(!(var1 != var2)) { _fun0002_ip = 75; continue _fun0002 }
- 39:
-            var4 = _closure1_slot3;
-            var3 = var4.getRoles;
-            var4 = var3.bind(var4)(var5);
-            var3 = var2.colorRoleId;
-            var5 = var1 == var3;
             var2 = null;
-            if(var5) { _fun0002_ip = 73; continue _fun0002 }
- 69:
-            var2 = var4[var3];
- 73:
+            if(!(var2 != var4)) { _fun0002_ip = 49; continue _fun0002 }
+ 12:
+            if(!(var2 != var6)) { _fun0002_ip = 49; continue _fun0002 }
+ 16:
+            var5 = _closure1_slot2;
+            var3 = var5.getMember;
+            var3 = var3.bind(var5)(var4, var6);
+            if(!(var2 != var3)) { _fun0002_ip = 49; continue _fun0002 }
+ 39:
+            var3 = var3.colorRoleId;
+            if(!(var2 == var3)) { _fun0002_ip = 53; continue _fun0002 }
+ 49:
+            var2 = undefined;
             return var2;
- 75:
-            return var1;
- 77:
+ 53:
+            var2 = _closure1_slot3;
+            var1 = var2.getRole;
+            var1 = var1.bind(var2)(var4, var3);
             return var1;
         }
     };

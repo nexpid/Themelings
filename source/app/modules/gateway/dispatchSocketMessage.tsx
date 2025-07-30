@@ -3562,6 +3562,40 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var4 = var8.bind(var1)(var7, var4);
+    var7 = ['OAUTH2_TOKEN_CREATE'];
+    var4 = function(arg1) {
+        var1 = arg1;
+        var3 = _closure1_slot26;
+        var2 = {};
+        var4 = 'OAUTH2_TOKEN_CREATE';
+        var2['type'] = var4;
+        var4 = var1.id;
+        var2['id'] = var4;
+        var4 = var1.scopes;
+        var2['scopes'] = var4;
+        var1 = var1.application;
+        var2['application'] = var1;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
+    var7 = ['OAUTH2_TOKEN_DELETE'];
+    var4 = function(arg1) {
+        var1 = arg1;
+        var3 = _closure1_slot26;
+        var2 = {};
+        var4 = 'OAUTH2_TOKEN_DELETE';
+        var2['type'] = var4;
+        var4 = var1.id;
+        var2['id'] = var4;
+        var1 = var1.application_id;
+        var2['applicationId'] = var1;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var4 = var8.bind(var1)(var7, var4);
     var7 = ['OAUTH2_TOKEN_REVOKE'];
     var4 = function(arg1) {
         var3 = _closure1_slot26;

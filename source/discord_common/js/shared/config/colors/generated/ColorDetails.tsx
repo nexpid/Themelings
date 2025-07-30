@@ -6415,7 +6415,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2[var5] = var1;
     var5 = var4.OPACITY_1;
     var1 = {};
-    var15 = '#97979f03';
+    var15 = '#97979f05';
     var1['hex'] = var15;
     var2[var5] = var1;
     var5 = var4.OPACITY_12;
@@ -6540,7 +6540,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2[var5] = var1;
     var5 = var4.OPACITY_BLACK_1;
     var1 = {};
-    var15 = '#00000003';
+    var15 = '#00000005';
     var1['hex'] = var15;
     var2[var5] = var1;
     var5 = var4.OPACITY_BLACK_12;
@@ -6665,7 +6665,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2[var5] = var1;
     var5 = var4.OPACITY_BLUE_1;
     var1 = {};
-    var15 = '#0074e303';
+    var15 = '#0074e305';
     var1['hex'] = var15;
     var2[var5] = var1;
     var5 = var4.OPACITY_BLUE_12;
@@ -6790,7 +6790,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2[var5] = var1;
     var5 = var4.OPACITY_BLURPLE_1;
     var1 = {};
-    var15 = '#5865f203';
+    var15 = '#5865f205';
     var1['hex'] = var15;
     var2[var5] = var1;
     var5 = var4.OPACITY_BLURPLE_12;
@@ -6915,7 +6915,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2[var5] = var1;
     var5 = var4.OPACITY_GREEN_1;
     var1 = {};
-    var15 = '#00863a03';
+    var15 = '#00863a05';
     var1['hex'] = var15;
     var2[var5] = var1;
     var5 = var4.OPACITY_GREEN_12;
@@ -7040,7 +7040,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2[var5] = var1;
     var5 = var4.OPACITY_ORANGE_1;
     var1 = {};
-    var15 = '#bd4f0003';
+    var15 = '#bd4f0005';
     var1['hex'] = var15;
     var2[var5] = var1;
     var5 = var4.OPACITY_ORANGE_12;
@@ -7165,7 +7165,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2[var5] = var1;
     var5 = var4.OPACITY_PINK_1;
     var1 = {};
-    var15 = '#ff4cd203';
+    var15 = '#ff4cd205';
     var1['hex'] = var15;
     var2[var5] = var1;
     var5 = var4.OPACITY_PINK_12;
@@ -7290,7 +7290,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2[var5] = var1;
     var5 = var4.OPACITY_RED_1;
     var1 = {};
-    var15 = '#d22d3903';
+    var15 = '#d22d3905';
     var1['hex'] = var15;
     var2[var5] = var1;
     var5 = var4.OPACITY_RED_12;
@@ -7415,7 +7415,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2[var5] = var1;
     var5 = var4.OPACITY_TEAL_1;
     var1 = {};
-    var15 = '#00818a03';
+    var15 = '#00818a05';
     var1['hex'] = var15;
     var2[var5] = var1;
     var5 = var4.OPACITY_TEAL_12;
@@ -7540,7 +7540,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2[var5] = var1;
     var5 = var4.OPACITY_WHITE_1;
     var1 = {};
-    var15 = '#ffffff03';
+    var15 = '#ffffff05';
     var1['hex'] = var15;
     var2[var5] = var1;
     var5 = var4.OPACITY_WHITE_12;
@@ -7665,7 +7665,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2[var5] = var1;
     var5 = var4.OPACITY_YELLOW_1;
     var1 = {};
-    var15 = '#a1630003';
+    var15 = '#a1630005';
     var1['hex'] = var15;
     var2[var5] = var1;
     var5 = var4.OPACITY_YELLOW_12;

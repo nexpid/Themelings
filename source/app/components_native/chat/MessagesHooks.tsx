@@ -48,7 +48,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot9 = var7;
     var4 = var4.MessageFlags;
     var _closure1_slot10 = var4;
-    var4 = 15;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -365,79 +365,41 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure2_slot2 = var3;
         var6 = var2.channelId;
         var _closure2_slot3 = var6;
-        var3 = var2.customHandlers;
-        var _closure2_slot4 = var3;
         var5 = var2.screenIndex;
-        var _closure2_slot5 = var5;
+        var _closure2_slot4 = var5;
         var3 = var2.updateRows;
-        var _closure2_slot6 = var3;
-        var3 = var2.scrollToMessageId;
-        var _closure2_slot7 = var3;
-        var3 = var2.findMessageIndex;
-        var _closure2_slot8 = var3;
-        var2 = var2.chatRef;
-        var _closure2_slot9 = var2;
+        var _closure2_slot5 = var3;
+        var2 = var2.scrollToMessageId;
+        var _closure2_slot6 = var2;
         var4 = _closure1_slot4;
         var7 = var4.useEffect;
         var3 = function() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
-                var4 = _closure1_slot0;
-                var1 = _closure1_slot2;
-                var6 = 12;
-                var3 = var1[var6];
-                var1 = undefined;
-                var8 = var4.bind(var1)(var3);
-                var7 = var8.maybeRescrollToMessageId;
-                var4 = _closure2_slot4;
-                var3 = null;
-                var3 = var3 == var4;
-                var5 = undefined;
-                if(var3) { _fun0007_ip = 59; continue _fun0007 }
- 49:
-                var3 = _closure2_slot4;
-                var5 = var3.rescrollToMessegeId;
- 59:
-                var4 = {};
-                var3 = _closure2_slot9;
-                var4['chatRef'] = var3;
-                var3 = _closure2_slot8;
-                var4['findMessageIndex'] = var3;
-                var11 = _closure2_slot6;
-                var4['updateRows'] = var11;
-                var3 = false;
-                var4['updateRowsEnabled'] = var3;
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var9 = 13;
-                var9 = var2[var9];
-                var9 = var3.bind(var1)(var9);
-                var9 = var9.JumpTypes;
-                var9 = var9.INSTANT;
-                var4['jumpType'] = var9;
-                var4 = var7.bind(var8)(var5, var4);
-                var4 = var2[var6];
-                var9 = var3.bind(var1)(var4);
-                var8 = var9.syncMessageDisplay;
-                var7 = {};
-                var5 = _closure2_slot0;
-                var7['messages'] = var5;
-                var4 = _closure2_slot1;
-                var7['isMessagesReady'] = var4;
-                var4 = _closure2_slot2;
-                var7['oldestUnreadMessageId'] = var4;
-                var4 = _closure2_slot3;
-                var7['channelId'] = var4;
-                var7['updateRows'] = var11;
-                var10 = _closure2_slot7;
-                var7['scrollToMessageId'] = var10;
-                var7 = var8.bind(var9)(var7);
-                var2 = var2[var6];
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.recordTimings;
-                var2 = var2.bind(var3)(var4, var5);
-                return var1;
-            }
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 12;
+            var4 = var6[var2];
+            var1 = undefined;
+            var9 = var3.bind(var1)(var4);
+            var8 = var9.syncMessageDisplay;
+            var7 = {};
+            var5 = _closure2_slot0;
+            var7['messages'] = var5;
+            var4 = _closure2_slot1;
+            var7['isMessagesReady'] = var4;
+            var4 = _closure2_slot2;
+            var7['oldestUnreadMessageId'] = var4;
+            var4 = _closure2_slot3;
+            var7['channelId'] = var4;
+            var11 = _closure2_slot5;
+            var7['updateRows'] = var11;
+            var10 = _closure2_slot6;
+            var7['scrollToMessageId'] = var10;
+            var7 = var8.bind(var9)(var7);
+            var2 = var6[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.recordTimings;
+            var2 = var2.bind(var3)(var4, var5);
+            return var1;
         };
         var2 = new Array(0);
         var2 = var7.bind(var4)(var3, var2);
@@ -449,7 +411,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = function() {
                 var5 = _closure1_slot6;
                 var4 = _closure2_slot3;
-                var3 = _closure2_slot5;
+                var3 = _closure2_slot4;
                 var1 = undefined;
                 var2 = false;
                 var2 = var5.bind(var1)(var4, var3, var2);
@@ -516,7 +478,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = function() {
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 14;
+            var2 = 13;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
@@ -524,12 +486,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var4.prototype;
             var2 = Object.create(var2, {constructor: {value: var4}});
             var6 = function() {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                     var1 = _closure2_slot0;
                     var3 = var1.current;
                     var1 = null;
-                    if(!(var1 !== var3)) { _fun0008_ip = 41; continue _fun0008 }
+                    if(!(var1 !== var3)) { _fun0007_ip = 41; continue _fun0007 }
  18:
                     var4 = _closure1_slot5;
                     var2 = _closure2_slot0;

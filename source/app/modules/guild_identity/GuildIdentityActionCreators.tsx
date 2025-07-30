@@ -18,7 +18,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     StartGenerator();
                     var2 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 592; continue _fun0001 }
+                    if(var4) { _fun0001_ip = 650; continue _fun0001 }
  13:
                     var16 = arg1;
                     var14 = var2.nick;
@@ -26,31 +26,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = var2.avatarDescription;
                     var12 = var2.avatarId;
                     var17 = var2.avatarDecoration;
+                    var19 = var2.nameplate;
                     var6 = undefined;
                     var15 = undefined;
                     var10 = undefined;
                     var5 = undefined;
-                    SaveGenerator(address=58);
- 56:
+                    SaveGenerator(address=64);
+ 62:
                     return var6;
- 58:
+ 64:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 589; continue _fun0001 }
- 67:
+                    if(var4) { _fun0001_ip = 647; continue _fun0001 }
+ 73:
                     var4 = var16;
                     var9 = null;
-                    if(!(var9 != var4)) { _fun0001_ip = 553; continue _fun0001 }
- 79:
+                    if(!(var9 != var4)) { _fun0001_ip = 611; continue _fun0001 }
+ 85:
                     var18 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var7 = 2;
                     var8 = var8[var7];
-                    var19 = var18.bind(var6)(var8);
-                    var18 = var19.dispatch;
+                    var20 = var18.bind(var6)(var8);
+                    var18 = var20.dispatch;
                     var8 = {};
-                    var20 = 'GUILD_IDENTITY_SETTINGS_SUBMIT';
-                    var8['type'] = var20;
-                    var8 = var18.bind(var19)(var8);
+                    var21 = 'GUILD_IDENTITY_SETTINGS_SUBMIT';
+                    var8['type'] = var21;
+                    var8 = var18.bind(var20)(var8);
                     var8 = {};
                     var8['nick'] = var14;
                     var14 = var13;
@@ -60,31 +61,49 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var8['avatar_id'] = var11;
                     var14 = var9 === var17;
                     var11 = null;
-                    if(var14) { _fun0001_ip = 178; continue _fun0001 }
- 161:
-                    var19 = var9 == var17;
+                    if(var14) { _fun0001_ip = 184; continue _fun0001 }
+ 167:
+                    var20 = var9 == var17;
                     var18 = undefined;
-                    if(var19) { _fun0001_ip = 175; continue _fun0001 }
- 170:
+                    if(var20) { _fun0001_ip = 181; continue _fun0001 }
+ 176:
                     var18 = var17.id;
- 175:
+ 181:
                     var11 = var18;
- 178:
+ 184:
                     var8['avatar_decoration_id'] = var11;
                     var11 = null;
-                    if(var14) { _fun0001_ip = 206; continue _fun0001 }
- 188:
+                    if(var14) { _fun0001_ip = 212; continue _fun0001 }
+ 194:
                     var18 = var9 == var17;
                     var14 = undefined;
-                    if(var18) { _fun0001_ip = 203; continue _fun0001 }
- 197:
-                    var14 = var17.skuId;
+                    if(var18) { _fun0001_ip = 209; continue _fun0001 }
  203:
+                    var14 = var17.skuId;
+ 209:
                     var11 = var14;
- 206:
+ 212:
                     var8['avatar_decoration_sku_id'] = var11;
+                    var11 = undefined;
+                    if(!(var6 !== var19)) { _fun0001_ip = 264; continue _fun0001 }
+ 223:
+                    var14 = {};
+                    var17 = null;
+                    if(!(var17 !== var19)) { _fun0001_ip = 256; continue _fun0001 }
+ 231:
+                    var18 = {};
+                    var20 = var19.id;
+                    var18['id'] = var20;
+                    var19 = var19.skuId;
+                    var18['sku_id'] = var19;
+                    var17 = var18;
+ 256:
+                    var14['nameplate'] = var17;
+                    var11 = var14;
+ 264:
+                    var8['collectibles'] = var11;
                     var15 = var8;
- 214: // try_start_0
+ 272: // try_start_0
                     var11 = _closure1_slot0;
                     var14 = _closure1_slot2;
                     var8 = 3;
@@ -104,13 +123,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var15 = false;
                     var8['rejectWithError'] = var15;
                     var8 = var11.bind(var14)(var8);
-                    SaveGenerator(address=295);
- 293:
+                    SaveGenerator(address=353);
+ 351:
                     return var8;
- 295:
+ 353:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=10);
-                    if(var11) { _fun0001_ip = 448; continue _fun0001 }
- 304:
+                    if(var11) { _fun0001_ip = 506; continue _fun0001 }
+ 362:
                     var10 = var8;
                     var17 = var8.body;
                     var14 = _closure1_slot1;
@@ -133,12 +152,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = var14.bind(var15)(var11);
                     var13 = var9 == var13;
                     var11 = var13;
-                    if(!var13) { _fun0001_ip = 403; continue _fun0001 }
- 399:
+                    if(!var13) { _fun0001_ip = 461; continue _fun0001 }
+ 457:
                     var11 = var9 == var12;
- 403:
-                    if(var11) { _fun0001_ip = 445; continue _fun0001 }
- 406:
+ 461:
+                    if(var11) { _fun0001_ip = 503; continue _fun0001 }
+ 464:
                     var12 = _closure1_slot1;
                     var11 = _closure1_slot2;
                     var11 = var11[var7];
@@ -148,28 +167,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var14 = 'RECENT_AVATARS_UPDATE';
                     var11['type'] = var14;
                     var11 = var12.bind(var13)(var11);
- 445: // try_end0
+ 503: // try_end0
                     return var10;
- 448:
+ 506:
                     return var8;
- 451: // catch_target0
+ 509: // catch_target0
                     CatchBlockStart(arg_register=7);
                     var3 = var8;
                     var8 = var8.body;
                     var5 = var8;
                     var10 = var9 == var8;
                     var8 = undefined;
-                    if(var10) { _fun0001_ip = 481; continue _fun0001 }
- 473:
+                    if(var10) { _fun0001_ip = 539; continue _fun0001 }
+ 531:
                     var10 = var5;
                     var8 = var10.username;
- 481:
-                    if(!(var9 != var8)) { _fun0001_ip = 501; continue _fun0001 }
- 485:
+ 539:
+                    if(!(var9 != var8)) { _fun0001_ip = 559; continue _fun0001 }
+ 543:
                     var8 = var5.username;
                     var5['nick'] = var8;
                     var5 = delete var5.username;
- 501:
+ 559:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var4 = var4[var7];
@@ -182,19 +201,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4['errors'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 553:
+ 611:
                     var3 = global;
                     var5 = var3.Error;
                     var3 = var5.prototype;
                     var4 = Object.create(var3, {constructor: {value: var5}});
-                    var21 = 'Need guildId';
-                    var22 = var4;
-                    var3 = new var22[var5](var21, var20);
+                    var22 = 'Need guildId';
+                    var23 = var4;
+                    var3 = new var23[var5](var22, var21);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
- 589:
+ 647:
                     return var2;
- 592:
+ 650:
                     return var1;
                 }
             };
@@ -432,6 +451,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var3['setPendingThemeColors'] = var4;
+    var4 = function setGuildMemberPendingNameplate(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 2;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'GUILD_IDENTITY_SETTINGS_SET_PENDING_NAMEPLATE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['nameplate'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['setGuildMemberPendingNameplate'] = var4;
     var4 = function resetPendingMemberChanges() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

@@ -721,7 +721,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5[0] = var6;
             var6 = var10.username;
             var5[1] = var6;
-            var6 = var10.isPomelo;
+            var6 = var10.hasUniqueUsername;
             var6 = var6.bind(var10)();
             var6 = !var6;
             if(!var6) { _fun0006_ip = 282; continue _fun0006 }
@@ -1309,7 +1309,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                             var3 = _closure3_slot0;
                             var4 = var3.username;
-                            var2 = var3.isPomelo;
+                            var2 = var3.hasUniqueUsername;
                             var5 = var2.bind(var3)();
                             var3 = '';
                             var2 = var3;

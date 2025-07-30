@@ -291,7 +291,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var6.bind(var4)(var3);
             var3 = var6.useNullableUserAuthor;
             var3 = var3.bind(var6)(var14, var15);
-            var16 = var3.colorString;
+            var17 = var3.colorString;
             var6 = _closure1_slot13;
             var3 = {};
             var3['user'] = var12;
@@ -338,36 +338,48 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = 'username';
             var3 = var3 === var11;
             var6 = var5;
-            if(!var3) { _fun0002_ip = 738; continue _fun0002 }
+            if(!var3) { _fun0002_ip = 750; continue _fun0002 }
  719:
-            var12 = _closure1_slot4;
-            var12 = var12.bind(var4)(var16);
-            var6 = var5;
-            if(!(var10 != var12)) { _fun0002_ip = 738; continue _fun0002 }
+            var16 = _closure1_slot4;
+            var23 = var10 != var17;
+            var12 = undefined;
+            if(!var23) { _fun0002_ip = 735; continue _fun0002 }
+ 732:
+            var12 = var17;
  735:
+            var12 = var16.bind(var4)(var12);
+            var6 = var5;
+            if(!(var10 != var12)) { _fun0002_ip = 750; continue _fun0002 }
+ 747:
             var6 = var12;
- 738:
+ 750:
             var12 = var5;
-            if(!var3) { _fun0002_ip = 763; continue _fun0002 }
- 744:
-            var3 = _closure1_slot4;
-            var3 = var3.bind(var4)(var9);
+            if(!var3) { _fun0002_ip = 787; continue _fun0002 }
+ 756:
+            var16 = _closure1_slot4;
+            var17 = var10 != var9;
+            var3 = undefined;
+            if(!var17) { _fun0002_ip = 772; continue _fun0002 }
+ 769:
+            var3 = var9;
+ 772:
+            var3 = var16.bind(var4)(var3);
             var12 = var5;
-            if(!(var10 != var3)) { _fun0002_ip = 763; continue _fun0002 }
- 760:
+            if(!(var10 != var3)) { _fun0002_ip = 787; continue _fun0002 }
+ 784:
             var12 = var3;
- 763:
+ 787:
             _closure2_slot10 = var12;
             var3 = var10 != var15;
-            if(!var3) { _fun0002_ip = 786; continue _fun0002 }
- 774:
+            if(!var3) { _fun0002_ip = 810; continue _fun0002 }
+ 798:
             var5 = var19;
-            if(var5) { _fun0002_ip = 783; continue _fun0002 }
- 780:
+            if(var5) { _fun0002_ip = 807; continue _fun0002 }
+ 804:
             var5 = var14;
- 783:
+ 807:
             var3 = var5;
- 786:
+ 810:
             _closure2_slot11 = var3;
             var5 = _closure1_slot3;
             var17 = var5.useMemo;
@@ -585,21 +597,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var13.id;
             var1['userId'] = var13;
             var1['usernameColor'] = var12;
-            var8 = _closure1_slot4;
-            var12 = var8.bind(var4)(var9);
-            var13 = var10 != var12;
-            var8 = null;
-            if(!var13) { _fun0002_ip = 1061; continue _fun0002 }
- 1058:
-            var8 = var12;
- 1061:
+            var12 = _closure1_slot4;
+            var13 = var10 != var9;
+            var8 = undefined;
+            if(!var13) { _fun0002_ip = 1080; continue _fun0002 }
+ 1077:
+            var8 = var9;
+ 1080:
+            var8 = var12.bind(var4)(var8);
             var1['roleColor'] = var8;
             var8 = 'dot';
             var8 = var8 === var11;
-            if(!var8) { _fun0002_ip = 1081; continue _fun0002 }
- 1077:
+            if(!var8) { _fun0002_ip = 1105; continue _fun0002 }
+ 1101:
             var8 = var10 != var9;
- 1081:
+ 1105:
             var1['shouldShowRoleDot'] = var8;
             var1['avatarURL'] = var7;
             var1['targetUsernameColor'] = var6;
@@ -770,30 +782,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var10.bind(var7)(var2);
             var2 = var10.getUserAuthor;
             var2 = var2.bind(var10)(var8, var19);
-            var15 = var2.colorString;
+            var17 = var2.colorString;
             var2 = 'username';
             var2 = var2 === var13;
             var20 = var8;
             var8 = var4;
-            if(!var2) { _fun0007_ip = 622; continue _fun0007 }
+            if(!var2) { _fun0007_ip = 634; continue _fun0007 }
  603:
-            var10 = _closure1_slot4;
-            var10 = var10.bind(var7)(var15);
-            var8 = var4;
-            if(!(var12 != var10)) { _fun0007_ip = 622; continue _fun0007 }
+            var15 = _closure1_slot4;
+            var22 = var12 != var17;
+            var10 = undefined;
+            if(!var22) { _fun0007_ip = 619; continue _fun0007 }
+ 616:
+            var10 = var17;
  619:
+            var10 = var15.bind(var7)(var10);
+            var8 = var4;
+            if(!(var12 != var10)) { _fun0007_ip = 634; continue _fun0007 }
+ 631:
             var8 = var10;
- 622:
+ 634:
             var10 = var4;
-            if(!var2) { _fun0007_ip = 647; continue _fun0007 }
- 628:
-            var2 = _closure1_slot4;
-            var2 = var2.bind(var7)(var11);
+            if(!var2) { _fun0007_ip = 671; continue _fun0007 }
+ 640:
+            var15 = _closure1_slot4;
+            var17 = var12 != var11;
+            var2 = undefined;
+            if(!var17) { _fun0007_ip = 656; continue _fun0007 }
+ 653:
+            var2 = var11;
+ 656:
+            var2 = var15.bind(var7)(var2);
             var10 = var4;
-            if(!(var12 != var2)) { _fun0007_ip = 647; continue _fun0007 }
- 644:
+            if(!(var12 != var2)) { _fun0007_ip = 671; continue _fun0007 }
+ 668:
             var10 = var2;
- 647:
+ 671:
             var25 = {};
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -814,10 +838,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['messageChannelId'] = var4;
             var2['linkColor'] = var10;
             var25['usernameOnClick'] = var2;
-            if(!var1) { _fun0007_ip = 948; continue _fun0007 }
- 759:
-            if(var18) { _fun0007_ip = 948; continue _fun0007 }
- 765:
+            if(!var1) { _fun0007_ip = 972; continue _fun0007 }
+ 783:
+            if(var18) { _fun0007_ip = 972; continue _fun0007 }
+ 789:
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 16;
@@ -835,16 +859,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var22[var1];
             var1 = var4.bind(var7)(var1);
             var1 = var1.t;
-            if(var2) { _fun0007_ip = 870; continue _fun0007 }
- 844:
+            if(var2) { _fun0007_ip = 894; continue _fun0007 }
+ 868:
             var4 = var1.k964Wl;
             var2 = {};
             var28 = var2;
             var27 = var25;
             var22 = copyDataProperties(var28, var27);
             var4 = var15.bind(var17)(var4, var2);
-            _fun0007_ip = 943; continue _fun0007;
- 870:
+            _fun0007_ip = 967; continue _fun0007;
+ 894:
             var2 = var1.R/mrBg;
             var1 = {};
             var28 = var1;
@@ -861,12 +885,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var22 = 'activityTextOnClick';
             var1[var22] = var24;
             var4 = var15.bind(var17)(var2, var1);
- 943:
-            _fun0007_ip = 1353; continue _fun0007;
- 948:
+ 967:
+            _fun0007_ip = 1377; continue _fun0007;
+ 972:
             var24 = var3;
-            if(!var18) { _fun0007_ip = 985; continue _fun0007 }
- 954:
+            if(!var18) { _fun0007_ip = 1009; continue _fun0007 }
+ 978:
             var2 = _closure1_slot0;
             var15 = _closure1_slot2;
             var1 = 18;
@@ -874,7 +898,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.bind(var7)(var1);
             var1 = var2.formatPrimaryEntryPointCommandName;
             var24 = var1.bind(var2)(var3);
- 985:
+ 1009:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 17;
@@ -892,15 +916,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var22 = copyDataProperties(var28, var27);
             var22 = 'commandName';
             var2[var22] = var24;
-            if(!(var12 != var19)) { _fun0007_ip = 1067; continue _fun0007 }
- 1061:
-            if(var23) { _fun0007_ip = 1071; continue _fun0007 }
- 1064:
-            if(var18) { _fun0007_ip = 1071; continue _fun0007 }
- 1067:
+            if(!(var12 != var19)) { _fun0007_ip = 1091; continue _fun0007 }
+ 1085:
+            if(var23) { _fun0007_ip = 1095; continue _fun0007 }
+ 1088:
+            if(var18) { _fun0007_ip = 1095; continue _fun0007 }
+ 1091:
             var18 = {};
-            _fun0007_ip = 1153; continue _fun0007;
- 1071:
+            _fun0007_ip = 1177; continue _fun0007;
+ 1095:
             var23 = {'name': 'commandNameOnClick', 'action': 'bindTapCommandName'};
             var26 = var14.interaction;
             var26 = var26.user;
@@ -916,12 +940,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var26 = var14.channel_id;
             var23['messageChannelId'] = var26;
             var18 = var23;
- 1153:
+ 1177:
             var23 = 'commandNameOnClick';
             var2[var23] = var18;
             var4 = var15.bind(var17)(var3, var2);
-            if(!(var12 != var20)) { _fun0007_ip = 1353; continue _fun0007 }
- 1177:
+            if(!(var12 != var20)) { _fun0007_ip = 1377; continue _fun0007 }
+ 1201:
             var18 = _closure1_slot0;
             var17 = _closure1_slot2;
             var2 = var17[var1];
@@ -950,17 +974,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = 'targetUsernameOnClick';
             var21 = var12 == var20;
             var19 = undefined;
-            if(var21) { _fun0007_ip = 1323; continue _fun0007 }
- 1318:
+            if(var21) { _fun0007_ip = 1347; continue _fun0007 }
+ 1342:
             var19 = var20.id;
- 1323:
+ 1347:
             var18['userId'] = var19;
             var19 = var14.channel_id;
             var18['messageChannelId'] = var19;
             var18['linkColor'] = var8;
             var1[var17] = var18;
             var4 = var3.bind(var15)(var2, var1);
- 1353:
+ 1377:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 19;
@@ -976,36 +1000,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['autoTrackExposure'] = var3;
             var1 = var15.bind(var17)(var2, var1);
             var2 = var1.enabled;
-            if(!var2) { _fun0007_ip = 1448; continue _fun0007 }
- 1420:
+            if(!var2) { _fun0007_ip = 1472; continue _fun0007 }
+ 1444:
             var15 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var16];
             var15 = var15.bind(var7)(var1);
             var1 = var15.isPrimaryEntryPointCommandMessage;
             var2 = var1.bind(var15)(var14);
- 1448:
+ 1472:
             var1 = {};
             var14 = var14.interaction;
             var14 = var14.user;
             var14 = var14.id;
             var1['userId'] = var14;
             var1['usernameColor'] = var10;
-            var10 = _closure1_slot4;
-            var14 = var10.bind(var7)(var11);
+            var14 = _closure1_slot4;
+            var15 = var12 != var11;
+            var10 = undefined;
+            if(!var15) { _fun0007_ip = 1515; continue _fun0007 }
+ 1512:
+            var10 = var11;
+ 1515:
+            var14 = var14.bind(var7)(var10);
             var15 = var12 != var14;
             var10 = null;
-            if(!var15) { _fun0007_ip = 1496; continue _fun0007 }
- 1493:
+            if(!var15) { _fun0007_ip = 1532; continue _fun0007 }
+ 1529:
             var10 = var14;
- 1496:
+ 1532:
             var1['roleColor'] = var10;
             var10 = 'dot';
             var10 = var10 === var13;
-            if(!var10) { _fun0007_ip = 1516; continue _fun0007 }
- 1512:
+            if(!var10) { _fun0007_ip = 1552; continue _fun0007 }
+ 1548:
             var10 = var12 != var11;
- 1516:
+ 1552:
             var1['shouldShowRoleDot'] = var10;
             var1['avatarURL'] = var9;
             var1['targetUsernameColor'] = var8;

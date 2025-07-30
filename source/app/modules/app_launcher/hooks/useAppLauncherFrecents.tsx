@@ -78,18 +78,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var1 = _closure2_slot2;
-                if(!var1) { _fun0002_ip = 61; continue _fun0002 }
+                if(var1) { _fun0002_ip = 16; continue _fun0002 }
  10:
-                var2 = _closure1_slot5;
-                var1 = var2.getApps;
-                var5 = var1.bind(var2)();
-                var2 = null;
-                var3 = var2 == var5;
-                var1 = undefined;
-                if(var3) { _fun0002_ip = 57; continue _fun0002 }
- 38:
-                var4 = var5.filter;
-                var3 = function(arg1) {
+                var1 = new Array(0);
+                _fun0002_ip = 52; continue _fun0002;
+ 16:
+                var3 = _closure1_slot5;
+                var2 = var3.getNewestTokens;
+                var4 = var2.bind(var3)();
+                var3 = var4.filter;
+                var2 = function(arg1) {
                     var1 = arg1;
                     var3 = var1.scopes;
                     var2 = var3.includes;
@@ -104,12 +102,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var1 = var4.bind(var5)(var3);
- 57:
-                if(!(var2 == var1)) { _fun0002_ip = 65; continue _fun0002 }
- 61:
-                var1 = new Array(0);
- 65:
+                var1 = var3.bind(var4)(var2);
+ 52:
                 return var1;
             }
         };

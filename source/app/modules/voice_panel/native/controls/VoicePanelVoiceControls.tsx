@@ -137,8 +137,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = 24;
             var1['spacing'] = var5;
             var6 = var12;
-            if(!var12) { _fun0001_ip = 277; continue _fun0001 }
- 162:
+            if(!var12) { _fun0001_ip = 311; continue _fun0001 }
+ 165:
             var11 = _closure1_slot6;
             var16 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -155,18 +155,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = {};
             var13['channel'] = var21;
             var19 = var17.bind(var4)(var19, var13);
-            var13 = new Array(2);
+            var13 = new Array(3);
             var13[0] = var19;
+            var19 = var18[var14];
+            var19 = var16.bind(var4)(var19);
+            var20 = var19.ScreenshareButton;
+            var19 = {};
+            var19['channel'] = var21;
+            var19 = var17.bind(var4)(var20, var19);
+            var13[1] = var19;
             var14 = var18[var14];
             var14 = var16.bind(var4)(var14);
-            var16 = var14.ScreenshareButton;
+            var16 = var14.HangStatusButton;
             var14 = {};
             var14['channel'] = var21;
             var14 = var17.bind(var4)(var16, var14);
-            var13[1] = var14;
+            var13[2] = var14;
             var5['children'] = var13;
             var6 = var11.bind(var4)(var7, var5);
- 277:
+ 311:
             var5 = new Array(7);
             var5[0] = var6;
             var20 = _closure1_slot5;
@@ -233,8 +240,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = var20.bind(var4)(var19, var18);
             var17[3] = var18;
             var18 = var12;
-            if(!var18) { _fun0001_ip = 613; continue _fun0001 }
- 569:
+            if(!var18) { _fun0001_ip = 647; continue _fun0001 }
+ 603:
             var22 = _closure1_slot5;
             var20 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -245,7 +252,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19['channel'] = var21;
             var19['connected'] = var12;
             var18 = var22.bind(var4)(var20, var19);
- 613:
+ 647:
             var17[4] = var18;
             var6['children'] = var17;
             var6 = var16.bind(var4)(var11, var6);
@@ -285,11 +292,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var16.bind(var4)(var11, var6);
             var5[5] = var6;
             var6 = null;
-            if(!var12) { _fun0001_ip = 1009; continue _fun0001 }
- 787:
+            if(!var12) { _fun0001_ip = 1043; continue _fun0001 }
+ 821:
             var6 = null;
-            if(!var8) { _fun0001_ip = 1009; continue _fun0001 }
- 795:
+            if(!var8) { _fun0001_ip = 1043; continue _fun0001 }
+ 829:
             var12 = _closure1_slot0;
             var8 = _closure1_slot2;
             var8 = var8[var15];
@@ -297,8 +304,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var8.EmbeddedActivityLaunchability;
             var8 = var8.CAN_LAUNCH;
             var6 = null;
-            if(!(var9 === var8)) { _fun0001_ip = 1009; continue _fun0001 }
- 833:
+            if(!(var9 === var8)) { _fun0001_ip = 1043; continue _fun0001 }
+ 867:
             var9 = _closure1_slot6;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -338,7 +345,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10[2] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 1009:
+ 1043:
             var5[6] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

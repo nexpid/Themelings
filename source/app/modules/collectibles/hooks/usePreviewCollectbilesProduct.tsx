@@ -144,7 +144,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
-                    var3 = var4.setPendingNameplate;
+                    var3 = var4.setGlobalPendingNameplate;
                     var2 = _closure3_slot0;
                     var2 = var3.bind(var4)(var2);
                     return var1;
@@ -189,7 +189,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5 = var5.bind(var6)(var3);
                         var1 = var4[var1];
                         var2 = var2.bind(var3)(var1);
-                        var1 = var2.setPendingNameplate;
+                        var1 = var2.setGlobalPendingNameplate;
                         var1 = var1.bind(var2)(var3);
  86:
                         var1 = undefined;

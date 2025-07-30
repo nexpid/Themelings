@@ -1,12 +1,12 @@
 // app/records/MessageRecord.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var5 = native3;
+    var9 = native2;
+    var6 = native3;
     var3 = native6;
-    var9 = native7;
-    var _closure1_slot0 = var8;
-    var _closure1_slot1 = var5;
-    var _closure1_slot2 = var9;
+    var10 = native7;
+    var _closure1_slot0 = var9;
+    var _closure1_slot1 = var6;
+    var _closure1_slot2 = var10;
     var1 = function _callSuper(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -83,46 +83,46 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot13 = var1;
     var1 = global;
     var7 = var1.Object;
-    var4 = var7.defineProperty;
-    var2 = {};
+    var5 = var7.defineProperty;
+    var4 = {};
     var1 = true;
-    var2['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var7)(var3, var1, var2);
+    var1 = var5.bind(var7)(var3, var1, var4);
     var1 = 0;
-    var2 = var9[var1];
+    var4 = var10[var1];
     var1 = undefined;
-    var2 = var5.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 1;
-    var2 = var9[var2];
-    var4 = var5.bind(var1)(var2);
-    var _closure1_slot4 = var4;
-    var2 = 2;
-    var2 = var9[var2];
-    var2 = var5.bind(var1)(var2);
-    var _closure1_slot5 = var2;
-    var2 = 3;
-    var2 = var9[var2];
-    var2 = var5.bind(var1)(var2);
-    var _closure1_slot6 = var2;
-    var2 = 4;
-    var2 = var9[var2];
-    var2 = var5.bind(var1)(var2);
-    var _closure1_slot7 = var2;
-    var2 = 5;
-    var2 = var9[var2];
-    var7 = var5.bind(var1)(var2);
-    var2 = 6;
-    var2 = var9[var2];
-    var2 = var8.bind(var1)(var2);
-    var5 = var2.MessageFlags;
-    var _closure1_slot8 = var5;
-    var5 = var2.MessageStates;
-    var _closure1_slot9 = var5;
-    var2 = var2.MessageTypes;
-    var _closure1_slot10 = var2;
-    var2 = function(arg1) {
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var10[var4];
+    var5 = var6.bind(var1)(var4);
+    var _closure1_slot4 = var5;
+    var4 = 2;
+    var4 = var10[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var10[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var10[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var10[var4];
+    var7 = var6.bind(var1)(var4);
+    var4 = 6;
+    var4 = var10[var4];
+    var4 = var9.bind(var1)(var4);
+    var6 = var4.MessageFlags;
+    var _closure1_slot8 = var6;
+    var6 = var4.MessageStates;
+    var _closure1_slot9 = var6;
+    var4 = var4.MessageTypes;
+    var _closure1_slot10 = var4;
+    var4 = function(arg1) {
         var4 = function MinimalMessageRecord(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -256,9 +256,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var5 = var2.bind(var1)(var7);
-    var _closure1_slot11 = var5;
-    var2 = function ModeratorReport(arg1) {
+    var6 = var4.bind(var1)(var7);
+    var _closure1_slot11 = var6;
+    var4 = function ModeratorReport(arg1) {
         var2 = arg1;
         var3 = this;
         var5 = _closure1_slot3;
@@ -275,9 +275,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var3['reported_member'] = var2;
         return var1;
     };
-    var _closure1_slot14 = var2;
-    var4 = var4.bind(var1)(var2);
-    var2 = function(arg1) {
+    var _closure1_slot14 = var4;
+    var5 = var5.bind(var1)(var4);
+    var4 = function(arg1) {
         var3 = function MessageSnapshotRecord(arg1) {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -317,8 +317,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var1.bind(var2)(var3);
         return var1;
     };
-    var2 = var2.bind(var1)(var7);
-    var6 = function(arg1) {
+    var4 = var4.bind(var1)(var7);
+    var7 = function(arg1) {
         var4 = function MessageRecord(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -597,7 +597,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(18);
+        var1 = new Array(17);
         var1[0] = var5;
         var5 = {};
         var7 = 'getChannelId';
@@ -643,29 +643,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = function value() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                var3 = this;
+                var2 = this;
                 var4 = _closure1_slot1;
-                var2 = _closure1_slot2;
+                var3 = _closure1_slot2;
                 var1 = 9;
-                var1 = var2[var1];
-                var2 = undefined;
-                var1 = var4.bind(var2)(var1);
-                var4 = var1.bind(var2)(var3);
-                var1 = var3;
-                if(!var4) { _fun0006_ip = 70; continue _fun0006 }
- 39:
-                var4 = var3.messageSnapshots;
-                var3 = 0;
-                var3 = var4[var3];
-                var4 = null;
-                var4 = var4 == var3;
-                var2 = undefined;
-                if(var4) { _fun0006_ip = 67; continue _fun0006 }
- 62:
-                var2 = var3.message;
- 67:
+                var1 = var3[var1];
+                var3 = undefined;
+                var1 = var4.bind(var3)(var1);
+                var3 = var1.bind(var3)(var2);
                 var1 = var2;
- 70:
+                if(!var3) { _fun0006_ip = 56; continue _fun0006 }
+ 39:
+                var3 = var2.messageSnapshots;
+                var2 = 0;
+                var2 = var3[var2];
+                var1 = var2.message;
+ 56:
                 return var1;
             }
         };
@@ -978,7 +971,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var3 = var8.bind(var11)(var3);
                 var1 = _closure3_slot4;
-                if(!(var7 === var1)) { _fun0008_ip = 481; continue _fun0008 }
+                if(!(var7 === var1)) { _fun0008_ip = 493; continue _fun0008 }
  130:
                 var7 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -987,7 +980,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var7.bind(var10)(var1);
                 var1 = var1.ReactionTypes;
                 var1 = var1.BURST;
-                if(!(var2 !== var1)) { _fun0008_ip = 337; continue _fun0008 }
+                if(!(var2 !== var1)) { _fun0008_ip = 345; continue _fun0008 }
  172:
                 var7 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -995,7 +988,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var7.bind(var10)(var1);
                 var1 = var1.ReactionTypes;
                 var1 = var1.VOTE;
-                if(!(var2 !== var1)) { _fun0008_ip = 267; continue _fun0008 }
+                if(!(var2 !== var1)) { _fun0008_ip = 275; continue _fun0008 }
  205:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': null, 'me_burst': false, 'count': 1, 'count_details': null, 'burst_count': 0};
@@ -1006,8 +999,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = new Array(0);
                 var1['burst_colors'] = var7;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 481; continue _fun0008;
- 267:
+                _fun0008_ip = 493; continue _fun0008;
+ 275:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
                 var1['emoji'] = var6;
@@ -1017,8 +1010,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = new Array(0);
                 var1['burst_colors'] = var7;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 481; continue _fun0008;
- 337:
+                _fun0008_ip = 493; continue _fun0008;
+ 345:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': null, 'count': 0, 'count_details': null, 'burst_count': 1};
                 var1['emoji'] = var6;
@@ -1034,10 +1027,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var7.buildPlatformedThemedEmojiColorPalette;
                 var5 = {};
                 var11 = null;
-                if(!(var11 == var9)) { _fun0008_ip = 427; continue _fun0008 }
- 423:
+                if(!(var11 == var9)) { _fun0008_ip = 439; continue _fun0008 }
+ 435:
                 var9 = new Array(0);
- 427:
+ 439:
                 var5['colors'] = var9;
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot2;
@@ -1050,7 +1043,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var6.bind(var7)(var5);
                 var1['themedBurstColors'] = var5;
                 var1 = var2.bind(var3)(var1);
- 481:
+ 493:
                 var2 = var4.set;
                 var1 = 'reactions';
                 var1 = var2.bind(var4)(var1, var3);
@@ -1487,26 +1480,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5['value'] = var7;
         var1[12] = var5;
         var5 = {};
-        var7 = 'isComponentsV2';
-        var5['key'] = var7;
-        var7 = function value() {
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var2 = 7;
-            var3 = var3[var2];
-            var2 = undefined;
-            var4 = var4.bind(var2)(var3);
-            var3 = var4.hasFlag;
-            var2 = this;
-            var2 = var2.flags;
-            var1 = _closure1_slot8;
-            var1 = var1.IS_COMPONENTS_V2;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[13] = var5;
-        var5 = {};
         var7 = 'isInteractionPlaceholder';
         var5['key'] = var7;
         var7 = function value() {
@@ -1526,7 +1499,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'canDeleteOwnMessage';
         var5['key'] = var7;
@@ -1589,7 +1562,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'toJS';
         var5['key'] = var7;
@@ -1611,7 +1584,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'isFirstMessageInForumPost';
         var5['key'] = var7;
@@ -1632,20 +1605,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var6;
-        var1[17] = var5;
+        var1[16] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var6 = var6.bind(var1)(var5);
-    var7 = 14;
-    var7 = var9[var7];
-    var9 = var8.bind(var1)(var7);
-    var8 = var9.fileFinishedImporting;
-    var7 = 'records/MessageRecord.tsx';
-    var7 = var8.bind(var9)(var7);
-    var3['default'] = var6;
-    var3['MinimalMessageRecord'] = var5;
-    var3['ModeratorReport'] = var4;
-    var3['MessageSnapshotRecord'] = var2;
+    var7 = var7.bind(var1)(var6);
+    var8 = 14;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'records/MessageRecord.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['default'] = var7;
+    var3['MinimalMessageRecord'] = var6;
+    var3['ModeratorReport'] = var5;
+    var3['MessageSnapshotRecord'] = var4;
+    var2 = function isMessageComponentsV2(arg1) {
+        var4 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var2 = 7;
+        var3 = var3[var2];
+        var2 = undefined;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.hasFlag;
+        var2 = arg1;
+        var2 = var2.flags;
+        var1 = _closure1_slot8;
+        var1 = var1.IS_COMPONENTS_V2;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var3['isMessageComponentsV2'] = var2;
     return var1;
 })();

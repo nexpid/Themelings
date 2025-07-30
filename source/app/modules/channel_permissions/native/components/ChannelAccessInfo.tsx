@@ -288,7 +288,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var6.getExistingRoles;
                 var4 = _closure2_slot0;
                 var7 = _closure1_slot7;
-                var3 = var7.getRoles;
+                var3 = var7.getSortedRoles;
                 var2 = var4.id;
                 var10 = var3.bind(var7)(var2);
                 var2 = _closure2_slot1;

@@ -343,7 +343,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var12 = 13;
                 var11 = var7[var12];
                 var11 = var8.bind(var6)(var11);
-                var11 = var11.CircleWarningIcon;
+                var11 = var11.CircleErrorIcon;
                 var3['CustomIcon'] = var11;
                 var5 = _closure1_slot1;
                 var11 = 14;
@@ -380,7 +380,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3['style'] = var13;
                 var13 = var7[var12];
                 var13 = var8.bind(var6)(var13);
-                var13 = var13.CircleWarningIcon;
+                var13 = var13.CircleErrorIcon;
                 var3['CustomIcon'] = var13;
                 var13 = var7[var11];
                 var13 = var5.bind(var6)(var13);
@@ -415,7 +415,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3['style'] = var13;
                 var12 = var7[var12];
                 var12 = var8.bind(var6)(var12);
-                var12 = var12.CircleWarningIcon;
+                var12 = var12.CircleErrorIcon;
                 var3['CustomIcon'] = var12;
                 var11 = var7[var11];
                 var11 = var5.bind(var6)(var11);

@@ -372,8 +372,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var6 = var8.bind(var4)(var7, var6);
                         var5[2] = var6;
                         var6 = _closure2_slot6;
-                        if(!var6) { _fun0005_ip = 489; continue _fun0005 }
- 328:
+                        if(!var6) { _fun0005_ip = 485; continue _fun0005 }
+ 324:
                         var9 = _closure1_slot20;
                         var12 = _closure1_slot1;
                         var13 = _closure1_slot2;
@@ -457,7 +457,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         };
                         var7['onPress'] = var10;
                         var6 = var9.bind(var4)(var8, var7);
- 489:
+ 485:
                         var5[3] = var6;
                         var1['children'] = var5;
                         var1 = var3.bind(var4)(var2, var1);
@@ -861,7 +861,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var1 = var4.bind(var6)(var1, var3);
                 var1 = null;
-                if(!var2) { _fun0007_ip = 1653; continue _fun0007 }
+                if(!var2) { _fun0007_ip = 1649; continue _fun0007 }
  849:
                 var4 = _closure1_slot22;
                 var3 = _closure1_slot21;
@@ -915,8 +915,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var4.bind(var5)(var8, var6);
                 var6 = new Array(4);
                 var6[0] = var8;
-                if(!var7) { _fun0007_ip = 1249; continue _fun0007 }
- 1082:
+                if(!var7) { _fun0007_ip = 1245; continue _fun0007 }
+ 1078:
                 var10 = _closure1_slot20;
                 var14 = _closure1_slot1;
                 var22 = _closure1_slot2;
@@ -982,11 +982,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var8['onPress'] = var12;
                 var7 = var10.bind(var5)(var9, var8);
- 1249:
+ 1245:
                 var6[1] = var7;
                 var7 = var17;
-                if(!var7) { _fun0007_ip = 1417; continue _fun0007 }
- 1262:
+                if(!var7) { _fun0007_ip = 1413; continue _fun0007 }
+ 1258:
                 var10 = _closure1_slot20;
                 var14 = _closure1_slot1;
                 var22 = _closure1_slot2;
@@ -1056,15 +1056,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var8['onPress'] = var11;
                 var7 = var10.bind(var5)(var9, var8);
- 1417:
+ 1413:
                 var6[2] = var7;
                 var7 = var21 != var18;
-                if(var7) { _fun0007_ip = 1432; continue _fun0007 }
- 1428:
+                if(var7) { _fun0007_ip = 1428; continue _fun0007 }
+ 1424:
                 var7 = var21 != var19;
- 1432:
-                if(!var7) { _fun0007_ip = 1639; continue _fun0007 }
- 1438:
+ 1428:
+                if(!var7) { _fun0007_ip = 1635; continue _fun0007 }
+ 1434:
                 var10 = _closure1_slot22;
                 var9 = _closure1_slot21;
                 var8 = {};
@@ -1086,10 +1086,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var12 = var22[var12];
                 var13 = var13.bind(var5)(var12);
                 var12 = {};
-                if(!(var21 != var19)) { _fun0007_ip = 1529; continue _fun0007 }
- 1526:
+                if(!(var21 != var19)) { _fun0007_ip = 1525; continue _fun0007 }
+ 1522:
                 var18 = var19;
- 1529:
+ 1525:
                 var12['guild'] = var18;
                 var12['showingJoinGuildCta'] = var17;
                 var12['hasJoinedGuild'] = var15;
@@ -1102,25 +1102,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var16 = var16[var20];
                 var16 = var19.bind(var5)(var16);
                 var16 = var16.t;
-                if(var15) { _fun0007_ip = 1602; continue _fun0007 }
- 1587:
+                if(var15) { _fun0007_ip = 1598; continue _fun0007 }
+ 1583:
                 var15 = var16.pDE7GR;
                 var15 = var17.bind(var18)(var15);
-                _fun0007_ip = 1615; continue _fun0007;
- 1602:
+                _fun0007_ip = 1611; continue _fun0007;
+ 1598:
                 var16 = var16.kx6pEB;
                 var15 = var17.bind(var18)(var16);
- 1615:
+ 1611:
                 var12['title'] = var15;
                 var12 = var14.bind(var5)(var13, var12);
                 var11[1] = var12;
                 var8['children'] = var11;
                 var7 = var10.bind(var5)(var9, var8);
- 1639:
+ 1635:
                 var6[3] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 1653:
+ 1649:
                 return var1;
             }
         };
@@ -1220,8 +1220,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var13 = var16[var12];
                 var13 = var15.bind(var4)(var13);
                 var14 = var13.intl;
-                if(var11) { _fun0013_ip = 362; continue _fun0013 }
- 315:
+                if(var11) { _fun0013_ip = 358; continue _fun0013 }
+ 311:
                 var17 = var14.format;
                 var11 = var16[var12];
                 var11 = var15.bind(var4)(var11);
@@ -1265,15 +1265,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var11['openPremiumSettings'] = var18;
                 var11 = var17.bind(var14)(var13, var11);
-                _fun0013_ip = 392; continue _fun0013;
- 362:
+                _fun0013_ip = 388; continue _fun0013;
+ 358:
                 var13 = var14.string;
                 var12 = var16[var12];
                 var12 = var15.bind(var4)(var12);
                 var12 = var12.t;
                 var12 = var12.vZaScH;
                 var11 = var13.bind(var14)(var12);
- 392:
+ 388:
                 var8['children'] = var11;
                 var8 = var10.bind(var4)(var9, var8);
                 var7[1] = var8;

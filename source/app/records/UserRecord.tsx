@@ -1150,7 +1150,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5['value'] = var7;
         var1[21] = var5;
         var5 = {};
-        var7 = 'isPomelo';
+        var7 = 'hasUniqueUsername';
         var5['key'] = var7;
         var7 = function value() {
             var1 = this;
@@ -1205,36 +1205,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = function get() {
             _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
  0:
-                var1 = this;
-                var2 = var1.collectibles;
-                var1 = null;
-                var4 = var1 == var2;
-                var6 = undefined;
-                var3 = undefined;
-                if(var4) { _fun0021_ip = 28; continue _fun0021 }
- 22:
-                var3 = var2.nameplate;
- 28:
-                var2 = var1 == var3;
-                var1 = null;
-                if(var2) { _fun0021_ip = 108; continue _fun0021 }
- 37:
-                var2 = {};
-                var4 = var3.asset;
-                var2['src'] = var4;
-                var5 = _closure1_slot0;
-                var7 = _closure1_slot3;
-                var4 = 16;
-                var4 = var7[var4];
-                var6 = var5.bind(var6)(var4);
-                var5 = var6.getNameplatePalette;
-                var4 = var3.palette;
-                var4 = var5.bind(var6)(var4);
-                var2['palette'] = var4;
-                var3 = var3.label;
-                var2['imgAlt'] = var3;
-                var1 = var2;
- 108:
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot3;
+                var1 = 16;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.getNameplateData;
+                var4 = this;
+                var4 = var4.collectibles;
+                var5 = null;
+                var5 = var5 == var4;
+                if(var5) { _fun0021_ip = 55; continue _fun0021 }
+ 49:
+                var1 = var4.nameplate;
+ 55:
+                var1 = var2.bind(var3)(var1);
                 return var1;
             }
         };

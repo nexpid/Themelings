@@ -1,10 +1,12 @@
 // app/modules/app_database/modules/GuildVersions.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var6 = native2;
     var5 = native3;
     var3 = native6;
-    var6 = native7;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var7 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var7;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -76,7 +78,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = undefined;
             if(!var9) { _fun0001_ip = 246; continue _fun0001 }
  233:
-            var9 = _closure1_slot9;
+            var9 = _closure1_slot10;
             var7 = var9.bind(var8)(var3, var8);
  246:
             _fun0001_ip = 264; continue _fun0001;
@@ -88,7 +90,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7;
             _fun0001_ip = 282; continue _fun0001;
  269:
-            var7 = _closure1_slot9;
+            var7 = _closure1_slot10;
             var6 = var7.bind(var8)(var3, var8);
  282:
             var4 = var6;
@@ -147,7 +149,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -180,52 +182,52 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var4 = var6[var1];
+    var4 = var7[var1];
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
-    var _closure1_slot2 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 2;
-    var4 = var6[var4];
+    var4 = 1;
+    var4 = var7[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 3;
-    var4 = var6[var4];
+    var4 = 2;
+    var4 = var7[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot5 = var4;
-    var4 = 4;
-    var4 = var6[var4];
+    var4 = 3;
+    var4 = var7[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot6 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var7 = var5.bind(var1)(var4);
-    var4 = var7.prototype;
-    var5 = Object.create(var4, {constructor: {value: var7}});
-    var11 = 'GuildVersions';
-    var12 = var5;
-    var4 = new var12[var7](var11, var10);
-    var4 = var4 instanceof Object ? var4 : var5;
+    var4 = 4;
+    var4 = var7[var4];
+    var4 = var5.bind(var1)(var4);
     var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var7[var4];
+    var8 = var5.bind(var1)(var4);
+    var4 = var8.prototype;
+    var5 = Object.create(var4, {constructor: {value: var8}});
+    var12 = 'GuildVersions';
+    var13 = var5;
+    var4 = new var13[var8](var12, var11);
+    var4 = var4 instanceof Object ? var4 : var5;
+    var _closure1_slot8 = var4;
     var2 = function() {
-        var4 = _closure1_slot5;
+        var4 = _closure1_slot6;
         var3 = function GuildVersions() {
             var3 = this;
             var _closure3_slot0 = var3;
-            var5 = _closure1_slot4;
+            var5 = _closure1_slot5;
             var2 = _closure2_slot1;
             var1 = undefined;
             var2 = var5.bind(var1)(var3, var2);
@@ -369,7 +371,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = {};
         var2 = 'getCommittedVersions';
         var5['key'] = var2;
-        var7 = _closure1_slot3;
+        var7 = _closure1_slot4;
         var2 = undefined;
         var1 = function* () {
             var1 = function* anon_0_() {
@@ -383,8 +385,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = undefined;
                     var6 = undefined;
  16: // try_start_0
-                    var4 = _closure1_slot0;
-                    var7 = _closure1_slot1;
+                    var4 = _closure1_slot1;
+                    var7 = _closure1_slot2;
                     var3 = 6;
                     var3 = var7[var3];
                     var4 = var4.bind(var5)(var3);
@@ -436,7 +438,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var2;
  144: // catch_target0
                     CatchBlockStart(arg_register=4);
-                    var4 = _closure1_slot7;
+                    var4 = _closure1_slot8;
                     var3 = var4.warn;
                     var2 = "couldn't load guild versions";
                     var2 = var3.bind(var4)(var2, var5);
@@ -487,7 +489,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                 var4 = arg2;
                 var3 = this;
-                var5 = _closure1_slot8;
+                var5 = _closure1_slot9;
                 var1 = arg1;
                 var2 = var1.guilds;
                 var1 = undefined;
@@ -508,7 +510,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var10[0] = var2;
                 var10 = var12.bind(var3)(var11, var10);
  87:
-                var12 = _closure1_slot6;
+                var12 = _closure1_slot7;
                 var11 = var12.getGuild;
                 var10 = var2.id;
                 var10 = var11.bind(var12)(var10);
@@ -539,7 +541,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = this;
                 var1 = var4.reset;
                 var1 = var1.bind(var4)();
-                var3 = _closure1_slot8;
+                var3 = _closure1_slot9;
                 var1 = arg1;
                 var2 = var1.guilds;
                 var1 = undefined;
@@ -581,17 +583,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1 = arg1;
                         var3 = var1.op;
                         var2 = 'full_sync';
-                        if(!(var2 !== var3)) { _fun0008_ip = 40; continue _fun0008 }
+                        if(!(var2 !== var3)) { _fun0008_ip = 72; continue _fun0008 }
  18:
                         var2 = 'update';
-                        if(!(var2 !== var3)) { _fun0008_ip = 32; continue _fun0008 }
+                        if(!(var2 !== var3)) { _fun0008_ip = 64; continue _fun0008 }
  26:
-                        var2 = new Array(0);
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var2 = 7;
+                        var3 = var3[var2];
+                        var2 = undefined;
+                        var4 = var4.bind(var2)(var3);
+                        var3 = var4.assertNever;
+                        var3 = var3.bind(var4)(var1);
                         return var2;
- 32:
+ 64:
                         var2 = var1.writes;
                         return var2;
- 40:
+ 72:
                         var1 = var1.items;
                         return var1;
                     }
@@ -821,7 +830,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
                 var4 = this;
-                var3 = _closure1_slot8;
+                var3 = _closure1_slot9;
                 var1 = arg1;
                 var2 = var1.channels;
                 var1 = undefined;
@@ -993,7 +1002,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
                 var1 = arg1;
-                var3 = _closure1_slot8;
+                var3 = _closure1_slot9;
                 var9 = undefined;
                 var2 = arg2;
                 var8 = var3.bind(var9)(var2);
@@ -1040,8 +1049,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var11 = 0;
                 if(!(var2 > var11)) { _fun0015_ip = 222; continue _fun0015 }
  23:
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot1;
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
                 var2 = 6;
                 var2 = var4[var2];
                 var9 = undefined;
@@ -1049,7 +1058,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var4.guildVersionsTransaction;
                 var2 = arg1;
                 var8 = var3.bind(var4)(var2);
-                var3 = _closure1_slot8;
+                var3 = _closure1_slot9;
                 var2 = var1.pending;
                 var7 = var3.bind(var9)(var2);
                 var3 = var7.bind(var9)();
@@ -1060,7 +1069,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(var2) { _fun0015_ip = 206; continue _fun0015 }
  97:
                 var12 = var3.value;
-                var2 = _closure1_slot2;
+                var2 = _closure1_slot3;
                 var2 = var2.bind(var9)(var12, var6);
                 var14 = var2[var11];
                 var13 = var2[var5];
@@ -1103,13 +1112,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var2.bind(var1)();
     var4 = var2.prototype;
     var5 = Object.create(var4, {constructor: {value: var2}});
-    var12 = var5;
-    var4 = new var12[var2](var11);
+    var13 = var5;
+    var4 = new var13[var2](var12);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 7;
-    var6 = var6[var5];
-    var5 = native2;
-    var7 = var5.bind(var1)(var6);
+    var5 = 8;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/app_database/modules/GuildVersions.tsx';
     var5 = var6.bind(var7)(var5);

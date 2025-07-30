@@ -674,8 +674,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['COLLECTIBLES_GIFT_CUSTOMIZATION_MODAL'] = var1;
     var1 = 'collectibles mobile gift modal';
     var2['COLLECTIBLES_MOBILE_GIFT_MODAL'] = var1;
-    var1 = 'premium subscription april campaign modal';
-    var2['PREMIUM_SUBSCRIPTION_APRIL_CAMPAIGN_MODAL'] = var1;
     var1 = 'premium billing info';
     var2['PREMIUM_BILLING_INFO'] = var1;
     var1 = 'premium subscription details';

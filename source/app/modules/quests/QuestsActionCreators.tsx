@@ -1721,11 +1721,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                     StartGenerator();
-                    var15 = arg1;
+                    var14 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0015_ip = 1120; continue _fun0015 }
+                    if(var2) { _fun0015_ip = 1173; continue _fun0015 }
  13:
-                    var6 = var15;
+                    var6 = var14;
                     var2 = undefined;
                     var26 = undefined;
                     var25 = undefined;
@@ -1736,8 +1736,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var30 = undefined;
                     var18 = undefined;
                     var19 = undefined;
-                    var14 = undefined;
                     var13 = undefined;
+                    var17 = undefined;
                     var8 = undefined;
                     var10 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -1746,9 +1746,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var12 = var10.bind(var2)(var4);
                     var11 = var12.dispatch;
                     var4 = {};
-                    var16 = 'QUESTS_FETCH_QUEST_TO_DELIVER_BEGIN';
-                    var4['type'] = var16;
-                    var4['placement'] = var15;
+                    var15 = 'QUESTS_FETCH_QUEST_TO_DELIVER_BEGIN';
+                    var4['type'] = var15;
+                    var4['placement'] = var14;
                     var4 = var11.bind(var12)(var4);
                     var4 = 10;
                     var5 = var5[var4];
@@ -1769,13 +1769,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var5;
  155:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(var10) { _fun0015_ip = 834; continue _fun0015 }
+                    if(var10) { _fun0015_ip = 887; continue _fun0015 }
  164:
                     var30 = var5;
                     var12 = _closure1_slot0;
-                    var15 = _closure1_slot2;
+                    var14 = _closure1_slot2;
                     var10 = 18;
-                    var10 = var15[var10];
+                    var10 = var14[var10];
                     var12 = var12.bind(var2)(var10);
                     var10 = var12.getOrRefreshAdSession;
                     var10 = var10.bind(var12)();
@@ -1784,23 +1784,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var10;
  201:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
-                    if(var12) { _fun0015_ip = 831; continue _fun0015 }
+                    if(var12) { _fun0015_ip = 884; continue _fun0015 }
  210:
                     var18 = var10;
-                    var15 = _closure1_slot0;
-                    var16 = _closure1_slot2;
+                    var14 = _closure1_slot0;
+                    var15 = _closure1_slot2;
                     var12 = 5;
-                    var12 = var16[var12];
-                    var12 = var15.bind(var2)(var12);
-                    var17 = var12.HTTP;
-                    var16 = var17.get;
+                    var12 = var15[var12];
+                    var12 = var14.bind(var2)(var12);
+                    var16 = var12.HTTP;
+                    var15 = var16.get;
                     var12 = {};
                     var29 = _closure1_slot9;
                     var28 = var29.QUEST_FETCH_QUEST_TO_DELIVER;
                     var27 = var6;
                     var20 = var30;
-                    var15 = null;
-                    var31 = var15 == var20;
+                    var14 = null;
+                    var31 = var14 == var20;
                     var20 = undefined;
                     if(var31) { _fun0015_ip = 278; continue _fun0015 }
  272:
@@ -1811,45 +1811,45 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var12['url'] = var18;
                     var18 = false;
                     var12['rejectWithError'] = var18;
-                    var12 = var16.bind(var17)(var12);
+                    var12 = var15.bind(var16)(var12);
                     SaveGenerator(address=310);
  308:
                     return var12;
  310:
-                    ResumeGenerator(result_out_reg=11, return_bool_out_reg=15);
-                    if(var16) { _fun0015_ip = 828; continue _fun0015 }
+                    ResumeGenerator(result_out_reg=11, return_bool_out_reg=14);
+                    if(var15) { _fun0015_ip = 881; continue _fun0015 }
  319:
-                    var16 = var12.body;
-                    var19 = var16;
-                    var16 = var16.quest;
-                    var14 = var16;
-                    var16 = var15 != var16;
+                    var15 = var12.body;
+                    var19 = var15;
+                    var15 = var15.quest;
+                    var13 = var15;
+                    var15 = var14 != var15;
                     var18 = undefined;
-                    if(!var16) { _fun0015_ip = 376; continue _fun0015 }
+                    if(!var15) { _fun0015_ip = 376; continue _fun0015 }
  345:
-                    var17 = _closure1_slot0;
+                    var16 = _closure1_slot0;
                     var20 = _closure1_slot2;
-                    var16 = 11;
-                    var16 = var20[var16];
-                    var17 = var17.bind(var2)(var16);
-                    var16 = var17.questConfigFromServer;
-                    var18 = var16.bind(var17)(var14);
+                    var15 = 11;
+                    var15 = var20[var15];
+                    var16 = var16.bind(var2)(var15);
+                    var15 = var16.questConfigFromServer;
+                    var18 = var15.bind(var16)(var13);
  376:
-                    var13 = var18;
-                    var16 = _closure1_slot1;
-                    var14 = _closure1_slot2;
-                    var14 = var14[var3];
-                    var17 = var16.bind(var2)(var14);
-                    var16 = var17.dispatch;
-                    var14 = {};
+                    var17 = var18;
+                    var15 = _closure1_slot1;
+                    var13 = _closure1_slot2;
+                    var13 = var13[var3];
+                    var16 = var15.bind(var2)(var13);
+                    var15 = var16.dispatch;
+                    var13 = {};
                     var20 = 'QUESTS_FETCH_QUEST_TO_DELIVER_SUCCESS';
-                    var14['type'] = var20;
-                    var14['quest'] = var18;
+                    var13['type'] = var20;
+                    var13['quest'] = var18;
                     var18 = {};
                     var20 = var19;
                     var20 = var20.ad_identifiers;
                     var26 = var20;
-                    var27 = var15 == var20;
+                    var27 = var14 == var20;
                     var20 = undefined;
                     if(var27) { _fun0015_ip = 447; continue _fun0015 }
  441:
@@ -1859,7 +1859,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var20 = var19;
                     var20 = var20.ad_identifiers;
                     var25 = var20;
-                    var26 = var15 == var20;
+                    var26 = var14 == var20;
                     var20 = undefined;
                     if(var26) { _fun0015_ip = 479; continue _fun0015 }
  473:
@@ -1869,7 +1869,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var20 = var19;
                     var20 = var20.ad_identifiers;
                     var24 = var20;
-                    var25 = var15 == var20;
+                    var25 = var14 == var20;
                     var20 = undefined;
                     if(var25) { _fun0015_ip = 511; continue _fun0015 }
  505:
@@ -1879,7 +1879,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var20 = var19;
                     var20 = var20.ad_identifiers;
                     var23 = var20;
-                    var24 = var15 == var20;
+                    var24 = var14 == var20;
                     var20 = undefined;
                     if(var24) { _fun0015_ip = 543; continue _fun0015 }
  537:
@@ -1889,7 +1889,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var20 = var19;
                     var20 = var20.ad_identifiers;
                     var22 = var20;
-                    var23 = var15 == var20;
+                    var23 = var14 == var20;
                     var20 = undefined;
                     if(var23) { _fun0015_ip = 575; continue _fun0015 }
  569:
@@ -1899,7 +1899,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var20 = var19;
                     var20 = var20.ad_identifiers;
                     var21 = var20;
-                    var22 = var15 == var20;
+                    var22 = var14 == var20;
                     var20 = undefined;
                     if(var22) { _fun0015_ip = 607; continue _fun0015 }
  601:
@@ -1909,35 +1909,48 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var20 = var19.request_id;
                     var18['decision_id'] = var20;
                     var20 = var19.ad_identifiers;
-                    var20 = var15 != var20;
+                    var20 = var14 != var20;
                     var18['is_targeted'] = var20;
                     var19 = var19.metadata_raw;
                     var18['metadata_raw'] = var19;
-                    var14['adDecisionData'] = var18;
+                    var13['adDecisionData'] = var18;
                     var18 = var6;
-                    var14['placement'] = var18;
-                    var14 = var16.bind(var17)(var14);
-                    var16 = _closure1_slot1;
-                    var14 = _closure1_slot2;
-                    var14 = var14[var4];
-                    var17 = var16.bind(var2)(var14);
-                    var16 = var17.recordQuestRequestApiResponse;
-                    var14 = {};
+                    var13['placement'] = var18;
+                    var13 = var15.bind(var16)(var13);
+                    var15 = _closure1_slot1;
+                    var13 = _closure1_slot2;
+                    var13 = var13[var4];
+                    var16 = var15.bind(var2)(var13);
+                    var15 = var16.recordQuestRequestApiResponse;
+                    var13 = {};
                     var18 = true;
-                    var14['wasSuccessful'] = var18;
-                    var14 = var16.bind(var17)(var11, var14);
-                    var14 = var13;
-                    if(!(var15 != var14)) { _fun0015_ip = 823; continue _fun0015 }
- 712:
+                    var13['wasSuccessful'] = var18;
+                    var13 = var15.bind(var16)(var11, var13);
+                    var13 = var17;
+                    if(!(var14 != var13)) { _fun0015_ip = 878; continue _fun0015 }
+ 715:
+                    var14 = var6;
+                    var15 = _closure1_slot0;
+                    var16 = _closure1_slot2;
+                    var13 = 8;
+                    var13 = var16[var13];
+                    var13 = var15.bind(var2)(var13);
+                    var13 = var13.QuestPlacement;
+                    var13 = var13.DESKTOP_ACCOUNT_PANEL_AREA;
+                    if(!(var14 === var13)) { _fun0015_ip = 793; continue _fun0015 }
+ 754:
+                    var14 = _closure1_slot1;
+                    var15 = _closure1_slot2;
+                    var13 = 19;
+                    var13 = var15[var13];
+                    var15 = var14.bind(var2)(var13);
+                    var14 = var15.startTracking;
+                    var13 = var17;
+                    var13 = var13.id;
+                    var13 = var14.bind(var15)(var13);
+ 793:
                     var19 = _closure1_slot1;
                     var20 = _closure1_slot2;
-                    var14 = 19;
-                    var14 = var20[var14];
-                    var15 = var19.bind(var2)(var14);
-                    var14 = var15.startTracking;
-                    var17 = var13;
-                    var13 = var17.id;
-                    var13 = var14.bind(var15)(var13);
                     var13 = 20;
                     var13 = var20[var13];
                     var16 = var19.bind(var2)(var13);
@@ -1955,15 +1968,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var17 = 'quest_id';
                     var13[var17] = var18;
                     var13 = var15.bind(var16)(var14, var13);
- 823: // try_end0
-                    _fun0015_ip = 1117; continue _fun0015;
- 828:
+ 873: // try_end0
+                    _fun0015_ip = 1170; continue _fun0015;
+ 878:
+                    return var2;
+ 881:
                     return var12;
- 831:
+ 884:
                     return var10;
- 834:
+ 887:
                     return var5;
- 837: // catch_target0
+ 890: // catch_target0
                     CatchBlockStart(arg_register=12);
                     var9 = var13;
                     var14 = _closure1_slot1;
@@ -1991,18 +2006,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = null;
                     var14 = var10 == var13;
                     var13 = undefined;
-                    if(var14) { _fun0015_ip = 951; continue _fun0015 }
- 943:
+                    if(var14) { _fun0015_ip = 1004; continue _fun0015 }
+ 996:
                     var14 = var9;
                     var13 = var14.message;
- 951:
+ 1004:
                     var8 = var13;
                     var13 = var10 != var13;
                     var10 = null;
-                    if(!var13) { _fun0015_ip = 966; continue _fun0015 }
- 963:
+                    if(!var13) { _fun0015_ip = 1019; continue _fun0015 }
+ 1016:
                     var10 = var8;
- 966:
+ 1019:
                     var8 = 'reason';
                     var4[var8] = var10;
                     var8 = _closure1_slot1;
@@ -2038,9 +2053,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3['error'] = var7;
                     var3['placement'] = var6;
                     var3 = var4.bind(var5)(var3);
- 1117:
+ 1170:
                     return var2;
- 1120:
+ 1173:
                     return var1;
                 }
             };

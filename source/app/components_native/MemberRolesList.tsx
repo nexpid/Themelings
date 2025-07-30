@@ -68,7 +68,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4[0] = var1;
             var1 = function() {
                 var3 = _closure1_slot4;
-                var2 = var3.getRoles;
+                var2 = var3.getSortedRoles;
                 var1 = _closure2_slot1;
                 var1 = var1.id;
                 var1 = var2.bind(var3)(var1);
@@ -81,17 +81,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var9.bind(var5)(var4, var1);
             var4 = null;
             var1 = var9;
-            if(!(var4 != var3)) { _fun0001_ip = 242; continue _fun0001 }
- 112:
+            if(!(var4 != var3)) { _fun0001_ip = 221; continue _fun0001 }
+ 109:
             var4 = var3.length;
             var3 = 0;
             var1 = var9;
-            if(!(var4 > var3)) { _fun0001_ip = 242; continue _fun0001 }
- 126:
-            var3 = global;
-            var4 = var3.Object;
-            var3 = var4.values;
-            var6 = var3.bind(var4)(var6);
+            if(!(var4 > var3)) { _fun0001_ip = 221; continue _fun0001 }
+ 123:
             var4 = var6.filter;
             var3 = function(arg1) {
                 var3 = _closure2_slot0;
@@ -175,7 +171,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['style'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 242:
+ 221:
             return var1;
         }
     };

@@ -18,7 +18,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = new Array(0);
             var8 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var3 = 12;
+            var3 = 10;
             var3 = var4[var3];
             var4 = undefined;
             var8 = var8.bind(var4)(var3);
@@ -33,7 +33,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var7.push;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 13;
+            var1 = 11;
             var1 = var9[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.DismissibleContent;
@@ -42,7 +42,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  118:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 14;
+            var1 = 12;
             var1 = var8[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.useCanSeeCreatorMonetizationOnboardingV2Upsell;
@@ -52,7 +52,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var7.push;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 13;
+            var1 = 11;
             var1 = var9[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.DismissibleContent;
@@ -61,7 +61,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  194:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var1 = 15;
+            var1 = 13;
             var1 = var8[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.bind(var4)(var2);
@@ -70,7 +70,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var7.push;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 13;
+            var1 = 11;
             var1 = var9[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.DismissibleContent;
@@ -79,7 +79,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  264:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 16;
+            var1 = 14;
             var1 = var8[var1];
             var3 = var3.bind(var4)(var1);
             var1 = var3.useCanUseRoleSubscriptionIAP;
@@ -89,73 +89,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var7.push;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 13;
+            var1 = 11;
             var1 = var9[var1];
             var1 = var8.bind(var4)(var1);
             var1 = var1.DismissibleContent;
             var1 = var1.GUILD_ROLE_SUBSCRIPTION_IAP_UPSELL;
             var1 = var3.bind(var7)(var1);
  340:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 17;
-            var1 = var9[var1];
-            var3 = var8.bind(var4)(var1);
-            var1 = var3.useCanSeeSafetyEducationBlockMuteCoachmark;
-            var1 = var1.bind(var3)();
-            var3 = 18;
-            var3 = var9[var3];
-            var8 = var8.bind(var4)(var3);
-            var3 = var8.useIsSafetyConsumerEducationBlockMuteBucket;
-            var3 = var3.bind(var8)();
-            if(!var1) { _fun0001_ip = 488; continue _fun0001 }
- 395:
-            var1 = 1;
-            if(!(var1 !== var3)) { _fun0001_ip = 446; continue _fun0001 }
- 402:
-            var3 = var7.push;
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 13;
-            var1 = var9[var1];
-            var1 = var8.bind(var4)(var1);
-            var1 = var1.DismissibleContent;
-            var1 = var1.USER_SAFETY_CONSUMER_EDUCATION_BLOCK;
-            var1 = var3.bind(var7)(var1);
-            _fun0001_ip = 488; continue _fun0001;
- 446:
-            var3 = var7.push;
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 13;
-            var1 = var9[var1];
-            var1 = var8.bind(var4)(var1);
-            var1 = var1.DismissibleContent;
-            var1 = var1.USER_SAFETY_CONSUMER_EDUCATION_MUTE;
-            var1 = var3.bind(var7)(var1);
- 488:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var1 = 19;
+            var1 = 15;
             var1 = var8[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.bind(var4)(var2);
-            if(!var1) { _fun0001_ip = 558; continue _fun0001 }
- 516:
+            if(!var1) { _fun0001_ip = 410; continue _fun0001 }
+ 368:
             var2 = var7.push;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 13;
+            var1 = 11;
             var1 = var8[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.DismissibleContent;
             var1 = var1.SERVER_SUBSCRIPTION_TIER_TEMPLATE_UPSELL;
             var1 = var2.bind(var7)(var1);
- 558:
+ 410:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var1 = 20;
+            var1 = 16;
             var1 = var8[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -172,13 +134,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var _closure3_slot0 = var6;
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var8 = 13;
+                    var8 = 11;
                     var1 = var1[var8];
                     var4 = undefined;
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
                     var1 = var1.GUILD_HEADER_ROLE_SUBSCRIPTION_UPSELL;
-                    if(!(var1 !== var2)) { _fun0002_ip = 697; continue _fun0002 }
+                    if(!(var1 !== var2)) { _fun0002_ip = 499; continue _fun0002 }
  65:
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
@@ -186,7 +148,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
                     var1 = var1.GUILD_ROLE_SUBSCRIPTION_IAP_UPSELL;
-                    if(!(var1 !== var2)) { _fun0002_ip = 623; continue _fun0002 }
+                    if(!(var1 !== var2)) { _fun0002_ip = 425; continue _fun0002 }
  101:
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
@@ -194,47 +156,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
                     var1 = var1.CREATOR_MONETIZATION_ONBOARDING_V2_UPSELL;
-                    if(!(var1 !== var2)) { _fun0002_ip = 549; continue _fun0002 }
+                    if(!(var1 !== var2)) { _fun0002_ip = 351; continue _fun0002 }
  137:
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var8];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
-                    var1 = var1.USER_SAFETY_CONSUMER_EDUCATION_MUTE;
-                    if(!(var1 !== var2)) { _fun0002_ip = 486; continue _fun0002 }
- 173:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var1 = var1[var8];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.DismissibleContent;
-                    var1 = var1.USER_SAFETY_CONSUMER_EDUCATION_BLOCK;
-                    if(!(var1 !== var2)) { _fun0002_ip = 423; continue _fun0002 }
- 209:
-                    var3 = _closure1_slot0;
-                    var1 = _closure1_slot2;
-                    var1 = var1[var8];
-                    var1 = var3.bind(var4)(var1);
-                    var1 = var1.DismissibleContent;
                     var1 = var1.SERVER_SUBSCRIPTION_TIER_TEMPLATE_UPSELL;
-                    if(!(var1 !== var2)) { _fun0002_ip = 349; continue _fun0002 }
- 242:
+                    if(!(var1 !== var2)) { _fun0002_ip = 277; continue _fun0002 }
+ 170:
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var8];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.DismissibleContent;
                     var1 = var1.NUX_GUILD_CHANNEL_EXPLAINER;
-                    if(!(var1 !== var2)) { _fun0002_ip = 279; continue _fun0002 }
- 275:
+                    if(!(var1 !== var2)) { _fun0002_ip = 207; continue _fun0002 }
+ 203:
                     var1 = null;
                     return var1;
- 279:
+ 207:
                     var3 = _closure1_slot6;
                     var2 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 17;
                     var1 = var8[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -253,29 +199,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['importer'] = var7;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
- 349:
+ 277:
                     var3 = _closure1_slot6;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 21;
-                    var1 = var7[var1];
-                    var1 = var2.bind(var4)(var1);
-                    var2 = var1.DismissibleActionSheet;
-                    var1 = {};
-                    var7 = _closure1_slot7;
-                    var1['actionSheetKey'] = var7;
-                    var7 = _closure1_slot14;
-                    var1['importer'] = var7;
-                    var1['markAsDismissed'] = var6;
-                    var7 = _closure2_slot0;
-                    var1['guildId'] = var7;
-                    var1 = var3.bind(var4)(var2, var1);
-                    return var1;
- 423:
-                    var3 = _closure1_slot6;
-                    var2 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 17;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -285,29 +213,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = _closure1_slot12;
                     var1['importer'] = var7;
                     var1['markAsDismissed'] = var6;
+                    var7 = _closure2_slot0;
+                    var1['guildId'] = var7;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
- 486:
+ 351:
                     var3 = _closure1_slot6;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 21;
-                    var1 = var7[var1];
-                    var1 = var2.bind(var4)(var1);
-                    var2 = var1.DismissibleActionSheet;
-                    var1 = {};
-                    var7 = _closure1_slot7;
-                    var1['actionSheetKey'] = var7;
-                    var7 = _closure1_slot13;
-                    var1['importer'] = var7;
-                    var1['markAsDismissed'] = var6;
-                    var1 = var3.bind(var4)(var2, var1);
-                    return var1;
- 549:
-                    var3 = _closure1_slot6;
-                    var2 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 17;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -321,11 +235,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['guildId'] = var7;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
- 623:
+ 425:
                     var3 = _closure1_slot6;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 17;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -339,11 +253,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['guildId'] = var7;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
- 697:
+ 499:
                     var3 = _closure1_slot6;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 21;
+                    var1 = 17;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -364,7 +278,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot16 = var2;
+    var _closure1_slot14 = var2;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -451,7 +365,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var _closure1_slot11 = var5;
-    var5 = function UserSafetyEducationBlockActionSheetImporter() {
+    var5 = function TierTemplatesUpsellActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
         var2 = 5;
@@ -465,39 +379,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var _closure1_slot12 = var5;
-    var5 = function UserSafetyEducationMuteActionSheetImporter() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 5;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 10;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot13 = var5;
-    var5 = function TierTemplatesUpsellActionSheetImporter() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 5;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 11;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot14 = var5;
     var5 = {};
     var8 = 'function GuildTooltipActionSheetsTsx1(){const{runOnJS,setShouldRender}=this.__closure;return runOnJS(setShouldRender)(true);}';
     var5['code'] = var8;
-    var _closure1_slot15 = var5;
-    var5 = 23;
+    var _closure1_slot13 = var5;
+    var5 = 19;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -523,7 +409,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = function() {
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var7 = 22;
+                var7 = 18;
                 var2 = var9[var7];
                 var1 = undefined;
                 var4 = var8.bind(var1)(var2);
@@ -531,7 +417,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = function s() {
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 18;
                     var1 = var3[var1];
                     var3 = undefined;
                     var4 = var2.bind(var3)(var1);
@@ -552,7 +438,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2['__closure'] = var6;
                 var6 = 6076095421855.0;
                 var2['__workletHash'] = var6;
-                var5 = _closure1_slot15;
+                var5 = _closure1_slot13;
                 var2['__initData'] = var5;
                 var2 = var3.bind(var4)(var2);
                 var2 = var2.bind(var1)();
@@ -564,7 +450,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!var3) { _fun0003_ip = 106; continue _fun0003 }
  80:
             var4 = _closure1_slot6;
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot14;
             var2 = {};
             var8 = arg1;
             var9 = var2;

@@ -279,7 +279,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var1 != var17;
             if(!var1) { _fun0002_ip = 170; continue _fun0002 }
  160:
-            var4 = var17.isPomelo;
+            var4 = var17.hasUniqueUsername;
             var1 = var4.bind(var17)();
  170:
             var21 = !var1;
@@ -346,7 +346,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var1 == var17;
             if(var6) { _fun0002_ip = 397; continue _fun0002 }
  384:
-            var4 = var17.isPomelo;
+            var4 = var17.hasUniqueUsername;
             var4 = var4.bind(var17)();
             var6 = !var4;
  397:
@@ -828,7 +828,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var28 = 'default';
             var15['keyboardType'] = var28;
             var15['value'] = var27;
-            var27 = var17.isPomelo;
+            var27 = var17.hasUniqueUsername;
             var27 = var27.bind(var17)();
             var15['enableAndroidSanitizedInputWorkaround'] = var27;
             var23 = function onChangeText(arg1) {
@@ -841,7 +841,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     if(!(var3 != var1)) { _fun0007_ip = 49; continue _fun0007 }
  19:
                     var6 = _closure2_slot1;
-                    var1 = var6.isPomelo;
+                    var1 = var6.hasUniqueUsername;
                     var1 = var1.bind(var6)();
                     var5 = var4;
                     if(!var1) { _fun0007_ip = 49; continue _fun0007 }
@@ -886,7 +886,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = var4.bind(var5)(var18, var15);
             var15 = new Array(3);
             var15[0] = var18;
-            var18 = var17.isPomelo;
+            var18 = var17.hasUniqueUsername;
             var18 = var18.bind(var17)();
             var18 = !var18;
             if(!var18) { _fun0002_ip = 1500; continue _fun0002 }
@@ -904,7 +904,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = var22.bind(var5)(var21, var20);
  1500:
             var15[1] = var18;
-            var18 = var17.isPomelo;
+            var18 = var17.hasUniqueUsername;
             var18 = var18.bind(var17)();
             var18 = !var18;
             if(!var18) { _fun0002_ip = 1523; continue _fun0002 }
@@ -919,7 +919,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = _closure1_slot13;
             var13 = {};
             var13['usernameStatus'] = var16;
-            var16 = var17.isPomelo;
+            var16 = var17.hasUniqueUsername;
             var16 = var16.bind(var17)();
             var13['showHint'] = var16;
             var13 = var15.bind(var5)(var14, var13);

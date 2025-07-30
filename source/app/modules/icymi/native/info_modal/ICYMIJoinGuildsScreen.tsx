@@ -1480,8 +1480,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5[4] = var8;
             var6 = var6.size;
             var6 = var6 >= var7;
-            if(!var6) { _fun0008_ip = 1140; continue _fun0008 }
- 989:
+            if(!var6) { _fun0008_ip = 1144; continue _fun0008 }
+ 993:
             var9 = _closure1_slot11;
             var8 = _closure1_slot6;
             var7 = {};
@@ -1517,7 +1517,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var12.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 1140:
+ 1144:
             var5[5] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

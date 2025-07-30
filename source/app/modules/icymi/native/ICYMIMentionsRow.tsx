@@ -628,25 +628,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  411:
             var21 = var2.colorString;
  417:
-            if(!(var22 == var21)) { _fun0005_ip = 456; continue _fun0005 }
+            if(!(var22 == var21)) { _fun0005_ip = 425; continue _fun0005 }
  421:
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot3;
-            var2 = 22;
-            var2 = var5[var2];
-            var5 = var3.bind(var4)(var2);
-            var3 = var5.int2hex;
-            var2 = _closure1_slot11;
-            var21 = var3.bind(var5)(var2);
- 456:
+            var21 = _closure1_slot11;
+ 425:
             var5 = _closure1_slot4;
             var3 = var5.useCallback;
             var2 = var22 == var24;
             var6 = undefined;
-            if(var2) { _fun0005_ip = 479; continue _fun0005 }
- 474:
+            if(var2) { _fun0005_ip = 448; continue _fun0005 }
+ 443:
             var6 = var24.id;
- 479:
+ 448:
             var2 = new Array(2);
             var2[0] = var6;
             var2[1] = var11;
@@ -666,7 +659,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = 'unread_mention';
                     var3 = 'press_unread_mention';
                     var3 = var9.bind(var10)(var8, var7, var3);
-                    var3 = 23;
+                    var3 = 22;
                     var3 = var6[var3];
                     var6 = var5.bind(var1)(var3);
                     var5 = var6.navigateToPost;
@@ -698,7 +691,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = {};
             var8 = _closure1_slot12;
             var7 = _closure1_slot1;
-            var9 = 24;
+            var9 = 23;
             var6 = var6[var9];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -706,10 +699,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6['animate'] = var10;
             var13 = var22 == var24;
             var10 = undefined;
-            if(var13) { _fun0005_ip = 579; continue _fun0005 }
- 574:
+            if(var13) { _fun0005_ip = 548; continue _fun0005 }
+ 543:
             var10 = var24.id;
- 579:
+ 548:
             var6['guildId'] = var10;
             var10 = var11.author;
             var6['user'] = var10;
@@ -752,7 +745,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16['style'] = var19;
             var19 = 'text-md/semibold';
             var16['variant'] = var19;
-            var19 = 23;
+            var19 = 22;
             var19 = var23[var19];
             var21 = var18.bind(var4)(var19);
             var19 = var21.truncateUsername;
@@ -775,16 +768,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = {};
             var25 = var22 == var24;
             var23 = undefined;
-            if(var25) { _fun0005_ip = 881; continue _fun0005 }
- 876:
+            if(var25) { _fun0005_ip = 850; continue _fun0005 }
+ 845:
             var23 = var24.name;
- 881:
+ 850:
             var24 = var22 != var23;
             var22 = '';
-            if(!var24) { _fun0005_ip = 895; continue _fun0005 }
- 892:
+            if(!var24) { _fun0005_ip = 864; continue _fun0005 }
+ 861:
             var22 = var23;
- 895:
+ 864:
             var17['guildName'] = var22;
             var17 = var20.bind(var21)(var18, var17);
             var16[1] = var17;
@@ -801,12 +794,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = {'style': null, 'variant': 'text-xs/normal', 'color': 'header-muted'};
             var13 = var15.timestamp;
             var17['style'] = var13;
-            var13 = 25;
+            var13 = 24;
             var13 = var16[var13];
             var23 = var9.bind(var4)(var13);
             var22 = var23.getRelativeTimestamp;
             var13 = _closure1_slot1;
-            var21 = 26;
+            var21 = 25;
             var21 = var16[var21];
             var25 = var13.bind(var4)(var21);
             var24 = var25.extractTimestamp;
@@ -850,7 +843,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var15.badgeContainer;
             var9['style'] = var14;
             var14 = _closure1_slot12;
-            var12 = 27;
+            var12 = 26;
             var12 = var16[var12];
             var13 = var13.bind(var4)(var12);
             var12 = {};
@@ -915,7 +908,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.DEFAULT_ROLE_COLOR;
+    var4 = var4.DEFAULT_ROLE_COLOR_HEX;
     var _closure1_slot11 = var4;
     var4 = 9;
     var4 = var6[var4];
@@ -1044,7 +1037,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['noTouchContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot15 = var4;
-    var4 = 30;
+    var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1069,7 +1062,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var4.slice;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot3;
-                var2 = 28;
+                var2 = 27;
                 var3 = var7[var2];
                 var5 = undefined;
                 var3 = var6.bind(var5)(var3);
@@ -1115,7 +1108,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = _closure1_slot13;
             var7 = _closure1_slot0;
             var10 = _closure1_slot3;
-            var6 = 29;
+            var6 = 28;
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.TableRowGroup;

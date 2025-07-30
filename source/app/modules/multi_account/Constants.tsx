@@ -22,6 +22,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var3['MAX_ACCOUNTS'] = var2;
     var2 = 'switch-accounts-modal';
     var3['SWITCH_ACCOUNTS_MODAL_KEY'] = var2;
+    var2 = 'multiaccount-login-modal';
+    var3['MULTI_ACCOUNT_LOGIN_MODAL_KEY'] = var2;
     var2 = 'multiaccount_cta_tooltip_seen';
     var3['MULTIACCOUNT_TOOLTIP_SEEN_KEY'] = var2;
     var2 = 200;

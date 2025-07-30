@@ -36,7 +36,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.DEFAULT_ROLE_COLOR;
+    var4 = var4.DEFAULT_ROLE_COLOR_HEX;
     var _closure1_slot6 = var4;
     var4 = 5;
     var4 = var6[var4];
@@ -111,29 +111,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var7;
             var9 = var17[var3](var16, var15, var14, var13, var12);
             var1 = null;
-            if(!(var1 != var9)) { _fun0001_ip = 370; continue _fun0001 }
+            if(!(var1 != var9)) { _fun0001_ip = 339; continue _fun0001 }
  146:
             var8 = var9.colorString;
-            if(!(var1 == var8)) { _fun0001_ip = 191; continue _fun0001 }
+            if(!(var1 == var8)) { _fun0001_ip = 160; continue _fun0001 }
  156:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 6;
-            var2 = var4[var2];
-            var4 = var3.bind(var5)(var2);
-            var3 = var4.int2hex;
-            var2 = _closure1_slot6;
-            var8 = var3.bind(var4)(var2);
- 191:
+            var8 = _closure1_slot6;
+ 160:
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var4 = 7;
+            var4 = 6;
             var2 = var11[var4];
             var2 = var3.bind(var5)(var2);
             var2 = var2.unsafe_rawColors;
             var7 = var2.WHITE_500;
             var3 = _closure1_slot0;
-            var2 = 6;
+            var2 = 7;
             var10 = var11[var2];
             var12 = var3.bind(var5)(var10);
             var10 = var12.hex2int;
@@ -143,15 +136,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.getDarkness;
             var3 = var2.bind(var3)(var10);
             var2 = 0.3;
-            if(!(var3 < var2)) { _fun0001_ip = 311; continue _fun0001 }
- 283:
+            if(!(var3 < var2)) { _fun0001_ip = 280; continue _fun0001 }
+ 252:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var4];
             var2 = var3.bind(var5)(var2);
             var2 = var2.unsafe_rawColors;
             var7 = var2.PRIMARY_630;
- 311:
+ 280:
             var4 = _closure1_slot7;
             var3 = _closure1_slot8;
             var2 = {};
@@ -166,7 +159,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['iconColor'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 370:
+ 339:
             return var1;
         }
     };
@@ -177,28 +170,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = arg1;
             var5 = var6.colorString;
             var1 = null;
-            if(!(var1 == var5)) { _fun0003_ip = 55; continue _fun0003 }
+            if(!(var1 == var5)) { _fun0003_ip = 22; continue _fun0003 }
  15:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var2 = 6;
-            var3 = var3[var2];
-            var2 = undefined;
-            var3 = var4.bind(var2)(var3);
-            var2 = var3.int2hex;
-            var1 = _closure1_slot6;
-            var5 = var2.bind(var3)(var1);
- 55:
+            var5 = _closure1_slot6;
+ 22:
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var8 = 7;
+            var8 = 6;
             var1 = var10[var8];
             var4 = undefined;
             var1 = var3.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
             var3 = var1.WHITE_500;
             var7 = _closure1_slot0;
-            var1 = 6;
+            var1 = 7;
             var9 = var10[var1];
             var11 = var7.bind(var4)(var9);
             var9 = var11.hex2int;
@@ -208,15 +193,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var7.getDarkness;
             var7 = var1.bind(var7)(var9);
             var1 = 0.3;
-            if(!(var7 < var1)) { _fun0003_ip = 180; continue _fun0003 }
- 152:
+            if(!(var7 < var1)) { _fun0003_ip = 147; continue _fun0003 }
+ 119:
             var7 = _closure1_slot1;
             var1 = _closure1_slot2;
             var1 = var1[var8];
             var1 = var7.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
             var3 = var1.PRIMARY_630;
- 180:
+ 147:
             var1 = {};
             var7 = var6.id;
             var1['id'] = var7;

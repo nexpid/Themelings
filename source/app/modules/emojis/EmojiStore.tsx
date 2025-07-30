@@ -39,13 +39,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot41 = var2;
+            _closure1_slot43 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot41 = var1;
+    var _closure1_slot43 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -117,7 +117,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = undefined;
             if(!var9) { _fun0002_ip = 246; continue _fun0002 }
  233:
-            var9 = _closure1_slot43;
+            var9 = _closure1_slot45;
             var7 = var9.bind(var8)(var3, var8);
  246:
             _fun0002_ip = 264; continue _fun0002;
@@ -129,7 +129,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7;
             _fun0002_ip = 282; continue _fun0002;
  269:
-            var7 = _closure1_slot43;
+            var7 = _closure1_slot45;
             var6 = var7.bind(var8)(var3, var8);
  282:
             var4 = var6;
@@ -188,7 +188,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot42 = var1;
+    var _closure1_slot44 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -221,12 +221,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot43 = var1;
+    var _closure1_slot45 = var1;
     var1 = function getUsableEmoji(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var7 = arg1;
-            var1 = _closure1_slot45;
+            var1 = _closure1_slot47;
             var4 = undefined;
             var1 = var1.bind(var4)();
             var5 = var1[var7];
@@ -235,7 +235,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = undefined;
             if(!var6) { _fun0005_ip = 73; continue _fun0005 }
  31:
-            var2 = _closure1_slot34;
+            var2 = _closure1_slot36;
             var6 = var2[var5];
             var5 = var3 == var6;
             var2 = undefined;
@@ -253,27 +253,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot44 = var1;
+    var _closure1_slot46 = var1;
     var1 = function getEmojiToGroupId() {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            var2 = _closure1_slot46;
+            var2 = _closure1_slot48;
             var11 = undefined;
             var2 = var2.bind(var11)();
-            var3 = _closure1_slot35;
+            var3 = _closure1_slot37;
             var2 = null;
             if(!(var2 == var3)) { _fun0006_ip = 123; continue _fun0006 }
  23:
             var2 = {};
-            _closure1_slot35 = var2;
-            var9 = _closure1_slot34;
+            _closure1_slot37 = var2;
+            var9 = _closure1_slot36;
             for(var6 in var9)
  41:
             {
  50:
                 var5 = var6;
-                var3 = _closure1_slot42;
-                var2 = _closure1_slot34;
+                var3 = _closure1_slot44;
+                var2 = _closure1_slot36;
                 var2 = var2[var5];
                 var2 = var2.rawEmojis;
                 var4 = var3.bind(var11)(var2);
@@ -282,7 +282,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(var2) { _fun0006_ip = 41; continue _fun0006 }
  88:
                 var2 = var3.value;
-                var12 = _closure1_slot35;
+                var12 = _closure1_slot37;
                 var2 = var2.id;
                 var12[var2] = var5;
                 var12 = var4.bind(var11)();
@@ -293,14 +293,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 _fun0006_ip = 88; continue _fun0006;
             }
  123:
-            var1 = _closure1_slot35;
+            var1 = _closure1_slot37;
             return var1;
         }
     };
-    var _closure1_slot45 = var1;
+    var _closure1_slot47 = var1;
     var1 = function loadSavedEmojis() {
         var1 = undefined;
-        var4 = _closure1_slot47;
+        var4 = _closure1_slot49;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -308,7 +308,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot46 = var1;
+    var _closure1_slot48 = var1;
     var1 = function _loadSavedEmojis() {
         var5 = undefined;
         var1 = undefined;
@@ -323,14 +323,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  12:
                     var3 = undefined;
                     var _closure4_slot0 = var3;
-                    var6 = _closure1_slot32;
-                    var5 = _closure1_slot31;
+                    var6 = _closure1_slot34;
+                    var5 = _closure1_slot33;
                     var5 = var5.Unloaded;
                     if(!(var6 === var5)) { _fun0007_ip = 217; continue _fun0007 }
  42:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var5 = 27;
+                    var5 = 28;
                     var5 = var7[var5];
                     var6 = var6.bind(var3)(var5);
                     var5 = var6.database;
@@ -339,12 +339,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = null;
                     if(!(var5 != var6)) { _fun0007_ip = 217; continue _fun0007 }
  85:
-                    var6 = _closure1_slot31;
+                    var6 = _closure1_slot33;
                     var6 = var6.Loading;
-                    _closure1_slot32 = var6;
+                    _closure1_slot34 = var6;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var6 = 28;
+                    var6 = 29;
                     var6 = var8[var6];
                     var8 = var7.bind(var3)(var6);
                     var7 = var8.tryLoadOrResetCacheGatewayAsync;
@@ -352,7 +352,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 29;
+                        var1 = 30;
                         var2 = var2[var1];
                         var1 = undefined;
                         var5 = var3.bind(var1)(var2);
@@ -362,7 +362,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1 = function() {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
-                            var1 = 30;
+                            var1 = 31;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -382,14 +382,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
                     if(var6) { _fun0007_ip = 220; continue _fun0007 }
  152:
-                    var6 = _closure1_slot31;
+                    var6 = _closure1_slot33;
                     var6 = var6.Loaded;
-                    _closure1_slot32 = var6;
+                    _closure1_slot34 = var6;
                     if(!(var5 != var2)) { _fun0007_ip = 217; continue _fun0007 }
  170:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var4 = 31;
+                    var4 = 32;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.dispatch;
@@ -409,7 +409,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot47 = var4;
+        _closure1_slot49 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -417,13 +417,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot47 = var1;
+    var _closure1_slot49 = var1;
     var10 = function createEmojiFrecency(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 32;
+        var1 = 33;
         var3 = var3[var1];
         var1 = undefined;
         var3 = var4.bind(var1)(var3);
@@ -474,7 +474,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = arg1;
                 var5 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var1 = var3[var1];
                 var3 = undefined;
                 var5 = var5.bind(var3)(var1);
@@ -483,7 +483,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = null;
                 if(!(var5 == var1)) { _fun0009_ip = 54; continue _fun0009 }
  45:
-                var2 = _closure1_slot44;
+                var2 = _closure1_slot46;
                 var1 = var2.bind(var3)(var4);
  54:
                 return var1;
@@ -496,19 +496,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = _closure2_slot0;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
-                var8 = _closure1_slot26;
+                var8 = _closure1_slot27;
                 var3 = new Array(0);
                 var7 = 0;
                 var9 = var3;
                 var4 = arraySpread(var9, var8, var7);
-                _closure1_slot33 = var3;
+                _closure1_slot35 = var3;
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var3 = 24;
+                var3 = 25;
                 var3 = var5[var3];
                 var6 = var4.bind(var1)(var3);
                 var5 = var6.some;
-                var4 = _closure1_slot34;
+                var4 = _closure1_slot36;
                 var3 = function(arg1) {
                     var1 = arg1;
                     var1 = var1.usableEmojis;
@@ -520,11 +520,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var5.bind(var6)(var4, var3);
                 if(var3) { _fun0010_ip = 127; continue _fun0010 }
  83:
-                var5 = _closure1_slot33;
+                var5 = _closure1_slot35;
                 var4 = var5.splice;
-                var6 = _closure1_slot26;
+                var6 = _closure1_slot27;
                 var3 = var6.indexOf;
-                var2 = _closure1_slot23;
+                var2 = _closure1_slot24;
                 var2 = var2.CUSTOM;
                 var3 = var3.bind(var6)(var2);
                 var2 = 1;
@@ -546,64 +546,64 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var1 = function deleteEverything() {
         var1 = {};
-        _closure1_slot34 = var1;
+        _closure1_slot36 = var1;
         var1 = {};
-        _closure1_slot35 = var1;
-        var3 = _closure1_slot38;
+        _closure1_slot37 = var1;
+        var3 = _closure1_slot40;
         var1 = var3.reset;
         var1 = var1.bind(var3)();
-        var3 = _closure1_slot37;
+        var3 = _closure1_slot39;
         var1 = var3.clear;
         var1 = var1.bind(var3)();
-        var1 = _closure1_slot31;
+        var1 = _closure1_slot33;
         var1 = var1.Unloaded;
-        _closure1_slot32 = var1;
+        _closure1_slot34 = var1;
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot48 = var1;
+    var _closure1_slot50 = var1;
     var1 = function deleteGuildEmoji(arg1) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var2 = arg1;
-            var3 = _closure1_slot34;
+            var3 = _closure1_slot36;
             var4 = var3[var2];
             var3 = null;
             if(!(var3 != var4)) { _fun0011_ip = 28; continue _fun0011 }
  20:
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot36;
             var1 = delete var1[var2];
  28:
             var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot49 = var1;
+    var _closure1_slot51 = var1;
     var1 = function rebuildEmojis() {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var2 = null;
-            _closure1_slot35 = var2;
-            var3 = _closure1_slot38;
+            _closure1_slot37 = var2;
+            var3 = _closure1_slot40;
             var2 = var3.reset;
             var2 = var2.bind(var3)();
-            var3 = _closure1_slot32;
-            var2 = _closure1_slot31;
+            var3 = _closure1_slot34;
+            var2 = _closure1_slot33;
             var2 = var2.Loaded;
             var2 = var3 !== var2;
             if(!var2) { _fun0012_ip = 62; continue _fun0012 }
  44:
-            var4 = _closure1_slot32;
-            var3 = _closure1_slot31;
+            var4 = _closure1_slot34;
+            var3 = _closure1_slot33;
             var3 = var3.MaybeLoaded;
             var2 = var4 !== var3;
  62:
             if(var2) { _fun0012_ip = 93; continue _fun0012 }
  65:
-            var3 = _closure1_slot39;
+            var3 = _closure1_slot41;
             var2 = var3.compute;
             var2 = var2.bind(var3)();
-            var2 = _closure1_slot40;
+            var2 = _closure1_slot42;
             var1 = var2.compute;
             var1 = var1.bind(var2)();
  93:
@@ -611,35 +611,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot50 = var1;
+    var _closure1_slot52 = var1;
     var1 = function updateGuildEmoji(arg1, arg2) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
             var4 = arg1;
             var8 = arg2;
-            var2 = _closure1_slot49;
+            var2 = _closure1_slot51;
             var1 = undefined;
             var2 = var2.bind(var1)(var4);
-            var3 = _closure1_slot38;
+            var3 = _closure1_slot40;
             var2 = var3.clear;
             var2 = var2.bind(var3)(var4);
             var3 = null;
             if(!(var3 != var8)) { _fun0013_ip = 132; continue _fun0013 }
  41:
-            var6 = _closure1_slot18;
+            var6 = _closure1_slot19;
             var2 = var6.getCurrentUser;
             var2 = var2.bind(var6)();
             if(!(var3 != var2)) { _fun0013_ip = 132; continue _fun0013 }
  58:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var3 = 38;
+            var3 = 39;
             var3 = var7[var3];
             var6 = var6.bind(var1)(var3);
             var3 = var6.canUseRoleSubscriptionIAP;
             var9 = var3.bind(var6)(var4);
-            var3 = _closure1_slot34;
-            var6 = _closure1_slot28;
+            var3 = _closure1_slot36;
+            var6 = _closure1_slot29;
             var11 = var2.id;
             var5 = var6.prototype;
             var5 = Object.create(var5, {constructor: {value: var6}});
@@ -653,7 +653,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot51 = var1;
+    var _closure1_slot53 = var1;
     var1 = function handleUserSettingsProtoStoreChange() {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
@@ -677,13 +677,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  58:
             var6 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var4 = 21;
+            var4 = 22;
             var4 = var8[var4];
             var6 = var6.bind(var1)(var4);
             var4 = var6.setDefaultDiversitySurrogate;
             var4 = var4.bind(var6)(var7);
  89:
-            var6 = _closure1_slot38;
+            var6 = _closure1_slot40;
             var4 = var6.reset;
             var4 = var4.bind(var6)();
             var4 = _closure1_slot13;
@@ -710,11 +710,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  165:
             var6 = {};
  167:
-            var12 = _closure1_slot39;
+            var12 = _closure1_slot41;
             var11 = var12.overwriteHistory;
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var4 = 24;
+            var4 = 25;
             var3 = var7[var4];
             var13 = var8.bind(var1)(var3);
             var10 = var13.mapValues;
@@ -742,10 +742,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var10 = var10.bind(var13)(var9, var3);
-            var3 = _closure1_slot27;
+            var3 = _closure1_slot28;
             var3 = var3.pendingUsages;
             var3 = var11.bind(var12)(var10, var3);
-            var11 = _closure1_slot40;
+            var11 = _closure1_slot42;
             var10 = var11.overwriteHistory;
             var3 = var7[var4];
             var12 = var8.bind(var1)(var3);
@@ -774,10 +774,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var3 = var3.bind(var12)(var6, var2);
-            var2 = _closure1_slot27;
+            var2 = _closure1_slot28;
             var2 = var2.emojiReactionPendingUsages;
             var2 = var10.bind(var11)(var3, var2);
-            var2 = 39;
+            var2 = 40;
             var2 = var7[var2];
             var11 = var8.bind(var1)(var2);
             var10 = var11.getCurrentConfig;
@@ -790,7 +790,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var10.bind(var11)(var3, var2);
             var3 = var2.canSplitFrecencyList;
             var11 = _closure1_slot0;
-            var10 = 35;
+            var10 = 36;
             var2 = var7[var10];
             var14 = var11.bind(var1)(var2);
             var12 = var14.getCanUseReactionFrecency;
@@ -814,14 +814,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var7[var4];
             var9 = var8.bind(var1)(var7);
             var8 = var9.isEmpty;
-            var7 = _closure1_slot27;
+            var7 = _closure1_slot28;
             var7 = var7.pendingUsages;
             var7 = var8.bind(var9)(var7);
             if(!var7) { _fun0014_ip = 555; continue _fun0014 }
  473:
             var9 = _closure1_slot13;
             var8 = var9.hasLoaded;
-            var7 = _closure1_slot24;
+            var7 = _closure1_slot25;
             var7 = var7.FRECENCY_AND_FAVORITES_SETTINGS;
             var7 = var8.bind(var9)(var7);
             if(!var7) { _fun0014_ip = 555; continue _fun0014 }
@@ -833,7 +833,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!var7) { _fun0014_ip = 555; continue _fun0014 }
  525:
             var11 = var9[var8];
-            var10 = _closure1_slot39;
+            var10 = _closure1_slot41;
             var7 = var10.track;
             var7 = var7.bind(var10)(var11);
             var8 = var8 + 1;
@@ -857,14 +857,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2[var4];
             var4 = var3.bind(var1)(var2);
             var3 = var4.isEmpty;
-            var2 = _closure1_slot27;
+            var2 = _closure1_slot28;
             var2 = var2.emojiReactionPendingUsages;
             var2 = var3.bind(var4)(var2);
             if(!var2) { _fun0014_ip = 721; continue _fun0014 }
  639:
             var4 = _closure1_slot13;
             var3 = var4.hasLoaded;
-            var2 = _closure1_slot24;
+            var2 = _closure1_slot25;
             var2 = var2.FRECENCY_AND_FAVORITES_SETTINGS;
             var2 = var3.bind(var4)(var2);
             if(!var2) { _fun0014_ip = 721; continue _fun0014 }
@@ -876,7 +876,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!var2) { _fun0014_ip = 721; continue _fun0014 }
  691:
             var7 = var4[var3];
-            var6 = _closure1_slot40;
+            var6 = _closure1_slot42;
             var2 = var6.track;
             var2 = var2.bind(var6)(var7);
             var3 = var3 + 1;
@@ -886,7 +886,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot52 = var1;
+    var _closure1_slot54 = var1;
     var1 = function handleExperimentsChange() {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
@@ -896,7 +896,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  19:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var1 = 35;
+            var1 = 36;
             var1 = var6[var1];
             var5 = undefined;
             var7 = var3.bind(var5)(var1);
@@ -910,7 +910,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var4.bind(var7)(var3, var1);
             var1 = var1.frecencyAlgorithm;
             var4 = _closure1_slot0;
-            var3 = 32;
+            var3 = 33;
             var7 = var6[var3];
             var7 = var4.bind(var5)(var7);
             var7 = var7.weightFunctions;
@@ -919,22 +919,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var5)(var3);
             var3 = var3.frecencyAlgorithms;
             var6 = var3[var1];
-            var3 = _closure1_slot25;
+            var3 = _closure1_slot26;
             if(!(var1 !== var3)) { _fun0015_ip = 160; continue _fun0015 }
  133:
-            var5 = _closure1_slot40;
+            var5 = _closure1_slot42;
             var4 = var5.replaceEntryComputeFunctions;
             var3 = 'original';
             var3 = var3 !== var1;
             var3 = var4.bind(var5)(var7, var6, var3);
  160:
-            _closure1_slot25 = var1;
+            _closure1_slot26 = var1;
  164:
             var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot53 = var1;
+    var _closure1_slot55 = var1;
     var1 = function trackUsage(arg1) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
@@ -942,7 +942,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = null;
             if(!(var8 != var1)) { _fun0016_ip = 226; continue _fun0016 }
  12:
-            var3 = _closure1_slot42;
+            var3 = _closure1_slot44;
             var7 = undefined;
             var6 = var3.bind(var7)(var1);
             var4 = var6.bind(var7)();
@@ -962,10 +962,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  69:
             if(!(var8 != var11)) { _fun0016_ip = 133; continue _fun0016 }
  73:
-            var9 = _closure1_slot39;
+            var9 = _closure1_slot41;
             var3 = var9.track;
             var3 = var3.bind(var9)(var11);
-            var3 = _closure1_slot27;
+            var3 = _closure1_slot28;
             var10 = var3.pendingUsages;
             var9 = var10.push;
             var3 = {};
@@ -987,14 +987,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = !var1;
             if(!var1) { _fun0016_ip = 207; continue _fun0016 }
  165:
-            var5 = _closure1_slot32;
-            var4 = _closure1_slot31;
+            var5 = _closure1_slot34;
+            var4 = _closure1_slot33;
             var4 = var4.Loaded;
             var4 = var5 !== var4;
             if(!var4) { _fun0016_ip = 204; continue _fun0016 }
  186:
-            var6 = _closure1_slot32;
-            var5 = _closure1_slot31;
+            var6 = _closure1_slot34;
+            var5 = _closure1_slot33;
             var5 = var5.MaybeLoaded;
             var4 = var6 !== var5;
  204:
@@ -1002,7 +1002,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  207:
             if(var3) { _fun0016_ip = 224; continue _fun0016 }
  210:
-            var3 = _closure1_slot39;
+            var3 = _closure1_slot41;
             var2 = var3.compute;
             var2 = var2.bind(var3)();
  224:
@@ -1012,39 +1012,45 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot54 = var1;
+    var _closure1_slot56 = var1;
     var11 = function handleRoleUpdate(arg1) {
         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
             var1 = arg1;
             var5 = var1.guildId;
-            var6 = var1.role;
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 40;
-            var3 = var3[var1];
-            var1 = undefined;
-            var4 = var4.bind(var1)(var3);
-            var3 = var4.isSubscriptionRole;
-            var3 = var3.bind(var4)(var6);
-            if(var3) { _fun0017_ip = 57; continue _fun0017 }
- 53:
-            var3 = false;
-            return var3;
- 57:
-            var3 = _closure1_slot34;
-            var6 = var3[var5];
-            var4 = _closure1_slot51;
+            var1 = var1.role;
+            var4 = var1.id;
+            var3 = _closure1_slot16;
+            var1 = var3.getRole;
+            var7 = var1.bind(var3)(var5, var4);
             var3 = null;
+            if(!(var3 != var7)) { _fun0017_ip = 123; continue _fun0017 }
+ 44:
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 41;
+            var4 = var4[var1];
+            var1 = undefined;
+            var6 = var6.bind(var1)(var4);
+            var4 = var6.isSubscriptionRole;
+            var4 = var4.bind(var6)(var7);
+            if(!var4) { _fun0017_ip = 123; continue _fun0017 }
+ 80:
+            var4 = _closure1_slot36;
+            var6 = var4[var5];
+            var4 = _closure1_slot53;
             var7 = var3 == var6;
             var3 = undefined;
-            if(var7) { _fun0017_ip = 86; continue _fun0017 }
- 80:
+            if(var7) { _fun0017_ip = 107; continue _fun0017 }
+ 101:
             var3 = var6.emojis;
- 86:
+ 107:
             var3 = var4.bind(var1)(var5, var3);
-            var2 = _closure1_slot50;
+            var2 = _closure1_slot52;
             var2 = var2.bind(var1)();
+            return var1;
+ 123:
+            var1 = false;
             return var1;
         }
     };
@@ -1127,28 +1133,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot19 = var4;
     var4 = 17;
     var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
-    var5 = var4.EmojiDisabledReasons;
-    var _closure1_slot20 = var5;
-    var4 = var4.EmojiIntention;
-    var _closure1_slot21 = var4;
+    var4 = var9.bind(var1)(var4);
+    var _closure1_slot20 = var4;
     var4 = 18;
     var4 = var8[var4];
     var4 = var7.bind(var1)(var4);
-    var4 = var4.NULL_STRING_GUILD_ID;
+    var5 = var4.EmojiDisabledReasons;
+    var _closure1_slot21 = var5;
+    var4 = var4.EmojiIntention;
     var _closure1_slot22 = var4;
     var4 = 19;
     var4 = var8[var4];
     var4 = var7.bind(var1)(var4);
-    var4 = var4.EmojiCategories;
+    var4 = var4.NULL_STRING_GUILD_ID;
     var _closure1_slot23 = var4;
-    var5 = 20;
+    var4 = 20;
+    var4 = var8[var4];
+    var4 = var7.bind(var1)(var4);
+    var4 = var4.EmojiCategories;
+    var _closure1_slot24 = var4;
+    var5 = 21;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
     var5 = var5.UserSettingsTypes;
-    var _closure1_slot24 = var5;
-    var5 = 'original';
     var _closure1_slot25 = var5;
+    var5 = 'original';
+    var _closure1_slot26 = var5;
     var12 = var4.TOP_GUILD_EMOJI;
     var5 = var12.toString;
     var5 = var5.bind(var12)();
@@ -1167,13 +1177,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var4.bind(var5)();
     var12[3] = var4;
     var5 = var12.concat;
-    var4 = 21;
+    var4 = 22;
     var4 = var8[var4];
     var17 = var9.bind(var1)(var4);
     var4 = var17.getCategories;
     var4 = var4.bind(var17)();
     var12 = var5.bind(var12)(var4);
-    var _closure1_slot26 = var12;
+    var _closure1_slot27 = var12;
     var4 = {};
     var5 = new Array(0);
     var4['pendingUsages'] = var5;
@@ -1186,7 +1196,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5 = new var23[var5](var22);
     var5 = var5 instanceof Object ? var5 : var17;
     var4['expandedSectionsByGuildIds'] = var5;
-    var _closure1_slot27 = var4;
+    var _closure1_slot28 = var4;
     var4 = function() {
         var4 = _closure1_slot9;
         var3 = function GuildEmojis(arg1, arg2, arg3) {
@@ -1307,7 +1317,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  102:
                 var8 = _closure1_slot0;
                 var7 = _closure1_slot2;
-                var3 = 22;
+                var3 = 23;
                 var7 = var7[var3];
                 var3 = undefined;
                 var7 = var8.bind(var3)(var7);
@@ -1414,7 +1424,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4['guildId'] = var1;
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 23;
+                    var1 = 24;
                     var3 = var3[var1];
                     var1 = undefined;
                     var3 = var5.bind(var1)(var3);
@@ -1429,7 +1439,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var4.bind(var5)(var3);
                 var5 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var3 = 24;
+                var3 = 25;
                 var4 = var4[var3];
                 var3 = undefined;
                 var6 = var5.bind(var3)(var4);
@@ -1473,15 +1483,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var4 = var4.bind(var1)();
-    var _closure1_slot28 = var4;
-    var4 = 25;
+    var _closure1_slot29 = var4;
+    var4 = 26;
     var4 = var8[var4];
     var17 = var9.bind(var1)(var4);
     var5 = var17.fromTimestamp;
     var18 = var2.Date;
     var4 = var18.now;
     var18 = var4.bind(var18)();
-    var4 = 26;
+    var4 = 27;
     var4 = var8[var4];
     var4 = var9.bind(var1)(var4);
     var4 = var4.Millis;
@@ -1490,9 +1500,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var4 * var19;
     var4 = var18 - var4;
     var4 = var5.bind(var17)(var4);
-    var _closure1_slot29 = var4;
-    var4 = new Array(0);
     var _closure1_slot30 = var4;
+    var4 = new Array(0);
+    var _closure1_slot31 = var4;
+    var4 = new Array(0);
+    var _closure1_slot32 = var4;
     var4 = {};
     var4['Unloaded'] = var13;
     var5 = 'Unloaded';
@@ -1506,28 +1518,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['Loaded'] = var14;
     var5 = 'Loaded';
     var4[var14] = var5;
-    var _closure1_slot31 = var4;
+    var _closure1_slot33 = var4;
     var5 = var4.Unloaded;
-    var _closure1_slot32 = var5;
+    var _closure1_slot34 = var5;
     var5 = new Array(0);
     var22 = var5;
     var21 = var12;
     var20 = 0;
     var12 = arraySpread(var22, var21, var20);
-    var _closure1_slot33 = var5;
-    var5 = {};
-    var _closure1_slot34 = var5;
-    var5 = {};
     var _closure1_slot35 = var5;
-    var5 = null;
+    var5 = {};
     var _closure1_slot36 = var5;
+    var5 = {};
+    var _closure1_slot37 = var5;
+    var5 = null;
+    var _closure1_slot38 = var5;
     var2 = var2.Map;
     var12 = var2.prototype;
     var12 = Object.create(var12, {constructor: {value: var2}});
     var23 = var12;
     var2 = new var23[var2](var22);
     var2 = var2 instanceof Object ? var2 : var12;
-    var _closure1_slot37 = var2;
+    var _closure1_slot39 = var2;
     var2 = function() {
         var5 = function EmojiDisambiguations(arg1) {
             var3 = this;
@@ -1562,7 +1574,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  41:
                     var6 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 21;
+                    var2 = 22;
                     var4 = var4[var2];
                     var2 = undefined;
                     var6 = var6.bind(var2)(var4);
@@ -1870,7 +1882,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = null;
                 if(!(var2 == var4)) { _fun0031_ip = 157; continue _fun0031 }
  34:
-                var4 = _closure1_slot39;
+                var4 = _closure1_slot41;
                 var5 = var4.frequently;
                 var4 = var5.map;
                 var3 = function(arg1) {
@@ -1883,7 +1895,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  14:
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 21;
+                        var1 = 22;
                         var3 = var3[var1];
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
@@ -1904,14 +1916,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var7.filter;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var3 = 33;
+                var3 = 34;
                 var3 = var6[var3];
                 var4 = undefined;
                 var3 = var8.bind(var4)(var3);
                 var3 = var3.isNotNullish;
                 var3 = var5.bind(var7)(var3);
                 var5 = _closure1_slot1;
-                var2 = 34;
+                var2 = 35;
                 var2 = var6[var2];
                 var2 = var5.bind(var4)(var2);
                 var3 = var2.bind(var4)(var3);
@@ -1945,7 +1957,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = null;
                 if(!(var2 == var4)) { _fun0033_ip = 157; continue _fun0033 }
  34:
-                var4 = _closure1_slot40;
+                var4 = _closure1_slot42;
                 var5 = var4.frequently;
                 var4 = var5.map;
                 var3 = function(arg1) {
@@ -1958,7 +1970,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  14:
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 21;
+                        var1 = 22;
                         var3 = var3[var1];
                         var1 = undefined;
                         var4 = var4.bind(var1)(var3);
@@ -1979,14 +1991,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var7.filter;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var3 = 33;
+                var3 = 34;
                 var3 = var6[var3];
                 var4 = undefined;
                 var3 = var8.bind(var4)(var3);
                 var3 = var3.isNotNullish;
                 var3 = var5.bind(var7)(var3);
                 var5 = _closure1_slot1;
-                var2 = 34;
+                var2 = 35;
                 var2 = var6[var2];
                 var2 = var5.bind(var4)(var2);
                 var3 = var2.bind(var4)(var3);
@@ -2050,7 +2062,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  27:
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var2 = 21;
+                        var2 = 22;
                         var3 = var3[var2];
                         var2 = undefined;
                         var3 = var5.bind(var2)(var3);
@@ -2064,13 +2076,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var7.filter;
                 var8 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var3 = 33;
+                var3 = 34;
                 var3 = var6[var3];
                 var3 = var8.bind(var4)(var3);
                 var3 = var3.isNotNullish;
                 var3 = var5.bind(var7)(var3);
                 var5 = _closure1_slot1;
-                var1 = 34;
+                var1 = 35;
                 var1 = var6[var1];
                 var1 = var5.bind(var4)(var1);
                 var3 = var1.bind(var4)(var3);
@@ -2129,7 +2141,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = this;
                 var6 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var4 = 35;
+                var4 = 36;
                 var3 = var8[var4];
                 var5 = undefined;
                 var10 = var6.bind(var5)(var3);
@@ -2204,10 +2216,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = null;
                 if(!(var5 == var1)) { _fun0039_ip = 190; continue _fun0039 }
  37:
-                var7 = _closure1_slot37;
+                var7 = _closure1_slot39;
                 var4 = var7.get;
                 var8 = var4.bind(var7)(var6);
-                var7 = _closure1_slot19;
+                var7 = _closure1_slot20;
                 var4 = var7.getTopEmojiIdsByGuildId;
                 var7 = var4.bind(var7)(var6);
                 if(!(var5 == var8)) { _fun0039_ip = 79; continue _fun0039 }
@@ -2237,7 +2249,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  27:
                         var6 = _closure1_slot1;
                         var8 = _closure1_slot2;
-                        var2 = 21;
+                        var2 = 22;
                         var3 = var8[var2];
                         var5 = undefined;
                         var4 = var6.bind(var5)(var3);
@@ -2298,7 +2310,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2.topEmojis;
                 return var2;
  198:
-                var1 = _closure1_slot30;
+                var1 = _closure1_slot31;
                 return var1;
             }
         };
@@ -2322,11 +2334,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var3[var1];
                 if(!(var2 == var1)) { _fun0042_ip = 49; continue _fun0042 }
  42:
-                var1 = _closure1_slot30;
+                var1 = _closure1_slot31;
  49:
                 return var1;
  51:
-                var1 = _closure1_slot30;
+                var1 = _closure1_slot31;
                 return var1;
             }
         };
@@ -2361,7 +2373,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure3_slot0 = var2;
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 24;
+            var2 = 25;
             var2 = var4[var2];
             var4 = undefined;
             var3 = var3.bind(var4)(var2);
@@ -2381,7 +2393,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  22:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var3 = 24;
+                    var3 = 25;
                     var4 = var4[var3];
                     var3 = undefined;
                     var5 = var5.bind(var3)(var4);
@@ -2401,12 +2413,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  94:
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var4 = 24;
+                    var4 = 25;
                     var4 = var10[var4];
                     var5 = undefined;
                     var7 = var9.bind(var5)(var4);
                     var6 = var7.some;
-                    var4 = 36;
+                    var4 = 37;
                     var4 = var10[var4];
                     var5 = var9.bind(var5)(var4);
                     var4 = var5.getTermsForEmoji;
@@ -2561,7 +2573,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var9 = var3.type;
                         var5 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var2 = 23;
+                        var2 = 24;
                         var2 = var8[var2];
                         var10 = undefined;
                         var2 = var5.bind(var10)(var2);
@@ -2598,12 +2610,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  401:
                         var9 = _closure1_slot1;
                         var11 = _closure1_slot2;
-                        var8 = 25;
+                        var8 = 26;
                         var8 = var11[var8];
                         var10 = var9.bind(var10)(var8);
                         var9 = var10.compare;
                         var8 = var3.id;
-                        var6 = _closure1_slot29;
+                        var6 = _closure1_slot30;
                         var6 = var9.bind(var10)(var8, var6);
                         var2 = var6 >= var7;
  446:
@@ -2663,7 +2675,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = var5.push;
                         var7 = _closure1_slot1;
                         var6 = _closure1_slot2;
-                        var2 = 37;
+                        var2 = 38;
                         var6 = var6[var2];
                         var2 = undefined;
                         var7 = var7.bind(var2)(var6);
@@ -2683,7 +2695,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var _closure3_slot4 = var1;
                 var7 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var6 = var6[var1];
                 var1 = undefined;
                 var7 = var7.bind(var1)(var6);
@@ -2693,18 +2705,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     _fun0048: for(var _fun0048_ip = 0; ; ) switch(_fun0048_ip) {
  0:
                         var4 = arg1;
-                        var2 = _closure1_slot34;
+                        var2 = _closure1_slot36;
                         var3 = null;
                         if(!(var3 == var4)) { _fun0048_ip = 20; continue _fun0048 }
  16:
-                        var4 = _closure1_slot22;
+                        var4 = _closure1_slot23;
  20:
                         var2 = var2[var4];
                         if(!(var3 != var2)) { _fun0048_ip = 108; continue _fun0048 }
  28:
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
-                        var3 = 24;
+                        var3 = 25;
                         var1 = var6[var3];
                         var4 = undefined;
                         var10 = var5.bind(var4)(var1);
@@ -2750,7 +2762,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var14 = function(arg1, arg2) {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 25;
+                        var1 = 26;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -2769,7 +2781,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     _fun0045_ip = 300; continue _fun0045;
                 }
  391:
-                var6 = _closure1_slot17;
+                var6 = _closure1_slot18;
                 var4 = var6.getFlattenedGuildIds;
                 var6 = var4.bind(var6)();
                 var4 = var6.forEach;
@@ -2952,15 +2964,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2 = var2.bind(var1)();
-    var _closure1_slot38 = var2;
+    var _closure1_slot40 = var2;
     var2['_lastInstance'] = var5;
     var5 = var2.resetFrequentlyUsed;
     var5 = var10.bind(var1)(var5);
-    var _closure1_slot39 = var5;
+    var _closure1_slot41 = var5;
     var5 = var2.resetFrequentlyUsedReactionEmojis;
     var5 = var10.bind(var1)(var5);
-    var _closure1_slot40 = var5;
-    var5 = 43;
+    var _closure1_slot42 = var5;
+    var5 = 44;
     var5 = var8[var5];
     var5 = var9.bind(var1)(var5);
     var10 = var5.PersistedStore;
@@ -2977,7 +2989,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = _closure1_slot4;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot3;
-                var1 = _closure1_slot41;
+                var1 = _closure1_slot43;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0055_ip = 69; continue _fun0055 }
  51:
@@ -3014,77 +3026,78 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                 var3 = arg1;
                 var5 = this;
-                var14 = var5.waitFor;
+                var15 = var5.waitFor;
                 var6 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var1 = 27;
+                var1 = 28;
                 var4 = var4[var1];
                 var1 = undefined;
-                var23 = var6.bind(var1)(var4);
-                var22 = _closure1_slot15;
-                var21 = _closure1_slot14;
-                var20 = _closure1_slot16;
-                var19 = _closure1_slot12;
-                var18 = _closure1_slot11;
-                var17 = _closure1_slot19;
-                var16 = _closure1_slot18;
-                var15 = _closure1_slot10;
-                var24 = var5;
-                var4 = var24[var14](var23, var22, var21, var20, var19, var18, var17, var16, var15, var14);
+                var25 = var6.bind(var1)(var4);
+                var24 = _closure1_slot15;
+                var23 = _closure1_slot14;
+                var22 = _closure1_slot17;
+                var21 = _closure1_slot12;
+                var20 = _closure1_slot11;
+                var19 = _closure1_slot20;
+                var18 = _closure1_slot19;
+                var17 = _closure1_slot10;
+                var16 = _closure1_slot16;
+                var26 = var5;
+                var4 = var26[var15](var25, var24, var23, var22, var21, var20, var19, var18, var17, var16, var15);
                 var6 = null;
-                if(!(var6 != var3)) { _fun0056_ip = 188; continue _fun0056 }
- 82:
+                if(!(var6 != var3)) { _fun0056_ip = 192; continue _fun0056 }
+ 86:
                 var4 = var3.pendingUsages;
-                if(!(var6 != var4)) { _fun0056_ip = 108; continue _fun0056 }
- 92:
-                var7 = _closure1_slot27;
+                if(!(var6 != var4)) { _fun0056_ip = 112; continue _fun0056 }
+ 96:
+                var7 = _closure1_slot28;
                 var4 = var3.pendingUsages;
                 var7['pendingUsages'] = var4;
- 108:
+ 112:
                 var4 = var3.emojiReactionPendingUsages;
-                if(!(var6 != var4)) { _fun0056_ip = 134; continue _fun0056 }
- 118:
-                var7 = _closure1_slot27;
+                if(!(var6 != var4)) { _fun0056_ip = 138; continue _fun0056 }
+ 122:
+                var7 = _closure1_slot28;
                 var4 = var3.emojiReactionPendingUsages;
                 var7['emojiReactionPendingUsages'] = var4;
- 134:
+ 138:
                 var4 = var3.expandedSectionsByGuildIds;
-                if(!(var6 != var4)) { _fun0056_ip = 188; continue _fun0056 }
- 144:
-                var4 = _closure1_slot27;
+                if(!(var6 != var4)) { _fun0056_ip = 192; continue _fun0056 }
+ 148:
+                var4 = _closure1_slot28;
                 var6 = global;
                 var7 = var6.Set;
-                var23 = var3.expandedSectionsByGuildIds;
+                var25 = var3.expandedSectionsByGuildIds;
                 var6 = var7.prototype;
                 var6 = Object.create(var6, {constructor: {value: var7}});
-                var24 = var6;
-                var3 = new var24[var7](var23, var22);
+                var26 = var6;
+                var3 = new var26[var7](var25, var24);
                 var3 = var3 instanceof Object ? var3 : var6;
                 var4['expandedSectionsByGuildIds'] = var3;
- 188:
+ 192:
                 var6 = var5.syncWith;
                 var3 = _closure1_slot13;
                 var4 = new Array(1);
                 var4[0] = var3;
-                var3 = _closure1_slot52;
+                var3 = _closure1_slot54;
                 var3 = var6.bind(var5)(var4, var3);
                 var4 = var5.syncWith;
                 var6 = _closure1_slot10;
                 var3 = new Array(1);
                 var3[0] = var6;
-                var2 = _closure1_slot53;
+                var2 = _closure1_slot55;
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             }
         };
         var5['value'] = var1;
-        var1 = new Array(24);
+        var1 = new Array(23);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot27;
+            var1 = _closure1_slot28;
             return var1;
         };
         var5['value'] = var7;
@@ -3093,7 +3106,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'loadState';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot32;
+            var1 = _closure1_slot34;
             return var1;
         };
         var5['get'] = var7;
@@ -3104,14 +3117,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = function value() {
             _fun0057: for(var _fun0057_ip = 0; ; ) switch(_fun0057_ip) {
  0:
-                var1 = _closure1_slot27;
+                var1 = _closure1_slot28;
                 var1 = var1.pendingUsages;
                 var1 = var1.length;
                 var3 = 0;
                 var1 = var1 > var3;
                 if(var1) { _fun0057_ip = 46; continue _fun0057 }
  27:
-                var2 = _closure1_slot27;
+                var2 = _closure1_slot28;
                 var2 = var2.emojiReactionPendingUsages;
                 var2 = var2.length;
                 var1 = var2 > var3;
@@ -3125,7 +3138,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'expandedSectionsByGuildIds';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot27;
+            var1 = _closure1_slot28;
             var1 = var1.expandedSectionsByGuildIds;
             return var1;
         };
@@ -3135,7 +3148,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'categories';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot33;
+            var1 = _closure1_slot35;
             return var1;
         };
         var5['get'] = var7;
@@ -3148,7 +3161,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -3170,7 +3183,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'emojiFrecencyWithoutFetchingLatest';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot39;
+            var1 = _closure1_slot41;
             return var1;
         };
         var5['get'] = var7;
@@ -3179,116 +3192,100 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'emojiReactionFrecencyWithoutFetchingLatest';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot40;
+            var1 = _closure1_slot42;
             return var1;
         };
         var5['get'] = var7;
         var1[8] = var5;
         var5 = {};
-        var7 = 'getGuildEmojiOrUndefined';
+        var7 = 'getGuildEmoji';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0059: for(var _fun0059_ip = 0; ; ) switch(_fun0059_ip) {
  0:
-                var5 = arg1;
-                var2 = _closure1_slot46;
+                var6 = arg1;
+                var3 = _closure1_slot48;
                 var1 = undefined;
-                var2 = var2.bind(var1)();
+                var3 = var3.bind(var1)();
                 var3 = null;
-                var6 = var3 == var5;
-                var2 = undefined;
-                if(var6) { _fun0059_ip = 35; continue _fun0059 }
+                var5 = var3 == var6;
+                var4 = undefined;
+                if(var5) { _fun0059_ip = 35; continue _fun0059 }
  27:
-                var4 = _closure1_slot34;
-                var2 = var4[var5];
+                var5 = _closure1_slot36;
+                var4 = var5[var6];
  35:
-                var3 = var3 == var2;
+                var5 = var3 == var4;
                 var1 = undefined;
-                if(var3) { _fun0059_ip = 50; continue _fun0059 }
+                if(var5) { _fun0059_ip = 50; continue _fun0059 }
  44:
-                var1 = var2.emojis;
+                var1 = var4.emojis;
  50:
+                if(!(var3 == var1)) { _fun0059_ip = 58; continue _fun0059 }
+ 54:
+                var1 = _closure1_slot32;
+ 58:
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[9] = var5;
         var5 = {};
-        var7 = 'getGuildEmoji';
+        var7 = 'getUsableGuildEmoji';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0060: for(var _fun0060_ip = 0; ; ) switch(_fun0060_ip) {
  0:
-                var3 = this;
-                var2 = var3.getGuildEmojiOrUndefined;
-                var1 = arg1;
-                var1 = var2.bind(var3)(var1);
-                var2 = null;
-                if(!(var2 == var1)) { _fun0060_ip = 27; continue _fun0060 }
- 23:
-                var1 = new Array(0);
- 27:
+                var3 = _closure1_slot48;
+                var1 = undefined;
+                var3 = var3.bind(var1)();
+                var4 = _closure1_slot36;
+                var3 = arg1;
+                var4 = var4[var3];
+                var3 = null;
+                var5 = var3 == var4;
+                if(var5) { _fun0060_ip = 39; continue _fun0060 }
+ 33:
+                var1 = var4.usableEmojis;
+ 39:
+                if(!(var3 == var1)) { _fun0060_ip = 47; continue _fun0060 }
+ 43:
+                var1 = _closure1_slot32;
+ 47:
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[10] = var5;
         var5 = {};
-        var7 = 'getUsableGuildEmoji';
+        var7 = 'getGuilds';
         var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0061: for(var _fun0061_ip = 0; ; ) switch(_fun0061_ip) {
- 0:
-                var3 = _closure1_slot46;
-                var1 = undefined;
-                var3 = var3.bind(var1)();
-                var3 = _closure1_slot34;
-                var2 = arg1;
-                var3 = var3[var2];
-                var2 = null;
-                var4 = var2 == var3;
-                if(var4) { _fun0061_ip = 39; continue _fun0061 }
- 33:
-                var1 = var3.usableEmojis;
- 39:
-                if(!(var2 == var1)) { _fun0061_ip = 47; continue _fun0061 }
- 43:
-                var1 = new Array(0);
- 47:
-                return var1;
-            }
+        var7 = function value() {
+            var1 = _closure1_slot36;
+            return var1;
         };
         var5['value'] = var7;
         var1[11] = var5;
         var5 = {};
-        var7 = 'getGuilds';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot34;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[12] = var5;
-        var5 = {};
         var7 = 'getDisambiguatedEmojiContext';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var3 = _closure1_slot46;
+            var3 = _closure1_slot48;
             var2 = undefined;
             var2 = var3.bind(var2)();
-            var3 = _closure1_slot38;
+            var3 = _closure1_slot40;
             var2 = var3.get;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'getSearchResultsOrder';
         var5['key'] = var7;
         var7 = function value(arg1, arg2, arg3, arg4) {
-            _fun0062: for(var _fun0062_ip = 0; ; ) switch(_fun0062_ip) {
+            _fun0061: for(var _fun0061_ip = 0; ; ) switch(_fun0061_ip) {
  0:
                 var8 = arg1;
                 var3 = arg2;
@@ -3300,13 +3297,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var _closure3_slot1 = var10;
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var3 = 37;
+                var3 = 38;
                 var3 = var6[var3];
                 var7 = undefined;
                 var9 = var4.bind(var7)(var3);
                 var3 = var9.escape;
                 var13 = var3.bind(var9)(var10);
-                var3 = 39;
+                var3 = 40;
                 var3 = var6[var3];
                 var11 = var4.bind(var7)(var3);
                 var10 = var11.getCurrentConfig;
@@ -3320,7 +3317,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3.canSplitFrecencyList;
                 var _closure3_slot2 = var3;
                 var4 = _closure1_slot0;
-                var3 = 35;
+                var3 = 36;
                 var10 = var6[var3];
                 var12 = var4.bind(var7)(var10);
                 var11 = var12.getCanUseReactionFrecency;
@@ -3337,7 +3334,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var8.length;
                 var4 = 0;
                 var3 = var8;
-                if(!(var6 > var4)) { _fun0062_ip = 434; continue _fun0062 }
+                if(!(var6 > var4)) { _fun0061_ip = 434; continue _fun0061 }
  215:
                 var6 = global;
                 var12 = var6.RegExp;
@@ -3371,43 +3368,43 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var6.bind(var9)(var10);
                 var _closure3_slot5 = var6;
                 var6 = function score(arg1) {
-                    _fun0063: for(var _fun0063_ip = 0; ; ) switch(_fun0063_ip) {
+                    _fun0062: for(var _fun0062_ip = 0; ; ) switch(_fun0062_ip) {
  0:
                         var9 = arg1;
                         var6 = arguments[1];
                         var8 = undefined;
-                        if(!(var6 === var8)) { _fun0063_ip = 15; continue _fun0063 }
+                        if(!(var6 === var8)) { _fun0062_ip = 15; continue _fun0062 }
  12:
                         var6 = var9;
  15:
                         var2 = null;
-                        if(!(var2 != var9)) { _fun0063_ip = 205; continue _fun0063 }
+                        if(!(var2 != var9)) { _fun0062_ip = 205; continue _fun0062 }
  24:
-                        if(!(var2 != var6)) { _fun0063_ip = 205; continue _fun0063 }
+                        if(!(var2 != var6)) { _fun0062_ip = 205; continue _fun0062 }
  31:
                         var1 = var9.toLowerCase;
                         var5 = var1.bind(var9)();
                         var1 = _closure3_slot1;
                         var7 = 0;
-                        if(!(var5 === var1)) { _fun0063_ip = 57; continue _fun0063 }
+                        if(!(var5 === var1)) { _fun0062_ip = 57; continue _fun0062 }
  54:
                         var7 = 4;
  57:
                         var1 = _closure3_slot4;
                         var1 = var1.bind(var8)(var5);
-                        if(var1) { _fun0063_ip = 83; continue _fun0063 }
+                        if(var1) { _fun0062_ip = 83; continue _fun0062 }
  69:
                         var1 = _closure3_slot4;
                         var1 = var1.bind(var8)(var9);
                         var5 = 0;
-                        if(!var1) { _fun0063_ip = 86; continue _fun0063 }
+                        if(!var1) { _fun0062_ip = 86; continue _fun0062 }
  83:
                         var5 = 2;
  86:
                         var1 = _closure3_slot5;
                         var1 = var1.bind(var8)(var9);
                         var3 = 0;
-                        if(!var1) { _fun0063_ip = 103; continue _fun0063 }
+                        if(!var1) { _fun0062_ip = 103; continue _fun0062 }
  100:
                         var3 = 1;
  103:
@@ -3416,27 +3413,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1 = var1 + var5;
                         var3 = var1 + var3;
                         var7 = _closure3_slot0;
-                        var5 = _closure1_slot21;
+                        var5 = _closure1_slot22;
                         var5 = var5.REACTION;
-                        if(!(var7 === var5)) { _fun0063_ip = 153; continue _fun0063 }
+                        if(!(var7 === var5)) { _fun0062_ip = 153; continue _fun0062 }
  139:
                         var5 = _closure3_slot2;
-                        if(var5) { _fun0063_ip = 170; continue _fun0063 }
+                        if(var5) { _fun0062_ip = 170; continue _fun0062 }
  146:
                         var4 = _closure3_slot3;
-                        if(var4) { _fun0063_ip = 170; continue _fun0063 }
+                        if(var4) { _fun0062_ip = 170; continue _fun0062 }
  153:
-                        var5 = _closure1_slot39;
+                        var5 = _closure1_slot41;
                         var4 = var5.getScore;
                         var4 = var4.bind(var5)(var6);
-                        _fun0063_ip = 185; continue _fun0063;
+                        _fun0062_ip = 185; continue _fun0062;
  170:
-                        var5 = _closure1_slot40;
+                        var5 = _closure1_slot42;
                         var1 = var5.getScore;
                         var4 = var1.bind(var5)(var6);
  185:
                         var1 = var3;
-                        if(!(var2 != var4)) { _fun0063_ip = 203; continue _fun0063 }
+                        if(!(var2 != var4)) { _fun0062_ip = 203; continue _fun0062 }
  192:
                         var2 = 100;
                         var2 = var4 / var2;
@@ -3451,25 +3448,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var _closure3_slot6 = var6;
                 var6 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var2 = 24;
+                var2 = 25;
                 var2 = var9[var2];
                 var7 = var6.bind(var7)(var2);
                 var6 = var7.orderBy;
                 var2 = new Array(2);
                 var9 = function(arg1) {
-                    _fun0064: for(var _fun0064_ip = 0; ; ) switch(_fun0064_ip) {
+                    _fun0063: for(var _fun0063_ip = 0; ; ) switch(_fun0063_ip) {
  0:
                         var2 = arg1;
                         var3 = var2.names;
                         var1 = null;
-                        if(!(var1 == var3)) { _fun0064_ip = 41; continue _fun0064 }
+                        if(!(var1 == var3)) { _fun0063_ip = 41; continue _fun0063 }
  14:
                         var5 = _closure3_slot6;
                         var4 = var2.name;
                         var3 = var2.id;
                         var1 = undefined;
                         var1 = var5.bind(var1)(var4, var3);
-                        _fun0064_ip = 66; continue _fun0064;
+                        _fun0063_ip = 66; continue _fun0063;
  41:
                         var4 = _closure3_slot6;
                         var3 = var2.names;
@@ -3483,15 +3480,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var2[0] = var9;
                 var1 = function(arg1) {
-                    _fun0065: for(var _fun0065_ip = 0; ; ) switch(_fun0065_ip) {
+                    _fun0064: for(var _fun0064_ip = 0; ; ) switch(_fun0064_ip) {
  0:
                         var2 = arg1;
                         var3 = var2.names;
                         var1 = null;
-                        if(!(var1 == var3)) { _fun0065_ip = 21; continue _fun0065 }
+                        if(!(var1 == var3)) { _fun0064_ip = 21; continue _fun0064 }
  14:
                         var1 = var2.name;
-                        _fun0065_ip = 32; continue _fun0065;
+                        _fun0064_ip = 32; continue _fun0064;
  21:
                         var3 = var2.names;
                         var2 = 0;
@@ -3505,7 +3502,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var6.bind(var7)(var8, var2, var1);
  434:
                 var1 = var3;
-                if(!(var5 > var4)) { _fun0062_ip = 452; continue _fun0062 }
+                if(!(var5 > var4)) { _fun0061_ip = 452; continue _fun0061 }
  441:
                 var2 = var3.slice;
                 var1 = var2.bind(var3)(var4, var5);
@@ -3514,12 +3511,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'searchWithoutFetchingLatest';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0066: for(var _fun0066_ip = 0; ; ) switch(_fun0066_ip) {
+            _fun0065: for(var _fun0065_ip = 0; ; ) switch(_fun0065_ip) {
  0:
                 var2 = arg1;
                 var7 = this;
@@ -3528,14 +3525,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var2.query;
                 var8 = var2.count;
                 var13 = undefined;
-                if(!(var8 === var13)) { _fun0066_ip = 35; continue _fun0066 }
+                if(!(var8 === var13)) { _fun0065_ip = 35; continue _fun0065 }
  33:
                 var8 = 0;
  35:
                 var5 = var2.intention;
                 var _closure3_slot1 = var5;
                 var3 = var2.includeExternalGuilds;
-                if(!(var3 === var13)) { _fun0066_ip = 57; continue _fun0066 }
+                if(!(var3 === var13)) { _fun0065_ip = 57; continue _fun0065 }
  55:
                 var3 = true;
  57:
@@ -3544,7 +3541,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2.showOnlyUnicode;
                 var _closure3_slot3 = var2;
                 var _closure3_slot4 = var13;
-                var3 = _closure1_slot46;
+                var3 = _closure1_slot48;
                 var3 = var3.bind(var13)();
                 var3 = var6.toLowerCase;
                 var11 = var3.bind(var6)();
@@ -3554,13 +3551,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var11 = var9.bind(var11)(var3, var12);
                 var9 = _closure1_slot1;
                 var14 = _closure1_slot2;
-                var3 = 37;
+                var3 = 38;
                 var3 = var14[var3];
                 var9 = var9.bind(var13)(var3);
                 var3 = var9.escape;
                 var11 = var3.bind(var9)(var11);
                 var9 = null;
-                if(!(var9 == var4)) { _fun0066_ip = 226; continue _fun0066 }
+                if(!(var9 == var4)) { _fun0065_ip = 226; continue _fun0065 }
  169:
                 var3 = global;
                 var13 = var3.RegExp;
@@ -3588,12 +3585,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  226:
                 var3 = var9 != var10;
                 var9 = null;
-                if(!var3) { _fun0066_ip = 245; continue _fun0066 }
+                if(!var3) { _fun0065_ip = 245; continue _fun0065 }
  235:
                 var3 = var10.getGuildId;
                 var9 = var3.bind(var10)();
  245:
-                var3 = _closure1_slot38;
+                var3 = _closure1_slot40;
                 var2 = var3.get;
                 var3 = var2.bind(var3)(var9);
                 var2 = var3.nameMatchesChain;
@@ -3605,13 +3602,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = new Array(0);
                 var2['locked'] = var9;
                 var1 = function(arg1, arg2) {
-                    _fun0067: for(var _fun0067_ip = 0; ; ) switch(_fun0067_ip) {
+                    _fun0066: for(var _fun0066_ip = 0; ; ) switch(_fun0066_ip) {
  0:
                         var1 = arg1;
                         var4 = arg2;
                         var3 = _closure1_slot1;
                         var6 = _closure1_slot2;
-                        var2 = 42;
+                        var2 = 43;
                         var2 = var6[var2];
                         var8 = undefined;
                         var7 = var3.bind(var8)(var2);
@@ -3625,29 +3622,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var9 = _closure3_slot2;
                         var2['forceIncludeExternalGuilds'] = var9;
                         var6 = var6.bind(var7)(var2);
-                        var2 = _closure1_slot20;
+                        var2 = _closure1_slot21;
                         var2 = var2.PREMIUM_LOCKED;
-                        if(!(var6 === var2)) { _fun0067_ip = 117; continue _fun0067 }
+                        if(!(var6 === var2)) { _fun0066_ip = 117; continue _fun0066 }
  92:
                         var2 = _closure3_slot3;
-                        if(var2) { _fun0067_ip = 117; continue _fun0067 }
+                        if(var2) { _fun0066_ip = 117; continue _fun0066 }
  99:
                         var7 = var1.locked;
                         var2 = var7.push;
                         var2 = var2.bind(var7)(var4);
-                        _fun0067_ip = 196; continue _fun0067;
+                        _fun0066_ip = 196; continue _fun0066;
  117:
                         var2 = null;
                         var2 = var2 != var6;
-                        if(var2) { _fun0067_ip = 177; continue _fun0067 }
+                        if(var2) { _fun0066_ip = 177; continue _fun0066 }
  126:
                         var3 = _closure3_slot3;
-                        if(!var3) { _fun0067_ip = 174; continue _fun0067 }
+                        if(!var3) { _fun0066_ip = 174; continue _fun0066 }
  133:
                         var6 = var4.type;
                         var7 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var5 = 23;
+                        var5 = 24;
                         var5 = var9[var5];
                         var5 = var7.bind(var8)(var5);
                         var5 = var5.EmojiTypes;
@@ -3656,7 +3653,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  174:
                         var2 = var3;
  177:
-                        if(var2) { _fun0067_ip = 196; continue _fun0067 }
+                        if(var2) { _fun0066_ip = 196; continue _fun0066 }
  180:
                         var3 = var1.unlocked;
                         var2 = var3.push;
@@ -3687,51 +3684,51 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var7;
-        var1[15] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'getUsableCustomEmojiById';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var2 = _closure1_slot46;
+            var2 = _closure1_slot48;
             var3 = undefined;
             var2 = var2.bind(var3)();
-            var2 = _closure1_slot44;
+            var2 = _closure1_slot46;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
         var5['value'] = var7;
-        var1[16] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'getCustomEmojiById';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0068: for(var _fun0068_ip = 0; ; ) switch(_fun0068_ip) {
+            _fun0067: for(var _fun0067_ip = 0; ; ) switch(_fun0067_ip) {
  0:
                 var7 = arg1;
-                var1 = _closure1_slot46;
+                var1 = _closure1_slot48;
                 var4 = undefined;
                 var1 = var1.bind(var4)();
-                var1 = _closure1_slot45;
+                var1 = _closure1_slot47;
                 var1 = var1.bind(var4)();
                 var5 = var1[var7];
                 var3 = null;
                 var6 = var3 != var5;
                 var1 = undefined;
-                if(!var6) { _fun0068_ip = 79; continue _fun0068 }
+                if(!var6) { _fun0067_ip = 79; continue _fun0067 }
  39:
-                var2 = _closure1_slot34;
+                var2 = _closure1_slot36;
                 var6 = var2[var5];
                 var5 = var3 == var6;
                 var2 = undefined;
-                if(var5) { _fun0068_ip = 67; continue _fun0068 }
+                if(var5) { _fun0067_ip = 67; continue _fun0067 }
  56:
                 var5 = var6.getEmoji;
                 var2 = var5.bind(var6)(var7);
  67:
                 var3 = var3 != var2;
                 var1 = undefined;
-                if(!var3) { _fun0068_ip = 79; continue _fun0068 }
+                if(!var3) { _fun0067_ip = 79; continue _fun0067 }
  76:
                 var1 = var2;
  79:
@@ -3739,88 +3736,88 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var7;
-        var1[17] = var5;
+        var1[16] = var5;
         var5 = {};
         var7 = 'getTopEmoji';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            _fun0068: for(var _fun0068_ip = 0; ; ) switch(_fun0068_ip) {
+ 0:
+                var3 = arg1;
+                var1 = null;
+                if(!(var1 != var3)) { _fun0068_ip = 51; continue _fun0068 }
+ 9:
+                var4 = _closure1_slot48;
+                var2 = undefined;
+                var2 = var4.bind(var2)();
+                var2 = _closure1_slot40;
+                var1 = var2.get;
+                var2 = var1.bind(var2)(var3);
+                var1 = var2.getTopEmojiWithoutFetchingLatest;
+                var1 = var1.bind(var2)(var3);
+                _fun0068_ip = 58; continue _fun0068;
+ 51:
+                var1 = _closure1_slot31;
+ 58:
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[17] = var5;
+        var5 = {};
+        var7 = 'getNewlyAddedEmoji';
         var5['key'] = var7;
         var7 = function value(arg1) {
             _fun0069: for(var _fun0069_ip = 0; ; ) switch(_fun0069_ip) {
  0:
                 var3 = arg1;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0069_ip = 51; continue _fun0069 }
+                if(!(var1 != var3)) { _fun0069_ip = 49; continue _fun0069 }
  9:
-                var4 = _closure1_slot46;
+                var4 = _closure1_slot48;
                 var2 = undefined;
                 var2 = var4.bind(var2)();
-                var2 = _closure1_slot38;
+                var2 = _closure1_slot40;
                 var1 = var2.get;
                 var2 = var1.bind(var2)(var3);
-                var1 = var2.getTopEmojiWithoutFetchingLatest;
+                var1 = var2.getNewlyAddedEmojiForGuild;
                 var1 = var1.bind(var2)(var3);
-                _fun0069_ip = 58; continue _fun0069;
- 51:
-                var1 = _closure1_slot30;
- 58:
+                _fun0069_ip = 56; continue _fun0069;
+ 49:
+                var1 = _closure1_slot31;
+ 56:
                 return var1;
             }
         };
         var5['value'] = var7;
         var1[18] = var5;
         var5 = {};
-        var7 = 'getNewlyAddedEmoji';
-        var5['key'] = var7;
-        var7 = function value(arg1) {
-            _fun0070: for(var _fun0070_ip = 0; ; ) switch(_fun0070_ip) {
- 0:
-                var3 = arg1;
-                var1 = null;
-                if(!(var1 != var3)) { _fun0070_ip = 49; continue _fun0070 }
- 9:
-                var4 = _closure1_slot46;
-                var2 = undefined;
-                var2 = var4.bind(var2)();
-                var2 = _closure1_slot38;
-                var1 = var2.get;
-                var2 = var1.bind(var2)(var3);
-                var1 = var2.getNewlyAddedEmojiForGuild;
-                var1 = var1.bind(var2)(var3);
-                _fun0070_ip = 56; continue _fun0070;
- 49:
-                var1 = _closure1_slot30;
- 56:
-                return var1;
-            }
-        };
-        var5['value'] = var7;
-        var1[19] = var5;
-        var5 = {};
         var7 = 'getTopEmojisMetadata';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var3 = _closure1_slot37;
+            var3 = _closure1_slot39;
             var2 = var3.get;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
         var5['value'] = var7;
-        var1[20] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'getEmojiAutosuggestion';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0071: for(var _fun0071_ip = 0; ; ) switch(_fun0071_ip) {
+            _fun0070: for(var _fun0070_ip = 0; ; ) switch(_fun0070_ip) {
  0:
                 var3 = this;
-                var2 = _closure1_slot36;
+                var2 = _closure1_slot38;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0071_ip = 31; continue _fun0071 }
+                if(!(var1 != var2)) { _fun0070_ip = 31; continue _fun0070 }
  16:
-                var1 = _closure1_slot36;
+                var1 = _closure1_slot38;
                 var1 = var1.length;
                 var4 = 0;
-                if(!(!(var1 > var4))) { _fun0071_ip = 37; continue _fun0071 }
+                if(!(!(var1 > var4))) { _fun0070_ip = 37; continue _fun0070 }
  31:
                 var1 = new Array(0);
                 return var1;
@@ -3831,9 +3828,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['channel'] = var6;
                 var6 = 10;
                 var1['count'] = var6;
-                var6 = _closure1_slot36;
+                var6 = _closure1_slot38;
                 var1['query'] = var6;
-                var5 = _closure1_slot21;
+                var5 = _closure1_slot22;
                 var5 = var5.CHAT;
                 var1['intention'] = var5;
                 var1 = var2.bind(var3)(var1);
@@ -3856,25 +3853,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var7;
-        var1[21] = var5;
+        var1[20] = var5;
         var5 = {};
         var7 = 'hasUsableEmojiInAnyGuild';
         var5['key'] = var7;
         var7 = function value() {
-            var2 = _closure1_slot46;
+            var2 = _closure1_slot48;
             var4 = undefined;
             var2 = var2.bind(var4)();
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 25;
+            var2 = 26;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.keys;
-            var1 = _closure1_slot34;
+            var1 = _closure1_slot36;
             var3 = var2.bind(var3)(var1);
             var2 = var3.some;
             var1 = function(arg1) {
-                var2 = _closure1_slot34;
+                var2 = _closure1_slot36;
                 var1 = arg1;
                 var1 = var2[var1];
                 var1 = var1.usableEmojis;
@@ -3887,20 +3884,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var7;
-        var1[22] = var5;
+        var1[21] = var5;
         var5 = {};
         var7 = 'hasFavoriteEmojis';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            _fun0072: for(var _fun0072_ip = 0; ; ) switch(_fun0072_ip) {
+            _fun0071: for(var _fun0071_ip = 0; ; ) switch(_fun0071_ip) {
  0:
-                var3 = _closure1_slot38;
+                var3 = _closure1_slot40;
                 var2 = var3.get;
                 var1 = arg1;
                 var2 = var2.bind(var3)(var1);
                 var1 = null;
                 var1 = var1 != var2;
-                if(!var1) { _fun0072_ip = 46; continue _fun0072 }
+                if(!var1) { _fun0071_ip = 46; continue _fun0071 }
  29:
                 var2 = var2.favoriteEmojisWithoutFetchingLatest;
                 var3 = var2.length;
@@ -3911,7 +3908,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var6;
-        var1[23] = var5;
+        var1[22] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -3930,15 +3927,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var5[0] = var12;
     var10['migrations'] = var5;
-    var5 = 31;
+    var5 = 32;
     var5 = var8[var5];
     var22 = var9.bind(var1)(var5);
     var5 = {};
     var12 = function handleLogout() {
-        var3 = _closure1_slot27;
+        var3 = _closure1_slot28;
         var2 = new Array(0);
         var3['pendingUsages'] = var2;
-        var2 = _closure1_slot27;
+        var2 = _closure1_slot28;
         var1 = new Array(0);
         var2['emojiReactionPendingUsages'] = var1;
         var1 = undefined;
@@ -3946,28 +3943,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var5['LOGOUT'] = var12;
     var12 = function handleBackgroundSync() {
-        var2 = _closure1_slot48;
+        var2 = _closure1_slot50;
         var1 = undefined;
         var2 = var2.bind(var1)();
         return var1;
     };
     var5['BACKGROUND_SYNC'] = var12;
     var12 = function handleConnectionOpen(arg1) {
-        _fun0073: for(var _fun0073_ip = 0; ; ) switch(_fun0073_ip) {
+        _fun0072: for(var _fun0072_ip = 0; ; ) switch(_fun0072_ip) {
  0:
             var3 = arg1;
-            var4 = _closure1_slot48;
+            var4 = _closure1_slot50;
             var1 = undefined;
             var4 = var4.bind(var1)();
-            var5 = _closure1_slot42;
+            var5 = _closure1_slot44;
             var4 = var3.guilds;
             var6 = var5.bind(var1)(var4);
             var5 = var6.bind(var1)();
             var4 = var5.done;
-            if(var4) { _fun0073_ip = 90; continue _fun0073 }
+            if(var4) { _fun0072_ip = 90; continue _fun0072 }
  43:
             var4 = var5.value;
-            var8 = _closure1_slot51;
+            var8 = _closure1_slot53;
             var7 = var4.id;
             var4 = var4.emojis;
             var4 = var4.items;
@@ -3975,7 +3972,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var6.bind(var1)();
             var4 = var7.done;
             var5 = var7;
-            if(!var4) { _fun0073_ip = 43; continue _fun0073 }
+            if(!var4) { _fun0072_ip = 43; continue _fun0072 }
  90:
             var5 = var3.guilds;
             var4 = var5.every;
@@ -3988,26 +3985,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var3 = var4.bind(var5)(var3);
-            var4 = _closure1_slot31;
-            if(var3) { _fun0073_ip = 129; continue _fun0073 }
+            var4 = _closure1_slot33;
+            if(var3) { _fun0072_ip = 129; continue _fun0072 }
  121:
             var3 = var4.Unloaded;
-            _fun0073_ip = 135; continue _fun0073;
+            _fun0072_ip = 135; continue _fun0072;
  129:
             var3 = var4.MaybeLoaded;
  135:
-            _closure1_slot32 = var3;
-            var2 = _closure1_slot50;
+            _closure1_slot34 = var3;
+            var2 = _closure1_slot52;
             var2 = var2.bind(var1)();
             return var1;
         }
     };
     var5['CONNECTION_OPEN'] = var12;
     var12 = function handleOverlayInitialize(arg1) {
-        _fun0074: for(var _fun0074_ip = 0; ; ) switch(_fun0074_ip) {
+        _fun0073: for(var _fun0073_ip = 0; ; ) switch(_fun0073_ip) {
  0:
             var8 = arg1;
-            var3 = _closure1_slot48;
+            var3 = _closure1_slot50;
             var1 = undefined;
             var3 = var3.bind(var1)();
             var6 = var8.emojis;
@@ -4016,28 +4013,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             {
  39:
                 var11 = var3;
-                var10 = _closure1_slot51;
+                var10 = _closure1_slot53;
                 var9 = var8.emojis;
                 var9 = var9[var11];
                 var9 = var10.bind(var1)(var11, var9);
-                _fun0074_ip = 30; continue _fun0074;
+                _fun0073_ip = 30; continue _fun0073;
             }
  64:
-            var3 = _closure1_slot31;
+            var3 = _closure1_slot33;
             var3 = var3.MaybeLoaded;
-            _closure1_slot32 = var3;
-            var2 = _closure1_slot50;
+            _closure1_slot34 = var3;
+            var2 = _closure1_slot52;
             var2 = var2.bind(var1)();
             return var1;
         }
     };
     var5['OVERLAY_INITIALIZE'] = var12;
     var12 = function handleCachedEmojisLoaded(arg1) {
-        _fun0075: for(var _fun0075_ip = 0; ; ) switch(_fun0075_ip) {
+        _fun0074: for(var _fun0074_ip = 0; ; ) switch(_fun0074_ip) {
  0:
             var1 = arg1;
             var4 = var1.emojis;
-            var3 = _closure1_slot42;
+            var3 = _closure1_slot44;
             var1 = undefined;
             var9 = var3.bind(var1)(var4);
             var4 = var9.bind(var1)();
@@ -4046,7 +4043,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = 0;
             var6 = 1;
             var5 = global;
-            if(var3) { _fun0075_ip = 139; continue _fun0075 }
+            if(var3) { _fun0074_ip = 139; continue _fun0074 }
  45:
             var10 = var4.value;
             var3 = _closure1_slot6;
@@ -4055,62 +4052,62 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var3[var6];
             var13 = var5.Object;
             var12 = var13.hasOwn;
-            var3 = _closure1_slot34;
+            var3 = _closure1_slot36;
             var3 = var12.bind(var13)(var3, var11);
             var3 = !var3;
-            if(!var3) { _fun0075_ip = 111; continue _fun0075 }
+            if(!var3) { _fun0074_ip = 111; continue _fun0074 }
  96:
             var13 = _closure1_slot15;
             var12 = var13.isMember;
             var3 = var12.bind(var13)(var11);
  111:
-            if(!var3) { _fun0075_ip = 124; continue _fun0075 }
+            if(!var3) { _fun0074_ip = 124; continue _fun0074 }
  114:
-            var3 = _closure1_slot51;
+            var3 = _closure1_slot53;
             var3 = var3.bind(var1)(var11, var10);
  124:
             var10 = var9.bind(var1)();
             var3 = var10.done;
             var4 = var10;
-            if(!var3) { _fun0075_ip = 45; continue _fun0075 }
+            if(!var3) { _fun0074_ip = 45; continue _fun0074 }
  139:
-            var2 = _closure1_slot50;
+            var2 = _closure1_slot52;
             var2 = var2.bind(var1)();
             return var1;
         }
     };
     var5['CACHED_EMOJIS_LOADED'] = var12;
     var12 = function handleGuildMemberUpdate(arg1) {
-        _fun0076: for(var _fun0076_ip = 0; ; ) switch(_fun0076_ip) {
+        _fun0075: for(var _fun0075_ip = 0; ; ) switch(_fun0075_ip) {
  0:
             var1 = arg1;
             var5 = var1.guildId;
             var1 = var1.user;
             var6 = var1.id;
-            var3 = _closure1_slot18;
+            var3 = _closure1_slot19;
             var1 = var3.getCurrentUser;
             var7 = var1.bind(var3)();
             var3 = null;
             var8 = var3 == var7;
             var1 = undefined;
             var4 = undefined;
-            if(var8) { _fun0076_ip = 52; continue _fun0076 }
+            if(var8) { _fun0075_ip = 52; continue _fun0075 }
  47:
             var4 = var7.id;
  52:
-            if(!(var6 === var4)) { _fun0076_ip = 97; continue _fun0076 }
+            if(!(var6 === var4)) { _fun0075_ip = 97; continue _fun0075 }
  56:
-            var4 = _closure1_slot34;
+            var4 = _closure1_slot36;
             var6 = var4[var5];
-            var4 = _closure1_slot51;
+            var4 = _closure1_slot53;
             var7 = var3 == var6;
             var3 = undefined;
-            if(var7) { _fun0076_ip = 83; continue _fun0076 }
+            if(var7) { _fun0075_ip = 83; continue _fun0075 }
  77:
             var3 = var6.usableEmojis;
  83:
             var3 = var4.bind(var1)(var5, var3);
-            var2 = _closure1_slot50;
+            var2 = _closure1_slot52;
             var2 = var2.bind(var1)();
  97:
             return var1;
@@ -4118,14 +4115,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var5['GUILD_MEMBER_UPDATE'] = var12;
     var12 = function handleGuildCreate(arg1) {
-        _fun0077: for(var _fun0077_ip = 0; ; ) switch(_fun0077_ip) {
+        _fun0076: for(var _fun0076_ip = 0; ; ) switch(_fun0076_ip) {
  0:
             var1 = arg1;
-            var4 = _closure1_slot32;
-            var3 = _closure1_slot31;
+            var4 = _closure1_slot34;
+            var3 = _closure1_slot33;
             var3 = var3.MaybeLoaded;
             var3 = var4 === var3;
-            if(!var3) { _fun0077_ip = 51; continue _fun0077 }
+            if(!var3) { _fun0076_ip = 51; continue _fun0076 }
  27:
             var4 = var1.guild;
             var4 = var4.emojis;
@@ -4133,7 +4130,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = 'update';
             var3 = var4 === var5;
  51:
-            if(!var3) { _fun0077_ip = 77; continue _fun0077 }
+            if(!var3) { _fun0076_ip = 77; continue _fun0076 }
  54:
             var4 = var1.guild;
             var4 = var4.emojis;
@@ -4141,13 +4138,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = null;
             var3 = var4 == var5;
  77:
-            if(!var3) { _fun0077_ip = 94; continue _fun0077 }
+            if(!var3) { _fun0076_ip = 94; continue _fun0076 }
  80:
-            var3 = _closure1_slot31;
+            var3 = _closure1_slot33;
             var3 = var3.Unloaded;
-            _closure1_slot32 = var3;
+            _closure1_slot34 = var3;
  94:
-            var5 = _closure1_slot51;
+            var5 = _closure1_slot53;
             var3 = var1.guild;
             var4 = var3.id;
             var1 = var1.guild;
@@ -4155,7 +4152,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var1.items;
             var1 = undefined;
             var3 = var5.bind(var1)(var4, var3);
-            var2 = _closure1_slot50;
+            var2 = _closure1_slot52;
             var2 = var2.bind(var1)();
             return var1;
         }
@@ -4163,14 +4160,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5['GUILD_CREATE'] = var12;
     var12 = function handleGuildUpdate(arg1) {
         var1 = arg1;
-        var5 = _closure1_slot51;
+        var5 = _closure1_slot53;
         var3 = var1.guild;
         var4 = var3.id;
         var1 = var1.guild;
         var3 = var1.emojis;
         var1 = undefined;
         var3 = var5.bind(var1)(var4, var3);
-        var2 = _closure1_slot50;
+        var2 = _closure1_slot52;
         var2 = var2.bind(var1)();
         return var1;
     };
@@ -4179,10 +4176,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = arg1;
         var5 = var1.guildId;
         var4 = var1.emojis;
-        var3 = _closure1_slot51;
+        var3 = _closure1_slot53;
         var1 = undefined;
         var3 = var3.bind(var1)(var5, var4);
-        var2 = _closure1_slot50;
+        var2 = _closure1_slot52;
         var2 = var2.bind(var1)();
         return var1;
     };
@@ -4190,25 +4187,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var12 = function handleGuildDelete(arg1) {
         var1 = arg1;
         var3 = var1.guild;
-        var5 = _closure1_slot49;
+        var5 = _closure1_slot51;
         var4 = var3.id;
         var1 = undefined;
         var4 = var5.bind(var1)(var4);
-        var5 = _closure1_slot37;
+        var5 = _closure1_slot39;
         var4 = var5.delete;
         var3 = var3.id;
         var3 = var4.bind(var5)(var3);
-        var2 = _closure1_slot50;
+        var2 = _closure1_slot52;
         var2 = var2.bind(var1)();
         return var1;
     };
     var5['GUILD_DELETE'] = var12;
     var12 = function handleAddReaction(arg1) {
-        _fun0078: for(var _fun0078_ip = 0; ; ) switch(_fun0078_ip) {
+        _fun0077: for(var _fun0077_ip = 0; ; ) switch(_fun0077_ip) {
  0:
             var2 = arg1;
             var1 = var2.optimistic;
-            if(var1) { _fun0078_ip = 16; continue _fun0078 }
+            if(var1) { _fun0077_ip = 16; continue _fun0077 }
  12:
             var1 = false;
             return var1;
@@ -4216,16 +4213,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.emoji;
             var1 = var1.id;
             var9 = null;
-            if(!(var9 != var1)) { _fun0078_ip = 54; continue _fun0078 }
+            if(!(var9 != var1)) { _fun0077_ip = 54; continue _fun0077 }
  33:
             var1 = var2.emoji;
             var3 = var1.id;
             var1 = '0';
-            if(!(var1 === var3)) { _fun0078_ip = 126; continue _fun0078 }
+            if(!(var1 === var3)) { _fun0077_ip = 126; continue _fun0077 }
  54:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 21;
+            var1 = 22;
             var3 = var7[var1];
             var5 = undefined;
             var4 = var6.bind(var5)(var3);
@@ -4238,40 +4235,40 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = false;
             var1 = var6.bind(var7)(var5, var1);
             var1 = var3.bind(var4)(var1);
-            _fun0078_ip = 132; continue _fun0078;
+            _fun0077_ip = 132; continue _fun0077;
  126:
             var1 = var2.emoji;
  132:
-            if(!(var9 != var1)) { _fun0078_ip = 390; continue _fun0078 }
+            if(!(var9 != var1)) { _fun0077_ip = 390; continue _fun0077 }
  139:
             var3 = new Array(1);
             var3[0] = var1;
-            if(!(var9 != var3)) { _fun0078_ip = 366; continue _fun0078 }
+            if(!(var9 != var3)) { _fun0077_ip = 366; continue _fun0077 }
  154:
-            var4 = _closure1_slot42;
+            var4 = _closure1_slot44;
             var8 = undefined;
             var7 = var4.bind(var8)(var3);
             var5 = var7.bind(var8)();
             var4 = var5.done;
             var6 = global;
-            if(var4) { _fun0078_ip = 290; continue _fun0078 }
+            if(var4) { _fun0077_ip = 290; continue _fun0077 }
  182:
             var4 = var5.value;
             var12 = var4.id;
-            if(!(var9 == var12)) { _fun0078_ip = 202; continue _fun0078 }
+            if(!(var9 == var12)) { _fun0077_ip = 202; continue _fun0077 }
  196:
             var12 = var4.uniqueName;
  202:
-            if(!(var9 == var12)) { _fun0078_ip = 211; continue _fun0078 }
+            if(!(var9 == var12)) { _fun0077_ip = 211; continue _fun0077 }
  206:
             var12 = var4.name;
  211:
-            if(!(var9 != var12)) { _fun0078_ip = 275; continue _fun0078 }
+            if(!(var9 != var12)) { _fun0077_ip = 275; continue _fun0077 }
  215:
-            var10 = _closure1_slot40;
+            var10 = _closure1_slot42;
             var4 = var10.track;
             var4 = var4.bind(var10)(var12);
-            var4 = _closure1_slot27;
+            var4 = _closure1_slot28;
             var11 = var4.emojiReactionPendingUsages;
             var10 = var11.push;
             var4 = {};
@@ -4285,34 +4282,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var7.bind(var8)();
             var4 = var10.done;
             var5 = var10;
-            if(!var4) { _fun0078_ip = 182; continue _fun0078 }
+            if(!var4) { _fun0077_ip = 182; continue _fun0077 }
  290:
             var4 = var3.length;
             var3 = 0;
             var4 = var4 > var3;
             var3 = !var4;
-            if(!var4) { _fun0078_ip = 349; continue _fun0078 }
+            if(!var4) { _fun0077_ip = 349; continue _fun0077 }
  307:
-            var5 = _closure1_slot32;
-            var4 = _closure1_slot31;
+            var5 = _closure1_slot34;
+            var4 = _closure1_slot33;
             var4 = var4.Loaded;
             var4 = var5 !== var4;
-            if(!var4) { _fun0078_ip = 346; continue _fun0078 }
+            if(!var4) { _fun0077_ip = 346; continue _fun0077 }
  328:
-            var6 = _closure1_slot32;
-            var5 = _closure1_slot31;
+            var6 = _closure1_slot34;
+            var5 = _closure1_slot33;
             var5 = var5.MaybeLoaded;
             var4 = var6 !== var5;
  346:
             var3 = var4;
  349:
-            if(var3) { _fun0078_ip = 366; continue _fun0078 }
+            if(var3) { _fun0077_ip = 366; continue _fun0077 }
  352:
-            var3 = _closure1_slot40;
+            var3 = _closure1_slot42;
             var2 = var3.compute;
             var2 = var2.bind(var3)();
  366:
-            var3 = _closure1_slot54;
+            var3 = _closure1_slot56;
             var2 = new Array(1);
             var2[0] = var1;
             var1 = undefined;
@@ -4327,14 +4324,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var12 = function handleTrackUsage(arg1) {
         var1 = arg1;
         var3 = var1.emojiUsed;
-        var2 = _closure1_slot54;
+        var2 = _closure1_slot56;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
     };
     var5['EMOJI_TRACK_USAGE'] = var12;
     var12 = function handleUserSettingsProtoUpdate(arg1) {
-        _fun0079: for(var _fun0079_ip = 0; ; ) switch(_fun0079_ip) {
+        _fun0078: for(var _fun0078_ip = 0; ; ) switch(_fun0078_ip) {
  0:
             var1 = arg1;
             var2 = var1.settings;
@@ -4342,7 +4339,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var1.wasSaved;
             var6 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 36;
+            var1 = 37;
             var4 = var4[var1];
             var1 = undefined;
             var7 = var6.bind(var1)(var4);
@@ -4350,16 +4347,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = _closure1_slot12;
             var4 = var4.locale;
             var4 = var6.bind(var7)(var4);
-            var4 = _closure1_slot24;
+            var4 = _closure1_slot25;
             var4 = var4.FRECENCY_AND_FAVORITES_SETTINGS;
-            if(!(var5 === var4)) { _fun0079_ip = 113; continue _fun0079 }
+            if(!(var5 === var4)) { _fun0078_ip = 113; continue _fun0078 }
  80:
-            if(!var3) { _fun0079_ip = 113; continue _fun0079 }
+            if(!var3) { _fun0078_ip = 113; continue _fun0078 }
  83:
-            var4 = _closure1_slot27;
+            var4 = _closure1_slot28;
             var3 = new Array(0);
             var4['pendingUsages'] = var3;
-            var3 = _closure1_slot27;
+            var3 = _closure1_slot28;
             var2 = new Array(0);
             var3['emojiReactionPendingUsages'] = var2;
             return var1;
@@ -4375,7 +4372,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = arg1;
         var5 = var1.guildId;
         var8 = var1.topEmojisMetadata;
-        var4 = _closure1_slot37;
+        var4 = _closure1_slot39;
         var3 = var4.set;
         var2 = {};
         var7 = var8.map;
@@ -4388,7 +4385,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2['emojiIds'] = var6;
         var8 = _closure1_slot1;
         var9 = _closure1_slot2;
-        var6 = 41;
+        var6 = 42;
         var7 = var9[var6];
         var1 = undefined;
         var7 = var8.bind(var1)(var7);
@@ -4410,45 +4407,45 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = function handleEmojiAutosuggestionUpdate(arg1) {
         var1 = arg1;
         var2 = var1.text;
-        _closure1_slot36 = var2;
+        _closure1_slot38 = var2;
         var1 = undefined;
         return var1;
     };
     var5['EMOJI_AUTOSUGGESTION_UPDATE'] = var11;
     var6 = function toggleGuildExpandedState(arg1) {
-        _fun0080: for(var _fun0080_ip = 0; ; ) switch(_fun0080_ip) {
+        _fun0079: for(var _fun0079_ip = 0; ; ) switch(_fun0079_ip) {
  0:
             var1 = arg1;
             var3 = var1.guildId;
             var1 = global;
             var5 = var1.Set;
-            var1 = _closure1_slot27;
+            var1 = _closure1_slot28;
             var7 = var1.expandedSectionsByGuildIds;
             var4 = var5.prototype;
             var4 = Object.create(var4, {constructor: {value: var5}});
             var8 = var4;
             var1 = new var8[var5](var7, var6);
             var4 = var1 instanceof Object ? var1 : var4;
-            var1 = _closure1_slot27;
+            var1 = _closure1_slot28;
             var5 = var1.expandedSectionsByGuildIds;
             var1 = var5.has;
             var1 = var1.bind(var5)(var3);
-            if(var1) { _fun0080_ip = 84; continue _fun0080 }
+            if(var1) { _fun0079_ip = 84; continue _fun0079 }
  72:
             var1 = var4.add;
             var1 = var1.bind(var4)(var3);
-            _fun0080_ip = 94; continue _fun0080;
+            _fun0079_ip = 94; continue _fun0079;
  84:
             var1 = var4.delete;
             var1 = var1.bind(var4)(var3);
  94:
             var1 = {};
-            var6 = _closure1_slot27;
+            var6 = _closure1_slot28;
             var7 = var1;
             var3 = copyDataProperties(var7, var6);
             var3 = 'expandedSectionsByGuildIds';
             var1[var3] = var4;
-            _closure1_slot27 = var1;
+            _closure1_slot28 = var1;
             var1 = undefined;
             return var1;
         }
@@ -4460,7 +4457,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var21 = var5;
     var5 = new var23[var10](var22, var21, var20);
     var5 = var5 instanceof Object ? var5 : var6;
-    var6 = 44;
+    var6 = 45;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

@@ -130,18 +130,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    var4 = _closure2_slot1;
+                    var5 = _closure2_slot1;
                     var3 = 'hidden';
                     var1 = undefined;
-                    if(!(var3 !== var4)) { _fun0002_ip = 38; continue _fun0002 }
+                    if(!(var3 !== var5)) { _fun0002_ip = 53; continue _fun0002 }
  17:
+                    var5 = _closure2_slot2;
+                    var3 = null;
+                    var3 = var3 != var5;
+                    var1 = undefined;
+                    if(!var3) { _fun0002_ip = 53; continue _fun0002 }
+ 32:
                     var3 = {};
                     var2 = _closure2_slot2;
                     var3['color'] = var2;
                     var2 = new Array(1);
                     var2[0] = var3;
                     var1 = var2;
- 38:
+ 53:
                     return var1;
                 }
             };

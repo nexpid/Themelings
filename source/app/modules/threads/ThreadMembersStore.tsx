@@ -318,49 +318,43 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = undefined;
         return var1;
     };
-    var10 = function handleSearchFinish(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
+    var10 = function handleSearchMessagesSuccess(arg1) {
+        var2 = arg1;
+        var4 = var2.data;
+        var2 = false;
+        var _closure2_slot0 = var2;
+        var3 = var4.forEach;
+        var2 = function(arg1) {
             var2 = arg1;
-            var3 = false;
-            var _closure2_slot0 = var3;
-            var4 = _closure1_slot11;
-            var3 = var2.messages;
-            var6 = undefined;
-            var5 = var4.bind(var6)(var3);
-            var4 = var5.bind(var6)();
-            var3 = var4.done;
-            if(var3) { _fun0007_ip = 130; continue _fun0007 }
- 43:
-            var8 = _closure1_slot11;
-            var3 = var4.value;
-            var9 = var8.bind(var6)(var3);
-            var8 = var9.bind(var6)();
-            var3 = var8.done;
-            if(var3) { _fun0007_ip = 115; continue _fun0007 }
- 69:
-            var3 = var8.value;
-            var10 = _closure1_slot15;
-            var3 = var3.thread;
-            var3 = var10.bind(var6)(var3);
-            if(var3) { _fun0007_ip = 96; continue _fun0007 }
- 92:
-            var3 = _closure2_slot0;
- 96:
-            _closure2_slot0 = var3;
-            var10 = var9.bind(var6)();
-            var3 = var10.done;
-            var8 = var10;
-            if(!var3) { _fun0007_ip = 69; continue _fun0007 }
- 115:
-            var8 = var5.bind(var6)();
-            var3 = var8.done;
-            var4 = var8;
-            if(!var3) { _fun0007_ip = 43; continue _fun0007 }
- 130:
-            var4 = var2.threads;
-            var3 = var4.forEach;
+            var3 = var2.threads;
+            var5 = var2.messages;
+            var4 = var5.forEach;
             var2 = function(arg1) {
+                var3 = arg1;
+                var2 = var3.forEach;
+                var1 = function(arg1) {
+                    _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+ 0:
+                        var3 = _closure1_slot15;
+                        var1 = arg1;
+                        var2 = var1.thread;
+                        var1 = undefined;
+                        var3 = var3.bind(var1)(var2);
+                        if(var3) { _fun0007_ip = 33; continue _fun0007 }
+ 26:
+                        var3 = _closure2_slot0;
+ 33:
+                        _closure2_slot0 = var3;
+                        return var1;
+                    }
+                };
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
+            };
+            var2 = var4.bind(var5)(var2);
+            var2 = var3.forEach;
+            var1 = function(arg1) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                     var3 = _closure1_slot15;
@@ -375,10 +369,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var2 = var3.bind(var4)(var2);
-            var1 = _closure2_slot0;
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
             return var1;
-        }
+        };
+        var2 = var3.bind(var4)(var2);
+        var1 = _closure2_slot0;
+        return var1;
     };
     var1 = function updateFromServerThread(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -714,8 +711,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var2['THREAD_MEMBERS_UPDATE'] = var11;
-    var2['SEARCH_FINISH'] = var10;
-    var2['MOD_VIEW_SEARCH_FINISH'] = var10;
+    var2['SEARCH_MESSAGES_SUCCESS'] = var10;
+    var2['MOD_VIEW_SEARCH_MESSAGES_SUCCESS'] = var10;
     var2['LOAD_THREADS_SUCCESS'] = var9;
     var2['LOAD_ARCHIVED_THREADS_SUCCESS'] = var9;
     var9 = function handleThreadDelete(arg1) {

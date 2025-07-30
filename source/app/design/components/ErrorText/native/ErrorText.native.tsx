@@ -90,7 +90,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = 5;
         var5 = var10[var5];
         var5 = var7.bind(var4)(var5);
-        var6 = var5.CircleWarningIcon;
+        var6 = var5.CircleErrorIcon;
         var5 = {'size': 'xs', 'color': 'text-danger'};
         var6 = var8.bind(var4)(var6, var5);
         var5 = new Array(2);

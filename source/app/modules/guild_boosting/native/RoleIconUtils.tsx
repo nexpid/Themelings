@@ -68,35 +68,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7[0] = var4;
             var4 = _closure1_slot4;
             var7[1] = var4;
-            var4 = new Array(1);
+            var4 = new Array(2);
             var4[0] = var3;
+            var4[1] = var6;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var1 = {};
                     var6 = _closure1_slot5;
-                    var2 = var6.getGuild;
-                    var5 = _closure2_slot0;
-                    var2 = var2.bind(var6)(var5);
-                    var1['guild'] = var2;
-                    var2 = null;
-                    var5 = var2 != var5;
+                    var5 = var6.getGuild;
+                    var2 = _closure2_slot0;
+                    var5 = var5.bind(var6)(var2);
+                    var1['guild'] = var5;
+                    var7 = null;
+                    var5 = var7 != var2;
                     var2 = undefined;
-                    if(!var5) { _fun0002_ip = 60; continue _fun0002 }
+                    if(!var5) { _fun0002_ip = 78; continue _fun0002 }
  41:
-                    var5 = _closure1_slot4;
-                    var4 = var5.getRoles;
-                    var3 = _closure2_slot0;
-                    var2 = var4.bind(var5)(var3);
- 60:
-                    var1['roles'] = var2;
+                    var5 = _closure2_slot1;
+                    var5 = var7 != var5;
+                    var2 = undefined;
+                    if(!var5) { _fun0002_ip = 78; continue _fun0002 }
+ 54:
+                    var6 = _closure1_slot4;
+                    var5 = var6.getRole;
+                    var4 = _closure2_slot0;
+                    var3 = _closure2_slot1;
+                    var2 = var5.bind(var6)(var4, var3);
+ 78:
+                    var1['role'] = var2;
                     return var1;
                 }
             };
             var3 = var8.bind(var9)(var7, var3, var4);
             var8 = var3.guild;
             _closure2_slot3 = var8;
-            var7 = var3.roles;
+            var7 = var3.role;
             _closure2_slot4 = var7;
             var4 = _closure1_slot3;
             var3 = var4.useMemo;
@@ -109,56 +116,52 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var1 = _closure2_slot3;
-                    var2 = null;
-                    if(!(var2 != var1)) { _fun0003_ip = 167; continue _fun0003 }
+                    var6 = null;
+                    if(!(var6 != var1)) { _fun0003_ip = 152; continue _fun0003 }
  16:
-                    var1 = _closure2_slot4;
-                    if(!(var2 != var1)) { _fun0003_ip = 167; continue _fun0003 }
+                    var1 = _closure2_slot1;
+                    if(!(var6 != var1)) { _fun0003_ip = 152; continue _fun0003 }
  27:
-                    var1 = _closure2_slot1;
-                    if(!(var2 != var1)) { _fun0003_ip = 167; continue _fun0003 }
- 38:
-                    var3 = _closure2_slot4;
-                    var1 = _closure2_slot1;
-                    var6 = var3[var1];
-                    var7 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var8 = 5;
-                    var3 = var3[var8];
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var7 = 5;
+                    var2 = var2[var7];
                     var4 = undefined;
-                    var9 = var7.bind(var4)(var3);
-                    var7 = var9.canGuildUseRoleIcons;
+                    var9 = var3.bind(var4)(var2);
+                    var8 = var9.canGuildUseRoleIcons;
                     var3 = _closure2_slot3;
-                    var3 = var7.bind(var9)(var3, var6);
-                    if(!var3) { _fun0003_ip = 167; continue _fun0003 }
- 94:
-                    var7 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var3 = var3[var8];
-                    var7 = var7.bind(var4)(var3);
+                    var2 = _closure2_slot4;
+                    var2 = var8.bind(var9)(var3, var2);
+                    if(!var2) { _fun0003_ip = 152; continue _fun0003 }
+ 75:
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var2 = var2[var7];
+                    var7 = var3.bind(var4)(var2);
                     var3 = var7.getRoleIconData;
-                    var3 = var3.bind(var7)(var6);
-                    if(!(var2 == var3)) { _fun0003_ip = 128; continue _fun0003 }
- 126:
-                    var3 = {};
- 128:
-                    var9 = var3.customIconSrc;
-                    var7 = var3.unicodeEmoji;
-                    var3 = var2 != var9;
+                    var2 = _closure2_slot4;
+                    var2 = var3.bind(var7)(var2);
+                    if(!(var6 == var2)) { _fun0003_ip = 113; continue _fun0003 }
+ 111:
+                    var2 = {};
+ 113:
+                    var3 = var2.customIconSrc;
+                    var7 = var2.unicodeEmoji;
+                    var2 = var6 != var3;
                     var8 = undefined;
-                    if(!var3) { _fun0003_ip = 159; continue _fun0003 }
- 149:
-                    var3 = {};
-                    var3['uri'] = var9;
-                    var8 = var3;
- 159:
-                    if(!(var2 == var8)) { _fun0003_ip = 171; continue _fun0003 }
- 163:
-                    if(!(var2 == var7)) { _fun0003_ip = 171; continue _fun0003 }
- 167:
+                    if(!var2) { _fun0003_ip = 144; continue _fun0003 }
+ 134:
+                    var2 = {};
+                    var2['uri'] = var3;
+                    var8 = var2;
+ 144:
+                    if(!(var6 == var8)) { _fun0003_ip = 156; continue _fun0003 }
+ 148:
+                    if(!(var6 == var7)) { _fun0003_ip = 156; continue _fun0003 }
+ 152:
                     var2 = undefined;
                     return var2;
- 171:
+ 156:
                     var3 = _closure1_slot6;
                     var2 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -168,7 +171,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = {};
                     var1['source'] = var8;
                     var1['unicodeEmoji'] = var7;
-                    var6 = var6.name;
+                    var7 = _closure2_slot4;
+                    var8 = var6 == var7;
+                    var7 = undefined;
+                    if(var8) { _fun0003_ip = 213; continue _fun0003 }
+ 204:
+                    var8 = _closure2_slot4;
+                    var7 = var8.name;
+ 213:
+                    var8 = var6 != var7;
+                    var6 = '';
+                    if(!var8) { _fun0003_ip = 227; continue _fun0003 }
+ 224:
+                    var6 = var7;
+ 227:
                     var1['name'] = var6;
                     var5 = _closure2_slot2;
                     var1['size'] = var5;

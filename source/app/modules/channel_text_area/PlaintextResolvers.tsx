@@ -510,102 +510,116 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     var2 = arg1;
-                    var13 = arg2;
-                    var14 = arg3;
+                    var12 = arg2;
+                    var13 = arg3;
                     var1 = var2.slice;
-                    var10 = 1;
-                    var3 = var1.bind(var2)(var10);
-                    var2 = var3.split;
+                    var9 = 1;
+                    var4 = var1.bind(var2)(var9);
+                    var2 = var4.split;
                     var1 = '#';
                     var5 = 2;
-                    var2 = var2.bind(var3)(var1, var5);
+                    var4 = var2.bind(var4)(var1, var5);
                     var1 = _closure1_slot3;
-                    var8 = undefined;
-                    var1 = var1.bind(var8)(var2, var5);
-                    var5 = 0;
-                    var7 = var1[var5];
-                    var _closure3_slot0 = var7;
-                    var6 = var1[var10];
-                    var _closure3_slot1 = var6;
+                    var7 = undefined;
+                    var1 = var1.bind(var7)(var4, var5);
+                    var4 = 0;
+                    var6 = var1[var4];
+                    var _closure3_slot0 = var6;
+                    var5 = var1[var9];
+                    var _closure3_slot1 = var5;
                     var1 = null;
-                    var9 = var1 != var13;
-                    var2 = null;
-                    if(!var9) { _fun0005_ip = 100; continue _fun0005 }
+                    var10 = var1 != var12;
+                    var8 = null;
+                    if(!var10) { _fun0005_ip = 100; continue _fun0005 }
  86:
                     var11 = _closure1_slot11;
-                    var9 = var11.getGuild;
-                    var2 = var9.bind(var11)(var13);
+                    var10 = var11.getGuild;
+                    var8 = var10.bind(var11)(var12);
  100:
-                    var9 = arg5;
-                    if(!var9) { _fun0005_ip = 194; continue _fun0005 }
- 106:
-                    if(!(var1 == var6)) { _fun0005_ip = 194; continue _fun0005 }
- 110:
-                    if(!(var1 != var2)) { _fun0005_ip = 194; continue _fun0005 }
- 114:
-                    var9 = global;
-                    var11 = var9.Object;
-                    var9 = var11.values;
-                    var15 = _closure1_slot10;
-                    var12 = var15.getRoles;
-                    var2 = var2.id;
-                    var2 = var12.bind(var15)(var2);
-                    var12 = var9.bind(var11)(var2);
-                    var2 = var12.length;
-                    var2 = var5 < var2;
-                    var11 = 0;
-                    if(!var2) { _fun0005_ip = 194; continue _fun0005 }
- 166:
-                    var2 = var12[var11];
-                    var9 = var2.name;
-                    if(!(var7 !== var9)) { _fun0005_ip = 410; continue _fun0005 }
- 182:
-                    var11 = var11 + 1;
-                    var9 = var12.length;
-                    if(var11 < var9) { _fun0005_ip = 166; continue _fun0005 }
- 194:
-                    var9 = arg4;
-                    if(!var9) { _fun0005_ip = 361; continue _fun0005 }
- 203:
-                    var11 = var1 != var14;
-                    var9 = null;
-                    if(!var11) { _fun0005_ip = 226; continue _fun0005 }
- 212:
-                    var12 = _closure1_slot6;
-                    var11 = var12.getChannel;
-                    var9 = var11.bind(var12)(var14);
- 226:
-                    if(!(var1 != var9)) { _fun0005_ip = 408; continue _fun0005 }
- 233:
-                    var11 = var9.isPrivate;
-                    var11 = var11.bind(var9)();
-                    if(var11) { _fun0005_ip = 278; continue _fun0005 }
- 246:
-                    var12 = _closure1_slot9;
-                    var11 = var12.getMembers;
-                    var13 = var11.bind(var12)(var13);
-                    var12 = var13.map;
-                    var11 = function(arg1) {
+                    var10 = arg5;
+                    if(!var10) { _fun0005_ip = 239; continue _fun0005 }
+ 109:
+                    if(!(var1 == var5)) { _fun0005_ip = 239; continue _fun0005 }
+ 116:
+                    if(!(var1 != var8)) { _fun0005_ip = 239; continue _fun0005 }
+ 120:
+                    var10 = _closure1_slot13;
+                    var14 = _closure1_slot10;
+                    var11 = var14.getSortedRoles;
+                    var8 = var8.id;
+                    var8 = var11.bind(var14)(var8);
+                    var14 = var10.bind(var7)(var8);
+                    var10 = var14.bind(var7)();
+                    var8 = var10.done;
+                    var11 = var10;
+                    if(var8) { _fun0005_ip = 239; continue _fun0005 }
+ 164:
+                    var10 = var11.value;
+                    var8 = var10.name;
+                    if(!(var6 !== var8)) { _fun0005_ip = 195; continue _fun0005 }
+ 178:
+                    var15 = var14.bind(var7)();
+                    var8 = var15.done;
+                    var11 = var15;
+                    if(var8) { _fun0005_ip = 239; continue _fun0005 }
+ 193:
+                    _fun0005_ip = 164; continue _fun0005;
+ 195:
+                    var8 = {};
+                    var11 = 'roleMention';
+                    var8['type'] = var11;
+                    var10 = var10.id;
+                    var8['roleId'] = var10;
+                    var11 = {};
+                    var10 = '';
+                    var11['text'] = var10;
+                    var10 = new Array(1);
+                    var10[0] = var11;
+                    var8['children'] = var10;
+                    return var8;
+ 239:
+                    var8 = arg4;
+                    if(!var8) { _fun0005_ip = 406; continue _fun0005 }
+ 248:
+                    var10 = var1 != var13;
+                    var8 = null;
+                    if(!var10) { _fun0005_ip = 271; continue _fun0005 }
+ 257:
+                    var11 = _closure1_slot6;
+                    var10 = var11.getChannel;
+                    var8 = var10.bind(var11)(var13);
+ 271:
+                    if(!(var1 != var8)) { _fun0005_ip = 453; continue _fun0005 }
+ 278:
+                    var10 = var8.isPrivate;
+                    var10 = var10.bind(var8)();
+                    if(var10) { _fun0005_ip = 323; continue _fun0005 }
+ 291:
+                    var11 = _closure1_slot9;
+                    var10 = var11.getMembers;
+                    var12 = var10.bind(var11)(var12);
+                    var11 = var12.map;
+                    var10 = function(arg1) {
                         var1 = arg1;
                         var1 = var1.userId;
                         return var1;
                     };
-                    var12 = var12.bind(var13)(var11);
-                    _fun0005_ip = 284; continue _fun0005;
- 278:
-                    var12 = var9.recipients;
- 284:
-                    var11 = var12.map;
-                    var9 = function(arg1) {
+                    var11 = var11.bind(var12)(var10);
+                    _fun0005_ip = 329; continue _fun0005;
+ 323:
+                    var11 = var8.recipients;
+ 329:
+                    var10 = var11.map;
+                    var8 = function(arg1) {
                         var3 = _closure1_slot12;
                         var2 = var3.getUser;
                         var1 = arg1;
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var11 = var11.bind(var12)(var9);
-                    var9 = var11.filter;
-                    var4 = function(arg1) {
+                    var10 = var10.bind(var11)(var8);
+                    var8 = var10.filter;
+                    var3 = function(arg1) {
                         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                             var6 = arg1;
@@ -621,51 +635,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var1;
                         }
                     };
-                    var4 = var9.bind(var11)(var4);
-                    var9 = var4.length;
-                    if(!(var10 === var9)) { _fun0005_ip = 361; continue _fun0005 }
- 323:
-                    var4 = var4[var5];
-                    var5 = _closure1_slot16;
-                    var3 = {};
-                    var9 = true;
-                    var3['requireExact'] = var9;
+                    var3 = var8.bind(var10)(var3);
+                    var8 = var3.length;
+                    if(!(var9 === var8)) { _fun0005_ip = 406; continue _fun0005 }
+ 368:
+                    var3 = var3[var4];
+                    var4 = _closure1_slot16;
+                    var2 = {};
+                    var8 = true;
+                    var2['requireExact'] = var8;
                     var20 = undefined;
-                    var19 = var7;
-                    var18 = var6;
-                    var17 = var4;
-                    var16 = var3;
-                    var3 = var20[var5](var19, var18, var17, var16, var15);
-                    if(var3) { _fun0005_ip = 363; continue _fun0005 }
- 361:
+                    var19 = var6;
+                    var18 = var5;
+                    var17 = var3;
+                    var16 = var2;
+                    var2 = var20[var4](var19, var18, var17, var16, var15);
+                    if(var2) { _fun0005_ip = 408; continue _fun0005 }
+ 406:
                     return var1;
- 363:
-                    var3 = {};
-                    var5 = 'userMention';
-                    var3['type'] = var5;
-                    var4 = var4.id;
-                    var3['userId'] = var4;
-                    var5 = {};
-                    var4 = '';
-                    var5['text'] = var4;
-                    var4 = new Array(1);
-                    var4[0] = var5;
-                    var3['children'] = var4;
-                    return var3;
  408:
-                    return var1;
- 410:
-                    var1 = {};
-                    var3 = 'roleMention';
-                    var1['type'] = var3;
-                    var2 = var2.id;
-                    var1['roleId'] = var2;
-                    var3 = {};
-                    var2 = '';
-                    var3['text'] = var2;
-                    var2 = new Array(1);
-                    var2[0] = var3;
-                    var1['children'] = var2;
+                    var2 = {};
+                    var4 = 'userMention';
+                    var2['type'] = var4;
+                    var3 = var3.id;
+                    var2['userId'] = var3;
+                    var4 = {};
+                    var3 = '';
+                    var4['text'] = var3;
+                    var3 = new Array(1);
+                    var3[0] = var4;
+                    var2['children'] = var3;
+                    return var2;
+ 453:
                     return var1;
                 }
             };

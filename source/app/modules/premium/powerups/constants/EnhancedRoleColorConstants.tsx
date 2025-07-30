@@ -20,7 +20,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var4.bind(var5)(var2);
     var2 = {'primary_color': 11127295, 'secondary_color': 16759788, 'tertiary_color': 16761760};
     var3['HOLOGRAPHIC_ROLE_COLORS'] = var2;
-    var2 = {'primary_color': 10382335, 'secondary_color': 10469887};
+    var2 = {'primary_color': 10382335, 'secondary_color': 10469887, 'tertiary_color': null};
     var3['DEFAULT_GRADIENT_ROLE_COLORS'] = var2;
     var2 = new Array(12);
     var4 = {'start': 11156283, 'end': 16730184, 'name': 'fire'};

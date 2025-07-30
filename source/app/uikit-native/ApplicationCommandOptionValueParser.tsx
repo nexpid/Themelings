@@ -285,15 +285,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = arg1;
             var4 = var1.guild_id;
             var1 = null;
-            if(!(var1 == var4)) { _fun0005_ip = 18; continue _fun0005 }
+            if(!(var1 == var4)) { _fun0005_ip = 20; continue _fun0005 }
  14:
-            var3 = {};
-            _fun0005_ip = 36; continue _fun0005;
- 18:
+            var3 = new Array(0);
+            _fun0005_ip = 38; continue _fun0005;
+ 20:
             var2 = _closure1_slot8;
-            var1 = var2.getRoles;
+            var1 = var2.getSortedRoles;
             var3 = var1.bind(var2)(var4);
- 36:
+ 38:
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
             var1 = 9;

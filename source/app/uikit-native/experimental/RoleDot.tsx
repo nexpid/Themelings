@@ -92,7 +92,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var18 = var1.color;
+            var19 = var1.color;
             var16 = var1.colors;
             var4 = var1.size;
             var5 = undefined;
@@ -122,9 +122,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.bind(var5)(var1);
             var1 = null;
             var9 = var2.bind(var5)(var3, var1);
-            if(!(var1 == var18)) { _fun0001_ip = 127; continue _fun0001 }
+            if(!(var1 == var19)) { _fun0001_ip = 127; continue _fun0001 }
  120:
-            if(!(var1 != var16)) { _fun0001_ip = 740; continue _fun0001 }
+            if(!(var1 != var16)) { _fun0001_ip = 764; continue _fun0001 }
  127:
             var2 = 16;
             var3 = 'normal';
@@ -142,9 +142,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var4 * var17;
             var2['paddingRight'] = var10;
             var12 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var18 = _closure1_slot2;
             var10 = 5;
-            var10 = var19[var10];
+            var10 = var18[var10];
             var12 = var12.bind(var5)(var10);
             var10 = var12.isAndroid;
             var10 = var10.bind(var12)();
@@ -209,27 +209,33 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12[0] = var17;
             var8['style'] = var12;
             var12 = {};
-            var19 = var13.borderColor;
+            var18 = var13.borderColor;
             var17 = new Array(3);
-            var17[0] = var19;
-            var19 = var14.border;
-            var17[1] = var19;
-            var19 = {};
-            var19['backgroundColor'] = var18;
-            var17[2] = var19;
+            var17[0] = var18;
+            var18 = var14.border;
+            var17[1] = var18;
+            var18 = {};
+            var21 = var1 != var19;
+            var20 = undefined;
+            if(!var21) { _fun0001_ip = 456; continue _fun0001 }
+ 453:
+            var20 = var19;
+ 456:
+            var18['backgroundColor'] = var20;
+            var17[2] = var18;
             var12['style'] = var17;
             var12 = var11.bind(var5)(var10, var12);
             var8['children'] = var12;
             var10 = var11.bind(var5)(var10, var8);
             var8 = new Array(2);
             var8[0] = var10;
-            if(!var9) { _fun0001_ip = 497; continue _fun0001 }
- 483:
-            if(!(var1 != var16)) { _fun0001_ip = 497; continue _fun0001 }
- 487:
+            if(!var9) { _fun0001_ip = 509; continue _fun0001 }
+ 495:
+            if(!(var1 != var16)) { _fun0001_ip = 509; continue _fun0001 }
+ 499:
             var9 = var16.secondaryColor;
-            if(!(var1 == var9)) { _fun0001_ip = 556; continue _fun0001 }
- 497:
+            if(!(var1 == var9)) { _fun0001_ip = 580; continue _fun0001 }
+ 509:
             var11 = _closure1_slot4;
             var10 = _closure1_slot3;
             var9 = {};
@@ -239,12 +245,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var14.dot;
             var12[1] = var17;
             var17 = {};
+            var20 = var1 != var19;
+            var18 = undefined;
+            if(!var20) { _fun0001_ip = 557; continue _fun0001 }
+ 554:
+            var18 = var19;
+ 557:
             var17['backgroundColor'] = var18;
             var12[2] = var17;
             var9['style'] = var12;
             var9 = var11.bind(var5)(var10, var9);
-            _fun0001_ip = 714; continue _fun0001;
- 556:
+            _fun0001_ip = 738; continue _fun0001;
+ 580:
             var12 = _closure1_slot4;
             var11 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -278,14 +290,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13[1] = var14;
             var10['style'] = var13;
             var9 = var12.bind(var5)(var11, var10);
- 714:
+ 738:
             var8[1] = var9;
             var6['children'] = var8;
             var6 = var7.bind(var5)(var3, var6);
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 740:
+ 764:
             return var1;
         }
     };

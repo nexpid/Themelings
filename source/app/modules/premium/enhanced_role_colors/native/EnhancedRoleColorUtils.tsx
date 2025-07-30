@@ -10,34 +10,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = function processColorStringsInternal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var3 = arg1;
+            var4 = arg1;
             var2 = _closure1_slot6;
-            var4 = var2.theme;
+            var3 = var2.theme;
             var2 = _closure1_slot7;
             var2 = var2.LIGHT;
-            if(!(var4 === var2)) { _fun0001_ip = 166; continue _fun0001 }
+            if(!(var3 === var2)) { _fun0001_ip = 168; continue _fun0001 }
  33:
-            var5 = undefined;
-            if(!(var5 !== var3)) { _fun0001_ip = 166; continue _fun0001 }
+            var2 = null;
+            if(!(var2 != var4)) { _fun0001_ip = 168; continue _fun0001 }
  42:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 5;
-            var4 = var7[var2];
-            var4 = var6.bind(var5)(var4);
-            var8 = var4.bind(var5)(var3);
-            var4 = var8.hsl;
-            var9 = var4.bind(var8)();
+            var3 = var7[var2];
+            var5 = undefined;
+            var3 = var6.bind(var5)(var3);
+            var8 = var3.bind(var5)(var4);
+            var3 = var8.hsl;
+            var9 = var3.bind(var8)();
             var8 = _closure1_slot3;
-            var4 = 3;
-            var10 = var8.bind(var5)(var9, var4);
-            var4 = 0;
-            var9 = var10[var4];
-            var4 = 1;
-            var8 = var10[var4];
-            var4 = 2;
-            var10 = var10[var4];
-            var4 = _closure1_slot5;
+            var3 = 3;
+            var10 = var8.bind(var5)(var9, var3);
+            var3 = 0;
+            var9 = var10[var3];
+            var3 = 1;
+            var8 = var10[var3];
+            var3 = 2;
+            var10 = var10[var3];
+            var3 = _closure1_slot5;
             var2 = var7[var2];
             var7 = var6.bind(var5)(var2);
             var6 = var7.hsl;
@@ -46,12 +47,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var6.bind(var7)(var9, var8, var2);
             var2 = var6.hex;
             var2 = var2.bind(var6)();
-            var2 = var4.bind(var5)(var2);
+            var2 = var3.bind(var5)(var2);
             return var2;
- 166:
-            var2 = _closure1_slot5;
+ 168:
+            var3 = _closure1_slot5;
+            var1 = null;
+            var5 = var1 != var4;
+            var2 = undefined;
             var1 = undefined;
-            var1 = var2.bind(var1)(var3);
+            if(!var5) { _fun0001_ip = 188; continue _fun0001 }
+ 185:
+            var1 = var4;
+ 188:
+            var1 = var3.bind(var2)(var1);
             return var1;
         }
     };

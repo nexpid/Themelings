@@ -269,7 +269,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = var6.permissionOverwrites;
         var1['overwrites'] = var6;
         var6 = _closure1_slot11;
-        var5 = var6.getRoles;
+        var5 = var6.getUnsafeMutableRoles;
         var4 = var4.id;
         var4 = var5.bind(var6)(var4);
         var1['roles'] = var4;

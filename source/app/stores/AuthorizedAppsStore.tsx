@@ -35,21 +35,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot12 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
-    var1 = global;
-    var8 = var1.Object;
-    var4 = var8.defineProperty;
+    var _closure1_slot13 = var1;
+    var4 = global;
+    var9 = var4.Object;
+    var8 = var9.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var8)(var3, var1, var2);
+    var1 = var8.bind(var9)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
@@ -84,18 +84,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var7.bind(var1)(var2);
     var _closure1_slot7 = var2;
     var2 = {};
-    var4 = 'NOT_FETCHED';
-    var2['NOT_FETCHED'] = var4;
-    var4 = 'FETCHING';
-    var2['FETCHING'] = var4;
-    var4 = 'FETCHED';
-    var2['FETCHED'] = var4;
+    var8 = 'NOT_FETCHED';
+    var2['NOT_FETCHED'] = var8;
+    var8 = 'FETCHING';
+    var2['FETCHING'] = var8;
+    var8 = 'FETCHED';
+    var2['FETCHED'] = var8;
     var _closure1_slot8 = var2;
-    var4 = null;
+    var4 = var4.Map;
+    var8 = var4.prototype;
+    var8 = Object.create(var8, {constructor: {value: var4}});
+    var13 = var8;
+    var4 = new var13[var4](var12);
+    var4 = var4 instanceof Object ? var4 : var8;
     var _closure1_slot9 = var4;
+    var4 = new Array(0);
     var _closure1_slot10 = var4;
-    var4 = var2.NOT_FETCHED;
+    var4 = new Array(0);
     var _closure1_slot11 = var4;
+    var4 = var2.NOT_FETCHED;
+    var _closure1_slot12 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -113,7 +121,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot13;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
@@ -156,19 +164,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
-        var7 = 'getApps';
+        var7 = 'getNewestTokenForApplication';
         var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot9;
-            return var1;
+        var7 = function value(arg1) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                var5 = arg1;
+                var2 = null;
+                var3 = var2 == var5;
+                var1 = null;
+                if(var3) { _fun0003_ip = 46; continue _fun0003 }
+ 14:
+                var4 = _closure1_slot9;
+                var3 = var4.get;
+                var3 = var3.bind(var4)(var5);
+                var4 = var2 != var3;
+                var2 = null;
+                if(!var4) { _fun0003_ip = 43; continue _fun0003 }
+ 40:
+                var2 = var3;
+ 43:
+                var1 = var2;
+ 46:
+                return var1;
+            }
         };
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
-        var7 = 'getNonChildrenApps';
+        var7 = 'getNewestTokens';
         var5['key'] = var7;
         var7 = function value() {
             var1 = _closure1_slot10;
@@ -177,14 +204,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5['value'] = var7;
         var1[2] = var5;
         var5 = {};
-        var7 = 'getFetchState';
+        var7 = 'getNewestTokensForNonChildrenApplications';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var1 = _closure1_slot11;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[3] = var5;
+        var5 = {};
+        var7 = 'getFetchState';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot12;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -198,48 +234,186 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = function handleUserAuthorizedAppsRequest() {
         var1 = _closure1_slot8;
         var1 = var1.FETCHING;
-        _closure1_slot11 = var1;
+        _closure1_slot12 = var1;
         var1 = undefined;
         return var1;
     };
     var4['USER_AUTHORIZED_APPS_REQUEST'] = var9;
-    var5 = function handleAuthorizedAppsUpdate(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
-            var1 = _closure1_slot8;
-            var1 = var1.FETCHED;
-            _closure1_slot11 = var1;
+    var9 = function handleAuthorizedAppsUpdate(arg1) {
+        var3 = arg1;
+        var4 = _closure1_slot8;
+        var4 = var4.FETCHED;
+        _closure1_slot12 = var4;
+        var4 = global;
+        var6 = var4.Map;
+        var7 = var3.tokens;
+        var5 = var7.map;
+        var4 = function(arg1) {
+            var2 = arg1;
+            var1 = var2.application;
+            var3 = var1.id;
+            var1 = new Array(2);
+            var1[0] = var3;
+            var1[1] = var2;
+            return var1;
+        };
+        var8 = var5.bind(var7)(var4);
+        var5 = var6.prototype;
+        var5 = Object.create(var5, {constructor: {value: var6}});
+        var9 = var5;
+        var4 = new var9[var6](var8, var7);
+        var4 = var4 instanceof Object ? var4 : var5;
+        _closure1_slot9 = var4;
+        var4 = var3.tokens;
+        _closure1_slot10 = var4;
+        var3 = var4.filter;
+        var1 = function(arg1) {
             var1 = arg1;
-            var7 = var1.apps;
-            _closure1_slot9 = var7;
-            var2 = null;
-            var5 = var2 == var7;
-            var1 = undefined;
-            var4 = undefined;
-            if(var5) { _fun0003_ip = 60; continue _fun0003 }
- 43:
-            var6 = var7.filter;
+            var1 = var1.application;
+            var2 = var1.parent_id;
+            var1 = null;
+            var1 = var1 == var2;
+            return var1;
+        };
+        var1 = var3.bind(var4)(var1);
+        _closure1_slot11 = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var4['USER_AUTHORIZED_APPS_UPDATE'] = var9;
+    var9 = function handleOAuth2TokenCreate(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+            var1 = arg1;
+            var6 = var1.id;
+            var4 = var1.application;
+            var1 = var1.scopes;
+            var8 = _closure1_slot9;
+            var7 = var8.get;
+            var3 = var4.id;
+            var7 = var7.bind(var8)(var3);
+            var _closure2_slot0 = var7;
+            var3 = null;
+            if(!(var3 != var7)) { _fun0004_ip = 99; continue _fun0004 }
+ 53:
+            var9 = _closure1_slot10;
+            var8 = var9.filter;
+            var7 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.application;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var1.application;
+                var1 = var1.id;
+                var1 = var2 !== var1;
+                return var1;
+            };
+            var7 = var8.bind(var9)(var7);
+            _closure1_slot10 = var7;
+            var8 = _closure1_slot11;
+            var7 = var8.filter;
             var5 = function(arg1) {
                 var1 = arg1;
                 var1 = var1.application;
-                var2 = var1.parent_id;
-                var1 = null;
-                var1 = var1 == var2;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var1.application;
+                var1 = var1.id;
+                var1 = var2 !== var1;
                 return var1;
             };
-            var4 = var6.bind(var7)(var5);
- 60:
-            var5 = var2 != var4;
-            var2 = null;
-            if(!var5) { _fun0003_ip = 72; continue _fun0003 }
- 69:
-            var2 = var4;
- 72:
-            _closure1_slot10 = var2;
+            var5 = var7.bind(var8)(var5);
+            _closure1_slot11 = var5;
+ 99:
+            var5 = {};
+            var5['id'] = var6;
+            var5['application'] = var4;
+            var5['scopes'] = var1;
+            var6 = _closure1_slot9;
+            var4 = var6.set;
+            var1 = var5.application;
+            var1 = var1.id;
+            var1 = var4.bind(var6)(var1, var5);
+            var11 = _closure1_slot10;
+            var1 = new Array(1);
+            var12 = var1;
+            var10 = 0;
+            var7 = arraySpread(var12, var11, var10);
+            var1[var7] = var5;
+            var4 = 1;
+            var7 = var7 + var4;
+            _closure1_slot10 = var1;
+            var1 = var5.application;
+            var1 = var1.parent_id;
+            if(!(var3 == var1)) { _fun0004_ip = 217; continue _fun0004 }
+ 187:
+            var11 = _closure1_slot11;
+            var1 = new Array(1);
+            var12 = var1;
+            var10 = 0;
+            var3 = arraySpread(var12, var11, var10);
+            var1[var3] = var5;
+            var3 = var3 + var4;
+            _closure1_slot11 = var1;
+ 217:
+            var1 = undefined;
             return var1;
         }
     };
-    var4['USER_AUTHORIZED_APPS_UPDATE'] = var5;
+    var4['OAUTH2_TOKEN_CREATE'] = var9;
+    var5 = function handleOAuth2TokenDelete(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+            var2 = arg1;
+            var5 = var2.id;
+            var6 = var2.applicationId;
+            var4 = _closure1_slot9;
+            var3 = var4.get;
+            var3 = var3.bind(var4)(var6);
+            var _closure2_slot0 = var3;
+            var4 = null;
+            if(!(var4 != var3)) { _fun0005_ip = 125; continue _fun0005 }
+ 42:
+            var4 = var3.id;
+            if(!(var4 === var5)) { _fun0005_ip = 125; continue _fun0005 }
+ 51:
+            var5 = _closure1_slot9;
+            var4 = var5.delete;
+            var3 = var3.application;
+            var3 = var3.id;
+            var3 = var4.bind(var5)(var3);
+            var5 = _closure1_slot10;
+            var4 = var5.filter;
+            var3 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2 !== var1;
+                return var1;
+            };
+            var3 = var4.bind(var5)(var3);
+            _closure1_slot10 = var3;
+            var4 = _closure1_slot11;
+            var3 = var4.filter;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.id;
+                var1 = _closure2_slot0;
+                var1 = var1.id;
+                var1 = var2 !== var1;
+                return var1;
+            };
+            var1 = var3.bind(var4)(var1);
+            _closure1_slot11 = var1;
+            var1 = undefined;
+            return var1;
+ 125:
+            var1 = false;
+            return var1;
+        }
+    };
+    var4['OAUTH2_TOKEN_DELETE'] = var5;
     var5 = var8.prototype;
     var5 = Object.create(var5, {constructor: {value: var8}});
     var13 = var5;

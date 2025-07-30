@@ -1066,7 +1066,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var7.getChannel;
             var13 = var3.bind(var7)(var6);
             var3 = null;
-            if(!(var3 != var13)) { _fun0005_ip = 406; continue _fun0005 }
+            if(!(var3 != var13)) { _fun0005_ip = 410; continue _fun0005 }
  77:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -1214,14 +1214,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4['context'] = var10;
             var4 = var8.bind(var9)(var4);
             var3 = var3 != var5;
-            if(!var3) { _fun0005_ip = 348; continue _fun0005 }
- 337:
+            if(!var3) { _fun0005_ip = 352; continue _fun0005 }
+ 341:
             var8 = var5.length;
             var4 = 0;
             var3 = var8 > var4;
- 348:
-            if(!var3) { _fun0005_ip = 406; continue _fun0005 }
- 351:
+ 352:
+            if(!var3) { _fun0005_ip = 410; continue _fun0005 }
+ 355:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 45;
@@ -1235,7 +1235,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['channelId'] = var6;
             var2['attachments'] = var5;
             var2 = var3.bind(var4)(var2);
- 406:
+ 410:
             return var1;
         }
     };

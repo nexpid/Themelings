@@ -192,9 +192,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var6 = var7.bind(var12)(var4, var6);
-            if(!(var1 != var19)) { _fun0001_ip = 1165; continue _fun0001 }
+            if(!(var1 != var19)) { _fun0001_ip = 1161; continue _fun0001 }
  467:
-            if(!var2) { _fun0001_ip = 1165; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 1161; continue _fun0001 }
  473:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -240,12 +240,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = new Array(3);
             var20[0] = var21;
             var21 = var23;
-            if(!var21) { _fun0001_ip = 664; continue _fun0001 }
- 660:
+            if(!var21) { _fun0001_ip = 660; continue _fun0001 }
+ 656:
             var21 = var1 != var32;
- 664:
-            if(!var21) { _fun0001_ip = 780; continue _fun0001 }
- 667:
+ 660:
+            if(!var21) { _fun0001_ip = 776; continue _fun0001 }
+ 663:
             var26 = _closure1_slot12;
             var25 = _closure1_slot0;
             var30 = _closure1_slot2;
@@ -269,11 +269,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var27 = var30.bind(var31)(var32, var27, var28);
             var24['children'] = var27;
             var21 = var26.bind(var5)(var25, var24);
- 780:
+ 776:
             var20[1] = var21;
             var21 = !var23;
-            if(var23) { _fun0001_ip = 903; continue _fun0001 }
- 790:
+            if(var23) { _fun0001_ip = 899; continue _fun0001 }
+ 786:
             var24 = _closure1_slot12;
             var23 = _closure1_slot0;
             var27 = _closure1_slot2;
@@ -297,7 +297,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var25 = var27.bind(var28)(var29, var25, var26);
             var22['children'] = var25;
             var21 = var24.bind(var5)(var23, var22);
- 903:
+ 899:
             var20[2] = var21;
             var6['children'] = var20;
             var12 = var14.bind(var5)(var12, var6);
@@ -305,12 +305,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[0] = var12;
             var12 = var1 != var10;
             var10 = null;
-            if(!var12) { _fun0001_ip = 979; continue _fun0001 }
- 934:
+            if(!var12) { _fun0001_ip = 975; continue _fun0001 }
+ 930:
             var12 = var1 != var7;
             var10 = null;
-            if(!var12) { _fun0001_ip = 979; continue _fun0001 }
- 943:
+            if(!var12) { _fun0001_ip = 975; continue _fun0001 }
+ 939:
             var20 = _closure1_slot12;
             var14 = _closure1_slot5;
             var12 = {};
@@ -320,26 +320,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = var11.icon;
             var12['style'] = var21;
             var10 = var20.bind(var5)(var14, var12);
- 979:
+ 975:
             var6[1] = var10;
             var10 = var1 != var7;
             var7 = null;
-            if(var10) { _fun0001_ip = 1149; continue _fun0001 }
- 995:
+            if(var10) { _fun0001_ip = 1145; continue _fun0001 }
+ 991:
             var10 = var1 == var13;
             var7 = null;
-            if(var10) { _fun0001_ip = 1149; continue _fun0001 }
+            if(var10) { _fun0001_ip = 1145; continue _fun0001 }
+ 1003:
+            if(!(var1 != var13)) { _fun0001_ip = 1021; continue _fun0001 }
  1007:
-            if(!(var1 != var13)) { _fun0001_ip = 1025; continue _fun0001 }
- 1011:
             var10 = var13.blocked;
             var7 = null;
-            if(var10) { _fun0001_ip = 1149; continue _fun0001 }
- 1025:
+            if(var10) { _fun0001_ip = 1145; continue _fun0001 }
+ 1021:
             var10 = var1 == var18;
             var7 = null;
-            if(var10) { _fun0001_ip = 1149; continue _fun0001 }
- 1034:
+            if(var10) { _fun0001_ip = 1145; continue _fun0001 }
+ 1030:
             var10 = _closure1_slot12;
             var14 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -354,28 +354,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var14.bind(var5)(var12);
             var14 = var15.getEmbedColor;
             var12 = var1 != var16;
-            if(!var12) { _fun0001_ip = 1102; continue _fun0001 }
- 1099:
+            if(!var12) { _fun0001_ip = 1098; continue _fun0001 }
+ 1095:
             var12 = var16;
- 1102:
+ 1098:
             var12 = var14.bind(var15)(var13, var12);
             var8['embedLeftBorderColor'] = var12;
             var14 = var1 == var13;
             var12 = undefined;
-            if(var14) { _fun0001_ip = 1127; continue _fun0001 }
- 1122:
+            if(var14) { _fun0001_ip = 1123; continue _fun0001 }
+ 1118:
             var12 = var13.id;
- 1127:
+ 1123:
             var8['firstMessageId'] = var12;
             var11 = var11.thumbnail;
             var8['containerStyle'] = var11;
             var7 = var10.bind(var5)(var9, var8);
- 1149:
+ 1145:
             var6[2] = var7;
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 1165:
+ 1161:
             return var1;
         }
     };

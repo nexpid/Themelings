@@ -143,7 +143,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     if(!var3) { _fun0004_ip = 45; continue _fun0004 }
  18:
                     var4 = _closure1_slot4;
-                    var3 = var4.getRoles;
+                    var3 = var4.getSortedRoles;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);
@@ -173,7 +173,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.getVisibleConnectionsRole;
             var2 = {};
             var2['guild'] = var11;
-            var2['guildRoles'] = var10;
+            var2['sortedGuildRoles'] = var10;
             var2['guildMember'] = var6;
             var6 = var9;
             if(!(var8 != var9)) { _fun0001_ip = 349; continue _fun0001 }

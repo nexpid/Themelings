@@ -320,7 +320,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['onPress'] = var6;
             var6 = 'dot';
             var8 = var6 === var8;
-            if(!var8) { _fun0005_ip = 284; continue _fun0005 }
+            if(!var8) { _fun0005_ip = 290; continue _fun0005 }
  234:
             var12 = _closure1_slot13;
             var11 = _closure1_slot0;
@@ -329,12 +329,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var14[var6];
             var6 = var11.bind(var5)(var6);
             var11 = var6.RoleDot;
-            var6 = {};
+            var6 = {'color': null, 'colors': null, 'size': 'small'};
             var6['color'] = var13;
-            var13 = 'small';
-            var6['size'] = var13;
             var8 = var12.bind(var5)(var11, var6);
- 284:
+ 290:
             var6 = new Array(2);
             var6[0] = var8;
             var8 = _closure1_slot0;

@@ -124,6 +124,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['resizeMode'] = var11;
     var5['emojiImage'] = var4;
     var4 = {'lineHeight': 32, 'fontSize': 27, 'textAlign': 'center'};
+    var11 = var8[var12];
+    var11 = var13.bind(var1)(var11);
+    var11 = var11.colors;
+    var11 = var11.TEXT_NORMAL;
+    var4['color'] = var11;
     var5['emojiText'] = var4;
     var11 = {'width': 56, 'height': 56, 'marginHorizontal': 4, 'justifyContent': 'center', 'alignItems': 'center'};
     var4 = 56;

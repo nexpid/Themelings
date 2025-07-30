@@ -183,9 +183,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var2.pendingAvatarDecoration;
             if(!(var4 !== var3)) { _fun0003_ip = 183; continue _fun0003 }
  171:
-            var2 = var2.pendingAvatarDecoration;
-            var1['avatarDecoration'] = var2;
+            var3 = var2.pendingAvatarDecoration;
+            var1['avatarDecoration'] = var3;
  183:
+            var3 = var2.pendingNameplate;
+            if(!(var4 !== var3)) { _fun0003_ip = 205; continue _fun0003 }
+ 193:
+            var2 = var2.pendingNameplate;
+            var1['nameplate'] = var2;
+ 205:
             return var1;
         }
     };

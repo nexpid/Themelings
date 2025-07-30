@@ -119,28 +119,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var7 = function handleSearchFinish(arg1) {
+            var7 = function handleSearchMessagesSuccess(arg1) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    var3 = _closure2_slot1;
+                    var1 = arg1;
+                    var3 = var1.data;
+                    var4 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0005_ip = 23; continue _fun0005 }
- 13:
+                    if(!(var2 != var4)) { _fun0005_ip = 31; continue _fun0005 }
+ 21:
                     var2 = _closure2_slot1;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 23:
-                    var1 = arg1;
-                    var3 = var1.messages;
+ 31:
                     var2 = var3.forEach;
                     var1 = function(arg1) {
-                        var3 = arg1;
+                        var1 = arg1;
+                        var3 = var1.messages;
                         var2 = var3.forEach;
                         var1 = function(arg1) {
-                            var3 = _closure2_slot0;
-                            var2 = undefined;
-                            var1 = arg1;
-                            var1 = var3.bind(var2)(var1);
+                            var3 = arg1;
+                            var2 = var3.forEach;
+                            var1 = function(arg1) {
+                                var3 = _closure2_slot0;
+                                var2 = undefined;
+                                var1 = arg1;
+                                var1 = var3.bind(var2)(var1);
+                                return var1;
+                            };
+                            var1 = var2.bind(var3)(var1);
+                            var1 = undefined;
                             return var1;
                         };
                         var1 = var2.bind(var3)(var1);
@@ -244,9 +252,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var5 = 'LOAD_PINNED_MESSAGES_SUCCESS';
             var2[var5] = var8;
-            var5 = 'SEARCH_FINISH';
+            var5 = 'SEARCH_MESSAGES_SUCCESS';
             var2[var5] = var7;
-            var5 = 'MOD_VIEW_SEARCH_FINISH';
+            var5 = 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS';
             var2[var5] = var7;
             var5 = {};
             var6 = function callback(arg1) {

@@ -912,13 +912,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var _closure2_slot6 = var18;
                 var3 = null;
                 var2 = var3 == var17;
-                var12 = undefined;
+                var15 = undefined;
                 if(var2) { _fun0007_ip = 164; continue _fun0007 }
  154:
                 var2 = var17.isPrivate;
-                var12 = var2.bind(var17)();
+                var15 = var2.bind(var17)();
  164:
-                _closure2_slot7 = var12;
+                _closure2_slot7 = var15;
                 var8 = _closure1_slot9;
                 var5 = var8.can;
                 var2 = _closure1_slot14;
@@ -926,20 +926,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var5.bind(var8)(var2, var17);
                 _closure2_slot8 = var2;
                 var8 = _closure1_slot1;
-                var15 = _closure1_slot2;
+                var10 = _closure1_slot2;
                 var5 = 28;
-                var5 = var15[var5];
-                var10 = var8.bind(var4)(var5);
+                var5 = var10[var5];
+                var12 = var8.bind(var4)(var5);
                 var5 = var3 != var17;
                 var3 = 'remix should be in a channel';
-                var3 = var10.bind(var4)(var5, var3);
+                var3 = var12.bind(var4)(var5, var3);
                 var5 = _closure1_slot4;
-                var10 = var5.useEffect;
+                var12 = var5.useEffect;
                 var3 = new Array(5);
                 var3[0] = var18;
                 var3[1] = var17;
                 var3[2] = var16;
-                var3[3] = var12;
+                var3[3] = var15;
                 var3[4] = var2;
                 var2 = function() {
                     _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -1040,7 +1040,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     }
                 };
-                var2 = var10.bind(var5)(var2, var3);
+                var2 = var12.bind(var5)(var2, var3);
                 var3 = var5.useCallback;
                 var2 = new Array(3);
                 var2[0] = var7;
@@ -1129,28 +1129,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['style'] = var5;
                 var5 = 'box-none';
                 var1['pointerEvents'] = var5;
-                var10 = _closure1_slot0;
+                var15 = _closure1_slot0;
                 var5 = 31;
-                var5 = var15[var5];
-                var5 = var10.bind(var4)(var5);
+                var5 = var10[var5];
+                var5 = var15.bind(var4)(var5);
                 var6 = var5.SafeAreaPaddingView;
                 var5 = {'bottom': null, 'left': false, 'right': false};
                 var7 = 13;
-                var7 = var15[var7];
-                var10 = var10.bind(var4)(var7);
-                var7 = var10.isAndroid;
-                var7 = var7.bind(var10)();
+                var7 = var10[var7];
+                var15 = var15.bind(var4)(var7);
+                var7 = var15.isAndroid;
+                var7 = var7.bind(var15)();
                 var5['bottom'] = var7;
-                var10 = false;
                 var7 = var14.safeAreaPaddingView;
                 var5['style'] = var7;
                 var7 = 32;
-                var7 = var15[var7];
+                var7 = var10[var7];
                 var8 = var8.bind(var4)(var7);
                 var7 = {};
-                var15 = var14.keyboardAwareView;
-                var7['style'] = var15;
-                var7['disabled'] = var10;
+                var10 = var14.keyboardAwareView;
+                var7['style'] = var10;
                 var10 = _closure1_slot6;
                 var9 = {};
                 var14 = var14.autocomplete;

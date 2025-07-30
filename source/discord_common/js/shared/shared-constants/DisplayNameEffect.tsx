@@ -30,6 +30,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['POP'] = var4;
     var1 = 'POP';
     var2[var4] = var1;
+    var4 = 6;
+    var2['GLOW'] = var4;
+    var1 = 'GLOW';
+    var2[var4] = var1;
     var4 = native7;
     var1 = 0;
     var5 = var4[var1];

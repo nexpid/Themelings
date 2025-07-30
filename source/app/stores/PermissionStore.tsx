@@ -505,35 +505,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = true;
         return var1;
     };
-    var13 = function handleSearchFinish(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+    var13 = function handleSearchMessagesSuccess(arg1) {
+        var1 = arg1;
+        var3 = var1.data;
+        var2 = var3.some;
+        var1 = function(arg1) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-            var1 = arg1;
-            var4 = var1.messages;
-            var1 = var1.threads;
-            var2 = var1.length;
-            var1 = 0;
-            var1 = var2 > var1;
-            if(var1) { _fun0011_ip = 47; continue _fun0011 }
+                var1 = arg1;
+                var4 = var1.messages;
+                var1 = var1.threads;
+                var2 = var1.length;
+                var1 = 0;
+                var1 = var2 > var1;
+                if(var1) { _fun0011_ip = 47; continue _fun0011 }
  29:
-            var3 = var4.some;
-            var2 = function(arg1) {
-                var3 = arg1;
-                var2 = var3.some;
-                var1 = function(arg1) {
-                    var1 = arg1;
-                    var2 = var1.thread;
-                    var1 = null;
-                    var1 = var1 != var2;
+                var3 = var4.some;
+                var2 = function(arg1) {
+                    var3 = arg1;
+                    var2 = var3.some;
+                    var1 = function(arg1) {
+                        var1 = arg1;
+                        var2 = var1.thread;
+                        var1 = null;
+                        var1 = var1 != var2;
+                        return var1;
+                    };
+                    var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var1 = var3.bind(var4)(var2);
+                var1 = var3.bind(var4)(var2);
  47:
-            return var1;
-        }
+                return var1;
+            }
+        };
+        var1 = var2.bind(var3)(var1);
+        return var1;
     };
     var11 = function handleGuildRole(arg1) {
         var1 = arg1;
@@ -1684,8 +1691,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2['LOAD_MESSAGES_SUCCESS'] = var14;
-    var2['SEARCH_FINISH'] = var13;
-    var2['MOD_VIEW_SEARCH_FINISH'] = var13;
+    var2['SEARCH_MESSAGES_SUCCESS'] = var13;
+    var2['MOD_VIEW_SEARCH_MESSAGES_SUCCESS'] = var13;
     var13 = function handleThreadMemberUpdate(arg1) {
         _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
  0:

@@ -1,61 +1,68 @@
 // app/modules/user_profile/UserProfileRoleUtils.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
     var3 = native6;
+    var4 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var4;
     var1 = global;
-    var5 = var1.Object;
-    var4 = var5.defineProperty;
-    var2 = {};
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var6 = {};
     var1 = true;
-    var2['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var4.bind(var5)(var3, var1, var2);
-    var2 = native7;
-    var1 = 0;
-    var4 = var2[var1];
-    var2 = native2;
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 1;
+    var4 = var4[var1];
     var1 = undefined;
-    var5 = var2.bind(var1)(var4);
-    var4 = var5.fileFinishedImporting;
-    var2 = 'modules/user_profile/UserProfileRoleUtils.tsx';
-    var2 = var4.bind(var5)(var2);
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/user_profile/UserProfileRoleUtils.tsx';
+    var4 = var5.bind(var6)(var4);
     var2 = function sortRolesByVerification(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var1 = arg1;
-            var4 = var1.tags;
+            var6 = arg1;
+            var5 = arg2;
+            var3 = var6.tags;
             var1 = null;
-            var5 = var1 == var4;
+            var4 = var1 == var3;
+            var7 = undefined;
             var2 = undefined;
-            var3 = undefined;
-            if(var5) { _fun0001_ip = 28; continue _fun0001 }
- 22:
-            var3 = var4.guild_connections;
- 28:
-            var5 = var2 !== var3;
-            var3 = arg2;
-            var3 = var3.tags;
+            if(var4) { _fun0001_ip = 31; continue _fun0001 }
+ 25:
+            var2 = var3.guild_connections;
+ 31:
+            var2 = var7 !== var2;
+            var3 = var5.tags;
             var4 = var1 == var3;
             var1 = undefined;
             if(var4) { _fun0001_ip = 56; continue _fun0001 }
  50:
             var1 = var3.guild_connections;
  56:
-            var3 = var2 !== var1;
-            if(!var5) { _fun0001_ip = 69; continue _fun0001 }
+            var3 = var7 !== var1;
+            if(!var2) { _fun0001_ip = 69; continue _fun0001 }
  63:
             var1 = 1;
-            if(!var3) { _fun0001_ip = 88; continue _fun0001 }
+            if(!var3) { _fun0001_ip = 118; continue _fun0001 }
  69:
-            var2 = 0;
-            if(var5) { _fun0001_ip = 85; continue _fun0001 }
- 74:
-            var2 = 0;
-            if(!var3) { _fun0001_ip = 85; continue _fun0001 }
- 79:
+            if(var2) { _fun0001_ip = 81; continue _fun0001 }
+ 72:
             var2 = -1;
- 85:
+            if(var3) { _fun0001_ip = 115; continue _fun0001 }
+ 81:
+            var4 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 0;
+            var3 = var8[var3];
+            var4 = var4.bind(var7)(var3);
+            var3 = var4.compareGuildRoles;
+            var2 = var3.bind(var4)(var6, var5);
+ 115:
             var1 = var2;
- 88:
+ 118:
             return var1;
         }
     };

@@ -68,7 +68,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var1.bind(var2)();
             var5 = var11 !== var1;
  111:
-            var1 = var2.isPomelo;
+            var1 = var2.hasUniqueUsername;
             var1 = var1.bind(var2)();
             if(var1) { _fun0001_ip = 257; continue _fun0001 }
  127:

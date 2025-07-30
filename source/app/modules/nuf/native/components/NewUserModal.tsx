@@ -28,23 +28,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.BackHandler;
-    var _closure1_slot5 = var7;
     var4 = var4.NativeModules;
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 4;
     var4 = var6[var4];
     var7 = var5.bind(var1)(var4);
     var4 = var7.createNativeStackNavigator;
     var4 = var4.bind(var7)();
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -59,7 +57,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9['backgroundColor'] = var10;
     var4['header'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot10 = var4;
+    var _closure1_slot9 = var4;
     var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -71,14 +69,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var1 = arg1;
             var7 = var1.initialRouteName;
-            var11 = var1.initialOnboardingStepIndex;
-            var1 = _closure1_slot10;
+            var12 = var1.initialOnboardingStepIndex;
+            var1 = _closure1_slot9;
             var4 = undefined;
             var1 = var1.bind(var4)();
             var _closure2_slot0 = var1;
-            var12 = _closure1_slot4;
-            var1 = var12.useState;
-            var1 = var1.bind(var12)(var11);
+            var11 = _closure1_slot4;
+            var1 = var11.useState;
+            var1 = var1.bind(var11)(var12);
             var10 = _closure1_slot3;
             var8 = 2;
             var2 = var10.bind(var4)(var1, var8);
@@ -88,16 +86,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = 1;
             var2 = var2[var3];
             var _closure2_slot2 = var2;
-            var2 = var12.useState;
-            var2 = var2.bind(var12)(var11);
+            var2 = var11.useState;
+            var2 = var2.bind(var11)(var12);
             var2 = var10.bind(var4)(var2, var8);
-            var11 = var2[var6];
-            var _closure2_slot3 = var11;
+            var12 = var2[var6];
+            var _closure2_slot3 = var12;
             var2 = var2[var3];
             var _closure2_slot4 = var2;
-            var2 = var12.useRef;
+            var2 = var11.useRef;
             var6 = null;
-            var2 = var2.bind(var12)(var6);
+            var2 = var2.bind(var11)(var6);
             var _closure2_slot5 = var2;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -107,9 +105,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var10.useAccessibilityNativeStackOptions;
             var8 = var8.bind(var10)();
             var _closure2_slot6 = var8;
-            var10 = var12.useCallback;
+            var10 = var11.useCallback;
             var8 = new Array(2);
-            var8[0] = var11;
+            var8[0] = var12;
             var8[1] = var1;
             var1 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -182,40 +180,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var10 = var10.bind(var12)(var1, var8);
+            var10 = var10.bind(var11)(var1, var8);
             var _closure2_slot7 = var10;
             var1 = 14;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
-            var2 = var3.useFocusEffect;
-            var11 = var12.useCallback;
-            var8 = function() {
-                var5 = _closure1_slot5;
-                var4 = var5.addEventListener;
-                var3 = 'hardwareBackPress';
-                var2 = function() {
-                    var1 = _closure1_slot6;
-                    var2 = var1.MinimizeApp;
-                    var1 = var2.minimizeApp;
-                    var1 = var1.bind(var2)();
-                    var1 = true;
-                    return var1;
-                };
-                var2 = var4.bind(var5)(var3, var2);
-                var _closure3_slot0 = var2;
-                var1 = function() {
-                    var2 = _closure3_slot0;
-                    var1 = var2.remove;
-                    var1 = var1.bind(var2)();
-                    return var1;
-                };
+            var2 = var3.useNavigatorBackPressHandler;
+            var1 = function() {
+                var1 = _closure1_slot5;
+                var2 = var1.MinimizeApp;
+                var1 = var2.minimizeApp;
+                var1 = var1.bind(var2)();
+                var1 = true;
                 return var1;
             };
-            var1 = new Array(0);
-            var1 = var11.bind(var12)(var8, var1);
             var1 = var2.bind(var3)(var1);
-            var3 = _closure1_slot8;
-            var1 = _closure1_slot9;
+            var3 = _closure1_slot7;
+            var1 = _closure1_slot8;
             var2 = var1.Navigator;
             var1 = {};
             var8 = function screenOptions(arg1) {
@@ -267,13 +248,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var6 != var7;
             var12 = 'choose-avatar';
             var6 = var12;
-            if(!var8) { _fun0001_ip = 290; continue _fun0001 }
- 287:
+            if(!var8) { _fun0001_ip = 275; continue _fun0001 }
+ 272:
             var6 = var7;
- 290:
+ 275:
             var1['initialRouteName'] = var6;
-            var8 = _closure1_slot7;
-            var6 = _closure1_slot9;
+            var8 = _closure1_slot6;
+            var6 = _closure1_slot8;
             var7 = var6.Screen;
             var5 = {};
             var11 = 'enable-notification';
@@ -312,7 +293,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = function options() {
                 var1 = {};
                 var2 = function headerRight(arg1) {
-                    var4 = _closure1_slot7;
+                    var4 = _closure1_slot6;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var1 = 18;
@@ -351,7 +332,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var1 = undefined;
                             var5 = var4.bind(var1)(var3);
                             var4 = var5.openAlert;
-                            var3 = _closure1_slot7;
+                            var3 = _closure1_slot6;
                             var2 = {};
                             var7 = function onConfirm() {
                                 var3 = _closure6_slot0;

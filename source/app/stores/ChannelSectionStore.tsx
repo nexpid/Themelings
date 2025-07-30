@@ -156,14 +156,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var17;
                 if(var18 !== var15) { _fun0004_ip = 31; continue _fun0004 }
  139:
-                var18 = _closure1_slot9;
+                var18 = _closure1_slot10;
                 var15 = var18.getChannel;
                 var14 = var14.channelId;
                 var14 = var15.bind(var18)(var14);
                 var15 = var5 != var14;
                 if(!var15) { _fun0004_ip = 191; continue _fun0004 }
  165:
-                var20 = _closure1_slot10;
+                var20 = _closure1_slot11;
                 var19 = var20.can;
                 var18 = _closure1_slot19;
                 var18 = var18.VIEW_CHANNEL;
@@ -187,25 +187,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = function syncIsSearchSidebarOpen() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot9;
             var1 = var3.getCurrentSearchId;
             var4 = var1.bind(var3)();
             var1 = null;
-            if(!(var1 != var4)) { _fun0005_ip = 60; continue _fun0005 }
- 23:
+            if(!(var1 != var4)) { _fun0005_ip = 62; continue _fun0005 }
+ 25:
             var3 = _closure1_slot8;
             var1 = var3.hasSearchState;
             var1 = var1.bind(var3)(var4);
             var3 = _closure1_slot23;
-            if(!(var3 !== var1)) { _fun0005_ip = 56; continue _fun0005 }
- 48:
+            if(!(var3 !== var1)) { _fun0005_ip = 58; continue _fun0005 }
+ 50:
             _closure1_slot23 = var1;
             var1 = undefined;
             return var1;
- 56:
+ 58:
             var1 = false;
             return var1;
- 60:
+ 62:
             var1 = false;
             return var1;
         }
@@ -391,18 +391,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = _closure1_slot8;
                 var3 = new Array(2);
                 var3[0] = var2;
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot9;
                 var3[1] = var2;
                 var2 = _closure1_slot30;
                 var2 = var5.bind(var4)(var3, var2);
                 var5 = var4.syncWith;
-                var2 = _closure1_slot10;
+                var2 = _closure1_slot11;
                 var3 = new Array(1);
                 var3[0] = var2;
                 var2 = _closure1_slot29;
                 var2 = var5.bind(var4)(var3, var2);
                 var3 = var4.waitFor;
-                var2 = _closure1_slot11;
+                var2 = _closure1_slot9;
                 var1 = _closure1_slot8;
                 var1 = var3.bind(var4)(var2, var1);
                 var1 = undefined;

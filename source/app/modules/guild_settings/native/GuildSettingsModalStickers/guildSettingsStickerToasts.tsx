@@ -37,7 +37,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = 1;
         var5 = var9[var5];
         var5 = var8.bind(var1)(var5);
-        var5 = var5.CircleWarningIcon;
+        var5 = var5.CircleErrorIcon;
         var2['IconComponent'] = var5;
         var5 = 2;
         var6 = var9[var5];

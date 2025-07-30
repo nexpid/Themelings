@@ -371,7 +371,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = 23;
             var18 = var22[var18];
             var18 = var25.bind(var5)(var18);
-            var19 = var18.CircleWarningIcon;
+            var19 = var18.CircleErrorIcon;
             var18 = {'size': 'xxs', 'color': 'text-warning'};
             var19 = var20.bind(var5)(var19, var18);
             var18 = new Array(2);

@@ -216,38 +216,114 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var3['useGuildMemberAndUserPendingAvatarDecoration'] = var4;
-    var4 = function useGlobalPendingNameplate() {
-        var4 = _closure1_slot0;
-        var3 = _closure1_slot2;
-        var2 = 5;
-        var3 = var3[var2];
-        var2 = undefined;
-        var4 = var4.bind(var2)(var3);
-        var3 = var4.useStateFromStoresObject;
-        var1 = _closure1_slot7;
-        var2 = new Array(1);
-        var2[0] = var1;
-        var1 = function() {
+    var4 = function useGuildMemberAndUserPendingNameplate(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+            var2 = arg1;
+            var5 = arg2;
+            var _closure2_slot0 = var2;
+            var _closure2_slot1 = var5;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 5;
+            var4 = var10[var7];
+            var11 = undefined;
+            var12 = var8.bind(var11)(var4);
+            var9 = var12.useStateFromStores;
+            var4 = _closure1_slot6;
+            var6 = new Array(1);
+            var6[0] = var4;
+            var4 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+                    var4 = _closure2_slot1;
+                    var3 = undefined;
+                    var1 = null;
+                    if(!(var3 !== var4)) { _fun0005_ip = 47; continue _fun0005 }
+ 15:
+                    var5 = _closure1_slot6;
+                    var4 = var5.getMember;
+                    var3 = _closure2_slot1;
+                    var2 = _closure2_slot0;
+                    var2 = var2.id;
+                    var1 = var4.bind(var5)(var3, var2);
+ 47:
+                    return var1;
+                }
+            };
+            var9 = var9.bind(var12)(var6, var4);
+            var4 = var2.nameplate;
+            var2 = var10[var7];
+            var13 = var8.bind(var11)(var2);
+            var12 = var13.useStateFromStoresObject;
+            var2 = _closure1_slot7;
+            var6 = new Array(1);
+            var6[0] = var2;
+            var2 = function() {
+                var1 = {};
+                var3 = _closure1_slot7;
+                var2 = var3.getPendingNameplate;
+                var2 = var2.bind(var3)();
+                var1['pendingUserNameplate'] = var2;
+                var2 = var3.getErrors;
+                var2 = var2.bind(var3)();
+                var2 = var2.nameplate;
+                var1['userErrors'] = var2;
+                return var1;
+            };
+            var2 = var12.bind(var13)(var6, var2);
+            var6 = var2.pendingUserNameplate;
+            var2 = var2.userErrors;
+            var7 = var10[var7];
+            var8 = var8.bind(var11)(var7);
+            var7 = var8.useStateFromStoresObject;
+            var10 = _closure1_slot4;
+            var3 = new Array(1);
+            var3[0] = var10;
+            var1 = function() {
+                var1 = {};
+                var3 = _closure1_slot4;
+                var2 = var3.getPendingNameplate;
+                var2 = var2.bind(var3)();
+                var1['pendingGuildNameplate'] = var2;
+                var2 = var3.getErrors;
+                var2 = var2.bind(var3)();
+                var2 = var2.nameplate;
+                var1['guildErrors'] = var2;
+                return var1;
+            };
+            var1 = var7.bind(var8)(var3, var1);
+            var7 = var1.pendingGuildNameplate;
+            var3 = var1.guildErrors;
             var1 = {};
-            var3 = _closure1_slot7;
-            var2 = var3.getPendingNameplate;
-            var2 = var2.bind(var3)();
-            var1['pendingUserNameplate'] = var2;
-            var2 = var3.getErrors;
-            var2 = var2.bind(var3)();
-            var2 = var2.nameplate;
-            var1['userErrors'] = var2;
+            var1['userNameplate'] = var4;
+            var4 = null;
+            var10 = var4 == var9;
+            var8 = undefined;
+            if(var10) { _fun0004_ip = 216; continue _fun0004 }
+ 195:
+            var9 = var9.collectibles;
+            var10 = var4 == var9;
+            var8 = undefined;
+            if(var10) { _fun0004_ip = 216; continue _fun0004 }
+ 210:
+            var8 = var9.nameplate;
+ 216:
+            var1['guildNameplate'] = var8;
+            if(!(var4 != var5)) { _fun0004_ip = 230; continue _fun0004 }
+ 227:
+            var6 = var7;
+ 230:
+            var1['pendingNameplate'] = var6;
+            if(!(var4 != var5)) { _fun0004_ip = 242; continue _fun0004 }
+ 239:
+            var2 = var3;
+ 242:
+            var1['pendingErrors'] = var2;
             return var1;
-        };
-        var2 = var3.bind(var4)(var2, var1);
-        var1 = {};
-        var3 = var2.pendingUserNameplate;
-        var1['pendingNameplate'] = var3;
-        var2 = var2.userErrors;
-        var1['pendingErrors'] = var2;
-        return var1;
+        }
     };
-    var3['useGlobalPendingNameplate'] = var4;
+    var3['useGuildMemberAndUserPendingNameplate'] = var4;
     var4 = function useGlobalOrGuildIdentityProfileEffect(arg1, arg2) {
         var7 = arg1;
         var6 = arg2;
@@ -267,11 +343,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2[0] = var7;
         var2[1] = var6;
         var1 = function() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var1 = _closure2_slot1;
                 var2 = null;
-                if(!(var2 != var1)) { _fun0004_ip = 67; continue _fun0004 }
+                if(!(var2 != var1)) { _fun0006_ip = 67; continue _fun0006 }
  13:
                 var6 = _closure1_slot5;
                 var5 = var6.getGuildMemberProfile;
@@ -282,11 +358,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var5.bind(var6)(var4, var1);
                 var5 = var2 == var4;
                 var1 = undefined;
-                if(var5) { _fun0004_ip = 65; continue _fun0004 }
+                if(var5) { _fun0006_ip = 65; continue _fun0006 }
  59:
                 var1 = var4.profileEffectId;
  65:
-                _fun0004_ip = 112; continue _fun0004;
+                _fun0006_ip = 112; continue _fun0006;
  67:
                 var5 = _closure1_slot5;
                 var4 = var5.getUserProfile;
@@ -295,7 +371,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var4.bind(var5)(var3);
                 var4 = var2 == var3;
                 var2 = undefined;
-                if(var4) { _fun0004_ip = 109; continue _fun0004 }
+                if(var4) { _fun0006_ip = 109; continue _fun0006 }
  103:
                 var2 = var3.profileEffectId;
  109:
@@ -326,11 +402,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = new Array(1);
         var2[0] = var6;
         var1 = function() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0005_ip = 60; continue _fun0005 }
+                if(!(var1 != var2)) { _fun0007_ip = 60; continue _fun0007 }
  13:
                 var1 = {};
                 var3 = _closure1_slot4;
@@ -341,7 +417,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2.bind(var3)();
                 var2 = var2.profileEffect;
                 var1['errors'] = var2;
-                _fun0005_ip = 108; continue _fun0005;
+                _fun0007_ip = 108; continue _fun0007;
  60:
                 var2 = {};
                 var4 = _closure1_slot7;
@@ -362,7 +438,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['useGlobalOrGuildIdentityPendingProfileEffect'] = var4;
     var4 = function setNewPendingUserBio(arg1, arg2) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var5 = arg1;
             var3 = _closure1_slot0;
@@ -374,7 +450,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.setPendingBio;
             var6 = arg2;
             var2 = undefined;
-            if(!(var5 !== var6)) { _fun0006_ip = 46; continue _fun0006 }
+            if(!(var5 !== var6)) { _fun0008_ip = 46; continue _fun0008 }
  43:
             var2 = var5;
  46:
@@ -384,7 +460,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['setNewPendingUserBio'] = var4;
     var4 = function setNewPendingUserPronouns(arg1, arg2) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
             var5 = arg1;
             var3 = _closure1_slot0;
@@ -396,7 +472,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.setPendingPronouns;
             var6 = arg2;
             var2 = undefined;
-            if(!(var5 !== var6)) { _fun0007_ip = 46; continue _fun0007 }
+            if(!(var5 !== var6)) { _fun0009_ip = 46; continue _fun0009 }
  43:
             var2 = var5;
  46:
@@ -406,7 +482,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['setNewPendingUserPronouns'] = var4;
     var4 = function setNewPendingAvatar(arg1, arg2) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var5 = arg1;
             var3 = _closure1_slot0;
@@ -419,13 +495,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = null;
             var2 = var2 == var5;
             var7 = undefined;
-            if(var2) { _fun0008_ip = 51; continue _fun0008 }
+            if(var2) { _fun0010_ip = 51; continue _fun0010 }
  45:
             var7 = var5.imageUri;
  51:
             var6 = arg2;
             var2 = undefined;
-            if(!(var7 !== var6)) { _fun0008_ip = 63; continue _fun0008 }
+            if(!(var7 !== var6)) { _fun0010_ip = 63; continue _fun0010 }
  60:
             var2 = var5;
  63:
@@ -435,11 +511,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['setNewPendingAvatar'] = var4;
     var4 = function setNewPendingAvatarDecoration(arg1, arg2) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var2 = null;
             var1 = arg1;
-            if(!(var2 == var1)) { _fun0009_ip = 42; continue _fun0009 }
+            if(!(var2 == var1)) { _fun0011_ip = 42; continue _fun0011 }
  9:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -448,7 +524,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
             var3 = var1.setPendingAvatarDecoration;
-            _fun0009_ip = 73; continue _fun0009;
+            _fun0011_ip = 73; continue _fun0011;
  42:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -466,30 +542,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var3['setNewPendingAvatarDecoration'] = var4;
-    var4 = function setNewPendingNameplate(arg1) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 8;
-        var2 = var2[var1];
-        var1 = undefined;
-        var2 = var3.bind(var1)(var2);
-        var3 = var2.setPendingNameplate;
-        var2 = arg1;
-        var2 = var3.bind(var1)(var2);
-        var2 = !var2;
-        return var1;
-    };
-    var3['setNewPendingNameplate'] = var4;
     var4 = function setNewPendingProfileEffectId(arg1, arg2, arg3) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var3 = arg1;
             var2 = arg3;
             var1 = arg2;
-            if(!(var3 === var1)) { _fun0010_ip = 95; continue _fun0010 }
+            if(!(var3 === var1)) { _fun0012_ip = 95; continue _fun0012 }
  13:
             var1 = null;
-            if(!(var1 != var2)) { _fun0010_ip = 57; continue _fun0010 }
+            if(!(var1 != var2)) { _fun0012_ip = 57; continue _fun0012 }
  19:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -499,7 +561,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var4.bind(var5)(var1);
             var1 = var4.setPendingProfileEffectId;
             var1 = var1.bind(var4)(var5);
-            _fun0010_ip = 175; continue _fun0010;
+            _fun0012_ip = 175; continue _fun0012;
  57:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -509,10 +571,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var4.bind(var5)(var1);
             var1 = var4.setPendingProfileEffectId;
             var1 = var1.bind(var4)(var5);
-            _fun0010_ip = 175; continue _fun0010;
+            _fun0012_ip = 175; continue _fun0012;
  95:
             var1 = null;
-            if(!(var1 != var2)) { _fun0010_ip = 139; continue _fun0010 }
+            if(!(var1 != var2)) { _fun0012_ip = 139; continue _fun0012 }
  101:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -522,7 +584,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var4.bind(var1)(var2);
             var1 = var2.setPendingProfileEffectId;
             var1 = var1.bind(var2)(var3);
-            _fun0010_ip = 175; continue _fun0010;
+            _fun0012_ip = 175; continue _fun0012;
  139:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -539,30 +601,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['setNewPendingProfileEffectId'] = var4;
     var4 = function getProfilePreviewField(arg1, arg2, arg3) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
             var3 = arg1;
             var7 = arg2;
             var5 = arg3;
             var6 = arguments[3];
             var1 = undefined;
-            if(!(var6 === var1)) { _fun0011_ip = 20; continue _fun0011 }
+            if(!(var6 === var1)) { _fun0013_ip = 20; continue _fun0013 }
  18:
             var6 = false;
  20:
             var4 = null;
-            if(!(var4 == var3)) { _fun0011_ip = 71; continue _fun0011 }
+            if(!(var4 == var3)) { _fun0013_ip = 71; continue _fun0013 }
  26:
-            if(!(var4 != var7)) { _fun0011_ip = 38; continue _fun0011 }
+            if(!(var4 != var7)) { _fun0013_ip = 38; continue _fun0013 }
  30:
             var1 = '';
-            if(!(var1 === var7)) { _fun0011_ip = 53; continue _fun0011 }
+            if(!(var1 === var7)) { _fun0013_ip = 53; continue _fun0013 }
  38:
             var1 = {};
             var1['value'] = var5;
             var2 = false;
             var1['isUsingGuildValue'] = var2;
-            _fun0011_ip = 69; continue _fun0011;
+            _fun0013_ip = 69; continue _fun0013;
  53:
             var2 = {};
             var2['value'] = var7;
@@ -570,19 +632,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['isUsingGuildValue'] = var7;
             var1 = var2;
  69:
-            _fun0011_ip = 119; continue _fun0011;
+            _fun0013_ip = 119; continue _fun0013;
  71:
             var2 = '';
-            if(!(var2 !== var3)) { _fun0011_ip = 92; continue _fun0011 }
+            if(!(var2 !== var3)) { _fun0013_ip = 92; continue _fun0013 }
  79:
             var2 = {};
             var2['value'] = var3;
             var2['isUsingGuildValue'] = var6;
-            _fun0011_ip = 116; continue _fun0011;
+            _fun0013_ip = 116; continue _fun0013;
  92:
             var3 = {};
             var4 = null;
-            if(!var6) { _fun0011_ip = 102; continue _fun0011 }
+            if(!var6) { _fun0013_ip = 102; continue _fun0013 }
  99:
             var4 = var5;
  102:
@@ -598,7 +660,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['getProfilePreviewField'] = var4;
     var4 = function getPreviewProfileEffectId(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
             var1 = arg1;
             var3 = var1.pendingProfileEffectId;
@@ -606,39 +668,39 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = null;
             var2 = var6 == var5;
             var1 = undefined;
-            if(var2) { _fun0012_ip = 47; continue _fun0012 }
+            if(var2) { _fun0014_ip = 47; continue _fun0014 }
  26:
             var2 = var5._userProfile;
             var7 = var6 == var2;
             var1 = undefined;
-            if(var7) { _fun0012_ip = 47; continue _fun0012 }
+            if(var7) { _fun0014_ip = 47; continue _fun0014 }
  41:
             var1 = var2.profileEffectId;
  47:
             var7 = var6 == var5;
             var2 = undefined;
-            if(var7) { _fun0012_ip = 77; continue _fun0012 }
+            if(var7) { _fun0014_ip = 77; continue _fun0014 }
  56:
             var7 = var5._guildMemberProfile;
             var8 = var6 == var7;
             var2 = undefined;
-            if(var8) { _fun0012_ip = 77; continue _fun0012 }
+            if(var8) { _fun0014_ip = 77; continue _fun0014 }
  71:
             var2 = var7.profileEffectId;
  77:
             var7 = var6 === var3;
-            if(!var7) { _fun0012_ip = 88; continue _fun0012 }
+            if(!var7) { _fun0014_ip = 88; continue _fun0014 }
  84:
-            if(!(var6 == var2)) { _fun0012_ip = 121; continue _fun0012 }
+            if(!(var6 == var2)) { _fun0014_ip = 121; continue _fun0014 }
  88:
             var2 = null;
-            if(var7) { _fun0012_ip = 118; continue _fun0012 }
+            if(var7) { _fun0014_ip = 118; continue _fun0014 }
  93:
-            if(!(var6 == var3)) { _fun0012_ip = 115; continue _fun0012 }
+            if(!(var6 == var3)) { _fun0014_ip = 115; continue _fun0014 }
  97:
             var6 = var6 == var5;
             var4 = undefined;
-            if(var6) { _fun0012_ip = 112; continue _fun0012 }
+            if(var6) { _fun0014_ip = 112; continue _fun0014 }
  106:
             var4 = var5.profileEffectId;
  112:
@@ -653,15 +715,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['getPreviewProfileEffectId'] = var4;
     var4 = function showRemoveAvatar(arg1, arg2) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
             var2 = arg1;
             var1 = undefined;
-            if(!(var1 !== var2)) { _fun0013_ip = 17; continue _fun0013 }
+            if(!(var1 !== var2)) { _fun0015_ip = 17; continue _fun0015 }
  9:
             var1 = null;
             var1 = var1 != var2;
-            _fun0013_ip = 26; continue _fun0013;
+            _fun0015_ip = 26; continue _fun0015;
  17:
             var3 = null;
             var2 = arg2;
@@ -672,15 +734,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['showRemoveAvatar'] = var4;
     var2 = function showRemoveBanner(arg1, arg2) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
             var2 = arg1;
             var1 = undefined;
-            if(!(var1 !== var2)) { _fun0014_ip = 17; continue _fun0014 }
+            if(!(var1 !== var2)) { _fun0016_ip = 17; continue _fun0016 }
  9:
             var1 = null;
             var1 = var1 != var2;
-            _fun0014_ip = 26; continue _fun0014;
+            _fun0016_ip = 26; continue _fun0016;
  17:
             var3 = null;
             var2 = arg2;

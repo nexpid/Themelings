@@ -1084,19 +1084,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2['LOAD_PINNED_MESSAGES_SUCCESS'] = var10;
-    var10 = function handleSearchFinish(arg1) {
+    var10 = function handleSearchMessagesSuccess(arg1) {
         var1 = arg1;
-        var3 = var1.messages;
+        var3 = var1.data;
         var2 = var3.forEach;
         var1 = function(arg1) {
-            var3 = arg1;
+            var1 = arg1;
+            var3 = var1.messages;
             var2 = var3.forEach;
             var1 = function(arg1) {
-                var3 = _closure1_slot24;
-                var2 = undefined;
-                var1 = arg1;
-                var1 = var3.bind(var2)(var1);
-                var1 = false;
+                var3 = arg1;
+                var2 = var3.forEach;
+                var1 = function(arg1) {
+                    var3 = _closure1_slot24;
+                    var2 = undefined;
+                    var1 = arg1;
+                    var1 = var3.bind(var2)(var1);
+                    var1 = false;
+                    return var1;
+                };
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
@@ -1107,7 +1115,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = undefined;
         return var1;
     };
-    var2['SEARCH_FINISH'] = var10;
+    var2['SEARCH_MESSAGES_SUCCESS'] = var10;
     var10 = function handleGiftCodeUpdate(arg1) {
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:

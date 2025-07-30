@@ -29,7 +29,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
-    var4 = 12;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -74,28 +74,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = false;
  91:
             var2 = var1.includeKeyboardHeightAndroid;
-            if(!(var2 === var7)) { _fun0001_ip = 146; continue _fun0001 }
+            if(!(var2 === var7)) { _fun0001_ip = 104; continue _fun0001 }
  101:
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 5;
-            var1 = var6[var1];
-            var4 = var4.bind(var7)(var1);
-            var1 = var4.isLegacyAndroidKeyboard;
-            var1 = var1.bind(var4)();
-            var1 = !var1;
-            if(!var1) { _fun0001_ip = 143; continue _fun0001 }
- 140:
-            var1 = var5;
- 143:
-            var2 = var1;
- 146:
+            var2 = var5;
+ 104:
             var _closure2_slot4 = var7;
             var _closure2_slot5 = var7;
             var _closure2_slot6 = var7;
             var6 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var4 = 6;
+            var4 = 5;
             var4 = var11[var4];
             var4 = var6.bind(var7)(var4);
             var4 = var4.bind(var7)();
@@ -111,7 +99,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     var2 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var8 = 7;
+                    var8 = 6;
                     var1 = var1[var8];
                     var5 = undefined;
                     var2 = var2.bind(var5)(var1);
@@ -141,7 +129,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  95:
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var1 = 8;
+                    var1 = 7;
                     var1 = var6[var1];
                     var4 = var7.bind(var5)(var1);
                     var2 = var4.getSystemKeyboardHeight;
@@ -157,12 +145,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  161:
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var2 = 9;
+                    var2 = 8;
                     var2 = var9[var2];
                     var7 = var4.bind(var5)(var2);
                     var2 = var7.getKeyboardType;
                     var7 = var2.bind(var7)();
-                    var2 = 10;
+                    var2 = 9;
                     var2 = var9[var2];
                     var2 = var4.bind(var5)(var2);
                     var2 = var2.KeyboardTypes;
@@ -196,7 +184,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  304:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 11;
+                    var3 = 10;
                     var3 = var6[var3];
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.getCustomKeyboardHeight;
@@ -257,20 +245,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = {};
             var9['keyboardHeight'] = var3;
             var10 = !var10;
-            if(var10) { _fun0001_ip = 340; continue _fun0001 }
- 337:
+            if(var10) { _fun0001_ip = 298; continue _fun0001 }
+ 295:
             var10 = !var5;
- 340:
-            if(var10) { _fun0001_ip = 372; continue _fun0001 }
- 343:
+ 298:
+            if(var10) { _fun0001_ip = 330; continue _fun0001 }
+ 301:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var11 = 7;
+            var11 = 6;
             var11 = var13[var11];
             var12 = var12.bind(var7)(var11);
             var11 = var12.isAndroid;
             var10 = var11.bind(var12)();
- 372:
+ 330:
             var9['disabled'] = var10;
             var8 = function useAnimateChanges(arg1) {
                 var2 = arg1;
@@ -328,36 +316,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var8 = var8.bind(var7)(var9);
-            if(!var5) { _fun0001_ip = 422; continue _fun0001 }
- 389:
+            if(!var5) { _fun0001_ip = 380; continue _fun0001 }
+ 347:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var5 = 7;
+            var5 = 6;
             var5 = var9[var5];
             var8 = var8.bind(var7)(var5);
             var5 = var8.isIOS;
             var5 = var5.bind(var8)();
-            if(var5) { _fun0001_ip = 461; continue _fun0001 }
- 422:
+            if(var5) { _fun0001_ip = 419; continue _fun0001 }
+ 380:
             var5 = 0;
-            if(!var2) { _fun0001_ip = 464; continue _fun0001 }
- 427:
+            if(!var2) { _fun0001_ip = 422; continue _fun0001 }
+ 385:
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 7;
+            var1 = 6;
             var1 = var8[var1];
             var2 = var2.bind(var7)(var1);
             var1 = var2.isAndroid;
             var1 = var1.bind(var2)();
             var5 = 0;
-            if(!var1) { _fun0001_ip = 464; continue _fun0001 }
- 461:
+            if(!var1) { _fun0001_ip = 422; continue _fun0001 }
+ 419:
             var5 = var3;
- 464:
+ 422:
             var1 = {};
             var2 = var4;
-            if(!(var3 > var6)) { _fun0001_ip = 497; continue _fun0001 }
- 473:
+            if(!(var3 > var6)) { _fun0001_ip = 455; continue _fun0001 }
+ 431:
             var3 = {};
             var16 = var3;
             var15 = var4;
@@ -365,7 +353,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = 'bottom';
             var3[var4] = var5;
             var2 = var3;
- 497:
+ 455:
             var1['insets'] = var2;
             return var1;
         }

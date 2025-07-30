@@ -558,7 +558,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11[0] = var10;
             var10 = function() {
                 var3 = _closure1_slot13;
-                var2 = var3.getRoles;
+                var2 = var3.getRolesSnapshot;
                 var1 = _closure2_slot17;
                 var1 = var2.bind(var3)(var1);
                 return var1;

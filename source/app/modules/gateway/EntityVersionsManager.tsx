@@ -186,7 +186,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5 = var5.bind(var1)(var4);
                         var4 = var5.keys;
                         var6 = _closure1_slot10;
-                        var3 = var6.getRoles;
+                        var3 = var6.getUnsafeMutableRoles;
                         var3 = var3.bind(var6)(var7);
                         var4 = var4.bind(var5)(var3);
                         var3 = var4.forEach;
@@ -444,18 +444,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var19[var12](var18, var17, var16, var15, var14);
                     var4 = var5.bind(var6)(var4);
                     var4 = _closure1_slot19;
-                    var7 = var3.Object;
-                    var6 = var7.keys;
-                    var11 = _closure1_slot9;
-                    var5 = var11.getMutableBasicGuildChannelsForGuild;
-                    var5 = var5.bind(var11)(var8);
-                    var5 = var6.bind(var7)(var5);
-                    var7 = var4.bind(var1)(var5);
                     var6 = var3.Object;
                     var5 = var6.keys;
-                    var11 = _closure1_slot10;
-                    var3 = var11.getRoles;
-                    var3 = var3.bind(var11)(var8);
+                    var7 = _closure1_slot9;
+                    var3 = var7.getMutableBasicGuildChannelsForGuild;
+                    var3 = var3.bind(var7)(var8);
+                    var3 = var5.bind(var6)(var3);
+                    var7 = var4.bind(var1)(var3);
+                    var5 = _closure1_slot10;
+                    var3 = var5.getSortedRoles;
+                    var6 = var3.bind(var5)(var8);
+                    var5 = var6.map;
+                    var3 = function(arg1) {
+                        var1 = arg1;
+                        var1 = var1.id;
+                        return var1;
+                    };
                     var3 = var5.bind(var6)(var3);
                     var6 = var4.bind(var1)(var3);
                     var5 = _closure1_slot7;
@@ -474,8 +478,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var12 = var3.bind(var11)(var8);
                     var11 = var9 == var12;
                     var3 = undefined;
-                    if(var11) { _fun0009_ip = 248; continue _fun0009 }
- 231:
+                    if(var11) { _fun0009_ip = 249; continue _fun0009 }
+ 232:
                     var11 = var12.map;
                     var10 = function(arg1) {
                         var1 = arg1;
@@ -483,11 +487,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var3 = var11.bind(var12)(var10);
- 248:
-                    if(!(var9 == var3)) { _fun0009_ip = 256; continue _fun0009 }
- 252:
+ 249:
+                    if(!(var9 == var3)) { _fun0009_ip = 257; continue _fun0009 }
+ 253:
                     var3 = new Array(0);
- 256:
+ 257:
                     var14 = var4.bind(var1)(var3);
                     var3 = _closure1_slot12;
                     var2 = var3.getSocket;

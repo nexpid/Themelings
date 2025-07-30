@@ -377,23 +377,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var3.bind(var2)(var4, var1);
         return var1;
     };
-    var13 = function handleSearchFinish(arg1) {
+    var13 = function handleSearchMessagesSuccess(arg1) {
         var1 = arg1;
-        var4 = var1.messages;
+        var4 = var1.data;
         var3 = _closure1_slot22;
         var2 = undefined;
         var1 = function(arg1) {
-            var4 = _closure1_slot22;
-            var3 = undefined;
-            var2 = arg1;
+            var1 = arg1;
+            var4 = var1.messages;
+            var3 = _closure1_slot22;
+            var2 = undefined;
             var1 = function(arg1) {
-                var3 = _closure1_slot21;
-                var2 = undefined;
-                var1 = arg1;
-                var1 = var3.bind(var2)(var1);
+                var4 = _closure1_slot22;
+                var3 = undefined;
+                var2 = arg1;
+                var1 = function(arg1) {
+                    var3 = _closure1_slot21;
+                    var2 = undefined;
+                    var1 = arg1;
+                    var1 = var3.bind(var2)(var1);
+                    return var1;
+                };
+                var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var1 = var4.bind(var3)(var2, var1);
+            var1 = var3.bind(var2)(var4, var1);
             return var1;
         };
         var1 = var3.bind(var2)(var4, var1);
@@ -1139,8 +1147,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['LOCAL_MESSAGES_LOADED'] = var14;
     var4['LOAD_MESSAGES_SUCCESS'] = var14;
     var4['LOAD_MESSAGES_AROUND_SUCCESS'] = var14;
-    var4['SEARCH_FINISH'] = var13;
-    var4['MOD_VIEW_SEARCH_FINISH'] = var13;
+    var4['SEARCH_MESSAGES_SUCCESS'] = var13;
+    var4['MOD_VIEW_SEARCH_MESSAGES_SUCCESS'] = var13;
     var4['LOAD_THREADS_SUCCESS'] = var12;
     var4['LOAD_ARCHIVED_THREADS_SUCCESS'] = var12;
     var12 = function handleMessageExplicitContentScanTimeout(arg1) {

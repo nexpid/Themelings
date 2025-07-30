@@ -36,7 +36,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot6 = var4;
     var4 = new Array(0);
     var _closure1_slot7 = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -102,16 +102,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     var3 = _closure2_slot1;
                     var1 = null;
-                    var3 = var1 != var3;
-                    var1 = undefined;
-                    if(!var3) { _fun0003_ip = 45; continue _fun0003 }
- 18:
+                    if(!(var1 == var3)) { _fun0003_ip = 19; continue _fun0003 }
+ 13:
+                    var1 = new Array(0);
+                    _fun0003_ip = 46; continue _fun0003;
+ 19:
                     var4 = _closure1_slot4;
-                    var3 = var4.getRoles;
+                    var3 = var4.getSortedRoles;
                     var2 = _closure2_slot1;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);
- 45:
+ 46:
                     return var1;
                 }
             };
@@ -152,143 +153,97 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    var4 = _closure2_slot4;
-                    if(var4) { _fun0004_ip = 175; continue _fun0004 }
- 18:
-                    var6 = _closure1_slot1;
-                    var5 = _closure1_slot2;
-                    var4 = 8;
-                    var4 = var5[var4];
-                    var5 = undefined;
-                    var4 = var6.bind(var5)(var4);
-                    var3 = _closure2_slot2;
-                    var4 = var4.bind(var5)(var3);
-                    var3 = var4.values;
-                    var5 = var3.bind(var4)();
-                    var4 = var5.filter;
-                    var3 = function(arg1) {
+                    var3 = _closure2_slot4;
+                    if(var3) { _fun0004_ip = 223; continue _fun0004 }
+ 15:
+                    var4 = _closure2_slot2;
+                    var3 = var4.filter;
+                    var2 = function(arg1) {
                         var1 = arg1;
                         var1 = var1.hoist;
                         return var1;
                     };
-                    var5 = var4.bind(var5)(var3);
-                    var4 = var5.sortBy;
-                    var3 = function(arg1) {
-                        var1 = arg1;
-                        var1 = var1.position;
-                        return var1;
-                    };
-                    var4 = var4.bind(var5)(var3);
-                    var3 = var4.reverse;
-                    var5 = var3.bind(var4)();
-                    var4 = var5.map;
-                    var3 = function(arg1) {
-                        var1 = arg1;
-                        var1 = var1.id;
-                        return var1;
-                    };
-                    var4 = var4.bind(var5)(var3);
-                    var3 = var4.value;
-                    var4 = var3.bind(var4)();
-                    var6 = var4.push;
-                    var3 = _closure1_slot6;
-                    var5 = var3.ONLINE;
-                    var3 = var3.OFFLINE;
-                    var3 = var6.bind(var4)(var5, var3);
+                    var4 = var3.bind(var4)(var2);
                     var3 = var4.map;
                     var2 = function(arg1) {
+                        var2 = arg1;
+                        var1 = {};
+                        var3 = var2.id;
+                        var1['id'] = var3;
+                        var2 = var2.name;
+                        var1['label'] = var2;
+                        return var1;
+                    };
+                    var3 = var3.bind(var4)(var2);
+                    var5 = var3.push;
+                    var4 = {};
+                    var7 = _closure1_slot6;
+                    var6 = var7.ONLINE;
+                    var4['id'] = var6;
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var6 = 8;
+                    var2 = var11[var6];
+                    var9 = undefined;
+                    var2 = var10.bind(var9)(var2);
+                    var12 = var2.intl;
+                    var8 = var12.string;
+                    var2 = var11[var6];
+                    var2 = var10.bind(var9)(var2);
+                    var2 = var2.t;
+                    var2 = var2.WbGtnJ;
+                    var2 = var8.bind(var12)(var2);
+                    var4['label'] = var2;
+                    var2 = {};
+                    var7 = var7.OFFLINE;
+                    var2['id'] = var7;
+                    var7 = var11[var6];
+                    var7 = var10.bind(var9)(var7);
+                    var8 = var7.intl;
+                    var7 = var8.string;
+                    var6 = var11[var6];
+                    var6 = var10.bind(var9)(var6);
+                    var6 = var6.t;
+                    var6 = var6.Vv0abG;
+                    var6 = var7.bind(var8)(var6);
+                    var2['label'] = var6;
+                    var2 = var5.bind(var3)(var4, var2);
+                    var2 = var3.map;
+                    var1 = function(arg1) {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                            var2 = arg1;
+                            var1 = arg1;
+                            var2 = var1.id;
+                            var3 = var1.label;
                             var1 = {};
-                            var3 = _closure1_slot6;
-                            var3 = var3.ONLINE;
-                            if(!(var2 !== var3)) { _fun0005_ip = 154; continue _fun0005 }
- 25:
-                            var3 = _closure1_slot6;
-                            var3 = var3.OFFLINE;
-                            if(!(var2 !== var3)) { _fun0005_ip = 95; continue _fun0005 }
- 39:
-                            var5 = _closure2_slot2;
-                            var3 = null;
-                            var7 = var3 == var5;
-                            var5 = undefined;
-                            if(var7) { _fun0005_ip = 79; continue _fun0005 }
- 57:
-                            var6 = _closure2_slot2;
-                            var6 = var6[var2];
-                            var7 = var3 == var6;
-                            var5 = undefined;
-                            if(var7) { _fun0005_ip = 79; continue _fun0005 }
- 74:
-                            var5 = var6.name;
- 79:
-                            var6 = var3 != var5;
-                            var3 = '';
-                            if(!var6) { _fun0005_ip = 93; continue _fun0005 }
- 90:
-                            var3 = var5;
- 93:
-                            _fun0005_ip = 152; continue _fun0005;
- 95:
-                            var9 = _closure1_slot0;
-                            var10 = _closure1_slot2;
-                            var5 = 9;
-                            var6 = var10[var5];
-                            var8 = undefined;
-                            var6 = var9.bind(var8)(var6);
-                            var7 = var6.intl;
-                            var6 = var7.string;
-                            var5 = var10[var5];
-                            var5 = var9.bind(var8)(var5);
-                            var5 = var5.t;
-                            var5 = var5.Vv0abG;
-                            var3 = var6.bind(var7)(var5);
- 152:
-                            _fun0005_ip = 211; continue _fun0005;
- 154:
-                            var8 = _closure1_slot0;
-                            var9 = _closure1_slot2;
-                            var4 = 9;
-                            var5 = var9[var4];
-                            var7 = undefined;
-                            var5 = var8.bind(var7)(var5);
-                            var6 = var5.intl;
-                            var5 = var6.string;
-                            var4 = var9[var4];
-                            var4 = var8.bind(var7)(var4);
-                            var4 = var4.t;
-                            var4 = var4.WbGtnJ;
-                            var3 = var5.bind(var6)(var4);
- 211:
                             var1['label'] = var3;
                             var3 = _closure2_slot3;
                             var4 = null;
                             var6 = var4 == var3;
                             var3 = undefined;
-                            if(var6) { _fun0005_ip = 256; continue _fun0005 }
- 233:
+                            if(var6) { _fun0005_ip = 60; continue _fun0005 }
+ 37:
                             var5 = _closure2_slot3;
                             var5 = var5[var2];
                             var6 = var4 == var5;
                             var3 = undefined;
-                            if(var6) { _fun0005_ip = 256; continue _fun0005 }
- 250:
+                            if(var6) { _fun0005_ip = 60; continue _fun0005 }
+ 54:
                             var3 = var5.userIds;
- 256:
-                            if(!(var4 == var3)) { _fun0005_ip = 264; continue _fun0005 }
- 260:
+ 60:
+                            if(!(var4 == var3)) { _fun0005_ip = 68; continue _fun0005 }
+ 64:
                             var3 = new Array(0);
- 264:
+ 68:
                             var1['userIds'] = var3;
                             var1['id'] = var2;
                             var1['roleId'] = var2;
                             return var1;
                         }
                     };
-                    var2 = var3.bind(var4)(var2);
-                    return var2;
- 175:
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+ 223:
                     var1 = _closure1_slot7;
                     return var1;
                 }

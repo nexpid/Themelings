@@ -1368,7 +1368,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['APP_DM_OPEN'] = var8;
     var8 = function handleAuthorizedAppsUpdate(arg1) {
         var1 = arg1;
-        var3 = var1.apps;
+        var3 = var1.tokens;
         var2 = var3.forEach;
         var1 = function(arg1) {
             _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
@@ -1403,7 +1403,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2['USER_AUTHORIZED_APPS_UPDATE'] = var8;
-    var4 = function handleNotificationCenterItemsSuccess(arg1) {
+    var8 = function handleNotificationCenterItemsSuccess(arg1) {
         var1 = arg1;
         var3 = var1.items;
         var2 = var3.forEach;
@@ -1431,7 +1431,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = undefined;
         return var1;
     };
-    var2['LOAD_NOTIFICATION_CENTER_ITEMS_SUCCESS'] = var4;
+    var2['LOAD_NOTIFICATION_CENTER_ITEMS_SUCCESS'] = var8;
+    var4 = function handleOAuth2TokenCreate(arg1) {
+        var1 = arg1;
+        var4 = var1.application;
+        var3 = _closure1_slot17;
+        var2 = _closure1_slot6;
+        var1 = var2.createFromServer;
+        var2 = var1.bind(var2)(var4);
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var2['OAUTH2_TOKEN_CREATE'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var13 = var4;

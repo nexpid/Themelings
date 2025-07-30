@@ -496,7 +496,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = {};
     var2 = var12.SOLID;
     var7['id'] = var2;
-    var2 = {};
+    var2 = {'primary_color': null, 'secondary_color': null, 'tertiary_color': null};
     var2['primary_color'] = var10;
     var7['colors'] = var2;
     var10 = 6;

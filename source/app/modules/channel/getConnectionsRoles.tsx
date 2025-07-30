@@ -90,31 +90,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var3.type;
                     var1 = 0;
                     var1 = var1 === var2;
-                    if(!var1) { _fun0002_ip = 92; continue _fun0002 }
+                    if(!var1) { _fun0002_ip = 89; continue _fun0002 }
  17:
-                    var5 = _closure1_slot2;
-                    var4 = var5.getRoles;
+                    var6 = _closure1_slot2;
+                    var5 = var6.getRole;
                     var2 = _closure2_slot0;
-                    var2 = var2.id;
-                    var4 = var4.bind(var5)(var2);
+                    var4 = var2.id;
                     var2 = var3.id;
-                    var5 = var4[var2];
+                    var5 = var5.bind(var6)(var4, var2);
                     var4 = null;
                     var6 = var4 == var5;
                     var2 = undefined;
-                    if(var6) { _fun0002_ip = 88; continue _fun0002 }
- 67:
+                    if(var6) { _fun0002_ip = 85; continue _fun0002 }
+ 64:
                     var5 = var5.tags;
                     var6 = var4 == var5;
                     var2 = undefined;
-                    if(var6) { _fun0002_ip = 88; continue _fun0002 }
- 82:
+                    if(var6) { _fun0002_ip = 85; continue _fun0002 }
+ 79:
                     var2 = var5.guild_connections;
- 88:
+ 85:
                     var1 = var4 === var2;
+ 89:
+                    if(!var1) { _fun0002_ip = 142; continue _fun0002 }
  92:
-                    if(!var1) { _fun0002_ip = 145; continue _fun0002 }
- 95:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot1;
                     var4 = 3;
@@ -126,21 +125,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = _closure1_slot5;
                     var2 = var4.bind(var5)(var3, var2);
                     var1 = !var2;
- 145:
+ 142:
                     return var1;
                 }
             };
             var4 = var3.bind(var4)(var2);
             var3 = var4.map;
             var2 = function(arg1) {
-                var3 = _closure1_slot2;
-                var2 = var3.getRoles;
+                var4 = _closure1_slot2;
+                var3 = var4.getRole;
                 var1 = _closure2_slot0;
-                var1 = var1.id;
-                var2 = var2.bind(var3)(var1);
+                var2 = var1.id;
                 var1 = arg1;
                 var1 = var1.id;
-                var1 = var2[var1];
+                var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
             var3 = var3.bind(var4)(var2);

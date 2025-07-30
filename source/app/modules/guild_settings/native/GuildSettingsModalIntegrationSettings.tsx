@@ -1010,7 +1010,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     if(!var3) { _fun0007_ip = 45; continue _fun0007 }
  18:
                     var4 = _closure1_slot11;
-                    var3 = var4.getRoles;
+                    var3 = var4.getRolesSnapshot;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
                     var1 = var3.bind(var4)(var2);

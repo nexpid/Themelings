@@ -2236,8 +2236,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['THREAD_LIST_SYNC'] = var15;
     var4['LOAD_THREADS_SUCCESS'] = var14;
     var4['LOAD_ARCHIVED_THREADS_SUCCESS'] = var14;
-    var4['SEARCH_FINISH'] = var14;
-    var4['MOD_VIEW_SEARCH_FINISH'] = var14;
+    var4['SEARCH_MESSAGES_SUCCESS'] = var14;
+    var4['MOD_VIEW_SEARCH_MESSAGES_SUCCESS'] = var14;
     var15 = function handleGuildCreate(arg1) {
         var1 = arg1;
         var1 = var1.guild;

@@ -569,6 +569,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var6['onPress'] = var10;
+                var10 = 'button';
+                var6['accessibilityRole'] = var10;
+                var10 = {};
+                var10['expanded'] = var7;
+                var6['accessibilityState'] = var10;
                 var15 = _closure1_slot7;
                 var14 = _closure1_slot0;
                 var10 = _closure1_slot2;
@@ -578,10 +583,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var14 = var10.Text;
                 var10 = {};
                 var16 = 'interactive-normal';
-                if(!var7) { _fun0001_ip = 175; continue _fun0001 }
- 169:
+                if(!var7) { _fun0001_ip = 195; continue _fun0001 }
+ 189:
                 var16 = 'interactive-active';
- 175:
+ 195:
                 var10['color'] = var16;
                 var17 = _closure2_slot0;
                 var16 = var17.question;
@@ -609,11 +614,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var17 = new Array(2);
                 var17[0] = var18;
                 var18 = var7;
-                if(!var7) { _fun0001_ip = 303; continue _fun0001 }
- 293:
+                if(!var7) { _fun0001_ip = 323; continue _fun0001 }
+ 313:
                 var19 = _closure2_slot0;
                 var18 = var19.questionIconExpanded;
- 303:
+ 323:
                 var17[1] = var18;
                 var14['style'] = var17;
                 var14 = var16.bind(var1)(var15, var14);
@@ -622,8 +627,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var4.bind(var1)(var9, var6);
                 var6 = new Array(2);
                 var6[0] = var9;
-                if(!var7) { _fun0001_ip = 418; continue _fun0001 }
- 342:
+                if(!var7) { _fun0001_ip = 438; continue _fun0001 }
+ 362:
                 var10 = _closure1_slot7;
                 var9 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -638,7 +643,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var11 = var11.bind(var12)();
                 var8['children'] = var11;
                 var7 = var10.bind(var1)(var9, var8);
- 418:
+ 438:
                 var6[1] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var1)(var3, var2, var5);

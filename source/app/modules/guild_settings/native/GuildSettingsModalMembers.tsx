@@ -303,9 +303,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var1 = arg1;
             var10 = var1.guild;
+            var _closure2_slot0 = var10;
             var12 = var1.guildMember;
-            var _closure2_slot0 = var12;
-            var19 = var1.guildRoles;
+            var _closure2_slot1 = var12;
+            var4 = var1.sortedGuildRoles;
             var7 = var1.start;
             var6 = var1.end;
             var1 = _closure1_slot19;
@@ -318,58 +319,52 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.bind(var5)(var1);
             var1 = var2.useNavigation;
             var1 = var1.bind(var2)();
-            var _closure2_slot1 = var1;
+            var _closure2_slot2 = var1;
             var1 = null;
-            if(!(var1 != var10)) { _fun0004_ip = 413; continue _fun0004 }
- 92:
+            if(!(var1 != var10)) { _fun0004_ip = 314; continue _fun0004 }
+ 96:
             var3 = var12.userId;
             var2 = var10.ownerId;
             var9 = var3 === var2;
-            if(!var9) { _fun0004_ip = 134; continue _fun0004 }
- 110:
+            if(!var9) { _fun0004_ip = 138; continue _fun0004 }
+ 114:
             var3 = _closure1_slot7;
             var2 = var3.getId;
             var3 = var2.bind(var3)();
             var2 = var10.ownerId;
             var9 = var3 === var2;
- 134:
-            var14 = new Array(0);
-            var17 = var19;
-            var3 = 17;
-            var2 = -1;
-            for(var4 in var17)
- 158:
-            {
- 167:
-                var20 = var4;
-                var20 = var19[var20];
-                var21 = var1 != var20;
-                if(!var21) { _fun0004_ip = 207; continue _fun0004 }
- 181:
-                var24 = var12.roles;
-                var23 = var24.indexOf;
-                var22 = var20.id;
-                var22 = var23.bind(var24)(var22);
-                var21 = var2 !== var22;
- 207:
-                if(!var21) { _fun0004_ip = 158; continue _fun0004 }
- 210:
-                var21 = var14.push;
-                var24 = _closure1_slot15;
-                var23 = _closure1_slot1;
-                var22 = _closure1_slot2;
-                var22 = var22[var3];
-                var23 = var23.bind(var5)(var22);
-                var22 = {};
-                var22['role'] = var20;
-                var25 = var10.id;
-                var22['guildId'] = var25;
-                var20 = var20.id;
-                var20 = var24.bind(var5)(var23, var22, var20);
-                var20 = var21.bind(var14)(var20);
-                _fun0004_ip = 158; continue _fun0004;
-            }
- 271:
+ 138:
+            var3 = var4.filter;
+            var2 = function(arg1) {
+                var1 = _closure2_slot1;
+                var3 = var1.roles;
+                var2 = var3.includes;
+                var1 = arg1;
+                var1 = var1.id;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.map;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var5 = _closure1_slot15;
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 17;
+                var2 = var4[var2];
+                var4 = undefined;
+                var3 = var3.bind(var4)(var2);
+                var2 = {};
+                var2['role'] = var1;
+                var6 = _closure2_slot0;
+                var6 = var6.id;
+                var2['guildId'] = var6;
+                var1 = var1.id;
+                var1 = var5.bind(var4)(var3, var2, var1);
+                return var1;
+            };
+            var14 = var3.bind(var4)(var2);
             var4 = _closure1_slot15;
             var3 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -385,8 +380,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = 0;
             var12 = var12 > var10;
             var10 = null;
-            if(!var12) { _fun0004_ip = 370; continue _fun0004 }
- 331:
+            if(!var12) { _fun0004_ip = 271; continue _fun0004 }
+ 232:
             var13 = _closure1_slot15;
             var12 = _closure1_slot5;
             var11 = {};
@@ -396,16 +391,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11['pointerEvents'] = var15;
             var11['children'] = var14;
             var10 = var13.bind(var5)(var12, var11);
- 370:
+ 271:
             var2['subLabel'] = var10;
             var2['disabled'] = var9;
             var8 = function onPress() {
-                var4 = _closure2_slot1;
+                var4 = _closure2_slot2;
                 var3 = var4.push;
                 var1 = _closure1_slot14;
                 var2 = var1.MEMBER_EDIT;
                 var1 = {};
-                var5 = _closure2_slot0;
+                var5 = _closure2_slot1;
                 var5 = var5.userId;
                 var1['userId'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
@@ -419,7 +414,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['end'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 413:
+ 314:
             return var1;
         }
     };
@@ -471,9 +466,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3 != var5;
                 var1['guildLoaded'] = var3;
                 var3 = _closure1_slot10;
-                var2 = var3.getRoles;
+                var2 = var3.getSortedRoles;
                 var2 = var2.bind(var3)(var4);
-                var1['guildRoles'] = var2;
+                var1['sortedGuildRoles'] = var2;
                 return var1;
             };
             var2 = var7.bind(var8)(var5, var2);
@@ -481,7 +476,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot2 = var9;
             var16 = var2.guildLoaded;
             var _closure2_slot3 = var16;
-            var2 = var2.guildRoles;
+            var2 = var2.sortedGuildRoles;
             var _closure2_slot4 = var2;
             var5 = var18[var3];
             var10 = var22.bind(var4)(var5);
@@ -1009,7 +1004,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2['guild'] = var7;
                 var2['guildMember'] = var6;
                 var6 = _closure2_slot4;
-                var2['guildRoles'] = var6;
+                var2['sortedGuildRoles'] = var6;
                 var6 = 0;
                 var6 = var6 === var5;
                 var2['start'] = var6;

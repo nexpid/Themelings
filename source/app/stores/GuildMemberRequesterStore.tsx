@@ -311,25 +311,47 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = function handleLoadSearchResults(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            var1 = arg1;
-            var5 = var1.guildId;
-            var7 = var1.messages;
-            var1 = null;
-            var1 = var1 != var5;
-            if(!var1) { _fun0007_ip = 71; continue _fun0007 }
- 23:
-            var4 = _closure1_slot14;
-            var6 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var2 = 9;
-            var2 = var3[var2];
+            var2 = arg1;
+            var4 = var2.guildId;
+            var6 = var2.data;
             var3 = undefined;
-            var6 = var6.bind(var3)(var2);
-            var2 = var6.flatten;
-            var2 = var2.bind(var6)(var7);
-            var2 = var4.bind(var3)(var5, var2);
+            var _closure2_slot0 = var3;
+            var2 = null;
+            if(!(var2 != var4)) { _fun0007_ip = 67; continue _fun0007 }
+ 27:
+            var2 = new Array(0);
+            _closure2_slot0 = var2;
+            var5 = var6.forEach;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var3 = var1.messages;
+                var2 = var3.forEach;
+                var1 = function(arg1) {
+                    var3 = arg1;
+                    var2 = var3.forEach;
+                    var1 = function(arg1) {
+                        var3 = _closure2_slot0;
+                        var2 = var3.push;
+                        var1 = arg1;
+                        var1 = var2.bind(var3)(var1);
+                        var1 = undefined;
+                        return var1;
+                    };
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
+                };
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
+            };
+            var1 = var5.bind(var6)(var1);
+            var1 = _closure1_slot14;
+            var1 = var1.bind(var3)(var4, var2);
             var1 = false;
- 71:
+            return var1;
+ 67:
+            var1 = false;
             return var1;
         }
     };
@@ -400,7 +422,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = new var16[var12](var15, var14, var13);
     var2 = var2 instanceof Object ? var2 : var7;
     var _closure1_slot9 = var2;
-    var2 = 10;
+    var2 = 9;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
     var7 = var2.Store;
@@ -559,8 +581,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var2['GUILD_MEMBERS_CHUNK_BATCH'] = var10;
-    var2['SEARCH_FINISH'] = var9;
-    var2['MOD_VIEW_SEARCH_FINISH'] = var9;
+    var2['SEARCH_MESSAGES_SUCCESS'] = var9;
+    var2['MOD_VIEW_SEARCH_MESSAGES_SUCCESS'] = var9;
     var2['LOCAL_MESSAGES_LOADED'] = var8;
     var2['LOAD_MESSAGES_SUCCESS'] = var8;
     var2['LOAD_MESSAGES_AROUND_SUCCESS'] = var8;
@@ -606,7 +628,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var14 = var2;
     var2 = new var16[var7](var15, var14, var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 11;
+    var4 = 10;
     var5 = var5[var4];
     var4 = native2;
     var6 = var4.bind(var1)(var5);

@@ -236,7 +236,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = arg2;
                 var2 = this;
                 var7 = null;
-                if(!(var7 != var4)) { _fun0005_ip = 302; continue _fun0005 }
+                if(!(var7 != var4)) { _fun0005_ip = 298; continue _fun0005 }
  18:
                 var5 = global;
                 var8 = var5.Object;
@@ -278,7 +278,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var1.length;
                 var1 = var2.maxSamples;
                 var3 = var9;
-                if(!(var8 > var1)) { _fun0005_ip = 282; continue _fun0005 }
+                if(!(var8 > var1)) { _fun0005_ip = 278; continue _fun0005 }
  190:
                 var8 = var9.recentUses;
                 var1 = var8.shift;
@@ -289,25 +289,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var9;
                 if(var8 > var1) { _fun0005_ip = 190; continue _fun0005 }
  230:
-                _fun0005_ip = 282; continue _fun0005;
+                _fun0005_ip = 278; continue _fun0005;
  232:
                 var1 = {'totalUses': 1, 'recentUses': null, 'frecency': 4294967295, 'score': 0};
-                if(!(var7 == var6)) { _fun0005_ip = 265; continue _fun0005 }
- 250:
+                if(!(var7 == var6)) { _fun0005_ip = 261; continue _fun0005 }
+ 246:
                 var7 = var5.Date;
                 var5 = var7.now;
                 var6 = var5.bind(var7)();
- 265:
+ 261:
                 var5 = new Array(1);
                 var5[0] = var6;
                 var1['recentUses'] = var5;
                 var3 = var1;
- 282:
+ 278:
                 var1 = var2.usageHistory;
                 var1[var4] = var3;
                 var1 = var2.markDirty;
                 var1 = var1.bind(var2)();
- 302:
+ 298:
                 var1 = undefined;
                 return var1;
             }

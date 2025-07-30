@@ -85,7 +85,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['label'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 20;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -126,26 +126,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7[0] = var6;
             var6 = function() {
                 var3 = _closure1_slot6;
-                var2 = var3.getRoles;
+                var2 = var3.getSortedRoles;
                 var1 = _closure2_slot0;
                 var1 = var1.id;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var7 = var9.bind(var12)(var7, var6);
-            var9 = _closure1_slot1;
-            var6 = 9;
-            var6 = var14[var6];
-            var6 = var9.bind(var4)(var6);
-            var9 = var6.bind(var4)(var7);
-            var7 = var9.sortBy;
-            var6 = function(arg1) {
-                var1 = arg1;
-                var1 = var1.position;
-                var1 = -var1;
-                return var1;
-            };
-            var9 = var7.bind(var9)(var6);
+            var9 = var9.bind(var12)(var7, var6);
             var7 = var9.map;
             var6 = function(arg1) {
                 var2 = arg1;
@@ -157,9 +144,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = copyDataProperties(var5, var4);
                 return var1;
             };
-            var7 = var7.bind(var9)(var6);
-            var6 = var7.value;
-            var13 = var6.bind(var7)();
+            var13 = var7.bind(var9)(var6);
             var6 = var13.length;
             var12 = 1;
             var9 = var6 - var12;
@@ -187,7 +172,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  24:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 10;
+                    var2 = 9;
                     var4 = var4[var2];
                     var2 = undefined;
                     var4 = var5.bind(var2)(var4);
@@ -201,7 +186,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  73:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 11;
+                    var1 = 10;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -229,7 +214,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var6.bind(var9)(var5, var1);
             _closure2_slot5 = var9;
             var6 = var7.useContext;
-            var1 = 12;
+            var1 = 11;
             var5 = var14[var1];
             var5 = var8.bind(var4)(var5);
             var5 = var5.RedesignCompatContext;
@@ -252,7 +237,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = _closure1_slot8;
                     var8 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var9 = 13;
+                    var9 = 12;
                     var5 = var1[var9];
                     var1 = undefined;
                     var5 = var8.bind(var1)(var5);
@@ -276,7 +261,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var17 = _closure1_slot8;
                     var16 = _closure1_slot0;
                     var18 = _closure1_slot2;
-                    var12 = 14;
+                    var12 = 13;
                     var12 = var18[var12];
                     var12 = var16.bind(var1)(var12);
                     var16 = var12.RoleDot;
@@ -295,7 +280,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var17 = _closure1_slot8;
                     var16 = _closure1_slot0;
                     var18 = _closure1_slot2;
-                    var13 = 15;
+                    var13 = 14;
                     var13 = var18[var13];
                     var13 = var16.bind(var1)(var13);
                     var16 = var13.Text;
@@ -376,19 +361,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var8.bind(var4)(var1);
             var2 = var1.RedesignCompat;
             var1 = {};
-            var5 = 16;
+            var5 = 15;
             var5 = var14[var5];
             var5 = var8.bind(var4)(var5);
             var6 = var5.ActionSheet;
             var5 = {};
             var7 = true;
             var5['scrollable'] = var7;
-            var7 = 17;
+            var7 = 16;
             var7 = var14[var7];
             var7 = var8.bind(var4)(var7);
             var15 = var7.BottomSheetTitleHeader;
             var7 = {};
-            var16 = 18;
+            var16 = 17;
             var17 = var14[var16];
             var17 = var8.bind(var4)(var17);
             var18 = var17.intl;
@@ -401,7 +386,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['title'] = var16;
             var7 = var3.bind(var4)(var15, var7);
             var5['header'] = var7;
-            var7 = 19;
+            var7 = 18;
             var7 = var14[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.BottomSheetFlatList;
@@ -418,10 +403,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = new Array(2);
             var9[0] = var10;
             var10 = undefined;
-            if(!var12) { _fun0001_ip = 589; continue _fun0001 }
- 583:
+            if(!var12) { _fun0001_ip = 541; continue _fun0001 }
+ 535:
             var10 = var11.listViewRedesign;
- 589:
+ 541:
             var9[1] = var10;
             var7['contentContainerStyle'] = var9;
             var9 = 10;

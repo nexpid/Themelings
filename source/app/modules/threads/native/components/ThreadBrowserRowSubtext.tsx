@@ -138,41 +138,41 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = _closure1_slot17;
                 var3 = {};
                 var1 = _closure2_slot2;
-                var7 = null;
-                var2 = var7 != var1;
+                var6 = null;
+                var7 = var6 != var1;
                 var1 = '';
-                if(!var2) { _fun0002_ip = 37; continue _fun0002 }
+                if(!var7) { _fun0002_ip = 37; continue _fun0002 }
  33:
                 var1 = _closure2_slot2;
  37:
                 var3['nickname'] = var1;
-                var9 = _closure2_slot1;
-                var2 = undefined;
-                var8 = 'username';
-                var1 = undefined;
-                if(!(var8 === var9)) { _fun0002_ip = 62; continue _fun0002 }
- 58:
+                var8 = _closure2_slot1;
+                var7 = 'username';
+                var1 = null;
+                if(!(var7 === var8)) { _fun0002_ip = 60; continue _fun0002 }
+ 56:
                 var1 = _closure2_slot3;
- 62:
+ 60:
                 var3['usernameColor'] = var1;
                 var1 = _closure2_slot3;
                 var3['roleColor'] = var1;
-                var8 = _closure2_slot6;
-                var1 = undefined;
-                if(!var8) { _fun0002_ip = 89; continue _fun0002 }
- 85:
+                var7 = _closure2_slot6;
+                var1 = null;
+                if(!var7) { _fun0002_ip = 87; continue _fun0002 }
+ 83:
                 var1 = _closure2_slot4;
- 89:
+ 87:
                 var3['roleColors'] = var1;
-                var8 = _closure2_slot1;
+                var7 = _closure2_slot1;
                 var1 = 'dot';
-                var1 = var1 === var8;
-                if(!var1) { _fun0002_ip = 117; continue _fun0002 }
- 109:
-                var6 = _closure2_slot3;
-                var1 = var7 != var6;
- 117:
+                var1 = var1 === var7;
+                if(!var1) { _fun0002_ip = 115; continue _fun0002 }
+ 107:
+                var2 = _closure2_slot3;
+                var1 = var6 != var2;
+ 115:
                 var3['shouldShowRoleDot'] = var1;
+                var2 = undefined;
                 var1 = arg2;
                 var1 = var5.bind(var2)(var4, var3, var1);
                 return var1;
@@ -592,18 +592,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var1.colorString;
  212:
             var13 = var2 != var11;
-            var3 = undefined;
+            var3 = null;
             if(!var13) { _fun0006_ip = 224; continue _fun0006 }
  221:
             var3 = var11;
  224:
             _closure2_slot4 = var3;
-            var11 = var2 == var1;
-            var3 = undefined;
-            if(var11) { _fun0006_ip = 243; continue _fun0006 }
+            var3 = var2 == var1;
+            var11 = undefined;
+            if(var3) { _fun0006_ip = 243; continue _fun0006 }
  237:
-            var3 = var1.colorStrings;
+            var11 = var1.colorStrings;
  243:
+            var13 = var2 != var11;
+            var3 = null;
+            if(!var13) { _fun0006_ip = 255; continue _fun0006 }
+ 252:
+            var3 = var11;
+ 255:
             _closure2_slot5 = var3;
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -613,10 +619,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var9.guild_id;
             var13 = var2 == var7;
             var2 = undefined;
-            if(var13) { _fun0006_ip = 286; continue _fun0006 }
- 281:
+            if(var13) { _fun0006_ip = 298; continue _fun0006 }
+ 293:
             var2 = var7.id;
- 286:
+ 298:
             var2 = var11.bind(var4)(var3, var2);
             _closure2_slot6 = var2;
             var3 = _closure1_slot3;
@@ -731,7 +737,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3['nickname'] = var1;
                     var9 = _closure2_slot3;
                     var8 = 'username';
-                    var1 = undefined;
+                    var1 = null;
                     if(!(var8 === var9)) { _fun0008_ip = 119; continue _fun0008 }
  115:
                     var1 = _closure2_slot4;
@@ -740,7 +746,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = _closure2_slot4;
                     var3['roleColor'] = var1;
                     var8 = _closure2_slot6;
-                    var1 = undefined;
+                    var1 = null;
                     if(!var8) { _fun0008_ip = 146; continue _fun0008 }
  142:
                     var1 = _closure2_slot5;

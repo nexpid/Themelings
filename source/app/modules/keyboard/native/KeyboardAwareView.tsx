@@ -58,7 +58,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var _closure1_slot8 = var1;
-    var1 = function KeyboardAwareViewInner(arg1) {
+    var1 = global;
+    var9 = var1.Object;
+    var7 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var7 = var6[var4];
+    var4 = native4;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var9 = var4.View;
+    var _closure1_slot4 = var9;
+    var4 = var4.StyleSheet;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot7 = var4;
+    var4 = var7.memo;
+    var2 = function KeyboardAwareView(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var1 = arg1;
@@ -83,29 +118,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
-            var11 = _closure1_slot3;
-            var10 = var11.useRef;
-            var8 = _closure1_slot8;
-            var8 = var8.bind(var4)(var7);
-            var8 = var10.bind(var11)(var8);
-            _closure2_slot3 = var8;
-            var11 = _closure1_slot3;
-            var10 = var11.useState;
-            var8 = var8.current;
-            var11 = var10.bind(var11)(var8);
-            var10 = _closure1_slot2;
-            var8 = 2;
-            var11 = var10.bind(var4)(var11, var8);
-            var8 = 0;
-            var10 = var11[var8];
+            var8 = _closure1_slot3;
+            var11 = var8.useRef;
+            var10 = _closure1_slot8;
+            var10 = var10.bind(var4)(var7);
+            var10 = var11.bind(var8)(var10);
+            _closure2_slot3 = var10;
+            var11 = var8.useState;
+            var10 = var10.current;
+            var12 = var11.bind(var8)(var10);
+            var11 = _closure1_slot2;
+            var10 = 2;
+            var12 = var11.bind(var4)(var12, var10);
+            var10 = 0;
+            var10 = var12[var10];
             _closure2_slot4 = var10;
-            var8 = 1;
-            var8 = var11[var8];
-            _closure2_slot5 = var8;
-            var12 = _closure1_slot3;
-            var11 = var12.useEffect;
-            var8 = new Array(1);
-            var8[0] = var7;
+            var11 = 1;
+            var11 = var12[var11];
+            _closure2_slot5 = var11;
+            var12 = var8.useEffect;
+            var11 = new Array(1);
+            var11[0] = var7;
             var7 = function() {
                 var3 = _closure1_slot6;
                 var2 = undefined;
@@ -131,14 +164,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var3.bind(var2)(var1);
                 return var1;
             };
-            var7 = var11.bind(var12)(var7, var8);
-            var11 = _closure1_slot3;
-            var8 = var11.useRef;
+            var7 = var12.bind(var8)(var7, var11);
+            var11 = var8.useRef;
             var7 = false;
-            var7 = var8.bind(var11)(var7);
+            var7 = var11.bind(var8)(var7);
             _closure2_slot6 = var7;
-            var11 = _closure1_slot3;
-            var8 = var11.useEffect;
+            var11 = var8.useEffect;
             var7 = new Array(2);
             var7[0] = var3;
             var7[1] = var10;
@@ -182,8 +213,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var3 = var8.bind(var11)(var3, var7);
-            var8 = _closure1_slot3;
+            var3 = var11.bind(var8)(var3, var7);
             var7 = var8.useMemo;
             var3 = new Array(2);
             var3[0] = var10;
@@ -243,92 +273,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
-    var1 = global;
-    var9 = var1.Object;
-    var7 = var9.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var9)(var3, var1, var4);
-    var1 = 0;
-    var4 = var6[var1];
-    var1 = undefined;
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot2 = var4;
-    var4 = 1;
-    var7 = var6[var4];
-    var4 = native4;
-    var7 = var4.bind(var1)(var7);
-    var _closure1_slot3 = var7;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var9 = var4.View;
-    var _closure1_slot4 = var9;
-    var4 = var4.StyleSheet;
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot7 = var4;
-    var4 = var7.memo;
-    var2 = function KeyboardAwareView(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
-            var4 = arg1;
-            var1 = var4.disabled;
-            var5 = undefined;
-            if(!(var1 === var5)) { _fun0006_ip = 47; continue _fun0006 }
- 14:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 11;
-            var2 = var6[var2];
-            var3 = var3.bind(var5)(var2);
-            var2 = var3.isLegacyAndroidKeyboard;
-            var1 = var2.bind(var3)();
- 47:
-            var2 = null;
-            var3 = Object.create(var2);
-            var2 = 0;
-            var3['disabled'] = var2;
-            var10 = {};
-            var9 = var4;
-            var8 = var3;
-            var6 = copyDataProperties(var10, var9, var8);
-            var4 = _closure1_slot7;
-            if(var1) { _fun0006_ip = 104; continue _fun0006 }
- 80:
-            var3 = _closure1_slot9;
-            var1 = {};
-            var10 = var1;
-            var9 = var6;
-            var7 = copyDataProperties(var10, var9);
-            var1 = var4.bind(var5)(var3, var1);
-            _fun0006_ip = 145; continue _fun0006;
- 104:
-            var3 = _closure1_slot4;
-            var2 = {};
-            var7 = var6.children;
-            var2['children'] = var7;
-            var7 = var6.pointerEvents;
-            var2['pointerEvents'] = var7;
-            var6 = var6.style;
-            var2['style'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
- 145:
-            return var1;
-        }
-    };
     var2 = var4.bind(var7)(var2);
-    var4 = 12;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -478,7 +478,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var9 = 15;
                         var9 = var13[var9];
                         var9 = var10.bind(var5)(var9);
-                        var9 = var9.CircleWarningIcon;
+                        var9 = var9.CircleErrorIcon;
                         var3['IconComponent'] = var9;
                         var9 = 16;
                         var11 = var13[var9];

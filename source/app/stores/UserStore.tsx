@@ -1240,16 +1240,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot39 = var1;
     var1 = function handleLoadSearchResults(arg1) {
         var1 = arg1;
-        var3 = var1.messages;
+        var3 = var1.data;
         var2 = var3.forEach;
         var1 = function(arg1) {
-            var3 = _closure1_slot37;
-            var2 = {};
             var1 = arg1;
-            var2['messages'] = var1;
+            var3 = var1.messages;
+            var2 = var3.forEach;
+            var1 = function(arg1) {
+                var3 = arg1;
+                var2 = var3.forEach;
+                var1 = function(arg1) {
+                    var4 = _closure1_slot28;
+                    var1 = undefined;
+                    var3 = arg1;
+                    var2 = true;
+                    var2 = var4.bind(var1)(var3, var2);
+                    return var1;
+                };
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
             var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var1 = false;
             return var1;
         };
         var1 = var2.bind(var3)(var1);
@@ -2734,8 +2747,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = _closure1_slot50;
                 var1['PRESENCE_UPDATES'] = var7;
                 var7 = _closure1_slot40;
-                var1['SEARCH_FINISH'] = var7;
-                var1['MOD_VIEW_SEARCH_FINISH'] = var7;
+                var1['SEARCH_MESSAGES_SUCCESS'] = var7;
+                var1['MOD_VIEW_SEARCH_MESSAGES_SUCCESS'] = var7;
                 var7 = _closure1_slot37;
                 var1['LOAD_MESSAGES_SUCCESS'] = var7;
                 var1['LOAD_MESSAGES_AROUND_SUCCESS'] = var7;
@@ -3127,7 +3140,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var1.username;
                     if(var2 !== var11) { _fun0066_ip = 23; continue _fun0066 }
  79:
-                    var2 = var1.isPomelo;
+                    var2 = var1.hasUniqueUsername;
                     var2 = var2.bind(var1)();
                     if(!var2) { _fun0066_ip = 23; continue _fun0066 }
  92:

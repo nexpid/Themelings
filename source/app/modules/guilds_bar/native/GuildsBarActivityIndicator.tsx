@@ -11,12 +11,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
-            var4 = var2.audio;
-            var1 = var2.video;
-            var6 = var2.screenshare;
+            var1 = var2.audio;
+            var6 = var2.video;
+            var7 = var2.screenshare;
             var8 = var2.liveStage;
             var9 = var2.activeEvent;
-            var7 = var2.activity;
+            var4 = var2.activity;
             var10 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 6;
@@ -37,96 +37,96 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  114:
             if(var8) { _fun0001_ip = 421; continue _fun0001 }
  120:
-            if(var7) { _fun0001_ip = 311; continue _fun0001 }
+            if(var7) { _fun0001_ip = 364; continue _fun0001 }
  126:
-            if(var6) { _fun0001_ip = 254; continue _fun0001 }
+            if(var6) { _fun0001_ip = 307; continue _fun0001 }
  132:
-            if(var1) { _fun0001_ip = 197; continue _fun0001 }
+            if(var1) { _fun0001_ip = 250; continue _fun0001 }
  135:
             var1 = null;
-            if(!var4) { _fun0001_ip = 195; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 248; continue _fun0001 }
  140:
             var4 = {};
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var6 = 19;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var6 = var6.VoiceNormalIcon;
-            var4['icon'] = var6;
-            var7 = _closure1_slot1;
-            var6 = 20;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var4['source'] = var6;
-            var1 = var4;
- 195:
-            _fun0001_ip = 252; continue _fun0001;
- 197:
-            var4 = {};
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            if(var2) { _fun0001_ip = 200; continue _fun0001 }
+ 153:
+            var2 = 19;
+            var2 = var8[var2];
+            var2 = var7.bind(var5)(var2);
+            var2 = var2.ActivitiesIcon;
+            var4['icon'] = var2;
+            var6 = _closure1_slot1;
+            var2 = 20;
+            var2 = var8[var2];
+            var2 = var6.bind(var5)(var2);
+            var4['source'] = var2;
+            var2 = var4;
+            _fun0001_ip = 245; continue _fun0001;
+ 200:
             var6 = 17;
             var6 = var8[var6];
             var6 = var7.bind(var5)(var6);
-            var6 = var6.VideoIcon;
+            var6 = var6.GameControllerIcon;
             var4['icon'] = var6;
             var7 = _closure1_slot1;
             var6 = 18;
             var6 = var8[var6];
             var6 = var7.bind(var5)(var6);
             var4['source'] = var6;
-            var1 = var4;
- 252:
-            _fun0001_ip = 309; continue _fun0001;
- 254:
-            var4 = {};
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var6 = 15;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var6 = var6.ScreenIcon;
-            var4['icon'] = var6;
-            var7 = _closure1_slot1;
-            var6 = 16;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var4['source'] = var6;
-            var1 = var4;
- 309:
-            _fun0001_ip = 419; continue _fun0001;
- 311:
-            var4 = {};
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            if(var2) { _fun0001_ip = 371; continue _fun0001 }
- 324:
-            var2 = 13;
-            var2 = var8[var2];
-            var2 = var7.bind(var5)(var2);
-            var2 = var2.ActivitiesIcon;
-            var4['icon'] = var2;
+            var2 = var4;
+ 245:
+            var1 = var2;
+ 248:
+            _fun0001_ip = 305; continue _fun0001;
+ 250:
+            var2 = {};
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 15;
+            var4 = var7[var4];
+            var4 = var6.bind(var5)(var4);
+            var4 = var4.VoiceNormalIcon;
+            var2['icon'] = var4;
             var6 = _closure1_slot1;
-            var2 = 14;
-            var2 = var8[var2];
-            var2 = var6.bind(var5)(var2);
-            var4['source'] = var2;
-            var2 = var4;
-            _fun0001_ip = 416; continue _fun0001;
- 371:
-            var6 = 11;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var6 = var6.GameControllerIcon;
-            var4['icon'] = var6;
-            var7 = _closure1_slot1;
-            var6 = 12;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var4['source'] = var6;
-            var2 = var4;
- 416:
+            var4 = 16;
+            var4 = var7[var4];
+            var4 = var6.bind(var5)(var4);
+            var2['source'] = var4;
+            var1 = var2;
+ 305:
+            _fun0001_ip = 362; continue _fun0001;
+ 307:
+            var2 = {};
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 13;
+            var4 = var7[var4];
+            var4 = var6.bind(var5)(var4);
+            var4 = var4.VideoIcon;
+            var2['icon'] = var4;
+            var6 = _closure1_slot1;
+            var4 = 14;
+            var4 = var7[var4];
+            var4 = var6.bind(var5)(var4);
+            var2['source'] = var4;
+            var1 = var2;
+ 362:
+            _fun0001_ip = 419; continue _fun0001;
+ 364:
+            var2 = {};
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 11;
+            var4 = var7[var4];
+            var4 = var6.bind(var5)(var4);
+            var4 = var4.ScreenIcon;
+            var2['icon'] = var4;
+            var6 = _closure1_slot1;
+            var4 = 12;
+            var4 = var7[var4];
+            var4 = var6.bind(var5)(var4);
+            var2['source'] = var4;
             var1 = var2;
  419:
             _fun0001_ip = 476; continue _fun0001;

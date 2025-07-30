@@ -1514,9 +1514,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = _closure1_slot6;
             var3 = undefined;
             var2 = arg1;
-            var3 = var4.bind(var3)(var2);
-            var2 = var3.values;
-            var4 = var2.bind(var3)();
+            var5 = var4.bind(var3)(var2);
+            var2 = global;
+            var4 = var2.Array;
+            var3 = var4.from;
+            var2 = var5.values;
+            var2 = var2.bind(var5)();
+            var4 = var3.bind(var4)(var2);
             var3 = var4.filter;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -1539,18 +1543,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1.content;
                 return var1;
             };
-            var2 = var2.bind(var3)(var1);
-            var1 = var2.toArray;
-            var3 = var1.bind(var2)();
+            var3 = var2.bind(var3)(var1);
             var2 = var3.join;
             var1 = '\n';
             var2 = var2.bind(var3)(var1);
             var3 = '';
             var1 = null;
-            if(!(var3 !== var2)) { _fun0012_ip = 95; continue _fun0012 }
- 92:
+            if(!(var3 !== var2)) { _fun0012_ip = 103; continue _fun0012 }
+ 100:
             var1 = var2;
- 95:
+ 103:
             return var1;
         }
     };

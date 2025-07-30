@@ -557,7 +557,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5['autoInitializeNativeSdk'] = var9;
                     var9 = _closure1_slot14;
                     var5['beforeSend'] = var9;
-                    var9 = '4409';
+                    var9 = '4419';
                     var5['dist'] = var9;
                     var5['dsn'] = var6;
                     var5['environment'] = var3;
@@ -567,7 +567,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5['sampleRate'] = var3;
                     var3 = _closure1_slot10;
                     var5['ignoreErrors'] = var3;
-                    var3 = 'discord_android@292.0.0-2+292200';
+                    var3 = 'discord_android@292.2.0-2+292202';
                     var5['release'] = var3;
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot3;

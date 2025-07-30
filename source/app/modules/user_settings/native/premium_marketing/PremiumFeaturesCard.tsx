@@ -55,10 +55,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot9 = var10;
     var10 = var11.PremiumTypes;
     var _closure1_slot10 = var10;
-    var12 = var11.SubscriptionIntervalTypes;
+    var12 = var11.PremiumTypeToActivePremiumSubscriptionSKU;
     var _closure1_slot11 = var12;
+    var12 = var11.SubscriptionIntervalTypes;
+    var _closure1_slot12 = var12;
     var11 = var11.SubscriptionPlanInfo;
-    var _closure1_slot12 = var11;
+    var _closure1_slot13 = var11;
     var18 = 8;
     var11 = var6[var18];
     var11 = var5.bind(var1)(var11);
@@ -67,9 +69,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = var6[var11];
     var11 = var5.bind(var1)(var11);
     var12 = var11.jsx;
-    var _closure1_slot13 = var12;
+    var _closure1_slot14 = var12;
     var11 = var11.jsxs;
-    var _closure1_slot14 = var11;
+    var _closure1_slot15 = var11;
     var11 = var4.Set;
     var12 = var10.TIER_0;
     var4 = new Array(2);
@@ -82,7 +84,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var25 = var4;
     var4 = new var26[var11](var25, var24);
     var4 = var4 instanceof Object ? var4 : var10;
-    var _closure1_slot15 = var4;
+    var _closure1_slot16 = var4;
     var4 = 10;
     var4 = var6[var4];
     var11 = var5.bind(var1)(var4);
@@ -227,7 +229,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var13 = copyDataProperties(var25, var24);
     var4['trialSubText'] = var12;
     var4 = var10.bind(var11)(var4);
-    var _closure1_slot16 = var4;
+    var _closure1_slot17 = var4;
     var4 = {};
     var9 = var9.USER_SETTINGS;
     var4['page'] = var9;
@@ -235,14 +237,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['section'] = var8;
     var7 = var7.BUY;
     var4['objectType'] = var7;
-    var _closure1_slot17 = var4;
+    var _closure1_slot18 = var4;
     var4 = function PriceText(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
             var1 = var1.premiumItem;
             var _closure2_slot0 = var1;
-            var3 = _closure1_slot16;
+            var3 = _closure1_slot17;
             var4 = undefined;
             var10 = var3.bind(var4)();
             var7 = _closure1_slot0;
@@ -270,14 +272,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.getIntervalStringAsNoun;
             var1 = var1.interval;
             var11 = var2.bind(var3)(var1);
-            var3 = _closure1_slot14;
+            var3 = _closure1_slot15;
             var2 = _closure1_slot5;
             var1 = {};
             var8 = true;
             var1['accessible'] = var8;
             var8 = var10.priceContainer;
             var1['style'] = var8;
-            var8 = _closure1_slot13;
+            var8 = _closure1_slot14;
             var9 = 16;
             var5 = var5[var9];
             var7 = var7.bind(var4)(var5);
@@ -305,7 +307,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            var8 = _closure1_slot13;
+            var8 = _closure1_slot14;
             var7 = _closure1_slot1;
             var6 = _closure1_slot2;
             var6 = var6[var9];
@@ -330,7 +332,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot18 = var4;
+    var _closure1_slot19 = var4;
     var4 = 33;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -370,14 +372,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot5 = var4;
             var _closure2_slot6 = var4;
             var _closure2_slot7 = var4;
-            var1 = _closure1_slot16;
+            var _closure2_slot8 = var4;
+            var1 = _closure1_slot17;
             var12 = var1.bind(var4)();
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var7 = 17;
             var1 = var3[var7];
             var6 = var2.bind(var4)(var1);
-            var2 = _closure1_slot15;
+            var2 = _closure1_slot16;
             var1 = var2.has;
             var2 = var1.bind(var2)(var25);
             var1 = 'only Tier 0 and Tier 2 are supported';
@@ -392,10 +395,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var26 = null;
             var1 = var26 == var24;
             var3 = undefined;
-            if(var1) { _fun0002_ip = 207; continue _fun0002 }
- 201:
+            if(var1) { _fun0002_ip = 211; continue _fun0002 }
+ 205:
             var3 = var24.trial_id;
- 207:
+ 211:
             var1 = _closure1_slot9;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -406,10 +409,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.bind(var6)();
             var6 = var26 == var24;
             var13 = undefined;
-            if(var6) { _fun0002_ip = 256; continue _fun0002 }
- 250:
+            if(var6) { _fun0002_ip = 260; continue _fun0002 }
+ 254:
             var13 = var24.subscription_trial;
- 256:
+ 260:
             var8 = _closure1_slot0;
             var6 = _closure1_slot2;
             var30 = 15;
@@ -419,21 +422,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = {};
             var17 = var26 == var13;
             var16 = undefined;
-            if(var17) { _fun0002_ip = 299; continue _fun0002 }
- 293:
+            if(var17) { _fun0002_ip = 303; continue _fun0002 }
+ 297:
             var16 = var13.interval;
- 299:
+ 303:
             var6['intervalType'] = var16;
             var17 = var26 == var13;
             var16 = undefined;
-            if(var17) { _fun0002_ip = 319; continue _fun0002 }
- 313:
+            if(var17) { _fun0002_ip = 323; continue _fun0002 }
+ 317:
             var16 = var13.interval_count;
- 319:
+ 323:
             var6['intervalCount'] = var16;
             var16 = var8.bind(var14)(var6);
-            if(!(var3 !== var1)) { _fun0002_ip = 405; continue _fun0002 }
- 333:
+            if(!(var3 !== var1)) { _fun0002_ip = 409; continue _fun0002 }
+ 337:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var30];
@@ -442,21 +445,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = {};
             var14 = var26 == var13;
             var8 = undefined;
-            if(var14) { _fun0002_ip = 373; continue _fun0002 }
- 367:
+            if(var14) { _fun0002_ip = 377; continue _fun0002 }
+ 371:
             var8 = var13.interval;
- 373:
+ 377:
             var1['intervalType'] = var8;
             var14 = var26 == var13;
             var8 = undefined;
-            if(var14) { _fun0002_ip = 393; continue _fun0002 }
- 387:
+            if(var14) { _fun0002_ip = 397; continue _fun0002 }
+ 391:
             var8 = var13.interval_count;
- 393:
+ 397:
             var1['intervalCount'] = var8;
             var22 = var3.bind(var6)(var1);
-            _fun0002_ip = 462; continue _fun0002;
- 405:
+            _fun0002_ip = 466; continue _fun0002;
+ 409:
             var8 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 20;
@@ -469,7 +472,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var1.t;
             var1 = var1.Gs9Aam;
             var22 = var3.bind(var6)(var1);
- 462:
+ 466:
             var6 = var25 === var2;
             var13 = _closure1_slot4;
             var8 = var13.useMemo;
@@ -541,6 +544,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var27 = var1[var17];
             var39 = 1;
             var1 = var1[var39];
+            var17 = _closure1_slot11;
+            var17 = var17[var25];
+            _closure2_slot6 = var17;
             var3 = var14[var3];
             var18 = var8.bind(var4)(var3);
             var17 = var18.useStateFromStores;
@@ -548,9 +554,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = new Array(1);
             var8[0] = var3;
             var3 = function() {
-                var2 = _closure1_slot6;
-                var1 = var2.isLoadedForPremiumSKUs;
-                var1 = var1.bind(var2)();
+                var3 = _closure1_slot6;
+                var2 = var3.isLoadedForSKUs;
+                var4 = _closure2_slot6;
+                var1 = new Array(1);
+                var1[0] = var4;
+                var1 = var2.bind(var3)(var1);
                 return var1;
             };
             var3 = var17.bind(var18)(var8, var3);
@@ -559,38 +568,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var13.bind(var4)(var8);
             var14 = var8.bind(var4)(var25, var9);
             var21 = var26 != var27;
-            if(!var21) { _fun0002_ip = 688; continue _fun0002 }
- 685:
+            if(!var21) { _fun0002_ip = 704; continue _fun0002 }
+ 701:
             var21 = var3;
- 688:
-            if(!var21) { _fun0002_ip = 694; continue _fun0002 }
- 691:
+ 704:
+            if(!var21) { _fun0002_ip = 710; continue _fun0002 }
+ 707:
             var21 = var1;
- 694:
+ 710:
             var1 = var26 != var27;
             var3 = null;
-            if(!var1) { _fun0002_ip = 729; continue _fun0002 }
- 703:
+            if(!var1) { _fun0002_ip = 745; continue _fun0002 }
+ 719:
             var1 = var27.planIdFromItems;
             var3 = null;
-            if(!(var4 !== var1)) { _fun0002_ip = 729; continue _fun0002 }
- 715:
-            var8 = _closure1_slot12;
+            if(!(var4 !== var1)) { _fun0002_ip = 745; continue _fun0002 }
+ 731:
+            var8 = _closure1_slot13;
             var1 = var27.planIdFromItems;
             var3 = var8[var1];
- 729:
+ 745:
             var8 = var26 == var3;
             var1 = undefined;
-            if(var8) { _fun0002_ip = 744; continue _fun0002 }
- 738:
+            if(var8) { _fun0002_ip = 760; continue _fun0002 }
+ 754:
             var1 = var3.interval;
- 744:
-            if(!(var26 == var1)) { _fun0002_ip = 758; continue _fun0002 }
- 748:
-            var3 = _closure1_slot11;
+ 760:
+            if(!(var26 == var1)) { _fun0002_ip = 774; continue _fun0002 }
+ 764:
+            var3 = _closure1_slot12;
             var1 = var3.MONTH;
- 758:
-            _closure2_slot6 = var1;
+ 774:
+            _closure2_slot7 = var1;
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
             var3 = 24;
@@ -624,14 +633,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  71:
                     if(!var1) { _fun0004_ip = 85; continue _fun0004 }
  74:
-                    var2 = _closure2_slot6;
+                    var2 = _closure2_slot7;
                     var1 = var3 === var2;
  85:
                     return var1;
                 }
             };
             var18 = var8.bind(var13)(var3);
-            _closure2_slot7 = var18;
+            _closure2_slot8 = var18;
             var3 = _closure1_slot1;
             var1 = var1[var7];
             var7 = var3.bind(var4)(var1);
@@ -640,14 +649,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var7.bind(var4)(var3, var1);
             var1 = _closure1_slot10;
             var1 = var1.TIER_0;
-            if(!(var2 !== var1)) { _fun0002_ip = 853; continue _fun0002 }
- 845:
+            if(!(var2 !== var1)) { _fun0002_ip = 869; continue _fun0002 }
+ 861:
             var28 = var12.freeTrialTier2Color;
-            _fun0002_ip = 859; continue _fun0002;
- 853:
+            _fun0002_ip = 875; continue _fun0002;
+ 869:
             var28 = var12.freeTrialTier0Color;
- 859:
-            var3 = _closure1_slot14;
+ 875:
+            var3 = _closure1_slot15;
             var17 = _closure1_slot1;
             var23 = _closure1_slot2;
             var1 = 25;
@@ -660,7 +669,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = {};
             var8 = var12.card;
             var5['style'] = var8;
-            var19 = _closure1_slot13;
+            var19 = _closure1_slot14;
             var8 = {};
             var13 = var12.logoContainer;
             var8['style'] = var13;
@@ -684,23 +693,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var19.bind(var4)(var17, var13);
             var8[1] = var13;
             var9 = !var9;
-            if(!var9) { _fun0002_ip = 1017; continue _fun0002 }
- 1014:
+            if(!var9) { _fun0002_ip = 1033; continue _fun0002 }
+ 1030:
             var9 = !var11;
- 1017:
-            if(!var9) { _fun0002_ip = 1041; continue _fun0002 }
- 1020:
-            var17 = _closure1_slot13;
-            var13 = _closure1_slot18;
+ 1033:
+            if(!var9) { _fun0002_ip = 1057; continue _fun0002 }
+ 1036:
+            var17 = _closure1_slot14;
+            var13 = _closure1_slot19;
             var11 = {};
             var11['premiumItem'] = var18;
             var9 = var17.bind(var4)(var13, var11);
- 1041:
+ 1057:
             var8[2] = var9;
             var9 = var6;
-            if(!var6) { _fun0002_ip = 1322; continue _fun0002 }
- 1054:
-            var17 = _closure1_slot13;
+            if(!var6) { _fun0002_ip = 1338; continue _fun0002 }
+ 1070:
+            var17 = _closure1_slot14;
             var13 = _closure1_slot5;
             var11 = {};
             var18 = var12.freeTrialContainer;
@@ -720,8 +729,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19['style'] = var28;
             var28 = var26 == var24;
             var24 = null;
-            if(var28) { _fun0002_ip = 1292; continue _fun0002 }
- 1139:
+            if(var28) { _fun0002_ip = 1308; continue _fun0002 }
+ 1155:
             var37 = global;
             var31 = var37.Number;
             var29 = var31.isNaN;
@@ -733,8 +742,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var31 = var34[var29];
             var31 = var33.bind(var4)(var31);
             var32 = var31.intl;
-            if(var28) { _fun0002_ip = 1257; continue _fun0002 }
- 1192:
+            if(var28) { _fun0002_ip = 1273; continue _fun0002 }
+ 1208:
             var35 = var32.formatToPlainString;
             var28 = var34[var29];
             var28 = var33.bind(var4)(var28);
@@ -747,26 +756,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var36 = var37.bind(var38)(var36, var39);
             var28['days'] = var36;
             var28 = var35.bind(var32)(var31, var28);
-            _fun0002_ip = 1289; continue _fun0002;
- 1257:
+            _fun0002_ip = 1305; continue _fun0002;
+ 1273:
             var31 = var32.string;
             var29 = var34[var29];
             var29 = var33.bind(var4)(var29);
             var29 = var29.t;
             var29 = var29.qVcfa2;
             var28 = var31.bind(var32)(var29);
- 1289:
+ 1305:
             var24 = var28;
- 1292:
+ 1308:
             var19['children'] = var24;
             var19 = var17.bind(var4)(var23, var19);
             var18['children'] = var19;
             var18 = var17.bind(var4)(var13, var18);
             var11['children'] = var18;
             var9 = var17.bind(var4)(var13, var11);
- 1322:
+ 1338:
             var8[3] = var9;
-            var13 = _closure1_slot13;
+            var13 = _closure1_slot14;
             var11 = _closure1_slot1;
             var17 = _closure1_slot2;
             var9 = 29;
@@ -784,13 +793,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9['rowStyle'] = var14;
             var9 = var13.bind(var4)(var11, var9);
             var8[4] = var9;
-            var13 = _closure1_slot14;
+            var13 = _closure1_slot15;
             var11 = _closure1_slot5;
             var9 = {};
             var17 = var6;
-            if(!var6) { _fun0002_ip = 1464; continue _fun0002 }
- 1426:
-            var19 = _closure1_slot13;
+            if(!var6) { _fun0002_ip = 1480; continue _fun0002 }
+ 1442:
+            var19 = _closure1_slot14;
             var18 = _closure1_slot0;
             var23 = _closure1_slot2;
             var14 = 30;
@@ -799,13 +808,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = var14.PremiumFeaturesCardButtonSparkles;
             var14 = {};
             var17 = var19.bind(var4)(var18, var14);
- 1464:
+ 1480:
             var14 = new Array(2);
             var14[0] = var17;
             var15 = !var15;
-            if(!var15) { _fun0002_ip = 1844; continue _fun0002 }
- 1481:
-            var19 = _closure1_slot13;
+            if(!var15) { _fun0002_ip = 1860; continue _fun0002 }
+ 1497:
+            var19 = _closure1_slot14;
             var18 = _closure1_slot1;
             var17 = _closure1_slot2;
             var24 = 31;
@@ -814,18 +823,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = {};
             var23 = var12.button;
             var17['style'] = var23;
-            if(var6) { _fun0002_ip = 1777; continue _fun0002 }
- 1523:
-            if(!var21) { _fun0002_ip = 1589; continue _fun0002 }
- 1526:
+            if(var6) { _fun0002_ip = 1793; continue _fun0002 }
+ 1539:
+            if(!var21) { _fun0002_ip = 1605; continue _fun0002 }
+ 1542:
             var28 = var26 == var27;
             var23 = false;
-            if(var28) { _fun0002_ip = 1583; continue _fun0002 }
- 1535:
+            if(var28) { _fun0002_ip = 1599; continue _fun0002 }
+ 1551:
             var29 = var27.planIdFromItems;
             var26 = var26 != var29;
-            if(!var26) { _fun0002_ip = 1580; continue _fun0002 }
- 1548:
+            if(!var26) { _fun0002_ip = 1596; continue _fun0002 }
+ 1564:
             var28 = _closure1_slot0;
             var27 = _closure1_slot2;
             var27 = var27[var30];
@@ -833,15 +842,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var27 = var28.getPremiumType;
             var27 = var27.bind(var28)(var29);
             var26 = var27 === var25;
- 1580:
+ 1596:
             var23 = var26;
- 1583:
-            if(var23) { _fun0002_ip = 1717; continue _fun0002 }
- 1589:
+ 1599:
+            if(var23) { _fun0002_ip = 1733; continue _fun0002 }
+ 1605:
             var23 = _closure1_slot10;
             var23 = var23.TIER_0;
-            if(!(var25 !== var23)) { _fun0002_ip = 1660; continue _fun0002 }
- 1603:
+            if(!(var25 !== var23)) { _fun0002_ip = 1676; continue _fun0002 }
+ 1619:
             var27 = _closure1_slot0;
             var28 = _closure1_slot2;
             var23 = 20;
@@ -854,8 +863,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23 = var23.t;
             var23 = var23.8x0jKS;
             var23 = var25.bind(var26)(var23);
-            _fun0002_ip = 1715; continue _fun0002;
- 1660:
+            _fun0002_ip = 1731; continue _fun0002;
+ 1676:
             var28 = _closure1_slot0;
             var29 = _closure1_slot2;
             var25 = 20;
@@ -868,9 +877,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var25 = var25.t;
             var25 = var25.cM8bb2;
             var23 = var26.bind(var27)(var25);
- 1715:
-            _fun0002_ip = 1774; continue _fun0002;
- 1717:
+ 1731:
+            _fun0002_ip = 1790; continue _fun0002;
+ 1733:
             var28 = _closure1_slot0;
             var29 = _closure1_slot2;
             var25 = 20;
@@ -883,9 +892,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var25 = var25.t;
             var25 = var25.j+wlh4;
             var23 = var26.bind(var27)(var25);
- 1774:
+ 1790:
             var22 = var23;
- 1777:
+ 1793:
             var17['text'] = var22;
             var23 = _closure1_slot1;
             var22 = _closure1_slot2;
@@ -905,11 +914,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
                 var1 = {};
-                var4 = _closure1_slot17;
+                var4 = _closure1_slot18;
                 var1['analyticsLocation'] = var4;
                 var5 = _closure2_slot5;
                 var1['analyticsLocations'] = var5;
-                var5 = _closure2_slot7;
+                var5 = _closure2_slot8;
                 var5 = var5.premiumTier;
                 var1['premiumType'] = var5;
                 var5 = _closure2_slot1;
@@ -923,7 +932,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var17['onPress'] = var20;
             var15 = var19.bind(var4)(var18, var17);
- 1844:
+ 1860:
             var14[1] = var15;
             var9['children'] = var14;
             var9 = var13.bind(var4)(var11, var9);
@@ -932,9 +941,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var3.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            if(!var6) { _fun0002_ip = 2034; continue _fun0002 }
- 1886:
-            var9 = _closure1_slot13;
+            if(!var6) { _fun0002_ip = 2050; continue _fun0002 }
+ 1902:
+            var9 = _closure1_slot14;
             var8 = _closure1_slot5;
             var7 = {};
             var11 = true;
@@ -968,7 +977,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var9.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 2034:
+ 2050:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

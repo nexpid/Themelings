@@ -190,7 +190,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var4.Uv4OPT;
             var12 = var20.bind(var21)(var4);
  416:
-            var4 = var16.isPomelo;
+            var4 = var16.hasUniqueUsername;
             var4 = var4.bind(var16)();
             if(var4) { _fun0001_ip = 524; continue _fun0001 }
  429:

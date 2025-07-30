@@ -59,7 +59,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['type'] = var4;
             var4 = arg1;
             var4 = var4.body;
-            var1['apps'] = var4;
+            var1['tokens'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
@@ -75,7 +75,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = 'USER_AUTHORIZED_APPS_UPDATE';
             var1['type'] = var4;
             var4 = new Array(0);
-            var1['apps'] = var4;
+            var1['tokens'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
         };

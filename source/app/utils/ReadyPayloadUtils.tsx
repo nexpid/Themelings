@@ -1318,7 +1318,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = var20.bind(var21)(var5);
             var22['properties'] = var20;
             var25 = _closure1_slot7;
-            var21 = var25.getRoles;
+            var21 = var25.getRolesSnapshot;
             var20 = var5.id;
             var20 = var21.bind(var25)(var20);
             var22['roles'] = var20;
@@ -1516,7 +1516,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var9.bind(var10)(var8);
             var6['properties'] = var9;
             var11 = _closure1_slot7;
-            var10 = var11.getRoles;
+            var10 = var11.getRolesSnapshot;
             var9 = var8.id;
             var9 = var10.bind(var11)(var9);
             var6['roles'] = var9;

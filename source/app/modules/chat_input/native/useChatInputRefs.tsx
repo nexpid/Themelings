@@ -57,7 +57,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var5.bind(var1)(var4);
     var4 = var4.COMMAND_SENTINEL;
     var _closure1_slot11 = var4;
-    var4 = 33;
+    var4 = 32;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1234,7 +1234,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var5.bind(var1)(var4);
                     var4 = var7.setKeyboardType;
                     var4 = var4.bind(var7)(var8);
-                    var2 = function closeSystemKeyboard() {
+                    var4 = function closeSystemKeyboard() {
                         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
                             var1 = _closure2_slot15;
@@ -1293,33 +1293,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var1;
                         }
                     };
-                    var4 = 20;
-                    var4 = var6[var4];
-                    var5 = var5.bind(var1)(var4);
-                    var4 = var5.isAndroid;
-                    var4 = var4.bind(var5)();
-                    if(!var4) { _fun0016_ip = 142; continue _fun0016 }
+                    var3 = 20;
+                    var3 = var6[var3];
+                    var5 = var5.bind(var1)(var3);
+                    var3 = var5.isAndroid;
+                    var3 = var3.bind(var5)();
+                    if(var3) { _fun0016_ip = 82; continue _fun0016 }
  76:
-                    var5 = _closure1_slot0;
-                    var6 = _closure1_slot2;
-                    var4 = 31;
-                    var4 = var6[var4];
-                    var5 = var5.bind(var1)(var4);
-                    var4 = var5.isLegacyAndroidKeyboard;
-                    var4 = var4.bind(var5)();
-                    if(var4) { _fun0016_ip = 142; continue _fun0016 }
- 109:
-                    var4 = _closure1_slot0;
+                    var3 = var4.bind(var1)();
+                    _fun0016_ip = 113; continue _fun0016;
+ 82:
+                    var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 32;
-                    var3 = var5[var3];
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.runAfterInteractions;
-                    var3 = var3.bind(var4)(var2);
-                    _fun0016_ip = 146; continue _fun0016;
- 142:
-                    var2 = var2.bind(var1)();
- 146:
+                    var2 = 31;
+                    var2 = var5[var2];
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.runAfterInteractions;
+                    var2 = var2.bind(var3)(var4);
+ 113:
                     return var1;
                 }
             };

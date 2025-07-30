@@ -111,7 +111,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var6 = 'version';
     var6 = var9.bind(var1)(var6);
     var _closure1_slot14 = var6;
-    var6 = 12;
+    var6 = 13;
     var6 = var8[var6];
     var6 = var7.bind(var1)(var6);
     var6 = var6.Store;
@@ -121,34 +121,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                 var9 = arg1;
                 var14 = arguments[1];
-                var7 = this;
+                var6 = this;
                 var _closure3_slot0 = var9;
-                var6 = undefined;
-                if(!(var14 === var6)) { _fun0002_ip = 25; continue _fun0002 }
+                var8 = undefined;
+                if(!(var14 === var8)) { _fun0002_ip = 25; continue _fun0002 }
  21:
                 var14 = 'typescript';
  25:
-                var _closure3_slot1 = var6;
-                var _closure3_slot2 = var6;
-                var _closure3_slot3 = var6;
-                var _closure3_slot4 = var6;
-                var _closure3_slot5 = var6;
-                var5 = _closure1_slot3;
+                var _closure3_slot1 = var8;
+                var _closure3_slot2 = var8;
+                var _closure3_slot3 = var8;
+                var _closure3_slot4 = var8;
+                var _closure3_slot5 = var8;
+                var4 = _closure1_slot3;
                 var1 = _closure2_slot0;
-                var1 = var5.bind(var6)(var7, var1);
-                var5 = 'typescript';
-                var1 = var5 === var14;
+                var1 = var4.bind(var8)(var6, var1);
+                var4 = 'typescript';
+                var1 = var4 === var14;
                 if(var1) { _fun0002_ip = 106; continue _fun0002 }
  76:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot2;
-                var8 = 8;
-                var8 = var11[var8];
-                var10 = var10.bind(var6)(var8);
-                var8 = var10.hasKvDatabaseAPI;
-                var1 = var8.bind(var10)();
+                var7 = 8;
+                var7 = var11[var7];
+                var10 = var10.bind(var8)(var7);
+                var7 = var10.hasKvDatabaseAPI;
+                var1 = var7.bind(var10)();
  106:
-                var8 = var14;
+                var7 = var14;
                 if(var1) { _fun0002_ip = 160; continue _fun0002 }
  112:
                 var11 = _closure1_slot10;
@@ -160,14 +160,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = ', but libdiscore is not available. Falling back to typescript mode.';
                 var1 = var13.bind(var12)(var14, var1);
                 var1 = var10.bind(var11)(var1);
-                var8 = var5;
+                var7 = var4;
  160:
                 var1 = {};
                 _closure3_slot2 = var1;
-                if(!(var5 !== var8)) { _fun0002_ip = 180; continue _fun0002 }
+                if(!(var4 !== var7)) { _fun0002_ip = 180; continue _fun0002 }
  170:
                 var10 = 'typescript-libdiscore-dual-read';
-                if(!(var10 === var8)) { _fun0002_ip = 268; continue _fun0002 }
+                if(!(var10 === var7)) { _fun0002_ip = 268; continue _fun0002 }
  180:
                 var10 = false;
                 _closure3_slot3 = var10;
@@ -336,84 +336,81 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  255:
                     var15 = var9;
                     _closure3_slot5 = var15;
-                    var15 = var14.bind(var6)();
+                    var15 = var14.bind(var8)();
                     _fun0002_ip = 246; continue _fun0002;
                 }
  268:
-                var4 = _closure2_slot0;
+                var5 = _closure2_slot0;
                 var10 = _closure1_slot1;
                 var11 = _closure1_slot2;
                 var9 = 9;
                 var9 = var11[var9];
-                var9 = var10.bind(var6)(var9);
+                var9 = var10.bind(var8)(var9);
                 var13 = new Array(2);
                 var13[0] = var9;
                 var13[1] = var1;
                 var1 = _closure1_slot7;
-                var12 = var1.bind(var6)(var4);
-                var4 = _closure1_slot6;
+                var12 = var1.bind(var8)(var5);
+                var5 = _closure1_slot6;
                 var1 = _closure1_slot15;
-                var1 = var1.bind(var6)();
+                var1 = var1.bind(var8)();
                 if(var1) { _fun0002_ip = 341; continue _fun0002 }
  328:
                 var1 = var12.apply;
-                var1 = var1.bind(var12)(var7, var13);
+                var1 = var1.bind(var12)(var6, var13);
                 _fun0002_ip = 375; continue _fun0002;
  341:
                 var9 = global;
                 var11 = var9.Reflect;
                 var10 = var11.construct;
                 var9 = _closure1_slot7;
-                var9 = var9.bind(var6)(var7);
+                var9 = var9.bind(var8)(var6);
                 var9 = var9.constructor;
                 var1 = var10.bind(var11)(var12, var13, var9);
  375:
-                var1 = var4.bind(var6)(var7, var1);
+                var1 = var5.bind(var8)(var6, var1);
                 _closure3_slot1 = var1;
-                var1['mode'] = var8;
-                var4 = null;
-                var1['shadowState'] = var4;
-                var4 = {};
-                var1['root'] = var4;
-                var4 = {};
+                var1['mode'] = var7;
+                var5 = null;
+                var1['shadowState'] = var5;
+                var5 = {};
+                var1['root'] = var5;
+                var5 = {};
                 var6 = 0;
-                var4['length'] = var6;
-                var7 = {};
-                var4['memoized'] = var7;
-                var1['derived'] = var4;
+                var5['length'] = var6;
+                var9 = {};
+                var5['memoized'] = var9;
+                var1['derived'] = var5;
                 var1['nextVersion'] = var6;
                 var10 = _closure1_slot10;
                 var9 = var10.info;
-                var4 = var1.getName;
-                var14 = var4.bind(var1)();
+                var5 = var1.getName;
+                var14 = var5.bind(var1)();
                 var13 = var1.mode;
-                var4 = global;
-                var7 = var4.HermesInternal;
-                var12 = var7.concat;
+                var5 = global;
+                var5 = var5.HermesInternal;
+                var12 = var5.concat;
                 var11 = '';
-                var7 = ' initialized in mode: ';
-                var7 = var12.bind(var11)(var14, var7, var13);
-                var7 = var9.bind(var10)(var7);
-                var7 = 'typescript-libdiscore-dual-read';
-                if(!(var7 !== var8)) { _fun0002_ip = 619; continue _fun0002 }
+                var5 = ' initialized in mode: ';
+                var5 = var12.bind(var11)(var14, var5, var13);
+                var5 = var9.bind(var10)(var5);
+                var5 = 'typescript-libdiscore-dual-read';
+                if(!(var5 !== var7)) { _fun0002_ip = 605; continue _fun0002 }
  504:
-                var7 = 'libdiscore';
-                if(!(var7 !== var8)) { _fun0002_ip = 591; continue _fun0002 }
+                var5 = 'libdiscore';
+                if(!(var5 !== var7)) { _fun0002_ip = 577; continue _fun0002 }
  514:
-                if(!(var5 !== var8)) { _fun0002_ip = 568; continue _fun0002 }
+                if(!(var4 !== var7)) { _fun0002_ip = 554; continue _fun0002 }
  518:
-                var7 = var4.Error;
-                var4 = var4.HermesInternal;
-                var5 = var4.concat;
-                var4 = 'Unknown KvStore mode: ';
-                var18 = var5.bind(var4)(var8);
-                var5 = var7.prototype;
-                var5 = Object.create(var5, {constructor: {value: var7}});
-                var19 = var5;
-                var4 = new var19[var7](var18, var17);
-                var4 = var4 instanceof Object ? var4 : var5;
-                throw var4;
- 568:
+                var5 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var4 = 12;
+                var4 = var9[var4];
+                var5 = var5.bind(var8)(var4);
+                var4 = var5.assertNever;
+                var4 = var4.bind(var5)(var7);
+                _fun0002_ip = 680; continue _fun0002;
+ 554:
                 var5 = _closure1_slot12;
                 var7 = _closure1_slot11;
                 var4 = function() {
@@ -429,8 +426,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var1[var7] = var4;
                 var1[var5] = var4;
-                _fun0002_ip = 694; continue _fun0002;
- 591:
+                _fun0002_ip = 680; continue _fun0002;
+ 577:
                 var5 = _closure1_slot12;
                 var4 = function(arg1) {
                     var2 = _closure3_slot1;
@@ -451,8 +448,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var1[var5] = var4;
-                _fun0002_ip = 694; continue _fun0002;
- 619:
+                _fun0002_ip = 680; continue _fun0002;
+ 605:
                 var4 = {};
                 var5 = {};
                 var4['root'] = var5;
@@ -542,7 +539,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var2 = var3.bind(var1)(var2);
- 694:
+ 680:
                 return var1;
             }
         };
@@ -674,7 +671,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2 = var2.bind(var1)(var6);
-    var6 = 13;
+    var6 = 14;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

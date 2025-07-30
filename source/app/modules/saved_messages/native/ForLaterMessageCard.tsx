@@ -34,7 +34,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = 10;
             var5 = var11[var5];
             var5 = var7.bind(var4)(var5);
-            var6 = var5.CircleWarningIcon;
+            var6 = var5.CircleErrorIcon;
             var5 = {};
             var14 = 'xs';
             var5['size'] = var14;

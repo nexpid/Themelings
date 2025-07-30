@@ -731,7 +731,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var3['setPendingAvatarDecoration'] = var4;
-    var4 = function setPendingNameplate(arg1) {
+    var4 = function setGlobalPendingNameplate(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 3;
@@ -747,7 +747,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['setPendingNameplate'] = var4;
+    var3['setGlobalPendingNameplate'] = var4;
     var4 = function setPendingProfileEffectId(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

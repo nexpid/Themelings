@@ -933,7 +933,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = 36;
                     var2 = var6[var2];
                     var4 = var4.bind(var3)(var2);
-                    var3 = var4.setNewPendingNameplate;
+                    var3 = var4.setGlobalPendingNameplate;
                     var6 = _closure2_slot0;
                     var2 = null;
                     var6 = var2 != var6;

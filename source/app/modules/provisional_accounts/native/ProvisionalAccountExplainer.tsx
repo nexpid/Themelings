@@ -174,7 +174,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var13 = 10;
         var13 = var10[var13];
         var13 = var7.bind(var4)(var13);
-        var14 = var13.CircleWarningIcon;
+        var14 = var13.CircleErrorIcon;
         var13 = {'size': 'xs', 'color': 'header-secondary'};
         var13 = var15.bind(var4)(var14, var13);
         var12[1] = var13;
@@ -232,7 +232,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 10;
         var7 = var9[var7];
         var7 = var6.bind(var4)(var7);
-        var10 = var7.CircleWarningIcon;
+        var10 = var7.CircleErrorIcon;
         var7 = {'size': 'xs', 'color': 'header-secondary'};
         var7 = var11.bind(var4)(var10, var7);
         var1['titleIcon'] = var7;

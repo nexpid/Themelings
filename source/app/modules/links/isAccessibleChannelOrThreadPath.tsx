@@ -34,7 +34,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var5.getGuild;
                     var9 = var4.bind(var5)(var6);
                     var5 = _closure1_slot7;
-                    var4 = var5.getRoles;
+                    var4 = var5.getUnsafeMutableRoles;
                     var5 = var4.bind(var5)(var6);
                     var4 = null;
                     if(!(var4 == var9)) { _fun0001_ip = 87; continue _fun0001 }

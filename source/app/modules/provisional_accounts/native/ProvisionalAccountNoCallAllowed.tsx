@@ -62,7 +62,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = 5;
         var5 = var13[var5];
         var5 = var12.bind(var4)(var5);
-        var6 = var5.CircleWarningIcon;
+        var6 = var5.CircleErrorIcon;
         var5 = {};
         var9 = 'lg';
         var5['size'] = var9;

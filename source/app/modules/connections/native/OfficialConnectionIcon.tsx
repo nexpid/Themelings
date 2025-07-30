@@ -28,7 +28,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.DEFAULT_ROLE_COLOR;
+    var7 = var4.DEFAULT_ROLE_COLOR_HEX;
     var _closure1_slot4 = var7;
     var4 = var4.EMPTY_STRING_SNOWFLAKE_ID;
     var _closure1_slot5 = var4;
@@ -100,7 +100,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = false;
             if(!(var3 !== var10)) { _fun0001_ip = 155; continue _fun0001 }
  148:
-            if(!(var2 == var5)) { _fun0001_ip = 572; continue _fun0001 }
+            if(!(var2 == var5)) { _fun0001_ip = 541; continue _fun0001 }
  155:
             if(!(var2 == var9)) { _fun0001_ip = 177; continue _fun0001 }
  159:
@@ -112,26 +112,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  174:
             var9 = var3;
  177:
-            if(!(var2 == var9)) { _fun0001_ip = 216; continue _fun0001 }
+            if(!(var2 == var9)) { _fun0001_ip = 185; continue _fun0001 }
  181:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 6;
-            var2 = var6[var2];
-            var6 = var3.bind(var4)(var2);
-            var3 = var6.int2hex;
-            var2 = _closure1_slot4;
-            var9 = var3.bind(var6)(var2);
- 216:
+            var9 = _closure1_slot4;
+ 185:
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var6 = 7;
+            var6 = 6;
             var2 = var11[var6];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
             var13 = var2.WHITE_500;
             var3 = _closure1_slot0;
-            var2 = 6;
+            var2 = 7;
             var10 = var11[var2];
             var12 = var3.bind(var4)(var10);
             var10 = var12.hex2int;
@@ -142,15 +135,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var2.bind(var3)(var10);
             var2 = 0.3;
             var11 = var9;
-            if(!(var3 < var2)) { _fun0001_ip = 339; continue _fun0001 }
- 311:
+            if(!(var3 < var2)) { _fun0001_ip = 308; continue _fun0001 }
+ 280:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var6];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
             var13 = var2.PRIMARY_630;
- 339:
+ 308:
             var6 = _closure1_slot7;
             var3 = _closure1_slot3;
             var2 = {};
@@ -206,7 +199,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['children'] = var9;
             var2 = var6.bind(var4)(var3, var2);
             return var2;
- 572:
+ 541:
             var3 = _closure1_slot6;
             var2 = _closure1_slot3;
             var1 = {};

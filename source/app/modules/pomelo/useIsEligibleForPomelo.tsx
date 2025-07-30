@@ -13,7 +13,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var1 != var3;
             if(!var1) { _fun0001_ip = 25; continue _fun0001 }
  12:
-            var2 = var3.isPomelo;
+            var2 = var3.hasUniqueUsername;
             var2 = var2.bind(var3)();
             var1 = !var2;
  25:

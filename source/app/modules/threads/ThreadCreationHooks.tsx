@@ -1067,7 +1067,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var8 = arg2;
                         var7 = arg3;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                        if(var3) { _fun0011_ip = 629; continue _fun0011 }
+                        if(var3) { _fun0011_ip = 627; continue _fun0011 }
  21:
                         var3 = undefined;
                         var _closure5_slot0 = var3;
@@ -1088,16 +1088,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var6 = var12;
  87:
                         _closure5_slot1 = var6;
-                        if(!(var11 === var6)) { _fun0011_ip = 185; continue _fun0011 }
+                        if(!(var11 === var6)) { _fun0011_ip = 183; continue _fun0011 }
  95:
                         var6 = _closure2_slot6;
-                        if(!var6) { _fun0011_ip = 185; continue _fun0011 }
+                        if(!var6) { _fun0011_ip = 183; continue _fun0011 }
  102:
                         var13 = _closure1_slot21;
                         var12 = _closure2_slot0;
                         var6 = _closure2_slot1;
                         var6 = var13.bind(var3)(var12, var6);
-                        if(!(var11 === var6)) { _fun0011_ip = 181; continue _fun0011 }
+                        if(!(var11 === var6)) { _fun0011_ip = 179; continue _fun0011 }
  124:
                         var14 = _closure1_slot0;
                         var15 = _closure1_slot2;
@@ -1111,9 +1111,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var11 = var11.t;
                         var11 = var11.7Xm5QE;
                         var6 = var12.bind(var13)(var11);
- 181:
+ 179:
                         _closure5_slot1 = var6;
- 185:
+ 183:
                         var11 = _closure1_slot0;
                         var15 = _closure1_slot2;
                         var6 = 14;
@@ -1206,15 +1206,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var22 = var13;
                         var20 = undefined;
                         var2 = var23[var12](var22, var21, var20, var19, var18);
-                        SaveGenerator(address=297);
- 295:
+                        SaveGenerator(address=295);
+ 293:
                         return var2;
- 297:
+ 295:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=10);
-                        if(var11) { _fun0011_ip = 626; continue _fun0011 }
- 306:
-                        if(!(var2 !== var6)) { _fun0011_ip = 572; continue _fun0011 }
- 313:
+                        if(var11) { _fun0011_ip = 624; continue _fun0011 }
+ 304:
+                        if(!(var2 !== var6)) { _fun0011_ip = 570; continue _fun0011 }
+ 311:
                         var13 = _closure1_slot1;
                         var14 = _closure1_slot2;
                         var12 = 17;
@@ -1233,26 +1233,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var6 = var6.FirstThreadMessage;
                         var6 = var12.bind(var13)(var11, var6);
                         var6 = _closure2_slot5;
-                        if(!(var10 != var6)) { _fun0011_ip = 413; continue _fun0011 }
- 404:
+                        if(!(var10 != var6)) { _fun0011_ip = 411; continue _fun0011 }
+ 402:
                         var6 = _closure2_slot5;
                         var6 = var6.bind(var3)(var2);
- 413:
+ 411:
                         var6 = _closure2_slot7;
-                        if(!(var10 != var6)) { _fun0011_ip = 436; continue _fun0011 }
- 421:
-                        if(!(var10 != var7)) { _fun0011_ip = 436; continue _fun0011 }
- 425:
+                        if(!(var10 != var6)) { _fun0011_ip = 434; continue _fun0011 }
+ 419:
+                        if(!(var10 != var7)) { _fun0011_ip = 434; continue _fun0011 }
+ 423:
                         var12 = var7.length;
                         var11 = 0;
-                        if(!(!(var12 > var11))) { _fun0011_ip = 554; continue _fun0011 }
- 436:
-                        if(!(var10 != var8)) { _fun0011_ip = 451; continue _fun0011 }
- 440:
+                        if(!(!(var12 > var11))) { _fun0011_ip = 552; continue _fun0011 }
+ 434:
+                        if(!(var10 != var8)) { _fun0011_ip = 449; continue _fun0011 }
+ 438:
                         var11 = var8.length;
                         var10 = 0;
-                        if(!(!(var11 > var10))) { _fun0011_ip = 514; continue _fun0011 }
- 451:
+                        if(!(!(var11 > var10))) { _fun0011_ip = 512; continue _fun0011 }
+ 449:
                         var14 = _closure1_slot1;
                         var15 = _closure1_slot2;
                         var10 = 24;
@@ -1266,8 +1266,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var10 = var14.parse;
                         var10 = var10.bind(var14)(var2, var9);
                         var10 = var12.bind(var13)(var11, var10);
-                        _fun0011_ip = 572; continue _fun0011;
- 514:
+                        _fun0011_ip = 570; continue _fun0011;
+ 512:
                         var11 = _closure1_slot1;
                         var12 = _closure1_slot2;
                         var10 = 24;
@@ -1276,15 +1276,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var11 = var12.sendStickers;
                         var10 = var2.id;
                         var10 = var11.bind(var12)(var10, var8, var9);
-                        _fun0011_ip = 572; continue _fun0011;
- 554:
+                        _fun0011_ip = 570; continue _fun0011;
+ 552:
                         var23 = undefined;
                         var22 = var2;
                         var21 = var7;
                         var20 = var9;
                         var19 = var8;
                         var6 = var23[var6](var22, var21, var20, var19, var18);
- 572:
+ 570:
                         var7 = _closure1_slot1;
                         var8 = _closure1_slot2;
                         var6 = 18;
@@ -1297,9 +1297,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = var4.FirstThreadMessage;
                         var4 = var6.bind(var7)(var5, var4);
                         return var3;
- 626:
+ 624:
                         return var2;
- 629:
+ 627:
                         return var1;
                     }
                 };

@@ -397,220 +397,198 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = function computeDerivedMemberState(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            var16 = arg1;
-            var4 = arg2;
-            var1 = var4.length;
-            var12 = 0;
-            if(!(var12 !== var1)) { _fun0008_ip = 604; continue _fun0008 }
+            var17 = arg1;
+            var3 = arg2;
+            var1 = var3.length;
+            var16 = 0;
+            if(!(var16 !== var1)) { _fun0008_ip = 540; continue _fun0008 }
  20:
-            var3 = _closure1_slot29;
+            var1 = _closure1_slot29;
             var2 = undefined;
-            var15 = var3.bind(var2)(var4);
-            var3 = var15.bind(var2)();
-            var5 = var3.done;
+            var14 = var1.bind(var2)(var3);
+            var3 = var14.bind(var2)();
+            var1 = var3.done;
+            var13 = 14;
             var4 = null;
-            var14 = undefined;
-            var13 = undefined;
+            var12 = undefined;
             var11 = undefined;
             var10 = undefined;
-            var9 = var3;
+            var9 = undefined;
+            var5 = var3;
             var8 = undefined;
             var6 = undefined;
             var7 = undefined;
             var3 = undefined;
-            if(var5) { _fun0008_ip = 324; continue _fun0008 }
- 70:
-            var5 = var9.value;
-            var5 = var16[var5];
-            var20 = var14;
-            var19 = var13;
-            var18 = var11;
-            var17 = var10;
-            if(!(var4 != var5)) { _fun0008_ip = 282; continue _fun0008 }
- 98:
-            var21 = var4 == var10;
-            if(var21) { _fun0008_ip = 119; continue _fun0008 }
- 105:
-            var23 = var5.position;
-            var22 = var10.position;
-            var21 = var23 > var22;
- 119:
-            if(!var21) { _fun0008_ip = 125; continue _fun0008 }
- 122:
-            var10 = var5;
- 125:
-            var21 = var5.color;
-            var21 = var21 > var12;
-            if(!var21) { _fun0008_ip = 161; continue _fun0008 }
+            if(var1) { _fun0008_ip = 396; continue _fun0008 }
+ 73:
+            var1 = var5.value;
+            var22 = var17[var1];
+            var21 = var12;
+            var20 = var11;
+            var19 = var10;
+            var18 = var9;
+            if(!(var4 != var22)) { _fun0008_ip = 354; continue _fun0008 }
+ 101:
+            var23 = var4 == var9;
+            if(var23) { _fun0008_ip = 137; continue _fun0008 }
+ 108:
+            var24 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var13];
+            var24 = var24.bind(var2)(var1);
+            var1 = var24.doesRoleSortHigher;
+            var23 = var1.bind(var24)(var22, var9);
  137:
-            var22 = var4 == var14;
-            if(var22) { _fun0008_ip = 158; continue _fun0008 }
- 144:
-            var24 = var5.position;
-            var23 = var14.position;
-            var22 = var24 > var23;
+            var1 = var9;
+            if(!var23) { _fun0008_ip = 146; continue _fun0008 }
+ 143:
+            var1 = var22;
+ 146:
+            var23 = var22.color;
+            var23 = var23 > var16;
+            if(!var23) { _fun0008_ip = 197; continue _fun0008 }
  158:
-            var21 = var22;
- 161:
-            if(!var21) { _fun0008_ip = 167; continue _fun0008 }
- 164:
-            var14 = var5;
- 167:
-            var21 = var5.hoist;
-            if(!var21) { _fun0008_ip = 200; continue _fun0008 }
- 176:
-            var22 = var4 == var13;
-            if(var22) { _fun0008_ip = 197; continue _fun0008 }
- 183:
-            var24 = var5.position;
-            var23 = var13.position;
-            var22 = var24 > var23;
+            var24 = var4 == var12;
+            if(var24) { _fun0008_ip = 194; continue _fun0008 }
+ 165:
+            var26 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var25 = var25[var13];
+            var26 = var26.bind(var2)(var25);
+            var25 = var26.doesRoleSortHigher;
+            var24 = var25.bind(var26)(var22, var12);
+ 194:
+            var23 = var24;
  197:
-            var21 = var22;
- 200:
-            if(!var21) { _fun0008_ip = 206; continue _fun0008 }
+            var24 = var12;
+            if(!var23) { _fun0008_ip = 206; continue _fun0008 }
  203:
-            var13 = var5;
+            var24 = var22;
  206:
-            var21 = var5.icon;
-            var21 = var4 != var21;
-            if(var21) { _fun0008_ip = 228; continue _fun0008 }
- 218:
-            var22 = var5.unicodeEmoji;
-            var21 = var4 != var22;
- 228:
-            if(!var21) { _fun0008_ip = 255; continue _fun0008 }
- 231:
-            var22 = var4 == var11;
-            if(var22) { _fun0008_ip = 252; continue _fun0008 }
- 238:
-            var24 = var5.position;
-            var23 = var11.position;
-            var22 = var24 > var23;
- 252:
-            var21 = var22;
- 255:
-            var20 = var14;
-            var19 = var13;
-            var18 = var11;
-            var17 = var10;
-            if(!var21) { _fun0008_ip = 282; continue _fun0008 }
- 270:
-            var20 = var14;
-            var19 = var13;
-            var18 = var5;
-            var17 = var10;
- 282:
-            var21 = var15.bind(var2)();
-            var5 = var21.done;
-            var14 = var20;
-            var13 = var19;
-            var11 = var18;
-            var10 = var17;
-            var9 = var21;
-            var8 = var14;
-            var6 = var13;
-            var7 = var11;
-            var3 = var10;
-            if(!var5) { _fun0008_ip = 70; continue _fun0008 }
+            var25 = var22.hoist;
+            if(!var25) { _fun0008_ip = 254; continue _fun0008 }
+ 215:
+            var23 = var4 == var11;
+            if(var23) { _fun0008_ip = 251; continue _fun0008 }
+ 222:
+            var27 = _closure1_slot0;
+            var26 = _closure1_slot2;
+            var26 = var26[var13];
+            var27 = var27.bind(var2)(var26);
+            var26 = var27.doesRoleSortHigher;
+            var23 = var26.bind(var27)(var22, var11);
+ 251:
+            var25 = var23;
+ 254:
+            var23 = var11;
+            if(!var25) { _fun0008_ip = 263; continue _fun0008 }
+ 260:
+            var23 = var22;
+ 263:
+            var25 = var22.icon;
+            var25 = var4 != var25;
+            if(var25) { _fun0008_ip = 285; continue _fun0008 }
+ 275:
+            var26 = var22.unicodeEmoji;
+            var25 = var4 != var26;
+ 285:
+            if(!var25) { _fun0008_ip = 327; continue _fun0008 }
+ 288:
+            var26 = var4 == var10;
+            if(var26) { _fun0008_ip = 324; continue _fun0008 }
+ 295:
+            var28 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var27 = var27[var13];
+            var28 = var28.bind(var2)(var27);
+            var27 = var28.doesRoleSortHigher;
+            var26 = var27.bind(var28)(var22, var10);
  324:
-            var10 = var4 != var8;
-            var9 = undefined;
-            var5 = undefined;
-            if(!var10) { _fun0008_ip = 514; continue _fun0008 }
- 338:
-            var10 = var8.colorString;
-            var10 = var4 == var10;
-            if(!var10) { _fun0008_ip = 360; continue _fun0008 }
- 351:
-            var11 = var8.color;
-            var10 = var11 > var12;
- 360:
-            if(!var10) { _fun0008_ip = 405; continue _fun0008 }
- 363:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var10 = 14;
-            var10 = var12[var10];
-            var12 = var11.bind(var2)(var10);
-            var11 = var12.int2hex;
-            var10 = var8.color;
-            var10 = var11.bind(var12)(var10);
-            var8['colorString'] = var10;
- 405:
-            var11 = var8.colorString;
-            var12 = var4 != var11;
-            var10 = undefined;
-            if(!var12) { _fun0008_ip = 423; continue _fun0008 }
- 420:
-            var10 = var11;
- 423:
-            var11 = var8.colorStrings;
-            var11 = var4 == var11;
-            if(!var11) { _fun0008_ip = 445; continue _fun0008 }
- 436:
-            var12 = var8.colors;
-            var11 = var4 != var12;
- 445:
-            if(!var11) { _fun0008_ip = 490; continue _fun0008 }
- 448:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var1 = 15;
-            var1 = var12[var1];
-            var12 = var11.bind(var2)(var1);
-            var11 = var12.extractColorStringsFromServerColors;
-            var1 = var8.colors;
-            var1 = var11.bind(var12)(var1);
-            var8['colorStrings'] = var1;
- 490:
-            var11 = var8.colorStrings;
-            var12 = var4 != var11;
-            var1 = undefined;
-            if(!var12) { _fun0008_ip = 508; continue _fun0008 }
- 505:
-            var1 = var11;
- 508:
-            var5 = var1;
-            var9 = var10;
- 514:
+            var25 = var26;
+ 327:
+            var21 = var24;
+            var20 = var23;
+            var19 = var10;
+            var18 = var1;
+            if(!var25) { _fun0008_ip = 354; continue _fun0008 }
+ 342:
+            var21 = var24;
+            var20 = var23;
+            var19 = var22;
+            var18 = var1;
+ 354:
+            var22 = var14.bind(var2)();
+            var1 = var22.done;
+            var12 = var21;
+            var11 = var20;
+            var10 = var19;
+            var9 = var18;
+            var5 = var22;
+            var8 = var12;
+            var6 = var11;
+            var7 = var10;
+            var3 = var9;
+            if(!var1) { _fun0008_ip = 73; continue _fun0008 }
+ 396:
             var1 = {};
-            var1['colorString'] = var9;
+            var5 = var4 == var8;
+            var9 = undefined;
+            if(var5) { _fun0008_ip = 413; continue _fun0008 }
+ 407:
+            var9 = var8.colorString;
+ 413:
+            var10 = var4 != var9;
+            var5 = null;
+            if(!var10) { _fun0008_ip = 425; continue _fun0008 }
+ 422:
+            var5 = var9;
+ 425:
+            var1['colorString'] = var5;
+            var5 = var4 == var8;
+            var9 = undefined;
+            if(var5) { _fun0008_ip = 445; continue _fun0008 }
+ 439:
+            var9 = var8.colorStrings;
+ 445:
+            var10 = var4 != var9;
+            var5 = null;
+            if(!var10) { _fun0008_ip = 457; continue _fun0008 }
+ 454:
+            var5 = var9;
+ 457:
             var1['colorStrings'] = var5;
             var9 = var4 == var8;
             var5 = undefined;
-            if(var9) { _fun0008_ip = 540; continue _fun0008 }
- 535:
+            if(var9) { _fun0008_ip = 476; continue _fun0008 }
+ 471:
             var5 = var8.id;
- 540:
+ 476:
             var1['colorRoleId'] = var5;
             var8 = var4 == var7;
             var5 = undefined;
-            if(var8) { _fun0008_ip = 559; continue _fun0008 }
- 554:
+            if(var8) { _fun0008_ip = 495; continue _fun0008 }
+ 490:
             var5 = var7.id;
- 559:
+ 495:
             var1['iconRoleId'] = var5;
             var7 = var4 == var6;
             var5 = undefined;
-            if(var7) { _fun0008_ip = 578; continue _fun0008 }
- 573:
+            if(var7) { _fun0008_ip = 514; continue _fun0008 }
+ 509:
             var5 = var6.id;
- 578:
+ 514:
             var1['hoistRoleId'] = var5;
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0008_ip = 597; continue _fun0008 }
- 592:
+            if(var4) { _fun0008_ip = 533; continue _fun0008 }
+ 528:
             var2 = var3.id;
- 597:
+ 533:
             var1['highestRoleId'] = var2;
             return var1;
- 604:
-            var1 = {};
+ 540:
+            var1 = {'colorString': null, 'colorStrings': null};
             var2 = undefined;
-            var1['colorString'] = var2;
-            var1['colorStrings'] = var2;
             var1['colorRoleId'] = var2;
             var1['hoistRoleId'] = var2;
             var1['iconRoleId'] = var2;
@@ -624,51 +602,53 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var1 = arg1;
             var3 = var1.userId;
-            var17 = var1.nick;
+            var18 = var1.nick;
             var4 = var1.guildId;
-            var16 = var1.avatar;
-            var15 = var1.avatarDecoration;
-            var13 = var1.guildRoles;
-            var14 = var1.roles;
-            var12 = var1.premiumSince;
-            var11 = var1.isPending;
-            var10 = var1.joinedAt;
-            var8 = var1.communicationDisabledUntil;
-            var7 = var1.unusualDMActivityUntil;
-            var6 = var1.fullProfileLoadedTimestamp;
-            var2 = var1.flags;
+            var17 = var1.avatar;
+            var16 = var1.avatarDecoration;
+            var14 = var1.guildRoles;
+            var15 = var1.roles;
+            var13 = var1.premiumSince;
+            var12 = var1.isPending;
+            var11 = var1.joinedAt;
+            var10 = var1.communicationDisabledUntil;
+            var8 = var1.unusualDMActivityUntil;
+            var7 = var1.fullProfileLoadedTimestamp;
+            var6 = var1.flags;
+            var2 = var1.collectibles;
             var1 = _closure1_slot38;
             var9 = undefined;
-            var13 = var1.bind(var9)(var13, var14);
+            var14 = var1.bind(var9)(var14, var15);
             var1 = {};
             var1['userId'] = var3;
-            var1['nick'] = var17;
+            var1['nick'] = var18;
             var1['guildId'] = var4;
-            var1['avatar'] = var16;
-            var1['avatarDecoration'] = var15;
-            var1['roles'] = var14;
-            var14 = var13.colorString;
-            var1['colorString'] = var14;
-            var14 = var13.colorStrings;
-            var1['colorStrings'] = var14;
-            var14 = var13.colorRoleId;
-            var1['colorRoleId'] = var14;
-            var14 = var13.iconRoleId;
-            var1['iconRoleId'] = var14;
-            var14 = var13.hoistRoleId;
-            var1['hoistRoleId'] = var14;
-            var13 = var13.highestRoleId;
-            var1['highestRoleId'] = var13;
-            var1['premiumSince'] = var12;
-            var1['isPending'] = var11;
-            var1['joinedAt'] = var10;
-            var1['communicationDisabledUntil'] = var8;
-            var1['unusualDMActivityUntil'] = var7;
-            var1['fullProfileLoadedTimestamp'] = var6;
-            var1['flags'] = var2;
+            var1['avatar'] = var17;
+            var1['avatarDecoration'] = var16;
+            var1['roles'] = var15;
+            var15 = var14.colorString;
+            var1['colorString'] = var15;
+            var15 = var14.colorStrings;
+            var1['colorStrings'] = var15;
+            var15 = var14.colorRoleId;
+            var1['colorRoleId'] = var15;
+            var15 = var14.iconRoleId;
+            var1['iconRoleId'] = var15;
+            var15 = var14.hoistRoleId;
+            var1['hoistRoleId'] = var15;
+            var14 = var14.highestRoleId;
+            var1['highestRoleId'] = var14;
+            var1['premiumSince'] = var13;
+            var1['isPending'] = var12;
+            var1['joinedAt'] = var11;
+            var1['communicationDisabledUntil'] = var10;
+            var1['unusualDMActivityUntil'] = var8;
+            var1['fullProfileLoadedTimestamp'] = var7;
+            var1['flags'] = var6;
+            var1['collectibles'] = var2;
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var8 = 16;
+            var8 = 15;
             var2 = var2[var8];
             var12 = var6.bind(var9)(var2);
             var11 = var12.hasFlag;
@@ -676,15 +656,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = null;
             var13 = var6 != var2;
             var7 = 0;
-            if(!var13) { _fun0009_ip = 274; continue _fun0009 }
- 271:
+            if(!var13) { _fun0009_ip = 285; continue _fun0009 }
+ 282:
             var7 = var2;
- 274:
+ 285:
             var2 = _closure1_slot14;
             var2 = var2.IS_GUEST;
             var2 = var11.bind(var12)(var7, var2);
-            if(!var2) { _fun0009_ip = 355; continue _fun0009 }
- 293:
+            if(!var2) { _fun0009_ip = 366; continue _fun0009 }
+ 304:
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
@@ -693,74 +673,74 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var1.flags;
             var11 = var6 != var2;
             var10 = 0;
-            if(!var11) { _fun0009_ip = 333; continue _fun0009 }
- 330:
+            if(!var11) { _fun0009_ip = 344; continue _fun0009 }
+ 341:
             var10 = var2;
- 333:
+ 344:
             var2 = _closure1_slot14;
             var2 = var2.BYPASSES_VERIFICATION;
             var2 = var7.bind(var8)(var10, var2);
             var1['flags'] = var2;
- 355:
+ 366:
             var2 = _closure1_slot16;
             var2 = var2[var4];
-            if(!(var6 != var2)) { _fun0009_ip = 561; continue _fun0009 }
- 370:
+            if(!(var6 != var2)) { _fun0009_ip = 572; continue _fun0009 }
+ 381:
             var7 = _closure1_slot10;
             var2 = var7.getId;
             var2 = var2.bind(var7)();
-            if(!(var3 === var2)) { _fun0009_ip = 559; continue _fun0009 }
- 391:
+            if(!(var3 === var2)) { _fun0009_ip = 570; continue _fun0009 }
+ 402:
             var3 = _closure1_slot9;
             var2 = var3.isViewingRoles;
             var2 = var2.bind(var3)(var4);
-            if(var2) { _fun0009_ip = 449; continue _fun0009 }
- 409:
+            if(var2) { _fun0009_ip = 460; continue _fun0009 }
+ 420:
             var3 = _closure1_slot9;
             var2 = var3.isFullServerPreview;
             var2 = var2.bind(var3)(var4);
-            if(var2) { _fun0009_ip = 449; continue _fun0009 }
- 427:
+            if(var2) { _fun0009_ip = 460; continue _fun0009 }
+ 438:
             var2 = _closure1_slot18;
             var2 = var2[var4];
-            if(!(var6 != var2)) { _fun0009_ip = 559; continue _fun0009 }
- 439:
+            if(!(var6 != var2)) { _fun0009_ip = 570; continue _fun0009 }
+ 450:
             var2 = _closure1_slot18;
             var2 = delete var2[var4];
-            _fun0009_ip = 559; continue _fun0009;
- 449:
+            _fun0009_ip = 570; continue _fun0009;
+ 460:
             var3 = _closure1_slot9;
             var2 = var3.getViewingRoles;
             var8 = var2.bind(var3)(var4);
             var3 = _closure1_slot18;
             var2 = {};
-            var20 = var2;
-            var19 = var1;
-            var7 = copyDataProperties(var20, var19);
+            var21 = var2;
+            var20 = var1;
+            var7 = copyDataProperties(var21, var20);
             var10 = _closure1_slot9;
             var7 = var10.getMemberOptions;
-            var19 = var7.bind(var10)(var4);
-            var20 = var2;
-            var7 = copyDataProperties(var20, var19);
-            if(!(var6 == var8)) { _fun0009_ip = 516; continue _fun0009 }
- 510:
+            var20 = var7.bind(var10)(var4);
+            var21 = var2;
+            var7 = copyDataProperties(var21, var20);
+            if(!(var6 == var8)) { _fun0009_ip = 527; continue _fun0009 }
+ 521:
             var6 = new Array(0);
-            _fun0009_ip = 546; continue _fun0009;
- 516:
+            _fun0009_ip = 557; continue _fun0009;
+ 527:
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var5 = 17;
+            var5 = 16;
             var5 = var10[var5];
             var7 = var7.bind(var9)(var5);
             var5 = var7.keys;
             var6 = var5.bind(var7)(var8);
- 546:
+ 557:
             var5 = 'roles';
             var2[var5] = var6;
             var3[var4] = var2;
- 559:
+ 570:
             return var1;
- 561:
+ 572:
             return var1;
         }
     };
@@ -849,64 +829,66 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = arg1;
             var6 = var1.guildId;
             var3 = var1.user;
-            var18 = var1.nick;
+            var19 = var1.nick;
             var2 = var1.avatar;
-            var20 = var1.avatarDecoration;
-            var16 = var1.roles;
-            var15 = var1.premiumSince;
-            var14 = var1.isPending;
-            var13 = var1.joinedAt;
-            var12 = var1.communicationDisabledUntil;
-            var11 = var1.unusualDMActivityUntil;
-            var9 = var1.flags;
+            var21 = var1.avatarDecoration;
+            var17 = var1.roles;
+            var16 = var1.premiumSince;
+            var15 = var1.isPending;
+            var14 = var1.joinedAt;
+            var13 = var1.communicationDisabledUntil;
+            var12 = var1.unusualDMActivityUntil;
+            var10 = var1.flags;
+            var9 = var1.collectibles;
             var4 = _closure1_slot16;
             var5 = var4[var6];
-            var10 = null;
-            if(!(var10 != var5)) { _fun0011_ip = 352; continue _fun0011 }
- 92:
+            var11 = null;
+            if(!(var11 != var5)) { _fun0011_ip = 363; continue _fun0011 }
+ 98:
             var7 = _closure1_slot13;
             var4 = var7.getGuild;
-            var17 = var4.bind(var7)(var6);
-            if(!(var10 != var17)) { _fun0011_ip = 303; continue _fun0011 }
- 113:
+            var18 = var4.bind(var7)(var6);
+            if(!(var11 != var18)) { _fun0011_ip = 314; continue _fun0011 }
+ 119:
             var7 = var3.id;
             var8 = _closure1_slot39;
             var4 = {};
-            var19 = var3.id;
-            var4['userId'] = var19;
-            var4['nick'] = var18;
+            var20 = var3.id;
+            var4['userId'] = var20;
+            var4['nick'] = var19;
             var4['guildId'] = var6;
             var4['avatar'] = var2;
-            var19 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var2 = 18;
-            var18 = var18[var2];
+            var20 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var2 = 17;
+            var19 = var19[var2];
             var2 = undefined;
-            var19 = var19.bind(var2)(var18);
-            var18 = var19.parseAvatarDecorationData;
-            var18 = var18.bind(var19)(var20);
-            var4['avatarDecoration'] = var18;
-            var19 = _closure1_slot12;
-            var18 = var19.getRoles;
-            var17 = var17.id;
-            var17 = var18.bind(var19)(var17);
-            var4['guildRoles'] = var17;
-            var4['roles'] = var16;
-            var4['premiumSince'] = var15;
-            var4['isPending'] = var14;
-            var4['joinedAt'] = var13;
-            var4['communicationDisabledUntil'] = var12;
-            var4['unusualDMActivityUntil'] = var11;
-            var11 = var3.id;
-            var11 = var5[var11];
-            var12 = var10 == var11;
-            var10 = undefined;
-            if(var12) { _fun0011_ip = 264; continue _fun0011 }
- 258:
-            var10 = var11.fullProfileLoadedTimestamp;
+            var20 = var20.bind(var2)(var19);
+            var19 = var20.parseAvatarDecorationData;
+            var19 = var19.bind(var20)(var21);
+            var4['avatarDecoration'] = var19;
+            var20 = _closure1_slot12;
+            var19 = var20.getUnsafeMutableRoles;
+            var18 = var18.id;
+            var18 = var19.bind(var20)(var18);
+            var4['guildRoles'] = var18;
+            var4['roles'] = var17;
+            var4['premiumSince'] = var16;
+            var4['isPending'] = var15;
+            var4['joinedAt'] = var14;
+            var4['communicationDisabledUntil'] = var13;
+            var4['unusualDMActivityUntil'] = var12;
+            var12 = var3.id;
+            var12 = var5[var12];
+            var13 = var11 == var12;
+            var11 = undefined;
+            if(var13) { _fun0011_ip = 270; continue _fun0011 }
  264:
-            var4['fullProfileLoadedTimestamp'] = var10;
-            var4['flags'] = var9;
+            var11 = var12.fullProfileLoadedTimestamp;
+ 270:
+            var4['fullProfileLoadedTimestamp'] = var11;
+            var4['flags'] = var10;
+            var4['collectibles'] = var9;
             var4 = var8.bind(var2)(var4);
             var5[var7] = var4;
             var4 = _closure1_slot31;
@@ -914,7 +896,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var5[var3];
             var3 = var4.bind(var2)(var6, var3);
             return var2;
- 303:
+ 314:
             var3 = _closure1_slot15;
             var2 = var3.warn;
             var1 = global;
@@ -926,7 +908,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.bind(var3)(var1);
             var1 = false;
             return var1;
- 352:
+ 363:
             var1 = false;
             return var1;
         }
@@ -976,7 +958,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = var9.bind(var1)(var2);
                     var4['avatarDecoration'] = var9;
                     var12 = _closure1_slot12;
-                    var10 = var12.getRoles;
+                    var10 = var12.getUnsafeMutableRoles;
                     var9 = _closure2_slot2;
                     var9 = var9.id;
                     var9 = var10.bind(var12)(var9);
@@ -1013,6 +995,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = var10;
  246:
                     var4['unusualDMActivityUntil'] = var9;
+                    var10 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var9 = 18;
+                    var9 = var11[var9];
+                    var11 = var10.bind(var1)(var9);
+                    var10 = var11.parseServerUserCollectibles;
+                    var9 = var2.collectibles;
+                    var9 = var10.bind(var11)(var9);
+                    var4['collectibles'] = var9;
                     var4 = var8.bind(var1)(var4);
                     var7[var6] = var4;
                     var4 = _closure1_slot31;
@@ -1053,7 +1044,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = function getAvatarDecorationFromServerMember(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 18;
+        var1 = 17;
         var2 = var2[var1];
         var1 = undefined;
         var3 = var3.bind(var1)(var2);
@@ -1120,97 +1111,106 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = function buildMembers(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
-            var10 = arg1;
-            var9 = var10.id;
+            var11 = arg1;
+            var10 = var11.id;
             var1 = _closure1_slot16;
-            var1 = var9 in var1;
+            var1 = var10 in var1;
             if(var1) { _fun0015_ip = 37; continue _fun0015 }
  22:
             var3 = _closure1_slot16;
-            var2 = var10.id;
+            var2 = var11.id;
             var1 = {};
             var3[var2] = var1;
  37:
             var2 = _closure1_slot13;
             var1 = var2.getGuild;
-            var7 = var1.bind(var2)(var9);
-            var6 = null;
-            if(!(var6 != var7)) { _fun0015_ip = 357; continue _fun0015 }
+            var8 = var1.bind(var2)(var10);
+            var7 = null;
+            if(!(var7 != var8)) { _fun0015_ip = 399; continue _fun0015 }
  60:
             var1 = _closure1_slot16;
-            var5 = var1[var9];
+            var6 = var1[var10];
             var2 = _closure1_slot29;
-            var1 = var10.members;
-            var4 = undefined;
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.bind(var4)();
+            var1 = var11.members;
+            var5 = undefined;
+            var4 = var2.bind(var5)(var1);
+            var2 = var4.bind(var5)();
             var1 = var2.done;
-            if(var1) { _fun0015_ip = 353; continue _fun0015 }
- 100:
-            var13 = var2.value;
-            var1 = var13.user;
+            var3 = 18;
+            if(var1) { _fun0015_ip = 395; continue _fun0015 }
+ 103:
+            var14 = var2.value;
+            var1 = var14.user;
             var1 = var1.id;
-            var15 = var5[var1];
-            var12 = _closure1_slot39;
-            var11 = {};
-            var11['userId'] = var1;
-            var14 = var13.nick;
-            var11['nick'] = var14;
-            var14 = var10.id;
-            var11['guildId'] = var14;
-            var14 = var13.avatar;
-            var11['avatar'] = var14;
-            var14 = _closure1_slot42;
-            var14 = var14.bind(var4)(var13);
-            var11['avatarDecoration'] = var14;
-            var17 = _closure1_slot12;
-            var16 = var17.getRoles;
-            var14 = var7.id;
-            var14 = var16.bind(var17)(var14);
-            var11['guildRoles'] = var14;
-            var14 = var13.roles;
-            var11['roles'] = var14;
-            var14 = var13.premium_since;
-            var11['premiumSince'] = var14;
-            var14 = var13.pending;
-            var11['isPending'] = var14;
-            var14 = var13.joined_at;
-            var11['joinedAt'] = var14;
-            var14 = var13.communication_disabled_until;
-            var11['communicationDisabledUntil'] = var14;
-            var16 = var6 == var15;
-            var14 = undefined;
-            if(var16) { _fun0015_ip = 269; continue _fun0015 }
- 263:
-            var14 = var15.fullProfileLoadedTimestamp;
- 269:
-            var11['fullProfileLoadedTimestamp'] = var14;
-            var14 = var13.flags;
-            var11['flags'] = var14;
-            var13 = var13.unusual_dm_activity_until;
-            if(!(var6 == var13)) { _fun0015_ip = 311; continue _fun0015 }
- 293:
-            var16 = var6 == var15;
-            var14 = undefined;
-            if(var16) { _fun0015_ip = 308; continue _fun0015 }
- 302:
-            var14 = var15.unusualDMActivityUntil;
- 308:
-            var13 = var14;
+            var17 = var6[var1];
+            var13 = _closure1_slot39;
+            var12 = {};
+            var12['userId'] = var1;
+            var15 = var14.nick;
+            var12['nick'] = var15;
+            var15 = var11.id;
+            var12['guildId'] = var15;
+            var15 = var14.avatar;
+            var12['avatar'] = var15;
+            var15 = _closure1_slot42;
+            var15 = var15.bind(var5)(var14);
+            var12['avatarDecoration'] = var15;
+            var18 = _closure1_slot12;
+            var16 = var18.getUnsafeMutableRoles;
+            var15 = var8.id;
+            var15 = var16.bind(var18)(var15);
+            var12['guildRoles'] = var15;
+            var15 = var14.roles;
+            var12['roles'] = var15;
+            var15 = var14.premium_since;
+            var12['premiumSince'] = var15;
+            var15 = var14.pending;
+            var12['isPending'] = var15;
+            var15 = var14.joined_at;
+            var12['joinedAt'] = var15;
+            var15 = var14.communication_disabled_until;
+            var12['communicationDisabledUntil'] = var15;
+            var16 = var7 == var17;
+            var15 = undefined;
+            if(var16) { _fun0015_ip = 272; continue _fun0015 }
+ 266:
+            var15 = var17.fullProfileLoadedTimestamp;
+ 272:
+            var12['fullProfileLoadedTimestamp'] = var15;
+            var15 = var14.flags;
+            var12['flags'] = var15;
+            var15 = var14.unusual_dm_activity_until;
+            if(!(var7 == var15)) { _fun0015_ip = 314; continue _fun0015 }
+ 296:
+            var18 = var7 == var17;
+            var16 = undefined;
+            if(var18) { _fun0015_ip = 311; continue _fun0015 }
+ 305:
+            var16 = var17.unusualDMActivityUntil;
  311:
-            var11['unusualDMActivityUntil'] = var13;
-            var11 = var12.bind(var4)(var11);
-            var5[var1] = var11;
+            var15 = var16;
+ 314:
+            var12['unusualDMActivityUntil'] = var15;
+            var16 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var15 = var15[var3];
+            var16 = var16.bind(var5)(var15);
+            var15 = var16.parseServerUserCollectibles;
+            var14 = var14.collectibles;
+            var14 = var15.bind(var16)(var14);
+            var12['collectibles'] = var14;
+            var12 = var13.bind(var5)(var12);
+            var6[var1] = var12;
             var1 = _closure1_slot31;
-            var1 = var1.bind(var4)(var9, var11);
-            var11 = var3.bind(var4)();
-            var1 = var11.done;
-            var2 = var11;
-            if(!var1) { _fun0015_ip = 100; continue _fun0015 }
- 353:
+            var1 = var1.bind(var5)(var10, var12);
+            var12 = var4.bind(var5)();
+            var1 = var12.done;
+            var2 = var12;
+            if(!var1) { _fun0015_ip = 103; continue _fun0015 }
+ 395:
             var1 = true;
             return var1;
- 357:
+ 399:
             var1 = false;
             return var1;
         }
@@ -1225,13 +1225,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var1.guildId;
             var12 = var4[var3];
             var11 = null;
-            if(!(var11 != var12)) { _fun0016_ip = 488; continue _fun0016 }
+            if(!(var11 != var12)) { _fun0016_ip = 499; continue _fun0016 }
  34:
             var5 = _closure1_slot13;
             var4 = var5.getGuild;
             var3 = var1.guildId;
             var10 = var4.bind(var5)(var3);
-            if(!(var11 != var10)) { _fun0016_ip = 427; continue _fun0016 }
+            if(!(var11 != var10)) { _fun0016_ip = 438; continue _fun0016 }
  60:
             var4 = _closure1_slot10;
             var3 = var4.getId;
@@ -1239,7 +1239,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = _closure1_slot29;
             var6 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var3 = 17;
+            var3 = 16;
             var4 = var4[var3];
             var3 = undefined;
             var6 = var6.bind(var3)(var4);
@@ -1250,32 +1250,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var5.done;
             var7 = 'GUILD_ROLE_DELETE';
             var6 = 0;
-            if(var4) { _fun0016_ip = 425; continue _fun0016 }
+            if(var4) { _fun0016_ip = 436; continue _fun0016 }
  136:
             var4 = var5.value;
-            var17 = var12[var4];
-            var14 = var17.roles;
+            var16 = var12[var4];
+            var14 = var16.roles;
             if(!(var11 != var14)) { _fun0016_ip = 170; continue _fun0016 }
  155:
-            var14 = var17.roles;
+            var14 = var16.roles;
             var14 = var14.length;
             if(!(!(var14 > var6))) { _fun0016_ip = 193; continue _fun0016 }
  170:
-            var14 = var17.colorString;
+            var14 = var16.colorString;
             if(!(var11 == var14)) { _fun0016_ip = 193; continue _fun0016 }
  180:
-            var14 = var17.hoistRoleId;
-            if(!(var11 != var14)) { _fun0016_ip = 407; continue _fun0016 }
+            var14 = var16.hoistRoleId;
+            if(!(var11 != var14)) { _fun0016_ip = 418; continue _fun0016 }
  193:
             if(!(var4 === var9)) { _fun0016_ip = 206; continue _fun0016 }
  197:
             var14 = var1.type;
             if(!(var7 !== var14)) { _fun0016_ip = 214; continue _fun0016 }
  206:
-            var16 = var17.roles;
+            var17 = var16.roles;
             _fun0016_ip = 235; continue _fun0016;
  214:
-            var18 = var17.roles;
+            var18 = var16.roles;
             var15 = var18.filter;
             var14 = function(arg1) {
                 var1 = _closure2_slot0;
@@ -1284,54 +1284,56 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1 !== var2;
                 return var1;
             };
-            var16 = var15.bind(var18)(var14);
+            var17 = var15.bind(var18)(var14);
  235:
             var15 = _closure1_slot39;
             var14 = {};
             var14['userId'] = var4;
-            var18 = var17.nick;
+            var18 = var16.nick;
             var14['nick'] = var18;
             var18 = var1.guildId;
             var14['guildId'] = var18;
-            var18 = var17.avatar;
+            var18 = var16.avatar;
             var14['avatar'] = var18;
-            var18 = var17.avatarDecoration;
+            var18 = var16.avatarDecoration;
             var14['avatarDecoration'] = var18;
             var20 = _closure1_slot12;
-            var19 = var20.getRoles;
+            var19 = var20.getUnsafeMutableRoles;
             var18 = var10.id;
             var18 = var19.bind(var20)(var18);
             var14['guildRoles'] = var18;
-            var14['roles'] = var16;
-            var16 = var17.premiumSince;
-            var14['premiumSince'] = var16;
-            var16 = var17.isPending;
-            var14['isPending'] = var16;
-            var16 = var17.joinedAt;
-            var14['joinedAt'] = var16;
-            var16 = var17.flags;
-            var14['flags'] = var16;
-            var18 = var11 == var17;
-            var16 = undefined;
+            var14['roles'] = var17;
+            var17 = var16.premiumSince;
+            var14['premiumSince'] = var17;
+            var17 = var16.isPending;
+            var14['isPending'] = var17;
+            var17 = var16.joinedAt;
+            var14['joinedAt'] = var17;
+            var17 = var16.flags;
+            var14['flags'] = var17;
+            var18 = var11 == var16;
+            var17 = undefined;
             if(var18) { _fun0016_ip = 374; continue _fun0016 }
  368:
-            var16 = var17.fullProfileLoadedTimestamp;
+            var17 = var16.fullProfileLoadedTimestamp;
  374:
-            var14['fullProfileLoadedTimestamp'] = var16;
+            var14['fullProfileLoadedTimestamp'] = var17;
+            var16 = var16.collectibles;
+            var14['collectibles'] = var16;
             var14 = var15.bind(var3)(var14);
             var12[var4] = var14;
             var15 = _closure1_slot31;
             var14 = var1.guildId;
             var4 = var12[var4];
             var4 = var15.bind(var3)(var14, var4);
- 407:
+ 418:
             var14 = var8.bind(var3)();
             var4 = var14.done;
             var5 = var14;
             if(!var4) { _fun0016_ip = 136; continue _fun0016 }
- 425:
+ 436:
             return var3;
- 427:
+ 438:
             var3 = _closure1_slot15;
             var2 = var3.warn;
             var24 = var1.guildId;
@@ -1346,7 +1348,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.bind(var3)(var1);
             var1 = false;
             return var1;
- 488:
+ 499:
             var1 = false;
             return var1;
         }
@@ -1359,12 +1361,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = _closure1_slot16;
             var5 = var2[var6];
             var2 = null;
-            if(!(var2 != var5)) { _fun0017_ip = 276; continue _fun0017 }
+            if(!(var2 != var5)) { _fun0017_ip = 287; continue _fun0017 }
  28:
             var4 = _closure1_slot13;
             var3 = var4.getGuild;
             var8 = var3.bind(var4)(var6);
-            if(!(var2 != var8)) { _fun0017_ip = 227; continue _fun0017 }
+            if(!(var2 != var8)) { _fun0017_ip = 238; continue _fun0017 }
  49:
             var3 = _closure1_slot10;
             var2 = var3.getId;
@@ -1381,7 +1383,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var2.avatarDecoration;
             var3['avatarDecoration'] = var9;
             var10 = _closure1_slot12;
-            var9 = var10.getRoles;
+            var9 = var10.getUnsafeMutableRoles;
             var8 = var8.id;
             var8 = var9.bind(var10)(var8);
             var3['guildRoles'] = var8;
@@ -1397,13 +1399,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['communicationDisabledUntil'] = var8;
             var8 = var2.fullProfileLoadedTimestamp;
             var3['fullProfileLoadedTimestamp'] = var8;
-            var2 = var2.flags;
-            var3['flags'] = var2;
+            var8 = var2.flags;
+            var3['flags'] = var8;
+            var2 = var2.collectibles;
+            var3['collectibles'] = var2;
             var2 = undefined;
             var3 = var7.bind(var2)(var3);
             var5[var4] = var3;
             return var2;
- 227:
+ 238:
             var3 = _closure1_slot15;
             var2 = var3.warn;
             var1 = global;
@@ -1415,7 +1419,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.bind(var3)(var1);
             var1 = false;
             return var1;
- 276:
+ 287:
             var1 = false;
             return var1;
         }
@@ -1659,19 +1663,39 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot47 = var13;
     var8 = function handleLoadSearchResults(arg1) {
         var1 = arg1;
-        var3 = var1.messages;
-        var2 = var3.forEach;
-        var1 = function(arg1) {
-            var3 = _closure1_slot47;
-            var2 = {};
+        var4 = var1.data;
+        var1 = new Array(0);
+        var _closure2_slot0 = var1;
+        var3 = var4.forEach;
+        var2 = function(arg1) {
             var1 = arg1;
-            var2['messages'] = var1;
+            var3 = var1.messages;
+            var2 = var3.forEach;
+            var1 = function(arg1) {
+                var3 = arg1;
+                var2 = var3.forEach;
+                var1 = function(arg1) {
+                    var3 = _closure2_slot0;
+                    var2 = var3.push;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
+                };
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
             var1 = undefined;
-            var2 = var3.bind(var1)(var2);
             return var1;
         };
-        var1 = var2.bind(var3)(var1);
+        var2 = var3.bind(var4)(var2);
+        var3 = _closure1_slot47;
+        var2 = {};
+        var2['messages'] = var1;
         var1 = undefined;
+        var2 = var3.bind(var1)(var2);
         return var1;
     };
     var1 = global;
@@ -2085,7 +2109,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  62:
                 var6 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var3 = 16;
+                var3 = 15;
                 var4 = var4[var3];
                 var3 = undefined;
                 var4 = var6.bind(var3)(var4);
@@ -2121,7 +2145,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  24:
                 var4 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 17;
+                var1 = 16;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var4.bind(var1)(var2);
@@ -2609,12 +2633,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  67:
             var6 = var3[var4];
  71:
-            if(!(var8 != var6)) { _fun0040_ip = 444; continue _fun0040 }
+            if(!(var8 != var6)) { _fun0040_ip = 455; continue _fun0040 }
  78:
             var2 = _closure1_slot13;
             var1 = var2.getGuild;
             var10 = var1.bind(var2)(var12);
-            if(!(var8 != var10)) { _fun0040_ip = 440; continue _fun0040 }
+            if(!(var8 != var10)) { _fun0040_ip = 451; continue _fun0040 }
  99:
             var1 = _closure1_slot25;
             var14 = var1[var12];
@@ -2679,7 +2703,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var6.avatarDecoration;
             var2['avatarDecoration'] = var12;
             var12 = _closure1_slot12;
-            var11 = var12.getRoles;
+            var11 = var12.getUnsafeMutableRoles;
             var10 = var10.id;
             var10 = var11.bind(var12)(var10);
             var2['guildRoles'] = var10;
@@ -2699,15 +2723,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var6.flags;
  414:
             var2['flags'] = var7;
-            var6 = var6.fullProfileLoadedTimestamp;
-            var2['fullProfileLoadedTimestamp'] = var6;
+            var7 = var6.fullProfileLoadedTimestamp;
+            var2['fullProfileLoadedTimestamp'] = var7;
+            var6 = var6.collectibles;
+            var2['collectibles'] = var6;
             var2 = var5.bind(var1)(var2);
             var3[var4] = var2;
             return var1;
- 440:
+ 451:
             var1 = false;
             return var1;
- 444:
+ 455:
             var1 = false;
             return var1;
         }
@@ -2958,7 +2984,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['roles'] = var5;
             var9 = _closure1_slot38;
             var8 = _closure1_slot12;
-            var5 = var8.getRoles;
+            var5 = var8.getUnsafeMutableRoles;
             var2 = var2.id;
             var8 = var5.bind(var8)(var2);
             var5 = var7.roles;
@@ -3031,7 +3057,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['roles'] = var5;
             var9 = _closure1_slot38;
             var8 = _closure1_slot12;
-            var5 = var8.getRoles;
+            var5 = var8.getUnsafeMutableRoles;
             var2 = var2.id;
             var8 = var5.bind(var8)(var2);
             var5 = var7.roles;
@@ -3080,12 +3106,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = _closure1_slot16;
             var5 = var2[var6];
             var2 = null;
-            if(!(var2 != var5)) { _fun0046_ip = 333; continue _fun0046 }
+            if(!(var2 != var5)) { _fun0046_ip = 375; continue _fun0046 }
  34:
             var7 = _closure1_slot13;
             var4 = var7.getGuild;
             var9 = var4.bind(var7)(var6);
-            if(!(var2 != var9)) { _fun0046_ip = 284; continue _fun0046 }
+            if(!(var2 != var9)) { _fun0046_ip = 326; continue _fun0046 }
  55:
             var2 = var3.user;
             var7 = var2.id;
@@ -3104,7 +3130,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var10.bind(var2)(var3);
             var4['avatarDecoration'] = var10;
             var11 = _closure1_slot12;
-            var10 = var11.getRoles;
+            var10 = var11.getUnsafeMutableRoles;
             var9 = var9.id;
             var9 = var10.bind(var11)(var9);
             var4['guildRoles'] = var9;
@@ -3127,6 +3153,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var10.now;
             var9 = var9.bind(var10)();
             var4['fullProfileLoadedTimestamp'] = var9;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var9 = 18;
+            var9 = var11[var9];
+            var11 = var10.bind(var2)(var9);
+            var10 = var11.parseServerUserCollectibles;
+            var9 = var3.collectibles;
+            var9 = var10.bind(var11)(var9);
+            var4['collectibles'] = var9;
             var4 = var8.bind(var2)(var4);
             var5[var7] = var4;
             var4 = _closure1_slot31;
@@ -3135,7 +3170,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var5[var3];
             var3 = var4.bind(var2)(var6, var3);
             return var2;
- 284:
+ 326:
             var3 = _closure1_slot15;
             var2 = var3.warn;
             var1 = global;
@@ -3147,7 +3182,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.bind(var3)(var1);
             var1 = false;
             return var1;
- 333:
+ 375:
             var1 = false;
             return var1;
         }
@@ -3290,8 +3325,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var7['LOAD_PINNED_MESSAGES_SUCCESS'] = var13;
-    var7['SEARCH_FINISH'] = var8;
-    var7['MOD_VIEW_SEARCH_FINISH'] = var8;
+    var7['SEARCH_MESSAGES_SUCCESS'] = var8;
+    var7['MOD_VIEW_SEARCH_MESSAGES_SUCCESS'] = var8;
     var8 = function hangdleMemberSafetyGuildMemberSearchSuccess(arg1) {
         var1 = arg1;
         var4 = var1.guildId;

@@ -1,43 +1,41 @@
 // discord_common/js/packages/flux/BatchedStoreListener.tsx
 export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
+    var6 = native3;
     var3 = native6;
-    var6 = native7;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
-    var _closure1_slot2 = var6;
+    var5 = native7;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var4 = var6[var1];
+    var4 = var5[var1];
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot2 = var4;
     var4 = 1;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var4 = var5[var4];
+    var4 = var6.bind(var1)(var4);
+    var _closure1_slot3 = var4;
     var2 = function() {
-        var4 = _closure1_slot4;
-        var3 = function BatchedStoreListener(arg1, arg2, arg3) {
+        var4 = _closure1_slot3;
+        var3 = function BatchedStoreListener(arg1, arg2) {
             var3 = this;
             var _closure3_slot0 = var3;
-            var5 = _closure1_slot3;
+            var5 = _closure1_slot2;
             var4 = _closure2_slot0;
             var1 = undefined;
             var4 = var5.bind(var1)(var3, var4);
             var2 = function() {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                    var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
                     var1 = 2;
                     var2 = var2[var1];
                     var1 = undefined;
@@ -59,8 +57,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['handleStoreChange'] = var2;
             var2 = arg1;
             var3['stores'] = var2;
-            var2 = arg3;
-            var3['libDiscoreContextId'] = var2;
             var2 = arg2;
             var3['changeCallback'] = var2;
             return var1;
@@ -70,62 +66,47 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = 'attach';
         var1['key'] = var2;
         var2 = function value(arg1) {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            var2 = this;
+            var _closure3_slot0 = var2;
+            var3 = arg1;
+            var _closure3_slot1 = var3;
+            var3 = var2.stores;
+            var2 = var3.forEach;
+            var1 = function(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                var2 = this;
-                var _closure3_slot0 = var2;
-                var3 = arg1;
-                var _closure3_slot1 = var3;
-                var4 = var2.stores;
-                var5 = var2.libDiscoreContextId;
-                var3 = var4.forEach;
-                var1 = function(arg1, arg2) {
-                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
-                        var3 = arg1;
-                        var1 = null;
-                        if(!(var1 != var3)) { _fun0003_ip = 37; continue _fun0003 }
+                    var3 = arg1;
+                    var1 = null;
+                    if(!(var1 != var3)) { _fun0002_ip = 37; continue _fun0002 }
  9:
-                        var2 = var3.addReactChangeListener;
-                        var1 = _closure3_slot0;
-                        var1 = var1.handleStoreChange;
-                        var1 = var2.bind(var3)(var1);
-                        var1 = undefined;
-                        return var1;
+                    var2 = var3.addReactChangeListener;
+                    var1 = _closure3_slot0;
+                    var1 = var1.handleStoreChange;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
  37:
-                        var1 = global;
-                        var3 = var1.Error;
-                        var11 = _closure3_slot1;
-                        var1 = var1.HermesInternal;
-                        var6 = var1.concat;
-                        var12 = '';
-                        var10 = " tried to load a non-existent store. Either it isn't defined or there is a circular dependency. Loaded ";
-                        var9 = arg2;
-                        var8 = ' stores before error.';
-                        var11 = var12[var6](var11, var10, var9, var8, var7);
-                        var2 = var3.prototype;
-                        var2 = Object.create(var2, {constructor: {value: var3}});
-                        var12 = var2;
-                        var1 = new var12[var3](var11, var10);
-                        var1 = var1 instanceof Object ? var1 : var2;
-                        throw var1;
-                    }
-                };
-                var1 = var3.bind(var4)(var1);
-                var1 = undefined;
-                if(!(var1 !== var5)) { _fun0002_ip = 90; continue _fun0002 }
- 49:
-                var4 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var3 = 3;
-                var3 = var6[var3];
-                var4 = var4.bind(var1)(var3);
-                var3 = var4.attachContextListener;
-                var2 = var2.handleStoreChange;
-                var2 = var3.bind(var4)(var5, var2);
- 90:
-                return var1;
-            }
+                    var1 = global;
+                    var3 = var1.Error;
+                    var11 = _closure3_slot1;
+                    var1 = var1.HermesInternal;
+                    var6 = var1.concat;
+                    var12 = '';
+                    var10 = " tried to load a non-existent store. Either it isn't defined or there is a circular dependency. Loaded ";
+                    var9 = arg2;
+                    var8 = ' stores before error.';
+                    var11 = var12[var6](var11, var10, var9, var8, var7);
+                    var2 = var3.prototype;
+                    var2 = Object.create(var2, {constructor: {value: var3}});
+                    var12 = var2;
+                    var1 = new var12[var3](var11, var10);
+                    var1 = var1 instanceof Object ? var1 : var2;
+                    throw var1;
+                }
+            };
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
         var1['value'] = var2;
         var2 = new Array(2);
@@ -134,35 +115,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var6 = 'detach';
         var1['key'] = var6;
         var5 = function value() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-                var2 = this;
-                var _closure3_slot0 = var2;
-                var3 = var2.stores;
-                var4 = var2.libDiscoreContextId;
-                var2 = var3.forEach;
-                var1 = function(arg1) {
-                    var3 = arg1;
-                    var2 = var3.removeReactChangeListener;
-                    var1 = _closure3_slot0;
-                    var1 = var1.handleStoreChange;
-                    var1 = var2.bind(var3)(var1);
-                    return var1;
-                };
+            var2 = this;
+            var _closure3_slot0 = var2;
+            var3 = var2.stores;
+            var2 = var3.forEach;
+            var1 = function(arg1) {
+                var3 = arg1;
+                var2 = var3.removeReactChangeListener;
+                var1 = _closure3_slot0;
+                var1 = var1.handleStoreChange;
                 var1 = var2.bind(var3)(var1);
-                var1 = undefined;
-                if(!(var1 !== var4)) { _fun0004_ip = 76; continue _fun0004 }
- 42:
-                var3 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var2 = 3;
-                var2 = var5[var2];
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.destroyContext;
-                var2 = var2.bind(var3)(var4);
- 76:
                 return var1;
-            }
+            };
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
         };
         var1['value'] = var5;
         var2[1] = var1;
@@ -171,9 +138,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2 = var2.bind(var1)();
-    var4 = 4;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
+    var4 = 3;
+    var5 = var5[var4];
+    var4 = native2;
+    var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = '../discord_common/js/packages/flux/BatchedStoreListener.tsx';
     var4 = var5.bind(var6)(var4);

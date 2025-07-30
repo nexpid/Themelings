@@ -2052,7 +2052,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15['chatInputRef'] = var22;
             var16 = var21.bind(var5)(var17, var15);
  1682:
-            var15 = new Array(6);
+            var15 = new Array(5);
             var15[0] = var16;
             var16 = null;
             if(!var20) { _fun0002_ip = 1741; continue _fun0002 }
@@ -2341,36 +2341,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16['children'] = var19;
             var16 = var18.bind(var5)(var17, var16);
             var15[4] = var16;
-            var17 = _closure1_slot0;
-            var18 = _closure1_slot3;
-            var16 = 71;
-            var16 = var18[var16];
-            var17 = var17.bind(var5)(var16);
-            var16 = var17.isLegacyAndroidKeyboard;
-            var17 = var16.bind(var17)();
-            var16 = undefined;
-            if(!var17) { _fun0002_ip = 2908; continue _fun0002 }
- 2882:
-            var18 = _closure1_slot0;
-            var19 = _closure1_slot3;
-            var17 = 66;
-            var17 = var19[var17];
-            var17 = var18.bind(var5)(var17);
-            var16 = var17.PORTAL_KEYBOARD_PLACEHOLDER_INSTANCE;
- 2908:
-            var15[5] = var16;
             var12['children'] = var15;
             var12 = var14.bind(var5)(var13, var12);
             var11[5] = var12;
             var1['children'] = var11;
             var6 = var6.bind(var5)(var4, var1);
             var1 = var6;
-            if(var3) { _fun0002_ip = 3005; continue _fun0002 }
- 2942:
+            if(var3) { _fun0002_ip = 2940; continue _fun0002 }
+ 2877:
             var4 = _closure1_slot28;
             var3 = _closure1_slot1;
             var11 = _closure1_slot3;
-            var2 = 72;
+            var2 = 71;
             var2 = var11[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -2382,7 +2364,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['isReadonly'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 3005:
+ 2940:
             return var1;
         }
     };
@@ -2391,7 +2373,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['displayName'] = var2;
     var2 = var7.memo;
     var2 = var2.bind(var7)(var4);
-    var4 = 73;
+    var4 = 72;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

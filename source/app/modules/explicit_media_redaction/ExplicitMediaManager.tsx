@@ -1649,49 +1649,58 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var _closure1_slot32 = var1;
-    var1 = function handleSearchFinish(arg1) {
-        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+    var1 = function handleSearchMessagesSuccess(arg1) {
+        var2 = arg1;
+        var4 = var2.data;
+        var2 = false;
+        var _closure2_slot0 = var2;
+        var3 = var4.forEach;
+        var2 = function(arg1) {
+            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
  0:
-            var1 = arg1;
-            var5 = var1.messages;
-            var1 = null;
-            if(!(var1 != var5)) { _fun0025_ip = 81; continue _fun0025 }
- 15:
-            var4 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var2 = 28;
-            var2 = var6[var2];
-            var3 = undefined;
-            var2 = var4.bind(var3)(var2);
-            var5 = var2.bind(var3)(var5);
-            var2 = _closure1_slot28;
-            var1 = 24;
-            var1 = var6[var1];
-            var4 = var4.bind(var3)(var1);
-            var1 = function(arg1, arg2) {
-                _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+                var1 = arg1;
+                var5 = var1.messages;
+                var4 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var1 = 28;
+                var3 = var6[var1];
+                var1 = undefined;
+                var3 = var4.bind(var1)(var3);
+                var5 = var3.bind(var1)(var5);
+                var3 = _closure1_slot28;
+                var2 = 24;
+                var2 = var6[var2];
+                var4 = var4.bind(var1)(var2);
+                var2 = function(arg1, arg2) {
+                    _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
  0:
-                    var3 = arg1;
-                    var2 = arg2;
-                    var4 = var3.id;
-                    var1 = var2.id;
-                    var1 = var4 === var1;
-                    if(!var1) { _fun0026_ip = 37; continue _fun0026 }
+                        var3 = arg1;
+                        var2 = arg2;
+                        var4 = var3.id;
+                        var1 = var2.id;
+                        var1 = var4 === var1;
+                        if(!var1) { _fun0026_ip = 37; continue _fun0026 }
  23:
-                    var3 = var3.channel_id;
-                    var2 = var2.channel_id;
-                    var1 = var3 === var2;
+                        var3 = var3.channel_id;
+                        var2 = var2.channel_id;
+                        var1 = var3 === var2;
  37:
-                    return var1;
-                }
-            };
-            var1 = var4.bind(var3)(var5, var1);
-            var1 = var2.bind(var3)(var1);
-            return var1;
- 81:
-            var1 = false;
-            return var1;
-        }
+                        return var1;
+                    }
+                };
+                var2 = var4.bind(var1)(var5, var2);
+                var3 = var3.bind(var1)(var2);
+                if(var3) { _fun0025_ip = 83; continue _fun0025 }
+ 76:
+                var3 = _closure2_slot0;
+ 83:
+                _closure2_slot0 = var3;
+                return var1;
+            }
+        };
+        var2 = var3.bind(var4)(var2);
+        var1 = _closure2_slot0;
+        return var1;
     };
     var _closure1_slot33 = var1;
     var1 = function handleLoadPinnedMessages(arg1) {
@@ -2073,8 +2082,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = _closure1_slot23;
                 var2['LOGOUT'] = var4;
                 var4 = _closure1_slot33;
-                var2['SEARCH_FINISH'] = var4;
-                var2['MOD_VIEW_SEARCH_FINISH'] = var4;
+                var2['SEARCH_MESSAGES_SUCCESS'] = var4;
+                var2['MOD_VIEW_SEARCH_MESSAGES_SUCCESS'] = var4;
                 var4 = _closure1_slot38;
                 var2['CHANNEL_SELECT'] = var4;
                 var4 = _closure1_slot34;

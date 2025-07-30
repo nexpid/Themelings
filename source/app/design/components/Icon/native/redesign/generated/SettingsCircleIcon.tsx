@@ -45,19 +45,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var3.style;
             var13 = var3.secondaryColor;
             var4 = undefined;
-            if(!(var13 === var4)) { _fun0001_ip = 54; continue _fun0001 }
+            if(!(var13 === var4)) { _fun0001_ip = 26; continue _fun0001 }
  20:
-            var2 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var1 = 3;
-            var1 = var5[var1];
-            var1 = var2.bind(var4)(var1);
-            var1 = var1.colors;
-            var13 = var1.STATUS_DANGER;
- 54:
+            var13 = '#C12A35';
+ 26:
             var11 = var3.color;
-            if(!(var11 === var4)) { _fun0001_ip = 97; continue _fun0001 }
- 63:
+            if(!(var11 === var4)) { _fun0001_ip = 69; continue _fun0001 }
+ 35:
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 3;
@@ -65,7 +59,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.bind(var4)(var1);
             var1 = var1.colors;
             var11 = var1.INTERACTIVE_NORMAL;
- 97:
+ 69:
             var2 = {'style': 0, 'secondaryColor': 0, 'color': 0};
             var18 = null;
             var19 = var2;

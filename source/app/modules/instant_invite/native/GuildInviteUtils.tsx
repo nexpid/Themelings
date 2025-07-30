@@ -364,7 +364,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                 var3 = _closure2_slot0;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0003_ip = 87; continue _fun0003 }
+                if(!(var2 != var3)) { _fun0003_ip = 89; continue _fun0003 }
  15:
                 var3 = _closure1_slot6;
                 var2 = var3.getMemberCounts;
@@ -462,7 +462,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1[0] = var3;
                 var1[1] = var2;
                 return var1;
- 87:
+ 89:
                 var1 = new Array(2);
                 var2 = new Array(0);
                 var1[0] = var2;

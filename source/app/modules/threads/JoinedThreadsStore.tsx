@@ -284,14 +284,70 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
+    var10 = function handleSearchMessagesSuccess(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+            var2 = arg1;
+            var4 = var2.guildId;
+            var _closure2_slot0 = var4;
+            var3 = var2.data;
+            var2 = null;
+            if(!(var2 != var4)) { _fun0006_ip = 40; continue _fun0006 }
+ 25:
+            var2 = var3.forEach;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var3 = var1.members;
+                var2 = var3.forEach;
+                var1 = function(arg1) {
+                    var1 = arg1;
+                    var5 = _closure1_slot9;
+                    var4 = var1.id;
+                    var3 = {};
+                    var6 = var1.id;
+                    var3['threadId'] = var6;
+                    var6 = _closure2_slot0;
+                    var3['guildId'] = var6;
+                    var6 = var1.flags;
+                    var3['flags'] = var6;
+                    var6 = var1.muted;
+                    var3['muted'] = var6;
+                    var6 = var1.muteConfig;
+                    var3['muteConfig'] = var6;
+                    var6 = global;
+                    var8 = var6.Date;
+                    var9 = var1.joinTimestamp;
+                    var7 = var8.prototype;
+                    var7 = Object.create(var7, {constructor: {value: var8}});
+                    var10 = var7;
+                    var6 = new var10[var8](var9, var8);
+                    var6 = var6 instanceof Object ? var6 : var7;
+                    var3['joinTimestamp'] = var6;
+                    var5[var4] = var3;
+                    var3 = _closure1_slot17;
+                    var2 = var1.id;
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                };
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+ 40:
+            var1 = undefined;
+            return var1;
+        }
+    };
     var2 = global;
-    var11 = var2.Object;
-    var10 = var11.defineProperty;
+    var12 = var2.Object;
+    var11 = var12.defineProperty;
     var9 = {};
     var1 = true;
     var9['value'] = var1;
     var1 = '__esModule';
-    var1 = var10.bind(var11)(var3, var1, var9);
+    var1 = var11.bind(var12)(var3, var1, var9);
     var1 = 0;
     var9 = var6[var1];
     var1 = undefined;
@@ -327,17 +383,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = 7;
     var9 = var6[var9];
     var9 = var8.bind(var1)(var9);
-    var10 = var9.prototype;
-    var10 = Object.create(var10, {constructor: {value: var9}});
-    var15 = var10;
-    var9 = new var15[var9](var14);
-    var9 = var9 instanceof Object ? var9 : var10;
+    var11 = var9.prototype;
+    var11 = Object.create(var11, {constructor: {value: var9}});
+    var16 = var11;
+    var9 = new var16[var9](var15);
+    var9 = var9 instanceof Object ? var9 : var11;
     var _closure1_slot10 = var9;
     var2 = var2.Set;
     var9 = var2.prototype;
     var9 = Object.create(var9, {constructor: {value: var2}});
-    var15 = var9;
-    var2 = new var15[var2](var14);
+    var16 = var9;
+    var2 = new var16[var2](var15);
     var2 = var2 instanceof Object ? var2 : var9;
     var _closure1_slot11 = var2;
     var2 = 9;
@@ -346,7 +402,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = var2.Store;
     var2 = function(arg1) {
         var4 = function JoinedThreadsStoreClass() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                 var4 = this;
                 var3 = undefined;
@@ -359,13 +415,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot13;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0006_ip = 69; continue _fun0006 }
+                if(var1) { _fun0007_ip = 69; continue _fun0007 }
  51:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0006_ip = 105; continue _fun0006;
+                _fun0007_ip = 105; continue _fun0007;
  69:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -402,7 +458,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'joinTimestamp';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                 var2 = _closure1_slot9;
                 var1 = arg1;
@@ -410,7 +466,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0007_ip = 31; continue _fun0007 }
+                if(var3) { _fun0008_ip = 31; continue _fun0008 }
  25:
                 var1 = var2.joinTimestamp;
  31:
@@ -423,7 +479,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'flags';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                 var2 = _closure1_slot9;
                 var1 = arg1;
@@ -431,7 +487,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0008_ip = 30; continue _fun0008 }
+                if(var3) { _fun0009_ip = 30; continue _fun0009 }
  25:
                 var1 = var2.flags;
  30:
@@ -457,7 +513,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'getMuteConfig';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
                 var2 = _closure1_slot9;
                 var1 = arg1;
@@ -465,7 +521,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0009_ip = 31; continue _fun0009 }
+                if(var3) { _fun0010_ip = 31; continue _fun0010 }
  25:
                 var1 = var2.muteConfig;
  31:
@@ -503,9 +559,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9['displayName'] = var2;
     var2 = 10;
     var2 = var6[var2];
-    var14 = var8.bind(var1)(var2);
+    var15 = var8.bind(var1)(var2);
     var2 = {};
-    var10 = function handleConnectionOpen(arg1) {
+    var11 = function handleConnectionOpen(arg1) {
         var3 = _closure1_slot10;
         var1 = var3.reset;
         var1 = var1.bind(var3)();
@@ -533,8 +589,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = undefined;
         return var1;
     };
-    var2['CONNECTION_OPEN'] = var10;
-    var10 = function handleOverlayInitialize(arg1) {
+    var2['CONNECTION_OPEN'] = var11;
+    var11 = function handleOverlayInitialize(arg1) {
         var1 = arg1;
         var4 = var1.joinedThreads;
         var5 = _closure1_slot0;
@@ -572,8 +628,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _closure1_slot9 = var2;
         return var1;
     };
-    var2['OVERLAY_INITIALIZE'] = var10;
-    var10 = function handleGuildCreate(arg1) {
+    var2['OVERLAY_INITIALIZE'] = var11;
+    var11 = function handleGuildCreate(arg1) {
         var1 = arg1;
         var3 = var1.guild;
         var5 = _closure1_slot14;
@@ -584,8 +640,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var2.bind(var1)(var3);
         return var1;
     };
-    var2['GUILD_CREATE'] = var10;
-    var10 = function handleGuildDelete(arg1) {
+    var2['GUILD_CREATE'] = var11;
+    var11 = function handleGuildDelete(arg1) {
         var1 = arg1;
         var1 = var1.guild;
         var3 = _closure1_slot14;
@@ -594,8 +650,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var2['GUILD_DELETE'] = var10;
-    var10 = function handleThreadCreate(arg1) {
+    var2['GUILD_DELETE'] = var11;
+    var11 = function handleThreadCreate(arg1) {
         var1 = arg1;
         var3 = var1.channel;
         var2 = _closure1_slot16;
@@ -603,21 +659,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var2.bind(var1)(var3);
         return var1;
     };
-    var2['THREAD_CREATE'] = var10;
+    var2['THREAD_CREATE'] = var11;
     var2['THREAD_LIST_SYNC'] = var7;
-    var2['SEARCH_FINISH'] = var7;
-    var2['MOD_VIEW_SEARCH_FINISH'] = var7;
+    var2['SEARCH_MESSAGES_SUCCESS'] = var10;
+    var2['MOD_VIEW_SEARCH_MESSAGES_SUCCESS'] = var10;
     var2['LOAD_THREADS_SUCCESS'] = var7;
     var2['LOAD_ARCHIVED_THREADS_SUCCESS'] = var7;
     var7 = function handleThreadDelete(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var1 = arg1;
             var1 = var1.channel;
             var4 = var1.id;
             var2 = _closure1_slot9;
             var2 = var4 in var2;
-            if(var2) { _fun0010_ip = 31; continue _fun0010 }
+            if(var2) { _fun0011_ip = 31; continue _fun0011 }
  27:
             var2 = false;
             return var2;
@@ -635,14 +691,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['THREAD_DELETE'] = var7;
     var7 = function handleThreadMemberUpdate(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var1 = arg1;
             var4 = _closure1_slot8;
             var3 = var4.getId;
             var4 = var3.bind(var4)();
             var3 = var1.userId;
-            if(!(var4 === var3)) { _fun0011_ip = 154; continue _fun0011 }
+            if(!(var4 === var3)) { _fun0012_ip = 154; continue _fun0012 }
  32:
             var5 = _closure1_slot9;
             var4 = var1.id;
@@ -679,7 +735,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['THREAD_MEMBER_UPDATE'] = var7;
     var7 = function handleThreadMemberLocalUpdate(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
             var1 = arg1;
             var6 = var1.id;
@@ -690,17 +746,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var5.getId;
             var1 = var1.bind(var5)();
             var1 = var1 === var2;
-            if(!var1) { _fun0012_ip = 153; continue _fun0012 }
+            if(!var1) { _fun0013_ip = 153; continue _fun0013 }
  48:
             var2 = null;
             var2 = var2 !== var7;
-            if(!var2) { _fun0012_ip = 150; continue _fun0012 }
+            if(!var2) { _fun0013_ip = 150; continue _fun0013 }
  57:
             var5 = _closure1_slot9;
-            if(var3) { _fun0012_ip = 70; continue _fun0012 }
+            if(var3) { _fun0013_ip = 70; continue _fun0013 }
  64:
             var3 = delete var5[var6];
-            _fun0012_ip = 148; continue _fun0012;
+            _fun0013_ip = 148; continue _fun0013;
  70:
             var4 = {};
             var4['threadId'] = var6;
@@ -733,7 +789,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var2['THREAD_MEMBER_LOCAL_UPDATE'] = var7;
     var7 = function handleThreadMembersUpdate(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
             var3 = arg1;
             var _closure2_slot0 = var3;
@@ -742,7 +798,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var3.removedMemberIds;
             var2 = null;
             var4 = var2 != var7;
-            if(!var4) { _fun0013_ip = 57; continue _fun0013 }
+            if(!var4) { _fun0014_ip = 57; continue _fun0014 }
  30:
             var6 = var7.includes;
             var8 = _closure1_slot8;
@@ -750,13 +806,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.bind(var8)();
             var4 = var6.bind(var7)(var5);
  57:
-            if(!var4) { _fun0013_ip = 76; continue _fun0013 }
+            if(!var4) { _fun0014_ip = 76; continue _fun0014 }
  60:
             var6 = var3.id;
             var5 = _closure1_slot9;
             var4 = var6 in var5;
  76:
-            if(!var4) { _fun0013_ip = 114; continue _fun0013 }
+            if(!var4) { _fun0014_ip = 114; continue _fun0014 }
  79:
             var5 = {};
             var9 = _closure1_slot9;
@@ -769,18 +825,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure2_slot1 = var4;
  114:
             var4 = var3.addedMembers;
-            if(!(var2 != var4)) { _fun0013_ip = 139; continue _fun0013 }
+            if(!(var2 != var4)) { _fun0014_ip = 139; continue _fun0014 }
  124:
             var3 = var4.forEach;
             var2 = function(arg1) {
-                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                     var7 = arg1;
                     var2 = var7.userId;
                     var4 = _closure1_slot8;
                     var1 = var4.getId;
                     var1 = var1.bind(var4)();
-                    if(!(var2 === var1)) { _fun0014_ip = 178; continue _fun0014 }
+                    if(!(var2 === var1)) { _fun0015_ip = 178; continue _fun0015 }
  32:
                     var6 = {};
                     var10 = _closure1_slot9;
@@ -830,9 +886,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['THREAD_MEMBERS_UPDATE'] = var7;
     var7 = var9.prototype;
     var7 = Object.create(var7, {constructor: {value: var9}});
-    var15 = var7;
-    var13 = var2;
-    var2 = new var15[var9](var14, var13, var12);
+    var16 = var7;
+    var14 = var2;
+    var2 = new var16[var9](var15, var14, var13);
     var2 = var2 instanceof Object ? var2 : var7;
     var _closure1_slot12 = var2;
     var4 = 11;

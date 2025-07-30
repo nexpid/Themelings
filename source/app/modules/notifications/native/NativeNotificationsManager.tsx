@@ -275,7 +275,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = new var13[var9](var12, var11);
     var4 = var4 instanceof Object ? var4 : var8;
     var _closure1_slot11 = var4;
-    var4 = 14;
+    var4 = 12;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -764,52 +764,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.isIOS;
                         var3 = var3.bind(var4)();
-                        if(var3) { _fun0010_ip = 215; continue _fun0010 }
- 41:
-                        var4 = _closure1_slot1;
-                        var5 = _closure1_slot2;
-                        var3 = 12;
-                        var3 = var5[var3];
-                        var8 = var4.bind(var1)(var3);
-                        var7 = var8.getCurrentConfig;
-                        var3 = {};
-                        var6 = 'call_delete';
-                        var3['location'] = var6;
-                        var3 = var7.bind(var8)(var3);
-                        var7 = var3.useImprovedNotifications;
-                        var3 = 13;
-                        var3 = var5[var3];
-                        var5 = var4.bind(var1)(var3);
-                        var4 = var5.getCurrentConfig;
-                        var3 = {};
-                        var3['location'] = var6;
-                        var3 = var4.bind(var5)(var3);
-                        var4 = var3.showFullscreenCallUI;
+                        if(var3) { _fun0010_ip = 126; continue _fun0010 }
+ 38:
                         var3 = _closure1_slot9;
                         var3 = var3.DCDNotificationManager;
                         var3 = var3.setShowMissedCallNotifications;
-                        var5 = null;
-                        if(!(var5 != var3)) { _fun0010_ip = 174; continue _fun0010 }
- 147:
+                        var4 = null;
+                        if(!(var4 != var3)) { _fun0010_ip = 83; continue _fun0010 }
+ 60:
                         var3 = _closure1_slot9;
                         var6 = var3.DCDNotificationManager;
-                        var3 = var6.setShowMissedCallNotifications;
-                        if(var7) { _fun0010_ip = 169; continue _fun0010 }
- 166:
-                        var7 = var4;
- 169:
-                        var3 = var3.bind(var6)(var7);
- 174:
+                        var5 = var6.setShowMissedCallNotifications;
+                        var3 = true;
+                        var3 = var5.bind(var6)(var3);
+ 83:
                         var3 = _closure1_slot9;
                         var3 = var3.DCDNotificationManager;
                         var3 = var3.setShowFullscreenCallUI;
-                        if(!(var5 != var3)) { _fun0010_ip = 215; continue _fun0010 }
- 194:
+                        if(!(var4 != var3)) { _fun0010_ip = 126; continue _fun0010 }
+ 103:
                         var2 = _closure1_slot9;
-                        var3 = var2.DCDNotificationManager;
-                        var2 = var3.setShowFullscreenCallUI;
-                        var2 = var2.bind(var3)(var4);
- 215:
+                        var4 = var2.DCDNotificationManager;
+                        var3 = var4.setShowFullscreenCallUI;
+                        var2 = true;
+                        var2 = var3.bind(var4)(var2);
+ 126:
                         return var1;
                     }
                 };
@@ -844,7 +823,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 15;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

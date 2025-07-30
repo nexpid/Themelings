@@ -4,11 +4,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = native3;
     var3 = native6;
     var6 = native7;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot0 = var7;
     var1 = native4;
-    var _closure1_slot2 = var1;
-    var _closure1_slot3 = var6;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -80,7 +79,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = undefined;
             if(!var9) { _fun0001_ip = 246; continue _fun0001 }
  233:
-            var9 = _closure1_slot14;
+            var9 = _closure1_slot13;
             var7 = var9.bind(var8)(var3, var8);
  246:
             _fun0001_ip = 264; continue _fun0001;
@@ -92,7 +91,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7;
             _fun0001_ip = 282; continue _fun0001;
  269:
-            var7 = _closure1_slot14;
+            var7 = _closure1_slot13;
             var6 = var7.bind(var8)(var3, var8);
  282:
             var4 = var6;
@@ -151,7 +150,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -184,7 +183,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot13 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -197,36 +196,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var6[var1];
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.updateJoinedAt;
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot10 = var4;
+    var _closure1_slot9 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var4 = 8;
     var4 = var6[var4];
     var8 = var7.bind(var1)(var4);
@@ -236,13 +235,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var13 = var7;
     var4 = new var13[var8](var12, var11);
     var4 = var4 instanceof Object ? var4 : var7;
-    var _closure1_slot12 = var4;
+    var _closure1_slot11 = var4;
     var2 = function() {
-        var4 = _closure1_slot6;
+        var4 = _closure1_slot5;
         var3 = function Guilds() {
             var3 = this;
             var _closure3_slot0 = var3;
-            var5 = _closure1_slot5;
+            var5 = _closure1_slot4;
             var2 = _closure2_slot2;
             var1 = undefined;
             var2 = var5.bind(var1)(var3, var2);
@@ -344,7 +343,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = {};
         var2 = 'getAsync';
         var5['key'] = var2;
-        var8 = _closure1_slot4;
+        var8 = _closure1_slot3;
         var2 = undefined;
         var1 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
@@ -358,8 +357,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var3.performance;
                     var2 = var4.now;
                     var7 = var2.bind(var4)();
-                    var6 = _closure1_slot1;
-                    var5 = _closure1_slot3;
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot2;
                     var2 = 9;
                     var5 = var5[var2];
                     var2 = undefined;
@@ -379,7 +378,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var3.performance;
                     var5 = var6.now;
                     var6 = var5.bind(var6)();
-                    var5 = _closure1_slot12;
+                    var5 = _closure1_slot11;
                     var4 = var5.verbose;
                     var14 = var6 - var7;
                     var12 = var2.length;
@@ -425,8 +424,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0005_ip = 75; continue _fun0005 }
  7:
-                    var4 = _closure1_slot1;
-                    var3 = _closure1_slot3;
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
                     var2 = 9;
                     var3 = var3[var2];
                     var2 = undefined;
@@ -473,15 +472,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = function value(arg1, arg2) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                var13 = arg2;
-                var12 = this;
-                var3 = _closure1_slot13;
+                var14 = arg2;
+                var13 = this;
+                var3 = _closure1_slot12;
                 var1 = arg1;
                 var2 = var1.guilds;
                 var1 = undefined;
-                var10 = var3.bind(var1)(var2);
-                var3 = var10.bind(var1)();
+                var11 = var3.bind(var1)(var2);
+                var3 = var11.bind(var1)();
                 var2 = var3.done;
+                var10 = 12;
                 var9 = 11;
                 var8 = 10;
                 var7 = 'partial';
@@ -489,76 +489,80 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = 'unavailable';
                 var4 = var3;
                 var3 = undefined;
-                if(var2) { _fun0006_ip = 351; continue _fun0006 }
- 65:
-                var14 = var4.value;
-                var2 = var14.data_mode;
-                if(!(var5 !== var2)) { _fun0006_ip = 349; continue _fun0006 }
- 83:
-                var16 = _closure1_slot11;
-                var15 = var16.getGuild;
-                var2 = var14.id;
-                var21 = var15.bind(var16)(var2);
-                if(!(var6 != var21)) { _fun0006_ip = 329; continue _fun0006 }
- 109:
-                var16 = _closure1_slot10;
-                var15 = var16.getRoles;
-                var2 = var14.id;
-                var2 = var15.bind(var16)(var2);
-                var15 = var14.data_mode;
-                if(!(var7 !== var15)) { _fun0006_ip = 181; continue _fun0006 }
- 139:
-                var16 = _closure1_slot0;
-                var15 = _closure1_slot3;
-                var15 = var15[var8];
-                var18 = var16.bind(var1)(var15);
-                var17 = var18.sortServerRoles;
-                var16 = var14.id;
-                var15 = var14.roles;
-                var19 = var17.bind(var18)(var16, var15);
-                _fun0006_ip = 243; continue _fun0006;
- 181:
+                if(var2) { _fun0006_ip = 374; continue _fun0006 }
+ 68:
+                var15 = var4.value;
+                var2 = var15.data_mode;
+                if(!(var5 !== var2)) { _fun0006_ip = 372; continue _fun0006 }
+ 86:
+                var17 = _closure1_slot10;
+                var16 = var17.getGuild;
+                var2 = var15.id;
+                var24 = var16.bind(var17)(var2);
+                if(!(var6 != var24)) { _fun0006_ip = 352; continue _fun0006 }
+ 112:
+                var17 = _closure1_slot9;
+                var16 = var17.getUnsafeMutableRoles;
+                var2 = var15.id;
+                var2 = var16.bind(var17)(var2);
+                var16 = var15.data_mode;
+                if(!(var7 !== var16)) { _fun0006_ip = 184; continue _fun0006 }
+ 142:
+                var17 = _closure1_slot1;
                 var16 = _closure1_slot2;
-                var15 = _closure1_slot3;
-                var15 = var15[var8];
-                var20 = var16.bind(var1)(var15);
-                var18 = var20.filterRoleDeletes;
-                var25 = var14.id;
-                var15 = var14.partial_updates;
-                var23 = var15.roles;
-                var15 = var14.partial_updates;
-                var22 = var15.deleted_role_ids;
-                var26 = var20;
-                var24 = var2;
-                var19 = var26[var18](var25, var24, var23, var22, var21);
- 243:
-                var15 = var12.put;
-                var20 = _closure1_slot2;
-                var16 = _closure1_slot3;
-                var17 = var16[var9];
-                var18 = var20.bind(var1)(var17);
-                var17 = var18.attachSerializedData;
                 var16 = var16[var9];
-                var20 = var20.bind(var1)(var16);
-                var16 = var20.fromBackgroundSync;
-                var16 = var16.bind(var20)(var14, var21);
-                var21 = _closure1_slot9;
-                var20 = var21.getSelfMember;
-                var14 = var14.id;
-                var14 = var20.bind(var21)(var14);
-                var14 = var17.bind(var18)(var16, var19, var14);
-                var14 = var15.bind(var12)(var14, var13);
+                var19 = var17.bind(var1)(var16);
+                var18 = var19.fromServerArray;
+                var17 = var15.id;
+                var16 = var15.roles;
+                var22 = var18.bind(var19)(var17, var16);
+                _fun0006_ip = 246; continue _fun0006;
+ 184:
+                var17 = _closure1_slot1;
+                var16 = _closure1_slot2;
+                var16 = var16[var8];
+                var20 = var17.bind(var1)(var16);
+                var19 = var20.filterRoleDeletes;
+                var28 = var15.id;
+                var16 = var15.partial_updates;
+                var26 = var16.roles;
+                var16 = var15.partial_updates;
+                var25 = var16.deleted_role_ids;
+                var29 = var20;
+                var27 = var2;
+                var22 = var29[var19](var28, var27, var26, var25, var24);
+ 246:
+                var16 = var13.put;
+                var21 = _closure1_slot1;
+                var17 = _closure1_slot2;
+                var18 = var17[var10];
+                var20 = var21.bind(var1)(var18);
+                var19 = var20.attachSerializedData;
+                var18 = var17[var10];
+                var23 = var21.bind(var1)(var18);
+                var18 = var23.fromBackgroundSync;
+                var18 = var18.bind(var23)(var15, var24);
+                var17 = var17[var9];
+                var21 = var21.bind(var1)(var17);
+                var17 = var21.toSerializedPartition;
+                var17 = var17.bind(var21)(var22);
+                var22 = _closure1_slot8;
+                var21 = var22.getSelfMember;
+                var15 = var15.id;
+                var15 = var21.bind(var22)(var15);
+                var15 = var19.bind(var20)(var18, var17, var15);
+                var15 = var16.bind(var13)(var15, var14);
                 var3 = var2;
- 329:
-                var14 = var10.bind(var1)();
-                var2 = var14.done;
-                var4 = var14;
-                if(var2) { _fun0006_ip = 351; continue _fun0006 }
- 344:
-                _fun0006_ip = 65; continue _fun0006;
- 349:
+ 352:
+                var15 = var11.bind(var1)();
+                var2 = var15.done;
+                var4 = var15;
+                if(var2) { _fun0006_ip = 374; continue _fun0006 }
+ 367:
+                _fun0006_ip = 68; continue _fun0006;
+ 372:
                 return var1;
- 351:
+ 374:
                 return var1;
             }
         };
@@ -574,7 +578,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = this;
                 var1 = var5.clear;
                 var1 = var1.bind(var5)(var6);
-                var3 = _closure1_slot13;
+                var3 = _closure1_slot12;
                 var1 = arg1;
                 var2 = var1.guilds;
                 var1 = undefined;
@@ -617,35 +621,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = function value(arg1, arg2) {
             var2 = arg1;
             var5 = this;
-            var4 = _closure1_slot11;
+            var4 = _closure1_slot10;
             var3 = var4.getGuild;
             var1 = var2.guild;
             var1 = var1.id;
-            var10 = var3.bind(var4)(var1);
-            var6 = _closure1_slot2;
-            var11 = _closure1_slot3;
-            var3 = 11;
-            var4 = var11[var3];
+            var8 = var3.bind(var4)(var1);
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var3 = 12;
+            var4 = var13[var3];
             var1 = undefined;
-            var8 = var6.bind(var1)(var4);
-            var7 = var8.fromGuild;
+            var7 = var12.bind(var1)(var4);
+            var6 = var7.fromGuild;
             var4 = var2.guild;
-            var8 = var7.bind(var8)(var4, var10);
+            var8 = var6.bind(var7)(var4, var8);
             var4 = var5.put;
-            var3 = var11[var3];
-            var7 = var6.bind(var1)(var3);
+            var3 = var13[var3];
+            var7 = var12.bind(var1)(var3);
             var6 = var7.attachSerializedData;
-            var10 = _closure1_slot0;
-            var3 = 10;
-            var3 = var11[var3];
-            var12 = var10.bind(var1)(var3);
-            var11 = var12.sortServerRoles;
+            var3 = 11;
+            var10 = var13[var3];
+            var11 = var12.bind(var1)(var10);
+            var10 = var11.toSerializedPartition;
+            var3 = var13[var3];
+            var14 = var12.bind(var1)(var3);
+            var13 = var14.fromServerArray;
             var3 = var2.guild;
-            var10 = var3.id;
+            var12 = var3.id;
             var3 = var2.guild;
             var3 = var3.roles;
-            var3 = var11.bind(var12)(var10, var3);
-            var10 = _closure1_slot9;
+            var3 = var13.bind(var14)(var12, var3);
+            var3 = var10.bind(var11)(var3);
+            var10 = _closure1_slot8;
             var9 = var10.getSelfMember;
             var2 = var2.guild;
             var2 = var2.id;
@@ -681,21 +688,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                 var1 = arg1;
                 var4 = this;
-                var5 = _closure1_slot11;
+                var5 = _closure1_slot10;
                 var3 = var5.getGuild;
                 var2 = var1.guildId;
                 var7 = var3.bind(var5)(var2);
-                var5 = _closure1_slot10;
-                var3 = var5.getRoles;
+                var5 = _closure1_slot9;
+                var3 = var5.getUnsafeMutableRoles;
                 var2 = var1.guildId;
                 var9 = var3.bind(var5)(var2);
                 var2 = null;
                 if(!(var2 != var7)) { _fun0008_ip = 158; continue _fun0008 }
  54:
                 var3 = var4.put;
-                var6 = _closure1_slot2;
-                var5 = _closure1_slot3;
-                var2 = 11;
+                var6 = _closure1_slot1;
+                var5 = _closure1_slot2;
+                var2 = 12;
                 var5 = var5[var2];
                 var2 = undefined;
                 var6 = var6.bind(var2)(var5);
@@ -708,7 +715,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var10 = var9.id;
                 var9 = var1.role;
                 var2[var10] = var9;
-                var9 = _closure1_slot9;
+                var9 = _closure1_slot8;
                 var8 = var9.getSelfMember;
                 var1 = var1.guildId;
                 var1 = var8.bind(var9)(var1);
@@ -731,35 +738,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = arg1;
                 var4 = this;
                 var _closure3_slot0 = var5;
-                var7 = _closure1_slot11;
+                var7 = _closure1_slot10;
                 var6 = var7.getGuild;
                 var2 = var5.guildId;
                 var7 = var6.bind(var7)(var2);
                 var2 = null;
-                if(!(var2 != var7)) { _fun0009_ip = 204; continue _fun0009 }
+                if(!(var2 != var7)) { _fun0009_ip = 227; continue _fun0009 }
  43:
-                var6 = {};
-                var10 = _closure1_slot10;
-                var9 = var10.getRoles;
-                var8 = var5.guildId;
-                var12 = var9.bind(var10)(var8);
-                var13 = var6;
-                var8 = copyDataProperties(var13, var12);
-                var8 = var5.roleId;
-                var8 = delete var6[var8];
-                var9 = _closure1_slot9;
-                var8 = var9.getSelfMember;
+                var9 = {};
+                var10 = _closure1_slot9;
+                var8 = var10.getUnsafeMutableRoles;
+                var6 = var5.guildId;
+                var13 = var8.bind(var10)(var6);
+                var14 = var9;
+                var6 = copyDataProperties(var14, var13);
+                var6 = var5.roleId;
+                var6 = delete var9[var6];
+                var8 = _closure1_slot8;
+                var6 = var8.getSelfMember;
                 var5 = var5.guildId;
-                var8 = var8.bind(var9)(var5);
-                var5 = var8;
-                if(!(var2 != var5)) { _fun0009_ip = 154; continue _fun0009 }
+                var5 = var6.bind(var8)(var5);
+                var6 = var5;
+                if(!(var2 != var6)) { _fun0009_ip = 154; continue _fun0009 }
  109:
                 var2 = {};
-                var13 = var2;
-                var12 = var8;
-                var9 = copyDataProperties(var13, var12);
-                var9 = var8.roles;
-                var8 = var9.filter;
+                var14 = var2;
+                var13 = var5;
+                var8 = copyDataProperties(var14, var13);
+                var8 = var5.roles;
+                var5 = var8.filter;
                 var3 = function(arg1) {
                     var1 = _closure3_slot0;
                     var2 = var1.roleId;
@@ -767,23 +774,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var1 !== var2;
                     return var1;
                 };
-                var8 = var8.bind(var9)(var3);
+                var5 = var5.bind(var8)(var3);
                 var3 = 'roles';
-                var2[var3] = var8;
-                var5 = var2;
+                var2[var3] = var5;
+                var6 = var2;
  154:
                 var3 = var4.put;
-                var8 = _closure1_slot2;
-                var2 = _closure1_slot3;
+                var10 = _closure1_slot1;
+                var11 = _closure1_slot2;
+                var1 = 12;
+                var1 = var11[var1];
+                var8 = undefined;
+                var5 = var10.bind(var8)(var1);
+                var2 = var5.attachSerializedData;
                 var1 = 11;
-                var2 = var2[var1];
-                var1 = undefined;
-                var2 = var8.bind(var1)(var2);
-                var1 = var2.attachSerializedData;
-                var2 = var1.bind(var2)(var7, var6, var5);
+                var1 = var11[var1];
+                var8 = var10.bind(var8)(var1);
+                var1 = var8.toSerializedPartition;
+                var1 = var1.bind(var8)(var9);
+                var2 = var2.bind(var5)(var7, var1, var6);
                 var1 = arg2;
                 var1 = var3.bind(var4)(var2, var1);
- 204:
+ 227:
                 var1 = undefined;
                 return var1;
             }
@@ -800,44 +812,49 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = this;
                 var1 = var2.joinedAt;
                 var3 = null;
-                if(!(var3 != var1)) { _fun0010_ip = 184; continue _fun0010 }
+                if(!(var3 != var1)) { _fun0010_ip = 210; continue _fun0010 }
  21:
                 var1 = var2.user;
                 var5 = var1.id;
-                var6 = _closure1_slot8;
+                var6 = _closure1_slot7;
                 var1 = var6.getId;
                 var1 = var1.bind(var6)();
-                if(!(var5 === var1)) { _fun0010_ip = 184; continue _fun0010 }
+                if(!(var5 === var1)) { _fun0010_ip = 210; continue _fun0010 }
  55:
-                var6 = _closure1_slot11;
+                var6 = _closure1_slot10;
                 var5 = var6.getGuild;
                 var1 = var2.guildId;
                 var1 = var5.bind(var6)(var1);
-                if(!(var3 != var1)) { _fun0010_ip = 184; continue _fun0010 }
- 78:
+                if(!(var3 != var1)) { _fun0010_ip = 210; continue _fun0010 }
+ 81:
                 var3 = var4.put;
-                var6 = _closure1_slot2;
-                var7 = _closure1_slot3;
-                var5 = 11;
-                var5 = var7[var5];
+                var10 = _closure1_slot1;
+                var11 = _closure1_slot2;
+                var5 = 12;
+                var5 = var11[var5];
                 var9 = undefined;
-                var7 = var6.bind(var9)(var5);
+                var7 = var10.bind(var9)(var5);
                 var6 = var7.attachSerializedData;
-                var5 = _closure1_slot7;
+                var5 = _closure1_slot6;
                 var2 = var2.joinedAt;
                 var5 = var5.bind(var9)(var1, var2);
-                var10 = _closure1_slot10;
-                var9 = var10.getRoles;
+                var2 = 11;
+                var2 = var11[var2];
+                var10 = var10.bind(var9)(var2);
+                var9 = var10.toSerializedPartition;
+                var12 = _closure1_slot9;
+                var11 = var12.getUnsafeMutableRoles;
                 var2 = var1.id;
+                var2 = var11.bind(var12)(var2);
                 var2 = var9.bind(var10)(var2);
-                var9 = _closure1_slot9;
+                var9 = _closure1_slot8;
                 var8 = var9.getSelfMember;
                 var1 = var1.id;
                 var1 = var8.bind(var9)(var1);
                 var2 = var6.bind(var7)(var5, var2, var1);
                 var1 = arg2;
                 var1 = var3.bind(var4)(var2, var1);
- 184:
+ 210:
                 var1 = undefined;
                 return var1;
             }
@@ -854,29 +871,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = this;
                 var1 = var8.user;
                 var3 = var1.id;
-                var5 = _closure1_slot8;
+                var5 = _closure1_slot7;
                 var2 = var5.getId;
                 var2 = var2.bind(var5)();
-                if(!(var3 === var2)) { _fun0011_ip = 162; continue _fun0011 }
+                if(!(var3 === var2)) { _fun0011_ip = 185; continue _fun0011 }
  40:
-                var5 = _closure1_slot11;
+                var5 = _closure1_slot10;
                 var3 = var5.getGuild;
                 var2 = var8.guildId;
                 var7 = var3.bind(var5)(var2);
                 var2 = null;
-                if(!(var2 != var7)) { _fun0011_ip = 162; continue _fun0011 }
+                if(!(var2 != var7)) { _fun0011_ip = 185; continue _fun0011 }
  65:
                 var3 = var4.put;
-                var6 = _closure1_slot2;
-                var5 = _closure1_slot3;
-                var2 = 11;
-                var5 = var5[var2];
-                var2 = undefined;
-                var6 = var6.bind(var2)(var5);
+                var10 = _closure1_slot1;
+                var11 = _closure1_slot2;
+                var2 = 12;
+                var2 = var11[var2];
+                var9 = undefined;
+                var6 = var10.bind(var9)(var2);
                 var5 = var6.attachSerializedData;
-                var9 = _closure1_slot10;
-                var2 = var9.getRoles;
+                var2 = 11;
+                var2 = var11[var2];
+                var9 = var10.bind(var9)(var2);
+                var2 = var9.toSerializedPartition;
+                var11 = _closure1_slot9;
+                var10 = var11.getUnsafeMutableRoles;
                 var1 = var7.id;
+                var1 = var10.bind(var11)(var1);
                 var2 = var2.bind(var9)(var1);
                 var1 = {};
                 var9 = var8.roles;
@@ -887,7 +909,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var5.bind(var6)(var7, var2, var1);
                 var1 = arg2;
                 var1 = var3.bind(var4)(var2, var1);
- 162:
+ 185:
                 var1 = undefined;
                 return var1;
             }
@@ -909,59 +931,63 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = function value(arg1, arg2) {
             _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
-                var2 = arg1;
+                var10 = arg1;
                 var5 = this;
-                var4 = var2.members;
-                var3 = var4.find;
+                var3 = var10.members;
+                var2 = var3.find;
                 var1 = function(arg1) {
                     var1 = arg1;
                     var1 = var1.user;
                     var2 = var1.id;
-                    var3 = _closure1_slot8;
+                    var3 = _closure1_slot7;
                     var1 = var3.getId;
                     var1 = var1.bind(var3)();
                     var1 = var2 === var1;
                     return var1;
                 };
-                var9 = var3.bind(var4)(var1);
-                var4 = _closure1_slot11;
-                var3 = var4.getGuild;
-                var1 = var2.id;
-                var10 = var3.bind(var4)(var1);
-                var4 = _closure1_slot2;
-                var11 = _closure1_slot3;
-                var3 = 11;
-                var6 = var11[var3];
+                var9 = var2.bind(var3)(var1);
+                var3 = _closure1_slot10;
+                var2 = var3.getGuild;
+                var1 = var10.id;
+                var12 = var2.bind(var3)(var1);
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var4 = 12;
+                var6 = var2[var4];
                 var1 = undefined;
-                var7 = var4.bind(var1)(var6);
+                var7 = var3.bind(var1)(var6);
                 var6 = var7.attachSerializedData;
-                var3 = var11[var3];
-                var4 = var4.bind(var1)(var3);
-                var3 = var4.fromServer;
-                var4 = var3.bind(var4)(var2, var10);
-                var10 = var2.roles;
-                var3 = global;
-                var3 = var3.Array;
-                var3 = var10 instanceof var3;
-                if(var3) { _fun0012_ip = 129; continue _fun0012 }
- 121:
-                var3 = var2.roles;
-                _fun0012_ip = 172; continue _fun0012;
- 129:
-                var10 = _closure1_slot0;
-                var11 = _closure1_slot3;
-                var8 = 10;
-                var8 = var11[var8];
-                var11 = var10.bind(var1)(var8);
-                var10 = var11.sortServerRoles;
-                var8 = var2.id;
-                var2 = var2.roles;
-                var3 = var10.bind(var11)(var8, var2);
- 172:
+                var4 = var2[var4];
+                var8 = var3.bind(var1)(var4);
+                var4 = var8.fromServer;
+                var4 = var4.bind(var8)(var10, var12);
+                var13 = 11;
+                var2 = var2[var13];
+                var8 = var3.bind(var1)(var2);
+                var3 = var8.toSerializedPartition;
+                var12 = var10.roles;
+                var2 = global;
+                var2 = var2.Array;
+                var2 = var12 instanceof var2;
+                if(var2) { _fun0012_ip = 147; continue _fun0012 }
+ 139:
+                var2 = var10.roles;
+                _fun0012_ip = 187; continue _fun0012;
+ 147:
+                var12 = _closure1_slot1;
+                var11 = _closure1_slot2;
+                var11 = var11[var13];
+                var13 = var12.bind(var1)(var11);
+                var12 = var13.fromServerArray;
+                var11 = var10.id;
+                var10 = var10.roles;
+                var2 = var12.bind(var13)(var11, var10);
+ 187:
+                var3 = var3.bind(var8)(var2);
                 var2 = null;
                 var8 = var2 != var9;
-                if(!var8) { _fun0012_ip = 211; continue _fun0012 }
- 181:
+                if(!var8) { _fun0012_ip = 231; continue _fun0012 }
+ 201:
                 var8 = {};
                 var10 = var9.user;
                 var10 = var10.id;
@@ -969,7 +995,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var9.roles;
                 var8['roles'] = var9;
                 var2 = var8;
- 211:
+ 231:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var5.put;
                 var2 = arg2;
@@ -983,8 +1009,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'put';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var1 = 9;
             var2 = var2[var1];
             var1 = undefined;
@@ -1003,8 +1029,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'delete';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var1 = 9;
             var2 = var2[var1];
             var1 = undefined;
@@ -1023,8 +1049,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'clear';
         var5['key'] = var7;
         var6 = function value(arg1) {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot3;
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var1 = 9;
             var2 = var2[var1];
             var1 = undefined;
@@ -1047,7 +1073,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

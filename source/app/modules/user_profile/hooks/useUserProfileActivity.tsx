@@ -153,52 +153,43 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = _closure2_slot3;
                     var6 = var9.filter;
                     var4 = function(arg1) {
-                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-                            var1 = arg1;
-                            var3 = var1.type;
-                            var1 = _closure1_slot7;
-                            var1 = var1.CUSTOM_STATUS;
-                            var1 = var3 !== var1;
-                            if(!var1) { _fun0004_ip = 42; continue _fun0004 }
- 28:
-                            var2 = _closure1_slot7;
-                            var2 = var2.HANG_STATUS;
-                            var1 = var3 !== var2;
- 42:
-                            return var1;
-                        }
+                        var1 = arg1;
+                        var2 = var1.type;
+                        var1 = _closure1_slot7;
+                        var1 = var1.CUSTOM_STATUS;
+                        var1 = var2 !== var1;
+                        return var1;
                     };
                     var6 = var6.bind(var9)(var4);
                     var4 = function(arg1, arg2) {
-                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                             var4 = arg1;
                             var3 = arg2;
                             var1 = var4.application_id;
                             var6 = null;
                             var1 = var6 != var1;
-                            if(!var1) { _fun0005_ip = 31; continue _fun0005 }
+                            if(!var1) { _fun0004_ip = 31; continue _fun0004 }
  21:
                             var2 = var3.application_id;
                             var1 = var6 != var2;
  31:
-                            if(!var1) { _fun0005_ip = 50; continue _fun0005 }
+                            if(!var1) { _fun0004_ip = 50; continue _fun0004 }
  34:
                             var5 = var4.application_id;
                             var2 = var3.application_id;
                             var1 = var5 === var2;
  50:
-                            if(var1) { _fun0005_ip = 94; continue _fun0005 }
+                            if(var1) { _fun0004_ip = 94; continue _fun0004 }
  53:
                             var2 = var4.name;
                             var2 = var6 != var2;
-                            if(!var2) { _fun0005_ip = 74; continue _fun0005 }
+                            if(!var2) { _fun0004_ip = 74; continue _fun0004 }
  65:
                             var5 = var3.name;
                             var2 = var6 != var5;
  74:
-                            if(!var2) { _fun0005_ip = 91; continue _fun0005 }
+                            if(!var2) { _fun0004_ip = 91; continue _fun0004 }
  77:
                             var4 = var4.name;
                             var3 = var3.name;
@@ -220,7 +211,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var5.entries;
                     var5 = var7.filter;
                     var1 = function(arg1) {
-                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                             var3 = arg1;
                             var _closure4_slot0 = var3;
@@ -233,7 +224,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var1 = var5.isEntryLive;
                             var1 = var1.bind(var5)(var3);
                             var1 = !var1;
-                            if(!var1) { _fun0006_ip = 235; continue _fun0006 }
+                            if(!var1) { _fun0005_ip = 235; continue _fun0005 }
  54:
                             var8 = _closure1_slot0;
                             var5 = _closure1_slot2;
@@ -242,7 +233,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var8 = var8.bind(var6)(var5);
                             var5 = var8.isListenedSessionEntry;
                             var5 = var5.bind(var8)(var3);
-                            if(var5) { _fun0006_ip = 177; continue _fun0006 }
+                            if(var5) { _fun0005_ip = 177; continue _fun0005 }
  88:
                             var8 = _closure1_slot0;
                             var5 = _closure1_slot2;
@@ -250,7 +241,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var8 = var8.bind(var6)(var5);
                             var5 = var8.isWatchedMediaEntry;
                             var5 = var5.bind(var8)(var3);
-                            if(var5) { _fun0006_ip = 149; continue _fun0006 }
+                            if(var5) { _fun0005_ip = 149; continue _fun0005 }
  119:
                             var5 = _closure1_slot0;
                             var2 = _closure1_slot2;
@@ -258,17 +249,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var5 = var5.bind(var6)(var2);
                             var2 = var5.isRecentActivityEntry;
                             var2 = var2.bind(var5)(var3);
-                            _fun0006_ip = 175; continue _fun0006;
+                            _fun0005_ip = 175; continue _fun0005;
  149:
                             var7 = _closure3_slot0;
                             var6 = var7.some;
                             var5 = function(arg1) {
-                                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                                     var5 = arg1;
                                     var1 = null;
                                     var1 = var1 != var5;
-                                    if(!var1) { _fun0007_ip = 56; continue _fun0007 }
+                                    if(!var1) { _fun0006_ip = 56; continue _fun0006 }
  12:
                                     var4 = _closure1_slot0;
                                     var3 = _closure1_slot2;
@@ -286,24 +277,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var5 = var6.bind(var7)(var5);
                             var2 = !var5;
  175:
-                            _fun0006_ip = 232; continue _fun0006;
+                            _fun0005_ip = 232; continue _fun0005;
  177:
                             var3 = var3.extra;
                             var3 = var3.entries;
                             var5 = var3.length;
                             var3 = 0;
                             var3 = var5 > var3;
-                            if(!var3) { _fun0006_ip = 229; continue _fun0006 }
+                            if(!var3) { _fun0005_ip = 229; continue _fun0005 }
  203:
                             var6 = _closure3_slot0;
                             var5 = var6.some;
                             var4 = function(arg1) {
-                                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                                     var5 = arg1;
                                     var1 = null;
                                     var1 = var1 != var5;
-                                    if(!var1) { _fun0008_ip = 56; continue _fun0008 }
+                                    if(!var1) { _fun0007_ip = 56; continue _fun0007 }
  12:
                                     var4 = _closure1_slot0;
                                     var3 = _closure1_slot2;

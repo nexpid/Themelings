@@ -94,7 +94,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var7[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);
-            var2 = var1.CircleWarningIcon;
+            var2 = var1.CircleErrorIcon;
             var1 = {};
             var6 = _closure1_slot1;
             var5 = 4;

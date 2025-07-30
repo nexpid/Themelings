@@ -47,7 +47,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var15.bind(var16)(var14, var11, var10);
             var1['path'] = var10;
             var1 = var6.bind(var9)(var5, var1);
-            if(!(var2 == var1)) { _fun0001_ip = 304; continue _fun0001 }
+            if(!(var2 == var1)) { _fun0001_ip = 300; continue _fun0001 }
  165:
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -72,37 +72,37 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var9.bind(var10)(var8);
             var3['path'] = var8;
             var6 = var5.bind(var6)(var7, var3);
-            if(!(var2 == var6)) { _fun0001_ip = 278; continue _fun0001 }
+            if(!(var2 == var6)) { _fun0001_ip = 274; continue _fun0001 }
  262:
             var3 = {'guildId': null, 'channelId': null};
-            _fun0001_ip = 302; continue _fun0001;
- 278:
+            _fun0001_ip = 298; continue _fun0001;
+ 274:
             var5 = {};
             var6 = var6.params;
             var6 = var6.guildId;
             var5['guildId'] = var6;
             var5['channelId'] = var2;
             var3 = var5;
- 302:
+ 298:
             return var3;
- 304:
+ 300:
             var1 = var1.params;
             var5 = var1.guildId;
             var3 = var1.channelId;
             var1 = {};
             var6 = _closure1_slot3;
             var4 = null;
-            if(!(var5 !== var6)) { _fun0001_ip = 335; continue _fun0001 }
- 332:
+            if(!(var5 !== var6)) { _fun0001_ip = 331; continue _fun0001 }
+ 328:
             var4 = var5;
- 335:
+ 331:
             var1['guildId'] = var4;
             var4 = var2 != var3;
             var2 = null;
-            if(!var4) { _fun0001_ip = 351; continue _fun0001 }
- 348:
+            if(!var4) { _fun0001_ip = 347; continue _fun0001 }
+ 344:
             var2 = var3;
- 351:
+ 347:
             var1['channelId'] = var2;
             return var1;
         }

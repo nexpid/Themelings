@@ -1,0 +1,899 @@
+// app/modules/search/SearchActionCreators.tsx
+export default (function(native1, native2, native3, native4, native5, native6, native7) {
+    var5 = native2;
+    var7 = native3;
+    var3 = native6;
+    var6 = native7;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = 0;
+    var2 = var6[var1];
+    var1 = undefined;
+    var2 = var7.bind(var1)(var2);
+    var _closure1_slot3 = var2;
+    var2 = 1;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var7 = var2.SearchModes;
+    var _closure1_slot4 = var7;
+    var7 = var2.SearchTypes;
+    var _closure1_slot5 = var7;
+    var2 = var2.FAVORITES;
+    var _closure1_slot6 = var2;
+    var2 = {};
+    var7 = function fetchTabMessages(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var2 = arg1;
+            var10 = var2.searchContext;
+            var _closure2_slot0 = var10;
+            var7 = var2.searchTabs;
+            var9 = var2.searchQueryString;
+            var14 = var2.pagination;
+            var13 = var2.trackExactTotalHits;
+            var3 = var2.getId;
+            var _closure2_slot1 = var3;
+            var15 = var2.getLimit;
+            var6 = var2.onFetchStart;
+            var3 = var2.onFetchSuccess;
+            var _closure2_slot2 = var3;
+            var16 = var2.searchMode;
+            var4 = undefined;
+            if(!(var16 === var4)) { _fun0001_ip = 98; continue _fun0001 }
+ 85:
+            var2 = _closure1_slot4;
+            var16 = var2.NEWEST;
+ 98:
+            var _closure2_slot3 = var4;
+            var _closure2_slot4 = var4;
+            var5 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var18 = 2;
+            var8 = var3[var18];
+            var11 = var5.bind(var4)(var8);
+            var8 = var11.tokenizeQuery;
+            var12 = var8.bind(var11)(var9);
+            var8 = var3[var18];
+            var11 = var5.bind(var4)(var8);
+            var8 = var11.getSearchQueryFromTokens;
+            var12 = var8.bind(var11)(var12);
+            var8 = function fixSearchQueryPinned(arg1) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    var2 = arg1;
+                    var1 = global;
+                    var4 = var1.Array;
+                    var3 = var4.isArray;
+                    var1 = var2.pinned;
+                    var1 = var3.bind(var4)(var1);
+                    if(!var1) { _fun0002_ip = 62; continue _fun0002 }
+ 30:
+                    var4 = var2.pinned;
+                    var3 = var4.some;
+                    var1 = function(arg1) {
+                        var2 = true;
+                        var1 = arg1;
+                        var1 = var2 === var1;
+                        return var1;
+                    };
+                    var1 = var3.bind(var4)(var1);
+                    var2['pinned'] = var1;
+ 62:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var8 = var8.bind(var4)(var12);
+            var8 = var3[var18];
+            var11 = var5.bind(var4)(var8);
+            var8 = var11.searchModeToSearchQueryParams;
+            var11 = var8.bind(var11)(var16);
+            var8 = {};
+            var21 = var8;
+            var20 = var12;
+            var12 = copyDataProperties(var21, var20);
+            var21 = var8;
+            var20 = var11;
+            var11 = copyDataProperties(var21, var20);
+            var3 = var3[var18];
+            var5 = var5.bind(var4)(var3);
+            var3 = var5.getGuildIdFromSearchContext;
+            var12 = var3.bind(var5)(var10);
+            _closure2_slot3 = var12;
+            var3 = null;
+            if(!(var3 != var12)) { _fun0001_ip = 273; continue _fun0001 }
+ 244:
+            var11 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var18];
+            var11 = var11.bind(var4)(var5);
+            var5 = var11.setIncludeNSFW;
+            var5 = var5.bind(var11)(var8, var12);
+ 273:
+            var11 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var5 = 3;
+            var5 = var16[var5];
+            var12 = var11.bind(var4)(var5);
+            var11 = var12.create;
+            var5 = {};
+            var17 = _closure1_slot0;
+            var16 = var16[var18];
+            var17 = var17.bind(var4)(var16);
+            var16 = var17.getSearchContextId;
+            var16 = var16.bind(var17)(var10);
+            var5['id'] = var16;
+            var5['searchContext'] = var10;
+            var5['searchQuery'] = var8;
+            var5['searchTabs'] = var7;
+            var5['getLimit'] = var15;
+            var5['pagination'] = var14;
+            var5['trackExactTotalHits'] = var13;
+            var5 = var11.bind(var12)(var5);
+            if(!(var3 != var6)) { _fun0001_ip = 389; continue _fun0001 }
+ 367:
+            var3 = {};
+            var3['searchContext'] = var10;
+            var3['searchQueryString'] = var9;
+            var3['searchQuery'] = var8;
+            var3 = var6.bind(var4)(var3);
+ 389:
+            var6 = var7.map;
+            var3 = function(arg1) {
+                var3 = _closure2_slot1;
+                var2 = undefined;
+                var1 = arg1;
+                var1 = var3.bind(var2)(var1);
+                return var1;
+            };
+            var6 = var6.bind(var7)(var3);
+            _closure2_slot4 = var6;
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 4;
+            var2 = var7[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var7 = 'SEARCH_MESSAGES_START';
+            var2['type'] = var7;
+            var2['ids'] = var6;
+            var2 = var3.bind(var4)(var2);
+            var4 = var5.fetch;
+            var3 = function(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                    var1 = arg1;
+                    var1 = var1.body;
+                    var _closure3_slot0 = var1;
+                    var2 = global;
+                    var3 = var2.Object;
+                    var2 = var3.entries;
+                    var1 = var1.tabs;
+                    var4 = var2.bind(var3)(var1);
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 4;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var6 = var3.bind(var1)(var2);
+                    var3 = var6.dispatch;
+                    var2 = {};
+                    var5 = 'SEARCH_MESSAGES_SUCCESS';
+                    var2['type'] = var5;
+                    var8 = _closure2_slot3;
+                    var2['guildId'] = var8;
+                    var8 = var4.map;
+                    var7 = function(arg1) {
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+                            var5 = arg1;
+                            var1 = var5[Symbol.iterator];
+                            var5 = var1().next;
+                            var4 = var5().value;
+                            var2 = var1;
+                            var8 = undefined;
+                            var3 = var2 === var8;
+                            var2 = undefined;
+                            if(var3) { _fun0004_ip = 27; continue _fun0004 }
+ 24:
+                            var2 = var4;
+ 27:
+                            var4 = undefined;
+                            if(var3) { _fun0004_ip = 57; continue _fun0004 }
+ 32:
+                            var6 = var5().value;
+                            var5 = var1;
+                            var5 = var5 === var8;
+                            var4 = undefined;
+                            var3 = var5;
+                            if(var5) { _fun0004_ip = 57; continue _fun0004 }
+ 51:
+                            var4 = var6;
+                            var3 = var5;
+ 57:
+                            if(var3) { _fun0004_ip = 63; continue _fun0004 }
+ 60:
+                            var1.return();
+ 63:
+                            var1 = _closure2_slot1;
+                            var2 = var1.bind(var8)(var2);
+                            var6 = var4.cursor;
+                            var1 = {};
+                            var1['id'] = var2;
+                            var3 = _closure3_slot0;
+                            var3 = var3.analytics_id;
+                            var1['analyticsId'] = var3;
+                            var3 = var4.total_results;
+                            var1['totalResults'] = var3;
+                            var3 = null;
+                            if(!(var3 != var6)) { _fun0004_ip = 161; continue _fun0004 }
+ 122:
+                            var7 = _closure1_slot1;
+                            var9 = _closure1_slot2;
+                            var5 = 5;
+                            var5 = var9[var5];
+                            var7 = var7.bind(var8)(var5);
+                            var5 = var7.isEmpty;
+                            var7 = var5.bind(var7)(var6);
+                            var5 = null;
+                            if(var7) { _fun0004_ip = 164; continue _fun0004 }
+ 161:
+                            var5 = var6;
+ 164:
+                            var1['cursor'] = var5;
+                            var5 = var4.messages;
+                            var1['messages'] = var5;
+                            var5 = var4.channels;
+                            if(!(var3 == var5)) { _fun0004_ip = 194; continue _fun0004 }
+ 190:
+                            var5 = new Array(0);
+ 194:
+                            var1['channels'] = var5;
+                            var5 = var4.threads;
+                            if(!(var3 == var5)) { _fun0004_ip = 213; continue _fun0004 }
+ 209:
+                            var5 = new Array(0);
+ 213:
+                            var1['threads'] = var5;
+                            var5 = var4.members;
+                            if(!(var3 == var5)) { _fun0004_ip = 232; continue _fun0004 }
+ 228:
+                            var5 = new Array(0);
+ 232:
+                            var4 = var5.map;
+                            var3 = function(arg1) {
+                                var2 = _closure1_slot1;
+                                var3 = _closure1_slot2;
+                                var1 = 6;
+                                var1 = var3[var1];
+                                var3 = undefined;
+                                var2 = var2.bind(var3)(var1);
+                                var1 = arg1;
+                                var1 = var2.bind(var3)(var1);
+                                return var1;
+                            };
+                            var3 = var4.bind(var5)(var3);
+                            var1['members'] = var3;
+                            var2 = _closure3_slot0;
+                            var3 = var2.doing_deep_historical_index;
+                            var1['doingHistoricalIndex'] = var3;
+                            var2 = var2.documents_indexed;
+                            var1['documentsIndexed'] = var2;
+                            return var1;
+                        }
+                    };
+                    var7 = var8.bind(var4)(var7);
+                    var2['data'] = var7;
+                    var2 = var3.bind(var6)(var2);
+                    var3 = _closure2_slot2;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0003_ip = 151; continue _fun0003 }
+ 126:
+                    var3 = _closure2_slot2;
+                    var2 = {};
+                    var5 = _closure2_slot0;
+                    var2['searchContext'] = var5;
+                    var2['tabEntries'] = var4;
+                    var2 = var3.bind(var1)(var2);
+ 151:
+                    return var1;
+                }
+            };
+            var2 = function() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.dispatch;
+                var2 = {};
+                var5 = 'SEARCH_MESSAGES_INDEXING';
+                var2['type'] = var5;
+                var5 = _closure2_slot4;
+                var2['ids'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var1 = function(arg1) {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.dispatch;
+                var2 = {};
+                var5 = 'SEARCH_MESSAGES_FAILURE';
+                var2['type'] = var5;
+                var5 = _closure2_slot4;
+                var2['ids'] = var5;
+                var5 = arg1;
+                var2['error'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var1 = var4.bind(var5)(var3, var2, var1);
+            var1 = true;
+            return var1;
+        }
+    };
+    var2['fetchTabMessages'] = var7;
+    var7 = function fetchMessages(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+            var1 = arg1;
+            var8 = var1.searchId;
+            var _closure2_slot0 = var8;
+            var9 = var1.query;
+            var4 = var1.searchEverywhere;
+            var1 = undefined;
+            var _closure2_slot1 = var1;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var5 = 2;
+            var5 = var7[var5];
+            var6 = var6.bind(var1)(var5);
+            var5 = var6.setIncludeNSFW;
+            var5 = var5.bind(var6)(var9, var8);
+            if(!var4) { _fun0005_ip = 82; continue _fun0005 }
+ 72:
+            var4 = true;
+            var9['search_everywhere'] = var4;
+ 82:
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var4 = 7;
+            var4 = var6[var4];
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.getSearchType;
+            var7 = var4.bind(var5)(var8);
+            var5 = _closure1_slot1;
+            var4 = 8;
+            var4 = var6[var4];
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.create;
+            var4 = {};
+            var4['id'] = var8;
+            var4['searchType'] = var7;
+            var4['searchQuery'] = var9;
+            var6 = var5.bind(var6)(var4);
+            var4 = _closure1_slot6;
+            if(!(var8 !== var4)) { _fun0005_ip = 184; continue _fun0005 }
+ 163:
+            var4 = _closure1_slot5;
+            var5 = var4.GUILD;
+            var4 = null;
+            if(!(var7 === var5)) { _fun0005_ip = 182; continue _fun0005 }
+ 179:
+            var4 = var8;
+ 182:
+            _fun0005_ip = 217; continue _fun0005;
+ 184:
+            var7 = _closure1_slot3;
+            var5 = var7.getChannel;
+            var7 = var5.bind(var7)(var8);
+            var5 = null;
+            var9 = var5 == var7;
+            var5 = undefined;
+            if(var9) { _fun0005_ip = 214; continue _fun0005 }
+ 209:
+            var5 = var7.guild_id;
+ 214:
+            var4 = var5;
+ 217:
+            _closure2_slot1 = var4;
+            var4 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var3 = 4;
+            var3 = var5[var3];
+            var5 = var4.bind(var1)(var3);
+            var4 = var5.dispatch;
+            var3 = {};
+            var7 = 'SEARCH_MESSAGES_START';
+            var3['type'] = var7;
+            var7 = new Array(1);
+            var7[0] = var8;
+            var3['ids'] = var7;
+            var3 = var4.bind(var5)(var3);
+            var5 = var6.fetch;
+            var4 = function(arg1) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+                    var7 = arg1;
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 4;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.dispatch;
+                    var2 = {};
+                    var5 = 'SEARCH_MESSAGES_SUCCESS';
+                    var2['type'] = var5;
+                    var6 = _closure2_slot1;
+                    var2['guildId'] = var6;
+                    var6 = {};
+                    var5 = _closure2_slot0;
+                    var6['id'] = var5;
+                    var5 = var7.body;
+                    var5 = var5.analytics_id;
+                    var6['analyticsId'] = var5;
+                    var5 = var7.body;
+                    var5 = var5.total_results;
+                    var6['totalResults'] = var5;
+                    var5 = var7.body;
+                    var5 = var5.messages;
+                    var6['messages'] = var5;
+                    var5 = var7.body;
+                    var8 = var5.threads;
+                    var5 = null;
+                    if(!(var5 == var8)) { _fun0006_ip = 133; continue _fun0006 }
+ 129:
+                    var8 = new Array(0);
+ 133:
+                    var6['threads'] = var8;
+                    var8 = var7.body;
+                    var10 = var8.members;
+                    if(!(var5 == var10)) { _fun0006_ip = 157; continue _fun0006 }
+ 153:
+                    var10 = new Array(0);
+ 157:
+                    var9 = var10.map;
+                    var8 = function(arg1) {
+                        var2 = _closure1_slot1;
+                        var3 = _closure1_slot2;
+                        var1 = 6;
+                        var1 = var3[var1];
+                        var3 = undefined;
+                        var2 = var2.bind(var3)(var1);
+                        var1 = arg1;
+                        var1 = var2.bind(var3)(var1);
+                        return var1;
+                    };
+                    var8 = var9.bind(var10)(var8);
+                    var6['members'] = var8;
+                    var8 = var7.body;
+                    var8 = var8.doing_deep_historical_index;
+                    var6['doingHistoricalIndex'] = var8;
+                    var8 = var7.body;
+                    var8 = var8.documents_indexed;
+                    var6['documentsIndexed'] = var8;
+                    var7 = var7.body;
+                    var7 = var7.channels;
+                    if(!(var5 == var7)) { _fun0006_ip = 232; continue _fun0006 }
+ 228:
+                    var7 = new Array(0);
+ 232:
+                    var6['channels'] = var7;
+                    var6['cursor'] = var5;
+                    var5 = new Array(1);
+                    var5[0] = var6;
+                    var2['data'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                }
+            };
+            var3 = function() {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.dispatch;
+                var2 = {};
+                var5 = 'SEARCH_MESSAGES_INDEXING';
+                var2['type'] = var5;
+                var6 = _closure2_slot0;
+                var5 = new Array(1);
+                var5[0] = var6;
+                var2['ids'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var2 = function(arg1) {
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.dispatch;
+                var2 = {};
+                var5 = 'SEARCH_MESSAGES_FAILURE';
+                var2['type'] = var5;
+                var6 = _closure2_slot0;
+                var5 = new Array(1);
+                var5[0] = var6;
+                var2['ids'] = var5;
+                var5 = arg1;
+                var2['error'] = var5;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var2 = var5.bind(var6)(var4, var3, var2);
+            return var1;
+        }
+    };
+    var2['fetchMessages'] = var7;
+    var7 = function clearSearchRecentMessages() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'SEARCH_RECENT_MESSAGES_CLEAR';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['clearSearchRecentMessages'] = var7;
+    var7 = function clearAllSearchMesssages() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'SEARCH_MESSAGES_CLEAR_ALL';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['clearAllSearchMesssages'] = var7;
+    var7 = function clearSearchMessages(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'SEARCH_MESSAGES_CLEAR';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['id'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['clearSearchMessages'] = var7;
+    var7 = function addNativeSearchHistoryItem(arg1, arg2) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+ 0:
+            var6 = arg1;
+            var3 = var6.type;
+            var2 = _closure1_slot5;
+            var2 = var2.DMS;
+            if(!(var3 !== var2)) { _fun0007_ip = 44; continue _fun0007 }
+ 25:
+            var3 = var6.type;
+            var2 = _closure1_slot5;
+            var2 = var2.GUILD;
+            if(!(var3 === var2)) { _fun0007_ip = 126; continue _fun0007 }
+ 44:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 2;
+            var2 = var5[var2];
+            var3 = undefined;
+            var4 = var4.bind(var3)(var2);
+            var2 = var4.getSearchContextId;
+            var4 = var2.bind(var4)(var6);
+            var2 = _closure1_slot1;
+            var1 = 4;
+            var1 = var5[var1];
+            var3 = var2.bind(var3)(var1);
+            var2 = var3.dispatch;
+            var1 = {};
+            var5 = 'SEARCH_HISTORY_NATIVE_ADD_ITEM';
+            var1['type'] = var5;
+            var1['id'] = var4;
+            var4 = arg2;
+            var1['item'] = var4;
+            var1 = var2.bind(var3)(var1);
+ 126:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var2['addNativeSearchHistoryItem'] = var7;
+    var7 = function removeNativeSearchHistoryItem(arg1, arg2) {
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 2;
+        var3 = var4[var1];
+        var1 = undefined;
+        var6 = var5.bind(var1)(var3);
+        var5 = var6.getSearchContextId;
+        var3 = arg1;
+        var5 = var5.bind(var6)(var3);
+        var3 = _closure1_slot1;
+        var2 = 4;
+        var2 = var4[var2];
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var6 = 'SEARCH_HISTORY_NATIVE_REMOVE_ITEM';
+        var2['type'] = var6;
+        var2['id'] = var5;
+        var5 = arg2;
+        var2['item'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['removeNativeSearchHistoryItem'] = var7;
+    var7 = function clearNativeSearchHistory(arg1) {
+        var5 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var1 = 2;
+        var3 = var4[var1];
+        var1 = undefined;
+        var6 = var5.bind(var1)(var3);
+        var5 = var6.getSearchContextId;
+        var3 = arg1;
+        var5 = var5.bind(var6)(var3);
+        var3 = _closure1_slot1;
+        var2 = 4;
+        var2 = var4[var2];
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var6 = 'SEARCH_HISTORY_NATIVE_CLEAR_ITEMS';
+        var2['type'] = var6;
+        var2['id'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['clearNativeSearchHistory'] = var7;
+    var7 = function addWebSearchHistoryItem(arg1, arg2) {
+        var1 = undefined;
+        return var1;
+    };
+    var2['addWebSearchHistoryItem'] = var7;
+    var7 = function removeWebSearchHistoryItem(arg1, arg2) {
+        var1 = undefined;
+        return var1;
+    };
+    var2['removeWebSearchHistoryItem'] = var7;
+    var7 = function clearWebSearchHistory(arg1) {
+        var1 = undefined;
+        return var1;
+    };
+    var2['clearWebSearchHistory'] = var7;
+    var7 = function openSearchScreen(arg1) {
+        var7 = arg1;
+        var3 = _closure1_slot1;
+        var8 = _closure1_slot2;
+        var1 = 4;
+        var2 = var8[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var6 = 'SEARCH_SCREEN_OPEN';
+        var2['type'] = var6;
+        var2['searchContext'] = var7;
+        var6 = _closure1_slot0;
+        var5 = 2;
+        var5 = var8[var5];
+        var6 = var6.bind(var1)(var5);
+        var5 = var6.getBackwardCompatibilitySearchId;
+        var5 = var5.bind(var6)(var7);
+        var2['searchId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['openSearchScreen'] = var7;
+    var7 = function setShowBlockedResults(arg1, arg2) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'SEARCH_SET_SHOW_BLOCKED_RESULTS';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['searchId'] = var5;
+        var5 = arg2;
+        var2['showBlocked'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['setShowBlockedResults'] = var7;
+    var7 = function setShowNoResultsAlt(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'SEARCH_SET_SHOW_NO_RESULTS_ALT';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['searchId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['setShowNoResultsAlt'] = var7;
+    var7 = function updateSearchResultsQuery(arg1, arg2, arg3, arg4) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'SEARCH_RESULTS_QUERY_UPDATE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['searchId'] = var5;
+        var5 = arg2;
+        var2['queryString'] = var5;
+        var5 = arg3;
+        var2['query'] = var5;
+        var5 = arg4;
+        var2['offset'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['updateSearchResultsQuery'] = var7;
+    var7 = function ensureSearchState(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 4;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.wait;
+        var2 = function() {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.dispatch;
+            var1 = {};
+            var4 = 'SEARCH_ENSURE_SEARCH_STATE';
+            var1['type'] = var4;
+            var4 = _closure2_slot0;
+            var1['searchId'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['ensureSearchState'] = var7;
+    var7 = function setSearchState(arg1, arg2) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+ 0:
+            var4 = arg1;
+            var1 = null;
+            if(!(var1 != var4)) { _fun0008_ip = 69; continue _fun0008 }
+ 9:
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.dispatch;
+            var1 = {};
+            var5 = 'SEARCH_EDITOR_STATE_CHANGE';
+            var1['type'] = var5;
+            var1['searchId'] = var4;
+            var4 = arg2;
+            var1['editorState'] = var4;
+            var1 = var2.bind(var3)(var1);
+ 69:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var2['setSearchState'] = var7;
+    var7 = function clearSearchState(arg1) {
+        var1 = arg1;
+        var _closure2_slot0 = var1;
+        var4 = _closure1_slot1;
+        var3 = _closure1_slot2;
+        var1 = 4;
+        var3 = var3[var1];
+        var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var3 = var4.wait;
+        var2 = function() {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.dispatch;
+            var1 = {};
+            var4 = 'SEARCH_EDITOR_STATE_CLEAR';
+            var1['type'] = var4;
+            var4 = _closure2_slot0;
+            var1['searchId'] = var4;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['clearSearchState'] = var7;
+    var4 = function updateAutocompleteQuery(arg1, arg2, arg3) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'SEARCH_AUTOCOMPLETE_QUERY_UPDATE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['searchContext'] = var5;
+        var5 = arg2;
+        var2['tokens'] = var5;
+        var5 = arg3;
+        var2['cursorScope'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['updateAutocompleteQuery'] = var4;
+    var4 = 9;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/search/SearchActionCreators.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
+})();

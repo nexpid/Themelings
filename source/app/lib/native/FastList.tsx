@@ -2542,7 +2542,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(!(var9 != var10)) { _fun0025_ip = 27; continue _fun0025 }
  18:
                 var2 = 0;
-                if(!(!(var10 < var2))) { _fun0025_ip = 490; continue _fun0025 }
+                if(!(!(var10 < var2))) { _fun0025_ip = 494; continue _fun0025 }
  27:
                 var2 = var1.dirty;
                 if(!var2) { _fun0025_ip = 46; continue _fun0025 }
@@ -2562,7 +2562,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = true;
                 var3 = var2;
                 var2 = undefined;
-                if(var1) { _fun0025_ip = 490; continue _fun0025 }
+                if(var1) { _fun0025_ip = 494; continue _fun0025 }
  97:
                 var13 = _closure1_slot33;
                 var1 = var3.value;
@@ -2666,13 +2666,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var13 = var5.bind(var6)();
                 var1 = var13.done;
                 var3 = var13;
-                if(var1) { _fun0025_ip = 490; continue _fun0025 }
+                if(var1) { _fun0025_ip = 494; continue _fun0025 }
  473:
                 _fun0025_ip = 97; continue _fun0025;
  478:
                 var1 = {'scrollPosition': 0, 'size': 0, 'sectionOffset': 0};
                 return var1;
- 490:
+ 494:
                 var1 = undefined;
                 return var1;
             }
@@ -3769,10 +3769,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var13 = var9.insetEnd;
                 var8 = var9.stickyHeaderFooter;
                 var12 = var6 !== var8;
-                if(!var12) { _fun0039_ip = 449; continue _fun0039 }
- 446:
+                if(!var12) { _fun0039_ip = 447; continue _fun0039 }
+ 444:
                 var12 = var8;
- 449:
+ 447:
                 var11 = var9.getRecyclerKey;
                 var8 = var9.persistantKeys;
                 var10 = var9.disableRecyclingOnFullCompute;
@@ -3790,10 +3790,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7['getRecyclerKey'] = var11;
                 var7['persistantKeys'] = var8;
                 var8 = var6 !== var10;
-                if(!var8) { _fun0039_ip = 538; continue _fun0039 }
- 535:
+                if(!var8) { _fun0039_ip = 536; continue _fun0039 }
+ 533:
                 var8 = var10;
- 538:
+ 536:
                 var7['disableRecyclingOnFullCompute'] = var8;
                 var8 = var9.prototype;
                 var8 = Object.create(var8, {constructor: {value: var9}});
@@ -3804,10 +3804,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var1.getInitialState;
                 var10 = var3 != var5;
                 var7 = 0;
-                if(!var10) { _fun0039_ip = 584; continue _fun0039 }
- 581:
+                if(!var10) { _fun0039_ip = 582; continue _fun0039 }
+ 579:
                 var7 = var5;
- 584:
+ 582:
                 var5 = true;
                 var5 = var8.bind(var1)(var7, var9, var5);
                 var1['state'] = var5;
@@ -4476,23 +4476,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var1.props;
                 var5 = var2.batchesToRender;
                 var7 = 12;
-                if(!(var6 !== var5)) { _fun0039_ip = 719; continue _fun0039 }
- 716:
+                if(!(var6 !== var5)) { _fun0039_ip = 717; continue _fun0039 }
+ 714:
                 var7 = var5;
- 719:
+ 717:
                 var5 = var2.getAnchorIdFromIndex;
                 var2 = var2.getAnchorIndexFromId;
                 var6 = 5;
-                if(!(!(var7 < var6))) { _fun0039_ip = 910; continue _fun0039 }
- 741:
-                if(!(var3 == var5)) { _fun0039_ip = 749; continue _fun0039 }
- 745:
-                if(!(var3 != var2)) { _fun0039_ip = 793; continue _fun0039 }
- 749:
-                if(!(var3 != var5)) { _fun0039_ip = 757; continue _fun0039 }
- 753:
-                if(!(var3 == var2)) { _fun0039_ip = 793; continue _fun0039 }
- 757:
+                if(!(!(var7 < var6))) { _fun0039_ip = 908; continue _fun0039 }
+ 739:
+                if(!(var3 == var5)) { _fun0039_ip = 747; continue _fun0039 }
+ 743:
+                if(!(var3 != var2)) { _fun0039_ip = 791; continue _fun0039 }
+ 747:
+                if(!(var3 != var5)) { _fun0039_ip = 755; continue _fun0039 }
+ 751:
+                if(!(var3 == var2)) { _fun0039_ip = 791; continue _fun0039 }
+ 755:
                 var2 = global;
                 var5 = var2.Error;
                 var2 = var5.prototype;
@@ -4502,21 +4502,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = new var24[var5](var23, var22);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
- 793:
+ 791:
                 var2 = var1.getViewabilityConfig;
                 var2 = var2.bind(var1)();
                 var3 = var2.minimumViewTime;
-                if(!(!(var3 <= var4))) { _fun0039_ip = 874; continue _fun0039 }
- 813:
+                if(!(!(var3 <= var4))) { _fun0039_ip = 872; continue _fun0039 }
+ 811:
                 var3 = var2.visibilityThreshold;
-                if(!(!(var3 <= var4))) { _fun0039_ip = 838; continue _fun0039 }
- 823:
+                if(!(!(var3 <= var4))) { _fun0039_ip = 836; continue _fun0039 }
+ 821:
                 var3 = var2.visibilityThreshold;
                 var2 = 1;
-                if(!(!(var3 > var2))) { _fun0039_ip = 838; continue _fun0039 }
- 836:
+                if(!(!(var3 > var2))) { _fun0039_ip = 836; continue _fun0039 }
+ 834:
                 return var1;
- 838:
+ 836:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -4526,7 +4526,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = new var24[var3](var23, var22);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
- 874:
+ 872:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;
@@ -4536,7 +4536,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = new var24[var3](var23, var22);
                 var1 = var1 instanceof Object ? var1 : var2;
                 throw var1;
- 910:
+ 908:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;

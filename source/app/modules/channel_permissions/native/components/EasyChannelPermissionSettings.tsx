@@ -82,18 +82,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     if(!var5) { _fun0002_ip = 71; continue _fun0002 }
  51:
                     var5 = _closure1_slot12;
-                    var4 = var5.getRoles;
+                    var4 = var5.getSortedRoles;
                     var3 = var3.id;
                     var2 = var4.bind(var5)(var3);
  71:
-                    var1['guildRoles'] = var2;
+                    var1['sortedGuildRoles'] = var2;
                     return var1;
                 }
             };
             var2 = var6.bind(var7)(var4, var2);
             var11 = var2.guild;
             var _closure2_slot4 = var11;
-            var2 = var2.guildRoles;
+            var2 = var2.sortedGuildRoles;
             var _closure2_slot5 = var2;
             var7 = _closure1_slot6;
             var6 = var7.useLayoutEffect;
