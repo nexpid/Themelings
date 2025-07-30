@@ -979,6 +979,16 @@
         "width": 60,
         "height": 60
     },
+    "brb": {
+        "file": "modules/hang_status/images/native/brb.png",
+        "hash": "ded44871a3e3493cb071ae1023856397",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 25,
+        "height": 25
+    },
     "breaddog_1": {
         "file": "images/native/avatars/breaddog_1.png",
         "hash": "539778d237b9fff9f8baff59e260a9fa",
@@ -1584,6 +1594,16 @@
         "width": 24,
         "height": 24
     },
+    "chillin": {
+        "file": "modules/hang_status/images/native/chillin.png",
+        "hash": "6a3ff455f3b3ca63aaeac56dc14bc116",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 25,
+        "height": 25
+    },
     "circle_check": {
         "file": "modules/self_mod/inappropriate_conversation/images/circle_check.png",
         "hash": "9b07b89ed4d4502d4d6d99522921e810",
@@ -1615,6 +1635,36 @@
     },
     "CircleCheckIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleCheckIcon-secondary.png",
+        "hash": "5dda10148b61aa649096747006d15ed5",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "CircleErrorIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/CircleErrorIcon.png",
+        "hash": "eb5d73de708115fb28eaa02d0f072ef9",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "CircleErrorIcon-primary": {
+        "file": "design/components/Icon/native/redesign/generated/images/CircleErrorIcon-primary.png",
+        "hash": "9d600f789f18fae27223c6a32c06511d",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "CircleErrorIcon-secondary": {
+        "file": "design/components/Icon/native/redesign/generated/images/CircleErrorIcon-secondary.png",
         "hash": "5dda10148b61aa649096747006d15ed5",
         "scales": [
             2,
@@ -1735,36 +1785,6 @@
     },
     "CircleQuestionIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleQuestionIcon-secondary.png",
-        "hash": "5dda10148b61aa649096747006d15ed5",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "CircleWarningIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/CircleWarningIcon.png",
-        "hash": "eb5d73de708115fb28eaa02d0f072ef9",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "CircleWarningIcon-primary": {
-        "file": "design/components/Icon/native/redesign/generated/images/CircleWarningIcon-primary.png",
-        "hash": "9d600f789f18fae27223c6a32c06511d",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "CircleWarningIcon-secondary": {
-        "file": "design/components/Icon/native/redesign/generated/images/CircleWarningIcon-secondary.png",
         "hash": "5dda10148b61aa649096747006d15ed5",
         "scales": [
             2,
@@ -2014,7 +2034,7 @@
     },
     "ConnectionBadIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ConnectionBadIcon.png",
-        "hash": "a107d4ca1ffc740ad769b9821279d478",
+        "hash": "74ba790517fcf9e9c8af80d8a1a2cd02",
         "scales": [
             2,
             3
@@ -2930,7 +2950,7 @@
     },
     "EyeDropperIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/EyeDropperIcon.png",
-        "hash": "0d5f6f930c3377ed28c00aa3228ac56a",
+        "hash": "bdd61114e89dfedc69ea28fd8efac2a0",
         "scales": [
             2,
             3
@@ -3430,6 +3450,16 @@
         "width": 24,
         "height": 24
     },
+    "gaming": {
+        "file": "modules/hang_status/images/native/gaming.png",
+        "hash": "e8ceff5513321e12afccedad88f1bc88",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 25,
+        "height": 25
+    },
     "GamingIcon": {
         "file": "images/native/custom_app_icons/GamingIcon/GamingIcon.png",
         "hash": "27dc2bbcf6aa3b0cbef53a5212edf486",
@@ -3634,6 +3664,16 @@
         ],
         "width": 24,
         "height": 24
+    },
+    "grubbin": {
+        "file": "modules/hang_status/images/native/grubbin.png",
+        "hash": "2c5d50c03e0f088e045182444b7b5818",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 25,
+        "height": 25
     },
     "guild_identity_education_dark": {
         "file": "modules/guild_identity/images/guild_identity_education_dark.png",
@@ -6398,6 +6438,16 @@
         "hash": "bb061f50f0c26bcf1817896eee7a9443",
         "scales": [
             1,
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ic_reaction_smile": {
+        "file": "images/native/ic_reaction_smile.png",
+        "hash": "f7ffec41c9bbe61d134e1fd8fcff0768",
+        "scales": [
             2,
             3
         ],
@@ -10299,6 +10349,16 @@
         "width": 100,
         "height": 100
     },
+    "in-the-zone": {
+        "file": "modules/hang_status/images/native/in-the-zone.png",
+        "hash": "9c92ffc4f8bfefa67028fbff77cc6777",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 29,
+        "height": 28
+    },
     "InRainbowsIcon": {
         "file": "images/native/custom_app_icons/InRainbowsIcon/InRainbowsIcon.png",
         "hash": "83afa6ade4bb460402841be8438f6e52",
@@ -10738,7 +10798,7 @@
     },
     "MagicWandIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/MagicWandIcon.png",
-        "hash": "c81fadd3b348500956852ab9f338ec4e",
+        "hash": "9122c15876f65ed5997d8dad09d5af40",
         "scales": [
             2,
             3
@@ -12555,7 +12615,7 @@
     },
     "SettingsCircleIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/SettingsCircleIcon-secondary.png",
-        "hash": "d668a51272e01de45d6330662711378d",
+        "hash": "8f87098f8174ccb50850e15888618898",
         "scales": [
             2,
             3
@@ -13999,6 +14059,16 @@
         "width": 24,
         "height": 24
     },
+    "wandering": {
+        "file": "modules/hang_status/images/native/wandering.png",
+        "hash": "f582e7d48943842574ad87f8670e93f1",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 25,
+        "height": 25
+    },
     "WarningIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/WarningIcon.png",
         "hash": "ba2e75015b1baf3aa35bb6efd5d517fa",
@@ -14018,6 +14088,16 @@
         ],
         "width": 18,
         "height": 18
+    },
+    "watching": {
+        "file": "modules/hang_status/images/native/watching.png",
+        "hash": "838c77993f0c4e98e3a5b02a06e563ec",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 25,
+        "height": 25
     },
     "webhook_empty_dark": {
         "file": "images/native/empties/webhook_empty_dark.png",
