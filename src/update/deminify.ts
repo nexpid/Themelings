@@ -14,6 +14,16 @@ const stringMatch = /(["'`])(?:\\.|[^\\])*?\1/g;
 // biome-ignore lint/suspicious/noControlCharactersInRegex: this is needed
 const nullstringMatch = /(["'`])\x00(\d+)\x00\1/g;
 
+const nativeModuleNames = [
+	"global",
+	"require",
+	"metroImportDefault",
+	"metroImportAll",
+	"moduleObject",
+	"exports",
+	"dependencyMap",
+];
+
 export function deminify(code: string, path: string) {
 	const cleaned = code
 		.split(" = ")
@@ -35,7 +45,8 @@ export function deminify(code: string, path: string) {
 			depth = localArgs.get(n);
 		if (!depth) console.warn(`WARNING! arg${n} does not have any depth (${path})`);
 
-		return `${depth === 1 ? "native" : "arg"}${n + 1}`;
+		if (depth === 1) return nativeModuleNames[n] ?? `native${n + 1}`;
+		else return `arg${n + 1}`;
 	};
 	const funReplacer = (_: string, prefix: string, id: string, suffix: string) => {
 		const num = funMap.get(id) ?? String(funMap.size + 1).padStart(4, "0");
