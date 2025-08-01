@@ -1,9 +1,9 @@
 // discord_common/js/packages/tokens/native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var13 = native3;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var10;
@@ -219,25 +219,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var3 == var7;
             var5 = undefined;
             var9 = undefined;
-            if(var4) { _fun0003_ip = 172; continue _fun0003 }
- 166:
+            if(var4) { _fun0003_ip = 173; continue _fun0003 }
+ 167:
             var9 = var7.gradient;
- 172:
+ 173:
             var12 = var6;
             var4 = var1;
             if(!(var3 != var9)) { _fun0003_ip = 442; continue _fun0003 }
- 185:
+ 186:
             var9 = 'gradient';
             var9 = var9 in var8;
             var12 = var6;
             var4 = var1;
             if(!var9) { _fun0003_ip = 442; continue _fun0003 }
- 205:
+ 206:
             var9 = var8.gradient;
             var13 = var3 == var7;
             var8 = undefined;
             if(var13) { _fun0003_ip = 232; continue _fun0003 }
- 220:
+ 221:
             var13 = var7.gradient;
             var8 = var13.theme;
  232:

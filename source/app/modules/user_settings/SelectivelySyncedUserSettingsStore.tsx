@@ -1,9 +1,9 @@
 // app/modules/user_settings/SelectivelySyncedUserSettingsStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -270,7 +270,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.TEXT;
             var2 = var7[var2];
             var4 = false;
-            if(!(var4 === var2)) { _fun0007_ip = 214; continue _fun0007 }
+            if(!(var4 === var2)) { _fun0007_ip = 216; continue _fun0007 }
  156:
             var2 = {};
             var2['shouldSync'] = var4;
@@ -284,12 +284,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var9.bind(var10)(var6, var8);
             var2['settings'] = var8;
             var1['text'] = var2;
- 214:
+ 216:
             var2 = _closure1_slot8;
             var2 = var2.APPEARANCE;
             var2 = var7[var2];
-            if(!(var4 === var2)) { _fun0007_ip = 292; continue _fun0007 }
- 232:
+            if(!(var4 === var2)) { _fun0007_ip = 294; continue _fun0007 }
+ 234:
             var2 = {};
             var2['shouldSync'] = var4;
             var4 = _closure1_slot1;
@@ -302,7 +302,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var5)(var6, var3);
             var2['settings'] = var3;
             var1['appearance'] = var2;
- 292:
+ 294:
             return var1;
         }
     };
@@ -315,25 +315,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var5 == var2;
             var1 = undefined;
             var4 = undefined;
-            if(var3) { _fun0008_ip = 52; continue _fun0008 }
+            if(var3) { _fun0008_ip = 51; continue _fun0008 }
  16:
             var3 = var2.appearance;
             var6 = var5 == var3;
             var4 = undefined;
-            if(var6) { _fun0008_ip = 52; continue _fun0008 }
+            if(var6) { _fun0008_ip = 51; continue _fun0008 }
  31:
             var3 = var3.settings;
             var5 = var5 == var3;
             var4 = undefined;
-            if(var5) { _fun0008_ip = 52; continue _fun0008 }
+            if(var5) { _fun0008_ip = 51; continue _fun0008 }
  46:
             var4 = var3.theme;
- 52:
+ 51:
             var3 = 'amoled';
-            if(!(var3 !== var4)) { _fun0008_ip = 64; continue _fun0008 }
- 62:
+            if(!(var3 !== var4)) { _fun0008_ip = 63; continue _fun0008 }
+ 61:
             return var1;
- 64:
+ 63:
             var1 = {};
             var8 = var1;
             var7 = var2;

@@ -1,10 +1,10 @@
 // app/actions/native/MessagePreviewActionCreators.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;

@@ -1,8 +1,8 @@
 // app/modules/app_startup/AllCacheStores.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var4 = native2;
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var4 = require;
+    var3 = exports;
+    var5 = dependencyMap;
     var1 = global;
     var7 = var1.Object;
     var6 = var7.defineProperty;
@@ -106,6 +106,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var5[var2];
     var2 = var4.bind(var1)(var2);
     var2 = 31;
+    var2 = var5[var2];
+    var2 = var4.bind(var1)(var2);
+    var2 = 32;
     var2 = var5[var2];
     var5 = var4.bind(var1)(var2);
     var4 = var5.fileFinishedImporting;

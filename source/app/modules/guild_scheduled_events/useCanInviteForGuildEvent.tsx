@@ -1,11 +1,11 @@
 // app/modules/guild_scheduled_events/useCanInviteForGuildEvent.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var9 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var9 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var8;
     var4 = function canEveryoneRoleViewEvent(arg1) {

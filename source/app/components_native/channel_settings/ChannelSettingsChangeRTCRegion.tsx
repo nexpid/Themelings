@@ -1,9 +1,9 @@
 // app/components_native/channel_settings/ChannelSettingsChangeRTCRegion.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
@@ -81,7 +81,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot8 = var4;
     var4 = 6;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var7 = 7;
     var7 = var6[var7];
@@ -167,7 +167,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = new Array(1);
                         var2[0] = var5;
                         var5 = null;
-                        if(!(var5 != var8)) { _fun0003_ip = 263; continue _fun0003 }
+                        if(!(var5 != var8)) { _fun0003_ip = 264; continue _fun0003 }
  168:
                         var9 = var2.push;
                         var10 = var8.filter;
@@ -208,17 +208,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var6 = var7.bind(var8)(var6);
                         var7 = var5 == var6;
                         var4 = undefined;
-                        if(var7) { _fun0003_ip = 247; continue _fun0003 }
- 242:
+                        if(var7) { _fun0003_ip = 248; continue _fun0003 }
+ 243:
                         var4 = var6.id;
- 247:
+ 248:
                         var5 = var5 != var4;
-                        if(!var5) { _fun0003_ip = 257; continue _fun0003 }
- 254:
+                        if(!var5) { _fun0003_ip = 258; continue _fun0003 }
+ 255:
                         var3 = var4;
- 257:
+ 258:
                         var1['selectedRegionId'] = var3;
- 263:
+ 264:
                         var1['regions'] = var2;
                         return var1;
                     }

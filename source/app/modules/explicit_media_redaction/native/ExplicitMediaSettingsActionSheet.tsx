@@ -1,9 +1,9 @@
 // app/modules/explicit_media_redaction/native/ExplicitMediaSettingsActionSheet.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -91,8 +91,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var2 = var2.bind(var3)(var1);
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 83; continue _fun0002 }
- 39:
+                    if(!(var1 != var2)) { _fun0002_ip = 84; continue _fun0002 }
+ 40:
                     var1 = var2.onPress;
                     var1 = var1.bind(var2)();
                     var3 = _closure1_slot1;
@@ -103,7 +103,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var3.bind(var1)(var2);
                     var1 = var2.hideActionSheet;
                     var1 = var1.bind(var2)();
- 83:
+ 84:
                     var1 = undefined;
                     return var1;
                 }

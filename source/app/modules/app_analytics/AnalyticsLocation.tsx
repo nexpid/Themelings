@@ -1,6 +1,6 @@
 // app/modules/app_analytics/AnalyticsLocation.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var1 = global;
     var5 = var1.Object;
     var4 = var5.defineProperty;
@@ -168,6 +168,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['PREMIUM_TIER_0_TRIAL_ENDING_NOTICE'] = var1;
     var1 = 'premium tier 2 trial ending notice';
     var2['PREMIUM_TIER_2_TRIAL_ENDING_NOTICE'] = var1;
+    var1 = 'premium tier 2 discount ending notice';
+    var2['PREMIUM_TIER_2_DISCOUNT_ENDING_NOTICE'] = var1;
     var1 = 'boosted guild perks modal';
     var2['BOOSTED_GUILD_PERKS_MODAL'] = var1;
     var1 = 'guild powerups - overview';
@@ -933,10 +935,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['APP_LAUNCHER_FRIENDS_TAB_JOIN_BUTTON'] = var1;
     var1 = 'report to mod channel context menu';
     var2['REPORT_TO_MOD_CHANNEL_CONTEXT_MENU'] = var1;
-    var4 = native7;
+    var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];
-    var4 = native2;
+    var4 = require;
     var1 = undefined;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;

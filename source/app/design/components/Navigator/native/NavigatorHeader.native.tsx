@@ -1,9 +1,9 @@
 // app/design/components/Navigator/native/NavigatorHeader.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var12 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var8;
@@ -284,7 +284,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var5;
     var5 = 1;
     var6 = var8[var5];
-    var5 = native4;
+    var5 = metroImportAll;
     var5 = var5.bind(var1)(var6);
     var5 = 2;
     var5 = var8[var5];
@@ -411,13 +411,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5[0] = var6;
             var6 = null;
             var6 = var6 != var10;
-            if(!var6) { _fun0004_ip = 160; continue _fun0004 }
- 152:
+            if(!var6) { _fun0004_ip = 164; continue _fun0004 }
+ 156:
             var8 = '';
             var6 = var8 !== var10;
- 160:
-            if(!var6) { _fun0004_ip = 225; continue _fun0004 }
- 163:
+ 164:
+            if(!var6) { _fun0004_ip = 229; continue _fun0004 }
+ 167:
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -429,7 +429,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['style'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 225:
+ 229:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

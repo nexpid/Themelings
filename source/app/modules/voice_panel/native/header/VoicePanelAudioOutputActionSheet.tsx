@@ -1,9 +1,9 @@
 // app/modules/voice_panel/native/header/VoicePanelAudioOutputActionSheet.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -121,12 +121,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var3 = var3.bind(var4)(var2);
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0002_ip = 48; continue _fun0002 }
- 37:
+                    if(!(var2 != var3)) { _fun0002_ip = 49; continue _fun0002 }
+ 38:
                     var2 = _closure2_slot1;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
- 48:
+ 49:
                     var1 = undefined;
                     return var1;
                 }
@@ -333,13 +333,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var6 = var2.bind(var4)(var1);
                     var1 = null;
-                    if(!(var1 == var6)) { _fun0007_ip = 52; continue _fun0007 }
- 37:
+                    if(!(var1 == var6)) { _fun0007_ip = 53; continue _fun0007 }
+ 38:
                     var2 = _closure1_slot14;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-                    _fun0007_ip = 101; continue _fun0007;
- 52:
+                    _fun0007_ip = 102; continue _fun0007;
+ 53:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var2 = 22;
@@ -351,7 +351,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var4.bind(var5)(var3, var6);
                     var1 = _closure1_slot14;
                     var1 = var1.bind(var2)();
- 101:
+ 102:
                     var1 = undefined;
                     return var1;
                 }
@@ -555,7 +555,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot3 = var7;

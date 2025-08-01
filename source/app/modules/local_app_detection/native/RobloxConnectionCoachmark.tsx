@@ -1,9 +1,9 @@
 // app/modules/local_app_detection/native/RobloxConnectionCoachmark.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -31,10 +31,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.ROBLOX;
             var6 = var3.bind(var6)(var2);
             var7 = 'white';
-            if(!var1) { _fun0001_ip = 100; continue _fun0001 }
- 96:
+            if(!var1) { _fun0001_ip = 99; continue _fun0001 }
+ 95:
             var7 = 'black';
- 100:
+ 99:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 26;
@@ -42,13 +42,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var4)(var2);
             var2 = var3.makeSource;
             var6 = var6.icon;
-            if(var1) { _fun0001_ip = 142; continue _fun0001 }
- 134:
+            if(var1) { _fun0001_ip = 141; continue _fun0001 }
+ 133:
             var1 = var6.lightPNG;
-            _fun0001_ip = 148; continue _fun0001;
- 142:
+            _fun0001_ip = 147; continue _fun0001;
+ 141:
             var1 = var6.darkPNG;
- 148:
+ 147:
             var8 = var2.bind(var3)(var1);
             var3 = _closure1_slot13;
             var2 = _closure1_slot5;
@@ -97,10 +97,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.isThemeDark;
             var1 = var1.bind(var2)(var3);
             var16 = 'black';
-            if(!var1) { _fun0002_ip = 56; continue _fun0002 }
- 52:
+            if(!var1) { _fun0002_ip = 55; continue _fun0002 }
+ 51:
             var16 = 'white';
- 56:
+ 55:
             var3 = _closure1_slot14;
             var2 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -225,7 +225,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
     var4 = 2;

@@ -1,9 +1,9 @@
 // app/components_native/StreamPreview.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var14 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var14 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var14;
     var _closure1_slot2 = var6;
@@ -112,7 +112,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot7 = var4;
     var4 = 5;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
     var4 = 6;
     var4 = var6[var4];
@@ -221,17 +221,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = var7.bind(var9)(var10);
                 var9 = _closure1_slot1;
                 var10 = _closure1_slot2;
-                if(var7) { _fun0003_ip = 134; continue _fun0003 }
- 120:
+                if(var7) { _fun0003_ip = 133; continue _fun0003 }
+ 119:
                 var7 = 13;
                 var7 = var10[var7];
                 var7 = var9.bind(var4)(var7);
-                _fun0003_ip = 146; continue _fun0003;
- 134:
+                _fun0003_ip = 145; continue _fun0003;
+ 133:
                 var8 = 12;
                 var8 = var10[var8];
                 var7 = var9.bind(var4)(var8);
- 146:
+ 145:
                 var5['source'] = var7;
                 var5 = var3.bind(var4)(var6, var5);
                 var1['children'] = var5;
@@ -360,24 +360,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var1.isImageLoaded;
                 var10 = var1.isImageErrored;
                 var1 = null;
-                if(!(var1 != var19)) { _fun0004_ip = 225; continue _fun0004 }
- 102:
-                if(var14) { _fun0004_ip = 225; continue _fun0004 }
- 105:
-                if(var10) { _fun0004_ip = 225; continue _fun0004 }
- 108:
+                if(!(var1 != var19)) { _fun0004_ip = 224; continue _fun0004 }
+ 101:
+                if(var14) { _fun0004_ip = 224; continue _fun0004 }
+ 104:
+                if(var10) { _fun0004_ip = 224; continue _fun0004 }
+ 107:
                 var10 = undefined;
-                if(var9) { _fun0004_ip = 133; continue _fun0004 }
- 113:
+                if(var9) { _fun0004_ip = 132; continue _fun0004 }
+ 112:
                 var15 = var1 == var3;
                 var9 = undefined;
-                if(var15) { _fun0004_ip = 130; continue _fun0004 }
- 122:
+                if(var15) { _fun0004_ip = 129; continue _fun0004 }
+ 121:
                 var15 = true;
                 var9 = var3.bind(var4)(var15, var2);
- 130:
+ 129:
                 var10 = var9;
- 133:
+ 132:
                 var16 = _closure1_slot11;
                 var15 = _closure1_slot8;
                 var9 = {};
@@ -397,17 +397,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var17 = var17.handleError;
                 var9['onError'] = var17;
                 var9 = var16.bind(var4)(var15, var9);
-                _fun0004_ip = 245; continue _fun0004;
- 225:
+                _fun0004_ip = 244; continue _fun0004;
+ 224:
                 var15 = var1 == var3;
                 var1 = undefined;
-                if(var15) { _fun0004_ip = 240; continue _fun0004 }
- 234:
+                if(var15) { _fun0004_ip = 239; continue _fun0004 }
+ 233:
                 var1 = var3.bind(var4)(var14, var2);
- 240:
+ 239:
                 var10 = var1;
                 var9 = undefined;
- 245:
+ 244:
                 var3 = _closure1_slot12;
                 var2 = _closure1_slot0;
                 var14 = _closure1_slot2;
@@ -474,15 +474,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var6.bind(var1)(var5);
             var6 = var5.t;
             var5 = arg1;
-            if(var5) { _fun0005_ip = 88; continue _fun0005 }
- 73:
+            if(var5) { _fun0005_ip = 87; continue _fun0005 }
+ 72:
             var5 = var6.uQZTBQ;
             var5 = var7.bind(var8)(var5);
-            _fun0005_ip = 101; continue _fun0005;
- 88:
+            _fun0005_ip = 100; continue _fun0005;
+ 87:
             var6 = var6.NQ7H8f;
             var5 = var7.bind(var8)(var6);
- 101:
+ 100:
             var2['caption'] = var5;
             var1 = var4.bind(var1)(var3, var2);
             return var1;

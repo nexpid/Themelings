@@ -1,9 +1,9 @@
 // app/modules/premium/native/BoostedGuildTierProgressCircle.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var4 = 1;
@@ -157,14 +157,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = null;
             var5 = var2 == var14;
             var1 = undefined;
-            if(var5) { _fun0002_ip = 63; continue _fun0002 }
- 58:
+            if(var5) { _fun0002_ip = 62; continue _fun0002 }
+ 57:
             var1 = var14.id;
- 63:
+ 62:
             var1 = var3.bind(var4)(var1);
             var3 = var1.available;
-            if(!(var2 != var14)) { _fun0002_ip = 381; continue _fun0002 }
- 81:
+            if(!(var2 != var14)) { _fun0002_ip = 380; continue _fun0002 }
+ 80:
             var5 = _closure1_slot0;
             var1 = _closure1_slot2;
             var17 = 11;
@@ -175,24 +175,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var5.bind(var6)(var1);
             var5 = var2 != var6;
             var1 = null;
-            if(!var5) { _fun0002_ip = 134; continue _fun0002 }
- 126:
+            if(!var5) { _fun0002_ip = 133; continue _fun0002 }
+ 125:
             var5 = _closure1_slot5;
             var1 = var5[var6];
- 134:
+ 133:
             var6 = var2 != var1;
             var2 = 100;
             var5 = var2;
-            if(!var6) { _fun0002_ip = 167; continue _fun0002 }
- 147:
+            if(!var6) { _fun0002_ip = 166; continue _fun0002 }
+ 146:
             var6 = 0;
             var6 = var1 > var6;
             var5 = var2;
-            if(!var6) { _fun0002_ip = 167; continue _fun0002 }
- 159:
+            if(!var6) { _fun0002_ip = 166; continue _fun0002 }
+ 158:
             var1 = var3 / var1;
             var5 = var1 * var2;
- 167:
+ 166:
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -239,7 +239,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 381:
+ 380:
             var3 = _closure1_slot7;
             var2 = _closure1_slot3;
             var1 = {};

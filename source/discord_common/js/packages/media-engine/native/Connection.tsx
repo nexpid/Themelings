@@ -1,9 +1,9 @@
 // discord_common/js/packages/media-engine/native/Connection.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -785,23 +785,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 };
                                 var7 = var2.bind(var4)(var1);
                                 var1 = undefined;
-                                if(!(var1 !== var7)) { _fun0014_ip = 380; continue _fun0014 }
- 46:
+                                if(!(var1 !== var7)) { _fun0014_ip = 381; continue _fun0014 }
+ 47:
                                 var2 = var7.quality;
                                 var8 = null;
                                 var6 = var8 != var2;
                                 var5 = 0;
-                                if(!var6) { _fun0014_ip = 66; continue _fun0014 }
- 63:
+                                if(!var6) { _fun0014_ip = 67; continue _fun0014 }
+ 64:
                                 var5 = var2;
- 66:
+ 67:
                                 var2 = 100;
-                                if(!(var5 < var2)) { _fun0014_ip = 380; continue _fun0014 }
- 76:
+                                if(!(var5 < var2)) { _fun0014_ip = 381; continue _fun0014 }
+ 77:
                                 var5 = var7.type;
                                 var2 = 'video';
-                                if(!(var2 === var5)) { _fun0014_ip = 380; continue _fun0014 }
- 92:
+                                if(!(var2 === var5)) { _fun0014_ip = 381; continue _fun0014 }
+ 93:
                                 var2 = global;
                                 var9 = var2.Math;
                                 var6 = var9.floor;
@@ -818,24 +818,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var5 = var7.minBitrate;
                                 var12 = var8 != var5;
                                 var6 = 0;
-                                if(!var12) { _fun0014_ip = 179; continue _fun0014 }
- 176:
+                                if(!var12) { _fun0014_ip = 180; continue _fun0014 }
+ 177:
                                 var6 = var5;
- 179:
+ 180:
                                 var12 = var7.maxBitrate;
                                 var5 = var10;
-                                if(!(var8 != var12)) { _fun0014_ip = 195; continue _fun0014 }
- 192:
+                                if(!(var8 != var12)) { _fun0014_ip = 196; continue _fun0014 }
+ 193:
                                 var5 = var12;
- 195:
+ 196:
                                 var5 = var9.bind(var1)(var10, var6, var5);
                                 var6 = var7.targetBitrate;
                                 var8 = var8 != var6;
                                 var4 = 0;
-                                if(!var8) { _fun0014_ip = 220; continue _fun0014 }
- 217:
+                                if(!var8) { _fun0014_ip = 221; continue _fun0014 }
+ 218:
                                 var4 = var6;
- 220:
+ 221:
                                 var9 = var2.Math;
                                 var8 = var9.abs;
                                 var6 = var5 - var4;
@@ -846,13 +846,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var6 = var6 / var4;
                                 var4 = 0.1;
                                 var4 = var6 > var4;
-                                if(var4) { _fun0014_ip = 283; continue _fun0014 }
- 273:
+                                if(var4) { _fun0014_ip = 284; continue _fun0014 }
+ 274:
                                 var6 = var7.targetBitrate;
                                 var4 = var1 === var6;
- 283:
-                                if(!var4) { _fun0014_ip = 380; continue _fun0014 }
- 286:
+ 284:
+                                if(!var4) { _fun0014_ip = 381; continue _fun0014 }
+ 287:
                                 var3 = _closure3_slot0;
                                 var6 = var3.logger;
                                 var4 = var6.info;
@@ -871,7 +871,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var2 = var2.bind(var4)(var5);
                                 var2 = var3.updateVideoQuality;
                                 var2 = var2.bind(var3)();
- 380:
+ 381:
                                 return var1;
                             }
                         };
@@ -5418,7 +5418,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var2.RED;
                 var24 = undefined;
                 var2 = undefined;
-                if(!(var28 === var3)) { _fun0068_ip = 94; continue _fun0068 }
+                if(!(var28 === var3)) { _fun0068_ip = 95; continue _fun0068 }
  36:
                 var5 = var26.codecs;
                 var4 = var5.find;
@@ -5433,16 +5433,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = null;
                 var5 = var3 == var4;
                 var3 = undefined;
-                if(var5) { _fun0068_ip = 74; continue _fun0068 }
- 68:
+                if(var5) { _fun0068_ip = 75; continue _fun0068 }
+ 69:
                 var3 = var4.payloadType;
- 74:
+ 75:
                 var4 = _closure1_slot22;
                 var4 = var4.OPUS;
                 _closure3_slot0 = var4;
                 var2 = var3;
                 var28 = var4;
- 94:
+ 95:
                 var3 = {'type': null, 'name': null, 'freq': 48000, 'pacsize': 960, 'channels': 1, 'rate': 64000};
                 var6 = var26.codecs;
                 var5 = var6.find;
@@ -5457,16 +5457,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var23 = null;
                 var6 = var23 == var4;
                 var5 = undefined;
-                if(var6) { _fun0068_ip = 146; continue _fun0068 }
- 140:
+                if(var6) { _fun0068_ip = 148; continue _fun0068 }
+ 142:
                 var5 = var4.payloadType;
- 146:
+ 148:
                 var6 = var23 != var5;
                 var4 = 0;
-                if(!var6) { _fun0068_ip = 158; continue _fun0068 }
- 155:
+                if(!var6) { _fun0068_ip = 160; continue _fun0068 }
+ 157:
                 var4 = var5;
- 158:
+ 160:
                 var3['type'] = var4;
                 var3['name'] = var28;
                 var3['redPayloadType'] = var2;
@@ -5517,11 +5517,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = _closure1_slot23;
                 var4 = var1.STREAM;
                 var1 = arg3;
-                if(!(var1 === var4)) { _fun0068_ip = 239; continue _fun0068 }
- 230:
+                if(!(var1 === var4)) { _fun0068_ip = 241; continue _fun0068 }
+ 232:
                 var1 = 2;
                 var3['channels'] = var1;
- 239:
+ 241:
                 var4 = new Array(0);
                 var5 = {'name': '', 'type': 0, 'rtxType': 0};
                 var1 = {};
@@ -5547,13 +5547,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = undefined;
                 var6 = undefined;
                 var5 = var12;
-                if(var1) { _fun0068_ip = 861; continue _fun0068 }
- 344:
+                if(var1) { _fun0068_ip = 863; continue _fun0068 }
+ 346:
                 var31 = var13.value;
                 var1 = var31.name;
                 var29 = var12;
-                if(!(var1 !== var28)) { _fun0068_ip = 837; continue _fun0068 }
- 364:
+                if(!(var1 !== var28)) { _fun0068_ip = 839; continue _fun0068 }
+ 366:
                 var30 = {};
                 var32 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -5565,29 +5565,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var30['name'] = var1;
                 var1 = var23 == var31;
                 var33 = undefined;
-                if(var1) { _fun0068_ip = 418; continue _fun0068 }
- 412:
+                if(var1) { _fun0068_ip = 420; continue _fun0068 }
+ 414:
                 var33 = var31.payloadType;
- 418:
+ 420:
                 var32 = var23 != var33;
                 var1 = 0;
-                if(!var32) { _fun0068_ip = 430; continue _fun0068 }
- 427:
+                if(!var32) { _fun0068_ip = 432; continue _fun0068 }
+ 429:
                 var1 = var33;
- 430:
+ 432:
                 var30['type'] = var1;
                 var1 = var23 == var31;
                 var32 = undefined;
-                if(var1) { _fun0068_ip = 449; continue _fun0068 }
- 443:
+                if(var1) { _fun0068_ip = 451; continue _fun0068 }
+ 445:
                 var32 = var31.rtxPayloadType;
- 449:
+ 451:
                 var34 = var23 != var32;
                 var1 = 0;
-                if(!var34) { _fun0068_ip = 461; continue _fun0068 }
- 458:
+                if(!var34) { _fun0068_ip = 463; continue _fun0068 }
+ 460:
                 var1 = var32;
- 461:
+ 463:
                 var30['rtxType'] = var1;
                 var34 = var26.getCodecParams;
                 var1 = var31.name;
@@ -5598,47 +5598,47 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = _closure1_slot11;
                 var1 = var1.RESET_DECODER_ON_ERRORS;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0068_ip = 531; continue _fun0068 }
- 517:
+                if(!var1) { _fun0068_ip = 533; continue _fun0068 }
+ 519:
                 var1 = var30.params;
                 var1['reset-on-errors'] = var20;
- 531:
+ 533:
                 var35 = var26.experimentFlags;
                 var34 = var35.has;
                 var1 = _closure1_slot11;
                 var1 = var1.SOFTWARE_FALLBACK_ON_ERRORS;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0068_ip = 574; continue _fun0068 }
- 560:
+                if(!var1) { _fun0068_ip = 576; continue _fun0068 }
+ 562:
                 var1 = var30.params;
                 var1['fallback-after-errors'] = var16;
- 574:
+ 576:
                 var35 = var26.experimentFlags;
                 var34 = var35.has;
                 var1 = _closure1_slot11;
                 var1 = var1.SOFTWARE_FALLBACK_ON_CONSECUTIVE_ERRORS;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0068_ip = 617; continue _fun0068 }
- 603:
+                if(!var1) { _fun0068_ip = 619; continue _fun0068 }
+ 605:
                 var1 = var30.params;
                 var1['fallback-on-consecutive-errors'] = var20;
- 617:
+ 619:
                 var35 = var26.experimentFlags;
                 var34 = var35.has;
                 var1 = _closure1_slot11;
                 var1 = var1.SIGNAL_AV1_HARDWARE_DECODE;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0068_ip = 660; continue _fun0068 }
- 646:
+                if(!var1) { _fun0068_ip = 662; continue _fun0068 }
+ 648:
                 var1 = var30.params;
                 var1['hardware-av1-decode'] = var20;
- 660:
+ 662:
                 var34 = var26.hardwareH264;
                 var1 = var17;
-                if(!var34) { _fun0068_ip = 675; continue _fun0068 }
- 672:
+                if(!var34) { _fun0068_ip = 677; continue _fun0068 }
+ 674:
                 var1 = var20;
- 675:
+ 677:
                 var34 = var30.params;
                 var34['hardware-h264'] = var1;
                 var34 = var4.push;
@@ -5651,8 +5651,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var10;
                 var7 = var30;
                 var6 = var1;
-                if(!(var34 === var27)) { _fun0068_ip = 837; continue _fun0068 }
- 727:
+                if(!(var34 === var27)) { _fun0068_ip = 839; continue _fun0068 }
+ 729:
                 var34 = {};
                 var39 = var34;
                 var38 = var30;
@@ -5666,11 +5666,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var35 = _closure1_slot11;
                 var35 = var35.VIDEOTOOLBOX_RATE_CONTROL;
                 var35 = var36.bind(var37)(var35);
-                if(!var35) { _fun0068_ip = 804; continue _fun0068 }
- 790:
+                if(!var35) { _fun0068_ip = 806; continue _fun0068 }
+ 792:
                 var35 = var34.params;
                 var35['fixed-rate-presentation-timestamps'] = var20;
- 804:
+ 806:
                 var35 = var34.params;
                 var35['hardware-h264'] = var1;
                 var29 = var34;
@@ -5680,14 +5680,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var10;
                 var7 = var30;
                 var6 = var1;
- 837:
+ 839:
                 var30 = var21.bind(var24)();
                 var1 = var30.done;
                 var12 = var29;
                 var13 = var30;
                 var5 = var12;
-                if(!var1) { _fun0068_ip = 344; continue _fun0068 }
- 861:
+                if(!var1) { _fun0068_ip = 346; continue _fun0068 }
+ 863:
                 var1 = {};
                 var1['videoEncoder'] = var5;
                 var1['videoDecoders'] = var4;

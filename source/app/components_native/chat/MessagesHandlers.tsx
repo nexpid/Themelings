@@ -1,12 +1,12 @@
 // app/components_native/chat/MessagesHandlers.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var6;
     var1 = function getCodedLinks(arg1) {
@@ -2987,7 +2987,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var1.params;
                     var5 = var1.uploads;
                     var1 = null;
-                    if(!(var1 != var5)) { _fun0032_ip = 154; continue _fun0032 }
+                    if(!(var1 != var5)) { _fun0032_ip = 155; continue _fun0032 }
  51:
                     var3 = var5.find;
                     var2 = function(arg1) {
@@ -2998,8 +2998,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var3 = var3.bind(var5)(var2);
-                    if(!(var1 != var3)) { _fun0032_ip = 154; continue _fun0032 }
- 72:
+                    if(!(var1 != var3)) { _fun0032_ip = 155; continue _fun0032 }
+ 73:
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot3;
                     var2 = 99;
@@ -3018,7 +3018,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.bind(var5)(var1);
                     var1 = var2.cancelUploadItem;
                     var1 = var1.bind(var2)(var3, var4);
- 154:
+ 155:
                     var1 = undefined;
                     return var1;
                 }
@@ -5695,18 +5695,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var4.getMessageData;
                     var2 = var2.bind(var4)(var7);
                     var4 = null;
-                    if(!(var4 != var2)) { _fun0059_ip = 296; continue _fun0059 }
+                    if(!(var4 != var2)) { _fun0059_ip = 297; continue _fun0059 }
  103:
-                    if(!(var1 !== var9)) { _fun0059_ip = 238; continue _fun0059 }
+                    if(!(var1 !== var9)) { _fun0059_ip = 239; continue _fun0059 }
  110:
-                    if(var9) { _fun0059_ip = 238; continue _fun0059 }
+                    if(var9) { _fun0059_ip = 239; continue _fun0059 }
  116:
                     var10 = var2.message;
                     var9 = var10.getContentMessage;
                     var9 = var9.bind(var10)();
                     var10 = var4 == var9;
                     var11 = undefined;
-                    if(var10) { _fun0059_ip = 163; continue _fun0059 }
+                    if(var10) { _fun0059_ip = 164; continue _fun0059 }
  140:
                     var10 = var9.attachments;
                     var9 = var10.find;
@@ -5718,9 +5718,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var11 = var9.bind(var10)(var8);
- 163:
-                    if(!(var4 != var11)) { _fun0059_ip = 236; continue _fun0059 }
- 167:
+ 164:
+                    if(!(var4 != var11)) { _fun0059_ip = 237; continue _fun0059 }
+ 168:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot3;
                     var4 = 164;
@@ -5737,10 +5737,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var14 = var7;
                     var13 = var5;
                     var4 = var18[var9](var17, var16, var15, var14, var13, var12, var11);
-                    _fun0059_ip = 296; continue _fun0059;
- 236:
+                    _fun0059_ip = 297; continue _fun0059;
+ 237:
                     return var1;
- 238:
+ 239:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot3;
                     var3 = 163;
@@ -5755,7 +5755,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var16 = var6;
                     var15 = var5;
                     var2 = var18[var3](var17, var16, var15, var14, var13);
- 296:
+ 297:
                     return var1;
                 }
             };
@@ -5783,18 +5783,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var4.getMessageData;
                     var2 = var2.bind(var4)(var8);
                     var4 = null;
-                    if(!(var4 != var2)) { _fun0060_ip = 301; continue _fun0060 }
+                    if(!(var4 != var2)) { _fun0060_ip = 302; continue _fun0060 }
  111:
-                    if(!(var1 !== var10)) { _fun0060_ip = 240; continue _fun0060 }
+                    if(!(var1 !== var10)) { _fun0060_ip = 241; continue _fun0060 }
  118:
-                    if(var10) { _fun0060_ip = 240; continue _fun0060 }
+                    if(var10) { _fun0060_ip = 241; continue _fun0060 }
  121:
                     var11 = var2.message;
                     var10 = var11.getContentMessage;
                     var10 = var10.bind(var11)();
                     var12 = var4 == var10;
                     var11 = undefined;
-                    if(var12) { _fun0060_ip = 168; continue _fun0060 }
+                    if(var12) { _fun0060_ip = 169; continue _fun0060 }
  145:
                     var12 = var10.attachments;
                     var10 = var12.find;
@@ -5806,9 +5806,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var11 = var10.bind(var12)(var9);
- 168:
-                    if(!(var4 != var11)) { _fun0060_ip = 238; continue _fun0060 }
- 172:
+ 169:
+                    if(!(var4 != var11)) { _fun0060_ip = 239; continue _fun0060 }
+ 173:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot3;
                     var4 = 164;
@@ -5825,10 +5825,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var14 = var5;
                     var13 = var11;
                     var4 = var19[var9](var18, var17, var16, var15, var14, var13, var12);
-                    _fun0060_ip = 301; continue _fun0060;
- 238:
+                    _fun0060_ip = 302; continue _fun0060;
+ 239:
                     return var1;
- 240:
+ 241:
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot3;
                     var3 = 163;
@@ -5844,7 +5844,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var16 = var6;
                     var14 = var5;
                     var2 = var19[var3](var18, var17, var16, var15, var14, var13);
- 301:
+ 302:
                     return var1;
                 }
             };

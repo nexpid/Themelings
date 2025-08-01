@@ -1,10 +1,10 @@
 // app/design/components/ContextMenu/native/ContextMenu.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -1132,16 +1132,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.bind(var3)(var1);
                     var4 = null;
                     var1 = var4 == var2;
-                    if(var1) { _fun0011_ip = 49; continue _fun0011 }
- 40:
+                    if(var1) { _fun0011_ip = 50; continue _fun0011 }
+ 41:
                     var3 = var2.action;
                     var1 = var4 == var3;
- 49:
-                    if(var1) { _fun0011_ip = 61; continue _fun0011 }
- 52:
+ 50:
+                    if(var1) { _fun0011_ip = 62; continue _fun0011 }
+ 53:
                     var1 = var2.action;
                     var1 = var1.bind(var2)();
- 61:
+ 62:
                     var1 = undefined;
                     return var1;
                 }

@@ -1,8 +1,8 @@
 // discord_common/js/shared/config/colors/generated/ThemeColorMapNew.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var3 = exports;
+    var7 = dependencyMap;
     var4 = global;
     var8 = var4.Object;
     var5 = var8.defineProperty;

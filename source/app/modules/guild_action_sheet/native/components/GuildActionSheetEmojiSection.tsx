@@ -1,9 +1,9 @@
 // app/modules/guild_action_sheet/native/components/GuildActionSheetEmojiSection.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -22,7 +22,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -528,17 +528,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var8 = var10.bind(var11)(var8);
                     var11 = _closure1_slot1;
                     var12 = _closure1_slot2;
-                    if(var8) { _fun0003_ip = 201; continue _fun0003 }
- 187:
+                    if(var8) { _fun0003_ip = 200; continue _fun0003 }
+ 186:
                     var8 = 31;
                     var8 = var12[var8];
                     var8 = var11.bind(var4)(var8);
-                    _fun0003_ip = 213; continue _fun0003;
- 201:
+                    _fun0003_ip = 212; continue _fun0003;
+ 200:
                     var10 = 30;
                     var10 = var12[var10];
                     var8 = var11.bind(var4)(var10);
- 213:
+ 212:
                     var6['placeholder'] = var8;
                     var8 = {};
                     var10 = _closure1_slot1;

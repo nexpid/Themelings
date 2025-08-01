@@ -1,9 +1,9 @@
 // app/modules/app_database/modules/Messages.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var6 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var6 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var6;
     var _closure1_slot2 = var8;
@@ -869,7 +869,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var1.channelId;
                 var2 = var4.bind(var7)(var2);
                 var4 = null;
-                if(!(var4 != var2)) { _fun0013_ip = 190; continue _fun0013 }
+                if(!(var4 != var2)) { _fun0013_ip = 189; continue _fun0013 }
  41:
                 var7 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -880,21 +880,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var7.isReadableChannelId;
                 var3 = var1.channelId;
                 var3 = var4.bind(var7)(var3);
-                if(!var3) { _fun0013_ip = 190; continue _fun0013 }
+                if(!var3) { _fun0013_ip = 189; continue _fun0013 }
  82:
                 var3 = var1.isAfter;
-                if(var3) { _fun0013_ip = 156; continue _fun0013 }
+                if(var3) { _fun0013_ip = 155; continue _fun0013 }
  91:
                 var3 = var1.isBefore;
-                if(var3) { _fun0013_ip = 156; continue _fun0013 }
+                if(var3) { _fun0013_ip = 155; continue _fun0013 }
  100:
                 var3 = var1.hasMoreAfter;
-                if(var3) { _fun0013_ip = 156; continue _fun0013 }
+                if(var3) { _fun0013_ip = 155; continue _fun0013 }
  109:
                 var4 = var1.limit;
                 var3 = 5;
-                if(!(var4 > var3)) { _fun0013_ip = 156; continue _fun0013 }
- 122:
+                if(!(var4 > var3)) { _fun0013_ip = 155; continue _fun0013 }
+ 121:
                 var8 = var5.replaceAll;
                 var12 = var2.guild_id;
                 var11 = var1.channelId;
@@ -902,8 +902,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var13 = var5;
                 var9 = var6;
                 var3 = var13[var8](var12, var11, var10, var9, var8);
-                _fun0013_ip = 190; continue _fun0013;
- 156:
+                _fun0013_ip = 189; continue _fun0013;
+ 155:
                 var4 = var5.upsertMany;
                 var12 = var2.guild_id;
                 var11 = var1.channelId;
@@ -911,7 +911,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var13 = var5;
                 var9 = var6;
                 var1 = var13[var4](var12, var11, var10, var9, var8);
- 190:
+ 189:
                 var1 = undefined;
                 return var1;
             }

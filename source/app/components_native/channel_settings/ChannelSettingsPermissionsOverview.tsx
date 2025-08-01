@@ -1,10 +1,10 @@
 // app/components_native/channel_settings/ChannelSettingsPermissionsOverview.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var7 = native4;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var7 = metroImportAll;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var7;
@@ -227,19 +227,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var9[var16];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
-            if(var8) { _fun0001_ip = 231; continue _fun0001 }
- 208:
+            if(var8) { _fun0001_ip = 232; continue _fun0001 }
+ 209:
             var10 = var9.OIhm0N;
             var8 = {};
             var8['categoryName'] = var15;
             var8 = var12.bind(var14)(var10, var8);
-            _fun0001_ip = 252; continue _fun0001;
- 231:
+            _fun0001_ip = 253; continue _fun0001;
+ 232:
             var10 = var9.ETJqLi;
             var9 = {};
             var9['categoryName'] = var15;
             var8 = var12.bind(var14)(var10, var9);
- 252:
+ 253:
             var5['title'] = var8;
             var10 = _closure1_slot16;
             var15 = _closure1_slot0;
@@ -288,11 +288,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = null;
             var5 = var4 == var6;
             var1 = null;
-            if(var5) { _fun0003_ip = 75; continue _fun0003 }
- 36:
+            if(var5) { _fun0003_ip = 77; continue _fun0003 }
+ 37:
             var1 = null;
-            if(var3) { _fun0003_ip = 75; continue _fun0003 }
- 41:
+            if(var3) { _fun0003_ip = 77; continue _fun0003 }
+ 42:
             var5 = _closure1_slot16;
             var4 = _closure1_slot19;
             var3 = {};
@@ -301,7 +301,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['locked'] = var2;
             var2 = undefined;
             var1 = var5.bind(var2)(var4, var3);
- 75:
+ 77:
             return var1;
         }
     };
@@ -1328,11 +1328,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = null;
             var2 = var3 == var12;
             var1 = null;
-            if(var2) { _fun0010_ip = 661; continue _fun0010 }
+            if(var2) { _fun0010_ip = 662; continue _fun0010 }
  442:
             var2 = var3 == var14;
             var1 = null;
-            if(var2) { _fun0010_ip = 661; continue _fun0010 }
+            if(var2) { _fun0010_ip = 662; continue _fun0010 }
  454:
             var4 = _closure1_slot17;
             var3 = _closure1_slot7;
@@ -1408,7 +1408,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[3] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 661:
+ 662:
             return var1;
         }
     };

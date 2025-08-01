@@ -1,8 +1,8 @@
 // discord_common/js/packages/performance-utils/performance-polyfill.js
-module.exports = (function(native1, native2, native3, native4, native5, native6, native7) {
+module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var4 = native1;
+        var4 = global;
         var2 = global;
         var3 = var2.Date;
         var3 = var3.now;
@@ -358,10 +358,10 @@ module.exports = (function(native1, native2, native3, native4, native5, native6,
         };
         var1 = var5.bind(var4)(var3, var2, var1);
  419:
-        var2 = native7;
+        var2 = dependencyMap;
         var1 = 0;
         var3 = var2[var1];
-        var2 = native2;
+        var2 = require;
         var1 = undefined;
         var4 = var2.bind(var1)(var3);
         var3 = var4.fileFinishedImporting;

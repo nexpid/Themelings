@@ -1,9 +1,9 @@
 // app/modules/user_profile/native/UserProfilePrimaryInfo.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var16 = native3;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var16 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var16;
     var _closure1_slot2 = var9;
@@ -628,7 +628,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var11 = var3.bind(var7)(var2);
             var _closure2_slot7 = var11;
-            if(!var1) { _fun0007_ip = 148; continue _fun0007 }
+            if(!var1) { _fun0007_ip = 149; continue _fun0007 }
  127:
             var3 = var7.find;
             var2 = function(arg1) {
@@ -641,9 +641,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var7)(var2);
             var2 = null;
             var1 = var2 == var3;
- 148:
-            if(!var1) { _fun0007_ip = 317; continue _fun0007 }
- 154:
+ 149:
+            if(!var1) { _fun0007_ip = 318; continue _fun0007 }
+ 155:
             var2 = var11.push;
             var7 = _closure1_slot12;
             var3 = _closure1_slot21;
@@ -682,7 +682,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['showToastOnPress'] = var12;
             var1 = var7.bind(var4)(var3, var1);
             var1 = var2.bind(var11)(var1);
- 317:
+ 318:
             var1 = _closure1_slot6;
             var1 = var1.bind(var4)();
             var1 = var1.width;
@@ -899,7 +899,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var10.bind(var11)(var3, var1, var7);
     var1 = 0;
     var10 = var9[var1];
-    var7 = native4;
+    var7 = metroImportAll;
     var1 = undefined;
     var7 = var7.bind(var1)(var10);
     var _closure1_slot3 = var7;

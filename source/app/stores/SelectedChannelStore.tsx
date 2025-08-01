@@ -1,12 +1,12 @@
 // app/stores/SelectedChannelStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var7;
     var1 = function _isNativeReflectConstruct() {
@@ -1563,10 +1563,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.bind(var4)(var5, var2);
             var3 = null;
             var3 = var3 == var2;
-            if(var3) { _fun0030_ip = 75; continue _fun0030 }
- 70:
+            if(var3) { _fun0030_ip = 76; continue _fun0030 }
+ 71:
             var1 = var2.id;
- 75:
+ 76:
             return var1;
         }
     };

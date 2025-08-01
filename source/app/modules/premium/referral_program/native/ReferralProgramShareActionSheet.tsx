@@ -1,9 +1,9 @@
 // app/modules/premium/referral_program/native/ReferralProgramShareActionSheet.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -26,7 +26,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var4;
     var4 = 2;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot5 = var4;
     var4 = 3;
@@ -691,13 +691,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.length;
             var5 = var5 > var3;
             var27 = null;
-            if(!var5) { _fun0001_ip = 926; continue _fun0001 }
- 788:
+            if(!var5) { _fun0001_ip = 925; continue _fun0001 }
+ 787:
             var20 = _closure1_slot13;
             var19 = _closure1_slot0;
             var22 = _closure1_slot2;
-            if(var26) { _fun0001_ip = 897; continue _fun0001 }
- 803:
+            if(var26) { _fun0001_ip = 896; continue _fun0001 }
+ 802:
             var5 = 30;
             var5 = var22[var5];
             var5 = var19.bind(var4)(var5);
@@ -730,17 +730,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5['onPress'] = var30;
             var5['disabled'] = var26;
             var5 = var20.bind(var4)(var16, var5);
-            _fun0001_ip = 923; continue _fun0001;
- 897:
+            _fun0001_ip = 922; continue _fun0001;
+ 896:
             var16 = 29;
             var16 = var22[var16];
             var16 = var19.bind(var4)(var16);
             var19 = var16.HeaderSubmittingIndicator;
             var16 = {};
             var5 = var20.bind(var4)(var19, var16);
- 923:
+ 922:
             var27 = var5;
- 926:
+ 925:
             var20 = _closure1_slot14;
             var16 = _closure1_slot7;
             var5 = {};
@@ -754,8 +754,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = var22.bind(var4)(var19);
             var22 = var19.BottomSheetTitleHeader;
             var19 = {};
-            if(!(var3 !== var28)) { _fun0001_ip = 1038; continue _fun0001 }
- 981:
+            if(!(var3 !== var28)) { _fun0001_ip = 1037; continue _fun0001 }
+ 980:
             var32 = _closure1_slot0;
             var33 = _closure1_slot2;
             var28 = 20;
@@ -768,8 +768,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var28 = var28.t;
             var28 = var28.Lm2nFR;
             var28 = var30.bind(var31)(var28);
-            _fun0001_ip = 1093; continue _fun0001;
- 1038:
+            _fun0001_ip = 1092; continue _fun0001;
+ 1037:
             var33 = _closure1_slot0;
             var34 = _closure1_slot2;
             var30 = 20;
@@ -782,7 +782,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var30 = var30.t;
             var30 = var30.SY9tyM;
             var28 = var31.bind(var32)(var30);
- 1093:
+ 1092:
             var19['title'] = var28;
             var19['trailing'] = var27;
             var19 = var26.bind(var4)(var22, var19);
@@ -803,17 +803,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var22[1] = var26;
             var5['children'] = var22;
             var5 = var20.bind(var4)(var16, var5);
-            if(var12) { _fun0001_ip = 1544; continue _fun0001 }
- 1199:
+            if(var12) { _fun0001_ip = 1543; continue _fun0001 }
+ 1198:
             var2 = var2.length;
             var2 = var3 === var2;
-            if(!var2) { _fun0001_ip = 1220; continue _fun0001 }
- 1211:
+            if(!var2) { _fun0001_ip = 1219; continue _fun0001 }
+ 1210:
             var11 = var11.length;
             var2 = var11 > var3;
- 1220:
-            if(!var2) { _fun0001_ip = 1857; continue _fun0001 }
- 1226:
+ 1219:
+            if(!var2) { _fun0001_ip = 1856; continue _fun0001 }
+ 1225:
             var12 = _closure1_slot14;
             var11 = _closure1_slot7;
             var2 = {};
@@ -881,8 +881,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16[2] = var20;
             var2['children'] = var16;
             var5 = var12.bind(var4)(var11, var2);
-            _fun0001_ip = 1857; continue _fun0001;
- 1544:
+            _fun0001_ip = 1856; continue _fun0001;
+ 1543:
             var12 = _closure1_slot14;
             var11 = _closure1_slot7;
             var2 = {};
@@ -950,7 +950,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16[2] = var19;
             var2['children'] = var16;
             var5 = var12.bind(var4)(var11, var2);
- 1857:
+ 1856:
             var2 = var8.trim;
             var2 = var2.bind(var8)();
             var2 = var2.length;
@@ -965,10 +965,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = new Array(0);
             var2['actions'] = var11;
             var11 = undefined;
-            if(var12) { _fun0001_ip = 1924; continue _fun0001 }
- 1918:
+            if(var12) { _fun0001_ip = 1923; continue _fun0001 }
+ 1917:
             var11 = var21.searchBarRowContainer;
- 1924:
+ 1923:
             var2['style'] = var11;
             var2 = var3.bind(var8)(var2);
             var12 = var2.renderHeader;
@@ -1053,10 +1053,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = new Array(3);
             var5[0] = var19;
             var7 = null;
-            if(!var18) { _fun0001_ip = 2215; continue _fun0001 }
- 2212:
+            if(!var18) { _fun0001_ip = 2214; continue _fun0001 }
+ 2211:
             var7 = var8;
- 2215:
+ 2214:
             var5[1] = var7;
             var8 = _closure1_slot13;
             var7 = _closure1_slot0;

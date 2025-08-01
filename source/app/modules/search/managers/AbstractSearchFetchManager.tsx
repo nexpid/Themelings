@@ -1,8 +1,8 @@
 // app/modules/search/managers/AbstractSearchFetchManager.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native3;
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = metroImportDefault;
+    var3 = exports;
+    var5 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -127,7 +127,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var2.bind(var1)();
     var4 = 2;
     var5 = var5[var4];
-    var4 = native2;
+    var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/search/managers/AbstractSearchFetchManager.tsx';

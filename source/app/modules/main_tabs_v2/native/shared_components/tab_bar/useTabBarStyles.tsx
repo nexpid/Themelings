@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/shared_components/tab_bar/useTabBarStyles.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var7 = native2;
-        var13 = native3;
-        var3 = native6;
-        var8 = native7;
+        var7 = require;
+        var13 = metroImportDefault;
+        var3 = exports;
+        var8 = dependencyMap;
         var _closure1_slot0 = var7;
         var _closure1_slot1 = var13;
         var _closure1_slot2 = var8;
@@ -19,7 +19,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var5.bind(var6)(var3, var1, var4);
         var17 = 0;
         var5 = var8[var17];
-        var4 = native4;
+        var4 = metroImportAll;
         var1 = undefined;
         var4 = var4.bind(var1)(var5);
         var _closure1_slot3 = var4;
@@ -228,10 +228,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var3.primaryColor;
                 var _closure2_slot4 = var5;
                 var3 = null;
-                if(!(var3 != var8)) { _fun0002_ip = 141; continue _fun0002 }
- 138:
+                if(!(var3 != var8)) { _fun0002_ip = 140; continue _fun0002 }
+ 137:
                 var18 = var8;
- 141:
+ 140:
                 var13 = _closure1_slot0;
                 var17 = _closure1_slot2;
                 var6 = 10;

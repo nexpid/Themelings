@@ -1,9 +1,9 @@
 // app/lib/uploader/UploaderBase.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -1097,7 +1097,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = arg1;
                     var4 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0015_ip = 384; continue _fun0015 }
+                    if(var2) { _fun0015_ip = 385; continue _fun0015 }
  18:
                     var _closure4_slot0 = var11;
                     var7 = _closure1_slot11;
@@ -1121,8 +1121,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var6 = var5.bind(var6)(var3);
                     var3 = null;
-                    if(!(var3 != var6)) { _fun0015_ip = 376; continue _fun0015 }
- 109:
+                    if(!(var3 != var6)) { _fun0015_ip = 377; continue _fun0015 }
+ 110:
                     var5 = var6.status;
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -1132,8 +1132,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var8.bind(var7)(var3);
                     var3 = var3.CloudUploadStatus;
                     var3 = var3.CANCELED;
-                    if(!(var5 !== var3)) { _fun0015_ip = 376; continue _fun0015 }
- 155:
+                    if(!(var5 !== var3)) { _fun0015_ip = 377; continue _fun0015 }
+ 156:
                     var5 = var4.files;
                     var3 = var5.indexOf;
                     var12 = var3.bind(var5)(var6);
@@ -1168,13 +1168,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var3.bind(var7)(var2);
                     var2 = var3.cancelGetAttachmentFile;
                     var2 = var2.bind(var3)(var6);
-                    SaveGenerator(address=311);
- 309:
+                    SaveGenerator(address=312);
+ 310:
                     return var2;
- 311:
+ 312:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0015_ip = 381; continue _fun0015 }
- 317:
+                    if(var3) { _fun0015_ip = 382; continue _fun0015 }
+ 318:
                     var3 = var6.cancel;
                     var3 = var3.bind(var6)();
                     var7 = var4.emit;
@@ -1183,16 +1183,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var7.bind(var4)(var3, var6);
                     var3 = var4.files;
                     var3 = var3.length;
-                    if(!(var5 === var3)) { _fun0015_ip = 376; continue _fun0015 }
- 366:
+                    if(!(var5 === var3)) { _fun0015_ip = 377; continue _fun0015 }
+ 367:
                     var3 = var4.cancel;
                     var3 = var3.bind(var4)();
- 376:
+ 377:
                     var3 = undefined;
                     return var3;
- 381:
+ 382:
                     return var2;
- 384:
+ 385:
                     return var1;
                 }
             };

@@ -1,9 +1,9 @@
 // app/stores/MessageReactionsStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native3;
-    var3 = native6;
-    var5 = native7;
-    var1 = native4;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = metroImportDefault;
+    var3 = exports;
+    var5 = dependencyMap;
+    var1 = metroImportAll;
     var _closure1_slot0 = var1;
     var _closure1_slot1 = var5;
     var1 = function _isNativeReflectConstruct() {
@@ -262,7 +262,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var3.ensure;
                 var1 = var1.bind(var3)(var7, var6, var5);
                 var3 = var1.fetched;
-                if(var3) { _fun0005_ip = 175; continue _fun0005 }
+                if(var3) { _fun0005_ip = 174; continue _fun0005 }
  44:
                 var4 = _closure1_slot9;
                 var3 = var4.getChannel;
@@ -280,7 +280,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = _closure1_slot7;
                 var3 = var4.isLurking;
                 var3 = var3.bind(var4)(var9);
-                if(var3) { _fun0005_ip = 171; continue _fun0005 }
+                if(var3) { _fun0005_ip = 170; continue _fun0005 }
  101:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -299,11 +299,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var3.bind(var4)(var2);
                 var2 = true;
                 var1['fetched'] = var2;
-                _fun0005_ip = 175; continue _fun0005;
- 171:
+                _fun0005_ip = 174; continue _fun0005;
+ 170:
                 var2 = undefined;
                 return var2;
- 175:
+ 174:
                 var1 = var1.users;
                 return var1;
             }
@@ -370,7 +370,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var2 instanceof Object ? var2 : var4;
     var4 = 12;
     var5 = var5[var4];
-    var4 = native2;
+    var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'stores/MessageReactionsStore.tsx';

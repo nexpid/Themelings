@@ -1,8 +1,8 @@
 // app/modules/quests/experiments/BrandColorRemovalExperiment.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var4 = global;
     var9 = var4.Object;
     var8 = var9.defineProperty;
@@ -13,7 +13,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var7);
     var1 = 0;
     var8 = var6[var1];
-    var7 = native4;
+    var7 = metroImportAll;
     var1 = undefined;
     var7 = var7.bind(var1)(var8);
     var _closure1_slot0 = var7;

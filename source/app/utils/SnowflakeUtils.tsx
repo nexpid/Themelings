@@ -1,11 +1,11 @@
 // app/utils/SnowflakeUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var4 = native2;
-    var3 = native6;
-    var5 = native7;
-    var2 = native3;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var4 = require;
+    var3 = exports;
+    var5 = dependencyMap;
+    var2 = metroImportDefault;
     var _closure1_slot0 = var2;
-    var2 = native4;
+    var2 = metroImportAll;
     var _closure1_slot1 = var2;
     var _closure1_slot2 = var5;
     var2 = global;

@@ -1,9 +1,9 @@
 // app/modules/video_calls/useChannelVideoLimit.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -65,13 +65,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3.bind(var7)();
                 var3 = var4.bind(var6)(var3);
                 var4 = null;
-                if(!(var4 != var3)) { _fun0001_ip = 161; continue _fun0001 }
+                if(!(var4 != var3)) { _fun0001_ip = 159; continue _fun0001 }
  60:
                 var2 = _closure2_slot0;
                 var2 = var2.type;
                 var1 = _closure1_slot4;
                 var1 = var1.GUILD_STAGE_VOICE;
-                if(!(var2 !== var1)) { _fun0001_ip = 128; continue _fun0001 }
+                if(!(var2 !== var1)) { _fun0001_ip = 127; continue _fun0001 }
  83:
                 var1 = {};
                 var4 = var3.maxVideoChannelUsers;
@@ -85,8 +85,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['reachedLimit'] = var2;
                 var2 = var3.maxVideoChannelUsers;
                 var1['limit'] = var2;
-                _fun0001_ip = 159; continue _fun0001;
- 128:
+                _fun0001_ip = 157; continue _fun0001;
+ 127:
                 var2 = {};
                 var4 = var3.maxStageVideoChannelUsers;
                 var4 = var5 > var4;
@@ -94,11 +94,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3.maxStageVideoChannelUsers;
                 var2['limit'] = var3;
                 var1 = var2;
+ 157:
+                _fun0001_ip = 173; continue _fun0001;
  159:
-                _fun0001_ip = 175; continue _fun0001;
- 161:
                 var1 = {'reachedLimit': false, 'limit': 4294967295};
- 175:
+ 173:
                 return var1;
             }
         };
@@ -120,12 +120,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var2)();
             var3 = var4.bind(var6)(var3);
             var4 = null;
-            if(!(var4 != var3)) { _fun0002_ip = 153; continue _fun0002 }
+            if(!(var4 != var3)) { _fun0002_ip = 151; continue _fun0002 }
  56:
             var2 = var2.type;
             var1 = _closure1_slot4;
             var1 = var1.GUILD_STAGE_VOICE;
-            if(!(var2 !== var1)) { _fun0002_ip = 120; continue _fun0002 }
+            if(!(var2 !== var1)) { _fun0002_ip = 119; continue _fun0002 }
  75:
             var1 = {};
             var4 = var3.maxVideoChannelUsers;
@@ -139,8 +139,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['reachedLimit'] = var2;
             var2 = var3.maxVideoChannelUsers;
             var1['limit'] = var2;
-            _fun0002_ip = 151; continue _fun0002;
- 120:
+            _fun0002_ip = 149; continue _fun0002;
+ 119:
             var2 = {};
             var4 = var3.maxStageVideoChannelUsers;
             var4 = var5 > var4;
@@ -148,11 +148,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.maxStageVideoChannelUsers;
             var2['limit'] = var3;
             var1 = var2;
+ 149:
+            _fun0002_ip = 165; continue _fun0002;
  151:
-            _fun0002_ip = 167; continue _fun0002;
- 153:
             var1 = {'reachedLimit': false, 'limit': 4294967295};
- 167:
+ 165:
             return var1;
         }
     };

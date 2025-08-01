@@ -1,11 +1,11 @@
 // app/modules/guild_scheduled_events/native/components/GuildEventModalComponents.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native4;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportAll;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var7;
     var _closure1_slot3 = var6;
@@ -257,10 +257,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = null;
             var2 = var2 == var1;
             var9 = undefined;
-            if(var2) { _fun0001_ip = 150; continue _fun0001 }
- 145:
+            if(var2) { _fun0001_ip = 151; continue _fun0001 }
+ 146:
             var9 = var1.label;
- 150:
+ 151:
             var3 = _closure1_slot12;
             var2 = _closure1_slot5;
             var1 = {};

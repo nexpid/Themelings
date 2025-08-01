@@ -1,10 +1,10 @@
 // app/modules/main_tabs_v2/native/settings/screens/appearance/SettingsAppearancePickerUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
@@ -193,7 +193,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -386,18 +386,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = null;
             var7 = var2 != var6;
             var5 = 50;
-            if(!var7) { _fun0007_ip = 71; continue _fun0007 }
- 68:
+            if(!var7) { _fun0007_ip = 69; continue _fun0007 }
+ 66:
             var5 = var6;
- 71:
+ 69:
             var1['midpointPercentage'] = var5;
             var5 = var4.angle;
             var6 = var2 != var5;
             var2 = 0;
-            if(!var6) { _fun0007_ip = 94; continue _fun0007 }
- 91:
+            if(!var6) { _fun0007_ip = 92; continue _fun0007 }
+ 89:
             var2 = var5;
- 94:
+ 92:
             var1['angle'] = var2;
             var5 = _closure1_slot7;
             var6 = var4.colors;
@@ -447,26 +447,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var1.LIGHT;
             var1 = 'light';
             var7 = var1;
-            if(!(var3 !== var5)) { _fun0008_ip = 92; continue _fun0008 }
- 33:
+            if(!(var3 !== var5)) { _fun0008_ip = 91; continue _fun0008 }
+ 32:
             var3 = _closure1_slot4;
             var3 = var3.DARK;
             var6 = 'darker';
             var7 = var6;
-            if(!(var3 !== var5)) { _fun0008_ip = 92; continue _fun0008 }
- 54:
+            if(!(var3 !== var5)) { _fun0008_ip = 91; continue _fun0008 }
+ 53:
             var3 = _closure1_slot4;
             var3 = var3.DARKER;
             var7 = var6;
-            if(!(var3 !== var5)) { _fun0008_ip = 92; continue _fun0008 }
- 71:
+            if(!(var3 !== var5)) { _fun0008_ip = 91; continue _fun0008 }
+ 70:
             var3 = _closure1_slot4;
             var3 = var3.MIDNIGHT;
             var7 = 'midnight';
-            if(!(var3 !== var5)) { _fun0008_ip = 92; continue _fun0008 }
- 89:
+            if(!(var3 !== var5)) { _fun0008_ip = 91; continue _fun0008 }
+ 88:
             var7 = var1;
- 92:
+ 91:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var1 = 6;

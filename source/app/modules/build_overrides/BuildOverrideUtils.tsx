@@ -1,14 +1,14 @@
 // app/modules/build_overrides/BuildOverrideUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var9 = native2;
-        var3 = native6;
-        var10 = native7;
+        var9 = require;
+        var3 = exports;
+        var10 = dependencyMap;
         var _closure1_slot0 = var9;
-        var1 = native3;
+        var1 = metroImportDefault;
         var _closure1_slot1 = var1;
-        var1 = native4;
+        var1 = metroImportAll;
         var _closure1_slot2 = var1;
         var _closure1_slot3 = var10;
         var6 = function getAPIEndpoint(arg1) {

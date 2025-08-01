@@ -1,8 +1,8 @@
 // app/modules/premium/native/ProductIds.ios.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var3 = exports;
+    var10 = dependencyMap;
     var4 = global;
     var7 = var4.Object;
     var6 = var7.defineProperty;

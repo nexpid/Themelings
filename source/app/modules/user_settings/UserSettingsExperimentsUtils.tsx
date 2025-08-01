@@ -1,8 +1,8 @@
 // app/modules/user_settings/UserSettingsExperimentsUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
-    var6 = native7;
-    var1 = native3;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
+    var6 = dependencyMap;
+    var1 = metroImportDefault;
     var _closure1_slot0 = var1;
     var _closure1_slot1 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
@@ -293,7 +293,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot2 = var1;
     var1 = 1;
     var7 = var6[var1];
-    var6 = native2;
+    var6 = require;
     var1 = undefined;
     var8 = var6.bind(var1)(var7);
     var7 = var8.fileFinishedImporting;

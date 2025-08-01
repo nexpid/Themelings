@@ -1,9 +1,9 @@
 // app/modules/notification_center/useNotificationCenterItemsLoader.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var5 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var5;
     var _closure1_slot2 = var7;
@@ -26,7 +26,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var4;
     var4 = 2;
     var8 = var7[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot5 = var4;
     var4 = 3;
@@ -316,7 +316,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  24:
                     var1 = var2;
  27:
-                    if(!var1) { _fun0004_ip = 129; continue _fun0004 }
+                    if(!var1) { _fun0004_ip = 128; continue _fun0004 }
  30:
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
@@ -348,7 +348,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = _closure2_slot14;
                     var1['everyone_filter'] = var4;
                     var1 = var2.bind(var3)(var1);
- 129:
+ 128:
                     var1 = undefined;
                     return var1;
                 }
@@ -364,7 +364,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0005_ip = 230; continue _fun0005 }
+                            if(var2) { _fun0005_ip = 229; continue _fun0005 }
  10:
                             var2 = _closure2_slot6;
                             var2 = var2.current;
@@ -394,7 +394,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  71:
                             var2 = var4;
  74:
-                            if(var2) { _fun0005_ip = 225; continue _fun0005 }
+                            if(var2) { _fun0005_ip = 224; continue _fun0005 }
  80:
                             var2 = _closure2_slot6;
                             var4 = true;
@@ -431,23 +431,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 return var1;
                             };
                             var2 = var6.bind(var7)(var4, var2);
-                            SaveGenerator(address=203);
- 201:
+                            SaveGenerator(address=202);
+ 200:
                             return var2;
- 203:
+ 202:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                            if(var4) { _fun0005_ip = 222; continue _fun0005 }
- 209:
+                            if(var4) { _fun0005_ip = 221; continue _fun0005 }
+ 208:
                             var4 = _closure2_slot7;
                             var3 = false;
                             var3 = var4.bind(var5)(var3);
-                            _fun0005_ip = 225; continue _fun0005;
- 222:
+                            _fun0005_ip = 224; continue _fun0005;
+ 221:
                             return var2;
- 225:
+ 224:
                             var2 = undefined;
                             return var2;
- 230:
+ 229:
                             return var1;
                         }
                     };

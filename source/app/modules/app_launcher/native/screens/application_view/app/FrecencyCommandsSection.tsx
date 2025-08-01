@@ -1,10 +1,10 @@
 // app/modules/app_launcher/native/screens/application_view/app/FrecencyCommandsSection.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -137,8 +137,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var9.length;
             var2 = 0;
             var1 = null;
-            if(!(var2 !== var3)) { _fun0001_ip = 364; continue _fun0001 }
- 185:
+            if(!(var2 !== var3)) { _fun0001_ip = 363; continue _fun0001 }
+ 184:
             var4 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -220,7 +220,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 364:
+ 363:
             return var1;
         }
     };

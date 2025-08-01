@@ -1,9 +1,9 @@
 // app/design/components/Input/native/NativeTextInput.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var9 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var9 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var9;
     var _closure1_slot2 = var7;
@@ -69,7 +69,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var10)(var3, var1, var5);
     var1 = 0;
     var8 = var7[var1];
-    var5 = native4;
+    var5 = metroImportAll;
     var1 = undefined;
     var8 = var5.bind(var1)(var8);
     var _closure1_slot3 = var8;
@@ -305,8 +305,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.bind(var6)();
             var6 = var2.theme;
             var2 = var1.keyboardAppearance;
-            if(!(var5 == var2)) { _fun0002_ip = 187; continue _fun0002 }
- 129:
+            if(!(var5 == var2)) { _fun0002_ip = 186; continue _fun0002 }
+ 128:
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 10;
@@ -315,15 +315,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var5.isThemeDark;
             var2 = var2.bind(var5)(var6);
             var5 = _closure1_slot9;
-            if(var2) { _fun0002_ip = 175; continue _fun0002 }
- 167:
+            if(var2) { _fun0002_ip = 174; continue _fun0002 }
+ 166:
             var2 = var5.LIGHT;
-            _fun0002_ip = 181; continue _fun0002;
- 175:
+            _fun0002_ip = 180; continue _fun0002;
+ 174:
             var2 = var5.DARK;
- 181:
+ 180:
             var1['keyboardAppearance'] = var2;
- 187:
+ 186:
             var6 = _closure1_slot10;
             var5 = _closure1_slot5;
             var2 = {};
@@ -346,10 +346,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var6.bind(var4)(var5, var2);
             var5 = var1.multiline;
             var1 = var2;
-            if(var5) { _fun0002_ip = 293; continue _fun0002 }
- 288:
+            if(var5) { _fun0002_ip = 292; continue _fun0002 }
+ 287:
             var1 = var3.bind(var4)(var2);
- 293:
+ 292:
             return var1;
         }
     };

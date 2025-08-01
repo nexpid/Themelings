@@ -1,9 +1,9 @@
 // app/modules/stage_channels/native/components/AudienceGridRow.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var3 = native6;
-    var7 = native7;
-    var1 = native3;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var3 = exports;
+    var7 = dependencyMap;
+    var1 = metroImportDefault;
     var _closure1_slot0 = var1;
     var _closure1_slot1 = var7;
     var2 = function BlankAudience(arg1) {
@@ -44,7 +44,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var5);
     var1 = 0;
     var8 = var7[var1];
-    var5 = native4;
+    var5 = metroImportAll;
     var1 = undefined;
     var8 = var5.bind(var1)(var8);
     var5 = 1;
@@ -93,12 +93,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var1.bind(var4)();
             var8 = 0;
             var10 = 0;
-            if(!var13) { _fun0002_ip = 77; continue _fun0002 }
- 64:
+            if(!var13) { _fun0002_ip = 76; continue _fun0002 }
+ 63:
             var2 = _closure1_slot3;
             var1 = var9.length;
             var10 = var2 - var1;
- 77:
+ 76:
             var3 = _closure1_slot5;
             var2 = _closure1_slot2;
             var1 = {};
@@ -107,10 +107,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[0] = var11;
             var11 = {};
             var12 = 'center';
-            if(!var13) { _fun0002_ip = 116; continue _fun0002 }
- 110:
+            if(!var13) { _fun0002_ip = 115; continue _fun0002 }
+ 109:
             var12 = 'space-between';
- 116:
+ 115:
             var11['justifyContent'] = var12;
             var6[1] = var11;
             var1['style'] = var6;
@@ -138,14 +138,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = new Array(2);
             var5[0] = var6;
             var6 = null;
-            if(!(var10 > var8)) { _fun0002_ip = 179; continue _fun0002 }
- 159:
+            if(!(var10 > var8)) { _fun0002_ip = 178; continue _fun0002 }
+ 158:
             var9 = _closure1_slot4;
             var8 = _closure1_slot7;
             var7 = {};
             var7['count'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 179:
+ 178:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

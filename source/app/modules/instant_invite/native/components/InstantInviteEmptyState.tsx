@@ -1,9 +1,9 @@
 // app/modules/instant_invite/native/components/InstantInviteEmptyState.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var12 = 1;
@@ -229,7 +229,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     var2 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0002_ip = 273; continue _fun0002 }
+                    if(!(var1 != var2)) { _fun0002_ip = 275; continue _fun0002 }
  18:
                     var7 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -251,10 +251,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = var1 != var8;
                     var6 = '';
                     var7 = var6;
-                    if(!var9) { _fun0002_ip = 86; continue _fun0002 }
- 80:
+                    if(!var9) { _fun0002_ip = 87; continue _fun0002 }
+ 81:
                     var7 = var8.descriptiveLabel;
- 86:
+ 87:
                     var9 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var8 = var8[var10];
@@ -271,15 +271,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var5 = var8.bind(var9)(var5);
                     var8 = var1 != var5;
-                    if(!var8) { _fun0002_ip = 139; continue _fun0002 }
- 133:
+                    if(!var8) { _fun0002_ip = 141; continue _fun0002 }
+ 135:
                     var6 = var5.descriptiveLabel;
- 139:
+ 141:
                     var3 = _closure2_slot0;
                     var5 = var3.maxAge;
                     var3 = 0;
-                    if(!(var3 !== var5)) { _fun0002_ip = 190; continue _fun0002 }
- 155:
+                    if(!(var3 !== var5)) { _fun0002_ip = 192; continue _fun0002 }
+ 157:
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 9;
@@ -287,8 +287,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var5.bind(var4)(var3);
                     var3 = var3.t;
                     var5 = var3.dqPWMD;
-                    _fun0002_ip = 223; continue _fun0002;
- 190:
+                    _fun0002_ip = 225; continue _fun0002;
+ 192:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var3 = 9;
@@ -296,7 +296,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var8.bind(var4)(var3);
                     var3 = var3.t;
                     var5 = var3.99ISmp;
- 223:
+ 225:
                     var3 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 9;
@@ -309,7 +309,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2['maxUses'] = var6;
                     var2 = var3.bind(var4)(var5, var2);
                     return var2;
- 273:
+ 275:
                     return var1;
                 }
             };

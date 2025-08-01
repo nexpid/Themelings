@@ -1,9 +1,9 @@
 // app/design/animation/MotionTypes.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var2 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var2 = dependencyMap;
     var1 = 0;
     var3 = var2[var1];
-    var2 = native2;
+    var2 = require;
     var1 = undefined;
     var4 = var2.bind(var1)(var3);
     var3 = var4.fileFinishedImporting;

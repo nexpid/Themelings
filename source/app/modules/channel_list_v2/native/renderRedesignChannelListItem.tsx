@@ -1,9 +1,9 @@
 // app/modules/channel_list_v2/native/renderRedesignChannelListItem.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var9 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var9 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var9;
     var _closure1_slot2 = var6;
@@ -142,7 +142,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -286,31 +286,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var1.item;
                 var3 = var9.kind;
                 var1 = 'newPanelsListHeader';
-                if(!(var1 !== var3)) { _fun0004_ip = 2052; continue _fun0004 }
+                if(!(var1 !== var3)) { _fun0004_ip = 2053; continue _fun0004 }
  26:
                 var1 = 'liveChannelNotice';
-                if(!(var1 !== var3)) { _fun0004_ip = 1946; continue _fun0004 }
+                if(!(var1 !== var3)) { _fun0004_ip = 1947; continue _fun0004 }
  37:
                 var1 = 'mfaWarning';
-                if(!(var1 !== var3)) { _fun0004_ip = 1876; continue _fun0004 }
+                if(!(var1 !== var3)) { _fun0004_ip = 1877; continue _fun0004 }
  50:
                 var1 = 'guildProgress';
-                if(!(var1 !== var3)) { _fun0004_ip = 1792; continue _fun0004 }
+                if(!(var1 !== var3)) { _fun0004_ip = 1793; continue _fun0004 }
  63:
                 var1 = 'newMemberActions';
-                if(!(var1 !== var3)) { _fun0004_ip = 1697; continue _fun0004 }
+                if(!(var1 !== var3)) { _fun0004_ip = 1698; continue _fun0004 }
  74:
                 var1 = 'showAllVoiceChannelsButton';
-                if(!(var1 !== var3)) { _fun0004_ip = 1571; continue _fun0004 }
+                if(!(var1 !== var3)) { _fun0004_ip = 1572; continue _fun0004 }
  87:
                 var1 = 'sectionHeaderRecentlyVisited';
-                if(!(var1 !== var3)) { _fun0004_ip = 1464; continue _fun0004 }
+                if(!(var1 !== var3)) { _fun0004_ip = 1465; continue _fun0004 }
  100:
                 var1 = 'sectionHeaderFavorites';
-                if(!(var1 !== var3)) { _fun0004_ip = 1359; continue _fun0004 }
+                if(!(var1 !== var3)) { _fun0004_ip = 1360; continue _fun0004 }
  113:
                 var1 = 'sectionHeaderRecents';
-                if(!(var1 !== var3)) { _fun0004_ip = 1223; continue _fun0004 }
+                if(!(var1 !== var3)) { _fun0004_ip = 1224; continue _fun0004 }
  126:
                 var1 = 'sectionHeaderCategory';
                 if(!(var1 !== var3)) { _fun0004_ip = 1149; continue _fun0004 }
@@ -592,7 +592,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['withMarginTop'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
- 1223:
+ 1224:
                 var1 = _closure2_slot0;
                 var5 = _closure1_slot21;
                 var3 = _closure1_slot0;
@@ -601,8 +601,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4[var2];
                 var4 = undefined;
                 var2 = var3.bind(var4)(var2);
-                if(var1) { _fun0004_ip = 1316; continue _fun0004 }
- 1262:
+                if(var1) { _fun0004_ip = 1317; continue _fun0004 }
+ 1263:
                 var3 = var2.SuggestedCategory;
                 var1 = {};
                 var7 = _closure2_slot1;
@@ -614,8 +614,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = !var7;
                 var1['withMarginTop'] = var7;
                 var1 = var5.bind(var4)(var3, var1);
-                _fun0004_ip = 1357; continue _fun0004;
- 1316:
+                _fun0004_ip = 1358; continue _fun0004;
+ 1317:
                 var3 = var2.RecentlyActiveCategory;
                 var2 = {};
                 var6 = _closure2_slot1;
@@ -625,9 +625,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = !var6;
                 var2['withMarginTop'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
- 1357:
+ 1358:
                 return var1;
- 1359:
+ 1360:
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var1 = 20;
@@ -652,7 +652,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['withMarginTop'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
- 1464:
+ 1465:
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var1 = 20;
@@ -677,7 +677,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['withMarginTop'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
- 1571:
+ 1572:
                 var4 = _closure1_slot21;
                 var3 = _closure1_slot4;
                 var2 = {};
@@ -686,10 +686,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5['marginHorizontal'] = var7;
                 var8 = var9.isLastShownChannelActive;
                 var6 = 8;
-                if(!var8) { _fun0004_ip = 1609; continue _fun0004 }
- 1606:
+                if(!var8) { _fun0004_ip = 1610; continue _fun0004 }
+ 1607:
                 var6 = var7;
- 1609:
+ 1610:
                 var5['marginTop'] = var6;
                 var2['style'] = var5;
                 var7 = _closure1_slot21;
@@ -711,7 +711,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2['children'] = var5;
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
- 1697:
+ 1698:
                 var4 = _closure1_slot21;
                 var3 = _closure1_slot4;
                 var2 = {};
@@ -735,7 +735,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2['children'] = var5;
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
- 1792:
+ 1793:
                 var4 = _closure1_slot21;
                 var3 = _closure1_slot4;
                 var2 = {};
@@ -757,7 +757,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2['children'] = var5;
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
- 1876:
+ 1877:
                 var4 = _closure1_slot21;
                 var3 = _closure1_slot4;
                 var2 = {};
@@ -776,7 +776,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2['children'] = var5;
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
- 1946:
+ 1947:
                 var4 = _closure1_slot21;
                 var2 = _closure1_slot1;
                 var8 = _closure1_slot2;
@@ -802,7 +802,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['guild'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
- 2052:
+ 2053:
                 var4 = _closure1_slot21;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -2345,7 +2345,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  158:
             var3 = var10.getNamedCategoryFromSection;
             var8 = var3.bind(var10)(var8);
-            if(!(var1 != var8)) { _fun0013_ip = 240; continue _fun0013 }
+            if(!(var1 != var8)) { _fun0013_ip = 241; continue _fun0013 }
  173:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -2361,12 +2361,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var3.length;
             var4 = 0;
             var2 = null;
-            if(!(var4 !== var5)) { _fun0013_ip = 238; continue _fun0013 }
- 235:
+            if(!(var4 !== var5)) { _fun0013_ip = 239; continue _fun0013 }
+ 236:
             var2 = var3;
- 238:
+ 239:
             return var2;
- 240:
+ 241:
             return var1;
         }
     };

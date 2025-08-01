@@ -1,9 +1,9 @@
 // app/modules/user_profile/native/UserProfileActionSheet.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var14 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var14 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var14;
     var _closure1_slot2 = var6;
@@ -22,7 +22,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var11 = 1;
     var7 = var6[var11];
-    var4 = native4;
+    var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot4 = var7;
     var4 = 2;
@@ -399,22 +399,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var13.INTERACTIVE_HOVER;
             var26 = var18.bind(var26)(var13, var17);
             var13 = var8 == var4;
-            if(var3) { _fun0001_ip = 1020; continue _fun0001 }
- 1007:
+            if(var3) { _fun0001_ip = 1019; continue _fun0001 }
+ 1006:
             var18 = undefined;
-            if(var13) { _fun0001_ip = 1018; continue _fun0001 }
- 1012:
+            if(var13) { _fun0001_ip = 1017; continue _fun0001 }
+ 1011:
             var18 = var4.overlay;
- 1018:
-            _fun0001_ip = 1034; continue _fun0001;
- 1020:
+ 1017:
+            _fun0001_ip = 1033; continue _fun0001;
+ 1019:
             var3 = undefined;
-            if(var13) { _fun0001_ip = 1031; continue _fun0001 }
- 1025:
+            if(var13) { _fun0001_ip = 1030; continue _fun0001 }
+ 1024:
             var3 = var4.overlaySyncedWithUserTheme;
- 1031:
+ 1030:
             var18 = var3;
- 1034:
+ 1033:
             var13 = _closure1_slot0;
             var3 = _closure1_slot2;
             var12 = var3[var12];
@@ -427,14 +427,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.ACTION_SHEET_GRADIENT_BG;
             var3 = var12.bind(var13)(var3, var33);
             var32 = var3;
-            if(!(var8 != var6)) { _fun0001_ip = 1163; continue _fun0001 }
- 1094:
+            if(!(var8 != var6)) { _fun0001_ip = 1162; continue _fun0001 }
+ 1093:
             var32 = var3;
-            if(!(var8 != var4)) { _fun0001_ip = 1163; continue _fun0001 }
- 1101:
+            if(!(var8 != var4)) { _fun0001_ip = 1162; continue _fun0001 }
+ 1100:
             var32 = var3;
-            if(!(var8 != var18)) { _fun0001_ip = 1163; continue _fun0001 }
- 1108:
+            if(!(var8 != var18)) { _fun0001_ip = 1162; continue _fun0001 }
+ 1107:
             var13 = _closure1_slot0;
             var39 = _closure1_slot2;
             var3 = 23;
@@ -447,7 +447,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var13.calculateOverlayedColor;
             var3 = var3.bind(var13)(var6, var18);
             var32 = var4.bind(var12)(var3);
- 1163:
+ 1162:
             var12 = _closure1_slot1;
             var4 = _closure1_slot2;
             var3 = 25;
@@ -763,8 +763,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             _closure2_slot26 = var1;
-            if(!(var8 != var31)) { _fun0001_ip = 2311; continue _fun0001 }
- 1536:
+            if(!(var8 != var31)) { _fun0001_ip = 2309; continue _fun0001 }
+ 1535:
             var4 = _closure1_slot14;
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -789,24 +789,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15['openedAt'] = var10;
             var18 = var8 == var9;
             var17 = undefined;
-            if(var18) { _fun0001_ip = 1645; continue _fun0001 }
- 1639:
+            if(var18) { _fun0001_ip = 1643; continue _fun0001 }
+ 1637:
             var17 = var9.fetchStartedAt;
- 1645:
+ 1643:
             var15['fetchStartedAt'] = var17;
             var18 = var8 == var9;
             var17 = undefined;
-            if(var18) { _fun0001_ip = 1665; continue _fun0001 }
- 1659:
+            if(var18) { _fun0001_ip = 1663; continue _fun0001 }
+ 1657:
             var17 = var9.fetchEndedAt;
- 1665:
+ 1663:
             var15['fetchEndedAt'] = var17;
             var18 = var8 == var9;
             var17 = undefined;
-            if(var18) { _fun0001_ip = 1685; continue _fun0001 }
- 1679:
+            if(var18) { _fun0001_ip = 1683; continue _fun0001 }
+ 1677:
             var17 = var9.isLoaded;
- 1685:
+ 1683:
             var15['isLoaded'] = var17;
             var19 = _closure1_slot15;
             var18 = _closure1_slot0;
@@ -821,8 +821,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = var35.noPadding;
             var17['contentStyles'] = var20;
             var20 = undefined;
-            if(!var29) { _fun0001_ip = 1902; continue _fun0001 }
- 1761:
+            if(!var29) { _fun0001_ip = 1900; continue _fun0001 }
+ 1759:
             var28 = _closure1_slot14;
             var42 = _closure1_slot0;
             var43 = _closure1_slot2;
@@ -851,7 +851,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var33 = var28.bind(var5)(var34, var33);
             var21['children'] = var33;
             var20 = var28.bind(var5)(var22, var21);
- 1902:
+ 1900:
             var17['backdropChildren'] = var20;
             var22 = _closure1_slot14;
             var21 = _closure1_slot0;
@@ -871,10 +871,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20['style'] = var27;
             var27 = {};
             var28 = undefined;
-            if(!var29) { _fun0001_ip = 1982; continue _fun0001 }
- 1978:
+            if(!var29) { _fun0001_ip = 1980; continue _fun0001 }
+ 1976:
             var28 = 'none';
- 1982:
+ 1980:
             var27['pointerEvents'] = var28;
             var20['contentContainerStyle'] = var27;
             var20['ref'] = var25;
@@ -1009,8 +1009,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var30 = new Array(2);
             var30[0] = var31;
             var31 = var8 != var37;
-            if(!var31) { _fun0001_ip = 2135; continue _fun0001 }
- 2078:
+            if(!var31) { _fun0001_ip = 2133; continue _fun0001 }
+ 2076:
             var34 = _closure1_slot14;
             var33 = _closure1_slot1;
             var38 = _closure1_slot2;
@@ -1024,7 +1024,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var35 = var35.profileEffect;
             var32['style'] = var35;
             var31 = var34.bind(var5)(var33, var32);
- 2135:
+ 2133:
             var30[1] = var31;
             var29['children'] = var30;
             var29 = var27.bind(var5)(var25, var29);
@@ -1063,8 +1063,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var4.bind(var5)(var7, var6);
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 2603; continue _fun0001;
- 2311:
+            _fun0001_ip = 2601; continue _fun0001;
+ 2309:
             var4 = _closure1_slot14;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -1081,24 +1081,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6['openedAt'] = var10;
             var12 = var8 == var9;
             var10 = undefined;
-            if(var12) { _fun0001_ip = 2385; continue _fun0001 }
- 2379:
+            if(var12) { _fun0001_ip = 2383; continue _fun0001 }
+ 2377:
             var10 = var9.fetchStartedAt;
- 2385:
+ 2383:
             var6['fetchStartedAt'] = var10;
             var12 = var8 == var9;
             var10 = undefined;
-            if(var12) { _fun0001_ip = 2405; continue _fun0001 }
- 2399:
+            if(var12) { _fun0001_ip = 2403; continue _fun0001 }
+ 2397:
             var10 = var9.fetchEndedAt;
- 2405:
+ 2403:
             var6['fetchEndedAt'] = var10;
             var10 = var8 == var9;
             var8 = undefined;
-            if(var10) { _fun0001_ip = 2425; continue _fun0001 }
- 2419:
+            if(var10) { _fun0001_ip = 2423; continue _fun0001 }
+ 2417:
             var8 = var9.isLoaded;
- 2425:
+ 2423:
             var6['isLoaded'] = var8;
             var10 = _closure1_slot14;
             var16 = _closure1_slot0;
@@ -1140,7 +1140,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 2603:
+ 2601:
             return var1;
         }
     };

@@ -1,8 +1,8 @@
 // app/modules/premium/native/PremiumBundledPlansUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var10;
     var7 = function getPremiumBundleWithPredicate(arg1) {

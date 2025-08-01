@@ -1,6 +1,6 @@
 // app/modules/channel_text_area/slate/SlateUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var4 = function toRichValue(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -65,10 +65,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1[0] = var7;
     var1 = var5.bind(var6)(var1);
     var _closure1_slot0 = var1;
-    var5 = native7;
+    var5 = dependencyMap;
     var1 = 0;
     var6 = var5[var1];
-    var5 = native2;
+    var5 = require;
     var1 = undefined;
     var7 = var5.bind(var1)(var6);
     var6 = var7.fileFinishedImporting;

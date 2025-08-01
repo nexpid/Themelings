@@ -1,12 +1,12 @@
 // app/modules/global_discovery_servers/GlobalDiscoveryServersFeaturedSearchManager.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var6;
     var1 = function _isNativeReflectConstruct() {
@@ -197,7 +197,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 StartGenerator();
                                 var5 = arg1;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0004_ip = 566; continue _fun0004 }
+                                if(var2) { _fun0004_ip = 565; continue _fun0004 }
  13:
                                 var3 = _closure3_slot0;
                                 var3 = var3.isFetchEnabled;
@@ -208,7 +208,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var3 = var4.add;
                                 var2 = _closure1_slot11;
                                 var2 = var3.bind(var4)(var2);
-                                _fun0004_ip = 561; continue _fun0004;
+                                _fun0004_ip = 560; continue _fun0004;
  61:
                                 var3 = null;
                                 var6 = var3 == var5;
@@ -238,7 +238,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var5 = var5.bind(var4)(var3);
                                 var3 = var5.isStaleFeaturedGuilds;
                                 var3 = var3.bind(var5)(var6);
-                                if(!var3) { _fun0004_ip = 561; continue _fun0004 }
+                                if(!var3) { _fun0004_ip = 560; continue _fun0004 }
  159:
                                 var6 = _closure1_slot1;
                                 var5 = _closure1_slot3;
@@ -283,13 +283,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var8 = false;
                                 var5['rejectWithError'] = var8;
                                 var5 = var6.bind(var7)(var5);
-                                SaveGenerator(address=350);
- 348:
+                                SaveGenerator(address=349);
+ 347:
                                 return var5;
- 350:
+ 349:
                                 ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                                if(var6) { _fun0004_ip = 470; continue _fun0004 }
- 356:
+                                if(var6) { _fun0004_ip = 469; continue _fun0004 }
+ 355:
                                 var6 = var5.body;
                                 var9 = var6.total;
                                 var6 = var5.body;
@@ -314,11 +314,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var6['guilds'] = var10;
                                 var6['total'] = var9;
                                 var6 = var7.bind(var8)(var6);
- 468: // try_end0
-                                _fun0004_ip = 561; continue _fun0004;
- 470:
+ 467: // try_end0
+                                _fun0004_ip = 560; continue _fun0004;
+ 469:
                                 return var5;
- 473: // catch_target0
+ 472: // catch_target0
                                 CatchBlockStart(arg_register=8);
                                 var5 = _closure1_slot1;
                                 var6 = _closure1_slot3;
@@ -340,10 +340,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var2 = {};
                                 var2['categoryId'] = var5;
                                 var2 = var3.bind(var4)(var2);
- 561:
+ 560:
                                 var2 = undefined;
                                 return var2;
- 566:
+ 565:
                                 return var1;
                             }
                         };

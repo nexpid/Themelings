@@ -1,9 +1,9 @@
 // app/modules/main_tabs_v2/native/shared_components/ChannelRowPreview.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var7 = native3;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var10;
@@ -1560,7 +1560,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var2;
     var4 = 1;
     var8 = var10[var4];
-    var2 = native4;
+    var2 = metroImportAll;
     var11 = var2.bind(var1)(var8);
     var _closure1_slot4 = var11;
     var2 = 2;
@@ -1785,8 +1785,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var10.getId;
             var6 = var6.bind(var10)();
             var10 = var8;
-            if(!(var7 === var6)) { _fun0013_ip = 275; continue _fun0013 }
- 220:
+            if(!(var7 === var6)) { _fun0013_ip = 271; continue _fun0013 }
+ 216:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var6 = 11;
@@ -1799,19 +1799,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var6.t;
             var6 = var6.LuZzxs;
             var10 = var7.bind(var8)(var6);
- 275:
+ 271:
             _closure2_slot3 = var10;
             var7 = var12.type;
-            if(var4) { _fun0013_ip = 309; continue _fun0013 }
- 287:
+            if(var4) { _fun0013_ip = 305; continue _fun0013 }
+ 283:
             var6 = _closure1_slot28;
             var4 = _closure1_slot12;
             var4 = var4.STREAMLINED;
             var4 = var6.bind(var5)(var7, var4);
-            _fun0013_ip = 313; continue _fun0013;
- 309:
+            _fun0013_ip = 309; continue _fun0013;
+ 305:
             var4 = _closure1_slot27;
- 313:
+ 309:
             var8 = _closure1_slot4;
             var7 = var8.useMemo;
             var6 = new Array(4);
@@ -1835,8 +1835,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7.bind(var8)(var3, var6);
             var3 = var1 == var4;
             var1 = null;
-            if(var3) { _fun0013_ip = 399; continue _fun0013 }
- 364:
+            if(var3) { _fun0013_ip = 395; continue _fun0013 }
+ 360:
             var3 = _closure1_slot10;
             var2 = {};
             var17 = var2;
@@ -1846,7 +1846,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = 'context';
             var2[var6] = var7;
             var1 = var3.bind(var5)(var4, var2);
- 399:
+ 395:
             return var1;
         }
     };

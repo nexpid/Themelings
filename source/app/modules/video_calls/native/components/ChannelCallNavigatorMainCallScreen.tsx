@@ -1,9 +1,9 @@
 // app/modules/video_calls/native/components/ChannelCallNavigatorMainCallScreen.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -66,7 +66,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var8 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -413,10 +413,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = {};
             var5['useThemedBarStyle'] = var12;
             var8 = var12;
-            if(var12) { _fun0002_ip = 682; continue _fun0002 }
- 679:
+            if(var12) { _fun0002_ip = 681; continue _fun0002 }
+ 678:
             var8 = var13;
- 682:
+ 681:
             var5['showStatus'] = var8;
             var5['channel'] = var20;
             var14 = _closure1_slot15;
@@ -437,16 +437,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = {};
             var13['channel'] = var20;
             var18 = var12;
-            if(var18) { _fun0002_ip = 771; continue _fun0002 }
- 765:
+            if(var18) { _fun0002_ip = 770; continue _fun0002 }
+ 764:
             var19 = null;
             var18 = var19 != var22;
- 771:
-            if(var18) { _fun0002_ip = 780; continue _fun0002 }
- 774:
+ 770:
+            if(var18) { _fun0002_ip = 779; continue _fun0002 }
+ 773:
             var19 = null;
             var18 = var19 != var21;
- 780:
+ 779:
             var13['omitPTT'] = var18;
             var13['disableGradient'] = var12;
             var13['forceReveal'] = var12;
@@ -512,12 +512,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13['children'] = var17;
             var13 = var16.bind(var4)(var14, var13);
             var8[1] = var13;
-            if(!var9) { _fun0002_ip = 1066; continue _fun0002 }
- 1063:
+            if(!var9) { _fun0002_ip = 1065; continue _fun0002 }
+ 1062:
             var9 = !var12;
- 1066:
-            if(!var9) { _fun0002_ip = 1113; continue _fun0002 }
- 1069:
+ 1065:
+            if(!var9) { _fun0002_ip = 1112; continue _fun0002 }
+ 1068:
             var14 = _closure1_slot15;
             var13 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -534,11 +534,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var12['onClose'] = var15;
             var9 = var14.bind(var4)(var13, var12);
- 1113:
+ 1112:
             var8[2] = var9;
             var9 = null;
-            if(!var11) { _fun0002_ip = 1154; continue _fun0002 }
- 1122:
+            if(!var11) { _fun0002_ip = 1153; continue _fun0002 }
+ 1121:
             var12 = _closure1_slot15;
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -547,7 +547,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var11.bind(var4)(var10);
             var10 = {};
             var9 = var12.bind(var4)(var11, var10);
- 1154:
+ 1153:
             var8[3] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

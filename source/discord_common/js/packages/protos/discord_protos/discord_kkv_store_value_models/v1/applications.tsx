@@ -1,9 +1,9 @@
 // discord_common/js/packages/protos/discord_protos/discord_kkv_store_value_models/v1/applications.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var6 = native3;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var6 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var9;
     var1 = function _callSuper(arg1, arg2, arg3) {

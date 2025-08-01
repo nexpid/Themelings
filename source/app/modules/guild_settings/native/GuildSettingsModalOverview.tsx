@@ -1,9 +1,9 @@
 // app/modules/guild_settings/native/GuildSettingsModalOverview.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var13 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
@@ -77,7 +77,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot7 = var4;
     var4 = 5;
     var8 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var8);
     var8 = 6;
     var8 = var6[var8];
@@ -1244,7 +1244,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var12.afkChannelId;
                 var3 = var15 != var2;
                 var2 = null;
-                if(!var3) { _fun0011_ip = 184; continue _fun0011 }
+                if(!var3) { _fun0011_ip = 185; continue _fun0011 }
  160:
                 var4 = _closure1_slot31;
                 var3 = var4.find;
@@ -1257,19 +1257,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var2 = var3.bind(var4)(var1);
- 184:
-                if(!(var15 == var2)) { _fun0011_ip = 213; continue _fun0011 }
- 188:
+ 185:
+                if(!(var15 == var2)) { _fun0011_ip = 214; continue _fun0011 }
+ 189:
                 var3 = _closure1_slot31;
                 var1 = 1;
                 var3 = var3[var1];
                 var1 = var3.label;
                 var13 = var1.bind(var3)();
-                _fun0011_ip = 222; continue _fun0011;
- 213:
+                _fun0011_ip = 223; continue _fun0011;
+ 214:
                 var1 = var2.label;
                 var13 = var1.bind(var2)();
- 222:
+ 223:
                 var4 = _closure1_slot28;
                 var19 = _closure1_slot0;
                 var20 = _closure1_slot2;
@@ -1357,11 +1357,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var16 = var17.bind(var18)(var16);
                 var6['label'] = var16;
                 var11 = !var11;
-                if(var11) { _fun0011_ip = 638; continue _fun0011 }
- 628:
+                if(var11) { _fun0011_ip = 639; continue _fun0011 }
+ 629:
                 var12 = var12.afkChannelId;
                 var11 = var15 == var12;
- 638:
+ 639:
                 var6['disabled'] = var11;
                 var12 = _closure1_slot27;
                 var11 = _closure1_slot0;

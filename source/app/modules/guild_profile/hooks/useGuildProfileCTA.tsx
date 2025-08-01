@@ -1,9 +1,9 @@
 // app/modules/guild_profile/hooks/useGuildProfileCTA.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var5 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var5;
     var _closure1_slot2 = var8;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var6.bind(var9)(var3, var1, var4);
     var13 = 0;
     var6 = var8[var13];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var6);
     var _closure1_slot3 = var4;
@@ -234,10 +234,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.IS_APPLICATION_BYPASS;
                     var2 = var4.bind(var5)(var3, var2);
                     var1['isBypassInvite'] = var2;
-                    _fun0003_ip = 203; continue _fun0003;
+                    _fun0003_ip = 207; continue _fun0003;
  193:
                     var1 = {'validInviteKey': null, 'isBypassInvite': false};
- 203:
+ 207:
                     return var1;
                 }
             };

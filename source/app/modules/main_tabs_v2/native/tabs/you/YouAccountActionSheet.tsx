@@ -1,10 +1,10 @@
 // app/modules/main_tabs_v2/native/tabs/you/YouAccountActionSheet.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var14 = native3;
-    var7 = native4;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var14 = metroImportDefault;
+    var7 = metroImportAll;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var14;
     var _closure1_slot2 = var7;
@@ -609,7 +609,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = _closure2_slot0;
                     var5 = var7.id;
  38:
-                    if(!(var6 !== var5)) { _fun0006_ip = 240; continue _fun0006 }
+                    if(!(var6 !== var5)) { _fun0006_ip = 241; continue _fun0006 }
  45:
                     var5 = _closure2_slot1;
                     var4 = var5.find;
@@ -621,13 +621,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var3 = var4.bind(var5)(var3);
-                    if(!(var2 != var3)) { _fun0006_ip = 240; continue _fun0006 }
- 73:
+                    if(!(var2 != var3)) { _fun0006_ip = 241; continue _fun0006 }
+ 74:
                     var5 = var3.tokenStatus;
                     var4 = _closure1_slot7;
                     var4 = var4.INVALID;
-                    if(!(var5 !== var4)) { _fun0006_ip = 160; continue _fun0006 }
- 96:
+                    if(!(var5 !== var4)) { _fun0006_ip = 161; continue _fun0006 }
+ 97:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
                     var4 = 22;
@@ -642,8 +642,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var5.switchAccount;
                     var3 = var3.id;
                     var3 = var4.bind(var5)(var3);
-                    _fun0006_ip = 240; continue _fun0006;
- 160:
+                    _fun0006_ip = 241; continue _fun0006;
+ 161:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot3;
                     var3 = 33;
@@ -662,7 +662,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = 'you_account_action_sheet';
                     var2['source'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
- 240:
+ 241:
                     return var1;
                 }
             };

@@ -1,8 +1,8 @@
 // app/modules/expression_picker/ExpressionPickerStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var9;
     var2 = global;
@@ -24,7 +24,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = {'activeView': null, 'lastActiveView': null, 'activeViewType': null, 'searchQuery': '', 'isSearchSuggestion': false, 'pickerId': null, 'isNitroLockedSectionVisible': false, 'areOnlyNitroLockedSectionsVisible': false};
     var7 = 1;
     var10 = var9[var7];
-    var7 = native3;
+    var7 = metroImportDefault;
     var10 = var7.bind(var1)(var10);
     var7 = 'uid_';
     var7 = var10.bind(var1)(var7);

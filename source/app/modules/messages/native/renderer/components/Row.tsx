@@ -1,8 +1,8 @@
 // app/modules/messages/native/renderer/components/Row.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var7 = function makeRowComponent(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
@@ -40,7 +40,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var4.bind(var9)(var3, var1, var2);
     var1 = 0;
     var4 = var6[var1];
-    var2 = native4;
+    var2 = metroImportAll;
     var1 = undefined;
     var2 = var2.bind(var1)(var4);
     var2 = 1;

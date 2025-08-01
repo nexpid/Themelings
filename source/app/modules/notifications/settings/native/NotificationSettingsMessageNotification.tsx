@@ -1,9 +1,9 @@
 // app/modules/notifications/settings/native/NotificationSettingsMessageNotification.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var13 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
@@ -71,8 +71,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = {'variant': 'text-xs/semibold', 'color': 'header-secondary'};
             var13 = var18.context;
             var12 = 'guild';
-            if(!(var12 !== var13)) { _fun0001_ip = 318; continue _fun0001 }
- 262:
+            if(!(var12 !== var13)) { _fun0001_ip = 319; continue _fun0001 }
+ 263:
             var15 = _closure1_slot0;
             var12 = _closure1_slot2;
             var13 = var12[var23];
@@ -84,8 +84,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var12.t;
             var12 = var12.R1j5+/;
             var12 = var13.bind(var14)(var12);
-            _fun0001_ip = 372; continue _fun0001;
- 318:
+            _fun0001_ip = 373; continue _fun0001;
+ 319:
             var19 = _closure1_slot0;
             var13 = _closure1_slot2;
             var14 = var13[var23];
@@ -97,7 +97,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var13.t;
             var13 = var13.4bP2ZW;
             var12 = var14.bind(var15)(var13);
- 372:
+ 373:
             var9['children'] = var12;
             var9 = var11.bind(var4)(var10, var9);
             var8[1] = var9;
@@ -145,16 +145,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = null;
             var25 = var21 == var24;
             var22 = undefined;
-            if(var25) { _fun0001_ip = 581; continue _fun0001 }
- 576:
+            if(var25) { _fun0001_ip = 582; continue _fun0001 }
+ 577:
             var22 = var24.label;
- 581:
+ 582:
             var24 = var21 != var22;
             var21 = 'unset';
-            if(!var24) { _fun0001_ip = 595; continue _fun0001 }
- 592:
+            if(!var24) { _fun0001_ip = 596; continue _fun0001 }
+ 593:
             var21 = var22;
- 595:
+ 596:
             var14['children'] = var21;
             var14 = var19.bind(var4)(var15, var14);
             var12[1] = var14;
@@ -209,7 +209,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var5);
     var1 = 0;
     var8 = var7[var1];
-    var5 = native4;
+    var5 = metroImportAll;
     var1 = undefined;
     var5 = var5.bind(var1)(var8);
     var5 = 1;

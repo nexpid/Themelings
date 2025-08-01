@@ -1,8 +1,8 @@
 // app/modules/premium/powerups/utils/storeListingToGuildPowerup.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -141,7 +141,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  356:
             var5 = var6.guild_features;
  362:
-            if(!(var16 != var5)) { _fun0001_ip = 855; continue _fun0001 }
+            if(!(var16 != var5)) { _fun0001_ip = 856; continue _fun0001 }
  369:
             var7 = _closure1_slot3;
             var6 = var5.additional_emoji_slots;
@@ -162,7 +162,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var14;
             var7 = var13;
             var6 = var12;
-            if(!var2) { _fun0001_ip = 783; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 784; continue _fun0001 }
  452:
             var19 = var17.find;
             var2 = function(arg1) {
@@ -176,107 +176,107 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var22 = var19.bind(var17)(var2);
             var2 = var16 == var22;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 541; continue _fun0001 }
- 478:
+            if(var2) { _fun0001_ip = 542; continue _fun0001 }
+ 479:
             var2 = var22.sku;
             var20 = var16 == var2;
             var11 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 541; continue _fun0001 }
- 496:
+            if(var20) { _fun0001_ip = 542; continue _fun0001 }
+ 497:
             var2 = var2.powerup_metadata;
             var20 = var16 == var2;
             var11 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 541; continue _fun0001 }
- 514:
+            if(var20) { _fun0001_ip = 542; continue _fun0001 }
+ 515:
             var20 = var2.guild_features;
             var2 = var16 == var20;
             var11 = var20;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 541; continue _fun0001 }
- 532:
+            if(var2) { _fun0001_ip = 542; continue _fun0001 }
+ 533:
             var19 = var20.additional_emoji_slots;
             var11 = var20;
- 541:
+ 542:
             var20 = var16 != var19;
             var2 = 0;
-            if(!var20) { _fun0001_ip = 553; continue _fun0001 }
- 550:
+            if(!var20) { _fun0001_ip = 554; continue _fun0001 }
+ 551:
             var2 = var19;
- 553:
+ 554:
             var21 = var14 + var2;
             var2 = var16 == var22;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 629; continue _fun0001 }
- 566:
+            if(var2) { _fun0001_ip = 630; continue _fun0001 }
+ 567:
             var2 = var22.sku;
             var20 = var16 == var2;
             var10 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 629; continue _fun0001 }
- 584:
+            if(var20) { _fun0001_ip = 630; continue _fun0001 }
+ 585:
             var2 = var2.powerup_metadata;
             var20 = var16 == var2;
             var10 = var2;
             var19 = undefined;
-            if(var20) { _fun0001_ip = 629; continue _fun0001 }
- 602:
+            if(var20) { _fun0001_ip = 630; continue _fun0001 }
+ 603:
             var20 = var2.guild_features;
             var2 = var16 == var20;
             var10 = var20;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 629; continue _fun0001 }
- 620:
+            if(var2) { _fun0001_ip = 630; continue _fun0001 }
+ 621:
             var19 = var20.additional_sound_slots;
             var10 = var20;
- 629:
+ 630:
             var20 = var16 != var19;
             var2 = 0;
-            if(!var20) { _fun0001_ip = 641; continue _fun0001 }
- 638:
+            if(!var20) { _fun0001_ip = 642; continue _fun0001 }
+ 639:
             var2 = var19;
- 641:
+ 642:
             var20 = var13 + var2;
             var2 = var16 == var22;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 717; continue _fun0001 }
- 654:
+            if(var2) { _fun0001_ip = 718; continue _fun0001 }
+ 655:
             var2 = var22.sku;
             var23 = var16 == var2;
             var9 = var2;
             var19 = undefined;
-            if(var23) { _fun0001_ip = 717; continue _fun0001 }
- 672:
+            if(var23) { _fun0001_ip = 718; continue _fun0001 }
+ 673:
             var2 = var2.powerup_metadata;
             var23 = var16 == var2;
             var9 = var2;
             var19 = undefined;
-            if(var23) { _fun0001_ip = 717; continue _fun0001 }
- 690:
+            if(var23) { _fun0001_ip = 718; continue _fun0001 }
+ 691:
             var23 = var2.guild_features;
             var2 = var16 == var23;
             var9 = var23;
             var19 = undefined;
-            if(var2) { _fun0001_ip = 717; continue _fun0001 }
- 708:
+            if(var2) { _fun0001_ip = 718; continue _fun0001 }
+ 709:
             var19 = var23.additional_sticker_slots;
             var9 = var23;
- 717:
+ 718:
             var23 = var16 != var19;
             var2 = 0;
-            if(!var23) { _fun0001_ip = 729; continue _fun0001 }
- 726:
+            if(!var23) { _fun0001_ip = 730; continue _fun0001 }
+ 727:
             var2 = var19;
- 729:
+ 730:
             var19 = var12 + var2;
             var23 = var16 == var22;
             var2 = undefined;
-            if(var23) { _fun0001_ip = 754; continue _fun0001 }
- 742:
+            if(var23) { _fun0001_ip = 755; continue _fun0001 }
+ 743:
             var22 = var22.sku;
             var2 = var22.dependent_sku_id;
- 754:
+ 755:
             _closure2_slot0 = var2;
             var14 = var21;
             var13 = var20;
@@ -285,7 +285,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var13;
             var6 = var12;
             if(var16 != var2) { _fun0001_ip = 452; continue _fun0001 }
- 783:
+ 784:
             var2 = {};
             var4 = _closure1_slot2;
             var4 = var4.LEVEL;
@@ -305,7 +305,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var24 = var3;
             var3 = copyDataProperties(var25, var24);
             return var2;
- 855:
+ 856:
             return var1;
         }
     };

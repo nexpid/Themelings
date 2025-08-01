@@ -1,9 +1,9 @@
 // app/modules/activities/panel/native/ActivityPanelPIPView.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var13 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot3 = var7;
@@ -799,8 +799,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9['style'] = var11;
                     var12 = _closure2_slot21;
                     var11 = !var12;
-                    if(var12) { _fun0006_ip = 260; continue _fun0006 }
- 163:
+                    if(var12) { _fun0006_ip = 259; continue _fun0006 }
+ 162:
                     var14 = _closure1_slot18;
                     var13 = _closure1_slot4;
                     var12 = {};
@@ -824,7 +824,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var15 = var14.bind(var3)(var16, var15);
                     var12['children'] = var15;
                     var11 = var14.bind(var3)(var13, var12);
- 260:
+ 259:
                     var9['children'] = var11;
                     var9 = var4.bind(var3)(var10, var9);
                     var7['children'] = var9;

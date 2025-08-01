@@ -1,9 +1,9 @@
 // app/components_native/chat/MessagesUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var11 = native3;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var10;
@@ -407,7 +407,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     StartGenerator();
                     var3 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 393; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 392; continue _fun0008 }
  15:
                     var2 = undefined;
                     var _closure4_slot0 = var2;
@@ -423,9 +423,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var3.chatRef;
                     var6 = var9.isForumPost;
                     var6 = var6.bind(var9)();
-                    if(!var6) { _fun0008_ip = 390; continue _fun0008 }
+                    if(!var6) { _fun0008_ip = 389; continue _fun0008 }
  90:
-                    if(var5) { _fun0008_ip = 390; continue _fun0008 }
+                    if(var5) { _fun0008_ip = 389; continue _fun0008 }
  96:
                     var6 = _closure1_slot29;
                     var13 = _closure1_slot1;
@@ -474,7 +474,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var3 = var6.bind(var2)(var3, var5);
-                    _fun0008_ip = 390; continue _fun0008;
+                    _fun0008_ip = 389; continue _fun0008;
  274:
                     return var2;
  277:
@@ -496,13 +496,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = _closure1_slot18;
                     var3['limit'] = var7;
                     var3 = var5.bind(var6)(var3);
-                    SaveGenerator(address=355);
- 353:
+                    SaveGenerator(address=354);
+ 352:
                     return var3;
- 355:
+ 354:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0008_ip = 387; continue _fun0008 }
- 361:
+                    if(var5) { _fun0008_ip = 386; continue _fun0008 }
+ 360:
                     var5 = global;
                     var6 = var5.setTimeout;
                     var5 = function() {
@@ -515,12 +515,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var4 = 50;
                     var4 = var6.bind(var2)(var5, var4);
-                    _fun0008_ip = 390; continue _fun0008;
- 387:
+                    _fun0008_ip = 389; continue _fun0008;
+ 386:
                     return var3;
- 390:
+ 389:
                     return var2;
- 393:
+ 392:
                     return var1;
                 }
             };
@@ -1721,7 +1721,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var7.loadingMore;
             var2 = !var3;
  33:
-            if(!var2) { _fun0024_ip = 119; continue _fun0024 }
+            if(!var2) { _fun0024_ip = 118; continue _fun0024 }
  36:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -1745,7 +1745,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = _closure1_slot18;
             var2['limit'] = var5;
             var2 = var3.bind(var4)(var2);
- 119:
+ 118:
             return var1;
         }
     };
@@ -1764,7 +1764,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var7.loadingMore;
             var2 = !var3;
  33:
-            if(!var2) { _fun0025_ip = 119; continue _fun0025 }
+            if(!var2) { _fun0025_ip = 118; continue _fun0025 }
  36:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -1788,7 +1788,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = _closure1_slot18;
             var2['limit'] = var5;
             var2 = var3.bind(var4)(var2);
- 119:
+ 118:
             return var1;
         }
     };
@@ -1939,10 +1939,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = true;
             var2['flash'] = var6;
             var2 = var3.bind(var4)(var2);
-            _fun0027_ip = 177; continue _fun0027;
+            _fun0027_ip = 176; continue _fun0027;
  78:
             var2 = var1.loadingMore;
-            if(var2) { _fun0027_ip = 177; continue _fun0027 }
+            if(var2) { _fun0027_ip = 176; continue _fun0027 }
  87:
             var1 = var1.hasMoreAfter;
             if(var1) { _fun0027_ip = 107; continue _fun0027 }
@@ -1950,7 +1950,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = arg3;
             var1 = undefined;
             var1 = var2.bind(var1)();
-            _fun0027_ip = 177; continue _fun0027;
+            _fun0027_ip = 176; continue _fun0027;
  107:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
@@ -1969,7 +1969,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4['present'] = var5;
             var1['jump'] = var4;
             var1 = var2.bind(var3)(var1);
- 177:
+ 176:
             var1 = undefined;
             return var1;
         }

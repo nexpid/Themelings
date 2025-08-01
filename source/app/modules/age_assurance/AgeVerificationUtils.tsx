@@ -1,9 +1,9 @@
 // app/modules/age_assurance/AgeVerificationUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var5 = native3;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var5;
     var _closure1_slot2 = var9;
@@ -26,7 +26,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var4;
     var4 = 2;
     var6 = var9[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var6);
     var _closure1_slot5 = var4;
     var4 = 3;
@@ -286,27 +286,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = arg2;
             var3 = var4.bind(var5)(var3, var1);
             var1 = null;
-            if(!(var1 != var3)) { _fun0007_ip = 200; continue _fun0007 }
+            if(!(var1 != var3)) { _fun0007_ip = 201; continue _fun0007 }
  34:
             var4 = var3.embeds;
-            if(!(var1 != var4)) { _fun0007_ip = 200; continue _fun0007 }
+            if(!(var1 != var4)) { _fun0007_ip = 201; continue _fun0007 }
  47:
             var4 = var3.embeds;
             var5 = var4.length;
             var4 = 0;
-            if(!(var4 !== var5)) { _fun0007_ip = 200; continue _fun0007 }
+            if(!(var4 !== var5)) { _fun0007_ip = 201; continue _fun0007 }
  67:
             var5 = var3.embeds;
             var5 = var5[var4];
             var5 = var5.fields;
-            if(!(var1 != var5)) { _fun0007_ip = 200; continue _fun0007 }
+            if(!(var1 != var5)) { _fun0007_ip = 201; continue _fun0007 }
  87:
             var5 = var3.embeds;
             var5 = var5[var4];
             var6 = var5.type;
             var5 = _closure1_slot10;
             var5 = var5.AGE_VERIFICATION_SYSTEM_NOTIFICATION;
-            if(!(var6 === var5)) { _fun0007_ip = 200; continue _fun0007 }
+            if(!(var6 === var5)) { _fun0007_ip = 201; continue _fun0007 }
  116:
             var3 = var3.embeds;
             var3 = var3[var4];
@@ -323,8 +323,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var5)(var3);
             var4 = var1 == var3;
             var1 = undefined;
-            if(var4) { _fun0007_ip = 198; continue _fun0007 }
- 158:
+            if(var4) { _fun0007_ip = 199; continue _fun0007 }
+ 159:
             var5 = var3.rawValue;
             var4 = var5.split;
             var3 = ',';
@@ -333,9 +333,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = _closure1_slot13;
             var2 = var2.RETRY;
             var1 = var3.bind(var4)(var2);
- 198:
+ 199:
             return var1;
- 200:
+ 201:
             var1 = false;
             return var1;
         }

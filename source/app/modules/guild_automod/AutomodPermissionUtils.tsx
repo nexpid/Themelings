@@ -1,8 +1,8 @@
 // app/modules/guild_automod/AutomodPermissionUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var9;
     var5 = function getAutomodQuarantinedProfileFlags(arg1) {
@@ -124,7 +124,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var10)(var3, var1, var6);
     var1 = 0;
     var7 = var9[var1];
-    var6 = native3;
+    var6 = metroImportDefault;
     var1 = undefined;
     var6 = var6.bind(var1)(var7);
     var _closure1_slot2 = var6;

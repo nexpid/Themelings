@@ -1,9 +1,9 @@
 // app/modules/guild_onboarding/useBatchUpdateSelectOption.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -34,7 +34,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var8 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot3 = var4;
@@ -236,7 +236,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var6.bind(var9)(var2);
                     var2 = var6.difference;
                     var2 = var2.bind(var6)(var8, var7);
-                    _fun0003_ip = 434; continue _fun0003;
+                    _fun0003_ip = 435; continue _fun0003;
  239:
                     var7 = var1.roleIds;
                     var6 = null;
@@ -246,7 +246,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  255:
                     var2 = new Array(0);
                     var3 = var7;
-                    _fun0003_ip = 434; continue _fun0003;
+                    _fun0003_ip = 435; continue _fun0003;
  267:
                     var6 = var5.options;
                     var5 = var6.find;
@@ -268,20 +268,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = var12.difference;
                     var7 = var1.roleIds;
                     var8 = null;
-                    if(!(var8 == var7)) { _fun0003_ip = 336; continue _fun0003 }
- 332:
+                    if(!(var8 == var7)) { _fun0003_ip = 337; continue _fun0003 }
+ 333:
                     var7 = new Array(0);
- 336:
+ 337:
                     var13 = var8 == var9;
                     var4 = undefined;
-                    if(var13) { _fun0003_ip = 351; continue _fun0003 }
- 345:
+                    if(var13) { _fun0003_ip = 352; continue _fun0003 }
+ 346:
                     var4 = var9.roleIds;
- 351:
-                    if(!(var8 == var4)) { _fun0003_ip = 359; continue _fun0003 }
- 355:
+ 352:
+                    if(!(var8 == var4)) { _fun0003_ip = 360; continue _fun0003 }
+ 356:
                     var4 = new Array(0);
- 359:
+ 360:
                     var4 = var11.bind(var12)(var7, var4);
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -290,22 +290,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var7.difference;
                     var10 = var8 == var9;
                     var5 = undefined;
-                    if(var10) { _fun0003_ip = 403; continue _fun0003 }
- 397:
+                    if(var10) { _fun0003_ip = 404; continue _fun0003 }
+ 398:
                     var5 = var9.roleIds;
- 403:
-                    if(!(var8 == var5)) { _fun0003_ip = 411; continue _fun0003 }
- 407:
+ 404:
+                    if(!(var8 == var5)) { _fun0003_ip = 412; continue _fun0003 }
+ 408:
                     var5 = new Array(0);
- 411:
+ 412:
                     var1 = var1.roleIds;
-                    if(!(var8 == var1)) { _fun0003_ip = 425; continue _fun0003 }
- 421:
+                    if(!(var8 == var1)) { _fun0003_ip = 426; continue _fun0003 }
+ 422:
                     var1 = new Array(0);
- 425:
+ 426:
                     var2 = var6.bind(var7)(var5, var1);
                     var3 = var4;
- 434:
+ 435:
                     var1 = {};
                     var1['addedRoleIds'] = var3;
                     var1['removedRoleIds'] = var2;
@@ -405,7 +405,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var7.bind(var10)(var2);
                     var2 = var7.difference;
                     var2 = var2.bind(var7)(var9, var8);
-                    _fun0004_ip = 454; continue _fun0004;
+                    _fun0004_ip = 455; continue _fun0004;
  259:
                     var8 = var1.channelIds;
                     var7 = null;
@@ -415,7 +415,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  275:
                     var2 = new Array(0);
                     var3 = var8;
-                    _fun0004_ip = 454; continue _fun0004;
+                    _fun0004_ip = 455; continue _fun0004;
  287:
                     var7 = var5.options;
                     var5 = var7.find;
@@ -437,20 +437,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var12 = var13.difference;
                     var8 = var1.channelIds;
                     var9 = null;
-                    if(!(var9 == var8)) { _fun0004_ip = 356; continue _fun0004 }
- 352:
+                    if(!(var9 == var8)) { _fun0004_ip = 357; continue _fun0004 }
+ 353:
                     var8 = new Array(0);
- 356:
+ 357:
                     var14 = var9 == var10;
                     var4 = undefined;
-                    if(var14) { _fun0004_ip = 371; continue _fun0004 }
- 365:
+                    if(var14) { _fun0004_ip = 372; continue _fun0004 }
+ 366:
                     var4 = var10.channelIds;
- 371:
-                    if(!(var9 == var4)) { _fun0004_ip = 379; continue _fun0004 }
- 375:
+ 372:
+                    if(!(var9 == var4)) { _fun0004_ip = 380; continue _fun0004 }
+ 376:
                     var4 = new Array(0);
- 379:
+ 380:
                     var4 = var12.bind(var13)(var8, var4);
                     var8 = _closure1_slot1;
                     var7 = _closure1_slot2;
@@ -459,22 +459,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var8.difference;
                     var11 = var9 == var10;
                     var5 = undefined;
-                    if(var11) { _fun0004_ip = 423; continue _fun0004 }
- 417:
+                    if(var11) { _fun0004_ip = 424; continue _fun0004 }
+ 418:
                     var5 = var10.channelIds;
- 423:
-                    if(!(var9 == var5)) { _fun0004_ip = 431; continue _fun0004 }
- 427:
+ 424:
+                    if(!(var9 == var5)) { _fun0004_ip = 432; continue _fun0004 }
+ 428:
                     var5 = new Array(0);
- 431:
+ 432:
                     var1 = var1.channelIds;
-                    if(!(var9 == var1)) { _fun0004_ip = 445; continue _fun0004 }
- 441:
+                    if(!(var9 == var1)) { _fun0004_ip = 446; continue _fun0004 }
+ 442:
                     var1 = new Array(0);
- 445:
+ 446:
                     var2 = var7.bind(var8)(var5, var1);
                     var3 = var4;
- 454:
+ 455:
                     var7 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var4 = 7;
@@ -483,8 +483,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = var7.bind(var4)(var5);
                     var4 = var5.hasNotSetUpChannelOptIn;
                     var4 = var4.bind(var5)(var6);
-                    if(!var4) { _fun0004_ip = 539; continue _fun0004 }
- 493:
+                    if(!var4) { _fun0004_ip = 540; continue _fun0004 }
+ 494:
                     var4 = var3.push;
                     var5 = _closure1_slot5;
                     var1 = var5.getDefaultChannelIds;
@@ -497,7 +497,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var16 = var1;
                     var15 = var3;
                     var1 = apply(var17, var16, var15);
- 539:
+ 540:
                     var1 = {};
                     var1['addedChannelIds'] = var3;
                     var1['removedChannelIds'] = var2;

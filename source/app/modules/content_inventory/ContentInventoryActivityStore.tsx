@@ -1,9 +1,9 @@
 // app/modules/content_inventory/ContentInventoryActivityStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
@@ -249,7 +249,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.isEntryExpired;
             var2 = var1.bind(var2)(var4);
             var1 = null;
-            if(var2) { _fun0005_ip = 166; continue _fun0005 }
+            if(var2) { _fun0005_ip = 167; continue _fun0005 }
  50:
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -258,7 +258,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var6.isEntryActive;
             var6 = var2.bind(var6)(var4);
             var2 = undefined;
-            if(!var6) { _fun0005_ip = 163; continue _fun0005 }
+            if(!var6) { _fun0005_ip = 164; continue _fun0005 }
  83:
             var7 = var4.author_type;
             var9 = _closure1_slot0;
@@ -269,7 +269,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var6.ContentInventoryAuthorType;
             var6 = var6.USER;
             var2 = undefined;
-            if(!(var7 === var6)) { _fun0005_ip = 163; continue _fun0005 }
+            if(!(var7 === var6)) { _fun0005_ip = 164; continue _fun0005 }
  127:
             var6 = _closure1_slot8;
             var5 = var6.getActivities;
@@ -341,9 +341,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var2 = var4.bind(var5)(var3);
- 163:
+ 164:
             var1 = var2;
- 166:
+ 167:
             return var1;
         }
     };

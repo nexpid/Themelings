@@ -1,9 +1,9 @@
 // app/modules/guild_sidebar/useShowConnectedUserLimit.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var3 = native6;
-    var7 = native7;
-    var1 = native3;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var3 = exports;
+    var7 = dependencyMap;
+    var1 = metroImportDefault;
     var _closure1_slot0 = var1;
     var _closure1_slot1 = var7;
     var1 = function formatNumber(arg1) {
@@ -72,35 +72,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = 0;
             var6 = var6 > var1;
             var8 = -1;
-            if(!var6) { _fun0002_ip = 91; continue _fun0002 }
- 85:
+            if(!var6) { _fun0002_ip = 90; continue _fun0002 }
+ 84:
             var8 = var2.userLimit;
- 91:
-            if(!var5) { _fun0002_ip = 98; continue _fun0002 }
- 94:
+ 90:
+            if(!var5) { _fun0002_ip = 97; continue _fun0002 }
+ 93:
             var5 = var9 > var1;
- 98:
+ 97:
             var2 = var8;
-            if(!var5) { _fun0002_ip = 133; continue _fun0002 }
- 104:
+            if(!var5) { _fun0002_ip = 132; continue _fun0002 }
+ 103:
             var5 = var9;
-            if(!(var8 > var1)) { _fun0002_ip = 130; continue _fun0002 }
- 111:
+            if(!(var8 > var1)) { _fun0002_ip = 129; continue _fun0002 }
+ 110:
             var6 = global;
             var7 = var6.Math;
             var6 = var7.min;
             var5 = var6.bind(var7)(var8, var9);
- 130:
+ 129:
             var2 = var5;
- 133:
-            if(!var4) { _fun0002_ip = 146; continue _fun0002 }
- 136:
+ 132:
+            if(!var4) { _fun0002_ip = 145; continue _fun0002 }
+ 135:
             var3 = _closure1_slot2;
             var1 = 0;
-            if(!(var2 !== var3)) { _fun0002_ip = 149; continue _fun0002 }
- 146:
+            if(!(var2 !== var3)) { _fun0002_ip = 148; continue _fun0002 }
+ 145:
             var1 = var2;
- 149:
+ 148:
             return var1;
         }
     };

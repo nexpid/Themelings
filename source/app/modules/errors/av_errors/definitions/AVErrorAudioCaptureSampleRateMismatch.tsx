@@ -1,9 +1,9 @@
 // app/modules/errors/av_errors/definitions/AVErrorAudioCaptureSampleRateMismatch.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -58,7 +58,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4;
  52:
             var4 = 30;
-            if(!(!(var3 < var4))) { _fun0001_ip = 345; continue _fun0001 }
+            if(!(!(var3 < var4))) { _fun0001_ip = 346; continue _fun0001 }
  62:
             var3 = global;
             var8 = var3.performance;
@@ -69,7 +69,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.bind(var9)();
             var8 = var8 - var5;
             var5 = _closure1_slot5;
-            if(!(!(var8 < var5))) { _fun0001_ip = 345; continue _fun0001 }
+            if(!(!(var8 < var5))) { _fun0001_ip = 346; continue _fun0001 }
  110:
             var9 = _closure1_slot2;
             var8 = var9.getConnectionStats;
@@ -86,7 +86,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var8.bind(var9)(var5);
             var9 = var7 == var8;
             var5 = undefined;
-            if(var9) { _fun0001_ip = 219; continue _fun0001 }
+            if(var9) { _fun0001_ip = 220; continue _fun0001 }
  167:
             var8 = var8.stats;
             var8 = var8.rtp;
@@ -102,24 +102,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var9.bind(var10)(var8);
             var9 = var7 == var8;
             var5 = undefined;
-            if(var9) { _fun0001_ip = 219; continue _fun0001 }
- 213:
+            if(var9) { _fun0001_ip = 220; continue _fun0001 }
+ 214:
             var5 = var8.sampleRateMismatchPercent;
- 219:
+ 220:
             var7 = var7 != var5;
             var2 = 0;
-            if(!var7) { _fun0001_ip = 231; continue _fun0001 }
- 228:
+            if(!var7) { _fun0001_ip = 232; continue _fun0001 }
+ 229:
             var2 = var5;
- 231:
+ 232:
             var5 = var3.Math;
             var3 = var5.abs;
             var3 = var3.bind(var5)(var2);
             var4 = var3 > var4;
             var3 = var2;
             var2 = undefined;
-            if(!var4) { _fun0001_ip = 343; continue _fun0001 }
- 260:
+            if(!var4) { _fun0001_ip = 344; continue _fun0001 }
+ 261:
             var4 = {};
             var5 = _closure1_slot0;
             var6 = _closure1_slot1;
@@ -140,9 +140,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = new Array(1);
             var3[0] = var4;
             var2 = var3;
- 343:
+ 344:
             return var2;
- 345:
+ 346:
             return var1;
         }
     };

@@ -1,9 +1,9 @@
 // app/lib/MessageQueue.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var8 = native3;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var10;
@@ -39,15 +39,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot21 = var2;
+            _closure1_slot22 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var1 = ['channelId', 'analyticsLocation'];
     var _closure1_slot3 = var1;
+    var1 = ['channelId', 'analyticsLocation'];
+    var _closure1_slot4 = var1;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -56,86 +58,99 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var5.bind(var6)(var3, var1, var4);
-    var7 = 0;
-    var4 = var10[var7];
+    var11 = 0;
+    var4 = var10[var11];
     var1 = undefined;
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var13 = 1;
     var4 = var10[var13];
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var5 = 2;
-    var4 = var10[var5];
-    var4 = var8.bind(var1)(var4);
     var _closure1_slot6 = var4;
-    var4 = 3;
-    var4 = var10[var4];
+    var7 = 2;
+    var4 = var10[var7];
     var4 = var8.bind(var1)(var4);
     var _closure1_slot7 = var4;
+    var5 = 3;
+    var4 = var10[var5];
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var10[var4];
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var12 = 5;
     var4 = var10[var12];
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = 6;
     var4 = var10[var4];
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = 7;
     var4 = var10[var4];
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var4 = 8;
     var4 = var10[var4];
     var4 = var8.bind(var1)(var4);
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4 = 9;
     var4 = var10[var4];
     var4 = var9.bind(var1)(var4);
     var6 = var4.AbortCodes;
-    var _closure1_slot13 = var6;
-    var6 = var4.Endpoints;
     var _closure1_slot14 = var6;
+    var6 = var4.Endpoints;
+    var _closure1_slot15 = var6;
     var4 = var4.AnalyticEvents;
-    var _closure1_slot15 = var4;
+    var _closure1_slot16 = var4;
     var4 = 10;
     var4 = var10[var4];
     var4 = var9.bind(var1)(var4);
     var4 = var4.MESSAGE_HTTP_TIMEOUT_RETRY_OPTIONS;
-    var _closure1_slot16 = var4;
+    var _closure1_slot17 = var4;
     var6 = {};
-    var6['SEND'] = var7;
+    var6['SEND'] = var11;
     var4 = 'SEND';
-    var6[var7] = var4;
+    var6[var11] = var4;
     var6['EDIT'] = var13;
     var4 = 'EDIT';
     var6[var13] = var4;
-    var6['COMMAND'] = var5;
+    var6['COMMAND'] = var7;
     var4 = 'COMMAND';
+    var6[var7] = var4;
+    var6['SEND_ANNOUNCEMENT'] = var5;
+    var4 = 'SEND_ANNOUNCEMENT';
     var6[var5] = var4;
-    var _closure1_slot17 = var6;
+    var _closure1_slot18 = var6;
     var5 = function isMessageDataSend(arg1) {
-        var1 = arg1;
-        var2 = var1.type;
-        var1 = _closure1_slot17;
-        var1 = var1.SEND;
-        var1 = var2 === var1;
-        return var1;
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+            var3 = arg1;
+            var4 = var3.type;
+            var1 = _closure1_slot18;
+            var1 = var1.SEND;
+            var1 = var4 === var1;
+            if(var1) { _fun0002_ip = 47; continue _fun0002 }
+ 28:
+            var3 = var3.type;
+            var2 = _closure1_slot18;
+            var2 = var2.SEND_ANNOUNCEMENT;
+            var1 = var3 === var2;
+ 47:
+            return var1;
+        }
     };
-    var _closure1_slot18 = var5;
+    var _closure1_slot19 = var5;
     var4 = function isMessageDataEdit(arg1) {
         var1 = arg1;
         var2 = var1.type;
-        var1 = _closure1_slot17;
+        var1 = _closure1_slot18;
         var1 = var1.EDIT;
         var1 = var2 === var1;
         return var1;
     };
-    var _closure1_slot19 = var4;
+    var _closure1_slot20 = var4;
     var11 = 11;
     var7 = var10[var11];
     var7 = var8.bind(var1)(var7);
@@ -150,23 +165,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = var11.MINUTE;
     var11 = var12 * var11;
     var7[1] = var11;
-    var _closure1_slot20 = var7;
+    var _closure1_slot21 = var7;
     var7 = 22;
     var7 = var10[var7];
     var8 = var8.bind(var1)(var7);
     var7 = function(arg1) {
         var4 = function MessageQueue() {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                 var3 = arguments[0];
                 var6 = this;
                 var5 = undefined;
-                if(!(var3 === var5)) { _fun0002_ip = 17; continue _fun0002 }
+                if(!(var3 === var5)) { _fun0003_ip = 17; continue _fun0003 }
  14:
                 var3 = 5;
  17:
                 var _closure3_slot0 = var5;
-                var1 = _closure1_slot5;
+                var1 = _closure1_slot6;
                 var4 = _closure2_slot0;
                 var1 = var1.bind(var5)(var6, var4);
                 var8 = _closure1_slot1;
@@ -182,21 +197,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1 instanceof Object ? var1 : var8;
                 var11 = new Array(1);
                 var11[0] = var1;
-                var1 = _closure1_slot8;
+                var1 = _closure1_slot9;
                 var10 = var1.bind(var5)(var4);
-                var4 = _closure1_slot7;
-                var1 = _closure1_slot21;
+                var4 = _closure1_slot8;
+                var1 = _closure1_slot22;
                 var1 = var1.bind(var5)();
-                if(var1) { _fun0002_ip = 132; continue _fun0002 }
+                if(var1) { _fun0003_ip = 132; continue _fun0003 }
  119:
                 var1 = var10.apply;
                 var1 = var1.bind(var10)(var6, var11);
-                _fun0002_ip = 166; continue _fun0002;
+                _fun0003_ip = 166; continue _fun0003;
  132:
                 var8 = global;
                 var9 = var8.Reflect;
                 var8 = var9.construct;
-                var7 = _closure1_slot8;
+                var7 = _closure1_slot9;
                 var7 = var7.bind(var5)(var6);
                 var7 = var7.constructor;
                 var1 = var8.bind(var9)(var10, var11, var7);
@@ -220,7 +235,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3 instanceof Object ? var3 : var4;
                 var1['analyticsTimeouts'] = var3;
                 var2 = function(arg1, arg2) {
-                    _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                         var4 = arg1;
                         var11 = var4.channelId;
@@ -248,7 +263,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1 = arg2;
                         var5 = var4.bind(var5)(var10, var1);
                         var4 = {'url': null, 'body': null, 'retries': 1, 'oldFormErrors': true, 'signal': null, 'rejectWithError': true};
-                        var9 = _closure1_slot14;
+                        var9 = _closure1_slot15;
                         var8 = var9.MESSAGE;
                         var8 = var8.bind(var9)(var11, var10);
                         var4['url'] = var8;
@@ -267,7 +282,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var1;
                         };
                         var4['onRequestCreated'] = var6;
-                        if(!var3) { _fun0003_ip = 192; continue _fun0003 }
+                        if(!var3) { _fun0004_ip = 192; continue _fun0004 }
  186:
                         var4['failImmediatelyWhenRateLimited'] = var2;
  192:
@@ -288,11 +303,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var _closure2_slot0 = var4;
-        var5 = _closure1_slot9;
+        var5 = _closure1_slot10;
         var3 = undefined;
         var2 = arg1;
         var2 = var5.bind(var3)(var4, var2);
-        var2 = _closure1_slot6;
+        var2 = _closure1_slot7;
         var5 = {};
         var1 = 'isFull';
         var5['key'] = var1;
@@ -305,13 +320,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(9);
+        var1 = new Array(10);
         var1[0] = var5;
         var5 = {};
         var7 = 'drain';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                 var1 = arg1;
                 var4 = arg2;
@@ -322,32 +337,41 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = 'Draining Message Queue with: ';
                 var2 = var6.bind(var7)(var2, var5);
                 var5 = var1.type;
-                var6 = _closure1_slot17;
+                var6 = _closure1_slot18;
                 var6 = var6.SEND;
-                if(!(var6 !== var5)) { _fun0004_ip = 127; continue _fun0004 }
+                if(!(var6 !== var5)) { _fun0005_ip = 162; continue _fun0005 }
  59:
-                var6 = _closure1_slot17;
-                var6 = var6.EDIT;
-                if(!(var6 !== var5)) { _fun0004_ip = 108; continue _fun0004 }
+                var6 = _closure1_slot18;
+                var6 = var6.SEND_ANNOUNCEMENT;
+                if(!(var6 !== var5)) { _fun0005_ip = 141; continue _fun0005 }
  73:
-                var2 = _closure1_slot17;
-                var2 = var2.COMMAND;
-                if(!(var2 === var5)) { _fun0004_ip = 144; continue _fun0004 }
+                var6 = _closure1_slot18;
+                var6 = var6.EDIT;
+                if(!(var6 !== var5)) { _fun0005_ip = 122; continue _fun0005 }
  87:
+                var2 = _closure1_slot18;
+                var2 = var2.COMMAND;
+                if(!(var2 === var5)) { _fun0005_ip = 179; continue _fun0005 }
+ 101:
                 var5 = var3.handleCommand;
                 var2 = var1.message;
                 var2 = var5.bind(var3)(var2, var4);
-                _fun0004_ip = 144; continue _fun0004;
- 108:
+                _fun0005_ip = 179; continue _fun0005;
+ 122:
                 var5 = var3.handleEdit;
                 var2 = var1.message;
                 var2 = var5.bind(var3)(var2, var4);
-                _fun0004_ip = 144; continue _fun0004;
- 127:
+                _fun0005_ip = 179; continue _fun0005;
+ 141:
+                var5 = var3.handleSendAnnouncement;
+                var2 = var1.message;
+                var2 = var5.bind(var3)(var2, var4);
+                _fun0005_ip = 179; continue _fun0005;
+ 162:
                 var2 = var3.handleSend;
                 var1 = var1.message;
                 var1 = var2.bind(var3)(var1, var4);
- 144:
+ 179:
                 var1 = undefined;
                 return var1;
             }
@@ -358,7 +382,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'cancelRequest';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var3 = arg1;
                 var2 = this;
@@ -370,7 +394,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var4.get;
                 var4 = var1.bind(var4)(var3);
                 var1 = null;
-                if(!(var1 != var4)) { _fun0005_ip = 61; continue _fun0005 }
+                if(!(var1 != var4)) { _fun0006_ip = 61; continue _fun0006 }
  51:
                 var1 = var4.abort;
                 var1 = var1.bind(var4)();
@@ -390,7 +414,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'cancelPendingSendRequests';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                 var5 = arg1;
                 var2 = this;
@@ -399,24 +423,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var2.queue;
                 var3 = var3.length;
                 var6 = 0;
-                if(!(var3 > var6)) { _fun0006_ip = 130; continue _fun0006 }
+                if(!(var3 > var6)) { _fun0007_ip = 130; continue _fun0007 }
  34:
                 var8 = var2.queue;
                 var3 = var8.shift;
                 var9 = var3.bind(var8)();
                 var3 = var9.message;
                 var10 = var3.type;
-                var8 = _closure1_slot17;
+                var8 = _closure1_slot18;
                 var8 = var8.SEND;
-                if(!(var10 === var8)) { _fun0006_ip = 88; continue _fun0006 }
+                if(!(var10 === var8)) { _fun0007_ip = 88; continue _fun0007 }
  74:
                 var8 = var3.message;
                 var8 = var8.channelId;
-                if(!(var8 !== var5)) { _fun0006_ip = 100; continue _fun0006 }
+                if(!(var8 !== var5)) { _fun0007_ip = 100; continue _fun0007 }
  88:
                 var8 = var7.push;
                 var8 = var8.bind(var7)(var9);
-                _fun0006_ip = 115; continue _fun0006;
+                _fun0007_ip = 115; continue _fun0007;
  100:
                 var8 = var1.push;
                 var3 = var3.message;
@@ -424,7 +448,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  115:
                 var3 = var2.queue;
                 var3 = var3.length;
-                if(var3 > var6) { _fun0006_ip = 34; continue _fun0006 }
+                if(var3 > var6) { _fun0007_ip = 34; continue _fun0007 }
  130:
                 var5 = var2.queue;
                 var4 = var5.push;
@@ -451,7 +475,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'startQueueMetricTimers';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            var3 = _closure1_slot20;
+            var3 = _closure1_slot21;
             var2 = var3.map;
             var1 = function(arg1) {
                 var4 = arg1;
@@ -467,7 +491,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = undefined;
                     var5 = var4.bind(var1)(var3);
                     var4 = var5.trackWithMetadata;
-                    var2 = _closure1_slot15;
+                    var2 = _closure1_slot16;
                     var3 = var2.SEND_MESSAGE_QUEUED;
                     var2 = {};
                     var6 = _closure4_slot0;
@@ -493,7 +517,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'cancelQueueMetricTimers';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                 var3 = arg1;
                 var1 = this;
@@ -501,7 +525,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4.get;
                 var5 = var2.bind(var4)(var3);
                 var2 = null;
-                if(!(var2 != var5)) { _fun0007_ip = 46; continue _fun0007 }
+                if(!(var2 != var5)) { _fun0008_ip = 46; continue _fun0008 }
  28:
                 var4 = var5.forEach;
                 var2 = global;
@@ -528,12 +552,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = arg2;
             var _closure3_slot2 = var2;
             var1 = function(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     var4 = arg1;
                     var2 = _closure3_slot1;
                     var3 = null;
-                    if(!(var3 != var2)) { _fun0008_ip = 51; continue _fun0008 }
+                    if(!(var3 != var2)) { _fun0009_ip = 51; continue _fun0009 }
  16:
                     var6 = _closure3_slot0;
                     var7 = var6.requests;
@@ -544,36 +568,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.bind(var6)(var5);
  51:
                     var2 = var4.hasErr;
-                    if(var2) { _fun0008_ip = 277; continue _fun0008 }
+                    if(var2) { _fun0009_ip = 277; continue _fun0009 }
  63:
                     var2 = var4.body;
-                    if(!(var3 != var2)) { _fun0008_ip = 140; continue _fun0008 }
+                    if(!(var3 != var2)) { _fun0009_ip = 140; continue _fun0009 }
  72:
                     var2 = var4.body;
                     var6 = var2.code;
-                    var5 = _closure1_slot13;
+                    var5 = _closure1_slot14;
                     var5 = var5.SLOWMODE_RATE_LIMITED;
-                    if(!(var6 !== var5)) { _fun0008_ip = 123; continue _fun0008 }
+                    if(!(var6 !== var5)) { _fun0009_ip = 123; continue _fun0009 }
  99:
                     var5 = var4.body;
                     var5 = var5.code;
-                    var2 = _closure1_slot13;
+                    var2 = _closure1_slot14;
                     var2 = var2.CHANNEL_FOLLOWING_EDIT_RATE_LIMITED;
-                    if(!(var5 === var2)) { _fun0008_ip = 140; continue _fun0008 }
+                    if(!(var5 === var2)) { _fun0009_ip = 140; continue _fun0009 }
  123:
                     var5 = _closure3_slot2;
                     var2 = undefined;
                     var2 = var5.bind(var2)(var3, var4);
-                    _fun0008_ip = 273; continue _fun0008;
+                    _fun0009_ip = 273; continue _fun0009;
  140:
                     var5 = var4.status;
                     var2 = 429;
-                    if(!(var2 !== var5)) { _fun0008_ip = 169; continue _fun0008 }
+                    if(!(var2 !== var5)) { _fun0009_ip = 169; continue _fun0009 }
  155:
                     var5 = _closure3_slot2;
                     var2 = undefined;
                     var2 = var5.bind(var2)(var3, var4);
-                    _fun0008_ip = 273; continue _fun0008;
+                    _fun0009_ip = 273; continue _fun0009;
  169:
                     var2 = global;
                     var7 = var2.parseInt;
@@ -584,7 +608,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.isNaN;
                     var6 = var2.bind(var5)(var8);
                     var2 = _closure3_slot2;
-                    if(var6) { _fun0008_ip = 267; continue _fun0008 }
+                    if(var6) { _fun0009_ip = 267; continue _fun0009 }
  214:
                     var6 = {};
                     var9 = _closure1_slot1;
@@ -597,7 +621,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var8 * var7;
                     var6['retryAfter'] = var7;
                     var6 = var2.bind(var5)(var6);
-                    _fun0008_ip = 273; continue _fun0008;
+                    _fun0009_ip = 273; continue _fun0009;
  267:
                     var2 = var2.bind(var5)(var3, var4);
  273:
@@ -618,7 +642,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = 'handleSend';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
                 var5 = arg1;
                 var4 = arg2;
@@ -627,7 +651,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var _closure3_slot1 = var5;
                 var16 = var5.channelId;
                 var8 = var5.analyticsLocation;
-                var6 = _closure1_slot4;
+                var6 = _closure1_slot5;
                 var2 = _closure1_slot3;
                 var3 = undefined;
                 var6 = var6.bind(var3)(var5, var2);
@@ -638,13 +662,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var7.bind(var3)(var2);
                 var7 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 != var7)) { _fun0009_ip = 82; continue _fun0009 }
+                if(!(var2 != var7)) { _fun0010_ip = 82; continue _fun0010 }
  79:
                 var8 = var7;
  82:
                 var7 = var2 != var8;
                 var11 = undefined;
-                if(!var7) { _fun0009_ip = 100; continue _fun0009 }
+                if(!var7) { _fun0010_ip = 100; continue _fun0010 }
  91:
                 var7 = {};
                 var7['location'] = var8;
@@ -658,7 +682,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = var8.getSignalStrength;
                 var8 = var7.bind(var8)();
                 var13 = {};
-                var10 = _closure1_slot12;
+                var10 = _closure1_slot13;
                 var7 = var10.getType;
                 var7 = var7.bind(var10)();
                 var13['mobile_network_type'] = var7;
@@ -666,21 +690,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var17 = var6;
                 var6 = copyDataProperties(var18, var17);
                 var6 = var2 != var8;
-                if(!var6) { _fun0009_ip = 180; continue _fun0009 }
- 170:
+                if(!var6) { _fun0010_ip = 178; continue _fun0010 }
+ 168:
                 var7 = {};
                 var7['signal_strength'] = var8;
                 var6 = var7;
- 180:
+ 178:
                 var18 = var13;
                 var17 = var6;
                 var6 = copyDataProperties(var18, var17);
-                var8 = _closure1_slot10;
+                var8 = _closure1_slot11;
                 var7 = var8.get;
                 var6 = 'send_fail_100';
                 var6 = var7.bind(var8)(var6);
-                if(var6) { _fun0009_ip = 409; continue _fun0009 }
- 216:
+                if(var6) { _fun0010_ip = 405; continue _fun0010 }
+ 214:
                 var7 = var1.createResponseHandler;
                 var6 = var5.nonce;
                 var8 = var7.bind(var1)(var6, var4);
@@ -703,7 +727,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = var5.HTTP;
                 var6 = var7.post;
                 var5 = {};
-                var15 = _closure1_slot14;
+                var15 = _closure1_slot15;
                 var14 = var15.MESSAGES;
                 var14 = var14.bind(var15)(var16);
                 var5['url'] = var14;
@@ -711,7 +735,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5['context'] = var11;
                 var11 = true;
                 var5['oldFormErrors'] = var11;
-                var17 = _closure1_slot16;
+                var17 = _closure1_slot17;
                 var18 = var5;
                 var12 = copyDataProperties(var18, var17);
                 var12 = var10.signal;
@@ -720,12 +744,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var10 = 'rejectWithError';
                 var5[var10] = var11;
                 var10 = function onRequestCreated() {
-                    _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                    _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
                         var2 = _closure3_slot1;
                         var3 = var2.nonce;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0010_ip = 54; continue _fun0010 }
+                        if(!(var2 != var3)) { _fun0011_ip = 54; continue _fun0011 }
  19:
                         var2 = _closure3_slot0;
                         var4 = var2.requests;
@@ -743,7 +767,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5[var9] = var10;
                 var5 = var6.bind(var7)(var5, var8);
                 return var3;
- 409:
+ 405:
                 var6 = var1.logger;
                 var5 = var6.log;
                 var1 = 'Skipping message send because send_fail_100 is enabled';
@@ -759,10 +783,154 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5['value'] = var7;
         var1[7] = var5;
         var5 = {};
+        var7 = 'handleSendAnnouncement';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+ 0:
+                var5 = arg1;
+                var4 = arg2;
+                var1 = this;
+                var _closure3_slot0 = var1;
+                var _closure3_slot1 = var5;
+                var16 = var5.channelId;
+                var8 = var5.analyticsLocation;
+                var6 = _closure1_slot5;
+                var2 = _closure1_slot4;
+                var3 = undefined;
+                var6 = var6.bind(var3)(var5, var2);
+                var7 = _closure1_slot1;
+                var10 = _closure1_slot2;
+                var2 = 15;
+                var2 = var10[var2];
+                var2 = var7.bind(var3)(var2);
+                var7 = var2.bind(var3)();
+                var2 = null;
+                if(!(var2 != var7)) { _fun0012_ip = 82; continue _fun0012 }
+ 79:
+                var8 = var7;
+ 82:
+                var7 = var2 != var8;
+                var11 = undefined;
+                if(!var7) { _fun0012_ip = 100; continue _fun0012 }
+ 91:
+                var7 = {};
+                var7['location'] = var8;
+                var11 = var7;
+ 100:
+                var8 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                var7 = 16;
+                var7 = var10[var7];
+                var8 = var8.bind(var3)(var7);
+                var7 = var8.getSignalStrength;
+                var8 = var7.bind(var8)();
+                var13 = {};
+                var10 = _closure1_slot13;
+                var7 = var10.getType;
+                var7 = var7.bind(var10)();
+                var13['mobile_network_type'] = var7;
+                var18 = var13;
+                var17 = var6;
+                var6 = copyDataProperties(var18, var17);
+                var6 = var2 != var8;
+                if(!var6) { _fun0012_ip = 178; continue _fun0012 }
+ 168:
+                var7 = {};
+                var7['signal_strength'] = var8;
+                var6 = var7;
+ 178:
+                var18 = var13;
+                var17 = var6;
+                var6 = copyDataProperties(var18, var17);
+                var8 = _closure1_slot11;
+                var7 = var8.get;
+                var6 = 'send_fail_100';
+                var6 = var7.bind(var8)(var6);
+                if(var6) { _fun0012_ip = 405; continue _fun0012 }
+ 214:
+                var7 = var1.createResponseHandler;
+                var6 = var5.nonce;
+                var8 = var7.bind(var1)(var6, var4);
+                var6 = global;
+                var6 = var6.AbortController;
+                var7 = var6.prototype;
+                var7 = Object.create(var7, {constructor: {value: var6}});
+                var19 = var7;
+                var6 = new var19[var6](var18);
+                var10 = var6 instanceof Object ? var6 : var7;
+                var _closure3_slot2 = var10;
+                var6 = var1.startQueueMetricTimers;
+                var5 = var5.nonce;
+                var5 = var6.bind(var1)(var5);
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var5 = 13;
+                var5 = var7[var5];
+                var5 = var6.bind(var3)(var5);
+                var7 = var5.HTTP;
+                var6 = var7.post;
+                var5 = {};
+                var15 = _closure1_slot15;
+                var14 = var15.MESSAGES_ANNOUNCEMENT;
+                var14 = var14.bind(var15)(var16);
+                var5['url'] = var14;
+                var5['body'] = var13;
+                var5['context'] = var11;
+                var11 = true;
+                var5['oldFormErrors'] = var11;
+                var17 = _closure1_slot17;
+                var18 = var5;
+                var12 = copyDataProperties(var18, var17);
+                var12 = var10.signal;
+                var10 = 'signal';
+                var5[var10] = var12;
+                var10 = 'rejectWithError';
+                var5[var10] = var11;
+                var10 = function onRequestCreated() {
+                    _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+ 0:
+                        var2 = _closure3_slot1;
+                        var3 = var2.nonce;
+                        var2 = null;
+                        if(!(var2 != var3)) { _fun0013_ip = 54; continue _fun0013 }
+ 19:
+                        var2 = _closure3_slot0;
+                        var4 = var2.requests;
+                        var3 = var4.set;
+                        var2 = _closure3_slot1;
+                        var2 = var2.nonce;
+                        var1 = _closure3_slot2;
+                        var1 = var3.bind(var4)(var2, var1);
+ 54:
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var9 = 'onRequestCreated';
+                var5[var9] = var10;
+                var5 = var6.bind(var7)(var5, var8);
+                return var3;
+ 405:
+                var6 = var1.logger;
+                var5 = var6.log;
+                var1 = 'Skipping message send because send_fail_100 is enabled';
+                var1 = var5.bind(var6)(var1);
+                var1 = {'ok': false, 'hasErr': false, 'status': 500, 'headers': null, 'body': '{}', 'text': 'Simulated failure'};
+                var5 = {};
+                var1['headers'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var5['value'] = var7;
+        var1[8] = var5;
+        var5 = {};
         var7 = 'handleCommand';
         var5['key'] = var7;
         var6 = function value(arg1, arg2) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
                 var1 = arg1;
                 var8 = this;
@@ -794,7 +962,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var13['application_id'] = var14;
                 var13['guild_id'] = var12;
                 var13['channel_id'] = var9;
-                var12 = _closure1_slot11;
+                var12 = _closure1_slot12;
                 var9 = var12.getSessionId;
                 var9 = var9.bind(var12)();
                 var13['session_id'] = var9;
@@ -806,7 +974,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = null;
                 var3 = var3 != var10;
                 var9 = undefined;
-                if(!var3) { _fun0011_ip = 237; continue _fun0011 }
+                if(!var3) { _fun0014_ip = 237; continue _fun0014 }
  192:
                 var4 = var13.data;
                 var3 = new Array(0);
@@ -859,7 +1027,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var3.HTTP;
                 var4 = var5.post;
                 var3 = {};
-                var11 = _closure1_slot14;
+                var11 = _closure1_slot15;
                 var11 = var11.INTERACTIONS;
                 var3['url'] = var11;
                 var11 = {};
@@ -888,7 +1056,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var4.on;
                     var2 = 'progress';
                     var1 = function(arg1) {
-                        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                             var1 = arg1;
                             var6 = var1.total;
@@ -903,18 +1071,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var3 = var4.bind(var5)(var3);
                             var5 = null;
                             var4 = var5 != var6;
-                            if(!var4) { _fun0012_ip = 65; continue _fun0012 }
+                            if(!var4) { _fun0015_ip = 65; continue _fun0015 }
  61:
                             var4 = var6 > var3;
  65:
-                            if(!var4) { _fun0012_ip = 104; continue _fun0012 }
+                            if(!var4) { _fun0015_ip = 104; continue _fun0015 }
  68:
                             var7 = _closure3_slot0;
                             var6 = var7.cancelRequest;
                             var4 = _closure3_slot2;
                             var4 = var6.bind(var7)(var4);
                             var4 = _closure3_slot3;
-                            if(!(var5 != var4)) { _fun0012_ip = 104; continue _fun0012 }
+                            if(!(var5 != var4)) { _fun0015_ip = 104; continue _fun0015 }
  95:
                             var2 = _closure3_slot3;
                             var2 = var2.bind(var1)(var3);
@@ -935,7 +1103,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var5['value'] = var6;
-        var1[8] = var5;
+        var1[9] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -958,33 +1126,33 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = function(arg1) {
         var1 = arg1;
         var2 = var1.type;
-        var1 = _closure1_slot17;
+        var1 = _closure1_slot18;
         var1 = var1.COMMAND;
         var1 = var2 === var1;
         return var1;
     };
     var3['isMessageDataCommand'] = var4;
     var2 = function(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
             var2 = arg1;
-            var4 = _closure1_slot18;
+            var4 = _closure1_slot19;
             var3 = undefined;
             var4 = var4.bind(var3)(var2);
-            if(var4) { _fun0013_ip = 56; continue _fun0013 }
+            if(var4) { _fun0016_ip = 56; continue _fun0016 }
  20:
-            var1 = _closure1_slot19;
+            var1 = _closure1_slot20;
             var1 = var1.bind(var3)(var2);
             var3 = var2.message;
-            if(var1) { _fun0013_ip = 49; continue _fun0013 }
+            if(var1) { _fun0016_ip = 49; continue _fun0016 }
  37:
             var1 = var3.data;
             var1 = var1.id;
-            _fun0013_ip = 54; continue _fun0013;
+            _fun0016_ip = 54; continue _fun0016;
  49:
             var1 = var3.messageId;
  54:
-            _fun0013_ip = 67; continue _fun0013;
+            _fun0016_ip = 67; continue _fun0016;
  56:
             var2 = var2.message;
             var1 = var2.nonce;

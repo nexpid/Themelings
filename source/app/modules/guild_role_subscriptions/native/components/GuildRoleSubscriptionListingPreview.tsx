@@ -1,10 +1,10 @@
 // app/modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionListingPreview.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var15 = native3;
-    var8 = native4;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var15 = metroImportDefault;
+    var8 = metroImportAll;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var15;
     var _closure1_slot2 = var8;

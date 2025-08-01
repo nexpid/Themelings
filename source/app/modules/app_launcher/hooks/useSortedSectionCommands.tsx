@@ -1,10 +1,10 @@
 // app/modules/app_launcher/hooks/useSortedSectionCommands.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var7 = native4;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var7 = metroImportAll;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -79,14 +79,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = null;
                     var4 = var2 == var3;
                     var1 = undefined;
-                    if(var4) { _fun0002_ip = 42; continue _fun0002 }
- 37:
+                    if(var4) { _fun0002_ip = 43; continue _fun0002 }
+ 38:
                     var1 = var3.data;
- 42:
-                    if(!(var2 == var1)) { _fun0002_ip = 50; continue _fun0002 }
- 46:
+ 43:
+                    if(!(var2 == var1)) { _fun0002_ip = 51; continue _fun0002 }
+ 47:
                     var1 = new Array(0);
- 50:
+ 51:
                     return var1;
                 }
             };

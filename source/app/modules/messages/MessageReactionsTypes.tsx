@@ -1,6 +1,6 @@
 // app/modules/messages/MessageReactionsTypes.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -34,9 +34,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var10 = var1;
     var1 = new var11[var6](var10, var9);
     var2 = var1 instanceof Object ? var1 : var2;
-    var1 = native7;
+    var1 = dependencyMap;
     var6 = var1[var5];
-    var5 = native2;
+    var5 = require;
     var1 = undefined;
     var7 = var5.bind(var1)(var6);
     var6 = var7.fileFinishedImporting;

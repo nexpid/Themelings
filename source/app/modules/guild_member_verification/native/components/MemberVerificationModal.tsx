@@ -1,9 +1,9 @@
 // app/modules/guild_member_verification/native/components/MemberVerificationModal.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -322,10 +322,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = null;
             var7 = var2 == var4;
             var1 = undefined;
-            if(var7) { _fun0001_ip = 523; continue _fun0001 }
- 517:
+            if(var7) { _fun0001_ip = 522; continue _fun0001 }
+ 516:
             var1 = var4.formFields;
- 523:
+ 522:
             var7 = new Array(1);
             var7[0] = var1;
             var1 = function() {
@@ -373,10 +373,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var9.useMemo;
             var11 = var2 == var4;
             var1 = undefined;
-            if(var11) { _fun0001_ip = 566; continue _fun0001 }
- 560:
+            if(var11) { _fun0001_ip = 565; continue _fun0001 }
+ 559:
             var1 = var4.formFields;
- 566:
+ 565:
             var4 = new Array(1);
             var4[0] = var1;
             var1 = function() {
@@ -482,12 +482,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var4 = var9.bind(var11)(var4, var7);
-            if(!(var2 != var18)) { _fun0001_ip = 1211; continue _fun0001 }
- 653:
-            if(!(var2 != var3)) { _fun0001_ip = 1211; continue _fun0001 }
- 660:
-            if(var1) { _fun0001_ip = 1211; continue _fun0001 }
- 666:
+            if(!(var2 != var18)) { _fun0001_ip = 1210; continue _fun0001 }
+ 652:
+            if(!(var2 != var3)) { _fun0001_ip = 1210; continue _fun0001 }
+ 659:
+            if(var1) { _fun0001_ip = 1210; continue _fun0001 }
+ 665:
             var3 = _closure1_slot10;
             var23 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -667,8 +667,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var9.bind(var5)(var7, var4);
             var1['children'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0001_ip = 1302; continue _fun0001;
- 1211:
+            _fun0001_ip = 1301; continue _fun0001;
+ 1210:
             var4 = _closure1_slot10;
             var3 = _closure1_slot5;
             var2 = {};
@@ -687,7 +687,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1302:
+ 1301:
             return var1;
         }
     };

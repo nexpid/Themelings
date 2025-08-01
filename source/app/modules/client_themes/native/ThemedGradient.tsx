@@ -1,9 +1,9 @@
 // app/modules/client_themes/native/ThemedGradient.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var5 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var5;
     var _closure1_slot2 = var7;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var2);
     var1 = 0;
     var8 = var7[var1];
-    var2 = native4;
+    var2 = metroImportAll;
     var1 = undefined;
     var2 = var2.bind(var1)(var8);
     var10 = 1;
@@ -299,34 +299,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  233:
             var1['angle'] = var14;
             var5 = var5.angleCenter;
-            if(!(var13 == var5)) { _fun0001_ip = 262; continue _fun0001 }
+            if(!(var13 == var5)) { _fun0001_ip = 258; continue _fun0001 }
  248:
             var5 = {'x': 0.5, 'y': 0.5};
- 262:
+ 258:
             var1['angleCenter'] = var5;
             var5 = true;
             var1['useAngle'] = var5;
-            if(!var10) { _fun0001_ip = 286; continue _fun0001 }
- 277:
+            if(!var10) { _fun0001_ip = 282; continue _fun0001 }
+ 273:
             var5 = {};
             var5['width'] = var12;
             var10 = var5;
- 286:
+ 282:
             var5 = new Array(5);
             var5[0] = var10;
-            if(!var9) { _fun0001_ip = 306; continue _fun0001 }
- 297:
+            if(!var9) { _fun0001_ip = 302; continue _fun0001 }
+ 293:
             var10 = {};
             var10['height'] = var11;
             var9 = var10;
- 306:
+ 302:
             var5[1] = var9;
             var9 = var8.linearGradient;
             var5[2] = var9;
-            if(!var7) { _fun0001_ip = 329; continue _fun0001 }
- 323:
+            if(!var7) { _fun0001_ip = 325; continue _fun0001 }
+ 319:
             var7 = var8.absolute;
- 329:
+ 325:
             var5[3] = var7;
             var5[4] = var6;
             var1['style'] = var5;

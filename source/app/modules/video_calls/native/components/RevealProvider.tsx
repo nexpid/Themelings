@@ -1,9 +1,9 @@
 // app/modules/video_calls/native/components/RevealProvider.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var6 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var6 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var6;
     var _closure1_slot2 = var8;
@@ -122,7 +122,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var9.bind(var11)(var3, var1, var4);
     var1 = 0;
     var9 = var8[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var9 = var4.bind(var1)(var9);
     var _closure1_slot3 = var9;

@@ -1,9 +1,9 @@
 // discord_common/js/packages/media-engine/native/ui/Camera.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
-    var1 = native3;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
+    var1 = metroImportDefault;
     var _closure1_slot0 = var1;
     var _closure1_slot1 = var6;
     var2 = function Camera(arg1) {
@@ -56,7 +56,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var8 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var4 = 1;

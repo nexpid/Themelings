@@ -1,9 +1,9 @@
 // app/modules/messages/native/renderer/resolveMessageContentColors.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var9 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var9 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var9;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -48,15 +48,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = 4;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
-            if(var1) { _fun0001_ip = 81; continue _fun0001 }
- 68:
+            if(var1) { _fun0001_ip = 80; continue _fun0001 }
+ 67:
             var1 = var2.unsafe_rawColors;
             var1 = var1.PRIMARY_200;
-            _fun0001_ip = 92; continue _fun0001;
- 81:
+            _fun0001_ip = 91; continue _fun0001;
+ 80:
             var2 = var2.colors;
             var1 = var2.INTERACTIVE_NORMAL;
- 92:
+ 91:
             return var1;
         }
     };
@@ -83,13 +83,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0002_ip = 81; continue _fun0002 }
- 73:
+            if(var1) { _fun0002_ip = 80; continue _fun0002 }
+ 72:
             var1 = var2.PRIMARY_500;
-            _fun0002_ip = 87; continue _fun0002;
- 81:
+            _fun0002_ip = 86; continue _fun0002;
+ 80:
             var1 = var2.WHITE_500;
- 87:
+ 86:
             return var1;
         }
     };
@@ -115,15 +115,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = 4;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
-            if(var1) { _fun0003_ip = 81; continue _fun0003 }
- 68:
+            if(var1) { _fun0003_ip = 80; continue _fun0003 }
+ 67:
             var1 = var2.colors;
             var1 = var1.BACKGROUND_SECONDARY;
-            _fun0003_ip = 92; continue _fun0003;
- 81:
+            _fun0003_ip = 91; continue _fun0003;
+ 80:
             var2 = var2.unsafe_rawColors;
             var1 = var2.PRIMARY_700;
- 92:
+ 91:
             return var1;
         }
     };
@@ -150,13 +150,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0004_ip = 81; continue _fun0004 }
- 73:
+            if(var1) { _fun0004_ip = 80; continue _fun0004 }
+ 72:
             var1 = var2.PRIMARY_630;
-            _fun0004_ip = 87; continue _fun0004;
- 81:
+            _fun0004_ip = 86; continue _fun0004;
+ 80:
             var1 = var2.PRIMARY_300;
- 87:
+ 86:
             return var1;
         }
     };
@@ -183,13 +183,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0005_ip = 81; continue _fun0005 }
- 73:
+            if(var1) { _fun0005_ip = 80; continue _fun0005 }
+ 72:
             var1 = var2.BRAND_200;
-            _fun0005_ip = 87; continue _fun0005;
- 81:
+            _fun0005_ip = 86; continue _fun0005;
+ 80:
             var1 = var2.BRAND_260;
- 87:
+ 86:
             return var1;
         }
     };

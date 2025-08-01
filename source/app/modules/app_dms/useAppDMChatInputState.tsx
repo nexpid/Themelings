@@ -1,9 +1,9 @@
 // app/modules/app_dms/useAppDMChatInputState.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var8 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot3 = var4;
@@ -409,10 +409,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var15.bind(var16)(var13);
             var15 = var5 == var13;
             var17 = undefined;
-            if(var15) { _fun0001_ip = 464; continue _fun0001 }
- 459:
+            if(var15) { _fun0001_ip = 465; continue _fun0001 }
+ 460:
             var17 = var13.application;
- 464:
+ 465:
             _closure2_slot3 = var17;
             var16 = _closure1_slot3;
             var15 = var16.useMemo;
@@ -444,54 +444,54 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var15.useGetOrFetchApplication;
             var16 = var5 == var11;
             var1 = undefined;
-            if(!var16) { _fun0001_ip = 534; continue _fun0001 }
- 531:
+            if(!var16) { _fun0001_ip = 535; continue _fun0001 }
+ 532:
             var1 = var4;
- 534:
+ 535:
             var1 = var13.bind(var15)(var1);
-            if(!(var5 != var11)) { _fun0001_ip = 546; continue _fun0001 }
- 543:
+            if(!(var5 != var11)) { _fun0001_ip = 547; continue _fun0001 }
+ 544:
             var1 = var11;
- 546:
+ 547:
             var13 = var5 != var1;
             var11 = undefined;
-            if(!var13) { _fun0001_ip = 558; continue _fun0001 }
- 555:
+            if(!var13) { _fun0001_ip = 559; continue _fun0001 }
+ 556:
             var11 = var1;
- 558:
+ 559:
             var1 = {};
             var1['application'] = var11;
             var11 = var5 == var11;
-            if(var11) { _fun0001_ip = 586; continue _fun0001 }
- 571:
-            if(!var12) { _fun0001_ip = 583; continue _fun0001 }
- 574:
+            if(var11) { _fun0001_ip = 587; continue _fun0001 }
+ 572:
+            if(!var12) { _fun0001_ip = 584; continue _fun0001 }
+ 575:
             var13 = var2.length;
             var12 = var14 === var13;
- 583:
+ 584:
             var11 = var12;
- 586:
+ 587:
             var1['isInitialLoading'] = var11;
             var11 = var5 == var9;
             var10 = undefined;
-            if(var11) { _fun0001_ip = 606; continue _fun0001 }
- 600:
+            if(var11) { _fun0001_ip = 607; continue _fun0001 }
+ 601:
             var10 = var9.bot;
- 606:
+ 607:
             var9 = var5 != var10;
-            if(!var9) { _fun0001_ip = 616; continue _fun0001 }
- 613:
+            if(!var9) { _fun0001_ip = 617; continue _fun0001 }
+ 614:
             var9 = var10;
- 616:
+ 617:
             var1['isAppDM'] = var9;
             var1['primaryEntryPointCommand'] = var8;
             var1['isProfileFetching'] = var7;
             var7 = var5 != var6;
             var5 = null;
-            if(!var7) { _fun0001_ip = 643; continue _fun0001 }
- 640:
+            if(!var7) { _fun0001_ip = 644; continue _fun0001 }
+ 641:
             var5 = var6;
- 643:
+ 644:
             var1['wasProfileFetching'] = var5;
             var1['applicationId'] = var4;
             var3 = var3.id;

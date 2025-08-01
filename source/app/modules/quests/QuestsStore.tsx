@@ -1,9 +1,9 @@
 // app/modules/quests/QuestsStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
@@ -1385,9 +1385,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
             var1 = arg1;
-            var7 = var1.quest;
+            var8 = var1.quest;
             var3 = var1.placement;
-            var6 = var1.adDecisionData;
+            var7 = var1.adDecisionData;
+            var6 = var1.adContext;
             var1 = global;
             var2 = var1.Date;
             var1 = var2.now;
@@ -1396,20 +1397,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = false;
             _closure1_slot3 = var2;
             var2 = null;
-            if(!(var2 != var7)) { _fun0019_ip = 86; continue _fun0019 }
- 57:
+            if(!(var2 != var8)) { _fun0019_ip = 97; continue _fun0019 }
+ 63:
             var5 = _closure1_slot20;
             var4 = var5.set;
             var2 = {};
-            var2['quest'] = var7;
-            var2['adDecisionData'] = var6;
+            var2['quest'] = var8;
+            var2['adDecisionData'] = var7;
+            var2['adContext'] = var6;
             var2 = var4.bind(var5)(var3, var2);
-            _fun0019_ip = 100; continue _fun0019;
- 86:
+            _fun0019_ip = 111; continue _fun0019;
+ 97:
             var2 = _closure1_slot20;
             var1 = var2.delete;
             var1 = var1.bind(var2)(var3);
- 100:
+ 111:
             var1 = undefined;
             return var1;
         }

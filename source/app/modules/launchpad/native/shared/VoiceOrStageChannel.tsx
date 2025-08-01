@@ -1,9 +1,9 @@
 // app/modules/launchpad/native/shared/VoiceOrStageChannel.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
@@ -38,7 +38,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!(!(var4 > var3))) { _fun0001_ip = 188; continue _fun0001 }
  112:
             var3 = 0;
-            if(!(var7 > var3)) { _fun0001_ip = 264; continue _fun0001 }
+            if(!(var7 > var3)) { _fun0001_ip = 263; continue _fun0001 }
  121:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -54,7 +54,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['channelName'] = var8;
             var3['userCount'] = var7;
             var2 = var5.bind(var11)(var4, var3);
-            _fun0001_ip = 264; continue _fun0001;
+            _fun0001_ip = 263; continue _fun0001;
  188:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -72,7 +72,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var6.userLimit;
             var1['limit'] = var6;
             var2 = var4.bind(var5)(var3, var1);
- 264:
+ 263:
             var1 = {'accessible': true, 'accessibilityRole': 'button'};
             var1['accessibilityLabel'] = var2;
             return var1;
@@ -366,7 +366,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot4 = var7;
     var4 = 2;

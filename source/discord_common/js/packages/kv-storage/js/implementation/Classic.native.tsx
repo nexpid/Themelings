@@ -1,11 +1,11 @@
 // discord_common/js/packages/kv-storage/js/implementation/Classic.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var4 = native1;
-        var5 = native2;
-        var3 = native6;
-        var6 = native7;
+        var4 = global;
+        var5 = require;
+        var3 = exports;
+        var6 = dependencyMap;
         var7 = global;
         var9 = var7.Object;
         var8 = var9.defineProperty;

@@ -1,9 +1,9 @@
 // app/modules/activities/handlePressJoinActivity.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
@@ -252,7 +252,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 410; continue _fun0002 }
+                    if(var3) { _fun0002_ip = 411; continue _fun0002 }
  15:
                     var12 = var2.channelId;
                     var _closure4_slot0 = var12;
@@ -342,7 +342,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var4;
  108:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 407; continue _fun0002 }
+                    if(var3) { _fun0002_ip = 408; continue _fun0002 }
  117:
                     var5 = _closure1_slot10;
                     var3 = var5.getEmbeddedActivitiesForChannel;
@@ -374,8 +374,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = var5.bind(var6)(var3);
                     _closure4_slot7 = var5;
                     var14 = null;
-                    if(!(var14 == var13)) { _fun0002_ip = 219; continue _fun0002 }
- 160:
+                    if(!(var14 == var13)) { _fun0002_ip = 220; continue _fun0002 }
+ 161:
                     var6 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var3 = 12;
@@ -383,21 +383,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var6.bind(var4)(var3);
                     var3 = var6.fetchApplication;
                     var3 = var3.bind(var6)(var8);
-                    SaveGenerator(address=195);
- 193:
+                    SaveGenerator(address=196);
+ 194:
                     return var3;
- 195:
+ 196:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0002_ip = 404; continue _fun0002 }
- 204:
+                    if(var6) { _fun0002_ip = 405; continue _fun0002 }
+ 205:
                     var8 = _closure1_slot4;
                     var6 = var8.createFromServer;
                     var13 = var6.bind(var8)(var3);
- 219:
-                    if(!(var14 != var5)) { _fun0002_ip = 401; continue _fun0002 }
- 226:
-                    if(!(var14 != var13)) { _fun0002_ip = 401; continue _fun0002 }
- 233:
+ 220:
+                    if(!(var14 != var5)) { _fun0002_ip = 402; continue _fun0002 }
+ 227:
+                    if(!(var14 != var13)) { _fun0002_ip = 402; continue _fun0002 }
+ 234:
                     var6 = _closure1_slot8;
                     var5 = var6.getCurrentUser;
                     var11 = var5.bind(var6)();
@@ -411,10 +411,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var8 = {};
                     var15 = var14 == var11;
                     var14 = undefined;
-                    if(var15) { _fun0002_ip = 288; continue _fun0002 }
- 283:
+                    if(var15) { _fun0002_ip = 289; continue _fun0002 }
+ 284:
                     var14 = var11.id;
- 288:
+ 289:
                     var8['userId'] = var14;
                     var8['application'] = var13;
                     var8['channelId'] = var12;
@@ -449,13 +449,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var5['handleCanJoin'] = var7;
                     var5 = var6.bind(var4)(var5);
- 401:
+ 402:
                     return var4;
- 404:
+ 405:
                     return var3;
- 407:
+ 408:
                     return var2;
- 410:
+ 411:
                     return var1;
                 }
             };

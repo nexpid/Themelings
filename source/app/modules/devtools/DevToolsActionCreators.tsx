@@ -1,8 +1,8 @@
 // app/modules/devtools/DevToolsActionCreators.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var6;
     var4 = function updateDevToolsSettings(arg1) {
@@ -37,7 +37,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot2 = var5;
     var5 = 2;
     var6 = var6[var5];
-    var5 = native2;
+    var5 = require;
     var7 = var5.bind(var1)(var6);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/devtools/DevToolsActionCreators.tsx';

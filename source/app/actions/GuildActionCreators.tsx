@@ -1,12 +1,12 @@
 // app/actions/GuildActionCreators.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var7;
     var1 = function _joinGuild() {
@@ -2143,18 +2143,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0018_ip = 159; continue _fun0018 }
+                        if(var2) { _fun0018_ip = 158; continue _fun0018 }
  10:
                         var6 = {};
                         var2 = _closure2_slot1;
                         var6['limit'] = var2;
                         var3 = _closure2_slot2;
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0018_ip = 44; continue _fun0018 }
- 34:
+                        if(!(var2 != var3)) { _fun0018_ip = 43; continue _fun0018 }
+ 33:
                         var2 = _closure2_slot2;
                         var6['after'] = var2;
- 44:
+ 43:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot3;
                         var2 = 15;
@@ -2196,17 +2196,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var1;
                         };
                         var2 = var4.bind(var5)(var2);
-                        SaveGenerator(address=147);
- 145:
+                        SaveGenerator(address=146);
+ 144:
                         return var2;
- 147:
+ 146:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0018_ip = 156; continue _fun0018 }
- 153:
+                        if(var4) { _fun0018_ip = 155; continue _fun0018 }
+ 152:
                         return var3;
- 156:
+ 155:
                         return var2;
- 159:
+ 158:
                         return var1;
                     }
                 };
@@ -2241,7 +2241,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0020_ip = 229; continue _fun0020 }
+                        if(var2) { _fun0020_ip = 228; continue _fun0020 }
  10:
                         var6 = {};
                         var2 = _closure2_slot3;
@@ -2249,34 +2249,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = _closure2_slot2;
                         var3 = null;
                         var2 = var3 != var2;
-                        if(!var2) { _fun0020_ip = 52; continue _fun0020 }
- 37:
+                        if(!var2) { _fun0020_ip = 51; continue _fun0020 }
+ 36:
                         var4 = _closure2_slot2;
                         var5 = var4.length;
                         var4 = 0;
                         var2 = var5 > var4;
- 52:
-                        if(!var2) { _fun0020_ip = 65; continue _fun0020 }
- 55:
+ 51:
+                        if(!var2) { _fun0020_ip = 64; continue _fun0020 }
+ 54:
                         var2 = _closure2_slot2;
                         var6['user_ids'] = var2;
- 65:
+ 64:
                         var2 = _closure2_slot1;
                         var2 = var3 != var2;
-                        if(!var2) { _fun0020_ip = 101; continue _fun0020 }
- 76:
+                        if(!var2) { _fun0020_ip = 100; continue _fun0020 }
+ 75:
                         var4 = _closure2_slot1;
                         var3 = var4.trim;
                         var3 = var3.bind(var4)();
                         var4 = var3.length;
                         var3 = 0;
                         var2 = var4 > var3;
- 101:
-                        if(!var2) { _fun0020_ip = 114; continue _fun0020 }
- 104:
+ 100:
+                        if(!var2) { _fun0020_ip = 113; continue _fun0020 }
+ 103:
                         var2 = _closure2_slot1;
                         var6['query'] = var2;
- 114:
+ 113:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot3;
                         var2 = 15;
@@ -2320,17 +2320,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var1;
                         };
                         var2 = var4.bind(var5)(var2);
-                        SaveGenerator(address=217);
- 215:
+                        SaveGenerator(address=216);
+ 214:
                         return var2;
- 217:
+ 216:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0020_ip = 226; continue _fun0020 }
- 223:
+                        if(var4) { _fun0020_ip = 225; continue _fun0020 }
+ 222:
                         return var3;
- 226:
+ 225:
                         return var2;
- 229:
+ 228:
                         return var1;
                     }
                 };

@@ -1,9 +1,9 @@
 // app/modules/user_settings/ThemeStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -217,12 +217,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var5 == var2;
                 var1 = undefined;
                 var3 = undefined;
-                if(var4) { _fun0004_ip = 25; continue _fun0004 }
+                if(var4) { _fun0004_ip = 24; continue _fun0004 }
  19:
                 var3 = var2.theme;
- 25:
-                if(!(var5 != var3)) { _fun0004_ip = 105; continue _fun0004 }
- 29:
+ 24:
+                if(!(var5 != var3)) { _fun0004_ip = 103; continue _fun0004 }
+ 28:
                 var4 = _closure1_slot14;
                 var4 = var4.SET;
                 _closure1_slot15 = var4;
@@ -236,11 +236,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = _closure1_slot18;
                 var4 = var6.bind(var1)(var4);
                 var4 = var2.preferences;
-                if(!(var5 != var4)) { _fun0004_ip = 105; continue _fun0004 }
- 95:
+                if(!(var5 != var4)) { _fun0004_ip = 103; continue _fun0004 }
+ 93:
                 var2 = var2.preferences;
                 _closure1_slot16 = var2;
- 105:
+ 103:
                 var6 = var7.waitFor;
                 var12 = _closure1_slot10;
                 var11 = _closure1_slot9;
@@ -315,10 +315,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = arg1;
             var3 = var2.theme;
             var1 = 'amoled';
-            if(!(var1 === var3)) { _fun0005_ip = 23; continue _fun0005 }
- 19:
+            if(!(var1 === var3)) { _fun0005_ip = 22; continue _fun0005 }
+ 18:
             var3 = 'midnight';
- 23:
+ 22:
             var1 = {};
             var5 = var1;
             var4 = var2;

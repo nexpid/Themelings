@@ -1,11 +1,11 @@
 // discord_common/js/packages/libdiscore/mobile/js/index.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var7 = native2;
-        var6 = native3;
-        var3 = native6;
-        var8 = native7;
+        var7 = require;
+        var6 = metroImportDefault;
+        var3 = exports;
+        var8 = dependencyMap;
         var5 = global;
         var10 = var5.Object;
         var9 = var10.defineProperty;
@@ -57,7 +57,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  156:
         var4 = var5.bridgeJSIFunctions;
         var4 = var4.bind(var5)();
-        var4 = native1;
+        var4 = global;
         var4 = var4.LIBDISCORE_JSI;
         var _closure1_slot2 = var4;
         var5 = var4.ExperimentCacher;

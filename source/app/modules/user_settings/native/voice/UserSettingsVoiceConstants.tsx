@@ -1,8 +1,8 @@
 // app/modules/user_settings/native/voice/UserSettingsVoiceConstants.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var2 = global;
     var8 = var2.Object;
     var7 = var8.defineProperty;
@@ -18,7 +18,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var4.HelpdeskArticles;
     var7 = 1;
     var8 = var6[var7];
-    var7 = native3;
+    var7 = metroImportDefault;
     var8 = var7.bind(var1)(var8);
     var7 = var8.getArticleURL;
     var4 = var4.VOICE_VIDEO_TROUBLESHOOTING;

@@ -1,9 +1,9 @@
 // app/modules/guild_member_verification/hooks/usePaginatedMemberApplications.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var5 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var5;
     var _closure1_slot2 = var7;
@@ -26,7 +26,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var4;
     var4 = 2;
     var5 = var7[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var5);
     var _closure1_slot5 = var4;
     var4 = 3;
@@ -86,7 +86,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         StartGenerator();
                         var8 = arg1;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0001_ip = 729; continue _fun0001 }
+                        if(var2) { _fun0001_ip = 728; continue _fun0001 }
  13:
                         var13 = arg2;
                         var2 = undefined;
@@ -94,7 +94,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var7 = undefined;
                         var3 = _closure2_slot2;
                         var3 = var3.current;
-                        if(var3) { _fun0001_ip = 726; continue _fun0001 }
+                        if(var3) { _fun0001_ip = 725; continue _fun0001 }
  40:
                         var9 = var13;
                         var10 = global;
@@ -117,7 +117,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  110:
                         var3 = _closure2_slot6;
                         var3 = var3.current;
-                        if(var3) { _fun0001_ip = 726; continue _fun0001 }
+                        if(var3) { _fun0001_ip = 725; continue _fun0001 }
  125:
                         var3 = _closure2_slot3;
                         var9 = null;
@@ -239,31 +239,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var24 = var6;
                         var12 = copyDataProperties(var24, var23);
                         var6 = var10.bind(var11)(var6);
-                        SaveGenerator(address=568);
- 566:
+                        SaveGenerator(address=567);
+ 565:
                         return var6;
- 568:
+ 567:
                         ResumeGenerator(result_out_reg=5, return_bool_out_reg=9);
-                        if(var10) { _fun0001_ip = 617; continue _fun0001 }
- 574:
+                        if(var10) { _fun0001_ip = 616; continue _fun0001 }
+ 573:
                         var7 = var6;
-                        if(!(var9 != var6)) { _fun0001_ip = 615; continue _fun0001 }
- 581:
+                        if(!(var9 != var6)) { _fun0001_ip = 614; continue _fun0001 }
+ 580:
                         var7 = var7.body;
                         var7 = var7.guild_join_requests;
                         var9 = var7.length;
                         var7 = _closure1_slot6;
-                        if(!(var9 < var7)) { _fun0001_ip = 615; continue _fun0001 }
- 605:
+                        if(!(var9 < var7)) { _fun0001_ip = 614; continue _fun0001 }
+ 604:
                         var7 = _closure2_slot6;
                         var7['current'] = var8;
- 615: // try_end0
-                        _fun0001_ip = 700; continue _fun0001;
- 617: // try_end1
+ 614: // try_end0
+                        _fun0001_ip = 699; continue _fun0001;
+ 616: // try_end1
                         var7 = _closure2_slot2;
                         var7['current'] = var5;
                         return var6;
- 630: // try_start_2 // catch_target0
+ 629: // try_start_2 // catch_target0
                         CatchBlockStart(arg_register=6);
                         var6 = _closure1_slot0;
                         var8 = _closure1_slot2;
@@ -281,18 +281,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = var7.getAnyErrorMessage;
                         var3 = var3.bind(var7)();
                         var3 = var6.bind(var2)(var3);
- 700: // try_end2
+ 699: // try_end2
                         var3 = _closure2_slot2;
                         var3['current'] = var5;
-                        _fun0001_ip = 726; continue _fun0001;
- 712: // catch_target1 // catch_target2
+                        _fun0001_ip = 725; continue _fun0001;
+ 711: // catch_target1 // catch_target2
                         CatchBlockStart(arg_register=2);
                         var4 = _closure2_slot2;
                         var4['current'] = var5;
                         throw var3;
- 726:
+ 725:
                         return var2;
- 729:
+ 728:
                         return var1;
                     }
                 };

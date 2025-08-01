@@ -1,8 +1,8 @@
 // app/modules/activities/getURLForApplication.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var4 = function getNonTestModeUrlForApplication(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -67,7 +67,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot1 = var6;
     var6 = 2;
     var7 = var7[var6];
-    var6 = native2;
+    var6 = require;
     var8 = var6.bind(var1)(var7);
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/activities/getURLForApplication.tsx';

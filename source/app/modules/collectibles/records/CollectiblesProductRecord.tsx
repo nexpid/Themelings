@@ -1,9 +1,9 @@
 // app/modules/collectibles/records/CollectiblesProductRecord.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var1 = function _callSuper(arg1, arg2, arg3) {
@@ -306,8 +306,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['bundledProducts'] = var3;
             var3 = var2.googleSkuIds;
             var1['googleSkuIds'] = var3;
-            var2 = var2.variants;
-            var1['variants'] = var2;
+            var3 = var2.variants;
+            var1['variants'] = var3;
+            var2 = var2.eligibleOffers;
+            var1['eligibleOffers'] = var2;
             return var1;
         };
         var _closure2_slot0 = var5;
@@ -401,8 +403,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  303:
                 var4 = 'variants';
                 var1[var4] = var5;
-                var4 = var2.google_sku_ids;
-                var2 = 'googleSkuIds';
+                var5 = var2.google_sku_ids;
+                var4 = 'googleSkuIds';
+                var1[var4] = var5;
+                var4 = var2.eligible_offers;
+                var2 = 'eligibleOffers';
                 var1[var2] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

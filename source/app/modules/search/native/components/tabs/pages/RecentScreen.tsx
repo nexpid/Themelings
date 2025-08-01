@@ -1,9 +1,9 @@
 // app/modules/search/native/components/tabs/pages/RecentScreen.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
@@ -202,7 +202,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var4;
     var4 = 2;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot5 = var7;
     var4 = 3;
@@ -566,7 +566,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var1 == var2;
                 var1 = undefined;
                 var8 = undefined;
-                if(var2) { _fun0005_ip = 62; continue _fun0005 }
+                if(var2) { _fun0005_ip = 63; continue _fun0005 }
  41:
                 var7 = _closure2_slot4;
                 var6 = var7.find;
@@ -579,7 +579,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var8 = var6.bind(var7)(var2);
- 62:
+ 63:
                 var7 = _closure1_slot0;
                 var9 = _closure1_slot2;
                 var6 = 22;
@@ -587,8 +587,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = var7.bind(var1)(var6);
                 var6 = var7.shouldAgeVerifyForSearchMedia;
                 var6 = var6.bind(var7)(var5, var8);
-                if(var6) { _fun0005_ip = 279; continue _fun0005 }
- 103:
+                if(var6) { _fun0005_ip = 280; continue _fun0005 }
+ 104:
                 var8 = _closure1_slot8;
                 var7 = var8.getState;
                 var11 = _closure2_slot0;
@@ -637,8 +637,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var7.bind(var8)(var6);
                 var3 = _closure2_slot9;
                 var3 = var3.bind(var1)(var5, var4);
-                _fun0005_ip = 338; continue _fun0005;
- 279:
+                _fun0005_ip = 339; continue _fun0005;
+ 280:
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var3 = 23;
@@ -652,7 +652,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2.AgeVerificationModalEntryPoint;
                 var2 = var2.SEARCH_MEDIA_PREVIEW;
                 var2 = var3.bind(var4)(var2);
- 338:
+ 339:
                 return var1;
             }
         };

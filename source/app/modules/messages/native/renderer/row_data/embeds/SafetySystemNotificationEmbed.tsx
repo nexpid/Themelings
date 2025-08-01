@@ -1,10 +1,10 @@
 // app/modules/messages/native/renderer/row_data/embeds/SafetySystemNotificationEmbed.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = function getIconType(arg1) {
@@ -46,7 +46,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = null;
             var2 = var6 == var8;
             var1 = null;
-            if(var2) { _fun0002_ip = 559; continue _fun0002 }
+            if(var2) { _fun0002_ip = 558; continue _fun0002 }
  59:
             var2 = var8.ctas;
             var2 = var6 != var2;
@@ -146,48 +146,48 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['footerTheme'] = var8;
             var10 = var6 == var9;
             var8 = undefined;
-            if(var10) { _fun0002_ip = 453; continue _fun0002 }
- 448:
+            if(var10) { _fun0002_ip = 452; continue _fun0002 }
+ 447:
             var8 = var9.type;
- 453:
+ 452:
             var2['primaryCtaType'] = var8;
             var10 = var6 == var9;
             var8 = undefined;
-            if(var10) { _fun0002_ip = 472; continue _fun0002 }
- 467:
+            if(var10) { _fun0002_ip = 471; continue _fun0002 }
+ 466:
             var8 = var9.text;
- 472:
+ 471:
             var2['primaryCtaText'] = var8;
             var10 = var6 == var9;
             var8 = undefined;
-            if(var10) { _fun0002_ip = 491; continue _fun0002 }
- 486:
+            if(var10) { _fun0002_ip = 490; continue _fun0002 }
+ 485:
             var8 = var9.key;
- 491:
+ 490:
             var2['primaryCtaKey'] = var8;
             var9 = var6 == var7;
             var8 = undefined;
-            if(var9) { _fun0002_ip = 510; continue _fun0002 }
- 505:
+            if(var9) { _fun0002_ip = 509; continue _fun0002 }
+ 504:
             var8 = var7.type;
- 510:
+ 509:
             var2['secondaryCtaType'] = var8;
             var9 = var6 == var7;
             var8 = undefined;
-            if(var9) { _fun0002_ip = 529; continue _fun0002 }
- 524:
+            if(var9) { _fun0002_ip = 528; continue _fun0002 }
+ 523:
             var8 = var7.text;
- 529:
+ 528:
             var2['secondaryCtaText'] = var8;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0002_ip = 548; continue _fun0002 }
- 543:
+            if(var8) { _fun0002_ip = 547; continue _fun0002 }
+ 542:
             var6 = var7.key;
- 548:
+ 547:
             var2['secondaryCtaKey'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 559:
+ 558:
             return var1;
         }
     };
@@ -202,7 +202,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var4 = 1;

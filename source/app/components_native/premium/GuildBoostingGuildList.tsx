@@ -1,9 +1,9 @@
 // app/components_native/premium/GuildBoostingGuildList.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var13 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var10 = 1;
@@ -123,7 +123,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23 = var2.total;
             var2 = var1 == var11;
             var1 = null;
-            if(var2) { _fun0001_ip = 604; continue _fun0001 }
+            if(var2) { _fun0001_ip = 603; continue _fun0001 }
  148:
             var4 = _closure1_slot9;
             var8 = _closure1_slot1;
@@ -250,7 +250,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 604:
+ 603:
             return var1;
         }
     };

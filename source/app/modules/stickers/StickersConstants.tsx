@@ -1,6 +1,6 @@
 // app/modules/stickers/StickersConstants.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var1 = global;
     var5 = var1.Object;
     var4 = var5.defineProperty;
@@ -22,9 +22,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['NEVER_ANIMATE'] = var5;
     var1 = 'NEVER_ANIMATE';
     var2[var5] = var1;
-    var1 = native7;
+    var1 = dependencyMap;
     var5 = var1[var4];
-    var4 = native2;
+    var4 = require;
     var1 = undefined;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;

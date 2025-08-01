@@ -1,9 +1,9 @@
 // app/modules/guild_automod/AutomodMessageUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var9 = native3;
-    var2 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var9 = metroImportDefault;
+    var2 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var8;
     var1 = function getEmbedFieldFromMessage(arg1, arg2) {
@@ -29,7 +29,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var5.type;
             var6 = _closure1_slot7;
             var6 = var6.AUTO_MODERATION_MESSAGE;
-            if(!(var7 !== var6)) { _fun0001_ip = 152; continue _fun0001 }
+            if(!(var7 !== var6)) { _fun0001_ip = 153; continue _fun0001 }
  75:
             var6 = var5.type;
             var1 = _closure1_slot7;
@@ -40,12 +40,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  96:
             var6 = var3 == var5;
             var1 = undefined;
-            if(var6) { _fun0001_ip = 150; continue _fun0001 }
+            if(var6) { _fun0001_ip = 151; continue _fun0001 }
  105:
             var8 = var5.fields;
             var6 = var3 == var8;
             var1 = undefined;
-            if(var6) { _fun0001_ip = 150; continue _fun0001 }
+            if(var6) { _fun0001_ip = 151; continue _fun0001 }
  120:
             var7 = var8.find;
             var6 = function(arg1) {
@@ -58,21 +58,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7.bind(var8)(var6);
             var7 = var3 == var6;
             var1 = undefined;
-            if(var7) { _fun0001_ip = 150; continue _fun0001 }
- 144:
+            if(var7) { _fun0001_ip = 151; continue _fun0001 }
+ 145:
             var1 = var6.rawValue;
- 150:
+ 151:
             return var1;
- 152:
+ 153:
             var6 = var3 == var5;
             var1 = undefined;
-            if(var6) { _fun0001_ip = 206; continue _fun0001 }
- 161:
+            if(var6) { _fun0001_ip = 208; continue _fun0001 }
+ 162:
             var6 = var5.fields;
             var5 = var3 == var6;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 206; continue _fun0001 }
- 176:
+            if(var5) { _fun0001_ip = 208; continue _fun0001 }
+ 177:
             var5 = var6.find;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -84,10 +84,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var5.bind(var6)(var2);
             var3 = var3 == var2;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 206; continue _fun0001 }
- 200:
+            if(var3) { _fun0001_ip = 208; continue _fun0001 }
+ 202:
             var1 = var2.rawValue;
- 206:
+ 208:
             return var1;
         }
     };
@@ -608,7 +608,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot2 = var6;
     var6 = 1;
     var10 = var8[var6];
-    var6 = native4;
+    var6 = metroImportAll;
     var6 = var6.bind(var1)(var10);
     var _closure1_slot3 = var6;
     var6 = 2;

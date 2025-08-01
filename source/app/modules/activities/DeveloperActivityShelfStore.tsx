@@ -1,9 +1,9 @@
 // app/modules/activities/DeveloperActivityShelfStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var1 = function _isNativeReflectConstruct() {
@@ -315,7 +315,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var _closure3_slot0 = var1;
                 var1 = var3.getIsEnabled;
                 var1 = var1.bind(var3)();
-                if(!var1) { _fun0009_ip = 53; continue _fun0009 }
+                if(!var1) { _fun0009_ip = 54; continue _fun0009 }
  25:
                 var4 = _closure1_slot11;
                 var3 = var4.find;
@@ -329,7 +329,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3.bind(var4)(var2);
                 var2 = null;
                 var1 = var2 != var3;
- 53:
+ 54:
                 return var1;
             }
         };
@@ -408,14 +408,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var5 = var5.bind(var6)(var4);
             var4 = null;
-            if(!(var4 != var5)) { _fun0010_ip = 66; continue _fun0010 }
- 48:
+            if(!(var4 != var5)) { _fun0010_ip = 67; continue _fun0010 }
+ 49:
             var1 = _closure1_slot8;
             var1 = var1.lastUsedObject;
             var1[var3] = var2;
             var1 = undefined;
             return var1;
- 66:
+ 67:
             var1 = false;
             return var1;
         }

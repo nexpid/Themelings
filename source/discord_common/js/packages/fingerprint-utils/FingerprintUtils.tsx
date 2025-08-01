@@ -1,6 +1,6 @@
 // discord_common/js/packages/fingerprint-utils/FingerprintUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var4 = function extractId(arg1) {
         var3 = arg1;
         var2 = var3.split;
@@ -19,10 +19,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5['value'] = var1;
     var1 = '__esModule';
     var1 = var6.bind(var7)(var3, var1, var5);
-    var5 = native7;
+    var5 = dependencyMap;
     var1 = 0;
     var6 = var5[var1];
-    var5 = native2;
+    var5 = require;
     var1 = undefined;
     var7 = var5.bind(var1)(var6);
     var6 = var7.fileFinishedImporting;

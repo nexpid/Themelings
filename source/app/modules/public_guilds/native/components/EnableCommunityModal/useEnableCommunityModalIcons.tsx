@@ -1,9 +1,9 @@
 // app/modules/public_guilds/native/components/EnableCommunityModal/useEnableCommunityModalIcons.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -30,7 +30,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot5 = var4;
     var4 = 3;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot6 = var4;
     var4 = 4;
@@ -72,17 +72,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var3.bind(var5)(var1);
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                if(var1) { _fun0001_ip = 70; continue _fun0001 }
- 56:
+                if(var1) { _fun0001_ip = 69; continue _fun0001 }
+ 55:
                 var1 = 7;
                 var1 = var5[var1];
                 var1 = var3.bind(var4)(var1);
-                _fun0001_ip = 82; continue _fun0001;
- 70:
+                _fun0001_ip = 81; continue _fun0001;
+ 69:
                 var2 = 6;
                 var2 = var5[var2];
                 var1 = var3.bind(var4)(var2);
- 82:
+ 81:
                 return var1;
             }
         };
@@ -125,17 +125,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var3.bind(var5)(var1);
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                if(var1) { _fun0002_ip = 70; continue _fun0002 }
- 56:
+                if(var1) { _fun0002_ip = 69; continue _fun0002 }
+ 55:
                 var1 = 10;
                 var1 = var5[var1];
                 var1 = var3.bind(var4)(var1);
-                _fun0002_ip = 82; continue _fun0002;
- 70:
+                _fun0002_ip = 81; continue _fun0002;
+ 69:
                 var2 = 9;
                 var2 = var5[var2];
                 var1 = var3.bind(var4)(var2);
- 82:
+ 81:
                 return var1;
             }
         };

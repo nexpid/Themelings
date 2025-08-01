@@ -1,34 +1,28 @@
 // app/modules/search/SearchActionCreators.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var2 = {};
     var1 = true;
     var2['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var7.bind(var8)(var3, var1, var2);
     var1 = 0;
     var2 = var6[var1];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 1;
-    var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var7 = var2.SearchModes;
-    var _closure1_slot4 = var7;
-    var7 = var2.SearchTypes;
-    var _closure1_slot5 = var7;
-    var2 = var2.FAVORITES;
-    var _closure1_slot6 = var2;
+    var _closure1_slot3 = var7;
+    var2 = var2.SearchTypes;
+    var _closure1_slot4 = var2;
     var2 = {};
     var7 = function fetchTabMessages(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -50,14 +44,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = undefined;
             if(!(var16 === var4)) { _fun0001_ip = 98; continue _fun0001 }
  85:
-            var2 = _closure1_slot4;
+            var2 = _closure1_slot3;
             var16 = var2.NEWEST;
  98:
             var _closure2_slot3 = var4;
             var _closure2_slot4 = var4;
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var18 = 2;
+            var18 = 1;
             var8 = var3[var18];
             var11 = var5.bind(var4)(var8);
             var8 = var11.tokenizeQuery;
@@ -121,7 +115,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  273:
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var5 = 3;
+            var5 = 2;
             var5 = var16[var5];
             var12 = var11.bind(var4)(var5);
             var11 = var12.create;
@@ -159,7 +153,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure2_slot4 = var6;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 4;
+            var2 = 3;
             var2 = var7[var2];
             var4 = var3.bind(var4)(var2);
             var3 = var4.dispatch;
@@ -182,7 +176,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var2.bind(var3)(var1);
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var2 = var2[var1];
                     var1 = undefined;
                     var6 = var3.bind(var1)(var2);
@@ -236,45 +230,45 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var3 = var4.total_results;
                             var1['totalResults'] = var3;
                             var3 = null;
-                            if(!(var3 != var6)) { _fun0004_ip = 161; continue _fun0004 }
- 122:
+                            if(!(var3 != var6)) { _fun0004_ip = 160; continue _fun0004 }
+ 121:
                             var7 = _closure1_slot1;
                             var9 = _closure1_slot2;
-                            var5 = 5;
+                            var5 = 4;
                             var5 = var9[var5];
                             var7 = var7.bind(var8)(var5);
                             var5 = var7.isEmpty;
                             var7 = var5.bind(var7)(var6);
                             var5 = null;
-                            if(var7) { _fun0004_ip = 164; continue _fun0004 }
- 161:
+                            if(var7) { _fun0004_ip = 163; continue _fun0004 }
+ 160:
                             var5 = var6;
- 164:
+ 163:
                             var1['cursor'] = var5;
                             var5 = var4.messages;
                             var1['messages'] = var5;
                             var5 = var4.channels;
-                            if(!(var3 == var5)) { _fun0004_ip = 194; continue _fun0004 }
- 190:
+                            if(!(var3 == var5)) { _fun0004_ip = 192; continue _fun0004 }
+ 188:
                             var5 = new Array(0);
- 194:
+ 192:
                             var1['channels'] = var5;
                             var5 = var4.threads;
-                            if(!(var3 == var5)) { _fun0004_ip = 213; continue _fun0004 }
- 209:
+                            if(!(var3 == var5)) { _fun0004_ip = 211; continue _fun0004 }
+ 207:
                             var5 = new Array(0);
- 213:
+ 211:
                             var1['threads'] = var5;
                             var5 = var4.members;
-                            if(!(var3 == var5)) { _fun0004_ip = 232; continue _fun0004 }
- 228:
+                            if(!(var3 == var5)) { _fun0004_ip = 230; continue _fun0004 }
+ 226:
                             var5 = new Array(0);
- 232:
+ 230:
                             var4 = var5.map;
                             var3 = function(arg1) {
                                 var2 = _closure1_slot1;
                                 var3 = _closure1_slot2;
-                                var1 = 6;
+                                var1 = 5;
                                 var1 = var3[var1];
                                 var3 = undefined;
                                 var2 = var2.bind(var3)(var1);
@@ -312,7 +306,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 4;
+                var1 = 3;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -328,7 +322,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = function(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 4;
+                var1 = 3;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -353,69 +347,53 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var1 = arg1;
-            var8 = var1.searchId;
-            var _closure2_slot0 = var8;
+            var10 = var1.searchContext;
             var9 = var1.query;
-            var4 = var1.searchEverywhere;
+            var5 = var1.searchEverywhere;
             var1 = undefined;
             var _closure2_slot1 = var1;
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var5 = 2;
-            var5 = var7[var5];
-            var6 = var6.bind(var1)(var5);
-            var5 = var6.setIncludeNSFW;
-            var5 = var5.bind(var6)(var9, var8);
-            if(!var4) { _fun0005_ip = 82; continue _fun0005 }
- 72:
-            var4 = true;
-            var9['search_everywhere'] = var4;
- 82:
-            var5 = _closure1_slot0;
+            var7 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var4 = 7;
-            var4 = var6[var4];
-            var5 = var5.bind(var1)(var4);
-            var4 = var5.getSearchType;
-            var7 = var4.bind(var5)(var8);
-            var5 = _closure1_slot1;
-            var4 = 8;
-            var4 = var6[var4];
-            var6 = var5.bind(var1)(var4);
-            var5 = var6.create;
-            var4 = {};
-            var4['id'] = var8;
-            var4['searchType'] = var7;
-            var4['searchQuery'] = var9;
-            var6 = var5.bind(var6)(var4);
-            var4 = _closure1_slot6;
-            if(!(var8 !== var4)) { _fun0005_ip = 184; continue _fun0005 }
- 163:
-            var4 = _closure1_slot5;
-            var5 = var4.GUILD;
-            var4 = null;
-            if(!(var7 === var5)) { _fun0005_ip = 182; continue _fun0005 }
- 179:
-            var4 = var8;
- 182:
-            _fun0005_ip = 217; continue _fun0005;
- 184:
-            var7 = _closure1_slot3;
-            var5 = var7.getChannel;
-            var7 = var5.bind(var7)(var8);
-            var5 = null;
-            var9 = var5 == var7;
-            var5 = undefined;
-            if(var9) { _fun0005_ip = 214; continue _fun0005 }
- 209:
-            var5 = var7.guild_id;
- 214:
-            var4 = var5;
- 217:
-            _closure2_slot1 = var4;
-            var4 = _closure1_slot1;
+            var4 = 1;
+            var6 = var6[var4];
+            var7 = var7.bind(var1)(var6);
+            var6 = var7.getGuildIdFromSearchContext;
+            var8 = var6.bind(var7)(var10);
+            var _closure2_slot0 = var8;
+            var6 = null;
+            if(!(var6 != var8)) { _fun0005_ip = 103; continue _fun0005 }
+ 74:
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var6 = var6[var4];
+            var7 = var7.bind(var1)(var6);
+            var6 = var7.setIncludeNSFW;
+            var6 = var6.bind(var7)(var9, var8);
+ 103:
+            if(!var5) { _fun0005_ip = 116; continue _fun0005 }
+ 106:
+            var5 = true;
+            var9['search_everywhere'] = var5;
+ 116:
+            var6 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var3 = 4;
+            var4 = var5[var4];
+            var6 = var6.bind(var1)(var4);
+            var4 = var6.getBackwardCompatibilitySearchId;
+            var8 = var4.bind(var6)(var10);
+            _closure2_slot1 = var8;
+            var4 = _closure1_slot1;
+            var3 = 6;
+            var3 = var5[var3];
+            var7 = var4.bind(var1)(var3);
+            var6 = var7.create;
+            var3 = {};
+            var3['id'] = var8;
+            var10 = var10.type;
+            var3['searchType'] = var10;
+            var3['searchQuery'] = var9;
+            var6 = var6.bind(var7)(var3);
+            var3 = 3;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);
             var4 = var5.dispatch;
@@ -433,7 +411,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = arg1;
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 4;
+                    var1 = 3;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -441,10 +419,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = {};
                     var5 = 'SEARCH_MESSAGES_SUCCESS';
                     var2['type'] = var5;
-                    var6 = _closure2_slot1;
+                    var6 = _closure2_slot0;
                     var2['guildId'] = var6;
                     var6 = {};
-                    var5 = _closure2_slot0;
+                    var5 = _closure2_slot1;
                     var6['id'] = var5;
                     var5 = var7.body;
                     var5 = var5.analytics_id;
@@ -473,7 +451,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var8 = function(arg1) {
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 6;
+                        var1 = 5;
                         var1 = var3[var1];
                         var3 = undefined;
                         var2 = var2.bind(var3)(var1);
@@ -507,7 +485,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 4;
+                var1 = 3;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -515,7 +493,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = {};
                 var5 = 'SEARCH_MESSAGES_INDEXING';
                 var2['type'] = var5;
-                var6 = _closure2_slot0;
+                var6 = _closure2_slot1;
                 var5 = new Array(1);
                 var5[0] = var6;
                 var2['ids'] = var5;
@@ -525,7 +503,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = function(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 4;
+                var1 = 3;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -533,7 +511,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = {};
                 var5 = 'SEARCH_MESSAGES_FAILURE';
                 var2['type'] = var5;
-                var6 = _closure2_slot0;
+                var6 = _closure2_slot1;
                 var5 = new Array(1);
                 var5[0] = var6;
                 var2['ids'] = var5;
@@ -550,7 +528,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = function clearSearchRecentMessages() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -565,7 +543,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = function clearAllSearchMesssages() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -580,7 +558,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = function clearSearchMessages(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -599,25 +577,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var6 = arg1;
             var3 = var6.type;
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot4;
             var2 = var2.DMS;
             if(!(var3 !== var2)) { _fun0007_ip = 44; continue _fun0007 }
  25:
             var3 = var6.type;
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot4;
             var2 = var2.GUILD;
             if(!(var3 === var2)) { _fun0007_ip = 126; continue _fun0007 }
  44:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 2;
+            var2 = 1;
             var2 = var5[var2];
             var3 = undefined;
             var4 = var4.bind(var3)(var2);
             var2 = var4.getSearchContextId;
             var4 = var2.bind(var4)(var6);
             var2 = _closure1_slot1;
-            var1 = 4;
+            var1 = 3;
             var1 = var5[var1];
             var3 = var2.bind(var3)(var1);
             var2 = var3.dispatch;
@@ -637,7 +615,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = function removeNativeSearchHistoryItem(arg1, arg2) {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 2;
+        var1 = 1;
         var3 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var3);
@@ -645,7 +623,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var3 = arg1;
         var5 = var5.bind(var6)(var3);
         var3 = _closure1_slot1;
-        var2 = 4;
+        var2 = 3;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
@@ -662,7 +640,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = function clearNativeSearchHistory(arg1) {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 2;
+        var1 = 1;
         var3 = var4[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var3);
@@ -670,7 +648,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var3 = arg1;
         var5 = var5.bind(var6)(var3);
         var3 = _closure1_slot1;
-        var2 = 4;
+        var2 = 3;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
@@ -701,7 +679,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var7 = arg1;
         var3 = _closure1_slot1;
         var8 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var8[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -711,7 +689,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2['type'] = var6;
         var2['searchContext'] = var7;
         var6 = _closure1_slot0;
-        var5 = 2;
+        var5 = 1;
         var5 = var8[var5];
         var6 = var6.bind(var1)(var5);
         var5 = var6.getBackwardCompatibilitySearchId;
@@ -724,7 +702,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = function setShowBlockedResults(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -743,7 +721,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = function setShowNoResultsAlt(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -760,7 +738,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = function updateSearchResultsQuery(arg1, arg2, arg3, arg4) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -785,7 +763,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure2_slot0 = var1;
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -793,7 +771,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 4;
+            var1 = 3;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -819,7 +797,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  9:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 4;
+            var1 = 3;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -842,7 +820,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure2_slot0 = var1;
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -850,7 +828,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 4;
+            var1 = 3;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -870,7 +848,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = function updateAutocompleteQuery(arg1, arg2, arg3) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -888,7 +866,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2['updateAutocompleteQuery'] = var4;
-    var4 = 9;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

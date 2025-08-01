@@ -1,9 +1,9 @@
 // app/components_native/common/IconLabelBlock.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -83,7 +83,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot9 = var4;
     var4 = 6;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var7 = 7;
     var7 = var6[var7];
@@ -274,12 +274,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var10 = var1.errorProps;
                 var13 = var1.errorStyles;
                 var6 = null;
-                if(!(var6 == var3)) { _fun0005_ip = 164; continue _fun0005 }
+                if(!(var6 == var3)) { _fun0005_ip = 163; continue _fun0005 }
  74:
                 var5 = _closure1_slot12;
                 var2 = _closure1_slot11;
                 var1 = {};
-                if(!(var6 == var9)) { _fun0005_ip = 139; continue _fun0005 }
+                if(!(var6 == var9)) { _fun0005_ip = 138; continue _fun0005 }
  88:
                 var17 = _closure1_slot0;
                 var18 = _closure1_slot2;
@@ -290,19 +290,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var15 = var15.context;
                 var15 = var15.theme;
                 var15 = var16.bind(var17)(var15);
-                if(!var15) { _fun0005_ip = 136; continue _fun0005 }
- 133:
+                if(!var15) { _fun0005_ip = 135; continue _fun0005 }
+ 132:
                 var11 = var14;
- 136:
+ 135:
                 var9 = var11;
- 139:
+ 138:
                 var1['source'] = var9;
                 var1['style'] = var8;
                 var8 = 'contain';
                 var1['resizeMode'] = var8;
                 var1 = var5.bind(var4)(var2, var1);
                 return var1;
- 164:
+ 163:
                 var11 = var3.error;
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot3;
@@ -326,8 +326,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5[0] = var8;
                 var8 = var6 == var11;
                 var6 = null;
-                if(var8) { _fun0005_ip = 337; continue _fun0005 }
- 259:
+                if(var8) { _fun0005_ip = 336; continue _fun0005 }
+ 258:
                 var9 = _closure1_slot12;
                 var8 = _closure1_slot0;
                 var14 = _closure1_slot2;
@@ -347,7 +347,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var10 = 'children';
                 var7[var10] = var11;
                 var6 = var9.bind(var4)(var8, var7);
- 337:
+ 336:
                 var5[1] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

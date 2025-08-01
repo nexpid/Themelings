@@ -1,9 +1,9 @@
 // app/stores/native/InAppNotificationStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -890,12 +890,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot0 = var1;
             var13 = var2.reactorUserId;
             var4 = null;
-            if(!(var4 != var10)) { _fun0011_ip = 753; continue _fun0011 }
+            if(!(var4 != var10)) { _fun0011_ip = 754; continue _fun0011 }
  41:
             var2 = var10.reactions;
-            if(!(var4 != var2)) { _fun0011_ip = 753; continue _fun0011 }
+            if(!(var4 != var2)) { _fun0011_ip = 754; continue _fun0011 }
  54:
-            if(!(var4 != var1)) { _fun0011_ip = 753; continue _fun0011 }
+            if(!(var4 != var1)) { _fun0011_ip = 754; continue _fun0011 }
  61:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -905,7 +905,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var1)(var2);
             var2 = var3.allowInAppNotifications;
             var2 = var2.bind(var3)();
-            if(!var2) { _fun0011_ip = 753; continue _fun0011 }
+            if(!var2) { _fun0011_ip = 754; continue _fun0011 }
  102:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -920,14 +920,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  151:
             var11 = var2.channelId;
             var9 = var2.guildId;
-            if(!(var4 != var11)) { _fun0011_ip = 749; continue _fun0011 }
+            if(!(var4 != var11)) { _fun0011_ip = 750; continue _fun0011 }
  168:
             var3 = _closure1_slot17;
             var2 = var3.getCurrentlySelectedChannelId;
             var2 = var2.bind(var3)();
-            if(!(var2 !== var11)) { _fun0011_ip = 749; continue _fun0011 }
+            if(!(var2 !== var11)) { _fun0011_ip = 750; continue _fun0011 }
  189:
-            if(!(var4 != var9)) { _fun0011_ip = 749; continue _fun0011 }
+            if(!(var4 != var9)) { _fun0011_ip = 750; continue _fun0011 }
  196:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -942,7 +942,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var6.bind(var1)(var2);
             var2 = var2.ReactionNotificationType;
             var2 = var2.NOTIFICATIONS_DISABLED;
-            if(!(var3 !== var2)) { _fun0011_ip = 745; continue _fun0011 }
+            if(!(var3 !== var2)) { _fun0011_ip = 746; continue _fun0011 }
  263:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -992,11 +992,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = _closure1_slot18;
             var5 = var8.getUser;
             var8 = var5.bind(var8)(var13);
-            if(!(var4 != var6)) { _fun0011_ip = 741; continue _fun0011 }
+            if(!(var4 != var6)) { _fun0011_ip = 742; continue _fun0011 }
  441:
             if(!(var4 == var8)) { _fun0011_ip = 451; continue _fun0011 }
  445:
-            if(!var3) { _fun0011_ip = 741; continue _fun0011 }
+            if(!var3) { _fun0011_ip = 742; continue _fun0011 }
  451:
             var14 = var10.reactions;
             var13 = var14.find;
@@ -1030,19 +1030,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var13.bind(var14)(var5);
             var14 = var4 != var13;
             var5 = undefined;
-            if(!var14) { _fun0011_ip = 486; continue _fun0011 }
- 483:
+            if(!var14) { _fun0011_ip = 487; continue _fun0011 }
+ 484:
             var5 = var13;
- 486:
-            if(!(var4 == var5)) { _fun0011_ip = 500; continue _fun0011 }
- 490:
-            if(var3) { _fun0011_ip = 500; continue _fun0011 }
- 493:
-            if(var2) { _fun0011_ip = 500; continue _fun0011 }
- 496:
+ 487:
+            if(!(var4 == var5)) { _fun0011_ip = 501; continue _fun0011 }
+ 491:
+            if(var3) { _fun0011_ip = 501; continue _fun0011 }
+ 494:
+            if(var2) { _fun0011_ip = 501; continue _fun0011 }
+ 497:
             var2 = false;
             return var2;
- 500:
+ 501:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 37;
@@ -1058,13 +1058,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var4.bind(var13)(var3, var2);
             var3 = var2.enableInAppNotifications;
             var2 = var2.enableNotificationsForAllReactions;
-            if(!var3) { _fun0011_ip = 571; continue _fun0011 }
- 568:
-            if(var2) { _fun0011_ip = 575; continue _fun0011 }
- 571:
+            if(!var3) { _fun0011_ip = 572; continue _fun0011 }
+ 569:
+            if(var2) { _fun0011_ip = 576; continue _fun0011 }
+ 572:
             var2 = false;
             return var2;
- 575:
+ 576:
             var3 = _closure1_slot28;
             var2 = {};
             var4 = {};
@@ -1113,16 +1113,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['notification'] = var4;
             var2 = var3.bind(var1)(var2);
             return var1;
- 741:
+ 742:
             var1 = false;
             return var1;
- 745:
+ 746:
             var1 = false;
             return var1;
- 749:
+ 750:
             var1 = false;
             return var1;
- 753:
+ 754:
             var1 = false;
             return var1;
         }

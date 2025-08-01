@@ -1,10 +1,10 @@
 // app/components_native/common/FastImage.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var5 = native2;
-        var3 = native6;
-        var6 = native7;
+        var5 = require;
+        var3 = exports;
+        var6 = dependencyMap;
         var4 = function FastImageAndroid(arg1) {
             var1 = arg1;
             var4 = _closure1_slot2;
@@ -33,7 +33,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var9.bind(var10)(var3, var1, var8);
         var1 = 0;
         var9 = var6[var1];
-        var8 = native4;
+        var8 = metroImportAll;
         var1 = undefined;
         var10 = var8.bind(var1)(var9);
         var8 = 1;
@@ -59,7 +59,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure1_slot3 = var8;
         var8 = 3;
         var9 = var6[var8];
-        var8 = native3;
+        var8 = metroImportDefault;
         var9 = var8.bind(var1)(var9);
         var8 = {'componentName': 'DCDFastImageView', 'componentMissingFallbackInstance': null, 'warnWhenMissing': false};
         var8['componentMissingFallbackInstance'] = var11;

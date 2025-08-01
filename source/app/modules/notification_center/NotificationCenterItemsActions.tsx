@@ -1,9 +1,9 @@
 // app/modules/notification_center/NotificationCenterItemsActions.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var10 = native3;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var10 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var10;
     var _closure1_slot2 = var9;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 478; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 475; continue _fun0001 }
  12:
                     var12 = arg1;
                     var5 = arg2;
@@ -26,7 +26,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = undefined;
                     var3 = _closure1_slot4;
                     var3 = var3.loading;
-                    if(var3) { _fun0001_ip = 475; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 472; continue _fun0001 }
  45:
                     var7 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -43,7 +43,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var3;
  91:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 472; continue _fun0001 }
+                    if(var7) { _fun0001_ip = 469; continue _fun0001 }
  100:
                     var7 = global;
                     var9 = var7.Math;
@@ -56,7 +56,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var10 / var7;
                     var7 = var8.bind(var9)(var7);
                     _closure4_slot0 = var7;
- 151: // try_start_0
+ 150: // try_start_0
                     var8 = _closure1_slot1;
                     var16 = _closure1_slot2;
                     var7 = 4;
@@ -126,21 +126,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = true;
                     var7['rejectWithError'] = var10;
                     var7 = var8.bind(var9)(var7);
-                    SaveGenerator(address=279);
- 277:
+                    SaveGenerator(address=278);
+ 276:
                     return var7;
- 279:
+ 278:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(var8) { _fun0001_ip = 404; continue _fun0001 }
- 285:
+                    if(var8) { _fun0001_ip = 401; continue _fun0001 }
+ 284:
                     var11 = var7;
                     var9 = var5;
                     var8 = null;
-                    if(!(var8 != var9)) { _fun0001_ip = 304; continue _fun0001 }
- 297:
+                    if(!(var8 != var9)) { _fun0001_ip = 303; continue _fun0001 }
+ 296:
                     var8 = var5;
                     var8 = var8.bind(var2)();
- 304:
+ 303:
                     var9 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var8 = var8[var6];
@@ -159,26 +159,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = var11.has_more;
                     var8['hasMore'] = var11;
                     var8 = var9.bind(var10)(var8);
-                    SaveGenerator(address=393);
- 391:
+                    SaveGenerator(address=390);
+ 388:
                     return var8;
- 393:
+ 390:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(var9) { _fun0001_ip = 401; continue _fun0001 }
- 399: // try_end0
-                    _fun0001_ip = 475; continue _fun0001;
- 401:
+                    if(var9) { _fun0001_ip = 398; continue _fun0001 }
+ 396: // try_end0
+                    _fun0001_ip = 472; continue _fun0001;
+ 398:
                     return var8;
- 404:
+ 401:
                     return var7;
- 407: // catch_target0
+ 404: // catch_target0
                     CatchBlockStart(arg_register=6);
                     var8 = var5;
                     var7 = null;
-                    if(!(var7 != var8)) { _fun0001_ip = 422; continue _fun0001 }
- 418:
+                    if(!(var7 != var8)) { _fun0001_ip = 419; continue _fun0001 }
+ 415:
                     var5 = var5.bind(var2)();
- 422:
+ 419:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var4 = var4[var6];
@@ -188,19 +188,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = 'LOAD_NOTIFICATION_CENTER_ITEMS_FAILURE';
                     var4['type'] = var7;
                     var4 = var5.bind(var6)(var4);
-                    SaveGenerator(address=463);
- 461:
+                    SaveGenerator(address=460);
+ 458:
                     return var4;
- 463:
+ 460:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(!var5) { _fun0001_ip = 475; continue _fun0001 }
- 469:
+                    if(!var5) { _fun0001_ip = 472; continue _fun0001 }
+ 466:
                     return var4;
- 472:
+ 469:
                     return var3;
- 475:
+ 472:
                     return var2;
- 478:
+ 475:
                     return var1;
                 }
             };

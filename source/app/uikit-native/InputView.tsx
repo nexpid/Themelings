@@ -1,9 +1,9 @@
 // app/uikit-native/InputView.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var12 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var7;
@@ -83,7 +83,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot9 = var2;
     var2 = 6;
     var5 = var7[var2];
-    var2 = native4;
+    var2 = metroImportAll;
     var5 = var2.bind(var1)(var5);
     var2 = 7;
     var2 = var7[var2];
@@ -944,7 +944,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  283:
                 var14[3] = var15;
                 var14[4] = var6;
-                if(!(var10 == var9)) { _fun0018_ip = 382; continue _fun0018 }
+                if(!(var10 == var9)) { _fun0018_ip = 381; continue _fun0018 }
  295:
                 var15 = _closure1_slot0;
                 var17 = _closure1_slot2;
@@ -961,19 +961,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var15 = var18[var15];
                 var15 = var17.bind(var4)(var15);
                 var15 = var15.unsafe_rawColors;
-                if(var6) { _fun0018_ip = 373; continue _fun0018 }
- 365:
+                if(var6) { _fun0018_ip = 372; continue _fun0018 }
+ 364:
                 var6 = var15.PRIMARY_200;
-                _fun0018_ip = 379; continue _fun0018;
- 373:
+                _fun0018_ip = 378; continue _fun0018;
+ 372:
                 var6 = var15.PRIMARY_500;
- 379:
+ 378:
                 var9 = var6;
- 382:
+ 381:
                 var15 = var10 != var7;
                 var6 = undefined;
-                if(!var15) { _fun0018_ip = 456; continue _fun0018 }
- 391:
+                if(!var15) { _fun0018_ip = 455; continue _fun0018 }
+ 390:
                 var17 = _closure1_slot0;
                 var20 = _closure1_slot2;
                 var15 = 15;
@@ -988,7 +988,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var15 = {};
                 var15['maxLength'] = var7;
                 var6 = var18.bind(var19)(var17, var15);
- 456:
+ 455:
                 var15 = new Array(2);
                 var15[0] = var6;
                 var15[1] = var3;
@@ -999,22 +999,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var15.join;
                 var3 = ',';
                 var6 = var6.bind(var15)(var3);
-                if(var2) { _fun0018_ip = 531; continue _fun0018 }
- 503:
+                if(var2) { _fun0018_ip = 530; continue _fun0018 }
+ 502:
                 var3 = _closure1_slot0;
                 var15 = _closure1_slot2;
                 var2 = 13;
                 var2 = var15[var2];
                 var2 = var3.bind(var4)(var2);
                 var3 = var2.TextInput;
-                _fun0018_ip = 551; continue _fun0018;
- 531:
+                _fun0018_ip = 550; continue _fun0018;
+ 530:
                 var15 = _closure1_slot1;
                 var17 = _closure1_slot2;
                 var2 = 18;
                 var2 = var17[var2];
                 var3 = var15.bind(var4)(var2);
- 551:
+ 550:
                 var2 = _closure1_slot14;
                 var1 = {};
                 var15 = {};
@@ -1038,10 +1038,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['clearButtonMode'] = var12;
                 var12 = var10 != var11;
                 var10 = undefined;
-                if(!var12) { _fun0018_ip = 664; continue _fun0018 }
- 661:
+                if(!var12) { _fun0018_ip = 663; continue _fun0018 }
+ 660:
                 var10 = var11;
- 664:
+ 663:
                 var1['placeholder'] = var10;
                 var1['placeholderTextColor'] = var9;
                 var1['editable'] = var8;

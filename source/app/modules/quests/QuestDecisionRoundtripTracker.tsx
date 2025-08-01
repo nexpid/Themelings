@@ -1,9 +1,9 @@
 // app/modules/quests/QuestDecisionRoundtripTracker.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -16,7 +16,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.random;
             var2 = var1.bind(var2)();
             var1 = 0.1;
-            if(!(!(var2 > var1))) { _fun0001_ip = 263; continue _fun0001 }
+            if(!(!(var2 > var1))) { _fun0001_ip = 261; continue _fun0001 }
  38:
             var1 = var8.apiResponseTimestamp;
             var5 = null;
@@ -64,17 +64,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = 'mobile_network_type';
             var1[var6] = var8;
             var5 = var5 != var7;
-            if(!var5) { _fun0001_ip = 247; continue _fun0001 }
- 237:
+            if(!var5) { _fun0001_ip = 245; continue _fun0001 }
+ 235:
             var6 = {};
             var6['mobile_signal_strength_level'] = var7;
             var5 = var6;
- 247:
+ 245:
             var15 = var1;
             var14 = var5;
             var5 = copyDataProperties(var15, var14);
             var1 = var3.bind(var4)(var2, var1);
- 263:
+ 261:
             var1 = undefined;
             return var1;
         }

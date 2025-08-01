@@ -1,9 +1,9 @@
 // app/modules/user_settings/native/premium_marketing/PremiumNitroHome.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var13 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
@@ -588,7 +588,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var2;
     var11 = 1;
     var5 = var7[var11];
-    var2 = native4;
+    var2 = metroImportAll;
     var2 = var2.bind(var1)(var5);
     var _closure1_slot4 = var2;
     var2 = 2;
@@ -1251,12 +1251,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = _closure1_slot13;
             var7 = var7.NONE;
             var7 = var12 !== var7;
-            if(!var7) { _fun0004_ip = 1295; continue _fun0004 }
- 1292:
+            if(!var7) { _fun0004_ip = 1294; continue _fun0004 }
+ 1291:
             var7 = !var8;
- 1295:
-            if(!var7) { _fun0004_ip = 1335; continue _fun0004 }
- 1298:
+ 1294:
+            if(!var7) { _fun0004_ip = 1334; continue _fun0004 }
+ 1297:
             var14 = _closure1_slot14;
             var12 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -1266,7 +1266,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = {};
             var8['countdownText'] = var23;
             var7 = var14.bind(var4)(var12, var8);
- 1335:
+ 1334:
             var5[2] = var7;
             var12 = _closure1_slot15;
             var8 = _closure1_slot5;
@@ -1285,8 +1285,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23 = var24.bind(var4)(var23, var14);
             var14 = new Array(2);
             var14[0] = var23;
-            if(!var20) { _fun0004_ip = 1446; continue _fun0004 }
- 1412:
+            if(!var20) { _fun0004_ip = 1445; continue _fun0004 }
+ 1411:
             var25 = _closure1_slot14;
             var24 = _closure1_slot5;
             var23 = {};
@@ -1295,7 +1295,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var26[0] = var27;
             var23['style'] = var26;
             var20 = var25.bind(var4)(var24, var23);
- 1446:
+ 1445:
             var14[1] = var20;
             var7['children'] = var14;
             var7 = var12.bind(var4)(var8, var7);
@@ -1331,8 +1331,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = new Array(3);
             var9[0] = var10;
             var10 = !var19;
-            if(!var10) { _fun0004_ip = 1701; continue _fun0004 }
- 1598:
+            if(!var10) { _fun0004_ip = 1700; continue _fun0004 }
+ 1597:
             var14 = _closure1_slot14;
             var13 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -1356,7 +1356,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20[1] = var21;
             var12['style'] = var20;
             var10 = var14.bind(var4)(var13, var12);
- 1701:
+ 1700:
             var9[1] = var10;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -1366,8 +1366,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var12.isAndroid;
             var10 = var10.bind(var12)();
             var13 = _closure1_slot14;
-            if(var10) { _fun0004_ip = 1861; continue _fun0004 }
- 1741:
+            if(var10) { _fun0004_ip = 1860; continue _fun0004 }
+ 1740:
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
             var10 = 46;
@@ -1375,10 +1375,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var12.bind(var4)(var10);
             var10 = {};
             var14 = 0.5;
-            if(!var19) { _fun0004_ip = 1786; continue _fun0004 }
- 1776:
+            if(!var19) { _fun0004_ip = 1785; continue _fun0004 }
+ 1775:
             var14 = 0.2;
- 1786:
+ 1785:
             var10['blurAmount'] = var14;
             var19 = var15.segmentedControlVirtual;
             var14 = new Array(2);
@@ -1389,14 +1389,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['style'] = var14;
             var10['blurTheme'] = var18;
             var14 = undefined;
-            if(!(var18 === var17)) { _fun0004_ip = 1848; continue _fun0004 }
- 1844:
+            if(!(var18 === var17)) { _fun0004_ip = 1847; continue _fun0004 }
+ 1843:
             var14 = _closure1_slot18;
- 1848:
+ 1847:
             var10['blurTintRgba'] = var14;
             var10 = var13.bind(var4)(var12, var10);
-            _fun0004_ip = 1925; continue _fun0004;
- 1861:
+            _fun0004_ip = 1924; continue _fun0004;
+ 1860:
             var12 = _closure1_slot5;
             var11 = {};
             var17 = var15.segmentedControlVirtual;
@@ -1409,7 +1409,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14[2] = var15;
             var11['style'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 1925:
+ 1924:
             var9[2] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

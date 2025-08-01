@@ -1,8 +1,8 @@
 // app/modules/autocompleter/native/UserSearch.worker.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native2;
-    var6 = native3;
-    var4 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = require;
+    var6 = metroImportDefault;
+    var4 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -262,7 +262,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8 = var5;
     var2 = new var8[var2](var7);
     var5 = var2 instanceof Object ? var2 : var5;
-    var2 = native5;
+    var2 = moduleObject;
     var2['exports'] = var5;
     var2 = 6;
     var2 = var4[var2];

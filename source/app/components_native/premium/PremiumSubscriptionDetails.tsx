@@ -1,9 +1,9 @@
 // app/components_native/premium/PremiumSubscriptionDetails.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var19 = native3;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var19 = metroImportDefault;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var19;
     var _closure1_slot2 = var10;
@@ -796,7 +796,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var8;
     var8 = 1;
     var11 = var10[var8];
-    var8 = native4;
+    var8 = metroImportAll;
     var8 = var8.bind(var1)(var11);
     var8 = 2;
     var8 = var10[var8];

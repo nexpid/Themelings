@@ -1,9 +1,9 @@
 // app/stores/MessageStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -1564,40 +1564,40 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var8.getOrCreate;
             var10 = var3.bind(var8)(var10);
             var3 = null;
-            if(!(var3 != var12)) { _fun0026_ip = 98; continue _fun0026 }
- 86:
+            if(!(var3 != var12)) { _fun0026_ip = 97; continue _fun0026 }
+ 85:
             var8 = var12.present;
-            if(var8) { _fun0026_ip = 235; continue _fun0026 }
- 98:
+            if(var8) { _fun0026_ip = 234; continue _fun0026 }
+ 97:
             var13 = var3 == var7;
             var8 = undefined;
-            if(var13) { _fun0026_ip = 112; continue _fun0026 }
- 107:
+            if(var13) { _fun0026_ip = 111; continue _fun0026 }
+ 106:
             var8 = var7.messageId;
- 112:
-            if(!(var3 == var8)) { _fun0026_ip = 215; continue _fun0026 }
- 116:
+ 111:
+            if(!(var3 == var8)) { _fun0026_ip = 214; continue _fun0026 }
+ 115:
             var13 = var3 == var12;
             var8 = undefined;
-            if(var13) { _fun0026_ip = 130; continue _fun0026 }
- 125:
+            if(var13) { _fun0026_ip = 129; continue _fun0026 }
+ 124:
             var8 = var12.messageId;
- 130:
-            if(!(var3 == var8)) { _fun0026_ip = 171; continue _fun0026 }
- 134:
+ 129:
+            if(!(var3 == var8)) { _fun0026_ip = 170; continue _fun0026 }
+ 133:
             var13 = var3 == var6;
-            if(!var13) { _fun0026_ip = 145; continue _fun0026 }
- 141:
+            if(!var13) { _fun0026_ip = 144; continue _fun0026 }
+ 140:
             var13 = var3 == var9;
- 145:
+ 144:
             var8 = var10;
-            if(var13) { _fun0026_ip = 246; continue _fun0026 }
- 151:
+            if(var13) { _fun0026_ip = 245; continue _fun0026 }
+ 150:
             var14 = var10.loadFromCache;
             var13 = var3 != var6;
             var8 = var14.bind(var10)(var13, var11);
-            _fun0026_ip = 246; continue _fun0026;
- 171:
+            _fun0026_ip = 245; continue _fun0026;
+ 170:
             var17 = var10.jumpToMessage;
             var22 = var12.messageId;
             var21 = var12.flash;
@@ -1606,43 +1606,43 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = var12.jumpType;
             var23 = var10;
             var8 = var23[var17](var22, var21, var20, var19, var18, var17);
-            _fun0026_ip = 246; continue _fun0026;
- 215:
+            _fun0026_ip = 245; continue _fun0026;
+ 214:
             var12 = var10.focusOnMessage;
             var7 = var7.messageId;
             var8 = var12.bind(var10)(var7);
-            _fun0026_ip = 246; continue _fun0026;
- 235:
+            _fun0026_ip = 245; continue _fun0026;
+ 234:
             var7 = var10.jumpToPresent;
             var8 = var7.bind(var10)(var11);
- 246:
+ 245:
             var7 = var3 == var4;
-            if(var7) { _fun0026_ip = 267; continue _fun0026 }
- 253:
+            if(var7) { _fun0026_ip = 266; continue _fun0026 }
+ 252:
             var4 = var3 == var6;
-            if(!var4) { _fun0026_ip = 264; continue _fun0026 }
- 260:
+            if(!var4) { _fun0026_ip = 263; continue _fun0026 }
+ 259:
             var4 = var3 == var9;
- 264:
+ 263:
             var7 = var4;
- 267:
-            if(var7) { _fun0026_ip = 284; continue _fun0026 }
- 270:
+ 266:
+            if(var7) { _fun0026_ip = 283; continue _fun0026 }
+ 269:
             var4 = var3 != var6;
-            if(!var4) { _fun0026_ip = 281; continue _fun0026 }
- 277:
+            if(!var4) { _fun0026_ip = 280; continue _fun0026 }
+ 276:
             var4 = var3 != var9;
- 281:
+ 280:
             var7 = var4;
- 284:
+ 283:
             var4 = var8;
-            if(var7) { _fun0026_ip = 310; continue _fun0026 }
- 290:
+            if(var7) { _fun0026_ip = 309; continue _fun0026 }
+ 289:
             var7 = var8.truncate;
             var6 = var3 != var6;
             var3 = var3 != var9;
             var4 = var7.bind(var8)(var6, var3);
- 310:
+ 309:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
             var2 = var2[var5];

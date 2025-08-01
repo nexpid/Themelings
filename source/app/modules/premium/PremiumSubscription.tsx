@@ -1,8 +1,8 @@
 // app/modules/premium/PremiumSubscription.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var3 = exports;
+    var8 = dependencyMap;
     var5 = function getNonePlanIdForIntervalType(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -53,11 +53,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var1 = var3.bind(var4)(var1);
             var3 = null;
-            if(!(var3 == var1)) { _fun0001_ip = 81; continue _fun0001 }
- 71:
+            if(!(var3 == var1)) { _fun0001_ip = 82; continue _fun0001 }
+ 72:
             var2 = _closure1_slot0;
             var1 = var2.NONE_MONTH;
- 81:
+ 82:
             return var1;
         }
     };

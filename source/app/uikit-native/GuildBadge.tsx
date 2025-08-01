@@ -1,9 +1,9 @@
 // app/uikit-native/GuildBadge.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
@@ -37,8 +37,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot8;
             var7 = var3.bind(var5)(var7, var4);
             var3 = var1 == var7;
-            if(var3) { _fun0001_ip = 167; continue _fun0001 }
- 107:
+            if(var3) { _fun0001_ip = 163; continue _fun0001 }
+ 103:
             var4 = _closure1_slot4;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -54,7 +54,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = 'source';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
- 167:
+ 163:
             return var1;
         }
     };
@@ -69,7 +69,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var9.bind(var10)(var3, var1, var2);
     var12 = 0;
     var9 = var7[var12];
-    var2 = native4;
+    var2 = metroImportAll;
     var1 = undefined;
     var2 = var2.bind(var1)(var9);
     var11 = 1;

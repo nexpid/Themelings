@@ -1,9 +1,9 @@
 // app/modules/main_tabs_v2/native/shared_components/GroupAvatar.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -376,7 +376,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var4 = 0;
     var8 = var6[var4];
-    var7 = native4;
+    var7 = metroImportAll;
     var1 = undefined;
     var7 = var7.bind(var1)(var8);
     var _closure1_slot3 = var7;
@@ -600,13 +600,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.bind(var4)(var3);
             var3 = var5.isThemeLight;
             var3 = var3.bind(var5)(var6);
-            if(var3) { _fun0005_ip = 130; continue _fun0005 }
- 122:
+            if(var3) { _fun0005_ip = 129; continue _fun0005 }
+ 121:
             var11 = var13.shadowContainerBackgroundDark;
-            _fun0005_ip = 136; continue _fun0005;
- 130:
+            _fun0005_ip = 135; continue _fun0005;
+ 129:
             var11 = var13.shadowContainerBackgroundLight;
- 136:
+ 135:
             var6 = _closure1_slot3;
             var5 = var6.useRef;
             var3 = false;
@@ -648,10 +648,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure2_slot4 = var8;
             var2 = 2;
             var7 = 10;
-            if(!(var8 >= var7)) { _fun0005_ip = 292; continue _fun0005 }
- 289:
+            if(!(var8 >= var7)) { _fun0005_ip = 291; continue _fun0005 }
+ 288:
             var2 = var6;
- 292:
+ 291:
             _closure2_slot5 = var2;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -732,10 +732,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = new Array(2);
             var9[0] = var12;
             var14 = null;
-            if(!(var14 == var15)) { _fun0005_ip = 396; continue _fun0005 }
- 390:
+            if(!(var14 == var15)) { _fun0005_ip = 395; continue _fun0005 }
+ 389:
             var11 = var13.shadowContainerBackground;
- 396:
+ 395:
             var9[1] = var11;
             var5['style'] = var9;
             var12 = _closure1_slot6;
@@ -744,15 +744,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = var13.gradientContainer;
             var9['style'] = var16;
             var14 = var14 == var15;
-            if(!var14) { _fun0005_ip = 457; continue _fun0005 }
- 431:
+            if(!var14) { _fun0005_ip = 456; continue _fun0005 }
+ 430:
             var17 = _closure1_slot6;
             var16 = _closure1_slot4;
             var15 = {};
             var18 = var13.gradientDimOverlay;
             var15['style'] = var18;
             var14 = var17.bind(var4)(var16, var15);
- 457:
+ 456:
             var9['children'] = var14;
             var11 = var12.bind(var4)(var11, var9);
             var9 = new Array(2);

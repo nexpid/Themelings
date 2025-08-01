@@ -1,9 +1,9 @@
 // app/modules/messages/native/renderer/MessageWithContent.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -189,7 +189,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['truncation'] = var18;
             var1['addReactionLabel'] = var13;
             var1['alwaysShowAddReaction'] = var12;
-            if(!(var8 == var7)) { _fun0001_ip = 694; continue _fun0001 }
+            if(!(var8 == var7)) { _fun0001_ip = 693; continue _fun0001 }
  642:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -203,7 +203,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8['isEditing'] = var15;
             var8['isAutomodBlockedMessage'] = var14;
             var7 = var12.bind(var13)(var8);
- 694:
+ 693:
             var1['backgroundHighlight'] = var7;
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -212,14 +212,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var7.bind(var4)(var6);
             var7 = var8.createSwipeActions;
             var6 = var9;
-            if(!var9) { _fun0001_ip = 734; continue _fun0001 }
- 731:
+            if(!var9) { _fun0001_ip = 733; continue _fun0001 }
+ 730:
             var6 = var11;
- 734:
-            if(!var9) { _fun0001_ip = 740; continue _fun0001 }
- 737:
+ 733:
+            if(!var9) { _fun0001_ip = 739; continue _fun0001 }
+ 736:
             var9 = var10;
- 740:
+ 739:
             var6 = var7.bind(var8)(var6, var9);
             var1['swipeActions'] = var6;
             var1['children'] = var5;
@@ -238,7 +238,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var8 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot3 = var4;
@@ -707,7 +707,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['addReactionLabel'] = var8;
             var1['alwaysShowAddReaction'] = var5;
             var12 = null;
-            if(!(var12 == var4)) { _fun0003_ip = 485; continue _fun0003 }
+            if(!(var12 == var4)) { _fun0003_ip = 484; continue _fun0003 }
  406:
             var8 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -727,7 +727,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var12 != var11;
             var5['isAutomodBlockedMessage'] = var11;
             var4 = var8.bind(var10)(var5);
- 485:
+ 484:
             var1['backgroundHighlight'] = var4;
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -736,15 +736,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var5.bind(var6)(var4);
             var5 = var8.createSwipeActions;
             var4 = var3.enableSwipeActions;
-            if(!var4) { _fun0003_ip = 531; continue _fun0003 }
- 525:
+            if(!var4) { _fun0003_ip = 530; continue _fun0003 }
+ 524:
             var4 = var9.canReply;
- 531:
+ 530:
             var3 = var3.enableSwipeActions;
-            if(!var3) { _fun0003_ip = 546; continue _fun0003 }
- 540:
+            if(!var3) { _fun0003_ip = 545; continue _fun0003 }
+ 539:
             var3 = var9.canEdit;
- 546:
+ 545:
             var3 = var5.bind(var8)(var4, var3);
             var1['swipeActions'] = var3;
             var5 = _closure1_slot0;

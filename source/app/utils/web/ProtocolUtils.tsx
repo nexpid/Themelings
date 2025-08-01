@@ -1,10 +1,10 @@
 // app/utils/web/ProtocolUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var10 = native3;
-        var3 = native6;
-        var5 = native7;
+        var10 = metroImportDefault;
+        var3 = exports;
+        var5 = dependencyMap;
         var7 = function launchFirefox(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -275,7 +275,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2['launch'] = var4;
         var4 = 1;
         var5 = var5[var4];
-        var4 = native2;
+        var4 = require;
         var6 = var4.bind(var1)(var5);
         var5 = var6.fileFinishedImporting;
         var4 = 'utils/web/ProtocolUtils.tsx';

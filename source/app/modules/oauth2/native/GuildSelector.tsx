@@ -1,10 +1,10 @@
 // app/modules/oauth2/native/GuildSelector.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var11 = native3;
-    var5 = native4;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var11 = metroImportDefault;
+    var5 = metroImportAll;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var5;
@@ -234,12 +234,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = null;
             var7 = var16 != var15;
             var6 = null;
-            if(!var7) { _fun0001_ip = 311; continue _fun0001 }
- 250:
+            if(!var7) { _fun0001_ip = 312; continue _fun0001 }
+ 251:
             var7 = '';
             var6 = null;
-            if(!(var7 !== var15)) { _fun0001_ip = 311; continue _fun0001 }
- 260:
+            if(!(var7 !== var15)) { _fun0001_ip = 312; continue _fun0001 }
+ 261:
             var12 = _closure1_slot7;
             var10 = _closure1_slot0;
             var18 = _closure1_slot3;
@@ -252,7 +252,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['style'] = var18;
             var7['children'] = var15;
             var6 = var12.bind(var4)(var10, var7);
- 311:
+ 312:
             var5[1] = var6;
             var12 = _closure1_slot7;
             var7 = _closure1_slot0;
@@ -264,12 +264,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = {};
             var18 = var16 == var17;
             var10 = undefined;
-            if(var18) { _fun0001_ip = 361; continue _fun0001 }
- 356:
+            if(var18) { _fun0001_ip = 362; continue _fun0001 }
+ 357:
             var10 = var17.name;
- 361:
-            if(!(var16 == var10)) { _fun0001_ip = 417; continue _fun0001 }
- 365:
+ 362:
+            if(!(var16 == var10)) { _fun0001_ip = 418; continue _fun0001 }
+ 366:
             var19 = _closure1_slot0;
             var16 = _closure1_slot3;
             var17 = var16[var13];
@@ -281,7 +281,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = var16.t;
             var16 = var16.oM4E1N;
             var10 = var17.bind(var18)(var16);
- 417:
+ 418:
             var6['label'] = var10;
             var6['disabled'] = var8;
             var8 = _closure1_slot7;

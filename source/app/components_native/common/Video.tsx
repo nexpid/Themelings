@@ -1,9 +1,9 @@
 // app/components_native/common/Video.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var12 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var8;
     var1 = function _isNativeReflectConstruct() {
@@ -80,7 +80,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot7 = var2;
     var2 = 6;
     var5 = var8[var2];
-    var2 = native4;
+    var2 = metroImportAll;
     var5 = var2.bind(var1)(var5);
     var _closure1_slot8 = var5;
     var2 = 7;
@@ -235,14 +235,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['importantForAccessibility'] = var19;
             var1['poster'] = var18;
             var1['muted'] = var17;
-            if(var14) { _fun0002_ip = 300; continue _fun0002 }
- 291:
-            if(!var15) { _fun0002_ip = 297; continue _fun0002 }
- 294:
+            if(var14) { _fun0002_ip = 302; continue _fun0002 }
+ 293:
+            if(!var15) { _fun0002_ip = 299; continue _fun0002 }
+ 296:
             var15 = !var16;
- 297:
+ 299:
             var14 = var15;
- 300:
+ 302:
             var1['paused'] = var14;
             var1['posterResizeMode'] = var13;
             var1['resizeMode'] = var12;
@@ -260,22 +260,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = null;
             var8 = var5 == var6;
             var7 = undefined;
-            if(var8) { _fun0002_ip = 394; continue _fun0002 }
- 375:
+            if(var8) { _fun0002_ip = 396; continue _fun0002 }
+ 377:
             var8 = var6.props;
             var9 = var5 == var8;
             var7 = undefined;
-            if(var9) { _fun0002_ip = 394; continue _fun0002 }
- 389:
+            if(var9) { _fun0002_ip = 396; continue _fun0002 }
+ 391:
             var7 = var8.ref;
- 394:
+ 396:
             var1['ref'] = var7;
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0002_ip = 412; continue _fun0002 }
- 407:
+            if(var7) { _fun0002_ip = 414; continue _fun0002 }
+ 409:
             var5 = var6.props;
- 412:
+ 414:
             var27 = var1;
             var26 = var5;
             var5 = copyDataProperties(var27, var26);

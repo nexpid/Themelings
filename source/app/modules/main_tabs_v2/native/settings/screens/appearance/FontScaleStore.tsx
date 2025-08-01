@@ -1,10 +1,10 @@
 // app/modules/main_tabs_v2/native/settings/screens/appearance/FontScaleStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var6 = native2;
-        var3 = native6;
-        var7 = native7;
+        var6 = require;
+        var3 = exports;
+        var7 = dependencyMap;
         var1 = global;
         var8 = var1.Object;
         var5 = var8.defineProperty;
@@ -26,7 +26,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  84:
         var4 = 1;
         var8 = var7[var4];
-        var4 = native3;
+        var4 = metroImportDefault;
         var8 = var4.bind(var1)(var8);
         var4 = var8.getCustomFontScale;
         var5 = var4.bind(var8)();

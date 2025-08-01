@@ -1,12 +1,12 @@
 // app/modules/user_profile/native/UserProfileContent.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var8;
-    var _closure1_slot2 = var6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var9 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var7;
     var1 = function CustomStatusBubble(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -342,7 +342,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var _closure1_slot18 = var1;
-    var1 = function PrimaryInfo(arg1) {
+    var2 = function PrimaryInfo(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var1 = arg1;
@@ -515,7 +515,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot19 = var2;
     var1 = function EditSection(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -724,68 +724,68 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var _closure1_slot20 = var1;
     var1 = global;
-    var9 = var1.Object;
-    var7 = var9.defineProperty;
-    var4 = {};
+    var10 = var1.Object;
+    var8 = var10.defineProperty;
+    var5 = {};
     var1 = true;
-    var4['value'] = var1;
+    var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = var8.bind(var10)(var3, var1, var5);
     var1 = 0;
-    var7 = var6[var1];
-    var4 = native4;
+    var8 = var7[var1];
+    var5 = metroImportAll;
     var1 = undefined;
-    var7 = var4.bind(var1)(var7);
-    var _closure1_slot3 = var7;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.View;
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
-    var _closure1_slot8 = var4;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.PROFILE_CONTENT_BOTTOM_PADDING;
-    var _closure1_slot9 = var8;
-    var4 = var4.PROFILE_CONTENT_WITHOUT_STATUS_TOP_PADDING;
-    var _closure1_slot10 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.RelationshipTypes;
-    var _closure1_slot11 = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.ACTION_SHEET_MAX_WIDTH;
-    var _closure1_slot12 = var4;
-    var4 = 9;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot13 = var8;
-    var8 = var4.jsxs;
-    var _closure1_slot14 = var8;
-    var4 = var4.Fragment;
-    var _closure1_slot15 = var4;
-    var4 = var7.memo;
-    var2 = function UserProfileContent(arg1) {
+    var8 = var5.bind(var1)(var8);
+    var _closure1_slot3 = var8;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.View;
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var9.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var9.bind(var1)(var5);
+    var _closure1_slot6 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var5 = var9.bind(var1)(var5);
+    var _closure1_slot7 = var5;
+    var5 = 5;
+    var5 = var7[var5];
+    var5 = var9.bind(var1)(var5);
+    var _closure1_slot8 = var5;
+    var5 = 6;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var9 = var5.PROFILE_CONTENT_BOTTOM_PADDING;
+    var _closure1_slot9 = var9;
+    var5 = var5.PROFILE_CONTENT_WITHOUT_STATUS_TOP_PADDING;
+    var _closure1_slot10 = var5;
+    var5 = 7;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.RelationshipTypes;
+    var _closure1_slot11 = var5;
+    var5 = 8;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.ACTION_SHEET_MAX_WIDTH;
+    var _closure1_slot12 = var5;
+    var5 = 9;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var9 = var5.jsx;
+    var _closure1_slot13 = var9;
+    var9 = var5.jsxs;
+    var _closure1_slot14 = var9;
+    var5 = var5.Fragment;
+    var _closure1_slot15 = var5;
+    var5 = var8.memo;
+    var4 = function UserProfileContent(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var1 = arg1;
@@ -1036,10 +1036,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot3;
             var2 = var3.useRef;
             var29 = var2.bind(var3)(var1);
-            if(!(var1 != var18)) { _fun0005_ip = 2817; continue _fun0005 }
- 871:
-            if(!(var1 != var17)) { _fun0005_ip = 2817; continue _fun0005 }
- 878:
+            if(!(var1 != var18)) { _fun0005_ip = 2815; continue _fun0005 }
+ 869:
+            if(!(var1 != var17)) { _fun0005_ip = 2815; continue _fun0005 }
+ 876:
             var33 = {};
             var33['backgroundColor'] = var31;
             _closure2_slot6 = var33;
@@ -1057,36 +1057,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6['displayProfile'] = var16;
             var6['bannerHeight'] = var10;
             var10 = undefined;
-            if(!var7) { _fun0005_ip = 946; continue _fun0005 }
- 943:
+            if(!var7) { _fun0005_ip = 944; continue _fun0005 }
+ 941:
             var10 = var21;
- 946:
+ 944:
             var6['pendingBanner'] = var10;
             var10 = undefined;
-            if(!var7) { _fun0005_ip = 959; continue _fun0005 }
- 956:
+            if(!var7) { _fun0005_ip = 957; continue _fun0005 }
+ 954:
             var10 = var51;
- 959:
+ 957:
             var6['pendingAvatarSrc'] = var10;
             var10 = undefined;
-            if(!var7) { _fun0005_ip = 981; continue _fun0005 }
- 969:
+            if(!var7) { _fun0005_ip = 979; continue _fun0005 }
+ 967:
             var21 = var1 != var20;
             var10 = undefined;
-            if(!var21) { _fun0005_ip = 981; continue _fun0005 }
- 978:
+            if(!var21) { _fun0005_ip = 979; continue _fun0005 }
+ 976:
             var10 = var20;
- 981:
+ 979:
             var6['pendingAccentColor'] = var10;
             var10 = undefined;
-            if(!var7) { _fun0005_ip = 1003; continue _fun0005 }
- 991:
+            if(!var7) { _fun0005_ip = 1001; continue _fun0005 }
+ 989:
             var20 = var1 != var13;
             var10 = undefined;
-            if(!var20) { _fun0005_ip = 1003; continue _fun0005 }
- 1000:
+            if(!var20) { _fun0005_ip = 1001; continue _fun0005 }
+ 998:
             var10 = var13;
- 1003:
+ 1001:
             var6['pendingThemeColors'] = var10;
             var6['disableInteraction'] = var7;
             var8 = var9.bind(var5)(var8, var6);
@@ -1106,16 +1106,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13['guildId'] = var34;
             var13['disableStatus'] = var49;
             var49 = undefined;
-            if(!var7) { _fun0005_ip = 1084; continue _fun0005 }
- 1081:
+            if(!var7) { _fun0005_ip = 1082; continue _fun0005 }
+ 1079:
             var49 = var51;
- 1084:
+ 1082:
             var13['pendingAvatarSrc'] = var49;
             var49 = undefined;
-            if(!var7) { _fun0005_ip = 1097; continue _fun0005 }
- 1094:
+            if(!var7) { _fun0005_ip = 1095; continue _fun0005 }
+ 1092:
             var49 = var50;
- 1097:
+ 1095:
             var13['pendingAvatarDecoration'] = var49;
             var13['backgroundColor'] = var22;
             var22 = {};
@@ -1138,17 +1138,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23 = new Array(2);
             var23[0] = var26;
             var26 = {};
-            if(!var25) { _fun0005_ip = 1196; continue _fun0005 }
- 1191:
+            if(!var25) { _fun0005_ip = 1194; continue _fun0005 }
+ 1189:
             var27 = 0;
-            if(!var7) { _fun0005_ip = 1209; continue _fun0005 }
- 1196:
+            if(!var7) { _fun0005_ip = 1207; continue _fun0005 }
+ 1194:
             var48 = var1 != var42;
             var27 = 0;
-            if(var48) { _fun0005_ip = 1209; continue _fun0005 }
- 1205:
+            if(var48) { _fun0005_ip = 1207; continue _fun0005 }
+ 1203:
             var27 = _closure1_slot10;
- 1209:
+ 1207:
             var26['paddingTop'] = var27;
             var27 = _closure1_slot9;
             var27 = var47 + var27;
@@ -1163,10 +1163,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23['guildId'] = var34;
             var47 = var1 == var15;
             var42 = undefined;
-            if(var47) { _fun0005_ip = 1273; continue _fun0005 }
- 1268:
+            if(var47) { _fun0005_ip = 1271; continue _fun0005 }
+ 1266:
             var42 = var15.id;
- 1273:
+ 1271:
             var23['channelId'] = var42;
             var23['hasCustomProfileTheme'] = var37;
             var23['showUserProfileActionSheet'] = var32;
@@ -1175,16 +1175,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var26 = var27.bind(var5)(var26, var23);
             var23 = new Array(4);
             var23[0] = var26;
-            if(!var24) { _fun0005_ip = 1317; continue _fun0005 }
- 1314:
+            if(!var24) { _fun0005_ip = 1315; continue _fun0005 }
+ 1312:
             var24 = var25;
- 1317:
-            if(!var24) { _fun0005_ip = 1323; continue _fun0005 }
- 1320:
+ 1315:
+            if(!var24) { _fun0005_ip = 1321; continue _fun0005 }
+ 1318:
             var24 = !var7;
- 1323:
-            if(!var24) { _fun0005_ip = 1368; continue _fun0005 }
- 1326:
+ 1321:
+            if(!var24) { _fun0005_ip = 1366; continue _fun0005 }
+ 1324:
             var27 = _closure1_slot13;
             var26 = _closure1_slot1;
             var42 = _closure1_slot2;
@@ -1195,7 +1195,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var25['targetRef'] = var29;
             var25['scrollPosition'] = var28;
             var24 = var27.bind(var5)(var26, var25);
- 1368:
+ 1366:
             var23[1] = var24;
             var26 = _closure1_slot14;
             var25 = _closure1_slot4;
@@ -1208,29 +1208,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var27['user'] = var18;
             var47 = var1 == var15;
             var42 = undefined;
-            if(var47) { _fun0005_ip = 1420; continue _fun0005 }
- 1415:
+            if(var47) { _fun0005_ip = 1418; continue _fun0005 }
+ 1413:
             var42 = var15.id;
- 1420:
+ 1418:
             var27['channelId'] = var42;
             var27['displayProfile'] = var16;
             var42 = undefined;
-            if(!var7) { _fun0005_ip = 1437; continue _fun0005 }
- 1434:
+            if(!var7) { _fun0005_ip = 1435; continue _fun0005 }
+ 1432:
             var42 = var46;
- 1437:
+ 1435:
             var27['displayNameOverride'] = var42;
             var42 = undefined;
-            if(!var7) { _fun0005_ip = 1450; continue _fun0005 }
- 1447:
+            if(!var7) { _fun0005_ip = 1448; continue _fun0005 }
+ 1445:
             var42 = var45;
- 1450:
+ 1448:
             var27['pronounsOverride'] = var42;
             var42 = undefined;
-            if(!var7) { _fun0005_ip = 1463; continue _fun0005 }
- 1460:
+            if(!var7) { _fun0005_ip = 1461; continue _fun0005 }
+ 1458:
             var42 = var44;
- 1463:
+ 1461:
             var27['badgesOverride'] = var42;
             var27['badgeContainerBackground'] = var31;
             var27['isPreviewingChanges'] = var7;
@@ -1240,8 +1240,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var29 = var18.id;
             var28 = var17.id;
             var28 = var29 !== var28;
-            if(!var28) { _fun0005_ip = 1549; continue _fun0005 }
- 1509:
+            if(!var28) { _fun0005_ip = 1547; continue _fun0005 }
+ 1507:
             var42 = _closure1_slot13;
             var31 = _closure1_slot1;
             var44 = _closure1_slot2;
@@ -1252,13 +1252,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var29['user'] = var18;
             var29['guildId'] = var34;
             var28 = var42.bind(var5)(var31, var29);
- 1549:
+ 1547:
             var27[1] = var28;
             var28 = _closure1_slot11;
             var28 = var28.PENDING_INCOMING;
             var28 = var19 === var28;
-            if(!var28) { _fun0005_ip = 1641; continue _fun0005 }
- 1570:
+            if(!var28) { _fun0005_ip = 1639; continue _fun0005 }
+ 1568:
             var42 = _closure1_slot13;
             var31 = _closure1_slot1;
             var44 = _closure1_slot2;
@@ -1269,17 +1269,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var29['user'] = var18;
             var45 = var1 == var15;
             var44 = undefined;
-            if(var45) { _fun0005_ip = 1614; continue _fun0005 }
- 1609:
+            if(var45) { _fun0005_ip = 1612; continue _fun0005 }
+ 1607:
             var44 = var15.id;
- 1614:
+ 1612:
             var29['channelId'] = var44;
             var29['guildId'] = var34;
             var29['applicationId'] = var43;
             var29['style'] = var33;
             var29['showUserProfile'] = var32;
             var28 = var42.bind(var5)(var31, var29);
- 1641:
+ 1639:
             var27[2] = var28;
             var29 = var30.map;
             var28 = function(arg1) {
@@ -1337,24 +1337,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var29 = var18.id;
             var28 = var17.id;
             var28 = var29 === var28;
-            if(!var28) { _fun0005_ip = 1730; continue _fun0005 }
- 1727:
+            if(!var28) { _fun0005_ip = 1728; continue _fun0005 }
+ 1725:
             var28 = !var7;
- 1730:
-            if(!var28) { _fun0005_ip = 1753; continue _fun0005 }
- 1733:
+ 1728:
+            if(!var28) { _fun0005_ip = 1751; continue _fun0005 }
+ 1731:
             var31 = _closure1_slot13;
             var30 = _closure1_slot20;
             var29 = {};
             var29['guildId'] = var34;
             var28 = var31.bind(var5)(var30, var29);
- 1753:
+ 1751:
             var27[5] = var28;
             var29 = var18.id;
             var28 = var17.id;
             var28 = var29 !== var28;
-            if(!var28) { _fun0005_ip = 1865; continue _fun0005 }
- 1774:
+            if(!var28) { _fun0005_ip = 1863; continue _fun0005 }
+ 1772:
             var31 = _closure1_slot13;
             var30 = _closure1_slot1;
             var42 = _closure1_slot2;
@@ -1363,16 +1363,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var30 = var30.bind(var5)(var29);
             var29 = {};
             var29['user'] = var18;
-            if(var41) { _fun0005_ip = 1821; continue _fun0005 }
- 1807:
+            if(var41) { _fun0005_ip = 1819; continue _fun0005 }
+ 1805:
             var42 = _closure1_slot11;
             var42 = var42.BLOCKED;
             var41 = var19 === var42;
- 1821:
-            if(var41) { _fun0005_ip = 1830; continue _fun0005 }
- 1824:
+ 1819:
+            if(var41) { _fun0005_ip = 1828; continue _fun0005 }
+ 1822:
             var41 = var18.isProvisional;
- 1830:
+ 1828:
             var29['disableCalls'] = var41;
             var29['disableMessage'] = var40;
             var29['location'] = var39;
@@ -1380,7 +1380,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var39 = var11.primaryButtons;
             var29['style'] = var39;
             var28 = var31.bind(var5)(var30, var29);
- 1865:
+ 1863:
             var27[6] = var28;
             var24['children'] = var27;
             var24 = var26.bind(var5)(var25, var24);
@@ -1391,8 +1391,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var27 = var11.cards;
             var24['style'] = var27;
             var28 = var18.isProvisional;
-            if(!var28) { _fun0005_ip = 1971; continue _fun0005 }
- 1912:
+            if(!var28) { _fun0005_ip = 1969; continue _fun0005 }
+ 1910:
             var30 = _closure1_slot13;
             var29 = _closure1_slot0;
             var31 = _closure1_slot2;
@@ -1407,18 +1407,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var31 = 16;
             var27['iconSize'] = var31;
             var28 = var30.bind(var5)(var29, var27);
- 1971:
+ 1969:
             var27 = new Array(10);
             var27[0] = var28;
             var29 = var18.id;
             var28 = var17.id;
             var28 = var29 === var28;
-            if(!var28) { _fun0005_ip = 1999; continue _fun0005 }
- 1996:
+            if(!var28) { _fun0005_ip = 1997; continue _fun0005 }
+ 1994:
             var28 = !var7;
- 1999:
-            if(!var28) { _fun0005_ip = 2063; continue _fun0005 }
- 2002:
+ 1997:
+            if(!var28) { _fun0005_ip = 2061; continue _fun0005 }
+ 2000:
             var31 = _closure1_slot13;
             var30 = _closure1_slot1;
             var39 = _closure1_slot2;
@@ -1472,7 +1472,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var29['navigateToShop'] = var38;
             var29['hasCustomProfileTheme'] = var37;
             var28 = var31.bind(var5)(var30, var29);
- 2063:
+ 2061:
             var27[1] = var28;
             var30 = _closure1_slot13;
             var29 = _closure1_slot1;
@@ -1490,8 +1490,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var29 = var36.length;
             var28 = 0;
             var28 = var29 > var28;
-            if(!var28) { _fun0005_ip = 2184; continue _fun0005 }
- 2134:
+            if(!var28) { _fun0005_ip = 2182; continue _fun0005 }
+ 2132:
             var31 = _closure1_slot13;
             var30 = _closure1_slot1;
             var37 = _closure1_slot2;
@@ -1504,7 +1504,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var29['applicationIds'] = var36;
             var29['style'] = var33;
             var28 = var31.bind(var5)(var30, var29);
- 2184:
+ 2182:
             var27[3] = var28;
             var30 = _closure1_slot13;
             var29 = _closure1_slot1;
@@ -1517,17 +1517,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var28['userId'] = var31;
             var28['displayProfile'] = var16;
             var31 = undefined;
-            if(!var7) { _fun0005_ip = 2236; continue _fun0005 }
- 2233:
+            if(!var7) { _fun0005_ip = 2234; continue _fun0005 }
+ 2231:
             var31 = var35;
- 2236:
+ 2234:
             var28['pendingBio'] = var31;
             var28['style'] = var33;
             var28 = var30.bind(var5)(var29, var28);
             var27[4] = var28;
             var28 = var1 != var34;
-            if(!var28) { _fun0005_ip = 2311; continue _fun0005 }
- 2262:
+            if(!var28) { _fun0005_ip = 2309; continue _fun0005 }
+ 2260:
             var31 = _closure1_slot13;
             var30 = _closure1_slot1;
             var35 = _closure1_slot2;
@@ -1540,17 +1540,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var29['guildId'] = var34;
             var29['style'] = var33;
             var28 = var31.bind(var5)(var30, var29);
- 2311:
+ 2309:
             var27[5] = var28;
             var29 = var1 == var15;
             var28 = undefined;
-            if(var29) { _fun0005_ip = 2329; continue _fun0005 }
- 2324:
+            if(var29) { _fun0005_ip = 2327; continue _fun0005 }
+ 2322:
             var28 = var15.guild_id;
- 2329:
+ 2327:
             var28 = var1 != var28;
-            if(!var28) { _fun0005_ip = 2404; continue _fun0005 }
- 2336:
+            if(!var28) { _fun0005_ip = 2402; continue _fun0005 }
+ 2334:
             var31 = _closure1_slot13;
             var30 = _closure1_slot1;
             var34 = _closure1_slot2;
@@ -1567,7 +1567,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var29['showUserProfile'] = var32;
             var29['style'] = var33;
             var28 = var31.bind(var5)(var30, var29);
- 2404:
+ 2402:
             var27[6] = var28;
             var35 = _closure1_slot13;
             var29 = _closure1_slot0;
@@ -1593,8 +1593,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var28 = var30.bind(var5)(var29, var28);
             var27[8] = var28;
             var28 = !var7;
-            if(!var28) { _fun0005_ip = 2563; continue _fun0005 }
- 2513:
+            if(!var28) { _fun0005_ip = 2561; continue _fun0005 }
+ 2511:
             var31 = _closure1_slot13;
             var30 = _closure1_slot1;
             var34 = _closure1_slot2;
@@ -1607,7 +1607,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var29['style'] = var33;
             var29['onBack'] = var32;
             var28 = var31.bind(var5)(var30, var29);
- 2563:
+ 2561:
             var27[9] = var28;
             var24['children'] = var27;
             var24 = var26.bind(var5)(var25, var24);
@@ -1619,8 +1619,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var10.bind(var5)(var9, var8);
             var6[1] = var8;
             var7 = !var7;
-            if(!var7) { _fun0005_ip = 2801; continue _fun0005 }
- 2618:
+            if(!var7) { _fun0005_ip = 2799; continue _fun0005 }
+ 2616:
             var10 = _closure1_slot14;
             var9 = _closure1_slot4;
             var8 = {};
@@ -1629,35 +1629,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var20 = var18.id;
             var11 = var17.id;
             var13 = null;
-            if(!(var20 !== var11)) { _fun0005_ip = 2729; continue _fun0005 }
- 2654:
+            if(!(var20 !== var11)) { _fun0005_ip = 2727; continue _fun0005 }
+ 2652:
             var11 = var18.bot;
             var13 = null;
-            if(var11) { _fun0005_ip = 2729; continue _fun0005 }
- 2665:
+            if(var11) { _fun0005_ip = 2727; continue _fun0005 }
+ 2663:
             var11 = _closure1_slot11;
             var11 = var11.FRIEND;
-            if(!(var19 !== var11)) { _fun0005_ip = 2706; continue _fun0005 }
- 2679:
+            if(!(var19 !== var11)) { _fun0005_ip = 2704; continue _fun0005 }
+ 2677:
             var11 = null;
-            if(!var14) { _fun0005_ip = 2704; continue _fun0005 }
- 2684:
+            if(!var14) { _fun0005_ip = 2702; continue _fun0005 }
+ 2682:
             var20 = _closure1_slot13;
             var19 = _closure1_slot18;
             var14 = {};
             var14['user'] = var18;
             var11 = var20.bind(var5)(var19, var14);
+ 2702:
+            _fun0005_ip = 2724; continue _fun0005;
  2704:
-            _fun0005_ip = 2726; continue _fun0005;
- 2706:
             var20 = _closure1_slot13;
             var19 = _closure1_slot17;
             var14 = {};
             var14['user'] = var18;
             var11 = var20.bind(var5)(var19, var14);
- 2726:
+ 2724:
             var13 = var11;
- 2729:
+ 2727:
             var11 = new Array(2);
             var11[0] = var13;
             var14 = _closure1_slot13;
@@ -1675,22 +1675,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11[1] = var12;
             var8['children'] = var11;
             var7 = var10.bind(var5)(var9, var8);
- 2801:
+ 2799:
             var6[2] = var7;
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 2817:
+ 2815:
             return var1;
         }
     };
-    var2 = var4.bind(var7)(var2);
-    var4 = 67;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/user_profile/native/UserProfileContent.tsx';
-    var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var4 = var5.bind(var8)(var4);
+    var5 = 67;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/user_profile/native/UserProfileContent.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['PrimaryInfo'] = var2;
     return var1;
 })();

@@ -1,9 +1,9 @@
 // app/modules/forums/native/posts/reactions/ForumPostReactionButton.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var14 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var14 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var14;
     var _closure1_slot2 = var8;
@@ -253,7 +253,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var9.bind(var10)(var3, var1, var6);
     var1 = 0;
     var9 = var8[var1];
-    var6 = native4;
+    var6 = metroImportAll;
     var1 = undefined;
     var6 = var6.bind(var1)(var9);
     var _closure1_slot3 = var6;

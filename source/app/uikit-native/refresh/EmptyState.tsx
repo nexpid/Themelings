@@ -1,9 +1,9 @@
 // app/uikit-native/refresh/EmptyState.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var13 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var5.bind(var8)(var3, var1, var4);
     var1 = 0;
     var5 = var7[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var5);
     var4 = 1;
@@ -239,10 +239,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var7.bind(var4)(var3);
             var3 = var7.isThemeLight;
             var3 = var3.bind(var7)(var8);
-            if(!var3) { _fun0002_ip = 111; continue _fun0002 }
- 108:
+            if(!var3) { _fun0002_ip = 110; continue _fun0002 }
+ 107:
             var6 = var2;
- 111:
+ 110:
             var3 = _closure1_slot5;
             var2 = _closure1_slot8;
             var1 = {};

@@ -1,8 +1,8 @@
 // app/modules/main_tabs_v2/native/settings/definitions/LanguageSetting.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -15,7 +15,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var4.bind(var8)(var3, var1, var2);
     var1 = 0;
     var4 = var6[var1];
-    var2 = native3;
+    var2 = metroImportDefault;
     var1 = undefined;
     var2 = var2.bind(var1)(var4);
     var _closure1_slot2 = var2;
@@ -90,8 +90,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.bind(var4)(var1);
             var1 = null;
             var4 = var1 != var2;
-            if(!var4) { _fun0001_ip = 147; continue _fun0001 }
- 109:
+            if(!var4) { _fun0001_ip = 148; continue _fun0001 }
+ 110:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var6];
@@ -100,7 +100,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.string;
             var2 = var2.localizedName;
             var1 = var3.bind(var4)(var2);
- 147:
+ 148:
             return var1;
         }
     };

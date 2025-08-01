@@ -1,9 +1,9 @@
 // app/modules/application_commands/ApplicationCommandStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
@@ -605,12 +605,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = null;
                 var5 = var1 == var4;
                 var2 = undefined;
-                if(var5) { _fun0008_ip = 69; continue _fun0008 }
+                if(var5) { _fun0008_ip = 70; continue _fun0008 }
  40:
                 var5 = var4.options;
                 var4 = var1 == var5;
                 var2 = undefined;
-                if(var4) { _fun0008_ip = 69; continue _fun0008 }
+                if(var4) { _fun0008_ip = 70; continue _fun0008 }
  54:
                 var4 = var5.find;
                 var3 = function(arg1) {
@@ -622,13 +622,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var2 = var4.bind(var5)(var3);
- 69:
+ 70:
                 var3 = var1 != var2;
                 var1 = null;
-                if(!var3) { _fun0008_ip = 81; continue _fun0008 }
- 78:
+                if(!var3) { _fun0008_ip = 82; continue _fun0008 }
+ 79:
                 var1 = var2;
- 81:
+ 82:
                 return var1;
             }
         };
@@ -717,12 +717,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = null;
                 var6 = var3 == var4;
                 var1 = undefined;
-                if(var6) { _fun0009_ip = 72; continue _fun0009 }
+                if(var6) { _fun0009_ip = 73; continue _fun0009 }
  43:
                 var4 = var4.options;
                 var3 = var3 == var4;
                 var1 = undefined;
-                if(var3) { _fun0009_ip = 72; continue _fun0009 }
+                if(var3) { _fun0009_ip = 73; continue _fun0009 }
  57:
                 var3 = var4.find;
                 var2 = function(arg1) {
@@ -733,7 +733,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var1 = var3.bind(var4)(var2);
- 72:
+ 73:
                 return var1;
             }
         };

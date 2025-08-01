@@ -1,10 +1,10 @@
 // app/modules/spotify/SpotifyConstants.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var9 = native2;
-        var3 = native6;
-        var10 = native7;
+        var9 = require;
+        var3 = exports;
+        var10 = dependencyMap;
         var12 = global;
         var6 = var12.Object;
         var5 = var6.defineProperty;
@@ -20,7 +20,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var4 = var4.PlatformTypes;
         var5 = 1;
         var6 = var10[var5];
-        var5 = native3;
+        var5 = metroImportDefault;
         var6 = var5.bind(var1)(var6);
         var5 = var6.get;
         var4 = var4.SPOTIFY;

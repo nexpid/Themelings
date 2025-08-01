@@ -1,9 +1,9 @@
 // app/modules/guild_sidebar/native/ConnectedUserLimit.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
-    var1 = native3;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
+    var1 = metroImportDefault;
     var _closure1_slot0 = var1;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -16,7 +16,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var4 = 1;
@@ -49,34 +49,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = 0;
             var5 = var5 > var8;
             var10 = -1;
-            if(!var5) { _fun0001_ip = 83; continue _fun0001 }
- 77:
+            if(!var5) { _fun0001_ip = 82; continue _fun0001 }
+ 76:
             var10 = var3.userLimit;
- 83:
-            if(!var2) { _fun0001_ip = 90; continue _fun0001 }
- 86:
+ 82:
+            if(!var2) { _fun0001_ip = 89; continue _fun0001 }
+ 85:
             var2 = var11 > var8;
- 90:
+ 89:
             var6 = var10;
             var5 = false;
-            if(!var2) { _fun0001_ip = 141; continue _fun0001 }
- 98:
+            if(!var2) { _fun0001_ip = 140; continue _fun0001 }
+ 97:
             var2 = var10 < var8;
-            if(var2) { _fun0001_ip = 109; continue _fun0001 }
- 105:
+            if(var2) { _fun0001_ip = 108; continue _fun0001 }
+ 104:
             var2 = var11 < var10;
- 109:
+ 108:
             var3 = var11;
-            if(!(var10 > var8)) { _fun0001_ip = 135; continue _fun0001 }
- 116:
+            if(!(var10 > var8)) { _fun0001_ip = 134; continue _fun0001 }
+ 115:
             var8 = global;
             var9 = var8.Math;
             var8 = var9.min;
             var3 = var8.bind(var9)(var10, var11);
- 135:
+ 134:
             var6 = var3;
             var5 = var2;
- 141:
+ 140:
             var3 = _closure1_slot2;
             var2 = _closure1_slot0;
             var8 = _closure1_slot1;

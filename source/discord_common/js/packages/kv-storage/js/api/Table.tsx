@@ -1,9 +1,9 @@
 // discord_common/js/packages/kv-storage/js/api/Table.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var4 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var4 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var1 = function prefixCell(arg1, arg2) {
@@ -156,7 +156,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     StartGenerator();
                     var5 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 69; continue _fun0004 }
+                    if(var2) { _fun0004_ip = 68; continue _fun0004 }
  10:
                     var4 = var5.getMany;
                     var3 = {};
@@ -164,25 +164,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3['limit'] = var2;
                     var2 = arg1;
                     var2 = var4.bind(var5)(var2, var3);
-                    SaveGenerator(address=39);
- 37:
+                    SaveGenerator(address=38);
+ 36:
                     return var2;
- 39:
+ 38:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 66; continue _fun0004 }
- 45:
+                    if(var3) { _fun0004_ip = 65; continue _fun0004 }
+ 44:
                     var3 = 0;
                     var4 = var2[var3];
                     var3 = null;
                     var5 = var3 != var4;
-                    if(!var5) { _fun0004_ip = 63; continue _fun0004 }
- 60:
+                    if(!var5) { _fun0004_ip = 62; continue _fun0004 }
+ 59:
                     var3 = var4;
- 63:
+ 62:
                     return var3;
- 66:
+ 65:
                     return var2;
- 69:
+ 68:
                     return var1;
                 }
             };
@@ -242,10 +242,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2['ordering'] = var8;
                 var7 = var7 == var6;
                 var5 = undefined;
-                if(var7) { _fun0005_ip = 136; continue _fun0005 }
+                if(var7) { _fun0005_ip = 135; continue _fun0005 }
  130:
                 var5 = var6.limit;
- 136:
+ 135:
                 var2['limit'] = var5;
                 var1 = var1.defaultDebugTag;
                 var1 = var3.bind(var4)(var2, var1);
@@ -299,10 +299,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2['ordering'] = var8;
                 var7 = var7 == var6;
                 var5 = undefined;
-                if(var7) { _fun0006_ip = 171; continue _fun0006 }
+                if(var7) { _fun0006_ip = 170; continue _fun0006 }
  165:
                 var5 = var6.limit;
- 171:
+ 170:
                 var2['limit'] = var5;
                 var1 = var1.defaultDebugTag;
                 var1 = var3.bind(var4)(var2, var1);
@@ -777,10 +777,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['ordering'] = var7;
                 var6 = var6 == var5;
                 var4 = undefined;
-                if(var6) { _fun0015_ip = 136; continue _fun0015 }
+                if(var6) { _fun0015_ip = 135; continue _fun0015 }
  130:
                 var4 = var5.limit;
- 136:
+ 135:
                 var1['limit'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
@@ -913,10 +913,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.prefix;
                     var2 = var2.length;
                     var3 = 1;
-                    if(!(var3 === var2)) { _fun0018_ip = 118; continue _fun0018 }
+                    if(!(var3 === var2)) { _fun0018_ip = 117; continue _fun0018 }
  28:
                     var2 = var6.length;
-                    if(!(var3 === var2)) { _fun0018_ip = 118; continue _fun0018 }
+                    if(!(var3 === var2)) { _fun0018_ip = 117; continue _fun0018 }
  37:
                     var4 = _closure3_slot0;
                     var3 = var4.transaction;
@@ -937,7 +937,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var2.bind(var3)(var1);
                     var1 = undefined;
                     return var1;
- 118:
+ 117:
                     var1 = global;
                     var3 = var1.Error;
                     var1 = var3.prototype;
@@ -958,10 +958,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.prefix;
                     var2 = var2.length;
                     var3 = 1;
-                    if(!(var3 === var2)) { _fun0019_ip = 118; continue _fun0019 }
+                    if(!(var3 === var2)) { _fun0019_ip = 117; continue _fun0019 }
  28:
                     var2 = var6.length;
-                    if(!(var3 === var2)) { _fun0019_ip = 118; continue _fun0019 }
+                    if(!(var3 === var2)) { _fun0019_ip = 117; continue _fun0019 }
  37:
                     var4 = _closure3_slot0;
                     var3 = var4.transaction;
@@ -982,7 +982,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var2.bind(var3)(var1);
                     var1 = undefined;
                     return var1;
- 118:
+ 117:
                     var1 = global;
                     var3 = var1.Error;
                     var1 = var3.prototype;

@@ -1,12 +1,12 @@
 // app/modules/app_database/modules/GuildBasicChannels.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
@@ -1490,27 +1490,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var7.bind(var1)(var4);
                 var7 = var8.bind(var1)();
                 var4 = var7.done;
-                if(var4) { _fun0021_ip = 161; continue _fun0021 }
- 94:
+                if(var4) { _fun0021_ip = 165; continue _fun0021 }
+ 98:
                 var11 = var7.value;
                 var4 = var9.syncOne;
                 var4 = var4.bind(var9)(var11, var10);
-                if(var4) { _fun0021_ip = 131; continue _fun0021 }
- 114:
+                if(var4) { _fun0021_ip = 135; continue _fun0021 }
+ 118:
                 var4 = var5.skipped;
                 var4 = var4 + 1;
                 var5['skipped'] = var4;
-                _fun0021_ip = 146; continue _fun0021;
- 131:
+                _fun0021_ip = 150; continue _fun0021;
+ 135:
                 var4 = var5.written;
                 var4 = var4 + 1;
                 var5['written'] = var4;
- 146:
+ 150:
                 var11 = var8.bind(var1)();
                 var4 = var11.done;
                 var7 = var11;
-                if(!var4) { _fun0021_ip = 94; continue _fun0021 }
- 161:
+                if(!var4) { _fun0021_ip = 98; continue _fun0021 }
+ 165:
                 var7 = var2.performance;
                 var4 = var7.now;
                 var4 = var4.bind(var7)();

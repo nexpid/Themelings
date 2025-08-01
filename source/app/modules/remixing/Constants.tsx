@@ -1,6 +1,6 @@
 // app/modules/remixing/Constants.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var1 = global;
     var5 = var1.Object;
     var4 = var5.defineProperty;
@@ -49,9 +49,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['TRANSFORMED'] = var1;
     var1 = 'EFFECT_REMOVED';
     var2['REMOVED'] = var1;
-    var1 = native7;
+    var1 = dependencyMap;
     var8 = var1[var6];
-    var6 = native2;
+    var6 = require;
     var1 = undefined;
     var9 = var6.bind(var1)(var8);
     var8 = var9.fileFinishedImporting;

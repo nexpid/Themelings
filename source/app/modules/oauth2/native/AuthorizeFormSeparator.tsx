@@ -1,8 +1,8 @@
 // app/modules/oauth2/native/AuthorizeFormSeparator.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -31,7 +31,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9['height'] = var10;
     var10 = 3;
     var11 = var6[var10];
-    var10 = native3;
+    var10 = metroImportDefault;
     var10 = var10.bind(var1)(var11);
     var10 = var10.colors;
     var10 = var10.BACKGROUND_MODIFIER_ACCENT;

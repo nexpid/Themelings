@@ -1,9 +1,9 @@
 // app/design/components/AlertModal/native/AlertModal.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var16 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var16 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var16;
     var _closure1_slot2 = var8;
@@ -380,7 +380,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot5 = var5;
     var5 = 3;
     var9 = var8[var5];
-    var5 = native4;
+    var5 = metroImportAll;
     var9 = var5.bind(var1)(var9);
     var _closure1_slot6 = var9;
     var5 = 4;

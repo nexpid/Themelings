@@ -1,9 +1,9 @@
 // app/modules/voice_panel/native/VoicePanelController.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -1099,7 +1099,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var8 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -4218,14 +4218,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var10 = var11.bind(var12)(var10);
             var10 = var3.current;
-            if(!(var9 != var10)) { _fun0017_ip = 1395; continue _fun0017 }
+            if(!(var9 != var10)) { _fun0017_ip = 1396; continue _fun0017 }
  1282:
             var10 = var3.current;
             var10 = var10 + 1;
             var3['current'] = var10;
             var11 = var3.current;
             var10 = 10;
-            if(!(var11 > var10)) { _fun0017_ip = 1395; continue _fun0017 }
+            if(!(var11 > var10)) { _fun0017_ip = 1396; continue _fun0017 }
  1308:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -4246,7 +4246,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['message'] = var13;
             var10 = var11.bind(var12)(var10);
             var3['current'] = var9;
- 1395:
+ 1396:
             var9 = _closure1_slot4;
             var3 = var9.useState;
             var1 = function() {

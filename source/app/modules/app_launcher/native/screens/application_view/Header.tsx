@@ -1,9 +1,9 @@
 // app/modules/app_launcher/native/screens/application_view/Header.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var13 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var8;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var4.bind(var6)(var3, var1, var2);
     var1 = 0;
     var4 = var8[var1];
-    var2 = native4;
+    var2 = metroImportAll;
     var1 = undefined;
     var2 = var2.bind(var1)(var4);
     var2 = 1;
@@ -632,8 +632,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5[1] = var6;
             var7 = var8 != var15;
             var6 = null;
-            if(!var7) { _fun0001_ip = 1252; continue _fun0001 }
- 1010:
+            if(!var7) { _fun0001_ip = 1248; continue _fun0001 }
+ 1006:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
             var7 = 15;
@@ -642,8 +642,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var9.isRealApplication;
             var7 = var7.bind(var9)(var15);
             var6 = null;
-            if(!var7) { _fun0001_ip = 1252; continue _fun0001 }
- 1049:
+            if(!var7) { _fun0001_ip = 1248; continue _fun0001 }
+ 1045:
             var9 = _closure1_slot9;
             var8 = _closure1_slot3;
             var7 = {};
@@ -762,7 +762,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10[1] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 1252:
+ 1248:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

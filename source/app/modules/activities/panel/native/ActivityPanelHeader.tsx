@@ -1,9 +1,9 @@
 // app/modules/activities/panel/native/ActivityPanelHeader.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -22,7 +22,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot4 = var7;
     var4 = 2;
@@ -355,7 +355,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var22 = null;
                     var2 = var22 != var1;
                     var1 = null;
-                    if(!var2) { _fun0004_ip = 459; continue _fun0004 }
+                    if(!var2) { _fun0004_ip = 458; continue _fun0004 }
  21:
                     var5 = _closure1_slot12;
                     var7 = _closure1_slot0;
@@ -391,8 +391,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11[0] = var12;
                     var12 = _closure2_slot0;
                     var12 = !var12;
-                    if(!var12) { _fun0004_ip = 192; continue _fun0004 }
- 162:
+                    if(!var12) { _fun0004_ip = 191; continue _fun0004 }
+ 161:
                     var15 = _closure1_slot12;
                     var14 = _closure1_slot5;
                     var13 = {};
@@ -400,7 +400,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var17 = var17.pullIndicator;
                     var13['style'] = var17;
                     var12 = var15.bind(var4)(var14, var13);
- 192:
+ 191:
                     var11[1] = var12;
                     var14 = _closure1_slot13;
                     var13 = _closure1_slot5;
@@ -416,16 +416,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var15 = {};
                     var21 = _closure2_slot0;
                     var20 = undefined;
-                    if(var21) { _fun0004_ip = 271; continue _fun0004 }
- 249:
+                    if(var21) { _fun0004_ip = 270; continue _fun0004 }
+ 248:
                     var21 = _closure2_slot5;
                     var21 = var22 == var21;
                     var20 = undefined;
-                    if(var21) { _fun0004_ip = 271; continue _fun0004 }
- 262:
+                    if(var21) { _fun0004_ip = 270; continue _fun0004 }
+ 261:
                     var21 = _closure2_slot5;
                     var20 = var21.name;
- 271:
+ 270:
                     var15['activityName'] = var20;
                     var20 = _closure2_slot1;
                     var15['setMode'] = var20;
@@ -442,11 +442,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var21 = _closure2_slot5;
                     var22 = var22 == var21;
                     var21 = undefined;
-                    if(var22) { _fun0004_ip = 347; continue _fun0004 }
- 338:
+                    if(var22) { _fun0004_ip = 346; continue _fun0004 }
+ 337:
                     var22 = _closure2_slot5;
                     var21 = var22.id;
- 347:
+ 346:
                     var17['applicationId'] = var21;
                     var17 = var20.bind(var4)(var18, var17);
                     var15[1] = var17;
@@ -472,7 +472,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var5.bind(var4)(var7, var6);
                     var2['children'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
- 459:
+ 458:
                     return var1;
                 }
             };

@@ -1,8 +1,8 @@
 // app/uikit-native/EmptyState.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -15,7 +15,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var4 = 1;
@@ -40,7 +40,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = {'flex': 1, 'justifyContent': 'center', 'alignItems': 'center', 'paddingHorizontal': 36, 'paddingBottom': 80};
     var10 = 4;
     var11 = var6[var10];
-    var10 = native3;
+    var10 = metroImportDefault;
     var10 = var10.bind(var1)(var11);
     var10 = var10.colors;
     var10 = var10.BG_BASE_PRIMARY;
@@ -77,8 +77,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var2.theme;
             var2 = var1.Illustration;
             var7 = null;
-            if(!(var7 == var2)) { _fun0001_ip = 168; continue _fun0001 }
- 64:
+            if(!(var7 == var2)) { _fun0001_ip = 167; continue _fun0001 }
+ 63:
             var5 = _closure1_slot4;
             var3 = _closure1_slot3;
             var2 = {};
@@ -90,13 +90,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var9.bind(var4)(var6);
             var6 = var9.isThemeLight;
             var6 = var6.bind(var9)(var10);
-            if(var6) { _fun0001_ip = 122; continue _fun0001 }
- 114:
+            if(var6) { _fun0001_ip = 121; continue _fun0001 }
+ 113:
             var6 = var1.darkSource;
-            _fun0001_ip = 128; continue _fun0001;
- 122:
+            _fun0001_ip = 127; continue _fun0001;
+ 121:
             var6 = var1.lightSource;
- 128:
+ 127:
             var2['source'] = var6;
             var9 = var12.emptyImage;
             var6 = new Array(2);
@@ -105,8 +105,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[1] = var9;
             var2['style'] = var6;
             var9 = var5.bind(var4)(var3, var2);
-            _fun0001_ip = 223; continue _fun0001;
- 168:
+            _fun0001_ip = 222; continue _fun0001;
+ 167:
             var5 = _closure1_slot4;
             var3 = var1.Illustration;
             var2 = {};
@@ -119,7 +119,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[1] = var10;
             var2['style'] = var6;
             var9 = var5.bind(var4)(var3, var2);
- 223:
+ 222:
             var10 = var1.style;
             var11 = var1.body;
             var16 = var1.title;
@@ -140,8 +140,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5[0] = var9;
             var10 = var7 != var16;
             var9 = null;
-            if(!var10) { _fun0001_ip = 385; continue _fun0001 }
- 310:
+            if(!var10) { _fun0001_ip = 384; continue _fun0001 }
+ 309:
             var15 = _closure1_slot4;
             var14 = _closure1_slot0;
             var17 = _closure1_slot1;
@@ -157,12 +157,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['style'] = var17;
             var10['children'] = var16;
             var9 = var15.bind(var4)(var14, var10);
- 385:
+ 384:
             var5[1] = var9;
             var9 = var7 != var11;
             var7 = null;
-            if(!var9) { _fun0001_ip = 473; continue _fun0001 }
- 398:
+            if(!var9) { _fun0001_ip = 472; continue _fun0001 }
+ 397:
             var10 = _closure1_slot4;
             var9 = _closure1_slot0;
             var14 = _closure1_slot1;
@@ -178,7 +178,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8['style'] = var12;
             var8['children'] = var11;
             var7 = var10.bind(var4)(var9, var8);
- 473:
+ 472:
             var5[2] = var7;
             var5[3] = var6;
             var1['children'] = var5;

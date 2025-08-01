@@ -1,9 +1,9 @@
 // app/modules/game_detection/RunningGameStore.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var5 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var1 = function _isNativeReflectConstruct() {
@@ -82,7 +82,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var7[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot8 = var4;
-    var4 = 9;
+    var4 = 8;
     var4 = var7[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.Store;
@@ -351,7 +351,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = var4.bind(var1)(var8);
     var4 = 'RunningGameStore';
     var9['displayName'] = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var7[var4];
     var12 = var5.bind(var1)(var4);
     var4 = var9.prototype;
@@ -360,7 +360,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var13 = var5;
     var4 = new var13[var9](var12, var11, var10);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 11;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -389,12 +389,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 7;
-            var2 = var5[var2];
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.OverlayGameStatusSource;
-            var2 = var2.UNKNOWN;
-            var1['source'] = var2;
-            var2 = 8;
+            var6 = var5[var2];
+            var6 = var3.bind(var4)(var6);
+            var6 = var6.OverlayGameStatusSource;
+            var6 = var6.UNKNOWN;
+            var1['source'] = var6;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.OverlayMethod;

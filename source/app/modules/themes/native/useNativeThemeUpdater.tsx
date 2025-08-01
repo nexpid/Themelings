@@ -1,8 +1,8 @@
 // app/modules/themes/native/useNativeThemeUpdater.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -15,13 +15,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native3;
+    var4 = metroImportDefault;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
     var4 = 3;
@@ -46,8 +46,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var2.theme;
                     var4 = _closure2_slot0;
                     var4 = var4.current;
-                    if(!(var3 !== var4)) { _fun0001_ip = 72; continue _fun0001 }
- 29:
+                    if(!(var3 !== var4)) { _fun0001_ip = 71; continue _fun0001 }
+ 28:
                     var2 = _closure2_slot0;
                     var2['current'] = var3;
                     var4 = _closure1_slot0;
@@ -58,7 +58,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var4.bind(var1)(var2);
                     var1 = var2.updateTheme;
                     var1 = var1.bind(var2)(var3);
- 72:
+ 71:
                     var1 = undefined;
                     return var1;
                 }

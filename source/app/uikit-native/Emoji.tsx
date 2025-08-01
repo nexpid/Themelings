@@ -1,9 +1,9 @@
 // app/uikit-native/Emoji.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var8 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var4 = 1;
@@ -78,13 +78,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = _closure1_slot3;
             var1 = {};
             var1['style'] = var7;
-            if(var5) { _fun0001_ip = 300; continue _fun0001 }
+            if(var5) { _fun0001_ip = 299; continue _fun0001 }
  143:
             var5 = null;
-            if(!(var5 != var13)) { _fun0001_ip = 300; continue _fun0001 }
+            if(!(var5 != var13)) { _fun0001_ip = 299; continue _fun0001 }
  152:
             var5 = '';
-            if(!(var5 !== var13)) { _fun0001_ip = 300; continue _fun0001 }
+            if(!(var5 !== var13)) { _fun0001_ip = 299; continue _fun0001 }
  163:
             var8 = _closure1_slot5;
             var7 = _closure1_slot1;
@@ -106,24 +106,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var14.bind(var15)(var12);
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
-            if(var12) { _fun0001_ip = 264; continue _fun0001 }
- 250:
+            if(var12) { _fun0001_ip = 263; continue _fun0001 }
+ 249:
             var12 = 10;
             var12 = var16[var12];
             var12 = var15.bind(var4)(var12);
-            _fun0001_ip = 276; continue _fun0001;
- 264:
+            _fun0001_ip = 275; continue _fun0001;
+ 263:
             var14 = 9;
             var14 = var16[var14];
             var12 = var15.bind(var4)(var14);
- 276:
+ 275:
             var5['placeholder'] = var12;
             var12 = {};
             var12['uri'] = var13;
             var5['source'] = var12;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 358; continue _fun0001;
- 300:
+            _fun0001_ip = 357; continue _fun0001;
+ 299:
             var8 = _closure1_slot5;
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -138,7 +138,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6['adjustsFontSizeToFit'] = var10;
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 358:
+ 357:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

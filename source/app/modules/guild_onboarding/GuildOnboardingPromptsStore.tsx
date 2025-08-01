@@ -1,9 +1,9 @@
 // app/modules/guild_onboarding/GuildOnboardingPromptsStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -585,7 +585,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = _closure1_slot13;
                 var3 = var3[var7];
                 var4 = null;
-                if(!(var4 != var3)) { _fun0012_ip = 130; continue _fun0012 }
+                if(!(var4 != var3)) { _fun0012_ip = 131; continue _fun0012 }
  32:
                 var8 = var3.prompts;
                 var5 = var8.find;
@@ -597,8 +597,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var3 = var5.bind(var8)(var3);
-                if(!(var4 != var3)) { _fun0012_ip = 124; continue _fun0012 }
- 57:
+                if(!(var4 != var3)) { _fun0012_ip = 125; continue _fun0012 }
+ 58:
                 var8 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var4 = 10;
@@ -617,12 +617,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var6.getOnboardingResponses;
                 var2 = var2.bind(var6)(var7);
                 var2 = var4.bind(var5)(var3, var2);
-                _fun0012_ip = 128; continue _fun0012;
- 124:
+                _fun0012_ip = 129; continue _fun0012;
+ 125:
                 var2 = _closure1_slot18;
- 128:
+ 129:
                 return var2;
- 130:
+ 131:
                 var1 = _closure1_slot18;
                 return var1;
             }

@@ -1,11 +1,11 @@
 // app/records/LibraryApplicationRecord.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var8;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {

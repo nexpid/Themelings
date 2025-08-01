@@ -1,9 +1,9 @@
 // app/modules/hangouts/native/NativeHangoutsManager.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -604,11 +604,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var _closure4_slot0 = var1;
                         var4 = _closure1_slot14;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0010_ip = 77; continue _fun0010 }
+                        if(!(var3 != var4)) { _fun0010_ip = 78; continue _fun0010 }
  27:
                         var4 = _closure1_slot14;
                         var4 = var4.data;
-                        if(!(var3 != var4)) { _fun0010_ip = 77; continue _fun0010 }
+                        if(!(var3 != var4)) { _fun0010_ip = 78; continue _fun0010 }
  40:
                         var5 = var4.voiceUsers;
                         var4 = var5.find;
@@ -620,12 +620,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var1;
                         };
                         var2 = var4.bind(var5)(var2);
-                        if(!(var3 != var2)) { _fun0010_ip = 77; continue _fun0010 }
- 67:
+                        if(!(var3 != var2)) { _fun0010_ip = 78; continue _fun0010 }
+ 68:
                         var2 = _closure1_slot20;
                         var1 = undefined;
                         var1 = var2.bind(var1)();
- 77:
+ 78:
                         var1 = undefined;
                         return var1;
                     }

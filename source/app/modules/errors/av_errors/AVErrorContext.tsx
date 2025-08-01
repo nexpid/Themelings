@@ -1,9 +1,9 @@
 // app/modules/errors/av_errors/AVErrorContext.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var2 = function getCommonErrorContext() {
@@ -137,57 +137,59 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = function getStreamErrorContext(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            var4 = arg1;
-            var5 = _closure1_slot0;
+            var5 = arg1;
+            var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 5;
             var1 = var3[var1];
             var3 = undefined;
-            var5 = var5.bind(var3)(var1);
-            var1 = var5.decodeStreamKey;
-            var1 = var1.bind(var5)(var4);
-            var5 = var1.channelId;
-            var6 = _closure1_slot5;
-            var1 = var6.getRTCConnection;
-            var7 = var1.bind(var6)(var4);
+            var4 = var4.bind(var3)(var1);
+            var1 = var4.decodeStreamKey;
+            var1 = var1.bind(var4)(var5);
+            var6 = var1.channelId;
+            var4 = var1.ownerId;
+            var7 = _closure1_slot5;
+            var1 = var7.getRTCConnection;
+            var8 = var1.bind(var7)(var5);
             var1 = {};
-            var1['channelId'] = var5;
-            var5 = null;
-            var6 = var5 == var7;
-            var8 = undefined;
-            if(var6) { _fun0003_ip = 86; continue _fun0003 }
- 76:
-            var6 = var7.getMediaSessionId;
-            var8 = var6.bind(var7)();
- 86:
-            var9 = var5 != var8;
+            var1['channelId'] = var6;
+            var6 = null;
+            var7 = var6 == var8;
+            var9 = undefined;
+            if(var7) { _fun0003_ip = 92; continue _fun0003 }
+ 82:
+            var7 = var8.getMediaSessionId;
+            var9 = var7.bind(var8)();
+ 92:
+            var10 = var6 != var9;
+            var7 = undefined;
+            if(!var10) { _fun0003_ip = 104; continue _fun0003 }
+ 101:
+            var7 = var9;
+ 104:
+            var1['mediaSessionId'] = var7;
+            var7 = var6 == var8;
             var6 = undefined;
-            if(!var9) { _fun0003_ip = 98; continue _fun0003 }
- 95:
-            var6 = var8;
- 98:
-            var1['mediaSessionId'] = var6;
-            var6 = var5 == var7;
-            var5 = undefined;
-            if(var6) { _fun0003_ip = 122; continue _fun0003 }
- 112:
-            var6 = var7.getRTCConnectionId;
-            var5 = var6.bind(var7)();
- 122:
-            var1['rtcConnectionId'] = var5;
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var5 = 4;
-            var5 = var7[var5];
-            var5 = var6.bind(var3)(var5);
-            var5 = var5.MediaEngineContextTypes;
-            var5 = var5.STREAM;
-            var1['mediaContext'] = var5;
-            var1['streamKey'] = var4;
+            if(var7) { _fun0003_ip = 128; continue _fun0003 }
+ 118:
+            var7 = var8.getRTCConnectionId;
+            var6 = var7.bind(var8)();
+ 128:
+            var1['rtcConnectionId'] = var6;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var6 = 4;
+            var6 = var8[var6];
+            var6 = var7.bind(var3)(var6);
+            var6 = var6.MediaEngineContextTypes;
+            var6 = var6.STREAM;
+            var1['mediaContext'] = var6;
+            var1['streamKey'] = var5;
+            var1['userId'] = var4;
             var2 = _closure1_slot6;
-            var10 = var2.bind(var3)();
-            var11 = var1;
-            var2 = copyDataProperties(var11, var10);
+            var11 = var2.bind(var3)();
+            var12 = var1;
+            var2 = copyDataProperties(var12, var11);
             return var1;
         }
     };

@@ -1,8 +1,8 @@
 // app/modules/errors/av_errors/definitions/AVErrorStreamFailedToStart.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -25,12 +25,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var4 = var2.activeStreams;
         var3 = var4.filter;
         var2 = function(arg1) {
-            var1 = arg1;
-            var2 = var1.state;
-            var1 = _closure1_slot2;
-            var1 = var1.FAILED;
-            var1 = var2 === var1;
-            return var1;
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+                var2 = arg1;
+                var3 = var2.state;
+                var1 = _closure1_slot2;
+                var1 = var1.FAILED;
+                var1 = var3 === var1;
+                if(!var1) { _fun0001_ip = 40; continue _fun0001 }
+ 28:
+                var3 = var2.errorCode;
+                var2 = null;
+                var1 = var2 == var3;
+ 40:
+                return var1;
+            }
         };
         var3 = var3.bind(var4)(var2);
         var2 = var3.map;

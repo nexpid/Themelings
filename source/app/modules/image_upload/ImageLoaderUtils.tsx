@@ -1,9 +1,9 @@
 // app/modules/image_upload/ImageLoaderUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var6 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var6 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var6;
     var _closure1_slot2 = var7;
@@ -612,7 +612,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  61:
             var4 = var3 / var1;
             var3 = 1.25;
-            if(!(!(var4 <= var3))) { _fun0011_ip = 129; continue _fun0011 }
+            if(!(!(var4 <= var3))) { _fun0011_ip = 130; continue _fun0011 }
  79:
             var5 = _closure1_slot9;
             var4 = var5.find;
@@ -624,16 +624,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var2 = var4.bind(var5)(var2);
             var4 = null;
-            if(!(var4 == var2)) { _fun0011_ip = 127; continue _fun0011 }
- 107:
+            if(!(var4 == var2)) { _fun0011_ip = 128; continue _fun0011 }
+ 108:
             var4 = _closure1_slot9;
             var5 = var4.length;
             var3 = 1;
             var3 = var5 - var3;
             var2 = var4[var3];
- 127:
+ 128:
             return var2;
- 129:
+ 130:
             return var1;
         }
     };

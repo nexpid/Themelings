@@ -1,9 +1,9 @@
 // app/modules/main_tabs_v2/native/shared_components/tab_bar/useTabBarTabListeners.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -22,7 +22,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var8 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -203,7 +203,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.bind(var3)(var1);
             var1 = _closure1_slot6;
             var1 = var1.initialized;
-            if(var1) { _fun0002_ip = 196; continue _fun0002 }
+            if(var1) { _fun0002_ip = 195; continue _fun0002 }
  107:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -225,7 +225,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var4.everyoneFilter;
             var1['everyone_filter'] = var4;
             var1 = var2.bind(var3)(var1);
- 196:
+ 195:
             var1 = {};
             var2 = function short() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {

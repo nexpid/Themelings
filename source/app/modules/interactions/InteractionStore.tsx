@@ -1,9 +1,9 @@
 // app/modules/interactions/InteractionStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var9 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var9 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var9;
     var _closure1_slot2 = var8;
@@ -766,47 +766,47 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var4 = var3.bind(var4)(var1);
             var3 = null;
-            if(!(var3 != var4)) { _fun0014_ip = 241; continue _fun0014 }
- 70:
+            if(!(var3 != var4)) { _fun0014_ip = 242; continue _fun0014 }
+ 71:
             var1 = var4.nonce;
-            if(!(var3 != var1)) { _fun0014_ip = 241; continue _fun0014 }
- 83:
+            if(!(var3 != var1)) { _fun0014_ip = 242; continue _fun0014 }
+ 84:
             var5 = _closure1_slot18;
             var1 = var4.nonce;
             var1 = var5[var1];
-            if(!(var3 != var1)) { _fun0014_ip = 114; continue _fun0014 }
- 101:
+            if(!(var3 != var1)) { _fun0014_ip = 115; continue _fun0014 }
+ 102:
             var5 = var1.messageId;
             var1 = var1.interaction;
-            _fun0014_ip = 142; continue _fun0014;
- 114:
+            _fun0014_ip = 143; continue _fun0014;
+ 115:
             var7 = _closure1_slot15;
             var6 = var4.nonce;
             var5 = var7[var6];
             var8 = _closure1_slot13;
             var6 = var4.nonce;
             var1 = var8[var6];
- 142:
+ 143:
             var6 = var3 != var1;
-            if(!var6) { _fun0014_ip = 153; continue _fun0014 }
- 149:
+            if(!var6) { _fun0014_ip = 154; continue _fun0014 }
+ 150:
             var6 = var3 != var5;
- 153:
-            if(!var6) { _fun0014_ip = 241; continue _fun0014 }
- 156:
+ 154:
+            if(!var6) { _fun0014_ip = 242; continue _fun0014 }
+ 157:
             var7 = _closure1_slot21;
             var6 = var4.nonce;
             var4 = undefined;
             var6 = var7.bind(var4)(var6);
             var3 = var3 != var5;
-            if(!var3) { _fun0014_ip = 193; continue _fun0014 }
- 180:
+            if(!var3) { _fun0014_ip = 194; continue _fun0014 }
+ 181:
             var7 = var1.data;
             var6 = 'channelId';
             var3 = var6 in var7;
- 193:
-            if(!var3) { _fun0014_ip = 241; continue _fun0014 }
- 196:
+ 194:
+            if(!var3) { _fun0014_ip = 242; continue _fun0014 }
+ 197:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var2 = 11;
@@ -817,7 +817,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var1.channelId;
             var1 = true;
             var1 = var3.bind(var4)(var2, var5, var1);
- 241:
+ 242:
             var1 = undefined;
             return var1;
         }

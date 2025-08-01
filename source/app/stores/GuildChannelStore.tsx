@@ -1,12 +1,12 @@
 // app/stores/GuildChannelStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var9 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var9 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var9;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var8;
     var1 = function _isNativeReflectConstruct() {
@@ -1020,10 +1020,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2.bind(var3)(var1);
                 var1 = null;
                 var3 = var1 != var2;
-                if(!var3) { _fun0016_ip = 51; continue _fun0016 }
- 46:
+                if(!var3) { _fun0016_ip = 52; continue _fun0016 }
+ 47:
                 var1 = var2.channel;
- 51:
+ 52:
                 return var1;
             }
         };

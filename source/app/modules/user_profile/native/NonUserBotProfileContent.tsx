@@ -1,10 +1,10 @@
 // app/modules/user_profile/native/NonUserBotProfileContent.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var4 = 1;
@@ -133,8 +133,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var2.gradientFallbackBackground;
             var12 = var2.avatarBackground;
             var20 = var2.containerBackground;
-            if(!(var1 != var22)) { _fun0001_ip = 915; continue _fun0001 }
- 354:
+            if(!(var1 != var22)) { _fun0001_ip = 913; continue _fun0001 }
+ 352:
             var27 = function handleCopyUsername() {
                 var4 = _closure2_slot0;
                 var3 = {};
@@ -182,16 +182,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9['user'] = var22;
             var24 = var1 == var21;
             var25 = undefined;
-            if(var24) { _fun0001_ip = 461; continue _fun0001 }
- 456:
+            if(var24) { _fun0001_ip = 459; continue _fun0001 }
+ 454:
             var25 = var21.guildId;
- 461:
+ 459:
             var29 = var1 != var25;
             var24 = undefined;
-            if(!var29) { _fun0001_ip = 473; continue _fun0001 }
- 470:
+            if(!var29) { _fun0001_ip = 471; continue _fun0001 }
+ 468:
             var24 = var25;
- 473:
+ 471:
             var9['guildId'] = var24;
             var9['backgroundColor'] = var12;
             var25 = true;
@@ -232,18 +232,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16['user'] = var22;
             var30 = var1 == var19;
             var29 = undefined;
-            if(var30) { _fun0001_ip = 642; continue _fun0001 }
- 637:
+            if(var30) { _fun0001_ip = 640; continue _fun0001 }
+ 635:
             var29 = var19.guild_id;
- 642:
+ 640:
             var16['guildId'] = var29;
             var16['displayName'] = var28;
             var29 = var1 == var21;
             var28 = undefined;
-            if(var29) { _fun0001_ip = 665; continue _fun0001 }
- 659:
+            if(var29) { _fun0001_ip = 663; continue _fun0001 }
+ 657:
             var28 = var21.pronouns;
- 665:
+ 663:
             var16['pronouns'] = var28;
             var16['badges'] = var23;
             var16['badgeContainerBackground'] = var20;
@@ -315,7 +315,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 915:
+ 913:
             return var1;
         }
     };

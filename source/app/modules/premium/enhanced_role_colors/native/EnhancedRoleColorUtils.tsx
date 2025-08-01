@@ -1,9 +1,9 @@
 // app/modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var9 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var9 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var9;
     var _closure1_slot2 = var8;
@@ -15,11 +15,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var2.theme;
             var2 = _closure1_slot7;
             var2 = var2.LIGHT;
-            if(!(var3 === var2)) { _fun0001_ip = 168; continue _fun0001 }
- 33:
+            if(!(var3 === var2)) { _fun0001_ip = 167; continue _fun0001 }
+ 32:
             var2 = null;
-            if(!(var2 != var4)) { _fun0001_ip = 168; continue _fun0001 }
- 42:
+            if(!(var2 != var4)) { _fun0001_ip = 167; continue _fun0001 }
+ 41:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 5;
@@ -49,16 +49,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.bind(var6)();
             var2 = var3.bind(var5)(var2);
             return var2;
- 168:
+ 167:
             var3 = _closure1_slot5;
             var1 = null;
             var5 = var1 != var4;
             var2 = undefined;
             var1 = undefined;
-            if(!var5) { _fun0001_ip = 188; continue _fun0001 }
- 185:
+            if(!var5) { _fun0001_ip = 187; continue _fun0001 }
+ 184:
             var1 = var4;
- 188:
+ 187:
             var1 = var3.bind(var2)(var1);
             return var1;
         }
@@ -137,7 +137,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var6;
     var6 = 1;
     var10 = var8[var6];
-    var6 = native4;
+    var6 = metroImportAll;
     var6 = var6.bind(var1)(var10);
     var _closure1_slot4 = var6;
     var6 = 2;

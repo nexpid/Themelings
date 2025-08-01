@@ -1,11 +1,11 @@
 // app/components_native/chat/ChatItem.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var8 = native2;
-        var5 = native3;
-        var3 = native6;
-        var9 = native7;
+        var8 = require;
+        var5 = metroImportDefault;
+        var3 = exports;
+        var9 = dependencyMap;
         var _closure1_slot0 = var8;
         var _closure1_slot1 = var5;
         var _closure1_slot2 = var9;
@@ -104,7 +104,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure1_slot3 = var2;
         var2 = 1;
         var7 = var9[var2];
-        var2 = native4;
+        var2 = metroImportAll;
         var2 = var2.bind(var1)(var7);
         var _closure1_slot4 = var2;
         var2 = 2;

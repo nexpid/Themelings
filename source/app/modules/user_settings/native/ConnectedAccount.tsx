@@ -1,9 +1,9 @@
 // app/modules/user_settings/native/ConnectedAccount.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var13 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
@@ -120,7 +120,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot9 = var4;
     var4 = 7;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot10 = var4;
     var11 = 8;
@@ -2093,13 +2093,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var12.isThemeDark;
                 var6 = var6.bind(var12)(var13);
                 var10 = var10.icon;
-                if(var6) { _fun0016_ip = 204; continue _fun0016 }
- 196:
+                if(var6) { _fun0016_ip = 203; continue _fun0016 }
+ 195:
                 var6 = var10.lightPNG;
-                _fun0016_ip = 210; continue _fun0016;
- 204:
+                _fun0016_ip = 209; continue _fun0016;
+ 203:
                 var6 = var10.darkPNG;
- 210:
+ 209:
                 var6 = var7.bind(var9)(var6);
                 var1['source'] = var6;
                 var1['disableColor'] = var5;

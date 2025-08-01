@@ -1,6 +1,6 @@
 // app/modules/explicit_media_redaction/ObscureMediaModels.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -44,10 +44,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = var1;
     var1 = new var12[var6](var11, var10);
     var2 = var1 instanceof Object ? var1 : var2;
-    var6 = native7;
+    var6 = dependencyMap;
     var1 = 0;
     var7 = var6[var1];
-    var6 = native2;
+    var6 = require;
     var1 = undefined;
     var8 = var6.bind(var1)(var7);
     var7 = var8.fileFinishedImporting;

@@ -1,9 +1,9 @@
 // app/uikit-native/IconButton.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var14 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var14 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var14;
     var _closure1_slot2 = var7;
@@ -151,25 +151,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = {};
             var11 = _closure1_slot5;
             var11 = var11.SMALL_24;
-            if(!(var11 !== var7)) { _fun0003_ip = 133; continue _fun0003 }
- 87:
+            if(!(var11 !== var7)) { _fun0003_ip = 137; continue _fun0003 }
+ 91:
             var11 = _closure1_slot5;
             var11 = var11.MEDIUM_32;
-            if(!(var11 !== var7)) { _fun0003_ip = 125; continue _fun0003 }
- 101:
+            if(!(var11 !== var7)) { _fun0003_ip = 129; continue _fun0003 }
+ 105:
             var10 = _closure1_slot5;
             var11 = var10.LARGE_40;
             var10 = undefined;
-            if(!(var11 === var7)) { _fun0003_ip = 139; continue _fun0003 }
- 117:
+            if(!(var11 === var7)) { _fun0003_ip = 143; continue _fun0003 }
+ 121:
             var10 = var8.largeCircular;
-            _fun0003_ip = 139; continue _fun0003;
- 125:
+            _fun0003_ip = 143; continue _fun0003;
+ 129:
             var10 = var8.mediumCircular;
-            _fun0003_ip = 139; continue _fun0003;
- 133:
+            _fun0003_ip = 143; continue _fun0003;
+ 137:
             var10 = var8.smallCircular;
- 139:
+ 143:
             var8 = new Array(2);
             var8[0] = var10;
             var8[1] = var9;
@@ -194,7 +194,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var10)(var3, var1, var5);
     var1 = 0;
     var8 = var7[var1];
-    var5 = native4;
+    var5 = metroImportAll;
     var1 = undefined;
     var5 = var5.bind(var1)(var8);
     var _closure1_slot3 = var5;

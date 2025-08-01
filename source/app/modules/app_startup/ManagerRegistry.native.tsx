@@ -1,8 +1,8 @@
 // app/modules/app_startup/ManagerRegistry.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -1642,7 +1642,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['ReferralMessageManager'] = var1;
     var1 = {};
-    var8 = ['MEDIA_ENGINE_SET_AUDIO_ENABLED', 'AUDIO_INPUT_DETECTED', 'AUDIO_SET_DISPLAY_SILENCE_WARNING', 'CERTIFIED_DEVICES_SET', 'AUDIO_SET_INPUT_DEVICE', 'AUDIO_SET_OUTPUT_DEVICE', 'MEDIA_ENGINE_DEVICES', 'RTC_CONNECTION_STATE', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_SET_GO_LIVE_SOURCE', 'MEDIA_ENGINE_SOUNDSHARE_FAILED', 'MEDIA_ENGINE_NOISE_CANCELLATION_ERROR', 'MEDIA_ENGINE_VOICE_ACTIVITY_DETECTION_ERROR', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED', 'NATIVE_SCREEN_SHARE_PICKER_UPDATE', 'NATIVE_SCREEN_SHARE_PICKER_ERROR', 'MEDIA_SESSION_JOINED', 'RTC_CONNECTION_UPDATE_ID', 'RTC_CONNECTION_REMOTE_VIDEO_SINK_WANTS', 'REPORT_AV_ERROR', 'VIDEO_STREAM_READY_TIMEOUT', 'CLEAR_VIDEO_STREAM_READY_TIMEOUT', 'RTC_CONNECTION_VIDEO'];
+    var8 = ['MEDIA_ENGINE_SET_AUDIO_ENABLED', 'AUDIO_INPUT_DETECTED', 'AUDIO_SET_DISPLAY_SILENCE_WARNING', 'CERTIFIED_DEVICES_SET', 'AUDIO_SET_INPUT_DEVICE', 'AUDIO_SET_OUTPUT_DEVICE', 'MEDIA_ENGINE_DEVICES', 'RTC_CONNECTION_STATE', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_SET_GO_LIVE_SOURCE', 'MEDIA_ENGINE_SOUNDSHARE_FAILED', 'MEDIA_ENGINE_NOISE_CANCELLATION_ERROR', 'MEDIA_ENGINE_VOICE_ACTIVITY_DETECTION_ERROR', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED', 'NATIVE_SCREEN_SHARE_PICKER_UPDATE', 'NATIVE_SCREEN_SHARE_PICKER_ERROR', 'MEDIA_SESSION_JOINED', 'RTC_CONNECTION_UPDATE_ID', 'RTC_CONNECTION_REMOTE_VIDEO_SINK_WANTS', 'REPORT_AV_ERROR', 'VIDEO_STREAM_READY_TIMEOUT', 'CLEAR_VIDEO_STREAM_READY_TIMEOUT', 'RTC_CONNECTION_VIDEO', 'STREAM_CLOSE'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;
@@ -1690,9 +1690,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1['hasStoreChangeListeners'] = var4;
     var2['LibdiscoreExperimentManager'] = var1;
     var1 = {};
-    var8 = ['CONNECTION_OPEN_SUPPLEMENTAL', 'SAFETY_FLOWS_MODAL_OPEN', 'USER_REQUIRED_ACTION_UPDATE'];
+    var8 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT', 'CHANNEL_CREATE', 'CHANNEL_DELETE', 'CHANNEL_UPDATES', 'GUILD_CREATE', 'GUILD_UPDATE', 'GUILD_DELETE', 'LOGOUT', 'RELATIONSHIP_ADD', 'RELATIONSHIP_REMOVE', 'RELATIONSHIP_UPDATE', 'THREAD_CREATE', 'THREAD_DELETE', 'THREAD_UPDATE', 'USER_UPDATE'];
     var1['actions'] = var8;
-    var7 = function inlineRequire() {
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 109;
@@ -1702,16 +1702,32 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var1.default;
         return var1;
     };
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var2['NativeIntentsManager'] = var1;
+    var1 = {};
+    var8 = ['CONNECTION_OPEN_SUPPLEMENTAL', 'SAFETY_FLOWS_MODAL_OPEN', 'USER_REQUIRED_ACTION_UPDATE'];
+    var1['actions'] = var8;
+    var7 = function inlineRequire() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 110;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.default;
+        return var1;
+    };
     var1['inlineRequire'] = var7;
     var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['SafetyFlowsManager'] = var1;
-    var1 = 110;
+    var1 = 111;
     var4 = var6[var1];
     var1 = undefined;
     var7 = var5.bind(var1)(var4);
     var4 = var7.initialize;
     var4 = var4.bind(var7)(var2);
-    var4 = 111;
+    var4 = 112;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

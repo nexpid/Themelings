@@ -1,9 +1,9 @@
 // app/modules/guild_settings/native/GuildSettingsModalIntegrationPlatform.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
@@ -77,7 +77,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot7 = var4;
     var4 = 5;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var7 = 6;
     var7 = var6[var7];
@@ -346,11 +346,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var3.includes;
                 var1 = var10.type;
                 var1 = var2.bind(var3)(var1);
-                if(var1) { _fun0004_ip = 88; continue _fun0004 }
- 84:
+                if(var1) { _fun0004_ip = 87; continue _fun0004 }
+ 83:
                 var1 = null;
                 return var1;
- 88:
+ 87:
                 var2 = var10.type;
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -359,8 +359,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var3.bind(var4)(var1);
                 var1 = var1.IntegrationTypes;
                 var1 = var1.YOUTUBE;
-                if(!(var1 !== var2)) { _fun0004_ip = 195; continue _fun0004 }
- 129:
+                if(!(var1 !== var2)) { _fun0004_ip = 194; continue _fun0004 }
+ 128:
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot2;
                 var1 = var1[var5];
@@ -368,26 +368,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1.IntegrationTypes;
                 var1 = var1.TWITCH;
                 var14 = undefined;
-                if(!(var1 === var2)) { _fun0004_ip = 220; continue _fun0004 }
- 164:
+                if(!(var1 === var2)) { _fun0004_ip = 219; continue _fun0004 }
+ 163:
                 var3 = var10.name;
                 var1 = global;
                 var1 = var1.HermesInternal;
                 var2 = var1.concat;
                 var1 = 'twitch.tv/';
                 var14 = var2.bind(var1)(var3);
-                _fun0004_ip = 220; continue _fun0004;
- 195:
+                _fun0004_ip = 219; continue _fun0004;
+ 194:
                 var2 = var10.account;
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0004_ip = 217; continue _fun0004 }
- 212:
+                if(var3) { _fun0004_ip = 216; continue _fun0004 }
+ 211:
                 var1 = var2.name;
- 217:
+ 216:
                 var14 = var1;
- 220:
+ 219:
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 16;
@@ -399,8 +399,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var15 = null;
                 var1 = var15 != var11;
                 var13 = null;
-                if(!var1) { _fun0004_ip = 376; continue _fun0004 }
- 266:
+                if(!var1) { _fun0004_ip = 375; continue _fun0004 }
+ 265:
                 var3 = _closure1_slot16;
                 var2 = _closure1_slot9;
                 var1 = {};
@@ -416,20 +416,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var16.isThemeDark;
                 var5 = var5.bind(var16)(var17);
                 var11 = var11.icon;
-                if(var5) { _fun0004_ip = 341; continue _fun0004 }
- 333:
+                if(var5) { _fun0004_ip = 340; continue _fun0004 }
+ 332:
                 var5 = var11.lightPNG;
-                _fun0004_ip = 347; continue _fun0004;
- 341:
+                _fun0004_ip = 346; continue _fun0004;
+ 340:
                 var5 = var11.darkPNG;
- 347:
+ 346:
                 var5 = var6.bind(var8)(var5);
                 var1['source'] = var5;
                 var5 = _closure1_slot18;
                 var5 = var5.platformIcon;
                 var1['style'] = var5;
                 var13 = var3.bind(var4)(var2, var1);
- 376:
+ 375:
                 var3 = _closure1_slot17;
                 var8 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -446,11 +446,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var17 = var10.user;
                 var16 = var15 == var17;
                 var15 = undefined;
-                if(var16) { _fun0004_ip = 452; continue _fun0004 }
- 443:
+                if(var16) { _fun0004_ip = 451; continue _fun0004 }
+ 442:
                 var16 = var17.toString;
                 var15 = var16.bind(var17)();
- 452:
+ 451:
                 var5['label'] = var15;
                 var5['subLabel'] = var14;
                 var16 = _closure1_slot17;
@@ -460,23 +460,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var17 = var17.trailingWrapper;
                 var14['style'] = var17;
                 var18 = var10.syncing;
-                if(!var18) { _fun0004_ip = 522; continue _fun0004 }
- 494:
+                if(!var18) { _fun0004_ip = 521; continue _fun0004 }
+ 493:
                 var20 = _closure1_slot16;
                 var19 = _closure1_slot8;
                 var17 = {'animating': true, 'size': 'small'};
                 var18 = var20.bind(var4)(var19, var17);
- 522:
+ 521:
                 var17 = new Array(2);
                 var17[0] = var18;
                 var18 = var10.enabled;
-                if(!var18) { _fun0004_ip = 547; continue _fun0004 }
- 538:
+                if(!var18) { _fun0004_ip = 546; continue _fun0004 }
+ 537:
                 var19 = var10.syncing;
                 var18 = !var19;
- 547:
-                if(!var18) { _fun0004_ip = 591; continue _fun0004 }
- 550:
+ 546:
+                if(!var18) { _fun0004_ip = 590; continue _fun0004 }
+ 549:
                 var21 = _closure1_slot16;
                 var20 = _closure1_slot0;
                 var19 = _closure1_slot2;
@@ -486,7 +486,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var20 = var19.Arrow;
                 var19 = {};
                 var18 = var21.bind(var4)(var20, var19);
- 591:
+ 590:
                 var17[1] = var18;
                 var14['children'] = var17;
                 var14 = var16.bind(var4)(var15, var14);
@@ -494,10 +494,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5['leading'] = var13;
                 var13 = var10.enabled;
                 var13 = !var13;
-                if(var13) { _fun0004_ip = 632; continue _fun0004 }
- 626:
+                if(var13) { _fun0004_ip = 631; continue _fun0004 }
+ 625:
                 var13 = var10.syncing;
- 632:
+ 631:
                 var5['disabled'] = var13;
                 var12 = function onPress() {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {

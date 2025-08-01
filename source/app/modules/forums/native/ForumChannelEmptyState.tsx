@@ -1,9 +1,9 @@
 // app/modules/forums/native/ForumChannelEmptyState.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var4 = 1;
@@ -115,16 +115,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = new Array(2);
             var7[0] = var8;
             var8 = {};
-            if(var5) { _fun0001_ip = 165; continue _fun0001 }
- 157:
+            if(var5) { _fun0001_ip = 164; continue _fun0001 }
+ 156:
             var10 = var12 + var10;
             var9 = var10 + var11;
- 165:
+ 164:
             var8['marginBottom'] = var9;
             var7[1] = var8;
             var1['style'] = var7;
-            if(var5) { _fun0001_ip = 727; continue _fun0001 }
- 183:
+            if(var5) { _fun0001_ip = 726; continue _fun0001 }
+ 182:
             var8 = _closure1_slot6;
             var7 = _closure1_slot7;
             var5 = {};
@@ -143,17 +143,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var15.bind(var17)(var18);
             var18 = _closure1_slot1;
             var19 = _closure1_slot2;
-            if(var15) { _fun0001_ip = 271; continue _fun0001 }
- 257:
+            if(var15) { _fun0001_ip = 270; continue _fun0001 }
+ 256:
             var15 = 9;
             var15 = var19[var15];
             var15 = var18.bind(var4)(var15);
-            _fun0001_ip = 283; continue _fun0001;
- 271:
+            _fun0001_ip = 282; continue _fun0001;
+ 270:
             var17 = 8;
             var17 = var19[var17];
             var15 = var18.bind(var4)(var17);
- 283:
+ 282:
             var11['source'] = var15;
             var15 = var13.image;
             var11['style'] = var15;
@@ -176,16 +176,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = var19[var23];
             var18 = var20.bind(var4)(var18);
             var25 = var18.intl;
-            if(var16) { _fun0001_ip = 427; continue _fun0001 }
- 393:
+            if(var16) { _fun0001_ip = 426; continue _fun0001 }
+ 392:
             var24 = var25.string;
             var18 = var19[var23];
             var18 = var20.bind(var4)(var18);
             var18 = var18.t;
             var18 = var18.PwTMGx;
             var18 = var24.bind(var25)(var18);
-            _fun0001_ip = 472; continue _fun0001;
- 427:
+            _fun0001_ip = 471; continue _fun0001;
+ 426:
             var24 = var25.formatToPlainString;
             var19 = var19[var23];
             var19 = var20.bind(var4)(var19);
@@ -195,7 +195,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var26 = var21.size;
             var19['numTags'] = var26;
             var18 = var24.bind(var25)(var20, var19);
- 472:
+ 471:
             var12['children'] = var18;
             var12 = var15.bind(var4)(var14, var12);
             var11[1] = var12;
@@ -217,20 +217,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var17[var23];
             var17 = var18.bind(var4)(var17);
             var17 = var17.t;
-            if(var16) { _fun0001_ip = 605; continue _fun0001 }
- 582:
+            if(var16) { _fun0001_ip = 604; continue _fun0001 }
+ 581:
             var18 = var17.YtsXFB;
             var16 = {};
             var16['channelName'] = var22;
             var16 = var19.bind(var20)(var18, var16);
-            _fun0001_ip = 631; continue _fun0001;
- 605:
+            _fun0001_ip = 630; continue _fun0001;
+ 604:
             var18 = var17.AAeye3;
             var17 = {};
             var21 = var21.size;
             var17['numTags'] = var21;
             var16 = var19.bind(var20)(var18, var17);
- 631:
+ 630:
             var12['children'] = var16;
             var12 = var15.bind(var4)(var14, var12);
             var11[2] = var12;
@@ -252,8 +252,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9[2] = var10;
             var5['children'] = var9;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 759; continue _fun0001;
- 727:
+            _fun0001_ip = 758; continue _fun0001;
+ 726:
             var8 = _closure1_slot5;
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -262,7 +262,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var7.bind(var4)(var6);
             var6 = {};
             var5 = var8.bind(var4)(var7, var6);
- 759:
+ 758:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

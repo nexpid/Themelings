@@ -1,8 +1,8 @@
 // discord_common/js/packages/media-engine/native/transformStats.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var4 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var4 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var4;
     var1 = function convertAudioLevel(arg1) {
@@ -385,11 +385,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var3 = var3.bind(var4)(var2);
             var4 = null;
-            if(!(var4 == var3)) { _fun0004_ip = 39; continue _fun0004 }
- 35:
+            if(!(var4 == var3)) { _fun0004_ip = 40; continue _fun0004 }
+ 36:
             var2 = undefined;
             return var2;
- 39:
+ 40:
             var8 = var5.substreams;
             var7 = var8.reduce;
             var2 = function(arg1, arg2) {
@@ -451,30 +451,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var3.rtcpStats;
             var9 = var4 == var7;
             var8 = undefined;
-            if(var9) { _fun0004_ip = 257; continue _fun0004 }
- 251:
+            if(var9) { _fun0004_ip = 258; continue _fun0004 }
+ 252:
             var8 = var7.packetsLost;
- 257:
+ 258:
             var9 = var4 != var8;
             var7 = 0;
-            if(!var9) { _fun0004_ip = 269; continue _fun0004 }
- 266:
+            if(!var9) { _fun0004_ip = 270; continue _fun0004 }
+ 267:
             var7 = var8;
- 269:
+ 270:
             var1['packetsLost'] = var7;
             var7 = var3.rtcpStats;
             var9 = var4 == var7;
             var8 = undefined;
-            if(var9) { _fun0004_ip = 295; continue _fun0004 }
- 289:
+            if(var9) { _fun0004_ip = 296; continue _fun0004 }
+ 290:
             var8 = var7.fractionLost;
- 295:
+ 296:
             var9 = var4 != var8;
             var7 = 0;
-            if(!var9) { _fun0004_ip = 307; continue _fun0004 }
- 304:
+            if(!var9) { _fun0004_ip = 308; continue _fun0004 }
+ 305:
             var7 = var8;
- 307:
+ 308:
             var1['fractionLost'] = var7;
             var7 = var5.mediaBitrate;
             var1['bitrate'] = var7;
@@ -510,44 +510,44 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var3.rtcpStats;
             var9 = var4 == var7;
             var8 = undefined;
-            if(var9) { _fun0004_ip = 502; continue _fun0004 }
- 496:
+            if(var9) { _fun0004_ip = 503; continue _fun0004 }
+ 497:
             var8 = var7.firPackets;
- 502:
+ 503:
             var9 = var4 != var8;
             var7 = 0;
-            if(!var9) { _fun0004_ip = 514; continue _fun0004 }
- 511:
+            if(!var9) { _fun0004_ip = 515; continue _fun0004 }
+ 512:
             var7 = var8;
- 514:
+ 515:
             var1['firCount'] = var7;
             var7 = var3.rtcpStats;
             var9 = var4 == var7;
             var8 = undefined;
-            if(var9) { _fun0004_ip = 540; continue _fun0004 }
- 534:
+            if(var9) { _fun0004_ip = 541; continue _fun0004 }
+ 535:
             var8 = var7.nackPackets;
- 540:
+ 541:
             var9 = var4 != var8;
             var7 = 0;
-            if(!var9) { _fun0004_ip = 552; continue _fun0004 }
- 549:
+            if(!var9) { _fun0004_ip = 553; continue _fun0004 }
+ 550:
             var7 = var8;
- 552:
+ 553:
             var1['nackCount'] = var7;
             var8 = var3.rtcpStats;
             var9 = var4 == var8;
             var7 = undefined;
-            if(var9) { _fun0004_ip = 578; continue _fun0004 }
- 572:
+            if(var9) { _fun0004_ip = 579; continue _fun0004 }
+ 573:
             var7 = var8.pliPackets;
- 578:
+ 579:
             var8 = var4 != var7;
             var6 = 0;
-            if(!var8) { _fun0004_ip = 590; continue _fun0004 }
- 587:
+            if(!var8) { _fun0004_ip = 591; continue _fun0004 }
+ 588:
             var6 = var7;
- 590:
+ 591:
             var1['pliCount'] = var6;
             var6 = var5.qpSum;
             var1['qpSum'] = var6;
@@ -566,100 +566,100 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var3.encoderQualityStats;
             var8 = var4 == var6;
             var7 = undefined;
-            if(var8) { _fun0004_ip = 697; continue _fun0004 }
- 689:
+            if(var8) { _fun0004_ip = 698; continue _fun0004 }
+ 690:
             var7 = var6.imageQualityVmaf_v061;
- 697:
+ 698:
             var8 = var4 != var7;
             var6 = undefined;
-            if(!var8) { _fun0004_ip = 709; continue _fun0004 }
- 706:
+            if(!var8) { _fun0004_ip = 710; continue _fun0004 }
+ 707:
             var6 = var7;
- 709:
+ 710:
             var1['encoderQualityVmaf'] = var6;
             var6 = var3.encoderQualityStats;
             var8 = var4 == var6;
             var7 = undefined;
-            if(var8) { _fun0004_ip = 737; continue _fun0004 }
- 729:
+            if(var8) { _fun0004_ip = 738; continue _fun0004 }
+ 730:
             var7 = var6.imageQualityWebrtcPsnrDb;
- 737:
+ 738:
             var8 = var4 != var7;
             var6 = undefined;
-            if(!var8) { _fun0004_ip = 749; continue _fun0004 }
- 746:
+            if(!var8) { _fun0004_ip = 750; continue _fun0004 }
+ 747:
             var6 = var7;
- 749:
+ 750:
             var1['encoderQualityPsnr'] = var6;
             var6 = var3.encoderQualityStats;
             var8 = var4 == var6;
             var7 = undefined;
-            if(var8) { _fun0004_ip = 777; continue _fun0004 }
- 769:
+            if(var8) { _fun0004_ip = 778; continue _fun0004 }
+ 770:
             var7 = var6.decodeErrors;
- 777:
+ 778:
             var8 = var4 != var7;
             var6 = undefined;
-            if(!var8) { _fun0004_ip = 789; continue _fun0004 }
- 786:
+            if(!var8) { _fun0004_ip = 790; continue _fun0004 }
+ 787:
             var6 = var7;
- 789:
+ 790:
             var1['qualityDecodeErrors'] = var6;
             var6 = var3.encoderQualityStats;
             var8 = var4 == var6;
             var7 = undefined;
-            if(var8) { _fun0004_ip = 817; continue _fun0004 }
- 809:
+            if(var8) { _fun0004_ip = 818; continue _fun0004 }
+ 810:
             var7 = var6.decoderReboots;
- 817:
+ 818:
             var8 = var4 != var7;
             var6 = undefined;
-            if(!var8) { _fun0004_ip = 829; continue _fun0004 }
- 826:
+            if(!var8) { _fun0004_ip = 830; continue _fun0004 }
+ 827:
             var6 = var7;
- 829:
+ 830:
             var1['qualityDecoderReboots'] = var6;
             var6 = var3.encoderQualityStats;
             var8 = var4 == var6;
             var7 = undefined;
-            if(var8) { _fun0004_ip = 857; continue _fun0004 }
- 849:
+            if(var8) { _fun0004_ip = 858; continue _fun0004 }
+ 850:
             var7 = var6.scoreErrors;
- 857:
+ 858:
             var8 = var4 != var7;
             var6 = undefined;
-            if(!var8) { _fun0004_ip = 869; continue _fun0004 }
- 866:
+            if(!var8) { _fun0004_ip = 870; continue _fun0004 }
+ 867:
             var6 = var7;
- 869:
+ 870:
             var1['qualityScoreErrors'] = var6;
             var6 = var3.encoderQualityStats;
             var8 = var4 == var6;
             var7 = undefined;
-            if(var8) { _fun0004_ip = 897; continue _fun0004 }
- 889:
+            if(var8) { _fun0004_ip = 898; continue _fun0004 }
+ 890:
             var7 = var6.frameDrops;
- 897:
+ 898:
             var8 = var4 != var7;
             var6 = undefined;
-            if(!var8) { _fun0004_ip = 909; continue _fun0004 }
- 906:
+            if(!var8) { _fun0004_ip = 910; continue _fun0004 }
+ 907:
             var6 = var7;
- 909:
+ 910:
             var1['qualityFrameDrops'] = var6;
             var6 = var3.encoderQualityStats;
             var8 = var4 == var6;
             var7 = undefined;
-            if(var8) { _fun0004_ip = 937; continue _fun0004 }
- 929:
+            if(var8) { _fun0004_ip = 938; continue _fun0004 }
+ 930:
             var7 = var6.sizeMismatches;
- 937:
+ 938:
             var8 = var4 != var7;
             var6 = undefined;
-            if(!var8) { _fun0004_ip = 949; continue _fun0004 }
- 946:
+            if(!var8) { _fun0004_ip = 950; continue _fun0004 }
+ 947:
             var6 = var7;
- 949:
+ 950:
             var1['qualitySizeMismatches'] = var6;
             var6 = var5.filter;
             var1['filter'] = var6;
@@ -686,34 +686,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var3.encoderQualityStats;
             var7 = var4 == var6;
             var5 = undefined;
-            if(var7) { _fun0004_ip = 1096; continue _fun0004 }
- 1090:
+            if(var7) { _fun0004_ip = 1097; continue _fun0004 }
+ 1091:
             var5 = var6.freezeCount;
- 1096:
+ 1097:
             var1['freezeCount'] = var5;
             var6 = var3.encoderQualityStats;
             var7 = var4 == var6;
             var5 = undefined;
-            if(var7) { _fun0004_ip = 1122; continue _fun0004 }
- 1116:
+            if(var7) { _fun0004_ip = 1123; continue _fun0004 }
+ 1117:
             var5 = var6.totalFreezesDuration;
- 1122:
+ 1123:
             var1['totalFreezesDuration'] = var5;
             var6 = var3.encoderQualityStats;
             var7 = var4 == var6;
             var5 = undefined;
-            if(var7) { _fun0004_ip = 1148; continue _fun0004 }
- 1142:
+            if(var7) { _fun0004_ip = 1149; continue _fun0004 }
+ 1143:
             var5 = var6.totalFramesDuration;
- 1148:
+ 1149:
             var1['totalFramesDuration'] = var5;
             var3 = var3.encoderQualityStats;
             var4 = var4 == var3;
             var2 = undefined;
-            if(var4) { _fun0004_ip = 1176; continue _fun0004 }
- 1168:
+            if(var4) { _fun0004_ip = 1177; continue _fun0004 }
+ 1169:
             var2 = var3.interFrameEntropy;
- 1176:
+ 1177:
             var1['videoEntropy'] = var2;
             return var1;
         }

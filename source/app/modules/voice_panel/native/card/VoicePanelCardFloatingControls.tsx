@@ -1,9 +1,9 @@
 // app/modules/voice_panel/native/card/VoicePanelCardFloatingControls.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -271,8 +271,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var3 = var3.bind(var4)(var2);
             var2 = null;
-            if(!(var2 == var3)) { _fun0004_ip = 269; continue _fun0004 }
- 34:
+            if(!(var2 == var3)) { _fun0004_ip = 271; continue _fun0004 }
+ 35:
             var3 = var4.find;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -289,10 +289,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var1 = var3.bind(var4)(var1);
-            if(!(var2 == var1)) { _fun0004_ip = 57; continue _fun0004 }
- 55:
-            return var5;
+            if(!(var2 == var1)) { _fun0004_ip = 59; continue _fun0004 }
  57:
+            return var5;
+ 59:
             var3 = var1.muteDeafenIconState;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -302,16 +302,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var4.bind(var6)(var2);
             var2 = var2.MuteDeafenIconState;
             var2 = var2.DEAFENED;
-            if(!(var2 !== var3)) { _fun0004_ip = 203; continue _fun0004 }
- 104:
+            if(!(var2 !== var3)) { _fun0004_ip = 205; continue _fun0004 }
+ 106:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var7];
             var2 = var4.bind(var6)(var2);
             var2 = var2.MuteDeafenIconState;
             var2 = var2.DEAFENED_SERVER;
-            if(!(var2 !== var3)) { _fun0004_ip = 203; continue _fun0004 }
- 137:
+            if(!(var2 !== var3)) { _fun0004_ip = 205; continue _fun0004 }
+ 139:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 23;
@@ -327,7 +327,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['username'] = var5;
             var2 = var4.bind(var7)(var3, var2);
             return var2;
- 203:
+ 205:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 23;
@@ -343,7 +343,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['username'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 269:
+ 271:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 23;
@@ -373,7 +373,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot3 = var7;

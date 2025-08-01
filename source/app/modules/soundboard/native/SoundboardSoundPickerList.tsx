@@ -1,9 +1,9 @@
 // app/modules/soundboard/native/SoundboardSoundPickerList.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
@@ -198,50 +198,50 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var5.bind(var6)(var3);
             var3 = var3.SoundboardSoundGridSectionType;
             var3 = var3.GUILD;
-            if(!(var3 !== var4)) { _fun0004_ip = 471; continue _fun0004 }
- 63:
+            if(!(var3 !== var4)) { _fun0004_ip = 472; continue _fun0004 }
+ 64:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.SoundboardSoundGridSectionType;
             var3 = var3.DEFAULTS;
-            if(!(var3 !== var4)) { _fun0004_ip = 414; continue _fun0004 }
- 99:
+            if(!(var3 !== var4)) { _fun0004_ip = 415; continue _fun0004 }
+ 100:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.SoundboardSoundGridSectionType;
             var3 = var3.FAVORITES;
-            if(!(var3 !== var4)) { _fun0004_ip = 357; continue _fun0004 }
- 135:
+            if(!(var3 !== var4)) { _fun0004_ip = 358; continue _fun0004 }
+ 136:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.SoundboardSoundGridSectionType;
             var3 = var3.SEARCH;
-            if(!(var3 !== var4)) { _fun0004_ip = 353; continue _fun0004 }
- 171:
+            if(!(var3 !== var4)) { _fun0004_ip = 354; continue _fun0004 }
+ 172:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.SoundboardSoundGridSectionType;
             var3 = var3.RECENTLY_HEARD;
-            if(!(var3 !== var4)) { _fun0004_ip = 296; continue _fun0004 }
- 204:
+            if(!(var3 !== var4)) { _fun0004_ip = 297; continue _fun0004 }
+ 205:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
             var3 = var3[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.SoundboardSoundGridSectionType;
             var3 = var3.FREQUENTLY_USED;
-            if(!(var3 !== var4)) { _fun0004_ip = 239; continue _fun0004 }
- 237:
+            if(!(var3 !== var4)) { _fun0004_ip = 240; continue _fun0004 }
+ 238:
             return var6;
- 239:
+ 240:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 8;
@@ -255,7 +255,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.+cGVV1;
             var3 = var4.bind(var5)(var3);
             return var3;
- 296:
+ 297:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 8;
@@ -269,10 +269,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.8i/+SE;
             var3 = var4.bind(var5)(var3);
             return var3;
- 353:
+ 354:
             var3 = null;
             return var3;
- 357:
+ 358:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 8;
@@ -286,7 +286,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.y3LQCA;
             var3 = var4.bind(var5)(var3);
             return var3;
- 414:
+ 415:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 8;
@@ -300,7 +300,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.Rtvk9f;
             var2 = var3.bind(var4)(var2);
             return var2;
- 471:
+ 472:
             var1 = var1.category;
             var1 = var1.categoryInfo;
             var1 = var1.guild;
@@ -319,7 +319,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var9)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot3 = var7;
@@ -411,10 +411,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var3 = var4.bind(var10)(var3, var1);
             var1 = null;
-            if(!(var1 != var8)) { _fun0005_ip = 287; continue _fun0005 }
+            if(!(var1 != var8)) { _fun0005_ip = 288; continue _fun0005 }
  109:
             var10 = !var3;
-            if(!var10) { _fun0005_ip = 163; continue _fun0005 }
+            if(!var10) { _fun0005_ip = 164; continue _fun0005 }
  115:
             var4 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -426,7 +426,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var8.category;
             var2 = var2.categoryInfo;
             var10 = var4.bind(var12)(var3, var2);
- 163:
+ 164:
             _closure2_slot3 = var10;
             var4 = _closure1_slot7;
             var3 = _closure1_slot4;
@@ -435,8 +435,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = new Array(1);
             var11[0] = var12;
             var2['style'] = var11;
-            if(!var10) { _fun0005_ip = 236; continue _fun0005 }
- 198:
+            if(!var10) { _fun0005_ip = 237; continue _fun0005 }
+ 199:
             var12 = _closure1_slot6;
             var11 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -446,7 +446,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var6.PremiumUpsellGradientBackground;
             var6 = {};
             var10 = var12.bind(var5)(var11, var6);
- 236:
+ 237:
             var6 = new Array(2);
             var6[0] = var10;
             var8 = var8.soundsByRow;
@@ -530,7 +530,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 287:
+ 288:
             return var1;
         }
     };
@@ -622,53 +622,53 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.SoundboardSoundGridSectionType;
                     var1 = var1.GUILD;
-                    if(!(var1 !== var2)) { _fun0009_ip = 511; continue _fun0009 }
- 63:
+                    if(!(var1 !== var2)) { _fun0009_ip = 512; continue _fun0009 }
+ 64:
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var6];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.SoundboardSoundGridSectionType;
                     var1 = var1.DEFAULTS;
-                    if(!(var1 !== var2)) { _fun0009_ip = 444; continue _fun0009 }
- 99:
+                    if(!(var1 !== var2)) { _fun0009_ip = 445; continue _fun0009 }
+ 100:
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var6];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.SoundboardSoundGridSectionType;
                     var1 = var1.FAVORITES;
-                    if(!(var1 !== var2)) { _fun0009_ip = 377; continue _fun0009 }
- 135:
+                    if(!(var1 !== var2)) { _fun0009_ip = 378; continue _fun0009 }
+ 136:
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var6];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.SoundboardSoundGridSectionType;
                     var1 = var1.RECENTLY_HEARD;
-                    if(!(var1 !== var2)) { _fun0009_ip = 310; continue _fun0009 }
- 171:
+                    if(!(var1 !== var2)) { _fun0009_ip = 311; continue _fun0009 }
+ 172:
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var6];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.SoundboardSoundGridSectionType;
                     var1 = var1.FREQUENTLY_USED;
-                    if(!(var1 !== var2)) { _fun0009_ip = 243; continue _fun0009 }
- 204:
+                    if(!(var1 !== var2)) { _fun0009_ip = 244; continue _fun0009 }
+ 205:
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var6];
                     var1 = var3.bind(var4)(var1);
                     var1 = var1.SoundboardSoundGridSectionType;
                     var1 = var1.SEARCH;
-                    if(!(var1 !== var2)) { _fun0009_ip = 239; continue _fun0009 }
- 237:
+                    if(!(var1 !== var2)) { _fun0009_ip = 240; continue _fun0009 }
+ 238:
                     return var4;
- 239:
+ 240:
                     var1 = null;
                     return var1;
- 243:
+ 244:
                     var3 = _closure1_slot6;
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -685,7 +685,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['style'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
- 310:
+ 311:
                     var3 = _closure1_slot6;
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -702,7 +702,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['style'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
- 377:
+ 378:
                     var3 = _closure1_slot6;
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -719,7 +719,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['style'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
- 444:
+ 445:
                     var3 = _closure1_slot6;
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -736,7 +736,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['style'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
- 511:
+ 512:
                     var3 = _closure1_slot6;
                     var2 = _closure1_slot1;
                     var8 = _closure1_slot2;
@@ -775,7 +775,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = null;
                     var1 = var3 != var4;
  30:
-                    if(!var1) { _fun0010_ip = 98; continue _fun0010 }
+                    if(!var1) { _fun0010_ip = 99; continue _fun0010 }
  33:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -791,7 +791,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.category;
                     var2 = var2.categoryInfo;
                     var1 = var4.bind(var5)(var3, var2);
- 98:
+ 99:
                     return var1;
                 }
             };
@@ -889,7 +889,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = 9;
             var14 = 18;
             var12 = 8;
-            if(var7) { _fun0007_ip = 443; continue _fun0007 }
+            if(var7) { _fun0007_ip = 444; continue _fun0007 }
  344:
             var23 = var11.value;
             var19 = _closure1_slot1;
@@ -914,7 +914,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var19.done;
             var11 = var19;
             if(!var7) { _fun0007_ip = 344; continue _fun0007 }
- 443:
+ 444:
             _closure2_slot6 = var13;
             var12 = _closure1_slot3;
             var14 = var12.useMemo;

@@ -1,9 +1,9 @@
 // app/modules/guild_member_verification/native/components/MemberVerificationGuildHeader.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var17 = 0;
     var7 = var6[var17];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var4 = 1;
@@ -442,21 +442,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var15[var16];
             var15 = var17.bind(var4)(var15);
             var17 = var15.t;
-            if(var11) { _fun0001_ip = 931; continue _fun0001 }
- 903:
+            if(var11) { _fun0001_ip = 929; continue _fun0001 }
+ 901:
             var18 = var17.VnxBOD;
             var15 = {};
             var22 = var21.name;
             var15['guildName'] = var22;
             var15 = var19.bind(var20)(var18, var15);
-            _fun0001_ip = 957; continue _fun0001;
- 931:
+            _fun0001_ip = 955; continue _fun0001;
+ 929:
             var18 = var17.cgX47e;
             var17 = {};
             var21 = var21.name;
             var17['guildName'] = var21;
             var15 = var19.bind(var20)(var18, var17);
- 957:
+ 955:
             var8['children'] = var15;
             var8 = var10.bind(var4)(var9, var8);
             var7[1] = var8;
@@ -478,15 +478,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var12[var16];
             var12 = var15.bind(var4)(var12);
             var12 = var12.t;
-            if(var11) { _fun0001_ip = 1082; continue _fun0001 }
- 1067:
+            if(var11) { _fun0001_ip = 1080; continue _fun0001 }
+ 1065:
             var11 = var12.7D3C5u;
             var11 = var13.bind(var14)(var11);
-            _fun0001_ip = 1095; continue _fun0001;
- 1082:
+            _fun0001_ip = 1093; continue _fun0001;
+ 1080:
             var12 = var12.3smSPD;
             var11 = var13.bind(var14)(var12);
- 1095:
+ 1093:
             var8['children'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var7[2] = var8;

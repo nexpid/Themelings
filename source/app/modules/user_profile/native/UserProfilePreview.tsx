@@ -1,9 +1,9 @@
 // app/modules/user_profile/native/UserProfilePreview.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var8 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var4 = 1;
@@ -176,10 +176,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.useCustomStatusActivity;
             var34 = var1.bind(var2)();
             var21 = var9 != var34;
-            if(!var21) { _fun0002_ip = 211; continue _fun0002 }
- 208:
+            if(!var21) { _fun0002_ip = 210; continue _fun0002 }
+ 207:
             var21 = !var20;
- 211:
+ 210:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 11;
@@ -200,16 +200,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.getPreviewProfileEffectId;
             var1 = {};
             var6 = null;
-            if(!(var6 !== var8)) { _fun0002_ip = 320; continue _fun0002 }
- 303:
+            if(!(var6 !== var8)) { _fun0002_ip = 318; continue _fun0002 }
+ 301:
             var11 = var9 == var8;
             var7 = undefined;
-            if(var11) { _fun0002_ip = 317; continue _fun0002 }
- 312:
+            if(var11) { _fun0002_ip = 315; continue _fun0002 }
+ 310:
             var7 = var8.id;
- 317:
+ 315:
             var6 = var7;
- 320:
+ 318:
             var1['pendingProfileEffectId'] = var6;
             var1['displayProfile'] = var24;
             var14 = var2.bind(var3)(var1);
@@ -284,17 +284,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8['pendingAvatarSrc'] = var41;
             var17 = var9 != var16;
             var12 = undefined;
-            if(!var17) { _fun0002_ip = 652; continue _fun0002 }
- 649:
+            if(!var17) { _fun0002_ip = 649; continue _fun0002 }
+ 646:
             var12 = var16;
- 652:
+ 649:
             var8['pendingAccentColor'] = var12;
             var16 = var9 != var15;
             var12 = undefined;
-            if(!var16) { _fun0002_ip = 669; continue _fun0002 }
- 666:
+            if(!var16) { _fun0002_ip = 666; continue _fun0002 }
+ 663:
             var12 = var15;
- 669:
+ 666:
             var8['pendingThemeColors'] = var12;
             var38 = true;
             var8['disableInteraction'] = var38;
@@ -331,25 +331,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = new Array(3);
             var19[0] = var22;
             var22 = !var21;
-            if(var21) { _fun0002_ip = 835; continue _fun0002 }
- 821:
+            if(var21) { _fun0002_ip = 832; continue _fun0002 }
+ 818:
             var23 = {};
             var36 = _closure1_slot5;
             var23['paddingTop'] = var36;
             var22 = var23;
- 835:
+ 832:
             var19[1] = var22;
             var22 = {};
             var23 = undefined;
-            if(!var35) { _fun0002_ip = 852; continue _fun0002 }
- 846:
+            if(!var35) { _fun0002_ip = 849; continue _fun0002 }
+ 843:
             var23 = '100%';
- 852:
+ 849:
             var22['height'] = var23;
             var19[2] = var22;
             var17['containerStyle'] = var19;
-            if(!var21) { _fun0002_ip = 946; continue _fun0002 }
- 868:
+            if(!var21) { _fun0002_ip = 943; continue _fun0002 }
+ 865:
             var23 = _closure1_slot7;
             var22 = _closure1_slot1;
             var35 = _closure1_slot2;
@@ -367,7 +367,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var32 = var32.emojiOnlyCustomStatusBubble;
             var19['emojiOnlyStyle'] = var32;
             var21 = var23.bind(var4)(var22, var19);
- 946:
+ 943:
             var19 = new Array(3);
             var19[0] = var21;
             var23 = _closure1_slot7;
@@ -382,16 +382,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var32 = var32.PREVIEW;
             var21['themeType'] = var32;
             var21['displayName'] = var31;
-            if(!(var9 == var30)) { _fun0002_ip = 1025; continue _fun0002 }
- 1007:
+            if(!(var9 == var30)) { _fun0002_ip = 1022; continue _fun0002 }
+ 1004:
             var32 = var9 == var24;
             var31 = undefined;
-            if(var32) { _fun0002_ip = 1022; continue _fun0002 }
- 1016:
+            if(var32) { _fun0002_ip = 1019; continue _fun0002 }
+ 1013:
             var31 = var24.pronouns;
- 1022:
+ 1019:
             var30 = var31;
- 1025:
+ 1022:
             var21['pronouns'] = var30;
             var21['badges'] = var29;
             var21['badgeContainerBackground'] = var27;
@@ -399,8 +399,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = var23.bind(var4)(var22, var21);
             var19[1] = var21;
             var20 = !var20;
-            if(!var20) { _fun0002_ip = 1168; continue _fun0002 }
- 1061:
+            if(!var20) { _fun0002_ip = 1165; continue _fun0002 }
+ 1058:
             var23 = _closure1_slot7;
             var22 = _closure1_slot1;
             var28 = _closure1_slot2;
@@ -423,13 +423,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21['style'] = var24;
             var26 = var9 != var25;
             var24 = 3;
-            if(!var26) { _fun0002_ip = 1157; continue _fun0002 }
- 1154:
+            if(!var26) { _fun0002_ip = 1154; continue _fun0002 }
+ 1151:
             var24 = var25;
- 1157:
+ 1154:
             var21['bioLineClamp'] = var24;
             var20 = var23.bind(var4)(var22, var21);
- 1168:
+ 1165:
             var19[2] = var20;
             var17['children'] = var19;
             var17 = var15.bind(var4)(var18, var17);
@@ -438,8 +438,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var15.bind(var4)(var12, var11);
             var8[1] = var11;
             var9 = var9 != var14;
-            if(!var9) { _fun0002_ip = 1254; continue _fun0002 }
- 1207:
+            if(!var9) { _fun0002_ip = 1251; continue _fun0002 }
+ 1204:
             var12 = _closure1_slot7;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -451,7 +451,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var13.profileEffect;
             var10['style'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 1254:
+ 1251:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

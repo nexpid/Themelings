@@ -1,8 +1,8 @@
 // app/lib/uploader/webpConversion.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var10 = native3;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var10 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
     var1 = function isValidChunkType(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -1132,7 +1132,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var8;
     var8 = 2;
     var9 = var9[var8];
-    var8 = native2;
+    var8 = require;
     var10 = var8.bind(var1)(var9);
     var9 = var10.fileFinishedImporting;
     var8 = 'lib/uploader/webpConversion.tsx';

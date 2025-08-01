@@ -1,9 +1,9 @@
 // app/modules/guild_sidebar/SectionFooterHelpers.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var1 = function isSectionFooterWithDivider(arg1, arg2, arg3) {
@@ -168,8 +168,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.id;
             var4 = var4.bind(var5)(var2);
             var2 = true;
-            if(!(var2 === var4)) { _fun0003_ip = 104; continue _fun0003 }
- 75:
+            if(!(var2 === var4)) { _fun0003_ip = 105; continue _fun0003 }
+ 76:
             var2 = var3.getChannelRecords;
             var3 = var2.bind(var3)();
             var2 = var3.filter;
@@ -214,10 +214,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var1 = var2.bind(var3)(var1);
-            _fun0003_ip = 108; continue _fun0003;
- 104:
+            _fun0003_ip = 109; continue _fun0003;
+ 105:
             var1 = new Array(0);
- 108:
+ 109:
             return var1;
         }
     };

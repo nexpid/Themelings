@@ -1,9 +1,9 @@
 // app/modules/channel_list_v2/native/hooks/useChannelListData.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
@@ -198,7 +198,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -521,10 +521,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4['index'] = var9;
                             var3 = var4.kind;
                             var6 = 'channel';
-                            if(!(var6 !== var3)) { _fun0008_ip = 220; continue _fun0008 }
+                            if(!(var6 !== var3)) { _fun0008_ip = 221; continue _fun0008 }
  37:
                             var1 = 'thread';
-                            if(!(var1 !== var3)) { _fun0008_ip = 171; continue _fun0008 }
+                            if(!(var1 !== var3)) { _fun0008_ip = 172; continue _fun0008 }
  48:
                             var1 = 'sectionHeaderCategory';
                             if(!(var1 !== var3)) { _fun0008_ip = 126; continue _fun0008 }
@@ -536,7 +536,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             if(!(var1 !== var3)) { _fun0008_ip = 88; continue _fun0008 }
  78:
                             var1 = var4.kind;
-                            _fun0008_ip = 271; continue _fun0008;
+                            _fun0008_ip = 272; continue _fun0008;
  88:
                             var8 = var4.kind;
                             var3 = global;
@@ -545,7 +545,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var5 = '';
                             var3 = '-';
                             var1 = var7.bind(var5)(var8, var3, var9);
-                            _fun0008_ip = 271; continue _fun0008;
+                            _fun0008_ip = 272; continue _fun0008;
  126:
                             var9 = var4.kind;
                             var3 = var4.category;
@@ -556,8 +556,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var5 = '';
                             var3 = '-';
                             var1 = var7.bind(var5)(var9, var3, var8);
-                            _fun0008_ip = 271; continue _fun0008;
- 171:
+                            _fun0008_ip = 272; continue _fun0008;
+ 172:
                             var15 = var4.kind;
                             var13 = var4.section;
                             var11 = var4.threadId;
@@ -569,8 +569,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var14 = var3;
                             var12 = var3;
                             var1 = var16[var7](var15, var14, var13, var12, var11, var10);
-                            _fun0008_ip = 271; continue _fun0008;
- 220:
+                            _fun0008_ip = 272; continue _fun0008;
+ 221:
                             var15 = var4.kind;
                             var13 = var4.section;
                             var3 = var4.channel;
@@ -583,113 +583,113 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var14 = var3;
                             var12 = var3;
                             var1 = var16[var7](var15, var14, var13, var12, var11, var10);
- 271:
+ 272:
                             var4['itemKey'] = var1;
                             var1 = var4.kind;
                             var3 = 'sectionHeaderCategory';
                             var1 = var3 === var1;
-                            if(var1) { _fun0008_ip = 310; continue _fun0008 }
- 295:
+                            if(var1) { _fun0008_ip = 311; continue _fun0008 }
+ 296:
                             var7 = var4.kind;
                             var5 = 'sectionHeaderFavorites';
                             var1 = var5 === var7;
- 310:
-                            if(var1) { _fun0008_ip = 328; continue _fun0008 }
- 313:
+ 311:
+                            if(var1) { _fun0008_ip = 329; continue _fun0008 }
+ 314:
                             var7 = var4.kind;
                             var5 = 'sectionHeaderRecents';
                             var1 = var5 === var7;
- 328:
-                            if(var1) { _fun0008_ip = 346; continue _fun0008 }
- 331:
+ 329:
+                            if(var1) { _fun0008_ip = 347; continue _fun0008 }
+ 332:
                             var7 = var4.kind;
                             var5 = 'sectionHeaderRecentlyVisited';
                             var1 = var5 === var7;
- 346:
-                            if(var1) { _fun0008_ip = 416; continue _fun0008 }
- 349:
+ 347:
+                            if(var1) { _fun0008_ip = 417; continue _fun0008 }
+ 350:
                             var5 = var4.kind;
                             var5 = var6 === var5;
-                            if(!var5) { _fun0008_ip = 388; continue _fun0008 }
- 361:
+                            if(!var5) { _fun0008_ip = 389; continue _fun0008 }
+ 362:
                             var6 = var4.channel;
                             var7 = var6.type;
                             var6 = _closure1_slot14;
                             var6 = var6.GUILD_CATEGORY;
                             var5 = var7 === var6;
- 388:
-                            if(!var5) { _fun0008_ip = 413; continue _fun0008 }
- 391:
+ 389:
+                            if(!var5) { _fun0008_ip = 414; continue _fun0008 }
+ 392:
                             var7 = var4.section;
                             var6 = _closure2_slot0;
                             var6 = var6.voiceChannelsSectionNumber;
                             var5 = var7 === var6;
- 413:
+ 414:
                             var1 = var5;
- 416:
-                            if(!var1) { _fun0008_ip = 528; continue _fun0008 }
- 419:
+ 417:
+                            if(!var1) { _fun0008_ip = 529; continue _fun0008 }
+ 420:
                             var5 = _closure3_slot0;
                             var7 = null;
                             var9 = var7 == var5;
                             var6 = undefined;
-                            if(var9) { _fun0008_ip = 439; continue _fun0008 }
- 434:
+                            if(var9) { _fun0008_ip = 440; continue _fun0008 }
+ 435:
                             var6 = var5.kind;
- 439:
+ 440:
                             var5 = 'happeningNow';
                             var5 = var5 === var6;
-                            if(var5) { _fun0008_ip = 478; continue _fun0008 }
- 450:
+                            if(var5) { _fun0008_ip = 479; continue _fun0008 }
+ 451:
                             var6 = _closure3_slot0;
                             var9 = var7 == var6;
                             var8 = undefined;
-                            if(var9) { _fun0008_ip = 468; continue _fun0008 }
- 463:
+                            if(var9) { _fun0008_ip = 469; continue _fun0008 }
+ 464:
                             var8 = var6.kind;
- 468:
+ 469:
                             var6 = 'sectionFooterSeparator';
                             var5 = var6 === var8;
- 478:
-                            if(var5) { _fun0008_ip = 489; continue _fun0008 }
- 481:
+ 479:
+                            if(var5) { _fun0008_ip = 490; continue _fun0008 }
+ 482:
                             var6 = _closure3_slot0;
                             var5 = var7 == var6;
- 489:
-                            if(var5) { _fun0008_ip = 525; continue _fun0008 }
- 492:
+ 490:
+                            if(var5) { _fun0008_ip = 526; continue _fun0008 }
+ 493:
                             var6 = _closure3_slot0;
                             var6 = var7 != var6;
-                            if(!var6) { _fun0008_ip = 522; continue _fun0008 }
- 503:
+                            if(!var6) { _fun0008_ip = 523; continue _fun0008 }
+ 504:
                             var7 = _closure3_slot0;
                             var8 = var7.kind;
                             var7 = 'newPanelsListHeader';
                             var6 = var7 === var8;
- 522:
+ 523:
                             var5 = var6;
- 525:
+ 526:
                             var1 = var5;
- 528:
-                            if(!var1) { _fun0008_ip = 539; continue _fun0008 }
- 531:
+ 529:
+                            if(!var1) { _fun0008_ip = 540; continue _fun0008 }
+ 532:
                             var1 = true;
                             var4['isFirstCategory'] = var1;
- 539:
+ 540:
                             var1 = var4.kind;
-                            if(!(var3 === var1)) { _fun0008_ip = 589; continue _fun0008 }
- 548:
+                            if(!(var3 === var1)) { _fun0008_ip = 590; continue _fun0008 }
+ 549:
                             var3 = var4.isFirstCategory;
                             var1 = _closure2_slot8;
-                            if(var3) { _fun0008_ip = 583; continue _fun0008 }
- 564:
+                            if(var3) { _fun0008_ip = 584; continue _fun0008 }
+ 565:
                             var3 = _closure1_slot11;
                             var3 = var1 + var3;
                             var4['height'] = var3;
-                            _fun0008_ip = 589; continue _fun0008;
- 583:
+                            _fun0008_ip = 590; continue _fun0008;
+ 584:
                             var4['height'] = var1;
- 589:
+ 590:
                             var3 = _closure3_slot2;
                             var1 = var4.height;
                             var1 = var3 + var1;
@@ -711,13 +711,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var4 = var5.isReadableItem;
                             var3 = _closure3_slot0;
                             var3 = var4.bind(var5)(var3);
-                            if(!var3) { _fun0008_ip = 706; continue _fun0008 }
- 688:
+                            if(!var3) { _fun0008_ip = 707; continue _fun0008 }
+ 689:
                             var4 = _closure3_slot5;
                             var3 = var4.push;
                             var2 = _closure3_slot0;
                             var2 = var3.bind(var4)(var2);
- 706:
+ 707:
                             return var1;
                         }
                     };
@@ -769,7 +769,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = undefined;
                     var6 = undefined;
                     var5 = undefined;
-                    if(var1) { _fun0007_ip = 1346; continue _fun0007 }
+                    if(var1) { _fun0007_ip = 1350; continue _fun0007 }
  206:
                     var46 = var12.value;
                     var40 = var27 + 1;
@@ -788,7 +788,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var36 = var9;
                     var35 = var8;
                     var34 = var5;
-                    if(!var1) { _fun0007_ip = 1310; continue _fun0007 }
+                    if(!var1) { _fun0007_ip = 1314; continue _fun0007 }
  276:
                     var39 = _closure1_slot0;
                     var1 = _closure1_slot2;
@@ -797,7 +797,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var39 = var41.isFavoritesSection;
                     var1 = _closure2_slot0;
                     var1 = var39.bind(var41)(var40, var1);
-                    if(var1) { _fun0007_ip = 790; continue _fun0007 }
+                    if(var1) { _fun0007_ip = 792; continue _fun0007 }
  315:
                     var39 = _closure1_slot0;
                     var1 = _closure1_slot2;
@@ -806,7 +806,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var39 = var41.isRecentsSection;
                     var1 = _closure2_slot0;
                     var1 = var39.bind(var41)(var40, var1);
-                    if(var1) { _fun0007_ip = 702; continue _fun0007 }
+                    if(var1) { _fun0007_ip = 704; continue _fun0007 }
  354:
                     var39 = _closure1_slot0;
                     var1 = _closure1_slot2;
@@ -815,7 +815,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var39 = var41.isVoiceChannelsSection;
                     var1 = _closure2_slot0;
                     var1 = var39.bind(var41)(var40, var1);
-                    if(var1) { _fun0007_ip = 571; continue _fun0007 }
+                    if(var1) { _fun0007_ip = 573; continue _fun0007 }
  393:
                     var39 = _closure1_slot0;
                     var1 = _closure1_slot2;
@@ -826,7 +826,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var44 = var10;
                     var43 = var9;
                     var42 = var8;
-                    if(!(var40 >= var1)) { _fun0007_ip = 831; continue _fun0007 }
+                    if(!(var40 >= var1)) { _fun0007_ip = 833; continue _fun0007 }
  435:
                     var39 = _closure2_slot0;
                     var1 = var39.getNamedCategoryFromSection;
@@ -835,7 +835,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var44 = var10;
                     var43 = var9;
                     var42 = var1;
-                    if(!(var23 != var1)) { _fun0007_ip = 831; continue _fun0007 }
+                    if(!(var23 != var1)) { _fun0007_ip = 833; continue _fun0007 }
  469:
                     var39 = {};
                     var39['kind'] = var14;
@@ -848,13 +848,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var41 = var48.bind(var31)(var41);
                     var48 = var41.SECTION_INDEX_FIRST_NAMED_CATEGORY;
                     var41 = 0;
-                    if(!(var40 !== var48)) { _fun0007_ip = 536; continue _fun0007 }
- 516:
+                    if(!(var40 !== var48)) { _fun0007_ip = 538; continue _fun0007 }
+ 517:
                     var48 = _closure2_slot11;
                     var48 = var48.category;
                     var48 = var48.margin;
                     var41 = var48.marginTop;
- 536:
+ 538:
                     var41 = var47 + var41;
                     var39['height'] = var41;
                     var39['isFirstCategory'] = var17;
@@ -863,24 +863,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var44 = var10;
                     var43 = var9;
                     var42 = var1;
-                    _fun0007_ip = 831; continue _fun0007;
- 571:
+                    _fun0007_ip = 833; continue _fun0007;
+ 573:
                     var41 = _closure2_slot0;
                     var39 = var41.getCategoryFromSection;
                     var1 = var41.voiceChannelsSectionNumber;
                     var1 = var39.bind(var41)(var1);
                     var39 = var23 == var1;
-                    if(var39) { _fun0007_ip = 609; continue _fun0007 }
- 599:
+                    if(var39) { _fun0007_ip = 611; continue _fun0007 }
+ 601:
                     var41 = var1.isEmpty;
                     var39 = var41.bind(var1)();
- 609:
+ 611:
                     var45 = var11;
                     var44 = var10;
                     var43 = var1;
                     var42 = var8;
-                    if(var39) { _fun0007_ip = 831; continue _fun0007 }
- 627:
+                    if(var39) { _fun0007_ip = 833; continue _fun0007 }
+ 629:
                     var39 = {};
                     var39['kind'] = var18;
                     var39['height'] = var29;
@@ -890,8 +890,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var44 = var10;
                     var43 = var1;
                     var42 = var8;
-                    if(!var39) { _fun0007_ip = 831; continue _fun0007 }
- 666:
+                    if(!var39) { _fun0007_ip = 833; continue _fun0007 }
+ 668:
                     var39 = {};
                     var39['kind'] = var15;
                     var41 = _closure2_slot8;
@@ -901,8 +901,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var44 = var10;
                     var43 = var1;
                     var42 = var8;
-                    _fun0007_ip = 831; continue _fun0007;
- 702:
+                    _fun0007_ip = 833; continue _fun0007;
+ 704:
                     var41 = {};
                     var41['kind'] = var16;
                     var1 = _closure2_slot8;
@@ -912,16 +912,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var1.bind(var39)(var40);
                     var47 = var23 == var1;
                     var39 = undefined;
-                    if(var47) { _fun0007_ip = 750; continue _fun0007 }
- 740:
+                    if(var47) { _fun0007_ip = 752; continue _fun0007 }
+ 742:
                     var47 = var1.getShownChannelAndThreadIds;
                     var39 = var47.bind(var1)();
- 750:
+ 752:
                     var47 = var39;
-                    if(!(var23 == var39)) { _fun0007_ip = 761; continue _fun0007 }
- 757:
+                    if(!(var23 == var39)) { _fun0007_ip = 763; continue _fun0007 }
+ 759:
                     var47 = new Array(0);
- 761:
+ 763:
                     var41['channelIds'] = var47;
                     var41['isFirstCategory'] = var17;
                     var41 = var33.bind(var31)(var41);
@@ -929,8 +929,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var44 = var1;
                     var43 = var9;
                     var42 = var8;
-                    _fun0007_ip = 831; continue _fun0007;
- 790:
+                    _fun0007_ip = 833; continue _fun0007;
+ 792:
                     var1 = {'kind': 'sectionHeaderFavorites', 'height': null, 'isFirstCategory': false};
                     var39 = _closure2_slot8;
                     var1['height'] = var39;
@@ -939,7 +939,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var44 = var10;
                     var43 = var9;
                     var42 = var8;
- 831:
+ 833:
                     var41 = function _loop() {
                         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
@@ -1236,15 +1236,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var47 = var28 < var46;
                     var1 = 0;
                     var39 = 0;
-                    if(!var47) { _fun0007_ip = 874; continue _fun0007 }
- 853:
+                    if(!var47) { _fun0007_ip = 876; continue _fun0007 }
+ 855:
                     var47 = var41.bind(var31)();
                     var47 = var1 + 1;
                     _closure3_slot6 = var47;
                     var1 = var47;
                     var39 = var1;
-                    if(var39 < var46) { _fun0007_ip = 853; continue _fun0007 }
- 874:
+                    if(var39 < var46) { _fun0007_ip = 855; continue _fun0007 }
+ 876:
                     var46 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var22];
@@ -1252,8 +1252,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var46 = var47.isFavoritesSection;
                     var1 = _closure2_slot0;
                     var1 = var46.bind(var47)(var40, var1);
-                    if(var1) { _fun0007_ip = 943; continue _fun0007 }
- 910:
+                    if(var1) { _fun0007_ip = 945; continue _fun0007 }
+ 912:
                     var47 = _closure1_slot0;
                     var46 = _closure1_slot2;
                     var46 = var46[var22];
@@ -1261,18 +1261,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var47 = var48.isRecentsSection;
                     var46 = _closure2_slot0;
                     var1 = var47.bind(var48)(var40, var46);
- 943:
-                    if(!var1) { _fun0007_ip = 961; continue _fun0007 }
- 946:
+ 945:
+                    if(!var1) { _fun0007_ip = 963; continue _fun0007 }
+ 948:
                     var1 = {};
                     var1['kind'] = var18;
                     var1['height'] = var29;
                     var1 = var33.bind(var31)(var1);
- 961:
+ 963:
                     var1 = _closure2_slot6;
                     var1 = var40 in var1;
-                    if(!var1) { _fun0007_ip = 1057; continue _fun0007 }
- 972:
+                    if(!var1) { _fun0007_ip = 1061; continue _fun0007 }
+ 974:
                     var1 = _closure2_slot6;
                     var1 = var1[var40];
                     var47 = var1.category;
@@ -1284,18 +1284,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var46 = var46.length;
                     var47 = var46 > var30;
                     var46 = var19;
-                    if(var47) { _fun0007_ip = 1048; continue _fun0007 }
- 1021:
+                    if(var47) { _fun0007_ip = 1052; continue _fun0007 }
+ 1025:
                     var48 = _closure2_slot9;
                     var47 = _closure2_slot11;
                     var47 = var47.voiceUsers;
                     var47 = var47.height;
                     var47 = var48 + var47;
                     var46 = var47 - var21;
- 1048:
+ 1052:
                     var1['height'] = var46;
                     var1 = var33.bind(var31)(var1);
- 1057:
+ 1061:
                     var46 = _closure1_slot0;
                     var1 = _closure1_slot2;
                     var1 = var1[var22];
@@ -1310,8 +1310,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var41;
                     var6 = var39;
                     var34 = var5;
-                    if(!var1) { _fun0007_ip = 1310; continue _fun0007 }
- 1117:
+                    if(!var1) { _fun0007_ip = 1314; continue _fun0007 }
+ 1121:
                     var46 = _closure2_slot0;
                     var1 = var46.getCategoryFromSection;
                     var1 = var1.bind(var46)(var40);
@@ -1322,13 +1322,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var41;
                     var6 = var39;
                     var34 = var1;
-                    if(!(var23 != var34)) { _fun0007_ip = 1310; continue _fun0007 }
- 1160:
+                    if(!(var23 != var34)) { _fun0007_ip = 1314; continue _fun0007 }
+ 1164:
                     var46 = var1.getHiddenChannelIds;
                     var46 = var46.bind(var1)();
                     var46 = var46.length;
-                    if(!(!(var46 > var28))) { _fun0007_ip = 1213; continue _fun0007 }
- 1179:
+                    if(!(!(var46 > var28))) { _fun0007_ip = 1217; continue _fun0007 }
+ 1183:
                     var46 = var1.isEmpty;
                     var46 = var46.bind(var1)();
                     var38 = var45;
@@ -1338,8 +1338,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var41;
                     var6 = var39;
                     var34 = var1;
-                    if(var46) { _fun0007_ip = 1310; continue _fun0007 }
- 1213:
+                    if(var46) { _fun0007_ip = 1314; continue _fun0007 }
+ 1217:
                     var46 = var1.getShownChannelIds;
                     var46 = var46.bind(var1)();
                     var46 = var46.length;
@@ -1364,7 +1364,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var41;
                     var6 = var39;
                     var34 = var1;
- 1310:
+ 1314:
                     var39 = var25.bind(var31)();
                     var1 = var39.done;
                     var11 = var38;
@@ -1375,7 +1375,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var27 = var40;
                     var12 = var39;
                     if(!var1) { _fun0007_ip = 206; continue _fun0007 }
- 1346:
+ 1350:
                     var1 = {};
                     var1['data'] = var4;
                     var1['unreadBarsData'] = var3;

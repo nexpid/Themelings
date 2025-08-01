@@ -1,12 +1,12 @@
 // discord_common/js/packages/i18n/i18n.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var8 = native1;
-        var6 = native2;
-        var10 = native3;
-        var3 = native6;
-        var7 = native7;
+        var8 = global;
+        var6 = require;
+        var10 = metroImportDefault;
+        var3 = exports;
+        var7 = dependencyMap;
         var _closure1_slot0 = var6;
         var _closure1_slot1 = var7;
         var1 = function _callSuper(arg1, arg2, arg3) {
@@ -956,7 +956,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var8 = var3.bind(var7)(var2);
                     var2 = var8.includes;
                     var2 = var2.bind(var8)(var1);
-                    if(var2) { _fun0015_ip = 213; continue _fun0015 }
+                    if(var2) { _fun0015_ip = 215; continue _fun0015 }
  80:
                     var3 = var1.split;
                     var2 = '-';
@@ -967,7 +967,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var7[var3];
                     var2 = var9.bind(var8)(var2);
                     var3 = var7[var3];
-                    if(var2) { _fun0015_ip = 208; continue _fun0015 }
+                    if(var2) { _fun0015_ip = 210; continue _fun0015 }
  121:
                     var2 = 'zh';
                     if(!(var2 === var3)) { _fun0015_ip = 155; continue _fun0015 }
@@ -978,7 +978,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  141:
                     var7 = var7[var2];
                     var2 = 'Hant';
-                    if(!(var2 !== var7)) { _fun0015_ip = 180; continue _fun0015 }
+                    if(!(var2 !== var7)) { _fun0015_ip = 181; continue _fun0015 }
  155:
                     var7 = var8.find;
                     var2 = function(arg1) {
@@ -994,12 +994,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var2 = var7.bind(var8)(var2);
-                    if(!(var6 == var2)) { _fun0015_ip = 178; continue _fun0015 }
- 174:
+                    if(!(var6 == var2)) { _fun0015_ip = 179; continue _fun0015 }
+ 175:
                     var2 = _closure1_slot7;
- 178:
-                    _fun0015_ip = 206; continue _fun0015;
- 180:
+ 179:
+                    _fun0015_ip = 208; continue _fun0015;
+ 181:
                     var7 = var8.find;
                     var4 = function(arg1) {
                         var2 = 'zh-TW';
@@ -1008,18 +1008,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var4 = var7.bind(var8)(var4);
-                    if(!(var6 == var4)) { _fun0015_ip = 203; continue _fun0015 }
- 199:
+                    if(!(var6 == var4)) { _fun0015_ip = 205; continue _fun0015 }
+ 201:
                     var4 = _closure1_slot7;
- 203:
+ 205:
                     var2 = var4;
- 206:
-                    _fun0015_ip = 211; continue _fun0015;
  208:
+                    _fun0015_ip = 213; continue _fun0015;
+ 210:
                     var2 = var3;
- 211:
-                    return var2;
  213:
+                    return var2;
+ 215:
                     return var1;
                 }
             };

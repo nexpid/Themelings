@@ -1,6 +1,6 @@
 // app/uikit-native/color_picker/ColorPickerUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -287,10 +287,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2 = var2.bind(var1)();
-    var7 = native7;
+    var7 = dependencyMap;
     var6 = 0;
     var7 = var7[var6];
-    var6 = native2;
+    var6 = require;
     var8 = var6.bind(var1)(var7);
     var7 = var8.fileFinishedImporting;
     var6 = 'uikit-native/color_picker/ColorPickerUtils.tsx';

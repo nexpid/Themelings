@@ -1,12 +1,188 @@
 // app/lib/search/EnglishAnalyzer.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var8;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var7;
+    var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var3 = arg1;
+            var _closure2_slot0 = var3;
+            var5 = global;
+            var2 = var5.Symbol;
+            var4 = 'undefined';
+            var2 = typeof var2;
+            var2 = var4 !== var2;
+            if(!var2) { _fun0001_ip = 45; continue _fun0001 }
+ 30:
+            var4 = var5.Symbol;
+            var4 = var4.iterator;
+            var2 = var3[var4];
+ 45:
+            if(var2) { _fun0001_ip = 54; continue _fun0001 }
+ 48:
+            var2 = var3.@@iterator;
+ 54:
+            if(var2) { _fun0001_ip = 344; continue _fun0001 }
+ 60:
+            var6 = var5.Array;
+            var4 = var6.isArray;
+            var6 = var4.bind(var6)(var3);
+            var4 = var2;
+            if(var6) { _fun0001_ip = 322; continue _fun0001 }
+ 85:
+            var8 = undefined;
+            var6 = undefined;
+            if(!var3) { _fun0001_ip = 282; continue _fun0001 }
+ 95:
+            var9 = 'string';
+            var7 = typeof var3;
+            if(!(var9 !== var7)) { _fun0001_ip = 269; continue _fun0001 }
+ 109:
+            var7 = {};
+            var9 = var7.toString;
+            var7 = var9.call;
+            var11 = var7.bind(var9)(var3);
+            var10 = var11.slice;
+            var9 = 8;
+            var7 = -1;
+            var9 = var10.bind(var11)(var9, var7);
+            var7 = 'Object';
+            var7 = var7 === var9;
+            if(!var7) { _fun0001_ip = 162; continue _fun0001 }
+ 157:
+            var7 = var3.constructor;
+ 162:
+            var10 = var9;
+            if(!var7) { _fun0001_ip = 178; continue _fun0001 }
+ 168:
+            var7 = var3.constructor;
+            var10 = var7.name;
+ 178:
+            var7 = 'Map';
+            if(!(var7 !== var10)) { _fun0001_ip = 248; continue _fun0001 }
+ 186:
+            var7 = 'Set';
+            if(!(var7 !== var10)) { _fun0001_ip = 248; continue _fun0001 }
+ 194:
+            var7 = 'Arguments';
+            if(!(var7 !== var10)) { _fun0001_ip = 233; continue _fun0001 }
+ 204:
+            var9 = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
+            var7 = var9.test;
+            var9 = var7.bind(var9)(var10);
+            var7 = undefined;
+            if(!var9) { _fun0001_ip = 246; continue _fun0001 }
+ 233:
+            var9 = _closure1_slot5;
+            var7 = var9.bind(var8)(var3, var8);
+ 246:
+            _fun0001_ip = 264; continue _fun0001;
+ 248:
+            var10 = var5.Array;
+            var9 = var10.from;
+            var7 = var9.bind(var10)(var3);
+ 264:
+            var6 = var7;
+            _fun0001_ip = 282; continue _fun0001;
+ 269:
+            var7 = _closure1_slot5;
+            var6 = var7.bind(var8)(var3, var8);
+ 282:
+            var4 = var6;
+            if(var4) { _fun0001_ip = 322; continue _fun0001 }
+ 288:
+            var7 = var5.TypeError;
+            var5 = var7.prototype;
+            var6 = Object.create(var5, {constructor: {value: var7}});
+            var13 = 'Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.';
+            var14 = var6;
+            var5 = new var14[var7](var13, var12);
+            var5 = var5 instanceof Object ? var5 : var6;
+            throw var5;
+ 322:
+            if(!var4) { _fun0001_ip = 329; continue _fun0001 }
+ 325:
+            _closure2_slot0 = var4;
+ 329:
+            var4 = 0;
+            var _closure2_slot1 = var4;
+            var1 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    var2 = _closure2_slot1;
+                    var1 = _closure2_slot0;
+                    var1 = var1.length;
+                    if(!(!(var2 >= var1))) { _fun0002_ip = 56; continue _fun0002 }
+ 20:
+                    var1 = {};
+                    var2 = false;
+                    var1['done'] = var2;
+                    var3 = _closure2_slot0;
+                    var2 = _closure2_slot1;
+                    var2 = parseFloat(var2);
+                    var4 = var2 + 1;
+                    _closure2_slot1 = var4;
+                    var2 = var3[var2];
+                    var1['value'] = var2;
+                    _fun0002_ip = 67; continue _fun0002;
+ 56:
+                    var2 = {};
+                    var3 = true;
+                    var2['done'] = var3;
+                    var1 = var2;
+ 67:
+                    return var1;
+                }
+            };
+            return var1;
+ 344:
+            var1 = var2.call;
+            var3 = var1.bind(var2)(var3);
+            var2 = var3.next;
+            var1 = var2.bind;
+            var1 = var1.bind(var2)(var3);
+            return var1;
+        }
+    };
+    var _closure1_slot4 = var1;
+    var1 = function _arrayLikeToArray(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+            var4 = arg1;
+            var1 = null;
+            var3 = undefined;
+            var1 = var1 == var3;
+            if(var1) { _fun0003_ip = 23; continue _fun0003 }
+ 14:
+            var2 = var4.length;
+            var1 = var3 > var2;
+ 23:
+            var2 = undefined;
+            if(!var1) { _fun0003_ip = 33; continue _fun0003 }
+ 28:
+            var2 = var4.length;
+ 33:
+            var1 = global;
+            var1 = var1.Array;
+            var1 = var1.bind(var3)(var2);
+            var3 = 0;
+            var5 = var3 < var2;
+            if(!var5) { _fun0003_ip = 70; continue _fun0003 }
+ 55:
+            var5 = var4[var3];
+            var1[var3] = var5;
+            var3 = var3 + 1;
+            if(var3 < var2) { _fun0003_ip = 55; continue _fun0003 }
+ 70:
+            return var1;
+        }
+    };
+    var _closure1_slot5 = var1;
     var1 = function stripPossessive(arg1) {
         var4 = arg1;
         var3 = var4.replace;
@@ -15,14 +191,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot4 = var1;
+    var _closure1_slot6 = var1;
     var1 = function lowercase(arg1) {
         var2 = arg1;
         var1 = var2.toLowerCase;
         var1 = var1.bind(var2)();
         return var1;
     };
-    var _closure1_slot5 = var1;
+    var _closure1_slot7 = var1;
     var1 = function isStopWord(arg1) {
         var3 = _closure1_slot3;
         var2 = var3.has;
@@ -30,7 +206,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot8 = var1;
     var1 = function isBlank(arg1) {
         var1 = arg1;
         var2 = var1.length;
@@ -38,147 +214,193 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var1 === var2;
         return var1;
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot9 = var1;
     var6 = function analyze(arg1) {
-        var7 = arg1;
-        var3 = _closure1_slot1;
-        var6 = _closure1_slot2;
-        var2 = 0;
-        var2 = var6[var2];
-        var5 = undefined;
-        var3 = var3.bind(var5)(var2);
-        var4 = var7.split;
-        var2 = /\W+/;
-        var2 = var4.bind(var7)(var2);
-        var4 = var3.bind(var5)(var2);
-        var3 = var4.map;
-        var2 = _closure1_slot4;
-        var4 = var3.bind(var4)(var2);
-        var3 = var4.reject;
-        var2 = _closure1_slot7;
-        var4 = var3.bind(var4)(var2);
-        var3 = var4.map;
-        var2 = _closure1_slot5;
-        var4 = var3.bind(var4)(var2);
-        var3 = var4.reject;
-        var2 = _closure1_slot6;
-        var3 = var3.bind(var4)(var2);
-        var2 = var3.map;
-        var4 = _closure1_slot0;
-        var1 = 1;
-        var1 = var6[var1];
-        var1 = var4.bind(var5)(var1);
-        var1 = var1.stemmer;
-        var2 = var2.bind(var3)(var1);
-        var1 = var2.value;
-        var1 = var1.bind(var2)();
-        return var1;
-    };
-    var _closure1_slot8 = var6;
-    var5 = function shouldHighlight(arg1, arg2) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            var4 = arg2;
-            var1 = _closure1_slot7;
-            var5 = _closure1_slot5;
-            var6 = _closure1_slot4;
-            var7 = undefined;
-            var3 = arg1;
-            var3 = var6.bind(var7)(var3);
-            var6 = var5.bind(var7)(var3);
-            var3 = var1.bind(var7)(var6);
-            var1 = !var3;
-            if(var3) { _fun0001_ip = 56; continue _fun0001 }
- 44:
-            var3 = _closure1_slot6;
-            var3 = var3.bind(var7)(var6);
-            var1 = !var3;
- 56:
-            if(!var1) { _fun0001_ip = 100; continue _fun0001 }
- 59:
-            var3 = var4.has;
-            var5 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var7 = arg1;
+            var3 = arguments[1];
+            var5 = undefined;
+            if(!(var3 === var5)) { _fun0004_ip = 40; continue _fun0004 }
+ 12:
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 0;
+            var1 = var4[var1];
+            var1 = var2.bind(var5)(var1);
+            var3 = var1.stemmer;
+ 40:
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var2 = 1;
-            var2 = var8[var2];
-            var5 = var5.bind(var7)(var2);
-            var2 = var5.stemmer;
-            var2 = var2.bind(var5)(var6);
-            var1 = var3.bind(var4)(var2);
- 100:
+            var2 = var6[var2];
+            var4 = var4.bind(var5)(var2);
+            var6 = var7.split;
+            var2 = /\W+/;
+            var2 = var6.bind(var7)(var2);
+            var5 = var4.bind(var5)(var2);
+            var4 = var5.map;
+            var2 = _closure1_slot6;
+            var5 = var4.bind(var5)(var2);
+            var4 = var5.reject;
+            var2 = _closure1_slot9;
+            var5 = var4.bind(var5)(var2);
+            var4 = var5.map;
+            var2 = _closure1_slot7;
+            var4 = var4.bind(var5)(var2);
+            var2 = var4.reject;
+            var1 = _closure1_slot8;
+            var2 = var2.bind(var4)(var1);
+            var1 = var2.map;
+            var2 = var1.bind(var2)(var3);
+            var1 = var2.value;
+            var1 = var1.bind(var2)();
             return var1;
         }
     };
-    var _closure1_slot9 = var5;
-    var4 = function highlightAST(arg1, arg2) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+    var _closure1_slot10 = var6;
+    var5 = function shouldHighlight(arg1, arg2) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+            var3 = arg2;
+            var2 = arguments[2];
+            var5 = undefined;
+            if(!(var2 === var5)) { _fun0005_ip = 14; continue _fun0005 }
+ 12:
+            var2 = false;
+ 14:
+            var6 = _closure1_slot9;
+            var7 = _closure1_slot7;
+            var8 = _closure1_slot6;
+            var4 = arg1;
+            var4 = var8.bind(var5)(var4);
+            var4 = var7.bind(var5)(var4);
+            var6 = var6.bind(var5)(var4);
+            if(var6) { _fun0005_ip = 187; continue _fun0005 }
+ 53:
+            var6 = _closure1_slot8;
+            var6 = var6.bind(var5)(var4);
+            if(var6) { _fun0005_ip = 183; continue _fun0005 }
+ 65:
+            if(var2) { _fun0005_ip = 110; continue _fun0005 }
+ 68:
+            var6 = var3.has;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 0;
+            var2 = var8[var2];
+            var7 = var7.bind(var5)(var2);
+            var2 = var7.stemmer;
+            var2 = var2.bind(var7)(var4);
+            var2 = var6.bind(var3)(var2);
+            return var2;
+ 110:
+            var2 = _closure1_slot4;
+            var1 = var3.values;
+            var1 = var1.bind(var3)();
+            var3 = var2.bind(var5)(var1);
+            var2 = var3.bind(var5)();
+            var1 = var2.done;
+            if(var1) { _fun0005_ip = 179; continue _fun0005 }
+ 140:
+            var6 = var2.value;
+            var1 = var4.includes;
+            var1 = var1.bind(var4)(var6);
+            if(var1) { _fun0005_ip = 175; continue _fun0005 }
+ 158:
+            var6 = var3.bind(var5)();
+            var1 = var6.done;
+            var2 = var6;
+            if(var1) { _fun0005_ip = 179; continue _fun0005 }
+ 173:
+            _fun0005_ip = 140; continue _fun0005;
+ 175:
+            var1 = true;
+            return var1;
+ 179:
+            var1 = false;
+            return var1;
+ 183:
+            var1 = false;
+            return var1;
+ 187:
+            var1 = false;
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var5;
+    var4 = function highlightAST(arg1, arg2, arg3) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var1 = arg1;
-            var6 = arg2;
-            var _closure2_slot0 = var6;
+            var7 = arg2;
+            var6 = arg3;
+            var _closure2_slot0 = var7;
+            var _closure2_slot1 = var6;
             var3 = global;
             var4 = var3.Array;
             var3 = var4.isArray;
             var3 = var3.bind(var4)(var1);
-            if(var3) { _fun0002_ip = 265; continue _fun0002 }
- 36:
+            if(var3) { _fun0006_ip = 273; continue _fun0006 }
+ 43:
             var3 = var1.content;
             var4 = 'string';
             var3 = typeof var3;
-            if(!(var4 === var3)) { _fun0002_ip = 65; continue _fun0002 }
- 52:
+            if(!(var4 === var3)) { _fun0006_ip = 72; continue _fun0006 }
+ 59:
             var4 = var1.type;
             var3 = 'codeBlock';
-            if(!(var3 === var4)) { _fun0002_ip = 104; continue _fun0002 }
- 65:
+            if(!(var3 === var4)) { _fun0006_ip = 112; continue _fun0006 }
+ 72:
             var4 = var1.content;
             var3 = null;
-            if(!(var3 != var4)) { _fun0002_ip = 282; continue _fun0002 }
- 79:
-            var5 = _closure1_slot10;
+            if(!(var3 != var4)) { _fun0006_ip = 290; continue _fun0006 }
+ 86:
+            var5 = _closure1_slot12;
             var4 = var1.content;
             var3 = undefined;
-            var3 = var5.bind(var3)(var4, var6);
-            _fun0002_ip = 282; continue _fun0002;
- 104:
+            var3 = var5.bind(var3)(var4, var7, var6);
+            _fun0006_ip = 290; continue _fun0006;
+ 112:
             var3 = new Array(0);
-            var _closure2_slot1 = var3;
+            var _closure2_slot2 = var3;
             var4 = '';
-            var _closure2_slot2 = var4;
+            var _closure2_slot3 = var4;
             var6 = var1.content;
             var5 = var6.split;
             var4 = /(\W+)/g;
             var6 = var5.bind(var6)(var4);
             var5 = var6.forEach;
             var4 = function(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                     var6 = arg1;
-                    var4 = _closure1_slot9;
-                    var2 = _closure2_slot0;
+                    var5 = _closure1_slot11;
+                    var4 = _closure2_slot0;
+                    var2 = _closure2_slot1;
                     var1 = undefined;
-                    var4 = var4.bind(var1)(var6, var2);
-                    var2 = _closure2_slot2;
-                    if(var4) { _fun0003_ip = 42; continue _fun0003 }
- 32:
+                    var4 = var5.bind(var1)(var6, var4, var2);
+                    var2 = _closure2_slot3;
+                    if(var4) { _fun0007_ip = 47; continue _fun0007 }
+ 37:
                     var4 = var2 + var6;
-                    _closure2_slot2 = var4;
-                    _fun0003_ip = 121; continue _fun0003;
- 42:
+                    _closure2_slot3 = var4;
+                    _fun0007_ip = 126; continue _fun0007;
+ 47:
                     var4 = var2.length;
                     var2 = 0;
-                    if(!(var4 > var2)) { _fun0003_ip = 85; continue _fun0003 }
- 53:
-                    var5 = _closure2_slot1;
+                    if(!(var4 > var2)) { _fun0007_ip = 90; continue _fun0007 }
+ 58:
+                    var5 = _closure2_slot2;
                     var4 = var5.push;
                     var2 = {};
                     var7 = 'text';
                     var2['type'] = var7;
-                    var7 = _closure2_slot2;
+                    var7 = _closure2_slot3;
                     var2['content'] = var7;
                     var2 = var4.bind(var5)(var2);
- 85:
-                    var5 = _closure2_slot1;
+ 90:
+                    var5 = _closure2_slot2;
                     var4 = var5.push;
                     var2 = {};
                     var7 = 'highlight';
@@ -186,58 +408,59 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2['content'] = var6;
                     var2 = var4.bind(var5)(var2);
                     var2 = '';
-                    _closure2_slot2 = var2;
- 121:
+                    _closure2_slot3 = var2;
+ 126:
                     return var1;
                 }
             };
             var4 = var5.bind(var6)(var4);
             var4 = var3.length;
             var5 = 0;
-            if(!(var4 > var5)) { _fun0002_ip = 282; continue _fun0002 }
- 177:
-            var4 = _closure2_slot2;
+            if(!(var4 > var5)) { _fun0006_ip = 290; continue _fun0006 }
+ 185:
+            var4 = _closure2_slot3;
             var4 = var4.length;
-            if(!(var4 > var5)) { _fun0002_ip = 218; continue _fun0002 }
- 190:
+            if(!(var4 > var5)) { _fun0006_ip = 226; continue _fun0006 }
+ 198:
             var5 = var3.push;
             var4 = {};
             var6 = 'text';
             var4['type'] = var6;
-            var6 = _closure2_slot2;
+            var6 = _closure2_slot3;
             var4['content'] = var6;
             var4 = var5.bind(var3)(var4);
- 218:
+ 226:
             var5 = var1.type;
             var4 = 'text';
-            if(!(var4 !== var5)) { _fun0002_ip = 257; continue _fun0002 }
- 231:
+            if(!(var4 !== var5)) { _fun0006_ip = 265; continue _fun0006 }
+ 239:
             var5 = {};
             var5['type'] = var4;
             var5['content'] = var3;
             var4 = new Array(1);
             var4[0] = var5;
             var1['content'] = var4;
-            _fun0002_ip = 282; continue _fun0002;
- 257:
-            var1['content'] = var3;
-            _fun0002_ip = 282; continue _fun0002;
+            _fun0006_ip = 290; continue _fun0006;
  265:
+            var1['content'] = var3;
+            _fun0006_ip = 290; continue _fun0006;
+ 273:
             var3 = var1.forEach;
             var2 = function(arg1) {
                 var1 = arg1;
-                var4 = _closure1_slot10;
-                var3 = _closure2_slot0;
+                var5 = _closure1_slot12;
+                var4 = _closure2_slot0;
+                var3 = _closure2_slot1;
                 var2 = undefined;
-                var2 = var4.bind(var2)(var1, var3);
+                var2 = var5.bind(var2)(var1, var4, var3);
                 return var1;
             };
             var2 = var3.bind(var1)(var2);
- 282:
+ 290:
             return var1;
         }
     };
-    var _closure1_slot10 = var4;
+    var _closure1_slot12 = var4;
     var1 = global;
     var12 = var1.Object;
     var11 = var12.defineProperty;
@@ -254,7 +477,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = new var16[var10](var15, var14);
     var1 = var1 instanceof Object ? var1 : var9;
     var _closure1_slot3 = var1;
-    var1 = 2;
+    var1 = 3;
     var7 = var7[var1];
     var1 = undefined;
     var9 = var8.bind(var1)(var7);
@@ -265,27 +488,53 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var3['shouldHighlight'] = var5;
     var3['highlightAST'] = var4;
     var2 = function createASTHighlighter(arg1) {
-        var2 = global;
-        var4 = var2.Set;
-        var5 = _closure1_slot8;
-        var3 = undefined;
-        var2 = arg1;
-        var6 = var5.bind(var3)(var2);
-        var3 = var4.prototype;
-        var3 = Object.create(var3, {constructor: {value: var4}});
-        var7 = var3;
-        var2 = new var7[var4](var6, var5);
-        var2 = var2 instanceof Object ? var2 : var3;
-        var _closure2_slot0 = var2;
-        var1 = function(arg1) {
-            var1 = arg1;
-            var4 = _closure1_slot10;
-            var3 = _closure2_slot0;
-            var2 = undefined;
-            var2 = var4.bind(var2)(var1, var3);
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+ 0:
+            var2 = arguments[1];
+            var6 = undefined;
+            if(!(var2 === var6)) { _fun0008_ip = 13; continue _fun0008 }
+ 11:
+            var2 = false;
+ 13:
+            var _closure2_slot0 = var2;
+            var _closure2_slot1 = var6;
+            var3 = global;
+            var4 = var3.Set;
+            var5 = _closure1_slot10;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            if(var2) { _fun0008_ip = 66; continue _fun0008 }
+ 47:
+            var2 = 0;
+            var2 = var8[var2];
+            var2 = var7.bind(var6)(var2);
+            var3 = var2.stemmer;
+            _fun0008_ip = 84; continue _fun0008;
+ 66:
+            var2 = 2;
+            var2 = var8[var2];
+            var2 = var7.bind(var6)(var2);
+            var3 = var2.snowballStem;
+ 84:
+            var2 = arg1;
+            var10 = var5.bind(var6)(var2, var3);
+            var3 = var4.prototype;
+            var3 = Object.create(var3, {constructor: {value: var4}});
+            var11 = var3;
+            var2 = new var11[var4](var10, var9);
+            var2 = var2 instanceof Object ? var2 : var3;
+            _closure2_slot1 = var2;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var5 = _closure1_slot12;
+                var4 = _closure2_slot1;
+                var3 = _closure2_slot0;
+                var2 = undefined;
+                var2 = var5.bind(var2)(var1, var4, var3);
+                return var1;
+            };
             return var1;
-        };
-        return var1;
+        }
     };
     var3['createASTHighlighter'] = var2;
     return var1;

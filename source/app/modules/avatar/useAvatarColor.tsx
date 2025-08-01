@@ -1,9 +1,9 @@
 // app/modules/avatar/useAvatarColor.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var7 = native3;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var9;
@@ -464,7 +464,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var6;
     var6 = 2;
     var10 = var9[var6];
-    var6 = native4;
+    var6 = metroImportAll;
     var6 = var6.bind(var1)(var10);
     var _closure1_slot5 = var6;
     var6 = 3;

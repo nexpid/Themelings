@@ -1,11 +1,11 @@
 // app/modules/multi_account/MultiAccountStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var7;
     var1 = function _isNativeReflectConstruct() {
@@ -90,12 +90,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var4 = var4.bind(var1)(var3);
             var3 = null;
-            if(!(var3 != var4)) { _fun0002_ip = 61; continue _fun0002 }
- 48:
+            if(!(var3 != var4)) { _fun0002_ip = 62; continue _fun0002 }
+ 49:
             var3 = arg2;
             var4['tokenStatus'] = var3;
             _closure1_slot12 = var1;
- 61:
+ 62:
             var1 = undefined;
             return var1;
         }
@@ -585,8 +585,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var4 = var5.bind(var1)(var4);
             var5 = null;
-            if(!(var5 != var4)) { _fun0009_ip = 92; continue _fun0009 }
- 53:
+            if(!(var5 != var4)) { _fun0009_ip = 93; continue _fun0009 }
+ 54:
             var5 = var3.avatar;
             var4['avatar'] = var5;
             var5 = var3.username;
@@ -594,7 +594,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.discriminator;
             var4['discriminator'] = var3;
             _closure1_slot12 = var1;
- 92:
+ 93:
             var1 = undefined;
             return var1;
         }

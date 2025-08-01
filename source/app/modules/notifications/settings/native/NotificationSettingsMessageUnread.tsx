@@ -1,9 +1,9 @@
 // app/modules/notifications/settings/native/NotificationSettingsMessageUnread.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -123,16 +123,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = null;
             var25 = var21 == var24;
             var22 = undefined;
-            if(var25) { _fun0001_ip = 494; continue _fun0001 }
- 489:
+            if(var25) { _fun0001_ip = 495; continue _fun0001 }
+ 490:
             var22 = var24.label;
- 494:
+ 495:
             var24 = var21 != var22;
             var21 = 'unset';
-            if(!var24) { _fun0001_ip = 508; continue _fun0001 }
- 505:
+            if(!var24) { _fun0001_ip = 509; continue _fun0001 }
+ 506:
             var21 = var22;
- 508:
+ 509:
             var14['children'] = var21;
             var14 = var19.bind(var4)(var15, var14);
             var12[1] = var14;
@@ -191,7 +191,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var4 = 1;

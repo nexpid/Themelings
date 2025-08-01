@@ -1,9 +1,9 @@
 // app/modules/client_themes/CustomThemesUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var8 = native3;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var10;
     var6 = function findCustomThemeCompatibleDefaultTheme(arg1) {
@@ -52,14 +52,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = _closure1_slot8;
             var3 = var7 in var5;
  73:
-            if(!var3) { _fun0002_ip = 100; continue _fun0002 }
+            if(!var3) { _fun0002_ip = 99; continue _fun0002 }
  76:
             var5 = _closure1_slot8;
             var4 = var4.backgroundGradientPresetId;
             var4 = var5[var4];
             var4 = var4.theme;
             var3 = var4 !== var6;
- 100:
+ 99:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
             var4 = 8;
@@ -67,8 +67,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.bind(var1)(var4);
             var4 = var5.setThemeOverride;
             var4 = var4.bind(var5)(var6);
-            if(!var3) { _fun0002_ip = 164; continue _fun0002 }
- 134:
+            if(!var3) { _fun0002_ip = 163; continue _fun0002 }
+ 133:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 9;
@@ -76,7 +76,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var1)(var2);
             var2 = var3.resetPreviewClientTheme;
             var2 = var2.bind(var3)();
- 164:
+ 163:
             return var1;
         }
     };
@@ -91,11 +91,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var1)(var3);
             var4 = _closure1_slot3;
             var4 = var4.theme;
-            if(!(var3 !== var4)) { _fun0003_ip = 47; continue _fun0003 }
- 38:
+            if(!(var3 !== var4)) { _fun0003_ip = 45; continue _fun0003 }
+ 36:
             var2 = _closure1_slot12;
             var2 = var2.bind(var1)(var3);
- 47:
+ 45:
             return var1;
         }
     };
@@ -110,7 +110,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var11.bind(var12)(var3, var1, var7);
     var1 = 0;
     var11 = var10[var1];
-    var7 = native4;
+    var7 = metroImportAll;
     var1 = undefined;
     var7 = var7.bind(var1)(var11);
     var _closure1_slot2 = var7;
@@ -276,20 +276,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.clearThemeOverride;
                 var4 = var4.bind(var5)();
-                _fun0005_ip = 289; continue _fun0005;
+                _fun0005_ip = 288; continue _fun0005;
  245:
                 var5 = _closure1_slot12;
                 var7 = _closure1_slot11;
                 var4 = _closure2_slot0;
                 var4 = var4.current;
-                if(!(var3 == var4)) { _fun0005_ip = 279; continue _fun0005 }
+                if(!(var3 == var4)) { _fun0005_ip = 278; continue _fun0005 }
  269:
                 var8 = _closure1_slot3;
                 var4 = var8.theme;
- 279:
+ 278:
                 var4 = var7.bind(var1)(var4);
                 var4 = var5.bind(var1)(var4);
- 289:
+ 288:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot1;
                 var4 = var4[var6];
@@ -298,8 +298,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var5.getSetting;
                 var4 = var4.bind(var5)();
                 var4 = var4.backgroundGradientPresetId;
-                if(!(var3 != var4)) { _fun0005_ip = 363; continue _fun0005 }
- 332:
+                if(!(var3 != var4)) { _fun0005_ip = 362; continue _fun0005 }
+ 331:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var2 = 9;
@@ -307,7 +307,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.updateBackgroundGradientPreset;
                 var2 = var2.bind(var3)(var4);
- 363:
+ 362:
                 return var1;
             }
         };

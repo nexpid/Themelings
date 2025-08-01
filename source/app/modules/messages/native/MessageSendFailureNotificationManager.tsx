@@ -1,9 +1,9 @@
 // app/modules/messages/native/MessageSendFailureNotificationManager.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -53,7 +53,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var1.channelId;
             var6 = var1.messageId;
             var1 = var1.shouldNotify;
-            if(!var1) { _fun0002_ip = 369; continue _fun0002 }
+            if(!var1) { _fun0002_ip = 370; continue _fun0002 }
  25:
             var2 = _closure1_slot11;
             var1 = var2.getState;
@@ -101,7 +101,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var1['onDismiss'] = var4;
             var1 = var2.bind(var3)(var1);
-            _fun0002_ip = 369; continue _fun0002;
+            _fun0002_ip = 370; continue _fun0002;
  188:
             var1 = undefined;
             return var1;
@@ -146,7 +146,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4['type'] = var5;
             var1['userInfo'] = var4;
             var1 = var2.bind(var3)(var1);
- 369:
+ 370:
             var1 = undefined;
             return var1;
         }

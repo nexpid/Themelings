@@ -1,8 +1,8 @@
 // app/modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorButtonWrapper.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -34,7 +34,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = {'flexShrink': 0, 'flexDirection': 'row', 'alignItems': 'center'};
     var11 = 4;
     var12 = var6[var11];
-    var11 = native3;
+    var11 = metroImportDefault;
     var11 = var11.bind(var1)(var12);
     var11 = var11.spacing;
     var11 = var11.PX_8;

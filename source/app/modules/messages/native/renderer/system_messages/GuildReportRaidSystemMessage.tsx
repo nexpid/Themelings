@@ -1,9 +1,9 @@
 // app/modules/messages/native/renderer/system_messages/GuildReportRaidSystemMessage.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var8 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot3 = var4;
@@ -144,10 +144,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = null;
             var17 = var6 == var16;
             var15 = undefined;
-            if(var17) { _fun0001_ip = 331; continue _fun0001 }
- 326:
+            if(var17) { _fun0001_ip = 330; continue _fun0001 }
+ 325:
             var15 = var16.name;
- 331:
+ 330:
             var2[1] = var15;
             var15 = var11.channel_id;
             var2[2] = var15;
@@ -277,10 +277,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['avatarURL'] = var8;
             var8 = var6 != var7;
             var6 = null;
-            if(!var8) { _fun0001_ip = 592; continue _fun0001 }
- 589:
+            if(!var8) { _fun0001_ip = 591; continue _fun0001 }
+ 588:
             var6 = var7;
- 592:
+ 591:
             var1['usernameColor'] = var6;
             var20 = var1;
             var19 = var5;
@@ -314,10 +314,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = null;
             var10 = var5 == var13;
             var1 = undefined;
-            if(var10) { _fun0004_ip = 100; continue _fun0004 }
- 95:
+            if(var10) { _fun0004_ip = 99; continue _fun0004 }
+ 94:
             var1 = var13.guild_id;
- 100:
+ 99:
             var1 = var2.bind(var4)(var1);
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -352,24 +352,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['colorString'] = var11;
             var7 = 'username';
             var10 = null;
-            if(!(var7 === var12)) { _fun0004_ip = 263; continue _fun0004 }
- 260:
+            if(!(var7 === var12)) { _fun0004_ip = 262; continue _fun0004 }
+ 259:
             var10 = var11;
- 263:
+ 262:
             var2['linkColor'] = var10;
             var2['roleColor'] = var11;
             var10 = null;
-            if(!var17) { _fun0004_ip = 281; continue _fun0004 }
- 278:
+            if(!var17) { _fun0004_ip = 280; continue _fun0004 }
+ 277:
             var10 = var16;
- 281:
+ 280:
             var2['roleColors'] = var10;
             var10 = 'dot';
             var10 = var10 === var12;
-            if(!var10) { _fun0004_ip = 301; continue _fun0004 }
- 297:
+            if(!var10) { _fun0004_ip = 300; continue _fun0004 }
+ 296:
             var10 = var5 != var11;
- 301:
+ 300:
             var2['shouldShowRoleDot'] = var10;
             var10 = var15.channel_id;
             var2['messageChannelId'] = var10;
@@ -378,16 +378,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14['usernameOnClick'] = var2;
             var10 = var5 == var1;
             var2 = undefined;
-            if(var10) { _fun0004_ip = 342; continue _fun0004 }
- 337:
+            if(var10) { _fun0004_ip = 341; continue _fun0004 }
+ 336:
             var2 = var1.name;
- 342:
+ 341:
             var10 = var5 != var2;
             var1 = '';
-            if(!var10) { _fun0004_ip = 356; continue _fun0004 }
- 353:
+            if(!var10) { _fun0004_ip = 355; continue _fun0004 }
+ 352:
             var1 = var2;
- 356:
+ 355:
             var14['guildName'] = var1;
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -432,10 +432,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1[var7] = var6;
             var6 = var5 != var4;
             var5 = null;
-            if(!var6) { _fun0004_ip = 554; continue _fun0004 }
- 551:
+            if(!var6) { _fun0004_ip = 553; continue _fun0004 }
+ 550:
             var5 = var4;
- 554:
+ 553:
             var4 = 'usernameColor';
             var1[var4] = var5;
             var8 = _closure1_slot0;

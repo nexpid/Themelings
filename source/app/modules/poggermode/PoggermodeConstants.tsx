@@ -1,6 +1,6 @@
 // app/modules/poggermode/PoggermodeConstants.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var2 = global;
     var7 = var2.Object;
     var6 = var7.defineProperty;
@@ -268,9 +268,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var2 = var9.bind(var10)(var1, var2);
-    var1 = native7;
+    var1 = dependencyMap;
     var9 = var1[var8];
-    var8 = native2;
+    var8 = require;
     var1 = undefined;
     var10 = var8.bind(var1)(var9);
     var9 = var10.fileFinishedImporting;

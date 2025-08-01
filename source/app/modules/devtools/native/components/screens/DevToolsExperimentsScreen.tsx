@@ -1,9 +1,9 @@
 // app/modules/devtools/native/components/screens/DevToolsExperimentsScreen.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -1033,7 +1033,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var2;
     var13 = 1;
     var4 = var6[var13];
-    var2 = native4;
+    var2 = metroImportAll;
     var9 = var2.bind(var1)(var4);
     var _closure1_slot4 = var9;
     var2 = 2;
@@ -1491,16 +1491,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var2 == var3;
             var4 = undefined;
             var1 = undefined;
-            if(var6) { _fun0013_ip = 127; continue _fun0013 }
- 121:
+            if(var6) { _fun0013_ip = 128; continue _fun0013 }
+ 122:
             var1 = var3.shortLabel;
- 127:
+ 128:
             var2 = var2 != var1;
             var8 = 'N/A';
-            if(!var2) { _fun0013_ip = 143; continue _fun0013 }
- 140:
+            if(!var2) { _fun0013_ip = 144; continue _fun0013 }
+ 141:
             var8 = var1;
- 143:
+ 144:
             var3 = _closure1_slot11;
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;

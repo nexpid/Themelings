@@ -1,12 +1,12 @@
 // app/modules/errors/native/SentryInitUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var7;
     var1 = function filterError(arg1, arg2) {
@@ -557,7 +557,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5['autoInitializeNativeSdk'] = var9;
                     var9 = _closure1_slot14;
                     var5['beforeSend'] = var9;
-                    var9 = '4419';
+                    var9 = '4428';
                     var5['dist'] = var9;
                     var5['dsn'] = var6;
                     var5['environment'] = var3;
@@ -567,7 +567,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5['sampleRate'] = var3;
                     var3 = _closure1_slot10;
                     var5['ignoreErrors'] = var3;
-                    var3 = 'discord_android@292.2.0-2+292202';
+                    var3 = 'discord_android@292.3.0-2+292203';
                     var5['release'] = var3;
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot3;

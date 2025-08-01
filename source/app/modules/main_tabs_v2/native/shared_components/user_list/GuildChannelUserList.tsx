@@ -1,10 +1,10 @@
 // app/modules/main_tabs_v2/native/shared_components/user_list/GuildChannelUserList.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var7 = native4;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var7 = metroImportAll;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
@@ -754,7 +754,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var3 = var2.type;
                             var1 = 'MEMBER';
                             var1 = var1 === var3;
-                            if(!var1) { _fun0014_ip = 50; continue _fun0014 }
+                            if(!var1) { _fun0014_ip = 51; continue _fun0014 }
  19:
                             var4 = var2.roles;
                             var3 = var4.find;
@@ -767,7 +767,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var3 = var3.bind(var4)(var2);
                             var2 = null;
                             var1 = var2 != var3;
- 50:
+ 51:
                             return var1;
                         }
                     };
@@ -792,12 +792,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var2 = null;
                             var5 = var2 == var3;
                             var1 = undefined;
-                            if(var5) { _fun0015_ip = 85; continue _fun0015 }
+                            if(var5) { _fun0015_ip = 86; continue _fun0015 }
  51:
                             var5 = var3.roles;
                             var3 = var2 == var5;
                             var1 = undefined;
-                            if(var3) { _fun0015_ip = 85; continue _fun0015 }
+                            if(var3) { _fun0015_ip = 86; continue _fun0015 }
  66:
                             var4 = var5.find;
                             var3 = function(arg1) {
@@ -807,7 +807,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 return var1;
                             };
                             var1 = var4.bind(var5)(var3);
- 85:
+ 86:
                             var1 = var2 != var1;
                             return var1;
                         }

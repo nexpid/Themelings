@@ -1,9 +1,9 @@
 // app/modules/soundboard/useSoundGrid.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
@@ -285,12 +285,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var4 = var4.bind(var5)(var2);
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0006_ip = 53; continue _fun0006 }
- 39:
+                    if(!(var2 != var4)) { _fun0006_ip = 54; continue _fun0006 }
+ 40:
                     var2 = _closure2_slot1;
                     var1 = var3.soundId;
                     var2[var1] = var3;
- 53:
+ 54:
                     var1 = undefined;
                     return var1;
                 }
@@ -445,7 +445,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var5;
     var5 = 1;
     var9 = var7[var5];
-    var5 = native4;
+    var5 = metroImportAll;
     var5 = var5.bind(var1)(var9);
     var _closure1_slot4 = var5;
     var5 = 2;

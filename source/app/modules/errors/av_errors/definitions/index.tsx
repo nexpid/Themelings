@@ -1,8 +1,8 @@
 // app/modules/errors/av_errors/definitions/index.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var1 = global;
     var7 = var1.Object;
     var4 = var7.defineProperty;
@@ -107,8 +107,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
-    var8 = var7.AUDIO_CAPTURE_SAMPLE_RATE_MISMATCH;
+    var8 = var7.SCREENSHARE_OS_ERROR;
     var7 = 11;
+    var7 = var6[var7];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.AVErrorScreenshareOSErrorDefinition;
+    var2[var8] = var7;
+    var7 = var6[var4];
+    var7 = var5.bind(var1)(var7);
+    var7 = var7.AVError;
+    var8 = var7.AUDIO_CAPTURE_SAMPLE_RATE_MISMATCH;
+    var7 = 12;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorAudioCaptureSampleRateMismatchDefinition;
@@ -117,7 +126,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
     var8 = var7.VIDEO_STREAM_SENDER_READY_TIMEOUT;
-    var7 = 12;
+    var7 = 13;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorVideoStreamSenderReadyTimeoutDefinition;
@@ -126,7 +135,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
     var8 = var7.VIDEO_STREAM_RECEIVER_READY_TIMEOUT;
-    var7 = 13;
+    var7 = 14;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorVideoStreamReceiverReadyTimeoutDefinition;
@@ -135,7 +144,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
     var8 = var7.VIDEO_STREAM_SENDER_READY_TIMEOUT_NO_STREAM;
-    var7 = 14;
+    var7 = 15;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorVideoStreamSenderReadyTimeoutNoStreamDefinition;
@@ -144,7 +153,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVError;
     var8 = var7.VIDEO_STREAM_RECEIVER_READY_TIMEOUT_NO_STREAM;
-    var7 = 15;
+    var7 = 16;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.AVErrorVideoStreamReceiverReadyTimeoutNoStreamDefinition;
@@ -153,12 +162,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var5.bind(var1)(var4);
     var4 = var4.AVError;
     var7 = var4.CAMERA_SEND_LOW_FPS;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.AVErrorCameraSendLowFPSDefinition;
     var2[var7] = var4;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

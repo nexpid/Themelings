@@ -1,10 +1,10 @@
 // app/modules/guild_antiraid/GuildAntiRaidModalActionCreators.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
@@ -27,7 +27,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/guild_antiraid/GuildAntiRaidModalActionCreators.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function openReportRaidModal(arg1) {
+    var2 = function openReportRaidModal(arg1) {
         var5 = _closure1_slot1;
         var3 = _closure1_slot2;
         var1 = 1;
@@ -63,18 +63,6 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var2 = var5.bind(var6)(var4, var3, var2);
         return var1;
     };
-    var3['openReportRaidModal'] = var4;
-    var2 = function openSafetyChannelSetupModal() {
-        var1 = global;
-        var3 = var1.Error;
-        var1 = var3.prototype;
-        var2 = Object.create(var1, {constructor: {value: var3}});
-        var4 = 'Not implemented yet.';
-        var5 = var2;
-        var1 = new var5[var3](var4, var3);
-        var1 = var1 instanceof Object ? var1 : var2;
-        throw var1;
-    };
-    var3['openSafetyChannelSetupModal'] = var2;
+    var3['openReportRaidModal'] = var2;
     return var1;
 })();

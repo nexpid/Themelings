@@ -1,12 +1,12 @@
 // app/modules/global_discovery_servers/GlobalDiscoveryServersUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var6;
     var1 = function _navigateToGuild() {
@@ -923,11 +923,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var1 = var2.bind(var3)(var1);
             var2 = null;
-            if(!(var2 == var1)) { _fun0008_ip = 114; continue _fun0008 }
- 108:
+            if(!(var2 == var1)) { _fun0008_ip = 115; continue _fun0008 }
+ 109:
             var2 = 0;
             var1 = var3[var2];
- 114:
+ 115:
             var1 = var1.code;
             return var1;
         }

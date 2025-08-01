@@ -1,10 +1,10 @@
 // app/uikit-native/GuildBadgeV2.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var4 = 1;
@@ -77,8 +77,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var4.useThemeContext;
             var2 = var2.bind(var4)();
             var5 = var2.theme;
-            if(!(var1 != var9)) { _fun0001_ip = 241; continue _fun0001 }
- 132:
+            if(!(var1 != var9)) { _fun0001_ip = 240; continue _fun0001 }
+ 131:
             var4 = _closure1_slot0;
             var11 = _closure1_slot2;
             var2 = 5;
@@ -88,8 +88,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var2.bind(var4)(var9, var5);
             var4 = var1 == var9;
             var2 = null;
-            if(var4) { _fun0001_ip = 239; continue _fun0001 }
- 173:
+            if(var4) { _fun0001_ip = 238; continue _fun0001 }
+ 172:
             var5 = _closure1_slot3;
             var4 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -107,9 +107,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var7;
             var7 = copyDataProperties(var14, var13);
             var2 = var5.bind(var6)(var4, var3);
- 239:
+ 238:
             return var2;
- 241:
+ 240:
             return var1;
         }
     };

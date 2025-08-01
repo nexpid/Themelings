@@ -1,8 +1,8 @@
 // app/modules/app_database/util/Lru.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native3;
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = metroImportDefault;
+    var3 = exports;
+    var5 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -188,11 +188,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var1.items;
                 var3 = var2.size;
                 var2 = var1.limit;
-                if(!(!(var3 > var2))) { _fun0001_ip = 67; continue _fun0001 }
- 63:
+                if(!(!(var3 > var2))) { _fun0001_ip = 66; continue _fun0001 }
+ 62:
                 var2 = undefined;
                 return var2;
- 67:
+ 66:
                 var2 = var1.oldestKey;
                 var3 = var2.bind(var1)();
                 var4 = var1.items;
@@ -244,7 +244,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var2.bind(var1)();
     var4 = 2;
     var5 = var5[var4];
-    var4 = native2;
+    var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/app_database/util/Lru.tsx';

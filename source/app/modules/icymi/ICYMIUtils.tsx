@@ -1,9 +1,9 @@
 // app/modules/icymi/ICYMIUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var6 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var6 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var6;
     var _closure1_slot2 = var8;
@@ -1441,20 +1441,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['compareGravityUnreadIds'] = var4;
     var2 = function gravityFetchMentions(arg1, arg2, arg3) {
-        var4 = _closure1_slot1;
-        var3 = _closure1_slot2;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
         var1 = 16;
-        var3 = var3[var1];
+        var2 = var2[var1];
         var1 = undefined;
-        var7 = var4.bind(var1)(var3);
-        var6 = var7.fetchRecentMentions;
-        var11 = _closure1_slot11;
-        var12 = arg3;
-        var9 = arg1;
-        var8 = arg2;
-        var13 = var7;
-        var10 = undefined;
-        var2 = var13[var6](var12, var11, var10, var9, var8, var7);
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.fetchRecentMentions;
+        var2 = {};
+        var6 = arg3;
+        var2['before'] = var6;
+        var5 = _closure1_slot11;
+        var2['limit'] = var5;
+        var5 = arg1;
+        var2['roles'] = var5;
+        var5 = arg2;
+        var2['everyone'] = var5;
+        var2 = var3.bind(var4)(var2);
         return var1;
     };
     var3['gravityFetchMentions'] = var2;

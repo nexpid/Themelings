@@ -1,8 +1,8 @@
 // app/design/components/AlertModal/native/useAlertStore.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var1 = global;
@@ -104,16 +104,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var4.bind(var5)(var3);
                 var6 = null;
                 var3 = var6 == var4;
-                if(var3) { _fun0002_ip = 59; continue _fun0002 }
- 49:
+                if(var3) { _fun0002_ip = 60; continue _fun0002 }
+ 50:
                 var5 = var4.onDismiss;
                 var3 = var6 == var5;
- 59:
-                if(var3) { _fun0002_ip = 72; continue _fun0002 }
- 62:
+ 60:
+                if(var3) { _fun0002_ip = 73; continue _fun0002 }
+ 63:
                 var3 = var4.onDismiss;
                 var3 = var3.bind(var4)();
- 72:
+ 73:
                 var3 = _closure1_slot2;
                 var2 = var3.setState;
                 var1 = function(arg1) {

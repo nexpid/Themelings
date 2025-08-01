@@ -1,9 +1,9 @@
 // app/modules/collectibles/native/InlinePriceTag.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var8 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var4 = 1;
@@ -27,8 +27,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var8;
     var4 = var4.View;
     var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
+    var11 = 2;
+    var4 = var6[var11];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 3;
@@ -61,13 +61,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var10 = {'flexDirection': 'row', 'alignItems': 'center'};
     var7['container'] = var10;
     var10 = {};
-    var11 = 'underline';
-    var10['textDecorationLine'] = var11;
+    var12 = 'underline';
+    var10['textDecorationLine'] = var12;
     var7['underline'] = var10;
     var10 = {};
-    var11 = -2;
-    var10['marginBottom'] = var11;
+    var12 = -2;
+    var10['marginBottom'] = var12;
     var7['subscribeNowPressable'] = var10;
+    var10 = {};
+    var10['paddingBottom'] = var11;
+    var7['androidTextPadding'] = var10;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot10 = var7;
     var7 = function PriceTag(arg1) {
@@ -127,7 +130,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = 1;
             var8 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 16;
+            var3 = 17;
             var6 = var5[var3];
             var3 = undefined;
             var6 = var8.bind(var3)(var6);
@@ -136,7 +139,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var6 - var7;
             var2['borderRadius'] = var6;
             var7 = _closure1_slot0;
-            var6 = 17;
+            var6 = 16;
             var5 = var5[var6];
             var7 = var7.bind(var3)(var5);
             var5 = var7.isAndroid;
@@ -226,8 +229,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = var1.product;
             var2 = _closure1_slot10;
             var4 = undefined;
-            var15 = var2.bind(var4)();
-            var _closure2_slot0 = var15;
+            var22 = var2.bind(var4)();
+            var _closure2_slot0 = var22;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 7;
@@ -246,7 +249,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var6.bind(var4)(var2);
             var2 = _closure1_slot6;
             var2 = var2.SHOP_PRODUCT_DETAILS;
-            var21 = var6.bind(var4)(var2);
+            var15 = var6.bind(var4)(var2);
             var7 = 10;
             var2 = var5[var7];
             var9 = var3.bind(var4)(var2);
@@ -271,10 +274,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             if(!var2) { _fun0004_ip = 195; continue _fun0004 }
  186:
             var2 = null;
-            if(!(var2 != var19)) { _fun0004_ip = 874; continue _fun0004 }
+            if(!(var2 != var19)) { _fun0004_ip = 954; continue _fun0004 }
  195:
             var2 = null;
-            if(!(var2 != var19)) { _fun0004_ip = 872; continue _fun0004 }
+            if(!(var2 != var19)) { _fun0004_ip = 952; continue _fun0004 }
  204:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -285,7 +288,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = _closure1_slot7;
             var5 = _closure1_slot4;
             var3 = {};
-            var7 = var15.container;
+            var7 = var22.container;
             var3['style'] = var7;
             var11 = _closure1_slot8;
             var10 = _closure1_slot11;
@@ -299,22 +302,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['variant'] = var8;
             if(var17) { _fun0004_ip = 294; continue _fun0004 }
  286:
-            var8 = var15.regularPrice;
+            var8 = var22.regularPrice;
             _fun0004_ip = 300; continue _fun0004;
  294:
-            var8 = var15.strikedPrice;
+            var8 = var22.strikedPrice;
  300:
             var7['style'] = var8;
-            var22 = 'interactive-active';
-            var7['color'] = var22;
+            var21 = 'interactive-active';
+            var7['color'] = var21;
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var27 = 13;
-            var12 = var8[var27];
+            var28 = 13;
+            var12 = var8[var28];
             var12 = var9.bind(var4)(var12);
             var16 = var12.intl;
             var14 = var16.formatToPlainString;
-            var12 = var8[var27];
+            var12 = var8[var28];
             var12 = var9.bind(var4)(var12);
             var12 = var12.t;
             var13 = var12.sPvyr6;
@@ -346,7 +349,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  463:
             var7[1] = var8;
             var8 = var2 != var20;
-            if(!var8) { _fun0004_ip = 856; continue _fun0004 }
+            if(!var8) { _fun0004_ip = 936; continue _fun0004 }
  477:
             var11 = _closure1_slot7;
             var10 = _closure1_slot9;
@@ -362,40 +365,53 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = 'interactive-normal';
             if(!var17) { _fun0004_ip = 531; continue _fun0004 }
  528:
-            var19 = var22;
+            var19 = var21;
  531:
             var12['color'] = var19;
-            var19 = var15.nitroIcon;
+            var19 = var22.nitroIcon;
             var12['style'] = var19;
             var13 = var14.bind(var4)(var13, var12);
             var12 = new Array(3);
             var12[0] = var13;
             var19 = _closure1_slot8;
-            if(var17) { _fun0004_ip = 718; continue _fun0004 }
+            if(var17) { _fun0004_ip = 762; continue _fun0004 }
  569:
             var14 = _closure1_slot3;
             var13 = {};
-            var13['onPress'] = var21;
-            var15 = var15.subscribeNowPressable;
+            var13['onPress'] = var15;
+            var15 = var22.subscribeNowPressable;
             var13['style'] = var15;
-            var23 = _closure1_slot0;
-            var22 = _closure1_slot2;
+            var24 = _closure1_slot0;
+            var25 = _closure1_slot2;
             var15 = 6;
-            var15 = var22[var15];
-            var15 = var23.bind(var4)(var15);
+            var15 = var25[var15];
+            var15 = var24.bind(var4)(var15);
             var21 = var15.Text;
             var15 = {'variant': 'text-md/normal', 'color': 'interactive-normal'};
-            var24 = var22[var27];
-            var24 = var23.bind(var4)(var24);
-            var25 = var24.intl;
-            var24 = var25.format;
-            var22 = var22[var27];
-            var22 = var23.bind(var4)(var22);
-            var22 = var22.t;
-            var23 = var22.Kxw2LS;
-            var22 = {};
-            var22['price'] = var20;
-            var26 = function subscribeNowHook(arg1) {
+            var23 = 16;
+            var23 = var25[var23];
+            var24 = var24.bind(var4)(var23);
+            var23 = var24.isAndroid;
+            var24 = var23.bind(var24)();
+            var23 = undefined;
+            if(!var24) { _fun0004_ip = 660; continue _fun0004 }
+ 654:
+            var23 = var22.androidTextPadding;
+ 660:
+            var15['style'] = var23;
+            var24 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var25 = var23[var28];
+            var25 = var24.bind(var4)(var25);
+            var26 = var25.intl;
+            var25 = var26.format;
+            var23 = var23[var28];
+            var23 = var24.bind(var4)(var23);
+            var23 = var23.t;
+            var24 = var23.Kxw2LS;
+            var23 = {};
+            var23['price'] = var20;
+            var27 = function subscribeNowHook(arg1) {
                 var4 = _closure1_slot8;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -415,24 +431,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var22['subscribeNowHook'] = var26;
-            var22 = var24.bind(var25)(var23, var22);
-            var15['children'] = var22;
+            var23['subscribeNowHook'] = var27;
+            var23 = var25.bind(var26)(var24, var23);
+            var15['children'] = var23;
             var15 = var19.bind(var4)(var21, var15);
             var13['children'] = var15;
             var13 = var19.bind(var4)(var14, var13);
-            _fun0004_ip = 767; continue _fun0004;
- 718:
-            var15 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            _fun0004_ip = 847; continue _fun0004;
+ 762:
+            var23 = _closure1_slot0;
+            var24 = _closure1_slot2;
             var14 = 6;
-            var14 = var21[var14];
-            var14 = var15.bind(var4)(var14);
+            var14 = var24[var14];
+            var14 = var23.bind(var4)(var14);
             var15 = var14.Text;
             var14 = {'variant': 'text-md/medium', 'color': 'interactive-active'};
+            var21 = 16;
+            var21 = var24[var21];
+            var23 = var23.bind(var4)(var21);
+            var21 = var23.isAndroid;
+            var23 = var21.bind(var23)();
+            var21 = undefined;
+            if(!var23) { _fun0004_ip = 833; continue _fun0004 }
+ 827:
+            var21 = var22.androidTextPadding;
+ 833:
+            var14['style'] = var21;
             var14['children'] = var20;
             var13 = var19.bind(var4)(var15, var14);
- 767:
+ 847:
             var12[1] = var13;
             var15 = var18.type;
             var14 = _closure1_slot0;
@@ -442,29 +469,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var13.CollectiblesItemType;
             var14 = var13.BUNDLE;
             var13 = null;
-            if(!(var15 === var14)) { _fun0004_ip = 842; continue _fun0004 }
- 811:
+            if(!(var15 === var14)) { _fun0004_ip = 922; continue _fun0004 }
+ 891:
             var13 = null;
-            if(!var17) { _fun0004_ip = 842; continue _fun0004 }
- 816:
+            if(!var17) { _fun0004_ip = 922; continue _fun0004 }
+ 896:
             var16 = _closure1_slot8;
             var15 = _closure1_slot13;
             var14 = {};
             var14['product'] = var18;
             var14['eligibleForPremiumDiscount'] = var17;
             var13 = var16.bind(var4)(var15, var14);
- 842:
+ 922:
             var12[2] = var13;
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 856:
+ 936:
             var7[2] = var8;
             var3['children'] = var7;
             var3 = var6.bind(var4)(var5, var3);
             return var3;
- 872:
+ 952:
             return var2;
- 874:
+ 954:
             var3 = _closure1_slot8;
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;

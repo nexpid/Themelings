@@ -1,9 +1,9 @@
 // app/modules/main_tabs_v2/native/panels/useChannelScreensFromNavigation.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var6 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var6 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var6;
     var _closure1_slot2 = var8;
@@ -307,7 +307,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var5;
     var10 = 1;
     var9 = var8[var10];
-    var5 = native4;
+    var5 = metroImportAll;
     var5 = var5.bind(var1)(var9);
     var _closure1_slot4 = var5;
     var9 = 2;

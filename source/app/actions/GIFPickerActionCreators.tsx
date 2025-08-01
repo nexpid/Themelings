@@ -1,9 +1,9 @@
 // app/actions/GIFPickerActionCreators.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var11 = native3;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var10;
@@ -94,8 +94,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[var5] = var10;
             var5 = arg2;
             var7 = var8.bind(var9)(var7, var5, var6);
-            if(!(var3 != var4)) { _fun0002_ip = 193; continue _fun0002 }
- 161:
+            if(!(var3 != var4)) { _fun0002_ip = 189; continue _fun0002 }
+ 157:
             var6 = {};
             var3 = global;
             var5 = var3.Date;
@@ -103,10 +103,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var5)();
             var3 = var3 - var4;
             var6['load_duration_ms'] = var3;
-            _fun0002_ip = 195; continue _fun0002;
- 193:
+            _fun0002_ip = 191; continue _fun0002;
+ 189:
             var6 = {};
- 195:
+ 191:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 4;
@@ -477,8 +477,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2[var9] = var6;
             var2 = var4.bind(var8)(var3, var2);
             var2 = null;
-            if(!(var2 != var7)) { _fun0006_ip = 288; continue _fun0006 }
- 210:
+            if(!(var2 != var7)) { _fun0006_ip = 286; continue _fun0006 }
+ 208:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 6;
@@ -498,7 +498,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['oldFormErrors'] = var5;
             var2['rejectWithError'] = var5;
             var2 = var3.bind(var4)(var2);
- 288:
+ 286:
             return var1;
         }
     };

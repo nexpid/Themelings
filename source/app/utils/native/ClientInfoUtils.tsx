@@ -1,10 +1,10 @@
 // app/utils/native/ClientInfoUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
@@ -79,7 +79,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var2 = ['0', '123456', '1234567890'];
             var1 = var2.includes;
-            var5 = '4419';
+            var5 = '4428';
             var2 = var1.bind(var2)(var5);
             var1 = var5;
             if(!var2) { _fun0002_ip = 61; continue _fun0002 }

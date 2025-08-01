@@ -1,9 +1,9 @@
 // app/modules/stickers/StickersUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var7 = native3;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var9;
     var4 = function getFavoriteStickerIds() {
@@ -146,7 +146,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot0 = var2;
             var4 = var2.cover_sticker_id;
             var3 = null;
-            if(!(var3 != var4)) { _fun0002_ip = 46; continue _fun0002 }
+            if(!(var3 != var4)) { _fun0002_ip = 47; continue _fun0002 }
  21:
             var5 = var2.stickers;
             var4 = var5.find;
@@ -159,13 +159,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var1 = var4.bind(var5)(var1);
-            if(!(var3 == var1)) { _fun0002_ip = 60; continue _fun0002 }
- 46:
+            if(!(var3 == var1)) { _fun0002_ip = 61; continue _fun0002 }
+ 47:
             var3 = var2.stickers;
             var2 = 0;
             var2 = var3[var2];
             return var2;
- 60:
+ 61:
             return var1;
         }
     };

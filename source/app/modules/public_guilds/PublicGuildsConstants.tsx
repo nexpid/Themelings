@@ -1,8 +1,8 @@
 // app/modules/public_guilds/PublicGuildsConstants.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var3 = exports;
+    var8 = dependencyMap;
     var1 = global;
     var5 = var1.Object;
     var4 = var5.defineProperty;
@@ -45,7 +45,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5[12] = var2;
     var2 = 1;
     var4 = var8[var2];
-    var2 = native4;
+    var2 = metroImportAll;
     var6 = var2.bind(var1)(var4);
     var4 = var6.combine;
     var2 = new Array(0);

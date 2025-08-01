@@ -1,7 +1,7 @@
 // app/modules/age_gate/AgeGateConstants.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
+    var7 = dependencyMap;
     var1 = global;
     var5 = var1.Object;
     var4 = var5.defineProperty;
@@ -12,7 +12,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var4.bind(var5)(var3, var1, var2);
     var1 = 0;
     var4 = var7[var1];
-    var2 = native3;
+    var2 = metroImportDefault;
     var1 = undefined;
     var2 = var2.bind(var1)(var4);
     var2 = var2.Millis;
@@ -63,7 +63,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['AGE_GATE_LOGOUT_UNDERAGE_NEW_USER'] = var6;
     var6 = 1;
     var7 = var7[var6];
-    var6 = native2;
+    var6 = require;
     var8 = var6.bind(var1)(var7);
     var7 = var8.fileFinishedImporting;
     var6 = 'modules/age_gate/AgeGateConstants.tsx';

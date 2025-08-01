@@ -1,8 +1,8 @@
 // app/stores/SessionsStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native3;
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = metroImportDefault;
+    var3 = exports;
+    var5 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var5;
     var1 = function _isNativeReflectConstruct() {
@@ -227,13 +227,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var2 = var4.bind(var5)(var3, var2);
                 var3 = null;
-                if(!(var3 == var2)) { _fun0004_ip = 77; continue _fun0004 }
- 71:
+                if(!(var3 == var2)) { _fun0004_ip = 78; continue _fun0004 }
+ 72:
                 var1 = _closure1_slot8;
-                _fun0004_ip = 83; continue _fun0004;
- 77:
+                _fun0004_ip = 84; continue _fun0004;
+ 78:
                 var1 = var2.activities;
- 83:
+ 84:
                 return var1;
             }
         };
@@ -273,16 +273,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var2 = var4.bind(var5)(var3, var2);
                 var4 = null;
-                if(!(var4 != var2)) { _fun0006_ip = 81; continue _fun0006 }
- 71:
+                if(!(var4 != var2)) { _fun0006_ip = 82; continue _fun0006 }
+ 72:
                 var3 = var2.hiddenActivities;
-                if(!(var4 == var3)) { _fun0006_ip = 87; continue _fun0006 }
- 81:
+                if(!(var4 == var3)) { _fun0006_ip = 88; continue _fun0006 }
+ 82:
                 var1 = _closure1_slot8;
-                _fun0006_ip = 93; continue _fun0006;
- 87:
+                _fun0006_ip = 94; continue _fun0006;
+ 88:
                 var1 = var2.hiddenActivities;
- 93:
+ 94:
                 return var1;
             }
         };
@@ -341,7 +341,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var2 instanceof Object ? var2 : var4;
     var4 = 9;
     var5 = var5[var4];
-    var4 = native2;
+    var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'stores/SessionsStore.tsx';

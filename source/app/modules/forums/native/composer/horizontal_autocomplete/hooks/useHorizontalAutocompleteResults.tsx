@@ -1,8 +1,8 @@
 // app/modules/forums/native/composer/horizontal_autocomplete/hooks/useHorizontalAutocompleteResults.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -15,13 +15,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native3;
+    var4 = metroImportDefault;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
     var4 = 2;
@@ -144,7 +144,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var _closure3_slot2 = var13;
                 var1 = _closure2_slot6;
                 var12 = null;
-                if(!(var12 != var1)) { _fun0001_ip = 349; continue _fun0001 }
+                if(!(var12 != var1)) { _fun0001_ip = 350; continue _fun0001 }
  26:
                 var2 = _closure2_slot6;
                 var1 = var2.trim;
@@ -157,7 +157,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = 4;
                 var6 = undefined;
                 var1 = undefined;
-                if(!(var10 !== var2)) { _fun0001_ip = 349; continue _fun0001 }
+                if(!(var10 !== var2)) { _fun0001_ip = 350; continue _fun0001 }
  71:
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot1;
@@ -171,7 +171,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4.bind(var5)(var2);
                 if(!(var10 !== var13)) { _fun0001_ip = 123; continue _fun0001 }
  120:
-                if(!var2) { _fun0001_ip = 238; continue _fun0001 }
+                if(!var2) { _fun0001_ip = 239; continue _fun0001 }
  123:
                 var5 = _closure2_slot6;
                 var4 = var5.slice;
@@ -224,8 +224,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var1;
                 var2 = var13;
                 var4 = var6;
-                if(!(var12 == var4)) { _fun0001_ip = 264; continue _fun0001 }
- 238:
+                if(!(var12 == var4)) { _fun0001_ip = 265; continue _fun0001 }
+ 239:
                 var16 = var13 - 1;
                 _closure3_slot2 = var16;
                 var13 = var16;
@@ -233,7 +233,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var1;
                 var2 = var13;
                 if(var2 >= var10) { _fun0001_ip = 71; continue _fun0001 }
- 264:
+ 265:
                 var1 = {};
                 var1['query'] = var5;
                 var1['autocompleteType'] = var4;
@@ -254,7 +254,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2['channelTypes'] = var3;
                 var1['queryOptions'] = var2;
                 return var1;
- 349:
+ 350:
                 var1 = {'query': null, 'autocompleteType': null, 'autocompleteSelectionStart': null};
                 return var1;
             }

@@ -1,9 +1,9 @@
 // app/modules/main_tabs_v2/native/shared_components/guild_channels/layouts/layout/Compact.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var5 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var4 = var8.defineProperty;

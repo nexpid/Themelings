@@ -1,9 +1,9 @@
 // app/modules/voice_panel/native/controls/activities/ActivityShelfItem.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -244,7 +244,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -558,10 +558,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var31 = var32.bind(var4)(var31);
             var31 = var31.ActivityAction;
             var31 = var31.START;
-            if(!(var12 === var31)) { _fun0003_ip = 741; continue _fun0003 }
- 738:
+            if(!(var12 === var31)) { _fun0003_ip = 740; continue _fun0003 }
+ 737:
             var29 = var30;
- 741:
+ 740:
             var20['imageBackground'] = var29;
             var25 = var28 / var25;
             var20['aspectRatio'] = var25;
@@ -585,8 +585,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = new Array(3);
             var13[0] = var15;
             var15 = null;
-            if(!var18) { _fun0003_ip = 881; continue _fun0003 }
- 844:
+            if(!var18) { _fun0003_ip = 880; continue _fun0003 }
+ 843:
             var20 = _closure1_slot7;
             var19 = _closure1_slot1;
             var23 = _closure1_slot2;
@@ -596,11 +596,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = {};
             var18['labelType'] = var21;
             var15 = var20.bind(var4)(var19, var18);
- 881:
+ 880:
             var13[1] = var15;
             var15 = null;
-            if(!var17) { _fun0003_ip = 1016; continue _fun0003 }
- 893:
+            if(!var17) { _fun0003_ip = 1015; continue _fun0003 }
+ 892:
             var18 = _closure1_slot7;
             var24 = _closure1_slot1;
             var25 = _closure1_slot2;
@@ -629,7 +629,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var19 = var21.bind(var4)(var20, var19);
             var16['children'] = var19;
             var15 = var18.bind(var4)(var17, var16);
- 1016:
+ 1015:
             var13[2] = var15;
             var5['children'] = var13;
             var6 = var8.bind(var4)(var6, var5);
@@ -642,36 +642,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var6.ActivityAction;
             var6 = var6.START;
             var6 = var12 === var6;
-            if(!var6) { _fun0003_ip = 1152; continue _fun0003 }
- 1074:
+            if(!var6) { _fun0003_ip = 1151; continue _fun0003 }
+ 1073:
             var9 = _closure1_slot7;
             var8 = _closure1_slot12;
             var7 = {};
             var7['action'] = var12;
             var13 = var11 == var14;
             var12 = undefined;
-            if(var13) { _fun0003_ip = 1102; continue _fun0003 }
- 1097:
+            if(var13) { _fun0003_ip = 1101; continue _fun0003 }
+ 1096:
             var12 = var14.id;
- 1102:
+ 1101:
             var7['channelId'] = var12;
             var13 = var11 == var14;
             var12 = undefined;
-            if(var13) { _fun0003_ip = 1125; continue _fun0003 }
- 1115:
+            if(var13) { _fun0003_ip = 1124; continue _fun0003 }
+ 1114:
             var13 = var14.getGuildId;
             var12 = var13.bind(var14)();
- 1125:
+ 1124:
             var13 = var11 != var12;
             var11 = undefined;
-            if(!var13) { _fun0003_ip = 1137; continue _fun0003 }
- 1134:
+            if(!var13) { _fun0003_ip = 1136; continue _fun0003 }
+ 1133:
             var11 = var12;
- 1137:
+ 1136:
             var7['guildId'] = var11;
             var7['activityItem'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 1152:
+ 1151:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

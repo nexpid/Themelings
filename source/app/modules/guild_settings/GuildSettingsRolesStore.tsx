@@ -1,12 +1,12 @@
 // app/modules/guild_settings/GuildSettingsRolesStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var9 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var9 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var9;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var7;
     var1 = function _isNativeReflectConstruct() {
@@ -458,19 +458,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var8 = var8.bind(var9)(var7);
                     var7 = null;
-                    if(!(var7 != var8)) { _fun0008_ip = 81; continue _fun0008 }
- 63:
-                    if(!(var7 != var6)) { _fun0008_ip = 81; continue _fun0008 }
- 67:
+                    if(!(var7 != var8)) { _fun0008_ip = 82; continue _fun0008 }
+ 64:
+                    if(!(var7 != var6)) { _fun0008_ip = 82; continue _fun0008 }
+ 68:
                     var5 = _closure2_slot0;
                     var3 = _closure3_slot1;
                     var5[var3] = var6;
-                    _fun0008_ip = 95; continue _fun0008;
- 81:
+                    _fun0008_ip = 96; continue _fun0008;
+ 82:
                     var3 = _closure1_slot23;
                     var2 = var3.delete;
                     var2 = var2.bind(var3)(var4);
- 95:
+ 96:
                     return var1;
                 }
             };

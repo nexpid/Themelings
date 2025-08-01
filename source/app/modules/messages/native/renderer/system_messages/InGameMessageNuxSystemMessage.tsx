@@ -1,9 +1,9 @@
 // app/modules/messages/native/renderer/system_messages/InGameMessageNuxSystemMessage.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -51,13 +51,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = null;
             var11 = var1 != var10;
             var2 = '';
-            if(!var11) { _fun0001_ip = 81; continue _fun0001 }
- 78:
+            if(!var11) { _fun0001_ip = 80; continue _fun0001 }
+ 77:
             var2 = var10;
- 81:
+ 80:
             var2 = var6.bind(var7)(var2);
-            if(!(var1 != var2)) { _fun0001_ip = 357; continue _fun0001 }
- 93:
+            if(!(var1 != var2)) { _fun0001_ip = 356; continue _fun0001 }
+ 92:
             var10 = {};
             var11 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -117,7 +117,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var2;
             var3 = copyDataProperties(var15, var14);
             return var2;
- 357:
+ 356:
             return var1;
         }
     };

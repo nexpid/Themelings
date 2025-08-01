@@ -1,10 +1,10 @@
 // app/modules/chat_input/native/ChatInput.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var7 = native4;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var7 = metroImportAll;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
@@ -217,9 +217,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot0 = var10;
             var13 = var2.isResourceChannel;
             var9 = var2.screenIndex;
-            var50 = var2.setNoExtractUI;
-            var20 = var2.secondaryTextFieldRef;
-            var17 = var2.threadCreationCallback;
+            var49 = var2.setNoExtractUI;
+            var21 = var2.secondaryTextFieldRef;
+            var20 = var2.threadCreationCallback;
             var5 = undefined;
             var _closure2_slot2 = var5;
             var _closure2_slot3 = var5;
@@ -227,6 +227,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot5 = var5;
             var _closure2_slot6 = var5;
             var _closure2_slot7 = var5;
+            var _closure2_slot8 = var5;
             var7 = _closure1_slot0;
             var8 = _closure1_slot3;
             var3 = 20;
@@ -239,16 +240,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.END;
             var4 = var4.bind(var6)(var3);
             var3 = _closure1_slot30;
-            var41 = var3.bind(var5)(var4);
-            var35 = null;
-            var3 = var35 != var17;
+            var40 = var3.bind(var5)(var4);
+            var34 = null;
+            var3 = var34 != var20;
             var _closure2_slot1 = var3;
             var4 = var10.isPrivate;
             var14 = var4.bind(var10)();
-            if(!var14) { _fun0002_ip = 160; continue _fun0002 }
- 157:
+            if(!var14) { _fun0002_ip = 164; continue _fun0002 }
+ 161:
             var14 = !var3;
- 160:
+ 164:
             var7 = _closure1_slot0;
             var6 = _closure1_slot3;
             var4 = 21;
@@ -274,8 +275,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var34 = var12.bind(var15)(var11, var8);
-            _closure2_slot2 = var34;
+            var33 = var12.bind(var15)(var11, var8);
+            _closure2_slot2 = var33;
             var8 = var6[var4];
             var15 = var7.bind(var5)(var8);
             var12 = var15.useStateFromStores;
@@ -333,7 +334,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var36 = var8.bind(var11)(var7, var6);
+            var35 = var8.bind(var11)(var7, var6);
             var11 = _closure1_slot5;
             var8 = var11.useMemo;
             var6 = var10.id;
@@ -360,11 +361,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var38 = var8.bind(var11)(var6, var7);
-            if(!(var35 != var34)) { _fun0002_ip = 342; continue _fun0002 }
- 339:
-            var38 = var34;
- 342:
+            var37 = var8.bind(var11)(var6, var7);
+            if(!(var34 != var33)) { _fun0002_ip = 346; continue _fun0002 }
+ 343:
+            var37 = var33;
+ 346:
             var7 = _closure1_slot0;
             var12 = _closure1_slot3;
             var6 = var12[var4];
@@ -490,8 +491,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var6 = var11.bind(var15)(var8, var6, var7);
             var22 = var6.canMentionEveryone;
-            var37 = var6.canUpload;
-            var39 = var6.canSendVoiceMessage;
+            var36 = var6.canUpload;
+            var38 = var6.canSendVoiceMessage;
             var7 = var6.editable;
             var8 = var6.canCreateThreads;
             var11 = _closure1_slot1;
@@ -499,14 +500,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var12[var6];
             var6 = var11.bind(var5)(var6);
             var6 = var6.bind(var5)();
-            var45 = var6.analyticsLocations;
+            var44 = var6.analyticsLocations;
             var18 = var3;
-            if(var18) { _fun0002_ip = 469; continue _fun0002 }
- 465:
-            var18 = var35 != var34;
+            if(var18) { _fun0002_ip = 473; continue _fun0002 }
  469:
-            if(var18) { _fun0002_ip = 506; continue _fun0002 }
- 472:
+            var18 = var34 != var33;
+ 473:
+            if(var18) { _fun0002_ip = 510; continue _fun0002 }
+ 476:
             var11 = _closure1_slot0;
             var12 = _closure1_slot3;
             var6 = 22;
@@ -515,52 +516,52 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var11.getIsActiveChannelOrUnarchivableThread;
             var6 = var6.bind(var11)(var10);
             var18 = !var6;
- 506:
-            var19 = var35 != var29;
+ 510:
+            var19 = var34 != var29;
             var11 = _closure1_slot0;
             var12 = _closure1_slot3;
             var6 = 22;
             var6 = var12[var6];
             var11 = var11.bind(var5)(var6);
             var6 = var11.useCanStartThread;
-            var48 = var6.bind(var11)(var10);
-            if(!var48) { _fun0002_ip = 572; continue _fun0002 }
- 544:
+            var47 = var6.bind(var11)(var10);
+            if(!var47) { _fun0002_ip = 576; continue _fun0002 }
+ 548:
             var6 = _closure1_slot21;
             var12 = var6.GUILD_THREADS_ONLY;
             var11 = var12.has;
             var6 = var10.type;
             var6 = var11.bind(var12)(var6);
-            var48 = !var6;
- 572:
-            if(!var48) { _fun0002_ip = 578; continue _fun0002 }
- 575:
-            var48 = !var3;
- 578:
+            var47 = !var6;
+ 576:
+            if(!var47) { _fun0002_ip = 582; continue _fun0002 }
+ 579:
+            var47 = !var3;
+ 582:
             var11 = _closure1_slot0;
             var12 = _closure1_slot3;
             var6 = 24;
             var6 = var12[var6];
             var11 = var11.bind(var5)(var6);
             var6 = var11.useCanPostPollsInChannel;
-            var44 = var6.bind(var11)(var10);
-            if(!var44) { _fun0002_ip = 615; continue _fun0002 }
- 612:
-            var44 = !var3;
- 615:
-            var12 = _closure1_slot0;
-            var15 = _closure1_slot3;
+            var43 = var6.bind(var11)(var10);
+            if(!var43) { _fun0002_ip = 619; continue _fun0002 }
+ 616:
+            var43 = !var3;
+ 619:
+            var11 = _closure1_slot0;
+            var16 = _closure1_slot3;
             var31 = 25;
-            var6 = var15[var31];
-            var16 = var12.bind(var5)(var6);
-            var11 = var16.useSharedValue;
+            var6 = var16[var31];
+            var15 = var11.bind(var5)(var6);
+            var12 = var15.useSharedValue;
             var6 = 37;
-            var11 = var11.bind(var16)(var6);
-            _closure2_slot4 = var11;
-            var6 = var15[var31];
-            var16 = var12.bind(var5)(var6);
-            var12 = var16.useAnimatedStyle;
-            var6 = function B() {
+            var15 = var12.bind(var15)(var6);
+            _closure2_slot4 = var15;
+            var6 = var16[var31];
+            var12 = var11.bind(var5)(var6);
+            var11 = var12.useAnimatedStyle;
+            var6 = function w() {
                 var1 = {};
                 var3 = _closure2_slot4;
                 var2 = var3.get;
@@ -568,21 +569,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['height'] = var2;
                 return var1;
             };
-            var21 = {};
-            var21['textFieldHeight'] = var11;
-            var6['__closure'] = var21;
-            var21 = 9294501099507.0;
-            var6['__workletHash'] = var21;
-            var21 = _closure1_slot31;
-            var6['__initData'] = var21;
-            var43 = var12.bind(var16)(var6);
+            var17 = {};
+            var17['textFieldHeight'] = var15;
+            var6['__closure'] = var17;
+            var17 = 9294501099507.0;
+            var6['__workletHash'] = var17;
+            var17 = _closure1_slot31;
+            var6['__initData'] = var17;
+            var42 = var11.bind(var12)(var6);
+            var17 = _closure1_slot5;
+            var6 = var17.useRef;
+            var11 = false;
+            var6 = var6.bind(var17)(var11);
+            _closure2_slot5 = var6;
             var12 = _closure1_slot1;
             var6 = 26;
-            var6 = var15[var6];
+            var6 = var16[var6];
             var6 = var12.bind(var5)(var6);
-            var47 = var6.bind(var5)();
-            var16 = _closure1_slot5;
-            var15 = var16.useMemo;
+            var46 = var6.bind(var5)();
+            var16 = var17.useMemo;
             var12 = new Array(1);
             var12[0] = var10;
             var6 = function() {
@@ -593,7 +598,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['type'] = var2;
                 return var1;
             };
-            var26 = var15.bind(var16)(var6, var12);
+            var26 = var16.bind(var17)(var6, var12);
             var12 = _closure1_slot10;
             var6 = function(arg1) {
                 var1 = arg1;
@@ -604,22 +609,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var28 = var12.bind(var5)(var6);
             var32 = !var3;
-            var40 = var32;
-            if(var3) { _fun0002_ip = 824; continue _fun0002 }
- 793:
+            var39 = var32;
+            if(var3) { _fun0002_ip = 844; continue _fun0002 }
+ 813:
             var12 = _closure1_slot0;
-            var15 = _closure1_slot3;
+            var16 = _closure1_slot3;
             var6 = 27;
-            var6 = var15[var6];
+            var6 = var16[var6];
             var12 = var12.bind(var5)(var6);
             var6 = var12.getIsAppLauncherEnabled;
-            var40 = var6.bind(var12)(var10);
- 824:
+            var39 = var6.bind(var12)(var10);
+ 844:
             var12 = _closure1_slot0;
             var16 = _closure1_slot3;
             var4 = var16[var4];
-            var21 = var12.bind(var5)(var4);
-            var15 = var21.useStateFromStores;
+            var23 = var12.bind(var5)(var4);
+            var17 = var23.useStateFromStores;
             var4 = _closure1_slot7;
             var6 = new Array(1);
             var6[0] = var4;
@@ -631,58 +636,57 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var46 = var15.bind(var21)(var6, var4);
+            var45 = var17.bind(var23)(var6, var4);
             var6 = _closure1_slot1;
             var4 = 28;
             var4 = var16[var4];
-            var15 = var6.bind(var5)(var4);
+            var17 = var6.bind(var5)(var4);
             var4 = {};
             var4['channel'] = var10;
-            var21 = !var7;
-            var4['isReadonly'] = var21;
+            var23 = !var7;
+            var4['isReadonly'] = var23;
             var4['isCreatingThread'] = var3;
-            var4 = var15.bind(var5)(var4);
-            var52 = var4.placeholder;
-            var51 = var4.accessibilityLabel;
+            var4 = var17.bind(var5)(var4);
+            var51 = var4.placeholder;
+            var50 = var4.accessibilityLabel;
             var4 = 29;
             var4 = var16[var4];
             var6 = var6.bind(var5)(var4);
             var4 = {};
-            var15 = {};
-            var15['analyticsLocations'] = var45;
-            var15['canUpload'] = var37;
-            var15['channel'] = var10;
-            var15['defaultValue'] = var38;
-            var15['hasAttachmentsToUpload'] = var36;
-            var15['pendingEdit'] = var34;
-            var15['pendingReply'] = var29;
-            var15['screenIndex'] = var9;
-            var15['secondaryTextFieldRef'] = var20;
-            var15['threadCreationCallback'] = var17;
-            var4['chatInputProps'] = var15;
-            var4['chatInputTextFieldHeight'] = var11;
-            var11 = arg2;
-            var4['ref'] = var11;
+            var17 = {};
+            var17['analyticsLocations'] = var44;
+            var17['canUpload'] = var36;
+            var17['channel'] = var10;
+            var17['defaultValue'] = var37;
+            var17['hasAttachmentsToUpload'] = var35;
+            var17['pendingEdit'] = var33;
+            var17['pendingReply'] = var29;
+            var17['screenIndex'] = var9;
+            var17['secondaryTextFieldRef'] = var21;
+            var17['threadCreationCallback'] = var20;
+            var4['chatInputProps'] = var17;
+            var4['chatInputTextFieldHeight'] = var15;
+            var15 = arg2;
+            var4['ref'] = var15;
             var25 = var6.bind(var5)(var4);
-            _closure2_slot5 = var25;
+            _closure2_slot6 = var25;
             var27 = 30;
             var4 = var16[var27];
-            var11 = var12.bind(var5)(var4);
-            var6 = var11.useChatInputAppDMUIState;
-            var4 = var25.chatInput;
-            var4 = var6.bind(var11)(var10, var4);
-            var42 = var4.appDMsUIEnabled;
+            var6 = var12.bind(var5)(var4);
+            var4 = var6.useChatInputAppDMUIState;
+            var4 = var4.bind(var6)(var10);
+            var41 = var4.appDMsUIEnabled;
             var20 = var4.appDMsUIVisible;
-            var24 = var4.setAppDMsUIVisible;
-            _closure2_slot6 = var24;
-            var15 = _closure1_slot5;
-            var11 = var15.useEffect;
-            var6 = new Array(1);
-            var6[0] = var25;
-            var4 = function() {
+            var4 = var4.setAppDMsUIVisible;
+            _closure2_slot7 = var4;
+            var17 = _closure1_slot5;
+            var21 = var17.useEffect;
+            var15 = new Array(1);
+            var15[0] = var25;
+            var6 = function() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                    var2 = _closure2_slot5;
+                    var2 = _closure2_slot6;
                     var2 = var2.props;
                     var2 = var2.current;
                     var3 = var2.defaultValue;
@@ -690,7 +694,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = 0;
                     if(!(var4 > var2)) { _fun0008_ip = 60; continue _fun0008 }
  34:
-                    var1 = _closure2_slot5;
+                    var1 = _closure2_slot6;
                     var1 = var1.chatInput;
                     var2 = var1.current;
                     var1 = var2.setText;
@@ -700,17 +704,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var4 = var11.bind(var15)(var4, var6);
-            var11 = var15.useEffect;
-            var6 = new Array(4);
-            var6[0] = var25;
-            var6[1] = var10;
-            var6[2] = var34;
-            var6[3] = var29;
-            var4 = function() {
+            var6 = var21.bind(var17)(var6, var15);
+            var21 = var17.useEffect;
+            var15 = new Array(4);
+            var15[0] = var25;
+            var15[1] = var10;
+            var15[2] = var33;
+            var15[3] = var29;
+            var6 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                    var2 = _closure2_slot5;
+                    var2 = _closure2_slot6;
                     var2 = var2.propsPrev;
                     var2 = var2.current;
                     var4 = var2.pendingEdit;
@@ -734,7 +738,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  68:
                     if(!var3) { _fun0009_ip = 100; continue _fun0009 }
  71:
-                    var3 = _closure2_slot5;
+                    var3 = _closure2_slot6;
                     var3 = var3.chatInput;
                     var5 = var3.current;
                     if(!(var2 != var5)) { _fun0009_ip = 100; continue _fun0009 }
@@ -742,7 +746,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var5.focus;
                     var3 = var3.bind(var5)();
  100:
-                    var3 = _closure2_slot5;
+                    var3 = _closure2_slot6;
                     var3 = var3.propsPrev;
                     var3 = var3.current;
                     var3 = var3.channel;
@@ -763,7 +767,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = _closure2_slot2;
                     if(!(var4 !== var3)) { _fun0009_ip = 282; continue _fun0009 }
  181:
-                    var3 = _closure2_slot5;
+                    var3 = _closure2_slot6;
                     var3 = var3.chatInput;
                     var5 = var3.current;
                     if(!(var2 != var5)) { _fun0009_ip = 282; continue _fun0009 }
@@ -779,13 +783,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var4.bind(var5)(var3);
                     _fun0009_ip = 282; continue _fun0009;
  232:
-                    var3 = _closure2_slot5;
+                    var3 = _closure2_slot6;
                     var3 = var3.chatInput;
                     var3 = var3.current;
                     if(!(var2 != var3)) { _fun0009_ip = 282; continue _fun0009 }
  251:
                     var2 = var3.setText;
-                    var1 = _closure2_slot5;
+                    var1 = _closure2_slot6;
                     var1 = var1.props;
                     var1 = var1.current;
                     var1 = var1.defaultValue;
@@ -795,11 +799,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var4 = var11.bind(var15)(var4, var6);
-            var11 = var15.useEffect;
-            var6 = new Array(1);
-            var6[0] = var25;
-            var4 = function() {
+            var6 = var21.bind(var17)(var6, var15);
+            var21 = var17.useEffect;
+            var15 = new Array(1);
+            var15[0] = var25;
+            var6 = function() {
                 var5 = function handleOpenKeyboard(arg1) {
                     _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
@@ -812,7 +816,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  16:
                         var5 = var3.channelId;
  21:
-                        var4 = _closure2_slot5;
+                        var4 = _closure2_slot6;
                         var4 = var4.props;
                         var6 = var4.current;
                         var7 = var2 == var6;
@@ -824,7 +828,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  57:
                         if(!(var5 === var4)) { _fun0010_ip = 90; continue _fun0010 }
  61:
-                        var3 = _closure2_slot5;
+                        var3 = _closure2_slot6;
                         var3 = var3.chatInput;
                         var3 = var3.current;
                         if(!(var2 != var3)) { _fun0010_ip = 90; continue _fun0010 }
@@ -864,11 +868,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 return var1;
             };
-            var4 = var11.bind(var15)(var4, var6);
-            var11 = var15.useMemo;
+            var6 = var21.bind(var17)(var6, var15);
+            var15 = var17.useMemo;
             var6 = new Array(2);
             var6[0] = var25;
-            var6[1] = var24;
+            var6[1] = var4;
             var4 = function() {
                 var1 = {};
                 var3 = function handleBlur(arg1) {
@@ -877,15 +881,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1 = arg1;
                         var1 = var1.nativeEvent;
                         var4 = var1.text;
-                        var3 = _closure2_slot7;
+                        var3 = _closure2_slot8;
                         var1 = var3.handleTextOrFocusChange;
                         var7 = false;
                         var1 = var1.bind(var3)(var4, var7);
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.state;
                         var1 = var1.current;
                         var1['focused'] = var7;
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.chatInputCover;
                         var5 = var1.current;
                         var1 = null;
@@ -894,7 +898,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = var5.focused;
                         var3 = var3.bind(var5)(var7);
  86:
-                        var3 = _closure2_slot5;
+                        var3 = _closure2_slot6;
                         var3 = var3.chatInputAppCommandManager;
                         var5 = var3.current;
                         if(!(var1 != var5)) { _fun0011_ip = 115; continue _fun0011 }
@@ -902,7 +906,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = var5.updateState;
                         var3 = var3.bind(var5)();
  115:
-                        var3 = _closure2_slot5;
+                        var3 = _closure2_slot6;
                         var3 = var3.chatInputAutocomplete;
                         var6 = var3.current;
                         if(!(var1 != var6)) { _fun0011_ip = 206; continue _fun0011 }
@@ -911,19 +915,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = {};
                         var3['focused'] = var7;
                         var3['text'] = var4;
-                        var7 = _closure2_slot5;
+                        var7 = _closure2_slot6;
                         var7 = var7.state;
                         var7 = var7.current;
                         var7 = var7.selectionStart;
                         var3['selectionStart'] = var7;
-                        var7 = _closure2_slot5;
+                        var7 = _closure2_slot6;
                         var7 = var7.state;
                         var7 = var7.current;
                         var7 = var7.selectionEnd;
                         var3['selectionEnd'] = var7;
                         var3 = var5.bind(var6)(var3);
  206:
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.chatInputSendButton;
                         var3 = var2.current;
                         if(!(var1 != var3)) { _fun0011_ip = 257; continue _fun0011 }
@@ -948,27 +952,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1 = var1.nativeEvent;
                         var5 = var1.start;
                         var4 = var1.end;
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.state;
                         var1 = var1.current;
                         var7 = true;
                         var1['focused'] = var7;
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.state;
                         var1 = var1.current;
                         var1['selectionStart'] = var5;
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.state;
                         var1 = var1.current;
                         var1['selectionEnd'] = var4;
-                        var3 = _closure2_slot7;
+                        var3 = _closure2_slot8;
                         var2 = var3.handleTextOrFocusChange;
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.state;
                         var1 = var1.current;
                         var1 = var1.text;
                         var1 = var2.bind(var3)(var1, var7);
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.chatInputAppCommandManager;
                         var3 = var1.current;
                         var1 = null;
@@ -977,7 +981,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = var3.updateState;
                         var2 = var2.bind(var3)();
  149:
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.chatInputCover;
                         var3 = var2.current;
                         if(!(var1 != var3)) { _fun0012_ip = 179; continue _fun0012 }
@@ -985,7 +989,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = var3.focused;
                         var2 = var2.bind(var3)(var7);
  179:
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.chatInputAutocomplete;
                         var3 = var2.current;
                         if(!(var1 != var3)) { _fun0012_ip = 249; continue _fun0012 }
@@ -993,7 +997,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = var3.setData;
                         var1 = {};
                         var1['focused'] = var7;
-                        var6 = _closure2_slot5;
+                        var6 = _closure2_slot6;
                         var6 = var6.state;
                         var6 = var6.current;
                         var6 = var6.text;
@@ -1030,7 +1034,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = 100;
                         var7 = var4.bind(var5)(var6, var3);
  75:
-                        var3 = _closure2_slot5;
+                        var3 = _closure2_slot6;
                         var3 = var3.state;
                         var3 = var3.current;
                         var4 = var3.textFieldHeight;
@@ -1064,7 +1068,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                         var1 = arg1;
                         var1 = var1.nativeEvent;
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.chatInputAutocomplete;
                         var3 = var2.current;
                         var2 = null;
@@ -1096,14 +1100,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  37:
                         if(!var1) { _fun0015_ip = 95; continue _fun0015 }
  40:
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.props;
                         var2 = var2.current;
                         var4 = var2.threadCreationCallback;
                         var2 = null;
                         if(!(var2 == var4)) { _fun0015_ip = 95; continue _fun0015 }
  69:
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.chatInput;
                         var2 = var1.current;
                         var1 = var2.updateChatInputContainerHeightDebounced;
@@ -1114,9 +1118,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     }
                 };
                 var1['handleLayout'] = var3;
+                var3 = function handleMount() {
+                    _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+ 0:
+                        var2 = _closure2_slot5;
+                        var2 = var2.current;
+                        if(!var2) { _fun0016_ip = 52; continue _fun0016 }
+ 15:
+                        var3 = _closure2_slot5;
+                        var2 = false;
+                        var3['current'] = var2;
+                        var1 = _closure2_slot6;
+                        var1 = var1.chatInput;
+                        var2 = var1.current;
+                        var1 = var2.openSystemKeyboard;
+                        var1 = var1.bind(var2)();
+ 52:
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var1['handleMount'] = var3;
                 var3 = function handleChangeAutoCompleteVisibility(arg1) {
                     var4 = _closure1_slot16;
-                    var1 = _closure2_slot5;
+                    var1 = _closure2_slot6;
                     var1 = var1.props;
                     var1 = var1.current;
                     var3 = var1.screenIndex;
@@ -1127,34 +1152,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var1['handleChangeAutoCompleteVisibility'] = var3;
                 var3 = function handlePasteCommand(arg1) {
-                    _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+                    _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
                         var1 = arg1;
                         var1 = var1.nativeEvent;
                         var4 = var1.data;
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.state;
                         var2 = var2.current;
                         var2 = var2.focused;
-                        if(!var2) { _fun0016_ip = 117; continue _fun0016 }
+                        if(!var2) { _fun0017_ip = 117; continue _fun0017 }
  39:
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.chatInputAppCommandManager;
                         var7 = var2.current;
                         var6 = null;
                         var2 = var6 == var7;
                         var3 = var7;
-                        if(var2) { _fun0016_ip = 83; continue _fun0016 }
+                        if(var2) { _fun0017_ip = 83; continue _fun0017 }
  66:
                         var5 = var7.getApplicationCommandManager;
                         var5 = var5.bind(var7)();
                         var2 = var6 == var5;
                         var3 = var5;
  83:
-                        if(var2) { _fun0016_ip = 117; continue _fun0016 }
+                        if(var2) { _fun0017_ip = 117; continue _fun0017 }
  86:
                         var2 = var3.setPastedCommand;
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.props;
                         var1 = var1.current;
                         var1 = var1.channel;
@@ -1169,11 +1194,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = undefined;
                 var3 = function* (arg1) {
                     var1 = function* anon_0_(arg1) {
-                        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+                        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0017_ip = 341; continue _fun0017 }
+                            if(var2) { _fun0018_ip = 341; continue _fun0018 }
  10:
                             var2 = arg1;
                             var2 = var2.nativeEvent;
@@ -1187,19 +1212,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var4;
  44:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(var3) { _fun0017_ip = 338; continue _fun0017 }
+                            if(var3) { _fun0018_ip = 338; continue _fun0018 }
  53:
-                            var3 = _closure2_slot5;
+                            var3 = _closure2_slot6;
                             var3 = var3.state;
                             var3 = var3.current;
                             var3 = var3.focused;
-                            if(!var3) { _fun0017_ip = 332; continue _fun0017 }
+                            if(!var3) { _fun0018_ip = 332; continue _fun0018 }
  82:
-                            var3 = _closure2_slot5;
+                            var3 = _closure2_slot6;
                             var3 = var3.props;
                             var3 = var3.current;
                             var3 = var3.canUpload;
-                            if(!var3) { _fun0017_ip = 332; continue _fun0017 }
+                            if(!var3) { _fun0018_ip = 332; continue _fun0018 }
  108:
                             var5 = _closure1_slot0;
                             var12 = _closure1_slot3;
@@ -1213,7 +1238,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var3;
  148:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                            if(var5) { _fun0017_ip = 335; continue _fun0017 }
+                            if(var5) { _fun0018_ip = 335; continue _fun0018 }
  157:
                             var6 = _closure1_slot1;
                             var12 = _closure1_slot3;
@@ -1222,7 +1247,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var7 = var6.bind(var4)(var5);
                             var6 = var7.addFile;
                             var5 = {};
-                            var9 = _closure2_slot5;
+                            var9 = _closure2_slot6;
                             var9 = var9.props;
                             var9 = var9.current;
                             var9 = var9.channel;
@@ -1282,28 +1307,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var1['handlePasteImage'] = var3;
                 var3 = function handlePressAction(arg1, arg2) {
-                    _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+                    _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
                         var3 = arg2;
                         var2 = _closure1_slot19;
                         var2 = var2.HIDE_CHAT_INPUT;
-                        if(!(var2 !== var3)) { _fun0018_ip = 1037; continue _fun0018 }
+                        if(!(var2 !== var3)) { _fun0019_ip = 1037; continue _fun0019 }
  23:
                         var2 = _closure1_slot19;
                         var2 = var2.PHOTOS;
-                        if(!(var2 !== var3)) { _fun0018_ip = 803; continue _fun0018 }
+                        if(!(var2 !== var3)) { _fun0019_ip = 803; continue _fun0019 }
  40:
                         var2 = _closure1_slot19;
                         var2 = var2.APPS;
-                        if(!(var2 !== var3)) { _fun0018_ip = 384; continue _fun0018 }
+                        if(!(var2 !== var3)) { _fun0019_ip = 384; continue _fun0019 }
  57:
                         var2 = _closure1_slot19;
                         var2 = var2.NITRO_GIFT;
-                        if(!(var2 !== var3)) { _fun0018_ip = 206; continue _fun0018 }
+                        if(!(var2 !== var3)) { _fun0019_ip = 206; continue _fun0019 }
  74:
                         var2 = _closure1_slot19;
                         var2 = var2.THREAD;
-                        if(!(var2 === var3)) { _fun0018_ip = 1090; continue _fun0018 }
+                        if(!(var2 === var3)) { _fun0019_ip = 1083; continue _fun0019 }
  91:
                         var4 = _closure1_slot0;
                         var5 = _closure1_slot3;
@@ -1321,14 +1346,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = var5[var2];
                         var5 = var4.bind(var3)(var2);
                         var4 = var5.handleSelectThread;
-                        var3 = _closure2_slot5;
+                        var3 = _closure2_slot6;
                         var3 = var3.props;
                         var3 = var3.current;
                         var3 = var3.channel;
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.chatInput;
                         var2 = var4.bind(var5)(var3, var2);
-                        _fun0018_ip = 1090; continue _fun0018;
+                        _fun0019_ip = 1083; continue _fun0019;
  206:
                         var3 = _closure1_slot0;
                         var5 = _closure1_slot3;
@@ -1347,7 +1372,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = var3.bind(var4)(var2);
                         var2 = var3.isAndroid;
                         var2 = var2.bind(var3)();
-                        if(!var2) { _fun0018_ip = 314; continue _fun0018 }
+                        if(!var2) { _fun0019_ip = 314; continue _fun0019 }
  284:
                         var3 = _closure1_slot0;
                         var5 = _closure1_slot3;
@@ -1363,14 +1388,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = var5[var2];
                         var5 = var3.bind(var4)(var2);
                         var4 = var5.handleSelectGift;
-                        var3 = _closure2_slot5;
+                        var3 = _closure2_slot6;
                         var3 = var3.props;
                         var3 = var3.current;
                         var3 = var3.analyticsLocations;
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.chatInput;
                         var2 = var4.bind(var5)(var3, var2);
-                        _fun0018_ip = 1090; continue _fun0018;
+                        _fun0019_ip = 1083; continue _fun0019;
  384:
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot3;
@@ -1401,13 +1426,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var7 = _closure1_slot22;
                         var7 = var7.APPS_BUTTON;
                         var2['type'] = var7;
-                        var10 = _closure2_slot5;
+                        var10 = _closure2_slot6;
                         var10 = var10.props;
                         var10 = var10.current;
                         var10 = var10.channel;
                         var10 = var10.id;
                         var2['channel_id'] = var10;
-                        var10 = _closure2_slot5;
+                        var10 = _closure2_slot6;
                         var10 = var10.props;
                         var10 = var10.current;
                         var10 = var10.channel;
@@ -1425,7 +1450,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = var3.bind(var6)(var2);
                         var2 = var3.isChatInputAppDMDisabled;
                         var5 = var2.bind(var3)();
-                        var4 = _closure2_slot7;
+                        var4 = _closure2_slot8;
                         var3 = var4.handleToggleKeyboard;
                         var2 = {};
                         var9 = _closure1_slot0;
@@ -1436,7 +1461,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var8 = var8.KeyboardTypes;
                         var8 = var8.APP_LAUNCHER;
                         var2['type'] = var8;
-                        if(var5) { _fun0018_ip = 709; continue _fun0018 }
+                        if(var5) { _fun0019_ip = 709; continue _fun0019 }
  678:
                         var5 = {};
                         var8 = _closure1_slot25;
@@ -1444,7 +1469,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5['initialRouteName'] = var8;
                         var2['context'] = var5;
                         var5 = var3.bind(var4)(var2);
-                        _fun0018_ip = 1090; continue _fun0018;
+                        _fun0019_ip = 1083; continue _fun0019;
  709:
                         var5 = {};
                         var8 = _closure1_slot25;
@@ -1454,7 +1479,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var8 = var10[var8];
                         var9 = var9.bind(var6)(var8);
                         var8 = var9.getAppDMApplication;
-                        var7 = _closure2_slot5;
+                        var7 = _closure2_slot6;
                         var7 = var7.props;
                         var7 = var7.current;
                         var7 = var7.channel;
@@ -1462,14 +1487,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var8 = null;
                         var8 = var8 == var7;
                         var6 = undefined;
-                        if(var8) { _fun0018_ip = 784; continue _fun0018 }
+                        if(var8) { _fun0019_ip = 784; continue _fun0019 }
  779:
                         var6 = var7.name;
  784:
                         var5['initialSearchQuery'] = var6;
                         var2['context'] = var5;
                         var2 = var3.bind(var4)(var2);
-                        _fun0018_ip = 1090; continue _fun0018;
+                        _fun0019_ip = 1083; continue _fun0019;
  803:
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot3;
@@ -1494,20 +1519,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = _closure1_slot22;
                         var2 = var2.ADD_BUTTON;
                         var3['type'] = var2;
-                        var10 = _closure2_slot5;
+                        var10 = _closure2_slot6;
                         var10 = var10.props;
                         var10 = var10.current;
                         var10 = var10.channel;
                         var10 = var10.id;
                         var3['channel_id'] = var10;
-                        var10 = _closure2_slot5;
+                        var10 = _closure2_slot6;
                         var10 = var10.props;
                         var10 = var10.current;
                         var10 = var10.channel;
                         var10 = var10.guild_id;
                         var3['guild_id'] = var10;
                         var3 = var5.bind(var9)(var4, var3);
-                        var4 = _closure2_slot7;
+                        var4 = _closure2_slot8;
                         var3 = var4.handleToggleKeyboard;
                         var2 = {};
                         var5 = 43;
@@ -1522,7 +1547,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5['target'] = var6;
                         var2['context'] = var5;
                         var2 = var3.bind(var4)(var2);
-                        _fun0018_ip = 1090; continue _fun0018;
+                        _fun0019_ip = 1083; continue _fun0019;
  1037:
                         var2 = _closure1_slot0;
                         var3 = _closure1_slot3;
@@ -1532,12 +1557,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2 = var2.bind(var3)(var1);
                         var1 = var2.dismissKeyboard;
                         var1 = var1.bind(var2)();
-                        var2 = _closure2_slot6;
-                        var1 = {};
-                        var4 = true;
-                        var1['visible'] = var4;
+                        var2 = _closure2_slot7;
+                        var1 = true;
                         var1 = var2.bind(var3)(var1);
- 1090:
+ 1083:
                         var1 = undefined;
                         return var1;
                     }
@@ -1554,7 +1577,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = _closure1_slot26;
                     var2 = var2.ChatInputExpressionPressed;
                     var2 = var3.bind(var4)(var2);
-                    var4 = _closure2_slot7;
+                    var4 = _closure2_slot8;
                     var3 = var4.handleToggleKeyboard;
                     var2 = {};
                     var5 = 43;
@@ -1569,8 +1592,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var1['handlePressExpression'] = var3;
+                var3 = function handleShowChatInput() {
+                    var4 = _closure2_slot7;
+                    var1 = undefined;
+                    var3 = false;
+                    var3 = var4.bind(var1)(var3);
+                    var3 = _closure2_slot5;
+                    var2 = true;
+                    var3['current'] = var2;
+                    return var1;
+                };
+                var1['handleShowChatInput'] = var3;
                 var3 = function handlePressSend() {
-                    var1 = _closure2_slot5;
+                    var1 = _closure2_slot6;
                     var1 = var1.chatInput;
                     var2 = var1.current;
                     var1 = var2.handleSend;
@@ -1580,7 +1614,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var1['handlePressSend'] = var3;
                 var3 = function handleSelectionOrTextChange(arg1) {
-                    _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+                    _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
  0:
                         var1 = arg1;
                         var2 = var1.nativeEvent;
@@ -1588,46 +1622,46 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var9 = var2.end;
                         var1 = var2.text;
                         var5 = var2.editId;
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.state;
                         var2 = var2.current;
                         var4 = var2.editId;
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.state;
                         var2 = var2.current;
                         var2['editId'] = var5;
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.state;
                         var2 = var2.current;
                         var2['selectionStart'] = var10;
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.state;
                         var2 = var2.current;
                         var2['selectionEnd'] = var9;
-                        var7 = _closure2_slot7;
+                        var7 = _closure2_slot8;
                         var6 = var7.handleTextOrFocusChange;
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.state;
                         var2 = var2.current;
                         var2 = var2.focused;
                         var2 = var6.bind(var7)(var1, var2);
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.chatInputAppCommandManager;
                         var7 = var2.current;
                         var2 = null;
-                        if(!(var2 != var7)) { _fun0019_ip = 179; continue _fun0019 }
+                        if(!(var2 != var7)) { _fun0020_ip = 179; continue _fun0020 }
  169:
                         var6 = var7.updateState;
                         var6 = var6.bind(var7)();
  179:
-                        var6 = _closure2_slot5;
+                        var6 = _closure2_slot6;
                         var6 = var6.chatInputAutocomplete;
                         var8 = var6.current;
-                        if(!(var2 != var8)) { _fun0019_ip = 250; continue _fun0019 }
+                        if(!(var2 != var8)) { _fun0020_ip = 250; continue _fun0020 }
  198:
                         var7 = var8.setData;
                         var6 = {};
-                        var11 = _closure2_slot5;
+                        var11 = _closure2_slot6;
                         var11 = var11.state;
                         var11 = var11.current;
                         var11 = var11.focused;
@@ -1637,10 +1671,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var6['selectionEnd'] = var9;
                         var6 = var7.bind(var8)(var6);
  250:
-                        var6 = _closure2_slot5;
+                        var6 = _closure2_slot6;
                         var6 = var6.chatInputSendButton;
                         var8 = var6.current;
-                        if(!(var2 != var8)) { _fun0019_ip = 301; continue _fun0019 }
+                        if(!(var2 != var8)) { _fun0020_ip = 301; continue _fun0020 }
  269:
                         var7 = var8.setHasText;
                         var6 = var1.trim;
@@ -1650,17 +1684,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var6 = var9 > var6;
                         var6 = var7.bind(var8)(var6);
  301:
-                        if(!(var4 !== var5)) { _fun0019_ip = 401; continue _fun0019 }
+                        if(!(var4 !== var5)) { _fun0020_ip = 401; continue _fun0020 }
  305:
-                        var4 = _closure2_slot5;
+                        var4 = _closure2_slot6;
                         var4 = var4.chatInput;
                         var5 = var4.current;
                         var4 = var5.handleTextChanged;
                         var4 = var4.bind(var5)(var1);
-                        var3 = _closure2_slot5;
+                        var3 = _closure2_slot6;
                         var3 = var3.chatInputCharCounter;
                         var3 = var3.current;
-                        if(!(var2 != var3)) { _fun0019_ip = 366; continue _fun0019 }
+                        if(!(var2 != var3)) { _fun0020_ip = 366; continue _fun0020 }
  350:
                         var2 = var3.onMessageLengthChanged;
                         var1 = var1.length;
@@ -1681,16 +1715,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var1['handleSelectionOrTextChange'] = var3;
                 var3 = function handleTapAction(arg1) {
-                    _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+                    _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
  0:
                         var1 = arg1;
                         var1 = var1.nativeEvent;
                         var2 = var1.tapAction;
                         var3 = var2.action;
                         var1 = 'tapAttachment';
-                        if(!(var1 === var3)) { _fun0020_ip = 178; continue _fun0020 }
+                        if(!(var1 === var3)) { _fun0021_ip = 178; continue _fun0021 }
  32:
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.chatInput;
                         var3 = var1.current;
                         var1 = var3.blur;
@@ -1702,21 +1736,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1 = undefined;
                         var6 = var4.bind(var1)(var3);
                         var5 = var6.openCommandAttachmentPreview;
-                        var3 = _closure2_slot5;
+                        var3 = _closure2_slot6;
                         var3 = var3.chatInput;
                         var4 = var3.current;
                         var3 = var4.getApplicationCommandManager;
                         var4 = var3.bind(var4)();
                         var3 = var2.channelId;
                         var2 = var2.optionName;
-                        var7 = _closure2_slot5;
+                        var7 = _closure2_slot6;
                         var7 = var7.state;
                         var7 = var7.current;
                         var7 = var7.focused;
-                        if(!var7) { _fun0020_ip = 159; continue _fun0020 }
+                        if(!var7) { _fun0021_ip = 159; continue _fun0021 }
  150:
                         var1 = function() {
-                            var1 = _closure2_slot5;
+                            var1 = _closure2_slot6;
                             var1 = var1.chatInput;
                             var2 = var1.current;
                             var1 = var2.openSystemKeyboard;
@@ -1737,41 +1771,41 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var1['handleTapAction'] = var3;
                 var3 = function handleTextOrFocusChange(arg1, arg2) {
-                    _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+                    _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
  0:
                         var3 = arg1;
                         var4 = arg2;
                         var1 = var3.length;
                         var2 = 0;
-                        if(!(var1 > var2)) { _fun0021_ip = 57; continue _fun0021 }
+                        if(!(var1 > var2)) { _fun0022_ip = 57; continue _fun0022 }
  17:
-                        if(var4) { _fun0021_ip = 106; continue _fun0021 }
+                        if(var4) { _fun0022_ip = 106; continue _fun0022 }
  20:
                         var5 = var3.length;
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.state;
                         var1 = var1.current;
                         var1 = var1.textPrev;
                         var1 = var1.length;
-                        if(!(!(var5 > var1))) { _fun0021_ip = 106; continue _fun0021 }
+                        if(!(!(var5 > var1))) { _fun0022_ip = 106; continue _fun0022 }
  57:
                         var1 = var3.length;
-                        if(!(var2 === var1)) { _fun0021_ip = 193; continue _fun0021 }
+                        if(!(var2 === var1)) { _fun0022_ip = 193; continue _fun0022 }
  69:
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.chatInputActions;
                         var2 = var1.current;
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0021_ip = 193; continue _fun0021 }
+                        if(!(var1 != var2)) { _fun0022_ip = 193; continue _fun0022 }
  93:
                         var1 = var2.onShowActions;
                         var1 = var1.bind(var2)(var4);
-                        _fun0021_ip = 193; continue _fun0021;
+                        _fun0022_ip = 193; continue _fun0022;
  106:
                         var5 = _closure1_slot8;
                         var2 = var5.isOpen;
                         var2 = var2.bind(var5)();
-                        if(!var2) { _fun0021_ip = 158; continue _fun0021 }
+                        if(!var2) { _fun0022_ip = 158; continue _fun0022 }
  126:
                         var5 = _closure1_slot1;
                         var2 = _closure1_slot3;
@@ -1782,11 +1816,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var1 = var2.hideNativeMenu;
                         var1 = var1.bind(var2)();
  158:
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.chatInputActions;
                         var2 = var1.current;
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0021_ip = 193; continue _fun0021 }
+                        if(!(var1 != var2)) { _fun0022_ip = 193; continue _fun0022 }
  182:
                         var1 = var2.onDismissActions;
                         var1 = var1.bind(var2)(var4);
@@ -1799,18 +1833,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5 = var5.bind(var1)(var2);
                         var2 = var5.getMaxMessageLength;
                         var7 = var2.bind(var5)();
-                        var5 = _closure2_slot5;
+                        var5 = _closure2_slot6;
                         var5 = var5.state;
                         var5 = var5.current;
                         var5 = var5.textPrev;
                         var5 = var5.length;
                         var5 = var5 <= var7;
-                        if(!var5) { _fun0021_ip = 272; continue _fun0021 }
+                        if(!var5) { _fun0022_ip = 272; continue _fun0022 }
  263:
                         var6 = var3.length;
                         var5 = var6 > var7;
  272:
-                        if(!var5) { _fun0021_ip = 318; continue _fun0021 }
+                        if(!var5) { _fun0022_ip = 318; continue _fun0022 }
  275:
                         var6 = _closure1_slot1;
                         var7 = _closure1_slot3;
@@ -1823,15 +1857,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var4 = {};
                         var4 = var6.bind(var7)(var5, var4);
  318:
-                        var4 = _closure2_slot5;
+                        var4 = _closure2_slot6;
                         var4 = var4.state;
                         var5 = var4.current;
-                        var4 = _closure2_slot5;
+                        var4 = _closure2_slot6;
                         var4 = var4.state;
                         var4 = var4.current;
                         var4 = var4.text;
                         var5['textPrev'] = var4;
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.state;
                         var2 = var2.current;
                         var2['text'] = var3;
@@ -1840,19 +1874,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var1['handleTextOrFocusChange'] = var3;
                 var3 = function handleTextFlushed(arg1) {
-                    _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+                    _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
  0:
                         var1 = arg1;
                         var1 = var1.nativeEvent;
                         var3 = var1.text;
                         var4 = var1.requestId;
-                        var1 = _closure2_slot5;
+                        var1 = _closure2_slot6;
                         var1 = var1.chatInputTextFlushedResponses;
                         var2 = var1.current;
                         var1 = var2.get;
                         var2 = var1.bind(var2)(var4);
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0022_ip = 62; continue _fun0022 }
+                        if(!(var1 != var2)) { _fun0023_ip = 62; continue _fun0023 }
  55:
                         var1 = undefined;
                         var1 = var2.bind(var1)(var3);
@@ -1863,13 +1897,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var1['handleTextFlushed'] = var3;
                 var2 = function handleToggleKeyboard(arg1) {
-                    _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+                    _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
  0:
                         var4 = arg1;
                         var3 = _closure1_slot8;
                         var1 = var3.isOpen;
                         var1 = var1.bind(var3)();
-                        if(!var1) { _fun0023_ip = 55; continue _fun0023 }
+                        if(!var1) { _fun0024_ip = 55; continue _fun0024 }
  23:
                         var5 = _closure1_slot1;
                         var3 = _closure1_slot3;
@@ -1889,7 +1923,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = var6.bind(var1)(var3);
                         var3 = var3.KeyboardTypes;
                         var3 = var3.SYSTEM;
-                        if(!(var5 !== var3)) { _fun0023_ip = 168; continue _fun0023 }
+                        if(!(var5 !== var3)) { _fun0024_ip = 168; continue _fun0024 }
  98:
                         var3 = var4.type;
                         var5 = _closure1_slot0;
@@ -1899,16 +1933,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5 = var5.bind(var1)(var2);
                         var2 = var5.getKeyboardType;
                         var2 = var2.bind(var5)();
-                        if(!(var3 !== var2)) { _fun0023_ip = 168; continue _fun0023 }
+                        if(!(var3 !== var2)) { _fun0024_ip = 168; continue _fun0024 }
  137:
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.chatInput;
                         var3 = var2.current;
                         var2 = var3.openCustomKeyboard;
                         var2 = var2.bind(var3)(var4);
-                        _fun0023_ip = 196; continue _fun0023;
+                        _fun0024_ip = 196; continue _fun0024;
  168:
-                        var2 = _closure2_slot5;
+                        var2 = _closure2_slot6;
                         var2 = var2.chatInput;
                         var3 = var2.current;
                         var2 = var3.openSystemKeyboard;
@@ -1920,12 +1954,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['handleToggleKeyboard'] = var2;
                 return var1;
             };
-            var33 = var11.bind(var15)(var4, var6);
-            _closure2_slot7 = var33;
+            var24 = var15.bind(var17)(var4, var6);
+            _closure2_slot8 = var24;
             var6 = _closure1_slot29;
             var4 = _closure1_slot6;
             var1 = {};
-            var11 = false;
             var1['collapsable'] = var11;
             var15 = _closure1_slot28;
             var11 = 54;
@@ -1937,8 +1970,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = new Array(6);
             var11[0] = var12;
             var12 = null;
-            if(!var14) { _fun0002_ip = 1339; continue _fun0002 }
- 1253:
+            if(!var14) { _fun0002_ip = 1350; continue _fun0002 }
+ 1264:
             var16 = _closure1_slot28;
             var15 = _closure1_slot1;
             var17 = _closure1_slot3;
@@ -1948,34 +1981,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = {};
             var14['channel'] = var10;
             var23 = '';
-            var17 = var23 !== var38;
-            if(var17) { _fun0002_ip = 1328; continue _fun0002 }
- 1294:
+            var17 = var23 !== var37;
+            if(var17) { _fun0002_ip = 1339; continue _fun0002 }
+ 1305:
             var21 = var25.chatInput;
-            var49 = var21.current;
-            var30 = var35 == var49;
+            var48 = var21.current;
+            var30 = var34 == var48;
             var21 = undefined;
-            if(var30) { _fun0002_ip = 1324; continue _fun0002 }
- 1314:
-            var30 = var49.getText;
-            var21 = var30.bind(var49)();
- 1324:
+            if(var30) { _fun0002_ip = 1335; continue _fun0002 }
+ 1325:
+            var30 = var48.getText;
+            var21 = var30.bind(var48)();
+ 1335:
             var17 = var23 !== var21;
- 1328:
+ 1339:
             var14['hasInputText'] = var17;
             var12 = var16.bind(var5)(var15, var14);
- 1339:
+ 1350:
             var11[1] = var12;
             var12 = null;
-            if(var3) { _fun0002_ip = 1437; continue _fun0002 }
- 1348:
+            if(var3) { _fun0002_ip = 1448; continue _fun0002 }
+ 1359:
             var16 = _closure1_slot28;
             var15 = _closure1_slot6;
             var14 = {};
-            var17 = var41.accessoriesContainer;
+            var17 = var40.accessoriesContainer;
             var14['style'] = var17;
             var17 = {};
-            var21 = var41.accessories;
+            var21 = var40.accessories;
             var17['style'] = var21;
             var23 = _closure1_slot1;
             var30 = _closure1_slot3;
@@ -1990,11 +2023,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var16.bind(var5)(var15, var17);
             var14['children'] = var17;
             var12 = var16.bind(var5)(var15, var14);
- 1437:
+ 1448:
             var11[2] = var12;
             var12 = null;
-            if(!var13) { _fun0002_ip = 1488; continue _fun0002 }
- 1446:
+            if(!var13) { _fun0002_ip = 1499; continue _fun0002 }
+ 1457:
             var16 = _closure1_slot28;
             var14 = _closure1_slot1;
             var15 = _closure1_slot3;
@@ -2005,7 +2038,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14['channel'] = var10;
             var13 = var10.id;
             var12 = var16.bind(var5)(var15, var14, var13);
- 1488:
+ 1499:
             var11[3] = var12;
             var14 = _closure1_slot28;
             var16 = _closure1_slot0;
@@ -2021,16 +2054,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = _closure1_slot29;
             var13 = _closure1_slot6;
             var12 = {};
-            var17 = var33.handleLayout;
+            var17 = var24.handleLayout;
             var12['onLayout'] = var17;
-            var49 = 43;
-            var15 = var15[var49];
+            var48 = 43;
+            var15 = var15[var48];
             var15 = var16.bind(var5)(var15);
             var15 = var15.KeyboardTypes;
             var15 = var15.EXPRESSION;
             var16 = null;
-            if(!(var47 !== var15)) { _fun0002_ip = 1682; continue _fun0002 }
- 1589:
+            if(!(var46 !== var15)) { _fun0002_ip = 1693; continue _fun0002 }
+ 1600:
             var21 = _closure1_slot28;
             var17 = _closure1_slot1;
             var23 = _closure1_slot3;
@@ -2040,23 +2073,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = {};
             var23 = var25.chatInputAutocomplete;
             var15['ref'] = var23;
-            var15['analyticsLocations'] = var45;
+            var15['analyticsLocations'] = var44;
             var15['channel'] = var10;
             var15['canMentionEveryone'] = var22;
-            var15['keyboardType'] = var47;
-            var22 = var33.handleChangeAutoCompleteVisibility;
+            var15['keyboardType'] = var46;
+            var22 = var24.handleChangeAutoCompleteVisibility;
             var15['onChangeAutoCompleteVisibility'] = var22;
             var15['commandsDisabled'] = var18;
             var15['canOnlyUseTextCommands'] = var19;
             var22 = var25.chatInput;
             var15['chatInputRef'] = var22;
             var16 = var21.bind(var5)(var17, var15);
- 1682:
+ 1693:
             var15 = new Array(5);
             var15[0] = var16;
             var16 = null;
-            if(!var20) { _fun0002_ip = 1741; continue _fun0002 }
- 1695:
+            if(!var20) { _fun0002_ip = 1752; continue _fun0002 }
+ 1706:
             var22 = _closure1_slot28;
             var21 = _closure1_slot0;
             var23 = _closure1_slot3;
@@ -2068,7 +2101,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17['context'] = var26;
             var17['channel'] = var10;
             var16 = var22.bind(var5)(var21, var17);
- 1741:
+ 1752:
             var15[1] = var16;
             var22 = _closure1_slot28;
             var21 = _closure1_slot1;
@@ -2080,7 +2113,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16['channel'] = var10;
             var30 = var25.chatInput;
             var16['chatInputRef'] = var30;
-            var16['pendingEdit'] = var34;
+            var16['pendingEdit'] = var33;
             var16['pendingReply'] = var29;
             var16 = var22.bind(var5)(var17, var16);
             var15[2] = var16;
@@ -2102,228 +2135,230 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = _closure1_slot29;
             var17 = _closure1_slot6;
             var16 = {};
-            var19 = var41.container;
+            var19 = var40.container;
             var16['style'] = var19;
-            var19 = var33.handleLayoutOfInputContainer;
+            var19 = var24.handleLayoutOfInputContainer;
             var16['onLayout'] = var19;
             var19 = 63;
             var19 = var23[var19];
             var21 = var21.bind(var5)(var19);
             var19 = {};
-            var19['canUpload'] = var37;
+            var19['canUpload'] = var36;
             var23 = var10.id;
             var19['channelId'] = var23;
             var19['screenIndex'] = var9;
             var21 = var22.bind(var5)(var21, var19);
             var19 = new Array(2);
             var19[0] = var21;
-            if(var20) { _fun0002_ip = 2774; continue _fun0002 }
- 1958:
+            if(var20) { _fun0002_ip = 2796; continue _fun0002 }
+ 1969:
             var22 = _closure1_slot29;
             var21 = _closure1_slot6;
             var20 = {};
-            var23 = var41.containerInner;
+            var23 = var40.containerInner;
             var20['style'] = var23;
             var20['accessibilityElementsHidden'] = var28;
             var23 = undefined;
-            if(!var28) { _fun0002_ip = 1994; continue _fun0002 }
- 1988:
+            if(!var28) { _fun0002_ip = 2005; continue _fun0002 }
+ 1999:
             var23 = 'no-hide-descendants';
- 1994:
+ 2005:
             var20['importantForAccessibility'] = var23;
             var28 = null;
-            if(!var7) { _fun0002_ip = 2119; continue _fun0002 }
- 2004:
+            if(!var7) { _fun0002_ip = 2130; continue _fun0002 }
+ 2015:
             var30 = _closure1_slot28;
             var29 = _closure1_slot1;
-            var53 = _closure1_slot3;
+            var52 = _closure1_slot3;
             var23 = 64;
-            var23 = var53[var23];
+            var23 = var52[var23];
             var29 = var29.bind(var5)(var23);
             var23 = {};
-            var53 = var25.chatInputActions;
-            var23['ref'] = var53;
+            var52 = var25.chatInputActions;
+            var23['ref'] = var52;
             var23['channel'] = var10;
-            var53 = var33.handlePressAction;
-            var23['onPressAction'] = var53;
-            var23['canStartThreads'] = var48;
-            var23['isAppLauncherEnabled'] = var40;
-            var23['keyboardType'] = var47;
-            var40 = var37;
-            if(!var37) { _fun0002_ip = 2080; continue _fun0002 }
- 2076:
-            var40 = var35 == var46;
- 2080:
-            if(var40) { _fun0002_ip = 2086; continue _fun0002 }
- 2083:
-            var40 = var44;
- 2086:
-            var40 = !var40;
-            var23['shouldPhotosButtonBeDisabled'] = var40;
-            var23['shouldShowHideChatInputButton'] = var42;
-            var40 = var32;
-            if(var3) { _fun0002_ip = 2108; continue _fun0002 }
- 2105:
-            var40 = !var42;
- 2108:
-            var23['shouldShowGiftButton'] = var40;
-            var28 = var30.bind(var5)(var29, var23);
+            var52 = var24.handlePressAction;
+            var23['onPressAction'] = var52;
+            var23['canStartThreads'] = var47;
+            var23['isAppLauncherEnabled'] = var39;
+            var23['keyboardType'] = var46;
+            var39 = var36;
+            if(!var36) { _fun0002_ip = 2091; continue _fun0002 }
+ 2087:
+            var39 = var34 == var45;
+ 2091:
+            if(var39) { _fun0002_ip = 2097; continue _fun0002 }
+ 2094:
+            var39 = var43;
+ 2097:
+            var39 = !var39;
+            var23['shouldPhotosButtonBeDisabled'] = var39;
+            var23['shouldShowHideChatInputButton'] = var41;
+            var39 = var32;
+            if(var3) { _fun0002_ip = 2119; continue _fun0002 }
+ 2116:
+            var39 = !var41;
  2119:
+            var23['shouldShowGiftButton'] = var39;
+            var28 = var30.bind(var5)(var29, var23);
+ 2130:
             var23 = new Array(3);
             var23[0] = var28;
             var30 = _closure1_slot29;
             var29 = _closure1_slot6;
             var28 = {};
-            var40 = var41.input;
-            var28['style'] = var40;
-            var44 = _closure1_slot1;
-            var48 = _closure1_slot3;
-            var31 = var48[var31];
-            var31 = var44.bind(var5)(var31);
-            var40 = var31.View;
-            var31 = {};
-            var46 = var41.inputDefault;
-            var42 = new Array(2);
-            var42[0] = var46;
-            var42[1] = var43;
-            var31['style'] = var42;
-            var46 = _closure1_slot28;
-            var42 = 65;
-            var42 = var48[var42];
-            var43 = var44.bind(var5)(var42);
-            var42 = {};
-            var42['accessibilityLabel'] = var51;
-            var51 = _closure1_slot0;
-            var53 = 66;
-            var53 = var48[var53];
-            var53 = var51.bind(var5)(var53);
-            var53 = var53.PORTAL_KEYBOARD_PLACEHOLDER_INSTANCE;
-            var42['customKeyboard'] = var53;
-            var42['editable'] = var7;
-            var53 = var33.handleFocus;
-            var42['onBeginFocus'] = var53;
-            var53 = var33.handleBlur;
-            var42['onEndBlur'] = var53;
-            var53 = var33.handleChangeContentSize;
-            var42['onChangeContentSize'] = var53;
-            var53 = var33.handleSelectionOrTextChange;
-            var42['onSelectionOrTextChange'] = var53;
-            var53 = var33.handleTextFlushed;
-            var42['onTextFlushed'] = var53;
-            var53 = var33.handlePasteImage;
-            var42['onPasteImage'] = var53;
-            var53 = var33.handlePasteCommand;
-            var42['onPasteCommand'] = var53;
-            var53 = var33.handleTapAction;
-            var42['onTapAction'] = var53;
-            var53 = var33.handlePressSend;
-            var42['onRequestSend'] = var53;
-            var42['placeholder'] = var52;
-            var52 = var25.chatInputNative;
-            var42['ref'] = var52;
-            var42['setNoExtractUI'] = var50;
-            var50 = var48[var49];
-            var50 = var51.bind(var5)(var50);
-            var50 = var50.KeyboardTypes;
-            var50 = var50.MEDIA;
-            var50 = var47 !== var50;
-            var42['shouldShowCursor'] = var50;
-            var43 = var46.bind(var5)(var43, var42);
-            var42 = new Array(2);
-            var42[0] = var43;
-            var43 = 67;
-            var43 = var48[var43];
-            var44 = var44.bind(var5)(var43);
-            var43 = {};
-            var43['keyboardType'] = var47;
-            var48 = var33.handleToggleKeyboard;
-            var43['onSelectKeyboard'] = var48;
-            var48 = var25.chatInputCover;
-            var43['ref'] = var48;
-            var43 = var46.bind(var5)(var44, var43);
-            var42[1] = var43;
-            var31['children'] = var42;
-            var40 = var30.bind(var5)(var40, var31);
-            var31 = new Array(2);
-            var31[0] = var40;
-            var40 = {};
-            var41 = var41.rightAccessory;
-            var40['style'] = var41;
-            var42 = null;
-            if(!var7) { _fun0002_ip = 2571; continue _fun0002 }
- 2495:
-            var44 = _closure1_slot28;
+            var39 = var40.input;
+            var28['style'] = var39;
             var43 = _closure1_slot1;
-            var46 = _closure1_slot3;
-            var41 = 68;
-            var41 = var46[var41];
-            var43 = var43.bind(var5)(var41);
+            var47 = _closure1_slot3;
+            var31 = var47[var31];
+            var31 = var43.bind(var5)(var31);
+            var39 = var31.View;
+            var31 = {};
+            var45 = var40.inputDefault;
+            var41 = new Array(2);
+            var41[0] = var45;
+            var41[1] = var42;
+            var31['style'] = var41;
+            var45 = _closure1_slot28;
+            var41 = 65;
+            var41 = var47[var41];
+            var42 = var43.bind(var5)(var41);
             var41 = {};
-            var48 = _closure1_slot0;
-            var46 = var46[var49];
-            var46 = var48.bind(var5)(var46);
-            var46 = var46.KeyboardTypes;
-            var46 = var46.EXPRESSION;
-            var46 = var47 === var46;
-            var41['active'] = var46;
-            var46 = var33.handlePressExpression;
-            var41['onPress'] = var46;
-            var42 = var44.bind(var5)(var43, var41);
- 2571:
+            var41['accessibilityLabel'] = var50;
+            var50 = _closure1_slot0;
+            var52 = 66;
+            var52 = var47[var52];
+            var52 = var50.bind(var5)(var52);
+            var52 = var52.PORTAL_KEYBOARD_PLACEHOLDER_INSTANCE;
+            var41['customKeyboard'] = var52;
+            var41['editable'] = var7;
+            var52 = var24.handleFocus;
+            var41['onBeginFocus'] = var52;
+            var52 = var24.handleBlur;
+            var41['onEndBlur'] = var52;
+            var52 = var24.handleChangeContentSize;
+            var41['onChangeContentSize'] = var52;
+            var52 = var24.handleMount;
+            var41['onMount'] = var52;
+            var52 = var24.handleSelectionOrTextChange;
+            var41['onSelectionOrTextChange'] = var52;
+            var52 = var24.handleTextFlushed;
+            var41['onTextFlushed'] = var52;
+            var52 = var24.handlePasteImage;
+            var41['onPasteImage'] = var52;
+            var52 = var24.handlePasteCommand;
+            var41['onPasteCommand'] = var52;
+            var52 = var24.handleTapAction;
+            var41['onTapAction'] = var52;
+            var52 = var24.handlePressSend;
+            var41['onRequestSend'] = var52;
+            var41['placeholder'] = var51;
+            var51 = var25.chatInputNative;
+            var41['ref'] = var51;
+            var41['setNoExtractUI'] = var49;
+            var49 = var47[var48];
+            var49 = var50.bind(var5)(var49);
+            var49 = var49.KeyboardTypes;
+            var49 = var49.MEDIA;
+            var49 = var46 !== var49;
+            var41['shouldShowCursor'] = var49;
+            var42 = var45.bind(var5)(var42, var41);
             var41 = new Array(2);
             var41[0] = var42;
-            var44 = _closure1_slot28;
-            var43 = _closure1_slot1;
-            var46 = _closure1_slot3;
-            var42 = 69;
-            var42 = var46[var42];
+            var42 = 67;
+            var42 = var47[var42];
             var43 = var43.bind(var5)(var42);
             var42 = {};
-            var42['analyticsLocations'] = var45;
-            var45 = var25.chatInputCharCounter;
-            var42['ref'] = var45;
-            var42 = var44.bind(var5)(var43, var42);
+            var42['keyboardType'] = var46;
+            var47 = var24.handleToggleKeyboard;
+            var42['onSelectKeyboard'] = var47;
+            var47 = var25.chatInputCover;
+            var42['ref'] = var47;
+            var42 = var45.bind(var5)(var43, var42);
             var41[1] = var42;
-            var40['children'] = var41;
-            var40 = var30.bind(var5)(var29, var40);
-            var31[1] = var40;
+            var31['children'] = var41;
+            var39 = var30.bind(var5)(var39, var31);
+            var31 = new Array(2);
+            var31[0] = var39;
+            var39 = {};
+            var40 = var40.rightAccessory;
+            var39['style'] = var40;
+            var41 = null;
+            if(!var7) { _fun0002_ip = 2593; continue _fun0002 }
+ 2517:
+            var43 = _closure1_slot28;
+            var42 = _closure1_slot1;
+            var45 = _closure1_slot3;
+            var40 = 68;
+            var40 = var45[var40];
+            var42 = var42.bind(var5)(var40);
+            var40 = {};
+            var47 = _closure1_slot0;
+            var45 = var45[var48];
+            var45 = var47.bind(var5)(var45);
+            var45 = var45.KeyboardTypes;
+            var45 = var45.EXPRESSION;
+            var45 = var46 === var45;
+            var40['active'] = var45;
+            var45 = var24.handlePressExpression;
+            var40['onPress'] = var45;
+            var41 = var43.bind(var5)(var42, var40);
+ 2593:
+            var40 = new Array(2);
+            var40[0] = var41;
+            var43 = _closure1_slot28;
+            var42 = _closure1_slot1;
+            var45 = _closure1_slot3;
+            var41 = 69;
+            var41 = var45[var41];
+            var42 = var42.bind(var5)(var41);
+            var41 = {};
+            var41['analyticsLocations'] = var44;
+            var44 = var25.chatInputCharCounter;
+            var41['ref'] = var44;
+            var41 = var43.bind(var5)(var42, var41);
+            var40[1] = var41;
+            var39['children'] = var40;
+            var39 = var30.bind(var5)(var29, var39);
+            var31[1] = var39;
             var28['children'] = var31;
             var28 = var30.bind(var5)(var29, var28);
             var23[1] = var28;
-            if(var7) { _fun0002_ip = 2666; continue _fun0002 }
- 2661:
+            if(var7) { _fun0002_ip = 2688; continue _fun0002 }
+ 2683:
             var28 = null;
-            if(!var3) { _fun0002_ip = 2758; continue _fun0002 }
- 2666:
+            if(!var3) { _fun0002_ip = 2780; continue _fun0002 }
+ 2688:
             var31 = _closure1_slot28;
             var30 = _closure1_slot1;
-            var40 = _closure1_slot3;
+            var39 = _closure1_slot3;
             var29 = 70;
-            var29 = var40[var29];
+            var29 = var39[var29];
             var30 = var30.bind(var5)(var29);
             var29 = {};
-            var40 = var25.chatInputSendButton;
-            var29['ref'] = var40;
-            var29['canSendVoiceMessage'] = var39;
+            var39 = var25.chatInputSendButton;
+            var29['ref'] = var39;
+            var29['canSendVoiceMessage'] = var38;
             var29['channel'] = var10;
-            var29['defaultValue'] = var38;
-            if(!var36) { _fun0002_ip = 2722; continue _fun0002 }
- 2719:
-            var36 = var37;
- 2722:
-            var29['hasPendingAttachments'] = var36;
-            var34 = var35 != var34;
-            var29['hasPendingEdit'] = var34;
-            var33 = var33.handlePressSend;
+            var29['defaultValue'] = var37;
+            if(!var35) { _fun0002_ip = 2744; continue _fun0002 }
+ 2741:
+            var35 = var36;
+ 2744:
+            var29['hasPendingAttachments'] = var35;
+            var33 = var34 != var33;
+            var29['hasPendingEdit'] = var33;
+            var33 = var24.handlePressSend;
             var29['onSendMessage'] = var33;
             var29['requireTextContent'] = var32;
             var28 = var31.bind(var5)(var30, var29);
- 2758:
+ 2780:
             var23[2] = var28;
             var20['children'] = var23;
             var20 = var22.bind(var5)(var21, var20);
-            _fun0002_ip = 2829; continue _fun0002;
- 2774:
+            _fun0002_ip = 2857; continue _fun0002;
+ 2796:
             var23 = _closure1_slot28;
             var22 = _closure1_slot0;
             var21 = _closure1_slot3;
@@ -2334,9 +2369,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21['context'] = var26;
             var25 = var25.chatInput;
             var21['chatInputRef'] = var25;
-            var21['setShowAppLaunchButton'] = var24;
+            var24 = var24.handleShowChatInput;
+            var21['onShowChatInput'] = var24;
             var20 = var23.bind(var5)(var22, var21);
- 2829:
+ 2857:
             var19[1] = var20;
             var16['children'] = var19;
             var16 = var18.bind(var5)(var17, var16);
@@ -2347,8 +2383,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['children'] = var11;
             var6 = var6.bind(var5)(var4, var1);
             var1 = var6;
-            if(var3) { _fun0002_ip = 2940; continue _fun0002 }
- 2877:
+            if(var3) { _fun0002_ip = 2968; continue _fun0002 }
+ 2905:
             var4 = _closure1_slot28;
             var3 = _closure1_slot1;
             var11 = _closure1_slot3;
@@ -2364,7 +2400,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['isReadonly'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 2940:
+ 2968:
             return var1;
         }
     };

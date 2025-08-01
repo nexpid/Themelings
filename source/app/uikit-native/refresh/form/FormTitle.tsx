@@ -1,11 +1,11 @@
 // app/uikit-native/refresh/form/FormTitle.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var7 = native2;
-        var13 = native3;
-        var3 = native6;
-        var8 = native7;
+        var7 = require;
+        var13 = metroImportDefault;
+        var3 = exports;
+        var8 = dependencyMap;
         var _closure1_slot0 = var7;
         var _closure1_slot1 = var8;
         var1 = global;
@@ -18,7 +18,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var4.bind(var6)(var3, var1, var2);
         var1 = 0;
         var4 = var8[var1];
-        var2 = native4;
+        var2 = metroImportAll;
         var1 = undefined;
         var2 = var2.bind(var1)(var4);
         var2 = 1;

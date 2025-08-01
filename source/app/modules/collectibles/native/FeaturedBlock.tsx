@@ -1,10 +1,10 @@
 // app/modules/collectibles/native/FeaturedBlock.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var4 = 1;
@@ -51,63 +51,63 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = 'modules/collectibles/native/FeaturedBlock.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        var2 = arg1;
+        var1 = var2.featuredCategory;
+        var2 = var2.category;
+        var _closure2_slot0 = var2;
+        var2 = _closure1_slot6;
+        var5 = undefined;
+        var8 = var2.bind(var5)();
+        var10 = _closure1_slot0;
+        var12 = _closure1_slot2;
+        var2 = 5;
+        var2 = var12[var2];
+        var3 = var10.bind(var5)(var2);
+        var2 = var3.useNavigation;
+        var2 = var2.bind(var3)();
+        var _closure2_slot1 = var2;
+        var2 = 6;
+        var2 = var12[var2];
+        var3 = var10.bind(var5)(var2);
+        var2 = var3.useCollectiblesAnalyticsContext;
+        var2 = var2.bind(var3)();
+        var _closure2_slot2 = var2;
+        var4 = _closure1_slot5;
+        var2 = 7;
+        var2 = var12[var2];
+        var2 = var10.bind(var5)(var2);
+        var3 = var2.PressableOpacity;
+        var2 = {'accessibilityRole': 'button', 'accessibilityLabel': null, 'activeOpacity': 0.8, 'androidRippleConfig': null, 'hitSlop': 8};
+        var9 = 8;
+        var11 = var12[var9];
+        var11 = var10.bind(var5)(var11);
+        var13 = var11.intl;
+        var11 = var13.formatToPlainString;
+        var9 = var12[var9];
+        var9 = var10.bind(var5)(var9);
+        var9 = var9.t;
+        var10 = var9.hEsdAw;
+        var9 = {};
+        var14 = var1.name;
+        var9['category'] = var14;
+        var9 = var11.bind(var13)(var10, var9);
+        var2['accessibilityLabel'] = var9;
+        var9 = {};
+        var11 = _closure1_slot1;
+        var10 = 9;
+        var10 = var12[var10];
+        var10 = var11.bind(var5)(var10);
+        var10 = var10.radii;
+        var10 = var10.lg;
+        var9['radius'] = var10;
+        var2['androidRippleConfig'] = var9;
+        var7 = function onPress() {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var2 = arg1;
-            var1 = var2.featuredCategory;
-            var2 = var2.category;
-            var _closure2_slot0 = var2;
-            var3 = _closure1_slot6;
-            var5 = undefined;
-            var8 = var3.bind(var5)();
-            var4 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var3 = 5;
-            var3 = var9[var3];
-            var10 = var4.bind(var5)(var3);
-            var3 = var10.useNavigation;
-            var3 = var3.bind(var10)();
-            var _closure2_slot1 = var3;
-            var3 = 6;
-            var3 = var9[var3];
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.useCollectiblesAnalyticsContext;
-            var3 = var3.bind(var4)();
-            var _closure2_slot2 = var3;
-            if(!(var5 !== var2)) { _fun0001_ip = 318; continue _fun0001 }
- 100:
-            var4 = _closure1_slot5;
-            var10 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var2 = 7;
-            var2 = var12[var2];
-            var2 = var10.bind(var5)(var2);
-            var3 = var2.PressableOpacity;
-            var2 = {'accessibilityRole': 'button', 'accessibilityLabel': null, 'activeOpacity': 0.8, 'androidRippleConfig': null, 'hitSlop': 8};
-            var9 = 8;
-            var11 = var12[var9];
-            var11 = var10.bind(var5)(var11);
-            var13 = var11.intl;
-            var11 = var13.formatToPlainString;
-            var9 = var12[var9];
-            var9 = var10.bind(var5)(var9);
-            var9 = var9.t;
-            var10 = var9.hEsdAw;
-            var9 = {};
-            var14 = var1.name;
-            var9['category'] = var14;
-            var9 = var11.bind(var13)(var10, var9);
-            var2['accessibilityLabel'] = var9;
-            var9 = {};
-            var11 = _closure1_slot1;
-            var10 = 9;
-            var10 = var12[var10];
-            var10 = var11.bind(var5)(var10);
-            var10 = var10.radii;
-            var10 = var10.lg;
-            var9['radius'] = var10;
-            var2['androidRippleConfig'] = var9;
-            var7 = function onPress() {
+                var2 = _closure2_slot0;
+                var1 = null;
+                if(!(var1 != var2)) { _fun0001_ip = 61; continue _fun0001 }
+ 13:
                 var4 = _closure2_slot1;
                 var3 = var4.push;
                 var1 = _closure1_slot4;
@@ -118,27 +118,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = _closure2_slot2;
                 var1['analyticsContext'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
+ 61:
                 var1 = undefined;
                 return var1;
-            };
-            var2['onPress'] = var7;
-            var7 = _closure1_slot3;
-            var6 = {};
-            var9 = {};
-            var10 = var1.bannerUrl;
-            var9['uri'] = var10;
-            var6['source'] = var9;
-            var8 = var8.bannerImage;
-            var6['style'] = var8;
-            var6 = var4.bind(var5)(var7, var6);
-            var2['children'] = var6;
-            var1 = var1.categoryStoreListingId;
-            var1 = var4.bind(var5)(var3, var2, var1);
-            return var1;
- 318:
-            var1 = null;
-            return var1;
-        }
+            }
+        };
+        var2['onPress'] = var7;
+        var7 = _closure1_slot3;
+        var6 = {};
+        var9 = {};
+        var10 = var1.bannerUrl;
+        var9['uri'] = var10;
+        var6['source'] = var9;
+        var8 = var8.bannerImage;
+        var6['style'] = var8;
+        var6 = var4.bind(var5)(var7, var6);
+        var2['children'] = var6;
+        var1 = var1.categoryStoreListingId;
+        var1 = var4.bind(var5)(var3, var2, var1);
+        return var1;
     };
     var3['default'] = var2;
     return var1;

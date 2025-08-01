@@ -1,9 +1,9 @@
 // app/modules/safety_hub/SafetyHubActionCreators.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
@@ -286,8 +286,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             };
                             var8 = var2.bind(var3)(var1);
                             var1 = null;
-                            if(!(var1 == var8)) { _fun0005_ip = 125; continue _fun0005 }
- 62:
+                            if(!(var1 == var8)) { _fun0005_ip = 126; continue _fun0005 }
+ 63:
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
                             var1 = 5;
@@ -299,8 +299,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var9 = _closure4_slot0;
                             var1['classificationId'] = var9;
                             var1 = var2.bind(var3)(var1);
-                            _fun0005_ip = 205; continue _fun0005;
- 125:
+                            _fun0005_ip = 206; continue _fun0005;
+ 126:
                             var2 = _closure1_slot11;
                             var3 = undefined;
                             var2 = var2.bind(var3)(var8);
@@ -319,7 +319,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var1['username'] = var5;
                             var1['isAppealEligible'] = var4;
                             var1 = var2.bind(var3)(var1);
- 205:
+ 206:
                             var1 = undefined;
                             return var1;
                         }

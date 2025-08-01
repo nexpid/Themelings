@@ -1,9 +1,9 @@
 // app/modules/premium/hooks/usePremiumDiscountOffer.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var4 = function hasUserDiscountExpired(arg1) {
@@ -223,7 +223,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot2 = var5;
     var5 = 1;
     var9 = var7[var5];
-    var5 = native4;
+    var5 = metroImportAll;
     var5 = var5.bind(var1)(var9);
     var _closure1_slot3 = var5;
     var5 = 2;
@@ -260,14 +260,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = arg1;
             var2 = null;
             var1 = var2 != var3;
-            if(!var1) { _fun0006_ip = 96; continue _fun0006 }
+            if(!var1) { _fun0006_ip = 94; continue _fun0006 }
  12:
             var4 = global;
             var4 = var4.Set;
             var3 = var3.discount;
             var5 = var2 == var3;
             var2 = undefined;
-            if(var5) { _fun0006_ip = 60; continue _fun0006 }
+            if(var5) { _fun0006_ip = 58; continue _fun0006 }
  35:
             var6 = var3.plan_ids;
             var5 = var6.map;
@@ -279,7 +279,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var2 = var5.bind(var6)(var3);
- 60:
+ 58:
             var3 = var4.prototype;
             var3 = Object.create(var3, {constructor: {value: var4}});
             var8 = var3;
@@ -289,7 +289,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.has;
             var2 = arg2;
             var1 = var3.bind(var4)(var2);
- 96:
+ 94:
             return var1;
         }
     };

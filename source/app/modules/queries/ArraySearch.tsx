@@ -1,6 +1,6 @@
 // app/modules/queries/ArraySearch.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -225,10 +225,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var5.bind(var6)(var3, var1, var4);
-    var4 = native7;
+    var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];
-    var4 = native2;
+    var4 = require;
     var1 = undefined;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
@@ -242,15 +242,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = null;
             var5 = var1 != var2;
             var4 = inf;
-            if(!var5) { _fun0005_ip = 33; continue _fun0005 }
- 30:
+            if(!var5) { _fun0005_ip = 32; continue _fun0005 }
+ 29:
             var4 = var2;
- 33:
+ 32:
             var7 = var3.filterPredicates;
-            if(!(var1 == var7)) { _fun0005_ip = 47; continue _fun0005 }
- 43:
+            if(!(var1 == var7)) { _fun0005_ip = 46; continue _fun0005 }
+ 42:
             var7 = new Array(0);
- 47:
+ 46:
             var5 = function applyFilters(arg1, arg2) {
                 var3 = arg1;
                 var2 = arg2;
@@ -278,25 +278,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = arg1;
             var8 = var5.bind(var9)(var2, var7);
             var2 = var3.bucketPredicates;
-            if(!(var1 != var2)) { _fun0005_ip = 92; continue _fun0005 }
- 75:
+            if(!(var1 != var2)) { _fun0005_ip = 91; continue _fun0005 }
+ 74:
             var2 = var3.bucketPredicates;
             var5 = var2.length;
             var2 = 0;
-            if(!(!(var5 > var2))) { _fun0005_ip = 102; continue _fun0005 }
- 92:
+            if(!(!(var5 > var2))) { _fun0005_ip = 101; continue _fun0005 }
+ 91:
             var2 = new Array(1);
             var2[0] = var8;
-            _fun0005_ip = 171; continue _fun0005;
- 102:
+            _fun0005_ip = 170; continue _fun0005;
+ 101:
             var5 = var8.length;
-            if(!(!(var4 >= var5))) { _fun0005_ip = 141; continue _fun0005 }
- 111:
+            if(!(!(var4 >= var5))) { _fun0005_ip = 140; continue _fun0005 }
+ 110:
             var7 = var3.bucketPredicates;
-            if(!(var1 == var7)) { _fun0005_ip = 125; continue _fun0005 }
- 121:
+            if(!(var1 == var7)) { _fun0005_ip = 124; continue _fun0005 }
+ 120:
             var7 = new Array(0);
- 125:
+ 124:
             var5 = function applyBucketing(arg1, arg2, arg3) {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
@@ -363,13 +363,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var5 = var5.bind(var9)(var8, var7, var4);
-            _fun0005_ip = 168; continue _fun0005;
- 141:
+            _fun0005_ip = 167; continue _fun0005;
+ 140:
             var7 = var3.bucketPredicates;
-            if(!(var1 == var7)) { _fun0005_ip = 155; continue _fun0005 }
- 151:
+            if(!(var1 == var7)) { _fun0005_ip = 154; continue _fun0005 }
+ 150:
             var7 = new Array(0);
- 155:
+ 154:
             var6 = function applyBucketingSingleIteration(arg1, arg2) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
@@ -430,22 +430,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var5 = var6.bind(var9)(var8, var7);
- 168:
+ 167:
             var2 = var5;
- 171:
+ 170:
             var8 = var3.sortComparers;
-            if(!(var1 == var8)) { _fun0005_ip = 185; continue _fun0005 }
- 181:
+            if(!(var1 == var8)) { _fun0005_ip = 184; continue _fun0005 }
+ 180:
             var8 = new Array(0);
- 185:
+ 184:
             var3 = new Array(0);
             var1 = _closure1_slot0;
             var6 = var1.bind(var9)(var2);
             var5 = var6.bind(var9)();
             var1 = var5.done;
             var2 = 0;
-            if(var1) { _fun0005_ip = 285; continue _fun0005 }
- 215:
+            if(var1) { _fun0005_ip = 284; continue _fun0005 }
+ 214:
             var10 = _closure1_slot2;
             var1 = var5.value;
             var13 = var10.bind(var9)(var1, var8);
@@ -459,13 +459,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var3;
             var1 = apply(var14, var13, var12);
             var1 = var3.length;
-            if(!(!(var1 >= var4))) { _fun0005_ip = 285; continue _fun0005 }
- 270:
+            if(!(!(var1 >= var4))) { _fun0005_ip = 284; continue _fun0005 }
+ 269:
             var10 = var6.bind(var9)();
             var1 = var10.done;
             var5 = var10;
-            if(!var1) { _fun0005_ip = 215; continue _fun0005 }
- 285:
+            if(!var1) { _fun0005_ip = 214; continue _fun0005 }
+ 284:
             var1 = var3.slice;
             var1 = var1.bind(var3)(var2, var4);
             return var1;

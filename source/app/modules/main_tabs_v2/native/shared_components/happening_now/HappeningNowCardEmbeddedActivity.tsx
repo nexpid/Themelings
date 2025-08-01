@@ -1,9 +1,9 @@
 // app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCardEmbeddedActivity.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -22,7 +22,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var13 = 1;
     var7 = var6[var13];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
     var10 = 2;
@@ -396,7 +396,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = _closure2_slot4;
                     var2 = _closure2_slot8;
                     var2 = var2.current;
-                    if(!(var3 !== var2)) { _fun0006_ip = 88; continue _fun0006 }
+                    if(!(var3 !== var2)) { _fun0006_ip = 89; continue _fun0006 }
  20:
                     var3 = _closure2_slot8;
                     var2 = _closure2_slot4;
@@ -418,7 +418,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var1 != var2;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 88:
+ 89:
                     var1 = undefined;
                     return var1;
                 }
@@ -496,11 +496,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = 21;
             var4 = var11[var4];
             var4 = var10.bind(var5)(var4);
-            if(var1) { _fun0001_ip = 821; continue _fun0001 }
- 817:
+            if(var1) { _fun0001_ip = 822; continue _fun0001 }
+ 818:
             var1 = {};
-            _fun0001_ip = 942; continue _fun0001;
- 821:
+            _fun0001_ip = 943; continue _fun0001;
+ 822:
             var10 = {};
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -520,25 +520,25 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11['guild_id'] = var19;
             var17 = var15 == var16;
             var12 = undefined;
-            if(var17) { _fun0001_ip = 909; continue _fun0001 }
- 904:
+            if(var17) { _fun0001_ip = 910; continue _fun0001 }
+ 905:
             var12 = var16.id;
- 909:
+ 910:
             var11['application_id'] = var12;
             var17 = var15 == var13;
             var12 = undefined;
-            if(var17) { _fun0001_ip = 929; continue _fun0001 }
- 923:
+            if(var17) { _fun0001_ip = 930; continue _fun0001 }
+ 924:
             var12 = var13.compositeInstanceId;
- 929:
+ 930:
             var11['activity_session_id'] = var12;
             var10['properties'] = var11;
             var1 = var10;
- 942:
+ 943:
             var1 = var4.bind(var5)(var1);
             var1 = var23.length;
-            if(!(var3 !== var1)) { _fun0001_ip = 1332; continue _fun0001 }
- 959:
+            if(!(var3 !== var1)) { _fun0001_ip = 1333; continue _fun0001 }
+ 960:
             var4 = _closure1_slot10;
             var3 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -548,10 +548,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = {};
             var1['onPress'] = var8;
             var8 = 'medium';
-            if(!var9) { _fun0001_ip = 1000; continue _fun0001 }
- 996:
+            if(!var9) { _fun0001_ip = 1001; continue _fun0001 }
+ 997:
             var8 = 'full';
- 1000:
+ 1001:
             var1['width'] = var8;
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -562,8 +562,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['IconComponent'] = var7;
             var1['panelVariant'] = var6;
             var8 = var15 != var14;
-            if(!var8) { _fun0001_ip = 1125; continue _fun0001 }
- 1046:
+            if(!var8) { _fun0001_ip = 1126; continue _fun0001 }
+ 1047:
             var10 = _closure1_slot9;
             var9 = _closure1_slot5;
             var7 = {};
@@ -583,7 +583,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var10.bind(var5)(var12, var11);
             var7['children'] = var11;
             var8 = var10.bind(var5)(var9, var7);
- 1125:
+ 1126:
             var7 = new Array(2);
             var7[0] = var8;
             var10 = _closure1_slot10;
@@ -622,10 +622,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = {};
             var17 = var15 == var16;
             var15 = undefined;
-            if(var17) { _fun0001_ip = 1292; continue _fun0001 }
- 1287:
+            if(var17) { _fun0001_ip = 1293; continue _fun0001 }
+ 1288:
             var15 = var16.name;
- 1292:
+ 1293:
             var12['children'] = var15;
             var12 = var14.bind(var5)(var13, var12);
             var11[2] = var12;
@@ -634,8 +634,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7[1] = var8;
             var1['children'] = var7;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 1375; continue _fun0001;
- 1332:
+            _fun0001_ip = 1376; continue _fun0001;
+ 1333:
             var4 = _closure1_slot9;
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -646,7 +646,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = {};
             var2['panelVariant'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1375:
+ 1376:
             return var1;
         }
     };

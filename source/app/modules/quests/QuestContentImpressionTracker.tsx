@@ -1,9 +1,9 @@
 // app/modules/quests/QuestContentImpressionTracker.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var10 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var10 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var10;
     var _closure1_slot2 = var8;
@@ -44,7 +44,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var6;
     var6 = 2;
     var9 = var8[var6];
-    var6 = native4;
+    var6 = metroImportAll;
     var9 = var6.bind(var1)(var9);
     var _closure1_slot5 = var9;
     var6 = 3;
@@ -212,6 +212,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var6 = copyDataProperties(var23, var22);
                             var6 = var7.commonProperties;
                             var22 = var6.bind(var7)(var8);
+                            var23 = var4;
+                            var6 = copyDataProperties(var23, var22);
+                            var6 = var7.getBrandSafetyContext;
+                            var22 = var6.bind(var7)();
                             var23 = var4;
                             var6 = copyDataProperties(var23, var22);
                             var _closure5_slot2 = var4;
@@ -702,38 +706,56 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var5 = function value() {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                var2 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 12;
-                var1 = var3[var1];
+                var3 = this;
+                var8 = _closure1_slot0;
+                var9 = _closure1_slot2;
+                var1 = 20;
+                var1 = var9[var1];
                 var7 = undefined;
-                var3 = var2.bind(var7)(var1);
-                var2 = var3.isBillableQuestContent;
-                var1 = this;
-                var1 = var1.questContent;
-                var1 = var2.bind(var3)(var1);
-                var2 = _closure1_slot7;
-                var9 = var2.bind(var7)();
-                var2 = _closure1_slot6;
-                var8 = var2.bind(var7)();
-                if(!var1) { _fun0009_ip = 499; continue _fun0009 }
- 69:
-                if(!(var7 !== var9)) { _fun0009_ip = 499; continue _fun0009 }
- 76:
-                if(!(var7 !== var8)) { _fun0009_ip = 499; continue _fun0009 }
- 83:
-                var2 = _closure1_slot10;
-                var1 = var2.getGuildId;
-                var1 = var1.bind(var2)();
+                var4 = var8.bind(var7)(var1);
+                var2 = var4.getIsEligibleForQuestBrandSafetyContext;
+                var1 = var3.questContent;
+                var2 = var2.bind(var4)(var1);
+                var4 = 12;
+                var1 = var9[var4];
+                var11 = var8.bind(var7)(var1);
+                var10 = var11.isBillableQuestContent;
+                var1 = var3.questContent;
+                var1 = var10.bind(var11)(var1);
+                var4 = var9[var4];
+                var8 = var8.bind(var7)(var4);
+                var4 = var8.getAdContext;
+                var3 = var3.questContent;
+                var3 = var4.bind(var8)(var3);
+                var4 = _closure1_slot7;
+                var9 = var4.bind(var7)();
+                var4 = _closure1_slot6;
+                var8 = var4.bind(var7)();
+                if(!var2) { _fun0009_ip = 581; continue _fun0009 }
+ 124:
                 var2 = null;
+                if(!(var2 != var3)) { _fun0009_ip = 581; continue _fun0009 }
+ 133:
+                var3 = var3.is_campaign_ias_enabled;
+                if(!var3) { _fun0009_ip = 581; continue _fun0009 }
+ 147:
+                if(!var1) { _fun0009_ip = 581; continue _fun0009 }
+ 153:
+                if(!(var7 !== var9)) { _fun0009_ip = 581; continue _fun0009 }
+ 160:
+                if(!(var7 !== var8)) { _fun0009_ip = 581; continue _fun0009 }
+ 167:
+                var3 = _closure1_slot10;
+                var1 = var3.getGuildId;
+                var1 = var1.bind(var3)();
                 var4 = var2 != var1;
                 var3 = null;
-                if(!var4) { _fun0009_ip = 122; continue _fun0009 }
- 108:
+                if(!var4) { _fun0009_ip = 204; continue _fun0009 }
+ 190:
                 var10 = _closure1_slot9;
                 var4 = var10.getGuild;
                 var3 = var4.bind(var10)(var1);
- 122:
+ 204:
                 var4 = {};
                 var11 = var9.bind(var7)();
                 var10 = _closure1_slot9;
@@ -768,7 +790,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  76:
                         var5 = _closure1_slot1;
                         var8 = _closure1_slot2;
-                        var4 = 20;
+                        var4 = 21;
                         var4 = var8[var4];
                         var6 = var5.bind(var6)(var4);
                         var5 = var6.getGuildIconURL;
@@ -808,8 +830,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var9 = var10.bind(var11)(var9);
                 var4['guilds'] = var9;
-                if(!(var2 != var3)) { _fun0009_ip = 229; continue _fun0009 }
- 189:
+                if(!(var2 != var3)) { _fun0009_ip = 311; continue _fun0009 }
+ 271:
                 var10 = var8.bind(var7)();
                 var9 = var10.map;
                 var8 = function(arg1) {
@@ -850,36 +872,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var6 = var8.bind(var9)(var6);
-                _fun0009_ip = 233; continue _fun0009;
- 229:
+                _fun0009_ip = 315; continue _fun0009;
+ 311:
                 var6 = new Array(0);
- 233:
+ 315:
                 var4['channels'] = var6;
-                if(!(var2 != var1)) { _fun0009_ip = 248; continue _fun0009 }
- 242:
+                if(!(var2 != var1)) { _fun0009_ip = 330; continue _fun0009 }
+ 324:
                 var4['selected_guild_id'] = var1;
- 248:
+ 330:
                 var1 = var2 == var3;
                 var6 = undefined;
-                if(var1) { _fun0009_ip = 263; continue _fun0009 }
- 257:
+                if(var1) { _fun0009_ip = 345; continue _fun0009 }
+ 339:
                 var6 = var3.banner;
- 263:
+ 345:
                 var1 = null;
-                if(!(var2 !== var6)) { _fun0009_ip = 358; continue _fun0009 }
- 269:
+                if(!(var2 !== var6)) { _fun0009_ip = 440; continue _fun0009 }
+ 351:
                 var8 = var2 == var3;
                 var6 = undefined;
-                if(var8) { _fun0009_ip = 284; continue _fun0009 }
- 278:
+                if(var8) { _fun0009_ip = 366; continue _fun0009 }
+ 360:
                 var6 = var3.banner;
- 284:
+ 366:
                 var1 = null;
-                if(!(var7 !== var6)) { _fun0009_ip = 358; continue _fun0009 }
- 290:
+                if(!(var7 !== var6)) { _fun0009_ip = 440; continue _fun0009 }
+ 372:
                 var6 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var5 = 20;
+                var5 = 21;
                 var5 = var8[var5];
                 var7 = var6.bind(var7)(var5);
                 var6 = var7.getGuildBannerURL;
@@ -892,19 +914,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var6.bind(var7)(var5, var3);
                 var5 = var2 != var3;
                 var1 = null;
-                if(!var5) { _fun0009_ip = 358; continue _fun0009 }
- 355:
+                if(!var5) { _fun0009_ip = 440; continue _fun0009 }
+ 437:
                 var1 = var3;
- 358:
-                if(!(var2 !== var1)) { _fun0009_ip = 370; continue _fun0009 }
- 362:
+ 440:
+                if(!(var2 !== var1)) { _fun0009_ip = 452; continue _fun0009 }
+ 444:
                 var4['selected_guild_banner_url'] = var1;
- 370:
+ 452:
                 var1 = var4.guilds;
                 var1 = var1.length;
                 var5 = 100;
-                if(!(var1 > var5)) { _fun0009_ip = 421; continue _fun0009 }
- 388:
+                if(!(var1 > var5)) { _fun0009_ip = 503; continue _fun0009 }
+ 470:
                 var3 = var4.guilds;
                 var2 = var3.slice;
                 var1 = 0;
@@ -912,11 +934,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4['guilds'] = var1;
                 var1 = true;
                 var4['truncated'] = var1;
- 421:
+ 503:
                 var1 = var4.channels;
                 var1 = var1.length;
-                if(!(var1 > var5)) { _fun0009_ip = 469; continue _fun0009 }
- 436:
+                if(!(var1 > var5)) { _fun0009_ip = 551; continue _fun0009 }
+ 518:
                 var3 = var4.channels;
                 var2 = var3.slice;
                 var1 = 0;
@@ -924,7 +946,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4['channels'] = var1;
                 var1 = true;
                 var4['truncated'] = var1;
- 469:
+ 551:
                 var1 = {};
                 var2 = global;
                 var3 = var2.JSON;
@@ -932,7 +954,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2.bind(var3)(var4);
                 var1['brand_safety_context'] = var2;
                 return var1;
- 499:
+ 581:
                 var1 = null;
                 return var1;
             }
@@ -948,7 +970,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var6 = var9.createContext;
     var6 = var6.bind(var9)(var1);
     var _closure1_slot16 = var6;
-    var6 = 24;
+    var6 = 25;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -1047,7 +1069,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  134:
             var5 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var3 = 21;
+            var3 = 22;
             var3 = var9[var3];
             var4 = undefined;
             var3 = var5.bind(var4)(var3);
@@ -1059,7 +1081,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var3.bind(var6)(var11);
             var _closure2_slot7 = var6;
             var11 = _closure1_slot0;
-            var3 = 22;
+            var3 = 23;
             var3 = var9[var3];
             var19 = var11.bind(var4)(var3);
             var18 = var19.useStateFromStores;
@@ -1076,7 +1098,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = new Array(0);
             var11 = var18.bind(var19)(var17, var11, var3);
             var _closure2_slot8 = var11;
-            var3 = 23;
+            var3 = 24;
             var3 = var9[var3];
             var5 = var5.bind(var4)(var3);
             var3 = function() {

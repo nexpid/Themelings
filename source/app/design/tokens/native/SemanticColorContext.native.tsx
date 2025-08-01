@@ -1,10 +1,10 @@
 // app/design/tokens/native/SemanticColorContext.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var4 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var4 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var4;
     var1 = global;
@@ -44,15 +44,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var1.gradient;
             var2 = var3.bind(var5)(var9, var2);
             var5 = null;
-            if(!(var5 != var6)) { _fun0001_ip = 321; continue _fun0001 }
+            if(!(var5 != var6)) { _fun0001_ip = 319; continue _fun0001 }
  96:
             var13 = var1.theme;
             var3 = var1.primaryColor;
             var12 = var1.secondaryColor;
             var9 = var5 == var3;
             var1 = null;
-            if(var9) { _fun0001_ip = 318; continue _fun0001 }
- 126:
+            if(var9) { _fun0001_ip = 316; continue _fun0001 }
+ 125:
             var11 = _closure1_slot0;
             var15 = _closure1_slot2;
             var9 = 0;
@@ -63,10 +63,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var15[var9];
             var11 = var11.bind(var14)(var9);
             var9 = var11.int2hex;
-            if(!(var5 != var12)) { _fun0001_ip = 178; continue _fun0001 }
- 175:
+            if(!(var5 != var12)) { _fun0001_ip = 177; continue _fun0001 }
+ 174:
             var3 = var12;
- 178:
+ 177:
             var9 = var9.bind(var11)(var3);
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -87,10 +87,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var12.isThemeLight;
             var12 = var7.bind(var12)(var13);
             var7 = 'dark';
-            if(!var12) { _fun0001_ip = 279; continue _fun0001 }
- 275:
+            if(!var12) { _fun0001_ip = 278; continue _fun0001 }
+ 274:
             var7 = 'light';
- 279:
+ 278:
             var3['theme'] = var7;
             var7 = {};
             var7['gradient.start'] = var10;
@@ -100,23 +100,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['gradient.secondary'] = var9;
             var3['colors'] = var7;
             var1 = var3;
- 318:
+ 316:
             var2 = var1;
- 321:
+ 319:
             var1 = {};
             var9 = var5 != var6;
             var3 = 1;
             var7 = var3;
-            if(var9) { _fun0001_ip = 339; continue _fun0001 }
- 336:
+            if(var9) { _fun0001_ip = 337; continue _fun0001 }
+ 334:
             var7 = var8;
- 339:
+ 337:
             var1['contrast'] = var7;
             var5 = var5 != var6;
-            if(var5) { _fun0001_ip = 354; continue _fun0001 }
- 351:
+            if(var5) { _fun0001_ip = 352; continue _fun0001 }
+ 349:
             var3 = var4;
- 354:
+ 352:
             var1['saturation'] = var3;
             var1['gradient'] = var2;
             return var1;

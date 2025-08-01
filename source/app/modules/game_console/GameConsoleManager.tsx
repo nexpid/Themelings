@@ -1,9 +1,9 @@
 // app/modules/game_console/GameConsoleManager.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -529,7 +529,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5 = var3.bind(var5)();
                         var _closure4_slot0 = var5;
                         var3 = null;
-                        if(!(var3 != var5)) { _fun0007_ip = 97; continue _fun0007 }
+                        if(!(var3 != var5)) { _fun0007_ip = 98; continue _fun0007 }
  38:
                         var6 = var4.find;
                         var5 = function(arg1) {
@@ -540,8 +540,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             return var1;
                         };
                         var6 = var6.bind(var4)(var5);
-                        if(!(var3 != var6)) { _fun0007_ip = 93; continue _fun0007 }
- 59:
+                        if(!(var3 != var6)) { _fun0007_ip = 94; continue _fun0007 }
+ 60:
                         var3 = _closure3_slot0;
                         var5 = var3.rollbackCommandTimeout;
                         var3 = var5.stop;
@@ -549,10 +549,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var5 = _closure1_slot20;
                         var3 = undefined;
                         var3 = var5.bind(var3)(var6);
- 93:
+ 94:
                         var3 = undefined;
                         return var3;
- 97:
+ 98:
                         var3 = var4.map;
                         var2 = function(arg1) {
                             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {

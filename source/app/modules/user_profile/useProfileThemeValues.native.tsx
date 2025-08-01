@@ -1,9 +1,9 @@
 // app/modules/user_profile/useProfileThemeValues.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -60,7 +60,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0001_ip = 341; continue _fun0001 }
+                if(!(var1 != var2)) { _fun0001_ip = 340; continue _fun0001 }
  16:
                 var7 = {};
                 var8 = _closure2_slot0;
@@ -110,10 +110,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var5.bind(var6)();
                 var6 = var5.DARK;
                 var5 = 0.12;
-                if(!(var8 === var6)) { _fun0001_ip = 269; continue _fun0001 }
- 259:
+                if(!(var8 === var6)) { _fun0001_ip = 268; continue _fun0001 }
+ 258:
                 var5 = 0.24;
- 269:
+ 268:
                 var2['dividerOpacity'] = var5;
                 var8 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -129,7 +129,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var5.bind(var6)(var4, var3, var7);
                 var2['rolePillBackgroundColor'] = var3;
                 return var2;
- 341:
+ 340:
                 return var1;
             }
         };

@@ -1,10 +1,10 @@
 // app/actions/MentionActionCreators.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
@@ -81,43 +81,45 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = function fetchRecentMentions(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var10 = arg1;
-            var9 = arguments[1];
-            var8 = arguments[2];
-            var7 = arguments[3];
-            var6 = arguments[4];
-            var _closure2_slot0 = var10;
+            var2 = arg1;
+            var11 = var2.before;
+            var _closure2_slot0 = var11;
+            var10 = var2.limit;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 34; continue _fun0001 }
- 27:
-            var9 = _closure1_slot4;
- 34:
-            if(!(var8 === var4)) { _fun0001_ip = 40; continue _fun0001 }
- 38:
-            var8 = null;
- 40:
-            if(!(var7 === var4)) { _fun0001_ip = 46; continue _fun0001 }
+            if(!(var10 === var4)) { _fun0001_ip = 33; continue _fun0001 }
+ 26:
+            var10 = _closure1_slot4;
+ 33:
+            var9 = var2.guildId;
+            if(!(var9 === var4)) { _fun0001_ip = 44; continue _fun0001 }
+ 42:
+            var9 = null;
  44:
+            var8 = var2.roles;
+            if(!(var8 === var4)) { _fun0001_ip = 56; continue _fun0001 }
+ 54:
+            var8 = true;
+ 56:
+            var7 = var2.everyone;
+            if(!(var7 === var4)) { _fun0001_ip = 68; continue _fun0001 }
+ 66:
             var7 = true;
- 46:
-            if(!(var6 === var4)) { _fun0001_ip = 52; continue _fun0001 }
- 50:
-            var6 = true;
- 52:
+ 68:
+            var6 = var2.feature;
             var3 = _closure1_slot1;
-            var11 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var2 = 1;
-            var2 = var11[var2];
-            var12 = var3.bind(var4)(var2);
-            var3 = var12.dispatch;
+            var2 = var12[var2];
+            var13 = var3.bind(var4)(var2);
+            var3 = var13.dispatch;
             var2 = {};
-            var13 = 'LOAD_RECENT_MENTIONS';
-            var2['type'] = var13;
-            var2['guildId'] = var8;
-            var2 = var3.bind(var12)(var2);
+            var14 = 'LOAD_RECENT_MENTIONS';
+            var2['type'] = var14;
+            var2['guildId'] = var9;
+            var2 = var3.bind(var13)(var2);
             var3 = _closure1_slot0;
             var2 = 2;
-            var2 = var11[var2];
+            var2 = var12[var2];
             var2 = var3.bind(var4)(var2);
             var4 = var2.HTTP;
             var3 = var4.get;
@@ -126,11 +128,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.MENTIONS;
             var2['url'] = var5;
             var5 = {};
-            var5['before'] = var10;
-            var5['limit'] = var9;
-            var5['guild_id'] = var8;
-            var5['roles'] = var7;
-            var5['everyone'] = var6;
+            var5['before'] = var11;
+            var5['limit'] = var10;
+            var5['guild_id'] = var9;
+            var5['roles'] = var8;
+            var5['everyone'] = var7;
+            var5['feature'] = var6;
             var2['query'] = var5;
             var4 = var3.bind(var4)(var2);
             var3 = var4.then;

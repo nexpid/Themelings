@@ -1,9 +1,9 @@
 // app/modules/main_tabs_v2/native/tabs/you/hooks/useYouTabBarTheme.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var8 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot3 = var4;
@@ -124,17 +124,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2[0] = var10;
             var11 = var9 == var8;
             var10 = undefined;
-            if(var11) { _fun0001_ip = 290; continue _fun0001 }
- 284:
+            if(var11) { _fun0001_ip = 289; continue _fun0001 }
+ 283:
             var10 = var8.overlay;
- 290:
+ 289:
             var2[1] = var10;
             var9 = var9 == var8;
             var7 = undefined;
-            if(var9) { _fun0001_ip = 309; continue _fun0001 }
- 303:
+            if(var9) { _fun0001_ip = 308; continue _fun0001 }
+ 302:
             var7 = var8.overlaySyncedWithUserTheme;
- 309:
+ 308:
             var2[2] = var7;
             var2[3] = var6;
             var2[4] = var5;
@@ -236,8 +236,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['theme'] = var4;
                     var4 = var2 != var5;
                     var2 = null;
-                    if(!var4) { _fun0002_ip = 356; continue _fun0002 }
- 325:
+                    if(!var4) { _fun0002_ip = 355; continue _fun0002 }
+ 324:
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var3 = 11;
@@ -245,7 +245,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var4.bind(var6)(var3);
                     var3 = var4.int2hex;
                     var2 = var3.bind(var4)(var5);
- 356:
+ 355:
                     var1['primaryColor'] = var2;
                     return var1;
                 }

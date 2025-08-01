@@ -1,9 +1,9 @@
 // app/records/MessageRecord.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var6 = native3;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var6 = metroImportDefault;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var6;
     var _closure1_slot2 = var10;
@@ -971,7 +971,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var3 = var8.bind(var11)(var3);
                 var1 = _closure3_slot4;
-                if(!(var7 === var1)) { _fun0008_ip = 493; continue _fun0008 }
+                if(!(var7 === var1)) { _fun0008_ip = 481; continue _fun0008 }
  130:
                 var7 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -980,7 +980,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var7.bind(var10)(var1);
                 var1 = var1.ReactionTypes;
                 var1 = var1.BURST;
-                if(!(var2 !== var1)) { _fun0008_ip = 345; continue _fun0008 }
+                if(!(var2 !== var1)) { _fun0008_ip = 337; continue _fun0008 }
  172:
                 var7 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -988,7 +988,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var7.bind(var10)(var1);
                 var1 = var1.ReactionTypes;
                 var1 = var1.VOTE;
-                if(!(var2 !== var1)) { _fun0008_ip = 275; continue _fun0008 }
+                if(!(var2 !== var1)) { _fun0008_ip = 267; continue _fun0008 }
  205:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': null, 'me_burst': false, 'count': 1, 'count_details': null, 'burst_count': 0};
@@ -999,8 +999,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = new Array(0);
                 var1['burst_colors'] = var7;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 493; continue _fun0008;
- 275:
+                _fun0008_ip = 481; continue _fun0008;
+ 267:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
                 var1['emoji'] = var6;
@@ -1010,8 +1010,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = new Array(0);
                 var1['burst_colors'] = var7;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 493; continue _fun0008;
- 345:
+                _fun0008_ip = 481; continue _fun0008;
+ 337:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': null, 'count': 0, 'count_details': null, 'burst_count': 1};
                 var1['emoji'] = var6;
@@ -1027,10 +1027,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var7.buildPlatformedThemedEmojiColorPalette;
                 var5 = {};
                 var11 = null;
-                if(!(var11 == var9)) { _fun0008_ip = 439; continue _fun0008 }
- 435:
+                if(!(var11 == var9)) { _fun0008_ip = 427; continue _fun0008 }
+ 423:
                 var9 = new Array(0);
- 439:
+ 427:
                 var5['colors'] = var9;
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot2;
@@ -1043,7 +1043,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var6.bind(var7)(var5);
                 var1['themedBurstColors'] = var5;
                 var1 = var2.bind(var3)(var1);
- 493:
+ 481:
                 var2 = var4.set;
                 var1 = 'reactions';
                 var1 = var2.bind(var4)(var1, var3);

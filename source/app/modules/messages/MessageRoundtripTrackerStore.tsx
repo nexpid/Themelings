@@ -1,9 +1,9 @@
 // app/modules/messages/MessageRoundtripTrackerStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -83,14 +83,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = " because we can't find that channel.";
             var2 = var9.bind(var7)(var10, var2);
             var2 = var3.bind(var4)(var2);
-            _fun0003_ip = 423; continue _fun0003;
+            _fun0003_ip = 421; continue _fun0003;
  87:
             var2 = global;
             var3 = var2.Math;
             var2 = var3.random;
             var3 = var2.bind(var3)();
             var2 = 0.1;
-            if(!(!(var3 > var2))) { _fun0003_ip = 423; continue _fun0003 }
+            if(!(!(var3 > var2))) { _fun0003_ip = 421; continue _fun0003 }
  122:
             var2 = var1.apiResponseTimestamp;
             var2 = var5 == var2;
@@ -157,17 +157,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = 'mobile_network_type';
             var1[var6] = var8;
             var5 = var5 != var7;
-            if(!var5) { _fun0003_ip = 407; continue _fun0003 }
- 397:
+            if(!var5) { _fun0003_ip = 405; continue _fun0003 }
+ 395:
             var6 = {};
             var6['mobile_signal_strength_level'] = var7;
             var5 = var6;
- 407:
+ 405:
             var16 = var1;
             var15 = var5;
             var5 = copyDataProperties(var16, var15);
             var1 = var3.bind(var4)(var2, var1);
- 423:
+ 421:
             var1 = undefined;
             return var1;
         }

@@ -1,11 +1,11 @@
 // app/modules/nuf/native/components/InAppEducationCarousal.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var5 = native2;
-        var19 = native3;
-        var3 = native6;
-        var6 = native7;
+        var5 = require;
+        var19 = metroImportDefault;
+        var3 = exports;
+        var6 = dependencyMap;
         var _closure1_slot0 = var5;
         var _closure1_slot1 = var19;
         var _closure1_slot2 = var6;

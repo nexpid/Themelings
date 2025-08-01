@@ -1,8 +1,8 @@
 // app/modules/main_tabs_v2/native/tabs/you/YouTabBarBackground.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -13,7 +13,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var12 = 1;
@@ -42,7 +42,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var10[var11] = var12;
     var11 = 4;
     var12 = var6[var11];
-    var11 = native3;
+    var11 = metroImportDefault;
     var11 = var11.bind(var1)(var12);
     var11 = var11.colors;
     var12 = var11.BORDER_SUBTLE;
@@ -64,12 +64,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = null;
             var3 = var4 == var1;
             var1 = null;
-            if(var3) { _fun0001_ip = 112; continue _fun0001 }
- 38:
+            if(var3) { _fun0001_ip = 111; continue _fun0001 }
+ 37:
             var3 = var4 == var9;
             var1 = null;
-            if(var3) { _fun0001_ip = 112; continue _fun0001 }
- 47:
+            if(var3) { _fun0001_ip = 111; continue _fun0001 }
+ 46:
             var4 = _closure1_slot1;
             var3 = _closure1_slot0;
             var2 = {};
@@ -86,7 +86,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var4.bind(var5)(var3, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 112:
+ 111:
             return var1;
         }
     };

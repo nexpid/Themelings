@@ -1,8 +1,8 @@
 // app/stores/RegionStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native3;
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = metroImportDefault;
+    var3 = exports;
+    var5 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var5;
     var1 = function _isNativeReflectConstruct() {
@@ -159,7 +159,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = null;
                 var2 = var3 != var5;
                 var1 = null;
-                if(!var2) { _fun0003_ip = 96; continue _fun0003 }
+                if(!var2) { _fun0003_ip = 97; continue _fun0003 }
  36:
                 var4 = var5.find;
                 var2 = function(arg1) {
@@ -168,8 +168,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var2 = var4.bind(var5)(var2);
-                if(!(var3 == var2)) { _fun0003_ip = 93; continue _fun0003 }
- 59:
+                if(!(var3 == var2)) { _fun0003_ip = 94; continue _fun0003 }
+ 60:
                 var4 = _closure1_slot0;
                 var7 = _closure1_slot1;
                 var3 = 6;
@@ -177,9 +177,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var4.bind(var6)(var3);
                 var3 = var4.sample;
                 var2 = var3.bind(var4)(var5);
- 93:
+ 94:
                 var1 = var2;
- 96:
+ 97:
                 return var1;
             }
         };
@@ -351,7 +351,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var2 instanceof Object ? var2 : var4;
     var4 = 9;
     var5 = var5[var4];
-    var4 = native2;
+    var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'stores/RegionStore.tsx';

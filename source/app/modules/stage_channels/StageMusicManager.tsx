@@ -1,9 +1,9 @@
 // app/modules/stage_channels/StageMusicManager.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var5 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var1 = function _isNativeReflectConstruct() {
@@ -52,36 +52,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var3.getVoiceChannelId;
             var7 = var1.bind(var3)();
             var3 = null;
-            if(!(var3 != var7)) { _fun0002_ip = 447; continue _fun0002 }
+            if(!(var3 != var7)) { _fun0002_ip = 448; continue _fun0002 }
  26:
             var4 = _closure1_slot7;
             var1 = var4.getChannel;
             var4 = var1.bind(var4)(var7);
-            if(!(var3 != var4)) { _fun0002_ip = 423; continue _fun0002 }
+            if(!(var3 != var4)) { _fun0002_ip = 424; continue _fun0002 }
  47:
             var1 = var4.isGuildStageVoice;
             var1 = var1.bind(var4)();
-            if(!var1) { _fun0002_ip = 423; continue _fun0002 }
+            if(!var1) { _fun0002_ip = 424; continue _fun0002 }
  63:
             var4 = _closure1_slot8;
             var1 = var4.isSelfDeaf;
             var1 = var1.bind(var4)();
-            if(var1) { _fun0002_ip = 399; continue _fun0002 }
+            if(var1) { _fun0002_ip = 400; continue _fun0002 }
  83:
             var4 = _closure1_slot13;
             var1 = var4.shouldPlay;
             var1 = var1.bind(var4)();
-            if(var1) { _fun0002_ip = 342; continue _fun0002 }
+            if(var1) { _fun0002_ip = 343; continue _fun0002 }
  103:
             var4 = _closure1_slot12;
             var1 = var4.isLive;
             var1 = var1.bind(var4)(var7);
-            if(var1) { _fun0002_ip = 318; continue _fun0002 }
+            if(var1) { _fun0002_ip = 319; continue _fun0002 }
  124:
             var4 = _closure1_slot13;
             var1 = var4.isMuted;
             var1 = var1.bind(var4)();
-            if(var1) { _fun0002_ip = 294; continue _fun0002 }
+            if(var1) { _fun0002_ip = 295; continue _fun0002 }
  144:
             var1 = global;
             var5 = var1.Object;
@@ -108,11 +108,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var1 = var4.bind(var5)(var1);
             var1 = var3 != var1;
-            if(var1) { _fun0002_ip = 267; continue _fun0002 }
- 203:
+            if(var1) { _fun0002_ip = 268; continue _fun0002 }
+ 204:
             var3 = _closure1_slot15;
-            if(var3) { _fun0002_ip = 267; continue _fun0002 }
- 210:
+            if(var3) { _fun0002_ip = 268; continue _fun0002 }
+ 211:
             var4 = _closure1_slot16;
             var6 = _closure1_slot14;
             var5 = _closure1_slot8;
@@ -126,19 +126,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var4)();
             var3 = true;
             _closure1_slot15 = var3;
-            _fun0002_ip = 290; continue _fun0002;
- 267:
-            if(!var1) { _fun0002_ip = 290; continue _fun0002 }
- 270:
+            _fun0002_ip = 291; continue _fun0002;
+ 268:
+            if(!var1) { _fun0002_ip = 291; continue _fun0002 }
+ 271:
             var3 = _closure1_slot16;
             var1 = var3.pause;
             var1 = var1.bind(var3)();
             var1 = false;
             _closure1_slot15 = var1;
- 290:
+ 291:
             var1 = undefined;
             return var1;
- 294:
+ 295:
             var3 = _closure1_slot16;
             var1 = var3.pause;
             var1 = var1.bind(var3)();
@@ -146,7 +146,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure1_slot15 = var1;
             var1 = undefined;
             return var1;
- 318:
+ 319:
             var3 = _closure1_slot16;
             var1 = var3.stop;
             var1 = var1.bind(var3)();
@@ -154,7 +154,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure1_slot15 = var1;
             var1 = undefined;
             return var1;
- 342:
+ 343:
             var4 = _closure1_slot16;
             var5 = _closure1_slot14;
             var3 = _closure1_slot8;
@@ -169,7 +169,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = true;
             _closure1_slot15 = var3;
             return var1;
- 399:
+ 400:
             var3 = _closure1_slot16;
             var1 = var3.stop;
             var1 = var1.bind(var3)();
@@ -177,7 +177,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure1_slot15 = var1;
             var1 = undefined;
             return var1;
- 423:
+ 424:
             var3 = _closure1_slot16;
             var1 = var3.stop;
             var1 = var1.bind(var3)();
@@ -185,7 +185,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             _closure1_slot15 = var1;
             var1 = undefined;
             return var1;
- 447:
+ 448:
             var3 = _closure1_slot16;
             var1 = var3.stop;
             var1 = var1.bind(var3)();
@@ -562,14 +562,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var3 = var6.bind(var7)(var5, var3);
-            if(!var1) { _fun0008_ip = 181; continue _fun0008 }
- 177:
+            if(!var1) { _fun0008_ip = 182; continue _fun0008 }
+ 178:
             var1 = var4 == var3;
- 181:
-            if(!var1) { _fun0008_ip = 187; continue _fun0008 }
- 184:
+ 182:
+            if(!var1) { _fun0008_ip = 188; continue _fun0008 }
+ 185:
             var1 = !var2;
- 187:
+ 188:
             return var1;
         }
     };
@@ -608,14 +608,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = _closure1_slot12;
             var3 = var5.getStageInstanceByChannel;
             var3 = var3.bind(var5)(var6);
-            if(!var1) { _fun0009_ip = 121; continue _fun0009 }
- 117:
+            if(!var1) { _fun0009_ip = 122; continue _fun0009 }
+ 118:
             var1 = var4 == var3;
- 121:
-            if(!var1) { _fun0009_ip = 127; continue _fun0009 }
- 124:
+ 122:
+            if(!var1) { _fun0009_ip = 128; continue _fun0009 }
+ 125:
             var1 = !var2;
- 127:
+ 128:
             return var1;
         }
     };

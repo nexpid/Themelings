@@ -1,9 +1,9 @@
 // app/modules/guild_progress/native/GuildProgressUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var9 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var9 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var9;
     var _closure1_slot2 = var8;
@@ -377,8 +377,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var8 = var3.bind(var5)(var1);
             var1 = null;
-            if(!(var1 == var8)) { _fun0004_ip = 335; continue _fun0004 }
- 283:
+            if(!(var1 == var8)) { _fun0004_ip = 336; continue _fun0004 }
+ 284:
             var6 = _closure1_slot0;
             var1 = _closure1_slot2;
             var3 = var1[var12];
@@ -390,7 +390,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var1.t;
             var1 = var1.+Gyklp;
             var8 = var3.bind(var5)(var1);
- 335:
+ 336:
             var1 = {};
             var3 = global;
             var7 = var3.Math;
@@ -401,8 +401,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = 3;
             var3 = var6.bind(var7)(var3, var5);
             var1['percentComplete'] = var3;
-            if(!(!(var11 < var9))) { _fun0004_ip = 433; continue _fun0004 }
- 379:
+            if(!(!(var11 < var9))) { _fun0004_ip = 434; continue _fun0004 }
+ 380:
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
             var5 = var3[var12];
@@ -414,8 +414,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.t;
             var3 = var3.+Gyklp;
             var3 = var5.bind(var6)(var3);
-            _fun0004_ip = 514; continue _fun0004;
- 433:
+            _fun0004_ip = 515; continue _fun0004;
+ 434:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var6 = var4[var12];
@@ -433,7 +433,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4['total'] = var9;
             var4['step'] = var8;
             var3 = var6.bind(var7)(var5, var4);
- 514:
+ 515:
             var1['subtitle'] = var3;
             var1['completed'] = var2;
             return var1;

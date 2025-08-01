@@ -1,9 +1,9 @@
 // app/modules/emoji_picker/native/components/categories/EmojiPickerCategoriesUnicodeShortcutItem.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -22,7 +22,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
     var11 = 2;
@@ -206,8 +206,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var6 = var4.bind(var6)(var1, var3);
             var1 = null;
-            if(!var2) { _fun0001_ip = 523; continue _fun0001 }
- 335:
+            if(!var2) { _fun0001_ip = 524; continue _fun0001 }
+ 336:
             var4 = _closure1_slot7;
             var13 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -251,7 +251,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 523:
+ 524:
             return var1;
         }
     };

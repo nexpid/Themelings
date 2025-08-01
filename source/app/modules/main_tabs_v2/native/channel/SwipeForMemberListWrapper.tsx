@@ -1,9 +1,9 @@
 // app/modules/main_tabs_v2/native/channel/SwipeForMemberListWrapper.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var13 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
@@ -22,7 +22,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var2;
     var2 = 1;
     var5 = var7[var2];
-    var2 = native4;
+    var2 = metroImportAll;
     var5 = var2.bind(var1)(var5);
     var _closure1_slot4 = var5;
     var2 = 2;
@@ -1146,16 +1146,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['style'] = var12;
             var13 = !var32;
             var12 = !var13;
-            if(!var13) { _fun0001_ip = 1056; continue _fun0001 }
- 1054:
+            if(!var13) { _fun0001_ip = 1055; continue _fun0001 }
+ 1053:
             var12 = undefined;
- 1056:
+ 1055:
             var10['accessibilityElementsHidden'] = var12;
             var12 = undefined;
-            if(!var32) { _fun0001_ip = 1072; continue _fun0001 }
- 1066:
+            if(!var32) { _fun0001_ip = 1071; continue _fun0001 }
+ 1065:
             var12 = 'no-hide-descendants';
- 1072:
+ 1071:
             var10['importantForAccessibility'] = var12;
             var12 = new Array(2);
             var12[0] = var11;
@@ -1188,34 +1188,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = _closure1_slot12;
             var22 = var15.MIDNIGHT;
             var15 = undefined;
-            if(!(var17 === var22)) { _fun0001_ip = 1219; continue _fun0001 }
- 1213:
+            if(!(var17 === var22)) { _fun0001_ip = 1218; continue _fun0001 }
+ 1212:
             var15 = var20.midnightBorder;
- 1219:
+ 1218:
             var14[2] = var15;
             var15 = undefined;
-            if(var16) { _fun0001_ip = 1250; continue _fun0001 }
- 1228:
+            if(var16) { _fun0001_ip = 1249; continue _fun0001 }
+ 1227:
             var16 = _closure1_slot12;
             var16 = var16.MIDNIGHT;
             var15 = undefined;
-            if(!(var17 === var16)) { _fun0001_ip = 1250; continue _fun0001 }
- 1244:
+            if(!(var17 === var16)) { _fun0001_ip = 1249; continue _fun0001 }
+ 1243:
             var15 = var20.midnightRightOverflow;
- 1250:
+ 1249:
             var14[3] = var15;
             var11['style'] = var14;
             var14 = !var32;
-            if(var14) { _fun0001_ip = 1266; continue _fun0001 }
- 1264:
+            if(var14) { _fun0001_ip = 1265; continue _fun0001 }
+ 1263:
             var14 = undefined;
- 1266:
+ 1265:
             var11['accessibilityElementsHidden'] = var14;
             var14 = 'no-hide-descendants';
-            if(!var32) { _fun0001_ip = 1282; continue _fun0001 }
- 1280:
+            if(!var32) { _fun0001_ip = 1281; continue _fun0001 }
+ 1279:
             var14 = undefined;
- 1282:
+ 1281:
             var11['importantForAccessibility'] = var14;
             var17 = _closure1_slot13;
             var16 = _closure1_slot1;

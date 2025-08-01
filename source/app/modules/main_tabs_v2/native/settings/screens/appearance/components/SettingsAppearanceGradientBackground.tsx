@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/settings/screens/appearance/components/SettingsAppearanceGradientBackground.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var5 = native2;
-        var8 = native3;
-        var3 = native6;
-        var6 = native7;
+        var5 = require;
+        var8 = metroImportDefault;
+        var3 = exports;
+        var6 = dependencyMap;
         var _closure1_slot0 = var5;
         var _closure1_slot1 = var8;
         var _closure1_slot2 = var6;
@@ -19,7 +19,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var7.bind(var9)(var3, var1, var4);
         var9 = 0;
         var7 = var6[var9];
-        var4 = native4;
+        var4 = metroImportAll;
         var1 = undefined;
         var7 = var4.bind(var1)(var7);
         var _closure1_slot3 = var7;
@@ -135,10 +135,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var2.bind(var3)();
                     var3 = var8.theme;
                     var2 = 'system';
-                    if(!(var2 === var3)) { _fun0003_ip = 57; continue _fun0003 }
- 54:
+                    if(!(var2 === var3)) { _fun0003_ip = 56; continue _fun0003 }
+ 53:
                     var8 = var7;
- 57:
+ 56:
                     var _closure3_slot0 = var8;
                     var5 = _closure1_slot0;
                     var9 = _closure1_slot2;

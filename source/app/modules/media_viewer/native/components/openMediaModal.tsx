@@ -1,10 +1,10 @@
 // app/modules/media_viewer/native/components/openMediaModal.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = function pushLazy(arg1) {
@@ -156,7 +156,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = null;
             if(!(var4 == var3)) { _fun0002_ip = 69; continue _fun0002 }
  28:
-            if(!(var4 != var6)) { _fun0002_ip = 85; continue _fun0002 }
+            if(!(var4 != var6)) { _fun0002_ip = 87; continue _fun0002 }
  32:
             var5 = _closure1_slot7;
             var4 = {};
@@ -167,7 +167,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4[var2] = var6;
             var2 = undefined;
             var2 = var5.bind(var2)(var4);
-            _fun0002_ip = 85; continue _fun0002;
+            _fun0002_ip = 87; continue _fun0002;
  69:
             var2 = var3.measureInWindow;
             var1 = function(arg1, arg2, arg3, arg4) {
@@ -253,7 +253,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var1 = var2.bind(var3)(var1);
- 85:
+ 87:
             var1 = undefined;
             return var1;
         }

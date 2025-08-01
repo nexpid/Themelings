@@ -1,8 +1,8 @@
 // app/modules/messages/EmbeddedApplicationInstanceUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var8;
     var2 = function getJoinOrStartButtonState(arg1) {
@@ -325,7 +325,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var6.bind(var9)(var3, var1, var5);
     var9 = 0;
     var6 = var8[var9];
-    var5 = native4;
+    var5 = metroImportAll;
     var1 = undefined;
     var5 = var5.bind(var1)(var6);
     var _closure1_slot2 = var5;

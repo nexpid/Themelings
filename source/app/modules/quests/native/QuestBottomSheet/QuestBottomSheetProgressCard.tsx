@@ -1,9 +1,9 @@
 // app/modules/quests/native/QuestBottomSheet/QuestBottomSheetProgressCard.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var10 = 0;
     var7 = var6[var10];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -643,7 +643,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5['style'] = var8;
             var8 = 'subtle';
             var5['border'] = var8;
-            if(!var9) { _fun0003_ip = 540; continue _fun0003 }
+            if(!var9) { _fun0003_ip = 536; continue _fun0003 }
  306:
             var11 = _closure1_slot7;
             var10 = _closure1_slot4;
@@ -694,7 +694,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12[1] = var13;
             var8['children'] = var12;
             var9 = var11.bind(var4)(var10, var8);
- 540:
+ 536:
             var8 = new Array(3);
             var8[0] = var9;
             var12 = _closure1_slot7;

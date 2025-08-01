@@ -1,9 +1,9 @@
 // app/modules/user_profile/UserProfileAnalyticsUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var5 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var5;
     var _closure1_slot2 = var8;
@@ -197,7 +197,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var4.themeColors;
  432:
             var5 = var3 != var5;
-            if(!var5) { _fun0001_ip = 466; continue _fun0001 }
+            if(!var5) { _fun0001_ip = 467; continue _fun0001 }
  439:
             var9 = var4.themeColors;
             var8 = var9.find;
@@ -209,40 +209,40 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var7 = var8.bind(var9)(var7);
             var5 = var2 !== var7;
- 466:
-            if(!var5) { _fun0001_ip = 492; continue _fun0001 }
- 469:
+ 467:
+            if(!var5) { _fun0001_ip = 493; continue _fun0001 }
+ 470:
             var7 = var1.push;
             var5 = _closure1_slot10;
             var5 = var5.THEME;
             var5 = var7.bind(var1)(var5);
- 492:
+ 493:
             var7 = var3 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 507; continue _fun0001 }
- 501:
+            if(var7) { _fun0001_ip = 508; continue _fun0001 }
+ 502:
             var5 = var6.avatarDecoration;
- 507:
-            if(!(var3 != var5)) { _fun0001_ip = 534; continue _fun0001 }
- 511:
+ 508:
+            if(!(var3 != var5)) { _fun0001_ip = 535; continue _fun0001 }
+ 512:
             var6 = var1.push;
             var5 = _closure1_slot10;
             var5 = var5.AVATAR_DECORATION;
             var5 = var6.bind(var1)(var5);
- 534:
+ 535:
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 549; continue _fun0001 }
- 543:
+            if(var5) { _fun0001_ip = 550; continue _fun0001 }
+ 544:
             var2 = var4.profileEffectId;
- 549:
-            if(!(var3 != var2)) { _fun0001_ip = 576; continue _fun0001 }
- 553:
+ 550:
+            if(!(var3 != var2)) { _fun0001_ip = 577; continue _fun0001 }
+ 554:
             var3 = var1.push;
             var2 = _closure1_slot10;
             var2 = var2.PROFILE_EFFECT;
             var2 = var3.bind(var1)(var2);
- 576:
+ 577:
             return var1;
         }
     };

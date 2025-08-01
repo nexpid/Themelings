@@ -1,7 +1,7 @@
 // app/design/utils/shared/getNodeText.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
+    var5 = dependencyMap;
     var1 = global;
     var7 = var1.Object;
     var6 = var7.defineProperty;
@@ -12,13 +12,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var6.bind(var7)(var3, var1, var2);
     var1 = 0;
     var6 = var5[var1];
-    var2 = native4;
+    var2 = metroImportAll;
     var1 = undefined;
     var2 = var2.bind(var1)(var6);
     var _closure1_slot0 = var2;
     var2 = 1;
     var5 = var5[var2];
-    var2 = native2;
+    var2 = require;
     var6 = var2.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var2 = 'design/utils/shared/getNodeText.tsx';

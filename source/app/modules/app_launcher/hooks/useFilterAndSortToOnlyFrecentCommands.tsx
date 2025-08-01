@@ -1,8 +1,8 @@
 // app/modules/app_launcher/hooks/useFilterAndSortToOnlyFrecentCommands.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -15,13 +15,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native3;
+    var4 = metroImportDefault;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
     var4 = 4;
@@ -39,10 +39,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot0 = var2;
             var5 = var3.limit;
             var8 = undefined;
-            if(!(var5 === var8)) { _fun0001_ip = 37; continue _fun0001 }
- 32:
+            if(!(var5 === var8)) { _fun0001_ip = 36; continue _fun0001 }
+ 31:
             var5 = var2.length;
- 37:
+ 36:
             var _closure2_slot1 = var5;
             var _closure2_slot2 = var8;
             var _closure2_slot3 = var8;

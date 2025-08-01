@@ -1,6 +1,6 @@
 // app/modules/media_viewer/native/portraitThumbnailHelpers.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var2 = global;
     var6 = var2.Object;
     var5 = var6.defineProperty;
@@ -77,10 +77,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var1 = undefined;
     var2 = var2.bind(var1)();
-    var5 = native7;
+    var5 = dependencyMap;
     var4 = 0;
     var5 = var5[var4];
-    var4 = native2;
+    var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/media_viewer/native/portraitThumbnailHelpers.tsx';

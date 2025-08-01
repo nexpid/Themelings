@@ -1,9 +1,9 @@
 // app/modules/video_calls/native/components/CameraPreview.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -623,7 +623,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var8 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -807,21 +807,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var2 = var4.bind(var5)(var2);
                     var4 = _closure2_slot2;
-                    if(!(var1 != var4)) { _fun0008_ip = 150; continue _fun0008 }
- 119:
-                    if(!(var1 != var2)) { _fun0008_ip = 150; continue _fun0008 }
- 123:
+                    if(!(var1 != var4)) { _fun0008_ip = 151; continue _fun0008 }
+ 120:
+                    if(!(var1 != var2)) { _fun0008_ip = 151; continue _fun0008 }
+ 124:
                     var4 = _closure2_slot2;
                     var5 = var4.id;
                     var4 = var2.id;
-                    if(!(var5 === var4)) { _fun0008_ip = 150; continue _fun0008 }
- 141:
+                    if(!(var5 === var4)) { _fun0008_ip = 151; continue _fun0008 }
+ 142:
                     var3 = _closure2_slot1;
                     var1 = null;
-                    if(var3) { _fun0008_ip = 153; continue _fun0008 }
- 150:
+                    if(var3) { _fun0008_ip = 154; continue _fun0008 }
+ 151:
                     var1 = var2;
- 153:
+ 154:
                     return var1;
                 }
             };
@@ -861,7 +861,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var _closure3_slot0 = var4;
                     var1 = null;
                     var4 = var1 == var4;
-                    if(var4) { _fun0011_ip = 74; continue _fun0011 }
+                    if(var4) { _fun0011_ip = 75; continue _fun0011 }
  32:
                     var5 = _closure1_slot8;
                     var4 = var5.getParticipants;
@@ -890,7 +890,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var1 = var3.bind(var4)(var2);
- 74:
+ 75:
                     return var1;
                 }
             };
@@ -1104,7 +1104,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     if(var2) { _fun0015_ip = 108; continue _fun0015 }
  99:
                     var2 = _closure2_slot2;
-                    _fun0015_ip = 264; continue _fun0015;
+                    _fun0015_ip = 265; continue _fun0015;
  108:
                     if(!var7) { _fun0015_ip = 156; continue _fun0015 }
  111:
@@ -1120,10 +1120,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var9 = _closure1_slot11;
                     var7 = var9.getId;
                     var7 = var7.bind(var9)();
-                    if(!(var8 === var7)) { _fun0015_ip = 204; continue _fun0015 }
+                    if(!(var8 === var7)) { _fun0015_ip = 205; continue _fun0015 }
  156:
                     var2 = undefined;
-                    if(!var6) { _fun0015_ip = 264; continue _fun0015 }
+                    if(!var6) { _fun0015_ip = 265; continue _fun0015 }
  161:
                     var8 = _closure1_slot8;
                     var7 = var8.getStreamParticipants;
@@ -1142,8 +1142,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var2 = var7.bind(var8)(var6);
-                    _fun0015_ip = 264; continue _fun0015;
- 204:
+                    _fun0015_ip = 265; continue _fun0015;
+ 205:
                     var7 = _closure1_slot8;
                     var6 = var7.getParticipant;
                     var5 = _closure2_slot0;
@@ -1153,27 +1153,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var4.id;
                     var5 = var6.bind(var7)(var5, var4);
                     var4 = var1 != var5;
-                    if(!var4) { _fun0015_ip = 256; continue _fun0015 }
- 250:
+                    if(!var4) { _fun0015_ip = 257; continue _fun0015 }
+ 251:
                     var4 = var5.localVideoDisabled;
- 256:
+ 257:
                     var2 = var5;
-                    if(!var4) { _fun0015_ip = 264; continue _fun0015 }
- 262:
+                    if(!var4) { _fun0015_ip = 265; continue _fun0015 }
+ 263:
                     var2 = null;
- 264:
+ 265:
                     var4 = var1 == var2;
                     var3 = undefined;
-                    if(var4) { _fun0015_ip = 279; continue _fun0015 }
- 273:
+                    if(var4) { _fun0015_ip = 280; continue _fun0015 }
+ 274:
                     var3 = var2.streamId;
- 279:
+ 280:
                     var3 = var1 != var3;
                     var1 = null;
-                    if(!var3) { _fun0015_ip = 291; continue _fun0015 }
- 288:
+                    if(!var3) { _fun0015_ip = 292; continue _fun0015 }
+ 289:
                     var1 = var2;
- 291:
+ 292:
                     return var1;
                 }
             };

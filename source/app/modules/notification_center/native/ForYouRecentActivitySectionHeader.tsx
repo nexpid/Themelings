@@ -1,8 +1,8 @@
 // app/modules/notification_center/native/ForYouRecentActivitySectionHeader.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -15,7 +15,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var4 = 1;
@@ -36,7 +36,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = {'borderTopWidth': 1, 'borderTopColor': null, 'marginTop': 12, 'marginBottom': 8, 'paddingHorizontal': 24};
     var10 = 4;
     var11 = var6[var10];
-    var10 = native3;
+    var10 = metroImportDefault;
     var10 = var10.bind(var1)(var11);
     var10 = var10.colors;
     var10 = var10.DIVIDER_SUBTLE;

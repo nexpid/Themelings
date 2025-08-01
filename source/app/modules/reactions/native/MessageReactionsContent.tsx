@@ -1,10 +1,10 @@
 // app/modules/reactions/native/MessageReactionsContent.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var14 = native3;
-    var9 = native4;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var14 = metroImportDefault;
+    var9 = metroImportAll;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var14;
     var _closure1_slot2 = var9;
@@ -189,7 +189,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var2.current;
                     var1 = !var2;
  52:
-                    if(!var1) { _fun0004_ip = 187; continue _fun0004 }
+                    if(!var1) { _fun0004_ip = 186; continue _fun0004 }
  58:
                     var2 = _closure2_slot5;
                     var1 = true;
@@ -225,7 +225,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
- 187:
+ 186:
                     var1 = undefined;
                     return var1;
                 }

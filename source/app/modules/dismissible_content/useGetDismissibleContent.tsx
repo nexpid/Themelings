@@ -1,9 +1,9 @@
 // app/modules/dismissible_content/useGetDismissibleContent.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
@@ -307,7 +307,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var9)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -407,11 +407,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = _closure1_slot10;
             var5 = var5.PRELOADED_USER_SETTINGS;
             var5 = var10.bind(var11)(var5);
-            if(var5) { _fun0007_ip = 200; continue _fun0007 }
+            if(var5) { _fun0007_ip = 201; continue _fun0007 }
  167:
             var1 = var8 != var1;
             var8 = null;
-            if(!var1) { _fun0007_ip = 222; continue _fun0007 }
+            if(!var1) { _fun0007_ip = 224; continue _fun0007 }
  176:
             var5 = var9.find;
             var1 = function(arg1) {
@@ -431,8 +431,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var5.bind(var9)(var1);
             _closure2_slot3 = var1;
             var8 = var1;
-            _fun0007_ip = 222; continue _fun0007;
- 200:
+            _fun0007_ip = 224; continue _fun0007;
+ 201:
             var5 = var9.find;
             var1 = function(arg1) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -460,7 +460,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var5.bind(var9)(var1);
             _closure2_slot3 = var1;
             var8 = var1;
- 222:
+ 224:
             var1 = _closure1_slot11;
             var4 = var1.bind(var4)(var8, var6, var7);
             var1 = new Array(2);
@@ -1130,11 +1130,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = _closure1_slot10;
             var5 = var5.PRELOADED_USER_SETTINGS;
             var5 = var10.bind(var11)(var5);
-            if(var5) { _fun0022_ip = 166; continue _fun0022 }
+            if(var5) { _fun0022_ip = 167; continue _fun0022 }
  133:
             var1 = var8 != var1;
             var8 = null;
-            if(!var1) { _fun0022_ip = 188; continue _fun0022 }
+            if(!var1) { _fun0022_ip = 190; continue _fun0022 }
  142:
             var5 = var9.find;
             var1 = function(arg1) {
@@ -1159,8 +1159,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var5.bind(var9)(var1);
             _closure2_slot3 = var1;
             var8 = var1;
-            _fun0022_ip = 188; continue _fun0022;
- 166:
+            _fun0022_ip = 190; continue _fun0022;
+ 167:
             var5 = var9.find;
             var1 = function(arg1) {
                 _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
@@ -1189,7 +1189,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var5.bind(var9)(var1);
             _closure2_slot3 = var1;
             var8 = var1;
- 188:
+ 190:
             var1 = _closure1_slot11;
             var4 = var1.bind(var4)(var8, var6, var7);
             var1 = new Array(2);

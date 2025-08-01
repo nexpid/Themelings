@@ -1,9 +1,9 @@
 // app/components_native/chat/ChatBeginningRow.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -836,7 +836,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var4;
     var4 = 2;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot5 = var4;
     var4 = 3;
@@ -1397,12 +1397,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = {};
             var8 = var14.ctaContainer;
             var1['style'] = var8;
-            if(!var7) { _fun0011_ip = 136; continue _fun0011 }
- 133:
+            if(!var7) { _fun0011_ip = 135; continue _fun0011 }
+ 132:
             var7 = var5;
- 136:
-            if(!var7) { _fun0011_ip = 438; continue _fun0011 }
- 142:
+ 135:
+            if(!var7) { _fun0011_ip = 437; continue _fun0011 }
+ 141:
             var9 = _closure1_slot44;
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -1478,11 +1478,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12[1] = var13;
             var5['children'] = var12;
             var7 = var9.bind(var4)(var8, var5);
- 438:
+ 437:
             var5 = new Array(2);
             var5[0] = var7;
-            if(!var6) { _fun0011_ip = 740; continue _fun0011 }
- 452:
+            if(!var6) { _fun0011_ip = 739; continue _fun0011 }
+ 451:
             var9 = _closure1_slot44;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -1563,7 +1563,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10[1] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 740:
+ 739:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -1896,11 +1896,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var13.bind(var4)(var9, var6);
             var5[1] = var6;
             var6 = null;
-            if(!var12) { _fun0013_ip = 527; continue _fun0013 }
- 482:
+            if(!var12) { _fun0013_ip = 526; continue _fun0013 }
+ 481:
             var6 = null;
-            if(!var8) { _fun0013_ip = 527; continue _fun0013 }
- 487:
+            if(!var8) { _fun0013_ip = 526; continue _fun0013 }
+ 486:
             var9 = _closure1_slot42;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -1911,7 +1911,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7['channel'] = var11;
             var7['guild'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 527:
+ 526:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -1,8 +1,8 @@
 // app/design/components/ThemeContextProvider/ThemeContextProvider.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -15,7 +15,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
@@ -112,104 +112,104 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = {};
                 var4 = _closure2_slot0;
                 var6 = null;
-                if(!(var6 == var4)) { _fun0001_ip = 58; continue _fun0001 }
+                if(!(var6 == var4)) { _fun0001_ip = 57; continue _fun0001 }
  46:
                 var4 = _closure2_slot10;
                 var4 = var4.theme;
-                _fun0001_ip = 62; continue _fun0001;
- 58:
+                _fun0001_ip = 61; continue _fun0001;
+ 57:
                 var4 = _closure2_slot0;
- 62:
+ 61:
                 var1['theme'] = var4;
                 var4 = _closure2_slot1;
-                if(!(var6 == var4)) { _fun0001_ip = 87; continue _fun0001 }
- 75:
+                if(!(var6 == var4)) { _fun0001_ip = 85; continue _fun0001 }
+ 73:
                 var4 = _closure2_slot10;
                 var4 = var4.primaryColor;
-                _fun0001_ip = 91; continue _fun0001;
- 87:
+                _fun0001_ip = 89; continue _fun0001;
+ 85:
                 var4 = _closure2_slot1;
- 91:
+ 89:
                 var1['primaryColor'] = var4;
                 var4 = _closure2_slot2;
-                if(!(var6 == var4)) { _fun0001_ip = 116; continue _fun0001 }
- 104:
+                if(!(var6 == var4)) { _fun0001_ip = 114; continue _fun0001 }
+ 102:
                 var4 = _closure2_slot10;
                 var4 = var4.secondaryColor;
-                _fun0001_ip = 120; continue _fun0001;
- 116:
+                _fun0001_ip = 118; continue _fun0001;
+ 114:
                 var4 = _closure2_slot2;
- 120:
+ 118:
                 var1['secondaryColor'] = var4;
                 var4 = _closure2_slot3;
-                if(!(var6 == var4)) { _fun0001_ip = 145; continue _fun0001 }
- 133:
+                if(!(var6 == var4)) { _fun0001_ip = 143; continue _fun0001 }
+ 131:
                 var4 = _closure2_slot10;
                 var4 = var4.gradient;
-                _fun0001_ip = 149; continue _fun0001;
- 145:
+                _fun0001_ip = 147; continue _fun0001;
+ 143:
                 var4 = _closure2_slot3;
- 149:
+ 147:
                 var1['gradient'] = var4;
                 var4 = _closure2_slot4;
-                if(!(var6 == var4)) { _fun0001_ip = 173; continue _fun0001 }
- 162:
+                if(!(var6 == var4)) { _fun0001_ip = 171; continue _fun0001 }
+ 160:
                 var4 = _closure2_slot10;
                 var4 = var4.flags;
-                _fun0001_ip = 177; continue _fun0001;
- 173:
+                _fun0001_ip = 175; continue _fun0001;
+ 171:
                 var4 = _closure2_slot4;
- 177:
+ 175:
                 var1['flags'] = var4;
                 var4 = _closure2_slot5;
-                if(!(var6 == var4)) { _fun0001_ip = 201; continue _fun0001 }
- 189:
+                if(!(var6 == var4)) { _fun0001_ip = 199; continue _fun0001 }
+ 187:
                 var4 = _closure2_slot10;
                 var4 = var4.contrast;
-                _fun0001_ip = 205; continue _fun0001;
- 201:
+                _fun0001_ip = 203; continue _fun0001;
+ 199:
                 var4 = _closure2_slot5;
- 205:
+ 203:
                 var1['contrast'] = var4;
                 var4 = _closure2_slot6;
-                if(!(var6 == var4)) { _fun0001_ip = 230; continue _fun0001 }
- 218:
+                if(!(var6 == var4)) { _fun0001_ip = 228; continue _fun0001 }
+ 216:
                 var4 = _closure2_slot10;
                 var4 = var4.saturation;
-                _fun0001_ip = 234; continue _fun0001;
- 230:
+                _fun0001_ip = 232; continue _fun0001;
+ 228:
                 var4 = _closure2_slot6;
- 234:
+ 232:
                 var1['saturation'] = var4;
                 var4 = _closure2_slot7;
-                if(!(var6 == var4)) { _fun0001_ip = 259; continue _fun0001 }
- 247:
+                if(!(var6 == var4)) { _fun0001_ip = 257; continue _fun0001 }
+ 245:
                 var4 = _closure2_slot10;
                 var4 = var4.density;
-                _fun0001_ip = 263; continue _fun0001;
- 259:
+                _fun0001_ip = 261; continue _fun0001;
+ 257:
                 var4 = _closure2_slot7;
- 263:
+ 261:
                 var1['density'] = var4;
                 var4 = _closure2_slot8;
-                if(!(var6 == var4)) { _fun0001_ip = 288; continue _fun0001 }
- 276:
+                if(!(var6 == var4)) { _fun0001_ip = 286; continue _fun0001 }
+ 274:
                 var4 = _closure2_slot10;
                 var4 = var4.disableAdaptiveTheme;
-                _fun0001_ip = 292; continue _fun0001;
- 288:
+                _fun0001_ip = 290; continue _fun0001;
+ 286:
                 var4 = _closure2_slot8;
- 292:
+ 290:
                 var1['disableAdaptiveTheme'] = var4;
                 var4 = _closure2_slot9;
-                if(!(var6 == var4)) { _fun0001_ip = 317; continue _fun0001 }
- 305:
+                if(!(var6 == var4)) { _fun0001_ip = 315; continue _fun0001 }
+ 303:
                 var4 = _closure2_slot10;
                 var4 = var4.reduceAdaptiveTheme;
-                _fun0001_ip = 321; continue _fun0001;
- 317:
+                _fun0001_ip = 319; continue _fun0001;
+ 315:
                 var4 = _closure2_slot9;
- 321:
+ 319:
                 var1['reduceAdaptiveTheme'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;

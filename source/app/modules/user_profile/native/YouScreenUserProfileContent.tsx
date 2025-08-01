@@ -1,9 +1,9 @@
 // app/modules/user_profile/native/YouScreenUserProfileContent.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -160,7 +160,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -338,11 +338,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var2.bind(var3)(var1);
             var1 = var29 != var30;
             var31 = undefined;
-            if(!var1) { _fun0001_ip = 499; continue _fun0001 }
- 490:
+            if(!var1) { _fun0001_ip = 497; continue _fun0001 }
+ 488:
             var1 = var30.label;
             var31 = var1.bind(var30)();
- 499:
+ 497:
             var3 = _closure1_slot7;
             var11 = _closure1_slot1;
             var32 = _closure1_slot2;
@@ -396,8 +396,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['prompt'] = var30;
             var10 = var14.bind(var4)(var11, var10);
             var8[1] = var10;
-            if(!var9) { _fun0001_ip = 765; continue _fun0001 }
- 723:
+            if(!var9) { _fun0001_ip = 763; continue _fun0001 }
+ 721:
             var14 = _closure1_slot7;
             var11 = _closure1_slot1;
             var30 = _closure1_slot2;
@@ -408,7 +408,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['targetRef'] = var20;
             var10['scrollPosition'] = var15;
             var9 = var14.bind(var4)(var11, var10);
- 765:
+ 763:
             var8[2] = var9;
             var11 = _closure1_slot8;
             var10 = _closure1_slot5;
@@ -425,10 +425,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14['user'] = var17;
             var30 = var29 == var23;
             var29 = undefined;
-            if(var30) { _fun0001_ip = 834; continue _fun0001 }
- 828:
+            if(var30) { _fun0001_ip = 832; continue _fun0001 }
+ 826:
             var29 = var23.pronouns;
- 834:
+ 832:
             var14['pronouns'] = var29;
             var14['badges'] = var28;
             var14['badgeContainerBackground'] = var19;

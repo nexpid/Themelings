@@ -1,9 +1,9 @@
 // app/actions/StreamActionCreators.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var12 = native3;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var10;
@@ -184,13 +184,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
             var6 = arg1;
             var3 = arguments[1];
+            var2 = arguments[2];
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0004_ip = 14; continue _fun0004 }
- 12:
+            if(!(var3 === var1)) { _fun0004_ip = 17; continue _fun0004 }
+ 15:
             var3 = true;
- 14:
+ 17:
+            if(!(var2 === var1)) { _fun0004_ip = 23; continue _fun0004 }
+ 21:
+            var2 = true;
+ 23:
+            if(!var2) { _fun0004_ip = 39; continue _fun0004 }
+ 26:
             var2 = _closure1_slot22;
             var2 = var2.bind(var1)(var6, var3);
+ 39:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 12;

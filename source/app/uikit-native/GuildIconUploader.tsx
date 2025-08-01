@@ -1,9 +1,9 @@
 // app/uikit-native/GuildIconUploader.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var13 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
@@ -77,7 +77,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot7 = var4;
     var4 = 5;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
     var4 = 6;
     var4 = var6[var4];
@@ -211,7 +211,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1.props;
                 var7 = var1.icon;
                 var1 = null;
-                if(!(var1 == var7)) { _fun0003_ip = 323; continue _fun0003 }
+                if(!(var1 == var7)) { _fun0003_ip = 322; continue _fun0003 }
  41:
                 var4 = _closure1_slot12;
                 var3 = _closure1_slot8;
@@ -236,17 +236,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var11 = var12.bind(var13)(var11);
                 var13 = _closure1_slot1;
                 var14 = _closure1_slot2;
-                if(var11) { _fun0003_ip = 155; continue _fun0003 }
- 141:
+                if(var11) { _fun0003_ip = 154; continue _fun0003 }
+ 140:
                 var11 = 13;
                 var11 = var14[var11];
                 var11 = var13.bind(var5)(var11);
-                _fun0003_ip = 167; continue _fun0003;
- 155:
+                _fun0003_ip = 166; continue _fun0003;
+ 154:
                 var12 = 12;
                 var12 = var14[var12];
                 var11 = var13.bind(var5)(var12);
- 167:
+ 166:
                 var6['source'] = var11;
                 var9 = var10.bind(var5)(var9, var6);
                 var6 = new Array(2);
@@ -278,8 +278,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6[1] = var9;
                 var1['children'] = var6;
                 var1 = var4.bind(var5)(var3, var1);
-                _fun0003_ip = 378; continue _fun0003;
- 323:
+                _fun0003_ip = 377; continue _fun0003;
+ 322:
                 var4 = _closure1_slot11;
                 var3 = _closure1_slot9;
                 var2 = {};
@@ -293,7 +293,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6['uri'] = var7;
                 var2['source'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 378:
+ 377:
                 return var1;
             }
         };

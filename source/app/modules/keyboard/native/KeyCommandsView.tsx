@@ -1,11 +1,11 @@
 // app/modules/keyboard/native/KeyCommandsView.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var5 = native2;
-        var9 = native3;
-        var3 = native6;
-        var6 = native7;
+        var5 = require;
+        var9 = metroImportDefault;
+        var3 = exports;
+        var6 = dependencyMap;
         var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -197,7 +197,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure1_slot0 = var4;
         var13 = 1;
         var7 = var6[var13];
-        var4 = native4;
+        var4 = metroImportAll;
         var8 = var4.bind(var1)(var7);
         var _closure1_slot1 = var8;
         var4 = 2;
@@ -381,11 +381,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var2 = var2.bind(var4)(var1);
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0005_ip = 55; continue _fun0005 }
- 44:
+                    if(!(var1 != var2)) { _fun0005_ip = 56; continue _fun0005 }
+ 45:
                     var1 = var2.onKeyCommand;
                     var1 = var1.bind(var2)(var3);
- 55:
+ 56:
                     var1 = undefined;
                     return var1;
                 }

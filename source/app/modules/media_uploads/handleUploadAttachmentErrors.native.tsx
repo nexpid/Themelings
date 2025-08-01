@@ -1,10 +1,10 @@
 // app/modules/media_uploads/handleUploadAttachmentErrors.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
@@ -40,7 +40,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var1.reason;
             var1 = _closure1_slot3;
             var1 = var1.ENTITY_TOO_LARGE;
-            if(!(var2 !== var1)) { _fun0001_ip = 389; continue _fun0001 }
+            if(!(var2 !== var1)) { _fun0001_ip = 388; continue _fun0001 }
  51:
             var1 = _closure1_slot3;
             var1 = var1.TOO_MANY_ATTACHMENTS;
@@ -84,7 +84,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.bind(var4)(var2);
             var1 = true;
  230:
-            _fun0001_ip = 387; continue _fun0001;
+            _fun0001_ip = 386; continue _fun0001;
  235:
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -121,9 +121,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['body'] = var10;
             var2 = var3.bind(var4)(var2);
             var1 = true;
- 387:
-            _fun0001_ip = 483; continue _fun0001;
- 389:
+ 386:
+            _fun0001_ip = 482; continue _fun0001;
+ 388:
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
             var2 = 1;
@@ -143,14 +143,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = null;
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 471; continue _fun0001 }
- 466:
+            if(var7) { _fun0001_ip = 470; continue _fun0001 }
+ 465:
             var5 = var6.type;
- 471:
+ 470:
             var2['errorReason'] = var5;
             var2 = var3.bind(var4)(var2);
             var1 = true;
- 483:
+ 482:
             return var1;
         }
     };

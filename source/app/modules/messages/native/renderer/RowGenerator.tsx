@@ -1,9 +1,9 @@
 // app/modules/messages/native/renderer/RowGenerator.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -94,43 +94,43 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var4.options;
                 var3 = var1.forcedTheme;
                 var1 = null;
-                if(!(var1 == var3)) { _fun0001_ip = 42; continue _fun0001 }
+                if(!(var1 == var3)) { _fun0001_ip = 41; continue _fun0001 }
  29:
                 var1 = _closure1_slot5;
                 var3 = var1.theme;
- 42:
+ 41:
                 var2 = _closure1_slot6;
                 var2 = var2.BLOCKED_GROUP;
-                if(!(var2 !== var8)) { _fun0001_ip = 318; continue _fun0001 }
- 62:
+                if(!(var2 !== var8)) { _fun0001_ip = 317; continue _fun0001 }
+ 61:
                 var2 = _closure1_slot6;
                 var2 = var2.IGNORED_GROUP;
-                if(!(var2 !== var8)) { _fun0001_ip = 318; continue _fun0001 }
- 79:
+                if(!(var2 !== var8)) { _fun0001_ip = 317; continue _fun0001 }
+ 78:
                 var2 = _closure1_slot6;
                 var2 = var2.MESSAGE;
-                if(!(var2 !== var8)) { _fun0001_ip = 276; continue _fun0001 }
- 96:
+                if(!(var2 !== var8)) { _fun0001_ip = 275; continue _fun0001 }
+ 95:
                 var2 = _closure1_slot7;
                 var2 = var2.DAY;
-                if(!(var2 !== var8)) { _fun0001_ip = 240; continue _fun0001 }
- 113:
+                if(!(var2 !== var8)) { _fun0001_ip = 239; continue _fun0001 }
+ 112:
                 var2 = _closure1_slot7;
                 var2 = var2.UNREAD;
-                if(!(var2 !== var8)) { _fun0001_ip = 240; continue _fun0001 }
- 127:
+                if(!(var2 !== var8)) { _fun0001_ip = 239; continue _fun0001 }
+ 126:
                 var2 = _closure1_slot7;
                 var2 = var2.SUMMARY;
-                if(!(var2 !== var8)) { _fun0001_ip = 240; continue _fun0001 }
- 141:
+                if(!(var2 !== var8)) { _fun0001_ip = 239; continue _fun0001 }
+ 140:
                 var2 = _closure1_slot8;
                 var2 = var2.LOAD_BEFORE;
-                if(!(var2 !== var8)) { _fun0001_ip = 204; continue _fun0001 }
- 155:
+                if(!(var2 !== var8)) { _fun0001_ip = 203; continue _fun0001 }
+ 154:
                 var2 = _closure1_slot8;
                 var2 = var2.LOAD_AFTER;
-                if(!(var2 !== var8)) { _fun0001_ip = 204; continue _fun0001 }
- 169:
+                if(!(var2 !== var8)) { _fun0001_ip = 203; continue _fun0001 }
+ 168:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 10;
@@ -140,7 +140,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var7.assertNever;
                 var6 = var6.bind(var7)(var8);
                 return var2;
- 204:
+ 203:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 9;
@@ -150,7 +150,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var6.generateLoadingRowData;
                 var2 = var2.bind(var6)(var5, var3);
                 return var2;
- 240:
+ 239:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 8;
@@ -160,7 +160,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var6.generateSeparatorRowData;
                 var2 = var2.bind(var6)(var5, var3);
                 return var2;
- 276:
+ 275:
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var2 = 7;
@@ -171,7 +171,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4.options;
                 var2 = var6.bind(var7)(var5, var2, var3);
                 return var2;
- 318:
+ 317:
                 var6 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 6;

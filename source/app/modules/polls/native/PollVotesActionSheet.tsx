@@ -1,9 +1,9 @@
 // app/modules/polls/native/PollVotesActionSheet.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var15 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var15 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var15;
     var _closure1_slot2 = var6;
@@ -938,7 +938,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var4;
     var4 = 2;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var8 = var4.bind(var1)(var7);
     var _closure1_slot5 = var8;
     var4 = 3;
@@ -1345,12 +1345,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  296:
             var3 = var12 == var24;
             var18 = undefined;
-            if(var3) { _fun0010_ip = 343; continue _fun0010 }
+            if(var3) { _fun0010_ip = 344; continue _fun0010 }
  305:
             var3 = var24.poll;
             var6 = var12 == var3;
             var18 = undefined;
-            if(var6) { _fun0010_ip = 343; continue _fun0010 }
+            if(var6) { _fun0010_ip = 344; continue _fun0010 }
  320:
             var6 = var3.answers;
             var3 = var6.find;
@@ -1366,24 +1366,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var18 = var3.bind(var6)(var2);
- 343:
+ 344:
             var3 = var12 == var13;
             var2 = undefined;
-            if(var3) { _fun0010_ip = 373; continue _fun0010 }
- 352:
+            if(var3) { _fun0010_ip = 374; continue _fun0010 }
+ 353:
             var3 = var13.count_details;
             var6 = var12 == var3;
             var2 = undefined;
-            if(var6) { _fun0010_ip = 373; continue _fun0010 }
- 367:
+            if(var6) { _fun0010_ip = 374; continue _fun0010 }
+ 368:
             var2 = var3.vote;
- 373:
+ 374:
             var3 = var12 != var2;
             var9 = 0;
-            if(!var3) { _fun0010_ip = 385; continue _fun0010 }
- 382:
+            if(!var3) { _fun0010_ip = 386; continue _fun0010 }
+ 383:
             var9 = var2;
- 385:
+ 386:
             var3 = _closure1_slot14;
             var16 = _closure1_slot0;
             var20 = _closure1_slot2;
@@ -1418,11 +1418,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8['style'] = var19;
             var20 = var12 == var18;
             var19 = undefined;
-            if(var20) { _fun0010_ip = 550; continue _fun0010 }
- 539:
+            if(var20) { _fun0010_ip = 551; continue _fun0010 }
+ 540:
             var18 = var18.poll_media;
             var19 = var18.text;
- 550:
+ 551:
             var18 = new Array(3);
             var18[0] = var19;
             var19 = ' - ';
@@ -1448,16 +1448,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = var17.bind(var4)(var16, var8);
             var8 = new Array(2);
             var8[0] = var16;
-            if(!(var12 != var13)) { _fun0010_ip = 672; continue _fun0010 }
- 668:
-            if(!(!(var9 > var11))) { _fun0010_ip = 690; continue _fun0010 }
- 672:
+            if(!(var12 != var13)) { _fun0010_ip = 673; continue _fun0010 }
+ 669:
+            if(!(!(var9 > var11))) { _fun0010_ip = 691; continue _fun0010 }
+ 673:
             var12 = _closure1_slot14;
             var11 = _closure1_slot22;
             var9 = {};
             var9 = var12.bind(var4)(var11, var9);
-            _fun0010_ip = 719; continue _fun0010;
- 690:
+            _fun0010_ip = 720; continue _fun0010;
+ 691:
             var12 = _closure1_slot14;
             var11 = _closure1_slot21;
             var10 = {};
@@ -1465,7 +1465,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10['messageId'] = var14;
             var10['reaction'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 719:
+ 720:
             var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

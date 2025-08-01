@@ -1,9 +1,9 @@
 // app/modules/search/native/components/layout/autocomplete/SearchFilterUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -46,7 +46,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -74,29 +74,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot6 = var7;
     var7 = var4.SEARCH_DATE_FORMAT;
     var _closure1_slot7 = var7;
-    var4 = var4.SearchTokenTypes;
-    var _closure1_slot8 = var4;
+    var7 = var4.SearchTokenTypes;
+    var _closure1_slot8 = var7;
+    var4 = var4.SearchTypes;
+    var _closure1_slot9 = var4;
     var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/search/native/components/layout/autocomplete/SearchFilterUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function getSearchTokenLabel(arg1) {
+    var4 = function getSearchTokenLabel(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            var5 = arg1;
+            var5 = arg2;
             var2 = _closure1_slot8;
             var2 = var2.FILTER_FROM;
-            if(!(var2 !== var5)) { _fun0002_ip = 540; continue _fun0002 }
+            if(!(var2 !== var5)) { _fun0002_ip = 623; continue _fun0002 }
  23:
             var2 = _closure1_slot8;
             var2 = var2.FILTER_HAS;
-            if(!(var2 !== var5)) { _fun0002_ip = 479; continue _fun0002 }
+            if(!(var2 !== var5)) { _fun0002_ip = 562; continue _fun0002 }
  40:
             var2 = _closure1_slot8;
             var2 = var2.FILTER_MENTIONS;
-            if(!(var2 !== var5)) { _fun0002_ip = 418; continue _fun0002 }
+            if(!(var2 !== var5)) { _fun0002_ip = 501; continue _fun0002 }
  57:
             var2 = _closure1_slot8;
             var2 = var2.FILTER_IN;
@@ -119,11 +121,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.HermesInternal;
             var3 = var2.concat;
             var2 = '[getSearchTokenLabel] Unhandled search token type: ';
-            var8 = var3.bind(var2)(var5);
+            var9 = var3.bind(var2)(var5);
             var3 = var4.prototype;
             var3 = Object.create(var3, {constructor: {value: var4}});
-            var9 = var3;
-            var2 = new var9[var4](var8, var7);
+            var10 = var3;
+            var2 = new var10[var4](var9, var8);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
  174:
@@ -172,6 +174,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.bind(var4)(var2);
             return var2;
  357:
+            var2 = arg1;
+            var3 = var2.type;
+            var2 = _closure1_slot9;
+            var2 = var2.DMS;
+            if(!(var3 !== var2)) { _fun0002_ip = 440; continue _fun0002 }
+ 379:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 3;
@@ -185,8 +193,24 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.t;
             var2 = var2.cdPmq6;
             var2 = var3.bind(var4)(var2);
+            _fun0002_ip = 499; continue _fun0002;
+ 440:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 3;
+            var4 = var8[var3];
+            var6 = undefined;
+            var4 = var7.bind(var6)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.t;
+            var3 = var3.8Fmo4+;
+            var2 = var4.bind(var5)(var3);
+ 499:
             return var2;
- 418:
+ 501:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 3;
@@ -201,7 +225,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.CMKzQ0;
             var2 = var3.bind(var4)(var2);
             return var2;
- 479:
+ 562:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 3;
@@ -216,7 +240,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.DMAzx8;
             var2 = var3.bind(var4)(var2);
             return var2;
- 540:
+ 623:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 3;
@@ -602,7 +626,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                                 var5 = _closure1_slot5;
                                 var5 = var5.COMPLETE;
                                 var2['type'] = var5;
-                                var7 = _closure1_slot9;
+                                var7 = _closure1_slot10;
                                 var6 = _closure4_slot1;
                                 var1 = undefined;
                                 var11 = var7.bind(var1)(var6);
@@ -683,7 +707,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var2['searchTokenType'] = var6;
                         var5 = _closure4_slot1;
                         var2['location'] = var5;
-                        var5 = _closure1_slot9;
+                        var5 = _closure1_slot10;
                         var1 = undefined;
                         var5 = var5.bind(var1)(var6);
                         var2['text'] = var5;

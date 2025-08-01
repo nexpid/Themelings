@@ -1,9 +1,9 @@
 // app/modules/safe_area/useSafeAreaAvoidingInputs.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -133,7 +133,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot4 = var4;
     var4 = 6;
@@ -174,7 +174,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 693; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 694; continue _fun0002 }
  12:
                     var2 = _closure2_slot2;
                     var12 = var2.current;
@@ -200,10 +200,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var7 = var3.bind(var4)(var2);
                     var11 = null;
-                    if(!(var11 != var7)) { _fun0002_ip = 676; continue _fun0002 }
- 57:
-                    if(!(var11 != var12)) { _fun0002_ip = 676; continue _fun0002 }
- 64:
+                    if(!(var11 != var7)) { _fun0002_ip = 677; continue _fun0002 }
+ 58:
+                    if(!(var11 != var12)) { _fun0002_ip = 677; continue _fun0002 }
+ 65:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var13 = 4;
@@ -213,13 +213,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var3 = var4.measureViewRefInWindow;
                     var2 = var7.ref;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=109);
- 107:
+                    SaveGenerator(address=110);
+ 108:
                     return var2;
- 109:
+ 110:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 690; continue _fun0002 }
- 118:
+                    if(var3) { _fun0002_ip = 691; continue _fun0002 }
+ 119:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var3 = var3[var13];
@@ -227,30 +227,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var10.measureViewRefInView;
                     var3 = var7.ref;
                     var3 = var4.bind(var10)(var3, var12);
-                    SaveGenerator(address=156);
- 154:
+                    SaveGenerator(address=157);
+ 155:
                     return var3;
- 156:
+ 157:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 687; continue _fun0002 }
- 165:
-                    if(!(var11 != var2)) { _fun0002_ip = 676; continue _fun0002 }
- 172:
-                    if(!(var11 != var3)) { _fun0002_ip = 676; continue _fun0002 }
- 179:
+                    if(var4) { _fun0002_ip = 688; continue _fun0002 }
+ 166:
+                    if(!(var11 != var2)) { _fun0002_ip = 677; continue _fun0002 }
+ 173:
+                    if(!(var11 != var3)) { _fun0002_ip = 677; continue _fun0002 }
+ 180:
                     var10 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var4 = var4[var13];
                     var10 = var10.bind(var8)(var4);
                     var4 = var10.measureViewInWindow;
                     var4 = var4.bind(var10)(var12);
-                    SaveGenerator(address=211);
- 209:
+                    SaveGenerator(address=212);
+ 210:
                     return var4;
- 211:
+ 212:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
-                    if(var10) { _fun0002_ip = 684; continue _fun0002 }
- 220:
+                    if(var10) { _fun0002_ip = 685; continue _fun0002 }
+ 221:
                     var7 = var7.offset;
                     var5 = function calculateScrollOffset() {
                         var1 = undefined;
@@ -263,29 +263,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var5 = var5.bind(var8)(var7, var2);
-                    SaveGenerator(address=241);
- 239:
+                    SaveGenerator(address=242);
+ 240:
                     return var5;
- 241:
+ 242:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(var7) { _fun0002_ip = 681; continue _fun0002 }
- 250:
+                    if(var7) { _fun0002_ip = 682; continue _fun0002 }
+ 251:
                     var14 = global;
                     var7 = var14.Number;
                     var7 = var7.MAX_SAFE_INTEGER;
-                    if(!(var5 === var7)) { _fun0002_ip = 309; continue _fun0002 }
- 268:
+                    if(!(var5 === var7)) { _fun0002_ip = 310; continue _fun0002 }
+ 269:
                     var7 = _closure2_slot2;
                     var12 = var7.current;
-                    if(!(var11 != var12)) { _fun0002_ip = 676; continue _fun0002 }
- 284:
+                    if(!(var11 != var12)) { _fun0002_ip = 677; continue _fun0002 }
+ 285:
                     var10 = var12.scrollToEnd;
                     var7 = {};
                     var13 = true;
                     var7['animated'] = var13;
                     var7 = var10.bind(var12)(var7);
-                    _fun0002_ip = 676; continue _fun0002;
- 309:
+                    _fun0002_ip = 677; continue _fun0002;
+ 310:
                     var7 = {};
                     var10 = _closure2_slot0;
                     var7['insets'] = var10;
@@ -320,8 +320,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = var7.scrollOffset;
                     var15 = var15 + var10;
                     var10 = undefined;
-                    if(!(!(var15 <= var12))) { _fun0002_ip = 552; continue _fun0002 }
- 468:
+                    if(!(!(var15 <= var12))) { _fun0002_ip = 553; continue _fun0002 }
+ 469:
                     var15 = var14.Math;
                     var14 = var15.max;
                     var13 = var13 - var12;
@@ -338,60 +338,60 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var7.scrollOffset;
                     var7 = var13 + var7;
                     var10 = undefined;
-                    if(!(!(var7 <= var12))) { _fun0002_ip = 552; continue _fun0002 }
- 548:
+                    if(!(!(var7 <= var12))) { _fun0002_ip = 553; continue _fun0002 }
+ 549:
                     var10 = var7 - var12;
- 552:
-                    if(!(var11 != var10)) { _fun0002_ip = 676; continue _fun0002 }
- 556:
+ 553:
+                    if(!(var11 != var10)) { _fun0002_ip = 677; continue _fun0002 }
+ 557:
                     var7 = _closure2_slot2;
                     var14 = var7.current;
                     var12 = var11 == var14;
                     var6 = undefined;
-                    if(var12) { _fun0002_ip = 616; continue _fun0002 }
- 574:
+                    if(var12) { _fun0002_ip = 617; continue _fun0002 }
+ 575:
                     var12 = var14.scrollTo;
                     var12 = var11 == var12;
                     var6 = undefined;
-                    if(var12) { _fun0002_ip = 616; continue _fun0002 }
- 589:
+                    if(var12) { _fun0002_ip = 617; continue _fun0002 }
+ 590:
                     var13 = var14.scrollTo;
                     var12 = {'x': 0, 'y': null, 'animated': true};
                     var12['y'] = var10;
                     var6 = var13.bind(var14)(var12);
- 616:
+ 617:
                     var6 = var11 != var6;
                     var8 = undefined;
-                    if(var6) { _fun0002_ip = 637; continue _fun0002 }
- 625:
+                    if(var6) { _fun0002_ip = 638; continue _fun0002 }
+ 626:
                     var7 = var7.current;
                     var6 = var11 == var7;
                     var8 = var7;
- 637:
-                    if(var6) { _fun0002_ip = 650; continue _fun0002 }
- 640:
+ 638:
+                    if(var6) { _fun0002_ip = 651; continue _fun0002 }
+ 641:
                     var7 = var8.scrollToOffset;
                     var6 = var11 == var7;
- 650:
-                    if(var6) { _fun0002_ip = 676; continue _fun0002 }
- 653:
+ 651:
+                    if(var6) { _fun0002_ip = 677; continue _fun0002 }
+ 654:
                     var7 = var8.scrollToOffset;
                     var6 = {};
                     var6['offset'] = var10;
                     var6['animated'] = var9;
                     var6 = var7.bind(var8)(var6);
- 676:
+ 677:
                     var6 = undefined;
                     return var6;
- 681:
+ 682:
                     return var5;
- 684:
+ 685:
                     return var4;
- 687:
+ 688:
                     return var3;
- 690:
+ 691:
                     return var2;
- 693:
+ 694:
                     return var1;
                 }
             };

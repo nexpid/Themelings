@@ -1,10 +1,10 @@
 // app/modules/stage_channels/native/modals/GuildStageChannelSelection.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var8 = native4;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var8 = metroImportAll;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var8;
@@ -137,12 +137,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             };
                             var3 = var3.bind(var4)(var2);
                             var2 = null;
-                            if(!(var2 != var3)) { _fun0003_ip = 50; continue _fun0003 }
- 39:
+                            if(!(var2 != var3)) { _fun0003_ip = 51; continue _fun0003 }
+ 40:
                             var2 = _closure2_slot1;
                             var1 = undefined;
                             var1 = var2.bind(var1)(var3);
- 50:
+ 51:
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot3;
                             var1 = 8;

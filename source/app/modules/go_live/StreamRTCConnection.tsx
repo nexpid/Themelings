@@ -1,9 +1,9 @@
 // app/modules/go_live/StreamRTCConnection.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
@@ -742,50 +742,50 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = null;
                 var8 = var3 == var7;
                 var6 = undefined;
-                if(var8) { _fun0008_ip = 146; continue _fun0008 }
- 140:
+                if(var8) { _fun0008_ip = 147; continue _fun0008 }
+ 141:
                 var6 = var7.stats;
- 146:
+ 147:
                 var8 = var3 != var6;
                 var12 = 'unknown';
                 var11 = undefined;
                 var7 = var12;
-                if(!var8) { _fun0008_ip = 373; continue _fun0008 }
- 165:
+                if(!var8) { _fun0008_ip = 374; continue _fun0008 }
+ 166:
                 var11 = undefined;
                 var7 = var12;
-                if(!var5) { _fun0008_ip = 373; continue _fun0008 }
- 176:
+                if(!var5) { _fun0008_ip = 374; continue _fun0008 }
+ 177:
                 var6 = var6.transport;
                 var9 = var6.inboundBitrateEstimate;
                 var6 = var3 != var9;
-                if(!var6) { _fun0008_ip = 205; continue _fun0008 }
- 195:
+                if(!var6) { _fun0008_ip = 206; continue _fun0008 }
+ 196:
                 var8 = 100000000;
                 var6 = var9 < var8;
- 205:
+ 206:
                 var11 = undefined;
                 var7 = var12;
-                if(!var6) { _fun0008_ip = 373; continue _fun0008 }
- 216:
+                if(!var6) { _fun0008_ip = 374; continue _fun0008 }
+ 217:
                 var8 = var4.bandwidthSamples;
                 var6 = var8.push;
                 var6 = var6.bind(var8)(var9);
                 var6 = var4.bandwidthSamples;
                 var6 = var6.length;
                 var10 = 10;
-                if(!(var6 > var10)) { _fun0008_ip = 266; continue _fun0008 }
- 250:
+                if(!(var6 > var10)) { _fun0008_ip = 267; continue _fun0008 }
+ 251:
                 var8 = var4.bandwidthSamples;
                 var6 = var8.shift;
                 var6 = var6.bind(var8)();
- 266:
+ 267:
                 var6 = var4.bandwidthSamples;
                 var9 = var6.length;
                 var8 = undefined;
                 var6 = var12;
-                if(!(var10 === var9)) { _fun0008_ip = 367; continue _fun0008 }
- 286:
+                if(!(var10 === var9)) { _fun0008_ip = 368; continue _fun0008 }
+ 287:
                 var10 = _closure1_slot1;
                 var13 = _closure1_slot2;
                 var9 = 22;
@@ -797,46 +797,46 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var13 = 1500000;
                 var14 = var10 > var13;
                 var9 = 'HQ';
-                if(var14) { _fun0008_ip = 361; continue _fun0008 }
- 345:
+                if(var14) { _fun0008_ip = 362; continue _fun0008 }
+ 346:
                 var13 = var10 < var13;
-                if(!var13) { _fun0008_ip = 358; continue _fun0008 }
- 352:
+                if(!var13) { _fun0008_ip = 359; continue _fun0008 }
+ 353:
                 var12 = 'LQ';
- 358:
+ 359:
                 var9 = var12;
- 361:
+ 362:
                 var6 = var9;
                 var8 = var10;
- 367:
+ 368:
                 var11 = var8;
                 var7 = var6;
- 373:
+ 374:
                 var9 = var4._goLiveQualityManager;
                 var6 = var3 == var9;
                 var8 = undefined;
-                if(var6) { _fun0008_ip = 398; continue _fun0008 }
- 388:
+                if(var6) { _fun0008_ip = 399; continue _fun0008 }
+ 389:
                 var6 = var9.isDowngraded;
                 var8 = var6.bind(var9)();
- 398:
+ 399:
                 var6 = var3 != var8;
-                if(!var6) { _fun0008_ip = 408; continue _fun0008 }
- 405:
+                if(!var6) { _fun0008_ip = 409; continue _fun0008 }
+ 406:
                 var6 = var8;
- 408:
+ 409:
                 var8 = 'HQ';
-                if(!(var8 === var7)) { _fun0008_ip = 421; continue _fun0008 }
- 418:
-                if(var6) { _fun0008_ip = 511; continue _fun0008 }
- 421:
+                if(!(var8 === var7)) { _fun0008_ip = 422; continue _fun0008 }
+ 419:
+                if(var6) { _fun0008_ip = 512; continue _fun0008 }
+ 422:
                 var8 = 'LQ';
-                if(!(var8 === var7)) { _fun0008_ip = 574; continue _fun0008 }
- 434:
-                if(var6) { _fun0008_ip = 574; continue _fun0008 }
- 440:
-                if(!var2) { _fun0008_ip = 574; continue _fun0008 }
- 446:
+                if(!(var8 === var7)) { _fun0008_ip = 575; continue _fun0008 }
+ 435:
+                if(var6) { _fun0008_ip = 575; continue _fun0008 }
+ 441:
+                if(!var2) { _fun0008_ip = 575; continue _fun0008 }
+ 447:
                 var9 = var4.logger;
                 var8 = var9.info;
                 var6 = global;
@@ -846,13 +846,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var10.bind(var6)(var11);
                 var6 = var8.bind(var9)(var6);
                 var9 = var4._goLiveQualityManager;
-                if(!(var3 != var9)) { _fun0008_ip = 574; continue _fun0008 }
- 496:
+                if(!(var3 != var9)) { _fun0008_ip = 575; continue _fun0008 }
+ 497:
                 var8 = var9.setGoLiveStreamDowngraded;
                 var6 = true;
                 var6 = var8.bind(var9)(var6);
-                _fun0008_ip = 574; continue _fun0008;
- 511:
+                _fun0008_ip = 575; continue _fun0008;
+ 512:
                 var9 = var4.logger;
                 var8 = var9.info;
                 var6 = global;
@@ -862,70 +862,70 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var10.bind(var6)(var11);
                 var6 = var8.bind(var9)(var6);
                 var9 = var4._goLiveQualityManager;
-                if(!(var3 != var9)) { _fun0008_ip = 574; continue _fun0008 }
- 561:
+                if(!(var3 != var9)) { _fun0008_ip = 575; continue _fun0008 }
+ 562:
                 var8 = var9.setGoLiveStreamDowngraded;
                 var6 = false;
                 var6 = var8.bind(var9)(var6);
- 574:
-                if(!var5) { _fun0008_ip = 743; continue _fun0008 }
- 580:
+ 575:
+                if(!var5) { _fun0008_ip = 744; continue _fun0008 }
+ 581:
                 var8 = var4._goLiveQualityManager;
                 var5 = var3 != var8;
-                if(!var5) { _fun0008_ip = 603; continue _fun0008 }
- 593:
+                if(!var5) { _fun0008_ip = 604; continue _fun0008 }
+ 594:
                 var6 = var8.senderSupportsSimulcast;
                 var5 = var6.bind(var8)();
- 603:
+ 604:
                 var8 = !var5;
-                if(var8) { _fun0008_ip = 640; continue _fun0008 }
- 609:
+                if(var8) { _fun0008_ip = 641; continue _fun0008 }
+ 610:
                 var9 = var4._goLiveQualityManager;
                 var5 = var3 == var9;
                 var6 = undefined;
-                if(var5) { _fun0008_ip = 634; continue _fun0008 }
- 624:
+                if(var5) { _fun0008_ip = 635; continue _fun0008 }
+ 625:
                 var5 = var9.isDowngraded;
                 var6 = var5.bind(var9)();
- 634:
+ 635:
                 var5 = false;
                 var8 = var5 === var6;
- 640:
+ 641:
                 var6 = var4._videoQuality;
-                if(!(var3 != var6)) { _fun0008_ip = 663; continue _fun0008 }
- 650:
+                if(!(var3 != var6)) { _fun0008_ip = 664; continue _fun0008 }
+ 651:
                 var5 = var6.setViewedSimulcastQuality;
                 var5 = var5.bind(var6)(var8);
- 663:
+ 664:
                 var8 = var4._goLiveQualityManager;
                 var5 = var3 == var8;
                 var6 = undefined;
-                if(var5) { _fun0008_ip = 688; continue _fun0008 }
- 678:
+                if(var5) { _fun0008_ip = 689; continue _fun0008 }
+ 679:
                 var5 = var8.isOneToOneCall;
                 var6 = var5.bind(var8)();
- 688:
+ 689:
                 var5 = var3 != var6;
-                if(!var5) { _fun0008_ip = 698; continue _fun0008 }
- 695:
+                if(!var5) { _fun0008_ip = 699; continue _fun0008 }
+ 696:
                 var5 = var6;
- 698:
-                if(!var2) { _fun0008_ip = 711; continue _fun0008 }
- 701:
+ 699:
+                if(!var2) { _fun0008_ip = 712; continue _fun0008 }
+ 702:
                 var6 = 'LQ';
                 var2 = var6 === var7;
- 711:
-                if(!var2) { _fun0008_ip = 717; continue _fun0008 }
- 714:
+ 712:
+                if(!var2) { _fun0008_ip = 718; continue _fun0008 }
+ 715:
                 var2 = !var5;
- 717:
+ 718:
                 var4 = var4._videoQuality;
-                if(!(var3 != var4)) { _fun0008_ip = 743; continue _fun0008 }
- 727:
+                if(!(var3 != var4)) { _fun0008_ip = 744; continue _fun0008 }
+ 728:
                 var3 = var4.setEligibleSimulcastQuality;
                 var2 = !var2;
                 var2 = var3.bind(var4)(var2);
- 743:
+ 744:
                 return var1;
             }
         };

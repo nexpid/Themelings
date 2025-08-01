@@ -1,8 +1,8 @@
 // app/design/components/Layers/native/LayerContext.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -22,7 +22,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot1 = var4;
     var4 = 2;
     var5 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var7 = var4.bind(var1)(var5);
     var2 = function() {
         var4 = _closure1_slot1;
@@ -131,7 +131,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var2.bind(var7)(var5);
     var5 = 3;
     var6 = var6[var5];
-    var5 = native2;
+    var5 = require;
     var7 = var5.bind(var1)(var6);
     var6 = var7.fileFinishedImporting;
     var5 = 'design/components/Layers/native/LayerContext.native.tsx';

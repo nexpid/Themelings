@@ -1,11 +1,11 @@
 // app/modules/app_database/modules/Guilds.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var7;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
@@ -969,11 +969,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = global;
                 var2 = var2.Array;
                 var2 = var12 instanceof var2;
-                if(var2) { _fun0012_ip = 147; continue _fun0012 }
- 139:
+                if(var2) { _fun0012_ip = 148; continue _fun0012 }
+ 140:
                 var2 = var10.roles;
-                _fun0012_ip = 187; continue _fun0012;
- 147:
+                _fun0012_ip = 188; continue _fun0012;
+ 148:
                 var12 = _closure1_slot1;
                 var11 = _closure1_slot2;
                 var11 = var11[var13];
@@ -982,12 +982,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var11 = var10.id;
                 var10 = var10.roles;
                 var2 = var12.bind(var13)(var11, var10);
- 187:
+ 188:
                 var3 = var3.bind(var8)(var2);
                 var2 = null;
                 var8 = var2 != var9;
-                if(!var8) { _fun0012_ip = 231; continue _fun0012 }
- 201:
+                if(!var8) { _fun0012_ip = 232; continue _fun0012 }
+ 202:
                 var8 = {};
                 var10 = var9.user;
                 var10 = var10.id;
@@ -995,7 +995,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var9.roles;
                 var8['roles'] = var9;
                 var2 = var8;
- 231:
+ 232:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var5.put;
                 var2 = arg2;

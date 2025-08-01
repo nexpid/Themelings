@@ -1,9 +1,9 @@
 // app/components_native/useChannelStylesShared.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var13 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var1 = global;
     var5 = var1.Object;
     var4 = var5.defineProperty;

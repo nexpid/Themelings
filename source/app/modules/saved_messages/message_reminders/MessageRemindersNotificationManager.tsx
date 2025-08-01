@@ -1,8 +1,8 @@
 // app/modules/saved_messages/message_reminders/MessageRemindersNotificationManager.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native3;
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = metroImportDefault;
+    var3 = exports;
+    var5 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var5;
     var1 = function _isNativeReflectConstruct() {
@@ -62,7 +62,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4['autoTrackExposure'] = var8;
             var4 = var6.bind(var7)(var5, var4);
             var4 = var4.enabled;
-            if(!var4) { _fun0002_ip = 321; continue _fun0002 }
+            if(!var4) { _fun0002_ip = 322; continue _fun0002 }
  71:
             var5 = _closure1_slot8;
             var4 = null;
@@ -105,20 +105,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot0 = var5;
             var7 = var4 == var5;
             var6 = undefined;
-            if(var7) { _fun0002_ip = 165; continue _fun0002 }
- 144:
+            if(var7) { _fun0002_ip = 166; continue _fun0002 }
+ 145:
             var7 = var5.saveData;
             var8 = var4 == var7;
             var6 = undefined;
-            if(var8) { _fun0002_ip = 165; continue _fun0002 }
- 159:
+            if(var8) { _fun0002_ip = 166; continue _fun0002 }
+ 160:
             var6 = var7.dueAt;
- 165:
-            if(!(var4 == var6)) { _fun0002_ip = 178; continue _fun0002 }
- 169:
+ 166:
+            if(!(var4 == var6)) { _fun0002_ip = 179; continue _fun0002 }
+ 170:
             _closure1_slot8 = var4;
-            _fun0002_ip = 321; continue _fun0002;
- 178:
+            _fun0002_ip = 322; continue _fun0002;
+ 179:
             var4 = global;
             var7 = var4.Date;
             var6 = var7.now;
@@ -135,8 +135,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var6.dueAt;
             var6 = var8.getTime;
             var6 = var6.bind(var8)();
-            if(!(!(var6 > var7))) { _fun0002_ip = 321; continue _fun0002 }
- 257:
+            if(!(!(var6 > var7))) { _fun0002_ip = 322; continue _fun0002 }
+ 258:
             var5 = var5.saveData;
             var6 = var5.dueAt;
             var5 = var6.getTime;
@@ -186,7 +186,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var2 = var4.bind(var1)(var2, var5);
             _closure1_slot8 = var2;
- 321:
+ 322:
             return var1;
         }
     };
@@ -316,7 +316,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var2 instanceof Object ? var2 : var4;
     var4 = 10;
     var5 = var5[var4];
-    var4 = native2;
+    var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/saved_messages/message_reminders/MessageRemindersNotificationManager.tsx';

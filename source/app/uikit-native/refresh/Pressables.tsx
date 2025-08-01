@@ -1,11 +1,11 @@
 // app/uikit-native/refresh/Pressables.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var6 = native2;
-        var13 = native3;
-        var3 = native6;
-        var7 = native7;
+        var6 = require;
+        var13 = metroImportDefault;
+        var3 = exports;
+        var7 = dependencyMap;
         var _closure1_slot0 = var6;
         var _closure1_slot1 = var13;
         var _closure1_slot2 = var7;
@@ -141,7 +141,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var5.bind(var8)(var3, var1, var4);
         var1 = 0;
         var5 = var7[var1];
-        var4 = native4;
+        var4 = metroImportAll;
         var1 = undefined;
         var8 = var4.bind(var1)(var5);
         var _closure1_slot3 = var8;

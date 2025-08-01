@@ -1,6 +1,6 @@
 // discord_common/js/packages/markup/MarkupASTUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var1 = function collectAst(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -93,10 +93,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var5.bind(var6)(var3, var1, var2);
     var1 = {};
     var _closure1_slot0 = var1;
-    var2 = native7;
+    var2 = dependencyMap;
     var1 = 0;
     var5 = var2[var1];
-    var2 = native2;
+    var2 = require;
     var1 = undefined;
     var6 = var2.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
@@ -213,47 +213,47 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = arg1;
             var7 = arguments[1];
             var6 = undefined;
-            if(!(var7 === var6)) { _fun0005_ip = 27; continue _fun0005 }
+            if(!(var7 === var6)) { _fun0005_ip = 26; continue _fun0005 }
  14:
             var3 = {};
             var4 = 200;
             var3['limit'] = var4;
             var7 = var3;
- 27:
+ 26:
             var _closure2_slot0 = var7;
             var3 = global;
             var5 = var3.Array;
             var4 = var5.isArray;
             var4 = var4.bind(var5)(var1);
-            if(var4) { _fun0005_ip = 201; continue _fun0005 }
- 55:
+            if(var4) { _fun0005_ip = 198; continue _fun0005 }
+ 54:
             var5 = var1.type;
             var4 = 'text';
-            if(!(var4 !== var5)) { _fun0005_ip = 262; continue _fun0005 }
- 71:
+            if(!(var4 !== var5)) { _fun0005_ip = 259; continue _fun0005 }
+ 70:
             var5 = var7.limit;
             var4 = 1;
             var4 = var5 - var4;
             var7['limit'] = var4;
             var5 = var7.limit;
             var4 = 0;
-            if(!(!(var5 <= var4))) { _fun0005_ip = 192; continue _fun0005 }
- 102:
+            if(!(!(var5 <= var4))) { _fun0005_ip = 189; continue _fun0005 }
+ 99:
             var5 = var3.Array;
             var4 = var5.isArray;
             var3 = var1.content;
             var3 = var4.bind(var5)(var3);
-            if(!var3) { _fun0005_ip = 150; continue _fun0005 }
- 126:
+            if(!var3) { _fun0005_ip = 147; continue _fun0005 }
+ 123:
             var4 = _closure1_slot4;
             var3 = var1.content;
             var3 = var4.bind(var6)(var3, var7);
             var1['content'] = var3;
- 150:
+ 147:
             var4 = var1.type;
             var3 = 'list';
-            if(!(var3 === var4)) { _fun0005_ip = 262; continue _fun0005 }
- 163:
+            if(!(var3 === var4)) { _fun0005_ip = 259; continue _fun0005 }
+ 160:
             var4 = var1.items;
             var3 = var4.map;
             var2 = function(arg1) {
@@ -266,31 +266,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var2 = var3.bind(var4)(var2);
             var1['items'] = var2;
-            _fun0005_ip = 262; continue _fun0005;
- 192:
+            _fun0005_ip = 259; continue _fun0005;
+ 189:
             var2 = _closure1_slot0;
             return var2;
- 201:
+ 198:
             var5 = var1.length;
             var4 = 0;
             var2 = var4 < var5;
-            if(!var2) { _fun0005_ip = 262; continue _fun0005 }
- 218:
+            if(!var2) { _fun0005_ip = 259; continue _fun0005 }
+ 215:
             var8 = _closure1_slot4;
             var2 = var1[var4];
             var8 = var8.bind(var6)(var2, var7);
             var9 = _closure1_slot0;
             var2 = var4;
-            if(!(var8 !== var9)) { _fun0005_ip = 256; continue _fun0005 }
- 243:
+            if(!(var8 !== var9)) { _fun0005_ip = 253; continue _fun0005 }
+ 240:
             var1[var2] = var8;
             var4 = var2 + 1;
-            if(var4 < var5) { _fun0005_ip = 218; continue _fun0005 }
- 254:
-            _fun0005_ip = 262; continue _fun0005;
- 256:
+            if(var4 < var5) { _fun0005_ip = 215; continue _fun0005 }
+ 251:
+            _fun0005_ip = 259; continue _fun0005;
+ 253:
             var1['length'] = var2;
- 262:
+ 259:
             return var1;
         }
     };

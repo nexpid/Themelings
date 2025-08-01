@@ -1,9 +1,9 @@
 // app/modules/video_calls/native/components/FocusedControlsBottomControls.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var13 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var7;
@@ -1284,10 +1284,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var24 = var26.isThemeLight;
             var26 = var24.bind(var26)(var27);
             var24 = null;
-            if(!var26) { _fun0004_ip = 940; continue _fun0004 }
- 934:
+            if(!var26) { _fun0004_ip = 939; continue _fun0004 }
+ 933:
             var24 = var25.visualEffectViewBackground;
- 940:
+ 939:
             var19[1] = var24;
             var11['style'] = var19;
             var14 = var18.bind(var4)(var14, var11);
@@ -1337,7 +1337,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var5;
     var5 = 1;
     var8 = var7[var5];
-    var5 = native4;
+    var5 = metroImportAll;
     var5 = var5.bind(var1)(var8);
     var _closure1_slot4 = var5;
     var5 = 2;

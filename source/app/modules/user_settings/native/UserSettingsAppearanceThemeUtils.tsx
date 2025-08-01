@@ -1,10 +1,10 @@
 // app/modules/user_settings/native/UserSettingsAppearanceThemeUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var8;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var9;
     var1 = global;
@@ -108,7 +108,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var4.BackgroundGradientPresetId;
             var4 = var5.id;
             var4 = var7[var4];
-            _fun0001_ip = 107; continue _fun0001;
+            _fun0001_ip = 106; continue _fun0001;
  77:
             var9 = var5.theme;
             var7 = global;
@@ -116,7 +116,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var7.concat;
             var7 = 'default ';
             var4 = var8.bind(var7)(var9);
- 107:
+ 106:
             var1['themeName'] = var4;
             var4 = arg2;
             var1['analyticsLocations'] = var4;
@@ -125,8 +125,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var5.theme;
             var1 = _closure1_slot4;
             var1 = var1.MIDNIGHT;
-            if(!(var6 === var1)) { _fun0001_ip = 180; continue _fun0001 }
- 147:
+            if(!(var6 === var1)) { _fun0001_ip = 178; continue _fun0001 }
+ 145:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 4;
@@ -135,14 +135,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var7.setShouldSyncAppearanceSettings;
             var1 = false;
             var1 = var6.bind(var7)(var1);
- 180:
+ 178:
             var6 = var5.theme;
             var1 = 'system';
-            if(!(var1 !== var6)) { _fun0001_ip = 287; continue _fun0001 }
- 194:
+            if(!(var1 !== var6)) { _fun0001_ip = 282; continue _fun0001 }
+ 191:
             var1 = var5.colors;
-            if(!(var3 != var1)) { _fun0001_ip = 287; continue _fun0001 }
- 203:
+            if(!(var3 != var1)) { _fun0001_ip = 282; continue _fun0001 }
+ 200:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 5;
@@ -161,8 +161,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var5.theme;
             var1['theme'] = var7;
             var1 = var3.bind(var6)(var1);
-            _fun0001_ip = 353; continue _fun0001;
- 287:
+            _fun0001_ip = 346; continue _fun0001;
+ 282:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 5;
@@ -178,7 +178,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var5.theme;
             var2['theme'] = var5;
             var1 = var3.bind(var4)(var2);
- 353:
+ 346:
             return var1;
         }
     };

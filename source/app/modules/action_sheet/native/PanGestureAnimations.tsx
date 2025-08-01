@@ -1,8 +1,8 @@
 // app/modules/action_sheet/native/PanGestureAnimations.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var10;
     var1 = global;
@@ -119,10 +119,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var3 = var3.bind(var6)();
                 var8 = var7.length;
-                if(!(var4 !== var8)) { _fun0001_ip = 120; continue _fun0001 }
+                if(!(var4 !== var8)) { _fun0001_ip = 121; continue _fun0001 }
  81:
                 var3 = var3.bind(var6)(var7, var1);
-                if(!(var4 !== var5)) { _fun0001_ip = 114; continue _fun0001 }
+                if(!(var4 !== var5)) { _fun0001_ip = 115; continue _fun0001 }
  91:
                 var5 = var3.find;
                 var2 = function(arg1) {
@@ -145,12 +145,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var2 = var5.bind(var3)(var2);
                 var5 = null;
-                if(!(var5 == var2)) { _fun0001_ip = 118; continue _fun0001 }
- 114:
+                if(!(var5 == var2)) { _fun0001_ip = 119; continue _fun0001 }
+ 115:
                 var2 = var3[var4];
- 118:
+ 119:
                 return var2;
- 120:
+ 121:
                 return var1;
             }
         };

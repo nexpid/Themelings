@@ -1,9 +1,9 @@
 // app/modules/guild_scheduled_events/useGuildScheduledEvents.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var4 = function useGuildUpcomingEvents(arg1) {
@@ -92,7 +92,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot2 = var5;
     var5 = 1;
     var9 = var7[var5];
-    var5 = native4;
+    var5 = metroImportAll;
     var5 = var5.bind(var1)(var9);
     var _closure1_slot3 = var5;
     var5 = 2;
@@ -744,10 +744,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = null;
                 var5 = var1 == var4;
                 var1 = undefined;
-                if(var5) { _fun0010_ip = 82; continue _fun0010 }
- 77:
+                if(var5) { _fun0010_ip = 83; continue _fun0010 }
+ 78:
                 var1 = var4.channel_id;
- 82:
+ 83:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }

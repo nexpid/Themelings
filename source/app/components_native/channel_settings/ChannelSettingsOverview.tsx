@@ -1,9 +1,9 @@
 // app/components_native/channel_settings/ChannelSettingsOverview.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var13 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var13 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var13;
     var _closure1_slot2 = var6;
@@ -81,7 +81,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot8 = var4;
     var4 = 6;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot9 = var4;
     var7 = 7;
@@ -3600,17 +3600,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var11 = var1.canManageChannels;
                 var2 = var1.guild;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0029_ip = 536; continue _fun0029 }
+                if(!(var1 != var2)) { _fun0029_ip = 537; continue _fun0029 }
  49:
                 var2 = var4.showVoiceSettings;
                 var2 = var2.bind(var4)();
-                if(!var2) { _fun0029_ip = 534; continue _fun0029 }
+                if(!var2) { _fun0029_ip = 535; continue _fun0029 }
  65:
-                if(!var11) { _fun0029_ip = 534; continue _fun0029 }
+                if(!var11) { _fun0029_ip = 535; continue _fun0029 }
  71:
                 var2 = var3.isGuildStageVoice;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0029_ip = 534; continue _fun0029 }
+                if(var2) { _fun0029_ip = 535; continue _fun0029 }
  87:
                 var12 = var1 == var5;
                 if(var12) { _fun0029_ip = 105; continue _fun0029 }
@@ -3621,7 +3621,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  105:
                 var3 = var1 != var5;
                 var2 = null;
-                if(!var3) { _fun0029_ip = 131; continue _fun0029 }
+                if(!var3) { _fun0029_ip = 132; continue _fun0029 }
  114:
                 var4 = var5.find;
                 var3 = function(arg1) {
@@ -3633,9 +3633,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var2 = var4.bind(var5)(var3);
- 131:
-                if(!(var1 == var2)) { _fun0029_ip = 197; continue _fun0029 }
- 135:
+ 132:
+                if(!(var1 == var2)) { _fun0029_ip = 198; continue _fun0029 }
+ 136:
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var3 = 35;
@@ -3649,10 +3649,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3.t;
                 var3 = var3.JEmsam;
                 var15 = var4.bind(var5)(var3);
-                _fun0029_ip = 202; continue _fun0029;
- 197:
+                _fun0029_ip = 203; continue _fun0029;
+ 198:
                 var15 = var2.name;
- 202:
+ 203:
                 var2 = new Array(0);
                 var4 = var2.push;
                 var8 = _closure1_slot50;
@@ -3714,10 +3714,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var13 = var8.bind(var7)(var14, var13);
                 var3['trailing'] = var13;
                 var11 = !var11;
-                if(var11) { _fun0029_ip = 489; continue _fun0029 }
- 486:
+                if(var11) { _fun0029_ip = 490; continue _fun0029 }
+ 487:
                 var11 = var12;
- 489:
+ 490:
                 var3['disabled'] = var11;
                 var10 = function onPress() {
                     var3 = _closure3_slot0;
@@ -3734,9 +3734,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var8.bind(var7)(var6, var5, var3);
                 var3 = var4.bind(var2)(var3);
                 return var2;
- 534:
+ 535:
                 return var1;
- 536:
+ 537:
                 return var1;
             }
         };
@@ -5369,16 +5369,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var3.category;
                 var1 = var3.channel;
                 var9 = var3.canManageParent;
-                if(!var2) { _fun0042_ip = 401; continue _fun0042 }
- 42:
+                if(!var2) { _fun0042_ip = 402; continue _fun0042 }
+ 43:
                 var2 = var1.type;
                 var1 = _closure1_slot31;
                 var1 = var1.GUILD_CATEGORY;
-                if(!(var2 !== var1)) { _fun0042_ip = 401; continue _fun0042 }
- 67:
+                if(!(var2 !== var1)) { _fun0042_ip = 402; continue _fun0042 }
+ 68:
                 var1 = null;
-                if(!(var1 != var5)) { _fun0042_ip = 118; continue _fun0042 }
- 73:
+                if(!(var1 != var5)) { _fun0042_ip = 119; continue _fun0042 }
+ 74:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 45;
@@ -5389,8 +5389,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = _closure1_slot25;
                 var1 = _closure1_slot24;
                 var11 = var3.bind(var4)(var5, var2, var1);
-                _fun0042_ip = 175; continue _fun0042;
- 118:
+                _fun0042_ip = 176; continue _fun0042;
+ 119:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
                 var1 = 35;
@@ -5404,7 +5404,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1.t;
                 var1 = var1.GSfOoq;
                 var11 = var2.bind(var3)(var1);
- 175:
+ 176:
                 var4 = _closure1_slot50;
                 var10 = _closure1_slot0;
                 var12 = _closure1_slot2;
@@ -5451,8 +5451,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5['trailing'] = var7;
                 var5['arrow'] = var9;
                 var7 = undefined;
-                if(!var9) { _fun0042_ip = 379; continue _fun0042 }
- 372:
+                if(!var9) { _fun0042_ip = 380; continue _fun0042 }
+ 373:
                 var7 = function() {
                     var3 = _closure3_slot0;
                     var2 = var3.pushScreen;
@@ -5461,13 +5461,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
- 379:
+ 380:
                 var5['onPress'] = var7;
                 var5 = var4.bind(var3)(var6, var5);
                 var1['children'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
- 401:
+ 402:
                 var1 = null;
                 return var1;
             }
@@ -5770,7 +5770,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var1.errors;
                     var1 = _closure2_slot3;
                     var6 = null;
-                    if(!(var6 != var1)) { _fun0046_ip = 617; continue _fun0046 }
+                    if(!(var6 != var1)) { _fun0046_ip = 618; continue _fun0046 }
  45:
                     var8 = _closure1_slot21;
                     var7 = var8.getGuild;
@@ -5811,8 +5811,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var12 = var12.bind(var7)(var10);
                     var10 = var12.isChannelNSFW;
                     var10 = var10.bind(var12)(var13);
-                    if(!var10) { _fun0046_ip = 285; continue _fun0046 }
- 226:
+                    if(!var10) { _fun0046_ip = 286; continue _fun0046 }
+ 227:
                     var15 = _closure1_slot20;
                     var13 = var15.didAgree;
                     var16 = _closure2_slot3;
@@ -5820,19 +5820,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var12 = var12.bind(var16)();
                     var12 = var13.bind(var15)(var12);
                     var12 = !var12;
-                    if(var12) { _fun0046_ip = 282; continue _fun0046 }
- 261:
+                    if(var12) { _fun0046_ip = 283; continue _fun0046 }
+ 262:
                     var13 = var6 == var11;
                     var15 = undefined;
-                    if(var13) { _fun0046_ip = 276; continue _fun0046 }
- 270:
+                    if(var13) { _fun0046_ip = 277; continue _fun0046 }
+ 271:
                     var15 = var11.nsfwAllowed;
- 276:
+ 277:
                     var13 = false;
                     var12 = var13 === var15;
- 282:
+ 283:
                     var10 = var12;
- 285:
+ 286:
                     var1['pinDisabled'] = var10;
                     var15 = _closure1_slot22;
                     var13 = var15.can;
@@ -5842,29 +5842,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = var13.bind(var15)(var12, var10);
                     var1['canManageChannels'] = var10;
                     var10 = var6 != var11;
-                    if(!var10) { _fun0046_ip = 351; continue _fun0046 }
- 332:
+                    if(!var10) { _fun0046_ip = 352; continue _fun0046 }
+ 333:
                     var12 = _closure2_slot3;
                     var12 = var12.ownerId;
                     var11 = var11.id;
                     var10 = var12 === var11;
- 351:
+ 352:
                     var1['isChannelOwner'] = var10;
-                    if(!(var6 == var14)) { _fun0046_ip = 388; continue _fun0046 }
- 360:
+                    if(!(var6 == var14)) { _fun0046_ip = 389; continue _fun0046 }
+ 361:
                     var12 = _closure1_slot22;
                     var11 = var12.can;
                     var10 = _closure1_slot39;
                     var10 = var10.MANAGE_CHANNELS;
                     var10 = var11.bind(var12)(var10, var8);
-                    _fun0046_ip = 414; continue _fun0046;
- 388:
+                    _fun0046_ip = 415; continue _fun0046;
+ 389:
                     var13 = _closure1_slot22;
                     var12 = var13.can;
                     var11 = _closure1_slot39;
                     var11 = var11.MANAGE_CHANNELS;
                     var10 = var12.bind(var13)(var11, var14);
- 414:
+ 415:
                     var1['canManageParent'] = var10;
                     var13 = _closure1_slot22;
                     var14 = var13.can;
@@ -5880,15 +5880,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var11 = _closure1_slot13;
                     var10 = var10.type;
                     var10 = var11.bind(var7)(var10);
-                    if(!var10) { _fun0046_ip = 524; continue _fun0046 }
- 494:
+                    if(!var10) { _fun0046_ip = 525; continue _fun0046 }
+ 495:
                     var14 = _closure1_slot22;
                     var13 = var14.can;
                     var11 = _closure1_slot39;
                     var12 = var11.MANAGE_WEBHOOKS;
                     var11 = _closure2_slot3;
                     var10 = var13.bind(var14)(var12, var11);
- 524:
+ 525:
                     var1['canManageWebhooks'] = var10;
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
@@ -5904,15 +5904,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1['errors'] = var2;
                     var4 = _closure1_slot16;
                     var4 = var4.bind(var7)(var8);
-                    if(var4) { _fun0046_ip = 610; continue _fun0046 }
- 596:
+                    if(var4) { _fun0046_ip = 611; continue _fun0046 }
+ 597:
                     var5 = _closure2_slot3;
                     var5 = var5.linkedLobby;
                     var4 = var6 != var5;
- 610:
+ 611:
                     var1['isNSFWDisabled'] = var4;
                     return var1;
- 617:
+ 618:
                     var1 = {};
                     var4 = false;
                     var1['isThread'] = var4;

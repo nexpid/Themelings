@@ -1,9 +1,9 @@
 // app/actions/AuditLogActionCreators.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
@@ -48,22 +48,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = {};
             var8 = _closure1_slot5;
             var4['limit'] = var8;
-            if(!(var2 != var7)) { _fun0002_ip = 104; continue _fun0002 }
- 98:
+            if(!(var2 != var7)) { _fun0002_ip = 103; continue _fun0002 }
+ 97:
             var4['before'] = var7;
- 104:
-            if(!(var2 != var6)) { _fun0002_ip = 114; continue _fun0002 }
- 108:
+ 103:
+            if(!(var2 != var6)) { _fun0002_ip = 113; continue _fun0002 }
+ 107:
             var4['user_id'] = var6;
- 114:
-            if(!(var2 != var3)) { _fun0002_ip = 124; continue _fun0002 }
- 118:
+ 113:
+            if(!(var2 != var3)) { _fun0002_ip = 123; continue _fun0002 }
+ 117:
             var4['action_type'] = var3;
- 124:
-            if(!(var2 != var1)) { _fun0002_ip = 134; continue _fun0002 }
- 128:
+ 123:
+            if(!(var2 != var1)) { _fun0002_ip = 133; continue _fun0002 }
+ 127:
             var4['target_id'] = var1;
- 134:
+ 133:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 2;

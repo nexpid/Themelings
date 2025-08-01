@@ -1,9 +1,9 @@
 // app/design/components/Backdrop/native/Backdrop.native.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -44,7 +44,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -192,8 +192,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['animatedProps'] = var5;
             var5 = null;
             var6 = var5 != var18;
-            if(!var6) { _fun0002_ip = 411; continue _fun0002 }
- 342:
+            if(!var6) { _fun0002_ip = 410; continue _fun0002 }
+ 341:
             var8 = _closure1_slot5;
             var7 = _closure1_slot4;
             var5 = {};
@@ -211,14 +211,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5['accessibilityLabel'] = var12;
             var5['aria-hidden'] = var11;
             var6 = var8.bind(var4)(var7, var5);
- 411:
+ 410:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot5;
             var7 = _closure1_slot4;
             var6 = 'none';
-            if(!(var6 === var17)) { _fun0002_ip = 493; continue _fun0002 }
- 435:
+            if(!(var6 === var17)) { _fun0002_ip = 492; continue _fun0002 }
+ 434:
             var6 = {};
             var24 = var6;
             var23 = var10;
@@ -226,18 +226,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var13.fill;
             var11 = new Array(2);
             var11[0] = var12;
-            if(var9) { _fun0002_ip = 472; continue _fun0002 }
- 464:
+            if(var9) { _fun0002_ip = 471; continue _fun0002 }
+ 463:
             var9 = var13.backdrop;
-            _fun0002_ip = 478; continue _fun0002;
- 472:
+            _fun0002_ip = 477; continue _fun0002;
+ 471:
             var9 = var13.backdropOpaque;
- 478:
+ 477:
             var11[1] = var9;
             var9 = 'style';
             var6[var9] = var11;
-            _fun0002_ip = 614; continue _fun0002;
- 493:
+            _fun0002_ip = 613; continue _fun0002;
+ 492:
             var9 = {};
             var24 = var9;
             var23 = var10;
@@ -266,7 +266,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = 'children';
             var9[var10] = var11;
             var6 = var9;
- 614:
+ 613:
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;

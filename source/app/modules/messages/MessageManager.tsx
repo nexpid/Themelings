@@ -1,9 +1,9 @@
 // app/modules/messages/MessageManager.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -59,12 +59,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var1.skipLocalFetch;
             var4 = var1.avoidInitialScroll;
             var10 = null;
-            if(!(var10 != var9)) { _fun0002_ip = 1492; continue _fun0002 }
+            if(!(var10 != var9)) { _fun0002_ip = 1489; continue _fun0002 }
  57:
             var1 = _closure1_slot22;
             var3 = undefined;
             var1 = var1.bind(var3)(var9);
-            if(var1) { _fun0002_ip = 1492; continue _fun0002 }
+            if(var1) { _fun0002_ip = 1489; continue _fun0002 }
  77:
             var2 = _closure1_slot11;
             var1 = var2.getChannel;
@@ -77,7 +77,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  105:
             var2 = _closure1_slot18;
             var2 = var2.GUILD_STORE;
-            if(!(var8 !== var2)) { _fun0002_ip = 1492; continue _fun0002 }
+            if(!(var8 !== var2)) { _fun0002_ip = 1489; continue _fun0002 }
  122:
             var8 = var10 == var1;
             var2 = undefined;
@@ -92,7 +92,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var12.has;
             var2 = var1.type;
             var2 = var8.bind(var12)(var2);
-            if(var2) { _fun0002_ip = 1492; continue _fun0002 }
+            if(var2) { _fun0002_ip = 1489; continue _fun0002 }
  171:
             var8 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -229,7 +229,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  642:
             var8 = true;
  644:
-            if(!var8) { _fun0002_ip = 1492; continue _fun0002 }
+            if(!var8) { _fun0002_ip = 1489; continue _fun0002 }
  650:
             var11 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -259,7 +259,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8['jumpType'] = var14;
             var8['avoidInitialScroll'] = var4;
             var8 = var11.bind(var13)(var8);
-            _fun0002_ip = 1492; continue _fun0002;
+            _fun0002_ip = 1489; continue _fun0002;
  773:
             if(!(var10 != var1)) { _fun0002_ip = 1045; continue _fun0002 }
  780:
@@ -336,22 +336,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var15.bind(var16)(var14, var13);
             var11 = true;
  1039:
-            if(var11) { _fun0002_ip = 1369; continue _fun0002 }
+            if(var11) { _fun0002_ip = 1367; continue _fun0002 }
  1045:
-            if(!(var10 != var1)) { _fun0002_ip = 1266; continue _fun0002 }
+            if(!(var10 != var1)) { _fun0002_ip = 1265; continue _fun0002 }
  1052:
             var10 = var1.isThread;
             var10 = var10.bind(var1)();
-            if(!var10) { _fun0002_ip = 1266; continue _fun0002 }
+            if(!var10) { _fun0002_ip = 1265; continue _fun0002 }
  1068:
             var12 = _closure1_slot13;
             var11 = var12.hasTrackedUnread;
             var10 = var1.id;
             var10 = var11.bind(var12)(var10);
-            if(!var10) { _fun0002_ip = 1266; continue _fun0002 }
+            if(!var10) { _fun0002_ip = 1265; continue _fun0002 }
  1094:
             var2 = var2.ready;
-            if(var2) { _fun0002_ip = 1266; continue _fun0002 }
+            if(var2) { _fun0002_ip = 1265; continue _fun0002 }
  1106:
             var11 = _closure1_slot13;
             var10 = var11.getTrackedAckMessageId;
@@ -385,7 +385,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['avoidInitialScroll'] = var4;
             var2 = var10.bind(var11)(var2);
             return var2;
- 1266:
+ 1265:
             var10 = _closure1_slot1;
             var15 = _closure1_slot2;
             var2 = 20;
@@ -410,7 +410,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['avoidInitialScroll'] = var4;
             var2 = var10.bind(var11)(var2);
             return var2;
- 1369:
+ 1367:
             var10 = _closure1_slot24;
             var2 = var10.log;
             var12 = var1.id;
@@ -439,7 +439,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['avoidInitialScroll'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
- 1492:
+ 1489:
             var1 = undefined;
             return var1;
         }
@@ -874,7 +874,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  32:
             var3 = false;
  34:
-            if(var3) { _fun0011_ip = 272; continue _fun0011 }
+            if(var3) { _fun0011_ip = 271; continue _fun0011 }
  40:
             var3 = _closure1_slot28;
             var3 = var3[var7];
@@ -899,7 +899,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var4.SECOND;
             var4 = 10;
             var4 = var4 * var9;
-            if(!(!(var8 < var4))) { _fun0011_ip = 272; continue _fun0011 }
+            if(!(!(var8 < var4))) { _fun0011_ip = 271; continue _fun0011 }
  132:
             var4 = _closure1_slot28;
             var8 = var3.Date;
@@ -927,7 +927,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  215:
             var2 = var3;
  218:
-            if(!var2) { _fun0011_ip = 272; continue _fun0011 }
+            if(!var2) { _fun0011_ip = 271; continue _fun0011 }
  221:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -941,7 +941,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['limit'] = var6;
             var2['jump'] = var5;
             var2 = var3.bind(var4)(var2);
- 272:
+ 271:
             return var1;
         }
     };

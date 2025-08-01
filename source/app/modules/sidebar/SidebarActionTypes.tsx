@@ -1,6 +1,6 @@
 // app/modules/sidebar/SidebarActionTypes.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var1 = global;
     var5 = var1.Object;
     var4 = var5.defineProperty;
@@ -26,8 +26,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5['VIEW_MESSAGE_REQUEST'] = var2;
     var1 = 'VIEW_MESSAGE_REQUEST';
     var5[var2] = var1;
-    var4 = {};
     var2 = 4;
+    var5['VIEW_MOD_REPORT'] = var2;
+    var1 = 'VIEW_MOD_REPORT';
+    var5[var2] = var1;
+    var4 = {};
     var4['GUILD_MEMBER_MOD_VIEW'] = var2;
     var1 = 'GUILD_MEMBER_MOD_VIEW';
     var4[var2] = var1;
@@ -40,9 +43,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['HOME'] = var1;
     var1 = 'guild-member-mod-view';
     var2['GUILD_MEMBER_MOD_VIEW'] = var1;
-    var1 = native7;
+    var1 = dependencyMap;
     var7 = var1[var6];
-    var6 = native2;
+    var6 = require;
     var1 = undefined;
     var8 = var6.bind(var1)(var7);
     var7 = var8.fileFinishedImporting;

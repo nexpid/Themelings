@@ -1,9 +1,9 @@
 // app/modules/guild_antiraid/native/GuildIncidentActionsActionSheet.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var2);
     var1 = 0;
     var7 = var6[var1];
-    var2 = native4;
+    var2 = metroImportAll;
     var1 = undefined;
     var2 = var2.bind(var1)(var7);
     var _closure1_slot3 = var2;
@@ -283,10 +283,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var3.bind(var4)(var2);
                     var3 = null;
                     var3 = var3 == var2;
-                    if(var3) { _fun0002_ip = 46; continue _fun0002 }
- 41:
+                    if(var3) { _fun0002_ip = 47; continue _fun0002 }
+ 42:
                     var1 = var2.label;
- 46:
+ 47:
                     return var1;
                 }
             };

@@ -1,8 +1,8 @@
 // app/modules/application_commands/ApplicationCommandChoiceUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var3 = exports;
+    var8 = dependencyMap;
     var5 = function findChoiceStringValue(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -13,7 +13,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var4 == var6;
             var2 = undefined;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 54; continue _fun0001 }
+            if(var5) { _fun0001_ip = 55; continue _fun0001 }
  25:
             var5 = var6.find;
             var3 = function(arg1) {
@@ -26,16 +26,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var5.bind(var6)(var3);
             var4 = var4 == var3;
             var1 = undefined;
-            if(var4) { _fun0001_ip = 54; continue _fun0001 }
- 49:
+            if(var4) { _fun0001_ip = 55; continue _fun0001 }
+ 50:
             var1 = var3.value;
- 54:
+ 55:
             var4 = 'string';
             var3 = typeof var1;
-            if(!(var4 !== var3)) { _fun0001_ip = 67; continue _fun0001 }
- 65:
+            if(!(var4 !== var3)) { _fun0001_ip = 68; continue _fun0001 }
+ 66:
             return var2;
- 67:
+ 68:
             return var1;
         }
     };
@@ -50,7 +50,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var4 == var6;
             var2 = undefined;
             var1 = undefined;
-            if(var5) { _fun0002_ip = 54; continue _fun0002 }
+            if(var5) { _fun0002_ip = 55; continue _fun0002 }
  25:
             var5 = var6.find;
             var3 = function(arg1) {
@@ -63,16 +63,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var5.bind(var6)(var3);
             var4 = var4 == var3;
             var1 = undefined;
-            if(var4) { _fun0002_ip = 54; continue _fun0002 }
- 49:
+            if(var4) { _fun0002_ip = 55; continue _fun0002 }
+ 50:
             var1 = var3.value;
- 54:
+ 55:
             var4 = 'number';
             var3 = typeof var1;
-            if(!(var4 !== var3)) { _fun0002_ip = 67; continue _fun0002 }
- 65:
+            if(!(var4 !== var3)) { _fun0002_ip = 68; continue _fun0002 }
+ 66:
             return var2;
- 67:
+ 68:
             return var1;
         }
     };
@@ -87,7 +87,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var9.bind(var10)(var3, var1, var6);
     var1 = 0;
     var9 = var8[var1];
-    var6 = native3;
+    var6 = metroImportDefault;
     var1 = undefined;
     var6 = var6.bind(var1)(var9);
     var _closure1_slot0 = var6;

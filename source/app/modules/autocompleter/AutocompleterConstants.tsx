@@ -1,8 +1,8 @@
 // app/modules/autocompleter/AutocompleterConstants.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var1 = global;
     var7 = var1.Object;
     var4 = var7.defineProperty;
@@ -73,7 +73,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['APPLICATION'] = var7;
     var7 = 2;
     var8 = var8[var7];
-    var7 = native2;
+    var7 = require;
     var9 = var7.bind(var1)(var8);
     var8 = var9.fileFinishedImporting;
     var7 = 'modules/autocompleter/AutocompleterConstants.tsx';

@@ -1,8 +1,8 @@
 // app/modules/voice_panel/native/VoicePanelStateContext.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var10 = global;
     var7 = var10.Object;
     var4 = var7.defineProperty;
@@ -13,7 +13,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var4.bind(var7)(var3, var1, var2);
     var15 = 0;
     var4 = var6[var15];
-    var2 = native4;
+    var2 = metroImportAll;
     var1 = undefined;
     var7 = var2.bind(var1)(var4);
     var2 = 1;
@@ -116,7 +116,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['isFocusedVideoZoomed'] = var16;
     var16 = 5;
     var17 = var6[var16];
-    var16 = native3;
+    var16 = metroImportDefault;
     var18 = var16.bind(var1)(var17);
     var16 = var18.prototype;
     var17 = Object.create(var16, {constructor: {value: var18}});

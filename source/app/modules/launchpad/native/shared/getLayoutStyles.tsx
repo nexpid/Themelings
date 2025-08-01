@@ -1,8 +1,8 @@
 // app/modules/launchpad/native/shared/getLayoutStyles.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -23,7 +23,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4['layout'] = var1;
     var7 = {};
     var10 = var6[var17];
-    var9 = native3;
+    var9 = metroImportDefault;
     var1 = undefined;
     var9 = var9.bind(var1)(var10);
     var9 = var9.radii;

@@ -1,9 +1,9 @@
 // app/modules/application_commands/native/ApplicationCommandUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -194,19 +194,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = null;
                     var3 = var4 == var3;
                     var6 = undefined;
-                    if(var3) { _fun0003_ip = 129; continue _fun0003 }
+                    if(var3) { _fun0003_ip = 130; continue _fun0003 }
  74:
                     var3 = _closure2_slot0;
                     var3 = var3.props;
                     var3 = var3.activeCommand;
                     var5 = var4 == var3;
                     var6 = undefined;
-                    if(var5) { _fun0003_ip = 129; continue _fun0003 }
+                    if(var5) { _fun0003_ip = 130; continue _fun0003 }
  98:
                     var7 = var3.options;
                     var3 = var4 == var7;
                     var6 = undefined;
-                    if(var3) { _fun0003_ip = 129; continue _fun0003 }
+                    if(var3) { _fun0003_ip = 130; continue _fun0003 }
  112:
                     var5 = var7.find;
                     var3 = function(arg1) {
@@ -217,12 +217,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var6 = var5.bind(var7)(var3);
- 129:
-                    if(!(var4 != var6)) { _fun0003_ip = 179; continue _fun0003 }
- 133:
+ 130:
+                    if(!(var4 != var6)) { _fun0003_ip = 180; continue _fun0003 }
+ 134:
                     var3 = _closure2_slot0;
-                    if(!(var4 != var3)) { _fun0003_ip = 179; continue _fun0003 }
- 141:
+                    if(!(var4 != var3)) { _fun0003_ip = 180; continue _fun0003 }
+ 142:
                     var5 = _closure2_slot0;
                     var4 = var5.insertOrJumpCommandOption;
                     var3 = {};
@@ -234,7 +234,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var10 = undefined;
                     var8 = var3;
                     var2 = var12[var4](var11, var10, var9, var8, var7);
- 179:
+ 180:
                     return var1;
                 }
             };

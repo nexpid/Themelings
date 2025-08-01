@@ -1,9 +1,9 @@
 // app/modules/stickers/StickersStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -533,7 +533,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot1 = var1;
             var7 = _closure1_slot17;
             var4 = null;
-            if(!(var4 != var7)) { _fun0008_ip = 664; continue _fun0008 }
+            if(!(var4 != var7)) { _fun0008_ip = 665; continue _fun0008 }
  40:
             var8 = var2.tags;
             var9 = {};
@@ -564,9 +564,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var11 = var11.bind(var1)(var7);
             var7 = var11.isGuildSticker;
             var7 = var7.bind(var11)(var2);
-            if(!var7) { _fun0008_ip = 664; continue _fun0008 }
+            if(!var7) { _fun0008_ip = 665; continue _fun0008 }
  176:
-            if(!(var4 != var8)) { _fun0008_ip = 664; continue _fun0008 }
+            if(!(var4 != var8)) { _fun0008_ip = 665; continue _fun0008 }
  183:
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -657,7 +657,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var11.set;
             var5 = var2.id;
             var5 = var7.bind(var11)(var5, var12);
-            _fun0008_ip = 664; continue _fun0008;
+            _fun0008_ip = 665; continue _fun0008;
  482:
             var11 = _closure1_slot17;
             var7 = var11.set;
@@ -681,10 +681,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5[0] = var9;
             var9 = var4 != var8;
             var11 = '';
-            if(!var9) { _fun0008_ip = 547; continue _fun0008 }
- 544:
+            if(!var9) { _fun0008_ip = 548; continue _fun0008 }
+ 545:
             var11 = var8;
- 547:
+ 548:
             var9 = var11.split;
             var8 = ',';
             var9 = var9.bind(var11)(var8);
@@ -712,8 +712,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var16 = 1;
             var18 = var5;
             var6 = arraySpread(var18, var17, var16);
-            if(!(var4 != var7)) { _fun0008_ip = 644; continue _fun0008 }
- 590:
+            if(!(var4 != var7)) { _fun0008_ip = 645; continue _fun0008 }
+ 591:
             var6 = var5.push;
             var4 = {};
             var9 = _closure1_slot0;
@@ -726,12 +726,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = var7.name;
             var4['value'] = var7;
             var4 = var6.bind(var5)(var4);
- 644:
+ 645:
             var4 = _closure1_slot17;
             var3 = var4.set;
             var2 = var2.id;
             var2 = var3.bind(var4)(var2, var5);
- 664:
+ 665:
             return var1;
         }
     };

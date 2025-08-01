@@ -1,9 +1,9 @@
 // app/components_native/chat/MessagesFunctional.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
@@ -202,7 +202,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var4;
     var4 = 2;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot5 = var7;
     var4 = 3;
@@ -5042,31 +5042,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var33[129] = var66;
             var67 = var5 == var41;
             var66 = undefined;
-            if(var67) { _fun0004_ip = 7059; continue _fun0004 }
+            if(var67) { _fun0004_ip = 7058; continue _fun0004 }
  7053:
             var66 = var41.theme;
- 7059:
+ 7058:
             var33[130] = var66;
             var67 = var5 == var41;
             var66 = undefined;
-            if(var67) { _fun0004_ip = 7078; continue _fun0004 }
- 7072:
+            if(var67) { _fun0004_ip = 7077; continue _fun0004 }
+ 7071:
             var66 = var41.threadStartingReferenceMessage;
- 7078:
+ 7077:
             var33[131] = var66;
             var67 = var5 == var41;
             var66 = undefined;
-            if(var67) { _fun0004_ip = 7097; continue _fun0004 }
- 7091:
+            if(var67) { _fun0004_ip = 7096; continue _fun0004 }
+ 7090:
             var66 = var41.unloadedContentEntryMessageIds;
- 7097:
+ 7096:
             var33[132] = var66;
             var67 = var5 == var41;
             var66 = undefined;
-            if(var67) { _fun0004_ip = 7116; continue _fun0004 }
- 7110:
+            if(var67) { _fun0004_ip = 7115; continue _fun0004 }
+ 7109:
             var66 = var41.guildInviteColorsFetched;
- 7116:
+ 7115:
             var33[133] = var66;
             var33[134] = var65;
             var33[135] = var64;
@@ -5075,10 +5075,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var33[137] = var63;
             var64 = var5 == var41;
             var63 = undefined;
-            if(var64) { _fun0004_ip = 7157; continue _fun0004 }
- 7151:
+            if(var64) { _fun0004_ip = 7156; continue _fun0004 }
+ 7150:
             var63 = var41.uploads;
- 7157:
+ 7156:
             var33[138] = var63;
             var33[139] = var62;
             var33[140] = var61;
@@ -5095,10 +5095,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var33[151] = var36;
             var53 = var5 == var41;
             var52 = undefined;
-            if(var53) { _fun0004_ip = 7228; continue _fun0004 }
- 7222:
+            if(var53) { _fun0004_ip = 7227; continue _fun0004 }
+ 7221:
             var52 = var41.shouldForceRender;
- 7228:
+ 7227:
             var33[152] = var52;
             var33[153] = var51;
             var33[154] = var50;
@@ -5113,18 +5113,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var33[163] = var43;
             var44 = var5 == var41;
             var43 = undefined;
-            if(var44) { _fun0004_ip = 7291; continue _fun0004 }
- 7285:
+            if(var44) { _fun0004_ip = 7290; continue _fun0004 }
+ 7284:
             var43 = var41.guildEmojis;
- 7291:
+ 7290:
             var33[164] = var43;
             var33[165] = var42;
             var42 = var5 == var41;
             var5 = undefined;
-            if(var42) { _fun0004_ip = 7314; continue _fun0004 }
- 7308:
+            if(var42) { _fun0004_ip = 7313; continue _fun0004 }
+ 7307:
             var5 = var41.enableSwipeActions;
- 7314:
+ 7313:
             var33[166] = var5;
             var5 = function() {
                 _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
@@ -5385,37 +5385,37 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = _closure2_slot88;
                     var14 = var5 !== var2;
  677:
-                    if(var14) { _fun0032_ip = 711; continue _fun0032 }
+                    if(var14) { _fun0032_ip = 710; continue _fun0032 }
  680:
                     var2 = _closure2_slot125;
                     var2 = var8 == var2;
                     var5 = undefined;
-                    if(var2) { _fun0032_ip = 703; continue _fun0032 }
+                    if(var2) { _fun0032_ip = 702; continue _fun0032 }
  693:
                     var2 = _closure2_slot125;
                     var5 = var2.theme;
- 703:
+ 702:
                     var2 = _closure2_slot19;
                     var14 = var5 !== var2;
- 711:
-                    if(var14) { _fun0032_ip = 755; continue _fun0032 }
- 714:
+ 710:
+                    if(var14) { _fun0032_ip = 754; continue _fun0032 }
+ 713:
                     var2 = _closure2_slot125;
                     var2 = var8 == var2;
                     var5 = undefined;
-                    if(var2) { _fun0032_ip = 737; continue _fun0032 }
- 727:
+                    if(var2) { _fun0032_ip = 736; continue _fun0032 }
+ 726:
                     var2 = _closure2_slot125;
                     var5 = var2.shouldForceRender;
- 737:
+ 736:
                     var2 = _closure2_slot105;
                     var2 = var5 !== var2;
-                    if(!var2) { _fun0032_ip = 752; continue _fun0032 }
- 748:
+                    if(!var2) { _fun0032_ip = 751; continue _fun0032 }
+ 747:
                     var2 = _closure2_slot105;
- 752:
+ 751:
                     var14 = var2;
- 755:
+ 754:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var5 = 67;
@@ -5439,26 +5439,26 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6['hasPreviousMessages'] = var5;
                     var5 = {};
                     var10 = _closure2_slot128;
-                    if(!(var8 == var10)) { _fun0032_ip = 863; continue _fun0032 }
- 857:
+                    if(!(var8 == var10)) { _fun0032_ip = 862; continue _fun0032 }
+ 856:
                     var10 = _closure2_slot6;
-                    _fun0032_ip = 867; continue _fun0032;
- 863:
+                    _fun0032_ip = 866; continue _fun0032;
+ 862:
                     var10 = _closure2_slot128;
- 867:
+ 866:
                     var5['messages'] = var10;
                     var10 = _closure2_slot125;
                     var11 = var8 == var10;
                     var10 = undefined;
-                    if(var11) { _fun0032_ip = 895; continue _fun0032 }
- 885:
+                    if(var11) { _fun0032_ip = 894; continue _fun0032 }
+ 884:
                     var11 = _closure2_slot125;
                     var10 = var11.androidKeyboardHeight;
- 895:
-                    if(!(var8 == var10)) { _fun0032_ip = 903; continue _fun0032 }
- 899:
+ 894:
+                    if(!(var8 == var10)) { _fun0032_ip = 902; continue _fun0032 }
+ 898:
                     var10 = _closure2_slot80;
- 903:
+ 902:
                     var5['androidKeyboardHeight'] = var10;
                     var5 = var9.bind(var4)(var7, var6, var5);
                     var12 = var5.scrollToMessageId;
@@ -5470,48 +5470,48 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 974; continue _fun0032 }
- 964:
+                    if(var5) { _fun0032_ip = 973; continue _fun0032 }
+ 963:
                     var5 = _closure2_slot125;
                     var13 = var5.resolvingGiftCodes;
- 974:
+ 973:
                     var5 = _closure2_slot51;
                     var33 = var13 !== var5;
-                    if(var33) { _fun0032_ip = 1016; continue _fun0032 }
- 985:
+                    if(var33) { _fun0032_ip = 1015; continue _fun0032 }
+ 984:
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1008; continue _fun0032 }
- 998:
+                    if(var5) { _fun0032_ip = 1007; continue _fun0032 }
+ 997:
                     var5 = _closure2_slot125;
                     var13 = var5.resolvedGiftCodes;
- 1008:
+ 1007:
                     var5 = _closure2_slot52;
                     var33 = var13 !== var5;
- 1016:
-                    if(var33) { _fun0032_ip = 1050; continue _fun0032 }
- 1019:
+ 1015:
+                    if(var33) { _fun0032_ip = 1049; continue _fun0032 }
+ 1018:
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1042; continue _fun0032 }
- 1032:
+                    if(var5) { _fun0032_ip = 1041; continue _fun0032 }
+ 1031:
                     var5 = _closure2_slot125;
                     var13 = var5.acceptingGiftCodes;
- 1042:
+ 1041:
                     var5 = _closure2_slot53;
                     var33 = var13 !== var5;
- 1050:
+ 1049:
                     var _closure3_slot0 = var33;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var32 = undefined;
-                    if(var5) { _fun0032_ip = 1077; continue _fun0032 }
- 1067:
+                    if(var5) { _fun0032_ip = 1076; continue _fun0032 }
+ 1066:
                     var5 = _closure2_slot125;
                     var32 = var5.uploads;
- 1077:
+ 1076:
                     var31 = _closure2_slot55;
                     var13 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -5521,11 +5521,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1124; continue _fun0032 }
- 1114:
+                    if(var5) { _fun0032_ip = 1123; continue _fun0032 }
+ 1113:
                     var5 = _closure2_slot125;
                     var13 = var5.interactionStates;
- 1124:
+ 1123:
                     var5 = _closure2_slot60;
                     var5 = var16.bind(var4)(var13, var5);
                     var24 = !var5;
@@ -5533,194 +5533,194 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1164; continue _fun0032 }
- 1154:
+                    if(var5) { _fun0032_ip = 1163; continue _fun0032 }
+ 1153:
                     var5 = _closure2_slot125;
                     var13 = var5.channelPolls;
- 1164:
+ 1163:
                     var5 = _closure2_slot90;
                     var21 = var13 !== var5;
                     var _closure3_slot2 = var21;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1199; continue _fun0032 }
- 1189:
+                    if(var5) { _fun0032_ip = 1198; continue _fun0032 }
+ 1188:
                     var5 = _closure2_slot125;
                     var13 = var5.interactionComponentStatesVersion;
- 1199:
+ 1198:
                     var5 = _closure2_slot62;
                     var23 = var13 !== var5;
                     var _closure3_slot3 = var23;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1234; continue _fun0032 }
- 1224:
+                    if(var5) { _fun0032_ip = 1233; continue _fun0032 }
+ 1223:
                     var5 = _closure2_slot125;
                     var13 = var5.shouldDisableInteractiveComponents;
- 1234:
+ 1233:
                     var5 = _closure2_slot89;
                     var5 = var13 !== var5;
                     var _closure3_slot4 = var5;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1269; continue _fun0032 }
- 1259:
+                    if(var5) { _fun0032_ip = 1268; continue _fun0032 }
+ 1258:
                     var5 = _closure2_slot125;
                     var13 = var5.communicationDisabledVersion;
- 1269:
+ 1268:
                     var5 = _closure2_slot71;
                     var29 = var13 !== var5;
                     var _closure3_slot5 = var29;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1304; continue _fun0032 }
- 1294:
+                    if(var5) { _fun0032_ip = 1303; continue _fun0032 }
+ 1293:
                     var5 = _closure2_slot125;
                     var13 = var5.failedMessagesVersion;
- 1304:
+ 1303:
                     var5 = _closure2_slot70;
                     var28 = var13 !== var5;
                     var _closure3_slot6 = var28;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1339; continue _fun0032 }
- 1329:
+                    if(var5) { _fun0032_ip = 1338; continue _fun0032 }
+ 1328:
                     var5 = _closure2_slot125;
                     var13 = var5.renderCommunicationDisabled;
- 1339:
+ 1338:
                     var5 = _closure2_slot72;
                     var25 = var13 !== var5;
                     var _closure3_slot7 = var25;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var27 = undefined;
-                    if(var5) { _fun0032_ip = 1374; continue _fun0032 }
- 1364:
+                    if(var5) { _fun0032_ip = 1373; continue _fun0032 }
+ 1363:
                     var5 = _closure2_slot125;
                     var27 = var5.forwardGuildsVersion;
- 1374:
+ 1373:
                     var26 = _closure2_slot97;
                     var13 = _closure2_slot1;
                     var5 = var13.isForumPost;
                     var22 = var5.bind(var13)();
-                    if(!var22) { _fun0032_ip = 1426; continue _fun0032 }
- 1395:
+                    if(!var22) { _fun0032_ip = 1425; continue _fun0032 }
+ 1394:
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1418; continue _fun0032 }
- 1408:
+                    if(var5) { _fun0032_ip = 1417; continue _fun0032 }
+ 1407:
                     var5 = _closure2_slot125;
                     var13 = var5.isFollowingForumPost;
- 1418:
+ 1417:
                     var5 = _closure2_slot76;
                     var22 = var13 !== var5;
- 1426:
+ 1425:
                     var _closure3_slot8 = var22;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1453; continue _fun0032 }
- 1443:
+                    if(var5) { _fun0032_ip = 1452; continue _fun0032 }
+ 1442:
                     var5 = _closure2_slot125;
                     var13 = var5.showMediaPostSharePrompt;
- 1453:
+ 1452:
                     var5 = _closure2_slot77;
                     var20 = var13 !== var5;
                     var _closure3_slot9 = var20;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1488; continue _fun0032 }
- 1478:
+                    if(var5) { _fun0032_ip = 1487; continue _fun0032 }
+ 1477:
                     var5 = _closure2_slot125;
                     var13 = var5.unloadedContentEntryMessageIds;
- 1488:
+ 1487:
                     var5 = _closure2_slot93;
                     var19 = var13 !== var5;
                     var _closure3_slot10 = var19;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1523; continue _fun0032 }
- 1513:
+                    if(var5) { _fun0032_ip = 1522; continue _fun0032 }
+ 1512:
                     var5 = _closure2_slot125;
                     var13 = var5.invalidApplicationIds;
- 1523:
+ 1522:
                     var5 = _closure2_slot27;
                     var5 = var13 !== var5;
                     var _closure3_slot11 = var5;
                     var13 = _closure2_slot125;
                     var13 = var8 == var13;
                     var16 = undefined;
-                    if(var13) { _fun0032_ip = 1558; continue _fun0032 }
- 1548:
+                    if(var13) { _fun0032_ip = 1557; continue _fun0032 }
+ 1547:
                     var13 = _closure2_slot125;
                     var16 = var13.activityInstanceIds;
- 1558:
+ 1557:
                     var13 = _closure2_slot29;
                     var30 = var16 !== var13;
-                    if(var30) { _fun0032_ip = 1600; continue _fun0032 }
- 1569:
+                    if(var30) { _fun0032_ip = 1599; continue _fun0032 }
+ 1568:
                     var13 = _closure2_slot125;
                     var13 = var8 == var13;
                     var16 = undefined;
-                    if(var13) { _fun0032_ip = 1592; continue _fun0032 }
- 1582:
+                    if(var13) { _fun0032_ip = 1591; continue _fun0032 }
+ 1581:
                     var13 = _closure2_slot125;
                     var16 = var13.activityParticipants;
- 1592:
+ 1591:
                     var13 = _closure2_slot31;
                     var30 = var16 !== var13;
- 1600:
-                    if(var30) { _fun0032_ip = 1634; continue _fun0032 }
- 1603:
+ 1599:
+                    if(var30) { _fun0032_ip = 1633; continue _fun0032 }
+ 1602:
                     var13 = _closure2_slot125;
                     var13 = var8 == var13;
                     var16 = undefined;
-                    if(var13) { _fun0032_ip = 1626; continue _fun0032 }
- 1616:
+                    if(var13) { _fun0032_ip = 1625; continue _fun0032 }
+ 1615:
                     var13 = _closure2_slot125;
                     var16 = var13.applicationAssetFetchingIds;
- 1626:
+ 1625:
                     var13 = _closure2_slot28;
                     var30 = var16 !== var13;
- 1634:
-                    if(var30) { _fun0032_ip = 1668; continue _fun0032 }
- 1637:
+ 1633:
+                    if(var30) { _fun0032_ip = 1667; continue _fun0032 }
+ 1636:
                     var13 = _closure2_slot125;
                     var13 = var8 == var13;
                     var16 = undefined;
-                    if(var13) { _fun0032_ip = 1660; continue _fun0032 }
- 1650:
+                    if(var13) { _fun0032_ip = 1659; continue _fun0032 }
+ 1649:
                     var13 = _closure2_slot125;
                     var16 = var13.activityInstancePresenceDetails;
- 1660:
+ 1659:
                     var13 = _closure2_slot30;
                     var30 = var16 !== var13;
- 1668:
-                    if(var30) { _fun0032_ip = 1702; continue _fun0032 }
- 1671:
+ 1667:
+                    if(var30) { _fun0032_ip = 1701; continue _fun0032 }
+ 1670:
                     var13 = _closure2_slot125;
                     var13 = var8 == var13;
                     var16 = undefined;
-                    if(var13) { _fun0032_ip = 1694; continue _fun0032 }
- 1684:
+                    if(var13) { _fun0032_ip = 1693; continue _fun0032 }
+ 1683:
                     var13 = _closure2_slot125;
                     var16 = var13.messagesWithActivitiesLaunching;
- 1694:
+ 1693:
                     var13 = _closure2_slot32;
                     var30 = var16 !== var13;
- 1702:
-                    if(var30) { _fun0032_ip = 1708; continue _fun0032 }
- 1705:
+ 1701:
+                    if(var30) { _fun0032_ip = 1707; continue _fun0032 }
+ 1704:
                     var30 = var5;
- 1708:
+ 1707:
                     var _closure3_slot12 = var30;
                     var13 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -5730,23 +5730,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1758; continue _fun0032 }
- 1748:
+                    if(var5) { _fun0032_ip = 1757; continue _fun0032 }
+ 1747:
                     var5 = _closure2_slot125;
                     var13 = var5.activityInviteMessageIds;
- 1758:
-                    if(!(var8 == var13)) { _fun0032_ip = 1766; continue _fun0032 }
- 1762:
+ 1757:
+                    if(!(var8 == var13)) { _fun0032_ip = 1765; continue _fun0032 }
+ 1761:
                     var13 = new Array(0);
- 1766:
+ 1765:
                     var5 = _closure2_slot22;
-                    if(!(var8 == var5)) { _fun0032_ip = 1780; continue _fun0032 }
- 1774:
+                    if(!(var8 == var5)) { _fun0032_ip = 1779; continue _fun0032 }
+ 1773:
                     var5 = new Array(0);
-                    _fun0032_ip = 1784; continue _fun0032;
- 1780:
+                    _fun0032_ip = 1783; continue _fun0032;
+ 1779:
                     var5 = _closure2_slot22;
- 1784:
+ 1783:
                     var5 = var16.bind(var17)(var13, var5);
                     var18 = !var5;
                     var _closure3_slot13 = var18;
@@ -5758,71 +5758,71 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1843; continue _fun0032 }
- 1833:
+                    if(var5) { _fun0032_ip = 1842; continue _fun0032 }
+ 1832:
                     var5 = _closure2_slot125;
                     var13 = var5.referralTrialOfferIds;
- 1843:
-                    if(!(var8 == var13)) { _fun0032_ip = 1851; continue _fun0032 }
- 1847:
+ 1842:
+                    if(!(var8 == var13)) { _fun0032_ip = 1850; continue _fun0032 }
+ 1846:
                     var13 = new Array(0);
- 1851:
+ 1850:
                     var5 = _closure2_slot40;
-                    if(!(var8 == var5)) { _fun0032_ip = 1865; continue _fun0032 }
- 1859:
+                    if(!(var8 == var5)) { _fun0032_ip = 1864; continue _fun0032 }
+ 1858:
                     var5 = new Array(0);
-                    _fun0032_ip = 1869; continue _fun0032;
- 1865:
+                    _fun0032_ip = 1868; continue _fun0032;
+ 1864:
                     var5 = _closure2_slot40;
- 1869:
+ 1868:
                     var5 = var15.bind(var16)(var13, var5);
                     var17 = !var5;
-                    if(var17) { _fun0032_ip = 1912; continue _fun0032 }
- 1881:
+                    if(var17) { _fun0032_ip = 1911; continue _fun0032 }
+ 1880:
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1904; continue _fun0032 }
- 1894:
+                    if(var5) { _fun0032_ip = 1903; continue _fun0032 }
+ 1893:
                     var5 = _closure2_slot125;
                     var13 = var5.trialOffer;
- 1904:
+ 1903:
                     var5 = _closure2_slot41;
                     var17 = var13 !== var5;
- 1912:
-                    if(var17) { _fun0032_ip = 1946; continue _fun0032 }
- 1915:
+ 1911:
+                    if(var17) { _fun0032_ip = 1945; continue _fun0032 }
+ 1914:
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1938; continue _fun0032 }
- 1928:
+                    if(var5) { _fun0032_ip = 1937; continue _fun0032 }
+ 1927:
                     var5 = _closure2_slot125;
                     var13 = var5.isPremiumTier2User;
- 1938:
+ 1937:
                     var5 = _closure2_slot42;
                     var17 = var13 !== var5;
- 1946:
+ 1945:
                     var _closure3_slot14 = var17;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 1973; continue _fun0032 }
- 1963:
+                    if(var5) { _fun0032_ip = 1972; continue _fun0032 }
+ 1962:
                     var5 = _closure2_slot125;
                     var13 = var5.guildInviteColorsFetched;
- 1973:
+ 1972:
                     var5 = _closure2_slot98;
                     var16 = var13 !== var5;
                     var _closure3_slot15 = var16;
                     var5 = _closure2_slot125;
                     var5 = var8 == var5;
                     var13 = undefined;
-                    if(var5) { _fun0032_ip = 2008; continue _fun0032 }
- 1998:
+                    if(var5) { _fun0032_ip = 2007; continue _fun0032 }
+ 1997:
                     var5 = _closure2_slot125;
                     var13 = var5.guildEmojis;
- 2008:
+ 2007:
                     var5 = _closure2_slot99;
                     var13 = var13 !== var5;
                     var _closure3_slot16 = var13;
@@ -5832,422 +5832,422 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var15 = _closure2_slot125;
                     var35 = var8 == var15;
                     var15 = undefined;
-                    if(var35) { _fun0032_ip = 2057; continue _fun0032 }
- 2047:
+                    if(var35) { _fun0032_ip = 2056; continue _fun0032 }
+ 2046:
                     var35 = _closure2_slot125;
                     var15 = var35.lazyCacheStatus;
- 2057:
+ 2056:
                     var15 = var34 !== var15;
-                    if(var14) { _fun0032_ip = 3347; continue _fun0032 }
- 2067:
-                    if(var33) { _fun0032_ip = 3347; continue _fun0032 }
- 2073:
-                    if(!(var32 === var31)) { _fun0032_ip = 3347; continue _fun0032 }
- 2080:
-                    if(var30) { _fun0032_ip = 3347; continue _fun0032 }
- 2086:
+                    if(var14) { _fun0032_ip = 3346; continue _fun0032 }
+ 2066:
+                    if(var33) { _fun0032_ip = 3346; continue _fun0032 }
+ 2072:
+                    if(!(var32 === var31)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2079:
+                    if(var30) { _fun0032_ip = 3346; continue _fun0032 }
+ 2085:
                     var31 = _closure2_slot128;
                     var30 = _closure2_slot6;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2101:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2100:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2124; continue _fun0032 }
- 2114:
+                    if(var30) { _fun0032_ip = 2123; continue _fun0032 }
+ 2113:
                     var30 = _closure2_slot125;
                     var31 = var30.editingMessageId;
- 2124:
+ 2123:
                     var30 = _closure2_slot43;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2135:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2134:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2158; continue _fun0032 }
- 2148:
+                    if(var30) { _fun0032_ip = 2157; continue _fun0032 }
+ 2147:
                     var30 = _closure2_slot125;
                     var31 = var30.replyingMessageId;
- 2158:
+ 2157:
                     var30 = _closure2_slot44;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2169:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2168:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2192; continue _fun0032 }
- 2182:
+                    if(var30) { _fun0032_ip = 2191; continue _fun0032 }
+ 2181:
                     var30 = _closure2_slot125;
                     var31 = var30.voiceStateChannelId;
- 2192:
+ 2191:
                     var30 = _closure2_slot49;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2203:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2202:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2226; continue _fun0032 }
- 2216:
+                    if(var30) { _fun0032_ip = 2225; continue _fun0032 }
+ 2215:
                     var30 = _closure2_slot125;
                     var31 = var30.messageAuthorActivities;
- 2226:
+ 2225:
                     var30 = _closure2_slot21;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2237:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2236:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2260; continue _fun0032 }
- 2250:
+                    if(var30) { _fun0032_ip = 2259; continue _fun0032 }
+ 2249:
                     var30 = _closure2_slot125;
                     var31 = var30.oldestUnreadMessageId;
- 2260:
+ 2259:
                     var30 = _closure2_slot45;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2271:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2270:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2294; continue _fun0032 }
- 2284:
+                    if(var30) { _fun0032_ip = 2293; continue _fun0032 }
+ 2283:
                     var30 = _closure2_slot125;
                     var31 = var30.invites;
- 2294:
+ 2293:
                     var30 = _closure2_slot23;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2305:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2304:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2328; continue _fun0032 }
- 2318:
+                    if(var30) { _fun0032_ip = 2327; continue _fun0032 }
+ 2317:
                     var30 = _closure2_slot125;
                     var31 = var30.appDirectoryEmbedApplications;
- 2328:
+ 2327:
                     var30 = _closure2_slot24;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2339:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2338:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2362; continue _fun0032 }
- 2352:
+                    if(var30) { _fun0032_ip = 2361; continue _fun0032 }
+ 2351:
                     var30 = _closure2_slot125;
                     var31 = var30.invalidAppDirectoryEmbedApplicationIds;
- 2362:
+ 2361:
                     var30 = _closure2_slot25;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2373:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2372:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2396; continue _fun0032 }
- 2386:
+                    if(var30) { _fun0032_ip = 2395; continue _fun0032 }
+ 2385:
                     var30 = _closure2_slot125;
                     var31 = var30.appDirectoryEmbedApplicationFetchStates;
- 2396:
+ 2395:
                     var30 = _closure2_slot26;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2407:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2406:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2430; continue _fun0032 }
- 2420:
+                    if(var30) { _fun0032_ip = 2429; continue _fun0032 }
+ 2419:
                     var30 = _closure2_slot125;
                     var31 = var30.guildTemplates;
- 2430:
+ 2429:
                     var30 = _closure2_slot35;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2441:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2440:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2464; continue _fun0032 }
- 2454:
+                    if(var30) { _fun0032_ip = 2463; continue _fun0032 }
+ 2453:
                     var30 = _closure2_slot125;
                     var31 = var30.buildOverrides;
- 2464:
+ 2463:
                     var30 = _closure2_slot36;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2475:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2474:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2498; continue _fun0032 }
- 2488:
+                    if(var30) { _fun0032_ip = 2497; continue _fun0032 }
+ 2487:
                     var30 = _closure2_slot125;
                     var31 = var30.quests;
- 2498:
+ 2497:
                     var30 = _closure2_slot37;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2509:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2508:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2532; continue _fun0032 }
- 2522:
+                    if(var30) { _fun0032_ip = 2531; continue _fun0032 }
+ 2521:
                     var30 = _closure2_slot125;
                     var31 = var30.isFetchingCurrentQuests;
- 2532:
+ 2531:
                     var30 = _closure2_slot38;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2543:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2542:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2566; continue _fun0032 }
- 2556:
+                    if(var30) { _fun0032_ip = 2565; continue _fun0032 }
+ 2555:
                     var30 = _closure2_slot125;
                     var31 = var30.participantsLength;
- 2566:
+ 2565:
                     var30 = _closure2_slot54;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2577:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2576:
                     var31 = _closure2_slot66;
                     var30 = _closure2_slot128;
                     var30 = var8 != var30;
-                    if(!var30) { _fun0032_ip = 2618; continue _fun0032 }
- 2592:
+                    if(!var30) { _fun0032_ip = 2617; continue _fun0032 }
+ 2591:
                     var32 = _closure2_slot128;
                     var32 = var32.ready;
-                    if(var32) { _fun0032_ip = 2615; continue _fun0032 }
- 2605:
+                    if(var32) { _fun0032_ip = 2614; continue _fun0032 }
+ 2604:
                     var33 = _closure2_slot128;
                     var32 = var33.cached;
- 2615:
+ 2614:
                     var30 = var32;
- 2618:
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2625:
+ 2617:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2624:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2648; continue _fun0032 }
- 2638:
+                    if(var30) { _fun0032_ip = 2647; continue _fun0032 }
+ 2637:
                     var30 = _closure2_slot125;
                     var31 = var30.channelThreadsVersion;
- 2648:
+ 2647:
                     var30 = _closure2_slot59;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2659:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2658:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2682; continue _fun0032 }
- 2672:
+                    if(var30) { _fun0032_ip = 2681; continue _fun0032 }
+ 2671:
                     var30 = _closure2_slot125;
                     var31 = var30.rsvpVersion;
- 2682:
+ 2681:
                     var30 = _closure2_slot69;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2693:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2692:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2716; continue _fun0032 }
- 2706:
+                    if(var30) { _fun0032_ip = 2715; continue _fun0032 }
+ 2705:
                     var30 = _closure2_slot125;
                     var31 = var30.repliedIds;
- 2716:
+ 2715:
                     var30 = _closure2_slot56;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2727:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2726:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2750; continue _fun0032 }
- 2740:
+                    if(var30) { _fun0032_ip = 2749; continue _fun0032 }
+ 2739:
                     var30 = _closure2_slot125;
                     var31 = var30.hasLoadedExperiments;
- 2750:
+ 2749:
                     var30 = _closure2_slot63;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2761:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2760:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2784; continue _fun0032 }
- 2774:
+                    if(var30) { _fun0032_ip = 2783; continue _fun0032 }
+ 2773:
                     var30 = _closure2_slot125;
                     var31 = var30.isMessageRequest;
- 2784:
+ 2783:
                     var30 = _closure2_slot65;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2795:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2794:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2818; continue _fun0032 }
- 2808:
+                    if(var30) { _fun0032_ip = 2817; continue _fun0032 }
+ 2807:
                     var30 = _closure2_slot125;
                     var31 = var30.isSpamMessageRequest;
- 2818:
+ 2817:
                     var30 = _closure2_slot64;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2829:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2828:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2852; continue _fun0032 }
- 2842:
+                    if(var30) { _fun0032_ip = 2851; continue _fun0032 }
+ 2841:
                     var30 = _closure2_slot125;
                     var31 = var30.currentUserCommunicationDisabled;
- 2852:
+ 2851:
                     var30 = _closure2_slot73;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2863:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2862:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2886; continue _fun0032 }
- 2876:
+                    if(var30) { _fun0032_ip = 2885; continue _fun0032 }
+ 2875:
                     var30 = _closure2_slot125;
                     var31 = var30.userSettingsLocale;
- 2886:
+ 2885:
                     var30 = _closure2_slot74;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2897:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2896:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2920; continue _fun0032 }
- 2910:
+                    if(var30) { _fun0032_ip = 2919; continue _fun0032 }
+ 2909:
                     var30 = _closure2_slot125;
                     var31 = var30.selectedSummary;
- 2920:
+ 2919:
                     var30 = _closure2_slot84;
-                    if(!(var8 == var30)) { _fun0032_ip = 2934; continue _fun0032 }
- 2928:
+                    if(!(var8 == var30)) { _fun0032_ip = 2933; continue _fun0032 }
+ 2927:
                     var30 = _closure2_slot83;
-                    _fun0032_ip = 2938; continue _fun0032;
- 2934:
+                    _fun0032_ip = 2937; continue _fun0032;
+ 2933:
                     var30 = _closure2_slot84;
- 2938:
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2945:
+ 2937:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2944:
                     var30 = _closure2_slot125;
                     var30 = var8 == var30;
                     var31 = undefined;
-                    if(var30) { _fun0032_ip = 2968; continue _fun0032 }
- 2958:
+                    if(var30) { _fun0032_ip = 2967; continue _fun0032 }
+ 2957:
                     var30 = _closure2_slot125;
                     var31 = var30.showPushFeedback;
- 2968:
+ 2967:
                     var30 = _closure2_slot78;
-                    if(!(var31 === var30)) { _fun0032_ip = 3347; continue _fun0032 }
- 2979:
-                    if(!(var15 === var5)) { _fun0032_ip = 3347; continue _fun0032 }
- 2986:
-                    if(var29) { _fun0032_ip = 3347; continue _fun0032 }
- 2992:
-                    if(var28) { _fun0032_ip = 3347; continue _fun0032 }
- 2998:
-                    if(!(var27 === var26)) { _fun0032_ip = 3347; continue _fun0032 }
- 3005:
-                    if(var25) { _fun0032_ip = 3347; continue _fun0032 }
- 3011:
-                    if(var24) { _fun0032_ip = 3347; continue _fun0032 }
- 3017:
-                    if(var23) { _fun0032_ip = 3347; continue _fun0032 }
- 3023:
-                    if(var22) { _fun0032_ip = 3347; continue _fun0032 }
- 3029:
-                    if(!(var8 == var11)) { _fun0032_ip = 3347; continue _fun0032 }
- 3036:
-                    if(!(var8 == var9)) { _fun0032_ip = 3347; continue _fun0032 }
- 3043:
+                    if(!(var31 === var30)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2978:
+                    if(!(var15 === var5)) { _fun0032_ip = 3346; continue _fun0032 }
+ 2985:
+                    if(var29) { _fun0032_ip = 3346; continue _fun0032 }
+ 2991:
+                    if(var28) { _fun0032_ip = 3346; continue _fun0032 }
+ 2997:
+                    if(!(var27 === var26)) { _fun0032_ip = 3346; continue _fun0032 }
+ 3004:
+                    if(var25) { _fun0032_ip = 3346; continue _fun0032 }
+ 3010:
+                    if(var24) { _fun0032_ip = 3346; continue _fun0032 }
+ 3016:
+                    if(var23) { _fun0032_ip = 3346; continue _fun0032 }
+ 3022:
+                    if(var22) { _fun0032_ip = 3346; continue _fun0032 }
+ 3028:
+                    if(!(var8 == var11)) { _fun0032_ip = 3346; continue _fun0032 }
+ 3035:
+                    if(!(var8 == var9)) { _fun0032_ip = 3346; continue _fun0032 }
+ 3042:
                     var22 = _closure2_slot125;
                     var22 = var8 == var22;
                     var23 = undefined;
-                    if(var22) { _fun0032_ip = 3066; continue _fun0032 }
- 3056:
+                    if(var22) { _fun0032_ip = 3065; continue _fun0032 }
+ 3055:
                     var22 = _closure2_slot125;
                     var23 = var22.androidKeyboardHeight;
- 3066:
+ 3065:
                     var22 = _closure2_slot80;
-                    if(!(var23 === var22)) { _fun0032_ip = 3347; continue _fun0032 }
- 3077:
+                    if(!(var23 === var22)) { _fun0032_ip = 3346; continue _fun0032 }
+ 3076:
                     var22 = _closure2_slot125;
                     var22 = var8 == var22;
                     var23 = undefined;
-                    if(var22) { _fun0032_ip = 3100; continue _fun0032 }
- 3090:
+                    if(var22) { _fun0032_ip = 3099; continue _fun0032 }
+ 3089:
                     var22 = _closure2_slot125;
                     var23 = var22.mediaPostPreviewEmbeds;
- 3100:
+ 3099:
                     var22 = _closure2_slot34;
-                    if(!(var23 === var22)) { _fun0032_ip = 3347; continue _fun0032 }
- 3111:
+                    if(!(var23 === var22)) { _fun0032_ip = 3346; continue _fun0032 }
+ 3110:
                     var22 = _closure2_slot125;
                     var22 = var8 == var22;
                     var23 = undefined;
-                    if(var22) { _fun0032_ip = 3134; continue _fun0032 }
- 3124:
+                    if(var22) { _fun0032_ip = 3133; continue _fun0032 }
+ 3123:
                     var22 = _closure2_slot125;
                     var23 = var22.shouldObscureSpoiler;
- 3134:
+ 3133:
                     var22 = _closure2_slot87;
-                    if(!(var23 === var22)) { _fun0032_ip = 3347; continue _fun0032 }
- 3145:
+                    if(!(var23 === var22)) { _fun0032_ip = 3346; continue _fun0032 }
+ 3144:
                     var22 = _closure2_slot125;
                     var22 = var8 == var22;
                     var23 = undefined;
-                    if(var22) { _fun0032_ip = 3168; continue _fun0032 }
- 3158:
+                    if(var22) { _fun0032_ip = 3167; continue _fun0032 }
+ 3157:
                     var22 = _closure2_slot125;
                     var23 = var22.shouldFilterKeywords;
- 3168:
+ 3167:
                     var22 = _closure2_slot96;
-                    if(!(var23 === var22)) { _fun0032_ip = 3347; continue _fun0032 }
- 3179:
+                    if(!(var23 === var22)) { _fun0032_ip = 3346; continue _fun0032 }
+ 3178:
                     var22 = _closure2_slot125;
                     var22 = var8 == var22;
                     var23 = undefined;
-                    if(var22) { _fun0032_ip = 3202; continue _fun0032 }
- 3192:
+                    if(var22) { _fun0032_ip = 3201; continue _fun0032 }
+ 3191:
                     var22 = _closure2_slot125;
                     var23 = var22.shouldDisableInteractiveComponents;
- 3202:
+ 3201:
                     var22 = _closure2_slot89;
-                    if(!(var23 === var22)) { _fun0032_ip = 3347; continue _fun0032 }
- 3213:
-                    if(var21) { _fun0032_ip = 3347; continue _fun0032 }
- 3219:
-                    if(var20) { _fun0032_ip = 3347; continue _fun0032 }
- 3225:
+                    if(!(var23 === var22)) { _fun0032_ip = 3346; continue _fun0032 }
+ 3212:
+                    if(var21) { _fun0032_ip = 3346; continue _fun0032 }
+ 3218:
+                    if(var20) { _fun0032_ip = 3346; continue _fun0032 }
+ 3224:
                     var20 = _closure2_slot125;
                     var20 = var8 == var20;
                     var21 = undefined;
-                    if(var20) { _fun0032_ip = 3248; continue _fun0032 }
- 3238:
+                    if(var20) { _fun0032_ip = 3247; continue _fun0032 }
+ 3237:
                     var20 = _closure2_slot125;
                     var21 = var20.threadStartingReferenceMessage;
- 3248:
+ 3247:
                     var20 = _closure2_slot50;
-                    if(!(var21 === var20)) { _fun0032_ip = 3347; continue _fun0032 }
- 3256:
-                    if(var19) { _fun0032_ip = 3347; continue _fun0032 }
- 3259:
+                    if(!(var21 === var20)) { _fun0032_ip = 3346; continue _fun0032 }
+ 3255:
+                    if(var19) { _fun0032_ip = 3346; continue _fun0032 }
+ 3258:
                     var19 = _closure2_slot125;
                     var19 = var8 == var19;
                     var20 = undefined;
-                    if(var19) { _fun0032_ip = 3282; continue _fun0032 }
- 3272:
+                    if(var19) { _fun0032_ip = 3281; continue _fun0032 }
+ 3271:
                     var19 = _closure2_slot125;
                     var20 = var19.applications;
- 3282:
+ 3281:
                     var19 = _closure2_slot33;
-                    if(!(var20 === var19)) { _fun0032_ip = 3347; continue _fun0032 }
- 3290:
-                    if(var18) { _fun0032_ip = 3347; continue _fun0032 }
- 3293:
-                    if(var17) { _fun0032_ip = 3347; continue _fun0032 }
- 3296:
-                    if(var16) { _fun0032_ip = 3347; continue _fun0032 }
- 3299:
-                    if(var13) { _fun0032_ip = 3347; continue _fun0032 }
- 3302:
+                    if(!(var20 === var19)) { _fun0032_ip = 3346; continue _fun0032 }
+ 3289:
+                    if(var18) { _fun0032_ip = 3346; continue _fun0032 }
+ 3292:
+                    if(var17) { _fun0032_ip = 3346; continue _fun0032 }
+ 3295:
+                    if(var16) { _fun0032_ip = 3346; continue _fun0032 }
+ 3298:
+                    if(var13) { _fun0032_ip = 3346; continue _fun0032 }
+ 3301:
                     var16 = _closure1_slot0;
                     var17 = _closure1_slot2;
                     var13 = 82;
@@ -6258,7 +6258,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var13 = _closure2_slot6;
                     var13 = var17.bind(var18)(var16, var13);
                     _fun0032_ip = 4157; continue _fun0032;
- 3347:
+ 3346:
                     var13 = global;
                     var13 = var13.Set;
                     var16 = var13.prototype;
@@ -6270,130 +6270,130 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var16 = _closure2_slot125;
                     var16 = var8 == var16;
                     var17 = undefined;
-                    if(var16) { _fun0032_ip = 3402; continue _fun0032 }
- 3392:
+                    if(var16) { _fun0032_ip = 3401; continue _fun0032 }
+ 3391:
                     var16 = _closure2_slot125;
                     var17 = var16.editingMessageId;
- 3402:
+ 3401:
                     var16 = _closure2_slot43;
-                    if(!(var17 !== var16)) { _fun0032_ip = 3492; continue _fun0032 }
- 3410:
+                    if(!(var17 !== var16)) { _fun0032_ip = 3491; continue _fun0032 }
+ 3409:
                     var16 = _closure2_slot43;
-                    if(!(var8 != var16)) { _fun0032_ip = 3432; continue _fun0032 }
- 3418:
+                    if(!(var8 != var16)) { _fun0032_ip = 3431; continue _fun0032 }
+ 3417:
                     var17 = var13.add;
                     var16 = _closure2_slot43;
                     var16 = var17.bind(var13)(var16);
- 3432:
+ 3431:
                     var16 = _closure2_slot125;
                     var17 = var8 == var16;
                     var16 = undefined;
-                    if(var17) { _fun0032_ip = 3455; continue _fun0032 }
- 3445:
+                    if(var17) { _fun0032_ip = 3454; continue _fun0032 }
+ 3444:
                     var17 = _closure2_slot125;
                     var16 = var17.editingMessageId;
- 3455:
-                    if(!(var8 != var16)) { _fun0032_ip = 3492; continue _fun0032 }
- 3459:
+ 3454:
+                    if(!(var8 != var16)) { _fun0032_ip = 3491; continue _fun0032 }
+ 3458:
                     var17 = var13.add;
                     var16 = _closure2_slot125;
                     var18 = var8 == var16;
                     var16 = undefined;
-                    if(var18) { _fun0032_ip = 3487; continue _fun0032 }
- 3477:
+                    if(var18) { _fun0032_ip = 3486; continue _fun0032 }
+ 3476:
                     var18 = _closure2_slot125;
                     var16 = var18.editingMessageId;
- 3487:
+ 3486:
                     var16 = var17.bind(var13)(var16);
- 3492:
+ 3491:
                     var16 = _closure2_slot125;
                     var16 = var8 == var16;
                     var17 = undefined;
-                    if(var16) { _fun0032_ip = 3515; continue _fun0032 }
- 3505:
+                    if(var16) { _fun0032_ip = 3514; continue _fun0032 }
+ 3504:
                     var16 = _closure2_slot125;
                     var17 = var16.replyingMessageId;
- 3515:
+ 3514:
                     var16 = _closure2_slot44;
-                    if(!(var17 !== var16)) { _fun0032_ip = 3605; continue _fun0032 }
- 3523:
+                    if(!(var17 !== var16)) { _fun0032_ip = 3604; continue _fun0032 }
+ 3522:
                     var16 = _closure2_slot44;
-                    if(!(var8 != var16)) { _fun0032_ip = 3545; continue _fun0032 }
- 3531:
+                    if(!(var8 != var16)) { _fun0032_ip = 3544; continue _fun0032 }
+ 3530:
                     var17 = var13.add;
                     var16 = _closure2_slot44;
                     var16 = var17.bind(var13)(var16);
- 3545:
+ 3544:
                     var16 = _closure2_slot125;
                     var17 = var8 == var16;
                     var16 = undefined;
-                    if(var17) { _fun0032_ip = 3568; continue _fun0032 }
- 3558:
+                    if(var17) { _fun0032_ip = 3567; continue _fun0032 }
+ 3557:
                     var17 = _closure2_slot125;
                     var16 = var17.replyingMessageId;
- 3568:
-                    if(!(var8 != var16)) { _fun0032_ip = 3605; continue _fun0032 }
- 3572:
+ 3567:
+                    if(!(var8 != var16)) { _fun0032_ip = 3604; continue _fun0032 }
+ 3571:
                     var17 = var13.add;
                     var16 = _closure2_slot125;
                     var18 = var8 == var16;
                     var16 = undefined;
-                    if(var18) { _fun0032_ip = 3600; continue _fun0032 }
- 3590:
+                    if(var18) { _fun0032_ip = 3599; continue _fun0032 }
+ 3589:
                     var18 = _closure2_slot125;
                     var16 = var18.replyingMessageId;
- 3600:
+ 3599:
                     var16 = var17.bind(var13)(var16);
- 3605:
+ 3604:
                     var17 = _closure2_slot66;
                     var16 = _closure2_slot128;
                     var16 = var8 != var16;
-                    if(!var16) { _fun0032_ip = 3646; continue _fun0032 }
- 3620:
+                    if(!var16) { _fun0032_ip = 3645; continue _fun0032 }
+ 3619:
                     var18 = _closure2_slot128;
                     var18 = var18.ready;
-                    if(var18) { _fun0032_ip = 3643; continue _fun0032 }
- 3633:
+                    if(var18) { _fun0032_ip = 3642; continue _fun0032 }
+ 3632:
                     var19 = _closure2_slot128;
                     var18 = var19.cached;
- 3643:
+ 3642:
                     var16 = var18;
- 3646:
-                    if(!(var17 === var16)) { _fun0032_ip = 3743; continue _fun0032 }
- 3650:
+ 3645:
+                    if(!(var17 === var16)) { _fun0032_ip = 3742; continue _fun0032 }
+ 3649:
                     var16 = _closure2_slot125;
                     var16 = var8 == var16;
                     var17 = undefined;
-                    if(var16) { _fun0032_ip = 3673; continue _fun0032 }
- 3663:
+                    if(var16) { _fun0032_ip = 3672; continue _fun0032 }
+ 3662:
                     var16 = _closure2_slot125;
                     var17 = var16.isCallActive;
- 3673:
+ 3672:
                     var16 = _closure2_slot48;
-                    if(!(var17 === var16)) { _fun0032_ip = 3743; continue _fun0032 }
- 3681:
+                    if(!(var17 === var16)) { _fun0032_ip = 3742; continue _fun0032 }
+ 3680:
                     var16 = _closure2_slot125;
                     var16 = var8 == var16;
                     var17 = undefined;
-                    if(var16) { _fun0032_ip = 3704; continue _fun0032 }
- 3694:
+                    if(var16) { _fun0032_ip = 3703; continue _fun0032 }
+ 3693:
                     var16 = _closure2_slot125;
                     var17 = var16.voiceStateChannelId;
- 3704:
+ 3703:
                     var16 = _closure2_slot49;
-                    if(!(var17 === var16)) { _fun0032_ip = 3743; continue _fun0032 }
- 3712:
+                    if(!(var17 === var16)) { _fun0032_ip = 3742; continue _fun0032 }
+ 3711:
                     var16 = _closure2_slot125;
                     var16 = var8 == var16;
                     var17 = undefined;
-                    if(var16) { _fun0032_ip = 3735; continue _fun0032 }
- 3725:
+                    if(var16) { _fun0032_ip = 3734; continue _fun0032 }
+ 3724:
                     var16 = _closure2_slot125;
                     var17 = var16.participantsLength;
- 3735:
+ 3734:
                     var16 = _closure2_slot54;
                     if(!(var17 !== var16)) { _fun0032_ip = 3824; continue _fun0032 }
- 3743:
+ 3742:
                     var17 = _closure1_slot1;
                     var18 = _closure1_slot2;
                     var16 = 89;

@@ -1,7 +1,7 @@
 // app/modules/markup/MarkupAttachmentLinkRule.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
+    var5 = dependencyMap;
     var1 = global;
     var7 = var1.Object;
     var4 = var7.defineProperty;
@@ -16,7 +16,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = {};
     var1 = 0;
     var8 = var5[var1];
-    var7 = native3;
+    var7 = metroImportDefault;
     var1 = undefined;
     var7 = var7.bind(var1)(var8);
     var7 = var7.defaultRules;
@@ -59,7 +59,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['attachmentLink'] = var4;
     var4 = 1;
     var5 = var5[var4];
-    var4 = native2;
+    var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/markup/MarkupAttachmentLinkRule.tsx';

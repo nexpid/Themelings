@@ -1,10 +1,10 @@
 // app/modules/messages/native/renderer/row_data/embeds/SafetyPolicyNoticeEmbed.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = function SafetyPolicyNoticeEmbedInner(arg1) {
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var3 == var8;
             var5 = undefined;
             var4 = undefined;
-            if(var6) { _fun0001_ip = 47; continue _fun0001 }
+            if(var6) { _fun0001_ip = 48; continue _fun0001 }
  30:
             var7 = var8.find;
             var6 = function(arg1) {
@@ -29,30 +29,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var4 = var7.bind(var8)(var6);
- 47:
+ 48:
             var7 = var3 != var4;
             var6 = undefined;
-            if(!var7) { _fun0001_ip = 59; continue _fun0001 }
- 56:
+            if(!var7) { _fun0001_ip = 60; continue _fun0001 }
+ 57:
             var6 = var4;
- 59:
+ 60:
             var7 = var3 == var6;
             var4 = undefined;
-            if(var7) { _fun0001_ip = 74; continue _fun0001 }
- 68:
+            if(var7) { _fun0001_ip = 75; continue _fun0001 }
+ 69:
             var4 = var6.rawValue;
- 74:
+ 75:
             var7 = var3 != var4;
             var6 = undefined;
-            if(!var7) { _fun0001_ip = 86; continue _fun0001 }
- 83:
+            if(!var7) { _fun0001_ip = 87; continue _fun0001 }
+ 84:
             var6 = var4;
- 86:
+ 87:
             var7 = var2.fields;
             var4 = var3 == var7;
             var2 = undefined;
-            if(var4) { _fun0001_ip = 118; continue _fun0001 }
- 101:
+            if(var4) { _fun0001_ip = 120; continue _fun0001 }
+ 102:
             var4 = var7.find;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -63,35 +63,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var2 = var4.bind(var7)(var1);
- 118:
+ 120:
             var4 = var3 != var2;
             var1 = undefined;
-            if(!var4) { _fun0001_ip = 130; continue _fun0001 }
- 127:
+            if(!var4) { _fun0001_ip = 132; continue _fun0001 }
+ 129:
             var1 = var2;
- 130:
+ 132:
             var2 = var3 == var1;
             var15 = undefined;
-            if(var2) { _fun0001_ip = 173; continue _fun0001 }
- 139:
+            if(var2) { _fun0001_ip = 175; continue _fun0001 }
+ 141:
             var2 = var1.rawValue;
             var2 = var3 == var2;
             var15 = undefined;
-            if(var2) { _fun0001_ip = 173; continue _fun0001 }
- 154:
+            if(var2) { _fun0001_ip = 175; continue _fun0001 }
+ 156:
             var2 = global;
             var2 = var2.parseFloat;
             var1 = var1.rawValue;
             var15 = var2.bind(var5)(var1);
- 173:
+ 175:
             var2 = var3 == var6;
             var1 = null;
-            if(var2) { _fun0001_ip = 504; continue _fun0001 }
- 185:
+            if(var2) { _fun0001_ip = 506; continue _fun0001 }
+ 187:
             var2 = var3 == var15;
             var1 = null;
-            if(var2) { _fun0001_ip = 504; continue _fun0001 }
- 197:
+            if(var2) { _fun0001_ip = 506; continue _fun0001 }
+ 199:
             var4 = _closure1_slot6;
             var3 = _closure1_slot8;
             var2 = {};
@@ -157,7 +157,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['ctaText'] = var7;
             var2['classificationId'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 504:
+ 506:
             return var1;
         }
     };
@@ -172,7 +172,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var4 = 1;
@@ -283,7 +283,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = arg1;
             var4 = var2.embeds;
             var1 = null;
-            if(!(var1 != var4)) { _fun0003_ip = 276; continue _fun0003 }
+            if(!(var1 != var4)) { _fun0003_ip = 278; continue _fun0003 }
  20:
             var5 = var2.embeds;
             var4 = 0;
@@ -295,7 +295,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  43:
             var5 = var6.fields;
  49:
-            if(!(var1 != var5)) { _fun0003_ip = 276; continue _fun0003 }
+            if(!(var1 != var5)) { _fun0003_ip = 278; continue _fun0003 }
  56:
             var5 = var2.embeds;
             var5 = var5[var4];
@@ -307,14 +307,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  80:
             var5 = _closure1_slot4;
             var5 = var5.SAFETY_POLICY_NOTICE;
-            if(!(var6 === var5)) { _fun0003_ip = 276; continue _fun0003 }
+            if(!(var6 === var5)) { _fun0003_ip = 278; continue _fun0003 }
  100:
             var2 = var2.embeds;
             var4 = var2[var4];
             var8 = var4.fields;
             var2 = var1 == var8;
             var5 = undefined;
-            if(var2) { _fun0003_ip = 142; continue _fun0003 }
+            if(var2) { _fun0003_ip = 143; continue _fun0003 }
  125:
             var6 = var8.find;
             var2 = function(arg1) {
@@ -326,30 +326,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var5 = var6.bind(var8)(var2);
- 142:
+ 143:
             var6 = var1 != var5;
             var2 = undefined;
-            if(!var6) { _fun0003_ip = 154; continue _fun0003 }
- 151:
+            if(!var6) { _fun0003_ip = 155; continue _fun0003 }
+ 152:
             var2 = var5;
- 154:
+ 155:
             var6 = var1 == var2;
             var5 = undefined;
-            if(var6) { _fun0003_ip = 169; continue _fun0003 }
- 163:
+            if(var6) { _fun0003_ip = 170; continue _fun0003 }
+ 164:
             var5 = var2.rawValue;
- 169:
+ 170:
             var6 = var1 != var5;
             var2 = undefined;
-            if(!var6) { _fun0003_ip = 181; continue _fun0003 }
- 178:
+            if(!var6) { _fun0003_ip = 182; continue _fun0003 }
+ 179:
             var2 = var5;
- 181:
+ 182:
             var6 = var4.fields;
             var5 = var1 == var6;
             var4 = undefined;
-            if(var5) { _fun0003_ip = 213; continue _fun0003 }
- 196:
+            if(var5) { _fun0003_ip = 215; continue _fun0003 }
+ 197:
             var5 = var6.find;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -360,34 +360,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var4 = var5.bind(var6)(var3);
- 213:
+ 215:
             var5 = var1 != var4;
             var3 = undefined;
-            if(!var5) { _fun0003_ip = 225; continue _fun0003 }
- 222:
+            if(!var5) { _fun0003_ip = 227; continue _fun0003 }
+ 224:
             var3 = var4;
- 225:
+ 227:
             var4 = var1 == var3;
             var12 = undefined;
-            if(var4) { _fun0003_ip = 268; continue _fun0003 }
- 234:
+            if(var4) { _fun0003_ip = 270; continue _fun0003 }
+ 236:
             var4 = var3.rawValue;
             var4 = var1 == var4;
             var12 = undefined;
-            if(var4) { _fun0003_ip = 268; continue _fun0003 }
- 249:
+            if(var4) { _fun0003_ip = 270; continue _fun0003 }
+ 251:
             var4 = global;
             var4 = var4.parseFloat;
             var3 = var3.rawValue;
             var12 = var4.bind(var7)(var3);
- 268:
-            if(!(var1 != var2)) { _fun0003_ip = 276; continue _fun0003 }
- 272:
-            if(!(var1 == var12)) { _fun0003_ip = 280; continue _fun0003 }
- 276:
+ 270:
+            if(!(var1 != var2)) { _fun0003_ip = 278; continue _fun0003 }
+ 274:
+            if(!(var1 == var12)) { _fun0003_ip = 282; continue _fun0003 }
+ 278:
             var1 = undefined;
             return var1;
- 280:
+ 282:
             var1 = {};
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;

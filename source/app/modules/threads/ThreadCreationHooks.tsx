@@ -1,9 +1,9 @@
 // app/modules/threads/ThreadCreationHooks.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var7 = native3;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var9;
@@ -237,7 +237,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     StartGenerator();
                     var23 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=5);
-                    if(var6) { _fun0004_ip = 1953; continue _fun0004 }
+                    if(var6) { _fun0004_ip = 1952; continue _fun0004 }
  15:
                     var11 = var23;
                     var19 = arg2;
@@ -867,7 +867,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var2;
  1864:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 1950; continue _fun0004 }
+                    if(var4) { _fun0004_ip = 1949; continue _fun0004 }
  1870:
                     var3 = var2;
  1873: // try_start_1
@@ -884,23 +884,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = _closure1_slot16;
                     var4['limit'] = var7;
                     var4 = var5.bind(var6)(var4);
-                    SaveGenerator(address=1934);
- 1932:
+                    SaveGenerator(address=1933);
+ 1931:
                     return var4;
- 1934:
+ 1933:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 1942; continue _fun0004 }
- 1940: // try_end1
-                    _fun0004_ip = 1947; continue _fun0004;
- 1942:
+                    if(var5) { _fun0004_ip = 1941; continue _fun0004 }
+ 1939: // try_end1
+                    _fun0004_ip = 1946; continue _fun0004;
+ 1941:
                     return var4;
- 1945: // catch_target1
+ 1944: // catch_target1
                     CatchBlockStart(arg_register=3);
- 1947:
+ 1946:
                     return var3;
- 1950:
+ 1949:
                     return var2;
- 1953:
+ 1952:
                     return var1;
                 }
             };
@@ -935,7 +935,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var6;
     var11 = 2;
     var10 = var9[var11];
-    var6 = native4;
+    var6 = metroImportAll;
     var6 = var6.bind(var1)(var10);
     var _closure1_slot5 = var6;
     var10 = 3;

@@ -1,6 +1,6 @@
 // app/modules/instant_invite/Constants.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -57,9 +57,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['MAIN'] = var1;
     var1 = 'settings';
     var2['SETTINGS'] = var1;
-    var1 = native7;
+    var1 = dependencyMap;
     var9 = var1[var8];
-    var8 = native2;
+    var8 = require;
     var1 = undefined;
     var10 = var8.bind(var1)(var9);
     var9 = var10.fileFinishedImporting;

@@ -1,9 +1,9 @@
 // app/modules/collectibles/native/ProductPurchaseSuccessModal.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -26,7 +26,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var4;
     var4 = 2;
     var8 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot5 = var4;
     var4 = 3;
@@ -865,10 +865,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var24 = null;
             var13 = var24 == var2;
             var11 = undefined;
-            if(var13) { _fun0003_ip = 518; continue _fun0003 }
- 512:
+            if(var13) { _fun0003_ip = 519; continue _fun0003 }
+ 513:
             var11 = var2.mobileBg;
- 518:
+ 519:
             var2 = new Array(3);
             var2[0] = var11;
             var2[1] = var16;
@@ -948,19 +948,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['style'] = var5;
             var5 = var36.skuId;
             var1['id'] = var5;
-            if(var16) { _fun0003_ip = 732; continue _fun0003 }
- 709:
+            if(var16) { _fun0003_ip = 733; continue _fun0003 }
+ 710:
             var8 = _closure1_slot11;
             var7 = _closure1_slot22;
             var5 = {};
             var5['product'] = var36;
             var7 = var8.bind(var4)(var7, var5);
-            _fun0003_ip = 783; continue _fun0003;
- 732:
+            _fun0003_ip = 784; continue _fun0003;
+ 733:
             var5 = '';
             var5 = var5 !== var14;
-            if(!var5) { _fun0003_ip = 780; continue _fun0003 }
- 743:
+            if(!var5) { _fun0003_ip = 781; continue _fun0003 }
+ 744:
             var12 = _closure1_slot11;
             var11 = _closure1_slot6;
             var8 = {};
@@ -970,9 +970,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var9.imageBackground;
             var8['style'] = var13;
             var5 = var12.bind(var4)(var11, var8);
- 780:
+ 781:
             var7 = var5;
- 783:
+ 784:
             var5 = new Array(3);
             var5[0] = var7;
             var14 = _closure1_slot13;
@@ -988,10 +988,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7[0] = var8;
             var8 = {};
             var11 = undefined;
-            if(!var16) { _fun0003_ip = 862; continue _fun0003 }
- 856:
+            if(!var16) { _fun0003_ip = 863; continue _fun0003 }
+ 857:
             var11 = 'rgba(0, 0, 0, 0.3)';
- 862:
+ 863:
             var8['backgroundColor'] = var11;
             var7[1] = var8;
             var12['style'] = var7;
@@ -1000,16 +1000,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = {};
             var18 = var24 == var17;
             var16 = undefined;
-            if(var18) { _fun0003_ip = 910; continue _fun0003 }
- 895:
+            if(var18) { _fun0003_ip = 911; continue _fun0003 }
+ 896:
             var18 = var17.label;
             var17 = var18.toHexString;
             var16 = var17.bind(var18)();
- 910:
-            if(!(var24 != var16)) { _fun0003_ip = 917; continue _fun0003 }
- 914:
+ 911:
+            if(!(var24 != var16)) { _fun0003_ip = 918; continue _fun0003 }
+ 915:
             var15 = var16;
- 917:
+ 918:
             var7['tintColor'] = var15;
             var7 = var11.bind(var4)(var8, var7);
             var15 = new Array(3);
@@ -1170,8 +1170,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var26[0] = var28;
             var26[1] = var27;
             var18['style'] = var26;
-            if(!(var24 == var25)) { _fun0003_ip = 1541; continue _fun0003 }
- 1281:
+            if(!(var24 == var25)) { _fun0003_ip = 1542; continue _fun0003 }
+ 1282:
             var27 = _closure1_slot13;
             var26 = _closure1_slot12;
             var24 = {};
@@ -1225,10 +1225,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var28[1] = var29;
             var24['children'] = var28;
             var24 = var27.bind(var4)(var26, var24);
-            _fun0003_ip = 1545; continue _fun0003;
- 1541:
+            _fun0003_ip = 1546; continue _fun0003;
+ 1542:
             var24 = var25.bind(var4)();
- 1545:
+ 1546:
             var18['children'] = var24;
             var18 = var23.bind(var4)(var19, var18);
             var17[1] = var18;

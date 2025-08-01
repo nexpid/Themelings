@@ -1,9 +1,9 @@
 // app/modules/user_profile/native/UserProfileGradientContainer.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
@@ -22,7 +22,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var7 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot4 = var7;
     var4 = 2;
@@ -102,22 +102,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var3.bind(var8)(var13);
             var3 = null;
             var13 = var3 == var8;
-            if(var2) { _fun0001_ip = 247; continue _fun0001 }
- 234:
+            if(var2) { _fun0001_ip = 246; continue _fun0001 }
+ 233:
             var2 = undefined;
-            if(var13) { _fun0001_ip = 245; continue _fun0001 }
- 239:
+            if(var13) { _fun0001_ip = 244; continue _fun0001 }
+ 238:
             var2 = var8.overlay;
- 245:
-            _fun0001_ip = 261; continue _fun0001;
- 247:
+ 244:
+            _fun0001_ip = 260; continue _fun0001;
+ 246:
             var3 = undefined;
-            if(var13) { _fun0001_ip = 258; continue _fun0001 }
- 252:
+            if(var13) { _fun0001_ip = 257; continue _fun0001 }
+ 251:
             var3 = var8.overlaySyncedWithUserTheme;
- 258:
+ 257:
             var2 = var3;
- 261:
+ 260:
             _closure2_slot4 = var2;
             var8 = _closure1_slot4;
             var14 = var8.useMemo;

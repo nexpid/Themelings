@@ -1,9 +1,9 @@
 // app/modules/search/native/SearchResultLinkPreviewMarkup.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var4 = var8.defineProperty;
@@ -31,7 +31,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var4.bind(var1)(var2);
     var2 = 3;
     var4 = var6[var2];
-    var2 = native4;
+    var2 = metroImportAll;
     var4 = var2.bind(var1)(var4);
     var2 = var4.reactParserFor;
     var2 = var2.bind(var4)(var7);

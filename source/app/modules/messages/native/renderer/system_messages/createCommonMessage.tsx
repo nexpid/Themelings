@@ -1,9 +1,9 @@
 // app/modules/messages/native/renderer/system_messages/createCommonMessage.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -34,8 +34,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var3.isThemeDark;
             var3 = var1.bind(var3)(var4);
             var1 = 'rgba(201,210,240,0.6)';
-            if(!var3) { _fun0001_ip = 123; continue _fun0001 }
- 54:
+            if(!var3) { _fun0001_ip = 122; continue _fun0001 }
+ 53:
             var4 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 2;
@@ -50,7 +50,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var2.WHITE_500;
             var2 = 0.1;
             var1 = var4.bind(var5)(var3, var2);
- 123:
+ 122:
             return var1;
         }
     };

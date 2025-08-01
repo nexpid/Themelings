@@ -1,11 +1,11 @@
 // app/modules/app_launcher/hooks/useAppsInThisServer.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native4;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportAll;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var7;
     var _closure1_slot3 = var6;
@@ -140,10 +140,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var2.result;
             var11 = var10 == var6;
             var10 = undefined;
-            if(var11) { _fun0001_ip = 298; continue _fun0001 }
- 292:
+            if(var11) { _fun0001_ip = 302; continue _fun0001 }
+ 296:
             var10 = var6.sections;
- 298:
+ 302:
             var6 = new Array(2);
             var6[0] = var10;
             var6[1] = var1;
@@ -248,10 +248,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['appsInThisServer'] = var4;
             var2 = var2.fetchState;
             var2 = var2.fetching;
-            if(var2) { _fun0001_ip = 413; continue _fun0001 }
- 410:
+            if(var2) { _fun0001_ip = 417; continue _fun0001 }
+ 414:
             var2 = var3;
- 413:
+ 417:
             var1['isLoading'] = var2;
             return var1;
         }

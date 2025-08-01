@@ -1,9 +1,9 @@
 // app/stores/ReadStateStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var10 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var10 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var10;
     var _closure1_slot2 = var8;
@@ -5259,7 +5259,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var6 / var2;
                 var2 = var3.bind(var5)(var2);
                 var3 = var4.lastViewed;
-                if(!(var2 !== var3)) { _fun0085_ip = 174; continue _fun0085 }
+                if(!(var2 !== var3)) { _fun0085_ip = 170; continue _fun0085 }
  114:
                 var4['lastViewed'] = var2;
                 var2 = var4.canTrackUnreads;
@@ -5270,12 +5270,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = var3.bind(var4)();
                 var2 = !var3;
  146:
-                if(!var2) { _fun0085_ip = 174; continue _fun0085 }
+                if(!var2) { _fun0085_ip = 170; continue _fun0085 }
  149:
                 var3 = var4.ack;
                 var2 = {'force': true, 'trackAnalytics': false};
                 var2 = var3.bind(var4)(var2);
- 174:
+ 170:
                 return var1;
             }
         };

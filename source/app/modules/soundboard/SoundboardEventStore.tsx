@@ -1,9 +1,9 @@
 // app/modules/soundboard/SoundboardEventStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -691,7 +691,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var4.bind(var5)();
                     var1 = var2.done;
                     var3 = null;
-                    if(var1) { _fun0011_ip = 107; continue _fun0011 }
+                    if(var1) { _fun0011_ip = 108; continue _fun0011 }
  60:
                     var8 = var2.value;
                     var7 = var8.find;
@@ -705,18 +705,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         return var1;
                     };
                     var1 = var7.bind(var8)(var1);
-                    if(!(var3 == var1)) { _fun0011_ip = 103; continue _fun0011 }
- 86:
+                    if(!(var3 == var1)) { _fun0011_ip = 104; continue _fun0011 }
+ 87:
                     var7 = var4.bind(var5)();
                     var1 = var7.done;
                     var2 = var7;
-                    if(var1) { _fun0011_ip = 107; continue _fun0011 }
- 101:
+                    if(var1) { _fun0011_ip = 108; continue _fun0011 }
+ 102:
                     _fun0011_ip = 60; continue _fun0011;
- 103:
+ 104:
                     var1 = true;
                     return var1;
- 107:
+ 108:
                     var1 = false;
                     return var1;
                 }

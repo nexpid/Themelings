@@ -1,12 +1,12 @@
 // app/modules/voice_calls/native/CallsUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var8 = native2;
-        var10 = native3;
-        var5 = native4;
-        var3 = native6;
-        var9 = native7;
+        var8 = require;
+        var10 = metroImportDefault;
+        var5 = metroImportAll;
+        var3 = exports;
+        var9 = dependencyMap;
         var _closure1_slot0 = var8;
         var _closure1_slot1 = var10;
         var _closure1_slot2 = var5;
@@ -83,7 +83,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 364; continue _fun0002 }
+                        if(var2) { _fun0002_ip = 362; continue _fun0002 }
  10:
                         var3 = _closure1_slot10;
                         var2 = var3.isVideoEnabled;
@@ -101,10 +101,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var11 = var4.limit;
                         var4 = _closure1_slot1;
                         var10 = _closure1_slot3;
-                        if(var5) { _fun0002_ip = 212; continue _fun0002 }
- 89:
-                        if(var3) { _fun0002_ip = 182; continue _fun0002 }
- 92:
+                        if(var5) { _fun0002_ip = 211; continue _fun0002 }
+ 88:
+                        if(var3) { _fun0002_ip = 181; continue _fun0002 }
+ 91:
                         var3 = 15;
                         var3 = var10[var3];
                         var7 = var4.bind(var2)(var3);
@@ -112,15 +112,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = _closure1_slot16;
                         var3 = var3.CAMERA;
                         var3 = var5.bind(var7)(var3);
-                        SaveGenerator(address=129);
- 127:
+                        SaveGenerator(address=128);
+ 126:
                         return var3;
- 129:
+ 128:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                        if(var5) { _fun0002_ip = 179; continue _fun0002 }
- 135:
-                        if(!var3) { _fun0002_ip = 361; continue _fun0002 }
- 141:
+                        if(var5) { _fun0002_ip = 178; continue _fun0002 }
+ 134:
+                        if(!var3) { _fun0002_ip = 359; continue _fun0002 }
+ 140:
                         var7 = _closure1_slot1;
                         var8 = _closure1_slot3;
                         var5 = 16;
@@ -129,18 +129,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var7 = var8.setVideoEnabled;
                         var5 = true;
                         var5 = var7.bind(var8)(var5);
-                        _fun0002_ip = 361; continue _fun0002;
- 179:
+                        _fun0002_ip = 359; continue _fun0002;
+ 178:
                         return var3;
- 182:
+ 181:
                         var3 = 16;
                         var3 = var10[var3];
                         var7 = var4.bind(var2)(var3);
                         var5 = var7.setVideoEnabled;
                         var3 = false;
                         var3 = var5.bind(var7)(var3);
-                        _fun0002_ip = 361; continue _fun0002;
- 212:
+                        _fun0002_ip = 359; continue _fun0002;
+ 211:
                         var3 = 13;
                         var3 = var10[var3];
                         var5 = var4.bind(var2)(var3);
@@ -173,9 +173,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var6 = var8.bind(var9)(var7, var6);
                         var3['body'] = var6;
                         var3 = var4.bind(var5)(var3);
- 361:
+ 359:
                         return var2;
- 364:
+ 362:
                         return var1;
                     }
                 };

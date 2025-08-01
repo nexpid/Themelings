@@ -1,9 +1,9 @@
 // app/uikit-native/Atoms.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var4 = native2;
-    var6 = native3;
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var4 = require;
+    var6 = metroImportDefault;
+    var3 = exports;
+    var5 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;

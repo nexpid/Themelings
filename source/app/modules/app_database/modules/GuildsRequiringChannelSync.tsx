@@ -1,10 +1,10 @@
 // app/modules/app_database/modules/GuildsRequiringChannelSync.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var8 = native4;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var8 = metroImportAll;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
@@ -465,7 +465,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = arg2;
                 var2 = var6.length;
                 var1 = var3.length;
-                if(!(var2 === var1)) { _fun0009_ip = 199; continue _fun0009 }
+                if(!(var2 === var1)) { _fun0009_ip = 203; continue _fun0009 }
  23:
                 var1 = global;
                 var1 = var1.Set;
@@ -493,29 +493,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var1.bind(var5)(var3);
                 var3 = var4.bind(var5)();
                 var1 = var3.done;
-                if(var1) { _fun0009_ip = 183; continue _fun0009 }
+                if(var1) { _fun0009_ip = 187; continue _fun0009 }
  128:
                 var6 = var3.value;
                 var1 = var2.has;
                 var1 = var1.bind(var2)(var6);
-                if(var1) { _fun0009_ip = 158; continue _fun0009 }
+                if(var1) { _fun0009_ip = 162; continue _fun0009 }
  146:
                 var1 = {'rolesAreDifferent': true, 'allRoleIds': null};
                 return var1;
- 158:
+ 162:
                 var1 = var2.add;
                 var1 = var1.bind(var2)(var6);
                 var6 = var4.bind(var5)();
                 var1 = var6.done;
                 var3 = var6;
                 if(!var1) { _fun0009_ip = 128; continue _fun0009 }
- 183:
+ 187:
                 var1 = {};
                 var3 = false;
                 var1['rolesAreDifferent'] = var3;
                 var1['allRoleIds'] = var2;
                 return var1;
- 199:
+ 203:
                 var1 = {'rolesAreDifferent': true, 'allRoleIds': null};
                 return var1;
             }
@@ -695,7 +695,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var3.unmarkGuildForResync;
                 var2 = var1.id;
                 var2 = var5.bind(var3)(var2, var4);
-                _fun0012_ip = 441; continue _fun0012;
+                _fun0012_ip = 442; continue _fun0012;
  54:
                 var6 = _closure1_slot5;
                 var2 = var6.getId;
@@ -722,7 +722,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var7 = var10.bind(var3)(var8, var2, var11);
  145:
                 var8 = null;
-                if(var7) { _fun0012_ip = 301; continue _fun0012 }
+                if(var7) { _fun0012_ip = 302; continue _fun0012 }
  153:
                 var11 = _closure1_slot6;
                 var10 = var11.getSelfMember;
@@ -747,40 +747,40 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 };
                 var11 = var10.bind(var11)(var9);
                 var10 = var3.processMemberRoleIds;
-                if(!(var6 == var2)) { _fun0012_ip = 236; continue _fun0012 }
- 230:
+                if(!(var6 == var2)) { _fun0012_ip = 237; continue _fun0012 }
+ 231:
                 var9 = new Array(0);
-                _fun0012_ip = 242; continue _fun0012;
- 236:
+                _fun0012_ip = 243; continue _fun0012;
+ 237:
                 var9 = var2.roles;
- 242:
+ 243:
                 var12 = var6 == var11;
                 var2 = undefined;
-                if(var12) { _fun0012_ip = 257; continue _fun0012 }
- 251:
+                if(var12) { _fun0012_ip = 258; continue _fun0012 }
+ 252:
                 var2 = var11.roles;
- 257:
-                if(!(var6 == var2)) { _fun0012_ip = 265; continue _fun0012 }
- 261:
+ 258:
+                if(!(var6 == var2)) { _fun0012_ip = 266; continue _fun0012 }
+ 262:
                 var2 = new Array(0);
- 265:
+ 266:
                 var2 = var10.bind(var3)(var9, var2);
                 var9 = var2.rolesAreDifferent;
                 var2 = var2.allRoleIds;
                 var10 = var6 != var2;
                 var7 = var9;
                 var8 = null;
-                if(!var10) { _fun0012_ip = 301; continue _fun0012 }
- 295:
+                if(!var10) { _fun0012_ip = 302; continue _fun0012 }
+ 296:
                 var7 = var9;
                 var8 = var2;
- 301:
+ 302:
                 var2 = var7;
-                if(var7) { _fun0012_ip = 421; continue _fun0012 }
- 307:
+                if(var7) { _fun0012_ip = 422; continue _fun0012 }
+ 308:
                 var2 = var7;
-                if(!(var6 != var8)) { _fun0012_ip = 421; continue _fun0012 }
- 314:
+                if(!(var6 != var8)) { _fun0012_ip = 422; continue _fun0012 }
+ 315:
                 var9 = _closure1_slot7;
                 var7 = var9.getUnsafeMutableRoles;
                 var6 = var1.id;
@@ -789,11 +789,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = global;
                 var6 = var6.Array;
                 var6 = var9 instanceof var6;
-                if(var6) { _fun0012_ip = 363; continue _fun0012 }
- 355:
+                if(var6) { _fun0012_ip = 364; continue _fun0012 }
+ 356:
                 var6 = var1.roles;
-                _fun0012_ip = 408; continue _fun0012;
- 363:
+                _fun0012_ip = 409; continue _fun0012;
+ 364:
                 var10 = _closure1_slot1;
                 var9 = _closure1_slot2;
                 var5 = 9;
@@ -804,16 +804,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var1.id;
                 var5 = var1.roles;
                 var6 = var10.bind(var11)(var9, var5);
- 408:
+ 409:
                 var5 = var3.rolesHaveVisibilityChanges;
                 var2 = var5.bind(var3)(var7, var6, var8);
- 421:
-                if(!var2) { _fun0012_ip = 441; continue _fun0012 }
- 424:
+ 422:
+                if(!var2) { _fun0012_ip = 442; continue _fun0012 }
+ 425:
                 var2 = var3.markGuildForResync;
                 var1 = var1.id;
                 var1 = var2.bind(var3)(var1, var4);
- 441:
+ 442:
                 var1 = undefined;
                 return var1;
             }

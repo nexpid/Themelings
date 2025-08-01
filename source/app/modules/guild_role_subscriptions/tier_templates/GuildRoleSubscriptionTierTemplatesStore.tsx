@@ -1,9 +1,9 @@
 // app/modules/guild_role_subscriptions/tier_templates/GuildRoleSubscriptionTierTemplatesStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -157,7 +157,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = null;
                 var3 = var1 == var4;
                 var1 = undefined;
-                if(var3) { _fun0003_ip = 51; continue _fun0003 }
+                if(var3) { _fun0003_ip = 52; continue _fun0003 }
  34:
                 var3 = var4.find;
                 var2 = function(arg1) {
@@ -168,7 +168,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 };
                 var1 = var3.bind(var4)(var2);
- 51:
+ 52:
                 return var1;
             }
         };
@@ -230,23 +230,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var2 = var2.bind(var4)(var1);
                     var1 = undefined;
-                    if(!(var1 === var2)) { _fun0004_ip = 82; continue _fun0004 }
- 39:
+                    if(!(var1 === var2)) { _fun0004_ip = 83; continue _fun0004 }
+ 40:
                     var6 = var3.id;
                     var5 = _closure1_slot8;
                     var5 = var6 in var5;
-                    if(var5) { _fun0004_ip = 93; continue _fun0004 }
- 58:
+                    if(var5) { _fun0004_ip = 94; continue _fun0004 }
+ 59:
                     var5 = _closure1_slot5;
                     var6 = var5.bind(var1)(var3);
                     var5 = _closure1_slot8;
                     var4 = var3.id;
                     var5[var4] = var6;
-                    _fun0004_ip = 93; continue _fun0004;
- 82:
+                    _fun0004_ip = 94; continue _fun0004;
+ 83:
                     var2 = var2.id;
                     var3['id'] = var2;
- 93:
+ 94:
                     return var1;
                 }
             };

@@ -1,9 +1,9 @@
 // app/modules/action_sheet/native/components/EmojiRow.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var4 = 1;
@@ -184,13 +184,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
-            if(var3) { _fun0002_ip = 154; continue _fun0002 }
- 146:
+            if(var3) { _fun0002_ip = 153; continue _fun0002 }
+ 145:
             var9 = var1.PRIMARY_300;
-            _fun0002_ip = 160; continue _fun0002;
- 154:
+            _fun0002_ip = 159; continue _fun0002;
+ 153:
             var9 = var1.PRIMARY_500;
- 160:
+ 159:
             _closure2_slot3 = var9;
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -234,15 +234,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10 = var17[var10];
             var10 = var14.bind(var4)(var10);
             var14 = var10.t;
-            if(var7) { _fun0002_ip = 361; continue _fun0002 }
- 348:
+            if(var7) { _fun0002_ip = 360; continue _fun0002 }
+ 347:
             var10 = var14.lfIHs7;
             var10 = var15.bind(var16)(var10);
-            _fun0002_ip = 374; continue _fun0002;
- 361:
+            _fun0002_ip = 373; continue _fun0002;
+ 360:
             var14 = var14.Kfcszs;
             var10 = var15.bind(var16)(var14);
- 374:
+ 373:
             var5['accessibilityLabel'] = var10;
             var10 = function onPress() {
                 var8 = _closure1_slot0;
@@ -277,13 +277,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var10[1] = var13;
             var5['style'] = var10;
             var10 = _closure1_slot9;
-            if(var7) { _fun0002_ip = 438; continue _fun0002 }
- 424:
+            if(var7) { _fun0002_ip = 437; continue _fun0002 }
+ 423:
             var7 = {};
             var7['color'] = var9;
             var7 = var10.bind(var4)(var8, var7);
-            _fun0002_ip = 533; continue _fun0002;
- 438:
+            _fun0002_ip = 532; continue _fun0002;
+ 437:
             var9 = _closure1_slot1;
             var15 = _closure1_slot2;
             var8 = 21;
@@ -360,7 +360,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var8['children'] = var11;
             var7 = var10.bind(var4)(var9, var8);
- 533:
+ 532:
             var5['children'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;

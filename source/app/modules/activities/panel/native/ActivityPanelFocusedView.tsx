@@ -1,9 +1,9 @@
 // app/modules/activities/panel/native/ActivityPanelFocusedView.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot3 = var7;
@@ -761,8 +761,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var8['style'] = var12;
                     var13 = _closure2_slot19;
                     var12 = null;
-                    if(var13) { _fun0008_ip = 265; continue _fun0008 }
- 192:
+                    if(var13) { _fun0008_ip = 264; continue _fun0008 }
+ 191:
                     var15 = _closure1_slot15;
                     var14 = _closure1_slot1;
                     var17 = _closure1_slot2;
@@ -780,7 +780,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var16 = _closure2_slot18;
                     var13['landscapeSafeAreasConfig'] = var16;
                     var12 = var15.bind(var3)(var14, var13);
- 265:
+ 264:
                     var8['children'] = var12;
                     var10 = var11.bind(var3)(var10, var8);
                     var8 = new Array(2);

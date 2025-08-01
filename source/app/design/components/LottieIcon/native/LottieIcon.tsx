@@ -1,10 +1,10 @@
 // app/design/components/LottieIcon/native/LottieIcon.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot3 = var7;
@@ -109,29 +109,29 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = null;
             var2 = var12 == var18;
             var8 = undefined;
-            if(var2) { _fun0001_ip = 264; continue _fun0001 }
- 259:
+            if(var2) { _fun0001_ip = 266; continue _fun0001 }
+ 261:
             var8 = var18.start;
- 264:
+ 266:
             var19 = var12 != var8;
             var2 = -1;
             var16 = var2;
-            if(!var19) { _fun0001_ip = 283; continue _fun0001 }
- 280:
+            if(!var19) { _fun0001_ip = 285; continue _fun0001 }
+ 282:
             var16 = var8;
- 283:
+ 285:
             _closure2_slot5 = var16;
             var19 = var12 == var18;
             var8 = undefined;
-            if(var19) { _fun0001_ip = 301; continue _fun0001 }
- 296:
+            if(var19) { _fun0001_ip = 303; continue _fun0001 }
+ 298:
             var8 = var18.duration;
- 301:
+ 303:
             var18 = var12 != var8;
-            if(!var18) { _fun0001_ip = 311; continue _fun0001 }
- 308:
+            if(!var18) { _fun0001_ip = 313; continue _fun0001 }
+ 310:
             var2 = var8;
- 311:
+ 313:
             var2 = var16 + var2;
             _closure2_slot6 = var2;
             var19 = _closure1_slot3;
@@ -153,15 +153,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var8 === var13;
             var8 = {};
             var19 = var6;
-            if(!var13) { _fun0001_ip = 408; continue _fun0001 }
- 405:
+            if(!var13) { _fun0001_ip = 410; continue _fun0001 }
+ 407:
             var19 = var20;
- 408:
+ 410:
             var8['width'] = var19;
-            if(!var13) { _fun0001_ip = 418; continue _fun0001 }
- 415:
+            if(!var13) { _fun0001_ip = 420; continue _fun0001 }
+ 417:
             var6 = var7;
- 418:
+ 420:
             var8['height'] = var6;
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;

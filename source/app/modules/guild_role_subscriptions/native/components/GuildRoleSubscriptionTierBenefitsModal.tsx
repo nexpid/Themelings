@@ -1,10 +1,10 @@
 // app/modules/guild_role_subscriptions/native/components/GuildRoleSubscriptionTierBenefitsModal.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var17 = native3;
-    var8 = native4;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var17 = metroImportDefault;
+    var8 = metroImportAll;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var17;
     var _closure1_slot2 = var8;
@@ -347,10 +347,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = var7.bind(var1)(var6, var5);
                     var2 = _closure2_slot0;
                     var5 = arg1;
-                    if(!var5) { _fun0005_ip = 84; continue _fun0005 }
- 79:
+                    if(!var5) { _fun0005_ip = 85; continue _fun0005 }
+ 80:
                     var3 = var4.value;
- 84:
+ 85:
                     var2 = var2.bind(var1)(var3);
                     return var1;
                 }

@@ -1,8 +1,8 @@
 // app/modules/app_launcher/native/AppLauncherContext.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var10;
     var4 = function useAppLauncherChatInputRefDummy(arg1) {
@@ -89,7 +89,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var6.bind(var7)(var3, var1, var5);
     var15 = 0;
     var6 = var10[var15];
-    var5 = native4;
+    var5 = metroImportAll;
     var1 = undefined;
     var11 = var5.bind(var1)(var6);
     var _closure1_slot2 = var11;

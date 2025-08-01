@@ -1,13 +1,13 @@
 // app/modules/collectibles/native/CollectiblesShopCardV2.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var7 = native2;
-        var13 = native3;
-        var3 = native6;
-        var8 = native7;
+        var7 = require;
+        var14 = metroImportDefault;
+        var3 = exports;
+        var8 = dependencyMap;
         var _closure1_slot0 = var7;
-        var _closure1_slot1 = var13;
+        var _closure1_slot1 = var14;
         var _closure1_slot2 = var8;
         var1 = global;
         var6 = var1.Object;
@@ -19,17 +19,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var4.bind(var6)(var3, var1, var2);
         var1 = 0;
         var4 = var8[var1];
-        var2 = native4;
+        var2 = metroImportAll;
         var1 = undefined;
-        var2 = var2.bind(var1)(var4);
-        var _closure1_slot3 = var2;
+        var9 = var2.bind(var1)(var4);
+        var _closure1_slot3 = var9;
         var2 = 1;
         var2 = var8[var2];
         var2 = var7.bind(var1)(var2);
         var4 = var2.PixelRatio;
         var2 = 2;
         var2 = var8[var2];
-        var2 = var13.bind(var1)(var2);
+        var2 = var14.bind(var1)(var2);
         var _closure1_slot4 = var2;
         var2 = 3;
         var2 = var8[var2];
@@ -49,34 +49,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  178:
         var2 = 4;
         var2 = var8[var2];
-        var10 = var7.bind(var1)(var2);
-        var9 = var10.createStyles;
+        var11 = var7.bind(var1)(var2);
+        var10 = var11.createStyles;
         var6 = {};
-        var11 = {'height': null, 'width': 150, 'display': 'flex', 'borderWidth': 1, 'borderRadius': null, 'overflow': 'hidden'};
-        var11['height'] = var4;
+        var12 = {'height': null, 'width': 150, 'display': 'flex', 'borderWidth': 1, 'borderRadius': null, 'overflow': 'hidden'};
+        var12['height'] = var4;
         var2 = 150;
-        var12 = 5;
-        var14 = var8[var12];
-        var14 = var13.bind(var1)(var14);
-        var14 = var14.radii;
-        var14 = var14.sm;
-        var11['borderRadius'] = var14;
-        var14 = var8[var12];
-        var14 = var13.bind(var1)(var14);
-        var14 = var14.colors;
-        var14 = var14.BORDER_SUBTLE;
-        var11['borderColor'] = var14;
-        var6['card'] = var11;
-        var11 = {};
-        var12 = var8[var12];
-        var12 = var13.bind(var1)(var12);
-        var12 = var12.colors;
-        var12 = var12.BORDER_FAINT;
-        var11['borderColor'] = var12;
-        var6['cardProfileEffectBorder'] = var11;
-        var11 = {'position': 'absolute', 'top': 6, 'right': 6, 'zIndex': 2};
-        var6['premiumWheel'] = var11;
-        var6 = var9.bind(var10)(var6);
+        var13 = 5;
+        var15 = var8[var13];
+        var15 = var14.bind(var1)(var15);
+        var15 = var15.radii;
+        var15 = var15.sm;
+        var12['borderRadius'] = var15;
+        var15 = var8[var13];
+        var15 = var14.bind(var1)(var15);
+        var15 = var15.colors;
+        var15 = var15.BORDER_SUBTLE;
+        var12['borderColor'] = var15;
+        var6['card'] = var12;
+        var12 = {};
+        var13 = var8[var13];
+        var13 = var14.bind(var1)(var13);
+        var13 = var13.colors;
+        var13 = var13.BORDER_FAINT;
+        var12['borderColor'] = var13;
+        var6['cardProfileEffectBorder'] = var12;
+        var12 = {'position': 'absolute', 'top': 6, 'right': 6, 'zIndex': 2};
+        var6['premiumWheel'] = var12;
+        var6 = var10.bind(var11)(var6);
         var _closure1_slot7 = var6;
         var6 = function CollectiblesShopCardInternalV2(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -219,13 +219,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             }
         };
         var _closure1_slot8 = var6;
-        var6 = 23;
-        var6 = var8[var6];
-        var8 = var7.bind(var1)(var6);
-        var7 = var8.fileFinishedImporting;
-        var6 = 'modules/collectibles/native/CollectiblesShopCardV2.tsx';
-        var6 = var7.bind(var8)(var6);
-        var5 = function _default(arg1) {
+        var6 = var9.memo;
+        var5 = function(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                 var2 = arg1;
@@ -389,6 +384,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             }
         };
+        var5 = var6.bind(var9)(var5);
+        var6 = 23;
+        var6 = var8[var6];
+        var8 = var7.bind(var1)(var6);
+        var7 = var8.fileFinishedImporting;
+        var6 = 'modules/collectibles/native/CollectiblesShopCardV2.tsx';
+        var6 = var7.bind(var8)(var6);
         var3['default'] = var5;
         var3['COLLECTIBLES_SHOP_CARD_HEIGHT'] = var4;
         var3['COLLECTIBLES_SHOP_CARD_WIDTH'] = var2;

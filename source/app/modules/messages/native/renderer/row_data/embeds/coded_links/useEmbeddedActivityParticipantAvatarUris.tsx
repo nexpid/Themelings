@@ -1,9 +1,9 @@
 // app/modules/messages/native/renderer/row_data/embeds/coded_links/useEmbeddedActivityParticipantAvatarUris.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -16,7 +16,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
     var8 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot2 = var4;
@@ -143,7 +143,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot1 = var3;
             var7 = var2.activity;
             var6 = null;
-            if(!(var6 == var7)) { _fun0002_ip = 73; continue _fun0002 }
+            if(!(var6 == var7)) { _fun0002_ip = 74; continue _fun0002 }
  40:
             var3 = _closure1_slot3;
             var2 = var3.getEmbeddedActivitiesForChannel;
@@ -157,21 +157,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var7 = var3.bind(var4)(var2);
- 73:
+ 74:
             var2 = global;
             var4 = var2.Array;
             var3 = var4.from;
             var8 = var6 == var7;
             var5 = undefined;
             var2 = undefined;
-            if(var8) { _fun0002_ip = 103; continue _fun0002 }
- 97:
+            if(var8) { _fun0002_ip = 104; continue _fun0002 }
+ 98:
             var2 = var7.userIds;
- 103:
-            if(!(var6 == var2)) { _fun0002_ip = 111; continue _fun0002 }
- 107:
+ 104:
+            if(!(var6 == var2)) { _fun0002_ip = 112; continue _fun0002 }
+ 108:
             var2 = new Array(0);
- 111:
+ 112:
             var3 = var3.bind(var4)(var2);
             var2 = var3.map;
             var1 = function(arg1) {

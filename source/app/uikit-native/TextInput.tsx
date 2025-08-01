@@ -1,9 +1,9 @@
 // app/uikit-native/TextInput.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var4 = 1;
@@ -95,13 +95,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var8[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
-            if(var2) { _fun0001_ip = 136; continue _fun0001 }
- 128:
+            if(var2) { _fun0001_ip = 135; continue _fun0001 }
+ 127:
             var10 = var1.PRIMARY_500;
-            _fun0001_ip = 142; continue _fun0001;
- 136:
+            _fun0001_ip = 141; continue _fun0001;
+ 135:
             var10 = var1.PRIMARY_100;
- 142:
+ 141:
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
@@ -119,13 +119,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var9.isThemeDark;
             var8 = var8.bind(var9)(var11);
             var9 = _closure1_slot4;
-            if(var8) { _fun0001_ip = 224; continue _fun0001 }
- 216:
+            if(var8) { _fun0001_ip = 223; continue _fun0001 }
+ 215:
             var8 = var9.LIGHT;
-            _fun0001_ip = 230; continue _fun0001;
- 224:
+            _fun0001_ip = 229; continue _fun0001;
+ 223:
             var8 = var9.DARK;
- 230:
+ 229:
             var1['keyboardAppearance'] = var8;
             var6 = var6.placeholderTextColor;
             var6 = var6.color;
@@ -138,8 +138,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var8.isAndroid;
             var8 = var6.bind(var8)();
             var6 = var10;
-            if(!var8) { _fun0001_ip = 328; continue _fun0001 }
- 286:
+            if(!var8) { _fun0001_ip = 327; continue _fun0001 }
+ 285:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var7 = 8;
@@ -148,7 +148,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var9.hexWithOpacity;
             var7 = 0.5;
             var6 = var8.bind(var9)(var10, var7);
- 328:
+ 327:
             var1['selectionColor'] = var6;
             var16 = var1;
             var15 = var5;

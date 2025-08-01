@@ -1,8 +1,8 @@
 // app/utils/GIFPickerUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -58,27 +58,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var3 != var7;
             var8 = 1;
             var6 = var8;
-            if(!var9) { _fun0001_ip = 147; continue _fun0001 }
- 110:
+            if(!var9) { _fun0001_ip = 145; continue _fun0001 }
+ 108:
             var9 = var3 != var11;
             var6 = var8;
-            if(!var9) { _fun0001_ip = 147; continue _fun0001 }
- 120:
+            if(!var9) { _fun0001_ip = 145; continue _fun0001 }
+ 118:
             var9 = global;
             var10 = var9.Math;
             var9 = var10.floor;
             var7 = var11 / var7;
             var7 = var9.bind(var10)(var7);
             var6 = var7 + var8;
- 147:
+ 145:
             var1['page'] = var6;
             var1['total_results'] = var5;
             var5 = var3 != var4;
             var3 = null;
-            if(!var5) { _fun0001_ip = 169; continue _fun0001 }
- 166:
+            if(!var5) { _fun0001_ip = 167; continue _fun0001 }
+ 164:
             var3 = var4;
- 169:
+ 167:
             var1['page_results'] = var3;
             var3 = global;
             var4 = var3.Object;

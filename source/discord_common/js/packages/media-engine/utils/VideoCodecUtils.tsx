@@ -1,10 +1,10 @@
 // discord_common/js/packages/media-engine/utils/VideoCodecUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var5 = native2;
-        var3 = native6;
-        var6 = native7;
+        var5 = require;
+        var3 = exports;
+        var6 = dependencyMap;
         var1 = function filterVideoCodecsInternal(arg1, arg2) {
             var4 = arg2;
             var1 = arg1;
@@ -32,27 +32,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     };
                     var4 = var3.bind(var4)(var2);
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0002_ip = 103; continue _fun0002 }
- 37:
+                    if(!(var2 != var4)) { _fun0002_ip = 104; continue _fun0002 }
+ 38:
                     var3 = _closure2_slot1;
                     var2 = var3.push;
                     var1 = {};
                     var6 = var4.codec;
                     var1['name'] = var6;
                     var6 = var4.encode;
-                    if(!var6) { _fun0002_ip = 73; continue _fun0002 }
- 67:
+                    if(!var6) { _fun0002_ip = 74; continue _fun0002 }
+ 68:
                     var6 = var5.encode;
- 73:
+ 74:
                     var1['encode'] = var6;
                     var4 = var4.decode;
-                    if(!var4) { _fun0002_ip = 93; continue _fun0002 }
- 87:
+                    if(!var4) { _fun0002_ip = 94; continue _fun0002 }
+ 88:
                     var4 = var5.decode;
- 93:
+ 94:
                     var1['decode'] = var4;
                     var1 = var2.bind(var3)(var1);
- 103:
+ 104:
                     var1 = undefined;
                     return var1;
                 }
@@ -135,7 +135,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  236:
         var10 = 1;
         var11 = var6[var10];
-        var10 = native3;
+        var10 = metroImportDefault;
         var11 = var10.bind(var1)(var11);
         var10 = var11.satisfies;
         var13 = var9.window;

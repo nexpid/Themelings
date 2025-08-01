@@ -1,9 +1,9 @@
 // app/stores/ChannelSectionStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var5 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var5;
     var _closure1_slot2 = var7;
@@ -546,17 +546,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = arg1;
                 var4 = var2.bind(var7)(var1);
                 var1 = null;
-                if(!(var1 != var4)) { _fun0011_ip = 140; continue _fun0011 }
- 23:
+                if(!(var1 != var4)) { _fun0011_ip = 187; continue _fun0011 }
+ 26:
                 var2 = _closure1_slot23;
-                if(var2) { _fun0011_ip = 138; continue _fun0011 }
- 30:
+                if(var2) { _fun0011_ip = 185; continue _fun0011 }
+ 36:
                 var2 = _closure1_slot24;
                 var4 = var2[var4];
                 var5 = var1 == var4;
                 var2 = null;
-                if(var5) { _fun0011_ip = 136; continue _fun0011 }
- 47:
+                if(var5) { _fun0011_ip = 183; continue _fun0011 }
+ 56:
                 var6 = var4.type;
                 var9 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -565,26 +565,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = var9.bind(var7)(var5);
                 var5 = var5.SidebarType;
                 var5 = var5.VIEW_THREAD;
-                if(!(var6 !== var5)) { _fun0011_ip = 128; continue _fun0011 }
- 88:
+                if(!(var6 !== var5)) { _fun0011_ip = 175; continue _fun0011 }
+ 97:
+                var6 = var4.type;
+                var9 = _closure1_slot0;
+                var5 = _closure1_slot2;
+                var5 = var5[var8];
+                var5 = var9.bind(var7)(var5);
+                var5 = var5.SidebarType;
+                var5 = var5.VIEW_CHANNEL;
+                if(!(var6 !== var5)) { _fun0011_ip = 175; continue _fun0011 }
+ 135:
                 var6 = var4.type;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var8];
                 var3 = var5.bind(var7)(var3);
                 var3 = var3.SidebarType;
-                var5 = var3.VIEW_CHANNEL;
+                var5 = var3.VIEW_MOD_REPORT;
                 var3 = null;
-                if(!(var6 === var5)) { _fun0011_ip = 133; continue _fun0011 }
- 128:
+                if(!(var6 === var5)) { _fun0011_ip = 180; continue _fun0011 }
+ 175:
                 var3 = var4.channelId;
- 133:
+ 180:
                 var2 = var3;
- 136:
+ 183:
                 return var2;
- 138:
+ 185:
                 return var1;
- 140:
+ 187:
                 return var1;
             }
         };
@@ -601,17 +610,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = arg1;
                 var5 = var2.bind(var4)(var1);
                 var1 = null;
-                if(!(var1 != var5)) { _fun0012_ip = 167; continue _fun0012 }
+                if(!(var1 != var5)) { _fun0012_ip = 208; continue _fun0012 }
  26:
                 var2 = _closure1_slot23;
-                if(var2) { _fun0012_ip = 165; continue _fun0012 }
+                if(var2) { _fun0012_ip = 206; continue _fun0012 }
  36:
                 var2 = _closure1_slot24;
                 var5 = var2[var5];
                 var6 = var1 == var5;
                 var2 = null;
-                if(var6) { _fun0012_ip = 163; continue _fun0012 }
- 53:
+                if(var6) { _fun0012_ip = 204; continue _fun0012 }
+ 56:
                 var7 = var5.type;
                 var9 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -620,33 +629,42 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var6 = var9.bind(var4)(var6);
                 var6 = var6.SidebarType;
                 var6 = var6.VIEW_THREAD;
-                if(!(var7 !== var6)) { _fun0012_ip = 134; continue _fun0012 }
- 94:
+                if(!(var7 !== var6)) { _fun0012_ip = 175; continue _fun0012 }
+ 97:
+                var7 = var5.type;
+                var9 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var6 = var6[var8];
+                var6 = var9.bind(var4)(var6);
+                var6 = var6.SidebarType;
+                var6 = var6.VIEW_CHANNEL;
+                if(!(var7 !== var6)) { _fun0012_ip = 175; continue _fun0012 }
+ 135:
                 var7 = var5.type;
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var8];
                 var3 = var6.bind(var4)(var3);
                 var3 = var3.SidebarType;
-                var6 = var3.VIEW_CHANNEL;
+                var6 = var3.VIEW_MOD_REPORT;
                 var3 = null;
-                if(!(var7 === var6)) { _fun0012_ip = 160; continue _fun0012 }
- 134:
+                if(!(var7 === var6)) { _fun0012_ip = 201; continue _fun0012 }
+ 175:
                 var5 = var5.details;
                 var6 = var1 == var5;
                 var4 = undefined;
-                if(var6) { _fun0012_ip = 157; continue _fun0012 }
- 149:
+                if(var6) { _fun0012_ip = 198; continue _fun0012 }
+ 190:
                 var4 = var5.initialMessageId;
- 157:
+ 198:
                 var3 = var4;
- 160:
+ 201:
                 var2 = var3;
- 163:
+ 204:
                 return var2;
- 165:
+ 206:
                 return var1;
- 167:
+ 208:
                 return var1;
             }
         };
@@ -752,27 +770,45 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
             var1 = arg1;
-            var7 = var1.sidebarType;
-            var4 = var1.baseChannelId;
-            var6 = var1.channelId;
-            var5 = var1.details;
+            var8 = var1.sidebarType;
+            var7 = var1.baseChannelId;
+            var5 = var1.channelId;
+            var3 = var1.details;
             var1 = false;
             _closure1_slot23 = var1;
-            var3 = _closure1_slot27;
-            var1 = undefined;
-            var4 = var3.bind(var1)(var4);
-            var1 = null;
-            var1 = var1 != var4;
-            if(!var1) { _fun0016_ip = 80; continue _fun0016 }
- 55:
-            var3 = _closure1_slot24;
-            var2 = {};
-            var2['type'] = var7;
-            var2['channelId'] = var6;
-            var2['details'] = var5;
-            var3[var4] = var2;
-            var1 = true;
- 80:
+            var4 = _closure1_slot27;
+            var9 = undefined;
+            var4 = var4.bind(var9)(var7);
+            var6 = null;
+            if(!(var6 != var4)) { _fun0016_ip = 142; continue _fun0016 }
+ 52:
+            var6 = {};
+            var6['type'] = var8;
+            var6['channelId'] = var5;
+            var6['details'] = var3;
+            var5 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var3 = 15;
+            var3 = var10[var3];
+            var3 = var5.bind(var9)(var3);
+            var3 = var3.SidebarType;
+            var5 = var3.VIEW_MOD_REPORT;
+            var3 = var6;
+            if(!(var8 === var5)) { _fun0016_ip = 130; continue _fun0016 }
+ 106:
+            var5 = {};
+            var12 = var5;
+            var11 = var6;
+            var6 = copyDataProperties(var12, var11);
+            var6 = 'baseChannelId';
+            var5[var6] = var7;
+            var3 = var5;
+ 130:
+            var2 = _closure1_slot24;
+            var2[var4] = var3;
+            var2 = true;
+            return var2;
+ 142:
             return var1;
         }
     };
@@ -1094,18 +1130,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var3 = var4.bind(var2)(var3);
         var3 = var3.SidebarType;
         var6 = var3.VIEW_CHANNEL;
-        var3 = new Array(3);
+        var3 = new Array(4);
         var3[0] = var6;
         var6 = var5[var1];
         var6 = var4.bind(var2)(var6);
         var6 = var6.SidebarType;
         var6 = var6.VIEW_THREAD;
         var3[1] = var6;
+        var6 = var5[var1];
+        var6 = var4.bind(var2)(var6);
+        var6 = var6.SidebarType;
+        var6 = var6.VIEW_MESSAGE_REQUEST;
+        var3[2] = var6;
         var1 = var5[var1];
         var1 = var4.bind(var2)(var1);
         var1 = var1.SidebarType;
-        var1 = var1.VIEW_MESSAGE_REQUEST;
-        var3[2] = var1;
+        var1 = var1.VIEW_MOD_REPORT;
+        var3[3] = var1;
         var2 = var3.includes;
         var1 = arg1;
         var1 = var1.type;

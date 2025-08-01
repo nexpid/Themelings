@@ -1,9 +1,9 @@
 // app/stores/UploadAttachmentStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -421,7 +421,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var6.bind(var7)(var8, var2);
             var2 = _closure1_slot15;
             var2 = var2.bind(var1)(var5, var4, var3);
-            _fun0008_ip = 318; continue _fun0008;
+            _fun0008_ip = 317; continue _fun0008;
  170:
             var3 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -456,7 +456,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var7.bind(var8)(var6, var5);
             var2['body'] = var5;
             var2 = var3.bind(var4)(var2);
- 318:
+ 317:
             return var1;
         }
     };

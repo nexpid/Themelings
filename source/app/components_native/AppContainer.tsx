@@ -1,12 +1,12 @@
 // app/components_native/AppContainer.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var11 = native2;
-        var14 = native3;
-        var10 = native6;
-        var12 = native7;
-        var1 = native1;
+        var11 = require;
+        var14 = metroImportDefault;
+        var10 = exports;
+        var12 = dependencyMap;
+        var1 = global;
         var _closure1_slot0 = var1;
         var5 = var11;
         var _closure1_slot1 = var11;
@@ -448,7 +448,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure1_slot4 = var7;
         var13 = 1;
         var8 = var12[var13];
-        var7 = native4;
+        var7 = metroImportAll;
         var7 = var7.bind(var1)(var8);
         var _closure1_slot5 = var7;
         var7 = 2;

@@ -1,8 +1,8 @@
 // app/modules/voice_calls/trackVoiceFeedback.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native3;
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = metroImportDefault;
+    var3 = exports;
+    var5 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var5;
     var1 = function _trackVoiceFeedback() {
@@ -26,13 +26,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var17 = var2.feedback;
                     var5 = var2.analyticsData;
                     var4 = undefined;
-                    SaveGenerator(address=59);
- 57:
+                    SaveGenerator(address=60);
+ 58:
                     return var4;
- 59:
+ 60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(var3) { _fun0001_ip = 590; continue _fun0001 }
- 68:
+ 69:
                     var7 = _closure1_slot3;
                     var3 = var7.getSettings;
                     var9 = var3.bind(var7)();
@@ -77,13 +77,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var7 = var7.bind(var4)(var3);
                     var3 = var7.getKrispModel;
                     var3 = var3.bind(var7)();
-                    SaveGenerator(address=277);
- 275:
+                    SaveGenerator(address=278);
+ 276:
                     return var3;
- 277:
+ 278:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
                     if(var7) { _fun0001_ip = 587; continue _fun0001 }
- 286:
+ 287:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot1;
                     var6 = 3;
@@ -94,10 +94,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var12 = null;
                     var24 = var12 != var23;
                     var22 = 'no response';
-                    if(!var24) { _fun0001_ip = 331; continue _fun0001 }
- 328:
+                    if(!var24) { _fun0001_ip = 332; continue _fun0001 }
+ 329:
                     var22 = var23;
- 331:
+ 332:
                     var6['rating'] = var22;
                     var6['category'] = var21;
                     var6['reason_code'] = var20;
@@ -197,7 +197,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 4;
     var5 = var5[var4];
-    var4 = native2;
+    var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/voice_calls/trackVoiceFeedback.tsx';

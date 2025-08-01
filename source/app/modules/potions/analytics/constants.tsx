@@ -1,6 +1,6 @@
 // app/modules/potions/analytics/constants.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
     var1 = global;
     var5 = var1.Object;
     var4 = var5.defineProperty;
@@ -48,10 +48,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2['Unicode'] = var1;
     var1 = 'user_created';
     var2['UserCreated'] = var1;
-    var8 = native7;
+    var8 = dependencyMap;
     var1 = 0;
     var9 = var8[var1];
-    var8 = native2;
+    var8 = require;
     var1 = undefined;
     var10 = var8.bind(var1)(var9);
     var9 = var10.fileFinishedImporting;

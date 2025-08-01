@@ -1,8 +1,8 @@
 // app/modules/errors/av_errors/AVError.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native3;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var9;
     var1 = ['type'];
@@ -75,6 +75,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7['VIDEO_STREAM_RECEIVER_READY_TIMEOUT_NO_STREAM'] = var4;
     var4 = 'camera-send-low-encode-fps';
     var7['CAMERA_SEND_LOW_FPS'] = var4;
+    var4 = 'screenshare-os-error';
+    var7['SCREENSHARE_OS_ERROR'] = var4;
     var6 = {};
     var4 = 'audio';
     var6['Audio'] = var4;
@@ -303,6 +305,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8['category'] = var12;
     var8['isErrorOutbound'] = var11;
     var4[var10] = var8;
+    var10 = var7.SCREENSHARE_OS_ERROR;
+    var8 = {};
+    var12 = 3004;
+    var8['errorCode'] = var12;
+    var12 = var5.Critical;
+    var8['severity'] = var12;
+    var12 = var6.Devices;
+    var8['category'] = var12;
+    var8['isErrorOutbound'] = var11;
+    var4[var10] = var8;
     var10 = var7.DEBUG_LOG_UPLOAD_FAILED;
     var8 = {};
     var12 = 4001;
@@ -478,7 +490,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var8 = var8.bind(var1)();
     var8 = 3;
     var9 = var9[var8];
-    var8 = native2;
+    var8 = require;
     var10 = var8.bind(var1)(var9);
     var9 = var10.fileFinishedImporting;
     var8 = 'modules/errors/av_errors/AVError.tsx';

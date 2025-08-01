@@ -1,9 +1,9 @@
 // app/modules/collectibles/native/CollectiblesShopV2.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -198,7 +198,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var4;
     var4 = 1;
     var8 = var6[var4];
-    var4 = native4;
+    var4 = metroImportAll;
     var4 = var4.bind(var1)(var8);
     var _closure1_slot4 = var4;
     var4 = 2;
@@ -407,12 +407,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = function CollectiblesShopInternal(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            var2 = arg1;
-            var24 = var2.analyticsSource;
-            var _closure2_slot0 = var24;
-            var26 = var2.onClose;
-            var1 = var2.storeFront;
-            var17 = var2.screen;
+            var1 = arg1;
+            var25 = var1.analyticsSource;
+            var _closure2_slot0 = var25;
+            var26 = var1.onClose;
+            var5 = var1.storeFront;
+            var17 = var1.screen;
             var6 = undefined;
             var _closure2_slot1 = var6;
             var _closure2_slot2 = var6;
@@ -421,40 +421,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot5 = var6;
             var _closure2_slot6 = var6;
             var _closure2_slot7 = var6;
-            var _closure2_slot8 = var6;
-            var _closure2_slot9 = var6;
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 18;
-            var2 = var10[var2];
-            var5 = var8.bind(var6)(var2);
-            var4 = var5.useCommonTriggerPoint;
-            var2 = 19;
-            var2 = var10[var2];
-            var2 = var8.bind(var6)(var2);
-            var2 = var2.CollectiblesShopOpenTriggerPoint;
-            var2 = var4.bind(var5)(var2);
-            var2 = 20;
-            var2 = var10[var2];
-            var7 = var8.bind(var6)(var2);
-            var5 = var7.useMobileShopFeaturedPageEnabled;
-            var2 = _closure1_slot16;
-            var4 = var2.COLLECTIBLES_SHOP;
-            var16 = var5.bind(var7)(var4);
-            var4 = 21;
-            var4 = var10[var4];
-            var5 = var8.bind(var6)(var4);
-            var4 = var5.useMobileCanPurchaseNameplates;
-            var2 = var2.COLLECTIBLES_SHOP;
-            var12 = var4.bind(var5)(var2);
+            var10 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 18;
+            var1 = var8[var1];
+            var4 = var10.bind(var6)(var1);
+            var2 = var4.useCommonTriggerPoint;
+            var1 = 19;
+            var1 = var8[var1];
+            var1 = var10.bind(var6)(var1);
+            var1 = var1.CollectiblesShopOpenTriggerPoint;
+            var1 = var2.bind(var4)(var1);
+            var1 = 20;
+            var1 = var8[var1];
+            var7 = var10.bind(var6)(var1);
+            var4 = var7.useMobileShopFeaturedPageEnabled;
+            var1 = _closure1_slot16;
+            var2 = var1.COLLECTIBLES_SHOP;
+            var16 = var4.bind(var7)(var2);
+            var2 = 21;
+            var2 = var8[var2];
+            var4 = var10.bind(var6)(var2);
+            var2 = var4.useMobileCanPurchaseNameplates;
+            var1 = var1.COLLECTIBLES_SHOP;
+            var12 = var2.bind(var4)(var1);
             var2 = 22;
-            var4 = var10[var2];
-            var9 = var8.bind(var6)(var4);
+            var1 = var8[var2];
+            var9 = var10.bind(var6)(var1);
             var7 = var9.useStateFromStoresArray;
-            var4 = _closure1_slot11;
-            var5 = new Array(1);
-            var5[0] = var4;
-            var4 = function() {
+            var1 = _closure1_slot11;
+            var4 = new Array(1);
+            var4[0] = var1;
+            var1 = function() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                     var1 = _closure1_slot11;
@@ -471,89 +469,88 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var7 = var7.bind(var9)(var5, var4);
-            var5 = _closure1_slot3;
-            var4 = 1;
-            var4 = var5.bind(var6)(var7, var4);
+            var7 = var7.bind(var9)(var4, var1);
+            var4 = _closure1_slot3;
+            var1 = 1;
+            var1 = var4.bind(var6)(var7, var1);
             var9 = 0;
-            var4 = var4[var9];
-            var5 = global;
-            var7 = var5.Date;
-            var5 = var7.now;
-            var5 = var5.bind(var7)();
-            var7 = var5 - var4;
-            var5 = 23;
-            var5 = var10[var5];
-            var5 = var8.bind(var6)(var5);
-            var5 = var5.COLLECTIBLES_STORE_LISTING_CACHE_DURATION;
-            var18 = var7 > var5;
-            var5 = _closure1_slot19;
-            var7 = var5.bind(var6)();
-            var19 = null;
-            var5 = var19 == var1;
-            var11 = undefined;
-            if(var5) { _fun0005_ip = 315; continue _fun0005 }
- 309:
-            var11 = var1.country;
- 315:
-            var5 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var4 = var1[var9];
+            var1 = global;
+            var7 = var1.Date;
+            var1 = var7.now;
+            var1 = var1.bind(var7)();
+            var7 = var1 - var4;
+            var1 = 23;
+            var1 = var8[var1];
+            var1 = var10.bind(var6)(var1);
+            var1 = var1.COLLECTIBLES_STORE_LISTING_CACHE_DURATION;
+            var23 = var7 > var1;
+            var7 = _closure1_slot1;
             var1 = 24;
             var1 = var8[var1];
-            var5 = var5.bind(var6)(var1);
-            var1 = {};
-            var8 = _closure1_slot15;
-            var8 = var8.APPLE;
-            var1['paymentGateway'] = var8;
-            if(!(var19 == var11)) { _fun0005_ip = 360; continue _fun0005 }
- 356:
-            var8 = {};
-            _fun0005_ip = 370; continue _fun0005;
- 360:
-            var10 = {};
-            var10['countryCode'] = var11;
-            var8 = var10;
- 370:
-            var34 = var1;
-            var33 = var8;
-            var8 = copyDataProperties(var34, var33);
-            var10 = 'CollectiblesShop.native';
-            var8 = 'location';
-            var1[var8] = var10;
-            var1 = var5.bind(var6)(var1);
-            var5 = var1.categories;
-            _closure2_slot1 = var5;
-            var14 = var1.isFetchingCategories;
-            _closure2_slot2 = var14;
-            var23 = _closure1_slot1;
-            var32 = _closure1_slot2;
-            var1 = 25;
-            var1 = var32[var1];
-            var8 = var23.bind(var6)(var1);
+            var7 = var7.bind(var6)(var1);
             var1 = 'shop_include_unpublished';
-            var1 = var8.bind(var6)(var1);
+            var8 = var7.bind(var6)(var1);
+            var1 = _closure1_slot19;
+            var7 = var1.bind(var6)();
+            var1 = null;
+            var10 = var1 == var5;
+            var14 = undefined;
+            if(var10) { _fun0005_ip = 334; continue _fun0005 }
+ 328:
+            var14 = var5.country;
+ 334:
+            var10 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var5 = 25;
+            var5 = var11[var5];
+            var10 = var10.bind(var6)(var5);
+            var5 = {};
+            var11 = _closure1_slot15;
+            var11 = var11.APPLE;
+            var5['paymentGateway'] = var11;
+            if(!(var1 == var14)) { _fun0005_ip = 379; continue _fun0005 }
+ 375:
+            var11 = {};
+            _fun0005_ip = 389; continue _fun0005;
+ 379:
+            var13 = {};
+            var13['countryCode'] = var14;
+            var11 = var13;
+ 389:
+            var34 = var5;
+            var33 = var11;
+            var11 = copyDataProperties(var34, var33);
+            var13 = 'CollectiblesShop.native';
+            var11 = 'location';
+            var5[var11] = var13;
+            var10 = var10.bind(var6)(var5);
+            var5 = var10.categories;
+            _closure2_slot1 = var5;
+            var14 = var10.isFetchingCategories;
+            _closure2_slot2 = var14;
             var31 = _closure1_slot0;
-            var8 = 26;
-            var8 = var32[var8];
-            var13 = var31.bind(var6)(var8);
-            var11 = var13.useMaybeFetchCollectiblesShopHome;
-            var8 = _closure1_slot13;
-            var10 = var8.HOME;
-            var8 = {'includeUnpublished': null, 'includeBundles': true, 'logPerf': true};
-            var8['includeUnpublished'] = var1;
-            var1 = true;
-            var8 = var11.bind(var13)(var10, var8);
-            var21 = var8.shopBlocks;
-            var11 = var8.isFetchingShopHome;
-            _closure2_slot3 = var11;
-            var8 = var8.fetchShopHomeError;
-            _closure2_slot4 = var8;
+            var32 = _closure1_slot2;
+            var10 = 26;
+            var10 = var32[var10];
+            var15 = var31.bind(var6)(var10);
+            var13 = var15.useMaybeFetchCollectiblesShopHome;
+            var10 = _closure1_slot13;
+            var11 = var10.HOME;
+            var10 = {'includeUnpublished': null, 'includeBundles': true, 'logPerf': true};
+            var10['includeUnpublished'] = var8;
+            var8 = true;
+            var10 = var13.bind(var15)(var11, var10);
+            var21 = var10.shopBlocks;
+            var18 = var10.isFetchingShopHome;
+            var10 = var10.fetchShopHomeError;
+            _closure2_slot3 = var10;
             var15 = _closure1_slot4;
             var13 = var15.useMemo;
-            var10 = new Array(2);
-            var10[0] = var5;
-            var10[1] = var14;
-            var8 = function() {
+            var11 = new Array(2);
+            var11[0] = var5;
+            var11[1] = var14;
+            var10 = function() {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                     var3 = _closure2_slot2;
@@ -631,34 +628,35 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var13 = var13.bind(var15)(var8, var10);
-            var8 = 28;
+            var13 = var13.bind(var15)(var10, var11);
+            var22 = _closure1_slot1;
+            var10 = 28;
+            var10 = var32[var10];
+            var11 = var22.bind(var6)(var10);
+            var10 = var11.useGoogleSkuIds;
+            var8 = var8 === var14;
+            var8 = var10.bind(var11)(var13, var8);
+            var11 = var8.isFetchingGoogleSkus;
+            var10 = var8.fetchError;
+            var8 = 29;
             var8 = var32[var8];
-            var10 = var23.bind(var6)(var8);
-            var8 = var10.useGoogleSkuIds;
-            var1 = var1 === var14;
-            var1 = var8.bind(var10)(var13, var1);
-            var15 = var1.isFetchingGoogleSkus;
-            var10 = var1.fetchError;
-            var1 = 29;
-            var1 = var32[var1];
-            var8 = var31.bind(var6)(var1);
-            var1 = var8.useFetchMissingProfileEffects;
-            var1 = var1.bind(var8)();
-            var1 = 30;
-            var1 = var32[var1];
-            var8 = var31.bind(var6)(var1);
-            var1 = var8.useCurrentUserIfAvailable;
-            var1 = var1.bind(var8)();
-            _closure2_slot5 = var1;
+            var13 = var31.bind(var6)(var8);
+            var8 = var13.useFetchMissingProfileEffects;
+            var8 = var8.bind(var13)();
+            var8 = 30;
+            var8 = var32[var8];
+            var13 = var31.bind(var6)(var8);
+            var8 = var13.useCurrentUserIfAvailable;
+            var15 = var8.bind(var13)();
+            _closure2_slot4 = var15;
             var8 = 31;
             var8 = var32[var8];
             var13 = var31.bind(var6)(var8);
             var8 = var13.usePurchasedCategoriesSort;
             var29 = var8.bind(var13)(var5);
             var8 = var32[var2];
-            var25 = var31.bind(var6)(var8);
-            var22 = var25.useStateFromStores;
+            var24 = var31.bind(var6)(var8);
+            var19 = var24.useStateFromStores;
             var8 = _closure1_slot9;
             var13 = new Array(1);
             var13[0] = var8;
@@ -675,11 +673,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var8 = var22.bind(var25)(var13, var8);
-            _closure2_slot6 = var8;
+            var8 = var19.bind(var24)(var13, var8);
+            _closure2_slot5 = var8;
             var2 = var32[var2];
-            var22 = var31.bind(var6)(var2);
-            var13 = var22.useStateFromStores;
+            var19 = var31.bind(var6)(var2);
+            var13 = var19.useStateFromStores;
             var2 = _closure1_slot8;
             var8 = new Array(1);
             var8[0] = var2;
@@ -690,7 +688,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var28 = var13.bind(var22)(var8, var2);
+            var28 = var13.bind(var19)(var8, var2);
             var2 = 32;
             var2 = var32[var2];
             var8 = var31.bind(var6)(var2);
@@ -699,67 +697,66 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var13 = var2.theme;
             var2 = 33;
             var8 = var32[var2];
-            var22 = var23.bind(var6)(var8);
+            var19 = var22.bind(var6)(var8);
             var8 = 34;
             var8 = var32[var8];
-            var8 = var23.bind(var6)(var8);
-            var25 = var8.COLLECTIBLES_SHOP;
-            var8 = new Array(1);
-            var8[0] = var25;
             var8 = var22.bind(var6)(var8);
+            var24 = var8.COLLECTIBLES_SHOP;
+            var8 = new Array(1);
+            var8[0] = var24;
+            var8 = var19.bind(var6)(var8);
             var8 = var8.analyticsLocations;
-            _closure2_slot7 = var8;
-            var22 = 35;
-            var22 = var32[var22];
-            var25 = var23.bind(var6)(var22);
-            var22 = {};
-            var22['onClose'] = var26;
-            var22['currentScreen'] = var17;
-            var22 = var25.bind(var6)(var22);
-            var22 = 36;
-            var22 = var32[var22];
-            var22 = var23.bind(var6)(var22);
-            var22 = var22.bind(var6)();
-            var25 = var22.top;
-            var22 = 37;
-            var22 = var32[var22];
-            var26 = var31.bind(var6)(var22);
-            var23 = var26.useAndroidShopLazyLoadPriceEnabled;
-            var22 = 'CollectiblesShop';
-            var27 = var23.bind(var26)(var22);
+            _closure2_slot6 = var8;
+            var19 = 35;
+            var19 = var32[var19];
+            var24 = var22.bind(var6)(var19);
+            var19 = {};
+            var19['onClose'] = var26;
+            var19['currentScreen'] = var17;
+            var19 = var24.bind(var6)(var19);
+            var19 = 36;
+            var19 = var32[var19];
+            var19 = var22.bind(var6)(var19);
+            var19 = var19.bind(var6)();
+            var24 = var19.top;
+            var19 = 37;
+            var19 = var32[var19];
+            var26 = var31.bind(var6)(var19);
+            var22 = var26.useAndroidShopLazyLoadPriceEnabled;
+            var19 = 'CollectiblesShop';
+            var27 = var22.bind(var26)(var19);
             var30 = 38;
-            var22 = var32[var30];
-            var26 = var31.bind(var6)(var22);
-            var23 = var26.filterHiddenCategories;
-            var22 = !var12;
+            var19 = var32[var30];
+            var26 = var31.bind(var6)(var19);
+            var22 = var26.filterHiddenCategories;
+            var19 = !var12;
             var12 = 27;
             var12 = var32[var12];
             var31 = var31.bind(var6)(var12);
             var12 = var31.isAndroid;
             var31 = var12.bind(var31)();
             var12 = var29;
-            if(!var31) { _fun0005_ip = 1021; continue _fun0005 }
+            if(!var31) { _fun0005_ip = 1012; continue _fun0005 }
+ 963:
+            var12 = var29;
+            if(var28) { _fun0005_ip = 1012; continue _fun0005 }
+ 969:
+            if(!var27) { _fun0005_ip = 984; continue _fun0005 }
  972:
             var12 = var29;
-            if(var28) { _fun0005_ip = 1021; continue _fun0005 }
+            if(var11) { _fun0005_ip = 1012; continue _fun0005 }
  978:
-            if(!var27) { _fun0005_ip = 993; continue _fun0005 }
- 981:
             var12 = var29;
-            if(var15) { _fun0005_ip = 1021; continue _fun0005 }
- 987:
-            var12 = var29;
-            if(var14) { _fun0005_ip = 1021; continue _fun0005 }
- 993:
+            if(var14) { _fun0005_ip = 1012; continue _fun0005 }
+ 984:
             var28 = _closure1_slot0;
             var27 = _closure1_slot2;
             var27 = var27[var30];
             var28 = var28.bind(var6)(var27);
             var27 = var28.filterGPlaySyncedCategories;
             var12 = var27.bind(var28)(var29);
- 1021:
-            var23 = var23.bind(var26)(var22, var12);
-            _closure2_slot8 = var23;
+ 1012:
+            var19 = var22.bind(var26)(var19, var12);
             var27 = _closure1_slot0;
             var28 = _closure1_slot2;
             var12 = 39;
@@ -767,7 +764,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var26 = var27.bind(var6)(var12);
             var22 = var26.useCollectiblesShopDeepLinkProps;
             var12 = {};
-            var12['categories'] = var23;
+            var12['categories'] = var19;
             var12 = var22.bind(var26)(var12);
             var22 = var12.categoryIndex;
             var26 = _closure1_slot1;
@@ -780,14 +777,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var12 = var27.v4;
             var12 = var12.bind(var27)();
             var12 = var26.bind(var6)(var12);
-            _closure2_slot9 = var12;
+            _closure2_slot7 = var12;
             var28 = _closure1_slot4;
             var27 = var28.useEffect;
             var26 = new Array(3);
             var26[0] = var8;
-            var26[1] = var24;
+            var26[1] = var25;
             var26[2] = var12;
-            var24 = function() {
+            var25 = function() {
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
                 var1 = 42;
@@ -798,9 +795,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = _closure1_slot14;
                 var3 = var2.COLLECTIBLES_SHOP_VIEWED;
                 var2 = {};
-                var7 = _closure2_slot7;
+                var7 = _closure2_slot6;
                 var2['location_stack'] = var7;
-                var7 = _closure2_slot9;
+                var7 = _closure2_slot7;
                 var2['page_session_id'] = var7;
                 var6 = _closure2_slot0;
                 var2['source'] = var6;
@@ -809,14 +806,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4.bind(var5)(var3, var2);
                 return var1;
             };
-            var24 = var27.bind(var28)(var24, var26);
+            var25 = var27.bind(var28)(var25, var26);
             var27 = var28.useEffect;
             var26 = new Array(1);
-            var26[0] = var1;
-            var24 = function() {
+            var26[0] = var15;
+            var25 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                    var3 = _closure2_slot5;
+                    var3 = _closure2_slot4;
                     var2 = null;
                     if(!(var2 != var3)) { _fun0009_ip = 52; continue _fun0009 }
  13:
@@ -826,7 +823,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var4.bind(var3)(var2);
-                    var1 = _closure2_slot5;
+                    var1 = _closure2_slot4;
                     var1 = var1.id;
                     var1 = var2.bind(var3)(var1);
  52:
@@ -834,40 +831,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     return var1;
                 }
             };
-            var24 = var27.bind(var28)(var24, var26);
-            var24 = var19 == var1;
-            var1 = null;
-            if(var24) { _fun0005_ip = 1808; continue _fun0005 }
+            var25 = var27.bind(var28)(var25, var26);
+            if(!(var1 != var15)) { _fun0005_ip = 1785; continue _fun0005 }
+ 1180:
+            var15 = var19.length;
+            var15 = var9 === var15;
+            if(var15) { _fun0005_ip = 1195; continue _fun0005 }
+ 1192:
+            var15 = var23;
+ 1195:
+            if(!var16) { _fun0005_ip = 1204; continue _fun0005 }
  1198:
-            var24 = var23.length;
-            if(!(var9 !== var24)) { _fun0005_ip = 1223; continue _fun0005 }
+            if(var18) { _fun0005_ip = 1749; continue _fun0005 }
+ 1204:
+            if(!var15) { _fun0005_ip = 1219; continue _fun0005 }
  1207:
-            if(var18) { _fun0005_ip = 1223; continue _fun0005 }
- 1210:
-            if(!(var19 != var21)) { _fun0005_ip = 1241; continue _fun0005 }
- 1214:
-            var18 = var21.length;
-            if(!(var9 === var18)) { _fun0005_ip = 1241; continue _fun0005 }
- 1223:
-            if(var14) { _fun0005_ip = 1771; continue _fun0005 }
- 1229:
-            if(var15) { _fun0005_ip = 1771; continue _fun0005 }
- 1235:
-            if(var11) { _fun0005_ip = 1771; continue _fun0005 }
- 1241:
+            if(var14) { _fun0005_ip = 1749; continue _fun0005 }
+ 1213:
+            if(var11) { _fun0005_ip = 1749; continue _fun0005 }
+ 1219:
             var4 = var4 > var9;
-            if(!var4) { _fun0005_ip = 1254; continue _fun0005 }
- 1248:
+            if(!var4) { _fun0005_ip = 1232; continue _fun0005 }
+ 1226:
             var11 = false;
             var4 = var11 === var14;
- 1254:
-            if(!var4) { _fun0005_ip = 1266; continue _fun0005 }
- 1257:
+ 1232:
+            if(!var4) { _fun0005_ip = 1244; continue _fun0005 }
+ 1235:
             var5 = var5.size;
             var4 = var9 === var5;
- 1266:
-            if(!var4) { _fun0005_ip = 1306; continue _fun0005 }
- 1269:
+ 1244:
+            if(!var4) { _fun0005_ip = 1284; continue _fun0005 }
+ 1247:
             var5 = _closure1_slot1;
             var9 = _closure1_slot2;
             var4 = 44;
@@ -876,9 +871,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var9.captureMessage;
             var4 = 'collectibles mobile shop loaded empty categories';
             var4 = var5.bind(var9)(var4);
- 1306:
-            if(!(var19 !== var10)) { _fun0005_ip = 1351; continue _fun0005 }
- 1310:
+ 1284:
+            if(!(var1 !== var10)) { _fun0005_ip = 1329; continue _fun0005 }
+ 1288:
             var5 = _closure1_slot1;
             var9 = _closure1_slot2;
             var4 = 44;
@@ -888,7 +883,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = 'collectibles mobile shop failed to fetch google sku ids: ';
             var4 = var4 + var10;
             var4 = var5.bind(var9)(var4);
- 1351:
+ 1329:
             var5 = _closure1_slot17;
             var15 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -914,16 +909,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = 0.5;
             var11['blurAmount'] = var14;
             var14 = _closure1_slot6;
-            var24 = var14.absoluteFill;
+            var23 = var14.absoluteFill;
             var14 = new Array(3);
-            var14[0] = var24;
-            var24 = var7.blur;
-            var14[1] = var24;
-            var24 = {};
-            var26 = 48;
-            var26 = var26 + var25;
-            var24['height'] = var26;
-            var14[2] = var24;
+            var14[0] = var23;
+            var23 = var7.blur;
+            var14[1] = var23;
+            var23 = {};
+            var25 = 48;
+            var25 = var25 + var24;
+            var23['height'] = var25;
+            var14[2] = var23;
             var11['style'] = var14;
             var11['blurTheme'] = var13;
             var12 = var5.bind(var6)(var12, var11);
@@ -934,9 +929,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = {};
             var33 = var7.rootContainer;
             var34 = var14;
-            var24 = copyDataProperties(var34, var33);
-            var24 = 'paddingTop';
-            var14[var24] = var25;
+            var23 = copyDataProperties(var34, var33);
+            var23 = 'paddingTop';
+            var14[var23] = var24;
             var12['style'] = var14;
             var14 = 47;
             var14 = var18[var14];
@@ -945,18 +940,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = {};
             var18 = new Array(0);
             var14['skuIDs'] = var18;
-            var14['activeSubscription'] = var19;
-            if(!var16) { _fun0005_ip = 1606; continue _fun0005 }
- 1592:
+            var14['activeSubscription'] = var1;
+            if(!var16) { _fun0005_ip = 1584; continue _fun0005 }
+ 1570:
             var16 = _closure1_slot12;
             var16 = var16.SHOP_ALL;
-            if(!(var17 === var16)) { _fun0005_ip = 1657; continue _fun0005 }
- 1606:
+            if(!(var17 === var16)) { _fun0005_ip = 1635; continue _fun0005 }
+ 1584:
             var18 = _closure1_slot17;
             var17 = _closure1_slot21;
             var16 = {};
-            var16['data'] = var23;
-            var23 = function renderItem(arg1) {
+            var16['data'] = var19;
+            var19 = function renderItem(arg1) {
                 var1 = arg1;
                 var6 = var1.item;
                 var5 = var1.index;
@@ -970,23 +965,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var1.ShopCategory;
                 var1 = {};
                 var1['item'] = var6;
-                var6 = _closure2_slot6;
+                var6 = _closure2_slot5;
                 var1['isDarkTheme'] = var6;
                 var1['index'] = var5;
                 var1 = var4.bind(var3)(var2, var1);
                 return var1;
             };
-            var16['renderItem'] = var23;
-            var23 = var19 != var22;
+            var16['renderItem'] = var19;
+            var23 = var1 != var22;
             var19 = undefined;
-            if(!var23) { _fun0005_ip = 1644; continue _fun0005 }
- 1641:
+            if(!var23) { _fun0005_ip = 1622; continue _fun0005 }
+ 1619:
             var19 = var22;
- 1644:
+ 1622:
             var16['initialScrollIndex'] = var19;
             var16 = var18.bind(var6)(var17, var16);
-            _fun0005_ip = 1689; continue _fun0005;
- 1657:
+            _fun0005_ip = 1667; continue _fun0005;
+ 1635:
             var19 = _closure1_slot17;
             var18 = _closure1_slot21;
             var17 = {};
@@ -1006,30 +1001,20 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var1 = {};
                     var1['shopBlock'] = var5;
                     var7 = _closure2_slot3;
-                    var6 = null;
-                    var7 = var6 != var7;
+                    var5 = null;
+                    var7 = var5 != var7;
                     if(!var7) { _fun0010_ip = 64; continue _fun0010 }
  60:
-                    var7 = _closure2_slot3;
+                    var5 = _closure2_slot3;
  64:
-                    var1['isFetchingShopHome'] = var7;
-                    var7 = _closure2_slot4;
-                    var7 = var6 != var7;
-                    var6 = null;
-                    if(!var7) { _fun0010_ip = 86; continue _fun0010 }
- 82:
-                    var6 = _closure2_slot4;
- 86:
-                    var1['fetchShopHomeError'] = var6;
-                    var5 = _closure2_slot8;
-                    var1['categories'] = var5;
+                    var1['fetchShopHomeError'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 }
             };
             var17['renderItem'] = var20;
             var16 = var19.bind(var6)(var18, var17);
- 1689:
+ 1667:
             var14['children'] = var16;
             var14 = var5.bind(var6)(var15, var14);
             var12['children'] = var14;
@@ -1048,8 +1033,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8 = var10.bind(var6)(var9, var8);
             var2['children'] = var8;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0005_ip = 1805; continue _fun0005;
- 1771:
+            _fun0005_ip = 1783; continue _fun0005;
+ 1749:
             var5 = _closure1_slot17;
             var4 = _closure1_slot5;
             var3 = {};
@@ -1058,9 +1043,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = 'large';
             var3['size'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 1805:
-            var1 = var2;
- 1808:
+ 1783:
+            return var2;
+ 1785:
             return var1;
         }
     };

@@ -1,9 +1,9 @@
 // app/modules/collectibles/CollectiblesCategoryStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = function _isNativeReflectConstruct() {
@@ -1006,14 +1006,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var2.shopHome;
             var3 = var3.categories;
             var3 = var3.length;
-            var8 = 0;
-            if(!(var8 !== var3)) { _fun0015_ip = 234; continue _fun0015 }
+            var5 = 0;
+            if(!(var5 !== var3)) { _fun0015_ip = 305; continue _fun0015 }
  31:
             var3 = global;
-            var5 = var3.Map;
+            var6 = var3.Map;
             var2 = var2.shopHome;
-            var6 = var2.categories;
-            var4 = var6.map;
+            var7 = var2.categories;
+            var4 = var7.map;
             var2 = function(arg1) {
                 var2 = arg1;
                 var3 = var2.skuId;
@@ -1022,28 +1022,52 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1[1] = var2;
                 return var1;
             };
-            var11 = var4.bind(var6)(var2);
-            var4 = var5.prototype;
-            var4 = Object.create(var4, {constructor: {value: var5}});
+            var11 = var4.bind(var7)(var2);
+            var4 = var6.prototype;
+            var4 = Object.create(var4, {constructor: {value: var6}});
             var12 = var4;
-            var2 = new var12[var5](var11, var10);
-            var7 = var2 instanceof Object ? var2 : var4;
-            var6 = var3.Map;
+            var2 = new var12[var6](var11, var10);
+            var8 = var2 instanceof Object ? var2 : var4;
+            var7 = var3.Map;
             var10 = _closure1_slot13;
             var4 = new Array(0);
             var11 = var4;
             var9 = 0;
             var9 = arraySpread(var11, var10, var9);
             var11 = var4;
-            var10 = var7;
-            var5 = arraySpread(var11, var10, var9);
+            var10 = var8;
+            var6 = arraySpread(var11, var10, var9);
+            var6 = var7.prototype;
+            var6 = Object.create(var6, {constructor: {value: var7}});
+            var12 = var6;
+            var11 = var4;
+            var4 = new var12[var7](var11, var10);
+            var4 = var4 instanceof Object ? var4 : var6;
+            _closure1_slot13 = var4;
+            var6 = var3.Map;
+            var7 = _closure1_slot13;
+            var4 = var7.values;
+            var10 = var4.bind(var7)();
+            var7 = new Array(0);
+            var11 = var7;
+            var9 = 0;
+            var4 = arraySpread(var11, var10, var9);
+            var5 = var7.map;
+            var4 = function(arg1) {
+                var2 = arg1;
+                var3 = var2.storeListingId;
+                var1 = new Array(2);
+                var1[0] = var3;
+                var1[1] = var2;
+                return var1;
+            };
+            var11 = var5.bind(var7)(var4);
             var5 = var6.prototype;
             var5 = Object.create(var5, {constructor: {value: var6}});
             var12 = var5;
-            var11 = var4;
             var4 = new var12[var6](var11, var10);
             var4 = var4 instanceof Object ? var4 : var5;
-            _closure1_slot13 = var4;
+            _closure1_slot17 = var4;
             var4 = var3.Map;
             var6 = _closure1_slot0;
             var5 = _closure1_slot1;
@@ -1071,7 +1095,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = new var12[var4](var11, var10);
             var1 = var1 instanceof Object ? var1 : var3;
             _closure1_slot14 = var1;
- 234:
+ 305:
             var1 = undefined;
             return var1;
         }

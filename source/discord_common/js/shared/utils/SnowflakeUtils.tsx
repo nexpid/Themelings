@@ -1,8 +1,8 @@
 // discord_common/js/shared/utils/SnowflakeUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native3;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var9;
     var6 = function extractTimestamp(arg1) {
@@ -134,7 +134,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var2.bind(var1)();
     var8 = 3;
     var9 = var9[var8];
-    var8 = native2;
+    var8 = require;
     var10 = var8.bind(var1)(var9);
     var9 = var10.fileFinishedImporting;
     var8 = '../discord_common/js/shared/utils/SnowflakeUtils.tsx';

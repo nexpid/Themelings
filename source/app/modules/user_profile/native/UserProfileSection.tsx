@@ -1,9 +1,9 @@
 // app/modules/user_profile/native/UserProfileSection.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
     var1 = global;
@@ -16,7 +16,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var12 = 1;
@@ -109,14 +109,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var23 = var16.contentContainer;
             var24 = var11;
             var3 = copyDataProperties(var24, var23);
-            if(!(var10 != var2)) { _fun0001_ip = 174; continue _fun0001 }
- 170:
-            if(!(var10 == var1)) { _fun0001_ip = 188; continue _fun0001 }
- 174:
+            if(!(var10 != var2)) { _fun0001_ip = 173; continue _fun0001 }
+ 169:
+            if(!(var10 == var1)) { _fun0001_ip = 187; continue _fun0001 }
+ 173:
             var2 = var16.contentContainer;
             var2 = var2.borderColor;
-            _fun0001_ip = 248; continue _fun0001;
- 188:
+            _fun0001_ip = 247; continue _fun0001;
+ 187:
             var18 = _closure1_slot0;
             var19 = _closure1_slot1;
             var3 = 7;
@@ -130,7 +130,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3[var14];
             var1 = var1.dividerOpacity;
             var2 = var7.bind(var13)(var3, var1);
- 248:
+ 247:
             var1 = 'borderColor';
             var11[var1] = var2;
             var3 = _closure1_slot4;
@@ -146,8 +146,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = copyDataProperties(var24, var23);
             var6 = var10 != var20;
             var7 = null;
-            if(!var6) { _fun0001_ip = 438; continue _fun0001 }
- 310:
+            if(!var6) { _fun0001_ip = 437; continue _fun0001 }
+ 309:
             var13 = _closure1_slot4;
             var8 = _closure1_slot2;
             var6 = {};
@@ -176,17 +176,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14[1] = var15;
             var6['children'] = var14;
             var7 = var13.bind(var4)(var8, var6);
- 438:
+ 437:
             var6 = new Array(2);
             var6[0] = var7;
             var8 = _closure1_slot3;
             var7 = _closure1_slot2;
             var5 = {};
             var10 = null;
-            if(!var12) { _fun0001_ip = 464; continue _fun0001 }
- 461:
+            if(!var12) { _fun0001_ip = 463; continue _fun0001 }
+ 460:
             var10 = var11;
- 464:
+ 463:
             var5['style'] = var10;
             var5['children'] = var9;
             var5 = var8.bind(var4)(var7, var5);

@@ -1,10 +1,10 @@
 // app/modules/native_permissions/NativePermissionUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var4 = native2;
-        var3 = native6;
-        var5 = native7;
+        var4 = require;
+        var3 = exports;
+        var5 = dependencyMap;
         var1 = global;
         var7 = var1.Object;
         var6 = var7.defineProperty;
@@ -15,7 +15,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var6.bind(var7)(var3, var1, var2);
         var1 = 0;
         var6 = var5[var1];
-        var2 = native3;
+        var2 = metroImportDefault;
         var1 = undefined;
         var6 = var2.bind(var1)(var6);
         var2 = var6.initialize;

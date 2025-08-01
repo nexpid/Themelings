@@ -1,8 +1,8 @@
 // app/lib/web/AppWindowContext.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var9 = native2;
-    var3 = native6;
-    var10 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var9 = require;
+    var3 = exports;
+    var10 = dependencyMap;
     var _closure1_slot0 = var9;
     var _closure1_slot1 = var10;
     var5 = function getWindowDispatchForElement(arg1) {
@@ -78,13 +78,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var11)(var3, var1, var6);
     var1 = 0;
     var7 = var10[var1];
-    var6 = native3;
+    var6 = metroImportDefault;
     var1 = undefined;
     var6 = var6.bind(var1)(var7);
     var _closure1_slot2 = var6;
     var6 = 1;
     var7 = var10[var6];
-    var6 = native4;
+    var6 = metroImportAll;
     var12 = var6.bind(var1)(var7);
     var _closure1_slot3 = var12;
     var6 = 2;

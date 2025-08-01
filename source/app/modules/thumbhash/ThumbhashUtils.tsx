@@ -1,8 +1,8 @@
 // app/modules/thumbhash/ThumbhashUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var3 = exports;
+    var5 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var5;
     var2 = function thumbHashToRGBA(arg1) {

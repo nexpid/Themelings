@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/friends/screens/NewMessageScreen.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var5 = native2;
-        var11 = native3;
-        var3 = native6;
-        var6 = native7;
+        var5 = require;
+        var11 = metroImportDefault;
+        var3 = exports;
+        var6 = dependencyMap;
         var _closure1_slot0 = var5;
         var _closure1_slot1 = var11;
         var _closure1_slot2 = var6;
@@ -230,7 +230,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var _closure2_slot0 = var2;
                 var1 = var2.length;
                 var3 = 1;
-                if(!(var3 !== var1)) { _fun0006_ip = 135; continue _fun0006 }
+                if(!(var3 !== var1)) { _fun0006_ip = 136; continue _fun0006 }
  21:
                 var5 = _closure1_slot10;
                 var4 = var5.getSortedChannels;
@@ -248,7 +248,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var5.length;
                 var1 = var6 < var1;
                 var3 = null;
-                if(!var1) { _fun0006_ip = 126; continue _fun0006 }
+                if(!var1) { _fun0006_ip = 127; continue _fun0006 }
  89:
                 var8 = var5[var6];
                 var4 = var8.find;
@@ -280,17 +280,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     }
                 };
                 var1 = var4.bind(var8)(var1);
-                if(!(var3 == var1)) { _fun0006_ip = 128; continue _fun0006 }
- 114:
+                if(!(var3 == var1)) { _fun0006_ip = 129; continue _fun0006 }
+ 115:
                 var6 = var6 + 1;
                 var4 = var5.length;
                 if(var6 < var4) { _fun0006_ip = 89; continue _fun0006 }
- 126:
+ 127:
                 return var3;
- 128:
+ 129:
                 var1 = var1.channelId;
                 return var1;
- 135:
+ 136:
                 var1 = 0;
                 var3 = var2[var1];
                 var2 = _closure1_slot8;
@@ -298,10 +298,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var1.bind(var2)(var3);
                 var1 = null;
                 var3 = var1 != var2;
-                if(!var3) { _fun0006_ip = 171; continue _fun0006 }
- 168:
+                if(!var3) { _fun0006_ip = 172; continue _fun0006 }
+ 169:
                 var1 = var2;
- 171:
+ 172:
                 return var1;
             }
         };
@@ -1111,7 +1111,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure1_slot4 = var4;
         var4 = 2;
         var7 = var6[var4];
-        var4 = native4;
+        var4 = metroImportAll;
         var4 = var4.bind(var1)(var7);
         var _closure1_slot5 = var4;
         var4 = 3;

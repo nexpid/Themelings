@@ -1,8 +1,8 @@
 // app/modules/routing/RouteUtils.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var1 = function paramPattern(arg1, arg2) {
@@ -54,7 +54,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var8 = var1.Object;
     var5 = var8.defineProperty;
@@ -71,17 +71,19 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot2 = var5;
     var5 = var2.FAVORITES;
     var _closure1_slot3 = var5;
-    var2 = var2.ME;
-    var _closure1_slot4 = var2;
+    var5 = var2.ME;
+    var _closure1_slot4 = var5;
+    var2 = var2.NOTIFICATIONS_INBOX;
+    var _closure1_slot5 = var2;
     var2 = 1;
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
     var5 = var2.isStaticChannelRoute;
-    var _closure1_slot5 = var5;
+    var _closure1_slot6 = var5;
     var2 = var2.StaticChannelRoutes;
-    var _closure1_slot6 = var2;
-    var2 = /^\d+$/;
     var _closure1_slot7 = var2;
+    var2 = /^\d+$/;
+    var _closure1_slot8 = var2;
     var2 = {};
     var5 = function guildId() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -102,14 +104,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  34:
             var6 = false;
  36:
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot9;
             var2 = _closure1_slot4;
-            var7 = new Array(3);
+            var7 = new Array(4);
             var7[0] = var2;
             var2 = _closure1_slot3;
             var7[1] = var2;
             var2 = _closure1_slot2;
             var7[2] = var2;
+            var2 = _closure1_slot5;
+            var7[3] = var2;
             var2 = var7.map;
             var8 = _closure1_slot0;
             var9 = _closure1_slot1;
@@ -153,8 +157,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  34:
             var6 = false;
  36:
-            var3 = _closure1_slot8;
-            var11 = _closure1_slot6;
+            var3 = _closure1_slot9;
+            var11 = _closure1_slot7;
             var7 = new Array(0);
             var10 = 0;
             var12 = var7;
@@ -195,7 +199,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = arg1;
             var1 = null;
             var1 = var1 != var5;
-            if(!var1) { _fun0004_ip = 71; continue _fun0004 }
+            if(!var1) { _fun0004_ip = 82; continue _fun0004 }
  12:
             var2 = _closure1_slot4;
             var2 = var5 === var2;
@@ -209,16 +213,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = _closure1_slot2;
             var2 = var5 === var4;
  45:
-            if(var2) { _fun0004_ip = 68; continue _fun0004 }
+            if(var2) { _fun0004_ip = 56; continue _fun0004 }
  48:
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot5;
+            var2 = var5 === var4;
+ 56:
+            if(var2) { _fun0004_ip = 79; continue _fun0004 }
+ 59:
+            var4 = _closure1_slot8;
             var3 = var4.test;
             var3 = var3.bind(var4)(var5);
             var3 = !var3;
             var2 = !var3;
- 68:
+ 79:
             var1 = var2;
- 71:
+ 82:
             return var1;
         }
     };
@@ -231,14 +240,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var1 == var5;
             if(var1) { _fun0005_ip = 58; continue _fun0005 }
  12:
-            var4 = _closure1_slot7;
+            var4 = _closure1_slot8;
             var2 = var4.test;
             var2 = var2.bind(var4)(var5);
             var4 = !var2;
             var2 = !var4;
             if(!var4) { _fun0005_ip = 55; continue _fun0005 }
  38:
-            var4 = _closure1_slot5;
+            var4 = _closure1_slot6;
             var3 = undefined;
             var3 = var4.bind(var3)(var5);
             var3 = !var3;

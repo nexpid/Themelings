@@ -1,8 +1,8 @@
 // app/utils/checkEnv.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var2 = native1;
+        var2 = global;
         var1 = global;
         var3 = var1.window;
         var3 = var3.GLOBAL_ENV;
@@ -288,10 +288,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var1.env;
         var1 = var1.DEV_SESSION_KEY;
         var2['DEV_SESSION_KEY'] = var1;
-        var2 = native7;
+        var2 = dependencyMap;
         var1 = 0;
         var3 = var2[var1];
-        var2 = native2;
+        var2 = require;
         var1 = undefined;
         var4 = var2.bind(var1)(var3);
         var3 = var4.fileFinishedImporting;

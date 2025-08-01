@@ -1,9 +1,9 @@
 // app/modules/notification_center/NotificationCenterItemsStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -1195,8 +1195,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6 = var2.cursor;
             var4 = _closure1_slot14;
             var4 = var4.loading;
-            if(!var4) { _fun0022_ip = 278; continue _fun0022 }
- 42:
+            if(!var4) { _fun0022_ip = 277; continue _fun0022 }
+ 41:
             var4 = _closure1_slot14;
             var5 = false;
             var4['loading'] = var5;
@@ -1209,34 +1209,34 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4['isDataStale'] = var5;
             var4 = null;
             var4 = var4 != var6;
-            if(!var4) { _fun0022_ip = 115; continue _fun0022 }
- 95:
+            if(!var4) { _fun0022_ip = 114; continue _fun0022 }
+ 94:
             var5 = _closure1_slot14;
             var7 = var5.notifCenterIds;
             var5 = var7.has;
             var4 = var5.bind(var7)(var6);
- 115:
-            if(var4) { _fun0022_ip = 172; continue _fun0022 }
- 118:
+ 114:
+            if(var4) { _fun0022_ip = 171; continue _fun0022 }
+ 117:
             var5 = _closure1_slot14;
             var4 = var3.length;
             var7 = 0;
             var4 = var4 > var7;
-            if(!var4) { _fun0022_ip = 139; continue _fun0022 }
- 136:
+            if(!var4) { _fun0022_ip = 138; continue _fun0022 }
+ 135:
             var4 = var8;
- 139:
+ 138:
             var5['paginationHasMore'] = var4;
             var5 = _closure1_slot14;
             var4 = var3.length;
             var7 = var4 > var7;
             var4 = undefined;
-            if(!var7) { _fun0022_ip = 166; continue _fun0022 }
- 163:
+            if(!var7) { _fun0022_ip = 165; continue _fun0022 }
+ 162:
             var4 = var6;
- 166:
+ 165:
             var5['paginationCursor'] = var4;
- 172:
+ 171:
             var5 = _closure1_slot14;
             var11 = var5.notifCenterItems;
             var4 = new Array(0);
@@ -1291,7 +1291,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
- 278:
+ 277:
             var1 = undefined;
             return var1;
         }
@@ -1605,7 +1605,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = undefined;
             var _closure2_slot0 = var1;
             var3 = null;
-            if(!(var3 !== var6)) { _fun0028_ip = 149; continue _fun0028 }
+            if(!(var3 !== var6)) { _fun0028_ip = 150; continue _fun0028 }
  26:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -1627,8 +1627,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var5 = var6.bind(var7)(var5);
-            if(!(var1 === var5)) { _fun0028_ip = 149; continue _fun0028 }
- 93:
+            if(!(var1 === var5)) { _fun0028_ip = 150; continue _fun0028 }
+ 94:
             var3 = _closure1_slot14;
             var6 = var3.notifCenterLocalItems;
             var5 = var6.filter;
@@ -1649,7 +1649,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = 1;
             var4 = var5 + var4;
             var3['notifCenterLocalItems'] = var2;
- 149:
+ 150:
             return var1;
         }
     };

@@ -1,9 +1,9 @@
 // app/modules/forums/native/posts/ForumPostMedia.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native2;
-    var14 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = require;
+    var14 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var14;
     var _closure1_slot2 = var8;
@@ -357,10 +357,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.theme;
             var5 = var5.bind(var6)(var3);
             var3 = 'light';
-            if(!var5) { _fun0005_ip = 143; continue _fun0005 }
- 139:
+            if(!var5) { _fun0005_ip = 142; continue _fun0005 }
+ 138:
             var3 = 'dark';
- 143:
+ 142:
             var1['blurTheme'] = var3;
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -371,10 +371,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var3.useSetting;
             var3 = var2.bind(var3)();
             var2 = 'png';
-            if(!var3) { _fun0005_ip = 195; continue _fun0005 }
- 193:
+            if(!var3) { _fun0005_ip = 194; continue _fun0005 }
+ 192:
             var2 = null;
- 195:
+ 194:
             var1['format'] = var2;
             return var1;
         }
@@ -395,7 +395,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot3 = var6;
     var6 = 1;
     var9 = var8[var6];
-    var6 = native4;
+    var6 = metroImportAll;
     var6 = var6.bind(var1)(var9);
     var _closure1_slot4 = var6;
     var6 = 2;

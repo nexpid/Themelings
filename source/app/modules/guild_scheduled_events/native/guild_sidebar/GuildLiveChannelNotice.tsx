@@ -1,12 +1,12 @@
 // app/modules/guild_scheduled_events/native/guild_sidebar/GuildLiveChannelNotice.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var8 = native2;
-        var16 = native3;
-        var5 = native4;
-        var3 = native6;
-        var9 = native7;
+        var8 = require;
+        var16 = metroImportDefault;
+        var5 = metroImportAll;
+        var3 = exports;
+        var9 = dependencyMap;
         var _closure1_slot0 = var8;
         var _closure1_slot1 = var16;
         var _closure1_slot2 = var5;

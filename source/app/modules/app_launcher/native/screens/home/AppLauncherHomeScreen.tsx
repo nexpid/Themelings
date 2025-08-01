@@ -1,10 +1,10 @@
 // app/modules/app_launcher/native/screens/home/AppLauncherHomeScreen.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var14 = native3;
-    var8 = native4;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var14 = metroImportDefault;
+    var8 = metroImportAll;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var14;
     var _closure1_slot2 = var8;
@@ -3227,7 +3227,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var7.isEmbeddedApp;
                     var4 = var4.bind(var7)(var5);
                     var7 = !var4;
-                    if(!var7) { _fun0041_ip = 92; continue _fun0041 }
+                    if(!var7) { _fun0041_ip = 93; continue _fun0041 }
  62:
                     var8 = _closure2_slot18;
                     var4 = var8.find;
@@ -3242,7 +3242,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var4.bind(var8)(var3);
                     var3 = null;
                     var7 = var3 != var4;
- 92:
+ 93:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot3;
                     var2 = 23;
@@ -4580,22 +4580,22 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var4 = var2 == var3;
                     var1 = undefined;
                     var7 = undefined;
-                    if(var4) { _fun0051_ip = 71; continue _fun0051 }
- 39:
+                    if(var4) { _fun0051_ip = 72; continue _fun0051 }
+ 40:
                     var8 = var3.applications;
                     var3 = var2 == var8;
                     var7 = undefined;
-                    if(var3) { _fun0051_ip = 71; continue _fun0051 }
- 54:
+                    if(var3) { _fun0051_ip = 72; continue _fun0051 }
+ 55:
                     var4 = var8.map;
                     var3 = function(arg1) {
                         var1 = arg1;
                         return var1;
                     };
                     var7 = var4.bind(var8)(var3);
- 71:
-                    if(!(var2 != var7)) { _fun0051_ip = 304; continue _fun0051 }
- 78:
+ 72:
+                    if(!(var2 != var7)) { _fun0051_ip = 305; continue _fun0051 }
+ 79:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot3;
                     var2 = 23;
@@ -4655,7 +4655,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var5 = var6.bind(var7)(var5);
                     var2['title'] = var5;
                     var2 = var3.bind(var4)(var2);
- 304:
+ 305:
                     return var1;
                 }
             };

@@ -1,10 +1,10 @@
 // app/modules/markup/native/MarkupMessagePreviewReactRules.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var7;
     var1 = function defaultReactFn(arg1, arg2, arg3) {
@@ -983,7 +983,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var9.bind(var10)(var3, var1, var8);
     var1 = 0;
     var9 = var7[var1];
-    var8 = native4;
+    var8 = metroImportAll;
     var1 = undefined;
     var8 = var8.bind(var1)(var9);
     var8 = 1;

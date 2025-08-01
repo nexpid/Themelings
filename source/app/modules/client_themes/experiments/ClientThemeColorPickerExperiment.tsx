@@ -1,8 +1,8 @@
 // app/modules/client_themes/experiments/ClientThemeColorPickerExperiment.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var1 = global;
     var7 = var1.Object;
     var4 = var7.defineProperty;
@@ -15,27 +15,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var6[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var8 = var2.CommonTriggerPoints;
+    var4 = var2.CommonTriggerPoints;
     var2 = 1;
     var2 = var6[var2];
-    var7 = var5.bind(var1)(var2);
-    var4 = var7.createExperiment;
+    var8 = var5.bind(var1)(var2);
+    var7 = var8.createExperiment;
     var2 = {'id': '2025-05_client_theme_color_picker', 'kind': 'user', 'label': 'Client Theme Color Picker'};
     var9 = {};
     var11 = false;
     var9['enabled'] = var11;
     var2['defaultConfig'] = var9;
-    var8 = var8.CONNECTION_OPEN;
-    var2['commonTriggerPoint'] = var8;
-    var9 = {'id': 1, 'label': 'Enables setting client theme color picker'};
-    var8 = {};
-    var8['enabled'] = var10;
-    var9['config'] = var8;
-    var8 = new Array(1);
-    var8[0] = var9;
-    var2['treatments'] = var8;
-    var2 = var4.bind(var7)(var2);
+    var4 = var4.CONNECTION_OPEN;
+    var2['commonTriggerPoint'] = var4;
+    var4 = {'id': 1, 'label': 'Enables setting client theme color picker'};
+    var9 = {};
+    var9['enabled'] = var10;
+    var4['config'] = var9;
+    var9 = new Array(2);
+    var9[0] = var4;
+    var10 = {'id': 2, 'label': 'Enables the V2 custom theme editor'};
     var4 = 2;
+    var11 = {'enabled': true, 'v2EditorEnabled': true};
+    var10['config'] = var11;
+    var9[1] = var10;
+    var2['treatments'] = var9;
+    var2 = var7.bind(var8)(var2);
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

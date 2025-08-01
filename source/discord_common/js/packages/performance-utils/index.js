@@ -1,11 +1,11 @@
 // discord_common/js/packages/performance-utils/index.js
-module.exports = (function(native1, native2, native3, native4, native5, native6, native7) {
+module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var1 = native1;
-        var12 = native2;
-        var17 = native6;
-        var13 = native7;
+        var1 = global;
+        var12 = require;
+        var17 = exports;
+        var13 = dependencyMap;
         var3 = var1;
         var11 = var1;
         var7 = var12;

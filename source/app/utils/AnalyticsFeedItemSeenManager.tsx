@@ -1,8 +1,8 @@
 // app/utils/AnalyticsFeedItemSeenManager.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native3;
-    var3 = native6;
-    var8 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = metroImportDefault;
+    var3 = exports;
+    var8 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
@@ -1093,7 +1093,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var2.bind(var1)();
     var7 = 5;
     var8 = var8[var7];
-    var7 = native2;
+    var7 = require;
     var9 = var7.bind(var1)(var8);
     var8 = var9.fileFinishedImporting;
     var7 = 'utils/AnalyticsFeedItemSeenManager.tsx';

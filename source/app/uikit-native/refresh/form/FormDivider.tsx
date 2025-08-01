@@ -1,9 +1,9 @@
 // app/uikit-native/refresh/form/FormDivider.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var9 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var9 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var7;
     var1 = global;
@@ -16,7 +16,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var5.bind(var8)(var3, var1, var2);
     var5 = 0;
     var8 = var7[var5];
-    var2 = native4;
+    var2 = metroImportAll;
     var1 = undefined;
     var2 = var2.bind(var1)(var8);
     var _closure1_slot2 = var2;
@@ -128,27 +128,27 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.bind(var5)(var1);
             var1 = var3.useProfileThemeValues;
             var4 = var1.bind(var3)(var14);
-            if(var6) { _fun0001_ip = 121; continue _fun0001 }
- 113:
+            if(var6) { _fun0001_ip = 120; continue _fun0001 }
+ 112:
             var1 = var10.divider;
-            _fun0001_ip = 127; continue _fun0001;
- 121:
+            _fun0001_ip = 126; continue _fun0001;
+ 120:
             var1 = var10.dividerOuter;
- 127:
+ 126:
             var3 = var1.backgroundColor;
             var1 = null;
             var3 = var1 != var3;
-            if(!var3) { _fun0001_ip = 145; continue _fun0001 }
- 141:
+            if(!var3) { _fun0001_ip = 144; continue _fun0001 }
+ 140:
             var3 = var1 != var7;
- 145:
-            if(!var3) { _fun0001_ip = 152; continue _fun0001 }
- 148:
+ 144:
+            if(!var3) { _fun0001_ip = 151; continue _fun0001 }
+ 147:
             var3 = var1 != var4;
- 152:
+ 151:
             var7 = null;
-            if(!var3) { _fun0001_ip = 212; continue _fun0001 }
- 157:
+            if(!var3) { _fun0001_ip = 211; continue _fun0001 }
+ 156:
             var3 = {};
             var12 = _closure1_slot0;
             var13 = _closure1_slot1;
@@ -162,7 +162,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var12.bind(var13)(var11, var4);
             var3['backgroundColor'] = var4;
             var7 = var3;
- 212:
+ 211:
             var11 = _closure1_slot2;
             var4 = var11.useContext;
             var12 = _closure1_slot0;
@@ -173,30 +173,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.RedesignCompatContext;
             var3 = var4.bind(var11)(var3);
             var1 = null;
-            if(var3) { _fun0001_ip = 324; continue _fun0001 }
- 258:
+            if(var3) { _fun0001_ip = 323; continue _fun0001 }
+ 257:
             var4 = _closure1_slot4;
             var3 = _closure1_slot3;
             var2 = {};
-            if(var6) { _fun0001_ip = 279; continue _fun0001 }
- 271:
+            if(var6) { _fun0001_ip = 278; continue _fun0001 }
+ 270:
             var11 = var10.divider;
-            _fun0001_ip = 285; continue _fun0001;
- 279:
+            _fun0001_ip = 284; continue _fun0001;
+ 278:
             var11 = var10.dividerOuter;
- 285:
+ 284:
             var6 = new Array(4);
             var6[0] = var11;
-            if(!var9) { _fun0001_ip = 302; continue _fun0001 }
- 296:
+            if(!var9) { _fun0001_ip = 301; continue _fun0001 }
+ 295:
             var9 = var10.dividerHasIcon;
- 302:
+ 301:
             var6[1] = var9;
             var6[2] = var8;
             var6[3] = var7;
             var2['style'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 324:
+ 323:
             return var1;
         }
     };

@@ -1,9 +1,9 @@
 // app/modules/action_sheet/native/ActionSheetActionCreators.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var4 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var4 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var4;
     var _closure1_slot2 = var7;
@@ -24,7 +24,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var2;
     var2 = 1;
     var4 = var7[var2];
-    var2 = native4;
+    var2 = metroImportAll;
     var2 = var2.bind(var1)(var4);
     var2 = 2;
     var2 = var7[var2];

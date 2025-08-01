@@ -1,9 +1,9 @@
 // app/modules/headless_tasks/android/SelectChannel.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native2;
-    var2 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = require;
+    var2 = dependencyMap;
     var _closure1_slot0 = var3;
-    var4 = native3;
+    var4 = metroImportDefault;
     var _closure1_slot1 = var4;
     var _closure1_slot2 = var2;
     var4 = function(arg1) {
@@ -65,7 +65,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var1 = native5;
+    var1 = moduleObject;
     var1['exports'] = var4;
     var1 = 3;
     var2 = var2[var1];

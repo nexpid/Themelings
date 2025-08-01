@@ -1,9 +1,9 @@
 // app/uikit-native/refresh/form/FormInput.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var12 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var12 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var12;
     var _closure1_slot2 = var6;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var7 = var4.bind(var1)(var7);
     var _closure1_slot3 = var7;
@@ -159,8 +159,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var25.useThemeContext;
             var1 = var1.bind(var25)();
             var31 = var1.theme;
-            if(!(var8 == var19)) { _fun0001_ip = 398; continue _fun0001 }
- 343:
+            if(!(var8 == var19)) { _fun0001_ip = 397; continue _fun0001 }
+ 342:
             var25 = _closure1_slot0;
             var32 = _closure1_slot2;
             var1 = 7;
@@ -169,15 +169,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var25.isThemeDark;
             var1 = var1.bind(var25)(var31);
             var25 = _closure1_slot4;
-            if(var1) { _fun0001_ip = 389; continue _fun0001 }
- 381:
+            if(var1) { _fun0001_ip = 388; continue _fun0001 }
+ 380:
             var1 = var25.LIGHT;
-            _fun0001_ip = 395; continue _fun0001;
- 389:
+            _fun0001_ip = 394; continue _fun0001;
+ 388:
             var1 = var25.DARK;
- 395:
+ 394:
             var19 = var1;
- 398:
+ 397:
             var31 = _closure1_slot3;
             var25 = var31.useContext;
             var32 = _closure1_slot0;
@@ -187,14 +187,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = var32.bind(var6)(var1);
             var1 = var1.RedesignCompatContext;
             var1 = var25.bind(var31)(var1);
-            if(!var1) { _fun0001_ip = 445; continue _fun0001 }
- 442:
+            if(!var1) { _fun0001_ip = 444; continue _fun0001 }
+ 441:
             var1 = var15;
- 445:
+ 444:
             _closure2_slot0 = var1;
             var25 = !var18;
-            if(var25) { _fun0001_ip = 487; continue _fun0001 }
- 455:
+            if(var25) { _fun0001_ip = 486; continue _fun0001 }
+ 454:
             var31 = _closure1_slot0;
             var32 = _closure1_slot2;
             var15 = 5;
@@ -203,14 +203,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var15 = var31.isAndroid;
             var15 = var15.bind(var31)();
             var25 = !var15;
- 487:
+ 486:
             var15 = !var25;
-            if(!var25) { _fun0001_ip = 496; continue _fun0001 }
- 493:
+            if(!var25) { _fun0001_ip = 495; continue _fun0001 }
+ 492:
             var15 = var21;
- 496:
-            if(!var18) { _fun0001_ip = 537; continue _fun0001 }
- 499:
+ 495:
+            if(!var18) { _fun0001_ip = 536; continue _fun0001 }
+ 498:
             var21 = _closure1_slot0;
             var25 = _closure1_slot2;
             var18 = 5;
@@ -219,10 +219,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var18 = var21.isAndroid;
             var21 = var18.bind(var21)();
             var18 = 'visible-password';
-            if(var21) { _fun0001_ip = 540; continue _fun0001 }
- 537:
+            if(var21) { _fun0001_ip = 539; continue _fun0001 }
+ 536:
             var18 = var5;
- 540:
+ 539:
             var32 = _closure1_slot3;
             var5 = var32.useRef;
             var21 = var5.bind(var32)(var8);
@@ -438,8 +438,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var3 = var25.bind(var32)(var5, var3);
             var5 = _closure1_slot5;
-            if(var1) { _fun0001_ip = 887; continue _fun0001 }
- 602:
+            if(var1) { _fun0001_ip = 886; continue _fun0001 }
+ 601:
             var3 = _closure1_slot1;
             var1 = _closure1_slot2;
             var25 = 11;
@@ -452,17 +452,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['inputTextColor'] = var31;
             var1['multiline'] = var22;
             var31 = var10.returnKeyType;
-            if(!(var8 == var31)) { _fun0001_ip = 672; continue _fun0001 }
- 659:
+            if(!(var8 == var31)) { _fun0001_ip = 671; continue _fun0001 }
+ 658:
             var31 = 'done';
-            if(!var22) { _fun0001_ip = 670; continue _fun0001 }
- 666:
+            if(!var22) { _fun0001_ip = 669; continue _fun0001 }
+ 665:
             var31 = 'default';
- 670:
-            _fun0001_ip = 678; continue _fun0001;
- 672:
+ 669:
+            _fun0001_ip = 677; continue _fun0001;
+ 671:
             var31 = var10.returnKeyType;
- 678:
+ 677:
             var1['returnKeyType'] = var31;
             var1['onChangeText'] = var20;
             var1['keyboardAppearance'] = var19;
@@ -475,10 +475,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var31 = var8 != var7;
             var23 = '';
             var30 = var23;
-            if(!var31) { _fun0001_ip = 740; continue _fun0001 }
- 737:
+            if(!var31) { _fun0001_ip = 739; continue _fun0001 }
+ 736:
             var30 = var7;
- 740:
+ 739:
             var1['error'] = var30;
             var1['placeholder'] = var16;
             var1['secureTextEntry'] = var15;
@@ -496,31 +496,31 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1['style'] = var26;
             var1['inputTextStyle'] = var24;
             var24 = var8 != var9;
-            if(!var24) { _fun0001_ip = 825; continue _fun0001 }
- 822:
+            if(!var24) { _fun0001_ip = 824; continue _fun0001 }
+ 821:
             var23 = var9;
- 825:
+ 824:
             var1['value'] = var23;
-            if(!var22) { _fun0001_ip = 861; continue _fun0001 }
- 832:
+            if(!var22) { _fun0001_ip = 860; continue _fun0001 }
+ 831:
             var24 = _closure1_slot0;
             var23 = _closure1_slot2;
             var23 = var23[var25];
             var23 = var24.bind(var6)(var23);
             var23 = var23.ClearButtonVisibility;
             var4 = var23.NEVER;
- 861:
+ 860:
             var1['clearButtonVisibility'] = var4;
             var36 = var1;
             var35 = var10;
             var4 = copyDataProperties(var36, var35);
             var1 = var5.bind(var6)(var3, var1);
-            _fun0001_ip = 1198; continue _fun0001;
- 887:
+            _fun0001_ip = 1197; continue _fun0001;
+ 886:
             var4 = _closure1_slot0;
             var23 = _closure1_slot2;
-            if(var22) { _fun0001_ip = 1045; continue _fun0001 }
- 901:
+            if(var22) { _fun0001_ip = 1044; continue _fun0001 }
+ 900:
             var2 = 10;
             var2 = var23[var2];
             var2 = var4.bind(var6)(var2);
@@ -528,10 +528,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = {};
             var2['ref'] = var21;
             var24 = 'done';
-            if(!var22) { _fun0001_ip = 936; continue _fun0001 }
- 932:
+            if(!var22) { _fun0001_ip = 935; continue _fun0001 }
+ 931:
             var24 = 'default';
- 936:
+ 935:
             var2['returnKeyType'] = var24;
             var2['onChange'] = var20;
             var2['keyboardAppearance'] = var19;
@@ -549,15 +549,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['onEndEditing'] = var24;
             var25 = var8 != var9;
             var24 = undefined;
-            if(!var25) { _fun0001_ip = 1025; continue _fun0001 }
- 1022:
+            if(!var25) { _fun0001_ip = 1024; continue _fun0001 }
+ 1021:
             var24 = var9;
- 1025:
+ 1024:
             var2['value'] = var24;
             var2['errorMessage'] = var7;
             var2 = var5.bind(var6)(var3, var2);
-            _fun0001_ip = 1195; continue _fun0001;
- 1045:
+            _fun0001_ip = 1194; continue _fun0001;
+ 1044:
             var3 = 9;
             var3 = var23[var3];
             var3 = var4.bind(var6)(var3);
@@ -565,10 +565,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = {};
             var3['ref'] = var21;
             var21 = 'done';
-            if(!var22) { _fun0001_ip = 1080; continue _fun0001 }
- 1076:
+            if(!var22) { _fun0001_ip = 1079; continue _fun0001 }
+ 1075:
             var21 = 'default';
- 1080:
+ 1079:
             var3['returnKeyType'] = var21;
             var3['onChange'] = var20;
             var3['keyboardAppearance'] = var19;
@@ -588,16 +588,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['onEndEditing'] = var10;
             var10 = var8 != var9;
             var8 = undefined;
-            if(!var10) { _fun0001_ip = 1180; continue _fun0001 }
- 1177:
+            if(!var10) { _fun0001_ip = 1179; continue _fun0001 }
+ 1176:
             var8 = var9;
- 1180:
+ 1179:
             var3['value'] = var8;
             var3['errorMessage'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 1195:
+ 1194:
             var1 = var2;
- 1198:
+ 1197:
             return var1;
         }
     };

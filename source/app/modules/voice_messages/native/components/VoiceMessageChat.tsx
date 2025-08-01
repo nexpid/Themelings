@@ -1,11 +1,11 @@
 // app/modules/voice_messages/native/components/VoiceMessageChat.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var5 = native2;
-        var15 = native3;
-        var3 = native6;
-        var6 = native7;
+        var5 = require;
+        var15 = metroImportDefault;
+        var3 = exports;
+        var6 = dependencyMap;
         var _closure1_slot0 = var5;
         var _closure1_slot1 = var15;
         var _closure1_slot2 = var6;
@@ -572,15 +572,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var15[0] = var17;
                 var17 = null;
                 var17 = var17 != var18;
-                if(!var17) { _fun0003_ip = 493; continue _fun0003 }
- 490:
+                if(!var17) { _fun0003_ip = 492; continue _fun0003 }
+ 489:
                 var17 = !var16;
- 493:
+ 492:
                 var16 = !var17;
-                if(var17) { _fun0003_ip = 505; continue _fun0003 }
- 499:
+                if(var17) { _fun0003_ip = 504; continue _fun0003 }
+ 498:
                 var16 = var13.dotDismissed;
- 505:
+ 504:
                 var15[1] = var16;
                 var8['style'] = var15;
                 var10 = var11.bind(var4)(var10, var8);
@@ -599,10 +599,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var13 = 'text-sm/semibold';
                 var9['variant'] = var13;
                 var13 = 'always-white';
-                if(!var14) { _fun0003_ip = 590; continue _fun0003 }
- 584:
+                if(!var14) { _fun0003_ip = 589; continue _fun0003 }
+ 583:
                 var13 = 'text-danger';
- 590:
+ 589:
                 var9['color'] = var13;
                 var13 = true;
                 var9['tabularNumbers'] = var13;
@@ -632,7 +632,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure1_slot3 = var4;
         var11 = 1;
         var7 = var6[var11];
-        var4 = native4;
+        var4 = metroImportAll;
         var8 = var4.bind(var1)(var7);
         var _closure1_slot4 = var8;
         var10 = 2;

@@ -1,9 +1,9 @@
 // app/modules/debug/logThirdPartyImportsDone.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = dependencyMap;
     var1 = 0;
     var4 = var3[var1];
-    var2 = native3;
+    var2 = metroImportDefault;
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var2 = var5.prototype;
@@ -17,7 +17,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var2 = var4.bind(var5)(var2);
     var2 = 1;
     var3 = var3[var2];
-    var2 = native2;
+    var2 = require;
     var4 = var2.bind(var1)(var3);
     var3 = var4.fileFinishedImporting;
     var2 = 'modules/debug/logThirdPartyImportsDone.tsx';

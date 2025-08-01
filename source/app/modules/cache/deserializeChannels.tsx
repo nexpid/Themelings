@@ -1,8 +1,8 @@
 // app/modules/cache/deserializeChannels.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var3 = native6;
-    var6 = native7;
-    var1 = native4;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
+    var6 = dependencyMap;
+    var1 = metroImportAll;
     var _closure1_slot0 = var1;
     var _closure1_slot1 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
@@ -241,13 +241,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var5);
     var1 = 0;
     var7 = var6[var1];
-    var5 = native3;
+    var5 = metroImportDefault;
     var1 = undefined;
     var5 = var5.bind(var1)(var7);
     var _closure1_slot2 = var5;
     var5 = 2;
     var6 = var6[var5];
-    var5 = native2;
+    var5 = require;
     var7 = var5.bind(var1)(var6);
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/cache/deserializeChannels.tsx';

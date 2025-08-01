@@ -1,12 +1,12 @@
 // app/lib/ChannelMessages.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var5 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var5 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var5;
-    var1 = native4;
+    var1 = metroImportAll;
     var _closure1_slot2 = var1;
     var _closure1_slot3 = var7;
     var1 = function mergeMessage(arg1, arg2) {
@@ -1128,8 +1128,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = var1._messages;
                 var1 = var4.bind(var8)(var1, var5);
                 var4 = null;
-                if(!(var4 == var1)) { _fun0008_ip = 94; continue _fun0008 }
- 60:
+                if(!(var4 == var1)) { _fun0008_ip = 96; continue _fun0008 }
+ 61:
                 var9 = _closure1_slot1;
                 var8 = _closure1_slot3;
                 var8 = var8[var7];
@@ -1137,9 +1137,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var10.find;
                 var8 = var2._array;
                 var1 = var9.bind(var10)(var8, var5);
- 94:
-                if(!(var4 == var1)) { _fun0008_ip = 138; continue _fun0008 }
- 98:
+ 96:
+                if(!(var4 == var1)) { _fun0008_ip = 141; continue _fun0008 }
+ 100:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot3;
                 var3 = var3[var7];
@@ -1148,7 +1148,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var2._after;
                 var2 = var2._messages;
                 var1 = var3.bind(var4)(var2, var5);
- 138:
+ 141:
                 return var1;
             }
         };

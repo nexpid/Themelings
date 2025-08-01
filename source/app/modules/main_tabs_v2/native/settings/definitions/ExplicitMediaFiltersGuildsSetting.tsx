@@ -1,10 +1,10 @@
 // app/modules/main_tabs_v2/native/settings/definitions/ExplicitMediaFiltersGuildsSetting.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = native3;
+    var1 = metroImportDefault;
     var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var7 = function getTitle() {
@@ -19,7 +19,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.t;
-        var1 = var1.FP+native5+;
+        var1 = var1.FP+moduleObject+;
         var1 = var2.bind(var3)(var1);
         return var1;
     };

@@ -1,9 +1,9 @@
 // app/modules/autocompleter/Autocompleter.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var8 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
@@ -1273,13 +1273,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = this;
                 var3 = var5.userSearchContext;
                 var28 = null;
-                if(!(var28 != var3)) { _fun0023_ip = 570; continue _fun0023 }
+                if(!(var28 != var3)) { _fun0023_ip = 569; continue _fun0023 }
  27:
                 var6 = var5._include;
                 var4 = _closure1_slot10;
                 var4 = var4.USER;
                 var4 = var6.bind(var5)(var4);
-                if(!var4) { _fun0023_ip = 570; continue _fun0023 }
+                if(!var4) { _fun0023_ip = 569; continue _fun0023 }
  57:
                 var4 = var5.options;
                 var6 = var4.userFilters;
@@ -1295,7 +1295,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  104:
                 var8 = var6.thread;
  110:
-                if(!(var28 != var8)) { _fun0023_ip = 481; continue _fun0023 }
+                if(!(var28 != var8)) { _fun0023_ip = 480; continue _fun0023 }
  117:
                 var12 = _closure1_slot5;
                 var11 = var12.getMemberListSections;
@@ -1407,10 +1407,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8['boosters'] = var4;
                 var8 = var11.bind(var12)(var8);
                 var5['_userResults'] = var8;
-                _fun0023_ip = 570; continue _fun0023;
- 481:
-                if(!(var9 !== var10)) { _fun0023_ip = 521; continue _fun0023 }
- 485:
+                _fun0023_ip = 569; continue _fun0023;
+ 480:
+                if(!(var9 !== var10)) { _fun0023_ip = 520; continue _fun0023 }
+ 484:
                 var8 = _closure1_slot1;
                 var11 = _closure1_slot2;
                 var1 = 13;
@@ -1419,7 +1419,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var9.requestMembers;
                 var1 = 100;
                 var1 = var8.bind(var9)(var10, var7, var1);
- 521:
+ 520:
                 var1 = var3.setLimit;
                 var1 = var1.bind(var3)(var2);
                 var2 = var3.setQuery;
@@ -1430,7 +1430,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1['blacklist'] = var5;
                 var1['boosters'] = var4;
                 var1 = var2.bind(var3)(var1);
- 570:
+ 569:
                 var1 = undefined;
                 return var1;
             }
@@ -1517,7 +1517,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(var1) { _fun0025_ip = 36; continue _fun0025 }
  30:
                 var1 = new Array(0);
-                _fun0025_ip = 93; continue _fun0025;
+                _fun0025_ip = 92; continue _fun0025;
  36:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -1534,7 +1534,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = true;
                 var2['fuzzy'] = var5;
                 var1 = var3.bind(var4)(var2);
- 93:
+ 92:
                 return var1;
             }
         };
@@ -1663,7 +1663,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 if(var1) { _fun0027_ip = 36; continue _fun0027 }
  30:
                 var1 = new Array(0);
-                _fun0027_ip = 93; continue _fun0027;
+                _fun0027_ip = 92; continue _fun0027;
  36:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -1680,7 +1680,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = true;
                 var2['fuzzy'] = var5;
                 var1 = var3.bind(var4)(var2);
- 93:
+ 92:
                 return var1;
             }
         };

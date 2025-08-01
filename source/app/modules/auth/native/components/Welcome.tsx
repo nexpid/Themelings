@@ -1,9 +1,9 @@
 // app/modules/auth/native/components/Welcome.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var11 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var6;
@@ -399,7 +399,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
     var7 = var6[var1];
-    var4 = native4;
+    var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
@@ -786,7 +786,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var5 = var6.bind(var7)(var5);
             if(!var3) { _fun0003_ip = 431; continue _fun0003 }
  425:
-            if(var2) { _fun0003_ip = 923; continue _fun0003 }
+            if(var2) { _fun0003_ip = 922; continue _fun0003 }
  431:
             var23 = _closure1_slot0;
             var24 = _closure1_slot2;
@@ -956,7 +956,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 923:
+ 922:
             var3 = _closure1_slot21;
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;

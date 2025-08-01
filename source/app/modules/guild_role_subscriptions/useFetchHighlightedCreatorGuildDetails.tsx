@@ -1,9 +1,9 @@
 // app/modules/guild_role_subscriptions/useFetchHighlightedCreatorGuildDetails.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var7 = native3;
-    var6 = native4;
-    var3 = native6;
-    var5 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var7 = metroImportDefault;
+    var6 = metroImportAll;
+    var3 = exports;
+    var5 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var5;
     var1 = global;
@@ -29,7 +29,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var4;
     var4 = 4;
     var5 = var5[var4];
-    var4 = native2;
+    var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/guild_role_subscriptions/useFetchHighlightedCreatorGuildDetails.tsx';

@@ -1,9 +1,9 @@
 // app/modules/oauth2/native/WebhookGuildChannelSelector.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var11 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var7;
@@ -26,7 +26,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var _closure1_slot4 = var2;
     var2 = 2;
     var5 = var7[var2];
-    var2 = native4;
+    var2 = metroImportAll;
     var2 = var2.bind(var1)(var5);
     var _closure1_slot5 = var2;
     var2 = 3;
@@ -385,11 +385,11 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 }
             };
             var4 = var7.bind(var8)(var4, var6);
-            if(!(var1 != var9)) { _fun0001_ip = 746; continue _fun0001 }
+            if(!(var1 != var9)) { _fun0001_ip = 747; continue _fun0001 }
  226:
             var4 = var1 == var3;
             var17 = undefined;
-            if(var4) { _fun0001_ip = 256; continue _fun0001 }
+            if(var4) { _fun0001_ip = 257; continue _fun0001 }
  235:
             var4 = var3.channels;
             var3 = var4.find;
@@ -401,7 +401,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 return var1;
             };
             var17 = var3.bind(var4)(var2);
- 256:
+ 257:
             var4 = _closure1_slot11;
             var3 = _closure1_slot6;
             var2 = {};
@@ -431,12 +431,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var6[0] = var7;
             var8 = var1 != var16;
             var7 = null;
-            if(!var8) { _fun0001_ip = 456; continue _fun0001 }
- 395:
+            if(!var8) { _fun0001_ip = 457; continue _fun0001 }
+ 396:
             var8 = '';
             var7 = null;
-            if(!(var8 !== var16)) { _fun0001_ip = 456; continue _fun0001 }
- 405:
+            if(!(var8 !== var16)) { _fun0001_ip = 457; continue _fun0001 }
+ 406:
             var13 = _closure1_slot10;
             var12 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -449,7 +449,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var8['style'] = var18;
             var8['children'] = var16;
             var7 = var13.bind(var5)(var12, var8);
- 456:
+ 457:
             var6[1] = var7;
             var12 = _closure1_slot10;
             var8 = _closure1_slot0;
@@ -461,12 +461,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var7 = {};
             var18 = var1 == var17;
             var13 = undefined;
-            if(var18) { _fun0001_ip = 506; continue _fun0001 }
- 501:
+            if(var18) { _fun0001_ip = 507; continue _fun0001 }
+ 502:
             var13 = var17.name;
- 506:
-            if(!(var1 == var13)) { _fun0001_ip = 562; continue _fun0001 }
- 510:
+ 507:
+            if(!(var1 == var13)) { _fun0001_ip = 563; continue _fun0001 }
+ 511:
             var20 = _closure1_slot0;
             var17 = _closure1_slot2;
             var18 = var17[var14];
@@ -478,7 +478,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var17 = var17.t;
             var17 = var17.Re/64e;
             var13 = var18.bind(var19)(var17);
- 562:
+ 563:
             var7['label'] = var13;
             var9 = var1 == var9;
             var7['disabled'] = var9;
@@ -519,7 +519,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 746:
+ 747:
             return var1;
         }
     };

@@ -1,9 +1,9 @@
 // app/modules/forums/ForumActivePostStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
@@ -404,7 +404,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = _closure1_slot17;
             var4 = var4.bind(var5)(var1);
             var1 = null;
-            if(!(var1 != var4)) { _fun0008_ip = 617; continue _fun0008 }
+            if(!(var1 != var4)) { _fun0008_ip = 618; continue _fun0008 }
  35:
             var5 = var1 != var7;
             if(!var5) { _fun0008_ip = 48; continue _fun0008 }
@@ -663,12 +663,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var4.bind(var5)(var3);
             var4 = var1 == var3;
             var1 = null;
-            if(var4) { _fun0008_ip = 613; continue _fun0008 }
- 610:
+            if(var4) { _fun0008_ip = 614; continue _fun0008 }
+ 611:
             var1 = var3;
- 613:
+ 614:
             _closure1_slot14 = var1;
- 617:
+ 618:
             var1 = undefined;
             return var1;
         }

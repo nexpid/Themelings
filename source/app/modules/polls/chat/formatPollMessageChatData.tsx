@@ -1,9 +1,9 @@
 // app/modules/polls/chat/formatPollMessageChatData.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var8 = native2;
-    var11 = native3;
-    var3 = native6;
-    var9 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var8 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var9 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var11;
     var _closure1_slot2 = var9;
@@ -674,10 +674,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  28:
             var _closure2_slot0 = var2;
             var17 = var1.theme;
-            if(!(var17 === var15)) { _fun0008_ip = 46; continue _fun0008 }
- 42:
+            if(!(var17 === var15)) { _fun0008_ip = 45; continue _fun0008 }
+ 41:
             var17 = 'dark';
- 46:
+ 45:
             var1 = var1.formattedExpirationLabel;
             var _closure2_slot1 = var15;
             var _closure2_slot2 = var15;
@@ -696,13 +696,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var _closure2_slot15 = var15;
             var27 = var6.poll;
             var2 = null;
-            if(!(var2 != var27)) { _fun0008_ip = 295; continue _fun0008 }
- 127:
+            if(!(var2 != var27)) { _fun0008_ip = 294; continue _fun0008 }
+ 126:
             var4 = _closure1_slot8;
             var3 = var4.getCurrentUser;
             var7 = var3.bind(var4)();
-            if(!(var2 != var7)) { _fun0008_ip = 295; continue _fun0008 }
- 150:
+            if(!(var2 != var7)) { _fun0008_ip = 294; continue _fun0008 }
+ 149:
             var3 = _closure1_slot3;
             var3 = var3.useReducedMotion;
             _closure2_slot1 = var3;
@@ -713,16 +713,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var4 = var4.bind(var5)(var3);
             var3 = var2 == var4;
             var5 = undefined;
-            if(var3) { _fun0008_ip = 222; continue _fun0008 }
- 197:
+            if(var3) { _fun0008_ip = 221; continue _fun0008 }
+ 196:
             var3 = var4.getGuildId;
             var3 = var2 == var3;
             var5 = undefined;
-            if(var3) { _fun0008_ip = 222; continue _fun0008 }
- 212:
+            if(var3) { _fun0008_ip = 221; continue _fun0008 }
+ 211:
             var3 = var4.getGuildId;
             var5 = var3.bind(var4)();
- 222:
+ 221:
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 15;
@@ -738,18 +738,18 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3['formattedExpirationLabel'] = var1;
             var1 = arg2;
             var1 = var5.bind(var15)(var6, var1, var3);
-            if(!(var2 == var1)) { _fun0008_ip = 297; continue _fun0008 }
- 295:
+            if(!(var2 == var1)) { _fun0008_ip = 296; continue _fun0008 }
+ 294:
             return var15;
- 297:
+ 296:
             var10 = var1.canTapAnswers;
             var20 = var1.canRemoveVote;
             var7 = var1.canShowVoteCounts;
             var22 = var1.canSubmitVote;
             _closure2_slot3 = var22;
             var2 = var1.expirationLabel;
-            if(!(var15 === var2)) { _fun0008_ip = 392; continue _fun0008 }
- 335:
+            if(!(var15 === var2)) { _fun0008_ip = 391; continue _fun0008 }
+ 334:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var3 = 16;
@@ -762,7 +762,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.t;
             var3 = var3.e+J3JS;
             var2 = var5.bind(var6)(var3);
- 392:
+ 391:
             _closure2_slot4 = var2;
             var8 = var1.hasSelectedAnswer;
             _closure2_slot5 = var8;
@@ -1242,15 +1242,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2[var28];
             var2 = var22.bind(var15)(var2);
             var2 = var2.t;
-            if(var18) { _fun0008_ip = 964; continue _fun0008 }
- 949:
+            if(var18) { _fun0008_ip = 963; continue _fun0008 }
+ 948:
             var18 = var2.cHfFqq;
             var18 = var3.bind(var9)(var18);
-            _fun0008_ip = 977; continue _fun0008;
- 964:
+            _fun0008_ip = 976; continue _fun0008;
+ 963:
             var2 = var2.PVATMz;
             var18 = var3.bind(var9)(var2);
- 977:
+ 976:
             _closure2_slot15 = var18;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -1318,17 +1318,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             };
             var3 = var3.bind(var9)(var2);
             var2 = undefined;
-            if(!var11) { _fun0008_ip = 1200; continue _fun0008 }
- 1108:
+            if(!var11) { _fun0008_ip = 1199; continue _fun0008 }
+ 1107:
             var2 = undefined;
-            if(var5) { _fun0008_ip = 1200; continue _fun0008 }
- 1113:
+            if(var5) { _fun0008_ip = 1199; continue _fun0008 }
+ 1112:
             var2 = undefined;
-            if(var6) { _fun0008_ip = 1200; continue _fun0008 }
- 1118:
+            if(var6) { _fun0008_ip = 1199; continue _fun0008 }
+ 1117:
             var2 = undefined;
-            if(var1) { _fun0008_ip = 1200; continue _fun0008 }
- 1123:
+            if(var1) { _fun0008_ip = 1199; continue _fun0008 }
+ 1122:
             var1 = {'label': null, 'presentation': 'textButton', 'enabled': true, 'type': 'showVotes'};
             var26 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -1343,7 +1343,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var9 = var21.bind(var22)(var9);
             var1['label'] = var9;
             var2 = var1;
- 1200:
+ 1199:
             var9 = var27.allow_multiselect;
             var22 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -1486,10 +1486,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var14 = var14.bind(var20)();
             var1['answersInteraction'] = var14;
             var14 = undefined;
-            if(!var19) { _fun0008_ip = 1538; continue _fun0008 }
- 1535:
+            if(!var19) { _fun0008_ip = 1537; continue _fun0008 }
+ 1534:
             var14 = var18;
- 1538:
+ 1537:
             var1['answerTapAccessibilityLabel'] = var14;
             var1['layoutType'] = var16;
             var14 = _closure1_slot1;

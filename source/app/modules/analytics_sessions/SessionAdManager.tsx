@@ -1,9 +1,9 @@
 // app/modules/analytics_sessions/SessionAdManager.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var5 = native2;
-    var7 = native3;
-    var3 = native6;
-    var6 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
@@ -309,7 +309,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  22:
                         var3 = _closure3_slot0;
                         var3 = var3.schedulerStarted;
-                        if(!var3) { _fun0006_ip = 148; continue _fun0006 }
+                        if(!var3) { _fun0006_ip = 149; continue _fun0006 }
  38:
                         var2 = _closure3_slot0;
                         var3 = false;
@@ -335,7 +335,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                         var3 = var2.heartbeatInterval;
                         var2 = var3.stop;
                         var2 = var2.bind(var3)();
- 148:
+ 149:
                         return var1;
                     }
                 };

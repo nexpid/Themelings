@@ -1,9 +1,9 @@
 // app/modules/calls/ChannelRTCStore.tsx
-export default (function(native1, native2, native3, native4, native5, native6, native7) {
-    var6 = native2;
-    var8 = native3;
-    var3 = native6;
-    var7 = native7;
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var8 = metroImportDefault;
+    var3 = exports;
+    var7 = dependencyMap;
     var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
     var _closure1_slot2 = var7;
@@ -324,12 +324,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var3 = var8.size;
                             var3 = var3.bind(var8)();
                             var5 = 0;
-                            if(!(var5 !== var3)) { _fun0008_ip = 553; continue _fun0008 }
+                            if(!(var5 !== var3)) { _fun0008_ip = 555; continue _fun0008 }
  55:
                             var6 = _closure1_slot16;
                             var3 = var6.getVoiceChannelId;
                             var3 = var3.bind(var6)();
-                            if(!(var3 === var4)) { _fun0008_ip = 553; continue _fun0008 }
+                            if(!(var3 === var4)) { _fun0008_ip = 555; continue _fun0008 }
  76:
                             var3 = _closure1_slot22;
                             var3 = var3.NONE;
@@ -363,14 +363,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             };
                             var3 = var6.bind(var10)(var3);
                             var10 = null;
-                            if(!(var10 == var3)) { _fun0008_ip = 330; continue _fun0008 }
- 153:
+                            if(!(var10 == var3)) { _fun0008_ip = 332; continue _fun0008 }
+ 154:
                             var6 = var8.size;
                             var12 = var6.bind(var8)();
                             var11 = 1;
                             var6 = var7;
-                            if(!(var11 !== var12)) { _fun0008_ip = 386; continue _fun0008 }
- 175:
+                            if(!(var11 !== var12)) { _fun0008_ip = 388; continue _fun0008 }
+ 176:
                             var14 = var8.size;
                             var15 = _closure1_slot0;
                             var12 = _closure1_slot2;
@@ -379,8 +379,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var12 = var12.ChannelRTCParticipantsIndexes;
                             var12 = var12.VIDEO;
                             var12 = var14.bind(var8)(var12);
-                            if(!(var11 !== var12)) { _fun0008_ip = 269; continue _fun0008 }
- 218:
+                            if(!(var11 !== var12)) { _fun0008_ip = 271; continue _fun0008 }
+ 219:
                             var12 = var8.toArray;
                             var14 = var12.bind(var8)();
                             var12 = var14.find;
@@ -409,17 +409,17 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var12 = var12.bind(var14)(var9);
                             var14 = var10 == var12;
                             var9 = undefined;
-                            if(var14) { _fun0008_ip = 257; continue _fun0008 }
- 252:
+                            if(var14) { _fun0008_ip = 259; continue _fun0008 }
+ 254:
                             var9 = var12.id;
- 257:
-                            if(!(var10 != var9)) { _fun0008_ip = 264; continue _fun0008 }
- 261:
+ 259:
+                            if(!(var10 != var9)) { _fun0008_ip = 266; continue _fun0008 }
+ 263:
                             var7 = var9;
- 264:
+ 266:
                             var6 = var7;
-                            _fun0008_ip = 386; continue _fun0008;
- 269:
+                            _fun0008_ip = 388; continue _fun0008;
+ 271:
                             var9 = var8.toArray;
                             var12 = _closure1_slot0;
                             var7 = _closure1_slot2;
@@ -432,8 +432,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var7 = var7.bind(var1)(var9, var11);
                             var7 = var7[var5];
                             var6 = var7.id;
-                            _fun0008_ip = 386; continue _fun0008;
- 330:
+                            _fun0008_ip = 388; continue _fun0008;
+ 332:
                             var9 = _closure1_slot1;
                             var11 = _closure1_slot2;
                             var7 = 23;
@@ -446,7 +446,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var7 = 'Impossible condition';
                             var7 = var11.bind(var1)(var9, var7);
                             var6 = var3.id;
- 386:
+ 388:
                             var3 = _closure1_slot48;
                             var9 = var3.bind(var1)(var4);
                             var7 = _closure1_slot8;
@@ -456,45 +456,45 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var3 = _closure1_slot22;
                             var3 = var3.AUTO;
                             var7 = var5;
-                            if(!(var7 !== var3)) { _fun0008_ip = 529; continue _fun0008 }
- 429:
+                            if(!(var7 !== var3)) { _fun0008_ip = 531; continue _fun0008 }
+ 431:
                             var3 = _closure1_slot22;
                             var3 = var3.NONE;
                             var7 = var5;
-                            if(!(var5 !== var3)) { _fun0008_ip = 529; continue _fun0008 }
- 446:
+                            if(!(var5 !== var3)) { _fun0008_ip = 531; continue _fun0008 }
+ 448:
                             var3 = var8.getParticipant;
                             var9 = var3.bind(var8)(var5);
                             var3 = var10 == var9;
-                            if(var3) { _fun0008_ip = 513; continue _fun0008 }
- 464:
+                            if(var3) { _fun0008_ip = 515; continue _fun0008 }
+ 466:
                             var11 = var9.type;
                             var8 = _closure1_slot21;
                             var8 = var8.STREAM;
                             var8 = var11 === var8;
-                            if(!var8) { _fun0008_ip = 510; continue _fun0008 }
- 486:
+                            if(!var8) { _fun0008_ip = 512; continue _fun0008 }
+ 488:
                             var12 = _closure1_slot11;
                             var11 = var12.getActiveStreamForStreamKey;
                             var9 = var9.id;
                             var9 = var11.bind(var12)(var9);
                             var8 = var10 == var9;
- 510:
+ 512:
                             var3 = var8;
- 513:
+ 515:
                             var7 = var5;
-                            if(!var3) { _fun0008_ip = 529; continue _fun0008 }
- 519:
+                            if(!var3) { _fun0008_ip = 531; continue _fun0008 }
+ 521:
                             var3 = _closure1_slot22;
                             var7 = var3.NONE;
- 529:
+ 531:
                             var5 = _closure1_slot51;
                             var3 = new Array(2);
                             var3[0] = var7;
                             var3[1] = var6;
                             var3 = var5.bind(var1)(var4, var3);
                             return var1;
- 553:
+ 555:
                             var3 = _closure1_slot51;
                             var2 = null;
                             var2 = var3.bind(var1)(var4, var2);
