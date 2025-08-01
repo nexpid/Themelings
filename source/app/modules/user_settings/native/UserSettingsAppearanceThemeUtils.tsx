@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var1.analyticsLocations;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 6;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var4 = var10.bind(var11)(var7, var4);
     var _closure1_slot8 = var4;
-    var7 = 7;
+    var7 = 8;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -89,88 +89,117 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var5 = arg1;
-            var6 = _closure1_slot6;
+            var3 = _closure1_slot6;
             var1 = {};
-            var3 = true;
-            var1['isPersisted'] = var3;
-            var3 = arg3;
-            var1['isSynced'] = var3;
-            var4 = var5.colors;
-            var3 = null;
-            if(!(var3 != var4)) { _fun0001_ip = 77; continue _fun0001 }
- 38:
-            var8 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var4 = 3;
-            var7 = var7[var4];
+            var4 = true;
+            var1['isPersisted'] = var4;
+            var4 = arg3;
+            var1['isSynced'] = var4;
+            var8 = var5.type;
+            var9 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var7 = 3;
+            var6 = var4[var7];
             var4 = undefined;
-            var4 = var8.bind(var4)(var7);
-            var7 = var4.BackgroundGradientPresetId;
-            var4 = var5.id;
-            var4 = var7[var4];
-            _fun0001_ip = 106; continue _fun0001;
- 77:
+            var6 = var9.bind(var4)(var6);
+            var6 = var6.ClientThemeType;
+            var6 = var6.BACKGROUND_GRADIENT_PRESET;
+            if(!(var8 !== var6)) { _fun0001_ip = 101; continue _fun0001 }
+ 70:
             var9 = var5.theme;
-            var7 = global;
-            var7 = var7.HermesInternal;
-            var8 = var7.concat;
-            var7 = 'default ';
-            var4 = var8.bind(var7)(var9);
- 106:
-            var1['themeName'] = var4;
-            var4 = arg2;
-            var1['analyticsLocations'] = var4;
-            var4 = undefined;
-            var1 = var6.bind(var4)(var1);
-            var6 = var5.theme;
+            var6 = global;
+            var6 = var6.HermesInternal;
+            var8 = var6.concat;
+            var6 = 'default ';
+            var6 = var8.bind(var6)(var9);
+            _fun0001_ip = 136; continue _fun0001;
+ 101:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var8 = 4;
+            var8 = var10[var8];
+            var8 = var9.bind(var4)(var8);
+            var9 = var8.BackgroundGradientPresetId;
+            var8 = var5.id;
+            var6 = var9[var8];
+ 136:
+            var1['themeName'] = var6;
+            var6 = arg2;
+            var1['analyticsLocations'] = var6;
+            var1 = var3.bind(var4)(var1);
+            var3 = var5.theme;
             var1 = _closure1_slot4;
             var1 = var1.MIDNIGHT;
-            if(!(var6 === var1)) { _fun0001_ip = 178; continue _fun0001 }
- 145:
-            var6 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var1 = 4;
-            var1 = var7[var1];
-            var7 = var6.bind(var4)(var1);
-            var6 = var7.setShouldSyncAppearanceSettings;
-            var1 = false;
-            var1 = var6.bind(var7)(var1);
- 178:
-            var6 = var5.theme;
-            var1 = 'system';
-            if(!(var1 !== var6)) { _fun0001_ip = 282; continue _fun0001 }
- 191:
-            var1 = var5.colors;
-            if(!(var3 != var1)) { _fun0001_ip = 282; continue _fun0001 }
- 200:
-            var3 = _closure1_slot0;
+            if(!(var3 === var1)) { _fun0001_ip = 206; continue _fun0001 }
+ 173:
+            var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var1 = 5;
             var1 = var6[var1];
-            var8 = var3.bind(var4)(var1);
-            var7 = var8.updateBackgroundGradientPreset;
-            var1 = var5.id;
-            var1 = var7.bind(var8)(var1);
-            var1 = 4;
+            var6 = var3.bind(var4)(var1);
+            var3 = var6.setShouldSyncAppearanceSettings;
+            var1 = false;
+            var1 = var3.bind(var6)(var1);
+ 206:
+            var3 = var5.theme;
+            var1 = 'system';
+            if(!(var1 !== var3)) { _fun0001_ip = 408; continue _fun0001 }
+ 222:
+            var3 = var5.type;
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var7];
+            var1 = var6.bind(var4)(var1);
+            var1 = var1.ClientThemeType;
+            var1 = var1.BACKGROUND_GRADIENT_PRESET;
+            if(!(var3 !== var1)) { _fun0001_ip = 326; continue _fun0001 }
+ 260:
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 6;
+            var1 = var6[var1];
+            var7 = var3.bind(var4)(var1);
+            var1 = var7.resetBackgroundGradientPreset;
+            var1 = var1.bind(var7)();
+            var1 = 5;
             var1 = var6[var1];
             var6 = var3.bind(var4)(var1);
             var3 = var6.saveClientTheme;
             var1 = {};
-            var7 = var5.id;
-            var1['backgroundGradientPresetId'] = var7;
             var7 = var5.theme;
             var1['theme'] = var7;
             var1 = var3.bind(var6)(var1);
-            _fun0001_ip = 346; continue _fun0001;
- 282:
+            _fun0001_ip = 406; continue _fun0001;
+ 326:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 6;
+            var3 = var7[var3];
+            var9 = var6.bind(var4)(var3);
+            var8 = var9.updateBackgroundGradientPreset;
+            var3 = var5.id;
+            var3 = var8.bind(var9)(var3);
+            var3 = 5;
+            var3 = var7[var3];
+            var7 = var6.bind(var4)(var3);
+            var6 = var7.saveClientTheme;
+            var3 = {};
+            var8 = var5.id;
+            var3['backgroundGradientPresetId'] = var8;
+            var8 = var5.theme;
+            var3['theme'] = var8;
+            var1 = var6.bind(var7)(var3);
+ 406:
+            _fun0001_ip = 472; continue _fun0001;
+ 408:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 5;
+            var2 = 6;
             var2 = var6[var2];
             var7 = var3.bind(var4)(var2);
             var2 = var7.resetBackgroundGradientPreset;
             var2 = var2.bind(var7)();
-            var2 = 4;
+            var2 = 5;
             var2 = var6[var2];
             var4 = var3.bind(var4)(var2);
             var3 = var4.saveClientTheme;
@@ -178,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.theme;
             var2['theme'] = var5;
             var1 = var3.bind(var4)(var2);
- 346:
+ 472:
             return var1;
         }
     };

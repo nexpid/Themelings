@@ -84,15 +84,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = 12;
         var8 = var17[var13];
         var8 = var16.bind(var4)(var8);
-        var20 = var8.intl;
-        var19 = var20.format;
+        var19 = var8.intl;
+        var14 = var19.format;
         var8 = var17[var13];
         var8 = var16.bind(var4)(var8);
         var8 = var8.t;
-        var14 = var8.Hg8Ee3;
+        var11 = var8.Hg8Ee3;
         var8 = {};
         var8['onClick'] = var21;
-        var8 = var19.bind(var20)(var14, var8);
+        var8 = var14.bind(var19)(var11, var8);
         var5['children'] = var8;
         var6 = var7.bind(var4)(var6, var5);
         var5 = new Array(3);
@@ -100,81 +100,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = _closure1_slot9;
         var7 = _closure1_slot5;
         var6 = {};
-        var14 = var10.formBody;
-        var6['style'] = var14;
-        var19 = _closure1_slot8;
-        var14 = var19.map;
-        var11 = function(arg1, arg2) {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
-                var5 = arg1;
-                var _closure3_slot0 = var5;
-                var4 = _closure1_slot10;
-                var1 = _closure1_slot4;
-                var3 = var1.Fragment;
-                var2 = {};
-                var9 = _closure1_slot9;
-                var7 = _closure1_slot0;
-                var13 = _closure1_slot2;
-                var11 = 13;
-                var6 = var13[var11];
+        var11 = var10.formBody;
+        var6['style'] = var11;
+        var19 = _closure1_slot9;
+        var11 = 13;
+        var11 = var17[var11];
+        var11 = var16.bind(var4)(var11);
+        var14 = var11.TableRowGroup;
+        var11 = {};
+        var22 = _closure1_slot8;
+        var21 = var22.map;
+        var20 = function(arg1, arg2) {
+            var5 = arg1;
+            var8 = arg2;
+            var _closure3_slot0 = var5;
+            var4 = _closure1_slot9;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 14;
+            var1 = var3[var1];
+            var3 = undefined;
+            var1 = var2.bind(var3)(var1);
+            var2 = var1.TableCheckboxRow;
+            var1 = {};
+            var9 = 0;
+            var9 = var9 === var8;
+            var1['start'] = var9;
+            var7 = _closure1_slot8;
+            var9 = var7.length;
+            var7 = 1;
+            var7 = var9 - var7;
+            var7 = var8 === var7;
+            var1['end'] = var7;
+            var8 = _closure2_slot3;
+            var8 = var8.bind(var3)(var5);
+            var1['label'] = var8;
+            var8 = _closure2_slot0;
+            var7 = var8.includes;
+            var7 = var7.bind(var8)(var5);
+            var1['checked'] = var7;
+            var6 = function onPress() {
+                var3 = _closure2_slot1;
+                var2 = _closure3_slot0;
                 var1 = undefined;
-                var6 = var7.bind(var1)(var6);
-                var7 = var6.FormRow;
-                var6 = {};
-                var10 = function onPress() {
-                    var3 = _closure2_slot1;
-                    var2 = _closure3_slot0;
-                    var1 = undefined;
-                    var1 = var3.bind(var1)(var2);
-                    return var1;
-                };
-                var6['onPress'] = var10;
-                var14 = _closure1_slot9;
-                var12 = _closure1_slot1;
-                var10 = 14;
-                var10 = var13[var10];
-                var13 = var12.bind(var1)(var10);
-                var12 = {};
-                var16 = _closure2_slot0;
-                var15 = var16.includes;
-                var15 = var15.bind(var16)(var5);
-                var12['selected'] = var15;
-                var15 = _closure2_slot2;
-                var15 = var15.radioIndicator;
-                var12['style'] = var15;
-                var12 = var14.bind(var1)(var13, var12);
-                var6['trailing'] = var12;
-                var10 = _closure2_slot3;
-                var10 = var10.bind(var1)(var5);
-                var6['label'] = var10;
-                var7 = var9.bind(var1)(var7, var6);
-                var6 = new Array(2);
-                var6[0] = var7;
-                var7 = _closure1_slot8;
-                var9 = var7.length;
-                var7 = 1;
-                var9 = var9 - var7;
-                var7 = arg2;
-                var7 = var7 < var9;
-                if(!var7) { _fun0001_ip = 230; continue _fun0001 }
- 195:
-                var10 = _closure1_slot9;
-                var9 = _closure1_slot0;
-                var8 = _closure1_slot2;
-                var8 = var8[var11];
-                var8 = var9.bind(var1)(var8);
-                var9 = var8.FormDivider;
-                var8 = {};
-                var7 = var10.bind(var1)(var9, var8);
- 230:
-                var6[1] = var7;
-                var2['children'] = var6;
-                var1 = var4.bind(var1)(var3, var2, var5);
+                var1 = var3.bind(var1)(var2);
                 return var1;
-            }
+            };
+            var1['onPress'] = var6;
+            var1 = var4.bind(var3)(var2, var1, var5);
+            return var1;
         };
-        var11 = var14.bind(var19)(var11);
+        var20 = var21.bind(var22)(var20);
+        var11['children'] = var20;
+        var11 = var19.bind(var4)(var14, var11);
         var6['children'] = var11;
         var6 = var8.bind(var4)(var7, var6);
         var5[1] = var6;
@@ -301,16 +279,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['closeButtonContainer'] = var9;
     var9 = {};
     var9['marginTop'] = var14;
-    var14 = var6[var10];
-    var14 = var11.bind(var1)(var14);
-    var14 = var14.radii;
-    var14 = var14.sm;
-    var9['borderRadius'] = var14;
-    var14 = var6[var10];
-    var14 = var11.bind(var1)(var14);
-    var14 = var14.colors;
-    var14 = var14.BACKGROUND_SECONDARY;
-    var9['backgroundColor'] = var14;
     var4['formBody'] = var9;
     var9 = {};
     var9['paddingVertical'] = var13;
@@ -378,13 +346,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot3;
                 var1 = undefined;
                 var2 = function(arg1) {
-                    _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                    _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                         var4 = arg1;
                         var3 = var4.includes;
                         var1 = _closure4_slot0;
                         var1 = var3.bind(var4)(var1);
-                        if(var1) { _fun0002_ip = 57; continue _fun0002 }
+                        if(var1) { _fun0001_ip = 57; continue _fun0001 }
  23:
                         var1 = new Array(1);
                         var5 = 0;
@@ -395,7 +363,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1[var3] = var2;
                         var2 = 1;
                         var2 = var3 + var2;
-                        _fun0002_ip = 76; continue _fun0002;
+                        _fun0001_ip = 76; continue _fun0001;
  57:
                         var3 = var4.filter;
                         var2 = function(arg1) {

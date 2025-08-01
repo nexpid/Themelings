@@ -341,7 +341,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot13 = var4;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -359,28 +359,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot8;
             var4 = undefined;
             var13 = var1.bind(var4)();
-            var2 = var7.colors;
-            var1 = null;
-            if(!(var1 != var2)) { _fun0004_ip = 83; continue _fun0004 }
- 56:
+            var2 = var7.type;
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 16;
+            var1 = var8[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.ClientThemeType;
+            var1 = var1.STANDARD_BACKGROUND_THEME;
+            if(!(var2 !== var1)) { _fun0004_ip = 113; continue _fun0004 }
+ 86:
             var3 = _closure1_slot6;
             var2 = _closure1_slot12;
             var1 = {};
             var1['isPreview'] = var6;
             var1['item'] = var7;
             var12 = var3.bind(var4)(var2, var1);
-            _fun0004_ip = 103; continue _fun0004;
- 83:
+            _fun0004_ip = 133; continue _fun0004;
+ 113:
             var3 = _closure1_slot6;
             var2 = _closure1_slot13;
             var1 = {};
             var1['item'] = var7;
             var12 = var3.bind(var4)(var2, var1);
- 103:
+ 133:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 16;
+            var1 = 17;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.PressableOpacity;
@@ -406,19 +412,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var8;
             var8 = new Array(2);
             var8[0] = var12;
-            if(!var9) { _fun0004_ip = 232; continue _fun0004 }
- 229:
+            if(!var9) { _fun0004_ip = 262; continue _fun0004 }
+ 259:
             var9 = !var11;
- 232:
-            if(!var9) { _fun0004_ip = 261; continue _fun0004 }
- 235:
+ 262:
+            if(!var9) { _fun0004_ip = 291; continue _fun0004 }
+ 265:
             var12 = _closure1_slot6;
             var11 = _closure1_slot3;
             var10 = {};
             var13 = var13.newRedCircle;
             var10['style'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 261:
+ 291:
             var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

@@ -24,7 +24,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.VanillaExperiment;
-    var8 = new Array(18);
+    var8 = new Array(17);
     var8[0] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
@@ -95,13 +95,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.AndroidShopLazyLoadPriceExperiment;
-    var8[16] = var4;
-    var4 = 10;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var4 = var4.Experiment;
-    var8[17] = var4;
+    var8[16] = var4;
     var11 = var2.COLLECTIBLES_SHOP_OPEN;
     var2 = {};
     var4 = 'collectibles shop open';
@@ -113,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var2;
     var2 = new var13[var9](var12, var11, var10, var9);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

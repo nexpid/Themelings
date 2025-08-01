@@ -60,7 +60,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = '>=24.0.0';
     var3['DARWIN_SCKIT_SINGLE_TYPE_VERSION'] = var5;
     var5 = '>=10.0.17763';
-    var3['WINDOWS_SOUNDSHARE_VERSION'] = var5;
+    var3['WINDOWS_SOUNDSHARE_NONHOOK_VERSION'] = var5;
+    var5 = '<10.0.22000';
+    var3['WINDOWS_SOUNDSHARE_HOOK_VERSION'] = var5;
     var5 = '>=10.0.26100';
     var3['WINDOWS_GRAPHICS_CAPTURE_NEW_APIS_SEMVER'] = var5;
     var5 = 26100;

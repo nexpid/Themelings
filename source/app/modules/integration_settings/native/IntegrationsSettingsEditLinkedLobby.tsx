@@ -44,12 +44,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
+    var9 = {};
+    var10 = 5;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.colors;
+    var12 = var12.BG_BASE_PRIMARY;
+    var9['backgroundColor'] = var12;
+    var4['screenContainer'] = var9;
     var9 = {'alignItems': 'center', 'marginTop': 8, 'marginBottom': 32, 'gap': 12};
     var4['header'] = var9;
     var9 = {'paddingLeft': 12, 'marginBottom': 8};
     var4['currentlySyncingText'] = var9;
     var9 = {'height': 1, 'width': 48};
-    var10 = 5;
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
     var10 = var10.colors;
@@ -309,7 +316,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var3.bind(var4)(var1, var2);
             var2 = var17 == var20;
             var1 = null;
-            if(var2) { _fun0001_ip = 1085; continue _fun0001 }
+            if(var2) { _fun0001_ip = 1095; continue _fun0001 }
  470:
             var4 = _closure1_slot6;
             var19 = _closure1_slot0;
@@ -325,6 +332,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var19.bind(var5)(var6);
             var7 = var6.Form;
             var6 = {};
+            var9 = var14.screenContainer;
+            var6['style'] = var9;
             var12 = _closure1_slot4;
             var9 = {};
             var10 = var14.header;
@@ -363,8 +372,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var4.bind(var5)(var19, var18);
             var16[1] = var18;
             var17 = var17 != var26;
-            if(!var17) { _fun0001_ip = 806; continue _fun0001 }
- 702:
+            if(!var17) { _fun0001_ip = 816; continue _fun0001 }
+ 712:
             var20 = _closure1_slot8;
             var19 = _closure1_slot7;
             var18 = {};
@@ -387,7 +396,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21[1] = var23;
             var18['children'] = var21;
             var17 = var20.bind(var5)(var19, var18);
- 806:
+ 816:
             var16[2] = var17;
             var9['children'] = var16;
             var12 = var8.bind(var5)(var12, var9);
@@ -446,7 +455,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1085:
+ 1095:
             return var1;
         }
     };

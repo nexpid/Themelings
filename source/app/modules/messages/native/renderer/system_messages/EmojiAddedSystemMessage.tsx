@@ -241,7 +241,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.message;
             var1 = var1.content;
             var9 = var5.bind(var8)(var1);
-            if(!(var6 != var9)) { _fun0002_ip = 878; continue _fun0002 }
+            if(!(var6 != var9)) { _fun0002_ip = 874; continue _fun0002 }
  280:
             var5 = _closure1_slot4;
             var1 = var5.getDisambiguatedEmojiContext;
@@ -296,14 +296,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = {'action': 'bindInsertText', 'text': null, 'addSpace': true};
             var5 = var6 == var1;
             var7 = undefined;
-            if(var5) { _fun0002_ip = 534; continue _fun0002 }
- 529:
+            if(var5) { _fun0002_ip = 530; continue _fun0002 }
+ 525:
             var7 = var1.name;
+ 530:
+            if(!(var6 == var7)) { _fun0002_ip = 539; continue _fun0002 }
  534:
-            if(!(var6 == var7)) { _fun0002_ip = 543; continue _fun0002 }
- 538:
             var7 = var9.name;
- 543:
+ 539:
             var1 = global;
             var1 = var1.HermesInternal;
             var5 = var1.concat;
@@ -325,10 +325,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['username'] = var11;
             var1['usernameOnClick'] = var10;
             var15 = var9.originalName;
-            if(!(var6 == var15)) { _fun0002_ip = 649; continue _fun0002 }
- 644:
+            if(!(var6 == var15)) { _fun0002_ip = 645; continue _fun0002 }
+ 640:
             var15 = var9.name;
- 649:
+ 645:
             var1['emojiName'] = var15;
             var1['emojiOnClick'] = var14;
             var1['emojiPreview'] = var13;
@@ -344,8 +344,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.ADD_REACTIONS;
             var1 = var5.bind(var8)(var1, var13);
             var5 = undefined;
-            if(!var1) { _fun0002_ip = 792; continue _fun0002 }
- 725:
+            if(!var1) { _fun0002_ip = 788; continue _fun0002 }
+ 721:
             var1 = {'count': 0, 'burst_count': 0, 'me': false, 'me_burst': false};
             var8 = {};
             var13 = var9.id;
@@ -359,7 +359,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['displayName'] = var9;
             var1['emoji'] = var8;
             var5 = var1;
- 792:
+ 788:
             var1 = {};
             var1['content'] = var7;
             var8 = _closure1_slot1;
@@ -373,20 +373,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.reactions;
             var8 = var7.length;
             var7 = 0;
-            if(!(!(var8 > var7))) { _fun0002_ip = 861; continue _fun0002 }
+            if(!(!(var8 > var7))) { _fun0002_ip = 857; continue _fun0002 }
+ 843:
+            if(!(var6 != var5)) { _fun0002_ip = 857; continue _fun0002 }
  847:
-            if(!(var6 != var5)) { _fun0002_ip = 861; continue _fun0002 }
- 851:
             var6 = new Array(1);
             var6[0] = var5;
-            _fun0002_ip = 867; continue _fun0002;
- 861:
+            _fun0002_ip = 863; continue _fun0002;
+ 857:
             var6 = var4.reactions;
- 867:
+ 863:
             var5 = 'reactions';
             var1[var5] = var6;
             return var1;
- 878:
+ 874:
             var1 = {};
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;

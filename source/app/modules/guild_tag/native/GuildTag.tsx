@@ -404,12 +404,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var4.bind(var6)(var1, var2);
                 var2 = var3 == var12;
                 var1 = null;
-                if(var2) { _fun0005_ip = 320; continue _fun0005 }
- 220:
+                if(var2) { _fun0005_ip = 324; continue _fun0005 }
+ 224:
                 var2 = var3 == var11;
                 var1 = null;
-                if(var2) { _fun0005_ip = 320; continue _fun0005 }
- 229:
+                if(var2) { _fun0005_ip = 324; continue _fun0005 }
+ 233:
                 var4 = _closure1_slot8;
                 var3 = _closure1_slot13;
                 var2 = {};
@@ -427,14 +427,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var16 = var7;
                 var7 = copyDataProperties(var17, var16);
                 var7 = undefined;
-                if(var8) { _fun0005_ip = 305; continue _fun0005 }
- 302:
+                if(var8) { _fun0005_ip = 309; continue _fun0005 }
+ 306:
                 var7 = var6;
- 305:
+ 309:
                 var6 = 'onPress';
                 var2[var6] = var7;
                 var1 = var4.bind(var5)(var3, var2);
- 320:
+ 324:
                 return var1;
             }
         };

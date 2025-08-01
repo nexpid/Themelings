@@ -52,22 +52,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var5 = var4 == var6;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 86; continue _fun0001 }
- 76:
+            if(var5) { _fun0001_ip = 88; continue _fun0001 }
+ 78:
             var5 = var6.isMediaChannel;
             var1 = var5.bind(var6)();
- 86:
-            if(!var1) { _fun0001_ip = 110; continue _fun0001 }
- 89:
+ 88:
+            if(!var1) { _fun0001_ip = 112; continue _fun0001 }
+ 91:
             var4 = var4 == var2;
             var3 = undefined;
-            if(var4) { _fun0001_ip = 104; continue _fun0001 }
- 98:
+            if(var4) { _fun0001_ip = 106; continue _fun0001 }
+ 100:
             var3 = var2.isImage;
- 104:
+ 106:
             var2 = true;
             var1 = var2 === var3;
- 110:
+ 112:
             return var1;
         }
     };

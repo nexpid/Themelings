@@ -358,169 +358,175 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = new Array(0);
  144:
                 var1['mentionChannels'] = var3;
-                var3 = var2.mentioned;
-                if(var3) { _fun0005_ip = 161; continue _fun0005 }
+                var3 = var2.mentionGames;
+                if(var3) { _fun0005_ip = 163; continue _fun0005 }
  159:
+                var3 = new Array(0);
+ 163:
+                var1['mentionGames'] = var3;
+                var3 = var2.mentioned;
+                if(var3) { _fun0005_ip = 180; continue _fun0005 }
+ 178:
                 var3 = false;
- 161:
+ 180:
                 var1['mentioned'] = var3;
                 var3 = var2.pinned;
-                if(var3) { _fun0005_ip = 178; continue _fun0005 }
- 176:
+                if(var3) { _fun0005_ip = 197; continue _fun0005 }
+ 195:
                 var3 = false;
- 178:
+ 197:
                 var1['pinned'] = var3;
                 var3 = var2.mentionEveryone;
-                if(var3) { _fun0005_ip = 195; continue _fun0005 }
- 193:
+                if(var3) { _fun0005_ip = 214; continue _fun0005 }
+ 212:
                 var3 = false;
- 195:
+ 214:
                 var1['mentionEveryone'] = var3;
                 var3 = var2.tts;
-                if(var3) { _fun0005_ip = 212; continue _fun0005 }
- 210:
+                if(var3) { _fun0005_ip = 231; continue _fun0005 }
+ 229:
                 var3 = false;
- 212:
+ 231:
                 var1['tts'] = var3;
                 var3 = var2.giftCodes;
-                if(var3) { _fun0005_ip = 231; continue _fun0005 }
- 227:
+                if(var3) { _fun0005_ip = 250; continue _fun0005 }
+ 246:
                 var3 = new Array(0);
- 231:
+ 250:
                 var1['giftCodes'] = var3;
                 var3 = var2.state;
-                if(var3) { _fun0005_ip = 255; continue _fun0005 }
- 245:
+                if(var3) { _fun0005_ip = 274; continue _fun0005 }
+ 264:
                 var5 = _closure1_slot9;
                 var3 = var5.SENT;
- 255:
+ 274:
                 var1['state'] = var3;
                 var5 = var2.nonce;
                 var3 = null;
                 var6 = var3 != var5;
                 var4 = undefined;
-                if(!var6) { _fun0005_ip = 281; continue _fun0005 }
- 278:
+                if(!var6) { _fun0005_ip = 300; continue _fun0005 }
+ 297:
                 var4 = var5;
- 281:
+ 300:
                 var1['nonce'] = var4;
                 var4 = var2.blocked;
-                if(var4) { _fun0005_ip = 298; continue _fun0005 }
- 296:
+                if(var4) { _fun0005_ip = 317; continue _fun0005 }
+ 315:
                 var4 = false;
- 298:
+ 317:
                 var1['blocked'] = var4;
                 var4 = var2.ignored;
-                if(var4) { _fun0005_ip = 315; continue _fun0005 }
- 313:
+                if(var4) { _fun0005_ip = 334; continue _fun0005 }
+ 332:
                 var4 = false;
- 315:
+ 334:
                 var1['ignored'] = var4;
                 var4 = var2.call;
-                if(var4) { _fun0005_ip = 331; continue _fun0005 }
- 329:
+                if(var4) { _fun0005_ip = 350; continue _fun0005 }
+ 348:
                 var4 = null;
- 331:
+ 350:
                 var1['call'] = var4;
                 var4 = var2.bot;
-                if(var4) { _fun0005_ip = 348; continue _fun0005 }
- 346:
+                if(var4) { _fun0005_ip = 367; continue _fun0005 }
+ 365:
                 var4 = false;
- 348:
+ 367:
                 var1['bot'] = var4;
                 var4 = var2.webhookId;
-                if(var4) { _fun0005_ip = 365; continue _fun0005 }
- 363:
+                if(var4) { _fun0005_ip = 384; continue _fun0005 }
+ 382:
                 var4 = null;
- 365:
+ 384:
                 var1['webhookId'] = var4;
                 var4 = var2.reactions;
-                if(var4) { _fun0005_ip = 384; continue _fun0005 }
- 380:
+                if(var4) { _fun0005_ip = 403; continue _fun0005 }
+ 399:
                 var4 = new Array(0);
- 384:
+ 403:
                 var1['reactions'] = var4;
                 var4 = var2.application_id;
-                if(var4) { _fun0005_ip = 404; continue _fun0005 }
- 399:
+                if(var4) { _fun0005_ip = 423; continue _fun0005 }
+ 418:
                 var4 = var2.applicationId;
- 404:
-                if(var4) { _fun0005_ip = 409; continue _fun0005 }
- 407:
+ 423:
+                if(var4) { _fun0005_ip = 428; continue _fun0005 }
+ 426:
                 var4 = null;
- 409:
+ 428:
                 var1['applicationId'] = var4;
                 var4 = var2.application;
-                if(var4) { _fun0005_ip = 425; continue _fun0005 }
- 423:
+                if(var4) { _fun0005_ip = 444; continue _fun0005 }
+ 442:
                 var4 = null;
- 425:
+ 444:
                 var1['application'] = var4;
                 var4 = var2.activity;
-                if(var4) { _fun0005_ip = 442; continue _fun0005 }
- 440:
+                if(var4) { _fun0005_ip = 461; continue _fun0005 }
+ 459:
                 var4 = null;
- 442:
+ 461:
                 var1['activity'] = var4;
                 var4 = var2.activity_instance;
-                if(var4) { _fun0005_ip = 463; continue _fun0005 }
- 457:
+                if(var4) { _fun0005_ip = 482; continue _fun0005 }
+ 476:
                 var4 = var2.activityInstance;
- 463:
-                if(var4) { _fun0005_ip = 468; continue _fun0005 }
- 466:
+ 482:
+                if(var4) { _fun0005_ip = 487; continue _fun0005 }
+ 485:
                 var4 = null;
- 468:
+ 487:
                 var1['activityInstance'] = var4;
                 var4 = var2.messageReference;
-                if(var4) { _fun0005_ip = 485; continue _fun0005 }
- 483:
+                if(var4) { _fun0005_ip = 504; continue _fun0005 }
+ 502:
                 var4 = null;
- 485:
+ 504:
                 var1['messageReference'] = var4;
                 var4 = var2.hit;
-                if(var4) { _fun0005_ip = 508; continue _fun0005 }
- 502:
+                if(var4) { _fun0005_ip = 527; continue _fun0005 }
+ 521:
                 var4 = var2.isSearchHit;
- 508:
-                if(var4) { _fun0005_ip = 513; continue _fun0005 }
- 511:
+ 527:
+                if(var4) { _fun0005_ip = 532; continue _fun0005 }
+ 530:
                 var4 = false;
- 513:
+ 532:
                 var1['isSearchHit'] = var4;
                 var4 = var2.loggingName;
-                if(var4) { _fun0005_ip = 530; continue _fun0005 }
- 528:
+                if(var4) { _fun0005_ip = 549; continue _fun0005 }
+ 547:
                 var4 = null;
- 530:
+ 549:
                 var1['loggingName'] = var4;
                 var4 = var2.colorString;
                 var1['colorString'] = var4;
                 var4 = var2.nick;
                 var1['nick'] = var4;
                 var4 = var2.interaction;
-                if(var4) { _fun0005_ip = 571; continue _fun0005 }
- 569:
+                if(var4) { _fun0005_ip = 590; continue _fun0005 }
+ 588:
                 var4 = null;
- 571:
+ 590:
                 var1['interaction'] = var4;
                 var4 = var2.interactionData;
-                if(var4) { _fun0005_ip = 588; continue _fun0005 }
- 586:
+                if(var4) { _fun0005_ip = 607; continue _fun0005 }
+ 605:
                 var4 = null;
- 588:
+ 607:
                 var1['interactionData'] = var4;
                 var4 = var2.interactionMetadata;
-                if(var4) { _fun0005_ip = 605; continue _fun0005 }
- 603:
+                if(var4) { _fun0005_ip = 624; continue _fun0005 }
+ 622:
                 var4 = null;
- 605:
+ 624:
                 var1['interactionMetadata'] = var4;
                 var4 = var2.interactionError;
-                if(var4) { _fun0005_ip = 622; continue _fun0005 }
- 620:
+                if(var4) { _fun0005_ip = 641; continue _fun0005 }
+ 639:
                 var4 = null;
- 622:
+ 641:
                 var1['interactionError'] = var4;
                 var4 = var2.roleSubscriptionData;
                 var1['roleSubscriptionData'] = var4;
@@ -531,51 +537,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var2.potions;
                 var1['potions'] = var4;
                 var4 = var2.referralTrialOfferId;
-                if(var4) { _fun0005_ip = 687; continue _fun0005 }
- 685:
+                if(var4) { _fun0005_ip = 706; continue _fun0005 }
+ 704:
                 var4 = null;
- 687:
+ 706:
                 var1['referralTrialOfferId'] = var4;
                 var4 = var2.gift_info;
-                if(!(var3 == var4)) { _fun0005_ip = 709; continue _fun0005 }
- 703:
+                if(!(var3 == var4)) { _fun0005_ip = 728; continue _fun0005 }
+ 722:
                 var4 = var2.giftInfo;
- 709:
+ 728:
                 var1['giftInfo'] = var4;
                 var4 = var2.giftingPrompt;
-                if(var4) { _fun0005_ip = 726; continue _fun0005 }
- 724:
+                if(var4) { _fun0005_ip = 745; continue _fun0005 }
+ 743:
                 var4 = null;
- 726:
+ 745:
                 var1['giftingPrompt'] = var4;
                 var4 = var2.messageSnapshots;
-                if(var4) { _fun0005_ip = 745; continue _fun0005 }
- 741:
+                if(var4) { _fun0005_ip = 764; continue _fun0005 }
+ 760:
                 var4 = new Array(0);
- 745:
+ 764:
                 var1['messageSnapshots'] = var4;
                 var4 = var2.isUnsupported;
-                if(var4) { _fun0005_ip = 762; continue _fun0005 }
- 760:
+                if(var4) { _fun0005_ip = 781; continue _fun0005 }
+ 779:
                 var4 = false;
- 762:
+ 781:
                 var1['isUnsupported'] = var4;
                 var4 = var2.changelog_id;
-                if(!(var3 == var4)) { _fun0005_ip = 792; continue _fun0005 }
- 778:
+                if(!(var3 == var4)) { _fun0005_ip = 811; continue _fun0005 }
+ 797:
                 var5 = var2.changelogId;
-                if(var5) { _fun0005_ip = 789; continue _fun0005 }
- 787:
+                if(var5) { _fun0005_ip = 808; continue _fun0005 }
+ 806:
                 var5 = null;
- 789:
+ 808:
                 var4 = var5;
- 792:
+ 811:
                 var1['changelogId'] = var4;
                 var2 = var2.chatWallpaperInfo;
-                if(var2) { _fun0005_ip = 809; continue _fun0005 }
- 807:
+                if(var2) { _fun0005_ip = 828; continue _fun0005 }
+ 826:
                 var2 = null;
- 809:
+ 828:
                 var1['chatWallpaperInfo'] = var2;
                 return var1;
             }
@@ -971,7 +977,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var3 = var8.bind(var11)(var3);
                 var1 = _closure3_slot4;
-                if(!(var7 === var1)) { _fun0008_ip = 481; continue _fun0008 }
+                if(!(var7 === var1)) { _fun0008_ip = 477; continue _fun0008 }
  130:
                 var7 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -999,7 +1005,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = new Array(0);
                 var1['burst_colors'] = var7;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 481; continue _fun0008;
+                _fun0008_ip = 477; continue _fun0008;
  267:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
@@ -1010,7 +1016,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = new Array(0);
                 var1['burst_colors'] = var7;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 481; continue _fun0008;
+                _fun0008_ip = 477; continue _fun0008;
  337:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': null, 'count': 0, 'count_details': null, 'burst_count': 1};
@@ -1027,10 +1033,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var7.buildPlatformedThemedEmojiColorPalette;
                 var5 = {};
                 var11 = null;
-                if(!(var11 == var9)) { _fun0008_ip = 427; continue _fun0008 }
- 423:
+                if(!(var11 == var9)) { _fun0008_ip = 423; continue _fun0008 }
+ 419:
                 var9 = new Array(0);
- 427:
+ 423:
                 var5['colors'] = var9;
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot2;
@@ -1043,7 +1049,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var6.bind(var7)(var5);
                 var1['themedBurstColors'] = var5;
                 var1 = var2.bind(var3)(var1);
- 481:
+ 477:
                 var2 = var4.set;
                 var1 = 'reactions';
                 var1 = var2.bind(var4)(var1, var3);
