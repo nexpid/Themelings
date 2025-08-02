@@ -103,7 +103,7 @@
 { "file": "app/uikit-native/legacy/LegacyText.tsx", "size": 2349 }
 { "file": "app/intl/native/migration.tsx", "size": 4323 }
 { "file": "app/design/components/Styles/native/createStyles.tsx", "size": 32718 }
-{ "file": "app/modules/a11y/AccessibilityStore.tsx", "size": 45714 }
+{ "file": "app/modules/a11y/AccessibilityStore.tsx", "size": 46362 }
 { "file": "app/modules/user_settings/UserSettingsProtoStore.tsx", "size": 33159 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_shared.tsx", "size": 13984 }
 { "file": "discord_common/js/packages/protos/google/protobuf/timestamp.tsx", "size": 27093 }
@@ -345,9 +345,10 @@
 { "file": "app/modules/themes/getSystemTheme.native.tsx", "size": 1649 }
 { "file": "app/utils/ChannelChatSidebarUtils.tsx", "size": 943 }
 { "file": "app/modules/themes/resolveTheme.native.tsx", "size": 4320 }
-{ "file": "app/modules/client_themes/CustomThemesUtils.tsx", "size": 11160 }
+{ "file": "app/modules/client_themes/CustomThemesUtils.tsx", "size": 11744 }
 { "file": "app/modules/client_themes/ClientThemeColorPickerStore.tsx", "size": 4962 }
 { "file": "app/modules/client_themes/ClientThemesTypes.tsx", "size": 921 }
+{ "file": "app/modules/client_themes/experiments/CustomThemeMobileRenderingExperiment.tsx", "size": 1460 }
 { "file": "app/design/shared.tsx", "size": 2404 }
 { "file": "app/design/components/AccessibilityPreferencesContext/AccessibilityConstants.tsx", "size": 708 }
 { "file": "app/design/components/AccessibilityAnnouncer/AccessibilityAnnouncer.android.tsx", "size": 1908 }
@@ -562,7 +563,7 @@
 { "file": "app/modules/interaction_components/InteractionComponentTypes.tsx", "size": 1500 }
 { "file": "app/modules/media/MediaTypes.tsx", "size": 10626 }
 { "file": "app/modules/messages/MediaFormatTesters.tsx", "size": 7015 }
-{ "file": "app/modules/messages/useMessageAuthor.tsx", "size": 24503 }
+{ "file": "app/modules/messages/useMessageAuthor.tsx", "size": 25055 }
 { "file": "app/modules/chat_wallpapers/transformChatwallpaperInfo.tsx", "size": 1523 }
 { "file": "app/modules/messages/isMessageMentioned.tsx", "size": 6865 }
 { "file": "app/modules/polls/transformMessagPoll.tsx", "size": 1228 }
@@ -4246,7 +4247,6 @@
 { "file": "app/modules/main_tabs_v2/native/settings/definitions/AdvancedVoiceActivitySetting.tsx", "size": 4085 }
 { "file": "app/modules/main_tabs_v2/native/settings/definitions/AppearanceSetting.tsx", "size": 7391 }
 { "file": "app/modules/client_themes/native/useActiveTheme.tsx", "size": 4545 }
-{ "file": "app/modules/client_themes/experiments/CustomThemeMobileRenderingExperiment.tsx", "size": 1460 }
 { "file": "app/design/components/Icon/native/redesign/generated/PaintPaletteIcon.tsx", "size": 2497 }
 { "file": "app/modules/main_tabs_v2/native/settings/screens/appearance/SettingsAppearanceScreen.tsx", "size": 12082 }
 { "file": "app/modules/client_themes/experiments/ClientThemeColorPickerExperiment.tsx", "size": 1621 }
@@ -4293,7 +4293,7 @@
 { "file": "app/modules/settings/getSettingsOverrideReason.tsx", "size": 2352 }
 { "file": "app/modules/a11y/native/MobileLinkUnderlineAccessibilitySettingExperiment.tsx", "size": 1246 }
 { "file": "app/modules/main_tabs_v2/native/settings/definitions/RoleColorsSetting.tsx", "size": 4747 }
-{ "file": "app/modules/a11y/AccessibilityActionCreators.tsx", "size": 16849 }
+{ "file": "app/modules/a11y/AccessibilityActionCreators.tsx", "size": 17387 }
 { "file": "app/modules/main_tabs_v2/native/settings/definitions/ShowLinkDecorationsSetting.tsx", "size": 2801 }
 { "file": "app/modules/main_tabs_v2/native/settings/definitions/ContrastModeSetting.tsx", "size": 3818 }
 { "file": "app/modules/main_tabs_v2/native/settings/definitions/ReduceSaturationSetting.tsx", "size": 3829 }

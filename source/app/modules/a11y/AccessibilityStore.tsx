@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'high';
     var2['HIGH'] = var4;
     var _closure1_slot15 = var2;
-    var4 = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'contrastMode': null, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false};
+    var4 = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'contrastMode': null, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'displayNameStylesEnabled': true, 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false};
     var10 = var9.FONT_SIZE_DEFAULT;
     var4['fontSize'] = var10;
     var9 = var9.ZOOM_DEFAULT;
@@ -223,7 +223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var1;
-        var1 = new Array(34);
+        var1 = new Array(35);
         var1[0] = var5;
         var5 = {};
         var7 = 'fontScale';
@@ -685,6 +685,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['get'] = var7;
         var1[31] = var5;
         var5 = {};
+        var7 = 'displayNameStylesEnabled';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.displayNameStylesEnabled;
+            return var1;
+        };
+        var5['get'] = var7;
+        var1[32] = var5;
+        var5 = {};
         var7 = 'isHighContrastModeEnabled';
         var5['key'] = var7;
         var7 = function get() {
@@ -696,7 +706,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['get'] = var7;
-        var1[32] = var5;
+        var1[33] = var5;
         var5 = {};
         var7 = 'getUserAgnosticState';
         var5['key'] = var7;
@@ -705,7 +715,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var6;
-        var1[33] = var5;
+        var1[34] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -1335,6 +1345,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['ACCESSIBILITY_SET_ROLE_STYLE'] = var10;
+    var10 = function handleSetDisplayNameStylesEnabled(arg1) {
+        var2 = _closure1_slot17;
+        var1 = arg1;
+        var1 = var1.enabled;
+        var2['displayNameStylesEnabled'] = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var4['ACCESSIBILITY_SET_DISPLAY_NAME_STYLES_ENABLED'] = var10;
     var10 = function handleForcedColorsModalSeen() {
         var2 = _closure1_slot17;
         var1 = true;

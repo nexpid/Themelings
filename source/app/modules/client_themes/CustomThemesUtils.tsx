@@ -11,7 +11,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 6;
+            var1 = 7;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = arg1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 7;
+            var1 = 8;
             var3 = var3[var1];
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  99:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
-            var4 = 8;
+            var4 = 9;
             var4 = var7[var4];
             var5 = var5.bind(var1)(var4);
             var4 = var5.setThemeOverride;
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  133:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var2 = 9;
+            var2 = 10;
             var2 = var4[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.resetPreviewClientTheme;
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 'editor_close';
     var7['EDITOR_CLOSE'] = var8;
     var _closure1_slot10 = var7;
-    var8 = 10;
+    var8 = 11;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -158,20 +158,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = _closure1_slot4;
             var1 = var1.settings;
-            var3 = var1.appearance;
-            var2 = null;
-            var4 = var2 == var3;
+            var5 = var1.appearance;
+            var3 = null;
+            var6 = var3 == var5;
+            var4 = undefined;
             var1 = undefined;
-            if(var4) { _fun0004_ip = 51; continue _fun0004 }
- 30:
-            var3 = var3.clientThemeSettings;
-            var4 = var2 == var3;
+            if(var6) { _fun0004_ip = 53; continue _fun0004 }
+ 32:
+            var5 = var5.clientThemeSettings;
+            var6 = var3 == var5;
             var1 = undefined;
-            if(var4) { _fun0004_ip = 51; continue _fun0004 }
- 45:
-            var1 = var3.customUserThemeSettings;
- 51:
-            var1 = var2 != var1;
+            if(var6) { _fun0004_ip = 53; continue _fun0004 }
+ 47:
+            var1 = var5.customUserThemeSettings;
+ 53:
+            var1 = var3 != var1;
+            if(!var1) { _fun0004_ip = 115; continue _fun0004 }
+ 60:
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 6;
+            var2 = var5[var2];
+            var2 = var3.bind(var4)(var2);
+            var4 = var2.CustomThemeMobileRenderingExperiment;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var5 = 'shouldIgnoreThemeChange';
+            var2['location'] = var5;
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.enabled;
+            var1 = !var2;
+ 115:
             return var1;
         }
     };
@@ -203,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = arg1;
                 var4 = _closure1_slot0;
                 var1 = _closure1_slot1;
-                var6 = 7;
+                var6 = 8;
                 var3 = var1[var6];
                 var1 = undefined;
                 var3 = var4.bind(var1)(var3);
@@ -271,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  213:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot1;
-                var4 = 8;
+                var4 = 9;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.clearThemeOverride;
@@ -302,7 +319,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  331:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var2 = 9;
+                var2 = 10;
                 var2 = var5[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.updateBackgroundGradientPreset;

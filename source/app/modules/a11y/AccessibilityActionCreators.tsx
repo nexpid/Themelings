@@ -473,6 +473,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['setRoleStyle'] = var4;
+    var4 = function setDisplayNameStylesEnabled(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ACCESSIBILITY_SET_DISPLAY_NAME_STYLES_ENABLED';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['enabled'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['setDisplayNameStylesEnabled'] = var4;
     var4 = function toggleSubmitButton() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;

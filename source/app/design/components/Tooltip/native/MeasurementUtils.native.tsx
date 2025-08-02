@@ -262,10 +262,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure2_slot0;
                     var1 = _closure2_slot1;
                     var4 = null;
-                    if(!var1) { _fun0005_ip = 37; continue _fun0005 }
+                    if(!var1) { _fun0005_ip = 33; continue _fun0005 }
  23:
                     var4 = {'x': 0, 'y': 0, 'width': 0, 'height': 0};
- 37:
+ 33:
                     var1 = undefined;
                     var9 = arg1;
                     var8 = arg2;
