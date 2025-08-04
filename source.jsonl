@@ -2926,7 +2926,7 @@
 { "file": "app/stores/views/GIFPickerViewStore.tsx", "size": 12987 }
 { "file": "app/actions/GIFPickerActionCreators.tsx", "size": 30353 }
 { "file": "app/utils/GIFPickerUtils.tsx", "size": 2788 }
-{ "file": "app/modules/messages/SignedAttachmentLinkUtils.tsx", "size": 20063 }
+{ "file": "app/modules/messages/SignedAttachmentLinkUtils.tsx", "size": 20061 }
 { "file": "app/modules/gif_picker/native/GIFPickerUtils.tsx", "size": 7645 }
 { "file": "app/modules/gif_picker/FavoriteGIFHooks.tsx", "size": 5102 }
 { "file": "app/modules/user_settings/UserSettingsHooks.tsx", "size": 2087 }
