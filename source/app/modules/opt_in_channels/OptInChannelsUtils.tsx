@@ -284,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.SECTION_INDEX_GUILD_ACTIONS;
             var2 = var10[var2];
             var8 = 0;
-            if(!(var2 > var8)) { _fun0004_ip = 109; continue _fun0004 }
+            if(!(var2 > var8)) { _fun0004_ip = 126; continue _fun0004 }
  57:
             var2 = var11.getGuildActionSection;
             var3 = var2.bind(var11)();
@@ -292,12 +292,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.bind(var3)(var8);
             var2 = _closure1_slot11;
             var2 = var2.GUILD_HOME;
-            if(!(var2 !== var3)) { _fun0004_ip = 229; continue _fun0004 }
+            if(!(var2 !== var3)) { _fun0004_ip = 258; continue _fun0004 }
  95:
             var2 = _closure1_slot11;
             var2 = var2.GUILD_ROLE_SUBSCRIPTIONS;
-            if(!(var2 !== var3)) { _fun0004_ip = 217; continue _fun0004 }
- 109:
+            if(!(var2 !== var3)) { _fun0004_ip = 246; continue _fun0004 }
+ 112:
+            var2 = _closure1_slot11;
+            var2 = var2.GUILD_MOD_DASH_MEMBER_SAFETY;
+            if(!(var2 !== var3)) { _fun0004_ip = 234; continue _fun0004 }
+ 126:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var4];
@@ -308,36 +312,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var6 = undefined;
             var5 = undefined;
-            if(!var2) { _fun0004_ip = 208; continue _fun0004 }
- 151:
+            if(!var2) { _fun0004_ip = 225; continue _fun0004 }
+ 168:
             var2 = var10[var7];
-            if(!(var2 > var8)) { _fun0004_ip = 195; continue _fun0004 }
- 159:
+            if(!(var2 > var8)) { _fun0004_ip = 212; continue _fun0004 }
+ 176:
             var2 = var11.getChannelFromSectionRow;
             var4 = var2.bind(var11)(var7, var8);
             var12 = var3 == var4;
             var2 = undefined;
-            if(var12) { _fun0004_ip = 185; continue _fun0004 }
- 180:
+            if(var12) { _fun0004_ip = 202; continue _fun0004 }
+ 197:
             var2 = var4.channel;
- 185:
+ 202:
             var6 = var4;
             var5 = var2;
-            if(!(var3 == var5)) { _fun0004_ip = 210; continue _fun0004 }
- 195:
+            if(!(var3 == var5)) { _fun0004_ip = 227; continue _fun0004 }
+ 212:
             var7 = var7 + 1;
             var4 = var11.voiceChannelsSectionNumber;
-            if(var7 < var4) { _fun0004_ip = 151; continue _fun0004 }
- 208:
+            if(var7 < var4) { _fun0004_ip = 168; continue _fun0004 }
+ 225:
             return var3;
- 210:
+ 227:
             var2 = var2.id;
             return var2;
- 217:
+ 234:
+            var2 = _closure1_slot10;
+            var2 = var2.MEMBER_SAFETY;
+            return var2;
+ 246:
             var2 = _closure1_slot10;
             var2 = var2.ROLE_SUBSCRIPTIONS;
             return var2;
- 229:
+ 258:
             var1 = _closure1_slot10;
             var1 = var1.GUILD_HOME;
             return var1;

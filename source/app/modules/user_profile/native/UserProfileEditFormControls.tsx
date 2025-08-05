@@ -133,15 +133,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var1.accessibilityHint;
             var8 = var1.disabled;
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0002_ip = 67; continue _fun0002 }
- 65:
-            var8 = false;
+            if(!(var8 === var4)) { _fun0002_ip = 69; continue _fun0002 }
  67:
+            var8 = false;
+ 69:
             var9 = var1.hideArrow;
-            if(!(var9 === var4)) { _fun0002_ip = 79; continue _fun0002 }
- 77:
-            var9 = false;
+            if(!(var9 === var4)) { _fun0002_ip = 81; continue _fun0002 }
  79:
+            var9 = false;
+ 81:
             var1 = _closure1_slot8;
             var14 = var1.bind(var4)();
             var3 = _closure1_slot6;
@@ -195,8 +195,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var12;
             var8[2] = var11;
             var9 = !var9;
-            if(!var9) { _fun0002_ip = 339; continue _fun0002 }
- 301:
+            if(!var9) { _fun0002_ip = 341; continue _fun0002 }
+ 303:
             var12 = _closure1_slot6;
             var11 = _closure1_slot0;
             var13 = _closure1_slot1;
@@ -206,7 +206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var10.TableRowArrow;
             var10 = {};
             var9 = var12.bind(var4)(var11, var10);
- 339:
+ 341:
             var8[3] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

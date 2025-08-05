@@ -28,7 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
-    var4 = 5;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -41,44 +45,71 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var8;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var10 = 3;
+            var10 = 4;
             var1 = var3[var10];
             var9 = undefined;
             var7 = var2.bind(var9)(var1);
             var5 = var7.useStateFromStores;
-            var1 = _closure1_slot5;
-            var2 = new Array(1);
+            var1 = _closure1_slot6;
+            var2 = new Array(2);
             var2[0] = var1;
+            var1 = _closure1_slot5;
+            var2[1] = var1;
             var1 = function() {
-                var3 = _closure1_slot5;
-                var2 = var3.getMatchingActivity;
-                var1 = _closure2_slot0;
-                var1 = var2.bind(var3)(var1);
-                return var1;
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    var3 = _closure1_slot0;
+                    var1 = _closure1_slot2;
+                    var7 = 5;
+                    var1 = var1[var7];
+                    var6 = undefined;
+                    var5 = var3.bind(var6)(var1);
+                    var4 = var5.isGamescomEntry;
+                    var1 = _closure2_slot0;
+                    var1 = var4.bind(var5)(var1);
+                    if(var1) { _fun0002_ip = 67; continue _fun0002 }
+ 46:
+                    var5 = _closure1_slot6;
+                    var4 = var5.getMatchingActivity;
+                    var1 = _closure2_slot0;
+                    var1 = var4.bind(var5)(var1);
+                    _fun0002_ip = 104; continue _fun0002;
+ 67:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var7];
+                    var5 = var5.bind(var6)(var4);
+                    var4 = var5.getGamescomActivity;
+                    var3 = _closure2_slot0;
+                    var2 = _closure1_slot5;
+                    var1 = var4.bind(var5)(var3, var2);
+ 104:
+                    return var1;
+                }
             };
             var7 = var5.bind(var7)(var2, var1);
             var2 = _closure1_slot1;
-            var1 = 4;
+            var1 = 6;
             var1 = var3[var1];
             var2 = var2.bind(var9)(var1);
             var5 = null;
             var1 = var5 == var7;
             var3 = undefined;
-            if(var1) { _fun0001_ip = 95; continue _fun0001 }
- 89:
+            if(var1) { _fun0001_ip = 103; continue _fun0001 }
+ 97:
             var3 = var7.application_id;
- 95:
+ 103:
             var1 = new Array(2);
             var1[0] = var3;
             var11 = var8.extra;
             var3 = 'application_id';
             var11 = var3 in var11;
             var3 = undefined;
-            if(!var11) { _fun0001_ip = 134; continue _fun0001 }
- 122:
+            if(!var11) { _fun0001_ip = 142; continue _fun0001 }
+ 130:
             var8 = var8.extra;
             var3 = var8.application_id;
- 134:
+ 142:
             var1[1] = var3;
             var3 = var2.bind(var9)(var1);
             var2 = _closure1_slot3;
@@ -100,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(1);
             var6[0] = var9;
             var4 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var4 = _closure1_slot4;
                     var3 = var4.getEmbeddedActivityForUserId;
@@ -110,7 +141,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var6 = var1 == var6;
                     var1 = undefined;
-                    if(var6) { _fun0002_ip = 50; continue _fun0002 }
+                    if(var6) { _fun0003_ip = 50; continue _fun0003 }
  41:
                     var5 = _closure2_slot1;
                     var1 = var5.id;
@@ -122,10 +153,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.bind(var8)(var6, var4);
             var1['embeddedActivity'] = var4;
             var4 = var2;
-            if(!(var5 != var3)) { _fun0001_ip = 240; continue _fun0001 }
- 237:
+            if(!(var5 != var3)) { _fun0001_ip = 248; continue _fun0001 }
+ 245:
             var4 = var3;
- 240:
+ 248:
             var1['anyMatchingApplication'] = var4;
             var1['activityApplication'] = var3;
             var1['fallbackApplication'] = var2;

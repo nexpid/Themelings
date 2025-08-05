@@ -935,6 +935,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['APP_LAUNCHER_FRIENDS_TAB_JOIN_BUTTON'] = var1;
     var1 = 'report to mod channel context menu';
     var2['REPORT_TO_MOD_CHANNEL_CONTEXT_MENU'] = var1;
+    var1 = 'game profile';
+    var2['GAME_PROFILE'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'function SkeletonCardTsx1(){const{opacity}=this.__closure;return{opacity:opacity.get()};}';
     var4['code'] = var7;
     var _closure1_slot6 = var4;
-    var4 = 9;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -81,42 +81,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var4)(var2);
             var6 = var2.COLLECTIBLES_SHOP_CARD_WIDTH;
  45:
-            var8 = var1.height;
+            var5 = var1.height;
             var7 = var1.style;
             var _closure2_slot0 = var4;
-            var5 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 5;
-            var1 = var9[var1];
-            var9 = var5.bind(var4)(var1);
-            var5 = var9.useMobileShopCardV2Enabled;
-            var1 = 'SkeletonCard';
-            var1 = var5.bind(var9)(var1);
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            if(var1) { _fun0001_ip = 130; continue _fun0001 }
- 110:
-            var1 = 6;
-            var1 = var10[var1];
-            var1 = var9.bind(var4)(var1);
-            var5 = var1.COLLECTIBLES_SHOP_CARD_HEIGHT;
-            _fun0001_ip = 148; continue _fun0001;
- 130:
+            var1 = null;
+            if(!(var1 == var5)) { _fun0001_ip = 94; continue _fun0001 }
+ 65:
+            var2 = _closure1_slot0;
+            var8 = _closure1_slot2;
             var1 = 4;
-            var1 = var10[var1];
-            var1 = var9.bind(var4)(var1);
+            var1 = var8[var1];
+            var1 = var2.bind(var4)(var1);
             var5 = var1.COLLECTIBLES_SHOP_CARD_HEIGHT;
- 148:
+ 94:
             var1 = _closure1_slot5;
-            var9 = null;
-            if(!(var9 != var8)) { _fun0001_ip = 161; continue _fun0001 }
- 158:
-            var5 = var8;
- 161:
             var5 = var1.bind(var4)(var6, var5);
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var1 = 7;
+            var1 = 5;
             var6 = var8[var1];
             var11 = var9.bind(var4)(var6);
             var10 = var11.useSharedValue;
@@ -132,12 +114,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.set;
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var1 = 7;
+                var1 = 5;
                 var2 = var6[var1];
                 var1 = undefined;
                 var8 = var5.bind(var1)(var2);
                 var7 = var8.withRepeat;
-                var2 = 8;
+                var2 = 6;
                 var2 = var6[var2];
                 var9 = var5.bind(var1)(var2);
                 var6 = var9.withTiming;
@@ -156,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8[var1];
             var9 = var9.bind(var4)(var6);
             var6 = var9.useAnimatedStyle;
-            var3 = function S() {
+            var3 = function y() {
                 var1 = {};
                 var3 = _closure2_slot0;
                 var2 = var3.get;

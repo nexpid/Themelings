@@ -13,26 +13,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
-    var9 = 0;
-    var4 = var6[var9];
+    var1 = 0;
+    var4 = var6[var1];
     var1 = undefined;
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.BACKGROUND_GRADIENT_PRESETS_MOBILE;
-    var11 = var4.REDESIGN_STANDARD_BACKGROUND_THEMES;
-    var4 = 1;
-    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ThemeTypes;
     var _closure1_slot2 = var4;
-    var4 = new Array(0);
-    var12 = var4;
-    var10 = 0;
-    var10 = arraySpread(var12, var11, var10);
-    var12 = var4;
-    var11 = var8;
-    var7 = arraySpread(var12, var11, var10);
-    var _closure1_slot3 = var4;
-    var4 = 3;
+    var4 = 2;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -68,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var1.stop;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 2;
+            var1 = 1;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var4.bind(var1)(var2);
@@ -98,11 +85,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getLinearGradientForBackgroundGradient'] = var4;
-    var4 = function getMobileThemesPresets() {
-        var1 = _closure1_slot3;
-        return var1;
-    };
-    var3['getMobileThemesPresets'] = var4;
     var2 = function areThemesEqualForGradientThemes(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:

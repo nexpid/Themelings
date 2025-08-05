@@ -495,10 +495,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var13.Freeze;
             var13 = {};
             var17 = !var20;
-            if(!var17) { _fun0001_ip = 819; continue _fun0001 }
- 816:
+            if(!var17) { _fun0001_ip = 815; continue _fun0001 }
+ 812:
             var17 = var18;
- 819:
+ 815:
             var13['freeze'] = var17;
             var18 = _closure1_slot12;
             var17 = _closure1_slot1;

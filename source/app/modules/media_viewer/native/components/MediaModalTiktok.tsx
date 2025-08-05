@@ -214,10 +214,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.bind(var3)(var1);
                     var3 = var1.type;
                     var2 = 'onPlayerReady';
-                    if(!(var2 !== var3)) { _fun0004_ip = 479; continue _fun0004 }
+                    if(!(var2 !== var3)) { _fun0004_ip = 483; continue _fun0004 }
  40:
                     var2 = 'onStateChange';
-                    if(!(var2 !== var3)) { _fun0004_ip = 398; continue _fun0004 }
+                    if(!(var2 !== var3)) { _fun0004_ip = 402; continue _fun0004 }
  51:
                     var2 = 'onError';
                     if(!(var2 !== var3)) { _fun0004_ip = 277; continue _fun0004 }
@@ -226,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     if(!(var2 !== var3)) { _fun0004_ip = 131; continue _fun0004 }
  72:
                     var2 = 'onMute';
-                    if(!(var2 === var3)) { _fun0004_ip = 528; continue _fun0004 }
+                    if(!(var2 === var3)) { _fun0004_ip = 532; continue _fun0004 }
  85:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -237,7 +237,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.setMuted;
                     var2 = var1.value;
                     var2 = var3.bind(var4)(var2);
-                    _fun0004_ip = 528; continue _fun0004;
+                    _fun0004_ip = 532; continue _fun0004;
  131:
                     var2 = _closure2_slot2;
                     var5 = null;
@@ -277,13 +277,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.onDuration;
                     var2 = var5 == var3;
  245:
-                    if(var2) { _fun0004_ip = 528; continue _fun0004 }
+                    if(var2) { _fun0004_ip = 532; continue _fun0004 }
  251:
                     var3 = var4.onDuration;
                     var2 = var1.value;
                     var2 = var2.duration;
                     var2 = var3.bind(var4)(var2);
-                    _fun0004_ip = 528; continue _fun0004;
+                    _fun0004_ip = 532; continue _fun0004;
  277:
                     var3 = _closure2_slot4;
                     var5 = _closure1_slot0;
@@ -308,34 +308,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.bind(var8)(var6);
                     var2['error'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
-                    _fun0004_ip = 528; continue _fun0004;
- 398:
+                    _fun0004_ip = 532; continue _fun0004;
+ 402:
                     var2 = _closure1_slot8;
                     var1 = var1.value;
                     var3 = var2[var1];
                     var7 = null;
-                    if(!(var7 != var3)) { _fun0004_ip = 528; continue _fun0004 }
- 420:
+                    if(!(var7 != var3)) { _fun0004_ip = 532; continue _fun0004 }
+ 424:
                     var2 = _closure2_slot2;
                     var4 = var7 == var2;
                     var2 = undefined;
                     var5 = undefined;
-                    if(var4) { _fun0004_ip = 454; continue _fun0004 }
- 438:
+                    if(var4) { _fun0004_ip = 458; continue _fun0004 }
+ 442:
                     var6 = _closure2_slot2;
                     var6 = var6.props;
                     var4 = var7 == var6;
                     var5 = var6;
- 454:
-                    if(var4) { _fun0004_ip = 468; continue _fun0004 }
- 457:
+ 458:
+                    if(var4) { _fun0004_ip = 472; continue _fun0004 }
+ 461:
                     var4 = var5.onPlayerStateChange;
                     var4 = var4.bind(var5)(var3);
- 468:
+ 472:
                     var1 = _closure2_slot4;
                     var1 = var1.bind(var2)(var3);
-                    _fun0004_ip = 528; continue _fun0004;
- 479:
+                    _fun0004_ip = 532; continue _fun0004;
+ 483:
                     var3 = _closure2_slot4;
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -346,7 +346,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.PlayerState;
                     var1 = var1.READY;
                     var1 = var3.bind(var2)(var1);
- 528:
+ 532:
                     var1 = undefined;
                     return var1;
                 }

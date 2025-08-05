@@ -291,10 +291,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'hasCustomTheme';
         var5['key'] = var7;
         var6 = function value() {
-            var2 = _closure1_slot3;
-            var1 = null;
-            var1 = var1 != var2;
-            return var1;
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+ 0:
+                var1 = _closure1_slot3;
+                var3 = null;
+                var1 = var3 != var1;
+                if(!var1) { _fun0007_ip = 24; continue _fun0007 }
+ 16:
+                var2 = _closure1_slot2;
+                var1 = var3 != var2;
+ 24:
+                return var1;
+            }
         };
         var5['value'] = var6;
         var1[4] = var5;
@@ -310,18 +318,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function CACHE_LOADED() {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var3 = _closure1_slot14;
             var1 = undefined;
             var3 = var3.bind(var1)();
-            if(!var3) { _fun0007_ip = 47; continue _fun0007 }
+            if(!var3) { _fun0008_ip = 47; continue _fun0008 }
  16:
             var3 = _closure1_slot10;
             var3 = var3.settings;
             var3 = var3.appearance;
             var4 = null;
-            if(!(var4 != var3)) { _fun0007_ip = 47; continue _fun0007 }
+            if(!(var4 != var3)) { _fun0008_ip = 47; continue _fun0008 }
  38:
             var2 = _closure1_slot16;
             var2 = var2.bind(var1)(var3);
@@ -331,19 +339,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['CACHE_LOADED'] = var9;
     var9 = function USER_SETTINGS_PROTO_UPDATE(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
             var1 = arg1;
             var4 = var1.settings;
             var3 = _closure1_slot14;
             var1 = undefined;
             var3 = var3.bind(var1)();
-            if(!var3) { _fun0008_ip = 49; continue _fun0008 }
+            if(!var3) { _fun0009_ip = 49; continue _fun0009 }
  25:
             var3 = _closure1_slot15;
             var3 = var3.bind(var1)(var4);
             var4 = null;
-            if(!(var4 != var3)) { _fun0008_ip = 49; continue _fun0008 }
+            if(!(var4 != var3)) { _fun0009_ip = 49; continue _fun0009 }
  40:
             var2 = _closure1_slot16;
             var2 = var2.bind(var1)(var3);

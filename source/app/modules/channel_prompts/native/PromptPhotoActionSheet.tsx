@@ -319,11 +319,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                            if(var3) { _fun0004_ip = 432; continue _fun0004 }
+                            if(var3) { _fun0004_ip = 428; continue _fun0004 }
  12:
                             var5 = _closure2_slot11;
                             var4 = null;
-                            if(!(var4 == var5)) { _fun0004_ip = 424; continue _fun0004 }
+                            if(!(var4 == var5)) { _fun0004_ip = 420; continue _fun0004 }
  28:
                             var6 = _closure2_slot5;
                             var5 = undefined;
@@ -393,7 +393,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var2;
  172:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(var6) { _fun0004_ip = 429; continue _fun0004 }
+                            if(var6) { _fun0004_ip = 425; continue _fun0004 }
  181:
                             var6 = _closure2_slot5;
                             var9 = false;
@@ -402,7 +402,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  196:
                             var4 = _closure2_slot10;
                             var4 = var4.bind(var5)(var10);
-                            _fun0004_ip = 424; continue _fun0004;
+                            _fun0004_ip = 420; continue _fun0004;
  210:
                             var4 = {};
                             var7 = {'id': null, 'group_name': '', 'image': null, 'location': null, 'timestamp': 0, 'type': 'ALAssetTypePhoto'};
@@ -446,12 +446,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var6 = var20[var7](var19, var18, var17, var16, var15);
                             var3 = _closure2_slot12;
                             var3 = var3.bind(var5)(var4);
- 424:
+ 420:
                             var3 = undefined;
                             return var3;
- 429:
+ 425:
                             return var2;
- 432:
+ 428:
                             return var1;
                         }
                     };

@@ -197,14 +197,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.trim;
                 var3 = var3.bind(var4)();
                 var1['summary'] = var3;
-                var3 = var2.banner;
-                var1['banner'] = var3;
                 var3 = var2.unpublishedAt;
                 var1['unpublishedAt'] = var3;
-                var3 = var2.styles;
-                var1['styles'] = var3;
-                var2 = var2.bannerAsset;
-                var1['bannerAsset'] = var2;
+                var2 = var2.styles;
+                var1['styles'] = var2;
                 return var1;
             }
         };
@@ -221,43 +217,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                 var3 = arg1;
-                var9 = var3.store_listing_id;
-                var7 = var3.sku_id;
-                var8 = var3.unpublished_at;
-                var4 = var3.banner_asset;
+                var8 = var3.store_listing_id;
+                var6 = var3.sku_id;
+                var7 = var3.unpublished_at;
                 var5 = var3.styles;
-                var2 = {'store_listing_id': 0, 'sku_id': 0, 'unpublished_at': 0, 'banner_asset': 0, 'styles': 0};
-                var6 = null;
-                var12 = var2;
-                var11 = null;
-                var1 = silentSetPrototypeOf(var12, var11);
-                var12 = {};
-                var11 = var3;
-                var10 = var2;
-                var11 = copyDataProperties(var12, var11, var10);
+                var2 = {'store_listing_id': 0, 'sku_id': 0, 'unpublished_at': 0, 'styles': 0};
+                var4 = null;
+                var11 = var2;
+                var10 = null;
+                var1 = silentSetPrototypeOf(var11, var10);
+                var11 = {};
+                var10 = var3;
+                var9 = var2;
+                var10 = copyDataProperties(var11, var10, var9);
                 var3 = _closure2_slot0;
                 var1 = {};
-                var12 = var1;
-                var2 = copyDataProperties(var12, var11);
+                var11 = var1;
+                var2 = copyDataProperties(var11, var10);
                 var2 = 'storeListingId';
-                var1[var2] = var9;
+                var1[var2] = var8;
                 var2 = 'skuId';
-                var1[var2] = var7;
-                var2 = var6 != var8;
-                if(!var2) { _fun0004_ip = 142; continue _fun0004 }
- 111:
+                var1[var2] = var6;
+                var2 = var4 != var7;
+                if(!var2) { _fun0004_ip = 136; continue _fun0004 }
+ 105:
                 var2 = global;
                 var2 = var2.Date;
-                var7 = var2.prototype;
-                var7 = Object.create(var7, {constructor: {value: var2}});
-                var13 = var7;
-                var12 = var8;
-                var2 = new var13[var2](var12, var11);
-                var6 = var2 instanceof Object ? var2 : var7;
- 142:
+                var6 = var2.prototype;
+                var6 = Object.create(var6, {constructor: {value: var2}});
+                var12 = var6;
+                var11 = var7;
+                var2 = new var12[var2](var11, var10);
+                var4 = var2 instanceof Object ? var2 : var6;
+ 136:
                 var2 = 'unpublishedAt';
-                var1[var2] = var6;
-                var2 = 'bannerAsset';
                 var1[var2] = var4;
                 var4 = _closure1_slot8;
                 var2 = undefined;
@@ -266,9 +259,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1[var2] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
-                var13 = var2;
-                var12 = var1;
-                var1 = new var13[var3](var12, var11);
+                var12 = var2;
+                var11 = var1;
+                var1 = new var12[var3](var11, var10);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
             }

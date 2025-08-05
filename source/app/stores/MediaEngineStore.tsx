@@ -470,8 +470,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var6.modeOptions;
             var7 = var7.vadTrailing;
             var2['vadTrailing'] = var7;
+            var7 = global;
+            var8 = var7.Math;
+            var7 = var8.round;
             var6 = var6.modeOptions;
             var6 = var6.delay;
+            var6 = var7.bind(var8)(var6);
             var2['pttReleaseDelay'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;

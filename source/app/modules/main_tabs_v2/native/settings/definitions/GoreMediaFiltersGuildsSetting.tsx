@@ -10,7 +10,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function getTitle() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 7;
+        var1 = 6;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -50,14 +50,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function useGoreContentGuildsSettingValue() {
         var3 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var1 = 3;
+        var1 = 2;
         var1 = var5[var1];
         var2 = undefined;
         var4 = var3.bind(var2)(var1);
         var1 = var4.useGoreContentSettingOrDefault;
         var1 = var1.bind(var4)();
         var4 = var1.goreContentGuilds;
-        var1 = 4;
+        var1 = 3;
         var1 = var5[var1];
         var3 = var3.bind(var2)(var1);
         var1 = var3.redactionSettingToRenderedString;
@@ -69,19 +69,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function onGoreContentGuildsOnPress() {
         var7 = _closure1_slot0;
         var8 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var8[var1];
         var1 = undefined;
         var3 = var7.bind(var1)(var2);
         var2 = var3.getGoreContentSettingOrDefault;
         var2 = var2.bind(var3)();
         var5 = var2.goreContentGuilds;
-        var2 = 6;
+        var2 = 5;
         var2 = var8[var2];
         var4 = var7.bind(var1)(var2);
         var3 = var4.handleSensitiveMediaFilterPress;
         var2 = {};
-        var9 = 7;
+        var9 = 6;
         var10 = var8[var9];
         var10 = var7.bind(var1)(var10);
         var11 = var10.intl;
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = function handlePress(arg1) {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -110,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2['handlePress'] = var6;
-        var6 = 8;
+        var6 = 7;
         var6 = var8[var6];
         var6 = var7.bind(var1)(var6);
         var6 = var6.ExplicitContentRedaction;
@@ -123,25 +123,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['onPress'] = var7;
-    var7 = function useHasGoreContentGuildsSetting() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 2;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.useIsEligibleForSensitiveContentGoreExperiment;
-        var1 = 'GoreMediaFiltersGuildsSetting';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var2['usePredicate'] = var7;
     var7 = function useIsDisabled() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 9;
+            var1 = 8;
             var1 = var2[var1];
             var2 = undefined;
             var1 = var3.bind(var2)(var1);
@@ -160,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function additionalSearchTerms() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot2;
-        var2 = 7;
+        var2 = 6;
         var1 = var7[var2];
         var5 = undefined;
         var1 = var6.bind(var5)(var1);
@@ -196,7 +183,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['additionalSearchTerms'] = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

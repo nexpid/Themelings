@@ -2591,7 +2591,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0028_ip = 1734; continue _fun0028 }
+                    if(var3) { _fun0028_ip = 1732; continue _fun0028 }
  15:
                     var _closure4_slot0 = var2;
                     var6 = _closure1_slot0;
@@ -2618,7 +2618,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  117:
                     var6 = var2.reactNativeFilePrepped;
                     var5 = true;
-                    if(!(var5 !== var6)) { _fun0028_ip = 1673; continue _fun0028 }
+                    if(!(var5 !== var6)) { _fun0028_ip = 1671; continue _fun0028 }
  132:
                     var9 = _closure1_slot16;
                     var8 = var9.log;
@@ -2675,19 +2675,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.bind(var13)(var4);
                     var4 = 'compressTimeMs';
                     var4 = var8.bind(var2)(var4, var7);
-                    SaveGenerator(address=212);
- 210:
+                    SaveGenerator(address=210);
+ 208:
                     return var4;
- 212:
+ 210:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(var7) { _fun0028_ip = 1670; continue _fun0028 }
- 221:
+                    if(var7) { _fun0028_ip = 1668; continue _fun0028 }
+ 219:
                     var9 = null;
-                    if(!(var9 != var4)) { _fun0028_ip = 1626; continue _fun0028 }
- 230:
+                    if(!(var9 != var4)) { _fun0028_ip = 1624; continue _fun0028 }
+ 228:
                     var7 = var4.file;
-                    if(!(var9 != var7)) { _fun0028_ip = 1626; continue _fun0028 }
- 243:
+                    if(!(var9 != var7)) { _fun0028_ip = 1624; continue _fun0028 }
+ 241:
                     var7 = var4.uri;
                     var8 = var4.file;
                     var11 = var8.name;
@@ -2699,8 +2699,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var12.isResolvedUpload;
                     var8 = var4.file;
                     var8 = var10.bind(var12)(var8);
-                    if(!var8) { _fun0028_ip = 1064; continue _fun0028 }
- 303:
+                    if(!var8) { _fun0028_ip = 1062; continue _fun0028 }
+ 301:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.imageCompressionQuality;
@@ -2711,8 +2711,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10['videoCompressionQuality'] = var8;
                     var8 = var4.file;
                     var8 = var8.isImage;
-                    if(!var8) { _fun0028_ip = 414; continue _fun0028 }
- 366:
+                    if(!var8) { _fun0028_ip = 412; continue _fun0028 }
+ 364:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.sourceWidth;
@@ -2721,11 +2721,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var4.file;
                     var8 = var8.sourceHeight;
                     var10['sourceMediaHeight'] = var8;
- 414:
+ 412:
                     var8 = var4.file;
                     var8 = var8.videoMetadata;
-                    if(!(var13 !== var8)) { _fun0028_ip = 670; continue _fun0028 }
- 433:
+                    if(!(var13 !== var8)) { _fun0028_ip = 668; continue _fun0028 }
+ 431:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.videoMetadata;
@@ -2766,11 +2766,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.videoMetadata;
                     var8 = var8.sourceLevel;
                     var10['sourceVideoLevel'] = var8;
- 670:
+ 668:
                     var8 = var4.file;
                     var8 = var8.encodingConfig;
-                    if(!(var13 !== var8)) { _fun0028_ip = 944; continue _fun0028 }
- 689:
+                    if(!(var13 !== var8)) { _fun0028_ip = 942; continue _fun0028 }
+ 687:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.encodingConfig;
@@ -2791,10 +2791,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.encodingConfig;
                     var12 = var8.useHEVC;
                     var8 = 'avc1';
-                    if(!var12) { _fun0028_ip = 818; continue _fun0028 }
- 812:
+                    if(!var12) { _fun0028_ip = 816; continue _fun0028 }
+ 810:
                     var8 = 'hvc1';
- 818:
+ 816:
                     var10['targetVideoCodec'] = var8;
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
@@ -2816,7 +2816,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.encodingConfig;
                     var8 = var8.progressUpdateGranularity;
                     var10['progressUpdateGranularity'] = var8;
- 944:
+ 942:
                     var10 = var2.uploadAnalytics;
                     var8 = var4.file;
                     var8 = var8.psnr;
@@ -2837,16 +2837,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var4.file;
                     var8 = var8.ssimMeasurementLatencyMs;
                     var10['ssimMeasurementLatencyMs'] = var8;
- 1064:
+ 1062:
                     var2['filename'] = var11;
-                    if(!(var9 != var11)) { _fun0028_ip = 1479; continue _fun0028 }
- 1077:
-                    if(!(var9 != var7)) { _fun0028_ip = 1479; continue _fun0028 }
- 1084:
+                    if(!(var9 != var11)) { _fun0028_ip = 1477; continue _fun0028 }
+ 1075:
+                    if(!(var9 != var7)) { _fun0028_ip = 1477; continue _fun0028 }
+ 1082:
                     var8 = var4.file;
                     var8 = var8.type;
-                    if(!(var9 != var8)) { _fun0028_ip = 1479; continue _fun0028 }
- 1102:
+                    if(!(var9 != var8)) { _fun0028_ip = 1477; continue _fun0028 }
+ 1100:
                     var10 = var11.split;
                     var8 = '.';
                     var10 = var10.bind(var11)(var8);
@@ -2854,28 +2854,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var8.bind(var10)();
                     var8 = var9 == var10;
                     var12 = undefined;
-                    if(var8) { _fun0028_ip = 1145; continue _fun0028 }
- 1135:
+                    if(var8) { _fun0028_ip = 1143; continue _fun0028 }
+ 1133:
                     var8 = var10.toLowerCase;
                     var12 = var8.bind(var10)();
- 1145:
+ 1143:
                     var14 = 'image/jpeg';
                     var10 = 'jpg';
                     var8 = var14;
-                    if(!(var10 !== var12)) { _fun0028_ip = 1188; continue _fun0028 }
- 1164:
+                    if(!(var10 !== var12)) { _fun0028_ip = 1186; continue _fun0028 }
+ 1162:
                     var10 = 'jpeg';
                     var8 = var14;
-                    if(!(var10 !== var12)) { _fun0028_ip = 1188; continue _fun0028 }
- 1177:
+                    if(!(var10 !== var12)) { _fun0028_ip = 1186; continue _fun0028 }
+ 1175:
                     var10 = var4.file;
                     var8 = var10.type;
- 1188:
+ 1186:
                     var10 = var2.uploadAnalytics;
                     var10['convertedMimeType'] = var8;
                     var18 = var4.fileSize;
-                    if(!(var9 == var18)) { _fun0028_ip = 1261; continue _fun0028 }
- 1210:
+                    if(!(var9 == var18)) { _fun0028_ip = 1259; continue _fun0028 }
+ 1208:
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
                     var10 = 22;
@@ -2883,22 +2883,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = var12.bind(var13)(var10);
                     var10 = var12.getFileData;
                     var10 = var10.bind(var12)(var7);
-                    SaveGenerator(address=1245);
+                    SaveGenerator(address=1243);
+ 1241:
+                    return var10;
  1243:
-                    return var10;
- 1245:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
-                    if(var12) { _fun0028_ip = 1258; continue _fun0028 }
- 1251:
+                    if(var12) { _fun0028_ip = 1256; continue _fun0028 }
+ 1249:
                     var18 = var10.size;
-                    _fun0028_ip = 1261; continue _fun0028;
- 1258:
+                    _fun0028_ip = 1259; continue _fun0028;
+ 1256:
                     return var10;
- 1261:
+ 1259:
                     var2['postCompressionSize'] = var18;
                     var2['currentSize'] = var18;
-                    if(!(var9 != var18)) { _fun0028_ip = 1404; continue _fun0028 }
- 1280:
+                    if(!(var9 != var18)) { _fun0028_ip = 1402; continue _fun0028 }
+ 1278:
                     var12 = _closure1_slot16;
                     var10 = var12.log;
                     var19 = var2.id;
@@ -2927,7 +2927,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['item'] = var8;
                     var2['reactNativeFilePrepped'] = var5;
                     return var2;
- 1404:
+ 1402:
                     var10 = _closure1_slot16;
                     var9 = var10.error;
                     var13 = var2.id;
@@ -2944,7 +2944,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = new var26[var10](var25, var24);
                     var8 = var8 instanceof Object ? var8 : var9;
                     throw var8;
- 1479:
+ 1477:
                     var12 = _closure1_slot16;
                     var9 = var12.error;
                     var15 = {};
@@ -2976,7 +2976,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = new var26[var9](var25, var24);
                     var7 = var7 instanceof Object ? var7 : var8;
                     throw var7;
- 1626:
+ 1624:
                     var8 = _closure1_slot16;
                     var7 = var8.error;
                     var10 = var2.id;
@@ -2986,9 +2986,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var9.bind(var6)(var10);
                     var6 = var7.bind(var8)(var6);
                     return var2;
- 1670:
+ 1668:
                     return var4;
- 1673:
+ 1671:
                     var4 = var2.uploadAnalytics;
                     var4['fileAlreadyPrepped'] = var5;
                     var5 = _closure1_slot16;
@@ -3001,7 +3001,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var6.bind(var3)(var7);
                     var3 = var4.bind(var5)(var3);
                     return var2;
- 1734:
+ 1732:
                     return var1;
                 }
             };
@@ -3029,168 +3029,187 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
  0:
                     StartGenerator();
-                    var3 = this;
+                    var4 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0030_ip = 628; continue _fun0030 }
+                    if(var2) { _fun0030_ip = 724; continue _fun0030 }
  13:
                     var2 = undefined;
-                    var12 = undefined;
-                    var6 = undefined;
+                    var16 = undefined;
+                    var3 = undefined;
                     var8 = undefined;
+                    var10 = undefined;
                     var14 = undefined;
                     var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var5 = 28;
-                    var5 = var9[var5];
-                    var9 = var7.bind(var2)(var5);
+                    var6 = 28;
+                    var6 = var9[var6];
+                    var9 = var7.bind(var2)(var6);
                     var7 = var9.getAttachmentWebPConversionConfig;
-                    var5 = {};
-                    var10 = 'CloudUpload.maybeConvertToWebP';
-                    var5['location'] = var10;
-                    var5 = var7.bind(var9)(var5);
-                    var12 = var5;
-                    var5 = var5.enabled;
-                    if(!var5) { _fun0030_ip = 625; continue _fun0030 }
- 83:
-                    var5 = var3.item;
-                    var5 = var5.file;
+                    var6 = {};
+                    var11 = 'CloudUpload.maybeConvertToWebP';
+                    var6['location'] = var11;
+                    var6 = var7.bind(var9)(var6);
+                    var16 = var6;
+                    var6 = var6.enabled;
+                    if(!var6) { _fun0030_ip = 721; continue _fun0030 }
+ 85:
+                    var6 = var4.item;
+                    var6 = var6.file;
                     var13 = null;
-                    if(!(var13 == var5)) { _fun0030_ip = 155; continue _fun0030 }
- 100:
+                    if(!(var13 == var6)) { _fun0030_ip = 157; continue _fun0030 }
+ 102:
                     var9 = _closure1_slot16;
                     var7 = var9.warn;
-                    var15 = var3.id;
-                    var5 = global;
-                    var5 = var5.HermesInternal;
-                    var11 = var5.concat;
-                    var10 = 'webp conversion skipped for ';
-                    var5 = ': no file';
-                    var5 = var11.bind(var10)(var15, var5);
-                    var5 = var7.bind(var9)(var5);
-                    _fun0030_ip = 625; continue _fun0030;
- 155:
-                    var5 = var3._aborted;
-                    if(var5) { _fun0030_ip = 625; continue _fun0030 }
- 167: // try_start_0
-                    var7 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var10 = 29;
-                    var5 = var5[var10];
-                    var11 = var7.bind(var2)(var5);
-                    var9 = var11.convertFilesToWebP;
-                    var5 = var3.item;
-                    var5 = var5.file;
-                    var7 = new Array(1);
-                    var7[0] = var5;
-                    var5 = {};
-                    var15 = var12.minFileSizeBytes;
-                    var5['minFileSizeBytes'] = var15;
-                    var12 = var12.minSizeReductionPercent;
-                    var5['minSizeReductionPercent'] = var12;
-                    var5 = var9.bind(var11)(var7, var5);
-                    SaveGenerator(address=246);
- 244:
-                    return var5;
- 246:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(var7) { _fun0030_ip = 571; continue _fun0030 }
- 255:
-                    var6 = var5;
-                    var7 = var3._aborted;
-                    if(var7) { _fun0030_ip = 568; continue _fun0030 }
- 270:
-                    var7 = var6;
-                    var9 = var7.length;
-                    var7 = 0;
-                    if(!(var9 > var7)) { _fun0030_ip = 300; continue _fun0030 }
- 284:
-                    var9 = var6;
-                    var9 = var9[var7];
-                    var9 = var9.success;
-                    if(var9) { _fun0030_ip = 399; continue _fun0030 }
- 300:
-                    var11 = _closure1_slot16;
-                    var9 = var11.log;
-                    var15 = var3.id;
-                    var12 = var6;
-                    var12 = var12[var7];
-                    var14 = var12;
-                    var16 = var13 == var12;
-                    var12 = undefined;
-                    if(var16) { _fun0030_ip = 340; continue _fun0030 }
- 334:
-                    var12 = var14.reason;
- 340:
-                    var8 = var12;
-                    var12 = var13 != var12;
-                    var14 = 'unknown';
-                    if(!var12) { _fun0030_ip = 357; continue _fun0030 }
- 354:
-                    var14 = var8;
- 357:
-                    var8 = global;
-                    var8 = var8.HermesInternal;
-                    var13 = var8.concat;
-                    var12 = 'webp conversion skipped for ';
-                    var8 = ': ';
-                    var8 = var13.bind(var12)(var15, var8, var14);
-                    var8 = var9.bind(var11)(var8);
-                    _fun0030_ip = 566; continue _fun0030;
- 399:
-                    var6 = var6[var7];
-                    var8 = var3.item;
-                    var9 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var7 = var7[var10];
-                    var9 = var9.bind(var2)(var7);
-                    var7 = var9.getBestFileForUpload;
-                    var7 = var7.bind(var9)(var6);
-                    var8['file'] = var7;
-                    var7 = var3.item;
-                    var7 = var7.file;
-                    var7 = var7.size;
-                    var3['currentSize'] = var7;
-                    var8 = _closure1_slot16;
-                    var7 = var8.log;
-                    var17 = var3.id;
-                    var23 = var6.sizeBefore;
-                    var21 = var6.sizeAfter;
-                    var10 = var6.compressionRatio;
-                    var9 = var10.toFixed;
-                    var6 = 2;
-                    var19 = var9.bind(var10)(var6);
+                    var15 = var4.id;
                     var6 = global;
                     var6 = var6.HermesInternal;
-                    var13 = var6.concat;
-                    var26 = 'webp conversion worked for ';
-                    var24 = ': ';
-                    var22 = ' -> ';
-                    var20 = ' bytes (';
-                    var18 = 'x)';
-                    var25 = var17;
-                    var6 = var26[var13](var25, var24, var23, var22, var21, var20, var19, var18, var17);
-                    var6 = var7.bind(var8)(var6);
- 566: // try_end0
-                    _fun0030_ip = 625; continue _fun0030;
- 568:
+                    var12 = var6.concat;
+                    var11 = 'webp conversion skipped for ';
+                    var6 = ': no file';
+                    var6 = var12.bind(var11)(var15, var6);
+                    var6 = var7.bind(var9)(var6);
+                    _fun0030_ip = 721; continue _fun0030;
+ 157:
+                    var6 = var4._aborted;
+                    if(var6) { _fun0030_ip = 721; continue _fun0030 }
+ 169:
+                    var7 = global;
+                    var9 = var7.performance;
+                    var6 = var9.now;
+                    var3 = var6.bind(var9)();
+ 186: // try_start_0
+                    var9 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var12 = 29;
+                    var6 = var6[var12];
+                    var15 = var9.bind(var2)(var6);
+                    var11 = var15.convertFilesToWebP;
+                    var6 = var4.item;
+                    var6 = var6.file;
+                    var9 = new Array(1);
+                    var9[0] = var6;
+                    var6 = {};
+                    var17 = var16.minFileSizeBytes;
+                    var6['minFileSizeBytes'] = var17;
+                    var16 = var16.minSizeReductionPercent;
+                    var6['minSizeReductionPercent'] = var16;
+                    var6 = var11.bind(var15)(var9, var6);
+                    SaveGenerator(address=265);
+ 263:
+                    return var6;
+ 265:
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
+                    if(var9) { _fun0030_ip = 598; continue _fun0030 }
+ 274:
+                    var8 = var6;
+                    var9 = var4._aborted;
+                    if(var9) { _fun0030_ip = 595; continue _fun0030 }
+ 289:
+                    var9 = var8;
+                    var11 = var9.length;
+                    var9 = 0;
+                    if(!(var11 > var9)) { _fun0030_ip = 319; continue _fun0030 }
+ 303:
+                    var11 = var8;
+                    var11 = var11[var9];
+                    var11 = var11.success;
+                    if(var11) { _fun0030_ip = 428; continue _fun0030 }
+ 319:
+                    var11 = var8;
+                    var11 = var11[var9];
+                    var14 = var11;
+                    var15 = var13 == var11;
+                    var11 = undefined;
+                    if(var15) { _fun0030_ip = 344; continue _fun0030 }
+ 338:
+                    var11 = var14.reason;
+ 344:
+                    var10 = var11;
+                    var11 = var13 != var11;
+                    var17 = 'unknown';
+                    if(!var11) { _fun0030_ip = 361; continue _fun0030 }
+ 358:
+                    var17 = var10;
+ 361:
+                    var10 = var4.uploadAnalytics;
+                    var10['conversionFailureReason'] = var17;
+                    var13 = _closure1_slot16;
+                    var11 = var13.log;
+                    var16 = var4.id;
+                    var10 = var7.HermesInternal;
+                    var15 = var10.concat;
+                    var14 = 'webp conversion skipped for ';
+                    var10 = ': ';
+                    var10 = var15.bind(var14)(var16, var10, var17);
+                    var10 = var11.bind(var13)(var10);
+                    _fun0030_ip = 593; continue _fun0030;
+ 428:
+                    var8 = var8[var9];
+                    var10 = var4.item;
+                    var11 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var9 = var9[var12];
+                    var11 = var11.bind(var2)(var9);
+                    var9 = var11.getBestFileForUpload;
+                    var9 = var9.bind(var11)(var8);
+                    var10['file'] = var9;
+                    var9 = var4.item;
+                    var9 = var9.file;
+                    var9 = var9.size;
+                    var4['currentSize'] = var9;
+                    var10 = _closure1_slot16;
+                    var9 = var10.log;
+                    var19 = var4.id;
+                    var25 = var8.sizeBefore;
+                    var23 = var8.sizeAfter;
+                    var12 = var8.compressionRatio;
+                    var11 = var12.toFixed;
+                    var8 = 2;
+                    var21 = var11.bind(var12)(var8);
+                    var8 = var7.HermesInternal;
+                    var15 = var8.concat;
+                    var28 = 'webp conversion worked for ';
+                    var26 = ': ';
+                    var24 = ' -> ';
+                    var22 = ' bytes (';
+                    var20 = 'x)';
+                    var27 = var19;
+                    var8 = var28[var15](var27, var26, var25, var24, var23, var22, var21, var20, var19);
+                    var8 = var9.bind(var10)(var8);
+ 593: // try_end0
+                    _fun0030_ip = 668; continue _fun0030;
+ 595:
                     return var2;
- 571:
-                    return var5;
- 574: // catch_target0
-                    CatchBlockStart(arg_register=5);
-                    var5 = _closure1_slot16;
-                    var4 = var5.warn;
-                    var9 = var3.id;
-                    var3 = global;
-                    var3 = var3.HermesInternal;
-                    var8 = var3.concat;
-                    var7 = 'webp conversion failed for ';
-                    var3 = ':';
-                    var3 = var8.bind(var7)(var9, var3);
-                    var3 = var4.bind(var5)(var3, var6);
- 625:
+ 598:
+                    return var6;
+ 601: // catch_target0
+                    CatchBlockStart(arg_register=8);
+                    var8 = var4.uploadAnalytics;
+                    var6 = 'unknown_error';
+                    var8['conversionFailureReason'] = var6;
+                    var8 = _closure1_slot16;
+                    var6 = var8.warn;
+                    var12 = var4.id;
+                    var5 = var7.HermesInternal;
+                    var11 = var5.concat;
+                    var10 = 'webp conversion failed for ';
+                    var5 = ':';
+                    var5 = var11.bind(var10)(var12, var5);
+                    var5 = var6.bind(var8)(var5, var9);
+ 668:
+                    var4 = var4.uploadAnalytics;
+                    var4 = var4.timing;
+                    var6 = var7.Math;
+                    var5 = var6.round;
+                    var8 = var7.performance;
+                    var7 = var8.now;
+                    var7 = var7.bind(var8)();
+                    var3 = var7 - var3;
+                    var3 = var5.bind(var6)(var3);
+                    var4['compressTimeMs'] = var3;
+ 721:
                     return var2;
- 628:
+ 724:
                     return var1;
                 }
             };
@@ -3662,27 +3681,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var9.convertedMimeType;
                 var12 = var10 != var11;
                 var9 = var8;
-                if(!var12) { _fun0036_ip = 345; continue _fun0036 }
- 342:
+                if(!var12) { _fun0036_ip = 343; continue _fun0036 }
+ 340:
                 var9 = var11;
- 345:
+ 343:
                 var2['converted_mime_type'] = var9;
                 var9 = var7.uploadAnalytics;
                 var11 = var9.imageCompressionQuality;
                 var12 = var10 != var11;
                 var9 = 0;
-                if(!var12) { _fun0036_ip = 376; continue _fun0036 }
- 373:
+                if(!var12) { _fun0036_ip = 374; continue _fun0036 }
+ 371:
                 var9 = var11;
- 376:
+ 374:
                 var2['image_compression_quality'] = var9;
                 var9 = var7.uploadAnalytics;
                 var9 = var9.videoCompressionQuality;
                 var10 = var10 != var9;
-                if(!var10) { _fun0036_ip = 403; continue _fun0036 }
- 400:
+                if(!var10) { _fun0036_ip = 401; continue _fun0036 }
+ 398:
                 var8 = var9;
- 403:
+ 401:
                 var2['video_compression_quality'] = var8;
                 var9 = var7.mimeType;
                 var8 = var7.uploadAnalytics;
@@ -3774,10 +3793,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var7.uploadAnalytics;
                 var8 = var8.uploadResumptionPosition;
                 var2['upload_resumption_position'] = var8;
+                var8 = var7.uploadAnalytics;
+                var8 = var8.timing;
+                var8 = var8.resumptionCheckTimeMs;
+                var2['upload_resumption_check_time_ms'] = var8;
                 var7 = var7.uploadAnalytics;
-                var7 = var7.timing;
-                var7 = var7.resumptionCheckTimeMs;
-                var2['upload_resumption_check_time_ms'] = var7;
+                var7 = var7.conversionFailureReason;
+                var2['conversion_failure_reason'] = var7;
                 var7 = _closure1_slot13;
                 var6 = var7.getType;
                 var6 = var6.bind(var7)();

@@ -38,14 +38,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 13;
+            var1 = 12;
             var1 = var5[var1];
             var3 = undefined;
             var6 = var4.bind(var3)(var1);
             var2 = var6.useIsEligibleForSensitiveContentDefaults;
             var1 = 'explicit_media_redaction_utils';
             var1 = var2.bind(var6)(var1);
-            var2 = 14;
+            var2 = 13;
             var2 = var5[var2];
             var3 = var4.bind(var3)(var2);
             var2 = var3.useShouldShowTiggerPawtect;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['UPDATE'] = var8;
     var8 = 'timeout';
     var5['TIMEOUT'] = var8;
-    var8 = 16;
+    var8 = 15;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -227,46 +227,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function isPendingScanVersion(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            var4 = arg1;
-            var5 = _closure1_slot3;
-            var2 = var5.get;
+            var5 = arg1;
+            var3 = _closure1_slot3;
+            var2 = var3.get;
             var1 = 'explicit_media_redaction_ignore_pending_scan';
-            var1 = var2.bind(var5)(var1);
-            if(var1) { _fun0003_ip = 117; continue _fun0003 }
- 29:
-            var1 = 0;
-            if(!(var1 !== var4)) { _fun0003_ip = 113; continue _fun0003 }
- 35:
-            var1 = -1;
-            if(!(var1 !== var4)) { _fun0003_ip = 113; continue _fun0003 }
- 45:
-            var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 7;
-            var2 = var2[var1];
-            var1 = undefined;
-            var5 = var5.bind(var1)(var2);
-            var2 = var5.isEligibleForSensitiveContentGoreExperiment;
-            var1 = 'isPendingScanVersion';
-            var2 = var2.bind(var5)(var1);
-            var1 = null;
-            var1 = var1 == var4;
-            if(var1) { _fun0003_ip = 111; continue _fun0003 }
- 91:
-            if(!var2) { _fun0003_ip = 108; continue _fun0003 }
- 94:
-            var3 = _closure1_slot5;
-            var3 = var3.validContentScanVersion;
-            var2 = var4 !== var3;
- 108:
+            var1 = var2.bind(var3)(var1);
+            var1 = !var1;
+            if(!var1) { _fun0003_ip = 83; continue _fun0003 }
+ 32:
+            var2 = 0;
+            var2 = var2 !== var5;
+            if(!var2) { _fun0003_ip = 51; continue _fun0003 }
+ 41:
+            var3 = -1;
+            var2 = var3 !== var5;
+ 51:
+            if(!var2) { _fun0003_ip = 80; continue _fun0003 }
+ 54:
+            var3 = null;
+            var3 = var3 == var5;
+            if(var3) { _fun0003_ip = 77; continue _fun0003 }
+ 63:
+            var4 = _closure1_slot5;
+            var4 = var4.validContentScanVersion;
+            var3 = var5 !== var4;
+ 77:
+            var2 = var3;
+ 80:
             var1 = var2;
- 111:
-            return var1;
- 113:
-            var1 = false;
-            return var1;
- 117:
-            var1 = false;
+ 83:
             return var1;
         }
     };
@@ -291,7 +280,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.bind(var2)(var9);
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var3[var1];
             var8 = undefined;
             var4 = var2.bind(var8)(var1);
@@ -311,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['message_id'] = var7;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var6 = 9;
+            var6 = 8;
             var6 = var9[var6];
             var7 = var7.bind(var8)(var6);
             var6 = var7.isCurrentUserTeen;
@@ -344,14 +333,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var3.bind(var4)(var2, var1);
         var3 = _closure1_slot1;
         var9 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var9[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.increment;
         var2 = {};
         var7 = _closure1_slot0;
-        var5 = 11;
+        var5 = 10;
         var5 = var9[var5];
         var5 = var7.bind(var1)(var5);
         var5 = var5.MetricEvents;
@@ -424,7 +413,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var3.bind(var4)(var11);
             var4 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var3 = 8;
+            var3 = 7;
             var3 = var9[var3];
             var12 = var4.bind(var6)(var3);
             var9 = var12.track;
@@ -443,13 +432,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['embed_ids'] = var8;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var13 = 9;
+            var13 = 8;
             var13 = var11[var13];
             var14 = var10.bind(var6)(var13);
             var13 = var14.isCurrentUserTeen;
             var13 = var13.bind(var14)();
             var3['user_is_underage'] = var13;
-            var13 = 12;
+            var13 = 11;
             var13 = var11[var13];
             var13 = var10.bind(var6)(var13);
             var13 = var13.MESSAGE_SCAN_TIMEOUT;
@@ -457,12 +446,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['attachment_ids_v2'] = var1;
             var3 = var9.bind(var12)(var4, var3);
             var3 = _closure1_slot1;
-            var2 = 10;
+            var2 = 9;
             var4 = var11[var2];
             var13 = var3.bind(var6)(var4);
             var12 = var13.increment;
             var4 = {};
-            var9 = 11;
+            var9 = 10;
             var14 = var11[var9];
             var14 = var10.bind(var6)(var14);
             var14 = var14.MetricEvents;
@@ -529,7 +518,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var3.bind(var4)(var13);
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var3 = 8;
+            var3 = 7;
             var3 = var6[var3];
             var7 = undefined;
             var8 = var4.bind(var7)(var3);
@@ -556,13 +545,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  159:
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var8[var1];
             var3 = var2.bind(var7)(var1);
             var2 = var3.distribution;
             var1 = {};
             var6 = _closure1_slot0;
-            var5 = 11;
+            var5 = 10;
             var5 = var8[var5];
             var5 = var6.bind(var7)(var5);
             var5 = var5.MetricEvents;
@@ -612,7 +601,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var2.bind(var3)(var16);
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 8;
+            var2 = 7;
             var2 = var4[var2];
             var13 = undefined;
             var4 = var3.bind(var13)(var2);
@@ -669,7 +658,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var2.bind(var3)(var12);
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 8;
+            var2 = 7;
             var2 = var4[var2];
             var9 = undefined;
             var4 = var3.bind(var9)(var2);
@@ -790,14 +779,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 13;
+            var1 = 12;
             var1 = var5[var1];
             var3 = undefined;
             var6 = var4.bind(var3)(var1);
             var2 = var6.isEligibleForSensitiveContentDefaults;
             var1 = 'explicit_media_redaction_utils';
             var1 = var2.bind(var6)(var1);
-            var2 = 14;
+            var2 = 13;
             var2 = var5[var2];
             var3 = var4.bind(var3)(var2);
             var2 = var3.shouldShowTiggerPawtect;
@@ -829,7 +818,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  34:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 15;
+            var2 = 14;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.AGE_VERIFICATION_OBSCURABLE_REASONS;
@@ -847,7 +836,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1.obscure;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 14;
+            var1 = 13;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -857,7 +846,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  47:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 8;
+            var3 = 7;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);
             var4 = var5.track;

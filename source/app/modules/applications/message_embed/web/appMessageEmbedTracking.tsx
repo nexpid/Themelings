@@ -37,6 +37,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['RICH_PRESENCE_INVITE'] = var4;
     var4 = 'legacy_rich_presence_invite';
     var5['LEGACY_RICH_PRESENCE_INVITE'] = var4;
+    var4 = 'request_to_stream';
+    var5['REQUEST_TO_STREAM'] = var4;
     var4 = 'unknown';
     var5['UNKNOWN'] = var4;
     var4 = {};
@@ -60,6 +62,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CONTENT'] = var6;
     var6 = 'banner';
     var4['BANNER'] = var6;
+    var6 = 'stream';
+    var4['STREAM'] = var6;
     var6 = 2;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);

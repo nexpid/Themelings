@@ -287,7 +287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = _closure1_slot7;
                     var2 = var2.useReducedMotion;
-                    if(!var2) { _fun0003_ip = 58; continue _fun0003 }
+                    if(!var2) { _fun0003_ip = 60; continue _fun0003 }
  18:
                     var3 = _closure2_slot8;
                     var2 = global;
@@ -305,7 +305,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = 4500;
                     var2 = var6.bind(var5)(var4, var2);
                     var3['current'] = var2;
- 58:
+ 60:
                     var1 = function() {
                         var1 = global;
                         var3 = var1.clearTimeout;
@@ -494,8 +494,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['onStart'] = var7;
             var8 = var4.bind(var6)(var3);
-            if(var2) { _fun0001_ip = 1584; continue _fun0001 }
- 1128:
+            if(var2) { _fun0001_ip = 1598; continue _fun0001 }
+ 1142:
             var4 = _closure1_slot12;
             var3 = _closure1_slot5;
             var2 = {};
@@ -598,7 +598,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1584:
+ 1598:
             return var1;
         }
     };
@@ -673,15 +673,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = var9.bind(var10)(var1, var8);
             var1 = null;
-            if(!(var4 !== var3)) { _fun0004_ip = 147; continue _fun0004 }
- 121:
+            if(!(var4 !== var3)) { _fun0004_ip = 151; continue _fun0004 }
+ 125:
             var4 = _closure1_slot11;
             var3 = _closure1_slot17;
             var2 = {};
             var2['canvasWidth'] = var7;
             var2['canvasHeight'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 147:
+ 151:
             return var1;
         }
     };

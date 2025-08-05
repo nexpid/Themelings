@@ -951,7 +951,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = undefined;
                             var5 = var7.bind(var1)(var5);
                             var5 = var5.SECTION_INDEX_CHANNEL_NOTICES;
-                            if(!(var6 !== var5)) { _fun0009_ip = 915; continue _fun0009 }
+                            if(!(var6 !== var5)) { _fun0009_ip = 983; continue _fun0009 }
  47:
                             var6 = _closure3_slot3;
                             var7 = _closure1_slot0;
@@ -967,7 +967,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = _closure3_slot6;
                             var5 = var7.bind(var9)(var6, var5);
                             var10 = null;
-                            if(!(var10 != var5)) { _fun0009_ip = 1072; continue _fun0009 }
+                            if(!(var10 != var5)) { _fun0009_ip = 1140; continue _fun0009 }
  117:
                             var5 = var5.channel;
                             var _closure4_slot0 = var5;
@@ -1068,7 +1068,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 return var1;
                             };
                             var4 = var5.bind(var6)(var4);
-                            _fun0009_ip = 1072; continue _fun0009;
+                            _fun0009_ip = 1140; continue _fun0009;
  431:
                             var5 = _closure2_slot0;
                             var4 = var5.getGuildActionSection;
@@ -1077,36 +1077,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = _closure3_slot6;
                             var7 = var5.bind(var7)(var4);
                             var4 = null;
-                            if(!(var4 != var7)) { _fun0009_ip = 1072; continue _fun0009 }
+                            if(!(var4 != var7)) { _fun0009_ip = 1140; continue _fun0009 }
  472:
                             var4 = _closure1_slot16;
                             var4 = var4.GUILD_HUB_HEADER_OPTIONS;
-                            if(!(var7 !== var4)) { _fun0009_ip = 870; continue _fun0009 }
+                            if(!(var7 !== var4)) { _fun0009_ip = 938; continue _fun0009 }
  489:
                             var4 = _closure1_slot16;
                             var4 = var4.GUILD_SCHEDULED_EVENTS;
-                            if(!(var7 !== var4)) { _fun0009_ip = 870; continue _fun0009 }
+                            if(!(var7 !== var4)) { _fun0009_ip = 938; continue _fun0009 }
  506:
                             var4 = _closure1_slot16;
                             var4 = var4.GUILD_HOME;
-                            if(!(var7 !== var4)) { _fun0009_ip = 819; continue _fun0009 }
+                            if(!(var7 !== var4)) { _fun0009_ip = 887; continue _fun0009 }
  523:
                             var4 = _closure1_slot16;
                             var4 = var4.GUILD_ROLE_SUBSCRIPTIONS;
-                            if(!(var7 !== var4)) { _fun0009_ip = 768; continue _fun0009 }
+                            if(!(var7 !== var4)) { _fun0009_ip = 836; continue _fun0009 }
  540:
                             var4 = _closure1_slot16;
                             var4 = var4.CHANNELS_AND_ROLES;
-                            if(!(var7 !== var4)) { _fun0009_ip = 686; continue _fun0009 }
+                            if(!(var7 !== var4)) { _fun0009_ip = 754; continue _fun0009 }
  557:
                             var4 = _closure1_slot16;
                             var4 = var4.GUILD_DIRECTORY;
-                            if(!(var7 !== var4)) { _fun0009_ip = 641; continue _fun0009 }
- 571:
+                            if(!(var7 !== var4)) { _fun0009_ip = 709; continue _fun0009 }
+ 574:
                             var4 = _closure1_slot16;
                             var4 = var4.GUILD_NEW_MEMBER_ACTIONS_PROGRESS_BAR;
-                            if(!(var7 === var4)) { _fun0009_ip = 1072; continue _fun0009 }
+                            if(!(var7 !== var4)) { _fun0009_ip = 656; continue _fun0009 }
  588:
+                            var4 = _closure1_slot16;
+                            var4 = var4.GUILD_MOD_DASH_MEMBER_SAFETY;
+                            if(!(var7 === var4)) { _fun0009_ip = 1140; continue _fun0009 }
+ 605:
+                            var5 = _closure3_slot7;
+                            var4 = {};
+                            var4['kind'] = var7;
+                            var9 = _closure2_slot1;
+                            var8 = _closure1_slot15;
+                            var8 = var8.MEMBER_SAFETY;
+                            var8 = var9 === var8;
+                            var4['selected'] = var8;
+                            var8 = _closure2_slot9;
+                            var4['height'] = var8;
+                            var4 = var5.bind(var1)(var4);
+                            _fun0009_ip = 1140; continue _fun0009;
+ 656:
                             var5 = _closure3_slot7;
                             var4 = {'kind': 'newMemberActions', 'height': 48};
                             var4 = var5.bind(var1)(var4);
@@ -1116,8 +1133,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var8 = _closure3_slot1;
                             var4['height'] = var8;
                             var4 = var5.bind(var1)(var4);
-                            _fun0009_ip = 1072; continue _fun0009;
- 641:
+                            _fun0009_ip = 1140; continue _fun0009;
+ 709:
                             var5 = _closure3_slot7;
                             var4 = {};
                             var4['kind'] = var7;
@@ -1128,8 +1145,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var8 = _closure2_slot9;
                             var4['height'] = var8;
                             var4 = var5.bind(var1)(var4);
-                            _fun0009_ip = 1072; continue _fun0009;
- 686:
+                            _fun0009_ip = 1140; continue _fun0009;
+ 754:
                             var5 = _closure3_slot7;
                             var4 = {};
                             var8 = _closure1_slot16;
@@ -1139,19 +1156,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var8 = _closure1_slot15;
                             var8 = var8.CHANNEL_BROWSER;
                             var8 = var9 === var8;
-                            if(var8) { _fun0009_ip = 745; continue _fun0009 }
- 727:
+                            if(var8) { _fun0009_ip = 813; continue _fun0009 }
+ 795:
                             var10 = _closure2_slot1;
                             var9 = _closure1_slot15;
                             var9 = var9.CUSTOMIZE_COMMUNITY;
                             var8 = var10 === var9;
- 745:
+ 813:
                             var4['selected'] = var8;
                             var8 = _closure2_slot9;
                             var4['height'] = var8;
                             var4 = var5.bind(var1)(var4);
-                            _fun0009_ip = 1072; continue _fun0009;
- 768:
+                            _fun0009_ip = 1140; continue _fun0009;
+ 836:
                             var5 = _closure3_slot7;
                             var4 = {};
                             var4['kind'] = var7;
@@ -1163,8 +1180,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var8 = _closure2_slot9;
                             var4['height'] = var8;
                             var4 = var5.bind(var1)(var4);
-                            _fun0009_ip = 1072; continue _fun0009;
- 819:
+                            _fun0009_ip = 1140; continue _fun0009;
+ 887:
                             var5 = _closure3_slot7;
                             var4 = {};
                             var4['kind'] = var7;
@@ -1176,20 +1193,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var8 = _closure2_slot9;
                             var4['height'] = var8;
                             var4 = var5.bind(var1)(var4);
-                            _fun0009_ip = 1072; continue _fun0009;
- 870:
+                            _fun0009_ip = 1140; continue _fun0009;
+ 938:
                             var4 = _closure1_slot16;
                             var4 = var4.GUILD_SCHEDULED_EVENTS;
-                            if(!(var7 !== var4)) { _fun0009_ip = 1072; continue _fun0009 }
- 887:
+                            if(!(var7 !== var4)) { _fun0009_ip = 1140; continue _fun0009 }
+ 955:
                             var5 = _closure3_slot7;
                             var4 = {};
                             var4['kind'] = var7;
                             var6 = _closure2_slot9;
                             var4['height'] = var6;
                             var4 = var5.bind(var1)(var4);
-                            _fun0009_ip = 1072; continue _fun0009;
- 915:
+                            _fun0009_ip = 1140; continue _fun0009;
+ 983:
                             var6 = _closure2_slot0;
                             var4 = var6.getChannelNoticeSection;
                             var7 = var4.bind(var6)();
@@ -1197,20 +1214,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = _closure3_slot6;
                             var4 = var6.bind(var7)(var4);
                             var6 = null;
-                            if(!(var6 != var4)) { _fun0009_ip = 1072; continue _fun0009 }
- 953:
+                            if(!(var6 != var4)) { _fun0009_ip = 1140; continue _fun0009 }
+ 1021:
                             var6 = _closure1_slot17;
                             var6 = var6.GUILD_PROGRESS;
-                            if(!(var4 !== var6)) { _fun0009_ip = 1049; continue _fun0009 }
- 967:
+                            if(!(var4 !== var6)) { _fun0009_ip = 1117; continue _fun0009 }
+ 1035:
                             var6 = _closure1_slot17;
                             var6 = var6.MFA_WARNING;
-                            if(!(var4 !== var6)) { _fun0009_ip = 1024; continue _fun0009 }
- 981:
+                            if(!(var4 !== var6)) { _fun0009_ip = 1092; continue _fun0009 }
+ 1049:
                             var3 = _closure1_slot17;
                             var3 = var3.LIVE_CHANNEL_NOTICE;
-                            if(!(var4 === var3)) { _fun0009_ip = 1072; continue _fun0009 }
- 995:
+                            if(!(var4 === var3)) { _fun0009_ip = 1140; continue _fun0009 }
+ 1063:
                             var4 = _closure3_slot7;
                             var3 = {};
                             var6 = 'liveChannelNotice';
@@ -1218,17 +1235,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = _closure2_slot14;
                             var3['height'] = var5;
                             var3 = var4.bind(var1)(var3);
-                            _fun0009_ip = 1072; continue _fun0009;
- 1024:
+                            _fun0009_ip = 1140; continue _fun0009;
+ 1092:
                             var4 = _closure3_slot7;
                             var3 = {'kind': 'mfaWarning', 'height': 48};
                             var3 = var4.bind(var1)(var3);
-                            _fun0009_ip = 1072; continue _fun0009;
- 1049:
+                            _fun0009_ip = 1140; continue _fun0009;
+ 1117:
                             var3 = _closure3_slot7;
                             var2 = {'kind': 'guildProgress', 'height': 48};
                             var2 = var3.bind(var1)(var2);
- 1072:
+ 1140:
                             return var1;
                         }
                     };

@@ -168,26 +168,64 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2[3] = var1;
     var1 = {};
     var7 = function getDueAt() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 0;
-        var1 = var2[var1];
-        var2 = undefined;
-        var1 = var3.bind(var2)(var1);
-        var3 = var1.bind(var2)();
-        var2 = var3.day;
-        var1 = 8;
-        var3 = var2.bind(var3)(var1);
-        var2 = var3.startOf;
-        var1 = 'day';
-        var4 = var2.bind(var3)(var1);
-        var3 = var4.add;
-        var2 = 9;
-        var1 = 'hours';
-        var2 = var3.bind(var4)(var2, var1);
-        var1 = var2.toDate;
-        var1 = var1.bind(var2)();
-        return var1;
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var4 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var5 = 0;
+            var3 = var2[var5];
+            var2 = undefined;
+            var3 = var4.bind(var2)(var3);
+            var4 = var3.bind(var2)();
+            var3 = var4.day;
+            var7 = var3.bind(var4)();
+            if(!(var5 !== var7)) { _fun0001_ip = 139; continue _fun0001 }
+ 42:
+            var6 = 8;
+            var4 = 1;
+            var3 = var6;
+            if(!(var4 === var7)) { _fun0001_ip = 142; continue _fun0001 }
+ 55:
+            var9 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var7 = var4[var5];
+            var7 = var9.bind(var2)(var7);
+            var10 = var7.bind(var2)();
+            var8 = var10.startOf;
+            var7 = 'day';
+            var11 = var8.bind(var10)(var7);
+            var10 = var11.add;
+            var8 = 9;
+            var7 = 'hours';
+            var8 = var10.bind(var11)(var8, var7);
+            var7 = var8.isAfter;
+            var4 = var4[var5];
+            var4 = var9.bind(var2)(var4);
+            var4 = var4.bind(var2)();
+            var4 = var7.bind(var8)(var4);
+            var3 = var6;
+            if(!var4) { _fun0001_ip = 142; continue _fun0001 }
+ 139:
+            var3 = 1;
+ 142:
+            var4 = _closure1_slot1;
+            var1 = _closure1_slot2;
+            var1 = var1[var5];
+            var1 = var4.bind(var2)(var1);
+            var2 = var1.bind(var2)();
+            var1 = var2.day;
+            var3 = var1.bind(var2)(var3);
+            var2 = var3.startOf;
+            var1 = 'day';
+            var4 = var2.bind(var3)(var1);
+            var3 = var4.add;
+            var2 = 9;
+            var1 = 'hours';
+            var2 = var3.bind(var4)(var2, var1);
+            var1 = var2.toDate;
+            var1 = var1.bind(var2)();
+            return var1;
+        }
     };
     var1['getDueAt'] = var7;
     var6 = function getLabel() {

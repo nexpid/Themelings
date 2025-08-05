@@ -14,25 +14,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var2;
         var1 = var1.category;
         var _closure2_slot1 = var1;
-        var9 = _closure1_slot0;
+        var3 = _closure1_slot1;
         var10 = _closure1_slot2;
         var2 = 5;
         var2 = var10[var2];
         var4 = undefined;
-        var6 = var9.bind(var4)(var2);
-        var3 = var6.useMobileShopCardV2Enabled;
-        var2 = 'CollectibleShopCardsGridRow';
-        var2 = var3.bind(var6)(var2);
-        var _closure2_slot2 = var2;
-        var3 = _closure1_slot1;
-        var2 = 6;
-        var2 = var10[var2];
         var2 = var3.bind(var4)(var2);
         var2 = var2.bind(var4)();
         var3 = global;
         var6 = var3.Math;
         var3 = var6.floor;
         var8 = var2.width;
+        var9 = _closure1_slot0;
         var2 = 4;
         var2 = var10[var2];
         var2 = var9.bind(var4)(var2);
@@ -50,55 +43,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['style'] = var6;
         var6 = var7.map;
         var5 = function(arg1, arg2) {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
-                var1 = arg1;
-                var5 = _closure1_slot6;
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var2 = 7;
-                var2 = var4[var2];
-                var4 = undefined;
-                var2 = var3.bind(var4)(var2);
-                var3 = var2.CollectiblesAnalyticsProvider;
-                var2 = {};
-                var7 = {};
-                var10 = _closure2_slot0;
-                var8 = arg2;
-                var8 = var10 + var8;
-                var7['tilePosition'] = var8;
-                var2['newValue'] = var7;
-                var10 = _closure1_slot6;
-                var8 = _closure1_slot1;
-                var7 = _closure2_slot2;
-                var11 = _closure1_slot2;
-                if(var7) { _fun0001_ip = 94; continue _fun0001 }
- 85:
-                var7 = 4;
-                var7 = var11[var7];
-                _fun0001_ip = 101; continue _fun0001;
- 94:
-                var9 = 8;
-                var7 = var11[var9];
- 101:
-                var9 = var8.bind(var4)(var7);
-                var8 = {};
-                var6 = _closure2_slot1;
-                var6 = var6.unpublishedAt;
-                var8['unpublishedAt'] = var6;
-                var8['product'] = var1;
-                var7 = var1.items;
-                var6 = 0;
-                var7 = var7[var6];
-                var7 = var7.id;
-                var7 = var10.bind(var4)(var9, var8, var7);
-                var2['children'] = var7;
-                var1 = var1.items;
-                var1 = var1[var6];
-                var1 = var1.id;
-                var1 = var5.bind(var4)(var3, var2, var1);
-                return var1;
-            }
+            var1 = arg1;
+            var5 = _closure1_slot6;
+            var3 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var2 = 6;
+            var2 = var9[var2];
+            var4 = undefined;
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.CollectiblesAnalyticsProvider;
+            var2 = {};
+            var8 = {};
+            var11 = _closure2_slot0;
+            var10 = arg2;
+            var10 = var11 + var10;
+            var8['tilePosition'] = var10;
+            var2['newValue'] = var8;
+            var10 = _closure1_slot6;
+            var8 = _closure1_slot1;
+            var7 = 4;
+            var7 = var9[var7];
+            var9 = var8.bind(var4)(var7);
+            var8 = {};
+            var6 = _closure2_slot1;
+            var6 = var6.unpublishedAt;
+            var8['unpublishedAt'] = var6;
+            var8['product'] = var1;
+            var7 = var1.items;
+            var6 = 0;
+            var7 = var7[var6];
+            var7 = var7.id;
+            var7 = var10.bind(var4)(var9, var8, var7);
+            var2['children'] = var7;
+            var1 = var1.items;
+            var1 = var1[var6];
+            var1 = var1.id;
+            var1 = var5.bind(var4)(var3, var2, var1);
+            return var1;
         };
         var5 = var6.bind(var7)(var5);
         var1['children'] = var5;
@@ -137,11 +118,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = function() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var5 = arguments[0];
             var7 = undefined;
-            if(!(var5 === var7)) { _fun0002_ip = 12; continue _fun0002 }
+            if(!(var5 === var7)) { _fun0001_ip = 12; continue _fun0001 }
  9:
             var5 = 2;
  12:
@@ -174,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 11;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -200,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 9;
+            var1 = 7;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -221,7 +202,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = _closure1_slot6;
         var6 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var5 = 10;
+        var5 = 8;
         var5 = var9[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.NativePaymentContextProvider;

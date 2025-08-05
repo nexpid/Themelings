@@ -185,10 +185,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var2 = arg1;
             var5 = var2.channelId;
-            var10 = var2.type;
-            var9 = var2.activity;
-            var _closure2_slot0 = var9;
-            var11 = var2.content;
+            var11 = var2.type;
+            var10 = var2.activity;
+            var _closure2_slot0 = var10;
+            var12 = var2.content;
+            var9 = var2.targetUserId;
             var2 = var2.location;
             var _closure2_slot1 = var2;
             var3 = _closure1_slot4;
@@ -196,8 +197,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)(var5);
             var _closure2_slot2 = var2;
             var3 = null;
-            if(!(var3 != var2)) { _fun0002_ip = 205; continue _fun0002 }
- 69:
+            if(!(var3 != var2)) { _fun0002_ip = 216; continue _fun0002 }
+ 75:
             var7 = _closure1_slot1;
             var6 = _closure1_slot2;
             var5 = 5;
@@ -205,29 +206,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = undefined;
             var8 = var7.bind(var6)(var5);
             var7 = var8.parse;
-            var12 = var3 != var11;
+            var13 = var3 != var12;
             var5 = '';
-            if(!var12) { _fun0002_ip = 111; continue _fun0002 }
- 108:
-            var5 = var11;
- 111:
-            var15 = var7.bind(var8)(var2, var5);
+            if(!var13) { _fun0002_ip = 117; continue _fun0002 }
+ 114:
+            var5 = var12;
+ 117:
+            var16 = var7.bind(var8)(var2, var5);
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = 6;
             var4 = var7[var4];
             var7 = var5.bind(var6)(var4);
             var6 = var7.sendMessage;
-            var16 = var2.id;
+            var17 = var2.id;
             var4 = {};
             var2 = {};
-            var2['type'] = var10;
-            var2['activity'] = var9;
+            var2['type'] = var11;
+            var2['activity'] = var10;
+            var2['targetUserId'] = var9;
             var4['activityAction'] = var2;
-            var14 = false;
-            var17 = var7;
-            var13 = var4;
-            var5 = var17[var6](var16, var15, var14, var13, var12);
+            var15 = false;
+            var18 = var7;
+            var14 = var4;
+            var5 = var18[var6](var17, var16, var15, var14, var13);
             var4 = var5.then;
             var2 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -295,7 +297,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = var4.bind(var5)(var2, var1);
             return var1;
- 205:
+ 216:
             var1 = global;
             var2 = var1.Promise;
             var1 = var2.resolve;

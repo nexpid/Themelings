@@ -332,7 +332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot6 = var6;
-    var6 = 6;
+    var6 = 5;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -434,72 +434,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['filterGPlaySyncedCategories'] = var4;
-    var2 = function(arg1, arg2) {
-        var3 = arg2;
-        var2 = arg1;
-        var _closure2_slot0 = var2;
+    var2 = function(arg1) {
+        var3 = arg1;
         var2 = var3.filter;
         var1 = function(arg1) {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                var4 = arg1;
-                var2 = var4.unpublishedAt;
+                var2 = arg1;
+                var3 = var2.unpublishedAt;
                 var1 = null;
-                var1 = var1 == var2;
+                var1 = var1 == var3;
                 if(var1) { _fun0008_ip = 56; continue _fun0008 }
  18:
-                var3 = var4.unpublishedAt;
-                var2 = global;
-                var2 = var2.Date;
-                var5 = var2.prototype;
-                var5 = Object.create(var5, {constructor: {value: var2}});
-                var8 = var5;
-                var2 = new var8[var2](var7);
-                var2 = var2 instanceof Object ? var2 : var5;
-                var1 = var3 > var2;
+                var4 = var2.unpublishedAt;
+                var3 = global;
+                var3 = var3.Date;
+                var5 = var3.prototype;
+                var5 = Object.create(var5, {constructor: {value: var3}});
+                var6 = var5;
+                var3 = new var6[var3](var5);
+                var3 = var3 instanceof Object ? var3 : var5;
+                var1 = var4 > var3;
  56:
-                var2 = var4.products;
+                var2 = var2.products;
                 var3 = var2.length;
                 var2 = 0;
-                var3 = var3 > var2;
-                var2 = _closure2_slot0;
-                var2 = !var2;
-                if(var2) { _fun0008_ip = 112; continue _fun0008 }
- 86:
-                var6 = var4.products;
-                var5 = var6.some;
-                var4 = function(arg1) {
-                    var1 = arg1;
-                    var3 = var1.items;
-                    var2 = var3.some;
-                    var1 = function(arg1) {
-                        var1 = arg1;
-                        var2 = var1.type;
-                        var4 = _closure1_slot0;
-                        var3 = _closure1_slot2;
-                        var1 = 5;
-                        var3 = var3[var1];
-                        var1 = undefined;
-                        var1 = var4.bind(var1)(var3);
-                        var1 = var1.CollectiblesItemType;
-                        var1 = var1.NAMEPLATE;
-                        var1 = var2 === var1;
-                        return var1;
-                    };
-                    var1 = var2.bind(var3)(var1);
-                    var1 = !var1;
-                    return var1;
-                };
-                var2 = var5.bind(var6)(var4);
- 112:
-                if(!var1) { _fun0008_ip = 118; continue _fun0008 }
- 115:
-                var1 = var3;
- 118:
-                if(!var1) { _fun0008_ip = 124; continue _fun0008 }
- 121:
+                var2 = var3 > var2;
+                if(!var1) { _fun0008_ip = 79; continue _fun0008 }
+ 76:
                 var1 = var2;
- 124:
+ 79:
                 return var1;
             }
         };

@@ -308,7 +308,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var8);
     var8 = var8.EyeDropperIcon;
     var4['Icon'] = var8;
-    var7 = function render() {
+    var8 = function render() {
         var3 = _closure1_slot0;
         var4 = _closure1_slot1;
         var2 = 27;
@@ -321,9 +321,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var4)(var3, var1);
         return var1;
     };
-    var4['render'] = var7;
+    var4['render'] = var8;
     var2['toggles'] = var4;
-    var4 = 28;
+    var4 = {};
+    var8 = 'Bot Components Testing';
+    var4['headerTitle'] = var8;
+    var8 = 28;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.RobotIcon;
+    var4['Icon'] = var8;
+    var7 = function render() {
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var2 = 29;
+        var2 = var4[var2];
+        var4 = undefined;
+        var2 = var3.bind(var4)(var2);
+        var3 = var2.default;
+        var2 = _closure1_slot2;
+        var1 = {};
+        var1 = var2.bind(var4)(var3, var1);
+        return var1;
+    };
+    var4['render'] = var7;
+    var2['components'] = var4;
+    var4 = 30;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

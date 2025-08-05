@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var7['getComponent'] = var8;
     var2['screen'] = var7;
-    var7 = function additionalSearchTerms() {
+    var4 = function additionalSearchTerms() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
         var2 = 3;
@@ -136,21 +136,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[5] = var2;
         return var1;
     };
-    var2['additionalSearchTerms'] = var7;
-    var4 = function usePredicate() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 6;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.useIsEligibleForSensitiveContentGoreExperiment;
-        var1 = 'SensitiveContentFilterSetting';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var2['usePredicate'] = var4;
-    var4 = 7;
+    var2['additionalSearchTerms'] = var4;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

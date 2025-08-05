@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['parent'] = var9;
     var5['useTrailing'] = var4;
     var5['onPress'] = var2;
-    var9 = function additionalSearchTerms() {
+    var6 = function additionalSearchTerms() {
         var6 = _closure1_slot0;
         var7 = _closure1_slot1;
         var2 = 6;
@@ -151,21 +151,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[2] = var2;
         return var1;
     };
-    var5['additionalSearchTerms'] = var9;
-    var6 = function usePredicate() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 7;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.useIsEligibleForSensitiveContentGoreExperiment;
-        var1 = 'GoreMediaFiltersNonFriendsDMsSetting';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var5['usePredicate'] = var6;
-    var6 = 8;
+    var5['additionalSearchTerms'] = var6;
+    var6 = 7;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

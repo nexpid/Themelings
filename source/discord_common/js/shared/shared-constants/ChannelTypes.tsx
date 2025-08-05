@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Set;
     var6 = var8.prototype;
     var7 = Object.create(var6, {constructor: {value: var8}});
-    var11 = [0, 1, 2, 3, 5, 10, 11, 12, 13];
+    var11 = [0, 1, 2, 3, 5, 10, 11, 12, 13, 17, 18];
     var12 = var7;
     var6 = new var12[var8](var11, var10);
     var6 = var6 instanceof Object ? var6 : var7;
@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Set;
     var6 = var8.prototype;
     var7 = Object.create(var6, {constructor: {value: var8}});
-    var11 = [0, 1, 2, 3, 5, 10, 11, 12, 13, 15, 16];
+    var11 = [0, 1, 2, 3, 5, 10, 11, 12, 13, 15, 16, 17, 18];
     var12 = var7;
     var6 = new var12[var8](var11, var10);
     var6 = var6 instanceof Object ? var6 : var7;
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Set;
     var6 = var8.prototype;
     var7 = Object.create(var6, {constructor: {value: var8}});
-    var11 = [0, 1, 2, 3, 5, 10, 11, 12, 13, 15, 16];
+    var11 = [0, 1, 2, 3, 5, 10, 11, 12, 13, 15, 16, 17, 18];
     var12 = var7;
     var6 = new var12[var8](var11, var10);
     var6 = var6 instanceof Object ? var6 : var7;
@@ -370,7 +370,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var1.Set;
     var6 = var8.prototype;
     var7 = Object.create(var6, {constructor: {value: var8}});
-    var11 = [0, 1, 2, 3, 5, 10, 11, 12, 13];
+    var11 = [0, 1, 2, 3, 5, 10, 11, 12, 13, 17, 18];
     var12 = var7;
     var6 = new var12[var8](var11, var10);
     var6 = var6 instanceof Object ? var6 : var7;

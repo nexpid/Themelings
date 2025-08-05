@@ -207,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 11;
             var1 = var5[var1];
             var3 = var3.bind(var8)(var1);
-            var1 = var3.getMobileThemesPresets;
+            var1 = var3.useAllMobileThemes;
             var6 = var1.bind(var3)();
             var1 = null;
             var5 = var1 != var7;

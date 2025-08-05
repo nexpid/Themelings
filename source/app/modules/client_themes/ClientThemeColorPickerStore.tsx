@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         var1 = arg1;
         var _closure2_slot0 = var1;
-        var1 = {'colors': null, 'chassisMixAmount': 20, 'gradientAngle': 0};
+        var1 = {'colors': null, 'chassisMixAmount': 74, 'gradientAngle': 0};
         var3 = new Array(0);
         var1['colors'] = var3;
         var3 = function setColors(arg1) {
@@ -142,9 +142,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/client_themes/ClientThemeColorPickerStore.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = '#4394D4';
+    var4 = '#5865F2';
     var3['DEFAULT_COLOR'] = var4;
-    var4 = 20;
+    var4 = 74;
     var3['DEFAULT_COLOR_INTENSITY'] = var4;
     var3['useClientThemeColorPickerStore'] = var2;
     return var1;

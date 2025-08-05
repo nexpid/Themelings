@@ -362,7 +362,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var6['getProtoUserSettings'] = var11;
-    var11 = function getUserSettingsWithDefaults(arg1) {
+    var10 = function getUserSettingsWithDefaults(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var9 = arg1;
@@ -513,22 +513,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var6['getUserSettingsWithDefaults'] = var11;
-    var10 = function isEligible() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 7;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.isEligibleForSensitiveContentGoreExperiment;
-        var1 = 'ContentPolicyRegistry';
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var6['isEligible'] = var10;
+    var6['getUserSettingsWithDefaults'] = var10;
     var2[var9] = var6;
-    var6 = 8;
+    var6 = 7;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

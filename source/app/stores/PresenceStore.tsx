@@ -289,7 +289,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.getId;
             var3 = var1.bind(var3)();
             var1 = arg2;
-            if(!(var1 !== var3)) { _fun0007_ip = 342; continue _fun0007 }
+            if(!(var1 !== var3)) { _fun0007_ip = 421; continue _fun0007 }
  30:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -297,94 +297,125 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4[var1];
             var11 = undefined;
             var1 = var3.bind(var11)(var1);
-            var5 = var1.GamePresenceNegativeTestExperiment;
-            var4 = var5.getCurrentConfig;
-            var3 = {};
+            var6 = var1.ViewRobloxSubgamesInRichPresenceExperiment;
+            var5 = var6.getCurrentConfig;
+            var4 = {};
             var1 = 'presence_filtering';
+            var4['location'] = var1;
+            var3 = {};
+            var7 = false;
+            var3['autoTrackExposure'] = var7;
+            var3 = var5.bind(var6)(var4, var3);
+            var3 = var3.enabled;
+            var5 = var2;
+            if(var3) { _fun0007_ip = 119; continue _fun0007 }
+ 102:
+            var4 = var2.map;
+            var3 = function(arg1) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 11;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.maybeTransformRobloxSubgameIntoRobloxActivity;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var5 = var4.bind(var2)(var3);
+ 119:
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 12;
+            var3 = var6[var3];
+            var3 = var4.bind(var11)(var3);
+            var6 = var3.GamePresenceNegativeTestExperiment;
+            var4 = var6.getCurrentConfig;
+            var3 = {};
             var3['location'] = var1;
             var1 = {};
-            var6 = false;
-            var1['autoTrackExposure'] = var6;
-            var10 = var4.bind(var5)(var3, var1);
+            var1['autoTrackExposure'] = var7;
+            var10 = var4.bind(var6)(var3, var1);
             var1 = var10.filterGamePresence;
-            if(var1) { _fun0007_ip = 127; continue _fun0007 }
- 100:
+            if(var1) { _fun0007_ip = 206; continue _fun0007 }
+ 179:
             var1 = var10.filterRichPresence;
-            if(var1) { _fun0007_ip = 127; continue _fun0007 }
- 109:
+            if(var1) { _fun0007_ip = 206; continue _fun0007 }
+ 188:
             var1 = {};
-            var1['visible'] = var2;
+            var1['visible'] = var5;
             var3 = new Array(0);
             var1['hidden'] = var3;
             return var1;
- 127:
+ 206:
             var4 = new Array(0);
             var3 = new Array(0);
             var1 = _closure1_slot26;
-            var9 = var1.bind(var11)(var2);
+            var9 = var1.bind(var11)(var5);
             var5 = var9.bind(var11)();
             var1 = var5.done;
             var8 = 9;
             var7 = null;
             var6 = var5;
             var5 = undefined;
-            if(var1) { _fun0007_ip = 328; continue _fun0007 }
- 169:
+            if(var1) { _fun0007_ip = 407; continue _fun0007 }
+ 248:
             var14 = var6.value;
             var13 = var14.type;
             var1 = _closure1_slot12;
             var1 = var1.PLAYING;
-            if(!(var13 !== var1)) { _fun0007_ip = 205; continue _fun0007 }
- 193:
+            if(!(var13 !== var1)) { _fun0007_ip = 284; continue _fun0007 }
+ 272:
             var1 = var4.push;
             var1 = var1.bind(var4)(var14);
-            _fun0007_ip = 310; continue _fun0007;
- 205:
+            _fun0007_ip = 389; continue _fun0007;
+ 284:
             var1 = var14.application_id;
             var1 = var7 != var1;
-            if(!var1) { _fun0007_ip = 240; continue _fun0007 }
- 218:
+            if(!var1) { _fun0007_ip = 319; continue _fun0007 }
+ 297:
             var15 = _closure1_slot1;
             var13 = _closure1_slot2;
             var13 = var13[var8];
             var13 = var15.bind(var11)(var13);
             var1 = var13.bind(var11)(var14);
- 240:
+ 319:
             var13 = var10.filterGamePresence;
-            if(var13) { _fun0007_ip = 291; continue _fun0007 }
- 249:
+            if(var13) { _fun0007_ip = 370; continue _fun0007 }
+ 328:
             var13 = var10.filterRichPresence;
-            if(!var13) { _fun0007_ip = 261; continue _fun0007 }
- 258:
-            if(var1) { _fun0007_ip = 276; continue _fun0007 }
- 261:
+            if(!var13) { _fun0007_ip = 340; continue _fun0007 }
+ 337:
+            if(var1) { _fun0007_ip = 355; continue _fun0007 }
+ 340:
             var13 = var4.push;
             var13 = var13.bind(var4)(var14);
             var5 = var1;
-            _fun0007_ip = 310; continue _fun0007;
- 276:
+            _fun0007_ip = 389; continue _fun0007;
+ 355:
             var13 = var3.push;
             var13 = var13.bind(var3)(var14);
             var5 = var1;
-            _fun0007_ip = 310; continue _fun0007;
- 291:
+            _fun0007_ip = 389; continue _fun0007;
+ 370:
             var5 = var1;
-            if(!var1) { _fun0007_ip = 310; continue _fun0007 }
- 297:
+            if(!var1) { _fun0007_ip = 389; continue _fun0007 }
+ 376:
             var13 = var3.push;
             var13 = var13.bind(var3)(var14);
             var5 = var1;
- 310:
+ 389:
             var13 = var9.bind(var11)();
             var1 = var13.done;
             var6 = var13;
-            if(!var1) { _fun0007_ip = 169; continue _fun0007 }
- 328:
+            if(!var1) { _fun0007_ip = 248; continue _fun0007 }
+ 407:
             var1 = {};
             var1['visible'] = var4;
             var1['hidden'] = var3;
             return var1;
- 342:
+ 421:
             var1 = {};
             var1['visible'] = var2;
             var2 = new Array(0);
@@ -471,7 +502,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  156:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var6 = 11;
+            var6 = 13;
             var6 = var9[var6];
             var11 = undefined;
             var12 = var8.bind(var11)(var6);
@@ -672,7 +703,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  23:
             var6 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var1 = 11;
+            var1 = 13;
             var4 = var4[var1];
             var1 = undefined;
             var7 = var6.bind(var1)(var4);
@@ -808,7 +839,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  266:
             var13 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var11 = 12;
+            var11 = 14;
             var11 = var15[var11];
             var13 = var13.bind(var14)(var11);
             var11 = var2.activities;
@@ -1007,7 +1038,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot26;
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 13;
+            var1 = 15;
             var2 = var2[var1];
             var1 = undefined;
             var7 = var4.bind(var1)(var2);
@@ -1160,7 +1191,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot24 = var4;
-    var4 = 14;
+    var4 = 16;
     var4 = var7[var4];
     var4 = var8.bind(var1)(var4);
     var9 = var4.Store;
@@ -1441,7 +1472,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot26;
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var2 = 13;
+                var2 = 15;
                 var2 = var5[var2];
                 var6 = undefined;
                 var5 = var4.bind(var6)(var2);
@@ -1583,7 +1614,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function value() {
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 13;
+            var2 = 15;
             var3 = var3[var2];
             var2 = undefined;
             var3 = var4.bind(var2)(var3);
@@ -1666,7 +1697,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var4.bind(var1)(var9);
     var4 = 'PresenceStore';
     var9['displayName'] = var4;
-    var4 = 15;
+    var4 = 17;
     var4 = var7[var4];
     var14 = var8.bind(var1)(var4);
     var4 = {};
@@ -2129,7 +2160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var4;
     var4 = new var15[var9](var14, var13, var12);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 16;
+    var5 = 18;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

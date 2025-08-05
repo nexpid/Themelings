@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var4.bind(var5)(var2);
     var2 = '363445589247131668';
     var3['ROBLOX_APPLICATION_ID'] = var2;
-    var2 = {'PLACE_ID': 'placeId', 'JOB_ID': 'jobId', 'ROBLOX_USER_ID': 'robloxUserId'};
+    var2 = {'PLACE_ID': 'placeId', 'JOB_ID': 'jobId', 'ROBLOX_USER_ID': 'robloxUserId', 'ROBLOX_TIME_STARTED': 'timeStarted'};
     var3['RobloxMetadataKeys'] = var2;
     var2 = {'UNIVERSE_ID': 'universeid', 'PLACE_ID': 'placeid', 'JOB_ID': 'sid', 'USER_ID': 'userid'};
     var3['NativeRobloxSubgameKeys'] = var2;

@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
-    var4 = 6;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -29,7 +29,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = arg1;
         var1 = var3.products;
         var _closure2_slot0 = var1;
-        var10 = var3.location;
         var6 = var3.maxProducts;
         var _closure2_slot1 = var6;
         var7 = _closure1_slot0;
@@ -38,64 +37,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var8[var4];
         var4 = undefined;
         var9 = var7.bind(var4)(var5);
-        var5 = var9.useMobileCanPurchaseNameplates;
-        var10 = var5.bind(var9)(var10);
-        var _closure2_slot2 = var10;
+        var5 = var9.useBadBundleFilter;
+        var11 = var5.bind(var9)();
+        var _closure2_slot2 = var11;
         var5 = 2;
         var5 = var8[var5];
         var9 = var7.bind(var4)(var5);
-        var5 = var9.useBadBundleFilter;
-        var13 = var5.bind(var9)();
-        var _closure2_slot3 = var13;
-        var5 = 3;
-        var5 = var8[var5];
-        var9 = var7.bind(var4)(var5);
         var5 = var9.useAndroidUnsyncedFilter;
-        var12 = var5.bind(var9)();
-        var _closure2_slot4 = var12;
-        var5 = 4;
-        var5 = var8[var5];
-        var9 = var7.bind(var4)(var5);
-        var5 = var9.useNameplateFilter;
-        var11 = var5.bind(var9)();
-        var _closure2_slot5 = var11;
+        var10 = var5.bind(var9)();
+        var _closure2_slot3 = var10;
         var5 = _closure1_slot2;
         var9 = var5.useMemo;
-        var3 = new Array(5);
-        var3[0] = var13;
-        var3[1] = var12;
-        var3[2] = var11;
-        var3[3] = var10;
-        var3[4] = var1;
+        var3 = new Array(3);
+        var3[0] = var11;
+        var3[1] = var10;
+        var3[2] = var1;
         var1 = function() {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
-                var2 = _closure2_slot2;
-                if(var2) { _fun0001_ip = 27; continue _fun0001 }
- 10:
-                var4 = _closure2_slot5;
-                var3 = _closure2_slot0;
-                var2 = undefined;
-                var4 = var4.bind(var2)(var3);
-                _fun0001_ip = 31; continue _fun0001;
- 27:
-                var4 = _closure2_slot0;
- 31:
-                var3 = _closure2_slot3;
-                var1 = _closure2_slot4;
-                var2 = undefined;
-                var1 = var1.bind(var2)(var4);
-                var1 = var3.bind(var2)(var1);
-                return var1;
-            }
+            var3 = _closure2_slot2;
+            var4 = _closure2_slot3;
+            var1 = _closure2_slot0;
+            var2 = undefined;
+            var1 = var4.bind(var2)(var1);
+            var1 = var3.bind(var2)(var1);
+            return var1;
         };
         var3 = var9.bind(var5)(var1, var3);
-        var1 = 5;
+        var1 = 3;
         var1 = var8[var1];
         var4 = var7.bind(var4)(var1);
         var1 = var4.usePurchasedProductsSort;
         var7 = var1.bind(var4)(var3);
-        var _closure2_slot6 = var7;
+        var _closure2_slot4 = var7;
         var1 = {};
         var1['filteredProducts'] = var3;
         var4 = var5.useMemo;
@@ -103,16 +75,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var7;
         var3[1] = var6;
         var2 = function() {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                 var3 = _closure2_slot1;
                 var1 = null;
-                if(!(var1 == var3)) { _fun0002_ip = 19; continue _fun0002 }
+                if(!(var1 == var3)) { _fun0001_ip = 19; continue _fun0001 }
  13:
-                var1 = _closure2_slot6;
-                _fun0002_ip = 40; continue _fun0002;
+                var1 = _closure2_slot4;
+                _fun0001_ip = 40; continue _fun0001;
  19:
-                var5 = _closure2_slot6;
+                var5 = _closure2_slot4;
                 var4 = var5.slice;
                 var3 = _closure2_slot1;
                 var2 = 0;

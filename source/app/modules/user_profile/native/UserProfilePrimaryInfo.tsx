@@ -210,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0004_ip = 176; continue _fun0004 }
+                    if(!(var1 != var2)) { _fun0004_ip = 172; continue _fun0004 }
  16:
                     var5 = _closure1_slot12;
                     var4 = _closure1_slot0;
@@ -228,8 +228,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var5.bind(var6)(var4, var2);
                     var4 = _closure2_slot2;
                     var2 = var7;
-                    if(!(var1 != var4)) { _fun0004_ip = 174; continue _fun0004 }
- 99:
+                    if(!(var1 != var4)) { _fun0004_ip = 170; continue _fun0004 }
+ 95:
                     var5 = _closure1_slot12;
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -248,9 +248,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['accessibilityHint'] = var8;
                     var3['children'] = var7;
                     var2 = var5.bind(var6)(var4, var3);
- 174:
+ 170:
                     return var2;
- 176:
+ 172:
                     return var1;
                 }
             };

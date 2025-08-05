@@ -587,17 +587,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9['numTotal'] = var10;
                     var9['numAvailable'] = var18;
                     var9 = var15.bind(var16)(var14, var9);
-                    _fun0005_ip = 296; continue _fun0005;
+                    _fun0005_ip = 307; continue _fun0005;
  275:
                     var14 = var13.t2Wbo6;
                     var13 = {};
                     var13['required'] = var17;
+                    var17 = '';
+                    var13['decorator'] = var17;
                     var9 = var15.bind(var16)(var14, var13);
- 296:
+ 307:
                     var6['subLabel'] = var9;
                     var9 = undefined;
-                    if(!var12) { _fun0005_ip = 354; continue _fun0005 }
- 306:
+                    if(!var12) { _fun0005_ip = 365; continue _fun0005 }
+ 317:
                     var13 = _closure1_slot14;
                     var12 = _closure1_slot0;
                     var14 = _closure1_slot2;
@@ -609,7 +611,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = 'icon-muted';
                     var11['color'] = var14;
                     var9 = var13.bind(var4)(var12, var11);
- 354:
+ 365:
                     var6['trailing'] = var9;
                     var7 = var8.bind(var4)(var7, var6);
                     var6 = new Array(2);

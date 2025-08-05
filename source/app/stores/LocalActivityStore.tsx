@@ -140,14 +140,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = Object.create(var7, {constructor: {value: var5}});
             var16 = var7;
             var5 = new var16[var5](var15);
-            var9 = var5 instanceof Object ? var5 : var7;
-            var _closure2_slot1 = var9;
+            var8 = var5 instanceof Object ? var5 : var7;
+            var _closure2_slot1 = var8;
             var7 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var5 = 18;
-            var5 = var8[var5];
-            var8 = var7.bind(var1)(var5);
-            var7 = var8.forEach;
+            var5 = var9[var5];
+            var9 = var7.bind(var1)(var5);
+            var7 = var9.forEach;
             var5 = _closure1_slot20;
             var4 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -208,34 +208,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     throw var1;
                 }
             };
-            var4 = var7.bind(var8)(var5, var4);
+            var4 = var7.bind(var9)(var5, var4);
             var5 = _closure1_slot10;
             var4 = var5.getVisibleGame;
-            var8 = var4.bind(var5)();
-            var5 = var6 != var8;
+            var9 = var4.bind(var5)();
+            var5 = var6 != var9;
             if(!var5) { _fun0002_ip = 433; continue _fun0002 }
  424:
-            var4 = var8.name;
+            var4 = var9.name;
             var5 = var6 != var4;
  433:
             if(!var5) { _fun0002_ip = 451; continue _fun0002 }
  436:
-            var7 = var9.has;
-            var4 = var8.name;
-            var5 = var7.bind(var9)(var4);
+            var7 = var8.has;
+            var4 = var9.name;
+            var5 = var7.bind(var8)(var4);
  451:
-            var7 = var6 != var8;
+            var7 = var6 != var9;
             if(!var7) { _fun0002_ip = 464; continue _fun0002 }
  458:
-            var7 = var8.isLauncher;
+            var7 = var9.isLauncher;
  464:
-            var9 = _closure1_slot15;
-            var4 = var9.getCurrentUserActiveStream;
-            var9 = var4.bind(var9)();
-            var4 = var6 == var8;
+            var8 = _closure1_slot15;
+            var4 = var8.getCurrentUserActiveStream;
+            var8 = var4.bind(var8)();
+            var4 = var6 == var9;
             if(var4) { _fun0002_ip = 494; continue _fun0002 }
  485:
-            var10 = var8.name;
+            var10 = var9.name;
             var4 = var6 == var10;
  494:
             if(var4) { _fun0002_ip = 513; continue _fun0002 }
@@ -244,58 +244,67 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  500:
             if(!var7) { _fun0002_ip = 507; continue _fun0002 }
  503:
-            var7 = var6 == var9;
+            var7 = var6 == var8;
  507:
             var5 = var7;
  510:
             var4 = var5;
  513:
-            if(var4) { _fun0002_ip = 651; continue _fun0002 }
+            if(var4) { _fun0002_ip = 689; continue _fun0002 }
  519:
             var5 = var3.push;
             var4 = {};
             var7 = _closure1_slot18;
             var7 = var7.PLAYING;
             var4['type'] = var7;
-            var7 = var8.name;
+            var7 = var9.name;
             var4['name'] = var7;
-            var7 = var8.id;
+            var7 = var9.id;
             if(!(var6 == var7)) { _fun0002_ip = 595; continue _fun0002 }
  558:
             var11 = _closure1_slot17;
             var10 = var11.getGameByName;
-            var9 = var8.name;
-            var10 = var10.bind(var11)(var9);
+            var8 = var9.name;
+            var10 = var10.bind(var11)(var8);
             var11 = var6 == var10;
-            var9 = undefined;
+            var8 = undefined;
             if(var11) { _fun0002_ip = 592; continue _fun0002 }
  587:
-            var9 = var10.id;
+            var8 = var10.id;
  592:
-            var7 = var9;
+            var7 = var8;
  595:
             var4['application_id'] = var7;
             var7 = {};
-            var10 = var8.distributor;
+            var10 = var9.distributor;
             var11 = var6 != var10;
-            var9 = undefined;
+            var8 = undefined;
             if(!var11) { _fun0002_ip = 620; continue _fun0002 }
  617:
-            var9 = var10;
+            var8 = var10;
  620:
-            var7['distributor'] = var9;
+            var7['distributor'] = var8;
             var4['metadata'] = var7;
             var7 = {};
-            var8 = var8.start;
+            var8 = var9.start;
             var7['start'] = var8;
             var4['timestamps'] = var7;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var7 = 19;
+            var7 = var10[var7];
+            var8 = var8.bind(var1)(var7);
+            var7 = var8.maybeAddAdditionalGameMetadata;
+            var14 = var7.bind(var8)(var9);
+            var15 = var4;
+            var7 = copyDataProperties(var15, var14);
             var4 = var5.bind(var3)(var4);
- 651:
+ 689:
             var5 = _closure1_slot13;
             var4 = var5.getActivity;
             var7 = var4.bind(var5)();
-            if(!(var6 != var7)) { _fun0002_ip = 705; continue _fun0002 }
- 669:
+            if(!(var6 != var7)) { _fun0002_ip = 743; continue _fun0002 }
+ 707:
             var5 = var3.push;
             var4 = {};
             var8 = _closure1_slot18;
@@ -305,12 +314,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var7;
             var7 = copyDataProperties(var15, var14);
             var4 = var5.bind(var3)(var4);
- 705:
+ 743:
             var5 = _closure1_slot11;
             var4 = var5.getCurrentHangStatus;
             var8 = var4.bind(var5)();
-            if(!(var6 != var8)) { _fun0002_ip = 816; continue _fun0002 }
- 723:
+            if(!(var6 != var8)) { _fun0002_ip = 854; continue _fun0002 }
+ 761:
             var5 = _closure1_slot11;
             var4 = var5.getCustomHangStatus;
             var7 = var4.bind(var5)();
@@ -324,31 +333,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['state'] = var8;
             var9 = var6 == var7;
             var8 = undefined;
-            if(var9) { _fun0002_ip = 786; continue _fun0002 }
- 781:
+            if(var9) { _fun0002_ip = 824; continue _fun0002 }
+ 819:
             var8 = var7.status;
- 786:
+ 824:
             var4['details'] = var8;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0002_ip = 806; continue _fun0002 }
- 800:
+            if(var8) { _fun0002_ip = 844; continue _fun0002 }
+ 838:
             var6 = var7.emoji;
- 806:
+ 844:
             var4['emoji'] = var6;
             var4 = var5.bind(var3)(var4);
- 816:
+ 854:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var4 = 19;
+            var4 = 20;
             var4 = var6[var4];
             var5 = var5.bind(var1)(var4);
             var4 = _closure1_slot19;
             var4 = var5.bind(var1)(var4, var3);
-            if(var4) { _fun0002_ip = 853; continue _fun0002 }
- 849:
+            if(var4) { _fun0002_ip = 891; continue _fun0002 }
+ 887:
             _closure1_slot19 = var3;
- 853:
+ 891:
             return var1;
         }
     };
@@ -431,7 +440,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot19 = var2;
     var2 = {};
     var _closure1_slot20 = var2;
-    var2 = 21;
+    var2 = 22;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.Store;
@@ -638,10 +647,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var2.bind(var1)(var8);
     var2 = 'LocalActivityStore';
     var8['displayName'] = var2;
-    var2 = 22;
+    var2 = 23;
     var2 = var6[var2];
     var13 = var7.bind(var1)(var2);
     var2 = {};
+    var2['ROBLOX_SUBGAME_UPDATE'] = var4;
+    var2['ROBLOX_SUBGAME_APPLICATION_FETCH_SUCCESS'] = var4;
     var10 = function handleOverlayInitialize(arg1) {
         var1 = arg1;
         var3 = var1.localActivities;
@@ -673,7 +684,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.activity;
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 19;
+            var1 = 20;
             var3 = var3[var1];
             var1 = undefined;
             var8 = var4.bind(var1)(var3);
@@ -740,7 +751,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var14 < var1;
             var7 = false;
             var13 = 'flags';
-            var11 = 20;
+            var11 = 21;
             var1 = undefined;
             var10 = 2;
             var9 = 1;
@@ -806,13 +817,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['USER_SETTINGS_PROTO_UPDATE'] = var9;
     var2['EMBEDDED_ACTIVITY_CLOSE'] = var4;
     var2['UPDATE_HANG_STATUS'] = var4;
+    var2['RUNNING_GAME_TOGGLE_DETECTION'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var14 = var4;
     var12 = var2;
     var2 = new var14[var8](var13, var12, var11);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 23;
+    var4 = 24;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

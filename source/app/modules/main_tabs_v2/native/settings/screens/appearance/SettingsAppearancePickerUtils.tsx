@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = undefined;
             if(!var9) { _fun0001_ip = 246; continue _fun0001 }
  233:
-            var9 = _closure1_slot11;
+            var9 = _closure1_slot12;
             var7 = var9.bind(var8)(var3, var8);
  246:
             _fun0001_ip = 264; continue _fun0001;
@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7;
             _fun0001_ip = 282; continue _fun0001;
  269:
-            var7 = _closure1_slot11;
+            var7 = _closure1_slot12;
             var6 = var7.bind(var8)(var3, var8);
  282:
             var4 = var6;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -205,14 +205,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function getMaxColors() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot11;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 2;
             var1 = var4[var1];
             var9 = undefined;
             var3 = var3.bind(var9)(var1);
-            var1 = var3.getMobileThemesPresets;
+            var1 = var3.getAllMobileThemes;
             var1 = var1.bind(var3)();
             var8 = var2.bind(var9)(var1);
             var3 = var8.bind(var9)();
@@ -223,7 +223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3;
             var3 = 0;
             var1 = 0;
-            if(var2) { _fun0004_ip = 228; continue _fun0004 }
+            if(var2) { _fun0004_ip = 304; continue _fun0004 }
  74:
             var2 = var4.value;
             var12 = var2.type;
@@ -233,36 +233,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.bind(var9)(var11);
             var11 = var11.ClientThemeType;
             var11 = var11.STANDARD_BACKGROUND_THEME;
-            if(!(var12 !== var11)) { _fun0004_ip = 187; continue _fun0004 }
- 117:
+            if(!(var12 !== var11)) { _fun0004_ip = 263; continue _fun0004 }
+ 120:
+            var12 = var2.type;
+            var13 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var11 = var11[var5];
+            var11 = var13.bind(var9)(var11);
+            var11 = var11.ClientThemeType;
+            var11 = var11.BACKGROUND_GRADIENT_PRESET;
+            if(!(var12 !== var11)) { _fun0004_ip = 234; continue _fun0004 }
+ 158:
             var13 = var2.type;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
             var11 = var11[var5];
             var11 = var12.bind(var9)(var11);
             var11 = var11.ClientThemeType;
-            var12 = var11.BACKGROUND_GRADIENT_PRESET;
+            var12 = var11.CUSTOM_BACKGROUND_GRADIENT;
             var11 = var3;
-            if(!(var13 === var12)) { _fun0004_ip = 204; continue _fun0004 }
- 158:
+            if(!(var13 === var12)) { _fun0004_ip = 280; continue _fun0004 }
+ 199:
+            var14 = var7.Math;
+            var13 = var14.max;
+            var12 = var2.customThemeSettings;
+            var12 = var12.colors;
+            var12 = var12.length;
+            var11 = var13.bind(var14)(var12, var3);
+            _fun0004_ip = 280; continue _fun0004;
+ 234:
             var13 = var7.Math;
             var12 = var13.max;
             var2 = var2.colors;
             var2 = var2.length;
             var11 = var12.bind(var13)(var2, var3);
-            _fun0004_ip = 204; continue _fun0004;
- 187:
+            _fun0004_ip = 280; continue _fun0004;
+ 263:
             var12 = var7.Math;
             var2 = var12.max;
             var11 = var2.bind(var12)(var6, var3);
- 204:
+ 280:
             var12 = var8.bind(var9)();
             var2 = var12.done;
             var3 = var11;
             var4 = var12;
             var1 = var3;
             if(!var2) { _fun0004_ip = 74; continue _fun0004 }
- 228:
+ 304:
             return var1;
         }
     };
@@ -541,6 +558,82 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot9 = var4;
+    var4 = function convertCustomBackgroundGradientToAnimatedTheme(arg1, arg2, arg3) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+ 0:
+            var4 = arg1;
+            var _closure2_slot0 = var4;
+            var1 = arg2;
+            var _closure2_slot1 = var1;
+            var1 = arg3;
+            var _closure2_slot2 = var1;
+            var1 = {};
+            var2 = var4.theme;
+            var1['theme'] = var2;
+            var2 = var4.getName;
+            var2 = var2.bind(var4)();
+            var1['name'] = var2;
+            var2 = 50;
+            var1['midpointPercentage'] = var2;
+            var2 = var4.customThemeSettings;
+            var5 = var2.gradientAngle;
+            var2 = null;
+            var6 = var2 != var5;
+            var2 = 0;
+            if(!var6) { _fun0009_ip = 82; continue _fun0009 }
+ 79:
+            var2 = var5;
+ 82:
+            var1['angle'] = var2;
+            var5 = _closure1_slot7;
+            var4 = var4.customThemeSettings;
+            var6 = var4.colors;
+            var4 = var6.map;
+            var3 = function(arg1, arg2) {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+ 0:
+                    var1 = {};
+                    var9 = _closure1_slot6;
+                    var2 = _closure2_slot0;
+                    var13 = var2.theme;
+                    var11 = _closure2_slot1;
+                    var10 = _closure2_slot2;
+                    var14 = undefined;
+                    var12 = arg1;
+                    var4 = var14[var9](var13, var12, var11, var10, var9);
+                    var1['hex'] = var4;
+                    var2 = var2.customThemeSettings;
+                    var2 = var2.colors;
+                    var2 = var2.length;
+                    var4 = 1;
+                    var5 = var2 > var4;
+                    var2 = 0;
+                    if(!var5) { _fun0010_ip = 108; continue _fun0010 }
+ 70:
+                    var3 = _closure2_slot0;
+                    var3 = var3.customThemeSettings;
+                    var3 = var3.colors;
+                    var3 = var3.length;
+                    var5 = var3 - var4;
+                    var4 = arg2;
+                    var3 = 100;
+                    var3 = var3 / var5;
+                    var2 = var4 * var3;
+ 108:
+                    var1['stop'] = var2;
+                    return var1;
+                }
+            };
+            var4 = var4.bind(var6)(var3);
+            var2 = _closure1_slot5;
+            var3 = undefined;
+            var2 = var2.bind(var3)();
+            var2 = var5.bind(var3)(var4, var2);
+            var1['colors'] = var2;
+            return var1;
+        }
+    };
+    var _closure1_slot10 = var4;
     var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -548,27 +641,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/main_tabs_v2/native/settings/screens/appearance/SettingsAppearancePickerUtils.tsx';
     var4 = var5.bind(var6)(var4);
     var4 = function(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var9 = arguments[1];
             var8 = arguments[2];
             var7 = undefined;
-            if(!(var9 === var7)) { _fun0009_ip = 22; continue _fun0009 }
+            if(!(var9 === var7)) { _fun0011_ip = 22; continue _fun0011 }
  12:
             var9 = 0.7;
  22:
-            if(!(var8 === var7)) { _fun0009_ip = 36; continue _fun0009 }
+            if(!(var8 === var7)) { _fun0011_ip = 36; continue _fun0011 }
  26:
             var8 = 0.8;
  36:
             var1 = new Array(0);
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot11;
             var2 = arg1;
             var5 = var3.bind(var7)(var2);
             var3 = var5.bind(var7)();
             var2 = var3.done;
             var4 = 3;
-            if(var2) { _fun0009_ip = 214; continue _fun0009 }
+            if(var2) { _fun0011_ip = 278; continue _fun0011 }
  73:
             var11 = var3.value;
             var10 = var11.type;
@@ -578,8 +671,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var12.bind(var7)(var2);
             var2 = var2.ClientThemeType;
             var2 = var2.STANDARD_BACKGROUND_THEME;
-            if(!(var10 !== var2)) { _fun0009_ip = 177; continue _fun0009 }
- 116:
+            if(!(var10 !== var2)) { _fun0011_ip = 241; continue _fun0011 }
+ 119:
             var10 = var11.type;
             var12 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -587,30 +680,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var12.bind(var7)(var2);
             var2 = var2.ClientThemeType;
             var2 = var2.BACKGROUND_GRADIENT_PRESET;
-            if(!(var10 === var2)) { _fun0009_ip = 196; continue _fun0009 }
- 154:
+            if(!(var10 !== var2)) { _fun0011_ip = 218; continue _fun0011 }
+ 157:
+            var10 = var11.type;
+            var12 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var4];
+            var2 = var12.bind(var7)(var2);
+            var2 = var2.ClientThemeType;
+            var2 = var2.CUSTOM_BACKGROUND_GRADIENT;
+            if(!(var10 === var2)) { _fun0011_ip = 260; continue _fun0011 }
+ 195:
+            var10 = var1.push;
+            var2 = _closure1_slot10;
+            var2 = var2.bind(var7)(var11, var9, var8);
+            var2 = var10.bind(var1)(var2);
+            _fun0011_ip = 260; continue _fun0011;
+ 218:
             var10 = var1.push;
             var2 = _closure1_slot8;
             var2 = var2.bind(var7)(var11, var9, var8);
             var2 = var10.bind(var1)(var2);
-            _fun0009_ip = 196; continue _fun0009;
- 177:
+            _fun0011_ip = 260; continue _fun0011;
+ 241:
             var10 = var1.push;
             var2 = _closure1_slot9;
             var2 = var2.bind(var7)(var11);
             var2 = var10.bind(var1)(var2);
- 196:
+ 260:
             var10 = var5.bind(var7)();
             var2 = var10.done;
             var3 = var10;
-            if(!var2) { _fun0009_ip = 73; continue _fun0009 }
- 214:
+            if(!var2) { _fun0011_ip = 73; continue _fun0011 }
+ 278:
             return var1;
         }
     };
     var3['convertThemesToAnimatedThemes'] = var4;
     var2 = function() {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -621,11 +729,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var8)();
             var3 = _closure1_slot4;
             var3 = var3.LIGHT;
-            if(!(var4 !== var3)) { _fun0010_ip = 57; continue _fun0010 }
+            if(!(var4 !== var3)) { _fun0012_ip = 57; continue _fun0012 }
  45:
             var3 = _closure1_slot4;
             var6 = var3.DARKER;
-            _fun0010_ip = 67; continue _fun0010;
+            _fun0012_ip = 67; continue _fun0012;
  57:
             var3 = _closure1_slot4;
             var6 = var3.LIGHT;

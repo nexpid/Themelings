@@ -4855,17 +4855,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.getNativeSyntheticEventData;
                     var2 = arg1;
                     var2 = var4.bind(var5)(var2);
-                    var12 = var2.messageId;
-                    var13 = var2.componentId;
+                    var13 = var2.messageId;
+                    var11 = var2.componentId;
                     var4 = _closure3_slot0;
                     var2 = var4.getMessageData;
-                    var4 = var2.bind(var4)(var12);
+                    var4 = var2.bind(var4)(var13);
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0050_ip = 757; continue _fun0050 }
+                    if(!(var2 != var4)) { _fun0050_ip = 774; continue _fun0050 }
  77:
                     var6 = var4.messageChannel;
                     var4 = var4.message;
-                    var11 = var4.flags;
+                    var12 = var4.flags;
                     var9 = var4.applicationId;
                     if(!(var2 == var9)) { _fun0050_ip = 113; continue _fun0050 }
  102:
@@ -4888,9 +4888,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var14[var4];
                     var10 = var10.bind(var1)(var4);
                     var4 = var10.asComponentId;
-                    var4 = var4.bind(var10)(var13);
+                    var4 = var4.bind(var10)(var11);
                     var10 = var5.bind(var6)(var4);
-                    if(!(var2 != var10)) { _fun0050_ip = 757; continue _fun0050 }
+                    if(!(var2 != var10)) { _fun0050_ip = 774; continue _fun0050 }
  205:
                     var4 = var10.type;
                     var5 = _closure1_slot0;
@@ -4900,7 +4900,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var5.bind(var1)(var2);
                     var2 = var2.ComponentType;
                     var2 = var2.STRING_SELECT;
-                    if(!(var2 !== var4)) { _fun0050_ip = 638; continue _fun0050 }
+                    if(!(var2 !== var4)) { _fun0050_ip = 641; continue _fun0050 }
  249:
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot3;
@@ -4932,14 +4932,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var5.bind(var1)(var2);
                     var2 = var2.ComponentType;
                     var2 = var2.CHANNEL_SELECT;
-                    if(!(var2 === var4)) { _fun0050_ip = 757; continue _fun0050 }
+                    if(!(var2 === var4)) { _fun0050_ip = 774; continue _fun0050 }
  393:
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot3;
                     var4 = 50;
                     var4 = var2[var4];
-                    var13 = var5.bind(var1)(var4);
-                    var6 = var13.openLazy;
+                    var11 = var5.bind(var1)(var4);
+                    var6 = var11.openLazy;
                     var5 = _closure1_slot0;
                     var4 = 43;
                     var4 = var2[var4];
@@ -4952,23 +4952,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.HermesInternal;
                     var4 = var2.concat;
                     var2 = 'ChannelSelectComponentActionSheet:';
-                    var4 = var4.bind(var2)(var12);
+                    var4 = var4.bind(var2)(var13);
                     var2 = {};
-                    var2['messageId'] = var12;
-                    var2['messageFlags'] = var11;
+                    var2['messageId'] = var13;
+                    var2['messageFlags'] = var12;
                     var2['selectionActionComponent'] = var10;
                     var2['applicationId'] = var9;
                     var2['channelId'] = var8;
                     var2['guildId'] = var7;
-                    var2 = var6.bind(var13)(var5, var4, var2);
-                    _fun0050_ip = 757; continue _fun0050;
+                    var2 = var6.bind(var11)(var5, var4, var2);
+                    _fun0050_ip = 774; continue _fun0050;
  517:
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot3;
                     var4 = 50;
                     var4 = var2[var4];
-                    var13 = var5.bind(var1)(var4);
-                    var6 = var13.openLazy;
+                    var11 = var5.bind(var1)(var4);
+                    var6 = var11.openLazy;
                     var5 = _closure1_slot0;
                     var4 = 43;
                     var4 = var2[var4];
@@ -4981,17 +4981,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.HermesInternal;
                     var4 = var2.concat;
                     var2 = 'MentionableSelectComponentActionSheet:';
-                    var4 = var4.bind(var2)(var12);
+                    var4 = var4.bind(var2)(var13);
                     var2 = {};
-                    var2['messageId'] = var12;
-                    var2['messageFlags'] = var11;
+                    var2['messageId'] = var13;
+                    var2['messageFlags'] = var12;
                     var2['selectionActionComponent'] = var10;
                     var2['applicationId'] = var9;
                     var2['channelId'] = var8;
                     var2['guildId'] = var7;
-                    var2 = var6.bind(var13)(var5, var4, var2);
-                    _fun0050_ip = 757; continue _fun0050;
- 638:
+                    var2 = var6.bind(var11)(var5, var4, var2);
+                    _fun0050_ip = 774; continue _fun0050;
+ 641:
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot3;
                     var4 = 50;
@@ -5010,16 +5010,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.HermesInternal;
                     var3 = var2.concat;
                     var2 = 'StringSelectComponentActionSheet:';
-                    var3 = var3.bind(var2)(var12);
+                    var3 = var3.bind(var2)(var13);
                     var2 = {};
-                    var2['messageId'] = var12;
-                    var2['messageFlags'] = var11;
+                    var11 = {};
+                    var14 = 'message';
+                    var11['type'] = var14;
+                    var11['messageId'] = var13;
+                    var11['messageFlags'] = var12;
+                    var2['context'] = var11;
                     var2['selectionActionComponent'] = var10;
                     var2['applicationId'] = var9;
                     var2['channelId'] = var8;
                     var2['guildId'] = var7;
                     var2 = var5.bind(var6)(var4, var3, var2);
- 757:
+ 774:
                     return var1;
                 }
             };

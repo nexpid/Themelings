@@ -63,10 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var9 = var1.shouldShrink;
             var4 = undefined;
-            if(!(var9 === var4)) { _fun0001_ip = 19; continue _fun0001 }
- 17:
-            var9 = false;
+            if(!(var9 === var4)) { _fun0001_ip = 21; continue _fun0001 }
  19:
+            var9 = false;
+ 21:
             var _closure2_slot0 = var4;
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -117,8 +117,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1[var12];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            if(var9) { _fun0001_ip = 194; continue _fun0001 }
- 137:
+            if(var9) { _fun0001_ip = 196; continue _fun0001 }
+ 139:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
             var11 = 11;
@@ -131,8 +131,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.t;
             var11 = var11.sEAnVF;
             var11 = var13.bind(var14)(var11);
-            _fun0001_ip = 294; continue _fun0001;
- 194:
+            _fun0001_ip = 296; continue _fun0001;
+ 196:
             var15 = _closure1_slot5;
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
@@ -153,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var17.bind(var18)(var16);
             var13['children'] = var16;
             var11 = var15.bind(var4)(var14, var13);
- 294:
+ 296:
             var1['text'] = var11;
             var13 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -167,13 +167,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10[var12];
             var10 = var11.bind(var4)(var10);
             var10 = var10.ButtonSizes;
-            if(var9) { _fun0001_ip = 365; continue _fun0001 }
- 357:
+            if(var9) { _fun0001_ip = 367; continue _fun0001 }
+ 359:
             var9 = var10.MEDIUM;
-            _fun0001_ip = 371; continue _fun0001;
- 365:
+            _fun0001_ip = 373; continue _fun0001;
+ 367:
             var9 = var10.SMALL;
- 371:
+ 373:
             var1['size'] = var9;
             var8 = function renderIcon() {
                 var4 = _closure1_slot5;

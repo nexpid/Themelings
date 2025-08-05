@@ -1,25 +1,25 @@
 // app/modules/main_tabs_v2/native/shared_components/happening_now/HappeningNowCard.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var8 = var6[var1];
+    var7 = var6[var1];
     var4 = metroImportAll;
     var1 = undefined;
-    var4 = var4.bind(var1)(var8);
+    var4 = var4.bind(var1)(var7);
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -27,54 +27,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 3;
-    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.HAPPENING_NOW_CARD_MARGIN_RIGHT;
-    var _closure1_slot5 = var7;
+    var _closure1_slot4 = var7;
     var8 = var4.HAPPENING_NOW_CARD_PADDING;
-    var _closure1_slot6 = var8;
+    var _closure1_slot5 = var8;
     var8 = var4.HAPPENING_NOW_CARD_HEIGHT;
-    var _closure1_slot7 = var8;
+    var _closure1_slot6 = var8;
     var11 = var4.HAPPENING_NOW_BADGE_SIZE;
-    var _closure1_slot8 = var11;
+    var _closure1_slot7 = var11;
     var8 = var4.HAPPENING_NOW_CARD_WIDTH_SMALL_MIN;
-    var _closure1_slot9 = var8;
+    var _closure1_slot8 = var8;
     var8 = var4.HAPPENING_NOW_CARD_WIDTH_SMALL_MAX;
-    var _closure1_slot10 = var8;
+    var _closure1_slot9 = var8;
     var8 = var4.HAPPENING_NOW_CARD_WIDTH_MEDIUM_MIN;
-    var _closure1_slot11 = var8;
+    var _closure1_slot10 = var8;
     var8 = var4.HAPPENING_NOW_CARD_WIDTH_MEDIUM_MAX;
-    var _closure1_slot12 = var8;
+    var _closure1_slot11 = var8;
     var8 = var4.HAPPENING_NOW_CARD_WIDTH_LARGE_MIN;
-    var _closure1_slot13 = var8;
+    var _closure1_slot12 = var8;
     var8 = var4.HAPPENING_NOW_CARD_WIDTH_LARGE_MAX;
-    var _closure1_slot14 = var8;
+    var _closure1_slot13 = var8;
     var8 = var4.HAPPENING_NOW_CARD_PADDING_RIGHT;
-    var _closure1_slot15 = var8;
+    var _closure1_slot14 = var8;
     var8 = var4.HAPPENING_NOW_CARD_WIDTH_STRETCHY_MIN;
-    var _closure1_slot16 = var8;
+    var _closure1_slot15 = var8;
     var8 = var4.HAPPENING_NOW_CARD_WIDTH_STRETCHY_MAX;
-    var _closure1_slot17 = var8;
+    var _closure1_slot16 = var8;
     var8 = var4.HAPPENING_NOW_CARD_WIDTH_LARGE_PANELS_MAX;
-    var _closure1_slot18 = var8;
+    var _closure1_slot17 = var8;
     var4 = var4.HAPPENING_NOW_PANELS_CONTAINER_PADDING;
-    var10 = 4;
-    var8 = var6[var10];
+    var8 = 3;
+    var8 = var6[var8];
     var8 = var5.bind(var1)(var8);
     var9 = var8.jsx;
-    var _closure1_slot19 = var9;
+    var _closure1_slot18 = var9;
     var8 = var8.jsxs;
-    var _closure1_slot20 = var8;
+    var _closure1_slot19 = var8;
     var4 = var4 + var7;
-    var _closure1_slot21 = var4;
-    var4 = 5;
-    var7 = var6[var4];
-    var9 = var5.bind(var1)(var7);
-    var8 = var9.createStyles;
-    var7 = function(arg1, arg2, arg3) {
+    var _closure1_slot20 = var4;
+    var10 = 4;
+    var4 = var6[var10];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = function(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var5 = arg1;
@@ -100,19 +96,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0001_ip = 247; continue _fun0001;
  81:
             var1 = {};
-            var5 = _closure1_slot16;
+            var5 = _closure1_slot15;
             var1['minWidth'] = var5;
             if(var2) { _fun0001_ip = 104; continue _fun0001 }
  98:
-            var5 = _closure1_slot17;
+            var5 = _closure1_slot16;
             _fun0001_ip = 127; continue _fun0001;
  104:
             if(var3) { _fun0001_ip = 113; continue _fun0001 }
  107:
-            var6 = _closure1_slot18;
+            var6 = _closure1_slot17;
             _fun0001_ip = 124; continue _fun0001;
  113:
-            var8 = _closure1_slot21;
+            var8 = _closure1_slot20;
             var7 = 252;
             var6 = var7 - var8;
  124:
@@ -123,19 +119,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0001_ip = 247; continue _fun0001;
  137:
             var1 = {};
-            var6 = _closure1_slot13;
+            var6 = _closure1_slot12;
             var1['minWidth'] = var6;
             if(var2) { _fun0001_ip = 160; continue _fun0001 }
  154:
-            var2 = _closure1_slot14;
+            var2 = _closure1_slot13;
             _fun0001_ip = 183; continue _fun0001;
  160:
             if(var3) { _fun0001_ip = 169; continue _fun0001 }
  163:
-            var3 = _closure1_slot18;
+            var3 = _closure1_slot17;
             _fun0001_ip = 180; continue _fun0001;
  169:
-            var6 = _closure1_slot21;
+            var6 = _closure1_slot20;
             var5 = 252;
             var3 = var5 - var6;
  180:
@@ -146,29 +142,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0001_ip = 247; continue _fun0001;
  193:
             var1 = {};
-            var3 = _closure1_slot11;
+            var3 = _closure1_slot10;
             var1['minWidth'] = var3;
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot11;
             var1['maxWidth'] = var2;
             var4 = var1;
             _fun0001_ip = 247; continue _fun0001;
  221:
             var1 = {};
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot8;
             var1['minWidth'] = var3;
-            var2 = _closure1_slot10;
+            var2 = _closure1_slot9;
             var1['maxWidth'] = var2;
             var4 = var1;
  247:
             var1 = {};
             var2 = {};
-            var5 = _closure1_slot6;
-            var2['padding'] = var5;
-            var5 = _closure1_slot15;
-            var2['paddingRight'] = var5;
             var5 = _closure1_slot5;
+            var2['padding'] = var5;
+            var5 = _closure1_slot14;
+            var2['paddingRight'] = var5;
+            var5 = _closure1_slot4;
             var2['marginRight'] = var5;
-            var5 = _closure1_slot7;
+            var5 = _closure1_slot6;
             var2['height'] = var5;
             var5 = 'row';
             var2['flexDirection'] = var5;
@@ -181,12 +177,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {'position': 'absolute', 'top': 0, 'right': 0};
             var1['cardBadgeWrapper'] = var2;
             var2 = {'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center'};
-            var4 = _closure1_slot8;
+            var4 = _closure1_slot7;
             var2['width'] = var4;
             var2['height'] = var4;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var3 = 6;
+            var3 = 5;
             var7 = var6[var3];
             var4 = undefined;
             var7 = var5.bind(var4)(var7);
@@ -216,9 +212,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var7 = var8.bind(var9)(var7);
-    var _closure1_slot22 = var7;
-    var4 = var6[var4];
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot21 = var4;
+    var4 = var6[var10];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
@@ -227,8 +223,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginRight'] = var10;
     var4['cardHeaderMargin'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot23 = var4;
-    var4 = 12;
+    var _closure1_slot22 = var4;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -240,12 +236,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = arg1;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 7;
+            var1 = 6;
             var1 = var3[var1];
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
             var5 = var1.bind(var4)();
-            var3 = _closure1_slot22;
+            var3 = _closure1_slot21;
             var2 = var16.width;
             var6 = var16.panelVariant;
             var11 = null;
@@ -255,26 +251,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6;
  59:
             var17 = var3.bind(var4)(var2, var1, var5);
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var8[var1];
-            var6 = var2.bind(var4)(var1);
-            var5 = var6.useStateFromStores;
-            var1 = _closure1_slot4;
-            var3 = new Array(1);
-            var3[0] = var1;
-            var1 = function() {
-                var1 = _closure1_slot4;
-                var1 = var1.gradientPreset;
-                return var1;
-            };
-            var7 = var5.bind(var6)(var3, var1);
+            var1 = var2.bind(var4)(var1);
+            var7 = var1.bind(var4)();
             var14 = var16.IconComponent;
             var6 = var16.accessibilityLabel;
             var5 = var16.accessibilityHint;
-            var3 = _closure1_slot20;
-            var1 = 9;
+            var3 = _closure1_slot19;
+            var2 = _closure1_slot0;
+            var1 = 8;
             var1 = var8[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Card;
@@ -293,10 +281,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['border'] = var8;
             var8 = var11 == var7;
             var7 = undefined;
-            if(!var8) { _fun0002_ip = 227; continue _fun0002 }
- 223:
+            if(!var8) { _fun0002_ip = 203; continue _fun0002 }
+ 199:
             var7 = 'low';
- 227:
+ 203:
             var1['shadow'] = var7;
             var7 = var16.onLongPress;
             var1['onLongPress'] = var7;
@@ -311,9 +299,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var16.badgeIcon;
             var7 = var11 != var6;
             var6 = null;
-            if(!var7) { _fun0002_ip = 456; continue _fun0002 }
- 296:
-            var9 = _closure1_slot19;
+            if(!var7) { _fun0002_ip = 432; continue _fun0002 }
+ 272:
+            var9 = _closure1_slot18;
             var8 = _closure1_slot3;
             var7 = {};
             var10 = var17.cardBadgeWrapper;
@@ -321,12 +309,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {};
             var13 = var17.cardBadge;
             var10['style'] = var13;
-            if(!(var11 == var14)) { _fun0002_ip = 416; continue _fun0002 }
- 332:
-            var15 = _closure1_slot19;
+            if(!(var11 == var14)) { _fun0002_ip = 392; continue _fun0002 }
+ 308:
+            var15 = _closure1_slot18;
             var19 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var18 = 10;
+            var18 = 9;
             var11 = var20[var18];
             var13 = var19.bind(var4)(var11);
             var11 = {};
@@ -341,19 +329,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.badgeIcon;
             var11['source'] = var16;
             var11 = var15.bind(var4)(var13, var11);
-            _fun0002_ip = 436; continue _fun0002;
- 416:
-            var13 = _closure1_slot19;
+            _fun0002_ip = 412; continue _fun0002;
+ 392:
+            var13 = _closure1_slot18;
             var12 = {};
             var15 = 'xs';
             var12['size'] = var15;
             var11 = var13.bind(var4)(var14, var12);
- 436:
+ 412:
             var10['children'] = var11;
             var10 = var9.bind(var4)(var8, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 456:
+ 432:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -376,13 +364,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var3;
             var11 = var2;
             var5 = copyDataProperties(var13, var12, var11);
-            var2 = _closure1_slot23;
+            var2 = _closure1_slot22;
             var4 = undefined;
             var8 = var2.bind(var4)();
-            var3 = _closure1_slot19;
+            var3 = _closure1_slot18;
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
@@ -417,10 +405,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var3;
             var10 = var2;
             var5 = copyDataProperties(var12, var11, var10);
-            var4 = _closure1_slot19;
+            var4 = _closure1_slot18;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);

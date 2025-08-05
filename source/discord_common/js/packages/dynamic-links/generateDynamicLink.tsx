@@ -214,11 +214,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = arg2;
             var15 = var7.utmSource;
             var5 = var7.androidFallbackLink;
-            var6 = var7.iosFallbackLink;
+            var3 = var7.iosFallbackLink;
             var4 = _closure1_slot4;
             var2 = _closure1_slot3;
-            var3 = undefined;
-            var13 = var4.bind(var3)(var7, var2);
+            var6 = undefined;
+            var13 = var4.bind(var6)(var7, var2);
             var2 = global;
             var8 = var2.URL;
             var4 = var8.prototype;
@@ -226,115 +226,115 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var27 = arg1;
             var28 = var7;
             var4 = new var28[var8](var27, var26);
-            var9 = var4 instanceof Object ? var4 : var7;
+            var7 = var4 instanceof Object ? var4 : var7;
             var11 = var13;
             var4 = null;
-            for(var7 in var11)
+            for(var8 in var11)
  86:
             {
  95:
-                var18 = var7;
+                var18 = var8;
                 var17 = var13[var18];
                 if(var4 == var17) { _fun0004_ip = 86; continue _fun0004 }
  106:
-                var16 = var9.searchParams;
+                var16 = var7.searchParams;
                 var14 = var16.set;
                 var14 = var14.bind(var16)(var18, var17);
                 _fun0004_ip = 86; continue _fun0004;
             }
  125:
-            var8 = var2.encodeURIComponent;
-            var7 = var9.toString;
-            var7 = var7.bind(var9)();
-            var14 = var8.bind(var3)(var7);
-            var10 = var2.encodeURIComponent;
-            var8 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var9 = 4;
-            var9 = var7[var9];
-            var9 = var8.bind(var3)(var9);
-            var9 = var9.bind(var3)();
-            var13 = var10.bind(var3)(var9);
-            var12 = var2.RegExp;
-            var11 = ['WebView', '(iPhone|iPod|iPad)(?!.*Safari/)'];
-            var10 = var11.join;
-            var9 = '|';
-            var16 = var10.bind(var11)(var9);
-            var9 = var2.HermesInternal;
-            var11 = var9.concat;
-            var10 = '(';
-            var9 = ')';
-            var27 = var11.bind(var10)(var16, var9);
-            var9 = var12.prototype;
-            var10 = Object.create(var9, {constructor: {value: var12}});
+            var9 = var2.encodeURIComponent;
+            var8 = var7.toString;
+            var8 = var8.bind(var7)();
+            var14 = var9.bind(var6)(var8);
+            var11 = var2.encodeURIComponent;
+            var9 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var10 = 4;
+            var10 = var8[var10];
+            var10 = var9.bind(var6)(var10);
+            var10 = var10.bind(var6)();
+            var13 = var11.bind(var6)(var10);
+            var16 = var2.RegExp;
+            var12 = ['WebView', '(iPhone|iPod|iPad)(?!.*Safari/)'];
+            var11 = var12.join;
+            var10 = '|';
+            var17 = var11.bind(var12)(var10);
+            var10 = var2.HermesInternal;
+            var12 = var10.concat;
+            var11 = '(';
+            var10 = ')';
+            var27 = var12.bind(var11)(var17, var10);
+            var10 = var16.prototype;
+            var11 = Object.create(var10, {constructor: {value: var16}});
             var26 = 'ig';
-            var28 = var10;
-            var9 = new var28[var12](var27, var26, var25);
-            var11 = var9 instanceof Object ? var9 : var10;
-            var10 = 2;
-            var7 = var7[var10];
-            var7 = var8.bind(var3)(var7);
-            var8 = var4 == var7;
-            var7 = undefined;
-            if(var8) { _fun0004_ip = 323; continue _fun0004 }
- 280:
-            var9 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var8 = var8[var10];
-            var8 = var9.bind(var3)(var8);
-            var9 = var8.ua;
-            var8 = var4 == var9;
-            var7 = undefined;
-            if(var8) { _fun0004_ip = 323; continue _fun0004 }
- 312:
-            var8 = var9.match;
-            var7 = var8.bind(var9)(var11);
- 323:
-            var8 = var4 != var7;
-            var9 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var7 = var7[var10];
-            var7 = var9.bind(var3)(var7);
-            var7 = var4 == var7;
-            var9 = undefined;
-            if(var7) { _fun0004_ip = 375; continue _fun0004 }
- 353:
-            var11 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var7 = var7[var10];
-            var7 = var11.bind(var3)(var7);
-            var9 = var7.name;
- 375:
-            var7 = 'Safari';
-            var7 = var7 === var9;
-            if(!var7) { _fun0004_ip = 391; continue _fun0004 }
- 388:
-            var7 = !var8;
- 391:
-            var9 = _closure1_slot1;
-            var8 = _closure1_slot2;
-            var8 = var8[var10];
-            var8 = var9.bind(var3)(var8);
+            var28 = var11;
+            var10 = new var28[var16](var27, var26, var25);
+            var12 = var10 instanceof Object ? var10 : var11;
+            var11 = 2;
+            var8 = var8[var11];
+            var8 = var9.bind(var6)(var8);
             var9 = var4 == var8;
             var8 = undefined;
-            if(var9) { _fun0004_ip = 455; continue _fun0004 }
- 417:
-            var9 = _closure1_slot1;
-            var1 = _closure1_slot2;
-            var1 = var1[var10];
-            var1 = var9.bind(var3)(var1);
-            var1 = var1.os;
-            var9 = var4 == var1;
+            if(var9) { _fun0004_ip = 323; continue _fun0004 }
+ 280:
+            var10 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var9 = var9[var11];
+            var9 = var10.bind(var6)(var9);
+            var10 = var9.ua;
+            var9 = var4 == var10;
             var8 = undefined;
-            if(var9) { _fun0004_ip = 455; continue _fun0004 }
+            if(var9) { _fun0004_ip = 323; continue _fun0004 }
+ 312:
+            var9 = var10.match;
+            var8 = var9.bind(var10)(var12);
+ 323:
+            var9 = var4 != var8;
+            var10 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var8 = var8[var11];
+            var8 = var10.bind(var6)(var8);
+            var8 = var4 == var8;
+            var10 = undefined;
+            if(var8) { _fun0004_ip = 375; continue _fun0004 }
+ 353:
+            var12 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var8 = var8[var11];
+            var8 = var12.bind(var6)(var8);
+            var10 = var8.name;
+ 375:
+            var8 = 'Safari';
+            var8 = var8 === var10;
+            if(!var8) { _fun0004_ip = 391; continue _fun0004 }
+ 388:
+            var8 = !var9;
+ 391:
+            var10 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var9 = var9[var11];
+            var9 = var10.bind(var6)(var9);
+            var10 = var4 == var9;
+            var9 = undefined;
+            if(var10) { _fun0004_ip = 455; continue _fun0004 }
+ 417:
+            var10 = _closure1_slot1;
+            var1 = _closure1_slot2;
+            var1 = var1[var11];
+            var1 = var10.bind(var6)(var1);
+            var1 = var1.os;
+            var10 = var4 == var1;
+            var9 = undefined;
+            if(var10) { _fun0004_ip = 455; continue _fun0004 }
  449:
-            var8 = var1.family;
+            var9 = var1.family;
  455:
             var1 = 'iOS';
-            var1 = var1 !== var8;
+            var1 = var1 !== var9;
             if(var1) { _fun0004_ip = 471; continue _fun0004 }
  468:
-            var1 = var7;
+            var1 = var8;
  471:
             var12 = 0;
             if(!var1) { _fun0004_ip = 479; continue _fun0004 }
@@ -346,15 +346,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!var1) { _fun0004_ip = 499; continue _fun0004 }
  488:
             var1 = var2.encodeURIComponent;
-            var8 = var1.bind(var3)(var5);
+            var8 = var1.bind(var6)(var5);
  499:
-            var1 = var4 != var6;
+            var1 = var4 != var3;
             var5 = null;
             if(!var1) { _fun0004_ip = 519; continue _fun0004 }
  508:
             var1 = var2.encodeURIComponent;
-            var5 = var1.bind(var3)(var6);
+            var5 = var1.bind(var6)(var3);
  519:
+            var1 = var2.window;
+            var9 = var4 == var1;
+            var3 = undefined;
+            if(var9) { _fun0004_ip = 553; continue _fun0004 }
+ 534:
+            var1 = var1.location;
+            var9 = var4 == var1;
+            var3 = undefined;
+            if(var9) { _fun0004_ip = 553; continue _fun0004 }
+ 548:
+            var3 = var1.hash;
+ 553:
+            var1 = '#test';
+            if(!(var1 !== var3)) { _fun0004_ip = 712; continue _fun0004 }
+ 566:
+            var3 = var2.encodeURIComponent;
+            var1 = var7.toString;
+            var1 = var1.bind(var7)();
+            var25 = var3.bind(var6)(var1);
             var1 = var2.HermesInternal;
             var11 = var1.concat;
             var28 = '';
@@ -363,29 +382,61 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = '&utm_source=';
             var22 = '&apn=com.discord&isi=985746746&ibi=com.hammerandchisel.discord&sd=';
             var20 = '&efr=';
+            var23 = var15;
+            var21 = var13;
+            var19 = var12;
+            var3 = var28[var11](var27, var26, var25, var24, var23, var22, var21, var20, var19, var18);
+            var6 = var3;
+            if(!(var4 != var8)) { _fun0004_ip = 677; continue _fun0004 }
+ 651:
+            var1 = var2.HermesInternal;
+            var7 = var1.concat;
+            var1 = '&afl=';
+            var1 = var7.bind(var1)(var8);
+            var6 = var3 + var1;
+ 677:
+            var1 = var6;
+            if(!(var4 != var5)) { _fun0004_ip = 710; continue _fun0004 }
+ 684:
+            var3 = var2.HermesInternal;
+            var7 = var3.concat;
+            var3 = '&ifl=';
+            var3 = var7.bind(var3)(var5);
+            var1 = var6 + var3;
+ 710:
+            return var1;
+ 712:
+            var1 = var2.HermesInternal;
+            var11 = var1.concat;
+            var28 = '';
+            var27 = 'https://discordapp.onelink.me';
+            var26 = '/Hs5r/?deep_link_value=';
+            var24 = '&pid=';
+            var22 = '&af_og_description=';
+            var20 = '&af_force_deeplink=';
             var25 = var14;
             var23 = var15;
             var21 = var13;
             var19 = var12;
             var6 = var28[var11](var27, var26, var25, var24, var23, var22, var21, var20, var19, var18);
             var3 = var6;
-            if(!(var4 != var8)) { _fun0004_ip = 613; continue _fun0004 }
- 587:
+            if(!(var4 != var8)) { _fun0004_ip = 806; continue _fun0004 }
+ 780:
             var1 = var2.HermesInternal;
             var7 = var1.concat;
-            var1 = '&afl=';
+            var1 = '&af_android_url=';
             var1 = var7.bind(var1)(var8);
             var3 = var6 + var1;
- 613:
+ 806:
             var1 = var3;
-            if(!(var4 != var5)) { _fun0004_ip = 646; continue _fun0004 }
- 620:
+            if(!(var4 != var5)) { _fun0004_ip = 839; continue _fun0004 }
+ 813:
             var2 = var2.HermesInternal;
             var4 = var2.concat;
-            var2 = '&ifl=';
+            var2 = '&af_ios_url=';
             var2 = var4.bind(var2)(var5);
             var1 = var3 + var2;
- 646:
+ 839:
             return var1;
         }
     };
@@ -405,62 +456,84 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function parseDynamicLink(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            var12 = arg1;
-            var1 = var12;
+            var14 = arg1;
+            var1 = var14;
             var8 = undefined;
-            var6 = undefined;
+            var4 = undefined;
             var5 = undefined;
-            var7 = undefined;
+            var11 = undefined;
             var9 = undefined;
             var3 = undefined;
+            var6 = undefined;
             var2 = undefined;
             var10 = undefined;
-            var11 = var12.startsWith;
-            var4 = 'https://discordapp.page.link';
-            var4 = var11.bind(var12)(var4);
-            if(var4) { _fun0005_ip = 46; continue _fun0005 }
- 42:
-            var4 = null;
-            return var4;
- 46: // try_start_0
-            var4 = global;
-            var12 = var4.URL;
-            var14 = var1;
-            var11 = var12.prototype;
-            var11 = Object.create(var11, {constructor: {value: var12}});
-            var15 = var11;
-            var1 = new var15[var12](var14, var13);
-            var1 = var1 instanceof Object ? var1 : var11;
-            var12 = var1.searchParams;
-            var5 = var12;
-            var11 = var12.get;
+            var12 = var14.startsWith;
+            var7 = 'https://discordapp.onelink.me';
+            var7 = var12.bind(var14)(var7);
+            var13 = var14.startsWith;
+            var12 = 'https://discordapp.page.link';
+            var4 = var13.bind(var14)(var12);
+            if(var7) { _fun0005_ip = 71; continue _fun0005 }
+ 61:
+            var7 = var4;
+            if(var7) { _fun0005_ip = 71; continue _fun0005 }
+ 67:
+            var7 = null;
+            return var7;
+ 71: // try_start_0
+            var7 = global;
+            var13 = var7.URL;
+            var16 = var1;
+            var12 = var13.prototype;
+            var12 = Object.create(var12, {constructor: {value: var13}});
+            var17 = var12;
+            var1 = new var17[var13](var16, var15);
+            var1 = var1 instanceof Object ? var1 : var12;
+            var5 = var1.searchParams;
+            var1 = var4;
+            var14 = var5;
+            var13 = var14.get;
+            if(var1) { _fun0005_ip = 135; continue _fun0005 }
+ 122:
+            var1 = 'deep_link_value';
+            var12 = var13.bind(var14)(var1);
+            _fun0005_ip = 144; continue _fun0005;
+ 135:
             var1 = 'link';
-            var11 = var11.bind(var12)(var1);
-            var7 = var11;
+            var12 = var13.bind(var14)(var1);
+ 144:
+            var11 = var12;
             var1 = null;
-            if(!(var1 != var11)) { _fun0005_ip = 301; continue _fun0005 }
- 112:
-            var11 = var4.decodeURIComponent;
-            var14 = var11.bind(var8)(var7);
-            var4 = var4.URL;
-            var7 = var4.prototype;
-            var7 = Object.create(var7, {constructor: {value: var4}});
-            var15 = var7;
-            var4 = new var15[var4](var14, var13);
-            var4 = var4 instanceof Object ? var4 : var7;
-            var3 = var4.searchParams;
-            var4 = {};
+            if(!(var1 != var12)) { _fun0005_ip = 359; continue _fun0005 }
+ 156:
+            var12 = var7.decodeURIComponent;
+            var16 = var12.bind(var8)(var11);
+            var7 = var7.URL;
+            var11 = var7.prototype;
+            var11 = Object.create(var11, {constructor: {value: var7}});
+            var17 = var11;
+            var7 = new var17[var7](var16, var15);
+            var7 = var7 instanceof Object ? var7 : var11;
+            var3 = var7.searchParams;
             var11 = var5;
             var7 = var11.get;
-            var5 = 'utm_source';
-            var5 = var7.bind(var11)(var5);
+            if(var4) { _fun0005_ip = 221; continue _fun0005 }
+ 210:
+            var4 = 'pid';
+            var5 = var7.bind(var11)(var4);
+            _fun0005_ip = 230; continue _fun0005;
+ 221:
+            var4 = 'utm_source';
+            var5 = var7.bind(var11)(var4);
+ 230:
             var6 = var5;
+            var4 = {};
             var7 = var1 != var5;
             var5 = undefined;
-            if(!var7) { _fun0005_ip = 189; continue _fun0005 }
- 186:
+            if(!var7) { _fun0005_ip = 247; continue _fun0005 }
+ 244:
             var5 = var6;
- 189:
+ 247:
             var4['utmSource'] = var5;
             var2 = var4;
             var4 = _closure1_slot6;
@@ -475,8 +548,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 2;
             var5 = 0;
             var4 = 1;
-            if(var3) { _fun0005_ip = 299; continue _fun0005 }
- 248:
+            if(var3) { _fun0005_ip = 357; continue _fun0005 }
+ 306:
             var3 = var9;
             var11 = var3.value;
             var3 = _closure1_slot5;
@@ -489,12 +562,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var8)();
             var9 = var3;
             var3 = var3.done;
-            if(!var3) { _fun0005_ip = 248; continue _fun0005 }
- 299: // try_end0
+            if(!var3) { _fun0005_ip = 306; continue _fun0005 }
+ 357: // try_end0
             return var2;
- 301:
+ 359:
             return var1;
- 303: // catch_target0
+ 361: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = null;
             return var1;

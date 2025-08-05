@@ -36,13 +36,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 2;
             var1 = var8[var1];
             var4 = undefined;
-            var7 = var2.bind(var4)(var1);
-            var3 = var7.useExperiment;
+            var9 = var2.bind(var4)(var1);
+            var7 = var9.useExperiment;
+            var3 = {};
+            var3['guildId'] = var5;
+            var1 = 'GuildSettingsModal';
+            var3['location'] = var1;
             var1 = {};
-            var1['guildId'] = var5;
-            var9 = 'GuildSettingsModal';
-            var1['location'] = var9;
-            var1 = var3.bind(var7)(var1);
+            var10 = true;
+            var1['autoTrackExposure'] = var10;
+            var1 = var7.bind(var9)(var3, var1);
             var7 = var1.enabled;
             var3 = _closure1_slot0;
             var1 = 3;
@@ -51,19 +54,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.useCanReviewGuildMemberApplications;
             var1 = var1.bind(var3)(var5);
             var3 = _closure1_slot3;
-            if(!var7) { _fun0001_ip = 102; continue _fun0001 }
- 99:
-            if(var1) { _fun0001_ip = 115; continue _fun0001 }
- 102:
+            if(!var7) { _fun0001_ip = 112; continue _fun0001 }
+ 109:
+            if(var1) { _fun0001_ip = 125; continue _fun0001 }
+ 112:
             var7 = _closure1_slot2;
             var1 = 5;
             var1 = var7[var1];
-            _fun0001_ip = 126; continue _fun0001;
- 115:
+            _fun0001_ip = 136; continue _fun0001;
+ 125:
             var7 = _closure1_slot2;
             var6 = 4;
             var1 = var7[var6];
- 126:
+ 136:
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['guildId'] = var5;
