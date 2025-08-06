@@ -3312,6 +3312,16 @@
         "width": 24,
         "height": 24
     },
+    "FolderPlusIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/FolderPlusIcon.png",
+        "hash": "3791b73c3a39b57c6edff41d0c550ab3",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "FoodIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/FoodIcon.png",
         "hash": "94250c8c7259e239c5e2b72f9b121f4e",
@@ -5133,16 +5143,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_folder_add_24px": {
-        "file": "images/native/icons/ic_folder_add_24px.png",
-        "hash": "d7c8f5dbaf1b2bd9237a026feae90575",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_follow": {
         "file": "modules/forums/native/images/ic_follow.png",
         "hash": "ceb18d2f52c599b3ceb677e277ba262c",
@@ -5173,15 +5173,6 @@
         "width": 20,
         "height": 20
     },
-    "ic_forum_channel_list_view_24px": {
-        "file": "images/native/icons/ic_forum_channel_list_view_24px.png",
-        "hash": "c08105e44c61d3481b3dfb10269a37d8",
-        "scales": [
-            1
-        ],
-        "width": 48,
-        "height": 48
-    },
     "ic_forum_channel_locked": {
         "file": "modules/forums/native/images/ic_forum_channel_locked.png",
         "hash": "7764377b2ff47b151fa7e95e293e7bc6",
@@ -5191,15 +5182,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_forum_channel_sort_order_24px": {
-        "file": "images/native/icons/ic_forum_channel_sort_order_24px.png",
-        "hash": "6b60ee45b090bb7dc076e714df9816c3",
-        "scales": [
-            1
-        ],
-        "width": 40,
-        "height": 40
     },
     "ic_forum_post": {
         "file": "modules/forums/native/images/ic_forum_post.png",
@@ -5291,16 +5273,6 @@
         ],
         "width": 16,
         "height": 16
-    },
-    "ic_grid_24px": {
-        "file": "images/native/icons/ic_grid_24px.png",
-        "hash": "5a61674458225d52c00e676ff4f1684a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24.5
     },
     "ic_group": {
         "file": "modules/stage_channels/native/images/ic_group.png",
