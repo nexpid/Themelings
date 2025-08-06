@@ -133,12 +133,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var10['flex'] = var11;
     var11 = 17;
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.colors;
+    var13 = var13.BG_BASE_SECONDARY;
+    var10['backgroundColor'] = var13;
+    var7['screenContainer'] = var10;
+    var10 = {};
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var10['marginHorizontal'] = var13;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.colors;
-    var11 = var11.BG_BASE_PRIMARY;
-    var10['backgroundColor'] = var11;
-    var7['screenContainer'] = var10;
+    var11 = var11.spacing;
+    var11 = var11.PX_16;
+    var10['marginBottom'] = var11;
+    var7['title'] = var10;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot21 = var7;
     var7 = var4.Component;
@@ -774,7 +786,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot1 = var11;
                 var2 = _closure1_slot21;
                 var1 = var7.context;
-                var5 = var2.bind(var4)(var1);
+                var13 = var2.bind(var4)(var1);
                 var3 = _closure1_slot20;
                 var12 = _closure1_slot0;
                 var10 = _closure1_slot3;
@@ -783,13 +795,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var12.bind(var4)(var1);
                 var2 = var1.Form;
                 var1 = {};
-                var5 = var5.screenContainer;
+                var5 = var13.screenContainer;
                 var1['style'] = var5;
                 var9 = _closure1_slot19;
-                var5 = var10[var15];
+                var5 = 26;
+                var5 = var10[var5];
                 var5 = var12.bind(var4)(var5);
-                var6 = var5.FormTitle;
-                var5 = {};
+                var6 = var5.Text;
+                var5 = {'variant': 'text-md/medium', 'color': 'text-muted'};
+                var13 = var13.title;
+                var5['style'] = var13;
                 var23 = 23;
                 var13 = var10[var23];
                 var13 = var12.bind(var4)(var13);
@@ -801,8 +816,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var10.OqccVl;
                 var10 = {};
                 var12 = null;
-                if(!(var12 == var19)) { _fun0010_ip = 242; continue _fun0010 }
- 188:
+                if(!(var12 == var19)) { _fun0010_ip = 265; continue _fun0010 }
+ 211:
                 var22 = _closure1_slot0;
                 var18 = _closure1_slot3;
                 var20 = var18[var23];
@@ -814,25 +829,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var18 = var18.t;
                 var18 = var18.GSfOoq;
                 var18 = var20.bind(var21)(var18);
-                _fun0010_ip = 247; continue _fun0010;
- 242:
+                _fun0010_ip = 270; continue _fun0010;
+ 265:
                 var18 = var19.name;
- 247:
+ 270:
                 var10['categoryName'] = var18;
                 var10 = var16.bind(var17)(var13, var10);
-                var5['title'] = var10;
+                var5['children'] = var10;
                 var6 = var9.bind(var4)(var6, var5);
                 var5 = new Array(3);
                 var5[0] = var6;
                 var9 = var12 != var11;
                 var6 = null;
-                if(!var9) { _fun0010_ip = 388; continue _fun0010 }
- 285:
+                if(!var9) { _fun0010_ip = 411; continue _fun0010 }
+ 308:
                 var10 = var11.id;
                 var9 = 'null';
                 var6 = null;
-                if(!(var9 === var10)) { _fun0010_ip = 388; continue _fun0010 }
- 300:
+                if(!(var9 === var10)) { _fun0010_ip = 411; continue _fun0010 }
+ 323:
                 var10 = _closure1_slot19;
                 var13 = _closure1_slot0;
                 var12 = _closure1_slot3;
@@ -859,7 +874,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var10.bind(var4)(var13, var12, var11);
                 var8['children'] = var11;
                 var6 = var10.bind(var4)(var9, var8);
- 388:
+ 411:
                 var5[1] = var6;
                 var6 = var7.renderCategories;
                 var6 = var6.bind(var7)();
@@ -876,12 +891,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var7 = var4.bind(var1)(var7);
     var _closure1_slot22 = var7;
-    var4 = 26;
+    var4 = 27;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ThemeContext;
     var7['contextType'] = var4;
-    var4 = 31;
+    var4 = 32;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -893,7 +908,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var2;
         var2 = _closure1_slot0;
         var6 = _closure1_slot3;
-        var3 = 27;
+        var3 = 28;
         var3 = var6[var3];
         var4 = undefined;
         var8 = var2.bind(var4)(var3);
@@ -909,13 +924,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var8 = var7.bind(var8)(var3, var1);
-        var1 = 28;
+        var1 = 29;
         var1 = var6[var1];
         var3 = var2.bind(var4)(var1);
         var1 = var3.useNavigation;
         var7 = var1.bind(var3)();
         var3 = _closure1_slot1;
-        var1 = 29;
+        var1 = 30;
         var1 = var6[var1];
         var9 = var3.bind(var4)(var1);
         var1 = null;
@@ -923,7 +938,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 'ConnectedChannelSettingsChangeCategory: channel cannot be undefined';
         var1 = var9.bind(var4)(var3, var1);
         var3 = _closure1_slot19;
-        var1 = 30;
+        var1 = 31;
         var1 = var6[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.RedesignCompat;

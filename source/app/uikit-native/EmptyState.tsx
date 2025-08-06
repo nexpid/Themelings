@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = metroImportDefault;
     var10 = var10.bind(var1)(var11);
     var10 = var10.colors;
-    var10 = var10.BG_BASE_PRIMARY;
+    var10 = var10.BG_BASE_SECONDARY;
     var9['backgroundColor'] = var10;
     var4['container'] = var9;
     var9 = {'flex': 1, 'maxWidth': 300, 'maxHeight': 200};

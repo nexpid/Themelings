@@ -238,7 +238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var10[var1];
             var13 = undefined;
             var3 = var3.bind(var13)(var1);
-            var1 = var3.getBackwardCompatibilitySearchId;
+            var1 = var3.getSearchContextId;
             var11 = var1.bind(var3)(var7);
             var1 = _closure1_slot22;
             var1 = var1[var11];
@@ -313,7 +313,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
-            var3 = var4.getBackwardCompatibilitySearchId;
+            var3 = var4.getSearchContextId;
             var5 = var3.bind(var4)(var12);
             var3 = _closure1_slot22;
             var6 = var3[var5];
@@ -447,7 +447,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = 12;
             var3 = var3[var13];
             var4 = var4.bind(var10)(var3);
-            var3 = var4.getBackwardCompatibilitySearchId;
+            var3 = var4.getSearchContextId;
             var12 = var3.bind(var4)(var7);
             var4 = var1 == var11;
             var3 = undefined;
@@ -1153,7 +1153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
-            var2 = var3.getBackwardCompatibilitySearchId;
+            var2 = var3.getSearchContextId;
             var4 = var2.bind(var3)(var9);
             var2 = _closure1_slot21;
             var3 = var2[var4];
@@ -1339,7 +1339,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4[var1];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var1);
-                var1 = var3.getBackwardCompatibilitySearchId;
+                var1 = var3.getSearchContextId;
                 var3 = var1.bind(var3)(var5);
                 var1 = _closure1_slot21;
                 var1 = var1[var3];
@@ -1380,7 +1380,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1[var12];
                 var7 = undefined;
                 var3 = var3.bind(var7)(var1);
-                var1 = var3.getBackwardCompatibilitySearchId;
+                var1 = var3.getSearchContextId;
                 var3 = var1.bind(var3)(var10);
                 var1 = _closure1_slot21;
                 var1 = var1[var3];
@@ -1576,7 +1576,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var4.bind(var5)(var8, var9);
             var1 = var1[var16];
             var3 = var3.bind(var6)(var1);
-            var1 = var3.getBackwardCompatibilitySearchId;
+            var1 = var3.getSearchContextId;
             var4 = var1.bind(var3)(var12);
             var1 = _closure1_slot21;
             var13 = var1[var4];
@@ -1720,12 +1720,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
  0:
             var1 = arg1;
-            var4 = var1.searchId;
+            var4 = var1.id;
             var1 = _closure1_slot22;
             var5 = var1[var4];
             var1 = null;
-            if(!(var1 != var5)) { _fun0021_ip = 59; continue _fun0021 }
- 26:
+            if(!(var1 != var5)) { _fun0021_ip = 58; continue _fun0021 }
+ 25:
             var6 = var5.context;
             var3 = var6.destroy;
             var3 = var3.bind(var6)();
@@ -1733,7 +1733,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['results'] = var3;
             var3 = _closure1_slot22;
             var3 = delete var3[var4];
- 59:
+ 58:
             var3 = _closure1_slot21;
             var3 = delete var3[var4];
             _closure1_slot20 = var1;
@@ -1813,7 +1813,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot2;
             var1 = var1[var6];
             var6 = var5.bind(var4)(var1);
-            var5 = var6.getBackwardCompatibilitySearchId;
+            var5 = var6.getSearchContextId;
             var1 = _closure1_slot20;
             var5 = var5.bind(var6)(var1);
             var1 = _closure1_slot21;
@@ -1865,30 +1865,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['LOGOUT'] = var7;
     var7 = function handleClearHistory(arg1) {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
- 0:
-            var1 = arg1;
-            var3 = var1.searchId;
-            var1 = null;
-            if(!(var1 == var3)) { _fun0024_ip = 56; continue _fun0024 }
- 15:
-            var1 = global;
-            var5 = var1.Object;
-            var4 = var5.keys;
-            var2 = _closure1_slot21;
-            var4 = var4.bind(var5)(var2);
-            var2 = var4.forEach;
-            var1 = _closure1_slot34;
-            var1 = var2.bind(var4)(var1);
-            _fun0024_ip = 70; continue _fun0024;
- 56:
-            var2 = _closure1_slot34;
-            var1 = undefined;
-            var1 = var2.bind(var1)(var3);
- 70:
-            var1 = undefined;
-            return var1;
-        }
+        var1 = arg1;
+        var3 = var1.id;
+        var2 = _closure1_slot34;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var3);
+        return var1;
     };
     var2['SEARCH_HISTORY_WEB_CLEAR_ITEMS'] = var7;
     var7 = var9.prototype;

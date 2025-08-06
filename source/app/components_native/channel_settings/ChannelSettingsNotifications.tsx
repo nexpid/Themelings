@@ -312,26 +312,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {};
     var10['flex'] = var11;
     var11 = 17;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.BG_BASE_PRIMARY;
-    var10['backgroundColor'] = var13;
-    var7['screenContainer'] = var10;
-    var10 = {};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.unsafe_rawColors;
-    var13 = var13.RED_400;
-    var10['color'] = var13;
-    var7['redText'] = var10;
-    var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.unsafe_rawColors;
-    var11 = var11.YELLOW_300;
-    var10['color'] = var11;
-    var7['orangeText'] = var10;
+    var11 = var11.colors;
+    var11 = var11.BG_BASE_SECONDARY;
+    var10['backgroundColor'] = var11;
+    var7['screenContainer'] = var10;
     var7 = var8.bind(var9)(var7);
     var _closure1_slot26 = var7;
     var7 = var4.PureComponent;
@@ -1209,38 +1195,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var17.context;
                 var5 = undefined;
                 var16 = var4.bind(var5)(var1);
-                var _closure3_slot0 = var16;
                 var1 = _closure1_slot18;
                 var12 = var1.NULL;
-                if(!var22) { _fun0012_ip = 90; continue _fun0012 }
- 80:
+                if(!var22) { _fun0012_ip = 86; continue _fun0012 }
+ 76:
                 var1 = var18.isGuildVoice;
                 var22 = var1.bind(var18)();
- 90:
+ 86:
                 var4 = _closure1_slot10;
                 var1 = var18.type;
                 var9 = var4.bind(var5)(var1);
-                if(var9) { _fun0012_ip = 117; continue _fun0012 }
- 107:
+                if(var9) { _fun0012_ip = 113; continue _fun0012 }
+ 103:
                 var1 = var18.isForumLikeChannel;
                 var9 = var1.bind(var18)();
- 117:
-                if(var9) { _fun0012_ip = 123; continue _fun0012 }
- 120:
+ 113:
+                if(var9) { _fun0012_ip = 119; continue _fun0012 }
+ 116:
                 var9 = var22;
- 123:
+ 119:
                 var10 = null;
                 var4 = var10 == var18;
                 var1 = null;
-                if(var4) { _fun0012_ip = 985; continue _fun0012 }
- 137:
-                if(var2) { _fun0012_ip = 268; continue _fun0012 }
- 143:
+                if(var4) { _fun0012_ip = 981; continue _fun0012 }
+ 133:
+                if(var2) { _fun0012_ip = 264; continue _fun0012 }
+ 139:
                 var2 = _closure1_slot18;
                 var2 = var2.NO_MESSAGES;
                 var15 = undefined;
-                if(!(var3 === var2)) { _fun0012_ip = 372; continue _fun0012 }
- 162:
+                if(!(var3 === var2)) { _fun0012_ip = 368; continue _fun0012 }
+ 158:
                 var4 = _closure1_slot23;
                 var7 = _closure1_slot0;
                 var20 = _closure1_slot2;
@@ -1259,7 +1244,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.t;
                 var7 = var6.nRwUIC;
                 var6 = {};
-                var20 = function notificationHook(arg1) {
+                var20 = function notificationHook(arg1, arg2) {
                     var5 = _closure1_slot23;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -1267,14 +1252,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var3[var1];
                     var4 = undefined;
                     var1 = var2.bind(var4)(var1);
-                    var3 = var1.LegacyText;
-                    var2 = {};
-                    var1 = _closure3_slot0;
-                    var1 = var1.orangeText;
-                    var2['style'] = var1;
+                    var3 = var1.Text;
+                    var2 = {'variant': 'text-sm/medium', 'color': 'text-warning'};
                     var1 = arg1;
                     var2['children'] = var1;
-                    var1 = 'notif';
+                    var1 = arg2;
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 };
@@ -1282,8 +1264,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var8.bind(var11)(var7, var6);
                 var2['children'] = var6;
                 var15 = var4.bind(var5)(var3, var2);
-                _fun0012_ip = 372; continue _fun0012;
- 268:
+                _fun0012_ip = 368; continue _fun0012;
+ 264:
                 var4 = _closure1_slot23;
                 var7 = _closure1_slot0;
                 var20 = _closure1_slot2;
@@ -1302,7 +1284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.t;
                 var7 = var6.O34r19;
                 var6 = {};
-                var19 = function mutedHook(arg1) {
+                var19 = function mutedHook(arg1, arg2) {
                     var5 = _closure1_slot23;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -1310,14 +1292,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var3[var1];
                     var4 = undefined;
                     var1 = var2.bind(var4)(var1);
-                    var3 = var1.LegacyText;
-                    var2 = {};
-                    var1 = _closure3_slot0;
-                    var1 = var1.redText;
-                    var2['style'] = var1;
+                    var3 = var1.Text;
+                    var2 = {'variant': 'text-sm/medium', 'color': 'text-danger'};
                     var1 = arg1;
                     var2['children'] = var1;
-                    var1 = 'muted';
+                    var1 = arg2;
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 };
@@ -1325,7 +1304,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var8.bind(var11)(var7, var6);
                 var2['children'] = var6;
                 var15 = var4.bind(var5)(var3, var2);
- 372:
+ 368:
                 var4 = _closure1_slot23;
                 var7 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -1343,11 +1322,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var16 = var16.screenContainer;
                 var6['style'] = var16;
                 var16 = null;
-                if(!var9) { _fun0012_ip = 453; continue _fun0012 }
- 443:
+                if(!var9) { _fun0012_ip = 449; continue _fun0012 }
+ 439:
                 var9 = var17.renderMuteSection;
                 var16 = var9.bind(var17)();
- 453:
+ 449:
                 var9 = new Array(5);
                 var9[0] = var16;
                 var20 = _closure1_slot23;
@@ -1358,8 +1337,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var19 = var16.FormSection;
                 var16 = {};
                 var21 = null;
-                if(!var22) { _fun0012_ip = 583; continue _fun0012 }
- 495:
+                if(!var22) { _fun0012_ip = 579; continue _fun0012 }
+ 491:
                 var24 = _closure1_slot23;
                 var28 = _closure1_slot0;
                 var29 = _closure1_slot2;
@@ -1379,7 +1358,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var25 = var26.bind(var27)(var25);
                 var22['children'] = var25;
                 var21 = var24.bind(var5)(var23, var22);
- 583:
+ 579:
                 var16['hint'] = var21;
                 var21 = _closure1_slot22;
                 var21 = var21.ANDROID_NO_BORDER;
@@ -1405,8 +1384,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var16 = var18.isForumLikeChannel;
                 var18 = var16.bind(var18)();
                 var16 = null;
-                if(!var18) { _fun0012_ip = 817; continue _fun0012 }
- 703:
+                if(!var18) { _fun0012_ip = 813; continue _fun0012 }
+ 699:
                 var20 = _closure1_slot23;
                 var25 = _closure1_slot0;
                 var21 = _closure1_slot2;
@@ -1431,12 +1410,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var21 = var21.bind(var17)();
                 var18['children'] = var21;
                 var16 = var20.bind(var5)(var19, var18);
- 817:
+ 813:
                 var9[2] = var16;
                 var9[3] = var15;
                 var10 = null;
-                if(!(var13 !== var12)) { _fun0012_ip = 961; continue _fun0012 }
- 834:
+                if(!(var13 !== var12)) { _fun0012_ip = 957; continue _fun0012 }
+ 830:
                 var13 = _closure1_slot23;
                 var21 = _closure1_slot0;
                 var18 = _closure1_slot2;
@@ -1465,13 +1444,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = var16.bind(var5)(var15, var14);
                 var11['children'] = var14;
                 var10 = var13.bind(var5)(var12, var11);
- 961:
+ 957:
                 var9[4] = var10;
                 var6['children'] = var9;
                 var6 = var8.bind(var5)(var7, var6);
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 985:
+ 981:
                 return var1;
             }
         };

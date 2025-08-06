@@ -34,61 +34,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.data;
             var6 = var1.kind;
             var1 = 'end';
-            if(!(var1 !== var6)) { _fun0001_ip = 302; continue _fun0001 }
+            if(!(var1 !== var6)) { _fun0001_ip = 284; continue _fun0001 }
  24:
             var2 = 'loading';
-            if(!(var2 !== var6)) { _fun0001_ip = 300; continue _fun0001 }
+            if(!(var2 !== var6)) { _fun0001_ip = 282; continue _fun0001 }
  35:
             var3 = 'message';
-            if(!(var3 !== var6)) { _fun0001_ip = 271; continue _fun0001 }
+            if(!(var3 !== var6)) { _fun0001_ip = 253; continue _fun0001 }
  46:
             var5 = 'channelSummary';
-            if(!(var5 !== var6)) { _fun0001_ip = 265; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 247; continue _fun0001 }
  59:
             var5 = 'guildEvent';
-            if(!(var5 !== var6)) { _fun0001_ip = 257; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 239; continue _fun0001 }
  70:
             var5 = 'contentInventory';
-            if(!(var5 !== var6)) { _fun0001_ip = 186; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 168; continue _fun0001 }
  80:
             var5 = 'recommendedGuilds';
-            if(!(var5 !== var6)) { _fun0001_ip = 178; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 160; continue _fun0001 }
  90:
             var5 = 'forumThread';
-            if(!(var5 !== var6)) { _fun0001_ip = 170; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 152; continue _fun0001 }
  100:
             var5 = 'generatedCandidate';
-            if(!(var5 !== var6)) { _fun0001_ip = 162; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 144; continue _fun0001 }
  110:
             var5 = 'icymiHeader';
-            if(!(var5 !== var6)) { _fun0001_ip = 154; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 136; continue _fun0001 }
  120:
-            var5 = 'editCustomStatus';
-            if(!(var5 !== var6)) { _fun0001_ip = 146; continue _fun0001 }
- 130:
             var5 = 'mentions';
-            if(!(var5 !== var6)) { _fun0001_ip = 144; continue _fun0001 }
- 138:
+            if(!(var5 !== var6)) { _fun0001_ip = 134; continue _fun0001 }
+ 128:
             var6 = 'unknown';
             return var6;
- 144:
+ 134:
             return var5;
- 146:
-            var5 = 'edit_custom_status';
-            return var5;
- 154:
+ 136:
             var5 = 'icymi_header';
             return var5;
- 162:
+ 144:
             var5 = 'generated_candidate';
             return var5;
- 170:
+ 152:
             var5 = 'forum_thread';
             return var5;
- 178:
+ 160:
             var5 = 'recommended_guilds';
             return var5;
- 186:
+ 168:
             var5 = var4.data;
             var5 = var5.content;
             var7 = var5.content_type;
@@ -101,29 +95,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.ContentInventoryEntryType;
             var6 = var5.CUSTOM_STATUS;
             var5 = 'hotwheels_gaming_activity';
-            if(!(var7 === var6)) { _fun0001_ip = 255; continue _fun0001 }
- 249:
+            if(!(var7 === var6)) { _fun0001_ip = 237; continue _fun0001 }
+ 231:
             var5 = 'hotwheels_custom_status';
- 255:
+ 237:
             return var5;
- 257:
+ 239:
             var5 = 'guild_event';
             return var5;
- 265:
+ 247:
             var5 = 'summary';
             return var5;
- 271:
+ 253:
             var5 = var4.channelType;
             var4 = _closure1_slot4;
             var4 = var4.GUILD_ANNOUNCEMENT;
-            if(!(var5 === var4)) { _fun0001_ip = 298; continue _fun0001 }
- 294:
+            if(!(var5 === var4)) { _fun0001_ip = 280; continue _fun0001 }
+ 276:
             var3 = 'announcement';
- 298:
+ 280:
             return var3;
- 300:
+ 282:
             return var2;
- 302:
+ 284:
             return var1;
         }
     };

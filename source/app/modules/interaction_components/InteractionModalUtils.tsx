@@ -336,7 +336,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var6.bind(var5)(var1);
                 var1 = var1.ComponentType;
                 var1 = var1.ACTION_ROW;
-                if(!(var1 !== var4)) { _fun0004_ip = 333; continue _fun0004 }
+                if(!(var1 !== var4)) { _fun0004_ip = 424; continue _fun0004 }
  52:
                 var6 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -344,7 +344,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var6.bind(var5)(var1);
                 var1 = var1.ComponentType;
                 var1 = var1.TEXT_INPUT;
-                if(!(var1 !== var4)) { _fun0004_ip = 245; continue _fun0004 }
+                if(!(var1 !== var4)) { _fun0004_ip = 336; continue _fun0004 }
  88:
                 var6 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -352,8 +352,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var6.bind(var5)(var1);
                 var1 = var1.ComponentType;
                 var1 = var1.STRING_SELECT;
-                if(!(var1 !== var4)) { _fun0004_ip = 157; continue _fun0004 }
- 121:
+                if(!(var1 !== var4)) { _fun0004_ip = 248; continue _fun0004 }
+ 124:
+                var6 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var1 = var1[var7];
+                var1 = var6.bind(var5)(var1);
+                var1 = var1.ComponentType;
+                var1 = var1.LABEL;
+                if(!(var1 !== var4)) { _fun0004_ip = 193; continue _fun0004 }
+ 157:
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var1 = 18;
@@ -363,7 +371,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = 'unreachable';
                 var1 = var6.bind(var5)(var4, var1);
                 return var5;
- 157:
+ 193:
+                var1 = {};
+                var4 = var2.type;
+                var1['type'] = var4;
+                var7 = _closure1_slot13;
+                var6 = _closure2_slot0;
+                var8 = var2.component;
+                var4 = new Array(1);
+                var4[0] = var8;
+                var6 = var7.bind(var5)(var6, var4);
+                var4 = 0;
+                var4 = var6[var4];
+                var1['component'] = var4;
+                return var1;
+ 248:
                 var7 = _closure1_slot11;
                 var6 = var7.getInteractionComponentState;
                 var4 = _closure2_slot0;
@@ -377,19 +399,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = null;
                 var7 = var4 == var6;
                 var8 = undefined;
-                if(var7) { _fun0004_ip = 223; continue _fun0004 }
- 218:
+                if(var7) { _fun0004_ip = 314; continue _fun0004 }
+ 309:
                 var8 = var6.type;
- 223:
+ 314:
                 var7 = var2.type;
                 var4 = null;
-                if(!(var8 === var7)) { _fun0004_ip = 239; continue _fun0004 }
- 234:
+                if(!(var8 === var7)) { _fun0004_ip = 330; continue _fun0004 }
+ 325:
                 var4 = var6.values;
- 239:
+ 330:
                 var1['values'] = var4;
                 return var1;
- 245:
+ 336:
                 var7 = _closure1_slot11;
                 var6 = var7.getInteractionComponentState;
                 var4 = _closure2_slot0;
@@ -403,19 +425,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = null;
                 var7 = var4 == var6;
                 var8 = undefined;
-                if(var7) { _fun0004_ip = 311; continue _fun0004 }
- 306:
+                if(var7) { _fun0004_ip = 402; continue _fun0004 }
+ 397:
                 var8 = var6.type;
- 311:
+ 402:
                 var7 = var2.type;
                 var4 = null;
-                if(!(var8 === var7)) { _fun0004_ip = 327; continue _fun0004 }
- 322:
+                if(!(var8 === var7)) { _fun0004_ip = 418; continue _fun0004 }
+ 413:
                 var4 = var6.value;
- 327:
+ 418:
                 var1['value'] = var4;
                 return var1;
- 333:
+ 424:
                 var1 = {};
                 var4 = var2.type;
                 var1['type'] = var4;
@@ -491,64 +513,71 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['useIsFirstTextInputInModal'] = var5;
     var5 = function useModalState(arg1, arg2) {
         var2 = arg1;
-        var14 = arg2;
+        var16 = arg2;
         var _closure2_slot0 = var2;
-        var _closure2_slot1 = var14;
-        var8 = var2.application;
-        var13 = var2.customId;
-        var _closure2_slot2 = var13;
-        var7 = var2.components;
-        var10 = _closure1_slot1;
-        var11 = _closure1_slot2;
+        var _closure2_slot1 = var16;
+        var10 = var2.application;
+        var15 = var2.customId;
+        var _closure2_slot2 = var15;
+        var9 = var2.components;
+        var12 = _closure1_slot1;
+        var13 = _closure1_slot2;
         var3 = 13;
-        var3 = var11[var3];
-        var6 = undefined;
-        var3 = var10.bind(var6)(var3);
-        var16 = var3.bind(var6)();
-        var _closure2_slot3 = var16;
+        var3 = var13[var3];
+        var8 = undefined;
+        var3 = var12.bind(var8)(var3);
+        var18 = var3.bind(var8)();
+        var _closure2_slot3 = var18;
         var4 = _closure1_slot4;
         var3 = var4.useState;
         var19 = null;
         var3 = var3.bind(var4)(var19);
-        var17 = _closure1_slot3;
-        var15 = 2;
-        var3 = var17.bind(var6)(var3, var15);
-        var12 = 0;
-        var4 = var3[var12];
+        var14 = _closure1_slot3;
+        var7 = 2;
+        var3 = var14.bind(var8)(var3, var7);
+        var4 = 0;
+        var6 = var3[var4];
         var5 = 1;
         var3 = var3[var5];
         var _closure2_slot4 = var3;
-        var18 = _closure1_slot4;
-        var3 = var18.useState;
-        var3 = var3.bind(var18)(var19);
-        var3 = var17.bind(var6)(var3, var15);
-        var15 = var3[var12];
-        var _closure2_slot5 = var15;
+        var17 = _closure1_slot4;
+        var3 = var17.useState;
+        var3 = var3.bind(var17)(var19);
+        var3 = var14.bind(var8)(var3, var7);
+        var17 = var3[var4];
+        var _closure2_slot5 = var17;
         var3 = var3[var5];
         var _closure2_slot6 = var3;
-        var5 = _closure1_slot0;
-        var3 = 14;
-        var3 = var11[var3];
-        var18 = var5.bind(var6)(var3);
-        var17 = var18.useStateFromStores;
-        var3 = _closure1_slot9;
-        var12 = new Array(1);
-        var12[0] = var3;
-        var5 = new Array(1);
-        var5[0] = var15;
-        var3 = function() {
+        var20 = _closure1_slot4;
+        var19 = var20.useState;
+        var3 = {};
+        var3 = var19.bind(var20)(var3);
+        var3 = var14.bind(var8)(var3, var7);
+        var4 = var3[var4];
+        var3 = var3[var5];
+        var7 = _closure1_slot0;
+        var5 = 14;
+        var5 = var13[var5];
+        var20 = var7.bind(var8)(var5);
+        var19 = var20.useStateFromStores;
+        var5 = _closure1_slot9;
+        var14 = new Array(1);
+        var14[0] = var5;
+        var7 = new Array(1);
+        var7[0] = var17;
+        var5 = function() {
             var3 = _closure1_slot9;
             var2 = var3.getModalState;
             var1 = _closure2_slot5;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var5 = var17.bind(var18)(var12, var3, var5);
-        var _closure2_slot7 = var5;
-        var3 = 15;
-        var3 = var11[var3];
-        var10 = var10.bind(var6)(var3);
-        var3 = function() {
+        var7 = var19.bind(var20)(var14, var5, var7);
+        var _closure2_slot7 = var7;
+        var5 = 15;
+        var5 = var13[var5];
+        var12 = var12.bind(var8)(var5);
+        var5 = function() {
             var1 = global;
             var1 = var1.Set;
             var2 = var1.prototype;
@@ -558,14 +587,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1 instanceof Object ? var1 : var2;
             return var1;
         };
-        var3 = var10.bind(var6)(var3);
-        var _closure2_slot8 = var3;
-        var12 = _closure1_slot4;
-        var11 = var12.useCallback;
-        var10 = new Array(3);
-        var10[0] = var16;
-        var10[1] = var2;
-        var10[2] = var3;
+        var5 = var12.bind(var8)(var5);
+        var _closure2_slot8 = var5;
+        var14 = _closure1_slot4;
+        var13 = var14.useCallback;
+        var12 = new Array(3);
+        var12[0] = var18;
+        var12[1] = var2;
+        var12[2] = var5;
         var2 = function() {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
@@ -612,15 +641,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var2 = var11.bind(var12)(var2, var10);
-        var12 = _closure1_slot4;
-        var11 = var12.useEffect;
-        var10 = new Array(4);
-        var10[0] = var15;
-        var10[1] = var5;
-        var10[2] = var14;
-        var10[3] = var13;
-        var9 = function() {
+        var2 = var13.bind(var14)(var2, var12);
+        var14 = _closure1_slot4;
+        var13 = var14.useEffect;
+        var12 = new Array(4);
+        var12[0] = var17;
+        var12[1] = var7;
+        var12[2] = var16;
+        var12[3] = var15;
+        var11 = function() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                 var4 = _closure2_slot7;
@@ -669,18 +698,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var9 = var11.bind(var12)(var9, var10);
+        var11 = var13.bind(var14)(var11, var12);
         var1 = _closure1_slot14;
-        var6 = var1.bind(var6)(var8);
+        var8 = var1.bind(var8)(var10);
         var1 = {};
-        var1['components'] = var7;
-        var7 = var6.applicationIconURL;
-        var1['applicationIconURL'] = var7;
-        var6 = var6.applicationName;
-        var1['applicationName'] = var6;
-        var1['submissionState'] = var5;
-        var1['error'] = var4;
-        var1['validators'] = var3;
+        var1['components'] = var9;
+        var9 = var8.applicationIconURL;
+        var1['applicationIconURL'] = var9;
+        var8 = var8.applicationName;
+        var1['applicationName'] = var8;
+        var1['submissionState'] = var7;
+        var1['error'] = var6;
+        var1['validators'] = var5;
+        var1['validationErrors'] = var4;
+        var1['setValidationErrors'] = var3;
         var1['onSubmit'] = var2;
         return var1;
     };

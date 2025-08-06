@@ -451,7 +451,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var1 = arg1;
-            var6 = var1.searchId;
+            var6 = var1.id;
             var5 = var1.queryString;
             var2 = var1.query;
             var4 = var1.offset;
@@ -463,10 +463,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var5 = var2 != var4;
             var2 = 0;
-            if(!var5) { _fun0010_ip = 66; continue _fun0010 }
- 63:
+            if(!var5) { _fun0010_ip = 65; continue _fun0010 }
+ 62:
             var2 = var4;
- 66:
+ 65:
             var3['searchResultsOffset'] = var2;
             return var1;
         }
@@ -476,42 +476,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var1 = arg1;
-            var2 = var1.searchId;
+            var2 = var1.id;
             var3 = _closure1_slot11;
             var4 = var3[var2];
             var3 = null;
-            if(!(var3 != var4)) { _fun0011_ip = 38; continue _fun0011 }
- 26:
+            if(!(var3 != var4)) { _fun0011_ip = 37; continue _fun0011 }
+ 25:
             var1 = _closure1_slot11;
             var1 = delete var1[var2];
             var1 = undefined;
             return var1;
- 38:
+ 37:
             var1 = false;
             return var1;
         }
     };
     var2['SEARCH_EDITOR_STATE_CLEAR'] = var9;
     var9 = function ensureEditorState(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
- 0:
-            var1 = arg1;
-            var3 = var1.searchId;
-            var1 = null;
-            if(!(var1 != var3)) { _fun0012_ip = 29; continue _fun0012 }
- 15:
-            var2 = _closure1_slot15;
-            var1 = undefined;
-            var1 = var2.bind(var1)(var3);
- 29:
-            var1 = undefined;
-            return var1;
-        }
+        var1 = arg1;
+        var3 = var1.id;
+        var2 = _closure1_slot15;
+        var1 = undefined;
+        var2 = var2.bind(var1)(var3);
+        return var1;
     };
     var2['SEARCH_ENSURE_SEARCH_STATE'] = var9;
     var9 = function setSearchState(arg1) {
         var1 = arg1;
-        var4 = var1.searchId;
+        var4 = var1.id;
         var3 = var1.editorState;
         var2 = _closure1_slot15;
         var1 = undefined;
@@ -522,7 +514,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SEARCH_EDITOR_STATE_CHANGE'] = var9;
     var9 = function setShowBlockedResults(arg1) {
         var1 = arg1;
-        var4 = var1.searchId;
+        var4 = var1.id;
         var3 = var1.showBlocked;
         var2 = _closure1_slot15;
         var1 = undefined;
@@ -533,7 +525,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SEARCH_SET_SHOW_BLOCKED_RESULTS'] = var9;
     var9 = function setShowNoResultsAlt(arg1) {
         var1 = arg1;
-        var3 = var1.searchId;
+        var3 = var1.id;
         var2 = _closure1_slot15;
         var1 = undefined;
         var3 = var2.bind(var1)(var3);
@@ -549,7 +541,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SEARCH_SET_SHOW_NO_RESULTS_ALT'] = var9;
     var9 = function handleSearchScreenOpen(arg1) {
         var1 = arg1;
-        var3 = var1.searchId;
+        var3 = var1.id;
         var2 = _closure1_slot17;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
@@ -557,13 +549,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['SEARCH_SCREEN_OPEN'] = var9;
     var4 = function handleChannelSelect(arg1) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var1 = arg1;
             var3 = var1.guildId;
             var5 = var1.channelId;
             var1 = null;
-            if(!(var1 == var3)) { _fun0013_ip = 107; continue _fun0013 }
+            if(!(var1 == var3)) { _fun0012_ip = 107; continue _fun0012 }
  19:
             var6 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -579,15 +571,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['autoTrackExposure'] = var8;
             var6 = var6.bind(var7)(var2);
             var2 = _closure1_slot17;
-            if(var6) { _fun0013_ip = 90; continue _fun0013 }
+            if(var6) { _fun0012_ip = 90; continue _fun0012 }
  83:
             var5 = var2.bind(var4)(var5);
-            _fun0013_ip = 121; continue _fun0013;
+            _fun0012_ip = 121; continue _fun0012;
  90:
             var1 = _closure1_slot10;
             var1 = var1.DMS;
             var1 = var2.bind(var4)(var1);
-            _fun0013_ip = 121; continue _fun0013;
+            _fun0012_ip = 121; continue _fun0012;
  107:
             var2 = _closure1_slot17;
             var1 = undefined;

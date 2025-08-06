@@ -279,7 +279,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.isNonUserBot;
                     var2 = var3.bind(var4)();
  30:
-                    if(var2) { _fun0003_ip = 103; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 99; continue _fun0003 }
  33:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -294,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var6)(var7, var1);
                     var1 = {'withMutualGuilds': true, 'dispatchWait': true};
                     var1 = var4.bind(var5)(var3, var2, var1);
- 103:
+ 99:
                     var1 = undefined;
                     return var1;
                 }

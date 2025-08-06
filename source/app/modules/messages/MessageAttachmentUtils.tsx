@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.type;
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var9 = 7;
+            var9 = 6;
             var4 = var2[var9];
             var2 = undefined;
             var4 = var7.bind(var2)(var4);
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = {};
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var5 = 4;
+            var5 = 3;
             var5 = var10[var5];
             var5 = var9.bind(var2)(var5);
             var5 = var5.ObscuredMediaTypes;
@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = {};
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var5 = 4;
+            var5 = 3;
             var5 = var10[var5];
             var5 = var9.bind(var2)(var5);
             var5 = var5.ObscuredMediaTypes;
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = {};
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var5 = 4;
+            var5 = 3;
             var5 = var10[var5];
             var5 = var9.bind(var2)(var5);
             var5 = var5.ObscuredMediaTypes;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  290:
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var3 = 3;
+            var3 = 2;
             var5 = var9[var3];
             var10 = var4.bind(var2)(var5);
             var5 = var10.getMediaObscuredReasonFromBitmask;
@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var7;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var7 = 5;
+            var7 = 4;
             var7 = var9[var7];
             var7 = var8.bind(var2)(var7);
             var7 = var7.ObscureReason;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var7;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var6 = 5;
+            var6 = 4;
             var6 = var8[var6];
             var6 = var7.bind(var2)(var6);
             var6 = var6.ObscureReason;
@@ -162,7 +162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -178,16 +178,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var5;
     var5 = 1;
     var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot4 = var5;
-    var5 = 2;
-    var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var8 = var5.MessageAttachmentFlags;
-    var _closure1_slot5 = var8;
+    var _closure1_slot4 = var8;
     var5 = var5.Permissions;
-    var _closure1_slot6 = var5;
-    var5 = 12;
+    var _closure1_slot5 = var5;
+    var5 = 11;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -209,12 +205,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  30:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var5 = 3;
+            var5 = 2;
             var2 = var14[var5];
             var9 = var13.bind(var6)(var2);
             var7 = var9.getMediaObscuredReasonFromBitmask;
             var2 = {};
-            var12 = 4;
+            var12 = 3;
             var15 = var14[var12];
             var15 = var13.bind(var6)(var15);
             var15 = var15.ObscuredMediaTypes;
@@ -242,11 +238,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  171:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 6;
+            var1 = 5;
             var1 = var7[var1];
             var7 = var5.bind(var6)(var1);
             var5 = var7.hasFlag;
-            var1 = _closure1_slot5;
+            var1 = _closure1_slot4;
             var1 = var1.IS_SPOILER;
             var5 = var5.bind(var7)(var8, var1);
             var1 = null;
@@ -254,7 +250,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  218:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = 5;
+            var5 = 4;
             var5 = var8[var5];
             var5 = var7.bind(var6)(var5);
             var5 = var5.ObscureReason;
@@ -264,7 +260,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  252:
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var4 = 5;
+            var4 = 4;
             var4 = var7[var4];
             var4 = var5.bind(var6)(var4);
             var4 = var4.ObscureReason;
@@ -278,88 +274,79 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['getObscureReasonForAttachment'] = var5;
-    var5 = function(arg1, arg2, arg3, arg4, arg5) {
+    var5 = function(arg1, arg2, arg3, arg4) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            var10 = arg1;
-            var9 = arg5;
-            var4 = _closure1_slot3;
-            var3 = var4.getMessage;
-            var2 = arg2;
-            var1 = arg3;
-            var2 = var3.bind(var4)(var2, var1);
+            var9 = arg1;
+            var8 = arg4;
+            var10 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var2 = 2;
+            var1 = var7[var2];
+            var6 = undefined;
+            var5 = var10.bind(var6)(var1);
+            var3 = var5.getMediaObscuredReasonFromBitmask;
+            var1 = {};
+            var12 = 3;
+            var7 = var7[var12];
+            var7 = var10.bind(var6)(var7);
+            var7 = var7.ObscuredMediaTypes;
+            var7 = var7.Embed;
+            var1['type'] = var7;
+            var1['media'] = var9;
+            var3 = var3.bind(var5)(var1, var8);
+            var1 = arg2;
+            var1 = var1.author;
+            var1 = var1.bot;
+            var1 = !var1;
+            if(!var1) { _fun0003_ip = 160; continue _fun0003 }
+ 99:
+            var11 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var2 = var10[var2];
+            var7 = var11.bind(var6)(var2);
+            var5 = var7.isMediaScanPending;
+            var2 = {};
+            var10 = var10[var12];
+            var10 = var11.bind(var6)(var10);
+            var10 = var10.ObscuredMediaTypes;
+            var10 = var10.Embed;
+            var2['type'] = var10;
+            var2['media'] = var9;
+            var1 = var5.bind(var7)(var2, var8);
+ 160:
+            var5 = var3.length;
+            var2 = 0;
+            if(!(!(var5 > var2))) { _fun0003_ip = 250; continue _fun0003 }
+ 171:
+            if(var1) { _fun0003_ip = 216; continue _fun0003 }
+ 174:
+            var5 = arg3;
             var1 = null;
-            if(!(var1 != var2)) { _fun0003_ip = 284; continue _fun0003 }
- 40:
-            var12 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var3 = 3;
-            var4 = var11[var3];
-            var7 = undefined;
-            var8 = var12.bind(var7)(var4);
-            var6 = var8.getMediaObscuredReasonFromBitmask;
-            var4 = {};
-            var13 = 4;
-            var11 = var11[var13];
-            var11 = var12.bind(var7)(var11);
-            var11 = var11.ObscuredMediaTypes;
-            var11 = var11.Embed;
-            var4['type'] = var11;
-            var4['media'] = var10;
-            var4 = var6.bind(var8)(var4, var9);
-            var2 = var2.author;
-            var2 = var2.bot;
-            var2 = !var2;
-            if(!var2) { _fun0003_ip = 188; continue _fun0003 }
- 127:
-            var12 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var3 = var11[var3];
-            var8 = var12.bind(var7)(var3);
-            var6 = var8.isMediaScanPending;
-            var3 = {};
-            var11 = var11[var13];
-            var11 = var12.bind(var7)(var11);
-            var11 = var11.ObscuredMediaTypes;
-            var11 = var11.Embed;
-            var3['type'] = var11;
-            var3['media'] = var10;
-            var2 = var6.bind(var8)(var3, var9);
- 188:
-            var6 = var4.length;
-            var3 = 0;
-            if(!(!(var6 > var3))) { _fun0003_ip = 278; continue _fun0003 }
- 199:
-            if(var2) { _fun0003_ip = 244; continue _fun0003 }
- 202:
-            var6 = arg4;
-            var2 = null;
-            if(!var6) { _fun0003_ip = 242; continue _fun0003 }
- 210:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var6 = 5;
-            var6 = var9[var6];
-            var6 = var8.bind(var7)(var6);
-            var6 = var6.ObscureReason;
-            var2 = var6.SPOILER;
- 242:
-            _fun0003_ip = 276; continue _fun0003;
- 244:
-            var6 = _closure1_slot0;
+            if(!var5) { _fun0003_ip = 214; continue _fun0003 }
+ 182:
+            var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var5 = 5;
+            var5 = 4;
             var5 = var8[var5];
-            var5 = var6.bind(var7)(var5);
+            var5 = var7.bind(var6)(var5);
             var5 = var5.ObscureReason;
-            var2 = var5.POTENTIAL_EXPLICIT_CONTENT;
- 276:
-            _fun0003_ip = 282; continue _fun0003;
- 278:
-            var2 = var4[var3];
- 282:
-            return var2;
- 284:
+            var1 = var5.SPOILER;
+ 214:
+            _fun0003_ip = 248; continue _fun0003;
+ 216:
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 4;
+            var4 = var7[var4];
+            var4 = var5.bind(var6)(var4);
+            var4 = var4.ObscureReason;
+            var1 = var4.POTENTIAL_EXPLICIT_CONTENT;
+ 248:
+            _fun0003_ip = 254; continue _fun0003;
+ 250:
+            var1 = var3[var2];
+ 254:
             return var1;
         }
     };
@@ -382,12 +369,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  26:
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var5 = 3;
+            var5 = 2;
             var6 = var11[var5];
             var8 = var12.bind(var4)(var6);
             var7 = var8.getMediaObscuredReasonFromBitmask;
             var6 = {};
-            var13 = 4;
+            var13 = 3;
             var11 = var11[var13];
             var11 = var12.bind(var4)(var11);
             var11 = var11.ObscuredMediaTypes;
@@ -415,7 +402,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.includes;
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var5 = 5;
+            var5 = 4;
             var6 = var6[var5];
             var6 = var9.bind(var4)(var6);
             var6 = var6.ObscureReason;
@@ -484,12 +471,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var1.media;
         var10 = _closure1_slot0;
         var9 = _closure1_slot2;
-        var3 = 8;
+        var3 = 7;
         var3 = var9[var3];
         var4 = undefined;
         var7 = var10.bind(var4)(var3);
         var6 = var7.useStateFromStores;
-        var8 = _closure1_slot4;
+        var8 = _closure1_slot3;
         var3 = new Array(1);
         var3[0] = var8;
         var2 = function() {
@@ -500,9 +487,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1 != var3;
                 if(!var1) { _fun0005_ip = 49; continue _fun0005 }
  16:
-                var5 = _closure1_slot4;
+                var5 = _closure1_slot3;
                 var4 = var5.can;
-                var3 = _closure1_slot6;
+                var3 = _closure1_slot5;
                 var3 = var3.MANAGE_MESSAGES;
                 var2 = _closure2_slot0;
                 var1 = var4.bind(var5)(var3, var2);
@@ -511,25 +498,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var7 = var6.bind(var7)(var3, var2);
-        var2 = 9;
+        var2 = 8;
         var2 = var9[var2];
         var2 = var10.bind(var4)(var2);
         var3 = var2.RenderSpoilers;
         var2 = var3.useSetting;
         var6 = var2.bind(var3)();
-        var2 = 3;
+        var2 = 2;
         var2 = var9[var2];
         var8 = var10.bind(var4)(var2);
         var3 = var8.getEnabledHarmTypesBitmaskForChannelType;
-        var2 = 4;
+        var2 = 3;
         var2 = var9[var2];
         var2 = var10.bind(var4)(var2);
         var2 = var2.ContentHarmTypeChannel;
         var2 = var2.GUILD;
         var3 = var3.bind(var8)(var2);
-        var2 = _closure1_slot7;
+        var2 = _closure1_slot6;
         var8 = _closure1_slot1;
-        var1 = 10;
+        var1 = 9;
         var1 = var9[var1];
         var1 = var8.bind(var4)(var1);
         var1 = var1.bind(var4)(var6, var7);
@@ -544,7 +531,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg1;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var6 = 5;
+            var6 = 4;
             var2 = var2[var6];
             var5 = undefined;
             var2 = var4.bind(var5)(var2);
@@ -572,7 +559,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  115:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 11;
+            var2 = 10;
             var3 = var7[var2];
             var3 = var6.bind(var5)(var3);
             var4 = var3.intl;
@@ -586,7 +573,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  174:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 11;
+            var1 = 10;
             var2 = var6[var1];
             var2 = var4.bind(var5)(var2);
             var3 = var2.intl;

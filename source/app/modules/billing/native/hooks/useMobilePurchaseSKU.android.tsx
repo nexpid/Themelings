@@ -310,23 +310,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                         StartGenerator();
-                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 421; continue _fun0003 }
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
+                        if(var3) { _fun0003_ip = 481; continue _fun0003 }
  10:
-                        var2 = undefined;
                         var4 = undefined;
+                        var2 = undefined;
                         var5 = _closure2_slot9;
                         var5 = var5.current;
-                        if(var5) { _fun0003_ip = 385; continue _fun0003 }
- 32: // try_start_3
+                        if(var5) { _fun0003_ip = 445; continue _fun0003 }
+ 32: // try_start_3 // try_start_5
                         var5 = _closure2_slot9;
                         var6 = true;
                         var5['current'] = var6;
                         var5 = _closure2_slot10;
-                        if(!var5) { _fun0003_ip = 276; continue _fun0003 }
+                        if(!var5) { _fun0003_ip = 286; continue _fun0003 }
  54:
                         var5 = _closure2_slot11;
-                        if(var5) { _fun0003_ip = 276; continue _fun0003 }
+                        if(var5) { _fun0003_ip = 286; continue _fun0003 }
  64:
                         var7 = _closure2_slot5;
                         var5 = null;
@@ -336,98 +336,119 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = _closure1_slot2;
                         var5 = 11;
                         var5 = var8[var5];
-                        var5 = var7.bind(var2)(var5);
+                        var5 = var7.bind(var4)(var5);
                         var5 = var5.purchaseSKU;
                         _fun0003_ip = 109; continue _fun0003;
  105:
                         var5 = _closure2_slot5;
  109:
-                        var4 = var5;
+                        var2 = var5;
  112: // try_start_0 // try_start_1
-                        var8 = var4;
-                        var4 = _closure2_slot0;
-                        var7 = var4.skuId;
+                        var8 = var2;
+                        var2 = _closure2_slot0;
+                        var7 = var2.skuId;
                         var5 = {};
-                        var4 = 0;
-                        var5['expectedAmount'] = var4;
+                        var2 = 0;
+                        var5['expectedAmount'] = var2;
                         var9 = _closure1_slot6;
                         var9 = var9.USD;
                         var5['expectedCurrency'] = var9;
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;
-                        var4 = 12;
-                        var4 = var10[var4];
-                        var9 = var9.bind(var2)(var4);
-                        var4 = var9.v4;
-                        var4 = var4.bind(var9)();
-                        var5['loadId'] = var4;
-                        var4 = 'collectibles';
-                        var4 = var8.bind(var2)(var4, var7, var5);
+                        var2 = 12;
+                        var2 = var10[var2];
+                        var9 = var9.bind(var4)(var2);
+                        var2 = var9.v4;
+                        var2 = var2.bind(var9)();
+                        var5['loadId'] = var2;
+                        var2 = 'collectibles';
+                        var2 = var8.bind(var4)(var2, var7, var5);
                         SaveGenerator(address=202);
  200:
-                        return var4;
+                        return var2;
  202:
-                        ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
                         if(var5) { _fun0003_ip = 233; continue _fun0003 }
  208:
                         var5 = _closure2_slot3;
-                        var5 = var5.bind(var2)();
+                        var5 = var5.bind(var4)();
  216: // try_end0 // try_end1
                         var7 = _closure2_slot9;
                         var5 = false;
                         var7['current'] = var5;
-                        _fun0003_ip = 366; continue _fun0003;
+                        _fun0003_ip = 395; continue _fun0003;
  233:
-                        var7 = _closure2_slot9;
-                        var5 = false;
-                        var7['current'] = var5;
- 245: // try_end3
-                        return var4;
- 248: // try_start_2 // try_start_4 // catch_target0
-                        CatchBlockStart(arg_register=3);
+                        var5 = _closure2_slot9;
+                        var7 = false;
+                        var5['current'] = var7;
+ 245: // try_end3 // try_end5
+                        var5 = _closure2_slot9;
+                        var5['current'] = var7;
+                        return var2;
+ 258: // try_start_2 // try_start_4 // try_start_6 // catch_target0
+                        CatchBlockStart(arg_register=1);
                         var5 = _closure2_slot4;
-                        var5 = var5.bind(var2)();
-                        throw var4;
- 260: // try_end2 // catch_target1 // catch_target2
-                        CatchBlockStart(arg_register=3);
+                        var5 = var5.bind(var4)();
+                        throw var2;
+ 270: // try_end2 // catch_target1 // catch_target2
+                        CatchBlockStart(arg_register=1);
                         var7 = _closure2_slot9;
                         var5 = false;
                         var7['current'] = var5;
-                        throw var4;
- 276:
+                        throw var2;
+ 286:
                         var5 = _closure2_slot8;
-                        var4 = {};
+                        var2 = {};
                         var7 = _closure2_slot13;
-                        var4['productId'] = var7;
+                        var2['productId'] = var7;
                         var7 = _closure2_slot12;
-                        var4['skuId'] = var7;
-                        var4['isOneTimePurchase'] = var6;
+                        var2['skuId'] = var7;
+                        var2['isOneTimePurchase'] = var6;
                         var6 = _closure2_slot2;
-                        var4['analyticsLoadId'] = var6;
+                        var2['analyticsLoadId'] = var6;
                         var6 = _closure2_slot1;
-                        var4['analyticsLocations'] = var6;
+                        var2['analyticsLocations'] = var6;
                         var6 = _closure2_slot11;
-                        var4['isGift'] = var6;
+                        var2['isGift'] = var6;
                         var7 = _closure2_slot7;
                         var6 = null;
                         var7 = var6 == var7;
                         var6 = undefined;
-                        if(var7) { _fun0003_ip = 356; continue _fun0003 }
- 347:
+                        if(var7) { _fun0003_ip = 366; continue _fun0003 }
+ 357:
                         var7 = _closure2_slot7;
                         var6 = var7.options;
- 356:
-                        var4['giftInfoOptions'] = var6;
-                        var4 = var5.bind(var2)(var4);
- 366: // try_end4
+ 366:
+                        var2['giftInfoOptions'] = var6;
+                        var6 = _closure2_slot4;
+                        var2['onPurchaseError'] = var6;
+                        var2 = var5.bind(var4)(var2);
+                        SaveGenerator(address=389);
+ 387:
                         return var2;
- 369: // catch_target3 // catch_target4
+ 389:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                        if(var5) { _fun0003_ip = 410; continue _fun0003 }
+ 395: // try_end4 // try_end6
+                        var6 = _closure2_slot9;
+                        var5 = false;
+                        var6['current'] = var5;
+                        return var4;
+ 410:
+                        var5 = _closure2_slot9;
+                        var4 = false;
+                        var5['current'] = var4;
+                        return var2;
+ 425: // try_start_7 // catch_target3 // catch_target4
+                        CatchBlockStart(arg_register=1);
+                        throw var2;
+ 429: // try_end7 // catch_target5 // catch_target6 // catch_target7
                         CatchBlockStart(arg_register=1);
                         var4 = _closure2_slot9;
                         var3 = false;
                         var4['current'] = var3;
                         throw var2;
- 385:
+ 445:
                         var2 = global;
                         var4 = var2.Error;
                         var2 = var4.prototype;
@@ -437,7 +458,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = new var14[var4](var13, var12);
                         var2 = var2 instanceof Object ? var2 : var3;
                         throw var2;
- 421:
+ 481:
                         return var1;
                     }
                 };

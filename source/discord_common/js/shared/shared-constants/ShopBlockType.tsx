@@ -34,6 +34,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COUNTDOWN_TIMER'] = var5;
     var1 = 'COUNTDOWN_TIMER';
     var2[var5] = var1;
+    var5 = 6;
+    var2['IMMERSIVE_BANNER'] = var5;
+    var1 = 'IMMERSIVE_BANNER';
+    var2[var5] = var1;
     var1 = dependencyMap;
     var5 = var1[var4];
     var4 = require;

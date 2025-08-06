@@ -126,25 +126,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6[var9];
             var6 = var7.bind(var8)(var6);
             var7 = var6.colors;
-            if(var5) { _fun0001_ip = 329; continue _fun0001 }
- 307:
+            if(var5) { _fun0001_ip = 333; continue _fun0001 }
+ 311:
             var6 = arg2;
-            if(var6) { _fun0001_ip = 321; continue _fun0001 }
- 313:
+            if(var6) { _fun0001_ip = 325; continue _fun0001 }
+ 317:
             var6 = var7.TEXT_MUTED;
-            _fun0001_ip = 327; continue _fun0001;
- 321:
+            _fun0001_ip = 331; continue _fun0001;
+ 325:
             var6 = var7.TEXT_PRIMARY;
- 327:
-            _fun0001_ip = 335; continue _fun0001;
- 329:
+ 331:
+            _fun0001_ip = 339; continue _fun0001;
+ 333:
             var6 = var7.INTERACTIVE_MUTED;
- 335:
+ 339:
             var2['tintColor'] = var6;
-            if(var5) { _fun0001_ip = 347; continue _fun0001 }
- 343:
-            var3 = _closure1_slot8;
+            if(var5) { _fun0001_ip = 351; continue _fun0001 }
  347:
+            var3 = _closure1_slot8;
+ 351:
             var2['opacity'] = var3;
             var1['icon'] = var2;
             return var1;

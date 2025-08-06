@@ -34,49 +34,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var11 = var1.type;
-            var _closure2_slot0 = var11;
-            var3 = var1.style;
-            var15 = var1.label;
-            var14 = var1.placeholder;
-            var12 = var1.required;
-            var13 = var1.maxLength;
+            var15 = var1.type;
+            var _closure2_slot0 = var15;
+            var4 = var1.style;
+            var9 = var1.label;
+            var12 = var1.placeholder;
+            var8 = var1.required;
+            var10 = var1.maxLength;
             var16 = var1.value;
             var _closure2_slot1 = var16;
             var7 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var5 = 3;
-            var6 = var6[var5];
+            var5 = _closure1_slot1;
+            var3 = 3;
+            var3 = var5[var3];
             var5 = undefined;
-            var9 = var7.bind(var5)(var6);
-            var7 = var9.useComponentState;
-            var8 = null;
-            var10 = var8 != var16;
-            var6 = undefined;
-            if(!var10) { _fun0001_ip = 106; continue _fun0001 }
+            var13 = var7.bind(var5)(var3);
+            var11 = var13.useComponentState;
+            var3 = null;
+            var14 = var3 != var16;
+            var7 = undefined;
+            if(!var14) { _fun0001_ip = 106; continue _fun0001 }
  93:
-            var10 = {};
-            var10['type'] = var11;
-            var10['value'] = var16;
-            var6 = var10;
+            var14 = {};
+            var14['type'] = var15;
+            var14['value'] = var16;
+            var7 = var14;
  106:
-            var6 = var7.bind(var9)(var1, var6);
-            var7 = var6.state;
-            var _closure2_slot2 = var7;
-            var10 = var6.executeStateUpdate;
-            var _closure2_slot3 = var10;
-            var7 = var6.error;
-            var9 = _closure1_slot0;
+            var7 = var11.bind(var13)(var1, var7);
+            var11 = var7.state;
+            var _closure2_slot2 = var11;
+            var14 = var7.executeStateUpdate;
+            var _closure2_slot3 = var14;
+            var7 = var7.error;
+            var13 = _closure1_slot0;
             var16 = _closure1_slot1;
-            var6 = 4;
-            var6 = var16[var6];
-            var9 = var9.bind(var5)(var6);
-            var6 = var9.useIsFirstTextInputInModal;
+            var11 = 4;
+            var11 = var16[var11];
+            var13 = var13.bind(var5)(var11);
+            var11 = var13.useIsFirstTextInputInModal;
             var1 = var1.id;
-            var1 = var6.bind(var9)(var1);
+            var1 = var11.bind(var13)(var1);
             var16 = _closure1_slot3;
-            var9 = var16.useState;
-            var6 = function() {
+            var13 = var16.useState;
+            var11 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var3 = _closure2_slot2;
@@ -100,32 +100,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var9 = var9.bind(var16)(var6);
-            var6 = {};
-            var6['label'] = var15;
-            var6['placeholder'] = var14;
-            var6['maxLength'] = var13;
-            var6['required'] = var12;
-            var12 = var8 != var7;
-            var8 = 'default';
-            if(!var12) { _fun0001_ip = 229; continue _fun0001 }
- 225:
-            var8 = 'error';
- 229:
-            var6['status'] = var8;
-            var6['errorMessage'] = var7;
-            var8 = _closure1_slot2;
-            var7 = 1;
-            var8 = var8.bind(var5)(var9, var7);
-            var7 = 0;
-            var7 = var8[var7];
-            var6['defaultValue'] = var7;
-            var9 = _closure1_slot3;
-            var8 = var9.useCallback;
-            var7 = new Array(2);
-            var7[0] = var11;
-            var7[1] = var10;
-            var4 = function(arg1) {
+            var13 = var13.bind(var16)(var11);
+            var11 = {};
+            var11['placeholder'] = var12;
+            var11['maxLength'] = var10;
+            var12 = var3 != var7;
+            var10 = 'default';
+            if(!var12) { _fun0001_ip = 220; continue _fun0001 }
+ 216:
+            var10 = 'error';
+ 220:
+            var11['status'] = var10;
+            var12 = _closure1_slot2;
+            var10 = 1;
+            var12 = var12.bind(var5)(var13, var10);
+            var10 = 0;
+            var10 = var12[var10];
+            var11['defaultValue'] = var10;
+            var13 = _closure1_slot3;
+            var12 = var13.useCallback;
+            var10 = new Array(2);
+            var10[0] = var15;
+            var10[1] = var14;
+            var6 = function(arg1) {
                 var3 = _closure2_slot3;
                 var2 = {};
                 var1 = _closure2_slot0;
@@ -136,52 +133,78 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var1)(var2);
                 return var1;
             };
-            var4 = var8.bind(var9)(var4, var7);
-            var6['onChange'] = var4;
-            var6['autoFocus'] = var1;
+            var6 = var12.bind(var13)(var6, var10);
+            var11['onChange'] = var6;
+            var11['autoFocus'] = var1;
             var1 = true;
-            var6['isClearable'] = var1;
-            var4 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var1 = 5;
-            var1 = var7[var1];
-            var1 = var4.bind(var5)(var1);
+            var11['isClearable'] = var1;
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var10 = 5;
+            var1 = var1[var10];
+            var1 = var6.bind(var5)(var1);
+            var1 = var1.TextInputComponentStyle;
+            var1 = var1.SMALL;
+            if(!(var1 !== var4)) { _fun0001_ip = 420; continue _fun0001 }
+ 335:
+            var6 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var10];
+            var1 = var6.bind(var5)(var1);
             var1 = var1.TextInputComponentStyle;
             var1 = var1.PARAGRAPH;
-            if(!(var3 !== var1)) { _fun0001_ip = 399; continue _fun0001 }
- 349:
-            var4 = _closure1_slot4;
-            var3 = _closure1_slot0;
-            var7 = _closure1_slot1;
+            var6 = undefined;
+            if(!(var1 === var4)) { _fun0001_ip = 468; continue _fun0001 }
+ 370:
+            var10 = _closure1_slot4;
+            var4 = _closure1_slot0;
+            var12 = _closure1_slot1;
             var1 = 7;
-            var1 = var7[var1];
-            var1 = var3.bind(var5)(var1);
-            var3 = var1.TextInput;
+            var1 = var12[var1];
+            var1 = var4.bind(var5)(var1);
+            var4 = var1.TextAreaField;
             var1 = {};
             var19 = var1;
-            var18 = var6;
-            var7 = copyDataProperties(var19, var18);
-            var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 447; continue _fun0001;
- 399:
+            var18 = var11;
+            var12 = copyDataProperties(var19, var18);
+            var6 = var10.bind(var5)(var4, var1);
+            _fun0001_ip = 468; continue _fun0001;
+ 420:
+            var10 = _closure1_slot4;
+            var4 = _closure1_slot0;
+            var12 = _closure1_slot1;
+            var1 = 6;
+            var1 = var12[var1];
+            var1 = var4.bind(var5)(var1);
+            var4 = var1.TextField;
+            var1 = {};
+            var19 = var1;
+            var18 = var11;
+            var11 = copyDataProperties(var19, var18);
+            var6 = var10.bind(var5)(var4, var1);
+ 468:
+            var1 = var6;
+            if(!(var3 != var9)) { _fun0001_ip = 531; continue _fun0001 }
+ 475:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
-            var7 = _closure1_slot1;
-            var2 = 6;
-            var2 = var7[var2];
+            var10 = _closure1_slot1;
+            var2 = 8;
+            var2 = var10[var2];
             var2 = var3.bind(var5)(var2);
-            var3 = var2.TextArea;
+            var3 = var2.Input;
             var2 = {};
-            var19 = var2;
-            var18 = var6;
-            var6 = copyDataProperties(var19, var18);
+            var2['label'] = var9;
+            var2['required'] = var8;
+            var2['errorMessage'] = var7;
+            var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 447:
+ 531:
             return var1;
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

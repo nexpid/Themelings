@@ -132,18 +132,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    var2 = _closure2_slot0;
-                    var4 = var2.type;
-                    var3 = _closure1_slot9;
-                    var3 = var3.ATTACHMENT;
-                    if(!(var4 !== var3)) { _fun0002_ip = 120; continue _fun0002 }
- 29:
-                    var3 = _closure2_slot0;
-                    var4 = var3.type;
-                    var3 = _closure1_slot9;
-                    var3 = var3.EMBED;
-                    if(!(var4 !== var3)) { _fun0002_ip = 120; continue _fun0002 }
- 52:
                     var4 = _closure1_slot8;
                     var3 = var4.getMessage;
                     var1 = _closure2_slot0;
@@ -151,8 +139,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var3.bind(var4)(var1);
                     var1 = null;
                     var1 = var1 != var4;
-                    if(!var1) { _fun0002_ip = 118; continue _fun0002 }
- 85:
+                    if(!var1) { _fun0002_ip = 72; continue _fun0002 }
+ 39:
                     var5 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var2 = 9;
@@ -161,10 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var5.bind(var3)(var2);
                     var2 = var2.bind(var3)(var4);
                     var1 = var2.hasSpoilerEmbeds;
- 118:
-                    return var1;
- 120:
-                    var1 = false;
+ 72:
                     return var1;
                 }
             };
@@ -255,7 +240,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1[var5];
             var12 = var22.bind(var4)(var6);
             var10 = var12.useAnimatedStyle;
-            var6 = function D() {
+            var6 = function M() {
                 var1 = {};
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;

@@ -40,8 +40,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var7[var8];
     var8 = var9.bind(var1)(var8);
     var _closure1_slot6 = var8;
-    var8 = new Array(0);
-    var _closure1_slot7 = var8;
     var9 = var4.Object;
     var8 = var9.freeze;
     var4 = {};
@@ -50,13 +48,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = null;
     var4['count'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = function() {
-        var1 = _closure1_slot8;
+        var1 = _closure1_slot7;
         return var1;
     };
     var4 = var5.bind(var1)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var5 = 11;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
@@ -251,7 +249,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                         var3 = arg1;
-                        var2 = var3.toLowerCase;
+                        var2 = var3.toLocaleLowerCase;
                         var3 = var2.bind(var3)();
                         var2 = var3.trim;
                         var2 = var2.bind(var3)();
@@ -289,11 +287,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = 7;
                             var5 = var5[var4];
                             var4 = undefined;
-                            var7 = var6.bind(var4)(var5);
-                            var6 = var7.matchGroupDM;
-                            var5 = _closure1_slot7;
+                            var6 = var6.bind(var4)(var5);
+                            var5 = var6.matchGroupDM;
                             var4 = _closure4_slot0;
-                            var4 = var6.bind(var7)(var2, var5, var4);
+                            var4 = var5.bind(var6)(var2, var4);
                             var1[1] = var4;
                             var4 = _closure1_slot5;
                             var3 = var4.getScoreWithoutFetchingLatest;
@@ -528,7 +525,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var4 = var3.bind(var5)(var2, var4);
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot8;
                 var2 = var3.setState;
                 var1 = {};
                 var1['data'] = var5;
@@ -575,7 +572,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.useEffect;
         var3 = function() {
             var1 = function() {
-                var2 = _closure1_slot9;
+                var2 = _closure1_slot8;
                 var1 = var2.resetState;
                 var1 = var1.bind(var2)();
                 var1 = undefined;
@@ -585,7 +582,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var2 = new Array(0);
         var2 = var4.bind(var5)(var3, var2);
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot8;
         var2 = var3.useField;
         var1 = 'count';
         var1 = var2.bind(var3)(var1);
@@ -594,7 +591,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var5;
     var3['PeopleSearchTabStore'] = var4;
     var4 = function usePeopleSearchResults() {
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot8;
         var2 = var3.useField;
         var1 = 'data';
         var1 = var2.bind(var3)(var1);
@@ -602,7 +599,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['usePeopleSearchResults'] = var4;
     var2 = function getPeopleSearchResultsCount() {
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot8;
         var2 = var3.getField;
         var1 = 'count';
         var1 = var2.bind(var3)(var1);

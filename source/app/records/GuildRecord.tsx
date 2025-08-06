@@ -49,14 +49,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 1;
     var5 = var8[var5];
     var5 = var7.bind(var1)(var5);
-    var14 = var5.GuildExplicitContentFilterTypes;
-    var17 = var5.MFALevels;
-    var _closure1_slot4 = var17;
     var13 = var5.BoostedGuildTiers;
+    var14 = var5.GuildExplicitContentFilterTypes;
+    var12 = var5.GuildNSFWContentLevel;
+    var _closure1_slot4 = var12;
+    var17 = var5.MFALevels;
+    var _closure1_slot5 = var17;
     var16 = var5.UserNotificationSettings;
     var15 = var5.VerificationLevels;
-    var12 = var5.GuildNSFWContentLevel;
-    var _closure1_slot5 = var12;
     var9 = var10.Object;
     var6 = var9.freeze;
     var5 = {'mfaLevel': null, 'preferredLocale': 'en-US', 'afkTimeout': 0};
@@ -224,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!var2) { _fun0004_ip = 41; continue _fun0004 }
  18:
             var3 = var5.mfaLevel;
-            var1 = _closure1_slot4;
+            var1 = _closure1_slot5;
             var1 = var1.ELEVATED;
             var2 = var3 === var1;
  41:
@@ -297,13 +297,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!var1) { _fun0006_ip = 61; continue _fun0006 }
  12:
             var5 = var4.ownerConfiguredContentLevel;
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot4;
             var2 = var2.EXPLICIT;
             var2 = var5 === var2;
             if(var2) { _fun0006_ip = 58; continue _fun0006 }
  38:
             var4 = var4.ownerConfiguredContentLevel;
-            var3 = _closure1_slot5;
+            var3 = _closure1_slot4;
             var3 = var3.AGE_RESTRICTED;
             var2 = var4 === var3;
  58:

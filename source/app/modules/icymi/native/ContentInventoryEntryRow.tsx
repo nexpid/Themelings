@@ -47,17 +47,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  26:
             var5 = false;
  28:
-            var10 = var1.visible;
-            var8 = var1.mediaMosaicMaxWidth;
+            var9 = var1.visible;
             var7 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var3 = 3;
-            var3 = var9[var3];
-            var9 = var7.bind(var4)(var3);
-            var7 = var9.useStateFromStores;
-            var11 = _closure1_slot3;
+            var3 = var8[var3];
+            var8 = var7.bind(var4)(var3);
+            var7 = var8.useStateFromStores;
+            var10 = _closure1_slot3;
             var3 = new Array(1);
-            var3[0] = var11;
+            var3[0] = var10;
             var2 = function() {
                 var3 = _closure1_slot3;
                 var2 = var3.isBlockedOrIgnored;
@@ -66,58 +65,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var2 = var7.bind(var9)(var3, var2);
-            if(var2) { _fun0001_ip = 322; continue _fun0001 }
- 99:
+            var2 = var7.bind(var8)(var3, var2);
+            if(var2) { _fun0001_ip = 311; continue _fun0001 }
+ 93:
             var3 = var6.content_type;
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var9 = 4;
-            var2 = var2[var9];
+            var8 = 4;
+            var2 = var2[var8];
             var2 = var7.bind(var4)(var2);
             var2 = var2.ContentInventoryEntryType;
             var2 = var2.TOP_GAME;
-            if(!(var2 !== var3)) { _fun0001_ip = 279; continue _fun0001 }
- 144:
+            if(!(var2 !== var3)) { _fun0001_ip = 268; continue _fun0001 }
+ 138:
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var2 = var2[var9];
+            var2 = var2[var8];
             var2 = var7.bind(var4)(var2);
             var2 = var2.ContentInventoryEntryType;
             var2 = var2.PLAYED_GAME;
-            if(!(var2 !== var3)) { _fun0001_ip = 279; continue _fun0001 }
- 177:
+            if(!(var2 !== var3)) { _fun0001_ip = 268; continue _fun0001 }
+ 171:
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var2 = var2[var9];
+            var2 = var2[var8];
             var2 = var7.bind(var4)(var2);
             var2 = var2.ContentInventoryEntryType;
             var2 = var2.CUSTOM_STATUS;
-            if(!(var2 !== var3)) { _fun0001_ip = 214; continue _fun0001 }
- 210:
+            if(!(var2 !== var3)) { _fun0001_ip = 208; continue _fun0001 }
+ 204:
             var2 = null;
             return var2;
- 214:
+ 208:
             var7 = _closure1_slot4;
             var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var2 = 6;
-            var2 = var9[var2];
+            var2 = var8[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
             var2['content'] = var6;
             var2['renderForScreenshot'] = var5;
-            var9 = null;
-            var9 = var9 != var10;
-            if(!var9) { _fun0001_ip = 261; continue _fun0001 }
- 258:
-            var9 = var10;
- 261:
-            var2['visible'] = var9;
-            var2['mediaMosaicMaxWidth'] = var8;
+            var8 = null;
+            var8 = var8 != var9;
+            if(!var8) { _fun0001_ip = 255; continue _fun0001 }
+ 252:
+            var8 = var9;
+ 255:
+            var2['visible'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 279:
+ 268:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -129,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['renderForScreenshot'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 322:
+ 311:
             var1 = null;
             return var1;
         }

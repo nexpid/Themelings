@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var19[var3];
             var3 = var7.bind(var4)(var3);
             var3 = var3.colors;
-            var3 = var3.BG_BASE_PRIMARY;
+            var3 = var3.BG_BASE_SECONDARY;
             var3 = var5.bind(var6)(var3);
             var _closure2_slot1 = var3;
             var7 = _closure1_slot4;
@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var19[var10];
             var9 = var13.bind(var4)(var5);
             var8 = var9.useAnimatedStyle;
-            var5 = function L() {
+            var5 = function N() {
                 var1 = {};
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;

@@ -1136,10 +1136,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = arg1;
                     var8 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0010_ip = 393; continue _fun0010 }
+                    if(var2) { _fun0010_ip = 421; continue _fun0010 }
  16:
                     var6 = var5;
-                    var9 = var8;
+                    var13 = var8;
                     var3 = _closure1_slot4;
                     var2 = var3.isDismissingContent;
                     var5 = var2.bind(var3)(var5);
@@ -1151,9 +1151,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.bind(var2)(var3);
                     var3 = var7.isDismissible;
                     var3 = var3.bind(var7)(var8);
-                    if(var5) { _fun0010_ip = 390; continue _fun0010 }
+                    if(var5) { _fun0010_ip = 418; continue _fun0010 }
  81:
-                    if(!var3) { _fun0010_ip = 390; continue _fun0010 }
+                    if(!var3) { _fun0010_ip = 418; continue _fun0010 }
  87:
                     var7 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -1162,39 +1162,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var7.bind(var2)(var5);
                     var7 = var8.dispatch;
                     var5 = {};
-                    var10 = 'QUESTS_DISMISS_CONTENT_BEGIN';
-                    var5['type'] = var10;
-                    var10 = var6;
-                    var5['questId'] = var10;
-                    var10 = var9;
-                    var5['content'] = var10;
+                    var9 = 'QUESTS_DISMISS_CONTENT_BEGIN';
+                    var5['type'] = var9;
+                    var9 = var6;
+                    var5['questId'] = var9;
+                    var9 = var13;
+                    var5['content'] = var9;
                     var5 = var7.bind(var8)(var5);
  144: // try_start_0
-                    var7 = _closure1_slot0;
-                    var8 = _closure1_slot2;
+                    var11 = _closure1_slot0;
+                    var10 = _closure1_slot2;
                     var5 = 5;
-                    var5 = var8[var5];
-                    var5 = var7.bind(var2)(var5);
+                    var5 = var10[var5];
+                    var5 = var11.bind(var2)(var5);
                     var8 = var5.HTTP;
                     var7 = var8.post;
                     var5 = {};
-                    var13 = _closure1_slot9;
-                    var11 = var13.QUESTS_DISMISS_CONTENT;
-                    var10 = var6;
-                    var9 = var11.bind(var13)(var10, var9);
+                    var15 = _closure1_slot9;
+                    var9 = var15.QUESTS_DISMISS_CONTENT;
+                    var14 = var6;
+                    var9 = var9.bind(var15)(var14, var13);
                     var5['url'] = var9;
                     var9 = {};
+                    var10 = var10[var12];
+                    var11 = var11.bind(var2)(var10);
+                    var10 = var11.getAdDecisionData;
+                    var16 = var10.bind(var11)(var14, var13);
+                    var17 = var9;
+                    var10 = copyDataProperties(var17, var16);
                     var5['body'] = var9;
                     var9 = false;
                     var5['rejectWithError'] = var9;
                     var5 = var7.bind(var8)(var5);
-                    SaveGenerator(address=221);
- 219:
+                    SaveGenerator(address=249);
+ 247:
                     return var5;
- 221:
+ 249:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(var7) { _fun0010_ip = 302; continue _fun0010 }
- 227:
+                    if(var7) { _fun0010_ip = 330; continue _fun0010 }
+ 255:
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot2;
                     var7 = var10[var3];
@@ -1211,11 +1217,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var11.bind(var12)(var10);
                     var7['dismissedQuestUserStatus'] = var10;
                     var7 = var8.bind(var9)(var7);
- 300: // try_end0
-                    _fun0010_ip = 390; continue _fun0010;
- 302:
+ 328: // try_end0
+                    _fun0010_ip = 418; continue _fun0010;
+ 330:
                     return var5;
- 305: // catch_target0
+ 333: // catch_target0
                     CatchBlockStart(arg_register=8);
                     var8 = _closure1_slot1;
                     var10 = _closure1_slot2;
@@ -1230,16 +1236,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.bind(var2)(var7);
                     var8 = var7.prototype;
                     var8 = Object.create(var8, {constructor: {value: var7}});
-                    var16 = var8;
-                    var15 = var9;
-                    var7 = new var16[var7](var15, var14);
+                    var18 = var8;
+                    var17 = var9;
+                    var7 = new var18[var7](var17, var16);
                     var7 = var7 instanceof Object ? var7 : var8;
                     var3['error'] = var7;
                     var3['questId'] = var6;
                     var3 = var4.bind(var5)(var3);
- 390:
+ 418:
                     return var2;
- 393:
+ 421:
                     return var1;
                 }
             };

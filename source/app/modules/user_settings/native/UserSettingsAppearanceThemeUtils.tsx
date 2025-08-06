@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var1.analyticsLocations;
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 10;
         var2 = var2[var1];
         var1 = undefined;
         var5 = var3.bind(var1)(var2);
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var4 = var10.bind(var11)(var7, var4);
     var _closure1_slot8 = var4;
-    var7 = 9;
+    var7 = 11;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -178,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  160:
             var6 = var5.theme;
             var3 = 'system';
-            if(!(var3 !== var6)) { _fun0002_ip = 467; continue _fun0002 }
+            if(!(var3 !== var6)) { _fun0002_ip = 615; continue _fun0002 }
  176:
             if(!var1) { _fun0002_ip = 223; continue _fun0002 }
  179:
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.bind(var4)(var1);
             var1 = var1.ClientThemeType;
             var1 = var1.CUSTOM_BACKGROUND_GRADIENT;
-            if(!(var3 !== var1)) { _fun0002_ip = 412; continue _fun0002 }
+            if(!(var3 !== var1)) { _fun0002_ip = 459; continue _fun0002 }
  223:
             var3 = var5.type;
             var6 = _closure1_slot0;
@@ -200,7 +200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.bind(var4)(var1);
             var1 = var1.ClientThemeType;
             var1 = var1.BACKGROUND_GRADIENT_PRESET;
-            if(!(var3 !== var1)) { _fun0002_ip = 330; continue _fun0002 }
+            if(!(var3 !== var1)) { _fun0002_ip = 352; continue _fun0002 }
  264:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -208,6 +208,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6[var1];
             var7 = var3.bind(var4)(var1);
             var1 = var7.resetBackgroundGradientPreset;
+            var1 = var1.bind(var7)();
+            var1 = 8;
+            var1 = var6[var1];
+            var7 = var3.bind(var4)(var1);
+            var1 = var7.resetCustomTheme;
             var1 = var1.bind(var7)();
             var1 = 6;
             var1 = var6[var1];
@@ -217,8 +222,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.theme;
             var1['theme'] = var7;
             var1 = var3.bind(var6)(var1);
-            _fun0002_ip = 410; continue _fun0002;
- 330:
+            _fun0002_ip = 454; continue _fun0002;
+ 352:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 7;
@@ -227,6 +232,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.updateBackgroundGradientPreset;
             var3 = var5.id;
             var3 = var8.bind(var9)(var3);
+            var3 = 8;
+            var3 = var7[var3];
+            var8 = var6.bind(var4)(var3);
+            var3 = var8.resetCustomTheme;
+            var3 = var3.bind(var8)();
             var3 = 6;
             var3 = var7[var3];
             var7 = var6.bind(var4)(var3);
@@ -237,30 +247,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var5.theme;
             var3['theme'] = var8;
             var1 = var6.bind(var7)(var3);
- 410:
-            _fun0002_ip = 465; continue _fun0002;
- 412:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
+ 454:
+            _fun0002_ip = 613; continue _fun0002;
+ 459:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var3 = 7;
+            var3 = var10[var3];
+            var6 = var9.bind(var4)(var3);
+            var3 = var6.resetBackgroundGradientPreset;
+            var3 = var3.bind(var6)();
+            var3 = 8;
+            var3 = var10[var3];
+            var8 = var9.bind(var4)(var3);
+            var7 = var8.updateCustomTheme;
+            var6 = var5.customThemeSettings;
+            var3 = var5.theme;
+            var3 = var7.bind(var8)(var6, var3);
             var3 = 6;
-            var3 = var7[var3];
-            var7 = var6.bind(var4)(var3);
+            var3 = var10[var3];
+            var7 = var9.bind(var4)(var3);
             var6 = var7.saveClientTheme;
             var3 = {};
             var8 = var5.customThemeSettings;
             var3['customUserThemeSettings'] = var8;
+            var8 = 9;
+            var8 = var10[var8];
+            var10 = var9.bind(var4)(var8);
+            var9 = var10.isThemeDark;
             var8 = var5.theme;
+            var8 = var9.bind(var10)(var8);
+            var9 = _closure1_slot4;
+            if(var8) { _fun0002_ip = 598; continue _fun0002 }
+ 590:
+            var8 = var9.LIGHT;
+            _fun0002_ip = 604; continue _fun0002;
+ 598:
+            var8 = var9.DARK;
+ 604:
             var3['theme'] = var8;
             var1 = var6.bind(var7)(var3);
- 465:
-            _fun0002_ip = 531; continue _fun0002;
- 467:
+ 613:
+            _fun0002_ip = 701; continue _fun0002;
+ 615:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 7;
             var2 = var6[var2];
             var7 = var3.bind(var4)(var2);
             var2 = var7.resetBackgroundGradientPreset;
+            var2 = var2.bind(var7)();
+            var2 = 8;
+            var2 = var6[var2];
+            var7 = var3.bind(var4)(var2);
+            var2 = var7.resetCustomTheme;
             var2 = var2.bind(var7)();
             var2 = 6;
             var2 = var6[var2];
@@ -270,7 +310,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.theme;
             var2['theme'] = var5;
             var1 = var3.bind(var4)(var2);
- 531:
+ 701:
             return var1;
         }
     };

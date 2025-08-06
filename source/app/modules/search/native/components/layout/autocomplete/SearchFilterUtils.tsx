@@ -503,7 +503,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
-            var2 = var2.PencilIcon;
+            var2 = var2.RobotIcon;
             return var2;
  218:
             var4 = _closure1_slot0;
