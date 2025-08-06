@@ -32,9 +32,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.SearchResultContentEntityTypes;
     var _closure1_slot6 = var4;
-    var4 = 14;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot7 = var4;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -83,13 +88,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.bind(var7)(var6, var1);
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            var1 = 4;
+            var1 = 5;
             var1 = var18[var1];
             var4 = var17.bind(var5)(var1);
             var1 = var4.getSearchTabFetchId;
             var1 = var1.bind(var4)(var6, var19, var7);
             _closure2_slot5 = var1;
-            var7 = 6;
+            var7 = 8;
             var1 = var18[var7];
             var20 = var17.bind(var5)(var1);
             var16 = var20.useStateFromStores;
@@ -127,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot6 = var20;
             var21 = var1.documentsIndexed;
             _closure2_slot7 = var21;
-            var1 = 7;
+            var1 = 9;
             var1 = var18[var1];
             var12 = var17.bind(var5)(var1);
             var7 = var12.useMessageSearchErrorScreen;
@@ -141,7 +146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot8 = var24;
             var16 = var12.showErrorToast;
             _closure2_slot9 = var16;
-            var12 = 8;
+            var12 = 10;
             var12 = var18[var12];
             var17 = var17.bind(var5)(var12);
             var12 = var17.useSearchFetchPendingManager;
@@ -179,7 +184,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  52:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var2 = 9;
+                    var2 = 11;
                     var3 = var3[var2];
                     var2 = undefined;
                     var5 = var4.bind(var2)(var3);
@@ -297,10 +302,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     if(!var2) { _fun0005_ip = 106; continue _fun0005 }
  42:
-                    var5 = _closure1_slot6;
+                    var5 = _closure1_slot7;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 10;
+                    var2 = 12;
                     var2 = var4[var2];
                     var4 = undefined;
                     var3 = var3.bind(var4)(var2);
@@ -327,10 +332,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 0;
             if(!(var1 === var3)) { _fun0001_ip = 623; continue _fun0001 }
  585:
-            var4 = _closure1_slot6;
+            var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var1 = 12;
+            var1 = 14;
             var1 = var16[var1];
             var3 = var3.bind(var5)(var1);
             var1 = {};
@@ -338,10 +343,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 694; continue _fun0001;
  623:
-            var7 = _closure1_slot6;
+            var7 = _closure1_slot7;
             var4 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var3 = 13;
+            var3 = 15;
             var3 = var16[var3];
             var4 = var4.bind(var5)(var3);
             var3 = {};
@@ -357,10 +362,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  694:
             _fun0001_ip = 733; continue _fun0001;
  696:
-            var4 = _closure1_slot6;
+            var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 11;
+            var2 = 13;
             var2 = var7[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -372,44 +377,76 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['default'] = var4;
     var2 = function trackMessageItemPress(arg1) {
-        var1 = arg1;
-        var9 = var1.searchContext;
-        var8 = var1.channelId;
-        var7 = var1.messageId;
-        var6 = var1.index;
-        var12 = var1.tab;
-        var4 = _closure1_slot5;
-        var3 = var4.getState;
-        var1 = function(arg1) {
-            var2 = arg1;
-            var1 = var2.getSearchResultsQuery;
-            var1 = var1.bind(var2)();
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+            var1 = arg1;
+            var10 = var1.searchContext;
+            var9 = var1.channelId;
+            var7 = var1.messageId;
+            var6 = var1.index;
+            var12 = var1.tab;
+            var3 = _closure1_slot5;
+            var2 = var3.getState;
+            var1 = function(arg1) {
+                var2 = arg1;
+                var1 = var2.getSearchResultsQuery;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var11 = var2.bind(var3)(var10, var1);
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 5;
+            var2 = var4[var1];
+            var1 = undefined;
+            var8 = var3.bind(var1)(var2);
+            var2 = var8.getSearchTabFetchId;
+            var11 = var2.bind(var8)(var10, var12, var11);
+            var8 = _closure1_slot4;
+            var2 = var8.getTotalCount;
+            var12 = var2.bind(var8)(var11);
+            var2 = var8.getMessage;
+            var8 = var2.bind(var8)(var7);
+            var2 = 6;
+            var2 = var4[var2];
+            var11 = var3.bind(var1)(var2);
+            var3 = var11.trackSearchResultClicked;
+            var2 = {};
+            var2['searchContext'] = var10;
+            var2['channelId'] = var9;
+            var2['messageId'] = var7;
+            var2['index'] = var6;
+            var2['totalSearchResults'] = var12;
+            var2 = var3.bind(var11)(var2);
+            var3 = _closure1_slot1;
+            var2 = 7;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.trackSearchResultClickedMobile;
+            var2 = {};
+            var2['searchContext'] = var10;
+            var2['channelId'] = var9;
+            var2['messageId'] = var7;
+            var9 = null;
+            var10 = var9 == var8;
+            var7 = undefined;
+            if(var10) { _fun0006_ip = 234; continue _fun0006 }
+ 214:
+            var8 = var8.author;
+            var9 = var9 == var8;
+            var7 = undefined;
+            if(var9) { _fun0006_ip = 234; continue _fun0006 }
+ 229:
+            var7 = var8.id;
+ 234:
+            var2['userId'] = var7;
+            var2['index'] = var6;
+            var5 = _closure1_slot6;
+            var5 = var5.MESSAGE;
+            var2['entityType'] = var5;
+            var2 = var3.bind(var4)(var2);
             return var1;
-        };
-        var11 = var3.bind(var4)(var9, var1);
-        var3 = _closure1_slot0;
-        var4 = _closure1_slot2;
-        var1 = 4;
-        var5 = var4[var1];
-        var1 = undefined;
-        var10 = var3.bind(var1)(var5);
-        var5 = var10.getSearchTabFetchId;
-        var10 = var5.bind(var10)(var9, var12, var11);
-        var5 = _closure1_slot4;
-        var2 = var5.getTotalCount;
-        var5 = var2.bind(var5)(var10);
-        var2 = 5;
-        var2 = var4[var2];
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.trackSearchResultClicked;
-        var2 = {};
-        var2['searchContext'] = var9;
-        var2['channelId'] = var8;
-        var2['messageId'] = var7;
-        var2['index'] = var6;
-        var2['totalSearchResults'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
+        }
     };
     var3['trackMessageItemPress'] = var2;
     return var1;

@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var10[var1];
         var1 = undefined;
         var5 = var7.bind(var1)(var5);
-        var6 = var5.ContentAndSocialTeenNotice;
+        var6 = var5.SensitiveContentFiltersNotice;
         var5 = {};
         var6 = var8.bind(var1)(var6, var5);
         var5 = new Array(2);

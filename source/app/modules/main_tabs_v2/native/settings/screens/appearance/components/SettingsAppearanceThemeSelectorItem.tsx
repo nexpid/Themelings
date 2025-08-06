@@ -342,16 +342,89 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var _closure1_slot13 = var4;
     var4 = function CustomThemeBackground(arg1) {
-        var1 = arg1;
-        var1 = var1.item;
-        var4 = _closure1_slot6;
-        var3 = _closure1_slot3;
-        var2 = {};
-        var1 = {'width': '100%', 'height': '100%'};
-        var2['style'] = var1;
-        var1 = undefined;
-        var1 = var4.bind(var1)(var3, var2);
-        return var1;
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+            var1 = arg1;
+            var11 = var1.item;
+            var6 = var1.isPreview;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var1 = var3[var1];
+            var4 = undefined;
+            var3 = var2.bind(var4)(var1);
+            var2 = var3.isThemeDark;
+            var1 = var11.theme;
+            var12 = var2.bind(var3)(var1);
+            var1 = _closure1_slot9;
+            var10 = var1.bind(var4)(var12);
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var8 = var10.themeSelectorGradientBackground;
+            var5 = new Array(2);
+            var5[0] = var8;
+            var8 = var6;
+            if(!var6) { _fun0004_ip = 113; continue _fun0004 }
+ 94:
+            var9 = {};
+            var13 = 0.5;
+            var9['opacity'] = var13;
+            var8 = var9;
+ 113:
+            var5[1] = var8;
+            var1['style'] = var5;
+            var9 = _closure1_slot6;
+            var15 = _closure1_slot1;
+            var16 = _closure1_slot2;
+            var5 = 10;
+            var5 = var16[var5];
+            var8 = var15.bind(var4)(var5);
+            var5 = {};
+            var13 = {};
+            var14 = 7;
+            var14 = var16[var14];
+            var14 = var15.bind(var4)(var14);
+            var14 = var14.radii;
+            var14 = var14.sm;
+            var13['borderRadius'] = var14;
+            var5['componentStyles'] = var13;
+            var13 = true;
+            var5['mix'] = var13;
+            if(var12) { _fun0004_ip = 197; continue _fun0004 }
+ 191:
+            var12 = _closure1_slot11;
+            _fun0004_ip = 201; continue _fun0004;
+ 197:
+            var12 = _closure1_slot10;
+ 201:
+            var5['mixColorOverride'] = var12;
+            var5['gradientOverride'] = var11;
+            var8 = var9.bind(var4)(var8, var5);
+            var5 = new Array(2);
+            var5[0] = var8;
+            if(!var6) { _fun0004_ip = 286; continue _fun0004 }
+ 228:
+            var9 = _closure1_slot6;
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var7 = 11;
+            var7 = var13[var7];
+            var8 = var12.bind(var4)(var7);
+            var7 = {};
+            var11 = 12;
+            var11 = var13[var11];
+            var11 = var12.bind(var4)(var11);
+            var7['source'] = var11;
+            var10 = var10.lock;
+            var7['style'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
+ 286:
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var _closure1_slot14 = var4;
     var4 = 18;
@@ -361,7 +434,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/main_tabs_v2/native/settings/screens/appearance/components/SettingsAppearanceThemeSelectorItem.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function ThemeSelectorItem(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var1 = arg1;
             var7 = var1.themePreset;
@@ -380,7 +453,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var1);
             var1 = var1.ClientThemeType;
             var1 = var1.STANDARD_BACKGROUND_THEME;
-            if(!(var2 !== var1)) { _fun0004_ip = 173; continue _fun0004 }
+            if(!(var2 !== var1)) { _fun0005_ip = 178; continue _fun0005 }
  86:
             var2 = var7.type;
             var3 = _closure1_slot0;
@@ -389,7 +462,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var1);
             var1 = var1.ClientThemeType;
             var1 = var1.CUSTOM_BACKGROUND_GRADIENT;
-            if(!(var2 !== var1)) { _fun0004_ip = 151; continue _fun0004 }
+            if(!(var2 !== var1)) { _fun0005_ip = 151; continue _fun0005 }
  124:
             var3 = _closure1_slot6;
             var2 = _closure1_slot12;
@@ -397,22 +470,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['isPreview'] = var6;
             var1['item'] = var7;
             var12 = var3.bind(var4)(var2, var1);
-            _fun0004_ip = 171; continue _fun0004;
+            _fun0005_ip = 176; continue _fun0005;
  151:
             var3 = _closure1_slot6;
             var2 = _closure1_slot14;
             var1 = {};
             var1['item'] = var7;
+            var1['isPreview'] = var6;
             var12 = var3.bind(var4)(var2, var1);
- 171:
-            _fun0004_ip = 193; continue _fun0004;
- 173:
+ 176:
+            _fun0005_ip = 198; continue _fun0005;
+ 178:
             var3 = _closure1_slot6;
             var2 = _closure1_slot13;
             var1 = {};
             var1['item'] = var7;
             var12 = var3.bind(var4)(var2, var1);
- 193:
+ 198:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -442,19 +516,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var8;
             var8 = new Array(2);
             var8[0] = var12;
-            if(!var9) { _fun0004_ip = 322; continue _fun0004 }
- 319:
+            if(!var9) { _fun0005_ip = 327; continue _fun0005 }
+ 324:
             var9 = !var11;
- 322:
-            if(!var9) { _fun0004_ip = 351; continue _fun0004 }
- 325:
+ 327:
+            if(!var9) { _fun0005_ip = 356; continue _fun0005 }
+ 330:
             var12 = _closure1_slot6;
             var11 = _closure1_slot3;
             var10 = {};
             var13 = var13.newRedCircle;
             var10['style'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 351:
+ 356:
             var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

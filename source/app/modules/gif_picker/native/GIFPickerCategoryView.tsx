@@ -212,14 +212,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var12.type;
             var8 = _closure1_slot6;
             var8 = var8.TRENDING_GIFS;
-            if(!(var10 !== var8)) { _fun0001_ip = 443; continue _fun0001 }
- 333:
+            if(!(var10 !== var8)) { _fun0001_ip = 445; continue _fun0001 }
+ 335:
             var11 = var12.type;
             var8 = _closure1_slot6;
             var8 = var8.FAVORITES;
             var10 = null;
-            if(!(var11 === var8)) { _fun0001_ip = 441; continue _fun0001 }
- 354:
+            if(!(var11 === var8)) { _fun0001_ip = 443; continue _fun0001 }
+ 356:
             var13 = _closure1_slot7;
             var11 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -240,9 +240,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.WHITE;
             var8['color'] = var15;
             var10 = var13.bind(var4)(var11, var8);
- 441:
-            _fun0001_ip = 530; continue _fun0001;
  443:
+            _fun0001_ip = 532; continue _fun0001;
+ 445:
             var13 = _closure1_slot7;
             var11 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.WHITE;
             var8['color'] = var14;
             var10 = var13.bind(var4)(var11, var8);
- 530:
+ 532:
             var8 = new Array(2);
             var8[0] = var10;
             var11 = _closure1_slot7;

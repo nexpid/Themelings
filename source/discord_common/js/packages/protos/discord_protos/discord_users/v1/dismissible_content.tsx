@@ -566,10 +566,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['ACTIVITIES_MOBILE_PIP_FAB_NUX'] = var2;
     var1 = 'ACTIVITIES_MOBILE_PIP_FAB_NUX';
     var4[var2] = var1;
-    var2 = 209;
-    var4['GUILD_HEADER_SOUNDBOARD_PERMISSION'] = var2;
-    var1 = 'GUILD_HEADER_SOUNDBOARD_PERMISSION';
-    var4[var2] = var1;
     var2 = 210;
     var4['GUILD_ONBOARDING_UPSELL_HEADER'] = var2;
     var1 = 'GUILD_ONBOARDING_UPSELL_HEADER';
@@ -1689,6 +1685,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 574;
     var4['NAGBAR_NOTICE_OFFER_EXPIRING'] = var2;
     var1 = 'NAGBAR_NOTICE_OFFER_EXPIRING';
+    var4[var2] = var1;
+    var2 = 575;
+    var4['SEARCH_AUTHOR_TYPE_FILTER_NEW_BADGE'] = var2;
+    var1 = 'SEARCH_AUTHOR_TYPE_FILTER_NEW_BADGE';
+    var4[var2] = var1;
+    var2 = 576;
+    var4['SEARCH_AUTHOR_TYPE_SEARCH_RESULTS_HINT'] = var2;
+    var1 = 'SEARCH_AUTHOR_TYPE_SEARCH_RESULTS_HINT';
     var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;

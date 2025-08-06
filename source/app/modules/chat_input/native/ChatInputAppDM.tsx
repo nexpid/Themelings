@@ -200,23 +200,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 1;
             var2 = var3[var2];
             var _closure2_slot1 = var2;
-            var8 = _closure1_slot0;
+            var7 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 11;
             var3 = var10[var3];
-            var7 = var8.bind(var9)(var3);
+            var7 = var7.bind(var9)(var3);
             var3 = var7.useIsChatInputAppDMDisabled;
             var7 = var3.bind(var7)();
+            var8 = _closure1_slot1;
             var3 = 12;
             var3 = var10[var3];
-            var10 = var8.bind(var9)(var3);
-            var8 = var10.useIsAppDM;
-            var3 = var5.id;
-            var3 = var8.bind(var10)(var3);
-            if(!var3) { _fun0002_ip = 124; continue _fun0002 }
- 121:
+            var3 = var8.bind(var9)(var3);
+            var3 = var3.bind(var9)(var5);
+            if(!var3) { _fun0002_ip = 117; continue _fun0002 }
+ 114:
             var3 = !var7;
- 124:
+ 117:
             var _closure2_slot2 = var3;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -266,10 +265,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.bind(var7)(var1, var5);
             var1 = {};
             var1['appDMsUIEnabled'] = var3;
-            if(!var3) { _fun0002_ip = 248; continue _fun0002 }
- 245:
+            if(!var3) { _fun0002_ip = 241; continue _fun0002 }
+ 238:
             var3 = var4;
- 248:
+ 241:
             var1['appDMsUIVisible'] = var3;
             var1['setAppDMsUIVisible'] = var2;
             return var1;

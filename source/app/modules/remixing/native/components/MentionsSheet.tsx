@@ -223,10 +223,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = null;
                 var3 = var10 == var2;
                 var7 = undefined;
-                if(var3) { _fun0002_ip = 191; continue _fun0002 }
- 185:
+                if(var3) { _fun0002_ip = 195; continue _fun0002 }
+ 189:
                 var7 = var2.colorString;
- 191:
+ 195:
                 _closure2_slot4 = var7;
                 var6 = _closure1_slot4;
                 var14 = var6.useCallback;
@@ -493,10 +493,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6['size'] = var12;
                 var12 = var10 != var11;
                 var10 = undefined;
-                if(!var12) { _fun0002_ip = 412; continue _fun0002 }
- 409:
+                if(!var12) { _fun0002_ip = 422; continue _fun0002 }
+ 419:
                 var10 = var11;
- 412:
+ 422:
                 var6['guildId'] = var10;
                 var10 = true;
                 var6['autoStatusCutout'] = var10;
@@ -835,12 +835,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = null;
                 var9 = var8 != var11;
                 var8 = undefined;
-                if(!var9) { _fun0005_ip = 285; continue _fun0005 }
- 276:
+                if(!var9) { _fun0005_ip = 291; continue _fun0005 }
+ 282:
                 var9 = {};
                 var9['color'] = var11;
                 var8 = var9;
- 285:
+ 291:
                 var6['style'] = var8;
                 var8 = global;
                 var8 = var8.HermesInternal;

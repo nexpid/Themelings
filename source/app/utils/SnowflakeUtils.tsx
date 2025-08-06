@@ -70,6 +70,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['atPreviousMillisecond'] = var6;
+    var6 = function atNextMillisecond(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 1;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.atNextMillisecond;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var2['atNextMillisecond'] = var6;
     var6 = function fromTimestamp(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

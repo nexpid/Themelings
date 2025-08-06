@@ -125,6 +125,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['DISCOVERABILITY'] = var2;
     var2 = 'impression_discovery_game_landing_page';
     var4['DISCOVERY_GAME_LANDING_PAGE'] = var2;
+    var2 = 'impression_display_name_styles_modal';
+    var4['DISPLAY_NAME_STYLES_MODAL'] = var2;
     var2 = 'impression_drops_quest_completion';
     var4['DROPS_QUEST_COMPLETION'] = var2;
     var2 = 'impression_drops_quest_enrollment';

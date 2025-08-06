@@ -7,8 +7,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = exports;
         var6 = dependencyMap;
         var _closure1_slot0 = var5;
-        var _closure1_slot1 = var7;
-        var _closure1_slot2 = var6;
+        var _closure1_slot1 = var6;
         var1 = function _isNativeReflectConstruct() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -41,13 +40,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = !var1;
                     return var1;
                 };
-                _closure1_slot19 = var2;
+                _closure1_slot17 = var2;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
                 return var1;
             }
         };
-        var _closure1_slot19 = var1;
+        var _closure1_slot17 = var1;
         var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -58,32 +57,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = 'undefined';
                 var2 = typeof var2;
                 var2 = var4 !== var2;
-                if(!var2) { _fun0003_ip = 45; continue _fun0003 }
+                if(!var2) { _fun0003_ip = 46; continue _fun0003 }
  30:
                 var4 = var5.Symbol;
                 var4 = var4.iterator;
                 var2 = var3[var4];
- 45:
-                if(var2) { _fun0003_ip = 54; continue _fun0003 }
- 48:
+ 46:
+                if(var2) { _fun0003_ip = 55; continue _fun0003 }
+ 49:
                 var2 = var3.@@iterator;
- 54:
-                if(var2) { _fun0003_ip = 342; continue _fun0003 }
- 60:
+ 55:
+                if(var2) { _fun0003_ip = 343; continue _fun0003 }
+ 61:
                 var6 = var5.Array;
                 var4 = var6.isArray;
                 var6 = var4.bind(var6)(var3);
                 var4 = var2;
-                if(var6) { _fun0003_ip = 322; continue _fun0003 }
- 85:
+                if(var6) { _fun0003_ip = 323; continue _fun0003 }
+ 86:
                 var8 = undefined;
                 var6 = undefined;
-                if(!var3) { _fun0003_ip = 282; continue _fun0003 }
- 95:
+                if(!var3) { _fun0003_ip = 283; continue _fun0003 }
+ 96:
                 var9 = 'string';
                 var7 = typeof var3;
-                if(!(var9 !== var7)) { _fun0003_ip = 269; continue _fun0003 }
- 109:
+                if(!(var9 !== var7)) { _fun0003_ip = 270; continue _fun0003 }
+ 110:
                 var7 = {};
                 var9 = var7.toString;
                 var7 = var9.call;
@@ -94,49 +93,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var10.bind(var11)(var9, var7);
                 var7 = 'Object';
                 var7 = var7 === var9;
-                if(!var7) { _fun0003_ip = 162; continue _fun0003 }
- 157:
+                if(!var7) { _fun0003_ip = 163; continue _fun0003 }
+ 158:
                 var7 = var3.constructor;
- 162:
+ 163:
                 var10 = var9;
-                if(!var7) { _fun0003_ip = 178; continue _fun0003 }
- 168:
+                if(!var7) { _fun0003_ip = 179; continue _fun0003 }
+ 169:
                 var7 = var3.constructor;
                 var10 = var7.name;
- 178:
+ 179:
                 var7 = 'Map';
-                if(!(var7 !== var10)) { _fun0003_ip = 248; continue _fun0003 }
- 186:
+                if(!(var7 !== var10)) { _fun0003_ip = 249; continue _fun0003 }
+ 187:
                 var7 = 'Set';
-                if(!(var7 !== var10)) { _fun0003_ip = 248; continue _fun0003 }
- 194:
+                if(!(var7 !== var10)) { _fun0003_ip = 249; continue _fun0003 }
+ 195:
                 var7 = 'Arguments';
-                if(!(var7 !== var10)) { _fun0003_ip = 233; continue _fun0003 }
- 204:
+                if(!(var7 !== var10)) { _fun0003_ip = 234; continue _fun0003 }
+ 205:
                 var9 = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
                 var7 = var9.test;
                 var9 = var7.bind(var9)(var10);
                 var7 = undefined;
-                if(!var9) { _fun0003_ip = 246; continue _fun0003 }
- 233:
-                var9 = _closure1_slot21;
+                if(!var9) { _fun0003_ip = 247; continue _fun0003 }
+ 234:
+                var9 = _closure1_slot19;
                 var7 = var9.bind(var8)(var3, var8);
- 246:
-                _fun0003_ip = 264; continue _fun0003;
- 248:
+ 247:
+                _fun0003_ip = 265; continue _fun0003;
+ 249:
                 var10 = var5.Array;
                 var9 = var10.from;
                 var7 = var9.bind(var10)(var3);
- 264:
+ 265:
                 var6 = var7;
-                _fun0003_ip = 282; continue _fun0003;
- 269:
-                var7 = _closure1_slot21;
+                _fun0003_ip = 283; continue _fun0003;
+ 270:
+                var7 = _closure1_slot19;
                 var6 = var7.bind(var8)(var3, var8);
- 282:
+ 283:
                 var4 = var6;
-                if(var4) { _fun0003_ip = 322; continue _fun0003 }
- 288:
+                if(var4) { _fun0003_ip = 323; continue _fun0003 }
+ 289:
                 var7 = var5.TypeError;
                 var5 = var7.prototype;
                 var6 = Object.create(var5, {constructor: {value: var7}});
@@ -145,11 +144,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = new var14[var7](var13, var12);
                 var5 = var5 instanceof Object ? var5 : var6;
                 throw var5;
- 322:
-                if(!var4) { _fun0003_ip = 329; continue _fun0003 }
- 325:
+ 323:
+                if(!var4) { _fun0003_ip = 330; continue _fun0003 }
+ 326:
                 _closure2_slot0 = var4;
- 329:
+ 330:
                 var4 = 0;
                 var _closure2_slot1 = var4;
                 var1 = function() {
@@ -181,7 +180,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     }
                 };
                 return var1;
- 342:
+ 343:
                 var1 = var2.call;
                 var3 = var1.bind(var2)(var3);
                 var2 = var3.next;
@@ -190,7 +189,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var _closure1_slot20 = var1;
+        var _closure1_slot18 = var1;
         var1 = function _arrayLikeToArray(arg1, arg2) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -223,83 +222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var _closure1_slot21 = var1;
-        var1 = function detectableApplicationFromServer(arg1) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
-                var3 = arg1;
-                var1 = {};
-                var2 = var3.id;
-                var1['id'] = var2;
-                var2 = var3.name;
-                var1['name'] = var2;
-                var7 = var3.executables;
-                var2 = null;
-                if(!(var2 == var7)) { _fun0006_ip = 39; continue _fun0006 }
- 35:
-                var7 = new Array(0);
- 39:
-                var6 = var7.map;
-                var5 = _closure1_slot10;
-                var5 = var6.bind(var7)(var5);
-                var1['executables'] = var5;
-                var6 = var3.overlay;
-                var5 = var2 != var6;
-                if(!var5) { _fun0006_ip = 77; continue _fun0006 }
- 74:
-                var5 = var6;
- 77:
-                var1['overlay'] = var5;
-                var6 = var3.overlay_warn;
-                var5 = var2 != var6;
-                if(!var5) { _fun0006_ip = 98; continue _fun0006 }
- 95:
-                var5 = var6;
- 98:
-                var1['overlayWarn'] = var5;
-                var6 = var3.overlay_compatibility_hook;
-                var5 = var2 != var6;
-                if(!var5) { _fun0006_ip = 119; continue _fun0006 }
- 116:
-                var5 = var6;
- 119:
-                var1['overlayCompatibilityHook'] = var5;
-                var6 = var3.hook;
-                var5 = var2 == var6;
-                if(var5) { _fun0006_ip = 140; continue _fun0006 }
- 137:
-                var5 = var6;
- 140:
-                var1['hook'] = var5;
-                var5 = var3.aliases;
-                if(!(var2 == var5)) { _fun0006_ip = 159; continue _fun0006 }
- 155:
-                var5 = new Array(0);
- 159:
-                var1['aliases'] = var5;
-                var6 = _closure1_slot9;
-                var5 = var6.supportsOutOfProcessOverlay;
-                var4 = var3.overlay_methods;
-                var4 = var5.bind(var6)(var4);
-                var1['supportsOutOfProcessOverlay'] = var4;
-                var4 = var3.themes;
-                if(!(var2 == var4)) { _fun0006_ip = 204; continue _fun0006 }
- 200:
-                var4 = new Array(0);
- 204:
-                var1['themes'] = var4;
-                var3 = var3.icon_hash;
-                var4 = var2 != var3;
-                var2 = undefined;
-                if(!var4) { _fun0006_ip = 227; continue _fun0006 }
- 224:
-                var2 = var3;
- 227:
-                var1['icon'] = var2;
-                return var1;
-            }
-        };
-        var _closure1_slot22 = var1;
+        var _closure1_slot19 = var1;
         var1 = function convertApplicationRecordToDetectableApplication(arg1) {
             var2 = arg1;
             var1 = {};
@@ -327,249 +250,180 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['icon'] = var2;
             return var1;
         };
-        var _closure1_slot23 = var1;
+        var _closure1_slot20 = var1;
         var1 = function addDetectableGame(arg1) {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var2 = arg1;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot7;
                 var1 = var2 instanceof var1;
                 var5 = var2;
-                if(!var1) { _fun0007_ip = 31; continue _fun0007 }
+                if(!var1) { _fun0006_ip = 31; continue _fun0006 }
  20:
-                var3 = _closure1_slot23;
+                var3 = _closure1_slot20;
                 var1 = undefined;
                 var5 = var3.bind(var1)(var2);
  31:
-                var4 = _closure1_slot12;
+                var4 = _closure1_slot10;
                 var3 = var4.set;
                 var1 = var2.id;
                 var1 = var3.bind(var4)(var1, var5);
-                var3 = _closure1_slot13;
+                var3 = _closure1_slot11;
                 var4 = var2.name;
                 var1 = var4.toLowerCase;
                 var1 = var1.bind(var4)();
                 var3[var1] = var5;
-                var4 = _closure1_slot20;
+                var4 = _closure1_slot18;
                 var3 = var2.aliases;
                 var1 = undefined;
                 var7 = var4.bind(var1)(var3);
                 var4 = var7.bind(var1)();
                 var3 = var4.done;
-                if(var3) { _fun0007_ip = 141; continue _fun0007 }
+                if(var3) { _fun0006_ip = 141; continue _fun0006 }
  103:
                 var9 = var4.value;
-                var8 = _closure1_slot13;
+                var8 = _closure1_slot11;
                 var3 = var9.toLowerCase;
                 var3 = var3.bind(var9)();
                 var8[var3] = var5;
                 var8 = var7.bind(var1)();
                 var3 = var8.done;
                 var4 = var8;
-                if(!var3) { _fun0007_ip = 103; continue _fun0007 }
+                if(!var3) { _fun0006_ip = 103; continue _fun0006 }
  141:
                 var4 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var3 = 10;
+                var7 = _closure1_slot1;
+                var3 = 9;
                 var3 = var7[var3];
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.isDesktop;
                 var3 = var3.bind(var4)();
-                if(!var3) { _fun0007_ip = 234; continue _fun0007 }
+                if(!var3) { _fun0006_ip = 234; continue _fun0006 }
  174:
-                var3 = _closure1_slot20;
+                var3 = _closure1_slot18;
                 var2 = var2.executables;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0007_ip = 234; continue _fun0007 }
+                if(var2) { _fun0006_ip = 234; continue _fun0006 }
  201:
                 var2 = var3.value;
-                var7 = _closure1_slot14;
+                var7 = _closure1_slot12;
                 var2 = var2.name;
                 var7[var2] = var5;
                 var7 = var4.bind(var1)();
                 var2 = var7.done;
                 var3 = var7;
-                if(!var2) { _fun0007_ip = 201; continue _fun0007 }
+                if(!var2) { _fun0006_ip = 201; continue _fun0006 }
  234:
                 return var1;
             }
         };
-        var _closure1_slot24 = var1;
-        var10 = function handleMessageCreate(arg1) {
-            var1 = arg1;
-            var3 = var1.message;
-            var2 = _closure1_slot25;
-            var1 = undefined;
-            var2 = var2.bind(var1)(var3);
-            return var1;
-        };
-        var9 = function handleLoadThreadsSuccess(arg1) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
-                var1 = arg1;
-                var3 = var1.firstMessages;
-                var1 = null;
-                if(!(var1 != var3)) { _fun0008_ip = 32; continue _fun0008 }
- 15:
-                var2 = var3.forEach;
-                var1 = function(arg1) {
-                    var3 = _closure1_slot25;
-                    var1 = undefined;
-                    var2 = arg1;
-                    var2 = var3.bind(var1)(var2);
-                    return var1;
-                };
-                var1 = var2.bind(var3)(var1);
- 32:
-                var1 = undefined;
-                return var1;
-            }
-        };
-        var1 = function cacheGamesFromMessage(arg1) {
-            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
-                var1 = arg1;
-                var2 = 'mention_games';
-                var2 = var2 in var1;
-                if(!var2) { _fun0009_ip = 96; continue _fun0009 }
- 14:
-                var3 = var1.mention_games;
-                var2 = null;
-                if(!(var2 != var3)) { _fun0009_ip = 96; continue _fun0009 }
- 26:
-                var2 = _closure1_slot20;
-                var1 = var1.mention_games;
-                var4 = undefined;
-                var3 = var2.bind(var4)(var1);
-                var2 = var3.bind(var4)();
-                var1 = var2.done;
-                if(var1) { _fun0009_ip = 96; continue _fun0009 }
- 58:
-                var6 = _closure1_slot24;
-                var7 = _closure1_slot22;
-                var1 = var2.value;
-                var1 = var7.bind(var4)(var1);
-                var1 = var6.bind(var4)(var1);
-                var6 = var3.bind(var4)();
-                var1 = var6.done;
-                var2 = var6;
-                if(!var1) { _fun0009_ip = 58; continue _fun0009 }
- 96:
-                var1 = undefined;
-                return var1;
-            }
-        };
-        var _closure1_slot25 = var1;
+        var _closure1_slot21 = var1;
         var1 = global;
-        var11 = var1.Object;
-        var8 = var11.defineProperty;
+        var9 = var1.Object;
+        var8 = var9.defineProperty;
         var2 = {};
         var1 = true;
         var2['value'] = var1;
         var1 = '__esModule';
-        var1 = var8.bind(var11)(var3, var1, var2);
+        var1 = var8.bind(var9)(var3, var1, var2);
         var1 = 0;
         var2 = var6[var1];
         var1 = undefined;
         var2 = var7.bind(var1)(var2);
-        var _closure1_slot3 = var2;
+        var _closure1_slot2 = var2;
         var2 = 1;
         var2 = var6[var2];
         var2 = var7.bind(var1)(var2);
-        var _closure1_slot4 = var2;
+        var _closure1_slot3 = var2;
         var2 = 2;
         var2 = var6[var2];
         var2 = var7.bind(var1)(var2);
-        var _closure1_slot5 = var2;
+        var _closure1_slot4 = var2;
         var2 = 3;
         var2 = var6[var2];
         var2 = var7.bind(var1)(var2);
-        var _closure1_slot6 = var2;
+        var _closure1_slot5 = var2;
         var2 = 4;
         var2 = var6[var2];
         var2 = var7.bind(var1)(var2);
-        var _closure1_slot7 = var2;
+        var _closure1_slot6 = var2;
         var2 = 5;
-        var2 = var6[var2];
-        var2 = var7.bind(var1)(var2);
-        var _closure1_slot8 = var2;
-        var2 = 6;
         var8 = var6[var2];
         var8 = var7.bind(var1)(var8);
-        var _closure1_slot9 = var8;
+        var _closure1_slot7 = var8;
         var2 = var6[var2];
         var2 = var5.bind(var1)(var2);
         var2 = var2.createExecutable;
-        var _closure1_slot10 = var2;
-        var2 = 7;
+        var _closure1_slot8 = var2;
+        var2 = 6;
         var2 = var6[var2];
         var2 = var7.bind(var1)(var2);
         var2 = var2.Millis;
         var2 = var2.DAY;
-        var _closure1_slot11 = var2;
-        var2 = 8;
+        var _closure1_slot9 = var2;
+        var2 = 7;
         var2 = var6[var2];
         var2 = var7.bind(var1)(var2);
         var8 = var2.prototype;
         var8 = Object.create(var8, {constructor: {value: var2}});
-        var15 = var8;
-        var2 = new var15[var2](var14);
+        var13 = var8;
+        var2 = new var13[var2](var12);
         var2 = var2 instanceof Object ? var2 : var8;
+        var _closure1_slot10 = var2;
+        var2 = {};
+        var _closure1_slot11 = var2;
+        var2 = {};
         var _closure1_slot12 = var2;
-        var2 = {};
-        var _closure1_slot13 = var2;
-        var2 = {};
-        var _closure1_slot14 = var2;
-        var2 = 9;
+        var2 = 8;
         var2 = var6[var2];
         var2 = var5.bind(var1)(var2);
-        var11 = var2.Storage;
-        var8 = var11.get;
+        var9 = var2.Storage;
+        var8 = var9.get;
         var2 = 'GameStoreReportedGames';
-        var8 = var8.bind(var11)(var2);
+        var8 = var8.bind(var9)(var2);
         var2 = null;
-        if(!(var2 == var8)) { _fun0001_ip = 381; continue _fun0001 }
- 379:
+        if(!(var2 == var8)) { _fun0001_ip = 333; continue _fun0001 }
+ 331:
         var8 = {};
- 381:
-        var _closure1_slot15 = var8;
+ 333:
+        var _closure1_slot13 = var8;
         var8 = '';
-        var _closure1_slot16 = var8;
-        var _closure1_slot17 = var1;
-        var _closure1_slot18 = var2;
-        var2 = 13;
+        var _closure1_slot14 = var8;
+        var _closure1_slot15 = var1;
+        var _closure1_slot16 = var2;
+        var2 = 11;
         var2 = var6[var2];
         var2 = var7.bind(var1)(var2);
         var8 = var2.PersistedStore;
         var2 = function(arg1) {
             var4 = function GameStore() {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                     var4 = this;
                     var3 = undefined;
                     var5 = undefined;
-                    var1 = _closure1_slot3;
+                    var1 = _closure1_slot2;
                     var2 = _closure2_slot0;
                     var1 = var1.bind(var3)(var4, var2);
-                    var1 = _closure1_slot6;
+                    var1 = _closure1_slot5;
                     var9 = var1.bind(var3)(var2);
-                    var2 = _closure1_slot5;
-                    var1 = _closure1_slot19;
+                    var2 = _closure1_slot4;
+                    var1 = _closure1_slot17;
                     var1 = var1.bind(var3)();
-                    if(var1) { _fun0010_ip = 69; continue _fun0010 }
+                    if(var1) { _fun0007_ip = 69; continue _fun0007 }
  51:
                     var7 = var9.apply;
                     var5 = arguments;
                     var1 = var5;
                     var1 = var7.bind(var9)(var4, var1);
-                    _fun0010_ip = 105; continue _fun0010;
+                    _fun0007_ip = 105; continue _fun0007;
  69:
                     var7 = global;
                     var8 = var7.Reflect;
                     var7 = var8.construct;
-                    var6 = _closure1_slot6;
+                    var6 = _closure1_slot5;
                     var6 = var6.bind(var3)(var4);
                     var6 = var6.constructor;
                     var5 = arguments;
@@ -580,33 +434,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var _closure2_slot0 = var4;
-            var5 = _closure1_slot7;
+            var5 = _closure1_slot6;
             var3 = undefined;
             var2 = arg1;
             var2 = var5.bind(var3)(var4, var2);
-            var2 = _closure1_slot4;
+            var2 = _closure1_slot3;
             var5 = {};
             var1 = 'initialize';
             var5['key'] = var1;
             var1 = function value(arg1) {
-                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                     var2 = arg1;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0011_ip = 59; continue _fun0011 }
+                    if(!(var1 != var2)) { _fun0008_ip = 59; continue _fun0008 }
  9:
                     var3 = var2.detectableGamesEtag;
-                    if(!(var1 != var3)) { _fun0011_ip = 32; continue _fun0011 }
+                    if(!(var1 != var3)) { _fun0008_ip = 32; continue _fun0008 }
  19:
                     var4 = var2.detectableGamesEtag;
-                    _closure1_slot16 = var4;
+                    _closure1_slot14 = var4;
  32:
                     var3 = var2.detectableGames;
-                    if(!(var1 != var3)) { _fun0011_ip = 59; continue _fun0011 }
+                    if(!(var1 != var3)) { _fun0008_ip = 59; continue _fun0008 }
  42:
                     var2 = var3.forEach;
                     var1 = function(arg1) {
-                        var3 = _closure1_slot24;
+                        var3 = _closure1_slot21;
                         var1 = undefined;
                         var2 = arg1;
                         var2 = var3.bind(var1)(var2);
@@ -625,29 +479,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'getState';
             var5['key'] = var7;
             var7 = function value() {
-                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     var4 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var1 = 10;
+                    var2 = _closure1_slot1;
+                    var1 = 9;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var4.bind(var1)(var2);
                     var1 = var2.isDesktop;
                     var1 = var1.bind(var2)();
                     var2 = {};
-                    if(var1) { _fun0012_ip = 63; continue _fun0012 }
+                    if(var1) { _fun0009_ip = 63; continue _fun0009 }
  40:
                     var1 = '';
                     var2['detectableGamesEtag'] = var1;
                     var1 = new Array(0);
                     var2['detectableGames'] = var1;
                     var1 = var2;
-                    _fun0012_ip = 93; continue _fun0012;
+                    _fun0009_ip = 93; continue _fun0009;
  63:
-                    var4 = _closure1_slot16;
+                    var4 = _closure1_slot14;
                     var2['detectableGamesEtag'] = var4;
-                    var4 = _closure1_slot12;
+                    var4 = _closure1_slot10;
                     var3 = var4.values;
                     var3 = var3.bind(var4)();
                     var2['detectableGames'] = var3;
@@ -662,7 +516,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'games';
             var5['key'] = var7;
             var7 = function get() {
-                var2 = _closure1_slot12;
+                var2 = _closure1_slot10;
                 var1 = var2.values;
                 var1 = var1.bind(var2)();
                 return var1;
@@ -673,7 +527,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'getDetectableGame';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                var3 = _closure1_slot12;
+                var3 = _closure1_slot10;
                 var2 = var3.get;
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);
@@ -685,11 +539,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'getGameByName';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
                     var3 = arg1;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0013_ip = 71; continue _fun0013 }
+                    if(!(var1 != var3)) { _fun0010_ip = 71; continue _fun0010 }
  9:
                     var2 = var3.toLowerCase;
                     var4 = var2.bind(var3)();
@@ -698,12 +552,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.prototype;
                     var6 = var2.hasOwnProperty;
                     var5 = var6.call;
-                    var2 = _closure1_slot13;
+                    var2 = _closure1_slot11;
                     var5 = var5.bind(var6)(var2, var4);
                     var2 = null;
-                    if(!var5) { _fun0013_ip = 69; continue _fun0013 }
+                    if(!var5) { _fun0010_ip = 69; continue _fun0010 }
  61:
-                    var3 = _closure1_slot13;
+                    var3 = _closure1_slot11;
                     var2 = var3[var4];
  69:
                     return var2;
@@ -717,7 +571,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'isGameInDatabase';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
                     var3 = arg1;
                     var4 = this;
@@ -726,12 +580,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var4)(var1);
                     var1 = null;
                     var1 = var1 != var2;
-                    if(var1) { _fun0014_ip = 72; continue _fun0014 }
+                    if(var1) { _fun0011_ip = 72; continue _fun0011 }
  31:
                     var4 = var3.nativeProcessObserverId;
                     var2 = undefined;
                     var2 = var2 !== var4;
-                    if(!var2) { _fun0014_ip = 69; continue _fun0014 }
+                    if(!var2) { _fun0011_ip = 69; continue _fun0011 }
  46:
                     var4 = var3.nativeProcessObserverId;
                     var3 = 2147483648.0;
@@ -749,7 +603,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'fetching';
             var5['key'] = var7;
             var7 = function get() {
-                var2 = _closure1_slot17;
+                var2 = _closure1_slot15;
                 var1 = true;
                 var1 = var1 === var2;
                 return var1;
@@ -760,7 +614,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'detectableGamesEtag';
             var5['key'] = var7;
             var7 = function get() {
-                var1 = _closure1_slot16;
+                var1 = _closure1_slot14;
                 return var1;
             };
             var5['get'] = var7;
@@ -769,7 +623,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'lastFetched';
             var5['key'] = var7;
             var7 = function get() {
-                var1 = _closure1_slot18;
+                var1 = _closure1_slot16;
                 return var1;
             };
             var5['get'] = var7;
@@ -778,7 +632,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'detectableGamesTtl';
             var5['key'] = var7;
             var7 = function get() {
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot9;
                 return var1;
             };
             var5['get'] = var7;
@@ -787,24 +641,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'canFetchDetectableGames';
             var5['key'] = var7;
             var7 = function value() {
-                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
-                    var2 = _closure1_slot17;
+                    var2 = _closure1_slot15;
                     var1 = true;
                     var1 = var1 !== var2;
-                    if(!var1) { _fun0015_ip = 65; continue _fun0015 }
+                    if(!var1) { _fun0012_ip = 65; continue _fun0012 }
  16:
-                    var4 = _closure1_slot18;
+                    var4 = _closure1_slot16;
                     var2 = null;
                     var2 = var2 == var4;
-                    if(var2) { _fun0015_ip = 62; continue _fun0015 }
+                    if(var2) { _fun0012_ip = 62; continue _fun0012 }
  29:
                     var4 = global;
                     var5 = var4.Date;
                     var4 = var5.now;
                     var4 = var4.bind(var5)();
-                    var5 = _closure1_slot18;
-                    var3 = _closure1_slot11;
+                    var5 = _closure1_slot16;
+                    var3 = _closure1_slot9;
                     var3 = var5 + var3;
                     var2 = var4 >= var3;
  62:
@@ -819,7 +673,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'getGameByExecutable';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                var2 = _closure1_slot14;
+                var2 = _closure1_slot12;
                 var1 = arg1;
                 var1 = var2[var1];
                 return var1;
@@ -830,13 +684,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'getGameByGameData';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
                     var2 = arg1;
                     var7 = this;
                     var3 = var2.exePath;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0016_ip = 235; continue _fun0016 }
+                    if(!(var1 != var3)) { _fun0013_ip = 235; continue _fun0013 }
  21:
                     var4 = var2.exePath;
                     var3 = var4.split;
@@ -855,18 +709,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var2.name;
                     var4 = var1 != var3;
                     var3 = undefined;
-                    if(!var4) { _fun0016_ip = 198; continue _fun0016 }
+                    if(!var4) { _fun0013_ip = 198; continue _fun0013 }
  107:
                     var4 = var7.getGameByName;
                     var2 = var2.name;
                     var2 = var4.bind(var7)(var2);
-                    if(!(var1 != var2)) { _fun0016_ip = 137; continue _fun0016 }
+                    if(!(var1 != var2)) { _fun0013_ip = 137; continue _fun0013 }
  127:
                     var4 = var2.executables;
-                    if(!(var1 == var4)) { _fun0016_ip = 146; continue _fun0016 }
+                    if(!(var1 == var4)) { _fun0013_ip = 146; continue _fun0013 }
  137:
                     var3 = var2;
-                    if(!(var1 != var3)) { _fun0016_ip = 198; continue _fun0016 }
+                    if(!(var1 != var3)) { _fun0013_ip = 198; continue _fun0013 }
  144:
                     return var1;
  146:
@@ -880,21 +734,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.bind(var9)(var4);
                     var4 = var8.includes;
                     var4 = var4.bind(var8)(var5);
-                    if(var4) { _fun0016_ip = 233; continue _fun0016 }
+                    if(var4) { _fun0013_ip = 233; continue _fun0013 }
  182:
                     var4 = var8.includes;
                     var4 = var4.bind(var8)(var6);
                     var3 = var2;
-                    if(var4) { _fun0016_ip = 233; continue _fun0016 }
+                    if(var4) { _fun0013_ip = 233; continue _fun0013 }
  198:
                     var4 = var7.getGameByExecutable;
                     var4 = var4.bind(var7)(var5);
-                    if(!(var1 == var4)) { _fun0016_ip = 224; continue _fun0016 }
+                    if(!(var1 == var4)) { _fun0013_ip = 224; continue _fun0013 }
  213:
                     var5 = var7.getGameByExecutable;
                     var4 = var5.bind(var7)(var6);
  224:
-                    if(!(var1 != var4)) { _fun0016_ip = 231; continue _fun0016 }
+                    if(!(var1 != var4)) { _fun0013_ip = 231; continue _fun0013 }
  228:
                     var3 = var4;
  231:
@@ -911,7 +765,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'shouldReport';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
                     var5 = arg1;
                     var2 = this;
@@ -919,26 +773,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.bind(var2)(var5);
                     var3 = null;
                     var2 = var3 != var1;
-                    var1 = _closure1_slot15;
+                    var1 = _closure1_slot13;
                     var1 = var1[var5];
                     var3 = var3 != var1;
                     var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var1 = 12;
+                    var5 = _closure1_slot1;
+                    var1 = 10;
                     var5 = var5[var1];
                     var1 = undefined;
                     var1 = var6.bind(var1)(var5);
                     var5 = var1.ShowCurrentGame;
                     var1 = var5.getSetting;
                     var1 = var1.bind(var5)();
-                    if(!var1) { _fun0017_ip = 86; continue _fun0017 }
+                    if(!var1) { _fun0014_ip = 86; continue _fun0014 }
  79:
-                    var4 = _closure1_slot17;
+                    var4 = _closure1_slot15;
                     var1 = !var4;
  86:
-                    if(!var1) { _fun0017_ip = 98; continue _fun0017 }
+                    if(!var1) { _fun0014_ip = 98; continue _fun0014 }
  89:
-                    if(var2) { _fun0017_ip = 95; continue _fun0017 }
+                    if(var2) { _fun0014_ip = 95; continue _fun0014 }
  92:
                     var2 = var3;
  95:
@@ -953,19 +807,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'markGameReported';
             var5['key'] = var7;
             var6 = function value(arg1) {
-                var4 = _closure1_slot15;
+                var4 = _closure1_slot13;
                 var3 = true;
                 var1 = arg1;
                 var4[var1] = var3;
                 var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 9;
+                var3 = _closure1_slot1;
+                var1 = 8;
                 var3 = var3[var1];
                 var1 = undefined;
                 var3 = var4.bind(var1)(var3);
                 var5 = var3.Storage;
                 var4 = var5.set;
-                var3 = _closure1_slot15;
+                var3 = _closure1_slot13;
                 var2 = 'GameStoreReportedGames';
                 var2 = var4.bind(var5)(var2, var3);
                 return var1;
@@ -980,19 +834,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8['displayName'] = var2;
         var8['persistKey'] = var2;
         var2 = new Array(2);
-        var11 = function(arg1) {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        var9 = function(arg1) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                 var3 = arg1;
                 var4 = null;
-                if(!(var4 == var3)) { _fun0018_ip = 31; continue _fun0018 }
+                if(!(var4 == var3)) { _fun0015_ip = 31; continue _fun0015 }
  9:
                 var1 = {};
                 var2 = '';
                 var1['detectableGamesEtag'] = var2;
                 var2 = new Array(0);
                 var1['detectableGames'] = var2;
-                _fun0018_ip = 92; continue _fun0018;
+                _fun0015_ip = 92; continue _fun0015;
  31:
                 var2 = {};
                 var5 = var3.detectableGamesEtag;
@@ -1000,12 +854,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var3.detectableGames;
                 var5 = var4 == var7;
                 var3 = undefined;
-                if(var5) { _fun0018_ip = 76; continue _fun0018 }
+                if(var5) { _fun0015_ip = 76; continue _fun0015 }
  59:
                 var6 = var7.map;
                 var5 = function(arg1) {
-                    var3 = _closure1_slot23;
-                    var4 = _closure1_slot9;
+                    var3 = _closure1_slot20;
+                    var4 = _closure1_slot7;
                     var1 = var4.prototype;
                     var2 = Object.create(var1, {constructor: {value: var4}});
                     var5 = arg1;
@@ -1018,7 +872,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var3 = var6.bind(var7)(var5);
  76:
-                if(!(var4 == var3)) { _fun0018_ip = 84; continue _fun0018 }
+                if(!(var4 == var3)) { _fun0015_ip = 84; continue _fun0015 }
  80:
                 var3 = new Array(0);
  84:
@@ -1028,20 +882,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var2[0] = var11;
-        var11 = function(arg1) {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+        var2[0] = var9;
+        var9 = function(arg1) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
                 var1 = arg1;
                 var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var2 = 10;
+                var3 = _closure1_slot1;
+                var2 = 9;
                 var3 = var3[var2];
                 var2 = undefined;
                 var3 = var4.bind(var2)(var3);
                 var2 = var3.isDesktop;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0019_ip = 64; continue _fun0019 }
+                if(var2) { _fun0016_ip = 64; continue _fun0016 }
  41:
                 var2 = {};
                 var3 = '';
@@ -1053,274 +907,166 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var2[1] = var11;
+        var2[1] = var9;
         var8['migrations'] = var2;
-        var2 = 14;
+        var2 = 12;
         var2 = var6[var2];
-        var14 = var7.bind(var1)(var2);
+        var12 = var7.bind(var1)(var2);
         var2 = {};
-        var11 = function handleOverlayInitialize(arg1) {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+        var9 = function handleOverlayInitialize(arg1) {
+            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
                 var1 = arg1;
                 var3 = var1.detectableApplications;
-                var2 = _closure1_slot20;
+                var2 = _closure1_slot18;
                 var1 = undefined;
                 var4 = var2.bind(var1)(var3);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0020_ip = 66; continue _fun0020 }
+                if(var2) { _fun0017_ip = 66; continue _fun0017 }
  37:
-                var6 = _closure1_slot24;
+                var6 = _closure1_slot21;
                 var2 = var3.value;
                 var2 = var6.bind(var1)(var2);
                 var6 = var4.bind(var1)();
                 var2 = var6.done;
                 var3 = var6;
-                if(!var2) { _fun0020_ip = 37; continue _fun0020 }
+                if(!var2) { _fun0017_ip = 37; continue _fun0017 }
  66:
                 return var1;
             }
         };
-        var2['OVERLAY_INITIALIZE'] = var11;
-        var11 = function handleApplicationsFetch() {
+        var2['OVERLAY_INITIALIZE'] = var9;
+        var9 = function handleApplicationsFetch() {
             var1 = true;
-            _closure1_slot17 = var1;
+            _closure1_slot15 = var1;
             var1 = undefined;
             return var1;
         };
-        var2['GAMES_DATABASE_FETCH'] = var11;
-        var11 = function handleApplicationsFetchFail() {
+        var2['GAMES_DATABASE_FETCH'] = var9;
+        var9 = function handleApplicationsFetchFail() {
             var1 = false;
-            _closure1_slot17 = var1;
+            _closure1_slot15 = var1;
             var1 = undefined;
             return var1;
         };
-        var2['GAMES_DATABASE_FETCH_FAIL'] = var11;
-        var11 = function handleDetectableGamesUpdated(arg1) {
-            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        var2['GAMES_DATABASE_FETCH_FAIL'] = var9;
+        var4 = function handleDetectableGamesUpdated(arg1) {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
                 var1 = arg1;
                 var4 = var1.games;
                 var2 = var1.etag;
-                var1 = null;
-                var1 = var1 != var2;
-                if(!var1) { _fun0021_ip = 35; continue _fun0021 }
+                var6 = null;
+                var1 = var6 != var2;
+                if(!var1) { _fun0018_ip = 35; continue _fun0018 }
  24:
-                var3 = _closure1_slot16;
+                var3 = _closure1_slot14;
                 var1 = var3 !== var2;
  35:
-                if(!var1) { _fun0021_ip = 45; continue _fun0021 }
+                if(!var1) { _fun0018_ip = 45; continue _fun0018 }
  38:
-                _closure1_slot16 = var2;
+                _closure1_slot14 = var2;
  45:
-                var2 = _closure1_slot20;
+                var2 = _closure1_slot18;
                 var1 = undefined;
                 var5 = var2.bind(var1)(var4);
                 var4 = var5.bind(var1)();
                 var2 = var4.done;
-                if(var2) { _fun0021_ip = 109; continue _fun0021 }
- 71:
-                var6 = _closure1_slot24;
-                var7 = _closure1_slot22;
-                var2 = var4.value;
+                if(var2) { _fun0018_ip = 329; continue _fun0018 }
+ 74:
+                var8 = var4.value;
+                var7 = _closure1_slot21;
+                var2 = {};
+                var9 = var8.id;
+                var2['id'] = var9;
+                var9 = var8.name;
+                var2['name'] = var9;
+                var11 = var8.executables;
+                if(!(var6 == var11)) { _fun0018_ip = 117; continue _fun0018 }
+ 113:
+                var11 = new Array(0);
+ 117:
+                var10 = var11.map;
+                var9 = _closure1_slot8;
+                var9 = var10.bind(var11)(var9);
+                var2['executables'] = var9;
+                var10 = var8.overlay;
+                var9 = var6 != var10;
+                if(!var9) { _fun0018_ip = 152; continue _fun0018 }
+ 149:
+                var9 = var10;
+ 152:
+                var2['overlay'] = var9;
+                var10 = var8.overlay_warn;
+                var9 = var6 != var10;
+                if(!var9) { _fun0018_ip = 173; continue _fun0018 }
+ 170:
+                var9 = var10;
+ 173:
+                var2['overlayWarn'] = var9;
+                var10 = var8.overlay_compatibility_hook;
+                var9 = var6 != var10;
+                if(!var9) { _fun0018_ip = 194; continue _fun0018 }
+ 191:
+                var9 = var10;
+ 194:
+                var2['overlayCompatibilityHook'] = var9;
+                var10 = var8.hook;
+                var9 = var6 == var10;
+                if(var9) { _fun0018_ip = 215; continue _fun0018 }
+ 212:
+                var9 = var10;
+ 215:
+                var2['hook'] = var9;
+                var9 = var8.aliases;
+                if(!(var6 == var9)) { _fun0018_ip = 234; continue _fun0018 }
+ 230:
+                var9 = new Array(0);
+ 234:
+                var2['aliases'] = var9;
+                var11 = _closure1_slot7;
+                var10 = var11.supportsOutOfProcessOverlay;
+                var9 = var8.overlay_methods;
+                var9 = var10.bind(var11)(var9);
+                var2['supportsOutOfProcessOverlay'] = var9;
+                var9 = var8.themes;
+                if(!(var6 == var9)) { _fun0018_ip = 279; continue _fun0018 }
+ 275:
+                var9 = new Array(0);
+ 279:
+                var2['themes'] = var9;
+                var9 = var8.icon_hash;
+                var10 = var6 != var9;
+                var8 = undefined;
+                if(!var10) { _fun0018_ip = 302; continue _fun0018 }
+ 299:
+                var8 = var9;
+ 302:
+                var2['icon'] = var8;
                 var2 = var7.bind(var1)(var2);
-                var2 = var6.bind(var1)(var2);
-                var6 = var5.bind(var1)();
-                var2 = var6.done;
-                var4 = var6;
-                if(!var2) { _fun0021_ip = 71; continue _fun0021 }
- 109:
-                _closure1_slot17 = var1;
+                var7 = var5.bind(var1)();
+                var2 = var7.done;
+                var4 = var7;
+                if(!var2) { _fun0018_ip = 74; continue _fun0018 }
+ 329:
+                _closure1_slot15 = var1;
                 var2 = global;
                 var4 = var2.Date;
                 var2 = var4.now;
                 var2 = var2.bind(var4)();
-                _closure1_slot18 = var2;
+                _closure1_slot16 = var2;
                 return var1;
             }
         };
-        var2['GAMES_DATABASE_UPDATE'] = var11;
-        var11 = function handleCacheLoaded(arg1) {
-            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
- 0:
-                var3 = _closure1_slot20;
-                var4 = _closure1_slot1;
-                var2 = _closure1_slot2;
-                var1 = 11;
-                var2 = var2[var1];
-                var1 = undefined;
-                var5 = var4.bind(var1)(var2);
-                var4 = var5.entries;
-                var2 = arg1;
-                var2 = var2.messages;
-                var2 = var4.bind(var5)(var2);
-                var7 = var3.bind(var1)(var2);
-                var3 = var7.bind(var1)();
-                var2 = var3.done;
-                var6 = 2;
-                var5 = 0;
-                var4 = 1;
-                if(var2) { _fun0022_ip = 129; continue _fun0022 }
- 76:
-                var10 = var3.value;
-                var2 = _closure1_slot8;
-                var2 = var2.bind(var1)(var10, var6);
-                var10 = var2[var5];
-                var11 = var2[var4];
-                var10 = var11.forEach;
-                var2 = function(arg1) {
-                    var3 = _closure1_slot25;
-                    var1 = undefined;
-                    var2 = arg1;
-                    var2 = var3.bind(var1)(var2);
-                    return var1;
-                };
-                var2 = var10.bind(var11)(var2);
-                var10 = var7.bind(var1)();
-                var2 = var10.done;
-                var3 = var10;
-                if(!var2) { _fun0022_ip = 76; continue _fun0022 }
- 129:
-                return var1;
-            }
-        };
-        var2['CACHE_LOADED'] = var11;
-        var11 = function handleLocalMessagesLoaded(arg1) {
-            var1 = arg1;
-            var3 = var1.messages;
-            var2 = var3.forEach;
-            var1 = function(arg1) {
-                var3 = _closure1_slot25;
-                var1 = undefined;
-                var2 = arg1;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            var1 = var2.bind(var3)(var1);
-            var1 = undefined;
-            return var1;
-        };
-        var2['LOCAL_MESSAGES_LOADED'] = var11;
-        var2['MESSAGE_CREATE'] = var10;
-        var2['MESSAGE_UPDATE'] = var10;
-        var10 = function handleLoadMessageSuccess(arg1) {
-            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
- 0:
-                var1 = arg1;
-                var3 = var1.messages;
-                var2 = _closure1_slot20;
-                var1 = undefined;
-                var4 = var2.bind(var1)(var3);
-                var3 = var4.bind(var1)();
-                var2 = var3.done;
-                if(var2) { _fun0023_ip = 64; continue _fun0023 }
- 35:
-                var6 = _closure1_slot25;
-                var2 = var3.value;
-                var2 = var6.bind(var1)(var2);
-                var6 = var4.bind(var1)();
-                var2 = var6.done;
-                var3 = var6;
-                if(!var2) { _fun0023_ip = 35; continue _fun0023 }
- 64:
-                return var1;
-            }
-        };
-        var2['LOAD_MESSAGES_SUCCESS'] = var10;
-        var10 = function handleLoadPinnedMessages(arg1) {
-            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
- 0:
-                var1 = arg1;
-                var3 = var1.pins;
-                var2 = _closure1_slot20;
-                var1 = undefined;
-                var4 = var2.bind(var1)(var3);
-                var3 = var4.bind(var1)();
-                var2 = var3.done;
-                if(var2) { _fun0024_ip = 69; continue _fun0024 }
- 35:
-                var6 = _closure1_slot25;
-                var2 = var3.value;
-                var2 = var2.message;
-                var2 = var6.bind(var1)(var2);
-                var6 = var4.bind(var1)();
-                var2 = var6.done;
-                var3 = var6;
-                if(!var2) { _fun0024_ip = 35; continue _fun0024 }
- 69:
-                return var1;
-            }
-        };
-        var2['LOAD_PINNED_MESSAGES_SUCCESS'] = var10;
-        var10 = function handleThreadListSync(arg1) {
-            _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
- 0:
-                var1 = arg1;
-                var3 = var1.mostRecentMessages;
-                var1 = null;
-                if(!(var1 != var3)) { _fun0025_ip = 32; continue _fun0025 }
- 15:
-                var2 = var3.forEach;
-                var1 = function(arg1) {
-                    var3 = _closure1_slot25;
-                    var1 = undefined;
-                    var2 = arg1;
-                    var2 = var3.bind(var1)(var2);
-                    return var1;
-                };
-                var1 = var2.bind(var3)(var1);
- 32:
-                var1 = undefined;
-                return var1;
-            }
-        };
-        var2['THREAD_LIST_SYNC'] = var10;
-        var2['LOAD_THREADS_SUCCESS'] = var9;
-        var2['LOAD_ARCHIVED_THREADS_SUCCESS'] = var9;
-        var4 = function handleLoadForumPosts(arg1) {
-            var1 = arg1;
-            var3 = var1.threads;
-            var1 = global;
-            var2 = var1.Object;
-            var1 = var2.values;
-            var3 = var1.bind(var2)(var3);
-            var2 = var3.forEach;
-            var1 = function(arg1) {
-                _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
- 0:
-                    var1 = arg1;
-                    var5 = var1.first_message;
-                    var3 = var1.most_recent_message;
-                    var1 = null;
-                    if(!(var1 != var5)) { _fun0026_ip = 35; continue _fun0026 }
- 21:
-                    var4 = _closure1_slot25;
-                    var2 = undefined;
-                    var2 = var4.bind(var2)(var5);
- 35:
-                    if(!(var1 != var3)) { _fun0026_ip = 53; continue _fun0026 }
- 39:
-                    var2 = _closure1_slot25;
-                    var1 = undefined;
-                    var1 = var2.bind(var1)(var3);
- 53:
-                    var1 = undefined;
-                    return var1;
-                }
-            };
-            var1 = var2.bind(var3)(var1);
-            var1 = undefined;
-            return var1;
-        };
-        var2['LOAD_FORUM_POSTS'] = var4;
+        var2['GAMES_DATABASE_UPDATE'] = var4;
         var4 = var8.prototype;
         var4 = Object.create(var4, {constructor: {value: var8}});
-        var15 = var4;
-        var13 = var2;
-        var2 = new var15[var8](var14, var13, var12);
+        var13 = var4;
+        var11 = var2;
+        var2 = new var13[var8](var12, var11, var10);
         var2 = var2 instanceof Object ? var2 : var4;
-        var4 = 15;
+        var4 = 13;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

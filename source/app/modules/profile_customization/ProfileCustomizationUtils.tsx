@@ -604,7 +604,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
             var3 = arg1;
-            var7 = arg2;
+            var2 = arg2;
             var5 = arg3;
             var6 = arguments[3];
             var1 = undefined;
@@ -613,48 +613,56 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = false;
  20:
             var4 = null;
-            if(!(var4 == var3)) { _fun0013_ip = 71; continue _fun0013 }
+            if(!(var4 == var3)) { _fun0013_ip = 82; continue _fun0013 }
  26:
-            if(!(var4 != var7)) { _fun0013_ip = 38; continue _fun0013 }
+            if(!(var4 != var2)) { _fun0013_ip = 64; continue _fun0013 }
  30:
+            var7 = 'string';
+            var1 = typeof var2;
+            if(!(var7 === var1)) { _fun0013_ip = 49; continue _fun0013 }
+ 41:
             var1 = '';
-            if(!(var1 === var7)) { _fun0013_ip = 53; continue _fun0013 }
- 38:
+            if(!(var1 !== var2)) { _fun0013_ip = 64; continue _fun0013 }
+ 49:
             var1 = {};
-            var1['value'] = var5;
-            var2 = false;
+            var1['value'] = var2;
+            var2 = true;
             var1['isUsingGuildValue'] = var2;
-            _fun0013_ip = 69; continue _fun0013;
- 53:
+            _fun0013_ip = 80; continue _fun0013;
+ 64:
             var2 = {};
-            var2['value'] = var7;
-            var7 = true;
+            var2['value'] = var5;
+            var7 = false;
             var2['isUsingGuildValue'] = var7;
             var1 = var2;
- 69:
-            _fun0013_ip = 119; continue _fun0013;
- 71:
+ 80:
+            _fun0013_ip = 141; continue _fun0013;
+ 82:
+            var7 = 'string';
+            var2 = typeof var3;
+            if(!(var7 === var2)) { _fun0013_ip = 101; continue _fun0013 }
+ 93:
             var2 = '';
-            if(!(var2 !== var3)) { _fun0013_ip = 92; continue _fun0013 }
- 79:
+            if(!(var2 !== var3)) { _fun0013_ip = 114; continue _fun0013 }
+ 101:
             var2 = {};
             var2['value'] = var3;
             var2['isUsingGuildValue'] = var6;
-            _fun0013_ip = 116; continue _fun0013;
- 92:
+            _fun0013_ip = 138; continue _fun0013;
+ 114:
             var3 = {};
             var4 = null;
-            if(!var6) { _fun0013_ip = 102; continue _fun0013 }
- 99:
+            if(!var6) { _fun0013_ip = 124; continue _fun0013 }
+ 121:
             var4 = var5;
- 102:
+ 124:
             var3['value'] = var4;
             var4 = false;
             var3['isUsingGuildValue'] = var4;
             var2 = var3;
- 116:
+ 138:
             var1 = var2;
- 119:
+ 141:
             return var1;
         }
     };

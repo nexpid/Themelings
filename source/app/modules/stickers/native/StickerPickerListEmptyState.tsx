@@ -92,18 +92,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5 = var5.bind(var6)(var2, var3);
-            if(var1) { _fun0001_ip = 85; continue _fun0001 }
- 79:
+            if(var1) { _fun0001_ip = 87; continue _fun0001 }
+ 81:
             var3 = _closure1_slot4;
-            _fun0001_ip = 111; continue _fun0001;
- 85:
+            _fun0001_ip = 113; continue _fun0001;
+ 87:
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 6;
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.BottomSheetScrollView;
- 111:
+ 113:
             var2 = _closure1_slot6;
             var1 = {};
             var1['contentContainerStyle'] = var5;

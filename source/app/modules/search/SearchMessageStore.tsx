@@ -230,6 +230,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 0;
             var3['documentsIndexed'] = var5;
             var3['totalResults'] = var2;
+            var3['hasNextPage'] = var4;
             var5 = global;
             var5 = var5.Set;
             var6 = var5.prototype;
@@ -318,46 +319,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function value(arg1, arg2, arg3) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                var6 = arg1;
-                var7 = arg2;
+                var4 = arg1;
+                var8 = arg2;
                 var3 = this;
                 var _closure3_slot0 = var3;
-                var8 = var6.analyticsId;
-                var4 = var6.cursor;
-                var2 = var6.totalResults;
-                var1 = var6.doingHistoricalIndex;
-                var6 = var6.documentsIndexed;
+                var7 = var4.analyticsId;
+                var1 = var4.cursor;
+                var2 = var4.totalResults;
+                var5 = var4.doingHistoricalIndex;
+                var4 = var4.documentsIndexed;
                 var9 = undefined;
                 var _closure3_slot1 = var9;
                 var _closure3_slot2 = var9;
-                var3['analyticsId'] = var8;
-                var8 = false;
-                var3['isFetching'] = var8;
-                var3['isIndexing'] = var8;
-                var8 = true;
-                var3['isInitialFetchComplete'] = var8;
-                var3['isHistoricalIndexing'] = var1;
-                var1 = null;
-                var3['error'] = var1;
-                var3['documentsIndexed'] = var6;
-                var3['cursor'] = var4;
-                var4 = arg3;
-                var3['rawMessages'] = var4;
-                var6 = var3.messages;
-                if(!(var1 == var6)) { _fun0006_ip = 131; continue _fun0006 }
+                var3['analyticsId'] = var7;
+                var7 = false;
+                var3['isFetching'] = var7;
+                var3['isIndexing'] = var7;
+                var7 = true;
+                var3['isInitialFetchComplete'] = var7;
+                var3['isHistoricalIndexing'] = var5;
+                var5 = null;
+                var3['error'] = var5;
+                var3['documentsIndexed'] = var4;
+                var3['cursor'] = var1;
+                var1 = arg3;
+                var3['rawMessages'] = var1;
+                var7 = var3.messages;
+                if(!(var5 == var7)) { _fun0006_ip = 131; continue _fun0006 }
  127:
-                var6 = new Array(0);
+                var7 = new Array(0);
  131:
                 var4 = new Array(0);
                 var11 = 0;
                 var13 = var4;
-                var12 = var6;
+                var12 = var7;
                 var1 = arraySpread(var13, var12, var11);
                 _closure3_slot1 = var4;
                 var1 = new Array(0);
                 _closure3_slot2 = var1;
-                var6 = var7.forEach;
-                var5 = function(arg1) {
+                var7 = var8.forEach;
+                var6 = function(arg1) {
                     _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                         var3 = arg1;
@@ -390,8 +391,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var5 = var6.bind(var7)(var5);
+                var6 = var7.bind(var8)(var6);
                 var3['messages'] = var4;
+                var4 = var3.cursor;
+                var4 = var5 != var4;
+                var3['hasNextPage'] = var4;
                 var3['totalResults'] = var2;
                 return var1;
             }
@@ -483,7 +487,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(14);
+        var1 = new Array(15);
         var1[0] = var5;
         var5 = {};
         var7 = 'getMessage';
@@ -600,6 +604,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[7] = var5;
         var5 = {};
+        var7 = 'getHasNextPage';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var4 = _closure1_slot17;
+            var3 = undefined;
+            var2 = arg1;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.hasNextPage;
+                return var1;
+            };
+            var1 = var4.bind(var3)(var2, var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[8] = var5;
+        var5 = {};
         var7 = 'getError';
         var5['key'] = var7;
         var7 = function value(arg1) {
@@ -615,7 +636,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'getMessages';
         var5['key'] = var7;
@@ -632,7 +653,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'getCursor';
         var5['key'] = var7;
@@ -649,7 +670,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[11] = var5;
         var5 = {};
         var7 = 'getAnalyticsId';
         var5['key'] = var7;
@@ -666,7 +687,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[12] = var5;
         var5 = {};
         var7 = 'getRawMessages';
         var5['key'] = var7;
@@ -683,7 +704,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[12] = var5;
+        var1[13] = var5;
         var5 = {};
         var7 = 'hasSearchState';
         var5['key'] = var7;
@@ -695,7 +716,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var6;
-        var1[13] = var5;
+        var1[14] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

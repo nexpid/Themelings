@@ -811,12 +811,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var21.bind(var22)(var19, var20);
             var19 = var1 == var4;
             var1 = undefined;
-            if(var19) { _fun0001_ip = 970; continue _fun0001 }
- 965:
+            if(var19) { _fun0001_ip = 992; continue _fun0001 }
+ 987:
             var1 = var4.length;
- 970:
-            if(!(var3 !== var1)) { _fun0001_ip = 1186; continue _fun0001 }
- 977:
+ 992:
+            if(!(var3 !== var1)) { _fun0001_ip = 1208; continue _fun0001 }
+ 999:
             var4 = _closure1_slot11;
             var3 = _closure1_slot1;
             var21 = _closure1_slot2;
@@ -862,8 +862,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['sectionHeaderSize'] = var10;
             var1['sectionFooterSize'] = var9;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 1233; continue _fun0001;
- 1186:
+            _fun0001_ip = 1255; continue _fun0001;
+ 1208:
             var4 = _closure1_slot11;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -875,7 +875,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['insetTop'] = var7;
             var2['insetBottom'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1233:
+ 1255:
             return var1;
         }
     };

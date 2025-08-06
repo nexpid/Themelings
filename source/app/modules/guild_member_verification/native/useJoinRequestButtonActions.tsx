@@ -36,9 +36,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.Routes;
     var _closure1_slot7 = var4;
-    var4 = 15;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot8 = var4;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -73,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function() {
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 5;
+            var1 = 6;
             var2 = var9[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -82,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'JOIN_REQUEST_ERROR';
             var2['key'] = var6;
             var8 = _closure1_slot0;
-            var5 = 6;
+            var5 = 7;
             var6 = var9[var5];
             var6 = var8.bind(var1)(var6);
             var7 = var6.intl;
@@ -107,113 +112,157 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 368; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 531; continue _fun0001 }
  10:
-                    var2 = _closure2_slot5;
-                    if(var2) { _fun0001_ip = 363; continue _fun0001 }
- 23:
-                    var2 = _closure2_slot2;
-                    var4 = null;
-                    if(!(var4 != var2)) { _fun0001_ip = 363; continue _fun0001 }
- 36:
-                    var2 = _closure2_slot3;
-                    if(!(var4 != var2)) { _fun0001_ip = 363; continue _fun0001 }
- 47:
-                    var2 = _closure2_slot4;
-                    if(!(var4 != var2)) { _fun0001_ip = 363; continue _fun0001 }
- 58:
-                    var7 = _closure1_slot6;
-                    var6 = var7.getChannel;
-                    var2 = _closure2_slot1;
-                    var2 = var6.bind(var7)(var2);
-                    if(!(var4 == var2)) { _fun0001_ip = 298; continue _fun0001 }
- 86:
-                    var4 = _closure2_slot5;
-                    if(var4) { _fun0001_ip = 363; continue _fun0001 }
- 96:
-                    var6 = _closure2_slot6;
+                    var2 = undefined;
                     var7 = undefined;
-                    var4 = true;
-                    var4 = var6.bind(var7)(var4);
- 109: // try_start_0 // try_start_1
-                    var6 = _closure1_slot1;
-                    var8 = _closure1_slot2;
-                    var4 = 9;
-                    var4 = var8[var4];
-                    var8 = var6.bind(var7)(var4);
-                    var6 = var8.createOrEnterJoinRequestInterview;
-                    var4 = _closure2_slot4;
-                    var4 = var6.bind(var8)(var4);
-                    SaveGenerator(address=148);
- 146:
-                    return var4;
- 148:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0001_ip = 156; continue _fun0001 }
- 154: // try_end0
-                    _fun0001_ip = 210; continue _fun0001;
- 156: // try_end1
-                    var8 = _closure2_slot6;
-                    var6 = false;
-                    var6 = var8.bind(var7)(var6);
-                    var8 = _closure1_slot1;
-                    var9 = _closure1_slot2;
-                    var6 = 8;
-                    var6 = var9[var6];
-                    var8 = var8.bind(var7)(var6);
-                    var6 = var8.hideActionSheet;
-                    var6 = var6.bind(var8)();
-                    return var4;
- 200: // try_start_2 // catch_target0
-                    CatchBlockStart(arg_register=3);
-                    var4 = _closure2_slot7;
-                    var4 = var4.bind(var7)();
- 210: // try_end2
-                    var6 = _closure2_slot6;
-                    var4 = false;
-                    var4 = var6.bind(var7)(var4);
-                    var6 = _closure1_slot1;
-                    var8 = _closure1_slot2;
-                    var4 = 8;
-                    var4 = var8[var4];
-                    var6 = var6.bind(var7)(var4);
-                    var4 = var6.hideActionSheet;
-                    var4 = var4.bind(var6)();
-                    _fun0001_ip = 363; continue _fun0001;
- 253: // catch_target1 // catch_target2
-                    CatchBlockStart(arg_register=3);
-                    var6 = _closure2_slot6;
+                    var3 = _closure2_slot5;
+                    if(var3) { _fun0001_ip = 528; continue _fun0001 }
+ 27:
+                    var3 = _closure2_slot2;
+                    var8 = null;
+                    if(!(var8 != var3)) { _fun0001_ip = 528; continue _fun0001 }
+ 40:
+                    var3 = _closure2_slot3;
+                    if(!(var8 != var3)) { _fun0001_ip = 528; continue _fun0001 }
+ 51:
+                    var3 = _closure2_slot4;
+                    if(!(var8 != var3)) { _fun0001_ip = 528; continue _fun0001 }
+ 62:
+                    var9 = _closure1_slot6;
+                    var5 = var9.getChannel;
+                    var3 = _closure2_slot1;
+                    var3 = var5.bind(var9)(var3);
+                    if(!(var8 == var3)) { _fun0001_ip = 419; continue _fun0001 }
+ 90:
+                    var5 = _closure2_slot5;
+                    if(var5) { _fun0001_ip = 528; continue _fun0001 }
+ 100:
+                    var9 = _closure2_slot6;
+                    var5 = true;
+                    var5 = var9.bind(var2)(var5);
+ 111: // try_start_0 // try_start_1
+                    var9 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var5 = 10;
+                    var5 = var10[var5];
+                    var11 = var9.bind(var2)(var5);
+                    var10 = var11.createOrEnterJoinRequestInterview;
+                    var5 = _closure2_slot4;
+                    var9 = false;
+                    var5 = var10.bind(var11)(var5, var9);
+                    SaveGenerator(address=153);
+ 151:
+                    return var5;
+ 153:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
+                    if(var10) { _fun0001_ip = 276; continue _fun0001 }
+ 159:
+                    var7 = var5;
+                    if(!(var8 != var5)) { _fun0001_ip = 232; continue _fun0001 }
+ 166:
+                    var11 = _closure1_slot1;
+                    var12 = _closure1_slot2;
+                    var10 = 8;
+                    var10 = var12[var10];
+                    var11 = var11.bind(var2)(var10);
+                    var12 = _closure1_slot7;
+                    var10 = var12.CHANNEL;
+                    var10 = var10.bind(var12)(var8, var7);
+                    var7 = {'openChannel': true, 'navigationReplace': false};
+                    var7 = var11.bind(var2)(var10, var7);
+                    SaveGenerator(address=226);
+ 224:
+                    return var7;
+ 226:
+                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=9);
+                    if(var10) { _fun0001_ip = 234; continue _fun0001 }
+ 232: // try_end0
+                    _fun0001_ip = 328; continue _fun0001;
+ 234: // try_end1
+                    var10 = _closure2_slot6;
+                    var10 = var10.bind(var2)(var9);
+                    var11 = _closure1_slot1;
+                    var12 = _closure1_slot2;
+                    var10 = 9;
+                    var10 = var12[var10];
+                    var11 = var11.bind(var2)(var10);
+                    var10 = var11.hideActionSheet;
+                    var10 = var10.bind(var11)();
+                    return var7;
+ 276:
+                    var7 = _closure2_slot6;
+                    var7 = var7.bind(var2)(var9);
+                    var9 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var7 = 9;
+                    var7 = var10[var7];
+                    var9 = var9.bind(var2)(var7);
+                    var7 = var9.hideActionSheet;
+                    var7 = var7.bind(var9)();
+                    return var5;
+ 318: // try_start_2 // catch_target0
+                    CatchBlockStart(arg_register=4);
+                    var5 = _closure2_slot7;
+                    var5 = var5.bind(var2)();
+ 328: // try_end2
+                    var7 = _closure2_slot6;
                     var5 = false;
-                    var5 = var6.bind(var7)(var5);
+                    var5 = var7.bind(var2)(var5);
+                    var7 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var5 = 9;
+                    var5 = var9[var5];
+                    var7 = var7.bind(var2)(var5);
+                    var5 = var7.hideActionSheet;
+                    var5 = var5.bind(var7)();
+                    _fun0001_ip = 528; continue _fun0001;
+ 374: // catch_target1 // catch_target2
+                    CatchBlockStart(arg_register=4);
+                    var7 = _closure2_slot6;
+                    var6 = false;
+                    var6 = var7.bind(var2)(var6);
+                    var7 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var6 = 9;
+                    var6 = var9[var6];
+                    var7 = var7.bind(var2)(var6);
+                    var6 = var7.hideActionSheet;
+                    var6 = var6.bind(var7)();
+                    throw var5;
+ 419:
                     var6 = _closure1_slot1;
-                    var8 = _closure1_slot2;
+                    var7 = _closure1_slot2;
                     var5 = 8;
-                    var5 = var8[var5];
-                    var6 = var6.bind(var7)(var5);
-                    var5 = var6.hideActionSheet;
-                    var5 = var5.bind(var6)();
-                    throw var4;
- 298:
-                    var4 = _closure1_slot1;
-                    var5 = _closure1_slot2;
-                    var3 = 7;
-                    var6 = var5[var3];
-                    var3 = undefined;
-                    var7 = var4.bind(var3)(var6);
-                    var6 = var7.selectPrivateChannel;
-                    var2 = var2.id;
-                    var2 = var6.bind(var7)(var2);
-                    var2 = 8;
-                    var2 = var5[var2];
-                    var3 = var4.bind(var3)(var2);
-                    var2 = var3.hideActionSheet;
-                    var2 = var2.bind(var3)();
-                    var2 = undefined;
+                    var5 = var7[var5];
+                    var6 = var6.bind(var2)(var5);
+                    var7 = _closure1_slot7;
+                    var5 = var7.CHANNEL;
+                    var3 = var3.id;
+                    var5 = var5.bind(var7)(var8, var3);
+                    var3 = {'openChannel': true, 'navigationReplace': false};
+                    var3 = var6.bind(var2)(var5, var3);
+                    SaveGenerator(address=484);
+ 482:
+                    return var3;
+ 484:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(var5) { _fun0001_ip = 525; continue _fun0001 }
+ 490:
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 9;
+                    var4 = var6[var4];
+                    var5 = var5.bind(var2)(var4);
+                    var4 = var5.hideActionSheet;
+                    var4 = var4.bind(var5)();
+                    var4 = undefined;
+                    return var4;
+ 525:
+                    return var3;
+ 528:
                     return var2;
- 363:
-                    var2 = undefined;
-                    return var2;
- 368:
+ 531:
                     return var1;
                 }
             };
@@ -258,7 +307,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  71: // try_start_0 // try_start_1
                     var6 = _closure1_slot1;
                     var12 = _closure1_slot2;
-                    var2 = 9;
+                    var2 = 10;
                     var2 = var12[var2];
                     var10 = var6.bind(var5)(var2);
                     var9 = var10.updateGuildJoinRequest;
@@ -266,7 +315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var16 = _closure2_slot3;
                     var15 = _closure2_slot4;
                     var11 = _closure1_slot0;
-                    var2 = 10;
+                    var2 = 11;
                     var2 = var12[var2];
                     var2 = var11.bind(var5)(var2);
                     var2 = var2.GuildJoinRequestApplicationStatuses;
@@ -283,7 +332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  160:
                     var7 = _closure1_slot1;
                     var13 = _closure1_slot2;
-                    var6 = 5;
+                    var6 = 6;
                     var6 = var13[var6];
                     var8 = var7.bind(var5)(var6);
                     var7 = var8.open;
@@ -291,7 +340,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = 'JOIN_REQUEST_APPROVE';
                     var6['key'] = var9;
                     var12 = _closure1_slot0;
-                    var9 = 6;
+                    var9 = 7;
                     var10 = var13[var9];
                     var10 = var12.bind(var5)(var10);
                     var11 = var10.intl;
@@ -303,17 +352,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var10.bind(var11)(var9);
                     var6['content'] = var9;
                     var9 = function icon() {
-                        var4 = _closure1_slot7;
+                        var4 = _closure1_slot8;
                         var2 = _closure1_slot0;
                         var7 = _closure1_slot2;
-                        var1 = 11;
+                        var1 = 12;
                         var1 = var7[var1];
                         var3 = undefined;
                         var1 = var2.bind(var3)(var1);
                         var2 = var1.CircleCheckIcon;
                         var1 = {};
                         var6 = _closure1_slot1;
-                        var5 = 12;
+                        var5 = 13;
                         var8 = var7[var5];
                         var8 = var6.bind(var3)(var8);
                         var8 = var8.colors;
@@ -337,7 +386,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.bind(var5)(var6);
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var4 = 8;
+                    var4 = 9;
                     var4 = var7[var4];
                     var6 = var6.bind(var5)(var4);
                     var4 = var6.hideActionSheet;
@@ -353,7 +402,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.bind(var5)(var2);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 8;
+                    var2 = 9;
                     var2 = var6[var2];
                     var4 = var4.bind(var5)(var2);
                     var2 = var4.hideActionSheet;
@@ -366,7 +415,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.bind(var5)(var3);
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var3 = 8;
+                    var3 = 9;
                     var3 = var6[var3];
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.hideActionSheet;
@@ -417,16 +466,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  38:
                 var4 = _closure1_slot1;
                 var1 = _closure1_slot2;
-                var3 = 8;
+                var3 = 9;
                 var3 = var1[var3];
                 var7 = undefined;
                 var5 = var4.bind(var7)(var3);
                 var4 = var5.openLazy;
                 var3 = _closure1_slot0;
-                var2 = 14;
+                var2 = 15;
                 var2 = var1[var2];
                 var3 = var3.bind(var7)(var2);
-                var2 = 13;
+                var2 = 14;
                 var2 = var1[var2];
                 var1 = var1.paths;
                 var3 = var3.bind(var7)(var2, var1);

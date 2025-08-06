@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure1_slot7;
                     var2 = var3.isReady;
                     var2 = var2.bind(var3)();
-                    if(var2) { _fun0003_ip = 60; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 62; continue _fun0003 }
  20:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
@@ -309,7 +309,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var2.bind(var3)(var1);
- 60:
+ 62:
                     var1 = undefined;
                     return var1;
                 }
@@ -345,10 +345,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = null;
             var2 = var22 == var1;
             var23 = undefined;
-            if(var2) { _fun0002_ip = 127; continue _fun0002 }
- 121:
+            if(var2) { _fun0002_ip = 131; continue _fun0002 }
+ 125:
             var23 = var1.priceString;
- 127:
+ 131:
             var2 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 18;
@@ -447,10 +447,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 580;
             var7 = var7 <= var6;
             var6 = null;
-            if(!var7) { _fun0002_ip = 391; continue _fun0002 }
- 385:
-            var6 = var18.shortHeightAlert;
+            if(!var7) { _fun0002_ip = 397; continue _fun0002 }
  391:
+            var6 = var18.shortHeightAlert;
+ 397:
             var5[1] = var6;
             var1['style'] = var5;
             var8 = _closure1_slot13;
@@ -524,10 +524,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = {};
             var24 = var22 != var23;
             var22 = '$...';
-            if(!var24) { _fun0002_ip = 703; continue _fun0002 }
- 700:
+            if(!var24) { _fun0002_ip = 711; continue _fun0002 }
+ 708:
             var22 = var23;
- 703:
+ 711:
             var15['monthlyPrice'] = var22;
             var15 = var20.bind(var21)(var19, var15);
             var13['children'] = var15;

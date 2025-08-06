@@ -503,6 +503,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.rawPrefersReducedMotion;
             var4['prefersReducedMotion'] = var6;
             var4 = var5.bind(var2)(var4);
+            var4 = var2.handleExperimentsChanged;
+            var4 = var4.bind(var2)();
             var5 = _closure1_slot12;
             var4 = var5.addChangeListener;
             var3 = var2.handleExperimentsChanged;

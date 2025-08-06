@@ -141,11 +141,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var7 = null;
             var3 = var8;
-            if(!(var7 != var3)) { _fun0003_ip = 61; continue _fun0003 }
- 52:
+            if(!(var7 != var3)) { _fun0003_ip = 59; continue _fun0003 }
+ 50:
             var7 = _closure1_slot11;
             var3 = var7.bind(var5)(var8);
- 61:
+ 59:
             var1['search_tab_selected'] = var3;
             var3 = _closure1_slot13;
             var3 = var3.bind(var5)(var4);
@@ -590,10 +590,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'search_result_user_id';
             var2[var10] = var11;
             var9 = null;
-            if(var8) { _fun0006_ip = 305; continue _fun0006 }
- 302:
+            if(var8) { _fun0006_ip = 301; continue _fun0006 }
+ 298:
             var9 = var7;
- 305:
+ 301:
             var7 = 'total_search_results';
             var2[var7] = var9;
             var7 = 'is_initial_search_query';

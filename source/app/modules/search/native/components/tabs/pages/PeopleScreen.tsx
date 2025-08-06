@@ -39,8 +39,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.SearchResultContentEntityTypes;
     var _closure1_slot8 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot9 = var4;
     var4 = var7.memo;
     var2 = function PeopleScreen(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -51,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var2.onViewableItemsChanged;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var5 = 5;
+            var5 = 6;
             var8 = var4[var5];
             var5 = undefined;
             var9 = var3.bind(var5)(var8);
@@ -68,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var13 = var9.bind(var10)(var6, var8);
             var _closure2_slot2 = var13;
-            var8 = 6;
+            var8 = 7;
             var8 = var4[var8];
             var10 = var3.bind(var5)(var8);
             var9 = var10.useFullscreenPlaceholderCount;
@@ -79,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['numColumns'] = var12;
             var12 = var9.bind(var10)(var8);
             var _closure2_slot3 = var12;
-            var9 = 7;
+            var9 = 8;
             var8 = var4[var9];
             var14 = var3.bind(var5)(var8);
             var10 = var14.useOnPressGroupDMItem;
@@ -105,50 +110,64 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             var5 = arg1;
+                            var10 = arg2;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 162; continue _fun0002 }
- 13:
-                            var6 = _closure1_slot1;
+                            if(var2) { _fun0002_ip = 226; continue _fun0002 }
+ 16:
+                            var4 = _closure1_slot1;
                             var3 = _closure1_slot2;
-                            var2 = 8;
+                            var2 = 9;
                             var2 = var3[var2];
                             var3 = undefined;
-                            var6 = var6.bind(var3)(var2);
-                            var2 = var6.getOrEnsurePrivateChannel;
-                            var2 = var2.bind(var6)(var5);
-                            SaveGenerator(address=53);
- 51:
+                            var4 = var4.bind(var3)(var2);
+                            var2 = var4.getOrEnsurePrivateChannel;
+                            var2 = var2.bind(var4)(var5);
+                            SaveGenerator(address=56);
+ 54:
                             return var2;
- 53:
-                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(var6) { _fun0002_ip = 159; continue _fun0002 }
- 59:
-                            var10 = _closure1_slot0;
-                            var11 = _closure1_slot2;
-                            var4 = 9;
-                            var4 = var11[var4];
-                            var8 = var10.bind(var3)(var4);
-                            var7 = var8.trackSearchResultClicked;
+ 56:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                            if(var4) { _fun0002_ip = 223; continue _fun0002 }
+ 65:
+                            var14 = _closure1_slot0;
+                            var8 = _closure1_slot2;
+                            var4 = 10;
+                            var4 = var8[var4];
+                            var12 = var14.bind(var3)(var4);
+                            var7 = var12.trackSearchResultClicked;
                             var6 = {};
-                            var9 = _closure2_slot0;
-                            var6['searchContext'] = var9;
+                            var11 = _closure2_slot0;
+                            var6['searchContext'] = var11;
                             var6['channelId'] = var2;
                             var6['userId'] = var5;
-                            var9 = arg2;
-                            var6['index'] = var9;
-                            var9 = 5;
-                            var9 = var11[var9];
-                            var10 = var10.bind(var3)(var9);
-                            var9 = var10.getPeopleSearchResultsCount;
-                            var9 = var9.bind(var10)();
-                            var6['totalSearchResults'] = var9;
+                            var6['index'] = var10;
+                            var13 = 6;
+                            var13 = var8[var13];
+                            var14 = var14.bind(var3)(var13);
+                            var13 = var14.getPeopleSearchResultsCount;
+                            var13 = var13.bind(var14)();
+                            var6['totalSearchResults'] = var13;
+                            var6 = var7.bind(var12)(var6);
+                            var7 = _closure1_slot1;
+                            var6 = 11;
+                            var6 = var8[var6];
+                            var8 = var7.bind(var3)(var6);
+                            var7 = var8.trackSearchResultClickedMobile;
+                            var6 = {};
+                            var6['searchContext'] = var11;
+                            var6['userId'] = var5;
+                            var6['channelId'] = var2;
+                            var6['index'] = var10;
+                            var9 = _closure1_slot8;
+                            var9 = var9.CHANNEL;
+                            var6['entityType'] = var9;
                             var6 = var7.bind(var8)(var6);
                             var4 = _closure2_slot5;
                             var4 = var4.bind(var3)(var5, var2);
                             return var3;
- 159:
+ 223:
                             return var2;
- 162:
+ 226:
                             return var1;
                         }
                     };
@@ -180,25 +199,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[1] = var6;
             var8 = function(arg1, arg2) {
                 var3 = arg1;
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
-                var1 = 9;
-                var2 = var9[var1];
+                var8 = arg2;
+                var12 = _closure1_slot0;
+                var6 = _closure1_slot2;
+                var1 = 10;
+                var2 = var6[var1];
                 var1 = undefined;
-                var6 = var8.bind(var1)(var2);
-                var5 = var6.trackSearchResultClicked;
+                var10 = var12.bind(var1)(var2);
+                var5 = var10.trackSearchResultClicked;
                 var4 = {};
-                var7 = _closure2_slot0;
-                var4['searchContext'] = var7;
+                var9 = _closure2_slot0;
+                var4['searchContext'] = var9;
                 var4['channelId'] = var3;
-                var7 = arg2;
-                var4['index'] = var7;
-                var7 = 5;
-                var7 = var9[var7];
-                var8 = var8.bind(var1)(var7);
-                var7 = var8.getPeopleSearchResultsCount;
-                var7 = var7.bind(var8)();
-                var4['totalSearchResults'] = var7;
+                var4['index'] = var8;
+                var11 = 6;
+                var11 = var6[var11];
+                var12 = var12.bind(var1)(var11);
+                var11 = var12.getPeopleSearchResultsCount;
+                var11 = var11.bind(var12)();
+                var4['totalSearchResults'] = var11;
+                var4 = var5.bind(var10)(var4);
+                var5 = _closure1_slot1;
+                var4 = 11;
+                var4 = var6[var4];
+                var6 = var5.bind(var1)(var4);
+                var5 = var6.trackSearchResultClickedMobile;
+                var4 = {};
+                var4['searchContext'] = var9;
+                var4['channelId'] = var3;
+                var4['index'] = var8;
+                var7 = _closure1_slot8;
+                var7 = var7.CHANNEL;
+                var4['entityType'] = var7;
                 var4 = var5.bind(var6)(var4);
                 var2 = _closure2_slot4;
                 var2 = var2.bind(var1)(var3);
@@ -354,7 +386,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var8 = var9.bind(var10)(var1, var8);
-            var1 = 10;
+            var1 = 12;
             var1 = var4[var1];
             var4 = var3.bind(var5)(var1);
             var3 = var4.useMessageTabCountsErrorText;
@@ -364,10 +396,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             if(!(var1 == var6)) { _fun0001_ip = 403; continue _fun0001 }
  351:
-            var4 = _closure1_slot8;
+            var4 = _closure1_slot9;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var1 = 12;
+            var1 = 14;
             var1 = var9[var1];
             var3 = var3.bind(var5)(var1);
             var1 = {};
@@ -378,10 +410,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var3, var1);
             _fun0001_ip = 439; continue _fun0001;
  403:
-            var4 = _closure1_slot8;
+            var4 = _closure1_slot9;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 11;
+            var2 = 13;
             var2 = var7[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -392,7 +424,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 13;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

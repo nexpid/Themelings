@@ -154,60 +154,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
-                    var7 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 148; continue _fun0003 }
- 13:
-                    var5 = undefined;
-                    if(!(var7 === var5)) { _fun0003_ip = 21; continue _fun0003 }
- 19:
-                    var7 = false;
- 21:
-                    SaveGenerator(address=25);
- 23:
-                    return var5;
- 25:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 145; continue _fun0003 }
- 31:
+                    if(var2) { _fun0003_ip = 116; continue _fun0003 }
+ 7:
                     var4 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var3 = 2;
-                    var3 = var8[var3];
-                    var3 = var4.bind(var5)(var3);
-                    var5 = var3.HTTP;
-                    var4 = var5.get;
-                    var3 = {};
-                    var9 = _closure1_slot4;
-                    var8 = var9.GUILD_ENTITLEMENTS;
-                    var6 = arg1;
-                    var6 = var8.bind(var9)(var6);
-                    var3['url'] = var6;
-                    var6 = {'with_sku': true, 'with_application': true};
-                    var6['exclude_deleted'] = var7;
-                    var3['query'] = var6;
-                    var6 = false;
-                    var3['rejectWithError'] = var6;
-                    var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=128);
- 126:
-                    return var3;
- 128:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 142; continue _fun0003 }
- 134:
-                    var4 = var3.body;
-                    return var4;
- 142:
-                    return var3;
- 145:
+                    var3 = _closure1_slot2;
+                    var2 = 2;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var2 = var4.bind(var2)(var3);
+                    var4 = var2.HTTP;
+                    var3 = var4.get;
+                    var2 = {};
+                    var7 = _closure1_slot4;
+                    var6 = var7.GUILD_ENTITLEMENTS;
+                    var5 = arg1;
+                    var5 = var6.bind(var7)(var5);
+                    var2['url'] = var5;
+                    var5 = {'with_sku': true, 'with_application': true};
+                    var2['query'] = var5;
+                    var5 = false;
+                    var2['rejectWithError'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    SaveGenerator(address=99);
+ 97:
                     return var2;
- 148:
+ 99:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0003_ip = 113; continue _fun0003 }
+ 105:
+                    var3 = var2.body;
+                    return var3;
+ 113:
+                    return var2;
+ 116:
                     return var1;
                 }
             };
-            var2 = var1.next;
-            var2 = var2.bind(var1)();
             return var1;
         };
         var2 = var4.bind(var3)(var2);

@@ -188,6 +188,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['atPreviousMillisecond'] = var5;
+    var5 = function atNextMillisecond(arg1) {
+        var3 = _closure1_slot6;
+        var4 = _closure1_slot5;
+        var2 = undefined;
+        var1 = arg1;
+        var4 = var4.bind(var2)(var1);
+        var1 = 1;
+        var1 = var4 + var1;
+        var1 = var3.bind(var2)(var1);
+        return var1;
+    };
+    var3['atNextMillisecond'] = var5;
     var5 = function age(arg1) {
         var1 = global;
         var2 = var1.Date;

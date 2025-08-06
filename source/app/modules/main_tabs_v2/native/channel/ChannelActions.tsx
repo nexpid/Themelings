@@ -201,29 +201,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.blur;
                     var3 = var3.bind(var4)();
  128:
+                    var3 = _closure2_slot0;
+                    var4 = var3.isThread;
+                    var10 = var4.bind(var3)();
+                    var4 = var3.getGuildId;
+                    var9 = var4.bind(var3)();
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 27;
+                    var7 = 27;
+                    var7 = var5[var7];
+                    var8 = var4.bind(var1)(var7);
+                    var7 = var8.getChannelDetailsSearchContext;
+                    var3 = var3.id;
+                    var9 = var7.bind(var8)(var3, var9, var10);
+                    var7 = _closure1_slot1;
+                    var3 = 28;
+                    var3 = var5[var3];
+                    var8 = var7.bind(var1)(var3);
+                    var7 = var8.trackSearchOpenedMobile;
+                    var3 = {};
+                    var3['searchContext'] = var9;
+                    var9 = 29;
+                    var9 = var5[var9];
+                    var9 = var4.bind(var1)(var9);
+                    var9 = var9.SearchEntrypointAnalyticsLocations;
+                    var9 = var9.CHANNEL_HEADER;
+                    var3['searchLocation'] = var9;
+                    var3 = var7.bind(var8)(var3);
+                    var3 = 30;
                     var3 = var5[var3];
                     var4 = var4.bind(var1)(var3);
                     var3 = var4.isSwipeToMemberListEnabled;
                     var3 = var3.bind(var4)();
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    if(var3) { _fun0002_ip = 261; continue _fun0002 }
- 169:
-                    var3 = 29;
+                    if(var3) { _fun0002_ip = 378; continue _fun0002 }
+ 286:
+                    var3 = 32;
                     var3 = var5[var3];
                     var7 = var4.bind(var1)(var3);
                     var3 = var7.getRootNavigationRef;
                     var9 = var3.bind(var7)();
                     var3 = null;
-                    if(!(var3 != var9)) { _fun0002_ip = 259; continue _fun0002 }
- 197:
+                    if(!(var3 != var9)) { _fun0002_ip = 376; continue _fun0002 }
+ 314:
                     var3 = var9.isReady;
                     var3 = var3.bind(var9)();
-                    if(!var3) { _fun0002_ip = 259; continue _fun0002 }
- 210:
+                    if(!var3) { _fun0002_ip = 376; continue _fun0002 }
+ 327:
                     var8 = var9.navigate;
                     var7 = {'channelId': null, 'search': true, 'source': 'channel-header-search'};
                     var3 = _closure2_slot0;
@@ -231,11 +256,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7['channelId'] = var3;
                     var3 = 'sidebar';
                     var3 = var8.bind(var9)(var3, var7);
-                    _fun0002_ip = 334; continue _fun0002;
- 259:
+                    _fun0002_ip = 451; continue _fun0002;
+ 376:
                     return var1;
- 261:
-                    var3 = 28;
+ 378:
+                    var3 = 31;
                     var3 = var5[var3];
                     var3 = var4.bind(var1)(var3);
                     var5 = var3.ComponentDispatch;
@@ -251,7 +276,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = _closure2_slot1;
                     var2['screenIndex'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
- 334:
+ 451:
                     return var1;
                 }
             };
@@ -412,12 +437,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var9 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var8 = 30;
+            var8 = 33;
             var8 = var12[var8];
             var8 = var9.bind(var4)(var8);
             var2['source'] = var8;
             var11 = _closure1_slot0;
-            var8 = 31;
+            var8 = 34;
             var8 = var12[var8];
             var8 = var11.bind(var4)(var8);
             var8 = var8.ThreadIcon;
@@ -425,7 +450,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = function onPress() {
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 32;
+                var1 = 35;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -462,7 +487,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot12;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 33;
+                var1 = 36;
                 var1 = var3[var1];
                 var3 = undefined;
                 var2 = var2.bind(var3)(var1);
@@ -511,7 +536,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var7 = var9.bind(var10)(var7, var1);
-            var1 = 34;
+            var1 = 37;
             var1 = var8[var1];
             var3 = var3.bind(var5)(var1);
             var1 = var3.useShouldAgeGateChannel;
@@ -523,7 +548,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  107:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var8 = 35;
+            var8 = 38;
             var8 = var10[var8];
             var10 = var9.bind(var5)(var8);
             var9 = var10.shouldNSFWGateGuild;
@@ -619,7 +644,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['actionWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
-    var4 = 38;
+    var4 = 41;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -714,7 +739,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = _closure1_slot13;
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var7 = 37;
+            var7 = 40;
             var7 = var11[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
@@ -726,7 +751,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot13;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 36;
+            var6 = 39;
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.ForumChannelCloseSearchButton;

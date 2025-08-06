@@ -90,6 +90,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var3.bind(var11)(var2, var12);
             _closure2_slot2 = var11;
             var12 = _closure1_slot3;
+            var16 = var12.useEffect;
+            var14 = new Array(2);
+            var14[0] = var2;
+            var14[1] = var11;
+            var3 = function() {
+                var1 = function() {
+                    var3 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var1 = 8;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.trackSearchClosedMobile;
+                    var2 = {};
+                    var5 = _closure2_slot2;
+                    var2['searchContext'] = var5;
+                    var2 = var3.bind(var4)(var2);
+                    return var1;
+                };
+                return var1;
+            };
+            var3 = var16.bind(var12)(var3, var14);
             var14 = var12.useCallback;
             var3 = new Array(2);
             var3[0] = var2;
@@ -150,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var3.bind(var12)(var1, var2);
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
-            var1 = 8;
+            var1 = 9;
             var1 = var13[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -161,12 +183,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['suggestionsDismissed'] = var8;
             var1['setSuggestionsDismissed'] = var5;
             var5 = null;
-            if(!var7) { _fun0001_ip = 398; continue _fun0001 }
- 245:
+            if(!var7) { _fun0001_ip = 428; continue _fun0001 }
+ 275:
             var8 = _closure1_slot6;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 9;
+            var6 = 10;
             var6 = var11[var6];
             var6 = var10.bind(var4)(var6);
             var7 = var6.PressableOpacity;
@@ -176,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['onPress'] = var12;
             var9 = var9.back;
             var6['style'] = var9;
-            var9 = 10;
+            var9 = 11;
             var12 = var11[var9];
             var12 = var10.bind(var4)(var12);
             var13 = var12.intl;
@@ -187,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.13/7kZ;
             var9 = var12.bind(var13)(var9);
             var6['accessibilityLabel'] = var9;
-            var9 = 11;
+            var9 = 12;
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var10 = var9.ChevronLargeLeftIcon;
@@ -195,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 398:
+ 428:
             var1['backButton'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -204,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.bind(var7)(var2);
     var2 = var7.memo;
     var2 = var2.bind(var7)(var4);
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

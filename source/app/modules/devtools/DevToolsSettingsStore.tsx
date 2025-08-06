@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var _closure1_slot7 = var2;
-    var4 = {'sidebarWidth': 360, 'lastOpenTabId': null, 'displayTools': false, 'showDevWidget': false};
+    var4 = {'sidebarWidth': 360, 'lastOpenTabId': null, 'displayTools': false, 'showDevWidget': false, 'devWidgetPosition': null, 'sortedScreenKeys': null, 'isRandomlyChangingPremiumOptions': false};
     var2 = 360;
     var8 = {'x': 0, 'y': 0};
     var4['devWidgetPosition'] = var8;
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var1;
-        var1 = new Array(8);
+        var1 = new Array(9);
         var1[0] = var5;
         var5 = {};
         var7 = 'getUserAgnosticState';
@@ -267,13 +267,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var7 = 'sortedScreenKeys';
         var5['key'] = var7;
-        var6 = function get() {
+        var7 = function get() {
             var1 = _closure1_slot8;
             var1 = var1.sortedScreenKeys;
             return var1;
         };
-        var5['get'] = var6;
+        var5['get'] = var7;
         var1[7] = var5;
+        var5 = {};
+        var7 = 'isRandomlyChangingPremiumOptions';
+        var5['key'] = var7;
+        var6 = function get() {
+            var1 = _closure1_slot8;
+            var1 = var1.isRandomlyChangingPremiumOptions;
+            return var1;
+        };
+        var5['get'] = var6;
+        var1[8] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

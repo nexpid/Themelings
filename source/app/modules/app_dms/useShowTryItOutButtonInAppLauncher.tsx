@@ -46,18 +46,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 1;
             var2 = var7[var2];
             var3 = var3.bind(var5)(var2);
-            var2 = {};
-            var2['context'] = var6;
+            var8 = var6.type;
+            var7 = 'channel';
+            var2 = undefined;
+            if(!(var7 === var8)) { _fun0001_ip = 110; continue _fun0001 }
+ 105:
+            var2 = var6.channel;
+ 110:
             var2 = var3.bind(var5)(var2);
-            if(!var1) { _fun0001_ip = 110; continue _fun0001 }
- 104:
+            if(!var1) { _fun0001_ip = 124; continue _fun0001 }
+ 118:
             var3 = null;
             var1 = var3 != var4;
- 110:
-            if(!var1) { _fun0001_ip = 116; continue _fun0001 }
- 113:
+ 124:
+            if(!var1) { _fun0001_ip = 130; continue _fun0001 }
+ 127:
             var1 = !var2;
- 116:
+ 130:
             return var1;
         }
     };
