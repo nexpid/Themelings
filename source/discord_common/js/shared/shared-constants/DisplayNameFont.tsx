@@ -54,6 +54,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SINISTRE'] = var4;
     var1 = 'SINISTRE';
     var2[var4] = var1;
+    var4 = 12;
+    var2['ZILLA_SLAB'] = var4;
+    var1 = 'ZILLA_SLAB';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

@@ -11,121 +11,160 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var6 = arg4;
+            var7 = arg4;
             var2 = arg3;
-            if(var2) { _fun0001_ip = 795; continue _fun0001 }
+            if(var2) { _fun0001_ip = 846; continue _fun0001 }
  15:
             var3 = var1.hasFlag;
             var2 = _closure1_slot25;
             var2 = var2.HAS_THREAD;
             var2 = var3.bind(var1)(var2);
-            if(!var2) { _fun0001_ip = 795; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 846; continue _fun0001 }
  45:
             var2 = null;
-            if(!(var2 != var6)) { _fun0001_ip = 795; continue _fun0001 }
+            if(!(var2 != var7)) { _fun0001_ip = 846; continue _fun0001 }
  54:
-            var7 = _closure1_slot15;
-            var5 = var7.getMostRecentMessage;
+            var9 = _closure1_slot15;
+            var5 = var9.getMostRecentMessage;
             var11 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var10 = 22;
-            var3 = var9[var10];
+            var10 = _closure1_slot2;
+            var6 = 22;
+            var3 = var10[var6];
             var8 = undefined;
             var13 = var11.bind(var8)(var3);
             var12 = var13.castMessageIdAsChannelId;
             var3 = var1.id;
             var3 = var12.bind(var13)(var3);
-            var7 = var5.bind(var7)(var3);
+            var9 = var5.bind(var9)(var3);
             var5 = _closure1_slot15;
             var3 = var5.getCount;
-            var10 = var9[var10];
-            var11 = var11.bind(var8)(var10);
-            var10 = var11.castMessageIdAsChannelId;
+            var6 = var10[var6];
+            var11 = var11.bind(var8)(var6);
+            var6 = var11.castMessageIdAsChannelId;
             var1 = var1.id;
-            var1 = var10.bind(var11)(var1);
+            var1 = var6.bind(var11)(var1);
             var3 = var3.bind(var5)(var1);
             var5 = _closure1_slot0;
             var1 = 23;
-            var1 = var9[var1];
-            var9 = var5.bind(var8)(var1);
-            var5 = var9.formatMobileMessageCountLabel;
-            var1 = var6.id;
-            var5 = var5.bind(var9)(var3, var1);
-            if(!(var2 != var3)) { _fun0001_ip = 190; continue _fun0001 }
- 184:
+            var6 = var10[var1];
+            var12 = var5.bind(var8)(var6);
+            var11 = var12.formatMobileMessageCountLabel;
+            var6 = var7.id;
+            var6 = var11.bind(var12)(var3, var6);
+            var1 = var10[var1];
+            var10 = var5.bind(var8)(var1);
+            var5 = var10.formatMessageCountLabel;
+            var1 = var7.id;
+            var5 = var5.bind(var10)(var3, var1);
+            if(!(var2 != var3)) { _fun0001_ip = 216; continue _fun0001 }
+ 210:
             var1 = 0;
-            if(!(!(var3 > var1))) { _fun0001_ip = 278; continue _fun0001 }
- 190:
+            if(!(!(var3 > var1))) { _fun0001_ip = 309; continue _fun0001 }
+ 216:
             var1 = {};
-            var3 = var6.name;
+            var3 = var7.name;
             var1['title'] = var3;
-            var1['messageCountLabel'] = var5;
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
+            var1['messageCountLabel'] = var6;
+            var1['messageCountAccessibilityLabel'] = var5;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
             var3 = 24;
-            var9 = var12[var3];
-            var9 = var11.bind(var8)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var3 = var12[var3];
-            var3 = var11.bind(var8)(var3);
+            var10 = var13[var3];
+            var10 = var12.bind(var8)(var10);
+            var11 = var10.intl;
+            var10 = var11.string;
+            var3 = var13[var3];
+            var3 = var12.bind(var8)(var3);
             var3 = var3.t;
             var3 = var3.HYtNyM;
-            var3 = var9.bind(var10)(var3);
+            var3 = var10.bind(var11)(var3);
             var1['messagePreviewString'] = var3;
             var3 = false;
             var1['archived'] = var3;
-            _fun0001_ip = 793; continue _fun0001;
- 278:
-            var3 = var6.threadMetadata;
-            if(!(var2 != var3)) { _fun0001_ip = 300; continue _fun0001 }
- 288:
+            _fun0001_ip = 844; continue _fun0001;
+ 309:
+            var3 = var7.threadMetadata;
+            if(!(var2 != var3)) { _fun0001_ip = 331; continue _fun0001 }
+ 319:
             var3 = var3.archived;
-            if(var3) { _fun0001_ip = 660; continue _fun0001 }
- 300:
-            if(!(var2 != var7)) { _fun0001_ip = 569; continue _fun0001 }
- 307:
-            var3 = var7.type;
+            if(var3) { _fun0001_ip = 706; continue _fun0001 }
+ 331:
+            if(!(var2 != var9)) { _fun0001_ip = 610; continue _fun0001 }
+ 338:
+            var3 = var9.type;
             var2 = _closure1_slot23;
             var2 = var2.CHANNEL_NAME_CHANGE;
-            if(!(var3 !== var2)) { _fun0001_ip = 569; continue _fun0001 }
- 329:
-            var3 = var7.type;
+            if(!(var3 !== var2)) { _fun0001_ip = 610; continue _fun0001 }
+ 360:
+            var3 = var9.type;
             var2 = _closure1_slot23;
             var2 = var2.THREAD_STARTER_MESSAGE;
-            if(!(var3 !== var2)) { _fun0001_ip = 569; continue _fun0001 }
- 351:
-            var2 = var7.blocked;
-            if(var2) { _fun0001_ip = 459; continue _fun0001 }
- 360:
-            var2 = var7.ignored;
-            if(var2) { _fun0001_ip = 459; continue _fun0001 }
- 369:
+            if(!(var3 !== var2)) { _fun0001_ip = 610; continue _fun0001 }
+ 382:
+            var2 = var9.blocked;
+            if(var2) { _fun0001_ip = 495; continue _fun0001 }
+ 391:
+            var2 = var9.ignored;
+            if(var2) { _fun0001_ip = 495; continue _fun0001 }
+ 400:
             var2 = {};
-            var3 = var6.name;
+            var3 = var7.name;
             var2['title'] = var3;
-            var2['messageCountLabel'] = var5;
+            var2['messageCountLabel'] = var6;
+            var2['messageCountAccessibilityLabel'] = var5;
             var3 = {};
-            var9 = _closure1_slot22;
-            var9 = var9.LOADED;
-            var3['state'] = var9;
-            var10 = _closure1_slot31;
-            var9 = {'message': null, 'roleStyle': null, 'options': null, 'isFirst': true, 'isEditing': false, 'canShowImages': true, 'isSystemDM': false, 'isInlineReplyPreview': true};
-            var9['message'] = var7;
-            var11 = arg2;
-            var9['roleStyle'] = var11;
-            var11 = arg5;
-            var9['options'] = var11;
-            var9 = var10.bind(var8)(var9);
-            var3['message'] = var9;
+            var10 = _closure1_slot22;
+            var10 = var10.LOADED;
+            var3['state'] = var10;
+            var11 = _closure1_slot31;
+            var10 = {'message': null, 'roleStyle': null, 'options': null, 'isFirst': true, 'isEditing': false, 'canShowImages': true, 'isSystemDM': false, 'isInlineReplyPreview': true};
+            var10['message'] = var9;
+            var12 = arg2;
+            var10['roleStyle'] = var12;
+            var12 = arg5;
+            var10['options'] = var12;
+            var10 = var11.bind(var8)(var10);
+            var3['message'] = var10;
             var2['referencedMessage'] = var3;
-            _fun0001_ip = 567; continue _fun0001;
- 459:
+            _fun0001_ip = 608; continue _fun0001;
+ 495:
             var3 = {};
-            var9 = var6.name;
+            var10 = var7.name;
+            var3['title'] = var10;
+            var3['messageCountLabel'] = var6;
+            var3['messageCountAccessibilityLabel'] = var5;
+            var9 = var9.blocked;
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var10 = 24;
+            var11 = var14[var10];
+            var11 = var13.bind(var8)(var11);
+            var12 = var11.intl;
+            var11 = var12.string;
+            var10 = var14[var10];
+            var10 = var13.bind(var8)(var10);
+            var10 = var10.t;
+            if(var9) { _fun0001_ip = 582; continue _fun0001 }
+ 569:
+            var9 = var10.G7p6v7;
+            var9 = var11.bind(var12)(var9);
+            _fun0001_ip = 593; continue _fun0001;
+ 582:
+            var10 = var10.XAkOo6;
+            var9 = var11.bind(var12)(var10);
+ 593:
+            var3['messagePreviewString'] = var9;
+            var9 = false;
+            var3['archived'] = var9;
+            var2 = var3;
+ 608:
+            _fun0001_ip = 701; continue _fun0001;
+ 610:
+            var3 = {};
+            var9 = var7.name;
             var3['title'] = var9;
-            var3['messageCountLabel'] = var5;
-            var7 = var7.blocked;
+            var3['messageCountLabel'] = var6;
+            var3['messageCountAccessibilityLabel'] = var5;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
             var9 = 24;
@@ -136,49 +175,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var13[var9];
             var9 = var12.bind(var8)(var9);
             var9 = var9.t;
-            if(var7) { _fun0001_ip = 541; continue _fun0001 }
- 528:
-            var7 = var9.G7p6v7;
-            var7 = var10.bind(var11)(var7);
-            _fun0001_ip = 552; continue _fun0001;
- 541:
-            var9 = var9.XAkOo6;
-            var7 = var10.bind(var11)(var9);
- 552:
-            var3['messagePreviewString'] = var7;
-            var7 = false;
-            var3['archived'] = var7;
+            var9 = var9.ZTo4HR;
+            var9 = var10.bind(var11)(var9);
+            var3['messagePreviewString'] = var9;
+            var9 = false;
+            var3['archived'] = var9;
             var2 = var3;
- 567:
-            _fun0001_ip = 655; continue _fun0001;
- 569:
+ 701:
+            _fun0001_ip = 841; continue _fun0001;
+ 706:
             var3 = {};
-            var7 = var6.name;
+            var7 = var7.name;
             var3['title'] = var7;
-            var3['messageCountLabel'] = var5;
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var7 = 24;
-            var9 = var12[var7];
-            var9 = var11.bind(var8)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var7 = var12[var7];
-            var7 = var11.bind(var8)(var7);
-            var7 = var7.t;
-            var7 = var7.ZTo4HR;
-            var7 = var9.bind(var10)(var7);
-            var3['messagePreviewString'] = var7;
-            var7 = false;
-            var3['archived'] = var7;
-            var2 = var3;
- 655:
-            _fun0001_ip = 790; continue _fun0001;
- 660:
-            var3 = {};
-            var6 = var6.name;
-            var3['title'] = var6;
-            var3['messageCountLabel'] = var5;
+            var3['messageCountLabel'] = var6;
+            var3['messageCountAccessibilityLabel'] = var5;
             var6 = _closure1_slot0;
             var9 = _closure1_slot2;
             var5 = 24;
@@ -205,11 +215,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var6)(var4);
             var3['archivedIconUrl'] = var4;
             var2 = var3;
- 790:
+ 841:
             var1 = var2;
- 793:
+ 844:
             return var1;
- 795:
+ 846:
             var1 = undefined;
             return var1;
         }

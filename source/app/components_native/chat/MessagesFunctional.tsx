@@ -966,9 +966,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var22[var2];
             var28 = var13.bind(var4)(var2);
             var25 = var28.useQuests;
-            var2 = {};
-            var29 = 'cache-or-network';
-            var2['fetchPolicy'] = var29;
+            var2 = {'fetchPolicy': 'cache-or-network', 'callerSource': 'messages_native_fn'};
             var2 = var25.bind(var28)(var2);
             var88 = var2.quests;
             var _closure2_slot37 = var88;
@@ -1439,32 +1437,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var71 = var13.bind(var22)(var2);
             var _closure2_slot65 = var71;
             r119 = var5 != var9;
-            if(!r119) { _fun0004_ip = 2511; continue _fun0004 }
- 2493:
+            if(!r119) { _fun0004_ip = 2512; continue _fun0004 }
+ 2494:
             var2 = var9.ready;
-            if(var2) { _fun0004_ip = 2508; continue _fun0004 }
- 2502:
+            if(var2) { _fun0004_ip = 2509; continue _fun0004 }
+ 2503:
             var2 = var9.cached;
- 2508:
+ 2509:
             r119 = var2;
- 2511:
+ 2512:
             var _closure2_slot66 = r119;
             var40 = var5 != var9;
-            if(!var40) { _fun0004_ip = 2528; continue _fun0004 }
- 2522:
+            if(!var40) { _fun0004_ip = 2529; continue _fun0004 }
+ 2523:
             var40 = var9.cached;
- 2528:
+ 2529:
             var _closure2_slot67 = var40;
             r122 = var5 != var9;
-            if(!r122) { _fun0004_ip = 2545; continue _fun0004 }
- 2539:
+            if(!r122) { _fun0004_ip = 2546; continue _fun0004 }
+ 2540:
             r122 = var9.ready;
- 2545:
-            if(!r122) { _fun0004_ip = 2557; continue _fun0004 }
- 2548:
+ 2546:
+            if(!r122) { _fun0004_ip = 2558; continue _fun0004 }
+ 2549:
             var2 = var9.loadingMore;
             r122 = !var2;
- 2557:
+ 2558:
             var _closure2_slot68 = r122;
             var13 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -1533,10 +1531,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var22.useCurrentUserCommunicationDisabled;
             var23 = var5 == var34;
             var2 = undefined;
-            if(var23) { _fun0004_ip = 2773; continue _fun0004 }
- 2768:
+            if(var23) { _fun0004_ip = 2774; continue _fun0004 }
+ 2769:
             var2 = var34.id;
- 2773:
+ 2774:
             var13 = var13.bind(var22)(var2);
             var2 = _closure1_slot4;
             var2 = var2.bind(var4)(var13, var30);
@@ -1905,10 +1903,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var13 = var28.bind(var31)(var13);
             var57 = 0;
-            if(var23) { _fun0004_ip = 3745; continue _fun0004 }
- 3742:
+            if(var23) { _fun0004_ip = 3746; continue _fun0004 }
+ 3743:
             var57 = var13;
- 3745:
+ 3746:
             var _closure2_slot96 = var57;
             var41 = _closure1_slot0;
             r121 = _closure1_slot2;
@@ -4285,20 +4283,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var63 = var63.bind(var4)(var9);
             var _closure2_slot126 = var63;
             var64 = r119;
-            if(!var64) { _fun0004_ip = 5231; continue _fun0004 }
- 5228:
+            if(!var64) { _fun0004_ip = 5232; continue _fun0004 }
+ 5229:
             var64 = !var40;
- 5231:
-            if(!var64) { _fun0004_ip = 5252; continue _fun0004 }
- 5234:
+ 5232:
+            if(!var64) { _fun0004_ip = 5253; continue _fun0004 }
+ 5235:
             r121 = var5 == var41;
             var40 = undefined;
-            if(r121) { _fun0004_ip = 5249; continue _fun0004 }
- 5243:
+            if(r121) { _fun0004_ip = 5250; continue _fun0004 }
+ 5244:
             var40 = var41.isMessagesCached;
- 5249:
+ 5250:
             var64 = var40;
- 5252:
+ 5253:
             var _closure2_slot127 = var64;
             var40 = _closure1_slot5;
             r123 = var40.useEffect;
@@ -4494,514 +4492,514 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var33[60] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5650; continue _fun0004 }
- 5644:
+            if(var66) { _fun0004_ip = 5651; continue _fun0004 }
+ 5645:
             var65 = var41.channelThreadsVersion;
- 5650:
+ 5651:
             var33[61] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5669; continue _fun0004 }
- 5663:
+            if(var66) { _fun0004_ip = 5670; continue _fun0004 }
+ 5664:
             var65 = var41.rsvpVersion;
- 5669:
+ 5670:
             var33[62] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5688; continue _fun0004 }
- 5682:
+            if(var66) { _fun0004_ip = 5689; continue _fun0004 }
+ 5683:
             var65 = var41.repliedIds;
- 5688:
+ 5689:
             var33[63] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5707; continue _fun0004 }
- 5701:
+            if(var66) { _fun0004_ip = 5708; continue _fun0004 }
+ 5702:
             var65 = var41.hasLoadedExperiments;
- 5707:
+ 5708:
             var33[64] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5726; continue _fun0004 }
- 5720:
+            if(var66) { _fun0004_ip = 5727; continue _fun0004 }
+ 5721:
             var65 = var41.communicationDisabledVersion;
- 5726:
+ 5727:
             var33[65] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5745; continue _fun0004 }
- 5739:
+            if(var66) { _fun0004_ip = 5746; continue _fun0004 }
+ 5740:
             var65 = var41.failedMessagesVersion;
- 5745:
+ 5746:
             var33[66] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5764; continue _fun0004 }
- 5758:
+            if(var66) { _fun0004_ip = 5765; continue _fun0004 }
+ 5759:
             var65 = var41.interactionStates;
- 5764:
+ 5765:
             var33[67] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5783; continue _fun0004 }
- 5777:
+            if(var66) { _fun0004_ip = 5784; continue _fun0004 }
+ 5778:
             var65 = var41.interactionComponentStates;
- 5783:
+ 5784:
             var33[68] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5802; continue _fun0004 }
- 5796:
+            if(var66) { _fun0004_ip = 5803; continue _fun0004 }
+ 5797:
             var65 = var41.interactionComponentStatesVersion;
- 5802:
+ 5803:
             var33[69] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5821; continue _fun0004 }
- 5815:
+            if(var66) { _fun0004_ip = 5822; continue _fun0004 }
+ 5816:
             var65 = var41.shouldDisableInteractiveComponents;
- 5821:
+ 5822:
             var33[70] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5840; continue _fun0004 }
- 5834:
+            if(var66) { _fun0004_ip = 5841; continue _fun0004 }
+ 5835:
             var65 = var41.channelPolls;
- 5840:
+ 5841:
             var33[71] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5859; continue _fun0004 }
- 5853:
+            if(var66) { _fun0004_ip = 5860; continue _fun0004 }
+ 5854:
             var65 = var41.activityInstanceIds;
- 5859:
+ 5860:
             var33[72] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5878; continue _fun0004 }
- 5872:
+            if(var66) { _fun0004_ip = 5879; continue _fun0004 }
+ 5873:
             var65 = var41.activityParticipants;
- 5878:
+ 5879:
             var33[73] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5897; continue _fun0004 }
- 5891:
+            if(var66) { _fun0004_ip = 5898; continue _fun0004 }
+ 5892:
             var65 = var41.activityInstancePresenceDetails;
- 5897:
+ 5898:
             var33[74] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5916; continue _fun0004 }
- 5910:
+            if(var66) { _fun0004_ip = 5917; continue _fun0004 }
+ 5911:
             var65 = var41.messagesWithActivitiesLaunching;
- 5916:
+ 5917:
             var33[75] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5935; continue _fun0004 }
- 5929:
+            if(var66) { _fun0004_ip = 5936; continue _fun0004 }
+ 5930:
             var65 = var41.invalidApplicationIds;
- 5935:
+ 5936:
             var33[76] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5954; continue _fun0004 }
- 5948:
+            if(var66) { _fun0004_ip = 5955; continue _fun0004 }
+ 5949:
             var65 = var41.applicationAssetFetchingIds;
- 5954:
+ 5955:
             var33[77] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5973; continue _fun0004 }
- 5967:
+            if(var66) { _fun0004_ip = 5974; continue _fun0004 }
+ 5968:
             var65 = var41.appDirectoryEmbedApplications;
- 5973:
+ 5974:
             var33[78] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 5992; continue _fun0004 }
- 5986:
+            if(var66) { _fun0004_ip = 5993; continue _fun0004 }
+ 5987:
             var65 = var41.invalidAppDirectoryEmbedApplicationIds;
- 5992:
+ 5993:
             var33[79] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6011; continue _fun0004 }
- 6005:
+            if(var66) { _fun0004_ip = 6012; continue _fun0004 }
+ 6006:
             var65 = var41.appDirectoryEmbedApplicationFetchStates;
- 6011:
+ 6012:
             var33[80] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6030; continue _fun0004 }
- 6024:
+            if(var66) { _fun0004_ip = 6031; continue _fun0004 }
+ 6025:
             var65 = var41.lazyCacheStatus;
- 6030:
+ 6031:
             var33[81] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6049; continue _fun0004 }
- 6043:
+            if(var66) { _fun0004_ip = 6050; continue _fun0004 }
+ 6044:
             var65 = var41.isFollowingForumPost;
- 6049:
+ 6050:
             var33[82] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6068; continue _fun0004 }
- 6062:
+            if(var66) { _fun0004_ip = 6069; continue _fun0004 }
+ 6063:
             var65 = var41.showMediaPostSharePrompt;
- 6068:
+ 6069:
             var33[83] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6087; continue _fun0004 }
- 6081:
+            if(var66) { _fun0004_ip = 6088; continue _fun0004 }
+ 6082:
             var65 = var41.referralTrialOfferIds;
- 6087:
+ 6088:
             var33[84] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6106; continue _fun0004 }
- 6100:
+            if(var66) { _fun0004_ip = 6107; continue _fun0004 }
+ 6101:
             var65 = var41.trialOffer;
- 6106:
+ 6107:
             var33[85] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6125; continue _fun0004 }
- 6119:
+            if(var66) { _fun0004_ip = 6126; continue _fun0004 }
+ 6120:
             var65 = var41.isPremiumTier2User;
- 6125:
+ 6126:
             var33[86] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6144; continue _fun0004 }
- 6138:
+            if(var66) { _fun0004_ip = 6145; continue _fun0004 }
+ 6139:
             var65 = var41.messageAuthorActivities;
- 6144:
+ 6145:
             var33[87] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6163; continue _fun0004 }
- 6157:
+            if(var66) { _fun0004_ip = 6164; continue _fun0004 }
+ 6158:
             var65 = var41.activityInviteMessageIds;
- 6163:
+ 6164:
             var33[88] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6182; continue _fun0004 }
- 6176:
+            if(var66) { _fun0004_ip = 6183; continue _fun0004 }
+ 6177:
             var65 = var41.resolvingGiftCodes;
- 6182:
+ 6183:
             var33[89] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6201; continue _fun0004 }
- 6195:
+            if(var66) { _fun0004_ip = 6202; continue _fun0004 }
+ 6196:
             var65 = var41.resolvedGiftCodes;
- 6201:
+ 6202:
             var33[90] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6220; continue _fun0004 }
- 6214:
+            if(var66) { _fun0004_ip = 6221; continue _fun0004 }
+ 6215:
             var65 = var41.acceptingGiftCodes;
- 6220:
+ 6221:
             var33[91] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6239; continue _fun0004 }
- 6233:
+            if(var66) { _fun0004_ip = 6240; continue _fun0004 }
+ 6234:
             var65 = var41.mediaPostPreviewEmbeds;
- 6239:
+ 6240:
             var33[92] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6258; continue _fun0004 }
- 6252:
+            if(var66) { _fun0004_ip = 6259; continue _fun0004 }
+ 6253:
             var65 = var41.explicitMediaFalsePositiveInfo;
- 6258:
+ 6259:
             var33[93] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6277; continue _fun0004 }
- 6271:
+            if(var66) { _fun0004_ip = 6278; continue _fun0004 }
+ 6272:
             var65 = var41.guildTemplates;
- 6277:
+ 6278:
             var33[94] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6296; continue _fun0004 }
- 6290:
+            if(var66) { _fun0004_ip = 6297; continue _fun0004 }
+ 6291:
             var65 = var41.buildOverrides;
- 6296:
+ 6297:
             var33[95] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6315; continue _fun0004 }
- 6309:
+            if(var66) { _fun0004_ip = 6316; continue _fun0004 }
+ 6310:
             var65 = var41.quests;
- 6315:
+ 6316:
             var33[96] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6334; continue _fun0004 }
- 6328:
+            if(var66) { _fun0004_ip = 6335; continue _fun0004 }
+ 6329:
             var65 = var41.isFetchingCurrentQuests;
- 6334:
+ 6335:
             var33[97] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6353; continue _fun0004 }
- 6347:
+            if(var66) { _fun0004_ip = 6354; continue _fun0004 }
+ 6348:
             var65 = var41.showPushFeedback;
- 6353:
+ 6354:
             var33[98] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6372; continue _fun0004 }
- 6366:
+            if(var66) { _fun0004_ip = 6373; continue _fun0004 }
+ 6367:
             var65 = var41.forwardGuildsVersion;
- 6372:
+ 6373:
             var33[99] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6391; continue _fun0004 }
- 6385:
+            if(var66) { _fun0004_ip = 6392; continue _fun0004 }
+ 6386:
             var65 = var41.renderCommunicationDisabled;
- 6391:
+ 6392:
             var33[100] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6410; continue _fun0004 }
- 6404:
+            if(var66) { _fun0004_ip = 6411; continue _fun0004 }
+ 6405:
             var65 = var41.editingMessageId;
- 6410:
+ 6411:
             var33[101] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6429; continue _fun0004 }
- 6423:
+            if(var66) { _fun0004_ip = 6430; continue _fun0004 }
+ 6424:
             var65 = var41.replyingMessageId;
- 6429:
+ 6430:
             var33[102] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6448; continue _fun0004 }
- 6442:
+            if(var66) { _fun0004_ip = 6449; continue _fun0004 }
+ 6443:
             var65 = var41.oldestUnreadMessageId;
- 6448:
+ 6449:
             var33[103] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6467; continue _fun0004 }
- 6461:
+            if(var66) { _fun0004_ip = 6468; continue _fun0004 }
+ 6462:
             var65 = var41.isCallActive;
- 6467:
+ 6468:
             var33[104] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6486; continue _fun0004 }
- 6480:
+            if(var66) { _fun0004_ip = 6487; continue _fun0004 }
+ 6481:
             var65 = var41.voiceStateChannelId;
- 6486:
+ 6487:
             var33[105] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6505; continue _fun0004 }
- 6499:
+            if(var66) { _fun0004_ip = 6506; continue _fun0004 }
+ 6500:
             var65 = var41.participantsLength;
- 6505:
+ 6506:
             var33[106] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6524; continue _fun0004 }
- 6518:
+            if(var66) { _fun0004_ip = 6525; continue _fun0004 }
+ 6519:
             var65 = var41.applications;
- 6524:
+ 6525:
             var33[107] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6543; continue _fun0004 }
- 6537:
+            if(var66) { _fun0004_ip = 6544; continue _fun0004 }
+ 6538:
             var65 = var41.invites;
- 6543:
+ 6544:
             var33[108] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6562; continue _fun0004 }
- 6556:
+            if(var66) { _fun0004_ip = 6563; continue _fun0004 }
+ 6557:
             var65 = var41.isSpamMessageRequest;
- 6562:
+ 6563:
             var33[109] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6581; continue _fun0004 }
- 6575:
+            if(var66) { _fun0004_ip = 6582; continue _fun0004 }
+ 6576:
             var65 = var41.isMessageRequest;
- 6581:
+ 6582:
             var33[110] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6600; continue _fun0004 }
- 6594:
+            if(var66) { _fun0004_ip = 6601; continue _fun0004 }
+ 6595:
             var65 = var41.currentUserCommunicationDisabled;
- 6600:
+ 6601:
             var33[111] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6619; continue _fun0004 }
- 6613:
+            if(var66) { _fun0004_ip = 6620; continue _fun0004 }
+ 6614:
             var65 = var41.androidKeyboardHeight;
- 6619:
+ 6620:
             var33[112] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6638; continue _fun0004 }
- 6632:
+            if(var66) { _fun0004_ip = 6639; continue _fun0004 }
+ 6633:
             var65 = var41.inlineAttachmentMedia;
- 6638:
+ 6639:
             var33[113] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6657; continue _fun0004 }
- 6651:
+            if(var66) { _fun0004_ip = 6658; continue _fun0004 }
+ 6652:
             var65 = var41.inlineEmbedMedia;
- 6657:
+ 6658:
             var33[114] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6676; continue _fun0004 }
- 6670:
+            if(var66) { _fun0004_ip = 6677; continue _fun0004 }
+ 6671:
             var65 = var41.renderEmbeds;
- 6676:
+ 6677:
             var33[115] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6695; continue _fun0004 }
- 6689:
+            if(var66) { _fun0004_ip = 6696; continue _fun0004 }
+ 6690:
             var65 = var41.renderReactions;
- 6695:
+ 6696:
             var33[116] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6714; continue _fun0004 }
- 6708:
+            if(var66) { _fun0004_ip = 6715; continue _fun0004 }
+ 6709:
             var65 = var41.animateEmoji;
- 6714:
+ 6715:
             var33[117] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6733; continue _fun0004 }
- 6727:
+            if(var66) { _fun0004_ip = 6734; continue _fun0004 }
+ 6728:
             var65 = var41.animateStickers;
- 6733:
+ 6734:
             var33[118] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6752; continue _fun0004 }
- 6746:
+            if(var66) { _fun0004_ip = 6753; continue _fun0004 }
+ 6747:
             var65 = var41.gifAutoPlay;
- 6752:
+ 6753:
             var33[119] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6771; continue _fun0004 }
- 6765:
+            if(var66) { _fun0004_ip = 6772; continue _fun0004 }
+ 6766:
             var65 = var41.containerWidth;
- 6771:
+ 6772:
             var33[120] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6790; continue _fun0004 }
- 6784:
+            if(var66) { _fun0004_ip = 6791; continue _fun0004 }
+ 6785:
             var65 = var41.guildSystemChannelFlags;
- 6790:
+ 6791:
             var33[121] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6809; continue _fun0004 }
- 6803:
+            if(var66) { _fun0004_ip = 6810; continue _fun0004 }
+ 6804:
             var65 = var41.userSettingsLocale;
- 6809:
+ 6810:
             var33[122] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6828; continue _fun0004 }
- 6822:
+            if(var66) { _fun0004_ip = 6829; continue _fun0004 }
+ 6823:
             var65 = var41.roleStyle;
- 6828:
+ 6829:
             var33[123] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6847; continue _fun0004 }
- 6841:
+            if(var66) { _fun0004_ip = 6848; continue _fun0004 }
+ 6842:
             var65 = var41.canSendMessages;
- 6847:
+ 6848:
             var33[124] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6866; continue _fun0004 }
- 6860:
+            if(var66) { _fun0004_ip = 6867; continue _fun0004 }
+ 6861:
             var65 = var41.selectedSummary;
- 6866:
+ 6867:
             var33[125] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6885; continue _fun0004 }
- 6879:
+            if(var66) { _fun0004_ip = 6886; continue _fun0004 }
+ 6880:
             var65 = var41.shouldObscureSpoiler;
- 6885:
+ 6886:
             var33[126] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6904; continue _fun0004 }
- 6898:
+            if(var66) { _fun0004_ip = 6905; continue _fun0004 }
+ 6899:
             var65 = var41.shouldFilterKeywords;
- 6904:
+ 6905:
             var33[127] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6923; continue _fun0004 }
- 6917:
+            if(var66) { _fun0004_ip = 6924; continue _fun0004 }
+ 6918:
             var65 = var41.isStaff;
- 6923:
+ 6924:
             var33[128] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6942; continue _fun0004 }
- 6936:
+            if(var66) { _fun0004_ip = 6943; continue _fun0004 }
+ 6937:
             var65 = var41.isAgeVerified;
- 6942:
+ 6943:
             var33[129] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6960; continue _fun0004 }
- 6955:
+            if(var66) { _fun0004_ip = 6961; continue _fun0004 }
+ 6956:
             var65 = var41.theme;
- 6960:
+ 6961:
             var33[130] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6979; continue _fun0004 }
- 6973:
+            if(var66) { _fun0004_ip = 6980; continue _fun0004 }
+ 6974:
             var65 = var41.threadStartingReferenceMessage;
- 6979:
+ 6980:
             var33[131] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 6998; continue _fun0004 }
- 6992:
+            if(var66) { _fun0004_ip = 6999; continue _fun0004 }
+ 6993:
             var65 = var41.unloadedContentEntryMessageIds;
- 6998:
+ 6999:
             var33[132] = var65;
             var66 = var5 == var41;
             var65 = undefined;
-            if(var66) { _fun0004_ip = 7017; continue _fun0004 }
- 7011:
+            if(var66) { _fun0004_ip = 7018; continue _fun0004 }
+ 7012:
             var65 = var41.guildInviteColorsFetched;
- 7017:
+ 7018:
             var33[133] = var65;
             var33[134] = var64;
             var33[135] = var63;
@@ -5010,10 +5008,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var33[137] = var62;
             var63 = var5 == var41;
             var62 = undefined;
-            if(var63) { _fun0004_ip = 7058; continue _fun0004 }
- 7052:
+            if(var63) { _fun0004_ip = 7059; continue _fun0004 }
+ 7053:
             var62 = var41.uploads;
- 7058:
+ 7059:
             var33[138] = var62;
             var33[139] = var61;
             var33[140] = var20;
@@ -5029,10 +5027,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var33[150] = var36;
             var53 = var5 == var41;
             var52 = undefined;
-            if(var53) { _fun0004_ip = 7125; continue _fun0004 }
- 7119:
+            if(var53) { _fun0004_ip = 7126; continue _fun0004 }
+ 7120:
             var52 = var41.shouldForceRender;
- 7125:
+ 7126:
             var33[151] = var52;
             var33[152] = var51;
             var33[153] = var50;
@@ -5047,18 +5045,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var33[162] = var43;
             var44 = var5 == var41;
             var43 = undefined;
-            if(var44) { _fun0004_ip = 7188; continue _fun0004 }
- 7182:
+            if(var44) { _fun0004_ip = 7189; continue _fun0004 }
+ 7183:
             var43 = var41.guildEmojis;
- 7188:
+ 7189:
             var33[163] = var43;
             var33[164] = var42;
             var42 = var5 == var41;
             var5 = undefined;
-            if(var42) { _fun0004_ip = 7211; continue _fun0004 }
- 7205:
+            if(var42) { _fun0004_ip = 7212; continue _fun0004 }
+ 7206:
             var5 = var41.enableSwipeActions;
- 7211:
+ 7212:
             var33[165] = var5;
             var5 = function() {
                 _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {

@@ -34,19 +34,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.UserSettingsSections;
+    var7 = var4.AnalyticEvents;
     var _closure1_slot6 = var7;
+    var7 = var4.UserSettingsSections;
+    var _closure1_slot7 = var7;
     var4 = var4.VerticalGradient;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot8 = var7;
-    var7 = var4.jsxs;
     var _closure1_slot9 = var7;
+    var7 = var4.jsxs;
+    var _closure1_slot10 = var7;
     var4 = var4.Fragment;
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -99,17 +101,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['paddingHorizontal'] = var10;
     var4['skeletonContainer'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var4 = function SkeletonLoading() {
-        var1 = _closure1_slot11;
+        var1 = _closure1_slot12;
         var4 = undefined;
         var6 = var1.bind(var4)();
-        var3 = _closure1_slot9;
+        var3 = _closure1_slot10;
         var2 = _closure1_slot4;
         var1 = {};
         var6 = var6.skeletonContainer;
         var1['style'] = var6;
-        var8 = _closure1_slot8;
+        var8 = _closure1_slot9;
         var7 = _closure1_slot1;
         var9 = _closure1_slot2;
         var6 = 7;
@@ -220,8 +222,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot12 = var4;
-    var4 = 19;
+    var _closure1_slot13 = var4;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -231,7 +233,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var29 = var1.heroBlock;
+            var31 = var1.heroBlock;
+            var _closure2_slot0 = var31;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 8;
@@ -240,253 +243,330 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.bind(var5)(var1);
             var1 = var4.useNavigation;
             var1 = var1.bind(var4)();
-            var _closure2_slot0 = var1;
+            var _closure2_slot1 = var1;
             var1 = 9;
             var1 = var3[var1];
             var4 = var2.bind(var5)(var1);
             var1 = var4.useCollectiblesAnalyticsContext;
             var1 = var1.bind(var4)();
-            var _closure2_slot1 = var1;
-            var1 = _closure1_slot11;
-            var14 = var1.bind(var5)();
+            var _closure2_slot2 = var1;
             var1 = 10;
             var1 = var3[var1];
-            var6 = var2.bind(var5)(var1);
-            var4 = var6.useToken;
-            var7 = _closure1_slot1;
-            var23 = 6;
-            var1 = var3[var23];
-            var1 = var7.bind(var5)(var1);
-            var1 = var1.colors;
-            var1 = var1.BACKGROUND_PRIMARY;
-            var30 = var4.bind(var6)(var1);
+            var8 = var2.bind(var5)(var1);
+            var7 = var8.useTrackProductCardImpression;
+            var6 = var31.categoryStoreListingId;
+            var4 = 'mobile_home';
+            var1 = 'hero_block';
+            var1 = var7.bind(var8)(var6, var4, var1);
+            var6 = var1.handleCardVisibilityChange;
+            var1 = _closure1_slot12;
+            var16 = var1.bind(var5)();
             var1 = 11;
-            var4 = var3[var1];
-            var6 = var2.bind(var5)(var4);
-            var4 = var6.hexToRgbaString;
             var1 = var3[var1];
             var7 = var2.bind(var5)(var1);
-            var1 = var7.hexWithOpacity;
-            var18 = 0;
-            var1 = var1.bind(var7)(var30, var18);
-            var31 = var4.bind(var6)(var1);
-            var6 = _closure1_slot5;
-            var4 = var6.getCategory;
-            var1 = var29.categorySkuId;
-            var10 = var4.bind(var6)(var1);
-            var _closure2_slot2 = var10;
+            var4 = var7.useToken;
+            var8 = _closure1_slot1;
+            var25 = 6;
+            var1 = var3[var25];
+            var1 = var8.bind(var5)(var1);
+            var1 = var1.colors;
+            var1 = var1.BACKGROUND_PRIMARY;
+            var32 = var4.bind(var7)(var1);
             var1 = 12;
+            var4 = var3[var1];
+            var7 = var2.bind(var5)(var4);
+            var4 = var7.hexToRgbaString;
+            var1 = var3[var1];
+            var8 = var2.bind(var5)(var1);
+            var1 = var8.hexWithOpacity;
+            var20 = 0;
+            var1 = var1.bind(var8)(var32, var20);
+            var33 = var4.bind(var7)(var1);
+            var7 = _closure1_slot5;
+            var4 = var7.getCategory;
+            var1 = var31.categorySkuId;
+            var12 = var4.bind(var7)(var1);
+            var _closure2_slot3 = var12;
+            var1 = 13;
             var1 = var3[var1];
             var4 = var2.bind(var5)(var1);
             var3 = var4.useFilteredAndSortedProducts;
             var2 = {};
             var1 = null;
-            var7 = var1 == var10;
-            var6 = undefined;
-            if(var7) { _fun0001_ip = 242; continue _fun0001 }
- 236:
-            var6 = var10.products;
- 242:
-            if(!(var1 == var6)) { _fun0001_ip = 250; continue _fun0001 }
- 246:
-            var6 = new Array(0);
- 250:
-            var2['products'] = var6;
+            var8 = var1 == var12;
+            var7 = undefined;
+            if(var8) { _fun0001_ip = 295; continue _fun0001 }
+ 289:
+            var7 = var12.products;
+ 295:
+            if(!(var1 == var7)) { _fun0001_ip = 303; continue _fun0001 }
+ 299:
+            var7 = new Array(0);
+ 303:
+            var2['products'] = var7;
             var2 = var3.bind(var4)(var2);
-            var21 = var2.sortedProducts;
-            if(!(var5 !== var10)) { _fun0001_ip = 1178; continue _fun0001 }
- 273:
-            var4 = _closure1_slot8;
-            var3 = _closure1_slot4;
+            var23 = var2.sortedProducts;
+            if(!(var5 !== var12)) { _fun0001_ip = 1268; continue _fun0001 }
+ 326:
+            var4 = _closure1_slot9;
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var2 = 15;
+            var2 = var7[var2];
+            var3 = var3.bind(var5)(var2);
             var2 = {};
-            var7 = var14.heroContainer;
-            var6 = new Array(1);
-            var6[0] = var7;
-            var2['style'] = var6;
-            var6 = var5 !== var10;
-            if(!var6) { _fun0001_ip = 1166; continue _fun0001 }
- 311:
-            var9 = _closure1_slot9;
-            var8 = _closure1_slot10;
-            var7 = {};
-            var17 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var11 = 13;
-            var11 = var13[var11];
-            var11 = var17.bind(var5)(var11);
-            var16 = var11.PressableOpacity;
-            var11 = {'accessibilityRole': 'button', 'accessibilityLabel': null, 'activeOpacity': 0.8, 'androidRippleConfig': null, 'hitSlop': 8};
-            var24 = 14;
-            var12 = var13[var24];
-            var12 = var17.bind(var5)(var12);
-            var22 = var12.intl;
-            var20 = var22.formatToPlainString;
-            var12 = var13[var24];
-            var12 = var17.bind(var5)(var12);
-            var12 = var12.t;
-            var17 = var12.COLLECTIBLES_CATEGORY_BANNER_A11Y_LABEL;
-            var12 = {};
-            var25 = var10.name;
-            var12['category'] = var25;
-            var12 = var20.bind(var22)(var17, var12);
-            var11['accessibilityLabel'] = var12;
-            var12 = {};
-            var17 = _closure1_slot1;
-            var13 = var13[var23];
-            var13 = var17.bind(var5)(var13);
-            var13 = var13.radii;
-            var13 = var13.lg;
-            var12['radius'] = var13;
-            var11['androidRippleConfig'] = var12;
-            var12 = function onPress() {
-                var6 = _closure2_slot2;
-                var4 = _closure2_slot0;
-                var3 = var4.push;
-                var1 = _closure1_slot6;
-                var2 = var1.COLLECTIBLES_SHOP_VIEW_ALL_CATEGORY_ITEMS;
-                var1 = {};
-                var1['category'] = var6;
-                var5 = _closure2_slot1;
-                var1['analyticsContext'] = var5;
-                var1 = var3.bind(var4)(var2, var1);
-                var1 = undefined;
-                return var1;
-            };
-            var11['onPress'] = var12;
-            var13 = var29.bannerAsset;
-            var17 = var1 == var13;
-            var12 = undefined;
-            if(var17) { _fun0001_ip = 498; continue _fun0001 }
- 492:
-            var12 = var13.static;
- 498:
-            var12 = var1 != var12;
-            if(!var12) { _fun0001_ip = 680; continue _fun0001 }
- 508:
-            var20 = _closure1_slot9;
-            var17 = _closure1_slot10;
-            var13 = {};
-            var26 = _closure1_slot8;
-            var25 = _closure1_slot3;
-            var22 = {};
-            var27 = var14.heroBannerImage;
-            var22['style'] = var27;
-            var27 = {};
-            var32 = var29.bannerAsset;
-            var33 = var1 == var32;
-            var28 = undefined;
-            if(var33) { _fun0001_ip = 561; continue _fun0001 }
- 555:
-            var28 = var32.static;
- 561:
-            var27['uri'] = var28;
-            var22['source'] = var27;
-            var25 = var26.bind(var5)(var25, var22);
-            var22 = new Array(2);
-            var22[0] = var25;
-            var27 = _closure1_slot8;
-            var26 = _closure1_slot1;
-            var28 = _closure1_slot2;
-            var25 = 15;
-            var25 = var28[var25];
-            var26 = var26.bind(var5)(var25);
-            var25 = {};
-            var28 = var14.heroBannerGradient;
-            var25['style'] = var28;
-            var28 = new Array(2);
-            var28[0] = var31;
-            var28[1] = var30;
-            var25['colors'] = var28;
-            var28 = _closure1_slot7;
-            var30 = var28.START;
-            var25['start'] = var30;
-            var28 = var28.END;
-            var25['end'] = var28;
-            var25 = var27.bind(var5)(var26, var25);
-            var22[1] = var25;
-            var13['children'] = var22;
-            var12 = var20.bind(var5)(var17, var13);
- 680:
-            var17 = new Array(2);
-            var17[0] = var12;
-            var13 = _closure1_slot8;
-            var12 = _closure1_slot4;
-            var20 = {};
-            var22 = var14.heroBannerContainer;
-            var20['style'] = var22;
-            var25 = _closure1_slot9;
-            var22 = {};
-            var26 = var14.innerContainer;
-            var22['style'] = var26;
-            var27 = _closure1_slot3;
-            var26 = {};
-            var28 = var14.heroLogo;
-            var26['style'] = var28;
-            var28 = {};
-            var29 = var29.logoUrl;
-            var28['uri'] = var29;
-            var26['source'] = var28;
-            var27 = var13.bind(var5)(var27, var26);
-            var26 = new Array(2);
-            var26[0] = var27;
-            var27 = {};
-            var28 = var14.heroViewAllIcon;
-            var27['style'] = var28;
-            var29 = _closure1_slot0;
-            var30 = _closure1_slot2;
-            var28 = 16;
-            var28 = var30[var28];
-            var28 = var29.bind(var5)(var28);
-            var29 = var28.ChevronSmallRightIcon;
-            var28 = {'size': 'sm', 'color': 'white'};
-            var28 = var13.bind(var5)(var29, var28);
-            var27['children'] = var28;
-            var27 = var13.bind(var5)(var12, var27);
-            var26[1] = var27;
-            var22['children'] = var26;
-            var22 = var25.bind(var5)(var12, var22);
-            var20['children'] = var22;
-            var20 = var13.bind(var5)(var12, var20);
-            var17[1] = var20;
-            var11['children'] = var17;
-            var10 = var10.storeListingId;
-            var11 = var9.bind(var5)(var16, var11, var10);
-            var10 = new Array(2);
-            var10[0] = var11;
-            var11 = {};
-            var14 = var14.heroProductsContainer;
-            var11['style'] = var14;
-            var14 = var21.length;
-            if(!(var18 !== var14)) { _fun0001_ip = 1126; continue _fun0001 }
- 916:
-            var17 = _closure1_slot8;
-            var22 = _closure1_slot0;
-            var20 = _closure1_slot2;
-            var14 = 17;
-            var14 = var20[var14];
-            var14 = var22.bind(var5)(var14);
-            var16 = var14.FlashList;
+            var2['onChange'] = var6;
+            var7 = _closure1_slot4;
+            var6 = {};
+            var9 = var16.heroContainer;
+            var8 = new Array(1);
+            var8[0] = var9;
+            var6['style'] = var8;
+            var8 = var5 !== var12;
+            if(!var8) { _fun0001_ip = 1246; continue _fun0001 }
+ 391:
+            var11 = _closure1_slot10;
+            var10 = _closure1_slot11;
+            var9 = {};
+            var19 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var13 = 16;
+            var13 = var15[var13];
+            var13 = var19.bind(var5)(var13);
+            var18 = var13.PressableOpacity;
+            var13 = {'accessibilityRole': 'button', 'accessibilityLabel': null, 'activeOpacity': 0.8, 'androidRippleConfig': null, 'hitSlop': 8};
+            var26 = 17;
+            var14 = var15[var26];
+            var14 = var19.bind(var5)(var14);
+            var24 = var14.intl;
+            var22 = var24.formatToPlainString;
+            var14 = var15[var26];
+            var14 = var19.bind(var5)(var14);
+            var14 = var14.t;
+            var19 = var14.COLLECTIBLES_CATEGORY_BANNER_A11Y_LABEL;
             var14 = {};
-            var25 = true;
-            var14['horizontal'] = var25;
-            var25 = var20[var24];
-            var25 = var22.bind(var5)(var25);
-            var26 = var25.intl;
-            var25 = var26.string;
-            var24 = var20[var24];
-            var24 = var22.bind(var5)(var24);
-            var24 = var24.t;
-            var24 = var24.COLLECTIBLES_SHOP;
-            var24 = var25.bind(var26)(var24);
-            var14['accessibilityLabel'] = var24;
-            var14['data'] = var21;
-            var21 = function renderItem(arg1) {
+            var27 = var12.name;
+            var14['category'] = var27;
+            var14 = var22.bind(var24)(var19, var14);
+            var13['accessibilityLabel'] = var14;
+            var14 = {};
+            var19 = _closure1_slot1;
+            var15 = var15[var25];
+            var15 = var19.bind(var5)(var15);
+            var15 = var15.radii;
+            var15 = var15.lg;
+            var14['radius'] = var15;
+            var13['androidRippleConfig'] = var14;
+            var14 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    var7 = _closure2_slot3;
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 14;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var8 = var4.bind(var1)(var3);
+                    var5 = var8.track;
+                    var3 = _closure1_slot6;
+                    var4 = var3.COLLECTIBLES_SHOP_ELEMENT_CLICKED;
+                    var3 = {};
+                    var10 = _closure2_slot2;
+                    var9 = null;
+                    var11 = var9 == var10;
+                    var10 = undefined;
+                    if(var11) { _fun0002_ip = 74; continue _fun0002 }
+ 64:
+                    var11 = _closure2_slot2;
+                    var10 = var11.sessionId;
+ 74:
+                    var3['collectibles_shop_session_id'] = var10;
+                    var10 = _closure2_slot0;
+                    var10 = var10.categoryStoreListingId;
+                    var3['sku_id'] = var10;
+                    var10 = 'mobile_home';
+                    var3['page_type'] = var10;
+                    var10 = _closure2_slot2;
+                    var11 = var9 == var10;
+                    var10 = undefined;
+                    if(var11) { _fun0002_ip = 128; continue _fun0002 }
+ 118:
+                    var11 = _closure2_slot2;
+                    var10 = var11.pageSection;
+ 128:
+                    var3['page_section'] = var10;
+                    var10 = _closure2_slot2;
+                    var11 = var9 == var10;
+                    var10 = undefined;
+                    if(var11) { _fun0002_ip = 156; continue _fun0002 }
+ 146:
+                    var11 = _closure2_slot2;
+                    var10 = var11.pageCategory;
+ 156:
+                    var3['page_category'] = var10;
+                    var10 = 'HERO_BLOCK';
+                    var3['tile_type'] = var10;
+                    var10 = global;
+                    var11 = var10.String;
+                    var10 = _closure2_slot2;
+                    var12 = var9 == var10;
+                    var10 = undefined;
+                    if(var12) { _fun0002_ip = 203; continue _fun0002 }
+ 193:
+                    var12 = _closure2_slot2;
+                    var10 = var12.tilePosition;
+ 203:
+                    var10 = var11.bind(var1)(var10);
+                    var3['tile_position'] = var10;
+                    var3['cta_name'] = var9;
+                    var3 = var5.bind(var8)(var4, var3);
+                    var5 = _closure2_slot1;
+                    var4 = var5.push;
+                    var2 = _closure1_slot7;
+                    var3 = var2.COLLECTIBLES_SHOP_VIEW_ALL_CATEGORY_ITEMS;
+                    var2 = {};
+                    var2['category'] = var7;
+                    var6 = _closure2_slot2;
+                    var2['analyticsContext'] = var6;
+                    var2 = var4.bind(var5)(var3, var2);
+                    return var1;
+                }
+            };
+            var13['onPress'] = var14;
+            var15 = var31.bannerAsset;
+            var19 = var1 == var15;
+            var14 = undefined;
+            if(var19) { _fun0001_ip = 578; continue _fun0001 }
+ 572:
+            var14 = var15.static;
+ 578:
+            var14 = var1 != var14;
+            if(!var14) { _fun0001_ip = 760; continue _fun0001 }
+ 588:
+            var22 = _closure1_slot10;
+            var19 = _closure1_slot11;
+            var15 = {};
+            var28 = _closure1_slot9;
+            var27 = _closure1_slot3;
+            var24 = {};
+            var29 = var16.heroBannerImage;
+            var24['style'] = var29;
+            var29 = {};
+            var34 = var31.bannerAsset;
+            var35 = var1 == var34;
+            var30 = undefined;
+            if(var35) { _fun0001_ip = 641; continue _fun0001 }
+ 635:
+            var30 = var34.static;
+ 641:
+            var29['uri'] = var30;
+            var24['source'] = var29;
+            var27 = var28.bind(var5)(var27, var24);
+            var24 = new Array(2);
+            var24[0] = var27;
+            var29 = _closure1_slot9;
+            var28 = _closure1_slot1;
+            var30 = _closure1_slot2;
+            var27 = 18;
+            var27 = var30[var27];
+            var28 = var28.bind(var5)(var27);
+            var27 = {};
+            var30 = var16.heroBannerGradient;
+            var27['style'] = var30;
+            var30 = new Array(2);
+            var30[0] = var33;
+            var30[1] = var32;
+            var27['colors'] = var30;
+            var30 = _closure1_slot8;
+            var32 = var30.START;
+            var27['start'] = var32;
+            var30 = var30.END;
+            var27['end'] = var30;
+            var27 = var29.bind(var5)(var28, var27);
+            var24[1] = var27;
+            var15['children'] = var24;
+            var14 = var22.bind(var5)(var19, var15);
+ 760:
+            var19 = new Array(2);
+            var19[0] = var14;
+            var15 = _closure1_slot9;
+            var14 = _closure1_slot4;
+            var22 = {};
+            var24 = var16.heroBannerContainer;
+            var22['style'] = var24;
+            var27 = _closure1_slot10;
+            var24 = {};
+            var28 = var16.innerContainer;
+            var24['style'] = var28;
+            var29 = _closure1_slot3;
+            var28 = {};
+            var30 = var16.heroLogo;
+            var28['style'] = var30;
+            var30 = {};
+            var31 = var31.logoUrl;
+            var30['uri'] = var31;
+            var28['source'] = var30;
+            var29 = var15.bind(var5)(var29, var28);
+            var28 = new Array(2);
+            var28[0] = var29;
+            var29 = {};
+            var30 = var16.heroViewAllIcon;
+            var29['style'] = var30;
+            var31 = _closure1_slot0;
+            var32 = _closure1_slot2;
+            var30 = 19;
+            var30 = var32[var30];
+            var30 = var31.bind(var5)(var30);
+            var31 = var30.ChevronSmallRightIcon;
+            var30 = {'size': 'sm', 'color': 'white'};
+            var30 = var15.bind(var5)(var31, var30);
+            var29['children'] = var30;
+            var29 = var15.bind(var5)(var14, var29);
+            var28[1] = var29;
+            var24['children'] = var28;
+            var24 = var27.bind(var5)(var14, var24);
+            var22['children'] = var24;
+            var22 = var15.bind(var5)(var14, var22);
+            var19[1] = var22;
+            var13['children'] = var19;
+            var12 = var12.storeListingId;
+            var13 = var11.bind(var5)(var18, var13, var12);
+            var12 = new Array(2);
+            var12[0] = var13;
+            var13 = {};
+            var16 = var16.heroProductsContainer;
+            var13['style'] = var16;
+            var16 = var23.length;
+            if(!(var20 !== var16)) { _fun0001_ip = 1206; continue _fun0001 }
+ 996:
+            var19 = _closure1_slot9;
+            var24 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var16 = 20;
+            var16 = var22[var16];
+            var16 = var24.bind(var5)(var16);
+            var18 = var16.FlashList;
+            var16 = {};
+            var27 = true;
+            var16['horizontal'] = var27;
+            var27 = var22[var26];
+            var27 = var24.bind(var5)(var27);
+            var28 = var27.intl;
+            var27 = var28.string;
+            var26 = var22[var26];
+            var26 = var24.bind(var5)(var26);
+            var26 = var26.t;
+            var26 = var26.COLLECTIBLES_SHOP;
+            var26 = var27.bind(var28)(var26);
+            var16['accessibilityLabel'] = var26;
+            var16['data'] = var23;
+            var23 = function renderItem(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var2 = arg1;
                     var1 = var2.item;
                     var9 = var2.index;
-                    var5 = _closure1_slot8;
+                    var5 = _closure1_slot9;
                     var3 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 9;
@@ -499,14 +579,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7['tilePosition'] = var9;
                     var2['newValue'] = var7;
                     var7 = _closure1_slot1;
-                    var6 = 18;
+                    var6 = 21;
                     var6 = var8[var6];
                     var7 = var7.bind(var4)(var6);
                     var6 = {};
                     var8 = true;
                     var6['solidBackground'] = var8;
                     var6['product'] = var1;
-                    var8 = _closure2_slot2;
+                    var8 = _closure2_slot3;
                     var8 = var8.unpublishedAt;
                     var6['unpublishedAt'] = var8;
                     var6 = var5.bind(var4)(var7, var6);
@@ -517,7 +597,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var7 = var1 == var6;
                     var1 = undefined;
-                    if(var7) { _fun0002_ip = 148; continue _fun0002 }
+                    if(var7) { _fun0003_ip = 148; continue _fun0003 }
  143:
                     var1 = var6.id;
  148:
@@ -525,22 +605,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var14['renderItem'] = var21;
-            var21 = 18;
-            var21 = var20[var21];
-            var21 = var22.bind(var5)(var21);
-            var21 = var21.COLLECTIBLES_SHOP_CARD_WIDTH;
-            var22 = _closure1_slot1;
-            var20 = var20[var23];
-            var20 = var22.bind(var5)(var20);
-            var20 = var20.spacing;
-            var20 = var20.PX_12;
-            var20 = var21 + var20;
-            var14['estimatedItemSize'] = var20;
-            var20 = false;
-            var14['showsHorizontalScrollIndicator'] = var20;
-            var20 = function ListHeaderComponent() {
-                var4 = _closure1_slot8;
+            var16['renderItem'] = var23;
+            var23 = 21;
+            var23 = var22[var23];
+            var23 = var24.bind(var5)(var23);
+            var23 = var23.COLLECTIBLES_SHOP_CARD_WIDTH;
+            var24 = _closure1_slot1;
+            var22 = var22[var25];
+            var22 = var24.bind(var5)(var22);
+            var22 = var22.spacing;
+            var22 = var22.PX_12;
+            var22 = var23 + var22;
+            var16['estimatedItemSize'] = var22;
+            var22 = false;
+            var16['showsHorizontalScrollIndicator'] = var22;
+            var22 = function ListHeaderComponent() {
+                var4 = _closure1_slot9;
                 var3 = _closure1_slot4;
                 var2 = {};
                 var5 = {};
@@ -557,9 +637,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var14['ListHeaderComponent'] = var20;
-            var20 = function ListFooterComponent() {
-                var4 = _closure1_slot8;
+            var16['ListHeaderComponent'] = var22;
+            var22 = function ListFooterComponent() {
+                var4 = _closure1_slot9;
                 var3 = _closure1_slot4;
                 var2 = {};
                 var5 = {};
@@ -576,9 +656,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var14['ListFooterComponent'] = var20;
-            var19 = function ItemSeparatorComponent() {
-                var4 = _closure1_slot8;
+            var16['ListFooterComponent'] = var22;
+            var21 = function ItemSeparatorComponent() {
+                var4 = _closure1_slot9;
                 var3 = _closure1_slot4;
                 var2 = {};
                 var5 = {};
@@ -595,26 +675,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var14['ItemSeparatorComponent'] = var19;
-            var14['initialScrollIndex'] = var18;
-            var14 = var17.bind(var5)(var16, var14);
-            _fun0001_ip = 1142; continue _fun0001;
- 1126:
-            var17 = _closure1_slot8;
-            var16 = _closure1_slot12;
-            var15 = {};
-            var14 = var17.bind(var5)(var16, var15);
- 1142:
-            var11['children'] = var14;
-            var11 = var13.bind(var5)(var12, var11);
-            var10[1] = var11;
-            var7['children'] = var10;
-            var6 = var9.bind(var5)(var8, var7);
- 1166:
+            var16['ItemSeparatorComponent'] = var21;
+            var16['initialScrollIndex'] = var20;
+            var16 = var19.bind(var5)(var18, var16);
+            _fun0001_ip = 1222; continue _fun0001;
+ 1206:
+            var19 = _closure1_slot9;
+            var18 = _closure1_slot13;
+            var17 = {};
+            var16 = var19.bind(var5)(var18, var17);
+ 1222:
+            var13['children'] = var16;
+            var13 = var15.bind(var5)(var14, var13);
+            var12[1] = var13;
+            var9['children'] = var12;
+            var8 = var11.bind(var5)(var10, var9);
+ 1246:
+            var6['children'] = var8;
+            var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 1178:
+ 1268:
             return var1;
         }
     };

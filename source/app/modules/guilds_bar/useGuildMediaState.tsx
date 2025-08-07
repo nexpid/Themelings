@@ -287,7 +287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.BasicPermissions;
     var _closure1_slot15 = var4;
-    var4 = 21;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -299,15 +299,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = arg1;
             var _closure2_slot0 = var14;
             var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var17 = 14;
-            var3 = var6[var17];
+            var3 = var7[var17];
             var5 = undefined;
-            var9 = var4.bind(var5)(var3);
-            var8 = var9.useStateFromStores;
+            var8 = var4.bind(var5)(var3);
+            var6 = var8.useStateFromStores;
             var3 = _closure1_slot13;
-            var7 = new Array(1);
-            var7[0] = var3;
+            var4 = new Array(1);
+            var4[0] = var3;
             var3 = function() {
                 var3 = _closure1_slot13;
                 var2 = var3.isMuted;
@@ -315,9 +315,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var13 = var8.bind(var9)(var7, var3);
-            var _closure2_slot1 = var13;
+            var13 = var6.bind(var8)(var4, var3);
+            var6 = _closure1_slot1;
             var3 = 15;
+            var3 = var7[var3];
+            var7 = var6.bind(var5)(var3);
+            var6 = var7.useExperiment;
+            var3 = {};
+            var8 = 'useGuildMediaState';
+            var3['location'] = var8;
+            var3 = var6.bind(var7)(var3);
+            var3 = var3.enabled;
+            if(!var13) { _fun0005_ip = 114; continue _fun0005 }
+ 111:
+            var13 = !var3;
+ 114:
+            var _closure2_slot1 = var13;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 16;
             var3 = var6[var3];
             var7 = var4.bind(var5)(var3);
             var3 = var7.useGuildActiveEvent;
@@ -340,7 +356,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = function(arg1) {
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 16;
+                    var2 = 17;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -363,7 +379,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var9 = var9.bind(var10)(var7, var3);
             var _closure2_slot3 = var9;
-            var3 = 17;
+            var3 = 18;
             var3 = var6[var3];
             var6 = var4.bind(var5)(var3);
             var4 = var6.getEmbeddedActivityLocationChannelId;
@@ -372,14 +388,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var10 = var3 == var7;
             var3 = undefined;
-            if(var10) { _fun0005_ip = 187; continue _fun0005 }
- 182:
+            if(var10) { _fun0005_ip = 245; continue _fun0005 }
+ 240:
             var3 = var7.location;
- 187:
+ 245:
             var10 = var4.bind(var6)(var3);
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var6 = 18;
+            var6 = 19;
             var6 = var3[var6];
             var7 = var4.bind(var5)(var6);
             var6 = var7.useIsActivitiesInTextEnabled;
@@ -426,7 +442,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var1.bind(var10)(var9);
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var1 = 16;
+                    var1 = 17;
                     var1 = var8[var1];
                     var8 = var6.bind(var13)(var1);
                     var6 = var8.filterBlockedUsersFromVoiceStates;
@@ -581,7 +597,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  88:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var3 = 19;
+                    var3 = 20;
                     var3 = var6[var3];
                     var6 = var5.bind(var11)(var3);
                     var5 = var6.keys;
@@ -606,7 +622,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = var4.can;
                             var7 = _closure1_slot0;
                             var6 = _closure1_slot2;
-                            var2 = 20;
+                            var2 = 21;
                             var6 = var6[var2];
                             var2 = undefined;
                             var2 = var7.bind(var2)(var6);
@@ -651,7 +667,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  246:
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var5 = 16;
+                    var5 = 17;
                     var5 = var8[var5];
                     var8 = var7.bind(var11)(var5);
                     var7 = var8.filterOutStreamsByBlockedOwner;
@@ -676,7 +692,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var17 = var5.bind(var11)(var4);
                     var4 = var17.bind(var11)();
                     var5 = var4.done;
-                    var9 = 17;
+                    var9 = 18;
                     var8 = var4;
                     var4 = false;
                     if(var5) { _fun0007_ip = 461; continue _fun0007 }

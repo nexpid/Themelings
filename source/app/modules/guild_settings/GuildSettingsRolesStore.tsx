@@ -288,36 +288,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4['tertiary_color'] = var9;
                 var6[var8] = var4;
                 var4 = var2.colors;
-                if(!(var5 != var4)) { _fun0005_ip = 385; continue _fun0005 }
- 299:
+                if(!(var5 != var4)) { _fun0005_ip = 381; continue _fun0005 }
+ 295:
                 var4 = {};
                 var8 = var2.colors;
                 var8 = var8.primary_color;
-                if(!(var5 == var8)) { _fun0005_ip = 320; continue _fun0005 }
- 316:
+                if(!(var5 == var8)) { _fun0005_ip = 316; continue _fun0005 }
+ 312:
                 var8 = _closure1_slot15;
- 320:
+ 316:
                 var4['primary_color'] = var8;
                 var8 = var2.colors;
                 var9 = var8.secondary_color;
                 var10 = var5 != var9;
                 var8 = null;
-                if(!var10) { _fun0005_ip = 348; continue _fun0005 }
- 345:
+                if(!var10) { _fun0005_ip = 344; continue _fun0005 }
+ 341:
                 var8 = var9;
- 348:
+ 344:
                 var4['secondary_color'] = var8;
                 var8 = var2.colors;
                 var8 = var8.tertiary_color;
                 var9 = var5 != var8;
                 var5 = null;
-                if(!var9) { _fun0005_ip = 376; continue _fun0005 }
- 373:
+                if(!var9) { _fun0005_ip = 372; continue _fun0005 }
+ 369:
                 var5 = var8;
- 376:
+ 372:
                 var4['tertiary_color'] = var5;
                 var6[var7] = var4;
- 385:
+ 381:
                 var5 = _closure1_slot33;
                 var4 = var5.set;
                 var3 = var2.id;
@@ -1212,13 +1212,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot41;
             var5 = undefined;
             var4 = var1.bind(var5)(var11);
-            if(!(var6 != var4)) { _fun0021_ip = 271; continue _fun0021 }
+            if(!(var6 != var4)) { _fun0021_ip = 259; continue _fun0021 }
  80:
             var3 = _closure1_slot33;
             var1 = var3.get;
             var12 = var1.bind(var3)(var11);
             var1 = var6 != var12;
-            if(!var1) { _fun0021_ip = 269; continue _fun0021 }
+            if(!var1) { _fun0021_ip = 257; continue _fun0021 }
  104:
             var3 = _closure1_slot22;
             var3 = var3.SOLID;
@@ -1245,17 +1245,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['colors'] = var7;
             var7 = var6 != var8;
             var6 = null;
-            if(!var7) { _fun0021_ip = 258; continue _fun0021 }
- 235:
+            if(!var7) { _fun0021_ip = 246; continue _fun0021 }
+ 227:
             var7 = {'primaryColor': null, 'secondaryColor': null, 'tertiaryColor': null};
             var7['primaryColor'] = var8;
             var6 = var7;
- 258:
+ 246:
             var2['colorStrings'] = var6;
             var1 = var3.bind(var5)(var4, var2);
- 269:
+ 257:
             return var1;
- 271:
+ 259:
             var1 = false;
             return var1;
         }

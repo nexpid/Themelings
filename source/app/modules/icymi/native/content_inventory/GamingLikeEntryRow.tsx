@@ -426,11 +426,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['content'] = var17;
             var2 = var3.bind(var4)(var2);
             var12 = var2.openReplyActionSheet;
-            if(!(var1 != var23)) { _fun0003_ip = 1350; continue _fun0003 }
+            if(!(var1 != var23)) { _fun0003_ip = 1346; continue _fun0003 }
  313:
-            if(!(var1 != var19)) { _fun0003_ip = 1350; continue _fun0003 }
+            if(!(var1 != var19)) { _fun0003_ip = 1346; continue _fun0003 }
  320:
-            if(!(var1 != var16)) { _fun0003_ip = 1350; continue _fun0003 }
+            if(!(var1 != var16)) { _fun0003_ip = 1346; continue _fun0003 }
  327:
             var3 = _closure1_slot0;
             var2 = _closure1_slot3;
@@ -527,10 +527,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var28.isEntryActive;
             var28 = var22.bind(var28)(var17);
             var22 = 'header-muted';
-            if(!var28) { _fun0003_ip = 768; continue _fun0003 }
- 762:
+            if(!var28) { _fun0003_ip = 764; continue _fun0003 }
+ 758:
             var22 = 'status-positive';
- 768:
+ 764:
             var10['color'] = var22;
             var28 = _closure1_slot0;
             var31 = _closure1_slot3;
@@ -560,8 +560,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[0] = var14;
             var15 = var1 != var21;
             var14 = null;
-            if(!var15) { _fun0003_ip = 961; continue _fun0003 }
- 897:
+            if(!var15) { _fun0003_ip = 957; continue _fun0003 }
+ 893:
             var15 = {};
             var22 = _closure1_slot1;
             var28 = _closure1_slot3;
@@ -576,7 +576,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var17.bind(var21)();
             var15['backgroundColor'] = var17;
             var14 = var15;
- 961:
+ 957:
             var10[1] = var14;
             var6['style'] = var10;
             var22 = _closure1_slot7;
@@ -613,14 +613,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = new Array(2);
             var17[0] = var21;
             var21 = var1 != var25;
-            if(!var21) { _fun0003_ip = 1125; continue _fun0003 }
- 1114:
+            if(!var21) { _fun0003_ip = 1121; continue _fun0003 }
+ 1110:
             var23 = var25.length;
             var22 = 0;
             var21 = var23 > var22;
- 1125:
-            if(!var21) { _fun0003_ip = 1158; continue _fun0003 }
- 1128:
+ 1121:
+            if(!var21) { _fun0003_ip = 1154; continue _fun0003 }
+ 1124:
             var24 = _closure1_slot7;
             var23 = _closure1_slot5;
             var22 = {};
@@ -628,7 +628,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22['style'] = var26;
             var22['children'] = var25;
             var21 = var24.bind(var5)(var23, var22);
- 1158:
+ 1154:
             var17[1] = var21;
             var14['children'] = var17;
             var14 = var16.bind(var5)(var15, var14);
@@ -638,8 +638,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(2);
             var6[0] = var7;
             var7 = null;
-            if(var8) { _fun0003_ip = 1334; continue _fun0003 }
- 1202:
+            if(var8) { _fun0003_ip = 1330; continue _fun0003 }
+ 1198:
             var10 = _closure1_slot7;
             var14 = _closure1_slot0;
             var17 = _closure1_slot3;
@@ -668,12 +668,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['onReply'] = var12;
             var8['onForward'] = var11;
             var7 = var10.bind(var5)(var9, var8);
- 1334:
+ 1330:
             var6[1] = var7;
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 1350:
+ 1346:
             return var1;
         }
     };

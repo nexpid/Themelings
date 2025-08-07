@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var1;
-        var1 = new Array(7);
+        var1 = new Array(8);
         var1[0] = var5;
         var5 = {};
         var7 = 'isFetching';
@@ -182,6 +182,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[1] = var5;
         var5 = {};
+        var7 = 'didFetchingFail';
+        var5['key'] = var7;
+        var7 = function value(arg1) {
+            var3 = _closure1_slot7;
+            var2 = var3.has;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[2] = var5;
+        var5 = {};
         var7 = 'getGame';
         var5['key'] = var7;
         var7 = function value(arg1) {
@@ -192,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[2] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getGames';
         var5['key'] = var7;
@@ -210,7 +222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[3] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'getLocalizedName';
         var5['key'] = var7;
@@ -232,7 +244,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'getThemes';
         var5['key'] = var7;
@@ -254,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getCoverImageUrl';
         var5['key'] = var7;
@@ -297,7 +309,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var6;
-        var1[6] = var5;
+        var1[7] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

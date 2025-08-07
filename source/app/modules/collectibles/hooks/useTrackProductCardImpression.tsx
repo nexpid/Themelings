@@ -198,60 +198,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['sku_id'] = var9;
                     var11 = var8 == var10;
                     var9 = undefined;
-                    if(var11) { _fun0002_ip = 221; continue _fun0002 }
- 215:
+                    if(var11) { _fun0002_ip = 219; continue _fun0002 }
+ 213:
                     var9 = var10.amount;
- 221:
+ 219:
                     var2['display_price'] = var9;
                     var11 = var8 == var10;
                     var9 = undefined;
-                    if(var11) { _fun0002_ip = 252; continue _fun0002 }
- 237:
+                    if(var11) { _fun0002_ip = 250; continue _fun0002 }
+ 235:
                     var11 = var10.currency;
                     var10 = var11.toString;
                     var9 = var10.bind(var11)();
- 252:
+ 250:
                     var2['display_price_currency'] = var9;
                     var2['display_price_strikethrough'] = var6;
                     var6 = _closure2_slot3;
                     var9 = var8 == var6;
                     var6 = undefined;
-                    if(var9) { _fun0002_ip = 289; continue _fun0002 }
- 279:
+                    if(var9) { _fun0002_ip = 287; continue _fun0002 }
+ 277:
                     var9 = _closure2_slot3;
                     var6 = var9.tilePosition;
- 289:
+ 287:
                     var2['position'] = var6;
                     var6 = _closure2_slot1;
                     var2['page_type'] = var6;
                     var6 = _closure2_slot3;
                     var9 = var8 == var6;
                     var6 = undefined;
-                    if(var9) { _fun0002_ip = 325; continue _fun0002 }
- 315:
+                    if(var9) { _fun0002_ip = 323; continue _fun0002 }
+ 313:
                     var9 = _closure2_slot3;
                     var6 = var9.pageCategory;
- 325:
+ 323:
                     var2['page_category'] = var6;
                     var6 = _closure2_slot3;
                     var9 = var8 == var6;
                     var6 = undefined;
-                    if(var9) { _fun0002_ip = 355; continue _fun0002 }
- 345:
+                    if(var9) { _fun0002_ip = 351; continue _fun0002 }
+ 341:
                     var9 = _closure2_slot3;
                     var6 = var9.pageSection;
- 355:
+ 351:
                     var2['page_section'] = var6;
                     var6 = _closure2_slot2;
                     var2['type'] = var6;
                     var6 = _closure2_slot3;
                     var8 = var8 == var6;
                     var6 = undefined;
-                    if(var8) { _fun0002_ip = 393; continue _fun0002 }
- 383:
+                    if(var8) { _fun0002_ip = 387; continue _fun0002 }
+ 377:
                     var7 = _closure2_slot3;
                     var6 = var7.categoryPosition;
- 393:
+ 387:
                     var2['category_position'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;

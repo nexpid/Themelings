@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.FAVORITES_RAW_GUILD_ID;
     var _closure1_slot12 = var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -184,18 +184,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.getGuildId;
                 var3 = var2.bind(var3)();
                 var2 = null;
-                if(!(var2 != var3)) { _fun0003_ip = 260; continue _fun0003 }
+                if(!(var2 != var3)) { _fun0003_ip = 304; continue _fun0003 }
  26:
                 var4 = _closure1_slot12;
-                if(!(var3 !== var4)) { _fun0003_ip = 260; continue _fun0003 }
+                if(!(var3 !== var4)) { _fun0003_ip = 304; continue _fun0003 }
  37:
                 var4 = _closure1_slot11;
-                if(!(var3 !== var4)) { _fun0003_ip = 260; continue _fun0003 }
+                if(!(var3 !== var4)) { _fun0003_ip = 304; continue _fun0003 }
  48:
                 var5 = _closure1_slot7;
                 var4 = var5.getGuild;
                 var7 = var4.bind(var5)(var3);
-                if(!(var2 != var7)) { _fun0003_ip = 260; continue _fun0003 }
+                if(!(var2 != var7)) { _fun0003_ip = 304; continue _fun0003 }
  69:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot1;
@@ -213,38 +213,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var8.bind(var9)(var2);
                 var2 = 12;
                 var2 = var6[var2];
+                var2 = var5.bind(var4)(var2);
+                var9 = var2.GuildTagBadgePacksExperiment;
+                var8 = var9.trackExposure;
+                var2 = {};
+                var11 = var7.id;
+                var2['guildId'] = var11;
+                var2['location'] = var10;
+                var2 = var8.bind(var9)(var2);
+                var2 = 13;
+                var2 = var6[var2];
                 var6 = var5.bind(var4)(var2);
                 var5 = var6.getHasAllocateBoostPermission;
                 var2 = _closure1_slot8;
                 var2 = var5.bind(var6)(var2, var7);
-                if(!var2) { _fun0003_ip = 260; continue _fun0003 }
- 160:
+                if(!var2) { _fun0003_ip = 304; continue _fun0003 }
+ 204:
                 var5 = _closure1_slot10;
                 var2 = var5.shouldFetchCatalogForGuild;
                 var2 = var2.bind(var5)(var3);
-                if(!var2) { _fun0003_ip = 209; continue _fun0003 }
- 178:
+                if(!var2) { _fun0003_ip = 253; continue _fun0003 }
+ 222:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot1;
-                var2 = 13;
+                var2 = 14;
                 var2 = var6[var2];
                 var5 = var5.bind(var4)(var2);
                 var2 = var5.fetchPowerupCatalogForGuild;
                 var2 = var2.bind(var5)(var3);
- 209:
+ 253:
                 var5 = _closure1_slot10;
                 var2 = var5.shouldFetchPowerupsForGuild;
                 var2 = var2.bind(var5)(var3);
-                if(!var2) { _fun0003_ip = 260; continue _fun0003 }
- 229:
+                if(!var2) { _fun0003_ip = 304; continue _fun0003 }
+ 273:
                 var2 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var1 = 13;
+                var1 = 14;
                 var1 = var5[var1];
                 var2 = var2.bind(var4)(var1);
                 var1 = var2.fetchGuildUnlockedPowerups;
                 var1 = var1.bind(var2)(var3);
- 260:
+ 304:
                 var1 = undefined;
                 return var1;
             }
@@ -289,7 +299,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = arg1;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot1;
-                var1 = 12;
+                var1 = 13;
                 var3 = var3[var1];
                 var1 = undefined;
                 var7 = var5.bind(var1)(var3);
@@ -304,12 +314,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  64:
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var2 = 13;
+                var2 = 14;
                 var2 = var5[var2];
                 var6 = var3.bind(var1)(var2);
                 var2 = var6.fetchGuildUnlockedPowerups;
                 var2 = var2.bind(var6)(var4);
-                var2 = 14;
+                var2 = 15;
                 var2 = var5[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.fetchAppliedGuildBoostsForGuild;
@@ -329,7 +339,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

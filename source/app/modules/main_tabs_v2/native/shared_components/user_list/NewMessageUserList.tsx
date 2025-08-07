@@ -1154,27 +1154,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                     var2 = _closure2_slot6;
-                    if(var2) { _fun0015_ip = 52; continue _fun0015 }
+                    if(var2) { _fun0015_ip = 48; continue _fun0015 }
  10:
                     var2 = _closure2_slot11;
                     var4 = var2.current;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0015_ip = 80; continue _fun0015 }
+                    if(!(var2 != var4)) { _fun0015_ip = 76; continue _fun0015 }
  25:
                     var3 = var4.scrollToOffset;
                     var2 = {'offset': 0, 'animated': false};
                     var2 = var3.bind(var4)(var2);
-                    _fun0015_ip = 80; continue _fun0015;
- 52:
+                    _fun0015_ip = 76; continue _fun0015;
+ 48:
                     var1 = _closure2_slot10;
                     var3 = var1.current;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0015_ip = 80; continue _fun0015 }
- 67:
+                    if(!(var1 != var3)) { _fun0015_ip = 76; continue _fun0015 }
+ 63:
                     var2 = var3.scrollToTop;
                     var1 = false;
                     var1 = var2.bind(var3)(var1);
- 80:
+ 76:
                     var1 = undefined;
                     return var1;
                 }

@@ -1056,7 +1056,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.getChannel;
             var13 = var2.bind(var3)(var5);
             var2 = null;
-            if(!(var2 != var13)) { _fun0005_ip = 369; continue _fun0005 }
+            if(!(var2 != var13)) { _fun0005_ip = 365; continue _fun0005 }
  34:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -1172,14 +1172,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['context'] = var10;
             var7 = var8.bind(var9)(var7);
             var2 = var2 != var4;
-            if(!var2) { _fun0005_ip = 311; continue _fun0005 }
- 300:
+            if(!var2) { _fun0005_ip = 307; continue _fun0005 }
+ 296:
             var8 = var4.length;
             var7 = 0;
             var2 = var8 > var7;
- 311:
-            if(!var2) { _fun0005_ip = 369; continue _fun0005 }
- 314:
+ 307:
+            if(!var2) { _fun0005_ip = 365; continue _fun0005 }
+ 310:
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 45;
@@ -1193,7 +1193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['channelId'] = var5;
             var1['attachments'] = var4;
             var1 = var2.bind(var3)(var1);
- 369:
+ 365:
             var1 = undefined;
             return var1;
         }

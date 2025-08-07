@@ -10,23 +10,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function trackRoundtrip(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var8 = arg1;
+            var5 = arg1;
             var1 = global;
             var2 = var1.Math;
             var1 = var2.random;
             var2 = var1.bind(var2)();
             var1 = 0.1;
-            if(!(!(var2 > var1))) { _fun0001_ip = 261; continue _fun0001 }
+            if(!(!(var2 > var1))) { _fun0001_ip = 278; continue _fun0001 }
  38:
-            var1 = var8.apiResponseTimestamp;
-            var5 = null;
-            var1 = var5 == var1;
-            var9 = null;
+            var1 = var5.apiResponseTimestamp;
+            var6 = null;
+            var1 = var6 == var1;
+            var10 = null;
             if(var1) { _fun0001_ip = 71; continue _fun0001 }
  55:
-            var2 = var8.apiResponseTimestamp;
-            var1 = var8.initialSendTimestamp;
-            var9 = var2 - var1;
+            var2 = var5.apiResponseTimestamp;
+            var1 = var5.initialSendTimestamp;
+            var10 = var2 - var1;
  71:
             var2 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = undefined;
             var2 = var2.bind(var11)(var1);
             var1 = var2.getSignalStrength;
-            var7 = var1.bind(var2)();
+            var8 = var1.bind(var2)();
             var12 = _closure1_slot1;
             var1 = 5;
             var1 = var13[var1];
@@ -44,37 +44,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot6;
             var2 = var1.QUEST_DECISION_ROUNDTRIP;
             var1 = {};
-            var10 = 6;
-            var10 = var13[var10];
-            var10 = var12.bind(var11)(var10);
-            var14 = var10.bind(var11)();
+            var9 = 6;
+            var9 = var13[var9];
+            var9 = var12.bind(var11)(var9);
+            var14 = var9.bind(var11)();
             var15 = var1;
-            var10 = copyDataProperties(var15, var14);
-            var11 = var8.endpoint;
-            var10 = 'endpoint';
-            var1[var10] = var11;
-            var10 = var8.wasSuccessful;
-            var8 = 'was_successful';
-            var1[var8] = var10;
-            var8 = 'api_latency_ms';
-            var1[var8] = var9;
-            var8 = _closure1_slot5;
-            var6 = var8.getType;
-            var8 = var6.bind(var8)();
-            var6 = 'mobile_network_type';
-            var1[var6] = var8;
-            var5 = var5 != var7;
-            if(!var5) { _fun0001_ip = 245; continue _fun0001 }
+            var9 = copyDataProperties(var15, var14);
+            var11 = var5.endpoint;
+            var9 = 'endpoint';
+            var1[var9] = var11;
+            var11 = var5.wasSuccessful;
+            var9 = 'was_successful';
+            var1[var9] = var11;
+            var9 = 'api_latency_ms';
+            var1[var9] = var10;
+            var9 = _closure1_slot5;
+            var7 = var9.getType;
+            var9 = var7.bind(var9)();
+            var7 = 'mobile_network_type';
+            var1[var7] = var9;
+            var6 = var6 != var8;
+            if(!var6) { _fun0001_ip = 245; continue _fun0001 }
  235:
-            var6 = {};
-            var6['mobile_signal_strength_level'] = var7;
-            var5 = var6;
+            var7 = {};
+            var7['mobile_signal_strength_level'] = var8;
+            var6 = var7;
  245:
             var15 = var1;
-            var14 = var5;
-            var5 = copyDataProperties(var15, var14);
+            var14 = var6;
+            var6 = copyDataProperties(var15, var14);
+            var6 = var5.callerSource;
+            var5 = 'caller_source';
+            var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);
- 261:
+ 278:
             var1 = undefined;
             return var1;
         }
@@ -128,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var2 = 'recordQuestRequestAttempt';
         var1['key'] = var2;
-        var2 = function value(arg1) {
+        var2 = function value(arg1, arg2) {
             var6 = arg1;
             var3 = this;
             var _closure3_slot0 = var3;
@@ -144,6 +147,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['apiResponseTimestamp'] = var4;
             var4 = false;
             var5['wasSuccessful'] = var4;
+            var4 = arg2;
+            var5['callerSource'] = var4;
             var4 = var3.pendingRequests;
             var3 = var4.set;
             var3 = var3.bind(var4)(var6, var5);

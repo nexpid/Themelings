@@ -6129,9 +6129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var15[var2];
             var20 = var12.bind(var4)(var2);
             var18 = var20.useQuests;
-            var2 = {};
-            var21 = 'cache-or-network';
-            var2['fetchPolicy'] = var21;
+            var2 = {'fetchPolicy': 'cache-or-network', 'callerSource': 'messages_native'};
             var2 = var18.bind(var20)(var2);
             var69 = var2.quests;
             var68 = var2.isFetchingCurrentQuests;
@@ -6572,30 +6570,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7.id;
             var86 = var12.bind(var15)(var2);
             var45 = var19 != var78;
-            if(!var45) { _fun0043_ip = 2229; continue _fun0043 }
- 2211:
+            if(!var45) { _fun0043_ip = 2230; continue _fun0043 }
+ 2212:
             var2 = var78.ready;
-            if(var2) { _fun0043_ip = 2226; continue _fun0043 }
- 2220:
+            if(var2) { _fun0043_ip = 2227; continue _fun0043 }
+ 2221:
             var2 = var78.cached;
- 2226:
+ 2227:
             var45 = var2;
- 2229:
+ 2230:
             var88 = var19 != var78;
-            if(!var88) { _fun0043_ip = 2242; continue _fun0043 }
- 2236:
+            if(!var88) { _fun0043_ip = 2243; continue _fun0043 }
+ 2237:
             var88 = var78.cached;
- 2242:
+ 2243:
             var87 = var19 != var78;
-            if(!var87) { _fun0043_ip = 2255; continue _fun0043 }
- 2249:
+            if(!var87) { _fun0043_ip = 2256; continue _fun0043 }
+ 2250:
             var87 = var78.ready;
- 2255:
-            if(!var87) { _fun0043_ip = 2267; continue _fun0043 }
- 2258:
+ 2256:
+            if(!var87) { _fun0043_ip = 2268; continue _fun0043 }
+ 2259:
             var2 = var78.loadingMore;
             var87 = !var2;
- 2267:
+ 2268:
             var12 = _closure1_slot0;
             var15 = _closure1_slot2;
             var2 = var15[var3];
@@ -6659,10 +6657,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var15.useCurrentUserCommunicationDisabled;
             var16 = var19 == var5;
             var2 = undefined;
-            if(var16) { _fun0043_ip = 2463; continue _fun0043 }
- 2458:
+            if(var16) { _fun0043_ip = 2464; continue _fun0043 }
+ 2459:
             var2 = var5.id;
- 2463:
+ 2464:
             var12 = var12.bind(var15)(var2);
             var2 = _closure1_slot3;
             var2 = var2.bind(var4)(var12, var13);
@@ -7149,8 +7147,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['profile'] = var5;
             var5 = var7.isThread;
             var7 = var5.bind(var7)();
-            if(!var7) { _fun0043_ip = 3466; continue _fun0043 }
- 3427:
+            if(!var7) { _fun0043_ip = 3467; continue _fun0043 }
+ 3428:
             r102 = _closure1_slot72;
             var8 = _closure1_slot1;
             r103 = _closure1_slot2;
@@ -7161,7 +7159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             r103 = true;
             var5['absolute'] = r103;
             var7 = r102.bind(var4)(var8, var5);
- 3466:
+ 3467:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot72;
@@ -7228,10 +7226,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['interactionStates'] = var48;
             var6['interactionComponentStates'] = var47;
             var6['interactionComponentStatesVersion'] = var46;
-            if(!var44) { _fun0043_ip = 3789; continue _fun0043 }
- 3786:
+            if(!var44) { _fun0043_ip = 3790; continue _fun0043 }
+ 3787:
             var44 = var45;
- 3789:
+ 3790:
             var6['hasLoadedExperiments'] = var44;
             var6['guildSystemChannelFlags'] = var43;
             var6['currentUserCommunicationDisabled'] = var42;
@@ -7260,18 +7258,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['resolvedReferralTrialOfferIds'] = var21;
             var21 = var19 == var20;
             var19 = undefined;
-            if(var21) { _fun0043_ip = 3933; continue _fun0043 }
- 3928:
+            if(var21) { _fun0043_ip = 3934; continue _fun0043 }
+ 3929:
             var19 = var20.id;
- 3933:
+ 3934:
             var6['referralTrialOfferId'] = var19;
             var6['isPremiumTier2User'] = var18;
             var6['activityInviteMessageIds'] = var17;
             var14 = 0;
-            if(var16) { _fun0043_ip = 3956; continue _fun0043 }
- 3953:
+            if(var16) { _fun0043_ip = 3957; continue _fun0043 }
+ 3954:
             var14 = var15;
- 3956:
+ 3957:
             var6['guildInviteColorsFetched'] = var14;
             var6['isAgeVerified'] = var13;
             var6['guildEmojis'] = var12;

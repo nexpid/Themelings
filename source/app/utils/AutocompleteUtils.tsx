@@ -3680,19 +3680,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = arg1;
             var12 = this;
             var16 = var4.query;
-            var6 = var4.channel;
-            var _closure2_slot0 = var6;
-            var11 = var4.canMentionEveryone;
+            var9 = var4.channel;
+            var _closure2_slot0 = var9;
+            var6 = var4.canMentionEveryone;
             var7 = undefined;
-            if(!(var11 === var7)) { _fun0036_ip = 36; continue _fun0036 }
+            if(!(var6 === var7)) { _fun0036_ip = 36; continue _fun0036 }
  34:
-            var11 = false;
+            var6 = false;
  36:
-            var _closure2_slot1 = var11;
-            var9 = var4.canMentionHere;
-            if(!(var9 === var7)) { _fun0036_ip = 52; continue _fun0036 }
+            var _closure2_slot1 = var6;
+            var11 = var4.canMentionHere;
+            if(!(var11 === var7)) { _fun0036_ip = 52; continue _fun0036 }
  50:
-            var9 = true;
+            var11 = true;
  52:
             var2 = var4.canMentionUsers;
             if(!(var2 === var7)) { _fun0036_ip = 64; continue _fun0036 }
@@ -3741,13 +3741,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  171:
             if(!var1) { _fun0036_ip = 185; continue _fun0036 }
  174:
-            var2 = var6.guild_id;
+            var2 = var9.guild_id;
             var1 = null;
             if(!(var1 == var2)) { _fun0036_ip = 227; continue _fun0036 }
  185:
             var2 = var12.queryChannelUsers;
             var1 = {};
-            var10 = var6.id;
+            var10 = var9.id;
             var1['channelId'] = var10;
             var1['query'] = var16;
             var1['limit'] = var8;
@@ -3758,7 +3758,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  227:
             var2 = var12.queryGuildUsers;
             var1 = {};
-            var17 = var6.guild_id;
+            var17 = var9.guild_id;
             var1['guildId'] = var17;
             var1['query'] = var16;
             var1['limit'] = var8;
@@ -3793,27 +3793,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4 = var2.bind(var10)(var1);
  287:
-            var13 = var4.length;
+            var12 = var4.length;
             var1 = var16.toLowerCase;
             var10 = var1.bind(var16)();
             _closure2_slot4 = var10;
             var17 = new Array(0);
             var2 = var17;
-            var12 = var13;
-            if(!(var12 < var8)) { _fun0036_ip = 524; continue _fun0036 }
+            var13 = var12;
+            if(!(var13 < var8)) { _fun0036_ip = 524; continue _fun0036 }
  323:
-            var12 = var13;
+            var13 = var12;
             var2 = var17;
             if(!var5) { _fun0036_ip = 524; continue _fun0036 }
  335:
-            var1 = var6.getGuildId;
-            var18 = var1.bind(var6)();
+            var1 = var9.getGuildId;
+            var18 = var1.bind(var9)();
             _closure2_slot5 = var18;
             var15 = _closure1_slot30;
             var14 = var15.getGuild;
             var15 = var14.bind(var15)(var18);
             var14 = null;
-            var12 = var13;
+            var13 = var12;
             var2 = var17;
             if(!(var14 != var15)) { _fun0036_ip = 524; continue _fun0036 }
  381:
@@ -3896,108 +3896,112 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['keys'] = var17;
             var15 = var3.bind(var14)(var15, var16, var1);
             var14 = var15.slice;
-            var3 = var8 - var13;
+            var3 = var8 - var12;
             var1 = 0;
             var1 = var14.bind(var15)(var1, var3);
             var3 = var1.length;
-            var12 = var13 + var3;
+            var13 = var12 + var3;
             var2 = var1;
  524:
             var3 = new Array(0);
-            var1 = var6.isPrivate;
-            var1 = var1.bind(var6)();
+            var1 = var9.isPrivate;
+            var1 = var1.bind(var9)();
             var1 = !var1;
             if(!var1) { _fun0036_ip = 547; continue _fun0036 }
  544:
-            var1 = var11;
+            var1 = var6;
  547:
             if(!var1) { _fun0036_ip = 553; continue _fun0036 }
  550:
             var1 = var5;
  553:
-            var5 = var12;
+            var5 = var13;
             if(!var1) { _fun0036_ip = 734; continue _fun0036 }
  562:
-            var1 = var12 < var8;
+            var1 = var13 < var8;
             if(!var1) { _fun0036_ip = 611; continue _fun0036 }
  569:
+            var15 = _closure1_slot1;
+            var16 = _closure1_slot3;
+            var14 = 36;
+            var14 = var16[var14];
+            var14 = var15.bind(var7)(var14);
+            var12 = _closure1_slot54;
+            var12 = var12.bind(var7)();
+            var12 = var12.test;
+            var1 = var14.bind(var7)(var10, var12);
+ 611:
+            var12 = var13;
+            if(!var1) { _fun0036_ip = 645; continue _fun0036 }
+ 617:
+            var14 = var3.push;
+            var1 = _closure1_slot54;
+            var1 = var1.bind(var7)();
+            var1 = var14.bind(var3)(var1);
+            var1 = 1;
+            var12 = var13 + var1;
+ 645:
+            if(!var11) { _fun0036_ip = 652; continue _fun0036 }
+ 648:
+            var11 = var12 < var8;
+ 652:
+            if(!var11) { _fun0036_ip = 697; continue _fun0036 }
+ 655:
             var14 = _closure1_slot1;
             var15 = _closure1_slot3;
             var13 = 36;
             var13 = var15[var13];
             var13 = var14.bind(var7)(var13);
-            var11 = _closure1_slot54;
-            var11 = var11.bind(var7)();
-            var11 = var11.test;
-            var1 = var13.bind(var7)(var10, var11);
- 611:
-            var11 = var12;
-            if(!var1) { _fun0036_ip = 645; continue _fun0036 }
- 617:
-            var13 = var3.push;
-            var1 = _closure1_slot54;
-            var1 = var1.bind(var7)();
-            var1 = var13.bind(var3)(var1);
-            var1 = 1;
-            var11 = var12 + var1;
- 645:
-            if(!var9) { _fun0036_ip = 652; continue _fun0036 }
- 648:
-            var9 = var11 < var8;
- 652:
-            if(!var9) { _fun0036_ip = 697; continue _fun0036 }
- 655:
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot3;
-            var12 = 36;
-            var12 = var14[var12];
-            var12 = var13.bind(var7)(var12);
             var1 = _closure1_slot55;
             var1 = var1.bind(var7)();
             var1 = var1.test;
-            var9 = var12.bind(var7)(var10, var1);
+            var11 = var13.bind(var7)(var10, var1);
  697:
-            var1 = var11;
-            if(!var9) { _fun0036_ip = 731; continue _fun0036 }
+            var1 = var12;
+            if(!var11) { _fun0036_ip = 731; continue _fun0036 }
  703:
-            var12 = var3.push;
-            var9 = _closure1_slot55;
-            var9 = var9.bind(var7)();
-            var9 = var12.bind(var3)(var9);
-            var9 = 1;
-            var1 = var11 + var9;
+            var13 = var3.push;
+            var11 = _closure1_slot55;
+            var11 = var11.bind(var7)();
+            var11 = var13.bind(var3)(var11);
+            var11 = 1;
+            var1 = var12 + var11;
  731:
             var5 = var1;
  734:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot3;
-            var9 = 50;
-            var9 = var12[var9];
-            var9 = var11.bind(var7)(var9);
-            var12 = var9.GameMentionsGuildExperiment;
-            var11 = var12.getCurrentConfig;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot3;
+            var11 = 50;
+            var11 = var13[var11];
+            var11 = var12.bind(var7)(var11);
+            var13 = var11.GameMentionsGuildExperiment;
+            var12 = var13.getCurrentConfig;
+            var11 = {};
+            var9 = var9.guild_id;
+            var11['guildId'] = var9;
+            var9 = 'mention autocomplete';
+            var11['location'] = var9;
             var9 = {};
-            var6 = var6.guild_id;
-            var9['guildId'] = var6;
-            var6 = 'mention autocomplete';
-            var9['location'] = var6;
-            var6 = {};
-            var13 = true;
-            var6['autoTrackExposure'] = var13;
-            var6 = var11.bind(var12)(var9, var6);
-            var6 = var6.enabled;
-            if(!var6) { _fun0036_ip = 823; continue _fun0036 }
+            var14 = true;
+            var9['autoTrackExposure'] = var14;
+            var9 = var12.bind(var13)(var11, var9);
+            var9 = var9.enabled;
+            if(!var6) { _fun0036_ip = 816; continue _fun0036 }
  813:
+            var6 = var9;
+ 816:
+            if(!var6) { _fun0036_ip = 829; continue _fun0036 }
+ 819:
             var11 = _closure1_slot56;
             var9 = null;
             var6 = var9 != var11;
- 823:
-            if(!var6) { _fun0036_ip = 830; continue _fun0036 }
- 826:
+ 829:
+            if(!var6) { _fun0036_ip = 836; continue _fun0036 }
+ 832:
             var6 = var5 < var8;
- 830:
-            if(!var6) { _fun0036_ip = 872; continue _fun0036 }
- 833:
+ 836:
+            if(!var6) { _fun0036_ip = 878; continue _fun0036 }
+ 839:
             var9 = _closure1_slot1;
             var11 = _closure1_slot3;
             var8 = 36;
@@ -4007,16 +4011,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var7)();
             var8 = var8.test;
             var6 = var9.bind(var7)(var10, var8);
- 872:
-            if(!var6) { _fun0036_ip = 900; continue _fun0036 }
- 875:
+ 878:
+            if(!var6) { _fun0036_ip = 906; continue _fun0036 }
+ 881:
             var6 = var3.push;
             var1 = _closure1_slot56;
             var1 = var1.bind(var7)();
             var1 = var6.bind(var3)(var1);
             var1 = 1;
             var1 = var5 + var1;
- 900:
+ 906:
             var1 = {};
             var1['users'] = var4;
             var1['globals'] = var3;

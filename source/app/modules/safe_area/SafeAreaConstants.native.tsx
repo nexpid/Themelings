@@ -22,23 +22,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = null;
         var6 = var9 != var4;
         var4 = undefined;
-        if(!var6) { _fun0001_ip = 100; continue _fun0001 }
- 85:
+        if(!var6) { _fun0001_ip = 96; continue _fun0001 }
+ 81:
         var2 = var8[var2];
         var2 = var7.bind(var1)(var2);
         var4 = var2.initialWindowMetrics;
- 100:
+ 96:
         var2 = var9 == var4;
         var6 = undefined;
-        if(var2) { _fun0001_ip = 115; continue _fun0001 }
- 109:
+        if(var2) { _fun0001_ip = 111; continue _fun0001 }
+ 105:
         var6 = var4.insets;
- 115:
+ 111:
         var2 = var5;
-        if(!(var9 != var6)) { _fun0001_ip = 125; continue _fun0001 }
- 122:
+        if(!(var9 != var6)) { _fun0001_ip = 121; continue _fun0001 }
+ 118:
         var2 = var6;
- 125:
+ 121:
         var6 = 1;
         var6 = var8[var6];
         var8 = var7.bind(var1)(var6);

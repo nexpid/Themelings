@@ -212,12 +212,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var2.lastFetchAttemptedAt;
                             var3 = var3 - var2;
                             var2 = _closure1_slot9;
-                            if(!(var3 > var2)) { _fun0003_ip = 59; continue _fun0003 }
+                            if(!(var3 > var2)) { _fun0003_ip = 66; continue _fun0003 }
  45:
-                            var2 = _closure3_slot0;
-                            var1 = var2._fetch;
-                            var1 = var1.bind(var2)();
- 59:
+                            var3 = _closure3_slot0;
+                            var2 = var3._fetch;
+                            var1 = 'post_connect_recurring';
+                            var1 = var2.bind(var3)(var1);
+ 66:
                             var1 = undefined;
                             return var1;
                         }
@@ -246,7 +247,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var3 - var2;
                             var3 = _closure1_slot7;
                             var3 = var3.lastFetchedCurrentQuests;
-                            if(!(!(var4 < var3))) { _fun0004_ip = 88; continue _fun0004 }
+                            if(!(!(var4 < var3))) { _fun0004_ip = 95; continue _fun0004 }
  45:
                             var1 = _closure4_slot0;
                             if(var1) { _fun0004_ip = 68; continue _fun0004 }
@@ -256,12 +257,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = 0;
                             var1 = var2 === var3;
  68:
-                            if(!var1) { _fun0004_ip = 88; continue _fun0004 }
+                            if(!var1) { _fun0004_ip = 95; continue _fun0004 }
  71:
-                            var2 = _closure3_slot0;
-                            var1 = var2._fetch;
-                            var1 = var1.bind(var2)();
- 88:
+                            var3 = _closure3_slot0;
+                            var2 = var3._fetch;
+                            var1 = 'post_connect_initial';
+                            var1 = var2.bind(var3)(var1);
+ 95:
                             var1 = undefined;
                             return var1;
                         }
@@ -307,17 +309,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = _closure1_slot12;
                         var1 = var3 <= var2;
  98:
-                        if(var1) { _fun0005_ip = 141; continue _fun0005 }
+                        if(var1) { _fun0005_ip = 146; continue _fun0005 }
  101:
-                        var2 = _closure3_slot0;
+                        var3 = _closure3_slot0;
                         var1 = global;
-                        var3 = var1.Date;
-                        var1 = var3.now;
-                        var1 = var1.bind(var3)();
-                        var2['lastFetchedQuestForLocaleChangeAt'] = var1;
-                        var1 = var2._fetch;
+                        var2 = var1.Date;
+                        var1 = var2.now;
                         var1 = var1.bind(var2)();
- 141:
+                        var3['lastFetchedQuestForLocaleChangeAt'] = var1;
+                        var2 = var3._fetch;
+                        var1 = 'user_settings';
+                        var1 = var2.bind(var3)(var1);
+ 146:
                         var1 = undefined;
                         return var1;
                     }
@@ -365,7 +368,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var6 = '_fetch';
         var5['key'] = var6;
-        var1 = function value() {
+        var1 = function value(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var4 = _closure1_slot0;
@@ -386,25 +389,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.isFetchingCurrentQuests;
                 var3 = !var4;
  68:
-                if(!var3) { _fun0006_ip = 145; continue _fun0006 }
+                if(!var3) { _fun0006_ip = 149; continue _fun0006 }
  71:
-                var5 = _closure1_slot0;
+                var3 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var2 = 10;
-                var3 = var6[var2];
-                var4 = var5.bind(var1)(var3);
-                var3 = var4.fetchCurrentQuests;
-                var3 = var3.bind(var4)();
+                var4 = var6[var2];
+                var5 = var3.bind(var1)(var4);
+                var4 = var5.fetchCurrentQuests;
+                var4 = var4.bind(var5)();
                 var2 = var6[var2];
-                var4 = var5.bind(var1)(var2);
-                var3 = var4.fetchQuestToDeliver;
+                var5 = var3.bind(var1)(var2);
+                var4 = var5.fetchQuestToDeliver;
                 var2 = 11;
                 var2 = var6[var2];
-                var2 = var5.bind(var1)(var2);
+                var2 = var3.bind(var1)(var2);
                 var2 = var2.QuestPlacement;
-                var2 = var2.MOBILE_HOME_DOCK_AREA;
-                var2 = var3.bind(var4)(var2);
- 145:
+                var3 = var2.MOBILE_HOME_DOCK_AREA;
+                var2 = arg1;
+                var2 = var4.bind(var5)(var3, var2);
+ 149:
                 return var1;
             }
         };

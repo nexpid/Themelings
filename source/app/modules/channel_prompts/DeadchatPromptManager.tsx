@@ -412,8 +412,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.done;
                         var5 = 9;
                         var4 = 'manager';
-                        if(var2) { _fun0008_ip = 111; continue _fun0008 }
- 47:
+                        if(var2) { _fun0008_ip = 113; continue _fun0008 }
+ 49:
                         var10 = var3.value;
                         var8 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -428,8 +428,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = var6.bind(var1)();
                         var2 = var8.done;
                         var3 = var8;
-                        if(!var2) { _fun0008_ip = 47; continue _fun0008 }
- 111:
+                        if(!var2) { _fun0008_ip = 49; continue _fun0008 }
+ 113:
                         return var1;
                     }
                 };

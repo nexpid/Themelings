@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var5 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 339; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 335; continue _fun0002 }
  13:
                     var6 = var5;
                     var4 = undefined;
@@ -107,13 +107,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10['enabled'] = var11;
                     var2['automaticGainControlConfig'] = var10;
                     var2 = var8.bind(var9)(var2);
-                    SaveGenerator(address=193);
- 191:
+                    SaveGenerator(address=189);
+ 187:
                     return var2;
- 193:
+ 189:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(var8) { _fun0002_ip = 324; continue _fun0002 }
- 202:
+                    if(var8) { _fun0002_ip = 320; continue _fun0002 }
+ 198:
                     var9 = var5.performance;
                     var8 = var9.now;
                     var8 = var8.bind(var9)();
@@ -128,8 +128,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.getState;
                     var7 = var7.bind(var8)();
                     var7 = var7.recordingId;
-                    if(!(var7 === var6)) { _fun0002_ip = 321; continue _fun0002 }
- 275:
+                    if(!(var7 === var6)) { _fun0002_ip = 317; continue _fun0002 }
+ 271:
                     var7 = _closure1_slot9;
                     var6 = _closure1_slot12;
                     var6 = var6.STARTED;
@@ -139,18 +139,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var7.now;
                     var5 = var5.bind(var7)();
                     var5 = var6.bind(var4)(var5);
- 318: // try_end0
+ 314: // try_end0
                     return var4;
- 321:
+ 317:
                     return var4;
- 324:
+ 320:
                     return var2;
- 327: // catch_target0
+ 323: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var3 = _closure1_slot24;
                     var3 = var3.bind(var4)();
                     throw var2;
- 339:
+ 335:
                     return var1;
                 }
             };

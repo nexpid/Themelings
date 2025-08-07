@@ -131,7 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var3.platform;
                 var5 = _closure1_slot9;
                 var5 = var5.REACT_NATIVE;
-                if(!(var6 !== var5)) { _fun0002_ip = 312; continue _fun0002 }
+                if(!(var6 !== var5)) { _fun0002_ip = 324; continue _fun0002 }
  138:
                 var5 = var3.id;
                 var6 = null;
@@ -170,14 +170,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var3.file;
                 var5 = var5.type;
                 var1['mimeType'] = var5;
-                _fun0002_ip = 496; continue _fun0002;
- 312:
+                var5 = var3.origin;
+                var1['origin'] = var5;
+                _fun0002_ip = 508; continue _fun0002;
+ 324:
                 var5 = var3.id;
                 var6 = null;
-                if(!(var6 == var5)) { _fun0002_ip = 329; continue _fun0002 }
- 323:
+                if(!(var6 == var5)) { _fun0002_ip = 341; continue _fun0002 }
+ 335:
                 var5 = var3.uri;
- 329:
+ 341:
                 var1['id'] = var5;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot3;
@@ -209,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['waveform'] = var5;
                 var5 = var3.isRemix;
                 var1['isRemix'] = var5;
- 496:
+ 508:
                 var5 = var3.isThumbnail;
                 var1['isThumbnail'] = var5;
                 var3 = var3.clip;

@@ -3034,7 +3034,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var4 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0030_ip = 724; continue _fun0030 }
+                    if(var2) { _fun0030_ip = 742; continue _fun0030 }
  13:
                     var2 = undefined;
                     var16 = undefined;
@@ -3054,7 +3054,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.bind(var9)(var6);
                     var16 = var6;
                     var6 = var6.enabled;
-                    if(!var6) { _fun0030_ip = 721; continue _fun0030 }
+                    if(!var6) { _fun0030_ip = 739; continue _fun0030 }
  85:
                     var6 = var4.item;
                     var6 = var6.file;
@@ -3071,10 +3071,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = ': no file';
                     var6 = var12.bind(var11)(var15, var6);
                     var6 = var7.bind(var9)(var6);
-                    _fun0030_ip = 721; continue _fun0030;
+                    _fun0030_ip = 739; continue _fun0030;
  157:
                     var6 = var4._aborted;
-                    if(var6) { _fun0030_ip = 721; continue _fun0030 }
+                    if(var6) { _fun0030_ip = 739; continue _fun0030 }
  169:
                     var7 = global;
                     var9 = var7.performance;
@@ -3102,11 +3102,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var6;
  265:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
-                    if(var9) { _fun0030_ip = 598; continue _fun0030 }
+                    if(var9) { _fun0030_ip = 616; continue _fun0030 }
  274:
                     var8 = var6;
                     var9 = var4._aborted;
-                    if(var9) { _fun0030_ip = 595; continue _fun0030 }
+                    if(var9) { _fun0030_ip = 613; continue _fun0030 }
  289:
                     var9 = var8;
                     var11 = var9.length;
@@ -3145,7 +3145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = ': ';
                     var10 = var15.bind(var14)(var16, var10, var17);
                     var10 = var11.bind(var13)(var10);
-                    _fun0030_ip = 593; continue _fun0030;
+                    _fun0030_ip = 611; continue _fun0030;
  428:
                     var8 = var8[var9];
                     var10 = var4.item;
@@ -3160,6 +3160,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var9.file;
                     var9 = var9.size;
                     var4['currentSize'] = var9;
+                    var10 = var4.uploadAnalytics;
+                    var9 = 'image/webp';
+                    var10['convertedMimeType'] = var9;
                     var10 = _closure1_slot16;
                     var9 = var10.log;
                     var19 = var4.id;
@@ -3179,13 +3182,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var27 = var19;
                     var8 = var28[var15](var27, var26, var25, var24, var23, var22, var21, var20, var19);
                     var8 = var9.bind(var10)(var8);
- 593: // try_end0
-                    _fun0030_ip = 668; continue _fun0030;
- 595:
+ 611: // try_end0
+                    _fun0030_ip = 686; continue _fun0030;
+ 613:
                     return var2;
- 598:
+ 616:
                     return var6;
- 601: // catch_target0
+ 619: // catch_target0
                     CatchBlockStart(arg_register=8);
                     var8 = var4.uploadAnalytics;
                     var6 = 'unknown_error';
@@ -3199,7 +3202,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = ':';
                     var5 = var11.bind(var10)(var12, var5);
                     var5 = var6.bind(var8)(var5, var9);
- 668:
+ 686:
                     var4 = var4.uploadAnalytics;
                     var4 = var4.timing;
                     var6 = var7.Math;
@@ -3210,9 +3213,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var7 - var3;
                     var3 = var5.bind(var6)(var3);
                     var4['compressTimeMs'] = var3;
- 721:
+ 739:
                     return var2;
- 724:
+ 742:
                     return var1;
                 }
             };
@@ -3612,8 +3615,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var7 = this;
                 var1 = var7.startTime;
-                var10 = null;
-                var1 = var10 != var1;
+                var9 = null;
+                var1 = var9 != var1;
                 var8 = -1;
                 if(!var1) { _fun0036_ip = 51; continue _fun0036 }
  24:
@@ -3642,74 +3645,80 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = arg1;
                 var2['final_state'] = var8;
                 var11 = var7.mimeType;
-                var12 = var10 != var11;
+                var12 = var9 != var11;
                 var8 = 'unknown';
-                var9 = var8;
+                var10 = var8;
                 if(!var12) { _fun0036_ip = 155; continue _fun0036 }
  152:
-                var9 = var11;
+                var10 = var11;
  155:
-                var2['mime_type'] = var9;
-                var9 = var7.uploadAnalytics;
-                var11 = var9.numUploadAttempts;
-                var12 = var10 != var11;
-                var9 = 1;
+                var2['mime_type'] = var10;
+                var10 = var7.uploadAnalytics;
+                var11 = var10.numUploadAttempts;
+                var12 = var9 != var11;
+                var10 = 1;
                 if(!var12) { _fun0036_ip = 185; continue _fun0036 }
  182:
-                var9 = var11;
+                var10 = var11;
  185:
-                var2['num_upload_attempts'] = var9;
-                var9 = var7.error;
-                var2['error_code'] = var9;
-                var9 = _closure1_slot12;
-                var11 = var9.videoUploadQuality;
+                var2['num_upload_attempts'] = var10;
+                var10 = var7.error;
+                var2['error_code'] = var10;
+                var10 = _closure1_slot12;
+                var11 = var10.videoUploadQuality;
                 var2['video_upload_quality'] = var11;
-                var11 = var9.dataSavingMode;
+                var11 = var10.dataSavingMode;
                 var2['data_saving_mode'] = var11;
-                var9 = var9.dataSavingMode;
-                var2['low_quality_image_mode'] = var9;
-                var9 = var7.uploadAnalytics;
-                var9 = var9.timing;
-                var9 = var9.compressTimeMs;
-                var2['compress_time_ms'] = var9;
-                var9 = var7.uploadAnalytics;
-                var9 = var9.timing;
-                var9 = var9.getUploadUrlTimeMs;
-                var2['get_upload_url_time_ms'] = var9;
-                var9 = var7.uploadAnalytics;
-                var9 = var9.timing;
-                var9 = var9.uploadTimeMs;
-                var2['upload_time_ms'] = var9;
-                var9 = var7.uploadAnalytics;
-                var11 = var9.convertedMimeType;
-                var12 = var10 != var11;
-                var9 = var8;
+                var10 = var10.dataSavingMode;
+                var2['low_quality_image_mode'] = var10;
+                var10 = var7.uploadAnalytics;
+                var10 = var10.timing;
+                var10 = var10.compressTimeMs;
+                var2['compress_time_ms'] = var10;
+                var10 = var7.uploadAnalytics;
+                var10 = var10.timing;
+                var10 = var10.getUploadUrlTimeMs;
+                var2['get_upload_url_time_ms'] = var10;
+                var10 = var7.uploadAnalytics;
+                var10 = var10.timing;
+                var10 = var10.uploadTimeMs;
+                var2['upload_time_ms'] = var10;
+                var10 = var7.uploadAnalytics;
+                var11 = var10.convertedMimeType;
+                var12 = var9 != var11;
+                var10 = var8;
                 if(!var12) { _fun0036_ip = 343; continue _fun0036 }
  340:
-                var9 = var11;
+                var10 = var11;
  343:
-                var2['converted_mime_type'] = var9;
-                var9 = var7.uploadAnalytics;
-                var11 = var9.imageCompressionQuality;
-                var12 = var10 != var11;
-                var9 = 0;
+                var2['converted_mime_type'] = var10;
+                var10 = var7.uploadAnalytics;
+                var11 = var10.imageCompressionQuality;
+                var12 = var9 != var11;
+                var10 = 0;
                 if(!var12) { _fun0036_ip = 374; continue _fun0036 }
  371:
-                var9 = var11;
+                var10 = var11;
  374:
-                var2['image_compression_quality'] = var9;
-                var9 = var7.uploadAnalytics;
-                var9 = var9.videoCompressionQuality;
-                var10 = var10 != var9;
-                if(!var10) { _fun0036_ip = 401; continue _fun0036 }
+                var2['image_compression_quality'] = var10;
+                var10 = var7.uploadAnalytics;
+                var10 = var10.videoCompressionQuality;
+                var11 = var9 != var10;
+                if(!var11) { _fun0036_ip = 401; continue _fun0036 }
  398:
-                var8 = var9;
+                var8 = var10;
  401:
                 var2['video_compression_quality'] = var8;
-                var9 = var7.mimeType;
                 var8 = var7.uploadAnalytics;
                 var8 = var8.convertedMimeType;
-                var8 = var9 !== var8;
+                var8 = var9 != var8;
+                if(!var8) { _fun0036_ip = 449; continue _fun0036 }
+ 427:
+                var10 = var7.mimeType;
+                var9 = var7.uploadAnalytics;
+                var9 = var9.convertedMimeType;
+                var8 = var10 !== var9;
+ 449:
                 var2['was_converted'] = var8;
                 var9 = var7.currentSize;
                 var8 = var7.preCompressionSize;

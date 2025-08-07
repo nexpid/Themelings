@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 158; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 154; continue _fun0001 }
  10:
                     var5 = _closure1_slot3;
                     var4 = var5.APPLICATION_DISCLOSURES;
@@ -32,13 +32,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = {'url': null, 'retries': 3, 'rejectWithError': false};
                     var2['url'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=92);
- 90:
+                    SaveGenerator(address=88);
+ 86:
                     return var2;
- 92:
+ 88:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 155; continue _fun0001 }
- 98:
+                    if(var3) { _fun0001_ip = 151; continue _fun0001 }
+ 94:
                     var3 = {};
                     var4 = var2.body;
                     var4 = var4.disclosures;
@@ -50,9 +50,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.all_acked;
                     var3['allAcked'] = var4;
                     return var3;
- 155:
+ 151:
                     return var2;
- 158:
+ 154:
                     return var1;
                 }
             };

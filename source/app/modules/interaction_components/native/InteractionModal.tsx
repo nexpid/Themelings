@@ -151,12 +151,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = null;
             var12 = var22 != var29;
             var19 = null;
-            if(!var12) { _fun0001_ip = 730; continue _fun0001 }
- 625:
+            if(!var12) { _fun0001_ip = 726; continue _fun0001 }
+ 621:
             var12 = '';
             var19 = null;
-            if(!(var12 !== var29)) { _fun0001_ip = 730; continue _fun0001 }
- 635:
+            if(!(var12 !== var29)) { _fun0001_ip = 726; continue _fun0001 }
+ 631:
             var25 = _closure1_slot6;
             var22 = _closure1_slot3;
             var12 = {};
@@ -179,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var28.bind(var4)(var27, var26);
             var12['children'] = var26;
             var19 = var25.bind(var4)(var22, var12);
- 730:
+ 726:
             var12 = new Array(2);
             var12[0] = var19;
             var27 = _closure1_slot6;

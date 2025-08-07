@@ -9,8 +9,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot2 = var6;
     var1 = function ThreadEmbedWithMessage(arg1) {
         var2 = arg1;
-        var8 = var2.title;
-        var7 = var2.messageCountLabel;
+        var9 = var2.title;
+        var8 = var2.messageCountLabel;
+        var7 = var2.messageCountAccessibilityLabel;
         var5 = var2.message;
         var _closure2_slot0 = var5;
         var4 = _closure1_slot3;
@@ -42,8 +43,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = 'threadEmbed';
         var1['keyPath'] = var6;
         var6 = {};
-        var6['title'] = var8;
-        var6['messageCountLabel'] = var7;
+        var6['title'] = var9;
+        var6['messageCountLabel'] = var8;
+        var6['messageCountAccessibilityLabel'] = var7;
         var1['rowProps'] = var6;
         var7 = _closure1_slot9;
         var5 = var15[var5];
@@ -89,21 +91,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
-            var8 = var2.title;
-            var5 = var2.messageCountLabel;
+            var9 = var2.title;
+            var8 = var2.messageCountLabel;
+            var5 = var2.messageCountAccessibilityLabel;
             var1 = var2.messagePreviewString;
             var7 = var2.archived;
             var4 = _closure1_slot9;
             var3 = _closure1_slot10;
             var2 = {};
-            var2['title'] = var8;
-            var2['messageCountLabel'] = var5;
+            var2['title'] = var9;
+            var2['messageCountLabel'] = var8;
+            var2['messageCountAccessibilityLabel'] = var5;
             var2['messagePreviewString'] = var1;
             var2['archived'] = var7;
             var1 = undefined;
             var5 = undefined;
-            if(!var7) { _fun0001_ip = 112; continue _fun0001 }
- 65:
+            if(!var7) { _fun0001_ip = 123; continue _fun0001 }
+ 76:
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
             var7 = 8;
@@ -115,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var10[var6];
             var6 = var9.bind(var1)(var6);
             var5 = var7.bind(var8)(var6);
- 112:
+ 123:
             var2['archivedIconUrl'] = var5;
             var1 = var4.bind(var1)(var3, var2);
             return var1;
@@ -130,12 +134,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var11;
             var3 = var2.channel;
             var6 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var9 = _closure1_slot2;
             var2 = 10;
-            var2 = var8[var2];
+            var2 = var9[var2];
             var4 = undefined;
             var10 = var6.bind(var4)(var2);
-            var9 = var10.useStateFromStoresObject;
+            var8 = var10.useStateFromStoresObject;
             var2 = _closure1_slot4;
             var7 = new Array(1);
             var7[0] = var2;
@@ -166,146 +170,156 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['messageCount'] = var2;
                 return var1;
             };
-            var2 = var9.bind(var10)(var7, var1, var2);
+            var2 = var8.bind(var10)(var7, var1, var2);
             var1 = var2.mostRecentMessage;
-            var9 = var2.messageCount;
-            var7 = var3.name;
+            var10 = var2.messageCount;
+            var8 = var3.name;
             var2 = 12;
-            var2 = var8[var2];
-            var8 = var6.bind(var4)(var2);
-            var6 = var8.formatMobileMessageCountLabel;
+            var7 = var9[var2];
+            var12 = var6.bind(var4)(var7);
+            var11 = var12.formatMobileMessageCountLabel;
+            var7 = var3.id;
+            var7 = var11.bind(var12)(var10, var7);
+            var2 = var9[var2];
+            var9 = var6.bind(var4)(var2);
+            var6 = var9.formatMessageCountLabel;
             var2 = var3.id;
-            var6 = var6.bind(var8)(var9, var2);
+            var6 = var6.bind(var9)(var10, var2);
             var2 = null;
-            if(!(var2 != var9)) { _fun0002_ip = 140; continue _fun0002 }
- 134:
-            var8 = 0;
-            if(!(!(var9 > var8))) { _fun0002_ip = 234; continue _fun0002 }
- 140:
-            var10 = _closure1_slot9;
-            var9 = _closure1_slot12;
-            var8 = {};
-            var8['title'] = var7;
-            var8['messageCountLabel'] = var6;
-            var14 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var11 = 13;
-            var12 = var15[var11];
-            var12 = var14.bind(var4)(var12);
-            var13 = var12.intl;
-            var12 = var13.string;
-            var11 = var15[var11];
-            var11 = var14.bind(var4)(var11);
-            var11 = var11.t;
-            var11 = var11.HYtNyM;
-            var11 = var12.bind(var13)(var11);
-            var8['messagePreviewString'] = var11;
-            var11 = false;
-            var8['archived'] = var11;
-            var8 = var10.bind(var4)(var9, var8);
-            return var8;
- 234:
+            if(!(var2 != var10)) { _fun0002_ip = 166; continue _fun0002 }
+ 160:
+            var9 = 0;
+            if(!(!(var10 > var9))) { _fun0002_ip = 265; continue _fun0002 }
+ 166:
+            var11 = _closure1_slot9;
+            var10 = _closure1_slot12;
+            var9 = {};
+            var9['title'] = var8;
+            var9['messageCountLabel'] = var7;
+            var9['messageCountAccessibilityLabel'] = var6;
+            var15 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var12 = 13;
+            var13 = var16[var12];
+            var13 = var15.bind(var4)(var13);
+            var14 = var13.intl;
+            var13 = var14.string;
+            var12 = var16[var12];
+            var12 = var15.bind(var4)(var12);
+            var12 = var12.t;
+            var12 = var12.HYtNyM;
+            var12 = var13.bind(var14)(var12);
+            var9['messagePreviewString'] = var12;
+            var12 = false;
+            var9['archived'] = var12;
+            var9 = var11.bind(var4)(var10, var9);
+            return var9;
+ 265:
             var3 = var3.threadMetadata;
-            if(!(var2 != var3)) { _fun0002_ip = 256; continue _fun0002 }
- 244:
+            if(!(var2 != var3)) { _fun0002_ip = 287; continue _fun0002 }
+ 275:
             var3 = var3.archived;
-            if(var3) { _fun0002_ip = 607; continue _fun0002 }
- 256:
-            if(!(var2 != var1)) { _fun0002_ip = 513; continue _fun0002 }
- 263:
+            if(var3) { _fun0002_ip = 653; continue _fun0002 }
+ 287:
+            if(!(var2 != var1)) { _fun0002_ip = 554; continue _fun0002 }
+ 294:
             var3 = var1.type;
-            var8 = _closure1_slot0;
+            var9 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var9 = 14;
-            var2 = var2[var9];
-            var2 = var8.bind(var4)(var2);
+            var10 = 14;
+            var2 = var2[var10];
+            var2 = var9.bind(var4)(var2);
             var2 = var2.MessageTypes;
             var2 = var2.CHANNEL_NAME_CHANGE;
-            if(!(var3 !== var2)) { _fun0002_ip = 513; continue _fun0002 }
- 307:
+            if(!(var3 !== var2)) { _fun0002_ip = 554; continue _fun0002 }
+ 338:
             var3 = var1.type;
-            var8 = _closure1_slot0;
+            var9 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var2 = var2[var9];
-            var2 = var8.bind(var4)(var2);
+            var2 = var2[var10];
+            var2 = var9.bind(var4)(var2);
             var2 = var2.MessageTypes;
             var2 = var2.THREAD_STARTER_MESSAGE;
-            if(!(var3 !== var2)) { _fun0002_ip = 513; continue _fun0002 }
- 348:
+            if(!(var3 !== var2)) { _fun0002_ip = 554; continue _fun0002 }
+ 379:
             var2 = var1.blocked;
-            if(var2) { _fun0002_ip = 397; continue _fun0002 }
- 357:
+            if(var2) { _fun0002_ip = 433; continue _fun0002 }
+ 388:
             var2 = var1.ignored;
-            if(var2) { _fun0002_ip = 397; continue _fun0002 }
- 366:
-            var8 = _closure1_slot9;
+            if(var2) { _fun0002_ip = 433; continue _fun0002 }
+ 397:
+            var9 = _closure1_slot9;
             var3 = _closure1_slot11;
             var2 = {};
-            var2['title'] = var7;
-            var2['messageCountLabel'] = var6;
+            var2['title'] = var8;
+            var2['messageCountLabel'] = var7;
+            var2['messageCountAccessibilityLabel'] = var6;
             var2['message'] = var1;
-            var2 = var8.bind(var4)(var3, var2);
+            var2 = var9.bind(var4)(var3, var2);
             return var2;
- 397:
-            var8 = var1.blocked;
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
+ 433:
+            var9 = var1.blocked;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var1 = 13;
-            var2 = var10[var1];
-            var2 = var9.bind(var4)(var2);
+            var2 = var11[var1];
+            var2 = var10.bind(var4)(var2);
             var3 = var2.intl;
             var2 = var3.string;
-            var1 = var10[var1];
-            var1 = var9.bind(var4)(var1);
+            var1 = var11[var1];
+            var1 = var10.bind(var4)(var1);
             var1 = var1.t;
-            if(var8) { _fun0002_ip = 463; continue _fun0002 }
- 450:
-            var8 = var1.G7p6v7;
-            var8 = var2.bind(var3)(var8);
-            _fun0002_ip = 474; continue _fun0002;
- 463:
+            if(var9) { _fun0002_ip = 499; continue _fun0002 }
+ 486:
+            var9 = var1.G7p6v7;
+            var9 = var2.bind(var3)(var9);
+            _fun0002_ip = 510; continue _fun0002;
+ 499:
             var1 = var1.XAkOo6;
-            var8 = var2.bind(var3)(var1);
- 474:
+            var9 = var2.bind(var3)(var1);
+ 510:
             var3 = _closure1_slot9;
             var2 = _closure1_slot12;
             var1 = {};
-            var1['title'] = var7;
-            var1['messageCountLabel'] = var6;
-            var1['messagePreviewString'] = var8;
-            var8 = false;
-            var1['archived'] = var8;
+            var1['title'] = var8;
+            var1['messageCountLabel'] = var7;
+            var1['messageCountAccessibilityLabel'] = var6;
+            var1['messagePreviewString'] = var9;
+            var9 = false;
+            var1['archived'] = var9;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 513:
+ 554:
             var3 = _closure1_slot9;
             var2 = _closure1_slot12;
             var1 = {};
-            var1['title'] = var7;
-            var1['messageCountLabel'] = var6;
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var8 = 13;
-            var9 = var12[var8];
-            var9 = var11.bind(var4)(var9);
-            var10 = var9.intl;
-            var9 = var10.string;
-            var8 = var12[var8];
-            var8 = var11.bind(var4)(var8);
-            var8 = var8.t;
-            var8 = var8.ZTo4HR;
-            var8 = var9.bind(var10)(var8);
-            var1['messagePreviewString'] = var8;
-            var8 = false;
-            var1['archived'] = var8;
+            var1['title'] = var8;
+            var1['messageCountLabel'] = var7;
+            var1['messageCountAccessibilityLabel'] = var6;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var9 = 13;
+            var10 = var13[var9];
+            var10 = var12.bind(var4)(var10);
+            var11 = var10.intl;
+            var10 = var11.string;
+            var9 = var13[var9];
+            var9 = var12.bind(var4)(var9);
+            var9 = var9.t;
+            var9 = var9.ZTo4HR;
+            var9 = var10.bind(var11)(var9);
+            var1['messagePreviewString'] = var9;
+            var9 = false;
+            var1['archived'] = var9;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 607:
+ 653:
             var3 = _closure1_slot9;
             var2 = _closure1_slot12;
             var1 = {};
-            var1['title'] = var7;
-            var1['messageCountLabel'] = var6;
+            var1['title'] = var8;
+            var1['messageCountLabel'] = var7;
+            var1['messageCountAccessibilityLabel'] = var6;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var5 = 13;

@@ -189,8 +189,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_PAYMENT_ERROR_CLEAR'] = var9;
     var9 = function handlePayPalTokenizeFailure(arg1) {
         var1 = arg1;
-        var6 = var1.message;
-        var7 = var1.code;
+        var5 = var1.message;
         var4 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 5;
@@ -200,9 +199,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.BillingError;
         var4 = var2.prototype;
         var4 = Object.create(var4, {constructor: {value: var2}});
-        var9 = var4;
-        var8 = var6;
-        var2 = new var9[var2](var8, var7, var6);
+        var7 = var4;
+        var6 = var5;
+        var2 = new var7[var2](var6, var5);
         var2 = var2 instanceof Object ? var2 : var4;
         _closure1_slot7 = var2;
         return var1;
@@ -210,8 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BRAINTREE_TOKENIZE_PAYPAL_FAIL'] = var9;
     var9 = function handleVenmoTokenizeFailure(arg1) {
         var1 = arg1;
-        var6 = var1.message;
-        var7 = var1.code;
+        var5 = var1.message;
         var4 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 5;
@@ -221,9 +219,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.BillingError;
         var4 = var2.prototype;
         var4 = Object.create(var4, {constructor: {value: var2}});
-        var9 = var4;
-        var8 = var6;
-        var2 = new var9[var2](var8, var7, var6);
+        var7 = var4;
+        var6 = var5;
+        var2 = new var7[var2](var6, var5);
         var2 = var2 instanceof Object ? var2 : var4;
         _closure1_slot7 = var2;
         return var1;
