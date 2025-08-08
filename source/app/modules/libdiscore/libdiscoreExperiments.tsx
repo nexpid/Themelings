@@ -1,12 +1,12 @@
 // app/modules/libdiscore/libdiscoreExperiments.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var8 = require;
+    var9 = require;
     var6 = metroImportDefault;
     var3 = exports;
-    var9 = dependencyMap;
-    var _closure1_slot0 = var8;
+    var10 = dependencyMap;
+    var _closure1_slot0 = var9;
     var _closure1_slot1 = var6;
-    var _closure1_slot2 = var9;
+    var _closure1_slot2 = var10;
     var1 = function _callSuper(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg2;
             var9 = var2.bind(var3)(var1);
             var2 = _closure1_slot3;
-            var1 = _closure1_slot11;
+            var1 = _closure1_slot12;
             var1 = var1.bind(var3)();
             if(var1) { _fun0001_ip = 51; continue _fun0001 }
  38:
@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = function _isNativeReflectConstruct() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -74,48 +74,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot11 = var2;
+            _closure1_slot12 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var4 = global;
-    var10 = var4.Object;
-    var7 = var10.defineProperty;
+    var8 = var4.Object;
+    var7 = var8.defineProperty;
     var5 = {};
     var1 = true;
     var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var10)(var3, var1, var5);
+    var1 = var7.bind(var8)(var3, var1, var5);
     var1 = 0;
-    var5 = var9[var1];
+    var5 = var10[var1];
     var1 = undefined;
     var5 = var6.bind(var1)(var5);
     var _closure1_slot3 = var5;
     var5 = 1;
-    var5 = var9[var5];
+    var5 = var10[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot4 = var5;
     var5 = 2;
-    var5 = var9[var5];
+    var5 = var10[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot5 = var5;
     var5 = 3;
-    var5 = var9[var5];
+    var5 = var10[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot6 = var5;
     var5 = 4;
-    var5 = var9[var5];
+    var5 = var10[var5];
     var5 = var6.bind(var1)(var5);
     var _closure1_slot7 = var5;
-    var6 = new Array(0);
-    var _closure1_slot8 = var6;
+    var5 = 5;
+    var5 = var10[var5];
+    var5 = var9.bind(var1)(var5);
+    var5 = var5.ensureValidMode;
+    var _closure1_slot8 = var5;
+    var7 = new Array(0);
+    var _closure1_slot9 = var7;
     var5 = var4.Symbol;
     var4 = 'unknown';
     var4 = var5.bind(var1)(var4);
-    var _closure1_slot9 = var4;
+    var _closure1_slot10 = var4;
     var4 = function() {
         var4 = _closure1_slot7;
         var3 = function LibdiscoreCachedExperiment(arg1) {
@@ -128,9 +133,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['id'] = var3;
             var3 = null;
             var4['inner'] = var3;
-            var3 = _closure1_slot9;
+            var3 = _closure1_slot10;
             var4['cachedConfig'] = var3;
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot9;
             var2 = var3.push;
             var2 = var2.bind(var3)(var4);
             return var1;
@@ -178,12 +183,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var1 = this;
                 var4 = var1.cachedConfig;
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot10;
                 if(!(var4 === var3)) { _fun0004_ip = 112; continue _fun0004 }
  20:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var5 = 5;
+                var5 = 6;
                 var3 = var3[var5];
                 var4 = undefined;
                 var6 = var6.bind(var4)(var3);
@@ -230,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = this;
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var2 = 6;
+            var2 = 7;
             var2 = var4[var2];
             var5 = undefined;
             var4 = var3.bind(var5)(var2);
@@ -255,20 +260,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var4.bind(var1)();
     var5 = function(arg1) {
-        var4 = function LibdiscoreCachedKvStoreExperiment(arg1, arg2) {
-            var5 = this;
-            var2 = _closure1_slot6;
-            var4 = _closure2_slot0;
-            var3 = undefined;
-            var2 = var2.bind(var3)(var5, var4);
-            var2 = _closure1_slot10;
-            var1 = new Array(1);
-            var6 = arg1;
-            var1[0] = var6;
-            var1 = var2.bind(var3)(var5, var4, var1);
-            var2 = arg2;
-            var1['storeName'] = var2;
-            return var1;
+        var4 = function LibdiscoreBridgedStoreExperiment(arg1, arg2) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+                var2 = arguments[2];
+                var6 = this;
+                var5 = undefined;
+                if(!(var2 === var5)) { _fun0005_ip = 16; continue _fun0005 }
+ 12:
+                var2 = 'Kv';
+ 16:
+                var3 = _closure1_slot6;
+                var4 = _closure2_slot0;
+                var3 = var3.bind(var5)(var6, var4);
+                var3 = _closure1_slot11;
+                var1 = new Array(1);
+                var7 = arg1;
+                var1[0] = var7;
+                var1 = var3.bind(var5)(var6, var4, var1);
+                var3 = arg2;
+                var1['storeName'] = var3;
+                var1['type'] = var2;
+                return var1;
+            }
         };
         var _closure2_slot0 = var4;
         var5 = _closure1_slot5;
@@ -277,40 +291,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot7;
         var5 = {};
-        var1 = 'getCachedKvStoreMode';
+        var1 = 'getCachedBridgedStoreMode';
         var5['key'] = var1;
         var1 = function value() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var2 = this;
                 var1 = var2.getCachedConfig;
-                var3 = var1.bind(var2)();
+                var4 = var1.bind(var2)();
                 var2 = null;
-                var4 = var2 == var3;
+                var5 = var2 == var4;
+                var3 = undefined;
                 var1 = undefined;
-                if(var4) { _fun0005_ip = 30; continue _fun0005 }
- 24:
-                var1 = var3.treatmentId;
- 30:
-                var3 = var2 != var1;
-                var2 = -1;
-                if(!var3) { _fun0005_ip = 46; continue _fun0005 }
- 43:
-                var2 = var1;
- 46:
+                if(var5) { _fun0006_ip = 32; continue _fun0006 }
+ 26:
+                var1 = var4.treatmentId;
+ 32:
+                var2 = var2 != var1;
+                var4 = -1;
+                if(!var2) { _fun0006_ip = 48; continue _fun0006 }
+ 45:
+                var4 = var1;
+ 48:
                 var1 = 1;
-                if(!(var1 !== var2)) { _fun0005_ip = 74; continue _fun0005 }
- 53:
+                if(!(var1 !== var4)) { _fun0006_ip = 74; continue _fun0006 }
+ 55:
+                var2 = 'libdiscore';
                 var1 = 2;
-                if(!(var1 !== var2)) { _fun0005_ip = 66; continue _fun0005 }
- 60:
-                var1 = 'typescript';
-                return var1;
- 66:
-                var1 = 'libdiscore';
-                return var1;
+                if(!(var1 !== var4)) { _fun0006_ip = 80; continue _fun0006 }
+ 68:
+                var2 = 'typescript';
+                _fun0006_ip = 80; continue _fun0006;
  74:
-                var1 = 'typescript-libdiscore-dual-read';
+                var2 = 'typescript-libdiscore-dual-read';
+ 80:
+                var1 = _closure1_slot8;
+                var1 = var1.bind(var3)(var2);
                 return var1;
             }
         };
@@ -321,25 +337,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getEnabledFeatureName';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                 var2 = this;
-                var1 = var2.getCachedKvStoreMode;
-                var7 = var1.bind(var2)();
+                var1 = var2.getCachedBridgedStoreMode;
+                var9 = var1.bind(var2)();
                 var3 = 'typescript';
                 var1 = null;
-                if(!(var3 !== var7)) { _fun0006_ip = 63; continue _fun0006 }
+                if(!(var3 !== var9)) { _fun0007_ip = 72; continue _fun0007 }
  23:
-                var11 = var2.storeName;
+                var15 = var2.type;
+                var13 = var2.storeName;
                 var2 = global;
                 var2 = var2.HermesInternal;
-                var5 = var2.concat;
-                var12 = 'KvStore[';
-                var10 = ',';
-                var8 = ']';
-                var9 = var7;
-                var1 = var12[var5](var11, var10, var9, var8, var7);
- 63:
+                var6 = var2.concat;
+                var16 = '';
+                var14 = 'Store[';
+                var12 = ',';
+                var10 = ']';
+                var11 = var9;
+                var1 = var16[var6](var15, var14, var13, var12, var11, var10, var9);
+ 72:
                 return var1;
             }
         };
@@ -354,8 +372,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = global;
             var1 = var1.HermesInternal;
             var3 = var1.concat;
-            var2 = 'libdiscore KVStore[';
-            var1 = '] Migration';
+            var2 = "libdiscore '";
+            var1 = "' Migration";
             var1 = var3.bind(var2)(var4, var1);
             return var1;
         };
@@ -379,7 +397,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var11 = var5.bind(var1)(var4);
+    var13 = var5.bind(var1)(var4);
     var2 = function(arg1) {
         var4 = function LibdiscoreTelemetryExperiment(arg1) {
             var6 = this;
@@ -390,7 +408,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure2_slot0;
             var4 = undefined;
             var3 = var3.bind(var4)(var6, var5);
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot11;
             var1 = new Array(0);
             var10 = var1;
             var9 = var7;
@@ -439,7 +457,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getMetricsSampleRate';
         var5['key'] = var7;
         var7 = function value() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                 var2 = this;
                 var1 = var2.getCachedConfig;
@@ -447,18 +465,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = null;
                 var2 = var2 == var1;
                 var3 = undefined;
-                if(var2) { _fun0007_ip = 30; continue _fun0007 }
+                if(var2) { _fun0008_ip = 30; continue _fun0008 }
  24:
                 var3 = var1.treatmentId;
  30:
                 var1 = 1;
-                if(!(var1 !== var3)) { _fun0007_ip = 69; continue _fun0007 }
+                if(!(var1 !== var3)) { _fun0008_ip = 69; continue _fun0008 }
  37:
                 var2 = 2;
-                if(!(var2 !== var3)) { _fun0007_ip = 57; continue _fun0007 }
+                if(!(var2 !== var3)) { _fun0008_ip = 57; continue _fun0008 }
  44:
                 var2 = 3;
-                if(!(var2 !== var3)) { _fun0007_ip = 55; continue _fun0007 }
+                if(!(var2 !== var3)) { _fun0008_ip = 55; continue _fun0008 }
  51:
                 var2 = 0;
                 return var2;
@@ -491,24 +509,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'shouldCollectMetrics';
         var5['key'] = var7;
         var6 = function value() {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                 var3 = this;
                 var1 = var3.getMetricsSampleRate;
                 var5 = var1.bind(var3)();
                 var1 = 0;
                 var1 = var1 !== var5;
-                if(!var1) { _fun0008_ip = 84; continue _fun0008 }
+                if(!var1) { _fun0009_ip = 84; continue _fun0009 }
  24:
                 var2 = 1;
                 var2 = var2 === var5;
-                if(var2) { _fun0008_ip = 81; continue _fun0008 }
+                if(var2) { _fun0009_ip = 81; continue _fun0009 }
  34:
                 var4 = var3.emissionsCount;
                 var3 = var3.MAX_EMISSIONS_PER_APP_LAUNCH;
                 var4 = var4 >= var3;
                 var3 = !var4;
-                if(var4) { _fun0008_ip = 78; continue _fun0008 }
+                if(var4) { _fun0009_ip = 78; continue _fun0009 }
  56:
                 var4 = global;
                 var6 = var4.Math;
@@ -528,36 +546,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var10 = var2.bind(var1)(var4);
-    var2 = var11.prototype;
-    var4 = Object.create(var2, {constructor: {value: var11}});
-    var14 = '2025-05_libdiscore_notestore_v2';
-    var13 = 'NoteStore';
-    var15 = var4;
-    var2 = new var15[var11](var14, var13, var12);
+    var11 = var2.bind(var1)(var4);
+    var2 = var13.prototype;
+    var4 = Object.create(var2, {constructor: {value: var13}});
+    var16 = '2025-05_libdiscore_notestore_v2';
+    var15 = 'NoteStore';
+    var17 = var4;
+    var2 = new var17[var13](var16, var15, var14);
+    var6 = var2 instanceof Object ? var2 : var4;
+    var2 = var13.prototype;
+    var4 = Object.create(var2, {constructor: {value: var13}});
+    var16 = '2025-07_libdiscore_guildstore_v2';
+    var15 = 'GuildStore';
+    var17 = var4;
+    var2 = new var17[var13](var16, var15, var14);
     var5 = var2 instanceof Object ? var2 : var4;
-    var2 = var11.prototype;
-    var4 = Object.create(var2, {constructor: {value: var11}});
-    var14 = '2025-07_libdiscore_guildstore_v2';
-    var13 = 'GuildStore';
-    var15 = var4;
-    var2 = new var15[var11](var14, var13, var12);
+    var2 = var13.prototype;
+    var4 = Object.create(var2, {constructor: {value: var13}});
+    var16 = '2025-08_libdiscore_guildrolestore';
+    var15 = 'GuildRoleStore';
+    var14 = 'Kkv';
+    var17 = var4;
+    var2 = new var17[var13](var16, var15, var14, var13);
     var4 = var2 instanceof Object ? var2 : var4;
-    var2 = var10.prototype;
-    var7 = Object.create(var2, {constructor: {value: var10}});
-    var14 = '2025-07_libdiscore_telemetry';
-    var15 = var7;
-    var2 = new var15[var10](var14, var13);
-    var2 = var2 instanceof Object ? var2 : var7;
-    var7 = 7;
-    var7 = var9[var7];
-    var9 = var8.bind(var1)(var7);
-    var8 = var9.fileFinishedImporting;
-    var7 = 'modules/libdiscore/libdiscoreExperiments.tsx';
-    var7 = var8.bind(var9)(var7);
-    var3['ALL_LIBDISCORE_EXPERIMENTS'] = var6;
-    var3['NoteStoreExperiment'] = var5;
-    var3['GuildStoreExperiment'] = var4;
+    var2 = var11.prototype;
+    var8 = Object.create(var2, {constructor: {value: var11}});
+    var16 = '2025-07_libdiscore_telemetry';
+    var17 = var8;
+    var2 = new var17[var11](var16, var15);
+    var2 = var2 instanceof Object ? var2 : var8;
+    var8 = 8;
+    var8 = var10[var8];
+    var10 = var9.bind(var1)(var8);
+    var9 = var10.fileFinishedImporting;
+    var8 = 'modules/libdiscore/libdiscoreExperiments.tsx';
+    var8 = var9.bind(var10)(var8);
+    var3['ALL_LIBDISCORE_EXPERIMENTS'] = var7;
+    var3['NoteStoreExperiment'] = var6;
+    var3['GuildStoreExperiment'] = var5;
+    var3['GuildRoleStoreExperiment'] = var4;
     var3['TelemetryExperiment'] = var2;
     return var1;
 })();

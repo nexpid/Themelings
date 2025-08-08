@@ -790,10 +790,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['BROADCASTING_VIEWER_TOOLTIP'] = var2;
     var1 = 'BROADCASTING_VIEWER_TOOLTIP';
     var4[var2] = var1;
-    var2 = 288;
-    var4['SERVER_SHOP_UPSELL'] = var2;
-    var1 = 'SERVER_SHOP_UPSELL';
-    var4[var2] = var1;
     var2 = 289;
     var4['LAUNCH_PAD_PULL_TAB_NUX'] = var2;
     var1 = 'LAUNCH_PAD_PULL_TAB_NUX';

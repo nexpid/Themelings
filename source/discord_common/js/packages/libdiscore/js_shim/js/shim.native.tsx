@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['isUnsupportedBrowser'] = var6;
-    var6 = function getExperimentCacher() {
+    var2 = function getExperimentCacher() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -75,19 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.ExperimentCacher;
         return var1;
     };
-    var3['getExperimentCacher'] = var6;
-    var2 = function getKvDatabaseAPI() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 0;
-        var2 = var2[var1];
-        var1 = undefined;
-        var2 = var3.bind(var1)(var2);
-        var1 = var2.getKvDatabaseAPI;
-        var1 = var1.bind(var2)();
-        return var1;
-    };
-    var3['getKvDatabaseAPI'] = var2;
+    var3['getExperimentCacher'] = var2;
     var2 = 0;
     var6 = var5[var2];
     var6 = var4.bind(var1)(var6);
@@ -97,10 +85,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var4.bind(var1)(var6);
     var6 = var6.crash;
     var3['crash'] = var6;
+    var6 = var5[var2];
+    var6 = var4.bind(var1)(var6);
+    var6 = var6.generateLaunchSignature;
+    var3['generateLaunchSignature'] = var6;
     var2 = var5[var2];
     var2 = var4.bind(var1)(var2);
-    var2 = var2.generateLaunchSignature;
-    var3['generateLaunchSignature'] = var2;
+    var2 = var2.getFluxApi;
+    var3['getFluxApi'] = var2;
     var2 = 2;
     var2 = var5[var2];
     var2 = var4.bind(var1)(var2);

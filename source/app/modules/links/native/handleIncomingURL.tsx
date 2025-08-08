@@ -18,25 +18,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 1159; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 1177; continue _fun0001 }
  13:
                     var4 = var2.url;
-                    var13 = var2.source;
+                    var7 = var2.source;
                     var6 = _closure1_slot8;
                     var5 = var6.log;
                     var2 = global;
                     var3 = var2.HermesInternal;
-                    var7 = var3.concat;
-                    var3 = 'Opening url: ';
-                    var3 = var7.bind(var3)(var4);
+                    var11 = var3.concat;
+                    var27 = 'Opening url: ';
+                    var25 = ' [';
+                    var23 = ']';
+                    var26 = var4;
+                    var24 = var7;
+                    var3 = var27[var11](var26, var25, var24, var23, var22);
                     var3 = var5.bind(var6)(var3);
                     var5 = _closure1_slot4;
                     var3 = var5.getState;
                     var5 = var3.bind(var5)();
                     var3 = _closure1_slot5;
                     var3 = var3.ACTIVE;
-                    if(!(var5 !== var3)) { _fun0001_ip = 145; continue _fun0001 }
- 93:
+                    if(!(var5 !== var3)) { _fun0001_ip = 160; continue _fun0001 }
+ 108:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var3 = 4;
@@ -45,45 +49,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.bind(var3)(var5);
                     var5 = var6.trackAppOpened;
                     var3 = null;
-                    var7 = var3 == var4;
+                    var9 = var3 == var4;
                     var3 = 'deeplink';
-                    if(!var7) { _fun0001_ip = 140; continue _fun0001 }
- 134:
+                    if(!var9) { _fun0001_ip = 155; continue _fun0001 }
+ 149:
                     var3 = 'launcher';
- 140:
+ 155:
                     var3 = var5.bind(var6)(var3);
- 145:
+ 160:
                     var12 = null;
-                    if(!(var12 != var4)) { _fun0001_ip = 1144; continue _fun0001 }
- 154:
+                    if(!(var12 != var4)) { _fun0001_ip = 1162; continue _fun0001 }
+ 169:
                     var5 = var4.startsWith;
                     var3 = 'discordwidget:///';
                     var3 = var5.bind(var4)(var3);
-                    if(var3) { _fun0001_ip = 733; continue _fun0001 }
- 177:
+                    if(var3) { _fun0001_ip = 751; continue _fun0001 }
+ 192:
                     var3 = var2.URL;
                     var5 = var3.prototype;
                     var5 = Object.create(var5, {constructor: {value: var3}});
-                    var25 = var5;
-                    var24 = var4;
-                    var3 = new var25[var3](var24, var23);
+                    var27 = var5;
+                    var26 = var4;
+                    var3 = new var27[var3](var26, var25);
                     var3 = var3 instanceof Object ? var3 : var5;
                     var6 = var3.hostname;
                     var3 = 'l.discord.com';
                     var5 = var4;
-                    if(!(var3 === var6)) { _fun0001_ip = 303; continue _fun0001 }
- 225:
+                    var13 = var7;
+                    if(!(var3 === var6)) { _fun0001_ip = 321; continue _fun0001 }
+ 243:
                     var3 = var2.fetch;
                     var9 = undefined;
                     var2 = {'method': 'HEAD', 'redirect': 'follow'};
                     var2 = var3.bind(var9)(var4, var2);
-                    SaveGenerator(address=257);
- 255:
+                    SaveGenerator(address=275);
+ 273:
                     return var2;
- 257:
+ 275:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 730; continue _fun0001 }
- 266:
+                    if(var3) { _fun0001_ip = 748; continue _fun0001 }
+ 284:
                     var5 = var2.url;
                     var7 = _closure1_slot0;
                     var10 = _closure1_slot2;
@@ -92,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var7.bind(var9)(var3);
                     var3 = var3.DeeplinkSource;
                     var13 = var3.Iterable;
- 303:
+ 321:
                     var7 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var3 = 7;
@@ -113,28 +118,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var17 = var7.authToken;
                     var3 = var12 == var16;
                     var10 = var5;
-                    if(!var3) { _fun0001_ip = 407; continue _fun0001 }
- 403:
-                    var3 = var12 == var14;
- 407:
-                    if(!var3) { _fun0001_ip = 414; continue _fun0001 }
- 410:
-                    var3 = var12 == var21;
- 414:
-                    if(!var3) { _fun0001_ip = 421; continue _fun0001 }
- 417:
-                    var3 = var12 == var15;
+                    if(!var3) { _fun0001_ip = 425; continue _fun0001 }
  421:
-                    if(!var3) { _fun0001_ip = 428; continue _fun0001 }
- 424:
-                    var3 = var12 == var17;
+                    var3 = var12 == var14;
+ 425:
+                    if(!var3) { _fun0001_ip = 432; continue _fun0001 }
  428:
-                    if(!var3) { _fun0001_ip = 435; continue _fun0001 }
- 431:
-                    var3 = var12 == var13;
+                    var3 = var12 == var21;
+ 432:
+                    if(!var3) { _fun0001_ip = 439; continue _fun0001 }
  435:
-                    if(var3) { _fun0001_ip = 676; continue _fun0001 }
- 441:
+                    var3 = var12 == var15;
+ 439:
+                    if(!var3) { _fun0001_ip = 446; continue _fun0001 }
+ 442:
+                    var3 = var12 == var17;
+ 446:
+                    if(!var3) { _fun0001_ip = 453; continue _fun0001 }
+ 449:
+                    var3 = var12 == var13;
+ 453:
+                    if(var3) { _fun0001_ip = 694; continue _fun0001 }
+ 459:
                     var5 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var3 = 8;
@@ -146,8 +151,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = {};
                     var19 = var12 != var21;
                     var18 = null;
-                    if(!var19) { _fun0001_ip = 518; continue _fun0001 }
- 487:
+                    if(!var19) { _fun0001_ip = 536; continue _fun0001 }
+ 505:
                     var20 = _closure1_slot0;
                     var22 = _closure1_slot2;
                     var19 = 9;
@@ -155,16 +160,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var20 = var20.bind(var6)(var19);
                     var19 = var20.parseInviteCodeFromInviteKey;
                     var18 = var19.bind(var20)(var21);
- 518:
+ 536:
                     var3['invite_code'] = var18;
                     var3['guild_template_code'] = var15;
                     var15 = var12 != var17;
-                    if(!var15) { _fun0001_ip = 546; continue _fun0001 }
- 535:
+                    if(!var15) { _fun0001_ip = 564; continue _fun0001 }
+ 553:
                     var18 = var17.length;
                     var17 = 0;
                     var15 = var17 === var18;
- 546:
+ 564:
                     var3['has_auth_token'] = var15;
                     var17 = _closure1_slot4;
                     var15 = var17.getState;
@@ -179,8 +184,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['link_type'] = var13;
                     var13 = var12 != var16;
                     var12 = null;
-                    if(!var13) { _fun0001_ip = 660; continue _fun0001 }
- 619:
+                    if(!var13) { _fun0001_ip = 678; continue _fun0001 }
+ 637:
                     var13 = {};
                     var15 = _closure1_slot0;
                     var17 = _closure1_slot2;
@@ -191,12 +196,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = var14.bind(var15)(var16);
                     var13['fingerprint'] = var14;
                     var12 = var13;
- 660:
-                    var24 = var3;
-                    var23 = var12;
-                    var12 = copyDataProperties(var24, var23);
+ 678:
+                    var26 = var3;
+                    var25 = var12;
+                    var12 = copyDataProperties(var26, var25);
                     var3 = var9.bind(var11)(var5, var3);
- 676:
+ 694:
                     var5 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var3 = 11;
@@ -209,17 +214,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = {};
                     var3['payload'] = var7;
                     var3 = var5.bind(var6)(var3);
-                    _fun0001_ip = 1144; continue _fun0001;
- 730:
+                    _fun0001_ip = 1162; continue _fun0001;
+ 748:
                     return var2;
- 733:
+ 751:
                     var3 = var4.split;
                     var2 = 'voice/';
                     var2 = var3.bind(var4)(var2);
                     var4 = var2.length;
                     var3 = 2;
-                    if(!(var3 === var4)) { _fun0001_ip = 1154; continue _fun0001 }
- 764:
+                    if(!(var3 === var4)) { _fun0001_ip = 1172; continue _fun0001 }
+ 782:
                     var4 = 1;
                     var6 = var2[var4];
                     var5 = var6.split;
@@ -227,27 +232,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var5.bind(var6)(var2);
                     var6 = var2.length;
                     var5 = 0;
-                    if(!(var5 !== var6)) { _fun0001_ip = 1149; continue _fun0001 }
- 799:
+                    if(!(var5 !== var6)) { _fun0001_ip = 1167; continue _fun0001 }
+ 817:
                     var7 = var2[var5];
                     var6 = 'user';
-                    if(!(var6 !== var7)) { _fun0001_ip = 1144; continue _fun0001 }
- 814:
+                    if(!(var6 !== var7)) { _fun0001_ip = 1162; continue _fun0001 }
+ 832:
                     var7 = var2[var5];
                     var6 = 'invite';
-                    if(!(var6 !== var7)) { _fun0001_ip = 1078; continue _fun0001 }
- 829:
+                    if(!(var6 !== var7)) { _fun0001_ip = 1096; continue _fun0001 }
+ 847:
                     var7 = var2[var5];
                     var6 = 'wave';
-                    if(!(var6 !== var7)) { _fun0001_ip = 1010; continue _fun0001 }
- 844:
+                    if(!(var6 !== var7)) { _fun0001_ip = 1028; continue _fun0001 }
+ 862:
                     var7 = var2[var5];
                     var6 = 'join';
-                    if(!(var6 !== var7)) { _fun0001_ip = 939; continue _fun0001 }
- 856:
+                    if(!(var6 !== var7)) { _fun0001_ip = 957; continue _fun0001 }
+ 874:
                     var6 = var2.length;
-                    if(!(var3 === var6)) { _fun0001_ip = 1144; continue _fun0001 }
- 868:
+                    if(!(var3 === var6)) { _fun0001_ip = 1162; continue _fun0001 }
+ 886:
                     var11 = var2[var5];
                     var10 = var2[var4];
                     var6 = _closure1_slot1;
@@ -267,7 +272,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var7)(var5);
                     var5 = undefined;
                     return var5;
- 939:
+ 957:
                     var11 = var2[var4];
                     var10 = var2[var3];
                     var6 = _closure1_slot1;
@@ -285,8 +290,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9['channelId'] = var10;
                     var5['payload'] = var9;
                     var5 = var6.bind(var7)(var5);
-                    _fun0001_ip = 1144; continue _fun0001;
- 1010:
+                    _fun0001_ip = 1162; continue _fun0001;
+ 1028:
                     var11 = var2[var4];
                     var10 = var2[var3];
                     var6 = _closure1_slot1;
@@ -304,8 +309,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9['channelId'] = var10;
                     var5['payload'] = var9;
                     var5 = var6.bind(var7)(var5);
-                    _fun0001_ip = 1144; continue _fun0001;
- 1078:
+                    _fun0001_ip = 1162; continue _fun0001;
+ 1096:
                     var7 = var2[var4];
                     var6 = var2[var3];
                     var3 = _closure1_slot1;
@@ -323,16 +328,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['channelId'] = var6;
                     var2['payload'] = var5;
                     var2 = var3.bind(var4)(var2);
- 1144:
+ 1162:
                     var2 = undefined;
                     return var2;
- 1149:
+ 1167:
                     var2 = undefined;
                     return var2;
- 1154:
+ 1172:
                     var2 = undefined;
                     return var2;
- 1159:
+ 1177:
                     return var1;
                 }
             };

@@ -273,21 +273,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7.getRemoteActivities;
             var5 = var5.bind(var7)();
             var7 = _closure1_slot27;
-            if(!(var7 !== var5)) { _fun0003_ip = 341; continue _fun0003 }
- 335:
+            if(!(var7 !== var5)) { _fun0003_ip = 339; continue _fun0003 }
+ 333:
             _closure1_slot27 = var5;
             var4 = true;
- 341:
+ 339:
             var7 = _closure1_slot16;
             var5 = var7.getHiddenActivities;
             var5 = var5.bind(var7)();
             var7 = _closure1_slot28;
-            if(!(var7 !== var5)) { _fun0003_ip = 367; continue _fun0003 }
- 363:
+            if(!(var7 !== var5)) { _fun0003_ip = 365; continue _fun0003 }
+ 361:
             _closure1_slot28 = var5;
- 367:
-            if(!var4) { _fun0003_ip = 482; continue _fun0003 }
- 370:
+ 365:
+            if(!var4) { _fun0003_ip = 480; continue _fun0003 }
+ 368:
             var5 = _closure1_slot1;
             var7 = _closure1_slot2;
             var4 = 19;
@@ -335,7 +335,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.value;
             var2 = var2.bind(var4)();
             _closure1_slot29 = var2;
- 482:
+ 480:
             return var1;
         }
     };

@@ -225,42 +225,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
-    var2 = {};
+    var4 = {};
     var1 = true;
-    var2['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var2);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var2 = var6[var1];
+    var4 = var6[var1];
     var1 = undefined;
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot2 = var2;
-    var2 = 1;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot3 = var2;
-    var2 = 2;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot4 = var2;
-    var2 = 3;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot5 = var2;
-    var2 = 4;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var _closure1_slot6 = var2;
-    var2 = 5;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var7 = var2.KkvStore;
-    var2 = 6;
-    var2 = var6[var2];
-    var2 = var5.bind(var1)(var2);
-    var2 = var2.getGuildEveryoneRoleId;
-    var _closure1_slot7 = var2;
-    var2 = function(arg1) {
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot2 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.KkvStore;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.getGuildEveryoneRoleId;
+    var _closure1_slot7 = var4;
+    var4 = function(arg1) {
         var4 = function GuildRoleStore(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -443,11 +443,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
-    var7 = var2.bind(var1)(var7);
-    var2 = 'GuildRoleStore';
-    var7['displayName'] = var2;
-    var2 = {};
-    var8 = function BACKGROUND_SYNC(arg1, arg2) {
+    var8 = var4.bind(var1)(var7);
+    var4 = 'GuildRoleStore';
+    var8['displayName'] = var4;
+    var7 = {};
+    var4 = function BACKGROUND_SYNC(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var11 = arg2;
@@ -516,8 +516,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var2['BACKGROUND_SYNC'] = var8;
-    var8 = function OVERLAY_INITIALIZE(arg1, arg2) {
+    var7['BACKGROUND_SYNC'] = var4;
+    var4 = function OVERLAY_INITIALIZE(arg1, arg2) {
         var3 = arg2;
         var2 = arg1;
         var _closure2_slot0 = var2;
@@ -558,8 +558,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var2['OVERLAY_INITIALIZE'] = var8;
-    var8 = function CONNECTION_OPEN(arg1, arg2) {
+    var7['OVERLAY_INITIALIZE'] = var4;
+    var4 = function CONNECTION_OPEN(arg1, arg2) {
         var3 = arg2;
         var2 = arg1;
         var2 = var2.guilds;
@@ -607,8 +607,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var2['CONNECTION_OPEN'] = var8;
-    var8 = function CACHE_LOADED(arg1, arg2) {
+    var7['CONNECTION_OPEN'] = var4;
+    var4 = function CACHE_LOADED(arg1, arg2) {
         var3 = arg2;
         var2 = arg1;
         var2 = var2.guilds;
@@ -649,8 +649,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var2['CACHE_LOADED'] = var8;
-    var8 = function CACHE_LOADED_LAZY(arg1, arg2) {
+    var7['CACHE_LOADED'] = var4;
+    var4 = function CACHE_LOADED_LAZY(arg1, arg2) {
         _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var2 = arg1;
@@ -700,8 +700,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var2['CACHE_LOADED_LAZY'] = var8;
-    var8 = function GUILD_CREATE(arg1, arg2) {
+    var7['CACHE_LOADED_LAZY'] = var4;
+    var4 = function GUILD_CREATE(arg1, arg2) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
             var4 = arg2;
@@ -731,8 +731,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var2['GUILD_CREATE'] = var8;
-    var8 = function GUILD_UPDATE(arg1, arg2) {
+    var7['GUILD_CREATE'] = var4;
+    var4 = function GUILD_UPDATE(arg1, arg2) {
         var5 = arg2;
         var1 = arg1;
         var1 = var1.guild;
@@ -750,8 +750,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var5)(var4, var2);
         return var1;
     };
-    var2['GUILD_UPDATE'] = var8;
-    var8 = function GUILD_DELETE(arg1, arg2) {
+    var7['GUILD_UPDATE'] = var4;
+    var4 = function GUILD_DELETE(arg1, arg2) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
             var3 = arg2;
@@ -768,8 +768,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var2['GUILD_DELETE'] = var8;
-    var8 = function GUILD_ROLE_CREATE(arg1, arg2) {
+    var7['GUILD_DELETE'] = var4;
+    var4 = function GUILD_ROLE_CREATE(arg1, arg2) {
         var2 = arg1;
         var6 = arg2;
         var5 = var6.set;
@@ -789,8 +789,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var5.bind(var6)(var4, var3, var2);
         return var1;
     };
-    var2['GUILD_ROLE_CREATE'] = var8;
-    var8 = function GUILD_ROLE_UPDATE(arg1, arg2) {
+    var7['GUILD_ROLE_CREATE'] = var4;
+    var4 = function GUILD_ROLE_UPDATE(arg1, arg2) {
         var2 = arg1;
         var6 = arg2;
         var5 = var6.set;
@@ -810,8 +810,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var5.bind(var6)(var4, var3, var2);
         return var1;
     };
-    var2['GUILD_ROLE_UPDATE'] = var8;
-    var4 = function GUILD_ROLE_DELETE(arg1, arg2) {
+    var7['GUILD_ROLE_UPDATE'] = var4;
+    var2 = function GUILD_ROLE_DELETE(arg1, arg2) {
         var1 = arg1;
         var4 = arg2;
         var3 = var1.guildId;
@@ -821,14 +821,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var2['GUILD_ROLE_DELETE'] = var4;
-    var4 = var7.prototype;
-    var4 = Object.create(var4, {constructor: {value: var7}});
+    var7['GUILD_ROLE_DELETE'] = var2;
+    var2 = 9;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var4 = var2.GuildRoleStoreExperiment;
+    var2 = var4.getCachedBridgedStoreMode;
+    var11 = var2.bind(var4)();
+    var4 = var8.prototype;
+    var4 = Object.create(var4, {constructor: {value: var8}});
     var13 = var4;
-    var12 = var2;
-    var2 = new var13[var7](var12, var11);
+    var12 = var7;
+    var2 = new var13[var8](var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

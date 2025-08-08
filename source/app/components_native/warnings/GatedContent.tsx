@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'flex': 1, 'padding': 20, 'alignItems': 'center', 'justifyContent': 'center'};
+    var9 = {'flex': 1, 'padding': 20, 'alignItems': 'center', 'justifyContent': 'center', 'backgroundColor': null, 'textAlign': 'center'};
     var10 = 'center';
     var11 = 4;
     var12 = var6[var11];

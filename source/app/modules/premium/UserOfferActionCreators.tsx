@@ -245,6 +245,105 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot7 = var1;
+    var1 = function _fetchExistingChurnDiscountOffer() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* () {
+            var1 = function* anon_0_() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0002_ip = 253; continue _fun0002 }
+ 10:
+                    var2 = undefined;
+                    var6 = undefined;
+                    var7 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var5 = 3;
+                    var4 = var4[var5];
+                    var8 = var7.bind(var2)(var4);
+                    var7 = var8.dispatch;
+                    var4 = {};
+                    var9 = 'BILLING_USER_OFFER_FETCH_START';
+                    var4['type'] = var9;
+                    var4 = var7.bind(var8)(var4);
+ 59: // try_start_0
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var4 = 5;
+                    var4 = var8[var4];
+                    var4 = var7.bind(var2)(var4);
+                    var8 = var4.HTTP;
+                    var7 = var8.get;
+                    var4 = {};
+                    var9 = _closure1_slot5;
+                    var9 = var9.CHURN_USER_OFFER;
+                    var4['url'] = var9;
+                    var9 = true;
+                    var4['rejectWithError'] = var9;
+                    var4 = var7.bind(var8)(var4);
+                    SaveGenerator(address=120);
+ 118:
+                    return var4;
+ 120:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
+                    if(var7) { _fun0002_ip = 206; continue _fun0002 }
+ 126:
+                    var7 = var4.body;
+                    var8 = var7.offer;
+                    var6 = var8;
+                    var7 = null;
+                    var8 = var7 != var8;
+                    if(!var8) { _fun0002_ip = 152; continue _fun0002 }
+ 149:
+                    var7 = var6;
+ 152:
+                    var8 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var6 = var6[var5];
+                    var9 = var8.bind(var2)(var6);
+                    var8 = var9.dispatch;
+                    var6 = {};
+                    var10 = 'BILLING_USER_OFFER_FETCH_SUCCESS';
+                    var6['type'] = var10;
+                    var6['userDiscountOffer'] = var7;
+                    var6 = var8.bind(var9)(var6);
+                    var6 = {};
+                    var6['userDiscountOffer'] = var7;
+ 203: // try_end0
+                    return var6;
+ 206:
+                    return var4;
+ 209: // catch_target0
+                    CatchBlockStart(arg_register=3);
+                    var4 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var3 = var3[var5];
+                    var5 = var4.bind(var2)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var6 = 'BILLING_USER_OFFER_FETCH_FAIL';
+                    var3['type'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    return var2;
+ 253:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot8 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot8 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -284,8 +383,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['fetchUserOffer'] = var4;
+    var4 = function fetchExistingChurnDiscountOffer() {
+        var1 = undefined;
+        var4 = _closure1_slot8;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchExistingChurnDiscountOffer'] = var4;
     var2 = function acknowledgeUserOffer(arg1, arg2) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var3 = arg1;
             var2 = arg2;
@@ -293,29 +403,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var5 != var3;
             var4 = undefined;
             var7 = undefined;
-            if(!var6) { _fun0002_ip = 41; continue _fun0002 }
+            if(!var6) { _fun0003_ip = 41; continue _fun0003 }
  21:
             var6 = var3.expires_at;
             var6 = var5 == var6;
             var7 = undefined;
-            if(!var6) { _fun0002_ip = 41; continue _fun0002 }
+            if(!var6) { _fun0003_ip = 41; continue _fun0003 }
  36:
             var7 = var3.id;
  41:
             var3 = var5 != var2;
             var6 = undefined;
-            if(!var3) { _fun0002_ip = 70; continue _fun0002 }
+            if(!var3) { _fun0003_ip = 70; continue _fun0003 }
  50:
             var3 = var2.expires_at;
             var3 = var5 == var3;
             var6 = undefined;
-            if(!var3) { _fun0002_ip = 70; continue _fun0002 }
+            if(!var3) { _fun0003_ip = 70; continue _fun0003 }
  65:
             var6 = var2.id;
  70:
-            if(!(var4 === var7)) { _fun0002_ip = 80; continue _fun0002 }
+            if(!(var4 === var7)) { _fun0003_ip = 80; continue _fun0003 }
  74:
-            if(!(var4 === var6)) { _fun0002_ip = 80; continue _fun0002 }
+            if(!(var4 === var6)) { _fun0003_ip = 80; continue _fun0003 }
  78:
             return var4;
  80:
@@ -341,7 +451,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var4)(var2);
             var3 = var4.then;
             var2 = function(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     var6 = arg1;
                     var3 = _closure1_slot1;
@@ -359,7 +469,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = null;
                     var9 = var5 != var8;
                     var7 = null;
-                    if(!var9) { _fun0003_ip = 70; continue _fun0003 }
+                    if(!var9) { _fun0004_ip = 70; continue _fun0004 }
  67:
                     var7 = var8;
  70:
@@ -368,7 +478,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var7.user_discount;
                     var9 = var5 != var8;
                     var7 = null;
-                    if(!var9) { _fun0003_ip = 98; continue _fun0003 }
+                    if(!var9) { _fun0004_ip = 98; continue _fun0004 }
  95:
                     var7 = var8;
  98:
@@ -377,7 +487,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.user_discount_offer;
                     var7 = var5 != var6;
                     var5 = null;
-                    if(!var7) { _fun0003_ip = 126; continue _fun0003 }
+                    if(!var7) { _fun0004_ip = 126; continue _fun0004 }
  123:
                     var5 = var6;
  126:
@@ -389,12 +499,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var3.catch;
             var1 = function(arg1) {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     var1 = arg1;
                     var2 = var1.status;
                     var1 = 404;
-                    if(!(var1 === var2)) { _fun0004_ip = 67; continue _fun0004 }
+                    if(!(var1 === var2)) { _fun0005_ip = 67; continue _fun0005 }
  18:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;

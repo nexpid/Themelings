@@ -305,7 +305,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {};
             var7 = true;
             var3['writable'] = var7;
-            var10 = {};
+            var12 = var2.Object;
+            var11 = var12.create;
+            var10 = null;
+            var10 = var11.bind(var12)(var10);
             var3['value'] = var10;
             var3 = var5.bind(var9)(var6, var4, var3);
             var5 = var2.Object;

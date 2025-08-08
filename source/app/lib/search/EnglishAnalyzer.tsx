@@ -477,7 +477,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = new var16[var10](var15, var14);
     var1 = var1 instanceof Object ? var1 : var9;
     var _closure1_slot3 = var1;
-    var1 = 3;
+    var1 = 4;
     var7 = var7[var1];
     var1 = undefined;
     var9 = var8.bind(var1)(var7);
@@ -490,38 +490,61 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function createASTHighlighter(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            var2 = arguments[1];
-            var6 = undefined;
-            if(!(var2 === var6)) { _fun0008_ip = 13; continue _fun0008 }
- 11:
-            var2 = false;
- 13:
-            var _closure2_slot0 = var2;
-            var _closure2_slot1 = var6;
+            var6 = arg1;
+            var3 = arguments[1];
+            var5 = undefined;
+            if(!(var3 === var5)) { _fun0008_ip = 16; continue _fun0008 }
+ 14:
+            var3 = false;
+ 16:
+            var _closure2_slot0 = var5;
+            var _closure2_slot1 = var5;
+            var4 = var6.length;
+            var8 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var10 = 2;
+            var2 = var2[var10];
+            var2 = var8.bind(var5)(var2);
+            var2 = var2.SEARCH_PARTIAL_NAME_MATCH_MIN_QUERY_LENGTH;
+            var2 = var4 >= var2;
+            if(!var2) { _fun0008_ip = 97; continue _fun0008 }
+ 65:
+            var8 = var6.length;
+            var9 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var4 = var4[var10];
+            var4 = var9.bind(var5)(var4);
+            var4 = var4.SEARCH_PARTIAL_NAME_MATCH_MAX_QUERY_LENGTH;
+            var2 = var8 <= var4;
+ 97:
+            if(!var2) { _fun0008_ip = 103; continue _fun0008 }
+ 100:
+            var2 = var3;
+ 103:
+            _closure2_slot0 = var2;
             var3 = global;
             var4 = var3.Set;
-            var5 = _closure1_slot10;
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            if(var2) { _fun0008_ip = 66; continue _fun0008 }
- 47:
+            var3 = _closure1_slot10;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            if(var2) { _fun0008_ip = 149; continue _fun0008 }
+ 130:
             var2 = 0;
-            var2 = var8[var2];
-            var2 = var7.bind(var6)(var2);
-            var3 = var2.stemmer;
-            _fun0008_ip = 84; continue _fun0008;
- 66:
-            var2 = 2;
-            var2 = var8[var2];
-            var2 = var7.bind(var6)(var2);
-            var3 = var2.snowballStem;
- 84:
-            var2 = arg1;
-            var10 = var5.bind(var6)(var2, var3);
+            var2 = var9[var2];
+            var2 = var8.bind(var5)(var2);
+            var2 = var2.stemmer;
+            _fun0008_ip = 167; continue _fun0008;
+ 149:
+            var7 = 3;
+            var7 = var9[var7];
+            var7 = var8.bind(var5)(var7);
+            var2 = var7.snowballStem;
+ 167:
+            var12 = var3.bind(var5)(var6, var2);
             var3 = var4.prototype;
             var3 = Object.create(var3, {constructor: {value: var4}});
-            var11 = var3;
-            var2 = new var11[var4](var10, var9);
+            var13 = var3;
+            var2 = new var13[var4](var12, var11);
             var2 = var2 instanceof Object ? var2 : var3;
             _closure2_slot1 = var2;
             var1 = function(arg1) {

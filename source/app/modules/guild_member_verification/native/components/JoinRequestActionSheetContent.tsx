@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['formResponse'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'space-between'};
     var4['termsField'] = var10;
-    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 12, 'paddingHorizontal': 16, 'paddingVertical': 12, 'margin': 12};
+    var10 = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 12, 'paddingHorizontal': 16, 'paddingVertical': 12, 'marginTop': 8, 'marginBottom': 16, 'marginHorizontal': 16};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
@@ -102,9 +102,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var13.TEXT_NORMAL;
     var10['backgroundColor'] = var13;
     var4['dot'] = var10;
-    var10 = {'marginHorizontal': 12, 'marginBottom': 8};
+    var10 = {'marginHorizontal': 16, 'marginBottom': 8};
     var4['accountInfoLabel'] = var10;
-    var10 = {'backgroundColor': null, 'marginHorizontal': 12, 'marginBottom': 12};
+    var10 = {'backgroundColor': null, 'marginHorizontal': 16, 'marginBottom': 12};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
     var13 = var13.colors;
@@ -625,8 +625,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot12 = var4;
     var8 = var7.memo;
     var4 = function(arg1) {
-        var1 = arg1;
-        var5 = var1.joinRequest;
+        var2 = arg1;
+        var6 = var2.joinRequest;
+        var _closure2_slot0 = var6;
+        var4 = _closure1_slot3;
+        var3 = var4.useCallback;
+        var2 = new Array(1);
+        var2[0] = var6;
+        var1 = function() {
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 12;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = _closure2_slot0;
+            var2 = var3.bind(var1)(var2);
+            return var1;
+        };
+        var5 = var3.bind(var4)(var1, var2);
         var14 = _closure1_slot0;
         var15 = _closure1_slot2;
         var1 = 25;
@@ -634,8 +651,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var3 = var14.bind(var4)(var1);
         var2 = var3.useJoinRequestButtonActions;
-        var1 = var5.interviewChannelId;
-        var1 = var2.bind(var3)(var5, var1);
+        var1 = var6.interviewChannelId;
+        var1 = var2.bind(var3)(var6, var1, var5);
         var13 = var1.approveRequest;
         var10 = var1.rejectRequest;
         var12 = var1.handleOpenInterview;

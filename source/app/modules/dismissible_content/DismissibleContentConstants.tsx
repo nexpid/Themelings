@@ -51,8 +51,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NOTICE_BAR'] = var1;
     var1 = 'PROFILE_DRAWER_HEADER';
     var2['PROFILE_DRAWER_HEADER'] = var1;
-    var1 = 'GUILD_TAKEOVER_MODAL';
-    var2['GUILD_TAKEOVER_MODAL'] = var1;
     var1 = 'SIDEBAR';
     var2['SIDEBAR'] = var1;
     var1 = 'MEMBER_LIST_HEADER';

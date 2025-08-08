@@ -1,12 +1,12 @@
 // app/modules/premium/hooks/usePremiumDiscountOffer.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
-    var8 = metroImportDefault;
+    var7 = require;
+    var9 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
-    var4 = function hasUserDiscountExpired(arg1) {
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var5 = function hasUserDiscountExpired(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
@@ -32,8 +32,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot11 = var4;
-    var1 = function useDiscountOffer(arg1, arg2) {
+    var _closure1_slot11 = var5;
+    var4 = function useDiscountOffer(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var2 = arg1;
@@ -207,54 +207,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot12 = var4;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var5 = {};
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
     var1 = true;
-    var5['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = var10.bind(var11)(var3, var1, var6);
     var1 = 0;
-    var5 = var7[var1];
+    var6 = var8[var1];
     var1 = undefined;
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot2 = var5;
-    var5 = 1;
-    var9 = var7[var5];
-    var5 = metroImportAll;
-    var5 = var5.bind(var1)(var9);
-    var _closure1_slot3 = var5;
-    var5 = 2;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot4 = var5;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot5 = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var8 = var5.PREMIUM_TIER_2_LIKELIHOOD_1_MONTH_30_PERCENT_DISCOUNT_ID;
-    var _closure1_slot6 = var8;
-    var8 = var5.PREMIUM_TIER_2_LIKELIHOOD_1_MONTH_40_PERCENT_DISCOUNT_ID;
-    var _closure1_slot7 = var8;
-    var8 = var5.PREMIUM_TIER_2_LIKELIHOOD_DISCOUNT_ID;
-    var _closure1_slot8 = var8;
-    var8 = var5.PREMIUM_TIER_2_REACTIVATION_DISCOUNT_ID;
-    var _closure1_slot9 = var8;
-    var5 = var5.SubscriptionPlanInfo;
-    var _closure1_slot10 = var5;
-    var5 = 8;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/premium/hooks/usePremiumDiscountOffer.tsx';
-    var5 = var6.bind(var7)(var5);
-    var3['hasUserDiscountExpired'] = var4;
-    var4 = function discountOfferHasTier(arg1, arg2) {
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot2 = var6;
+    var6 = 1;
+    var10 = var8[var6];
+    var6 = metroImportAll;
+    var6 = var6.bind(var1)(var10);
+    var _closure1_slot3 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot4 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot5 = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.PREMIUM_TIER_2_LIKELIHOOD_1_MONTH_30_PERCENT_DISCOUNT_ID;
+    var _closure1_slot6 = var9;
+    var9 = var6.PREMIUM_TIER_2_LIKELIHOOD_1_MONTH_40_PERCENT_DISCOUNT_ID;
+    var _closure1_slot7 = var9;
+    var9 = var6.PREMIUM_TIER_2_LIKELIHOOD_DISCOUNT_ID;
+    var _closure1_slot8 = var9;
+    var9 = var6.PREMIUM_TIER_2_REACTIVATION_DISCOUNT_ID;
+    var _closure1_slot9 = var9;
+    var6 = var6.SubscriptionPlanInfo;
+    var _closure1_slot10 = var6;
+    var6 = 8;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/premium/hooks/usePremiumDiscountOffer.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['hasUserDiscountExpired'] = var5;
+    var5 = function discountOfferHasTier(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var3 = arg1;
@@ -293,7 +293,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['discountOfferHasTier'] = var4;
+    var3['discountOfferHasTier'] = var5;
+    var3['useDiscountOffer'] = var4;
     var2 = function usePremiumDiscountOffer() {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:

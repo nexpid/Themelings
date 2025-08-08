@@ -1027,12 +1027,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var8 = 'setGoLiveUsePixelCounts';
         var5['key'] = var8;
-        var8 = function value(arg1) {
+        var8 = function value(arg1, arg2) {
             var1 = this;
-            var3 = var1.videoQualityManager;
-            var2 = var3.setGoLiveUsePixelCounts;
-            var1 = arg1;
-            var1 = var2.bind(var3)(var1);
+            var4 = var1.videoQualityManager;
+            var3 = var4.setGoLiveUsePixelCounts;
+            var2 = arg1;
+            var1 = arg2;
+            var1 = var3.bind(var4)(var2, var1);
             var1 = undefined;
             return var1;
         };

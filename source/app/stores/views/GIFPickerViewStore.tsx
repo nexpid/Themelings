@@ -265,7 +265,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  14:
             var4 = _closure1_slot10;
             var2 = _closure1_slot11;
-            if(!(var4 !== var2)) { _fun0004_ip = 84; continue _fun0004 }
+            if(!(var4 !== var2)) { _fun0004_ip = 86; continue _fun0004 }
  29:
             var2 = var1.query;
             if(!(var3 != var2)) { _fun0004_ip = 50; continue _fun0004 }
@@ -298,7 +298,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure1_slot12 = var2;
             var1 = undefined;
             return var1;
- 84:
+ 86:
             var1 = false;
             return var1;
         }

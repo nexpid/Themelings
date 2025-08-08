@@ -238,22 +238,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = _closure2_slot2;
                             var3 = var1.current;
                             var1 = null;
-                            if(!(var1 != var3)) { _fun0006_ip = 98; continue _fun0006 }
+                            if(!(var1 != var3)) { _fun0006_ip = 116; continue _fun0006 }
  18:
                             var2 = var3.scrollToLocation;
                             var1 = {'animated': false, 'section': null, 'item': 0};
                             var4 = _closure2_slot1;
                             var1['section'] = var4;
-                            var6 = _closure1_slot3;
-                            var5 = var6.get;
+                            var4 = global;
+                            var6 = var4.Math;
+                            var5 = var6.round;
+                            var8 = _closure1_slot3;
+                            var7 = var8.get;
                             var4 = 'window';
-                            var4 = var5.bind(var6)(var4);
-                            var5 = var4.height;
+                            var4 = var7.bind(var8)(var4);
+                            var7 = var4.height;
                             var4 = 0.3;
-                            var4 = var4 * var5;
+                            var4 = var4 * var7;
+                            var4 = var5.bind(var6)(var4);
                             var1['paddingStart'] = var4;
                             var1 = var2.bind(var3)(var1);
- 98:
+ 116:
                             var1 = undefined;
                             return var1;
                         }

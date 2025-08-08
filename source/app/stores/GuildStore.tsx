@@ -771,7 +771,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var4 = var2.GuildStoreExperiment;
-    var2 = var4.getCachedKvStoreMode;
+    var2 = var4.getCachedBridgedStoreMode;
     var11 = var2.bind(var4)();
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});

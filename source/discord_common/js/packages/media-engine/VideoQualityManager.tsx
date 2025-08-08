@@ -333,6 +333,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['goliveMaxQuality'] = var5;
                 var3['goliveSimulcastEnabled'] = var4;
                 var3['goliveUsePixelCounts'] = var4;
+                var3['goliveAdjustResolution'] = var4;
                 var2 = _closure1_slot7;
                 var3['goliveSimulcastLQBitrateMax'] = var2;
                 var3['goliveSimulcastLQBitrateTarget'] = var2;
@@ -677,10 +678,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var6 = 'setGoLiveUsePixelCounts';
         var1['key'] = var6;
-        var6 = function value(arg1) {
-            var2 = arg1;
-            var1 = this;
-            var1['goliveUsePixelCounts'] = var2;
+        var6 = function value(arg1, arg2) {
+            var2 = this;
+            var1 = arg1;
+            var2['goliveUsePixelCounts'] = var1;
+            var1 = arg2;
+            var2['goliveAdjustResolution'] = var1;
             var1 = undefined;
             return var1;
         };
@@ -775,7 +778,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 if(!var1) { _fun0010_ip = 25; continue _fun0010 }
  15:
                 var1 = 100;
-                if(!(!(var3 < var1))) { _fun0010_ip = 558; continue _fun0010 }
+                if(!(!(var3 < var1))) { _fun0010_ip = 628; continue _fun0010 }
  25:
                 var1 = var2.goliveMaxQuality;
                 var1 = var1.encode;
@@ -794,82 +797,95 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var4;
  70:
                 var4 = arg2;
-                var15 = var4 / var6;
-                if(!(!(var15 >= var1))) { _fun0010_ip = 550; continue _fun0010 }
+                var16 = var4 / var6;
+                if(!(!(var16 >= var1))) { _fun0010_ip = 620; continue _fun0010 }
  84:
                 var1 = 0;
-                if(!(!(var15 <= var1))) { _fun0010_ip = 550; continue _fun0010 }
+                if(!(!(var16 <= var1))) { _fun0010_ip = 620; continue _fun0010 }
  93:
                 var1 = var2.goliveUsePixelCounts;
-                if(!var1) { _fun0010_ip = 550; continue _fun0010 }
+                if(!var1) { _fun0010_ip = 620; continue _fun0010 }
  105:
+                var6 = global;
+                var8 = var6.Math;
+                var4 = var8.ceil;
                 var1 = var2.goliveMaxQuality;
                 var1 = var1.bitrateMin;
-                var13 = var1 * var15;
+                var1 = var1 * var16;
+                var13 = var4.bind(var8)(var1);
+                var8 = var6.Math;
+                var4 = var8.ceil;
                 var1 = var2.goliveMaxQuality;
                 var1 = var1.bitrateMax;
-                var12 = var1 * var15;
+                var1 = var1 * var16;
+                var12 = var4.bind(var8)(var1);
                 var1 = var2.goliveMaxQuality;
                 var1 = var1.bitrateTarget;
                 var1 = var7 != var1;
                 var9 = undefined;
-                if(!var1) { _fun0010_ip = 174; continue _fun0010 }
- 158:
+                if(!var1) { _fun0010_ip = 227; continue _fun0010 }
+ 194:
+                var8 = var6.Math;
+                var4 = var8.ceil;
                 var1 = var2.goliveMaxQuality;
                 var1 = var1.bitrateTarget;
-                var9 = var1 * var15;
- 174:
+                var1 = var1 * var16;
+                var9 = var4.bind(var8)(var1);
+ 227:
                 var1 = var2.goliveMaxQuality;
                 var1 = var1.encode;
-                var1 = var7 != var1;
-                var6 = undefined;
-                if(!var1) { _fun0010_ip = 382; continue _fun0010 }
- 198:
-                var1 = global;
-                var10 = var1.Math;
-                var8 = var10.ceil;
-                var4 = var2.goliveMaxQuality;
-                var4 = var4.encode;
-                var11 = var4.width;
-                var14 = var1.Math;
-                var4 = var14.sqrt;
-                var4 = var4.bind(var14)(var15);
-                var4 = var11 * var4;
-                var10 = var8.bind(var10)(var4);
-                var8 = var1.Math;
-                var4 = var8.ceil;
-                var11 = var2.goliveMaxQuality;
-                var11 = var11.encode;
-                var11 = var11.height;
-                var14 = var1.Math;
+                if(!(var7 != var1)) { _fun0010_ip = 252; continue _fun0010 }
+ 243:
+                var1 = var2.goliveAdjustResolution;
+                if(var1) { _fun0010_ip = 269; continue _fun0010 }
+ 252:
+                var1 = var2.goliveMaxQuality;
+                var8 = var1.encode;
+                _fun0010_ip = 451; continue _fun0010;
+ 269:
+                var10 = var6.Math;
+                var4 = var10.ceil;
+                var1 = var2.goliveMaxQuality;
+                var1 = var1.encode;
+                var11 = var1.width;
+                var14 = var6.Math;
                 var1 = var14.sqrt;
-                var1 = var1.bind(var14)(var15);
+                var1 = var1.bind(var14)(var16);
                 var1 = var11 * var1;
-                var4 = var4.bind(var8)(var1);
-                var8 = _closure1_slot13;
+                var11 = var4.bind(var10)(var1);
+                var10 = var6.Math;
+                var4 = var10.ceil;
+                var1 = var2.goliveMaxQuality;
+                var1 = var1.encode;
+                var14 = var1.height;
+                var15 = var6.Math;
+                var1 = var15.sqrt;
+                var1 = var1.bind(var15)(var16);
+                var1 = var14 * var1;
+                var4 = var4.bind(var10)(var1);
+                var10 = _closure1_slot13;
                 var1 = {};
-                var1['width'] = var10;
+                var1['width'] = var11;
                 var1['height'] = var4;
-                var11 = var2.goliveMaxQuality;
-                var11 = var11.encode;
-                var11 = var11.framerate;
-                var1['framerate'] = var11;
-                var4 = var10 * var4;
+                var14 = var2.goliveMaxQuality;
+                var14 = var14.encode;
+                var14 = var14.framerate;
+                var1['framerate'] = var14;
+                var4 = var11 * var4;
                 var1['pixelCount'] = var4;
-                var4 = var8.prototype;
-                var4 = Object.create(var4, {constructor: {value: var8}});
-                var18 = var4;
-                var17 = var1;
-                var1 = new var18[var8](var17, var16);
-                var6 = var1 instanceof Object ? var1 : var4;
- 382:
+                var4 = var10.prototype;
+                var4 = Object.create(var4, {constructor: {value: var10}});
+                var19 = var4;
+                var18 = var1;
+                var1 = new var19[var10](var18, var17);
+                var8 = var1 instanceof Object ? var1 : var4;
+ 451:
                 var4 = _closure1_slot12;
                 var1 = {};
-                var1['encode'] = var6;
-                var6 = var2.goliveMaxQuality;
-                var6 = var6.capture;
-                var1['capture'] = var6;
-                var6 = global;
+                var1['encode'] = var8;
+                var8 = var2.goliveMaxQuality;
+                var8 = var8.capture;
+                var1['capture'] = var8;
                 var11 = var6.Math;
                 var10 = var11.max;
                 var8 = var2.options;
@@ -882,28 +898,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var8.videoBitrateFloor;
                 var8 = var10.bind(var11)(var12, var8);
                 var1['bitrateMax'] = var8;
+                var7 = var7 != var9;
                 var5 = undefined;
-                if(!(var7 != var9)) { _fun0010_ip = 515; continue _fun0010 }
- 487:
+                if(!var7) { _fun0010_ip = 585; continue _fun0010 }
+ 557:
                 var8 = var6.Math;
                 var7 = var8.max;
                 var6 = var2.options;
                 var6 = var6.videoBitrateFloor;
                 var5 = var7.bind(var8)(var9, var6);
- 515:
+ 585:
                 var1['bitrateTarget'] = var5;
                 var1['localWant'] = var3;
                 var3 = var4.prototype;
                 var3 = Object.create(var3, {constructor: {value: var4}});
-                var18 = var3;
-                var17 = var1;
-                var1 = new var18[var4](var17, var16);
+                var19 = var3;
+                var18 = var1;
+                var1 = new var19[var4](var18, var17);
                 var1 = var1 instanceof Object ? var1 : var3;
                 return var1;
- 550:
+ 620:
                 var1 = var2.goliveMaxQuality;
                 return var1;
- 558:
+ 628:
                 var1 = var2.getGoliveLQQuality;
                 var1 = var1.bind(var2)();
                 return var1;

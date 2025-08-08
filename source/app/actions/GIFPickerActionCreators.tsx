@@ -94,8 +94,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[var5] = var10;
             var5 = arg2;
             var7 = var8.bind(var9)(var7, var5, var6);
-            if(!(var3 != var4)) { _fun0002_ip = 189; continue _fun0002 }
- 157:
+            if(!(var3 != var4)) { _fun0002_ip = 193; continue _fun0002 }
+ 161:
             var6 = {};
             var3 = global;
             var5 = var3.Date;
@@ -103,10 +103,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)();
             var3 = var3 - var4;
             var6['load_duration_ms'] = var3;
-            _fun0002_ip = 191; continue _fun0002;
- 189:
+            _fun0002_ip = 195; continue _fun0002;
+ 193:
             var6 = {};
- 191:
+ 195:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
             var3 = 4;
@@ -378,8 +378,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var2 = var3 != var7;
  26:
-            if(!var2) { _fun0005_ip = 150; continue _fun0005 }
- 29:
+            if(!var2) { _fun0005_ip = 155; continue _fun0005 }
+ 32:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 6;
@@ -423,7 +423,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
- 150:
+ 155:
             var1 = undefined;
             return var1;
         }

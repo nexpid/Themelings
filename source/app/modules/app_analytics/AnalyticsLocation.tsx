@@ -424,6 +424,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GROUP_DM_CONTEXT_MENU_CHANGE_ICON'] = var1;
     var1 = 'group dm context menu remove icon';
     var2['GROUP_DM_CONTEXT_MENU_REMOVE_ICON'] = var1;
+    var1 = 'dm condensed menu';
+    var2['DM_CONDENSED_MENU'] = var1;
     var1 = 'group dm edit modal';
     var2['GROUP_DM_EDIT_MODAL'] = var1;
     var1 = 'new group dm invite modal';

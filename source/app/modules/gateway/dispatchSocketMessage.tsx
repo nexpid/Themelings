@@ -372,134 +372,160 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function dispatchGuildMemberAdd(arg1, arg2, arg3) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            var14 = arg1;
-            var13 = arg2;
-            var2 = arg3;
-            var12 = var2.roles;
-            var11 = var2.nick;
-            var10 = var2.avatar;
-            var9 = var2.avatar_decoration_data;
-            var1 = var2.flags;
-            var8 = var2.premium_since;
-            var7 = var2.pending;
-            var6 = var2.joined_at;
-            var5 = var2.communication_disabled_until;
-            var4 = var2.unusual_dm_activity_until;
-            var16 = _closure1_slot11;
-            var15 = var16.getMember;
-            var3 = var13.id;
-            var15 = var15.bind(var16)(var14, var3);
-            var16 = null;
-            var3 = var16 != var15;
-            if(!var3) { _fun0007_ip = 111; continue _fun0007 }
- 101:
-            var17 = var15.nick;
+            var15 = arg1;
+            var14 = arg2;
+            var1 = arg3;
+            var13 = var1.roles;
+            var12 = var1.nick;
+            var11 = var1.avatar;
+            var10 = var1.avatar_decoration_data;
+            var4 = var1.flags;
+            var9 = var1.premium_since;
+            var8 = var1.pending;
+            var7 = var1.joined_at;
+            var6 = var1.communication_disabled_until;
+            var5 = var1.unusual_dm_activity_until;
+            var1 = var1.collectibles;
+            var17 = _closure1_slot11;
+            var16 = var17.getMember;
+            var3 = var14.id;
+            var16 = var16.bind(var17)(var15, var3);
+            var19 = null;
+            var3 = var19 != var16;
+            if(!var3) { _fun0007_ip = 117; continue _fun0007 }
+ 107:
+            var17 = var16.nick;
+            var3 = var17 === var12;
+ 117:
+            if(!var3) { _fun0007_ip = 130; continue _fun0007 }
+ 120:
+            var17 = var16.avatar;
             var3 = var17 === var11;
- 111:
-            if(!var3) { _fun0007_ip = 124; continue _fun0007 }
- 114:
-            var17 = var15.avatar;
-            var3 = var17 === var10;
- 124:
-            if(!var3) { _fun0007_ip = 167; continue _fun0007 }
- 127:
-            var19 = _closure1_slot1;
+ 130:
+            if(!var3) { _fun0007_ip = 173; continue _fun0007 }
+ 133:
+            var20 = _closure1_slot1;
             var18 = _closure1_slot3;
             var17 = 20;
             var18 = var18[var17];
             var17 = undefined;
-            var19 = var19.bind(var17)(var18);
-            var18 = var19.isEqual;
-            var17 = var15.roles;
-            var3 = var18.bind(var19)(var17, var12);
- 167:
-            if(!var3) { _fun0007_ip = 234; continue _fun0007 }
- 170:
-            var19 = _closure1_slot0;
+            var20 = var20.bind(var17)(var18);
+            var18 = var20.isEqual;
+            var17 = var16.roles;
+            var3 = var18.bind(var20)(var17, var13);
+ 173:
+            if(!var3) { _fun0007_ip = 240; continue _fun0007 }
+ 176:
+            var20 = _closure1_slot0;
             var18 = _closure1_slot3;
             var17 = 31;
             var18 = var18[var17];
             var17 = undefined;
-            var20 = var19.bind(var17)(var18);
-            var19 = var20.isEqualAvatarDecoration;
-            var17 = var15.avatarDecoration;
-            var21 = var16 != var17;
+            var21 = var20.bind(var17)(var18);
+            var20 = var21.isEqualAvatarDecoration;
+            var17 = var16.avatarDecoration;
+            var22 = var19 != var17;
             var18 = null;
-            if(!var21) { _fun0007_ip = 216; continue _fun0007 }
- 213:
+            if(!var22) { _fun0007_ip = 222; continue _fun0007 }
+ 219:
             var18 = var17;
- 216:
-            var21 = var16 != var9;
+ 222:
+            var22 = var19 != var10;
             var17 = null;
-            if(!var21) { _fun0007_ip = 228; continue _fun0007 }
- 225:
-            var17 = var9;
- 228:
-            var3 = var19.bind(var20)(var18, var17);
+            if(!var22) { _fun0007_ip = 234; continue _fun0007 }
+ 231:
+            var17 = var10;
  234:
-            if(!var3) { _fun0007_ip = 247; continue _fun0007 }
- 237:
-            var17 = var15.premiumSince;
+            var3 = var20.bind(var21)(var18, var17);
+ 240:
+            if(!var3) { _fun0007_ip = 253; continue _fun0007 }
+ 243:
+            var17 = var16.premiumSince;
+            var3 = var17 === var9;
+ 253:
+            if(!var3) { _fun0007_ip = 266; continue _fun0007 }
+ 256:
+            var17 = var16.isPending;
             var3 = var17 === var8;
- 247:
-            if(!var3) { _fun0007_ip = 260; continue _fun0007 }
- 250:
-            var17 = var15.isPending;
+ 266:
+            if(!var3) { _fun0007_ip = 279; continue _fun0007 }
+ 269:
+            var17 = var16.joinedAt;
             var3 = var17 === var7;
- 260:
-            if(!var3) { _fun0007_ip = 273; continue _fun0007 }
- 263:
-            var17 = var15.joinedAt;
+ 279:
+            if(!var3) { _fun0007_ip = 292; continue _fun0007 }
+ 282:
+            var17 = var16.communicationDisabledUntil;
             var3 = var17 === var6;
- 273:
-            if(!var3) { _fun0007_ip = 286; continue _fun0007 }
- 276:
-            var17 = var15.communicationDisabledUntil;
-            var3 = var17 === var5;
- 286:
-            if(!var3) { _fun0007_ip = 298; continue _fun0007 }
- 289:
-            var17 = var15.flags;
-            var3 = var17 === var1;
- 298:
-            if(!var3) { _fun0007_ip = 335; continue _fun0007 }
- 301:
-            var17 = var15.unusualDMActivityUntil;
-            var18 = var16 != var17;
-            var15 = null;
-            if(!var18) { _fun0007_ip = 319; continue _fun0007 }
- 316:
-            var15 = var17;
- 319:
-            var17 = var16 != var4;
+ 292:
+            if(!var3) { _fun0007_ip = 304; continue _fun0007 }
+ 295:
+            var17 = var16.flags;
+            var3 = var17 === var4;
+ 304:
+            if(!var3) { _fun0007_ip = 341; continue _fun0007 }
+ 307:
+            var17 = var16.unusualDMActivityUntil;
+            var20 = var19 != var17;
+            var18 = null;
+            if(!var20) { _fun0007_ip = 325; continue _fun0007 }
+ 322:
+            var18 = var17;
+ 325:
+            var20 = var19 != var5;
+            var17 = null;
+            if(!var20) { _fun0007_ip = 337; continue _fun0007 }
+ 334:
+            var17 = var5;
+ 337:
+            var3 = var18 === var17;
+ 341:
+            if(!var3) { _fun0007_ip = 408; continue _fun0007 }
+ 344:
+            var20 = _closure1_slot1;
+            var18 = _closure1_slot3;
+            var17 = 20;
+            var18 = var18[var17];
+            var17 = undefined;
+            var18 = var20.bind(var17)(var18);
+            var17 = var18.isEqual;
+            var20 = var16.collectibles;
+            var21 = var19 != var20;
             var16 = null;
-            if(!var17) { _fun0007_ip = 331; continue _fun0007 }
- 328:
-            var16 = var4;
- 331:
-            var3 = var15 === var16;
- 335:
-            if(var3) { _fun0007_ip = 416; continue _fun0007 }
- 338:
+            if(!var21) { _fun0007_ip = 390; continue _fun0007 }
+ 387:
+            var16 = var20;
+ 390:
+            var20 = var19 != var1;
+            var19 = null;
+            if(!var20) { _fun0007_ip = 402; continue _fun0007 }
+ 399:
+            var19 = var1;
+ 402:
+            var3 = var17.bind(var18)(var16, var19);
+ 408:
+            if(var3) { _fun0007_ip = 494; continue _fun0007 }
+ 411:
             var3 = _closure1_slot26;
             var2 = {};
-            var15 = 'GUILD_MEMBER_ADD';
-            var2['type'] = var15;
-            var2['guildId'] = var14;
-            var2['user'] = var13;
-            var2['roles'] = var12;
-            var2['nick'] = var11;
-            var2['avatar'] = var10;
-            var2['avatarDecoration'] = var9;
-            var2['premiumSince'] = var8;
-            var2['isPending'] = var7;
-            var2['joinedAt'] = var6;
-            var2['communicationDisabledUntil'] = var5;
-            var2['unusualDMActivityUntil'] = var4;
-            var2['flags'] = var1;
+            var16 = 'GUILD_MEMBER_ADD';
+            var2['type'] = var16;
+            var2['guildId'] = var15;
+            var2['user'] = var14;
+            var2['roles'] = var13;
+            var2['nick'] = var12;
+            var2['avatar'] = var11;
+            var2['avatarDecoration'] = var10;
+            var2['premiumSince'] = var9;
+            var2['isPending'] = var8;
+            var2['joinedAt'] = var7;
+            var2['communicationDisabledUntil'] = var6;
+            var2['unusualDMActivityUntil'] = var5;
+            var2['flags'] = var4;
+            var2['collectibles'] = var1;
             var1 = undefined;
             var1 = var3.bind(var1)(var2);
- 416:
+ 494:
             var1 = undefined;
             return var1;
         }
@@ -2937,8 +2963,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['communicationDisabledUntil'] = var4;
         var4 = var1.unusual_dm_activity_until;
         var2['unusualDMActivityUntil'] = var4;
-        var1 = var1.flags;
-        var2['flags'] = var1;
+        var4 = var1.flags;
+        var2['flags'] = var4;
+        var1 = var1.collectibles;
+        var2['collectibles'] = var1;
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
         return var1;

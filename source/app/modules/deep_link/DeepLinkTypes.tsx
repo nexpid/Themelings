@@ -16,6 +16,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['OS'] = var1;
     var1 = 'iterable';
     var2['Iterable'] = var1;
+    var1 = 'appsflyer';
+    var2['AppsFlyer'] = var1;
+    var1 = 'appsflyer_deferred';
+    var2['AppsFlyerDeferred'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

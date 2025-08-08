@@ -235,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.isAndroid;
             var6 = var5.bind(var6)();
             var5 = var13;
-            if(!var6) { _fun0001_ip = 582; continue _fun0001 }
+            if(!var6) { _fun0001_ip = 586; continue _fun0001 }
  448:
             var8 = _closure1_slot9;
             var7 = _closure1_slot5;
@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var11.bind(var4)(var10, var9);
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 582:
+ 586:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

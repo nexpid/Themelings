@@ -313,26 +313,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var4.bind(var3)(var5);
                 var7 = var8.tokenizeQuery;
                 var5 = arg1;
-                var5 = var7.bind(var8)(var5);
+                var8 = var7.bind(var8)(var5);
+                var5 = var6[var2];
+                var7 = var4.bind(var3)(var5);
+                var5 = var7.getSearchQueryFromTokens;
+                var5 = var5.bind(var7)(var8);
                 var2 = var6[var2];
                 var4 = var4.bind(var3)(var2);
-                var2 = var4.getSearchQueryFromTokens;
-                var2 = var2.bind(var4)(var5);
-                var5 = var2.content;
+                var2 = var4.getQueryContentString;
+                var5 = var2.bind(var4)(var5);
                 var2 = null;
                 var4 = var2 == var5;
                 var3 = undefined;
-                if(var4) { _fun0002_ip = 218; continue _fun0002 }
- 208:
+                if(var4) { _fun0002_ip = 233; continue _fun0002 }
+ 223:
                 var4 = var5.trim;
                 var3 = var4.bind(var5)();
- 218:
+ 233:
                 var4 = var2 != var3;
-                var2 = null;
-                if(!var4) { _fun0002_ip = 230; continue _fun0002 }
- 227:
+                var2 = '';
+                if(!var4) { _fun0002_ip = 247; continue _fun0002 }
+ 244:
                 var2 = var3;
- 230:
+ 247:
                 var1['tokenizedQueryContent'] = var2;
                 var2 = arg2;
                 var1['lineClamp'] = var2;

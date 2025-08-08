@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = null;
             var2 = var11 != var14;
             var8 = undefined;
-            if(!var2) { _fun0001_ip = 253; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 257; continue _fun0001 }
  204:
             var9 = _closure1_slot4;
             var3 = _closure1_slot0;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {'variant': 'text-xs/medium', 'color': 'text-muted', 'lineClamp': 1};
             var2['children'] = var14;
             var8 = var9.bind(var4)(var3, var2);
- 253:
+ 257:
             var3 = _closure1_slot4;
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -111,18 +111,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var11 != var10;
             var9 = '';
             var14 = var9;
-            if(!var15) { _fun0001_ip = 302; continue _fun0001 }
- 299:
+            if(!var15) { _fun0001_ip = 306; continue _fun0001 }
+ 303:
             var14 = var10;
- 302:
+ 306:
             var1['label'] = var14;
             var1['icon'] = var13;
             var1['onPress'] = var12;
             var11 = var11 != var10;
-            if(!var11) { _fun0001_ip = 324; continue _fun0001 }
- 321:
+            if(!var11) { _fun0001_ip = 328; continue _fun0001 }
+ 325:
             var9 = var10;
- 324:
+ 328:
             var1['accessibilityLabel'] = var9;
             var1['subLabel'] = var8;
             var1['trailing'] = var7;

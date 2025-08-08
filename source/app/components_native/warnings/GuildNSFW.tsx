@@ -61,16 +61,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = arg1;
             var _closure2_slot0 = var11;
             var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var6 = _closure1_slot2;
             var1 = 7;
-            var6 = var2[var1];
+            var2 = var6[var1];
             var4 = undefined;
-            var10 = var3.bind(var4)(var6);
+            var10 = var3.bind(var4)(var2);
             var9 = var10.useStateFromStores;
-            var6 = _closure1_slot5;
+            var2 = _closure1_slot5;
             var7 = new Array(1);
-            var7[0] = var6;
-            var6 = function() {
+            var7[0] = var2;
+            var2 = function() {
                 var3 = _closure1_slot5;
                 var2 = var3.getGuild;
                 var1 = _closure2_slot0;
@@ -78,13 +78,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var13 = var9.bind(var10)(var7, var6);
-            var1 = var2[var1];
+            var13 = var9.bind(var10)(var7, var2);
+            var1 = var6[var1];
             var9 = var3.bind(var4)(var1);
             var7 = var9.useStateFromStores;
             var1 = _closure1_slot6;
-            var6 = new Array(1);
-            var6[0] = var1;
+            var2 = new Array(1);
+            var2[0] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -103,20 +103,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var1 = var7.bind(var9)(var6, var1);
-            var6 = 8;
-            var7 = var2[var6];
+            var1 = var7.bind(var9)(var2, var1);
+            var2 = 8;
+            var7 = var6[var2];
             var9 = var3.bind(var4)(var7);
             var7 = var9.useShouldAgeVerifyForAgeGate;
-            var16 = var7.bind(var9)();
-            var6 = var2[var6];
-            var9 = var3.bind(var4)(var6);
-            var7 = var9.useAgeGateVerifyContent;
-            var6 = _closure1_slot8;
-            var6 = var6.NSFW_CHANNEL;
-            var6 = var7.bind(var9)(var6);
-            var9 = var6.verifyAgreementButtonText;
-            var10 = var6.verifyGateDescription;
+            var15 = var7.bind(var9)();
+            var2 = var6[var2];
+            var6 = var3.bind(var4)(var2);
+            var3 = var6.useAgeGateVerifyContent;
+            var2 = _closure1_slot4;
+            var2 = var2.bind(var4)(var13);
+            var7 = _closure1_slot8;
+            if(var2) { _fun0001_ip = 164; continue _fun0001 }
+ 156:
+            var2 = var7.NSFW_CHANNEL;
+            _fun0001_ip = 170; continue _fun0001;
+ 164:
+            var2 = var7.NSFW_SERVER;
+ 170:
+            var2 = var3.bind(var6)(var2);
+            var9 = var2.verifyAgreementButtonText;
+            var10 = var2.verifyGateDescription;
             var6 = function handleDisagree() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -141,9 +149,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var15 = _closure1_slot3;
-            var14 = var15.useCallback;
-            var12 = function() {
+            var12 = _closure1_slot3;
+            var7 = var12.useCallback;
+            var3 = function() {
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var1 = 10;
@@ -160,15 +168,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var7 = new Array(0);
-            var7 = var14.bind(var15)(var12, var7);
+            var2 = new Array(0);
+            var7 = var7.bind(var12)(var3, var2);
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
             var12 = 12;
             var12 = var2[var12];
             var14 = var3.bind(var4)(var12);
             var12 = var14.useNsfwSource;
             var14 = var12.bind(var14)();
             var12 = _closure1_slot4;
-            var15 = var12.bind(var4)(var13);
+            var16 = var12.bind(var4)(var13);
             var12 = 13;
             var2 = var2[var12];
             var2 = var3.bind(var4)(var2);
@@ -179,13 +189,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2[var12];
             var2 = var17.bind(var4)(var2);
             var17 = var2.t;
-            if(var15) { _fun0001_ip = 286; continue _fun0001 }
- 278:
+            if(var16) { _fun0001_ip = 314; continue _fun0001 }
+ 306:
             var2 = var17.ZmwvDQ;
-            _fun0001_ip = 292; continue _fun0001;
- 286:
+            _fun0001_ip = 320; continue _fun0001;
+ 314:
             var2 = var17.xi46lp;
- 292:
+ 320:
             var13 = var3.bind(var13)(var2);
             var3 = _closure1_slot9;
             var17 = _closure1_slot1;
@@ -193,66 +203,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 14;
             var2 = var18[var2];
             var2 = var17.bind(var4)(var2);
-            if(var16) { _fun0001_ip = 895; continue _fun0001 }
- 327:
-            if(var1) { _fun0001_ip = 606; continue _fun0001 }
- 333:
+            if(var15) { _fun0001_ip = 983; continue _fun0001 }
+ 355:
+            if(var1) { _fun0001_ip = 634; continue _fun0001 }
+ 361:
             var1 = {};
-            var16 = var11.guildId;
-            var1['guildId'] = var16;
-            var16 = var11.channelId;
-            var1['channelId'] = var16;
+            var15 = var11.guildId;
+            var1['guildId'] = var15;
+            var15 = var11.channelId;
+            var1['channelId'] = var15;
             var17 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var15 = _closure1_slot2;
             var18 = 11;
-            var18 = var16[var18];
+            var18 = var15[var18];
             var18 = var17.bind(var4)(var18);
             var18 = var18.NsfwSpaceWarningModalType;
             var18 = var18.NSFW_CHANNEL_VERIFIED;
             var1['modalType'] = var18;
             var1['source'] = var14;
             var1['title'] = var13;
-            var16 = var16[var12];
-            var16 = var17.bind(var4)(var16);
-            var17 = var16.intl;
-            var16 = var17.string;
-            var19 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var18 = var18[var12];
-            var18 = var19.bind(var4)(var18);
-            var18 = var18.t;
-            if(var15) { _fun0001_ip = 450; continue _fun0001 }
- 442:
-            var15 = var18.E4Cd5O;
-            _fun0001_ip = 458; continue _fun0001;
- 450:
-            var15 = var18.ZtuRtr;
- 458:
-            var15 = var16.bind(var17)(var15);
-            var1['description'] = var15;
-            var18 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var16 = var15[var12];
-            var16 = var18.bind(var4)(var16);
-            var19 = var16.intl;
-            var17 = var19.string;
-            var16 = var15[var12];
-            var16 = var18.bind(var4)(var16);
-            var16 = var16.t;
-            var16 = var16.wVq7ur;
-            var16 = var17.bind(var19)(var16);
-            var1['agreement'] = var16;
-            var16 = 'destructive';
-            var1['agreementButtonVariant'] = var16;
-            var16 = var15[var12];
-            var16 = var18.bind(var4)(var16);
-            var17 = var16.intl;
-            var16 = var17.string;
             var15 = var15[var12];
-            var15 = var18.bind(var4)(var15);
+            var15 = var17.bind(var4)(var15);
+            var18 = var15.intl;
+            var17 = var18.string;
+            var19 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var15 = var15[var12];
+            var15 = var19.bind(var4)(var15);
+            var19 = var15.t;
+            if(var16) { _fun0001_ip = 478; continue _fun0001 }
+ 470:
+            var15 = var19.E4Cd5O;
+            _fun0001_ip = 486; continue _fun0001;
+ 478:
+            var15 = var19.ZtuRtr;
+ 486:
+            var15 = var17.bind(var18)(var15);
+            var1['description'] = var15;
+            var19 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var17 = var15[var12];
+            var17 = var19.bind(var4)(var17);
+            var20 = var17.intl;
+            var18 = var20.string;
+            var17 = var15[var12];
+            var17 = var19.bind(var4)(var17);
+            var17 = var17.t;
+            var17 = var17.wVq7ur;
+            var17 = var18.bind(var20)(var17);
+            var1['agreement'] = var17;
+            var17 = 'destructive';
+            var1['agreementButtonVariant'] = var17;
+            var17 = var15[var12];
+            var17 = var19.bind(var4)(var17);
+            var18 = var17.intl;
+            var17 = var18.string;
+            var15 = var15[var12];
+            var15 = var19.bind(var4)(var15);
             var15 = var15.t;
             var15 = var15./g10LC;
-            var15 = var16.bind(var17)(var15);
+            var15 = var17.bind(var18)(var15);
             var1['disagreement'] = var15;
             var5 = function onAgree() {
                 var3 = _closure1_slot1;
@@ -269,57 +279,78 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['onAgree'] = var5;
             var1['onDisagree'] = var6;
-            _fun0001_ip = 890; continue _fun0001;
- 606:
+            _fun0001_ip = 978; continue _fun0001;
+ 634:
             var5 = {};
             var15 = var11.guildId;
             var5['guildId'] = var15;
             var15 = var11.channelId;
             var5['channelId'] = var15;
-            var18 = _closure1_slot0;
+            var17 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var16 = 11;
-            var16 = var15[var16];
-            var16 = var18.bind(var4)(var16);
-            var16 = var16.NsfwSpaceWarningModalType;
-            var16 = var16.NSFW_CHANNEL_UNDERAGE;
-            var5['modalType'] = var16;
-            var22 = _closure1_slot1;
-            var16 = 15;
-            var16 = var15[var16];
-            var16 = var22.bind(var4)(var16);
-            var5['source'] = var16;
-            var16 = var15[var12];
-            var16 = var18.bind(var4)(var16);
-            var19 = var16.intl;
-            var17 = var19.string;
-            var16 = var15[var12];
-            var16 = var18.bind(var4)(var16);
-            var16 = var16.t;
-            var16 = var16.NEabBQ;
-            var16 = var17.bind(var19)(var16);
-            var5['title'] = var16;
-            var16 = var15[var12];
-            var16 = var18.bind(var4)(var16);
-            var20 = var16.intl;
-            var19 = var20.format;
-            var16 = var15[var12];
-            var16 = var18.bind(var4)(var16);
-            var16 = var16.t;
-            var17 = var16.2kHZen;
+            var18 = 11;
+            var18 = var15[var18];
+            var18 = var17.bind(var4)(var18);
+            var18 = var18.NsfwSpaceWarningModalType;
+            var18 = var18.NSFW_CHANNEL_UNDERAGE;
+            var5['modalType'] = var18;
+            var19 = _closure1_slot1;
+            var18 = 15;
+            var18 = var15[var18];
+            var18 = var19.bind(var4)(var18);
+            var5['source'] = var18;
+            var15 = var15[var12];
+            var15 = var17.bind(var4)(var15);
+            var18 = var15.intl;
+            var17 = var18.string;
+            var19 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var15 = var15[var12];
+            var15 = var19.bind(var4)(var15);
+            var19 = var15.t;
+            if(var16) { _fun0001_ip = 765; continue _fun0001 }
+ 755:
+            var15 = var19.NEabBQ;
+            _fun0001_ip = 771; continue _fun0001;
+ 765:
+            var15 = var19.H0SG/v;
+ 771:
+            var15 = var17.bind(var18)(var15);
+            var5['title'] = var15;
+            var17 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var15 = var15[var12];
+            var15 = var17.bind(var4)(var15);
+            var19 = var15.intl;
+            var18 = var19.format;
+            var17 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var15 = var15[var12];
+            var15 = var17.bind(var4)(var15);
+            var15 = var15.t;
+            if(var16) { _fun0001_ip = 842; continue _fun0001 }
+ 832:
+            var17 = var15.2kHZen;
+            _fun0001_ip = 850; continue _fun0001;
+ 842:
+            var17 = var15.6++3cX;
+ 850:
             var16 = {};
-            var21 = 16;
-            var21 = var15[var21];
-            var23 = var22.bind(var4)(var21);
-            var22 = var23.getArticleURL;
-            var21 = _closure1_slot7;
-            var21 = var21.NSFW_AGE_GATING;
-            var21 = var22.bind(var23)(var21);
-            var16['helpURL'] = var21;
-            var16 = var19.bind(var20)(var17, var16);
+            var21 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var20 = 16;
+            var20 = var15[var20];
+            var22 = var21.bind(var4)(var20);
+            var21 = var22.getArticleURL;
+            var20 = _closure1_slot7;
+            var20 = var20.NSFW_AGE_GATING;
+            var20 = var21.bind(var22)(var20);
+            var16['helpURL'] = var20;
+            var16 = var18.bind(var19)(var17, var16);
             var5['description'] = var16;
             var16 = 'primary';
             var5['disagreementButtonVariant'] = var16;
+            var18 = _closure1_slot0;
             var16 = var15[var12];
             var16 = var18.bind(var4)(var16);
             var17 = var16.intl;
@@ -332,9 +363,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['disagreement'] = var15;
             var5['onDisagree'] = var6;
             var1 = var5;
- 890:
-            _fun0001_ip = 1031; continue _fun0001;
- 895:
+ 978:
+            _fun0001_ip = 1119; continue _fun0001;
+ 983:
             var5 = {};
             var15 = var11.guildId;
             var5['guildId'] = var15;
@@ -365,7 +396,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['onAgree'] = var7;
             var5['onDisagree'] = var6;
             var1 = var5;
- 1031:
+ 1119:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

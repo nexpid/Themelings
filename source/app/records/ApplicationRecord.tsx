@@ -439,7 +439,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function ApplicationRecord(arg1) {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                var2 = arg1;
+                var3 = arg1;
                 var6 = this;
                 var1 = _closure1_slot3;
                 var5 = _closure2_slot0;
@@ -447,9 +447,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.bind(var8)(var6, var5);
                 var4 = _closure1_slot11;
                 var1 = new Array(1);
-                var1[0] = var2;
+                var1[0] = var3;
                 var1 = var4.bind(var8)(var6, var5, var1);
-                var6 = var2.overlay;
+                var6 = var3.overlay;
                 var4 = null;
                 var5 = var4 != var6;
                 if(!var5) { _fun0010_ip = 65; continue _fun0010 }
@@ -457,21 +457,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var6;
  65:
                 var1['overlay'] = var5;
-                var6 = var2.overlayWarn;
+                var6 = var3.overlayWarn;
                 var5 = var4 != var6;
                 if(!var5) { _fun0010_ip = 87; continue _fun0010 }
  84:
                 var5 = var6;
  87:
                 var1['overlayWarn'] = var5;
-                var6 = var2.overlayCompatibilityHook;
+                var6 = var3.overlayCompatibilityHook;
                 var5 = var4 != var6;
                 if(!var5) { _fun0010_ip = 109; continue _fun0010 }
  106:
                 var5 = var6;
  109:
                 var1['overlayCompatibilityHook'] = var5;
-                var5 = var2.overlayMethods;
+                var5 = var3.overlayMethods;
                 if(!(var4 == var5)) { _fun0010_ip = 157; continue _fun0010 }
  125:
                 var7 = _closure1_slot0;
@@ -483,114 +483,120 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var6.DEFAULT;
  157:
                 var1['overlayMethods'] = var5;
-                var6 = var2.hook;
+                var6 = var3.hook;
                 var5 = var4 == var6;
                 if(var5) { _fun0010_ip = 179; continue _fun0010 }
  176:
                 var5 = var6;
  179:
                 var1['hook'] = var5;
-                var5 = var2.aliases;
+                var5 = var3.aliases;
                 if(!(var4 == var5)) { _fun0010_ip = 199; continue _fun0010 }
  195:
                 var5 = new Array(0);
  199:
                 var1['aliases'] = var5;
-                var5 = var2.publishers;
+                var5 = var3.publishers;
                 if(!(var4 == var5)) { _fun0010_ip = 219; continue _fun0010 }
  215:
                 var5 = new Array(0);
  219:
                 var1['publishers'] = var5;
-                var5 = var2.developers;
+                var5 = var3.developers;
                 if(!(var4 == var5)) { _fun0010_ip = 239; continue _fun0010 }
  235:
                 var5 = new Array(0);
  239:
                 var1['developers'] = var5;
-                var5 = var2.storeListingSkuId;
+                var5 = var3.storeListingSkuId;
                 var1['storeListingSkuId'] = var5;
-                var5 = var2.guildId;
+                var5 = var3.guildId;
                 var1['guildId'] = var5;
-                var5 = var2.guild;
+                var5 = var3.guild;
                 var1['guild'] = var5;
-                var6 = var2.executables;
+                var6 = var3.executables;
                 if(!(var4 == var6)) { _fun0010_ip = 293; continue _fun0010 }
  289:
                 var6 = new Array(0);
  293:
                 var5 = var6.map;
-                var3 = _closure1_slot13;
-                var3 = var5.bind(var6)(var3);
-                var1['executables'] = var3;
-                var3 = var2.hashes;
-                if(!(var4 == var3)) { _fun0010_ip = 327; continue _fun0010 }
+                var2 = _closure1_slot13;
+                var2 = var5.bind(var6)(var2);
+                var1['executables'] = var2;
+                var2 = var3.hashes;
+                if(!(var4 == var2)) { _fun0010_ip = 327; continue _fun0010 }
  323:
-                var3 = new Array(0);
+                var2 = new Array(0);
  327:
-                var1['hashes'] = var3;
-                var3 = var2.eulaId;
-                var1['eulaId'] = var3;
-                var3 = var2.slug;
-                var1['slug'] = var3;
-                var5 = var2.flags;
+                var1['hashes'] = var2;
+                var2 = var3.eulaId;
+                var1['eulaId'] = var2;
+                var2 = var3.slug;
+                var1['slug'] = var2;
+                var5 = var3.flags;
                 var6 = var4 != var5;
-                var3 = 0;
+                var2 = 0;
                 if(!var6) { _fun0010_ip = 374; continue _fun0010 }
  371:
-                var3 = var5;
+                var2 = var5;
  374:
-                var1['flags'] = var3;
-                var3 = var2.tags;
-                if(!(var4 == var3)) { _fun0010_ip = 394; continue _fun0010 }
+                var1['flags'] = var2;
+                var2 = var3.tags;
+                if(!(var4 == var2)) { _fun0010_ip = 394; continue _fun0010 }
  390:
-                var3 = new Array(0);
+                var2 = new Array(0);
  394:
-                var1['tags'] = var3;
-                var3 = var2.maxParticipants;
-                var1['maxParticipants'] = var3;
-                var3 = var2.embedded_activity_config;
-                if(!(var4 == var3)) { _fun0010_ip = 428; continue _fun0010 }
+                var1['tags'] = var2;
+                var2 = var3.maxParticipants;
+                var1['maxParticipants'] = var2;
+                var2 = var3.embedded_activity_config;
+                if(!(var4 == var2)) { _fun0010_ip = 428; continue _fun0010 }
  422:
-                var3 = var2.embeddedActivityConfig;
+                var2 = var3.embeddedActivityConfig;
  428:
-                var1['embeddedActivityConfig'] = var3;
-                var3 = var2.team;
-                var1['team'] = var3;
-                var3 = var2.integrationTypesConfig;
-                var1['integrationTypesConfig'] = var3;
-                var3 = var2.storefront_available;
-                var1['storefront_available'] = var3;
-                var3 = var2.termsOfServiceUrl;
-                var1['termsOfServiceUrl'] = var3;
-                var3 = var2.privacyPolicyUrl;
-                var1['privacyPolicyUrl'] = var3;
-                var3 = var2.is_discoverable;
-                if(!(var4 == var3)) { _fun0010_ip = 510; continue _fun0010 }
+                var1['embeddedActivityConfig'] = var2;
+                var2 = var3.team;
+                var1['team'] = var2;
+                var2 = var3.integrationTypesConfig;
+                var1['integrationTypesConfig'] = var2;
+                var2 = var3.storefront_available;
+                var1['storefront_available'] = var2;
+                var2 = var3.termsOfServiceUrl;
+                var1['termsOfServiceUrl'] = var2;
+                var2 = var3.privacyPolicyUrl;
+                var1['privacyPolicyUrl'] = var2;
+                var2 = var3.is_discoverable;
+                if(!(var4 == var2)) { _fun0010_ip = 510; continue _fun0010 }
  504:
-                var3 = var2.isDiscoverable;
+                var2 = var3.isDiscoverable;
  510:
-                var1['isDiscoverable'] = var3;
-                var3 = var2.custom_install_url;
-                if(!(var4 == var3)) { _fun0010_ip = 532; continue _fun0010 }
+                var1['isDiscoverable'] = var2;
+                var2 = var3.custom_install_url;
+                if(!(var4 == var2)) { _fun0010_ip = 532; continue _fun0010 }
  526:
-                var3 = var2.customInstallUrl;
+                var2 = var3.customInstallUrl;
  532:
-                var1['customInstallUrl'] = var3;
-                var3 = var2.install_params;
-                if(!(var4 == var3)) { _fun0010_ip = 554; continue _fun0010 }
+                var1['customInstallUrl'] = var2;
+                var2 = var3.install_params;
+                if(!(var4 == var2)) { _fun0010_ip = 554; continue _fun0010 }
  548:
-                var3 = var2.installParams;
+                var2 = var3.installParams;
  554:
-                var1['installParams'] = var3;
-                var3 = var2.directory_entry;
-                if(!(var4 == var3)) { _fun0010_ip = 576; continue _fun0010 }
+                var1['installParams'] = var2;
+                var2 = var3.directory_entry;
+                if(!(var4 == var2)) { _fun0010_ip = 576; continue _fun0010 }
  570:
-                var3 = var2.directoryEntry;
+                var2 = var3.directoryEntry;
  576:
-                var1['directoryEntry'] = var3;
-                var2 = var2.categories;
+                var1['directoryEntry'] = var2;
+                var2 = var3.categories;
                 var1['categories'] = var2;
+                var2 = var3.linked_games;
+                if(!(var4 == var2)) { _fun0010_ip = 610; continue _fun0010 }
+ 604:
+                var2 = var3.linkedGames;
+ 610:
+                var1['linkedGames'] = var2;
                 return var1;
             }
         };
@@ -868,12 +874,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var4.directoryEntry;
  879:
                 var1['directoryEntry'] = var6;
-                var2 = var2.categories;
-                if(!(var5 == var2)) { _fun0011_ip = 900; continue _fun0011 }
+                var6 = var2.categories;
+                if(!(var5 == var6)) { _fun0011_ip = 900; continue _fun0011 }
  894:
-                var2 = var4.categories;
+                var6 = var4.categories;
  900:
-                var1['categories'] = var2;
+                var1['categories'] = var6;
+                var2 = var2.linkedGames;
+                if(!(var5 == var2)) { _fun0011_ip = 921; continue _fun0011 }
+ 915:
+                var2 = var4.linkedGames;
+ 921:
+                var1['linkedGames'] = var2;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
                 var12 = var2;
@@ -1175,8 +1187,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2.directory_entry;
                 var4 = 'directoryEntry';
                 var1[var4] = var5;
-                var4 = var2.categories;
-                var2 = 'categories';
+                var5 = var2.categories;
+                var4 = 'categories';
+                var1[var4] = var5;
+                var4 = var2.linked_games;
+                var2 = 'linkedGames';
                 var1[var2] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});

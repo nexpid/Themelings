@@ -128,15 +128,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var3['consumeLogs'] = var5;
         var3['BlockedDomainsStore'] = var4;
-        var4 = function getKvDatabaseAPI() {
+        var4 = function getFluxApi() {
             var1 = {};
-            var3 = function registerStore(arg1, arg2, arg3) {
+            var3 = function registerKvStore(arg1, arg2) {
                 var5 = arg2;
-                var4 = _closure1_slot2;
-                var3 = var4.registerKvStore;
-                var2 = arg1;
-                var1 = arg3;
-                var1 = var3.bind(var4)(var2, var5, var1);
+                var3 = _closure1_slot2;
+                var2 = var3.registerKvStore;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1, var5);
                 var2 = var1.storeToken;
                 var4 = var1.root;
                 var3 = var1.derived;
@@ -146,7 +145,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['storeToken'] = var2;
                 return var1;
             };
-            var1['registerStore'] = var3;
+            var1['registerKvStore'] = var3;
+            var3 = function registerKkvStore(arg1, arg2) {
+                var5 = arg2;
+                var3 = _closure1_slot2;
+                var2 = var3.registerKkvStore;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1, var5);
+                var2 = var1.storeToken;
+                var4 = var1.root;
+                var3 = var1.derived;
+                var1 = undefined;
+                var1 = var5.bind(var1)(var4, var3);
+                var1 = {};
+                var1['storeToken'] = var2;
+                return var1;
+            };
+            var1['registerKkvStore'] = var3;
             var4 = _closure1_slot2;
             var4 = var4.findStoresThatCanHandleActionType;
             var1['findStoresThatCanHandleActionType'] = var4;
@@ -158,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['dispatchAction'] = var3;
             var2 = function getMemoryStatistics(arg1) {
                 var3 = _closure1_slot2;
-                var2 = var3.getKvStoreMemoryStatistics;
+                var2 = var3.getStoreMemoryStatistics;
                 var1 = arg1;
                 var1 = var2.bind(var3)(var1);
                 return var1;
@@ -166,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['getMemoryStatistics'] = var2;
             return var1;
         };
-        var3['getKvDatabaseAPI'] = var4;
+        var3['getFluxApi'] = var4;
         var4 = function crash() {
             var2 = _closure1_slot2;
             var1 = var2.crash;

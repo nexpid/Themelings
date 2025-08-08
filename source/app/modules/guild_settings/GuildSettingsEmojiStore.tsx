@@ -35,13 +35,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot10 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -84,6 +84,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = {};
     var _closure1_slot8 = var7;
     var _closure1_slot9 = var2;
+    var2 = false;
+    var _closure1_slot10 = var2;
     var2 = 7;
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
@@ -101,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot3;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot2;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
@@ -142,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(4);
+        var1 = new Array(5);
         var1[0] = var5;
         var5 = {};
         var7 = 'isUploadingEmoji';
@@ -179,14 +181,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var7 = 'getEmojis';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             var2 = _closure1_slot8;
             var1 = arg1;
             var1 = var2[var1];
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[3] = var5;
+        var5 = {};
+        var7 = 'getEmojiFileInputAutoOpen';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = _closure1_slot10;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[4] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -266,6 +277,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['EMOJI_UPLOAD_STOP'] = var8;
+    var8 = function handleEmojiFileInputAutoOpen(arg1) {
+        var1 = arg1;
+        var2 = var1.autoOpen;
+        _closure1_slot10 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var2['EMOJI_FILE_INPUT_AUTO_OPEN'] = var8;
     var4 = function handleGuildEmojiUpdate(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:

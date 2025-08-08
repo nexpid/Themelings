@@ -447,7 +447,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var20.bind(var4)(var19);
             var19 = var19.NoResults;
             var10['Illustration'] = var19;
-            var10['title'] = var13;
+            var10['body'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             _fun0003_ip = 853; continue _fun0003;
  745:

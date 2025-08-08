@@ -33,12 +33,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['DISPLAY_NAME'] = var1;
     var1 = 'account_information';
     var5['ACCOUNT_INFORMATION'] = var1;
-    var1 = 'username';
-    var5['USERNAME'] = var1;
-    var1 = 'password';
-    var5['PASSWORD'] = var1;
-    var1 = 'identity_and_password';
-    var5['IDENTITY_AND_PASSWORD'] = var1;
     var1 = 'full';
     var5['FULL'] = var1;
     var1 = 'age_gate';
@@ -64,12 +58,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['REGISTER'] = var1;
     var1 = 'Captcha';
     var4['CAPTCHA'] = var1;
-    var1 = 'Username';
-    var4['USERNAME'] = var1;
-    var1 = 'Password';
-    var4['PASSWORD'] = var1;
-    var1 = 'Account Identity and Password';
-    var4['ACCOUNT_IDENTITY_AND_PASSWORD'] = var1;
     var _closure1_slot2 = var4;
     var1 = 1;
     var7 = var7[var1];
@@ -93,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var2)(var3);
             var3 = var3.AuthStates;
             var3 = var3.REGISTER_IDENTITY;
-            if(!(var3 !== var4)) { _fun0001_ip = 375; continue _fun0001 }
+            if(!(var3 !== var4)) { _fun0001_ip = 231; continue _fun0001 }
  46:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -101,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var2)(var3);
             var3 = var3.AuthStates;
             var3 = var3.REGISTER_DISPLAY_NAME;
-            if(!(var3 !== var4)) { _fun0001_ip = 363; continue _fun0001 }
+            if(!(var3 !== var4)) { _fun0001_ip = 219; continue _fun0001 }
  82:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -109,78 +97,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var2)(var3);
             var3 = var3.AuthStates;
             var3 = var3.REGISTER_ACCOUNT_INFORMATION;
-            if(!(var3 !== var4)) { _fun0001_ip = 351; continue _fun0001 }
- 118:
+            if(!(var3 !== var4)) { _fun0001_ip = 207; continue _fun0001 }
+ 115:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var6];
             var3 = var5.bind(var2)(var3);
             var3 = var3.AuthStates;
             var3 = var3.AGE_GATE;
-            if(!(var3 !== var4)) { _fun0001_ip = 339; continue _fun0001 }
- 154:
+            if(!(var3 !== var4)) { _fun0001_ip = 195; continue _fun0001 }
+ 148:
             var5 = _closure1_slot0;
             var3 = _closure1_slot1;
             var3 = var3[var6];
             var3 = var5.bind(var2)(var3);
             var3 = var3.AuthStates;
             var3 = var3.VERIFY_PHONE;
-            if(!(var3 !== var4)) { _fun0001_ip = 327; continue _fun0001 }
- 190:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var6];
-            var3 = var5.bind(var2)(var3);
-            var3 = var3.AuthStates;
-            var3 = var3.REGISTER_USERNAME;
-            if(!(var3 !== var4)) { _fun0001_ip = 315; continue _fun0001 }
- 223:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var6];
-            var3 = var5.bind(var2)(var3);
-            var3 = var3.AuthStates;
-            var3 = var3.REGISTER_PASSWORD;
-            if(!(var3 !== var4)) { _fun0001_ip = 303; continue _fun0001 }
- 256:
-            var5 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var3 = var3[var6];
-            var3 = var5.bind(var2)(var3);
-            var3 = var3.AuthStates;
-            var3 = var3.REGISTER_IDENTITY_AND_PASSWORD;
-            if(!(var3 !== var4)) { _fun0001_ip = 291; continue _fun0001 }
- 289:
+            if(!(var3 !== var4)) { _fun0001_ip = 183; continue _fun0001 }
+ 181:
             return var2;
- 291:
-            var2 = _closure1_slot2;
-            var2 = var2.ACCOUNT_IDENTITY_AND_PASSWORD;
-            return var2;
- 303:
-            var2 = _closure1_slot2;
-            var2 = var2.PASSWORD;
-            return var2;
- 315:
-            var2 = _closure1_slot2;
-            var2 = var2.USERNAME;
-            return var2;
- 327:
+ 183:
             var2 = _closure1_slot2;
             var2 = var2.PHONE_VERIFICATION;
             return var2;
- 339:
+ 195:
             var2 = _closure1_slot2;
             var2 = var2.AGE_GATE;
             return var2;
- 351:
+ 207:
             var2 = _closure1_slot2;
             var2 = var2.ACCOUNT_INFORMATION;
             return var2;
- 363:
+ 219:
             var2 = _closure1_slot2;
             var2 = var2.ACCOUNT_DISPLAY_NAME;
             return var2;
- 375:
+ 231:
             var1 = _closure1_slot2;
             var1 = var1.ACCOUNT_IDENTITY;
             return var1;
