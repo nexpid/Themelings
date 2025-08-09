@@ -207,6 +207,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = arg1;
             var5 = var5.id;
             var1['defaultSelectedUserId'] = var5;
+            var5 = 'Friends Screen';
+            var1['sourcePage'] = var5;
             var2['params'] = var1;
             var1 = 'friends';
             var1 = var3.bind(var4)(var1, var2);

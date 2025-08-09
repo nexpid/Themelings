@@ -142,14 +142,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 5;
             var1 = var4[var1];
             var4 = undefined;
-            var1 = var3.bind(var4)(var1);
-            var6 = var1.CustomThemeMobileRenderingExperiment;
-            var3 = var6.getCurrentConfig;
-            var1 = {};
-            var7 = 'handleSaveTheme';
-            var1['location'] = var7;
+            var6 = var3.bind(var4)(var1);
+            var3 = var6.isCustomThemeMobileRenderingEnabled;
+            var1 = 'handleSaveTheme';
             var1 = var3.bind(var6)(var1);
-            var1 = var1.enabled;
             var6 = _closure1_slot6;
             var3 = {};
             var7 = true;
@@ -165,8 +161,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var5.theme;
             var3 = _closure1_slot4;
             var3 = var3.MIDNIGHT;
-            if(!(var6 === var3)) { _fun0002_ip = 160; continue _fun0002 }
- 127:
+            if(!(var6 === var3)) { _fun0002_ip = 143; continue _fun0002 }
+ 110:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 6;
@@ -175,13 +171,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.setShouldSyncAppearanceSettings;
             var3 = false;
             var3 = var6.bind(var7)(var3);
- 160:
+ 143:
             var6 = var5.theme;
             var3 = 'system';
-            if(!(var3 !== var6)) { _fun0002_ip = 615; continue _fun0002 }
- 176:
-            if(!var1) { _fun0002_ip = 223; continue _fun0002 }
- 179:
+            if(!(var3 !== var6)) { _fun0002_ip = 598; continue _fun0002 }
+ 159:
+            if(!var1) { _fun0002_ip = 206; continue _fun0002 }
+ 162:
             var3 = var5.type;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -190,8 +186,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.bind(var4)(var1);
             var1 = var1.ClientThemeType;
             var1 = var1.CUSTOM_BACKGROUND_GRADIENT;
-            if(!(var3 !== var1)) { _fun0002_ip = 459; continue _fun0002 }
- 223:
+            if(!(var3 !== var1)) { _fun0002_ip = 442; continue _fun0002 }
+ 206:
             var3 = var5.type;
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -200,8 +196,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.bind(var4)(var1);
             var1 = var1.ClientThemeType;
             var1 = var1.BACKGROUND_GRADIENT_PRESET;
-            if(!(var3 !== var1)) { _fun0002_ip = 352; continue _fun0002 }
- 264:
+            if(!(var3 !== var1)) { _fun0002_ip = 335; continue _fun0002 }
+ 247:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 7;
@@ -222,8 +218,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.theme;
             var1['theme'] = var7;
             var1 = var3.bind(var6)(var1);
-            _fun0002_ip = 454; continue _fun0002;
- 352:
+            _fun0002_ip = 437; continue _fun0002;
+ 335:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 7;
@@ -247,9 +243,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var5.theme;
             var3['theme'] = var8;
             var1 = var6.bind(var7)(var3);
- 454:
-            _fun0002_ip = 613; continue _fun0002;
- 459:
+ 437:
+            _fun0002_ip = 596; continue _fun0002;
+ 442:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 7;
@@ -278,18 +274,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var5.theme;
             var8 = var9.bind(var10)(var8);
             var9 = _closure1_slot4;
-            if(var8) { _fun0002_ip = 598; continue _fun0002 }
- 590:
+            if(var8) { _fun0002_ip = 581; continue _fun0002 }
+ 573:
             var8 = var9.LIGHT;
-            _fun0002_ip = 604; continue _fun0002;
- 598:
+            _fun0002_ip = 587; continue _fun0002;
+ 581:
             var8 = var9.DARK;
- 604:
+ 587:
             var3['theme'] = var8;
             var1 = var6.bind(var7)(var3);
- 613:
-            _fun0002_ip = 701; continue _fun0002;
- 615:
+ 596:
+            _fun0002_ip = 684; continue _fun0002;
+ 598:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 7;
@@ -310,7 +306,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.theme;
             var2['theme'] = var5;
             var1 = var3.bind(var4)(var2);
- 701:
+ 684:
             return var1;
         }
     };

@@ -20,6 +20,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var5 = var10.card;
         var1['style'] = var5;
+        var5 = true;
+        var1['accessible'] = var5;
+        var5 = global;
+        var5 = var5.HermesInternal;
+        var7 = var5.concat;
+        var6 = '';
+        var5 = ' - ';
+        var5 = var7.bind(var6)(var14, var5, var9);
+        var1['accessibilityLabel'] = var5;
         var13 = _closure1_slot4;
         var7 = _closure1_slot0;
         var11 = _closure1_slot2;

@@ -1658,7 +1658,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1['neverLoadBeforeConnectionOpen'] = var4;
     var2['AVErrorManager'] = var1;
     var1 = {};
-    var8 = ['STREAM_WATCH', 'STREAM_START', 'STREAM_CREATE', 'STREAM_UPDATE', 'STREAM_DELETE', 'STREAM_CLOSE', 'CALL_UPDATE', 'CHANNEL_UPDATES', 'VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED'];
+    var8 = ['STREAM_WATCH', 'STREAM_START', 'STREAM_CREATE', 'STREAM_UPDATE', 'STREAM_DELETE', 'STREAM_CLOSE', 'CALL_UPDATE', 'CHANNEL_UPDATES', 'VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES'];
     var1['actions'] = var8;
     var8 = function inlineRequire() {
         var3 = _closure1_slot0;

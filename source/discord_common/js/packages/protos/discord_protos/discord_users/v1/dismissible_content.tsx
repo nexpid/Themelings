@@ -1690,6 +1690,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['SEARCH_AUTHOR_TYPE_SEARCH_RESULTS_HINT'] = var2;
     var1 = 'SEARCH_AUTHOR_TYPE_SEARCH_RESULTS_HINT';
     var4[var2] = var1;
+    var2 = 577;
+    var4['REFERRAL_PROGRAM_POPOVER'] = var2;
+    var1 = 'REFERRAL_PROGRAM_POPOVER';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

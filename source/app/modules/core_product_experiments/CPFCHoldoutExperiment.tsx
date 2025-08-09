@@ -1,4 +1,4 @@
-// app/modules/culture_creation/CultureCreationHoldoutExperiment.tsx
+// app/modules/core_product_experiments/CPFCHoldoutExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7[var4];
     var8 = var6.bind(var1)(var4);
     var5 = var8.createExperiment;
-    var4 = {'kind': 'user', 'id': '2025-04_culture_creation_holdout', 'label': 'Culture Creation Holdout'};
+    var4 = {'kind': 'user', 'id': '2025-08_cpfc_holdout', 'label': 'CPFC Holdout'};
     var9 = var9.CONNECTION_OPEN;
     var4['commonTriggerPoint'] = var9;
     var9 = {};
@@ -40,10 +40,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/culture_creation/CultureCreationHoldoutExperiment.tsx';
+    var5 = 'modules/core_product_experiments/CPFCHoldoutExperiment.tsx';
     var5 = var6.bind(var7)(var5);
-    var3['CultureCreationHoldoutExperiment'] = var4;
-    var4 = function useIsInCultureCreationHoldout(arg1) {
+    var3['CPFCHoldoutExperiment'] = var4;
+    var4 = function useIsInCPFCHoldout(arg1) {
         var4 = _closure1_slot0;
         var3 = var4.useExperiment;
         var2 = {};
@@ -56,8 +56,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.inHoldout;
         return var1;
     };
-    var3['useIsInCultureCreationHoldout'] = var4;
-    var2 = function isInCultureCreationHoldout(arg1) {
+    var3['useIsInCPFCHoldout'] = var4;
+    var2 = function isInCPFCHoldout(arg1) {
         var4 = _closure1_slot0;
         var3 = var4.getCurrentConfig;
         var2 = {};
@@ -70,6 +70,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.inHoldout;
         return var1;
     };
-    var3['isInCultureCreationHoldout'] = var2;
+    var3['isInCPFCHoldout'] = var2;
     return var1;
 })();

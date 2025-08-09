@@ -634,10 +634,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var8;
             var8 = var12.length;
-            if(!(!(var8 > var9))) { _fun0001_ip = 897; continue _fun0001 }
- 829:
-            if(var6) { _fun0001_ip = 897; continue _fun0001 }
- 832:
+            if(!(!(var8 > var9))) { _fun0001_ip = 919; continue _fun0001 }
+ 851:
+            if(var6) { _fun0001_ip = 919; continue _fun0001 }
+ 854:
             var9 = _closure1_slot13;
             var8 = _closure1_slot1;
             var19 = _closure1_slot3;
@@ -649,15 +649,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['onSelectCategory'] = var17;
             var19 = true;
             var17 = undefined;
-            if(!(var19 !== var20)) { _fun0001_ip = 879; continue _fun0001 }
- 876:
+            if(!(var19 !== var20)) { _fun0001_ip = 901; continue _fun0001 }
+ 898:
             var17 = var18;
- 879:
+ 901:
             var6['favoritesCategory'] = var17;
             var6['inActionSheet'] = var13;
             var6 = var9.bind(var4)(var8, var6);
-            _fun0001_ip = 964; continue _fun0001;
- 897:
+            _fun0001_ip = 986; continue _fun0001;
+ 919:
             var9 = _closure1_slot13;
             var8 = _closure1_slot1;
             var17 = _closure1_slot3;
@@ -673,7 +673,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['onPressGIF'] = var11;
             var7['ListFooterComponent'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 964:
+ 986:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

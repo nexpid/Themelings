@@ -289,7 +289,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.getId;
             var3 = var1.bind(var3)();
             var1 = arg2;
-            if(!(var1 !== var3)) { _fun0007_ip = 421; continue _fun0007 }
+            if(!(var1 !== var3)) { _fun0007_ip = 413; continue _fun0007 }
  30:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -297,19 +297,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4[var1];
             var11 = undefined;
             var1 = var3.bind(var11)(var1);
-            var6 = var1.ViewRobloxSubgamesInRichPresenceExperiment;
-            var5 = var6.getCurrentConfig;
-            var4 = {};
-            var1 = 'presence_filtering';
-            var4['location'] = var1;
+            var5 = var1.ViewRobloxSubgamesInRichPresenceExperiment;
+            var4 = var5.getConfig;
             var3 = {};
-            var7 = false;
-            var3['autoTrackExposure'] = var7;
-            var3 = var5.bind(var6)(var4, var3);
+            var1 = 'presence_filtering';
+            var3['location'] = var1;
+            var3 = var4.bind(var5)(var3);
             var3 = var3.enabled;
             var5 = var2;
-            if(var3) { _fun0007_ip = 119; continue _fun0007 }
- 102:
+            if(var3) { _fun0007_ip = 109; continue _fun0007 }
+ 92:
             var4 = var2.map;
             var3 = function(arg1) {
                 var3 = _closure1_slot0;
@@ -324,7 +321,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5 = var4.bind(var2)(var3);
- 119:
+ 109:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 12;
@@ -335,20 +332,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {};
             var3['location'] = var1;
             var1 = {};
+            var7 = false;
             var1['autoTrackExposure'] = var7;
             var10 = var4.bind(var6)(var3, var1);
             var1 = var10.filterGamePresence;
-            if(var1) { _fun0007_ip = 206; continue _fun0007 }
- 179:
+            if(var1) { _fun0007_ip = 198; continue _fun0007 }
+ 171:
             var1 = var10.filterRichPresence;
-            if(var1) { _fun0007_ip = 206; continue _fun0007 }
- 188:
+            if(var1) { _fun0007_ip = 198; continue _fun0007 }
+ 180:
             var1 = {};
             var1['visible'] = var5;
             var3 = new Array(0);
             var1['hidden'] = var3;
             return var1;
- 206:
+ 198:
             var4 = new Array(0);
             var3 = new Array(0);
             var1 = _closure1_slot26;
@@ -359,63 +357,63 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var6 = var5;
             var5 = undefined;
-            if(var1) { _fun0007_ip = 407; continue _fun0007 }
- 248:
+            if(var1) { _fun0007_ip = 399; continue _fun0007 }
+ 240:
             var14 = var6.value;
             var13 = var14.type;
             var1 = _closure1_slot12;
             var1 = var1.PLAYING;
-            if(!(var13 !== var1)) { _fun0007_ip = 284; continue _fun0007 }
- 272:
+            if(!(var13 !== var1)) { _fun0007_ip = 276; continue _fun0007 }
+ 264:
             var1 = var4.push;
             var1 = var1.bind(var4)(var14);
-            _fun0007_ip = 389; continue _fun0007;
- 284:
+            _fun0007_ip = 381; continue _fun0007;
+ 276:
             var1 = var14.application_id;
             var1 = var7 != var1;
-            if(!var1) { _fun0007_ip = 319; continue _fun0007 }
- 297:
+            if(!var1) { _fun0007_ip = 311; continue _fun0007 }
+ 289:
             var15 = _closure1_slot1;
             var13 = _closure1_slot2;
             var13 = var13[var8];
             var13 = var15.bind(var11)(var13);
             var1 = var13.bind(var11)(var14);
- 319:
+ 311:
             var13 = var10.filterGamePresence;
-            if(var13) { _fun0007_ip = 370; continue _fun0007 }
- 328:
+            if(var13) { _fun0007_ip = 362; continue _fun0007 }
+ 320:
             var13 = var10.filterRichPresence;
-            if(!var13) { _fun0007_ip = 340; continue _fun0007 }
- 337:
-            if(var1) { _fun0007_ip = 355; continue _fun0007 }
- 340:
+            if(!var13) { _fun0007_ip = 332; continue _fun0007 }
+ 329:
+            if(var1) { _fun0007_ip = 347; continue _fun0007 }
+ 332:
             var13 = var4.push;
             var13 = var13.bind(var4)(var14);
             var5 = var1;
-            _fun0007_ip = 389; continue _fun0007;
- 355:
+            _fun0007_ip = 381; continue _fun0007;
+ 347:
             var13 = var3.push;
             var13 = var13.bind(var3)(var14);
             var5 = var1;
-            _fun0007_ip = 389; continue _fun0007;
- 370:
+            _fun0007_ip = 381; continue _fun0007;
+ 362:
             var5 = var1;
-            if(!var1) { _fun0007_ip = 389; continue _fun0007 }
- 376:
+            if(!var1) { _fun0007_ip = 381; continue _fun0007 }
+ 368:
             var13 = var3.push;
             var13 = var13.bind(var3)(var14);
             var5 = var1;
- 389:
+ 381:
             var13 = var9.bind(var11)();
             var1 = var13.done;
             var6 = var13;
-            if(!var1) { _fun0007_ip = 248; continue _fun0007 }
- 407:
+            if(!var1) { _fun0007_ip = 240; continue _fun0007 }
+ 399:
             var1 = {};
             var1['visible'] = var4;
             var1['hidden'] = var3;
             return var1;
- 421:
+ 413:
             var1 = {};
             var1['visible'] = var2;
             var2 = new Array(0);

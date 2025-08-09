@@ -581,7 +581,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = arg1;
                     var2 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 1817; continue _fun0005 }
+                    if(var3) { _fun0005_ip = 1827; continue _fun0005 }
  18:
                     var10 = var5;
                     var _closure4_slot0 = var5;
@@ -590,50 +590,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  31:
                     var2 = {};
  33:
-                    var23 = var2;
+                    var24 = var2;
+                    var19 = undefined;
                     var18 = undefined;
                     var4 = undefined;
-                    var22 = undefined;
+                    var23 = undefined;
                     var8 = undefined;
                     var15 = undefined;
                     var _closure4_slot1 = var5;
-                    var26 = undefined;
+                    var27 = undefined;
                     var11 = undefined;
                     var _closure4_slot2 = var5;
                     var9 = undefined;
                     var _closure4_slot3 = var5;
                     var16 = undefined;
-                    var28 = undefined;
                     var29 = undefined;
-                    var27 = undefined;
+                    var30 = undefined;
+                    var28 = undefined;
                     var _closure4_slot4 = var5;
                     var14 = undefined;
                     var _closure4_slot5 = var5;
-                    var19 = undefined;
+                    var21 = undefined;
                     var20 = undefined;
                     var17 = undefined;
-                    var21 = undefined;
-                    SaveGenerator(address=94);
- 92:
-                    return var5;
+                    var22 = undefined;
+                    SaveGenerator(address=96);
  94:
+                    return var5;
+ 96:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 1814; continue _fun0005 }
- 103:
+                    if(var3) { _fun0005_ip = 1824; continue _fun0005 }
+ 105:
                     var3 = var10;
-                    var25 = null;
-                    if(!(var25 != var3)) { _fun0005_ip = 1778; continue _fun0005 }
- 115:
-                    var24 = _closure1_slot3;
-                    var12 = var24.verbose;
+                    var26 = null;
+                    if(!(var26 != var3)) { _fun0005_ip = 1788; continue _fun0005 }
+ 117:
+                    var25 = _closure1_slot3;
+                    var12 = var25.verbose;
                     var6 = var10;
-                    var31 = var6.name;
+                    var32 = var6.name;
                     var6 = global;
                     var7 = var6.HermesInternal;
-                    var30 = var7.concat;
+                    var31 = var7.concat;
                     var7 = '[WebP] Starting conversion for: ';
-                    var7 = var30.bind(var7)(var31);
-                    var7 = var12.bind(var24)(var7);
+                    var7 = var31.bind(var7)(var32);
+                    var7 = var12.bind(var25)(var7);
                     var12 = var6.performance;
                     var7 = var12.now;
                     var18 = var7.bind(var12)();
@@ -671,67 +672,67 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         }
                     };
- 185: // try_start_2
-                    var24 = _closure1_slot9;
+ 187: // try_start_2
+                    var25 = _closure1_slot9;
                     var12 = var10;
-                    var7 = var23;
-                    var7 = var24.bind(var5)(var12, var7);
-                    SaveGenerator(address=205);
- 203:
-                    return var7;
+                    var7 = var24;
+                    var7 = var25.bind(var5)(var12, var7);
+                    SaveGenerator(address=207);
  205:
+                    return var7;
+ 207:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=11);
-                    if(var12) { _fun0005_ip = 1708; continue _fun0005 }
- 214:
+                    if(var12) { _fun0005_ip = 1718; continue _fun0005 }
+ 216:
                     var8 = var7;
                     var12 = var7.should;
-                    if(var12) { _fun0005_ip = 286; continue _fun0005 }
- 226:
-                    var30 = _closure1_slot3;
-                    var24 = var30.verbose;
-                    var32 = var8.reason;
+                    if(var12) { _fun0005_ip = 288; continue _fun0005 }
+ 228:
+                    var31 = _closure1_slot3;
+                    var25 = var31.verbose;
+                    var33 = var8.reason;
                     var12 = var6.HermesInternal;
-                    var31 = var12.concat;
+                    var32 = var12.concat;
                     var12 = '[WebP] Conversion rejected: ';
-                    var12 = var31.bind(var12)(var32);
-                    var12 = var24.bind(var30)(var12);
+                    var12 = var32.bind(var12)(var33);
+                    var12 = var25.bind(var31)(var12);
                     var12 = var4;
                     var8 = var8.reason;
                     var8 = var12.bind(var5)(var8);
- 283: // try_end2
+ 285: // try_end2
                     return var8;
- 286: // try_start_3
-                    var24 = var6.document;
-                    var12 = var24.createElement;
+ 288: // try_start_3
+                    var25 = var6.document;
+                    var12 = var25.createElement;
                     var8 = 'canvas';
-                    var24 = var12.bind(var24)(var8);
-                    var15 = var24;
-                    _closure4_slot1 = var24;
-                    var12 = var24.getContext;
+                    var25 = var12.bind(var25)(var8);
+                    var15 = var25;
+                    _closure4_slot1 = var25;
+                    var12 = var25.getContext;
                     var8 = '2d';
-                    var8 = var12.bind(var24)(var8);
-                    var26 = var8;
-                    if(!(var25 != var8)) { _fun0005_ip = 1674; continue _fun0005 }
- 341:
+                    var8 = var12.bind(var25)(var8);
+                    var27 = var8;
+                    if(!(var26 != var8)) { _fun0005_ip = 1684; continue _fun0005 }
+ 343:
                     var8 = var6.Image;
                     var12 = var8.prototype;
                     var12 = Object.create(var12, {constructor: {value: var8}});
-                    var64 = var12;
-                    var8 = new var64[var8](var63);
+                    var65 = var12;
+                    var8 = new var65[var8](var64);
                     var8 = var8 instanceof Object ? var8 : var12;
                     var11 = var8;
                     _closure4_slot2 = var8;
-                    var24 = var6.URL;
-                    var12 = var24.createObjectURL;
+                    var25 = var6.URL;
+                    var12 = var25.createObjectURL;
                     var8 = var10;
-                    var8 = var12.bind(var24)(var8);
+                    var8 = var12.bind(var25)(var8);
                     var9 = var8;
                     _closure4_slot3 = var8;
- 401: // try_start_0
-                    var24 = var6.Promise;
-                    var8 = var24.prototype;
-                    var12 = Object.create(var8, {constructor: {value: var24}});
-                    var63 = function(arg1, arg2) {
+ 403: // try_start_0
+                    var25 = var6.Promise;
+                    var8 = var25.prototype;
+                    var12 = Object.create(var8, {constructor: {value: var25}});
+                    var64 = function(arg1, arg2) {
                         var1 = arg1;
                         var _closure5_slot0 = var1;
                         var1 = arg2;
@@ -766,35 +767,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = undefined;
                         return var1;
                     };
-                    var64 = var12;
-                    var8 = new var64[var24](var63, var62);
+                    var65 = var12;
+                    var8 = new var65[var25](var64, var63);
                     var8 = var8 instanceof Object ? var8 : var12;
-                    SaveGenerator(address=436);
- 434:
-                    return var8;
+                    SaveGenerator(address=438);
  436:
+                    return var8;
+ 438:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=11);
-                    if(var12) { _fun0005_ip = 1630; continue _fun0005 }
- 445:
+                    if(var12) { _fun0005_ip = 1640; continue _fun0005 }
+ 447:
                     var12 = var15;
-                    var30 = var11;
-                    var11 = var30.width;
+                    var31 = var11;
+                    var11 = var31.width;
                     var12['width'] = var11;
-                    var11 = var30.height;
+                    var11 = var31.height;
                     var12['height'] = var11;
-                    var12 = var26;
+                    var12 = var27;
                     var11 = var12.drawImage;
-                    var24 = 0;
-                    var11 = var11.bind(var12)(var30, var24, var24);
- 491: // try_end0
-                    var30 = var6.URL;
-                    var12 = var30.revokeObjectURL;
+                    var25 = 0;
+                    var11 = var11.bind(var12)(var31, var25, var25);
+ 493: // try_end0
+                    var31 = var6.URL;
+                    var12 = var31.revokeObjectURL;
                     var11 = var9;
-                    var11 = var12.bind(var30)(var11);
-                    var30 = var6.Promise;
-                    var11 = var30.prototype;
-                    var12 = Object.create(var11, {constructor: {value: var30}});
-                    var63 = function(arg1) {
+                    var11 = var12.bind(var31)(var11);
+                    var31 = var6.Promise;
+                    var11 = var31.prototype;
+                    var12 = Object.create(var11, {constructor: {value: var31}});
+                    var64 = function(arg1) {
                         var5 = _closure4_slot1;
                         var4 = var5.toBlob;
                         var3 = arg1;
@@ -804,67 +805,67 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = undefined;
                         return var1;
                     };
-                    var64 = var12;
-                    var11 = new var64[var30](var63, var62);
+                    var65 = var12;
+                    var11 = new var65[var31](var64, var63);
                     var11 = var11 instanceof Object ? var11 : var12;
-                    SaveGenerator(address=546);
- 544:
-                    return var11;
+                    SaveGenerator(address=548);
  546:
+                    return var11;
+ 548:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(var12) { _fun0005_ip = 1627; continue _fun0005 }
- 555:
+                    if(var12) { _fun0005_ip = 1637; continue _fun0005 }
+ 557:
                     var16 = var11;
-                    if(!(var25 != var11)) { _fun0005_ip = 1593; continue _fun0005 }
- 565:
-                    var30 = var6.performance;
-                    var12 = var30.now;
-                    var28 = var12.bind(var30)();
-                    var32 = var26;
-                    var31 = var32.getImageData;
+                    if(!(var26 != var11)) { _fun0005_ip = 1603; continue _fun0005 }
+ 567:
+                    var31 = var6.performance;
+                    var12 = var31.now;
+                    var29 = var12.bind(var31)();
+                    var33 = var27;
+                    var32 = var33.getImageData;
                     var12 = var15;
-                    var61 = var12.width;
-                    var60 = var12.height;
-                    var64 = var32;
+                    var62 = var12.width;
+                    var61 = var12.height;
+                    var65 = var33;
+                    var64 = 0;
                     var63 = 0;
-                    var62 = 0;
-                    var12 = var64[var31](var63, var62, var61, var60, var59);
-                    SaveGenerator(address=617);
- 615:
-                    return var12;
+                    var12 = var65[var32](var64, var63, var62, var61, var60);
+                    SaveGenerator(address=619);
  617:
-                    ResumeGenerator(result_out_reg=11, return_bool_out_reg=29);
-                    if(var30) { _fun0005_ip = 1590; continue _fun0005 }
- 626:
-                    var29 = var12;
-                    var33 = var26;
-                    var32 = var33.clearRect;
-                    var30 = var15;
-                    var61 = var30.width;
-                    var60 = var30.height;
-                    var64 = var33;
+                    return var12;
+ 619:
+                    ResumeGenerator(result_out_reg=11, return_bool_out_reg=30);
+                    if(var31) { _fun0005_ip = 1600; continue _fun0005 }
+ 628:
+                    var30 = var12;
+                    var34 = var27;
+                    var33 = var34.clearRect;
+                    var31 = var15;
+                    var62 = var31.width;
+                    var61 = var31.height;
+                    var65 = var34;
+                    var64 = 0;
                     var63 = 0;
-                    var62 = 0;
-                    var30 = var64[var32](var63, var62, var61, var60, var59);
-                    var30 = var6.Image;
-                    var31 = var30.prototype;
-                    var31 = Object.create(var31, {constructor: {value: var30}});
-                    var64 = var31;
-                    var30 = new var64[var30](var63);
-                    var30 = var30 instanceof Object ? var30 : var31;
-                    var27 = var30;
-                    _closure4_slot4 = var30;
-                    var32 = var6.URL;
-                    var31 = var32.createObjectURL;
-                    var30 = var16;
-                    var30 = var31.bind(var32)(var30);
-                    var14 = var30;
-                    _closure4_slot5 = var30;
- 722: // try_start_1
-                    var31 = var6.Promise;
-                    var30 = var31.prototype;
-                    var30 = Object.create(var30, {constructor: {value: var31}});
-                    var63 = function(arg1, arg2) {
+                    var31 = var65[var33](var64, var63, var62, var61, var60);
+                    var31 = var6.Image;
+                    var32 = var31.prototype;
+                    var32 = Object.create(var32, {constructor: {value: var31}});
+                    var65 = var32;
+                    var31 = new var65[var31](var64);
+                    var31 = var31 instanceof Object ? var31 : var32;
+                    var28 = var31;
+                    _closure4_slot4 = var31;
+                    var33 = var6.URL;
+                    var32 = var33.createObjectURL;
+                    var31 = var16;
+                    var31 = var32.bind(var33)(var31);
+                    var14 = var31;
+                    _closure4_slot5 = var31;
+ 724: // try_start_1
+                    var32 = var6.Promise;
+                    var31 = var32.prototype;
+                    var31 = Object.create(var31, {constructor: {value: var32}});
+                    var64 = function(arg1, arg2) {
                         var1 = arg1;
                         var _closure5_slot0 = var1;
                         var1 = arg2;
@@ -899,184 +900,186 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = undefined;
                         return var1;
                     };
-                    var64 = var30;
-                    var13 = new var64[var31](var63, var62);
-                    var13 = var13 instanceof Object ? var13 : var30;
-                    SaveGenerator(address=757);
- 755:
-                    return var13;
+                    var65 = var31;
+                    var13 = new var65[var32](var64, var63);
+                    var13 = var13 instanceof Object ? var13 : var31;
+                    SaveGenerator(address=759);
  757:
-                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=29);
-                    if(var30) { _fun0005_ip = 1546; continue _fun0005 }
- 766:
-                    var32 = var26;
-                    var31 = var32.drawImage;
-                    var30 = var27;
-                    var30 = var31.bind(var32)(var30, var24, var24);
- 785: // try_end1
-                    var32 = var6.URL;
-                    var31 = var32.revokeObjectURL;
-                    var30 = var14;
-                    var30 = var31.bind(var32)(var30);
-                    var31 = var26;
-                    var30 = var31.getImageData;
-                    var61 = var15.width;
-                    var60 = var15.height;
-                    var64 = var31;
+                    return var13;
+ 759:
+                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=30);
+                    if(var31) { _fun0005_ip = 1556; continue _fun0005 }
+ 768:
+                    var33 = var27;
+                    var32 = var33.drawImage;
+                    var31 = var28;
+                    var31 = var32.bind(var33)(var31, var25, var25);
+ 787: // try_end1
+                    var33 = var6.URL;
+                    var32 = var33.revokeObjectURL;
+                    var31 = var14;
+                    var31 = var32.bind(var33)(var31);
+                    var32 = var27;
+                    var31 = var32.getImageData;
+                    var62 = var15.width;
+                    var61 = var15.height;
+                    var65 = var32;
+                    var64 = 0;
                     var63 = 0;
-                    var62 = 0;
-                    var15 = var64[var30](var63, var62, var61, var60, var59);
-                    SaveGenerator(address=839);
- 837:
-                    return var15;
+                    var15 = var65[var31](var64, var63, var62, var61, var60);
+                    SaveGenerator(address=841);
  839:
-                    ResumeGenerator(result_out_reg=14, return_bool_out_reg=25);
-                    if(var26) { _fun0005_ip = 1543; continue _fun0005 }
- 848:
-                    var26 = _closure1_slot11;
-                    var46 = var26.bind(var5)(var29);
-                    var45 = var26.bind(var5)(var15);
-                    var26 = var46 === var45;
-                    var30 = var6.performance;
-                    var29 = var30.now;
-                    var29 = var29.bind(var30)();
-                    var31 = var29 - var28;
-                    var29 = _closure1_slot3;
-                    var28 = var29.verbose;
-                    var30 = var10;
-                    var44 = var30.name;
-                    var61 = var30.size;
-                    var59 = var27.width;
-                    var57 = var27.height;
-                    var27 = var16;
-                    var53 = var27.size;
-                    var30 = var6.Math;
-                    var27 = var30.round;
-                    var47 = var27.bind(var30)(var31);
-                    var27 = var6.HermesInternal;
-                    var38 = var27.concat;
-                    var64 = '[WebP] Pixel hash results: fileName=';
-                    var62 = ' fileLength={';
-                    var60 = '} width=';
-                    var58 = ' height=';
-                    var56 = ' pixelHash=';
-                    var54 = ' mezzanineFileLength={';
-                    var52 = '} mezzaninePixelHash=';
-                    var50 = ' match=';
-                    var48 = ' elapsed_ms=';
-                    var63 = var44;
-                    var55 = var46;
-                    var51 = var45;
-                    var49 = var26;
-                    var27 = var64[var38](var63, var62, var61, var60, var59, var58, var57, var56, var55, var54, var53, var52, var51, var50, var49, var48, var47, var46);
-                    var27 = var28.bind(var29)(var27);
-                    if(var26) { _fun0005_ip = 1052; continue _fun0005 }
- 1031:
-                    var27 = var4;
-                    var26 = _closure1_slot4;
-                    var26 = var26.PIXEL_HASH_MISMATCH;
-                    var26 = var27.bind(var5)(var26);
- 1049: // try_end3
-                    return var26;
- 1052: // try_start_4
-                    var26 = var10;
-                    var26 = var26.size;
-                    var28 = var26 > var24;
-                    var27 = 1;
-                    var26 = var27;
-                    if(!var28) { _fun0005_ip = 1093; continue _fun0005 }
- 1073:
+                    return var15;
+ 841:
+                    ResumeGenerator(result_out_reg=14, return_bool_out_reg=26);
+                    if(var27) { _fun0005_ip = 1553; continue _fun0005 }
+ 850:
+                    var27 = _closure1_slot11;
+                    var47 = var27.bind(var5)(var30);
+                    var46 = var27.bind(var5)(var15);
+                    var27 = var47 === var46;
+                    var31 = var6.performance;
+                    var30 = var31.now;
+                    var30 = var30.bind(var31)();
+                    var32 = var30 - var29;
+                    var19 = var32;
+                    var30 = _closure1_slot3;
+                    var29 = var30.verbose;
+                    var31 = var10;
+                    var45 = var31.name;
+                    var62 = var31.size;
+                    var60 = var28.width;
+                    var58 = var28.height;
                     var28 = var16;
-                    var29 = var28.size;
-                    var28 = var10;
-                    var28 = var28.size;
-                    var26 = var29 / var28;
- 1093:
-                    var19 = var26;
-                    var20 = var27 - var26;
-                    var23 = var23.minSizeReductionPercent;
-                    var22 = var23;
-                    var25 = var25 != var23;
-                    var23 = 0.1;
-                    if(!var25) { _fun0005_ip = 1129; continue _fun0005 }
- 1126:
-                    var23 = var22;
- 1129:
-                    var17 = var23;
-                    var22 = var20;
-                    if(!(!(var22 < var23))) { _fun0005_ip = 1440; continue _fun0005 }
- 1142:
+                    var54 = var28.size;
+                    var31 = var6.Math;
+                    var28 = var31.round;
+                    var48 = var28.bind(var31)(var32);
+                    var28 = var6.HermesInternal;
+                    var39 = var28.concat;
+                    var65 = '[WebP] Pixel hash results: fileName=';
+                    var63 = ' fileLength={';
+                    var61 = '} width=';
+                    var59 = ' height=';
+                    var57 = ' pixelHash=';
+                    var55 = ' mezzanineFileLength={';
+                    var53 = '} mezzaninePixelHash=';
+                    var51 = ' match=';
+                    var49 = ' elapsed_ms=';
+                    var64 = var45;
+                    var56 = var47;
+                    var52 = var46;
+                    var50 = var27;
+                    var28 = var65[var39](var64, var63, var62, var61, var60, var59, var58, var57, var56, var55, var54, var53, var52, var51, var50, var49, var48, var47);
+                    var28 = var29.bind(var30)(var28);
+                    if(var27) { _fun0005_ip = 1057; continue _fun0005 }
+ 1036:
+                    var28 = var4;
+                    var27 = _closure1_slot4;
+                    var27 = var27.PIXEL_HASH_MISMATCH;
+                    var27 = var28.bind(var5)(var27);
+ 1054: // try_end3
+                    return var27;
+ 1057: // try_start_4
+                    var27 = var10;
+                    var27 = var27.size;
+                    var29 = var27 > var25;
+                    var28 = 1;
+                    var27 = var28;
+                    if(!var29) { _fun0005_ip = 1098; continue _fun0005 }
+ 1078:
+                    var29 = var16;
+                    var30 = var29.size;
+                    var29 = var10;
+                    var29 = var29.size;
+                    var27 = var30 / var29;
+ 1098:
+                    var21 = var27;
+                    var20 = var28 - var27;
+                    var24 = var24.minSizeReductionPercent;
+                    var23 = var24;
+                    var26 = var26 != var24;
+                    var24 = 0.1;
+                    if(!var26) { _fun0005_ip = 1134; continue _fun0005 }
+ 1131:
+                    var24 = var23;
+ 1134:
+                    var17 = var24;
+                    var23 = var20;
+                    if(!(!(var23 < var24))) { _fun0005_ip = 1450; continue _fun0005 }
+ 1147:
+                    var23 = var10;
+                    var26 = var23.name;
+                    var24 = var26.lastIndexOf;
+                    var23 = '.';
+                    var24 = var24.bind(var26)(var23);
+                    var22 = var24;
+                    var23 = -1;
+                    if(!(var23 !== var24)) { _fun0005_ip = 1205; continue _fun0005 }
+ 1183:
+                    var23 = var10;
+                    var24 = var23.name;
+                    var23 = var24.substring;
+                    var26 = var23.bind(var24)(var25, var22);
+                    _fun0005_ip = 1213; continue _fun0005;
+ 1205:
                     var22 = var10;
-                    var25 = var22.name;
-                    var23 = var25.lastIndexOf;
-                    var22 = '.';
-                    var23 = var23.bind(var25)(var22);
-                    var21 = var23;
-                    var22 = -1;
-                    if(!(var22 !== var23)) { _fun0005_ip = 1200; continue _fun0005 }
- 1178:
-                    var22 = var10;
-                    var23 = var22.name;
-                    var22 = var23.substring;
-                    var25 = var22.bind(var23)(var24, var21);
-                    _fun0005_ip = 1208; continue _fun0005;
- 1200:
-                    var21 = var10;
-                    var25 = var21.name;
- 1208:
-                    var27 = var6.File;
-                    var21 = var16;
-                    var26 = new Array(1);
-                    var26[0] = var21;
-                    var22 = var6.HermesInternal;
-                    var24 = var22.concat;
-                    var23 = '';
-                    var22 = '.webp';
-                    var62 = var24.bind(var23)(var25, var22);
-                    var23 = {};
-                    var22 = 'image/webp';
-                    var23['type'] = var22;
-                    var22 = var10;
-                    var24 = var22.lastModified;
-                    var23['lastModified'] = var24;
-                    var24 = var27.prototype;
-                    var24 = Object.create(var24, {constructor: {value: var27}});
-                    var64 = var24;
-                    var63 = var26;
-                    var61 = var23;
-                    var23 = new var64[var27](var63, var62, var61, var60);
-                    var23 = var23 instanceof Object ? var23 : var24;
-                    var25 = var6.performance;
-                    var24 = var25.now;
-                    var24 = var24.bind(var25)();
-                    var27 = var24 - var18;
-                    var25 = _closure1_slot3;
-                    var24 = var25.verbose;
-                    var30 = var23.name;
-                    var26 = var6.Math;
-                    var18 = var26.round;
-                    var61 = var18.bind(var26)(var27);
+                    var26 = var22.name;
+ 1213:
+                    var28 = var6.File;
+                    var22 = var16;
+                    var27 = new Array(1);
+                    var27[0] = var22;
+                    var23 = var6.HermesInternal;
+                    var25 = var23.concat;
+                    var24 = '';
+                    var23 = '.webp';
+                    var63 = var25.bind(var24)(var26, var23);
+                    var24 = {};
+                    var23 = 'image/webp';
+                    var24['type'] = var23;
+                    var23 = var10;
+                    var25 = var23.lastModified;
+                    var24['lastModified'] = var25;
+                    var25 = var28.prototype;
+                    var25 = Object.create(var25, {constructor: {value: var28}});
+                    var65 = var25;
+                    var64 = var27;
+                    var62 = var24;
+                    var24 = new var65[var28](var64, var63, var62, var61);
+                    var24 = var24 instanceof Object ? var24 : var25;
+                    var26 = var6.performance;
+                    var25 = var26.now;
+                    var25 = var25.bind(var26)();
+                    var28 = var25 - var18;
+                    var26 = _closure1_slot3;
+                    var25 = var26.verbose;
+                    var31 = var24.name;
+                    var27 = var6.Math;
+                    var18 = var27.round;
+                    var62 = var18.bind(var27)(var28);
                     var18 = var6.HermesInternal;
-                    var28 = var18.concat;
-                    var64 = '[WebP] Conversion successful: ';
-                    var62 = ' in ';
-                    var60 = 'ms';
-                    var63 = var30;
-                    var18 = var64[var28](var63, var62, var61, var60, var59);
-                    var18 = var24.bind(var25)(var18);
+                    var29 = var18.concat;
+                    var65 = '[WebP] Conversion successful: ';
+                    var63 = ' in ';
+                    var61 = 'ms';
+                    var64 = var31;
+                    var18 = var65[var29](var64, var63, var62, var61, var60);
+                    var18 = var25.bind(var26)(var18);
                     var18 = {};
-                    var24 = true;
-                    var18['success'] = var24;
-                    var18['originalFile'] = var22;
-                    var18['convertedFile'] = var23;
+                    var25 = true;
+                    var18['success'] = var25;
+                    var18['originalFile'] = var23;
+                    var18['convertedFile'] = var24;
+                    var23 = var23.size;
+                    var18['sizeBefore'] = var23;
                     var22 = var22.size;
-                    var18['sizeBefore'] = var22;
-                    var21 = var21.size;
-                    var18['sizeAfter'] = var21;
-                    var18['compressionRatio'] = var19;
- 1437: // try_end4
+                    var18['sizeAfter'] = var22;
+                    var18['compressionRatio'] = var21;
+                    var18['hashTimeMs'] = var19;
+ 1447: // try_end4
                     return var18;
- 1440: // try_start_5
+ 1450: // try_start_5
                     var19 = _closure1_slot3;
                     var18 = var19.verbose;
                     var23 = var6.Math;
@@ -1084,75 +1087,75 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var21 = var20;
                     var20 = 100;
                     var21 = var20 * var21;
-                    var63 = var22.bind(var23)(var21);
-                    var61 = var20 * var17;
+                    var64 = var22.bind(var23)(var21);
+                    var62 = var20 * var17;
                     var17 = var6.HermesInternal;
                     var22 = var17.concat;
-                    var64 = '[WebP] Insufficient savings: ';
-                    var62 = '% < ';
-                    var60 = '%';
-                    var17 = var64[var22](var63, var62, var61, var60, var59);
+                    var65 = '[WebP] Insufficient savings: ';
+                    var63 = '% < ';
+                    var61 = '%';
+                    var17 = var65[var22](var64, var63, var62, var61, var60);
                     var17 = var18.bind(var19)(var17);
                     var18 = var4;
                     var17 = _closure1_slot4;
                     var17 = var17.INSUFFICIENT_SAVINGS;
                     var16 = var16.size;
                     var16 = var18.bind(var5)(var17, var16);
- 1540: // try_end5
+ 1550: // try_end5
                     return var16;
- 1543:
+ 1553:
                     return var15;
- 1546: // try_start_6
+ 1556: // try_start_6
                     var17 = var6.URL;
                     var16 = var17.revokeObjectURL;
                     var15 = var14;
                     var15 = var16.bind(var17)(var15);
- 1566: // try_end6
+ 1576: // try_end6
                     return var13;
- 1569: // try_start_7 // catch_target1
+ 1579: // try_start_7 // catch_target1
                     CatchBlockStart(arg_register=12);
                     var16 = var6.URL;
                     var15 = var16.revokeObjectURL;
                     var14 = var15.bind(var16)(var14);
                     throw var13;
- 1590: // try_end7
+ 1600: // try_end7
                     return var12;
- 1593: // try_start_8
+ 1603: // try_start_8
                     var14 = var6.Error;
                     var12 = var14.prototype;
                     var13 = Object.create(var12, {constructor: {value: var14}});
-                    var63 = 'failed to convert to webp';
-                    var64 = var13;
-                    var12 = new var64[var14](var63, var62);
+                    var64 = 'failed to convert to webp';
+                    var65 = var13;
+                    var12 = new var65[var14](var64, var63);
                     var12 = var12 instanceof Object ? var12 : var13;
                     throw var12;
- 1627: // try_end8
+ 1637: // try_end8
                     return var11;
- 1630: // try_start_9
+ 1640: // try_start_9
                     var13 = var6.URL;
                     var12 = var13.revokeObjectURL;
                     var11 = var9;
                     var11 = var12.bind(var13)(var11);
- 1650: // try_end9
+ 1660: // try_end9
                     return var8;
- 1653: // try_start_10 // catch_target0
+ 1663: // try_start_10 // catch_target0
                     CatchBlockStart(arg_register=7);
                     var12 = var6.URL;
                     var11 = var12.revokeObjectURL;
                     var9 = var11.bind(var12)(var9);
                     throw var8;
- 1674:
+ 1684:
                     var11 = var6.Error;
                     var8 = var11.prototype;
                     var9 = Object.create(var8, {constructor: {value: var11}});
-                    var63 = 'could not get canvas context';
-                    var64 = var9;
-                    var8 = new var64[var11](var63, var62);
+                    var64 = 'could not get canvas context';
+                    var65 = var9;
+                    var8 = new var65[var11](var64, var63);
                     var8 = var8 instanceof Object ? var8 : var9;
                     throw var8;
- 1708: // try_end10
+ 1718: // try_end10
                     return var7;
- 1711: // catch_target2 // catch_target3 // catch_target4 // catch_target5 // catch_target6 // catch_target7 // catch_target8 // catch_target9 // catch_target10
+ 1721: // catch_target2 // catch_target3 // catch_target4 // catch_target5 // catch_target6 // catch_target7 // catch_target8 // catch_target9 // catch_target10
                     CatchBlockStart(arg_register=8);
                     var8 = _closure1_slot3;
                     var7 = var8.error;
@@ -1167,19 +1170,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.CONVERSION_FAILED;
                     var3 = var4.bind(var5)(var3);
                     return var3;
- 1778:
+ 1788:
                     var3 = global;
                     var5 = var3.Error;
                     var3 = var5.prototype;
                     var4 = Object.create(var3, {constructor: {value: var5}});
-                    var63 = 'file is null or undefined';
-                    var64 = var4;
-                    var3 = new var64[var5](var63, var62);
+                    var64 = 'file is null or undefined';
+                    var65 = var4;
+                    var3 = new var65[var5](var64, var63);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
- 1814:
+ 1824:
                     return var2;
- 1817:
+ 1827:
                     return var1;
                 }
             };

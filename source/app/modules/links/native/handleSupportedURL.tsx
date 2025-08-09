@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var7.type;
                     var4 = _closure1_slot11;
                     var4 = var4.CONTACT_SYNC;
-                    if(!(var4 !== var5)) { _fun0002_ip = 3138; continue _fun0002 }
+                    if(!(var4 !== var5)) { _fun0002_ip = 3149; continue _fun0002 }
  90:
                     var4 = _closure1_slot11;
                     var4 = var4.COMPOSE_MESSAGE;
@@ -1956,20 +1956,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.getRootNavigationRef;
                     var6 = var2.bind(var4)();
                     var2 = null;
-                    if(!(var2 != var6)) { _fun0002_ip = 3134; continue _fun0002 }
+                    if(!(var2 != var6)) { _fun0002_ip = 3145; continue _fun0002 }
  3098:
                     var5 = var6.navigate;
                     var4 = {};
                     var2 = 'new-message';
                     var4['screen'] = var2;
                     var2 = {};
+                    var7 = 'Deeplink';
+                    var2['sourcePage'] = var7;
                     var4['params'] = var2;
                     var2 = 'friends';
                     var2 = var5.bind(var6)(var2, var4);
- 3134:
+ 3145:
                     var2 = true;
                     return var2;
- 3138:
+ 3149:
                     var2 = _closure1_slot0;
                     var4 = _closure1_slot3;
                     var1 = 13;

@@ -51,23 +51,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.bind(var2)();
             var1 = 3;
             var1 = var6[var1];
-            var1 = var5.bind(var3)(var1);
-            var5 = var1.CustomThemeMobileRenderingExperiment;
-            var3 = var5.useExperiment;
-            var1 = {};
-            var6 = 'useColorThemeBackground';
-            var1['location'] = var6;
-            var1 = var3.bind(var5)(var1);
-            var3 = var1.enabled;
+            var5 = var5.bind(var3)(var1);
+            var3 = var5.useIsCustomThemeMobileRenderingEnabled;
+            var1 = 'useColorThemeBackground';
+            var3 = var3.bind(var5)(var1);
             var1 = var4;
-            if(!var3) { _fun0001_ip = 141; continue _fun0001 }
- 129:
+            if(!var3) { _fun0001_ip = 124; continue _fun0001 }
+ 112:
             var3 = null;
             var1 = var4;
-            if(!(var3 != var2)) { _fun0001_ip = 141; continue _fun0001 }
- 138:
+            if(!(var3 != var2)) { _fun0001_ip = 124; continue _fun0001 }
+ 121:
             var1 = var2;
- 141:
+ 124:
             return var1;
         }
     };

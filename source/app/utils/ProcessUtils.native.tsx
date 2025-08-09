@@ -25,11 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun0001_ip = 74; continue _fun0001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var6.getCpuCoreCount;
                 var3 = var7 == var4;
  158:
-                if(var3) { _fun0002_ip = 179; continue _fun0002 }
+                if(var3) { _fun0002_ip = 177; continue _fun0002 }
  161:
                 var4 = var6.getCpuCoreCount;
                 var3 = function(arg1) {
@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var3 = var4.bind(var6)(var3);
- 179:
+ 177:
                 var3 = global;
                 var4 = var3.setInterval;
                 var3 = function() {
@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var4.getCurrentCpuUsagePercent;
                         var3 = var5 == var4;
  32:
-                        if(var3) { _fun0003_ip = 57; continue _fun0003 }
+                        if(var3) { _fun0003_ip = 55; continue _fun0003 }
  35:
                         var6 = _closure3_slot1;
                         var4 = var6.getCurrentCpuUsagePercent;
@@ -176,17 +176,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             }
                         };
                         var3 = var4.bind(var6)(var3);
- 57:
+ 55:
                         var3 = _closure3_slot1;
                         var3 = var5 == var3;
-                        if(var3) { _fun0003_ip = 82; continue _fun0003 }
- 68:
+                        if(var3) { _fun0003_ip = 80; continue _fun0003 }
+ 66:
                         var4 = _closure3_slot1;
                         var4 = var4.getCumulativeCpuUsage;
                         var3 = var5 == var4;
- 82:
-                        if(var3) { _fun0003_ip = 107; continue _fun0003 }
- 85:
+ 80:
+                        if(var3) { _fun0003_ip = 103; continue _fun0003 }
+ 83:
                         var6 = _closure3_slot1;
                         var4 = var6.getCumulativeCpuUsage;
                         var3 = function(arg1) {
@@ -211,17 +211,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             }
                         };
                         var3 = var4.bind(var6)(var3);
- 107:
+ 103:
                         var3 = _closure3_slot1;
                         var3 = var5 == var3;
-                        if(var3) { _fun0003_ip = 132; continue _fun0003 }
- 118:
+                        if(var3) { _fun0003_ip = 128; continue _fun0003 }
+ 114:
                         var4 = _closure3_slot1;
                         var4 = var4.getCurrentMemoryUsageKb;
                         var3 = var5 == var4;
- 132:
-                        if(var3) { _fun0003_ip = 157; continue _fun0003 }
- 135:
+ 128:
+                        if(var3) { _fun0003_ip = 151; continue _fun0003 }
+ 131:
                         var3 = _closure3_slot1;
                         var2 = var3.getCurrentMemoryUsageKb;
                         var1 = function(arg1) {
@@ -242,7 +242,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             }
                         };
                         var1 = var2.bind(var3)(var1);
- 157:
+ 151:
                         var1 = undefined;
                         return var1;
                     }

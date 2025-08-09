@@ -437,7 +437,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = 'username-search';
         var7['name'] = var12;
         var12 = {};
-        var13 = '';
+        var13 = var15[var11];
+        var13 = var14.bind(var4)(var13);
+        var17 = var13.intl;
+        var16 = var17.string;
+        var13 = var15[var11];
+        var13 = var14.bind(var4)(var13);
+        var13 = var13.t;
+        var13 = var13.QzVsOj;
+        var13 = var16.bind(var17)(var13);
         var12['title'] = var13;
         var7['options'] = var12;
         var12 = function getComponent() {

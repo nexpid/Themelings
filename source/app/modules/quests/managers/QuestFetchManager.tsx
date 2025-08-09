@@ -5,7 +5,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -38,13 +39,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot13 = var2;
+            _closure1_slot14 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -57,62 +58,62 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var1];
     var1 = undefined;
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot2 = var4;
+    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var9 = 5;
     var4 = var6[var9];
     var4 = var7.bind(var1)(var4);
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.QuestsExperimentLocations;
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = 7;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
     var8 = var8.DAY;
-    var _closure1_slot9 = var8;
+    var _closure1_slot10 = var8;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
     var10 = var8.MINUTE;
     var8 = 30;
     var8 = var8 * var10;
-    var _closure1_slot10 = var8;
+    var _closure1_slot11 = var8;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
     var8 = var8.SECOND;
     var8 = var9 * var8;
-    var _closure1_slot11 = var8;
+    var _closure1_slot12 = var8;
     var8 = var6[var4];
     var8 = var7.bind(var1)(var8);
     var8 = var8.Millis;
     var8 = var8.MINUTE;
     var8 = var9 * var8;
-    var _closure1_slot12 = var8;
+    var _closure1_slot13 = var8;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var4 = var4.Millis;
     var4 = var4.HOUR;
-    var4 = 12;
+    var4 = 14;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -123,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 0;
                 var14 = 0;
                 var1 = copyRestArgs(var14);
-                var8 = _closure1_slot2;
+                var8 = _closure1_slot3;
                 var4 = _closure2_slot0;
                 var5 = undefined;
                 var8 = var8.bind(var5)(var6, var4);
@@ -132,10 +133,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var1;
                 var12 = 0;
                 var1 = arraySpread(var14, var13, var12);
-                var1 = _closure1_slot5;
+                var1 = _closure1_slot6;
                 var10 = var1.bind(var5)(var4);
-                var4 = _closure1_slot4;
-                var1 = _closure1_slot13;
+                var4 = _closure1_slot5;
+                var1 = _closure1_slot14;
                 var1 = var1.bind(var5)();
                 if(var1) { _fun0002_ip = 88; continue _fun0002 }
  75:
@@ -146,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = global;
                 var9 = var8.Reflect;
                 var8 = var9.construct;
-                var7 = _closure1_slot5;
+                var7 = _closure1_slot6;
                 var7 = var7.bind(var5)(var6);
                 var7 = var7.constructor;
                 var1 = var8.bind(var9)(var10, var11, var7);
@@ -176,14 +177,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['handleQuestsFetchCurrentQuestsBegin'] = var3;
                 var3 = function() {
                     var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
+                    var3 = _closure1_slot2;
                     var1 = 8;
                     var3 = var3[var1];
                     var1 = undefined;
                     var6 = var4.bind(var1)(var3);
                     var4 = var6.getIsEligibleForFetchQuestOnPostConnectionOpen;
                     var3 = {};
-                    var7 = _closure1_slot8;
+                    var7 = _closure1_slot9;
                     var7 = var7.QUESTS_MANAGER;
                     var3['location'] = var7;
                     var3 = var4.bind(var6)(var3);
@@ -200,7 +201,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.bind(var8)(var6);
                     var9 = var4.window;
                     var8 = var9.setInterval;
-                    var7 = _closure1_slot10;
+                    var7 = _closure1_slot11;
                     var6 = function() {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -211,7 +212,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = _closure3_slot0;
                             var2 = var2.lastFetchAttemptedAt;
                             var3 = var3 - var2;
-                            var2 = _closure1_slot9;
+                            var2 = _closure1_slot10;
                             if(!(var3 > var2)) { _fun0003_ip = 66; continue _fun0003 }
  45:
                             var3 = _closure3_slot0;
@@ -230,7 +231,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var4.Math;
                     var8 = var9.random;
                     var8 = var8.bind(var9)();
-                    var5 = _closure1_slot11;
+                    var5 = _closure1_slot12;
                     var5 = var8 * var5;
                     var6 = var6.bind(var7)(var5);
                     var _closure4_slot1 = var6;
@@ -245,14 +246,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = var1.bind(var2)();
                             var2 = _closure4_slot1;
                             var4 = var3 - var2;
-                            var3 = _closure1_slot7;
+                            var3 = _closure1_slot8;
                             var3 = var3.lastFetchedCurrentQuests;
                             if(!(!(var4 < var3))) { _fun0004_ip = 95; continue _fun0004 }
  45:
                             var1 = _closure4_slot0;
                             if(var1) { _fun0004_ip = 68; continue _fun0004 }
  52:
-                            var2 = _closure1_slot7;
+                            var2 = _closure1_slot8;
                             var3 = var2.lastFetchedCurrentQuests;
                             var2 = 0;
                             var1 = var2 === var3;
@@ -306,7 +307,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = _closure3_slot0;
                         var2 = var2.lastFetchedQuestForLocaleChangeAt;
                         var3 = var3 - var2;
-                        var2 = _closure1_slot12;
+                        var2 = _closure1_slot13;
                         var1 = var3 <= var2;
  98:
                         if(var1) { _fun0005_ip = 146; continue _fun0005 }
@@ -360,55 +361,80 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var _closure2_slot0 = var4;
-        var6 = _closure1_slot6;
+        var6 = _closure1_slot7;
         var3 = undefined;
         var5 = arg1;
         var5 = var6.bind(var3)(var4, var5);
-        var2 = _closure1_slot3;
+        var2 = _closure1_slot4;
         var5 = {};
         var6 = '_fetch';
         var5['key'] = var6;
         var1 = function value(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot1;
-                var1 = 9;
-                var3 = var3[var1];
-                var1 = undefined;
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.getIsEligibleForQuests;
-                var3 = {};
-                var6 = _closure1_slot8;
-                var6 = var6.QUESTS_MANAGER;
-                var3['location'] = var6;
-                var3 = var4.bind(var5)(var3);
-                if(!var3) { _fun0006_ip = 68; continue _fun0006 }
- 55:
-                var4 = _closure1_slot7;
-                var4 = var4.isFetchingCurrentQuests;
-                var3 = !var4;
- 68:
-                if(!var3) { _fun0006_ip = 149; continue _fun0006 }
- 71:
                 var3 = _closure1_slot0;
-                var6 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 9;
+                var2 = var2[var1];
+                var1 = undefined;
+                var5 = var3.bind(var1)(var2);
+                var3 = var5.getIsEligibleForQuests;
+                var2 = {};
+                var6 = _closure1_slot9;
+                var6 = var6.QUESTS_MANAGER;
+                var2['location'] = var6;
+                var2 = var3.bind(var5)(var2);
+                if(!var2) { _fun0006_ip = 253; continue _fun0006 }
+ 58:
+                var2 = _closure1_slot8;
+                var2 = var2.isFetchingCurrentQuests;
+                if(var2) { _fun0006_ip = 253; continue _fun0006 }
+ 74:
+                var5 = _closure1_slot0;
+                var6 = _closure1_slot2;
                 var2 = 10;
-                var4 = var6[var2];
-                var5 = var3.bind(var1)(var4);
-                var4 = var5.fetchCurrentQuests;
-                var4 = var4.bind(var5)();
+                var3 = var6[var2];
+                var7 = var5.bind(var1)(var3);
+                var3 = var7.fetchCurrentQuests;
+                var3 = var3.bind(var7)();
+                var3 = 11;
+                var3 = var6[var3];
+                var3 = var5.bind(var1)(var3);
+                var6 = var3.QuestAdFetchActiveCheckExperiment;
+                var5 = var6.getConfig;
+                var3 = {};
+                var7 = _closure1_slot9;
+                var7 = var7.QUESTS_MANAGER;
+                var3['location'] = var7;
+                var3 = var5.bind(var6)(var3);
+                var3 = var3.enabled;
+                if(!var3) { _fun0006_ip = 197; continue _fun0006 }
+ 157:
+                var5 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var3 = 12;
+                var3 = var6[var3];
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.getState;
+                var5 = var3.bind(var5)();
+                var3 = 'active';
+                if(!(var3 !== var5)) { _fun0006_ip = 197; continue _fun0006 }
+ 195:
+                return var1;
+ 197:
+                var3 = _closure1_slot0;
+                var6 = _closure1_slot2;
                 var2 = var6[var2];
                 var5 = var3.bind(var1)(var2);
                 var4 = var5.fetchQuestToDeliver;
-                var2 = 11;
+                var2 = 13;
                 var2 = var6[var2];
                 var2 = var3.bind(var1)(var2);
                 var2 = var2.QuestPlacement;
                 var3 = var2.MOBILE_HOME_DOCK_AREA;
                 var2 = arg1;
                 var2 = var4.bind(var5)(var3, var2);
- 149:
+ 253:
                 return var1;
             }
         };
@@ -424,7 +450,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var4;
     var2 = new var14[var2](var13);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 13;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

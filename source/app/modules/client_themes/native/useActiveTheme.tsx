@@ -56,42 +56,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.ON;
             var5 = 5;
             var5 = var9[var5];
-            var5 = var8.bind(var7)(var5);
-            var9 = var5.CustomThemeMobileRenderingExperiment;
-            var8 = var9.useExperiment;
-            var7 = {};
+            var8 = var8.bind(var7)(var5);
+            var7 = var8.useIsCustomThemeMobileRenderingEnabled;
             var5 = 'useActiveTheme';
-            var7['location'] = var5;
-            var5 = {};
-            var10 = true;
-            var5['autoTrackExposure'] = var10;
-            var5 = var8.bind(var9)(var7, var5);
-            var5 = var5.enabled;
-            if(!var6) { _fun0001_ip = 207; continue _fun0001 }
- 204:
-            if(var5) { _fun0001_ip = 250; continue _fun0001 }
- 207:
-            if(var4) { _fun0001_ip = 238; continue _fun0001 }
- 210:
-            if(!(var3 !== var1)) { _fun0001_ip = 226; continue _fun0001 }
- 214:
+            var5 = var7.bind(var8)(var5);
+            if(!var6) { _fun0001_ip = 180; continue _fun0001 }
+ 177:
+            if(var5) { _fun0001_ip = 223; continue _fun0001 }
+ 180:
+            if(var4) { _fun0001_ip = 211; continue _fun0001 }
+ 183:
+            if(!(var3 !== var1)) { _fun0001_ip = 199; continue _fun0001 }
+ 187:
             var1 = _closure1_slot6;
             var1 = var1.DEFAULT;
-            _fun0001_ip = 236; continue _fun0001;
- 226:
+            _fun0001_ip = 209; continue _fun0001;
+ 199:
             var3 = _closure1_slot6;
             var1 = var3.SYSTEM;
- 236:
-            _fun0001_ip = 248; continue _fun0001;
- 238:
+ 209:
+            _fun0001_ip = 221; continue _fun0001;
+ 211:
             var3 = _closure1_slot6;
             var1 = var3.CLIENT;
- 248:
-            _fun0001_ip = 260; continue _fun0001;
- 250:
+ 221:
+            _fun0001_ip = 233; continue _fun0001;
+ 223:
             var2 = _closure1_slot6;
             var1 = var2.CUSTOM;
- 260:
+ 233:
             return var1;
         }
     };

@@ -173,22 +173,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.customUserThemeSettings;
  53:
             var1 = var3 != var1;
-            if(!var1) { _fun0004_ip = 115; continue _fun0004 }
+            if(!var1) { _fun0004_ip = 98; continue _fun0004 }
  60:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 6;
             var2 = var5[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = var4.isCustomThemeMobileRenderingEnabled;
+            var2 = 'shouldIgnoreThemeChange';
             var2 = var3.bind(var4)(var2);
-            var4 = var2.CustomThemeMobileRenderingExperiment;
-            var3 = var4.getCurrentConfig;
-            var2 = {};
-            var5 = 'shouldIgnoreThemeChange';
-            var2['location'] = var5;
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.enabled;
             var1 = !var2;
- 115:
+ 98:
             return var1;
         }
     };

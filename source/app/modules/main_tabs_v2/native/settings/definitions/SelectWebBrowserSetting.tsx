@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var6)(var3);
             var3 = var5.isAndroid;
             var3 = var3.bind(var5)();
-            if(var3) { _fun0001_ip = 251; continue _fun0001 }
+            if(var3) { _fun0001_ip = 249; continue _fun0001 }
  156:
             var5 = var1.push;
             var3 = {};
@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var8[var12];
             var11 = var10.bind(var6)(var11);
             var11 = var11.t;
-            var11 = var11.T5W6+P;
+            var11 = var11.kEfv8/;
             var11 = var13.bind(var14)(var11);
             var3['label'] = var11;
             var8 = var8[var7];
@@ -131,9 +131,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.SAFARI;
             var3['value'] = var8;
             var3 = var5.bind(var1)(var3);
- 251:
-            if(!var2) { _fun0001_ip = 404; continue _fun0001 }
- 257:
+ 249:
+            if(!var2) { _fun0001_ip = 400; continue _fun0001 }
+ 255:
             var3 = var1.push;
             var2 = {};
             var8 = _closure1_slot0;
@@ -151,15 +151,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8[var12];
             var8 = var11.bind(var6)(var8);
             var8 = var8.t;
-            if(var5) { _fun0001_ip = 349; continue _fun0001 }
- 334:
+            if(var5) { _fun0001_ip = 347; continue _fun0001 }
+ 332:
             var5 = var8.FfjVVl;
             var5 = var9.bind(var10)(var5);
-            _fun0001_ip = 362; continue _fun0001;
- 349:
+            _fun0001_ip = 358; continue _fun0001;
+ 347:
             var8 = var8.kEfv8/;
             var5 = var9.bind(var10)(var8);
- 362:
+ 358:
             var2['label'] = var5;
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.CHROME;
             var2['value'] = var4;
             var2 = var3.bind(var1)(var2);
- 404:
+ 400:
             return var1;
         }
     };

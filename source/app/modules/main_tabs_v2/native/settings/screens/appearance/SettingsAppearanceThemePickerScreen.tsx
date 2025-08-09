@@ -1622,14 +1622,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _closure2_slot3 = var3;
                 var3 = 21;
                 var3 = var17[var3];
-                var3 = var13.bind(var4)(var3);
-                var19 = var3.CustomThemeMobileRenderingExperiment;
-                var18 = var19.useExperiment;
-                var3 = {};
-                var21 = 'ConnectedThemePicker';
-                var3['location'] = var21;
+                var19 = var13.bind(var4)(var3);
+                var18 = var19.useIsCustomThemeMobileRenderingEnabled;
+                var3 = 'ConnectedThemePicker';
                 var3 = var18.bind(var19)(var3);
-                var3 = var3.enabled;
                 _closure2_slot4 = var3;
                 var3 = 22;
                 var3 = var17[var3];

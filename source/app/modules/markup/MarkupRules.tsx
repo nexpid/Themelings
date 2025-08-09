@@ -1202,10 +1202,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var4;
             var3 = var2.channelId;
             var9 = null;
-            if(!(var9 != var3)) { _fun0018_ip = 384; continue _fun0018 }
+            if(!(var9 != var3)) { _fun0018_ip = 382; continue _fun0018 }
  26:
             var3 = var2.messageId;
-            if(!(var9 != var3)) { _fun0018_ip = 384; continue _fun0018 }
+            if(!(var9 != var3)) { _fun0018_ip = 382; continue _fun0018 }
  38:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -1258,12 +1258,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['type'] = var3;
             var3 = var9 == var8;
             var11 = undefined;
-            if(var3) { _fun0018_ip = 198; continue _fun0018 }
- 193:
+            if(var3) { _fun0018_ip = 196; continue _fun0018 }
+ 191:
             var11 = var8.name;
- 198:
-            if(!(var9 == var11)) { _fun0018_ip = 257; continue _fun0018 }
- 202:
+ 196:
+            if(!(var9 == var11)) { _fun0018_ip = 255; continue _fun0018 }
+ 200:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var3 = 11;
@@ -1276,7 +1276,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.t;
             var3 = var3.11pdXV;
             var11 = var10.bind(var12)(var3);
- 257:
+ 255:
             var3 = global;
             var3 = var3.HermesInternal;
             var10 = var3.concat;
@@ -1288,13 +1288,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['content'] = var3;
             var6 = var9 != var8;
             var3 = undefined;
-            if(!var6) { _fun0018_ip = 378; continue _fun0018 }
- 304:
+            if(!var6) { _fun0018_ip = 376; continue _fun0018 }
+ 302:
             var6 = var8.icon_hash;
             var6 = var9 != var6;
             var3 = undefined;
-            if(!var6) { _fun0018_ip = 378; continue _fun0018 }
- 319:
+            if(!var6) { _fun0018_ip = 376; continue _fun0018 }
+ 317:
             var6 = _closure1_slot1;
             var9 = _closure1_slot2;
             var5 = 20;
@@ -1309,10 +1309,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 32;
             var5['size'] = var8;
             var3 = var6.bind(var7)(var5);
- 378:
+ 376:
             var1['icon'] = var3;
             return var1;
- 384:
+ 382:
             var1 = {};
             var3 = 'gameMention';
             var1['type'] = var3;

@@ -2024,7 +2024,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var7 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0024_ip = 1598; continue _fun0024 }
+                    if(var2) { _fun0024_ip = 1596; continue _fun0024 }
  15:
                     var _closure4_slot0 = var7;
                     var8 = undefined;
@@ -2045,7 +2045,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var7.status;
                     var2 = _closure1_slot18;
                     var2 = var2.COMPLETED;
-                    if(!(var3 !== var2)) { _fun0024_ip = 1522; continue _fun0024 }
+                    if(!(var3 !== var2)) { _fun0024_ip = 1520; continue _fun0024 }
  82:
                     var3 = var7.setStatus;
                     var2 = _closure1_slot18;
@@ -2069,7 +2069,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  164:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0024_ip = 1595; continue _fun0024 }
+                    if(var3) { _fun0024_ip = 1593; continue _fun0024 }
  173:
                     var4 = var7.status;
                     var3 = _closure1_slot18;
@@ -2079,7 +2079,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var7.handleComplete;
                     var3 = var7.id;
                     var3 = var4.bind(var7)(var3);
-                    _fun0024_ip = 1522; continue _fun0024;
+                    _fun0024_ip = 1520; continue _fun0024;
  213:
                     var3 = var7.item;
                     var4 = var3.platform;
@@ -2099,7 +2099,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var3;
  276:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0024_ip = 1592; continue _fun0024 }
+                    if(var4) { _fun0024_ip = 1590; continue _fun0024 }
  285:
                     var13 = _closure1_slot0;
                     var15 = _closure1_slot2;
@@ -2114,7 +2114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var4;
  325:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=12);
-                    if(var13) { _fun0024_ip = 1589; continue _fun0024 }
+                    if(var13) { _fun0024_ip = 1587; continue _fun0024 }
  334:
                     _closure4_slot2 = var4;
                     var15 = _closure1_slot0;
@@ -2129,15 +2129,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     _closure4_slot3 = var28;
                     var13 = var4.filename;
                     var15 = null;
-                    if(!(var15 != var13)) { _fun0024_ip = 1525; continue _fun0024 }
+                    if(!(var15 != var13)) { _fun0024_ip = 1523; continue _fun0024 }
  399:
                     var25 = var4.filename;
                     var13 = '';
-                    if(!(var13 !== var25)) { _fun0024_ip = 1525; continue _fun0024 }
+                    if(!(var13 !== var25)) { _fun0024_ip = 1523; continue _fun0024 }
  416:
                     var13 = var7.currentSize;
                     var27 = 0;
-                    if(!(var27 !== var13)) { _fun0024_ip = 1525; continue _fun0024 }
+                    if(!(var27 !== var13)) { _fun0024_ip = 1523; continue _fun0024 }
  431:
                     var13 = var7.currentSize;
                     var26 = var15 != var13;
@@ -2149,7 +2149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var26 = var28.getMaxFileSize;
                     var13 = var7.channelId;
                     var13 = var26.bind(var28)(var13);
-                    if(!(!(var25 > var13))) { _fun0024_ip = 1501; continue _fun0024 }
+                    if(!(!(var25 > var13))) { _fun0024_ip = 1499; continue _fun0024 }
  472:
                     var26 = _closure1_slot11;
                     var25 = var26.get;
@@ -2161,7 +2161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var25.random;
                     var25 = var13.bind(var25)();
                     var13 = 0.5;
-                    if(!(!(var25 < var13))) { _fun0024_ip = 1476; continue _fun0024 }
+                    if(!(!(var25 < var13))) { _fun0024_ip = 1474; continue _fun0024 }
  528:
                     var25 = _closure1_slot1;
                     var26 = _closure1_slot2;
@@ -2180,7 +2180,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     _closure4_slot4 = var13;
                     var16 = null;
                     var13 = var13.enabled;
-                    if(!var13) { _fun0024_ip = 628; continue _fun0024 }
+                    if(!var13) { _fun0024_ip = 626; continue _fun0024 }
  596:
                     var26 = var7.trackTime;
                     var25 = _closure1_slot4;
@@ -2216,7 +2216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var25 = var25.bind(var8)(var13);
                     var13 = 'hashTimeMs';
                     var16 = var26.bind(var7)(var13, var25);
- 628: // try_start_0
+ 626: // try_start_0
                     var26 = _closure1_slot16;
                     var25 = var26.log;
                     var29 = var7.id;
@@ -2283,13 +2283,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var25 = var25.bind(var8)(var13);
                     var13 = 'getUploadUrlTimeMs';
                     var13 = var26.bind(var7)(var13, var25);
-                    SaveGenerator(address=706);
- 704:
+                    SaveGenerator(address=704);
+ 702:
                     return var13;
- 706:
+ 704:
                     ResumeGenerator(result_out_reg=12, return_bool_out_reg=24);
-                    if(var25) { _fun0024_ip = 1264; continue _fun0024 }
- 715:
+                    if(var25) { _fun0024_ip = 1262; continue _fun0024 }
+ 713:
                     var26 = var7.setResponseUrl;
                     var25 = var13.body;
                     var25 = var25.attachments;
@@ -2302,24 +2302,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var25 = var25[var27];
                     var25 = var25.upload_filename;
                     var25 = var26.bind(var7)(var25);
- 787: // try_end0
+ 785: // try_end0
                     var25 = var16;
-                    if(!(var15 == var25)) { _fun0024_ip = 796; continue _fun0024 }
+                    if(!(var15 == var25)) { _fun0024_ip = 794; continue _fun0024 }
+ 792:
+                    _fun0024_ip = 820; continue _fun0024;
  794:
-                    _fun0024_ip = 822; continue _fun0024;
+                    SaveGenerator(address=798);
  796:
-                    SaveGenerator(address=800);
- 798:
                     return var16;
- 800:
+ 798:
                     ResumeGenerator(result_out_reg=15, return_bool_out_reg=24);
-                    if(var25) { _fun0024_ip = 1261; continue _fun0024 }
- 809:
+                    if(var25) { _fun0024_ip = 1259; continue _fun0024 }
+ 807:
                     var18 = var16;
-                    if(!(var15 != var16)) { _fun0024_ip = 822; continue _fun0024 }
- 816:
+                    if(!(var15 != var16)) { _fun0024_ip = 820; continue _fun0024 }
+ 814:
                     var7['contentHash'] = var18;
- 822: // try_start_1
+ 820: // try_start_1
                     var26 = var7.trackTime;
                     var25 = _closure1_slot4;
                     var18 = function* () {
@@ -2352,49 +2352,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var25 = var25.bind(var8)(var18);
                     var18 = 'uploadTimeMs';
                     var18 = var26.bind(var7)(var18, var25);
-                    SaveGenerator(address=858);
- 856:
+                    SaveGenerator(address=856);
+ 854:
                     return var18;
- 858:
+ 856:
                     ResumeGenerator(result_out_reg=17, return_bool_out_reg=24);
-                    if(var25) { _fun0024_ip = 1147; continue _fun0024 }
- 867:
+                    if(var25) { _fun0024_ip = 1145; continue _fun0024 }
+ 865:
                     var19 = var18;
                     var25 = var21;
                     var25 = var25.enabled;
-                    if(!var25) { _fun0024_ip = 1110; continue _fun0024 }
- 884:
+                    if(!var25) { _fun0024_ip = 1108; continue _fun0024 }
+ 882:
                     var25 = var19;
-                    if(!(var15 != var25)) { _fun0024_ip = 1110; continue _fun0024 }
- 894:
+                    if(!(var15 != var25)) { _fun0024_ip = 1108; continue _fun0024 }
+ 892:
                     var22 = false;
                     var25 = var7.getEtagFromResponse;
                     var24 = var19;
                     var24 = var25.bind(var7)(var24);
                     var23 = var24;
-                    if(!(var15 != var24)) { _fun0024_ip = 938; continue _fun0024 }
- 919:
+                    if(!(var15 != var24)) { _fun0024_ip = 936; continue _fun0024 }
+ 917:
                     var24 = var23;
                     var7['etag'] = var24;
                     var23 = var7.contentHash;
                     var22 = var24 === var23;
- 938:
+ 936:
                     var23 = var7.uploadAnalytics;
                     var23['validUploadHash'] = var22;
-                    if(var22) { _fun0024_ip = 1110; continue _fun0024 }
- 956:
+                    if(var22) { _fun0024_ip = 1108; continue _fun0024 }
+ 954:
                     var21 = var21.enforced;
-                    if(!var21) { _fun0024_ip = 1110; continue _fun0024 }
- 968:
+                    if(!var21) { _fun0024_ip = 1108; continue _fun0024 }
+ 966:
                     var21 = var7.filename;
                     var20 = var21;
-                    if(!(var15 == var21)) { _fun0024_ip = 988; continue _fun0024 }
- 981:
+                    if(!(var15 == var21)) { _fun0024_ip = 986; continue _fun0024 }
+ 979:
                     var26 = var7.id;
-                    _fun0024_ip = 991; continue _fun0024;
- 988:
+                    _fun0024_ip = 989; continue _fun0024;
+ 986:
                     var26 = var20;
- 991:
+ 989:
                     var32 = var7.etag;
                     var30 = var7.contentHash;
                     var20 = var6.HermesInternal;
@@ -2418,27 +2418,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var20 = _closure1_slot14;
                     var20 = var20.INVALID_FILE_ASSET;
                     var20 = var21.bind(var7)(var20);
- 1105: // try_end1
+ 1103: // try_end1
                     var20 = undefined;
                     return var20;
- 1110: // try_start_2
+ 1108: // try_start_2
                     var21 = var7.trackUploadFinished;
                     var20 = _closure1_slot18;
                     var20 = var20.COMPLETED;
                     var20 = var21.bind(var7)(var20);
                     var20 = var7.handleComplete;
                     var19 = var20.bind(var7)(var19);
- 1142: // try_end2
-                    _fun0024_ip = 1522; continue _fun0024;
- 1147:
+ 1140: // try_end2
+                    _fun0024_ip = 1520; continue _fun0024;
+ 1145:
                     return var18;
- 1150: // catch_target1 // catch_target2
+ 1148: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=16);
                     var19 = var7.status;
                     var18 = _closure1_slot18;
                     var18 = var18.CANCELED;
-                    if(!(var19 !== var18)) { _fun0024_ip = 1245; continue _fun0024 }
- 1171:
+                    if(!(var19 !== var18)) { _fun0024_ip = 1243; continue _fun0024 }
+ 1169:
                     var21 = _closure1_slot16;
                     var20 = var21.info;
                     var19 = var17;
@@ -2452,59 +2452,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var18 = var20.bind(var21)(var18);
                     var18 = var7.handleError;
                     var18 = var18.bind(var7)(var19);
-                    _fun0024_ip = 1522; continue _fun0024;
- 1245:
+                    _fun0024_ip = 1520; continue _fun0024;
+ 1243:
                     var18 = var7.handleComplete;
                     var17 = var18.bind(var7)(var17);
-                    _fun0024_ip = 1522; continue _fun0024;
- 1261:
+                    _fun0024_ip = 1520; continue _fun0024;
+ 1259:
                     return var16;
- 1264:
+ 1262:
                     return var13;
- 1267: // catch_target0
+ 1265: // catch_target0
                     CatchBlockStart(arg_register=12);
                     var11 = var13;
                     var16 = var15 == var13;
                     var13 = undefined;
-                    if(var16) { _fun0024_ip = 1306; continue _fun0024 }
- 1281:
+                    if(var16) { _fun0024_ip = 1304; continue _fun0024 }
+ 1279:
                     var16 = var11;
                     var16 = var16.body;
                     var14 = var16;
                     var16 = var15 == var16;
                     var13 = undefined;
-                    if(var16) { _fun0024_ip = 1306; continue _fun0024 }
- 1301:
+                    if(var16) { _fun0024_ip = 1304; continue _fun0024 }
+ 1299:
                     var13 = var14.code;
- 1306:
+ 1304:
                     var12 = var13;
-                    if(!(var15 == var13)) { _fun0024_ip = 1323; continue _fun0024 }
- 1313:
+                    if(!(var15 == var13)) { _fun0024_ip = 1321; continue _fun0024 }
+ 1311:
                     var13 = var11;
                     var13 = var13.status;
-                    _fun0024_ip = 1326; continue _fun0024;
- 1323:
+                    _fun0024_ip = 1324; continue _fun0024;
+ 1321:
                     var13 = var12;
- 1326:
+ 1324:
                     var10 = var13;
                     var12 = _closure1_slot14;
                     var12 = var12.ENTITY_TOO_LARGE;
-                    if(!(var13 !== var12)) { _fun0024_ip = 1460; continue _fun0024 }
- 1343:
+                    if(!(var13 !== var12)) { _fun0024_ip = 1458; continue _fun0024 }
+ 1341:
                     var14 = _closure1_slot16;
                     var13 = var14.error;
                     var12 = var10;
-                    if(!(var15 == var12)) { _fun0024_ip = 1386; continue _fun0024 }
- 1359:
+                    if(!(var15 == var12)) { _fun0024_ip = 1384; continue _fun0024 }
+ 1357:
                     var16 = var6.JSON;
                     var15 = var16.stringify;
                     var12 = var11;
                     var12 = var12.body;
                     var18 = var15.bind(var16)(var12);
-                    _fun0024_ip = 1389; continue _fun0024;
- 1386:
+                    _fun0024_ip = 1387; continue _fun0024;
+ 1384:
                     var18 = var10;
- 1389:
+ 1387:
                     var17 = var7.id;
                     var12 = var6.HermesInternal;
                     var16 = var12.concat;
@@ -2519,12 +2519,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var13.bind(var8)(var12);
                     var12 = var13.captureException;
                     var11 = var12.bind(var13)(var11);
- 1460:
+ 1458:
                     var11 = var7.handleError;
                     var10 = var11.bind(var7)(var10);
                     var10 = undefined;
                     return var10;
- 1476:
+ 1474:
                     var11 = var6.setTimeout;
                     var10 = function() {
                         var3 = _closure4_slot0;
@@ -2536,15 +2536,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var9 = 1000;
                     var9 = var11.bind(var8)(var10, var9);
-                    _fun0024_ip = 1522; continue _fun0024;
- 1501:
+                    _fun0024_ip = 1520; continue _fun0024;
+ 1499:
                     var10 = var7.handleError;
                     var9 = _closure1_slot14;
                     var9 = var9.ENTITY_TOO_LARGE;
                     var9 = var10.bind(var7)(var9);
- 1522:
+ 1520:
                     return var8;
- 1525:
+ 1523:
                     var10 = _closure1_slot16;
                     var9 = var10.error;
                     var8 = var6.JSON;
@@ -2558,13 +2558,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var7)(var5);
                     var5 = undefined;
                     return var5;
- 1589:
+ 1587:
                     return var4;
- 1592:
+ 1590:
                     return var3;
- 1595:
+ 1593:
                     return var2;
- 1598:
+ 1596:
                     return var1;
                 }
             };
@@ -3034,135 +3034,146 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var4 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0030_ip = 742; continue _fun0030 }
+                    if(var2) { _fun0030_ip = 784; continue _fun0030 }
  13:
                     var2 = undefined;
-                    var16 = undefined;
+                    var17 = undefined;
                     var3 = undefined;
+                    var9 = undefined;
                     var8 = undefined;
-                    var10 = undefined;
-                    var14 = undefined;
+                    var12 = undefined;
+                    var15 = undefined;
                     var7 = _closure1_slot0;
-                    var9 = _closure1_slot2;
+                    var10 = _closure1_slot2;
                     var6 = 28;
-                    var6 = var9[var6];
-                    var9 = var7.bind(var2)(var6);
-                    var7 = var9.getAttachmentWebPConversionConfig;
+                    var6 = var10[var6];
+                    var10 = var7.bind(var2)(var6);
+                    var7 = var10.getAttachmentWebPConversionConfig;
                     var6 = {};
                     var11 = 'CloudUpload.maybeConvertToWebP';
                     var6['location'] = var11;
-                    var6 = var7.bind(var9)(var6);
-                    var16 = var6;
+                    var6 = var7.bind(var10)(var6);
+                    var17 = var6;
                     var6 = var6.enabled;
-                    if(!var6) { _fun0030_ip = 739; continue _fun0030 }
- 85:
+                    if(!var6) { _fun0030_ip = 781; continue _fun0030 }
+ 87:
                     var6 = var4.item;
                     var6 = var6.file;
-                    var13 = null;
-                    if(!(var13 == var6)) { _fun0030_ip = 157; continue _fun0030 }
- 102:
-                    var9 = _closure1_slot16;
-                    var7 = var9.warn;
-                    var15 = var4.id;
+                    var10 = null;
+                    if(!(var10 == var6)) { _fun0030_ip = 159; continue _fun0030 }
+ 104:
+                    var11 = _closure1_slot16;
+                    var7 = var11.warn;
+                    var16 = var4.id;
                     var6 = global;
                     var6 = var6.HermesInternal;
-                    var12 = var6.concat;
-                    var11 = 'webp conversion skipped for ';
+                    var14 = var6.concat;
+                    var13 = 'webp conversion skipped for ';
                     var6 = ': no file';
-                    var6 = var12.bind(var11)(var15, var6);
-                    var6 = var7.bind(var9)(var6);
-                    _fun0030_ip = 739; continue _fun0030;
- 157:
+                    var6 = var14.bind(var13)(var16, var6);
+                    var6 = var7.bind(var11)(var6);
+                    _fun0030_ip = 781; continue _fun0030;
+ 159:
                     var6 = var4._aborted;
-                    if(var6) { _fun0030_ip = 739; continue _fun0030 }
- 169:
+                    if(var6) { _fun0030_ip = 781; continue _fun0030 }
+ 171:
                     var7 = global;
-                    var9 = var7.performance;
-                    var6 = var9.now;
-                    var3 = var6.bind(var9)();
- 186: // try_start_0
-                    var9 = _closure1_slot0;
+                    var11 = var7.performance;
+                    var6 = var11.now;
+                    var3 = var6.bind(var11)();
+ 188: // try_start_0
+                    var11 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var12 = 29;
-                    var6 = var6[var12];
-                    var15 = var9.bind(var2)(var6);
-                    var11 = var15.convertFilesToWebP;
+                    var14 = 29;
+                    var6 = var6[var14];
+                    var16 = var11.bind(var2)(var6);
+                    var13 = var16.convertFilesToWebP;
                     var6 = var4.item;
                     var6 = var6.file;
-                    var9 = new Array(1);
-                    var9[0] = var6;
+                    var11 = new Array(1);
+                    var11[0] = var6;
                     var6 = {};
-                    var17 = var16.minFileSizeBytes;
-                    var6['minFileSizeBytes'] = var17;
-                    var16 = var16.minSizeReductionPercent;
-                    var6['minSizeReductionPercent'] = var16;
-                    var6 = var11.bind(var15)(var9, var6);
-                    SaveGenerator(address=265);
- 263:
-                    return var6;
+                    var18 = var17.minFileSizeBytes;
+                    var6['minFileSizeBytes'] = var18;
+                    var17 = var17.minSizeReductionPercent;
+                    var6['minSizeReductionPercent'] = var17;
+                    var6 = var13.bind(var16)(var11, var6);
+                    SaveGenerator(address=267);
  265:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
-                    if(var9) { _fun0030_ip = 616; continue _fun0030 }
- 274:
-                    var8 = var6;
-                    var9 = var4._aborted;
-                    if(var9) { _fun0030_ip = 613; continue _fun0030 }
- 289:
+                    return var6;
+ 267:
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=10);
+                    if(var11) { _fun0030_ip = 658; continue _fun0030 }
+ 276:
+                    var9 = var6;
+                    var11 = var4._aborted;
+                    if(var11) { _fun0030_ip = 655; continue _fun0030 }
+ 291:
+                    var11 = var9;
+                    var13 = var11.length;
+                    var11 = 0;
+                    if(!(var13 > var11)) { _fun0030_ip = 321; continue _fun0030 }
+ 305:
+                    var13 = var9;
+                    var13 = var13[var11];
+                    var13 = var13.success;
+                    if(var13) { _fun0030_ip = 430; continue _fun0030 }
+ 321:
+                    var13 = var9;
+                    var13 = var13[var11];
+                    var15 = var13;
+                    var16 = var10 == var13;
+                    var13 = undefined;
+                    if(var16) { _fun0030_ip = 346; continue _fun0030 }
+ 340:
+                    var13 = var15.reason;
+ 346:
+                    var12 = var13;
+                    var13 = var10 != var13;
+                    var19 = 'unknown';
+                    if(!var13) { _fun0030_ip = 363; continue _fun0030 }
+ 360:
+                    var19 = var12;
+ 363:
+                    var12 = var4.uploadAnalytics;
+                    var12['conversionFailureReason'] = var19;
+                    var15 = _closure1_slot16;
+                    var13 = var15.log;
+                    var18 = var4.id;
+                    var12 = var7.HermesInternal;
+                    var17 = var12.concat;
+                    var16 = 'webp conversion skipped for ';
+                    var12 = ': ';
+                    var12 = var17.bind(var16)(var18, var12, var19);
+                    var12 = var13.bind(var15)(var12);
+                    _fun0030_ip = 653; continue _fun0030;
+ 430:
+                    var9 = var9[var11];
+                    var8 = var9;
+                    var12 = var4.item;
+                    var13 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var11 = var11[var14];
+                    var13 = var13.bind(var2)(var11);
+                    var11 = var13.getBestFileForUpload;
+                    var11 = var11.bind(var13)(var9);
+                    var12['file'] = var11;
+                    var11 = var4.item;
+                    var11 = var11.file;
+                    var11 = var11.size;
+                    var4['currentSize'] = var11;
+                    var12 = var4.uploadAnalytics;
+                    var11 = 'image/webp';
+                    var12['convertedMimeType'] = var11;
+                    var9 = var9.hashTimeMs;
+                    if(!(var10 != var9)) { _fun0030_ip = 553; continue _fun0030 }
+ 526:
+                    var9 = var4.uploadAnalytics;
+                    var10 = var9.timing;
                     var9 = var8;
-                    var11 = var9.length;
-                    var9 = 0;
-                    if(!(var11 > var9)) { _fun0030_ip = 319; continue _fun0030 }
- 303:
-                    var11 = var8;
-                    var11 = var11[var9];
-                    var11 = var11.success;
-                    if(var11) { _fun0030_ip = 428; continue _fun0030 }
- 319:
-                    var11 = var8;
-                    var11 = var11[var9];
-                    var14 = var11;
-                    var15 = var13 == var11;
-                    var11 = undefined;
-                    if(var15) { _fun0030_ip = 344; continue _fun0030 }
- 338:
-                    var11 = var14.reason;
- 344:
-                    var10 = var11;
-                    var11 = var13 != var11;
-                    var17 = 'unknown';
-                    if(!var11) { _fun0030_ip = 361; continue _fun0030 }
- 358:
-                    var17 = var10;
- 361:
-                    var10 = var4.uploadAnalytics;
-                    var10['conversionFailureReason'] = var17;
-                    var13 = _closure1_slot16;
-                    var11 = var13.log;
-                    var16 = var4.id;
-                    var10 = var7.HermesInternal;
-                    var15 = var10.concat;
-                    var14 = 'webp conversion skipped for ';
-                    var10 = ': ';
-                    var10 = var15.bind(var14)(var16, var10, var17);
-                    var10 = var11.bind(var13)(var10);
-                    _fun0030_ip = 611; continue _fun0030;
- 428:
-                    var8 = var8[var9];
-                    var10 = var4.item;
-                    var11 = _closure1_slot0;
-                    var9 = _closure1_slot2;
-                    var9 = var9[var12];
-                    var11 = var11.bind(var2)(var9);
-                    var9 = var11.getBestFileForUpload;
-                    var9 = var9.bind(var11)(var8);
-                    var10['file'] = var9;
-                    var9 = var4.item;
-                    var9 = var9.file;
-                    var9 = var9.size;
-                    var4['currentSize'] = var9;
-                    var10 = var4.uploadAnalytics;
-                    var9 = 'image/webp';
-                    var10['convertedMimeType'] = var9;
+                    var9 = var9.hashTimeMs;
+                    var10['hashTimeMs'] = var9;
+ 553:
                     var10 = _closure1_slot16;
                     var9 = var10.log;
                     var19 = var4.id;
@@ -3182,13 +3193,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var27 = var19;
                     var8 = var28[var15](var27, var26, var25, var24, var23, var22, var21, var20, var19);
                     var8 = var9.bind(var10)(var8);
- 611: // try_end0
-                    _fun0030_ip = 686; continue _fun0030;
- 613:
+ 653: // try_end0
+                    _fun0030_ip = 728; continue _fun0030;
+ 655:
                     return var2;
- 616:
+ 658:
                     return var6;
- 619: // catch_target0
+ 661: // catch_target0
                     CatchBlockStart(arg_register=8);
                     var8 = var4.uploadAnalytics;
                     var6 = 'unknown_error';
@@ -3202,7 +3213,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = ':';
                     var5 = var11.bind(var10)(var12, var5);
                     var5 = var6.bind(var8)(var5, var9);
- 686:
+ 728:
                     var4 = var4.uploadAnalytics;
                     var4 = var4.timing;
                     var6 = var7.Math;
@@ -3213,9 +3224,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var7 - var3;
                     var3 = var5.bind(var6)(var3);
                     var4['compressTimeMs'] = var3;
- 739:
+ 781:
                     return var2;
- 742:
+ 784:
                     return var1;
                 }
             };

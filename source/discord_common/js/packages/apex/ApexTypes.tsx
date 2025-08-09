@@ -1,4 +1,4 @@
-// app/modules/experiments/apex/ApexTypes.tsx
+// discord_common/js/packages/apex/ApexTypes.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var6.bind(var1)(var7);
     var7 = var8.fileFinishedImporting;
-    var6 = 'modules/experiments/apex/ApexTypes.tsx';
+    var6 = '../discord_common/js/packages/apex/ApexTypes.tsx';
     var6 = var7.bind(var8)(var6);
     var3['UnitType'] = var5;
     var3['UnitTypeToKind'] = var4;

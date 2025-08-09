@@ -342,7 +342,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot16 = var2;
-    var2 = 12;
+    var2 = 11;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
     var8 = var2.PersistedStore;
@@ -1057,35 +1057,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function value() {
             _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
  0:
-                var3 = _closure1_slot8;
-                var1 = var3.getCurrentUser;
-                var5 = var1.bind(var3)();
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot1;
-                var1 = 11;
-                var3 = var3[var1];
-                var1 = undefined;
-                var4 = var4.bind(var1)(var3);
-                var3 = var4.isSubscriptionPurchaseDuringFractionalPremiumEnabled;
-                var1 = 'user-offer-store';
-                var1 = var3.bind(var4)(var1, var5);
-                if(!var1) { _fun0025_ip = 83; continue _fun0025 }
- 59:
-                var5 = _closure1_slot9;
-                var4 = var5.isFractionalPremiumActive;
-                var3 = {};
-                var6 = true;
-                var3['excludeReverseTrial'] = var6;
-                var1 = var4.bind(var5)(var3);
- 83:
-                if(!var1) { _fun0025_ip = 106; continue _fun0025 }
- 86:
+                var4 = _closure1_slot9;
+                var3 = var4.isFractionalPremiumActive;
+                var1 = {};
+                var5 = true;
+                var1['excludeReverseTrial'] = var5;
+                var1 = var3.bind(var4)(var1);
+                if(!var1) { _fun0025_ip = 50; continue _fun0025 }
+ 30:
                 var3 = _closure1_slot10;
                 var2 = var3.getPremiumTypeSubscription;
                 var3 = var2.bind(var3)();
                 var2 = null;
                 var1 = var2 == var3;
- 106:
+ 50:
                 return var1;
             }
         };
@@ -1239,7 +1224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2[2] = var11;
     var8['migrations'] = var2;
-    var2 = 13;
+    var2 = 12;
     var2 = var6[var2];
     var14 = var7.bind(var1)(var2);
     var2 = {};
@@ -1463,7 +1448,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var2;
     var2 = new var15[var8](var14, var13, var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 14;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

@@ -189,21 +189,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var1 = arg1;
-            var14 = var1.encodedReceipt;
-            var13 = var1.entitlementSkuId;
-            var12 = var1.presentmentCurrency;
-            var11 = var1.presentmentAmount;
-            var10 = var1.appStoreRegion;
-            var9 = var1.giftInfoOptions;
-            var8 = var1.isGift;
+            var15 = var1.encodedReceipt;
+            var14 = var1.entitlementSkuId;
+            var13 = var1.presentmentCurrency;
+            var12 = var1.presentmentAmount;
+            var11 = var1.appStoreRegion;
+            var10 = var1.giftInfoOptions;
+            var9 = var1.isGift;
             var5 = var1.retries;
             var2 = var1.jwsRepresentation;
             var7 = var1.jwsRepresentations;
-            var15 = var1.source;
+            var8 = var1.source;
             var6 = null;
             if(!(var6 != var7)) { _fun0004_ip = 85; continue _fun0004 }
  78:
-            if(!(var6 == var2)) { _fun0004_ip = 349; continue _fun0004 }
+            if(!(var6 == var2)) { _fun0004_ip = 353; continue _fun0004 }
  85:
             if(!(var6 != var2)) { _fun0004_ip = 100; continue _fun0004 }
  89:
@@ -212,17 +212,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1;
  100:
             var4 = true;
-            var1 = var4 !== var8;
+            var1 = var4 !== var9;
             if(var1) { _fun0004_ip = 138; continue _fun0004 }
  109:
-            var2 = var6 != var9;
+            var2 = var6 != var10;
             if(!var2) { _fun0004_ip = 135; continue _fun0004 }
  116:
-            var16 = var6 == var9;
+            var16 = var6 == var10;
             var3 = undefined;
             if(var16) { _fun0004_ip = 131; continue _fun0004 }
  125:
-            var3 = var9.gift_style;
+            var3 = var10.gift_style;
  131:
             var2 = var6 != var3;
  135:
@@ -240,8 +240,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot15;
             var2 = var1.GIFT_INFO_OPTIONS_MISSING;
             var1 = {};
-            var1['source'] = var15;
-            var1['sku_id'] = var13;
+            var1['source'] = var8;
+            var1['sku_id'] = var14;
             var1 = var3.bind(var6)(var2, var1);
  198:
             var3 = _closure1_slot0;
@@ -257,13 +257,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.BILLING_APPLY_APPLE_RECEIPT;
             var1['url'] = var6;
             var6 = {};
-            var6['encoded_receipt'] = var14;
-            var6['entitlement_sku_id'] = var13;
-            var6['presentment_currency'] = var12;
-            var6['presentment_amount'] = var11;
-            var6['app_store_region'] = var10;
-            var6['gift_info_options'] = var9;
-            var6['is_gift'] = var8;
+            var6['encoded_receipt'] = var15;
+            var6['entitlement_sku_id'] = var14;
+            var6['presentment_currency'] = var13;
+            var6['presentment_amount'] = var12;
+            var6['app_store_region'] = var11;
+            var6['gift_info_options'] = var10;
+            var6['is_gift'] = var9;
+            var6['source'] = var8;
             var6['jws_representations'] = var7;
             var1['body'] = var6;
             var1['retries'] = var5;
@@ -291,7 +292,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = var2.bind(var3)(var1);
             return var1;
- 349:
+ 353:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;

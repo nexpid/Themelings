@@ -4383,8 +4383,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['message'] = var4;
         var4 = var1.emoji;
         var2['emoji'] = var4;
-        var1 = var1.reactor_user_id;
-        var2['reactorUserId'] = var1;
+        var4 = var1.reactor_user_id;
+        var2['reactorUserId'] = var4;
+        var4 = var1.title;
+        var2['title'] = var4;
+        var4 = var1.body;
+        var2['body'] = var4;
+        var4 = var1.tracking_type;
+        var2['trackingType'] = var4;
+        var1 = var1.icon;
+        var2['icon'] = var1;
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
         return var1;

@@ -1981,26 +1981,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot78;
             var2 = var3.get;
             var4 = var2.bind(var3)(var4);
-            if(var1) { _fun0033_ip = 87; continue _fun0033 }
+            if(var1) { _fun0033_ip = 91; continue _fun0033 }
  45:
             var1 = var4._ackMessageId;
             var1 = var6 !== var1;
-            if(!var1) { _fun0033_ip = 85; continue _fun0033 }
+            if(!var1) { _fun0033_ip = 89; continue _fun0033 }
  58:
             var3 = var4.ack;
             var2 = {'messageId': null, 'local': true, 'trackAnalytics': false};
             var2['messageId'] = var6;
             var1 = var3.bind(var4)(var2);
- 85:
-            _fun0033_ip = 114; continue _fun0033;
- 87:
+ 89:
+            _fun0033_ip = 118; continue _fun0033;
+ 91:
             var3 = var4.rebuildChannelState;
             var2 = true;
             var3 = var3.bind(var4)(var6, var2, var5);
             var3 = var4.clearOutgoingAck;
             var3 = var3.bind(var4)();
             var1 = true;
- 114:
+ 118:
             return var1;
         }
     };
@@ -5259,7 +5259,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var6 / var2;
                 var2 = var3.bind(var5)(var2);
                 var3 = var4.lastViewed;
-                if(!(var2 !== var3)) { _fun0085_ip = 170; continue _fun0085 }
+                if(!(var2 !== var3)) { _fun0085_ip = 174; continue _fun0085 }
  114:
                 var4['lastViewed'] = var2;
                 var2 = var4.canTrackUnreads;
@@ -5270,12 +5270,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var4)();
                 var2 = !var3;
  146:
-                if(!var2) { _fun0085_ip = 170; continue _fun0085 }
+                if(!var2) { _fun0085_ip = 174; continue _fun0085 }
  149:
                 var3 = var4.ack;
                 var2 = {'force': true, 'trackAnalytics': false};
                 var2 = var3.bind(var4)(var2);
- 170:
+ 174:
                 return var1;
             }
         };

@@ -647,40 +647,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 386; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 453; continue _fun0008 }
  12:
                     var3 = undefined;
                     var _closure4_slot0 = var3;
                     var2 = _closure1_slot25;
                     var2 = var2.bind(var3)();
-                    var8 = null;
-                    var5 = var8 != var2;
-                    var6 = 'unknown';
+                    var10 = null;
+                    var5 = var10 != var2;
+                    var11 = 'unknown';
                     if(!var5) { _fun0008_ip = 45; continue _fun0008 }
  42:
-                    var6 = var2;
+                    var11 = var2;
  45:
                     var2 = _closure1_slot4;
                     var2 = var2.TTIManager;
-                    var5 = var2.AppOpenedTimestamp;
-                    _closure4_slot0 = var5;
+                    var13 = var2.AppOpenedTimestamp;
+                    _closure4_slot0 = var13;
                     var2 = _closure1_slot4;
                     var2 = var2.TTIManager;
                     var2 = var2.getAllNativeTimestamps;
-                    var9 = var8 == var2;
+                    var5 = var10 == var2;
                     var2 = undefined;
-                    if(var9) { _fun0008_ip = 134; continue _fun0008 }
+                    if(var5) { _fun0008_ip = 134; continue _fun0008 }
  90:
-                    var9 = _closure1_slot4;
-                    var10 = var9.TTIManager;
-                    var9 = var10.getAllNativeTimestamps;
-                    var10 = var9.bind(var10)();
-                    var8 = var8 == var10;
+                    var5 = _closure1_slot4;
+                    var7 = var5.TTIManager;
+                    var5 = var7.getAllNativeTimestamps;
+                    var8 = var5.bind(var7)();
+                    var5 = var10 == var8;
                     var2 = undefined;
-                    if(var8) { _fun0008_ip = 134; continue _fun0008 }
+                    if(var5) { _fun0008_ip = 134; continue _fun0008 }
  119:
-                    var9 = var10.then;
-                    var8 = function(arg1) {
+                    var7 = var8.then;
+                    var5 = function(arg1) {
                         var5 = arg1;
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
@@ -700,114 +700,109 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.bind(var4)(var5, var2);
                         return var1;
                     };
-                    var2 = var9.bind(var10)(var8);
+                    var2 = var7.bind(var8)(var5);
  134:
                     SaveGenerator(address=138);
  136:
                     return var2;
  138:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(var8) { _fun0008_ip = 383; continue _fun0008 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0008_ip = 450; continue _fun0008 }
  147:
-                    var13 = _closure1_slot1;
-                    var14 = _closure1_slot2;
-                    var8 = 19;
-                    var8 = var14[var8];
-                    var11 = var13.bind(var3)(var8);
-                    var10 = var11.mark;
-                    var9 = '❗';
-                    var8 = 'Track app_ui_viewed2';
-                    var8 = var10.bind(var11)(var9, var8);
-                    var8 = 21;
-                    var8 = var14[var8];
-                    var12 = var13.bind(var3)(var8);
-                    var11 = var12.track;
-                    var8 = _closure1_slot11;
-                    var10 = var8.APP_UI_VIEWED2;
-                    var9 = {};
-                    var8 = _closure1_slot24;
-                    var16 = var8.bind(var3)();
-                    var17 = var9;
-                    var8 = copyDataProperties(var17, var16);
-                    var8 = 24;
-                    var8 = var14[var8];
-                    var13 = var13.bind(var3)(var8);
-                    var8 = var13.serializeTTITracker;
-                    var16 = var8.bind(var13)(var5);
-                    var17 = var9;
-                    var8 = copyDataProperties(var17, var16);
-                    var13 = _closure1_slot16;
-                    var8 = 'load_id';
-                    var9[var8] = var13;
-                    var8 = 'screen_name';
-                    var9[var8] = var6;
-                    var13 = _closure1_slot5;
-                    var8 = var13.hasCache;
-                    var13 = var8.bind(var13)();
-                    var8 = 'has_cached_data';
-                    var9[var8] = var13;
-                    var8 = _closure1_slot7;
-                    var13 = var8.theme;
-                    var8 = 'theme';
-                    var9[var8] = var13;
-                    var8 = {};
-                    var13 = true;
-                    var8['logEventProperties'] = var13;
-                    var8 = var11.bind(var12)(var10, var9, var8);
-                    var7 = _closure1_slot4;
-                    var8 = var7.TTIManager;
-                    var7 = var8.runningTTIAutomation;
-                    var7 = var7.bind(var8)();
-                    if(!var7) { _fun0008_ip = 380; continue _fun0008 }
- 369:
-                    var4 = function logToDevice(arg1, arg2) {
+                    var7 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var5 = 25;
+                    var5 = var8[var5];
+                    var7 = var7.bind(var3)(var5);
+                    var5 = var7.getCumulativeCPUUsage;
+                    var7 = var5.bind(var7)();
+                    var8 = var10 == var7;
+                    var5 = undefined;
+                    if(var8) { _fun0008_ip = 192; continue _fun0008 }
+ 186:
+                    var5 = var7.usage;
+ 192:
+                    var7 = var10 != var5;
+                    var10 = null;
+                    if(!var7) { _fun0008_ip = 204; continue _fun0008 }
+ 201:
+                    var10 = var5;
+ 204:
+                    var5 = {};
+                    var7 = _closure1_slot24;
+                    var15 = var7.bind(var3)();
+                    var16 = var5;
+                    var7 = copyDataProperties(var16, var15);
+                    var8 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var7 = 24;
+                    var7 = var9[var7];
+                    var12 = var8.bind(var3)(var7);
+                    var7 = var12.serializeTTITracker;
+                    var15 = var7.bind(var12)(var13);
+                    var16 = var5;
+                    var7 = copyDataProperties(var16, var15);
+                    var12 = _closure1_slot16;
+                    var7 = 'load_id';
+                    var5[var7] = var12;
+                    var7 = 'screen_name';
+                    var5[var7] = var11;
+                    var11 = _closure1_slot5;
+                    var7 = var11.hasCache;
+                    var11 = var7.bind(var11)();
+                    var7 = 'has_cached_data';
+                    var5[var7] = var11;
+                    var7 = 'startup_cpu_usage_cumulative';
+                    var5[var7] = var10;
+                    var7 = _closure1_slot7;
+                    var10 = var7.theme;
+                    var7 = 'theme';
+                    var5[var7] = var10;
+                    var7 = 19;
+                    var7 = var9[var7];
+                    var12 = var8.bind(var3)(var7);
+                    var11 = var12.mark;
+                    var10 = '❗';
+                    var7 = 'Track app_ui_viewed2';
+                    var7 = var11.bind(var12)(var10, var7);
+                    var7 = 21;
+                    var7 = var9[var7];
+                    var10 = var8.bind(var3)(var7);
+                    var9 = var10.track;
+                    var7 = _closure1_slot11;
+                    var8 = var7.APP_UI_VIEWED2;
+                    var7 = {};
+                    var11 = true;
+                    var7['logEventProperties'] = var11;
+                    var7 = var9.bind(var10)(var8, var5, var7);
+                    var6 = _closure1_slot4;
+                    var7 = var6.TTIManager;
+                    var6 = var7.runningTTIAutomation;
+                    var6 = var6.bind(var7)();
+                    if(!var6) { _fun0008_ip = 447; continue _fun0008 }
+ 437:
+                    var4 = function logToDevice(arg1) {
                         var7 = {};
-                        var3 = _closure1_slot24;
-                        var1 = undefined;
-                        var10 = var3.bind(var1)();
+                        var10 = arg1;
                         var11 = var7;
-                        var3 = copyDataProperties(var11, var10);
-                        var5 = _closure1_slot1;
-                        var6 = _closure1_slot2;
-                        var3 = 24;
-                        var3 = var6[var3];
-                        var6 = var5.bind(var1)(var3);
-                        var5 = var6.serializeTTITracker;
-                        var3 = arg1;
-                        var10 = var5.bind(var6)(var3);
-                        var11 = var7;
-                        var3 = copyDataProperties(var11, var10);
-                        var5 = _closure1_slot16;
-                        var3 = 'load_id';
-                        var7[var3] = var5;
-                        var5 = arg2;
-                        var3 = 'screen_name';
-                        var7[var3] = var5;
-                        var5 = _closure1_slot5;
-                        var3 = var5.hasCache;
-                        var5 = var3.bind(var5)();
-                        var3 = 'has_cached_data';
-                        var7[var3] = var5;
-                        var3 = _closure1_slot7;
-                        var5 = var3.theme;
-                        var3 = 'theme';
-                        var7[var3] = var5;
+                        var1 = copyDataProperties(var11, var10);
                         var3 = global;
-                        var6 = var3.Date;
-                        var5 = var6.now;
-                        var6 = var5.bind(var6)();
-                        var5 = 'logged_at';
-                        var7[var5] = var6;
-                        var6 = _closure1_slot8;
-                        var5 = var6.getId;
-                        var6 = var5.bind(var6)();
-                        var5 = 'user_id';
-                        var7[var5] = var6;
-                        var6 = var3.Date;
-                        var5 = var6.now;
-                        var5 = var5.bind(var6)();
+                        var2 = var3.Date;
+                        var1 = var2.now;
+                        var2 = var1.bind(var2)();
+                        var1 = 'logged_at';
+                        var7[var1] = var2;
+                        var5 = _closure1_slot8;
+                        var1 = var5.getId;
+                        var5 = var1.bind(var5)();
+                        var1 = 'user_id';
+                        var7[var1] = var5;
+                        var5 = var3.Date;
+                        var1 = var5.now;
+                        var5 = var1.bind(var5)();
                         var _closure5_slot0 = var5;
                         var6 = _closure1_slot30;
+                        var1 = undefined;
                         var9 = var6.bind(var1)(var7);
                         var8 = var9.forEach;
                         var7 = function(arg1) {
@@ -877,12 +872,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.bind(var3)();
                         return var1;
                     };
-                    var4 = var4.bind(var3)(var5, var6);
- 380:
+                    var4 = var4.bind(var3)(var5);
+ 447:
                     return var3;
- 383:
+ 450:
                     return var2;
- 386:
+ 453:
                     return var1;
                 }
             };
@@ -1036,7 +1031,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = new var15[var9](var14, var13);
     var5 = var5 instanceof Object ? var5 : var8;
     var _closure1_slot21 = var5;
-    var5 = 25;
+    var5 = 26;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

@@ -1,10 +1,18 @@
 // app/utils/native/ChatInputUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
+    var8 = require;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var7;
-    var _closure1_slot1 = var6;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var7;
+    var6 = function isScreenIndexFrozen(arg1) {
+        var3 = _closure1_slot4;
+        var2 = var3.has;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var _closure1_slot5 = var6;
     var5 = function getHighestActiveScreenIndex() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -47,13 +55,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = 'number';
                     var1 = typeof var4;
                     var1 = var2 === var1;
-                    if(!var1) { _fun0002_ip = 37; continue _fun0002 }
+                    if(!var1) { _fun0002_ip = 34; continue _fun0002 }
  17:
-                    var3 = _closure1_slot4;
-                    var2 = var3.has;
-                    var2 = var2.bind(var3)(var4);
+                    var3 = _closure1_slot5;
+                    var2 = undefined;
+                    var2 = var3.bind(var2)(var4);
                     var1 = !var2;
- 37:
+ 34:
                     return var1;
                 }
             };
@@ -83,12 +91,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot5 = var5;
+    var _closure1_slot6 = var5;
     var1 = function getHighestIndexForScreenIndexMap(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var3 = arg1;
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot6;
             var1 = undefined;
             var2 = var2.bind(var1)(var3);
             var4 = null;
@@ -101,11 +109,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot7 = var1;
     var4 = function getBestActiveInput() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot7;
             var2 = _closure1_slot3;
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -125,44 +133,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var1 = global;
-    var11 = var1.Object;
-    var10 = var11.defineProperty;
-    var9 = {};
-    var8 = true;
-    var9['value'] = var8;
-    var8 = '__esModule';
-    var8 = var10.bind(var11)(var3, var8, var9);
-    var8 = var1.Map;
-    var9 = var8.prototype;
-    var9 = Object.create(var9, {constructor: {value: var8}});
-    var15 = var9;
-    var8 = new var15[var8](var14);
-    var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot2 = var8;
-    var8 = var1.Map;
-    var9 = var8.prototype;
-    var9 = Object.create(var9, {constructor: {value: var8}});
-    var15 = var9;
-    var8 = new var15[var8](var14);
-    var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot3 = var8;
+    var12 = var1.Object;
+    var11 = var12.defineProperty;
+    var10 = {};
+    var9 = true;
+    var10['value'] = var9;
+    var9 = '__esModule';
+    var9 = var11.bind(var12)(var3, var9, var10);
+    var9 = var1.Map;
+    var10 = var9.prototype;
+    var10 = Object.create(var10, {constructor: {value: var9}});
+    var16 = var10;
+    var9 = new var16[var9](var15);
+    var9 = var9 instanceof Object ? var9 : var10;
+    var _closure1_slot2 = var9;
+    var9 = var1.Map;
+    var10 = var9.prototype;
+    var10 = Object.create(var10, {constructor: {value: var9}});
+    var16 = var10;
+    var9 = new var16[var9](var15);
+    var9 = var9 instanceof Object ? var9 : var10;
+    var _closure1_slot3 = var9;
     var1 = var1.Set;
-    var8 = var1.prototype;
-    var8 = Object.create(var8, {constructor: {value: var1}});
-    var15 = var8;
-    var1 = new var15[var1](var14);
-    var1 = var1 instanceof Object ? var1 : var8;
+    var9 = var1.prototype;
+    var9 = Object.create(var9, {constructor: {value: var1}});
+    var16 = var9;
+    var1 = new var16[var1](var15);
+    var1 = var1 instanceof Object ? var1 : var9;
     var _closure1_slot4 = var1;
     var1 = 5;
-    var6 = var6[var1];
+    var7 = var7[var1];
     var1 = undefined;
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'utils/native/ChatInputUtils.tsx';
-    var6 = var7.bind(var8)(var6);
-    var6 = function freezeScreenIndex(arg1, arg2) {
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'utils/native/ChatInputUtils.tsx';
+    var7 = var8.bind(var9)(var7);
+    var7 = function freezeScreenIndex(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var3 = arg2;
@@ -181,7 +189,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['freezeScreenIndex'] = var6;
+    var3['freezeScreenIndex'] = var7;
+    var3['isScreenIndexFrozen'] = var6;
     var6 = function createInputRefTracker(arg1, arg2) {
         var1 = arg2;
         var _closure2_slot0 = var1;
@@ -406,7 +415,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = undefined;
             return var2;
  34:
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot7;
             var1 = undefined;
             var4 = var2.bind(var1)(var4);
             var5 = var3 == var4;
@@ -437,7 +446,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.dismissGlobalKeyboard;
             var3 = var3.bind(var4)();
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var4 = var3.bind(var1)();
             var3 = null;
             if(!(var3 != var4)) { _fun0013_ip = 58; continue _fun0013 }

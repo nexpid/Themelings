@@ -1,28 +1,49 @@
 // app/modules/premium/referral_program/ReferralProgramUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
+    var6 = require;
+    var5 = metroImportDefault;
     var3 = exports;
-    var4 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var4;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var7;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var6 = {};
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
     var1 = true;
-    var6['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var6);
-    var1 = 5;
-    var4 = var4[var1];
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
     var1 = undefined;
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/premium/referral_program/ReferralProgramUtils.tsx';
-    var4 = var5.bind(var6)(var4);
-    var4 = function getReferralTrialOfferExpirationCopy(arg1) {
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = function isReferralProgramPopoverSeen() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 3;
+        var1 = var6[var1];
+        var4 = undefined;
+        var3 = var5.bind(var4)(var1);
+        var2 = var3.UNSAFE_isDismissibleContentDismissed;
+        var1 = 4;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.DismissibleContent;
+        var1 = var1.REFERRAL_PROGRAM_POPOVER;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var _closure1_slot4 = var4;
+    var5 = 9;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/premium/referral_program/ReferralProgramUtils.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function getReferralTrialOfferExpirationCopy(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var7 = global;
@@ -30,49 +51,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.now;
             var2 = var1.bind(var2)();
             var1 = arg1;
-            var3 = var1 - var2;
-            var4 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var1 = 0;
-            var1 = var5[var1];
+            var4 = var1 - var2;
+            var5 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var1 = 1;
+            var3 = var3[var1];
             var8 = undefined;
-            var1 = var4.bind(var8)(var1);
-            var1 = var1.Millis;
-            var1 = var1.HOUR;
-            var9 = var3 / var1;
+            var3 = var5.bind(var8)(var3);
+            var3 = var3.Millis;
+            var3 = var3.HOUR;
+            var9 = var4 / var3;
             var6 = 24;
-            if(!(!(var9 > var6))) { _fun0001_ip = 250; continue _fun0001 }
- 74:
-            var11 = 1;
-            if(!(!(var9 >= var11))) { _fun0001_ip = 169; continue _fun0001 }
- 81:
+            if(!(!(var9 > var6))) { _fun0001_ip = 254; continue _fun0001 }
+ 75:
+            if(!(!(var9 >= var1))) { _fun0001_ip = 170; continue _fun0001 }
+ 79:
             var3 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var4 = var1[var11];
+            var10 = _closure1_slot2;
+            var1 = 2;
+            var4 = var10[var1];
             var4 = var3.bind(var8)(var4);
             var5 = var4.intl;
             var4 = var5.formatToPlainString;
-            var1 = var1[var11];
+            var1 = var10[var1];
             var1 = var3.bind(var8)(var1);
             var1 = var1.t;
             var3 = var1./d0GmZ;
             var1 = {};
-            var13 = var7.Math;
-            var12 = var13.floor;
+            var12 = var7.Math;
+            var11 = var12.floor;
             var10 = 60;
             var10 = var10 * var9;
-            var10 = var12.bind(var13)(var10);
+            var10 = var11.bind(var12)(var10);
             var1['numMinutes'] = var10;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 248; continue _fun0001;
- 169:
+            _fun0001_ip = 252; continue _fun0001;
+ 170:
             var4 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var5 = var3[var11];
+            var11 = _closure1_slot2;
+            var3 = 2;
+            var5 = var11[var3];
             var5 = var4.bind(var8)(var5);
             var10 = var5.intl;
             var5 = var10.formatToPlainString;
-            var3 = var3[var11];
+            var3 = var11[var3];
             var3 = var4.bind(var8)(var3);
             var3 = var3.t;
             var4 = var3.k9v339;
@@ -82,12 +104,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var12)(var9);
             var3['numHours'] = var11;
             var1 = var5.bind(var10)(var4, var3);
- 248:
-            _fun0001_ip = 336; continue _fun0001;
- 250:
+ 252:
+            _fun0001_ip = 340; continue _fun0001;
+ 254:
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var2 = 1;
+            var2 = 2;
             var4 = var10[var2];
             var4 = var3.bind(var8)(var4);
             var5 = var4.intl;
@@ -103,20 +125,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var2['numDays'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 336:
+ 340:
             return var1;
         }
     };
-    var3['getReferralTrialOfferExpirationCopy'] = var4;
-    var4 = function() {
+    var3['getReferralTrialOfferExpirationCopy'] = var5;
+    var5 = function() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var1 = var6[var1];
         var4 = undefined;
         var3 = var5.bind(var4)(var1);
         var2 = var3.UNSAFE_isDismissibleContentDismissed;
-        var1 = 3;
+        var1 = 4;
         var1 = var6[var1];
         var1 = var5.bind(var4)(var1);
         var1 = var1.DismissibleContent;
@@ -124,16 +146,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var3['isReferralProgramBadgeAcknowledged'] = var4;
-    var4 = function() {
+    var3['isReferralProgramBadgeAcknowledged'] = var5;
+    var5 = function() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 2;
+        var1 = 3;
         var2 = var6[var1];
         var1 = undefined;
         var4 = var5.bind(var1)(var2);
         var3 = var4.UNSAFE_markDismissibleContentAsDismissed;
-        var2 = 3;
+        var2 = 4;
         var2 = var6[var2];
         var2 = var5.bind(var1)(var2);
         var2 = var2.DismissibleContent;
@@ -141,8 +163,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['markReferralProgramBadgeAcknowledged'] = var4;
-    var2 = function(arg1) {
+    var3['markReferralProgramBadgeAcknowledged'] = var5;
+    var5 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var1 = arg1;
@@ -159,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.Date;
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var5 = 4;
+            var5 = 5;
             var5 = var9[var5];
             var7 = var7.bind(var8)(var5);
             var5 = var7.extractTimestamp;
@@ -190,6 +212,90 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['useIsReferralProgramBadgeShowable'] = var2;
+    var3['useIsReferralProgramBadgeShowable'] = var5;
+    var5 = function() {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 3;
+        var2 = var6[var1];
+        var1 = undefined;
+        var4 = var5.bind(var1)(var2);
+        var3 = var4.UNSAFE_markDismissibleContentAsDismissed;
+        var2 = 4;
+        var2 = var6[var2];
+        var2 = var5.bind(var1)(var2);
+        var2 = var2.DismissibleContent;
+        var2 = var2.REFERRAL_PROGRAM_POPOVER;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['markReferralProgramPopoverSeen'] = var5;
+    var3['isReferralProgramPopoverSeen'] = var4;
+    var2 = function() {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+            var6 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 6;
+            var1 = var3[var1];
+            var5 = undefined;
+            var4 = var6.bind(var5)(var1);
+            var1 = var4.useIsEligibleSenderForReferralProgram;
+            var10 = 'useIsReferralProgramPopoverShowable';
+            var1 = var1.bind(var4)(var10);
+            var4 = _closure1_slot4;
+            var8 = var4.bind(var5)();
+            var4 = 7;
+            var4 = var3[var4];
+            var9 = var6.bind(var5)(var4);
+            var7 = var9.useStateFromStores;
+            var4 = _closure1_slot3;
+            var6 = new Array(1);
+            var6[0] = var4;
+            var4 = function() {
+                var2 = _closure1_slot3;
+                var1 = var2.getReferralsRemaining;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var7 = var7.bind(var9)(var6, var4);
+            var4 = _closure1_slot1;
+            var6 = 8;
+            var3 = var3[var6];
+            var9 = var4.bind(var5)(var3);
+            var4 = var9.useExperiment;
+            var3 = {};
+            var3['location'] = var10;
+            var3 = var4.bind(var9)(var3);
+            if(!var1) { _fun0003_ip = 136; continue _fun0003 }
+ 130:
+            var4 = false;
+            var1 = var4 === var8;
+ 136:
+            if(!var1) { _fun0003_ip = 145; continue _fun0003 }
+ 139:
+            var4 = null;
+            var1 = var4 !== var7;
+ 145:
+            if(!var1) { _fun0003_ip = 154; continue _fun0003 }
+ 148:
+            var4 = 0;
+            var1 = var7 > var4;
+ 154:
+            if(!var1) { _fun0003_ip = 196; continue _fun0003 }
+ 157:
+            var3 = var3.cohort;
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.ReferralProgramPopoverExperimentCohort;
+            var2 = var2.Control;
+            var1 = var3 !== var2;
+ 196:
+            return var1;
+        }
+    };
+    var3['useIsReferralProgramPopoverShowable'] = var2;
     return var1;
 })();
