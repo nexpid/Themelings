@@ -210,10 +210,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.isAndroid;
             var8 = var8.bind(var9)();
             var6 = null;
-            if(var8) { _fun0001_ip = 532; continue _fun0001 }
- 529:
+            if(var8) { _fun0001_ip = 536; continue _fun0001 }
+ 533:
             var6 = var7;
- 532:
+ 536:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -841,10 +841,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.DISCOVERABLE;
             var21 = var21.bind(var22)(var14);
             var14 = null;
-            if(!var21) { _fun0002_ip = 2036; continue _fun0002 }
+            if(!var21) { _fun0002_ip = 2032; continue _fun0002 }
  1803:
             var14 = null;
-            if(var16) { _fun0002_ip = 2036; continue _fun0002 }
+            if(var16) { _fun0002_ip = 2032; continue _fun0002 }
  1811:
             var17 = _closure1_slot11;
             var25 = _closure1_slot0;
@@ -919,7 +919,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18[1] = var19;
             var15['children'] = var18;
             var14 = var17.bind(var4)(var16, var15);
- 2036:
+ 2032:
             var13[2] = var14;
             var10['children'] = var13;
             var10 = var12.bind(var4)(var11, var10);

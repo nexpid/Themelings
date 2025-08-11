@@ -81,6 +81,7 @@
 { "file": "discord_common/js/shared/shared-constants/ChannelTypes.tsx", "size": 13641 }
 { "file": "discord_common/js/shared/shared-constants/MessageEmbedTypes.tsx", "size": 1856 }
 { "file": "discord_common/js/shared/shared-constants/MessageReferenceTypes.tsx", "size": 858 }
+{ "file": "discord_common/js/shared/shared-constants/SKUFlags.tsx", "size": 2224 }
 { "file": "app/design/utils/requestSafeIdleCallback.tsx", "size": 5164 }
 { "file": "app/modules/app_analytics/ImpressionStore.tsx", "size": 6056 }
 { "file": "discord_common/js/shared/utils/ReactBatchUpdates.native.tsx", "size": 996 }
@@ -2986,7 +2987,7 @@
 { "file": "app/modules/stickers/native/StickerPackHeader.tsx", "size": 11467 }
 { "file": "app/modules/stickers/native/StickerPackBanner.tsx", "size": 2367 }
 { "file": "app/modules/stickers/native/StickerPackInformationPopout.tsx", "size": 9596 }
-{ "file": "app/modules/stickers/native/StickerPickerListRow.tsx", "size": 17696 }
+{ "file": "app/modules/stickers/native/StickerPickerListRow.tsx", "size": 18135 }
 { "file": "app/modules/stickers/native/Sticker.tsx", "size": 9880 }
 { "file": "discord_common/js/packages/rtn-codegen/js/StickerPickerListRowNativeComponent.tsx", "size": 1727 }
 { "file": "app/modules/stickers/native/StickerPickerEmptyState.tsx", "size": 13125 }
@@ -3304,7 +3305,7 @@
 { "file": "discord_assets/assets/premium/gifting/summer-2025-fruits-overlay-mobile.png.js", "size": 897 }
 { "file": "discord_assets/assets/premium/gifting/summer-2025-water-background.png.js", "size": 893 }
 { "file": "discord_assets/assets/premium/gifting/summer-2025-header.png.js", "size": 884 }
-{ "file": "app/modules/premium/native/gifting/PremiumGiftFeaturesCard.tsx", "size": 22785 }
+{ "file": "app/modules/premium/native/gifting/PremiumGiftFeaturesCard.tsx", "size": 22787 }
 { "file": "app/modules/premium/native/hooks/usePremiumProductPricingString.tsx", "size": 2461 }
 { "file": "app/modules/premium/gifting/native/hooks/useShouldShowGiftingPromotionDeco.tsx", "size": 2090 }
 { "file": "app/modules/premium/native/gifting/PremiumGiftPlanSelectPromotionalBanner.tsx", "size": 7338 }

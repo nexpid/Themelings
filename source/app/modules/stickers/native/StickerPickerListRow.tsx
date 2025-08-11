@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['stickerImage'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 18;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -270,7 +270,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = _closure1_slot9;
                     var6 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var5 = 17;
+                    var5 = 18;
                     var5 = var14[var5];
                     var5 = var6.bind(var7)(var5);
                     var6 = var5.PressableOpacity;
@@ -300,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var5['onLongPress'] = var10;
                     var11 = _closure1_slot1;
-                    var10 = 15;
+                    var10 = 16;
                     var10 = var14[var10];
                     var11 = var11.bind(var7)(var10);
                     var10 = {};
@@ -355,18 +355,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = 3;
             var11 = 1;
             var10 = 2;
-            var3 = 15;
-            var2 = null;
+            var3 = 16;
+            var2 = 15;
             var1 = 0;
-            if(!var17) { _fun0001_ip = 499; continue _fun0001 }
- 332:
+            if(!var17) { _fun0001_ip = 539; continue _fun0001 }
+ 333:
             var25 = var16[var1];
-            if(!(var4 === var25)) { _fun0001_ip = 355; continue _fun0001 }
- 340:
-            var17 = var7.push;
-            var17 = var17.bind(var7)(var2);
-            _fun0001_ip = 489; continue _fun0001;
- 355:
+            if(!(var4 === var25)) { _fun0001_ip = 405; continue _fun0001 }
+ 341:
+            var18 = var7.push;
+            var17 = {'stickerId': null, 'stickerName': '', 'stickerType': null, 'stickerUrl': '', 'stickerAnimated': false, 'stickerDisabled': true, 'stickerOpaque': false};
+            var20 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var19 = var19[var2];
+            var19 = var20.bind(var4)(var19);
+            var19 = var19.StickerFormat;
+            var19 = var19.PNG;
+            var17['stickerType'] = var19;
+            var17 = var18.bind(var7)(var17);
+            _fun0001_ip = 529; continue _fun0001;
+ 405:
             var18 = var14.bind(var4)(var25);
             var17 = _closure1_slot3;
             var17 = var17.bind(var4)(var18, var12);
@@ -393,14 +401,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17['stickerDisabled'] = var20;
             var17['stickerOpaque'] = var19;
             var17 = var18.bind(var7)(var17);
- 489:
+ 529:
             var1 = var1 + 1;
-            if(var1 < var15) { _fun0001_ip = 332; continue _fun0001 }
- 499:
+            if(var1 < var15) { _fun0001_ip = 333; continue _fun0001 }
+ 539:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var1 = 16;
+            var1 = 17;
             var1 = var10[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};

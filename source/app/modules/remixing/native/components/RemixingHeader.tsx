@@ -112,10 +112,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var5.bind(var1)(var12);
         var12 = var13.isAndroid;
         var12 = var12.bind(var13)();
-        if(!var12) { _fun0001_ip = 536; continue _fun0001 }
- 533:
+        if(!var12) { _fun0001_ip = 532; continue _fun0001 }
+ 529:
         var11 = 16;
- 536:
+ 532:
         var9['lineHeight'] = var11;
         var4['buttonTextStyle'] = var9;
         var9 = {'marginStart': 2, 'marginEnd': 4};
