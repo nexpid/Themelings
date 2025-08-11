@@ -293,18 +293,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = arg1;
                         var3 = var2.url;
                         var1 = 'about:blank';
-                        var3 = var1 !== var3;
-                        if(!var3) { _fun0005_ip = 47; continue _fun0005 }
+                        var1 = var1 !== var3;
+                        if(!var1) { _fun0005_ip = 47; continue _fun0005 }
  21:
                         var5 = var2.url;
                         var4 = var5.startsWith;
-                        var1 = _closure2_slot2;
-                        var1 = var4.bind(var5)(var1);
-                        var3 = !var1;
- 47:
+                        var3 = _closure2_slot2;
+                        var3 = var4.bind(var5)(var3);
                         var1 = !var3;
-                        if(!var3) { _fun0005_ip = 96; continue _fun0005 }
- 53:
+ 47:
+                        if(!var1) { _fun0005_ip = 74; continue _fun0005 }
+ 50:
+                        var4 = var2.isTopFrame;
+                        var3 = null;
+                        var3 = var3 == var4;
+                        if(var3) { _fun0005_ip = 71; continue _fun0005 }
+ 65:
+                        var3 = var2.isTopFrame;
+ 71:
+                        var1 = var3;
+ 74:
+                        var1 = !var1;
+                        if(var1) { _fun0005_ip = 123; continue _fun0005 }
+ 80:
                         var5 = _closure1_slot1;
                         var4 = _closure1_slot2;
                         var3 = 6;
@@ -315,7 +326,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.url;
                         var2 = var3.bind(var4)(var2);
                         var1 = false;
- 96:
+ 123:
                         return var1;
                     }
                 };

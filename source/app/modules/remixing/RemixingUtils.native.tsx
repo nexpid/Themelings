@@ -16,83 +16,83 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
-                    var6 = arg1;
-                    var5 = arg2;
+                    var5 = arg1;
+                    var4 = arg2;
                     var11 = arg4;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 371; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 385; continue _fun0001 }
  21:
                     var3 = undefined;
                     var _closure4_slot0 = var3;
-                    var7 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var2 = 9;
-                    var2 = var8[var2];
-                    var7 = var7.bind(var3)(var2);
-                    var2 = var7.getImageDimensionsIfMissing;
-                    var16 = var7;
-                    var15 = var6;
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var2 = 10;
+                    var2 = var7[var2];
+                    var6 = var6.bind(var3)(var2);
+                    var2 = var6.getImageDimensionsIfMissing;
+                    var17 = var6;
+                    var16 = var5;
+                    var15 = undefined;
                     var14 = undefined;
-                    var13 = undefined;
-                    var12 = var5;
-                    var2 = var16[var2](var15, var14, var13, var12, var11);
+                    var13 = var4;
+                    var2 = var17[var2](var16, var15, var14, var13, var12);
                     SaveGenerator(address=77);
  75:
                     return var2;
  77:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 368; continue _fun0001 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
+                    if(var6) { _fun0001_ip = 382; continue _fun0001 }
  86:
-                    var10 = {};
-                    var10['uri'] = var6;
-                    var10['originalUri'] = var6;
-                    var6 = arg3;
-                    var10['mimeType'] = var6;
-                    var6 = var2.width;
-                    var10['width'] = var6;
-                    var6 = var2.height;
-                    var10['height'] = var6;
-                    var10['filename'] = var5;
+                    var8 = {};
+                    var8['uri'] = var5;
+                    var8['originalUri'] = var5;
+                    var5 = arg3;
+                    var8['mimeType'] = var5;
+                    var5 = var2.width;
+                    var8['width'] = var5;
+                    var5 = var2.height;
+                    var8['height'] = var5;
+                    var8['filename'] = var4;
+                    var5 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var4 = 11;
+                    var4 = var6[var4];
+                    var4 = var5.bind(var3)(var4);
+                    var4 = var4.UploadPlatform;
+                    var4 = var4.REACT_NATIVE;
+                    var8['platform'] = var4;
+                    var4 = true;
+                    var8['isRemix'] = var4;
+                    var5 = _closure1_slot8;
+                    var4 = var5.getChannel;
+                    var4 = var4.bind(var5)(var11);
+                    _closure4_slot0 = var4;
+                    var5 = null;
+                    if(!(var5 != var4)) { _fun0001_ip = 379; continue _fun0001 }
+ 200:
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var5 = 10;
+                    var5 = 12;
                     var5 = var7[var5];
                     var5 = var6.bind(var3)(var5);
-                    var5 = var5.UploadPlatform;
-                    var5 = var5.REACT_NATIVE;
-                    var10['platform'] = var5;
-                    var5 = true;
-                    var10['isRemix'] = var5;
-                    var6 = _closure1_slot8;
-                    var5 = var6.getChannel;
-                    var5 = var5.bind(var6)(var11);
-                    _closure4_slot0 = var5;
-                    var6 = null;
-                    if(!(var6 != var5)) { _fun0001_ip = 365; continue _fun0001 }
- 200:
-                    var7 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var6 = 11;
-                    var6 = var8[var6];
-                    var6 = var7.bind(var3)(var6);
-                    var6 = var6.CloudUpload;
-                    var7 = var6.prototype;
-                    var7 = Object.create(var7, {constructor: {value: var6}});
-                    var16 = var7;
-                    var15 = var10;
-                    var14 = var11;
-                    var6 = new var16[var6](var15, var14, var13);
-                    var11 = var6 instanceof Object ? var6 : var7;
-                    var7 = _closure1_slot1;
-                    var6 = 12;
-                    var6 = var8[var6];
-                    var8 = var7.bind(var3)(var6);
+                    var5 = var5.CloudUpload;
+                    var6 = var5.prototype;
+                    var6 = Object.create(var6, {constructor: {value: var5}});
+                    var17 = var6;
+                    var16 = var8;
+                    var15 = var11;
+                    var5 = new var17[var5](var16, var15, var14);
+                    var12 = var5 instanceof Object ? var5 : var6;
+                    var6 = _closure1_slot1;
+                    var5 = 13;
+                    var5 = var7[var5];
+                    var8 = var6.bind(var3)(var5);
                     var7 = var8.sendMessage;
-                    var6 = var5.id;
+                    var6 = var4.id;
                     var5 = {};
-                    var10 = _closure1_slot15;
+                    var11 = _closure1_slot16;
                     var4 = arg5;
-                    var4 = var10.bind(var3)(var4);
+                    var4 = var11.bind(var3)(var4);
                     var5['content'] = var4;
                     var4 = false;
                     var5['tts'] = var4;
@@ -101,13 +101,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = new Array(0);
                     var5['validNonShortcutEmojis'] = var4;
                     var4 = {};
-                    var10 = new Array(1);
-                    var10[0] = var11;
-                    var4['attachmentsToUpload'] = var10;
+                    var11 = new Array(1);
+                    var11[0] = var12;
+                    var4['attachmentsToUpload'] = var11;
+                    var10 = _closure1_slot15;
+                    var10 = var10.REMIXING;
+                    var4['location'] = var10;
                     var9 = function onAttachmentUploadError(arg1, arg2, arg3) {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 13;
+                        var1 = 14;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -129,24 +132,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var4['onAttachmentUploadError'] = var9;
-                    var16 = var8;
-                    var15 = var6;
-                    var14 = var5;
-                    var13 = undefined;
-                    var12 = var4;
-                    var4 = var16[var7](var15, var14, var13, var12, var11);
- 365:
+                    var17 = var8;
+                    var16 = var6;
+                    var15 = var5;
+                    var14 = undefined;
+                    var13 = var4;
+                    var4 = var17[var7](var16, var15, var14, var13, var12);
+ 379:
                     return var3;
- 368:
+ 382:
                     return var2;
- 371:
+ 385:
                     return var1;
                 }
             };
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot16 = var4;
+        _closure1_slot17 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -154,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var4 = function getRemixSourceFromAttachment(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -179,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  71:
             var8 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var5 = 14;
+            var5 = 15;
             var6 = var6[var5];
             var5 = undefined;
             var10 = var8.bind(var5)(var6);
@@ -207,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  179:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var2 = 15;
+            var2 = 16;
             var2 = var9[var2];
             var10 = var8.bind(var5)(var2);
             var9 = var10.getMobileOptimizedSrc;
@@ -251,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot17 = var4;
+    var _closure1_slot18 = var4;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -305,6 +308,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot13 = var8;
     var5 = var5.NOOP;
     var _closure1_slot14 = var5;
+    var5 = 8;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.MessageSendLocation;
+    var _closure1_slot15 = var5;
     var5 = function composeRemixMessageContent(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -316,7 +324,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  16:
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 8;
+            var2 = 9;
             var2 = var3[var2];
             var3 = undefined;
             var2 = var5.bind(var3)(var2);
@@ -328,8 +336,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot15 = var5;
-    var5 = 27;
+    var _closure1_slot16 = var5;
+    var5 = 28;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -337,7 +345,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var5 = function sendLocalFile() {
         var1 = undefined;
-        var4 = _closure1_slot16;
+        var4 = _closure1_slot17;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -442,7 +450,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = undefined;
             return var2;
  41:
-            var4 = _closure1_slot17;
+            var4 = _closure1_slot18;
             var3 = var1.source;
             var2 = undefined;
             var1 = arg1;
@@ -456,7 +464,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var9 = arg3;
-            var5 = _closure1_slot17;
+            var5 = _closure1_slot18;
             var1 = undefined;
             var4 = arg1;
             var2 = arg2;
@@ -472,7 +480,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var4)();
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var5 = 16;
+            var5 = 17;
             var5 = var10[var5];
             var6 = var6.bind(var1)(var5);
             var5 = var6.enterRemixing;
@@ -481,16 +489,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = function() {
                 var5 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 17;
+                var1 = 18;
                 var4 = var3[var1];
                 var1 = undefined;
                 var6 = var5.bind(var1)(var4);
                 var5 = var6.pushLazy;
                 var8 = _closure1_slot0;
-                var4 = 19;
+                var4 = 20;
                 var4 = var3[var4];
                 var8 = var8.bind(var1)(var4);
-                var4 = 18;
+                var4 = 19;
                 var4 = var3[var4];
                 var3 = var3.paths;
                 var4 = var8.bind(var1)(var4, var3);
@@ -500,7 +508,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = function onEnter() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 20;
+                    var1 = 21;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
@@ -512,7 +520,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = function onExit() {
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 18;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
@@ -530,12 +538,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function() {
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var1 = 21;
+                var1 = 22;
                 var2 = var8[var1];
                 var1 = undefined;
                 var4 = var7.bind(var1)(var2);
                 var3 = var4.presentError;
-                var2 = 22;
+                var2 = 23;
                 var5 = var8[var2];
                 var5 = var7.bind(var1)(var5);
                 var6 = var5.intl;
@@ -559,7 +567,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  149:
             var4 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var11 = 23;
+            var11 = 24;
             var2 = var2[var11];
             var2 = var4.bind(var1)(var2);
             var2 = var2.MESSAGE_REMIX_TAG;
@@ -574,7 +582,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  206:
             var10 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var2 = 24;
+            var2 = 25;
             var2 = var7[var2];
             var5 = var10.bind(var1)(var2);
             var4 = var5.track;
@@ -609,16 +617,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function showRemixActionSheet(arg1, arg2, arg3) {
         var5 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 20;
+        var1 = 21;
         var4 = var2[var1];
         var1 = undefined;
         var6 = var5.bind(var1)(var4);
         var5 = var6.openLazy;
         var4 = _closure1_slot0;
-        var3 = 19;
+        var3 = 20;
         var3 = var2[var3];
         var4 = var4.bind(var1)(var3);
-        var3 = 25;
+        var3 = 26;
         var3 = var2[var3];
         var2 = var2.paths;
         var4 = var4.bind(var1)(var3, var2);
@@ -640,7 +648,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = arg1;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 8;
+            var1 = 9;
             var1 = var3[var1];
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
@@ -657,7 +665,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = arg2;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 26;
+                    var3 = 27;
                     var4 = var4[var3];
                     var3 = undefined;
                     var3 = var5.bind(var3)(var4);

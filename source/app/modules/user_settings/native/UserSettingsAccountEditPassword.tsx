@@ -497,7 +497,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var18 = var1.newPassword;
                 var1 = var17.props;
                 var21 = var1.passwordLabel;
-                var24 = var1.newPasswordLabel;
+                var23 = var1.newPasswordLabel;
                 var9 = var1.showForcedPasswordUpdate;
                 var16 = var1.submitting;
                 var10 = var1.hasBannerText;
@@ -536,7 +536,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = {};
                 var15 = var25.header;
                 var11['style'] = var15;
-                var23 = _closure1_slot16;
+                var24 = _closure1_slot16;
                 var20 = _closure1_slot8;
                 var15 = {};
                 var26 = _closure1_slot1;
@@ -547,7 +547,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15['source'] = var22;
                 var22 = var25.image;
                 var15['style'] = var22;
-                var20 = var23.bind(var4)(var20, var15);
+                var20 = var24.bind(var4)(var20, var15);
                 var15 = new Array(3);
                 var15[0] = var20;
                 var29 = _closure1_slot0;
@@ -569,7 +569,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var28 = var28.geta7+;
                 var28 = var31.bind(var32)(var28);
                 var22['children'] = var28;
-                var22 = var23.bind(var4)(var27, var22);
+                var22 = var24.bind(var4)(var27, var22);
                 var15[1] = var22;
                 var20 = var30[var20];
                 var20 = var29.bind(var4)(var20);
@@ -587,7 +587,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var26 = var26.37iHbW;
                 var26 = var27.bind(var28)(var26);
                 var20['children'] = var26;
-                var20 = var23.bind(var4)(var22, var20);
+                var20 = var24.bind(var4)(var22, var20);
                 var15[2] = var20;
                 var11['children'] = var15;
                 var10 = var13.bind(var4)(var12, var11);
@@ -609,14 +609,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var27.bind(var4)(var13);
                 var20 = var13.Text;
                 var13 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
-                var23 = var25.requiredActionsTitle;
-                var13['style'] = var23;
-                var23 = 21;
-                var26 = var28[var23];
+                var24 = var25.requiredActionsTitle;
+                var13['style'] = var24;
+                var24 = 21;
+                var26 = var28[var24];
                 var26 = var27.bind(var4)(var26);
                 var30 = var26.intl;
                 var29 = var30.string;
-                var26 = var28[var23];
+                var26 = var28[var24];
                 var26 = var27.bind(var4)(var26);
                 var26 = var26.t;
                 var26 = var26.geta7+;
@@ -631,16 +631,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
                 var25 = var25.requiredActionsSubtitle;
                 var15['style'] = var25;
-                var25 = var28[var23];
+                var25 = var28[var24];
                 var25 = var27.bind(var4)(var25);
                 var26 = var25.intl;
                 var25 = var26.string;
-                var23 = var28[var23];
-                var23 = var27.bind(var4)(var23);
-                var23 = var23.t;
-                var23 = var23.x5tG4e;
-                var23 = var25.bind(var26)(var23);
-                var15['children'] = var23;
+                var24 = var28[var24];
+                var24 = var27.bind(var4)(var24);
+                var24 = var24.t;
+                var24 = var24.x5tG4e;
+                var24 = var25.bind(var26)(var24);
+                var15['children'] = var24;
                 var15 = var22.bind(var4)(var20, var15);
                 var13[1] = var15;
                 var10['children'] = var13;
@@ -658,17 +658,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = 24;
                 var9['spacing'] = var13;
                 var20 = _closure1_slot16;
-                var25 = 23;
-                var12 = var12[var25];
+                var24 = 23;
+                var12 = var12[var24];
                 var12 = var15.bind(var4)(var12);
                 var15 = var12.TextInput;
                 var12 = {};
                 var12['label'] = var21;
-                var23 = true;
-                var12['secureTextEntry'] = var23;
-                var22 = var17.getError;
+                var22 = true;
+                var12['secureTextEntry'] = var22;
+                var25 = var17.getError;
                 var21 = 'password';
-                var21 = var22.bind(var17)(var21);
+                var21 = var25.bind(var17)(var21);
                 var12['errorMessage'] = var21;
                 var21 = var17.handlePasswordChange;
                 var12['onChange'] = var21;
@@ -685,22 +685,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12['onSubmitEditing'] = var21;
                 var21 = 'next';
                 var12['returnKeyType'] = var21;
-                var22 = 'off';
-                var12['autoComplete'] = var22;
+                var21 = 'current-password';
+                var12['autoComplete'] = var21;
+                var12['required'] = var22;
                 var15 = var20.bind(var4)(var15, var12);
                 var12 = new Array(3);
                 var12[0] = var15;
                 var21 = _closure1_slot16;
                 var20 = _closure1_slot0;
                 var15 = _closure1_slot2;
-                var15 = var15[var25];
+                var15 = var15[var24];
                 var15 = var20.bind(var4)(var15);
                 var20 = var15.TextInput;
                 var15 = {};
-                var15['label'] = var24;
-                var24 = var17.handleSetNewPasswordRef;
-                var15['ref'] = var24;
-                var15['secureTextEntry'] = var23;
+                var15['label'] = var23;
+                var23 = var17.handleSetNewPasswordRef;
+                var15['ref'] = var23;
+                var15['secureTextEntry'] = var22;
                 var24 = var17.getError;
                 var23 = 'new_password';
                 var23 = var24.bind(var17)(var23);
@@ -710,15 +711,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15['value'] = var18;
                 var23 = 'done';
                 var15['returnKeyType'] = var23;
-                var15['autoComplete'] = var22;
-                var22 = var17.canSubmit;
-                var23 = var22.bind(var17)();
-                var22 = undefined;
-                if(!var23) { _fun0009_ip = 1033; continue _fun0009 }
- 1027:
-                var22 = var17.handleSubmit;
- 1033:
-                var15['onSubmitEditing'] = var22;
+                var23 = 'new-password';
+                var15['autoComplete'] = var23;
+                var23 = var17.canSubmit;
+                var24 = var23.bind(var17)();
+                var23 = undefined;
+                if(!var24) { _fun0009_ip = 1042; continue _fun0009 }
+ 1036:
+                var23 = var17.handleSubmit;
+ 1042:
+                var15['onSubmitEditing'] = var23;
+                var15['required'] = var22;
                 var15 = var21.bind(var4)(var20, var15);
                 var12[1] = var15;
                 var15 = _closure1_slot16;
@@ -742,16 +745,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var17 = var17.handleSubmit;
                 var13['onPress'] = var17;
                 var13['loading'] = var16;
-                if(var16) { _fun0009_ip = 1154; continue _fun0009 }
- 1148:
+                if(var16) { _fun0009_ip = 1168; continue _fun0009 }
+ 1162:
                 var17 = null;
                 var16 = var17 == var19;
- 1154:
-                if(var16) { _fun0009_ip = 1163; continue _fun0009 }
- 1157:
+ 1168:
+                if(var16) { _fun0009_ip = 1177; continue _fun0009 }
+ 1171:
                 var17 = null;
                 var16 = var17 == var18;
- 1163:
+ 1177:
                 var13['disabled'] = var16;
                 var13 = var15.bind(var4)(var14, var13);
                 var12[2] = var13;

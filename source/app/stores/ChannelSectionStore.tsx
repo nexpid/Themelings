@@ -188,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var3 = _closure1_slot9;
-            var1 = var3.getCurrentSearchId;
+            var1 = var3.getSelectedSearchContextId;
             var4 = var1.bind(var3)();
             var1 = null;
             if(!(var1 != var4)) { _fun0005_ip = 62; continue _fun0005 }

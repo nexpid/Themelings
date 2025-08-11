@@ -187,8 +187,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var2 = arg1;
-            var14 = var2.text;
-            var _closure2_slot0 = var14;
+            var10 = var2.text;
+            var _closure2_slot0 = var10;
             var9 = var2.parsedMessage;
             var8 = var2.tts;
             var1 = undefined;
@@ -202,12 +202,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var2;
             var5 = var3.chatInputRef;
             var4 = var3.hasAttachmentsToUpload;
-            var10 = var3.pendingReply;
+            var14 = var3.pendingReply;
             var3 = var3.analyticsLocations;
             var _closure2_slot2 = var3;
             var _closure2_slot3 = var1;
             var11 = '';
-            if(!(var11 === var14)) { _fun0004_ip = 158; continue _fun0004 }
+            if(!(var11 === var10)) { _fun0004_ip = 158; continue _fun0004 }
  94:
             var6 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -257,8 +257,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['channel'] = var2;
             var15 = false;
             var5['isEdit'] = var15;
-            var15 = var6.bind(var13)(var14, var5);
-            var13 = var14;
+            var15 = var6.bind(var13)(var10, var5);
+            var13 = var10;
             var6 = var9;
             var5 = var8;
             if(!(var12 != var15)) { _fun0004_ip = 355; continue _fun0004 }
@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  316:
             var16 = var15.content;
             _closure2_slot0 = var16;
-            var14 = var16;
+            var10 = var16;
             var9 = undefined;
  330:
             var16 = var15.tts;
@@ -277,50 +277,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var15.tts;
  346:
             var5 = var8;
-            var13 = var14;
+            var13 = var10;
             var6 = var9;
  355:
             if(!(var12 == var6)) { _fun0004_ip = 391; continue _fun0004 }
  359:
             var9 = _closure1_slot1;
-            var14 = _closure1_slot2;
+            var10 = _closure1_slot2;
             var8 = 12;
-            var8 = var14[var8];
+            var8 = var10[var8];
             var9 = var9.bind(var1)(var8);
             var8 = var9.parse;
             var6 = var8.bind(var9)(var2, var13);
  391:
             var6['tts'] = var5;
-            var9 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
             var5 = 13;
-            var5 = var8[var5];
-            var14 = var9.bind(var1)(var5);
-            var9 = var14.deletePendingReply;
+            var5 = var9[var5];
+            var10 = var8.bind(var1)(var5);
+            var8 = var10.deletePendingReply;
             var5 = var2.id;
-            var5 = var9.bind(var14)(var5);
-            var9 = _closure1_slot1;
+            var5 = var8.bind(var10)(var5);
+            var8 = {};
+            var10 = _closure1_slot1;
             var5 = 14;
-            var8 = var8[var5];
-            var9 = var9.bind(var1)(var8);
-            var8 = var9.getSendMessageOptionsForReply;
-            var8 = var8.bind(var9)(var10);
+            var9 = var9[var5];
+            var10 = var10.bind(var1)(var9);
+            var9 = var10.getSendMessageOptionsForReply;
+            var20 = var9.bind(var10)(var14);
+            var21 = var8;
+            var9 = copyDataProperties(var21, var20);
             var9 = _closure1_slot11;
-            var9 = var9.CHAT_INPUT;
-            var8['location'] = var9;
+            var10 = var9.CHAT_INPUT;
+            var9 = 'location';
+            var8[var9] = var10;
             var16 = var2.id;
-            if(var4) { _fun0004_ip = 490; continue _fun0004 }
- 484:
+            if(var4) { _fun0004_ip = 502; continue _fun0004 }
+ 496:
             var9 = new Array(0);
-            _fun0004_ip = 571; continue _fun0004;
- 490:
+            _fun0004_ip = 583; continue _fun0004;
+ 502:
             var15 = _closure1_slot6;
             var14 = var15.getUploads;
             var10 = _closure1_slot4;
             var10 = var10.ChannelMessage;
             var10 = var14.bind(var15)(var16, var10);
-            if(!(var12 != var10)) { _fun0004_ip = 564; continue _fun0004 }
- 520:
+            if(!(var12 != var10)) { _fun0004_ip = 576; continue _fun0004 }
+ 532:
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
             var12 = 8;
@@ -330,20 +334,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = _closure1_slot4;
             var12 = var12.ChannelMessage;
             var12 = var14.bind(var15)(var16, var12);
-            _fun0004_ip = 568; continue _fun0004;
- 564:
+            _fun0004_ip = 580; continue _fun0004;
+ 576:
             var10 = new Array(0);
- 568:
+ 580:
             var9 = var10;
- 571:
+ 583:
             _closure2_slot3 = var9;
-            if(var4) { _fun0004_ip = 587; continue _fun0004 }
- 578:
+            if(var4) { _fun0004_ip = 599; continue _fun0004 }
+ 590:
             var10 = var6.content;
             var4 = var11 !== var10;
- 587:
-            if(var4) { _fun0004_ip = 643; continue _fun0004 }
- 590:
+ 599:
+            if(var4) { _fun0004_ip = 655; continue _fun0004 }
+ 602:
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
             var4 = 9;
@@ -357,7 +361,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['text'] = var13;
             var4['data'] = var12;
             var4 = var10.bind(var11)(var4);
- 643:
+ 655:
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var3 = var3[var5];

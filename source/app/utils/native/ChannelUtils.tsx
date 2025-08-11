@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 21;
             var5 = var14[var5];
             var13 = var13.bind(var3)(var5);
-            var5 = var13.isChannelNSFW;
+            var5 = var13.isChannelNSFWWithoutGuildRollup;
             var5 = var5.bind(var13)(var4);
             var14 = var4.type;
             var13 = _closure1_slot6;
@@ -655,7 +655,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 21;
             var2 = var13[var2];
             var12 = var12.bind(var3)(var2);
-            var2 = var12.isChannelNSFW;
+            var2 = var12.isChannelNSFWWithoutGuildRollup;
             var2 = var2.bind(var12)(var5);
             var13 = var5.type;
             var12 = _closure1_slot6;

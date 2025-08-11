@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
     var8 = var8.VanillaExperiment;
-    var9 = new Array(96);
+    var9 = new Array(97);
     var9[0] = var8;
     var8 = var6[var4];
     var8 = var5.bind(var1)(var8);
@@ -471,6 +471,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 78;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var4 = var4.ChurnDiscountSubscriptionHeaderExperiment;
+    var9[96] = var4;
+    var4 = 79;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
     var8 = var4.CommonTriggerPointConfiguration;
     var12 = var2.CONNECTION_OPEN;
     var2 = {};
@@ -483,7 +488,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var2;
     var2 = new var14[var8](var13, var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 79;
+    var4 = 80;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

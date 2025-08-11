@@ -830,6 +830,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5['onPressCountrySelector'] = var8;
             var5['isClearable'] = var20;
+            var8 = 'username';
+            var5['autoComplete'] = var8;
             var6 = var15.bind(var4)(var6, var5);
             var5 = new Array(7);
             var5[0] = var6;
@@ -870,19 +872,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['label'] = var13;
             var24 = _closure1_slot0;
             var25 = _closure1_slot2;
-            if(var18) { _fun0002_ip = 1194; continue _fun0002 }
- 1174:
+            if(var18) { _fun0002_ip = 1203; continue _fun0002 }
+ 1183:
             var13 = 28;
             var13 = var25[var13];
             var13 = var24.bind(var4)(var13);
             var13 = var13.EyeIcon;
-            _fun0002_ip = 1212; continue _fun0002;
- 1194:
+            _fun0002_ip = 1221; continue _fun0002;
+ 1203:
             var23 = 27;
             var23 = var25[var23];
             var23 = var24.bind(var4)(var23);
             var13 = var23.EyeSlashIcon;
- 1212:
+ 1221:
             var6['trailingIcon'] = var13;
             var13 = {};
             var26 = _closure1_slot0;
@@ -894,15 +896,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var23[var19];
             var23 = var26.bind(var4)(var23);
             var23 = var23.t;
-            if(var18) { _fun0002_ip = 1276; continue _fun0002 }
- 1263:
+            if(var18) { _fun0002_ip = 1285; continue _fun0002 }
+ 1272:
             var18 = var23.nFzpMz;
             var18 = var24.bind(var25)(var18);
-            _fun0002_ip = 1287; continue _fun0002;
- 1276:
+            _fun0002_ip = 1296; continue _fun0002;
+ 1285:
             var23 = var23.Nusip6;
             var18 = var24.bind(var25)(var23);
- 1287:
+ 1296:
             var13['accessibilityLabel'] = var18;
             var18 = function onPress() {
                 var3 = _closure2_slot3;
@@ -929,6 +931,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['errorMessage'] = var16;
             var16 = 'login_password_input';
             var6['testID'] = var16;
+            var16 = 'current-password';
+            var6['autoComplete'] = var16;
             var6 = var15.bind(var4)(var8, var6);
             var5[1] = var6;
             var16 = _closure1_slot11;
@@ -964,8 +968,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.isAndroid;
             var8 = var6.bind(var8)();
             var6 = null;
-            if(!var8) { _fun0002_ip = 1577; continue _fun0002 }
- 1495:
+            if(!var8) { _fun0002_ip = 1595; continue _fun0002 }
+ 1513:
             var15 = _closure1_slot11;
             var13 = _closure1_slot14;
             var8 = {};
@@ -984,7 +988,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var17.bind(var18)(var16);
             var8['text'] = var16;
             var6 = var15.bind(var4)(var13, var8);
- 1577:
+ 1595:
             var5[3] = var6;
             var13 = _closure1_slot11;
             var8 = _closure1_slot6;
@@ -1076,12 +1080,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var10.message;
             var8 = var12 != var6;
             var6 = null;
-            if(!var8) { _fun0002_ip = 1981; continue _fun0002 }
- 1919:
+            if(!var8) { _fun0002_ip = 1999; continue _fun0002 }
+ 1937:
             var8 = var10.message;
             var6 = null;
-            if(!(var9 !== var8)) { _fun0002_ip = 1981; continue _fun0002 }
- 1930:
+            if(!(var9 !== var8)) { _fun0002_ip = 1999; continue _fun0002 }
+ 1948:
             var9 = _closure1_slot11;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -1094,7 +1098,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.message;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 1981:
+ 1999:
             var5[6] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -48,15 +48,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var4.body;
                 var3['body'] = var2;
                 var2 = var4.help_center_url;
-                var3['help_center_url'] = var2;
+                var3['helpCenterUrl'] = var2;
                 var2 = var4.text_color;
                 var3['textColor'] = var2;
                 var5 = var4.end_time;
                 var2 = null;
                 var5 = var2 != var5;
                 var2 = undefined;
-                if(!var5) { _fun0001_ip = 175; continue _fun0001 }
- 141:
+                if(!var5) { _fun0001_ip = 177; continue _fun0001 }
+ 143:
                 var5 = global;
                 var6 = var5.Date;
                 var8 = var4.end_time;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var5;
                 var4 = new var9[var6](var8, var7);
                 var2 = var4 instanceof Object ? var4 : var5;
- 175:
+ 177:
                 var3['endTime'] = var2;
                 return var1;
             }

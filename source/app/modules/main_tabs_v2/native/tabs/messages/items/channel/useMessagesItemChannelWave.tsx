@@ -42,7 +42,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var7;
     var4 = var4.Routes;
     var _closure1_slot9 = var4;
-    var4 = 16;
+    var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.MessageSendLocation;
+    var _closure1_slot10 = var4;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -75,10 +80,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 386; continue _fun0002 }
+                        if(var2) { _fun0002_ip = 410; continue _fun0002 }
  10:
                         var3 = _closure2_slot1;
-                        if(var3) { _fun0002_ip = 381; continue _fun0002 }
+                        if(var3) { _fun0002_ip = 405; continue _fun0002 }
  23:
                         var5 = _closure2_slot2;
                         var4 = undefined;
@@ -86,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var5.bind(var4)(var3);
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var5 = 5;
+                        var5 = 6;
                         var5 = var8[var5];
                         var8 = var7.bind(var4)(var5);
                         var7 = var8.transitionTo;
@@ -100,40 +105,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  99: // try_start_0
                         var7 = _closure1_slot1;
                         var8 = _closure1_slot2;
-                        var5 = 6;
+                        var5 = 7;
                         var5 = var8[var5];
-                        var9 = var7.bind(var4)(var5);
-                        var8 = var9.sendStickers;
+                        var11 = var7.bind(var4)(var5);
+                        var10 = var11.sendStickers;
                         var5 = _closure2_slot0;
-                        var7 = var5.id;
-                        var5 = ['749054660769218631'];
-                        var5 = var8.bind(var9)(var7, var5);
-                        SaveGenerator(address=154);
- 152:
+                        var17 = var5.id;
+                        var8 = {};
+                        var5 = _closure1_slot10;
+                        var5 = var5.SEND_WAVE;
+                        var8['location'] = var5;
+                        var16 = ['749054660769218631'];
+                        var15 = '';
+                        var18 = var11;
+                        var14 = var8;
+                        var5 = var18[var10](var17, var16, var15, var14, var13);
+                        SaveGenerator(address=178);
+ 176:
                         return var5;
- 154:
+ 178:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                        if(var7) { _fun0002_ip = 165; continue _fun0002 }
- 160: // try_end0
-                        _fun0002_ip = 317; continue _fun0002;
- 165:
+                        if(var7) { _fun0002_ip = 189; continue _fun0002 }
+ 184: // try_end0
+                        _fun0002_ip = 341; continue _fun0002;
+ 189:
                         return var5;
- 168: // catch_target0
+ 192: // catch_target0
                         CatchBlockStart(arg_register=6);
                         var6 = var7;
                         var7 = var7.ok;
                         var5 = var7;
-                        if(var7) { _fun0002_ip = 200; continue _fun0002 }
- 185:
+                        if(var7) { _fun0002_ip = 224; continue _fun0002 }
+ 209:
                         var7 = var6.status;
                         var6 = 429;
                         var5 = var6 !== var7;
- 200:
-                        if(var5) { _fun0002_ip = 317; continue _fun0002 }
- 203:
+ 224:
+                        if(var5) { _fun0002_ip = 341; continue _fun0002 }
+ 227:
                         var9 = _closure1_slot1;
                         var10 = _closure1_slot2;
-                        var5 = 7;
+                        var5 = 8;
                         var5 = var10[var5];
                         var7 = var9.bind(var4)(var5);
                         var6 = var7.open;
@@ -141,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = 'HANDLE_WAVE_PRESS_TOAST';
                         var5['key'] = var8;
                         var13 = _closure1_slot0;
-                        var8 = 8;
+                        var8 = 9;
                         var11 = var10[var8];
                         var11 = var13.bind(var4)(var11);
                         var12 = var11.intl;
@@ -152,15 +164,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = var8.Whhv4+;
                         var8 = var11.bind(var12)(var8);
                         var5['content'] = var8;
-                        var8 = 9;
+                        var8 = 10;
                         var8 = var10[var8];
                         var8 = var9.bind(var4)(var8);
                         var5['icon'] = var8;
                         var5 = var6.bind(var7)(var5);
- 317:
+ 341:
                         var6 = _closure1_slot1;
                         var7 = _closure1_slot2;
-                        var5 = 10;
+                        var5 = 11;
                         var5 = var7[var5];
                         var7 = var6.bind(var4)(var5);
                         var6 = var7.track;
@@ -173,10 +185,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = _closure2_slot2;
                         var2 = false;
                         var2 = var3.bind(var4)(var2);
- 381:
+ 405:
                         var2 = undefined;
                         return var2;
- 386:
+ 410:
                         return var1;
                     }
                 };
@@ -218,7 +230,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot3 = var7;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var7 = 11;
+            var7 = 12;
             var7 = var10[var7];
             var12 = var8.bind(var9)(var7);
             var11 = var12.useStateFromStores;
@@ -243,17 +255,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var7 = var11.bind(var12)(var7, var6);
             var14 = _closure1_slot1;
-            var4 = 12;
+            var4 = 13;
             var4 = var10[var4];
             var11 = var14.bind(var9)(var4);
             var6 = var11.extractTimestamp;
             var4 = var1.id;
             var6 = var6.bind(var11)(var4);
-            var4 = 13;
+            var4 = 14;
             var4 = var10[var4];
             var13 = var8.bind(var9)(var4);
             var12 = var13.isWithinInterval;
-            var4 = 14;
+            var4 = 15;
             var11 = var10[var4];
             var11 = var14.bind(var9)(var11);
             var11 = var11.bind(var9)();
@@ -262,7 +274,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var9)(var6);
             var4 = 1814400000;
             var6 = var12.bind(var13)(var11, var6, var4);
-            var4 = 15;
+            var4 = 16;
             var4 = var10[var4];
             var8 = var8.bind(var9)(var4);
             var4 = var8.useStrangerDangerWarning;

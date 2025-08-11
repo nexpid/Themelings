@@ -656,7 +656,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var7.bind(var8)(var6, var4);
                 var7 = var4[var5];
                 var4 = null;
-                if(!(var4 != var7)) { _fun0012_ip = 275; continue _fun0012 }
+                if(!(var4 != var7)) { _fun0012_ip = 303; continue _fun0012 }
  55:
                 var5 = var7.type;
                 var4 = _closure1_slot11;
@@ -682,9 +682,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4['isDefault'] = var7;
                 var4 = var5.bind(var6)(var4);
  153:
-                var7 = _closure1_slot9;
-                var5 = var7.setState;
-                var6 = _closure2_slot0;
+                var6 = _closure1_slot9;
+                var5 = var6.setState;
+                var8 = _closure2_slot0;
                 var4 = function(arg1) {
                     var3 = arg1;
                     var2 = var3.removeTag;
@@ -692,9 +692,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var4 = var5.bind(var7)(var6, var4);
-                var5 = _closure1_slot9;
-                var4 = var5.getState;
+                var4 = var5.bind(var6)(var8, var4);
+                var7 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var6 = 17;
+                var4 = var4[var6];
+                var5 = undefined;
+                var7 = var7.bind(var5)(var4);
+                var4 = var7.syncAutocompleteDebounced;
+                var4 = var4.bind(var7)(var8);
+                var7 = _closure1_slot9;
+                var4 = var7.getState;
                 var2 = function(arg1) {
                     var3 = arg1;
                     var1 = {};
@@ -709,28 +717,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['isInitialSearchQuery'] = var2;
                     return var1;
                 };
-                var2 = var4.bind(var5)(var6, var2);
+                var2 = var4.bind(var7)(var8, var2);
                 var4 = var2.isUpdatedSearchQuery;
                 var2 = var2.isInitialSearchQuery;
-                if(!var4) { _fun0012_ip = 275; continue _fun0012 }
- 218:
-                var5 = _closure1_slot1;
-                var4 = _closure1_slot2;
-                var3 = 17;
-                var4 = var4[var3];
-                var3 = undefined;
-                var3 = var5.bind(var3)(var4);
-                if(var2) { _fun0012_ip = 260; continue _fun0012 }
- 243:
+                if(!var4) { _fun0012_ip = 303; continue _fun0012 }
+ 251:
+                var4 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var3 = var3[var6];
+                var3 = var4.bind(var5)(var3);
+                if(var2) { _fun0012_ip = 288; continue _fun0012 }
+ 271:
                 var4 = var3.fetchInitialMessagesDebounced;
                 var2 = _closure2_slot0;
                 var2 = var4.bind(var3)(var2);
-                _fun0012_ip = 275; continue _fun0012;
- 260:
+                _fun0012_ip = 303; continue _fun0012;
+ 288:
                 var2 = var3.fetchInitialMessages;
                 var1 = _closure2_slot0;
                 var1 = var2.bind(var3)(var1);
- 275:
+ 303:
                 var1 = undefined;
                 return var1;
             }

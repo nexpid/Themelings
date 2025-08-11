@@ -30,7 +30,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.DraftType;
     var _closure1_slot5 = var4;
-    var4 = 12;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.MessageSendLocation;
+    var _closure1_slot6 = var4;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -47,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var1.useDefaultThreadName;
         var13 = _closure1_slot1;
         var12 = _closure1_slot2;
-        var2 = 3;
+        var2 = 4;
         var2 = var12[var2];
         var3 = undefined;
         var2 = var13.bind(var3)(var2);
@@ -55,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.analyticsLocations;
         var _closure2_slot0 = var2;
         var2 = _closure1_slot0;
-        var1 = 4;
+        var1 = 5;
         var1 = var12[var1];
         var3 = var2.bind(var3)(var1);
         var2 = var3.useCreateThreadCommon;
@@ -68,32 +73,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['onThreadCreated'] = var6;
         var1['useDefaultThreadName'] = var5;
         var4 = function uploadHandler(arg1, arg2, arg3) {
-            var10 = arg1;
+            var11 = arg1;
             var8 = arg2;
-            var _closure3_slot0 = var10;
+            var _closure3_slot0 = var11;
             var _closure3_slot1 = var8;
             var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var1 = 5;
-            var2 = var9[var1];
+            var10 = _closure1_slot2;
+            var1 = 6;
+            var2 = var10[var1];
             var1 = undefined;
             var6 = var3.bind(var1)(var2);
             var5 = var6.sendMessage;
-            var4 = var10.id;
-            var2 = 6;
-            var2 = var9[var2];
-            var9 = var3.bind(var1)(var2);
-            var3 = var9.parse;
+            var4 = var11.id;
+            var2 = 7;
+            var2 = var10[var2];
+            var10 = var3.bind(var1)(var2);
+            var3 = var10.parse;
             var2 = arg3;
-            var13 = var3.bind(var9)(var10, var2);
+            var14 = var3.bind(var10)(var11, var2);
             var2 = {};
+            var9 = _closure1_slot6;
+            var9 = var9.THREAD_CREATION;
+            var2['location'] = var9;
             var2['attachmentsToUpload'] = var8;
             var7 = function onAttachmentUploadError(arg1, arg2, arg3) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 7;
+                    var1 = 8;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -116,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  97:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 8;
+                    var2 = 9;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.setUploads;
@@ -137,11 +145,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var2['onAttachmentUploadError'] = var7;
-            var15 = var6;
-            var14 = var4;
-            var12 = undefined;
-            var11 = var2;
-            var2 = var15[var5](var14, var13, var12, var11, var10);
+            var16 = var6;
+            var15 = var4;
+            var13 = undefined;
+            var12 = var2;
+            var2 = var16[var5](var15, var14, var13, var12, var11);
             return var1;
         };
         var1['uploadHandler'] = var4;
@@ -160,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.onThreadCreated;
             var6 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var4 = 3;
+            var4 = 4;
             var4 = var3[var4];
             var9 = undefined;
             var4 = var6.bind(var9)(var4);
@@ -187,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var _closure5_slot2 = var7;
                             var6 = _closure1_slot1;
                             var8 = _closure1_slot2;
-                            var4 = 9;
+                            var4 = 10;
                             var4 = var8[var4];
                             var4 = var6.bind(var7)(var4);
                             var6 = var4.prototype;
@@ -197,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var4 instanceof Object ? var4 : var6;
                             _closure5_slot1 = var4;
                             var6 = _closure1_slot0;
-                            var5 = 10;
+                            var5 = 11;
                             var5 = var8[var5];
                             var7 = var6.bind(var7)(var5);
                             var6 = var7.maxFileSize;
@@ -221,7 +229,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var1 = var1.bind(var2)();
                                     var2 = _closure1_slot1;
                                     var7 = _closure1_slot2;
-                                    var1 = 8;
+                                    var1 = 9;
                                     var1 = var7[var1];
                                     var3 = undefined;
                                     var9 = var2.bind(var3)(var1);
@@ -238,7 +246,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var10 = true;
                                     var1['resetState'] = var10;
                                     var1 = var8.bind(var9)(var1);
-                                    var1 = 11;
+                                    var1 = 12;
                                     var1 = var7[var1];
                                     var2 = var2.bind(var3)(var1);
                                     var1 = {};
@@ -296,7 +304,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[1] = var8;
             var4 = var11.bind(var12)(var4, var2);
             var2 = _closure1_slot0;
-            var1 = 4;
+            var1 = 5;
             var1 = var3[var1];
             var3 = var2.bind(var9)(var1);
             var2 = var3.useCreateForumPostCommon;

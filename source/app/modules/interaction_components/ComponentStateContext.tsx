@@ -1,12 +1,12 @@
 // app/modules/interaction_components/ComponentStateContext.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var8 = require;
-    var6 = metroImportDefault;
+    var7 = require;
+    var5 = metroImportDefault;
     var3 = exports;
-    var9 = dependencyMap;
-    var _closure1_slot0 = var8;
-    var _closure1_slot1 = var6;
-    var _closure1_slot2 = var9;
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var8;
     var1 = function useComponentValidatorState(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -301,27 +301,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot18 = var1;
-    var4 = function executeModalComponentStateUpdate(arg1, arg2, arg3) {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 18;
-        var2 = var2[var1];
-        var1 = undefined;
-        var4 = var3.bind(var1)(var2);
-        var3 = var4.dispatch;
-        var2 = {};
-        var5 = 'SET_INTERACTION_COMPONENT_STATE';
-        var2['type'] = var5;
-        var5 = arg1;
-        var2['rootContainerId'] = var5;
-        var5 = arg2;
-        var2['componentId'] = var5;
-        var5 = arg3;
-        var2['state'] = var5;
-        var2 = var3.bind(var4)(var2);
-        return var1;
-    };
-    var _closure1_slot19 = var4;
     var1 = function useComponentStateForModal(arg1, arg2, arg3) {
         var9 = arg1;
         var12 = arg2;
@@ -369,20 +348,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = arg1;
                 var1 = null;
                 var1 = var1 == var4;
-                if(var1) { _fun0007_ip = 65; continue _fun0007 }
+                if(var1) { _fun0007_ip = 110; continue _fun0007 }
  12:
-                var7 = _closure1_slot19;
-                var3 = _closure2_slot0;
-                var6 = var3.customId;
-                var3 = _closure2_slot1;
-                var5 = var3.id;
+                var5 = _closure1_slot1;
+                var3 = _closure1_slot2;
+                var2 = 18;
+                var2 = var3[var2];
                 var3 = undefined;
-                var5 = var7.bind(var3)(var6, var5, var4);
+                var7 = var5.bind(var3)(var2);
+                var6 = var7.dispatch;
+                var5 = {};
+                var2 = 'SET_INTERACTION_COMPONENT_STATE';
+                var5['type'] = var2;
+                var8 = _closure2_slot0;
+                var8 = var8.customId;
+                var5['rootContainerId'] = var8;
+                var8 = _closure2_slot1;
+                var8 = var8.id;
+                var5['componentId'] = var8;
+                var5['state'] = var4;
+                var5 = var6.bind(var7)(var5);
                 var2 = _closure2_slot3;
                 var2 = var2.bind(var3)(var4);
                 var2 = !var2;
                 var1 = !var2;
- 65:
+ 110:
                 return var1;
             }
         };
@@ -414,59 +404,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['error'] = var2;
         return var1;
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot19 = var1;
     var1 = global;
-    var10 = var1.Object;
-    var7 = var10.defineProperty;
-    var5 = {};
+    var9 = var1.Object;
+    var6 = var9.defineProperty;
+    var4 = {};
     var1 = true;
-    var5['value'] = var1;
+    var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var10)(var3, var1, var5);
+    var1 = var6.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var5 = var9[var1];
+    var4 = var8[var1];
     var1 = undefined;
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot3 = var5;
-    var5 = 1;
-    var7 = var9[var5];
-    var5 = metroImportAll;
-    var11 = var5.bind(var1)(var7);
-    var _closure1_slot4 = var11;
-    var5 = 2;
-    var5 = var9[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot5 = var5;
-    var5 = 3;
-    var5 = var9[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot6 = var5;
-    var5 = 4;
-    var5 = var9[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot7 = var5;
-    var5 = 5;
-    var5 = var9[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot8 = var5;
-    var5 = 6;
-    var5 = var9[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot9 = var5;
-    var5 = 7;
-    var5 = var9[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot10 = var5;
-    var5 = 8;
-    var5 = var9[var5];
-    var5 = var6.bind(var1)(var5);
-    var _closure1_slot11 = var5;
-    var5 = 9;
-    var5 = var9[var5];
-    var5 = var8.bind(var1)(var5);
-    var5 = var5.jsx;
-    var _closure1_slot12 = var5;
-    var5 = function isInteractionComponent(arg1) {
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var6 = var8[var4];
+    var4 = metroImportAll;
+    var10 = var4.bind(var1)(var6);
+    var _closure1_slot4 = var10;
+    var4 = 2;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot7 = var4;
+    var4 = 5;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot8 = var4;
+    var4 = 6;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 7;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot10 = var4;
+    var4 = 8;
+    var4 = var8[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot11 = var4;
+    var4 = 9;
+    var4 = var8[var4];
+    var4 = var7.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot12 = var4;
+    var4 = function isInteractionComponent(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var2 = arg1;
@@ -553,8 +543,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot13 = var5;
-    var6 = function getActionComponentState(arg1, arg2) {
+    var _closure1_slot13 = var4;
+    var5 = function getActionComponentState(arg1, arg2) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
             var8 = arg1;
@@ -644,8 +634,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot14 = var6;
-    var5 = function useShouldDisableInteractiveComponents(arg1) {
+    var _closure1_slot14 = var5;
+    var4 = function useShouldDisableInteractiveComponents(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var5 = _closure1_slot7;
@@ -849,20 +839,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot15 = var5;
-    var10 = var11.createContext;
-    var7 = null;
-    var7 = var10.bind(var11)(var7);
-    var _closure1_slot16 = var7;
-    var7 = 21;
-    var7 = var9[var7];
-    var9 = var8.bind(var1)(var7);
-    var8 = var9.fileFinishedImporting;
-    var7 = 'modules/interaction_components/ComponentStateContext.tsx';
-    var7 = var8.bind(var9)(var7);
-    var3['getActionComponentState'] = var6;
-    var3['useShouldDisableInteractiveComponents'] = var5;
-    var3['executeModalComponentStateUpdate'] = var4;
+    var _closure1_slot15 = var4;
+    var9 = var10.createContext;
+    var6 = null;
+    var6 = var9.bind(var10)(var6);
+    var _closure1_slot16 = var6;
+    var6 = 21;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/interaction_components/ComponentStateContext.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['getActionComponentState'] = var5;
+    var3['useShouldDisableInteractiveComponents'] = var4;
     var4 = function ComponentStateContextProvider(arg1) {
         _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
@@ -912,7 +901,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = 'modal is present if message is not';
                     var1 = var6.bind(var7)(var5, var1);
                     var1 = {};
-                    var5 = _closure1_slot20;
+                    var5 = _closure1_slot19;
                     var4 = var5.bind;
                     var4 = var4.bind(var5)(var8, var2);
                     var1['useComponentState'] = var4;

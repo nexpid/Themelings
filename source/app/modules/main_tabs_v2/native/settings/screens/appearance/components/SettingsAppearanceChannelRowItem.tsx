@@ -280,13 +280,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var13.bind(var4)(var12);
                 var13 = var12.Text;
                 var12 = {'animated': true, 'style': null, 'variant': 'redesign/channel-title/semibold'};
-                if(var15) { _fun0002_ip = 475; continue _fun0002 }
- 467:
+                if(var15) { _fun0002_ip = 471; continue _fun0002 }
+ 463:
                 var21 = var16.textMuted;
-                _fun0002_ip = 481; continue _fun0002;
- 475:
+                _fun0002_ip = 477; continue _fun0002;
+ 471:
                 var21 = var16.textNormal;
- 481:
+ 477:
                 var12['style'] = var21;
                 var12['children'] = var19;
                 var13 = var18.bind(var4)(var13, var12);
@@ -310,8 +310,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9[0] = var12;
                 var12 = var10 != var14;
                 var10 = null;
-                if(!var12) { _fun0002_ip = 671; continue _fun0002 }
- 598:
+                if(!var12) { _fun0002_ip = 667; continue _fun0002 }
+ 594:
                 var13 = _closure1_slot5;
                 var12 = _closure1_slot0;
                 var11 = _closure1_slot2;
@@ -319,17 +319,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var12.bind(var4)(var11);
                 var12 = var11.Text;
                 var11 = {'animated': true, 'style': null, 'variant': 'redesign/message-preview/medium', 'lineClamp': 1};
-                if(var15) { _fun0002_ip = 649; continue _fun0002 }
- 641:
+                if(var15) { _fun0002_ip = 645; continue _fun0002 }
+ 637:
                 var15 = var16.textMuted;
-                _fun0002_ip = 655; continue _fun0002;
- 649:
+                _fun0002_ip = 651; continue _fun0002;
+ 645:
                 var15 = var16.textNormal;
- 655:
+ 651:
                 var11['style'] = var15;
                 var11['children'] = var14;
                 var10 = var13.bind(var4)(var12, var11);
- 671:
+ 667:
                 var9[1] = var10;
                 var6['children'] = var9;
                 var6 = var8.bind(var4)(var7, var6);

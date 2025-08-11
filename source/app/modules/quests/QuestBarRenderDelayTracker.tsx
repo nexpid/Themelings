@@ -205,41 +205,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var6 = arg1;
                 var5 = arguments[1];
-                var4 = this;
+                var3 = this;
                 var1 = undefined;
                 if(!(var5 === var1)) { _fun0004_ip = 17; continue _fun0004 }
  15:
                 var5 = false;
  17:
-                var2 = var4.isEligible;
-                var2 = var2.bind(var4)();
-                if(!var2) { _fun0004_ip = 129; continue _fun0004 }
- 30:
-                var3 = var4.startTime;
+                var2 = var3.isEligible;
+                var2 = var2.bind(var3)();
+                if(!var2) { _fun0004_ip = 201; continue _fun0004 }
+ 33:
+                var4 = var3.startTime;
                 var2 = null;
-                if(!(var2 !== var3)) { _fun0004_ip = 129; continue _fun0004 }
- 42:
-                var2 = var4.questId;
-                if(!(var2 === var6)) { _fun0004_ip = 129; continue _fun0004 }
- 52:
-                var3 = 30000;
-                if(var5) { _fun0004_ip = 104; continue _fun0004 }
+                if(!(var2 !== var4)) { _fun0004_ip = 201; continue _fun0004 }
+ 48:
+                var2 = var3.questId;
+                if(!(var2 === var6)) { _fun0004_ip = 201; continue _fun0004 }
  61:
+                var4 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var2 = 8;
+                var2 = var7[var2];
+                var4 = var4.bind(var1)(var2);
+                var2 = var4.getState;
+                var4 = var2.bind(var4)();
+                var2 = 'active';
+                if(!(var2 === var4)) { _fun0004_ip = 191; continue _fun0004 }
+ 102:
+                var8 = 30000;
+                var7 = var8;
+                if(var5) { _fun0004_ip = 157; continue _fun0004 }
+ 114:
                 var2 = global;
-                var8 = var2.Math;
-                var7 = var8.round;
-                var9 = var2.performance;
-                var2 = var9.now;
-                var9 = var2.bind(var9)();
-                var2 = var4.startTime;
-                var2 = var9 - var2;
-                var3 = var7.bind(var8)(var2);
- 104:
-                var2 = var4.clearTracking;
-                var2 = var2.bind(var4)();
-                var2 = var4.sendMetric;
-                var2 = var2.bind(var4)(var6, var5, var3);
- 129:
+                var9 = var2.Math;
+                var4 = var9.round;
+                var10 = var2.performance;
+                var2 = var10.now;
+                var10 = var2.bind(var10)();
+                var2 = var3.startTime;
+                var2 = var10 - var2;
+                var7 = var4.bind(var9)(var2);
+ 157:
+                var2 = global;
+                var4 = var2.Math;
+                var2 = var4.min;
+                var4 = var2.bind(var4)(var7, var8);
+                var2 = var3.sendMetric;
+                var2 = var2.bind(var3)(var6, var5, var4);
+ 191:
+                var2 = var3.clearTracking;
+                var2 = var2.bind(var3)();
+ 201:
                 return var1;
             }
         };
@@ -270,7 +286,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

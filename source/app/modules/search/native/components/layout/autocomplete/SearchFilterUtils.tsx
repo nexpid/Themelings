@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -70,14 +70,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.IS_SEARCH_FILTER_TOKEN;
-    var _closure1_slot6 = var7;
     var7 = var4.SEARCH_DATE_FORMAT;
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var7 = var4.SearchTokenTypes;
-    var _closure1_slot8 = var7;
+    var _closure1_slot7 = var7;
     var4 = var4.SearchTypes;
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -88,35 +86,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var5 = arg2;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_FROM;
             if(!(var2 !== var5)) { _fun0002_ip = 701; continue _fun0002 }
  23:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_HAS;
             if(!(var2 !== var5)) { _fun0002_ip = 640; continue _fun0002 }
  40:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_MENTIONS;
             if(!(var2 !== var5)) { _fun0002_ip = 579; continue _fun0002 }
  57:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_IN;
             if(!(var2 !== var5)) { _fun0002_ip = 435; continue _fun0002 }
  74:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_ON;
             if(!(var2 !== var5)) { _fun0002_ip = 374; continue _fun0002 }
  91:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_BEFORE;
             if(!(var2 !== var5)) { _fun0002_ip = 313; continue _fun0002 }
  108:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_AFTER;
             if(!(var2 !== var5)) { _fun0002_ip = 252; continue _fun0002 }
  125:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_AUTHOR_TYPE;
             if(!(var2 !== var5)) { _fun0002_ip = 191; continue _fun0002 }
  139:
@@ -195,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  435:
             var2 = arg1;
             var3 = var2.type;
-            var2 = _closure1_slot9;
+            var2 = _closure1_slot8;
             var2 = var2.DMS;
             if(!(var3 !== var2)) { _fun0002_ip = 518; continue _fun0002 }
  457:
@@ -281,35 +279,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var5 = arg1;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_FROM;
             if(!(var2 !== var5)) { _fun0003_ip = 618; continue _fun0003 }
  23:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_HAS;
             if(!(var2 !== var5)) { _fun0003_ip = 557; continue _fun0003 }
  40:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_IN;
             if(!(var2 !== var5)) { _fun0003_ip = 496; continue _fun0003 }
  57:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_MENTIONS;
             if(!(var2 !== var5)) { _fun0003_ip = 435; continue _fun0003 }
  74:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_ON;
             if(!(var2 !== var5)) { _fun0003_ip = 374; continue _fun0003 }
  91:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_BEFORE;
             if(!(var2 !== var5)) { _fun0003_ip = 313; continue _fun0003 }
  108:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_AFTER;
             if(!(var2 !== var5)) { _fun0003_ip = 252; continue _fun0003 }
  125:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_AUTHOR_TYPE;
             if(!(var2 !== var5)) { _fun0003_ip = 191; continue _fun0003 }
  139:
@@ -452,35 +450,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var5 = arg1;
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_FROM;
             if(!(var2 !== var5)) { _fun0004_ip = 398; continue _fun0004 }
  23:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_HAS;
             if(!(var2 !== var5)) { _fun0004_ip = 368; continue _fun0004 }
  40:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_IN;
             if(!(var2 !== var5)) { _fun0004_ip = 338; continue _fun0004 }
  57:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_MENTIONS;
             if(!(var2 !== var5)) { _fun0004_ip = 308; continue _fun0004 }
  74:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_ON;
             if(!(var2 !== var5)) { _fun0004_ip = 278; continue _fun0004 }
  91:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_BEFORE;
             if(!(var2 !== var5)) { _fun0004_ip = 248; continue _fun0004 }
  108:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_AFTER;
             if(!(var2 !== var5)) { _fun0004_ip = 218; continue _fun0004 }
  122:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_AUTHOR_TYPE;
             if(!(var2 !== var5)) { _fun0004_ip = 188; continue _fun0004 }
  136:
@@ -580,35 +578,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var5;
             var2 = arg3;
             var _closure2_slot2 = var2;
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var3 = var3.FILTER_FROM;
             if(!(var3 !== var5)) { _fun0005_ip = 208; continue _fun0005 }
  43:
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var3 = var3.FILTER_IN;
             if(!(var3 !== var5)) { _fun0005_ip = 208; continue _fun0005 }
  60:
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var3 = var3.FILTER_HAS;
             if(!(var3 !== var5)) { _fun0005_ip = 208; continue _fun0005 }
  77:
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var3 = var3.FILTER_MENTIONS;
             if(!(var3 !== var5)) { _fun0005_ip = 208; continue _fun0005 }
  91:
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var3 = var3.FILTER_AUTHOR_TYPE;
             if(!(var3 !== var5)) { _fun0005_ip = 208; continue _fun0005 }
  105:
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var3 = var3.FILTER_ON;
             if(!(var3 !== var5)) { _fun0005_ip = 199; continue _fun0005 }
  119:
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var3 = var3.FILTER_BEFORE;
             if(!(var3 !== var5)) { _fun0005_ip = 199; continue _fun0005 }
  133:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot7;
             var2 = var2.FILTER_AFTER;
             if(!(var2 !== var5)) { _fun0005_ip = 199; continue _fun0005 }
  147:
@@ -663,7 +661,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = function onSubmit(arg1) {
                             var5 = arg1;
                             var4 = var5.format;
-                            var3 = _closure1_slot7;
+                            var3 = _closure1_slot6;
                             var3 = var4.bind(var5)(var3);
                             var _closure6_slot0 = var3;
                             var5 = _closure1_slot3;
@@ -681,7 +679,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var5 = _closure1_slot5;
                                 var5 = var5.COMPLETE;
                                 var2['type'] = var5;
-                                var7 = _closure1_slot10;
+                                var7 = _closure1_slot9;
                                 var6 = _closure4_slot1;
                                 var1 = undefined;
                                 var11 = var7.bind(var1)(var6);
@@ -762,7 +760,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['searchTokenType'] = var6;
                         var5 = _closure4_slot1;
                         var2['location'] = var5;
-                        var5 = _closure1_slot10;
+                        var5 = _closure1_slot9;
                         var1 = undefined;
                         var5 = var5.bind(var1)(var6);
                         var2['text'] = var5;
@@ -807,49 +805,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function(arg1) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-                var5 = arg1;
-                var3 = _closure1_slot6;
-                var2 = var3.test;
-                var2 = var2.bind(var3)(var5);
-                if(!var2) { _fun0006_ip = 168; continue _fun0006 }
- 26:
+                var6 = arg1;
+                var5 = _closure1_slot0;
+                var1 = _closure1_slot2;
+                var4 = 12;
+                var3 = var1[var4];
+                var1 = undefined;
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.isSearchFilterTokenType;
+                var3 = var3.bind(var5)(var6);
+                if(!var3) { _fun0006_ip = 182; continue _fun0006 }
+ 45:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 12;
-                var2 = var2[var1];
-                var1 = undefined;
-                var1 = var3.bind(var1)(var2);
-                var1 = var1[var5];
-                var4 = var1.plainText;
-                var1 = null;
-                if(!(var1 != var4)) { _fun0006_ip = 168; continue _fun0006 }
- 64:
-                var1 = global;
-                var6 = var1.RegExp;
-                var1 = var1.HermesInternal;
-                var3 = var1.concat;
-                var2 = '^';
-                var1 = '(?:: ?)?$';
-                var8 = var3.bind(var2)(var4, var1);
-                var1 = var6.prototype;
-                var2 = Object.create(var1, {constructor: {value: var6}});
-                var7 = 'i';
-                var9 = var2;
-                var1 = new var9[var6](var8, var7, var6);
-                var6 = var1 instanceof Object ? var1 : var2;
-                var3 = var6.test;
-                var2 = _closure2_slot0;
-                var2 = var3.bind(var6)(var2);
-                if(!var2) { _fun0006_ip = 168; continue _fun0006 }
- 143:
-                var3 = _closure2_slot1;
-                var2 = var3.push;
-                var1 = {};
-                var1['token'] = var5;
-                var1['text'] = var4;
-                var1 = var2.bind(var3)(var1);
- 168:
-                var1 = undefined;
+                var2 = var2[var4];
+                var2 = var3.bind(var1)(var2);
+                var2 = var2[var6];
+                var5 = var2.plainText;
+                var2 = null;
+                if(!(var2 != var5)) { _fun0006_ip = 182; continue _fun0006 }
+ 78:
+                var2 = global;
+                var7 = var2.RegExp;
+                var2 = var2.HermesInternal;
+                var4 = var2.concat;
+                var3 = '^';
+                var2 = '(?:: ?)?$';
+                var9 = var4.bind(var3)(var5, var2);
+                var2 = var7.prototype;
+                var3 = Object.create(var2, {constructor: {value: var7}});
+                var8 = 'i';
+                var10 = var3;
+                var2 = new var10[var7](var9, var8, var7);
+                var7 = var2 instanceof Object ? var2 : var3;
+                var4 = var7.test;
+                var3 = _closure2_slot0;
+                var3 = var4.bind(var7)(var3);
+                if(!var3) { _fun0006_ip = 182; continue _fun0006 }
+ 157:
+                var4 = _closure2_slot1;
+                var3 = var4.push;
+                var2 = {};
+                var2['token'] = var6;
+                var2['text'] = var5;
+                var2 = var3.bind(var4)(var2);
+ 182:
                 return var1;
             }
         };

@@ -1,42 +1,50 @@
 // app/modules/media_viewer/native/components/MediaModalYoutube.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
+    var8 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var8;
     var _closure1_slot2 = var6;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var4 = {};
+    var4 = global;
+    var10 = var4.Object;
+    var9 = var10.defineProperty;
+    var7 = {};
     var1 = true;
-    var4['value'] = var1;
+    var7['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var9.bind(var10)(var3, var1, var7);
     var1 = 0;
-    var4 = var6[var1];
+    var7 = var6[var1];
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var7 = var6[var4];
-    var4 = metroImportAll;
-    var7 = var4.bind(var1)(var7);
+    var7 = var8.bind(var1)(var7);
+    var _closure1_slot3 = var7;
+    var7 = 1;
+    var8 = var6[var7];
+    var7 = metroImportAll;
+    var7 = var7.bind(var1)(var8);
     var _closure1_slot4 = var7;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.AnalyticEvents;
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot6 = var4;
+    var8 = 2;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AnalyticEvents;
+    var _closure1_slot5 = var8;
+    var8 = 3;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.jsx;
+    var _closure1_slot6 = var8;
+    var8 = var4.window;
+    var8 = var8.GLOBAL_ENV;
+    var9 = var8.WEBAPP_ENDPOINT;
+    var4 = var4.HermesInternal;
+    var8 = var4.concat;
+    var4 = 'https:';
+    var4 = var8.bind(var4)(var9);
+    var _closure1_slot7 = var4;
     var4 = function HTML(arg1) {
-        var3 = _closure1_slot8;
+        var3 = _closure1_slot9;
         var2 = undefined;
         var1 = arg1;
         var4 = var3.bind(var2)(var1);
@@ -48,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var2)(var4, var1);
         return var1;
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = function getJavascriptFromVideoID(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -110,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = var7.memo;
     var2 = function(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -464,7 +472,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.uri;
             var6 = var8.bind(var9)(var4);
  385:
-            if(!(var1 != var6)) { _fun0002_ip = 654; continue _fun0002 }
+            if(!(var1 != var6)) { _fun0002_ip = 657; continue _fun0002 }
  392:
             var8 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -475,7 +483,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var11 === var4)) { _fun0002_ip = 438; continue _fun0002 }
  425:
             var4 = 'embed_not_allowed';
-            if(!(var4 !== var7)) { _fun0002_ip = 609; continue _fun0002 }
+            if(!(var4 !== var7)) { _fun0002_ip = 612; continue _fun0002 }
  438:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -499,12 +507,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = {};
             var4['ref'] = var13;
             var4['style'] = var12;
-            var12 = {};
-            var13 = _closure1_slot7;
-            var13 = var13.bind(var5)(var6);
-            var12['html'] = var13;
-            var4['source'] = var12;
-            var12 = 'https://www.youtube.com/embed';
+            var13 = {};
+            var12 = _closure1_slot8;
+            var12 = var12.bind(var5)(var6);
+            var13['html'] = var12;
+            var12 = _closure1_slot7;
+            var13['baseUrl'] = var12;
+            var4['source'] = var13;
             var4['baseURL'] = var12;
             var4['playerState'] = var11;
             var4['onDataReceived'] = var10;
@@ -520,7 +529,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.videoId;
             var3 = var8.bind(var5)(var7, var4, var3);
             return var3;
- 609:
+ 612:
             var4 = _closure1_slot6;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -532,7 +541,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['videoId'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 654:
+ 657:
             return var1;
         }
     };

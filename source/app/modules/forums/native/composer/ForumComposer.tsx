@@ -2477,6 +2477,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['draftContent'] = var21;
             var3['handleTextChange'] = var47;
             var3['setSelection'] = var38;
+            var3['channel'] = var33;
             var22 = var19.bind(var22)(var3);
             var3 = 46;
             var3 = var18[var3];
@@ -2510,16 +2511,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = new Array(0);
             var18 = var8.bind(var9)(var7, var3);
             var19 = var33;
-            if(!var24) { _fun0012_ip = 2424; continue _fun0012 }
- 2421:
+            if(!var24) { _fun0012_ip = 2428; continue _fun0012 }
+ 2425:
             var19 = var2;
- 2424:
+ 2428:
             _closure2_slot37 = var19;
             var3 = var37.replace;
             var2 = /\n/g;
             var9 = var3.bind(var37)(var2, var4);
-            if(!(var1 != var19)) { _fun0012_ip = 4200; continue _fun0012 }
- 2460:
+            if(!(var1 != var19)) { _fun0012_ip = 4204; continue _fun0012 }
+ 2464:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 38;
@@ -2538,11 +2539,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var46 = var3.bind(var4)(var6, var2);
             var2 = var19.isMediaChannel;
             var2 = var2.bind(var19)();
-            if(var2) { _fun0012_ip = 2549; continue _fun0012 }
- 2543:
+            if(var2) { _fun0012_ip = 2553; continue _fun0012 }
+ 2547:
             var15 = new Array(0);
-            _fun0012_ip = 2592; continue _fun0012;
- 2549:
+            _fun0012_ip = 2596; continue _fun0012;
+ 2553:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 47;
@@ -2553,7 +2554,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new Array(1);
             var2[0] = var3;
             var15 = var2;
- 2592:
+ 2596:
             var2 = function MediaPostMultipleThumbnailActionSheetImporter() {
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -2799,8 +2800,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13[0] = var16;
             var17 = var1 != var36;
             var16 = null;
-            if(!var17) { _fun0012_ip = 3091; continue _fun0012 }
- 3045:
+            if(!var17) { _fun0012_ip = 3095; continue _fun0012 }
+ 3049:
             var35 = _closure1_slot27;
             var34 = _closure1_slot1;
             var37 = _closure1_slot2;
@@ -2812,7 +2813,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17['style'] = var37;
             var17['children'] = var36;
             var16 = var35.bind(var5)(var34, var17);
- 3091:
+ 3095:
             var13[1] = var16;
             var35 = _closure1_slot28;
             var34 = _closure1_slot8;
@@ -2820,8 +2821,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var23.editor;
             var17['style'] = var16;
             var16 = var1 != var42;
-            if(!var16) { _fun0012_ip = 3329; continue _fun0012 }
- 3125:
+            if(!var16) { _fun0012_ip = 3333; continue _fun0012 }
+ 3129:
             var38 = _closure1_slot27;
             var37 = _closure1_slot7;
             var36 = {};
@@ -2873,17 +2874,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var39['user'] = var42;
             var43 = var1 == var33;
             var53 = undefined;
-            if(var43) { _fun0012_ip = 3220; continue _fun0012 }
- 3210:
+            if(var43) { _fun0012_ip = 3224; continue _fun0012 }
+ 3214:
             var43 = var33.getGuildId;
             var53 = var43.bind(var33)();
- 3220:
+ 3224:
             var55 = var1 != var53;
             var43 = undefined;
-            if(!var55) { _fun0012_ip = 3232; continue _fun0012 }
- 3229:
+            if(!var55) { _fun0012_ip = 3236; continue _fun0012 }
+ 3233:
             var43 = var53;
- 3232:
+ 3236:
             var39['guildId'] = var43;
             var42 = var42.avatarDecoration;
             var39['avatarDecoration'] = var42;
@@ -2904,7 +2905,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var39 = var41.bind(var5)(var40, var39);
             var36['children'] = var39;
             var16 = var38.bind(var5)(var37, var36);
- 3329:
+ 3333:
             var36 = new Array(2);
             var36[0] = var16;
             var39 = _closure1_slot28;
@@ -2976,8 +2977,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var40[0] = var16;
             var41 = var1 != var46;
             var16 = null;
-            if(!var41) { _fun0012_ip = 3710; continue _fun0012 }
- 3664:
+            if(!var41) { _fun0012_ip = 3714; continue _fun0012 }
+ 3668:
             var43 = _closure1_slot27;
             var42 = _closure1_slot1;
             var53 = _closure1_slot2;
@@ -2989,7 +2990,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var41['style'] = var53;
             var41['children'] = var46;
             var16 = var43.bind(var5)(var42, var41);
- 3710:
+ 3714:
             var40[1] = var16;
             var43 = _closure1_slot27;
             var46 = _closure1_slot0;
@@ -3216,7 +3217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 4200:
+ 4204:
             return var1;
         }
     };

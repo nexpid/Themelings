@@ -1694,6 +1694,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['REFERRAL_PROGRAM_POPOVER'] = var2;
     var1 = 'REFERRAL_PROGRAM_POPOVER';
     var4[var2] = var1;
+    var2 = 578;
+    var4['NAMEPLATE_GUILD_SETTINGS_PROFILE_PAGE_NEW_BADGE'] = var2;
+    var1 = 'NAMEPLATE_GUILD_SETTINGS_PROFILE_PAGE_NEW_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';
