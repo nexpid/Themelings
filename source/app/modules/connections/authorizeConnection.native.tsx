@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.PlatformTypes;
     var _closure1_slot4 = var4;
-    var4 = 16;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -161,35 +161,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.body;
                     var3 = var1.url;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0004_ip = 125; continue _fun0004 }
+                    if(!(var1 != var3)) { _fun0004_ip = 55; continue _fun0004 }
  19:
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var1 = 15;
-                    var1 = var5[var1];
-                    var5 = undefined;
-                    var1 = var4.bind(var5)(var1);
-                    var6 = var1.ExperimentConnectionFlowRefactor;
-                    var4 = var6.getCurrentConfig;
-                    var1 = {};
-                    var7 = 'authorizeConnection.native:authorizeConnection';
-                    var1['location'] = var7;
-                    var1 = var4.bind(var6)(var1);
-                    var1 = var1.enabled;
                     var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var2 = 13;
-                    var2 = var6[var2];
-                    var2 = var4.bind(var5)(var2);
-                    if(var1) { _fun0004_ip = 114; continue _fun0004 }
- 101:
+                    var2 = _closure1_slot2;
+                    var1 = 13;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var4.bind(var1)(var2);
                     var1 = var2.openURL;
                     var1 = var1.bind(var2)(var3);
-                    _fun0004_ip = 125; continue _fun0004;
- 114:
-                    var1 = var2.openURLExternally;
-                    var1 = var1.bind(var2)(var3);
- 125:
+ 55:
                     var1 = undefined;
                     return var1;
                 }

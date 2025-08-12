@@ -202,8 +202,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var8 = var10 != var18;
             var9 = null;
-            if(!var8) { _fun0001_ip = 633; continue _fun0001 }
- 287:
+            if(!var8) { _fun0001_ip = 637; continue _fun0001 }
+ 291:
             var16 = _closure1_slot8;
             var25 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -295,7 +295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19[2] = var20;
             var8['children'] = var19;
             var9 = var16.bind(var4)(var11, var8);
- 633:
+ 637:
             var8 = new Array(4);
             var8[0] = var9;
             var16 = _closure1_slot7;
@@ -308,10 +308,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = {};
             var18 = var10 != var18;
             var19 = var14;
-            if(!var18) { _fun0001_ip = 689; continue _fun0001 }
- 683:
+            if(!var18) { _fun0001_ip = 693; continue _fun0001 }
+ 687:
             var19 = 'New';
- 689:
+ 693:
             var18 = ' Override Type';
             var18 = var19 + var18;
             var9['title'] = var18;
@@ -383,10 +383,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var20.bind(var21)(var11);
             var20 = var10 == var11;
             var10 = undefined;
-            if(var20) { _fun0001_ip = 858; continue _fun0001 }
- 853:
+            if(var20) { _fun0001_ip = 862; continue _fun0001 }
+ 857:
             var10 = var11.icon;
- 858:
+ 862:
             var18['icon'] = var10;
             var11 = _closure1_slot7;
             var10 = _closure1_slot0;

@@ -173,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = 'unsupported';
                     var1 = arg1;
-                    if(!(var2 === var1)) { _fun0004_ip = 67; continue _fun0004 }
+                    if(!(var2 === var1)) { _fun0004_ip = 71; continue _fun0004 }
  11:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -186,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var1.LIVE_ACTIVITY_SETTINGS_UPDATED;
                     var1 = {'supported': false, 'enabled': false};
                     var1 = var3.bind(var4)(var2, var1);
- 67:
+ 71:
                     var1 = undefined;
                     return var1;
                 }

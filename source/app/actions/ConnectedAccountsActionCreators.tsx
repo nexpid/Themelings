@@ -10,61 +10,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function callback(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var11 = arg1;
-            var10 = arguments[2];
-            var8 = undefined;
-            if(!(var10 === var8)) { _fun0001_ip = 14; continue _fun0001 }
+            var7 = arg1;
+            var8 = arguments[2];
+            var3 = undefined;
+            if(!(var8 === var3)) { _fun0001_ip = 14; continue _fun0001 }
  12:
-            var10 = false;
+            var8 = false;
  14:
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 5;
-            var1 = var9[var1];
-            var1 = var6.bind(var8)(var1);
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 4;
+            var1 = var4[var1];
+            var1 = var2.bind(var3)(var1);
             var3 = var1.HTTP;
             var2 = var3.post;
             var1 = {};
-            var5 = _closure1_slot7;
-            var4 = var5.CONNECTIONS_CALLBACK;
-            var4 = var4.bind(var5)(var11);
+            var6 = _closure1_slot6;
+            var4 = var6.CONNECTIONS_CALLBACK;
+            var4 = var4.bind(var6)(var7);
             var1['url'] = var4;
             var4 = {};
-            var12 = arg2;
-            var13 = var4;
-            var5 = copyDataProperties(var13, var12);
-            var5 = 'insecure';
-            var4[var5] = var10;
-            var10 = _closure1_slot8;
-            var5 = var10.has;
-            var10 = var5.bind(var10)(var11);
+            var9 = arg2;
+            var10 = var4;
+            var6 = copyDataProperties(var10, var9);
+            var6 = 'insecure';
+            var4[var6] = var8;
+            var6 = _closure1_slot7;
+            var5 = var6.has;
+            var6 = var5.bind(var6)(var7);
             var5 = 'friend_sync';
-            var4[var5] = var10;
-            var5 = 6;
-            var5 = var9[var5];
-            var5 = var6.bind(var8)(var5);
-            var8 = var5.ExperimentConnectionFlowRefactor;
-            var6 = var8.getCurrentConfig;
-            var5 = {};
-            var9 = 'ConnectedAccountsActionCreators.callback';
-            var5['location'] = var9;
-            var5 = var6.bind(var8)(var5);
-            var5 = var5.enabled;
-            if(var5) { _fun0001_ip = 166; continue _fun0001 }
- 162:
-            var5 = {};
-            _fun0001_ip = 190; continue _fun0001;
- 166:
-            var6 = {};
-            var8 = _closure1_slot4;
-            var7 = var8.getSessionId;
-            var7 = var7.bind(var8)();
-            var6['session_id'] = var7;
-            var5 = var6;
- 190:
-            var13 = var4;
-            var12 = var5;
-            var5 = copyDataProperties(var13, var12);
+            var4[var5] = var6;
             var1['body'] = var4;
             var4 = true;
             var1['oldFormErrors'] = var4;
@@ -74,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot11 = var7;
+    var _closure1_slot10 = var7;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -94,20 +69,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var2;
     var2 = 2;
     var2 = var6[var2];
-    var2 = var8.bind(var1)(var2);
-    var _closure1_slot5 = var2;
-    var2 = 3;
-    var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var9 = var2.AbortCodes;
-    var _closure1_slot6 = var9;
+    var _closure1_slot5 = var9;
     var9 = var2.Endpoints;
-    var _closure1_slot7 = var9;
+    var _closure1_slot6 = var9;
     var9 = var2.FRIEND_SYNC_PLATFORM_TYPES;
-    var _closure1_slot8 = var9;
+    var _closure1_slot7 = var9;
     var2 = var2.AnalyticEvents;
-    var _closure1_slot9 = var2;
-    var2 = 4;
+    var _closure1_slot8 = var2;
+    var2 = 3;
     var2 = var6[var2];
     var9 = var8.bind(var1)(var2);
     var2 = var9.prototype;
@@ -116,19 +87,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var8;
     var2 = new var14[var9](var13, var12);
     var2 = var2 instanceof Object ? var2 : var8;
-    var _closure1_slot10 = var2;
+    var _closure1_slot9 = var2;
     var2 = {};
     var8 = function fetch() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var2 = 5;
+        var2 = 4;
         var3 = var3[var2];
         var2 = undefined;
         var2 = var4.bind(var2)(var3);
         var4 = var2.HTTP;
         var3 = var4.get;
         var2 = {'url': null, 'oldFormErrors': true, 'rejectWithError': true};
-        var5 = _closure1_slot7;
+        var5 = _closure1_slot6;
         var5 = var5.CONNECTIONS;
         var2['url'] = var5;
         var4 = var3.bind(var4)(var2);
@@ -136,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function(arg1) {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 7;
+            var1 = 5;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -151,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 7;
+            var1 = 5;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -196,32 +167,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0003_ip = 636; continue _fun0003 }
+                        if(var2) { _fun0003_ip = 475; continue _fun0003 }
  10:
                         var4 = _closure1_slot1;
                         var5 = _closure1_slot2;
-                        var2 = 8;
+                        var2 = 6;
                         var2 = var5[var2];
-                        var8 = undefined;
-                        var9 = var4.bind(var8)(var2);
-                        var7 = var9.track;
-                        var2 = _closure1_slot9;
+                        var7 = undefined;
+                        var9 = var4.bind(var7)(var2);
+                        var8 = var9.track;
+                        var2 = _closure1_slot8;
                         var5 = var2.CONNECTED_ACCOUNT_INITIATED;
                         var4 = {};
                         var6 = _closure2_slot0;
                         var4['platform_type'] = var6;
                         var10 = _closure2_slot1;
                         var4['location'] = var10;
-                        var4 = var7.bind(var9)(var5, var4);
-                        var5 = _closure1_slot7;
+                        var4 = var8.bind(var9)(var5, var4);
+                        var5 = _closure1_slot6;
                         var4 = var5.CONNECTIONS_AUTHORIZE;
                         var5 = var4.bind(var5)(var6);
-                        var7 = global;
-                        var4 = var7.URLSearchParams;
+                        var8 = global;
+                        var4 = var8.URLSearchParams;
                         var6 = var4.prototype;
                         var6 = Object.create(var6, {constructor: {value: var4}});
-                        var15 = var6;
-                        var4 = new var15[var4](var14);
+                        var14 = var6;
+                        var4 = new var14[var4](var13);
                         var6 = var4 instanceof Object ? var4 : var6;
                         var9 = _closure2_slot3;
                         var4 = null;
@@ -247,119 +218,78 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         if(!(var4 != var9)) { _fun0003_ip = 278; continue _fun0003 }
  199:
                         var10 = var6.append;
-                        var9 = var7.String;
-                        var7 = _closure2_slot4;
-                        var9 = var9.bind(var8)(var7);
-                        var7 = 'two_way_link';
-                        var7 = var10.bind(var6)(var7, var9);
+                        var9 = var8.String;
+                        var8 = _closure2_slot4;
+                        var9 = var9.bind(var7)(var8);
+                        var8 = 'two_way_link';
+                        var8 = var10.bind(var6)(var8, var9);
                         _fun0003_ip = 278; continue _fun0003;
  234:
                         var10 = var6.append;
                         var9 = _closure2_slot2;
-                        var7 = 'two_way_link_type';
-                        var7 = var10.bind(var6)(var7, var9);
+                        var8 = 'two_way_link_type';
+                        var8 = var10.bind(var6)(var8, var9);
                         var10 = var6.append;
                         var9 = 'two_way_link';
-                        var7 = 'true';
-                        var7 = var10.bind(var6)(var9, var7);
+                        var8 = 'true';
+                        var8 = var10.bind(var6)(var9, var8);
  278:
-                        var7 = _closure2_slot6;
-                        if(!(var4 != var7)) { _fun0003_ip = 306; continue _fun0003 }
+                        var8 = _closure2_slot6;
+                        if(!(var4 != var8)) { _fun0003_ip = 306; continue _fun0003 }
  286:
                         var9 = var6.append;
-                        var7 = _closure2_slot6;
+                        var8 = _closure2_slot6;
                         var2 = 'handle';
-                        var2 = var9.bind(var6)(var2, var7);
+                        var2 = var9.bind(var6)(var2, var8);
  306:
-                        var7 = _closure1_slot0;
-                        var2 = _closure1_slot2;
-                        var9 = 6;
-                        var2 = var2[var9];
-                        var2 = var7.bind(var8)(var2);
-                        var11 = var2.ExperimentConnectionFlowRefactor;
-                        var10 = var11.getCurrentConfig;
-                        var7 = {};
-                        var2 = 'ConnectedAcountsActionCreators.authorize';
-                        var7['location'] = var2;
-                        var2 = {};
-                        var12 = true;
-                        var2['autoTrackExposure'] = var12;
-                        var2 = var10.bind(var11)(var7, var2);
-                        var2 = var2.enabled;
-                        if(!var2) { _fun0003_ip = 407; continue _fun0003 }
- 373:
-                        var7 = _closure1_slot4;
-                        var2 = var7.getSessionId;
-                        var10 = var2.bind(var7)();
-                        if(!(var4 != var10)) { _fun0003_ip = 407; continue _fun0003 }
- 391:
-                        var7 = var6.append;
-                        var2 = 'session_id';
-                        var2 = var7.bind(var6)(var2, var10);
- 407:
                         var2 = '?';
                         var5 = var5 + var2;
                         var2 = var6.toString;
                         var2 = var2.bind(var6)();
-                        var7 = var5 + var2;
+                        var8 = var5 + var2;
                         var5 = _closure1_slot0;
                         var6 = _closure1_slot2;
-                        var2 = 5;
+                        var2 = 4;
                         var2 = var6[var2];
-                        var2 = var5.bind(var8)(var2);
+                        var2 = var5.bind(var7)(var2);
                         var6 = var2.HTTP;
                         var5 = var6.get;
                         var2 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-                        var2['url'] = var7;
+                        var2['url'] = var8;
                         var2 = var5.bind(var6)(var2);
-                        SaveGenerator(address=483);
- 481:
+                        SaveGenerator(address=382);
+ 380:
                         return var2;
- 483:
+ 382:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0003_ip = 633; continue _fun0003 }
- 492:
+                        if(var5) { _fun0003_ip = 472; continue _fun0003 }
+ 388:
                         var6 = _closure1_slot0;
-                        var7 = _closure1_slot2;
-                        var5 = 9;
-                        var5 = var7[var5];
-                        var7 = var6.bind(var8)(var5);
+                        var8 = _closure1_slot2;
+                        var5 = 7;
+                        var5 = var8[var5];
+                        var7 = var6.bind(var7)(var5);
                         var6 = var7.getCallbackParamsFromURL;
                         var5 = var2.body;
-                        var10 = var5.url;
-                        var11 = var4 != var10;
+                        var8 = var5.url;
+                        var9 = var4 != var8;
                         var5 = '';
-                        if(!var11) { _fun0003_ip = 542; continue _fun0003 }
- 539:
-                        var5 = var10;
- 542:
+                        if(!var9) { _fun0003_ip = 438; continue _fun0003 }
+ 435:
+                        var5 = var8;
+ 438:
                         var5 = var6.bind(var7)(var5);
                         var5 = var5.state;
-                        var4 = var4 == var5;
-                        if(var4) { _fun0003_ip = 610; continue _fun0003 }
- 559:
-                        var7 = _closure1_slot0;
-                        var6 = _closure1_slot2;
-                        var6 = var6[var9];
-                        var6 = var7.bind(var8)(var6);
-                        var8 = var6.ExperimentConnectionFlowRefactor;
-                        var7 = var8.getCurrentConfig;
-                        var6 = {};
-                        var9 = 'ConnectedAccountsActionCreators.authorize';
-                        var6['location'] = var9;
-                        var6 = var7.bind(var8)(var6);
-                        var4 = var6.enabled;
- 610:
-                        if(var4) { _fun0003_ip = 630; continue _fun0003 }
- 613:
-                        var4 = _closure1_slot5;
+                        if(!(var4 != var5)) { _fun0003_ip = 469; continue _fun0003 }
+ 452:
+                        var4 = _closure1_slot4;
                         var3 = var4.addPendingAuthorizedState;
                         var3 = var3.bind(var4)(var5);
- 630:
+ 469:
                         return var2;
- 633:
+ 472:
                         return var2;
- 636:
+ 475:
                         return var1;
                     }
                 };
@@ -380,13 +310,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = arg5;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 8;
             var1 = var3[var1];
             var10 = undefined;
             var3 = var2.bind(var10)(var1);
             var2 = var3.put;
             var1 = {};
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot6;
             var5 = var9.CONNECTION;
             var4 = arg2;
             var4 = var5.bind(var9)(var8, var4);
@@ -402,7 +332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  88:
             if(!(var9 == var5)) { _fun0004_ip = 106; continue _fun0004 }
  92:
-            var11 = _closure1_slot8;
+            var11 = _closure1_slot7;
             var9 = var11.has;
             var5 = var9.bind(var11)(var8);
  106:
@@ -417,7 +347,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = {};
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var5 = 11;
+            var5 = 9;
             var5 = var11[var5];
             var5 = var9.bind(var10)(var5);
             var5 = var5.NetworkActionNames;
@@ -425,7 +355,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['event'] = var5;
             var5 = {};
             var5['name'] = var7;
-            var7 = _closure1_slot8;
+            var7 = _closure1_slot7;
             var6 = var7.has;
             var6 = var6.bind(var7)(var8);
             var5['friend_sync'] = var6;
@@ -441,14 +371,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function disconnect(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
         var3 = var1.HTTP;
         var2 = var3.del;
         var1 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-        var7 = _closure1_slot7;
+        var7 = _closure1_slot6;
         var6 = var7.CONNECTION;
         var5 = arg1;
         var4 = arg2;
@@ -461,14 +391,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function refresh(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
         var3 = var1.HTTP;
         var2 = var3.post;
         var1 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-        var7 = _closure1_slot7;
+        var7 = _closure1_slot6;
         var6 = var7.CONNECTION_REFRESH;
         var5 = arg1;
         var4 = arg2;
@@ -534,13 +464,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = arg3;
         var2 = _closure1_slot1;
         var9 = _closure1_slot2;
-        var1 = 10;
+        var1 = 8;
         var1 = var9[var1];
         var8 = undefined;
         var3 = var2.bind(var8)(var1);
         var2 = var3.patch;
         var1 = {};
-        var11 = _closure1_slot7;
+        var11 = _closure1_slot6;
         var10 = var11.CONNECTION;
         var7 = arg1;
         var4 = arg2;
@@ -551,7 +481,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['oldFormErrors'] = var4;
         var4 = {};
         var7 = _closure1_slot0;
-        var5 = 11;
+        var5 = 9;
         var5 = var9[var5];
         var5 = var7.bind(var8)(var5);
         var5 = var5.NetworkActionNames;
@@ -576,7 +506,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot1 = var1;
         var4 = _closure1_slot1;
         var5 = _closure1_slot2;
-        var1 = 7;
+        var1 = 5;
         var3 = var5[var1];
         var1 = undefined;
         var7 = var4.bind(var1)(var3);
@@ -585,13 +515,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['integrationId'] = var8;
         var3 = var4.bind(var7)(var3);
         var4 = _closure1_slot0;
-        var3 = 5;
+        var3 = 4;
         var3 = var5[var3];
         var3 = var4.bind(var1)(var3);
         var5 = var3.HTTP;
         var4 = var5.post;
         var3 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-        var7 = _closure1_slot7;
+        var7 = _closure1_slot6;
         var6 = var7.INTEGRATION_JOIN;
         var6 = var6.bind(var7)(var8);
         var3['url'] = var6;
@@ -601,7 +531,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = arg1;
                 var4 = _closure1_slot1;
                 var1 = _closure1_slot2;
-                var5 = 7;
+                var5 = 5;
                 var2 = var1[var5];
                 var1 = undefined;
                 var8 = var4.bind(var1)(var2);
@@ -663,14 +593,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10: // try_start_0
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 5;
+                    var3 = 4;
                     var3 = var6[var3];
                     var7 = undefined;
                     var3 = var4.bind(var7)(var3);
                     var6 = var3.HTTP;
                     var4 = var6.get;
                     var3 = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
-                    var12 = _closure1_slot7;
+                    var12 = _closure1_slot6;
                     var11 = var12.CONNECTION_ACCESS_TOKEN;
                     var10 = _closure2_slot0;
                     var9 = _closure2_slot1;
@@ -688,7 +618,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.access_token;
                     var6 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var5 = 7;
+                    var5 = 5;
                     var5 = var9[var5];
                     var7 = var6.bind(var7)(var5);
                     var6 = var7.dispatch;
@@ -710,13 +640,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3;
                     var3 = var3.body;
                     var5 = var3.code;
-                    var4 = _closure1_slot6;
+                    var4 = _closure1_slot5;
                     var4 = var4.CONNECTION_REVOKED;
                     if(!(var5 === var4)) { _fun0006_ip = 287; continue _fun0006 }
  216:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var3 = 7;
+                    var3 = 5;
                     var4 = var4[var3];
                     var3 = undefined;
                     var5 = var5.bind(var3)(var4);
@@ -747,14 +677,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function linkDispatchAuthCallback(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
         var3 = var1.HTTP;
         var2 = var3.post;
         var1 = {};
-        var6 = _closure1_slot7;
+        var6 = _closure1_slot6;
         var5 = var6.CONNECTIONS_LINK_DISPATCH_AUTH_CALLBACK;
         var4 = arg1;
         var4 = var5.bind(var6)(var4);
@@ -797,7 +727,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = null;
                     if(!(var4 == var2)) { _fun0007_ip = 48; continue _fun0007 }
  23:
-                    var5 = _closure1_slot10;
+                    var5 = _closure1_slot9;
                     var3 = var5.error;
                     var2 = 'Two-way link: missing authorize location';
                     var2 = var3.bind(var5)(var2);
@@ -805,7 +735,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  48:
                     var7 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 7;
                     var3 = var5[var3];
                     var5 = undefined;
                     var8 = var7.bind(var5)(var3);
@@ -817,7 +747,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.errorDescription;
                     if(!(var4 != var10)) { _fun0007_ip = 145; continue _fun0007 }
  108:
-                    var9 = _closure1_slot10;
+                    var9 = _closure1_slot9;
                     var8 = var9.error;
                     var4 = {};
                     var4['error'] = var10;
@@ -828,7 +758,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = undefined;
                     return var3;
  145:
-                    var4 = _closure1_slot11;
+                    var4 = _closure1_slot10;
                     var3 = _closure2_slot0;
                     var2 = {};
                     var8 = _closure2_slot2;
@@ -863,14 +793,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function sessionHandoff(arg1, arg2, arg3, arg4, arg5) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
         var3 = var1.HTTP;
         var2 = var3.post;
         var1 = {};
-        var6 = _closure1_slot7;
+        var6 = _closure1_slot6;
         var5 = var6.CONNECTIONS_SESSION_HANDOFF;
         var4 = arg1;
         var4 = var5.bind(var6)(var4);
@@ -905,7 +835,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var4.append;
         var1 = 'state';
         var1 = var3.bind(var4)(var1, var5);
-        var7 = _closure1_slot7;
+        var7 = _closure1_slot6;
         var6 = var7.CONNECTIONS_SESSION_HANDOFF;
         var3 = arg1;
         var7 = var6.bind(var7)(var3);
@@ -918,7 +848,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var4.bind(var3)(var7, var2, var6);
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -935,7 +865,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['getHandoffStatus'] = var4;
-    var4 = 12;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

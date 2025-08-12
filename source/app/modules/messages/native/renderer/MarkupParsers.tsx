@@ -161,10 +161,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['channelId'] = var1;
             var1 = true;
             var10 = !var10;
-            if(!var10) { _fun0002_ip = 204; continue _fun0002 }
- 201:
+            if(!var10) { _fun0002_ip = 208; continue _fun0002 }
+ 205:
             var10 = var9;
- 204:
+ 208:
             var3['allowHeading'] = var10;
             var3['allowList'] = var9;
             var3['previewLinkTarget'] = var8;

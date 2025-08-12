@@ -165,11 +165,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot2;
             var4 = var4.findStoresThatCanHandleActionType;
             var1['findStoresThatCanHandleActionType'] = var4;
-            var4 = _closure1_slot2;
-            var4 = var4.getRegisteredActionTypes;
-            var1['getActions'] = var4;
             var3 = _closure1_slot2;
-            var3 = var3.dispatchAction;
+            var3 = var3.getRegisteredActionTypes;
+            var1['getActions'] = var3;
+            var3 = function dispatchAction(arg1, arg2) {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    var2 = arg1;
+                    var1 = arg2;
+ 6: // try_start_0
+                    var5 = _closure1_slot2;
+                    var4 = var5.dispatchAction;
+                    var1 = var4.bind(var5)(var2, var1);
+ 25: // try_end0
+                    return var1;
+ 27: // catch_target0
+                    CatchBlockStart(arg_register=4);
+                    var3 = var5;
+                    var1 = {};
+                    var2 = false;
+                    var1['ok'] = var2;
+                    var2 = global;
+                    var4 = var2.Error;
+                    var4 = var5 instanceof var4;
+                    if(var4) { _fun0002_ip = 74; continue _fun0002 }
+ 56:
+                    var5 = var2.String;
+                    var4 = var3;
+                    var2 = undefined;
+                    var2 = var5.bind(var2)(var4);
+                    _fun0002_ip = 79; continue _fun0002;
+ 74:
+                    var2 = var3.message;
+ 79:
+                    var1['error'] = var2;
+                    return var1;
+                }
+            };
             var1['dispatchAction'] = var3;
             var2 = function getMemoryStatistics(arg1) {
                 var3 = _closure1_slot2;

@@ -444,7 +444,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = {'maxBudgetMinute': 1, 'maxBudgetHour': 15};
     var5 = var8.bind(var9)(var5);
     var _closure1_slot13 = var5;
-    var5 = 16;
+    var5 = 17;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -478,12 +478,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = 'debug';
                     var5 = var6.bind(var3)(var5);
                     var7 = -1;
-                    if(!(var7 === var5)) { _fun0005_ip = 668; continue _fun0005 }
+                    if(!(var7 === var5)) { _fun0005_ip = 717; continue _fun0005 }
  76:
                     var6 = var3.indexOf;
                     var5 = 'developer';
                     var5 = var6.bind(var3)(var5);
-                    if(!(var7 === var5)) { _fun0005_ip = 668; continue _fun0005 }
+                    if(!(var7 === var5)) { _fun0005_ip = 717; continue _fun0005 }
  100:
                     var8 = _closure1_slot0;
                     var6 = _closure1_slot3;
@@ -517,7 +517,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var9.indexOf;
                     var6 = 'vivo';
                     var6 = var8.bind(var9)(var6);
-                    if(!(var7 === var6)) { _fun0005_ip = 668; continue _fun0005 }
+                    if(!(var7 === var6)) { _fun0005_ip = 717; continue _fun0005 }
  241:
                     var6 = 0.05;
                     _closure1_slot11 = var6;
@@ -557,7 +557,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['autoInitializeNativeSdk'] = var9;
                     var9 = _closure1_slot14;
                     var5['beforeSend'] = var9;
-                    var9 = '4478';
+                    var9 = '4481';
                     var5['dist'] = var9;
                     var5['dsn'] = var6;
                     var5['environment'] = var3;
@@ -567,7 +567,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['sampleRate'] = var3;
                     var3 = _closure1_slot10;
                     var5['ignoreErrors'] = var3;
-                    var3 = 'discord_android@294.1.0-2+294201';
+                    var3 = 'discord_android@294.3.0-2+294203';
                     var5['release'] = var3;
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot3;
@@ -612,22 +612,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var4.Version;
                     var4 = 'appVersion';
                     var4 = var7.bind(var8)(var4, var5);
+                    var4 = var6[var2];
+                    var8 = var3.bind(var1)(var4);
+                    var7 = var8.setTag;
+                    var4 = 15;
+                    var4 = var6[var4];
+                    var4 = var3.bind(var1)(var4);
+                    var4 = var4.DesignIds;
+                    var9 = var4.DESIGN_TABS_IA;
+                    var4 = global;
+                    var4 = var4.HermesInternal;
+                    var5 = var4.concat;
+                    var4 = '';
+                    var5 = var5.bind(var4)(var9);
+                    var4 = 'design_id';
+                    var4 = var7.bind(var8)(var4, var5);
                     var2 = var6[var2];
                     var5 = var3.bind(var1)(var2);
                     var4 = var5.setTag;
-                    var2 = 15;
+                    var2 = 16;
                     var2 = var6[var2];
-                    var2 = var3.bind(var1)(var2);
-                    var2 = var2.DesignIds;
-                    var6 = var2.DESIGN_TABS_IA;
-                    var2 = global;
-                    var2 = var2.HermesInternal;
-                    var3 = var2.concat;
-                    var2 = '';
-                    var3 = var3.bind(var2)(var6);
-                    var2 = 'design_id';
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.isFabric;
+                    var3 = var2.bind(var3)();
+                    var2 = 'newArchEnabled';
                     var2 = var4.bind(var5)(var2, var3);
- 668:
+ 717:
                     return var1;
                 }
             };
