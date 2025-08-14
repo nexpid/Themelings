@@ -3705,16 +3705,16 @@
       }
     ],
     "midnight": [
-      "#313338",
+      "#131318",
       {
-        "raw": "PRIMARY_600",
+        "raw": "PLUM_23",
         "opacity": 1
       }
     ],
     "darker": [
-      "#313338",
+      "#26272f",
       {
-        "raw": "PRIMARY_600",
+        "raw": "PLUM_18",
         "opacity": 1
       }
     ]

@@ -740,8 +740,8 @@
   "EMBED_BACKGROUND_ALTERNATE": {
     "dark": "#313338",
     "light": "#e3e5e8",
-    "midnight": "#313338",
-    "darker": "#313338"
+    "midnight": "#131318",
+    "darker": "#26272f"
   },
   "EMBED_TITLE": {
     "dark": "#f2f3f5",
