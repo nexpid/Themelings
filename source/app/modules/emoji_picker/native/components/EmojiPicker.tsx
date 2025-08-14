@@ -357,8 +357,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = new Array(2);
             var9[0] = var17;
             var11 = var11.isMobileEnabled;
-            if(!var11) { _fun0002_ip = 579; continue _fun0002 }
- 543:
+            if(!var11) { _fun0002_ip = 583; continue _fun0002 }
+ 547:
             var18 = _closure1_slot10;
             var17 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -368,7 +368,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = {};
             var11['channel'] = var26;
             var10 = var18.bind(var4)(var17, var11);
- 579:
+ 583:
             var9[1] = var10;
             var8['children'] = var9;
             var9 = var7.bind(var4)(var6, var8);
@@ -392,10 +392,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['emojis'] = var30;
             var10['onPressEmoji'] = var28;
             var28 = undefined;
-            if(var29) { _fun0002_ip = 681; continue _fun0002 }
- 677:
-            var28 = _closure1_slot13;
+            if(var29) { _fun0002_ip = 685; continue _fun0002 }
  681:
+            var28 = _closure1_slot13;
+ 685:
             var10['onLongPressEmoji'] = var28;
             var10['channel'] = var26;
             var26 = _closure1_slot9;

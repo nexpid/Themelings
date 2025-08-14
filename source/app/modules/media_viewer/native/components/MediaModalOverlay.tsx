@@ -191,6 +191,96 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot14 = var1;
+    var1 = function MediaModalOverlay(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+            var8 = arg1;
+            var1 = var8.getVideoControls;
+            var5 = var8.source;
+            var3 = var8.index;
+            var _closure2_slot0 = var3;
+            var4 = undefined;
+            var12 = var1.bind(var4)(var3, var5);
+            var _closure2_slot1 = var12;
+            var7 = _closure1_slot1;
+            var10 = _closure1_slot2;
+            var6 = 21;
+            var6 = var10[var6];
+            var6 = var7.bind(var4)(var6);
+            var9 = var6.bind(var4)(var3, var5, var12);
+            var7 = _closure1_slot0;
+            var6 = 23;
+            var6 = var10[var6];
+            var7 = var7.bind(var4)(var6);
+            var6 = var7.useMediaItemSpoilerState;
+            var10 = var6.bind(var7)(var3);
+            var7 = _closure1_slot3;
+            var6 = 1;
+            var7 = var7.bind(var4)(var10, var6);
+            var6 = 0;
+            var7 = var7[var6];
+            var11 = _closure1_slot4;
+            var10 = var11.useCallback;
+            var6 = new Array(1);
+            var6[0] = var3;
+            var3 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 24;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.toggleSpoiler;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var6 = var10.bind(var11)(var3, var6);
+            var11 = _closure1_slot4;
+            var10 = var11.useEffect;
+            var3 = new Array(1);
+            var3[0] = var12;
+            var2 = function() {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 21;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.setVideoStateControls;
+                var2 = _closure2_slot1;
+                var2 = var3.bind(var4)(var2);
+                return var1;
+            };
+            var2 = var10.bind(var11)(var2, var3);
+            var3 = _closure1_slot7;
+            var2 = _closure1_slot11;
+            var1 = {};
+            var15 = var1;
+            var14 = var8;
+            var8 = copyDataProperties(var15, var14);
+            var8 = 'slider';
+            var1[var8] = var9;
+            var8 = 'source';
+            var1[var8] = var5;
+            var5 = var5.obscure;
+            var8 = null;
+            var8 = var8 != var5;
+            if(!var8) { _fun0004_ip = 229; continue _fun0004 }
+ 226:
+            var8 = var5;
+ 229:
+            var5 = 'obscure';
+            var1[var5] = var8;
+            var5 = 'spoilerActive';
+            var1[var5] = var7;
+            var5 = 'toggleObscure';
+            var1[var5] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot15 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -255,7 +345,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot10 = var4;
     var7 = var8.memo;
     var4 = function(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var1 = arg1;
             var18 = var1.slider;
@@ -317,13 +407,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.LANDSCAPE;
             var11 = var2 === var1;
             var23 = null;
-            if(!(var23 == var18)) { _fun0004_ip = 299; continue _fun0004 }
+            if(!(var23 == var18)) { _fun0005_ip = 299; continue _fun0005 }
  276:
             var1 = var17.sources;
             var1 = var1.length;
             var1 = var1 > var7;
             var9 = null;
-            if(!var1) { _fun0004_ip = 520; continue _fun0004 }
+            if(!var1) { _fun0005_ip = 520; continue _fun0005 }
  299:
             var3 = _closure1_slot8;
             var6 = _closure1_slot0;
@@ -342,7 +432,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var4)(var5);
             var5 = var6.isIOS;
             var6 = var5.bind(var6)();
-            if(!var6) { _fun0004_ip = 437; continue _fun0004 }
+            if(!var6) { _fun0005_ip = 437; continue _fun0005 }
  382:
             var33 = _closure1_slot7;
             var12 = _closure1_slot1;
@@ -365,7 +455,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.length;
             var7 = var6 > var7;
             var6 = null;
-            if(!var7) { _fun0004_ip = 506; continue _fun0004 }
+            if(!var7) { _fun0005_ip = 506; continue _fun0005 }
  469:
             var33 = _closure1_slot7;
             var12 = _closure1_slot1;
@@ -420,7 +510,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[1] = var19;
             var19 = {};
             var20 = 'transparent';
-            if(!var11) { _fun0004_ip = 703; continue _fun0004 }
+            if(!var11) { _fun0005_ip = 703; continue _fun0005 }
  688:
             var21 = _closure1_slot10;
             var21 = var21.portraitFooterButtons;
@@ -430,7 +520,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[2] = var19;
             var6['style'] = var12;
             var12 = !var8;
-            if(!var12) { _fun0004_ip = 753; continue _fun0004 }
+            if(!var12) { _fun0005_ip = 753; continue _fun0005 }
  721:
             var21 = _closure1_slot7;
             var20 = _closure1_slot12;
@@ -442,10 +532,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  753:
             var8 = new Array(3);
             var8[0] = var12;
-            if(!(var23 == var18)) { _fun0004_ip = 773; continue _fun0004 }
+            if(!(var23 == var18)) { _fun0005_ip = 773; continue _fun0005 }
  765:
             var12 = null;
-            if(!var24) { _fun0004_ip = 909; continue _fun0004 }
+            if(!var24) { _fun0005_ip = 909; continue _fun0005 }
  773:
             var21 = _closure1_slot8;
             var20 = _closure1_slot6;
@@ -454,7 +544,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var22.overlayIcons;
             var19['style'] = var22;
             var25 = var23 != var18;
-            if(!var25) { _fun0004_ip = 856; continue _fun0004 }
+            if(!var25) { _fun0005_ip = 856; continue _fun0005 }
  804:
             var29 = _closure1_slot7;
             var26 = _closure1_slot13;
@@ -472,7 +562,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = new Array(2);
             var22[0] = var25;
             var23 = null;
-            if(!var24) { _fun0004_ip = 895; continue _fun0004 }
+            if(!var24) { _fun0005_ip = 895; continue _fun0005 }
  869:
             var26 = _closure1_slot7;
             var25 = _closure1_slot14;
@@ -486,7 +576,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var21.bind(var4)(var20, var19);
  909:
             var8[1] = var12;
-            if(var11) { _fun0004_ip = 1000; continue _fun0004 }
+            if(var11) { _fun0005_ip = 1000; continue _fun0005 }
  916:
             var12 = _closure1_slot7;
             var11 = _closure1_slot1;
@@ -525,102 +615,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/media_viewer/native/components/MediaModalOverlay.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function MediaModalOverlay(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+    var2 = function MediaModalOverlayGuard(arg1) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            var8 = arg1;
-            var6 = var8.getVideoControls;
-            var7 = var8.syncer;
-            var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var3 = 23;
-            var3 = var14[var3];
-            var4 = undefined;
-            var5 = var13.bind(var4)(var3);
-            var3 = var5.useSelectedMediaSource;
-            var5 = var3.bind(var5)(var7);
-            var11 = _closure1_slot3;
-            var3 = 2;
-            var5 = var11.bind(var4)(var5, var3);
-            var7 = 0;
-            var3 = var5[var7];
-            var _closure2_slot0 = var3;
-            var10 = 1;
-            var5 = var5[var10];
-            var12 = var6.bind(var4)(var3, var5);
-            var _closure2_slot1 = var12;
-            var9 = _closure1_slot1;
-            var6 = 21;
-            var6 = var14[var6];
-            var6 = var9.bind(var4)(var6);
-            var9 = var6.bind(var4)(var3, var5, var12);
-            var6 = 24;
-            var6 = var14[var6];
-            var13 = var13.bind(var4)(var6);
-            var6 = var13.useMediaItemSpoilerState;
-            var6 = var6.bind(var13)(var3);
-            var6 = var11.bind(var4)(var6, var10);
-            var7 = var6[var7];
-            var11 = _closure1_slot4;
-            var10 = var11.useCallback;
-            var6 = new Array(1);
-            var6[0] = var3;
-            var3 = function() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 25;
-                var2 = var2[var1];
-                var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.toggleSpoiler;
-                var1 = _closure2_slot0;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var6 = var10.bind(var11)(var3, var6);
-            var10 = var11.useEffect;
-            var3 = new Array(1);
-            var3[0] = var12;
-            var2 = function() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 21;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.setVideoStateControls;
-                var2 = _closure2_slot1;
-                var2 = var3.bind(var4)(var2);
-                return var1;
-            };
-            var2 = var10.bind(var11)(var2, var3);
-            var3 = _closure1_slot7;
-            var2 = _closure1_slot11;
-            var1 = {};
-            var17 = var1;
-            var16 = var8;
-            var8 = copyDataProperties(var17, var16);
-            var8 = 'slider';
-            var1[var8] = var9;
-            var8 = 'source';
-            var1[var8] = var5;
-            var5 = var5.obscure;
-            var8 = null;
-            var8 = var8 != var5;
-            if(!var8) { _fun0005_ip = 261; continue _fun0005 }
- 258:
-            var8 = var5;
- 261:
-            var5 = 'obscure';
-            var1[var5] = var8;
-            var5 = 'spoilerActive';
-            var1[var5] = var7;
-            var5 = 'toggleObscure';
-            var1[var5] = var6;
-            var1 = var3.bind(var4)(var2, var1);
+            var6 = arg1;
+            var4 = var6.syncer;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 25;
+            var1 = var5[var1];
+            var5 = undefined;
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.useSelectedMediaSource;
+            var4 = var1.bind(var3)(var4);
+            var3 = _closure1_slot3;
+            var1 = 2;
+            var3 = var3.bind(var5)(var4, var1);
+            var1 = 0;
+            var7 = var3[var1];
+            var1 = 1;
+            var8 = var3[var1];
+            var1 = null;
+            var3 = var1 == var8;
+            if(var3) { _fun0006_ip = 124; continue _fun0006 }
+ 80:
+            var4 = _closure1_slot7;
+            var3 = _closure1_slot15;
+            var2 = {};
+            var10 = var2;
+            var9 = var6;
+            var6 = copyDataProperties(var10, var9);
+            var6 = 'source';
+            var2[var6] = var8;
+            var6 = 'index';
+            var2[var6] = var7;
+            var1 = var4.bind(var5)(var3, var2);
+ 124:
             return var1;
         }
     };
-    var3['MediaModalOverlay'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

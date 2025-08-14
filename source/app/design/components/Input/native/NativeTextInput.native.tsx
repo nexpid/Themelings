@@ -305,8 +305,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var6)();
             var6 = var2.theme;
             var2 = var1.keyboardAppearance;
-            if(!(var5 == var2)) { _fun0002_ip = 186; continue _fun0002 }
- 128:
+            if(!(var5 == var2)) { _fun0002_ip = 187; continue _fun0002 }
+ 129:
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 10;
@@ -315,15 +315,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.isThemeDark;
             var2 = var2.bind(var5)(var6);
             var5 = _closure1_slot9;
-            if(var2) { _fun0002_ip = 174; continue _fun0002 }
- 166:
+            if(var2) { _fun0002_ip = 175; continue _fun0002 }
+ 167:
             var2 = var5.LIGHT;
-            _fun0002_ip = 180; continue _fun0002;
- 174:
+            _fun0002_ip = 181; continue _fun0002;
+ 175:
             var2 = var5.DARK;
- 180:
+ 181:
             var1['keyboardAppearance'] = var2;
- 186:
+ 187:
             var6 = _closure1_slot10;
             var5 = _closure1_slot5;
             var2 = {};
@@ -346,10 +346,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.bind(var4)(var5, var2);
             var5 = var1.multiline;
             var1 = var2;
-            if(var5) { _fun0002_ip = 292; continue _fun0002 }
- 287:
+            if(var5) { _fun0002_ip = 293; continue _fun0002 }
+ 288:
             var1 = var3.bind(var4)(var2);
- 292:
+ 293:
             return var1;
         }
     };

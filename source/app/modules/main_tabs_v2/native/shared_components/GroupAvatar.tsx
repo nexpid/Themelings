@@ -600,13 +600,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var4)(var3);
             var3 = var5.isThemeLight;
             var3 = var3.bind(var5)(var6);
-            if(var3) { _fun0005_ip = 129; continue _fun0005 }
- 121:
+            if(var3) { _fun0005_ip = 130; continue _fun0005 }
+ 122:
             var11 = var13.shadowContainerBackgroundDark;
-            _fun0005_ip = 135; continue _fun0005;
- 129:
+            _fun0005_ip = 136; continue _fun0005;
+ 130:
             var11 = var13.shadowContainerBackgroundLight;
- 135:
+ 136:
             var6 = _closure1_slot3;
             var5 = var6.useRef;
             var3 = false;
@@ -648,10 +648,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot4 = var8;
             var2 = 2;
             var7 = 10;
-            if(!(var8 >= var7)) { _fun0005_ip = 291; continue _fun0005 }
- 288:
+            if(!(var8 >= var7)) { _fun0005_ip = 292; continue _fun0005 }
+ 289:
             var2 = var6;
- 291:
+ 292:
             _closure2_slot5 = var2;
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -732,10 +732,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = new Array(2);
             var9[0] = var12;
             var14 = null;
-            if(!(var14 == var15)) { _fun0005_ip = 395; continue _fun0005 }
- 389:
+            if(!(var14 == var15)) { _fun0005_ip = 396; continue _fun0005 }
+ 390:
             var11 = var13.shadowContainerBackground;
- 395:
+ 396:
             var9[1] = var11;
             var5['style'] = var9;
             var12 = _closure1_slot6;
@@ -744,15 +744,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var13.gradientContainer;
             var9['style'] = var16;
             var14 = var14 == var15;
-            if(!var14) { _fun0005_ip = 456; continue _fun0005 }
- 430:
+            if(!var14) { _fun0005_ip = 457; continue _fun0005 }
+ 431:
             var17 = _closure1_slot6;
             var16 = _closure1_slot4;
             var15 = {};
             var18 = var13.gradientDimOverlay;
             var15['style'] = var18;
             var14 = var17.bind(var4)(var16, var15);
- 456:
+ 457:
             var9['children'] = var14;
             var11 = var12.bind(var4)(var11, var9);
             var9 = new Array(2);

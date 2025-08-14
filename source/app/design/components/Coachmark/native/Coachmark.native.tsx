@@ -682,10 +682,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.theme;
             var2 = var8.experimental_withBlurBackground;
             var6 = 'dark';
-            if(var2) { _fun0004_ip = 59; continue _fun0004 }
- 56:
+            if(var2) { _fun0004_ip = 60; continue _fun0004 }
+ 57:
             var6 = var1;
- 59:
+ 60:
             var3 = _closure1_slot10;
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;

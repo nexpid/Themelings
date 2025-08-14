@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'high';
     var2['HIGH'] = var4;
     var _closure1_slot15 = var2;
-    var4 = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'contrastMode': null, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'displayNameStylesEnabled': true, 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false};
+    var4 = {'fontSize': null, 'zoom': null, 'keyboardModeEnabled': false, 'contrastMode': null, 'colorblindMode': false, 'lowContrastMode': false, 'saturation': 1, 'contrast': 1, 'desaturateUserColors': false, 'forcedColorsModalSeen': false, 'keyboardNavigationExplainerModalSeen': false, 'messageGroupSpacing': null, 'systemPrefersReducedMotion': 'no-preference', 'systemPrefersCrossfades': false, 'prefersReducedMotion': 'auto', 'systemForcedColors': 'none', 'syncForcedColors': true, 'systemPrefersContrast': 'no-preference', 'alwaysShowLinkDecorations': false, 'roleStyle': 'username', 'displayNameStylesEnabled': true, 'submitButtonEnabled': false, 'syncProfileThemeWithUserTheme': false, 'enableCustomCursor': true};
     var10 = var9.FONT_SIZE_DEFAULT;
     var4['fontSize'] = var10;
     var9 = var9.ZOOM_DEFAULT;
@@ -223,7 +223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var1;
-        var1 = new Array(35);
+        var1 = new Array(36);
         var1[0] = var5;
         var5 = {};
         var7 = 'fontScale';
@@ -675,6 +675,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['get'] = var7;
         var1[30] = var5;
         var5 = {};
+        var7 = 'enableCustomCursor';
+        var5['key'] = var7;
+        var7 = function get() {
+            var1 = _closure1_slot17;
+            var1 = var1.enableCustomCursor;
+            return var1;
+        };
+        var5['get'] = var7;
+        var1[31] = var5;
+        var5 = {};
         var7 = 'roleStyle';
         var5['key'] = var7;
         var7 = function get() {
@@ -683,7 +693,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['get'] = var7;
-        var1[31] = var5;
+        var1[32] = var5;
         var5 = {};
         var7 = 'displayNameStylesEnabled';
         var5['key'] = var7;
@@ -693,7 +703,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['get'] = var7;
-        var1[32] = var5;
+        var1[33] = var5;
         var5 = {};
         var7 = 'isHighContrastModeEnabled';
         var5['key'] = var7;
@@ -706,7 +716,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['get'] = var7;
-        var1[33] = var5;
+        var1[34] = var5;
         var5 = {};
         var7 = 'getUserAgnosticState';
         var5['key'] = var7;
@@ -715,7 +725,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var6;
-        var1[34] = var5;
+        var1[35] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -723,7 +733,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'AccessibilityStore';
     var9['displayName'] = var4;
     var9['persistKey'] = var4;
-    var4 = new Array(9);
+    var4 = new Array(10);
     var10 = function() {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
@@ -946,6 +956,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var4[8] = var10;
+    var10 = function(arg1) {
+        var1 = {};
+        var4 = arg1;
+        var5 = var1;
+        var2 = copyDataProperties(var5, var4);
+        var3 = true;
+        var2 = 'enableCustomCursor';
+        var1[var2] = var3;
+        return var1;
+    };
+    var4[9] = var10;
     var9['migrations'] = var4;
     var4 = 14;
     var4 = var7[var4];
@@ -1336,6 +1357,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['ACCESSIBILITY_SET_ALWAYS_SHOW_LINK_DECORATIONS'] = var10;
+    var10 = function handleSetEnableCustomCursor(arg1) {
+        var2 = {};
+        var5 = _closure1_slot17;
+        var6 = var2;
+        var3 = copyDataProperties(var6, var5);
+        var3 = arg1;
+        var4 = var3.enableCustomCursor;
+        var3 = 'enableCustomCursor';
+        var2[var3] = var4;
+        _closure1_slot17 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var4['ACCESSIBILITY_SET_ENABLE_CUSTOM_CURSOR'] = var10;
     var10 = function handleSetRoleStyle(arg1) {
         var2 = _closure1_slot17;
         var1 = arg1;

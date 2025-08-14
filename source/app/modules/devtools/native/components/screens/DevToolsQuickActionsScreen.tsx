@@ -571,8 +571,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var15 = var6.bind(var7)(var3, var5);
-            if(var2) { _fun0004_ip = 2929; continue _fun0004 }
- 466:
+            if(var2) { _fun0004_ip = 2930; continue _fun0004 }
+ 467:
             var5 = _closure1_slot21;
             var3 = _closure1_slot6;
             var2 = {};
@@ -652,10 +652,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var16.TableSwitchRow;
             var17 = {};
             var16 = 'Light Theme';
-            if(!var12) { _fun0004_ip = 756; continue _fun0004 }
- 750:
+            if(!var12) { _fun0004_ip = 757; continue _fun0004 }
+ 751:
             var16 = '(using system theme)';
- 756:
+ 757:
             var17['label'] = var16;
             var17['disabled'] = var12;
             var22 = _closure1_slot20;
@@ -839,10 +839,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = {};
             var16 = 'Change to en-US';
             var23 = 'en-US';
-            if(!(var23 === var25)) { _fun0004_ip = 1298; continue _fun0004 }
- 1292:
+            if(!(var23 === var25)) { _fun0004_ip = 1299; continue _fun0004 }
+ 1293:
             var16 = 'Change to pt-BR';
- 1298:
+ 1299:
             var12['label'] = var16;
             var16 = 'Toggle to a non-english locale for change log testing, etc.';
             var12['subLabel'] = var16;
@@ -1081,8 +1081,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var15.isAndroid;
             var15 = var12.bind(var15)();
             var12 = null;
-            if(!var15) { _fun0004_ip = 2408; continue _fun0004 }
- 2295:
+            if(!var15) { _fun0004_ip = 2409; continue _fun0004 }
+ 2296:
             var16 = _closure1_slot20;
             var23 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -1113,7 +1113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var13['onValueChange'] = var21;
             var12 = var16.bind(var4)(var15, var13);
- 2408:
+ 2409:
             var20[9] = var12;
             var13 = _closure1_slot20;
             var16 = _closure1_slot0;
@@ -1262,7 +1262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 2929:
+ 2930:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 38;

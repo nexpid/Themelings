@@ -941,6 +941,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['REPORT_TO_MOD_CHANNEL_CONTEXT_MENU'] = var1;
     var1 = 'game profile';
     var2['GAME_PROFILE'] = var1;
+    var1 = 'go live keybind';
+    var2['GO_LIVE_KEYBIND'] = var1;
+    var1 = 'overlay voice widget';
+    var2['OVERLAY_VOICE_WIDGET'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

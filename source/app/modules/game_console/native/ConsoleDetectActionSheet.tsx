@@ -739,10 +739,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.bind(var4)(var18);
             var18 = var19.isThemeDark;
             var18 = var18.bind(var19)(var20);
-            if(!var18) { _fun0009_ip = 151; continue _fun0009 }
- 148:
+            if(!var18) { _fun0009_ip = 152; continue _fun0009 }
+ 149:
             var16 = var17;
- 151:
+ 152:
             var6 = var6.bind(var7)(var16);
             var12['source'] = var6;
             var7 = _closure1_slot0;
@@ -871,7 +871,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = arg1;
                 var1 = _closure1_slot9;
                 var1 = var1.PLAYSTATION;
-                if(!(var1 !== var5)) { _fun0010_ip = 187; continue _fun0010 }
+                if(!(var1 !== var5)) { _fun0010_ip = 188; continue _fun0010 }
  23:
                 var1 = _closure1_slot9;
                 var1 = var1.XBOX;
@@ -913,7 +913,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['theme'] = var7;
                 var1 = var4.bind(var1)(var3, var2, var5);
                 return var1;
- 187:
+ 188:
                 var4 = _closure1_slot13;
                 var3 = _closure1_slot21;
                 var2 = {};

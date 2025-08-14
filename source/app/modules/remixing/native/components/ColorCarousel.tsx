@@ -259,7 +259,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = 0;
                             var2 = var4 === var5;
  77:
-                            if(!var2) { _fun0004_ip = 99; continue _fun0004 }
+                            if(!var2) { _fun0004_ip = 101; continue _fun0004 }
  80:
                             var4 = _closure3_slot0;
                             var2 = function(arg1) {
@@ -286,7 +286,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 }
                             };
                             var2 = var4.bind(var3)(var2);
- 99:
+ 101:
                             var2 = _closure2_slot3;
                             var1 = _closure3_slot1;
                             var1 = var2.bind(var3)(var1);
@@ -420,14 +420,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var13.bind(var16)(var7);
                 var7 = new Array(2);
                 var7[0] = var13;
-                if(var12) { _fun0002_ip = 609; continue _fun0002 }
- 365:
-                if(!var8) { _fun0002_ip = 372; continue _fun0002 }
- 368:
+                if(var12) { _fun0002_ip = 619; continue _fun0002 }
+ 373:
+                if(!var8) { _fun0002_ip = 380; continue _fun0002 }
+ 376:
                 var8 = var10 === var11;
- 372:
-                if(!var8) { _fun0002_ip = 604; continue _fun0002 }
- 378:
+ 380:
+                if(!var8) { _fun0002_ip = 614; continue _fun0002 }
+ 386:
                 var13 = _closure1_slot8;
                 var12 = _closure1_slot5;
                 var11 = {};
@@ -462,10 +462,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var18 = var18.RemixShader;
                 var18 = var18.RAINBOW;
                 var18 = var19 === var18;
-                if(!var18) { _fun0002_ip = 482; continue _fun0002 }
- 476:
+                if(!var18) { _fun0002_ip = 492; continue _fun0002 }
+ 486:
                 var18 = var15.selectedColor;
- 482:
+ 492:
                 var17[2] = var18;
                 var10['style'] = var17;
                 var19 = _closure1_slot8;
@@ -487,9 +487,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11['children'] = var10;
                 var10 = 'RAINBOW';
                 var8 = var13.bind(var4)(var12, var11, var10);
- 604:
-                _fun0002_ip = 790; continue _fun0002;
- 609:
+ 614:
+                _fun0002_ip = 802; continue _fun0002;
+ 619:
                 var12 = _closure1_slot8;
                 var11 = _closure1_slot5;
                 var10 = {};
@@ -545,7 +545,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10['children'] = var9;
                 var9 = 'next colors';
                 var8 = var12.bind(var4)(var11, var10, var9);
- 790:
+ 802:
                 var7[1] = var8;
                 var5['children'] = var7;
                 var5 = var6.bind(var4)(var2, var5);
@@ -753,8 +753,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12['scrollAnimationDuration'] = var14;
                 var12 = var3.bind(var4)(var13, var12);
                 var10[1] = var12;
-                if(!var11) { _fun0009_ip = 559; continue _fun0009 }
- 505:
+                if(!var11) { _fun0009_ip = 561; continue _fun0009 }
+ 507:
                 var14 = _closure1_slot8;
                 var13 = _closure1_slot13;
                 var12 = {};
@@ -767,7 +767,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = var15.length;
                 var12['pageCount'] = var15;
                 var11 = var14.bind(var4)(var13, var12);
- 559:
+ 561:
                 var10[2] = var11;
                 var7['children'] = var10;
                 var7 = var9.bind(var4)(var8, var7);

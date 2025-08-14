@@ -16,305 +16,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var8 = var6[var1];
-    var4 = metroImportAll;
+    var4 = var6[var1];
     var1 = undefined;
-    var4 = var4.bind(var1)(var8);
-    var4 = 1;
-    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.Image;
     var _closure1_slot3 = var4;
-    var4 = 2;
+    var4 = 1;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 3;
+    var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.GuildTemplateStates;
     var _closure1_slot5 = var4;
-    var4 = 4;
+    var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.InviteTypes;
     var _closure1_slot6 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot7 = var4;
-    var4 = 17;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/messages/native/renderer/row_data/embeds/coded_links/GuildTemplateEmbed.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function GuildTemplateEmbed(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
-            var2 = arg1;
-            var2 = var2.code;
-            var _closure2_slot0 = var2;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 14;
-            var2 = var4[var2];
-            var5 = undefined;
-            var6 = var3.bind(var5)(var2);
-            var2 = var6.useMessageRendererTheme;
-            var13 = var2.bind(var6)();
-            var2 = 6;
-            var2 = var4[var2];
-            var6 = var3.bind(var5)(var2);
-            var2 = var6.useEmbedThemeColors;
-            var2 = var2.bind(var6)(var13);
-            var8 = var2.colors;
-            var6 = var2.baseColors;
-            var2 = 15;
-            var2 = var4[var2];
-            var4 = var3.bind(var5)(var2);
-            var3 = var4.useStateFromStores;
-            var9 = _closure1_slot4;
-            var2 = new Array(1);
-            var2[0] = var9;
-            var1 = function() {
-                var3 = _closure1_slot4;
-                var2 = var3.getGuildTemplate;
-                var1 = _closure2_slot0;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var10 = var3.bind(var4)(var2, var1);
-            var1 = null;
-            if(!(var1 != var10)) { _fun0001_ip = 1072; continue _fun0001 }
- 132:
-            var3 = var10.state;
-            var2 = _closure1_slot5;
-            var2 = var2.RESOLVING;
-            if(!(var3 !== var2)) { _fun0001_ip = 926; continue _fun0001 }
- 154:
-            var3 = var10.state;
-            var2 = _closure1_slot5;
-            var2 = var2.EXPIRED;
-            if(!(var3 !== var2)) { _fun0001_ip = 580; continue _fun0001 }
- 176:
-            var12 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var9 = 7;
-            var2 = var14[var9];
-            var2 = var12.bind(var5)(var2);
-            var11 = var2.intl;
-            var4 = var11.formatToPlainString;
-            var2 = var14[var9];
-            var2 = var12.bind(var5)(var2);
-            var2 = var2.t;
-            var3 = var2.L8Awgo;
-            var2 = {};
-            var16 = var10.usageCount;
-            var15 = var16.toString;
-            var15 = var15.bind(var16)();
-            var2['usageCount'] = var15;
-            var11 = var4.bind(var11)(var3, var2);
-            var4 = _closure1_slot7;
-            var16 = _closure1_slot1;
-            var2 = 16;
-            var2 = var14[var2];
-            var3 = var16.bind(var5)(var2);
-            var2 = {};
-            var20 = var2;
-            var19 = var6;
-            var15 = copyDataProperties(var20, var19);
-            var15 = var14[var9];
-            var15 = var12.bind(var5)(var15);
-            var18 = var15.intl;
-            var17 = var18.string;
-            var15 = var14[var9];
-            var15 = var12.bind(var5)(var15);
-            var15 = var15.t;
-            var15 = var15.kAvFkJ;
-            var17 = var17.bind(var18)(var15);
-            var15 = var17.toUpperCase;
-            var17 = var15.bind(var17)();
-            var15 = 'headerText';
-            var2[var15] = var17;
-            var17 = var8.headerColor;
-            var15 = 'headerColor';
-            var2[var15] = var17;
-            var15 = var10.name;
-            var10 = 'titleText';
-            var2[var10] = var15;
-            var15 = var8.titleColor;
-            var10 = 'titleColor';
-            var2[var10] = var15;
-            var10 = 'subtitle';
-            var2[var10] = var11;
-            var11 = var8.subtitleColor;
-            var10 = 'subtitleColor';
-            var2[var10] = var11;
-            var15 = _closure1_slot3;
-            var11 = var15.resolveAssetSource;
-            var10 = 13;
-            var10 = var14[var10];
-            var10 = var16.bind(var5)(var10);
-            var10 = var11.bind(var15)(var10);
-            var11 = var10.uri;
-            var10 = 'thumbnailUrl';
-            var2[var10] = var11;
-            var11 = var8.acceptLabelGreenColor;
-            var10 = 'acceptLabelColor';
-            var2[var10] = var11;
-            var11 = var8.acceptLabelGreenBackgroundColor;
-            var10 = 'acceptLabelBackgroundColor';
-            var2[var10] = var11;
-            var10 = var14[var9];
-            var10 = var12.bind(var5)(var10);
-            var11 = var10.intl;
-            var10 = var11.string;
-            var9 = var14[var9];
-            var9 = var12.bind(var5)(var9);
-            var9 = var9.t;
-            var9 = var9.a3Gl+f;
-            var10 = var10.bind(var11)(var9);
-            var9 = 'acceptLabelText';
-            var2[var9] = var10;
-            var10 = true;
-            var9 = 'embedCanBeTapped';
-            var2[var9] = var10;
-            var9 = _closure1_slot6;
-            var10 = var9.GUILD;
-            var9 = 'type';
-            var2[var9] = var10;
-            var2 = var4.bind(var5)(var3, var2);
-            return var2;
- 580:
-            var4 = _closure1_slot7;
-            var16 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var2 = 16;
-            var2 = var14[var2];
-            var3 = var16.bind(var5)(var2);
-            var2 = {};
-            var20 = var2;
-            var19 = var6;
-            var9 = copyDataProperties(var20, var19);
-            var12 = _closure1_slot0;
-            var9 = 7;
-            var10 = var14[var9];
-            var10 = var12.bind(var5)(var10);
-            var15 = var10.intl;
-            var11 = var15.string;
-            var10 = var14[var9];
-            var10 = var12.bind(var5)(var10);
-            var10 = var10.t;
-            var10 = var10.C7ZRNz;
-            var11 = var11.bind(var15)(var10);
-            var10 = var11.toUpperCase;
-            var11 = var10.bind(var11)();
-            var10 = 'headerText';
-            var2[var10] = var11;
-            var10 = 8;
-            var10 = var14[var10];
-            var15 = var12.bind(var5)(var10);
-            var11 = var15.processColorOrThrow;
-            var10 = 9;
-            var10 = var14[var10];
-            var10 = var16.bind(var5)(var10);
-            var10 = var10.unsafe_rawColors;
-            var10 = var10.RED_400;
-            var11 = var11.bind(var15)(var10);
-            var10 = 'titleColor';
-            var2[var10] = var11;
-            var10 = var14[var9];
-            var10 = var12.bind(var5)(var10);
-            var11 = var10.intl;
-            var10 = var11.string;
-            var9 = var14[var9];
-            var9 = var12.bind(var5)(var9);
-            var9 = var9.t;
-            var9 = var9.A6MwXF;
-            var10 = var10.bind(var11)(var9);
-            var9 = 'titleText';
-            var2[var9] = var10;
-            var11 = _closure1_slot3;
-            var10 = var11.resolveAssetSource;
-            var9 = 10;
-            var9 = var14[var9];
-            var12 = var12.bind(var5)(var9);
-            var9 = var12.isThemeDark;
-            var9 = var9.bind(var12)(var13);
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            if(var9) { _fun0001_ip = 852; continue _fun0001 }
- 838:
-            var9 = 12;
-            var9 = var14[var9];
-            var9 = var13.bind(var5)(var9);
-            _fun0001_ip = 864; continue _fun0001;
- 852:
-            var12 = 11;
-            var12 = var14[var12];
-            var9 = var13.bind(var5)(var12);
- 864:
-            var9 = var10.bind(var11)(var9);
-            var10 = var9.uri;
-            var9 = 'thumbnailUrl';
-            var2[var9] = var10;
-            var10 = var8.thumbnailBackgroundColor;
-            var9 = 'thumbnailBackgroundColor';
-            var2[var9] = var10;
-            var9 = _closure1_slot6;
-            var10 = var9.GUILD;
-            var9 = 'type';
-            var2[var9] = var10;
-            var2 = var4.bind(var5)(var3, var2);
-            return var2;
- 926:
-            var4 = _closure1_slot7;
-            var3 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var2 = 16;
-            var2 = var13[var2];
-            var3 = var3.bind(var5)(var2);
-            var2 = {};
-            var12 = _closure1_slot0;
-            var9 = 7;
-            var10 = var13[var9];
-            var10 = var12.bind(var5)(var10);
-            var11 = var10.intl;
-            var10 = var11.string;
-            var9 = var13[var9];
-            var9 = var12.bind(var5)(var9);
-            var9 = var9.t;
-            var9 = var9.Xj87YW;
-            var10 = var10.bind(var11)(var9);
-            var9 = var10.toUpperCase;
-            var9 = var9.bind(var10)();
-            var2['headerText'] = var9;
-            var9 = var8.resolvingGradientEnd;
-            var2['resolvingGradientEnd'] = var9;
-            var8 = var8.resolvingGradientStart;
-            var2['resolvingGradientStart'] = var8;
-            var7 = _closure1_slot6;
-            var7 = var7.GUILD;
-            var2['type'] = var7;
-            var20 = var2;
-            var19 = var6;
-            var6 = copyDataProperties(var20, var19);
-            var2 = var4.bind(var5)(var3, var2);
-            return var2;
- 1072:
-            return var1;
-        }
-    };
-    var3['default'] = var4;
     var2 = function createGuildTemplateEmbed(arg1, arg2) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var11 = arg2;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 6;
+            var1 = 4;
             var1 = var3[var1];
             var10 = undefined;
             var1 = var2.bind(var10)(var1);
@@ -326,21 +59,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var7 = var2.bind(var6)(var1);
             var1 = null;
-            if(!(var1 != var7)) { _fun0002_ip = 941; continue _fun0002 }
+            if(!(var1 != var7)) { _fun0001_ip = 957; continue _fun0001 }
  71:
             var6 = var7.state;
             var2 = _closure1_slot5;
             var2 = var2.RESOLVING;
-            if(!(var6 !== var2)) { _fun0002_ip = 821; continue _fun0002 }
+            if(!(var6 !== var2)) { _fun0001_ip = 835; continue _fun0001 }
  93:
             var6 = var7.state;
             var2 = _closure1_slot5;
             var2 = var2.EXPIRED;
-            if(!(var6 !== var2)) { _fun0002_ip = 497; continue _fun0002 }
+            if(!(var6 !== var2)) { _fun0001_ip = 507; continue _fun0001 }
  115:
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var6 = 7;
+            var6 = 5;
             var2 = var12[var6];
             var2 = var9.bind(var10)(var2);
             var14 = var2.intl;
@@ -389,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = _closure1_slot3;
             var8 = var13.resolveAssetSource;
             var14 = _closure1_slot1;
-            var7 = 13;
+            var7 = 11;
             var7 = var12[var7];
             var7 = var14.bind(var10)(var7);
             var7 = var8.bind(var13)(var7);
@@ -421,14 +154,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'type';
             var2[var6] = var7;
             return var2;
- 497:
+ 507:
             var2 = {};
             var18 = var2;
             var17 = var3;
             var6 = copyDataProperties(var18, var17);
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var6 = 7;
+            var6 = 5;
             var7 = var12[var6];
             var7 = var9.bind(var10)(var7);
             var13 = var7.intl;
@@ -442,12 +175,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var7.bind(var8)();
             var7 = 'headerText';
             var2[var7] = var8;
-            var7 = 8;
+            var7 = 6;
             var7 = var12[var7];
             var13 = var9.bind(var10)(var7);
             var8 = var13.processColorOrThrow;
             var14 = _closure1_slot1;
-            var7 = 9;
+            var7 = 7;
             var7 = var12[var7];
             var7 = var14.bind(var10)(var7);
             var7 = var7.unsafe_rawColors;
@@ -468,24 +201,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var6] = var7;
             var8 = _closure1_slot3;
             var7 = var8.resolveAssetSource;
-            var6 = 10;
+            var6 = 8;
             var6 = var12[var6];
             var9 = var9.bind(var10)(var6);
             var6 = var9.isThemeDark;
             var6 = var6.bind(var9)(var11);
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
-            if(var6) { _fun0002_ip = 753; continue _fun0002 }
- 739:
-            var6 = 12;
+            if(var6) { _fun0001_ip = 767; continue _fun0001 }
+ 753:
+            var6 = 10;
             var6 = var12[var6];
             var6 = var11.bind(var10)(var6);
-            _fun0002_ip = 765; continue _fun0002;
- 753:
-            var9 = 11;
+            _fun0001_ip = 779; continue _fun0001;
+ 767:
+            var9 = 9;
             var9 = var12[var9];
             var6 = var11.bind(var10)(var9);
- 765:
+ 779:
             var6 = var7.bind(var8)(var6);
             var7 = var6.uri;
             var6 = 'thumbnailUrl';
@@ -498,11 +231,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'type';
             var2[var6] = var7;
             return var2;
- 821:
+ 835:
             var2 = {};
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 7;
+            var6 = 5;
             var7 = var11[var6];
             var7 = var9.bind(var10)(var7);
             var8 = var7.intl;
@@ -526,7 +259,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var3;
             var3 = copyDataProperties(var18, var17);
             return var2;
- 941:
+ 957:
             return var1;
         }
     };

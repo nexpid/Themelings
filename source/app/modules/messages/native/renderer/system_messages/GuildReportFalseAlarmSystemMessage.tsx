@@ -16,226 +16,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var8 = var6[var1];
-    var4 = metroImportAll;
+    var4 = var6[var1];
     var1 = undefined;
-    var4 = var4.bind(var1)(var8);
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot6 = var4;
-    var4 = 16;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/messages/native/renderer/system_messages/GuildReportFalseAlarmSystemMessage.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function GuildReportFalseAlarmSystemMessage(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
-            var1 = arg1;
-            var8 = var1.row;
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var5 = 13;
-            var3 = var13[var5];
-            var4 = undefined;
-            var10 = var12.bind(var4)(var3);
-            var9 = var10.useStateFromStores;
-            var3 = _closure1_slot4;
-            var7 = new Array(1);
-            var7[0] = var3;
-            var6 = function() {
-                var1 = _closure1_slot4;
-                var1 = var1.roleStyle;
-                return var1;
-            };
-            var3 = new Array(0);
-            var14 = var9.bind(var10)(var7, var6, var3);
-            var _closure2_slot0 = var14;
-            var3 = 14;
-            var3 = var13[var3];
-            var6 = var12.bind(var4)(var3);
-            var3 = var6.useThemeContext;
-            var3 = var3.bind(var6)();
-            var6 = var3.theme;
-            var10 = var8.message;
-            var _closure2_slot1 = var10;
-            var11 = var10.author;
-            var _closure2_slot2 = var11;
-            var3 = var10.channel_id;
-            var _closure2_slot3 = var3;
-            var5 = var13[var5];
-            var15 = var12.bind(var4)(var5);
-            var9 = var15.useStateFromStores;
-            var5 = _closure1_slot5;
-            var7 = new Array(1);
-            var7[0] = var5;
-            var5 = new Array(1);
-            var5[0] = var3;
-            var3 = function() {
-                var3 = _closure1_slot5;
-                var2 = var3.getChannel;
-                var1 = _closure2_slot3;
-                var1 = var2.bind(var3)(var1);
-                return var1;
-            };
-            var9 = var9.bind(var15)(var7, var3, var5);
-            var3 = 5;
-            var3 = var13[var3];
-            var5 = var12.bind(var4)(var3);
-            var3 = var5.useMessageAuthorWithProcessedColor;
-            var3 = var3.bind(var5)(var10);
-            var15 = var3.nick;
-            var _closure2_slot4 = var15;
-            var16 = var3.colorString;
-            var _closure2_slot5 = var16;
-            var3 = 6;
-            var3 = var13[var3];
-            var5 = var12.bind(var4)(var3);
-            var3 = var5.resolveAlertModeColors;
-            var3 = var3.bind(var5)(var6);
-            var7 = var3.automodUsernameColor;
-            var6 = _closure1_slot3;
-            var5 = var6.useMemo;
-            var3 = new Array(5);
-            var3[0] = var16;
-            var16 = var10.channel_id;
-            var3[1] = var16;
-            var3[2] = var15;
-            var3[3] = var14;
-            var11 = var11.id;
-            var3[4] = var11;
-            var2 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
-                    var4 = {};
-                    var1 = _closure2_slot4;
-                    var4['username'] = var1;
-                    var1 = {};
-                    var3 = 'bindUserMenu';
-                    var1['action'] = var3;
-                    var3 = _closure2_slot2;
-                    var3 = var3.id;
-                    var1['userId'] = var3;
-                    var3 = _closure2_slot5;
-                    var1['colorString'] = var3;
-                    var7 = _closure2_slot0;
-                    var6 = null;
-                    var5 = 'username';
-                    var3 = null;
-                    if(!(var5 === var7)) { _fun0002_ip = 67; continue _fun0002 }
- 63:
-                    var3 = _closure2_slot5;
- 67:
-                    var1['linkColor'] = var3;
-                    var3 = _closure2_slot5;
-                    var1['roleColor'] = var3;
-                    var5 = _closure2_slot0;
-                    var3 = 'dot';
-                    var3 = var3 === var5;
-                    if(!var3) { _fun0002_ip = 104; continue _fun0002 }
- 96:
-                    var5 = _closure2_slot5;
-                    var3 = var6 != var5;
- 104:
-                    var1['shouldShowRoleDot'] = var3;
-                    var2 = _closure2_slot1;
-                    var2 = var2.channel_id;
-                    var1['messageChannelId'] = var2;
-                    var2 = true;
-                    var1['medium'] = var2;
-                    var4['usernameOnClick'] = var1;
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var1 = 10;
-                    var2 = var7[var1];
-                    var5 = undefined;
-                    var2 = var6.bind(var5)(var2);
-                    var3 = var2.intl;
-                    var2 = var3.formatToParts;
-                    var1 = var7[var1];
-                    var1 = var6.bind(var5)(var1);
-                    var1 = var1.t;
-                    var1 = var1.21+uW1;
-                    var1 = var2.bind(var3)(var1, var4);
-                    return var1;
-                }
-            };
-            var6 = var5.bind(var6)(var2, var3);
-            var2 = _closure1_slot1;
-            var3 = 8;
-            var3 = var13[var3];
-            var5 = var2.bind(var4)(var3);
-            var3 = {};
-            var3['message'] = var10;
-            var3['channel'] = var9;
-            var9 = true;
-            var3['isSystemDM'] = var9;
-            var9 = {};
-            var3['colors'] = var9;
-            var5 = var5.bind(var4)(var3);
-            var3 = _closure1_slot6;
-            var1 = 15;
-            var1 = var13[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = {};
-            var1['row'] = var8;
-            var1['content'] = var6;
-            var6 = 10;
-            var8 = var13[var6];
-            var8 = var12.bind(var4)(var8);
-            var9 = var8.intl;
-            var8 = var9.string;
-            var6 = var13[var6];
-            var6 = var12.bind(var4)(var6);
-            var6 = var6.t;
-            var6 = var6.hG1StL;
-            var6 = var8.bind(var9)(var6);
-            var1['username'] = var6;
-            var6 = 11;
-            var8 = var13[var6];
-            var9 = var12.bind(var4)(var8);
-            var8 = var9.ensureAvatarSource;
-            var10 = 12;
-            var10 = var13[var10];
-            var11 = var12.bind(var4)(var10);
-            var10 = var11.makeSource;
-            var6 = var13[var6];
-            var12 = var12.bind(var4)(var6);
-            var6 = var12.getAutomodAvatarURL;
-            var6 = var6.bind(var12)();
-            var6 = var10.bind(var11)(var6);
-            var6 = var8.bind(var9)(var6);
-            var6 = var6.uri;
-            var1['avatarURL'] = var6;
-            var6 = null;
-            var8 = var6 != var7;
-            if(!var8) { _fun0001_ip = 516; continue _fun0001 }
- 513:
-            var6 = var7;
- 516:
-            var1['usernameColor'] = var6;
-            var19 = var1;
-            var18 = var5;
-            var5 = copyDataProperties(var19, var18);
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
-    };
-    var3['default'] = var4;
     var2 = function createGuildReportFalseAlarmSystemMessage(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var8 = arg1;
             var15 = var8.message;
@@ -243,18 +35,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var8.theme;
             var2 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var1 = 4;
+            var1 = 1;
             var1 = var14[var1];
             var9 = undefined;
             var1 = var2.bind(var9)(var1);
             var6 = var1.bind(var9)(var17);
             var2 = var15.author;
-            var5 = _closure1_slot5;
+            var5 = _closure1_slot3;
             var4 = var5.getChannel;
             var1 = var15.channel_id;
             var13 = var4.bind(var5)(var1);
             var7 = _closure1_slot0;
-            var1 = 5;
+            var1 = 2;
             var1 = var14[var1];
             var4 = var7.bind(var9)(var1);
             var1 = var4.getMessageAuthorWithProcessedColor;
@@ -263,13 +55,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var4.colorString;
             var12 = var4.colorStrings;
             var16 = var4.guildId;
-            var4 = 6;
+            var4 = 3;
             var4 = var14[var4];
             var5 = var7.bind(var9)(var4);
             var4 = var5.resolveAlertModeColors;
             var4 = var4.bind(var5)(var17);
             var4 = var4.automodUsernameColor;
-            var5 = 7;
+            var5 = 4;
             var5 = var14[var5];
             var14 = var7.bind(var9)(var5);
             var7 = var14.isNativeMessageEligibleForEnhancedRoleColors;
@@ -286,24 +78,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var7 = 'username';
             var2 = null;
-            if(!(var7 === var11)) { _fun0003_ip = 230; continue _fun0003 }
- 227:
+            if(!(var7 === var11)) { _fun0001_ip = 231; continue _fun0001 }
+ 228:
             var2 = var10;
- 230:
+ 231:
             var1['linkColor'] = var2;
             var1['roleColor'] = var10;
             var2 = null;
-            if(!var16) { _fun0003_ip = 248; continue _fun0003 }
- 245:
+            if(!var16) { _fun0001_ip = 249; continue _fun0001 }
+ 246:
             var2 = var12;
- 248:
+ 249:
             var1['roleColors'] = var2;
             var2 = 'dot';
             var2 = var2 === var11;
-            if(!var2) { _fun0003_ip = 268; continue _fun0003 }
- 264:
+            if(!var2) { _fun0001_ip = 269; continue _fun0001 }
+ 265:
             var2 = var5 != var10;
- 268:
+ 269:
             var1['shouldShowRoleDot'] = var2;
             var2 = var15.channel_id;
             var1['messageChannelId'] = var2;
@@ -312,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14['usernameOnClick'] = var1;
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var1 = 8;
+            var1 = 5;
             var1 = var12[var1];
             var2 = var10.bind(var9)(var1);
             var1 = {};
@@ -322,14 +114,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['colors'] = var6;
             var2 = var2.bind(var9)(var1);
             var1 = {};
-            var6 = 9;
+            var6 = 6;
             var6 = var12[var6];
             var6 = var10.bind(var9)(var6);
             var19 = var6.bind(var9)(var8);
             var20 = var1;
             var6 = copyDataProperties(var20, var19);
             var11 = _closure1_slot0;
-            var6 = 10;
+            var6 = 7;
             var8 = var12[var6];
             var8 = var11.bind(var9)(var8);
             var13 = var8.intl;
@@ -353,19 +145,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var7] = var6;
             var6 = var5 != var4;
             var5 = null;
-            if(!var6) { _fun0003_ip = 488; continue _fun0003 }
- 485:
-            var5 = var4;
+            if(!var6) { _fun0001_ip = 491; continue _fun0001 }
  488:
+            var5 = var4;
+ 491:
             var4 = 'usernameColor';
             var1[var4] = var5;
             var8 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var3 = 11;
+            var3 = 8;
             var4 = var10[var3];
             var5 = var8.bind(var9)(var4);
             var4 = var5.ensureAvatarSource;
-            var6 = 12;
+            var6 = 9;
             var6 = var10[var6];
             var7 = var8.bind(var9)(var6);
             var6 = var7.makeSource;

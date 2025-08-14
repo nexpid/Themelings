@@ -181,12 +181,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot2;
             var6 = 14;
             var6 = var7[var6];
-            var9 = var8.bind(var4)(var6);
-            var8 = var9.useGetOrFetchCollectiblesCategoriesAndPurchases;
-            var6 = {};
-            var10 = 'EditAvatarDecorationActionSheetCtaButton';
-            var6['location'] = var10;
-            var6 = var8.bind(var9)(var6);
+            var8 = var8.bind(var4)(var6);
+            var6 = var8.useGetOrFetchCollectiblesCategoriesAndPurchases;
+            var6 = var6.bind(var8)();
             var9 = _closure1_slot4;
             var8 = var9.useMemo;
             var6 = new Array(2);
@@ -281,10 +278,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var7 = var8 == var12;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 232; continue _fun0001 }
- 226:
+            if(var7) { _fun0001_ip = 219; continue _fun0001 }
+ 213:
             var5 = var12.skuId;
- 232:
+ 219:
             var5 = var6.bind(var4)(var5);
             var10 = var5.product;
             var7 = var5.purchase;
@@ -522,8 +519,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var8 != var7;
             _closure2_slot11 = var15;
             var14 = var3;
-            if(var14) { _fun0001_ip = 745; continue _fun0001 }
- 711:
+            if(var14) { _fun0001_ip = 732; continue _fun0001 }
+ 698:
             var7 = _closure1_slot0;
             var22 = _closure1_slot2;
             var3 = 15;
@@ -532,7 +529,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.isPremiumCollectiblesProduct;
             var3 = var3.bind(var7)(var10);
             var14 = !var3;
- 745:
+ 732:
             _closure2_slot12 = var14;
             var7 = _closure1_slot4;
             var10 = var7.useMemo;
@@ -627,10 +624,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[5] = var13;
             var13 = var8 == var12;
             var8 = undefined;
-            if(var13) { _fun0001_ip = 837; continue _fun0001 }
- 831:
+            if(var13) { _fun0001_ip = 824; continue _fun0001 }
+ 818:
             var8 = var12.skuId;
- 837:
+ 824:
             var2[6] = var8;
             var1 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -746,25 +743,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7[var13];
             var8 = var8.bind(var4)(var7);
             var7 = {};
-            if(var15) { _fun0001_ip = 1017; continue _fun0001 }
- 983:
-            if(var14) { _fun0001_ip = 1017; continue _fun0001 }
- 986:
+            if(var15) { _fun0001_ip = 1004; continue _fun0001 }
+ 970:
+            if(var14) { _fun0001_ip = 1004; continue _fun0001 }
+ 973:
             var15 = _closure1_slot0;
             var14 = _closure1_slot2;
             var14 = var14[var13];
             var14 = var15.bind(var4)(var14);
             var14 = var14.ButtonColors;
             var14 = var14.GREEN;
-            _fun0001_ip = 1046; continue _fun0001;
- 1017:
+            _fun0001_ip = 1033; continue _fun0001;
+ 1004:
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
             var15 = var15[var13];
             var15 = var16.bind(var4)(var15);
             var15 = var15.ButtonColors;
             var14 = var15.BRAND;
- 1046:
+ 1033:
             var7['color'] = var14;
             var7['onPress'] = var12;
             var12 = _closure1_slot0;

@@ -842,34 +842,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
                 var1 = arg1;
-                var14 = var1.streamType;
-                var13 = var1.guildId;
-                var12 = var1.channelId;
-                var9 = var1.appContext;
-                var _closure2_slot0 = var9;
+                var15 = var1.streamType;
+                var14 = var1.guildId;
+                var13 = var1.channelId;
+                var12 = var1.appContext;
+                var _closure2_slot0 = var12;
                 var8 = var1.pid;
                 var6 = var1.sourceId;
                 var2 = var1.nativePickerStyleUsed;
                 var _closure2_slot1 = var2;
                 var4 = var1.goLiveModalDurationMs;
+                var11 = var1.analyticsLocations;
                 var7 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var1 = 15;
                 var3 = var10[var1];
                 var1 = undefined;
-                var11 = var7.bind(var1)(var3);
-                var7 = var11.encodeStreamKey;
+                var9 = var7.bind(var1)(var3);
+                var7 = var9.encodeStreamKey;
                 var3 = {};
-                var3['streamType'] = var14;
-                var3['guildId'] = var13;
-                var3['channelId'] = var12;
-                var13 = _closure1_slot10;
-                var12 = var13.getId;
-                var12 = var12.bind(var13)();
-                var3['ownerId'] = var12;
-                var3 = var7.bind(var11)(var3);
-                var7 = _closure1_slot16;
-                var7[var3] = var9;
+                var3['streamType'] = var15;
+                var3['guildId'] = var14;
+                var3['channelId'] = var13;
+                var14 = _closure1_slot10;
+                var13 = var14.getId;
+                var13 = var13.bind(var14)();
+                var3['ownerId'] = var13;
+                var3 = var7.bind(var9)(var3);
+                var9 = _closure1_slot16;
+                var7 = {};
+                var7['appContext'] = var12;
+                var7['analyticsLocations'] = var11;
+                var9[var3] = var7;
                 var9 = _closure1_slot1;
                 var7 = 14;
                 var7 = var10[var7];
@@ -903,13 +907,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure1_slot18;
                 var5[var3] = var8;
                 var5 = null;
-                if(!(var5 != var8)) { _fun0019_ip = 286; continue _fun0019 }
- 195:
+                if(!(var5 != var8)) { _fun0019_ip = 304; continue _fun0019 }
+ 213:
                 var7 = _closure1_slot9;
                 var6 = var7.getGameForPID;
                 var8 = var6.bind(var7)(var8);
-                if(!(var5 != var8)) { _fun0019_ip = 286; continue _fun0019 }
- 214:
+                if(!(var5 != var8)) { _fun0019_ip = 304; continue _fun0019 }
+ 232:
                 var7 = _closure1_slot17;
                 var6 = {};
                 var9 = var8.name;
@@ -925,32 +929,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var8.gameMetadata;
                 var6['gameMetadata'] = var8;
                 var7[var3] = var6;
- 286:
-                if(!(var5 == var4)) { _fun0019_ip = 300; continue _fun0019 }
- 290:
+ 304:
+                if(!(var5 == var4)) { _fun0019_ip = 318; continue _fun0019 }
+ 308:
                 var5 = _closure1_slot20;
                 var5 = delete var5[var3];
-                _fun0019_ip = 308; continue _fun0019;
- 300:
+                _fun0019_ip = 326; continue _fun0019;
+ 318:
                 var2 = _closure1_slot20;
                 var2[var3] = var4;
- 308:
+ 326:
                 return var1;
             }
         };
         var4['STREAM_START'] = var10;
         var10 = function handleStreamStop(arg1) {
-            var1 = arg1;
-            var5 = var1.appContext;
-            var _closure2_slot0 = var5;
-            var3 = var1.streamKey;
-            var1 = _closure1_slot16;
-            var1[var3] = var5;
-            var6 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var1 = 14;
-            var5 = var5[var1];
+            var2 = arg1;
+            var1 = var2.appContext;
+            var _closure2_slot0 = var1;
+            var3 = var2.streamKey;
+            var6 = _closure1_slot16;
+            var5 = {};
+            var5['appContext'] = var1;
             var1 = undefined;
+            var5['analyticsLocations'] = var1;
+            var6[var3] = var5;
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var5 = 14;
+            var5 = var7[var5];
             var7 = var6.bind(var1)(var5);
             var6 = var7.forEach;
             var5 = _closure1_slot23;
@@ -996,10 +1003,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2[var3];
                 var7 = null;
                 var6 = var2;
-                if(!(var7 == var2)) { _fun0022_ip = 487; continue _fun0022 }
+                if(!(var7 == var2)) { _fun0022_ip = 530; continue _fun0022 }
  56:
                 var6 = var2;
-                if(!(var7 != var9)) { _fun0022_ip = 487; continue _fun0022 }
+                if(!(var7 != var9)) { _fun0022_ip = 530; continue _fun0022 }
  66:
                 var2 = _closure1_slot18;
                 var2 = var2[var3];
@@ -1055,18 +1062,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var13.bind(var10)(var4);
                 var2['streamSourceType'] = var4;
                 var4 = _closure1_slot16;
-                var4 = var4[var3];
+                var13 = var4[var3];
+                var14 = var7 == var13;
+                var4 = undefined;
+                if(var14) { _fun0022_ip = 284; continue _fun0022 }
+ 278:
+                var4 = var13.appContext;
+ 284:
                 var2['actionContext'] = var4;
                 var13 = var7 != var12;
                 var4 = 0;
-                if(!var13) { _fun0022_ip = 288; continue _fun0022 }
- 283:
+                if(!var13) { _fun0022_ip = 303; continue _fun0022 }
+ 298:
                 var4 = var12.length;
- 288:
+ 303:
                 var2['numViewers'] = var4;
                 var4 = _closure1_slot20;
                 var4 = var4[var3];
                 var2['goLiveModalDurationMs'] = var4;
+                var4 = _closure1_slot16;
+                var12 = var4[var3];
+                var13 = var7 == var12;
+                var4 = undefined;
+                if(var13) { _fun0022_ip = 344; continue _fun0022 }
+ 338:
+                var4 = var12.analyticsLocations;
+ 344:
+                var2['analyticsLocations'] = var4;
                 var4 = var5.prototype;
                 var4 = Object.create(var4, {constructor: {value: var5}});
                 var17 = var4;
@@ -1110,7 +1132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot23;
                 var4[var3] = var2;
                 var6 = var2;
- 487:
+ 530:
                 var2 = _closure1_slot21;
                 var2 = delete var2[var3];
                 var3 = _closure1_slot1;

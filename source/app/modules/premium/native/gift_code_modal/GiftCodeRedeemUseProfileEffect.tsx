@@ -95,9 +95,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot2;
             var2 = 7;
             var2 = var5[var2];
-            var6 = var3.bind(var4)(var2);
-            var2 = 'GiftCodeRedeemUseProfileEffect';
-            var2 = var6.bind(var4)(var2);
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.bind(var4)();
             var17 = var2.isFetching;
             var2 = 8;
             var2 = var5[var2];
@@ -116,10 +115,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var5 = var2 == var3;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 195; continue _fun0001 }
- 189:
+            if(var5) { _fun0001_ip = 188; continue _fun0001 }
+ 182:
             var2 = var3.profileEffectId;
- 195:
+ 188:
             _closure2_slot3 = var2;
             var5 = _closure1_slot5;
             var3 = var5.useEffect;

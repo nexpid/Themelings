@@ -21,10 +21,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var3)();
             var1 = var1.theme;
             var3 = null;
-            if(!(var3 != var2)) { _fun0001_ip = 52; continue _fun0001 }
- 49:
+            if(!(var3 != var2)) { _fun0001_ip = 53; continue _fun0001 }
+ 50:
             var1 = var2;
- 52:
+ 53:
             return var1;
         }
     };

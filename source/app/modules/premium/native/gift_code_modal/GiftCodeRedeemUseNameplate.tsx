@@ -79,11 +79,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 6;
             var1 = var5[var1];
             var4 = undefined;
-            var6 = var3.bind(var4)(var1);
-            var1 = {};
-            var7 = 'GiftCodeRedeemUseNameplate';
-            var1['location'] = var7;
-            var1 = var6.bind(var4)(var1);
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.bind(var4)();
             var1 = _closure1_slot9;
             var11 = var1.bind(var4)();
             var8 = _closure1_slot4;
@@ -163,10 +160,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var13 = var2.bind(var4)();
-            if(!(var4 !== var1)) { _fun0001_ip = 156; continue _fun0001 }
- 153:
+            if(!(var4 !== var1)) { _fun0001_ip = 143; continue _fun0001 }
+ 140:
             var17 = var1;
- 156:
+ 143:
             var3 = _closure1_slot8;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;

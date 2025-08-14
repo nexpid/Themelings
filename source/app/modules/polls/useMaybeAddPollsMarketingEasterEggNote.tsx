@@ -50,11 +50,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var3, var1);
             var4 = ':pizza:';
             var1 = var6;
-            if(!(var4 === var6)) { _fun0001_ip = 142; continue _fun0001 }
- 71:
+            if(!(var4 === var6)) { _fun0001_ip = 144; continue _fun0001 }
+ 73:
             var1 = var6;
-            if(!var3) { _fun0001_ip = 142; continue _fun0001 }
- 77:
+            if(!var3) { _fun0001_ip = 144; continue _fun0001 }
+ 79:
             var3 = _closure1_slot0;
             var8 = _closure1_slot1;
             var2 = 2;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var2['emojiName'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 142:
+ 144:
             return var1;
         }
     };

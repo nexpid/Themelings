@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.bind(var9)(var7);
     var3['EmojiStudioExperiment'] = var6;
     var3['MobileEmojiStudioExperiment'] = var5;
-    var3['EmojiStudioEntrypointExperimentConfig'] = var4;
+    var3['EmojiStudioEntrypointExperiment'] = var4;
     var2 = function useEmojiStudioExperiment(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:

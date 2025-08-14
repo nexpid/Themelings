@@ -40,24 +40,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    var3 = _closure1_slot3;
+                    var4 = arg1;
+                    var3 = _closure1_slot0;
+                    var1 = var3.getMute;
+                    var1 = var1.bind(var3)(var4);
+                    var1 = !var1;
+                    if(!var1) { _fun0002_ip = 95; continue _fun0002 }
+ 29:
+                    var3 = _closure1_slot4;
                     var2 = var3.getLastPlayedDateTime;
-                    var1 = arg1;
-                    var1 = var2.bind(var3)(var1);
-                    var2 = null;
-                    var3 = var2 != var1;
-                    var2 = 0;
-                    if(!var3) { _fun0002_ip = 37; continue _fun0002 }
- 34:
-                    var2 = var1;
- 37:
-                    var1 = global;
-                    var3 = var1.Date;
-                    var1 = var3.now;
-                    var3 = var1.bind(var3)();
-                    var1 = 5184000000.0;
-                    var1 = var3 - var1;
-                    var1 = var2 > var1;
+                    var2 = var2.bind(var3)(var4);
+                    var3 = null;
+                    var4 = var3 != var2;
+                    var3 = 0;
+                    if(!var4) { _fun0002_ip = 60; continue _fun0002 }
+ 57:
+                    var3 = var2;
+ 60:
+                    var2 = global;
+                    var4 = var2.Date;
+                    var2 = var4.now;
+                    var4 = var2.bind(var4)();
+                    var2 = 5184000000.0;
+                    var2 = var4 - var2;
+                    var1 = var3 > var2;
+ 95:
                     return var1;
                 }
             };
@@ -73,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 0;
             if(!(var1 !== var5)) { _fun0001_ip = 253; continue _fun0001 }
  143:
-            var6 = _closure1_slot0;
+            var6 = _closure1_slot1;
             var5 = var6.getChannel;
             var6 = var5.bind(var6)(var8);
             if(!(var3 != var6)) { _fun0001_ip = 249; continue _fun0001 }
@@ -82,12 +89,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var5.bind(var6)();
             if(!(var3 != var6)) { _fun0001_ip = 245; continue _fun0001 }
  178:
-            var8 = _closure1_slot2;
+            var8 = _closure1_slot3;
             var5 = var8.getGuild;
             var5 = var5.bind(var8)(var6);
             if(!(var3 != var5)) { _fun0001_ip = 241; continue _fun0001 }
  196:
-            var5 = _closure1_slot1;
+            var5 = _closure1_slot2;
             var1 = var5.getMember;
             var1 = var1.bind(var5)(var6, var7);
             _closure2_slot0 = var1;
@@ -126,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot4 = var2;
+    var _closure1_slot5 = var2;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -153,6 +160,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7.bind(var1)(var5);
     var _closure1_slot3 = var5;
     var5 = 4;
+    var5 = var6[var5];
+    var5 = var7.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 5;
     var6 = var6[var5];
     var5 = require;
     var7 = var5.bind(var1)(var6);
@@ -176,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  37:
             var4 = false;
  39:
-            var2 = _closure1_slot4;
+            var2 = _closure1_slot5;
             var1 = {};
             var1['userId'] = var7;
             var7 = var6.channel_id;
@@ -230,7 +241,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  40:
             var4 = false;
  42:
-            var2 = _closure1_slot4;
+            var2 = _closure1_slot5;
             var1 = {};
             var1['userId'] = var7;
             var7 = var6.channel_id;

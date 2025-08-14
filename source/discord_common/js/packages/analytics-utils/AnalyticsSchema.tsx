@@ -467,6 +467,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['VOICE_FEEDBACK_MODAL'] = var2;
     var2 = 'impression_voice_filter_feedback_modal';
     var4['VOICE_FILTER_FEEDBACK_MODAL'] = var2;
+    var2 = 'impression_voice_user_activity_popout';
+    var4['VOICE_USER_ACTIVITY_POPOUT'] = var2;
     var2 = {};
     var5 = 'network_action_account_revert';
     var2['ACCOUNT_REVERT'] = var5;

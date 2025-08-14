@@ -4,9 +4,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
+    var _closure1_slot1 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -20,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
     var4 = var4.processColor;
-    var _closure1_slot3 = var4;
+    var _closure1_slot2 = var4;
     var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -31,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot1;
             var1 = 1;
             var1 = var4[var1];
             var6 = undefined;
@@ -50,12 +48,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = undefined;
             if(!var7) { _fun0001_ip = 89; continue _fun0001 }
  80:
-            var7 = _closure1_slot3;
+            var7 = _closure1_slot2;
             var4 = var7.bind(var6)(var8);
  89:
             var1['colorString'] = var4;
             var4 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var7 = _closure1_slot1;
             var3 = 2;
             var3 = var7[var3];
             var4 = var4.bind(var6)(var3);
@@ -67,39 +65,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['getMessageAuthorWithProcessedColor'] = var4;
-    var4 = function useMessageAuthorWithProcessedColor(arg1) {
+    var2 = function getUserAuthorWithProcessedColor(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            var2 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var1 = 1;
-            var1 = var4[var1];
-            var5 = undefined;
-            var2 = var2.bind(var5)(var1);
-            var1 = arg1;
-            var1 = var2.bind(var5)(var1);
-            var2 = var1.nick;
-            var4 = var1.colorString;
-            var1 = {};
-            var1['nick'] = var2;
-            var2 = null;
-            var6 = var2 != var4;
-            var2 = undefined;
-            if(!var6) { _fun0002_ip = 72; continue _fun0002 }
- 63:
-            var3 = _closure1_slot3;
-            var2 = var3.bind(var5)(var4);
- 72:
-            var1['colorString'] = var2;
-            return var1;
-        }
-    };
-    var3['useMessageAuthorWithProcessedColor'] = var4;
-    var4 = function getUserAuthorWithProcessedColor(arg1, arg2) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
             var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot1;
             var1 = 1;
             var1 = var4[var1];
             var5 = undefined;
@@ -116,14 +86,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var6 = var3 != var7;
             var3 = undefined;
-            if(!var6) { _fun0003_ip = 88; continue _fun0003 }
+            if(!var6) { _fun0002_ip = 88; continue _fun0002 }
  79:
-            var6 = _closure1_slot3;
+            var6 = _closure1_slot2;
             var3 = var6.bind(var5)(var7);
  88:
             var1['colorString'] = var3;
             var3 = _closure1_slot0;
-            var6 = _closure1_slot2;
+            var6 = _closure1_slot1;
             var2 = 2;
             var2 = var6[var2];
             var3 = var3.bind(var5)(var2);
@@ -133,36 +103,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['getUserAuthorWithProcessedColor'] = var4;
-    var2 = function useUserAuthorWithProcessedColor(arg1, arg2) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-            var2 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 1;
-            var1 = var4[var1];
-            var5 = undefined;
-            var6 = var2.bind(var5)(var1);
-            var4 = var6.useNullableUserAuthor;
-            var2 = arg1;
-            var1 = arg2;
-            var1 = var4.bind(var6)(var2, var1);
-            var2 = var1.nick;
-            var4 = var1.colorString;
-            var1 = {};
-            var1['nick'] = var2;
-            var2 = null;
-            var6 = var2 != var4;
-            var2 = undefined;
-            if(!var6) { _fun0004_ip = 82; continue _fun0004 }
- 73:
-            var3 = _closure1_slot3;
-            var2 = var3.bind(var5)(var4);
- 82:
-            var1['colorString'] = var2;
-            return var1;
-        }
-    };
-    var3['useUserAuthorWithProcessedColor'] = var2;
+    var3['getUserAuthorWithProcessedColor'] = var2;
     return var1;
 })();

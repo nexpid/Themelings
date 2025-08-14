@@ -95,13 +95,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var8[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
-            if(var2) { _fun0001_ip = 135; continue _fun0001 }
- 127:
+            if(var2) { _fun0001_ip = 136; continue _fun0001 }
+ 128:
             var10 = var1.PRIMARY_500;
-            _fun0001_ip = 141; continue _fun0001;
- 135:
+            _fun0001_ip = 142; continue _fun0001;
+ 136:
             var10 = var1.PRIMARY_100;
- 141:
+ 142:
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};
@@ -119,13 +119,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.isThemeDark;
             var8 = var8.bind(var9)(var11);
             var9 = _closure1_slot4;
-            if(var8) { _fun0001_ip = 223; continue _fun0001 }
- 215:
+            if(var8) { _fun0001_ip = 224; continue _fun0001 }
+ 216:
             var8 = var9.LIGHT;
-            _fun0001_ip = 229; continue _fun0001;
- 223:
+            _fun0001_ip = 230; continue _fun0001;
+ 224:
             var8 = var9.DARK;
- 229:
+ 230:
             var1['keyboardAppearance'] = var8;
             var6 = var6.placeholderTextColor;
             var6 = var6.color;
@@ -138,8 +138,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.isAndroid;
             var8 = var6.bind(var8)();
             var6 = var10;
-            if(!var8) { _fun0001_ip = 327; continue _fun0001 }
- 285:
+            if(!var8) { _fun0001_ip = 328; continue _fun0001 }
+ 286:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var7 = 8;
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.hexWithOpacity;
             var7 = 0.5;
             var6 = var8.bind(var9)(var10, var7);
- 327:
+ 328:
             var1['selectionColor'] = var6;
             var16 = var1;
             var15 = var5;

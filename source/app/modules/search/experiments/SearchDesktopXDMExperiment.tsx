@@ -107,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['useIsSearchDesktopXDMExperimentEnabled'] = var4;
-    var2 = function useIsInSearchDesktopXDMExperiment(arg1) {
+    var4 = function useIsInSearchDesktopXDMExperiment(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var2 = arg1;
@@ -140,6 +140,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['useIsInSearchDesktopXDMExperiment'] = var2;
+    var3['useIsInSearchDesktopXDMExperiment'] = var4;
+    var2 = function getIsInSearchDesktopXDMExperiment(arg1) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+            var2 = arg1;
+            var1 = var2.location;
+            var6 = var2.autoTrackExposure;
+            var5 = undefined;
+            if(!(var6 === var5)) { _fun0004_ip = 22; continue _fun0004 }
+ 20:
+            var6 = true;
+ 22:
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var3 = 1;
+            var3 = var7[var3];
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.getIsInSearchImprovementsHoldout;
+            var3 = {};
+            var3['location'] = var1;
+            var3['autoTrackExposure'] = var6;
+            var5 = var4.bind(var5)(var3);
+            var4 = _closure1_slot2;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var2['location'] = var1;
+            var1 = {};
+            var1['autoTrackExposure'] = var6;
+            var1['disable'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.inExperiment;
+            return var1;
+        }
+    };
+    var3['getIsInSearchDesktopXDMExperiment'] = var2;
     return var1;
 })();

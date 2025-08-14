@@ -124,9 +124,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.pendingAvatarDecoration;
             if(!(var4 !== var3)) { _fun0002_ip = 189; continue _fun0002 }
  177:
-            var2 = var2.pendingAvatarDecoration;
-            var1['avatarDecoration'] = var2;
+            var3 = var2.pendingAvatarDecoration;
+            var1['avatarDecoration'] = var3;
  189:
+            var3 = var2.pendingDisplayNameStyles;
+            if(!(var4 !== var3)) { _fun0002_ip = 211; continue _fun0002 }
+ 199:
+            var2 = var2.pendingDisplayNameStyles;
+            var1['displayNameStyles'] = var2;
+ 211:
             return var1;
         }
     };

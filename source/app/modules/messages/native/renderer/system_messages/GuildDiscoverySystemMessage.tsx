@@ -2,158 +2,31 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
-    var6 = dependencyMap;
+    var4 = dependencyMap;
     var _closure1_slot0 = var5;
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
-    var _closure1_slot2 = var6;
-    var1 = function getStringForType(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
-            var3 = arg1;
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var6 = 4;
-            var2 = var2[var6];
-            var5 = undefined;
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.MessageTypes;
-            var2 = var2.GUILD_DISCOVERY_DISQUALIFIED;
-            if(!(var2 !== var3)) { _fun0001_ip = 322; continue _fun0001 }
- 47:
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var6];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.MessageTypes;
-            var2 = var2.GUILD_DISCOVERY_REQUALIFIED;
-            if(!(var2 !== var3)) { _fun0001_ip = 265; continue _fun0001 }
- 83:
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var6];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.MessageTypes;
-            var2 = var2.GUILD_DISCOVERY_GRACE_PERIOD_INITIAL_WARNING;
-            if(!(var2 !== var3)) { _fun0001_ip = 208; continue _fun0001 }
- 116:
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var6];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.MessageTypes;
-            var2 = var2.GUILD_DISCOVERY_GRACE_PERIOD_FINAL_WARNING;
-            if(!(var2 !== var3)) { _fun0001_ip = 151; continue _fun0001 }
- 149:
-            return var5;
- 151:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 2;
-            var3 = var7[var2];
-            var3 = var6.bind(var5)(var3);
-            var4 = var3.intl;
-            var3 = var4.string;
-            var2 = var7[var2];
-            var2 = var6.bind(var5)(var2);
-            var2 = var2.t;
-            var2 = var2./Tfvyc;
-            var2 = var3.bind(var4)(var2);
-            return var2;
- 208:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 2;
-            var3 = var7[var2];
-            var3 = var6.bind(var5)(var3);
-            var4 = var3.intl;
-            var3 = var4.string;
-            var2 = var7[var2];
-            var2 = var6.bind(var5)(var2);
-            var2 = var2.t;
-            var2 = var2.vzfXqq;
-            var2 = var3.bind(var4)(var2);
-            return var2;
- 265:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var2 = 2;
-            var3 = var7[var2];
-            var3 = var6.bind(var5)(var3);
-            var4 = var3.intl;
-            var3 = var4.string;
-            var2 = var7[var2];
-            var2 = var6.bind(var5)(var2);
-            var2 = var2.t;
-            var2 = var2.tu6tOT;
-            var2 = var3.bind(var4)(var2);
-            return var2;
- 322:
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var1 = 2;
-            var2 = var6[var1];
-            var2 = var4.bind(var5)(var2);
-            var3 = var2.intl;
-            var2 = var3.string;
-            var1 = var6[var1];
-            var1 = var4.bind(var5)(var1);
-            var1 = var1.t;
-            var1 = var1.NxS3hY;
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        }
-    };
-    var _closure1_slot4 = var1;
+    var _closure1_slot2 = var4;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
-    var4 = {};
+    var6 = {};
     var1 = true;
-    var4['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var7 = var6[var1];
-    var4 = metroImportAll;
+    var1 = var7.bind(var8)(var3, var1, var6);
+    var1 = 2;
+    var4 = var4[var1];
     var1 = undefined;
-    var4 = var4.bind(var1)(var7);
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot3 = var4;
-    var4 = 6;
-    var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/messages/native/renderer/system_messages/GuildDiscoverySystemMessage.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function GuildDiscoverySystemMessage(arg1) {
-        var1 = arg1;
-        var7 = var1.row;
-        var6 = var1.type;
-        var4 = _closure1_slot3;
-        var2 = _closure1_slot1;
-        var3 = _closure1_slot2;
-        var1 = 5;
-        var1 = var3[var1];
-        var3 = undefined;
-        var2 = var2.bind(var3)(var1);
-        var1 = {};
-        var1['row'] = var7;
-        var5 = _closure1_slot4;
-        var5 = var5.bind(var3)(var6);
-        var1['content'] = var5;
-        var1 = var4.bind(var3)(var2, var1);
-        return var1;
-    };
-    var3['default'] = var4;
     var4 = function createGuildDiscoveryDisqualifiedSystemMessage(arg1) {
         var1 = {};
         var8 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var3 = 2;
+        var3 = 0;
         var6 = var5[var3];
         var4 = undefined;
         var6 = var8.bind(var4)(var6);
@@ -166,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var6.bind(var7)(var3);
         var1['content'] = var3;
         var3 = _closure1_slot1;
-        var2 = 3;
+        var2 = 1;
         var2 = var5[var2];
         var3 = var3.bind(var4)(var2);
         var2 = arg1;
@@ -180,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var8 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var3 = 2;
+        var3 = 0;
         var6 = var5[var3];
         var4 = undefined;
         var6 = var8.bind(var4)(var6);
@@ -193,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var6.bind(var7)(var3);
         var1['content'] = var3;
         var3 = _closure1_slot1;
-        var2 = 3;
+        var2 = 1;
         var2 = var5[var2];
         var3 = var3.bind(var4)(var2);
         var2 = arg1;
@@ -207,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var8 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var3 = 2;
+        var3 = 0;
         var6 = var5[var3];
         var4 = undefined;
         var6 = var8.bind(var4)(var6);
@@ -220,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var6.bind(var7)(var3);
         var1['content'] = var3;
         var3 = _closure1_slot1;
-        var2 = 3;
+        var2 = 1;
         var2 = var5[var2];
         var3 = var3.bind(var4)(var2);
         var2 = arg1;
@@ -234,7 +107,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var8 = _closure1_slot0;
         var5 = _closure1_slot2;
-        var3 = 2;
+        var3 = 0;
         var6 = var5[var3];
         var4 = undefined;
         var6 = var8.bind(var4)(var6);
@@ -247,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var6.bind(var7)(var3);
         var1['content'] = var3;
         var3 = _closure1_slot1;
-        var2 = 3;
+        var2 = 1;
         var2 = var5[var2];
         var3 = var3.bind(var4)(var2);
         var2 = arg1;

@@ -48,14 +48,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[var2] = var6;
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 8;
+            var1 = 6;
             var1 = var6[var1];
             var6 = undefined;
             var2 = var2.bind(var6)(var1);
             var1 = var2.isAndroid;
             var1 = var1.bind(var2)();
-            if(var1) { _fun0001_ip = 248; continue _fun0001 }
- 207:
+            if(var1) { _fun0001_ip = 250; continue _fun0001 }
+ 209:
             var1 = {};
             var10 = var1;
             var9 = var3;
@@ -66,8 +66,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var2] = var4;
             var2 = 'subtitle';
             var1[var2] = var5;
-            _fun0001_ip = 283; continue _fun0001;
- 248:
+            _fun0001_ip = 285; continue _fun0001;
+ 250:
             var2 = {};
             var10 = var2;
             var9 = var3;
@@ -78,11 +78,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'subtitle';
             var2[var3] = var4;
             var1 = var2;
- 283:
+ 285:
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = function buildSupportedOnMobileEmbedBodyText(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  65:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 10;
+            var1 = 8;
             var2 = var9[var1];
             var4 = undefined;
             var3 = var8.bind(var4)(var2);
@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var8.bind(var4)(var1);
             var1 = var2.getThirdPartyTaskDetails;
             var6 = var1.bind(var2)(var5);
-            var1 = 11;
+            var1 = 9;
             var1 = var9[var1];
             var3 = var8.bind(var4)(var1);
             var2 = var3.getQuestsInstructionsToWinReward;
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot6;
             var7 = var7.EMBED_MOBILE;
             var1['location'] = var7;
-            var7 = 12;
+            var7 = 10;
             var7 = var9[var7];
             var7 = var8.bind(var4)(var7);
             var7 = var7.QuestContent;
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  241:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var1 = 9;
+            var1 = 7;
             var3 = var7[var1];
             var2 = undefined;
             var3 = var6.bind(var2)(var3);
@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = function buildQuestsEmbedProps(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -177,11 +177,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.themeColors;
             if(var1) { _fun0003_ip = 205; continue _fun0003 }
  30:
-            var5 = _closure1_slot11;
+            var5 = _closure1_slot10;
             var4 = {};
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var6 = 9;
+            var6 = 7;
             var7 = var11[var6];
             var1 = undefined;
             var7 = var10.bind(var1)(var7);
@@ -207,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = _closure1_slot3;
             var7 = var9.resolveAssetSource;
             var10 = _closure1_slot1;
-            var6 = 15;
+            var6 = 13;
             var6 = var11[var6];
             var6 = var10.bind(var1)(var6);
             var6 = var7.bind(var9)(var6);
@@ -229,11 +229,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  251:
             var5 = _closure1_slot5;
             var5 = var5.isFetchingCurrentQuests;
-            if(var5) { _fun0003_ip = 1313; continue _fun0003 }
+            if(var5) { _fun0003_ip = 1318; continue _fun0003 }
  267:
-            if(!(var7 == var1)) { _fun0003_ip = 1104; continue _fun0003 }
+            if(!(var7 == var1)) { _fun0003_ip = 1109; continue _fun0003 }
  274:
-            if(!(var7 != var4)) { _fun0003_ip = 892; continue _fun0003 }
+            if(!(var7 != var4)) { _fun0003_ip = 897; continue _fun0003 }
  281:
             var1 = {};
             var1['themeColors'] = var2;
@@ -268,28 +268,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.theme;
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var1 = 13;
+            var1 = 11;
             var1 = var12[var1];
             var10 = var10.bind(var13)(var1);
             var1 = var10.isThemeDark;
             var10 = var1.bind(var10)(var11);
             var1 = _closure1_slot8;
-            if(var10) { _fun0003_ip = 455; continue _fun0003 }
- 447:
+            if(var10) { _fun0003_ip = 456; continue _fun0003 }
+ 448:
             var17 = var1.LIGHT;
-            _fun0003_ip = 461; continue _fun0003;
- 455:
+            _fun0003_ip = 462; continue _fun0003;
+ 456:
             var17 = var1.DARK;
- 461:
+ 462:
             var1 = _closure1_slot5;
             var1 = var1.questEnrollmentBlockedUntil;
             var7 = var7 != var1;
             var1 = {};
-            var11 = _closure1_slot11;
+            var11 = _closure1_slot10;
             var10 = {};
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var14 = 9;
+            var14 = 7;
             var12 = var20[var14];
             var12 = var19.bind(var13)(var12);
             var21 = var12.intl;
@@ -309,13 +309,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.messages;
             var12 = var12.gamePublisher;
             var10['subtitle'] = var12;
-            var15 = _closure1_slot12;
+            var15 = _closure1_slot11;
             var12 = {};
             var12['quest'] = var18;
             var12 = var15.bind(var13)(var12);
             var10['bodyText'] = var12;
             var10['themeColors'] = var4;
-            var12 = 14;
+            var12 = 12;
             var15 = var20[var12];
             var16 = var19.bind(var13)(var15);
             var15 = var16.getQuestAsset;
@@ -329,10 +329,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var11.bind(var13)(var10);
             var25 = var1;
             var10 = copyDataProperties(var25, var24);
-            if(var9) { _fun0003_ip = 760; continue _fun0003 }
- 687:
-            if(var6) { _fun0003_ip = 760; continue _fun0003 }
- 690:
+            if(var9) { _fun0003_ip = 761; continue _fun0003 }
+ 688:
+            if(var6) { _fun0003_ip = 761; continue _fun0003 }
+ 691:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
             var10 = var9[var14];
@@ -342,17 +342,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9[var14];
             var9 = var12.bind(var13)(var9);
             var9 = var9.t;
-            if(var7) { _fun0003_ip = 747; continue _fun0003 }
- 734:
+            if(var7) { _fun0003_ip = 748; continue _fun0003 }
+ 735:
             var7 = var9.kUQLMD;
             var7 = var10.bind(var11)(var7);
-            _fun0003_ip = 758; continue _fun0003;
- 747:
+            _fun0003_ip = 759; continue _fun0003;
+ 748:
             var9 = var9.th2+0t;
             var7 = var10.bind(var11)(var9);
- 758:
-            _fun0003_ip = 831; continue _fun0003;
- 760:
+ 759:
+            _fun0003_ip = 832; continue _fun0003;
+ 761:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
             var10 = var9[var14];
@@ -362,17 +362,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9[var14];
             var9 = var12.bind(var13)(var9);
             var9 = var9.t;
-            if(var6) { _fun0003_ip = 817; continue _fun0003 }
- 804:
+            if(var6) { _fun0003_ip = 818; continue _fun0003 }
+ 805:
             var6 = var9.th2+0t;
             var6 = var10.bind(var11)(var6);
-            _fun0003_ip = 828; continue _fun0003;
- 817:
+            _fun0003_ip = 829; continue _fun0003;
+ 818:
             var9 = var9.hvVgAQ;
             var6 = var10.bind(var11)(var9);
- 828:
+ 829:
             var7 = var6;
- 831:
+ 832:
             var6 = 'acceptLabelText';
             var1[var6] = var7;
             var6 = var5.acceptBlurpleLabelBackgroundColor;
@@ -385,11 +385,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 8;
             var4 = 'thumbnailCornerRadius';
             var1[var4] = var5;
-            _fun0003_ip = 1099; continue _fun0003;
- 892:
+            _fun0003_ip = 1104; continue _fun0003;
+ 897:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var4 = 16;
+            var4 = 14;
             var4 = var12[var4];
             var6 = undefined;
             var7 = var11.bind(var6)(var4);
@@ -397,9 +397,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot7;
             var4 = var4.UNKNOWN_QUEST;
             var4 = var5.bind(var7)(var8, var4);
-            var5 = _closure1_slot11;
+            var5 = _closure1_slot10;
             var4 = {};
-            var7 = 9;
+            var7 = 7;
             var9 = var12[var7];
             var9 = var11.bind(var6)(var9);
             var13 = var9.intl;
@@ -424,19 +424,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = _closure1_slot3;
             var9 = var10.resolveAssetSource;
             var11 = _closure1_slot1;
-            var7 = 15;
+            var7 = 13;
             var7 = var12[var7];
             var7 = var11.bind(var6)(var7);
             var7 = var9.bind(var10)(var7);
             var7 = var7.uri;
             var4['thumbnailUrl'] = var7;
             var1 = var5.bind(var6)(var4);
- 1099:
-            _fun0003_ip = 1311; continue _fun0003;
  1104:
+            _fun0003_ip = 1316; continue _fun0003;
+ 1109:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var4 = 16;
+            var4 = 14;
             var4 = var11[var4];
             var6 = undefined;
             var7 = var10.bind(var6)(var4);
@@ -444,9 +444,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot7;
             var4 = var4.EXCLUDED_QUEST;
             var4 = var5.bind(var7)(var8, var4);
-            var5 = _closure1_slot11;
+            var5 = _closure1_slot10;
             var4 = {};
-            var7 = 9;
+            var7 = 7;
             var8 = var11[var7];
             var8 = var10.bind(var6)(var8);
             var12 = var8.intl;
@@ -471,26 +471,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = _closure1_slot3;
             var8 = var9.resolveAssetSource;
             var10 = _closure1_slot1;
-            var7 = 15;
+            var7 = 13;
             var7 = var11[var7];
             var7 = var10.bind(var6)(var7);
             var7 = var8.bind(var9)(var7);
             var7 = var7.uri;
             var4['thumbnailUrl'] = var7;
             var1 = var5.bind(var6)(var4);
- 1311:
-            _fun0003_ip = 1331; continue _fun0003;
- 1313:
-            var4 = _closure1_slot11;
+ 1316:
+            _fun0003_ip = 1336; continue _fun0003;
+ 1318:
+            var4 = _closure1_slot10;
             var3 = {};
             var3['themeColors'] = var2;
             var2 = undefined;
             var1 = var4.bind(var2)(var3);
- 1331:
+ 1336:
             return var1;
         }
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -500,121 +500,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var8 = var6[var1];
-    var4 = metroImportAll;
+    var4 = var6[var1];
     var1 = undefined;
-    var4 = var4.bind(var1)(var8);
-    var4 = 1;
-    var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.Image;
     var _closure1_slot3 = var4;
-    var4 = 2;
+    var4 = 1;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 3;
+    var4 = 2;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
-    var4 = 4;
+    var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.QuestsExperimentLocations;
     var _closure1_slot6 = var7;
     var4 = var4.QuestEmbedFallbackReason;
     var _closure1_slot7 = var4;
-    var4 = 5;
+    var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ThemeTypes;
     var _closure1_slot8 = var4;
-    var4 = 6;
+    var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.InviteTypes;
     var _closure1_slot9 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot10 = var4;
-    var4 = 21;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/quests/native/QuestsEmbed.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function QuestsEmbed(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-            var1 = arg1;
-            var4 = var1.questId;
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var1 = 19;
-            var1 = var7[var1];
-            var5 = undefined;
-            var3 = var6.bind(var5)(var1);
-            var1 = var3.useMessageRendererTheme;
-            var9 = var1.bind(var3)();
-            var3 = _closure1_slot13;
-            var1 = {};
-            var1['questId'] = var4;
-            var4 = 17;
-            var4 = var7[var4];
-            var8 = var6.bind(var5)(var4);
-            var4 = var8.useEmbedThemeColors;
-            var4 = var4.bind(var8)(var9);
-            var1['themeColors'] = var4;
-            var4 = 18;
-            var4 = var7[var4];
-            var7 = var6.bind(var5)(var4);
-            var6 = var7.useIsEligibleForQuests;
-            var4 = {};
-            var8 = _closure1_slot6;
-            var8 = var8.EMBED_MOBILE;
-            var4['location'] = var8;
-            var4 = var6.bind(var7)(var4);
-            var1['isEligibleForQuests'] = var4;
-            var6 = var3.bind(var5)(var1);
-            var1 = null;
-            var3 = var1 != var6;
-            if(!var3) { _fun0004_ip = 183; continue _fun0004 }
- 141:
-            var4 = _closure1_slot10;
-            var3 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var2 = 20;
-            var2 = var7[var2];
-            var3 = var3.bind(var5)(var2);
-            var2 = {};
-            var11 = var2;
-            var10 = var6;
-            var6 = copyDataProperties(var11, var10);
-            var1 = var4.bind(var5)(var3, var2);
- 183:
-            return var1;
-        }
-    };
-    var3['default'] = var4;
     var2 = function createQuestsEmbed(arg1) {
         var2 = arg1;
         var1 = var2.questId;
         var5 = var2.theme;
-        var3 = _closure1_slot13;
+        var3 = _closure1_slot12;
         var2 = {};
         var2['questId'] = var1;
         var8 = _closure1_slot1;
         var6 = _closure1_slot2;
-        var1 = 17;
+        var1 = 15;
         var4 = var6[var1];
         var1 = undefined;
         var4 = var8.bind(var1)(var4);
         var4 = var4.bind(var1)(var5);
         var2['themeColors'] = var4;
         var5 = _closure1_slot0;
-        var4 = 18;
+        var4 = 16;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.getIsEligibleForQuests;

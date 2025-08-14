@@ -86,13 +86,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3 != var2;
             var11 = 0;
             var12 = 0;
-            if(!var3) { _fun0001_ip = 257; continue _fun0001 }
- 127:
+            if(!var3) { _fun0001_ip = 259; continue _fun0001 }
+ 128:
             var3 = var2.theme;
             var2 = _closure1_slot5;
             var2 = var2.LIGHT;
-            if(!(var3 !== var2)) { _fun0001_ip = 201; continue _fun0001 }
- 146:
+            if(!(var3 !== var2)) { _fun0001_ip = 203; continue _fun0001 }
+ 148:
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;
             var2 = 7;
@@ -104,8 +104,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ThemeContextFlags;
             var2 = var2.MOBILE_DARK_GRADIENT_THEME_ENABLED;
             var2 = var3.bind(var8)(var11, var2);
-            _fun0001_ip = 254; continue _fun0001;
- 201:
+            _fun0001_ip = 256; continue _fun0001;
+ 203:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var3 = 7;
@@ -117,13 +117,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.ThemeContextFlags;
             var3 = var3.MOBILE_LIGHT_GRADIENT_THEME_ENABLED;
             var2 = var8.bind(var10)(var11, var3);
- 254:
+ 256:
             var12 = var2;
- 257:
+ 259:
             var2 = 1;
             var11 = var12;
-            if(!(var2 !== var7)) { _fun0001_ip = 320; continue _fun0001 }
- 267:
+            if(!(var2 !== var7)) { _fun0001_ip = 322; continue _fun0001 }
+ 269:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var3 = 7;
@@ -135,35 +135,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.ThemeContextFlags;
             var3 = var3.REDUCE_SATURATION_ENABLED;
             var11 = var8.bind(var10)(var12, var3);
- 320:
+ 322:
             var8 = var11;
-            if(!(var2 !== var6)) { _fun0001_ip = 423; continue _fun0001 }
- 327:
+            if(!(var2 !== var6)) { _fun0001_ip = 425; continue _fun0001 }
+ 329:
             var10 = _closure1_slot0;
             var3 = _closure1_slot2;
             var14 = 7;
             var3 = var3[var14];
             var10 = var10.bind(var4)(var3);
             var3 = var10.setThemeFlag;
-            if(!(!(var6 > var2))) { _fun0001_ip = 388; continue _fun0001 }
- 357:
+            if(!(!(var6 > var2))) { _fun0001_ip = 390; continue _fun0001 }
+ 359:
             var12 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var14];
             var2 = var12.bind(var4)(var2);
             var2 = var2.ThemeContextFlags;
             var2 = var2.REDUCED_CONTRAST_ENABLED;
-            _fun0001_ip = 417; continue _fun0001;
- 388:
+            _fun0001_ip = 419; continue _fun0001;
+ 390:
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
             var12 = var12[var14];
             var12 = var13.bind(var4)(var12);
             var12 = var12.ThemeContextFlags;
             var2 = var12.INCREASED_CONTRAST_ENABLED;
- 417:
+ 419:
             var8 = var3.bind(var10)(var11, var2);
- 423:
+ 425:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;

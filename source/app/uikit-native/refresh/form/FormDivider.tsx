@@ -128,27 +128,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var1);
             var1 = var3.useProfileThemeValues;
             var4 = var1.bind(var3)(var14);
-            if(var6) { _fun0001_ip = 120; continue _fun0001 }
- 112:
+            if(var6) { _fun0001_ip = 121; continue _fun0001 }
+ 113:
             var1 = var10.divider;
-            _fun0001_ip = 126; continue _fun0001;
- 120:
+            _fun0001_ip = 127; continue _fun0001;
+ 121:
             var1 = var10.dividerOuter;
- 126:
+ 127:
             var3 = var1.backgroundColor;
             var1 = null;
             var3 = var1 != var3;
-            if(!var3) { _fun0001_ip = 144; continue _fun0001 }
- 140:
+            if(!var3) { _fun0001_ip = 145; continue _fun0001 }
+ 141:
             var3 = var1 != var7;
- 144:
-            if(!var3) { _fun0001_ip = 151; continue _fun0001 }
- 147:
+ 145:
+            if(!var3) { _fun0001_ip = 152; continue _fun0001 }
+ 148:
             var3 = var1 != var4;
- 151:
+ 152:
             var7 = null;
-            if(!var3) { _fun0001_ip = 211; continue _fun0001 }
- 156:
+            if(!var3) { _fun0001_ip = 212; continue _fun0001 }
+ 157:
             var3 = {};
             var12 = _closure1_slot0;
             var13 = _closure1_slot1;
@@ -162,7 +162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var12.bind(var13)(var11, var4);
             var3['backgroundColor'] = var4;
             var7 = var3;
- 211:
+ 212:
             var11 = _closure1_slot2;
             var4 = var11.useContext;
             var12 = _closure1_slot0;
@@ -173,30 +173,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.RedesignCompatContext;
             var3 = var4.bind(var11)(var3);
             var1 = null;
-            if(var3) { _fun0001_ip = 323; continue _fun0001 }
- 257:
+            if(var3) { _fun0001_ip = 324; continue _fun0001 }
+ 258:
             var4 = _closure1_slot4;
             var3 = _closure1_slot3;
             var2 = {};
-            if(var6) { _fun0001_ip = 278; continue _fun0001 }
- 270:
+            if(var6) { _fun0001_ip = 279; continue _fun0001 }
+ 271:
             var11 = var10.divider;
-            _fun0001_ip = 284; continue _fun0001;
- 278:
+            _fun0001_ip = 285; continue _fun0001;
+ 279:
             var11 = var10.dividerOuter;
- 284:
+ 285:
             var6 = new Array(4);
             var6[0] = var11;
-            if(!var9) { _fun0001_ip = 301; continue _fun0001 }
- 295:
+            if(!var9) { _fun0001_ip = 302; continue _fun0001 }
+ 296:
             var9 = var10.dividerHasIcon;
- 301:
+ 302:
             var6[1] = var9;
             var6[2] = var8;
             var6[3] = var7;
             var2['style'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 323:
+ 324:
             return var1;
         }
     };

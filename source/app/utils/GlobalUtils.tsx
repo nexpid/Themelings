@@ -18,6 +18,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'utils/GlobalUtils.tsx';
     var4 = var5.bind(var6)(var4);
+    var4 = function isDiscordDevelopment() {
+        var1 = false;
+        return var1;
+    };
+    var3['isDiscordDevelopment'] = var4;
     var4 = function assertNever(arg1) {
         var1 = global;
         var3 = var1.Error;

@@ -93,11 +93,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = _closure1_slot2;
         var2 = 7;
         var2 = var16[var2];
-        var3 = var10.bind(var4)(var2);
-        var2 = {};
-        var7 = 'GiftCodeRedeemUseAvatarDecoration';
-        var2['location'] = var7;
-        var2 = var3.bind(var4)(var2);
+        var2 = var10.bind(var4)(var2);
+        var2 = var2.bind(var4)();
         var19 = var2.purchases;
         var2 = 8;
         var2 = var16[var2];

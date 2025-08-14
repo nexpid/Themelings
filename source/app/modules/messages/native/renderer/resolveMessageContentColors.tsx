@@ -15,19 +15,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var7 = var6[var1];
-    var4 = metroImportAll;
-    var1 = undefined;
-    var4 = var4.bind(var1)(var7);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.processColor;
-    var _closure1_slot4 = var4;
-    var4 = 2;
+    var4 = 0;
     var7 = var6[var4];
+    var1 = undefined;
     var10 = var5.bind(var1)(var7);
     var8 = var10.experimental_createToken;
     var7 = function(arg1) {
@@ -37,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.theme;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 3;
+            var1 = 1;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -45,18 +35,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var3)(var5);
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 4;
+            var2 = 2;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
-            if(var1) { _fun0001_ip = 80; continue _fun0001 }
- 67:
+            if(var1) { _fun0001_ip = 81; continue _fun0001 }
+ 68:
             var1 = var2.unsafe_rawColors;
             var1 = var1.PRIMARY_200;
-            _fun0001_ip = 91; continue _fun0001;
- 80:
+            _fun0001_ip = 92; continue _fun0001;
+ 81:
             var2 = var2.colors;
             var1 = var2.INTERACTIVE_NORMAL;
- 91:
+ 92:
             return var1;
         }
     };
@@ -71,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.theme;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 3;
+            var1 = 1;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -79,17 +69,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var3)(var5);
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 4;
+            var2 = 2;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0002_ip = 80; continue _fun0002 }
- 72:
+            if(var1) { _fun0002_ip = 81; continue _fun0002 }
+ 73:
             var1 = var2.PRIMARY_500;
-            _fun0002_ip = 86; continue _fun0002;
- 80:
+            _fun0002_ip = 87; continue _fun0002;
+ 81:
             var1 = var2.WHITE_500;
- 86:
+ 87:
             return var1;
         }
     };
@@ -104,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.theme;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 3;
+            var1 = 1;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -112,18 +102,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var3)(var5);
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 4;
+            var2 = 2;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
-            if(var1) { _fun0003_ip = 80; continue _fun0003 }
- 67:
+            if(var1) { _fun0003_ip = 81; continue _fun0003 }
+ 68:
             var1 = var2.colors;
             var1 = var1.BACKGROUND_SECONDARY;
-            _fun0003_ip = 91; continue _fun0003;
- 80:
+            _fun0003_ip = 92; continue _fun0003;
+ 81:
             var2 = var2.unsafe_rawColors;
             var1 = var2.PRIMARY_700;
- 91:
+ 92:
             return var1;
         }
     };
@@ -138,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.theme;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 3;
+            var1 = 1;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -146,17 +136,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var3)(var5);
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 4;
+            var2 = 2;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0004_ip = 80; continue _fun0004 }
- 72:
+            if(var1) { _fun0004_ip = 81; continue _fun0004 }
+ 73:
             var1 = var2.PRIMARY_630;
-            _fun0004_ip = 86; continue _fun0004;
- 80:
+            _fun0004_ip = 87; continue _fun0004;
+ 81:
             var1 = var2.PRIMARY_300;
- 86:
+ 87:
             return var1;
         }
     };
@@ -171,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.theme;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 3;
+            var1 = 1;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -179,23 +169,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var3)(var5);
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var2 = 4;
+            var2 = 2;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.unsafe_rawColors;
-            if(var1) { _fun0005_ip = 80; continue _fun0005 }
- 72:
+            if(var1) { _fun0005_ip = 81; continue _fun0005 }
+ 73:
             var1 = var2.BRAND_200;
-            _fun0005_ip = 86; continue _fun0005;
- 80:
+            _fun0005_ip = 87; continue _fun0005;
+ 81:
             var1 = var2.BRAND_260;
- 86:
+ 87:
             return var1;
         }
     };
     var13 = var8.bind(var13)(var7);
     var7 = {};
-    var8 = 4;
+    var8 = 2;
     var15 = var6[var8];
     var15 = var9.bind(var1)(var15);
     var15 = var15.colors;
@@ -311,17 +301,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var8.unsafe_rawColors;
     var8 = var8.WHITE_500;
     var7['clipTagTextColor'] = var8;
-    var _closure1_slot5 = var7;
-    var7 = var6[var4];
-    var9 = var5.bind(var1)(var7);
-    var8 = var9.createNativeStyleProperties;
-    var7 = function(arg1) {
+    var _closure1_slot3 = var7;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createNativeStyleProperties;
+    var4 = function(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var1 = {};
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var3 = 4;
+            var3 = 2;
             var4 = var4[var3];
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
@@ -335,130 +325,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.EMBED_BACKGROUND_ALTERNATE;
  52:
             var1['embedBackgroundColor'] = var3;
-            var6 = _closure1_slot5;
-            var7 = var1;
-            var2 = copyDataProperties(var7, var6);
-            return var1;
-        }
-    };
-    var7 = var8.bind(var9)(var7);
-    var _closure1_slot6 = var7;
-    var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyleProperties;
-    var4 = function(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
-            var1 = {};
-            var5 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var3 = 4;
-            var4 = var4[var3];
-            var3 = undefined;
-            var3 = var5.bind(var3)(var4);
-            var4 = var3.colors;
-            var3 = arg1;
-            if(var3) { _fun0007_ip = 46; continue _fun0007 }
- 38:
-            var3 = var4.EMBED_BACKGROUND;
-            _fun0007_ip = 52; continue _fun0007;
- 46:
-            var3 = var4.EMBED_BACKGROUND_ALTERNATE;
- 52:
-            var1['embedBackgroundColor'] = var3;
-            var6 = _closure1_slot5;
+            var6 = _closure1_slot3;
             var7 = var1;
             var2 = copyDataProperties(var7, var6);
             return var1;
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 5;
+    var _closure1_slot4 = var4;
+    var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/messages/native/renderer/resolveMessageContentColors.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function _default(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+    var2 = function _default(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var4 = arguments[1];
             var3 = undefined;
-            if(!(var4 === var3)) { _fun0008_ip = 11; continue _fun0008 }
+            if(!(var4 === var3)) { _fun0007_ip = 11; continue _fun0007 }
  9:
             var4 = false;
  11:
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot4;
             var1 = arg1;
             var1 = var2.bind(var3)(var1, var4);
             return var1;
         }
     };
-    var3['default'] = var4;
-    var2 = function useMessageContentColors(arg1) {
-        var5 = _closure1_slot7;
-        var4 = undefined;
-        var3 = arg1;
-        var5 = var5.bind(var4)(var3);
-        var _closure2_slot0 = var5;
-        var4 = _closure1_slot3;
-        var3 = var4.useMemo;
-        var2 = new Array(1);
-        var2[0] = var5;
-        var1 = function() {
-            var1 = global;
-            var3 = var1.Object;
-            var2 = var3.entries;
-            var1 = _closure2_slot0;
-            var4 = var2.bind(var3)(var1);
-            var3 = var4.reduce;
-            var2 = function(arg1, arg2) {
-                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
- 0:
-                    var1 = arg1;
-                    var7 = arg2;
-                    var2 = var7[Symbol.iterator];
-                    var7 = var2().next;
-                    var4 = var7().value;
-                    var3 = var2;
-                    var5 = undefined;
-                    var6 = var3 === var5;
-                    var3 = undefined;
-                    if(var6) { _fun0009_ip = 30; continue _fun0009 }
- 27:
-                    var3 = var4;
- 30:
-                    var4 = undefined;
-                    if(var6) { _fun0009_ip = 60; continue _fun0009 }
- 35:
-                    var8 = var7().value;
-                    var7 = var2;
-                    var7 = var7 === var5;
-                    var4 = undefined;
-                    var6 = var7;
-                    if(var7) { _fun0009_ip = 60; continue _fun0009 }
- 54:
-                    var4 = var8;
-                    var6 = var7;
- 60:
-                    if(var6) { _fun0009_ip = 66; continue _fun0009 }
- 63:
-                    var2.return();
- 66:
-                    var2 = _closure1_slot4;
-                    var2 = var2.bind(var5)(var4);
-                    var1[var3] = var2;
-                    return var1;
-                }
-            };
-            var1 = {};
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        };
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var3['useMessageContentColors'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

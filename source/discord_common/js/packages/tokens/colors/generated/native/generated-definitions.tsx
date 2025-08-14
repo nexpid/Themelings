@@ -2013,10 +2013,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = {'raw': 'PRIMARY_200', 'opacity': 1};
     var8[var15] = var14;
     var15 = var9.MIDNIGHT;
-    var14 = {'raw': 'PRIMARY_600', 'opacity': 1};
+    var14 = {'raw': 'PLUM_23', 'opacity': 1};
     var8[var15] = var14;
     var15 = var9.DARKER;
-    var14 = {'raw': 'PRIMARY_600', 'opacity': 1};
+    var14 = {'raw': 'PLUM_18', 'opacity': 1};
     var8[var15] = var14;
     var14 = {};
     var15 = {'color': 'WHITE_500', 'opacity': 0.25};

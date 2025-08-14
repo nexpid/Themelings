@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'input-device-sample-rate-changed';
     var2['InputDeviceSampleRateChanged'] = var4;
     var _closure1_slot9 = var2;
-    var4 = 11;
+    var4 = 12;
     var4 = var7[var4];
     var5 = var5.bind(var1)(var4);
     var4 = function(arg1) {
@@ -157,34 +157,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var6 = this;
                 var1 = _closure1_slot4;
-                var5 = _closure2_slot0;
-                var4 = undefined;
-                var1 = var1.bind(var4)(var6, var5);
+                var4 = _closure2_slot0;
+                var5 = undefined;
+                var1 = var1.bind(var5)(var6, var4);
                 var1 = _closure1_slot7;
-                var11 = var1.bind(var4)(var5);
-                var5 = _closure1_slot6;
+                var11 = var1.bind(var5)(var4);
+                var4 = _closure1_slot6;
                 var1 = _closure1_slot11;
-                var1 = var1.bind(var4)();
+                var1 = var1.bind(var5)();
                 if(var1) { _fun0003_ip = 64; continue _fun0003 }
  51:
                 var1 = var11.apply;
-                var1 = var1.bind(var11)(var6, var4);
+                var1 = var1.bind(var11)(var6, var5);
                 _fun0003_ip = 102; continue _fun0003;
  64:
                 var7 = global;
                 var10 = var7.Reflect;
                 var9 = var10.construct;
                 var7 = _closure1_slot7;
-                var7 = var7.bind(var4)(var6);
+                var7 = var7.bind(var5)(var6);
                 var8 = var7.constructor;
                 var7 = new Array(0);
                 var1 = var9.bind(var10)(var11, var7, var8);
  102:
-                var1 = var5.bind(var4)(var6, var1);
+                var1 = var4.bind(var5)(var6, var1);
                 var _closure3_slot0 = var1;
-                var5 = arg1;
-                var1['connection'] = var5;
-                var5 = function(arg1, arg2) {
+                var4 = arg1;
+                var1['connection'] = var4;
+                var4 = function(arg1, arg2) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                         var2 = arg1;
@@ -274,8 +274,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var1['sampleAudioDevice'] = var5;
-                var5 = function(arg1) {
+                var1['sampleAudioDevice'] = var4;
+                var4 = function(arg1) {
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                         var3 = arg1;
@@ -330,8 +330,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var1['appendTargetRates'] = var5;
-                var3 = function(arg1) {
+                var1['appendTargetRates'] = var4;
+                var2 = function(arg1) {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                         var2 = arg1;
@@ -388,105 +388,130 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var12 = function(arg1) {
                             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                                var3 = arg1;
-                                var2 = var3.type;
-                                var1 = 'audio';
-                                if(!(var1 === var2)) { _fun0007_ip = 320; continue _fun0007 }
+                                var1 = arg1;
+                                var3 = var1.type;
+                                var2 = 'audio';
+                                if(!(var2 === var3)) { _fun0007_ip = 420; continue _fun0007 }
  19:
-                                var1 = var3.bitrateTarget;
-                                var5 = null;
-                                var6 = var5 != var1;
-                                var2 = 0;
-                                if(!var6) { _fun0007_ip = 39; continue _fun0007 }
+                                var2 = var1.bitrateTarget;
+                                var6 = null;
+                                var4 = var6 != var2;
+                                var3 = 0;
+                                if(!var4) { _fun0007_ip = 39; continue _fun0007 }
  36:
-                                var2 = var1;
+                                var3 = var2;
  39:
-                                _closure4_slot1 = var2;
-                                var2 = _closure3_slot0;
-                                var1 = {};
-                                var9 = var2.outboundStats;
-                                var10 = var1;
-                                var6 = copyDataProperties(var10, var9);
-                                var7 = var3.packetsSent;
-                                var6 = 'packetsSent';
-                                var1[var6] = var7;
-                                var7 = var3.bytesSent;
-                                var6 = 'bytesSent';
-                                var1[var6] = var7;
-                                var6 = var3.packetsLost;
-                                var8 = var5 != var6;
-                                var7 = 0;
-                                if(!var8) { _fun0007_ip = 116; continue _fun0007 }
+                                _closure4_slot1 = var3;
+                                var4 = _closure3_slot0;
+                                var3 = {};
+                                var10 = var4.outboundStats;
+                                var11 = var3;
+                                var5 = copyDataProperties(var11, var10);
+                                var8 = var1.packetsSent;
+                                var5 = 'packetsSent';
+                                var3[var5] = var8;
+                                var8 = var1.bytesSent;
+                                var5 = 'bytesSent';
+                                var3[var5] = var8;
+                                var5 = var1.packetsLost;
+                                var9 = var6 != var5;
+                                var8 = 0;
+                                if(!var9) { _fun0007_ip = 116; continue _fun0007 }
  113:
-                                var7 = var6;
+                                var8 = var5;
  116:
-                                var6 = 'packetsLost';
-                                var1[var6] = var7;
-                                var6 = var3.passthroughCount;
-                                var8 = var5 != var6;
-                                var7 = 0;
-                                if(!var8) { _fun0007_ip = 143; continue _fun0007 }
+                                var5 = 'packetsLost';
+                                var3[var5] = var8;
+                                var5 = var1.passthroughCount;
+                                var9 = var6 != var5;
+                                var8 = 0;
+                                if(!var9) { _fun0007_ip = 143; continue _fun0007 }
  140:
-                                var7 = var6;
+                                var8 = var5;
  143:
-                                var6 = 'passthroughCount';
-                                var1[var6] = var7;
-                                var6 = var3.encryptSuccessCount;
-                                var8 = var5 != var6;
-                                var7 = 0;
-                                if(!var8) { _fun0007_ip = 170; continue _fun0007 }
+                                var5 = 'passthroughCount';
+                                var3[var5] = var8;
+                                var5 = var1.encryptSuccessCount;
+                                var9 = var6 != var5;
+                                var8 = 0;
+                                if(!var9) { _fun0007_ip = 170; continue _fun0007 }
  167:
-                                var7 = var6;
+                                var8 = var5;
  170:
-                                var6 = 'encryptSuccessCount';
-                                var1[var6] = var7;
-                                var6 = var3.encryptFailureCount;
-                                var8 = var5 != var6;
-                                var7 = 0;
-                                if(!var8) { _fun0007_ip = 197; continue _fun0007 }
+                                var5 = 'encryptSuccessCount';
+                                var3[var5] = var8;
+                                var5 = var1.encryptFailureCount;
+                                var9 = var6 != var5;
+                                var8 = 0;
+                                if(!var9) { _fun0007_ip = 197; continue _fun0007 }
  194:
-                                var7 = var6;
+                                var8 = var5;
  197:
-                                var6 = 'encryptFailureCount';
-                                var1[var6] = var7;
-                                var6 = var3.encryptDuration;
-                                var8 = var5 != var6;
-                                var7 = 0;
-                                if(!var8) { _fun0007_ip = 224; continue _fun0007 }
+                                var5 = 'encryptFailureCount';
+                                var3[var5] = var8;
+                                var5 = var1.encryptDuration;
+                                var9 = var6 != var5;
+                                var8 = 0;
+                                if(!var9) { _fun0007_ip = 224; continue _fun0007 }
  221:
-                                var7 = var6;
+                                var8 = var5;
  224:
-                                var6 = 'encryptDuration';
-                                var1[var6] = var7;
-                                var6 = var3.encryptAttempts;
-                                var8 = var5 != var6;
-                                var7 = 0;
-                                if(!var8) { _fun0007_ip = 251; continue _fun0007 }
+                                var5 = 'encryptDuration';
+                                var3[var5] = var8;
+                                var5 = var1.encryptAttempts;
+                                var9 = var6 != var5;
+                                var8 = 0;
+                                if(!var9) { _fun0007_ip = 251; continue _fun0007 }
  248:
-                                var7 = var6;
+                                var8 = var5;
  251:
-                                var6 = 'encryptAttempts';
-                                var1[var6] = var7;
-                                var6 = var3.encryptMaxAttempts;
-                                var8 = var5 != var6;
-                                var7 = 0;
-                                if(!var8) { _fun0007_ip = 278; continue _fun0007 }
+                                var5 = 'encryptAttempts';
+                                var3[var5] = var8;
+                                var5 = var1.encryptMaxAttempts;
+                                var9 = var6 != var5;
+                                var8 = 0;
+                                if(!var9) { _fun0007_ip = 278; continue _fun0007 }
  275:
-                                var7 = var6;
+                                var8 = var5;
  278:
-                                var6 = 'encryptMaxAttempts';
-                                var1[var6] = var7;
-                                var3 = var3.encryptMissingKeyCount;
-                                var5 = var5 != var3;
-                                var4 = 0;
-                                if(!var5) { _fun0007_ip = 305; continue _fun0007 }
+                                var5 = 'encryptMaxAttempts';
+                                var3[var5] = var8;
+                                var5 = var1.encryptMissingKeyCount;
+                                var8 = var6 != var5;
+                                var7 = 0;
+                                if(!var8) { _fun0007_ip = 305; continue _fun0007 }
  302:
-                                var4 = var3;
+                                var7 = var5;
  305:
-                                var3 = 'encryptMissingKeyCount';
-                                var1[var3] = var4;
-                                var2['outboundStats'] = var1;
- 320:
+                                var5 = 'encryptMissingKeyCount';
+                                var3[var5] = var7;
+                                var4['outboundStats'] = var3;
+                                var4 = global;
+                                var7 = var4.Boolean;
+                                var5 = var1.audioDetected;
+                                var3 = undefined;
+                                var5 = var7.bind(var3)(var5);
+                                var3 = true;
+                                var3 = var3 === var5;
+                                if(!var3) { _fun0007_ip = 360; continue _fun0007 }
+ 350:
+                                var5 = var1.audioLevel;
+                                var3 = var6 != var5;
+ 360:
+                                if(!var3) { _fun0007_ip = 420; continue _fun0007 }
+ 363:
+                                var2 = _closure3_slot0;
+                                var2 = var2.outboundStats;
+                                var3 = var2.speakingAudioLevel;
+                                var2 = var3.addSample;
+                                var5 = var4.Math;
+                                var4 = var5.log;
+                                var1 = var1.audioLevel;
+                                var4 = var4.bind(var5)(var1);
+                                var1 = 20;
+                                var1 = var1 * var4;
+                                var1 = var2.bind(var3)(var1);
+ 420:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -989,30 +1014,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var1['sampleStats'] = var3;
-                var3 = _closure1_slot1;
-                var5 = _closure1_slot2;
+                var1['sampleStats'] = var2;
+                var4 = _closure1_slot1;
+                var6 = _closure1_slot2;
                 var2 = 8;
-                var2 = var5[var2];
-                var2 = var3.bind(var4)(var2);
-                var6 = var2.prototype;
-                var6 = Object.create(var6, {constructor: {value: var2}});
-                var15 = var6;
+                var2 = var6[var2];
+                var2 = var4.bind(var5)(var2);
+                var7 = var2.prototype;
+                var7 = Object.create(var7, {constructor: {value: var2}});
+                var15 = var7;
                 var2 = new var15[var2](var14);
-                var2 = var2 instanceof Object ? var2 : var6;
+                var2 = var2 instanceof Object ? var2 : var7;
                 var1['networkQuality'] = var2;
                 var2 = 9;
-                var2 = var5[var2];
-                var2 = var3.bind(var4)(var2);
-                var3 = var2.prototype;
-                var3 = Object.create(var3, {constructor: {value: var2}});
-                var15 = var3;
+                var2 = var6[var2];
+                var2 = var4.bind(var5)(var2);
+                var4 = var2.prototype;
+                var4 = Object.create(var4, {constructor: {value: var2}});
+                var15 = var4;
                 var2 = new var15[var2](var14);
-                var2 = var2 instanceof Object ? var2 : var3;
+                var2 = var2 instanceof Object ? var2 : var4;
                 var1['systemResources'] = var2;
                 var2 = {};
                 var1['inboundStats'] = var2;
                 var2 = {'packetsSent': 0, 'bytesSent': 0, 'packetsLost': 0, 'passthroughCount': 0, 'encryptSuccessCount': 0, 'encryptFailureCount': 0, 'encryptDuration': 0, 'encryptAttempts': 0, 'encryptMaxAttempts': 0, 'encryptMissingKeyCount': 0, 'bytesAvailable': 0, 'bytesTarget': 0, 'previousTimestampMs': 0, 'aggregationDurationMs': 0};
+                var4 = _closure1_slot0;
+                var3 = 10;
+                var3 = var6[var3];
+                var3 = var4.bind(var5)(var3);
+                var3 = var3.Histogram;
+                var4 = var3.prototype;
+                var4 = Object.create(var4, {constructor: {value: var3}});
+                var15 = var4;
+                var3 = new var15[var3](var14);
+                var3 = var3 instanceof Object ? var3 : var4;
+                var2['speakingAudioLevel'] = var3;
                 var1['outboundStats'] = var2;
                 var2 = {'listening': 0, 'speaking': 0, 'participation': 0, 'connected': 0};
                 var1['duration'] = var2;
@@ -1040,7 +1076,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.on;
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var3 = var3[var1];
             var1 = undefined;
             var3 = var6.bind(var1)(var3);
@@ -1051,7 +1087,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(16);
+        var1 = new Array(17);
         var1[0] = var5;
         var5 = {};
         var7 = 'stop';
@@ -1062,7 +1098,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.off;
             var6 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var3 = var3[var1];
             var1 = undefined;
             var3 = var6.bind(var1)(var3);
@@ -1775,6 +1811,61 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[12] = var5;
         var5 = {};
+        var7 = 'getAudioLevelStats';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = this;
+            var1 = var1.outboundStats;
+            var3 = var1.speakingAudioLevel;
+            var2 = var3.getReport;
+            var1 = [1, 5, 10, 25, 50, 75, 90, 95, 99];
+            var2 = var2.bind(var3)(var1);
+            var1 = {};
+            var4 = var2.percentiles;
+            var3 = 1;
+            var3 = var4[var3];
+            var1['outbound_audio_level_db_p1'] = var3;
+            var4 = var2.percentiles;
+            var3 = 5;
+            var3 = var4[var3];
+            var1['outbound_audio_level_db_p5'] = var3;
+            var4 = var2.percentiles;
+            var3 = 10;
+            var3 = var4[var3];
+            var1['outbound_audio_level_db_p10'] = var3;
+            var4 = var2.percentiles;
+            var3 = 25;
+            var3 = var4[var3];
+            var1['outbound_audio_level_db_p25'] = var3;
+            var4 = var2.percentiles;
+            var3 = 50;
+            var3 = var4[var3];
+            var1['outbound_audio_level_db_p50'] = var3;
+            var4 = var2.percentiles;
+            var3 = 75;
+            var3 = var4[var3];
+            var1['outbound_audio_level_db_p75'] = var3;
+            var4 = var2.percentiles;
+            var3 = 90;
+            var3 = var4[var3];
+            var1['outbound_audio_level_db_p90'] = var3;
+            var4 = var2.percentiles;
+            var3 = 95;
+            var3 = var4[var3];
+            var1['outbound_audio_level_db_p95'] = var3;
+            var4 = var2.percentiles;
+            var3 = 99;
+            var3 = var4[var3];
+            var1['outbound_audio_level_db_p99'] = var3;
+            var3 = var2.max;
+            var1['outbound_audio_level_db_max'] = var3;
+            var2 = var2.mean;
+            var1['outbound_audio_level_db_mean'] = var2;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[13] = var5;
+        var5 = {};
         var7 = 'getPeriodicStats';
         var5['key'] = var7;
         var7 = function value() {
@@ -2071,7 +2162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[13] = var5;
+        var1[14] = var5;
         var5 = {};
         var7 = 'calculateMos';
         var5['key'] = var7;
@@ -2112,7 +2203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[14] = var5;
+        var1[15] = var5;
         var5 = {};
         var7 = 'calculateR';
         var5['key'] = var7;
@@ -2146,7 +2237,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var6;
-        var1[15] = var5;
+        var1[16] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -2178,7 +2269,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot10 = var5;
-    var5 = 12;
+    var5 = 13;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

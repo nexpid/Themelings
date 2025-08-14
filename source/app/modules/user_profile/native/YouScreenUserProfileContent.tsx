@@ -344,11 +344,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             var1 = var29 != var30;
             var32 = undefined;
-            if(!var1) { _fun0001_ip = 525; continue _fun0001 }
- 516:
+            if(!var1) { _fun0001_ip = 527; continue _fun0001 }
+ 518:
             var1 = var30.label;
             var32 = var1.bind(var30)();
- 525:
+ 527:
             var3 = _closure1_slot7;
             var11 = _closure1_slot1;
             var33 = _closure1_slot2;
@@ -402,8 +402,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['prompt'] = var30;
             var10 = var14.bind(var4)(var11, var10);
             var8[1] = var10;
-            if(!var9) { _fun0001_ip = 791; continue _fun0001 }
- 749:
+            if(!var9) { _fun0001_ip = 793; continue _fun0001 }
+ 751:
             var14 = _closure1_slot7;
             var11 = _closure1_slot1;
             var30 = _closure1_slot2;
@@ -414,7 +414,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['targetRef'] = var20;
             var10['scrollPosition'] = var15;
             var9 = var14.bind(var4)(var11, var10);
- 791:
+ 793:
             var8[2] = var9;
             var11 = _closure1_slot8;
             var10 = _closure1_slot5;
@@ -431,10 +431,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14['user'] = var17;
             var30 = var29 == var23;
             var29 = undefined;
-            if(var30) { _fun0001_ip = 860; continue _fun0001 }
- 854:
+            if(var30) { _fun0001_ip = 862; continue _fun0001 }
+ 856:
             var29 = var23.pronouns;
- 860:
+ 862:
             var14['pronouns'] = var29;
             var14['badges'] = var28;
             var14['badgeContainerBackground'] = var19;

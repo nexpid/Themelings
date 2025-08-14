@@ -108,21 +108,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = {};
     var14 = function getAnimationData() {
         var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 8;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var1 = _closure1_slot2;
+        var2 = 9;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 8;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
     var13['getAnimationData'] = var14;
     var14 = function getGlowAnimationData() {
         var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 9;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var1 = _closure1_slot2;
+        var2 = 9;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 10;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
     var13['getGlowAnimationData'] = var14;
@@ -137,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg2;
             if(var1) { _fun0001_ip = 26; continue _fun0001 }
  17:
-            var1 = 10;
+            var1 = 11;
             var2 = var4[var1];
             _fun0001_ip = 33; continue _fun0001;
  26:
@@ -201,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var7['cta'] = var13;
-    var13 = 11;
+    var13 = 12;
     var13 = var9[var13];
     var13 = var12.bind(var1)(var13);
     var13 = var13.GIFTING_PROMOTION_COACHMARK;
@@ -259,7 +267,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = function getAnimatedImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 10;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -311,7 +319,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var7['body'] = var11;
     var7['gradientConfig'] = var4;
-    var11 = 12;
+    var11 = 13;
     var11 = var9[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.NEUTRAL_71;
@@ -364,7 +372,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var7['rewardCollectedText'] = var10;
     var2['giftPurchaseConfirmation'] = var7;
-    var7 = 13;
+    var7 = 14;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;

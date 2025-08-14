@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var1.hasJoinedEmojiSourceGuild;
                 var11 = var1.emoji;
                 var1 = var1.isFetching;
-                if(var1) { _fun0002_ip = 285; continue _fun0002 }
+                if(var1) { _fun0002_ip = 287; continue _fun0002 }
  113:
                 var2 = _closure1_slot0;
                 var16 = _closure1_slot2;
@@ -202,7 +202,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
- 285:
+ 287:
                 var1 = null;
                 return var1;
             }

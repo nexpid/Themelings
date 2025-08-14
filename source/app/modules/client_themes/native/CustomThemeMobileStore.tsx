@@ -201,8 +201,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var5 = var2.theme;
             var1 = null;
-            if(!(var1 == var5)) { _fun0006_ip = 51; continue _fun0006 }
- 14:
+            if(!(var1 == var5)) { _fun0006_ip = 52; continue _fun0006 }
+ 15:
             var6 = _closure1_slot0;
             var4 = _closure1_slot1;
             var3 = 9;
@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.bind(var3)(var4);
             var3 = var3.Theme;
             var5 = var3.UNSET;
- 51:
+ 52:
             var4 = _closure1_slot11;
             var4 = var4[var5];
             _closure1_slot2 = var4;
@@ -219,10 +219,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1 == var4;
             var1 = undefined;
             var2 = undefined;
-            if(var5) { _fun0006_ip = 89; continue _fun0006 }
- 83:
+            if(var5) { _fun0006_ip = 90; continue _fun0006 }
+ 84:
             var2 = var4.customUserThemeSettings;
- 89:
+ 90:
             _closure1_slot3 = var2;
             return var1;
         }
@@ -283,13 +283,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = arg1;
                 var4 = this;
                 var2 = null;
-                if(!(var2 != var1)) { _fun0008_ip = 34; continue _fun0008 }
+                if(!(var2 != var1)) { _fun0008_ip = 35; continue _fun0008 }
  12:
                 var3 = var1.theme;
                 _closure1_slot2 = var3;
                 var1 = var1.customTheme;
                 _closure1_slot3 = var1;
- 34:
+ 35:
                 var3 = var4.waitFor;
                 var2 = _closure1_slot10;
                 var5 = _closure1_slot9;
@@ -316,19 +316,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = undefined;
                 var4 = var2.bind(var1)();
                 var2 = {};
-                if(var4) { _fun0009_ip = 32; continue _fun0009 }
+                if(var4) { _fun0009_ip = 33; continue _fun0009 }
  18:
                 var2['theme'] = var1;
                 var2['customTheme'] = var1;
                 var1 = var2;
-                _fun0009_ip = 52; continue _fun0009;
- 32:
+                _fun0009_ip = 54; continue _fun0009;
+ 33:
                 var4 = _closure1_slot2;
                 var2['theme'] = var4;
                 var3 = _closure1_slot3;
                 var2['customTheme'] = var3;
                 var1 = var2;
- 52:
+ 54:
                 return var1;
             }
         };

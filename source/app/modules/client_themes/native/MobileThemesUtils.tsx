@@ -61,11 +61,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var2 = var6 == var3;
             var1 = null;
-            if(var2) { _fun0001_ip = 161; continue _fun0001 }
+            if(var2) { _fun0001_ip = 162; continue _fun0001 }
  93:
             var2 = var6 == var4;
             var1 = null;
-            if(var2) { _fun0001_ip = 161; continue _fun0001 }
+            if(var2) { _fun0001_ip = 162; continue _fun0001 }
  102:
             var2 = {};
             var7 = _closure1_slot0;
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['theme'] = var4;
             var2['customThemeSettings'] = var3;
             var1 = var2;
- 161:
+ 162:
             return var1;
         }
     };
@@ -173,7 +173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5.hasCustomTheme;
             var5 = var1.bind(var5)();
             var1 = null;
-            if(!var5) { _fun0003_ip = 150; continue _fun0003 }
+            if(!var5) { _fun0003_ip = 151; continue _fun0003 }
  63:
             var5 = {};
             var8 = _closure1_slot0;
@@ -195,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var7)();
             var5['customThemeSettings'] = var6;
             var1 = var5;
- 150:
+ 151:
             var1 = var2.bind(var4)(var1, var3);
             return var1;
         }

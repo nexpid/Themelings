@@ -1146,16 +1146,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['style'] = var12;
             var13 = !var32;
             var12 = !var13;
-            if(!var13) { _fun0001_ip = 1055; continue _fun0001 }
- 1053:
+            if(!var13) { _fun0001_ip = 1056; continue _fun0001 }
+ 1054:
             var12 = undefined;
- 1055:
+ 1056:
             var10['accessibilityElementsHidden'] = var12;
             var12 = undefined;
-            if(!var32) { _fun0001_ip = 1071; continue _fun0001 }
- 1065:
+            if(!var32) { _fun0001_ip = 1072; continue _fun0001 }
+ 1066:
             var12 = 'no-hide-descendants';
- 1071:
+ 1072:
             var10['importantForAccessibility'] = var12;
             var12 = new Array(2);
             var12[0] = var11;
@@ -1188,34 +1188,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = _closure1_slot12;
             var22 = var15.MIDNIGHT;
             var15 = undefined;
-            if(!(var17 === var22)) { _fun0001_ip = 1218; continue _fun0001 }
- 1212:
+            if(!(var17 === var22)) { _fun0001_ip = 1219; continue _fun0001 }
+ 1213:
             var15 = var20.midnightBorder;
- 1218:
+ 1219:
             var14[2] = var15;
             var15 = undefined;
-            if(var16) { _fun0001_ip = 1249; continue _fun0001 }
- 1227:
+            if(var16) { _fun0001_ip = 1250; continue _fun0001 }
+ 1228:
             var16 = _closure1_slot12;
             var16 = var16.MIDNIGHT;
             var15 = undefined;
-            if(!(var17 === var16)) { _fun0001_ip = 1249; continue _fun0001 }
- 1243:
+            if(!(var17 === var16)) { _fun0001_ip = 1250; continue _fun0001 }
+ 1244:
             var15 = var20.midnightRightOverflow;
- 1249:
+ 1250:
             var14[3] = var15;
             var11['style'] = var14;
             var14 = !var32;
-            if(var14) { _fun0001_ip = 1265; continue _fun0001 }
- 1263:
+            if(var14) { _fun0001_ip = 1266; continue _fun0001 }
+ 1264:
             var14 = undefined;
- 1265:
+ 1266:
             var11['accessibilityElementsHidden'] = var14;
             var14 = 'no-hide-descendants';
-            if(!var32) { _fun0001_ip = 1281; continue _fun0001 }
- 1279:
+            if(!var32) { _fun0001_ip = 1282; continue _fun0001 }
+ 1280:
             var14 = undefined;
- 1281:
+ 1282:
             var11['importantForAccessibility'] = var14;
             var17 = _closure1_slot13;
             var16 = _closure1_slot1;

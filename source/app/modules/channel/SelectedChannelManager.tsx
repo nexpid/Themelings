@@ -306,7 +306,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
-            var2 = {'type': 'VOICE_CHANNEL_SELECT', 'channelId': null, 'guildId': null, 'video': false, 'currentVoiceChannelId': null};
+            var2 = {'type': 'VOICE_CHANNEL_SELECT', 'channelId': null, 'guildId': null, 'video': false, 'currentVoiceChannelId': null, 'joinVoiceId': null};
             var2 = var3.bind(var4)(var2);
             return var1;
         };

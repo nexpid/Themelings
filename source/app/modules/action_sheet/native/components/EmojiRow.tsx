@@ -184,13 +184,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.unsafe_rawColors;
-            if(var3) { _fun0002_ip = 153; continue _fun0002 }
- 145:
+            if(var3) { _fun0002_ip = 154; continue _fun0002 }
+ 146:
             var9 = var1.PRIMARY_300;
-            _fun0002_ip = 159; continue _fun0002;
- 153:
+            _fun0002_ip = 160; continue _fun0002;
+ 154:
             var9 = var1.PRIMARY_500;
- 159:
+ 160:
             _closure2_slot3 = var9;
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -234,15 +234,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var17[var10];
             var10 = var14.bind(var4)(var10);
             var14 = var10.t;
-            if(var7) { _fun0002_ip = 360; continue _fun0002 }
- 347:
+            if(var7) { _fun0002_ip = 361; continue _fun0002 }
+ 348:
             var10 = var14.lfIHs7;
             var10 = var15.bind(var16)(var10);
-            _fun0002_ip = 373; continue _fun0002;
- 360:
+            _fun0002_ip = 374; continue _fun0002;
+ 361:
             var14 = var14.Kfcszs;
             var10 = var15.bind(var16)(var14);
- 373:
+ 374:
             var5['accessibilityLabel'] = var10;
             var10 = function onPress() {
                 var8 = _closure1_slot0;
@@ -277,13 +277,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[1] = var13;
             var5['style'] = var10;
             var10 = _closure1_slot9;
-            if(var7) { _fun0002_ip = 437; continue _fun0002 }
- 423:
+            if(var7) { _fun0002_ip = 438; continue _fun0002 }
+ 424:
             var7 = {};
             var7['color'] = var9;
             var7 = var10.bind(var4)(var8, var7);
-            _fun0002_ip = 532; continue _fun0002;
- 437:
+            _fun0002_ip = 533; continue _fun0002;
+ 438:
             var9 = _closure1_slot1;
             var15 = _closure1_slot2;
             var8 = 21;
@@ -360,7 +360,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var8['children'] = var11;
             var7 = var10.bind(var4)(var9, var8);
- 532:
+ 533:
             var5['children'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;

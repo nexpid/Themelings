@@ -408,8 +408,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['height'] = var11;
             var19['canvasContainer'] = var1;
             var1 = null;
-            if(var2) { _fun0001_ip = 1609; continue _fun0001 }
- 1049:
+            if(var2) { _fun0001_ip = 1625; continue _fun0001 }
+ 1063:
             var4 = _closure1_slot8;
             var3 = _closure1_slot5;
             var2 = {};
@@ -433,8 +433,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.canvasStyle;
             var17['style'] = var19;
             var21 = null;
-            if(!var20) { _fun0001_ip = 1223; continue _fun0001 }
- 1147:
+            if(!var20) { _fun0001_ip = 1237; continue _fun0001 }
+ 1161:
             var31 = _closure1_slot7;
             var22 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -453,12 +453,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var32 = 'white';
             var19['color'] = var32;
             var21 = var31.bind(var5)(var22, var19);
- 1223:
+ 1237:
             var19 = new Array(3);
             var19[0] = var21;
             var7 = null;
-            if(!var20) { _fun0001_ip = 1304; continue _fun0001 }
- 1236:
+            if(!var20) { _fun0001_ip = 1318; continue _fun0001 }
+ 1250:
             var22 = _closure1_slot7;
             var21 = _closure1_slot0;
             var20 = _closure1_slot2;
@@ -475,7 +475,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20['r'] = var24;
             var20['color'] = var23;
             var7 = var22.bind(var5)(var21, var20);
- 1304:
+ 1318:
             var19[1] = var7;
             var22 = _closure1_slot8;
             var27 = _closure1_slot0;
@@ -548,7 +548,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1609:
+ 1625:
             return var1;
         }
     };

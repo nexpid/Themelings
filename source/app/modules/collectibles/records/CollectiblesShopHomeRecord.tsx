@@ -205,8 +205,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = null;
                 var5 = var2 == var6;
                 var2 = undefined;
-                if(var5) { _fun0001_ip = 133; continue _fun0001 }
- 118:
+                if(var5) { _fun0001_ip = 135; continue _fun0001 }
+ 120:
                 var5 = var6.map;
                 var4 = function(arg1) {
                     var3 = _closure1_slot5;
@@ -216,8 +216,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var5.bind(var6)(var4);
- 133:
-                var3['user_discounts'] = var2;
+ 135:
+                var3['userDiscounts'] = var2;
                 return var1;
             }
         };

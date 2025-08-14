@@ -140,13 +140,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot4;
             var1 = undefined;
             var3 = var3.bind(var1)(var7);
-            if(var6) { _fun0002_ip = 177; continue _fun0002 }
- 45:
-            if(var4) { _fun0002_ip = 149; continue _fun0002 }
- 48:
+            if(var6) { _fun0002_ip = 178; continue _fun0002 }
+ 46:
+            if(var4) { _fun0002_ip = 150; continue _fun0002 }
+ 49:
             var4 = var5.mentioned;
-            if(var4) { _fun0002_ip = 121; continue _fun0002 }
- 57:
+            if(var4) { _fun0002_ip = 122; continue _fun0002 }
+ 58:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 4;
@@ -155,40 +155,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.hasEphemeralAppearance;
             var2 = var2.bind(var4)(var5);
             var1 = undefined;
-            if(!var2) { _fun0002_ip = 119; continue _fun0002 }
- 93:
+            if(!var2) { _fun0002_ip = 120; continue _fun0002 }
+ 94:
             var2 = {};
             var4 = var3.ephemeralBackgroundColor;
             var2['backgroundColor'] = var4;
             var4 = var3.ephemeralGutterColor;
             var2['gutterColor'] = var4;
             var1 = var2;
- 119:
-            _fun0002_ip = 147; continue _fun0002;
- 121:
+ 120:
+            _fun0002_ip = 148; continue _fun0002;
+ 122:
             var2 = {};
             var4 = var3.mentionedBackgroundColor;
             var2['backgroundColor'] = var4;
             var4 = var3.mentionedGutterColor;
             var2['gutterColor'] = var4;
             var1 = var2;
- 147:
-            _fun0002_ip = 175; continue _fun0002;
- 149:
+ 148:
+            _fun0002_ip = 176; continue _fun0002;
+ 150:
             var2 = {};
             var4 = var3.automodBlockedBackgroundColor;
             var2['backgroundColor'] = var4;
             var4 = var3.automodBlockedGutterColor;
             var2['gutterColor'] = var4;
             var1 = var2;
- 175:
-            _fun0002_ip = 192; continue _fun0002;
- 177:
+ 176:
+            _fun0002_ip = 193; continue _fun0002;
+ 178:
             var2 = {};
             var3 = var3.editingColor;
             var2['backgroundColor'] = var3;
             var1 = var2;
- 192:
+ 193:
             return var1;
         }
     };

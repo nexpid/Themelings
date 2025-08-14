@@ -1494,10 +1494,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CHAT_WALLPAPERS_DM_LIST_COACHMARK'] = var2;
     var1 = 'CHAT_WALLPAPERS_DM_LIST_COACHMARK';
     var4[var2] = var1;
-    var2 = 527;
-    var4['EXPIRING_STATUS_COACHMARK'] = var2;
-    var1 = 'EXPIRING_STATUS_COACHMARK';
-    var4[var2] = var1;
     var2 = 528;
     var4['CHAT_WALLPAPERS_TOOLBAR_ENTRYPOINT_BADGE'] = var2;
     var1 = 'CHAT_WALLPAPERS_TOOLBAR_ENTRYPOINT_BADGE';

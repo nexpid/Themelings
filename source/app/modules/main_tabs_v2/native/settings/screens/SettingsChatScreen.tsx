@@ -244,28 +244,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['cardIcon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
-    var4 = 21;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/main_tabs_v2/native/settings/screens/SettingsChatScreen.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function SettingsChatScreen() {
-        var2 = _closure1_slot0;
-        var7 = _closure1_slot2;
-        var4 = 18;
-        var5 = var7[var4];
-        var4 = undefined;
-        var6 = var2.bind(var4)(var5);
-        var5 = var6.useCanUseCustomChatRenderer;
-        var5 = var5.bind(var6)();
-        var11 = var5.canUseRenderer;
-        var _closure2_slot0 = var11;
-        var10 = var5.forceUseRenderer;
-        var _closure2_slot1 = var10;
-        var9 = _closure1_slot3;
-        var8 = var9.useMemo;
-        var6 = function() {
+        var5 = _closure1_slot3;
+        var4 = var5.useMemo;
+        var3 = function() {
             var2 = {};
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -469,47 +457,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[8] = var2;
             return var1;
         };
-        var5 = new Array(0);
-        var6 = var8.bind(var9)(var6, var5);
-        var8 = var9.useMemo;
-        var5 = new Array(2);
-        var5[0] = var11;
-        var5[1] = var10;
-        var3 = function() {
-            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
-                var4 = _closure2_slot0;
-                var1 = null;
-                if(!var4) { _fun0002_ip = 64; continue _fun0002 }
- 12:
-                var2 = _closure2_slot1;
-                var1 = null;
-                if(var2) { _fun0002_ip = 64; continue _fun0002 }
- 21:
-                var5 = _closure1_slot9;
-                var3 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var2 = 19;
-                var2 = var4[var2];
-                var4 = undefined;
-                var2 = var3.bind(var4)(var2);
-                var3 = var2.CustomRendererSetting;
-                var2 = {};
-                var1 = var5.bind(var4)(var3, var2);
- 64:
-                return var1;
-            }
-        };
-        var5 = var8.bind(var9)(var3, var5);
-        var3 = _closure1_slot9;
-        var1 = 20;
-        var1 = var7[var1];
-        var1 = var2.bind(var4)(var1);
+        var2 = new Array(0);
+        var5 = var4.bind(var5)(var3, var2);
+        var4 = _closure1_slot9;
+        var2 = _closure1_slot0;
+        var3 = _closure1_slot2;
+        var1 = 18;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
         var2 = var1.SettingsList;
         var1 = {};
-        var1['sections'] = var6;
-        var1['ListHeaderComponent'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
+        var1['sections'] = var5;
+        var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
     var3['default'] = var2;

@@ -761,8 +761,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8['style'] = var12;
                     var13 = _closure2_slot19;
                     var12 = null;
-                    if(var13) { _fun0008_ip = 264; continue _fun0008 }
- 191:
+                    if(var13) { _fun0008_ip = 265; continue _fun0008 }
+ 192:
                     var15 = _closure1_slot15;
                     var14 = _closure1_slot1;
                     var17 = _closure1_slot2;
@@ -780,7 +780,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var16 = _closure2_slot18;
                     var13['landscapeSafeAreasConfig'] = var16;
                     var12 = var15.bind(var3)(var14, var13);
- 264:
+ 265:
                     var8['children'] = var12;
                     var10 = var11.bind(var3)(var10, var8);
                     var8 = new Array(2);

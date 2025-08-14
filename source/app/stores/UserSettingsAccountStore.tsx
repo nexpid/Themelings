@@ -38,48 +38,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot29 = var2;
+            _closure1_slot30 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot30 = var1;
     var16 = function handleInit() {
         var1 = _closure1_slot8;
         var1 = var1.OPEN;
-        _closure1_slot27 = var1;
-        var1 = {};
         _closure1_slot28 = var1;
+        var1 = {};
+        _closure1_slot29 = var1;
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot30 = var16;
+    var _closure1_slot31 = var16;
     var15 = function handleClose() {
         var1 = _closure1_slot8;
         var1 = var1.CLOSED;
-        _closure1_slot27 = var1;
-        var1 = {};
         _closure1_slot28 = var1;
+        var1 = {};
+        _closure1_slot29 = var1;
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot31 = var15;
+    var _closure1_slot32 = var15;
     var12 = function handleResetAllPending() {
-        var2 = _closure1_slot33;
+        var2 = _closure1_slot34;
         var1 = undefined;
         var2 = var2.bind(var1)();
-        var2 = _closure1_slot34;
-        var2 = var2.bind(var1)();
-        var2 = _closure1_slot36;
+        var2 = _closure1_slot35;
         var2 = var2.bind(var1)();
         var2 = _closure1_slot37;
         var2 = var2.bind(var1)();
+        var2 = _closure1_slot38;
+        var2 = var2.bind(var1)();
         var2 = {};
-        _closure1_slot28 = var2;
+        _closure1_slot29 = var2;
         return var1;
     };
-    var _closure1_slot32 = var12;
+    var _closure1_slot33 = var12;
     var14 = function handleResetPendingAccountChanges() {
         var1 = undefined;
         var _closure1_slot10 = var1;
@@ -87,9 +87,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure1_slot12 = var1;
         var _closure1_slot13 = var1;
         var _closure1_slot14 = var1;
+        var _closure1_slot22 = var1;
         return var1;
     };
-    var _closure1_slot33 = var14;
+    var _closure1_slot34 = var14;
     var13 = function handleResetPendingProfileChanges() {
         var1 = undefined;
         var _closure1_slot15 = var1;
@@ -100,29 +101,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _closure1_slot13 = var1;
         return var1;
     };
-    var _closure1_slot34 = var13;
+    var _closure1_slot35 = var13;
     var11 = function handleResetTryItOut() {
         var1 = undefined;
-        var _closure1_slot23 = var1;
         var _closure1_slot24 = var1;
         var _closure1_slot25 = var1;
         var _closure1_slot26 = var1;
-        var _closure1_slot22 = var1;
+        var _closure1_slot27 = var1;
+        var _closure1_slot23 = var1;
         return var1;
     };
-    var _closure1_slot35 = var11;
+    var _closure1_slot36 = var11;
     var10 = function handleResetPendingLegacyUsernameDisabled() {
         var1 = undefined;
         var _closure1_slot20 = var1;
         return var1;
     };
-    var _closure1_slot36 = var10;
+    var _closure1_slot37 = var10;
     var9 = function handleResetPendingPrimaryGuildChanges() {
         var1 = undefined;
         var _closure1_slot21 = var1;
         return var1;
     };
-    var _closure1_slot37 = var9;
+    var _closure1_slot38 = var9;
     var1 = global;
     var17 = var1.Object;
     var8 = var17.defineProperty;
@@ -162,9 +163,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var8.UserSettingsSections;
     var _closure1_slot9 = var8;
     var2 = var2.CLOSED;
-    var _closure1_slot27 = var2;
-    var2 = {};
     var _closure1_slot28 = var2;
+    var2 = {};
+    var _closure1_slot29 = var2;
     var2 = 7;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
@@ -182,7 +183,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot29;
+                var1 = _closure1_slot30;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
@@ -215,7 +216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 'getFormState';
         var5['key'] = var1;
         var1 = function value() {
-            var1 = _closure1_slot27;
+            var1 = _closure1_slot28;
             return var1;
         };
         var5['value'] = var1;
@@ -225,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getErrors';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot28;
+            var1 = _closure1_slot29;
             return var1;
         };
         var5['value'] = var7;
@@ -291,9 +292,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  123:
                 if(var1) { _fun0003_ip = 134; continue _fun0003 }
  126:
-                var2 = _closure1_slot21;
-                var1 = var3 !== var2;
+                var4 = _closure1_slot21;
+                var1 = var3 !== var4;
  134:
+                if(var1) { _fun0003_ip = 145; continue _fun0003 }
+ 137:
+                var2 = _closure1_slot22;
+                var1 = var3 !== var2;
+ 145:
                 return var1;
             }
         };
@@ -437,8 +443,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['pendingNameplate'] = var3;
             var3 = _closure1_slot20;
             var1['pendingLegacyUsernameDisabled'] = var3;
-            var2 = _closure1_slot21;
-            var1['pendingPrimaryGuildId'] = var2;
+            var3 = _closure1_slot21;
+            var1['pendingPrimaryGuildId'] = var3;
+            var2 = _closure1_slot22;
+            var1['pendingDisplayNameStyles'] = var2;
             return var1;
         };
         var5['value'] = var7;
@@ -447,7 +455,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getTryItOutThemeColors';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot22;
+            var1 = _closure1_slot23;
             return var1;
         };
         var5['value'] = var7;
@@ -456,7 +464,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getTryItOutAvatar';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot23;
+            var1 = _closure1_slot24;
             return var1;
         };
         var5['value'] = var7;
@@ -465,7 +473,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getTryItOutAvatarDecoration';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot24;
+            var1 = _closure1_slot25;
             return var1;
         };
         var5['value'] = var7;
@@ -474,7 +482,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getTryItOutProfileEffectId';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot25;
+            var1 = _closure1_slot26;
             return var1;
         };
         var5['value'] = var7;
@@ -483,7 +491,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getTryItOutBanner';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = _closure1_slot26;
+            var1 = _closure1_slot27;
             return var1;
         };
         var5['value'] = var7;
@@ -493,15 +501,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['key'] = var7;
         var6 = function value() {
             var1 = {};
-            var3 = _closure1_slot22;
-            var1['tryItOutThemeColors'] = var3;
             var3 = _closure1_slot23;
-            var1['tryItOutAvatar'] = var3;
+            var1['tryItOutThemeColors'] = var3;
             var3 = _closure1_slot24;
-            var1['tryItOutAvatarDecoration'] = var3;
+            var1['tryItOutAvatar'] = var3;
             var3 = _closure1_slot25;
+            var1['tryItOutAvatarDecoration'] = var3;
+            var3 = _closure1_slot26;
             var1['tryItOutProfileEffectId'] = var3;
-            var2 = _closure1_slot26;
+            var2 = _closure1_slot27;
             var1['tryItOutBanner'] = var2;
             return var1;
         };
@@ -530,7 +538,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3 === var1;
             if(!var1) { _fun0005_ip = 40; continue _fun0005 }
  28:
-            var3 = _closure1_slot30;
+            var3 = _closure1_slot31;
             var2 = undefined;
             var3 = var3.bind(var2)();
             var1 = undefined;
@@ -541,12 +549,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['USER_SETTINGS_MODAL_SET_SECTION'] = var16;
     var2['USER_SETTINGS_ACCOUNT_CLOSE'] = var15;
     var15 = function handleResetFullForm() {
-        var3 = _closure1_slot32;
+        var3 = _closure1_slot33;
         var1 = undefined;
         var3 = var3.bind(var1)();
-        var3 = _closure1_slot35;
+        var3 = _closure1_slot36;
         var3 = var3.bind(var1)();
-        var2 = _closure1_slot31;
+        var2 = _closure1_slot32;
         var2 = var2.bind(var1)();
         return var1;
     };
@@ -554,9 +562,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = function handleFormSubmit() {
         var1 = _closure1_slot8;
         var1 = var1.SUBMITTING;
-        _closure1_slot27 = var1;
-        var1 = {};
         _closure1_slot28 = var1;
+        var1 = {};
+        _closure1_slot29 = var1;
         var1 = undefined;
         return var1;
     };
@@ -564,14 +572,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = function handleFormSubmitFailure(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            var3 = _closure1_slot27;
+            var3 = _closure1_slot28;
             var1 = _closure1_slot8;
             var1 = var1.SUBMITTING;
             if(!(var3 === var1)) { _fun0006_ip = 60; continue _fun0006 }
  21:
             var1 = _closure1_slot8;
             var1 = var1.OPEN;
-            _closure1_slot27 = var1;
+            _closure1_slot28 = var1;
             var1 = arg1;
             var1 = var1.errors;
             var3 = null;
@@ -579,7 +587,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  50:
             var1 = {};
  52:
-            _closure1_slot28 = var1;
+            _closure1_slot29 = var1;
             var1 = undefined;
             return var1;
  60:
@@ -593,7 +601,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.avatar;
         _closure1_slot10 = var1;
         var1 = undefined;
-        _closure1_slot23 = var1;
+        _closure1_slot24 = var1;
         return var1;
     };
     var2['USER_SETTINGS_ACCOUNT_SET_PENDING_AVATAR'] = var15;
@@ -665,18 +673,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.AVATAR_DECORATION;
             if(!(var6 === var5)) { _fun0007_ip = 144; continue _fun0007 }
  112:
-            _closure1_slot25 = var2;
-            _closure1_slot24 = var4;
+            _closure1_slot26 = var2;
+            _closure1_slot25 = var4;
             _fun0007_ip = 144; continue _fun0007;
  122:
-            _closure1_slot24 = var2;
+            _closure1_slot25 = var2;
             var5 = var2 == var4;
             var2 = undefined;
             if(var5) { _fun0007_ip = 140; continue _fun0007 }
  135:
             var2 = var4.id;
  140:
-            _closure1_slot25 = var2;
+            _closure1_slot26 = var2;
  144:
             return var1;
         }
@@ -733,7 +741,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = function handleSetTryItOutAvatar(arg1) {
         var1 = arg1;
         var2 = var1.avatar;
-        _closure1_slot23 = var2;
+        _closure1_slot24 = var2;
         var1 = undefined;
         return var1;
     };
@@ -741,7 +749,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = function handleSetTryItOutAvatarDecoration(arg1) {
         var1 = arg1;
         var2 = var1.avatarDecoration;
-        _closure1_slot24 = var2;
+        _closure1_slot25 = var2;
         var1 = undefined;
         return var1;
     };
@@ -749,7 +757,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = function handleSetTryItOutProfileEffectId(arg1) {
         var1 = arg1;
         var2 = var1.profileEffectId;
-        _closure1_slot25 = var2;
+        _closure1_slot26 = var2;
         var1 = undefined;
         return var1;
     };
@@ -757,7 +765,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = function handleSetTryItOutBanner(arg1) {
         var1 = arg1;
         var2 = var1.banner;
-        _closure1_slot26 = var2;
+        _closure1_slot27 = var2;
         var1 = undefined;
         return var1;
     };
@@ -765,7 +773,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = function handleSetTryItOutThemeColors(arg1) {
         var1 = arg1;
         var2 = var1.themeColors;
-        _closure1_slot22 = var2;
+        _closure1_slot23 = var2;
         var1 = undefined;
         return var1;
     };
@@ -775,9 +783,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var1.banner;
         var3 = var1.themeColors;
         var2 = var1.avatarDecoration;
-        _closure1_slot26 = var4;
-        _closure1_slot22 = var3;
-        _closure1_slot24 = var2;
+        _closure1_slot27 = var4;
+        _closure1_slot23 = var3;
+        _closure1_slot25 = var2;
         var1 = undefined;
         return var1;
     };
@@ -790,9 +798,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['USER_SETTINGS_SET_PENDING_PRIMARY_GUILD_ID'] = var15;
+    var15 = function handleSetPendingDisplayNameStyles(arg1) {
+        var1 = arg1;
+        var2 = var1.displayNameStyles;
+        _closure1_slot22 = var2;
+        var1 = undefined;
+        return var1;
+    };
+    var2['USER_SETTINGS_ACCOUNT_SET_PENDING_DISPLAY_NAME_STYLES'] = var15;
     var15 = function handleClearErrors() {
         var1 = {};
-        _closure1_slot28 = var1;
+        _closure1_slot29 = var1;
         var1 = undefined;
         return var1;
     };

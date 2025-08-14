@@ -124,17 +124,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[0] = var10;
             var11 = var9 == var8;
             var10 = undefined;
-            if(var11) { _fun0001_ip = 289; continue _fun0001 }
- 283:
+            if(var11) { _fun0001_ip = 290; continue _fun0001 }
+ 284:
             var10 = var8.overlay;
- 289:
+ 290:
             var2[1] = var10;
             var9 = var9 == var8;
             var7 = undefined;
-            if(var9) { _fun0001_ip = 308; continue _fun0001 }
- 302:
+            if(var9) { _fun0001_ip = 309; continue _fun0001 }
+ 303:
             var7 = var8.overlaySyncedWithUserTheme;
- 308:
+ 309:
             var2[2] = var7;
             var2[3] = var6;
             var2[4] = var5;
@@ -236,8 +236,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['theme'] = var4;
                     var4 = var2 != var5;
                     var2 = null;
-                    if(!var4) { _fun0002_ip = 355; continue _fun0002 }
- 324:
+                    if(!var4) { _fun0002_ip = 356; continue _fun0002 }
+ 325:
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var3 = 11;
@@ -245,7 +245,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.bind(var6)(var3);
                     var3 = var4.int2hex;
                     var2 = var3.bind(var4)(var5);
- 355:
+ 356:
                     var1['primaryColor'] = var2;
                     return var1;
                 }

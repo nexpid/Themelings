@@ -16,135 +16,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var8 = var6[var1];
-    var4 = metroImportAll;
+    var4 = var6[var1];
     var1 = undefined;
-    var4 = var4.bind(var1)(var8);
-    var4 = 1;
-    var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot3 = var4;
-    var4 = 2;
+    var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.HelpdeskArticles;
     var _closure1_slot4 = var7;
     var4 = var4.MessageFlags;
     var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot6 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.makeKeyedDataComponent;
-    var4 = 'ephemeralIndication';
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 9;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/messages/native/renderer/row_data/EphemeralIndication.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function EphemeralIndication(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
-            var2 = arg1;
-            var12 = var2.message;
-            var _closure2_slot0 = var12;
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 8;
-            var2 = var4[var2];
-            var4 = undefined;
-            var5 = var3.bind(var4)(var2);
-            var3 = var5.useStateFromStores;
-            var6 = _closure1_slot3;
-            var2 = new Array(1);
-            var2[0] = var6;
-            var1 = function() {
-                var3 = _closure1_slot3;
-                var2 = var3.getMessage;
-                var1 = _closure2_slot0;
-                var1 = var1.id;
-                var2 = var2.bind(var3)(var1);
-                var1 = null;
-                var1 = var1 != var2;
-                return var1;
-            };
-            var5 = var3.bind(var5)(var2, var1);
-            var2 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var1 = 6;
-            var1 = var10[var1];
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.getArticleURL;
-            var1 = _closure1_slot4;
-            if(var5) { _fun0001_ip = 164; continue _fun0001 }
- 100:
-            var5 = var1.EPHEMERAL_MESSAGES;
-            var6 = var2.bind(var3)(var5);
-            var11 = _closure1_slot0;
-            var5 = 5;
-            var8 = var10[var5];
-            var8 = var11.bind(var4)(var8);
-            var9 = var8.intl;
-            var8 = var9.string;
-            var5 = var10[var5];
-            var5 = var11.bind(var4)(var5);
-            var5 = var5.t;
-            var5 = var5.htHOrq;
-            var5 = var8.bind(var9)(var5);
-            _fun0001_ip = 226; continue _fun0001;
- 164:
-            var1 = var1.GUILD_AUTOMOD_BLOCKED_MESSAGE;
-            var6 = var2.bind(var3)(var1);
-            var9 = _closure1_slot0;
-            var1 = 5;
-            var3 = var10[var1];
-            var3 = var9.bind(var4)(var3);
-            var8 = var3.intl;
-            var3 = var8.string;
-            var1 = var10[var1];
-            var1 = var9.bind(var4)(var1);
-            var1 = var1.t;
-            var1 = var1.OiCBhI;
-            var5 = var3.bind(var8)(var1);
- 226:
-            var3 = _closure1_slot6;
-            var2 = _closure1_slot7;
-            var1 = {};
-            var8 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var7 = 5;
-            var9 = var11[var7];
-            var9 = var8.bind(var4)(var9);
-            var10 = var9.intl;
-            var9 = var10.formatToParts;
-            var7 = var11[var7];
-            var7 = var8.bind(var4)(var7);
-            var7 = var7.t;
-            var8 = var7.uX3ecH;
-            var7 = {'count': 1, 'countMessages': 1};
-            var11 = {};
-            var13 = 'bindDismissMessage';
-            var11['action'] = var13;
-            var11['message'] = var12;
-            var7['handleDelete'] = var11;
-            var7 = var9.bind(var10)(var8, var7);
-            var1['content'] = var7;
-            var1['helpArticleLink'] = var6;
-            var1['helpButtonAccessibilityLabel'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
-        }
-    };
-    var3['default'] = var4;
     var2 = function createEphemeralIndication(arg1) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var13 = arg1;
             var2 = var13.hasFlag;
@@ -152,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.EPHEMERAL;
             var1 = var2.bind(var13)(var1);
             var6 = undefined;
-            if(var1) { _fun0002_ip = 34; continue _fun0002 }
+            if(var1) { _fun0001_ip = 34; continue _fun0001 }
  32:
             return var6;
  34:
@@ -160,16 +50,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var5 = var1 == var4;
             var2 = undefined;
-            if(var5) { _fun0002_ip = 57; continue _fun0002 }
+            if(var5) { _fun0001_ip = 57; continue _fun0001 }
  51:
             var2 = var4.ephemerality_reason;
  57:
-            if(!(var1 == var2)) { _fun0002_ip = 377; continue _fun0002 }
+            if(!(var1 == var2)) { _fun0001_ip = 381; continue _fun0001 }
  64:
             var2 = {};
             var10 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var9 = 5;
+            var9 = 3;
             var5 = var4[var9];
             var5 = var10.bind(var6)(var5);
             var11 = var5.intl;
@@ -187,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8.bind(var11)(var7, var5);
             var2['content'] = var5;
             var8 = _closure1_slot1;
-            var5 = 6;
+            var5 = 4;
             var7 = var4[var5];
             var11 = var8.bind(var6)(var7);
             var8 = var11.getAppsSupportURL;
@@ -209,8 +99,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.getMessage;
             var4 = var13.id;
             var4 = var7.bind(var8)(var4);
-            if(!(var1 != var4)) { _fun0002_ip = 375; continue _fun0002 }
- 277:
+            if(!(var1 != var4)) { _fun0001_ip = 379; continue _fun0001 }
+ 279:
             var7 = _closure1_slot1;
             var4 = _closure1_slot2;
             var5 = var4[var5];
@@ -231,27 +121,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.OiCBhI;
             var4 = var5.bind(var7)(var4);
             var2['helpButtonAccessibilityLabel'] = var4;
- 375:
+ 379:
             return var2;
- 377:
+ 381:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 4;
+            var2 = 2;
             var2 = var5[var2];
             var4 = var4.bind(var6)(var2);
             var2 = var4.getEphemeralReasonMessage;
             var5 = var13.interactionMetadata;
             var7 = var1 == var5;
             var1 = undefined;
-            if(var7) { _fun0002_ip = 424; continue _fun0002 }
- 418:
+            if(var7) { _fun0001_ip = 428; continue _fun0001 }
+ 422:
             var1 = var5.ephemerality_reason;
- 424:
+ 428:
             var11 = var2.bind(var4)(var1);
             var1 = {};
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 5;
+            var2 = 3;
             var4 = var7[var2];
             var4 = var5.bind(var6)(var4);
             var10 = var4.intl;
@@ -270,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var9.bind(var10)(var8, var4);
             var1['content'] = var4;
             var8 = _closure1_slot1;
-            var4 = 6;
+            var4 = 4;
             var4 = var7[var4];
             var8 = var8.bind(var6)(var4);
             var4 = var8.getArticleURL;

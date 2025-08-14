@@ -13,7 +13,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = arg2;
             var2 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var1 = 2;
+            var1 = 1;
             var3 = var11[var1];
             var6 = undefined;
             var3 = var2.bind(var6)(var3);
@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 'bindOpenUrl';
             var5['action'] = var9;
             var10 = _closure1_slot1;
-            var9 = 3;
+            var9 = 2;
             var9 = var11[var9];
             var10 = var10.bind(var6)(var9);
             var9 = var10.getArticleURL;
@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot5 = var1;
+    var _closure1_slot4 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -67,32 +67,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.HelpdeskArticles;
     var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot4 = var4;
-    var4 = 8;
+    var4 = 6;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/chat_wallpapers/native/ChatWallpaperSystemMessages.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function createChatWallpaperNotAvailableOnMobileSystemMessage(arg1) {
+    var2 = function createChatWallpaperNotAvailableOnMobileSystemMessage(arg1) {
         var4 = arg1;
         var10 = var4.message;
         var7 = var4.theme;
         var5 = _closure1_slot1;
         var6 = _closure1_slot2;
-        var1 = 4;
+        var1 = 3;
         var1 = var6[var1];
         var3 = undefined;
         var1 = var5.bind(var3)(var1);
         var8 = var1.bind(var3)(var7);
         var1 = {};
-        var7 = _closure1_slot5;
+        var7 = _closure1_slot4;
         var9 = _closure1_slot0;
-        var2 = 5;
+        var2 = 4;
         var2 = var6[var2];
         var9 = var9.bind(var3)(var2);
         var2 = var9.getMessageAuthor;
@@ -100,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.nick;
         var2 = var7.bind(var3)(var2, var8);
         var1['content'] = var2;
-        var2 = 6;
+        var2 = 5;
         var2 = var6[var2];
         var2 = var5.bind(var3)(var2);
         var11 = var2.bind(var3)(var4);
@@ -108,33 +103,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = copyDataProperties(var12, var11);
         return var1;
     };
-    var3['createChatWallpaperNotAvailableOnMobileSystemMessage'] = var4;
-    var2 = function ChatWallpaperNotAvailableOnMobileSystemMessage(arg1) {
-        var1 = arg1;
-        var6 = var1.row;
-        var8 = var6.message;
-        var3 = _closure1_slot5;
-        var5 = _closure1_slot0;
-        var7 = _closure1_slot2;
-        var2 = 5;
-        var2 = var7[var2];
-        var4 = undefined;
-        var5 = var5.bind(var4)(var2);
-        var2 = var5.getMessageAuthor;
-        var2 = var2.bind(var5)(var8);
-        var2 = var2.nick;
-        var5 = var3.bind(var4)(var2);
-        var3 = _closure1_slot4;
-        var2 = _closure1_slot1;
-        var1 = 7;
-        var1 = var7[var1];
-        var2 = var2.bind(var4)(var1);
-        var1 = {};
-        var1['row'] = var6;
-        var1['content'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var3['ChatWallpaperNotAvailableOnMobileSystemMessage'] = var2;
+    var3['createChatWallpaperNotAvailableOnMobileSystemMessage'] = var2;
     return var1;
 })();

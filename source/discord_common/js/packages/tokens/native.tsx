@@ -225,27 +225,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  173:
             var12 = var6;
             var4 = var1;
-            if(!(var3 != var9)) { _fun0003_ip = 442; continue _fun0003 }
+            if(!(var3 != var9)) { _fun0003_ip = 443; continue _fun0003 }
  186:
             var9 = 'gradient';
             var9 = var9 in var8;
             var12 = var6;
             var4 = var1;
-            if(!var9) { _fun0003_ip = 442; continue _fun0003 }
+            if(!var9) { _fun0003_ip = 443; continue _fun0003 }
  206:
             var9 = var8.gradient;
             var13 = var3 == var7;
             var8 = undefined;
-            if(var13) { _fun0003_ip = 232; continue _fun0003 }
+            if(var13) { _fun0003_ip = 233; continue _fun0003 }
  221:
             var13 = var7.gradient;
             var8 = var13.theme;
- 232:
+ 233:
             var8 = var9[var8];
             var12 = var6;
             var4 = var1;
-            if(!(var3 != var8)) { _fun0003_ip = 442; continue _fun0003 }
- 249:
+            if(!(var3 != var8)) { _fun0003_ip = 443; continue _fun0003 }
+ 250:
             var6 = _closure1_slot1;
             var9 = _closure1_slot2;
             var1 = 7;
@@ -254,84 +254,84 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var8.color;
             var1 = _closure1_slot5;
             var1 = var9 in var1;
-            if(var1) { _fun0003_ip = 316; continue _fun0003 }
- 285:
+            if(var1) { _fun0003_ip = 317; continue _fun0003 }
+ 286:
             var9 = var3 == var7;
             var1 = undefined;
-            if(var9) { _fun0003_ip = 314; continue _fun0003 }
- 294:
+            if(var9) { _fun0003_ip = 315; continue _fun0003 }
+ 295:
             var9 = var7.gradient;
             var13 = var9.colors;
             var9 = var8.color;
             var1 = var13[var9];
- 314:
-            _fun0003_ip = 329; continue _fun0003;
- 316:
+ 315:
+            _fun0003_ip = 330; continue _fun0003;
+ 317:
             var13 = _closure1_slot5;
             var9 = var8.color;
             var1 = var13[var9];
- 329:
+ 330:
             var13 = var6.bind(var5)(var1);
             var1 = 'saturation';
             var1 = var1 in var8;
             var14 = var13;
-            if(!var1) { _fun0003_ip = 371; continue _fun0003 }
- 348:
+            if(!var1) { _fun0003_ip = 372; continue _fun0003 }
+ 349:
             var9 = var13.set;
             var6 = var8.saturation;
             var1 = 'hsl.s';
             var14 = var9.bind(var13)(var1, var6);
- 371:
+ 372:
             var1 = 'lightness';
             var1 = var1 in var8;
             var6 = var14;
-            if(!var1) { _fun0003_ip = 408; continue _fun0003 }
- 385:
+            if(!var1) { _fun0003_ip = 409; continue _fun0003 }
+ 386:
             var13 = var14.set;
             var9 = var8.lightness;
             var1 = 'hsl.l';
             var6 = var13.bind(var14)(var1, var9);
- 408:
+ 409:
             var1 = var6.hex;
             var6 = var1.bind(var6)();
             var1 = 'opacity';
             var9 = var1 in var8;
             var1 = 1;
-            if(!var9) { _fun0003_ip = 436; continue _fun0003 }
- 431:
+            if(!var9) { _fun0003_ip = 437; continue _fun0003 }
+ 432:
             var1 = var8.opacity;
- 436:
+ 437:
             var4 = var1;
             var12 = var6;
- 442:
+ 443:
             var6 = var3 == var7;
             var1 = undefined;
-            if(var6) { _fun0003_ip = 457; continue _fun0003 }
- 451:
+            if(var6) { _fun0003_ip = 458; continue _fun0003 }
+ 452:
             var1 = var7.contrast;
- 457:
+ 458:
             var8 = var3 != var1;
             var6 = 1;
             var9 = var6;
-            if(!var8) { _fun0003_ip = 473; continue _fun0003 }
- 470:
+            if(!var8) { _fun0003_ip = 474; continue _fun0003 }
+ 471:
             var9 = var1;
- 473:
+ 474:
             var8 = var3 == var7;
             var1 = undefined;
-            if(var8) { _fun0003_ip = 488; continue _fun0003 }
- 482:
+            if(var8) { _fun0003_ip = 489; continue _fun0003 }
+ 483:
             var1 = var7.saturation;
- 488:
+ 489:
             var3 = var3 != var1;
             var7 = var6;
-            if(!var3) { _fun0003_ip = 501; continue _fun0003 }
- 498:
+            if(!var3) { _fun0003_ip = 502; continue _fun0003 }
+ 499:
             var7 = var1;
- 501:
+ 502:
             var8 = var12;
-            if(!(var7 < var6)) { _fun0003_ip = 541; continue _fun0003 }
- 508:
+            if(!(var7 < var6)) { _fun0003_ip = 542; continue _fun0003 }
+ 509:
             var3 = _closure1_slot0;
             var13 = _closure1_slot2;
             var1 = 8;
@@ -339,10 +339,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var1);
             var1 = var3.transformColorForReducedSaturation;
             var8 = var1.bind(var3)(var12, var10, var7);
- 541:
+ 542:
             var3 = var8;
-            if(!(var6 !== var9)) { _fun0003_ip = 593; continue _fun0003 }
- 548:
+            if(!(var6 !== var9)) { _fun0003_ip = 594; continue _fun0003 }
+ 549:
             var7 = _closure1_slot0;
             var12 = _closure1_slot2;
             var1 = 8;
@@ -355,10 +355,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var11;
             var15 = var9;
             var3 = var19[var1](var18, var17, var16, var15, var14);
- 593:
+ 594:
             var1 = var3;
-            if(!(var6 !== var4)) { _fun0003_ip = 645; continue _fun0003 }
- 600:
+            if(!(var6 !== var4)) { _fun0003_ip = 646; continue _fun0003 }
+ 601:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 7;
@@ -369,7 +369,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.bind(var3)(var4);
             var2 = var3.hex;
             var1 = var2.bind(var3)();
- 645:
+ 646:
             return var1;
         }
     };

@@ -768,7 +768,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var7.bind(var9)(var3, var2);
-            if(var2) { _fun0007_ip = 381; continue _fun0007 }
+            if(var2) { _fun0007_ip = 379; continue _fun0007 }
  125:
             var13 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -874,7 +874,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPress'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 381:
+ 379:
             var1 = null;
             return var1;
         }

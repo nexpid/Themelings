@@ -262,7 +262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var1;
-        var1 = new Array(31);
+        var1 = new Array(30);
         var1[0] = var5;
         var5 = {};
         var7 = 'getUserAgnosticState';
@@ -732,16 +732,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['get'] = var7;
         var1[25] = var5;
         var5 = {};
-        var7 = 'useMobileChatCustomRenderer';
+        var7 = 'saveCameraUploadsToDevice';
         var5['key'] = var7;
         var7 = function get() {
             _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
  0:
                 var1 = _closure1_slot17;
-                var2 = var1.useMobileChatCustomRenderer;
+                var2 = var1.saveCameraUploadsToDevice;
                 var1 = null;
-                var1 = var1 != var2;
-                if(!var1) { _fun0026_ip = 25; continue _fun0026 }
+                var1 = var1 == var2;
+                if(var1) { _fun0026_ip = 25; continue _fun0026 }
  22:
                 var1 = var2;
  25:
@@ -751,13 +751,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['get'] = var7;
         var1[26] = var5;
         var5 = {};
-        var7 = 'saveCameraUploadsToDevice';
+        var7 = 'showPlayAgain';
         var5['key'] = var7;
         var7 = function get() {
             _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
  0:
                 var1 = _closure1_slot17;
-                var2 = var1.saveCameraUploadsToDevice;
+                var2 = var1.showPlayAgain;
                 var1 = null;
                 var1 = var1 == var2;
                 if(var1) { _fun0027_ip = 25; continue _fun0027 }
@@ -770,35 +770,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['get'] = var7;
         var1[27] = var5;
         var5 = {};
-        var7 = 'showPlayAgain';
-        var5['key'] = var7;
-        var7 = function get() {
-            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
- 0:
-                var1 = _closure1_slot17;
-                var2 = var1.showPlayAgain;
-                var1 = null;
-                var1 = var1 == var2;
-                if(var1) { _fun0028_ip = 25; continue _fun0028 }
- 22:
-                var1 = var2;
- 25:
-                return var1;
-            }
-        };
-        var5['get'] = var7;
-        var1[28] = var5;
-        var5 = {};
         var7 = 'isVisualRefreshDisabled';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
+            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
  0:
                 var1 = arg1;
                 var2 = _closure1_slot17;
                 var2 = var2.disableVisualRefresh;
                 var3 = null;
-                if(!(var3 != var2)) { _fun0029_ip = 25; continue _fun0029 }
+                if(!(var3 != var2)) { _fun0028_ip = 25; continue _fun0028 }
  22:
                 var1 = var2;
  25:
@@ -806,17 +787,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[29] = var5;
+        var1[28] = var5;
         var5 = {};
         var7 = 'listDensity';
         var5['key'] = var7;
         var6 = function get() {
-            _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
+            _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
  0:
                 var1 = _closure1_slot17;
                 var1 = var1.listDensity;
                 var3 = null;
-                if(!(var3 == var1)) { _fun0030_ip = 31; continue _fun0030 }
+                if(!(var3 == var1)) { _fun0029_ip = 31; continue _fun0029 }
  21:
                 var2 = _closure1_slot13;
                 var1 = var2.COZY;
@@ -825,7 +806,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['get'] = var6;
-        var1[30] = var5;
+        var1[29] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -917,11 +898,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['LOGOUT'] = var11;
     var11 = function handleLogInSuccess() {
-        _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
+        _fun0030: for(var _fun0030_ip = 0; ; ) switch(_fun0030_ip) {
  0:
             var3 = _closure1_slot17;
             var1 = null;
-            if(!(var1 == var3)) { _fun0031_ip = 19; continue _fun0031 }
+            if(!(var1 == var3)) { _fun0030_ip = 19; continue _fun0030 }
  13:
             var1 = {};
             _closure1_slot17 = var1;

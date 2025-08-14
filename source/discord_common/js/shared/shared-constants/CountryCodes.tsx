@@ -684,7 +684,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
-    var11 = ['KR'];
+    var11 = ['BR', 'KR'];
     var12 = var6;
     var5 = new var12[var7](var11, var10);
     var5 = var5 instanceof Object ? var5 : var6;

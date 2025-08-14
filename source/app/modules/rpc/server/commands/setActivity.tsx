@@ -41,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var2.RPCCommands;
     var2 = var2.RPCErrors;
     var _closure1_slot9 = var2;
-    var2 = ['349134787773988865'];
+    var2 = ['1402418171662569542'];
     var _closure1_slot10 = var2;
     var2 = {};
     var7 = var4.SET_ACTIVITY;

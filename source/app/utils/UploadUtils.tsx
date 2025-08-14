@@ -239,27 +239,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var7 = arguments[1];
             var8 = arguments[2];
-            var5 = undefined;
-            if(!(var7 === var5)) { _fun0001_ip = 17; continue _fun0001 }
+            var6 = undefined;
+            if(!(var7 === var6)) { _fun0001_ip = 17; continue _fun0001 }
  15:
             var7 = null;
  17:
             var1 = {};
-            var6 = null;
-            var4 = var6 == var7;
+            var5 = null;
+            var4 = var5 == var7;
             var3 = undefined;
             if(var4) { _fun0001_ip = 39; continue _fun0001 }
  30:
             var4 = var7.toString;
             var3 = var4.bind(var7)();
  39:
-            if(!(var6 == var3)) { _fun0001_ip = 48; continue _fun0001 }
+            if(!(var5 == var3)) { _fun0001_ip = 48; continue _fun0001 }
  43:
             var3 = var2.id;
  48:
             var1['id'] = var3;
             var3 = var2.description;
-            if(!(var6 != var3)) { _fun0001_ip = 72; continue _fun0001 }
+            if(!(var5 != var3)) { _fun0001_ip = 72; continue _fun0001 }
  61:
             var3 = var2.description;
             var1['description'] = var3;
@@ -274,7 +274,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  101:
             var4 = _closure1_slot2;
  108:
-            if(!(var6 == var8)) { _fun0001_ip = 118; continue _fun0001 }
+            if(!(var5 == var8)) { _fun0001_ip = 118; continue _fun0001 }
  112:
             var8 = var2.filename;
  118:
@@ -290,7 +290,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!var3) { _fun0001_ip = 178; continue _fun0001 }
  168:
             var4 = var2.durationSecs;
-            var3 = var6 != var4;
+            var3 = var5 != var4;
  178:
             if(!var3) { _fun0001_ip = 193; continue _fun0001 }
  181:
@@ -302,7 +302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!var3) { _fun0001_ip = 214; continue _fun0001 }
  204:
             var4 = var2.waveform;
-            var3 = var6 != var4;
+            var3 = var5 != var4;
  214:
             if(!var3) { _fun0001_ip = 229; continue _fun0001 }
  217:
@@ -340,7 +340,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!var3) { _fun0001_ip = 330; continue _fun0001 }
  320:
             var4 = var2.clip;
-            var3 = var6 != var4;
+            var3 = var5 != var4;
  330:
             if(!var3) { _fun0001_ip = 473; continue _fun0001 }
  336:
@@ -353,23 +353,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.applicationId;
             var1['application_id'] = var3;
             var4 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var7 = _closure1_slot1;
             var3 = 1;
-            var7 = var6[var3];
-            var9 = var4.bind(var5)(var7);
-            var8 = var9.getClipCreatedAt;
-            var7 = var2.clip;
-            var7 = var7.id;
-            var7 = var8.bind(var9)(var7);
-            var1['clip_created_at'] = var7;
-            var3 = var6[var3];
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.getClipParticipantIds;
-            var2 = var2.clip;
-            var2 = var2.users;
-            var2 = var3.bind(var4)(var2);
-            var1['clip_participant_ids'] = var2;
+            var8 = var7[var3];
+            var10 = var4.bind(var6)(var8);
+            var9 = var10.getClipCreatedAt;
+            var8 = var2.clip;
+            var8 = var8.id;
+            var8 = var9.bind(var10)(var8);
+            var1['clip_created_at'] = var8;
+            var3 = var7[var3];
+            var6 = var4.bind(var6)(var3);
+            var4 = var6.getClipParticipantIds;
+            var3 = var2.clip;
+            var3 = var3.users;
+            var3 = var4.bind(var6)(var3);
+            var1['clip_participant_ids'] = var3;
  473:
+            var3 = 'item';
+            var3 = var3 in var2;
+            if(!var3) { _fun0001_ip = 493; continue _fun0001 }
+ 484:
+            var4 = var2.item;
+            var3 = var5 != var4;
+ 493:
+            if(!var3) { _fun0001_ip = 509; continue _fun0001 }
+ 496:
+            var5 = var2.item;
+            var4 = 'originalContentType';
+            var3 = var4 in var5;
+ 509:
+            if(!var3) { _fun0001_ip = 529; continue _fun0001 }
+ 512:
+            var2 = var2.item;
+            var2 = var2.originalContentType;
+            var1['original_content_type'] = var2;
+ 529:
             return var1;
         }
     };

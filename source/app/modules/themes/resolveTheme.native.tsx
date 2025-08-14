@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  68:
             var3 = _closure1_slot6;
             var3 = var3.NO_PREFERENCE;
-            if(!(var2 === var3)) { _fun0001_ip = 297; continue _fun0001 }
+            if(!(var2 === var3)) { _fun0001_ip = 299; continue _fun0001 }
  85:
             var5 = _closure1_slot2;
             var3 = var5.getAppearanceSettings;
@@ -73,12 +73,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var7 = var6 == var5;
             var3 = undefined;
-            if(var7) { _fun0001_ip = 115; continue _fun0001 }
+            if(var7) { _fun0001_ip = 116; continue _fun0001 }
  110:
             var3 = var5.theme;
- 115:
-            if(!(var6 == var3)) { _fun0001_ip = 295; continue _fun0001 }
- 122:
+ 116:
+            if(!(var6 == var3)) { _fun0001_ip = 297; continue _fun0001 }
+ 123:
             var7 = _closure1_slot0;
             var9 = _closure1_slot1;
             var5 = 5;
@@ -86,19 +86,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var8)(var5);
             var5 = var7.shouldIgnoreThemeChange;
             var5 = var5.bind(var7)();
-            if(var5) { _fun0001_ip = 290; continue _fun0001 }
- 158:
+            if(var5) { _fun0001_ip = 292; continue _fun0001 }
+ 159:
             var5 = _closure1_slot4;
             var5 = var5.settings;
             var7 = var5.appearance;
             var9 = var6 == var7;
             var5 = undefined;
-            if(var9) { _fun0001_ip = 188; continue _fun0001 }
- 183:
+            if(var9) { _fun0001_ip = 190; continue _fun0001 }
+ 184:
             var5 = var7.theme;
- 188:
-            if(!(var6 == var5)) { _fun0001_ip = 224; continue _fun0001 }
- 192:
+ 190:
+            if(!(var6 == var5)) { _fun0001_ip = 226; continue _fun0001 }
+ 194:
             var7 = _closure1_slot0;
             var9 = _closure1_slot1;
             var6 = 6;
@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var6 = var6.Theme;
             var5 = var6.UNSET;
- 224:
+ 226:
             var7 = _closure1_slot0;
             var9 = _closure1_slot1;
             var6 = 6;
@@ -114,25 +114,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var6 = var6.Theme;
             var6 = var6.UNSET;
-            if(!(var5 === var6)) { _fun0001_ip = 274; continue _fun0001 }
- 260:
+            if(!(var5 === var6)) { _fun0001_ip = 276; continue _fun0001 }
+ 262:
             var6 = _closure1_slot6;
             var6 = var6.NO_PREFERENCE;
-            if(!(var2 === var6)) { _fun0001_ip = 284; continue _fun0001 }
- 274:
+            if(!(var2 === var6)) { _fun0001_ip = 286; continue _fun0001 }
+ 276:
             var4 = _closure1_slot5;
             var4 = var4[var5];
-            _fun0001_ip = 288; continue _fun0001;
- 284:
+            _fun0001_ip = 290; continue _fun0001;
+ 286:
             var4 = var1[var2];
- 288:
-            return var4;
  290:
+            return var4;
+ 292:
             var4 = arg3;
             return var4;
- 295:
-            return var3;
  297:
+            return var3;
+ 299:
             var1 = var1[var2];
             return var1;
         }

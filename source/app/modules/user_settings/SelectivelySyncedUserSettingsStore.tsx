@@ -315,25 +315,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5 == var2;
             var1 = undefined;
             var4 = undefined;
-            if(var3) { _fun0008_ip = 51; continue _fun0008 }
+            if(var3) { _fun0008_ip = 52; continue _fun0008 }
  16:
             var3 = var2.appearance;
             var6 = var5 == var3;
             var4 = undefined;
-            if(var6) { _fun0008_ip = 51; continue _fun0008 }
+            if(var6) { _fun0008_ip = 52; continue _fun0008 }
  31:
             var3 = var3.settings;
             var5 = var5 == var3;
             var4 = undefined;
-            if(var5) { _fun0008_ip = 51; continue _fun0008 }
+            if(var5) { _fun0008_ip = 52; continue _fun0008 }
  46:
             var4 = var3.theme;
- 51:
+ 52:
             var3 = 'amoled';
-            if(!(var3 !== var4)) { _fun0008_ip = 63; continue _fun0008 }
- 61:
+            if(!(var3 !== var4)) { _fun0008_ip = 64; continue _fun0008 }
+ 62:
             return var1;
- 63:
+ 64:
             var1 = {};
             var8 = var1;
             var7 = var2;

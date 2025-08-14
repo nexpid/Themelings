@@ -17,32 +17,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 'undefined';
             var2 = typeof var2;
             var2 = var4 !== var2;
-            if(!var2) { _fun0001_ip = 46; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 45; continue _fun0001 }
  30:
             var4 = var5.Symbol;
             var4 = var4.iterator;
             var2 = var3[var4];
- 46:
-            if(var2) { _fun0001_ip = 55; continue _fun0001 }
- 49:
+ 45:
+            if(var2) { _fun0001_ip = 54; continue _fun0001 }
+ 48:
             var2 = var3.@@iterator;
- 55:
-            if(var2) { _fun0001_ip = 345; continue _fun0001 }
- 61:
+ 54:
+            if(var2) { _fun0001_ip = 344; continue _fun0001 }
+ 60:
             var6 = var5.Array;
             var4 = var6.isArray;
             var6 = var4.bind(var6)(var3);
             var4 = var2;
-            if(var6) { _fun0001_ip = 323; continue _fun0001 }
- 86:
+            if(var6) { _fun0001_ip = 322; continue _fun0001 }
+ 85:
             var8 = undefined;
             var6 = undefined;
-            if(!var3) { _fun0001_ip = 283; continue _fun0001 }
- 96:
+            if(!var3) { _fun0001_ip = 282; continue _fun0001 }
+ 95:
             var9 = 'string';
             var7 = typeof var3;
-            if(!(var9 !== var7)) { _fun0001_ip = 270; continue _fun0001 }
- 110:
+            if(!(var9 !== var7)) { _fun0001_ip = 269; continue _fun0001 }
+ 109:
             var7 = {};
             var9 = var7.toString;
             var7 = var9.call;
@@ -53,49 +53,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.bind(var11)(var9, var7);
             var7 = 'Object';
             var7 = var7 === var9;
-            if(!var7) { _fun0001_ip = 163; continue _fun0001 }
- 158:
+            if(!var7) { _fun0001_ip = 162; continue _fun0001 }
+ 157:
             var7 = var3.constructor;
- 163:
+ 162:
             var10 = var9;
-            if(!var7) { _fun0001_ip = 179; continue _fun0001 }
- 169:
+            if(!var7) { _fun0001_ip = 178; continue _fun0001 }
+ 168:
             var7 = var3.constructor;
             var10 = var7.name;
- 179:
+ 178:
             var7 = 'Map';
-            if(!(var7 !== var10)) { _fun0001_ip = 249; continue _fun0001 }
- 187:
+            if(!(var7 !== var10)) { _fun0001_ip = 248; continue _fun0001 }
+ 186:
             var7 = 'Set';
-            if(!(var7 !== var10)) { _fun0001_ip = 249; continue _fun0001 }
- 195:
+            if(!(var7 !== var10)) { _fun0001_ip = 248; continue _fun0001 }
+ 194:
             var7 = 'Arguments';
-            if(!(var7 !== var10)) { _fun0001_ip = 234; continue _fun0001 }
- 205:
+            if(!(var7 !== var10)) { _fun0001_ip = 233; continue _fun0001 }
+ 204:
             var9 = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
             var7 = var9.test;
             var9 = var7.bind(var9)(var10);
             var7 = undefined;
-            if(!var9) { _fun0001_ip = 247; continue _fun0001 }
- 234:
+            if(!var9) { _fun0001_ip = 246; continue _fun0001 }
+ 233:
             var9 = _closure1_slot78;
             var7 = var9.bind(var8)(var3, var8);
- 247:
-            _fun0001_ip = 265; continue _fun0001;
- 249:
+ 246:
+            _fun0001_ip = 264; continue _fun0001;
+ 248:
             var10 = var5.Array;
             var9 = var10.from;
             var7 = var9.bind(var10)(var3);
- 265:
+ 264:
             var6 = var7;
-            _fun0001_ip = 283; continue _fun0001;
- 270:
+            _fun0001_ip = 282; continue _fun0001;
+ 269:
             var7 = _closure1_slot78;
             var6 = var7.bind(var8)(var3, var8);
- 283:
+ 282:
             var4 = var6;
-            if(var4) { _fun0001_ip = 323; continue _fun0001 }
- 289:
+            if(var4) { _fun0001_ip = 322; continue _fun0001 }
+ 288:
             var7 = var5.TypeError;
             var5 = var7.prototype;
             var6 = Object.create(var5, {constructor: {value: var7}});
@@ -104,11 +104,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new var14[var7](var13, var12);
             var5 = var5 instanceof Object ? var5 : var6;
             throw var5;
- 323:
-            if(!var4) { _fun0001_ip = 330; continue _fun0001 }
- 326:
+ 322:
+            if(!var4) { _fun0001_ip = 329; continue _fun0001 }
+ 325:
             _closure2_slot0 = var4;
- 330:
+ 329:
             var4 = 0;
             var _closure2_slot1 = var4;
             var1 = function() {
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             return var1;
- 345:
+ 344:
             var1 = var2.call;
             var3 = var1.bind(var2)(var3);
             var2 = var3.next;
@@ -2065,6 +2065,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure3_slot0;
                     var1 = var2.getHandlers;
                     var3 = var1.bind(var2)();
+                    var2 = var3.handleTapJoinRichPresence;
+                    var1 = arg1;
+                    var1 = var2.bind(var3)(var1);
+                    return var1;
+                };
+                var1['handleTapJoinRichPresence'] = var4;
+                var4 = function(arg1) {
+                    var2 = _closure3_slot0;
+                    var1 = var2.getHandlers;
+                    var3 = var1.bind(var2)();
                     var2 = var3.handleTapGiftCodeEmbed;
                     var1 = arg1;
                     var1 = var2.bind(var3)(var1);
@@ -3721,7 +3731,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var2.props;
                 var4 = var4.currentUserId;
                 var7 = null;
-                if(!(var7 != var4)) { _fun0040_ip = 3208; continue _fun0040 }
+                if(!(var7 != var4)) { _fun0040_ip = 3210; continue _fun0040 }
  36:
                 var4 = var2.props;
                 var4 = var4.messages;
@@ -3951,31 +3961,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  866:
                 var13 = var12;
  869:
-                if(var13) { _fun0040_ip = 891; continue _fun0040 }
+                if(var13) { _fun0040_ip = 893; continue _fun0040 }
  872:
                 var15 = var3.theme;
                 var12 = var2.props;
                 var12 = var12.theme;
                 var13 = var15 !== var12;
- 891:
+ 893:
                 var15 = var3.resolvingGiftCodes;
                 var12 = var2.props;
                 var12 = var12.resolvingGiftCodes;
                 var33 = var15 !== var12;
-                if(var33) { _fun0040_ip = 936; continue _fun0040 }
- 915:
+                if(var33) { _fun0040_ip = 938; continue _fun0040 }
+ 917:
                 var15 = var3.resolvedGiftCodes;
                 var12 = var2.props;
                 var12 = var12.resolvedGiftCodes;
                 var33 = var15 !== var12;
- 936:
-                if(var33) { _fun0040_ip = 960; continue _fun0040 }
- 939:
+ 938:
+                if(var33) { _fun0040_ip = 962; continue _fun0040 }
+ 941:
                 var15 = var3.acceptingGiftCodes;
                 var12 = var2.props;
                 var12 = var12.acceptingGiftCodes;
                 var33 = var15 !== var12;
- 960:
+ 962:
                 var _closure3_slot2 = var33;
                 var32 = var3.uploads;
                 var12 = var2.props;
@@ -4028,13 +4038,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = var12.channel;
                 var12 = var15.isForumPost;
                 var22 = var12.bind(var15)();
-                if(!var22) { _fun0040_ip = 1242; continue _fun0040 }
- 1221:
+                if(!var22) { _fun0040_ip = 1244; continue _fun0040 }
+ 1223:
                 var15 = var3.isFollowingForumPost;
                 var12 = var2.props;
                 var12 = var12.isFollowingForumPost;
                 var22 = var15 !== var12;
- 1242:
+ 1244:
                 var _closure3_slot10 = var22;
                 var15 = var3.showMediaPostSharePrompt;
                 var12 = var2.props;
@@ -4055,38 +4065,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = var2.props;
                 var15 = var15.activityInstanceIds;
                 var30 = var18 !== var15;
-                if(var30) { _fun0040_ip = 1366; continue _fun0040 }
- 1345:
+                if(var30) { _fun0040_ip = 1368; continue _fun0040 }
+ 1347:
                 var18 = var3.activityParticipants;
                 var15 = var2.props;
                 var15 = var15.activityParticipants;
                 var30 = var18 !== var15;
- 1366:
-                if(var30) { _fun0040_ip = 1390; continue _fun0040 }
- 1369:
+ 1368:
+                if(var30) { _fun0040_ip = 1392; continue _fun0040 }
+ 1371:
                 var18 = var3.applicationAssetFetchingIds;
                 var15 = var2.props;
                 var15 = var15.applicationAssetFetchingIds;
                 var30 = var18 !== var15;
- 1390:
-                if(var30) { _fun0040_ip = 1414; continue _fun0040 }
- 1393:
+ 1392:
+                if(var30) { _fun0040_ip = 1416; continue _fun0040 }
+ 1395:
                 var18 = var3.activityInstancePresenceDetails;
                 var15 = var2.props;
                 var15 = var15.activityInstancePresenceDetails;
                 var30 = var18 !== var15;
- 1414:
-                if(var30) { _fun0040_ip = 1438; continue _fun0040 }
- 1417:
+ 1416:
+                if(var30) { _fun0040_ip = 1440; continue _fun0040 }
+ 1419:
                 var18 = var3.messagesWithActivitiesLaunching;
                 var15 = var2.props;
                 var15 = var15.messagesWithActivitiesLaunching;
                 var30 = var18 !== var15;
- 1438:
-                if(var30) { _fun0040_ip = 1444; continue _fun0040 }
- 1441:
+ 1440:
+                if(var30) { _fun0040_ip = 1446; continue _fun0040 }
+ 1443:
                 var30 = var12;
- 1444:
+ 1446:
                 var _closure3_slot14 = var30;
                 var15 = _closure1_slot0;
                 var12 = _closure1_slot2;
@@ -4107,20 +4117,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var12.resolvedReferralTrialOfferIds;
                 var12 = var17.bind(var34)(var15, var12);
                 var17 = !var12;
-                if(var17) { _fun0040_ip = 1566; continue _fun0040 }
- 1545:
+                if(var17) { _fun0040_ip = 1568; continue _fun0040 }
+ 1547:
                 var15 = var3.referralTrialOfferId;
                 var12 = var2.props;
                 var12 = var12.referralTrialOfferId;
                 var17 = var15 !== var12;
- 1566:
-                if(var17) { _fun0040_ip = 1590; continue _fun0040 }
- 1569:
+ 1568:
+                if(var17) { _fun0040_ip = 1592; continue _fun0040 }
+ 1571:
                 var15 = var3.isPremiumTier2User;
                 var12 = var2.props;
                 var12 = var12.isPremiumTier2User;
                 var17 = var15 !== var12;
- 1590:
+ 1592:
                 var _closure3_slot16 = var17;
                 var15 = var3.guildInviteColorsFetched;
                 var12 = var2.props;
@@ -4132,220 +4142,220 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var12.guildEmojis;
                 var12 = var34 !== var12;
                 var _closure3_slot18 = var12;
-                if(var13) { _fun0040_ip = 2563; continue _fun0040 }
- 1650:
-                if(var33) { _fun0040_ip = 2563; continue _fun0040 }
- 1656:
-                if(!(var32 === var31)) { _fun0040_ip = 2563; continue _fun0040 }
- 1663:
-                if(var30) { _fun0040_ip = 2563; continue _fun0040 }
- 1669:
+                if(var13) { _fun0040_ip = 2565; continue _fun0040 }
+ 1652:
+                if(var33) { _fun0040_ip = 2565; continue _fun0040 }
+ 1658:
+                if(!(var32 === var31)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1665:
+                if(var30) { _fun0040_ip = 2565; continue _fun0040 }
+ 1671:
                 var31 = var3.messages;
                 var30 = var2.props;
                 var30 = var30.messages;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1693:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1695:
                 var31 = var3.editingMessageId;
                 var30 = var2.props;
                 var30 = var30.editingMessageId;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1717:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1719:
                 var31 = var3.replyingMessageId;
                 var30 = var2.props;
                 var30 = var30.replyingMessageId;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1741:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1743:
                 var31 = var3.voiceStateChannelId;
                 var30 = var2.props;
                 var30 = var30.voiceStateChannelId;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1765:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1767:
                 var31 = var3.messageAuthorActivities;
                 var30 = var2.props;
                 var30 = var30.messageAuthorActivities;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1789:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1791:
                 var31 = var3.oldestUnreadMessageId;
                 var30 = var2.props;
                 var30 = var30.oldestUnreadMessageId;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1813:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1815:
                 var31 = var3.invites;
                 var30 = var2.props;
                 var30 = var30.invites;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1837:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1839:
                 var31 = var3.appDirectoryEmbedApplications;
                 var30 = var2.props;
                 var30 = var30.appDirectoryEmbedApplications;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1861:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1863:
                 var31 = var3.invalidAppDirectoryEmbedApplicationIds;
                 var30 = var2.props;
                 var30 = var30.invalidAppDirectoryEmbedApplicationIds;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1885:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1887:
                 var31 = var3.appDirectoryEmbedApplicationFetchStates;
                 var30 = var2.props;
                 var30 = var30.appDirectoryEmbedApplicationFetchStates;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1909:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1911:
                 var31 = var3.guildTemplates;
                 var30 = var2.props;
                 var30 = var30.guildTemplates;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1933:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1935:
                 var31 = var3.buildOverrides;
                 var30 = var2.props;
                 var30 = var30.buildOverrides;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1957:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1959:
                 var31 = var3.quests;
                 var30 = var2.props;
                 var30 = var30.quests;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 1981:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 1983:
                 var31 = var3.isFetchingCurrentQuests;
                 var30 = var2.props;
                 var30 = var30.isFetchingCurrentQuests;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2005:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2007:
                 var31 = var3.participantsLength;
                 var30 = var2.props;
                 var30 = var30.participantsLength;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2029:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2031:
                 var31 = var3.isMessagesReady;
                 var30 = var2.props;
                 var30 = var30.isMessagesReady;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2053:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2055:
                 var31 = var3.channelThreadsVersion;
                 var30 = var2.props;
                 var30 = var30.channelThreadsVersion;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2077:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2079:
                 var31 = var3.rsvpVersion;
                 var30 = var2.props;
                 var30 = var30.rsvpVersion;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2101:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2103:
                 var31 = var3.repliedIds;
                 var30 = var2.props;
                 var30 = var30.repliedIds;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2125:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2127:
                 var31 = var3.hasLoadedExperiments;
                 var30 = var2.props;
                 var30 = var30.hasLoadedExperiments;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2149:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2151:
                 var31 = var3.isMessageRequest;
                 var30 = var2.props;
                 var30 = var30.isMessageRequest;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2173:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2175:
                 var31 = var3.isSpamMessageRequest;
                 var30 = var2.props;
                 var30 = var30.isSpamMessageRequest;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2197:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2199:
                 var31 = var3.currentUserCommunicationDisabled;
                 var30 = var2.props;
                 var30 = var30.currentUserCommunicationDisabled;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2221:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2223:
                 var31 = var3.userSettingsLocale;
                 var30 = var2.props;
                 var30 = var30.userSettingsLocale;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2245:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2247:
                 var31 = var3.selectedSummary;
                 var30 = var2.props;
                 var30 = var30.selectedSummary;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2269:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2271:
                 var31 = var3.showPushFeedback;
                 var30 = var2.props;
                 var30 = var30.showPushFeedback;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2293:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2295:
                 var31 = var3.cacheStoreLoaded;
                 var30 = var2.props;
                 var30 = var30.cacheStoreLoaded;
-                if(!(var31 === var30)) { _fun0040_ip = 2563; continue _fun0040 }
- 2317:
-                if(var29) { _fun0040_ip = 2563; continue _fun0040 }
- 2323:
-                if(var28) { _fun0040_ip = 2563; continue _fun0040 }
- 2329:
-                if(!(var27 === var26)) { _fun0040_ip = 2563; continue _fun0040 }
- 2336:
-                if(var25) { _fun0040_ip = 2563; continue _fun0040 }
- 2342:
-                if(var24) { _fun0040_ip = 2563; continue _fun0040 }
- 2348:
-                if(var23) { _fun0040_ip = 2563; continue _fun0040 }
- 2354:
-                if(var22) { _fun0040_ip = 2563; continue _fun0040 }
- 2360:
-                if(!(var7 == var10)) { _fun0040_ip = 2563; continue _fun0040 }
- 2367:
-                if(!(var7 == var8)) { _fun0040_ip = 2563; continue _fun0040 }
- 2374:
+                if(!(var31 === var30)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2319:
+                if(var29) { _fun0040_ip = 2565; continue _fun0040 }
+ 2325:
+                if(var28) { _fun0040_ip = 2565; continue _fun0040 }
+ 2331:
+                if(!(var27 === var26)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2338:
+                if(var25) { _fun0040_ip = 2565; continue _fun0040 }
+ 2344:
+                if(var24) { _fun0040_ip = 2565; continue _fun0040 }
+ 2350:
+                if(var23) { _fun0040_ip = 2565; continue _fun0040 }
+ 2356:
+                if(var22) { _fun0040_ip = 2565; continue _fun0040 }
+ 2362:
+                if(!(var7 == var10)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2369:
+                if(!(var7 == var8)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2376:
                 var23 = var3.androidKeyboardHeight;
                 var22 = var2.props;
                 var22 = var22.androidKeyboardHeight;
-                if(!(var23 === var22)) { _fun0040_ip = 2563; continue _fun0040 }
- 2398:
+                if(!(var23 === var22)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2400:
                 var23 = var3.mediaPostPreviewEmbeds;
                 var22 = var2.props;
                 var22 = var22.mediaPostPreviewEmbeds;
-                if(!(var23 === var22)) { _fun0040_ip = 2563; continue _fun0040 }
- 2422:
+                if(!(var23 === var22)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2424:
                 var23 = var3.shouldObscureSpoiler;
                 var22 = var2.props;
                 var22 = var22.shouldObscureSpoiler;
-                if(!(var23 === var22)) { _fun0040_ip = 2563; continue _fun0040 }
- 2443:
+                if(!(var23 === var22)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2445:
                 var23 = var3.shouldFilterKeywords;
                 var22 = var2.props;
                 var22 = var22.shouldFilterKeywords;
-                if(!(var23 === var22)) { _fun0040_ip = 2563; continue _fun0040 }
- 2464:
+                if(!(var23 === var22)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2466:
                 var23 = var3.shouldDisableInteractiveComponents;
                 var22 = var2.props;
                 var22 = var22.shouldDisableInteractiveComponents;
-                if(!(var23 === var22)) { _fun0040_ip = 2563; continue _fun0040 }
- 2485:
-                if(var21) { _fun0040_ip = 2563; continue _fun0040 }
- 2488:
-                if(var20) { _fun0040_ip = 2563; continue _fun0040 }
- 2491:
+                if(!(var23 === var22)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2487:
+                if(var21) { _fun0040_ip = 2565; continue _fun0040 }
+ 2490:
+                if(var20) { _fun0040_ip = 2565; continue _fun0040 }
+ 2493:
                 var21 = var3.threadStartingReferenceMessage;
                 var20 = var2.props;
                 var20 = var20.threadStartingReferenceMessage;
-                if(!(var21 === var20)) { _fun0040_ip = 2563; continue _fun0040 }
- 2512:
-                if(var19) { _fun0040_ip = 2563; continue _fun0040 }
- 2515:
+                if(!(var21 === var20)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2514:
+                if(var19) { _fun0040_ip = 2565; continue _fun0040 }
+ 2517:
                 var20 = var3.applications;
                 var19 = var2.props;
                 var19 = var19.applications;
-                if(!(var20 === var19)) { _fun0040_ip = 2563; continue _fun0040 }
- 2536:
-                if(var18) { _fun0040_ip = 2563; continue _fun0040 }
- 2539:
-                if(var17) { _fun0040_ip = 2563; continue _fun0040 }
- 2542:
-                if(var15) { _fun0040_ip = 2563; continue _fun0040 }
- 2545:
-                if(var12) { _fun0040_ip = 2563; continue _fun0040 }
- 2548:
+                if(!(var20 === var19)) { _fun0040_ip = 2565; continue _fun0040 }
+ 2538:
+                if(var18) { _fun0040_ip = 2565; continue _fun0040 }
+ 2541:
+                if(var17) { _fun0040_ip = 2565; continue _fun0040 }
+ 2544:
+                if(var15) { _fun0040_ip = 2565; continue _fun0040 }
+ 2547:
+                if(var12) { _fun0040_ip = 2565; continue _fun0040 }
+ 2550:
                 var12 = var2.recordTimings;
                 var12 = var12.bind(var2)();
-                _fun0040_ip = 3208; continue _fun0040;
- 2563:
+                _fun0040_ip = 3210; continue _fun0040;
+ 2565:
                 var12 = global;
                 var12 = var12.Set;
                 var15 = var12.prototype;
@@ -4357,65 +4367,65 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var17 = var3.editingMessageId;
                 var15 = var2.props;
                 var15 = var15.editingMessageId;
-                if(!(var17 !== var15)) { _fun0040_ip = 2678; continue _fun0040 }
- 2616:
+                if(!(var17 !== var15)) { _fun0040_ip = 2680; continue _fun0040 }
+ 2618:
                 var15 = var2.props;
                 var15 = var15.editingMessageId;
-                if(!(var7 != var15)) { _fun0040_ip = 2652; continue _fun0040 }
- 2631:
+                if(!(var7 != var15)) { _fun0040_ip = 2654; continue _fun0040 }
+ 2633:
                 var17 = var12.add;
                 var15 = var2.props;
                 var15 = var15.editingMessageId;
                 var15 = var17.bind(var12)(var15);
- 2652:
+ 2654:
                 var15 = var3.editingMessageId;
-                if(!(var7 != var15)) { _fun0040_ip = 2678; continue _fun0040 }
- 2662:
+                if(!(var7 != var15)) { _fun0040_ip = 2680; continue _fun0040 }
+ 2664:
                 var17 = var12.add;
                 var15 = var3.editingMessageId;
                 var15 = var17.bind(var12)(var15);
- 2678:
+ 2680:
                 var17 = var3.replyingMessageId;
                 var15 = var2.props;
                 var15 = var15.replyingMessageId;
-                if(!(var17 !== var15)) { _fun0040_ip = 2761; continue _fun0040 }
- 2699:
+                if(!(var17 !== var15)) { _fun0040_ip = 2763; continue _fun0040 }
+ 2701:
                 var15 = var2.props;
                 var15 = var15.replyingMessageId;
-                if(!(var7 != var15)) { _fun0040_ip = 2735; continue _fun0040 }
- 2714:
+                if(!(var7 != var15)) { _fun0040_ip = 2737; continue _fun0040 }
+ 2716:
                 var17 = var12.add;
                 var15 = var2.props;
                 var15 = var15.replyingMessageId;
                 var15 = var17.bind(var12)(var15);
- 2735:
+ 2737:
                 var15 = var3.replyingMessageId;
-                if(!(var7 != var15)) { _fun0040_ip = 2761; continue _fun0040 }
- 2745:
+                if(!(var7 != var15)) { _fun0040_ip = 2763; continue _fun0040 }
+ 2747:
                 var17 = var12.add;
                 var15 = var3.replyingMessageId;
                 var15 = var17.bind(var12)(var15);
- 2761:
+ 2763:
                 var17 = var3.isMessagesReady;
                 var15 = var2.props;
                 var15 = var15.isMessagesReady;
-                if(!(var17 === var15)) { _fun0040_ip = 2845; continue _fun0040 }
- 2782:
+                if(!(var17 === var15)) { _fun0040_ip = 2847; continue _fun0040 }
+ 2784:
                 var17 = var3.isCallActive;
                 var15 = var2.props;
                 var15 = var15.isCallActive;
-                if(!(var17 === var15)) { _fun0040_ip = 2845; continue _fun0040 }
- 2803:
+                if(!(var17 === var15)) { _fun0040_ip = 2847; continue _fun0040 }
+ 2805:
                 var17 = var3.voiceStateChannelId;
                 var15 = var2.props;
                 var15 = var15.voiceStateChannelId;
-                if(!(var17 === var15)) { _fun0040_ip = 2845; continue _fun0040 }
- 2824:
+                if(!(var17 === var15)) { _fun0040_ip = 2847; continue _fun0040 }
+ 2826:
                 var17 = var3.participantsLength;
                 var15 = var2.props;
                 var15 = var15.participantsLength;
-                if(!(var17 !== var15)) { _fun0040_ip = 2934; continue _fun0040 }
- 2845:
+                if(!(var17 !== var15)) { _fun0040_ip = 2936; continue _fun0040 }
+ 2847:
                 var15 = _closure1_slot1;
                 var17 = _closure1_slot2;
                 var14 = 62;
@@ -4437,12 +4447,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var14 = var16.bind(var17)(var15, var14);
-                if(!(var7 != var14)) { _fun0040_ip = 2934; continue _fun0040 }
- 2919:
+                if(!(var7 != var14)) { _fun0040_ip = 2936; continue _fun0040 }
+ 2921:
                 var15 = var12.add;
                 var14 = var14.id;
                 var14 = var15.bind(var12)(var14);
- 2934:
+ 2936:
                 var15 = var3.channelThreadsVersion;
                 var14 = var2.props;
                 var14 = var14.channelThreadsVersion;
@@ -4466,18 +4476,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = var3.communicationDisabledVersion;
                 var15 = var7 != var14;
                 var7 = -1;
-                if(!var15) { _fun0040_ip = 3056; continue _fun0040 }
- 3053:
+                if(!var15) { _fun0040_ip = 3058; continue _fun0040 }
+ 3055:
                 var7 = var14;
- 3056:
+ 3058:
                 var _closure3_slot24 = var7;
                 var3 = var3.cacheStoreLoaded;
                 var7 = !var3;
-                if(!var7) { _fun0040_ip = 3083; continue _fun0040 }
- 3072:
+                if(!var7) { _fun0040_ip = 3085; continue _fun0040 }
+ 3074:
                 var3 = var2.props;
                 var7 = var3.cacheStoreLoaded;
- 3083:
+ 3085:
                 var _closure3_slot25 = var7;
                 var3 = var2.props;
                 var14 = var3.messages;
@@ -4954,7 +4964,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var2)(var1);
                 var1 = var2.recordTimings;
                 var1 = var1.bind(var2)();
- 3208:
+ 3210:
                 var1 = undefined;
                 return var1;
             }
@@ -5361,6 +5371,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['onTapInviteEmbedAccept'] = var16;
             var16 = var11.handleTapJoinActivity;
             var5['onTapJoinActivity'] = var16;
+            var16 = var11.handleTapJoinRichPresence;
+            var5['onTapJoinRichPresence'] = var16;
             var5['onPressKey'] = var15;
             var5['animateEmoji'] = var14;
             var14 = var11.handleTapGiftCodeEmbed;
@@ -7277,10 +7289,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['interactionStates'] = var48;
             var6['interactionComponentStates'] = var47;
             var6['interactionComponentStatesVersion'] = var46;
-            if(!var44) { _fun0045_ip = 3790; continue _fun0045 }
- 3787:
+            if(!var44) { _fun0045_ip = 3791; continue _fun0045 }
+ 3788:
             var44 = var45;
- 3790:
+ 3791:
             var6['hasLoadedExperiments'] = var44;
             var6['guildSystemChannelFlags'] = var43;
             var6['currentUserCommunicationDisabled'] = var42;
@@ -7309,18 +7321,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['resolvedReferralTrialOfferIds'] = var21;
             var21 = var19 == var20;
             var19 = undefined;
-            if(var21) { _fun0045_ip = 3934; continue _fun0045 }
- 3929:
+            if(var21) { _fun0045_ip = 3935; continue _fun0045 }
+ 3930:
             var19 = var20.id;
- 3934:
+ 3935:
             var6['referralTrialOfferId'] = var19;
             var6['isPremiumTier2User'] = var18;
             var6['activityInviteMessageIds'] = var17;
             var14 = 0;
-            if(var16) { _fun0045_ip = 3957; continue _fun0045 }
- 3954:
+            if(var16) { _fun0045_ip = 3958; continue _fun0045 }
+ 3955:
             var14 = var15;
- 3957:
+ 3958:
             var6['guildInviteColorsFetched'] = var14;
             var6['isAgeVerified'] = var13;
             var6['guildEmojis'] = var12;

@@ -8770,12 +8770,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var7[var10];
     var11 = var6.bind(var1)(var11);
     var11 = var11.Color;
-    var11 = var11.PRIMARY_600;
+    var11 = var11.PLUM_23;
     var5[2] = var11;
     var11 = var7[var10];
     var11 = var6.bind(var1)(var11);
     var11 = var11.Color;
-    var11 = var11.PRIMARY_600;
+    var11 = var11.PLUM_18;
     var5[3] = var11;
     var8[var9] = var5;
     var9 = var2.EMBED_TITLE;

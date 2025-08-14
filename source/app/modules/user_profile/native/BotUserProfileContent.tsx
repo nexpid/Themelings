@@ -214,10 +214,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var2.containerBackground;
             var20 = var2.avatarBackground;
             var21 = var2.statusBackground;
-            if(!(var1 != var14)) { _fun0001_ip = 2016; continue _fun0001 }
- 539:
-            if(!(var1 != var34)) { _fun0001_ip = 2016; continue _fun0001 }
- 546:
+            if(!(var1 != var14)) { _fun0001_ip = 2018; continue _fun0001 }
+ 541:
+            if(!(var1 != var34)) { _fun0001_ip = 2018; continue _fun0001 }
+ 548:
             var29 = function handleCopyUsername() {
                 var4 = _closure2_slot2;
                 var3 = {};
@@ -265,16 +265,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17['user'] = var14;
             var25 = var1 == var26;
             var31 = undefined;
-            if(var25) { _fun0001_ip = 653; continue _fun0001 }
- 648:
+            if(var25) { _fun0001_ip = 655; continue _fun0001 }
+ 650:
             var31 = var26.guildId;
- 653:
+ 655:
             var32 = var1 != var31;
             var25 = undefined;
-            if(!var32) { _fun0001_ip = 665; continue _fun0001 }
- 662:
+            if(!var32) { _fun0001_ip = 667; continue _fun0001 }
+ 664:
             var25 = var31;
- 665:
+ 667:
             var17['guildId'] = var25;
             var17['backgroundColor'] = var20;
             var20 = {};
@@ -299,10 +299,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = {};
             var25 = var1 != var23;
             var21 = 0;
-            if(var25) { _fun0001_ip = 768; continue _fun0001 }
- 764:
+            if(var25) { _fun0001_ip = 770; continue _fun0001 }
+ 766:
             var21 = _closure1_slot7;
- 768:
+ 770:
             var15['paddingTop'] = var21;
             var21 = _closure1_slot6;
             var21 = var24 + var21;
@@ -383,10 +383,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['displayName'] = var30;
             var31 = var1 == var26;
             var30 = undefined;
-            if(var31) { _fun0001_ip = 941; continue _fun0001 }
- 935:
+            if(var31) { _fun0001_ip = 943; continue _fun0001 }
+ 937:
             var30 = var26.pronouns;
- 941:
+ 943:
             var11['pronouns'] = var30;
             var11['badges'] = var27;
             var11['badgeContainerBackground'] = var9;
@@ -446,8 +446,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29['maxWidth'] = var11;
             var15 = var1 != var13;
             var11 = undefined;
-            if(!var15) { _fun0001_ip = 1283; continue _fun0001 }
- 1138:
+            if(!var15) { _fun0001_ip = 1285; continue _fun0001 }
+ 1140:
             var27 = _closure1_slot0;
             var32 = _closure1_slot2;
             var15 = 31;
@@ -456,8 +456,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var27.canInstallApplication;
             var15 = var15.bind(var27)(var13);
             var11 = undefined;
-            if(!var15) { _fun0001_ip = 1283; continue _fun0001 }
- 1174:
+            if(!var15) { _fun0001_ip = 1285; continue _fun0001 }
+ 1176:
             var32 = _closure1_slot9;
             var27 = _closure1_slot1;
             var35 = _closure1_slot2;
@@ -470,17 +470,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['botUserId'] = var35;
             var38 = var1 != var12;
             var35 = undefined;
-            if(!var38) { _fun0001_ip = 1226; continue _fun0001 }
- 1223:
+            if(!var38) { _fun0001_ip = 1228; continue _fun0001 }
+ 1225:
             var35 = var12;
- 1226:
+ 1228:
             var15['channel'] = var35;
             var38 = var1 != var33;
             var35 = undefined;
-            if(!var38) { _fun0001_ip = 1242; continue _fun0001 }
- 1239:
+            if(!var38) { _fun0001_ip = 1244; continue _fun0001 }
+ 1241:
             var35 = var33;
- 1242:
+ 1244:
             var15['guildId'] = var35;
             var38 = _closure1_slot1;
             var42 = _closure1_slot2;
@@ -490,7 +490,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var35 = var35.hideActionSheet;
             var15['onOpenApp'] = var35;
             var11 = var32.bind(var5)(var27, var15);
- 1283:
+ 1285:
             var29['primaryButton'] = var11;
             var15 = _closure1_slot9;
             var38 = _closure1_slot0;
@@ -614,8 +614,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var15.bind(var5)(var11, var9);
             var25[1] = var9;
             var9 = var1 != var33;
-            if(!var9) { _fun0001_ip = 1842; continue _fun0001 }
- 1701:
+            if(!var9) { _fun0001_ip = 1844; continue _fun0001 }
+ 1703:
             var26 = _closure1_slot10;
             var15 = _closure1_slot11;
             var11 = {};
@@ -642,10 +642,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var30['guildId'] = var33;
             var34 = var1 == var12;
             var33 = undefined;
-            if(var34) { _fun0001_ip = 1809; continue _fun0001 }
- 1804:
+            if(var34) { _fun0001_ip = 1811; continue _fun0001 }
+ 1806:
             var33 = var12.id;
- 1809:
+ 1811:
             var30['channelId'] = var33;
             var30['showUserProfile'] = var28;
             var30['style'] = var29;
@@ -653,7 +653,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var27[1] = var30;
             var11['children'] = var27;
             var9 = var26.bind(var5)(var15, var11);
- 1842:
+ 1844:
             var25[2] = var9;
             var9 = _closure1_slot9;
             var11 = _closure1_slot1;
@@ -695,7 +695,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 2016:
+ 2018:
             return var1;
         }
     };

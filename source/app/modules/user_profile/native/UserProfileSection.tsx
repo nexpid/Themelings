@@ -109,14 +109,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var16.contentContainer;
             var24 = var11;
             var3 = copyDataProperties(var24, var23);
-            if(!(var10 != var2)) { _fun0001_ip = 173; continue _fun0001 }
- 169:
-            if(!(var10 == var1)) { _fun0001_ip = 187; continue _fun0001 }
- 173:
+            if(!(var10 != var2)) { _fun0001_ip = 174; continue _fun0001 }
+ 170:
+            if(!(var10 == var1)) { _fun0001_ip = 188; continue _fun0001 }
+ 174:
             var2 = var16.contentContainer;
             var2 = var2.borderColor;
-            _fun0001_ip = 247; continue _fun0001;
- 187:
+            _fun0001_ip = 248; continue _fun0001;
+ 188:
             var18 = _closure1_slot0;
             var19 = _closure1_slot1;
             var3 = 7;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var14];
             var1 = var1.dividerOpacity;
             var2 = var7.bind(var13)(var3, var1);
- 247:
+ 248:
             var1 = 'borderColor';
             var11[var1] = var2;
             var3 = _closure1_slot4;
@@ -146,8 +146,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = copyDataProperties(var24, var23);
             var6 = var10 != var20;
             var7 = null;
-            if(!var6) { _fun0001_ip = 437; continue _fun0001 }
- 309:
+            if(!var6) { _fun0001_ip = 438; continue _fun0001 }
+ 310:
             var13 = _closure1_slot4;
             var8 = _closure1_slot2;
             var6 = {};
@@ -176,17 +176,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14[1] = var15;
             var6['children'] = var14;
             var7 = var13.bind(var4)(var8, var6);
- 437:
+ 438:
             var6 = new Array(2);
             var6[0] = var7;
             var8 = _closure1_slot3;
             var7 = _closure1_slot2;
             var5 = {};
             var10 = null;
-            if(!var12) { _fun0001_ip = 463; continue _fun0001 }
- 460:
+            if(!var12) { _fun0001_ip = 464; continue _fun0001 }
+ 461:
             var10 = var11;
- 463:
+ 464:
             var5['style'] = var10;
             var5['children'] = var9;
             var5 = var8.bind(var4)(var7, var5);

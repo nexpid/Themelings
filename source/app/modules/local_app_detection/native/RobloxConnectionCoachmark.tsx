@@ -31,10 +31,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ROBLOX;
             var6 = var3.bind(var6)(var2);
             var7 = 'white';
-            if(!var1) { _fun0001_ip = 99; continue _fun0001 }
- 95:
+            if(!var1) { _fun0001_ip = 100; continue _fun0001 }
+ 96:
             var7 = 'black';
- 99:
+ 100:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 26;
@@ -42,13 +42,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var3.makeSource;
             var6 = var6.icon;
-            if(var1) { _fun0001_ip = 141; continue _fun0001 }
- 133:
+            if(var1) { _fun0001_ip = 142; continue _fun0001 }
+ 134:
             var1 = var6.lightPNG;
-            _fun0001_ip = 147; continue _fun0001;
- 141:
+            _fun0001_ip = 148; continue _fun0001;
+ 142:
             var1 = var6.darkPNG;
- 147:
+ 148:
             var8 = var2.bind(var3)(var1);
             var3 = _closure1_slot13;
             var2 = _closure1_slot5;
@@ -97,10 +97,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.isThemeDark;
             var1 = var1.bind(var2)(var3);
             var16 = 'black';
-            if(!var1) { _fun0002_ip = 55; continue _fun0002 }
- 51:
+            if(!var1) { _fun0002_ip = 56; continue _fun0002 }
+ 52:
             var16 = 'white';
- 55:
+ 56:
             var3 = _closure1_slot14;
             var2 = _closure1_slot1;
             var17 = _closure1_slot2;

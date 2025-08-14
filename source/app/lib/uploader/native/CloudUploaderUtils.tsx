@@ -142,10 +142,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = 4;
         var3 = var3[var2];
         var2 = undefined;
-        var3 = var4.bind(var2)(var3);
-        var2 = var3.uniqueId;
-        var2 = var2.bind(var3)();
-        var1['id'] = var2;
+        var4 = var4.bind(var2)(var3);
+        var3 = var4.uniqueId;
+        var3 = var3.bind(var4)();
+        var1['id'] = var3;
+        var1['original_content_type'] = var2;
         return var1;
     };
     var1 = global;

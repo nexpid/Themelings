@@ -103,15 +103,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot6;
             var3 = var3.totalUnavailableGuilds;
             var4 = 0;
-            if(!(!(var3 > var4))) { _fun0002_ip = 141; continue _fun0002 }
- 22:
+            if(!(!(var3 > var4))) { _fun0002_ip = 146; continue _fun0002 }
+ 25:
             var5 = _closure1_slot5;
             var3 = var5.isConnected;
             var3 = var3.bind(var5)();
-            if(var3) { _fun0002_ip = 41; continue _fun0002 }
- 39:
+            if(var3) { _fun0002_ip = 44; continue _fun0002 }
+ 42:
             return var1;
- 41:
+ 44:
             var5 = var1.map;
             var3 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 0;
             var3 = arraySpread(var12, var11, var10);
             return var2;
- 141:
+ 146:
             return var1;
         }
     };
@@ -493,7 +493,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var4);
             var _closure2_slot0 = var5;
             var4 = null;
-            if(!(var4 != var5)) { _fun0006_ip = 87; continue _fun0006 }
+            if(!(var4 != var5)) { _fun0006_ip = 89; continue _fun0006 }
  29:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -579,7 +579,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var2 = var5.bind(var6)(var3, var2, var4);
- 87:
+ 89:
             return var1;
         }
     };
@@ -593,7 +593,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var4);
             var _closure2_slot0 = var5;
             var4 = null;
-            if(!(var4 != var5)) { _fun0008_ip = 87; continue _fun0008 }
+            if(!(var4 != var5)) { _fun0008_ip = 89; continue _fun0008 }
  29:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -637,7 +637,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var2 = var5.bind(var6)(var3, var2, var4);
- 87:
+ 89:
             return var1;
         }
     };

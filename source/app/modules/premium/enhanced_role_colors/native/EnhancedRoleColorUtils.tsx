@@ -15,11 +15,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.theme;
             var2 = _closure1_slot7;
             var2 = var2.LIGHT;
-            if(!(var3 === var2)) { _fun0001_ip = 167; continue _fun0001 }
- 32:
+            if(!(var3 === var2)) { _fun0001_ip = 168; continue _fun0001 }
+ 33:
             var2 = null;
-            if(!(var2 != var4)) { _fun0001_ip = 167; continue _fun0001 }
- 41:
+            if(!(var2 != var4)) { _fun0001_ip = 168; continue _fun0001 }
+ 42:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var2 = 5;
@@ -49,16 +49,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var6)();
             var2 = var3.bind(var5)(var2);
             return var2;
- 167:
+ 168:
             var3 = _closure1_slot5;
             var1 = null;
             var5 = var1 != var4;
             var2 = undefined;
             var1 = undefined;
-            if(!var5) { _fun0001_ip = 187; continue _fun0001 }
- 184:
+            if(!var5) { _fun0001_ip = 188; continue _fun0001 }
+ 185:
             var1 = var4;
- 187:
+ 188:
             var1 = var3.bind(var2)(var1);
             return var1;
         }

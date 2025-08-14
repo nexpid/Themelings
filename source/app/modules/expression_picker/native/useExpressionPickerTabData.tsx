@@ -166,13 +166,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['expressionPickerSelectedIndex'] = var5;
             var6 = var4.length;
-            if(!(!(var5 < var6))) { _fun0001_ip = 127; continue _fun0001 }
- 121:
+            if(!(!(var5 < var6))) { _fun0001_ip = 129; continue _fun0001 }
+ 123:
             var3 = var4[var3];
-            _fun0001_ip = 131; continue _fun0001;
- 127:
+            _fun0001_ip = 133; continue _fun0001;
+ 129:
             var3 = var4[var5];
- 131:
+ 133:
             var3 = var3.viewType;
             var1['expressionPickerViewType'] = var3;
             var1['expressionPickerTabStrings'] = var2;

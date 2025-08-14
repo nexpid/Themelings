@@ -80,9 +80,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 10000;
     var3['FEED_OFF_BY_DEFAULT_ABOVE_MEMBER_COUNT'] = var5;
     var3['NEW_RELEASE_CUTOFF_DAYS'] = var4;
+    var4 = 'https://www.igdb.com/about';
+    var3['IGDB_ATTRIBUTION_LINK'] = var4;
     var4 = ['1395438911366627454'];
     var3['GAMESCOM_GUILD_IDS'] = var4;
-    var4 = ['432980957394370572', '1377010135989223574'];
+    var4 = ['432980957394370572', '1402418703554842694', '1377010135989223574'];
     var3['GAMESCOM_APP_IDS'] = var4;
     var3['ContentInventoryEntryProviderTypes'] = var2;
     return var1;

@@ -466,17 +466,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     var2 = _closure2_slot0;
-                    if(!var2) { _fun0005_ip = 183; continue _fun0005 }
+                    if(!var2) { _fun0005_ip = 200; continue _fun0005 }
  13:
+                    var4 = _closure1_slot0;
+                    var5 = _closure1_slot3;
+                    var2 = 13;
+                    var2 = var5[var2];
+                    var8 = undefined;
+                    var5 = var4.bind(var8)(var2);
+                    var4 = var5.getSelectedMediaSource;
+                    var2 = _closure2_slot6;
+                    var6 = var4.bind(var5)(var2);
+                    var2 = null;
+                    if(!(var2 != var6)) { _fun0005_ip = 200; continue _fun0005 }
+ 62:
                     var7 = _closure1_slot0;
                     var2 = _closure1_slot3;
-                    var4 = 13;
-                    var4 = var2[var4];
-                    var8 = undefined;
-                    var6 = var7.bind(var8)(var4);
-                    var5 = var6.getSelectedMediaSource;
-                    var4 = _closure2_slot6;
-                    var6 = var5.bind(var6)(var4);
                     var4 = 20;
                     var4 = var2[var4];
                     var9 = var7.bind(var8)(var4);
@@ -506,7 +511,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['shareable'] = var1;
                     var1 = 'MediaShareActionSheet';
                     var1 = var4.bind(var5)(var3, var1, var2);
- 183:
+ 200:
                     var1 = undefined;
                     return var1;
                 }
@@ -528,16 +533,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = _closure2_slot7;
                     var1 = null;
-                    if(var2) { _fun0006_ip = 155; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 149; continue _fun0006 }
  15:
                     var5 = _closure1_slot13;
-                    var3 = _closure1_slot0;
+                    var3 = _closure1_slot1;
                     var4 = _closure1_slot3;
                     var2 = 25;
                     var2 = var4[var2];
                     var4 = undefined;
-                    var2 = var3.bind(var4)(var2);
-                    var3 = var2.MediaModalOverlay;
+                    var3 = var3.bind(var4)(var2);
                     var2 = {};
                     var7 = _closure2_slot6;
                     var2['syncer'] = var7;
@@ -562,7 +566,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = _closure2_slot11;
                     var2['setClickedRemix'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
- 155:
+ 149:
                     return var1;
                 }
             };

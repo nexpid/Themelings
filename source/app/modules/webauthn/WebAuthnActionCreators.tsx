@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 91; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 107; continue _fun0001 }
  7:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -31,21 +31,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure1_slot4;
                     var5 = var5.WEBAUTHN_CONDITIONAL_UI_CHALLENGE;
                     var2['url'] = var5;
+                    var5 = {};
+                    var6 = '';
+                    var5['authorization'] = var6;
+                    var2['headers'] = var5;
                     var5 = false;
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=74);
- 72:
-                    return var2;
- 74:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 88; continue _fun0001 }
- 80:
-                    var3 = var2.body;
-                    return var3;
+                    SaveGenerator(address=90);
  88:
                     return var2;
- 91:
+ 90:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0001_ip = 104; continue _fun0001 }
+ 96:
+                    var3 = var2.body;
+                    return var3;
+ 104:
+                    return var2;
+ 107:
                     return var1;
                 }
             };

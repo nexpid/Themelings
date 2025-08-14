@@ -47,8 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['message'] = var6;
             var2 = var2.bind(var5)(var1);
             var1 = null;
-            if(!(var1 != var2)) { _fun0001_ip = 322; continue _fun0001 }
- 90:
+            if(!(var1 != var2)) { _fun0001_ip = 324; continue _fun0001 }
+ 92:
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
             var5 = 2;
@@ -57,8 +57,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.extractActivityBookmarkParams;
             var5 = var5.bind(var6)(var8);
             var8 = var5.linkId;
-            if(!(var1 != var8)) { _fun0001_ip = 320; continue _fun0001 }
- 134:
+            if(!(var1 != var8)) { _fun0001_ip = 322; continue _fun0001 }
+ 136:
             var6 = _closure1_slot0;
             var9 = _closure1_slot1;
             var5 = 3;
@@ -66,8 +66,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var4)(var5);
             var5 = var6.getOrFetchCustomActivityLink;
             var5 = var5.bind(var6)(var7, var8);
-            if(!(var1 != var5)) { _fun0001_ip = 318; continue _fun0001 }
- 173:
+            if(!(var1 != var5)) { _fun0001_ip = 320; continue _fun0001 }
+ 175:
             var6 = _closure1_slot2;
             var3 = var6.getApplication;
             var6 = var3.bind(var6)(var7);
@@ -77,16 +77,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = copyDataProperties(var11, var10);
             var7 = var1 == var6;
             var4 = undefined;
-            if(var7) { _fun0001_ip = 214; continue _fun0001 }
- 209:
+            if(var7) { _fun0001_ip = 216; continue _fun0001 }
+ 211:
             var4 = var6.name;
- 214:
+ 216:
             var7 = var1 != var4;
             var6 = null;
-            if(!var7) { _fun0001_ip = 226; continue _fun0001 }
- 223:
+            if(!var7) { _fun0001_ip = 228; continue _fun0001 }
+ 225:
             var6 = var4;
- 226:
+ 228:
             var4 = 'title';
             var3[var4] = var6;
             var6 = var5.title;
@@ -102,20 +102,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var5)();
             var6 = var1 != var4;
             var5 = null;
-            if(!var6) { _fun0001_ip = 298; continue _fun0001 }
- 295:
+            if(!var6) { _fun0001_ip = 300; continue _fun0001 }
+ 297:
             var5 = var4;
- 298:
+ 300:
             var4 = 'staticBannerSrc';
             var3[var4] = var5;
             var4 = 'tagline';
             var3[var4] = var1;
             return var3;
- 318:
-            return var1;
  320:
-            return var2;
+            return var1;
  322:
+            return var2;
+ 324:
             return var1;
         }
     };

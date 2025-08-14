@@ -28,10 +28,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot9;
                 var1 = var1.LIGHT;
                 var5 = 1;
-                if(!(var3 === var1)) { _fun0001_ip = 42; continue _fun0001 }
- 32:
+                if(!(var3 === var1)) { _fun0001_ip = 43; continue _fun0001 }
+ 33:
                 var5 = 0.5;
- 42:
+ 43:
                 var1 = {};
                 var3 = _closure1_slot4;
                 var9 = var3.absoluteFillObject;

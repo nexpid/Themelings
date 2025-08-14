@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/hooks/useFetchCollectiblesAndProfileEffects.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useFetchCollectiblesAndProfileEffects(arg1) {
+    var2 = function useFetchCollectiblesAndProfileEffects() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var3 = _closure1_slot1;
@@ -38,11 +38,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 2;
             var2 = var12[var5];
             var10 = undefined;
-            var3 = var3.bind(var10)(var2);
-            var2 = {};
-            var4 = arg1;
-            var2['location'] = var4;
             var2 = var3.bind(var10)(var2);
+            var2 = var2.bind(var10)();
             var8 = var2.isFetching;
             var9 = var2.fetchCategoriesError;
             var7 = var2.fetchPurchasesError;
@@ -80,20 +77,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 1;
             var6 = var4[var1];
             var1 = {};
-            if(var8) { _fun0001_ip = 171; continue _fun0001 }
- 168:
+            if(var8) { _fun0001_ip = 161; continue _fun0001 }
+ 158:
             var8 = var10;
- 171:
+ 161:
             var1['isFetching'] = var8;
             var8 = null;
-            if(!(var8 != var9)) { _fun0001_ip = 185; continue _fun0001 }
- 182:
+            if(!(var8 != var9)) { _fun0001_ip = 175; continue _fun0001 }
+ 172:
             var7 = var9;
- 185:
-            if(!(var8 != var7)) { _fun0001_ip = 192; continue _fun0001 }
- 189:
+ 175:
+            if(!(var8 != var7)) { _fun0001_ip = 182; continue _fun0001 }
+ 179:
             var6 = var7;
- 192:
+ 182:
             var1['combinedError'] = var6;
             var4 = var4[var5];
             var1['profileEffects'] = var4;

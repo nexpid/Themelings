@@ -1074,7 +1074,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var14;
             var3 = copyDataProperties(var27, var26);
             var1 = var4.bind(var5)(var2, var1);
-            _fun0009_ip = 1561; continue _fun0009;
+            _fun0009_ip = 1562; continue _fun0009;
  1277:
             var12 = _closure1_slot0;
             var17 = _closure1_slot3;
@@ -1263,7 +1263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1561:
+ 1562:
             return var1;
         }
     };

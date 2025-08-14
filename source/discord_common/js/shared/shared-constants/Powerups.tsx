@@ -24,5 +24,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['GUILD_TAGS_BADGE_PACK_PETS_POWERUP_SKU_ID'] = var2;
     var2 = '1395150923734581339';
     var3['GUILD_TAGS_BADGE_PACK_FLEX_POWERUP_SKU_ID'] = var2;
+    var2 = '1341586379779604621';
+    var3['GUILD_POWERUP_LEVEL_1_SKU_ID'] = var2;
+    var2 = '1341586379779604622';
+    var3['GUILD_POWERUP_LEVEL_2_SKU_ID'] = var2;
+    var2 = '1341586379779604623';
+    var3['GUILD_POWERUP_LEVEL_3_SKU_ID'] = var2;
+    var2 = '1351706802684952639';
+    var3['GUILD_POWERUP_TAG_SKU_ID'] = var2;
+    var2 = '1354906318279807056';
+    var3['GUILD_POWERUP_ROLE_COLOR_SKU_ID'] = var2;
     return var1;
 })();

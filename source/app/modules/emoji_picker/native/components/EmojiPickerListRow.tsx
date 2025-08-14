@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var10.surrogates;
                 var5['children'] = var10;
                 var8 = var9.bind(var4)(var8, var5);
-                _fun0003_ip = 419; continue _fun0003;
+                _fun0003_ip = 420; continue _fun0003;
  272:
                 var10 = _closure1_slot7;
                 var9 = _closure1_slot1;
@@ -181,17 +181,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var13.bind(var14)(var11);
                 var14 = _closure1_slot1;
                 var15 = _closure1_slot2;
-                if(var11) { _fun0003_ip = 378; continue _fun0003 }
- 364:
+                if(var11) { _fun0003_ip = 379; continue _fun0003 }
+ 365:
                 var11 = 16;
                 var11 = var15[var11];
                 var11 = var14.bind(var4)(var11);
-                _fun0003_ip = 390; continue _fun0003;
- 378:
+                _fun0003_ip = 391; continue _fun0003;
+ 379:
                 var13 = 15;
                 var13 = var15[var13];
                 var11 = var14.bind(var4)(var13);
- 390:
+ 391:
                 var5['placeholder'] = var11;
                 var11 = {};
                 var11['uri'] = var12;
@@ -199,16 +199,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = true;
                 var5['usesSmallCache'] = var11;
                 var8 = var10.bind(var4)(var9, var5);
- 419:
+ 420:
                 var5 = new Array(2);
                 var5[0] = var8;
-                if(!var6) { _fun0003_ip = 446; continue _fun0003 }
- 430:
+                if(!var6) { _fun0003_ip = 447; continue _fun0003 }
+ 431:
                 var9 = _closure1_slot7;
                 var8 = _closure1_slot13;
                 var7 = {};
                 var6 = var9.bind(var4)(var8, var7);
- 446:
+ 447:
                 var5[1] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

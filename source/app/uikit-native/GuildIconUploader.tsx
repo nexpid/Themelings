@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.props;
                 var7 = var1.icon;
                 var1 = null;
-                if(!(var1 == var7)) { _fun0003_ip = 322; continue _fun0003 }
+                if(!(var1 == var7)) { _fun0003_ip = 323; continue _fun0003 }
  41:
                 var4 = _closure1_slot12;
                 var3 = _closure1_slot8;
@@ -236,17 +236,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var12.bind(var13)(var11);
                 var13 = _closure1_slot1;
                 var14 = _closure1_slot2;
-                if(var11) { _fun0003_ip = 154; continue _fun0003 }
- 140:
+                if(var11) { _fun0003_ip = 155; continue _fun0003 }
+ 141:
                 var11 = 13;
                 var11 = var14[var11];
                 var11 = var13.bind(var5)(var11);
-                _fun0003_ip = 166; continue _fun0003;
- 154:
+                _fun0003_ip = 167; continue _fun0003;
+ 155:
                 var12 = 12;
                 var12 = var14[var12];
                 var11 = var13.bind(var5)(var12);
- 166:
+ 167:
                 var6['source'] = var11;
                 var9 = var10.bind(var5)(var9, var6);
                 var6 = new Array(2);
@@ -278,8 +278,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6[1] = var9;
                 var1['children'] = var6;
                 var1 = var4.bind(var5)(var3, var1);
-                _fun0003_ip = 377; continue _fun0003;
- 322:
+                _fun0003_ip = 378; continue _fun0003;
+ 323:
                 var4 = _closure1_slot11;
                 var3 = _closure1_slot9;
                 var2 = {};
@@ -293,7 +293,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6['uri'] = var7;
                 var2['source'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 377:
+ 378:
                 return var1;
             }
         };

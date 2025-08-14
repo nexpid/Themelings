@@ -280,12 +280,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot5;
             var3 = var3.EMOJI;
             var3 = var12 === var3;
-            if(var3) { _fun0001_ip = 398; continue _fun0001 }
- 384:
+            if(var3) { _fun0001_ip = 408; continue _fun0001 }
+ 394:
             var5 = _closure1_slot5;
             var5 = var5.STICKER;
             var3 = var12 === var5;
- 398:
+ 408:
             var1['hasCategories'] = var3;
             var2 = var2.bind(var4)(var1);
             var3 = _closure1_slot0;
@@ -295,16 +295,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var1);
             var1 = var3.useIsScreenReaderEnabled;
             var1 = var1.bind(var3)();
-            if(var1) { _fun0001_ip = 445; continue _fun0001 }
- 441:
+            if(var1) { _fun0001_ip = 455; continue _fun0001 }
+ 451:
             var19 = {};
-            _fun0001_ip = 460; continue _fun0001;
- 445:
+            _fun0001_ip = 470; continue _fun0001;
+ 455:
             var1 = {};
             var2 = var2.safeAreaBottomKeyboardAware;
             var1['marginBottom'] = var2;
             var19 = var1;
- 460:
+ 470:
             var3 = _closure1_slot10;
             var2 = _closure1_slot4;
             var1 = {};
@@ -313,26 +313,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var6;
             var9 = null;
             var6 = var9 != var8;
-            if(!var6) { _fun0001_ip = 502; continue _fun0001 }
- 493:
+            if(!var6) { _fun0001_ip = 512; continue _fun0001 }
+ 503:
             var7 = {};
             var7['height'] = var8;
             var6 = var7;
- 502:
+ 512:
             var5[1] = var6;
             var1['style'] = var5;
             var7 = _closure1_slot9;
             var6 = _closure1_slot4;
             var5 = {};
-            if(!var14) { _fun0001_ip = 534; continue _fun0001 }
- 523:
-            if(var13) { _fun0001_ip = 534; continue _fun0001 }
- 526:
+            if(!var14) { _fun0001_ip = 544; continue _fun0001 }
+ 533:
+            if(var13) { _fun0001_ip = 544; continue _fun0001 }
+ 536:
             var8 = var11.segmentedControlUnpadded;
-            _fun0001_ip = 540; continue _fun0001;
- 534:
+            _fun0001_ip = 550; continue _fun0001;
+ 544:
             var8 = var11.segmentedControl;
- 540:
+ 550:
             var5['style'] = var8;
             var8 = _closure1_slot9;
             var25 = _closure1_slot0;
@@ -357,17 +357,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['style'] = var11;
             var11 = _closure1_slot5;
             var11 = var11.EMOJI;
-            if(!(var12 !== var11)) { _fun0001_ip = 804; continue _fun0001 }
- 649:
+            if(!(var12 !== var11)) { _fun0001_ip = 814; continue _fun0001 }
+ 659:
             var11 = _closure1_slot5;
             var11 = var11.GIF;
-            if(!(var12 !== var11)) { _fun0001_ip = 737; continue _fun0001 }
- 663:
+            if(!(var12 !== var11)) { _fun0001_ip = 747; continue _fun0001 }
+ 673:
             var11 = _closure1_slot5;
             var11 = var11.STICKER;
             var9 = null;
-            if(!(var12 === var11)) { _fun0001_ip = 735; continue _fun0001 }
- 679:
+            if(!(var12 === var11)) { _fun0001_ip = 745; continue _fun0001 }
+ 689:
             var19 = _closure1_slot9;
             var12 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -381,9 +381,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['inActionSheet'] = var14;
             var11['inPortalKeyboard'] = var13;
             var9 = var19.bind(var4)(var12, var11);
- 735:
-            _fun0001_ip = 802; continue _fun0001;
- 737:
+ 745:
+            _fun0001_ip = 812; continue _fun0001;
+ 747:
             var19 = _closure1_slot9;
             var12 = _closure1_slot1;
             var22 = _closure1_slot2;
@@ -399,9 +399,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['onPressGIF'] = var20;
             var11['inActionSheet'] = var14;
             var9 = var19.bind(var4)(var12, var11);
- 802:
-            _fun0001_ip = 865; continue _fun0001;
- 804:
+ 812:
+            _fun0001_ip = 875; continue _fun0001;
+ 814:
             var12 = _closure1_slot9;
             var11 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -416,7 +416,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['inActionSheet'] = var14;
             var10['inPortalKeyboard'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 865:
+ 875:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

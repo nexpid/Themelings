@@ -79,6 +79,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['width'] = var8;
             var8 = var6.content_type;
             var1['contentType'] = var8;
+            var8 = var6.original_content_type;
+            var1['originalContentType'] = var8;
             var8 = var6.placeholder;
             var1['placeholder'] = var8;
             var8 = var6.placeholder_version;
@@ -94,14 +96,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.content_scan_version;
             var4 = var7 == var4;
             var3 = undefined;
-            if(var4) { _fun0001_ip = 306; continue _fun0001 }
- 286:
+            if(var4) { _fun0001_ip = 317; continue _fun0001 }
+ 297:
             var4 = {};
             var6 = var6.content_scan_version;
             var4['version'] = var6;
             var4['flags'] = var5;
             var3 = var4;
- 306:
+ 317:
             var1['contentScanMetadata'] = var3;
             var1['flags'] = var2;
             return var1;
@@ -199,6 +201,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['placeholderVersion'] = var2;
             var2 = var3.content_type;
             var1['contentType'] = var2;
+            var2 = var3.original_content_type;
+            var1['originalContentType'] = var2;
             var2 = var3.loading_state;
             var1['loadingState'] = var2;
             var4 = var3.content_scan_metadata;
@@ -206,20 +210,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var2 != var4;
             var7 = undefined;
             var4 = undefined;
-            if(!var5) { _fun0003_ip = 126; continue _fun0003 }
- 108:
+            if(!var5) { _fun0003_ip = 137; continue _fun0003 }
+ 119:
             var6 = _closure1_slot6;
             var5 = var3.content_scan_metadata;
             var4 = var6.bind(var7)(var5);
- 126:
+ 137:
             var1['contentScanMetadata'] = var4;
             var3 = var3.flags;
             var4 = var2 != var3;
             var2 = 0;
-            if(!var4) { _fun0003_ip = 148; continue _fun0003 }
- 145:
+            if(!var4) { _fun0003_ip = 159; continue _fun0003 }
+ 156:
             var2 = var3;
- 148:
+ 159:
             var1['flags'] = var2;
             return var1;
         }

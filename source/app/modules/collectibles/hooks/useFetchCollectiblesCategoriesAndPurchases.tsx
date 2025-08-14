@@ -10,37 +10,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function useFetchPurchases() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var12 = arguments[0];
-            var13 = arguments[1];
+            var11 = arguments[0];
             var10 = undefined;
-            if(!(var12 === var10)) { _fun0001_ip = 16; continue _fun0001 }
- 14:
-            var12 = false;
- 16:
-            var _closure2_slot0 = var12;
-            var _closure2_slot1 = var13;
+            if(!(var11 === var10)) { _fun0001_ip = 13; continue _fun0001 }
+ 11:
+            var11 = false;
+ 13:
+            var _closure2_slot0 = var11;
+            var _closure2_slot1 = var10;
             var _closure2_slot2 = var10;
             var _closure2_slot3 = var10;
             var _closure2_slot4 = var10;
-            var _closure2_slot5 = var10;
-            var _closure2_slot6 = var10;
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var3 = 3;
-            var2 = var4[var3];
-            var7 = var5.bind(var10)(var2);
-            var6 = var7.useShopVariantsReturnStyle;
-            var2 = 'useFetchPurchases';
-            var11 = var6.bind(var7)(var2);
-            _closure2_slot2 = var11;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot2;
             var2 = 4;
-            var4 = var4[var2];
-            var7 = var5.bind(var10)(var4);
-            var6 = var7.useStateFromStoresArray;
-            var4 = _closure1_slot6;
-            var5 = new Array(1);
-            var5[0] = var4;
-            var4 = function() {
+            var3 = var3[var2];
+            var6 = var4.bind(var10)(var3);
+            var5 = var6.useStateFromStoresArray;
+            var3 = _closure1_slot6;
+            var4 = new Array(1);
+            var4[0] = var3;
+            var3 = function() {
                 var1 = _closure1_slot6;
                 var3 = var1.isFetching;
                 var1 = new Array(6);
@@ -62,78 +52,77 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1[5] = var2;
                 return var1;
             };
-            var6 = var6.bind(var7)(var5, var4);
-            var5 = _closure1_slot3;
-            var4 = 6;
-            var9 = var5.bind(var10)(var6, var4);
-            var4 = 0;
-            var4 = var9[var4];
-            var5 = 1;
-            var7 = var9[var5];
-            var5 = 2;
-            var6 = var9[var5];
-            _closure2_slot3 = var6;
+            var5 = var5.bind(var6)(var4, var3);
+            var4 = _closure1_slot3;
+            var3 = 6;
+            var9 = var4.bind(var10)(var5, var3);
+            var3 = 0;
+            var4 = var9[var3];
+            var3 = 1;
+            var7 = var9[var3];
+            var3 = 2;
+            var6 = var9[var3];
+            _closure2_slot1 = var6;
+            var3 = 3;
             var5 = var9[var3];
             var3 = var9[var2];
             var2 = 5;
             var2 = var9[var2];
-            _closure2_slot4 = var2;
-            var14 = _closure1_slot5;
+            _closure2_slot2 = var2;
+            var12 = _closure1_slot5;
             var9 = _closure1_slot6;
             var9 = var9.hasPreviouslyFetched;
-            var9 = var14.bind(var10)(var9);
-            _closure2_slot5 = var9;
-            var15 = _closure1_slot4;
-            var14 = new Array(1);
-            var14[0] = var2;
+            var9 = var12.bind(var10)(var9);
+            _closure2_slot3 = var9;
+            var13 = _closure1_slot4;
+            var12 = new Array(1);
+            var12[0] = var2;
             var9 = function() {
-                var2 = _closure2_slot5;
-                var1 = _closure2_slot4;
+                var2 = _closure2_slot3;
+                var1 = _closure2_slot2;
                 var2['current'] = var1;
                 var1 = undefined;
                 return var1;
             };
-            var9 = var15.bind(var10)(var9, var14);
-            var14 = _closure1_slot5;
+            var9 = var13.bind(var10)(var9, var12);
+            var12 = _closure1_slot5;
             var9 = _closure1_slot6;
             var9 = var9.fetchError;
-            var9 = var14.bind(var10)(var9);
-            _closure2_slot6 = var9;
-            var15 = _closure1_slot4;
-            var14 = new Array(1);
-            var14[0] = var6;
+            var9 = var12.bind(var10)(var9);
+            _closure2_slot4 = var9;
+            var13 = _closure1_slot4;
+            var12 = new Array(1);
+            var12[0] = var6;
             var9 = function() {
-                var2 = _closure2_slot6;
-                var1 = _closure2_slot3;
+                var2 = _closure2_slot4;
+                var1 = _closure2_slot1;
                 var2['current'] = var1;
                 var1 = undefined;
                 return var1;
             };
-            var9 = var15.bind(var10)(var9, var14);
+            var9 = var13.bind(var10)(var9, var12);
             var9 = _closure1_slot4;
-            var8 = new Array(3);
-            var8[0] = var13;
-            var8[1] = var12;
-            var8[2] = var11;
+            var8 = new Array(1);
+            var8[0] = var11;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    var2 = _closure2_slot0;
+                    var3 = _closure2_slot0;
                     var1 = true;
-                    var1 = var1 === var2;
+                    var1 = var1 === var3;
                     if(!var1) { _fun0002_ip = 25; continue _fun0002 }
  16:
-                    var2 = _closure2_slot5;
-                    var1 = var2.current;
+                    var3 = _closure2_slot3;
+                    var1 = var3.current;
  25:
                     if(!var1) { _fun0002_ip = 43; continue _fun0002 }
  28:
-                    var2 = _closure2_slot6;
+                    var2 = _closure2_slot4;
                     var3 = var2.current;
                     var2 = null;
                     var1 = var2 == var3;
  43:
-                    if(var1) { _fun0002_ip = 101; continue _fun0002 }
+                    if(var1) { _fun0002_ip = 93; continue _fun0002 }
  46:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -143,12 +132,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.fetchCollectiblesPurchases;
                     var1 = {};
-                    var5 = _closure2_slot2;
-                    var1['variantsReturnStyle'] = var5;
-                    var4 = _closure2_slot1;
-                    var1['location'] = var4;
+                    var4 = _closure1_slot7;
+                    var1['variantsReturnStyle'] = var4;
                     var1 = var2.bind(var3)(var1);
- 101:
+ 93:
                     var1 = undefined;
                     return var1;
                 }
@@ -164,77 +151,71 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var5 = function useFetchCollectiblesCategoriesAndPurchases(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            var8 = arg1;
+            var5 = arg1;
             var1 = null;
-            var2 = var1 == var8;
-            var5 = undefined;
+            var2 = var1 == var5;
+            var4 = undefined;
             var3 = undefined;
             if(var2) { _fun0003_ip = 22; continue _fun0003 }
  16:
-            var3 = var8.paymentGateway;
+            var3 = var5.paymentGateway;
  22:
-            var6 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var4 = 6;
-            var4 = var7[var4];
-            var6 = var6.bind(var5)(var4);
-            var4 = {};
-            var4['paymentGateway'] = var3;
-            var7 = var1 == var8;
+            var7 = _closure1_slot1;
+            var8 = _closure1_slot2;
+            var6 = 6;
+            var6 = var8[var6];
+            var7 = var7.bind(var4)(var6);
+            var6 = {};
+            var6['paymentGateway'] = var3;
+            var8 = var1 == var5;
             var3 = undefined;
-            if(var7) { _fun0003_ip = 67; continue _fun0003 }
+            if(var8) { _fun0003_ip = 67; continue _fun0003 }
  61:
-            var3 = var8.noOp;
+            var3 = var5.noOp;
  67:
-            var4['noOp'] = var3;
-            var7 = var1 == var8;
+            var6['noOp'] = var3;
+            var8 = var1 == var5;
             var3 = undefined;
-            if(var7) { _fun0003_ip = 87; continue _fun0003 }
+            if(var8) { _fun0003_ip = 87; continue _fun0003 }
  81:
-            var3 = var8.logPerf;
+            var3 = var5.logPerf;
  87:
-            var4['logPerf'] = var3;
-            var7 = var1 == var8;
+            var6['logPerf'] = var3;
+            var8 = var1 == var5;
             var3 = undefined;
-            if(var7) { _fun0003_ip = 107; continue _fun0003 }
+            if(var8) { _fun0003_ip = 107; continue _fun0003 }
  101:
-            var3 = var8.countryCode;
+            var3 = var5.countryCode;
  107:
-            var4['countryCode'] = var3;
+            var6['countryCode'] = var3;
             var3 = arg2;
-            var3 = var6.bind(var5)(var4, var3);
+            var3 = var7.bind(var4)(var6, var3);
             var10 = var3.isFetching;
             var7 = var3.categories;
             var6 = var3.fetchCategoriesError;
             var3 = var3.refreshCategories;
-            var4 = _closure1_slot7;
-            var9 = var1 == var8;
-            var2 = undefined;
-            if(var9) { _fun0003_ip = 166; continue _fun0003 }
- 158:
-            var2 = var8.stalePurchasesOK;
- 166:
-            var9 = var1 == var8;
+            var2 = _closure1_slot8;
+            var8 = var1 == var5;
             var1 = undefined;
-            if(var9) { _fun0003_ip = 180; continue _fun0003 }
- 175:
-            var1 = var8.location;
- 180:
-            var2 = var4.bind(var5)(var2, var1);
+            if(var8) { _fun0003_ip = 166; continue _fun0003 }
+ 158:
+            var1 = var5.stalePurchasesOK;
+ 166:
+            var2 = var2.bind(var4)(var1);
             var8 = var2.isClaiming;
             var5 = var2.fetchPurchasesError;
             var4 = var2.claimError;
             var9 = var2.isFetching;
             var1 = {};
             var11 = var10;
-            if(var11) { _fun0003_ip = 221; continue _fun0003 }
- 218:
+            if(var11) { _fun0003_ip = 206; continue _fun0003 }
+ 203:
             var11 = var9;
- 221:
+ 206:
             var1['isFetching'] = var11;
             var1['isFetchingCategories'] = var10;
             var1['isFetchingPurchases'] = var9;
@@ -251,7 +232,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot8 = var5;
+    var _closure1_slot9 = var5;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -276,6 +257,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var8[var6];
     var6 = var9.bind(var1)(var6);
     var _closure1_slot6 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.ShopVariantsReturnStyle;
+    var6 = var6.INDIVIDUAL_PRODUCTS;
+    var _closure1_slot7 = var6;
     var6 = 7;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
@@ -284,12 +271,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.bind(var8)(var6);
     var3['default'] = var5;
     var3['useFetchPurchases'] = var4;
-    var4 = function(arg1) {
-        var4 = _closure1_slot7;
-        var3 = undefined;
-        var2 = true;
-        var1 = arg1;
-        var1 = var4.bind(var3)(var2, var1);
+    var4 = function() {
+        var3 = _closure1_slot8;
+        var2 = undefined;
+        var1 = true;
+        var1 = var3.bind(var2)(var1);
         return var1;
     };
     var3['useGetOrFetchPurchases'] = var4;
@@ -297,7 +283,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var1 = arg1;
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot9;
             var2 = {};
             var4 = null;
             if(!(var4 == var1)) { _fun0004_ip = 20; continue _fun0004 }

@@ -79,10 +79,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure2_slot0;
                 var2 = var4.bind(var5)(var3, var2);
                 var1['canManageChannels'] = var2;
-                _fun0001_ip = 156; continue _fun0001;
+                _fun0001_ip = 152; continue _fun0001;
  142:
                 var1 = {'canAccessSettings': false, 'canEditNickname': false, 'canManageChannels': false};
- 156:
+ 152:
                 return var1;
             }
         };
