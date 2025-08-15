@@ -11562,6 +11562,15 @@
         "width": 327,
         "height": 285
     },
+    "orb-balance-icon": {
+        "file": "modules/virtual_currency/images/native/orb-balance-icon.png",
+        "hash": "d05f87ae9bd87a6b22709b7066747deb",
+        "scales": [
+            1
+        ],
+        "width": 18,
+        "height": 19
+    },
     "PaintbrushThinIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/PaintbrushThinIcon.png",
         "hash": "0f3ad63393d7c6270b44d74fab333a11",
