@@ -28,6 +28,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['USER'] = var1;
     var1 = 'application';
     var7['APPLICATION'] = var1;
+    var1 = 'widget';
+    var7['WIDGET'] = var1;
     var6 = {};
     var1 = 'report_to_mod_message';
     var6['MESSAGE'] = var1;

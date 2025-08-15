@@ -352,7 +352,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['isMonetizationWaitlistEnabledForGuild'] = var4;
-    var2 = function isCreatorMonetizationNagActivateEnabled() {
+    var4 = function isCreatorMonetizationNagActivateEnabled() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 1;
@@ -371,6 +371,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.enableCreatorMonetizationNagActivateForUser;
         return var1;
     };
-    var3['isCreatorMonetizationNagActivateEnabled'] = var2;
+    var3['isCreatorMonetizationNagActivateEnabled'] = var4;
+    var2 = function isEnableMonetizationHiddenFromServerSettings(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+ 0:
+            var1 = arg1;
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var2 = 1;
+            var3 = var3[var2];
+            var2 = undefined;
+            var2 = var4.bind(var2)(var3);
+            var4 = var2.MoveRoleSubscriptionsOnboardingFromServerSettingsExperiment;
+            var3 = var4.getCurrentConfig;
+            var2 = {};
+            var6 = null;
+            if(!(var6 == var1)) { _fun0009_ip = 52; continue _fun0009 }
+ 48:
+            var1 = _closure1_slot2;
+ 52:
+            var2['guildId'] = var1;
+            var1 = 'e3bb71_12';
+            var2['location'] = var1;
+            var1 = {};
+            var5 = false;
+            var1['autoTrackExposure'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = var1.hideMonetizatonOnboardingInServerSettings;
+            return var1;
+        }
+    };
+    var3['isEnableMonetizationHiddenFromServerSettings'] = var2;
     return var1;
 })();

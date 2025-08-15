@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  48:
             var2 = var3.@@iterator;
  54:
-            if(var2) { _fun0001_ip = 342; continue _fun0001 }
+            if(var2) { _fun0001_ip = 344; continue _fun0001 }
  60:
             var6 = var5.Array;
             var4 = var6.isArray;
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             return var1;
- 342:
+ 344:
             var1 = var2.call;
             var3 = var1.bind(var2)(var3);
             var2 = var3.next;

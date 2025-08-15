@@ -74,25 +74,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
-            var14 = var2.user;
-            var _closure2_slot0 = var14;
-            var1 = var2.pendingNameplate;
-            var11 = var2.guildId;
-            var _closure2_slot1 = var11;
+            var11 = var2.user;
+            var _closure2_slot0 = var11;
+            var3 = var2.pendingNameplate;
+            var2 = var2.guildId;
+            var _closure2_slot1 = var2;
             var4 = undefined;
             var _closure2_slot2 = var4;
-            var2 = _closure1_slot9;
-            var10 = var2.bind(var4)();
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var2 = 7;
-            var2 = var8[var2];
-            var12 = var7.bind(var4)(var2);
-            var9 = var12.useStateFromStores;
-            var2 = _closure1_slot6;
-            var6 = new Array(1);
-            var6[0] = var2;
-            var2 = function() {
+            var _closure2_slot3 = var4;
+            var _closure2_slot4 = var4;
+            var6 = _closure1_slot9;
+            var12 = var6.bind(var4)();
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 7;
+            var6 = var9[var6];
+            var13 = var8.bind(var4)(var6);
+            var10 = var13.useStateFromStores;
+            var6 = _closure1_slot6;
+            var7 = new Array(1);
+            var7[0] = var6;
+            var6 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var1 = _closure2_slot1;
@@ -116,87 +118,89 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var2 = var9.bind(var12)(var6, var2);
-            var6 = 8;
-            var6 = var8[var6];
-            var12 = var7.bind(var4)(var6);
-            var9 = var12.getProfilePreviewField;
+            var6 = var10.bind(var13)(var7, var6);
+            var7 = 8;
+            var7 = var9[var7];
+            var13 = var8.bind(var4)(var7);
+            var10 = var13.getProfilePreviewField;
             var7 = null;
-            var6 = var7 == var1;
-            var8 = undefined;
-            if(var6) { _fun0001_ip = 131; continue _fun0001 }
- 125:
-            var8 = var1.skuId;
- 131:
-            var1 = var7 != var11;
-            var6 = null;
-            if(!var1) { _fun0001_ip = 188; continue _fun0001 }
- 140:
-            var13 = var7 == var2;
-            var1 = undefined;
-            if(var13) { _fun0001_ip = 185; continue _fun0001 }
- 149:
-            var2 = var2.collectibles;
-            var13 = var7 == var2;
-            var1 = undefined;
-            if(var13) { _fun0001_ip = 185; continue _fun0001 }
- 164:
-            var2 = var2.nameplate;
-            var13 = var7 == var2;
-            var1 = undefined;
-            if(var13) { _fun0001_ip = 185; continue _fun0001 }
- 179:
-            var1 = var2.skuId;
- 185:
-            var6 = var1;
- 188:
-            var1 = var14.collectibles;
-            var13 = var7 == var1;
-            var2 = undefined;
-            if(var13) { _fun0001_ip = 224; continue _fun0001 }
- 203:
-            var1 = var1.nameplate;
-            var13 = var7 == var1;
-            var2 = undefined;
-            if(var13) { _fun0001_ip = 224; continue _fun0001 }
- 218:
-            var2 = var1.skuId;
- 224:
-            var17 = var7 != var11;
-            var21 = var12;
-            var20 = var8;
-            var19 = var6;
-            var18 = var2;
-            var1 = var21[var9](var20, var19, var18, var17, var16);
-            var6 = var1.value;
-            var2 = _closure1_slot0;
-            var8 = _closure1_slot2;
-            var1 = 9;
-            var1 = var8[var1];
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.useFetchNameplate;
-            var2 = var1.bind(var2)(var6);
-            var1 = var2.nameplateProduct;
-            var13 = var2.nameplateRecord;
-            _closure2_slot2 = var13;
-            var12 = var2.nameplateData;
-            var2 = var2.isFetching;
-            var6 = var7 != var12;
-            if(!var6) { _fun0001_ip = 319; continue _fun0001 }
- 315:
-            var6 = var7 != var13;
- 319:
-            if(!var6) { _fun0001_ip = 326; continue _fun0001 }
- 322:
-            var6 = var7 != var1;
- 326:
+            var8 = var7 == var3;
+            var9 = undefined;
+            if(var8) { _fun0001_ip = 139; continue _fun0001 }
+ 133:
+            var9 = var3.skuId;
+ 139:
+            var3 = var7 != var2;
+            var8 = null;
+            if(!var3) { _fun0001_ip = 196; continue _fun0001 }
+ 148:
+            var14 = var7 == var6;
+            var3 = undefined;
+            if(var14) { _fun0001_ip = 193; continue _fun0001 }
+ 157:
+            var6 = var6.collectibles;
+            var14 = var7 == var6;
+            var3 = undefined;
+            if(var14) { _fun0001_ip = 193; continue _fun0001 }
+ 172:
+            var6 = var6.nameplate;
+            var14 = var7 == var6;
+            var3 = undefined;
+            if(var14) { _fun0001_ip = 193; continue _fun0001 }
+ 187:
+            var3 = var6.skuId;
+ 193:
+            var8 = var3;
+ 196:
+            var3 = var11.collectibles;
+            var14 = var7 == var3;
+            var6 = undefined;
+            if(var14) { _fun0001_ip = 232; continue _fun0001 }
+ 211:
+            var3 = var3.nameplate;
+            var14 = var7 == var3;
+            var6 = undefined;
+            if(var14) { _fun0001_ip = 232; continue _fun0001 }
+ 226:
+            var6 = var3.skuId;
+ 232:
+            var17 = var7 != var2;
+            var21 = var13;
+            var20 = var9;
+            var19 = var8;
+            var18 = var6;
+            var3 = var21[var10](var20, var19, var18, var17, var16);
+            var8 = var3.value;
+            var6 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 9;
+            var3 = var9[var3];
+            var6 = var6.bind(var4)(var3);
+            var3 = var6.useFetchNameplate;
+            var6 = var3.bind(var6)(var8);
+            var3 = var6.nameplateProduct;
+            _closure2_slot2 = var3;
+            var10 = var6.nameplateRecord;
+            _closure2_slot3 = var10;
+            var14 = var6.nameplateData;
+            var8 = var6.isFetching;
+            var6 = var7 != var14;
+            if(!var6) { _fun0001_ip = 331; continue _fun0001 }
+ 327:
+            var6 = var7 != var10;
+ 331:
+            if(!var6) { _fun0001_ip = 338; continue _fun0001 }
+ 334:
+            var6 = var7 != var3;
+ 338:
+            _closure2_slot4 = var6;
             var9 = _closure1_slot3;
-            var8 = var9.useCallback;
-            var7 = new Array(3);
-            var7[0] = var14;
-            var7[1] = var13;
-            var7[2] = var11;
-            var3 = function() {
+            var7 = var9.useCallback;
+            var3 = new Array(3);
+            var3[0] = var11;
+            var3[1] = var10;
+            var3[2] = var2;
+            var2 = function() {
                 var5 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 10;
@@ -215,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = {};
                 var7 = _closure2_slot0;
                 var3['user'] = var7;
-                var7 = _closure2_slot2;
+                var7 = _closure2_slot3;
                 var3['currentNameplate'] = var7;
                 var2 = _closure2_slot1;
                 var3['guildId'] = var2;
@@ -223,103 +227,161 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var6)(var4, var2, var3);
                 return var1;
             };
-            var7 = var8.bind(var9)(var3, var7);
-            if(var2) { _fun0001_ip = 730; continue _fun0001 }
- 370:
-            if(var6) { _fun0001_ip = 430; continue _fun0001 }
- 373:
-            var9 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var2 = 14;
-            var3 = var11[var2];
-            var3 = var9.bind(var4)(var3);
-            var8 = var3.intl;
-            var3 = var8.string;
-            var2 = var11[var2];
-            var2 = var9.bind(var4)(var2);
-            var2 = var2.t;
-            var2 = var2.PoWNfX;
-            var9 = var3.bind(var8)(var2);
-            _fun0001_ip = 435; continue _fun0001;
- 430:
-            var9 = var1.name;
- 435:
-            var3 = _closure1_slot8;
-            var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var1 = 13;
-            var1 = var14[var1];
-            var1 = var13.bind(var4)(var1);
-            var2 = var1.UserProfileEditFormButton;
-            var1 = {};
-            var8 = 14;
-            var11 = var14[var8];
-            var11 = var13.bind(var4)(var11);
-            var16 = var11.intl;
-            var15 = var16.string;
-            var11 = var14[var8];
-            var11 = var13.bind(var4)(var11);
-            var11 = var11.t;
-            var11 = var11.x5CoXV;
-            var11 = var15.bind(var16)(var11);
-            var1['label'] = var11;
-            var1['buttonText'] = var9;
-            var1['accessibilityLabel'] = var9;
-            var9 = var14[var8];
-            var9 = var13.bind(var4)(var9);
-            var11 = var9.intl;
-            var9 = var11.string;
-            var8 = var14[var8];
-            var8 = var13.bind(var4)(var8);
-            var8 = var8.t;
-            var8 = var8.RJxLnZ;
-            var8 = var9.bind(var11)(var8);
-            var1['accessibilityHint'] = var8;
-            var1['onPress'] = var7;
-            var9 = _closure1_slot8;
-            if(var6) { _fun0001_ip = 645; continue _fun0001 }
- 589:
-            var11 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var6 = 16;
-            var6 = var13[var6];
-            var7 = var11.bind(var4)(var6);
-            var6 = {};
-            var8 = 17;
-            var8 = var13[var8];
-            var8 = var11.bind(var4)(var8);
-            var6['source'] = var8;
-            var8 = var10.noneIcon;
-            var6['style'] = var8;
-            var6 = var9.bind(var4)(var7, var6);
-            _fun0001_ip = 717; continue _fun0001;
- 645:
-            var8 = _closure1_slot5;
-            var7 = {};
-            var10 = var10.previewContainer;
-            var7['style'] = var10;
-            var11 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var10 = 15;
-            var10 = var13[var10];
-            var11 = var11.bind(var4)(var10);
-            var10 = {'nameplate': null, 'fullOpacity': true, 'isSquarePreview': true};
-            var10['nameplate'] = var12;
-            var10 = var9.bind(var4)(var11, var10);
-            var7['children'] = var10;
-            var6 = var9.bind(var4)(var8, var7);
- 717:
-            var1['leading'] = var6;
-            var1 = var3.bind(var4)(var2, var1);
-            return var1;
- 730:
+            var7 = var7.bind(var9)(var2, var3);
             var3 = _closure1_slot8;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 13;
-            var1 = var10[var1];
-            var1 = var9.bind(var4)(var1);
-            var2 = var1.UserProfileEditFormButton;
+            var2 = 13;
+            var2 = var10[var2];
+            var2 = var9.bind(var4)(var2);
+            var2 = var2.UserProfileEditFormButton;
+            if(var8) { _fun0001_ip = 696; continue _fun0001 }
+ 416:
+            var11 = function renderSectionLabel() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                    var1 = _closure2_slot3;
+                    var4 = null;
+                    var1 = var4 == var1;
+                    var7 = undefined;
+                    var2 = undefined;
+                    if(var1) { _fun0003_ip = 30; continue _fun0003 }
+ 20:
+                    var1 = _closure2_slot3;
+                    var2 = var1.skuId;
+ 30:
+                    var1 = _closure2_slot0;
+                    var5 = var1.collectibles;
+                    var6 = var4 == var5;
+                    var1 = undefined;
+                    if(var6) { _fun0003_ip = 70; continue _fun0003 }
+ 49:
+                    var5 = var5.nameplate;
+                    var6 = var4 == var5;
+                    var1 = undefined;
+                    if(var6) { _fun0003_ip = 70; continue _fun0003 }
+ 64:
+                    var1 = var5.skuId;
+ 70:
+                    var5 = _closure2_slot1;
+                    if(!(var4 != var5)) { _fun0003_ip = 103; continue _fun0003 }
+ 78:
+                    var5 = _closure2_slot4;
+                    if(!var5) { _fun0003_ip = 103; continue _fun0003 }
+ 85:
+                    if(!(var2 !== var1)) { _fun0003_ip = 103; continue _fun0003 }
+ 89:
+                    var1 = _closure2_slot2;
+                    var1 = var1.name;
+                    _fun0003_ip = 250; continue _fun0003;
+ 103:
+                    var2 = _closure2_slot1;
+                    if(!(var4 == var2)) { _fun0003_ip = 189; continue _fun0003 }
+ 111:
+                    var2 = _closure2_slot4;
+                    if(var2) { _fun0003_ip = 178; continue _fun0003 }
+ 118:
+                    var6 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var2 = 14;
+                    var4 = var8[var2];
+                    var4 = var6.bind(var7)(var4);
+                    var5 = var4.intl;
+                    var4 = var5.string;
+                    var2 = var8[var2];
+                    var2 = var6.bind(var7)(var2);
+                    var2 = var2.t;
+                    var2 = var2.PoWNfX;
+                    var2 = var4.bind(var5)(var2);
+                    _fun0003_ip = 187; continue _fun0003;
+ 178:
+                    var3 = _closure2_slot2;
+                    var2 = var3.name;
+ 187:
+                    _fun0003_ip = 247; continue _fun0003;
+ 189:
+                    var6 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var3 = 14;
+                    var4 = var8[var3];
+                    var4 = var6.bind(var7)(var4);
+                    var5 = var4.intl;
+                    var4 = var5.string;
+                    var3 = var8[var3];
+                    var3 = var6.bind(var7)(var3);
+                    var3 = var3.t;
+                    var3 = var3.CHf9iI;
+                    var2 = var4.bind(var5)(var3);
+ 247:
+                    var1 = var2;
+ 250:
+                    return var1;
+                }
+            };
+            var1 = {};
+            var8 = 14;
+            var13 = var10[var8];
+            var13 = var9.bind(var4)(var13);
+            var16 = var13.intl;
+            var15 = var16.string;
+            var13 = var10[var8];
+            var13 = var9.bind(var4)(var13);
+            var13 = var13.t;
+            var13 = var13.x5CoXV;
+            var13 = var15.bind(var16)(var13);
+            var1['label'] = var13;
+            var13 = var11.bind(var4)();
+            var1['buttonText'] = var13;
+            var11 = var11.bind(var4)();
+            var1['accessibilityLabel'] = var11;
+            var11 = var10[var8];
+            var11 = var9.bind(var4)(var11);
+            var13 = var11.intl;
+            var11 = var13.string;
+            var8 = var10[var8];
+            var8 = var9.bind(var4)(var8);
+            var8 = var8.t;
+            var8 = var8.RJxLnZ;
+            var8 = var11.bind(var13)(var8);
+            var1['accessibilityHint'] = var8;
+            var1['onPress'] = var7;
+            var11 = _closure1_slot8;
+            if(var6) { _fun0001_ip = 611; continue _fun0001 }
+ 555:
+            var13 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var6 = 16;
+            var6 = var15[var6];
+            var7 = var13.bind(var4)(var6);
+            var6 = {};
+            var8 = 17;
+            var8 = var15[var8];
+            var8 = var13.bind(var4)(var8);
+            var6['source'] = var8;
+            var8 = var12.noneIcon;
+            var6['style'] = var8;
+            var6 = var11.bind(var4)(var7, var6);
+            _fun0001_ip = 683; continue _fun0001;
+ 611:
+            var8 = _closure1_slot5;
+            var7 = {};
+            var12 = var12.previewContainer;
+            var7['style'] = var12;
+            var13 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var12 = 15;
+            var12 = var15[var12];
+            var13 = var13.bind(var4)(var12);
+            var12 = {'nameplate': null, 'fullOpacity': true, 'isSquarePreview': true};
+            var12['nameplate'] = var14;
+            var12 = var11.bind(var4)(var13, var12);
+            var7['children'] = var12;
+            var6 = var11.bind(var4)(var8, var7);
+ 683:
+            var1['leading'] = var6;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+ 696:
             var1 = {};
             var6 = 14;
             var7 = var10[var6];

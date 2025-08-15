@@ -140,8 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = 'center';
     var11 = {'paddingVertical': 12, 'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
     var5['separator'] = var11;
-    var11 = {};
-    var11['textAlign'] = var12;
+    var11 = {'textAlign': 'center', 'marginHorizontal': null, 'textTransform': 'uppercase'};
     var13 = var7[var13];
     var13 = var14.bind(var1)(var13);
     var13 = var13.spacing;

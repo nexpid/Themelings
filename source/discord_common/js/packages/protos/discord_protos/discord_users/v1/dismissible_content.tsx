@@ -278,10 +278,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['PROFILE_THEMES_SETTINGS_VIEWED_V2'] = var2;
     var1 = 'PROFILE_THEMES_SETTINGS_VIEWED_V2';
     var4[var2] = var1;
-    var2 = 93;
-    var4['GUILD_HEADER_ACTIVE_THREADS_NOTICE'] = var2;
-    var1 = 'GUILD_HEADER_ACTIVE_THREADS_NOTICE';
-    var4[var2] = var1;
     var2 = 94;
     var4['CHANNEL_LIST_OPT_IN_NUX'] = var2;
     var1 = 'CHANNEL_LIST_OPT_IN_NUX';
@@ -1693,6 +1689,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 578;
     var4['NAMEPLATE_GUILD_SETTINGS_PROFILE_PAGE_NEW_BADGE'] = var2;
     var1 = 'NAMEPLATE_GUILD_SETTINGS_PROFILE_PAGE_NEW_BADGE';
+    var4[var2] = var1;
+    var2 = 579;
+    var4['DISPLAY_NAME_STYLES_NEW_BADGE_PROFILE_PAGE'] = var2;
+    var1 = 'DISPLAY_NAME_STYLES_NEW_BADGE_PROFILE_PAGE';
+    var4[var2] = var1;
+    var2 = 580;
+    var4['CLOUD_PLAY_NEW_BADGE'] = var2;
+    var1 = 'CLOUD_PLAY_NEW_BADGE';
     var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;

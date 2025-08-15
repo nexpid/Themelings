@@ -2,13 +2,19 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
-    var6 = var1.Object;
-    var5 = var6.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var5.bind(var6)(var3, var1, var4);
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
+    var5 = {};
+    var4 = true;
+    var5['value'] = var4;
+    var4 = '__esModule';
+    var4 = var6.bind(var7)(var3, var4, var5);
+    var1 = var1.window;
+    var1 = var1.GLOBAL_ENV;
+    var4 = var1.PROJECT_ENV;
+    var1 = 'development';
+    var1 = var1 === var4;
+    var _closure1_slot0 = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];
@@ -18,11 +24,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'utils/GlobalUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function isDiscordDevelopment() {
+    var4 = function isDiscordFrontendDevelopment() {
         var1 = false;
         return var1;
     };
-    var3['isDiscordDevelopment'] = var4;
+    var3['isDiscordFrontendDevelopment'] = var4;
+    var4 = function isDiscordBackendDevelopment() {
+        var1 = _closure1_slot0;
+        return var1;
+    };
+    var3['isDiscordBackendDevelopment'] = var4;
     var4 = function assertNever(arg1) {
         var1 = global;
         var3 = var1.Error;

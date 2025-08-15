@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 4;
             var2 = var7[var2];
             var3 = var3.bind(var6)(var2);
-            var2 = var3.isDiscordDevelopment;
+            var2 = var3.isDiscordBackendDevelopment;
             var2 = var2.bind(var3)();
             var3 = !var2;
             if(var3) { _fun0004_ip = 132; continue _fun0004 }
@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 4;
             var2 = var7[var2];
             var5 = var5.bind(var6)(var2);
-            var2 = var5.isDiscordDevelopment;
+            var2 = var5.isDiscordBackendDevelopment;
             var2 = var2.bind(var5)();
             var5 = !var2;
             if(var5) { _fun0005_ip = 155; continue _fun0005 }
@@ -353,7 +353,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2[var1];
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
-            var1 = var2.isDiscordDevelopment;
+            var1 = var2.isDiscordFrontendDevelopment;
             var2 = var1.bind(var2)();
             var1 = global;
             if(var2) { _fun0008_ip = 54; continue _fun0008 }

@@ -28,6 +28,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['guild_scheduled_event'] = var2;
     var2 = 'application';
     var4['application'] = var2;
+    var2 = 'widget';
+    var4['widget'] = var2;
     var2 = 'user_urf';
     var4['user_urf'] = var2;
     var2 = 'message_urf';
@@ -44,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
-    var10 = ['application', 'first_dm', 'guild', 'guild_directory_entry', 'guild_discovery', 'guild_scheduled_event', 'message', 'report_to_mod_message', 'stage_channel', 'user'];
+    var10 = ['application', 'first_dm', 'guild', 'guild_directory_entry', 'guild_discovery', 'guild_scheduled_event', 'message', 'report_to_mod_message', 'stage_channel', 'user', 'widget'];
     var11 = var6;
     var5 = new var11[var7](var10, var9);
     var5 = var5 instanceof Object ? var5 : var6;

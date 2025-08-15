@@ -212,7 +212,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var6)(var3);
             var3 = var5.isAndroid;
             var3 = var3.bind(var5)();
-            if(var3) { _fun0005_ip = 86; continue _fun0005 }
+            if(var3) { _fun0005_ip = 84; continue _fun0005 }
  49:
             var3 = global;
             var5 = var3.Promise;
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var9[var5](var8, var7);
             var2 = var2 instanceof Object ? var2 : var3;
             return var2;
- 86: // try_start_0
+ 84: // try_start_0
             var2 = global;
             var3 = var2.Promise;
             var2 = var3.resolve;
@@ -268,9 +268,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.canOpenUrlScheme;
             var1 = var4.bind(var5)(var1);
             var1 = var2.bind(var3)(var1);
- 136: // try_end0
+ 134: // try_end0
             return var1;
- 138: // catch_target0
+ 136: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = global;
             var3 = var1.Promise;

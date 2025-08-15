@@ -796,6 +796,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['showReportModalForInappropriateConversationSafetyAlert'] = var4;
+    var4 = function showReportModalForWidget(arg1, arg2, arg3, arg4) {
+        var3 = _closure1_slot0;
+        var7 = _closure1_slot2;
+        var1 = 6;
+        var2 = var7[var1];
+        var1 = undefined;
+        var6 = var3.bind(var1)(var2);
+        var5 = var6.showReportModal;
+        var4 = {};
+        var2 = 5;
+        var2 = var7[var2];
+        var2 = var3.bind(var1)(var2);
+        var2 = var2.ReportNames;
+        var2 = var2.WIDGET;
+        var4['name'] = var2;
+        var2 = arg2;
+        var2 = var2.id;
+        var4['widget_id'] = var2;
+        var2 = arg1;
+        var4['user_id'] = var2;
+        var3 = {};
+        var2 = arg3;
+        var3['onSubmit'] = var2;
+        var2 = arg4;
+        var3['appContext'] = var2;
+        var2 = {};
+        var2 = var5.bind(var6)(var4, var2, var3);
+        return var1;
+    };
+    var3['showReportModalForWidget'] = var4;
     var4 = function showReportModalForApp(arg1) {
         var1 = arg1;
         var10 = var1.application;

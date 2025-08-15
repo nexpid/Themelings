@@ -209,11 +209,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.STRING_SELECT;
     var4['type'] = var10;
     var10 = new Array(4);
-    var14 = {'label': 'test', 'value': 'test'};
+    var14 = {'label': 'test with a long label', 'value': 'test'};
     var10[0] = var14;
-    var14 = {'label': 'test 2', 'value': 'test2', 'description': 'with description!'};
+    var14 = {'label': 'test 2 with a long label', 'value': 'test2', 'description': 'with description!'};
     var10[1] = var14;
-    var14 = {'label': 'star', 'value': 'star'};
+    var14 = {'label': 'star with a long label', 'value': 'star'};
     var15 = {};
     var16 = '⭐';
     var15['name'] = var16;

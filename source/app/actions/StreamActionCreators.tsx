@@ -687,6 +687,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['notifyStreamStart'] = var4;
+    var4 = function createStreamStartNotificationV2() {
+        var1 = undefined;
+        return var1;
+    };
+    var3['createStreamStartNotificationV2'] = var4;
     var4 = function updateStreamSettings(arg1) {
         var5 = arg1;
         var6 = _closure1_slot0;

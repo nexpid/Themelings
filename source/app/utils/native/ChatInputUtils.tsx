@@ -227,12 +227,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.env;
                 var4 = var2.DEVELOPMENT;
                 var2 = 'development';
-                if(!(var2 === var4)) { _fun0006_ip = 145; continue _fun0006 }
- 131:
+                if(!(var2 === var4)) { _fun0006_ip = 143; continue _fun0006 }
+ 129:
                 var2 = _closure1_slot3;
                 var1 = var2.has;
                 var1 = var1.bind(var2)(var3);
- 145:
+ 143:
                 var1 = undefined;
                 return var1;
             }

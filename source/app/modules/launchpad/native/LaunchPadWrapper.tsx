@@ -446,11 +446,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  579:
             var6['pointerEvents'] = var9;
             var11 = _closure1_slot13;
-            var14 = _closure1_slot0;
-            var17 = _closure1_slot2;
+            var10 = _closure1_slot0;
+            var12 = _closure1_slot2;
             var9 = 19;
-            var9 = var17[var9];
-            var9 = var14.bind(var4)(var9);
+            var9 = var12[var9];
+            var9 = var10.bind(var4)(var9);
             var10 = var9.AccessibilityView;
             var9 = {};
             var12 = 'launch-pad';
@@ -462,8 +462,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = _closure1_slot12;
             var13 = _closure1_slot6;
             var12 = {};
-            var23 = 'button';
-            var12['accessibilityRole'] = var23;
+            var14 = 'no';
+            if(!var20) { _fun0001_ip = 670; continue _fun0001 }
+ 664:
+            var14 = 'yes';
+ 670:
+            var12['importantForAccessibility'] = var14;
+            var14 = 'button';
+            var12['accessibilityRole'] = var14;
+            var14 = _closure1_slot0;
+            var17 = _closure1_slot2;
             var23 = 20;
             var24 = var17[var23];
             var24 = var14.bind(var4)(var24);
@@ -481,6 +489,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var15.bind(var4)(var13, var12);
             var12 = new Array(3);
             var12[0] = var13;
+            var15 = _closure1_slot12;
             var21 = _closure1_slot7;
             var13 = {'accessible': false, 'aria-hidden': true};
             var13['onPress'] = var22;
@@ -495,10 +504,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var13.Freeze;
             var13 = {};
             var17 = !var20;
-            if(!var17) { _fun0001_ip = 819; continue _fun0001 }
- 816:
+            if(!var17) { _fun0001_ip = 849; continue _fun0001 }
+ 846:
             var17 = var18;
- 819:
+ 849:
             var13['freeze'] = var17;
             var18 = _closure1_slot12;
             var17 = _closure1_slot1;

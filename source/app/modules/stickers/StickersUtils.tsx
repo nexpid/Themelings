@@ -397,7 +397,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  42:
             var3 = var4.format_type;
             var1 = null;
-            if(!(var1 != var3)) { _fun0006_ip = 573; continue _fun0006 }
+            if(!(var1 != var3)) { _fun0006_ip = 571; continue _fun0006 }
  57:
             var6 = var4.format_type;
             var7 = var4.format_type;
@@ -442,8 +442,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  222:
             var8 = _closure1_slot12;
             var7 = 'development';
-            if(!(var7 === var8)) { _fun0006_ip = 274; continue _fun0006 }
- 236:
+            if(!(var7 === var8)) { _fun0006_ip = 272; continue _fun0006 }
+ 234:
             var7 = global;
             var8 = var7.location;
             var10 = var8.protocol;
@@ -452,7 +452,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.concat;
             var7 = var7.bind(var5)(var10, var8, var6);
             return var7;
- 274:
+ 272:
             var8 = var4.format_type;
             var10 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -460,8 +460,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var10.bind(var14)(var7);
             var7 = var7.StickerFormat;
             var7 = var7.LOTTIE;
-            if(!(var8 !== var7)) { _fun0006_ip = 535; continue _fun0006 }
- 316:
+            if(!(var8 !== var7)) { _fun0006_ip = 533; continue _fun0006 }
+ 314:
             var7 = var4.format_type;
             var8 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -470,11 +470,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.StickerFormat;
             var4 = var4.APNG;
             var10 = var5;
-            if(!(var7 === var4)) { _fun0006_ip = 405; continue _fun0006 }
- 358:
+            if(!(var7 === var4)) { _fun0006_ip = 403; continue _fun0006 }
+ 356:
             var10 = var5;
-            if(!var2) { _fun0006_ip = 405; continue _fun0006 }
- 364:
+            if(!var2) { _fun0006_ip = 403; continue _fun0006 }
+ 362:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 8;
@@ -483,10 +483,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.isAndroid;
             var2 = var2.bind(var4)();
             var10 = var5;
-            if(var2) { _fun0006_ip = 405; continue _fun0006 }
- 399:
+            if(var2) { _fun0006_ip = 403; continue _fun0006 }
+ 397:
             var10 = '&passthrough=false';
- 405:
+ 403:
             var2 = global;
             var16 = var2.Math;
             var9 = var16.min;
@@ -517,7 +517,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var11;
             var2 = var24[var4](var23, var22, var21, var20, var19, var18, var17, var16);
             return var2;
- 535:
+ 533:
             var2 = global;
             var4 = var2.location;
             var4 = var4.protocol;
@@ -526,7 +526,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.concat;
             var2 = var2.bind(var5)(var4, var3, var6);
             return var2;
- 573:
+ 571:
             return var1;
         }
     };
@@ -612,13 +612,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.match;
             var5 = _closure1_slot12;
             var1 = 'development';
-            if(!(var1 === var5)) { _fun0008_ip = 32; continue _fun0008 }
- 26:
+            if(!(var1 === var5)) { _fun0008_ip = 30; continue _fun0008 }
+ 24:
             var1 = _closure1_slot16;
-            _fun0008_ip = 36; continue _fun0008;
- 32:
+            _fun0008_ip = 34; continue _fun0008;
+ 30:
             var1 = _closure1_slot15;
- 36:
+ 34:
             var2 = var2.bind(var3)(var1);
             var1 = null;
             var1 = var1 != var2;

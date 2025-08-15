@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var7.bind(var5)(var1);
             var1 = var1.FirstPartyQuestTaskTypes;
             var1 = var1.WATCH_VIDEO;
-            if(!(var1 !== var4)) { _fun0003_ip = 916; continue _fun0003 }
+            if(!(var1 !== var4)) { _fun0003_ip = 927; continue _fun0003 }
  52:
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var7.bind(var5)(var1);
             var1 = var1.FirstPartyQuestTaskTypes;
             var1 = var1.WATCH_VIDEO_ON_MOBILE;
-            if(!(var1 !== var4)) { _fun0003_ip = 803; continue _fun0003 }
+            if(!(var1 !== var4)) { _fun0003_ip = 814; continue _fun0003 }
  88:
             var7 = _closure1_slot0;
             var1 = _closure1_slot1;
@@ -275,8 +275,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['type'] = var4;
             var4 = var2.target;
             var1['target'] = var4;
+            var4 = var2.applications;
+            var1['applications'] = var4;
             return var1;
- 803:
+ 814:
             var1 = {};
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
@@ -301,7 +303,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.bind(var8)(var4);
             var1['messages'] = var4;
             return var1;
- 916:
+ 927:
             var1 = {};
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
