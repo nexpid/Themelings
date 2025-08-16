@@ -11058,17 +11058,6 @@
         "width": 24,
         "height": 24
     },
-    "mobile_shop_marketing_banner": {
-        "file": "images/native/mobile_shop_marketing_banner.png",
-        "hash": "0429472c7be4d2790ff5cd04dd5e66f6",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 343,
-        "height": 178
-    },
     "mobile-empty-state": {
         "file": "modules/guild_onboarding_home/images/mobile-empty-state.png",
         "hash": "fa8d8980f41bbcb7aeb9d5dc519482cb",
@@ -12785,16 +12774,6 @@
         "width": 18,
         "height": 15
     },
-    "SparklesIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/SparklesIcon.png",
-        "hash": "df30eb9d2ffaff7f8e46199cbc762890",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "speaker": {
         "file": "modules/video_calls/native/images/speaker.png",
         "hash": "72af9903f630d67fa106808d11ca96fb",
@@ -12818,6 +12797,16 @@
     "SpoilerIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/SpoilerIcon.png",
         "hash": "9e3b26ff5f7da5af97bcf5cc0641d606",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "SpotifyNeutralIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/SpotifyNeutralIcon.png",
+        "hash": "e66de514227c7ad7a3d1f465ba789308",
         "scales": [
             2,
             3
