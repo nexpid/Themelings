@@ -1,4 +1,5 @@
 import { basename as _basename } from "node:path";
+import { RouteBases, Routes } from "discord-api-types/v10";
 import type { Canvas } from "skia-canvas";
 import draw, { convertDiffs } from "../../canvas";
 import { type CodeDiff, type Diff, DiffEnum, type OutDiffs } from "../../types";
@@ -139,15 +140,34 @@ async function triggerWebhook(
 		}),
 	);
 
-	const res = await fetch(webhook, {
+	const discordToken = process.env.bot_token;
+
+	const url = new URL(webhook);
+	url.searchParams.set("wait", "true");
+
+	const res = await fetch(url, {
 		method: "POST",
 		body: formData,
 	});
 
+	const data = await res.text();
 	if (!res.ok)
-		throw new Error(
-			`Failed to send webhook message with embeds ${embeds.map((x) => x.title).join(", ")}: ${await res.text()}`,
-		);
+		throw new Error(`Failed to send webhook message with embeds ${embeds.map((x) => x.title).join(", ")}: ${data}`);
+
+	if (!discordToken) return;
+
+	// this can fail quietly
+	try {
+		const message = JSON.parse(data);
+
+		const route = `${RouteBases.api}/${Routes.channelMessageCrosspost(message.channel_id, message.id)}`;
+		await fetch(route, {
+			method: "POST",
+			headers: {
+				Authorization: discordToken,
+			},
+		});
+	} catch {}
 }
 
 export async function webhook(diffs: OutDiffs) {
