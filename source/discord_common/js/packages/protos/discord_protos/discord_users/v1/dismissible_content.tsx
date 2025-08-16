@@ -1130,10 +1130,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['SUMMER_2024_BOGO_ANNOUNCEMENT_MODAL'] = var2;
     var1 = 'SUMMER_2024_BOGO_ANNOUNCEMENT_MODAL';
     var4[var2] = var1;
-    var2 = 420;
-    var4['COLLECTIBLES_SHOP_ROBERT_MOBILE_MARKETING'] = var2;
-    var1 = 'COLLECTIBLES_SHOP_ROBERT_MOBILE_MARKETING';
-    var4[var2] = var1;
     var2 = 421;
     var4['GIFT_INVENTORY_QUESTS_MOVED_TO_QUEST_HOME'] = var2;
     var1 = 'GIFT_INVENTORY_QUESTS_MOVED_TO_QUEST_HOME';
@@ -1697,6 +1693,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 580;
     var4['CLOUD_PLAY_NEW_BADGE'] = var2;
     var1 = 'CLOUD_PLAY_NEW_BADGE';
+    var4[var2] = var1;
+    var2 = 581;
+    var4['NAMEPLATE_GUILD_SETTINGS_TAB_NEW_BADGE'] = var2;
+    var1 = 'NAMEPLATE_GUILD_SETTINGS_TAB_NEW_BADGE';
+    var4[var2] = var1;
+    var2 = 582;
+    var4['COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING'] = var2;
+    var1 = 'COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING';
     var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;

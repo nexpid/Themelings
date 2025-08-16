@@ -543,7 +543,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var1 = _closure2_slot0;
                     var2 = {};
-                    if(var1) { _fun0007_ip = 130; continue _fun0007 }
+                    if(var1) { _fun0007_ip = 129; continue _fun0007 }
  12:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -570,13 +570,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4.bind(var5)(var1);
                     var2['uri'] = var1;
                     var1 = var2;
-                    _fun0007_ip = 148; continue _fun0007;
- 130:
+                    _fun0007_ip = 146; continue _fun0007;
+ 129:
                     var3 = _closure2_slot2;
                     var3 = var3.src;
                     var2['uri'] = var3;
                     var1 = var2;
- 148:
+ 146:
                     return var1;
                 }
             };
@@ -681,7 +681,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['sourceWidth'] = var8;
                     var8 = var7.height;
                     var3['sourceHeight'] = var8;
-                    if(var1) { _fun0009_ip = 132; continue _fun0009 }
+                    if(var1) { _fun0009_ip = 131; continue _fun0009 }
  80:
                     var1 = _closure2_slot1;
                     var8 = 4;
@@ -695,8 +695,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4.bind(var5)(var3);
                     var2['uri'] = var1;
                     var1 = var2;
-                    _fun0009_ip = 173; continue _fun0009;
- 132:
+                    _fun0009_ip = 171; continue _fun0009;
+ 131:
                     var8 = var7.width;
                     var3['targetWidth'] = var8;
                     var7 = var7.height;
@@ -706,7 +706,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.bind(var5)(var3);
                     var2['uri'] = var3;
                     var1 = var2;
- 173:
+ 171:
                     return var1;
                 }
             };

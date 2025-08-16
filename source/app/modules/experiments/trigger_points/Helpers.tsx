@@ -71,23 +71,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = function value() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                var3 = arguments[0];
-                var2 = this;
+                var2 = arguments[0];
+                var5 = this;
                 var1 = undefined;
-                if(!(var3 === var1)) { _fun0001_ip = 14; continue _fun0001 }
+                if(!(var2 === var1)) { _fun0001_ip = 14; continue _fun0001 }
  12:
-                var3 = {};
+                var2 = {};
  14:
-                var4 = var2.triggerPoint;
-                var5 = var2.experiments;
-                var4 = {};
-                var8 = var2.params;
-                var9 = var4;
-                var6 = copyDataProperties(var9, var8);
-                var9 = var4;
-                var8 = var3;
-                var3 = copyDataProperties(var9, var8);
-                var3 = function triggerCommonExperiments(arg1, arg2, arg3) {
+                var6 = _closure1_slot2;
+                var4 = var6.trackCommonTriggerPointExposures;
+                var3 = var5.params;
+                var3 = var3.location;
+                var3 = var4.bind(var6)(var3);
+                var3 = var5.triggerPoint;
+                var4 = var5.experiments;
+                var3 = {};
+                var8 = var5.params;
+                var9 = var3;
+                var5 = copyDataProperties(var9, var8);
+                var9 = var3;
+                var8 = var2;
+                var2 = copyDataProperties(var9, var8);
+                var2 = function triggerCommonExperiments(arg1, arg2, arg3) {
                     var3 = arg2;
                     var2 = arg3;
                     var _closure4_slot0 = var2;
@@ -104,12 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = undefined;
                     return var1;
                 };
-                var3 = var3.bind(var1)(var1, var5, var4);
-                var4 = _closure1_slot2;
-                var3 = var4.trackCommonTriggerPointExposures;
-                var2 = var2.params;
-                var2 = var2.location;
-                var2 = var3.bind(var4)(var2);
+                var2 = var2.bind(var1)(var1, var4, var3);
                 return var1;
             }
         };

@@ -980,6 +980,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['openICYMITab'] = var7;
+    var7 = function closeICYMITab() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ICYMI_TAB_CLOSED';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['closeICYMITab'] = var7;
+    var7 = function setVisibleItems(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ICYMI_SET_VISIBLE_ITEMS';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['items'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['setVisibleItems'] = var7;
     var7 = function ackGravityItems(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
@@ -1095,7 +1127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['setVideosMuted'] = var7;
-    var4 = function setTabFocused(arg1) {
+    var7 = function setTabFocused(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 3;
@@ -1111,7 +1143,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['setTabFocused'] = var4;
+    var2['setTabFocused'] = var7;
+    var4 = function setCardHeight(arg1, arg2) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'ICYMI_SET_CARD_HEIGHT';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['itemId'] = var5;
+        var5 = arg2;
+        var2['height'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['setCardHeight'] = var4;
     var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

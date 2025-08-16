@@ -196,19 +196,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 1;
             var7 = var8 - var7;
             var2['borderTopRightRadius'] = var7;
-            var7 = var6[var3];
-            var7 = var5.bind(var4)(var7);
-            var7 = var7.radii;
-            var7 = var7.md;
-            var2['borderBottomLeftRadius'] = var7;
-            var1['cardBadge'] = var2;
-            var2 = {};
             var3 = var6[var3];
             var3 = var5.bind(var4)(var3);
-            var3 = var3.colors;
-            var3 = var3.REDESIGN_ACTIVITY_CARD_BADGE_ICON;
-            var2['color'] = var3;
-            var1['cardBadgeIcon'] = var2;
+            var3 = var3.radii;
+            var3 = var3.md;
+            var2['borderBottomLeftRadius'] = var3;
+            var1['cardBadge'] = var2;
             return var1;
         }
     };
@@ -224,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['cardHeaderMargin'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot22 = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -233,115 +226,90 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function HappeningNowCard(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            var16 = arg1;
+            var5 = arg1;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 6;
             var1 = var3[var1];
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
-            var5 = var1.bind(var4)();
+            var8 = var1.bind(var4)();
             var3 = _closure1_slot21;
-            var2 = var16.width;
-            var6 = var16.panelVariant;
-            var11 = null;
-            var1 = var11 != var6;
+            var2 = var5.width;
+            var9 = var5.panelVariant;
+            var6 = null;
+            var1 = var6 != var9;
             if(!var1) { _fun0002_ip = 59; continue _fun0002 }
  56:
-            var1 = var6;
+            var1 = var9;
  59:
-            var17 = var3.bind(var4)(var2, var1, var5);
+            var11 = var3.bind(var4)(var2, var1, var8);
             var2 = _closure1_slot1;
-            var8 = _closure1_slot2;
+            var13 = _closure1_slot2;
             var1 = 7;
-            var1 = var8[var1];
+            var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
-            var7 = var1.bind(var4)();
-            var14 = var16.IconComponent;
-            var6 = var16.accessibilityLabel;
-            var5 = var16.accessibilityHint;
+            var10 = var1.bind(var4)();
+            var12 = var5.IconComponent;
+            var9 = var5.accessibilityLabel;
+            var8 = var5.accessibilityHint;
             var3 = _closure1_slot19;
             var2 = _closure1_slot0;
             var1 = 8;
-            var1 = var8[var1];
+            var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Card;
             var1 = {};
-            var8 = 'secondary';
-            var1['variant'] = var8;
-            var9 = var17.card;
-            var8 = new Array(2);
-            var8[0] = var9;
-            var9 = var16.style;
-            var8[1] = var9;
-            var1['style'] = var8;
-            var8 = var16.onPress;
-            var1['onPress'] = var8;
-            var8 = 'faint';
-            var1['border'] = var8;
-            var8 = var11 == var7;
-            var7 = undefined;
-            if(!var8) { _fun0002_ip = 203; continue _fun0002 }
+            var13 = 'secondary';
+            var1['variant'] = var13;
+            var14 = var11.card;
+            var13 = new Array(2);
+            var13[0] = var14;
+            var14 = var5.style;
+            var13[1] = var14;
+            var1['style'] = var13;
+            var13 = var5.onPress;
+            var1['onPress'] = var13;
+            var13 = 'faint';
+            var1['border'] = var13;
+            var13 = var6 == var10;
+            var10 = undefined;
+            if(!var13) { _fun0002_ip = 203; continue _fun0002 }
  199:
-            var7 = 'low';
+            var10 = 'low';
  203:
-            var1['shadow'] = var7;
-            var7 = var16.onLongPress;
-            var1['onLongPress'] = var7;
-            var7 = var16.onPress;
-            var7 = var11 == var7;
-            var1['disabled'] = var7;
-            var1['accessibilityLabel'] = var6;
-            var1['accessibilityHint'] = var5;
-            var6 = var16.children;
+            var1['shadow'] = var10;
+            var10 = var5.onLongPress;
+            var1['onLongPress'] = var10;
+            var10 = var5.onPress;
+            var10 = var6 == var10;
+            var1['disabled'] = var10;
+            var1['accessibilityLabel'] = var9;
+            var1['accessibilityHint'] = var8;
+            var8 = var5.children;
             var5 = new Array(2);
-            var5[0] = var6;
-            var6 = var16.badgeIcon;
-            var7 = var11 != var6;
+            var5[0] = var8;
+            var8 = var6 != var12;
             var6 = null;
-            if(!var7) { _fun0002_ip = 432; continue _fun0002 }
- 272:
+            if(!var8) { _fun0002_ip = 331; continue _fun0002 }
+ 263:
             var9 = _closure1_slot18;
             var8 = _closure1_slot3;
             var7 = {};
-            var10 = var17.cardBadgeWrapper;
+            var10 = var11.cardBadgeWrapper;
             var7['style'] = var10;
             var10 = {};
-            var13 = var17.cardBadge;
-            var10['style'] = var13;
-            if(!(var11 == var14)) { _fun0002_ip = 392; continue _fun0002 }
- 308:
-            var15 = _closure1_slot18;
-            var19 = _closure1_slot1;
-            var20 = _closure1_slot2;
-            var18 = 9;
-            var11 = var20[var18];
-            var13 = var19.bind(var4)(var11);
+            var11 = var11.cardBadge;
+            var10['style'] = var11;
             var11 = {};
-            var18 = var20[var18];
-            var18 = var19.bind(var4)(var18);
-            var18 = var18.Sizes;
-            var18 = var18.REFRESH_SMALL_16;
-            var11['size'] = var18;
-            var17 = var17.cardBadgeIcon;
-            var17 = var17.color;
-            var11['color'] = var17;
-            var16 = var16.badgeIcon;
-            var11['source'] = var16;
-            var11 = var15.bind(var4)(var13, var11);
-            _fun0002_ip = 412; continue _fun0002;
- 392:
-            var13 = _closure1_slot18;
-            var12 = {};
-            var15 = 'xs';
-            var12['size'] = var15;
-            var11 = var13.bind(var4)(var14, var12);
- 412:
+            var13 = 'xs';
+            var11['size'] = var13;
+            var11 = var9.bind(var4)(var12, var11);
             var10['children'] = var11;
             var10 = var9.bind(var4)(var8, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 432:
+ 331:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
@@ -370,7 +338,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot18;
             var2 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var10[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.Text;
@@ -408,7 +376,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot18;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var1 = var3[var1];
             var3 = undefined;
             var1 = var2.bind(var3)(var1);

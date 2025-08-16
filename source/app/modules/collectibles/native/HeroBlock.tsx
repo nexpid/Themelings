@@ -306,7 +306,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['products'] = var7;
             var2 = var3.bind(var4)(var2);
             var23 = var2.sortedProducts;
-            if(!(var5 !== var12)) { _fun0001_ip = 1268; continue _fun0001 }
+            if(!(var5 !== var12)) { _fun0001_ip = 1266; continue _fun0001 }
  326:
             var4 = _closure1_slot9;
             var3 = _closure1_slot1;
@@ -323,7 +323,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var9;
             var6['style'] = var8;
             var8 = var5 !== var12;
-            if(!var8) { _fun0001_ip = 1246; continue _fun0001 }
+            if(!var8) { _fun0001_ip = 1244; continue _fun0001 }
  391:
             var11 = _closure1_slot10;
             var10 = _closure1_slot11;
@@ -441,7 +441,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var15.static;
  578:
             var14 = var1 != var14;
-            if(!var14) { _fun0001_ip = 760; continue _fun0001 }
+            if(!var14) { _fun0001_ip = 759; continue _fun0001 }
  588:
             var22 = _closure1_slot10;
             var19 = _closure1_slot11;
@@ -486,7 +486,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24[1] = var27;
             var15['children'] = var24;
             var14 = var22.bind(var5)(var19, var15);
- 760:
+ 759:
             var19 = new Array(2);
             var19[0] = var14;
             var15 = _closure1_slot9;
@@ -537,8 +537,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.heroProductsContainer;
             var13['style'] = var16;
             var16 = var23.length;
-            if(!(var20 !== var16)) { _fun0001_ip = 1206; continue _fun0001 }
- 996:
+            if(!(var20 !== var16)) { _fun0001_ip = 1204; continue _fun0001 }
+ 994:
             var19 = _closure1_slot9;
             var24 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -678,25 +678,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16['ItemSeparatorComponent'] = var21;
             var16['initialScrollIndex'] = var20;
             var16 = var19.bind(var5)(var18, var16);
-            _fun0001_ip = 1222; continue _fun0001;
- 1206:
+            _fun0001_ip = 1220; continue _fun0001;
+ 1204:
             var19 = _closure1_slot9;
             var18 = _closure1_slot13;
             var17 = {};
             var16 = var19.bind(var5)(var18, var17);
- 1222:
+ 1220:
             var13['children'] = var16;
             var13 = var15.bind(var5)(var14, var13);
             var12[1] = var13;
             var9['children'] = var12;
             var8 = var11.bind(var5)(var10, var9);
- 1246:
+ 1244:
             var6['children'] = var8;
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 1268:
+ 1266:
             return var1;
         }
     };

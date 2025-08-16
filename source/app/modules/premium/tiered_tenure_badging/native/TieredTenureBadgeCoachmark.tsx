@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = undefined;
             var9 = var1.bind(var5)();
             var1 = null;
-            if(!(var1 != var2)) { _fun0001_ip = 135; continue _fun0001 }
+            if(!(var1 != var2)) { _fun0001_ip = 134; continue _fun0001 }
  28:
             var11 = var2.id;
             var4 = _closure1_slot8;
@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 135:
+ 134:
             return var1;
         }
     };

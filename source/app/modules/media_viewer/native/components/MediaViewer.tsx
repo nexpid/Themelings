@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var19.Array;
             var3 = var13.isArray;
             var3 = var3.bind(var13)(var18);
-            if(var3) { _fun0002_ip = 352; continue _fun0002 }
+            if(var3) { _fun0002_ip = 351; continue _fun0002 }
  217:
             var13 = var11.push;
             var3 = {};
@@ -185,12 +185,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[var14] = var22;
             var3 = var12.bind(var4)(var3);
             var3 = var13.bind(var11)(var3);
-            _fun0002_ip = 679; continue _fun0002;
- 352:
+            _fun0002_ip = 676; continue _fun0002;
+ 351:
             var14 = 1;
             var13 = var2 <= var14;
-            if(!var13) { _fun0002_ip = 503; continue _fun0002 }
- 365:
+            if(!var13) { _fun0002_ip = 501; continue _fun0002 }
+ 364:
             var22 = var11.push;
             var3 = {};
             var31 = var3;
@@ -221,9 +221,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[var23] = var24;
             var3 = var12.bind(var4)(var3);
             var3 = var22.bind(var11)(var3);
- 503:
-            if(!(var2 >= var14)) { _fun0002_ip = 679; continue _fun0002 }
- 510:
+ 501:
+            if(!(var2 >= var14)) { _fun0002_ip = 676; continue _fun0002 }
+ 508:
             var3 = var11.push;
             var2 = {};
             var31 = var2;
@@ -251,10 +251,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = 'onError';
             var2[var14] = var15;
             var14 = 'auto';
-            if(!var13) { _fun0002_ip = 640; continue _fun0002 }
- 636:
+            if(!var13) { _fun0002_ip = 637; continue _fun0002 }
+ 633:
             var14 = 'none';
- 640:
+ 637:
             var13 = 'pointerEvents';
             var2[var13] = var14;
             var13 = 'fadeDuration';
@@ -264,21 +264,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var13] = var14;
             var2 = var12.bind(var4)(var2);
             var2 = var3.bind(var11)(var2);
- 679:
+ 676:
             var2 = var7 / var6;
             var12 = var5.width;
             var3 = var5.height;
             var12 = var12 / var3;
             var3 = _closure1_slot12;
             var16 = 0;
-            if(!var3) { _fun0002_ip = 732; continue _fun0002 }
- 706:
+            if(!var3) { _fun0002_ip = 729; continue _fun0002 }
+ 703:
             var13 = var5.height;
             var3 = 2;
             var13 = var13 / var3;
             var3 = 5.75;
             var16 = var13 - var3;
- 732:
+ 729:
             var13 = var5.x;
             var3 = var5.width;
             var3 = var7 - var3;
@@ -303,21 +303,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot9 = var6;
             var13 = var5.resizeMode;
             var3 = 'cover';
-            if(!(var3 !== var13)) { _fun0002_ip = 872; continue _fun0002 }
- 837:
+            if(!(var3 !== var13)) { _fun0002_ip = 869; continue _fun0002 }
+ 834:
             var3 = 1;
-            if(!(var2 > var12)) { _fun0002_ip = 847; continue _fun0002 }
- 844:
+            if(!(var2 > var12)) { _fun0002_ip = 844; continue _fun0002 }
+ 841:
             var3 = var2;
- 847:
+ 844:
             var2 = var5.width;
             var2 = var2 / var7;
             var13 = var2 * var3;
             _closure2_slot5 = var13;
             var17 = var7;
             var18 = var6;
-            _fun0002_ip = 946; continue _fun0002;
- 872:
+            _fun0002_ip = 943; continue _fun0002;
+ 869:
             var3 = var5.width;
             _closure2_slot8 = var3;
             var2 = var5.height;
@@ -337,7 +337,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var5;
             var17 = var3;
             var18 = var2;
- 946:
+ 943:
             var20 = _closure1_slot0;
             var14 = _closure1_slot2;
             var19 = 7;

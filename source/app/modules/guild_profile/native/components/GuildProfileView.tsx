@@ -298,7 +298,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var2 = _closure2_slot0;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0004_ip = 108; continue _fun0004 }
+                if(!(var1 != var2)) { _fun0004_ip = 107; continue _fun0004 }
  13:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -321,12 +321,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = 'number';
                 var4 = typeof var3;
                 var2 = null;
-                if(!(var5 !== var4)) { _fun0004_ip = 106; continue _fun0004 }
+                if(!(var5 !== var4)) { _fun0004_ip = 105; continue _fun0004 }
  100:
                 var2 = var3.uri;
- 106:
+ 105:
                 return var2;
- 108:
+ 107:
                 return var1;
             }
         };

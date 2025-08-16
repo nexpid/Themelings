@@ -222,14 +222,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var3['crash'] = var4;
-        var2 = function generateLaunchSignature(arg1) {
+        var4 = function generateLaunchSignature(arg1) {
             var3 = _closure1_slot2;
             var2 = var3.generateLaunchSignature;
             var1 = arg1;
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var3['generateLaunchSignature'] = var2;
+        var3['generateLaunchSignature'] = var4;
+        var2 = function getHttpClientAPI() {
+            var1 = {};
+            var3 = _closure1_slot2;
+            var3 = var3.httpRequest;
+            var1['httpRequest'] = var3;
+            var3 = _closure1_slot2;
+            var3 = var3.getHttpRequestStatus;
+            var1['getHttpRequestStatus'] = var3;
+            var3 = _closure1_slot2;
+            var3 = var3.cancelHttpRequest;
+            var1['cancelHttpRequest'] = var3;
+            var2 = _closure1_slot2;
+            var2 = var2.getTrackedRequestCount;
+            var1['getTrackedRequestCount'] = var2;
+            return var1;
+        };
+        var3['getHttpClientAPI'] = var2;
         return var1;
     }
 })();

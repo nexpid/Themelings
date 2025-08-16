@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  387:
             var9 = var4 != var13;
             var7 = null;
-            if(!var9) { _fun0001_ip = 433; continue _fun0001 }
+            if(!var9) { _fun0001_ip = 432; continue _fun0001 }
  396:
             var10 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -152,15 +152,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.ensureAvatarSource;
             var9 = var9.bind(var10)(var13);
             var7 = var9.uri;
- 433:
+ 432:
             var9 = var4 == var5;
             var13 = undefined;
-            if(var9) { _fun0001_ip = 447; continue _fun0001 }
- 442:
+            if(var9) { _fun0001_ip = 446; continue _fun0001 }
+ 441:
             var13 = var5.name;
- 447:
-            if(var13) { _fun0001_ip = 483; continue _fun0001 }
- 450:
+ 446:
+            if(var13) { _fun0001_ip = 482; continue _fun0001 }
+ 449:
             var10 = var15.map;
             var9 = function(arg1) {
                 var1 = arg1;
@@ -171,9 +171,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var15.join;
             var9 = ', ';
             var13 = var10.bind(var15)(var9);
- 483:
-            if(var13) { _fun0001_ip = 538; continue _fun0001 }
- 486:
+ 482:
+            if(var13) { _fun0001_ip = 537; continue _fun0001 }
+ 485:
             var16 = _closure1_slot0;
             var9 = _closure1_slot2;
             var10 = var9[var22];
@@ -185,9 +185,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.t;
             var9 = var9.LJpTRE;
             var13 = var10.bind(var15)(var9);
- 538:
-            if(var1) { _fun0001_ip = 607; continue _fun0001 }
- 541:
+ 537:
+            if(var1) { _fun0001_ip = 606; continue _fun0001 }
+ 540:
             var9 = var11.acceptLabelGreenColor;
             var10 = var11.acceptLabelGreenBackgroundColor;
             var18 = _closure1_slot0;
@@ -201,8 +201,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.XpeFYm;
             var15 = var15.bind(var16)(var1);
-            _fun0001_ip = 671; continue _fun0001;
- 607:
+            _fun0001_ip = 670; continue _fun0001;
+ 606:
             var9 = var11.acceptLabelDisabledColor;
             var10 = var11.acceptLabelDisabledBackgroundColor;
             var21 = _closure1_slot0;
@@ -216,18 +216,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var18.t;
             var18 = var18.cEnaW1;
             var15 = var19.bind(var20)(var18);
- 671:
+ 670:
             var1 = {};
             var24 = var1;
             var23 = var12;
             var12 = copyDataProperties(var24, var23);
             var12 = var4 != var17;
             var16 = undefined;
-            if(!var12) { _fun0001_ip = 702; continue _fun0001 }
- 692:
+            if(!var12) { _fun0001_ip = 701; continue _fun0001 }
+ 691:
             var12 = var17.toUpperCase;
             var16 = var12.bind(var17)();
- 702:
+ 701:
             var12 = 'headerText';
             var1[var12] = var16;
             var16 = var11.headerColor;
@@ -248,10 +248,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var11] = var12;
             var12 = var4 != var7;
             var11 = undefined;
-            if(!var12) { _fun0001_ip = 804; continue _fun0001 }
- 801:
+            if(!var12) { _fun0001_ip = 803; continue _fun0001 }
+ 800:
             var11 = var7;
- 804:
+ 803:
             var7 = 'thumbnailUrl';
             var1[var7] = var11;
             var7 = 'thumbnailText';
@@ -274,18 +274,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var7] = var8;
             var7 = var4 != var5;
             var6 = undefined;
-            if(!var7) { _fun0001_ip = 913; continue _fun0001 }
- 908:
+            if(!var7) { _fun0001_ip = 912; continue _fun0001 }
+ 907:
             var6 = var5.name;
- 913:
+ 912:
             var5 = 'channelName';
             var1[var5] = var6;
             var3 = var3.type;
-            if(!(var4 == var3)) { _fun0001_ip = 941; continue _fun0001 }
- 931:
+            if(!(var4 == var3)) { _fun0001_ip = 940; continue _fun0001 }
+ 930:
             var2 = _closure1_slot4;
             var3 = var2.GROUP_DM;
- 941:
+ 940:
             var2 = 'type';
             var1[var2] = var3;
             return var1;

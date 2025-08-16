@@ -173,9 +173,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var16 = var3.tag;
                 var7 = var3.badge;
                 var4 = var3.guildId;
-                if(!(var1 != var4)) { _fun0002_ip = 525; continue _fun0002 }
+                if(!(var1 != var4)) { _fun0002_ip = 524; continue _fun0002 }
  237:
-                if(!(var1 != var16)) { _fun0002_ip = 525; continue _fun0002 }
+                if(!(var1 != var16)) { _fun0002_ip = 524; continue _fun0002 }
  244:
                 var15 = _closure1_slot0;
                 var21 = _closure1_slot1;
@@ -244,7 +244,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['children'] = var6;
                 var2 = var4.bind(var5)(var3, var2);
                 return var2;
- 525:
+ 524:
                 return var1;
             }
         };

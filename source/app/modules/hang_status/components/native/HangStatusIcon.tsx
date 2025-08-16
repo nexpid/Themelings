@@ -293,17 +293,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1.emoji;
             var2 = var11 == var7;
             var1 = null;
-            if(var2) { _fun0001_ip = 913; continue _fun0001 }
+            if(var2) { _fun0001_ip = 911; continue _fun0001 }
  644:
             var2 = var7.id;
-            if(!(var11 != var2)) { _fun0001_ip = 832; continue _fun0001 }
+            if(!(var11 != var2)) { _fun0001_ip = 830; continue _fun0001 }
  656:
             var5 = _closure1_slot7;
             var4 = _closure1_slot6;
             var2 = {};
             var10 = var11 != var21;
             var12 = null;
-            if(!var10) { _fun0001_ip = 737; continue _fun0001 }
+            if(!var10) { _fun0001_ip = 736; continue _fun0001 }
  675:
             var14 = _closure1_slot5;
             var13 = _closure1_slot1;
@@ -320,13 +320,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19[1] = var20;
             var10['style'] = var19;
             var12 = var14.bind(var6)(var13, var10);
- 737:
+ 736:
             var10 = new Array(2);
             var10[0] = var12;
             var12 = var11 != var18;
             var11 = null;
-            if(!var12) { _fun0001_ip = 816; continue _fun0001 }
- 754:
+            if(!var12) { _fun0001_ip = 814; continue _fun0001 }
+ 753:
             var14 = _closure1_slot5;
             var13 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -342,12 +342,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[1] = var16;
             var12['style'] = var15;
             var11 = var14.bind(var6)(var13, var12);
- 816:
+ 814:
             var10[1] = var11;
             var2['children'] = var10;
             var2 = var5.bind(var6)(var4, var2);
-            _fun0001_ip = 910; continue _fun0001;
- 832:
+            _fun0001_ip = 908; continue _fun0001;
+ 830:
             var5 = _closure1_slot5;
             var4 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -366,9 +366,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.name;
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 910:
+ 908:
             var1 = var2;
- 913:
+ 911:
             return var1;
         }
     };

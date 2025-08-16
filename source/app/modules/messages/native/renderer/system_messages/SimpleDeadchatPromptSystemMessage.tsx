@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.isAndroid;
             var6 = var5.bind(var6)();
             var5 = null;
-            if(var6) { _fun0001_ip = 258; continue _fun0001 }
+            if(var6) { _fun0001_ip = 257; continue _fun0001 }
  190:
             var10 = _closure1_slot3;
             var9 = var10.resolveAssetSource;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var11.bind(var12)(var6);
             var6 = var9.bind(var10)(var6);
             var5 = var6.uri;
- 258:
+ 257:
             var3['cameraButtonIcon'] = var5;
             var11 = _closure1_slot3;
             var10 = var11.resolveAssetSource;
@@ -119,8 +119,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.isAndroid;
             var5 = var5.bind(var6)();
             var4 = null;
-            if(var5) { _fun0001_ip = 420; continue _fun0001 }
- 363:
+            if(var5) { _fun0001_ip = 418; continue _fun0001 }
+ 361:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var5 = 2;
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.t;
             var5 = var5.+j6eZW;
             var4 = var6.bind(var8)(var5);
- 420:
+ 418:
             var3['cameraButtonText'] = var4;
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;

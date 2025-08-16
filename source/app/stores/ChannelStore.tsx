@@ -56,32 +56,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 'undefined';
             var2 = typeof var2;
             var2 = var4 !== var2;
-            if(!var2) { _fun0002_ip = 45; continue _fun0002 }
+            if(!var2) { _fun0002_ip = 46; continue _fun0002 }
  30:
             var4 = var5.Symbol;
             var4 = var4.iterator;
             var2 = var3[var4];
- 45:
-            if(var2) { _fun0002_ip = 54; continue _fun0002 }
- 48:
+ 46:
+            if(var2) { _fun0002_ip = 55; continue _fun0002 }
+ 49:
             var2 = var3.@@iterator;
- 54:
-            if(var2) { _fun0002_ip = 342; continue _fun0002 }
- 60:
+ 55:
+            if(var2) { _fun0002_ip = 343; continue _fun0002 }
+ 61:
             var6 = var5.Array;
             var4 = var6.isArray;
             var6 = var4.bind(var6)(var3);
             var4 = var2;
-            if(var6) { _fun0002_ip = 322; continue _fun0002 }
- 85:
+            if(var6) { _fun0002_ip = 323; continue _fun0002 }
+ 86:
             var8 = undefined;
             var6 = undefined;
-            if(!var3) { _fun0002_ip = 282; continue _fun0002 }
- 95:
+            if(!var3) { _fun0002_ip = 283; continue _fun0002 }
+ 96:
             var9 = 'string';
             var7 = typeof var3;
-            if(!(var9 !== var7)) { _fun0002_ip = 269; continue _fun0002 }
- 109:
+            if(!(var9 !== var7)) { _fun0002_ip = 270; continue _fun0002 }
+ 110:
             var7 = {};
             var9 = var7.toString;
             var7 = var9.call;
@@ -92,49 +92,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.bind(var11)(var9, var7);
             var7 = 'Object';
             var7 = var7 === var9;
-            if(!var7) { _fun0002_ip = 162; continue _fun0002 }
- 157:
+            if(!var7) { _fun0002_ip = 163; continue _fun0002 }
+ 158:
             var7 = var3.constructor;
- 162:
+ 163:
             var10 = var9;
-            if(!var7) { _fun0002_ip = 178; continue _fun0002 }
- 168:
+            if(!var7) { _fun0002_ip = 179; continue _fun0002 }
+ 169:
             var7 = var3.constructor;
             var10 = var7.name;
- 178:
+ 179:
             var7 = 'Map';
-            if(!(var7 !== var10)) { _fun0002_ip = 248; continue _fun0002 }
- 186:
+            if(!(var7 !== var10)) { _fun0002_ip = 249; continue _fun0002 }
+ 187:
             var7 = 'Set';
-            if(!(var7 !== var10)) { _fun0002_ip = 248; continue _fun0002 }
- 194:
+            if(!(var7 !== var10)) { _fun0002_ip = 249; continue _fun0002 }
+ 195:
             var7 = 'Arguments';
-            if(!(var7 !== var10)) { _fun0002_ip = 233; continue _fun0002 }
- 204:
+            if(!(var7 !== var10)) { _fun0002_ip = 234; continue _fun0002 }
+ 205:
             var9 = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
             var7 = var9.test;
             var9 = var7.bind(var9)(var10);
             var7 = undefined;
-            if(!var9) { _fun0002_ip = 246; continue _fun0002 }
- 233:
+            if(!var9) { _fun0002_ip = 247; continue _fun0002 }
+ 234:
             var9 = _closure1_slot42;
             var7 = var9.bind(var8)(var3, var8);
- 246:
-            _fun0002_ip = 264; continue _fun0002;
- 248:
+ 247:
+            _fun0002_ip = 265; continue _fun0002;
+ 249:
             var10 = var5.Array;
             var9 = var10.from;
             var7 = var9.bind(var10)(var3);
- 264:
+ 265:
             var6 = var7;
-            _fun0002_ip = 282; continue _fun0002;
- 269:
+            _fun0002_ip = 283; continue _fun0002;
+ 270:
             var7 = _closure1_slot42;
             var6 = var7.bind(var8)(var3, var8);
- 282:
+ 283:
             var4 = var6;
-            if(var4) { _fun0002_ip = 322; continue _fun0002 }
- 288:
+            if(var4) { _fun0002_ip = 323; continue _fun0002 }
+ 289:
             var7 = var5.TypeError;
             var5 = var7.prototype;
             var6 = Object.create(var5, {constructor: {value: var7}});
@@ -143,11 +143,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new var14[var7](var13, var12);
             var5 = var5 instanceof Object ? var5 : var6;
             throw var5;
- 322:
-            if(!var4) { _fun0002_ip = 329; continue _fun0002 }
- 325:
+ 323:
+            if(!var4) { _fun0002_ip = 330; continue _fun0002 }
+ 326:
             _closure2_slot0 = var4;
- 329:
+ 330:
             var4 = 0;
             var _closure2_slot1 = var4;
             var1 = function() {
@@ -179,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             return var1;
- 342:
+ 343:
             var1 = var2.call;
             var3 = var1.bind(var2)(var3);
             var2 = var3.next;

@@ -338,10 +338,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var2 = {};
             var4 = function tabPress() {
-                var2 = _closure2_slot0;
-                var1 = var2.handleShortPress;
-                var1 = var1.bind(var2)();
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 24;
+                var2 = var2[var1];
                 var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.closeICYMITab;
+                var2 = var2.bind(var3)();
+                var3 = _closure2_slot0;
+                var2 = var3.handleShortPress;
+                var2 = var2.bind(var3)();
                 return var1;
             };
             var2['tabPress'] = var4;
@@ -358,9 +365,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = function tabPress() {
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var1 = 10;
+                var1 = 24;
                 var3 = var5[var1];
                 var1 = undefined;
+                var6 = var4.bind(var1)(var3);
+                var3 = var6.closeICYMITab;
+                var3 = var3.bind(var6)();
+                var3 = 10;
+                var3 = var5[var3];
                 var7 = var4.bind(var1)(var3);
                 var6 = var7.track;
                 var3 = _closure1_slot11;
@@ -383,10 +395,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['messages'] = var2;
             var2 = {};
             var4 = function tabPress() {
-                var2 = _closure2_slot1;
-                var1 = var2.handleShortPress;
-                var1 = var1.bind(var2)();
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 24;
+                var2 = var2[var1];
                 var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.closeICYMITab;
+                var2 = var2.bind(var3)();
+                var3 = _closure2_slot1;
+                var2 = var3.handleShortPress;
+                var2 = var2.bind(var3)();
                 return var1;
             };
             var2['tabPress'] = var4;
@@ -395,59 +414,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = function tabPress() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var1 = 24;
-                    var3 = var5[var1];
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 24;
+                    var2 = var6[var4];
                     var1 = undefined;
-                    var4 = var6.bind(var1)(var3);
-                    var3 = var4.icymiTabBadgeShown;
-                    var4 = var3.bind(var4)();
-                    var3 = 25;
-                    var5 = var5[var3];
+                    var5 = var5.bind(var1)(var2);
+                    var2 = var5.openICYMITab;
+                    var2 = var2.bind(var5)();
+                    var7 = _closure1_slot0;
+                    var2 = 25;
+                    var2 = var6[var2];
+                    var5 = var7.bind(var1)(var2);
+                    var2 = var5.icymiTabBadgeShown;
+                    var2 = var2.bind(var5)();
+                    var5 = 26;
+                    var6 = var6[var5];
+                    var6 = var7.bind(var1)(var6);
+                    var8 = var6.ICYMIAnalytics;
+                    var7 = var8.trackFeedShown;
+                    var6 = {};
+                    var9 = 'gravity_tab';
+                    var6['homeSessionId'] = var9;
+                    var9 = 'NoDotShown';
+                    if(!var2) { _fun0004_ip = 113; continue _fun0004 }
+ 107:
+                    var9 = 'DotShown';
+ 113:
+                    var6['variant'] = var9;
+                    var6 = var7.bind(var8)(var6);
+                    if(!var2) { _fun0004_ip = 141; continue _fun0004 }
+ 125:
+                    var7 = _closure1_slot5;
+                    var6 = var7.hasOpened;
+                    var2 = var6.bind(var7)();
+ 141:
+                    if(!var2) { _fun0004_ip = 215; continue _fun0004 }
+ 144:
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var5 = var2[var5];
                     var5 = var6.bind(var1)(var5);
                     var7 = var5.ICYMIAnalytics;
                     var6 = var7.trackFeedShown;
-                    var5 = {};
-                    var8 = 'gravity_tab';
-                    var5['homeSessionId'] = var8;
-                    var8 = 'NoDotShown';
-                    if(!var4) { _fun0004_ip = 87; continue _fun0004 }
- 81:
-                    var8 = 'DotShown';
- 87:
-                    var5['variant'] = var8;
+                    var5 = {'homeSessionId': 'gravity_refresh', 'variant': 'DotShown'};
                     var5 = var6.bind(var7)(var5);
-                    if(!var4) { _fun0004_ip = 115; continue _fun0004 }
- 99:
-                    var6 = _closure1_slot5;
-                    var5 = var6.hasOpened;
-                    var4 = var5.bind(var6)();
- 115:
-                    if(!var4) { _fun0004_ip = 192; continue _fun0004 }
- 118:
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = var5[var3];
-                    var3 = var4.bind(var1)(var3);
-                    var6 = var3.ICYMIAnalytics;
-                    var4 = var6.trackFeedShown;
-                    var3 = {'homeSessionId': 'gravity_refresh', 'variant': 'DotShown'};
-                    var3 = var4.bind(var6)(var3);
-                    var4 = _closure1_slot1;
-                    var3 = 26;
-                    var3 = var5[var3];
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.reloadICYMITab;
-                    var3 = var3.bind(var4)();
- 192:
                     var3 = _closure1_slot1;
-                    var4 = _closure1_slot2;
-                    var2 = 26;
-                    var2 = var4[var2];
+                    var2 = var2[var4];
                     var3 = var3.bind(var1)(var2);
-                    var2 = var3.openICYMITab;
+                    var2 = var3.reloadICYMITab;
                     var2 = var2.bind(var3)();
+ 215:
                     return var1;
                 }
             };
@@ -456,10 +473,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var4 = function tabPress() {
                 var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var1 = 10;
-                var3 = var3[var1];
+                var5 = _closure1_slot2;
+                var1 = 24;
+                var3 = var5[var1];
                 var1 = undefined;
+                var6 = var4.bind(var1)(var3);
+                var3 = var6.closeICYMITab;
+                var3 = var3.bind(var6)();
+                var3 = 10;
+                var3 = var5[var3];
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.track;
                 var2 = _closure1_slot11;
@@ -476,9 +498,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = function tabPress() {
                 var4 = _closure1_slot1;
                 var5 = _closure1_slot2;
-                var1 = 10;
+                var1 = 24;
                 var3 = var5[var1];
                 var1 = undefined;
+                var6 = var4.bind(var1)(var3);
+                var3 = var6.closeICYMITab;
+                var3 = var3.bind(var6)();
+                var3 = 10;
+                var3 = var5[var3];
                 var7 = var4.bind(var1)(var3);
                 var6 = var7.track;
                 var3 = _closure1_slot11;

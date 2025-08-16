@@ -52,15 +52,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot9 = var6;
-    var5 = function isRobloxSubgame(arg1) {
+    var1 = function isActivityRobloxSubgame(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+            var3 = arg1;
+            var1 = var3.metadata;
+            var2 = null;
+            var2 = var2 == var1;
+            var5 = undefined;
+            var4 = undefined;
+            if(var2) { _fun0002_ip = 28; continue _fun0002 }
+ 22:
+            var4 = var1.distributor;
+ 28:
+            var1 = _closure1_slot8;
+            var1 = var1.ROBLOX;
+            var1 = var4 === var1;
+            if(!var1) { _fun0002_ip = 84; continue _fun0002 }
+ 48:
+            var3 = var3.application_id;
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 4;
+            var2 = var6[var2];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.ROBLOX_APPLICATION_ID;
+            var1 = var3 !== var2;
+ 84:
+            return var1;
+        }
+    };
+    var _closure1_slot10 = var1;
+    var5 = function isRobloxSubgame(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var3 = arg1;
             var4 = var3.distributor;
             var1 = _closure1_slot8;
             var1 = var1.ROBLOX;
             var1 = var4 === var1;
-            if(!var1) { _fun0002_ip = 66; continue _fun0002 }
+            if(!var1) { _fun0003_ip = 66; continue _fun0003 }
  29:
             var3 = var3.id;
             var5 = _closure1_slot0;
@@ -75,19 +106,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot10 = var5;
+    var _closure1_slot11 = var5;
     var1 = function _playOnRobloxUniverse() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     StartGenerator();
                     var7 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 292; continue _fun0003 }
+                    if(var2) { _fun0004_ip = 292; continue _fun0004 }
  13:
                     var6 = var7;
                     var4 = undefined;
@@ -98,15 +129,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = null;
                     var7 = var9 == var5;
                     var3 = undefined;
-                    if(var7) { _fun0003_ip = 55; continue _fun0003 }
+                    if(var7) { _fun0004_ip = 55; continue _fun0004 }
  49:
                     var3 = var5.rootPlaceId;
  55:
-                    if(!(var9 == var3)) { _fun0003_ip = 267; continue _fun0003 }
+                    if(!(var9 == var3)) { _fun0004_ip = 267; continue _fun0004 }
  62: // try_start_0
                     var7 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var5 = 7;
+                    var5 = 8;
                     var5 = var10[var5];
                     var10 = var7.bind(var4)(var5);
                     var7 = var10.fetchRobloxSupplementalData;
@@ -119,18 +150,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var5;
  108:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(var7) { _fun0003_ip = 240; continue _fun0003 }
+                    if(var7) { _fun0004_ip = 240; continue _fun0004 }
  117:
                     var8 = var5;
                     var7 = var6;
                     var7 = var5[var7];
-                    if(!(var9 != var7)) { _fun0003_ip = 151; continue _fun0003 }
+                    if(!(var9 != var7)) { _fun0004_ip = 151; continue _fun0004 }
  131:
                     var10 = var8;
                     var7 = var6;
                     var7 = var10[var7];
                     var7 = var7.rootPlaceId;
-                    if(!(var9 == var7)) { _fun0003_ip = 205; continue _fun0003 }
+                    if(!(var9 == var7)) { _fun0004_ip = 205; continue _fun0004 }
  151: // try_end0
                     var7 = global;
                     var10 = var7.Promise;
@@ -145,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var9.bind(var10)(var7);
                     return var7;
  205: // try_start_1
-                    var7 = _closure1_slot12;
+                    var7 = _closure1_slot13;
                     var6 = var8[var6];
                     var6 = var6.rootPlaceId;
                     var6 = var7.bind(var4)(var6);
@@ -154,7 +185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var6;
  228:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                    if(var7) { _fun0003_ip = 237; continue _fun0003 }
+                    if(var7) { _fun0004_ip = 237; continue _fun0004 }
  234: // try_end1
                     return var6;
  237:
@@ -169,14 +200,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.bind(var6)(var7);
                     return var5;
  267:
-                    var2 = _closure1_slot12;
+                    var2 = _closure1_slot13;
                     var2 = var2.bind(var4)(var3);
                     SaveGenerator(address=280);
  278:
                     return var2;
  280:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 289; continue _fun0003 }
+                    if(var3) { _fun0004_ip = 289; continue _fun0004 }
  286:
                     return var2;
  289:
@@ -188,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot11 = var4;
+        _closure1_slot12 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -196,10 +227,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var4 = function openRobloxURLWithRootPlaceId() {
         var1 = undefined;
-        var4 = _closure1_slot13;
+        var4 = _closure1_slot14;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -207,22 +238,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var1 = function _openRobloxURLWithRootPlaceId() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
-                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 100; continue _fun0004 }
+                    if(var2) { _fun0005_ip = 100; continue _fun0005 }
  7:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 8;
+                    var2 = 9;
                     var2 = var4[var2];
                     var4 = undefined;
                     var6 = var5.bind(var4)(var2);
@@ -234,11 +265,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  50:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 97; continue _fun0004 }
+                    if(var5) { _fun0005_ip = 97; continue _fun0005 }
  56:
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var3 = 9;
+                    var3 = 10;
                     var3 = var6[var3];
                     var3 = var5.bind(var4)(var3);
                     var3 = var3.bind(var4)(var2);
@@ -247,7 +278,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var3;
  85:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 94; continue _fun0004 }
+                    if(var4) { _fun0005_ip = 94; continue _fun0005 }
  91:
                     return var3;
  94:
@@ -261,7 +292,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot13 = var4;
+        _closure1_slot14 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -269,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
     var1 = global;
     var12 = var1.Object;
     var11 = var12.defineProperty;
@@ -301,14 +332,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var10;
     var7 = var7.Distributors;
     var _closure1_slot8 = var7;
-    var7 = 10;
+    var7 = 11;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
     var7 = 'modules/roblox_subgame_detection/RobloxSubgameUtils.tsx';
     var7 = var8.bind(var9)(var7);
     var7 = function keyForRobloxGame(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var2 = arg1;
             var6 = var2.distributor;
@@ -316,19 +347,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.ROBLOX;
             var3 = null;
             var1 = null;
-            if(!(var6 === var5)) { _fun0005_ip = 145; continue _fun0005 }
+            if(!(var6 === var5)) { _fun0006_ip = 145; continue _fun0006 }
  30:
             var5 = var2.sku;
             var5 = var3 != var5;
             var1 = null;
-            if(!var5) { _fun0005_ip = 145; continue _fun0005 }
+            if(!var5) { _fun0006_ip = 145; continue _fun0006 }
  45:
             var6 = var2.sku;
             var5 = var2.gameMetadata;
             var7 = var3 == var5;
             var8 = undefined;
             var2 = undefined;
-            if(var7) { _fun0005_ip = 104; continue _fun0005 }
+            if(var7) { _fun0006_ip = 104; continue _fun0006 }
  68:
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -342,7 +373,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3 != var2;
             var5 = '';
             var4 = var5;
-            if(!var3) { _fun0005_ip = 121; continue _fun0005 }
+            if(!var3) { _fun0006_ip = 121; continue _fun0006 }
  118:
             var4 = var2;
  121:
@@ -357,7 +388,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['keyForRobloxGame'] = var7;
     var7 = function hasRunningGameChanged(arg1, arg2, arg3) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var8 = arg1;
             var3 = arg3;
@@ -365,34 +396,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot8;
             var1 = var1.ROBLOX;
             var1 = var2 === var1;
-            if(!var1) { _fun0006_ip = 332; continue _fun0006 }
+            if(!var1) { _fun0007_ip = 332; continue _fun0007 }
  35:
             var4 = null;
             var2 = var4 != var3;
-            if(!var2) { _fun0006_ip = 58; continue _fun0006 }
+            if(!var2) { _fun0007_ip = 58; continue _fun0007 }
  44:
             var5 = var8.id;
             var3 = var3.id;
             var2 = var5 !== var3;
  58:
-            if(var2) { _fun0006_ip = 329; continue _fun0006 }
+            if(var2) { _fun0007_ip = 329; continue _fun0007 }
  64:
             var6 = _closure1_slot9;
             var9 = var8.distributor;
             var3 = _closure1_slot8;
             var3 = var3.ROBLOX;
             var5 = null;
-            if(!(var9 === var3)) { _fun0006_ip = 318; continue _fun0006 }
+            if(!(var9 === var3)) { _fun0007_ip = 318; continue _fun0007 }
  93:
             var3 = var8.gameMetadata;
             var3 = var4 == var3;
             var5 = null;
-            if(var3) { _fun0006_ip = 318; continue _fun0006 }
+            if(var3) { _fun0007_ip = 318; continue _fun0007 }
  111:
             var3 = var8.sku;
             var3 = var4 == var3;
             var5 = null;
-            if(var3) { _fun0006_ip = 318; continue _fun0006 }
+            if(var3) { _fun0007_ip = 318; continue _fun0007 }
  129:
             var3 = {};
             var12 = var8.gameMetadata;
@@ -407,7 +438,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12[var9];
             var13 = var4 != var12;
             var9 = null;
-            if(!var13) { _fun0006_ip = 187; continue _fun0006 }
+            if(!var13) { _fun0007_ip = 187; continue _fun0007 }
  184:
             var9 = var12;
  187:
@@ -424,7 +455,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12[var9];
             var13 = var4 != var12;
             var9 = null;
-            if(!var13) { _fun0006_ip = 254; continue _fun0006 }
+            if(!var13) { _fun0007_ip = 254; continue _fun0007 }
  251:
             var9 = var12;
  254:
@@ -439,7 +470,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8[var7];
             var8 = var4 != var7;
             var4 = null;
-            if(!var8) { _fun0006_ip = 310; continue _fun0006 }
+            if(!var8) { _fun0007_ip = 310; continue _fun0007 }
  307:
             var4 = var7;
  310:
@@ -458,7 +489,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['hasRunningGameChanged'] = var7;
     var3['hasSubgameInfoChanged'] = var6;
     var6 = function updateRunningGameWithRobloxSubgameInfo(arg1, arg2) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var7 = arg1;
             var2 = arg2;
@@ -475,7 +506,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var11 == var10;
             var3 = undefined;
             var5 = undefined;
-            if(var9) { _fun0007_ip = 97; continue _fun0007 }
+            if(var9) { _fun0008_ip = 97; continue _fun0008 }
  58:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -489,15 +520,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.bind(var3)(var5);
             var6 = var2.isNaN;
             var6 = var6.bind(var3)(var5);
-            if(var6) { _fun0007_ip = 122; continue _fun0007 }
+            if(var6) { _fun0008_ip = 122; continue _fun0008 }
  116:
             var9 = 0;
             var6 = var9 === var5;
  122:
-            if(!var6) { _fun0007_ip = 152; continue _fun0007 }
+            if(!var6) { _fun0008_ip = 152; continue _fun0008 }
  125:
             var6 = var7.start;
-            if(!(var11 == var6)) { _fun0007_ip = 149; continue _fun0007 }
+            if(!(var11 == var6)) { _fun0008_ip = 149; continue _fun0008 }
  134:
             var10 = var2.Date;
             var9 = var10.now;
@@ -505,10 +536,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  149:
             var5 = var6;
  152:
-            if(!(var11 != var4)) { _fun0007_ip = 752; continue _fun0007 }
+            if(!(var11 != var4)) { _fun0008_ip = 752; continue _fun0008 }
  159:
             var6 = {};
-            if(!(var11 != var8)) { _fun0007_ip = 321; continue _fun0007 }
+            if(!(var11 != var8)) { _fun0008_ip = 321; continue _fun0008 }
  168:
             var10 = _closure1_slot4;
             var9 = {};
@@ -522,7 +553,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.ROBLOX;
             var9['distributor'] = var13;
             var9 = var10.bind(var3)(var9);
-            if(!var9) { _fun0007_ip = 321; continue _fun0007 }
+            if(!var9) { _fun0008_ip = 321; continue _fun0008 }
  229:
             var10 = _closure1_slot4;
             var9 = {};
@@ -544,7 +575,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.ROBLOX;
             var9['distributor'] = var12;
             var9 = var10.bind(var3)(var9);
-            if(var9) { _fun0007_ip = 388; continue _fun0007 }
+            if(var9) { _fun0008_ip = 388; continue _fun0008 }
  321:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -559,7 +590,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10[var9];
             var1['name'] = var9;
             var1['start'] = var5;
-            _fun0007_ip = 490; continue _fun0007;
+            _fun0008_ip = 490; continue _fun0008;
  388:
             var9 = var8.id;
             var1['id'] = var9;
@@ -594,13 +625,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var4.universeId;
             var13 = var11 != var12;
             var9 = undefined;
-            if(!var13) { _fun0007_ip = 556; continue _fun0007 }
+            if(!var13) { _fun0008_ip = 556; continue _fun0008 }
  553:
             var9 = var12;
  556:
             var1['sku'] = var9;
             var9 = var4.placeId;
-            if(!(var11 != var9)) { _fun0007_ip = 611; continue _fun0007 }
+            if(!(var11 != var9)) { _fun0008_ip = 611; continue _fun0008 }
  572:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -612,7 +643,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[var12] = var9;
  611:
             var9 = var4.jobId;
-            if(!(var11 != var9)) { _fun0007_ip = 660; continue _fun0007 }
+            if(!(var11 != var9)) { _fun0008_ip = 660; continue _fun0008 }
  621:
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -624,7 +655,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[var12] = var9;
  660:
             var9 = var4.robloxUserId;
-            if(!(var11 != var9)) { _fun0007_ip = 709; continue _fun0007 }
+            if(!(var11 != var9)) { _fun0008_ip = 709; continue _fun0008 }
  670:
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -642,16 +673,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 0;
             var8 = var8 > var4;
             var4 = undefined;
-            if(!var8) { _fun0007_ip = 744; continue _fun0007 }
+            if(!var8) { _fun0008_ip = 744; continue _fun0008 }
  741:
             var4 = var6;
  744:
             var1['gameMetadata'] = var4;
-            _fun0007_ip = 874; continue _fun0007;
+            _fun0008_ip = 874; continue _fun0008;
  752:
-            var6 = _closure1_slot10;
+            var6 = _closure1_slot11;
             var6 = var6.bind(var3)(var7);
-            if(!var6) { _fun0007_ip = 823; continue _fun0007 }
+            if(!var6) { _fun0008_ip = 823; continue _fun0008 }
  767:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -681,7 +712,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['updateRunningGameWithRobloxSubgameInfo'] = var6;
     var6 = function convertMapToRobloxSubgameInfo(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
             var4 = arg1;
             var2 = _closure1_slot0;
@@ -696,7 +727,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var2 = var5 == var1;
             var1 = null;
-            if(var2) { _fun0008_ip = 326; continue _fun0008 }
+            if(var2) { _fun0009_ip = 326; continue _fun0009 }
  58:
             var8 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -707,7 +738,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4[var2];
             var2 = var5 == var2;
             var1 = null;
-            if(var2) { _fun0008_ip = 326; continue _fun0008 }
+            if(var2) { _fun0009_ip = 326; continue _fun0009 }
  103:
             var8 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -718,7 +749,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4[var2];
             var2 = var5 == var2;
             var1 = null;
-            if(var2) { _fun0008_ip = 326; continue _fun0008 }
+            if(var2) { _fun0009_ip = 326; continue _fun0009 }
  148:
             var8 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -729,7 +760,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4[var2];
             var2 = var5 == var2;
             var1 = null;
-            if(var2) { _fun0008_ip = 326; continue _fun0008 }
+            if(var2) { _fun0009_ip = 326; continue _fun0009 }
  193:
             var2 = {};
             var5 = _closure1_slot0;
@@ -765,7 +796,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['convertMapToRobloxSubgameInfo'] = var6;
     var6 = function getSubgameMetadata(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var6 = arg1;
             var4 = var6.distributor;
@@ -773,12 +804,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.ROBLOX;
             var3 = null;
             var1 = null;
-            if(!(var4 === var2)) { _fun0009_ip = 166; continue _fun0009 }
+            if(!(var4 === var2)) { _fun0010_ip = 166; continue _fun0010 }
  33:
             var2 = var6.gameMetadata;
             var2 = var3 != var2;
             var1 = null;
-            if(!var2) { _fun0009_ip = 166; continue _fun0009 }
+            if(!var2) { _fun0010_ip = 166; continue _fun0010 }
  48:
             var4 = var6.gameMetadata;
             var7 = _closure1_slot0;
@@ -792,7 +823,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4[var2];
             var2 = var3 != var2;
             var1 = null;
-            if(!var2) { _fun0009_ip = 166; continue _fun0009 }
+            if(!var2) { _fun0010_ip = 166; continue _fun0010 }
  101:
             var2 = global;
             var4 = var2.JSON;
@@ -814,17 +845,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['getSubgameMetadata'] = var6;
     var6 = function maybeAddAdditionalGameMetadata(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var3 = arg1;
             var4 = var3.distributor;
             var1 = _closure1_slot8;
             var1 = var1.ROBLOX;
-            if(!(var4 === var1)) { _fun0010_ip = 257; continue _fun0010 }
+            if(!(var4 === var1)) { _fun0011_ip = 192; continue _fun0011 }
  29:
             var1 = var3.gameMetadata;
             var4 = null;
-            if(!(var4 != var1)) { _fun0010_ip = 257; continue _fun0010 }
+            if(!(var4 != var1)) { _fun0011_ip = 192; continue _fun0011 }
  44:
             var7 = var3.gameMetadata;
             var8 = _closure1_slot0;
@@ -836,82 +867,111 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.RobloxMetadataKeys;
             var1 = var1.ROBLOX_TIME_STARTED;
             var1 = var7[var1];
-            if(!(var4 != var1)) { _fun0010_ip = 257; continue _fun0010 }
- 95:
+            if(!(var4 != var1)) { _fun0011_ip = 192; continue _fun0011 }
+ 92:
             var7 = var3.id;
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var6];
             var1 = var8.bind(var5)(var1);
             var1 = var1.ROBLOX_APPLICATION_ID;
-            if(!(var7 !== var1)) { _fun0010_ip = 257; continue _fun0010 }
- 130:
+            if(!(var7 !== var1)) { _fun0011_ip = 192; continue _fun0011 }
+ 124:
             var1 = var3.gameName;
-            if(!(var4 != var1)) { _fun0010_ip = 257; continue _fun0010 }
- 140:
+            if(!(var4 != var1)) { _fun0011_ip = 192; continue _fun0011 }
+ 134:
             var1 = {};
+            var4 = var3.gameName;
+            var1['name'] = var4;
+            var3 = var3.gameMetadata;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var7 = 6;
-            var8 = var2[var7];
-            var8 = var4.bind(var5)(var8);
-            var10 = var8.intl;
-            var9 = var10.formatToPlainString;
-            var7 = var2[var7];
-            var7 = var4.bind(var5)(var7);
-            var7 = var7.t;
-            var8 = var7.G6BGd3;
-            var7 = {};
-            var11 = var3.gameName;
-            var7['subgameName'] = var11;
-            var7 = var9.bind(var10)(var8, var7);
-            var1['name'] = var7;
-            var3 = var3.gameMetadata;
             var2 = var2[var6];
             var2 = var4.bind(var5)(var2);
             var2 = var2.RobloxMetadataKeys;
             var2 = var2.ROBLOX_TIME_STARTED;
             var2 = var3[var2];
             var1['sync_id'] = var2;
-            _fun0010_ip = 259; continue _fun0010;
- 257:
+            _fun0011_ip = 194; continue _fun0011;
+ 192:
             var1 = {};
- 259:
+ 194:
             return var1;
         }
     };
     var3['maybeAddAdditionalGameMetadata'] = var6;
+    var6 = function transformRobloxSubgameNames(arg1) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+ 0:
+            var6 = arg1;
+            var1 = _closure1_slot10;
+            var4 = undefined;
+            var1 = var1.bind(var4)(var6);
+            if(var1) { _fun0012_ip = 22; continue _fun0012 }
+ 20:
+            return var6;
+ 22:
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 6;
+            var1 = var5[var1];
+            var1 = var3.bind(var4)(var1);
+            var5 = var1.ViewRobloxSubgamesInRichPresenceExperiment;
+            var3 = var5.getConfig;
+            var1 = {};
+            var7 = 'transformRobloxSubgameNames';
+            var1['location'] = var7;
+            var1 = var3.bind(var5)(var1);
+            var3 = var1.alternativeTitle;
+            var5 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var7 = 7;
+            var1 = var1[var7];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            if(var3) { _fun0012_ip = 113; continue _fun0012 }
+ 103:
+            var5 = var1.G6BGd3;
+            _fun0012_ip = 121; continue _fun0012;
+ 113:
+            var5 = var1.HjVwGx;
+ 121:
+            var1 = {};
+            var9 = var1;
+            var8 = var6;
+            var3 = copyDataProperties(var9, var8);
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var7];
+            var2 = var3.bind(var4)(var2);
+            var4 = var2.intl;
+            var3 = var4.formatToPlainString;
+            var2 = {};
+            var6 = var6.name;
+            var2['subgameName'] = var6;
+            var3 = var3.bind(var4)(var5, var2);
+            var2 = 'name';
+            var1[var2] = var3;
+            return var1;
+        }
+    };
+    var3['transformRobloxSubgameNames'] = var6;
     var6 = function maybeTransformRobloxSubgameIntoRobloxActivity(arg1) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
             var1 = arg1;
             var3 = var1.type;
             var2 = _closure1_slot6;
             var2 = var2.PLAYING;
-            if(!(var3 === var2)) { _fun0011_ip = 220; continue _fun0011 }
+            if(!(var3 === var2)) { _fun0013_ip = 159; continue _fun0013 }
  28:
-            var2 = var1.metadata;
-            var3 = null;
-            var4 = var3 == var2;
+            var2 = _closure1_slot10;
             var5 = undefined;
-            var3 = undefined;
-            if(var4) { _fun0011_ip = 53; continue _fun0011 }
- 47:
-            var3 = var2.distributor;
- 53:
-            var2 = _closure1_slot8;
-            var2 = var2.ROBLOX;
-            if(!(var3 === var2)) { _fun0011_ip = 218; continue _fun0011 }
- 70:
-            var3 = var1.application_id;
-            var4 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var9 = 4;
-            var2 = var2[var9];
-            var2 = var4.bind(var5)(var2);
-            var2 = var2.ROBLOX_APPLICATION_ID;
-            if(!(var3 !== var2)) { _fun0011_ip = 218; continue _fun0011 }
- 106:
+            var2 = var2.bind(var5)(var1);
+            if(var2) { _fun0013_ip = 44; continue _fun0013 }
+ 42:
+            return var1;
+ 44:
             var3 = global;
             var4 = var3.Number;
             var2 = var1.sync_id;
@@ -921,8 +981,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var1;
             var7 = copyDataProperties(var11, var10);
             var8 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var7 = var7[var9];
+            var9 = _closure1_slot2;
+            var7 = 4;
+            var7 = var9[var7];
             var7 = var8.bind(var5)(var7);
             var7 = var7.ROBLOX_APPLICATION_ID;
             var2['application_id'] = var7;
@@ -933,16 +994,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['name'] = var6;
             var3 = var3.isNaN;
             var3 = var3.bind(var5)(var4);
-            if(var3) { _fun0011_ip = 216; continue _fun0011 }
- 204:
+            if(var3) { _fun0013_ip = 157; continue _fun0013 }
+ 145:
             var3 = {};
             var3['start'] = var4;
             var2['timestamps'] = var3;
- 216:
+ 157:
             return var2;
- 218:
-            return var1;
- 220:
+ 159:
             return var1;
         }
     };
@@ -966,7 +1025,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['isRobloxSubgameApplication'] = var5;
     var5 = function playOnRobloxUniverse() {
         var1 = undefined;
-        var4 = _closure1_slot11;
+        var4 = _closure1_slot12;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -977,14 +1036,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['playOnRobloxUniverse'] = var5;
     var3['openRobloxURLWithRootPlaceId'] = var4;
     var2 = function maybeTransformRobloxSubgameToRoblox(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
             var4 = arg1;
             var5 = var4.distributor;
             var1 = _closure1_slot8;
             var2 = var1.ROBLOX;
             var1 = var4;
-            if(!(var5 === var2)) { _fun0012_ip = 143; continue _fun0012 }
+            if(!(var5 === var2)) { _fun0014_ip = 143; continue _fun0014 }
  29:
             var5 = var4.id;
             var8 = _closure1_slot0;
@@ -995,7 +1054,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var8.bind(var6)(var2);
             var2 = var2.ROBLOX_APPLICATION_ID;
             var1 = var4;
-            if(!(var5 !== var2)) { _fun0012_ip = 143; continue _fun0012 }
+            if(!(var5 !== var2)) { _fun0014_ip = 143; continue _fun0014 }
  69:
             var2 = {};
             var10 = var2;

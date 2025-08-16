@@ -56,32 +56,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 'undefined';
             var2 = typeof var2;
             var2 = var4 !== var2;
-            if(!var2) { _fun0002_ip = 45; continue _fun0002 }
+            if(!var2) { _fun0002_ip = 46; continue _fun0002 }
  30:
             var4 = var5.Symbol;
             var4 = var4.iterator;
             var2 = var3[var4];
- 45:
-            if(var2) { _fun0002_ip = 54; continue _fun0002 }
- 48:
+ 46:
+            if(var2) { _fun0002_ip = 55; continue _fun0002 }
+ 49:
             var2 = var3.@@iterator;
- 54:
-            if(var2) { _fun0002_ip = 342; continue _fun0002 }
- 60:
+ 55:
+            if(var2) { _fun0002_ip = 343; continue _fun0002 }
+ 61:
             var6 = var5.Array;
             var4 = var6.isArray;
             var6 = var4.bind(var6)(var3);
             var4 = var2;
-            if(var6) { _fun0002_ip = 322; continue _fun0002 }
- 85:
+            if(var6) { _fun0002_ip = 323; continue _fun0002 }
+ 86:
             var8 = undefined;
             var6 = undefined;
-            if(!var3) { _fun0002_ip = 282; continue _fun0002 }
- 95:
+            if(!var3) { _fun0002_ip = 283; continue _fun0002 }
+ 96:
             var9 = 'string';
             var7 = typeof var3;
-            if(!(var9 !== var7)) { _fun0002_ip = 269; continue _fun0002 }
- 109:
+            if(!(var9 !== var7)) { _fun0002_ip = 270; continue _fun0002 }
+ 110:
             var7 = {};
             var9 = var7.toString;
             var7 = var9.call;
@@ -92,49 +92,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.bind(var11)(var9, var7);
             var7 = 'Object';
             var7 = var7 === var9;
-            if(!var7) { _fun0002_ip = 162; continue _fun0002 }
- 157:
+            if(!var7) { _fun0002_ip = 163; continue _fun0002 }
+ 158:
             var7 = var3.constructor;
- 162:
+ 163:
             var10 = var9;
-            if(!var7) { _fun0002_ip = 178; continue _fun0002 }
- 168:
+            if(!var7) { _fun0002_ip = 179; continue _fun0002 }
+ 169:
             var7 = var3.constructor;
             var10 = var7.name;
- 178:
+ 179:
             var7 = 'Map';
-            if(!(var7 !== var10)) { _fun0002_ip = 248; continue _fun0002 }
- 186:
+            if(!(var7 !== var10)) { _fun0002_ip = 249; continue _fun0002 }
+ 187:
             var7 = 'Set';
-            if(!(var7 !== var10)) { _fun0002_ip = 248; continue _fun0002 }
- 194:
+            if(!(var7 !== var10)) { _fun0002_ip = 249; continue _fun0002 }
+ 195:
             var7 = 'Arguments';
-            if(!(var7 !== var10)) { _fun0002_ip = 233; continue _fun0002 }
- 204:
+            if(!(var7 !== var10)) { _fun0002_ip = 234; continue _fun0002 }
+ 205:
             var9 = /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/;
             var7 = var9.test;
             var9 = var7.bind(var9)(var10);
             var7 = undefined;
-            if(!var9) { _fun0002_ip = 246; continue _fun0002 }
- 233:
+            if(!var9) { _fun0002_ip = 247; continue _fun0002 }
+ 234:
             var9 = _closure1_slot27;
             var7 = var9.bind(var8)(var3, var8);
- 246:
-            _fun0002_ip = 264; continue _fun0002;
- 248:
+ 247:
+            _fun0002_ip = 265; continue _fun0002;
+ 249:
             var10 = var5.Array;
             var9 = var10.from;
             var7 = var9.bind(var10)(var3);
- 264:
+ 265:
             var6 = var7;
-            _fun0002_ip = 282; continue _fun0002;
- 269:
+            _fun0002_ip = 283; continue _fun0002;
+ 270:
             var7 = _closure1_slot27;
             var6 = var7.bind(var8)(var3, var8);
- 282:
+ 283:
             var4 = var6;
-            if(var4) { _fun0002_ip = 322; continue _fun0002 }
- 288:
+            if(var4) { _fun0002_ip = 323; continue _fun0002 }
+ 289:
             var7 = var5.TypeError;
             var5 = var7.prototype;
             var6 = Object.create(var5, {constructor: {value: var7}});
@@ -143,11 +143,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new var14[var7](var13, var12);
             var5 = var5 instanceof Object ? var5 : var6;
             throw var5;
- 322:
-            if(!var4) { _fun0002_ip = 329; continue _fun0002 }
- 325:
+ 323:
+            if(!var4) { _fun0002_ip = 330; continue _fun0002 }
+ 326:
             _closure2_slot0 = var4;
- 329:
+ 330:
             var4 = 0;
             var _closure2_slot1 = var4;
             var1 = function() {
@@ -179,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             return var1;
- 342:
+ 343:
             var1 = var2.call;
             var3 = var1.bind(var2)(var3);
             var2 = var3.next;
@@ -285,30 +285,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var2 = arg1;
-            var3 = _closure1_slot9;
-            var1 = var3.getId;
-            var3 = var1.bind(var3)();
+            var4 = _closure1_slot9;
+            var1 = var4.getId;
+            var4 = var1.bind(var4)();
             var1 = arg2;
-            if(!(var1 !== var3)) { _fun0007_ip = 413; continue _fun0007 }
- 30:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot2;
+            if(!(var1 !== var4)) { _fun0007_ip = 422; continue _fun0007 }
+ 32:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
             var1 = 10;
-            var1 = var4[var1];
+            var1 = var5[var1];
             var11 = undefined;
-            var1 = var3.bind(var11)(var1);
-            var5 = var1.ViewRobloxSubgamesInRichPresenceExperiment;
-            var4 = var5.getConfig;
-            var3 = {};
+            var1 = var4.bind(var11)(var1);
+            var6 = var1.ViewRobloxSubgamesInRichPresenceExperiment;
+            var5 = var6.getConfig;
+            var4 = {};
             var1 = 'presence_filtering';
-            var3['location'] = var1;
-            var3 = var4.bind(var5)(var3);
-            var3 = var3.enabled;
-            var5 = var2;
-            if(var3) { _fun0007_ip = 109; continue _fun0007 }
- 92:
+            var4['location'] = var1;
+            var4 = var5.bind(var6)(var4);
+            var5 = var4.enabled;
             var4 = var2.map;
-            var3 = function(arg1) {
+            if(var5) { _fun0007_ip = 108; continue _fun0007 }
+ 96:
+            var5 = function(arg1) {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 11;
@@ -320,8 +319,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
+            var5 = var4.bind(var2)(var5);
+            _fun0007_ip = 118; continue _fun0007;
+ 108:
+            var3 = function(arg1) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 11;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.transformRobloxSubgameNames;
+                var1 = arg1;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
             var5 = var4.bind(var2)(var3);
- 109:
+ 118:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var3 = 12;
@@ -336,17 +350,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['autoTrackExposure'] = var7;
             var10 = var4.bind(var6)(var3, var1);
             var1 = var10.filterGamePresence;
-            if(var1) { _fun0007_ip = 198; continue _fun0007 }
- 171:
-            var1 = var10.filterRichPresence;
-            if(var1) { _fun0007_ip = 198; continue _fun0007 }
+            if(var1) { _fun0007_ip = 207; continue _fun0007 }
  180:
+            var1 = var10.filterRichPresence;
+            if(var1) { _fun0007_ip = 207; continue _fun0007 }
+ 189:
             var1 = {};
             var1['visible'] = var5;
             var3 = new Array(0);
             var1['hidden'] = var3;
             return var1;
- 198:
+ 207:
             var4 = new Array(0);
             var3 = new Array(0);
             var1 = _closure1_slot26;
@@ -357,63 +371,63 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var6 = var5;
             var5 = undefined;
-            if(var1) { _fun0007_ip = 399; continue _fun0007 }
- 240:
+            if(var1) { _fun0007_ip = 408; continue _fun0007 }
+ 249:
             var14 = var6.value;
             var13 = var14.type;
             var1 = _closure1_slot12;
             var1 = var1.PLAYING;
-            if(!(var13 !== var1)) { _fun0007_ip = 276; continue _fun0007 }
- 264:
+            if(!(var13 !== var1)) { _fun0007_ip = 285; continue _fun0007 }
+ 273:
             var1 = var4.push;
             var1 = var1.bind(var4)(var14);
-            _fun0007_ip = 381; continue _fun0007;
- 276:
+            _fun0007_ip = 390; continue _fun0007;
+ 285:
             var1 = var14.application_id;
             var1 = var7 != var1;
-            if(!var1) { _fun0007_ip = 311; continue _fun0007 }
- 289:
+            if(!var1) { _fun0007_ip = 320; continue _fun0007 }
+ 298:
             var15 = _closure1_slot1;
             var13 = _closure1_slot2;
             var13 = var13[var8];
             var13 = var15.bind(var11)(var13);
             var1 = var13.bind(var11)(var14);
- 311:
-            var13 = var10.filterGamePresence;
-            if(var13) { _fun0007_ip = 362; continue _fun0007 }
  320:
-            var13 = var10.filterRichPresence;
-            if(!var13) { _fun0007_ip = 332; continue _fun0007 }
+            var13 = var10.filterGamePresence;
+            if(var13) { _fun0007_ip = 371; continue _fun0007 }
  329:
-            if(var1) { _fun0007_ip = 347; continue _fun0007 }
- 332:
+            var13 = var10.filterRichPresence;
+            if(!var13) { _fun0007_ip = 341; continue _fun0007 }
+ 338:
+            if(var1) { _fun0007_ip = 356; continue _fun0007 }
+ 341:
             var13 = var4.push;
             var13 = var13.bind(var4)(var14);
             var5 = var1;
-            _fun0007_ip = 381; continue _fun0007;
- 347:
+            _fun0007_ip = 390; continue _fun0007;
+ 356:
             var13 = var3.push;
             var13 = var13.bind(var3)(var14);
             var5 = var1;
-            _fun0007_ip = 381; continue _fun0007;
- 362:
+            _fun0007_ip = 390; continue _fun0007;
+ 371:
             var5 = var1;
-            if(!var1) { _fun0007_ip = 381; continue _fun0007 }
- 368:
+            if(!var1) { _fun0007_ip = 390; continue _fun0007 }
+ 377:
             var13 = var3.push;
             var13 = var13.bind(var3)(var14);
             var5 = var1;
- 381:
+ 390:
             var13 = var9.bind(var11)();
             var1 = var13.done;
             var6 = var13;
-            if(!var1) { _fun0007_ip = 240; continue _fun0007 }
- 399:
+            if(!var1) { _fun0007_ip = 249; continue _fun0007 }
+ 408:
             var1 = {};
             var1['visible'] = var4;
             var1['hidden'] = var3;
             return var1;
- 413:
+ 422:
             var1 = {};
             var1['visible'] = var2;
             var2 = new Array(0);

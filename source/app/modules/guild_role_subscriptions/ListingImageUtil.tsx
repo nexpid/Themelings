@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var3 = var1.image_asset;
             var2 = null;
-            if(!(var2 != var3)) { _fun0001_ip = 86; continue _fun0001 }
+            if(!(var2 != var3)) { _fun0001_ip = 85; continue _fun0001 }
  15:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  79:
             var1['uri'] = var2;
             return var1;
- 86:
+ 85:
             var1 = {};
             var2 = '';
             var1['uri'] = var2;

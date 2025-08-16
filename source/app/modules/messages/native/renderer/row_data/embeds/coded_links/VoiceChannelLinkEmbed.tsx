@@ -80,27 +80,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.getGuild;
             var9 = var1.bind(var2)(var5);
             var1 = null;
-            if(!(var1 != var8)) { _fun0001_ip = 852; continue _fun0001 }
+            if(!(var1 != var8)) { _fun0001_ip = 851; continue _fun0001 }
  85:
             var2 = var8.isGuildVocal;
             var2 = var2.bind(var8)();
-            if(!var2) { _fun0001_ip = 852; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 851; continue _fun0001 }
  101:
-            if(!(var1 != var9)) { _fun0001_ip = 852; continue _fun0001 }
+            if(!(var1 != var9)) { _fun0001_ip = 851; continue _fun0001 }
  108:
             var6 = _closure1_slot8;
             var5 = var6.can;
             var2 = _closure1_slot9;
             var2 = var2.VIEW_CHANNEL;
             var2 = var5.bind(var6)(var2, var8);
-            if(!var2) { _fun0001_ip = 852; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 851; continue _fun0001 }
  140:
             var6 = _closure1_slot8;
             var5 = var6.can;
             var2 = _closure1_slot9;
             var2 = var2.CONNECT;
             var2 = var5.bind(var6)(var2, var8);
-            if(!var2) { _fun0001_ip = 852; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 851; continue _fun0001 }
  172:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -217,10 +217,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.bind(var13)(var11);
             var13 = var1 == var11;
             var12 = undefined;
-            if(var13) { _fun0001_ip = 585; continue _fun0001 }
+            if(var13) { _fun0001_ip = 584; continue _fun0001 }
  579:
             var12 = var11.uri;
- 585:
+ 584:
             var11 = 'channelIcon';
             var2[var11] = var12;
             var11 = var8.name;
@@ -231,10 +231,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var8] = var11;
             var11 = var1 != var6;
             var8 = undefined;
-            if(!var11) { _fun0001_ip = 635; continue _fun0001 }
- 632:
+            if(!var11) { _fun0001_ip = 634; continue _fun0001 }
+ 631:
             var8 = var6;
- 635:
+ 634:
             var6 = 'thumbnailUrl';
             var2[var6] = var8;
             var6 = 'thumbnailText';
@@ -281,7 +281,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'inviteSplash';
             var2[var3] = var4;
             return var2;
- 852:
+ 851:
             return var1;
         }
     };

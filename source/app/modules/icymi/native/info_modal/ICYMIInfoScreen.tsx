@@ -402,21 +402,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = {};
             var24 = _closure1_slot8;
             var24 = var24.LIGHT;
-            if(!(var25 !== var24)) { _fun0001_ip = 620; continue _fun0001 }
- 598:
+            if(!(var25 !== var24)) { _fun0001_ip = 619; continue _fun0001 }
+ 597:
             var25 = _closure1_slot1;
             var26 = _closure1_slot2;
             var24 = 21;
             var24 = var26[var24];
             var24 = var25.bind(var4)(var24);
-            _fun0001_ip = 640; continue _fun0001;
- 620:
+            _fun0001_ip = 639; continue _fun0001;
+ 619:
             var26 = _closure1_slot1;
             var27 = _closure1_slot2;
             var25 = 20;
             var25 = var27[var25];
             var24 = var26.bind(var4)(var25);
- 640:
+ 639:
             var23['uri'] = var24;
             var8['source'] = var23;
             var23 = var16.headerImg;
@@ -702,15 +702,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13[var17];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            if(var12) { _fun0001_ip = 1881; continue _fun0001 }
- 1868:
+            if(var12) { _fun0001_ip = 1879; continue _fun0001 }
+ 1866:
             var12 = var13.+IrDzM;
             var12 = var14.bind(var15)(var12);
-            _fun0001_ip = 1892; continue _fun0001;
- 1881:
+            _fun0001_ip = 1890; continue _fun0001;
+ 1879:
             var13 = var13.LhlgY2;
             var12 = var14.bind(var15)(var13);
- 1892:
+ 1890:
             var9['text'] = var12;
             var9['onPress'] = var11;
             var9 = var8.bind(var4)(var10, var9);

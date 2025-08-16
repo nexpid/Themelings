@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = null;
                             var3 = var1 != var3;
                             var1 = '';
-                            if(!var3) { _fun0002_ip = 59; continue _fun0002 }
+                            if(!var3) { _fun0002_ip = 58; continue _fun0002 }
  27:
                             var4 = _closure1_slot3;
                             var3 = var4.resolveAssetSource;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var2[var5];
                             var2 = var3.bind(var4)(var2);
                             var1 = var2.uri;
- 59:
+ 58:
                             return var1;
                         }
                     };

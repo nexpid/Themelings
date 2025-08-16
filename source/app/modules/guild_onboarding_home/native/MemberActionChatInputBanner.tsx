@@ -206,7 +206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var7;
             var1 = var4.bind(var5)(var3, var2);
  363:
-            _fun0002_ip = 480; continue _fun0002;
+            _fun0002_ip = 479; continue _fun0002;
  365:
             var4 = _closure1_slot12;
             var8 = _closure1_slot1;
@@ -235,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'contain';
             var2['resizeMode'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 480:
+ 479:
             return var1;
         }
     };

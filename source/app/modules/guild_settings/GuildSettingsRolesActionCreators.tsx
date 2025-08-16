@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 1446; continue _fun0004 }
+                    if(var2) { _fun0004_ip = 1447; continue _fun0004 }
  10:
                     var21 = arg1;
                     var20 = arg2;
@@ -213,7 +213,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var4;
  165:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(var8) { _fun0004_ip = 1327; continue _fun0004 }
+                    if(var8) { _fun0004_ip = 1328; continue _fun0004 }
  174:
                     var8 = var20;
                     if(!(var16 != var8)) { _fun0004_ip = 455; continue _fun0004 }
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var8;
  424:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=13);
-                    if(var14) { _fun0004_ip = 1324; continue _fun0004 }
+                    if(var14) { _fun0004_ip = 1325; continue _fun0004 }
  433:
                     var14 = var20;
                     if(!(var16 != var14)) { _fun0004_ip = 455; continue _fun0004 }
@@ -298,10 +298,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     if(var14 > var19) { _fun0004_ip = 208; continue _fun0004 }
  455:
                     var14 = var22;
-                    if(!(var16 != var14)) { _fun0004_ip = 1165; continue _fun0004 }
+                    if(!(var16 != var14)) { _fun0004_ip = 1166; continue _fun0004 }
  465:
                     var14 = var13;
-                    if(!(var16 != var14)) { _fun0004_ip = 1165; continue _fun0004 }
+                    if(!(var16 != var14)) { _fun0004_ip = 1166; continue _fun0004 }
  475:
                     var15 = false;
                     var12 = false;
@@ -313,36 +313,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = typeof var14;
                     var30 = undefined;
                     var29 = undefined;
-                    if(!(var17 !== var14)) { _fun0004_ip = 527; continue _fun0004 }
+                    if(!(var17 !== var14)) { _fun0004_ip = 528; continue _fun0004 }
  504:
                     var14 = var13.Symbol;
                     var30 = var14.asyncIterator;
                     var14 = var13.Symbol;
                     var29 = var14.iterator;
- 527:
+ 528:
                     var28 = '@@asyncIterator';
                     var27 = '@@iterator';
                     var26 = undefined;
                     var25 = var5;
- 542:
-                    if(!var30) { _fun0004_ip = 556; continue _fun0004 }
- 545:
+ 543:
+                    if(!var30) { _fun0004_ip = 557; continue _fun0004 }
+ 546:
                     var17 = var18[var30];
                     var26 = var17;
-                    if(!(var16 == var26)) { _fun0004_ip = 655; continue _fun0004 }
- 556:
-                    if(!var29) { _fun0004_ip = 570; continue _fun0004 }
- 559:
+                    if(!(var16 == var26)) { _fun0004_ip = 656; continue _fun0004 }
+ 557:
+                    if(!var29) { _fun0004_ip = 571; continue _fun0004 }
+ 560:
                     var14 = var18[var29];
                     var26 = var14;
-                    if(!(var16 == var26)) { _fun0004_ip = 619; continue _fun0004 }
- 570:
+                    if(!(var16 == var26)) { _fun0004_ip = 620; continue _fun0004 }
+ 571:
                     var19 = parseFloat(var25);
                     var25 = var19 - 1;
                     var30 = var28;
                     var29 = var27;
-                    if(var19) { _fun0004_ip = 542; continue _fun0004 }
- 585:
+                    if(var19) { _fun0004_ip = 543; continue _fun0004 }
+ 586:
                     var25 = var13.TypeError;
                     var13 = var25.prototype;
                     var19 = Object.create(var13, {constructor: {value: var25}});
@@ -351,7 +351,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = new var36[var25](var35, var34);
                     var13 = var13 instanceof Object ? var13 : var19;
                     throw var13;
- 619:
+ 620:
                     var19 = _closure1_slot4;
                     var13 = var14.call;
                     var35 = var13.bind(var14)(var18);
@@ -360,28 +360,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var36 = var14;
                     var13 = new var36[var19](var35, var34);
                     var14 = var13 instanceof Object ? var13 : var14;
-                    _fun0004_ip = 665; continue _fun0004;
- 655:
+                    _fun0004_ip = 666; continue _fun0004;
+ 656:
                     var13 = var17.call;
                     var14 = var13.bind(var17)(var18);
- 665:
+ 666:
                     var11 = var14;
                     var13 = var14.next;
                     var14 = var13.bind(var14)();
-                    SaveGenerator(address=681);
- 679:
+                    SaveGenerator(address=682);
+ 680:
                     return var14;
- 681:
+ 682:
                     ResumeGenerator(result_out_reg=13, return_bool_out_reg=12);
-                    if(var13) { _fun0004_ip = 1020; continue _fun0004 }
- 690:
+                    if(var13) { _fun0004_ip = 1021; continue _fun0004 }
+ 691:
                     var23 = var14;
                     var13 = var14.done;
                     var13 = !var13;
                     var15 = var13;
                     var19 = 3;
-                    if(!var13) { _fun0004_ip = 837; continue _fun0004 }
- 713:
+                    if(!var13) { _fun0004_ip = 838; continue _fun0004 }
+ 714:
                     var13 = var23;
                     var26 = var13.value;
                     var17 = var22;
@@ -394,201 +394,201 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var25 = var18.bind(var2)(var17);
                     var18 = var25.putRoleConnectionsConfigurations;
                     var17 = var21;
-                    if(!(var16 == var13)) { _fun0004_ip = 773; continue _fun0004 }
- 767:
+                    if(!(var16 == var13)) { _fun0004_ip = 774; continue _fun0004 }
+ 768:
                     var13 = new Array(0);
-                    _fun0004_ip = 776; continue _fun0004;
- 773:
+                    _fun0004_ip = 777; continue _fun0004;
+ 774:
                     var13 = var24;
- 776:
+ 777:
                     var17 = var18.bind(var25)(var17, var26, var13);
-                    SaveGenerator(address=787);
- 785:
+                    SaveGenerator(address=788);
+ 786:
                     return var17;
- 787:
+ 788:
                     ResumeGenerator(result_out_reg=16, return_bool_out_reg=12);
-                    if(var13) { _fun0004_ip = 931; continue _fun0004 }
- 796:
+                    if(var13) { _fun0004_ip = 932; continue _fun0004 }
+ 797:
                     var15 = false;
                     var18 = var11;
                     var13 = var18.next;
                     var18 = var13.bind(var18)();
-                    SaveGenerator(address=814);
- 812:
+                    SaveGenerator(address=815);
+ 813:
                     return var18;
- 814:
+ 815:
                     ResumeGenerator(result_out_reg=17, return_bool_out_reg=12);
-                    if(var13) { _fun0004_ip = 842; continue _fun0004 }
- 820:
+                    if(var13) { _fun0004_ip = 843; continue _fun0004 }
+ 821:
                     var23 = var18;
                     var13 = var18.done;
                     var13 = !var13;
                     var15 = var13;
-                    if(var13) { _fun0004_ip = 713; continue _fun0004 }
- 837: // try_end0
-                    _fun0004_ip = 1113; continue _fun0004;
- 842: // try_start_2 // try_end1
+                    if(var13) { _fun0004_ip = 714; continue _fun0004 }
+ 838: // try_end0
+                    _fun0004_ip = 1114; continue _fun0004;
+ 843: // try_start_2 // try_end1
                     var19 = var15;
                     var13 = var19;
-                    if(!var19) { _fun0004_ip = 863; continue _fun0004 }
- 851:
+                    if(!var19) { _fun0004_ip = 864; continue _fun0004 }
+ 852:
                     var19 = var11;
                     var19 = var19.return;
                     var13 = var16 != var19;
- 863:
-                    if(!var13) { _fun0004_ip = 888; continue _fun0004 }
- 866:
+ 864:
+                    if(!var13) { _fun0004_ip = 889; continue _fun0004 }
+ 867:
                     var19 = var11;
                     var13 = var19.return;
                     var13 = var13.bind(var19)();
-                    SaveGenerator(address=882);
- 880:
+                    SaveGenerator(address=883);
+ 881:
                     return var13;
- 882:
+ 883:
                     ResumeGenerator(result_out_reg=12, return_bool_out_reg=18);
-                    if(var19) { _fun0004_ip = 902; continue _fun0004 }
- 888: // try_end2
+                    if(var19) { _fun0004_ip = 903; continue _fun0004 }
+ 889: // try_end2
                     var19 = var12;
-                    if(var19) { _fun0004_ip = 897; continue _fun0004 }
- 894: // try_end8
+                    if(var19) { _fun0004_ip = 898; continue _fun0004 }
+ 895: // try_end8
                     return var18;
- 897: // try_start_9
+ 898: // try_start_9
                     var18 = var9;
                     throw var18;
- 902:
+ 903:
                     var18 = var12;
-                    if(var18) { _fun0004_ip = 911; continue _fun0004 }
- 908: // try_end9
+                    if(var18) { _fun0004_ip = 912; continue _fun0004 }
+ 909: // try_end9
                     return var13;
- 911: // try_start_10
+ 912: // try_start_10
                     var13 = var9;
                     throw var13;
- 916: // catch_target2
+ 917: // catch_target2
                     CatchBlockStart(arg_register=12);
                     var18 = var12;
-                    if(var18) { _fun0004_ip = 926; continue _fun0004 }
- 924:
+                    if(var18) { _fun0004_ip = 927; continue _fun0004 }
+ 925:
                     throw var13;
- 926:
+ 927:
                     var13 = var9;
                     throw var13;
- 931: // try_start_3
+ 932: // try_start_3
                     var18 = var15;
                     var13 = var18;
-                    if(!var18) { _fun0004_ip = 952; continue _fun0004 }
- 940:
+                    if(!var18) { _fun0004_ip = 953; continue _fun0004 }
+ 941:
                     var18 = var11;
                     var18 = var18.return;
                     var13 = var16 != var18;
- 952:
-                    if(!var13) { _fun0004_ip = 977; continue _fun0004 }
- 955:
+ 953:
+                    if(!var13) { _fun0004_ip = 978; continue _fun0004 }
+ 956:
                     var18 = var11;
                     var13 = var18.return;
                     var13 = var13.bind(var18)();
-                    SaveGenerator(address=971);
- 969:
+                    SaveGenerator(address=972);
+ 970:
                     return var13;
- 971:
+ 972:
                     ResumeGenerator(result_out_reg=12, return_bool_out_reg=17);
-                    if(var18) { _fun0004_ip = 991; continue _fun0004 }
- 977: // try_end3
+                    if(var18) { _fun0004_ip = 992; continue _fun0004 }
+ 978: // try_end3
                     var18 = var12;
-                    if(var18) { _fun0004_ip = 986; continue _fun0004 }
- 983: // try_end10
+                    if(var18) { _fun0004_ip = 987; continue _fun0004 }
+ 984: // try_end10
                     return var17;
- 986: // try_start_11
+ 987: // try_start_11
                     var17 = var9;
                     throw var17;
- 991:
+ 992:
                     var17 = var12;
-                    if(var17) { _fun0004_ip = 1000; continue _fun0004 }
- 997: // try_end11
+                    if(var17) { _fun0004_ip = 1001; continue _fun0004 }
+ 998: // try_end11
                     return var13;
- 1000: // try_start_12
+ 1001: // try_start_12
                     var13 = var9;
                     throw var13;
- 1005: // catch_target3
+ 1006: // catch_target3
                     CatchBlockStart(arg_register=12);
                     var17 = var12;
-                    if(var17) { _fun0004_ip = 1015; continue _fun0004 }
- 1013:
+                    if(var17) { _fun0004_ip = 1016; continue _fun0004 }
+ 1014:
                     throw var13;
- 1015:
+ 1016:
                     var13 = var9;
                     throw var13;
- 1020: // try_start_4
+ 1021: // try_start_4
                     var17 = var15;
                     var13 = var17;
-                    if(!var17) { _fun0004_ip = 1041; continue _fun0004 }
- 1029:
+                    if(!var17) { _fun0004_ip = 1042; continue _fun0004 }
+ 1030:
                     var17 = var11;
                     var17 = var17.return;
                     var13 = var16 != var17;
- 1041:
-                    if(!var13) { _fun0004_ip = 1066; continue _fun0004 }
- 1044:
+ 1042:
+                    if(!var13) { _fun0004_ip = 1067; continue _fun0004 }
+ 1045:
                     var17 = var11;
                     var13 = var17.return;
                     var13 = var13.bind(var17)();
-                    SaveGenerator(address=1060);
- 1058:
+                    SaveGenerator(address=1061);
+ 1059:
                     return var13;
- 1060:
+ 1061:
                     ResumeGenerator(result_out_reg=12, return_bool_out_reg=16);
-                    if(var17) { _fun0004_ip = 1080; continue _fun0004 }
- 1066: // try_end4
+                    if(var17) { _fun0004_ip = 1081; continue _fun0004 }
+ 1067: // try_end4
                     var17 = var12;
-                    if(var17) { _fun0004_ip = 1075; continue _fun0004 }
- 1072: // try_end12
+                    if(var17) { _fun0004_ip = 1076; continue _fun0004 }
+ 1073: // try_end12
                     return var14;
- 1075: // try_start_13
+ 1076: // try_start_13
                     var14 = var9;
                     throw var14;
- 1080:
+ 1081:
                     var14 = var12;
-                    if(var14) { _fun0004_ip = 1089; continue _fun0004 }
- 1086: // try_end13
+                    if(var14) { _fun0004_ip = 1090; continue _fun0004 }
+ 1087: // try_end13
                     return var13;
- 1089: // try_start_14
+ 1090: // try_start_14
                     var13 = var9;
                     throw var13;
- 1094: // catch_target4
+ 1095: // catch_target4
                     CatchBlockStart(arg_register=12);
                     var14 = var12;
-                    if(var14) { _fun0004_ip = 1104; continue _fun0004 }
- 1102:
+                    if(var14) { _fun0004_ip = 1105; continue _fun0004 }
+ 1103:
                     throw var13;
- 1104:
+ 1105:
                     var13 = var9;
                     throw var13;
- 1109: // try_start_5 // catch_target0
+ 1110: // try_start_5 // catch_target0
                     CatchBlockStart(arg_register=8);
                     var12 = true;
- 1113: // try_start_6 // try_end5
+ 1114: // try_start_6 // try_end5
                     var14 = var15;
                     var13 = var14;
-                    if(!var14) { _fun0004_ip = 1134; continue _fun0004 }
- 1122:
+                    if(!var14) { _fun0004_ip = 1135; continue _fun0004 }
+ 1123:
                     var14 = var11;
                     var14 = var14.return;
                     var13 = var16 != var14;
- 1134:
-                    if(!var13) { _fun0004_ip = 1159; continue _fun0004 }
- 1137:
+ 1135:
+                    if(!var13) { _fun0004_ip = 1160; continue _fun0004 }
+ 1138:
                     var14 = var11;
                     var13 = var14.return;
                     var13 = var13.bind(var14)();
-                    SaveGenerator(address=1153);
- 1151:
+                    SaveGenerator(address=1154);
+ 1152:
                     return var13;
- 1153:
+ 1154:
                     ResumeGenerator(result_out_reg=12, return_bool_out_reg=13);
-                    if(var14) { _fun0004_ip = 1214; continue _fun0004 }
- 1159: // try_end6
+                    if(var14) { _fun0004_ip = 1215; continue _fun0004 }
+ 1160: // try_end6
                     var14 = var12;
-                    if(var14) { _fun0004_ip = 1209; continue _fun0004 }
- 1165:
+                    if(var14) { _fun0004_ip = 1210; continue _fun0004 }
+ 1166:
                     var17 = _closure1_slot1;
                     var14 = _closure1_slot2;
                     var14 = var14[var5];
@@ -598,77 +598,77 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var19 = 'GUILD_SETTINGS_ROLES_SAVE_SUCCESS';
                     var14['type'] = var19;
                     var14 = var17.bind(var18)(var14);
- 1204: // try_end14
-                    _fun0004_ip = 1443; continue _fun0004;
- 1209: // try_start_15
+ 1205: // try_end14
+                    _fun0004_ip = 1444; continue _fun0004;
+ 1210: // try_start_15
                     var14 = var9;
                     throw var14;
- 1214:
+ 1215:
                     var14 = var12;
-                    if(var14) { _fun0004_ip = 1223; continue _fun0004 }
- 1220: // try_end15
+                    if(var14) { _fun0004_ip = 1224; continue _fun0004 }
+ 1221: // try_end15
                     return var13;
- 1223: // try_start_16
+ 1224: // try_start_16
                     var13 = var9;
                     throw var13;
- 1228: // catch_target6
+ 1229: // catch_target6
                     CatchBlockStart(arg_register=12);
                     var14 = var12;
-                    if(var14) { _fun0004_ip = 1238; continue _fun0004 }
- 1236:
+                    if(var14) { _fun0004_ip = 1239; continue _fun0004 }
+ 1237:
                     throw var13;
- 1238:
+ 1239:
                     var13 = var9;
                     throw var13;
- 1243: // catch_target1 // catch_target5
+ 1244: // catch_target1 // catch_target5
                     CatchBlockStart(arg_register=12);
- 1245: // try_start_7
+ 1246: // try_start_7
                     var14 = var15;
-                    if(!var15) { _fun0004_ip = 1263; continue _fun0004 }
- 1251:
+                    if(!var15) { _fun0004_ip = 1264; continue _fun0004 }
+ 1252:
                     var15 = var11;
                     var15 = var15.return;
                     var14 = var16 != var15;
- 1263:
-                    if(!var14) { _fun0004_ip = 1288; continue _fun0004 }
- 1266:
+ 1264:
+                    if(!var14) { _fun0004_ip = 1289; continue _fun0004 }
+ 1267:
                     var14 = var11;
                     var11 = var14.return;
                     var11 = var11.bind(var14)();
-                    SaveGenerator(address=1282);
- 1280:
+                    SaveGenerator(address=1283);
+ 1281:
                     return var11;
- 1282:
+ 1283:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=13);
-                    if(var14) { _fun0004_ip = 1301; continue _fun0004 }
- 1288: // try_end7
+                    if(var14) { _fun0004_ip = 1302; continue _fun0004 }
+ 1289: // try_end7
                     var14 = var12;
-                    if(var14) { _fun0004_ip = 1296; continue _fun0004 }
- 1294:
+                    if(var14) { _fun0004_ip = 1297; continue _fun0004 }
+ 1295:
                     throw var13;
- 1296:
+ 1297:
                     var13 = var9;
                     throw var13;
- 1301:
+ 1302:
                     var13 = var12;
-                    if(var13) { _fun0004_ip = 1310; continue _fun0004 }
- 1307: // try_end16
+                    if(var13) { _fun0004_ip = 1311; continue _fun0004 }
+ 1308: // try_end16
                     return var11;
- 1310: // try_start_17
+ 1311: // try_start_17
                     var11 = var9;
                     throw var11;
- 1315: // catch_target7
+ 1316: // catch_target7
                     CatchBlockStart(arg_register=10);
-                    if(var12) { _fun0004_ip = 1322; continue _fun0004 }
- 1320:
+                    if(var12) { _fun0004_ip = 1323; continue _fun0004 }
+ 1321:
                     throw var11;
- 1322:
+ 1323:
                     throw var9;
- 1324: // try_end17
+ 1325: // try_end17
                     return var8;
- 1327:
+ 1328:
                     return var4;
- 1330: // catch_target8 // catch_target9 // catch_target10 // catch_target11 // catch_target12 // catch_target13 // catch_target14 // catch_target15 // catch_target16 // catch_target17
+ 1331: // catch_target8 // catch_target9 // catch_target10 // catch_target11 // catch_target12 // catch_target13 // catch_target14 // catch_target15 // catch_target16 // catch_target17
                     CatchBlockStart(arg_register=7);
                     var6 = var8;
                     var4 = _closure1_slot1;
@@ -684,13 +684,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = null;
                     var11 = var9 == var8;
                     var8 = undefined;
-                    if(var11) { _fun0004_ip = 1393; continue _fun0004 }
- 1388:
+                    if(var11) { _fun0004_ip = 1394; continue _fun0004 }
+ 1389:
                     var8 = var10.message;
- 1393:
+ 1394:
                     var7 = var8;
-                    if(!(var9 == var8)) { _fun0004_ip = 1431; continue _fun0004 }
- 1400:
+                    if(!(var9 == var8)) { _fun0004_ip = 1432; continue _fun0004 }
+ 1401:
                     var8 = global;
                     var9 = var8.Object;
                     var8 = var9.values;
@@ -698,15 +698,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.bind(var9)(var6);
                     var6 = 0;
                     var6 = var8[var6];
-                    _fun0004_ip = 1434; continue _fun0004;
- 1431:
+                    _fun0004_ip = 1435; continue _fun0004;
+ 1432:
                     var6 = var7;
- 1434:
+ 1435:
                     var3['message'] = var6;
                     var3 = var4.bind(var5)(var3);
- 1443:
+ 1444:
                     return var2;
- 1446:
+ 1447:
                     return var1;
                 }
             };

@@ -197,7 +197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot0;
                     var10 = var2.author;
  30:
-                    if(!(var1 != var10)) { _fun0004_ip = 219; continue _fun0004 }
+                    if(!(var1 != var10)) { _fun0004_ip = 218; continue _fun0004 }
  37:
                     var13 = var10.proxy_icon_url;
                     if(!(var1 == var13)) { _fun0004_ip = 53; continue _fun0004 }
@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.authorView;
                     var2['style'] = var6;
                     var8 = var1 != var13;
-                    if(!var8) { _fun0004_ip = 137; continue _fun0004 }
+                    if(!var8) { _fun0004_ip = 136; continue _fun0004 }
  87:
                     var11 = _closure1_slot7;
                     var9 = _closure1_slot5;
@@ -225,7 +225,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = 'cover';
                     var6['resizeMode'] = var12;
                     var8 = var11.bind(var5)(var9, var6);
- 137:
+ 136:
                     var6 = new Array(2);
                     var6[0] = var8;
                     var9 = _closure1_slot7;
@@ -243,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['children'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var2;
- 219:
+ 218:
                     return var1;
                 }
             };

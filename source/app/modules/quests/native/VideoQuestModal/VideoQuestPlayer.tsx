@@ -1478,7 +1478,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = null;
                     var2 = var5 == var1;
                     var1 = null;
-                    if(var2) { _fun0017_ip = 63; continue _fun0017 }
+                    if(var2) { _fun0017_ip = 62; continue _fun0017 }
  18:
                     var2 = {};
                     var3 = _closure2_slot10;
@@ -1496,7 +1496,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  55:
                     var2['uri'] = var3;
                     var1 = var2;
- 63:
+ 62:
                     return var1;
                 }
             };
@@ -1533,7 +1533,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = var3.setNativeProps;
                             var2 = var5 == var3;
  33:
-                            if(var2) { _fun0019_ip = 72; continue _fun0019 }
+                            if(var2) { _fun0019_ip = 71; continue _fun0019 }
  36:
                             var3 = _closure3_slot0;
                             var2 = var3.setNativeProps;
@@ -1544,9 +1544,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4['uri'] = var5;
                             var1['src'] = var4;
                             var1 = var2.bind(var3)(var1);
- 72: // try_end0
-                            _fun0019_ip = 112; continue _fun0019;
- 74: // catch_target0
+ 71: // try_end0
+                            _fun0019_ip = 111; continue _fun0019;
+ 73: // catch_target0
                             CatchBlockStart(arg_register=2);
                             var4 = _closure1_slot1;
                             var2 = _closure1_slot2;
@@ -1556,7 +1556,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var4.bind(var1)(var2);
                             var1 = var2.captureException;
                             var1 = var1.bind(var2)(var3);
- 112:
+ 111:
                             var1 = undefined;
                             return var1;
                         }

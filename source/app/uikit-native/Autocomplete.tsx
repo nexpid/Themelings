@@ -516,7 +516,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['allowFontScaling'] = var8;
             var1['children'] = var6;
             var6 = var3.bind(var4)(var2, var1);
-            _fun0005_ip = 194; continue _fun0005;
+            _fun0005_ip = 193; continue _fun0005;
  123:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
@@ -535,7 +535,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['uri'] = var9;
             var1['source'] = var8;
             var6 = var3.bind(var4)(var2, var1);
- 194:
+ 193:
             var3 = _closure1_slot9;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;

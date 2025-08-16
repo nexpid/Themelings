@@ -172,14 +172,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['mimeType'] = var5;
                 var5 = var3.origin;
                 var1['origin'] = var5;
-                _fun0002_ip = 508; continue _fun0002;
+                _fun0002_ip = 505; continue _fun0002;
  324:
                 var5 = var3.id;
                 var6 = null;
-                if(!(var6 == var5)) { _fun0002_ip = 341; continue _fun0002 }
+                if(!(var6 == var5)) { _fun0002_ip = 340; continue _fun0002 }
  335:
                 var5 = var3.uri;
- 341:
+ 340:
                 var1['id'] = var5;
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot3;
@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['waveform'] = var5;
                 var5 = var3.isRemix;
                 var1['isRemix'] = var5;
- 508:
+ 505:
                 var5 = var3.isThumbnail;
                 var1['isThumbnail'] = var5;
                 var3 = var3.clip;

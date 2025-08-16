@@ -4758,9 +4758,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {'raw': 'PLUM_20', 'opacity': 1};
     var8[var13] = var11;
     var11 = {};
-    var13 = {'color': 'gradient.end', 'lightness': '*0.9', 'saturation': '*0.9', 'opacity': 0.9};
+    var13 = {'color': 'gradient.end', 'lightness': '*0.9', 'saturation': '*0.6', 'opacity': 0.9};
     var11['light'] = var13;
-    var13 = {'color': 'gradient.end', 'lightness': '*1.5', 'saturation': '*1.2', 'opacity': 0.9};
+    var13 = {'color': 'gradient.end', 'lightness': '*1.5', 'saturation': '*1', 'opacity': 0.9};
     var11['dark'] = var13;
     var8[var12] = var11;
     var7['TYPING_INDICATOR_BG'] = var8;

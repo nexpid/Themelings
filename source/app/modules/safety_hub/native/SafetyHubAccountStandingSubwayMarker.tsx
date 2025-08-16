@@ -229,15 +229,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.bind(var4)(var1);
                     var3 = var1.Text;
                     var1 = _closure2_slot1;
-                    if(var1) { _fun0002_ip = 80; continue _fun0002 }
+                    if(var1) { _fun0002_ip = 76; continue _fun0002 }
  47:
                     var2 = {'color': 'interactive-normal', 'variant': 'text-xxs/normal'};
                     var1 = _closure2_slot2;
                     var1 = var1.label;
                     var2['style'] = var1;
                     var2['children'] = var6;
-                    _fun0002_ip = 118; continue _fun0002;
- 80:
+                    _fun0002_ip = 114; continue _fun0002;
+ 76:
                     var1 = {};
                     var7 = {};
                     var8 = _closure2_slot0;
@@ -248,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['variant'] = var7;
                     var1['children'] = var6;
                     var2 = var1;
- 118:
+ 114:
                     var1 = arg2;
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;

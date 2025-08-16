@@ -117,14 +117,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var1);
             var14 = var1.url;
             var1 = null;
-            if(var3) { _fun0001_ip = 347; continue _fun0001 }
+            if(var3) { _fun0001_ip = 346; continue _fun0001 }
  193:
             var3 = var10 == var14;
             var1 = null;
-            if(var3) { _fun0001_ip = 347; continue _fun0001 }
+            if(var3) { _fun0001_ip = 346; continue _fun0001 }
  205:
             var1 = null;
-            if(!(var2 !== var14)) { _fun0001_ip = 347; continue _fun0001 }
+            if(!(var2 !== var14)) { _fun0001_ip = 346; continue _fun0001 }
  214:
             var4 = _closure1_slot7;
             var3 = _closure1_slot4;
@@ -139,11 +139,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  243:
             var12['uri'] = var13;
             var2['source'] = var12;
-            if(!(var10 == var8)) { _fun0001_ip = 266; continue _fun0001 }
- 256:
+            if(!(var10 == var8)) { _fun0001_ip = 265; continue _fun0001 }
+ 255:
             var10 = _closure1_slot6;
             var8 = var10.absoluteFillObject;
- 266:
+ 265:
             var2['style'] = var8;
             var8 = {};
             var8['borderRadius'] = var11;
@@ -169,7 +169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 347:
+ 346:
             return var1;
         }
     };

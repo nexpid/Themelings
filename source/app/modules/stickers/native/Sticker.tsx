@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var1);
             var1 = var1.StickerFormat;
             var1 = var1.LOTTIE;
-            if(!(var2 !== var1)) { _fun0002_ip = 569; continue _fun0002 }
+            if(!(var2 !== var1)) { _fun0002_ip = 568; continue _fun0002 }
  175:
             var2 = var11.format_type;
             var3 = _closure1_slot0;
@@ -264,7 +264,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessibilityLabel'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 569:
+ 568:
             var3 = _closure1_slot5;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -277,10 +277,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = null;
             var13 = var11 != var12;
             var11 = '';
-            if(!var13) { _fun0002_ip = 620; continue _fun0002 }
- 617:
+            if(!var13) { _fun0002_ip = 619; continue _fun0002 }
+ 616:
             var11 = var12;
- 620:
+ 619:
             var1['asset'] = var11;
             var1['width'] = var10;
             var1['height'] = var10;
@@ -290,13 +290,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7[var9];
             var7 = var8.bind(var4)(var7);
             var7 = var7.NativeLottieRenderMode;
-            if(var6) { _fun0002_ip = 671; continue _fun0002 }
- 663:
+            if(var6) { _fun0002_ip = 670; continue _fun0002 }
+ 662:
             var6 = var7.STILL;
-            _fun0002_ip = 677; continue _fun0002;
- 671:
+            _fun0002_ip = 676; continue _fun0002;
+ 670:
             var6 = var7.LOOP;
- 677:
+ 676:
             var1['renderMode'] = var6;
             var1['accessibilityLabel'] = var5;
             var1 = var3.bind(var4)(var2, var1);

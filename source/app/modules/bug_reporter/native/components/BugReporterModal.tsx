@@ -893,7 +893,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0010_ip = 339; continue _fun0010 }
+                            if(var2) { _fun0010_ip = 337; continue _fun0010 }
  12:
                             var3 = undefined;
                             var _closure5_slot0 = var3;
@@ -923,10 +923,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var2;
  116:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                            if(var5) { _fun0010_ip = 336; continue _fun0010 }
+                            if(var5) { _fun0010_ip = 334; continue _fun0010 }
  125:
                             var5 = null;
-                            if(!(var5 != var2)) { _fun0010_ip = 333; continue _fun0010 }
+                            if(!(var5 != var2)) { _fun0010_ip = 331; continue _fun0010 }
  134:
                             var6 = var2.assets;
                             var5 = 0;
@@ -983,11 +983,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 return var1;
                             };
                             var4 = var5.bind(var3)(var4);
- 333:
+ 331:
                             return var3;
- 336:
+ 334:
                             return var2;
- 339:
+ 337:
                             return var1;
                         }
                     };

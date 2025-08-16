@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['label'] = var8;
                 var8 = var7 != var12;
                 var7 = undefined;
-                if(!var8) { _fun0001_ip = 170; continue _fun0001 }
+                if(!var8) { _fun0001_ip = 169; continue _fun0001 }
  109:
                 var10 = _closure1_slot5;
                 var9 = _closure1_slot1;
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11['uri'] = var12;
                 var8['source'] = var11;
                 var7 = var10.bind(var5)(var9, var8);
- 170:
+ 169:
                 var2['icon'] = var7;
                 var6 = function onPress() {
                     var1 = _closure3_slot0;

@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(8);
+        var1 = new Array(11);
         var1[0] = var5;
         var5 = {};
         var7 = 'getCumulativeCPUUsage';
@@ -299,7 +299,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[3] = var5;
         var5 = {};
-        var7 = 'getMemoryUsageElectronProcessTypeDetails';
+        var7 = 'enablePerfMemoryHooks';
         var5['key'] = var7;
         var7 = function value() {
             var1 = null;
@@ -307,6 +307,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var5['value'] = var7;
         var1[4] = var5;
+        var5 = {};
+        var7 = 'disablePerfMemoryHooks';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = null;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[5] = var5;
+        var5 = {};
+        var7 = 'getPerfAttributedMemory';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = null;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getMemoryUsageDetails';
         var5['key'] = var7;
@@ -318,7 +336,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'getMemoryUsageElectronRenderer';
         var5['key'] = var7;
@@ -327,16 +345,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'getMemoryUsageElectronRendererUsedHeapSize';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = null;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[9] = var5;
+        var5 = {};
+        var7 = 'getMemoryUsageElectronProcessTypeDetails';
         var5['key'] = var7;
         var6 = function value() {
             var1 = null;
             return var1;
         };
         var5['value'] = var6;
-        var1[7] = var5;
+        var1[10] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -316,7 +316,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var9 = var7.bind(var9)(var3, var5);
             var3 = var10.icon_name;
-            if(!(var8 == var3)) { _fun0002_ip = 1711; continue _fun0002 }
+            if(!(var8 == var3)) { _fun0002_ip = 1710; continue _fun0002 }
  248:
             var3 = var10.icon_url;
             if(!(var8 == var3)) { _fun0002_ip = 1620; continue _fun0002 }
@@ -324,7 +324,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8 != var9;
             var5 = var9;
             var7 = null;
-            if(var3) { _fun0002_ip = 1813; continue _fun0002 }
+            if(var3) { _fun0002_ip = 1812; continue _fun0002 }
  276:
             var11 = var10.type;
             var3 = 'lifecycle_item';
@@ -513,7 +513,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  995:
             var7 = var3;
             var5 = var11;
-            _fun0002_ip = 1813; continue _fun0002;
+            _fun0002_ip = 1812; continue _fun0002;
  1006:
             var11 = var10.item_enum;
             var12 = _closure1_slot0;
@@ -676,12 +676,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  1609:
             var7 = var3;
             var5 = var11;
-            _fun0002_ip = 1813; continue _fun0002;
+            _fun0002_ip = 1812; continue _fun0002;
  1620:
             var3 = var8 != var9;
             var5 = var9;
             var7 = null;
-            if(var3) { _fun0002_ip = 1813; continue _fun0002 }
+            if(var3) { _fun0002_ip = 1812; continue _fun0002 }
  1635:
             var9 = _closure1_slot8;
             var8 = _closure1_slot1;
@@ -700,8 +700,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['resizeMode'] = var11;
             var5 = var9.bind(var4)(var8, var3);
             var7 = var2.brandBackground;
-            _fun0002_ip = 1813; continue _fun0002;
- 1711:
+            _fun0002_ip = 1812; continue _fun0002;
+ 1710:
             var9 = _closure1_slot8;
             var11 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -711,17 +711,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {};
             var12 = var10.icon_name;
             var10 = 'icHighlight';
-            if(!(var10 !== var12)) { _fun0002_ip = 1766; continue _fun0002 }
- 1753:
+            if(!(var10 !== var12)) { _fun0002_ip = 1765; continue _fun0002 }
+ 1752:
             var12 = _closure1_slot2;
             var10 = 14;
             var10 = var12[var10];
-            _fun0002_ip = 1777; continue _fun0002;
- 1766:
+            _fun0002_ip = 1776; continue _fun0002;
+ 1765:
             var13 = _closure1_slot2;
             var12 = 13;
             var10 = var13[var12];
- 1777:
+ 1776:
             var10 = var11.bind(var4)(var10);
             var3['source'] = var10;
             var10 = var2.fallbackImage;
@@ -729,7 +729,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['color'] = var10;
             var5 = var9.bind(var4)(var8, var3);
             var7 = var2.brandBackground;
- 1813:
+ 1812:
             var3 = _closure1_slot8;
             var2 = _closure1_slot4;
             var1 = {};

@@ -162,7 +162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 161; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 157; continue _fun0003 }
  10:
                     var2 = _closure2_slot0;
                     var3 = undefined;
@@ -172,8 +172,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  27:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 158; continue _fun0003 }
- 36:
+                    if(var4) { _fun0003_ip = 154; continue _fun0003 }
+ 33:
                     var5 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var4 = 11;
@@ -192,10 +192,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = null;
                     var8 = var7 == var2;
                     var7 = undefined;
-                    if(var8) { _fun0003_ip = 131; continue _fun0003 }
- 125:
+                    if(var8) { _fun0003_ip = 127; continue _fun0003 }
+ 122:
                     var7 = var2.uri;
- 131:
+ 127:
                     var4['imageUri'] = var7;
                     var7 = function onDismiss() {
                         var3 = _closure1_slot1;
@@ -211,9 +211,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['onDismiss'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 158:
+ 154:
                     return var2;
- 161:
+ 157:
                     return var1;
                 }
             };

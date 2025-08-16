@@ -53,8 +53,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = /%26/g;
     var _closure1_slot5 = var4;
     var4 = {};
-    var7 = 'CLICKER_GAME';
-    var4['THE_LAST_MEADOW'] = var7;
     var _closure1_slot6 = var4;
     var4 = 3;
     var4 = var6[var4];

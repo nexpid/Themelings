@@ -1065,7 +1065,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = _closure3_slot12;
                             var3 = var1.current;
                             var1 = null;
-                            if(!(var1 != var3)) { _fun0008_ip = 38; continue _fun0008 }
+                            if(!(var1 != var3)) { _fun0008_ip = 36; continue _fun0008 }
  18:
                             var2 = var3.measureInWindow;
                             var1 = function(arg1, arg2) {
@@ -1081,7 +1081,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 return var1;
                             };
                             var1 = var2.bind(var3)(var1);
- 38:
+ 36:
                             var1 = undefined;
                             return var1;
                         }
@@ -1282,10 +1282,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var15 = var19.bind(var20)(var15, var18);
                     var _closure3_slot35 = var15;
-                    if(!var8) { _fun0006_ip = 1362; continue _fun0006 }
- 1359:
+                    if(!var8) { _fun0006_ip = 1350; continue _fun0006 }
+ 1347:
                     var16 = var7;
- 1362:
+ 1350:
                     _closure3_slot36 = var16;
                     var4 = _closure1_slot5;
                     var8 = var4.useMemo;

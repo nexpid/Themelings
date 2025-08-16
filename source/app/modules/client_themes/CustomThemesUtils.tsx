@@ -330,7 +330,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['useCustomThemeReset'] = var5;
     var3['adjustDefaultTheme'] = var4;
-    var2 = function setInitialCustomTheme(arg1, arg2, arg3) {
+    var4 = function setInitialCustomTheme(arg1, arg2, arg3) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var1 = arg1;
@@ -351,6 +351,80 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['setInitialCustomTheme'] = var2;
+    var3['setInitialCustomTheme'] = var4;
+    var2 = function useIsResetButtonDisabled() {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+ 0:
+            var2 = _closure1_slot5;
+            var4 = undefined;
+            var2 = var2.bind(var4)();
+            var9 = var2.colors;
+            var5 = var2.chassisMixAmount;
+            var3 = var2.gradientAngle;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var2 = 8;
+            var2 = var7[var2];
+            var2 = var6.bind(var4)(var2);
+            var6 = var2.ClientThemeSettings;
+            var2 = var6.getSetting;
+            var2 = var2.bind(var6)();
+            var7 = var2.customUserThemeSettings;
+            var6 = null;
+            var2 = var6 == var7;
+            var8 = undefined;
+            if(var2) { _fun0007_ip = 88; continue _fun0007 }
+ 83:
+            var8 = var7.colors;
+ 88:
+            if(!(var6 == var8)) { _fun0007_ip = 107; continue _fun0007 }
+ 92:
+            var10 = _closure1_slot7;
+            var2 = new Array(1);
+            var2[0] = var10;
+            var8 = var2;
+ 107:
+            var2 = var6 == var7;
+            var10 = undefined;
+            if(var2) { _fun0007_ip = 122; continue _fun0007 }
+ 116:
+            var10 = var7.gradientAngle;
+ 122:
+            var11 = var6 != var10;
+            var2 = 0;
+            if(!var11) { _fun0007_ip = 134; continue _fun0007 }
+ 131:
+            var2 = var10;
+ 134:
+            var10 = var6 == var7;
+            var4 = undefined;
+            if(var10) { _fun0007_ip = 149; continue _fun0007 }
+ 143:
+            var4 = var7.baseMix;
+ 149:
+            if(!(var6 == var4)) { _fun0007_ip = 157; continue _fun0007 }
+ 153:
+            var4 = _closure1_slot6;
+ 157:
+            var1 = global;
+            var7 = var1.JSON;
+            var6 = var7.stringify;
+            var6 = var6.bind(var7)(var9);
+            var7 = var1.JSON;
+            var1 = var7.stringify;
+            var1 = var1.bind(var7)(var8);
+            var1 = var6 === var1;
+            if(!var1) { _fun0007_ip = 204; continue _fun0007 }
+ 200:
+            var1 = var5 === var4;
+ 204:
+            if(!var1) { _fun0007_ip = 211; continue _fun0007 }
+ 207:
+            var1 = var3 === var2;
+ 211:
+            return var1;
+        }
+    };
+    var3['useIsResetButtonDisabled'] = var2;
     return var1;
 })();

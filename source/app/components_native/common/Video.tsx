@@ -511,18 +511,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var2.disableFocus;
                 var2 = 'videoURI';
                 var2 = var2 in var1;
-                if(!var2) { _fun0009_ip = 223; continue _fun0009 }
+                if(!var2) { _fun0009_ip = 222; continue _fun0009 }
  80:
                 var3 = var1.videoURI;
                 var2 = '';
-                if(!(var2 !== var3)) { _fun0009_ip = 223; continue _fun0009 }
+                if(!(var2 !== var3)) { _fun0009_ip = 222; continue _fun0009 }
  97:
                 var13 = var1.videoURI;
                 var1 = null;
                 var2 = var1 != var13;
                 var5 = undefined;
                 var1 = undefined;
-                if(!var2) { _fun0009_ip = 221; continue _fun0009 }
+                if(!var2) { _fun0009_ip = 220; continue _fun0009 }
  116:
                 var4 = _closure1_slot13;
                 var3 = _closure1_slot15;
@@ -548,9 +548,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['ariaHidden'] = var7;
                 var2['disableFocus'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 221:
+ 220:
                 return var1;
- 223:
+ 222:
                 var1 = null;
                 return var1;
             }
@@ -571,15 +571,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.ariaHidden;
                 var2 = 'uri';
                 var2 = var2 in var8;
-                if(!var2) { _fun0010_ip = 55; continue _fun0010 }
+                if(!var2) { _fun0010_ip = 54; continue _fun0010 }
  41:
                 var3 = var8.uri;
                 var2 = '';
-                if(!(var2 === var3)) { _fun0010_ip = 59; continue _fun0010 }
- 55:
+                if(!(var2 === var3)) { _fun0010_ip = 58; continue _fun0010 }
+ 54:
                 var2 = undefined;
                 return var2;
- 59:
+ 58:
                 var4 = _closure1_slot13;
                 var3 = _closure1_slot11;
                 var2 = {};

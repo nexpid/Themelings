@@ -294,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var1.guild;
                 var1 = null;
                 var2 = var1 == var4;
-                if(var2) { _fun0005_ip = 80; continue _fun0005 }
+                if(var2) { _fun0005_ip = 79; continue _fun0005 }
  34:
                 var3 = var4.startsWith;
                 var2 = 'data:';
@@ -304,14 +304,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = undefined;
                 var2 = 192;
                 var2 = var6.bind(var3)(var5, var2);
-                _fun0005_ip = 77; continue _fun0005;
+                _fun0005_ip = 76; continue _fun0005;
  67:
                 var3 = {};
                 var3['uri'] = var4;
                 var2 = var3;
- 77:
+ 76:
                 var1 = var2;
- 80:
+ 79:
                 return var1;
             }
         };

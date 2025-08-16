@@ -90,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.CHAT_INPUT;
             var1 = var7.bind(var9)(var10, var2, var1);
             var2 = var3 != var4;
-            if(!var2) { _fun0001_ip = 238; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 237; continue _fun0001 }
  187:
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -102,21 +102,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.filename;
             var4 = var4.mimeType;
             var2 = var8.bind(var9)(var7, var6, var4);
- 238:
-            if(!var1) { _fun0001_ip = 261; continue _fun0001 }
- 241:
+ 237:
+            if(!var1) { _fun0001_ip = 260; continue _fun0001 }
+ 240:
             var3 = var3 != var5;
-            if(!var3) { _fun0001_ip = 258; continue _fun0001 }
- 248:
+            if(!var3) { _fun0001_ip = 257; continue _fun0001 }
+ 247:
             var4 = var5.isForumLikeChannel;
             var3 = var4.bind(var5)();
- 258:
+ 257:
             var1 = !var3;
- 261:
-            if(!var1) { _fun0001_ip = 267; continue _fun0001 }
- 264:
+ 260:
+            if(!var1) { _fun0001_ip = 266; continue _fun0001 }
+ 263:
             var1 = var2;
- 267:
+ 266:
             return var1;
         }
     };

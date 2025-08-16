@@ -39,17 +39,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot9 = var2;
+            _closure1_slot10 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = function handleConnectionOpen() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 6;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.bind(var3)();
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -92,7 +92,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot8 = var4;
-    var4 = 8;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot9 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var4 = var4.Store;
@@ -107,13 +111,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.bind(var3)(var4, var2);
                 var8 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var1 = 7;
+                var1 = 8;
                 var6 = var7[var1];
                 var6 = var8.bind(var3)(var6);
                 var9 = new Array(3);
                 var9[0] = var6;
                 var6 = {};
-                var8 = _closure1_slot10;
+                var8 = _closure1_slot11;
                 var6['CONNECTION_OPEN'] = var8;
                 var9[1] = var6;
                 var6 = _closure1_slot0;
@@ -125,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot6;
                 var8 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot10;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 134; continue _fun0002 }
  121:
@@ -155,10 +159,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = 'initialize';
         var5['key'] = var6;
         var1 = function value() {
-            var3 = this;
-            var2 = var3.waitFor;
-            var1 = _closure1_slot8;
-            var1 = var2.bind(var3)(var1);
+            var4 = this;
+            var3 = var4.waitFor;
+            var2 = _closure1_slot8;
+            var1 = _closure1_slot9;
+            var1 = var3.bind(var4)(var2, var1);
             var1 = undefined;
             return var1;
         };
@@ -176,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 9;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

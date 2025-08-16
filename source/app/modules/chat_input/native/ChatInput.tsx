@@ -1198,7 +1198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0018_ip = 341; continue _fun0018 }
+                            if(var2) { _fun0018_ip = 340; continue _fun0018 }
  10:
                             var2 = arg1;
                             var2 = var2.nativeEvent;
@@ -1212,19 +1212,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var4;
  44:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(var3) { _fun0018_ip = 338; continue _fun0018 }
+                            if(var3) { _fun0018_ip = 337; continue _fun0018 }
  53:
                             var3 = _closure2_slot6;
                             var3 = var3.state;
                             var3 = var3.current;
                             var3 = var3.focused;
-                            if(!var3) { _fun0018_ip = 332; continue _fun0018 }
+                            if(!var3) { _fun0018_ip = 331; continue _fun0018 }
  82:
                             var3 = _closure2_slot6;
                             var3 = var3.props;
                             var3 = var3.current;
                             var3 = var3.canUpload;
-                            if(!var3) { _fun0018_ip = 332; continue _fun0018 }
+                            if(!var3) { _fun0018_ip = 331; continue _fun0018 }
  108:
                             var5 = _closure1_slot0;
                             var12 = _closure1_slot3;
@@ -1238,7 +1238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var3;
  148:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                            if(var5) { _fun0018_ip = 335; continue _fun0018 }
+                            if(var5) { _fun0018_ip = 334; continue _fun0018 }
  157:
                             var6 = _closure1_slot1;
                             var12 = _closure1_slot3;
@@ -1279,13 +1279,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var8 = var8.ChannelMessage;
                             var5['draftType'] = var8;
                             var5 = var6.bind(var7)(var5);
- 332:
+ 331:
                             return var4;
- 335:
+ 334:
                             return var3;
- 338:
+ 337:
                             return var2;
- 341:
+ 340:
                             return var1;
                         }
                     };

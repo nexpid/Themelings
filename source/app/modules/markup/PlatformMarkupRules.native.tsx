@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var3.type;
                     var2 = 'channel';
                     var1 = var3;
-                    if(!(var2 === var4)) { _fun0002_ip = 115; continue _fun0002 }
+                    if(!(var2 === var4)) { _fun0002_ip = 114; continue _fun0002 }
  19:
                     var2 = {};
                     var10 = var2;
@@ -58,14 +58,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var5.bind(var6)(var3);
                     var5 = null;
                     var5 = var5 == var3;
-                    if(var5) { _fun0002_ip = 103; continue _fun0002 }
+                    if(var5) { _fun0002_ip = 102; continue _fun0002 }
  97:
                     var4 = var3.uri;
- 103:
+ 102:
                     var3 = 'icon';
                     var2[var3] = var4;
                     var1 = var2;
- 115:
+ 114:
                     return var1;
                 }
             };

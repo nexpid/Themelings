@@ -279,13 +279,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = var5.guild_id;
                             var1['guildId'] = var5;
                             var5 = _closure3_slot0;
-                            if(!(var6 == var5)) { _fun0003_ip = 526; continue _fun0003 }
- 520:
+                            if(!(var6 == var5)) { _fun0003_ip = 525; continue _fun0003 }
+ 519:
                             var4 = _closure1_slot13;
-                            _fun0003_ip = 530; continue _fun0003;
- 526:
+                            _fun0003_ip = 529; continue _fun0003;
+ 525:
                             var4 = _closure3_slot0;
- 530:
+ 529:
                             var1['messageId'] = var4;
                             var3 = _closure3_slot3;
                             var3 = var3.id;

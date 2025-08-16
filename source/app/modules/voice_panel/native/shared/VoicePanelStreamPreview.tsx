@@ -211,27 +211,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = 9;
             var15 = var18[var15];
             var15 = var17.bind(var4)(var15);
-            _fun0001_ip = 337; continue _fun0001;
+            _fun0001_ip = 336; continue _fun0001;
  327:
             var17 = {};
             var17['uri'] = var8;
             var15 = var17;
- 337:
+ 336:
             var5['source'] = var15;
-            if(!(var10 == var8)) { _fun0001_ip = 353; continue _fun0001 }
- 345:
+            if(!(var10 == var8)) { _fun0001_ip = 352; continue _fun0001 }
+ 344:
             var15 = var16.streamPreviewImagePlaceholder;
-            _fun0001_ip = 359; continue _fun0001;
- 353:
+            _fun0001_ip = 358; continue _fun0001;
+ 352:
             var15 = var16.streamPreviewImage;
- 359:
+ 358:
             var5['style'] = var15;
             var10 = var10 != var8;
             var8 = 'contain';
-            if(!var10) { _fun0001_ip = 378; continue _fun0001 }
- 374:
+            if(!var10) { _fun0001_ip = 377; continue _fun0001 }
+ 373:
             var8 = 'cover';
- 378:
+ 377:
             var5['resizeMode'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);

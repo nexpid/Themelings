@@ -377,7 +377,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPress'] = var5;
             var5 = var10 != var17;
             var7 = null;
-            if(!var5) { _fun0002_ip = 290; continue _fun0002 }
+            if(!var5) { _fun0002_ip = 289; continue _fun0002 }
  171:
             var12 = _closure1_slot10;
             var8 = _closure1_slot4;
@@ -395,13 +395,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var17.customIconSrc;
             var19 = var10 != var18;
             var18 = undefined;
-            if(!var19) { _fun0002_ip = 252; continue _fun0002 }
+            if(!var19) { _fun0002_ip = 251; continue _fun0002 }
  236:
             var19 = {};
             var20 = var17.customIconSrc;
             var19['uri'] = var20;
             var18 = var19;
- 252:
+ 251:
             var14['source'] = var18;
             var17 = var17.unicodeEmoji;
             var14['unicodeEmoji'] = var17;
@@ -410,7 +410,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var16.bind(var4)(var15, var14);
             var5['children'] = var14;
             var7 = var12.bind(var4)(var8, var5);
- 290:
+ 289:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot10;
@@ -426,12 +426,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[0] = var12;
             var12 = var10 != var13;
             var10 = undefined;
-            if(!var12) { _fun0002_ip = 362; continue _fun0002 }
- 353:
+            if(!var12) { _fun0002_ip = 361; continue _fun0002 }
+ 352:
             var12 = {};
             var12['color'] = var13;
             var10 = var12;
- 362:
+ 361:
             var9[1] = var10;
             var6['style'] = var9;
             var9 = global;
@@ -573,7 +573,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['allowFontScaling'] = var10;
             var1['children'] = var7;
             var10 = var3.bind(var4)(var2, var1);
-            _fun0004_ip = 194; continue _fun0004;
+            _fun0004_ip = 193; continue _fun0004;
  123:
             var3 = _closure1_slot10;
             var2 = _closure1_slot1;
@@ -592,7 +592,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['uri'] = var8;
             var1['source'] = var7;
             var10 = var3.bind(var4)(var2, var1);
- 194:
+ 193:
             var3 = _closure1_slot11;
             var2 = _closure1_slot14;
             var1 = {};

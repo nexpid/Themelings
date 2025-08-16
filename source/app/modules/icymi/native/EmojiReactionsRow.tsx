@@ -361,7 +361,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var10;
             var5['style'] = var8;
             var8 = var20.id;
-            if(!(var12 != var8)) { _fun0003_ip = 722; continue _fun0003 }
+            if(!(var12 != var8)) { _fun0003_ip = 721; continue _fun0003 }
  605:
             var18 = _closure1_slot15;
             var10 = _closure1_slot6;
@@ -390,8 +390,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19['uri'] = var21;
             var8['source'] = var19;
             var8 = var18.bind(var4)(var10, var8);
-            _fun0003_ip = 810; continue _fun0003;
- 722:
+            _fun0003_ip = 809; continue _fun0003;
+ 721:
             var19 = _closure1_slot15;
             var18 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -409,7 +409,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var20.name;
             var10['children'] = var20;
             var8 = var19.bind(var4)(var18, var10);
- 810:
+ 809:
             var5['children'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
@@ -420,10 +420,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var17.innerTextContainer;
             var10 = new Array(2);
             var10[0] = var18;
-            if(!var11) { _fun0003_ip = 861; continue _fun0003 }
- 855:
+            if(!var11) { _fun0003_ip = 860; continue _fun0003 }
+ 854:
             var11 = var17.selectedInnerTextContainer;
- 861:
+ 860:
             var10[1] = var11;
             var6['style'] = var10;
             var11 = _closure1_slot15;
@@ -436,10 +436,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['animate'] = var16;
             var9['count'] = var15;
             var12 = null;
-            if(!var14) { _fun0003_ip = 912; continue _fun0003 }
- 909:
+            if(!var14) { _fun0003_ip = 911; continue _fun0003 }
+ 908:
             var12 = var13;
- 912:
+ 911:
             var9['textStyle'] = var12;
             var12 = 'text-md/semibold';
             var9['textVariant'] = var12;

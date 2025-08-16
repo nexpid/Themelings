@@ -707,7 +707,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.CollectiblesMarketingType;
                     var2 = var1.COACHTIP;
                     var1 = null;
-                    if(!(var5 === var2)) { _fun0008_ip = 158; continue _fun0008 }
+                    if(!(var5 === var2)) { _fun0008_ip = 157; continue _fun0008 }
  70:
                     var2 = {};
                     var5 = _closure2_slot13;
@@ -733,7 +733,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4[var3];
                     var2['decorationAsset'] = var3;
                     var1 = var2;
- 158:
+ 157:
                     return var1;
                 }
             };

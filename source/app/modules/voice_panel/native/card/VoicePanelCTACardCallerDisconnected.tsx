@@ -14,12 +14,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 'number';
             var2 = typeof var3;
             var1 = var3;
-            if(!(var4 !== var2)) { _fun0001_ip = 27; continue _fun0001 }
+            if(!(var4 !== var2)) { _fun0001_ip = 26; continue _fun0001 }
  17:
             var2 = {};
             var2['uri'] = var3;
             var1 = var2;
- 27:
+ 26:
             return var1;
         }
     };

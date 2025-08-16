@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  69:
                 var2 = 'number';
                 var1 = typeof var1;
-                if(!(var2 !== var1)) { _fun0002_ip = 225; continue _fun0002 }
+                if(!(var2 !== var1)) { _fun0002_ip = 224; continue _fun0002 }
  83:
                 var10 = null;
                 var1 = var10 != var3;
@@ -120,10 +120,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1[var11] = var12;
                 var11 = var10 == var6;
                 var10 = undefined;
-                if(var11) { _fun0002_ip = 181; continue _fun0002 }
+                if(var11) { _fun0002_ip = 180; continue _fun0002 }
  175:
                 var10 = var6.uri;
- 181:
+ 180:
                 var6 = 'placeholder';
                 var1[var6] = var10;
                 var6 = 'enableAnimation';
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1[var6] = var7;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
- 225:
+ 224:
                 var3 = _closure1_slot2;
                 var2 = _closure1_slot0;
                 var1 = {};

@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  313:
             var2 = var1 == var8;
  317:
-            if(!var2) { _fun0001_ip = 349; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 348; continue _fun0001 }
  320:
             var2 = {};
             var6 = var12.getIconURL;
@@ -103,9 +103,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.bind(var12)(var3);
             var2['uri'] = var3;
             var8 = var2;
- 349:
-            if(!(var1 == var8)) { _fun0001_ip = 389; continue _fun0001 }
- 353:
+ 348:
+            if(!(var1 == var8)) { _fun0001_ip = 388; continue _fun0001 }
+ 352:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
             var1 = 9;
@@ -114,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var11.push;
             var2 = var7.placeholder;
             var2 = var3.bind(var11)(var2);
- 389:
+ 388:
             var3 = _closure1_slot5;
             var2 = _closure1_slot3;
             var1 = {};

@@ -134,12 +134,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var13)(var4, var6);
             var4 = var3 != var1;
             var1 = null;
-            if(!var4) { _fun0001_ip = 1092; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 1090; continue _fun0001 }
  319:
             var1 = null;
-            if(!var2) { _fun0001_ip = 1092; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 1090; continue _fun0001 }
  327:
-            if(!(var3 == var9)) { _fun0001_ip = 685; continue _fun0001 }
+            if(!(var3 == var9)) { _fun0001_ip = 684; continue _fun0001 }
  334:
             if(!(var3 == var17)) { _fun0001_ip = 571; continue _fun0001 }
  341:
@@ -200,7 +200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var8;
             var7 = var4.bind(var5)(var3, var2);
  569:
-            _fun0001_ip = 683; continue _fun0001;
+            _fun0001_ip = 682; continue _fun0001;
  571:
             var4 = _closure1_slot15;
             var14 = _closure1_slot1;
@@ -228,9 +228,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 'contain';
             var2['resizeMode'] = var8;
             var7 = var4.bind(var5)(var3, var2);
- 683:
-            _fun0001_ip = 746; continue _fun0001;
- 685:
+ 682:
+            _fun0001_ip = 744; continue _fun0001;
+ 684:
             var4 = _closure1_slot15;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -246,7 +246,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 'contain';
             var2['resizeMode'] = var8;
             var7 = var4.bind(var5)(var3, var2);
- 746:
+ 744:
             var4 = _closure1_slot16;
             var19 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -311,22 +311,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.MEDIUM;
             var7['size'] = var13;
             var13 = _closure1_slot2;
-            if(var10) { _fun0001_ip = 1056; continue _fun0001 }
- 1047:
+            if(var10) { _fun0001_ip = 1054; continue _fun0001 }
+ 1045:
             var10 = 27;
             var10 = var13[var10];
-            _fun0001_ip = 1063; continue _fun0001;
- 1056:
+            _fun0001_ip = 1061; continue _fun0001;
+ 1054:
             var12 = 26;
             var10 = var13[var12];
- 1063:
+ 1061:
             var10 = var11.bind(var5)(var10);
             var7['source'] = var10;
             var7 = var9.bind(var5)(var8, var7);
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1092:
+ 1090:
             return var1;
         }
     };

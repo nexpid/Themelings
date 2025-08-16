@@ -121,14 +121,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = null;
                     var3 = var2 != var3;
                     var2 = undefined;
-                    if(!var3) { _fun0002_ip = 123; continue _fun0002 }
+                    if(!var3) { _fun0002_ip = 122; continue _fun0002 }
  104:
                     var3 = {};
                     var4 = _closure2_slot1;
                     var4 = var4.url;
                     var3['uri'] = var4;
                     var2 = var3;
- 123:
+ 122:
                     var1['imageSource'] = var2;
                     return var1;
                 }
@@ -242,26 +242,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = 'number';
             var1 = typeof var11;
             var3 = var11;
-            if(!(var12 !== var1)) { _fun0004_ip = 144; continue _fun0004 }
+            if(!(var12 !== var1)) { _fun0004_ip = 143; continue _fun0004 }
  124:
             var1 = null;
             var12 = var1 == var11;
             var1 = undefined;
-            if(var12) { _fun0004_ip = 141; continue _fun0004 }
+            if(var12) { _fun0004_ip = 140; continue _fun0004 }
  135:
             var1 = var11.uri;
- 141:
+ 140:
             var3 = var1;
- 144:
+ 143:
             var1 = '';
             var11 = var4.bind(var5)(var3, var1);
             var1 = null;
-            if(!(var1 == var9)) { _fun0004_ip = 240; continue _fun0004 }
- 160:
-            if(var2) { _fun0004_ip = 218; continue _fun0004 }
- 163:
-            if(!(var1 == var10)) { _fun0004_ip = 195; continue _fun0004 }
- 167:
+            if(!(var1 == var9)) { _fun0004_ip = 239; continue _fun0004 }
+ 159:
+            if(var2) { _fun0004_ip = 217; continue _fun0004 }
+ 162:
+            if(!(var1 == var10)) { _fun0004_ip = 194; continue _fun0004 }
+ 166:
             var3 = _closure1_slot8;
             var2 = _closure1_slot4;
             var1 = {};
@@ -269,24 +269,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['backgroundColor'] = var11;
             var1['style'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0004_ip = 216; continue _fun0004;
- 195:
+            _fun0004_ip = 215; continue _fun0004;
+ 194:
             var4 = _closure1_slot8;
             var3 = _closure1_slot11;
             var2 = {};
             var2['applicationBot'] = var10;
             var1 = var4.bind(var5)(var3, var2);
- 216:
-            _fun0004_ip = 238; continue _fun0004;
- 218:
+ 215:
+            _fun0004_ip = 237; continue _fun0004;
+ 217:
             var4 = _closure1_slot8;
             var3 = _closure1_slot10;
             var2 = {};
             var2['applicationId'] = var7;
             var1 = var4.bind(var5)(var3, var2);
- 238:
-            _fun0004_ip = 328; continue _fun0004;
- 240:
+ 237:
+            _fun0004_ip = 326; continue _fun0004;
+ 239:
             var4 = _closure1_slot8;
             var3 = _closure1_slot4;
             var2 = {};
@@ -308,7 +308,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 328:
+ 326:
             return var1;
         }
     };

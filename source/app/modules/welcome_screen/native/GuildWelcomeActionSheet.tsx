@@ -302,10 +302,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var3 = var8 != var10;
             var1 = null;
-            if(!var3) { _fun0001_ip = 847; continue _fun0001 }
+            if(!var3) { _fun0001_ip = 846; continue _fun0001 }
  257:
             var1 = null;
-            if(!var2) { _fun0001_ip = 847; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 846; continue _fun0001 }
  265:
             if(!(var8 == var18)) { _fun0001_ip = 514; continue _fun0001 }
  272:
@@ -368,7 +368,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var9;
             var14 = var4.bind(var5)(var3, var2);
  512:
-            _fun0001_ip = 629; continue _fun0001;
+            _fun0001_ip = 628; continue _fun0001;
  514:
             var4 = _closure1_slot17;
             var12 = _closure1_slot1;
@@ -397,7 +397,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 'contain';
             var2['resizeMode'] = var9;
             var14 = var4.bind(var5)(var3, var2);
- 629:
+ 628:
             var4 = _closure1_slot17;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -420,8 +420,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['label'] = var11;
             var10 = var8 != var10;
             var8 = null;
-            if(!var10) { _fun0001_ip = 786; continue _fun0001 }
- 736:
+            if(!var10) { _fun0001_ip = 785; continue _fun0001 }
+ 735:
             var12 = _closure1_slot17;
             var11 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -431,7 +431,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
             var10['children'] = var13;
             var8 = var12.bind(var5)(var11, var10);
- 786:
+ 785:
             var2['subLabel'] = var8;
             var2['onPress'] = var7;
             var8 = _closure1_slot17;
@@ -445,7 +445,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['trailing'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 847:
+ 846:
             return var1;
         }
     };

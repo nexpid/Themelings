@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.SlashCommand;
             var3 = var3.bind(var4)(var6, var5, var1);
             var1 = null;
-            if(!(var1 != var3)) { _fun0002_ip = 296; continue _fun0002 }
+            if(!(var1 != var3)) { _fun0002_ip = 295; continue _fun0002 }
  62:
             var13 = var3.id;
             var _closure2_slot3 = var13;
@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var8)(var3);
             var3 = var3.UploadPlatform;
             var3 = var3.REACT_NATIVE;
-            if(!(var4 === var3)) { _fun0002_ip = 296; continue _fun0002 }
+            if(!(var4 === var3)) { _fun0002_ip = 295; continue _fun0002 }
  135:
             var4 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['disableRemix'] = var1;
             var1 = 'UploadPreviewActionSheet';
             var1 = var4.bind(var5)(var3, var1, var2);
- 296:
+ 295:
             var1 = undefined;
             return var1;
         }

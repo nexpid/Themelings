@@ -364,7 +364,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5['onLongPress'] = var10;
             var10 = var8 != var15;
-            if(!var10) { _fun0002_ip = 711; continue _fun0002 }
+            if(!var10) { _fun0002_ip = 710; continue _fun0002 }
  649:
             var12 = _closure1_slot16;
             var11 = _closure1_slot1;
@@ -381,7 +381,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13['uri'] = var15;
             var8['source'] = var13;
             var10 = var12.bind(var4)(var11, var8);
- 711:
+ 710:
             var8 = new Array(3);
             var8[0] = var10;
             var12 = _closure1_slot17;
@@ -406,30 +406,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = {};
             var18 = var23.detailsRow;
             var15['style'] = var18;
-            if(!var21) { _fun0002_ip = 839; continue _fun0002 }
- 823:
+            if(!var21) { _fun0002_ip = 838; continue _fun0002 }
+ 822:
             var25 = _closure1_slot16;
             var24 = _closure1_slot19;
             var18 = {};
             var21 = var25.bind(var4)(var24, var18);
- 839:
+ 838:
             var18 = new Array(4);
             var18[0] = var21;
-            if(!var20) { _fun0002_ip = 866; continue _fun0002 }
- 850:
+            if(!var20) { _fun0002_ip = 865; continue _fun0002 }
+ 849:
             var25 = _closure1_slot16;
             var24 = _closure1_slot20;
             var21 = {};
             var20 = var25.bind(var4)(var24, var21);
- 866:
+ 865:
             var18[1] = var20;
-            if(!var14) { _fun0002_ip = 889; continue _fun0002 }
- 873:
+            if(!var14) { _fun0002_ip = 888; continue _fun0002 }
+ 872:
             var24 = _closure1_slot16;
             var21 = _closure1_slot21;
             var20 = {};
             var14 = var24.bind(var4)(var21, var20);
- 889:
+ 888:
             var18[2] = var14;
             var21 = _closure1_slot16;
             var20 = _closure1_slot0;

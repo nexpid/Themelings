@@ -360,11 +360,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var1.isImageLoaded;
                 var10 = var1.isImageErrored;
                 var1 = null;
-                if(!(var1 != var19)) { _fun0004_ip = 225; continue _fun0004 }
+                if(!(var1 != var19)) { _fun0004_ip = 224; continue _fun0004 }
  102:
-                if(var14) { _fun0004_ip = 225; continue _fun0004 }
+                if(var14) { _fun0004_ip = 224; continue _fun0004 }
  105:
-                if(var10) { _fun0004_ip = 225; continue _fun0004 }
+                if(var10) { _fun0004_ip = 224; continue _fun0004 }
  108:
                 var10 = undefined;
                 if(var9) { _fun0004_ip = 133; continue _fun0004 }
@@ -397,17 +397,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var17 = var17.handleError;
                 var9['onError'] = var17;
                 var9 = var16.bind(var4)(var15, var9);
-                _fun0004_ip = 245; continue _fun0004;
- 225:
+                _fun0004_ip = 244; continue _fun0004;
+ 224:
                 var15 = var1 == var3;
                 var1 = undefined;
-                if(var15) { _fun0004_ip = 240; continue _fun0004 }
- 234:
+                if(var15) { _fun0004_ip = 239; continue _fun0004 }
+ 233:
                 var1 = var3.bind(var4)(var14, var2);
- 240:
+ 239:
                 var10 = var1;
                 var9 = undefined;
- 245:
+ 244:
                 var3 = _closure1_slot12;
                 var2 = _closure1_slot0;
                 var14 = _closure1_slot2;

@@ -803,7 +803,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22[1] = var26;
             var5['children'] = var22;
             var5 = var20.bind(var4)(var16, var5);
-            if(var12) { _fun0001_ip = 1543; continue _fun0001 }
+            if(var12) { _fun0001_ip = 1542; continue _fun0001 }
  1198:
             var2 = var2.length;
             var2 = var3 === var2;
@@ -812,7 +812,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.length;
             var2 = var11 > var3;
  1219:
-            if(!var2) { _fun0001_ip = 1856; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 1854; continue _fun0001 }
  1225:
             var12 = _closure1_slot14;
             var11 = _closure1_slot7;
@@ -881,8 +881,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16[2] = var20;
             var2['children'] = var16;
             var5 = var12.bind(var4)(var11, var2);
-            _fun0001_ip = 1856; continue _fun0001;
- 1543:
+            _fun0001_ip = 1854; continue _fun0001;
+ 1542:
             var12 = _closure1_slot14;
             var11 = _closure1_slot7;
             var2 = {};
@@ -950,7 +950,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16[2] = var19;
             var2['children'] = var16;
             var5 = var12.bind(var4)(var11, var2);
- 1856:
+ 1854:
             var2 = var8.trim;
             var2 = var2.bind(var8)();
             var2 = var2.length;
@@ -965,10 +965,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = new Array(0);
             var2['actions'] = var11;
             var11 = undefined;
-            if(var12) { _fun0001_ip = 1923; continue _fun0001 }
- 1917:
+            if(var12) { _fun0001_ip = 1921; continue _fun0001 }
+ 1915:
             var11 = var21.searchBarRowContainer;
- 1923:
+ 1921:
             var2['style'] = var11;
             var2 = var3.bind(var8)(var2);
             var12 = var2.renderHeader;
@@ -1053,10 +1053,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(3);
             var5[0] = var19;
             var7 = null;
-            if(!var18) { _fun0001_ip = 2214; continue _fun0001 }
- 2211:
+            if(!var18) { _fun0001_ip = 2212; continue _fun0001 }
+ 2209:
             var7 = var8;
- 2214:
+ 2212:
             var5[1] = var7;
             var8 = _closure1_slot13;
             var7 = _closure1_slot0;

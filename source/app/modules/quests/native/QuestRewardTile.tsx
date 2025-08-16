@@ -322,7 +322,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var14.isAnimated;
             if(!var7) { _fun0001_ip = 508; continue _fun0001 }
  505:
-            if(var5) { _fun0001_ip = 563; continue _fun0001 }
+            if(var5) { _fun0001_ip = 562; continue _fun0001 }
  508:
             var8 = _closure1_slot11;
             var7 = _closure1_slot1;
@@ -337,8 +337,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var9.image;
             var5['style'] = var15;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 685; continue _fun0001;
- 563:
+            _fun0001_ip = 683; continue _fun0001;
+ 562:
             var8 = _closure1_slot11;
             var7 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -356,20 +356,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = true;
             var6['poster'] = var13;
             var10 = !var10;
-            if(var10) { _fun0001_ip = 654; continue _fun0001 }
- 651:
+            if(var10) { _fun0001_ip = 652; continue _fun0001 }
+ 649:
             var10 = var12;
- 654:
-            if(var10) { _fun0001_ip = 660; continue _fun0001 }
- 657:
+ 652:
+            if(var10) { _fun0001_ip = 658; continue _fun0001 }
+ 655:
             var10 = var11;
- 660:
+ 658:
             var6['paused'] = var10;
             var10 = 'mix';
             var6['mixWithOthers'] = var10;
             var6['muted'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 685:
+ 683:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

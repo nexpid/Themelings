@@ -144,23 +144,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = new Array(1);
                 var8[0] = var2;
                 var2 = function() {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-                        var1 = _closure1_slot6;
-                        var1 = var1.showDevWidget;
-                        if(var1) { _fun0004_ip = 26; continue _fun0004 }
- 16:
-                        var2 = _closure1_slot6;
-                        var1 = var2.isRandomlyChangingPremiumOptions;
- 26:
-                        return var1;
-                    }
+                    var1 = _closure1_slot6;
+                    var1 = var1.showDevWidget;
+                    return var1;
                 };
                 var2 = var9.bind(var10)(var8, var2);
                 var9 = _closure1_slot3;
                 var8 = var9.useEffect;
                 var5 = function() {
-                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot1;
@@ -170,17 +162,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var4.bind(var1)(var3);
                         var3 = var4.isIOS;
                         var3 = var3.bind(var4)();
-                        if(!var3) { _fun0005_ip = 62; continue _fun0005 }
+                        if(!var3) { _fun0004_ip = 62; continue _fun0004 }
  38:
                         var4 = _closure1_slot5;
                         var3 = var4.addChangeListener;
                         var2 = function() {
-                            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+                            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                                 var1 = _closure1_slot4;
                                 var3 = var1.NSUserDefaultsBridge;
                                 var1 = null;
-                                if(!(var1 != var3)) { _fun0006_ip = 39; continue _fun0006 }
+                                if(!(var1 != var3)) { _fun0005_ip = 39; continue _fun0005 }
  19:
                                 var2 = var3.setIsDiscordDeveloper;
                                 var1 = _closure2_slot0;

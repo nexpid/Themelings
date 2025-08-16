@@ -370,7 +370,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var10['onPress'] = var12;
             var12 = var8 != var25;
-            if(!var12) { _fun0001_ip = 774; continue _fun0001 }
+            if(!var12) { _fun0001_ip = 773; continue _fun0001 }
  737:
             var23 = _closure1_slot7;
             var19 = _closure1_slot4;
@@ -381,7 +381,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var18.imageBackground;
             var8['style'] = var24;
             var12 = var23.bind(var4)(var19, var8);
- 774:
+ 773:
             var8 = new Array(2);
             var8[0] = var12;
             var12 = _closure1_slot7;

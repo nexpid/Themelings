@@ -245,7 +245,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['textStyle'] = var9;
             var1['animate'] = var6;
             var1 = var5.bind(var7)(var3, var1);
-            _fun0004_ip = 542; continue _fun0004;
+            _fun0004_ip = 541; continue _fun0004;
  212:
             if(var2) { _fun0004_ip = 296; continue _fun0004 }
  215:
@@ -264,10 +264,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var9)(var10);
             var2['children'] = var6;
             var2 = var5.bind(var7)(var3, var2);
-            _fun0004_ip = 539; continue _fun0004;
+            _fun0004_ip = 538; continue _fun0004;
  296:
             var14 = null;
-            if(!(var14 != var13)) { _fun0004_ip = 510; continue _fun0004 }
+            if(!(var14 != var13)) { _fun0004_ip = 509; continue _fun0004 }
  305:
             var6 = _closure1_slot15;
             var5 = _closure1_slot4;
@@ -317,19 +317,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[1] = var10;
             var3['children'] = var9;
             var3 = var6.bind(var7)(var5, var3);
-            _fun0004_ip = 536; continue _fun0004;
- 510:
+            _fun0004_ip = 535; continue _fun0004;
+ 509:
             var6 = _closure1_slot14;
             var5 = _closure1_slot4;
             var4 = {};
             var8 = var8.gameIcon;
             var4['style'] = var8;
             var3 = var6.bind(var7)(var5, var4);
- 536:
+ 535:
             var2 = var3;
- 539:
+ 538:
             var1 = var2;
- 542:
+ 541:
             return var1;
         }
     };

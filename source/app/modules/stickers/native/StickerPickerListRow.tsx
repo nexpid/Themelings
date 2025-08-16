@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['stickerImage'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 19;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -79,9 +79,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var9 = var1.containerWidth;
-            var16 = var1.stickers;
-            var _closure2_slot0 = var16;
-            var15 = var1.rowSize;
+            var22 = var1.stickers;
+            var _closure2_slot0 = var22;
+            var21 = var1.rowSize;
             var2 = var1.onPressSticker;
             var _closure2_slot1 = var2;
             var2 = var1.focusedSticker;
@@ -189,7 +189,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             _closure2_slot8 = var2;
-            var14 = function rowTraits(arg1) {
+            var20 = function rowTraits(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     var9 = arg1;
@@ -238,9 +238,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            _closure2_slot9 = var14;
+            _closure2_slot9 = var20;
             var7 = new Array(0);
-            var13 = 0;
+            var19 = 0;
             if(var1) { _fun0001_ip = 306; continue _fun0001 }
  235:
             _closure2_slot10 = var7;
@@ -270,7 +270,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = _closure1_slot9;
                     var6 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var5 = 18;
+                    var5 = 19;
                     var5 = var14[var5];
                     var5 = var6.bind(var7)(var5);
                     var6 = var5.PressableOpacity;
@@ -300,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var5['onLongPress'] = var10;
                     var11 = _closure1_slot1;
-                    var10 = 16;
+                    var10 = 17;
                     var10 = var14[var10];
                     var11 = var11.bind(var7)(var10);
                     var10 = {};
@@ -332,15 +332,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            _closure2_slot11 = var13;
-            var3 = var13 < var15;
+            _closure2_slot11 = var19;
+            var3 = var19 < var21;
             var1 = 0;
             if(!var3) { _fun0001_ip = 274; continue _fun0001 }
  259:
             var3 = var2.bind(var4)();
             var1 = var1 + 1;
             _closure2_slot11 = var1;
-            if(var1 < var15) { _fun0001_ip = 259; continue _fun0001 }
+            if(var1 < var21) { _fun0001_ip = 259; continue _fun0001 }
  274:
             var3 = _closure1_slot9;
             var2 = _closure1_slot4;
@@ -351,64 +351,106 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var2, var1);
             return var1;
  306:
-            var17 = var13 < var15;
-            var12 = 3;
-            var11 = 1;
-            var10 = 2;
-            var3 = 16;
-            var2 = 15;
-            var1 = 0;
-            if(!var17) { _fun0001_ip = 539; continue _fun0001 }
- 333:
-            var25 = var16[var1];
-            if(!(var4 === var25)) { _fun0001_ip = 405; continue _fun0001 }
- 341:
-            var18 = var7.push;
-            var17 = {'stickerId': null, 'stickerName': '', 'stickerType': null, 'stickerUrl': '', 'stickerAnimated': false, 'stickerDisabled': true, 'stickerOpaque': false};
-            var20 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var19 = var19[var2];
-            var19 = var20.bind(var4)(var19);
-            var19 = var19.StickerFormat;
-            var19 = var19.PNG;
-            var17['stickerType'] = var19;
-            var17 = var18.bind(var7)(var17);
-            _fun0001_ip = 529; continue _fun0001;
- 405:
-            var18 = var14.bind(var4)(var25);
-            var17 = _closure1_slot3;
-            var17 = var17.bind(var4)(var18, var12);
-            var21 = var17[var13];
-            var19 = var17[var11];
-            var20 = var17[var10];
-            var18 = var7.push;
-            var17 = {};
-            var22 = var25.id;
-            var17['stickerId'] = var22;
-            var22 = var25.name;
-            var17['stickerName'] = var22;
-            var22 = var25.format_type;
-            var17['stickerType'] = var22;
-            var23 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            var22 = var22[var3];
-            var24 = var23.bind(var4)(var22);
-            var23 = var24.getStickerAssetUrl;
-            var22 = _closure1_slot7;
-            var22 = var23.bind(var24)(var25, var22, var21);
-            var17['stickerUrl'] = var22;
-            var17['stickerAnimated'] = var21;
-            var17['stickerDisabled'] = var20;
-            var17['stickerOpaque'] = var19;
-            var17 = var18.bind(var7)(var17);
- 529:
-            var1 = var1 + 1;
-            if(var1 < var15) { _fun0001_ip = 333; continue _fun0001 }
- 539:
+            var23 = var19 < var21;
+            var18 = 16;
+            var17 = 17;
+            var16 = null;
+            var15 = 3;
+            var14 = 1;
+            var13 = 2;
+            var12 = 15;
+            var11 = 0;
+            var10 = undefined;
+            var3 = undefined;
+            var2 = undefined;
+            var1 = undefined;
+            if(!var23) { _fun0001_ip = 712; continue _fun0001 }
+ 346:
+            var29 = var22[var11];
+            if(!(var4 === var29)) { _fun0001_ip = 418; continue _fun0001 }
+ 354:
+            var24 = var7.push;
+            var23 = {'stickerId': null, 'stickerName': '', 'stickerType': null, 'stickerUrl': '', 'stickerAnimated': false, 'stickerDisabled': true, 'stickerOpaque': false};
+            var26 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var25 = var25[var12];
+            var25 = var26.bind(var4)(var25);
+            var25 = var25.StickerFormat;
+            var25 = var25.PNG;
+            var23['stickerType'] = var25;
+            var23 = var24.bind(var7)(var23);
+            _fun0001_ip = 702; continue _fun0001;
+ 418:
+            var24 = var20.bind(var4)(var29);
+            var23 = _closure1_slot3;
+            var23 = var23.bind(var4)(var24, var15);
+            var26 = var23[var19];
+            var25 = var23[var14];
+            var24 = var23[var13];
+            var23 = var29.id;
+            if(!(var16 == var23)) { _fun0001_ip = 496; continue _fun0001 }
+ 454:
+            var27 = _closure1_slot1;
+            var23 = _closure1_slot2;
+            var23 = var23[var18];
+            var28 = var27.bind(var4)(var23);
+            var27 = var28.addBreadcrumb;
+            var23 = {'message': 'StickerInfo.stickerId is being passed an unexpected null value', 'category': 'sticker'};
+            var23 = var27.bind(var28)(var23);
+ 496:
+            var23 = var29.name;
+            if(!(var16 == var23)) { _fun0001_ip = 547; continue _fun0001 }
+ 505:
+            var27 = _closure1_slot1;
+            var23 = _closure1_slot2;
+            var23 = var23[var18];
+            var28 = var27.bind(var4)(var23);
+            var27 = var28.addBreadcrumb;
+            var23 = {'message': 'StickerInfo.stickerName is being passed an unexpected null value', 'category': 'sticker'};
+            var23 = var27.bind(var28)(var23);
+ 547:
+            var27 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var23 = var23[var17];
+            var28 = var27.bind(var4)(var23);
+            var27 = var28.getStickerAssetUrl;
+            var23 = _closure1_slot7;
+            var23 = var27.bind(var28)(var29, var23, var26);
+            if(!(var16 == var23)) { _fun0001_ip = 627; continue _fun0001 }
+ 585:
+            var28 = _closure1_slot1;
+            var27 = _closure1_slot2;
+            var27 = var27[var18];
+            var30 = var28.bind(var4)(var27);
+            var28 = var30.addBreadcrumb;
+            var27 = {'message': 'StickerInfo.stickerUrl is being passed an unexpected null value', 'category': 'sticker'};
+            var27 = var28.bind(var30)(var27);
+ 627:
+            var28 = var7.push;
+            var27 = {};
+            var30 = var29.id;
+            var27['stickerId'] = var30;
+            var30 = var29.name;
+            var27['stickerName'] = var30;
+            var29 = var29.format_type;
+            var27['stickerType'] = var29;
+            var27['stickerUrl'] = var23;
+            var27['stickerAnimated'] = var26;
+            var27['stickerDisabled'] = var24;
+            var27['stickerOpaque'] = var25;
+            var27 = var28.bind(var7)(var27);
+            var10 = var26;
+            var3 = var25;
+            var2 = var24;
+            var1 = var23;
+ 702:
+            var11 = var11 + 1;
+            if(var11 < var21) { _fun0001_ip = 346; continue _fun0001 }
+ 712:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var1 = 17;
+            var1 = 18;
             var1 = var10[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};

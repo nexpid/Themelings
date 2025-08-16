@@ -322,20 +322,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(var1) { _fun0001_ip = 631; continue _fun0001 }
  625:
             var14 = var20 != var16;
-            _fun0001_ip = 641; continue _fun0001;
+            _fun0001_ip = 640; continue _fun0001;
  631:
             var1 = var16.uri;
             var14 = var20 != var1;
- 641:
+ 640:
             var2 = _closure1_slot7;
             var1 = {};
             var1['guildIconRef'] = var34;
             var35 = var20 == var27;
             var34 = undefined;
-            if(var35) { _fun0001_ip = 666; continue _fun0001 }
- 661:
+            if(var35) { _fun0001_ip = 665; continue _fun0001 }
+ 660:
             var34 = var27.id;
- 666:
+ 665:
             var1['guildId'] = var34;
             var1['style'] = var33;
             var1['backgroundColor'] = var32;
@@ -345,16 +345,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPress'] = var31;
             var1['onLongPress'] = var28;
             var28 = var24;
-            if(!(var20 != var30)) { _fun0001_ip = 710; continue _fun0001 }
- 707:
+            if(!(var20 != var30)) { _fun0001_ip = 709; continue _fun0001 }
+ 706:
             var28 = var30;
- 710:
+ 709:
             var1['unread'] = var28;
             var28 = var19;
-            if(!(var20 != var29)) { _fun0001_ip = 725; continue _fun0001 }
- 722:
+            if(!(var20 != var29)) { _fun0001_ip = 724; continue _fun0001 }
+ 721:
             var28 = var29;
- 725:
+ 724:
             var1['badge'] = var28;
             var1['onLayout'] = var10;
             var1['onAccessibilityAction'] = var8;
@@ -364,8 +364,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot7;
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
-            if(var5) { _fun0001_ip = 833; continue _fun0001 }
- 769:
+            if(var5) { _fun0001_ip = 832; continue _fun0001 }
+ 768:
             var5 = 5;
             var5 = var10[var5];
             var6 = var7.bind(var4)(var5);
@@ -377,14 +377,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['TABS_altDefaultBackground'] = var25;
             var25 = var20 != var21;
             var21 = null;
-            if(!var25) { _fun0001_ip = 818; continue _fun0001 }
- 815:
+            if(!var25) { _fun0001_ip = 817; continue _fun0001 }
+ 814:
             var21 = var22;
- 818:
+ 817:
             var5['style'] = var21;
             var5 = var8.bind(var4)(var6, var5);
-            _fun0001_ip = 986; continue _fun0001;
- 833:
+            _fun0001_ip = 985; continue _fun0001;
+ 832:
             var6 = 12;
             var6 = var10[var6];
             var7 = var7.bind(var4)(var6);
@@ -393,47 +393,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var19 > var10;
             var19 = 13;
             var21 = var19;
-            if(var22) { _fun0001_ip = 885; continue _fun0001 }
- 874:
+            if(var22) { _fun0001_ip = 884; continue _fun0001 }
+ 873:
             var22 = 0;
-            if(!var24) { _fun0001_ip = 882; continue _fun0001 }
- 879:
+            if(!var24) { _fun0001_ip = 881; continue _fun0001 }
+ 878:
             var22 = var23;
- 882:
+ 881:
             var21 = var22;
- 885:
+ 884:
             var6['cutoutBottomRightSize'] = var21;
             var18 = var18.source;
             var20 = var20 != var18;
             var18 = 0;
-            if(!var20) { _fun0001_ip = 908; continue _fun0001 }
- 905:
+            if(!var20) { _fun0001_ip = 907; continue _fun0001 }
+ 904:
             var18 = var19;
- 908:
+ 907:
             var6['cutoutTopRightSize'] = var18;
             var6['imageSize'] = var17;
             var6['imageSource'] = var16;
             var6['imageBorderRadius'] = var15;
-            if(var14) { _fun0001_ip = 939; continue _fun0001 }
- 932:
+            if(var14) { _fun0001_ip = 938; continue _fun0001 }
+ 931:
             var12 = var12.color;
-            _fun0001_ip = 944; continue _fun0001;
- 939:
+            _fun0001_ip = 943; continue _fun0001;
+ 938:
             var12 = var13.color;
- 944:
+ 943:
             var6['imageBackgroundColor'] = var12;
             var10 = 0;
-            if(!var11) { _fun0001_ip = 957; continue _fun0001 }
- 954:
+            if(!var11) { _fun0001_ip = 956; continue _fun0001 }
+ 953:
             var10 = 3;
- 957:
+ 956:
             var6['clipOuterAmount'] = var10;
             var10 = 1;
             var6['borderStroke'] = var10;
             var9 = var9.color;
             var6['borderStrokeColor'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 986:
+ 985:
             var1['children'] = var5;
             var1 = var2.bind(var4)(var3, var1);
             return var1;

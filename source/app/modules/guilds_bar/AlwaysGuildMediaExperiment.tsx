@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var2);
     var4 = var7.createApexExperiment;
-    var2 = {'kind': 'user', 'name': '2025-08_always_guild_media'};
+    var2 = {'kind': 'user', 'name': '2025-08-always-guild-media'};
     var8 = {};
     var9 = false;
     var8['enabled'] = var9;

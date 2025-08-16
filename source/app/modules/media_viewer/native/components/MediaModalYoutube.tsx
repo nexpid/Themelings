@@ -462,8 +462,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.getYoutubeVideoIdFromURI;
             var6 = var4.uri;
             var6 = var8.bind(var9)(var6);
-            if(!(var1 == var6)) { _fun0002_ip = 385; continue _fun0002 }
- 351:
+            if(!(var1 == var6)) { _fun0002_ip = 383; continue _fun0002 }
+ 350:
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
             var8 = var8[var15];
@@ -471,20 +471,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.getYoutubeClipVideoIdFromURI;
             var4 = var4.uri;
             var6 = var8.bind(var9)(var4);
- 385:
-            if(!(var1 != var6)) { _fun0002_ip = 657; continue _fun0002 }
- 392:
+ 383:
+            if(!(var1 != var6)) { _fun0002_ip = 655; continue _fun0002 }
+ 390:
             var8 = _closure1_slot0;
             var4 = _closure1_slot2;
             var4 = var4[var14];
             var4 = var8.bind(var5)(var4);
             var4 = var4.PlayerState;
             var4 = var4.ERRORED;
-            if(!(var11 === var4)) { _fun0002_ip = 438; continue _fun0002 }
- 425:
+            if(!(var11 === var4)) { _fun0002_ip = 436; continue _fun0002 }
+ 423:
             var4 = 'embed_not_allowed';
-            if(!(var4 !== var7)) { _fun0002_ip = 612; continue _fun0002 }
- 438:
+            if(!(var4 !== var7)) { _fun0002_ip = 610; continue _fun0002 }
+ 436:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var4 = 9;
@@ -492,13 +492,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var5)(var4);
             var4 = var7.isAndroid;
             var4 = var4.bind(var7)();
-            if(var4) { _fun0002_ip = 474; continue _fun0002 }
- 470:
+            if(var4) { _fun0002_ip = 472; continue _fun0002 }
+ 468:
             var9 = {};
-            _fun0002_ip = 488; continue _fun0002;
- 474:
+            _fun0002_ip = 486; continue _fun0002;
+ 472:
             var9 = {'nestedScrollEnabled': true, 'overScrollMode': 'never', 'domStorageEnabled': true, 'mixedContentMode': 'compatibility'};
- 488:
+ 486:
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -529,7 +529,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.videoId;
             var3 = var8.bind(var5)(var7, var4, var3);
             return var3;
- 612:
+ 610:
             var4 = _closure1_slot6;
             var3 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -541,7 +541,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['videoId'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 657:
+ 655:
             return var1;
         }
     };

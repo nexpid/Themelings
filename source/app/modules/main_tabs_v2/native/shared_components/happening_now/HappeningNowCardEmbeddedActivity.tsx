@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'function HappeningNowCardEmbeddedActivityTsx2(isViewable,previous){const{runOnJS,setHasViewed}=this.__closure;if(!isViewable||isViewable===previous)return;runOnJS(setHasViewed)(true);}';
     var4['code'] = var7;
     var _closure1_slot13 = var4;
-    var4 = 28;
+    var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -428,7 +428,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11[var26];
             var18 = var27.bind(var5)(var10);
             var17 = var18.useAnimatedReaction;
-            var10 = function T() {
+            var10 = function b() {
                 var2 = _closure2_slot7;
                 var1 = var2.get;
                 var3 = var1.bind(var2)();
@@ -452,7 +452,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['__workletHash'] = var24;
             var24 = _closure1_slot12;
             var10['__initData'] = var24;
-            var4 = function H(arg1, arg2) {
+            var4 = function T(arg1, arg2) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                     var3 = arg1;
@@ -537,7 +537,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  943:
             var1 = var4.bind(var5)(var1);
             var1 = var23.length;
-            if(!(var3 !== var1)) { _fun0001_ip = 1333; continue _fun0001 }
+            if(!(var3 !== var1)) { _fun0001_ip = 1307; continue _fun0001 }
  960:
             var4 = _closure1_slot10;
             var3 = _closure1_slot1;
@@ -553,17 +553,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 'full';
  1001:
             var1['width'] = var8;
-            var9 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var8 = 25;
-            var8 = var10[var8];
-            var8 = var9.bind(var5)(var8);
-            var1['badgeIcon'] = var8;
             var1['IconComponent'] = var7;
             var1['panelVariant'] = var6;
             var8 = var15 != var14;
-            if(!var8) { _fun0001_ip = 1126; continue _fun0001 }
- 1047:
+            if(!var8) { _fun0001_ip = 1100; continue _fun0001 }
+ 1022:
             var10 = _closure1_slot9;
             var9 = _closure1_slot5;
             var7 = {};
@@ -571,7 +565,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['style'] = var11;
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var11 = 26;
+            var11 = 25;
             var11 = var13[var11];
             var12 = var12.bind(var5)(var11);
             var11 = {};
@@ -583,7 +577,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var10.bind(var5)(var12, var11);
             var7['children'] = var11;
             var8 = var10.bind(var5)(var9, var7);
- 1126:
+ 1100:
             var7 = new Array(2);
             var7[0] = var8;
             var10 = _closure1_slot10;
@@ -594,7 +588,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = _closure1_slot9;
             var13 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var11 = 27;
+            var11 = 26;
             var11 = var12[var11];
             var11 = var13.bind(var5)(var11);
             var18 = var11.HappeningNowAvatarStack;
@@ -622,10 +616,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = {};
             var17 = var15 == var16;
             var15 = undefined;
-            if(var17) { _fun0001_ip = 1293; continue _fun0001 }
- 1288:
+            if(var17) { _fun0001_ip = 1267; continue _fun0001 }
+ 1262:
             var15 = var16.name;
- 1293:
+ 1267:
             var12['children'] = var15;
             var12 = var14.bind(var5)(var13, var12);
             var11[2] = var12;
@@ -634,8 +628,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[1] = var8;
             var1['children'] = var7;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 1376; continue _fun0001;
- 1333:
+            _fun0001_ip = 1350; continue _fun0001;
+ 1307:
             var4 = _closure1_slot9;
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -646,7 +640,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var2['panelVariant'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1376:
+ 1350:
             return var1;
         }
     };

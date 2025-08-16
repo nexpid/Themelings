@@ -178,11 +178,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  250:
             var3 = var8 == var13;
             var1 = null;
-            if(var3) { _fun0002_ip = 499; continue _fun0002 }
+            if(var3) { _fun0002_ip = 498; continue _fun0002 }
  262:
             var11 = '';
             var1 = null;
-            if(!(var11 !== var13)) { _fun0002_ip = 499; continue _fun0002 }
+            if(!(var11 !== var13)) { _fun0002_ip = 498; continue _fun0002 }
  275:
             var4 = _closure1_slot6;
             var3 = _closure1_slot1;
@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['paused'] = var9;
             if(!(var8 != var13)) { _fun0002_ip = 314; continue _fun0002 }
  310:
-            if(!(var11 === var13)) { _fun0002_ip = 338; continue _fun0002 }
+            if(!(var11 === var13)) { _fun0002_ip = 337; continue _fun0002 }
  314:
             var9 = {};
             var14 = var7.url;
@@ -204,12 +204,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var14;
  331:
             var9['uri'] = var11;
-            _fun0002_ip = 348; continue _fun0002;
- 338:
+            _fun0002_ip = 347; continue _fun0002;
+ 337:
             var11 = {};
             var11['videoURI'] = var13;
             var9 = var11;
- 348:
+ 347:
             var2['src'] = var9;
             var9 = var10.height;
             var2['height'] = var9;
@@ -227,8 +227,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['maxHeight'] = var11;
             var7[1] = var9;
             var8 = var8 != var12;
-            if(!var8) { _fun0002_ip = 467; continue _fun0002 }
- 427:
+            if(!var8) { _fun0002_ip = 466; continue _fun0002 }
+ 426:
             var9 = {};
             var11 = {};
             var10 = var10.height;
@@ -240,7 +240,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[0] = var11;
             var9['transform'] = var10;
             var8 = var9;
- 467:
+ 466:
             var7[2] = var8;
             var2['style'] = var7;
             var6 = var6.mediaBackground;
@@ -248,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = false;
             var2['postponeRender'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 499:
+ 498:
             return var1;
         }
     };

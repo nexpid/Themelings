@@ -277,27 +277,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'object';
                 var2 = typeof var9;
                 var1 = undefined;
-                if(!(var3 === var2)) { _fun0006_ip = 80; continue _fun0006 }
+                if(!(var3 === var2)) { _fun0006_ip = 79; continue _fun0006 }
  50:
                 var2 = var9.uri;
                 var1 = undefined;
-                if(var2) { _fun0006_ip = 80; continue _fun0006 }
- 61:
+                if(var2) { _fun0006_ip = 79; continue _fun0006 }
+ 60:
                 var2 = global;
                 var3 = var2.JSON;
                 var2 = var3.stringify;
                 var1 = var2.bind(var3)(var9);
- 80:
+ 79:
                 var11 = undefined;
-                if(!(var11 !== var1)) { _fun0006_ip = 110; continue _fun0006 }
- 86:
+                if(!(var11 !== var1)) { _fun0006_ip = 109; continue _fun0006 }
+ 85:
                 var1 = {};
                 var3 = var9.w;
                 var2 = var9.h;
                 var2 = var3 / var2;
                 var1['aspectRatio'] = var2;
                 var11 = var1;
- 110:
+ 109:
                 var3 = _closure1_slot10;
                 var2 = _closure1_slot9;
                 var1 = {};

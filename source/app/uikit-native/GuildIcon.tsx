@@ -28,36 +28,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var1 != var6)) { _fun0001_ip = 27; continue _fun0001 }
  18:
             var2 = var6.icon;
-            if(!(var1 == var2)) { _fun0001_ip = 48; continue _fun0001 }
+            if(!(var1 == var2)) { _fun0001_ip = 47; continue _fun0001 }
  27:
             var2 = var1 != var3;
             var1 = null;
-            if(!var2) { _fun0001_ip = 46; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 45; continue _fun0001 }
  36:
             var2 = {};
             var2['uri'] = var3;
             var1 = var2;
- 46:
-            _fun0001_ip = 108; continue _fun0001;
- 48:
+ 45:
+            _fun0001_ip = 107; continue _fun0001;
+ 47:
             var2 = _closure1_slot5;
             var2 = var6 instanceof var2;
-            if(var2) { _fun0001_ip = 85; continue _fun0001 }
- 62:
+            if(var2) { _fun0001_ip = 84; continue _fun0001 }
+ 61:
             var8 = _closure1_slot6;
             var2 = _closure1_slot11;
             var4 = var2[var7];
             var2 = undefined;
             var2 = var8.bind(var2)(var6, var4, var5);
-            _fun0001_ip = 105; continue _fun0001;
- 85:
+            _fun0001_ip = 104; continue _fun0001;
+ 84:
             var4 = var6.getIconSource;
             var3 = _closure1_slot11;
             var3 = var3[var7];
             var2 = var4.bind(var6)(var3, var5);
- 105:
+ 104:
             var1 = var2;
- 108:
+ 107:
             return var1;
         }
     };
@@ -71,33 +71,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.isArray;
             var1 = var1.bind(var2)(var4);
             var2 = null;
-            if(var1) { _fun0002_ip = 60; continue _fun0002 }
+            if(var1) { _fun0002_ip = 59; continue _fun0002 }
  26:
             var3 = var2 != var4;
             var1 = undefined;
-            if(!var3) { _fun0002_ip = 58; continue _fun0002 }
+            if(!var3) { _fun0002_ip = 57; continue _fun0002 }
  35:
             var6 = 'number';
             var5 = typeof var4;
             var3 = var4;
-            if(!(var6 !== var5)) { _fun0002_ip = 55; continue _fun0002 }
+            if(!(var6 !== var5)) { _fun0002_ip = 54; continue _fun0002 }
  49:
             var3 = var4.uri;
- 55:
+ 54:
             var1 = var3;
- 58:
-            _fun0002_ip = 84; continue _fun0002;
- 60:
+ 57:
+            _fun0002_ip = 82; continue _fun0002;
+ 59:
             var3 = 0;
             var3 = var4[var3];
             var4 = var2 == var3;
             var2 = undefined;
-            if(var4) { _fun0002_ip = 81; continue _fun0002 }
- 75:
+            if(var4) { _fun0002_ip = 79; continue _fun0002 }
+ 74:
             var2 = var3.uri;
- 81:
+ 79:
             var1 = var2;
- 84:
+ 82:
             return var1;
         }
     };

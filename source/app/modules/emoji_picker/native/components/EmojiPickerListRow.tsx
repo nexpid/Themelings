@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var10.surrogates;
                 var5['children'] = var10;
                 var8 = var9.bind(var4)(var8, var5);
-                _fun0003_ip = 420; continue _fun0003;
+                _fun0003_ip = 419; continue _fun0003;
  272:
                 var10 = _closure1_slot7;
                 var9 = _closure1_slot1;
@@ -199,16 +199,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = true;
                 var5['usesSmallCache'] = var11;
                 var8 = var10.bind(var4)(var9, var5);
- 420:
+ 419:
                 var5 = new Array(2);
                 var5[0] = var8;
-                if(!var6) { _fun0003_ip = 447; continue _fun0003 }
- 431:
+                if(!var6) { _fun0003_ip = 446; continue _fun0003 }
+ 430:
                 var9 = _closure1_slot7;
                 var8 = _closure1_slot13;
                 var7 = {};
                 var6 = var9.bind(var4)(var8, var7);
- 447:
+ 446:
                 var5[1] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

@@ -195,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 2;
             var5 = var5.bind(var4)(var6, var3);
             var3 = 0;
-            var31 = var5[var3];
+            var30 = var5[var3];
             var3 = 1;
             var3 = var5[var3];
             var _closure2_slot4 = var3;
@@ -276,9 +276,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8[var3];
             var5 = var7.bind(var4)(var3);
             var3 = {'canDrag': true, 'onDragStart': null, 'startShown': false, 'cancelOnSwipeRightFromStart': true};
-            var29 = true;
             var3['onDragStart'] = var9;
-            var30 = false;
+            var29 = false;
             var3['openWidth'] = var6;
             var3 = var5.bind(var4)(var3);
             var5 = var3.gesture;
@@ -296,7 +295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8[var19];
             var22 = var6.bind(var4)(var3);
             var12 = var22.useDerivedValue;
-            var3 = function N() {
+            var3 = function B() {
                 var2 = _closure2_slot9;
                 var3 = _closure2_slot7;
                 var1 = var3.get;
@@ -324,8 +323,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2 > var1;
                 return var1;
             };
-            var32 = var22.bind(var24)(var12, var3);
-            var _closure2_slot11 = var32;
+            var31 = var22.bind(var24)(var12, var3);
+            var _closure2_slot11 = var31;
             var3 = var8[var19];
             var24 = var6.bind(var4)(var3);
             var22 = var24.useDerivedValue;
@@ -662,10 +661,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 25;
             var3 = var8[var3];
             var3 = var7.bind(var4)(var3);
-            var3 = var3.bind(var4)(var28, var32);
+            var3 = var3.bind(var4)(var28, var31);
             var21 = var13.useEffect;
             var7 = new Array(3);
-            var7[0] = var32;
+            var7[0] = var31;
             var7[1] = var14;
             var7[2] = var2;
             var3 = function() {
@@ -814,12 +813,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = undefined;
                 return var1;
             };
-            var37 = undefined;
-            var36 = var14;
-            var35 = var2;
-            var34 = var9;
-            var33 = var32;
-            var3 = var37[var3](var36, var35, var34, var33, var32);
+            var36 = undefined;
+            var35 = var14;
+            var34 = var2;
+            var33 = var9;
+            var32 = var31;
+            var3 = var36[var3](var35, var34, var33, var32, var31);
             var3 = function useGestureCompositionEffect(arg1, arg2, arg3) {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
@@ -1060,7 +1059,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[0] = var15;
             var3[1] = var14;
             var3[2] = var2;
-            var3[3] = var32;
+            var3[3] = var31;
             var2 = function() {
                 var1 = {};
                 var5 = _closure2_slot6;
@@ -1144,18 +1143,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = {};
             var12 = var20.content;
             var10['style'] = var12;
-            var13 = !var32;
+            var13 = !var31;
             var12 = !var13;
-            if(!var13) { _fun0001_ip = 1056; continue _fun0001 }
- 1054:
+            if(!var13) { _fun0001_ip = 1054; continue _fun0001 }
+ 1052:
             var12 = undefined;
- 1056:
+ 1054:
             var10['accessibilityElementsHidden'] = var12;
             var12 = undefined;
-            if(!var32) { _fun0001_ip = 1072; continue _fun0001 }
- 1066:
+            if(!var31) { _fun0001_ip = 1070; continue _fun0001 }
+ 1064:
             var12 = 'no-hide-descendants';
- 1072:
+ 1070:
             var10['importantForAccessibility'] = var12;
             var12 = new Array(2);
             var12[0] = var11;
@@ -1188,34 +1187,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = _closure1_slot12;
             var22 = var15.MIDNIGHT;
             var15 = undefined;
-            if(!(var17 === var22)) { _fun0001_ip = 1219; continue _fun0001 }
- 1213:
+            if(!(var17 === var22)) { _fun0001_ip = 1217; continue _fun0001 }
+ 1211:
             var15 = var20.midnightBorder;
- 1219:
+ 1217:
             var14[2] = var15;
             var15 = undefined;
-            if(var16) { _fun0001_ip = 1250; continue _fun0001 }
- 1228:
+            if(var16) { _fun0001_ip = 1248; continue _fun0001 }
+ 1226:
             var16 = _closure1_slot12;
             var16 = var16.MIDNIGHT;
             var15 = undefined;
-            if(!(var17 === var16)) { _fun0001_ip = 1250; continue _fun0001 }
- 1244:
+            if(!(var17 === var16)) { _fun0001_ip = 1248; continue _fun0001 }
+ 1242:
             var15 = var20.midnightRightOverflow;
- 1250:
+ 1248:
             var14[3] = var15;
             var11['style'] = var14;
-            var14 = !var32;
-            if(var14) { _fun0001_ip = 1266; continue _fun0001 }
- 1264:
+            var14 = !var31;
+            if(var14) { _fun0001_ip = 1264; continue _fun0001 }
+ 1262:
             var14 = undefined;
- 1266:
+ 1264:
             var11['accessibilityElementsHidden'] = var14;
             var14 = 'no-hide-descendants';
-            if(!var32) { _fun0001_ip = 1282; continue _fun0001 }
- 1280:
+            if(!var31) { _fun0001_ip = 1280; continue _fun0001 }
+ 1278:
             var14 = undefined;
- 1282:
+ 1280:
             var11['importantForAccessibility'] = var14;
             var17 = _closure1_slot13;
             var16 = _closure1_slot1;
@@ -1237,10 +1236,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var15[var24];
             var25 = var16.bind(var4)(var24);
             var24 = {};
-            var24['isShowing'] = var32;
-            var24['channelId'] = var31;
-            var24['isSearchLocked'] = var30;
-            var24['showBackButton'] = var29;
+            var24['isShowing'] = var31;
+            var24['channelId'] = var30;
+            var24['isSearchLocked'] = var29;
             var24['onBackPress'] = var28;
             var24['componentWidth'] = var27;
             var24['onChannelDeleted'] = var26;

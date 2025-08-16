@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var5.message;
             var11 = var6.roleSubscriptionData;
             var1 = null;
-            if(!(var1 != var11)) { _fun0001_ip = 734; continue _fun0001 }
+            if(!(var1 != var11)) { _fun0001_ip = 733; continue _fun0001 }
  23:
             var2 = var6.author;
             var8 = _closure1_slot3;
@@ -228,7 +228,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var2;
             var3 = copyDataProperties(var23, var22);
             return var2;
- 734:
+ 733:
             return var1;
         }
     };

@@ -686,29 +686,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  249:
                     var2 = var7.embedURI;
-                    if(!(var1 == var2)) { _fun0008_ip = 838; continue _fun0008 }
+                    if(!(var1 == var2)) { _fun0008_ip = 834; continue _fun0008 }
  262:
                     var2 = var7.videoURI;
-                    if(!(var1 == var2)) { _fun0008_ip = 554; continue _fun0008 }
+                    if(!(var1 == var2)) { _fun0008_ip = 551; continue _fun0008 }
  275:
                     var4 = var7.uri;
                     var3 = var4.startsWith;
                     var2 = 'assets-library://';
                     var2 = var3.bind(var4)(var2);
-                    if(var2) { _fun0008_ip = 457; continue _fun0008 }
- 304:
+                    if(var2) { _fun0008_ip = 454; continue _fun0008 }
+ 303:
                     var8 = var7.uri;
                     var4 = var8.startsWith;
                     var3 = _closure1_slot10;
                     var3 = var4.bind(var8)(var3);
-                    if(var3) { _fun0008_ip = 457; continue _fun0008 }
- 334:
+                    if(var3) { _fun0008_ip = 454; continue _fun0008 }
+ 332:
                     var8 = var7.uri;
                     var4 = var8.startsWith;
                     var3 = _closure1_slot11;
                     var3 = var4.bind(var8)(var3);
-                    if(var3) { _fun0008_ip = 457; continue _fun0008 }
- 358:
+                    if(var3) { _fun0008_ip = 454; continue _fun0008 }
+ 355:
                     var8 = _closure1_slot14;
                     var12 = _closure1_slot1;
                     var15 = _closure1_slot3;
@@ -733,8 +733,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = 'pointerEvents';
                     var2[var11] = var14;
                     var2 = var8.bind(var4)(var3, var2);
-                    _fun0008_ip = 549; continue _fun0008;
- 457:
+                    _fun0008_ip = 546; continue _fun0008;
+ 454:
                     var11 = _closure1_slot14;
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot3;
@@ -757,9 +757,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = 'pointerEvents';
                     var3[var12] = var14;
                     var2 = var11.bind(var8)(var4, var3);
- 549:
-                    _fun0008_ip = 836; continue _fun0008;
- 554:
+ 546:
+                    _fun0008_ip = 832; continue _fun0008;
+ 551:
                     var11 = _closure1_slot14;
                     var4 = _closure1_slot1;
                     var16 = _closure1_slot3;
@@ -788,12 +788,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = 'controls';
                     var3[var13] = var14;
                     var13 = _closure2_slot17;
-                    if(var13) { _fun0008_ip = 690; continue _fun0008 }
- 678:
+                    if(var13) { _fun0008_ip = 687; continue _fun0008 }
+ 675:
                     var14 = var7.isGIFV;
                     var12 = true;
                     var13 = var12 === var14;
- 690:
+ 687:
                     var12 = 'muted';
                     var3[var12] = var13;
                     var12 = 'index';
@@ -824,18 +824,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = 'source';
                     var3[var12] = var13;
                     var2 = var11.bind(var8)(var4, var3);
- 836:
+ 832:
                     return var2;
- 838:
+ 834:
                     var3 = var7.embedProviderName;
                     var2 = 'TikTok';
-                    if(!(var2 !== var3)) { _fun0008_ip = 990; continue _fun0008 }
- 857:
+                    if(!(var2 !== var3)) { _fun0008_ip = 985; continue _fun0008 }
+ 853:
                     var2 = 'YouTube';
-                    if(!(var2 !== var3)) { _fun0008_ip = 869; continue _fun0008 }
- 867:
+                    if(!(var2 !== var3)) { _fun0008_ip = 865; continue _fun0008 }
+ 863:
                     return var1;
- 869:
+ 865:
                     var4 = _closure1_slot14;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot3;
@@ -865,7 +865,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1[var8] = var11;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
- 990:
+ 985:
                     var4 = _closure1_slot14;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot3;

@@ -365,27 +365,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 'number';
             var1 = typeof var5;
             var2 = var5;
-            if(!(var9 !== var1)) { _fun0001_ip = 487; continue _fun0001 }
+            if(!(var9 !== var1)) { _fun0001_ip = 486; continue _fun0001 }
  467:
             var1 = null;
             var9 = var1 == var5;
             var1 = undefined;
-            if(var9) { _fun0001_ip = 484; continue _fun0001 }
+            if(var9) { _fun0001_ip = 483; continue _fun0001 }
  478:
             var1 = var5.uri;
- 484:
+ 483:
             var2 = var1;
- 487:
+ 486:
             var14 = null;
             var9 = var14 != var8;
             var1 = '';
-            if(!var9) { _fun0001_ip = 503; continue _fun0001 }
- 500:
+            if(!var9) { _fun0001_ip = 502; continue _fun0001 }
+ 499:
             var1 = var8;
- 503:
+ 502:
             var13 = var3.bind(var4)(var2, var1);
-            if(!(var14 == var5)) { _fun0001_ip = 559; continue _fun0001 }
- 513:
+            if(!(var14 == var5)) { _fun0001_ip = 558; continue _fun0001 }
+ 512:
             var3 = _closure1_slot6;
             var2 = _closure1_slot4;
             var1 = {};
@@ -396,8 +396,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var9;
             var1['style'] = var8;
             var9 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 605; continue _fun0001;
- 559:
+            _fun0001_ip = 604; continue _fun0001;
+ 558:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -409,21 +409,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var8;
             var1['source'] = var5;
             var9 = var3.bind(var4)(var2, var1);
- 605:
+ 604:
             var3 = _closure1_slot7;
             var2 = _closure1_slot4;
             var1 = {};
             var8 = var10.headerContainer;
             var5 = new Array(2);
             var5[0] = var8;
-            if(!(var14 != var15)) { _fun0001_ip = 641; continue _fun0001 }
- 633:
+            if(!(var14 != var15)) { _fun0001_ip = 640; continue _fun0001 }
+ 632:
             var8 = {};
             var8['backgroundColor'] = var13;
-            _fun0001_ip = 647; continue _fun0001;
- 641:
+            _fun0001_ip = 646; continue _fun0001;
+ 640:
             var8 = var10.loadingHeaderContainer;
- 647:
+ 646:
             var5[1] = var8;
             var1['style'] = var5;
             var13 = _closure1_slot6;
@@ -460,10 +460,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['style'] = var16;
             var16 = var14 == var15;
             var14 = undefined;
-            if(var16) { _fun0001_ip = 817; continue _fun0001 }
- 812:
+            if(var16) { _fun0001_ip = 816; continue _fun0001 }
+ 811:
             var14 = var15.displayName;
- 817:
+ 816:
             var7['children'] = var14;
             var7 = var13.bind(var4)(var8, var7);
             var5[2] = var7;

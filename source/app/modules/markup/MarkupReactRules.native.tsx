@@ -570,7 +570,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['children'] = var1;
             var1 = var2.key;
             var1 = var5.bind(var6)(var4, var3, var1);
-            _fun0011_ip = 256; continue _fun0011;
+            _fun0011_ip = 255; continue _fun0011;
  168:
             var4 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -590,14 +590,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['uri'] = var10;
             var3['source'] = var9;
             var7 = !var7;
-            if(!var7) { _fun0011_ip = 239; continue _fun0011 }
- 236:
+            if(!var7) { _fun0011_ip = 238; continue _fun0011 }
+ 235:
             var7 = var8;
- 239:
+ 238:
             var3['enableAnimation'] = var7;
             var2 = var2.key;
             var1 = var5.bind(var6)(var4, var3, var2);
- 256:
+ 255:
             return var1;
         }
     };

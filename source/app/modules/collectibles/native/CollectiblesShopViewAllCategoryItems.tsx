@@ -427,8 +427,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = new Array(4);
             var10[0] = var13;
             var23 = _closure1_slot8;
-            if(var12) { _fun0002_ip = 762; continue _fun0002 }
- 692:
+            if(var12) { _fun0002_ip = 761; continue _fun0002 }
+ 691:
             var13 = _closure1_slot1;
             var26 = _closure1_slot2;
             var12 = 10;
@@ -439,22 +439,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['logo'] = var26;
             var26 = var20 == var25;
             var20 = undefined;
-            if(var26) { _fun0002_ip = 749; continue _fun0002 }
- 734:
+            if(var26) { _fun0002_ip = 748; continue _fun0002 }
+ 733:
             var26 = var25.label;
             var25 = var26.toHexString;
             var20 = var25.bind(var26)();
- 749:
+ 748:
             var12['buttonColor'] = var20;
             var12 = var23.bind(var4)(var13, var12);
-            _fun0002_ip = 784; continue _fun0002;
- 762:
+            _fun0002_ip = 783; continue _fun0002;
+ 761:
             var20 = _closure1_slot11;
             var13 = {};
             var13['category'] = var17;
             var13['backgroundUrl'] = var24;
             var12 = var23.bind(var4)(var20, var13);
- 784:
+ 783:
             var10[1] = var12;
             var13 = _closure1_slot8;
             var12 = _closure1_slot1;

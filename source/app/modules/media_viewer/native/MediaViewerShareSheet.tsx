@@ -35,17 +35,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var3 = var1.videoURI;
             var2 = null;
-            if(!(var2 == var3)) { _fun0001_ip = 33; continue _fun0001 }
+            if(!(var2 == var3)) { _fun0001_ip = 32; continue _fun0001 }
  15:
             var3 = var1.sourceURI;
-            if(!(var2 == var3)) { _fun0001_ip = 31; continue _fun0001 }
+            if(!(var2 == var3)) { _fun0001_ip = 30; continue _fun0001 }
  25:
             var3 = var1.uri;
- 31:
-            _fun0001_ip = 39; continue _fun0001;
- 33:
+ 30:
+            _fun0001_ip = 38; continue _fun0001;
+ 32:
             var3 = var1.videoURI;
- 39:
+ 38:
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
             var1 = 1;

@@ -345,10 +345,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var10.bind(var4)(var8);
             var8 = {'disableGradient': true, 'alwaysRespectKeyboard': false, 'setNoExtractUI': false};
             var10 = true;
-            if(!(var17 == var16)) { _fun0002_ip = 288; continue _fun0002 }
- 284:
+            if(!(var17 == var16)) { _fun0002_ip = 284; continue _fun0002 }
+ 280:
             var16 = _closure1_slot5;
- 288:
+ 284:
             var8['guildId'] = var16;
             var8['channelId'] = var15;
             var8['chatInputRef'] = var14;

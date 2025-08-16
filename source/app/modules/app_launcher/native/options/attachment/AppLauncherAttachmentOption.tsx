@@ -287,7 +287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var14.bind(var4)(var13, var12);
             var7['children'] = var12;
             var7 = var10.bind(var4)(var9, var7);
-            _fun0001_ip = 497; continue _fun0001;
+            _fun0001_ip = 495; continue _fun0001;
  443:
             var10 = _closure1_slot7;
             var9 = _closure1_slot9;
@@ -300,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.isVideo;
             var8['isVideo'] = var11;
             var7 = var10.bind(var4)(var9, var8);
- 497:
+ 495:
             var1['leading'] = var7;
             var1['onPress'] = var6;
             var1['autoFocus'] = var5;

@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var10.isImageFile;
                         var1 = var6.filename;
                         var1 = var2.bind(var10)(var1);
-                        if(var1) { _fun0002_ip = 227; continue _fun0002 }
+                        if(var1) { _fun0002_ip = 226; continue _fun0002 }
  117:
                         var2 = _closure1_slot0;
                         var1 = _closure1_slot2;
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var6.filename;
                         var2 = var2.bind(var7)(var1);
                         var1 = var5;
-                        if(!var2) { _fun0002_ip = 225; continue _fun0002 }
+                        if(!var2) { _fun0002_ip = 224; continue _fun0002 }
  157:
                         var2 = {};
                         var12 = var2;
@@ -281,9 +281,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = _closure1_slot16;
                         var2[var8] = var7;
                         var1 = var2;
- 225:
-                        _fun0002_ip = 335; continue _fun0002;
- 227:
+ 224:
+                        _fun0002_ip = 334; continue _fun0002;
+ 226:
                         var2 = {};
                         var12 = var2;
                         var11 = var5;
@@ -294,14 +294,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = null;
                         var10 = var5 == var8;
                         var9 = undefined;
-                        if(var10) { _fun0002_ip = 271; continue _fun0002 }
- 266:
+                        if(var10) { _fun0002_ip = 270; continue _fun0002 }
+ 265:
                         var9 = var8.width;
- 271:
-                        if(!(var5 == var9)) { _fun0002_ip = 279; continue _fun0002 }
- 275:
+ 270:
+                        if(!(var5 == var9)) { _fun0002_ip = 278; continue _fun0002 }
+ 274:
                         var9 = _closure1_slot12;
- 279:
+ 278:
                         var8 = 'width';
                         var2[var8] = var9;
                         var7 = _closure2_slot3;
@@ -309,18 +309,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var7[var6];
                         var7 = var5 == var6;
                         var4 = undefined;
-                        if(var7) { _fun0002_ip = 315; continue _fun0002 }
- 310:
+                        if(var7) { _fun0002_ip = 314; continue _fun0002 }
+ 309:
                         var4 = var6.height;
- 315:
-                        if(!(var5 == var4)) { _fun0002_ip = 323; continue _fun0002 }
- 319:
+ 314:
+                        if(!(var5 == var4)) { _fun0002_ip = 322; continue _fun0002 }
+ 318:
                         var4 = _closure1_slot13;
- 323:
+ 322:
                         var3 = 'height';
                         var2[var3] = var4;
                         var1 = var2;
- 335:
+ 334:
                         return var1;
                     }
                 };
@@ -374,10 +374,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var7.filename;
                         var8 = var8.bind(var10)(var7);
                         var7 = undefined;
-                        if(!var8) { _fun0003_ip = 87; continue _fun0003 }
- 82:
+                        if(!var8) { _fun0003_ip = 86; continue _fun0003 }
+ 81:
                         var7 = var2.url;
- 87:
+ 86:
                         var1['videoURI'] = var7;
                         var8 = _closure1_slot0;
                         var7 = _closure1_slot2;
@@ -390,8 +390,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var7.filename;
                         var8 = var8.bind(var9)(var7);
                         var7 = undefined;
-                        if(!var8) { _fun0003_ip = 181; continue _fun0003 }
- 145:
+                        if(!var8) { _fun0003_ip = 178; continue _fun0003 }
+ 144:
                         var8 = {};
                         var9 = _closure1_slot14;
                         var8['width'] = var9;
@@ -401,7 +401,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var9 = var9.uri;
                         var8['uri'] = var9;
                         var7 = var8;
- 181:
+ 178:
                         var1['thumbnail'] = var7;
                         var1['mediaIndex'] = var5;
                         var5 = '1';
@@ -414,28 +414,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = null;
                         var9 = var5 == var8;
                         var7 = undefined;
-                        if(var9) { _fun0003_ip = 238; continue _fun0003 }
- 233:
+                        if(var9) { _fun0003_ip = 235; continue _fun0003 }
+ 230:
                         var7 = var8.width;
- 238:
-                        if(!(var5 == var7)) { _fun0003_ip = 246; continue _fun0003 }
- 242:
+ 235:
+                        if(!(var5 == var7)) { _fun0003_ip = 243; continue _fun0003 }
+ 239:
                         var7 = _closure1_slot12;
- 246:
+ 243:
                         var1['width'] = var7;
                         var7 = _closure2_slot3;
                         var6 = var2.id;
                         var6 = var7[var6];
                         var7 = var5 == var6;
                         var3 = undefined;
-                        if(var7) { _fun0003_ip = 277; continue _fun0003 }
- 272:
+                        if(var7) { _fun0003_ip = 274; continue _fun0003 }
+ 269:
                         var3 = var6.height;
- 277:
-                        if(!(var5 == var3)) { _fun0003_ip = 285; continue _fun0003 }
- 281:
+ 274:
+                        if(!(var5 == var3)) { _fun0003_ip = 282; continue _fun0003 }
+ 278:
                         var3 = _closure1_slot13;
- 285:
+ 282:
                         var1['height'] = var3;
                         var3 = 'attachment';
                         var1['accessoryType'] = var3;

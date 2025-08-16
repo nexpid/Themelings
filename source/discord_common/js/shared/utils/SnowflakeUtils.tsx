@@ -113,8 +113,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var2;
-        var2 = new Array(2);
+        var2 = new Array(3);
         var2[0] = var1;
+        var1 = {};
+        var6 = 'willOverflowNext';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var2 = var1.seq;
+            var1 = 4095;
+            var1 = var2 > var1;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[1] = var1;
         var1 = {};
         var6 = 'reset';
         var1['key'] = var6;
@@ -126,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var5;
-        var2[1] = var1;
+        var2[2] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

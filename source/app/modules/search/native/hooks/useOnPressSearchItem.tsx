@@ -175,12 +175,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.EMBED;
                 var2 = var5 === var3;
  47:
-                if(!var2) { _fun0003_ip = 793; continue _fun0003 }
+                if(!var2) { _fun0003_ip = 788; continue _fun0003 }
  53:
                 var3 = var4.type;
                 var2 = _closure1_slot7;
                 var2 = var2.EMBED;
-                if(!(var3 !== var2)) { _fun0003_ip = 264; continue _fun0003 }
+                if(!(var3 !== var2)) { _fun0003_ip = 263; continue _fun0003 }
  75:
                 var3 = var4.attachment;
                 var6 = var3.proxy_url;
@@ -220,10 +220,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var3.filename;
                 var7 = var8.bind(var9)(var7);
                 var5 = undefined;
-                if(!var7) { _fun0003_ip = 228; continue _fun0003 }
- 225:
+                if(!var7) { _fun0003_ip = 227; continue _fun0003 }
+ 224:
                 var5 = var6;
- 228:
+ 227:
                 var2['videoURI'] = var5;
                 var5 = false;
                 var2['isGIFV'] = var5;
@@ -231,8 +231,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['accessoryType'] = var5;
                 var3 = var3.id;
                 var2['attachmentId'] = var3;
-                _fun0003_ip = 473; continue _fun0003;
- 264:
+                _fun0003_ip = 471; continue _fun0003;
+ 263:
                 var3 = var4.embed;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -253,26 +253,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var3.video;
                 var6 = var3.type;
                 var10 = var9.proxyURL;
-                if(!(var8 == var10)) { _fun0003_ip = 363; continue _fun0003 }
- 358:
+                if(!(var8 == var10)) { _fun0003_ip = 362; continue _fun0003 }
+ 357:
                 var10 = var9.url;
- 363:
+ 362:
                 var3 = var8 == var11;
                 var7 = undefined;
-                if(var3) { _fun0003_ip = 378; continue _fun0003 }
- 372:
+                if(var3) { _fun0003_ip = 377; continue _fun0003 }
+ 371:
                 var7 = var11.proxyURL;
- 378:
-                if(!(var8 == var7)) { _fun0003_ip = 399; continue _fun0003 }
- 382:
+ 377:
+                if(!(var8 == var7)) { _fun0003_ip = 398; continue _fun0003 }
+ 381:
                 var12 = var8 == var11;
                 var3 = undefined;
-                if(var12) { _fun0003_ip = 396; continue _fun0003 }
- 391:
+                if(var12) { _fun0003_ip = 395; continue _fun0003 }
+ 390:
                 var3 = var11.url;
- 396:
+ 395:
                 var7 = var3;
- 399:
+ 398:
                 var3 = {};
                 var3['uri'] = var10;
                 var3['sourceURI'] = var7;
@@ -282,10 +282,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['height'] = var9;
                 var8 = var8 != var7;
                 var5 = undefined;
-                if(!var8) { _fun0003_ip = 441; continue _fun0003 }
- 438:
+                if(!var8) { _fun0003_ip = 439; continue _fun0003 }
+ 436:
                 var5 = var7;
- 441:
+ 439:
                 var3['videoURI'] = var5;
                 var5 = 'gifv';
                 var5 = var5 === var6;
@@ -293,7 +293,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = 'embed';
                 var3['accessoryType'] = var5;
                 var2 = var3;
- 473:
+ 471:
                 var16 = var2.uri;
                 var12 = var2.sourceURI;
                 var11 = var2.width;
@@ -315,10 +315,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = null;
                 var19 = var3 != var15;
                 var1 = undefined;
-                if(!var19) { _fun0003_ip = 578; continue _fun0003 }
- 572:
+                if(!var19) { _fun0003_ip = 575; continue _fun0003 }
+ 569:
                 var1 = 'png';
- 578:
+ 575:
                 var24 = var18;
                 var23 = var16;
                 var22 = var11;
@@ -349,10 +349,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7['mediaIndex'] = var16;
                 var16 = var3 != var15;
                 var14 = undefined;
-                if(!var16) { _fun0003_ip = 710; continue _fun0003 }
- 707:
+                if(!var16) { _fun0003_ip = 705; continue _fun0003 }
+ 702:
                 var14 = var15;
- 710:
+ 705:
                 var7['videoURI'] = var14;
                 var7['isGIFV'] = var13;
                 var7['sourceURI'] = var12;
@@ -364,20 +364,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var5.bind(var6)(var1);
                 var1 = _closure2_slot0;
                 var1 = var3 != var1;
-                if(!var1) { _fun0003_ip = 771; continue _fun0003 }
- 763:
+                if(!var1) { _fun0003_ip = 766; continue _fun0003 }
+ 758:
                 var3 = _closure2_slot0;
                 var1 = var4 === var3;
- 771:
-                if(!var1) { _fun0003_ip = 782; continue _fun0003 }
- 774:
+ 766:
+                if(!var1) { _fun0003_ip = 777; continue _fun0003 }
+ 769:
                 var1 = _closure2_slot2;
                 _closure2_slot3 = var1;
- 782:
+ 777:
                 var1 = _closure2_slot2;
                 var1 = var1 + 1;
                 _closure2_slot2 = var1;
- 793:
+ 788:
                 var1 = undefined;
                 return var1;
             }

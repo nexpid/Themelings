@@ -911,8 +911,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CUSTOM_STATUS_MODAL'] = var1;
     var1 = 'custom status tags coachmark';
     var2['CUSTOM_STATUS_TAGS_COACHMARK'] = var1;
-    var1 = 'clicker game';
-    var2['CLICKER_GAME'] = var1;
     var1 = 'activity PIP';
     var2['ACTIVITY_PIP'] = var1;
     var1 = 'frame PIP';
@@ -945,6 +943,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GO_LIVE_KEYBIND'] = var1;
     var1 = 'overlay voice widget';
     var2['OVERLAY_VOICE_WIDGET'] = var1;
+    var1 = 'request to stream invite embed';
+    var2['REQUEST_TO_STREAM_INVITE_EMBED'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

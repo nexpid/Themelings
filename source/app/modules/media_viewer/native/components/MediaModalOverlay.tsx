@@ -520,7 +520,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[2] = var19;
             var6['style'] = var12;
             var12 = !var8;
-            if(!var12) { _fun0005_ip = 753; continue _fun0005 }
+            if(!var12) { _fun0005_ip = 752; continue _fun0005 }
  721:
             var21 = _closure1_slot7;
             var20 = _closure1_slot12;
@@ -529,14 +529,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19['description'] = var8;
             var8 = var16.uri;
             var12 = var21.bind(var4)(var20, var19, var8);
- 753:
+ 752:
             var8 = new Array(3);
             var8[0] = var12;
-            if(!(var23 == var18)) { _fun0005_ip = 773; continue _fun0005 }
- 765:
+            if(!(var23 == var18)) { _fun0005_ip = 772; continue _fun0005 }
+ 764:
             var12 = null;
-            if(!var24) { _fun0005_ip = 909; continue _fun0005 }
- 773:
+            if(!var24) { _fun0005_ip = 908; continue _fun0005 }
+ 772:
             var21 = _closure1_slot8;
             var20 = _closure1_slot6;
             var19 = {};
@@ -544,8 +544,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var22.overlayIcons;
             var19['style'] = var22;
             var25 = var23 != var18;
-            if(!var25) { _fun0005_ip = 856; continue _fun0005 }
- 804:
+            if(!var25) { _fun0005_ip = 855; continue _fun0005 }
+ 803:
             var29 = _closure1_slot7;
             var26 = _closure1_slot13;
             var22 = {};
@@ -558,26 +558,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var30 = var30.toggleMuted;
             var22['onToggleMute'] = var30;
             var25 = var29.bind(var4)(var26, var22);
- 856:
+ 855:
             var22 = new Array(2);
             var22[0] = var25;
             var23 = null;
-            if(!var24) { _fun0005_ip = 895; continue _fun0005 }
- 869:
+            if(!var24) { _fun0005_ip = 894; continue _fun0005 }
+ 868:
             var26 = _closure1_slot7;
             var25 = _closure1_slot14;
             var24 = {};
             var24['spoilerActive'] = var28;
             var24['onToggleObscure'] = var27;
             var23 = var26.bind(var4)(var25, var24);
- 895:
+ 894:
             var22[1] = var23;
             var19['children'] = var22;
             var12 = var21.bind(var4)(var20, var19);
- 909:
+ 908:
             var8[1] = var12;
-            if(var11) { _fun0005_ip = 1000; continue _fun0005 }
- 916:
+            if(var11) { _fun0005_ip = 999; continue _fun0005 }
+ 915:
             var12 = _closure1_slot7;
             var11 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -597,7 +597,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['onFullViewToggled'] = var14;
             var10['overlayEnabled'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 1000:
+ 999:
             var8[2] = var9;
             var6['children'] = var8;
             var6 = var3.bind(var4)(var7, var6);

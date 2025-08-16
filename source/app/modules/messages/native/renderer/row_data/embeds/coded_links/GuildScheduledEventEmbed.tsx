@@ -353,31 +353,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var20] = var21;
             var20 = var9 != var24;
             var21 = undefined;
-            if(!var20) { _fun0001_ip = 1403; continue _fun0001 }
- 1375:
+            if(!var20) { _fun0001_ip = 1405; continue _fun0001 }
+ 1377:
             var22 = _closure1_slot0;
             var20 = _closure1_slot2;
             var20 = var20[var17];
             var22 = var22.bind(var11)(var20);
             var20 = var22.getAssetUriForEmbed;
             var21 = var20.bind(var22)(var24);
- 1403:
+ 1405:
             var20 = 'channelIcon';
             var1[var20] = var21;
             var21 = var9 != var15;
             var20 = undefined;
-            if(!var21) { _fun0001_ip = 1424; continue _fun0001 }
- 1421:
+            if(!var21) { _fun0001_ip = 1426; continue _fun0001 }
+ 1423:
             var20 = var15;
- 1424:
+ 1426:
             var15 = 'channelName';
             var1[var15] = var20;
             var15 = 'content';
             var1[var15] = var19;
             var15 = var9 != var23;
             var19 = undefined;
-            if(!var15) { _fun0001_ip = 1495; continue _fun0001 }
- 1451:
+            if(!var15) { _fun0001_ip = 1497; continue _fun0001 }
+ 1453:
             var20 = _closure1_slot0;
             var15 = _closure1_slot2;
             var15 = var15[var17];
@@ -387,7 +387,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var2.guild_id;
             var15 = var22.bind(var23)(var15);
             var19 = var20.bind(var21)(var15);
- 1495:
+ 1497:
             var15 = 'creatorAvatar';
             var1[var15] = var19;
             var15 = _closure1_slot12;
@@ -398,18 +398,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var15] = var18;
             var18 = var9 == var13;
             var15 = undefined;
-            if(var18) { _fun0001_ip = 1546; continue _fun0001 }
- 1541:
+            if(var18) { _fun0001_ip = 1548; continue _fun0001 }
+ 1543:
             var15 = var13.name;
- 1546:
+ 1548:
             var13 = 'guildName';
             var1[var13] = var15;
             var13 = _closure1_slot4;
             var15 = var13.bind(var11)(var10);
-            if(!(var9 == var15)) { _fun0001_ip = 1574; continue _fun0001 }
- 1568:
+            if(!(var9 == var15)) { _fun0001_ip = 1576; continue _fun0001 }
+ 1570:
             var15 = var3.headerColor;
- 1574:
+ 1576:
             var13 = 'headerColor';
             var1[var13] = var15;
             var15 = _closure1_slot0;
@@ -422,14 +422,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var13] = var15;
             var13 = 'headerText';
             var1[var13] = var14;
-            if(!var12) { _fun0001_ip = 1645; continue _fun0001 }
- 1632:
+            if(!var12) { _fun0001_ip = 1647; continue _fun0001 }
+ 1634:
             var8 = _closure1_slot4;
             var8 = var8.bind(var11)(var10);
-            if(!(var9 == var8)) { _fun0001_ip = 1651; continue _fun0001 }
- 1645:
+            if(!(var9 == var8)) { _fun0001_ip = 1653; continue _fun0001 }
+ 1647:
             var8 = var3.headerColor;
- 1651:
+ 1653:
             var3 = 'headerTextColor';
             var1[var3] = var8;
             var3 = 'isRsvped';

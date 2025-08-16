@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var8 = var4.bind(var6)(var2, var3);
-            if(!(var1 != var15)) { _fun0001_ip = 1308; continue _fun0001 }
+            if(!(var1 != var15)) { _fun0001_ip = 1307; continue _fun0001 }
  171:
             var3 = var15.id;
             var2 = _closure1_slot9;
@@ -497,7 +497,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['pillText'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 1308:
+ 1307:
             return var1;
         }
     };

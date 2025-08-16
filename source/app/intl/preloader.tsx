@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 669; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 638; continue _fun0001 }
  10:
                     var2 = global;
                     var4 = var2.Promise;
@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var5[var2];
                     var2 = var5.paths;
                     var9 = var10.bind(var8)(var9, var2);
-                    var2 = new Array(20);
+                    var2 = new Array(19);
                     var2[0] = var9;
                     var9 = var5[var6];
                     var11 = var7.bind(var8)(var9);
@@ -61,16 +61,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var11.bind(var8)(var10, var9);
                     var2[4] = var9;
                     var9 = var5[var6];
-                    var11 = var7.bind(var8)(var9);
-                    var9 = 7;
-                    var10 = var5[var9];
-                    var9 = var5.paths;
-                    var9 = var11.bind(var8)(var10, var9);
-                    var2[5] = var9;
-                    var9 = var5[var6];
                     var12 = var7.bind(var8)(var9);
-                    var9 = 8;
+                    var9 = 7;
                     var11 = var5[var9];
+                    var10 = var5.paths;
+                    var10 = var12.bind(var8)(var11, var10);
+                    var2[5] = var10;
+                    var10 = var5[var6];
+                    var12 = var7.bind(var8)(var10);
+                    var10 = 8;
+                    var11 = var5[var10];
                     var10 = var5.paths;
                     var10 = var12.bind(var8)(var11, var10);
                     var2[6] = var10;
@@ -96,14 +96,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var12.bind(var8)(var11, var10);
                     var2[9] = var10;
                     var10 = var5[var6];
-                    var12 = var7.bind(var8)(var10);
-                    var10 = 12;
-                    var11 = var5[var10];
-                    var10 = var5.paths;
-                    var10 = var12.bind(var8)(var11, var10);
-                    var2[10] = var10;
-                    var10 = var5[var6];
                     var11 = var7.bind(var8)(var10);
+                    var10 = var5[var9];
+                    var9 = var5.paths;
+                    var9 = var11.bind(var8)(var10, var9);
+                    var2[10] = var9;
+                    var9 = var5[var6];
+                    var11 = var7.bind(var8)(var9);
+                    var9 = 12;
                     var10 = var5[var9];
                     var9 = var5.paths;
                     var9 = var11.bind(var8)(var10, var9);
@@ -150,23 +150,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var5.paths;
                     var9 = var11.bind(var8)(var10, var9);
                     var2[17] = var9;
-                    var9 = var5[var6];
-                    var11 = var7.bind(var8)(var9);
-                    var9 = 19;
-                    var10 = var5[var9];
-                    var9 = var5.paths;
-                    var9 = var11.bind(var8)(var10, var9);
-                    var2[18] = var9;
                     var6 = var5[var6];
                     var7 = var7.bind(var8)(var6);
-                    var6 = 20;
+                    var6 = 19;
                     var6 = var5[var6];
                     var5 = var5.paths;
                     var5 = var7.bind(var8)(var6, var5);
-                    var2[19] = var5;
+                    var2[18] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var2;
- 669:
+ 638:
                     return var1;
                 }
             };
@@ -196,7 +189,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
-    var4 = 21;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

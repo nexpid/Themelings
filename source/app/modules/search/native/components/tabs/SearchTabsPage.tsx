@@ -16,28 +16,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var1.isFocused;
             var6 = var1.selectMediaTab;
             var8 = var1.onViewableItemsChanged;
-            var7 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var2 = 7;
-            var2 = var4[var2];
-            var4 = undefined;
-            var11 = var7.bind(var4)(var2);
-            var7 = var11.useChannelDetailsHeaderExperimentV2Enabled;
-            var2 = 'channel-details';
-            var11 = var7.bind(var11)(var2);
-            var7 = _closure1_slot4;
-            var2 = var7.useState;
-            var12 = var2.bind(var7)(var9);
+            var4 = _closure1_slot4;
+            var2 = var4.useState;
+            var11 = var2.bind(var4)(var9);
             var7 = _closure1_slot3;
+            var4 = undefined;
             var2 = 2;
-            var12 = var7.bind(var4)(var12, var2);
+            var11 = var7.bind(var4)(var11, var2);
             var2 = 0;
-            var2 = var12[var2];
+            var2 = var11[var2];
             var7 = 1;
-            var7 = var12[var7];
+            var7 = var11[var7];
             var _closure2_slot0 = var7;
-            var13 = _closure1_slot4;
-            var12 = var13.useEffect;
+            var12 = _closure1_slot4;
+            var11 = var12.useEffect;
             var7 = function() {
                 var1 = global;
                 var4 = var1.setTimeout;
@@ -54,100 +46,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = new Array(0);
-            var3 = var12.bind(var13)(var7, var3);
-            if(var2) { _fun0001_ip = 154; continue _fun0001 }
- 150:
+            var3 = var11.bind(var12)(var7, var3);
+            if(var2) { _fun0001_ip = 117; continue _fun0001 }
+ 113:
             var2 = null;
             return var2;
- 154:
+ 117:
             var2 = _closure1_slot7;
             var2 = var2.RECENT;
-            if(!(var2 !== var10)) { _fun0001_ip = 774; continue _fun0001 }
- 171:
+            if(!(var2 !== var10)) { _fun0001_ip = 732; continue _fun0001 }
+ 134:
             var2 = _closure1_slot7;
             var2 = var2.PEOPLE;
-            if(!(var2 !== var10)) { _fun0001_ip = 730; continue _fun0001 }
- 188:
+            if(!(var2 !== var10)) { _fun0001_ip = 688; continue _fun0001 }
+ 151:
             var2 = _closure1_slot7;
             var2 = var2.MEMBERS;
-            if(!(var2 !== var10)) { _fun0001_ip = 686; continue _fun0001 }
- 205:
+            if(!(var2 !== var10)) { _fun0001_ip = 644; continue _fun0001 }
+ 168:
             var2 = _closure1_slot7;
             var2 = var2.GUILD_CHANNELS;
-            if(!(var2 !== var10)) { _fun0001_ip = 642; continue _fun0001 }
- 222:
+            if(!(var2 !== var10)) { _fun0001_ip = 600; continue _fun0001 }
+ 185:
             var2 = _closure1_slot7;
             var2 = var2.MEDIA;
-            if(!(var2 !== var10)) { _fun0001_ip = 588; continue _fun0001 }
- 239:
+            if(!(var2 !== var10)) { _fun0001_ip = 546; continue _fun0001 }
+ 202:
             var2 = _closure1_slot7;
             var2 = var2.FILES;
-            if(!(var2 !== var10)) { _fun0001_ip = 534; continue _fun0001 }
- 256:
+            if(!(var2 !== var10)) { _fun0001_ip = 492; continue _fun0001 }
+ 219:
             var2 = _closure1_slot7;
             var2 = var2.LINKS;
-            if(!(var2 !== var10)) { _fun0001_ip = 480; continue _fun0001 }
- 273:
+            if(!(var2 !== var10)) { _fun0001_ip = 438; continue _fun0001 }
+ 236:
             var2 = _closure1_slot7;
             var2 = var2.THREADS;
-            if(!(var2 !== var10)) { _fun0001_ip = 430; continue _fun0001 }
- 290:
+            if(!(var2 !== var10)) { _fun0001_ip = 393; continue _fun0001 }
+ 253:
             var2 = _closure1_slot7;
             var2 = var2.MESSAGES;
-            if(!(var2 !== var10)) { _fun0001_ip = 376; continue _fun0001 }
- 304:
+            if(!(var2 !== var10)) { _fun0001_ip = 339; continue _fun0001 }
+ 267:
             var2 = _closure1_slot7;
             var2 = var2.PINS;
-            if(!(var2 !== var10)) { _fun0001_ip = 322; continue _fun0001 }
- 318:
+            if(!(var2 !== var10)) { _fun0001_ip = 285; continue _fun0001 }
+ 281:
             var2 = null;
             return var2;
- 322:
-            var7 = _closure1_slot8;
-            var3 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var2 = 17;
-            var2 = var12[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = {};
-            var2['tab'] = var10;
-            var2['searchContext'] = var5;
-            var2['isFocused'] = var9;
-            var2['onViewableItemsChanged'] = var8;
-            var2 = var7.bind(var4)(var3, var2);
-            return var2;
- 376:
-            var7 = _closure1_slot8;
-            var3 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var2 = 16;
-            var2 = var12[var2];
-            var3 = var3.bind(var4)(var2);
-            var2 = {};
-            var2['tab'] = var10;
-            var2['searchContext'] = var5;
-            var2['isFocused'] = var9;
-            var2['onViewableItemsChanged'] = var8;
-            var2 = var7.bind(var4)(var3, var2);
-            return var2;
- 430:
-            var7 = _closure1_slot8;
-            var3 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var2 = 15;
-            var2 = var12[var2];
-            var2 = var3.bind(var4)(var2);
-            var3 = var2.SearchTabsThreadScreen;
-            var2 = {};
-            var2['searchContext'] = var5;
-            var2['showFloatingActionButton'] = var11;
-            var2 = var7.bind(var4)(var3, var2);
-            return var2;
- 480:
+ 285:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var2 = 14;
+            var2 = 16;
             var2 = var11[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
@@ -157,7 +108,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 534:
+ 339:
+            var7 = _closure1_slot8;
+            var3 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var2 = 15;
+            var2 = var11[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['tab'] = var10;
+            var2['searchContext'] = var5;
+            var2['isFocused'] = var9;
+            var2['onViewableItemsChanged'] = var8;
+            var2 = var7.bind(var4)(var3, var2);
+            return var2;
+ 393:
+            var7 = _closure1_slot8;
+            var3 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var2 = 14;
+            var2 = var11[var2];
+            var2 = var3.bind(var4)(var2);
+            var3 = var2.SearchTabsThreadScreen;
+            var2 = {};
+            var2['searchContext'] = var5;
+            var2 = var7.bind(var4)(var3, var2);
+            return var2;
+ 438:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -171,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 588:
+ 492:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -185,19 +162,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 642:
+ 546:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
-            var9 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var2 = 11;
-            var2 = var9[var2];
+            var2 = var11[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
+            var2['tab'] = var10;
             var2['searchContext'] = var5;
+            var2['isFocused'] = var9;
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 686:
+ 600:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -209,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 730:
+ 644:
             var7 = _closure1_slot8;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -221,11 +200,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onViewableItemsChanged'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 774:
+ 688:
+            var7 = _closure1_slot8;
+            var3 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var2 = 8;
+            var2 = var9[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = {};
+            var2['searchContext'] = var5;
+            var2['onViewableItemsChanged'] = var8;
+            var2 = var7.bind(var4)(var3, var2);
+            return var2;
+ 732:
             var3 = _closure1_slot8;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var1 = 8;
+            var1 = 7;
             var1 = var7[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -286,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5.createContext;
     var2 = var2.bind(var5)(var1);
     var _closure1_slot10 = var2;
-    var5 = 21;
+    var5 = 20;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -302,7 +293,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var2.bind(var3)(var1);
         var2 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 18;
+        var1 = 17;
         var1 = var3[var1];
         var4 = undefined;
         var7 = var2.bind(var4)(var1);
@@ -312,7 +303,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var7.bind(var4)(var6, var1);
         var1 = _closure1_slot9;
         var6 = var1.bind(var4)();
-        var1 = 19;
+        var1 = 18;
         var1 = var3[var1];
         var2 = var2.bind(var4)(var1);
         var1 = var11.selectedTab;
@@ -328,7 +319,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var7 = var2.bind(var7)(var9, var1);
         var2 = _closure1_slot0;
-        var1 = 20;
+        var1 = 19;
         var1 = var3[var1];
         var3 = var2.bind(var4)(var1);
         var2 = var3.useSearchResultsViewedAnalytics;

@@ -570,19 +570,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['uris'] = var13;
             var11 = var8 != var11;
             var10 = undefined;
-            if(!var11) { _fun0008_ip = 206; continue _fun0008 }
+            if(!var11) { _fun0008_ip = 205; continue _fun0008 }
  196:
             var11 = {};
             var11['uri'] = var12;
             var10 = var11;
- 206:
+ 205:
             var7['offset'] = var10;
             var10 = var8 != var9;
             var8 = 0;
-            if(!var10) { _fun0008_ip = 223; continue _fun0008 }
- 220:
+            if(!var10) { _fun0008_ip = 222; continue _fun0008 }
+ 219:
             var8 = var9;
- 223:
+ 222:
             var7['position_ms'] = var8;
             var2['body'] = var7;
             var4 = var3.bind(var4)(var6, var5, var2);

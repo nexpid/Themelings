@@ -15,31 +15,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.get;
             var1 = var1.bind(var3)(var4);
             var8 = null;
-            if(!(var8 == var1)) { _fun0001_ip = 85; continue _fun0001 }
+            if(!(var8 == var1)) { _fun0001_ip = 84; continue _fun0001 }
  26:
             var6 = 'number';
             var5 = typeof var4;
             var3 = var4;
-            if(!(var6 !== var5)) { _fun0001_ip = 82; continue _fun0001 }
+            if(!(var6 !== var5)) { _fun0001_ip = 81; continue _fun0001 }
  40:
             var6 = var8 == var4;
             var5 = null;
-            if(var6) { _fun0001_ip = 79; continue _fun0001 }
+            if(var6) { _fun0001_ip = 78; continue _fun0001 }
  49:
             var6 = var4.trim;
             var7 = var6.bind(var4)();
             var6 = '';
             var5 = null;
-            if(!(var6 !== var7)) { _fun0001_ip = 79; continue _fun0001 }
+            if(!(var6 !== var7)) { _fun0001_ip = 78; continue _fun0001 }
  69:
             var6 = {};
             var6['uri'] = var4;
             var5 = var6;
- 79:
+ 78:
             var3 = var5;
- 82:
+ 81:
             var1 = var3;
- 85:
+ 84:
             var3 = _closure1_slot8;
             var2 = var3.set;
             var2 = var2.bind(var3)(var4, var1);

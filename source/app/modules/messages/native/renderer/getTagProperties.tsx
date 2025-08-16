@@ -61,9 +61,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var13)(var6);
             var6 = var7.isPublicSystemMessage;
             var6 = var6.bind(var7)(var10);
-            if(var6) { _fun0001_ip = 687; continue _fun0001 }
+            if(var6) { _fun0001_ip = 686; continue _fun0001 }
  117:
-            if(var5) { _fun0001_ip = 687; continue _fun0001 }
+            if(var5) { _fun0001_ip = 686; continue _fun0001 }
  123:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -71,7 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7[var5];
             var5 = var6.bind(var13)(var5);
             var5 = var5.bind(var13)(var10);
-            if(var5) { _fun0001_ip = 611; continue _fun0001 }
+            if(var5) { _fun0001_ip = 610; continue _fun0001 }
  154:
             var5 = var10.author;
             var5 = var5.bot;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = undefined;
             var4 = undefined;
             var8 = var3;
-            if(!var11) { _fun0001_ip = 760; continue _fun0001 }
+            if(!var11) { _fun0001_ip = 759; continue _fun0001 }
  265:
             var20 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -125,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = undefined;
             var4 = undefined;
             var8 = var3;
-            _fun0001_ip = 760; continue _fun0001;
+            _fun0001_ip = 759; continue _fun0001;
  356:
             var11 = 8;
             var11 = var15[var11];
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = undefined;
             var4 = undefined;
             var8 = var3;
-            if(!var11) { _fun0001_ip = 760; continue _fun0001 }
+            if(!var11) { _fun0001_ip = 759; continue _fun0001 }
  397:
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.remixTagBackgroundColor;
             var4 = undefined;
             var8 = var3;
-            _fun0001_ip = 760; continue _fun0001;
+            _fun0001_ip = 759; continue _fun0001;
  486:
             var11 = 4;
             var14 = var17[var11];
@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = undefined;
             var4 = undefined;
             var8 = var3;
-            if(!var3) { _fun0001_ip = 760; continue _fun0001 }
+            if(!var3) { _fun0001_ip = 759; continue _fun0001 }
  553:
             var16 = _closure1_slot3;
             var15 = var16.resolveAssetSource;
@@ -192,8 +192,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = undefined;
             var5 = undefined;
             var8 = var3;
-            _fun0001_ip = 760; continue _fun0001;
- 611:
+            _fun0001_ip = 759; continue _fun0001;
+ 610:
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
             var11 = 4;
@@ -212,8 +212,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = undefined;
             var4 = undefined;
             var8 = var3;
-            _fun0001_ip = 760; continue _fun0001;
- 687:
+            _fun0001_ip = 759; continue _fun0001;
+ 686:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
             var3 = 4;
@@ -232,29 +232,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = undefined;
             var6 = undefined;
             var4 = undefined;
- 760:
+ 759:
             var3 = null;
             var14 = var3 == var12;
             var11 = undefined;
-            if(var14) { _fun0001_ip = 777; continue _fun0001 }
- 771:
+            if(var14) { _fun0001_ip = 776; continue _fun0001 }
+ 770:
             var11 = var12.ownerId;
- 777:
+ 776:
             var10 = var10.author;
             var10 = var10.id;
             var10 = var11 === var10;
-            if(!var10) { _fun0001_ip = 799; continue _fun0001 }
- 795:
+            if(!var10) { _fun0001_ip = 798; continue _fun0001 }
+ 794:
             var10 = var3 != var12;
- 799:
-            if(!var10) { _fun0001_ip = 812; continue _fun0001 }
- 802:
+ 798:
+            if(!var10) { _fun0001_ip = 811; continue _fun0001 }
+ 801:
             var11 = var12.isForumPost;
             var10 = var11.bind(var12)();
- 812:
+ 811:
             var3 = null;
-            if(!var10) { _fun0001_ip = 872; continue _fun0001 }
- 817:
+            if(!var10) { _fun0001_ip = 871; continue _fun0001 }
+ 816:
             var12 = _closure1_slot0;
             var14 = _closure1_slot2;
             var1 = 4;
@@ -267,7 +267,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.fyE8sL;
             var3 = var10.bind(var11)(var1);
- 872:
+ 871:
             var1 = {};
             var1['tagText'] = var9;
             var1['tagVerified'] = var8;

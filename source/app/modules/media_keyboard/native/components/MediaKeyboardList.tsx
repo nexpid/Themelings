@@ -416,7 +416,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = arg2;
                             var3 = null;
                             var1 = var6;
-                            if(!(var3 != var2)) { _fun0006_ip = 132; continue _fun0006 }
+                            if(!(var3 != var2)) { _fun0006_ip = 131; continue _fun0006 }
  15:
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot2;
@@ -427,7 +427,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = var4.isMediaCameraNode;
                             var4 = var3.bind(var4)(var2);
                             var3 = global;
-                            if(var4) { _fun0006_ip = 102; continue _fun0006 }
+                            if(var4) { _fun0006_ip = 101; continue _fun0006 }
  56:
                             var2 = var2.node;
                             var2 = var2.image;
@@ -437,16 +437,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = '';
                             var2 = '-';
                             var2 = var5.bind(var4)(var6, var2, var7);
-                            _fun0006_ip = 129; continue _fun0006;
- 102:
+                            _fun0006_ip = 128; continue _fun0006;
+ 101:
                             var3 = var3.HermesInternal;
                             var5 = var3.concat;
                             var4 = '';
                             var3 = '-camera';
                             var2 = var5.bind(var4)(var6, var3);
- 129:
+ 128:
                             var1 = var2;
- 132:
+ 131:
                             return var1;
                         }
                     };

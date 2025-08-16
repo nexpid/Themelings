@@ -380,9 +380,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.hasReachedEnd;
                     var6 = var4.endCursor;
                     var4 = null;
-                    if(!(var4 != var1)) { _fun0003_ip = 446; continue _fun0003 }
+                    if(!(var4 != var1)) { _fun0003_ip = 444; continue _fun0003 }
  81:
-                    if(var3) { _fun0003_ip = 446; continue _fun0003 }
+                    if(var3) { _fun0003_ip = 444; continue _fun0003 }
  87:
                     var3 = var1.edges;
                     var1 = var1.edges;
@@ -409,21 +409,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.bind(var1)(var3);
                     var3 = var5.isIOS;
                     var3 = var3.bind(var5)();
-                    if(!var3) { _fun0003_ip = 200; continue _fun0003 }
+                    if(!var3) { _fun0003_ip = 199; continue _fun0003 }
  180:
-                    if(!(var4 != var9)) { _fun0003_ip = 444; continue _fun0003 }
+                    if(!(var4 != var9)) { _fun0003_ip = 442; continue _fun0003 }
  187:
                     var3 = var9.uri;
-                    if(!(var4 != var3)) { _fun0003_ip = 444; continue _fun0003 }
- 200:
+                    if(!(var4 != var3)) { _fun0003_ip = 442; continue _fun0003 }
+ 199:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
                     var3 = var3[var8];
                     var5 = var5.bind(var1)(var3);
                     var3 = var5.isIOS;
                     var3 = var3.bind(var5)();
-                    if(var3) { _fun0003_ip = 326; continue _fun0003 }
- 230:
+                    if(var3) { _fun0003_ip = 324; continue _fun0003 }
+ 229:
                     var3 = _closure1_slot3;
                     var8 = var3.CameraRollUtils;
                     var5 = var8.getPhotos;
@@ -472,15 +472,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var3 = var5.bind(var8)(var3);
-                    _fun0003_ip = 442; continue _fun0003;
- 326:
+                    _fun0003_ip = 440; continue _fun0003;
+ 324:
                     var8 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var5 = 5;
                     var3 = var3[var5];
                     var3 = var8.bind(var1)(var3);
-                    if(!(var4 != var3)) { _fun0003_ip = 442; continue _fun0003 }
- 350:
+                    if(!(var4 != var3)) { _fun0003_ip = 440; continue _fun0003 }
+ 348:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var3 = var3[var5];
@@ -527,11 +527,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var2 = var3.bind(var4)(var2);
+ 440:
+                    return var1;
  442:
                     return var1;
  444:
-                    return var1;
- 446:
                     var1 = undefined;
                     return var1;
                 }

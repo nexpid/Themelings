@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var9.bind(var4)(var6);
             var6 = var6.AutocompleterResultTypes;
             var6 = var6.USER;
-            if(!(var6 !== var8)) { _fun0004_ip = 1446; continue _fun0004 }
+            if(!(var6 !== var8)) { _fun0004_ip = 1450; continue _fun0004 }
  108:
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var9.bind(var4)(var6);
             var6 = var6.AutocompleterResultTypes;
             var6 = var6.APPLICATION;
-            if(!(var6 !== var8)) { _fun0004_ip = 1399; continue _fun0004 }
+            if(!(var6 !== var8)) { _fun0004_ip = 1403; continue _fun0004 }
  144:
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var9.bind(var4)(var6);
             var6 = var6.AutocompleterResultTypes;
             var6 = var6.GUILD;
-            if(!(var6 !== var8)) { _fun0004_ip = 1352; continue _fun0004 }
+            if(!(var6 !== var8)) { _fun0004_ip = 1356; continue _fun0004 }
  180:
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var9.bind(var4)(var6);
             var6 = var6.AutocompleterResultTypes;
             var6 = var6.TEXT_CHANNEL;
-            if(!(var6 !== var8)) { _fun0004_ip = 1285; continue _fun0004 }
+            if(!(var6 !== var8)) { _fun0004_ip = 1289; continue _fun0004 }
  216:
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -568,7 +568,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7[var3];
             var7 = var6.bind(var4)(var3);
             var6 = var7.queryChannels;
-            var3 = {'query': '', 'guildId': null, 'limit': 100, 'fuzzy': true};
+            var3 = {'query': '', 'guildId': null, 'limit': 100, 'fuzzy': true, 'filter': null, 'type': null, 'allowEmptyQueries': true};
             var9 = _closure1_slot22;
             var8 = var9.getGuildId;
             var8 = var8.bind(var9)();
@@ -582,21 +582,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['type'] = var8;
             var3 = var6.bind(var7)(var3);
             return var3;
- 1285:
+ 1289:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 23;
             var3 = var7[var3];
             var7 = var6.bind(var4)(var3);
             var6 = var7.queryChannels;
-            var3 = {'query': '', 'guildId': null, 'limit': 100, 'fuzzy': true};
+            var3 = {'query': '', 'guildId': null, 'limit': 100, 'fuzzy': true, 'allowEmptyQueries': true};
             var9 = _closure1_slot22;
             var8 = var9.getGuildId;
             var8 = var8.bind(var9)();
             var3['guildId'] = var8;
             var3 = var6.bind(var7)(var3);
             return var3;
- 1352:
+ 1356:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 23;
@@ -606,7 +606,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {'query': '', 'limit': 100, 'fuzzy': true};
             var3 = var6.bind(var7)(var3);
             return var3;
- 1399:
+ 1403:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var3 = 23;
@@ -616,7 +616,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {'query': '', 'limit': 100, 'fuzzy': true};
             var3 = var6.bind(var7)(var3);
             return var3;
- 1446:
+ 1450:
             var6 = _closure1_slot10;
             var3 = var6.getId;
             var3 = var3.bind(var6)();

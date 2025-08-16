@@ -780,12 +780,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 31;
             var2 = var2[var1];
             var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.getChannelDetailsButtons;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.getChannelDetailsButtons;
             var1 = _closure2_slot0;
-            var2 = var1.type;
-            var1 = true;
-            var3 = var3.bind(var4)(var2, var1);
+            var1 = var1.type;
+            var3 = var2.bind(var3)(var1);
             var2 = var3.map;
             var1 = function(arg1) {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {

@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useName;
             var1 = null;
             var16 = var2.bind(var3)(var15, var1, var14);
-            if(!(var1 != var25)) { _fun0001_ip = 851; continue _fun0001 }
+            if(!(var1 != var25)) { _fun0001_ip = 850; continue _fun0001 }
  195:
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
@@ -210,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[0] = var9;
             var11 = var1 != var24;
             var9 = null;
-            if(!var11) { _fun0001_ip = 675; continue _fun0001 }
+            if(!var11) { _fun0001_ip = 674; continue _fun0001 }
  525:
             var17 = _closure1_slot8;
             var16 = _closure1_slot7;
@@ -236,13 +236,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var24.customIconSrc;
             var26 = var1 != var25;
             var25 = undefined;
-            if(!var26) { _fun0001_ip = 636; continue _fun0001 }
+            if(!var26) { _fun0001_ip = 635; continue _fun0001 }
  620:
             var26 = {};
             var27 = var24.customIconSrc;
             var26['uri'] = var27;
             var25 = var26;
- 636:
+ 635:
             var20['source'] = var25;
             var24 = var24.unicodeEmoji;
             var20['unicodeEmoji'] = var24;
@@ -251,7 +251,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19[1] = var20;
             var11['children'] = var19;
             var9 = var17.bind(var5)(var16, var11);
- 675:
+ 674:
             var15[1] = var9;
             var11 = _closure1_slot6;
             var17 = _closure1_slot1;
@@ -288,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 851:
+ 850:
             return var1;
         }
     };
