@@ -97,8 +97,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var10.FormInput;
             var10 = {'value': null, 'title': null, 'onChange': null, 'multiline': true, 'numberOfLines': 4, 'autoCorrect': true};
             var10['value'] = var17;
-            if(!(var16 == var20)) { _fun0001_ip = 433; continue _fun0001 }
- 376:
+            if(!(var16 == var20)) { _fun0001_ip = 437; continue _fun0001 }
+ 380:
             var24 = _closure1_slot0;
             var25 = _closure1_slot2;
             var21 = 6;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var21.t;
             var21 = var21.h95hcn;
             var20 = var22.bind(var23)(var21);
- 433:
+ 437:
             var10['title'] = var20;
             var10['onChange'] = var19;
             var10 = var12.bind(var4)(var11, var10);
@@ -126,8 +126,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var15.bottomContainer;
             var6['style'] = var10;
             var10 = !var9;
-            if(!var10) { _fun0001_ip = 653; continue _fun0001 }
- 502:
+            if(!var10) { _fun0001_ip = 657; continue _fun0001 }
+ 506:
             var12 = _closure1_slot7;
             var20 = _closure1_slot0;
             var25 = _closure1_slot2;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var21.bind(var22)(var20, var19);
             var9['children'] = var19;
             var10 = var12.bind(var4)(var11, var9);
- 653:
+ 657:
             var9 = new Array(2);
             var9[0] = var10;
             var12 = _closure1_slot7;
@@ -169,10 +169,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var4)(var10);
             var10 = {};
             var16 = var16 == var17;
-            if(var16) { _fun0001_ip = 698; continue _fun0001 }
- 694:
-            var16 = var18 === var17;
+            if(var16) { _fun0001_ip = 702; continue _fun0001 }
  698:
+            var16 = var18 === var17;
+ 702:
             var10['disabled'] = var16;
             var15 = var15.submitButton;
             var10['style'] = var15;

@@ -1042,14 +1042,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot0 = var5;
                 var3 = var5.mode;
                 var2 = 'typescript-libdiscore-dual-read';
-                if(!(var2 !== var3)) { _fun0016_ip = 152; continue _fun0016 }
- 30:
+                if(!(var2 !== var3)) { _fun0016_ip = 146; continue _fun0016 }
+ 27:
                 var2 = 'libdiscore';
-                if(!(var2 !== var3)) { _fun0016_ip = 130; continue _fun0016 }
- 40:
+                if(!(var2 !== var3)) { _fun0016_ip = 124; continue _fun0016 }
+ 37:
                 var2 = 'typescript';
-                if(!(var2 !== var3)) { _fun0016_ip = 94; continue _fun0016 }
- 48:
+                if(!(var2 !== var3)) { _fun0016_ip = 88; continue _fun0016 }
+ 45:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var2 = 10;
@@ -1059,8 +1059,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6.assertNever;
                 var2 = var5.mode;
                 var2 = var3.bind(var6)(var2);
-                _fun0016_ip = 218; continue _fun0016;
- 94:
+                _fun0016_ip = 208; continue _fun0016;
+ 88:
                 var2 = global;
                 var6 = var2.Error;
                 var2 = var6.prototype;
@@ -1070,13 +1070,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = new var9[var6](var8, var7);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
- 130:
+ 124:
                 var3 = var5.setKkvRoot;
                 var2 = var3.bind;
                 var2 = var2.bind(var3)(var5);
                 var _closure3_slot1 = var2;
-                _fun0016_ip = 218; continue _fun0016;
- 152:
+                _fun0016_ip = 208; continue _fun0016;
+ 146:
                 var2 = {};
                 var3 = {};
                 var2['root'] = var3;
@@ -1124,7 +1124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var3.bind(var5)(var2);
- 218:
+ 208:
                 var3 = var4.registerKkvStore;
                 var2 = var5.getName;
                 var2 = var2.bind(var5)();

@@ -498,36 +498,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = _closure1_slot24;
  303:
                             _closure5_slot9 = var5;
-                            _fun0003_ip = 353; continue _fun0003;
+                            _fun0003_ip = 349; continue _fun0003;
  309:
                             var5 = _closure1_slot26;
                             var8 = var5.primary_color;
                             _closure5_slot9 = var8;
                             _closure5_slot10 = var5;
-                            _fun0003_ip = 353; continue _fun0003;
+                            _fun0003_ip = 349; continue _fun0003;
  329:
                             var5 = {'primary_color': null, 'secondary_color': null, 'tertiary_color': null};
                             var5['primary_color'] = var7;
                             _closure5_slot10 = var5;
- 353:
+ 349:
                             var5 = _closure1_slot19;
                             var5 = var5.hasRoleConfigurationChanges;
-                            if(!var5) { _fun0003_ip = 390; continue _fun0003 }
- 368:
+                            if(!var5) { _fun0003_ip = 386; continue _fun0003 }
+ 364:
                             var7 = _closure1_slot19;
                             var8 = var7.editedRoleIdsForConfigurations;
                             var7 = var8.has;
                             var5 = var7.bind(var8)(var6);
- 390:
-                            if(!var5) { _fun0003_ip = 421; continue _fun0003 }
- 393:
+ 386:
+                            if(!var5) { _fun0003_ip = 417; continue _fun0003 }
+ 389:
                             var5 = _closure1_slot19;
                             var4 = var5.getEditedRoleConnectionConfigurationsMap;
                             var5 = var4.bind(var5)();
                             var4 = var5.get;
                             var4 = var4.bind(var5)(var6);
                             var _closure5_slot1 = var4;
- 421:
+ 417:
                             var4 = function success() {
                                 var3 = _closure5_slot2;
                                 var1 = var3.pop;

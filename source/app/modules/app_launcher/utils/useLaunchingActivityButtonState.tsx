@@ -25,7 +25,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot4 = var4;
-    var4 = 6;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -47,19 +51,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot4 = var6;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 2;
+            var2 = 3;
             var2 = var4[var2];
             var7 = var3.bind(var6)(var2);
             var2 = var7.useGetOrFetchApplication;
             var11 = var2.bind(var7)(var10);
-            var2 = 3;
-            var2 = var4[var2];
-            var7 = var3.bind(var6)(var2);
-            var4 = var7.useStateFromStores;
-            var2 = _closure1_slot4;
-            var3 = new Array(1);
-            var3[0] = var2;
-            var2 = function() {
+            var2 = 4;
+            var7 = var4[var2];
+            var13 = var3.bind(var6)(var7);
+            var12 = var13.useStateFromStores;
+            var7 = _closure1_slot4;
+            var10 = new Array(1);
+            var10[0] = var7;
+            var7 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var4 = _closure1_slot4;
@@ -79,38 +83,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var7 = var4.bind(var7)(var3, var2);
+            var7 = var12.bind(var13)(var10, var7);
+            var2 = var4[var2];
+            var10 = var3.bind(var6)(var2);
+            var4 = var10.useStateFromStores;
+            var2 = _closure1_slot5;
+            var3 = new Array(1);
+            var3[0] = var2;
+            var2 = function() {
+                var3 = _closure1_slot5;
+                var2 = var3.isLaunchingFrame;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var4 = var4.bind(var10)(var3, var2);
             var2 = null;
-            var3 = var2 != var11;
-            if(!var3) { _fun0001_ip = 165; continue _fun0001 }
- 134:
+            if(!(var2 != var11)) { _fun0001_ip = 204; continue _fun0001 }
+ 170:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var4 = 4;
-            var4 = var12[var4];
-            var10 = var10.bind(var6)(var4);
-            var4 = var10.canLaunchFrame;
-            var3 = var4.bind(var10)(var11);
- 165:
-            var4 = !var3;
-            if(!var4) { _fun0001_ip = 200; continue _fun0001 }
- 171:
+            var3 = 5;
+            var3 = var12[var3];
+            var10 = var10.bind(var6)(var3);
+            var3 = var10.canLaunchFrame;
+            var3 = var3.bind(var10)(var11);
+            if(var3) { _fun0001_ip = 233; continue _fun0001 }
+ 204:
             var3 = var2 != var7;
-            if(!var3) { _fun0001_ip = 184; continue _fun0001 }
- 178:
+            if(!var3) { _fun0001_ip = 217; continue _fun0001 }
+ 211:
             var3 = var7.isLaunching;
- 184:
-            if(!var3) { _fun0001_ip = 197; continue _fun0001 }
- 187:
+ 217:
+            if(!var3) { _fun0001_ip = 230; continue _fun0001 }
+ 220:
             var7 = var7.componentId;
             var3 = var7 === var9;
- 197:
+ 230:
             var4 = var3;
- 200:
+ 233:
             _closure2_slot3 = var4;
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var3 = 5;
+            var3 = 6;
             var3 = var9[var3];
             var3 = var7.bind(var6)(var3);
             var3 = var3.bind(var6)(var4);
@@ -149,10 +164,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['submitting'] = var4;
             var4 = var2 != var3;
             var2 = null;
-            if(!var4) { _fun0001_ip = 290; continue _fun0001 }
- 287:
+            if(!var4) { _fun0001_ip = 323; continue _fun0001 }
+ 320:
             var2 = var3;
- 290:
+ 323:
             var1['wasSubmitting'] = var2;
             return var1;
         }
