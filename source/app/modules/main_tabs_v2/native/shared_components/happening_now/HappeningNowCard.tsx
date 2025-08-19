@@ -274,10 +274,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['border'] = var13;
             var13 = var6 == var10;
             var10 = undefined;
-            if(!var13) { _fun0002_ip = 203; continue _fun0002 }
- 199:
+            if(!var13) { _fun0002_ip = 202; continue _fun0002 }
+ 198:
             var10 = 'low';
- 203:
+ 202:
             var1['shadow'] = var10;
             var10 = var5.onLongPress;
             var1['onLongPress'] = var10;
@@ -291,8 +291,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var8;
             var8 = var6 != var12;
             var6 = null;
-            if(!var8) { _fun0002_ip = 331; continue _fun0002 }
- 263:
+            if(!var8) { _fun0002_ip = 330; continue _fun0002 }
+ 262:
             var9 = _closure1_slot18;
             var8 = _closure1_slot3;
             var7 = {};
@@ -309,7 +309,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var9.bind(var4)(var8, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 331:
+ 330:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

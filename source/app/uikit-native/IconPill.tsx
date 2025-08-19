@@ -105,8 +105,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[1] = var7;
             var1['style'] = var5;
             var5 = null;
-            if(!(var5 == var13)) { _fun0001_ip = 159; continue _fun0001 }
- 86:
+            if(!(var5 == var13)) { _fun0001_ip = 158; continue _fun0001 }
+ 85:
             var8 = _closure1_slot4;
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -123,8 +123,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var11.pillIcon;
             var5['style'] = var14;
             var7 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 189; continue _fun0001;
- 159:
+            _fun0001_ip = 188; continue _fun0001;
+ 158:
             var8 = _closure1_slot4;
             var5 = {};
             var14 = 'xxs';
@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var11.pillIcon;
             var5['style'] = var14;
             var7 = var8.bind(var4)(var13, var5);
- 189:
+ 188:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot4;

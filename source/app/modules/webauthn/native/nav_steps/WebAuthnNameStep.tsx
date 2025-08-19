@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 354; continue _fun0002 }
+                            if(var2) { _fun0002_ip = 353; continue _fun0002 }
  10: // try_start_0 // try_start_1
                             var4 = _closure2_slot3;
                             var5 = undefined;
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var2;
  78:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                            if(var6) { _fun0002_ip = 278; continue _fun0002 }
+                            if(var6) { _fun0002_ip = 277; continue _fun0002 }
  87: // try_end0 // try_end1
                             var7 = _closure2_slot3;
                             var6 = false;
@@ -187,32 +187,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = {};
                             var4 = var7.bind(var8)(var6, var4);
                             return var5;
- 278:
+ 277:
                             var4 = _closure2_slot3;
                             var3 = false;
                             var3 = var4.bind(var5)(var3);
                             return var2;
- 292: // try_start_2 // catch_target0
+ 291: // try_start_2 // catch_target0
                             CatchBlockStart(arg_register=1);
                             var4 = _closure2_slot4;
                             var2 = var2.body;
                             var2 = var2.message;
                             var5 = undefined;
                             var2 = var4.bind(var5)(var2);
- 318: // try_end2
+ 317: // try_end2
                             var4 = _closure2_slot3;
                             var3 = false;
                             var3 = var4.bind(var5)(var3);
                             var2 = undefined;
                             return var2;
- 334: // catch_target1 // catch_target2
+ 333: // catch_target1 // catch_target2
                             CatchBlockStart(arg_register=1);
                             var5 = _closure2_slot3;
                             var4 = undefined;
                             var3 = false;
                             var3 = var5.bind(var4)(var3);
                             throw var2;
- 354:
+ 353:
                             return var1;
                         }
                     };

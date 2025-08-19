@@ -321,8 +321,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var7 = var4 != var2;
                 var6 = null;
-                if(!var7) { _fun0004_ip = 206; continue _fun0004 }
- 143:
+                if(!var7) { _fun0004_ip = 205; continue _fun0004 }
+ 142:
                 var9 = _closure1_slot14;
                 var8 = _closure1_slot0;
                 var7 = _closure1_slot2;
@@ -338,12 +338,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var10;
                 var10 = copyDataProperties(var13, var12);
                 var6 = var9.bind(var5)(var8, var7);
- 206:
+ 205:
                 var1['badgeTopRight'] = var6;
                 var4 = var4 != var2;
                 var2 = undefined;
-                if(!var4) { _fun0004_ip = 257; continue _fun0004 }
- 220:
+                if(!var4) { _fun0004_ip = 256; continue _fun0004 }
+ 219:
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
                 var3 = 15;
@@ -353,7 +353,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = 'top-right';
                 var3['position'] = var6;
                 var2 = var4.bind(var5)(var3);
- 257:
+ 256:
                 var1['cutoutTopRight'] = var2;
                 return var1;
             }

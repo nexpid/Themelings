@@ -4119,12 +4119,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.getChannel;
             var8 = var1.bind(var3)(var10);
             var3 = null;
-            if(!(var3 != var8)) { _fun0054_ip = 762; continue _fun0054 }
+            if(!(var3 != var8)) { _fun0054_ip = 763; continue _fun0054 }
  55:
             var4 = var8.type;
             var1 = _closure1_slot26;
             var1 = var1.GUILD_TEXT;
-            if(!(var4 === var1)) { _fun0054_ip = 758; continue _fun0054 }
+            if(!(var4 === var1)) { _fun0054_ip = 759; continue _fun0054 }
  77:
             var4 = _closure1_slot42;
             var1 = var8.guild_id;
@@ -4149,17 +4149,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.bind(var1)(var3);
             var3 = var3.ICYMICustomScore;
             var3 = var3.MUTED;
-            if(!(var4 !== var3)) { _fun0054_ip = 754; continue _fun0054 }
+            if(!(var4 !== var3)) { _fun0054_ip = 755; continue _fun0054 }
  168:
             var6 = _closure1_slot23;
             var4 = var6.isChannelMuted;
             var3 = var8.guild_id;
             var3 = var4.bind(var6)(var3, var10);
-            if(var3) { _fun0054_ip = 750; continue _fun0054 }
+            if(var3) { _fun0054_ip = 751; continue _fun0054 }
  195:
             var3 = var5.length;
             var7 = 0;
-            if(!(var7 !== var3)) { _fun0054_ip = 746; continue _fun0054 }
+            if(!(var7 !== var3)) { _fun0054_ip = 747; continue _fun0054 }
  209:
             var4 = var5.filter;
             var3 = function(arg1) {
@@ -4206,7 +4206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.reverse;
             var5 = var3.bind(var5)();
             var3 = var5.length;
-            if(!(!(var3 < var4))) { _fun0054_ip = 742; continue _fun0054 }
+            if(!(!(var3 < var4))) { _fun0054_ip = 743; continue _fun0054 }
  262:
             var4 = var5.filter;
             var3 = function(arg1) {
@@ -4229,7 +4229,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.length;
             var4 = var4 / var3;
             var3 = 0.5;
-            if(!(!(var4 > var3))) { _fun0054_ip = 738; continue _fun0054 }
+            if(!(!(var4 > var3))) { _fun0054_ip = 739; continue _fun0054 }
  310:
             var4 = global;
             var11 = var4.Math;
@@ -4358,25 +4358,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot39;
             var2[var4] = var3;
             return var1;
- 738:
+ 739:
             var1 = false;
             return var1;
- 742:
+ 743:
             var1 = false;
             return var1;
- 746:
+ 747:
             var1 = false;
             return var1;
- 750:
+ 751:
             var1 = false;
             return var1;
- 754:
+ 755:
             var1 = false;
             return var1;
- 758:
+ 759:
             var1 = false;
             return var1;
- 762:
+ 763:
             var1 = false;
             return var1;
         }

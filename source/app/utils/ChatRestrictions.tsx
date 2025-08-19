@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.getGuildId;
             var2 = var1.bind(var3)();
             var1 = null;
-            if(!(var1 != var2)) { _fun0001_ip = 460; continue _fun0001 }
+            if(!(var1 != var2)) { _fun0001_ip = 461; continue _fun0001 }
  32:
             var7 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.extractEveryoneRole;
             var5 = arg1;
             var13 = var7.bind(var8)(var5, var3);
-            if(!(var1 != var13)) { _fun0001_ip = 456; continue _fun0001 }
+            if(!(var1 != var13)) { _fun0001_ip = 457; continue _fun0001 }
  79:
             var5 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -135,10 +135,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var1['footer'] = var2;
             return var1;
- 456:
+ 457:
             var1 = false;
             return var1;
- 460:
+ 461:
             var1 = false;
             return var1;
         }

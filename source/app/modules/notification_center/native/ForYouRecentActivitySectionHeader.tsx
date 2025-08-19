@@ -1,6 +1,7 @@
 // app/modules/notification_center/native/ForYouRecentActivitySectionHeader.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
+    var11 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
@@ -33,17 +34,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
-    var9 = {'borderTopWidth': 1, 'borderTopColor': null, 'marginTop': 12, 'marginBottom': 8, 'paddingHorizontal': 24};
+    var9 = {};
     var10 = 4;
-    var11 = var6[var10];
-    var10 = metroImportDefault;
-    var10 = var10.bind(var1)(var11);
-    var10 = var10.colors;
-    var10 = var10.DIVIDER_SUBTLE;
-    var9['borderTopColor'] = var10;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_8;
+    var9['marginTop'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_8;
+    var9['marginBottom'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
+    var12 = var12.PX_24;
+    var9['paddingHorizontal'] = var12;
     var4['container'] = var9;
     var9 = {};
-    var10 = 16;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.spacing;
+    var10 = var10.PX_8;
     var9['marginTop'] = var10;
     var4['textHeader'] = var9;
     var4 = var7.bind(var8)(var4);

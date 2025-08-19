@@ -681,10 +681,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = new Array(2);
             var22[0] = var26;
             var26 = null;
-            if(var27) { _fun0001_ip = 1581; continue _fun0001 }
+            if(var27) { _fun0001_ip = 1580; continue _fun0001 }
  1394:
             var26 = null;
-            if(!var11) { _fun0001_ip = 1581; continue _fun0001 }
+            if(!var11) { _fun0001_ip = 1580; continue _fun0001 }
  1402:
             var29 = _closure1_slot13;
             var28 = _closure1_slot0;
@@ -847,7 +847,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var27['onPress'] = var30;
             var26 = var29.bind(var4)(var28, var27);
- 1581:
+ 1580:
             var22[1] = var26;
             var21['children'] = var22;
             var21 = var3.bind(var4)(var6, var21);
@@ -862,11 +862,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var13.bind(var4)(var6);
             var6 = var6.EmojiPopoutType;
             var6 = var6.GET_PREMIUM;
-            if(!(var10 !== var6)) { _fun0001_ip = 1788; continue _fun0001 }
- 1653:
+            if(!(var10 !== var6)) { _fun0001_ip = 1787; continue _fun0001 }
+ 1652:
             var6 = null;
-            if(!var18) { _fun0001_ip = 1786; continue _fun0001 }
- 1661:
+            if(!var18) { _fun0001_ip = 1785; continue _fun0001 }
+ 1660:
             var17 = _closure1_slot13;
             var22 = _closure1_slot1;
             var21 = _closure1_slot3;
@@ -916,9 +916,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var10['onPress'] = var20;
             var6 = var17.bind(var4)(var13, var10);
- 1786:
-            _fun0001_ip = 1799; continue _fun0001;
- 1788:
+ 1785:
+            _fun0001_ip = 1798; continue _fun0001;
+ 1787:
             var9 = function renderPremiumUpsellButton() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
@@ -1021,17 +1021,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var6 = var9.bind(var4)();
- 1799:
+ 1798:
             var5[1] = var6;
-            if(var11) { _fun0001_ip = 1814; continue _fun0001 }
- 1806:
+            if(var11) { _fun0001_ip = 1813; continue _fun0001 }
+ 1805:
             var6 = null;
-            if(!var7) { _fun0001_ip = 2019; continue _fun0001 }
- 1814:
+            if(!var7) { _fun0001_ip = 2018; continue _fun0001 }
+ 1813:
             var7 = var8 == var16;
             var6 = null;
-            if(var7) { _fun0001_ip = 2019; continue _fun0001 }
- 1826:
+            if(var7) { _fun0001_ip = 2018; continue _fun0001 }
+ 1825:
             var9 = _closure1_slot14;
             var8 = _closure1_slot15;
             var7 = {};
@@ -1060,8 +1060,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var17.bind(var4)(var14, var13);
             var10[1] = var13;
             var11 = !var11;
-            if(!var11) { _fun0001_ip = 2005; continue _fun0001 }
- 1944:
+            if(!var11) { _fun0001_ip = 2004; continue _fun0001 }
+ 1943:
             var14 = _closure1_slot13;
             var13 = _closure1_slot0;
             var17 = _closure1_slot3;
@@ -1076,11 +1076,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[0] = var16;
             var12['doNotDisplayEmojiIds'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 2005:
+ 2004:
             var10[2] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 2019:
+ 2018:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

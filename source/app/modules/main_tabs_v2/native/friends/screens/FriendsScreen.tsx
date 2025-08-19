@@ -261,7 +261,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot5;
                 var2 = var3 > var4;
  44:
-                if(!var2) { _fun0001_ip = 257; continue _fun0001 }
+                if(!var2) { _fun0001_ip = 256; continue _fun0001 }
  50:
                 var3 = var1.push;
                 var2 = {};
@@ -317,7 +317,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2['onPress'] = var4;
                 var2 = var3.bind(var1)(var2);
- 257:
+ 256:
                 return var1;
             }
         };

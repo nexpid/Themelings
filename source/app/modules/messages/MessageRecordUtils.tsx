@@ -713,28 +713,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  95:
                     var2 = var1.count;
                     var4 = 0;
-                    if(!(var2 < var4)) { _fun0007_ip = 112; continue _fun0007 }
- 106:
+                    if(!(var2 < var4)) { _fun0007_ip = 113; continue _fun0007 }
+ 107:
                     var1['count'] = var4;
- 112:
+ 113:
                     var2 = var1.burst_count;
-                    if(!(var2 < var4)) { _fun0007_ip = 128; continue _fun0007 }
- 122:
+                    if(!(var2 < var4)) { _fun0007_ip = 129; continue _fun0007 }
+ 123:
                     var1['burst_count'] = var4;
- 128:
+ 129:
                     var2 = global;
                     var5 = var2.Array;
                     var3 = var5.isArray;
                     var2 = var1.burst_colors;
                     var2 = var3.bind(var5)(var2);
-                    if(!var2) { _fun0007_ip = 170; continue _fun0007 }
- 155:
+                    if(!var2) { _fun0007_ip = 171; continue _fun0007 }
+ 156:
                     var3 = var1.burst_colors;
                     var3 = var3.length;
                     var2 = var3 > var4;
- 170:
-                    if(!var2) { _fun0007_ip = 252; continue _fun0007 }
- 173:
+ 171:
+                    if(!var2) { _fun0007_ip = 253; continue _fun0007 }
+ 174:
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var2 = 18;
@@ -752,7 +752,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['shouldProcessMobileColors'] = var5;
                     var2 = var3.bind(var4)(var2);
                     var1['themedBurstColors'] = var2;
- 252:
+ 253:
                     return var1;
                 }
             };

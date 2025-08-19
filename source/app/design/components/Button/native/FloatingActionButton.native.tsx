@@ -66,10 +66,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var4 = arg1;
             var11 = var4.icon;
-            var7 = var4.positionBottom;
-            var _closure2_slot0 = var7;
+            var10 = var4.positionBottom;
+            var _closure2_slot0 = var10;
+            var7 = var4.positionRight;
+            var _closure2_slot1 = var7;
             var9 = var4.accessibilityLabel;
-            var3 = {'icon': 0, 'positionBottom': 0, 'accessibilityLabel': 0};
+            var3 = {'icon': 0, 'positionBottom': 0, 'positionRight': 0, 'accessibilityLabel': 0};
             var16 = null;
             var17 = var3;
             var2 = silentSetPrototypeOf(var17, var16);
@@ -80,31 +82,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot5;
             var4 = undefined;
             var5 = var2.bind(var4)();
-            var _closure2_slot1 = var5;
+            var _closure2_slot2 = var5;
             var8 = _closure1_slot3;
             var3 = var8.useMemo;
-            var2 = new Array(2);
+            var2 = new Array(3);
             var2[0] = var5;
-            var2[1] = var7;
+            var2[1] = var10;
+            var2[2] = var7;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    var1 = _closure2_slot1;
+                    var1 = _closure2_slot2;
                     var2 = var1.button;
-                    var1 = new Array(2);
+                    var1 = new Array(3);
                     var1[0] = var2;
-                    var3 = _closure2_slot0;
-                    var2 = null;
-                    var3 = var2 != var3;
-                    var2 = undefined;
-                    if(!var3) { _fun0002_ip = 49; continue _fun0002 }
+                    var2 = _closure2_slot0;
+                    var5 = null;
+                    var6 = var5 != var2;
+                    var3 = undefined;
+                    if(!var6) { _fun0002_ip = 49; continue _fun0002 }
  36:
-                    var3 = {};
-                    var4 = _closure2_slot0;
-                    var3['bottom'] = var4;
-                    var2 = var3;
+                    var6 = {};
+                    var7 = _closure2_slot0;
+                    var6['bottom'] = var7;
+                    var3 = var6;
  49:
-                    var1[1] = var2;
+                    var1[1] = var3;
+                    var3 = _closure2_slot1;
+                    var3 = var5 != var3;
+                    var2 = undefined;
+                    if(!var3) { _fun0002_ip = 79; continue _fun0002 }
+ 66:
+                    var3 = {};
+                    var4 = _closure2_slot1;
+                    var3['right'] = var4;
+                    var2 = var3;
+ 79:
+                    var1[2] = var2;
                     return var1;
                 }
             };
@@ -131,8 +145,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.isValidElement;
             var6 = var6.bind(var8)(var11);
             var8 = var11;
-            if(!var6) { _fun0001_ip = 256; continue _fun0001 }
- 203:
+            if(!var6) { _fun0001_ip = 270; continue _fun0001 }
+ 217:
             var10 = _closure1_slot3;
             var9 = var10.cloneElement;
             var6 = {};
@@ -145,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.WHITE;
             var6['color'] = var12;
             var8 = var9.bind(var10)(var11, var6);
- 256:
+ 270:
             var6 = 'icon';
             var1[var6] = var8;
             var6 = 'style';

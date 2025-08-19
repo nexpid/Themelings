@@ -19,16 +19,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  19:
             var11 = var1.error;
             var14 = var1.count;
-            if(!(var14 === var4)) { _fun0001_ip = 36; continue _fun0001 }
- 33:
+            if(!(var14 === var4)) { _fun0001_ip = 37; continue _fun0001 }
+ 34:
             var14 = 6;
- 36:
+ 37:
             var16 = var1.codeType;
-            if(!(var16 === var4)) { _fun0001_ip = 59; continue _fun0001 }
- 46:
+            if(!(var16 === var4)) { _fun0001_ip = 60; continue _fun0001 }
+ 47:
             var2 = _closure1_slot9;
             var16 = var2.NUMERIC;
- 59:
+ 60:
             var _closure2_slot0 = var16;
             var2 = var1.onCodeEntered;
             var _closure2_slot1 = var2;
@@ -73,10 +73,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot9;
             var11 = var8.NUMERIC;
             var8 = 'default';
-            if(!(var16 === var11)) { _fun0001_ip = 273; continue _fun0001 }
- 267:
+            if(!(var16 === var11)) { _fun0001_ip = 274; continue _fun0001 }
+ 268:
             var8 = 'number-pad';
- 273:
+ 274:
             var5['keyboardType'] = var8;
             var8 = function onChange(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -143,10 +143,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['onPress'] = var15;
             var12 = var12.length;
             var12 = var12 !== var14;
-            if(var12) { _fun0001_ip = 461; continue _fun0001 }
- 458:
+            if(var12) { _fun0001_ip = 462; continue _fun0001 }
+ 459:
             var12 = var13;
- 461:
+ 462:
             var9['disabled'] = var12;
             var9 = var11.bind(var4)(var10, var9);
             var6['children'] = var9;
@@ -173,16 +173,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = false;
  38:
             var24 = var1.count;
-            if(!(var24 === var4)) { _fun0003_ip = 50; continue _fun0003 }
- 47:
+            if(!(var24 === var4)) { _fun0003_ip = 51; continue _fun0003 }
+ 48:
             var24 = 6;
- 50:
+ 51:
             var22 = var1.codeType;
-            if(!(var22 === var4)) { _fun0003_ip = 73; continue _fun0003 }
- 60:
+            if(!(var22 === var4)) { _fun0003_ip = 74; continue _fun0003 }
+ 61:
             var2 = _closure1_slot9;
             var22 = var2.NUMERIC;
- 73:
+ 74:
             var12 = var1.actions;
             var9 = var1.footer;
             var7 = var1.backgroundStyle;
@@ -481,17 +481,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var10;
             var7 = var1.count;
             var4 = undefined;
-            if(!(var7 === var4)) { _fun0005_ip = 39; continue _fun0005 }
- 36:
+            if(!(var7 === var4)) { _fun0005_ip = 40; continue _fun0005 }
+ 37:
             var7 = 6;
- 39:
+ 40:
             var _closure2_slot2 = var7;
             var1 = var1.codeType;
-            if(!(var1 === var4)) { _fun0005_ip = 66; continue _fun0005 }
- 53:
+            if(!(var1 === var4)) { _fun0005_ip = 67; continue _fun0005 }
+ 54:
             var3 = _closure1_slot9;
             var1 = var3.NUMERIC;
- 66:
+ 67:
             var _closure2_slot3 = var1;
             var _closure2_slot4 = var4;
             var _closure2_slot5 = var4;
@@ -811,12 +811,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var8 = var3 < var7;
-            if(!var8) { _fun0005_ip = 324; continue _fun0005 }
- 312:
+            if(!var8) { _fun0005_ip = 325; continue _fun0005 }
+ 313:
             var8 = var2.bind(var4)(var3);
             var3 = var3 + 1;
-            if(var3 < var7) { _fun0005_ip = 312; continue _fun0005 }
- 324:
+            if(var3 < var7) { _fun0005_ip = 313; continue _fun0005 }
+ 325:
             var3 = _closure1_slot7;
             var2 = _closure1_slot5;
             var1 = {};

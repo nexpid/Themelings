@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var14;
             var1['styleButton'] = var9;
             var1 = var8.bind(var4)(var6, var1);
-            _fun0001_ip = 286; continue _fun0001;
+            _fun0001_ip = 285; continue _fun0001;
  155:
             var6 = 6;
             var6 = var18[var6];
@@ -88,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['onPress'] = var10;
             var6['style'] = var9;
             var1 = var8.bind(var4)(var7, var6);
- 286:
+ 285:
             var2['children'] = var1;
             var1 = arg1;
             var1 = var5.bind(var4)(var3, var2, var1);

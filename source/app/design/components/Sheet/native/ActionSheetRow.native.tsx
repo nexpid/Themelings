@@ -102,10 +102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var8 = var6 != var7;
             var6 = undefined;
-            if(!var8) { _fun0002_ip = 88; continue _fun0002 }
- 85:
+            if(!var8) { _fun0002_ip = 87; continue _fun0002 }
+ 84:
             var6 = var7;
- 88:
+ 87:
             var1['IconComponent'] = var6;
             var1['variant'] = var5;
             var1 = var4.bind(var3)(var2, var1);

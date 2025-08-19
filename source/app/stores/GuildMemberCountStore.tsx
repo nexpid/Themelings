@@ -316,15 +316,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.guildId;
             var2 = var1.count;
             var1 = null;
-            if(!(var1 != var3)) { _fun0008_ip = 38; continue _fun0008 }
- 19:
-            if(!(var1 != var2)) { _fun0008_ip = 38; continue _fun0008 }
- 23:
+            if(!(var1 != var3)) { _fun0008_ip = 39; continue _fun0008 }
+ 20:
+            if(!(var1 != var2)) { _fun0008_ip = 39; continue _fun0008 }
+ 24:
             var1 = _closure1_slot6;
             var1[var3] = var2;
             var1 = undefined;
             return var1;
- 38:
+ 39:
             var1 = false;
             return var1;
         }

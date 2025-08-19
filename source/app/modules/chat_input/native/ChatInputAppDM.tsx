@@ -402,10 +402,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var3 = _closure1_slot11;
             var2 = _closure1_slot5;
-            if(var1) { _fun0004_ip = 496; continue _fun0004 }
+            if(var1) { _fun0004_ip = 495; continue _fun0004 }
  250:
             var1 = null;
-            if(!(var1 != var13)) { _fun0004_ip = 496; continue _fun0004 }
+            if(!(var1 != var13)) { _fun0004_ip = 495; continue _fun0004 }
  259:
             var1 = {};
             var5 = var10.container;
@@ -460,8 +460,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var9.bind(var4)(var8, var7);
             var5[1] = var7;
             var1['children'] = var5;
-            _fun0004_ip = 610; continue _fun0004;
- 496:
+            _fun0004_ip = 609; continue _fun0004;
+ 495:
             var5 = {};
             var7 = var10.container;
             var5['style'] = var7;
@@ -489,7 +489,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[2] = var7;
             var5['children'] = var6;
             var1 = var5;
- 610:
+ 609:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

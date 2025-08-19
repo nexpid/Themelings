@@ -197,84 +197,84 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var1.IconComponent;
             var2 = var1.variant;
             var5 = undefined;
-            if(!(var2 === var5)) { _fun0001_ip = 29; continue _fun0001 }
- 25:
+            if(!(var2 === var5)) { _fun0001_ip = 28; continue _fun0001 }
+ 24:
             var2 = 'default';
- 29:
+ 28:
             var1 = _closure1_slot7;
             var8 = var1.bind(var5)();
             var1 = 'default';
-            if(!(var1 !== var2)) { _fun0001_ip = 248; continue _fun0001 }
- 51:
+            if(!(var1 !== var2)) { _fun0001_ip = 247; continue _fun0001 }
+ 50:
             var3 = 'blurple';
-            if(!(var3 !== var2)) { _fun0001_ip = 240; continue _fun0001 }
- 62:
+            if(!(var3 !== var2)) { _fun0001_ip = 239; continue _fun0001 }
+ 61:
             var3 = 'boosting-pink';
-            if(!(var3 !== var2)) { _fun0001_ip = 232; continue _fun0001 }
- 75:
+            if(!(var3 !== var2)) { _fun0001_ip = 231; continue _fun0001 }
+ 74:
             var3 = 'status-online';
-            if(!(var3 !== var2)) { _fun0001_ip = 224; continue _fun0001 }
- 88:
+            if(!(var3 !== var2)) { _fun0001_ip = 223; continue _fun0001 }
+ 87:
             var3 = 'status-idle';
-            if(!(var3 !== var2)) { _fun0001_ip = 216; continue _fun0001 }
- 98:
+            if(!(var3 !== var2)) { _fun0001_ip = 215; continue _fun0001 }
+ 97:
             var3 = 'status-dnd';
-            if(!(var3 !== var2)) { _fun0001_ip = 208; continue _fun0001 }
- 108:
+            if(!(var3 !== var2)) { _fun0001_ip = 207; continue _fun0001 }
+ 107:
             var3 = 'status-offline';
-            if(!(var3 !== var2)) { _fun0001_ip = 200; continue _fun0001 }
- 118:
+            if(!(var3 !== var2)) { _fun0001_ip = 199; continue _fun0001 }
+ 117:
             var3 = 'xbox';
-            if(!(var3 !== var2)) { _fun0001_ip = 192; continue _fun0001 }
- 126:
+            if(!(var3 !== var2)) { _fun0001_ip = 191; continue _fun0001 }
+ 125:
             var3 = 'playstation';
-            if(!(var3 !== var2)) { _fun0001_ip = 184; continue _fun0001 }
- 134:
+            if(!(var3 !== var2)) { _fun0001_ip = 183; continue _fun0001 }
+ 133:
             var3 = 'danger';
-            if(!(var3 !== var2)) { _fun0001_ip = 176; continue _fun0001 }
- 142:
+            if(!(var3 !== var2)) { _fun0001_ip = 175; continue _fun0001 }
+ 141:
             var3 = 'secondary';
-            if(!(var3 !== var2)) { _fun0001_ip = 168; continue _fun0001 }
- 150:
+            if(!(var3 !== var2)) { _fun0001_ip = 167; continue _fun0001 }
+ 149:
             var3 = 'translucent';
             var6 = undefined;
-            if(!(var3 === var2)) { _fun0001_ip = 253; continue _fun0001 }
- 160:
+            if(!(var3 === var2)) { _fun0001_ip = 252; continue _fun0001 }
+ 159:
             var6 = var8.translucent;
-            _fun0001_ip = 253; continue _fun0001;
- 168:
+            _fun0001_ip = 252; continue _fun0001;
+ 167:
             var6 = var8.secondary;
-            _fun0001_ip = 253; continue _fun0001;
- 176:
+            _fun0001_ip = 252; continue _fun0001;
+ 175:
             var6 = var8.danger;
-            _fun0001_ip = 253; continue _fun0001;
- 184:
+            _fun0001_ip = 252; continue _fun0001;
+ 183:
             var6 = var8.playstation;
-            _fun0001_ip = 253; continue _fun0001;
- 192:
+            _fun0001_ip = 252; continue _fun0001;
+ 191:
             var6 = var8.xbox;
-            _fun0001_ip = 253; continue _fun0001;
- 200:
+            _fun0001_ip = 252; continue _fun0001;
+ 199:
             var6 = var8.statusOffline;
-            _fun0001_ip = 253; continue _fun0001;
- 208:
+            _fun0001_ip = 252; continue _fun0001;
+ 207:
             var6 = var8.statusDND;
-            _fun0001_ip = 253; continue _fun0001;
- 216:
+            _fun0001_ip = 252; continue _fun0001;
+ 215:
             var6 = var8.statusIdle;
-            _fun0001_ip = 253; continue _fun0001;
- 224:
+            _fun0001_ip = 252; continue _fun0001;
+ 223:
             var6 = var8.statusOnline;
-            _fun0001_ip = 253; continue _fun0001;
- 232:
+            _fun0001_ip = 252; continue _fun0001;
+ 231:
             var6 = var8.boostingPink;
-            _fun0001_ip = 253; continue _fun0001;
- 240:
+            _fun0001_ip = 252; continue _fun0001;
+ 239:
             var6 = var8.blurple;
-            _fun0001_ip = 253; continue _fun0001;
- 248:
+            _fun0001_ip = 252; continue _fun0001;
+ 247:
             var6 = var8.default;
- 253:
+ 252:
             var10 = var6.color;
             var4 = _closure1_slot4;
             var3 = _closure1_slot3;
@@ -286,25 +286,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2[var15];
             var2 = var3.bind(var5)(var2);
             var2 = var2.IconSizes;
-            if(var1) { _fun0001_ip = 313; continue _fun0001 }
- 305:
+            if(var1) { _fun0001_ip = 312; continue _fun0001 }
+ 304:
             var13 = var2.REFRESH_SMALL_16;
-            _fun0001_ip = 319; continue _fun0001;
- 313:
+            _fun0001_ip = 318; continue _fun0001;
+ 312:
             var13 = var2.MEDIUM;
- 319:
+ 318:
             var11 = 'sm';
-            if(!var1) { _fun0001_ip = 330; continue _fun0001 }
- 326:
+            if(!var1) { _fun0001_ip = 329; continue _fun0001 }
+ 325:
             var11 = 'md';
- 330:
+ 329:
             var6 = null;
-            if(!(var6 == var14)) { _fun0001_ip = 345; continue _fun0001 }
- 336:
+            if(!(var6 == var14)) { _fun0001_ip = 344; continue _fun0001 }
+ 335:
             var2 = var6 == var9;
             var1 = null;
-            if(var2) { _fun0001_ip = 453; continue _fun0001 }
- 345:
+            if(var2) { _fun0001_ip = 452; continue _fun0001 }
+ 344:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
             var2 = {};
@@ -313,8 +313,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var16;
             var8[1] = var12;
             var2['style'] = var8;
-            if(!(var6 == var9)) { _fun0001_ip = 423; continue _fun0001 }
- 380:
+            if(!(var6 == var9)) { _fun0001_ip = 422; continue _fun0001 }
+ 379:
             var12 = _closure1_slot6;
             var8 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -325,17 +325,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['source'] = var14;
             var6['size'] = var13;
             var6 = var12.bind(var5)(var8, var6);
-            _fun0001_ip = 443; continue _fun0001;
- 423:
+            _fun0001_ip = 442; continue _fun0001;
+ 422:
             var8 = _closure1_slot6;
             var7 = {};
             var7['size'] = var11;
             var7['color'] = var10;
             var6 = var8.bind(var5)(var9, var7);
- 443:
+ 442:
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 453:
+ 452:
             return var1;
         }
     };

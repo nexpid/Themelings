@@ -201,8 +201,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var8 < var10;
                 var3 = '•';
                 var2 = 10;
-                if(!var13) { _fun0003_ip = 174; continue _fun0003 }
- 76:
+                if(!var13) { _fun0003_ip = 175; continue _fun0003 }
+ 77:
                 var14 = var5.push;
                 var16 = _closure1_slot9;
                 var15 = _closure1_slot0;
@@ -215,21 +215,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var18['fontSize'] = var11;
                 var17 = new Array(2);
                 var17[0] = var18;
-                if(!(var8 !== var12)) { _fun0003_ip = 137; continue _fun0003 }
- 129:
+                if(!(var8 !== var12)) { _fun0003_ip = 138; continue _fun0003 }
+ 130:
                 var18 = var6.inactiveIndicator;
-                _fun0003_ip = 143; continue _fun0003;
- 137:
+                _fun0003_ip = 144; continue _fun0003;
+ 138:
                 var18 = var6.activeIndicator;
- 143:
+ 144:
                 var17[1] = var18;
                 var13['style'] = var17;
                 var13['children'] = var3;
                 var13 = var16.bind(var4)(var15, var13, var8);
                 var13 = var14.bind(var5)(var13);
                 var8 = var8 + 1;
-                if(var8 < var10) { _fun0003_ip = 76; continue _fun0003 }
- 174:
+                if(var8 < var10) { _fun0003_ip = 77; continue _fun0003 }
+ 175:
                 var3 = _closure1_slot9;
                 var2 = _closure1_slot7;
                 var1 = {};
@@ -352,7 +352,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var13 > var2;
  75:
                 var6 = undefined;
-                if(!var1) { _fun0005_ip = 121; continue _fun0005 }
+                if(!var1) { _fun0005_ip = 122; continue _fun0005 }
  80:
                 var3 = _closure1_slot9;
                 var2 = _closure1_slot12;
@@ -363,14 +363,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['activeIndex'] = var8;
                 var1['pageIndicatorStyle'] = var7;
                 var6 = var3.bind(var4)(var2, var1);
- 121:
+ 122:
                 var1 = var10.props;
                 var9 = var1.scrollViewProps;
                 var1 = null;
-                if(!(var1 == var9)) { _fun0005_ip = 140; continue _fun0005 }
- 138:
+                if(!(var1 == var9)) { _fun0005_ip = 141; continue _fun0005 }
+ 139:
                 var9 = {};
- 140:
+ 141:
                 var3 = _closure1_slot10;
                 var2 = _closure1_slot7;
                 var1 = {};

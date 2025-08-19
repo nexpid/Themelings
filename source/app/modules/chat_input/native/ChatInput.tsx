@@ -2062,7 +2062,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.KeyboardTypes;
             var15 = var15.EXPRESSION;
             var16 = null;
-            if(!(var46 !== var15)) { _fun0002_ip = 1693; continue _fun0002 }
+            if(!(var46 !== var15)) { _fun0002_ip = 1698; continue _fun0002 }
  1600:
             var21 = _closure1_slot28;
             var17 = _closure1_slot1;
@@ -2083,13 +2083,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['canOnlyUseTextCommands'] = var19;
             var22 = var25.chatInput;
             var15['chatInputRef'] = var22;
+            var15['screenIndex'] = var9;
             var16 = var21.bind(var5)(var17, var15);
- 1693:
+ 1698:
             var15 = new Array(5);
             var15[0] = var16;
             var16 = null;
-            if(!var20) { _fun0002_ip = 1752; continue _fun0002 }
- 1706:
+            if(!var20) { _fun0002_ip = 1757; continue _fun0002 }
+ 1711:
             var22 = _closure1_slot28;
             var21 = _closure1_slot0;
             var23 = _closure1_slot3;
@@ -2101,7 +2102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17['context'] = var26;
             var17['channel'] = var10;
             var16 = var22.bind(var5)(var21, var17);
- 1752:
+ 1757:
             var15[1] = var16;
             var22 = _closure1_slot28;
             var21 = _closure1_slot1;
@@ -2150,8 +2151,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var22.bind(var5)(var21, var19);
             var19 = new Array(2);
             var19[0] = var21;
-            if(var20) { _fun0002_ip = 2796; continue _fun0002 }
- 1969:
+            if(var20) { _fun0002_ip = 2801; continue _fun0002 }
+ 1974:
             var22 = _closure1_slot29;
             var21 = _closure1_slot6;
             var20 = {};
@@ -2159,14 +2160,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20['style'] = var23;
             var20['accessibilityElementsHidden'] = var28;
             var23 = undefined;
-            if(!var28) { _fun0002_ip = 2005; continue _fun0002 }
- 1999:
+            if(!var28) { _fun0002_ip = 2010; continue _fun0002 }
+ 2004:
             var23 = 'no-hide-descendants';
- 2005:
+ 2010:
             var20['importantForAccessibility'] = var23;
             var28 = null;
-            if(!var7) { _fun0002_ip = 2130; continue _fun0002 }
- 2015:
+            if(!var7) { _fun0002_ip = 2135; continue _fun0002 }
+ 2020:
             var30 = _closure1_slot28;
             var29 = _closure1_slot1;
             var52 = _closure1_slot3;
@@ -2183,25 +2184,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23['isAppLauncherEnabled'] = var39;
             var23['keyboardType'] = var46;
             var39 = var36;
-            if(!var36) { _fun0002_ip = 2091; continue _fun0002 }
- 2087:
+            if(!var36) { _fun0002_ip = 2096; continue _fun0002 }
+ 2092:
             var39 = var34 == var45;
- 2091:
-            if(var39) { _fun0002_ip = 2097; continue _fun0002 }
- 2094:
+ 2096:
+            if(var39) { _fun0002_ip = 2102; continue _fun0002 }
+ 2099:
             var39 = var43;
- 2097:
+ 2102:
             var39 = !var39;
             var23['shouldPhotosButtonBeDisabled'] = var39;
             var23['shouldShowHideChatInputButton'] = var41;
             var39 = var32;
-            if(var3) { _fun0002_ip = 2119; continue _fun0002 }
- 2116:
+            if(var3) { _fun0002_ip = 2124; continue _fun0002 }
+ 2121:
             var39 = !var41;
- 2119:
+ 2124:
             var23['shouldShowGiftButton'] = var39;
             var28 = var30.bind(var5)(var29, var23);
- 2130:
+ 2135:
             var23 = new Array(3);
             var23[0] = var28;
             var30 = _closure1_slot29;
@@ -2285,8 +2286,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var40 = var40.rightAccessory;
             var39['style'] = var40;
             var41 = null;
-            if(!var7) { _fun0002_ip = 2593; continue _fun0002 }
- 2517:
+            if(!var7) { _fun0002_ip = 2598; continue _fun0002 }
+ 2522:
             var43 = _closure1_slot28;
             var42 = _closure1_slot1;
             var45 = _closure1_slot3;
@@ -2304,7 +2305,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var45 = var24.handlePressExpression;
             var40['onPress'] = var45;
             var41 = var43.bind(var5)(var42, var40);
- 2593:
+ 2598:
             var40 = new Array(2);
             var40[0] = var41;
             var43 = _closure1_slot28;
@@ -2325,11 +2326,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var28['children'] = var31;
             var28 = var30.bind(var5)(var29, var28);
             var23[1] = var28;
-            if(var7) { _fun0002_ip = 2688; continue _fun0002 }
- 2683:
-            var28 = null;
-            if(!var3) { _fun0002_ip = 2780; continue _fun0002 }
+            if(var7) { _fun0002_ip = 2693; continue _fun0002 }
  2688:
+            var28 = null;
+            if(!var3) { _fun0002_ip = 2785; continue _fun0002 }
+ 2693:
             var31 = _closure1_slot28;
             var30 = _closure1_slot1;
             var39 = _closure1_slot3;
@@ -2342,10 +2343,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29['canSendVoiceMessage'] = var38;
             var29['channel'] = var10;
             var29['defaultValue'] = var37;
-            if(!var35) { _fun0002_ip = 2744; continue _fun0002 }
- 2741:
+            if(!var35) { _fun0002_ip = 2749; continue _fun0002 }
+ 2746:
             var35 = var36;
- 2744:
+ 2749:
             var29['hasPendingAttachments'] = var35;
             var33 = var34 != var33;
             var29['hasPendingEdit'] = var33;
@@ -2353,12 +2354,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29['onSendMessage'] = var33;
             var29['requireTextContent'] = var32;
             var28 = var31.bind(var5)(var30, var29);
- 2780:
+ 2785:
             var23[2] = var28;
             var20['children'] = var23;
             var20 = var22.bind(var5)(var21, var20);
-            _fun0002_ip = 2857; continue _fun0002;
- 2796:
+            _fun0002_ip = 2862; continue _fun0002;
+ 2801:
             var23 = _closure1_slot28;
             var22 = _closure1_slot0;
             var21 = _closure1_slot3;
@@ -2372,7 +2373,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var24.handleShowChatInput;
             var21['onShowChatInput'] = var24;
             var20 = var23.bind(var5)(var22, var21);
- 2857:
+ 2862:
             var19[1] = var20;
             var16['children'] = var19;
             var16 = var18.bind(var5)(var17, var16);
@@ -2383,8 +2384,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var11;
             var6 = var6.bind(var5)(var4, var1);
             var1 = var6;
-            if(var3) { _fun0002_ip = 2968; continue _fun0002 }
- 2905:
+            if(var3) { _fun0002_ip = 2973; continue _fun0002 }
+ 2910:
             var4 = _closure1_slot28;
             var3 = _closure1_slot1;
             var11 = _closure1_slot3;
@@ -2400,7 +2401,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['isReadonly'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 2968:
+ 2973:
             return var1;
         }
     };

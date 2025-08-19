@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var1 = var3 != var4;
  100:
-            if(!var1) { _fun0001_ip = 208; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 207; continue _fun0001 }
  103:
             var3 = var7.push;
             var1 = {};
@@ -92,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.CirclePlusIcon;
             var1['IconComponent'] = var4;
             var1 = var3.bind(var7)(var1);
- 208:
+ 207:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 6;
@@ -101,8 +101,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.DeveloperMode;
             var1 = var3.getSetting;
             var1 = var1.bind(var3)();
-            if(!var1) { _fun0001_ip = 354; continue _fun0001 }
- 247:
+            if(!var1) { _fun0001_ip = 352; continue _fun0001 }
+ 246:
             var3 = var7.push;
             var1 = {};
             var8 = _closure1_slot0;
@@ -143,12 +143,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.IdIcon;
             var1['IconComponent'] = var4;
             var1 = var3.bind(var7)(var1);
- 354:
+ 352:
             var4 = var7.length;
             var3 = 0;
             var1 = null;
-            if(!(var3 !== var4)) { _fun0001_ip = 421; continue _fun0001 }
- 367:
+            if(!(var3 !== var4)) { _fun0001_ip = 419; continue _fun0001 }
+ 365:
             var4 = _closure1_slot3;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -203,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 421:
+ 419:
             return var1;
         }
     };

@@ -284,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var8;
             var9 = _closure1_slot9;
-            if(var6) { _fun0001_ip = 799; continue _fun0001 }
+            if(var6) { _fun0001_ip = 798; continue _fun0001 }
  645:
             var8 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -362,8 +362,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var6['onPress'] = var13;
             var6 = var9.bind(var4)(var8, var6);
-            _fun0001_ip = 961; continue _fun0001;
- 799:
+            _fun0001_ip = 959; continue _fun0001;
+ 798:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var7 = 12;
@@ -411,7 +411,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.bind(var12)(var10);
             var7['accessibilityLabel'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 961:
+ 959:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

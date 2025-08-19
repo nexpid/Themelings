@@ -192,8 +192,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['maxWidth'] = var7;
                 var2['style'] = var1;
                 var15 = null;
-                if(!(var15 == var12)) { _fun0002_ip = 198; continue _fun0002 }
- 86:
+                if(!(var15 == var12)) { _fun0002_ip = 197; continue _fun0002 }
+ 85:
                 var9 = _closure1_slot9;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -205,18 +205,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var16 = 'secondary';
                 var1['variant'] = var16;
-                if(!(var15 == var13)) { _fun0002_ip = 159; continue _fun0002 }
- 132:
-                if(!(var15 == var14)) { _fun0002_ip = 156; continue _fun0002 }
- 136:
+                if(!(var15 == var13)) { _fun0002_ip = 158; continue _fun0002 }
+ 131:
+                if(!(var15 == var14)) { _fun0002_ip = 155; continue _fun0002 }
+ 135:
                 var16 = _closure1_slot1;
                 var17 = _closure1_slot2;
                 var15 = 11;
                 var15 = var17[var15];
                 var14 = var16.bind(var8)(var15);
- 156:
+ 155:
                 var13 = var14;
- 159:
+ 158:
                 var1['icon'] = var13;
                 var13 = var11.bind(var8)();
                 var1['label'] = var13;
@@ -231,8 +231,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = 2;
                 var1['maxFontSizeMultiplier'] = var13;
                 var1 = var9.bind(var8)(var7, var1);
-                _fun0002_ip = 270; continue _fun0002;
- 198:
+                _fun0002_ip = 269; continue _fun0002;
+ 197:
                 var9 = _closure1_slot9;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = 2;
                 var6['maxFontSizeMultiplier'] = var10;
                 var1 = var9.bind(var8)(var7, var6);
- 270:
+ 269:
                 var2['children'] = var1;
                 var1 = undefined;
                 var1 = var4.bind(var1)(var3, var2, var5);

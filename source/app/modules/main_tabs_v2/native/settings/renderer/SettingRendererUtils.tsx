@@ -68,23 +68,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.type;
             var4 = _closure1_slot4;
             var4 = var4.RADIO;
-            if(!(var4 !== var3)) { _fun0002_ip = 107; continue _fun0002 }
+            if(!(var4 !== var3)) { _fun0002_ip = 106; continue _fun0002 }
  57:
             var4 = _closure1_slot4;
             var4 = var4.CHECKBOX;
-            if(!(var4 !== var3)) { _fun0002_ip = 107; continue _fun0002 }
+            if(!(var4 !== var3)) { _fun0002_ip = 106; continue _fun0002 }
  71:
             var4 = _closure1_slot4;
             var4 = var4.VOLUME_SLIDER;
-            if(!(var4 !== var3)) { _fun0002_ip = 107; continue _fun0002 }
+            if(!(var4 !== var3)) { _fun0002_ip = 106; continue _fun0002 }
  85:
             var2 = _closure1_slot4;
             var2 = var2.SLIDER;
-            if(!(var2 !== var3)) { _fun0002_ip = 107; continue _fun0002 }
+            if(!(var2 !== var3)) { _fun0002_ip = 106; continue _fun0002 }
  99:
             var1 = var1.IconComponent;
             return var1;
- 107:
+ 106:
             var1 = null;
             return var1;
         }

@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 405; continue _fun0001 }
+                    if(var4) { _fun0001_ip = 420; continue _fun0001 }
  12:
                     var4 = undefined;
                     var2 = undefined;
@@ -69,22 +69,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  119:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 246; continue _fun0001 }
- 125:
-                    var10 = _closure1_slot1;
+                    if(var5) { _fun0001_ip = 255; continue _fun0001 }
+ 128:
+                    var6 = _closure1_slot1;
                     var13 = _closure1_slot2;
                     var5 = 9;
                     var5 = var13[var5];
-                    var8 = var10.bind(var4)(var5);
+                    var8 = var6.bind(var4)(var5);
                     var6 = var8.open;
                     var5 = {};
                     var9 = 'USER_SETTINGS_CACHES_CLEARED';
                     var5['key'] = var9;
+                    var12 = _closure1_slot0;
                     var9 = 10;
                     var9 = var13[var9];
-                    var9 = var10.bind(var4)(var9);
-                    var5['icon'] = var9;
-                    var12 = _closure1_slot0;
+                    var9 = var12.bind(var4)(var9);
+                    var9 = var9.CircleInformationIcon;
+                    var5['IconComponent'] = var9;
                     var9 = 11;
                     var10 = var13[var9];
                     var10 = var12.bind(var4)(var10);
@@ -97,9 +98,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var10.bind(var11)(var9);
                     var5['content'] = var9;
                     var5 = var6.bind(var8)(var5);
- 241: // try_end0
-                    _fun0001_ip = 376; continue _fun0001;
- 246: // try_end1
+ 250: // try_end0
+                    _fun0001_ip = 391; continue _fun0001;
+ 255: // try_end1
                     var5 = function onUploadDebugLogsRequestFinish() {
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -144,22 +145,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var5 = var5.bind(var4)();
                     return var2;
- 260: // try_start_2 // catch_target0
+ 269: // try_start_2 // catch_target0
                     CatchBlockStart(arg_register=1);
-                    var9 = _closure1_slot1;
+                    var5 = _closure1_slot1;
                     var11 = _closure1_slot2;
                     var2 = 9;
                     var2 = var11[var2];
-                    var6 = var9.bind(var4)(var2);
+                    var6 = var5.bind(var4)(var2);
                     var5 = var6.open;
                     var2 = {};
                     var8 = 'USER_SETTINGS_CACHES_CLEARED';
                     var2['key'] = var8;
-                    var8 = 10;
-                    var8 = var11[var8];
-                    var8 = var9.bind(var4)(var8);
-                    var2['icon'] = var8;
                     var10 = _closure1_slot0;
+                    var7 = 10;
+                    var7 = var11[var7];
+                    var7 = var10.bind(var4)(var7);
+                    var7 = var7.CircleInformationIcon;
+                    var2['IconComponent'] = var7;
                     var7 = 11;
                     var8 = var11[var7];
                     var8 = var10.bind(var4)(var8);
@@ -172,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.bind(var9)(var7);
                     var2['content'] = var7;
                     var2 = var5.bind(var6)(var2);
- 376: // try_end2
+ 391: // try_end2
                     var2 = function onUploadDebugLogsRequestFinish() {
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -217,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var2 = var2.bind(var4)();
                     return var4;
- 390: // catch_target1 // catch_target2
+ 405: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=1);
                     var3 = function onUploadDebugLogsRequestFinish() {
                         var4 = _closure1_slot0;
@@ -263,7 +265,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var3 = var3.bind(var4)();
                     throw var2;
- 405:
+ 420:
                     return var1;
                 }
             };
@@ -343,7 +345,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['title'] = var7;
     var7 = null;
     var2['parent'] = var7;
-    var7 = 12;
+    var7 = 10;
     var7 = var6[var7];
     var7 = var5.bind(var1)(var7);
     var7 = var7.CircleInformationIcon;
@@ -386,7 +388,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['useIsDisabled'] = var4;
-    var4 = 13;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

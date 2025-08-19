@@ -1,111 +1,162 @@
 // app/modules/main_tabs_v2/native/tabs/you/YouBannerDecorations.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
-    var12 = metroImportDefault;
+    var6 = require;
+    var13 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var12;
-    var _closure1_slot2 = var6;
-    var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
-    var1 = 0;
-    var7 = var6[var1];
-    var4 = metroImportAll;
-    var1 = undefined;
-    var7 = var4.bind(var1)(var7);
-    var _closure1_slot3 = var7;
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.View;
-    var _closure1_slot4 = var8;
-    var8 = var4.ActivityIndicator;
-    var _closure1_slot5 = var8;
-    var11 = var4.StyleSheet;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.ContentDismissActionType;
-    var _closure1_slot6 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.PREMIUM_TIER_2_TRIAL_FOR_EVERYONE_TRIAL_ID;
-    var _closure1_slot7 = var4;
-    var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var8 = var4.jsx;
-    var _closure1_slot8 = var8;
-    var4 = var4.jsxs;
-    var _closure1_slot9 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var9 = var5.bind(var1)(var4);
-    var8 = var9.createStyles;
-    var4 = {};
-    var10 = {};
-    var15 = var11.absoluteFillObject;
-    var16 = var10;
-    var11 = copyDataProperties(var16, var15);
-    var13 = 10;
-    var11 = 'zIndex';
-    var10[var11] = var13;
-    var4['container'] = var10;
-    var10 = {'position': 'absolute', 'flexDirection': 'row', 'alignItems': 'center', 'top': 4294967292, 'right': 0};
-    var4['buttons'] = var10;
-    var10 = {'height': 32, 'width': 32, 'alignItems': 'center', 'justifyContent': 'center'};
-    var11 = 6;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.radii;
-    var13 = var13.lg;
-    var10['borderRadius'] = var13;
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.REDESIGN_BUTTON_SECONDARY_OVERLAY_BACKGROUND;
-    var10['backgroundColor'] = var13;
-    var4['button'] = var10;
-    var10 = {'minHeight': 32, 'minWidth': 72, 'paddingHorizontal': 8, 'overflow': 'hidden'};
-    var4['nitroButton'] = var10;
-    var10 = {'height': '100%', 'alignItems': 'center', 'justifyContent': 'center'};
-    var4['loading'] = var10;
-    var10 = {};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.colors;
-    var13 = var13.WHITE;
-    var10['color'] = var13;
-    var4['icon'] = var10;
-    var10 = {'marginVertical': 8, 'marginHorizontal': 4};
-    var4['nitroPressable'] = var10;
-    var10 = {'marginVertical': 8, 'marginLeft': 4, 'marginRight': 16};
-    var4['settingsPressable'] = var10;
-    var10 = {'position': 'absolute', 'height': 9, 'width': 9, 'backgroundColor': null, 'borderRadius': null, 'right': 2, 'bottom': 0};
-    var13 = var6[var11];
-    var13 = var12.bind(var1)(var13);
-    var13 = var13.unsafe_rawColors;
-    var13 = var13.RED_400;
-    var10['backgroundColor'] = var13;
-    var11 = var6[var11];
-    var11 = var12.bind(var1)(var11);
-    var11 = var11.radii;
-    var11 = var11.lg;
-    var10['borderRadius'] = var11;
-    var4['dot'] = var10;
-    var4 = var8.bind(var9)(var4);
-    var _closure1_slot10 = var4;
-    var4 = var7.memo;
-    var2 = function(arg1) {
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var13;
+    var _closure1_slot2 = var7;
+    var2 = function useHasSettingsBadge() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var1 = 7;
+            var1 = var9[var1];
+            var7 = undefined;
+            var2 = var8.bind(var7)(var1);
+            var1 = var2.useUnseenOutboundPromotions;
+            var1 = var1.bind(var2)();
+            var2 = var1.length;
+            var1 = 0;
+            var1 = var2 > var1;
+            var2 = 8;
+            var2 = var9[var2];
+            var3 = var8.bind(var7)(var2);
+            var2 = var3.useIsEligibleForPomelo;
+            var3 = var2.bind(var3)();
+            var2 = 9;
+            var2 = var9[var2];
+            var4 = var8.bind(var7)(var2);
+            var2 = var4.useHasTier2Premium;
+            var4 = var2.bind(var4)();
+            var2 = 10;
+            var2 = var9[var2];
+            var6 = var8.bind(var7)(var2);
+            var5 = var6.UNSAFE_useIsDismissibleContentDismissed;
+            var2 = 11;
+            var2 = var9[var2];
+            var2 = var8.bind(var7)(var2);
+            var2 = var2.DismissibleContent;
+            var2 = var2.MOBILE_NITRO_HOME_SETTINGS_BADGE;
+            var2 = var5.bind(var6)(var2);
+            var2 = !var2;
+            if(!var2) { _fun0001_ip = 146; continue _fun0001 }
+ 143:
+            var2 = var4;
+ 146:
+            if(var1) { _fun0001_ip = 152; continue _fun0001 }
+ 149:
+            var1 = var3;
+ 152:
+            if(var1) { _fun0001_ip = 158; continue _fun0001 }
+ 155:
+            var1 = var2;
+ 158:
+            return var1;
+        }
+    };
+    var _closure1_slot11 = var2;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
+    var1 = true;
+    var5['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = 0;
+    var8 = var7[var1];
+    var5 = metroImportAll;
+    var1 = undefined;
+    var8 = var5.bind(var1)(var8);
+    var _closure1_slot3 = var8;
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var9 = var5.View;
+    var _closure1_slot4 = var9;
+    var9 = var5.ActivityIndicator;
+    var _closure1_slot5 = var9;
+    var12 = var5.StyleSheet;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.ContentDismissActionType;
+    var _closure1_slot6 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.PREMIUM_TIER_2_TRIAL_FOR_EVERYONE_TRIAL_ID;
+    var _closure1_slot7 = var5;
+    var5 = 4;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var9 = var5.jsx;
+    var _closure1_slot8 = var9;
+    var5 = var5.jsxs;
+    var _closure1_slot9 = var5;
+    var5 = 5;
+    var5 = var7[var5];
+    var10 = var6.bind(var1)(var5);
+    var9 = var10.createStyles;
+    var5 = {};
+    var11 = {};
+    var16 = var12.absoluteFillObject;
+    var17 = var11;
+    var12 = copyDataProperties(var17, var16);
+    var14 = 10;
+    var12 = 'zIndex';
+    var11[var12] = var14;
+    var5['container'] = var11;
+    var11 = {'position': 'absolute', 'flexDirection': 'row', 'alignItems': 'center', 'top': 4294967292, 'right': 8};
+    var5['buttons'] = var11;
+    var11 = {'height': 32, 'width': 32, 'alignItems': 'center', 'justifyContent': 'center'};
+    var12 = 6;
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.lg;
+    var11['borderRadius'] = var14;
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.REDESIGN_BUTTON_SECONDARY_OVERLAY_BACKGROUND;
+    var11['backgroundColor'] = var14;
+    var5['button'] = var11;
+    var11 = {'minHeight': 32, 'minWidth': 72, 'paddingHorizontal': 8, 'overflow': 'hidden'};
+    var5['nitroButton'] = var11;
+    var11 = {'height': '100%', 'alignItems': 'center', 'justifyContent': 'center'};
+    var5['loading'] = var11;
+    var11 = {};
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.WHITE;
+    var11['color'] = var14;
+    var5['icon'] = var11;
+    var11 = {'marginVertical': 8, 'marginHorizontal': 4};
+    var5['nitroPressable'] = var11;
+    var11 = {'marginVertical': 8, 'marginLeft': 4, 'marginRight': 8};
+    var5['settingsPressable'] = var11;
+    var11 = {'position': 'absolute', 'height': 9, 'width': 9, 'backgroundColor': null, 'borderRadius': null, 'right': 2, 'bottom': 0};
+    var14 = var7[var12];
+    var14 = var13.bind(var1)(var14);
+    var14 = var14.unsafe_rawColors;
+    var14 = var14.RED_400;
+    var11['backgroundColor'] = var14;
+    var12 = var7[var12];
+    var12 = var13.bind(var1)(var12);
+    var12 = var12.radii;
+    var12 = var12.lg;
+    var11['borderRadius'] = var12;
+    var5['dot'] = var11;
+    var5 = var9.bind(var10)(var5);
+    var _closure1_slot10 = var5;
+    var5 = var8.memo;
+    var4 = function(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var3 = arg1;
             var6 = var3.isLoading;
@@ -113,14 +164,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var2;
             var1 = var3.navigateToPremium;
             var _closure2_slot1 = var1;
-            var23 = var3.navigateToShop;
-            var26 = var3.shopButtonRef;
-            var16 = var3.settingsButtonRef;
-            var27 = var3.paddingTop;
+            var22 = var3.navigateToShop;
+            var25 = var3.shopButtonRef;
+            var14 = var3.settingsButtonRef;
+            var26 = var3.paddingTop;
             var4 = undefined;
-            if(!(var27 === var4)) { _fun0001_ip = 63; continue _fun0001 }
+            if(!(var26 === var4)) { _fun0002_ip = 63; continue _fun0002 }
  61:
-            var27 = 0;
+            var26 = 0;
  63:
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
@@ -132,52 +183,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;
             var3 = 9;
-            var8 = var7[var3];
-            var9 = var5.bind(var4)(var8);
-            var8 = var9.useHasPremiumSubscriptionToDisplay;
-            var12 = var8.bind(var9)();
-            var8 = 7;
-            var8 = var7[var8];
-            var9 = var5.bind(var4)(var8);
-            var8 = var9.useUnseenOutboundPromotions;
-            var8 = var8.bind(var9)();
-            var9 = var8.length;
-            var8 = 0;
-            var17 = var9 > var8;
-            var13 = 8;
-            var8 = var7[var13];
-            var9 = var5.bind(var4)(var8);
-            var8 = var9.useIsEligibleForPomelo;
-            var8 = var8.bind(var9)();
             var3 = var7[var3];
-            var9 = var5.bind(var4)(var3);
-            var3 = var9.useHasTier2Premium;
-            var10 = var3.bind(var9)();
-            var3 = 10;
-            var3 = var7[var3];
-            var14 = var5.bind(var4)(var3);
-            var11 = var14.UNSAFE_useIsDismissibleContentDismissed;
-            var9 = 11;
-            var3 = var7[var9];
-            var3 = var5.bind(var4)(var3);
-            var3 = var3.DismissibleContent;
-            var3 = var3.MOBILE_NITRO_HOME_SETTINGS_BADGE;
-            var3 = var11.bind(var14)(var3);
-            var3 = !var3;
-            if(!var3) { _fun0001_ip = 254; continue _fun0001 }
- 251:
-            var3 = var10;
- 254:
-            if(var17) { _fun0001_ip = 260; continue _fun0001 }
- 257:
-            var17 = var8;
- 260:
-            if(var17) { _fun0001_ip = 266; continue _fun0001 }
- 263:
-            var17 = var3;
- 266:
+            var8 = var5.bind(var4)(var3);
+            var3 = var8.useHasPremiumSubscriptionToDisplay;
+            var12 = var3.bind(var8)();
+            var3 = _closure1_slot11;
+            var17 = var3.bind(var4)();
             _closure2_slot3 = var17;
-            var25 = new Array(0);
+            var24 = new Array(0);
             var3 = 12;
             var3 = var7[var3];
             var7 = var5.bind(var4)(var3);
@@ -185,17 +198,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot7;
             var3 = var5.bind(var7)(var3);
             var5 = null;
-            if(!(var5 != var3)) { _fun0001_ip = 346; continue _fun0001 }
- 307:
-            var7 = var25.push;
+            if(!(var5 != var3)) { _fun0002_ip = 215; continue _fun0002 }
+ 173:
+            var7 = var24.push;
             var8 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var9];
+            var9 = _closure1_slot2;
+            var3 = 11;
+            var3 = var9[var3];
             var3 = var8.bind(var4)(var3);
             var3 = var3.DismissibleContent;
             var3 = var3.TRIAL_FOR_ALL_MOBILE_SETTINGS_NOTICE;
-            var3 = var7.bind(var25)(var3);
- 346:
+            var3 = var7.bind(var24)(var3);
+ 215:
             var7 = _closure1_slot3;
             var8 = var7.useCallback;
             var3 = new Array(2);
@@ -217,7 +231,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var14 = var8.bind(var7)(var2, var3);
+            var13 = var8.bind(var7)(var2, var3);
             var3 = var7.useCallback;
             var2 = new Array(1);
             var2[0] = var1;
@@ -255,17 +269,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var9.bind(var10)(var8, var1);
             var11 = var1.enabled;
             var1 = var7.useRef;
-            var21 = var1.bind(var7)(var5);
+            var20 = var1.bind(var7)(var5);
             var1 = 15;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
-            var1 = var1.bind(var4)(var21);
+            var1 = var1.bind(var4)(var20);
             _closure2_slot5 = var1;
             var5 = var7.useCallback;
             var2 = new Array(1);
             var2[0] = var1;
             var1 = function() {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var4 = _closure2_slot5;
                     var1 = _closure1_slot6;
@@ -280,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var2.bind(var1)();
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot2;
-                    if(var4) { _fun0002_ip = 109; continue _fun0002 }
+                    if(var4) { _fun0003_ip = 109; continue _fun0003 }
  62:
                     var4 = 17;
                     var4 = var2[var4];
@@ -292,7 +306,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.EntitlementFeatureNames;
                     var4 = var4.SAVED_MESSAGES;
                     var4 = var6.bind(var1)(var4);
-                    _fun0002_ip = 190; continue _fun0002;
+                    _fun0003_ip = 190; continue _fun0003;
  109:
                     var4 = 19;
                     var4 = var2[var4];
@@ -318,7 +332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var20 = var5.bind(var7)(var1, var2);
+            var19 = var5.bind(var7)(var1, var2);
             var2 = _closure1_slot0;
             var1 = 22;
             var1 = var3[var1];
@@ -336,64 +350,64 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var7;
             var7 = {};
-            var7['paddingTop'] = var27;
+            var7['paddingTop'] = var26;
             var5[1] = var7;
             var1['style'] = var5;
             var9 = 'box-none';
             var1['pointerEvents'] = var9;
-            if(!var6) { _fun0001_ip = 671; continue _fun0001 }
- 621:
+            if(!var6) { _fun0002_ip = 540; continue _fun0002 }
+ 490:
             var8 = _closure1_slot8;
             var7 = _closure1_slot4;
             var5 = {};
-            var19 = var18.loading;
-            var5['style'] = var19;
-            var22 = _closure1_slot5;
-            var19 = {};
-            var28 = 'large';
-            var19['size'] = var28;
-            var19 = var8.bind(var4)(var22, var19);
-            var5['children'] = var19;
+            var16 = var18.loading;
+            var5['style'] = var16;
+            var21 = _closure1_slot5;
+            var16 = {};
+            var27 = 'large';
+            var16['size'] = var27;
+            var16 = var8.bind(var4)(var21, var16);
+            var5['children'] = var16;
             var6 = var8.bind(var4)(var7, var5);
- 671:
+ 540:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot9;
             var7 = _closure1_slot4;
             var6 = {};
-            var22 = var18.buttons;
-            var19 = new Array(2);
-            var19[0] = var22;
-            var22 = {};
-            var22['paddingTop'] = var27;
-            var19[1] = var22;
-            var6['style'] = var19;
+            var21 = var18.buttons;
+            var16 = new Array(2);
+            var16[0] = var21;
+            var21 = {};
+            var21['paddingTop'] = var26;
+            var16[1] = var21;
+            var6['style'] = var16;
             var6['pointerEvents'] = var9;
-            var22 = _closure1_slot8;
-            var19 = _closure1_slot1;
-            var27 = _closure1_slot2;
-            var9 = 23;
-            var9 = var27[var9];
-            var19 = var19.bind(var4)(var9);
-            var9 = {};
-            var9['shopButtonRef'] = var26;
-            var9['navigateToShop'] = var23;
-            var19 = var22.bind(var4)(var19, var9);
-            var9 = new Array(4);
-            var9[0] = var19;
-            var12 = !var12;
-            if(!var12) { _fun0001_ip = 827; continue _fun0001 }
- 779:
-            var23 = _closure1_slot8;
-            var22 = _closure1_slot1;
+            var21 = _closure1_slot8;
+            var16 = _closure1_slot1;
             var26 = _closure1_slot2;
-            var19 = 24;
-            var19 = var26[var19];
-            var22 = var22.bind(var4)(var19);
-            var19 = {};
-            var19['contentTypes'] = var25;
-            var24 = function children(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+            var9 = 23;
+            var9 = var26[var9];
+            var16 = var16.bind(var4)(var9);
+            var9 = {};
+            var9['shopButtonRef'] = var25;
+            var9['navigateToShop'] = var22;
+            var16 = var21.bind(var4)(var16, var9);
+            var9 = new Array(4);
+            var9[0] = var16;
+            var12 = !var12;
+            if(!var12) { _fun0002_ip = 696; continue _fun0002 }
+ 648:
+            var22 = _closure1_slot8;
+            var21 = _closure1_slot1;
+            var25 = _closure1_slot2;
+            var16 = 24;
+            var16 = var25[var16];
+            var21 = var21.bind(var4)(var16);
+            var16 = {};
+            var16['contentTypes'] = var24;
+            var23 = function children(arg1) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     var1 = arg1;
                     var11 = var1.visibleContent;
@@ -462,7 +476,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8[0] = var9;
                     var9 = null;
                     var9 = var9 !== var11;
-                    if(!var9) { _fun0003_ip = 300; continue _fun0003 }
+                    if(!var9) { _fun0004_ip = 300; continue _fun0004 }
  270:
                     var12 = _closure1_slot8;
                     var11 = _closure1_slot4;
@@ -480,88 +494,90 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var19['children'] = var24;
-            var12 = var23.bind(var4)(var22, var19);
- 827:
+            var16['children'] = var23;
+            var12 = var22.bind(var4)(var21, var16);
+ 696:
             var9[1] = var12;
-            if(!var10) { _fun0001_ip = 837; continue _fun0001 }
- 834:
+            if(!var10) { _fun0002_ip = 706; continue _fun0002 }
+ 703:
             var10 = var11;
- 837:
-            if(!var10) { _fun0001_ip = 1041; continue _fun0001 }
- 843:
-            var19 = _closure1_slot8;
-            var23 = _closure1_slot0;
-            var24 = _closure1_slot2;
+ 706:
+            if(!var10) { _fun0002_ip = 913; continue _fun0002 }
+ 712:
+            var16 = _closure1_slot8;
+            var22 = _closure1_slot0;
+            var23 = _closure1_slot2;
             var11 = 25;
-            var11 = var24[var11];
-            var11 = var23.bind(var4)(var11);
+            var11 = var23[var11];
+            var11 = var22.bind(var4)(var11);
             var12 = var11.PressableScale;
             var11 = {};
-            var11['ref'] = var21;
-            var21 = var18.nitroPressable;
-            var11['style'] = var21;
-            var21 = 'button';
-            var11['accessibilityRole'] = var21;
-            var21 = 26;
-            var22 = var24[var21];
-            var22 = var23.bind(var4)(var22);
-            var25 = var22.intl;
-            var22 = var25.string;
-            var21 = var24[var21];
-            var21 = var23.bind(var4)(var21);
-            var21 = var21.t;
-            var21 = var21.2pAkDA;
-            var21 = var22.bind(var25)(var21);
-            var11['accessibilityLabel'] = var21;
-            var11['onPress'] = var20;
-            var11['hitSlop'] = var13;
-            var21 = _closure1_slot4;
-            var20 = {};
-            var22 = var18.button;
-            var20['style'] = var22;
-            var22 = 28;
-            var22 = var24[var22];
-            var22 = var23.bind(var4)(var22);
-            var23 = var22.BookmarkIcon;
-            var22 = {};
-            var24 = var18.icon;
-            var24 = var24.color;
-            var22['color'] = var24;
-            var24 = 'sm';
-            var22['size'] = var24;
-            var22 = var19.bind(var4)(var23, var22);
-            var20['children'] = var22;
-            var20 = var19.bind(var4)(var21, var20);
-            var11['children'] = var20;
-            var10 = var19.bind(var4)(var12, var11);
- 1041:
+            var11['ref'] = var20;
+            var20 = var18.nitroPressable;
+            var11['style'] = var20;
+            var20 = 'button';
+            var11['accessibilityRole'] = var20;
+            var20 = 26;
+            var21 = var23[var20];
+            var21 = var22.bind(var4)(var21);
+            var24 = var21.intl;
+            var21 = var24.string;
+            var20 = var23[var20];
+            var20 = var22.bind(var4)(var20);
+            var20 = var20.t;
+            var20 = var20.2pAkDA;
+            var20 = var21.bind(var24)(var20);
+            var11['accessibilityLabel'] = var20;
+            var11['onPress'] = var19;
+            var19 = 8;
+            var11['hitSlop'] = var19;
+            var20 = _closure1_slot4;
+            var19 = {};
+            var21 = var18.button;
+            var19['style'] = var21;
+            var21 = 28;
+            var21 = var23[var21];
+            var21 = var22.bind(var4)(var21);
+            var22 = var21.BookmarkIcon;
+            var21 = {};
+            var23 = var18.icon;
+            var23 = var23.color;
+            var21['color'] = var23;
+            var23 = 'sm';
+            var21['size'] = var23;
+            var21 = var16.bind(var4)(var22, var21);
+            var19['children'] = var21;
+            var19 = var16.bind(var4)(var20, var19);
+            var11['children'] = var19;
+            var10 = var16.bind(var4)(var12, var11);
+ 913:
             var9[2] = var10;
             var12 = _closure1_slot8;
-            var22 = _closure1_slot0;
+            var21 = _closure1_slot0;
             var19 = _closure1_slot2;
             var10 = 25;
             var10 = var19[var10];
-            var10 = var22.bind(var4)(var10);
+            var10 = var21.bind(var4)(var10);
             var11 = var10.PressableScale;
             var10 = {};
-            var10['ref'] = var16;
-            var16 = var18.settingsPressable;
-            var10['style'] = var16;
-            var16 = 'button';
-            var10['accessibilityRole'] = var16;
-            var16 = 26;
-            var20 = var19[var16];
-            var20 = var22.bind(var4)(var20);
-            var21 = var20.intl;
-            var20 = var21.string;
-            var16 = var19[var16];
-            var16 = var22.bind(var4)(var16);
-            var16 = var16.t;
-            var16 = var16.3D5yo6;
-            var16 = var20.bind(var21)(var16);
-            var10['accessibilityLabel'] = var16;
-            var10['onPress'] = var14;
+            var10['ref'] = var14;
+            var14 = var18.settingsPressable;
+            var10['style'] = var14;
+            var14 = 'button';
+            var10['accessibilityRole'] = var14;
+            var14 = 26;
+            var16 = var19[var14];
+            var16 = var21.bind(var4)(var16);
+            var20 = var16.intl;
+            var16 = var20.string;
+            var14 = var19[var14];
+            var14 = var21.bind(var4)(var14);
+            var14 = var14.t;
+            var14 = var14.3D5yo6;
+            var14 = var16.bind(var20)(var14);
+            var10['accessibilityLabel'] = var14;
+            var10['onPress'] = var13;
+            var13 = 8;
             var10['hitSlop'] = var13;
             var14 = _closure1_slot4;
             var13 = {};
@@ -590,13 +606,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var2 = var4.bind(var7)(var2);
-    var4 = 30;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/main_tabs_v2/native/tabs/you/YouBannerDecorations.tsx';
-    var4 = var5.bind(var6)(var4);
-    var3['default'] = var2;
+    var4 = var5.bind(var8)(var4);
+    var5 = 30;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/main_tabs_v2/native/tabs/you/YouBannerDecorations.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['default'] = var4;
+    var3['useHasSettingsBadge'] = var2;
     return var1;
 })();

@@ -259,9 +259,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = arg1;
                     var15 = var1.thread;
                     var _closure3_slot0 = var15;
-                    var26 = var1.hasJoinedPost;
-                    var19 = var1.muted;
-                    var _closure3_slot1 = var19;
+                    var27 = var1.hasJoinedPost;
+                    var20 = var1.muted;
+                    var _closure3_slot1 = var20;
                     var3 = var1.isModerator;
                     var _closure3_slot2 = var3;
                     var11 = var1.isAuthor;
@@ -273,53 +273,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var _closure3_slot5 = var5;
                     var5 = var1.parentChannel;
                     var _closure3_slot6 = var5;
-                    var9 = var1.messageCount;
+                    var7 = var1.messageCount;
                     var13 = var1.canUnarchiveThread;
                     var8 = undefined;
                     var _closure3_slot7 = var8;
                     var1 = new Array(0);
                     var6 = var15.threadMetadata;
-                    var7 = null;
-                    var10 = var7 == var6;
+                    var9 = null;
+                    var10 = var9 == var6;
                     var14 = undefined;
                     if(var10) { _fun0003_ip = 132; continue _fun0003 }
  126:
                     var14 = var6.archived;
  132:
                     var6 = var15.threadMetadata;
-                    var7 = var7 == var6;
-                    var23 = undefined;
-                    if(var7) { _fun0003_ip = 153; continue _fun0003 }
+                    var9 = var9 == var6;
+                    var24 = undefined;
+                    if(var9) { _fun0003_ip = 153; continue _fun0003 }
  147:
-                    var23 = var6.locked;
+                    var24 = var6.locked;
  153:
                     var10 = var15.hasFlag;
-                    var7 = _closure1_slot11;
-                    var7 = var7.PINNED;
-                    var18 = var10.bind(var15)(var7);
+                    var6 = _closure1_slot11;
+                    var6 = var6.PINNED;
+                    var19 = var10.bind(var15)(var6);
                     var16 = var1.push;
                     var10 = {};
-                    var7 = 'mark-as-read';
-                    var10['sectionKey'] = var7;
-                    var20 = {};
-                    var25 = _closure1_slot0;
+                    var6 = 'mark-as-read';
+                    var10['sectionKey'] = var6;
+                    var18 = {};
+                    var21 = _closure1_slot0;
                     var22 = _closure1_slot2;
-                    var7 = 8;
-                    var17 = var22[var7];
-                    var17 = var25.bind(var8)(var17);
-                    var24 = var17.intl;
-                    var21 = var24.string;
-                    var17 = var22[var7];
-                    var17 = var25.bind(var8)(var17);
+                    var6 = 8;
+                    var17 = var22[var6];
+                    var17 = var21.bind(var8)(var17);
+                    var25 = var17.intl;
+                    var23 = var25.string;
+                    var17 = var22[var6];
+                    var17 = var21.bind(var8)(var17);
                     var17 = var17.t;
                     var17 = var17.e6RscX;
-                    var17 = var21.bind(var24)(var17);
-                    var20['label'] = var17;
-                    var21 = _closure1_slot1;
+                    var17 = var23.bind(var25)(var17);
+                    var18['label'] = var17;
                     var17 = 9;
                     var17 = var22[var17];
                     var17 = var21.bind(var8)(var17);
-                    var20['iconSource'] = var17;
+                    var17 = var17.EyeIcon;
+                    var18['IconComponent'] = var17;
                     var17 = function onPress() {
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -344,9 +344,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var12[var5](var11, var10, var9, var8, var7);
                         return var1;
                     };
-                    var20['onPress'] = var17;
+                    var18['onPress'] = var17;
                     var17 = new Array(1);
-                    var17[0] = var20;
+                    var17[0] = var18;
                     var10['buttons'] = var17;
                     var10 = var16.bind(var1)(var10);
                     var10 = {};
@@ -354,29 +354,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10['sectionKey'] = var16;
                     var16 = new Array(0);
                     var10['buttons'] = var16;
-                    var20 = var10.buttons;
-                    var17 = var20.push;
+                    var18 = var10.buttons;
+                    var17 = var18.push;
                     var16 = {};
-                    var27 = _closure1_slot0;
-                    var24 = _closure1_slot2;
-                    var21 = var24[var7];
-                    var21 = var27.bind(var8)(var21);
-                    var25 = var21.intl;
-                    var22 = var25.string;
-                    var21 = var24[var7];
-                    var21 = var27.bind(var8)(var21);
+                    var22 = _closure1_slot0;
+                    var23 = _closure1_slot2;
+                    var21 = var23[var6];
+                    var21 = var22.bind(var8)(var21);
+                    var26 = var21.intl;
+                    var25 = var26.string;
+                    var21 = var23[var6];
+                    var21 = var22.bind(var8)(var21);
                     var21 = var21.t;
-                    if(var26) { _fun0003_ip = 439; continue _fun0003 }
- 385:
-                    var26 = var21.ihLPiI;
-                    var26 = var22.bind(var25)(var26);
-                    var16['label'] = var26;
-                    var27 = _closure1_slot1;
-                    var26 = 13;
-                    var26 = var24[var26];
-                    var26 = var27.bind(var8)(var26);
-                    var16['iconSource'] = var26;
-                    var26 = function onPress() {
+                    if(var27) { _fun0003_ip = 441; continue _fun0003 }
+ 386:
+                    var27 = var21.ihLPiI;
+                    var27 = var25.bind(var26)(var27);
+                    var16['label'] = var27;
+                    var27 = 13;
+                    var27 = var23[var27];
+                    var27 = var22.bind(var8)(var27);
+                    var27 = var27.BellIcon;
+                    var16['IconComponent'] = var27;
+                    var27 = function onPress() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
                         var1 = 12;
@@ -389,18 +389,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var3.bind(var4)(var2, var1);
                         return var1;
                     };
-                    var16['onPress'] = var26;
-                    var26 = var17.bind(var20)(var16);
-                    _fun0003_ip = 491; continue _fun0003;
- 439:
+                    var16['onPress'] = var27;
+                    var27 = var17.bind(var18)(var16);
+                    _fun0003_ip = 494; continue _fun0003;
+ 441:
                     var21 = var21.2LsZdX;
-                    var21 = var22.bind(var25)(var21);
+                    var21 = var25.bind(var26)(var21);
                     var16['label'] = var21;
-                    var22 = _closure1_slot1;
                     var21 = 11;
-                    var21 = var24[var21];
+                    var21 = var23[var21];
                     var21 = var22.bind(var8)(var21);
-                    var16['iconSource'] = var21;
+                    var21 = var21.UserMinusIcon;
+                    var16['IconComponent'] = var21;
                     var21 = function onPress() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
@@ -415,33 +415,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var16['onPress'] = var21;
-                    var16 = var17.bind(var20)(var16);
- 491:
-                    if(var14) { _fun0003_ip = 608; continue _fun0003 }
+                    var16 = var17.bind(var18)(var16);
  494:
-                    if(!var12) { _fun0003_ip = 717; continue _fun0003 }
- 500:
+                    if(var14) { _fun0003_ip = 612; continue _fun0003 }
+ 497:
+                    if(!var12) { _fun0003_ip = 722; continue _fun0003 }
+ 503:
                     var17 = var10.buttons;
                     var16 = var17.push;
                     var14 = {};
-                    var25 = _closure1_slot0;
+                    var21 = _closure1_slot0;
                     var22 = _closure1_slot2;
-                    var20 = var22[var7];
-                    var20 = var25.bind(var8)(var20);
-                    var24 = var20.intl;
-                    var21 = var24.string;
-                    var20 = var22[var7];
-                    var20 = var25.bind(var8)(var20);
-                    var20 = var20.t;
-                    var20 = var20.BTs4KS;
-                    var20 = var21.bind(var24)(var20);
-                    var14['label'] = var20;
-                    var21 = _closure1_slot1;
-                    var20 = 15;
-                    var20 = var22[var20];
-                    var20 = var21.bind(var8)(var20);
-                    var14['iconSource'] = var20;
-                    var20 = function onPress() {
+                    var18 = var22[var6];
+                    var18 = var21.bind(var8)(var18);
+                    var25 = var18.intl;
+                    var23 = var25.string;
+                    var18 = var22[var6];
+                    var18 = var21.bind(var8)(var18);
+                    var18 = var18.t;
+                    var18 = var18.BTs4KS;
+                    var18 = var23.bind(var25)(var18);
+                    var14['label'] = var18;
+                    var18 = 15;
+                    var18 = var22[var18];
+                    var18 = var21.bind(var8)(var18);
+                    var18 = var18.XLargeIcon;
+                    var14['IconComponent'] = var18;
+                    var18 = function onPress() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
                         var1 = 12;
@@ -454,32 +454,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var4.bind(var5)(var3, var2);
                         return var1;
                     };
-                    var14['onPress'] = var20;
+                    var14['onPress'] = var18;
                     var14 = var16.bind(var17)(var14);
-                    _fun0003_ip = 717; continue _fun0003;
- 608:
-                    if(!var13) { _fun0003_ip = 717; continue _fun0003 }
- 611:
+                    _fun0003_ip = 722; continue _fun0003;
+ 612:
+                    if(!var13) { _fun0003_ip = 722; continue _fun0003 }
+ 615:
                     var16 = var10.buttons;
                     var14 = var16.push;
                     var13 = {};
-                    var24 = _closure1_slot0;
+                    var18 = _closure1_slot0;
                     var21 = _closure1_slot2;
-                    var17 = var21[var7];
-                    var17 = var24.bind(var8)(var17);
-                    var22 = var17.intl;
-                    var20 = var22.string;
-                    var17 = var21[var7];
-                    var17 = var24.bind(var8)(var17);
+                    var17 = var21[var6];
+                    var17 = var18.bind(var8)(var17);
+                    var23 = var17.intl;
+                    var22 = var23.string;
+                    var17 = var21[var6];
+                    var17 = var18.bind(var8)(var17);
                     var17 = var17.t;
                     var17 = var17.cnRubW;
-                    var17 = var20.bind(var22)(var17);
+                    var17 = var22.bind(var23)(var17);
                     var13['label'] = var17;
-                    var20 = _closure1_slot1;
                     var17 = 14;
                     var17 = var21[var17];
-                    var17 = var20.bind(var8)(var17);
-                    var13['iconSource'] = var17;
+                    var17 = var18.bind(var8)(var17);
+                    var17 = var17.ClockIcon;
+                    var13['IconComponent'] = var17;
                     var17 = function onPress() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
@@ -495,32 +495,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var13['onPress'] = var17;
                     var13 = var14.bind(var16)(var13);
- 717:
-                    if(!var12) { _fun0003_ip = 886; continue _fun0003 }
- 723:
+ 722:
+                    if(!var12) { _fun0003_ip = 893; continue _fun0003 }
+ 728:
                     var16 = var10.buttons;
                     var14 = var16.push;
                     var13 = {};
-                    var24 = _closure1_slot0;
+                    var18 = _closure1_slot0;
                     var21 = _closure1_slot2;
-                    var17 = var21[var7];
-                    var17 = var24.bind(var8)(var17);
-                    var22 = var17.intl;
-                    var20 = var22.string;
-                    var17 = var21[var7];
-                    var17 = var24.bind(var8)(var17);
+                    var17 = var21[var6];
+                    var17 = var18.bind(var8)(var17);
+                    var23 = var17.intl;
+                    var22 = var23.string;
+                    var17 = var21[var6];
+                    var17 = var18.bind(var8)(var17);
                     var17 = var17.t;
-                    if(var23) { _fun0003_ip = 834; continue _fun0003 }
- 780:
-                    var23 = var17.Ur/0NT;
-                    var23 = var20.bind(var22)(var23);
-                    var13['label'] = var23;
-                    var24 = _closure1_slot1;
-                    var23 = 16;
-                    var23 = var21[var23];
-                    var23 = var24.bind(var8)(var23);
-                    var13['iconSource'] = var23;
-                    var23 = function onPress() {
+                    if(var24) { _fun0003_ip = 840; continue _fun0003 }
+ 785:
+                    var24 = var17.Ur/0NT;
+                    var24 = var22.bind(var23)(var24);
+                    var13['label'] = var24;
+                    var24 = 17;
+                    var24 = var21[var24];
+                    var24 = var18.bind(var8)(var24);
+                    var24 = var24.LockIcon;
+                    var13['IconComponent'] = var24;
+                    var24 = function onPress() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
                         var1 = 12;
@@ -532,18 +532,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var13['onPress'] = var23;
-                    var23 = var14.bind(var16)(var13);
-                    _fun0003_ip = 886; continue _fun0003;
- 834:
+                    var13['onPress'] = var24;
+                    var24 = var14.bind(var16)(var13);
+                    _fun0003_ip = 893; continue _fun0003;
+ 840:
                     var17 = var17./OKSxs;
-                    var17 = var20.bind(var22)(var17);
+                    var17 = var22.bind(var23)(var17);
                     var13['label'] = var17;
-                    var20 = _closure1_slot1;
                     var17 = 16;
                     var17 = var21[var17];
-                    var17 = var20.bind(var8)(var17);
-                    var13['iconSource'] = var17;
+                    var17 = var18.bind(var8)(var17);
+                    var17 = var17.LockUnlockedIcon;
+                    var13['IconComponent'] = var17;
                     var17 = function onPress() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
@@ -558,44 +558,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var13['onPress'] = var17;
                     var13 = var14.bind(var16)(var13);
- 886:
+ 893:
                     var14 = !var3;
-                    if(!var14) { _fun0003_ip = 902; continue _fun0003 }
- 892:
+                    if(!var14) { _fun0003_ip = 909; continue _fun0003 }
+ 899:
                     var13 = var15.isLockedThread;
                     var14 = var13.bind(var15)();
- 902:
+ 909:
                     var13 = var11;
-                    if(!var11) { _fun0003_ip = 911; continue _fun0003 }
- 908:
+                    if(!var11) { _fun0003_ip = 918; continue _fun0003 }
+ 915:
                     var13 = !var14;
- 911:
-                    if(!var13) { _fun0003_ip = 1020; continue _fun0003 }
- 914:
+ 918:
+                    if(!var13) { _fun0003_ip = 1028; continue _fun0003 }
+ 921:
                     var15 = var10.buttons;
                     var14 = var15.push;
                     var13 = {};
-                    var22 = _closure1_slot0;
-                    var20 = _closure1_slot2;
-                    var16 = var20[var7];
-                    var16 = var22.bind(var8)(var16);
-                    var21 = var16.intl;
-                    var17 = var21.string;
-                    var16 = var20[var7];
-                    var16 = var22.bind(var8)(var16);
+                    var17 = _closure1_slot0;
+                    var18 = _closure1_slot2;
+                    var16 = var18[var6];
+                    var16 = var17.bind(var8)(var16);
+                    var22 = var16.intl;
+                    var21 = var22.string;
+                    var16 = var18[var6];
+                    var16 = var17.bind(var8)(var16);
                     var16 = var16.t;
                     var16 = var16.NP1yHB;
-                    var16 = var17.bind(var21)(var16);
+                    var16 = var21.bind(var22)(var16);
                     var13['label'] = var16;
-                    var17 = _closure1_slot1;
-                    var16 = 17;
-                    var16 = var20[var16];
+                    var16 = 18;
+                    var16 = var18[var16];
                     var16 = var17.bind(var8)(var16);
-                    var13['iconSource'] = var16;
+                    var16 = var16.PencilIcon;
+                    var13['IconComponent'] = var16;
                     var16 = function onPress() {
                         var3 = _closure1_slot0;
                         var9 = _closure1_slot2;
-                        var1 = 18;
+                        var1 = 19;
                         var2 = var9[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -610,7 +610,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var5.id;
                         var2['threadId'] = var7;
                         var8 = _closure1_slot1;
-                        var7 = 19;
+                        var7 = 20;
                         var7 = var9[var7];
                         var10 = var8.bind(var1)(var7);
                         var7 = var10.castChannelIdAsMessageId;
@@ -619,7 +619,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['messageId'] = var5;
                         var5 = true;
                         var2['isEdit'] = var5;
-                        var7 = 20;
+                        var7 = 21;
                         var5 = var9[var7];
                         var5 = var8.bind(var1)(var5);
                         var10 = var5.FORUM_CHANNEL;
@@ -643,33 +643,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var13['onPress'] = var16;
                     var13 = var14.bind(var15)(var13);
- 1020:
-                    if(!var12) { _fun0003_ip = 1257; continue _fun0003 }
- 1026:
+ 1028:
+                    if(!var12) { _fun0003_ip = 1267; continue _fun0003 }
+ 1034:
                     var14 = var10.buttons;
                     var13 = var14.push;
                     var12 = {};
-                    var21 = _closure1_slot0;
+                    var16 = _closure1_slot0;
                     var17 = _closure1_slot2;
-                    var15 = var17[var7];
-                    var15 = var21.bind(var8)(var15);
-                    var20 = var15.intl;
-                    var16 = var20.string;
-                    var15 = var17[var7];
-                    var15 = var21.bind(var8)(var15);
+                    var15 = var17[var6];
+                    var15 = var16.bind(var8)(var15);
+                    var21 = var15.intl;
+                    var18 = var21.string;
+                    var15 = var17[var6];
+                    var15 = var16.bind(var8)(var15);
                     var15 = var15.t;
                     var15 = var15.SGuVbW;
-                    var15 = var16.bind(var20)(var15);
+                    var15 = var18.bind(var21)(var15);
                     var12['label'] = var15;
-                    var16 = _closure1_slot1;
-                    var15 = 21;
+                    var15 = 22;
                     var15 = var17[var15];
                     var15 = var16.bind(var8)(var15);
-                    var12['iconSource'] = var15;
+                    var15 = var15.SettingsIcon;
+                    var12['IconComponent'] = var15;
                     var15 = function onPress() {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        var2 = 22;
+                        var2 = 23;
                         var6 = var4[var2];
                         var1 = undefined;
                         var7 = var3.bind(var1)(var6);
@@ -690,41 +690,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.availableTags;
                     var12 = var5.length;
                     var5 = 0;
-                    if(!(var12 > var5)) { _fun0003_ip = 1257; continue _fun0003 }
- 1151:
+                    if(!(var12 > var5)) { _fun0003_ip = 1267; continue _fun0003 }
+ 1160:
                     var13 = var10.buttons;
                     var12 = var13.push;
                     var5 = {};
-                    var20 = _closure1_slot0;
+                    var15 = _closure1_slot0;
                     var16 = _closure1_slot2;
-                    var14 = var16[var7];
-                    var14 = var20.bind(var8)(var14);
-                    var17 = var14.intl;
-                    var15 = var17.string;
-                    var14 = var16[var7];
-                    var14 = var20.bind(var8)(var14);
+                    var14 = var16[var6];
+                    var14 = var15.bind(var8)(var14);
+                    var18 = var14.intl;
+                    var17 = var18.string;
+                    var14 = var16[var6];
+                    var14 = var15.bind(var8)(var14);
                     var14 = var14.t;
                     var14 = var14.436ZFx;
-                    var14 = var15.bind(var17)(var14);
+                    var14 = var17.bind(var18)(var14);
                     var5['label'] = var14;
-                    var15 = _closure1_slot1;
-                    var14 = 23;
+                    var14 = 24;
                     var14 = var16[var14];
                     var14 = var15.bind(var8)(var14);
-                    var5['iconSource'] = var14;
+                    var14 = var14.TagsIcon;
+                    var5['IconComponent'] = var14;
                     var14 = function onPress() {
                         var5 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 24;
+                        var1 = 25;
                         var4 = var2[var1];
                         var1 = undefined;
                         var6 = var5.bind(var1)(var4);
                         var5 = var6.openLazy;
                         var4 = _closure1_slot0;
-                        var3 = 26;
+                        var3 = 27;
                         var3 = var2[var3];
                         var4 = var4.bind(var1)(var3);
-                        var3 = 25;
+                        var3 = 26;
                         var3 = var2[var3];
                         var2 = var2.paths;
                         var4 = var4.bind(var1)(var3, var2);
@@ -741,31 +741,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var5['onPress'] = var14;
                     var5 = var12.bind(var13)(var5);
- 1257:
+ 1267:
                     var13 = var10.buttons;
                     var12 = var13.push;
                     var5 = {};
-                    var20 = _closure1_slot0;
+                    var15 = _closure1_slot0;
                     var16 = _closure1_slot2;
-                    var14 = var16[var7];
-                    var14 = var20.bind(var8)(var14);
-                    var17 = var14.intl;
-                    var15 = var17.string;
-                    var14 = var16[var7];
-                    var14 = var20.bind(var8)(var14);
+                    var14 = var16[var6];
+                    var14 = var15.bind(var8)(var14);
+                    var18 = var14.intl;
+                    var17 = var18.string;
+                    var14 = var16[var6];
+                    var14 = var15.bind(var8)(var14);
                     var14 = var14.t;
                     var14 = var14.WqhZsr;
-                    var14 = var15.bind(var17)(var14);
+                    var14 = var17.bind(var18)(var14);
                     var5['label'] = var14;
-                    var15 = _closure1_slot1;
-                    var14 = 27;
+                    var14 = 28;
                     var14 = var16[var14];
                     var14 = var15.bind(var8)(var14);
-                    var5['iconSource'] = var14;
+                    var14 = var14.LinkIcon;
+                    var5['IconComponent'] = var14;
                     var14 = function onPress() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 28;
+                        var1 = 29;
                         var2 = var2[var1];
                         var1 = undefined;
                         var6 = var3.bind(var1)(var2);
@@ -792,35 +792,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var10.buttons;
                     var12 = var13.push;
                     var5 = {};
-                    var20 = _closure1_slot0;
+                    var15 = _closure1_slot0;
                     var16 = _closure1_slot2;
-                    var14 = var16[var7];
-                    var14 = var20.bind(var8)(var14);
-                    var17 = var14.intl;
-                    var15 = var17.string;
-                    var14 = var16[var7];
-                    var14 = var20.bind(var8)(var14);
+                    var14 = var16[var6];
+                    var14 = var15.bind(var8)(var14);
+                    var18 = var14.intl;
+                    var17 = var18.string;
+                    var14 = var16[var6];
+                    var14 = var15.bind(var8)(var14);
                     var14 = var14.t;
-                    if(var19) { _fun0003_ip = 1504; continue _fun0003 }
- 1450:
-                    var19 = var14.nP+YkZ;
-                    var19 = var15.bind(var17)(var19);
-                    var5['label'] = var19;
-                    var20 = _closure1_slot1;
-                    var19 = 30;
-                    var19 = var16[var19];
-                    var19 = var20.bind(var8)(var19);
-                    var5['iconSource'] = var19;
-                    var19 = function onPress() {
+                    if(var20) { _fun0003_ip = 1516; continue _fun0003 }
+ 1461:
+                    var20 = var14.nP+YkZ;
+                    var20 = var17.bind(var18)(var20);
+                    var5['label'] = var20;
+                    var20 = 30;
+                    var20 = var16[var20];
+                    var20 = var15.bind(var8)(var20);
+                    var20 = var20.BellSlashIcon;
+                    var5['IconComponent'] = var20;
+                    var20 = function onPress() {
                         var5 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 24;
+                        var1 = 25;
                         var4 = var2[var1];
                         var1 = undefined;
                         var6 = var5.bind(var1)(var4);
                         var5 = var6.openLazy;
                         var4 = _closure1_slot0;
-                        var3 = 26;
+                        var3 = 27;
                         var3 = var2[var3];
                         var4 = var4.bind(var1)(var3);
                         var3 = 31;
@@ -843,18 +843,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var5.bind(var6)(var4, var3, var2);
                         return var1;
                     };
-                    var5['onPress'] = var19;
-                    var19 = var12.bind(var13)(var5);
-                    _fun0003_ip = 1556; continue _fun0003;
- 1504:
+                    var5['onPress'] = var20;
+                    var20 = var12.bind(var13)(var5);
+                    _fun0003_ip = 1569; continue _fun0003;
+ 1516:
                     var14 = var14.0JQfsL;
-                    var14 = var15.bind(var17)(var14);
+                    var14 = var17.bind(var18)(var14);
                     var5['label'] = var14;
-                    var15 = _closure1_slot1;
-                    var14 = 29;
+                    var14 = 13;
                     var14 = var16[var14];
                     var14 = var15.bind(var8)(var14);
-                    var5['iconSource'] = var14;
+                    var14 = var14.BellIcon;
+                    var5['IconComponent'] = var14;
                     var14 = function onPress() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
@@ -873,27 +873,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var5['onPress'] = var14;
                     var5 = var12.bind(var13)(var5);
- 1556:
+ 1569:
                     var13 = var10.buttons;
                     var12 = var13.push;
                     var5 = {};
-                    var19 = _closure1_slot0;
+                    var15 = _closure1_slot0;
                     var16 = _closure1_slot2;
-                    var14 = var16[var7];
-                    var14 = var19.bind(var8)(var14);
-                    var17 = var14.intl;
-                    var15 = var17.string;
-                    var14 = var16[var7];
-                    var14 = var19.bind(var8)(var14);
+                    var14 = var16[var6];
+                    var14 = var15.bind(var8)(var14);
+                    var18 = var14.intl;
+                    var17 = var18.string;
+                    var14 = var16[var6];
+                    var14 = var15.bind(var8)(var14);
                     var14 = var14.t;
                     var14 = var14.HcoRu7;
-                    var14 = var15.bind(var17)(var14);
+                    var14 = var17.bind(var18)(var14);
                     var5['label'] = var14;
-                    var15 = _closure1_slot1;
                     var14 = 32;
                     var14 = var16[var14];
                     var14 = var15.bind(var8)(var14);
-                    var5['iconSource'] = var14;
+                    var14 = var14.ChannelNotificationIcon;
+                    var5['IconComponent'] = var14;
                     var14 = function onPress() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -917,31 +917,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['sectionKey'] = var10;
                     var10 = new Array(0);
                     var5['buttons'] = var10;
-                    if(!var3) { _fun0003_ip = 1874; continue _fun0003 }
- 1707:
+                    if(!var3) { _fun0003_ip = 1890; continue _fun0003 }
+ 1721:
                     var13 = var5.buttons;
                     var12 = var13.push;
                     var10 = {};
-                    var19 = _closure1_slot0;
+                    var15 = _closure1_slot0;
                     var16 = _closure1_slot2;
-                    var14 = var16[var7];
-                    var14 = var19.bind(var8)(var14);
-                    var17 = var14.intl;
-                    var15 = var17.string;
-                    var14 = var16[var7];
-                    var14 = var19.bind(var8)(var14);
+                    var14 = var16[var6];
+                    var14 = var15.bind(var8)(var14);
+                    var18 = var14.intl;
+                    var17 = var18.string;
+                    var14 = var16[var6];
+                    var14 = var15.bind(var8)(var14);
                     var14 = var14.t;
-                    if(var18) { _fun0003_ip = 1820; continue _fun0003 }
- 1764:
-                    var18 = var14.EnaWho;
-                    var18 = var15.bind(var17)(var18);
-                    var10['label'] = var18;
-                    var19 = _closure1_slot1;
-                    var18 = 34;
-                    var18 = var16[var18];
-                    var18 = var19.bind(var8)(var18);
-                    var10['iconSource'] = var18;
-                    var18 = function onPress() {
+                    if(var19) { _fun0003_ip = 1835; continue _fun0003 }
+ 1778:
+                    var19 = var14.EnaWho;
+                    var19 = var17.bind(var18)(var19);
+                    var10['label'] = var19;
+                    var19 = 34;
+                    var19 = var16[var19];
+                    var19 = var15.bind(var8)(var19);
+                    var19 = var19.PinIcon;
+                    var10['IconComponent'] = var19;
+                    var19 = function onPress() {
                         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                             var3 = _closure3_slot5;
@@ -1029,18 +1029,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         }
                     };
-                    var10['onPress'] = var18;
-                    var18 = var12.bind(var13)(var10);
-                    _fun0003_ip = 1874; continue _fun0003;
- 1820:
+                    var10['onPress'] = var19;
+                    var19 = var12.bind(var13)(var10);
+                    _fun0003_ip = 1890; continue _fun0003;
+ 1835:
                     var14 = var14.trD8am;
-                    var14 = var15.bind(var17)(var14);
+                    var14 = var17.bind(var18)(var14);
                     var10['label'] = var14;
-                    var15 = _closure1_slot1;
                     var14 = 34;
                     var14 = var16[var14];
                     var14 = var15.bind(var8)(var14);
-                    var10['iconSource'] = var14;
+                    var14 = var14.PinIcon;
+                    var10['IconComponent'] = var14;
                     var14 = function onPress() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
@@ -1055,49 +1055,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var10['onPress'] = var14;
                     var10 = var12.bind(var13)(var10);
- 1874:
-                    if(var3) { _fun0003_ip = 1883; continue _fun0003 }
- 1877:
-                    if(!var11) { _fun0003_ip = 2028; continue _fun0003 }
- 1883:
-                    if(!var11) { _fun0003_ip = 1889; continue _fun0003 }
- 1886:
+ 1890:
+                    if(var3) { _fun0003_ip = 1899; continue _fun0003 }
+ 1893:
+                    if(!var11) { _fun0003_ip = 2049; continue _fun0003 }
+ 1899:
+                    if(!var11) { _fun0003_ip = 1905; continue _fun0003 }
+ 1902:
                     var11 = !var3;
- 1889:
-                    if(!var11) { _fun0003_ip = 1898; continue _fun0003 }
- 1892:
+ 1905:
+                    if(!var11) { _fun0003_ip = 1914; continue _fun0003 }
+ 1908:
                     var3 = 0;
-                    var11 = var9 > var3;
- 1898:
+                    var11 = var7 > var3;
+ 1914:
                     _closure3_slot7 = var11;
                     var10 = var5.buttons;
-                    var9 = var10.push;
+                    var7 = var10.push;
                     var3 = {};
                     var15 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var13 = var12[var7];
+                    var13 = var12[var6];
                     var13 = var15.bind(var8)(var13);
                     var14 = var13.intl;
                     var13 = var14.string;
-                    var12 = var12[var7];
+                    var12 = var12[var6];
                     var12 = var15.bind(var8)(var12);
                     var12 = var12.t;
-                    if(var11) { _fun0003_ip = 1972; continue _fun0003 }
- 1959:
+                    if(var11) { _fun0003_ip = 1988; continue _fun0003 }
+ 1975:
                     var11 = var12.nEOg1N;
                     var11 = var13.bind(var14)(var11);
-                    _fun0003_ip = 1983; continue _fun0003;
- 1972:
+                    _fun0003_ip = 1999; continue _fun0003;
+ 1988:
                     var12 = var12.xwMqDw;
                     var11 = var13.bind(var14)(var12);
- 1983:
+ 1999:
                     var3['label'] = var11;
-                    var12 = _closure1_slot1;
+                    var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
                     var11 = 36;
                     var11 = var13[var11];
                     var11 = var12.bind(var8)(var11);
-                    var3['iconSource'] = var11;
+                    var11 = var11.TrashIcon;
+                    var3['IconComponent'] = var11;
                     var11 = function onPress() {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -1225,7 +1226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var8 = _closure1_slot2;
                                     if(var2) { _fun0006_ip = 57; continue _fun0006 }
  21:
-                                    var2 = 22;
+                                    var2 = 23;
                                     var3 = var8[var2];
                                     var2 = undefined;
                                     var4 = var7.bind(var2)(var3);
@@ -1242,7 +1243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var3 = var4.deleteMessage;
                                     var1 = _closure3_slot0;
                                     var2 = var1.id;
-                                    var5 = 19;
+                                    var5 = 20;
                                     var5 = var8[var5];
                                     var6 = var7.bind(var6)(var5);
                                     var5 = var6.castChannelIdAsMessageId;
@@ -1266,34 +1267,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         }
                     };
                     var3['onPress'] = var11;
-                    var3 = var9.bind(var10)(var3);
- 2028:
+                    var3 = var7.bind(var10)(var3);
+ 2049:
                     var3 = var1.push;
                     var3 = var3.bind(var1)(var5);
-                    if(!var2) { _fun0003_ip = 2170; continue _fun0003 }
- 2044:
+                    if(!var2) { _fun0003_ip = 2192; continue _fun0003 }
+ 2065:
                     var3 = var1.push;
                     var2 = {};
                     var5 = 'developer-actions';
                     var2['sectionKey'] = var5;
                     var5 = {};
-                    var12 = _closure1_slot0;
+                    var7 = _closure1_slot0;
                     var9 = _closure1_slot2;
-                    var10 = var9[var7];
-                    var10 = var12.bind(var8)(var10);
+                    var10 = var9[var6];
+                    var10 = var7.bind(var8)(var10);
                     var11 = var10.intl;
                     var10 = var11.string;
-                    var7 = var9[var7];
-                    var7 = var12.bind(var8)(var7);
-                    var7 = var7.t;
-                    var7 = var7.DQ797u;
-                    var7 = var10.bind(var11)(var7);
-                    var5['label'] = var7;
-                    var7 = _closure1_slot1;
+                    var6 = var9[var6];
+                    var6 = var7.bind(var8)(var6);
+                    var6 = var6.t;
+                    var6 = var6.DQ797u;
+                    var6 = var10.bind(var11)(var6);
+                    var5['label'] = var6;
                     var6 = 39;
                     var6 = var9[var6];
                     var6 = var7.bind(var8)(var6);
-                    var5['iconSource'] = var6;
+                    var6 = var6.IdIcon;
+                    var5['IconComponent'] = var6;
                     var4 = function onPress() {
                         var3 = _closure1_slot0;
                         var4 = _closure1_slot2;
@@ -1317,7 +1318,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4[0] = var5;
                     var2['buttons'] = var4;
                     var2 = var3.bind(var1)(var2);
- 2170:
+ 2192:
                     return var1;
                 }
             };
@@ -1361,9 +1362,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         var2 = arg1;
                         var6 = var2.label;
+                        var11 = var2.IconComponent;
                         var3 = var2.onPress;
                         var _closure4_slot0 = var3;
-                        var11 = var2.iconSource;
                         var10 = var2.disableColor;
                         var8 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -1379,8 +1380,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.nEOg1N;
                         var2 = var3.bind(var4)(var2);
                         var9 = var6 === var2;
-                        if(var9) { _fun0007_ip = 154; continue _fun0007 }
- 98:
+                        if(var9) { _fun0007_ip = 153; continue _fun0007 }
+ 97:
                         var8 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var3 = var2[var12];
@@ -1393,7 +1394,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.xwMqDw;
                         var2 = var3.bind(var4)(var2);
                         var9 = var6 === var2;
- 154:
+ 153:
                         var4 = _closure1_slot12;
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -1403,10 +1404,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var2.ActionSheetRow;
                         var2 = {};
                         var8 = undefined;
-                        if(!var9) { _fun0007_ip = 195; continue _fun0007 }
- 191:
+                        if(!var9) { _fun0007_ip = 194; continue _fun0007 }
+ 190:
                         var8 = 'danger';
- 195:
+ 194:
                         var2['variant'] = var8;
                         var9 = _closure1_slot12;
                         var8 = _closure1_slot0;
@@ -1416,7 +1417,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var7.ActionSheetRow;
                         var8 = var7.Icon;
                         var7 = {};
-                        var7['source'] = var11;
+                        var7['IconComponent'] = var11;
                         var7['disableColor'] = var10;
                         var7 = var9.bind(var5)(var8, var7);
                         var2['icon'] = var7;

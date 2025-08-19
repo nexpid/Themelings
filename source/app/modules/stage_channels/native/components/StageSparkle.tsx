@@ -15,14 +15,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var1.IconComponent;
             var14 = var1.icon;
             var4 = undefined;
-            if(!(var14 === var4)) { _fun0001_ip = 48; continue _fun0001 }
- 25:
+            if(!(var14 === var4)) { _fun0001_ip = 47; continue _fun0001 }
+ 24:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 5;
             var1 = var3[var1];
             var14 = var2.bind(var4)(var1);
- 48:
+ 47:
             var1 = _closure1_slot6;
             var9 = var1.bind(var4)();
             var3 = _closure1_slot5;
@@ -39,8 +39,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var9.iconContainer;
             var5['style'] = var10;
             var10 = null;
-            if(!(var10 == var13)) { _fun0001_ip = 164; continue _fun0001 }
- 116:
+            if(!(var10 == var13)) { _fun0001_ip = 163; continue _fun0001 }
+ 115:
             var12 = _closure1_slot4;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -52,8 +52,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var9.iconStyle;
             var10['style'] = var14;
             var10 = var12.bind(var4)(var11, var10);
-            _fun0001_ip = 219; continue _fun0001;
- 164:
+            _fun0001_ip = 218; continue _fun0001;
+ 163:
             var12 = _closure1_slot4;
             var11 = {};
             var14 = 'lg';
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.HEADER_PRIMARY;
             var11['color'] = var14;
             var10 = var12.bind(var4)(var13, var11);
- 219:
+ 218:
             var5['children'] = var10;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);

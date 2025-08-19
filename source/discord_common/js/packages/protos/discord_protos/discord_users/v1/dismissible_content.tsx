@@ -58,10 +58,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GUILD_HEADER_EVENT_UPSELL'] = var2;
     var1 = 'GUILD_HEADER_EVENT_UPSELL';
     var4[var2] = var1;
-    var2 = 14;
-    var4['GUILD_HEADER_PREMIUM_GUILD_PROGRESS'] = var2;
-    var1 = 'GUILD_HEADER_PREMIUM_GUILD_PROGRESS';
-    var4[var2] = var1;
     var2 = 15;
     var4['GUILD_HEADER_ANIMATED_GUILD_BANNER'] = var2;
     var1 = 'GUILD_HEADER_ANIMATED_GUILD_BANNER';
@@ -133,10 +129,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 35;
     var4['SOUNDBOARD_EDUCATION'] = var2;
     var1 = 'SOUNDBOARD_EDUCATION';
-    var4[var2] = var1;
-    var2 = 36;
-    var4['GUILD_HEADER_PROGRESS_BAR_SIZE_COACH_MARK'] = var2;
-    var1 = 'GUILD_HEADER_PROGRESS_BAR_SIZE_COACH_MARK';
     var4[var2] = var1;
     var2 = 37;
     var4['GUILD_HEADER_ROLE_SUBSCRIPTION_UPSELL'] = var2;
@@ -1701,6 +1693,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 582;
     var4['COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING'] = var2;
     var1 = 'COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING';
+    var4[var2] = var1;
+    var2 = 583;
+    var4['ACCESSIBILITY_HIGH_CONTRAST_MODE_NEW_BADGE'] = var2;
+    var1 = 'ACCESSIBILITY_HIGH_CONTRAST_MODE_NEW_BADGE';
     var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;

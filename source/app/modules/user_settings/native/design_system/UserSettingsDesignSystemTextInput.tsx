@@ -524,6 +524,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = var12[var17];
         var19 = var10.bind(var4)(var19);
         var20 = var19.TextInput;
+        var29 = 'sm';
         var19 = {'label': 'Small', 'size': 'sm'};
         var20 = var21.bind(var4)(var20, var19);
         var19 = new Array(3);
@@ -686,10 +687,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var23 = var10.bind(var4)(var23);
         var24 = var23.IconButton;
         var23 = {};
-        var27 = _closure1_slot1;
+        var28 = _closure1_slot6;
         var26 = 19;
         var26 = var12[var26];
-        var26 = var27.bind(var4)(var26);
+        var26 = var10.bind(var4)(var26);
+        var27 = var26.SettingsIcon;
+        var26 = {};
+        var26['size'] = var29;
+        var26 = var28.bind(var4)(var27, var26);
         var23['icon'] = var26;
         var26 = 'Settings';
         var23['accessibilityLabel'] = var26;

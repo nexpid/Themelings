@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var7[var1];
                     var1 = undefined;
                     var5 = var6.bind(var1)(var5);
-                    if(var4) { _fun0002_ip = 270; continue _fun0002 }
+                    if(var4) { _fun0002_ip = 269; continue _fun0002 }
  38:
                     var8 = var5.addFavoriteGIF;
                     var4 = {};
@@ -142,8 +142,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var10.GifIcon;
                     var4['IconComponent'] = var10;
                     var4 = var8.bind(var9)(var4);
-                    _fun0002_ip = 398; continue _fun0002;
- 270:
+                    _fun0002_ip = 396; continue _fun0002;
+ 269:
                     var4 = var5.removeFavoriteGIF;
                     var3 = _closure2_slot1;
                     var3 = var4.bind(var5)(var3);
@@ -172,7 +172,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.GifIcon;
                     var2['IconComponent'] = var5;
                     var2 = var3.bind(var4)(var2);
- 398:
+ 396:
                     return var1;
                 }
             };

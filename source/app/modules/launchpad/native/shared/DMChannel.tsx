@@ -133,14 +133,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var3)(var1);
             var1 = var5.useBaseChannelUnreadBadgeState;
             var1 = var1.bind(var5)(var10, var16);
-            var19 = var1.unread;
+            var17 = var1.unread;
             var13 = var1.mentionCount;
             var1 = 9;
             var1 = var4[var1];
             var1 = var2.bind(var3)(var1);
-            var18 = var1.bind(var3)(var10, var19);
+            var20 = var1.bind(var3)(var10, var17);
             var12 = null;
-            var1 = var12 != var18;
+            var1 = var12 != var20;
             var11 = undefined;
             if(!var1) { _fun0001_ip = 174; continue _fun0001 }
  138:
@@ -150,32 +150,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4[var1];
             var4 = var2.bind(var3)(var1);
             var2 = var4.extractTimestamp;
-            var1 = var18.id;
+            var1 = var20.id;
             var11 = var2.bind(var4)(var1);
  174:
             var1 = 'text-muted';
-            var17 = var1;
-            if(!var19) { _fun0001_ip = 198; continue _fun0001 }
+            var19 = var1;
+            if(!var17) { _fun0001_ip = 198; continue _fun0001 }
  186:
-            var17 = var1;
+            var19 = var1;
             if(var16) { _fun0001_ip = 198; continue _fun0001 }
  192:
-            var17 = 'text-normal';
+            var19 = 'text-normal';
  198:
             var4 = _closure1_slot0;
-            var20 = _closure1_slot2;
+            var18 = _closure1_slot2;
             var1 = 11;
-            var1 = var20[var1];
+            var1 = var18[var1];
             var2 = var4.bind(var3)(var1);
             var1 = var2.useFontScale;
             var8 = var1.bind(var2)();
             var14 = _closure1_slot1;
             var1 = 12;
-            var1 = var20[var1];
+            var1 = var18[var1];
             var2 = var14.bind(var3)(var1);
             var5 = _closure1_slot5;
             var1 = 13;
-            var1 = var20[var1];
+            var1 = var18[var1];
             var1 = var4.bind(var3)(var1);
             var4 = var1.PressableHighlight;
             var1 = {};
@@ -196,48 +196,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var1;
             var6 = copyDataProperties(var24, var23);
             var6 = 14;
-            var6 = var20[var6];
+            var6 = var18[var6];
             var7 = var14.bind(var3)(var6);
             var6 = {};
             var6['channel'] = var10;
-            var6['unread'] = var19;
+            var6['unread'] = var17;
             var15 = _closure1_slot4;
             var21 = var15.ALL_MESSAGES;
             var6['resolvedUnreadSetting'] = var21;
             var6['muted'] = var16;
             var6['mentionCount'] = var13;
             var13 = 15;
-            var13 = var20[var13];
+            var13 = var18[var13];
             var14 = var14.bind(var3)(var13);
             var13 = {};
-            var13['unread'] = var19;
+            var13['unread'] = var17;
             var15 = var15.ALL_MESSAGES;
             var13['resolvedUnreadSetting'] = var15;
             var13['muted'] = var16;
             var13 = var5.bind(var3)(var14, var13);
             var6['unreadBadge'] = var13;
-            var12 = var12 != var18;
-            if(!var12) { _fun0001_ip = 495; continue _fun0001 }
+            var12 = var12 != var20;
+            if(!var12) { _fun0001_ip = 524; continue _fun0001 }
  440:
             var15 = _closure1_slot5;
-            var14 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var17 = _closure1_slot0;
+            var18 = _closure1_slot2;
             var13 = 16;
-            var13 = var19[var13];
-            var13 = var14.bind(var3)(var13);
+            var13 = var18[var13];
+            var13 = var17.bind(var3)(var13);
             var14 = var13.PrivateChannelRowPreview;
             var13 = {};
             var13['channel'] = var10;
-            var13['message'] = var18;
-            var13['color'] = var17;
+            var13['message'] = var20;
+            var13['color'] = var19;
             var13['muted'] = var16;
+            var16 = 17;
+            var16 = var18[var16];
+            var16 = var17.bind(var3)(var16);
+            var16 = var16.ChannelListLayoutTypes;
+            var16 = var16.COMPACT;
+            var13['layout'] = var16;
             var12 = var15.bind(var3)(var14, var13);
- 495:
+ 524:
             var6['subtitle'] = var12;
             var6['latestMessageTimestamp'] = var11;
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var9 = 17;
+            var9 = 18;
             var9 = var12[var9];
             var9 = var11.bind(var3)(var9);
             var9 = var9.bind(var3)(var10);
@@ -252,7 +258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 18;
+    var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

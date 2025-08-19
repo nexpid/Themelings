@@ -103,8 +103,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = {};
             var20 = _closure1_slot0;
             var19 = _closure1_slot2;
-            if(var15) { _fun0001_ip = 308; continue _fun0001 }
- 259:
+            if(var15) { _fun0001_ip = 307; continue _fun0001 }
+ 258:
             var15 = 10;
             var22 = var19[var15];
             var22 = var20.bind(var4)(var22);
@@ -115,14 +115,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.t;
             var15 = var15.lwQdjI;
             var15 = var22.bind(var23)(var15);
-            _fun0001_ip = 333; continue _fun0001;
- 308:
+            _fun0001_ip = 332; continue _fun0001;
+ 307:
             var19 = var19[var21];
             var20 = var20.bind(var4)(var19);
             var19 = var20.getVideoQuestEndCardCtaText;
             var18 = var18.config;
             var15 = var19.bind(var20)(var18);
- 333:
+ 332:
             var11['text'] = var15;
             var11 = var10.bind(var4)(var12, var11);
             var7['label'] = var11;
@@ -166,8 +166,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.bind(var4)(var9, var7);
             var7 = new Array(2);
             var7[0] = var9;
-            if(!var8) { _fun0001_ip = 558; continue _fun0001 }
- 378:
+            if(!var8) { _fun0001_ip = 556; continue _fun0001 }
+ 377:
             var11 = _closure1_slot5;
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -243,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var9['onPress'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 558:
+ 556:
             var7[1] = var8;
             var5['children'] = var7;
             var6 = var3.bind(var4)(var6, var5);

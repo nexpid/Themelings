@@ -342,13 +342,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var6.bind(var9)(var3);
                     var5 = var1 != var5;
                     var1 = undefined;
-                    if(!var5) { _fun0005_ip = 396; continue _fun0005 }
+                    if(!var5) { _fun0005_ip = 395; continue _fun0005 }
  168:
                     var1 = undefined;
-                    if(!var4) { _fun0005_ip = 396; continue _fun0005 }
+                    if(!var4) { _fun0005_ip = 395; continue _fun0005 }
  176:
                     var1 = undefined;
-                    if(!var2) { _fun0005_ip = 396; continue _fun0005 }
+                    if(!var2) { _fun0005_ip = 395; continue _fun0005 }
  184:
                     var2 = {};
                     var11 = _closure1_slot0;
@@ -397,7 +397,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['icon'] = var4;
                     var2['onPress'] = var3;
                     var1 = var2;
- 396:
+ 395:
                     return var1;
                 }
             };

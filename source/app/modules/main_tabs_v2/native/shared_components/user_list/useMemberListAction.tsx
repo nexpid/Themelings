@@ -286,22 +286,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var1 = _closure2_slot7;
                     var7 = null;
-                    if(!(var7 != var1)) { _fun0004_ip = 863; continue _fun0004 }
+                    if(!(var7 != var1)) { _fun0004_ip = 857; continue _fun0004 }
  18:
                     var1 = _closure2_slot4;
-                    if(!var1) { _fun0004_ip = 863; continue _fun0004 }
+                    if(!var1) { _fun0004_ip = 857; continue _fun0004 }
  28:
                     var1 = _closure2_slot5;
-                    if(var1) { _fun0004_ip = 425; continue _fun0004 }
+                    if(var1) { _fun0004_ip = 422; continue _fun0004 }
  38:
                     var1 = _closure2_slot6;
                     var4 = {};
-                    if(var1) { _fun0004_ip = 300; continue _fun0004 }
+                    if(var1) { _fun0004_ip = 298; continue _fun0004 }
  53:
                     var1 = _closure2_slot3;
                     var8 = _closure1_slot1;
                     var12 = _closure1_slot2;
-                    if(var1) { _fun0004_ip = 184; continue _fun0004 }
+                    if(var1) { _fun0004_ip = 183; continue _fun0004 }
  68:
                     var1 = 17;
                     var1 = var12[var1];
@@ -356,8 +356,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var4['handlePress'] = var1;
                     var1 = var4;
-                    _fun0004_ip = 298; continue _fun0004;
- 184:
+                    _fun0004_ip = 296; continue _fun0004;
+ 183:
                     var6 = 22;
                     var6 = var12[var6];
                     var11 = undefined;
@@ -407,9 +407,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var4['handlePress'] = var6;
                     var1 = var4;
+ 296:
+                    _fun0004_ip = 417; continue _fun0004;
  298:
-                    _fun0004_ip = 420; continue _fun0004;
- 300:
                     var8 = _closure1_slot1;
                     var11 = _closure1_slot2;
                     var6 = 17;
@@ -479,9 +479,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var4['handlePress'] = var5;
                     var1 = var4;
- 420:
-                    _fun0004_ip = 631; continue _fun0004;
- 425:
+ 417:
+                    _fun0004_ip = 627; continue _fun0004;
+ 422:
                     var4 = {};
                     var9 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -510,8 +510,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure2_slot2;
                     var7 = var7 != var5;
                     var5 = undefined;
-                    if(!var7) { _fun0004_ip = 614; continue _fun0004 }
- 548:
+                    if(!var7) { _fun0004_ip = 610; continue _fun0004 }
+ 544:
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot2;
                     var8 = var6[var11];
@@ -526,12 +526,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = _closure2_slot2;
                     var6['recipient'] = var10;
                     var5 = var8.bind(var9)(var7, var6);
- 614:
+ 610:
                     var4['sublabel'] = var5;
                     var5 = _closure2_slot9;
                     var4['handlePress'] = var5;
                     var1 = var4;
- 631:
+ 627:
                     var10 = var1.label;
                     var15 = var1.iconSource;
                     var14 = var1.IconComponent;
@@ -587,7 +587,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3 + var2;
                     var1['listActionHeight'] = var2;
                     return var1;
- 863:
+ 857:
                     var1 = _closure1_slot12;
                     return var1;
                 }

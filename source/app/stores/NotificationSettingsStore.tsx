@@ -99,13 +99,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var6[var10];
         var10 = var5.bind(var1)(var10);
         var10 = var10.isPlatformEmbedded;
-        if(var10) { _fun0001_ip = 238; continue _fun0001 }
- 230:
+        if(var10) { _fun0001_ip = 242; continue _fun0001 }
+ 234:
         var10 = var11.NEVER;
-        _fun0001_ip = 244; continue _fun0001;
- 238:
+        _fun0001_ip = 248; continue _fun0001;
+ 242:
         var10 = var11.ALL;
- 244:
+ 248:
         var2['desktopType'] = var10;
         var10 = new Array(0);
         var2['disabledSounds'] = var10;

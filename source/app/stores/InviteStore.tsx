@@ -396,9 +396,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.expires_at;
                 var2['expires_at'] = var3;
                 var3 = var1.invite;
-                var3 = var3.stage_instance;
-                var2['stage_instance'] = var3;
-                var3 = var1.invite;
                 var3 = var3.friends_count;
                 var2['friends_count'] = var3;
                 var3 = var1.invite;
@@ -531,9 +528,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var1.invite;
                 var3 = var3.target_application;
                 var2['target_application'] = var3;
-                var3 = var1.invite;
-                var3 = var3.stage_instance;
-                var2['stage_instance'] = var3;
                 var3 = var1.invite;
                 var3 = var3.guild_scheduled_event;
                 var2['guild_scheduled_event'] = var3;

@@ -387,7 +387,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var4.bind(var1)();
     var _closure1_slot25 = var4;
-    var4 = 63;
+    var4 = 62;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -567,7 +567,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var15 = var6.bind(var7)(var3, var5);
-            if(var2) { _fun0004_ip = 2840; continue _fun0004 }
+            if(var2) { _fun0004_ip = 2820; continue _fun0004 }
  457:
             var5 = _closure1_slot21;
             var3 = _closure1_slot6;
@@ -1046,25 +1046,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var15.isAndroid;
             var15 = var12.bind(var15)();
             var12 = null;
-            if(!var15) { _fun0004_ip = 2319; continue _fun0004 }
+            if(!var15) { _fun0004_ip = 2299; continue _fun0004 }
  2206:
             var16 = _closure1_slot20;
             var23 = _closure1_slot0;
-            var26 = _closure1_slot2;
-            var13 = var26[var13];
+            var24 = _closure1_slot2;
+            var13 = var24[var13];
             var13 = var23.bind(var4)(var13);
             var15 = var13.TableSwitchRow;
             var13 = {'label': 'Enable Systrace', 'subLabel': 'Toggling requires an app restart to take effect.'};
             var22 = 58;
-            var22 = var26[var22];
+            var22 = var24[var22];
             var22 = var23.bind(var4)(var22);
-            var23 = var22.TableRowIcon;
+            var23 = var22.BrowserIcon;
             var22 = {};
-            var25 = _closure1_slot1;
-            var24 = 59;
-            var24 = var26[var24];
-            var24 = var25.bind(var4)(var24);
-            var22['source'] = var24;
             var22 = var16.bind(var4)(var23, var22);
             var13['icon'] = var22;
             var13['value'] = var21;
@@ -1078,7 +1073,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var13['onValueChange'] = var21;
             var12 = var16.bind(var4)(var15, var13);
- 2319:
+ 2299:
             var20[9] = var12;
             var13 = _closure1_slot20;
             var16 = _closure1_slot0;
@@ -1088,7 +1083,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var12.TableRow;
             var21 = {'label': 'Show App Rating Modal', 'subLabel': 'Attempts to show the app rating modal -- this may not visually show anything on debug builds or if your device has already been shown the modal recently.'};
             var12 = _closure1_slot1;
-            var23 = 60;
+            var23 = 59;
             var23 = var15[var23];
             var23 = var12.bind(var4)(var23);
             var21['onPress'] = var23;
@@ -1135,7 +1130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = function onPress() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 61;
+                var1 = 60;
                 var2 = var2[var1];
                 var1 = undefined;
                 var2 = var3.bind(var1)(var2);
@@ -1210,7 +1205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = function onPress() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 62;
+                var1 = 61;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -1227,7 +1222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 2840:
+ 2820:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 38;

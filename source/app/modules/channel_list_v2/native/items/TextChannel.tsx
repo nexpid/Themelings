@@ -352,10 +352,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.ChannelModes;
             var10 = var10.SELECTED;
             var10 = var34 === var10;
-            if(!var10) { _fun0001_ip = 802; continue _fun0001 }
- 796:
+            if(!var10) { _fun0001_ip = 801; continue _fun0001 }
+ 795:
             var10 = var24.selected;
- 802:
+ 801:
             var9[1] = var10;
             var6['style'] = var9;
             var6['accessible'] = var8;
@@ -381,15 +381,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.ChannelModes;
             var8 = var8.SELECTED;
             var9 = var34 === var8;
-            if(!var9) { _fun0001_ip = 938; continue _fun0001 }
- 912:
+            if(!var9) { _fun0001_ip = 937; continue _fun0001 }
+ 911:
             var11 = _closure1_slot10;
             var10 = _closure1_slot4;
             var8 = {};
             var12 = var24.selectedBorder;
             var8['style'] = var12;
             var9 = var11.bind(var4)(var10, var8);
- 938:
+ 937:
             var8 = new Array(2);
             var8[0] = var9;
             var11 = _closure1_slot11;
@@ -400,17 +400,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[0] = var15;
             var15 = null;
             var22 = var15 != var31;
-            if(!var22) { _fun0001_ip = 985; continue _fun0001 }
- 979:
+            if(!var22) { _fun0001_ip = 984; continue _fun0001 }
+ 978:
             var22 = var24.rowWithSubtitle;
- 985:
+ 984:
             var12[1] = var22;
             var9['style'] = var12;
             var12 = new Array(3);
             var12[0] = var14;
             var14 = var26;
-            if(!(var15 != var31)) { _fun0001_ip = 1160; continue _fun0001 }
- 1011:
+            if(!(var15 != var31)) { _fun0001_ip = 1159; continue _fun0001 }
+ 1010:
             var23 = _closure1_slot11;
             var22 = _closure1_slot4;
             var15 = {};
@@ -442,7 +442,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24[1] = var25;
             var15['children'] = var24;
             var14 = var23.bind(var4)(var22, var15);
- 1160:
+ 1159:
             var12[1] = var14;
             var15 = _closure1_slot10;
             var14 = _closure1_slot1;

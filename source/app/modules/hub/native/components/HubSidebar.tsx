@@ -93,13 +93,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1[var11];
             var1 = var3.bind(var4)(var1);
             var1 = var1.ChannelModes;
-            if(var2) { _fun0001_ip = 82; continue _fun0001 }
- 74:
+            if(var2) { _fun0001_ip = 81; continue _fun0001 }
+ 73:
             var10 = var1.DEFAULT;
-            _fun0001_ip = 88; continue _fun0001;
- 82:
+            _fun0001_ip = 87; continue _fun0001;
+ 81:
             var10 = var1.SELECTED;
- 88:
+ 87:
             var3 = _closure1_slot10;
             var2 = _closure1_slot1;
             var5 = _closure1_slot3;
@@ -134,8 +134,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['icon'] = var5;
             var5 = null;
             var7 = var5 == var9;
-            if(var7) { _fun0001_ip = 269; continue _fun0001 }
- 233:
+            if(var7) { _fun0001_ip = 267; continue _fun0001 }
+ 231:
             var8 = _closure1_slot10;
             var7 = _closure1_slot1;
             var10 = _closure1_slot3;
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = {};
             var6['value'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 269:
+ 267:
             var1['channelInfo'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.bind(var9)(var3, var1);
  293:
             var1 = null;
-            if(!var2) { _fun0002_ip = 361; continue _fun0002 }
+            if(!var2) { _fun0002_ip = 360; continue _fun0002 }
  298:
             var4 = _closure1_slot10;
             var3 = _closure1_slot13;
@@ -314,7 +314,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['handleItemClick'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 361:
+ 360:
             return var1;
         }
     };
@@ -405,7 +405,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var2 = var6 == var14;
             var1 = null;
-            if(var2) { _fun0004_ip = 628; continue _fun0004 }
+            if(var2) { _fun0004_ip = 625; continue _fun0004 }
  217:
             var4 = _closure1_slot11;
             var3 = _closure1_slot5;
@@ -547,7 +547,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[4] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 628:
+ 625:
             return var1;
         }
     };

@@ -440,12 +440,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8['request'] = var10;
     var8['response'] = var1;
     var2[var9] = var8;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.RPCCommand;
-    var8 = var4.GET_USER;
-    var4 = {};
-    var9 = function request(arg1) {
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.RPCCommand;
+    var9 = var8.GET_USER;
+    var8 = {};
+    var10 = function request(arg1) {
         var3 = arg1;
         var1 = {};
         var2 = var3.string;
@@ -458,8 +458,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['id'] = var2;
         return var1;
     };
-    var4['request'] = var9;
-    var9 = function response(arg1) {
+    var8['request'] = var10;
+    var10 = function response(arg1) {
         var3 = _closure1_slot3;
         var2 = undefined;
         var1 = arg1;
@@ -467,6 +467,75 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.allow;
         var1 = null;
         var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var8['response'] = var10;
+    var2[var9] = var8;
+    var8 = var6[var4];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.RPCCommand;
+    var9 = var8.GET_QUEST_ENROLLMENT_STATUS;
+    var8 = {};
+    var10 = function request(arg1) {
+        var3 = arg1;
+        var1 = {};
+        var2 = var3.string;
+        var3 = var2.bind(var3)();
+        var2 = var3.required;
+        var2 = var2.bind(var3)();
+        var1['quest_id'] = var2;
+        return var1;
+    };
+    var8['request'] = var10;
+    var10 = function response(arg1) {
+        var3 = arg1;
+        var1 = {};
+        var2 = var3.string;
+        var4 = var2.bind(var3)();
+        var2 = var4.required;
+        var2 = var2.bind(var4)();
+        var1['quest_id'] = var2;
+        var2 = var3.boolean;
+        var4 = var2.bind(var3)();
+        var2 = var4.required;
+        var2 = var2.bind(var4)();
+        var1['is_enrolled'] = var2;
+        var2 = var3.string;
+        var4 = var2.bind(var3)();
+        var3 = var4.allow;
+        var2 = null;
+        var3 = var3.bind(var4)(var2);
+        var2 = var3.optional;
+        var2 = var2.bind(var3)();
+        var1['enrolled_at'] = var2;
+        return var1;
+    };
+    var8['response'] = var10;
+    var2[var9] = var8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.RPCCommand;
+    var8 = var4.QUEST_START_TIMER;
+    var4 = {};
+    var9 = function request(arg1) {
+        var3 = arg1;
+        var1 = {};
+        var2 = var3.string;
+        var3 = var2.bind(var3)();
+        var2 = var3.required;
+        var2 = var2.bind(var3)();
+        var1['quest_id'] = var2;
+        return var1;
+    };
+    var4['request'] = var9;
+    var9 = function response(arg1) {
+        var3 = arg1;
+        var1 = {};
+        var2 = var3.boolean;
+        var3 = var2.bind(var3)();
+        var2 = var3.required;
+        var2 = var2.bind(var3)();
+        var1['success'] = var2;
         return var1;
     };
     var4['response'] = var9;

@@ -102,10 +102,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var10.bind(var4)(var9, var7);
                     var2['icon'] = var7;
                     var7 = 'default';
-                    if(!var8) { _fun0002_ip = 130; continue _fun0002 }
- 126:
+                    if(!var8) { _fun0002_ip = 128; continue _fun0002 }
+ 124:
                     var7 = 'danger';
- 130:
+ 128:
                     var2['variant'] = var7;
                     var2['label'] = var6;
                     var1 = function onPress() {

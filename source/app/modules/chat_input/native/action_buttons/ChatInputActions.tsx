@@ -519,7 +519,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var1.active;
                     var1 = _closure1_slot7;
                     var1 = var1.HIDE_CHAT_INPUT;
-                    if(!(var1 !== var2)) { _fun0004_ip = 572; continue _fun0004 }
+                    if(!(var1 !== var2)) { _fun0004_ip = 571; continue _fun0004 }
  39:
                     var1 = _closure1_slot7;
                     var1 = var1.PHOTOS;
@@ -659,7 +659,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['style'] = var9;
                     var1 = var4.bind(var3)(var2, var1, var5);
                     return var1;
- 572:
+ 571:
                     var4 = _closure1_slot8;
                     var2 = _closure1_slot1;
                     var10 = _closure1_slot2;

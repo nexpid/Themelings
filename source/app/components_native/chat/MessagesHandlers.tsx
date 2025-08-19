@@ -1153,11 +1153,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = arg1;
                     var2 = var3.bind(var4)(var2);
                     var2 = var2.data;
-                    var6 = var2.channelId;
-                    var5 = var2.messageId;
+                    var7 = var2.channelId;
+                    var6 = var2.messageId;
                     var3 = _closure1_slot22;
                     var2 = var3.getChannel;
-                    var4 = var2.bind(var3)(var6);
+                    var4 = var2.bind(var3)(var7);
                     var _closure4_slot0 = var4;
                     var2 = null;
                     var2 = var2 != var4;
@@ -1166,43 +1166,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.isPrivate;
                     var2 = var3.bind(var4)();
  93:
-                    if(!var2) { _fun0008_ip = 382; continue _fun0008 }
+                    if(!var2) { _fun0008_ip = 390; continue _fun0008 }
  99:
                     var3 = _closure1_slot0;
-                    var7 = _closure1_slot3;
+                    var8 = _closure1_slot3;
                     var2 = 63;
-                    var2 = var7[var2];
+                    var2 = var8[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.checkIsCallActive;
-                    var2 = var2.bind(var3)(var6, var5);
+                    var2 = var2.bind(var3)(var7, var6);
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot3;
-                    if(var2) { _fun0008_ip = 359; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 367; continue _fun0008 }
  145:
                     var2 = 64;
                     var2 = var5[var2];
                     var7 = var3.bind(var1)(var2);
                     var6 = var7.showSimpleActionSheet;
                     var2 = {};
-                    var9 = 'CallTap';
-                    var2['key'] = var9;
+                    var8 = 'CallTap';
+                    var2['key'] = var8;
                     var9 = {};
                     var11 = 65;
-                    var12 = var5[var11];
-                    var12 = var3.bind(var1)(var12);
-                    var14 = var12.intl;
-                    var13 = var14.string;
-                    var12 = var5[var11];
-                    var12 = var3.bind(var1)(var12);
-                    var12 = var12.t;
-                    var12 = var12.focH1t;
-                    var12 = var13.bind(var14)(var12);
-                    var9['label'] = var12;
-                    var12 = _closure1_slot1;
+                    var8 = var5[var11];
+                    var8 = var3.bind(var1)(var8);
+                    var13 = var8.intl;
+                    var12 = var13.string;
+                    var8 = var5[var11];
+                    var8 = var3.bind(var1)(var8);
+                    var8 = var8.t;
+                    var8 = var8.focH1t;
+                    var8 = var12.bind(var13)(var8);
+                    var9['label'] = var8;
                     var8 = 66;
                     var8 = var5[var8];
-                    var8 = var12.bind(var1)(var8);
-                    var9['icon'] = var8;
+                    var8 = var3.bind(var1)(var8);
+                    var8 = var8.PhoneCallIcon;
+                    var9['IconComponent'] = var8;
                     var8 = function onPress() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
@@ -1219,20 +1219,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = new Array(2);
                     var8[0] = var9;
                     var9 = {};
-                    var13 = var5[var11];
-                    var13 = var3.bind(var1)(var13);
-                    var14 = var13.intl;
-                    var13 = var14.string;
+                    var12 = var5[var11];
+                    var12 = var3.bind(var1)(var12);
+                    var13 = var12.intl;
+                    var12 = var13.string;
                     var11 = var5[var11];
                     var11 = var3.bind(var1)(var11);
                     var11 = var11.t;
                     var11 = var11.oCqlGB;
-                    var11 = var13.bind(var14)(var11);
+                    var11 = var12.bind(var13)(var11);
                     var9['label'] = var11;
                     var11 = 67;
                     var11 = var5[var11];
-                    var11 = var12.bind(var1)(var11);
-                    var9['icon'] = var11;
+                    var11 = var3.bind(var1)(var11);
+                    var11 = var11.VideoIcon;
+                    var9['IconComponent'] = var11;
                     var10 = function onPress() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot3;
@@ -1250,14 +1251,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8[1] = var9;
                     var2['options'] = var8;
                     var2 = var6.bind(var7)(var2);
-                    _fun0008_ip = 382; continue _fun0008;
- 359:
+                    _fun0008_ip = 390; continue _fun0008;
+ 367:
                     var2 = 55;
                     var2 = var5[var2];
                     var3 = var3.bind(var1)(var2);
                     var2 = var3.handleJoinCall;
                     var2 = var2.bind(var3)(var4);
- 382:
+ 390:
                     return var1;
                 }
             };
@@ -2912,6 +2913,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var3['handleTapMessage'] = var4;
+            var4 = function(arg1) {
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot3;
+                var1 = 43;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.getNativeSyntheticEventData;
+                var2 = arg1;
+                var2 = var3.bind(var4)(var2);
+                var4 = var2.messageId;
+                var3 = _closure3_slot0;
+                var2 = var3.getMessageData;
+                var2 = var2.bind(var3)(var4);
+                return var1;
+            };
+            var3['handleDoubleTapMessage'] = var4;
             var4 = function(arg1, arg2, arg3) {
                 _fun0031: for(var _fun0031_ip = 0; ; ) switch(_fun0031_ip) {
  0:

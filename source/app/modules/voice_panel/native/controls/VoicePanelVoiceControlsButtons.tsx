@@ -548,7 +548,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var1.handlePress;
             var7 = var1.disabled;
             var1 = null;
-            if(!var2) { _fun0005_ip = 248; continue _fun0005 }
+            if(!var2) { _fun0005_ip = 247; continue _fun0005 }
  94:
             var4 = _closure1_slot17;
             var10 = _closure1_slot0;
@@ -585,7 +585,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['icon'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 248:
+ 247:
             return var1;
         }
     };
@@ -1018,13 +1018,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.id;
             var8 = var3.bind(var8)(var1);
             var1 = null;
-            if(var7) { _fun0010_ip = 341; continue _fun0010 }
+            if(var7) { _fun0010_ip = 340; continue _fun0010 }
  112:
             var1 = null;
-            if(!var4) { _fun0010_ip = 341; continue _fun0010 }
+            if(!var4) { _fun0010_ip = 340; continue _fun0010 }
  120:
             var1 = null;
-            if(!var2) { _fun0010_ip = 341; continue _fun0010 }
+            if(!var2) { _fun0010_ip = 340; continue _fun0010 }
  128:
             var4 = _closure1_slot17;
             var7 = _closure1_slot0;
@@ -1075,7 +1075,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['trailing'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 341:
+ 340:
             return var1;
         }
     };

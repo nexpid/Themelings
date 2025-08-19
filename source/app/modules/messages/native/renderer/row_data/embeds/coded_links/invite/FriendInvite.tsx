@@ -238,24 +238,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var3.channel;
             var8 = var4 == var7;
             var5 = undefined;
-            if(var8) { _fun0001_ip = 759; continue _fun0001 }
- 754:
+            if(var8) { _fun0001_ip = 761; continue _fun0001 }
+ 756:
             var5 = var7.name;
- 759:
+ 761:
             var7 = var4 != var5;
             var6 = undefined;
-            if(!var7) { _fun0001_ip = 771; continue _fun0001 }
- 768:
+            if(!var7) { _fun0001_ip = 773; continue _fun0001 }
+ 770:
             var6 = var5;
- 771:
+ 773:
             var5 = 'channelName';
             var1[var5] = var6;
             var3 = var3.type;
-            if(!(var4 == var3)) { _fun0001_ip = 799; continue _fun0001 }
- 789:
+            if(!(var4 == var3)) { _fun0001_ip = 801; continue _fun0001 }
+ 791:
             var2 = _closure1_slot5;
             var3 = var2.FRIEND;
- 799:
+ 801:
             var2 = 'type';
             var1[var2] = var3;
             return var1;

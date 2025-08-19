@@ -945,7 +945,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var22 === var1)) { _fun0005_ip = 636; continue _fun0005 }
  624:
             var1 = var19.length;
-            if(!(var22 !== var1)) { _fun0005_ip = 1542; continue _fun0005 }
+            if(!(var22 !== var1)) { _fun0005_ip = 1540; continue _fun0005 }
  636:
             var1 = {};
             var8 = _closure1_slot0;
@@ -1027,15 +1027,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot14;
             var3 = var2.APPS;
             var2 = undefined;
-            if(!(var5 === var3)) { _fun0005_ip = 867; continue _fun0005 }
- 841:
+            if(!(var5 === var3)) { _fun0005_ip = 866; continue _fun0005 }
+ 840:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 20;
             var3 = var8[var3];
             var3 = var7.bind(var4)(var3);
             var2 = var3.CheckmarkSmallBoldIcon;
- 867:
+ 866:
             var1['IconComponent'] = var2;
             var2 = function action() {
                 var4 = _closure2_slot12;
@@ -1290,35 +1290,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.isNotNullish;
             var3 = var3.bind(var7)(var2);
             var2 = var18.length;
-            if(!(var22 === var2)) { _fun0005_ip = 1014; continue _fun0005 }
- 1005:
+            if(!(var22 === var2)) { _fun0005_ip = 1012; continue _fun0005 }
+ 1003:
             var2 = var19.length;
-            if(!(!(var2 > var22))) { _fun0005_ip = 1050; continue _fun0005 }
- 1014:
+            if(!(!(var2 > var22))) { _fun0005_ip = 1048; continue _fun0005 }
+ 1012:
             var2 = var18.length;
             var21 = var5;
-            if(!(var2 > var22)) { _fun0005_ip = 1048; continue _fun0005 }
- 1026:
+            if(!(var2 > var22)) { _fun0005_ip = 1046; continue _fun0005 }
+ 1024:
             var2 = var19.length;
             var21 = var5;
-            if(!(var22 === var2)) { _fun0005_ip = 1048; continue _fun0005 }
- 1038:
+            if(!(var22 === var2)) { _fun0005_ip = 1046; continue _fun0005 }
+ 1036:
             var2 = _closure1_slot14;
             var21 = var2.COMMANDS;
+ 1046:
+            _fun0005_ip = 1058; continue _fun0005;
  1048:
-            _fun0005_ip = 1060; continue _fun0005;
- 1050:
             var2 = _closure1_slot14;
             var21 = var2.APPS;
- 1060:
+ 1058:
             _closure2_slot15 = var21;
             var2 = _closure1_slot14;
             var2 = var2.COMMANDS;
             var9 = var3;
-            if(!(var21 === var2)) { _fun0005_ip = 1084; continue _fun0005 }
- 1081:
+            if(!(var21 === var2)) { _fun0005_ip = 1082; continue _fun0005 }
+ 1079:
             var9 = var1;
- 1084:
+ 1082:
             var3 = _closure1_slot12;
             var2 = _closure1_slot5;
             var1 = {};
@@ -1339,11 +1339,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = {};
             var18 = var18.length;
             var18 = var18 > var22;
-            if(!var18) { _fun0005_ip = 1176; continue _fun0005 }
- 1167:
+            if(!var18) { _fun0005_ip = 1174; continue _fun0005 }
+ 1165:
             var19 = var19.length;
             var18 = var19 > var22;
- 1176:
+ 1174:
             var15['enabled'] = var18;
             var15['items'] = var13;
             var13 = true;
@@ -1470,10 +1470,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = _closure1_slot14;
             var19 = var19.APPS;
             var19 = var21 === var19;
-            if(!var19) { _fun0005_ip = 1293; continue _fun0005 }
- 1290:
+            if(!var19) { _fun0005_ip = 1291; continue _fun0005 }
+ 1288:
             var19 = var20;
- 1293:
+ 1291:
             var16['disabled'] = var19;
             var19 = function onPress() {
                 var3 = _closure2_slot7;
@@ -1520,8 +1520,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['contentContainerStyle'] = var14;
             var6['horizontal'] = var13;
             var6['showsHorizontalScrollIndicator'] = var12;
-            if(!var11) { _fun0005_ip = 1516; continue _fun0005 }
- 1489:
+            if(!var11) { _fun0005_ip = 1514; continue _fun0005 }
+ 1487:
             var12 = [1, 2, 3, 4, 5];
             var11 = var12.map;
             var10 = function(arg1, arg2) {
@@ -1534,14 +1534,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var9 = var11.bind(var12)(var10);
- 1516:
+ 1514:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 1542:
+ 1540:
             var1 = null;
             return var1;
         }

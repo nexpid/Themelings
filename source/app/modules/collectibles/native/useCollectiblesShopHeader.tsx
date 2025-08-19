@@ -262,15 +262,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure1_slot6;
                     var5 = var3.SHOP_ALL;
                     var3 = undefined;
-                    if(!(var7 === var5)) { _fun0003_ip = 360; continue _fun0003 }
- 334:
+                    if(!(var7 === var5)) { _fun0003_ip = 359; continue _fun0003 }
+ 333:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var4 = 16;
                     var4 = var7[var4];
                     var4 = var5.bind(var6)(var4);
                     var3 = var4.CheckmarkSmallIcon;
- 360:
+ 359:
                     var2['IconComponent'] = var3;
                     var1[1] = var2;
                     return var1;

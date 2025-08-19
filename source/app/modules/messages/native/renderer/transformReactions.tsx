@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  50:
                 var1 = var4.vote;
  56:
-                if(!(var7 == var1)) { _fun0001_ip = 357; continue _fun0001 }
+                if(!(var7 == var1)) { _fun0001_ip = 358; continue _fun0001 }
  63:
                 var4 = _closure2_slot0;
                 if(!var4) { _fun0001_ip = 79; continue _fun0001 }
@@ -96,18 +96,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var2;
                 var5 = var16[var9](var15, var14, var13, var12, var11);
                 var1 = var2.id;
-                if(!(var7 != var1)) { _fun0001_ip = 281; continue _fun0001 }
- 252:
+                if(!(var7 != var1)) { _fun0001_ip = 282; continue _fun0001 }
+ 253:
                 var8 = var2.id;
                 var1 = global;
                 var1 = var1.HermesInternal;
                 var7 = var1.concat;
                 var1 = '';
                 var7 = var7.bind(var1)(var8);
-                _fun0001_ip = 286; continue _fun0001;
- 281:
+                _fun0001_ip = 287; continue _fun0001;
+ 282:
                 var7 = var2.id;
- 286:
+ 287:
                 var1 = {};
                 var15 = var1;
                 var14 = var3;
@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = 'emoji';
                 var1[var2] = var3;
                 return var1;
- 357:
+ 358:
                 var1 = new Array(0);
                 return var1;
             }

@@ -1,4 +1,4 @@
-// app/modules/main_tabs_v2/MentionBadgeOnDMExperiment.tsx
+// app/modules/messages/DoubleTapToReactExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var5.bind(var1)(var2);
     var7 = var8.createExperiment;
-    var2 = {'kind': 'user', 'id': '2025-05_mention_badge_on_dm', 'label': 'Mention badge on DM'};
+    var2 = {'kind': 'user', 'id': '2025-08_double_tap_to_react', 'label': 'Double Tap To React'};
     var4 = {};
     var9 = false;
     var4['enabled'] = var9;
@@ -33,8 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/main_tabs_v2/MentionBadgeOnDMExperiment.tsx';
+    var4 = 'modules/messages/DoubleTapToReactExperiment.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['MentionBadgeOnDMExperiment'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

@@ -399,7 +399,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.id;
             var2 = var2.bind(var3)(var1);
             var1 = null;
-            if(!var2) { _fun0004_ip = 349; continue _fun0004 }
+            if(!var2) { _fun0004_ip = 348; continue _fun0004 }
  119:
             var4 = _closure1_slot14;
             var3 = _closure1_slot2;
@@ -476,7 +476,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onPress'] = var7;
             var2['isSmallSize'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 349:
+ 348:
             return var1;
         }
     };
@@ -611,7 +611,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = 0;
-            if(!(!(var7 > var1))) { _fun0006_ip = 319; continue _fun0006 }
+            if(!(!(var7 > var1))) { _fun0006_ip = 318; continue _fun0006 }
  132:
             var3 = _closure1_slot14;
             var2 = _closure1_slot2;
@@ -654,8 +654,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPress'] = var8;
             var1['isSmallSize'] = var6;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0006_ip = 513; continue _fun0006;
- 319:
+            _fun0006_ip = 512; continue _fun0006;
+ 318:
             var4 = _closure1_slot14;
             var3 = _closure1_slot2;
             var11 = _closure1_slot3;
@@ -700,7 +700,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['notifications'] = var7;
             var2['isSmallSize'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 513:
+ 512:
             return var1;
         }
     };
@@ -790,10 +790,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.bind(var4)(var9);
             var9 = var9.HandRequestSpeakIcon;
             var1['IconComponent'] = var9;
-            if(!var6) { _fun0007_ip = 305; continue _fun0007 }
- 301:
+            if(!var6) { _fun0007_ip = 304; continue _fun0007 }
+ 300:
             var7 = _closure1_slot12;
- 305:
+ 304:
             var1['onPress'] = var7;
             var1['appearsDisabled'] = var6;
             var1['isSmallSize'] = var5;
@@ -880,9 +880,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var10 = 0;
-            if(!(!(var11 > var10))) { _fun0008_ip = 389; continue _fun0008 }
+            if(!(!(var11 > var10))) { _fun0008_ip = 388; continue _fun0008 }
  192:
-            if(!(!(var12 > var10))) { _fun0008_ip = 389; continue _fun0008 }
+            if(!(!(var12 > var10))) { _fun0008_ip = 388; continue _fun0008 }
  199:
             var3 = _closure1_slot14;
             var2 = _closure1_slot2;
@@ -926,8 +926,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['appearsDisabled'] = var7;
             var1['isSmallSize'] = var6;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0008_ip = 599; continue _fun0008;
- 389:
+            _fun0008_ip = 597; continue _fun0008;
+ 388:
             var4 = _closure1_slot14;
             var3 = _closure1_slot2;
             var13 = _closure1_slot3;
@@ -936,10 +936,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var5)(var2);
             var3 = var2.NotifiedActionButton;
             var2 = {};
-            if(!(var11 > var10)) { _fun0008_ip = 428; continue _fun0008 }
- 425:
+            if(!(var11 > var10)) { _fun0008_ip = 427; continue _fun0008 }
+ 424:
             var12 = var11;
- 428:
+ 427:
             var2['notifications'] = var12;
             var10 = var11 > var10;
             var2['isMentioned'] = var10;
@@ -978,7 +978,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['appearsDisabled'] = var7;
             var2['isSmallSize'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 599:
+ 597:
             return var1;
         }
     };

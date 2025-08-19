@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 775; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 833; continue _fun0001 }
  13:
                     var6 = var2.guildId;
                     var13 = var2.channelId;
@@ -28,201 +28,218 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var7;
  29:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 772; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 830; continue _fun0001 }
  38:
                     var5 = _closure1_slot8;
                     var4 = var5.getGuild;
-                    var9 = var4.bind(var5)(var6);
+                    var10 = var4.bind(var5)(var6);
                     var5 = _closure1_slot7;
                     var4 = var5.getUnsafeMutableRoles;
                     var5 = var4.bind(var5)(var6);
                     var4 = null;
-                    if(!(var4 == var9)) { _fun0001_ip = 87; continue _fun0001 }
+                    if(!(var4 == var10)) { _fun0001_ip = 87; continue _fun0001 }
  76:
                     var8 = _closure1_slot10;
-                    if(!(var6 === var8)) { _fun0001_ip = 767; continue _fun0001 }
+                    if(!(var6 === var8)) { _fun0001_ip = 825; continue _fun0001 }
  87:
-                    if(!(var4 != var13)) { _fun0001_ip = 762; continue _fun0001 }
+                    if(!(var4 != var13)) { _fun0001_ip = 820; continue _fun0001 }
  94:
                     var8 = _closure1_slot11;
                     var8 = var8.bind(var7)(var13);
-                    if(!var8) { _fun0001_ip = 310; continue _fun0001 }
+                    if(!var8) { _fun0001_ip = 327; continue _fun0001 }
  109:
                     var8 = _closure1_slot12;
                     var8 = var8.ROLE_SUBSCRIPTIONS;
-                    if(!(var8 !== var13)) { _fun0001_ip = 727; continue _fun0001 }
+                    if(!(var8 !== var13)) { _fun0001_ip = 785; continue _fun0001 }
  126:
                     var8 = _closure1_slot12;
-                    var8 = var8.GUILD_SHOP;
-                    if(!(var8 !== var13)) { _fun0001_ip = 692; continue _fun0001 }
+                    var8 = var8.SERVER_MONETIZATION_ONBOARDING;
+                    if(!(var8 !== var13)) { _fun0001_ip = 744; continue _fun0001 }
  143:
                     var8 = _closure1_slot12;
-                    var8 = var8.MEMBER_APPLICATIONS;
-                    if(!(var8 !== var13)) { _fun0001_ip = 658; continue _fun0001 }
+                    var8 = var8.GUILD_SHOP;
+                    if(!(var8 !== var13)) { _fun0001_ip = 709; continue _fun0001 }
  160:
                     var8 = _closure1_slot12;
-                    var8 = var8.GUILD_HOME;
-                    if(!(var8 !== var13)) { _fun0001_ip = 624; continue _fun0001 }
+                    var8 = var8.MEMBER_APPLICATIONS;
+                    if(!(var8 !== var13)) { _fun0001_ip = 675; continue _fun0001 }
  177:
                     var8 = _closure1_slot12;
-                    var8 = var8.CHANNEL_BROWSER;
-                    if(!(var8 !== var13)) { _fun0001_ip = 588; continue _fun0001 }
+                    var8 = var8.GUILD_HOME;
+                    if(!(var8 !== var13)) { _fun0001_ip = 641; continue _fun0001 }
  194:
                     var8 = _closure1_slot12;
-                    var8 = var8.GUILD_ONBOARDING;
-                    if(!(var8 !== var13)) { _fun0001_ip = 570; continue _fun0001 }
+                    var8 = var8.CHANNEL_BROWSER;
+                    if(!(var8 !== var13)) { _fun0001_ip = 605; continue _fun0001 }
  211:
                     var8 = _closure1_slot12;
-                    var8 = var8.CUSTOMIZE_COMMUNITY;
-                    if(!(var8 !== var13)) { _fun0001_ip = 534; continue _fun0001 }
+                    var8 = var8.GUILD_ONBOARDING;
+                    if(!(var8 !== var13)) { _fun0001_ip = 587; continue _fun0001 }
  228:
                     var8 = _closure1_slot12;
-                    var8 = var8.MEMBER_SAFETY;
-                    if(!(var8 !== var13)) { _fun0001_ip = 500; continue _fun0001 }
+                    var8 = var8.CUSTOMIZE_COMMUNITY;
+                    if(!(var8 !== var13)) { _fun0001_ip = 551; continue _fun0001 }
  245:
                     var8 = _closure1_slot12;
-                    var8 = var8.GUILD_BOOSTS;
-                    if(!(var8 !== var13)) { _fun0001_ip = 495; continue _fun0001 }
+                    var8 = var8.MEMBER_SAFETY;
+                    if(!(var8 !== var13)) { _fun0001_ip = 517; continue _fun0001 }
  262:
                     var8 = _closure1_slot12;
-                    var8 = var8.REPORT_TO_MOD;
-                    if(!(var8 !== var13)) { _fun0001_ip = 460; continue _fun0001 }
+                    var8 = var8.GUILD_BOOSTS;
+                    if(!(var8 !== var13)) { _fun0001_ip = 512; continue _fun0001 }
  279:
-                    var10 = _closure1_slot0;
+                    var8 = _closure1_slot12;
+                    var8 = var8.REPORT_TO_MOD;
+                    if(!(var8 !== var13)) { _fun0001_ip = 477; continue _fun0001 }
+ 296:
+                    var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var8 = 14;
+                    var8 = 15;
                     var8 = var11[var8];
-                    var10 = var10.bind(var7)(var8);
-                    var8 = var10.assertNever;
-                    var8 = var8.bind(var10)(var13);
- 310:
-                    var10 = _closure1_slot6;
-                    var8 = var10.getChannel;
-                    var10 = var8.bind(var10)(var13);
-                    var8 = var4 != var10;
-                    var12 = var10;
-                    if(var8) { _fun0001_ip = 401; continue _fun0001 }
- 334:
+                    var9 = var9.bind(var7)(var8);
+                    var8 = var9.assertNever;
+                    var8 = var8.bind(var9)(var13);
+ 327:
+                    var9 = _closure1_slot6;
+                    var8 = var9.getChannel;
+                    var9 = var8.bind(var9)(var13);
+                    var8 = var4 != var9;
+                    var12 = var9;
+                    if(var8) { _fun0001_ip = 418; continue _fun0001 }
+ 351:
                     var11 = _closure1_slot1;
                     var14 = _closure1_slot2;
-                    var10 = 15;
-                    var10 = var14[var10];
-                    var11 = var11.bind(var7)(var10);
-                    var10 = var11.loadThread;
-                    var10 = var10.bind(var11)(var13);
-                    SaveGenerator(address=369);
- 367:
-                    return var10;
- 369:
-                    ResumeGenerator(result_out_reg=9, return_bool_out_reg=10);
-                    if(var11) { _fun0001_ip = 398; continue _fun0001 }
- 375:
+                    var9 = 16;
+                    var9 = var14[var9];
+                    var11 = var11.bind(var7)(var9);
+                    var9 = var11.loadThread;
+                    var9 = var9.bind(var11)(var13);
+                    SaveGenerator(address=386);
+ 384:
+                    return var9;
+ 386:
+                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=10);
+                    if(var11) { _fun0001_ip = 415; continue _fun0001 }
+ 392:
                     var14 = _closure1_slot6;
                     var11 = var14.getChannel;
                     var11 = var11.bind(var14)(var13);
                     var8 = var4 != var11;
                     var12 = var11;
-                    _fun0001_ip = 401; continue _fun0001;
- 398:
-                    return var10;
- 401:
-                    if(!var8) { _fun0001_ip = 457; continue _fun0001 }
- 404:
+                    _fun0001_ip = 418; continue _fun0001;
+ 415:
+                    return var9;
+ 418:
+                    if(!var8) { _fun0001_ip = 474; continue _fun0001 }
+ 421:
                     var11 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var10 = 16;
-                    var10 = var14[var10];
-                    var11 = var11.bind(var7)(var10);
-                    var10 = var11.canViewChannel;
-                    var10 = var10.bind(var11)(var12);
-                    if(var10) { _fun0001_ip = 454; continue _fun0001 }
- 438:
+                    var9 = 17;
+                    var9 = var14[var9];
+                    var11 = var11.bind(var7)(var9);
+                    var9 = var11.canViewChannel;
+                    var9 = var9.bind(var11)(var12);
+                    if(var9) { _fun0001_ip = 471; continue _fun0001 }
+ 455:
                     var12 = _closure1_slot4;
                     var11 = var12.isChannelGatedAndVisible;
-                    var10 = var11.bind(var12)(var6, var13);
- 454:
-                    var8 = var10;
- 457:
+                    var9 = var11.bind(var12)(var6, var13);
+ 471:
+                    var8 = var9;
+ 474:
                     return var8;
- 460:
-                    var8 = var4 != var9;
-                    if(!var8) { _fun0001_ip = 492; continue _fun0001 }
- 467:
+ 477:
+                    var8 = var4 != var10;
+                    if(!var8) { _fun0001_ip = 509; continue _fun0001 }
+ 484:
                     var11 = _closure1_slot1;
                     var12 = _closure1_slot2;
-                    var10 = 13;
-                    var10 = var12[var10];
-                    var10 = var11.bind(var7)(var10);
-                    var8 = var10.bind(var7)(var9);
- 492:
+                    var9 = 14;
+                    var9 = var12[var9];
+                    var9 = var11.bind(var7)(var9);
+                    var8 = var9.bind(var7)(var10);
+ 509:
                     return var8;
- 495:
+ 512:
                     var8 = true;
                     return var8;
- 500:
-                    var10 = _closure1_slot0;
+ 517:
+                    var9 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var8 = 13;
+                    var8 = var11[var8];
+                    var9 = var9.bind(var7)(var8);
+                    var8 = var9.canAccessMemberSafetyPage;
+                    var8 = var8.bind(var9)(var6);
+                    return var8;
+ 551:
+                    var8 = var4 != var10;
+                    if(!var8) { _fun0001_ip = 584; continue _fun0001 }
+ 558:
+                    var12 = var10.features;
+                    var11 = var12.has;
+                    var9 = _closure1_slot9;
+                    var9 = var9.COMMUNITY;
+                    var8 = var11.bind(var12)(var9);
+ 584:
+                    return var8;
+ 587:
+                    var9 = _closure1_slot5;
+                    var8 = var9.shouldShowOnboarding;
+                    var8 = var8.bind(var9)(var6);
+                    return var8;
+ 605:
+                    var8 = var4 != var10;
+                    if(!var8) { _fun0001_ip = 638; continue _fun0001 }
+ 612:
+                    var12 = var10.features;
+                    var11 = var12.has;
+                    var9 = _closure1_slot9;
+                    var9 = var9.COMMUNITY;
+                    var8 = var11.bind(var12)(var9);
+ 638:
+                    return var8;
+ 641:
+                    var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var8 = 12;
                     var8 = var11[var8];
-                    var10 = var10.bind(var7)(var8);
-                    var8 = var10.canAccessMemberSafetyPage;
-                    var8 = var8.bind(var10)(var6);
+                    var9 = var9.bind(var7)(var8);
+                    var8 = var9.canSeeOnboardingHome;
+                    var8 = var8.bind(var9)(var6);
                     return var8;
- 534:
-                    var8 = var4 != var9;
-                    if(!var8) { _fun0001_ip = 567; continue _fun0001 }
- 541:
-                    var12 = var9.features;
-                    var11 = var12.has;
-                    var10 = _closure1_slot9;
-                    var10 = var10.COMMUNITY;
-                    var8 = var11.bind(var12)(var10);
- 567:
+ 675:
+                    var9 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var8 = 11;
+                    var8 = var11[var8];
+                    var9 = var9.bind(var7)(var8);
+                    var8 = var9.canReviewGuildMemberApplications;
+                    var8 = var8.bind(var9)(var6);
                     return var8;
- 570:
-                    var10 = _closure1_slot5;
-                    var8 = var10.shouldShowOnboarding;
-                    var8 = var8.bind(var10)(var6);
+ 709:
+                    var9 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var8 = 10;
+                    var8 = var11[var8];
+                    var9 = var9.bind(var7)(var8);
+                    var8 = var9.isGuildShopVisibleInGuild;
+                    var8 = var8.bind(var9)(var10, var5);
                     return var8;
- 588:
-                    var4 = var4 != var9;
-                    if(!var4) { _fun0001_ip = 621; continue _fun0001 }
- 595:
-                    var11 = var9.features;
-                    var10 = var11.has;
-                    var8 = _closure1_slot9;
-                    var8 = var8.COMMUNITY;
-                    var4 = var10.bind(var11)(var8);
- 621:
+ 744:
+                    var4 = var4 != var10;
+                    if(!var4) { _fun0001_ip = 782; continue _fun0001 }
+ 751:
+                    var9 = _closure1_slot0;
+                    var11 = _closure1_slot2;
+                    var8 = 9;
+                    var8 = var11[var8];
+                    var9 = var9.bind(var7)(var8);
+                    var8 = var9.canUserSeeMonetizationOnboarding;
+                    var4 = var8.bind(var9)(var10);
+ 782:
                     return var4;
- 624:
-                    var8 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var4 = 11;
-                    var4 = var10[var4];
-                    var8 = var8.bind(var7)(var4);
-                    var4 = var8.canSeeOnboardingHome;
-                    var4 = var4.bind(var8)(var6);
-                    return var4;
- 658:
-                    var8 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var4 = 10;
-                    var4 = var10[var4];
-                    var8 = var8.bind(var7)(var4);
-                    var4 = var8.canReviewGuildMemberApplications;
-                    var4 = var4.bind(var8)(var6);
-                    return var4;
- 692:
-                    var8 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var4 = 9;
-                    var4 = var10[var4];
-                    var8 = var8.bind(var7)(var4);
-                    var4 = var8.isGuildShopVisibleInGuild;
-                    var4 = var4.bind(var8)(var9, var5);
-                    return var4;
- 727:
+ 785:
                     var4 = _closure1_slot0;
                     var8 = _closure1_slot2;
                     var3 = 8;
@@ -231,15 +248,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.areRoleSubscriptionsVisibleInGuild;
                     var3 = var3.bind(var4)(var6, var5);
                     return var3;
- 762:
+ 820:
                     var3 = true;
                     return var3;
- 767:
+ 825:
                     var3 = false;
                     return var3;
- 772:
+ 830:
                     return var2;
- 775:
+ 833:
                     return var1;
                 }
             };
@@ -304,7 +321,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot11 = var7;
     var4 = var4.StaticChannelRoute;
     var _closure1_slot12 = var4;
-    var4 = 17;
+    var4 = 18;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

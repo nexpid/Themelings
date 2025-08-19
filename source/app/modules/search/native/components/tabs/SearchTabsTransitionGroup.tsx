@@ -1,11 +1,11 @@
 // app/modules/search/native/components/tabs/SearchTabsTransitionGroup.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
-    var7 = metroImportDefault;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var7;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
     var _closure1_slot2 = var6;
     var1 = function getItemKey(arg1) {
         var1 = arg1;
@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot10 = var1;
     var1 = function AnimatedTabs(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -38,11 +38,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot4 = var4;
             var9 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 5;
+            var1 = 4;
             var7 = var6[var1];
             var8 = var9.bind(var4)(var7);
             var7 = var8.useSharedValue;
-            var15 = 6;
+            var15 = 5;
             var6 = var6[var15];
             var6 = var9.bind(var4)(var6);
             var6 = var6.TransitionStates;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = {};
                     var12 = _closure1_slot0;
                     var13 = _closure1_slot2;
-                    var2 = 7;
+                    var2 = 6;
                     var2 = var13[var2];
                     var11 = undefined;
                     var8 = var12.bind(var11)(var2);
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure2_slot3;
                     var4 = var5.get;
                     var6 = var4.bind(var5)();
-                    var4 = 8;
+                    var4 = 7;
                     var4 = var13[var4];
                     var4 = var12.bind(var11)(var4);
                     var16 = var4.springStandard;
@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = _closure2_slot1;
                             var5 = _closure1_slot0;
                             var4 = _closure1_slot2;
-                            var2 = 6;
+                            var2 = 5;
                             var4 = var4[var2];
                             var2 = undefined;
                             var2 = var5.bind(var2)(var4);
@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  57:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var1 = 5;
+                            var1 = 4;
                             var1 = var2[var1];
                             var2 = undefined;
                             var4 = var3.bind(var2)(var1);
@@ -114,12 +114,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = {};
                     var10 = _closure2_slot1;
                     var9['transitionState'] = var10;
-                    var10 = 6;
+                    var10 = 5;
                     var10 = var13[var10];
                     var10 = var12.bind(var11)(var10);
                     var10 = var10.TransitionStates;
                     var9['TransitionStates'] = var10;
-                    var10 = 5;
+                    var10 = 4;
                     var10 = var13[var10];
                     var10 = var12.bind(var11)(var10);
                     var10 = var10.runOnJS;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['__closure'] = var9;
                     var9 = 15209468679721.0;
                     var4['__workletHash'] = var9;
-                    var3 = _closure1_slot7;
+                    var3 = _closure1_slot6;
                     var4['__initData'] = var3;
                     var15 = 'respect-motion-settings';
                     var18 = var8;
@@ -151,13 +151,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var10 = {};
-            var16 = 7;
+            var16 = 6;
             var16 = var12[var16];
             var16 = var6.bind(var4)(var16);
             var16 = var16.withSpring;
             var10['withSpring'] = var16;
             var10['opacity'] = var13;
-            var16 = 8;
+            var16 = 7;
             var16 = var12[var16];
             var16 = var6.bind(var4)(var16);
             var16 = var16.springStandard;
@@ -175,10 +175,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['__closure'] = var10;
             var10 = 10740262883803.0;
             var7['__workletHash'] = var10;
-            var10 = _closure1_slot6;
+            var10 = _closure1_slot5;
             var7['__initData'] = var10;
             var7 = var8.bind(var9)(var7);
-            var10 = _closure1_slot4;
+            var10 = _closure1_slot3;
             var9 = var10.useEffect;
             var8 = new Array(2);
             var8[0] = var13;
@@ -191,7 +191,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = _closure2_slot1;
                     var5 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 6;
+                    var1 = 5;
                     var2 = var2[var1];
                     var1 = undefined;
                     var2 = var5.bind(var1)(var2);
@@ -210,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function useCountFormatter() {
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var3 = 3;
+                var3 = 2;
                 var4 = var4[var3];
                 var3 = undefined;
                 var3 = var5.bind(var3)(var4);
@@ -218,7 +218,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.useSetting;
                 var5 = var3.bind(var4)();
                 var _closure3_slot0 = var5;
-                var4 = _closure1_slot4;
+                var4 = _closure1_slot3;
                 var3 = var4.useCallback;
                 var2 = new Array(1);
                 var2[0] = var5;
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  23:
                         var5 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 4;
+                        var1 = 3;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var5.bind(var1)(var2);
@@ -250,7 +250,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  90:
                         var5 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var2 = 4;
+                        var2 = 3;
                         var3 = var3[var2];
                         var2 = undefined;
                         var3 = var5.bind(var2)(var3);
@@ -270,15 +270,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var8 = var3.bind(var4)();
-            var10 = _closure1_slot4;
+            var10 = _closure1_slot3;
             var9 = var10.useContext;
-            var3 = 9;
+            var3 = 8;
             var3 = var12[var3];
             var3 = var6.bind(var4)(var3);
             var3 = var3.SwipeForMemberListContext;
             var10 = var9.bind(var10)(var3);
             _closure2_slot4 = var10;
-            var14 = _closure1_slot4;
+            var14 = _closure1_slot3;
             var13 = var14.useCallback;
             var9 = function h() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -302,7 +302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['__closure'] = var3;
             var3 = 5080152010224.0;
             var9['__workletHash'] = var3;
-            var3 = _closure1_slot8;
+            var3 = _closure1_slot7;
             var9['__initData'] = var3;
             var3 = new Array(1);
             var3[0] = var10;
@@ -324,7 +324,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['__closure'] = var15;
             var15 = 7791091456487.0;
             var3['__workletHash'] = var15;
-            var15 = _closure1_slot9;
+            var15 = _closure1_slot8;
             var3['__initData'] = var15;
             var2 = function w(arg1, arg2) {
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -351,18 +351,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['__closure'] = var15;
             var15 = 15386779064911.0;
             var2['__workletHash'] = var15;
-            var15 = _closure1_slot10;
+            var15 = _closure1_slot9;
             var2['__initData'] = var15;
             var2 = var13.bind(var14)(var3, var2);
-            var3 = _closure1_slot5;
+            var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var1 = var12[var1];
             var1 = var2.bind(var4)(var1);
             var2 = var1.View;
             var1 = {};
             var1['style'] = var7;
-            var7 = _closure1_slot5;
-            var5 = 10;
+            var7 = _closure1_slot4;
+            var5 = 9;
             var5 = var12[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.Tabs;
@@ -392,10 +392,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = function renderItem(arg1, arg2, arg3, arg4) {
-        var5 = _closure1_slot5;
-        var4 = _closure1_slot12;
+        var5 = _closure1_slot4;
+        var4 = _closure1_slot11;
         var3 = {};
         var1 = arg2;
         var3['state'] = var1;
@@ -408,120 +408,72 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var5.bind(var2)(var4, var3, var1);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = var7.bind(var8)(var3, var1, var4);
     var1 = 0;
-    var4 = var6[var1];
+    var7 = var6[var1];
+    var4 = metroImportAll;
     var1 = undefined;
-    var4 = var7.bind(var1)(var4);
+    var4 = var4.bind(var1)(var7);
     var _closure1_slot3 = var4;
     var4 = 1;
-    var7 = var6[var4];
-    var4 = metroImportAll;
-    var4 = var4.bind(var1)(var7);
-    var _closure1_slot4 = var4;
-    var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot5 = var4;
+    var _closure1_slot4 = var4;
     var4 = {};
     var7 = "function SearchTabsTransitionGroupTsx1(){const{withSpring,opacity,springStandard,transitionState,TransitionStates,runOnJS,cleanUp}=this.__closure;return{opacity:withSpring(opacity.get(),springStandard,'respect-motion-settings',function(finished){if(finished&&transitionState===TransitionStates.YEETED){runOnJS(cleanUp)();}}),position:opacity.get()===1?'relative':'absolute'};}";
     var4['code'] = var7;
-    var _closure1_slot6 = var4;
+    var _closure1_slot5 = var4;
     var4 = {};
     var7 = 'function SearchTabsTransitionGroupTsx2(finished){const{transitionState,TransitionStates,runOnJS,cleanUp}=this.__closure;if(finished&&transitionState===TransitionStates.YEETED){runOnJS(cleanUp)();}}';
     var4['code'] = var7;
-    var _closure1_slot7 = var4;
+    var _closure1_slot6 = var4;
     var4 = {};
     var7 = 'function SearchTabsTransitionGroupTsx3(){const{swipeForMemberListContext}=this.__closure;var _swipeForMemberListCo;(_swipeForMemberListCo=swipeForMemberListContext)===null||_swipeForMemberListCo===void 0||_swipeForMemberListCo.disallowGesture.set(false);}';
     var4['code'] = var7;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = {};
     var7 = 'function SearchTabsTransitionGroupTsx4(){const{state}=this.__closure;return state.scrollOffset.get()>0;}';
     var4['code'] = var7;
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = {};
     var7 = 'function SearchTabsTransitionGroupTsx5(isOffsetFromStart,prevIsOffsetFromStart){const{swipeForMemberListContext}=this.__closure;if(isOffsetFromStart!==prevIsOffsetFromStart){var _swipeForMemberListCo;(_swipeForMemberListCo=swipeForMemberListContext)===null||_swipeForMemberListCo===void 0||_swipeForMemberListCo.disallowGesture.set(isOffsetFromStart);}}';
     var4['code'] = var7;
-    var _closure1_slot10 = var4;
-    var4 = 11;
+    var _closure1_slot9 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/search/native/components/tabs/SearchTabsTransitionGroup.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function SearchTabsTransitionGroup(arg1) {
-        var2 = arg1;
-        var8 = var2.state;
-        var _closure2_slot0 = var8;
-        var3 = _closure1_slot4;
-        var2 = var3.useRef;
-        var2 = var2.bind(var3)(var8);
-        var _closure2_slot1 = var2;
+        var1 = arg1;
+        var7 = var1.state;
         var4 = _closure1_slot4;
-        var3 = var4.useState;
-        var2 = new Array(1);
-        var2[0] = var8;
-        var6 = var3.bind(var4)(var2);
-        var3 = _closure1_slot3;
-        var4 = undefined;
-        var2 = 2;
-        var3 = var3.bind(var4)(var6, var2);
-        var2 = 0;
-        var6 = var3[var2];
-        var2 = 1;
-        var2 = var3[var2];
-        var _closure2_slot2 = var2;
-        var7 = _closure1_slot4;
-        var3 = var7.useEffect;
-        var2 = new Array(1);
-        var2[0] = var8;
-        var1 = function() {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
-                var1 = _closure2_slot1;
-                var1 = var1.current;
-                var3 = var1.items;
-                var1 = _closure2_slot0;
-                var1 = var1.items;
-                if(!(var3 !== var1)) { _fun0008_ip = 65; continue _fun0008 }
- 32:
-                var3 = _closure2_slot1;
-                var1 = _closure2_slot0;
-                var3['current'] = var1;
-                var3 = _closure2_slot2;
-                var2 = new Array(1);
-                var2[0] = var1;
-                var1 = undefined;
-                var1 = var3.bind(var1)(var2);
- 65:
-                var1 = undefined;
-                return var1;
-            }
-        };
-        var1 = var3.bind(var7)(var1, var2);
-        var3 = _closure1_slot5;
         var2 = _closure1_slot0;
-        var7 = _closure1_slot2;
-        var1 = 6;
-        var1 = var7[var1];
-        var1 = var2.bind(var4)(var1);
+        var3 = _closure1_slot2;
+        var1 = 5;
+        var1 = var3[var1];
+        var3 = undefined;
+        var1 = var2.bind(var3)(var1);
         var2 = var1.TransitionGroup;
         var1 = {};
+        var6 = new Array(1);
+        var6[0] = var7;
         var1['items'] = var6;
-        var6 = _closure1_slot11;
+        var6 = _closure1_slot10;
         var1['getItemKey'] = var6;
-        var5 = _closure1_slot13;
+        var5 = _closure1_slot12;
         var1['renderItem'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
+        var1 = var4.bind(var3)(var2, var1);
         return var1;
     };
     var3['default'] = var2;

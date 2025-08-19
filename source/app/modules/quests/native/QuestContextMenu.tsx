@@ -424,11 +424,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['iconSource'] = var4;
                     var1[1] = var3;
                     var3 = _closure2_slot13;
-                    if(var3) { _fun0003_ip = 218; continue _fun0003 }
- 212:
+                    if(var3) { _fun0003_ip = 217; continue _fun0003 }
+ 211:
                     var3 = new Array(0);
-                    _fun0003_ip = 318; continue _fun0003;
- 218:
+                    _fun0003_ip = 316; continue _fun0003;
+ 217:
                     var4 = {};
                     var6 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -452,7 +452,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new Array(1);
                     var2[0] = var4;
                     var3 = var2;
- 318:
+ 316:
                     var12 = 2;
                     var14 = var1;
                     var13 = var3;

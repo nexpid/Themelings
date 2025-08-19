@@ -303,13 +303,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = arg1;
                 var3 = var1.count;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0006_ip = 36; continue _fun0006 }
- 14:
+                if(!(var2 != var3)) { _fun0006_ip = 38; continue _fun0006 }
+ 15:
                 var3 = _closure1_slot10;
                 var2 = var1.threadId;
                 var1 = var1.count;
                 var3[var2] = var1;
- 36:
+ 38:
                 var1 = undefined;
                 return var1;
             }

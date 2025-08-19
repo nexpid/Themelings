@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.canEdit;
             var3 = var3.canRemove;
             var7 = new Array(0);
-            if(!var4) { _fun0001_ip = 175; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 174; continue _fun0001 }
  70:
             var8 = var7.push;
             var4 = {};
@@ -87,9 +87,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4['action'] = var9;
             var4 = var8.bind(var7)(var4);
- 175:
-            if(!var3) { _fun0001_ip = 291; continue _fun0001 }
- 178:
+ 174:
+            if(!var3) { _fun0001_ip = 289; continue _fun0001 }
+ 177:
             var4 = var7.push;
             var3 = {};
             var9 = _closure1_slot0;
@@ -205,9 +205,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['action'] = var8;
             var3 = var4.bind(var7)(var3);
- 291:
-            if(var1) { _fun0001_ip = 407; continue _fun0001 }
- 294:
+ 289:
+            if(var1) { _fun0001_ip = 404; continue _fun0001 }
+ 292:
             var3 = var7.push;
             var1 = {};
             var8 = _closure1_slot0;
@@ -244,12 +244,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['action'] = var4;
             var1 = var3.bind(var7)(var1);
- 407:
+ 404:
             var4 = var7.length;
             var3 = 0;
             var1 = null;
-            if(!(var3 !== var4)) { _fun0001_ip = 472; continue _fun0001 }
- 420:
+            if(!(var3 !== var4)) { _fun0001_ip = 469; continue _fun0001 }
+ 417:
             var4 = _closure1_slot4;
             var3 = _closure1_slot0;
             var8 = _closure1_slot3;
@@ -321,7 +321,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 472:
+ 469:
             return var1;
         }
     };

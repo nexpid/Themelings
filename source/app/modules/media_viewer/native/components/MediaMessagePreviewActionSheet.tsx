@@ -190,11 +190,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var18.ActionSheetRow;
             var19 = var18.Icon;
             var18 = {};
-            var22 = _closure1_slot1;
             var20 = 11;
             var20 = var16[var20];
-            var20 = var22.bind(var4)(var20);
-            var18['source'] = var20;
+            var20 = var21.bind(var4)(var20);
+            var20 = var20.LinkIcon;
+            var18['IconComponent'] = var20;
             var18 = var3.bind(var4)(var19, var18);
             var8['icon'] = var18;
             var18 = 12;
@@ -212,8 +212,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var3.bind(var4)(var12, var8);
             var8 = new Array(3);
             var8[0] = var12;
-            if(!var11) { _fun0001_ip = 666; continue _fun0001 }
- 523:
+            if(!var11) { _fun0001_ip = 667; continue _fun0001 }
+ 525:
             var16 = _closure1_slot4;
             var22 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -245,10 +245,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['label'] = var19;
             var12['onPress'] = var17;
             var11 = var16.bind(var4)(var14, var12);
- 666:
+ 667:
             var8[1] = var11;
             if(!var9) { _fun0001_ip = 827; continue _fun0001 }
- 676:
+ 677:
             var12 = _closure1_slot4;
             var17 = _closure1_slot0;
             var14 = _closure1_slot2;

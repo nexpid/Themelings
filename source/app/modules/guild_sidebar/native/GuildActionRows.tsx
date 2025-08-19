@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['channelInfoContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot10 = var4;
-    var4 = 23;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -85,36 +85,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var1 = var2.guild;
             var _closure2_slot0 = var1;
-            var8 = var2.selected;
+            var10 = var2.selected;
             var2 = _closure1_slot10;
             var4 = undefined;
-            var7 = var2.bind(var4)();
+            var8 = var2.bind(var4)();
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 10;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
-            var11 = var2.bind(var4)(var1);
+            var12 = var2.bind(var4)(var1);
             var15 = var1.id;
             var _closure2_slot1 = var15;
-            var12 = _closure1_slot0;
+            var9 = _closure1_slot0;
             var1 = 11;
             var1 = var5[var1];
-            var3 = var12.bind(var4)(var1);
+            var3 = var9.bind(var4)(var1);
             var2 = var3.UNSAFE_useIsDismissibleContentDismissed;
             var1 = 12;
             var1 = var5[var1];
-            var1 = var12.bind(var4)(var1);
+            var1 = var9.bind(var4)(var1);
             var1 = var1.DismissibleContent;
             var1 = var1.CHANNEL_BROWSER_NEW_BADGE_NUX;
             var1 = var2.bind(var3)(var1);
             var2 = 13;
             var3 = var5[var2];
-            var14 = var12.bind(var4)(var3);
+            var14 = var9.bind(var4)(var3);
             var13 = var14.useStateFromStores;
             var3 = _closure1_slot6;
-            var10 = new Array(1);
-            var10[0] = var3;
+            var11 = new Array(1);
+            var11[0] = var3;
             var3 = function() {
                 var4 = _closure1_slot6;
                 var3 = var4.hasUnread;
@@ -125,13 +125,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var3 = var13.bind(var14)(var10, var3);
+            var3 = var13.bind(var14)(var11, var3);
             var2 = var5[var2];
-            var14 = var12.bind(var4)(var2);
+            var14 = var9.bind(var4)(var2);
             var13 = var14.useStateFromStores;
             var2 = _closure1_slot5;
-            var10 = new Array(1);
-            var10[0] = var2;
+            var11 = new Array(1);
+            var11[0] = var2;
             var2 = function() {
                 var4 = _closure1_slot5;
                 var3 = var4.getNewChannelIds;
@@ -149,11 +149,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2 > var1;
                 return var1;
             };
-            var2 = var13.bind(var14)(var10, var2);
+            var2 = var13.bind(var14)(var11, var2);
             var14 = _closure1_slot3;
             var13 = var14.useCallback;
-            var10 = new Array(1);
-            var10[0] = var15;
+            var11 = new Array(1);
+            var11[0] = var15;
             var6 = function() {
                 var5 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -177,20 +177,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var6)(var4, var3, var2);
                 return var1;
             };
-            var10 = var13.bind(var14)(var6, var10);
+            var11 = var13.bind(var14)(var6, var11);
             var6 = 18;
             var5 = var5[var6];
-            var5 = var12.bind(var4)(var5);
+            var5 = var9.bind(var4)(var5);
             var5 = var5.ChannelModes;
-            var12 = var5.DEFAULT;
-            if(!var8) { _fun0001_ip = 285; continue _fun0001 }
+            var9 = var5.DEFAULT;
+            if(!var10) { _fun0001_ip = 285; continue _fun0001 }
  256:
             var13 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var6];
             var5 = var13.bind(var4)(var5);
             var5 = var5.ChannelModes;
-            var12 = var5.SELECTED;
+            var9 = var5.SELECTED;
  285:
             var1 = !var1;
             if(var1) { _fun0001_ip = 294; continue _fun0001 }
@@ -207,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot9;
             var2 = _closure1_slot4;
             var1 = {};
-            var13 = var7.channelInfoContainer;
+            var13 = var8.channelInfoContainer;
             var1['style'] = var13;
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -226,42 +226,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1[var6];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var1['onPress'] = var10;
-            var7 = var7.container;
-            var1['style'] = var7;
-            var7 = true;
-            var1['accessible'] = var7;
-            var10 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var1['onPress'] = var11;
+            var8 = var8.container;
+            var1['style'] = var8;
+            var8 = true;
+            var1['accessible'] = var8;
+            var11 = _closure1_slot0;
+            var8 = _closure1_slot2;
             var17 = 20;
-            var13 = var7[var17];
-            var13 = var10.bind(var4)(var13);
+            var13 = var8[var17];
+            var13 = var11.bind(var4)(var13);
             var14 = var13.intl;
             var13 = var14.string;
-            var7 = var7[var17];
-            var7 = var10.bind(var4)(var7);
-            var10 = var7.t;
-            if(var11) { _fun0001_ip = 472; continue _fun0001 }
+            var8 = var8[var17];
+            var8 = var11.bind(var4)(var8);
+            var11 = var8.t;
+            if(var12) { _fun0001_ip = 472; continue _fun0001 }
  459:
-            var7 = var10.et6wam;
-            var7 = var13.bind(var14)(var7);
+            var8 = var11.et6wam;
+            var8 = var13.bind(var14)(var8);
             _fun0001_ip = 483; continue _fun0001;
  472:
-            var10 = var10.h9mGOD;
-            var7 = var13.bind(var14)(var10);
+            var11 = var11.h9mGOD;
+            var8 = var13.bind(var14)(var11);
  483:
-            var1['accessibilityLabel'] = var7;
-            var7 = {};
-            var7['selected'] = var8;
-            var1['accessibilityState'] = var7;
-            var1['mode'] = var12;
-            var10 = _closure1_slot9;
-            var8 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var7 = var7[var6];
-            var7 = var8.bind(var4)(var7);
-            var8 = var7.BaseChannelName;
-            var7 = {};
+            var1['accessibilityLabel'] = var8;
+            var8 = {};
+            var8['selected'] = var10;
+            var1['accessibilityState'] = var8;
+            var1['mode'] = var9;
+            var11 = _closure1_slot9;
+            var10 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var8 = var8[var6];
+            var8 = var10.bind(var4)(var8);
+            var10 = var8.BaseChannelName;
+            var8 = {};
             var16 = _closure1_slot0;
             var13 = _closure1_slot2;
             var14 = var13[var17];
@@ -271,19 +271,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13[var17];
             var13 = var16.bind(var4)(var13);
             var13 = var13.t;
-            if(var11) { _fun0001_ip = 589; continue _fun0001 }
+            if(var12) { _fun0001_ip = 589; continue _fun0001 }
  576:
-            var11 = var13.et6wam;
-            var11 = var14.bind(var15)(var11);
+            var12 = var13.et6wam;
+            var12 = var14.bind(var15)(var12);
             _fun0001_ip = 600; continue _fun0001;
  589:
             var13 = var13.h9mGOD;
-            var11 = var14.bind(var15)(var13);
+            var12 = var14.bind(var15)(var13);
  600:
-            var7['name'] = var11;
-            var7['mode'] = var12;
-            var7 = var10.bind(var4)(var8, var7);
-            var1['name'] = var7;
+            var8['name'] = var12;
+            var8['mode'] = var9;
+            var8 = var11.bind(var4)(var10, var8);
+            var1['name'] = var8;
             var8 = _closure1_slot9;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -291,13 +291,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var10.bind(var4)(var6);
             var7 = var6.BaseChannelIcon;
             var6 = {};
-            var6['mode'] = var12;
-            var12 = _closure1_slot1;
+            var6['mode'] = var9;
             var9 = 21;
-            var9 = var11[var9];
-            var9 = var12.bind(var4)(var9);
-            var6['source'] = var9;
-            var9 = 22;
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.ChannelListMagnifyingGlassIcon;

@@ -1577,193 +1577,193 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 380; continue _fun0017 }
- 370:
+                    if(!var17) { _fun0017_ip = 381; continue _fun0017 }
+ 371:
                     var17 = var16.percentiles;
                     var18 = var17[var13];
- 380:
+ 381:
                     var17 = 'target_bitrate_network_percentile1';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 418; continue _fun0017 }
- 405:
+                    if(!var17) { _fun0017_ip = 420; continue _fun0017 }
+ 407:
                     var20 = var16.percentiles;
                     var17 = 5;
                     var18 = var20[var17];
- 418:
+ 420:
                     var17 = 'target_bitrate_network_percentile5';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 456; continue _fun0017 }
- 443:
+                    if(!var17) { _fun0017_ip = 459; continue _fun0017 }
+ 446:
                     var20 = var16.percentiles;
                     var17 = 10;
                     var18 = var20[var17];
- 456:
+ 459:
                     var17 = 'target_bitrate_network_percentile10';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 494; continue _fun0017 }
- 481:
+                    if(!var17) { _fun0017_ip = 498; continue _fun0017 }
+ 485:
                     var20 = var16.percentiles;
                     var17 = 25;
                     var18 = var20[var17];
- 494:
+ 498:
                     var17 = 'target_bitrate_network_percentile25';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 532; continue _fun0017 }
- 519:
+                    if(!var17) { _fun0017_ip = 537; continue _fun0017 }
+ 524:
                     var20 = var16.percentiles;
                     var17 = 50;
                     var18 = var20[var17];
- 532:
+ 537:
                     var17 = 'target_bitrate_network_percentile50';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 570; continue _fun0017 }
- 557:
+                    if(!var17) { _fun0017_ip = 576; continue _fun0017 }
+ 563:
                     var20 = var16.percentiles;
                     var17 = 75;
                     var18 = var20[var17];
- 570:
+ 576:
                     var17 = 'target_bitrate_network_percentile75';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var18 = var17 > var11;
                     var17 = null;
-                    if(!var18) { _fun0017_ip = 608; continue _fun0017 }
- 595:
+                    if(!var18) { _fun0017_ip = 615; continue _fun0017 }
+ 602:
                     var18 = var16.percentiles;
                     var16 = 99;
                     var17 = var18[var16];
- 608:
+ 615:
                     var16 = 'target_bitrate_network_percentile99';
                     var2[var16] = var17;
                     var17 = 0;
-                    if(!var9) { _fun0017_ip = 671; continue _fun0017 }
- 624:
+                    if(!var9) { _fun0017_ip = 678; continue _fun0017 }
+ 631:
                     var16 = global;
                     var20 = var16.Math;
                     var18 = var20.round;
                     var16 = var7.targetBytesMax;
                     var22 = var8 != var16;
                     var21 = 0;
-                    if(!var22) { _fun0017_ip = 655; continue _fun0017 }
- 652:
+                    if(!var22) { _fun0017_ip = 662; continue _fun0017 }
+ 659:
                     var21 = var16;
- 655:
+ 662:
                     var16 = 8;
                     var16 = var16 * var21;
                     var16 = var16 / var19;
                     var17 = var18.bind(var20)(var16);
- 671:
+ 678:
                     var16 = 'target_bitrate_max';
                     var2[var16] = var17;
                     var16 = 0;
-                    if(!var9) { _fun0017_ip = 734; continue _fun0017 }
- 687:
+                    if(!var9) { _fun0017_ip = 741; continue _fun0017 }
+ 694:
                     var9 = global;
                     var18 = var9.Math;
                     var17 = var18.round;
                     var9 = var7.outboundBytesAvailable;
                     var21 = var8 != var9;
                     var20 = 0;
-                    if(!var21) { _fun0017_ip = 718; continue _fun0017 }
- 715:
+                    if(!var21) { _fun0017_ip = 725; continue _fun0017 }
+ 722:
                     var20 = var9;
- 718:
+ 725:
                     var9 = 8;
                     var9 = var9 * var20;
                     var9 = var9 / var19;
                     var16 = var17.bind(var18)(var9);
- 734:
+ 741:
                     var9 = 'outbound_bandwidth_estimate';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 769; continue _fun0017 }
- 759:
+                    if(!var9) { _fun0017_ip = 777; continue _fun0017 }
+ 767:
                     var9 = var5.percentiles;
                     var16 = var9[var13];
- 769:
+ 777:
                     var9 = 'outbound_bandwidth_surplus_percentile1';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 807; continue _fun0017 }
- 794:
+                    if(!var9) { _fun0017_ip = 816; continue _fun0017 }
+ 803:
                     var17 = var5.percentiles;
                     var9 = 5;
                     var16 = var17[var9];
- 807:
+ 816:
                     var9 = 'outbound_bandwidth_surplus_percentile5';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 845; continue _fun0017 }
- 832:
+                    if(!var9) { _fun0017_ip = 855; continue _fun0017 }
+ 842:
                     var17 = var5.percentiles;
                     var9 = 10;
                     var16 = var17[var9];
- 845:
+ 855:
                     var9 = 'outbound_bandwidth_surplus_percentile10';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 883; continue _fun0017 }
- 870:
+                    if(!var9) { _fun0017_ip = 894; continue _fun0017 }
+ 881:
                     var17 = var5.percentiles;
                     var9 = 25;
                     var16 = var17[var9];
- 883:
+ 894:
                     var9 = 'outbound_bandwidth_surplus_percentile25';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 921; continue _fun0017 }
- 908:
+                    if(!var9) { _fun0017_ip = 933; continue _fun0017 }
+ 920:
                     var17 = var5.percentiles;
                     var9 = 50;
                     var16 = var17[var9];
- 921:
+ 933:
                     var9 = 'outbound_bandwidth_surplus_percentile50';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 959; continue _fun0017 }
- 946:
+                    if(!var9) { _fun0017_ip = 972; continue _fun0017 }
+ 959:
                     var17 = var5.percentiles;
                     var9 = 75;
                     var16 = var17[var9];
- 959:
+ 972:
                     var9 = 'outbound_bandwidth_surplus_percentile75';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var16 = var9 > var11;
                     var9 = null;
-                    if(!var16) { _fun0017_ip = 997; continue _fun0017 }
- 984:
+                    if(!var16) { _fun0017_ip = 1011; continue _fun0017 }
+ 998:
                     var16 = var5.percentiles;
                     var5 = 99;
                     var9 = var16[var5];
- 997:
+ 1011:
                     var5 = 'outbound_bandwidth_surplus_percentile99';
                     var2[var5] = var9;
                     var17 = _closure1_slot12;
@@ -1869,164 +1869,164 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = var7.vmafScoreNum;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1557; continue _fun0017 }
- 1541:
+                    if(!var15) { _fun0017_ip = 1571; continue _fun0017 }
+ 1555:
                     var17 = var7.vmafScoreSum;
                     var15 = var7.vmafScoreNum;
                     var16 = var17 / var15;
- 1557:
+ 1571:
                     var15 = 'average_encoder_vmaf_score';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1592; continue _fun0017 }
- 1582:
+                    if(!var15) { _fun0017_ip = 1607; continue _fun0017 }
+ 1597:
                     var15 = var14.percentiles;
                     var16 = var15[var13];
- 1592:
+ 1607:
                     var15 = 'encoder_vmaf_score_percentile1';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1630; continue _fun0017 }
- 1617:
+                    if(!var15) { _fun0017_ip = 1646; continue _fun0017 }
+ 1633:
                     var17 = var14.percentiles;
                     var15 = 5;
                     var16 = var17[var15];
- 1630:
+ 1646:
                     var15 = 'encoder_vmaf_score_percentile5';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1668; continue _fun0017 }
- 1655:
+                    if(!var15) { _fun0017_ip = 1685; continue _fun0017 }
+ 1672:
                     var17 = var14.percentiles;
                     var15 = 10;
                     var16 = var17[var15];
- 1668:
+ 1685:
                     var15 = 'encoder_vmaf_score_percentile10';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1706; continue _fun0017 }
- 1693:
+                    if(!var15) { _fun0017_ip = 1724; continue _fun0017 }
+ 1711:
                     var17 = var14.percentiles;
                     var15 = 25;
                     var16 = var17[var15];
- 1706:
+ 1724:
                     var15 = 'encoder_vmaf_score_percentile25';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1744; continue _fun0017 }
- 1731:
+                    if(!var15) { _fun0017_ip = 1763; continue _fun0017 }
+ 1750:
                     var17 = var14.percentiles;
                     var15 = 50;
                     var16 = var17[var15];
- 1744:
+ 1763:
                     var15 = 'encoder_vmaf_score_percentile50';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var16 = var15 > var11;
                     var15 = null;
-                    if(!var16) { _fun0017_ip = 1782; continue _fun0017 }
- 1769:
+                    if(!var16) { _fun0017_ip = 1802; continue _fun0017 }
+ 1789:
                     var16 = var14.percentiles;
                     var14 = 75;
                     var15 = var16[var14];
- 1782:
+ 1802:
                     var14 = 'encoder_vmaf_score_percentile75';
                     var2[var14] = var15;
                     var14 = var7.psnrDbNum;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 1824; continue _fun0017 }
- 1808:
+                    if(!var14) { _fun0017_ip = 1844; continue _fun0017 }
+ 1828:
                     var16 = var7.psnrDbSum;
                     var14 = var7.psnrDbNum;
                     var15 = var16 / var14;
- 1824:
+ 1844:
                     var14 = 'average_encoder_psnr_db';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 1859; continue _fun0017 }
- 1849:
+                    if(!var14) { _fun0017_ip = 1880; continue _fun0017 }
+ 1870:
                     var14 = var12.percentiles;
                     var15 = var14[var13];
- 1859:
+ 1880:
                     var14 = 'encoder_psnr_db_percentile1';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 1897; continue _fun0017 }
- 1884:
+                    if(!var14) { _fun0017_ip = 1919; continue _fun0017 }
+ 1906:
                     var16 = var12.percentiles;
                     var14 = 5;
                     var15 = var16[var14];
- 1897:
+ 1919:
                     var14 = 'encoder_psnr_db_percentile5';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 1935; continue _fun0017 }
- 1922:
+                    if(!var14) { _fun0017_ip = 1958; continue _fun0017 }
+ 1945:
                     var16 = var12.percentiles;
                     var14 = 10;
                     var15 = var16[var14];
- 1935:
+ 1958:
                     var14 = 'encoder_psnr_db_percentile10';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 1973; continue _fun0017 }
- 1960:
+                    if(!var14) { _fun0017_ip = 1997; continue _fun0017 }
+ 1984:
                     var16 = var12.percentiles;
                     var14 = 25;
                     var15 = var16[var14];
- 1973:
+ 1997:
                     var14 = 'encoder_psnr_db_percentile25';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 2011; continue _fun0017 }
- 1998:
+                    if(!var14) { _fun0017_ip = 2036; continue _fun0017 }
+ 2023:
                     var16 = var12.percentiles;
                     var14 = 50;
                     var15 = var16[var14];
- 2011:
+ 2036:
                     var14 = 'encoder_psnr_db_percentile50';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var15 = var14 > var11;
                     var14 = null;
-                    if(!var15) { _fun0017_ip = 2049; continue _fun0017 }
- 2036:
+                    if(!var15) { _fun0017_ip = 2075; continue _fun0017 }
+ 2062:
                     var15 = var12.percentiles;
                     var12 = 75;
                     var14 = var15[var12];
- 2049:
+ 2075:
                     var12 = 'encoder_psnr_db_percentile75';
                     var2[var12] = var14;
                     var12 = var7.outboundSinkWantNum;
                     var12 = var12 > var11;
                     var14 = null;
-                    if(!var12) { _fun0017_ip = 2091; continue _fun0017 }
- 2075:
+                    if(!var12) { _fun0017_ip = 2117; continue _fun0017 }
+ 2101:
                     var15 = var7.outboundSinkWantSum;
                     var12 = var7.outboundSinkWantNum;
                     var14 = var15 / var12;
- 2091:
+ 2117:
                     var12 = 'average_outbound_want';
                     var2[var12] = var14;
                     var14 = var7.framesDroppedRateLimiter;
@@ -2076,77 +2076,77 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2362; continue _fun0017 }
- 2352:
+                    if(!var10) { _fun0017_ip = 2389; continue _fun0017 }
+ 2379:
                     var10 = var6.percentiles;
                     var12 = var10[var13];
- 2362:
+ 2389:
                     var10 = 'video_entropy_percentile1';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2400; continue _fun0017 }
- 2387:
+                    if(!var10) { _fun0017_ip = 2428; continue _fun0017 }
+ 2415:
                     var13 = var6.percentiles;
                     var10 = 5;
                     var12 = var13[var10];
- 2400:
+ 2428:
                     var10 = 'video_entropy_percentile5';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2438; continue _fun0017 }
- 2425:
+                    if(!var10) { _fun0017_ip = 2467; continue _fun0017 }
+ 2454:
                     var13 = var6.percentiles;
                     var10 = 10;
                     var12 = var13[var10];
- 2438:
+ 2467:
                     var10 = 'video_entropy_percentile10';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2476; continue _fun0017 }
- 2463:
+                    if(!var10) { _fun0017_ip = 2506; continue _fun0017 }
+ 2493:
                     var13 = var6.percentiles;
                     var10 = 25;
                     var12 = var13[var10];
- 2476:
+ 2506:
                     var10 = 'video_entropy_percentile25';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2514; continue _fun0017 }
- 2501:
+                    if(!var10) { _fun0017_ip = 2545; continue _fun0017 }
+ 2532:
                     var13 = var6.percentiles;
                     var10 = 50;
                     var12 = var13[var10];
- 2514:
+ 2545:
                     var10 = 'video_entropy_percentile50';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2552; continue _fun0017 }
- 2539:
+                    if(!var10) { _fun0017_ip = 2584; continue _fun0017 }
+ 2571:
                     var13 = var6.percentiles;
                     var10 = 75;
                     var12 = var13[var10];
- 2552:
+ 2584:
                     var10 = 'video_entropy_percentile75';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var8 = null;
-                    if(!var10) { _fun0017_ip = 2590; continue _fun0017 }
- 2577:
+                    if(!var10) { _fun0017_ip = 2623; continue _fun0017 }
+ 2610:
                     var10 = var6.percentiles;
                     var6 = 99;
                     var8 = var10[var6];
- 2590:
+ 2623:
                     var6 = 'video_entropy_percentile99';
                     var2[var6] = var8;
                     var6 = _closure1_slot12;

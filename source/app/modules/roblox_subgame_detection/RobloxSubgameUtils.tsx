@@ -390,99 +390,69 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function hasRunningGameChanged(arg1, arg2, arg3) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            var8 = arg1;
+            var4 = arg1;
             var3 = arg3;
-            var2 = var8.distributor;
+            var2 = var4.distributor;
             var1 = _closure1_slot8;
             var1 = var1.ROBLOX;
             var1 = var2 === var1;
-            if(!var1) { _fun0007_ip = 332; continue _fun0007 }
+            if(!var1) { _fun0007_ip = 211; continue _fun0007 }
  35:
-            var4 = null;
-            var2 = var4 != var3;
+            var7 = null;
+            var2 = var7 != var3;
             if(!var2) { _fun0007_ip = 58; continue _fun0007 }
  44:
-            var5 = var8.id;
+            var5 = var4.id;
             var3 = var3.id;
             var2 = var5 !== var3;
  58:
-            if(var2) { _fun0007_ip = 329; continue _fun0007 }
+            if(var2) { _fun0007_ip = 208; continue _fun0007 }
  64:
             var6 = _closure1_slot9;
-            var9 = var8.distributor;
+            var9 = var4.distributor;
             var3 = _closure1_slot8;
             var3 = var3.ROBLOX;
             var5 = null;
-            if(!(var9 === var3)) { _fun0007_ip = 318; continue _fun0007 }
- 93:
-            var3 = var8.gameMetadata;
-            var3 = var4 == var3;
+            if(!(var9 === var3)) { _fun0007_ip = 197; continue _fun0007 }
+ 90:
+            var3 = var4.gameMetadata;
+            var3 = var7 == var3;
             var5 = null;
-            if(var3) { _fun0007_ip = 318; continue _fun0007 }
- 111:
-            var3 = var8.sku;
-            var3 = var4 == var3;
+            if(var3) { _fun0007_ip = 197; continue _fun0007 }
+ 105:
+            var3 = var4.sku;
+            var3 = var7 == var3;
             var5 = null;
-            if(var3) { _fun0007_ip = 318; continue _fun0007 }
- 129:
+            if(var3) { _fun0007_ip = 197; continue _fun0007 }
+ 120:
             var3 = {};
-            var12 = var8.gameMetadata;
-            var13 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var11 = 4;
-            var9 = var9[var11];
-            var10 = undefined;
-            var9 = var13.bind(var10)(var9);
-            var9 = var9.RobloxMetadataKeys;
-            var9 = var9.PLACE_ID;
-            var12 = var12[var9];
-            var13 = var4 != var12;
-            var9 = null;
-            if(!var13) { _fun0007_ip = 187; continue _fun0007 }
- 184:
-            var9 = var12;
- 187:
-            var3['placeId'] = var9;
-            var9 = var8.sku;
-            var3['universeId'] = var9;
-            var12 = var8.gameMetadata;
-            var13 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var9 = var9[var11];
-            var9 = var13.bind(var10)(var9);
-            var9 = var9.RobloxMetadataKeys;
-            var9 = var9.JOB_ID;
-            var12 = var12[var9];
-            var13 = var4 != var12;
-            var9 = null;
-            if(!var13) { _fun0007_ip = 254; continue _fun0007 }
- 251:
-            var9 = var12;
- 254:
-            var3['jobId'] = var9;
-            var8 = var8.gameMetadata;
-            var9 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var7 = var7[var11];
-            var7 = var9.bind(var10)(var7);
-            var7 = var7.RobloxMetadataKeys;
-            var7 = var7.ROBLOX_USER_ID;
-            var7 = var8[var7];
-            var8 = var4 != var7;
-            var4 = null;
-            if(!var8) { _fun0007_ip = 310; continue _fun0007 }
- 307:
-            var4 = var7;
- 310:
-            var3['robloxUserId'] = var4;
+            var9 = var4.gameMetadata;
+            var11 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var8 = 4;
+            var10 = var10[var8];
+            var8 = undefined;
+            var8 = var11.bind(var8)(var10);
+            var8 = var8.RobloxMetadataKeys;
+            var8 = var8.PLACE_ID;
+            var8 = var9[var8];
+            var9 = var7 != var8;
+            var7 = null;
+            if(!var9) { _fun0007_ip = 178; continue _fun0007 }
+ 175:
+            var7 = var8;
+ 178:
+            var3['placeId'] = var7;
+            var4 = var4.sku;
+            var3['universeId'] = var4;
             var5 = var3;
- 318:
+ 197:
             var4 = undefined;
             var3 = arg2;
             var2 = var6.bind(var4)(var5, var3);
- 329:
+ 208:
             var1 = var2;
- 332:
+ 211:
             return var1;
         }
     };
@@ -536,7 +506,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  149:
             var5 = var6;
  152:
-            if(!(var11 != var4)) { _fun0008_ip = 752; continue _fun0008 }
+            if(!(var11 != var4)) { _fun0008_ip = 654; continue _fun0008 }
  159:
             var6 = {};
             if(!(var11 != var8)) { _fun0008_ip = 321; continue _fun0008 }
@@ -633,39 +603,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var4.placeId;
             if(!(var11 != var9)) { _fun0008_ip = 611; continue _fun0008 }
  572:
-            var12 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var9 = var9[var10];
-            var9 = var12.bind(var3)(var9);
-            var9 = var9.RobloxMetadataKeys;
-            var12 = var9.PLACE_ID;
-            var9 = var4.placeId;
-            var6[var12] = var9;
- 611:
-            var9 = var4.jobId;
-            if(!(var11 != var9)) { _fun0008_ip = 660; continue _fun0008 }
- 621:
-            var12 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var9 = var9[var10];
-            var9 = var12.bind(var3)(var9);
-            var9 = var9.RobloxMetadataKeys;
-            var12 = var9.JOB_ID;
-            var9 = var4.jobId;
-            var6[var12] = var9;
- 660:
-            var9 = var4.robloxUserId;
-            if(!(var11 != var9)) { _fun0008_ip = 709; continue _fun0008 }
- 670:
             var9 = _closure1_slot0;
             var8 = _closure1_slot2;
             var8 = var8[var10];
             var8 = var9.bind(var3)(var8);
             var8 = var8.RobloxMetadataKeys;
-            var8 = var8.ROBLOX_USER_ID;
-            var4 = var4.robloxUserId;
+            var8 = var8.PLACE_ID;
+            var4 = var4.placeId;
             var6[var8] = var4;
- 709:
+ 611:
             var8 = var2.Object;
             var4 = var8.keys;
             var4 = var4.bind(var8)(var6);
@@ -673,17 +619,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 0;
             var8 = var8 > var4;
             var4 = undefined;
-            if(!var8) { _fun0008_ip = 744; continue _fun0008 }
- 741:
+            if(!var8) { _fun0008_ip = 646; continue _fun0008 }
+ 643:
             var4 = var6;
- 744:
+ 646:
             var1['gameMetadata'] = var4;
-            _fun0008_ip = 874; continue _fun0008;
- 752:
+            _fun0008_ip = 776; continue _fun0008;
+ 654:
             var6 = _closure1_slot11;
             var6 = var6.bind(var3)(var7);
-            if(!var6) { _fun0008_ip = 823; continue _fun0008 }
- 767:
+            if(!var6) { _fun0008_ip = 725; continue _fun0008 }
+ 669:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 4;
@@ -696,7 +642,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.ROBLOX;
             var4 = var6[var4];
             var1['name'] = var4;
- 823:
+ 725:
             var1['gameMetadata'] = var3;
             var1['sku'] = var3;
             var1['start'] = var5;
@@ -706,7 +652,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5 / var2;
             var2 = var3.bind(var4)(var2);
             var1['lastFocused'] = var2;
- 874:
+ 776:
             return var1;
         }
     };
@@ -727,8 +673,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var2 = var5 == var1;
             var1 = null;
-            if(var2) { _fun0009_ip = 326; continue _fun0009 }
- 58:
+            if(var2) { _fun0009_ip = 170; continue _fun0009 }
+ 55:
             var8 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var7];
@@ -738,30 +684,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4[var2];
             var2 = var5 == var2;
             var1 = null;
-            if(var2) { _fun0009_ip = 326; continue _fun0009 }
- 103:
-            var8 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var7];
-            var2 = var8.bind(var6)(var2);
-            var2 = var2.NativeRobloxSubgameKeys;
-            var2 = var2.JOB_ID;
-            var2 = var4[var2];
-            var2 = var5 == var2;
-            var1 = null;
-            if(var2) { _fun0009_ip = 326; continue _fun0009 }
- 148:
-            var8 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var7];
-            var2 = var8.bind(var6)(var2);
-            var2 = var2.NativeRobloxSubgameKeys;
-            var2 = var2.USER_ID;
-            var2 = var4[var2];
-            var2 = var5 == var2;
-            var1 = null;
-            if(var2) { _fun0009_ip = 326; continue _fun0009 }
- 193:
+            if(var2) { _fun0009_ip = 170; continue _fun0009 }
+ 97:
             var2 = {};
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -771,26 +695,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.UNIVERSE_ID;
             var8 = var4[var8];
             var2['universeId'] = var8;
-            var8 = var3[var7];
-            var8 = var5.bind(var6)(var8);
-            var8 = var8.NativeRobloxSubgameKeys;
-            var8 = var8.PLACE_ID;
-            var8 = var4[var8];
-            var2['placeId'] = var8;
-            var8 = var3[var7];
-            var8 = var5.bind(var6)(var8);
-            var8 = var8.NativeRobloxSubgameKeys;
-            var8 = var8.JOB_ID;
-            var8 = var4[var8];
-            var2['jobId'] = var8;
             var3 = var3[var7];
             var3 = var5.bind(var6)(var3);
             var3 = var3.NativeRobloxSubgameKeys;
-            var3 = var3.USER_ID;
+            var3 = var3.PLACE_ID;
             var3 = var4[var3];
-            var2['robloxUserId'] = var3;
+            var2['placeId'] = var3;
             var1 = var2;
- 326:
+ 170:
             return var1;
         }
     };

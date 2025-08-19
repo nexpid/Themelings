@@ -4,9 +4,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var4 = dependencyMap;
     var _closure1_slot0 = var5;
-    var1 = metroImportDefault;
-    var _closure1_slot1 = var1;
-    var _closure1_slot2 = var4;
+    var _closure1_slot1 = var4;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -22,106 +20,117 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/guild_role_subscriptions/native/guild_settings/tier_templates/GuildRoleSubscriptionTierTemplateUtils.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function getChannelIcon(arg1) {
+    var2 = function getPrivateChannelIconComponent(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var4 = arg1;
             var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot1;
             var6 = 0;
             var2 = var2[var6];
             var3 = undefined;
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_TEXT;
-            if(!(var2 !== var4)) { _fun0001_ip = 331; continue _fun0001 }
+            if(!(var2 !== var4)) { _fun0001_ip = 388; continue _fun0001 }
  46:
             var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_VOICE;
-            if(!(var2 !== var4)) { _fun0001_ip = 309; continue _fun0001 }
+            if(!(var2 !== var4)) { _fun0001_ip = 360; continue _fun0001 }
  82:
             var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_STAGE_VOICE;
-            if(!(var2 !== var4)) { _fun0001_ip = 287; continue _fun0001 }
+            if(!(var2 !== var4)) { _fun0001_ip = 332; continue _fun0001 }
  118:
             var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_FORUM;
-            if(!(var2 !== var4)) { _fun0001_ip = 265; continue _fun0001 }
- 151:
+            if(!(var2 !== var4)) { _fun0001_ip = 304; continue _fun0001 }
+ 154:
             var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_MEDIA;
-            if(!(var2 !== var4)) { _fun0001_ip = 243; continue _fun0001 }
- 184:
+            if(!(var2 !== var4)) { _fun0001_ip = 276; continue _fun0001 }
+ 187:
             var5 = _closure1_slot0;
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.ChannelTypes;
             var2 = var2.GUILD_ANNOUNCEMENT;
-            if(!(var2 !== var4)) { _fun0001_ip = 221; continue _fun0001 }
- 217:
-            var2 = null;
+            if(!(var2 !== var4)) { _fun0001_ip = 248; continue _fun0001 }
+ 220:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 1;
+            var2 = var5[var2];
+            var2 = var4.bind(var3)(var2);
+            var2 = var2.TextLockIcon;
             return var2;
- 221:
-            var4 = _closure1_slot1;
-            var5 = _closure1_slot2;
+ 248:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
             var2 = 6;
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
+            var2 = var2.AnnouncementsLockIcon;
             return var2;
- 243:
-            var4 = _closure1_slot1;
-            var5 = _closure1_slot2;
+ 276:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
             var2 = 5;
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
+            var2 = var2.ImageLockIcon;
             return var2;
- 265:
-            var4 = _closure1_slot1;
-            var5 = _closure1_slot2;
+ 304:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
             var2 = 4;
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
+            var2 = var2.ForumLockIcon;
             return var2;
- 287:
-            var4 = _closure1_slot1;
-            var5 = _closure1_slot2;
+ 332:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
             var2 = 3;
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
+            var2 = var2.StageLockIcon;
             return var2;
- 309:
-            var4 = _closure1_slot1;
-            var5 = _closure1_slot2;
+ 360:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
             var2 = 2;
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
+            var2 = var2.VoiceLockIcon;
             return var2;
- 331:
-            var2 = _closure1_slot1;
-            var4 = _closure1_slot2;
+ 388:
+            var2 = _closure1_slot0;
+            var4 = _closure1_slot1;
             var1 = 1;
             var1 = var4[var1];
             var1 = var2.bind(var3)(var1);
+            var1 = var1.TextLockIcon;
             return var1;
         }
     };
-    var3['getChannelIcon'] = var2;
+    var3['getPrivateChannelIconComponent'] = var2;
     return var1;
 })();

@@ -3893,17 +3893,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     _fun0043: for(var _fun0043_ip = 0; ; ) switch(_fun0043_ip) {
  0:
                         var3 = arg1;
+                        var5 = arguments[1];
+                        var4 = arguments[2];
+                        var1 = undefined;
+                        if(!(var5 === var1)) { _fun0043_ip = 17; continue _fun0043 }
+ 15:
+                        var5 = 0;
+ 17:
+                        if(!(var4 === var1)) { _fun0043_ip = 23; continue _fun0043 }
+ 21:
+                        var4 = 0;
+ 23:
                         var1 = _closure3_slot0;
                         var1 = var1.scrollPos;
+                        var1 = var1 + var5;
                         var1 = var3 >= var1;
-                        if(!var1) { _fun0043_ip = 47; continue _fun0043 }
- 23:
-                        var2 = _closure3_slot0;
-                        var4 = var2.scrollPos;
-                        var2 = var2.containerSize;
-                        var2 = var4 + var2;
-                        var1 = var3 <= var2;
+                        if(!var1) { _fun0043_ip = 75; continue _fun0043 }
  47:
+                        var2 = _closure3_slot0;
+                        var5 = var2.scrollPos;
+                        var2 = var2.containerSize;
+                        var2 = var5 + var2;
+                        var2 = var2 - var4;
+                        var1 = var3 <= var2;
+ 75:
                         return var1;
                     }
                 };
@@ -3975,7 +3988,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var1.scrollView;
                         var4 = var1.current;
                         var1 = null;
-                        if(!(var1 != var4)) { _fun0045_ip = 439; continue _fun0045 }
+                        if(!(var1 != var4)) { _fun0045_ip = 441; continue _fun0045 }
  104:
                         var3 = _closure3_slot0;
                         var2 = var3.props;
@@ -3992,17 +4005,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var17.computeScrollPosition;
                         var2 = var8 === var2;
                         var2 = var3.bind(var17)(var2, var11, var10);
-                        if(!(var1 != var2)) { _fun0045_ip = 435; continue _fun0045 }
+                        if(!(var1 != var2)) { _fun0045_ip = 437; continue _fun0045 }
  174:
                         var3 = 'visible';
-                        if(!(var3 === var15)) { _fun0045_ip = 209; continue _fun0045 }
+                        if(!(var3 === var15)) { _fun0045_ip = 211; continue _fun0045 }
  182:
                         var12 = _closure3_slot0;
                         var8 = var12.isVisible;
                         var3 = var2.scrollPosition;
-                        var3 = var8.bind(var12)(var3);
-                        if(var3) { _fun0045_ip = 431; continue _fun0045 }
- 209:
+                        var3 = var8.bind(var12)(var3, var14, var13);
+                        if(var3) { _fun0045_ip = 433; continue _fun0045 }
+ 211:
                         var12 = _closure3_slot0;
                         var8 = var12._calculateScrollPosition;
                         var3 = {};
@@ -4015,49 +4028,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3['paddingEnd'] = var13;
                         var8 = var8.bind(var12)(var3);
                         var3 = !var6;
-                        if(!var3) { _fun0045_ip = 270; continue _fun0045 }
- 267:
+                        if(!var3) { _fun0045_ip = 272; continue _fun0045 }
+ 269:
                         var3 = var7;
- 270:
-                        if(!var3) { _fun0045_ip = 277; continue _fun0045 }
- 273:
+ 272:
+                        if(!var3) { _fun0045_ip = 279; continue _fun0045 }
+ 275:
                         var3 = var1 != var9;
- 277:
-                        if(!var3) { _fun0045_ip = 336; continue _fun0045 }
- 280:
+ 279:
+                        if(!var3) { _fun0045_ip = 338; continue _fun0045 }
+ 282:
                         var3 = _closure3_slot0;
                         var7 = var3.scrollAnchor;
                         var3 = var7.setCustomAnchor;
                         var12 = var2.scrollPosition;
                         var13 = var1 != var8;
                         var2 = 0;
-                        if(!var13) { _fun0045_ip = 316; continue _fun0045 }
- 313:
+                        if(!var13) { _fun0045_ip = 318; continue _fun0045 }
+ 315:
                         var2 = var8;
- 316:
+ 318:
                         var20 = var12 - var2;
                         var22 = var7;
                         var21 = var9;
                         var19 = var11;
                         var18 = var10;
                         var2 = var22[var3](var21, var20, var19, var18, var17);
- 336:
+ 338:
                         var1 = var1 != var8;
-                        if(!var1) { _fun0045_ip = 357; continue _fun0045 }
- 343:
+                        if(!var1) { _fun0045_ip = 359; continue _fun0045 }
+ 345:
                         var2 = _closure3_slot0;
                         var2 = var2.scrollPos;
                         var1 = var8 !== var2;
- 357:
-                        if(!var1) { _fun0045_ip = 429; continue _fun0045 }
- 360:
-                        if(var6) { _fun0045_ip = 383; continue _fun0045 }
- 363:
+ 359:
+                        if(!var1) { _fun0045_ip = 431; continue _fun0045 }
+ 362:
+                        if(var6) { _fun0045_ip = 385; continue _fun0045 }
+ 365:
                         var3 = _closure3_slot0;
                         var3['scrollPos'] = var8;
                         var2 = var3.computeBlocks;
                         var2 = var2.bind(var3)();
- 383:
+ 385:
                         var3 = var4.scrollTo;
                         var2 = {};
                         var7 = _closure3_slot0;
@@ -4069,15 +4082,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2[var5] = var6;
                         var2 = var3.bind(var4)(var2);
                         var1 = true;
- 429:
-                        return var1;
  431:
+                        return var1;
+ 433:
                         var1 = false;
                         return var1;
- 435:
+ 437:
                         var1 = false;
                         return var1;
- 439:
+ 441:
                         var1 = false;
                         return var1;
                     }

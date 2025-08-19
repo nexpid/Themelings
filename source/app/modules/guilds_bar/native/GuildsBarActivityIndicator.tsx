@@ -219,17 +219,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure2_slot1;
                     var5 = var3 == var5;
                     var4 = undefined;
-                    if(var5) { _fun0003_ip = 56; continue _fun0003 }
- 47:
+                    if(var5) { _fun0003_ip = 55; continue _fun0003 }
+ 46:
                     var5 = _closure2_slot1;
                     var4 = var5.source;
- 56:
+ 55:
                     var5 = var3 != var4;
                     var3 = null;
-                    if(!var5) { _fun0003_ip = 68; continue _fun0003 }
- 65:
+                    if(!var5) { _fun0003_ip = 67; continue _fun0003 }
+ 64:
                     var3 = var4;
- 68:
+ 67:
                     var1['source'] = var3;
                     var2 = _closure2_slot0;
                     var2 = var2.isCurrentUserConnected;
@@ -340,14 +340,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var7;
             var7 = null;
             var9 = null;
-            if(!var14) { _fun0004_ip = 124; continue _fun0004 }
- 118:
+            if(!var14) { _fun0004_ip = 123; continue _fun0004 }
+ 117:
             var9 = var11.activityIconWrapperActive;
- 124:
+ 123:
             var8[1] = var9;
             var5['style'] = var8;
-            if(!(var7 == var10)) { _fun0004_ip = 211; continue _fun0004 }
- 136:
+            if(!(var7 == var10)) { _fun0004_ip = 210; continue _fun0004 }
+ 135:
             var9 = _closure1_slot4;
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -365,8 +365,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var11.activityIcon;
             var7['style'] = var13;
             var7 = var9.bind(var4)(var8, var7);
-            _fun0004_ip = 276; continue _fun0004;
- 211:
+            _fun0004_ip = 275; continue _fun0004;
+ 210:
             var9 = _closure1_slot4;
             var8 = {};
             var13 = _closure1_slot1;
@@ -382,7 +382,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.activityIcon;
             var8['style'] = var11;
             var7 = var9.bind(var4)(var10, var8);
- 276:
+ 275:
             var5['children'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;
@@ -407,8 +407,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.isCurrentUserConnected;
             var1 = null;
             var3 = var1 != var7;
-            if(!var3) { _fun0005_ip = 87; continue _fun0005 }
- 53:
+            if(!var3) { _fun0005_ip = 85; continue _fun0005 }
+ 52:
             var4 = _closure1_slot4;
             var3 = _closure1_slot6;
             var2 = {};
@@ -417,7 +417,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['source'] = var7;
             var2['isCurrentUserConnected'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 87:
+ 85:
             return var1;
         }
     };

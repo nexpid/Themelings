@@ -1692,10 +1692,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         var1 = new Array(0);
                         var3 = _closure2_slot10;
-                        if(!var3) { _fun0021_ip = 309; continue _fun0021 }
+                        if(!var3) { _fun0021_ip = 307; continue _fun0021 }
  19:
                         var2 = _closure2_slot11;
-                        if(!var2) { _fun0021_ip = 168; continue _fun0021 }
+                        if(!var2) { _fun0021_ip = 167; continue _fun0021 }
  29:
                         var3 = var1.push;
                         var2 = {};
@@ -1740,7 +1740,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var2['onPress'] = var5;
                         var2 = var3.bind(var1)(var2);
- 168:
+ 167:
                         var3 = var1.push;
                         var2 = {};
                         var7 = _closure1_slot1;
@@ -1782,7 +1782,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var2['onPress'] = var4;
                         var2 = var3.bind(var1)(var2);
- 309:
+ 307:
                         return var1;
                     }
                 };

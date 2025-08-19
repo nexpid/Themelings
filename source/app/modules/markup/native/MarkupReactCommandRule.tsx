@@ -271,11 +271,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.42H+NT;
             var5 = var9.bind(var10)(var5);
             var3['label'] = var5;
-            var9 = _closure1_slot1;
             var5 = 13;
             var5 = var8[var5];
-            var5 = var9.bind(var1)(var5);
-            var3['icon'] = var5;
+            var5 = var4.bind(var1)(var5);
+            var5 = var5.SlashBoxIcon;
+            var3['IconComponent'] = var5;
             var5 = function onPress() {
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
@@ -308,27 +308,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.DeveloperMode;
             var3 = var4.getSetting;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0002_ip = 249; continue _fun0002 }
- 150:
+            if(!var3) { _fun0002_ip = 253; continue _fun0002 }
+ 152:
             var4 = var5.push;
             var3 = {};
-            var11 = _closure1_slot0;
+            var8 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var8 = var9[var7];
-            var8 = var11.bind(var1)(var8);
-            var10 = var8.intl;
-            var8 = var10.string;
+            var10 = var9[var7];
+            var10 = var8.bind(var1)(var10);
+            var11 = var10.intl;
+            var10 = var11.string;
             var7 = var9[var7];
-            var7 = var11.bind(var1)(var7);
+            var7 = var8.bind(var1)(var7);
             var7 = var7.t;
             var7 = var7.oJ1Mu7;
-            var7 = var8.bind(var10)(var7);
+            var7 = var10.bind(var11)(var7);
             var3['label'] = var7;
-            var8 = _closure1_slot1;
             var7 = 17;
             var7 = var9[var7];
             var7 = var8.bind(var1)(var7);
-            var3['icon'] = var7;
+            var7 = var7.IdIcon;
+            var3['IconComponent'] = var7;
             var6 = function onPress() {
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -348,7 +348,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['onPress'] = var6;
             var3 = var4.bind(var5)(var3);
- 249:
+ 253:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 18;

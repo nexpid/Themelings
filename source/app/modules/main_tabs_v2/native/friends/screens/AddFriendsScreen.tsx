@@ -1415,7 +1415,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var12.bind(var4)(var22, var20);
             var9['children'] = var20;
             var9 = var12.bind(var4)(var11, var9);
-            _fun0008_ip = 1590; continue _fun0008;
+            _fun0008_ip = 1589; continue _fun0008;
  1234:
             if(var10) { _fun0008_ip = 1315; continue _fun0008 }
  1237:
@@ -1861,7 +1861,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['insetEnd'] = var14;
             var10['disableStickySections'] = var13;
             var10 = var12.bind(var4)(var11, var10);
-            _fun0008_ip = 1587; continue _fun0008;
+            _fun0008_ip = 1586; continue _fun0008;
  1315:
             var13 = _closure1_slot19;
             var12 = _closure1_slot8;
@@ -1910,8 +1910,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = new Array(2);
             var14[0] = var15;
             var15 = null;
-            if(!var17) { _fun0008_ip = 1573; continue _fun0008 }
- 1541:
+            if(!var17) { _fun0008_ip = 1572; continue _fun0008 }
+ 1540:
             var18 = _closure1_slot18;
             var17 = _closure1_slot1;
             var19 = _closure1_slot2;
@@ -1920,13 +1920,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var17.bind(var4)(var16);
             var16 = {};
             var15 = var18.bind(var4)(var17, var16);
- 1573:
+ 1572:
             var14[1] = var15;
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 1587:
+ 1586:
             var9 = var10;
- 1590:
+ 1589:
             var8[1] = var9;
             var6['children'] = var8;
             var6 = var3.bind(var4)(var7, var6);

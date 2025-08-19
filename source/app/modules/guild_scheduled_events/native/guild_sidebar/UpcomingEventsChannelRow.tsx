@@ -59,26 +59,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var2 = var1.guild;
+            var3 = var1.guild;
             var1 = _closure1_slot4;
             var4 = undefined;
             var10 = var1.bind(var4)();
-            var14 = _closure1_slot1;
+            var2 = _closure1_slot1;
             var13 = _closure1_slot2;
             var1 = 5;
             var1 = var13[var1];
-            var1 = var14.bind(var4)(var1);
-            var1 = var1.bind(var4)(var2);
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.bind(var4)(var3);
             var9 = var1.mentionCount;
             var11 = var1.mode;
-            var16 = var1.name;
+            var15 = var1.name;
             var7 = var1.eventsMuted;
             var12 = var1.handlePress;
             var8 = var1.handleLongPress;
             var3 = _closure1_slot3;
             var5 = 6;
             var1 = var13[var5];
-            var2 = var14.bind(var4)(var1);
+            var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['onPress'] = var12;
             var1['onLongPress'] = var8;
@@ -88,15 +88,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessible'] = var8;
             var12 = _closure1_slot0;
             var8 = 7;
-            var15 = var13[var8];
-            var15 = var12.bind(var4)(var15);
-            var17 = var15.intl;
-            var15 = var17.string;
+            var14 = var13[var8];
+            var14 = var12.bind(var4)(var14);
+            var16 = var14.intl;
+            var14 = var16.string;
             var8 = var13[var8];
             var8 = var12.bind(var4)(var8);
             var8 = var8.t;
             var8 = var8.tlopTE;
-            var8 = var15.bind(var17)(var8);
+            var8 = var14.bind(var16)(var8);
             var1['accessibilityLabel'] = var8;
             var1['mode'] = var11;
             var8 = var13[var5];
@@ -107,11 +107,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['unread'] = var8;
             var8 = var13[var5];
             var8 = var12.bind(var4)(var8);
-            var15 = var8.BaseChannelName;
+            var14 = var8.BaseChannelName;
             var8 = {};
-            var8['name'] = var16;
+            var8['name'] = var15;
             var8['mode'] = var11;
-            var8 = var3.bind(var4)(var15, var8);
+            var8 = var3.bind(var4)(var14, var8);
             var1['name'] = var8;
             var5 = var13[var5];
             var5 = var12.bind(var4)(var5);
@@ -120,27 +120,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['mode'] = var11;
             var11 = 8;
             var11 = var13[var11];
-            var11 = var14.bind(var4)(var11);
-            var5['source'] = var11;
-            var11 = 9;
-            var11 = var13[var11];
             var11 = var12.bind(var4)(var11);
             var11 = var11.CalendarIcon;
             var5['IconComponent'] = var11;
             var5 = var3.bind(var4)(var8, var5);
             var1['icon'] = var5;
             var5 = null;
-            if(var7) { _fun0001_ip = 379; continue _fun0001 }
- 322:
+            if(var7) { _fun0001_ip = 362; continue _fun0001 }
+ 305:
             var7 = 0;
             var7 = var9 > var7;
             var5 = null;
-            if(!var7) { _fun0001_ip = 379; continue _fun0001 }
- 333:
+            if(!var7) { _fun0001_ip = 362; continue _fun0001 }
+ 316:
             var8 = _closure1_slot3;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var6 = 10;
+            var6 = 9;
             var6 = var11[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
@@ -148,14 +144,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['style'] = var10;
             var6['value'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 379:
+ 362:
             var1['channelInfo'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

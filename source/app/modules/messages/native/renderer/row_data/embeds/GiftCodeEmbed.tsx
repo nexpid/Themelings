@@ -359,7 +359,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.userId;
                     var3 = var5 === var1;
  220:
-                    if(!(var6 != var2)) { _fun0004_ip = 2568; continue _fun0004 }
+                    if(!(var6 != var2)) { _fun0004_ip = 2570; continue _fun0004 }
  227:
                     var7 = _closure1_slot8;
                     var5 = var7.get;
@@ -917,10 +917,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1[var10] = var11;
                     var11 = var6 != var9;
                     var10 = undefined;
-                    if(!var11) { _fun0004_ip = 2400; continue _fun0004 }
- 2397:
+                    if(!var11) { _fun0004_ip = 2402; continue _fun0004 }
+ 2399:
                     var10 = var9;
- 2400:
+ 2402:
                     var9 = 'thumbnailUrl';
                     var1[var9] = var10;
                     var7 = _closure2_slot0;
@@ -928,14 +928,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = _closure1_slot9;
                     var9 = var7.CUSTOM_GIFT;
                     var7 = undefined;
-                    if(!(var10 !== var9)) { _fun0004_ip = 2446; continue _fun0004 }
- 2434:
+                    if(!(var10 !== var9)) { _fun0004_ip = 2448; continue _fun0004 }
+ 2436:
                     var9 = var6 != var5;
                     var7 = undefined;
-                    if(!var9) { _fun0004_ip = 2446; continue _fun0004 }
- 2443:
+                    if(!var9) { _fun0004_ip = 2448; continue _fun0004 }
+ 2445:
                     var7 = var5;
- 2446:
+ 2448:
                     var5 = 'splashUrl';
                     var1[var5] = var7;
                     var7 = _closure1_slot1;
@@ -955,14 +955,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.skuId;
                     var2 = var5.bind(var7)(var2);
                     var5 = 0.97;
-                    if(!var2) { _fun0004_ip = 2555; continue _fun0004 }
- 2545:
+                    if(!var2) { _fun0004_ip = 2557; continue _fun0004 }
+ 2547:
                     var5 = 0.8;
- 2555:
+ 2557:
                     var2 = 'splashOpacity';
                     var1[var2] = var5;
                     return var1;
- 2568:
+ 2570:
                     var1 = {};
                     var9 = _closure1_slot3;
                     var7 = var9.resolveAssetSource;
@@ -977,17 +977,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var10.bind(var11)(var5);
                     var11 = _closure1_slot1;
                     var12 = _closure1_slot2;
-                    if(var5) { _fun0004_ip = 2645; continue _fun0004 }
- 2631:
+                    if(var5) { _fun0004_ip = 2647; continue _fun0004 }
+ 2633:
                     var5 = 24;
                     var5 = var12[var5];
                     var5 = var11.bind(var8)(var5);
-                    _fun0004_ip = 2657; continue _fun0004;
- 2645:
+                    _fun0004_ip = 2659; continue _fun0004;
+ 2647:
                     var10 = 23;
                     var10 = var12[var10];
                     var5 = var11.bind(var8)(var10);
- 2657:
+ 2659:
                     var5 = var7.bind(var9)(var5);
                     var5 = var5.uri;
                     var1['thumbnailUrl'] = var5;
@@ -1001,15 +1001,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5[var9];
                     var5 = var7.bind(var8)(var5);
                     var5 = var5.t;
-                    if(var3) { _fun0004_ip = 2734; continue _fun0004 }
- 2719:
+                    if(var3) { _fun0004_ip = 2736; continue _fun0004 }
+ 2721:
                     var7 = var5.jwCLTE;
                     var7 = var10.bind(var11)(var7);
-                    _fun0004_ip = 2747; continue _fun0004;
- 2734:
+                    _fun0004_ip = 2749; continue _fun0004;
+ 2736:
                     var5 = var5.kzFKb2;
                     var7 = var10.bind(var11)(var5);
- 2747:
+ 2749:
                     var5 = var7.toUpperCase;
                     var5 = var5.bind(var7)();
                     var1['headerText'] = var5;
@@ -1033,10 +1033,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.unsafe_rawColors;
                     var5 = var5.RED_400;
                     var5 = var7.bind(var8)(var5);
-                    if(!(var6 == var5)) { _fun0004_ip = 2865; continue _fun0004 }
- 2861:
+                    if(!(var6 == var5)) { _fun0004_ip = 2867; continue _fun0004 }
+ 2863:
                     var5 = _closure2_slot3;
- 2865:
+ 2867:
                     var1['titleColor'] = var5;
                     var5 = _closure2_slot2;
                     var1['headerColor'] = var5;
@@ -1051,15 +1051,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4[var9];
                     var4 = var7.bind(var8)(var4);
                     var4 = var4.t;
-                    if(var3) { _fun0004_ip = 2947; continue _fun0004 }
- 2932:
+                    if(var3) { _fun0004_ip = 2949; continue _fun0004 }
+ 2934:
                     var3 = var4.TPamyc;
                     var3 = var5.bind(var6)(var3);
-                    _fun0004_ip = 2960; continue _fun0004;
- 2947:
+                    _fun0004_ip = 2962; continue _fun0004;
+ 2949:
                     var4 = var4.pBDXpa;
                     var3 = var5.bind(var6)(var4);
- 2960:
+ 2962:
                     var1['subtitle'] = var3;
                     var3 = _closure2_slot4;
                     var1['subtitleColor'] = var3;

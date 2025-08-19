@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['style'] = var7;
             var1 = var4.bind(var5)(var3, var2);
  99:
-            _fun0002_ip = 183; continue _fun0002;
+            _fun0002_ip = 181; continue _fun0002;
  101:
             var4 = _closure1_slot6;
             var3 = _closure1_slot0;
@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.isCurrentUserConnected;
             var2['isCurrentUserConnected'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 183:
+ 181:
             return var1;
         }
     };

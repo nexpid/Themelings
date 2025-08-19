@@ -13,7 +13,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7.length;
             var1 = '';
             var6 = 0;
-            if(!(var6 !== var2)) { _fun0001_ip = 184; continue _fun0001 }
+            if(!(var6 !== var2)) { _fun0001_ip = 185; continue _fun0001 }
  21:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = arg2;
             var2['itemHook'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 184:
+ 185:
             return var1;
         }
     };
@@ -235,17 +235,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var10 === var2)) { _fun0002_ip = 303; continue _fun0002 }
  291:
             var2 = var4.length;
-            if(!(!(var2 > var10))) { _fun0002_ip = 504; continue _fun0002 }
+            if(!(!(var2 > var10))) { _fun0002_ip = 505; continue _fun0002 }
  303:
             var2 = var15.length;
             var8 = var2 > var10;
             var7 = '';
             var2 = var7;
-            if(!var8) { _fun0002_ip = 518; continue _fun0002 }
+            if(!var8) { _fun0002_ip = 519; continue _fun0002 }
  325:
             var9 = var15.length;
             var8 = var7;
-            if(!(var10 !== var9)) { _fun0002_ip = 471; continue _fun0002 }
+            if(!(var10 !== var9)) { _fun0002_ip = 472; continue _fun0002 }
  340:
             var11 = _closure1_slot0;
             var14 = _closure1_slot1;
@@ -276,23 +276,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['channel2'] = var14;
             var9['itemHook'] = var6;
             var8 = var12.bind(var13)(var11, var9);
- 471:
+ 472:
             var9 = var4.length;
             var9 = var9 > var10;
-            if(!var9) { _fun0002_ip = 496; continue _fun0002 }
- 483:
+            if(!var9) { _fun0002_ip = 497; continue _fun0002 }
+ 484:
             var10 = _closure1_slot6;
             var9 = true;
             var7 = var10.bind(var5)(var4, var6, var9);
- 496:
+ 497:
             var2 = var7;
             var3 = var8;
-            _fun0002_ip = 518; continue _fun0002;
- 504:
+            _fun0002_ip = 519; continue _fun0002;
+ 505:
             var1 = _closure1_slot6;
             var3 = var1.bind(var5)(var4, var6);
             var2 = '';
- 518:
+ 519:
             var1 = {};
             var1['helpText'] = var3;
             var1['helpTextAdditional'] = var2;
@@ -444,7 +444,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var7 === var3)) { _fun0004_ip = 303; continue _fun0004 }
  291:
             var3 = var8.length;
-            if(!(!(var3 > var7))) { _fun0004_ip = 689; continue _fun0004 }
+            if(!(!(var3 > var7))) { _fun0004_ip = 690; continue _fun0004 }
  303:
             var3 = var12.length;
             if(!(var3 > var7)) { _fun0004_ip = 324; continue _fun0004 }
@@ -459,7 +459,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var8.length;
             var3 = var4 > var7;
  345:
-            if(!var3) { _fun0004_ip = 820; continue _fun0004 }
+            if(!var3) { _fun0004_ip = 822; continue _fun0004 }
  351:
             var4 = _closure1_slot0;
             var11 = _closure1_slot1;
@@ -502,7 +502,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var8[var11];
             var3['role2'] = var11;
             var2 = var5.bind(var10)(var4, var3);
-            _fun0004_ip = 820; continue _fun0004;
+            _fun0004_ip = 822; continue _fun0004;
  553:
             var4 = _closure1_slot0;
             var11 = _closure1_slot1;
@@ -533,8 +533,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['channel2'] = var11;
             var3['itemHook'] = var6;
             var2 = var5.bind(var10)(var4, var3);
-            _fun0004_ip = 820; continue _fun0004;
- 689:
+            _fun0004_ip = 822; continue _fun0004;
+ 690:
             var3 = _closure1_slot0;
             var10 = _closure1_slot1;
             var1 = 4;
@@ -564,7 +564,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['role2'] = var7;
             var1['itemHook'] = var6;
             var2 = var4.bind(var5)(var3, var1);
- 820:
+ 822:
             var1 = {};
             var1['helpText'] = var2;
             var2 = '';

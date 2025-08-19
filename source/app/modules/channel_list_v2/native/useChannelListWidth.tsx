@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.CHANNEL_DRAWER_SPACING;
     var _closure1_slot3 = var4;
-    var4 = 4;
+    var4 = 5;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -30,30 +30,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function useChannelListWidth() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
             var1 = 1;
-            var1 = var7[var1];
+            var1 = var8[var1];
             var5 = undefined;
-            var2 = var6.bind(var5)(var1);
+            var2 = var7.bind(var5)(var1);
             var1 = var2.useDrawerWidth;
             var2 = var1.bind(var2)();
             var4 = _closure1_slot1;
             var1 = 2;
-            var1 = var7[var1];
+            var1 = var8[var1];
             var1 = var4.bind(var5)(var1);
             var1 = var1.bind(var5)();
-            var4 = var1.isChatBesideChannelList;
+            var6 = var1.isChatBesideChannelList;
+            var1 = 4;
+            var1 = var8[var1];
+            var9 = var7.bind(var5)(var1);
+            var4 = var9.useYouBarEnabled;
+            var1 = 'usechannellistwidth';
+            var4 = var4.bind(var9)(var1);
             var1 = 3;
-            var1 = var7[var1];
-            var1 = var6.bind(var5)(var1);
+            var1 = var8[var1];
+            var1 = var7.bind(var5)(var1);
             var1 = var1.DM_WIDTH;
             var2 = var2 - var1;
             var1 = 0;
-            if(!var4) { _fun0001_ip = 92; continue _fun0001 }
- 88:
+            if(!var6) { _fun0001_ip = 126; continue _fun0001 }
+ 117:
+            var1 = 0;
+            if(var4) { _fun0001_ip = 126; continue _fun0001 }
+ 122:
             var1 = _closure1_slot3;
- 92:
+ 126:
             var1 = var2 - var1;
             return var1;
         }

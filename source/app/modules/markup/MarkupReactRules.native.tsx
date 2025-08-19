@@ -1165,7 +1165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot18 = var4;
-    var4 = 44;
+    var4 = 45;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1860,41 +1860,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = null;
                     return var2;
  60:
-                    var3 = _closure1_slot1;
+                    var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var4 = 39;
                     var2 = var2[var4];
-                    var7 = var3.bind(var5)(var2);
+                    var2 = var3.bind(var5)(var2);
+                    var12 = var2.SignPostIcon;
                     var3 = var10.channelId;
                     var2 = _closure1_slot12;
                     var2 = var2.GUILD_HOME;
-                    if(!(var2 !== var3)) { _fun0027_ip = 166; continue _fun0027 }
- 99:
+                    if(!(var2 !== var3)) { _fun0027_ip = 217; continue _fun0027 }
+ 105:
                     var2 = _closure1_slot12;
                     var2 = var2.SERVER_GUIDE;
-                    if(!(var2 !== var3)) { _fun0027_ip = 166; continue _fun0027 }
- 113:
+                    if(!(var2 !== var3)) { _fun0027_ip = 217; continue _fun0027 }
+ 119:
                     var2 = _closure1_slot12;
                     var2 = var2.CHANNEL_BROWSER;
-                    if(!(var2 !== var3)) { _fun0027_ip = 144; continue _fun0027 }
- 127:
+                    if(!(var2 !== var3)) { _fun0027_ip = 189; continue _fun0027 }
+ 133:
                     var2 = _closure1_slot12;
                     var2 = var2.CUSTOMIZE_COMMUNITY;
-                    var16 = var7;
-                    if(!(var2 === var3)) { _fun0027_ip = 183; continue _fun0027 }
- 144:
-                    var3 = _closure1_slot1;
+                    if(!(var2 !== var3)) { _fun0027_ip = 189; continue _fun0027 }
+ 147:
+                    var2 = _closure1_slot12;
+                    var2 = var2.LINKED_ROLES;
+                    if(!(var2 === var3)) { _fun0027_ip = 240; continue _fun0027 }
+ 161:
+                    var3 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var2 = 41;
+                    var2 = var7[var2];
+                    var2 = var3.bind(var5)(var2);
+                    var12 = var2.LinkIcon;
+                    _fun0027_ip = 240; continue _fun0027;
+ 189:
+                    var3 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var2 = 40;
                     var2 = var7[var2];
-                    var16 = var3.bind(var5)(var2);
-                    _fun0027_ip = 183; continue _fun0027;
- 166:
-                    var3 = _closure1_slot1;
+                    var2 = var3.bind(var5)(var2);
+                    var12 = var2.ChannelListMagnifyingGlassIcon;
+                    _fun0027_ip = 240; continue _fun0027;
+ 217:
+                    var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
                     var2 = var2[var4];
-                    var16 = var3.bind(var5)(var2);
- 183:
+                    var2 = var3.bind(var5)(var2);
+                    var12 = var2.SignPostIcon;
+ 240:
                     var4 = _closure1_slot14;
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -1903,11 +1917,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var8.bind(var5)(var2);
                     var3 = var2.LegacyText;
                     var2 = {};
-                    var12 = 'button';
-                    var2['accessibilityRole'] = var12;
-                    var15 = _closure2_slot0;
-                    var12 = var15.staticRouteLink;
-                    var2['style'] = var12;
+                    var13 = 'button';
+                    var2['accessibilityRole'] = var13;
+                    var13 = _closure2_slot0;
+                    var14 = var13.staticRouteLink;
+                    var2['style'] = var14;
                     var11 = function onPress() {
                         _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
  0:
@@ -1960,21 +1974,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         }
                     };
                     var2['onPress'] = var11;
-                    var12 = _closure1_slot13;
-                    var14 = _closure1_slot1;
-                    var13 = 18;
-                    var6 = var7[var13];
-                    var11 = var14.bind(var5)(var6);
+                    var11 = _closure1_slot13;
                     var6 = {};
-                    var6['source'] = var16;
-                    var15 = var15.staticRouteLinkIcon;
-                    var6['style'] = var15;
-                    var13 = var7[var13];
-                    var13 = var14.bind(var5)(var13);
-                    var13 = var13.Sizes;
-                    var13 = var13.REFRESH_SMALL_16;
+                    var13 = var13.staticRouteLinkIcon;
+                    var6['style'] = var13;
+                    var13 = 'sm';
                     var6['size'] = var13;
-                    var11 = var12.bind(var5)(var11, var6);
+                    var11 = var11.bind(var5)(var12, var6);
                     var6 = new Array(2);
                     var6[0] = var11;
                     var7 = var7[var9];
@@ -2262,7 +2268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = arg3;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 41;
+                    var2 = 42;
                     var2 = var4[var2];
                     var5 = undefined;
                     var3 = var3.bind(var5)(var2);
@@ -2415,7 +2421,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.MENTION_FOREGROUND;
                     var2['themedColor'] = var7;
                     var8 = _closure1_slot0;
-                    var7 = 42;
+                    var7 = 43;
                     var7 = var9[var7];
                     var11 = var8.bind(var5)(var7);
                     var7 = var11.getChannelMentionIcon;
@@ -2513,7 +2519,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure1_slot13;
                 var2 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var1 = 43;
+                var1 = 44;
                 var1 = var3[var1];
                 var4 = undefined;
                 var3 = var2.bind(var4)(var1);
@@ -2601,7 +2607,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  78:
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
-                            var1 = 41;
+                            var1 = 42;
                             var2 = var2[var1];
                             var1 = undefined;
                             var2 = var3.bind(var1)(var2);

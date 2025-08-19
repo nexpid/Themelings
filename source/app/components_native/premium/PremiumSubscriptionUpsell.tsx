@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.canUsePremiumGuildMemberProfile;
             var2 = var1.bind(var2)(var11);
             var1 = null;
-            if(var2) { _fun0001_ip = 1261; continue _fun0001 }
+            if(var2) { _fun0001_ip = 1273; continue _fun0001 }
  114:
             var4 = _closure1_slot9;
             var3 = _closure1_slot3;
@@ -336,11 +336,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var13.upsellFeatureList;
             var18['style'] = var16;
             var23 = {};
+            var19 = _closure1_slot0;
             var26 = 10;
             var16 = var20[var26];
-            var16 = var25.bind(var5)(var16);
-            var23['icon'] = var16;
-            var19 = _closure1_slot0;
+            var16 = var19.bind(var5)(var16);
+            var16 = var16.CheckmarkLargeIcon;
+            var23['IconComponent'] = var16;
             var16 = 11;
             var22 = var20[var16];
             var22 = var19.bind(var5)(var22);
@@ -374,8 +375,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22[0] = var23;
             var23 = {};
             var26 = var20[var26];
-            var26 = var25.bind(var5)(var26);
-            var23['icon'] = var26;
+            var26 = var19.bind(var5)(var26);
+            var26 = var26.CheckmarkLargeIcon;
+            var23['IconComponent'] = var26;
             var26 = var20[var16];
             var26 = var19.bind(var5)(var26);
             var29 = var26.intl;
@@ -434,7 +436,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1261:
+ 1273:
             return var1;
         }
     };

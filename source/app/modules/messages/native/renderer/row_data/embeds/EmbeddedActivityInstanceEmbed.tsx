@@ -399,10 +399,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.getAppGradientColors;
             var11 = var1 != var10;
             var7 = undefined;
-            if(!var11) { _fun0001_ip = 1170; continue _fun0001 }
- 1167:
+            if(!var11) { _fun0001_ip = 1172; continue _fun0001 }
+ 1169:
             var7 = var10;
- 1170:
+ 1172:
             var7 = var8.bind(var9)(var7);
             var4['gradientColors'] = var7;
             var7 = 0;

@@ -1102,22 +1102,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  80:
             var1 = true;
  82:
-            var9 = _closure1_slot7;
-            var10 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var7 = var4[var3];
-            var7 = var10.bind(var5)(var7);
-            var7 = var7.HotspotLocations;
-            var7 = var7.PREMIUM_PROGRESS_BAR_GUILD_HEADER_TOOLTIP;
-            var4 = var4[var8];
-            var4 = var10.bind(var5)(var4);
-            var4 = var4.DismissibleContent;
-            var4 = var4.GUILD_HEADER_PREMIUM_GUILD_PROGRESS;
-            var4 = var9.bind(var5)(var6, var7, var4);
-            if(!var4) { _fun0010_ip = 148; continue _fun0010 }
- 146:
-            var1 = true;
- 148:
             var4 = _closure1_slot7;
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -1130,10 +1114,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.DismissibleContent;
             var2 = var2.GUILD_HEADER_ANIMATED_GUILD_BANNER;
             var2 = var4.bind(var5)(var6, var3, var2);
-            if(!var2) { _fun0010_ip = 214; continue _fun0010 }
- 212:
+            if(!var2) { _fun0010_ip = 148; continue _fun0010 }
+ 146:
             var1 = true;
- 214:
+ 148:
             return var1;
         }
     };

@@ -909,7 +909,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var8.bind(var10)(var2, var4);
             var4 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 16;
+            var2 = 24;
             var2 = var8[var2];
             var4 = var4.bind(var5)(var2);
             var2 = var4.freezeScreenIndex;
@@ -935,7 +935,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var2['freeze'] = var6;
             var7 = _closure1_slot1;
-            var6 = 24;
+            var6 = 25;
             var6 = var8[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {};
@@ -959,7 +959,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = _closure1_slot12;
             var12 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var8 = 25;
+            var8 = 26;
             var8 = var16[var8];
             var8 = var12.bind(var5)(var8);
             var9 = var8.ThemeContextProvider;
@@ -986,7 +986,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 26;
+    var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

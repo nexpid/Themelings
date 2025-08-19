@@ -63,15 +63,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var10.type;
             var12 = _closure1_slot8;
             var12 = var12.GUILD_DIRECTORY;
-            if(!(var12 !== var14)) { _fun0001_ip = 768; continue _fun0001 }
+            if(!(var12 !== var14)) { _fun0001_ip = 762; continue _fun0001 }
  208:
             var12 = _closure1_slot8;
             var12 = var12.GUILD_FORUM;
-            if(!(var12 !== var14)) { _fun0001_ip = 634; continue _fun0001 }
+            if(!(var12 !== var14)) { _fun0001_ip = 632; continue _fun0001 }
  225:
             var12 = _closure1_slot8;
             var12 = var12.GUILD_MEDIA;
-            if(!(var12 !== var14)) { _fun0001_ip = 634; continue _fun0001 }
+            if(!(var12 !== var14)) { _fun0001_ip = 632; continue _fun0001 }
  242:
             var12 = _closure1_slot8;
             var12 = var12.PUBLIC_THREAD;
@@ -83,7 +83,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  270:
             var12 = _closure1_slot8;
             var12 = var12.ANNOUNCEMENT_THREAD;
-            if(!(var12 === var14)) { _fun0001_ip = 506; continue _fun0001 }
+            if(!(var12 === var14)) { _fun0001_ip = 505; continue _fun0001 }
  287:
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -96,11 +96,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['location'] = var16;
             var12 = var14.bind(var15)(var12);
             var12 = var12.enabled;
-            if(var12) { _fun0001_ip = 506; continue _fun0001 }
+            if(var12) { _fun0001_ip = 505; continue _fun0001 }
  341:
             var12 = var10.isForumPost;
             var12 = var12.bind(var10)();
-            if(var12) { _fun0001_ip = 891; continue _fun0001 }
+            if(var12) { _fun0001_ip = 884; continue _fun0001 }
  357:
             var12 = _closure1_slot1;
             if(!(var13 !== var11)) { _fun0001_ip = 378; continue _fun0001 }
@@ -150,8 +150,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.bind(var15)(var13);
             var11['accessibilityLabel'] = var13;
             var11 = var12.bind(var7)(var11);
-            _fun0001_ip = 891; continue _fun0001;
- 506:
+            _fun0001_ip = 884; continue _fun0001;
+ 505:
             var12 = var7.push;
             var11 = {};
             var14 = _closure1_slot1;
@@ -293,10 +293,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.bind(var15)(var13);
             var11['accessibilityLabel'] = var13;
             var11 = var12.bind(var7)(var11);
-            _fun0001_ip = 891; continue _fun0001;
- 634:
-            if(!var3) { _fun0001_ip = 891; continue _fun0001 }
- 640:
+            _fun0001_ip = 884; continue _fun0001;
+ 632:
+            if(!var3) { _fun0001_ip = 884; continue _fun0001 }
+ 638:
             var11 = var7.push;
             var3 = {};
             var13 = _closure1_slot1;
@@ -338,8 +338,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var14)(var12);
             var3['accessibilityLabel'] = var12;
             var3 = var11.bind(var7)(var3);
-            _fun0001_ip = 891; continue _fun0001;
- 768:
+            _fun0001_ip = 884; continue _fun0001;
+ 762:
             var11 = var7.push;
             var3 = {};
             var13 = _closure1_slot1;
@@ -381,15 +381,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var14)(var12);
             var3['accessibilityLabel'] = var12;
             var3 = var11.bind(var7)(var3);
- 891:
-            if(!var2) { _fun0001_ip = 905; continue _fun0001 }
- 894:
+ 884:
+            if(!var2) { _fun0001_ip = 898; continue _fun0001 }
+ 887:
             var11 = var7.length;
             var3 = 0;
             var2 = var3 !== var11;
- 905:
-            if(var2) { _fun0001_ip = 1034; continue _fun0001 }
- 911:
+ 898:
+            if(var2) { _fun0001_ip = 1027; continue _fun0001 }
+ 904:
             var3 = {};
             var3['channel'] = var10;
             var3['isChannelNSFWGated'] = var9;
@@ -402,37 +402,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var10.type;
             var3 = var8.bind(var12)(var3);
             var8 = !var3;
-            if(!var8) { _fun0001_ip = 972; continue _fun0001 }
- 969:
+            if(!var8) { _fun0001_ip = 965; continue _fun0001 }
+ 962:
             var8 = var11;
- 972:
-            if(!var8) { _fun0001_ip = 1003; continue _fun0001 }
- 975:
+ 965:
+            if(!var8) { _fun0001_ip = 996; continue _fun0001 }
+ 968:
             var11 = _closure1_slot9;
             var13 = var11.GUILD_THREADS_ONLY;
             var12 = var13.has;
             var11 = var10.type;
             var11 = var12.bind(var13)(var11);
             var8 = !var11;
- 1003:
-            if(!var3) { _fun0001_ip = 1009; continue _fun0001 }
- 1006:
+ 996:
+            if(!var3) { _fun0001_ip = 1002; continue _fun0001 }
+ 999:
             var3 = !var9;
- 1009:
-            if(!var3) { _fun0001_ip = 1025; continue _fun0001 }
- 1012:
+ 1002:
+            if(!var3) { _fun0001_ip = 1018; continue _fun0001 }
+ 1005:
             var9 = var10.isForumLikeChannel;
             var9 = var9.bind(var10)();
             var3 = !var9;
- 1025:
-            if(!var3) { _fun0001_ip = 1031; continue _fun0001 }
- 1028:
+ 1018:
+            if(!var3) { _fun0001_ip = 1024; continue _fun0001 }
+ 1021:
             var3 = var8;
- 1031:
+ 1024:
             var2 = !var3;
- 1034:
-            if(var2) { _fun0001_ip = 1164; continue _fun0001 }
- 1040:
+ 1027:
+            if(var2) { _fun0001_ip = 1156; continue _fun0001 }
+ 1033:
             var3 = var7.unshift;
             var2 = {};
             var9 = _closure1_slot1;
@@ -471,7 +471,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.bind(var10)(var8);
             var2['accessibilityLabel'] = var8;
             var2 = var3.bind(var7)(var2);
- 1164:
+ 1156:
             var3 = _closure1_slot13;
             var2 = _closure1_slot3;
             var1 = {};

@@ -64,7 +64,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.state;
             var5 = _closure1_slot6;
             var5 = var5.Resolving;
-            if(!(var6 !== var5)) { _fun0001_ip = 1185; continue _fun0001 }
+            if(!(var6 !== var5)) { _fun0001_ip = 1187; continue _fun0001 }
  94:
             var6 = var1.override;
             var5 = null;
@@ -242,7 +242,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var5.GUILD;
             var5 = 'type';
             var1[var5] = var6;
-            _fun0001_ip = 1183; continue _fun0001;
+            _fun0001_ip = 1185; continue _fun0001;
  773:
             var5 = {};
             var19 = var5;
@@ -342,9 +342,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'type';
             var5[var6] = var7;
             var1 = var5;
- 1183:
-            return var1;
  1185:
+            return var1;
+ 1187:
             var1 = {};
             var5 = 'RESOLVING';
             var1['headerText'] = var5;

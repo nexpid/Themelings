@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['remixIcon'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 12;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -70,29 +70,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var9 = var1.channelId;
-            var _closure2_slot0 = var9;
+            var7 = var1.channelId;
+            var _closure2_slot0 = var7;
             var2 = var1.upload;
             var1 = _closure1_slot6;
             var5 = undefined;
             var8 = var1.bind(var5)();
             var1 = null;
             var4 = var1 == var2;
-            var7 = undefined;
+            var6 = undefined;
             if(var4) { _fun0001_ip = 49; continue _fun0001 }
  44:
-            var7 = var2.item;
+            var6 = var2.item;
  49:
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
             var2 = 6;
             var2 = var11[var2];
             var2 = var10.bind(var5)(var2);
-            var2 = var2.bind(var5)(var9, var7);
+            var2 = var2.bind(var5)(var7, var6);
             var13 = _closure1_slot3;
             var12 = var13.useCallback;
             var4 = new Array(1);
-            var4[0] = var9;
+            var4[0] = var7;
             var3 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -118,46 +118,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 8;
             var3 = var11[var3];
             var3 = var10.bind(var5)(var3);
-            var7 = var3.bind(var5)(var9, var7, var4);
+            var6 = var3.bind(var5)(var7, var6, var4);
             var1 = null;
-            if(!var2) { _fun0001_ip = 285; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 271; continue _fun0001 }
  132:
             var4 = _closure1_slot5;
             var3 = _closure1_slot4;
             var2 = {};
-            var9 = 'imagebutton';
-            var2['accessibilityRole'] = var9;
-            var13 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var9 = 9;
-            var10 = var11[var9];
-            var10 = var13.bind(var5)(var10);
-            var12 = var10.intl;
-            var10 = var12.string;
-            var9 = var11[var9];
-            var9 = var13.bind(var5)(var9);
-            var9 = var9.t;
-            var9 = var9.Gp2rPj;
-            var9 = var10.bind(var12)(var9);
-            var2['accessibilityLabel'] = var9;
-            var2['onPress'] = var7;
-            var7 = var8.remixButton;
-            var2['style'] = var7;
-            var10 = _closure1_slot1;
+            var7 = 'imagebutton';
+            var2['accessibilityRole'] = var7;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var10 = 9;
+            var11 = var9[var10];
+            var11 = var7.bind(var5)(var11);
+            var12 = var11.intl;
+            var11 = var12.string;
+            var10 = var9[var10];
+            var10 = var7.bind(var5)(var10);
+            var10 = var10.t;
+            var10 = var10.Gp2rPj;
+            var10 = var11.bind(var12)(var10);
+            var2['accessibilityLabel'] = var10;
+            var2['onPress'] = var6;
+            var6 = var8.remixButton;
+            var2['style'] = var6;
             var6 = 10;
-            var6 = var11[var6];
-            var7 = var10.bind(var5)(var6);
+            var6 = var9[var6];
+            var6 = var7.bind(var5)(var6);
+            var7 = var6.PencilSparkleIcon;
             var6 = {};
-            var9 = 11;
-            var9 = var11[var9];
-            var9 = var10.bind(var5)(var9);
-            var6['source'] = var9;
             var8 = var8.remixIcon;
             var6['style'] = var8;
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 285:
+ 271:
             return var1;
         }
     };

@@ -297,11 +297,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = null;
                     var7 = var5 == var7;
                     var5 = undefined;
-                    if(var7) { _fun0004_ip = 314; continue _fun0004 }
- 305:
+                    if(var7) { _fun0004_ip = 313; continue _fun0004 }
+ 304:
                     var6 = _closure2_slot4;
                     var5 = var6.type;
- 314:
+ 313:
                     var2['warningType'] = var5;
                     var5 = arg2;
                     var2['cta'] = var5;
