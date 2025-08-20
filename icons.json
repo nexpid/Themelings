@@ -692,14 +692,14 @@
         "height": 12
     },
     "badge": {
-        "file": "modules/premium/native/images/perks/badge.png",
-        "hash": "7d09a15a2a5682035199dcfee2a26d08",
+        "file": "images/native/premium/guild_boosting/perks/badge.png",
+        "hash": "6d92319c85fd42e305e389df8a64c64a",
         "scales": [
             2,
             3
         ],
-        "width": 300,
-        "height": 175
+        "width": 20,
+        "height": 20
     },
     "badge_2": {
         "file": "images/native/premium/guild_boosting/perks/badge_2.png",
@@ -2667,14 +2667,14 @@
         "height": 24
     },
     "emoji": {
-        "file": "modules/premium/native/images/perks/emoji.png",
-        "hash": "337f717407aa04f32bdedf504de7310b",
+        "file": "images/native/premium/guild_boosting/perks/emoji.png",
+        "hash": "6ce9cfa41f5b080fb1f9fac04190337a",
         "scales": [
             2,
             3
         ],
-        "width": 300,
-        "height": 175
+        "width": 24,
+        "height": 24
     },
     "emoji-negative": {
         "file": "modules/icymi/native/images/emoji-negative.png",
@@ -3118,17 +3118,6 @@
         ],
         "width": 117,
         "height": 95
-    },
-    "feedback_confirm": {
-        "file": "modules/guild_antiraid/images/native/feedback_confirm.png",
-        "hash": "13401b2e3784f12bccd1dbe32dc24074",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 140,
-        "height": 122
     },
     "feedback-modal-happy": {
         "file": "images/native/stream_feedback/feedback-modal-happy.png",
@@ -4383,16 +4372,6 @@
         "hash": "a7612bc39c46be7d197676beec9cb4bf",
         "scales": [
             1,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_call_ended": {
-        "file": "images/native/icons/ic_call_ended.png",
-        "hash": "ad0a0192f3d9972c7fa14a73a20aa24e",
-        "scales": [
-            2,
             3
         ],
         "width": 24,
@@ -11069,6 +11048,16 @@
         "width": 24,
         "height": 24
     },
+    "PhoneIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/PhoneIcon.png",
+        "hash": "582e1570d605d054414cbc00863790ca",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "PiggyBankIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/PiggyBankIcon.png",
         "hash": "d173df27fe58df55e38d3e4f4fe71785",
@@ -12382,14 +12371,14 @@
         "height": 16
     },
     "sticker": {
-        "file": "modules/premium/native/images/perks/sticker.png",
-        "hash": "fac2e3b3b87c5c331642c571eab831c9",
+        "file": "images/native/premium/guild_boosting/perks/sticker.png",
+        "hash": "4f7f3933dfbb31e71ae1545e9b3d82b6",
         "scales": [
             2,
             3
         ],
-        "width": 300,
-        "height": 175
+        "width": 20,
+        "height": 20
     },
     "sticker_search_empty": {
         "file": "modules/stickers/native/images/sticker_search_empty.png",
@@ -12822,14 +12811,14 @@
         "height": 23
     },
     "tier_1_32px": {
-        "file": "images/native/premium/guild_boosting/tier_icons/simple/tier_1_32px.png",
-        "hash": "b352e1ffa0afe53b75c17fb675b513d6",
+        "file": "images/native/premium/guild_boosting/tier_icons/colored/tier_1_32px.png",
+        "hash": "e7624f04ed4a80ca86e10402e935320b",
         "scales": [
             2,
             3
         ],
-        "width": 32,
-        "height": 32
+        "width": 24,
+        "height": 24
     },
     "tier_2_24px": {
         "file": "images/native/premium/guild_boosting/tier_icons/flower_star/dark/tier_2_24px.png",
@@ -12842,14 +12831,14 @@
         "height": 23
     },
     "tier_2_32px": {
-        "file": "images/native/premium/guild_boosting/tier_icons/simple/tier_2_32px.png",
-        "hash": "d9ada236b866307c8985fc87fdd51c88",
+        "file": "images/native/premium/guild_boosting/tier_icons/colored/tier_2_32px.png",
+        "hash": "8f9077e5b37bff7706de677d0f3debbe",
         "scales": [
             2,
             3
         ],
-        "width": 32,
-        "height": 32
+        "width": 24,
+        "height": 24
     },
     "tier_3_24px": {
         "file": "images/native/premium/guild_boosting/tier_icons/flower_star/dark/tier_3_24px.png",
@@ -12862,14 +12851,14 @@
         "height": 23
     },
     "tier_3_32px": {
-        "file": "images/native/premium/guild_boosting/tier_icons/simple/tier_3_32px.png",
-        "hash": "1b3ea47fa559c5b08fa13d985346d3b8",
+        "file": "images/native/premium/guild_boosting/tier_icons/colored/tier_3_32px.png",
+        "hash": "81c4c8246b195a90d6f5bb90212bbc6a",
         "scales": [
             2,
             3
         ],
-        "width": 32,
-        "height": 32
+        "width": 24,
+        "height": 24
     },
     "TiktokNeutralIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/TiktokNeutralIcon.png",
