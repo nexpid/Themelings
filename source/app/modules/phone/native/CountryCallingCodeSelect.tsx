@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  49:
             var2 = var3.@@iterator;
  55:
-            if(var2) { _fun0001_ip = 343; continue _fun0001 }
+            if(var2) { _fun0001_ip = 345; continue _fun0001 }
  61:
             var6 = var5.Array;
             var4 = var6.isArray;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             return var1;
- 343:
+ 345:
             var1 = var2.call;
             var3 = var1.bind(var2)(var3);
             var2 = var3.next;
@@ -515,11 +515,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.bind(var4)(var2, var5);
             var5 = new Array(2);
             var5[0] = var14;
-            if(!(var13 !== var8)) { _fun0004_ip = 319; continue _fun0004 }
- 310:
+            if(!(var13 !== var8)) { _fun0004_ip = 325; continue _fun0004 }
+ 316:
             var6 = var6.length;
-            if(!(var7 !== var6)) { _fun0004_ip = 386; continue _fun0004 }
- 319:
+            if(!(var7 !== var6)) { _fun0004_ip = 392; continue _fun0004 }
+ 325:
             var8 = _closure1_slot7;
             var7 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -535,8 +535,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 'always';
             var6['keyboardShouldPersistTaps'] = var9;
             var6 = var8.bind(var4)(var7, var6);
-            _fun0004_ip = 491; continue _fun0004;
- 386:
+            _fun0004_ip = 497; continue _fun0004;
+ 392:
             var9 = _closure1_slot7;
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -561,7 +561,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.bind(var12)(var10);
             var7['text'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 491:
+ 497:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

@@ -43,13 +43,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = arg1;
             var2 = var5.onClose;
             var1 = undefined;
-            if(!(var2 === var1)) { _fun0001_ip = 24; continue _fun0001 }
+            if(!(var2 === var1)) { _fun0001_ip = 22; continue _fun0001 }
  17:
             var2 = function n() {
                 var1 = undefined;
                 return var1;
             };
- 24:
+ 22:
             var _closure2_slot0 = var2;
             var2 = null;
             var4 = Object.create(var2);
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 88; continue _fun0002 }
+                        if(var2) { _fun0002_ip = 86; continue _fun0002 }
  9:
                         var6 = undefined;
                         var _closure4_slot0 = var6;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var2;
  60:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0002_ip = 85; continue _fun0002 }
+                        if(var4) { _fun0002_ip = 83; continue _fun0002 }
  66:
                         var4 = var2.default;
                         _closure4_slot0 = var4;
@@ -109,9 +109,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         return var3;
- 85:
+ 83:
                         return var2;
- 88:
+ 86:
                         return var1;
                     }
                 };
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0004_ip = 88; continue _fun0004 }
+                        if(var2) { _fun0004_ip = 86; continue _fun0004 }
  9:
                         var6 = undefined;
                         var _closure4_slot0 = var6;
@@ -181,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var2;
  60:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(var4) { _fun0004_ip = 85; continue _fun0004 }
+                        if(var4) { _fun0004_ip = 83; continue _fun0004 }
  66:
                         var4 = var2.default;
                         _closure4_slot0 = var4;
@@ -198,9 +198,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         return var3;
- 85:
+ 83:
                         return var2;
- 88:
+ 86:
                         return var1;
                     }
                 };

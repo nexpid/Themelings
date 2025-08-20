@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0001_ip = 76; continue _fun0001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun0001_ip = 74; continue _fun0001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -236,14 +236,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['importantForAccessibility'] = var20;
             var1['poster'] = var19;
             var1['muted'] = var18;
-            if(var15) { _fun0002_ip = 308; continue _fun0002 }
- 299:
-            if(!var16) { _fun0002_ip = 305; continue _fun0002 }
- 302:
+            if(var15) { _fun0002_ip = 306; continue _fun0002 }
+ 297:
+            if(!var16) { _fun0002_ip = 303; continue _fun0002 }
+ 300:
             var16 = !var17;
- 305:
+ 303:
             var15 = var16;
- 308:
+ 306:
             var1['paused'] = var15;
             var1['posterResizeMode'] = var14;
             var1['resizeMode'] = var13;
@@ -262,22 +262,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var8 = var5 == var6;
             var7 = undefined;
-            if(var8) { _fun0002_ip = 407; continue _fun0002 }
- 388:
+            if(var8) { _fun0002_ip = 405; continue _fun0002 }
+ 386:
             var8 = var6.props;
             var9 = var5 == var8;
             var7 = undefined;
-            if(var9) { _fun0002_ip = 407; continue _fun0002 }
- 402:
+            if(var9) { _fun0002_ip = 405; continue _fun0002 }
+ 400:
             var7 = var8.ref;
- 407:
+ 405:
             var1['ref'] = var7;
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0002_ip = 425; continue _fun0002 }
- 420:
+            if(var7) { _fun0002_ip = 423; continue _fun0002 }
+ 418:
             var5 = var6.props;
- 425:
+ 423:
             var28 = var1;
             var27 = var5;
             var5 = copyDataProperties(var28, var27);

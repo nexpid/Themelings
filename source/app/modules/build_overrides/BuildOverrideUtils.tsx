@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var9)(var2);
                 var8 = var3.bind(var4)(var2);
                 var4 = null;
-                if(!(var4 != var8)) { _fun0004_ip = 190; continue _fun0004 }
+                if(!(var4 != var8)) { _fun0004_ip = 194; continue _fun0004 }
  62:
                 var8['search'] = var4;
                 var2 = _closure1_slot5;
@@ -238,13 +238,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1 = var3.bind(var5)(var2, var1);
-                _fun0004_ip = 209; continue _fun0004;
- 190:
+                _fun0004_ip = 213; continue _fun0004;
+ 194:
                 var2 = global;
                 var3 = var2.Promise;
                 var2 = var3.resolve;
                 var1 = var2.bind(var3)(var4);
- 209:
+ 213:
                 return var1;
             }
         };
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot11;
                 var4 = undefined;
                 var3 = var3.bind(var4)(var5);
-                if(var3) { _fun0006_ip = 254; continue _fun0006 }
+                if(var3) { _fun0006_ip = 258; continue _fun0006 }
  25:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot3;
@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6.safeParseWithQuery;
                 var11 = var3.bind(var6)(var5);
                 var7 = null;
-                if(!(var7 != var11)) { _fun0006_ip = 233; continue _fun0006 }
+                if(!(var7 != var11)) { _fun0006_ip = 237; continue _fun0006 }
  65:
                 var11['search'] = var7;
                 var6 = var11.query;
@@ -318,15 +318,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var6.bind(var8)(var3, var2);
-                _fun0006_ip = 252; continue _fun0006;
- 233:
+                _fun0006_ip = 256; continue _fun0006;
+ 237:
                 var3 = global;
                 var6 = var3.Promise;
                 var3 = var6.resolve;
                 var2 = var3.bind(var6)(var7);
- 252:
+ 256:
                 return var2;
- 254:
+ 258:
                 var2 = global;
                 var3 = var2.Promise;
                 var2 = var3.resolve;

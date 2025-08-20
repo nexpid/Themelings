@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var7.bind(var9)(var1);
                     var6 = var1.t;
                     var1 = arg1;
-                    if(var1) { _fun0001_ip = 170; continue _fun0001 }
+                    if(var1) { _fun0001_ip = 174; continue _fun0001 }
  75:
                     var1 = var6.PwknJC;
                     var1 = var8.bind(var11)(var1);
@@ -146,8 +146,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['render'] = var1;
                     var2['root'] = var3;
                     var1 = var2;
-                    _fun0001_ip = 263; continue _fun0001;
- 170:
+                    _fun0001_ip = 271; continue _fun0001;
+ 174:
                     var6 = var6.Iuzg8f;
                     var6 = var8.bind(var11)(var6);
                     var3['title'] = var6;
@@ -213,7 +213,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['render'] = var4;
                     var2['root'] = var3;
                     var1 = var2;
- 263:
+ 271:
                     return var1;
                 }
             };

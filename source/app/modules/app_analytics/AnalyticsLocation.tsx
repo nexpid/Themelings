@@ -474,6 +474,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['GUILD_MODERATION_USER_MENU'] = var1;
     var1 = 'guild moderation raid menu';
     var2['GUILD_MODERATION_RAID_MENU'] = var1;
+    var1 = 'guild settings edit emoji';
+    var2['GUILD_SETTINGS_EMOJI_EDIT_BUTTON'] = var1;
     var1 = 'guild settings user menu';
     var2['GUILD_SETTINGS_USER_MENU'] = var1;
     var1 = 'guild settings soundboard';

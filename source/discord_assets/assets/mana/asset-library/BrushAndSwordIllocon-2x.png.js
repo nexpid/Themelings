@@ -1,4 +1,4 @@
-// discord_assets/assets/mana/asset-library/ShopLockupLogo-2x.png.js
+// discord_assets/assets/mana/asset-library/BrushAndSwordIllocon-2x.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/mana/asset-library/ShopLockupLogo-2x.png.js';
+    var2 = '../discord_assets/assets/mana/asset-library/BrushAndSwordIllocon-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/d00993a1860ea87f5dd0c98142ae3d8ca1860d1e544578e7f852fa59e79abc82.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/f547a33a3516782d7ed7b63fedef6cde26cdc432499a32f1d37ef7668ea3d816.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 3932;
+    var4 = 715;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

@@ -300,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[4] = var7;
             var7 = var6 != var9;
             var6 = null;
-            if(!var7) { _fun0002_ip = 804; continue _fun0002 }
+            if(!var7) { _fun0002_ip = 806; continue _fun0002 }
  787:
             var8 = var9.map;
             var7 = function(arg1) {
@@ -375,7 +375,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var6 = var8.bind(var9)(var7);
- 804:
+ 806:
             var5[5] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

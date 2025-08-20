@@ -287,8 +287,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot13;
             var2 = _closure1_slot14;
             var1 = {};
-            if(!var6) { _fun0001_ip = 237; continue _fun0001 }
- 134:
+            if(!var6) { _fun0001_ip = 235; continue _fun0001 }
+ 132:
             var8 = _closure1_slot12;
             var7 = _closure1_slot5;
             var5 = {};
@@ -304,8 +304,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var11.isAndroid;
             var11 = var9.bind(var11)();
             var9 = undefined;
-            if(!var11) { _fun0001_ip = 227; continue _fun0001 }
- 196:
+            if(!var11) { _fun0001_ip = 225; continue _fun0001 }
+ 194:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
             var11 = 8;
@@ -313,10 +313,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.bind(var4)(var11);
             var11 = var11.unsafe_rawColors;
             var9 = var11.WHITE_500;
- 227:
+ 225:
             var5['color'] = var9;
             var6 = var8.bind(var4)(var7, var5);
- 237:
+ 235:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot13;

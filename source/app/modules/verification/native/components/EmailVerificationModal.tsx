@@ -99,15 +99,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var7 = var3 == var2;
             var9 = undefined;
-            if(var7) { _fun0001_ip = 121; continue _fun0001 }
- 115:
+            if(var7) { _fun0001_ip = 123; continue _fun0001 }
+ 117:
             var9 = var2.verified;
- 121:
+ 123:
             var7 = var3 != var9;
-            if(!var7) { _fun0001_ip = 131; continue _fun0001 }
- 128:
+            if(!var7) { _fun0001_ip = 133; continue _fun0001 }
+ 130:
             var7 = var9;
- 131:
+ 133:
             var10 = var8.bind(var4)(var7);
             _closure2_slot1 = var10;
             var9 = _closure1_slot4;
@@ -470,34 +470,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6 = var8.bind(var9)(var6, var7);
-            if(var5) { _fun0001_ip = 293; continue _fun0001 }
- 262:
+            if(var5) { _fun0001_ip = 297; continue _fun0001 }
+ 266:
             var7 = var3 == var2;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 277; continue _fun0001 }
- 271:
+            if(var7) { _fun0001_ip = 281; continue _fun0001 }
+ 275:
             var5 = var2.email;
- 277:
-            if(!(var3 != var5)) { _fun0001_ip = 293; continue _fun0001 }
  281:
+            if(!(var3 != var5)) { _fun0001_ip = 297; continue _fun0001 }
+ 285:
             var5 = _closure1_slot7;
             var5 = var5.RESEND_EMAIL;
-            _fun0001_ip = 331; continue _fun0001;
- 293:
-            if(!(var3 != var2)) { _fun0001_ip = 306; continue _fun0001 }
+            _fun0001_ip = 335; continue _fun0001;
  297:
+            if(!(var3 != var2)) { _fun0001_ip = 310; continue _fun0001 }
+ 301:
             var2 = var2.verified;
-            if(var2) { _fun0001_ip = 318; continue _fun0001 }
- 306:
+            if(var2) { _fun0001_ip = 322; continue _fun0001 }
+ 310:
             var2 = _closure1_slot7;
             var2 = var2.ENTER_EMAIL;
-            _fun0001_ip = 328; continue _fun0001;
- 318:
+            _fun0001_ip = 332; continue _fun0001;
+ 322:
             var3 = _closure1_slot7;
             var2 = var3.CONFIRM_EMAIL_CHANGE_START;
- 328:
+ 332:
             var5 = var2;
- 331:
+ 335:
             var3 = _closure1_slot8;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;

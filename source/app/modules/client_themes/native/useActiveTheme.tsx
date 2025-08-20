@@ -60,31 +60,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.useIsCustomThemeMobileRenderingEnabled;
             var5 = 'useActiveTheme';
             var5 = var7.bind(var8)(var5);
-            if(!var6) { _fun0001_ip = 180; continue _fun0001 }
+            if(!var6) { _fun0001_ip = 174; continue _fun0001 }
+ 171:
+            if(var5) { _fun0001_ip = 217; continue _fun0001 }
+ 174:
+            if(var4) { _fun0001_ip = 205; continue _fun0001 }
  177:
-            if(var5) { _fun0001_ip = 223; continue _fun0001 }
- 180:
-            if(var4) { _fun0001_ip = 211; continue _fun0001 }
- 183:
-            if(!(var3 !== var1)) { _fun0001_ip = 199; continue _fun0001 }
- 187:
+            if(!(var3 !== var1)) { _fun0001_ip = 193; continue _fun0001 }
+ 181:
             var1 = _closure1_slot6;
             var1 = var1.DEFAULT;
-            _fun0001_ip = 209; continue _fun0001;
- 199:
+            _fun0001_ip = 203; continue _fun0001;
+ 193:
             var3 = _closure1_slot6;
             var1 = var3.SYSTEM;
- 209:
-            _fun0001_ip = 221; continue _fun0001;
- 211:
+ 203:
+            _fun0001_ip = 215; continue _fun0001;
+ 205:
             var3 = _closure1_slot6;
             var1 = var3.CLIENT;
- 221:
-            _fun0001_ip = 233; continue _fun0001;
- 223:
+ 215:
+            _fun0001_ip = 227; continue _fun0001;
+ 217:
             var2 = _closure1_slot6;
             var1 = var2.CUSTOM;
- 233:
+ 227:
             return var1;
         }
     };
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = var7.fileFinishedImporting;
     var5 = 'modules/client_themes/native/useActiveTheme.tsx';
     var5 = var6.bind(var7)(var5);
-    var4 = function useIsCustomThemeActive() {
+    var5 = function useIsCustomThemeActive() {
         var3 = _closure1_slot7;
         var2 = undefined;
         var2 = var3.bind(var2)();
@@ -132,7 +132,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2 === var1;
         return var1;
     };
-    var3['useIsCustomThemeActive'] = var4;
+    var3['useIsCustomThemeActive'] = var5;
+    var4 = function useIsClientThemeOrCustomThemeActive() {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+            var3 = _closure1_slot7;
+            var1 = undefined;
+            var3 = var3.bind(var1)();
+            var1 = _closure1_slot6;
+            var1 = var1.CLIENT;
+            var1 = var3 === var1;
+            if(var1) { _fun0002_ip = 44; continue _fun0002 }
+ 30:
+            var2 = _closure1_slot6;
+            var2 = var2.CUSTOM;
+            var1 = var3 === var2;
+ 44:
+            return var1;
+        }
+    };
+    var3['useIsClientThemeOrCustomThemeActive'] = var4;
     var3['useActiveThemeType'] = var2;
     return var1;
 })();

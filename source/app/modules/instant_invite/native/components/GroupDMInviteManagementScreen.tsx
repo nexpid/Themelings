@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0002_ip = 152; continue _fun0002 }
+                                if(var2) { _fun0002_ip = 146; continue _fun0002 }
  10:
                                 var5 = _closure1_slot0;
                                 var3 = _closure1_slot2;
@@ -68,13 +68,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var7 = var8.bind(var9)(var7);
                                 var2['url'] = var7;
                                 var2 = var5.bind(var6)(var2);
-                                SaveGenerator(address=96);
- 94:
+                                SaveGenerator(address=92);
+ 90:
                                 return var2;
- 96:
+ 92:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(var5) { _fun0002_ip = 149; continue _fun0002 }
- 102:
+                                if(var5) { _fun0002_ip = 143; continue _fun0002 }
+ 98:
                                 var7 = var2.body;
                                 var6 = var7.map;
                                 var5 = function(arg1) {
@@ -108,9 +108,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var4 = false;
                                 var4 = var5.bind(var3)(var4);
                                 return var3;
- 149:
+ 143:
                                 return var2;
- 152:
+ 146:
                                 return var1;
                             }
                         };
@@ -271,11 +271,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var7 = var11.bind(var12)(var7, var10);
-            if(var4) { _fun0001_ip = 540; continue _fun0001 }
- 298:
+            if(var4) { _fun0001_ip = 530; continue _fun0001 }
+ 288:
             var1 = var1.length;
-            if(!(var3 !== var1)) { _fun0001_ip = 369; continue _fun0001 }
- 307:
+            if(!(var3 !== var1)) { _fun0001_ip = 359; continue _fun0001 }
+ 297:
             var4 = _closure1_slot11;
             var3 = _closure1_slot7;
             var1 = {};
@@ -289,8 +289,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['initialNumToRender'] = var7;
             var1['windowSize'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 538; continue _fun0001;
- 369:
+            _fun0001_ip = 528; continue _fun0001;
+ 359:
             var6 = _closure1_slot11;
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -329,9 +329,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.bind(var9)(var7);
             var3['body'] = var7;
             var1 = var6.bind(var5)(var4, var3);
- 538:
-            _fun0001_ip = 578; continue _fun0001;
- 540:
+ 528:
+            _fun0001_ip = 568; continue _fun0001;
+ 530:
             var4 = _closure1_slot11;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -341,7 +341,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.SceneLoadingIndicator;
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
- 578:
+ 568:
             return var1;
         }
     };

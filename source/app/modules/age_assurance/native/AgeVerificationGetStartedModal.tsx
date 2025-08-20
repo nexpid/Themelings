@@ -261,13 +261,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['screens'] = var7;
             var7 = _closure1_slot7;
-            if(var6) { _fun0001_ip = 273; continue _fun0001 }
- 265:
+            if(var6) { _fun0001_ip = 267; continue _fun0001 }
+ 259:
             var6 = var7.INTRO;
-            _fun0001_ip = 279; continue _fun0001;
- 273:
+            _fun0001_ip = 273; continue _fun0001;
+ 267:
             var6 = var7.RETRY;
- 279:
+ 273:
             var1['initialRouteName'] = var6;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;

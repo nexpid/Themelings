@@ -204,34 +204,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var5.Image;
             var5 = {};
             var5['layout'] = var14;
-            if(!(var10 == var8)) { _fun0001_ip = 327; continue _fun0001 }
- 305:
+            if(!(var10 == var8)) { _fun0001_ip = 329; continue _fun0001 }
+ 307:
             var17 = _closure1_slot1;
             var18 = _closure1_slot2;
             var15 = 9;
             var15 = var18[var15];
             var15 = var17.bind(var4)(var15);
-            _fun0001_ip = 336; continue _fun0001;
- 327:
+            _fun0001_ip = 338; continue _fun0001;
+ 329:
             var17 = {};
             var17['uri'] = var8;
             var15 = var17;
- 336:
+ 338:
             var5['source'] = var15;
-            if(!(var10 == var8)) { _fun0001_ip = 352; continue _fun0001 }
- 344:
+            if(!(var10 == var8)) { _fun0001_ip = 354; continue _fun0001 }
+ 346:
             var15 = var16.streamPreviewImagePlaceholder;
-            _fun0001_ip = 358; continue _fun0001;
- 352:
+            _fun0001_ip = 360; continue _fun0001;
+ 354:
             var15 = var16.streamPreviewImage;
- 358:
+ 360:
             var5['style'] = var15;
             var10 = var10 != var8;
             var8 = 'contain';
-            if(!var10) { _fun0001_ip = 377; continue _fun0001 }
- 373:
+            if(!var10) { _fun0001_ip = 379; continue _fun0001 }
+ 375:
             var8 = 'cover';
- 377:
+ 379:
             var5['resizeMode'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);

@@ -68,7 +68,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var1.Array;
                 var4 = var5.isArray;
                 var4 = var4.bind(var5)(var6);
-                if(var4) { _fun0002_ip = 72; continue _fun0002 }
+                if(var4) { _fun0002_ip = 70; continue _fun0002 }
  37:
                 var5 = var1.Object;
                 var4 = var5.keys;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var3 = var4.bind(var5)(var3);
                 return var2;
- 72:
+ 70:
                 var3 = var1.TypeError;
                 var1 = var3.prototype;
                 var2 = Object.create(var1, {constructor: {value: var3}});

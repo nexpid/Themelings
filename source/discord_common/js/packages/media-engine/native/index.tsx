@@ -3577,7 +3577,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var4)();
                 var3 = var3.setLoopback;
                 var11 = null;
-                if(!(var11 != var3)) { _fun0042_ip = 191; continue _fun0042 }
+                if(!(var11 != var3)) { _fun0042_ip = 202; continue _fun0042 }
  59:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
@@ -3603,12 +3603,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['automaticGainControlConfig'] = var9;
                 var9 = var10.noiseCancellation;
                 var3['noiseCancellation'] = var9;
+                var9 = var10.noiseCancellationDuringProcessing;
+                var3['noiseCancellationDuringProcessing'] = var9;
                 var9 = var10.voiceFilters;
                 var3['voiceFilters'] = var9;
                 var9 = var10.loopbackUseAudioMode;
                 var3['loopbackUseAudioMode'] = var9;
                 var3 = var4.bind(var8)(var2, var3);
- 191:
+ 202:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var6];
@@ -3616,8 +3618,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.getVoiceEngine;
                 var3 = var3.bind(var4)();
                 var3 = var3.setEmitVADLevel2;
-                if(!(var11 == var3)) { _fun0042_ip = 388; continue _fun0042 }
- 231:
+                if(!(var11 == var3)) { _fun0042_ip = 410; continue _fun0042 }
+ 242:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var6];
@@ -3626,8 +3628,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var3.bind(var4)();
                 var8 = var9.setEmitVADLevel;
                 var4 = var2;
-                if(var2) { _fun0042_ip = 319; continue _fun0042 }
- 270:
+                if(var2) { _fun0042_ip = 330; continue _fun0042 }
+ 281:
                 var12 = var7.listenerCount;
                 var13 = _closure1_slot0;
                 var14 = _closure1_slot2;
@@ -3639,7 +3641,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var12.bind(var7)(var3);
                 var3 = 0;
                 var4 = var12 > var3;
- 319:
+ 330:
                 var3 = {};
                 var12 = var10.echoCancellation;
                 var3['echoCancellation'] = var12;
@@ -3648,16 +3650,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var10.automaticGainControlConfig;
                 var13 = var11 == var12;
                 var11 = undefined;
-                if(var13) { _fun0042_ip = 363; continue _fun0042 }
- 358:
+                if(var13) { _fun0042_ip = 374; continue _fun0042 }
+ 369:
                 var11 = var12.enabled;
- 363:
+ 374:
                 var3['automaticGainControl'] = var11;
-                var10 = var10.noiseCancellation;
-                var3['noiseCancellation'] = var10;
+                var11 = var10.noiseCancellation;
+                var3['noiseCancellation'] = var11;
+                var10 = var10.noiseCancellationDuringProcessing;
+                var3['noiseCancellationDuringProcessing'] = var10;
                 var3 = var8.bind(var9)(var4, var2, var3);
-                _fun0042_ip = 478; continue _fun0042;
- 388:
+                _fun0042_ip = 500; continue _fun0042;
+ 410:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
                 var3 = var3[var6];
@@ -3665,8 +3669,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.getVoiceEngine;
                 var4 = var3.bind(var4)();
                 var3 = var4.setEmitVADLevel2;
-                if(var2) { _fun0042_ip = 473; continue _fun0042 }
- 424:
+                if(var2) { _fun0042_ip = 495; continue _fun0042 }
+ 446:
                 var6 = var7.listenerCount;
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
@@ -3678,9 +3682,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var7)(var5);
                 var5 = 0;
                 var2 = var6 > var5;
- 473:
+ 495:
                 var2 = var3.bind(var4)(var2);
- 478:
+ 500:
                 return var1;
             }
         };

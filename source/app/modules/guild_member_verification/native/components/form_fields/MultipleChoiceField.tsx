@@ -135,10 +135,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var13 = var10 != var12;
             var10 = -1;
-            if(!var13) { _fun0001_ip = 213; continue _fun0001 }
- 210:
+            if(!var13) { _fun0001_ip = 215; continue _fun0001 }
+ 212:
             var10 = var12;
- 213:
+ 215:
             var6['defaultValue'] = var10;
             var10 = function onChange(arg1) {
                 var3 = _closure2_slot0;

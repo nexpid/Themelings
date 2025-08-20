@@ -22,7 +22,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 102; continue _fun0002 }
+                        if(var2) { _fun0002_ip = 100; continue _fun0002 }
  9:
                         var4 = _closure1_slot5;
                         var _closure4_slot0 = var4;
@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var2;
  42:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(var6) { _fun0002_ip = 81; continue _fun0002 }
+                        if(var6) { _fun0002_ip = 79; continue _fun0002 }
  48:
                         _closure4_slot0 = var2;
  52: // try_end0
@@ -52,15 +52,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var3 = var4.bind(var5)(var3);
                         return var3;
- 81:
+ 79:
                         return var2;
- 84: // catch_target0
+ 82: // catch_target0
                         CatchBlockStart(arg_register=1);
                         var3 = _closure2_slot0;
                         var2 = undefined;
                         var2 = var3.bind(var2)();
                         return var2;
- 102:
+ 100:
                         return var1;
                     }
                 };
@@ -93,11 +93,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.isAndroid;
         var5 = var5.bind(var6)();
         var6 = -1;
-        if(var5) { _fun0001_ip = 146; continue _fun0001 }
- 134:
+        if(var5) { _fun0001_ip = 144; continue _fun0001 }
+ 132:
         var4 = var4.DCDBackgroundTaskManager;
         var6 = var4.backgroundTaskIdentifierInvalid;
- 146:
+ 144:
         var _closure1_slot5 = var6;
         var5 = function startBackgroundTask(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {

@@ -150,6 +150,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['ORBS_REHEAT_COACHMARK_CTA'] = var6;
     var2 = 'ORBS_REHEAT_COACHMARK_CTA';
     var4[var6] = var2;
+    var6 = 35;
+    var4['INVALID_QUEST_EMBED'] = var6;
+    var2 = 'INVALID_QUEST_EMBED';
+    var4[var6] = var2;
+    var6 = 36;
+    var4['NOT_SHAREABLE_QUEST_EMBED'] = var6;
+    var2 = 'NOT_SHAREABLE_QUEST_EMBED';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

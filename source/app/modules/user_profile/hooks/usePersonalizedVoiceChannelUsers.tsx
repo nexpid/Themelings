@@ -127,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 if(var2) { _fun0001_ip = 21; continue _fun0001 }
  16:
                 var4 = var5;
-                _fun0001_ip = 37; continue _fun0001;
+                _fun0001_ip = 39; continue _fun0001;
  21:
                 var3 = var5.sort;
                 var2 = function(arg1, arg2) {
@@ -171,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     }
                 };
                 var4 = var3.bind(var5)(var2);
- 37:
+ 39:
                 var3 = var4.map;
                 var2 = function(arg1) {
                     var3 = _closure1_slot4;

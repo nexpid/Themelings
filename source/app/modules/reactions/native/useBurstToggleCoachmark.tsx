@@ -133,16 +133,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var1);
             var1 = var3.isPremium;
             var1 = var1.bind(var3)(var6);
-            if(var1) { _fun0001_ip = 87; continue _fun0001 }
- 81:
+            if(var1) { _fun0001_ip = 89; continue _fun0001 }
+ 83:
             var8 = new Array(0);
-            _fun0001_ip = 102; continue _fun0001;
- 87:
+            _fun0001_ip = 104; continue _fun0001;
+ 89:
             var3 = _closure1_slot9;
             var1 = new Array(1);
             var1[0] = var3;
             var8 = var1;
- 102:
+ 104:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 12;

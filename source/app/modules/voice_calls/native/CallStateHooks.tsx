@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     if(!(var1 == var3)) { _fun0002_ip = 37; continue _fun0002 }
  31:
                     var1 = new Array(0);
-                    _fun0002_ip = 62; continue _fun0002;
+                    _fun0002_ip = 60; continue _fun0002;
  37:
                     var5 = var3.ringing;
                     var4 = var5.filter;
@@ -132,15 +132,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var4.bind(var5)(var3);
- 62:
+ 60:
                     var3 = _closure1_slot10;
                     var2 = var3.initialized;
-                    if(var2) { _fun0002_ip = 86; continue _fun0002 }
- 75:
+                    if(var2) { _fun0002_ip = 84; continue _fun0002 }
+ 73:
                     var5 = var1.length;
                     var4 = 0;
                     var2 = var5 > var4;
- 86:
+ 84:
                     var3['initialized'] = var2;
                     return var1;
                 }
@@ -258,50 +258,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var9.bind(var10)(var5, var2, var3);
             var3 = _closure1_slot10;
             var2 = var3.initialized;
-            if(var2) { _fun0001_ip = 308; continue _fun0001 }
- 305:
+            if(var2) { _fun0001_ip = 302; continue _fun0001 }
+ 299:
             var2 = var8;
- 308:
+ 302:
             var3['initialized'] = var2;
             var2 = _closure1_slot11;
             var3 = var2.CONNECTING;
             var2 = _closure1_slot10;
             var2 = var2.initialized;
-            if(var7) { _fun0001_ip = 429; continue _fun0001 }
- 337:
-            if(!var2) { _fun0001_ip = 354; continue _fun0001 }
- 340:
+            if(var7) { _fun0001_ip = 423; continue _fun0001 }
+ 331:
+            if(!var2) { _fun0001_ip = 348; continue _fun0001 }
+ 334:
             var7 = _closure1_slot8;
             var7 = var7.DISCONNECTED;
-            if(!(var5 !== var7)) { _fun0001_ip = 417; continue _fun0001 }
- 354:
+            if(!(var5 !== var7)) { _fun0001_ip = 411; continue _fun0001 }
+ 348:
             var8 = var4.length;
             var7 = 0;
-            if(!(var8 > var7)) { _fun0001_ip = 379; continue _fun0001 }
- 365:
+            if(!(var8 > var7)) { _fun0001_ip = 373; continue _fun0001 }
+ 359:
             var6 = var6.length;
             var4 = var4.length;
-            if(!(var6 !== var4)) { _fun0001_ip = 405; continue _fun0001 }
- 379:
+            if(!(var6 !== var4)) { _fun0001_ip = 399; continue _fun0001 }
+ 373:
             var4 = _closure1_slot8;
             var4 = var4.RTC_CONNECTED;
-            if(!(var5 === var4)) { _fun0001_ip = 439; continue _fun0001 }
- 393:
+            if(!(var5 === var4)) { _fun0001_ip = 433; continue _fun0001 }
+ 387:
             var4 = _closure1_slot11;
             var3 = var4.CONNECTED;
-            _fun0001_ip = 439; continue _fun0001;
- 405:
+            _fun0001_ip = 433; continue _fun0001;
+ 399:
             var4 = _closure1_slot11;
             var3 = var4.RINGING;
-            _fun0001_ip = 439; continue _fun0001;
- 417:
+            _fun0001_ip = 433; continue _fun0001;
+ 411:
             var4 = _closure1_slot11;
             var3 = var4.DISCONNECTED;
-            _fun0001_ip = 439; continue _fun0001;
- 429:
+            _fun0001_ip = 433; continue _fun0001;
+ 423:
             var1 = _closure1_slot11;
             var3 = var1.DISCONNECTING;
- 439:
+ 433:
             var1 = {};
             var1['state'] = var3;
             var1['initialized'] = var2;

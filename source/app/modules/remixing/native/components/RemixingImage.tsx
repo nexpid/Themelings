@@ -105,14 +105,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var7 = var10 == var12;
             var1 = null;
-            if(var7) { _fun0001_ip = 428; continue _fun0001 }
- 218:
-            if(var4) { _fun0001_ip = 232; continue _fun0001 }
- 221:
+            if(var7) { _fun0001_ip = 430; continue _fun0001 }
+ 220:
+            if(var4) { _fun0001_ip = 234; continue _fun0001 }
+ 223:
             var4 = true;
             var4 = var6.bind(var5)(var4);
             var3 = var3.bind(var5)();
- 232:
+ 234:
             var4 = _closure1_slot5;
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -143,10 +143,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['image'] = var12;
             var12 = var10 != var11;
             var10 = 'contain';
-            if(!var12) { _fun0001_ip = 371; continue _fun0001 }
- 368:
+            if(!var12) { _fun0001_ip = 373; continue _fun0001 }
+ 370:
             var10 = var11;
- 371:
+ 373:
             var6['fit'] = var10;
             var10 = var9.x;
             var6['x'] = var10;
@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 428:
+ 430:
             return var1;
         }
     };

@@ -108,8 +108,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var8)(var5);
             var5 = 'header';
             var1[var5] = var7;
-            if(!(var16 == var6)) { _fun0001_ip = 266; continue _fun0001 }
- 212:
+            if(!(var16 == var6)) { _fun0001_ip = 268; continue _fun0001 }
+ 214:
             var9 = _closure1_slot0;
             var5 = _closure1_slot2;
             var7 = var5[var17];
@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.t;
             var5 = var5.nQHxqq;
             var6 = var7.bind(var8)(var5);
- 266:
+ 268:
             var5 = 'subtitle';
             var1[var5] = var6;
             var7 = _closure1_slot6;
@@ -137,8 +137,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = {};
             var18 = 'destructive';
             var8['variant'] = var18;
-            if(!(var16 == var15)) { _fun0001_ip = 385; continue _fun0001 }
- 331:
+            if(!(var16 == var15)) { _fun0001_ip = 387; continue _fun0001 }
+ 333:
             var20 = _closure1_slot0;
             var16 = _closure1_slot2;
             var18 = var16[var17];
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.t;
             var16 = var16.OzHPdX;
             var15 = var18.bind(var19)(var16);
- 385:
+ 387:
             var8['text'] = var15;
             var8['onPress'] = var14;
             var11 = var13.bind(var3)(var11, var8);

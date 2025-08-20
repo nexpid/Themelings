@@ -200,10 +200,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var12.bind(var4)(var11);
             var12 = var14.useSharedValue;
             var11 = 1;
-            if(!var7) { _fun0002_ip = 245; continue _fun0002 }
- 243:
+            if(!var7) { _fun0002_ip = 243; continue _fun0002 }
+ 241:
             var11 = 0;
- 245:
+ 243:
             var16 = var12.bind(var14)(var11);
             _closure2_slot1 = var16;
             var14 = _closure1_slot3;
@@ -276,10 +276,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.getBackgroundGradientColors;
             var3 = var9.palette;
             var14 = var11.bind(var12)(var3, var13);
-            if(!var2) { _fun0002_ip = 467; continue _fun0002 }
- 394:
-            if(var1) { _fun0002_ip = 467; continue _fun0002 }
- 397:
+            if(!var2) { _fun0002_ip = 461; continue _fun0002 }
+ 388:
+            if(var1) { _fun0002_ip = 461; continue _fun0002 }
+ 391:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 9;
@@ -294,8 +294,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 'img.png';
             var1 = var12.bind(var11)(var13, var1);
             var12 = var2.bind(var3)(var1);
-            _fun0002_ip = 535; continue _fun0002;
- 467:
+            _fun0002_ip = 529; continue _fun0002;
+ 461:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 9;
@@ -310,7 +310,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 'static.png';
             var1 = var13.bind(var11)(var15, var1);
             var12 = var2.bind(var3)(var1);
- 535:
+ 529:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -326,8 +326,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var5;
             var7 = null;
             var5 = var7 != var14;
-            if(!var5) { _fun0002_ip = 706; continue _fun0002 }
- 597:
+            if(!var5) { _fun0002_ip = 700; continue _fun0002 }
+ 591:
             var11 = _closure1_slot5;
             var8 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -340,10 +340,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = {};
             var15 = 0;
             var16 = 0;
-            if(!var17) { _fun0002_ip = 648; continue _fun0002 }
- 642:
+            if(!var17) { _fun0002_ip = 642; continue _fun0002 }
+ 636:
             var16 = -2;
- 648:
+ 642:
             var13['x'] = var16;
             var13['y'] = var15;
             var5['start'] = var13;
@@ -356,7 +356,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13[1] = var14;
             var5['colors'] = var13;
             var7 = var11.bind(var4)(var8, var5);
- 706:
+ 700:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot5;

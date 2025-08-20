@@ -24,11 +24,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun0001_ip = 76; continue _fun0001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -178,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var1;
-        var1 = new Array(8);
+        var1 = new Array(9);
         var1[0] = var5;
         var5 = {};
         var7 = 'isFetching';
@@ -281,7 +281,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var7 = 'getCoverImageUrl';
         var5['key'] = var7;
-        var6 = function value(arg1, arg2) {
+        var7 = function value(arg1, arg2) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var3 = arg2;
@@ -319,8 +319,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[7] = var5;
+        var5 = {};
+        var7 = 'noDataAvailable';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            var3 = _closure1_slot8;
+            var2 = var3.has;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[8] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

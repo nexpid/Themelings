@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var _closure3_slot0 = var2;
                     var3 = _closure2_slot4;
                     var3 = var3.current;
-                    if(!var3) { _fun0003_ip = 40; continue _fun0003 }
+                    if(!var3) { _fun0003_ip = 42; continue _fun0003 }
  24:
                     var3 = _closure2_slot7;
                     var2 = undefined;
@@ -277,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var3.bind(var2)(var1);
- 40:
+ 42:
                     var1 = undefined;
                     return var1;
                 }
@@ -431,7 +431,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var4 = _closure2_slot3;
                     var3 = 0;
-                    if(!(var3 !== var4)) { _fun0006_ip = 62; continue _fun0006 }
+                    if(!(var3 !== var4)) { _fun0006_ip = 66; continue _fun0006 }
  15:
                     var5 = _closure1_slot7;
                     var4 = var5.getSize;
@@ -469,7 +469,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var4.bind(var5)(var3, var2, var1);
- 62:
+ 66:
                     var1 = undefined;
                     return var1;
                 }
@@ -477,8 +477,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var8)(var1, var2);
             var3 = _closure1_slot9;
             var2 = _closure1_slot5;
-            if(!(var12 !== var14)) { _fun0005_ip = 351; continue _fun0005 }
- 206:
+            if(!(var12 !== var14)) { _fun0005_ip = 353; continue _fun0005 }
+ 208:
             var1 = {};
             var8 = var7.profileEffects;
             var1['style'] = var8;
@@ -493,10 +493,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var4)(var5);
             var5 = {'resizeMode': 'cover', 'resizeMethod': 'resize', 'enableAnimation': true};
             var11 = {};
-            if(!var18) { _fun0005_ip = 278; continue _fun0005 }
- 275:
+            if(!var18) { _fun0005_ip = 280; continue _fun0005 }
+ 277:
             var16 = var17;
- 278:
+ 280:
             var11['uri'] = var16;
             var5['source'] = var11;
             var5['alt'] = var10;
@@ -514,8 +514,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var10;
             var5 = var9.bind(var4)(var8, var5);
             var1['children'] = var5;
-            _fun0005_ip = 380; continue _fun0005;
- 351:
+            _fun0005_ip = 382; continue _fun0005;
+ 353:
             var5 = {};
             var7 = var7.profileEffects;
             var5['style'] = var7;
@@ -523,7 +523,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['pointerEvents'] = var7;
             var5['onLayout'] = var6;
             var1 = var5;
- 380:
+ 382:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
@@ -577,13 +577,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var4.bind(var5)(var8);
             var4 = var1 == var8;
             var1 = null;
-            if(var4) { _fun0007_ip = 233; continue _fun0007 }
- 143:
-            if(var2) { _fun0007_ip = 188; continue _fun0007 }
- 146:
+            if(var4) { _fun0007_ip = 235; continue _fun0007 }
+ 145:
+            if(var2) { _fun0007_ip = 190; continue _fun0007 }
+ 148:
             var2 = var7.useThumbnail;
-            if(var2) { _fun0007_ip = 188; continue _fun0007 }
- 155:
+            if(var2) { _fun0007_ip = 190; continue _fun0007 }
+ 157:
             var5 = _closure1_slot9;
             var4 = _closure1_slot13;
             var2 = {};
@@ -592,8 +592,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var7;
             var9 = copyDataProperties(var13, var12);
             var2 = var5.bind(var6)(var4, var2);
-            _fun0007_ip = 230; continue _fun0007;
- 188:
+            _fun0007_ip = 232; continue _fun0007;
+ 190:
             var5 = _closure1_slot9;
             var4 = _closure1_slot14;
             var3 = {};
@@ -603,9 +603,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.useThumbnail;
             var3['useThumbnail'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 230:
+ 232:
             var1 = var2;
- 233:
+ 235:
             return var1;
         }
     };

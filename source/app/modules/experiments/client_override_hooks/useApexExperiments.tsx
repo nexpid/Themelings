@@ -254,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = 4;
                         var2 = var5[var2];
                         var2 = var3.bind(var4)(var2);
-                        var2 = var2.Variant_Type;
+                        var2 = var2.Variation_Type;
                         var2 = var2.UNSPECIFIED;
                         var1['type'] = var2;
                         return var1;

@@ -787,30 +787,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var17.bind(var4)(var16, var8);
             var5[1] = var8;
             var8 = !var7;
-            if(!var8) { _fun0001_ip = 1539; continue _fun0001 }
- 1536:
+            if(!var8) { _fun0001_ip = 1565; continue _fun0001 }
+ 1562:
             var8 = !var13;
- 1539:
-            if(!var8) { _fun0001_ip = 1554; continue _fun0001 }
- 1542:
+ 1565:
+            if(!var8) { _fun0001_ip = 1580; continue _fun0001 }
+ 1568:
             var16 = _closure1_slot10;
             var16 = var16.bind(var4)(var9);
             var8 = !var16;
- 1554:
-            if(!var8) { _fun0001_ip = 1569; continue _fun0001 }
- 1557:
+ 1580:
+            if(!var8) { _fun0001_ip = 1595; continue _fun0001 }
+ 1583:
             var16 = _closure1_slot12;
             var16 = var16.bind(var4)(var9);
             var8 = !var16;
- 1569:
-            if(!var8) { _fun0001_ip = 1584; continue _fun0001 }
- 1572:
+ 1595:
+            if(!var8) { _fun0001_ip = 1610; continue _fun0001 }
+ 1598:
             var16 = _closure1_slot14;
             var16 = var16.bind(var4)(var9);
             var8 = !var16;
- 1584:
-            if(!var8) { _fun0001_ip = 1649; continue _fun0001 }
- 1587:
+ 1610:
+            if(!var8) { _fun0001_ip = 1675; continue _fun0001 }
+ 1613:
             var19 = _closure1_slot20;
             var17 = _closure1_slot1;
             var31 = _closure1_slot3;
@@ -825,12 +825,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16['undoRedoSaveVisible'] = var20;
             var16['onExit'] = var28;
             var8 = var19.bind(var4)(var17, var16);
- 1649:
+ 1675:
             var5[2] = var8;
             var8 = _closure1_slot11;
             var8 = var8.bind(var4)(var9);
-            if(!var8) { _fun0001_ip = 1715; continue _fun0001 }
- 1665:
+            if(!var8) { _fun0001_ip = 1741; continue _fun0001 }
+ 1691:
             var19 = _closure1_slot20;
             var17 = _closure1_slot1;
             var28 = _closure1_slot3;
@@ -843,16 +843,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16['canvasWidth'] = var12;
             var16['drawing'] = var13;
             var8 = var19.bind(var4)(var17, var16);
- 1715:
+ 1741:
             var5[3] = var8;
             var8 = _closure1_slot11;
             var8 = var8.bind(var4)(var9);
-            if(!var8) { _fun0001_ip = 1734; continue _fun0001 }
- 1731:
+            if(!var8) { _fun0001_ip = 1760; continue _fun0001 }
+ 1757:
             var8 = !var13;
- 1734:
-            if(!var8) { _fun0001_ip = 1855; continue _fun0001 }
- 1737:
+ 1760:
+            if(!var8) { _fun0001_ip = 1881; continue _fun0001 }
+ 1763:
             var17 = _closure1_slot20;
             var16 = _closure1_slot1;
             var19 = _closure1_slot3;
@@ -879,12 +879,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.COLOR_CAROUSEL_WIDTH;
             var13['width'] = var19;
             var8 = var17.bind(var4)(var16, var13);
- 1855:
+ 1881:
             var5[4] = var8;
             var8 = _closure1_slot12;
             var8 = var8.bind(var4)(var9);
-            if(!var8) { _fun0001_ip = 2016; continue _fun0001 }
- 1874:
+            if(!var8) { _fun0001_ip = 2044; continue _fun0001 }
+ 1900:
             var17 = _closure1_slot20;
             var16 = _closure1_slot7;
             var13 = {};
@@ -928,17 +928,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var20.bind(var4)(var19, var18);
             var13['children'] = var18;
             var8 = var17.bind(var4)(var16, var13);
- 2016:
+ 2044:
             var5[5] = var8;
             var7 = !var7;
-            if(!var7) { _fun0001_ip = 2038; continue _fun0001 }
- 2026:
+            if(!var7) { _fun0001_ip = 2066; continue _fun0001 }
+ 2054:
             var8 = _closure1_slot9;
             var8 = var8.bind(var4)(var9);
             var7 = !var8;
- 2038:
-            if(!var7) { _fun0001_ip = 2110; continue _fun0001 }
- 2041:
+ 2066:
+            if(!var7) { _fun0001_ip = 2138; continue _fun0001 }
+ 2069:
             var13 = _closure1_slot20;
             var9 = _closure1_slot1;
             var16 = _closure1_slot3;
@@ -956,7 +956,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14['y'] = var15;
             var8['canvasCenterPoint'] = var14;
             var7 = var13.bind(var4)(var9, var8);
- 2110:
+ 2138:
             var5[6] = var7;
             var8 = _closure1_slot20;
             var7 = _closure1_slot1;

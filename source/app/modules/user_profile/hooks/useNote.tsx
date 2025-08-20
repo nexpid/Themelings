@@ -186,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0003_ip = 31; continue _fun0003 }
+                    if(!(var2 == var3)) { _fun0003_ip = 33; continue _fun0003 }
  13:
                     var3 = _closure2_slot0;
                     var2 = function fetchNote() {
@@ -201,17 +201,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
- 31:
+ 33:
                     var1 = undefined;
                     return var1;
                 }
             };
             var2 = var4.bind(var5)(var2, var3);
             var2 = null;
-            if(!(var2 == var1)) { _fun0002_ip = 118; continue _fun0002 }
- 104:
+            if(!(var2 == var1)) { _fun0002_ip = 122; continue _fun0002 }
+ 108:
             var1 = {'loading': true, 'note': null};
- 118:
+ 122:
             return var1;
         }
     };

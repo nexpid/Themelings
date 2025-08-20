@@ -147,8 +147,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.attachments;
             var5 = var3.length;
             var3 = 0;
-            if(!(!(var5 > var3))) { _fun0001_ip = 244; continue _fun0001 }
- 214:
+            if(!(!(var5 > var3))) { _fun0001_ip = 256; continue _fun0001 }
+ 226:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 9;
@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var4)(var3);
             var3 = var5.hideActionSheet;
             var3 = var3.bind(var5)();
- 244:
+ 256:
             var6 = _closure1_slot3;
             var5 = var6.useCallback;
             var3 = new Array(1);

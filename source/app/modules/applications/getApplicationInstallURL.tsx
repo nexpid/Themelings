@@ -86,7 +86,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var2.installParams;
             var9 = var2.integrationTypesConfig;
             var3 = null;
-            if(!(var3 == var1)) { _fun0002_ip = 267; continue _fun0002 }
+            if(!(var3 == var1)) { _fun0002_ip = 269; continue _fun0002 }
  35:
             var2 = global;
             var4 = var2.URLSearchParams;
@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'client_id';
             var6 = var7.bind(var4)(var6, var8);
             var6 = var3 != var9;
-            if(!var6) { _fun0002_ip = 119; continue _fun0002 }
+            if(!var6) { _fun0002_ip = 121; continue _fun0002 }
  85:
             var8 = var2.Object;
             var7 = var8.values;
@@ -131,28 +131,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var6 = var8.bind(var9)(var7);
- 119:
-            if(!(var3 != var5)) { _fun0002_ip = 190; continue _fun0002 }
- 123:
-            if(var6) { _fun0002_ip = 190; continue _fun0002 }
- 126:
+ 121:
+            if(!(var3 != var5)) { _fun0002_ip = 192; continue _fun0002 }
+ 125:
+            if(var6) { _fun0002_ip = 192; continue _fun0002 }
+ 128:
             var8 = var5.permissions;
             var7 = var5.scopes;
-            if(!(var3 != var8)) { _fun0002_ip = 157; continue _fun0002 }
- 142:
+            if(!(var3 != var8)) { _fun0002_ip = 159; continue _fun0002 }
+ 144:
             var6 = var4.set;
             var5 = 'permissions';
             var5 = var6.bind(var4)(var5, var8);
- 157:
-            if(!(var3 != var7)) { _fun0002_ip = 190; continue _fun0002 }
- 161:
+ 159:
+            if(!(var3 != var7)) { _fun0002_ip = 192; continue _fun0002 }
+ 163:
             var6 = var4.set;
             var5 = var7.join;
             var3 = ' ';
             var5 = var5.bind(var7)(var3);
             var3 = 'scope';
             var3 = var6.bind(var4)(var3, var5);
- 190:
+ 192:
             var3 = var2.location;
             var15 = var3.protocol;
             var3 = var2.location;
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = '?';
             var2 = var16[var5](var15, var14, var13, var12, var11, var10, var9);
             return var2;
- 267:
+ 269:
             return var1;
         }
     };

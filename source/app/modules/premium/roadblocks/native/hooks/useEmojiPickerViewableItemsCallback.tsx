@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  49:
             var2 = var3.@@iterator;
  55:
-            if(var2) { _fun0001_ip = 343; continue _fun0001 }
+            if(var2) { _fun0001_ip = 345; continue _fun0001 }
  61:
             var6 = var5.Array;
             var4 = var6.isArray;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             return var1;
- 343:
+ 345:
             var1 = var2.call;
             var3 = var1.bind(var2)(var3);
             var2 = var3.next;
@@ -284,8 +284,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot0 = var1;
                 var1 = {};
                 var4 = _closure2_slot2;
-                if(!var4) { _fun0005_ip = 68; continue _fun0005 }
- 63:
+                if(!var4) { _fun0005_ip = 72; continue _fun0005 }
+ 65:
                 var2 = function(arg1) {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
@@ -340,7 +340,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
- 68:
+ 72:
                 var1['onViewableItemsChanged'] = var2;
                 return var1;
             }

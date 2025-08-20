@@ -115,10 +115,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 32;
             var9 = var13 >= var7;
             var7 = 4;
-            if(!var9) { _fun0001_ip = 135; continue _fun0001 }
- 132:
+            if(!var9) { _fun0001_ip = 137; continue _fun0001 }
+ 134:
             var7 = 8;
- 135:
+ 137:
             var6['paddingHorizontal'] = var7;
             var5[1] = var6;
             var1['style'] = var5;
@@ -136,10 +136,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var13 = var9 != var12;
             var9 = 'text-md/semibold';
-            if(!var13) { _fun0001_ip = 220; continue _fun0001 }
- 217:
+            if(!var13) { _fun0001_ip = 222; continue _fun0001 }
+ 219:
             var9 = var12;
- 220:
+ 222:
             var5['variant'] = var9;
             var9 = _closure1_slot0;
             var12 = _closure1_slot1;

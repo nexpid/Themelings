@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  49:
             var2 = var3.@@iterator;
  55:
-            if(var2) { _fun0001_ip = 343; continue _fun0001 }
+            if(var2) { _fun0001_ip = 345; continue _fun0001 }
  61:
             var6 = var5.Array;
             var4 = var6.isArray;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             return var1;
- 343:
+ 345:
             var1 = var2.call;
             var3 = var1.bind(var2)(var3);
             var2 = var3.next;
@@ -404,7 +404,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.getActiveSocketAndDevice;
             var3 = var2.bind(var3)();
             var2 = null;
-            if(!(var2 == var3)) { _fun0007_ip = 321; continue _fun0007 }
+            if(!(var2 == var3)) { _fun0007_ip = 323; continue _fun0007 }
  28:
             var4 = _closure1_slot5;
             var2 = var4.isProtocolRegistered;
@@ -446,7 +446,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  183:
             var7 = var5.length;
             var2 = 0;
-            if(!(!(var7 > var2))) { _fun0007_ip = 229; continue _fun0007 }
+            if(!(!(var7 > var2))) { _fun0007_ip = 231; continue _fun0007 }
  194:
             var7 = global;
             var8 = var7.Promise;
@@ -504,8 +504,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 };
                                 var3 = var3.bind(var4)(var2);
                                 var2 = null;
-                                if(!(var2 == var3)) { _fun0009_ip = 105; continue _fun0009 }
- 45:
+                                if(!(var2 == var3)) { _fun0009_ip = 109; continue _fun0009 }
+ 47:
                                 var2 = global;
                                 var6 = var2.clearTimeout;
                                 var5 = _closure3_slot2;
@@ -537,7 +537,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     return var1;
                                 };
                                 var1 = var2.bind(var3)(var1);
- 105:
+ 109:
                                 var1 = undefined;
                                 return var1;
                             }
@@ -550,8 +550,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.bind(var1)();
                         var2 = var3.done;
-                        if(var2) { _fun0008_ip = 85; continue _fun0008 }
- 47:
+                        if(var2) { _fun0008_ip = 87; continue _fun0008 }
+ 49:
                         var2 = var3.value;
                         var6 = var2.socket;
                         var2 = var2.device;
@@ -559,8 +559,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var4.bind(var1)();
                         var2 = var6.done;
                         var3 = var6;
-                        if(!var2) { _fun0008_ip = 47; continue _fun0008 }
- 85:
+                        if(!var2) { _fun0008_ip = 49; continue _fun0008 }
+ 87:
                         return var1;
                     }
                 };
@@ -583,7 +583,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new var13[var8](var12, var11);
             var6 = var6 instanceof Object ? var6 : var7;
             return var6;
- 229:
+ 231:
             var2 = var5[var2];
             var6 = var2.socket;
             var5 = var2.device;
@@ -604,7 +604,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['device'] = var5;
             var1 = var2.bind(var4)(var1);
             return var1;
- 321:
+ 323:
             var1 = global;
             var2 = var1.Promise;
             var1 = var2.resolve;
@@ -637,12 +637,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.getActiveSocketAndDevice;
             var2 = var2.bind(var4)();
             var4 = null;
-            if(!(var4 != var2)) { _fun0011_ip = 127; continue _fun0011 }
+            if(!(var4 != var2)) { _fun0011_ip = 129; continue _fun0011 }
  25:
             var2 = var2.socket;
             var _closure2_slot0 = var2;
             var4 = var2.isPremium;
-            if(var4) { _fun0011_ip = 107; continue _fun0011 }
+            if(var4) { _fun0011_ip = 109; continue _fun0011 }
  44:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -680,15 +680,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var1 = var2.bind(var3)(var1);
-            _fun0011_ip = 125; continue _fun0011;
- 107:
+            _fun0011_ip = 127; continue _fun0011;
+ 109:
             var2 = global;
             var3 = var2.Promise;
             var2 = var3.resolve;
             var1 = var2.bind(var3)();
- 125:
-            return var1;
  127:
+            return var1;
+ 129:
             var1 = global;
             var3 = var1.Promise;
             var2 = var3.reject;

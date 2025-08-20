@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var4 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 297; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 295; continue _fun0002 }
  15:
                     var2 = undefined;
                     var7 = undefined;
@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var8.bind(var10)();
                     var7 = var10;
                     var8 = null;
-                    if(!(var8 != var10)) { _fun0002_ip = 265; continue _fun0002 }
+                    if(!(var8 != var10)) { _fun0002_ip = 263; continue _fun0002 }
  114: // try_start_0
                     var11 = _closure1_slot3;
                     var10 = var11.log;
@@ -175,13 +175,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = var7;
                     var5 = new var15[var8](var14, var13);
                     var5 = var5 instanceof Object ? var5 : var7;
-                    SaveGenerator(address=183);
- 181:
+                    SaveGenerator(address=181);
+ 179:
                     return var5;
- 183:
+ 181:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(var7) { _fun0002_ip = 233; continue _fun0002 }
- 189:
+                    if(var7) { _fun0002_ip = 231; continue _fun0002 }
+ 187:
                     var8 = _closure1_slot3;
                     var7 = var8.log;
                     var10 = var9.id;
@@ -190,20 +190,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = 'drainQueue() Uploader complete - ';
                     var6 = var9.bind(var6)(var10);
                     var6 = var7.bind(var8)(var6);
- 231: // try_end0
-                    _fun0002_ip = 252; continue _fun0002;
- 233:
+ 229: // try_end0
+                    _fun0002_ip = 250; continue _fun0002;
+ 231:
                     return var5;
- 236: // catch_target0
+ 234: // catch_target0
                     CatchBlockStart(arg_register=6);
                     var6 = _closure1_slot3;
                     var5 = var6.error;
                     var5 = var5.bind(var6)(var7);
- 252:
+ 250:
                     var5 = var4.drainQueue;
                     var5 = var5.bind(var4)();
                     return var2;
- 265:
+ 263:
                     var6 = _closure1_slot3;
                     var5 = var6.log;
                     var3 = 'drainQueue() - No uploads left, setting drainingQueue to false';
@@ -211,7 +211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = false;
                     var4['drainingQueue'] = var3;
                     return var2;
- 297:
+ 295:
                     return var1;
                 }
             };

@@ -211,10 +211,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot12 = var6;
             var12 = var10.current;
             var10 = var11;
-            if(!(var4 === var12)) { _fun0002_ip = 382; continue _fun0002 }
- 377:
+            if(!(var4 === var12)) { _fun0002_ip = 376; continue _fun0002 }
+ 371:
             var10 = var6.current;
- 382:
+ 376:
             _closure2_slot13 = var10;
             var6 = _closure1_slot4;
             var20 = var6.useEffect;

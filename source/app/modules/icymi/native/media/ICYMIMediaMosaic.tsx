@@ -1557,7 +1557,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 'function ICYMIMediaMosaicTsx1(){const{withTiming,imageFinishedLoading}=this.__closure;return{opacity:withTiming(imageFinishedLoading?0:1,{duration:150})};}';
     var5['code'] = var8;
     var _closure1_slot18 = var5;
-    var5 = 35;
+    var5 = 36;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -1632,8 +1632,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
+                var8 = var4.bind(var8)(var3);
+                var4 = var8.filter;
+                var3 = 30;
+                var3 = var7[var3];
+                var3 = var6.bind(var5)(var3);
+                var3 = var3.isNotNullish;
                 var3 = var4.bind(var8)(var3);
-                var4 = 30;
+                var4 = 31;
                 var4 = var7[var4];
                 var6 = var6.bind(var5)(var4);
                 var4 = var6.partition;
@@ -1702,7 +1708,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot1 = var1;
                 var5 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 31;
+                var1 = 32;
                 var4 = var3[var1];
                 var1 = undefined;
                 var4 = var5.bind(var1)(var4);
@@ -1713,10 +1719,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = 'message';
                 var4 = 'press_media';
                 var4 = var8.bind(var9)(var7, var6, var4);
-                var4 = 33;
+                var4 = 34;
                 var4 = var3[var4];
                 var5 = var5.bind(var1)(var4);
-                var4 = 32;
+                var4 = 33;
                 var4 = var3[var4];
                 var3 = var3.paths;
                 var4 = var5.bind(var1)(var4, var3);
@@ -1728,7 +1734,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var1.openMediaModal;
                         var6 = _closure1_slot0;
                         var2 = _closure1_slot2;
-                        var1 = 34;
+                        var1 = 35;
                         var2 = var2[var1];
                         var1 = undefined;
                         var10 = var6.bind(var1)(var2);

@@ -1,7 +1,7 @@
 // app/lib/uploader/UploadUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var7 = require;
-    var4 = metroImportDefault;
+    var5 = metroImportDefault;
     var3 = exports;
     var8 = dependencyMap;
     var _closure1_slot0 = var7;
@@ -17,11 +17,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var2 = var8[var1];
     var1 = undefined;
-    var2 = var4.bind(var1)(var2);
+    var2 = var5.bind(var1)(var2);
     var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var8[var2];
-    var2 = var4.bind(var1)(var2);
+    var2 = var5.bind(var1)(var2);
     var _closure1_slot3 = var2;
     var2 = function() {
         var4 = _closure1_slot3;
@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
-    var4 = var2.bind(var1)();
+    var5 = var2.bind(var1)();
     var2 = function() {
         var4 = _closure1_slot3;
         var3 = function LibdiscoreHttpClient() {
@@ -491,7 +491,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['doesImageMatchUpload'] = var6;
-    var5 = function calculateProgress(arg1, arg2) {
+    var6 = function calculateProgress(arg1, arg2) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var3 = arg2;
@@ -513,8 +513,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['calculateProgress'] = var5;
-    var3['DefaultHttpClient'] = var4;
+    var3['calculateProgress'] = var6;
+    var3['DefaultHttpClient'] = var5;
+    var4 = function canUploadNatively(arg1) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+ 0:
+            var3 = arg1;
+            var5 = var3.platform;
+            var6 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 2;
+            var1 = var4[var1];
+            var4 = undefined;
+            var1 = var6.bind(var4)(var1);
+            var1 = var1.UploadPlatform;
+            var1 = var1.REACT_NATIVE;
+            var1 = var5 !== var1;
+            if(var1) { _fun0008_ip = 64; continue _fun0008 }
+ 53:
+            var6 = var3.uri;
+            var5 = null;
+            var1 = var5 == var6;
+ 64:
+            if(var1) { _fun0008_ip = 92; continue _fun0008 }
+ 67:
+            var6 = var3.uri;
+            var5 = var6.startsWith;
+            var3 = 'file://';
+            var3 = var5.bind(var6)(var3);
+            var1 = !var3;
+ 92:
+            if(var1) { _fun0008_ip = 128; continue _fun0008 }
+ 95:
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 4;
+            var2 = var5[var2];
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.isLibdiscoreLoaded;
+            var2 = var2.bind(var3)();
+            var1 = !var2;
+ 128:
+            var1 = !var1;
+            return var1;
+        }
+    };
+    var3['canUploadNatively'] = var4;
     var3['LibdiscoreHttpClient'] = var2;
     return var1;
 })();

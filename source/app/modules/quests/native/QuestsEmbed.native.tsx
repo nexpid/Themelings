@@ -219,174 +219,230 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot5;
             var4 = var1.quests;
             var1 = var4.get;
-            var4 = var1.bind(var4)(var8);
+            var5 = var1.bind(var4)(var8);
             var1 = _closure1_slot5;
-            var5 = var1.excludedQuests;
-            var1 = var5.get;
-            var1 = var1.bind(var5)(var8);
-            var7 = null;
-            if(!(var7 == var4)) { _fun0003_ip = 266; continue _fun0003 }
+            var4 = var1.excludedQuests;
+            var1 = var4.get;
+            var1 = var1.bind(var4)(var8);
+            var10 = null;
+            if(!(var10 == var5)) { _fun0003_ip = 266; continue _fun0003 }
  250:
-            var5 = _closure1_slot5;
-            var5 = var5.isFetchingCurrentQuests;
-            if(var5) { _fun0003_ip = 1315; continue _fun0003 }
+            var4 = _closure1_slot5;
+            var4 = var4.isFetchingCurrentQuests;
+            if(var4) { _fun0003_ip = 1562; continue _fun0003 }
  266:
-            if(!(var7 == var1)) { _fun0003_ip = 1107; continue _fun0003 }
+            if(!(var10 == var1)) { _fun0003_ip = 1356; continue _fun0003 }
  273:
-            if(!(var7 != var4)) { _fun0003_ip = 896; continue _fun0003 }
+            if(!(var10 != var5)) { _fun0003_ip = 1145; continue _fun0003 }
  280:
+            var4 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var6 = 8;
+            var1 = var1[var6];
+            var15 = undefined;
+            var7 = var4.bind(var15)(var1);
+            var4 = var7.isShareableQuest;
+            var1 = var5.config;
+            var1 = var4.bind(var7)(var1);
+            if(var1) { _fun0003_ip = 531; continue _fun0003 }
+ 324:
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var1 = 14;
+            var1 = var13[var1];
+            var7 = var12.bind(var15)(var1);
+            var4 = var7.trackQuestEmbedFallbackViewed;
+            var1 = _closure1_slot7;
+            var1 = var1.NOT_SHAREABLE_QUEST;
+            var1 = var4.bind(var7)(var8, var1);
+            var4 = _closure1_slot10;
             var1 = {};
+            var7 = 7;
+            var9 = var13[var7];
+            var9 = var12.bind(var15)(var9);
+            var14 = var9.intl;
+            var11 = var14.string;
+            var9 = var13[var7];
+            var9 = var12.bind(var15)(var9);
+            var9 = var9.t;
+            var9 = var9.Dd6Da2;
+            var9 = var11.bind(var14)(var9);
+            var1['titleText'] = var9;
+            var9 = var13[var7];
+            var9 = var12.bind(var15)(var9);
+            var11 = var9.intl;
+            var9 = var11.string;
+            var7 = var13[var7];
+            var7 = var12.bind(var15)(var7);
+            var7 = var7.t;
+            var7 = var7.NXrP3N;
+            var7 = var9.bind(var11)(var7);
+            var1['bodyText'] = var7;
             var1['themeColors'] = var2;
-            var1['quest'] = var4;
-            var4 = var1.themeColors;
-            var18 = var1.quest;
-            var5 = var4.colors;
-            var6 = var18.userStatus;
-            var9 = var7 == var6;
-            var13 = undefined;
-            var1 = undefined;
-            if(var9) { _fun0003_ip = 332; continue _fun0003 }
- 326:
-            var1 = var6.enrolledAt;
- 332:
-            var9 = var7 != var1;
-            var1 = var18.config;
-            var6 = var1.expiresAt;
-            var1 = global;
-            var1 = var1.Date;
-            var10 = var1.prototype;
-            var10 = Object.create(var10, {constructor: {value: var1}});
-            var26 = var10;
-            var1 = new var26[var1](var25);
-            var10 = var1 instanceof Object ? var1 : var10;
-            var1 = var10.toISOString;
-            var1 = var1.bind(var10)();
-            var6 = var6 < var1;
-            var10 = _closure1_slot4;
-            var1 = var10.getState;
-            var1 = var1.bind(var10)();
-            var11 = var1.theme;
-            var10 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var1 = 11;
-            var1 = var12[var1];
-            var10 = var10.bind(var13)(var1);
-            var1 = var10.isThemeDark;
-            var10 = var1.bind(var10)(var11);
-            var1 = _closure1_slot8;
-            if(var10) { _fun0003_ip = 455; continue _fun0003 }
- 447:
-            var17 = var1.LIGHT;
-            _fun0003_ip = 461; continue _fun0003;
- 455:
-            var17 = var1.DARK;
- 461:
-            var1 = _closure1_slot5;
-            var1 = var1.questEnrollmentBlockedUntil;
-            var7 = var7 != var1;
-            var1 = {};
-            var11 = _closure1_slot10;
-            var10 = {};
-            var19 = _closure1_slot0;
-            var20 = _closure1_slot2;
-            var14 = 7;
-            var12 = var20[var14];
-            var12 = var19.bind(var13)(var12);
-            var21 = var12.intl;
-            var16 = var21.formatToPlainString;
-            var12 = var20[var14];
-            var12 = var19.bind(var13)(var12);
-            var12 = var12.t;
-            var15 = var12.EAYZAg;
-            var12 = {};
-            var22 = var18.config;
-            var22 = var22.messages;
-            var22 = var22.questName;
-            var12['questName'] = var22;
-            var12 = var16.bind(var21)(var15, var12);
-            var10['titleText'] = var12;
-            var12 = var18.config;
-            var12 = var12.messages;
-            var12 = var12.gamePublisher;
-            var10['subtitle'] = var12;
-            var15 = _closure1_slot11;
-            var12 = {};
-            var12['quest'] = var18;
-            var12 = var15.bind(var13)(var12);
-            var10['bodyText'] = var12;
-            var10['themeColors'] = var4;
-            var12 = 12;
-            var15 = var20[var12];
-            var16 = var19.bind(var13)(var15);
-            var15 = var16.getQuestAsset;
-            var12 = var20[var12];
-            var12 = var19.bind(var13)(var12);
-            var12 = var12.QuestAssetType;
-            var12 = var12.GAME_TILE;
-            var12 = var15.bind(var16)(var18, var12, var17);
-            var12 = var12.url;
-            var10['thumbnailUrl'] = var12;
-            var24 = var11.bind(var13)(var10);
-            var25 = var1;
-            var10 = copyDataProperties(var25, var24);
-            if(var9) { _fun0003_ip = 760; continue _fun0003 }
- 687:
-            if(var6) { _fun0003_ip = 760; continue _fun0003 }
- 690:
+            var11 = _closure1_slot3;
+            var9 = var11.resolveAssetSource;
+            var12 = _closure1_slot1;
+            var7 = 13;
+            var7 = var13[var7];
+            var7 = var12.bind(var15)(var7);
+            var7 = var9.bind(var11)(var7);
+            var7 = var7.uri;
+            var1['thumbnailUrl'] = var7;
+            var1 = var4.bind(var15)(var1);
+            _fun0003_ip = 1140; continue _fun0003;
+ 531:
+            var4 = {};
+            var4['themeColors'] = var2;
+            var4['quest'] = var5;
+            var5 = var4.themeColors;
+            var20 = var4.quest;
+            var7 = var5.colors;
+            var9 = var20.userStatus;
+            var11 = var10 == var9;
+            var4 = undefined;
+            if(var11) { _fun0003_ip = 581; continue _fun0003 }
+ 575:
+            var4 = var9.enrolledAt;
+ 581:
+            var11 = var10 != var4;
+            var4 = var20.config;
+            var9 = var4.expiresAt;
+            var4 = global;
+            var4 = var4.Date;
+            var12 = var4.prototype;
+            var12 = Object.create(var12, {constructor: {value: var4}});
+            var28 = var12;
+            var4 = new var28[var4](var27);
+            var12 = var4 instanceof Object ? var4 : var12;
+            var4 = var12.toISOString;
+            var4 = var4.bind(var12)();
+            var9 = var9 < var4;
+            var12 = _closure1_slot4;
+            var4 = var12.getState;
+            var4 = var4.bind(var12)();
+            var13 = var4.theme;
             var12 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var10 = var9[var14];
+            var14 = _closure1_slot2;
+            var4 = 11;
+            var4 = var14[var4];
+            var12 = var12.bind(var15)(var4);
+            var4 = var12.isThemeDark;
+            var12 = var4.bind(var12)(var13);
+            var4 = _closure1_slot8;
+            if(var12) { _fun0003_ip = 704; continue _fun0003 }
+ 696:
+            var19 = var4.LIGHT;
+            _fun0003_ip = 710; continue _fun0003;
+ 704:
+            var19 = var4.DARK;
+ 710:
+            var4 = _closure1_slot5;
+            var4 = var4.questEnrollmentBlockedUntil;
+            var10 = var10 != var4;
+            var4 = {};
+            var13 = _closure1_slot10;
+            var12 = {};
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var16 = 7;
+            var14 = var22[var16];
+            var14 = var21.bind(var15)(var14);
+            var23 = var14.intl;
+            var18 = var23.formatToPlainString;
+            var14 = var22[var16];
+            var14 = var21.bind(var15)(var14);
+            var14 = var14.t;
+            var17 = var14.EAYZAg;
+            var14 = {};
+            var24 = var20.config;
+            var24 = var24.messages;
+            var24 = var24.questName;
+            var14['questName'] = var24;
+            var14 = var18.bind(var23)(var17, var14);
+            var12['titleText'] = var14;
+            var14 = var20.config;
+            var14 = var14.messages;
+            var14 = var14.gamePublisher;
+            var12['subtitle'] = var14;
+            var17 = _closure1_slot11;
+            var14 = {};
+            var14['quest'] = var20;
+            var14 = var17.bind(var15)(var14);
+            var12['bodyText'] = var14;
+            var12['themeColors'] = var5;
+            var14 = 12;
+            var17 = var22[var14];
+            var18 = var21.bind(var15)(var17);
+            var17 = var18.getQuestAsset;
+            var14 = var22[var14];
+            var14 = var21.bind(var15)(var14);
+            var14 = var14.QuestAssetType;
+            var14 = var14.GAME_TILE;
+            var14 = var17.bind(var18)(var20, var14, var19);
+            var14 = var14.url;
+            var12['thumbnailUrl'] = var14;
+            var26 = var13.bind(var15)(var12);
+            var27 = var4;
+            var12 = copyDataProperties(var27, var26);
+            if(var11) { _fun0003_ip = 1009; continue _fun0003 }
+ 936:
+            if(var9) { _fun0003_ip = 1009; continue _fun0003 }
+ 939:
+            var14 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var12 = var11[var16];
+            var12 = var14.bind(var15)(var12);
+            var13 = var12.intl;
+            var12 = var13.string;
+            var11 = var11[var16];
+            var11 = var14.bind(var15)(var11);
+            var11 = var11.t;
+            if(var10) { _fun0003_ip = 996; continue _fun0003 }
+ 983:
+            var10 = var11.kUQLMD;
             var10 = var12.bind(var13)(var10);
-            var11 = var10.intl;
-            var10 = var11.string;
-            var9 = var9[var14];
+            _fun0003_ip = 1007; continue _fun0003;
+ 996:
+            var11 = var11.th2+0t;
+            var10 = var12.bind(var13)(var11);
+ 1007:
+            _fun0003_ip = 1080; continue _fun0003;
+ 1009:
+            var14 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var12 = var11[var16];
+            var12 = var14.bind(var15)(var12);
+            var13 = var12.intl;
+            var12 = var13.string;
+            var11 = var11[var16];
+            var11 = var14.bind(var15)(var11);
+            var11 = var11.t;
+            if(var9) { _fun0003_ip = 1066; continue _fun0003 }
+ 1053:
+            var9 = var11.th2+0t;
             var9 = var12.bind(var13)(var9);
-            var9 = var9.t;
-            if(var7) { _fun0003_ip = 747; continue _fun0003 }
- 734:
-            var7 = var9.kUQLMD;
-            var7 = var10.bind(var11)(var7);
-            _fun0003_ip = 758; continue _fun0003;
- 747:
-            var9 = var9.th2+0t;
-            var7 = var10.bind(var11)(var9);
- 758:
-            _fun0003_ip = 831; continue _fun0003;
- 760:
-            var12 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var10 = var9[var14];
-            var10 = var12.bind(var13)(var10);
-            var11 = var10.intl;
-            var10 = var11.string;
-            var9 = var9[var14];
-            var9 = var12.bind(var13)(var9);
-            var9 = var9.t;
-            if(var6) { _fun0003_ip = 817; continue _fun0003 }
- 804:
-            var6 = var9.th2+0t;
-            var6 = var10.bind(var11)(var6);
-            _fun0003_ip = 828; continue _fun0003;
- 817:
-            var9 = var9.hvVgAQ;
-            var6 = var10.bind(var11)(var9);
- 828:
-            var7 = var6;
- 831:
-            var6 = 'acceptLabelText';
-            var1[var6] = var7;
-            var6 = var5.acceptBlurpleLabelBackgroundColor;
-            var5 = 'acceptLabelBackgroundColor';
-            var1[var5] = var6;
-            var4 = var4.colors;
-            var5 = var4.acceptLabelGreenColor;
-            var4 = 'acceptLabelColor';
-            var1[var4] = var5;
-            var5 = 8;
-            var4 = 'thumbnailCornerRadius';
-            var1[var4] = var5;
-            _fun0003_ip = 1102; continue _fun0003;
- 896:
+            _fun0003_ip = 1077; continue _fun0003;
+ 1066:
+            var11 = var11.hvVgAQ;
+            var9 = var12.bind(var13)(var11);
+ 1077:
+            var10 = var9;
+ 1080:
+            var9 = 'acceptLabelText';
+            var4[var9] = var10;
+            var9 = var7.acceptBlurpleLabelBackgroundColor;
+            var7 = 'acceptLabelBackgroundColor';
+            var4[var7] = var9;
+            var5 = var5.colors;
+            var7 = var5.acceptLabelGreenColor;
+            var5 = 'acceptLabelColor';
+            var4[var5] = var7;
+            var5 = 'thumbnailCornerRadius';
+            var4[var5] = var6;
+            var1 = var4;
+ 1140:
+            _fun0003_ip = 1351; continue _fun0003;
+ 1145:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
             var4 = 14;
@@ -431,9 +487,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.uri;
             var4['thumbnailUrl'] = var7;
             var1 = var5.bind(var6)(var4);
- 1102:
-            _fun0003_ip = 1313; continue _fun0003;
- 1107:
+ 1351:
+            _fun0003_ip = 1560; continue _fun0003;
+ 1356:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var4 = 14;
@@ -478,15 +534,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.uri;
             var4['thumbnailUrl'] = var7;
             var1 = var5.bind(var6)(var4);
- 1313:
-            _fun0003_ip = 1333; continue _fun0003;
- 1315:
+ 1560:
+            _fun0003_ip = 1580; continue _fun0003;
+ 1562:
             var4 = _closure1_slot10;
             var3 = {};
             var3['themeColors'] = var2;
             var2 = undefined;
             var1 = var4.bind(var2)(var3);
- 1333:
+ 1580:
             return var1;
         }
     };

@@ -584,8 +584,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var5.isEligibleForQuestsClientMonitoring;
                         var3 = 'QuestImpressionTracker';
                         var3 = var4.bind(var5)(var3);
-                        if(!var3) { _fun0007_ip = 331; continue _fun0007 }
- 198:
+                        if(!var3) { _fun0007_ip = 327; continue _fun0007 }
+ 194:
                         var4 = _closure1_slot1;
                         var9 = _closure1_slot2;
                         var3 = 17;
@@ -615,7 +615,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6[0] = var7;
                         var3['tags'] = var6;
                         var3 = var4.bind(var5)(var3);
- 331:
+ 327:
                         var3 = _closure3_slot0;
                         var2 = true;
                         var3['isRunning'] = var2;
@@ -672,12 +672,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var9.isArray;
                 var9 = var8.bind(var9)(var10);
                 var8 = var10;
-                if(var9) { _fun0002_ip = 286; continue _fun0002 }
- 275:
+                if(var9) { _fun0002_ip = 274; continue _fun0002 }
+ 263:
                 var9 = new Array(1);
                 var9[0] = var10;
                 var8 = var9;
- 286:
+ 274:
                 var3['quests'] = var8;
                 var3['trackGuildAndChannelMetadata'] = var7;
                 var3['triggeredByStatusChange'] = var6;
@@ -740,19 +740,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var4.bind(var7)();
                 var4 = _closure1_slot6;
                 var8 = var4.bind(var7)();
-                if(!var2) { _fun0009_ip = 581; continue _fun0009 }
+                if(!var2) { _fun0009_ip = 573; continue _fun0009 }
  124:
                 var2 = null;
-                if(!(var2 != var3)) { _fun0009_ip = 581; continue _fun0009 }
+                if(!(var2 != var3)) { _fun0009_ip = 573; continue _fun0009 }
  133:
                 var3 = var3.is_campaign_ias_enabled;
-                if(!var3) { _fun0009_ip = 581; continue _fun0009 }
+                if(!var3) { _fun0009_ip = 573; continue _fun0009 }
  147:
-                if(!var1) { _fun0009_ip = 581; continue _fun0009 }
+                if(!var1) { _fun0009_ip = 573; continue _fun0009 }
  153:
-                if(!(var7 !== var9)) { _fun0009_ip = 581; continue _fun0009 }
+                if(!(var7 !== var9)) { _fun0009_ip = 573; continue _fun0009 }
  160:
-                if(!(var7 !== var8)) { _fun0009_ip = 581; continue _fun0009 }
+                if(!(var7 !== var8)) { _fun0009_ip = 573; continue _fun0009 }
  167:
                 var3 = _closure1_slot10;
                 var1 = var3.getGuildId;
@@ -839,8 +839,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var9 = var10.bind(var11)(var9);
                 var4['guilds'] = var9;
-                if(!(var2 != var3)) { _fun0009_ip = 311; continue _fun0009 }
- 271:
+                if(!(var2 != var3)) { _fun0009_ip = 303; continue _fun0009 }
+ 267:
                 var10 = var8.bind(var7)();
                 var9 = var10.map;
                 var8 = function(arg1) {
@@ -881,33 +881,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var6 = var8.bind(var9)(var6);
-                _fun0009_ip = 315; continue _fun0009;
- 311:
+                _fun0009_ip = 307; continue _fun0009;
+ 303:
                 var6 = new Array(0);
- 315:
+ 307:
                 var4['channels'] = var6;
-                if(!(var2 != var1)) { _fun0009_ip = 330; continue _fun0009 }
- 324:
+                if(!(var2 != var1)) { _fun0009_ip = 322; continue _fun0009 }
+ 316:
                 var4['selected_guild_id'] = var1;
- 330:
+ 322:
                 var1 = var2 == var3;
                 var6 = undefined;
-                if(var1) { _fun0009_ip = 345; continue _fun0009 }
- 339:
+                if(var1) { _fun0009_ip = 337; continue _fun0009 }
+ 331:
                 var6 = var3.banner;
- 345:
+ 337:
                 var1 = null;
-                if(!(var2 !== var6)) { _fun0009_ip = 440; continue _fun0009 }
- 351:
+                if(!(var2 !== var6)) { _fun0009_ip = 432; continue _fun0009 }
+ 343:
                 var8 = var2 == var3;
                 var6 = undefined;
-                if(var8) { _fun0009_ip = 366; continue _fun0009 }
- 360:
+                if(var8) { _fun0009_ip = 358; continue _fun0009 }
+ 352:
                 var6 = var3.banner;
- 366:
+ 358:
                 var1 = null;
-                if(!(var7 !== var6)) { _fun0009_ip = 440; continue _fun0009 }
- 372:
+                if(!(var7 !== var6)) { _fun0009_ip = 432; continue _fun0009 }
+ 364:
                 var6 = _closure1_slot1;
                 var8 = _closure1_slot2;
                 var5 = 21;
@@ -923,19 +923,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6.bind(var7)(var5, var3);
                 var5 = var2 != var3;
                 var1 = null;
-                if(!var5) { _fun0009_ip = 440; continue _fun0009 }
- 437:
+                if(!var5) { _fun0009_ip = 432; continue _fun0009 }
+ 429:
                 var1 = var3;
- 440:
-                if(!(var2 !== var1)) { _fun0009_ip = 452; continue _fun0009 }
- 444:
+ 432:
+                if(!(var2 !== var1)) { _fun0009_ip = 444; continue _fun0009 }
+ 436:
                 var4['selected_guild_banner_url'] = var1;
- 452:
+ 444:
                 var1 = var4.guilds;
                 var1 = var1.length;
                 var5 = 100;
-                if(!(var1 > var5)) { _fun0009_ip = 503; continue _fun0009 }
- 470:
+                if(!(var1 > var5)) { _fun0009_ip = 495; continue _fun0009 }
+ 462:
                 var3 = var4.guilds;
                 var2 = var3.slice;
                 var1 = 0;
@@ -943,11 +943,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4['guilds'] = var1;
                 var1 = true;
                 var4['truncated'] = var1;
- 503:
+ 495:
                 var1 = var4.channels;
                 var1 = var1.length;
-                if(!(var1 > var5)) { _fun0009_ip = 551; continue _fun0009 }
- 518:
+                if(!(var1 > var5)) { _fun0009_ip = 543; continue _fun0009 }
+ 510:
                 var3 = var4.channels;
                 var2 = var3.slice;
                 var1 = 0;
@@ -955,7 +955,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4['channels'] = var1;
                 var1 = true;
                 var4['truncated'] = var1;
- 551:
+ 543:
                 var1 = {};
                 var2 = global;
                 var3 = var2.JSON;
@@ -963,7 +963,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.bind(var3)(var4);
                 var1['brand_safety_context'] = var2;
                 return var1;
- 581:
+ 573:
                 var1 = null;
                 return var1;
             }
@@ -999,7 +999,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(var2) { _fun0012_ip = 31; continue _fun0012 }
  24:
             var5 = var3.id;
-            _fun0012_ip = 74; continue _fun0012;
+            _fun0012_ip = 72; continue _fun0012;
  31:
             var2 = var3.sort;
             var4 = var2.bind(var3)();
@@ -1013,7 +1013,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.join;
             var2 = '_';
             var5 = var3.bind(var4)(var2);
- 74:
+ 72:
             var1 = var1.HermesInternal;
             var4 = var1.concat;
             var3 = '';

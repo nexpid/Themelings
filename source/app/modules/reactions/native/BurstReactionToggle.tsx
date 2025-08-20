@@ -148,27 +148,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var9[var4];
                     var4 = var8.bind(var5)(var4);
                     var8 = var4.colors;
-                    if(var2) { _fun0002_ip = 116; continue _fun0002 }
- 108:
+                    if(var2) { _fun0002_ip = 118; continue _fun0002 }
+ 110:
                     var4 = var8.INPUT_BACKGROUND;
-                    _fun0002_ip = 122; continue _fun0002;
- 116:
+                    _fun0002_ip = 124; continue _fun0002;
+ 118:
                     var4 = var8.BG_BRAND;
- 122:
+ 124:
                     var4 = var6.bind(var7)(var4);
                     var6 = null;
                     var6 = var6 != var4;
                     var8 = '';
-                    if(!var6) { _fun0002_ip = 143; continue _fun0002 }
- 140:
+                    if(!var6) { _fun0002_ip = 145; continue _fun0002 }
+ 142:
                     var8 = var4;
- 143:
+ 145:
                     var _closure3_slot1 = var8;
                     var6 = 0;
-                    if(!var2) { _fun0002_ip = 158; continue _fun0002 }
- 152:
+                    if(!var2) { _fun0002_ip = 160; continue _fun0002 }
+ 154:
                     var6 = 360;
- 158:
+ 160:
                     var _closure3_slot2 = var6;
                     var4 = _closure1_slot0;
                     var10 = _closure1_slot2;
@@ -301,15 +301,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var15[var5];
             var5 = var7.bind(var4)(var5);
             var7 = var5.t;
-            if(var6) { _fun0001_ip = 228; continue _fun0001 }
- 213:
+            if(var6) { _fun0001_ip = 232; continue _fun0001 }
+ 217:
             var5 = var7.buV4am;
             var5 = var11.bind(var14)(var5);
-            _fun0001_ip = 241; continue _fun0001;
- 228:
+            _fun0001_ip = 245; continue _fun0001;
+ 232:
             var7 = var7.5cRA/f;
             var5 = var11.bind(var14)(var7);
- 241:
+ 245:
             var1['accessibilityLabel'] = var5;
             var5 = 'switch';
             var1['accessibilityRole'] = var5;

@@ -1060,7 +1060,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var2 = arg1;
             var1 = null;
-            if(!(var2 != var1)) { _fun0006_ip = 448; continue _fun0006 }
+            if(!(var2 != var1)) { _fun0006_ip = 456; continue _fun0006 }
  14:
             var13 = function onClose() {
                 var3 = _closure1_slot1;
@@ -1202,7 +1202,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['headerBackTitle'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             return var1;
- 448:
+ 456:
             var16 = "Cannot destructure 'undefined' or 'null'.";
             var17 = var2;
             var1 = throwTypeError(var17, var16);

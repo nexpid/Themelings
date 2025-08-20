@@ -56,12 +56,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function(arg1) {
             var2 = arg1;
             var1 = {};
-            var5 = var1;
-            var4 = var2;
-            var3 = copyDataProperties(var5, var4);
             var3 = var2.game_id;
-            var2 = 'applicationId';
-            var1[var2] = var3;
+            var1['applicationId'] = var3;
+            var3 = var2.comment;
+            var1['comment'] = var3;
+            var2 = var2.tags;
+            var1['tags'] = var2;
             return var1;
         };
         var2 = var2.bind(var5)(var1);

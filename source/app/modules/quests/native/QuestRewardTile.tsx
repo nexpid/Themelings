@@ -156,14 +156,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8.bind(var4)(var3, var7);
             var8 = var3.name;
             var7 = null;
-            if(!(var7 == var8)) { _fun0001_ip = 205; continue _fun0001 }
- 192:
+            if(!(var7 == var8)) { _fun0001_ip = 201; continue _fun0001 }
+ 188:
             var7 = var3.messages;
             var8 = var7.name;
-            _fun0001_ip = 210; continue _fun0001;
- 205:
+            _fun0001_ip = 206; continue _fun0001;
+ 201:
             var8 = var3.name;
- 210:
+ 206:
             var7 = _closure1_slot5;
             var3 = new Array(1);
             var3[0] = var2;
@@ -317,13 +317,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var16;
             var8[2] = var15;
             var1['style'] = var8;
-            if(!var7) { _fun0001_ip = 508; continue _fun0001 }
- 496:
+            if(!var7) { _fun0001_ip = 498; continue _fun0001 }
+ 486:
             var7 = var14.isAnimated;
-            if(!var7) { _fun0001_ip = 508; continue _fun0001 }
- 505:
-            if(var5) { _fun0001_ip = 562; continue _fun0001 }
- 508:
+            if(!var7) { _fun0001_ip = 498; continue _fun0001 }
+ 495:
+            if(var5) { _fun0001_ip = 552; continue _fun0001 }
+ 498:
             var8 = _closure1_slot11;
             var7 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -337,8 +337,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var9.image;
             var5['style'] = var15;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 683; continue _fun0001;
- 562:
+            _fun0001_ip = 673; continue _fun0001;
+ 552:
             var8 = _closure1_slot11;
             var7 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -356,20 +356,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = true;
             var6['poster'] = var13;
             var10 = !var10;
-            if(var10) { _fun0001_ip = 652; continue _fun0001 }
- 649:
+            if(var10) { _fun0001_ip = 642; continue _fun0001 }
+ 639:
             var10 = var12;
- 652:
-            if(var10) { _fun0001_ip = 658; continue _fun0001 }
- 655:
+ 642:
+            if(var10) { _fun0001_ip = 648; continue _fun0001 }
+ 645:
             var10 = var11;
- 658:
+ 648:
             var6['paused'] = var10;
             var10 = 'mix';
             var6['mixWithOthers'] = var10;
             var6['muted'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 683:
+ 673:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

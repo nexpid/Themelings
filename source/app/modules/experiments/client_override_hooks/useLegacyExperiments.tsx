@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var1];
             var1 = undefined;
             var1 = var4.bind(var1)(var3);
-            var1 = var1.Variant_Type;
+            var1 = var1.Variation_Type;
             var1 = var1.TREATMENT;
             _fun0001_ip = 104; continue _fun0001;
  70:
@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4[var3];
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
-            var3 = var3.Variant_Type;
+            var3 = var3.Variation_Type;
             var1 = var3.UNSPECIFIED;
  104:
             _fun0001_ip = 140; continue _fun0001;
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
-            var2 = var2.Variant_Type;
+            var2 = var2.Variation_Type;
             var1 = var2.CONTROL;
  140:
             return var1;

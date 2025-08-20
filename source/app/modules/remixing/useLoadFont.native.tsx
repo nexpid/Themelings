@@ -244,10 +244,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var9)(var7, var6);
             var5['current'] = var2;
             var4['current'] = var1;
-            if(!(var3 !== var2)) { _fun0002_ip = 202; continue _fun0002 }
- 199:
+            if(!(var3 !== var2)) { _fun0002_ip = 210; continue _fun0002 }
+ 207:
             var1 = var2;
- 202:
+ 210:
             return var1;
         }
     };

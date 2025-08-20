@@ -605,7 +605,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = arg1;
                     var11 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 334; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 338; continue _fun0005 }
  16:
                     var7 = var12;
                     var10 = arg2;
@@ -637,13 +637,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var11.bind(var12)(var10);
                     var2['url'] = var10;
                     var2 = var3.bind(var9)(var2);
-                    SaveGenerator(address=152);
- 150:
+                    SaveGenerator(address=156);
+ 154:
                     return var2;
- 152:
+ 156:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 230; continue _fun0005 }
- 158:
+                    if(var3) { _fun0005_ip = 234; continue _fun0005 }
+ 162:
                     var9 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var3 = var3[var8];
@@ -660,11 +660,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['libraryApplications'] = var11;
                     var3 = var9.bind(var10)(var3);
                     var3 = var2.body;
- 227: // try_end0
+ 231: // try_end0
                     return var3;
- 230:
+ 234:
                     return var2;
- 233: // catch_target0
+ 237: // catch_target0
                     CatchBlockStart(arg_register=9);
                     var9 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -690,7 +690,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['error'] = var2;
                     var3 = var4.bind(var5)(var3);
                     throw var2;
- 334:
+ 338:
                     return var1;
                 }
             };

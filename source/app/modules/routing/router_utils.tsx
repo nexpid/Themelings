@@ -1,11 +1,11 @@
 // app/modules/routing/router_utils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
+    var7 = require;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
-    var1 = function shouldNavigate() {
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var8;
+    var5 = function shouldNavigate() {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;
         var2 = 3;
@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = !var1;
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot11 = var5;
     var1 = function maybeExternallyNavigate(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -159,47 +159,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var _closure1_slot13 = var4;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var5 = {};
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var6 = {};
     var1 = true;
-    var5['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = var9.bind(var10)(var3, var1, var6);
     var1 = 0;
-    var5 = var7[var1];
+    var6 = var8[var1];
     var1 = undefined;
-    var5 = var6.bind(var1)(var5);
-    var8 = var5.Routes;
-    var _closure1_slot5 = var8;
-    var8 = var5.PageAnalyticsLocations;
-    var _closure1_slot6 = var8;
-    var8 = var5.ComponentActions;
-    var _closure1_slot7 = var8;
-    var5 = var5.RelativeMarketingURLs;
-    var8 = 1;
-    var9 = var7[var8];
-    var8 = metroImportDefault;
-    var10 = var8.bind(var1)(var9);
-    var8 = var10.prototype;
-    var9 = Object.create(var8, {constructor: {value: var10}});
-    var13 = 'Routing/Utils';
-    var14 = var9;
-    var8 = new var14[var10](var13, var12);
-    var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot8 = var8;
-    var8 = var5.DEVELOPER_PORTAL;
-    var5 = new Array(1);
-    var5[0] = var8;
-    var _closure1_slot9 = var5;
-    var5 = 2;
-    var5 = var7[var5];
-    var8 = var6.bind(var1)(var5);
-    var5 = var8.createMemoryHistory;
-    var9 = var5.bind(var8)();
-    var _closure1_slot2 = var9;
-    var8 = var9.listen;
-    var5 = function(arg1, arg2) {
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.Routes;
+    var _closure1_slot5 = var9;
+    var9 = var6.PageAnalyticsLocations;
+    var _closure1_slot6 = var9;
+    var9 = var6.ComponentActions;
+    var _closure1_slot7 = var9;
+    var6 = var6.RelativeMarketingURLs;
+    var9 = 1;
+    var10 = var8[var9];
+    var9 = metroImportDefault;
+    var11 = var9.bind(var1)(var10);
+    var9 = var11.prototype;
+    var10 = Object.create(var9, {constructor: {value: var11}});
+    var14 = 'Routing/Utils';
+    var15 = var10;
+    var9 = new var15[var11](var14, var13);
+    var9 = var9 instanceof Object ? var9 : var10;
+    var _closure1_slot8 = var9;
+    var9 = var6.DEVELOPER_PORTAL;
+    var6 = new Array(1);
+    var6[0] = var9;
+    var _closure1_slot9 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var9 = var7.bind(var1)(var6);
+    var6 = var9.createMemoryHistory;
+    var10 = var6.bind(var9)();
+    var _closure1_slot2 = var10;
+    var9 = var10.listen;
+    var6 = function(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var2 = 'REPLACE';
@@ -214,14 +214,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var5 = var8.bind(var9)(var5);
-    var _closure1_slot10 = var5;
-    var5 = 5;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/routing/router_utils.tsx';
-    var5 = var6.bind(var7)(var5);
+    var6 = var9.bind(var10)(var6);
+    var _closure1_slot10 = var6;
+    var6 = 5;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/routing/router_utils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['shouldNavigate'] = var5;
     var3['transitionTo'] = var4;
     var4 = function transitionToGuild(arg1, arg2, arg3, arg4) {
         var6 = arg1;

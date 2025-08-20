@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  49:
             var2 = var3.@@iterator;
  55:
-            if(var2) { _fun0001_ip = 343; continue _fun0001 }
+            if(var2) { _fun0001_ip = 345; continue _fun0001 }
  61:
             var6 = var5.Array;
             var4 = var6.isArray;
@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             return var1;
- 343:
+ 345:
             var1 = var2.call;
             var3 = var1.bind(var2)(var3);
             var2 = var3.next;
@@ -196,7 +196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.isEntryExpired;
             var2 = var1.bind(var2)(var4);
             var1 = null;
-            if(var2) { _fun0004_ip = 166; continue _fun0004 }
+            if(var2) { _fun0004_ip = 168; continue _fun0004 }
  53:
             var7 = _closure1_slot0;
             var2 = _closure1_slot1;
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7.isEntryActive;
             var7 = var2.bind(var7)(var4);
             var2 = undefined;
-            if(!var7) { _fun0004_ip = 163; continue _fun0004 }
+            if(!var7) { _fun0004_ip = 165; continue _fun0004 }
  86:
             var7 = var4.author_type;
             var9 = _closure1_slot0;
@@ -216,7 +216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.ContentInventoryAuthorType;
             var5 = var5.USER;
             var2 = undefined;
-            if(!(var7 === var5)) { _fun0004_ip = 163; continue _fun0004 }
+            if(!(var7 === var5)) { _fun0004_ip = 165; continue _fun0004 }
  130:
             var5 = var6.getActivities;
             var4 = var4.author_id;
@@ -287,9 +287,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var2 = var4.bind(var5)(var3);
- 163:
+ 165:
             var1 = var2;
- 166:
+ 168:
             return var1;
         }
     };

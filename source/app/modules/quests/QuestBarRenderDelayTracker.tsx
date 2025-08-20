@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot1 = var4;
                 var3 = var2.isEligible;
                 var3 = var3.bind(var2)();
-                if(!var3) { _fun0003_ip = 101; continue _fun0003 }
+                if(!var3) { _fun0003_ip = 99; continue _fun0003 }
  29:
                 var3 = var2.clearTracking;
                 var3 = var3.bind(var2)();
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = 30000;
                 var1 = var5.bind(var4)(var3, var1);
                 var2['timeoutTimer'] = var1;
- 101:
+ 99:
                 var1 = undefined;
                 return var1;
             }

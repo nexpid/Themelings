@@ -32,6 +32,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['GENERIC_ERROR'] = var1;
     var1 = 'REPORT_TO_MOD_SUCCESS';
     var5['REPORT_TO_MOD_SUCCESS'] = var1;
+    var1 = 'SAFETY_FEEDBACK_SUCCESS';
+    var5['SAFETY_FEEDBACK_SUCCESS'] = var1;
     var4 = {};
     var1 = 'sensitive_content_filter_age_verification_notice';
     var4['SENSITIVE_CONTENT_FILTER_AGE_VERIFICATION_NOTICE'] = var1;

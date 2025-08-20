@@ -46,11 +46,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getSetting;
             var5 = var3.bind(var4)();
             var3 = null;
-            if(!(var3 != var5)) { _fun0001_ip = 356; continue _fun0001 }
+            if(!(var3 != var5)) { _fun0001_ip = 358; continue _fun0001 }
  52:
             var6 = var5.expiresAtMs;
             var4 = '';
-            if(!(var4 !== var6)) { _fun0001_ip = 356; continue _fun0001 }
+            if(!(var4 !== var6)) { _fun0001_ip = 358; continue _fun0001 }
  69:
             var4 = global;
             var6 = var4.Number;
@@ -58,10 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var7)(var5);
             var5 = var4.isNaN;
             var5 = var5.bind(var7)(var6);
-            if(var5) { _fun0001_ip = 344; continue _fun0001 }
+            if(var5) { _fun0001_ip = 346; continue _fun0001 }
  105:
             var5 = 0;
-            if(!(var5 !== var6)) { _fun0001_ip = 332; continue _fun0001 }
+            if(!(var5 !== var6)) { _fun0001_ip = 334; continue _fun0001 }
  114:
             var5 = var4.Date;
             var8 = var5.prototype;
@@ -119,21 +119,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var4.bind(var5)(var2);
-            if(!(var3 == var2)) { _fun0001_ip = 330; continue _fun0001 }
- 320:
+            if(!(var3 == var2)) { _fun0001_ip = 332; continue _fun0001 }
+ 322:
             var3 = _closure1_slot2;
             var2 = var3.TODAY;
- 330:
-            return var2;
  332:
+            return var2;
+ 334:
             var2 = _closure1_slot2;
             var2 = var2.DONT_CLEAR;
             return var2;
- 344:
+ 346:
             var2 = _closure1_slot2;
             var2 = var2.TODAY;
             return var2;
- 356:
+ 358:
             var1 = _closure1_slot2;
             var1 = var1.TODAY;
             return var1;

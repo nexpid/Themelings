@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 345; continue _fun0001 }
+                    if(var4) { _fun0001_ip = 343; continue _fun0001 }
  15:
                     var9 = var2.nextStatus;
                     var _closure4_slot0 = var9;
@@ -32,7 +32,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var4;
  53:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 342; continue _fun0001 }
+                    if(var5) { _fun0001_ip = 340; continue _fun0001 }
  62:
                     var6 = null;
                     if(!(var6 == var8)) { _fun0001_ip = 85; continue _fun0001 }
@@ -92,13 +92,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         }
                     };
                     var3 = var13.bind(var14)(var10, var3, var11);
-                    SaveGenerator(address=163);
- 161:
+                    SaveGenerator(address=161);
+ 159:
                     return var3;
- 163:
+ 161:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=9);
-                    if(var10) { _fun0001_ip = 339; continue _fun0001 }
- 172:
+                    if(var10) { _fun0001_ip = 337; continue _fun0001 }
+ 170:
                     var10 = {};
                     var10['next_status'] = var9;
                     var10['prev_status'] = var8;
@@ -108,26 +108,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var18 = var10;
                     var8 = copyDataProperties(var18, var17);
                     var9 = var10;
-                    if(!(var6 != var12)) { _fun0001_ip = 263; continue _fun0001 }
- 218:
+                    if(!(var6 != var12)) { _fun0001_ip = 261; continue _fun0001 }
+ 216:
                     var8 = {};
                     var18 = var8;
                     var17 = var10;
                     var10 = copyDataProperties(var18, var17);
                     var10 = var6 != var12;
                     var11 = null;
-                    if(!var10) { _fun0001_ip = 249; continue _fun0001 }
- 239:
+                    if(!var10) { _fun0001_ip = 247; continue _fun0001 }
+ 237:
                     var10 = 60000;
                     var11 = var12 / var10;
- 249:
+ 247:
                     var10 = 'expire_duration_minutes';
                     var8[var10] = var11;
                     var9 = var8;
- 263:
+ 261:
                     var8 = var9;
-                    if(!(var6 != var7)) { _fun0001_ip = 295; continue _fun0001 }
- 270:
+                    if(!(var6 != var7)) { _fun0001_ip = 293; continue _fun0001 }
+ 268:
                     var6 = {};
                     var18 = var6;
                     var17 = var9;
@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var17 = var7;
                     var7 = copyDataProperties(var18, var17);
                     var8 = var6;
- 295:
+ 293:
                     var7 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var6 = 6;
@@ -147,11 +147,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.USER_STATUS_UPDATED;
                     var5 = var6.bind(var7)(var5, var8);
                     return var4;
- 339:
+ 337:
                     return var3;
- 342:
+ 340:
                     return var2;
- 345:
+ 343:
                     return var1;
                 }
             };

@@ -100,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var9;
                 var6 = copyDataProperties(var14, var13, var12);
                 var _closure2_slot3 = var6;
-                if(!(var5 == var7)) { _fun0002_ip = 272; continue _fun0002 }
+                if(!(var5 == var7)) { _fun0002_ip = 266; continue _fun0002 }
  93:
                 var7 = _closure1_slot3;
                 var10 = var7.useLayoutEffect;
@@ -240,7 +240,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = undefined;
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;
- 272:
+ 266:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;

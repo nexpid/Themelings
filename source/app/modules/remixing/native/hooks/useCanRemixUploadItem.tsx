@@ -58,29 +58,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var1 = var3 == var4;
             var12 = undefined;
-            if(var1) { _fun0001_ip = 101; continue _fun0001 }
- 96:
+            if(var1) { _fun0001_ip = 103; continue _fun0001 }
+ 98:
             var12 = var4.width;
- 101:
+ 103:
             var13 = var3 != var12;
             var11 = 0;
-            if(!var13) { _fun0001_ip = 113; continue _fun0001 }
- 110:
+            if(!var13) { _fun0001_ip = 115; continue _fun0001 }
+ 112:
             var11 = var12;
- 113:
+ 115:
             var2['width'] = var11;
             var12 = var3 == var4;
             var11 = undefined;
-            if(var12) { _fun0001_ip = 131; continue _fun0001 }
- 126:
+            if(var12) { _fun0001_ip = 133; continue _fun0001 }
+ 128:
             var11 = var4.height;
- 131:
+ 133:
             var12 = var3 != var11;
             var1 = 0;
-            if(!var12) { _fun0001_ip = 143; continue _fun0001 }
- 140:
+            if(!var12) { _fun0001_ip = 145; continue _fun0001 }
+ 142:
             var1 = var11;
- 143:
+ 145:
             var2['height'] = var1;
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -90,8 +90,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.CHAT_INPUT;
             var1 = var7.bind(var9)(var10, var2, var1);
             var2 = var3 != var4;
-            if(!var2) { _fun0001_ip = 237; continue _fun0001 }
- 187:
+            if(!var2) { _fun0001_ip = 239; continue _fun0001 }
+ 189:
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var6 = 4;
@@ -102,21 +102,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.filename;
             var4 = var4.mimeType;
             var2 = var8.bind(var9)(var7, var6, var4);
- 237:
-            if(!var1) { _fun0001_ip = 260; continue _fun0001 }
- 240:
+ 239:
+            if(!var1) { _fun0001_ip = 262; continue _fun0001 }
+ 242:
             var3 = var3 != var5;
-            if(!var3) { _fun0001_ip = 257; continue _fun0001 }
- 247:
+            if(!var3) { _fun0001_ip = 259; continue _fun0001 }
+ 249:
             var4 = var5.isForumLikeChannel;
             var3 = var4.bind(var5)();
- 257:
+ 259:
             var1 = !var3;
- 260:
-            if(!var1) { _fun0001_ip = 266; continue _fun0001 }
- 263:
+ 262:
+            if(!var1) { _fun0001_ip = 268; continue _fun0001 }
+ 265:
             var1 = var2;
- 266:
+ 268:
             return var1;
         }
     };

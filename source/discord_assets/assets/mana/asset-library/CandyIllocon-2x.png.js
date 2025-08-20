@@ -1,4 +1,4 @@
-// discord_assets/assets/mana/asset-library/AppIllocon-2x.png.js
+// discord_assets/assets/mana/asset-library/CandyIllocon-2x.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/mana/asset-library/AppIllocon-2x.png.js';
+    var2 = '../discord_assets/assets/mana/asset-library/CandyIllocon-2x.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/85d8264f666b62efdabc6bb856326f6045859cc5f14fd146b030b13c8195e3e6.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/904259fdf9681cd641d3679f51dd23c0a53e1faac3db0e4e9a8e1b0451291f54.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 647;
+    var4 = 596;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

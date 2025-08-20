@@ -3906,49 +3906,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = arg1;
                 var3 = this;
                 var1 = arg2;
-                if(!var1) { _fun0065_ip = 91; continue _fun0065 }
+                if(!var1) { _fun0065_ip = 87; continue _fun0065 }
  12:
                 var5 = var3._lastMessageTimestamp;
                 var4 = _closure1_slot74;
-                if(!(!(var5 < var4))) { _fun0065_ip = 346; continue _fun0065 }
+                if(!(!(var5 < var4))) { _fun0065_ip = 334; continue _fun0065 }
  32:
                 var4 = _closure1_slot38;
                 var1 = var4.isChannelRecordOrParentOptedIn;
                 var1 = var1.bind(var4)(var2);
-                if(var1) { _fun0065_ip = 91; continue _fun0065 }
+                if(var1) { _fun0065_ip = 87; continue _fun0065 }
  50:
                 var1 = var3.hasRecentlyVisitedAndRead;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0065_ip = 91; continue _fun0065 }
+                if(var1) { _fun0065_ip = 87; continue _fun0065 }
  63:
                 var4 = var3.mentionCount;
                 var1 = 0;
-                if(!(var4 <= var1)) { _fun0065_ip = 91; continue _fun0065 }
+                if(!(var4 <= var1)) { _fun0065_ip = 87; continue _fun0065 }
  75:
                 var1 = {'mentionCount': 0, 'unread': false, 'isMentionLowImportance': false};
                 return var1;
- 91:
+ 87:
                 var1 = 'basicPermissions';
                 var4 = var1 in var2;
-                if(var4) { _fun0065_ip = 179; continue _fun0065 }
- 105:
+                if(var4) { _fun0065_ip = 171; continue _fun0065 }
+ 101:
                 var7 = _closure1_slot12;
                 var6 = var7.isChannelGated;
                 var5 = var3.guildId;
                 var4 = var3.channelId;
                 var4 = var6.bind(var7)(var5, var4);
-                if(!var4) { _fun0065_ip = 247; continue _fun0065 }
- 134:
+                if(!var4) { _fun0065_ip = 235; continue _fun0065 }
+ 130:
                 var6 = _closure1_slot35;
                 var5 = var6.can;
                 var4 = _closure1_slot49;
                 var4 = var4.VIEW_CHANNEL;
                 var4 = var5.bind(var6)(var4, var2);
-                if(var4) { _fun0065_ip = 247; continue _fun0065 }
- 163:
+                if(var4) { _fun0065_ip = 235; continue _fun0065 }
+ 159:
                 var4 = {'mentionCount': 0, 'unread': false, 'isMentionLowImportance': false};
                 return var4;
- 179:
+ 171:
                 var6 = _closure1_slot1;
                 var5 = _closure1_slot2;
                 var4 = 48;
@@ -3960,17 +3960,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot48;
                 var1 = var1.VIEW_CHANNEL;
                 var1 = var4.bind(var5)(var2, var1);
-                if(var1) { _fun0065_ip = 247; continue _fun0065 }
- 231:
+                if(var1) { _fun0065_ip = 235; continue _fun0065 }
+ 223:
                 var1 = {'mentionCount': 0, 'unread': false, 'isMentionLowImportance': false};
                 return var1;
- 247:
+ 235:
                 var1 = arg4;
-                if(var1) { _fun0065_ip = 310; continue _fun0065 }
- 253:
+                if(var1) { _fun0065_ip = 298; continue _fun0065 }
+ 241:
                 var1 = arg5;
-                if(var1) { _fun0065_ip = 310; continue _fun0065 }
- 259:
+                if(var1) { _fun0065_ip = 298; continue _fun0065 }
+ 247:
                 var1 = {};
                 var2 = var3.mentionCount;
                 var1['mentionCount'] = var2;
@@ -3981,8 +3981,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['unread'] = var2;
                 var2 = var3.isMentionLowImportance;
                 var1['isMentionLowImportance'] = var2;
-                _fun0065_ip = 344; continue _fun0065;
- 310:
+                _fun0065_ip = 332; continue _fun0065;
+ 298:
                 var2 = {};
                 var4 = var3.mentionCount;
                 var2['mentionCount'] = var4;
@@ -3991,9 +3991,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.isMentionLowImportance;
                 var2['isMentionLowImportance'] = var3;
                 var1 = var2;
- 344:
+ 332:
                 return var1;
- 346:
+ 334:
                 var1 = {'mentionCount': 0, 'unread': false, 'isMentionLowImportance': false};
                 return var1;
             }
@@ -7592,7 +7592,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = _closure1_slot36;
             var8 = var9.isBlockedOrIgnoredForMessage;
             var8 = var8.bind(var9)(var4);
-            if(var8) { _fun0135_ip = 1246; continue _fun0135 }
+            if(var8) { _fun0135_ip = 1226; continue _fun0135 }
  700:
             var9 = var4.type;
             var8 = _closure1_slot50;
@@ -7607,7 +7607,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  733:
             var6 = _closure1_slot47;
             var6 = var6.GROUP_DM;
-            if(!(var8 !== var6)) { _fun0135_ip = 1246; continue _fun0135 }
+            if(!(var8 !== var6)) { _fun0135_ip = 1226; continue _fun0135 }
  750:
             if(!(var5 != var3)) { _fun0135_ip = 857; continue _fun0135 }
  754:
@@ -7632,7 +7632,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.bind(var12)(var10);
             var6['suppressRoles'] = var10;
             var6 = var8.bind(var9)(var6);
-            if(var6) { _fun0135_ip = 1109; continue _fun0135 }
+            if(var6) { _fun0135_ip = 1093; continue _fun0135 }
  857:
             var9 = _closure1_slot29;
             var8 = var9.getChannel;
@@ -7640,39 +7640,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var8.bind(var9)(var6);
             var6 = _closure1_slot88;
             var6 = var6.bind(var1)(var10);
-            if(var6) { _fun0135_ip = 1093; continue _fun0135 }
+            if(var6) { _fun0135_ip = 1081; continue _fun0135 }
  891:
             var6 = _closure1_slot38;
             var6 = var6.mentionOnAllMessages;
-            if(!var6) { _fun0135_ip = 1061; continue _fun0135 }
+            if(!var6) { _fun0135_ip = 1057; continue _fun0135 }
  909:
-            if(!(var5 != var10)) { _fun0135_ip = 1061; continue _fun0135 }
+            if(!(var5 != var10)) { _fun0135_ip = 1057; continue _fun0135 }
  916:
             var6 = var10.isThread;
             var6 = var6.bind(var10)();
-            if(var6) { _fun0135_ip = 1016; continue _fun0135 }
+            if(var6) { _fun0135_ip = 1012; continue _fun0135 }
  929:
             var6 = var10.isVocal;
             var6 = var6.bind(var10)();
-            if(var6) { _fun0135_ip = 1061; continue _fun0135 }
+            if(var6) { _fun0135_ip = 1057; continue _fun0135 }
  942:
             var11 = _closure1_slot38;
             var9 = var11.isChannelMuted;
             var8 = var10.guild_id;
             var6 = var10.id;
             var6 = var9.bind(var11)(var8, var6);
-            if(var6) { _fun0135_ip = 1061; continue _fun0135 }
+            if(var6) { _fun0135_ip = 1057; continue _fun0135 }
  971:
             var8 = _closure1_slot38;
             var6 = var8.resolvedMessageNotifications;
             var8 = var6.bind(var8)(var10);
             var6 = _closure1_slot53;
             var6 = var6.ALL_MESSAGES;
-            if(!(var8 === var6)) { _fun0135_ip = 1061; continue _fun0135 }
+            if(!(var8 === var6)) { _fun0135_ip = 1057; continue _fun0135 }
  1000:
             var6 = {'shouldMention': true, 'isMentionLowImportance': true};
-            _fun0135_ip = 1123; continue _fun0135;
- 1016:
+            _fun0135_ip = 1103; continue _fun0135;
+ 1012:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
             var8 = 59;
@@ -7682,29 +7682,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var8.bind(var9)(var10);
             var8 = _closure1_slot61;
             var8 = var8.ALL_MESSAGES;
-            if(!(var9 !== var8)) { _fun0135_ip = 1077; continue _fun0135 }
- 1061:
+            if(!(var9 !== var8)) { _fun0135_ip = 1069; continue _fun0135 }
+ 1057:
             var6 = {'shouldMention': false, 'isMentionLowImportance': false};
-            _fun0135_ip = 1123; continue _fun0135;
- 1077:
+            _fun0135_ip = 1103; continue _fun0135;
+ 1069:
             var6 = {'shouldMention': true, 'isMentionLowImportance': true};
-            _fun0135_ip = 1123; continue _fun0135;
+            _fun0135_ip = 1103; continue _fun0135;
+ 1081:
+            var6 = {'shouldMention': true, 'isMentionLowImportance': false};
+            _fun0135_ip = 1103; continue _fun0135;
  1093:
             var6 = {'shouldMention': true, 'isMentionLowImportance': false};
-            _fun0135_ip = 1123; continue _fun0135;
- 1109:
-            var6 = {'shouldMention': true, 'isMentionLowImportance': false};
- 1123:
+ 1103:
             var8 = var6.shouldMention;
             var6 = var6.isMentionLowImportance;
-            if(!var8) { _fun0135_ip = 1246; continue _fun0135 }
- 1138:
+            if(!var8) { _fun0135_ip = 1226; continue _fun0135 }
+ 1118:
             var7['isMentionLowImportance'] = var6;
             var6 = var7.mentionCount;
             var6 = var6 + 1;
             var7['mentionCount'] = var6;
-            if(!(var5 != var3)) { _fun0135_ip = 1246; continue _fun0135 }
- 1163:
+            if(!(var5 != var3)) { _fun0135_ip = 1226; continue _fun0135 }
+ 1143:
             var8 = _closure1_slot78;
             var7 = var8.get;
             var6 = var3.id;
@@ -7715,8 +7715,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['lastMessageId'] = var4;
             var4 = _closure1_slot18;
             var4 = var4.tabFocused;
-            if(!var4) { _fun0135_ip = 1246; continue _fun0135 }
- 1217:
+            if(!var4) { _fun0135_ip = 1226; continue _fun0135 }
+ 1197:
             var5 = _closure1_slot112;
             var22 = var3.id;
             var2 = _closure1_slot60;
@@ -7725,7 +7725,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = undefined;
             var20 = undefined;
             var2 = var23[var5](var22, var21, var20, var19, var18);
- 1246:
+ 1226:
             return var1;
         }
     };

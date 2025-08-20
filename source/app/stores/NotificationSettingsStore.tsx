@@ -29,11 +29,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 var2 = !var2;
                 var _closure2_slot0 = var2;
- 72: // try_end0
-                _fun0002_ip = 76; continue _fun0002;
- 74: // catch_target0
+ 70: // try_end0
+                _fun0002_ip = 74; continue _fun0002;
+ 72: // catch_target0
                 CatchBlockStart(arg_register=1);
- 76:
+ 74:
                 var2 = function _isNativeReflectConstruct() {
                     var1 = _closure2_slot0;
                     var1 = !var1;
@@ -99,13 +99,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var6[var10];
         var10 = var5.bind(var1)(var10);
         var10 = var10.isPlatformEmbedded;
-        if(var10) { _fun0001_ip = 242; continue _fun0001 }
- 234:
+        if(var10) { _fun0001_ip = 238; continue _fun0001 }
+ 230:
         var10 = var11.NEVER;
-        _fun0001_ip = 248; continue _fun0001;
- 242:
+        _fun0001_ip = 244; continue _fun0001;
+ 238:
         var10 = var11.ALL;
- 248:
+ 244:
         var2['desktopType'] = var10;
         var10 = new Array(0);
         var2['disabledSounds'] = var10;

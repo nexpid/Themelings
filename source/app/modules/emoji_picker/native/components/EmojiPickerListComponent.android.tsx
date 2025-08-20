@@ -434,17 +434,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var18 = var18.bind(var19)(var5, var6);
-            if(var3) { _fun0001_ip = 581; continue _fun0001 }
- 559:
+            if(var3) { _fun0001_ip = 603; continue _fun0001 }
+ 581:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var3 = 8;
             var3 = var6[var3];
             var6 = var5.bind(var4)(var3);
-            _fun0001_ip = 585; continue _fun0001;
- 581:
+            _fun0001_ip = 607; continue _fun0001;
+ 603:
             var6 = _closure1_slot12;
- 585:
+ 607:
             var5 = _closure1_slot8;
             var3 = {};
             var3['config'] = var18;

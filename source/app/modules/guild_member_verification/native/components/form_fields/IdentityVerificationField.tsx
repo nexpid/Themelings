@@ -352,7 +352,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var7.bind(var5)(var4);
                     var4 = var4.UserVerificationFieldPlatforms;
                     var4 = var4.EMAIL;
-                    if(!(var4 !== var3)) { _fun0004_ip = 93; continue _fun0004 }
+                    if(!(var4 !== var3)) { _fun0004_ip = 97; continue _fun0004 }
  46:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot2;
@@ -360,14 +360,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.bind(var5)(var2);
                     var2 = var2.UserVerificationFieldPlatforms;
                     var2 = var2.PHONE;
-                    if(!(var2 !== var3)) { _fun0004_ip = 86; continue _fun0004 }
+                    if(!(var2 !== var3)) { _fun0004_ip = 88; continue _fun0004 }
  79:
                     var2 = function() {
                         var1 = undefined;
                         return var1;
                     };
                     return var2;
- 86:
+ 88:
                     var2 = function() {
                         var4 = _closure1_slot1;
                         var8 = _closure1_slot2;
@@ -395,7 +395,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     return var2;
- 93:
+ 97:
                     var1 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;

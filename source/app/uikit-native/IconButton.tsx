@@ -69,10 +69,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = 'button';
             var1['accessibilityRole'] = var16;
             var16 = undefined;
-            if(var15) { _fun0001_ip = 156; continue _fun0001 }
- 153:
+            if(var15) { _fun0001_ip = 154; continue _fun0001 }
+ 151:
             var16 = var17;
- 156:
+ 154:
             var1['accessibilityLabel'] = var16;
             var1['accessibilityElementsHidden'] = var15;
             var1['onPress'] = var12;
@@ -92,29 +92,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var12 = _closure1_slot5;
             var12 = var12.LARGE_40;
-            if(!(var14 !== var12)) { _fun0001_ip = 269; continue _fun0001 }
- 238:
+            if(!(var14 !== var12)) { _fun0001_ip = 267; continue _fun0001 }
+ 236:
             var14 = _closure1_slot1;
             var12 = _closure1_slot2;
             var12 = var12[var15];
             var12 = var14.bind(var4)(var12);
             var12 = var12.Sizes;
             var12 = var12.REFRESH_SMALL_16;
-            _fun0001_ip = 298; continue _fun0001;
- 269:
+            _fun0001_ip = 296; continue _fun0001;
+ 267:
             var14 = _closure1_slot1;
             var13 = _closure1_slot2;
             var13 = var13[var15];
             var13 = var14.bind(var4)(var13);
             var13 = var13.Sizes;
             var12 = var13.MEDIUM;
- 298:
+ 296:
             var5['size'] = var12;
             var12 = null;
-            if(var9) { _fun0001_ip = 312; continue _fun0001 }
- 307:
+            if(var9) { _fun0001_ip = 310; continue _fun0001 }
+ 305:
             var12 = var10.icon;
- 312:
+ 310:
             var10 = new Array(2);
             var10[0] = var12;
             var10[1] = var11;

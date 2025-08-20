@@ -57,8 +57,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var5)(var2, var1);
             var1 = null;
             var4 = var1 == var2;
-            if(var4) { _fun0001_ip = 109; continue _fun0001 }
- 66:
+            if(var4) { _fun0001_ip = 107; continue _fun0001 }
+ 64:
             var5 = _closure1_slot4;
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['notification'] = var2;
             var2 = var2.key;
             var1 = var5.bind(var6)(var4, var3, var2);
- 109:
+ 107:
             return var1;
         }
     };

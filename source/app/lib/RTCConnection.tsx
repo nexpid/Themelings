@@ -331,7 +331,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = 'wss:';
  499:
         var _closure1_slot29 = var4;
-        var4 = 64;
+        var4 = 63;
         var4 = var6[var4];
         var4 = var7.bind(var1)(var4);
         var2 = function(arg1) {
@@ -3052,6 +3052,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = 'audio_transport_cc';
                     var1 = var4.bind(var2)(var1);
  352:
+                    var4 = var2.push;
+                    var1 = 'keyframe_on_join';
+                    var1 = var4.bind(var2)(var1);
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot3;
                     var1 = 43;
@@ -3067,33 +3070,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['autoTrackExposure'] = var8;
                     var5 = var7.bind(var10)(var6, var5);
                     var5 = var5.enabled;
-                    if(!var5) { _fun0046_ip = 431; continue _fun0046 }
- 415:
-                    var6 = var2.push;
-                    var5 = 'keyframe_on_join';
-                    var5 = var6.bind(var2)(var5);
+                    if(!var5) { _fun0046_ip = 447; continue _fun0046 }
  431:
-                    var6 = _closure1_slot1;
-                    var7 = _closure1_slot3;
-                    var5 = 44;
-                    var5 = var7[var5];
-                    var10 = var6.bind(var1)(var5);
-                    var7 = var10.getCurrentConfig;
-                    var6 = {};
-                    var6['location'] = var4;
-                    var5 = {};
-                    var5['autoTrackExposure'] = var8;
-                    var5 = var7.bind(var10)(var6, var5);
-                    var5 = var5.enabled;
-                    if(!var5) { _fun0046_ip = 500; continue _fun0046 }
- 484:
                     var6 = var2.push;
                     var5 = 'network_aware_socket';
                     var5 = var6.bind(var2)(var5);
- 500:
+ 447:
                     var6 = _closure1_slot1;
                     var11 = _closure1_slot3;
-                    var5 = 45;
+                    var5 = 44;
                     var5 = var11[var5];
                     var7 = var6.bind(var1)(var5);
                     var6 = var7.getCurrentConfig;
@@ -3111,19 +3096,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['autoTrackExposure'] = var8;
                     var4 = var6.bind(var7)(var5, var4);
                     var5 = var4.prewarm;
-                    if(!var5) { _fun0046_ip = 604; continue _fun0046 }
- 588:
+                    if(!var5) { _fun0046_ip = 551; continue _fun0046 }
+ 535:
                     var6 = var2.push;
                     var5 = 'prewarm_cuda_cache';
                     var5 = var6.bind(var2)(var5);
- 604:
+ 551:
                     var4 = var4.clear;
-                    if(!var4) { _fun0046_ip = 629; continue _fun0046 }
- 613:
+                    if(!var4) { _fun0046_ip = 576; continue _fun0046 }
+ 560:
                     var5 = var2.push;
                     var4 = 'clear_cuda_cache';
                     var4 = var5.bind(var2)(var4);
- 629:
+ 576:
                     var3['_selectedExperiments'] = var2;
                     return var1;
                 }
@@ -3410,7 +3395,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var16 = var12.bind(var5)();
                             var17 = var1;
                             var12 = copyDataProperties(var17, var16);
-                            var12 = 46;
+                            var12 = 45;
                             var12 = var8[var12];
                             var13 = var7.bind(var6)(var12);
                             var12 = var13.getAppHardwareAccelerationEnabled;
@@ -3463,7 +3448,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var16 = var5.bind(var9)();
                             var17 = var1;
                             var5 = copyDataProperties(var17, var16);
-                            var5 = 47;
+                            var5 = 46;
                             var5 = var8[var5];
                             var5 = var7.bind(var6)(var5);
                             var6 = var5.bind(var6)();
@@ -3547,7 +3532,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var15 = var8.bind(var11)();
                             var16 = var2;
                             var8 = copyDataProperties(var16, var15);
-                            var8 = 46;
+                            var8 = 45;
                             var8 = var13[var8];
                             var12 = var12.bind(var1)(var8);
                             var8 = var12.getAppHardwareAccelerationEnabled;
@@ -3985,7 +3970,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3[var8] = var10;
                     var10 = _closure1_slot1;
                     var12 = _closure1_slot3;
-                    var8 = 47;
+                    var8 = 46;
                     var8 = var12[var8];
                     var8 = var10.bind(var13)(var8);
                     var10 = var8.bind(var13)();
@@ -4125,7 +4110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3[0] = var9;
                     var12 = _closure1_slot1;
                     var14 = _closure1_slot3;
-                    var9 = 48;
+                    var9 = 47;
                     var9 = var14[var9];
                     var12 = var12.bind(var13)(var9);
                     var9 = var12.getKrispModel;
@@ -4455,7 +4440,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  225:
                     var5 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var4 = 49;
+                    var4 = 48;
                     var4 = var2[var4];
                     var7 = var5.bind(var1)(var4);
                     var5 = var7.getConfig;
@@ -4551,7 +4536,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = var2.on;
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot3;
-                    var4 = 50;
+                    var4 = 49;
                     var9 = var7[var4];
                     var9 = var5.bind(var1)(var9);
                     var9 = var9.BaseConnectionEvent;
@@ -4601,7 +4586,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  29:
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot3;
-                            var1 = 51;
+                            var1 = 50;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -4632,7 +4617,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  29:
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot3;
-                            var1 = 52;
+                            var1 = 51;
                             var2 = var2[var1];
                             var1 = undefined;
                             var3 = var3.bind(var1)(var2);
@@ -4872,7 +4857,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = _closure3_slot0;
                             var8 = _closure1_slot1;
                             var9 = _closure1_slot3;
-                            var5 = 53;
+                            var5 = 52;
                             var12 = var9[var5];
                             var10 = undefined;
                             var14 = var8.bind(var10)(var12);
@@ -4917,7 +4902,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var11 = 300000;
                             var11 = var13.bind(var10)(var12, var11);
                             var2['_voiceQualityPeriodicStatsInterval'] = var11;
-                            var11 = 54;
+                            var11 = 53;
                             var11 = var9[var11];
                             var13 = var8.bind(var10)(var11);
                             var18 = _closure3_slot4;
@@ -4930,7 +4915,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var12 = var2._systemResponsiveness;
                             var11 = var12.start;
                             var11 = var11.bind(var12)();
-                            var11 = 55;
+                            var11 = 54;
                             var11 = var9[var11];
                             var11 = var8.bind(var10)(var11);
                             var12 = var11.prototype;
@@ -4943,7 +4928,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var11 = var12.setLastBattery;
                             var11 = var11.bind(var12)();
                             var2['_noiseCancellationError'] = var5;
-                            var5 = 56;
+                            var5 = 55;
                             var5 = var9[var5];
                             var11 = var8.bind(var10)(var5);
                             var18 = var2.userId;
@@ -5629,7 +5614,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var9.BaseConnectionEvent;
                     var9 = var9.Stats;
                     var11 = _closure1_slot1;
-                    var8 = 57;
+                    var8 = 56;
                     var8 = var7[var8];
                     var11 = var11.bind(var1)(var8);
                     var8 = var11.create;
@@ -5814,7 +5799,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  37:
                     var6 = _closure1_slot0;
                     var4 = _closure1_slot3;
-                    var8 = 58;
+                    var8 = 57;
                     var9 = var4[var8];
                     var7 = undefined;
                     var9 = var6.bind(var7)(var9);
@@ -5834,7 +5819,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var1._videoQuality;
                     var9 = var10.start;
                     var9 = var9.bind(var10)();
-                    var13 = 59;
+                    var13 = 58;
                     var4 = var4[var13];
                     var4 = var6.bind(var7)(var4);
                     var4 = var4.VideoHealthManager;
@@ -6637,7 +6622,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = var10.bind(var3)();
                     var16 = var1;
                     var10 = copyDataProperties(var16, var15);
-                    var10 = 46;
+                    var10 = 45;
                     var10 = var14[var10];
                     var12 = var12.bind(var13)(var10);
                     var10 = var12.getAppHardwareAccelerationEnabled;
@@ -6856,7 +6841,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot3;
-                var1 = 60;
+                var1 = 59;
                 var6 = var4[var1];
                 var1 = undefined;
                 var7 = var3.bind(var1)(var6);
@@ -7008,7 +6993,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['_bandwidthEstimationExperiment'] = var5;
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var1 = 61;
+                    var1 = 60;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var4.bind(var1)(var2);
@@ -8390,7 +8375,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  61:
                     var3 = _closure1_slot1;
                     var2 = _closure1_slot3;
-                    var1 = 62;
+                    var1 = 61;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -8447,7 +8432,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  37:
                     var5 = _closure1_slot1;
                     var3 = _closure1_slot3;
-                    var2 = 63;
+                    var2 = 62;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var5.bind(var2)(var3);
@@ -8581,7 +8566,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2 = var2.bind(var1)(var4);
-        var4 = 65;
+        var4 = 64;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

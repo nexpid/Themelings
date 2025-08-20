@@ -340,11 +340,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 496; continue _fun0004 }
+                    if(var2) { _fun0004_ip = 490; continue _fun0004 }
  12:
                     var3 = _closure1_slot4;
                     var3 = var3.isFetchingCurrentQuests;
-                    if(var3) { _fun0004_ip = 491; continue _fun0004 }
+                    if(var3) { _fun0004_ip = 485; continue _fun0004 }
  31:
                     var8 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -385,7 +385,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var3;
  174:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(var8) { _fun0004_ip = 368; continue _fun0004 }
+                    if(var8) { _fun0004_ip = 362; continue _fun0004 }
  183:
                     var8 = var3.body;
                     var10 = var8.quests;
@@ -477,11 +477,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = true;
                     var4['wasSuccessful'] = var11;
                     var4 = var9.bind(var10)(var8, var4);
- 363: // try_end0
-                    _fun0004_ip = 491; continue _fun0004;
- 368:
+ 357: // try_end0
+                    _fun0004_ip = 485; continue _fun0004;
+ 362:
                     return var3;
- 371: // catch_target0
+ 365: // catch_target0
                     CatchBlockStart(arg_register=11);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -511,10 +511,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = false;
                     var2['wasSuccessful'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
- 491:
+ 485:
                     var2 = undefined;
                     return var2;
- 496:
+ 490:
                     return var1;
                 }
             };
@@ -1610,11 +1610,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0014_ip = 304; continue _fun0014 }
+                    if(var2) { _fun0014_ip = 302; continue _fun0014 }
  10:
                     var2 = _closure1_slot4;
                     var2 = var2.isFetchingClaimedQuests;
-                    if(var2) { _fun0014_ip = 299; continue _fun0014 }
+                    if(var2) { _fun0014_ip = 297; continue _fun0014 }
  29:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -1647,7 +1647,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var4;
  134:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0014_ip = 216; continue _fun0014 }
+                    if(var5) { _fun0014_ip = 214; continue _fun0014 }
  140:
                     var5 = var4.body;
                     var7 = var5.quests;
@@ -1675,11 +1675,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['type'] = var10;
                     var5['quests'] = var9;
                     var5 = var6.bind(var7)(var5);
- 214: // try_end0
-                    _fun0014_ip = 299; continue _fun0014;
- 216:
+ 212: // try_end0
+                    _fun0014_ip = 297; continue _fun0014;
+ 214:
                     return var4;
- 219: // catch_target0
+ 217: // catch_target0
                     CatchBlockStart(arg_register=6);
                     var6 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -1700,10 +1700,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5 instanceof Object ? var5 : var6;
                     var2['error'] = var5;
                     var2 = var3.bind(var4)(var2);
- 299:
+ 297:
                     var2 = undefined;
                     return var2;
- 304:
+ 302:
                     return var1;
                 }
             };

@@ -179,8 +179,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = _closure2_slot0;
                 var7 = var7.allowDeletePhone;
                 var6 = null;
-                if(!var7) { _fun0001_ip = 137; continue _fun0001 }
- 132:
+                if(!var7) { _fun0001_ip = 141; continue _fun0001 }
+ 134:
                 var6 = function() {
                     var4 = _closure3_slot1;
                     var3 = var4.push;
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = undefined;
                     return var1;
                 };
- 137:
+ 141:
                 var5 = 'onDeletePhone';
                 var1[var5] = var6;
                 var1 = var4.bind(var3)(var2, var1);

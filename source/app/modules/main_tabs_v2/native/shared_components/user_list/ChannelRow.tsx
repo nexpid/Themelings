@@ -348,10 +348,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var22;
             var22 = var20 == var21;
             var20 = undefined;
-            if(var22) { _fun0001_ip = 527; continue _fun0001 }
- 522:
+            if(var22) { _fun0001_ip = 513; continue _fun0001 }
+ 508:
             var20 = var21.name;
- 527:
+ 513:
             var8[1] = var20;
             var8[2] = var19;
             var8[3] = var18;
@@ -551,8 +551,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[var1] = var4;
             var1 = _closure1_slot10;
             var1 = var1.TOGGLE;
-            if(!(var3 !== var1)) { _fun0001_ip = 822; continue _fun0001 }
- 763:
+            if(!(var3 !== var1)) { _fun0001_ip = 804; continue _fun0001 }
+ 745:
             var4 = _closure1_slot12;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -567,8 +567,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 'trailing';
             var1[var8] = var9;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 879; continue _fun0001;
- 822:
+            _fun0001_ip = 861; continue _fun0001;
+ 804:
             var4 = _closure1_slot12;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -583,7 +583,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'checked';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
- 879:
+ 861:
             return var1;
         }
     };

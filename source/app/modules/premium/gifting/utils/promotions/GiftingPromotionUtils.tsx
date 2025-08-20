@@ -94,6 +94,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var6.rewards;
  88:
             var _closure2_slot1 = var11;
+            var7 = var3 == var6;
+            var8 = undefined;
+            if(var7) { _fun0002_ip = 107; continue _fun0002 }
+ 101:
+            var8 = var6.variants;
+ 107:
+            if(!(var3 != var8)) { _fun0002_ip = 136; continue _fun0002 }
+ 111:
+            var7 = var8.flatMap;
+            var6 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.variants;
+                return var1;
+            };
+            var6 = var7.bind(var8)(var6);
+            _closure2_slot1 = var6;
+            var11 = var6;
+ 136:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 3;
@@ -166,16 +184,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var7)(var4, var5);
             var3 = var3 != var2;
             var1 = undefined;
-            if(!var3) { _fun0002_ip = 222; continue _fun0002 }
- 219:
+            if(!var3) { _fun0002_ip = 266; continue _fun0002 }
+ 263:
             var1 = var2;
- 222:
+ 266:
             return var1;
         }
     };
     var3['useClaimableGiftingPromotionRewards'] = var5;
-    var5 = function useGiftingPromotionRewardCollectiblePurchase(arg1) {
+    var5 = function useClaimableGiftingPromotionVariantsRewards() {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var4 = var2.bind(var1)();
+            var3 = null;
+            var5 = var3 == var4;
+            var2 = undefined;
+            if(var5) { _fun0004_ip = 46; continue _fun0004 }
+ 40:
+            var2 = var4.variants;
+ 46:
+            var3 = var3 != var2;
+            var1 = undefined;
+            if(!var3) { _fun0004_ip = 58; continue _fun0004 }
+ 55:
+            var1 = var2;
+ 58:
+            return var1;
+        }
+    };
+    var3['useClaimableGiftingPromotionVariantsRewards'] = var5;
+    var5 = function useGiftingPromotionRewardCollectiblePurchase(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var4 = arg1;
             var3 = _closure1_slot0;
@@ -189,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.purchases;
             var1 = null;
             var2 = var1 != var4;
-            if(!var2) { _fun0004_ip = 63; continue _fun0004 }
+            if(!var2) { _fun0005_ip = 63; continue _fun0005 }
  53:
             var2 = var3.get;
             var1 = var2.bind(var3)(var4);
@@ -223,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['getRewardAssetIdMap'] = var5;
     var5 = function useShouldShowSelectFreeSkuStep(arg1, arg2, arg3) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var1 = arg2;
             var4 = arg3;
@@ -233,40 +278,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var3)(var2);
             var2 = null;
             var2 = var2 != var4;
-            if(!var2) { _fun0005_ip = 44; continue _fun0005 }
+            if(!var2) { _fun0006_ip = 44; continue _fun0006 }
  32:
             var5 = var4.length;
             var4 = 1;
             var2 = var5 > var4;
- 44:
-            if(!var1) { _fun0005_ip = 50; continue _fun0005 }
- 47:
-            var1 = var3;
- 50:
-            if(!var1) { _fun0005_ip = 56; continue _fun0005 }
- 53:
-            var1 = var2;
- 56:
-            return var1;
-        }
-    };
-    var3['useShouldShowSelectFreeSkuStep'] = var5;
-    var5 = function useShouldAutoSelectGiftingPromotionReward(arg1, arg2, arg3) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
-            var2 = arg2;
-            var4 = arg3;
-            var5 = _closure1_slot5;
-            var3 = undefined;
-            var1 = arg1;
-            var3 = var5.bind(var3)(var1);
-            var1 = null;
-            var1 = var1 != var4;
-            if(!var1) { _fun0006_ip = 44; continue _fun0006 }
- 32:
-            var5 = var4.length;
-            var4 = 1;
-            var1 = var4 === var5;
  44:
             if(!var1) { _fun0006_ip = 50; continue _fun0006 }
  47:
@@ -279,20 +295,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
+    var3['useShouldShowSelectFreeSkuStep'] = var5;
+    var5 = function useShouldAutoSelectGiftingPromotionReward(arg1, arg2, arg3) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+ 0:
+            var2 = arg2;
+            var4 = arg3;
+            var5 = _closure1_slot5;
+            var3 = undefined;
+            var1 = arg1;
+            var3 = var5.bind(var3)(var1);
+            var1 = null;
+            var1 = var1 != var4;
+            if(!var1) { _fun0007_ip = 44; continue _fun0007 }
+ 32:
+            var5 = var4.length;
+            var4 = 1;
+            var1 = var4 === var5;
+ 44:
+            if(!var1) { _fun0007_ip = 50; continue _fun0007 }
+ 47:
+            var1 = var3;
+ 50:
+            if(!var1) { _fun0007_ip = 56; continue _fun0007 }
+ 53:
+            var1 = var2;
+ 56:
+            return var1;
+        }
+    };
     var3['useShouldAutoSelectGiftingPromotionReward'] = var5;
     var3['useIsPlanEligibleForGiftingPromotion'] = var4;
     var2 = function createGradientStyle(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var3 = arg1;
             var8 = arguments[1];
             var1 = undefined;
-            if(!(var8 === var1)) { _fun0007_ip = 22; continue _fun0007 }
+            if(!(var8 === var1)) { _fun0008_ip = 22; continue _fun0008 }
  12:
             var8 = 78.98;
  22:
             var6 = null;
-            if(!(var6 == var3)) { _fun0007_ip = 30; continue _fun0007 }
+            if(!(var6 == var3)) { _fun0008_ip = 30; continue _fun0008 }
  28:
             return var1;
  30:
@@ -301,7 +346,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.isArray;
             var1 = var1.bind(var4)(var3);
             var5 = var3;
-            if(var1) { _fun0007_ip = 60; continue _fun0007 }
+            if(var1) { _fun0008_ip = 60; continue _fun0008 }
  54:
             var5 = var3.gradient;
  60:
@@ -310,11 +355,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.isArray;
             var4 = var4.bind(var7)(var3);
             var7 = var8;
-            if(var4) { _fun0007_ip = 103; continue _fun0007 }
+            if(var4) { _fun0008_ip = 103; continue _fun0008 }
  84:
             var4 = var3.angle;
             var7 = var8;
-            if(!(var6 != var4)) { _fun0007_ip = 103; continue _fun0007 }
+            if(!(var6 != var4)) { _fun0008_ip = 103; continue _fun0008 }
  97:
             var7 = var3.angle;
  103:

@@ -1,4 +1,4 @@
-// app/design/components/mana-assets/native/generated/ShopLockupLogo.native.tsx
+// app/design/components/mana-assets/native/generated/DiscordQuestsLockupLogo.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -30,9 +30,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'design/components/mana-assets/native/generated/ShopLockupLogo.native.tsx';
+    var4 = 'design/components/mana-assets/native/generated/DiscordQuestsLockupLogo.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function ShopLockupLogo(arg1) {
+    var2 = function DiscordQuestsLockupLogo(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
@@ -52,15 +52,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.ICON_PRIMARY;
  65:
             var11 = var1.width;
-            if(!(var11 === var4)) { _fun0001_ip = 80; continue _fun0001 }
+            if(!(var11 === var4)) { _fun0001_ip = 77; continue _fun0001 }
  74:
-            var11 = 256;
- 80:
+            var11 = 224;
+ 77:
             var8 = var1.height;
-            if(!(var8 === var4)) { _fun0001_ip = 92; continue _fun0001 }
+            if(!(var8 === var4)) { _fun0001_ip = 89; continue _fun0001 }
+ 86:
+            var8 = 57;
  89:
-            var8 = 30;
- 92:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 3;
@@ -69,27 +69,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.useToken;
             var2 = var1.bind(var2)(var3);
             var1 = null;
-            if(!(var1 == var2)) { _fun0001_ip = 167; continue _fun0001 }
- 132:
+            if(!(var1 == var2)) { _fun0001_ip = 164; continue _fun0001 }
+ 129:
             var1 = var1 != var3;
-            if(!var1) { _fun0001_ip = 150; continue _fun0001 }
- 139:
+            if(!var1) { _fun0001_ip = 147; continue _fun0001 }
+ 136:
             var10 = 'string';
             var9 = typeof var3;
             var1 = var10 === var9;
- 150:
+ 147:
             var9 = undefined;
-            if(!var1) { _fun0001_ip = 177; continue _fun0001 }
- 155:
+            if(!var1) { _fun0001_ip = 174; continue _fun0001 }
+ 152:
             var1 = {};
             var1['tintColor'] = var3;
             var9 = var1;
-            _fun0001_ip = 177; continue _fun0001;
- 167:
+            _fun0001_ip = 174; continue _fun0001;
+ 164:
             var1 = {};
             var1['tintColor'] = var2;
             var9 = var1;
- 177:
+ 174:
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
             var1 = {};
@@ -117,6 +117,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['ShopLockupLogo'] = var2;
+    var3['DiscordQuestsLockupLogo'] = var2;
     return var1;
 })();

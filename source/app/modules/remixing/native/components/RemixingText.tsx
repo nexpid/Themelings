@@ -86,17 +86,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             var9 = var1 != var10;
             var14 = undefined;
-            if(!var9) { _fun0001_ip = 216; continue _fun0001 }
- 192:
+            if(!var9) { _fun0001_ip = 218; continue _fun0001 }
+ 194:
             var12 = _closure1_slot1;
             var16 = _closure1_slot2;
             var9 = 6;
             var9 = var16[var9];
             var9 = var12.bind(var6)(var9);
             var14 = var9[var10];
- 216:
-            if(!(var1 != var5)) { _fun0001_ip = 533; continue _fun0001 }
- 223:
+ 218:
+            if(!(var1 != var5)) { _fun0001_ip = 541; continue _fun0001 }
+ 225:
             var10 = new Array(0);
             _closure2_slot5 = var10;
             var12 = new Array(0);
@@ -185,13 +185,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var24[var17](var23, var22, var21, var20, var19);
             var5 = var1 == var2;
             var3 = undefined;
-            if(var5) { _fun0001_ip = 321; continue _fun0001 }
- 316:
+            if(var5) { _fun0001_ip = 325; continue _fun0001 }
+ 320:
             var3 = var2.id;
- 321:
+ 325:
             var2 = null;
-            if(!(var3 !== var4)) { _fun0001_ip = 531; continue _fun0001 }
- 330:
+            if(!(var3 !== var4)) { _fun0001_ip = 539; continue _fun0001 }
+ 334:
             var5 = _closure1_slot5;
             var9 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -242,8 +242,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[0] = var9;
             var7[1] = var1;
             var9 = var1 != var14;
-            if(!var9) { _fun0001_ip = 498; continue _fun0001 }
- 434:
+            if(!var9) { _fun0001_ip = 504; continue _fun0001 }
+ 440:
             var13 = _closure1_slot4;
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -259,7 +259,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14['h'] = var15;
             var11['uniforms'] = var14;
             var9 = var13.bind(var6)(var12, var11);
- 498:
+ 504:
             var7[2] = var9;
             var9 = var10.map;
             var8 = function(arg1, arg2) {
@@ -293,9 +293,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[3] = var8;
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 531:
+ 539:
             return var2;
- 533:
+ 541:
             return var1;
         }
     };

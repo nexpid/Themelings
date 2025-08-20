@@ -69,7 +69,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var7 = var5 == var8;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 99; continue _fun0001 }
+            if(var7) { _fun0001_ip = 101; continue _fun0001 }
  84:
             var7 = var8.map;
             var6 = function(arg1, arg2) {
@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var8.bind(var4)(var2);
                         var2 = var2.VerificationFormFieldTypes;
                         var2 = var2.TERMS;
-                        if(!(var2 !== var3)) { _fun0002_ip = 409; continue _fun0002 }
+                        if(!(var2 !== var3)) { _fun0002_ip = 415; continue _fun0002 }
  65:
                         var8 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var8.bind(var4)(var2);
                         var2 = var2.VerificationFormFieldTypes;
                         var2 = var2.VERIFICATION;
-                        if(!(var2 !== var3)) { _fun0002_ip = 357; continue _fun0002 }
+                        if(!(var2 !== var3)) { _fun0002_ip = 363; continue _fun0002 }
  101:
                         var8 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var8.bind(var4)(var2);
                         var2 = var2.VerificationFormFieldTypes;
                         var2 = var2.TEXT_INPUT;
-                        if(!(var2 !== var3)) { _fun0002_ip = 307; continue _fun0002 }
+                        if(!(var2 !== var3)) { _fun0002_ip = 311; continue _fun0002 }
  137:
                         var8 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var8.bind(var4)(var2);
                         var2 = var2.VerificationFormFieldTypes;
                         var2 = var2.PARAGRAPH;
-                        if(!(var2 !== var3)) { _fun0002_ip = 257; continue _fun0002 }
+                        if(!(var2 !== var3)) { _fun0002_ip = 259; continue _fun0002 }
  170:
                         var8 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['onChange'] = var9;
                         var2 = var8.bind(var4)(var3, var2, var5);
                         return var2;
- 257:
+ 259:
                         var8 = _closure1_slot5;
                         var3 = _closure1_slot1;
                         var9 = _closure1_slot2;
@@ -174,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['onChange'] = var9;
                         var2 = var8.bind(var4)(var3, var2, var5);
                         return var2;
- 307:
+ 311:
                         var8 = _closure1_slot5;
                         var3 = _closure1_slot1;
                         var9 = _closure1_slot2;
@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['onChange'] = var9;
                         var2 = var8.bind(var4)(var3, var2, var5);
                         return var2;
- 357:
+ 363:
                         var8 = _closure1_slot5;
                         var3 = _closure1_slot1;
                         var9 = _closure1_slot2;
@@ -207,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['field'] = var7;
                         var2 = var8.bind(var4)(var3, var2, var5);
                         return var2;
- 409:
+ 415:
                         var3 = _closure1_slot5;
                         var2 = _closure1_slot1;
                         var8 = _closure1_slot2;
@@ -240,7 +240,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var5 = var7.bind(var8)(var6);
- 99:
+ 101:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

@@ -92,11 +92,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.getCurrentUser;
             var4 = var1.bind(var3)();
             var1 = null;
-            if(!(var1 != var4)) { _fun0003_ip = 112; continue _fun0003 }
+            if(!(var1 != var4)) { _fun0003_ip = 110; continue _fun0003 }
  25:
             var3 = var4.isStaff;
             var3 = var3.bind(var4)();
-            if(!var3) { _fun0003_ip = 112; continue _fun0003 }
+            if(!var3) { _fun0003_ip = 110; continue _fun0003 }
  38:
             var6 = _closure1_slot0;
             var4 = var6.getChannel;
@@ -104,14 +104,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.channel_id;
             var4 = var4.bind(var6)(var3);
             var1 = var1 != var4;
-            if(!var1) { _fun0003_ip = 110; continue _fun0003 }
+            if(!var1) { _fun0003_ip = 108; continue _fun0003 }
  67:
             var3 = _closure1_slot4;
             var2 = undefined;
             var2 = var3.bind(var2)(var4);
             var3 = !var2;
             var2 = !var3;
-            if(var3) { _fun0003_ip = 107; continue _fun0003 }
+            if(var3) { _fun0003_ip = 105; continue _fun0003 }
  87:
             var4 = var5.some;
             var3 = function(arg1) {
@@ -141,11 +141,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var2 = var4.bind(var5)(var3);
- 107:
+ 105:
             var1 = var2;
- 110:
+ 108:
             return var1;
- 112:
+ 110:
             var1 = false;
             return var1;
         }

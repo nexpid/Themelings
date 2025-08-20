@@ -190,16 +190,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  216:
             var3 = var9.mobileBanner;
  222:
-            if(!(var8 == var3)) { _fun0001_ip = 244; continue _fun0001 }
+            if(!(var8 == var3)) { _fun0001_ip = 259; continue _fun0001 }
  226:
             var11 = var8 == var9;
             var2 = undefined;
-            if(var11) { _fun0001_ip = 241; continue _fun0001 }
+            if(var11) { _fun0001_ip = 256; continue _fun0001 }
  235:
-            var2 = var9.banner;
- 241:
+            var11 = var9.catalogBannerAsset;
+            var12 = var8 == var11;
+            var2 = undefined;
+            if(var12) { _fun0001_ip = 256; continue _fun0001 }
+ 250:
+            var2 = var11.static;
+ 256:
             var3 = var2;
- 244:
+ 259:
+            if(!(var8 == var3)) { _fun0001_ip = 281; continue _fun0001 }
+ 263:
+            var11 = var8 == var9;
+            var2 = undefined;
+            if(var11) { _fun0001_ip = 278; continue _fun0001 }
+ 272:
+            var2 = var9.banner;
+ 278:
+            var3 = var2;
+ 281:
             var2 = {};
             var2['size'] = var10;
             var10 = 'webp';
@@ -226,11 +241,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.useScrollToInitialIndexOnce;
             var2 = {};
             var11 = var8 != var13;
-            if(!var11) { _fun0001_ip = 367; continue _fun0001 }
- 361:
+            if(!var11) { _fun0001_ip = 404; continue _fun0001 }
+ 398:
             var12 = 0;
             var11 = var13 > var12;
- 367:
+ 404:
             var2['shouldScroll'] = var11;
             var2['initialScrollIndex'] = var13;
             var2['flashListRef'] = var22;
@@ -320,13 +335,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var18.categoryHeader;
             var12 = new Array(2);
             var12[0] = var21;
-            if(var19) { _fun0001_ip = 589; continue _fun0001 }
- 581:
+            if(var19) { _fun0001_ip = 626; continue _fun0001 }
+ 618:
             var19 = var18.categoryHeaderBorderLight;
-            _fun0001_ip = 595; continue _fun0001;
- 589:
+            _fun0001_ip = 632; continue _fun0001;
+ 626:
             var19 = var18.categoryHeaderBorderDark;
- 595:
+ 632:
             var12[1] = var19;
             var10['style'] = var12;
             var19 = _closure1_slot0;
@@ -370,8 +385,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var10['onPress'] = var12;
             var12 = var8 != var25;
-            if(!var12) { _fun0001_ip = 773; continue _fun0001 }
- 737:
+            if(!var12) { _fun0001_ip = 810; continue _fun0001 }
+ 774:
             var23 = _closure1_slot7;
             var19 = _closure1_slot4;
             var8 = {};
@@ -381,7 +396,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var18.imageBackground;
             var8['style'] = var24;
             var12 = var23.bind(var4)(var19, var8);
- 773:
+ 810:
             var8 = new Array(2);
             var8[0] = var12;
             var12 = _closure1_slot7;

@@ -877,37 +877,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                     var2 = _closure2_slot1;
-                    var3 = '';
-                    var1 = var3;
-                    if(!var2) { _fun0007_ip = 109; continue _fun0007 }
- 17:
-                    var2 = _closure2_slot9;
-                    var5 = null;
-                    var7 = var5 == var2;
-                    var4 = undefined;
-                    var2 = undefined;
-                    if(var7) { _fun0007_ip = 44; continue _fun0007 }
- 34:
-                    var7 = _closure2_slot9;
-                    var2 = var7.mobileBg;
- 44:
-                    var2 = var5 != var2;
-                    var1 = var3;
-                    if(!var2) { _fun0007_ip = 109; continue _fun0007 }
- 54:
-                    var3 = _closure1_slot0;
-                    var5 = _closure1_slot2;
+                    var1 = '';
+                    if(!var2) { _fun0007_ip = 84; continue _fun0007 }
+ 14:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
                     var2 = 26;
-                    var2 = var5[var2];
-                    var5 = var3.bind(var4)(var2);
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var5 = var4.bind(var3)(var2);
                     var4 = var5.getCollectiblesAssetURL;
+                    var7 = _closure2_slot9;
+                    var2 = null;
+                    var2 = var2 == var7;
+                    if(var2) { _fun0007_ip = 68; continue _fun0007 }
+ 58:
                     var2 = _closure2_slot9;
                     var3 = var2.mobileBg;
+ 68:
                     var2 = {};
                     var6 = _closure2_slot8;
                     var2['size'] = var6;
                     var1 = var4.bind(var5)(var3, var2);
- 109:
+ 84:
                     return var1;
                 }
             };

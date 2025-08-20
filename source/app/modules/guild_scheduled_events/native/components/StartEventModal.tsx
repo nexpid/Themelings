@@ -325,10 +325,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var3.useManageResourcePermissions;
             var14 = null;
-            if(!(var14 != var5)) { _fun0001_ip = 192; continue _fun0001 }
- 189:
+            if(!(var14 != var5)) { _fun0001_ip = 188; continue _fun0001 }
+ 185:
             var1 = var5;
- 192:
+ 188:
             var1 = var2.bind(var3)(var1);
             var1 = var1.canManageGuildEvent;
             var1 = var1.bind(var4)(var15);
@@ -398,7 +398,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0003_ip = 87; continue _fun0003 }
+                            if(var2) { _fun0003_ip = 85; continue _fun0003 }
  7:
                             var3 = _closure2_slot3;
                             if(var3) { _fun0003_ip = 32; continue _fun0003 }
@@ -407,7 +407,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = undefined;
                             var3 = false;
                             var3 = var5.bind(var4)(var3);
-                            _fun0003_ip = 79; continue _fun0003;
+                            _fun0003_ip = 77; continue _fun0003;
  32:
                             var6 = _closure2_slot6;
                             var5 = _closure2_slot0;
@@ -423,18 +423,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3['onSuccess'] = var2;
                             var2 = undefined;
                             var2 = var6.bind(var2)(var5, var4, var3);
-                            SaveGenerator(address=73);
- 71:
+                            SaveGenerator(address=71);
+ 69:
                             return var2;
- 73:
+ 71:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(var3) { _fun0003_ip = 84; continue _fun0003 }
- 79:
+                            if(var3) { _fun0003_ip = 82; continue _fun0003 }
+ 77:
                             var3 = undefined;
                             return var3;
- 84:
+ 82:
                             return var2;
- 87:
+ 85:
                             return var1;
                         }
                     };
@@ -490,8 +490,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var13.bind(var4)(var12, var10);
             var9[1] = var10;
             var10 = null;
-            if(!var11) { _fun0001_ip = 593; continue _fun0001 }
- 508:
+            if(!var11) { _fun0001_ip = 583; continue _fun0001 }
+ 500:
             var13 = _closure1_slot11;
             var12 = _closure1_slot6;
             var11 = {};
@@ -521,7 +521,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var22.bind(var4)(var16, var15);
             var11['children'] = var15;
             var10 = var13.bind(var4)(var12, var11);
- 593:
+ 583:
             var9[2] = var10;
             var12 = _closure1_slot12;
             var11 = _closure1_slot6;
@@ -530,8 +530,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['style'] = var13;
             var13 = var14 != var21;
             var14 = null;
-            if(!var13) { _fun0001_ip = 687; continue _fun0001 }
- 626:
+            if(!var13) { _fun0001_ip = 677; continue _fun0001 }
+ 616:
             var16 = _closure1_slot11;
             var15 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -546,7 +546,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var20.bind(var21)();
             var13['children'] = var20;
             var14 = var16.bind(var4)(var15, var13);
- 687:
+ 677:
             var13 = new Array(2);
             var13[0] = var14;
             var16 = _closure1_slot11;

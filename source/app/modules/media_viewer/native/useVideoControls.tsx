@@ -130,8 +130,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot5 = var4;
             var11 = null;
             var1 = var11 != var9;
-            if(!var1) { _fun0001_ip = 228; continue _fun0001 }
- 197:
+            if(!var1) { _fun0001_ip = 224; continue _fun0001 }
+ 193:
             var15 = _closure1_slot0;
             var17 = _closure1_slot2;
             var2 = 11;
@@ -139,12 +139,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.bind(var5)(var2);
             var2 = var15.supportOverlayVideoControls;
             var1 = var2.bind(var15)(var6);
- 228:
+ 224:
             var2 = var6.portal;
-            if(!(var11 == var2)) { _fun0001_ip = 244; continue _fun0001 }
- 238:
+            if(!(var11 == var2)) { _fun0001_ip = 240; continue _fun0001 }
+ 234:
             var2 = var6.videoURI;
- 244:
+ 240:
             var _closure2_slot6 = var2;
             var11 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -218,10 +218,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var6 = var6.bind(var11)(var3, var4);
             var4 = var2;
-            if(var1) { _fun0001_ip = 362; continue _fun0001 }
- 360:
+            if(var1) { _fun0001_ip = 354; continue _fun0001 }
+ 352:
             return var5;
- 362:
+ 354:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;

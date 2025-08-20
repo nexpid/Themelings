@@ -171,8 +171,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var6['onValueChange'] = var11;
                 var11 = null;
-                if(!(var11 == var10)) { _fun0002_ip = 425; continue _fun0002 }
- 383:
+                if(!(var11 == var10)) { _fun0002_ip = 429; continue _fun0002 }
+ 385:
                 var13 = _closure1_slot0;
                 var14 = _closure1_slot2;
                 var11 = 3;
@@ -181,15 +181,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var13.isAndroid;
                 var13 = var11.bind(var13)();
                 var11 = undefined;
-                if(!var13) { _fun0002_ip = 422; continue _fun0002 }
- 417:
+                if(!var13) { _fun0002_ip = 426; continue _fun0002 }
+ 419:
                 var11 = function() {
                     var1 = true;
                     return var1;
                 };
- 422:
+ 426:
                 var10 = var11;
- 425:
+ 429:
                 var6['onResponderGrant'] = var10;
                 var6 = var8.bind(var4)(var7, var6);
                 var5[1] = var6;

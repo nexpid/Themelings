@@ -238,8 +238,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var4.bind(var7)(var3, var1);
             var1 = null;
             var2 = var1 == var2;
-            if(var2) { _fun0001_ip = 920; continue _fun0001 }
- 304:
+            if(var2) { _fun0001_ip = 928; continue _fun0001 }
+ 308:
             var4 = _closure1_slot12;
             var3 = _closure1_slot7;
             var2 = {'style': null, 'keyboardShouldPersistTaps': 'handled', 'alwaysBounceVertical': false};
@@ -460,7 +460,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 920:
+ 928:
             return var1;
         }
     };

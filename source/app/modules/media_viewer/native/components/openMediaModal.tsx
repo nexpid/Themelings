@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             if(!(var4 == var3)) { _fun0002_ip = 69; continue _fun0002 }
  28:
-            if(!(var4 != var6)) { _fun0002_ip = 87; continue _fun0002 }
+            if(!(var4 != var6)) { _fun0002_ip = 85; continue _fun0002 }
  32:
             var5 = _closure1_slot7;
             var4 = {};
@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[var2] = var6;
             var2 = undefined;
             var2 = var5.bind(var2)(var4);
-            _fun0002_ip = 87; continue _fun0002;
+            _fun0002_ip = 85; continue _fun0002;
  69:
             var2 = var3.measureInWindow;
             var1 = function(arg1, arg2, arg3, arg4) {
@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var1 = var2.bind(var3)(var1);
- 87:
+ 85:
             var1 = undefined;
             return var1;
         }

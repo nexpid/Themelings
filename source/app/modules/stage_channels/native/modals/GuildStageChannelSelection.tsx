@@ -137,12 +137,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             };
                             var3 = var3.bind(var4)(var2);
                             var2 = null;
-                            if(!(var2 != var3)) { _fun0003_ip = 51; continue _fun0003 }
- 40:
+                            if(!(var2 != var3)) { _fun0003_ip = 49; continue _fun0003 }
+ 38:
                             var2 = _closure2_slot1;
                             var1 = undefined;
                             var1 = var2.bind(var1)(var3);
- 51:
+ 49:
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot3;
                             var1 = 8;
@@ -159,17 +159,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = null;
                     var9 = var2 == var7;
                     var7 = undefined;
-                    if(var9) { _fun0002_ip = 213; continue _fun0002 }
- 204:
+                    if(var9) { _fun0002_ip = 209; continue _fun0002 }
+ 200:
                     var8 = _closure2_slot0;
                     var7 = var8.id;
- 213:
+ 209:
                     var8 = var2 != var7;
                     var2 = undefined;
-                    if(!var8) { _fun0002_ip = 225; continue _fun0002 }
- 222:
+                    if(!var8) { _fun0002_ip = 221; continue _fun0002 }
+ 218:
                     var2 = var7;
- 225:
+ 221:
                     var3['selectedItem'] = var2;
                     var2 = 'SelectUpdatesChannel';
                     var2 = var5.bind(var6)(var4, var2, var3);
@@ -229,8 +229,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var13[var6];
             var6 = var7.bind(var4)(var6);
             var6 = var6.t;
-            if(var1) { _fun0001_ip = 261; continue _fun0001 }
- 226:
+            if(var1) { _fun0001_ip = 257; continue _fun0001 }
+ 222:
             var7 = var6.S+9O7u;
             var1 = {};
             var1['stageName'] = var12;
@@ -238,8 +238,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var8.bind(var9)(var7, var1);
             var5['children'] = var1;
             var1 = var5;
-            _fun0001_ip = 308; continue _fun0001;
- 261:
+            _fun0001_ip = 302; continue _fun0001;
+ 257:
             var7 = var6.AkzLcX;
             var6 = {};
             var6['stageName'] = var12;
@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var9)(var7, var6);
             var5['children'] = var6;
             var1 = var5;
- 308:
+ 302:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

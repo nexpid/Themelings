@@ -4,7 +4,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var4 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var4;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var4;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -13,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var6);
-    var1 = 1;
+    var1 = 2;
     var4 = var4[var1];
     var1 = undefined;
     var6 = var5.bind(var1)(var4);
@@ -21,20 +23,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/messages/isSystemMessage.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function isSystemMessage(arg1) {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
-        var1 = 0;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        var1 = var1.MessageTypesSets;
-        var3 = var1.USER_MESSAGE;
-        var2 = var3.has;
-        var1 = arg1;
-        var1 = var1.type;
-        var1 = var2.bind(var3)(var1);
-        var1 = !var1;
-        return var1;
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var1 = arg1;
+            var3 = var1.type;
+            var7 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var6 = 0;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var7.bind(var5)(var2);
+            var2 = var2.MessageTypes;
+            var2 = var2.PREMIUM_REFERRAL;
+            if(!(var3 !== var2)) { _fun0001_ip = 97; continue _fun0001 }
+ 48:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.MessageTypesSets;
+            var3 = var2.USER_MESSAGE;
+            var2 = var3.has;
+            var1 = var1.type;
+            var1 = var2.bind(var3)(var1);
+            var1 = !var1;
+            _fun0001_ip = 173; continue _fun0001;
+ 97:
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var2 = 1;
+            var3 = var6[var2];
+            var8 = var7.bind(var5)(var3);
+            var7 = var8.getCurrentConfig;
+            var3 = {};
+            var9 = 'isSystemMessage';
+            var3['location'] = var9;
+            var3 = var7.bind(var8)(var3);
+            var3 = var3.cohort;
+            var4 = _closure1_slot0;
+            var2 = var6[var2];
+            var2 = var4.bind(var5)(var2);
+            var2 = var2.ReferralProgramDMEmbedRefreshExperimentCohort;
+            var2 = var2.Control;
+            var1 = var3 !== var2;
+ 173:
+            return var1;
+        }
     };
     var3['default'] = var2;
     return var1;

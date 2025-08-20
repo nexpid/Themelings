@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun0001_ip = 76; continue _fun0001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -339,7 +339,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot7;
             var4 = var6.get;
             var6 = var4.bind(var6)(var5);
-            if(!(var3 != var6)) { _fun0004_ip = 114; continue _fun0004 }
+            if(!(var3 != var6)) { _fun0004_ip = 116; continue _fun0004 }
  47:
             var4 = var6.entries;
             var3 = var4.filter;
@@ -365,7 +365,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure1_slot10 = var1;
             var1 = undefined;
             return var1;
- 114:
+ 116:
             var1 = false;
             return var1;
         }

@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure2_slot3;
                 var1 = _closure2_slot4;
                 var1 = var1.current;
-                if(!(var2 !== var1)) { _fun0001_ip = 103; continue _fun0001 }
+                if(!(var2 !== var1)) { _fun0001_ip = 105; continue _fun0001 }
  27:
                 var2 = _closure2_slot3;
                 var5 = _closure1_slot0;
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var5.bind(var1)(var4);
                 var1 = var1.AppStates;
                 var1 = var1.ACTIVE;
-                if(!(var2 === var1)) { _fun0001_ip = 103; continue _fun0001 }
+                if(!(var2 === var1)) { _fun0001_ip = 105; continue _fun0001 }
  72:
                 var1 = function() {
                     var4 = _closure1_slot3;
@@ -207,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot3;
                 var4['current'] = var3;
                 var1 = var1.bind(var2)();
- 103:
+ 105:
                 var1 = undefined;
                 return var1;
             }

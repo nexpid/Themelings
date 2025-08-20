@@ -516,24 +516,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[1] = var11;
             var11 = null;
             var14 = var11 != var23;
-            if(!var14) { _fun0004_ip = 475; continue _fun0004 }
- 454:
+            if(!var14) { _fun0004_ip = 481; continue _fun0004 }
+ 460:
             var22 = _closure1_slot7;
             var17 = _closure1_slot10;
             var15 = {};
             var15['attachment'] = var23;
             var14 = var22.bind(var4)(var17, var15);
- 475:
+ 481:
             var10[2] = var14;
             var11 = var11 != var20;
-            if(!var11) { _fun0004_ip = 507; continue _fun0004 }
- 486:
+            if(!var11) { _fun0004_ip = 513; continue _fun0004 }
+ 492:
             var17 = _closure1_slot7;
             var15 = _closure1_slot9;
             var14 = {};
             var14['embed'] = var20;
             var11 = var17.bind(var4)(var15, var14);
- 507:
+ 513:
             var10[3] = var11;
             var8['children'] = var10;
             var9 = var7.bind(var4)(var9, var8);

@@ -235,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var10[var2];
             var2 = var9.bind(var4)(var2);
             var2 = var2.UserProfileEditFormButton;
-            if(var8) { _fun0001_ip = 692; continue _fun0001 }
+            if(var8) { _fun0001_ip = 696; continue _fun0001 }
  416:
             var11 = function renderSectionLabel() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -361,7 +361,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var12.noneIcon;
             var6['style'] = var8;
             var6 = var11.bind(var4)(var7, var6);
-            _fun0001_ip = 679; continue _fun0001;
+            _fun0001_ip = 683; continue _fun0001;
  611:
             var8 = _closure1_slot5;
             var7 = {};
@@ -377,11 +377,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var11.bind(var4)(var13, var12);
             var7['children'] = var12;
             var6 = var11.bind(var4)(var8, var7);
- 679:
+ 683:
             var1['leading'] = var6;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 692:
+ 696:
             var1 = {};
             var6 = 14;
             var7 = var10[var6];

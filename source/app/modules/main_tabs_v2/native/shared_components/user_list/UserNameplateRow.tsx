@@ -184,11 +184,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.Card;
             var1 = {'shadow': 'none', 'border': 'none'};
             var28 = !var3;
-            if(!var28) { _fun0001_ip = 395; continue _fun0001 }
- 389:
+            if(!var28) { _fun0001_ip = 391; continue _fun0001 }
+ 385:
             var29 = true;
             var28 = var29 === var30;
- 395:
+ 391:
             var1['start'] = var28;
             var1['end'] = var2;
             var1['onPress'] = var27;
@@ -239,11 +239,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var8] = var9;
             var8 = var6.bind(var5)(var4, var1);
             var1 = var8;
-            if(var3) { _fun0001_ip = 699; continue _fun0001 }
- 614:
+            if(var3) { _fun0001_ip = 695; continue _fun0001 }
+ 610:
             var1 = var8;
-            if(var2) { _fun0001_ip = 699; continue _fun0001 }
- 620:
+            if(var2) { _fun0001_ip = 695; continue _fun0001 }
+ 616:
             var4 = _closure1_slot6;
             var3 = _closure1_slot7;
             var2 = {};
@@ -263,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 699:
+ 695:
             return var1;
         }
     };

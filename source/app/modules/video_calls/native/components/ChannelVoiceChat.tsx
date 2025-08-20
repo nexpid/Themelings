@@ -152,19 +152,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var2 = var9 == var1;
             var22 = undefined;
-            if(var2) { _fun0001_ip = 172; continue _fun0001 }
- 166:
+            if(var2) { _fun0001_ip = 170; continue _fun0001 }
+ 164:
             var22 = var1.openVoice;
- 172:
-            if(!(var9 == var22)) { _fun0001_ip = 202; continue _fun0001 }
- 176:
+ 170:
+            if(!(var9 == var22)) { _fun0001_ip = 200; continue _fun0001 }
+ 174:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 9;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var22 = var1.noop;
- 202:
+ 200:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 10;
@@ -184,10 +184,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot4;
             var1 = {};
             var5 = 'no-hide-descendants';
-            if(!var24) { _fun0001_ip = 292; continue _fun0001 }
- 286:
+            if(!var24) { _fun0001_ip = 290; continue _fun0001 }
+ 284:
             var5 = 'yes';
- 292:
+ 290:
             var1['importantForAccessibility'] = var5;
             var5 = !var24;
             var1['accessibilityElementsHidden'] = var5;
@@ -214,8 +214,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['guildId'] = var20;
             var6['channelId'] = var19;
             var10 = null;
-            if(var18) { _fun0001_ip = 488; continue _fun0001 }
- 410:
+            if(var18) { _fun0001_ip = 486; continue _fun0001 }
+ 408:
             var12 = _closure1_slot6;
             var11 = _closure1_slot1;
             var25 = _closure1_slot2;
@@ -224,23 +224,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var4)(var9);
             var9 = {};
             var24 = !var24;
-            if(!var24) { _fun0001_ip = 444; continue _fun0001 }
- 442:
+            if(!var24) { _fun0001_ip = 442; continue _fun0001 }
+ 440:
             var24 = undefined;
- 444:
+ 442:
             var9['hidden'] = var24;
             var9['animated'] = var21;
-            if(var15) { _fun0001_ip = 471; continue _fun0001 }
- 457:
+            if(var15) { _fun0001_ip = 469; continue _fun0001 }
+ 455:
             var15 = 'dark-content';
             var21 = 'dark';
-            if(!(var21 === var23)) { _fun0001_ip = 477; continue _fun0001 }
- 471:
+            if(!(var21 === var23)) { _fun0001_ip = 475; continue _fun0001 }
+ 469:
             var15 = 'light-content';
- 477:
+ 475:
             var9['barStyle'] = var15;
             var10 = var12.bind(var4)(var11, var9);
- 488:
+ 486:
             var9 = new Array(5);
             var9[0] = var10;
             var12 = _closure1_slot6;
@@ -252,10 +252,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = {};
             var21['height'] = var16;
             var23 = undefined;
-            if(!var18) { _fun0001_ip = 535; continue _fun0001 }
- 531:
+            if(!var18) { _fun0001_ip = 533; continue _fun0001 }
+ 529:
             var23 = 'none';
- 535:
+ 533:
             var21['display'] = var23;
             var15[1] = var21;
             var10['style'] = var15;
@@ -269,10 +269,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[0] = var21;
             var21 = {};
             var23 = undefined;
-            if(!var18) { _fun0001_ip = 592; continue _fun0001 }
- 588:
+            if(!var18) { _fun0001_ip = 590; continue _fun0001 }
+ 586:
             var23 = 'none';
- 592:
+ 590:
             var21['display'] = var23;
             var15[1] = var21;
             var10['style'] = var15;
@@ -301,10 +301,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = {};
             var15['top'] = var16;
             var16 = undefined;
-            if(!var18) { _fun0001_ip = 713; continue _fun0001 }
- 709:
+            if(!var18) { _fun0001_ip = 711; continue _fun0001 }
+ 707:
             var16 = 'none';
- 713:
+ 711:
             var15['display'] = var16;
             var13[1] = var15;
             var10['style'] = var13;

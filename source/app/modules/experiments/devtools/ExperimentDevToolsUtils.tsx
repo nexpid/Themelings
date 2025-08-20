@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var6[var1];
     var1 = undefined;
     var7 = var5.bind(var1)(var7);
-    var7 = var7.Variant_Type;
+    var7 = var7.Variation_Type;
     var7 = var7.OVERRIDE;
     var4['type'] = var7;
     var _closure1_slot2 = var4;

@@ -73,10 +73,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             StartGenerator();
                             var8 = arg1;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 280; continue _fun0002 }
+                            if(var2) { _fun0002_ip = 282; continue _fun0002 }
  13:
                             var2 = _closure2_slot6;
-                            if(var2) { _fun0002_ip = 171; continue _fun0002 }
+                            if(var2) { _fun0002_ip = 173; continue _fun0002 }
  29:
                             var3 = _closure1_slot0;
                             var4 = _closure1_slot2;
@@ -109,13 +109,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 return var1;
                             };
                             var2 = var9.bind(var10)(var4, var3, var2);
-                            SaveGenerator(address=130);
- 128:
-                            return var2;
+                            SaveGenerator(address=132);
  130:
+                            return var2;
+ 132:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(var3) { _fun0002_ip = 168; continue _fun0002 }
- 136:
+                            if(var3) { _fun0002_ip = 170; continue _fun0002 }
+ 138:
                             var4 = _closure1_slot0;
                             var9 = _closure1_slot2;
                             var3 = 13;
@@ -123,10 +123,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var4.bind(var5)(var3);
                             var3 = var4.closeApplyBoostModal;
                             var3 = var3.bind(var4)();
-                            _fun0002_ip = 275; continue _fun0002;
- 168:
+                            _fun0002_ip = 277; continue _fun0002;
+ 170:
                             return var2;
- 171:
+ 173:
                             var5 = _closure2_slot4;
                             var4 = var5.push;
                             var2 = _closure1_slot8;
@@ -150,10 +150,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var6['objectType'] = var7;
                             var2['location'] = var6;
                             var2 = var4.bind(var5)(var3, var2);
- 275:
+ 277:
                             var2 = undefined;
                             return var2;
- 280:
+ 282:
                             return var1;
                         }
                     };
@@ -241,12 +241,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var10.bind(var13)(var3, var1);
             var _closure2_slot6 = var1;
             var10 = !var1;
-            if(!var10) { _fun0001_ip = 226; continue _fun0001 }
- 212:
+            if(!var10) { _fun0001_ip = 230; continue _fun0001 }
+ 216:
             var1 = _closure1_slot9;
             var1 = var1.NONE;
             var10 = var2 !== var1;
- 226:
+ 230:
             var _closure2_slot7 = var10;
             var3 = _closure1_slot10;
             var2 = _closure1_slot1;
@@ -260,8 +260,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['loadingColorDark'] = var7;
             var1['color'] = var11;
             var11 = undefined;
-            if(var12) { _fun0001_ip = 285; continue _fun0001 }
- 280:
+            if(var12) { _fun0001_ip = 291; continue _fun0001 }
+ 284:
             var11 = function() {
                 var3 = _closure2_slot3;
                 var2 = function handleBoostPress(arg1) {
@@ -278,7 +278,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var1)(var3);
                 return var1;
             };
- 285:
+ 291:
             var1['onPress'] = var11;
             var1['disabled'] = var10;
             var12 = _closure1_slot0;
@@ -291,15 +291,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var13[var9];
             var9 = var12.bind(var4)(var9);
             var9 = var9.t;
-            if(var8) { _fun0001_ip = 355; continue _fun0001 }
- 340:
+            if(var8) { _fun0001_ip = 361; continue _fun0001 }
+ 346:
             var8 = var9.gKmQ1N;
             var8 = var10.bind(var11)(var8);
-            _fun0001_ip = 366; continue _fun0001;
- 355:
+            _fun0001_ip = 372; continue _fun0001;
+ 361:
             var9 = var9.Uj0md3;
             var8 = var10.bind(var11)(var9);
- 366:
+ 372:
             var1['text'] = var8;
             var1['style'] = var6;
             var6 = {};
@@ -310,7 +310,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = _closure2_slot7;
                     var1 = null;
-                    if(!var2) { _fun0004_ip = 85; continue _fun0004 }
+                    if(!var2) { _fun0004_ip = 89; continue _fun0004 }
  12:
                     var5 = _closure1_slot10;
                     var3 = _closure1_slot0;
@@ -328,7 +328,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = _closure2_slot2;
                     var2['color'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
- 85:
+ 89:
                     return var1;
                 }
             };

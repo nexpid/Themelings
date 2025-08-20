@@ -212,8 +212,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.displayName;
             var1['label'] = var9;
             var8 = var8 != var13;
-            if(!var8) { _fun0001_ip = 224; continue _fun0001 }
- 178:
+            if(!var8) { _fun0001_ip = 226; continue _fun0001 }
+ 180:
             var12 = _closure1_slot5;
             var11 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -225,7 +225,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['style'] = var14;
             var9['source'] = var13;
             var8 = var12.bind(var4)(var11, var9);
- 224:
+ 226:
             var1['icon'] = var8;
             var9 = _closure1_slot5;
             var8 = _closure1_slot7;

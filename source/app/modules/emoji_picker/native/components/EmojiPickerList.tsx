@@ -200,26 +200,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)();
             var11 = var3.computeCategories;
             var12 = var3.computeSearchResults;
-            if(!(var21 == var14)) { _fun0001_ip = 514; continue _fun0001 }
- 490:
+            if(!(var21 == var14)) { _fun0001_ip = 516; continue _fun0001 }
+ 492:
             var3 = {};
             var3['categories'] = var16;
             var3['rowSize'] = var28;
             var3['isNativeEmojiPickerEnabled'] = var2;
             var3 = var11.bind(var4)(var3);
-            _fun0001_ip = 543; continue _fun0001;
- 514:
+            _fun0001_ip = 545; continue _fun0001;
+ 516:
             var11 = {};
             var11['emojis'] = var14;
             var11['rowSize'] = var28;
             var14 = undefined;
-            if(!var2) { _fun0001_ip = 534; continue _fun0001 }
- 531:
+            if(!var2) { _fun0001_ip = 536; continue _fun0001 }
+ 533:
             var14 = 200;
- 534:
+ 536:
             var11['limit'] = var14;
             var3 = var12.bind(var4)(var11);
- 543:
+ 545:
             var14 = _closure1_slot0;
             var11 = _closure1_slot2;
             var12 = 15;
@@ -792,19 +792,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var9.shouldShowUpsell;
             var16 = var9.onShowNitroUpsell;
             var3 = var3.length;
-            if(!(var8 !== var3)) { _fun0001_ip = 1090; continue _fun0001 }
- 877:
+            if(!(var8 !== var3)) { _fun0001_ip = 1098; continue _fun0001 }
+ 885:
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
-            if(var2) { _fun0001_ip = 897; continue _fun0001 }
- 888:
+            if(var2) { _fun0001_ip = 905; continue _fun0001 }
+ 896:
             var2 = 36;
             var2 = var9[var2];
-            _fun0001_ip = 904; continue _fun0001;
- 897:
+            _fun0001_ip = 912; continue _fun0001;
+ 905:
             var8 = 35;
             var2 = var9[var8];
- 904:
+ 912:
             var11 = var3.bind(var4)(var2);
             var8 = _closure1_slot15;
             var3 = _closure1_slot14;
@@ -815,16 +815,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['animateEmoji'] = var25;
             var9['categoryIndexActive'] = var24;
             var9['data'] = var23;
-            if(!(var21 == var20)) { _fun0001_ip = 965; continue _fun0001 }
- 948:
+            if(!(var21 == var20)) { _fun0001_ip = 973; continue _fun0001 }
+ 956:
             var23 = var21 == var22;
             var21 = undefined;
-            if(var23) { _fun0001_ip = 962; continue _fun0001 }
- 957:
-            var21 = var22.guild_id;
- 962:
-            var20 = var21;
+            if(var23) { _fun0001_ip = 970; continue _fun0001 }
  965:
+            var21 = var22.guild_id;
+ 970:
+            var20 = var21;
+ 973:
             var9['guildId'] = var20;
             var9['inActionSheet'] = var7;
             var9['inPortalKeyboard'] = var19;
@@ -853,7 +853,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var9;
             var2 = var8.bind(var4)(var3, var2);
             return var2;
- 1090:
+ 1098:
             var3 = _closure1_slot13;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;

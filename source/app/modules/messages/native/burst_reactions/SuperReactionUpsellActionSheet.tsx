@@ -204,8 +204,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var14 = var4.bind(var7)(var1, var3);
             var1 = null;
-            if(var2) { _fun0001_ip = 502; continue _fun0001 }
- 186:
+            if(var2) { _fun0001_ip = 510; continue _fun0001 }
+ 190:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -321,7 +321,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['secondaryButtonText'] = var7;
             var2['onDismiss'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 502:
+ 510:
             return var1;
         }
     };

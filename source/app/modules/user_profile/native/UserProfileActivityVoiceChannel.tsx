@@ -143,19 +143,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.bind(var20)();
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                if(var1) { _fun0002_ip = 261; continue _fun0002 }
- 241:
+                if(var1) { _fun0002_ip = 263; continue _fun0002 }
+ 243:
                 var1 = 13;
                 var1 = var3[var1];
                 var1 = var2.bind(var4)(var1);
                 var13 = var1.VoiceNormalIcon;
-                _fun0002_ip = 279; continue _fun0002;
- 261:
+                _fun0002_ip = 281; continue _fun0002;
+ 263:
                 var1 = 12;
                 var1 = var3[var1];
                 var1 = var2.bind(var4)(var1);
                 var13 = var1.StageIcon;
- 279:
+ 281:
                 var3 = _closure1_slot7;
                 var2 = _closure1_slot3;
                 var1 = {};
@@ -165,8 +165,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8[1] = var9;
                 var1['style'] = var8;
                 var10 = _closure1_slot6;
-                if(var5) { _fun0002_ip = 442; continue _fun0002 }
- 320:
+                if(var5) { _fun0002_ip = 446; continue _fun0002 }
+ 322:
                 var19 = _closure1_slot0;
                 var21 = _closure1_slot2;
                 var5 = 16;
@@ -236,8 +236,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var10.bind(var4)(var12, var9);
                 var5['children'] = var9;
                 var8 = var10.bind(var4)(var8, var5);
-                _fun0002_ip = 592; continue _fun0002;
- 442:
+                _fun0002_ip = 596; continue _fun0002;
+ 446:
                 var9 = _closure1_slot3;
                 var5 = {};
                 var12 = true;
@@ -272,7 +272,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var10.bind(var4)(var14, var12);
                 var5['children'] = var12;
                 var8 = var10.bind(var4)(var9, var5);
- 592:
+ 596:
                 var5 = new Array(4);
                 var5[0] = var8;
                 var10 = _closure1_slot6;
@@ -286,8 +286,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var10.bind(var4)(var9, var8);
                 var5[1] = var8;
                 var10 = _closure1_slot7;
-                if(var7) { _fun0002_ip = 792; continue _fun0002 }
- 664:
+                if(var7) { _fun0002_ip = 796; continue _fun0002 }
+ 668:
                 var8 = _closure1_slot3;
                 var7 = {};
                 var9 = var18.channelButton;
@@ -311,8 +311,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9[1] = var12;
                 var7['children'] = var9;
                 var7 = var10.bind(var4)(var8, var7);
-                _fun0002_ip = 1029; continue _fun0002;
- 792:
+                _fun0002_ip = 1035; continue _fun0002;
+ 796:
                 var14 = _closure1_slot0;
                 var19 = _closure1_slot2;
                 var8 = 16;
@@ -385,7 +385,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12[1] = var13;
                 var8['children'] = var12;
                 var7 = var10.bind(var4)(var9, var8);
- 1029:
+ 1035:
                 var5[2] = var7;
                 var8 = _closure1_slot6;
                 var13 = _closure1_slot0;
@@ -487,12 +487,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var16.length;
                 var15 = 3;
                 var13 = var16;
-                if(!(!(var12 <= var15))) { _fun0002_ip = 1253; continue _fun0002 }
- 1240:
+                if(!(!(var12 <= var15))) { _fun0002_ip = 1263; continue _fun0002 }
+ 1250:
                 var14 = var16.slice;
                 var12 = 0;
                 var13 = var14.bind(var16)(var12, var15);
- 1253:
+ 1263:
                 var12 = var13.map;
                 var11 = function(arg1) {
                     var1 = arg1;

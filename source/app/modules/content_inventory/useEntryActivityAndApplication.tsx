@@ -95,21 +95,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var1 = var5 == var7;
             var3 = undefined;
-            if(var1) { _fun0001_ip = 103; continue _fun0001 }
- 97:
+            if(var1) { _fun0001_ip = 105; continue _fun0001 }
+ 99:
             var3 = var7.application_id;
- 103:
+ 105:
             var1 = new Array(2);
             var1[0] = var3;
             var11 = var8.extra;
             var3 = 'application_id';
             var11 = var3 in var11;
             var3 = undefined;
-            if(!var11) { _fun0001_ip = 142; continue _fun0001 }
- 130:
+            if(!var11) { _fun0001_ip = 144; continue _fun0001 }
+ 132:
             var8 = var8.extra;
             var3 = var8.application_id;
- 142:
+ 144:
             var1[1] = var3;
             var3 = var2.bind(var9)(var1);
             var2 = _closure1_slot3;
@@ -153,10 +153,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.bind(var8)(var6, var4);
             var1['embeddedActivity'] = var4;
             var4 = var2;
-            if(!(var5 != var3)) { _fun0001_ip = 248; continue _fun0001 }
- 245:
+            if(!(var5 != var3)) { _fun0001_ip = 252; continue _fun0001 }
+ 249:
             var4 = var3;
- 248:
+ 252:
             var1['anyMatchingApplication'] = var4;
             var1['activityApplication'] = var3;
             var1['fallbackApplication'] = var2;

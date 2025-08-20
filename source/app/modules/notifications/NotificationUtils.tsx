@@ -285,10 +285,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['autoTrackExposure'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             var1 = var1.enabled;
-            if(!var1) { _fun0003_ip = 116; continue _fun0003 }
- 113:
+            if(!var1) { _fun0003_ip = 114; continue _fun0003 }
+ 111:
             var1 = var2;
- 116:
+ 114:
             return var1;
         }
     };

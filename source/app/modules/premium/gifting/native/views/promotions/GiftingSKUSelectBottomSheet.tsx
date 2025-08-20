@@ -1,4 +1,4 @@
-// app/modules/premium/gifting/native/views/promotions/SeasonalGiftingSKUSelectBottomSheet.tsx
+// app/modules/premium/gifting/native/views/promotions/GiftingSKUSelectBottomSheet.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var11 = metroImportDefault;
@@ -238,14 +238,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/premium/gifting/native/views/promotions/SeasonalGiftingSKUSelectBottomSheet.tsx';
+    var4 = 'modules/premium/gifting/native/views/promotions/GiftingSKUSelectBottomSheet.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function SeasonalGiftingSKUSelectBottomSheet(arg1) {
+    var2 = function GiftingSKUSelectBottomSheet(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var2 = arg1;
             var3 = var2.defaultHighlightedReward;
             var17 = var2.rewards;
+            var1 = var2.variants;
             var1 = var2.onSelect;
             var _closure2_slot0 = var1;
             var5 = var2.onDismiss;
@@ -349,10 +350,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = null;
             var19 = var15 == var18;
             var15 = undefined;
-            if(var19) { _fun0002_ip = 393; continue _fun0002 }
- 387:
-            var15 = var18.assetId;
+            if(var19) { _fun0002_ip = 399; continue _fun0002 }
  393:
+            var15 = var18.assetId;
+ 399:
             var7['asset'] = var15;
             var7 = var13.bind(var4)(var8, var7);
             var12[1] = var7;

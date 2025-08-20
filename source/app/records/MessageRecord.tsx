@@ -728,109 +728,109 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function value(arg1) {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-                var6 = arg1;
-                var5 = arguments[1];
-                var9 = arguments[2];
+                var7 = arg1;
+                var6 = arguments[1];
+                var5 = arguments[2];
                 var2 = arguments[3];
                 var4 = this;
-                var _closure3_slot0 = var6;
-                var10 = undefined;
-                if(!(var5 === var10)) { _fun0008_ip = 29; continue _fun0008 }
+                var _closure3_slot0 = var7;
+                var9 = undefined;
+                if(!(var6 === var9)) { _fun0008_ip = 29; continue _fun0008 }
  27:
-                var5 = false;
+                var6 = false;
  29:
-                var _closure3_slot1 = var5;
-                if(!(var9 === var10)) { _fun0008_ip = 41; continue _fun0008 }
+                var _closure3_slot1 = var6;
+                if(!(var5 === var9)) { _fun0008_ip = 41; continue _fun0008 }
  37:
-                var9 = new Array(0);
+                var5 = new Array(0);
  41:
-                var _closure3_slot2 = var9;
-                if(!(var2 === var10)) { _fun0008_ip = 84; continue _fun0008 }
+                var _closure3_slot2 = var5;
+                if(!(var2 === var9)) { _fun0008_ip = 84; continue _fun0008 }
  49:
-                var7 = _closure1_slot0;
-                var8 = _closure1_slot2;
+                var8 = _closure1_slot0;
+                var10 = _closure1_slot2;
                 var3 = 10;
-                var3 = var8[var3];
-                var3 = var7.bind(var10)(var3);
+                var3 = var10[var3];
+                var3 = var8.bind(var9)(var3);
                 var3 = var3.ReactionTypes;
                 var2 = var3.NORMAL;
  84:
                 var _closure3_slot3 = var2;
-                var7 = -1;
-                var _closure3_slot4 = var7;
+                var8 = -1;
+                var _closure3_slot4 = var8;
                 var11 = var4.reactions;
-                var8 = var11.map;
+                var10 = var11.map;
                 var3 = function(arg1, arg2) {
                     _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                         var1 = arg1;
-                        var3 = _closure1_slot0;
-                        var5 = _closure1_slot2;
-                        var2 = 8;
-                        var2 = var5[var2];
-                        var9 = undefined;
-                        var7 = var3.bind(var9)(var2);
-                        var6 = var7.emojiEquals;
-                        var3 = var1.emoji;
-                        var2 = _closure3_slot0;
-                        var3 = var6.bind(var7)(var3, var2);
-                        var2 = var1;
-                        if(!var3) { _fun0009_ip = 706; continue _fun0009 }
- 62:
-                        var3 = arg2;
-                        _closure3_slot4 = var3;
-                        var6 = _closure3_slot3;
-                        var7 = _closure1_slot0;
+                        var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
+                        var2 = 8;
+                        var2 = var3[var2];
+                        var3 = undefined;
+                        var8 = var4.bind(var3)(var2);
+                        var7 = var8.emojiEquals;
+                        var6 = var1.emoji;
+                        var2 = _closure3_slot0;
+                        var6 = var7.bind(var8)(var6, var2);
+                        var2 = var1;
+                        if(!var6) { _fun0009_ip = 633; continue _fun0009 }
+ 62:
+                        var6 = arg2;
+                        _closure3_slot4 = var6;
+                        var7 = _closure3_slot3;
+                        var9 = _closure1_slot0;
+                        var6 = _closure1_slot2;
                         var8 = 10;
-                        var3 = var3[var8];
-                        var3 = var7.bind(var9)(var3);
-                        var3 = var3.ReactionTypes;
-                        var3 = var3.BURST;
-                        if(!(var6 !== var3)) { _fun0009_ip = 442; continue _fun0009 }
+                        var6 = var6[var8];
+                        var6 = var9.bind(var3)(var6);
+                        var6 = var6.ReactionTypes;
+                        var6 = var6.BURST;
+                        if(!(var7 !== var6)) { _fun0009_ip = 442; continue _fun0009 }
  112:
                         var6 = _closure3_slot3;
                         var7 = _closure1_slot0;
-                        var3 = _closure1_slot2;
-                        var3 = var3[var8];
-                        var3 = var7.bind(var9)(var3);
-                        var3 = var3.ReactionTypes;
-                        var3 = var3.VOTE;
-                        if(!(var6 !== var3)) { _fun0009_ip = 300; continue _fun0009 }
+                        var5 = _closure1_slot2;
+                        var5 = var5[var8];
+                        var5 = var7.bind(var3)(var5);
+                        var5 = var5.ReactionTypes;
+                        var5 = var5.VOTE;
+                        if(!(var6 !== var5)) { _fun0009_ip = 300; continue _fun0009 }
  152:
-                        var3 = _closure3_slot1;
-                        if(!var3) { _fun0009_ip = 171; continue _fun0009 }
+                        var5 = _closure3_slot1;
+                        if(!var5) { _fun0009_ip = 171; continue _fun0009 }
  159:
-                        var3 = var1.me_burst;
-                        if(var3) { _fun0009_ip = 298; continue _fun0009 }
+                        var5 = var1.me_burst;
+                        if(var5) { _fun0009_ip = 298; continue _fun0009 }
  171:
-                        var3 = _closure3_slot1;
-                        if(!var3) { _fun0009_ip = 187; continue _fun0009 }
+                        var5 = _closure3_slot1;
+                        if(!var5) { _fun0009_ip = 187; continue _fun0009 }
  178:
-                        var3 = var1.me;
-                        if(var3) { _fun0009_ip = 202; continue _fun0009 }
+                        var5 = var1.me;
+                        if(var5) { _fun0009_ip = 202; continue _fun0009 }
  187:
                         var6 = var1.count;
-                        var3 = 1;
-                        var8 = var6 + var3;
+                        var5 = 1;
+                        var8 = var6 + var5;
                         _fun0009_ip = 208; continue _fun0009;
  202:
                         var8 = var1.count;
  208:
-                        var3 = {};
-                        var12 = var3;
-                        var11 = var1;
-                        var6 = copyDataProperties(var12, var11);
+                        var5 = {};
+                        var11 = var5;
+                        var10 = var1;
+                        var6 = copyDataProperties(var11, var10);
                         var6 = 'count';
-                        var3[var6] = var8;
+                        var5[var6] = var8;
                         var7 = {};
-                        var11 = var1.count_details;
-                        var12 = var7;
-                        var6 = copyDataProperties(var12, var11);
+                        var10 = var1.count_details;
+                        var11 = var7;
+                        var6 = copyDataProperties(var11, var10);
                         var6 = 'normal';
                         var7[var6] = var8;
                         var6 = 'count_details';
-                        var3[var6] = var7;
+                        var5[var6] = var7;
                         var6 = _closure3_slot1;
                         var6 = !var6;
                         var7 = !var6;
@@ -839,65 +839,65 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var1.me;
  281:
                         var6 = 'me';
-                        var3[var6] = var7;
-                        var2 = var3;
-                        _fun0009_ip = 706; continue _fun0009;
+                        var5[var6] = var7;
+                        var2 = var5;
+                        _fun0009_ip = 633; continue _fun0009;
  298:
                         return var1;
  300:
-                        var7 = var1.count_details;
-                        var6 = null;
-                        var8 = var6 == var7;
+                        var6 = var1.count_details;
+                        var5 = null;
+                        var7 = var5 == var6;
                         var3 = undefined;
-                        if(var8) { _fun0009_ip = 323; continue _fun0009 }
+                        if(var7) { _fun0009_ip = 323; continue _fun0009 }
  317:
-                        var3 = var7.vote;
+                        var3 = var6.vote;
  323:
-                        var7 = var6 != var3;
-                        var6 = 0;
-                        if(!var7) { _fun0009_ip = 335; continue _fun0009 }
+                        var6 = var5 != var3;
+                        var5 = 0;
+                        if(!var6) { _fun0009_ip = 335; continue _fun0009 }
  332:
-                        var6 = var3;
+                        var5 = var3;
  335:
                         var3 = _closure3_slot1;
                         if(!var3) { _fun0009_ip = 354; continue _fun0009 }
  342:
                         var3 = var1.me_vote;
-                        var8 = var6;
+                        var7 = var5;
                         if(var3) { _fun0009_ip = 361; continue _fun0009 }
  354:
                         var3 = 1;
-                        var8 = var6 + var3;
+                        var7 = var5 + var3;
  361:
                         var3 = {};
-                        var12 = var3;
-                        var11 = var1;
-                        var6 = copyDataProperties(var12, var11);
-                        var7 = {};
-                        var11 = var1.count_details;
-                        var12 = var7;
-                        var6 = copyDataProperties(var12, var11);
-                        var6 = 'vote';
-                        var7[var6] = var8;
-                        var6 = 'count_details';
-                        var3[var6] = var7;
-                        var6 = _closure3_slot1;
-                        var6 = !var6;
-                        var7 = !var6;
-                        if(!var6) { _fun0009_ip = 425; continue _fun0009 }
+                        var11 = var3;
+                        var10 = var1;
+                        var5 = copyDataProperties(var11, var10);
+                        var6 = {};
+                        var10 = var1.count_details;
+                        var11 = var6;
+                        var5 = copyDataProperties(var11, var10);
+                        var5 = 'vote';
+                        var6[var5] = var7;
+                        var5 = 'count_details';
+                        var3[var5] = var6;
+                        var5 = _closure3_slot1;
+                        var5 = !var5;
+                        var6 = !var5;
+                        if(!var5) { _fun0009_ip = 425; continue _fun0009 }
  419:
-                        var7 = var1.me_vote;
+                        var6 = var1.me_vote;
  425:
-                        var6 = 'me_vote';
-                        var3[var6] = var7;
+                        var5 = 'me_vote';
+                        var3[var5] = var6;
                         var2 = var3;
-                        _fun0009_ip = 706; continue _fun0009;
+                        _fun0009_ip = 633; continue _fun0009;
  442:
                         var3 = _closure3_slot1;
                         if(!var3) { _fun0009_ip = 461; continue _fun0009 }
  449:
                         var3 = var1.me;
-                        if(var3) { _fun0009_ip = 708; continue _fun0009 }
+                        if(var3) { _fun0009_ip = 635; continue _fun0009 }
  461:
                         var3 = _closure3_slot1;
                         if(!var3) { _fun0009_ip = 477; continue _fun0009 }
@@ -905,151 +905,111 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var1.me_burst;
                         if(var3) { _fun0009_ip = 492; continue _fun0009 }
  477:
-                        var6 = var1.burst_count;
+                        var5 = var1.burst_count;
                         var3 = 1;
-                        var8 = var6 + var3;
+                        var7 = var5 + var3;
                         _fun0009_ip = 498; continue _fun0009;
  492:
-                        var8 = var1.burst_count;
+                        var7 = var1.burst_count;
  498:
-                        var6 = var1.burst_colors;
+                        var5 = var1.burst_colors;
                         var3 = null;
-                        if(!(var3 != var6)) { _fun0009_ip = 527; continue _fun0009 }
+                        if(!(var3 != var5)) { _fun0009_ip = 527; continue _fun0009 }
  510:
                         var3 = var1.burst_colors;
-                        var6 = var3.length;
+                        var5 = var3.length;
                         var3 = 0;
-                        if(!(!(var6 > var3))) { _fun0009_ip = 533; continue _fun0009 }
+                        if(!(!(var5 > var3))) { _fun0009_ip = 533; continue _fun0009 }
  527:
-                        var7 = _closure3_slot2;
+                        var5 = _closure3_slot2;
                         _fun0009_ip = 539; continue _fun0009;
  533:
-                        var7 = var1.burst_colors;
+                        var5 = var1.burst_colors;
  539:
                         var3 = {};
-                        var12 = var3;
-                        var11 = var1;
-                        var6 = copyDataProperties(var12, var11);
-                        var5 = _closure3_slot1;
-                        var5 = !var5;
-                        var6 = !var5;
-                        if(!var5) { _fun0009_ip = 570; continue _fun0009 }
+                        var11 = var3;
+                        var10 = var1;
+                        var6 = copyDataProperties(var11, var10);
+                        var4 = _closure3_slot1;
+                        var4 = !var4;
+                        var6 = !var4;
+                        if(!var4) { _fun0009_ip = 570; continue _fun0009 }
  564:
                         var6 = var1.me_burst;
  570:
-                        var5 = 'me_burst';
-                        var3[var5] = var6;
-                        var5 = 'burst_count';
-                        var3[var5] = var8;
+                        var4 = 'me_burst';
+                        var3[var4] = var6;
+                        var4 = 'burst_count';
+                        var3[var4] = var7;
                         var6 = {};
-                        var11 = var1.count_details;
-                        var12 = var6;
-                        var5 = copyDataProperties(var12, var11);
-                        var5 = 'burst';
-                        var6[var5] = var8;
-                        var5 = 'count_details';
-                        var3[var5] = var6;
-                        var5 = 'burst_colors';
-                        var3[var5] = var7;
-                        var8 = _closure1_slot0;
-                        var10 = _closure1_slot2;
-                        var4 = 11;
-                        var4 = var10[var4];
-                        var6 = var8.bind(var9)(var4);
-                        var5 = var6.buildPlatformedThemedEmojiColorPalette;
-                        var4 = {};
-                        var4['colors'] = var7;
-                        var7 = 12;
-                        var7 = var10[var7];
-                        var8 = var8.bind(var9)(var7);
-                        var7 = var8.isIOS;
-                        var7 = var7.bind(var8)();
-                        var4['shouldProcessMobileColors'] = var7;
-                        var5 = var5.bind(var6)(var4);
-                        var4 = 'themedBurstColors';
+                        var10 = var1.count_details;
+                        var11 = var6;
+                        var4 = copyDataProperties(var11, var10);
+                        var4 = 'burst';
+                        var6[var4] = var7;
+                        var4 = 'count_details';
+                        var3[var4] = var6;
+                        var4 = 'burst_colors';
                         var3[var4] = var5;
                         var2 = var3;
- 706:
+ 633:
                         return var2;
- 708:
+ 635:
                         return var1;
                     }
                 };
-                var3 = var8.bind(var11)(var3);
+                var3 = var10.bind(var11)(var3);
                 var1 = _closure3_slot4;
-                if(!(var7 === var1)) { _fun0008_ip = 481; continue _fun0008 }
+                if(!(var8 === var1)) { _fun0008_ip = 391; continue _fun0008 }
  130:
-                var7 = _closure1_slot0;
-                var1 = _closure1_slot2;
-                var11 = 10;
-                var1 = var1[var11];
-                var1 = var7.bind(var10)(var1);
-                var1 = var1.ReactionTypes;
-                var1 = var1.BURST;
-                if(!(var2 !== var1)) { _fun0008_ip = 337; continue _fun0008 }
+                var11 = _closure1_slot0;
+                var8 = _closure1_slot2;
+                var10 = 10;
+                var8 = var8[var10];
+                var8 = var11.bind(var9)(var8);
+                var8 = var8.ReactionTypes;
+                var8 = var8.BURST;
+                if(!(var2 !== var8)) { _fun0008_ip = 334; continue _fun0008 }
  172:
-                var7 = _closure1_slot0;
+                var8 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var1 = var1[var11];
-                var1 = var7.bind(var10)(var1);
+                var1 = var1[var10];
+                var1 = var8.bind(var9)(var1);
                 var1 = var1.ReactionTypes;
                 var1 = var1.VOTE;
                 if(!(var2 !== var1)) { _fun0008_ip = 267; continue _fun0008 }
  205:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': null, 'me_burst': false, 'count': 1, 'count_details': null, 'burst_count': 0};
-                var1['emoji'] = var6;
-                var1['me'] = var5;
-                var7 = {'burst': 0, 'normal': 1};
-                var1['count_details'] = var7;
-                var7 = new Array(0);
-                var1['burst_colors'] = var7;
+                var1['emoji'] = var7;
+                var1['me'] = var6;
+                var8 = {'burst': 0, 'normal': 1};
+                var1['count_details'] = var8;
+                var8 = new Array(0);
+                var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 481; continue _fun0008;
+                _fun0008_ip = 391; continue _fun0008;
  267:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
-                var1['emoji'] = var6;
-                var1['me_vote'] = var5;
-                var7 = {'burst': 0, 'normal': 0, 'vote': 1};
-                var1['count_details'] = var7;
-                var7 = new Array(0);
-                var1['burst_colors'] = var7;
+                var1['emoji'] = var7;
+                var1['me_vote'] = var6;
+                var8 = {'burst': 0, 'normal': 0, 'vote': 1};
+                var1['count_details'] = var8;
+                var8 = new Array(0);
+                var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 481; continue _fun0008;
- 337:
+                _fun0008_ip = 391; continue _fun0008;
+ 334:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': null, 'count': 0, 'count_details': null, 'burst_count': 1};
-                var1['emoji'] = var6;
-                var1['me_burst'] = var5;
-                var5 = {'burst': 1, 'normal': 0};
-                var1['count_details'] = var5;
-                var1['burst_colors'] = var9;
-                var6 = _closure1_slot0;
-                var7 = _closure1_slot2;
-                var5 = 11;
-                var5 = var7[var5];
-                var7 = var6.bind(var10)(var5);
-                var6 = var7.buildPlatformedThemedEmojiColorPalette;
-                var5 = {};
-                var11 = null;
-                if(!(var11 == var9)) { _fun0008_ip = 427; continue _fun0008 }
- 423:
-                var9 = new Array(0);
- 427:
-                var5['colors'] = var9;
-                var9 = _closure1_slot0;
-                var11 = _closure1_slot2;
-                var8 = 12;
-                var8 = var11[var8];
-                var9 = var9.bind(var10)(var8);
-                var8 = var9.isIOS;
-                var8 = var8.bind(var9)();
-                var5['shouldProcessMobileColors'] = var8;
-                var5 = var6.bind(var7)(var5);
-                var1['themedBurstColors'] = var5;
+                var1['emoji'] = var7;
+                var1['me_burst'] = var6;
+                var6 = {'burst': 1, 'normal': 0};
+                var1['count_details'] = var6;
+                var1['burst_colors'] = var5;
                 var1 = var2.bind(var3)(var1);
- 481:
+ 391:
                 var2 = var4.set;
                 var1 = 'reactions';
                 var1 = var2.bind(var4)(var1, var3);
@@ -1554,7 +1514,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  120:
                 var4 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 13;
+                var2 = 11;
                 var2 = var6[var2];
                 var2 = var4.bind(var5)(var2);
                 var2 = var2.ApplicationIntegrationType;
@@ -1616,7 +1576,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var7 = var7.bind(var1)(var6);
-    var8 = 14;
+    var8 = 12;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;

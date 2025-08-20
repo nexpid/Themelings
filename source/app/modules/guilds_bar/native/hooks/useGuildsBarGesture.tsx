@@ -677,18 +677,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.positionPercentage;
             var1 = var8 != var5;
             var3 = undefined;
-            if(!var1) { _fun0008_ip = 477; continue _fun0008 }
+            if(!var1) { _fun0008_ip = 495; continue _fun0008 }
  199:
             var9 = var8 == var5;
             var1 = undefined;
-            if(var9) { _fun0008_ip = 474; continue _fun0008 }
+            if(var9) { _fun0008_ip = 492; continue _fun0008 }
  211:
             var10 = var5.section;
             var9 = _closure1_slot11;
             var9 = var9.GUILDS;
             var9 = var10 < var9;
             var1 = undefined;
-            if(var9) { _fun0008_ip = 474; continue _fun0008 }
+            if(var9) { _fun0008_ip = 492; continue _fun0008 }
  238:
             var10 = _closure1_slot7;
             var9 = var10.getFastListGuildFolders;
@@ -700,7 +700,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10[var9];
             var10 = var8 != var9;
             var1 = undefined;
-            if(!var10) { _fun0008_ip = 474; continue _fun0008 }
+            if(!var10) { _fun0008_ip = 492; continue _fun0008 }
  287:
             var11 = var5.type;
             var12 = _closure1_slot0;
@@ -710,8 +710,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var12.bind(var6)(var10);
             var10 = var10.FastListItemTypes;
             var10 = var10.SECTION;
-            if(!(var10 !== var11)) { _fun0008_ip = 446; continue _fun0008 }
- 328:
+            if(!(var10 !== var11)) { _fun0008_ip = 464; continue _fun0008 }
+ 331:
             var12 = _closure1_slot0;
             var10 = _closure1_slot2;
             var10 = var10[var13];
@@ -719,45 +719,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.FastListItemTypes;
             var10 = var10.ITEM;
             var1 = undefined;
-            if(!(var10 === var11)) { _fun0008_ip = 474; continue _fun0008 }
- 363:
+            if(!(var10 === var11)) { _fun0008_ip = 492; continue _fun0008 }
+ 369:
             var11 = var9.type;
             var10 = _closure1_slot8;
             var10 = var10.ROOT;
             var1 = undefined;
-            if(!(var11 !== var10)) { _fun0008_ip = 474; continue _fun0008 }
- 384:
+            if(!(var11 !== var10)) { _fun0008_ip = 492; continue _fun0008 }
+ 390:
             var12 = var9.type;
             var10 = _closure1_slot8;
             var11 = var10.FOLDER;
             var10 = var9;
-            if(!(var12 === var11)) { _fun0008_ip = 420; continue _fun0008 }
- 406:
+            if(!(var12 === var11)) { _fun0008_ip = 438; continue _fun0008 }
+ 412:
             var12 = var9.children;
             var11 = var5.item;
-            var10 = var12[var11];
- 420:
+            var12 = var12[var11];
+            var11 = var8 == var12;
+            var10 = var12;
+            var1 = undefined;
+            if(var11) { _fun0008_ip = 492; continue _fun0008 }
+ 438:
             var12 = var10.type;
             var11 = _closure1_slot8;
             var11 = var11.GUILD;
             var1 = undefined;
-            if(!(var12 === var11)) { _fun0008_ip = 474; continue _fun0008 }
- 441:
+            if(!(var12 === var11)) { _fun0008_ip = 492; continue _fun0008 }
+ 459:
             var1 = var10;
-            _fun0008_ip = 474; continue _fun0008;
- 446:
-            if(!(var8 != var9)) { _fun0008_ip = 472; continue _fun0008 }
- 450:
+            _fun0008_ip = 492; continue _fun0008;
+ 464:
+            if(!(var8 != var9)) { _fun0008_ip = 490; continue _fun0008 }
+ 468:
             var8 = var9.type;
             var7 = _closure1_slot8;
             var7 = var7.FOLDER;
             var1 = var9;
-            if(!(var8 !== var7)) { _fun0008_ip = 474; continue _fun0008 }
- 472:
+            if(!(var8 !== var7)) { _fun0008_ip = 492; continue _fun0008 }
+ 490:
             var1 = undefined;
- 474:
+ 492:
             var3 = var1;
- 477:
+ 495:
             var1 = {};
             var1['item'] = var5;
             var5 = global;

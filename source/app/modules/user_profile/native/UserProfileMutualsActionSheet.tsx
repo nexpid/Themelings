@@ -375,10 +375,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  243:
             var6 = var12.bind(var4)(var6);
             var7['label'] = var6;
-            if(!(var8 != var15)) { _fun0002_ip = 402; continue _fun0002 }
+            if(!(var8 != var15)) { _fun0002_ip = 406; continue _fun0002 }
  259:
             var6 = var15.length;
-            if(!(var10 !== var6)) { _fun0002_ip = 332; continue _fun0002 }
+            if(!(var10 !== var6)) { _fun0002_ip = 336; continue _fun0002 }
  268:
             var14 = _closure1_slot9;
             var12 = _closure1_slot0;
@@ -426,8 +426,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var6['renderItem'] = var15;
             var6 = var14.bind(var4)(var12, var6);
-            _fun0002_ip = 400; continue _fun0002;
- 332:
+            _fun0002_ip = 404; continue _fun0002;
+ 336:
             var15 = _closure1_slot9;
             var14 = _closure1_slot5;
             var12 = {};
@@ -444,9 +444,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var18.bind(var4)(var17, var16);
             var12['children'] = var16;
             var6 = var15.bind(var4)(var14, var12);
- 400:
-            _fun0002_ip = 448; continue _fun0002;
- 402:
+ 404:
+            _fun0002_ip = 452; continue _fun0002;
+ 406:
             var15 = _closure1_slot9;
             var14 = _closure1_slot5;
             var12 = {};
@@ -458,7 +458,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var18.bind(var4)(var17, var16);
             var12['children'] = var16;
             var6 = var15.bind(var4)(var14, var12);
- 448:
+ 452:
             var7['page'] = var6;
             var6 = new Array(2);
             var6[0] = var7;
@@ -472,17 +472,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.bind(var4)(var12);
             var15 = var8 == var13;
             var12 = undefined;
-            if(var15) { _fun0002_ip = 507; continue _fun0002 }
- 502:
+            if(var15) { _fun0002_ip = 511; continue _fun0002 }
+ 506:
             var12 = var13.length;
- 507:
+ 511:
             var12 = var14.bind(var4)(var12);
             var7['label'] = var12;
-            if(!(var8 != var13)) { _fun0002_ip = 666; continue _fun0002 }
- 523:
+            if(!(var8 != var13)) { _fun0002_ip = 674; continue _fun0002 }
+ 527:
             var8 = var13.length;
-            if(!(var10 !== var8)) { _fun0002_ip = 596; continue _fun0002 }
- 532:
+            if(!(var10 !== var8)) { _fun0002_ip = 604; continue _fun0002 }
+ 536:
             var12 = _closure1_slot9;
             var10 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -529,8 +529,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var8['renderItem'] = var13;
             var8 = var12.bind(var4)(var10, var8);
-            _fun0002_ip = 664; continue _fun0002;
- 596:
+            _fun0002_ip = 672; continue _fun0002;
+ 604:
             var13 = _closure1_slot9;
             var12 = _closure1_slot5;
             var10 = {};
@@ -547,9 +547,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var16.bind(var4)(var15, var14);
             var10['children'] = var14;
             var8 = var13.bind(var4)(var12, var10);
- 664:
-            _fun0002_ip = 712; continue _fun0002;
- 666:
+ 672:
+            _fun0002_ip = 720; continue _fun0002;
+ 674:
             var13 = _closure1_slot9;
             var12 = _closure1_slot5;
             var10 = {};
@@ -561,7 +561,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var16.bind(var4)(var15, var14);
             var10['children'] = var14;
             var8 = var13.bind(var4)(var12, var10);
- 712:
+ 720:
             var7['page'] = var8;
             var6[1] = var7;
             var2['items'] = var6;

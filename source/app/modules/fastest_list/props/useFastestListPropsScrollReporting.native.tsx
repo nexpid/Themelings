@@ -82,11 +82,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onScroll'] = var6;
             var2 = var4.bind(var5)(var2);
             var4 = var3.scrollReporting;
-            if(!(var1 !== var4)) { _fun0001_ip = 203; continue _fun0001 }
- 141:
+            if(!(var1 !== var4)) { _fun0001_ip = 205; continue _fun0001 }
+ 143:
             var1 = 'animatedCallbacks';
-            if(!(var1 !== var4)) { _fun0001_ip = 188; continue _fun0001 }
- 151:
+            if(!(var1 !== var4)) { _fun0001_ip = 190; continue _fun0001 }
+ 153:
             var1 = {};
             var4 = var3.onScroll;
             var1['onScroll'] = var4;
@@ -95,12 +95,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.onScrollEndDrag;
             var1['onScrollEndDrag'] = var4;
             return var1;
- 188:
+ 190:
             var1 = {};
             var3 = var3.scrollHandlerAnimated;
             var1['onScroll'] = var3;
             return var1;
- 203:
+ 205:
             var1 = {};
             var1['onScroll'] = var2;
             return var1;

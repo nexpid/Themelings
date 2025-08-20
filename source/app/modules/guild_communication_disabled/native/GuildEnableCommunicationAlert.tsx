@@ -261,10 +261,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var8] = var9;
             var9 = var20 == var5;
             var8 = undefined;
-            if(var9) { _fun0001_ip = 336; continue _fun0001 }
- 330:
+            if(var9) { _fun0001_ip = 340; continue _fun0001 }
+ 334:
             var8 = var5.onClose;
- 336:
+ 340:
             var5 = 'onClose';
             var1[var5] = var8;
             var5 = 'onCancel';
@@ -319,10 +319,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var21.bind(var22)(var24, var20, var23);
             var22 = var20 != var21;
             var20 = '';
-            if(!var22) { _fun0001_ip = 584; continue _fun0001 }
- 581:
+            if(!var22) { _fun0001_ip = 588; continue _fun0001 }
+ 585:
             var20 = var21;
- 584:
+ 588:
             var11['username'] = var20;
             var19 = function countdown() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {

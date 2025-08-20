@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  81:
             var _closure2_slot0 = var5;
             var2 = null;
-            if(!(var2 != var5)) { _fun0001_ip = 109; continue _fun0001 }
+            if(!(var2 != var5)) { _fun0001_ip = 113; continue _fun0001 }
  91:
             var2 = function fetchJoinSecret(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -130,14 +130,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var2.bind(var3)(var4, var1);
-            _fun0001_ip = 130; continue _fun0001;
- 109:
+            _fun0001_ip = 134; continue _fun0001;
+ 113:
             var2 = global;
             var4 = var2.Promise;
             var3 = var4.resolve;
             var2 = false;
             var1 = var3.bind(var4)(var2);
- 130:
+ 134:
             return var1;
         }
     };

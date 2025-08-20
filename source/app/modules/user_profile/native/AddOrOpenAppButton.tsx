@@ -86,8 +86,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var4.bind(var6)(var2, var3);
             var6 = var5.customInstallUrl;
             var2 = null;
-            if(!(var2 != var6)) { _fun0001_ip = 197; continue _fun0001 }
- 133:
+            if(!(var2 != var6)) { _fun0001_ip = 201; continue _fun0001 }
+ 137:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 13;
@@ -96,16 +96,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var3.isDiscordUrl;
             var2 = var2.bind(var3)(var6);
-            if(var2) { _fun0001_ip = 197; continue _fun0001 }
- 169:
+            if(var2) { _fun0001_ip = 201; continue _fun0001 }
+ 173:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 14;
             var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var7 = var2.LinkExternalSmallIcon;
-            _fun0001_ip = 225; continue _fun0001;
- 197:
+            _fun0001_ip = 229; continue _fun0001;
+ 201:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
             var2 = 15;
@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
             var7 = var2.PlusSmallIcon;
- 225:
+ 229:
             var6 = _closure1_slot5;
             var4 = var6.useMemo;
             var3 = function() {

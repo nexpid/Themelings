@@ -16,44 +16,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var7.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var7 = var6[var1];
-    var4 = metroImportAll;
+    var4 = var6[var1];
     var1 = undefined;
-    var7 = var4.bind(var1)(var7);
-    var _closure1_slot3 = var7;
+    var4 = var8.bind(var1)(var4);
+    var _closure1_slot3 = var4;
     var13 = 1;
-    var4 = var6[var13];
-    var4 = var5.bind(var1)(var4);
-    var9 = var4.View;
-    var _closure1_slot4 = var9;
-    var9 = var4.ActivityIndicator;
-    var _closure1_slot5 = var9;
-    var11 = var4.StyleSheet;
-    var4 = var4.ScrollView;
-    var _closure1_slot6 = var4;
+    var7 = var6[var13];
+    var4 = metroImportAll;
+    var7 = var4.bind(var1)(var7);
+    var _closure1_slot4 = var7;
     var4 = 2;
     var4 = var6[var4];
-    var4 = var8.bind(var1)(var4);
+    var4 = var5.bind(var1)(var4);
+    var9 = var4.View;
+    var _closure1_slot5 = var9;
+    var9 = var4.ActivityIndicator;
+    var _closure1_slot6 = var9;
+    var11 = var4.StyleSheet;
+    var4 = var4.ScrollView;
     var _closure1_slot7 = var4;
     var4 = 3;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.QuestsExperimentLocations;
+    var4 = var8.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var9 = var4.jsx;
-    var _closure1_slot9 = var9;
-    var4 = var4.jsxs;
-    var _closure1_slot10 = var4;
+    var4 = var4.QuestsExperimentLocations;
+    var _closure1_slot9 = var4;
     var4 = 5;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.UserSettingsSections;
+    var _closure1_slot10 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var9 = var4.jsx;
+    var _closure1_slot11 = var9;
+    var4 = var4.jsxs;
+    var _closure1_slot12 = var4;
+    var4 = 7;
     var4 = var6[var4];
     var4 = var8.bind(var1)(var4);
     var4 = var4.spacing;
     var12 = var4.PX_16;
-    var _closure1_slot11 = var12;
-    var4 = 6;
+    var _closure1_slot13 = var12;
+    var4 = 8;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
@@ -73,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10[var11] = var12;
     var4['loadingContainer'] = var10;
     var4 = var8.bind(var9)(var4);
-    var _closure1_slot12 = var4;
+    var _closure1_slot14 = var4;
     var4 = var7.forwardRef;
     var2 = function(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -83,50 +92,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var2.isNavigationComplete;
             var1 = var2.scrollToQuestId;
             var5 = var2.ListEmptyComponent;
-            var14 = var2.ListFooterComponent;
-            var11 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var2 = 9;
-            var2 = var13[var2];
+            var15 = var2.ListFooterComponent;
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var2 = 12;
+            var2 = var14[var2];
             var6 = undefined;
-            var4 = var11.bind(var6)(var2);
+            var4 = var13.bind(var6)(var2);
             var3 = var4.useIsEligibleForQuests;
             var2 = {};
-            var8 = _closure1_slot8;
+            var8 = _closure1_slot9;
             var8 = var8.QUEST_HOME_MOBILE;
             var2['location'] = var8;
-            var3 = var3.bind(var4)(var2);
-            var2 = _closure1_slot12;
+            var4 = var3.bind(var4)(var2);
+            var2 = _closure1_slot14;
             var8 = var2.bind(var6)();
-            var4 = _closure1_slot1;
-            var2 = 10;
-            var2 = var13[var2];
-            var2 = var4.bind(var6)(var2);
+            var3 = _closure1_slot1;
+            var2 = 13;
+            var2 = var14[var2];
+            var2 = var3.bind(var6)(var2);
             var2 = var2.bind(var6)();
-            var17 = var2.bottom;
-            var4 = 11;
-            var2 = var13[var4];
-            var16 = var11.bind(var6)(var2);
-            var15 = var16.useFilteredQuests;
-            var2 = var13[var4];
-            var2 = var11.bind(var6)(var2);
+            var18 = var2.bottom;
+            var11 = 14;
+            var2 = var14[var11];
+            var16 = var13.bind(var6)(var2);
+            var3 = var16.useFilteredQuests;
+            var2 = var14[var11];
+            var2 = var13.bind(var6)(var2);
             var2 = var2.QuestTabs;
             var2 = var2.ALL;
-            var2 = var15.bind(var16)(var2);
-            var15 = var2.quests;
-            var _closure2_slot0 = var15;
-            var2 = var2.isFetchingCurrentQuests;
-            var4 = var13[var4];
-            var11 = var11.bind(var6)(var4);
-            var4 = var11.useExpiredQuestsMap;
-            var4 = var4.bind(var11)();
-            var _closure2_slot1 = var4;
-            var19 = _closure1_slot3;
-            var13 = var19.useMemo;
-            var11 = new Array(2);
-            var11[0] = var15;
-            var11[1] = var4;
-            var4 = function() {
+            var2 = var3.bind(var16)(var2);
+            var16 = var2.quests;
+            var _closure2_slot0 = var16;
+            var3 = var2.isFetchingCurrentQuests;
+            var2 = var2.hasFetched;
+            var11 = var14[var11];
+            var13 = var13.bind(var6)(var11);
+            var11 = var13.useExpiredQuestsMap;
+            var11 = var11.bind(var13)();
+            var _closure2_slot1 = var11;
+            var21 = _closure1_slot4;
+            var14 = var21.useMemo;
+            var13 = new Array(2);
+            var13[0] = var16;
+            var13[1] = var11;
+            var11 = function() {
                 var3 = _closure2_slot0;
                 var2 = var3.filter;
                 var1 = function(arg1) {
@@ -162,47 +172,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var15 = var13.bind(var19)(var4, var11);
-            var4 = {};
-            var4['scrollToQuestId'] = var1;
+            var16 = var14.bind(var21)(var11, var13);
+            var11 = {};
+            var11['scrollToQuestId'] = var1;
             var1 = function(arg1) {
                 var2 = arg1;
-                var11 = var2.scrollToQuestId;
-                var _closure3_slot0 = var11;
-                var5 = _closure1_slot0;
+                var12 = var2.scrollToQuestId;
+                var _closure3_slot0 = var12;
+                var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var3 = 7;
-                var4 = var4[var3];
-                var3 = undefined;
-                var6 = var5.bind(var3)(var4);
-                var5 = var6.useStateFromStores;
-                var3 = _closure1_slot7;
-                var4 = new Array(1);
-                var4[0] = var3;
-                var3 = function() {
-                    var1 = _closure1_slot7;
+                var2 = 9;
+                var2 = var4[var2];
+                var14 = undefined;
+                var5 = var3.bind(var14)(var2);
+                var4 = var5.useStateFromStores;
+                var2 = _closure1_slot8;
+                var3 = new Array(1);
+                var3[0] = var2;
+                var2 = function() {
+                    var1 = _closure1_slot8;
                     var1 = var1.useReducedMotion;
                     return var1;
                 };
-                var9 = var5.bind(var6)(var4, var3);
-                var _closure3_slot1 = var9;
-                var8 = _closure1_slot3;
-                var3 = var8.useRef;
+                var13 = var4.bind(var5)(var3, var2);
+                var _closure3_slot1 = var13;
+                var10 = _closure1_slot4;
+                var3 = var10.useRef;
                 var2 = null;
-                var6 = var3.bind(var8)(var2);
-                var _closure3_slot2 = var6;
-                var3 = var8.useRef;
+                var7 = var3.bind(var10)(var2);
+                var _closure3_slot2 = var7;
+                var4 = var10.useRef;
                 var2 = {};
-                var4 = {};
-                var5 = 0;
-                var4['scrollY'] = var5;
-                var2['parent'] = var4;
-                var4 = {};
-                var2['children'] = var4;
-                var4 = var3.bind(var8)(var2);
-                var _closure3_slot3 = var4;
-                var5 = var8.useCallback;
-                var3 = function(arg1) {
+                var5 = {};
+                var3 = 0;
+                var5['scrollY'] = var3;
+                var2['parent'] = var5;
+                var5 = {};
+                var2['children'] = var5;
+                var2 = var4.bind(var10)(var2);
+                var _closure3_slot3 = var2;
+                var6 = var10.useCallback;
+                var5 = function(arg1) {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                         var8 = arg1;
@@ -253,13 +263,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var2 = new Array(0);
-                var10 = var5.bind(var8)(var3, var2);
-                var _closure3_slot4 = var10;
-                var5 = var8.useCallback;
-                var3 = new Array(1);
-                var3[0] = var10;
-                var2 = function(arg1) {
+                var4 = new Array(0);
+                var4 = var6.bind(var10)(var5, var4);
+                var _closure3_slot4 = var4;
+                var9 = var10.useCallback;
+                var6 = new Array(1);
+                var6[0] = var4;
+                var5 = function(arg1) {
                     var2 = _closure3_slot3;
                     var2 = var2.current;
                     var3 = var2.parent;
@@ -273,11 +283,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var1)();
                     return var1;
                 };
-                var5 = var5.bind(var8)(var2, var3);
-                var7 = var8.useCallback;
-                var3 = new Array(1);
-                var3[0] = var10;
-                var2 = function(arg1) {
+                var6 = var9.bind(var10)(var5, var6);
+                var11 = var10.useCallback;
+                var9 = new Array(1);
+                var9[0] = var4;
+                var5 = function(arg1) {
                     var2 = _closure3_slot3;
                     var2 = var2.current;
                     var3 = var2.parent;
@@ -290,95 +300,213 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var1)();
                     return var1;
                 };
-                var3 = var7.bind(var8)(var2, var3);
-                var7 = var8.useCallback;
-                var2 = new Array(3);
-                var2[0] = var11;
-                var2[1] = var10;
-                var2[2] = var9;
-                var1 = function(arg1, arg2) {
+                var5 = var11.bind(var10)(var5, var9);
+                var11 = var10.useCallback;
+                var9 = new Array(1);
+                var9[0] = var4;
+                var4 = function(arg1, arg2) {
+                    var3 = arg2;
+                    var5 = _closure3_slot3;
+                    var2 = var5.current;
+                    var4 = var2.children;
+                    var2 = {};
+                    var5 = var5.current;
+                    var5 = var5.children;
+                    var7 = var5[var3];
+                    var8 = var2;
+                    var5 = copyDataProperties(var8, var7);
+                    var5 = arg1;
+                    var5 = var5.nativeEvent;
+                    var6 = var5.layout;
+                    var5 = 'layout';
+                    var2[var5] = var6;
+                    var4[var3] = var2;
+                    var2 = _closure3_slot4;
+                    var1 = undefined;
+                    var2 = var2.bind(var1)(var3);
+                    return var1;
+                };
+                var4 = var11.bind(var10)(var4, var9);
+                var11 = var10.useState;
+                var9 = false;
+                var11 = var11.bind(var10)(var9);
+                var9 = _closure1_slot3;
+                var8 = 2;
+                var8 = var9.bind(var14)(var11, var8);
+                var14 = var8[var3];
+                var _closure3_slot5 = var14;
+                var3 = 1;
+                var3 = var8[var3];
+                var _closure3_slot6 = var3;
+                var9 = var10.useCallback;
+                var8 = function() {
+                    var3 = _closure3_slot6;
+                    var1 = undefined;
+                    var2 = true;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                };
+                var3 = new Array(0);
+                var3 = var9.bind(var10)(var8, var3);
+                var11 = var10.useCallback;
+                var9 = new Array(1);
+                var9[0] = var13;
+                var8 = function(arg1) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                        var5 = arg1;
-                        var3 = arg2;
-                        var2 = _closure3_slot0;
-                        if(!(var3 === var2)) { _fun0004_ip = 126; continue _fun0004 }
- 17:
-                        var2 = _closure3_slot2;
-                        var6 = var2.current;
-                        var2 = null;
-                        if(!(var2 != var6)) { _fun0004_ip = 126; continue _fun0004 }
- 32:
-                        var4 = var6.scrollTo;
-                        var2 = {};
-                        var7 = var5.nativeEvent;
-                        var7 = var7.layout;
-                        var8 = var7.y;
-                        var10 = _closure1_slot0;
-                        var9 = _closure1_slot2;
-                        var7 = 8;
-                        var9 = var9[var7];
-                        var7 = undefined;
-                        var7 = var10.bind(var7)(var9);
-                        var9 = var7.QUEST_CARD_SPACING;
-                        var7 = 0.5;
-                        var7 = var7 * var9;
-                        var7 = var8 + var7;
-                        var2['y'] = var7;
-                        var7 = _closure3_slot1;
-                        var7 = !var7;
-                        var2['animated'] = var7;
-                        var2 = var4.bind(var6)(var2);
- 126:
-                        var6 = _closure3_slot3;
-                        var2 = var6.current;
-                        var4 = var2.children;
-                        var2 = {};
-                        var6 = var6.current;
-                        var6 = var6.children;
-                        var11 = var6[var3];
-                        var12 = var2;
-                        var6 = copyDataProperties(var12, var11);
-                        var5 = var5.nativeEvent;
-                        var6 = var5.layout;
-                        var5 = 'layout';
-                        var2[var5] = var6;
-                        var4[var3] = var2;
-                        var2 = _closure3_slot4;
+                        var6 = arg1;
+                        var1 = _closure3_slot2;
+                        var1 = var1.current;
+                        var3 = null;
+                        var1 = var3 != var1;
+                        if(!var1) { _fun0004_ip = 75; continue _fun0004 }
+ 24:
+                        var2 = _closure3_slot3;
+                        var2 = var2.current;
+                        var2 = var2.children;
+                        var5 = var2[var6];
+                        var7 = var3 == var5;
+                        var2 = undefined;
+                        if(var7) { _fun0004_ip = 71; continue _fun0004 }
+ 51:
+                        var5 = var5.layout;
+                        var7 = var3 == var5;
+                        var2 = undefined;
+                        if(var7) { _fun0004_ip = 71; continue _fun0004 }
+ 66:
+                        var2 = var5.y;
+ 71:
+                        var1 = var3 != var2;
+ 75:
+                        if(!var1) { _fun0004_ip = 194; continue _fun0004 }
+ 78:
+                        var1 = _closure3_slot2;
+                        var3 = var1.current;
+                        var2 = var3.scrollTo;
+                        var1 = {};
+                        var5 = _closure3_slot3;
+                        var5 = var5.current;
+                        var5 = var5.children;
+                        var5 = var5[var6];
+                        var5 = var5.layout;
+                        var6 = var5.y;
+                        var8 = _closure1_slot0;
+                        var7 = _closure1_slot2;
+                        var5 = 10;
+                        var7 = var7[var5];
+                        var5 = undefined;
+                        var5 = var8.bind(var5)(var7);
+                        var7 = var5.QUEST_CARD_SPACING;
+                        var5 = -0.5;
+                        var5 = var5 * var7;
+                        var5 = var6 + var5;
+                        var1['y'] = var5;
+                        var4 = _closure3_slot1;
+                        var4 = !var4;
+                        var1['animated'] = var4;
+                        var1 = var2.bind(var3)(var1);
+ 194:
                         var1 = undefined;
-                        var2 = var2.bind(var1)(var3);
                         return var1;
                     }
                 };
-                var2 = var7.bind(var8)(var1, var2);
+                var11 = var11.bind(var10)(var8, var9);
+                var _closure3_slot7 = var11;
+                var9 = var10.useEffect;
+                var8 = new Array(6);
+                var8[0] = var14;
+                var8[1] = var13;
+                var8[2] = var12;
+                var8[3] = var2;
+                var8[4] = var7;
+                var8[5] = var11;
+                var1 = function() {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+                        var2 = _closure3_slot0;
+                        var4 = null;
+                        var2 = var4 != var2;
+                        if(!var2) { _fun0005_ip = 20; continue _fun0005 }
+ 16:
+                        var2 = _closure3_slot5;
+ 20:
+                        if(!var2) { _fun0005_ip = 78; continue _fun0005 }
+ 23:
+                        var3 = _closure3_slot3;
+                        var3 = var3.current;
+                        var5 = var3.children;
+                        var3 = _closure3_slot0;
+                        var5 = var5[var3];
+                        var6 = var4 == var5;
+                        var3 = undefined;
+                        if(var6) { _fun0005_ip = 74; continue _fun0005 }
+ 54:
+                        var5 = var5.layout;
+                        var6 = var4 == var5;
+                        var3 = undefined;
+                        if(var6) { _fun0005_ip = 74; continue _fun0005 }
+ 69:
+                        var3 = var5.y;
+ 74:
+                        var2 = var4 != var3;
+ 78:
+                        if(!var2) { _fun0005_ip = 94; continue _fun0005 }
+ 81:
+                        var3 = _closure3_slot2;
+                        var3 = var3.current;
+                        var2 = var4 != var3;
+ 94:
+                        if(!var2) { _fun0005_ip = 156; continue _fun0005 }
+ 97:
+                        var2 = _closure3_slot7;
+                        var1 = _closure3_slot0;
+                        var4 = undefined;
+                        var1 = var2.bind(var4)(var1);
+                        var3 = _closure1_slot1;
+                        var5 = _closure1_slot2;
+                        var2 = 11;
+                        var2 = var5[var2];
+                        var3 = var3.bind(var4)(var2);
+                        var2 = var3.clearSubsection;
+                        var1 = _closure1_slot10;
+                        var1 = var1.QUESTS;
+                        var1 = var2.bind(var3)(var1);
+ 156:
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var1 = var9.bind(var10)(var1, var8);
                 var1 = {};
-                var1['scrollViewRef'] = var6;
-                var1['onScroll'] = var5;
-                var1['visibilityRef'] = var4;
-                var1['onLayout'] = var3;
-                var1['onQuestCardLayout'] = var2;
+                var1['scrollViewRef'] = var7;
+                var1['handleListScroll'] = var6;
+                var1['handleListLayout'] = var5;
+                var1['handleQuestCardLayout'] = var4;
+                var1['handleLastItemLayout'] = var3;
+                var1['visibilityRef'] = var2;
                 return var1;
             };
-            var1 = var1.bind(var6)(var4);
-            var18 = var1.scrollViewRef;
-            var _closure2_slot2 = var18;
-            var16 = var1.onScroll;
-            var13 = var1.onLayout;
-            var4 = var1.onQuestCardLayout;
-            var _closure2_slot3 = var4;
+            var1 = var1.bind(var6)(var11);
+            var19 = var1.scrollViewRef;
+            var _closure2_slot2 = var19;
+            var14 = var1.handleLastItemLayout;
+            var17 = var1.handleListScroll;
+            var13 = var1.handleListLayout;
+            var11 = var1.handleQuestCardLayout;
+            var _closure2_slot3 = var11;
             var1 = var1.visibilityRef;
             var _closure2_slot4 = var1;
-            var11 = var19.useImperativeHandle;
-            var4 = arg2;
+            var20 = var21.useImperativeHandle;
+            var11 = arg2;
             var1 = function() {
                 var1 = {};
                 var2 = function scrollTo(arg1) {
-                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                         var1 = _closure2_slot2;
                         var3 = var1.current;
                         var1 = null;
-                        if(!(var1 != var3)) { _fun0005_ip = 32; continue _fun0005 }
+                        if(!(var1 != var3)) { _fun0006_ip = 32; continue _fun0006 }
  18:
                         var2 = var3.scrollTo;
                         var1 = arg1;
@@ -391,57 +519,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['scrollTo'] = var2;
                 return var1;
             };
-            var1 = var11.bind(var19)(var4, var1);
+            var1 = var20.bind(var21)(var11, var1);
             var11 = null;
             var1 = null;
-            if(!var3) { _fun0001_ip = 575; continue _fun0001 }
- 330:
-            if(!var12) { _fun0001_ip = 511; continue _fun0001 }
- 336:
-            if(var2) { _fun0001_ip = 511; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 618; continue _fun0001 }
  342:
-            var3 = var15.length;
+            if(!var12) { _fun0001_ip = 554; continue _fun0001 }
+ 348:
+            if(var3) { _fun0001_ip = 554; continue _fun0001 }
+ 354:
+            if(!var2) { _fun0001_ip = 554; continue _fun0001 }
+ 360:
+            var3 = var16.length;
             var2 = 0;
-            if(!(var2 !== var3)) { _fun0001_ip = 497; continue _fun0001 }
- 356:
-            var4 = _closure1_slot10;
-            var3 = _closure1_slot6;
+            if(!(var2 !== var3)) { _fun0001_ip = 540; continue _fun0001 }
+ 374:
+            var4 = _closure1_slot12;
+            var3 = _closure1_slot7;
             var2 = {};
-            var20 = var8.container;
-            var19 = new Array(2);
-            var19[0] = var20;
-            var19[1] = var9;
-            var2['style'] = var19;
-            var2['ref'] = var18;
-            var2['onScroll'] = var16;
+            var21 = var8.container;
+            var20 = new Array(2);
+            var20[0] = var21;
+            var20[1] = var9;
+            var2['style'] = var20;
+            var2['ref'] = var19;
+            var2['onScroll'] = var17;
             var2['onLayout'] = var13;
             var13 = 16;
             var2['scrollEventThrottle'] = var13;
             var13 = {};
-            var16 = _closure1_slot11;
-            var17 = var17 + var16;
-            var13['paddingBottom'] = var17;
-            var13['paddingTop'] = var16;
+            var17 = _closure1_slot13;
+            var18 = var18 + var17;
+            var13['paddingBottom'] = var18;
+            var13['paddingTop'] = var17;
             var2['contentContainerStyle'] = var13;
-            if(!var12) { _fun0001_ip = 454; continue _fun0001 }
- 437:
-            var13 = var15.map;
+            if(!var12) { _fun0001_ip = 472; continue _fun0001 }
+ 455:
+            var13 = var16.map;
             var10 = function(arg1, arg2) {
                 var1 = arg1;
                 var _closure3_slot0 = var1;
                 var2 = arg2;
                 var _closure3_slot1 = var2;
-                var5 = _closure1_slot9;
+                var5 = _closure1_slot11;
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var2 = 12;
+                var2 = 15;
                 var2 = var9[var2];
                 var4 = undefined;
                 var2 = var8.bind(var4)(var2);
                 var3 = var2.QuestContentImpressionTrackerNative;
                 var2 = {};
                 var2['questOrQuests'] = var1;
-                var7 = 13;
+                var7 = 16;
                 var10 = var9[var7];
                 var10 = var8.bind(var4)(var10);
                 var10 = var10.QuestContent;
@@ -457,10 +587,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.QUEST_HOME_MOBILE;
                 var2['sourceQuestContent'] = var7;
                 var6 = function children() {
-                    var5 = _closure1_slot9;
+                    var5 = _closure1_slot11;
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var1 = 8;
+                    var1 = 10;
                     var1 = var8[var1];
                     var4 = undefined;
                     var1 = var7.bind(var4)(var1);
@@ -472,7 +602,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['questContentPosition'] = var6;
                     var6 = _closure2_slot3;
                     var2['onLayout'] = var6;
-                    var6 = 13;
+                    var6 = 16;
                     var6 = var8[var6];
                     var6 = var7.bind(var4)(var6);
                     var6 = var6.QuestContent;
@@ -487,53 +617,59 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             };
-            var12 = var13.bind(var15)(var10);
- 454:
-            var10 = new Array(2);
+            var12 = var13.bind(var16)(var10);
+ 472:
+            var10 = new Array(3);
             var10[0] = var12;
-            var11 = var11 != var14;
-            if(!var11) { _fun0001_ip = 481; continue _fun0001 }
- 469:
-            var13 = _closure1_slot9;
+            var11 = var11 != var15;
+            if(!var11) { _fun0001_ip = 499; continue _fun0001 }
+ 487:
+            var13 = _closure1_slot11;
             var12 = {};
-            var11 = var13.bind(var6)(var14, var12);
- 481:
+            var11 = var13.bind(var6)(var15, var12);
+ 499:
             var10[1] = var11;
+            var13 = _closure1_slot11;
+            var12 = _closure1_slot5;
+            var11 = {};
+            var11['onLayout'] = var14;
+            var11 = var13.bind(var6)(var12, var11);
+            var10[2] = var11;
             var2['children'] = var10;
             var2 = var4.bind(var6)(var3, var2);
-            _fun0001_ip = 509; continue _fun0001;
- 497:
-            var4 = _closure1_slot9;
+            _fun0001_ip = 552; continue _fun0001;
+ 540:
+            var4 = _closure1_slot11;
             var3 = {};
             var2 = var4.bind(var6)(var5, var3);
- 509:
-            _fun0001_ip = 572; continue _fun0001;
- 511:
-            var5 = _closure1_slot9;
-            var4 = _closure1_slot4;
+ 552:
+            _fun0001_ip = 615; continue _fun0001;
+ 554:
+            var5 = _closure1_slot11;
+            var4 = _closure1_slot5;
             var3 = {};
             var10 = var8.loadingContainer;
             var8 = new Array(2);
             var8[0] = var10;
             var8[1] = var9;
             var3['style'] = var8;
-            var8 = _closure1_slot5;
+            var8 = _closure1_slot6;
             var7 = {};
             var9 = true;
             var7['animating'] = var9;
             var7 = var5.bind(var6)(var8, var7);
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 572:
+ 615:
             var1 = var2;
- 575:
+ 618:
             return var1;
         }
     };
     var4 = var4.bind(var7)(var2);
     var2 = var7.memo;
     var2 = var2.bind(var7)(var4);
-    var4 = 14;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

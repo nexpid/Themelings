@@ -679,80 +679,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                     var1 = {};
-                    var9 = arg1;
-                    var10 = var1;
-                    var2 = copyDataProperties(var10, var9);
+                    var7 = arg1;
+                    var8 = var1;
+                    var2 = copyDataProperties(var8, var7);
                     var4 = null;
                     var3 = var4 == var1;
-                    var7 = undefined;
                     var2 = undefined;
-                    if(var3) { _fun0007_ip = 31; continue _fun0007 }
- 25:
+                    if(var3) { _fun0007_ip = 29; continue _fun0007 }
+ 23:
                     var2 = var1.count_details;
- 31:
-                    if(!(var4 != var2)) { _fun0007_ip = 95; continue _fun0007 }
- 35:
+ 29:
+                    if(!(var4 != var2)) { _fun0007_ip = 93; continue _fun0007 }
+ 33:
                     var2 = var1.count_details;
                     var5 = var2.burst;
                     var6 = var4 != var5;
                     var3 = 0;
-                    if(!var6) { _fun0007_ip = 59; continue _fun0007 }
- 56:
+                    if(!var6) { _fun0007_ip = 57; continue _fun0007 }
+ 54:
                     var3 = var5;
- 59:
+ 57:
                     var1['burst_count'] = var3;
                     var3 = var1.count_details;
                     var3 = var3.normal;
                     var4 = var4 != var3;
                     var2 = 0;
-                    if(!var4) { _fun0007_ip = 89; continue _fun0007 }
- 86:
+                    if(!var4) { _fun0007_ip = 87; continue _fun0007 }
+ 84:
                     var2 = var3;
- 89:
+ 87:
                     var1['count'] = var2;
- 95:
-                    var2 = var1.count;
-                    var4 = 0;
-                    if(!(var2 < var4)) { _fun0007_ip = 113; continue _fun0007 }
- 107:
-                    var1['count'] = var4;
- 113:
-                    var2 = var1.burst_count;
-                    if(!(var2 < var4)) { _fun0007_ip = 129; continue _fun0007 }
- 123:
-                    var1['burst_count'] = var4;
- 129:
-                    var2 = global;
-                    var5 = var2.Array;
-                    var3 = var5.isArray;
-                    var2 = var1.burst_colors;
-                    var2 = var3.bind(var5)(var2);
-                    if(!var2) { _fun0007_ip = 171; continue _fun0007 }
- 156:
-                    var3 = var1.burst_colors;
-                    var3 = var3.length;
-                    var2 = var3 > var4;
- 171:
-                    if(!var2) { _fun0007_ip = 253; continue _fun0007 }
- 174:
-                    var6 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var2 = 18;
-                    var2 = var8[var2];
-                    var4 = var6.bind(var7)(var2);
-                    var3 = var4.buildPlatformedThemedEmojiColorPalette;
-                    var2 = {};
-                    var5 = var1.burst_colors;
-                    var2['colors'] = var5;
-                    var5 = 19;
-                    var5 = var8[var5];
-                    var6 = var6.bind(var7)(var5);
-                    var5 = var6.isIOS;
-                    var5 = var5.bind(var6)();
-                    var2['shouldProcessMobileColors'] = var5;
-                    var2 = var3.bind(var4)(var2);
-                    var1['themedBurstColors'] = var2;
- 253:
+ 93:
+                    var3 = var1.count;
+                    var2 = 0;
+                    if(!(var3 < var2)) { _fun0007_ip = 111; continue _fun0007 }
+ 105:
+                    var1['count'] = var2;
+ 111:
+                    var3 = var1.burst_count;
+                    if(!(var3 < var2)) { _fun0007_ip = 127; continue _fun0007 }
+ 121:
+                    var1['burst_count'] = var2;
+ 127:
                     return var1;
                 }
             };
@@ -860,7 +828,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = new var14[var9](var13, var12);
     var5 = var5 instanceof Object ? var5 : var8;
     var _closure1_slot14 = var5;
-    var5 = 21;
+    var5 = 19;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -1178,7 +1146,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 20;
+            var1 = 18;
             var3 = var3[var1];
             var1 = undefined;
             var3 = var4.bind(var1)(var3);

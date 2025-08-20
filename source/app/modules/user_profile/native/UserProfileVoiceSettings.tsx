@@ -160,12 +160,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = new Array(1);
             var9[0] = var12;
             var10 = !var10;
-            if(var10) { _fun0001_ip = 418; continue _fun0001 }
- 369:
+            if(var10) { _fun0001_ip = 426; continue _fun0001 }
+ 377:
             var12 = var14.isGuildStageVoice;
             var12 = var12.bind(var14)();
-            if(!var12) { _fun0001_ip = 415; continue _fun0001 }
- 382:
+            if(!var12) { _fun0001_ip = 423; continue _fun0001 }
+ 390:
             var17 = _closure1_slot0;
             var14 = _closure1_slot2;
             var14 = var14[var18];
@@ -173,11 +173,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.RequestToSpeakStates;
             var14 = var14.ON_STAGE;
             var12 = var16 !== var14;
- 415:
+ 423:
             var10 = var12;
- 418:
-            if(var10) { _fun0001_ip = 614; continue _fun0001 }
- 424:
+ 426:
+            if(var10) { _fun0001_ip = 624; continue _fun0001 }
+ 432:
             var10 = var9.push;
             var16 = _closure1_slot9;
             var14 = _closure1_slot0;
@@ -197,31 +197,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var21[var17];
             var17 = var18.bind(var5)(var17);
             var18 = var17.t;
-            if(var7) { _fun0001_ip = 521; continue _fun0001 }
- 508:
+            if(var7) { _fun0001_ip = 529; continue _fun0001 }
+ 516:
             var17 = var18.sWmtIy;
             var17 = var19.bind(var20)(var17);
-            _fun0001_ip = 532; continue _fun0001;
- 521:
+            _fun0001_ip = 540; continue _fun0001;
+ 529:
             var18 = var18.NHJxcn;
             var17 = var19.bind(var20)(var18);
- 532:
+ 540:
             var12['label'] = var17;
             var18 = _closure1_slot0;
             var19 = _closure1_slot2;
-            if(var7) { _fun0001_ip = 567; continue _fun0001 }
- 547:
+            if(var7) { _fun0001_ip = 575; continue _fun0001 }
+ 555:
             var7 = 18;
             var7 = var19[var7];
             var7 = var18.bind(var5)(var7);
             var7 = var7.MicrophoneIcon;
-            _fun0001_ip = 585; continue _fun0001;
- 567:
+            _fun0001_ip = 593; continue _fun0001;
+ 575:
             var17 = 17;
             var17 = var19[var17];
             var17 = var18.bind(var5)(var17);
             var7 = var17.MicrophoneSlashIcon;
- 585:
+ 593:
             var12['icon'] = var7;
             var7 = function onPress() {
                 var4 = _closure2_slot2;
@@ -245,7 +245,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'mute';
             var7 = var16.bind(var5)(var14, var12, var7);
             var7 = var10.bind(var9)(var7);
- 614:
+ 624:
             var7 = var9.push;
             var17 = _closure1_slot9;
             var14 = _closure1_slot0;
@@ -265,31 +265,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var18[var12];
             var18 = var19.bind(var5)(var18);
             var19 = var18.t;
-            if(var6) { _fun0001_ip = 713; continue _fun0001 }
- 698:
+            if(var6) { _fun0001_ip = 723; continue _fun0001 }
+ 708:
             var18 = var19.LxhEuL;
             var18 = var20.bind(var21)(var18);
-            _fun0001_ip = 726; continue _fun0001;
- 713:
+            _fun0001_ip = 736; continue _fun0001;
+ 723:
             var19 = var19.639hQU;
             var18 = var20.bind(var21)(var19);
- 726:
+ 736:
             var14['label'] = var18;
             var19 = _closure1_slot0;
             var20 = _closure1_slot2;
-            if(var6) { _fun0001_ip = 761; continue _fun0001 }
- 741:
+            if(var6) { _fun0001_ip = 771; continue _fun0001 }
+ 751:
             var6 = 20;
             var6 = var20[var6];
             var6 = var19.bind(var5)(var6);
             var6 = var6.SoundboardIcon;
-            _fun0001_ip = 779; continue _fun0001;
- 761:
+            _fun0001_ip = 789; continue _fun0001;
+ 771:
             var18 = 19;
             var18 = var20[var18];
             var18 = var19.bind(var5)(var18);
             var6 = var18.SoundboardSlashIcon;
- 779:
+ 789:
             var14['icon'] = var6;
             var6 = function onPress() {
                 var4 = _closure2_slot2;
@@ -313,8 +313,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'mute-soundboard';
             var6 = var17.bind(var5)(var16, var14, var6);
             var6 = var7.bind(var9)(var6);
-            if(!var4) { _fun0001_ip = 1198; continue _fun0001 }
- 816:
+            if(!var4) { _fun0001_ip = 1212; continue _fun0001 }
+ 828:
             var4 = var9.push;
             var14 = _closure1_slot9;
             var7 = _closure1_slot0;
@@ -332,34 +332,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16[var12];
             var16 = var17.bind(var5)(var16);
             var17 = var16.t;
-            if(var15) { _fun0001_ip = 909; continue _fun0001 }
- 894:
+            if(var15) { _fun0001_ip = 921; continue _fun0001 }
+ 906:
             var16 = var17.4MMsWF;
             var16 = var18.bind(var19)(var16);
-            _fun0001_ip = 922; continue _fun0001;
- 909:
+            _fun0001_ip = 934; continue _fun0001;
+ 921:
             var17 = var17.xc+Ps7;
             var16 = var18.bind(var19)(var17);
- 922:
+ 934:
             var6['label'] = var16;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
-            if(var15) { _fun0001_ip = 957; continue _fun0001 }
- 937:
+            if(var15) { _fun0001_ip = 969; continue _fun0001 }
+ 949:
             var15 = 22;
             var15 = var18[var15];
             var15 = var17.bind(var5)(var15);
             var15 = var15.VideoIcon;
-            _fun0001_ip = 975; continue _fun0001;
- 957:
+            _fun0001_ip = 987; continue _fun0001;
+ 969:
             var16 = 21;
             var16 = var18[var16];
             var16 = var17.bind(var5)(var16);
             var15 = var16.VideoSlashIcon;
- 975:
+ 987:
             var6['icon'] = var15;
-            if(!var3) { _fun0001_ip = 1166; continue _fun0001 }
- 985:
+            if(!var3) { _fun0001_ip = 1178; continue _fun0001 }
+ 997:
             var17 = _closure1_slot10;
             var16 = _closure1_slot3;
             var15 = {};
@@ -396,7 +396,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18[1] = var19;
             var15['children'] = var18;
             var3 = var17.bind(var5)(var16, var15);
- 1166:
+ 1178:
             var6['sublabel'] = var3;
             var3 = function onPress() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -428,7 +428,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var7.MANUAL_ENABLED;
  94:
                     var3 = var5.bind(var6)(var4, var3);
-                    _fun0003_ip = 140; continue _fun0003;
+                    _fun0003_ip = 142; continue _fun0003;
  102:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -452,7 +452,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var2 = var3.bind(var4)(var2);
- 140:
+ 142:
                     return var1;
                 }
             };
@@ -460,9 +460,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 'disable-video';
             var3 = var14.bind(var5)(var7, var6, var3);
             var3 = var4.bind(var9)(var3);
- 1198:
-            if(!var2) { _fun0001_ip = 1360; continue _fun0001 }
- 1204:
+ 1212:
+            if(!var2) { _fun0001_ip = 1376; continue _fun0001 }
+ 1218:
             var2 = var9.push;
             var6 = _closure1_slot9;
             var14 = _closure1_slot0;
@@ -540,12 +540,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 'view-secure-frames-verification-code';
             var1 = var6.bind(var5)(var4, var3, var1);
             var1 = var2.bind(var9)(var1);
- 1360:
+ 1376:
             var3 = var9.length;
             var2 = 0;
             var1 = null;
-            if(!(var2 !== var3)) { _fun0001_ip = 1525; continue _fun0001 }
- 1376:
+            if(!(var2 !== var3)) { _fun0001_ip = 1541; continue _fun0001 }
+ 1392:
             var4 = _closure1_slot9;
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -579,7 +579,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1525:
+ 1541:
             return var1;
         }
     };
@@ -651,12 +651,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var7.id;
             var3 = var4.bind(var5)(var3, var1);
             var1 = null;
-            if(!var2) { _fun0004_ip = 566; continue _fun0004 }
- 194:
+            if(!var2) { _fun0004_ip = 572; continue _fun0004 }
+ 198:
             var2 = var7.isGuildStageVoice;
             var2 = var2.bind(var7)();
-            if(!var2) { _fun0004_ip = 245; continue _fun0004 }
- 207:
+            if(!var2) { _fun0004_ip = 249; continue _fun0004 }
+ 211:
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var10];
@@ -664,8 +664,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.RequestToSpeakStates;
             var2 = var2.ON_STAGE;
             var1 = null;
-            if(!(var3 === var2)) { _fun0004_ip = 566; continue _fun0004 }
- 245:
+            if(!(var3 === var2)) { _fun0004_ip = 572; continue _fun0004 }
+ 249:
             var4 = _closure1_slot9;
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -711,31 +711,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15[var19];
             var15 = var16.bind(var5)(var15);
             var16 = var15.t;
-            if(var13) { _fun0004_ip = 458; continue _fun0004 }
- 445:
+            if(var13) { _fun0004_ip = 462; continue _fun0004 }
+ 449:
             var15 = var16.sWmtIy;
             var15 = var17.bind(var18)(var15);
-            _fun0004_ip = 469; continue _fun0004;
- 458:
+            _fun0004_ip = 473; continue _fun0004;
+ 462:
             var16 = var16.NHJxcn;
             var15 = var17.bind(var18)(var16);
- 469:
+ 473:
             var10['label'] = var15;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            if(var13) { _fun0004_ip = 504; continue _fun0004 }
- 484:
+            if(var13) { _fun0004_ip = 508; continue _fun0004 }
+ 488:
             var13 = 18;
             var13 = var16[var13];
             var13 = var15.bind(var5)(var13);
             var13 = var13.MicrophoneIcon;
-            _fun0004_ip = 522; continue _fun0004;
- 504:
+            _fun0004_ip = 526; continue _fun0004;
+ 508:
             var14 = 17;
             var14 = var16[var14];
             var14 = var15.bind(var5)(var14);
             var13 = var14.MicrophoneSlashIcon;
- 522:
+ 526:
             var10['icon'] = var13;
             var9 = function onPress() {
                 var3 = _closure2_slot1;
@@ -760,7 +760,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 566:
+ 572:
             return var1;
         }
     };

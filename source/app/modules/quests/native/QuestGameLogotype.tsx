@@ -299,7 +299,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[1] = var10;
             var5['style'] = var7;
             var5 = var8.bind(var4)(var6, var5);
-            _fun0001_ip = 544; continue _fun0001;
+            _fun0001_ip = 540; continue _fun0001;
  456:
             var7 = _closure1_slot5;
             var6 = {};
@@ -319,7 +319,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 544:
+ 540:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

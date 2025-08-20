@@ -241,7 +241,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var19 = 14;
         var22 = var21[var19];
         var22 = var20.bind(var4)(var22);
-        var25 = var22.HeartIllocon;
+        var25 = var22.GiftTrollIllocon;
         var22 = {};
         var24 = 32;
         var22['size'] = var24;
@@ -278,7 +278,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14['style'] = var22;
         var22 = var21[var19];
         var22 = var20.bind(var4)(var22);
-        var25 = var22.BrushIllocon;
+        var25 = var22.BrushAndSwordIllocon;
         var22 = {};
         var22['size'] = var24;
         var25 = var3.bind(var4)(var25, var22);
@@ -314,7 +314,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14['style'] = var22;
         var19 = var21[var19];
         var19 = var20.bind(var4)(var19);
-        var22 = var19.MoneyBagIllocon;
+        var22 = var19.CandyIllocon;
         var19 = {};
         var19['size'] = var24;
         var22 = var3.bind(var4)(var22, var19);

@@ -220,6 +220,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1['track'] = var2;
+                var2 = 'discord_app';
+                var1['surface'] = var2;
                 return var1;
             }
         };

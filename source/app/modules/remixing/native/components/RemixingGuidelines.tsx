@@ -176,10 +176,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var4)(var1);
             var2 = var1.Group;
             var1 = {};
-            if(!var9) { _fun0003_ip = 155; continue _fun0003 }
- 152:
+            if(!var9) { _fun0003_ip = 157; continue _fun0003 }
+ 154:
             var6 = var8;
- 155:
+ 157:
             var1['opacity'] = var6;
             var8 = _closure1_slot6;
             var10 = _closure1_slot0;

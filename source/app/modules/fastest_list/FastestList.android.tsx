@@ -340,27 +340,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var35 = var9.onScroll;
             var34 = var9.onScrollBeginDrag;
             var33 = var9.onScrollEndDrag;
-            if(var7) { _fun0001_ip = 701; continue _fun0001 }
- 653:
+            if(var7) { _fun0001_ip = 709; continue _fun0001 }
+ 661:
             var7 = 'animatedScrollPosition';
-            if(!(var7 !== var8)) { _fun0001_ip = 695; continue _fun0001 }
- 663:
+            if(!(var7 !== var8)) { _fun0001_ip = 703; continue _fun0001 }
+ 671:
             var7 = 'animatedCallbacks';
-            if(!(var7 !== var8)) { _fun0001_ip = 695; continue _fun0001 }
- 673:
+            if(!(var7 !== var8)) { _fun0001_ip = 703; continue _fun0001 }
+ 681:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var7 = 4;
             var7 = var9[var7];
             var9 = var8.bind(var5)(var7);
-            _fun0001_ip = 699; continue _fun0001;
- 695:
+            _fun0001_ip = 707; continue _fun0001;
+ 703:
             var9 = _closure1_slot7;
- 699:
-            _fun0001_ip = 705; continue _fun0001;
- 701:
+ 707:
+            _fun0001_ip = 713; continue _fun0001;
+ 709:
             var9 = _closure1_slot8;
- 705:
+ 713:
             var8 = _closure1_slot4;
             var7 = {};
             var7['accessibilityLabel'] = var41;
@@ -369,11 +369,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['insetEnd'] = var38;
             var38 = 'on-drag';
             var38 = var38 === var40;
-            if(var38) { _fun0001_ip = 751; continue _fun0001 }
- 743:
+            if(var38) { _fun0001_ip = 759; continue _fun0001 }
+ 751:
             var39 = 'interactive';
             var38 = var39 === var40;
- 751:
+ 759:
             var7['keyboardDismissOnDrag'] = var38;
             var7['onUnexpectedItemSize'] = var37;
             var7['onLayout'] = var36;
@@ -413,10 +413,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['sectionsVersioned'] = var12;
             var7['wrapChildren'] = var11;
             var7 = var10.bind(var5)(var9, var7);
-            if(!var4) { _fun0001_ip = 943; continue _fun0001 }
- 939:
-            if(!(var1 == var3)) { _fun0001_ip = 987; continue _fun0001 }
- 943:
+            if(!var4) { _fun0001_ip = 951; continue _fun0001 }
+ 947:
+            if(!(var1 == var3)) { _fun0001_ip = 995; continue _fun0001 }
+ 951:
             var4 = _closure1_slot4;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -428,8 +428,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var51 = var6;
             var6 = copyDataProperties(var52, var51);
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 1019; continue _fun0001;
- 987:
+            _fun0001_ip = 1027; continue _fun0001;
+ 995:
             var4 = _closure1_slot6;
             var3 = _closure1_slot5;
             var2 = {};
@@ -438,7 +438,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1019:
+ 1027:
             return var1;
         }
     };

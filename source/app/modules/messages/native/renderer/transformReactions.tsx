@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['value'] = var1;
     var1 = '__esModule';
     var1 = var7.bind(var8)(var3, var1, var6);
-    var1 = 4;
+    var1 = 6;
     var4 = var4[var1];
     var1 = undefined;
     var6 = var5.bind(var1)(var4);
@@ -32,102 +32,131 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                 var4 = arg1;
-                var2 = var4.emoji;
-                var7 = null;
-                var3 = Object.create(var7);
-                var11 = 0;
-                var3['emoji'] = var11;
-                var15 = {};
-                var14 = var4;
-                var13 = var3;
-                var3 = copyDataProperties(var15, var14, var13);
-                var4 = var3.count_details;
-                var5 = var7 == var4;
-                var8 = undefined;
+                var3 = var4.emoji;
+                var10 = null;
+                var2 = Object.create(var10);
+                var5 = 0;
+                var2['emoji'] = var5;
+                var17 = {};
+                var16 = var4;
+                var15 = var2;
+                var6 = copyDataProperties(var17, var16, var15);
+                var2 = var6.count_details;
+                var7 = var10 == var2;
+                var4 = undefined;
                 var1 = undefined;
-                if(var5) { _fun0001_ip = 56; continue _fun0001 }
+                if(var7) { _fun0001_ip = 56; continue _fun0001 }
  50:
-                var1 = var4.vote;
+                var1 = var2.vote;
  56:
-                if(!(var7 == var1)) { _fun0001_ip = 358; continue _fun0001 }
+                if(!(var10 == var1)) { _fun0001_ip = 478; continue _fun0001 }
  63:
-                var4 = _closure2_slot0;
-                if(!var4) { _fun0001_ip = 79; continue _fun0001 }
+                var7 = _closure2_slot0;
+                if(!var7) { _fun0001_ip = 79; continue _fun0001 }
  73:
-                var4 = var2.animated;
+                var7 = var3.animated;
  79:
-                var1 = var2.id;
-                if(!(var7 != var1)) { _fun0001_ip = 147; continue _fun0001 }
+                var1 = var3.id;
+                if(!(var10 != var1)) { _fun0001_ip = 147; continue _fun0001 }
  88:
-                var5 = _closure1_slot1;
-                var6 = _closure1_slot2;
+                var2 = _closure1_slot1;
+                var8 = _closure1_slot2;
                 var1 = 1;
-                var1 = var6[var1];
-                var6 = var5.bind(var8)(var1);
-                var5 = var6.getEmojiURL;
+                var1 = var8[var1];
+                var8 = var2.bind(var4)(var1);
+                var2 = var8.getEmojiURL;
                 var1 = {};
-                var9 = var2.id;
+                var9 = var3.id;
                 var1['id'] = var9;
-                var1['animated'] = var4;
+                var1['animated'] = var7;
                 var9 = 48;
                 var1['size'] = var9;
-                var6 = var5.bind(var6)(var1);
+                var9 = var2.bind(var8)(var1);
                 _fun0001_ip = 183; continue _fun0001;
  147:
-                var5 = _closure1_slot1;
+                var2 = _closure1_slot1;
                 var1 = _closure1_slot2;
-                var1 = var1[var11];
-                var9 = var5.bind(var8)(var1);
-                var5 = var9.getURL;
-                var1 = var2.name;
-                var6 = var5.bind(var9)(var1);
+                var1 = var1[var5];
+                var8 = var2.bind(var4)(var1);
+                var2 = var8.getURL;
+                var1 = var3.name;
+                var9 = var2.bind(var8)(var1);
  183:
-                var5 = _closure1_slot0;
-                var9 = _closure1_slot2;
+                var8 = _closure1_slot0;
+                var11 = _closure1_slot2;
                 var1 = 2;
-                var1 = var9[var1];
-                var10 = var5.bind(var8)(var1);
-                var9 = var10.getAccessibleEmojiDisplayName;
-                var15 = var3.me;
-                var14 = var3.count;
-                var1 = var3.burst_count;
-                var12 = var1 > var11;
-                var16 = var10;
-                var13 = var2;
-                var5 = var16[var9](var15, var14, var13, var12, var11);
-                var1 = var2.id;
-                if(!(var7 != var1)) { _fun0001_ip = 282; continue _fun0001 }
+                var1 = var11[var1];
+                var13 = var8.bind(var4)(var1);
+                var12 = var13.getAccessibleEmojiDisplayName;
+                var17 = var6.me;
+                var16 = var6.count;
+                var1 = var6.burst_count;
+                var14 = var1 > var5;
+                var18 = var13;
+                var15 = var3;
+                var8 = var18[var12](var17, var16, var15, var14, var13);
+                var1 = var3.id;
+                if(!(var10 != var1)) { _fun0001_ip = 282; continue _fun0001 }
  253:
-                var8 = var2.id;
+                var11 = var3.id;
                 var1 = global;
                 var1 = var1.HermesInternal;
-                var7 = var1.concat;
+                var10 = var1.concat;
                 var1 = '';
-                var7 = var7.bind(var1)(var8);
+                var10 = var10.bind(var1)(var11);
                 _fun0001_ip = 287; continue _fun0001;
  282:
-                var7 = var2.id;
+                var10 = var3.id;
  287:
                 var1 = {};
-                var15 = var1;
-                var14 = var3;
-                var3 = copyDataProperties(var15, var14);
-                var3 = {};
-                var15 = var3;
-                var14 = var2;
-                var2 = copyDataProperties(var15, var14);
-                var2 = 'id';
-                var3[var2] = var7;
-                var2 = 'src';
-                var3[var2] = var6;
-                var2 = 'displayName';
-                var3[var2] = var5;
-                var2 = 'animated';
-                var3[var2] = var4;
-                var2 = 'emoji';
-                var1[var2] = var3;
+                var17 = var1;
+                var16 = var6;
+                var6 = copyDataProperties(var17, var16);
+                var6 = {};
+                var17 = var6;
+                var16 = var3;
+                var3 = copyDataProperties(var17, var16);
+                var3 = 'id';
+                var6[var3] = var10;
+                var3 = 'src';
+                var6[var3] = var9;
+                var3 = 'displayName';
+                var6[var3] = var8;
+                var3 = 'animated';
+                var6[var3] = var7;
+                var3 = 'emoji';
+                var1[var3] = var6;
+                var3 = global;
+                var7 = var3.Array;
+                var6 = var7.isArray;
+                var3 = var1.burst_colors;
+                var3 = var6.bind(var7)(var3);
+                if(!var3) { _fun0001_ip = 476; continue _fun0001 }
+ 383:
+                var3 = var1.burst_colors;
+                var3 = var3.length;
+                if(!(var3 > var5)) { _fun0001_ip = 476; continue _fun0001 }
+ 398:
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var2 = 3;
+                var2 = var7[var2];
+                var2 = var6.bind(var4)(var2);
+                var3 = var2.buildPlatformedThemedEmojiColorPalette;
+                var2 = {};
+                var5 = var1.burst_colors;
+                var2['colors'] = var5;
+                var5 = 4;
+                var5 = var7[var5];
+                var6 = var6.bind(var4)(var5);
+                var5 = var6.isIOS;
+                var5 = var5.bind(var6)();
+                var2['shouldProcessMobileColors'] = var5;
+                var2 = var3.bind(var4)(var2);
+                var1['themedBurstColors'] = var2;
+ 476:
                 return var1;
- 358:
+ 478:
                 var1 = new Array(0);
                 return var1;
             }
@@ -152,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  40:
                 var7 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var5 = 3;
+                var5 = 5;
                 var6 = var6[var5];
                 var5 = undefined;
                 var6 = var7.bind(var5)(var6);

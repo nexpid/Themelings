@@ -60,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = arg1;
                 var _closure3_slot0 = var2;
                 var1 = var2.preventable;
-                if(!var1) { _fun0001_ip = 159; continue _fun0001 }
+                if(!var1) { _fun0001_ip = 157; continue _fun0001 }
  21:
                 var1 = _closure2_slot1;
                 var1 = var1.current;
@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = true;
                 var1 = var3 !== var5;
  72:
-                if(var1) { _fun0001_ip = 159; continue _fun0001 }
+                if(var1) { _fun0001_ip = 157; continue _fun0001 }
  75:
                 var1 = var2.preventDefault;
                 var1 = var1.bind(var2)();
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var1['onConfirm'] = var4;
                 var1 = var2.bind(var3)(var1);
- 159:
+ 157:
                 var1 = undefined;
                 return var1;
             }

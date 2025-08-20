@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  49:
             var2 = var3.@@iterator;
  55:
-            if(var2) { _fun0001_ip = 345; continue _fun0001 }
+            if(var2) { _fun0001_ip = 343; continue _fun0001 }
  61:
             var6 = var5.Array;
             var4 = var6.isArray;
@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             return var1;
- 345:
+ 343:
             var1 = var2.call;
             var3 = var1.bind(var2)(var3);
             var2 = var3.next;
@@ -204,11 +204,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 72: // try_end0
-            _fun0004_ip = 76; continue _fun0004;
- 74: // catch_target0
+ 70: // try_end0
+            _fun0004_ip = 74; continue _fun0004;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -373,12 +373,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var12 / var6;
                         var6 = var9.bind(var11)(var6);
                         var9 = null;
-                        if(!(var9 != var10)) { _fun0007_ip = 170; continue _fun0007 }
+                        if(!(var9 != var10)) { _fun0007_ip = 168; continue _fun0007 }
  133:
                         var10 = _closure3_slot0;
                         var10 = var10._file;
                         var10 = var10.items;
-                        if(!(var9 != var10)) { _fun0007_ip = 170; continue _fun0007 }
+                        if(!(var9 != var10)) { _fun0007_ip = 168; continue _fun0007 }
  153:
                         var9 = var10.forEach;
                         var8 = function(arg1) {
@@ -392,7 +392,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var8 = var9.bind(var10)(var8);
- 170:
+ 168:
                         var5 = _closure3_slot0;
                         var5['_lastUpdate'] = var4;
                         var5['_loaded'] = var2;
@@ -1057,7 +1057,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var5.bind(var1)(var6);
                 var1 = var3.bind(var4)(var1);
                 var1 = var2._aborted;
-                if(var1) { _fun0014_ip = 124; continue _fun0014 }
+                if(var1) { _fun0014_ip = 122; continue _fun0014 }
  59:
                 var1 = true;
                 var2['_aborted'] = var1;
@@ -1079,7 +1079,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var4)(var1);
                 var1 = var2._handleComplete;
                 var1 = var1.bind(var2)();
- 124:
+ 122:
                 var1 = undefined;
                 return var1;
             }
@@ -1097,7 +1097,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = arg1;
                     var4 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0015_ip = 385; continue _fun0015 }
+                    if(var2) { _fun0015_ip = 383; continue _fun0015 }
  18:
                     var _closure4_slot0 = var11;
                     var7 = _closure1_slot11;
@@ -1121,8 +1121,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var6 = var5.bind(var6)(var3);
                     var3 = null;
-                    if(!(var3 != var6)) { _fun0015_ip = 377; continue _fun0015 }
- 110:
+                    if(!(var3 != var6)) { _fun0015_ip = 375; continue _fun0015 }
+ 108:
                     var5 = var6.status;
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -1132,8 +1132,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var8.bind(var7)(var3);
                     var3 = var3.CloudUploadStatus;
                     var3 = var3.CANCELED;
-                    if(!(var5 !== var3)) { _fun0015_ip = 377; continue _fun0015 }
- 156:
+                    if(!(var5 !== var3)) { _fun0015_ip = 375; continue _fun0015 }
+ 154:
                     var5 = var4.files;
                     var3 = var5.indexOf;
                     var12 = var3.bind(var5)(var6);
@@ -1168,13 +1168,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.bind(var7)(var2);
                     var2 = var3.cancelGetAttachmentFile;
                     var2 = var2.bind(var3)(var6);
-                    SaveGenerator(address=312);
- 310:
+                    SaveGenerator(address=310);
+ 308:
                     return var2;
- 312:
+ 310:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0015_ip = 382; continue _fun0015 }
- 318:
+                    if(var3) { _fun0015_ip = 380; continue _fun0015 }
+ 316:
                     var3 = var6.cancel;
                     var3 = var3.bind(var6)();
                     var7 = var4.emit;
@@ -1183,16 +1183,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var7.bind(var4)(var3, var6);
                     var3 = var4.files;
                     var3 = var3.length;
-                    if(!(var5 === var3)) { _fun0015_ip = 377; continue _fun0015 }
- 367:
+                    if(!(var5 === var3)) { _fun0015_ip = 375; continue _fun0015 }
+ 365:
                     var3 = var4.cancel;
                     var3 = var3.bind(var4)();
- 377:
+ 375:
                     var3 = undefined;
                     return var3;
- 382:
+ 380:
                     return var2;
- 385:
+ 383:
                     return var1;
                 }
             };

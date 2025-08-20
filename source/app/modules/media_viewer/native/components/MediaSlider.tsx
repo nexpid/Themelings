@@ -337,15 +337,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var18[var10];
                 var10 = var11.bind(var4)(var10);
                 var11 = var10.t;
-                if(var8) { _fun0002_ip = 561; continue _fun0002 }
- 548:
+                if(var8) { _fun0002_ip = 545; continue _fun0002 }
+ 532:
                 var10 = var11.ZcgDJS;
                 var10 = var15.bind(var17)(var10);
-                _fun0002_ip = 572; continue _fun0002;
- 561:
+                _fun0002_ip = 556; continue _fun0002;
+ 545:
                 var11 = var11.RscU7O;
                 var10 = var15.bind(var17)(var11);
- 572:
+ 556:
                 var5['accessibilityLabel'] = var10;
                 var10 = function onPress() {
                     _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -372,19 +372,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = _closure1_slot6;
                 var15 = _closure1_slot0;
                 var17 = _closure1_slot2;
-                if(var8) { _fun0002_ip = 641; continue _fun0002 }
- 621:
+                if(var8) { _fun0002_ip = 623; continue _fun0002 }
+ 603:
                 var8 = 12;
                 var8 = var17[var8];
                 var8 = var15.bind(var4)(var8);
                 var10 = var8.PauseIcon;
-                _fun0002_ip = 659; continue _fun0002;
- 641:
+                _fun0002_ip = 641; continue _fun0002;
+ 623:
                 var8 = 11;
                 var8 = var17[var8];
                 var8 = var15.bind(var4)(var8);
                 var10 = var8.PlayIcon;
- 659:
+ 641:
                 var8 = {'size': 'md', 'color': 'white'};
                 var8 = var11.bind(var4)(var10, var8);
                 var5['children'] = var8;

@@ -158,11 +158,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var15 = var6 == var17;
             var5 = undefined;
-            if(var15) { _fun0001_ip = 554; continue _fun0001 }
- 544:
+            if(var15) { _fun0001_ip = 556; continue _fun0001 }
+ 546:
             var15 = var17.getGuildId;
             var5 = var15.bind(var17)();
- 554:
+ 556:
             var2['guildId'] = var5;
             var2['pickerIntention'] = var9;
             var2 = var3.bind(var4)(var2);
@@ -188,15 +188,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.trackWithMetadata;
             var2 = _closure1_slot8;
             var2 = var2.REACTION;
-            if(!(var9 !== var2)) { _fun0001_ip = 688; continue _fun0001 }
- 676:
+            if(!(var9 !== var2)) { _fun0001_ip = 690; continue _fun0001 }
+ 678:
             var2 = _closure1_slot7;
             var3 = var2.EXPRESSION_PICKER_OPENED;
-            _fun0001_ip = 698; continue _fun0001;
- 688:
+            _fun0001_ip = 700; continue _fun0001;
+ 690:
             var2 = _closure1_slot7;
             var3 = var2.REACTION_PICKER_OPENED;
- 698:
+ 700:
             var2 = {};
             var2['width'] = var16;
             var16 = _closure1_slot9;
@@ -311,22 +311,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot8;
             var7 = var7.REACTION;
             var7 = var9 === var7;
-            if(!var7) { _fun0001_ip = 1067; continue _fun0001 }
- 1057:
+            if(!var7) { _fun0001_ip = 1081; continue _fun0001 }
+ 1071:
             var9 = {};
             var9['is_burst'] = var10;
             var7 = var9;
- 1067:
+ 1081:
             var24 = var2;
             var23 = var7;
             var7 = copyDataProperties(var24, var23);
             var6 = var6 != var8;
-            if(!var6) { _fun0001_ip = 1094; continue _fun0001 }
- 1084:
+            if(!var6) { _fun0001_ip = 1108; continue _fun0001 }
+ 1098:
             var7 = {};
             var7['location_object'] = var8;
             var6 = var7;
- 1094:
+ 1108:
             var24 = var2;
             var23 = var6;
             var6 = copyDataProperties(var24, var23);

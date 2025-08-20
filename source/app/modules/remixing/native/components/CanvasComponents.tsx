@@ -370,8 +370,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var8 = var9 == var12;
             var7 = undefined;
-            if(var8) { _fun0003_ip = 294; continue _fun0003 }
- 279:
+            if(var8) { _fun0003_ip = 300; continue _fun0003 }
+ 283:
             var8 = var12.map;
             var5 = function(arg1) {
                 var5 = _closure1_slot10;
@@ -383,7 +383,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var7 = var8.bind(var12)(var5);
- 294:
+ 300:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot5;
@@ -394,10 +394,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var4)(var6);
             var6 = {};
             var9 = var9 != var10;
-            if(!var9) { _fun0003_ip = 339; continue _fun0003 }
- 335:
+            if(!var9) { _fun0003_ip = 345; continue _fun0003 }
+ 341:
             var9 = var11 !== var10;
- 339:
+ 345:
             var6['gesturing'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

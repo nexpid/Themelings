@@ -27,22 +27,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.ACTION_TO_TEXT;
-    var _closure1_slot3 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot4 = var7;
+    var _closure1_slot3 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot5 = var4;
-    var4 = 4;
+    var _closure1_slot4 = var4;
+    var4 = 3;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'display': 'flex', 'backgroundColor': null, 'padding': 12, 'justifyContent': 'center', 'alignItems': 'center'};
-    var10 = 5;
+    var10 = 4;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.colors;
@@ -54,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.md;
     var9['borderRadius'] = var10;
     var4['container'] = var9;
-    var9 = 6;
+    var9 = 5;
     var10 = var6[var9];
     var11 = var5.bind(var1)(var10);
     var10 = var11.generateBoxShadowStyle;
@@ -64,8 +59,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var10.bind(var11)(var9);
     var4['shadow'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 9;
+    var _closure1_slot5 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -76,35 +71,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var3 = var1.displayType;
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot5;
             var4 = undefined;
             var7 = var1.bind(var4)();
+            var5 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var2 = 6;
+            var1 = var8[var2];
+            var9 = var5.bind(var4)(var1);
+            var1 = var9.useActionTotalsForDisplayType;
+            var1 = var1.bind(var9)(var3);
+            var2 = var8[var2];
+            var5 = var5.bind(var4)(var2);
+            var2 = var5.useFormattedTotalForDisplayType;
+            var12 = var2.bind(var5)(var3);
+            var11 = 0;
+            var1 = var1 > var11;
+            var14 = 'text-muted';
+            if(!var1) { _fun0001_ip = 94; continue _fun0001 }
+ 88:
+            var14 = 'text-brand';
+ 94:
             var2 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var8 = _closure1_slot1;
             var1 = 7;
-            var1 = var5[var1];
+            var1 = var8[var1];
+            var9 = var2.bind(var4)(var1);
+            var5 = var9.useIsFamilyCenterV2Enabled;
+            var1 = 'family_center_activity_card';
+            var5 = var5.bind(var9)(var1);
+            var1 = 8;
+            var1 = var8[var1];
             var2 = var2.bind(var4)(var1);
-            var1 = var2.useActionTotalsForDisplayType;
-            var12 = var1.bind(var2)(var3);
-            var2 = _closure1_slot3;
+            var1 = var2.getActivityTypeTextConfigs;
+            var2 = var1.bind(var2)(var5);
             var1 = var2.get;
             var2 = var1.bind(var2)(var3);
             var13 = null;
             var1 = var13 == var2;
             var9 = undefined;
-            if(var1) { _fun0001_ip = 88; continue _fun0001 }
- 78:
+            if(var1) { _fun0001_ip = 185; continue _fun0001 }
+ 175:
             var1 = var2.tooltipHeader;
             var9 = var1.bind(var2)();
- 88:
-            var11 = 0;
-            var1 = var12 > var11;
-            var14 = 'text-muted';
-            if(!var1) { _fun0001_ip = 109; continue _fun0001 }
- 103:
-            var14 = 'text-brand';
- 109:
-            var3 = _closure1_slot5;
+ 185:
+            var3 = _closure1_slot4;
             var2 = _closure1_slot2;
             var1 = {};
             var8 = var7.container;
@@ -113,10 +124,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.shadow;
             var5[1] = var7;
             var1['style'] = var5;
-            var8 = _closure1_slot4;
+            var8 = _closure1_slot3;
             var7 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var10 = 8;
+            var10 = 9;
             var5 = var5[var10];
             var5 = var7.bind(var4)(var5);
             var7 = var5.Text;
@@ -126,15 +137,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['color'] = var14;
             var13 = var13 != var12;
             var11 = 0;
-            if(!var13) { _fun0001_ip = 203; continue _fun0001 }
- 200:
+            if(!var13) { _fun0001_ip = 279; continue _fun0001 }
+ 276:
             var11 = var12;
- 203:
+ 279:
             var5['children'] = var11;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            var8 = _closure1_slot4;
+            var8 = _closure1_slot3;
             var7 = _closure1_slot0;
             var6 = _closure1_slot1;
             var6 = var6[var10];

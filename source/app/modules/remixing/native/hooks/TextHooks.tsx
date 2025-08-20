@@ -127,8 +127,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = null;
             var18 = var20 != var2;
             var4 = null;
-            if(!var18) { _fun0001_ip = 314; continue _fun0001 }
- 266:
+            if(!var18) { _fun0001_ip = 316; continue _fun0001 }
+ 268:
             var19 = var2.type;
             var21 = _closure1_slot0;
             var23 = _closure1_slot3;
@@ -138,10 +138,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var18.RemixElement;
             var18 = var18.TEXT;
             var4 = null;
-            if(!(var19 === var18)) { _fun0001_ip = 314; continue _fun0001 }
- 309:
+            if(!(var19 === var18)) { _fun0001_ip = 316; continue _fun0001 }
+ 311:
             var4 = var2.id;
- 314:
+ 316:
             var4 = var6.bind(var13)(var4, var17);
             _closure2_slot12 = var4;
             var6 = _closure1_slot5;

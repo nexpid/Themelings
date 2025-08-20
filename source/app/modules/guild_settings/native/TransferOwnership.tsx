@@ -138,7 +138,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0002_ip = 234; continue _fun0002 }
+                            if(var2) { _fun0002_ip = 236; continue _fun0002 }
  10:
                             var2 = _closure2_slot3;
                             var2 = var2.mfaEnabled;
@@ -171,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = _closure1_slot10;
                             var4 = var4.CONFIRM_EMAIL_CODE;
                             var4 = var5.bind(var6)(var4);
-                            _fun0002_ip = 229; continue _fun0002;
+                            _fun0002_ip = 231; continue _fun0002;
  123:
                             return var2;
  126:
@@ -220,10 +220,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 return var1;
                             };
                             var2 = var4.bind(var5)(var2, var3);
- 229:
+ 231:
                             var2 = undefined;
                             return var2;
- 234:
+ 236:
                             return var1;
                         }
                     };
@@ -433,10 +433,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var10.Text;
             var10 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
             var14 = null;
-            if(!(var14 == var17)) { _fun0001_ip = 699; continue _fun0001 }
- 598:
-            if(var8) { _fun0001_ip = 699; continue _fun0001 }
- 601:
+            if(!(var14 == var17)) { _fun0001_ip = 705; continue _fun0001 }
+ 604:
+            if(var8) { _fun0001_ip = 705; continue _fun0001 }
+ 607:
             var14 = _closure1_slot0;
             var22 = _closure1_slot2;
             var8 = 21;
@@ -458,8 +458,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.bind(var21)(var25);
             var8['user'] = var19;
             var8 = var17.bind(var18)(var14, var8);
-            _fun0001_ip = 807; continue _fun0001;
- 699:
+            _fun0001_ip = 815; continue _fun0001;
+ 705:
             var17 = _closure1_slot0;
             var22 = _closure1_slot2;
             var14 = 21;
@@ -560,7 +560,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var14['AKAHook'] = var20;
             var8 = var18.bind(var19)(var17, var14);
- 807:
+ 815:
             var10['children'] = var8;
             var8 = 'transfer-ownership-details';
             var8 = var13.bind(var4)(var11, var10, var8);

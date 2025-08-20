@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['maxWidth'] = var7;
                 var2['style'] = var1;
                 var15 = null;
-                if(!(var15 == var12)) { _fun0002_ip = 197; continue _fun0002 }
+                if(!(var15 == var12)) { _fun0002_ip = 195; continue _fun0002 }
  85:
                 var9 = _closure1_slot9;
                 var7 = _closure1_slot0;
@@ -231,8 +231,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = 2;
                 var1['maxFontSizeMultiplier'] = var13;
                 var1 = var9.bind(var8)(var7, var1);
-                _fun0002_ip = 269; continue _fun0002;
- 197:
+                _fun0002_ip = 265; continue _fun0002;
+ 195:
                 var9 = _closure1_slot9;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = 2;
                 var6['maxFontSizeMultiplier'] = var10;
                 var1 = var9.bind(var8)(var7, var6);
- 269:
+ 265:
                 var2['children'] = var1;
                 var1 = undefined;
                 var1 = var4.bind(var1)(var3, var2, var5);

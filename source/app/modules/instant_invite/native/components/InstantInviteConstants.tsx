@@ -187,24 +187,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var16.isIOS;
         var16 = var13.bind(var16)();
         var13 = undefined;
-        if(!var16) { _fun0001_ip = 561; continue _fun0001 }
- 549:
+        if(!var16) { _fun0001_ip = 553; continue _fun0001 }
+ 541:
         var16 = 11;
         var16 = var8[var16];
         var13 = var14.bind(var1)(var16);
- 561:
+ 553:
         var9['fullIcon'] = var13;
         var13 = var8[var15];
         var16 = var7.bind(var1)(var13);
         var13 = var16.isAndroid;
         var16 = var13.bind(var16)();
         var13 = undefined;
-        if(!var16) { _fun0001_ip = 601; continue _fun0001 }
- 589:
+        if(!var16) { _fun0001_ip = 593; continue _fun0001 }
+ 581:
         var16 = 12;
         var16 = var8[var16];
         var13 = var14.bind(var1)(var16);
- 601:
+ 593:
         var9['icon'] = var13;
         var13 = 13;
         var16 = var8[var13];
@@ -361,24 +361,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var17.isIOS;
         var17 = var16.bind(var17)();
         var16 = undefined;
-        if(!var17) { _fun0001_ip = 707; continue _fun0001 }
- 695:
+        if(!var17) { _fun0001_ip = 695; continue _fun0001 }
+ 683:
         var17 = 17;
         var17 = var8[var17];
         var16 = var14.bind(var1)(var17);
- 707:
+ 695:
         var9['fullIcon'] = var16;
         var15 = var8[var15];
         var16 = var7.bind(var1)(var15);
         var15 = var16.isAndroid;
         var16 = var15.bind(var16)();
         var15 = undefined;
-        if(!var16) { _fun0001_ip = 747; continue _fun0001 }
- 735:
+        if(!var16) { _fun0001_ip = 735; continue _fun0001 }
+ 723:
         var16 = 18;
         var16 = var8[var16];
         var15 = var14.bind(var1)(var16);
- 747:
+ 735:
         var9['icon'] = var15;
         var13 = var8[var13];
         var15 = var7.bind(var1)(var13);

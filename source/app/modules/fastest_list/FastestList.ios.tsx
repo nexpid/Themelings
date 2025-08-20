@@ -285,22 +285,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var3.bind(var13)(var1, var2);
             var2 = var14.scrollReporting;
             var1 = 'animatedCallbacks';
-            if(!(var1 !== var2)) { _fun0002_ip = 457; continue _fun0002 }
- 435:
+            if(!(var1 !== var2)) { _fun0002_ip = 461; continue _fun0002 }
+ 439:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 4;
             var1 = var3[var1];
             var3 = var2.bind(var4)(var1);
-            _fun0002_ip = 483; continue _fun0002;
- 457:
+            _fun0002_ip = 487; continue _fun0002;
+ 461:
             var2 = _closure1_slot0;
             var41 = _closure1_slot2;
             var1 = 4;
             var1 = var41[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.AnimatedFastList;
- 483:
+ 487:
             var2 = _closure1_slot4;
             var1 = {};
             var1['accessibilityLabel'] = var40;
@@ -311,10 +311,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['batchesToRender'] = var37;
             var1['chunkBase'] = var35;
             var35 = 'disabled';
-            if(!var36) { _fun0002_ip = 532; continue _fun0002 }
- 528:
-            var35 = 'default';
+            if(!var36) { _fun0002_ip = 536; continue _fun0002 }
  532:
+            var35 = 'default';
+ 536:
             var1['stickySectionsVariant'] = var35;
             var1['footerSize'] = var34;
             var1['getRecyclerKey'] = var33;
@@ -330,10 +330,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var14.scrollReporting;
             var16 = 'animatedScrollPosition';
             var24 = undefined;
-            if(!(var16 !== var26)) { _fun0002_ip = 613; continue _fun0002 }
- 610:
+            if(!(var16 !== var26)) { _fun0002_ip = 617; continue _fun0002 }
+ 614:
             var24 = var25;
- 613:
+ 617:
             var1['onScroll'] = var24;
             var1['onScrollBeginDrag'] = var23;
             var1['onScrollEndDrag'] = var22;
@@ -350,20 +350,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['scrollIndicatorInsets'] = var13;
             var15 = var14.scrollReporting;
             var13 = undefined;
-            if(!(var16 === var15)) { _fun0002_ip = 695; continue _fun0002 }
- 689:
+            if(!(var16 === var15)) { _fun0002_ip = 699; continue _fun0002 }
+ 693:
             var13 = var14.scrollPosition;
- 695:
+ 699:
             var1['scrollPosValue'] = var13;
             var1['sections'] = var12;
             var1['sectionSize'] = var11;
             var1['sectionFooterSize'] = var10;
             var1['showsHorizontalScrollIndicator'] = var9;
             var1['showsVerticalScrollIndicator'] = var8;
-            if(var6) { _fun0002_ip = 731; continue _fun0002 }
- 728:
+            if(var6) { _fun0002_ip = 735; continue _fun0002 }
+ 732:
             var6 = var7;
- 731:
+ 735:
             var1['stickyHeaderFooter'] = var6;
             var1['style'] = var5;
             var1 = var2.bind(var4)(var3, var1);
