@@ -35,6 +35,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['REDDIT_GOLD'] = var1;
     var1 = 'mod';
     var4['REDDIT_MOD'] = var1;
+    var10 = 'followers_count';
+    var4['BLUESKY_FOLLOWERS_COUNT'] = var10;
+    var2 = 'statuses_count';
+    var4['BLUESKY_STATUSES_COUNT'] = var2;
     var1 = 'game_count';
     var4['STEAM_GAME_COUNT'] = var1;
     var1 = 'item_count_tf2';
@@ -43,9 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['STEAM_ITEM_COUNT_DOTA2'] = var1;
     var1 = 'verified';
     var4['TWITTER_VERIFIED'] = var1;
-    var2 = 'followers_count';
-    var4['TWITTER_FOLLOWERS_COUNT'] = var2;
-    var2 = 'statuses_count';
+    var4['TWITTER_FOLLOWERS_COUNT'] = var10;
     var4['TWITTER_STATUSES_COUNT'] = var2;
     var4['PAYPAL_VERIFIED'] = var1;
     var2 = 'positive_feedback_percentage';

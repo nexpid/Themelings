@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'searchResultsQuery';
                 var4 = var4.bind(var6)(var3);
                 var3 = arg2;
-                if(!(var4 === var3)) { _fun0002_ip = 122; continue _fun0002 }
+                if(!(var4 === var3)) { _fun0002_ip = 121; continue _fun0002 }
  34:
                 var4 = new Array(0);
                 var _closure3_slot0 = var4;
@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.length;
                 var1['count'] = var4;
                 var1 = var2.bind(var3)(var1);
- 122:
+ 121:
                 var1 = undefined;
                 return var1;
             }

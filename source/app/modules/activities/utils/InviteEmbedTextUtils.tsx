@@ -7,73 +7,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var9;
     var _closure1_slot2 = var8;
-    var5 = function getRequestToStreamText(arg1, arg2, arg3, arg4, arg5) {
+    var5 = function getRequestToStreamText(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var5 = arg1;
             var6 = arg2;
-            var7 = arg3;
             var1 = var5.author;
             var2 = var1.id;
-            var1 = arg4;
-            if(!(var2 !== var1)) { _fun0001_ip = 182; continue _fun0001 }
- 30:
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 2;
-            var1 = var3[var1];
-            var10 = undefined;
-            var1 = var2.bind(var10)(var1);
-            var4 = var1.intl;
+            var1 = arg3;
+            if(!(var2 !== var1)) { _fun0001_ip = 138; continue _fun0001 }
+ 24:
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var2 = 2;
+            var2 = var10[var2];
+            var8 = undefined;
+            var2 = var9.bind(var8)(var2);
+            var4 = var2.intl;
             var3 = var4.formatToPlainString;
             var2 = _closure1_slot1;
-            var9 = _closure1_slot2;
             var1 = 3;
-            var1 = var9[var1];
-            var1 = var2.bind(var10)(var1);
-            var2 = arg5;
-            if(var2) { _fun0001_ip = 101; continue _fun0001 }
- 91:
-            var2 = var1.s7bMT0;
-            _fun0001_ip = 109; continue _fun0001;
- 101:
-            var2 = var1.o/An3t;
- 109:
+            var1 = var10[var1];
+            var1 = var2.bind(var8)(var1);
+            var2 = var1.d/qbCw;
             var1 = {};
-            var9 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var8 = 4;
-            var8 = var11[var8];
-            var10 = var9.bind(var10)(var8);
-            var9 = var10.getName;
-            var8 = var7.guild_id;
-            var7 = var7.id;
+            var7 = 4;
+            var7 = var10[var7];
+            var9 = var9.bind(var8)(var7);
+            var8 = var9.getName;
+            var7 = var6.guild_id;
+            var6 = var6.id;
             var5 = var5.author;
-            var5 = var9.bind(var10)(var8, var7, var5);
+            var5 = var8.bind(var9)(var7, var6, var5);
             var1['username'] = var5;
-            var5 = var6.name;
-            var1['applicationName'] = var5;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 259; continue _fun0001;
- 182:
+            _fun0001_ip = 202; continue _fun0001;
+ 138:
             var4 = _closure1_slot0;
-            var8 = _closure1_slot2;
+            var7 = _closure1_slot2;
             var3 = 2;
-            var3 = var8[var3];
-            var7 = undefined;
-            var3 = var4.bind(var7)(var3);
-            var5 = var3.intl;
-            var4 = var5.formatToPlainString;
-            var3 = _closure1_slot1;
+            var3 = var7[var3];
+            var6 = undefined;
+            var3 = var4.bind(var6)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var5 = _closure1_slot1;
             var2 = 3;
-            var2 = var8[var2];
-            var2 = var3.bind(var7)(var2);
-            var3 = var2.7pndSk;
-            var2 = {};
-            var6 = var6.name;
-            var2['applicationName'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
- 259:
+            var2 = var7[var2];
+            var2 = var5.bind(var6)(var2);
+            var2 = var2.8B3U5O;
+            var1 = var3.bind(var4)(var2);
+ 202:
             return var1;
         }
     };
@@ -312,57 +296,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function getDeadGameInviteText(arg1, arg2, arg3, arg4) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            var8 = arg1;
-            var7 = arg2;
-            var6 = arg3;
-            var4 = arg4;
-            var1 = var8.activity;
+            var6 = arg1;
+            var4 = arg3;
+            var3 = arg4;
+            var1 = var6.activity;
             var2 = null;
             var2 = var2 == var1;
             var5 = undefined;
-            var3 = undefined;
-            if(var2) { _fun0004_ip = 36; continue _fun0004 }
- 31:
-            var3 = var1.type;
- 36:
+            var7 = undefined;
+            if(var2) { _fun0004_ip = 33; continue _fun0004 }
+ 28:
+            var7 = var1.type;
+ 33:
             var2 = _closure1_slot4;
             var2 = var2.LISTEN;
-            if(!(var2 !== var3)) { _fun0004_ip = 157; continue _fun0004 }
- 53:
+            if(!(var2 !== var7)) { _fun0004_ip = 141; continue _fun0004 }
+ 50:
             var2 = _closure1_slot4;
             var2 = var2.WATCH;
-            if(!(var2 !== var3)) { _fun0004_ip = 157; continue _fun0004 }
- 67:
+            if(!(var2 !== var7)) { _fun0004_ip = 141; continue _fun0004 }
+ 64:
             var2 = _closure1_slot4;
             var2 = var2.JOIN;
-            if(!(var2 !== var3)) { _fun0004_ip = 157; continue _fun0004 }
- 81:
+            if(!(var2 !== var7)) { _fun0004_ip = 141; continue _fun0004 }
+ 78:
             var2 = _closure1_slot4;
             var2 = var2.STREAM_REQUEST;
-            if(!(var2 !== var3)) { _fun0004_ip = 131; continue _fun0004 }
- 95:
+            if(!(var2 !== var7)) { _fun0004_ip = 128; continue _fun0004 }
+ 92:
             var2 = _closure1_slot4;
             var2 = var2.JOIN_REQUEST;
-            var3 = _closure1_slot6;
+            var8 = _closure1_slot6;
+            var12 = arg2;
             var9 = true;
             var14 = undefined;
-            var13 = var8;
-            var12 = var7;
-            var11 = var6;
-            var10 = var4;
-            var2 = var14[var3](var13, var12, var11, var10, var9, var8);
+            var13 = var6;
+            var11 = var4;
+            var10 = var3;
+            var2 = var14[var8](var13, var12, var11, var10, var9, var8);
             return var2;
- 131:
-            var3 = _closure1_slot5;
-            var9 = true;
-            var14 = undefined;
-            var13 = var8;
-            var12 = var7;
-            var11 = var6;
-            var10 = var4;
-            var2 = var14[var3](var13, var12, var11, var10, var9, var8);
+ 128:
+            var2 = _closure1_slot5;
+            var2 = var2.bind(var5)(var6, var4, var3);
             return var2;
- 157:
+ 141:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 2;

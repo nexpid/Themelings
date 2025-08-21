@@ -513,7 +513,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var7.Screen;
                 var7 = {};
                 var12 = _closure1_slot8;
-                var12 = var12.SETTINGS;
+                var12 = var12.SETTINGS_JUMP;
                 var7['name'] = var12;
                 var12 = _closure2_slot0;
                 var12 = var12.settings;

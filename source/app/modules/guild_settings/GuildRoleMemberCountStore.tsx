@@ -208,12 +208,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot5;
             var1 = var1[var4];
             var4 = null;
-            if(!(var4 != var1)) { _fun0005_ip = 45; continue _fun0005 }
- 37:
+            if(!(var4 != var1)) { _fun0005_ip = 44; continue _fun0005 }
+ 36:
             var1[var3] = var2;
             var1 = undefined;
             return var1;
- 45:
+ 44:
             var1 = false;
             return var1;
         }

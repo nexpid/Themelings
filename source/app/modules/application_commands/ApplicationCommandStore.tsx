@@ -57,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var3 = _closure1_slot10;
             var3 = var2 in var3;
-            if(var3) { _fun0002_ip = 51; continue _fun0002 }
+            if(var3) { _fun0002_ip = 55; continue _fun0002 }
  17:
             var4 = _closure1_slot10;
             var3 = {'activeCommand': null, 'activeCommandSection': null, 'activeOptionName': null, 'preferredCommandId': null, 'optionStates': null, 'initialValues': null, 'commandOrigin': null};
@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var3['initialValues'] = var5;
             var4[var2] = var3;
- 51:
+ 55:
             var1 = _closure1_slot10;
             var1 = var1[var2];
             return var1;

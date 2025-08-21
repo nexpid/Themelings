@@ -616,7 +616,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.getUser;
             var4 = var2.bind(var3)(var8);
             var2 = null;
-            if(!(var2 == var4)) { _fun0007_ip = 122; continue _fun0007 }
+            if(!(var2 == var4)) { _fun0007_ip = 118; continue _fun0007 }
  33:
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -655,13 +655,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
-            _fun0007_ip = 141; continue _fun0007;
- 122:
+            _fun0007_ip = 137; continue _fun0007;
+ 118:
             var2 = global;
             var3 = var2.Promise;
             var2 = var3.resolve;
             var1 = var2.bind(var3)(var4);
- 141:
+ 137:
             return var1;
         }
     };

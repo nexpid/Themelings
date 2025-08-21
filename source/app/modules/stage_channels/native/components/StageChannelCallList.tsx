@@ -465,11 +465,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = arg1;
                 var1 = _closure1_slot12;
                 var1 = var1.STREAM;
-                if(!(var1 !== var2)) { _fun0005_ip = 479; continue _fun0005 }
+                if(!(var1 !== var2)) { _fun0005_ip = 474; continue _fun0005 }
  25:
                 var1 = _closure1_slot12;
                 var1 = var1.AUDIENCE;
-                if(!(var1 !== var2)) { _fun0005_ip = 338; continue _fun0005 }
+                if(!(var1 !== var2)) { _fun0005_ip = 337; continue _fun0005 }
  42:
                 var1 = _closure1_slot12;
                 var1 = var1.SPEAKER;
@@ -490,7 +490,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot10;
                 var2 = 0;
                 var1 = null;
-                if(!(var2 !== var3)) { _fun0005_ip = 336; continue _fun0005 }
+                if(!(var2 !== var3)) { _fun0005_ip = 335; continue _fun0005 }
  116:
                 var5 = _closure1_slot7;
                 var3 = _closure1_slot1;
@@ -526,8 +526,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = _closure2_slot5;
                 var2['collapsed'] = var9;
                 var6 = undefined;
-                if(!var9) { _fun0005_ip = 326; continue _fun0005 }
- 236:
+                if(!var9) { _fun0005_ip = 325; continue _fun0005 }
+ 235:
                 var11 = _closure1_slot7;
                 var10 = _closure1_slot1;
                 var14 = _closure1_slot2;
@@ -549,17 +549,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = _closure1_slot9;
                 var9['cutout'] = var12;
                 var6 = var11.bind(var4)(var10, var9);
- 326:
+ 325:
                 var2['children'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
- 336:
+ 335:
                 return var1;
- 338:
+ 337:
                 var3 = _closure2_slot11;
                 var2 = 0;
                 var1 = null;
-                if(!(var2 !== var3)) { _fun0005_ip = 477; continue _fun0005 }
- 356:
+                if(!(var2 !== var3)) { _fun0005_ip = 472; continue _fun0005 }
+ 352:
                 var5 = _closure1_slot7;
                 var3 = _closure1_slot1;
                 var12 = _closure1_slot2;
@@ -594,9 +594,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = _closure2_slot3;
                 var2['collapsed'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
- 477:
+ 472:
                 return var1;
- 479:
+ 474:
                 var1 = null;
                 return var1;
             }

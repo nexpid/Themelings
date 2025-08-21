@@ -62,6 +62,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['QUEST_CONTENT_IMPRESSION'] = var2;
     var2 = 'quest_bar_render_delay';
     var4['QUEST_BAR_RENDER_DELAY'] = var2;
+    var2 = 'quest_content_rendering_failure';
+    var4['QUEST_CONTENT_RENDERING_FAILURE'] = var2;
     var2 = 'quest_video_error';
     var4['QUEST_VIDEO_ERROR'] = var2;
     var2 = 'OtaCheckAttempt';
@@ -86,7 +88,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Set;
     var5 = var7.prototype;
     var6 = Object.create(var5, {constructor: {value: var7}});
-    var10 = ['OtaAssetDownloadAttempt', 'OtaCheckAttempt', 'afk_not_idle', 'app_crashed', 'appeal_ingestion_view', 'captcha_event', 'captcha_serve_volume_distribution', 'debug_ota_200_timeout', 'dm_settings_upsell_view', 'explicit_media_pending_message_loaded', 'explicit_media_pending_message_loaded_v2', 'explicit_media_scan_client_timed_out', 'explicit_media_scan_client_timed_out_distribution', 'explicit_media_scan_client_timeout_create', 'explicit_media_scan_client_timing', 'explicit_media_sender_fp_button_view', 'family_center_view', 'forum_channel_grid_auto_enabled', 'image_load_error', 'in_app_report_navigate_to_nonexistent_node', 'message_request_count_drift', 'message_request_view', 'ota_asset_download', 'ota_update_check', 'quest_bar_render_delay', 'quest_content_impression', 'quest_video_error', 'remix_font_loading_error', 'safety_hub_view', 'safety_warning_modal_view', 'safety_warning_view', 'socket_crashed', 'spam_message_request_error_view', 'spam_message_request_view'];
+    var10 = ['OtaAssetDownloadAttempt', 'OtaCheckAttempt', 'afk_not_idle', 'app_crashed', 'appeal_ingestion_view', 'captcha_event', 'captcha_serve_volume_distribution', 'debug_ota_200_timeout', 'dm_settings_upsell_view', 'explicit_media_pending_message_loaded', 'explicit_media_pending_message_loaded_v2', 'explicit_media_scan_client_timed_out', 'explicit_media_scan_client_timed_out_distribution', 'explicit_media_scan_client_timeout_create', 'explicit_media_scan_client_timing', 'explicit_media_sender_fp_button_view', 'family_center_view', 'forum_channel_grid_auto_enabled', 'image_load_error', 'in_app_report_navigate_to_nonexistent_node', 'message_request_count_drift', 'message_request_view', 'ota_asset_download', 'ota_update_check', 'quest_bar_render_delay', 'quest_content_impression', 'quest_content_rendering_failure', 'quest_video_error', 'remix_font_loading_error', 'safety_hub_view', 'safety_warning_modal_view', 'safety_warning_view', 'socket_crashed', 'spam_message_request_error_view', 'spam_message_request_view'];
     var11 = var6;
     var5 = new var11[var7](var10, var9);
     var5 = var5 instanceof Object ? var5 : var6;

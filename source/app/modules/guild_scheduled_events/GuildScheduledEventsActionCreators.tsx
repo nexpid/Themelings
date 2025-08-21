@@ -124,7 +124,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['joinVoiceEvent'] = var7;
-    var7 = function saveEvent(arg1, arg2, arg3, arg4) {
+    var7 = function saveEvent(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg2;
@@ -176,9 +176,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['entity_type'] = var6;
             var4['channel_id'] = var3;
             var4['entity_metadata'] = var2;
-            var2 = arg4;
-            var2 = var2.broadcastToDirectoryChannels;
-            var4['broadcast_to_directory_channels'] = var2;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
             var2 = 8;
@@ -209,7 +206,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var2['saveEvent'] = var7;
-    var7 = function createGuildEvent(arg1, arg2, arg3) {
+    var7 = function createGuildEvent(arg1, arg2) {
         var1 = arg1;
         var4 = {};
         var2 = var1.name;
@@ -230,9 +227,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4['channel_id'] = var2;
         var2 = var1.entityMetadata;
         var4['entity_metadata'] = var2;
-        var2 = arg3;
-        var2 = var2.broadcastToDirectoryChannels;
-        var4['broadcast_to_directory_channels'] = var2;
         var3 = _closure1_slot0;
         var6 = _closure1_slot2;
         var2 = 8;

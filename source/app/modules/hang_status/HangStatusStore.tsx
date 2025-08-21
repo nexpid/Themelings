@@ -498,7 +498,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             _closure1_slot9 = var1;
             _closure1_slot10 = var1;
-            if(!var3) { _fun0010_ip = 77; continue _fun0010 }
+            if(!var3) { _fun0010_ip = 81; continue _fun0010 }
  25:
             var4 = _closure1_slot12;
             var3 = {'status': null, 'customHangStatus': null};
@@ -510,7 +510,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6 + var5;
             var3['expiresAt'] = var5;
             var4['currentDefaultStatus'] = var3;
- 77:
+ 81:
             _closure1_slot11 = var1;
             var1 = undefined;
             return var1;

@@ -4656,8 +4656,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var4.components;
         var5 = var6.bind(var7)(var5);
         var2['components'] = var5;
-        var4 = var4.nonce;
-        var2['nonce'] = var4;
+        var5 = var4.nonce;
+        var2['nonce'] = var5;
+        var4 = var4.resolved;
+        var2['resolved'] = var4;
         var2 = var3.bind(var1)(var2);
         return var1;
     };

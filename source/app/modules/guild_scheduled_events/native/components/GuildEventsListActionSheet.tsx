@@ -14,7 +14,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var1.eventCount;
             var1 = var1.guild;
             var _closure2_slot0 = var1;
-            var2 = _closure1_slot11;
+            var2 = _closure1_slot10;
             var4 = undefined;
             var11 = var2.bind(var4)();
             var3 = _closure1_slot1;
@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.id;
             var5 = var2.bind(var4)(var1);
             var _closure2_slot1 = var5;
-            var3 = _closure1_slot10;
+            var3 = _closure1_slot9;
             var2 = _closure1_slot0;
             var1 = 12;
             var1 = var6[var1];
@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.t;
             var6 = var6.tlopTE;
             var6 = var7.bind(var8)(var6);
-            _fun0001_ip = 223; continue _fun0001;
+            _fun0001_ip = 222; continue _fun0001;
  158:
             var8 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -63,11 +63,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {};
             var7['count'] = var14;
             var6 = var12.bind(var13)(var8, var7);
- 223:
+ 222:
             var1['title'] = var6;
-            if(!var5) { _fun0001_ip = 399; continue _fun0001 }
- 233:
-            var8 = _closure1_slot10;
+            if(!var5) { _fun0001_ip = 398; continue _fun0001 }
+ 232:
+            var8 = _closure1_slot9;
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
             var12 = 14;
@@ -140,13 +140,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = true;
             var6['shrink'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 399:
+ 398:
             var1['trailing'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -178,15 +178,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var7 = var4.AnalyticEvents;
-    var _closure1_slot7 = var7;
-    var4 = var4.GuildFeatures;
-    var _closure1_slot8 = var4;
+    var4 = var4.AnalyticEvents;
+    var _closure1_slot7 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ReadStateTypes;
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
@@ -195,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot10 = var4;
+    var _closure1_slot9 = var4;
     var4 = 8;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -230,7 +228,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = copyDataProperties(var16, var15);
     var4['createEventButtonText'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot11 = var4;
+    var _closure1_slot10 = var4;
     var4 = 25;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -239,38 +237,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function GuildEventsListActionSheet(arg1) {
         var2 = arg1;
-        var15 = var2.guild;
-        var _closure2_slot0 = var15;
+        var11 = var2.guild;
+        var _closure2_slot0 = var11;
         var13 = _closure1_slot1;
         var14 = _closure1_slot2;
         var2 = 16;
         var2 = var14[var2];
         var4 = undefined;
         var3 = var13.bind(var4)(var2);
-        var2 = var15.id;
-        var18 = var3.bind(var4)(var2);
-        var _closure2_slot1 = var18;
-        var5 = var15.features;
-        var3 = var5.has;
-        var2 = _closure1_slot8;
-        var2 = var2.HUB;
-        var11 = var3.bind(var5)(var2);
-        var _closure2_slot2 = var11;
-        var2 = _closure1_slot11;
+        var2 = var11.id;
+        var17 = var3.bind(var4)(var2);
+        var _closure2_slot1 = var17;
+        var2 = _closure1_slot10;
         var9 = var2.bind(var4)();
         var5 = _closure1_slot3;
         var3 = var5.useRef;
         var10 = _closure1_slot5;
         var7 = var10.ackMessageId;
-        var6 = var15.id;
-        var2 = _closure1_slot9;
+        var6 = var11.id;
+        var2 = _closure1_slot8;
         var2 = var2.GUILD_EVENT;
         var2 = var7.bind(var10)(var6, var2);
         var12 = var3.bind(var5)(var2);
         var6 = var5.useEffect;
         var3 = new Array(2);
-        var3[0] = var18;
-        var2 = var15.id;
+        var3[0] = var17;
+        var2 = var11.id;
         var3[1] = var2;
         var2 = function() {
             var4 = _closure2_slot1;
@@ -318,11 +310,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2 = new Array(0);
-        var16 = var6.bind(var5)(var3, var2);
+        var15 = var6.bind(var5)(var3, var2);
         var6 = var5.useCallback;
-        var3 = new Array(2);
-        var3[0] = var15;
-        var3[1] = var11;
+        var3 = new Array(1);
+        var3[0] = var11;
         var2 = function(arg1, arg2) {
             var5 = arg1;
             var3 = _closure1_slot0;
@@ -336,8 +327,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var5.id;
             var2['eventId'] = var6;
             var2['event'] = var5;
-            var5 = _closure2_slot2;
-            var2['isHubContext'] = var5;
             var5 = arg2;
             var2['recurrenceId'] = var5;
             var5 = function onClose() {
@@ -356,7 +345,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var17 = var6.bind(var5)(var2, var3);
+        var16 = var6.bind(var5)(var2, var3);
         var2 = 19;
         var2 = var14[var2];
         var3 = var13.bind(var4)(var2);
@@ -384,7 +373,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var2 = var3.bind(var4)(var2);
         var3 = var5.useEffect;
-        var6 = var15.id;
+        var6 = var11.id;
         var2 = new Array(1);
         var2[0] = var6;
         var1 = function() {
@@ -404,7 +393,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.ackGuildFeature;
                 var2 = _closure2_slot0;
                 var2 = var2.id;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot8;
                 var1 = var1.GUILD_EVENT;
                 var1 = var3.bind(var4)(var2, var1);
  74:
@@ -413,42 +402,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1 = var3.bind(var5)(var1, var2);
-        var3 = _closure1_slot10;
+        var3 = _closure1_slot9;
         var2 = _closure1_slot0;
         var1 = 22;
         var1 = var14[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.BottomSheet;
         var1 = {'showGradient': true, 'scrollable': null, 'startExpanded': true};
-        var19 = true;
-        var6 = var18.length;
+        var18 = true;
+        var6 = var17.length;
         var5 = 0;
         var5 = var6 > var5;
         var1['scrollable'] = var5;
-        var7 = _closure1_slot10;
-        var6 = _closure1_slot12;
+        var7 = _closure1_slot9;
+        var6 = _closure1_slot11;
         var5 = {};
-        var10 = var18.length;
+        var10 = var17.length;
         var5['eventCount'] = var10;
-        var5['guild'] = var15;
+        var5['guild'] = var11;
         var5 = var7.bind(var4)(var6, var5);
         var1['header'] = var5;
-        var7 = _closure1_slot10;
+        var7 = _closure1_slot9;
         var6 = _closure1_slot4;
         var5 = {};
         var9 = var9.container;
         var5['style'] = var9;
-        var10 = _closure1_slot10;
+        var10 = _closure1_slot9;
         var8 = 23;
         var8 = var14[var8];
         var9 = var13.bind(var4)(var8);
         var8 = {};
-        var8['inActionSheet'] = var19;
-        var8['events'] = var18;
-        var8['onPressEvent'] = var17;
-        var8['onCloseAction'] = var16;
-        var8['guild'] = var15;
-        var8['isHubContext'] = var11;
+        var8['inActionSheet'] = var18;
+        var8['events'] = var17;
+        var8['onPressEvent'] = var16;
+        var8['onCloseAction'] = var15;
+        var8['guild'] = var11;
         var11 = 24;
         var11 = var14[var11];
         var11 = var13.bind(var4)(var11);

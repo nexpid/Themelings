@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(7);
+        var1 = new Array(8);
         var1[0] = var5;
         var5 = {};
         var7 = 'getSessions';
@@ -302,7 +302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var7 = 'getActiveSession';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
             var2 = 6;
@@ -319,8 +319,86 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[6] = var5;
+        var5 = {};
+        var7 = 'getRemoteApplicationActivity';
+        var5['key'] = var7;
+        var6 = function value(arg1) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+ 0:
+                var2 = arg1;
+                var _closure3_slot0 = var2;
+                var1 = null;
+                if(!(var1 != var2)) { _fun0008_ip = 150; continue _fun0008 }
+ 18:
+                var5 = _closure1_slot7;
+                var3 = var5.getSessionId;
+                var3 = var3.bind(var5)();
+                var _closure3_slot1 = var3;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var3 = 6;
+                var5 = var5[var3];
+                var3 = undefined;
+                var7 = var6.bind(var3)(var5);
+                var6 = var7.find;
+                var5 = _closure1_slot9;
+                var2 = function(arg1) {
+                    _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+ 0:
+                        var2 = arg1;
+                        var1 = var2.active;
+                        if(!var1) { _fun0009_ip = 29; continue _fun0009 }
+ 12:
+                        var3 = var2.sessionId;
+                        var2 = _closure3_slot1;
+                        var1 = var3 !== var2;
+ 29:
+                        return var1;
+                    }
+                };
+                var5 = var6.bind(var7)(var5, var2);
+                if(!(var1 != var5)) { _fun0008_ip = 148; continue _fun0008 }
+ 86:
+                var7 = var5.activities;
+                var6 = var7.find;
+                var2 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.application_id;
+                    var1 = _closure3_slot0;
+                    var1 = var2 === var1;
+                    return var1;
+                };
+                var2 = var6.bind(var7)(var2);
+                if(!(var1 == var2)) { _fun0008_ip = 146; continue _fun0008 }
+ 112:
+                var6 = var5.hiddenActivities;
+                var5 = var1 == var6;
+                var3 = undefined;
+                if(var5) { _fun0008_ip = 143; continue _fun0008 }
+ 127:
+                var5 = var6.find;
+                var4 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.application_id;
+                    var1 = _closure3_slot0;
+                    var1 = var2 === var1;
+                    return var1;
+                };
+                var3 = var5.bind(var6)(var4);
+ 143:
+                var2 = var3;
+ 146:
+                return var2;
+ 148:
+                return var1;
+ 150:
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[7] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

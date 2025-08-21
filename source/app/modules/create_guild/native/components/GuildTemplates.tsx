@@ -25,10 +25,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 18;
         var7 = var9[var7];
         var7 = var8.bind(var3)(var7);
-        var8 = var7.GUILD_TEMPLATE_ICONS;
+        var8 = var7.GUILD_TEMPLATE_ICON_COMPONENTS;
         var7 = var6.id;
         var7 = var8[var7];
-        var1['icon'] = var7;
+        var1['Icon'] = var7;
         var6 = var6.label;
         var1['message'] = var6;
         var5 = function onPress() {

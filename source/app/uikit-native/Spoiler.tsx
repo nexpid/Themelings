@@ -307,8 +307,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.count;
                 var5 = var3.bind(var5)(var6);
                 var3 = 0;
-                if(!(var3 !== var5)) { _fun0005_ip = 279; continue _fun0005 }
- 139:
+                if(!(var3 !== var5)) { _fun0005_ip = 278; continue _fun0005 }
+ 138:
                 var3 = _closure1_slot7;
                 var5 = var3.Children;
                 var3 = var5.map;
@@ -386,24 +386,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6[0] = var8;
                 var8 = var7.props;
                 var8 = var8.muted;
-                if(!var8) { _fun0005_ip = 233; continue _fun0005 }
- 227:
+                if(!var8) { _fun0005_ip = 232; continue _fun0005 }
+ 226:
                 var8 = var9.muted;
- 233:
+ 232:
                 var6[1] = var8;
                 var1['style'] = var6;
                 var6 = var7.props;
                 var8 = var6.disableReveal;
                 var6 = undefined;
-                if(var8) { _fun0005_ip = 263; continue _fun0005 }
- 257:
+                if(var8) { _fun0005_ip = 262; continue _fun0005 }
+ 256:
                 var6 = var7.handleTap;
- 263:
+ 262:
                 var1['onPress'] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
- 279:
+ 278:
                 var1 = null;
                 return var1;
             }

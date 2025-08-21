@@ -169,8 +169,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var9;
             var9 = null;
             var9 = var9 != var17;
-            if(!var9) { _fun0001_ip = 300; continue _fun0001 }
- 271:
+            if(!var9) { _fun0001_ip = 299; continue _fun0001 }
+ 270:
             var15 = _closure1_slot6;
             var11 = _closure1_slot4;
             var10 = {};
@@ -178,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['style'] = var18;
             var10['children'] = var17;
             var9 = var15.bind(var4)(var11, var10);
- 300:
+ 299:
             var8[1] = var9;
             var11 = _closure1_slot6;
             var10 = _closure1_slot4;

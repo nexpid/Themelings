@@ -381,7 +381,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var7;
     var4 = var4.jsxs;
     var _closure1_slot8 = var4;
-    var4 = 16;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -398,34 +398,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 15;
             var1 = var4[var1];
             var6 = undefined;
-            var2 = var2.bind(var6)(var1);
-            var1 = var2.useCanSeeGuildRoleSubscriptionSettings;
-            var2 = var1.bind(var2)(var7);
+            var5 = var2.bind(var6)(var1);
+            var1 = var5.useCanSeeGuildRoleSubscriptionSettings;
+            var5 = var1.bind(var5)(var7);
+            var1 = 16;
+            var1 = var4[var1];
+            var4 = var2.bind(var6)(var1);
+            var2 = var4.isEnableMonetizationHiddenFromServerSettings;
+            var1 = var7.id;
+            var4 = var2.bind(var4)(var1);
             var1 = null;
-            if(!var2) { _fun0002_ip = 131; continue _fun0002 }
- 55:
-            var5 = var7.features;
-            var4 = var5.has;
-            var2 = _closure1_slot5;
-            var2 = var2.ROLE_SUBSCRIPTIONS_ENABLED;
-            var2 = var4.bind(var5)(var2);
+            if(!var5) { _fun0002_ip = 168; continue _fun0002 }
+ 83:
+            var10 = var7.features;
+            var9 = var10.has;
+            var5 = _closure1_slot5;
+            var5 = var5.ROLE_SUBSCRIPTIONS_ENABLED;
+            var5 = var9.bind(var10)(var5);
+            if(var5) { _fun0002_ip = 140; continue _fun0002 }
+ 112:
+            var2 = null;
+            if(var4) { _fun0002_ip = 138; continue _fun0002 }
+ 117:
+            var9 = _closure1_slot7;
+            var5 = _closure1_slot9;
+            var4 = {};
+            var4['pushScreen'] = var8;
+            var2 = var9.bind(var6)(var5, var4);
+ 138:
+            _fun0002_ip = 165; continue _fun0002;
+ 140:
             var5 = _closure1_slot7;
-            if(var2) { _fun0002_ip = 107; continue _fun0002 }
- 88:
-            var4 = _closure1_slot9;
-            var2 = {};
-            var2['pushScreen'] = var8;
-            var2 = var5.bind(var6)(var4, var2);
-            _fun0002_ip = 128; continue _fun0002;
- 107:
             var4 = _closure1_slot10;
             var3 = {};
             var3['pushScreen'] = var8;
             var3['guild'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 128:
+ 165:
             var1 = var2;
- 131:
+ 168:
             return var1;
         }
     };

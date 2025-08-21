@@ -11,10 +11,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var12 = var1.eventId;
+            var10 = var1.eventId;
             var11 = var1.event;
-            var10 = var1.onClose;
-            var2 = var1.isHubContext;
+            var2 = var1.onClose;
             var8 = var1.recurrenceId;
             var5 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -33,13 +32,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var4, var3);
             var4 = _closure1_slot5;
             var3 = {};
-            var3['eventId'] = var12;
+            var3['eventId'] = var10;
             var3['event'] = var11;
-            var3['onCloseActionSheet'] = var10;
-            var3['isHubContext'] = var2;
+            var3['onCloseActionSheet'] = var2;
             var2 = null;
-            if(!(var2 == var8)) { _fun0001_ip = 161; continue _fun0001 }
- 130:
+            if(!(var2 == var8)) { _fun0001_ip = 150; continue _fun0001 }
+ 119:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
             var9 = 6;
@@ -47,13 +45,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.bind(var1)(var9);
             var9 = var10.getNextRecurrenceIdInEvent;
             var8 = var9.bind(var10)(var11);
- 161:
+ 150:
             var9 = var2 != var8;
             var2 = undefined;
-            if(!var9) { _fun0001_ip = 173; continue _fun0001 }
- 170:
+            if(!var9) { _fun0001_ip = 162; continue _fun0001 }
+ 159:
             var2 = var8;
- 173:
+ 162:
             var3['recurrenceId'] = var2;
             var13 = 'stack';
             var17 = var7;

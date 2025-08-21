@@ -270,7 +270,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.TEXT;
             var2 = var7[var2];
             var4 = false;
-            if(!(var4 === var2)) { _fun0007_ip = 216; continue _fun0007 }
+            if(!(var4 === var2)) { _fun0007_ip = 214; continue _fun0007 }
  156:
             var2 = {};
             var2['shouldSync'] = var4;
@@ -284,12 +284,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.bind(var10)(var6, var8);
             var2['settings'] = var8;
             var1['text'] = var2;
- 216:
+ 214:
             var2 = _closure1_slot8;
             var2 = var2.APPEARANCE;
             var2 = var7[var2];
-            if(!(var4 === var2)) { _fun0007_ip = 294; continue _fun0007 }
- 234:
+            if(!(var4 === var2)) { _fun0007_ip = 292; continue _fun0007 }
+ 232:
             var2 = {};
             var2['shouldSync'] = var4;
             var4 = _closure1_slot1;
@@ -302,7 +302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var6, var3);
             var2['settings'] = var3;
             var1['appearance'] = var2;
- 294:
+ 292:
             return var1;
         }
     };

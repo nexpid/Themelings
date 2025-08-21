@@ -42,14 +42,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         var1 = arg1;
-        var14 = var1.messageId;
-        var12 = var1.messageFlags;
-        var10 = var1.applicationId;
+        var11 = var1.selectionActionComponent;
         var5 = var1.channelId;
         var _closure2_slot0 = var5;
-        var9 = var1.guildId;
-        var _closure2_slot1 = var9;
-        var11 = var1.selectionActionComponent;
+        var10 = var1.guildId;
+        var _closure2_slot1 = var10;
+        var12 = var1.containerId;
+        var8 = var1.onSubmit;
         var2 = var11.channelTypes;
         var _closure2_slot2 = var2;
         var7 = _closure1_slot3;
@@ -71,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var1, var3, var2);
             return var1;
         };
-        var8 = var4.bind(var7)(var2, var3);
+        var9 = var4.bind(var7)(var2, var3);
         var2 = _closure1_slot1;
         var13 = _closure1_slot2;
         var3 = 5;
@@ -80,12 +79,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = var2.bind(var4)(var3);
         var3 = {};
         var3['selectActionComponent'] = var11;
-        var3['messageId'] = var14;
-        var3['messageFlags'] = var12;
-        var3['applicationId'] = var10;
-        var3['channelId'] = var5;
-        var3['guildId'] = var9;
-        var3['queryOptions'] = var8;
+        var3['containerId'] = var12;
+        var3['guildId'] = var10;
+        var3['queryOptions'] = var9;
+        var3['onSubmit'] = var8;
         var3 = var7.bind(var4)(var3);
         var10 = var3.options;
         var9 = var3.selectedOptions;

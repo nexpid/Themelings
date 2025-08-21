@@ -93,21 +93,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.min;
                 var1 = var2.minMicroseconds;
                 var7 = null;
-                if(!(var7 == var1)) { _fun0002_ip = 100; continue _fun0002 }
- 88:
+                if(!(var7 == var1)) { _fun0002_ip = 99; continue _fun0002 }
+ 87:
                 var8 = var6.Number;
                 var1 = var8.MAX_SAFE_INTEGER;
- 100:
+ 99:
                 var1 = var3.bind(var4)(var1, var5);
                 var2['minMicroseconds'] = var1;
                 var4 = var6.Math;
                 var3 = var4.max;
                 var1 = var2.maxMicroseconds;
-                if(!(var7 == var1)) { _fun0002_ip = 145; continue _fun0002 }
- 133:
+                if(!(var7 == var1)) { _fun0002_ip = 144; continue _fun0002 }
+ 132:
                 var6 = var6.Number;
                 var1 = var6.MIN_SAFE_INTEGER;
- 145:
+ 144:
                 var1 = var3.bind(var4)(var1, var5);
                 var2['maxMicroseconds'] = var1;
                 var1 = undefined;

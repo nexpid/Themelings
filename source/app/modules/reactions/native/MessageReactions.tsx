@@ -161,11 +161,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = arg1;
                     var1 = var4.burst_count;
                     var5 = 0;
-                    if(!(var1 > var5)) { _fun0004_ip = 25; continue _fun0004 }
+                    if(!(var1 > var5)) { _fun0004_ip = 24; continue _fun0004 }
  15:
                     var1 = var4.count;
-                    if(!(!(var1 > var5))) { _fun0004_ip = 56; continue _fun0004 }
- 25:
+                    if(!(!(var1 > var5))) { _fun0004_ip = 55; continue _fun0004 }
+ 24:
                     var3 = _closure2_slot0;
                     var2 = var3.push;
                     var1 = {};
@@ -173,8 +173,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var4;
                     var6 = copyDataProperties(var9, var8);
                     var1 = var2.bind(var3)(var1);
-                    _fun0004_ip = 129; continue _fun0004;
- 56:
+                    _fun0004_ip = 128; continue _fun0004;
+ 55:
                     var6 = _closure2_slot0;
                     var3 = var6.push;
                     var2 = {};
@@ -193,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = 'burst_count';
                     var1[var4] = var5;
                     var1 = var2.bind(var3)(var1);
- 129:
+ 128:
                     var1 = undefined;
                     return var1;
                 }
@@ -207,21 +207,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = arg2;
                     var2 = var1.burst_count;
                     var4 = 0;
-                    if(!(!(var2 > var4))) { _fun0005_ip = 26; continue _fun0005 }
+                    if(!(!(var2 > var4))) { _fun0005_ip = 25; continue _fun0005 }
  18:
                     var2 = var1.count;
-                    _fun0005_ip = 32; continue _fun0005;
- 26:
+                    _fun0005_ip = 31; continue _fun0005;
+ 25:
                     var2 = var1.burst_count;
- 32:
+ 31:
                     var1 = var3.burst_count;
-                    if(!(!(var1 > var4))) { _fun0005_ip = 50; continue _fun0005 }
- 42:
+                    if(!(!(var1 > var4))) { _fun0005_ip = 48; continue _fun0005 }
+ 41:
                     var1 = var3.count;
-                    _fun0005_ip = 56; continue _fun0005;
- 50:
+                    _fun0005_ip = 54; continue _fun0005;
+ 48:
                     var1 = var3.burst_count;
- 56:
+ 54:
                     var1 = var2 - var1;
                     return var1;
                 }

@@ -449,15 +449,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  1229:
             var9 = 'poll';
             var1[var9] = var10;
+            var10 = var8.shared_client_theme;
+            var9 = 'sharedClientTheme';
+            var1[var9] = var10;
             var9 = var8.potions;
             var8 = 'potions';
             var1[var8] = var9;
             var7 = var7 == var2;
             var6 = undefined;
-            if(var7) { _fun0002_ip = 1265; continue _fun0002 }
- 1262:
+            if(var7) { _fun0002_ip = 1282; continue _fun0002 }
+ 1279:
             var6 = var2;
- 1265:
+ 1282:
             var2 = 'giftInfo';
             var1[var2] = var6;
             var2 = 'giftingPrompt';
@@ -712,15 +715,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  93:
                     var3 = var1.count;
                     var2 = 0;
-                    if(!(var3 < var2)) { _fun0007_ip = 111; continue _fun0007 }
- 105:
+                    if(!(var3 < var2)) { _fun0007_ip = 110; continue _fun0007 }
+ 104:
                     var1['count'] = var2;
- 111:
+ 110:
                     var3 = var1.burst_count;
-                    if(!(var3 < var2)) { _fun0007_ip = 127; continue _fun0007 }
- 121:
+                    if(!(var3 < var2)) { _fun0007_ip = 126; continue _fun0007 }
+ 120:
                     var1['burst_count'] = var2;
- 127:
+ 126:
                     return var1;
                 }
             };

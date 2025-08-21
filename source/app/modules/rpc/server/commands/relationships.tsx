@@ -5,7 +5,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var _closure1_slot1 = var4;
+    var1 = metroImportAll;
+    var _closure1_slot2 = var1;
+    var _closure1_slot3 = var6;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -77,7 +80,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = undefined;
             if(!var9) { _fun0001_ip = 247; continue _fun0001 }
  234:
-            var9 = _closure1_slot7;
+            var9 = _closure1_slot11;
             var7 = var9.bind(var8)(var3, var8);
  247:
             _fun0001_ip = 265; continue _fun0001;
@@ -89,7 +92,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7;
             _fun0001_ip = 283; continue _fun0001;
  270:
-            var7 = _closure1_slot7;
+            var7 = _closure1_slot11;
             var6 = var7.bind(var8)(var3, var8);
  283:
             var4 = var6;
@@ -148,7 +151,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot10 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -181,7 +184,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -194,15 +197,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var1];
     var1 = undefined;
     var2 = var4.bind(var1)(var2);
-    var _closure1_slot2 = var2;
+    var _closure1_slot4 = var2;
     var2 = 1;
     var2 = var6[var2];
     var2 = var4.bind(var1)(var2);
-    var _closure1_slot3 = var2;
+    var _closure1_slot5 = var2;
     var2 = 2;
     var2 = var6[var2];
     var2 = var4.bind(var1)(var2);
-    var _closure1_slot4 = var2;
+    var _closure1_slot6 = var2;
     var2 = 3;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
@@ -210,9 +213,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 4;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
+    var4 = var2.ApplicationFlags;
+    var _closure1_slot7 = var4;
     var4 = var2.RelationshipTypes;
-    var _closure1_slot5 = var4;
+    var _closure1_slot8 = var4;
     var4 = var2.RPCCommands;
+    var2 = var2.RPCErrors;
+    var _closure1_slot9 = var2;
     var2 = {};
     var7 = var4.GET_RELATIONSHIPS;
     var8 = 5;
@@ -236,72 +243,120 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var13 = arg1;
-            var2 = new Array(0);
-            var3 = _closure1_slot6;
-            var4 = _closure1_slot3;
-            var1 = var4.getMutableRelationships;
-            var4 = var1.bind(var4)();
-            var1 = var4.entries;
-            var1 = var1.bind(var4)();
-            var11 = undefined;
-            var10 = var3.bind(var11)(var1);
-            var3 = var10.bind(var11)();
-            var1 = var3.done;
-            var9 = 7;
-            var8 = null;
-            var7 = 2;
-            var6 = 0;
-            var5 = 1;
-            var4 = var3;
-            var3 = undefined;
-            if(var1) { _fun0004_ip = 234; continue _fun0004 }
- 78:
-            var14 = var4.value;
-            var1 = _closure1_slot2;
-            var1 = var1.bind(var11)(var14, var7);
-            var15 = var1[var6];
-            var18 = var1[var5];
-            var1 = _closure1_slot5;
-            var1 = var1.NONE;
-            if(!(var18 !== var1)) { _fun0004_ip = 216; continue _fun0004 }
- 115:
-            var14 = _closure1_slot4;
-            var1 = var14.getUser;
-            var1 = var1.bind(var14)(var15);
-            var3 = var1;
-            if(!(var8 != var3)) { _fun0004_ip = 216; continue _fun0004 }
- 137:
+            var3 = _closure1_slot2;
+            var2 = _closure1_slot3;
+            var8 = 7;
+            var5 = var2[var8];
+            var4 = undefined;
+            var6 = var3.bind(var4)(var5);
+            var5 = var6.has;
+            var2 = var2[var8];
+            var7 = var3.bind(var4)(var2);
+            var3 = var7.deserialize;
+            var2 = var13.socket;
+            var2 = var2.application;
+            var9 = var2.flags;
+            var12 = null;
+            var10 = var12 != var9;
+            var11 = 0;
+            var2 = 0;
+            if(!var10) { _fun0004_ip = 80; continue _fun0004 }
+ 77:
+            var2 = var9;
+ 80:
+            var3 = var3.bind(var7)(var2);
+            var7 = _closure1_slot2;
+            var2 = _closure1_slot3;
+            var2 = var2[var8];
+            var8 = var7.bind(var4)(var2);
+            var7 = var8.deserialize;
+            var2 = _closure1_slot7;
+            var2 = var2.DISABLE_RELATIONSHIPS_ACCESS;
+            var2 = var7.bind(var8)(var2);
+            var2 = var5.bind(var6)(var3, var2);
+            if(var2) { _fun0004_ip = 366; continue _fun0004 }
+ 135:
+            var3 = new Array(0);
+            var5 = _closure1_slot10;
+            var6 = _closure1_slot5;
+            var2 = var6.getMutableRelationships;
+            var6 = var2.bind(var6)();
+            var2 = var6.entries;
+            var2 = var2.bind(var6)();
+            var10 = var5.bind(var4)(var2);
+            var5 = var10.bind(var4)();
+            var2 = var5.done;
+            var9 = 9;
+            var8 = 2;
+            var7 = 1;
+            var6 = var5;
+            var5 = undefined;
+            if(var2) { _fun0004_ip = 357; continue _fun0004 }
+ 201:
+            var14 = var6.value;
+            var2 = _closure1_slot4;
+            var2 = var2.bind(var4)(var14, var8);
+            var15 = var2[var11];
+            var18 = var2[var7];
+            var2 = _closure1_slot8;
+            var2 = var2.NONE;
+            if(!(var18 !== var2)) { _fun0004_ip = 339; continue _fun0004 }
+ 238:
+            var14 = _closure1_slot6;
+            var2 = var14.getUser;
+            var2 = var2.bind(var14)(var15);
+            var5 = var2;
+            if(!(var12 != var5)) { _fun0004_ip = 339; continue _fun0004 }
+ 260:
             var16 = _closure1_slot0;
-            var14 = _closure1_slot1;
+            var14 = _closure1_slot3;
             var15 = var14[var9];
-            var17 = var16.bind(var11)(var15);
+            var17 = var16.bind(var4)(var15);
             var15 = var17.transformBaseRelationship;
-            var18 = var15.bind(var17)(var18, var1);
-            var15 = var2.push;
+            var18 = var15.bind(var17)(var18, var2);
+            var15 = var3.push;
             var14 = var14[var9];
-            var17 = var16.bind(var11)(var14);
+            var17 = var16.bind(var4)(var14);
             var16 = var17.transformApplicationRelationship;
             var14 = var13.socket;
             var14 = var14.application;
             var14 = var14.id;
             var14 = var16.bind(var17)(var18, var14);
-            var14 = var15.bind(var2)(var14);
-            var3 = var1;
- 216:
-            var14 = var10.bind(var11)();
-            var1 = var14.done;
-            var4 = var14;
-            if(!var1) { _fun0004_ip = 78; continue _fun0004 }
- 234:
-            var1 = {};
-            var1['relationships'] = var2;
-            return var1;
+            var14 = var15.bind(var3)(var14);
+            var5 = var2;
+ 339:
+            var14 = var10.bind(var4)();
+            var2 = var14.done;
+            var6 = var14;
+            if(!var2) { _fun0004_ip = 201; continue _fun0004 }
+ 357:
+            var2 = {};
+            var2['relationships'] = var3;
+            return var2;
+ 366:
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot3;
+            var2 = 8;
+            var2 = var5[var2];
+            var4 = var3.bind(var4)(var2);
+            var3 = {};
+            var1 = _closure1_slot9;
+            var1 = var1.INVALID_PERMISSIONS;
+            var3['errorCode'] = var1;
+            var1 = var4.prototype;
+            var2 = Object.create(var1, {constructor: {value: var4}});
+            var19 = 'Missing Permissions';
+            var21 = var2;
+            var20 = var3;
+            var1 = new var21[var4](var20, var19, var18);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         }
     };
     var4['handler'] = var11;
     var4 = var9.bind(var10)(var8, var4);
     var2[var7] = var4;
-    var4 = 8;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

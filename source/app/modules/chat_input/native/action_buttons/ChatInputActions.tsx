@@ -519,11 +519,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var1.active;
                     var1 = _closure1_slot7;
                     var1 = var1.HIDE_CHAT_INPUT;
-                    if(!(var1 !== var2)) { _fun0004_ip = 571; continue _fun0004 }
+                    if(!(var1 !== var2)) { _fun0004_ip = 561; continue _fun0004 }
  39:
                     var1 = _closure1_slot7;
                     var1 = var1.PHOTOS;
-                    if(!(var1 !== var2)) { _fun0004_ip = 326; continue _fun0004 }
+                    if(!(var1 !== var2)) { _fun0004_ip = 316; continue _fun0004 }
  56:
                     var1 = _closure1_slot7;
                     var1 = var1.APPS;
@@ -577,23 +577,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var3)(var1);
                     var1 = {};
                     var1['active'] = var6;
-                    var9 = _closure2_slot1;
-                    var1['channel'] = var9;
-                    var9 = _closure2_slot10;
-                    var9 = !var9;
-                    var1['disabled'] = var9;
-                    var9 = _closure2_slot2;
-                    var1['onPress'] = var9;
-                    var9 = _closure2_slot4;
-                    var11 = var9.buttonWrapper;
-                    var1['style'] = var11;
+                    var10 = _closure2_slot1;
+                    var1['channel'] = var10;
+                    var10 = _closure2_slot10;
+                    var10 = !var10;
+                    var1['disabled'] = var10;
+                    var10 = _closure2_slot2;
+                    var1['onPress'] = var10;
                     var10 = _closure2_slot5;
                     var1['styleButton'] = var10;
+                    var9 = _closure2_slot4;
                     var9 = var9.activeBrand;
                     var1['styleActiveIcon'] = var9;
                     var1 = var4.bind(var3)(var2, var1, var5);
                     return var1;
- 326:
+ 316:
                     var4 = _closure1_slot8;
                     var2 = _closure1_slot1;
                     var13 = _closure1_slot2;
@@ -633,10 +631,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['activeIconStyle'] = var10;
                     var10 = _closure2_slot10;
                     var10 = !var10;
-                    if(var10) { _fun0004_ip = 509; continue _fun0004 }
- 505:
+                    if(var10) { _fun0004_ip = 499; continue _fun0004 }
+ 495:
                     var10 = _closure2_slot3;
- 509:
+ 499:
                     var1['disabled'] = var10;
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
@@ -659,7 +657,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['style'] = var9;
                     var1 = var4.bind(var3)(var2, var1, var5);
                     return var1;
- 571:
+ 561:
                     var4 = _closure1_slot8;
                     var2 = _closure1_slot1;
                     var10 = _closure1_slot2;

@@ -258,7 +258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  52:
             var2 = true;
  54:
-            if(!var2) { _fun0006_ip = 232; continue _fun0006 }
+            if(!var2) { _fun0006_ip = 236; continue _fun0006 }
  60:
             var2 = _closure1_slot7;
             var4 = var2[var3];
@@ -272,40 +272,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7;
  92:
             var4 = var4.userViewInfo;
-            if(!(var2 == var4)) { _fun0006_ip = 112; continue _fun0006 }
+            if(!(var2 == var4)) { _fun0006_ip = 116; continue _fun0006 }
  102:
             var4 = {'eligibleAt': 0, 'viewCount': 0};
- 112:
+ 116:
             var9 = var4.eligibleAt;
             var7 = var4.viewCount;
             var4 = global;
             var8 = var4.Date;
             var4 = var8.now;
             var10 = var4.bind(var8)();
-            if(!(!(var9 < var10))) { _fun0006_ip = 162; continue _fun0006 }
- 145:
+            if(!(!(var9 < var10))) { _fun0006_ip = 166; continue _fun0006 }
+ 149:
             var4 = 10;
             var8 = var7 < var4;
             var4 = null;
-            if(!var8) { _fun0006_ip = 190; continue _fun0006 }
- 157:
+            if(!var8) { _fun0006_ip = 194; continue _fun0006 }
+ 161:
             var8 = var7 + 1;
-            _fun0006_ip = 175; continue _fun0006;
- 162:
+            _fun0006_ip = 179; continue _fun0006;
+ 166:
             var7 = 604800000;
             var9 = var10 + var7;
             var8 = 1;
- 175:
+ 179:
             var7 = {};
             var7['eligibleAt'] = var9;
             var7['viewCount'] = var8;
             var4 = var7;
- 190:
-            if(!(var2 == var4)) { _fun0006_ip = 200; continue _fun0006 }
  194:
+            if(!(var2 == var4)) { _fun0006_ip = 204; continue _fun0006 }
+ 198:
             _closure1_slot6 = var2;
-            _fun0006_ip = 232; continue _fun0006;
- 200:
+            _fun0006_ip = 236; continue _fun0006;
+ 204:
             var2 = {};
             var2['messageId'] = var6;
             var2['channelId'] = var5;
@@ -314,7 +314,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure1_slot6 = var2;
             var1 = _closure1_slot7;
             var1[var3] = var2;
- 232:
+ 236:
             var1 = undefined;
             return var1;
         }

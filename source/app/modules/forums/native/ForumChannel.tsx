@@ -1252,10 +1252,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var16 = var1 == var4;
                 var12 = undefined;
-                if(var16) { _fun0006_ip = 518; continue _fun0006 }
- 513:
+                if(var16) { _fun0006_ip = 516; continue _fun0006 }
+ 511:
                 var12 = var4.length;
- 518:
+ 516:
                 var4 = new Array(3);
                 var4[0] = var12;
                 var4[1] = var11;
@@ -1368,8 +1368,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     }
                 };
                 var16 = var8.bind(var10)(var3, var4);
-                if(!(var1 == var9)) { _fun0006_ip = 840; continue _fun0006 }
- 554:
+                if(!(var1 == var9)) { _fun0006_ip = 838; continue _fun0006 }
+ 552:
                 var4 = _closure1_slot18;
                 var3 = _closure1_slot19;
                 var1 = {};
@@ -1400,8 +1400,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var17 = {};
                 var20 = var19.length;
                 var19 = 0;
-                if(!(var19 !== var20)) { _fun0006_ip = 720; continue _fun0006 }
- 689:
+                if(!(var19 !== var20)) { _fun0006_ip = 718; continue _fun0006 }
+ 687:
                 var21 = _closure1_slot1;
                 var22 = _closure1_slot2;
                 var20 = 13;
@@ -1409,7 +1409,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var20 = var21.bind(var5)(var20);
                 var20 = var20.spacing;
                 var19 = var20.PX_8;
- 720:
+ 718:
                 var17['paddingTop'] = var19;
                 var19 = var18.bottom;
                 var20 = _closure1_slot1;
@@ -1464,8 +1464,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8[1] = var10;
                 var1['children'] = var8;
                 var1 = var4.bind(var5)(var3, var1);
-                _fun0006_ip = 908; continue _fun0006;
- 840:
+                _fun0006_ip = 906; continue _fun0006;
+ 838:
                 var4 = _closure1_slot17;
                 var3 = _closure1_slot1;
                 var8 = _closure1_slot2;
@@ -1482,7 +1482,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['channelName'] = var7;
                 var2['tagFilter'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 908:
+ 906:
                 return var1;
             }
         };

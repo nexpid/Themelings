@@ -225,7 +225,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['type'] = var8;
     var4[11] = var7;
     var _closure1_slot3 = var4;
-    var4 = 2;
+    var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -237,21 +237,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
-            var7 = arguments[1];
-            var8 = arguments[2];
-            var6 = undefined;
-            if(!(var7 === var6)) { _fun0001_ip = 17; continue _fun0001 }
+            var6 = arguments[1];
+            var7 = arguments[2];
+            var8 = undefined;
+            if(!(var6 === var8)) { _fun0001_ip = 17; continue _fun0001 }
  15:
-            var7 = null;
+            var6 = null;
  17:
             var1 = {};
             var5 = null;
-            var4 = var5 == var7;
+            var4 = var5 == var6;
             var3 = undefined;
             if(var4) { _fun0001_ip = 39; continue _fun0001 }
  30:
-            var4 = var7.toString;
-            var3 = var4.bind(var7)();
+            var4 = var6.toString;
+            var3 = var4.bind(var6)();
  39:
             if(!(var5 == var3)) { _fun0001_ip = 48; continue _fun0001 }
  43:
@@ -268,20 +268,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.spoiler;
             var3['spoiler'] = var4;
             var3 = var3.spoiler;
-            var7 = '';
-            var4 = var7;
+            var6 = '';
+            var4 = var6;
             if(!var3) { _fun0001_ip = 108; continue _fun0001 }
  101:
             var4 = _closure1_slot2;
  108:
-            if(!(var5 == var8)) { _fun0001_ip = 118; continue _fun0001 }
+            if(!(var5 == var7)) { _fun0001_ip = 118; continue _fun0001 }
  112:
-            var8 = var2.filename;
+            var7 = var2.filename;
  118:
             var3 = global;
             var3 = var3.HermesInternal;
             var3 = var3.concat;
-            var3 = var3.bind(var7)(var4, var8);
+            var3 = var3.bind(var6)(var4, var7);
             var1['filename'] = var3;
             var3 = var2.uploadedFilename;
             var1['uploaded_filename'] = var3;
@@ -313,9 +313,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3 in var2;
             if(!var3) { _fun0001_ip = 252; continue _fun0001 }
  240:
-            var7 = var2.isThumbnail;
+            var6 = var2.isThumbnail;
             var4 = true;
-            var3 = var4 === var7;
+            var3 = var4 === var6;
  252:
             if(!var3) { _fun0001_ip = 269; continue _fun0001 }
  255:
@@ -326,9 +326,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3 in var2;
             if(!var3) { _fun0001_ip = 292; continue _fun0001 }
  280:
-            var7 = var2.isRemix;
+            var6 = var2.isRemix;
             var4 = true;
-            var3 = var4 === var7;
+            var3 = var4 === var6;
  292:
             if(!var3) { _fun0001_ip = 309; continue _fun0001 }
  295:
@@ -353,17 +353,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.applicationId;
             var1['application_id'] = var3;
             var4 = _closure1_slot0;
-            var7 = _closure1_slot1;
+            var6 = _closure1_slot1;
             var3 = 1;
-            var8 = var7[var3];
-            var10 = var4.bind(var6)(var8);
+            var7 = var6[var3];
+            var10 = var4.bind(var8)(var7);
             var9 = var10.getClipCreatedAt;
-            var8 = var2.clip;
-            var8 = var8.id;
-            var8 = var9.bind(var10)(var8);
-            var1['clip_created_at'] = var8;
-            var3 = var7[var3];
-            var6 = var4.bind(var6)(var3);
+            var7 = var2.clip;
+            var7 = var7.id;
+            var7 = var9.bind(var10)(var7);
+            var1['clip_created_at'] = var7;
+            var3 = var6[var3];
+            var6 = var4.bind(var8)(var3);
             var4 = var6.getClipParticipantIds;
             var3 = var2.clip;
             var3 = var3.users;
@@ -377,18 +377,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.item;
             var3 = var5 != var4;
  493:
-            if(!var3) { _fun0001_ip = 509; continue _fun0001 }
+            if(!var3) { _fun0001_ip = 546; continue _fun0001 }
  496:
-            var5 = var2.item;
-            var4 = 'originalContentType';
-            var3 = var4 in var5;
- 509:
-            if(!var3) { _fun0001_ip = 529; continue _fun0001 }
- 512:
+            var4 = var2.item;
+            var6 = var4.platform;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var4 = 2;
+            var4 = var9[var4];
+            var4 = var7.bind(var8)(var4);
+            var4 = var4.UploadPlatform;
+            var4 = var4.WEB;
+            var3 = var6 === var4;
+ 546:
+            if(!var3) { _fun0001_ip = 564; continue _fun0001 }
+ 549:
+            var4 = var2.item;
+            var4 = var4.compressionMetadata;
+            var3 = var5 != var4;
+ 564:
+            if(!var3) { _fun0001_ip = 590; continue _fun0001 }
+ 567:
             var2 = var2.item;
+            var2 = var2.compressionMetadata;
             var2 = var2.originalContentType;
             var1['original_content_type'] = var2;
- 529:
+ 590:
             return var1;
         }
     };

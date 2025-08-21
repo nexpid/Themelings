@@ -165,10 +165,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1[var3];
             var4 = var17.length;
             var1 = null;
-            if(!(var7 !== var4)) { _fun0001_ip = 529; continue _fun0001 }
+            if(!(var7 !== var4)) { _fun0001_ip = 528; continue _fun0001 }
  187:
             var1 = null;
-            if(!var2) { _fun0001_ip = 529; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 528; continue _fun0001 }
  195:
             var4 = _closure1_slot8;
             var14 = _closure1_slot0;
@@ -243,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 529:
+ 528:
             return var1;
         }
     };

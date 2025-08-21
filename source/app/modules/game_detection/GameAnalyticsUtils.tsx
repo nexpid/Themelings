@@ -59,12 +59,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var5 = arg1;
             var2 = null;
-            if(!(var2 != var5)) { _fun0002_ip = 221; continue _fun0002 }
+            if(!(var2 != var5)) { _fun0002_ip = 242; continue _fun0002 }
  12:
             var6 = _closure1_slot2;
             var4 = var6.getGameByName;
             var1 = var5.name;
-            var7 = var4.bind(var6)(var1);
+            var4 = var4.bind(var6)(var1);
             var1 = 'exePath';
             var1 = var1 in var5;
             if(var1) { _fun0002_ip = 54; continue _fun0002 }
@@ -78,47 +78,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var5.name;
             var10 = var2 != var9;
             var6 = undefined;
-            var4 = undefined;
+            var7 = undefined;
             if(!var10) { _fun0002_ip = 81; continue _fun0002 }
  78:
-            var4 = var9;
+            var7 = var9;
  81:
-            var1['gameName'] = var4;
-            var9 = var2 == var7;
-            var4 = undefined;
+            var1['gameName'] = var7;
+            var9 = var2 == var4;
+            var7 = undefined;
             if(var9) { _fun0002_ip = 100; continue _fun0002 }
  95:
-            var4 = var7.id;
+            var7 = var4.id;
  100:
+            if(!(var2 == var7)) { _fun0002_ip = 109; continue _fun0002 }
+ 104:
+            var7 = var5.id;
+ 109:
+            var9 = var2 != var7;
+            var4 = undefined;
+            if(!var9) { _fun0002_ip = 121; continue _fun0002 }
+ 118:
+            var4 = var7;
+ 121:
             var1['gameId'] = var4;
             var7 = var2 != var8;
             var4 = undefined;
-            if(!var7) { _fun0002_ip = 123; continue _fun0002 }
- 114:
+            if(!var7) { _fun0002_ip = 144; continue _fun0002 }
+ 135:
             var7 = _closure1_slot3;
             var4 = var7.bind(var6)(var8);
- 123:
+ 144:
             var1['exe'] = var4;
             var7 = var5.distributor;
             var8 = var2 != var7;
             var4 = undefined;
-            if(!var8) { _fun0002_ip = 146; continue _fun0002 }
- 143:
+            if(!var8) { _fun0002_ip = 167; continue _fun0002 }
+ 164:
             var4 = var7;
- 146:
+ 167:
             var1['distributor'] = var4;
             var7 = var5.sku;
             var8 = var2 != var7;
             var4 = undefined;
-            if(!var8) { _fun0002_ip = 169; continue _fun0002 }
- 166:
+            if(!var8) { _fun0002_ip = 190; continue _fun0002 }
+ 187:
             var4 = var7;
- 169:
+ 190:
             var1['sku'] = var4;
             var4 = var2 != var5;
             var2 = undefined;
-            if(!var4) { _fun0002_ip = 214; continue _fun0002 }
- 183:
+            if(!var4) { _fun0002_ip = 235; continue _fun0002 }
+ 204:
             var4 = _closure1_slot0;
             var7 = _closure1_slot1;
             var3 = 1;
@@ -126,10 +136,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var6)(var3);
             var3 = var4.getSubgameMetadata;
             var2 = var3.bind(var4)(var5);
- 214:
+ 235:
             var1['gameMetadata'] = var2;
             return var1;
- 221:
+ 242:
             var1 = {};
             var2 = undefined;
             var1['gameName'] = var2;

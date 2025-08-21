@@ -165,7 +165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var2;
-        var2 = new Array(19);
+        var2 = new Array(20);
         var2[0] = var1;
         var1 = {};
         var6 = 'premiumGuildSince';
@@ -190,6 +190,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['get'] = var6;
         var2[2] = var1;
         var1 = {};
+        var6 = 'widgets';
+        var1['key'] = var6;
+        var6 = function get() {
+            var1 = this;
+            var1 = var1._userProfile;
+            var1 = var1.widgets;
+            return var1;
+        };
+        var1['get'] = var6;
+        var2[3] = var1;
+        var1 = {};
         var6 = 'primaryColor';
         var1['key'] = var6;
         var6 = function get() {
@@ -213,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['get'] = var6;
-        var2[3] = var1;
+        var2[4] = var1;
         var1 = {};
         var6 = 'canUsePremiumProfileCustomization';
         var1['key'] = var6;
@@ -233,7 +244,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var6;
-        var2[4] = var1;
+        var2[5] = var1;
         var1 = {};
         var6 = 'canEditThemes';
         var1['key'] = var6;
@@ -243,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var6;
-        var2[5] = var1;
+        var2[6] = var1;
         var1 = {};
         var6 = 'application';
         var1['key'] = var6;
@@ -254,7 +265,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var6;
-        var2[6] = var1;
+        var2[7] = var1;
         var1 = {};
         var6 = 'isLoaded';
         var1['key'] = var6;
@@ -281,7 +292,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['get'] = var6;
-        var2[7] = var1;
+        var2[8] = var1;
         var1 = {};
         var6 = 'hasThemeColors';
         var1['key'] = var6;
@@ -315,7 +326,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[8] = var1;
+        var2[9] = var1;
         var1 = {};
         var6 = 'hasPremiumCustomization';
         var1['key'] = var6;
@@ -351,7 +362,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[9] = var1;
+        var2[10] = var1;
         var1 = {};
         var6 = 'isUsingGuildMemberBanner';
         var1['key'] = var6;
@@ -372,7 +383,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[10] = var1;
+        var2[11] = var1;
         var1 = {};
         var6 = 'isUsingGuildMemberBio';
         var1['key'] = var6;
@@ -405,7 +416,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[11] = var1;
+        var2[12] = var1;
         var1 = {};
         var6 = 'isUsingGuildMemberPronouns';
         var1['key'] = var6;
@@ -438,7 +449,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[12] = var1;
+        var2[13] = var1;
         var1 = {};
         var6 = 'getBannerURL';
         var1['key'] = var6;
@@ -496,7 +507,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[13] = var1;
+        var2[14] = var1;
         var1 = {};
         var6 = 'getPreviewBanner';
         var1['key'] = var6;
@@ -554,7 +565,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[14] = var1;
+        var2[15] = var1;
         var1 = {};
         var6 = 'getPreviewBio';
         var1['key'] = var6;
@@ -588,7 +599,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[15] = var1;
+        var2[16] = var1;
         var1 = {};
         var6 = 'getPreviewThemeColors';
         var1['key'] = var6;
@@ -632,7 +643,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[16] = var1;
+        var2[17] = var1;
         var1 = {};
         var6 = 'getBadges';
         var1['key'] = var6;
@@ -671,7 +682,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[17] = var1;
+        var2[18] = var1;
         var1 = {};
         var6 = 'getLegacyUsername';
         var1['key'] = var6;
@@ -682,7 +693,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var5;
-        var2[18] = var1;
+        var2[19] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

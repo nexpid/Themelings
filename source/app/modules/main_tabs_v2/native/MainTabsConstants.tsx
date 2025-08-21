@@ -18,8 +18,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['NOTIFICATIONS'] = var1;
     var1 = 'you';
     var2['YOU'] = var1;
-    var1 = 'settings_jump';
+    var1 = 'settings';
     var2['SETTINGS'] = var1;
+    var1 = 'settings_jump';
+    var2['SETTINGS_JUMP'] = var1;
     var1 = 'launchpad';
     var2['LAUNCHPAD'] = var1;
     var1 = 'friends-tab';

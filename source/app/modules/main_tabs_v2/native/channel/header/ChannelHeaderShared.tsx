@@ -604,7 +604,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             if(!(var1 == var11)) { _fun0007_ip = 30; continue _fun0007 }
  23:
-            if(!(var1 != var12)) { _fun0007_ip = 215; continue _fun0007 }
+            if(!(var1 != var12)) { _fun0007_ip = 214; continue _fun0007 }
  30:
             var14 = 'online';
             var2 = 0;
@@ -644,8 +644,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(2);
             var6[0] = var7;
             var7 = null;
-            if(!var9) { _fun0007_ip = 199; continue _fun0007 }
- 150:
+            if(!var9) { _fun0007_ip = 198; continue _fun0007 }
+ 149:
             var10 = _closure1_slot11;
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -655,12 +655,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var8.Text;
             var8 = {'variant': 'text-xs/medium', 'color': 'divider-subtle', 'children': '•'};
             var7 = var10.bind(var5)(var9, var8);
- 199:
+ 198:
             var6[1] = var7;
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 215:
+ 214:
             return var1;
         }
     };

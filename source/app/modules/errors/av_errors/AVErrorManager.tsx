@@ -350,7 +350,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = new var13[var9](var12, var11);
     var4 = var4 instanceof Object ? var4 : var8;
     var _closure1_slot14 = var4;
-    var4 = 16;
+    var4 = 15;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -449,27 +449,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot6;
         var5 = {};
-        var1 = '_initialize';
+        var1 = 'updateActiveErrors';
         var5['key'] = var1;
         var1 = function value() {
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 12;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.trackAVErrorExposure;
-            var2 = 'AVErrorManager';
-            var2 = var3.bind(var4)(var2);
-            return var1;
-        };
-        var5['value'] = var1;
-        var1 = new Array(3);
-        var1[0] = var5;
-        var5 = {};
-        var7 = 'updateActiveErrors';
-        var5['key'] = var7;
-        var7 = function value() {
             _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                 var3 = _closure1_slot11;
@@ -611,7 +593,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var4.bind(var1)(var3);
                 var4 = var12.bind(var1)();
                 var3 = var4.done;
-                var8 = 13;
+                var8 = 12;
                 if(var3) { _fun0008_ip = 603; continue _fun0008 }
  541:
                 var13 = var4.value;
@@ -671,7 +653,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  764:
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 14;
+                var2 = 13;
                 var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.dispatch;
@@ -684,8 +666,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var5['value'] = var7;
-        var1[1] = var5;
+        var5['value'] = var1;
+        var1 = new Array(2);
+        var1[0] = var5;
         var5 = {};
         var7 = 'handleReportAVError';
         var5['key'] = var7;
@@ -695,7 +678,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.context;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 15;
+            var1 = 14;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -704,7 +687,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var6;
-        var1[2] = var5;
+        var1[1] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -714,7 +697,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 17;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

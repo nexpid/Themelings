@@ -348,8 +348,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var18[var14];
             var17 = var21.bind(var4)(var17);
             var20 = var17.intl;
-            if(var10) { _fun0001_ip = 723; continue _fun0001 }
- 673:
+            if(var10) { _fun0001_ip = 719; continue _fun0001 }
+ 669:
             var22 = var20.formatToPlainString;
             var17 = var18[var14];
             var17 = var21.bind(var4)(var17);
@@ -360,22 +360,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var23 + var24;
             var17['seconds'] = var23;
             var17 = var22.bind(var20)(var19, var17);
-            _fun0001_ip = 753; continue _fun0001;
- 723:
+            _fun0001_ip = 749; continue _fun0001;
+ 719:
             var19 = var20.string;
             var18 = var18[var14];
             var18 = var21.bind(var4)(var18);
             var18 = var18.t;
             var18 = var18.N3qV8f;
             var17 = var19.bind(var20)(var18);
- 753:
+ 749:
             var6['text'] = var17;
             var6['onPress'] = var16;
             var10 = !var10;
-            if(!var10) { _fun0001_ip = 770; continue _fun0001 }
- 767:
+            if(!var10) { _fun0001_ip = 766; continue _fun0001 }
+ 763:
             var10 = !var15;
- 770:
+ 766:
             var6['disabled'] = var10;
             var6 = var8.bind(var4)(var7, var6);
             var5[4] = var6;

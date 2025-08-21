@@ -1,4 +1,4 @@
-// app/modules/activities/ActivityPopoutPopinExperiment.tsx
+// app/modules/premium/experiments/ReferralProgramRelaxedBannerEligibilityExperiment.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -7,8 +7,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var1.Object;
     var4 = var7.defineProperty;
     var2 = {};
-    var10 = true;
-    var2['value'] = var10;
+    var11 = true;
+    var2['value'] = var11;
     var1 = '__esModule';
     var1 = var4.bind(var7)(var3, var1, var2);
     var1 = 0;
@@ -20,27 +20,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var2];
     var7 = var5.bind(var1)(var2);
     var4 = var7.createExperiment;
-    var2 = {'kind': 'user', 'id': '2025-05_activity_popout__popin', 'label': 'Activity Pop-Out & Pop-In Experiment'};
+    var2 = {'kind': 'user', 'id': '2025-08_referral_program_relaxed_banner_eligibility', 'label': 'Referral Program Relaxed Banner Eligibility Experiment'};
     var9 = {};
-    var11 = false;
-    var9['enabled'] = var11;
+    var10 = false;
+    var9['enabled'] = var10;
     var2['defaultConfig'] = var9;
     var8 = var8.CONNECTION_OPEN;
     var2['commonTriggerPoint'] = var8;
-    var9 = {'id': 1, 'label': 'Enable popping out an activity to another window and popping it back into the main Discord app window'};
+    var9 = {'id': 0, 'label': 'Control group. Users need eligible friends to see the referral program banner.'};
     var8 = {};
     var8['enabled'] = var10;
     var9['config'] = var8;
-    var8 = new Array(1);
+    var8 = new Array(2);
     var8[0] = var9;
+    var9 = {'id': 1, 'label': 'Treatment Group 1. Users do not need eligible friends to see the referral program banner.'};
+    var10 = {};
+    var10['enabled'] = var11;
+    var9['config'] = var10;
+    var8[1] = var9;
     var2['treatments'] = var8;
     var2 = var4.bind(var7)(var2);
     var4 = 2;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/activities/ActivityPopoutPopinExperiment.tsx';
+    var4 = 'modules/premium/experiments/ReferralProgramRelaxedBannerEligibilityExperiment.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
+    var3['ReferralProgramRelaxedBannerEligibilityExperiment'] = var2;
     return var1;
 })();

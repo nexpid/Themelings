@@ -45,7 +45,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var10 = var1.active;
             var13 = var1.disabled;
-            var8 = var1.style;
             var15 = var1.styleButton;
             var12 = var1.styleActiveIcon;
             var14 = var1.channel;
@@ -70,37 +69,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['channelId'] = var3;
             var1 = var2.bind(var4)(var1);
             var7 = var1.canShowOnboarding;
-            var17 = var1.canShowBotsBanner;
-            var _closure2_slot3 = var17;
-            var18 = var1.canShowAppsOrActivitiesBanner;
-            var _closure2_slot4 = var18;
+            var16 = var1.canShowBotsBanner;
+            var _closure2_slot3 = var16;
+            var17 = var1.canShowAppsOrActivitiesBanner;
+            var _closure2_slot4 = var17;
             var2 = var1.fromTriggeredOnboarding;
             var1 = var1.willShowGlobalSearchOnboarding;
             var _closure2_slot5 = var1;
-            if(!var7) { _fun0001_ip = 168; continue _fun0001 }
- 165:
+            if(!var7) { _fun0001_ip = 163; continue _fun0001 }
+ 160:
             var7 = !var2;
- 168:
+ 163:
             _closure2_slot6 = var7;
-            var16 = _closure1_slot3;
-            var3 = var16.useRef;
+            var8 = _closure1_slot3;
+            var3 = var8.useRef;
             var2 = -1;
-            var2 = var3.bind(var16)(var2);
+            var2 = var3.bind(var8)(var2);
             _closure2_slot7 = var2;
-            var3 = var16.useEffect;
+            var3 = var8.useEffect;
             var2 = new Array(6);
             var2[0] = var7;
-            var2[1] = var18;
-            var2[2] = var17;
-            var18 = var5 == var14;
-            var17 = undefined;
-            if(var18) { _fun0001_ip = 231; continue _fun0001 }
+            var2[1] = var17;
+            var2[2] = var16;
+            var17 = var5 == var14;
+            var16 = undefined;
+            if(var17) { _fun0001_ip = 226; continue _fun0001 }
+ 221:
+            var16 = var14.guild_id;
  226:
-            var17 = var14.guild_id;
- 231:
-            var2[3] = var17;
-            var17 = var14.id;
-            var2[4] = var17;
+            var2[3] = var16;
+            var16 = var14.id;
+            var2[4] = var16;
             var2[5] = var1;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -242,18 +241,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var1 = var3.bind(var16)(var1, var2);
+            var1 = var3.bind(var8)(var1, var2);
             var3 = _closure1_slot7;
             var2 = _closure1_slot4;
             var1 = {};
-            var1['style'] = var8;
             var1['ref'] = var6;
             var6 = null;
-            if(!var7) { _fun0001_ip = 336; continue _fun0001 }
- 284:
+            if(!var7) { _fun0001_ip = 327; continue _fun0001 }
+ 275:
             var6 = null;
-            if(var10) { _fun0001_ip = 336; continue _fun0001 }
- 289:
+            if(var10) { _fun0001_ip = 327; continue _fun0001 }
+ 280:
             var8 = _closure1_slot6;
             var7 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -265,7 +263,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.id;
             var5['channelId'] = var14;
             var6 = var8.bind(var4)(var7, var5);
- 336:
+ 327:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot6;

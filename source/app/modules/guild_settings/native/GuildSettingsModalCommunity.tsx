@@ -273,7 +273,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var3 = _closure2_slot5;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0005_ip = 163; continue _fun0005 }
+                    if(!(var2 != var3)) { _fun0005_ip = 159; continue _fun0005 }
  16:
                     var2 = global;
                     var3 = var2.Set;
@@ -304,7 +304,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.preferredLocale;
                     var1['preferredLocale'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
- 163:
+ 159:
                     var1 = undefined;
                     return var1;
                 }

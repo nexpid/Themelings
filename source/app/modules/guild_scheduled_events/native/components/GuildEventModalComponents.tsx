@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['header'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot13 = var4;
-    var4 = 31;
+    var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -656,7 +656,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['GuildEventDescription'] = var4;
-    var4 = function GuildEventDatetime(arg1) {
+    var2 = function GuildEventDatetime(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var2 = arg1;
@@ -908,115 +908,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['GuildEventDatetime'] = var4;
-    var2 = function GuildEventBroadcastInfoSettings(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
-            var1 = arg1;
-            var2 = var1.editBroadcastInfoData;
-            var1 = _closure1_slot13;
-            var5 = undefined;
-            var12 = var1.bind(var5)();
-            var1 = var2.broadcastInfo;
-            var17 = var2.broadcastToDirectoryChannels;
-            var _closure2_slot0 = var17;
-            var3 = var2.setBroadcastToDirectoryChannels;
-            var _closure2_slot1 = var3;
-            var10 = var2.canEveryoneRoleViewEvent;
-            var2 = var1.can_broadcast;
-            var1 = null;
-            if(!var2) { _fun0007_ip = 429; continue _fun0007 }
- 70:
-            var4 = _closure1_slot12;
-            var3 = _closure1_slot5;
-            var2 = {};
-            var6 = var12.formGroup;
-            var2['style'] = var6;
-            var9 = _closure1_slot11;
-            var8 = _closure1_slot0;
-            var13 = _closure1_slot3;
-            var6 = 29;
-            var6 = var13[var6];
-            var6 = var8.bind(var5)(var6);
-            var7 = var6.TableRowGroup;
-            var6 = {};
-            var15 = 7;
-            var14 = var13[var15];
-            var14 = var8.bind(var5)(var14);
-            var19 = var14.intl;
-            var16 = var19.string;
-            var14 = var13[var15];
-            var14 = var8.bind(var5)(var14);
-            var14 = var14.t;
-            var14 = var14.BgAW29;
-            var14 = var16.bind(var19)(var14);
-            var6['title'] = var14;
-            var14 = 30;
-            var14 = var13[var14];
-            var14 = var8.bind(var5)(var14);
-            var16 = var14.TableCheckboxRow;
-            var14 = {};
-            var19 = var13[var15];
-            var19 = var8.bind(var5)(var19);
-            var21 = var19.intl;
-            var20 = var21.string;
-            var19 = var13[var15];
-            var19 = var8.bind(var5)(var19);
-            var19 = var19.t;
-            var19 = var19.8GW68/;
-            var19 = var20.bind(var21)(var19);
-            var14['label'] = var19;
-            var18 = function onPress() {
-                var3 = _closure2_slot1;
-                var1 = _closure2_slot0;
-                var2 = !var1;
-                var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                return var1;
-            };
-            var14['onPress'] = var18;
-            var14['checked'] = var17;
-            var17 = !var10;
-            var14['disabled'] = var17;
-            var14 = var9.bind(var5)(var16, var14);
-            var6['children'] = var14;
-            var7 = var9.bind(var5)(var7, var6);
-            var6 = new Array(2);
-            var6[0] = var7;
-            var7 = 9;
-            var7 = var13[var7];
-            var7 = var8.bind(var5)(var7);
-            var8 = var7.Text;
-            var7 = {'style': null, 'variant': 'text-xs/medium', 'color': 'header-secondary'};
-            var12 = var12.shareDescription;
-            var7['style'] = var12;
-            var14 = _closure1_slot0;
-            var11 = _closure1_slot3;
-            var12 = var11[var15];
-            var12 = var14.bind(var5)(var12);
-            var13 = var12.intl;
-            var12 = var13.string;
-            var11 = var11[var15];
-            var11 = var14.bind(var5)(var11);
-            var11 = var11.t;
-            if(var10) { _fun0007_ip = 392; continue _fun0007 }
- 377:
-            var10 = var11.gTgUmZ;
-            var10 = var12.bind(var13)(var10);
-            _fun0007_ip = 405; continue _fun0007;
- 392:
-            var11 = var11.V8Oq8P;
-            var10 = var12.bind(var13)(var11);
- 405:
-            var7['children'] = var10;
-            var7 = var9.bind(var5)(var8, var7);
-            var6[1] = var7;
-            var2['children'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
- 429:
-            return var1;
-        }
-    };
-    var3['GuildEventBroadcastInfoSettings'] = var2;
+    var3['GuildEventDatetime'] = var2;
     return var1;
 })();
