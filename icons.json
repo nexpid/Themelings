@@ -3992,16 +3992,6 @@
         "width": 70,
         "height": 47
     },
-    "hub_events_upsell": {
-        "file": "modules/guild_scheduled_events/native/images/hub_events_upsell.png",
-        "hash": "4e13c76bdae1f417a3694a9f74a770c0",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 216,
-        "height": 80
-    },
     "hub_header": {
         "file": "modules/directory_channels/native/images/hub_header.png",
         "hash": "ce796d5b5dedd403e327ddf7cc5530fc",
@@ -10868,15 +10858,6 @@
         ],
         "width": 327,
         "height": 285
-    },
-    "orb-balance-icon": {
-        "file": "modules/virtual_currency/images/native/orb-balance-icon.png",
-        "hash": "d05f87ae9bd87a6b22709b7066747deb",
-        "scales": [
-            1
-        ],
-        "width": 18,
-        "height": 19
     },
     "PaintbrushThinIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/PaintbrushThinIcon.png",
