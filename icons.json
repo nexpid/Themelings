@@ -2508,24 +2508,6 @@
         "width": 24,
         "height": 24
     },
-    "discord_logo_black": {
-        "file": "modules/collectibles/native/images/discord_logo_black.png",
-        "hash": "2522317800b3892bf5f09c1b12398522",
-        "scales": [
-            1
-        ],
-        "width": 303,
-        "height": 48
-    },
-    "discord_logo_white": {
-        "file": "modules/collectibles/native/images/discord_logo_white.png",
-        "hash": "086eb67663486841360ca3d468363f84",
-        "scales": [
-            1
-        ],
-        "width": 303,
-        "height": 48
-    },
     "discoverability-header": {
         "file": "modules/nuf/native/images/discoverability-header.png",
         "hash": "3a31ec2d5aeb0eedce9411671227bdc1",
@@ -4010,16 +3992,6 @@
         ],
         "width": 200,
         "height": 139.5
-    },
-    "hub-icon": {
-        "file": "modules/hub/native/images/hub-icon.png",
-        "hash": "de9381483b96d23e35c5ec062950bf4c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "HubIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/HubIcon.png",
