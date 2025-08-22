@@ -2211,10 +2211,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.getCardCoords;
             var8 = var8.bind(var6)(var7);
             var9 = null;
-            if(!(var9 == var8)) { _fun0024_ip = 69; continue _fun0024 }
- 65:
+            if(!(var9 == var8)) { _fun0024_ip = 70; continue _fun0024 }
+ 66:
             var8 = _closure1_slot17;
- 69:
+ 70:
             var11 = var1;
             var10 = var8;
             var8 = copyDataProperties(var11, var10);

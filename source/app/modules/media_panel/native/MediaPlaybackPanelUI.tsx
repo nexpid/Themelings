@@ -568,31 +568,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var5.get;
                 var7 = var7.bind(var5)();
                 var1 = var1.PIP;
-                if(!(var7 === var1)) { _fun0001_ip = 687; continue _fun0001 }
- 680:
+                if(!(var7 === var1)) { _fun0001_ip = 691; continue _fun0001 }
+ 684:
                 var1 = _closure1_slot9;
-                if(var1) { _fun0001_ip = 695; continue _fun0001 }
- 687:
+                if(var1) { _fun0001_ip = 699; continue _fun0001 }
+ 691:
                 var10 = var6.maskEmptyElevation;
-                _fun0001_ip = 701; continue _fun0001;
- 695:
+                _fun0001_ip = 705; continue _fun0001;
+ 699:
                 var10 = var6.maskElevation;
- 701:
+ 705:
                 var _closure3_slot14 = var10;
                 var1 = var5.get;
                 var5 = var1.bind(var5)();
                 var1 = _closure1_slot8;
                 var1 = var1.PIP;
-                if(!(var5 === var1)) { _fun0001_ip = 743; continue _fun0001 }
- 728:
+                if(!(var5 === var1)) { _fun0001_ip = 747; continue _fun0001 }
+ 732:
                 var1 = _closure1_slot9;
-                if(var1) { _fun0001_ip = 743; continue _fun0001 }
- 735:
+                if(var1) { _fun0001_ip = 747; continue _fun0001 }
+ 739:
                 var9 = var6.maskElevation;
-                _fun0001_ip = 749; continue _fun0001;
- 743:
+                _fun0001_ip = 753; continue _fun0001;
+ 747:
                 var9 = var6.maskEmptyElevation;
- 749:
+ 753:
                 var _closure3_slot15 = var9;
                 var12 = _closure1_slot0;
                 var14 = _closure1_slot2;

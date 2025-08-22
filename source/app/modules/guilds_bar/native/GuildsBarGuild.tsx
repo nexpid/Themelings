@@ -577,10 +577,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessibilityActions'] = var22;
             var1['onAccessibilityAction'] = var20;
             var20 = undefined;
-            if(var6) { _fun0001_ip = 687; continue _fun0001 }
- 684:
+            if(var6) { _fun0001_ip = 688; continue _fun0001 }
+ 685:
             var20 = var21;
- 687:
+ 688:
             var1['cutouts'] = var20;
             var1['selected'] = var11;
             var1['isDragTarget'] = var6;
@@ -605,8 +605,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7.bind(var4)(var6, var5);
             var1['externalChildren'] = var5;
             var5 = null;
-            if(!(var5 == var10)) { _fun0001_ip = 873; continue _fun0001 }
- 796:
+            if(!(var5 == var10)) { _fun0001_ip = 874; continue _fun0001 }
+ 797:
             var7 = _closure1_slot17;
             var6 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -624,8 +624,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.LARGE;
             var5['size'] = var8;
             var5 = var7.bind(var4)(var6, var5);
-            _fun0001_ip = 923; continue _fun0001;
- 873:
+            _fun0001_ip = 924; continue _fun0001;
+ 874:
             var8 = _closure1_slot17;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -638,7 +638,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.guildIcon;
             var6['style'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 923:
+ 924:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

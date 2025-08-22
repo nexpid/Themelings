@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var2;
             var4 = var3.length;
             var2 = 0;
-            if(!(var2 !== var4)) { _fun0001_ip = 240; continue _fun0001 }
+            if(!(var2 !== var4)) { _fun0001_ip = 242; continue _fun0001 }
  26:
             var6 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var5;
             var1 = var16[var2](var15, var14, var13, var12, var11, var10);
             return var1;
- 240:
+ 242:
             var1 = 'No logs';
             return var1;
         }

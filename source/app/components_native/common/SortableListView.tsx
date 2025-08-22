@@ -808,17 +808,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         var2 = _closure3_slot0;
                         var2 = var2._isMounted;
-                        if(!var2) { _fun0013_ip = 369; continue _fun0013 }
+                        if(!var2) { _fun0013_ip = 373; continue _fun0013 }
  19:
                         var2 = _closure3_slot0;
                         var2 = var2.state;
                         var2 = var2.active;
                         var3 = null;
-                        if(!(var3 != var2)) { _fun0013_ip = 369; continue _fun0013 }
+                        if(!(var3 != var2)) { _fun0013_ip = 373; continue _fun0013 }
  43:
                         var2 = _closure3_slot0;
                         var2 = var2.moveY;
-                        if(!(var3 != var2)) { _fun0013_ip = 373; continue _fun0013 }
+                        if(!(var3 != var2)) { _fun0013_ip = 377; continue _fun0013 }
  60:
                         var2 = _closure3_slot0;
                         var4 = var2.wrapperLayout;
@@ -884,7 +884,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  278:
                         var2 = var4;
  281:
-                        if(!(var3 !== var2)) { _fun0013_ip = 334; continue _fun0013 }
+                        if(!(var3 !== var2)) { _fun0013_ip = 338; continue _fun0013 }
  285:
                         var5 = _closure3_slot0;
                         var5['scrollValue'] = var2;
@@ -894,7 +894,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var5.scrollValue;
                         var2['y'] = var5;
                         var2 = var3.bind(var4)(var2);
- 334:
+ 338:
                         var2 = _closure3_slot0;
                         var3 = var2.checkTargetElement;
                         var3 = var3.bind(var2)();
@@ -903,10 +903,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var2.scrollAnimation;
                         var2 = undefined;
                         var2 = var4.bind(var2)(var3);
- 369:
+ 373:
                         var2 = undefined;
                         return var2;
- 373:
+ 377:
                         var2 = global;
                         var3 = var2.requestAnimationFrame;
                         var1 = _closure3_slot0;

@@ -988,7 +988,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var16 = var10;
                             var12 = var4;
                             var4 = var16[var9](var15, var14, var13, var12, var11);
-                            if(var3) { _fun0007_ip = 234; continue _fun0007 }
+                            if(var3) { _fun0007_ip = 236; continue _fun0007 }
  86:
                             var3 = _closure1_slot0;
                             var4 = _closure1_slot2;
@@ -998,7 +998,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var3.getRootNavigationRef;
                             var4 = var2.bind(var3)();
                             var6 = null;
-                            if(!(var6 != var4)) { _fun0007_ip = 234; continue _fun0007 }
+                            if(!(var6 != var4)) { _fun0007_ip = 236; continue _fun0007 }
  122:
                             var2 = var4.getCurrentRoute;
                             var2 = var2.bind(var4)();
@@ -1029,7 +1029,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = _closure3_slot7;
                             var2 = var6 === var3;
  204:
-                            if(!var2) { _fun0007_ip = 234; continue _fun0007 }
+                            if(!var2) { _fun0007_ip = 236; continue _fun0007 }
  207:
                             var3 = var4.setParams;
                             var2 = {};
@@ -1037,7 +1037,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = var5.id;
                             var2['jumpToChannelId'] = var5;
                             var2 = var3.bind(var4)(var2);
- 234:
+ 236:
                             return var1;
                         }
                     };

@@ -2933,7 +2933,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['rebuildSearchTokenConfigs'] = var5;
     var3['isSearchFilterTokenType'] = var4;
-    var4 = function getFilterAutocompletions(arg1) {
+    var4 = function getSearchTokenFilterAutocompletions(arg1) {
         _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
  0:
             var10 = arg1;
@@ -2999,7 +2999,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['getFilterAutocompletions'] = var4;
+    var3['getSearchTokenFilterAutocompletions'] = var4;
     var2 = function isMeAutcompleteAnswer(arg1) {
         _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
  0:

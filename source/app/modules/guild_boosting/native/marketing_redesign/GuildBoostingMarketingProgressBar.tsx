@@ -379,8 +379,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var16.isThemeDark;
             var15 = var15.bind(var16)(var17);
             var16 = '#515359';
-            if(var15) { _fun0001_ip = 647; continue _fun0001 }
- 616:
+            if(var15) { _fun0001_ip = 648; continue _fun0001 }
+ 617:
             var17 = _closure1_slot1;
             var18 = _closure1_slot2;
             var15 = 8;
@@ -388,7 +388,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var17.bind(var4)(var15);
             var15 = var15.unsafe_rawColors;
             var16 = var15.PRIMARY_160;
- 647:
+ 648:
             var15 = new Array(2);
             var15[0] = var16;
             var16 = '#AB77F2';

@@ -164,7 +164,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['registerGuildVisibilityMethod'] = var4;
-    var4 = function registerFastListChannelVisibilityMethod(arg1, arg2) {
+    var2 = function registerFastListChannelVisibilityMethod(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var2 = arg2;
@@ -268,52 +268,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['registerFastListChannelVisibilityMethod'] = var4;
-    var2 = function registerFlashListChannelVisibilityMethod(arg1, arg2) {
-        var1 = arg1;
-        var _closure2_slot0 = var1;
-        var1 = arg2;
-        var _closure2_slot1 = var1;
-        var3 = _closure1_slot0;
-        var1 = undefined;
-        var2 = function() {
-            var4 = _closure2_slot1;
-            var3 = var4.get;
-            var3 = var3.bind(var4)();
-            var _closure3_slot0 = var3;
-            var4 = _closure2_slot0;
-            var3 = var4.filter;
-            var2 = function(arg1) {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
- 0:
-                    var2 = arg1;
-                    var4 = _closure3_slot0;
-                    var3 = var4.includes;
-                    var1 = var2.index;
-                    var1 = var3.bind(var4)(var1);
-                    if(!var1) { _fun0007_ip = 41; continue _fun0007 }
- 28:
-                    var3 = var2.kind;
-                    var2 = 'channel';
-                    var1 = var2 === var3;
- 41:
-                    return var1;
-                }
-            };
-            var3 = var3.bind(var4)(var2);
-            var2 = var3.map;
-            var1 = function(arg1) {
-                var1 = arg1;
-                var1 = var1.channel;
-                var1 = var1.id;
-                return var1;
-            };
-            var1 = var2.bind(var3)(var1);
-            return var1;
-        };
-        var2 = var3.bind(var1)(var2);
-        return var1;
-    };
-    var3['registerFlashListChannelVisibilityMethod'] = var2;
+    var3['registerFastListChannelVisibilityMethod'] = var2;
     return var1;
 })();

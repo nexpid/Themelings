@@ -342,9 +342,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = arg1;
                     var1['defaultHighlightedReward'] = var6;
                     var6 = _closure2_slot2;
-                    var1['rewards'] = var6;
+                    var1['claimableRewards'] = var6;
                     var5 = _closure2_slot3;
-                    var1['variants'] = var5;
+                    var1['claimableVariants'] = var5;
                     var5 = function onSelect(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:

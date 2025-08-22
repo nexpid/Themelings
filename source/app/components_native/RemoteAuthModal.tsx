@@ -420,10 +420,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['text'] = var17;
             var6['onPress'] = var16;
             var10 = !var10;
-            if(!var10) { _fun0003_ip = 702; continue _fun0003 }
- 699:
+            if(!var10) { _fun0003_ip = 706; continue _fun0003 }
+ 703:
             var10 = !var15;
- 702:
+ 706:
             var6['disabled'] = var10;
             var6 = var8.bind(var4)(var7, var6);
             var5[4] = var6;

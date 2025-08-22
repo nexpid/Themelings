@@ -455,7 +455,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = var9.dispatchAction;
                         var8 = var8.bind(var9)(var13, var6);
                         var9 = var8.ok;
-                        if(var9) { _fun0005_ip = 433; continue _fun0005 }
+                        if(var9) { _fun0005_ip = 439; continue _fun0005 }
  212:
                         var14 = var10.Error;
                         var27 = var8.error;
@@ -497,9 +497,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var15 = var16.captureException;
                         var14 = {};
                         var17 = {};
-                        var19 = var12.type;
-                        var17['action_type'] = var19;
-                        var17['authorative_stores'] = var13;
+                        var20 = var13.join;
+                        var19 = ', ';
+                        var19 = var20.bind(var13)(var19);
+                        var17['authorativeStores'] = var19;
                         var14['extra'] = var17;
                         var17 = {};
                         var19 = 'libdiscore';
@@ -508,10 +509,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var14 = var15.bind(var16)(var9, var14);
                         var14 = var13.length;
                         var13 = 0;
-                        if(!(var14 > var13)) { _fun0005_ip = 1093; continue _fun0005 }
- 431:
+                        if(!(var14 > var13)) { _fun0005_ip = 1099; continue _fun0005 }
+ 437:
                         throw var9;
- 433:
+ 439:
                         var13 = var10.performance;
                         var9 = var13.now;
                         var9 = var9.bind(var13)();
@@ -526,19 +527,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var16 = 'When dispatching action';
                         var15 = 'we got a store token';
                         var14 = 'that is unknown';
-                        if(var8) { _fun0005_ip = 600; continue _fun0005 }
- 510:
+                        if(var8) { _fun0005_ip = 606; continue _fun0005 }
+ 516:
                         var21 = var13.value;
                         var8 = _closure3_slot0;
                         var19 = var8.tokenToStore;
                         var8 = var19.get;
                         var19 = var8.bind(var19)(var21);
-                        if(!(var7 != var19)) { _fun0005_ip = 552; continue _fun0005 }
- 539:
+                        if(!(var7 != var19)) { _fun0005_ip = 558; continue _fun0005 }
+ 545:
                         var8 = var19.doEmitChanges;
                         var8 = var8.bind(var19)(var12);
-                        _fun0005_ip = 585; continue _fun0005;
- 552:
+                        _fun0005_ip = 591; continue _fun0005;
+ 558:
                         var20 = _closure1_slot8;
                         var19 = var20.warn;
                         var26 = var12.type;
@@ -548,16 +549,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var24 = var21;
                         var23 = var14;
                         var8 = var28[var19](var27, var26, var25, var24, var23, var22);
- 585:
+ 591:
                         var19 = var17.bind(var1)();
                         var8 = var19.done;
                         var13 = var19;
-                        if(!var8) { _fun0005_ip = 510; continue _fun0005 }
- 600:
-                        if(!(var7 != var9)) { _fun0005_ip = 1093; continue _fun0005 }
- 607:
-                        if(!var6) { _fun0005_ip = 1093; continue _fun0005 }
+                        if(!var8) { _fun0005_ip = 516; continue _fun0005 }
+ 606:
+                        if(!(var7 != var9)) { _fun0005_ip = 1099; continue _fun0005 }
  613:
+                        if(!var6) { _fun0005_ip = 1099; continue _fun0005 }
+ 619:
                         var13 = new Array(1);
                         var13[0] = var5;
                         var26 = var9.timings;
@@ -568,8 +569,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var7.get;
                         var5 = 'libdiscore_verbose_telemetry_logging';
                         var5 = var6.bind(var7)(var5);
-                        if(!var5) { _fun0005_ip = 924; continue _fun0005 }
- 663:
+                        if(!var5) { _fun0005_ip = 930; continue _fun0005 }
+ 669:
                         var6 = var13.map;
                         var5 = function(arg1) {
                             var1 = arg1;
@@ -872,7 +873,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var25 = var11;
                         var2 = var28[var14](var27, var26, var25, var24, var23, var22);
                         var2 = var5.bind(var6)(var2);
- 924:
+ 930:
                         var6 = _closure1_slot1;
                         var2 = _closure1_slot2;
                         var5 = 12;
@@ -906,7 +907,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var2.TelemetryExperiment;
                         var2 = var3.didEmit;
                         var2 = var2.bind(var3)();
- 1093:
+ 1099:
                         return var1;
                     }
                 };

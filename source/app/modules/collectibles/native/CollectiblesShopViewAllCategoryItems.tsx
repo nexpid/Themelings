@@ -334,10 +334,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.useEffect;
             var3 = var20 == var8;
             var9 = undefined;
-            if(var3) { _fun0002_ip = 533; continue _fun0002 }
- 527:
+            if(var3) { _fun0002_ip = 534; continue _fun0002 }
+ 528:
             var9 = var8.sessionId;
- 533:
+ 534:
             var3 = new Array(3);
             var3[0] = var9;
             var3[1] = var5;
@@ -452,8 +452,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = new Array(4);
             var10[0] = var13;
             var23 = _closure1_slot8;
-            if(var12) { _fun0002_ip = 806; continue _fun0002 }
- 736:
+            if(var12) { _fun0002_ip = 807; continue _fun0002 }
+ 737:
             var13 = _closure1_slot1;
             var26 = _closure1_slot2;
             var12 = 10;
@@ -464,22 +464,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['logo'] = var26;
             var26 = var20 == var25;
             var20 = undefined;
-            if(var26) { _fun0002_ip = 793; continue _fun0002 }
- 778:
+            if(var26) { _fun0002_ip = 794; continue _fun0002 }
+ 779:
             var26 = var25.label;
             var25 = var26.toHexString;
             var20 = var25.bind(var26)();
- 793:
+ 794:
             var12['buttonColor'] = var20;
             var12 = var23.bind(var4)(var13, var12);
-            _fun0002_ip = 828; continue _fun0002;
- 806:
+            _fun0002_ip = 829; continue _fun0002;
+ 807:
             var20 = _closure1_slot11;
             var13 = {};
             var13['category'] = var17;
             var13['backgroundUrl'] = var24;
             var12 = var23.bind(var4)(var20, var13);
- 828:
+ 829:
             var10[1] = var12;
             var13 = _closure1_slot8;
             var12 = _closure1_slot1;

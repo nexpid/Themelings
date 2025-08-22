@@ -1261,23 +1261,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.AvatarSizes;
             var3 = var3.TABS_22;
             var22 = var5.bind(var8)(var3);
-            if(!var1) { _fun0009_ip = 1045; continue _fun0009 }
- 1042:
+            if(!var1) { _fun0009_ip = 1049; continue _fun0009 }
+ 1046:
             var1 = !var6;
- 1045:
-            if(!var1) { _fun0009_ip = 1058; continue _fun0009 }
- 1048:
+ 1049:
+            if(!var1) { _fun0009_ip = 1062; continue _fun0009 }
+ 1052:
             var1 = var14.push;
             var1 = var1.bind(var14)(var2);
- 1058:
+ 1062:
             var3 = _closure1_slot13;
             var2 = _closure1_slot4;
             var1 = {};
             var5 = undefined;
-            if(!var7) { _fun0009_ip = 1079; continue _fun0009 }
- 1073:
+            if(!var7) { _fun0009_ip = 1083; continue _fun0009 }
+ 1077:
             var5 = var11.containerTablet;
- 1079:
+ 1083:
             var1['style'] = var5;
             var9 = _closure1_slot13;
             var8 = _closure1_slot4;
@@ -1296,8 +1296,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var11.avatarCutout;
             var12['style'] = var24;
             var26 = _closure1_slot12;
-            if(var33) { _fun0009_ip = 1396; continue _fun0009 }
- 1157:
+            if(var33) { _fun0009_ip = 1400; continue _fun0009 }
+ 1161:
             var29 = _closure1_slot1;
             var25 = _closure1_slot2;
             var18 = var25[var18];
@@ -1313,68 +1313,68 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = {};
             var25['user'] = var32;
             var25['guildId'] = var4;
-            if(var31) { _fun0009_ip = 1227; continue _fun0009 }
- 1219:
+            if(var31) { _fun0009_ip = 1231; continue _fun0009 }
+ 1223:
             var31 = var11.tabBarIconUnselected;
-            _fun0009_ip = 1247; continue _fun0009;
- 1227:
-            if(var7) { _fun0009_ip = 1238; continue _fun0009 }
- 1230:
+            _fun0009_ip = 1251; continue _fun0009;
+ 1231:
+            if(var7) { _fun0009_ip = 1242; continue _fun0009 }
+ 1234:
             var34 = var11.tabBarIconSelected;
-            _fun0009_ip = 1244; continue _fun0009;
- 1238:
+            _fun0009_ip = 1248; continue _fun0009;
+ 1242:
             var34 = var11.avatarTablet;
- 1244:
+ 1248:
             var31 = var34;
- 1247:
+ 1251:
             var25['style'] = var31;
             var31 = undefined;
-            if(!var33) { _fun0009_ip = 1266; continue _fun0009 }
- 1256:
+            if(!var33) { _fun0009_ip = 1270; continue _fun0009 }
+ 1260:
             var34 = {};
             var34['tintColor'] = var27;
             var31 = var34;
- 1266:
+ 1270:
             var25['avatarStyle'] = var31;
             var34 = _closure1_slot0;
             var31 = _closure1_slot2;
             var31 = var31[var35];
             var31 = var34.bind(var4)(var31);
             var34 = var31.AvatarSizes;
-            if(var7) { _fun0009_ip = 1305; continue _fun0009 }
- 1297:
+            if(var7) { _fun0009_ip = 1309; continue _fun0009 }
+ 1301:
             var31 = var34.TABS_22;
-            _fun0009_ip = 1311; continue _fun0009;
- 1305:
+            _fun0009_ip = 1315; continue _fun0009;
+ 1309:
             var31 = var34.NORMAL;
- 1311:
+ 1315:
             var25['size'] = var31;
             var31 = false;
             var25['animate'] = var31;
             var31 = null;
-            if(!var33) { _fun0009_ip = 1347; continue _fun0009 }
- 1327:
+            if(!var33) { _fun0009_ip = 1351; continue _fun0009 }
+ 1331:
             var34 = _closure1_slot1;
             var35 = _closure1_slot2;
             var33 = 29;
             var33 = var35[var33];
             var31 = var34.bind(var4)(var33);
- 1347:
+ 1351:
             var25['source'] = var31;
             var31 = true;
             var25['needsOffscreenAlphaCompositing'] = var31;
             var33 = var23 == var32;
             var31 = undefined;
-            if(var33) { _fun0009_ip = 1373; continue _fun0009 }
- 1367:
+            if(var33) { _fun0009_ip = 1377; continue _fun0009 }
+ 1371:
             var31 = var32.avatarDecoration;
- 1373:
+ 1377:
             var25['avatarDecoration'] = var31;
             var25 = var30.bind(var4)(var29, var25);
             var18['children'] = var25;
             var18 = var26.bind(var4)(var24, var18);
-            _fun0009_ip = 1457; continue _fun0009;
- 1396:
+            _fun0009_ip = 1461; continue _fun0009;
+ 1400:
             var25 = _closure1_slot0;
             var29 = _closure1_slot2;
             var24 = 28;
@@ -1384,23 +1384,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = {};
             var24['ref'] = var28;
             var28 = 'lg';
-            if(var7) { _fun0009_ip = 1439; continue _fun0009 }
- 1435:
-            var28 = 'md';
+            if(var7) { _fun0009_ip = 1443; continue _fun0009 }
  1439:
+            var28 = 'md';
+ 1443:
             var24['size'] = var28;
             var24['color'] = var27;
             var24['opacity'] = var20;
             var18 = var26.bind(var4)(var25, var24);
- 1457:
+ 1461:
             var12['children'] = var18;
             var16 = var17.bind(var4)(var16, var12);
             var12 = new Array(2);
             var12[0] = var16;
             var14 = var14.length;
             var14 = var14 > var15;
-            if(!var14) { _fun0009_ip = 1606; continue _fun0009 }
- 1487:
+            if(!var14) { _fun0009_ip = 1610; continue _fun0009 }
+ 1491:
             var17 = _closure1_slot12;
             var16 = _closure1_slot4;
             var15 = {};
@@ -1419,11 +1419,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var24[var18];
             var19 = var19.bind(var4)(var18);
             var18 = {};
-            if(!(var23 == var22)) { _fun0009_ip = 1568; continue _fun0009 }
- 1558:
+            if(!(var23 == var22)) { _fun0009_ip = 1572; continue _fun0009 }
+ 1562:
             var23 = _closure1_slot10;
             var22 = var23.MEDIUM;
- 1568:
+ 1572:
             var18['size'] = var22;
             var18['status'] = var21;
             var21 = {};
@@ -1433,14 +1433,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var20.bind(var4)(var19, var18);
             var15['children'] = var18;
             var14 = var17.bind(var4)(var16, var15);
- 1606:
+ 1610:
             var12[1] = var14;
             var5['children'] = var12;
             var8 = var9.bind(var4)(var8, var5);
             var5 = new Array(4);
             var5[0] = var8;
-            if(!var6) { _fun0009_ip = 1707; continue _fun0009 }
- 1631:
+            if(!var6) { _fun0009_ip = 1711; continue _fun0009 }
+ 1635:
             var12 = _closure1_slot12;
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -1459,7 +1459,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var15.bind(var4)(var14);
             var8['source'] = var14;
             var6 = var12.bind(var4)(var9, var8);
- 1707:
+ 1711:
             var5[1] = var6;
             var9 = _closure1_slot12;
             var8 = _closure1_slot0;
@@ -1472,8 +1472,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var9.bind(var4)(var8, var6);
             var5[2] = var6;
             var6 = undefined;
-            if(!var7) { _fun0009_ip = 1841; continue _fun0009 }
- 1758:
+            if(!var7) { _fun0009_ip = 1845; continue _fun0009 }
+ 1762:
             var9 = _closure1_slot12;
             var8 = _closure1_slot4;
             var7 = {};
@@ -1491,7 +1491,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var12.bind(var4)(var11, var10);
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 1841:
+ 1845:
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

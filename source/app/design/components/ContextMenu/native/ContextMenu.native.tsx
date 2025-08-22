@@ -1212,19 +1212,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['ref'] = var12;
             var6['onPress'] = var9;
             var9 = undefined;
-            if(!var11) { _fun0001_ip = 1234; continue _fun0001 }
- 1226:
+            if(!var11) { _fun0001_ip = 1235; continue _fun0001 }
+ 1227:
             var9 = undefined;
-            if(!var1) { _fun0001_ip = 1234; continue _fun0001 }
- 1231:
+            if(!var1) { _fun0001_ip = 1235; continue _fun0001 }
+ 1232:
             var9 = var10;
- 1234:
+ 1235:
             var6['onLongPress'] = var9;
             var6['accessibilityActions'] = var4;
             var6['onAccessibilityAction'] = var3;
             var4 = _closure1_slot5;
-            if(var1) { _fun0001_ip = 1306; continue _fun0001 }
- 1256:
+            if(var1) { _fun0001_ip = 1307; continue _fun0001 }
+ 1257:
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
             var1 = 12;
@@ -1236,14 +1236,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var7.bind(var5)(var6);
             var1['children'] = var8;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 1327; continue _fun0001;
- 1306:
+            _fun0001_ip = 1328; continue _fun0001;
+ 1307:
             var3 = _closure1_slot4;
             var2 = {};
             var6 = var7.bind(var5)(var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1327:
+ 1328:
             return var1;
         }
     };

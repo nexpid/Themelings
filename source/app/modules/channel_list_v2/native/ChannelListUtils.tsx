@@ -64,23 +64,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['isNamedCategorySection'] = var4;
-    var4 = function isReadableItem(arg1) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
-            var2 = arg1;
-            var3 = var2.kind;
-            var1 = 'channel';
-            var1 = var1 === var3;
-            if(var1) { _fun0001_ip = 32; continue _fun0001 }
- 19:
-            var3 = var2.kind;
-            var2 = 'thread';
-            var1 = var2 === var3;
- 32:
-            return var1;
-        }
-    };
-    var3['isReadableItem'] = var4;
     var2 = function logChannelListEndReached() {
         var4 = _closure1_slot1;
         var3 = _closure1_slot2;

@@ -1506,10 +1506,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.safeAreaContainer;
             var5['style'] = var8;
             var8 = undefined;
-            if(!var9) { _fun0001_ip = 1473; continue _fun0001 }
- 1467:
-            var8 = 'no-hide-descendants';
+            if(!var9) { _fun0001_ip = 1479; continue _fun0001 }
  1473:
+            var8 = 'no-hide-descendants';
+ 1479:
             var5['importantForAccessibility'] = var8;
             var9 = _closure1_slot10;
             var15 = _closure1_slot0;

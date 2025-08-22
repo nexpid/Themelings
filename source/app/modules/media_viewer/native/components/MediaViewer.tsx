@@ -2743,8 +2743,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var13.renderRemixingView;
             var3 = var11 != var3;
             var12 = undefined;
-            if(!var3) { _fun0019_ip = 1198; continue _fun0019 }
- 1154:
+            if(!var3) { _fun0019_ip = 1200; continue _fun0019 }
+ 1156:
             var5 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 6;
@@ -2755,7 +2755,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var10)();
             var3 = var9[var3];
             var12 = var5.bind(var8)(var3);
- 1198:
+ 1200:
             var8 = _closure1_slot11;
             var5 = _closure1_slot5;
             var3 = {};
@@ -2819,36 +2819,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[1] = var19;
             var1['style'] = var15;
             var15 = 'none';
-            if(!var16) { _fun0019_ip = 1466; continue _fun0019 }
- 1460:
+            if(!var16) { _fun0019_ip = 1468; continue _fun0019 }
+ 1462:
             var15 = 'box-none';
- 1466:
+ 1468:
             var1['pointerEvents'] = var15;
             var15 = var13.renderOverlay;
             var16 = var11 == var15;
             var15 = undefined;
-            if(var16) { _fun0019_ip = 1498; continue _fun0019 }
- 1486:
+            if(var16) { _fun0019_ip = 1500; continue _fun0019 }
+ 1488:
             var16 = var13.renderOverlay;
             var15 = var16.bind(var13)(var18, var17);
- 1498:
+ 1500:
             var1['children'] = var15;
             var1 = var14.bind(var4)(var10, var1);
             var9[3] = var1;
             var10 = var11 != var12;
             var1 = null;
-            if(!var10) { _fun0019_ip = 1550; continue _fun0019 }
- 1521:
+            if(!var10) { _fun0019_ip = 1552; continue _fun0019 }
+ 1523:
             var10 = var13.renderRemixingView;
             var11 = var11 == var10;
             var10 = undefined;
-            if(var11) { _fun0019_ip = 1547; continue _fun0019 }
- 1536:
+            if(var11) { _fun0019_ip = 1549; continue _fun0019 }
+ 1538:
             var11 = var13.renderRemixingView;
             var10 = var11.bind(var13)(var12);
- 1547:
+ 1549:
             var1 = var10;
- 1550:
+ 1552:
             var9[4] = var1;
             var12 = _closure1_slot10;
             var11 = _closure1_slot1;

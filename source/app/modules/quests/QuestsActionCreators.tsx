@@ -864,17 +864,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var8 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 463; continue _fun0008 }
+                    if(var2) { _fun0008_ip = 494; continue _fun0008 }
  13:
                     var7 = var8;
-                    var12 = arg2;
-                    var11 = arg3;
+                    var14 = arg2;
+                    var10 = arg3;
                     var2 = undefined;
                     var6 = undefined;
                     var4 = _closure1_slot4;
                     var3 = var4.isClaimingReward;
                     var3 = var3.bind(var4)(var8);
-                    if(var3) { _fun0008_ip = 460; continue _fun0008 }
+                    if(var3) { _fun0008_ip = 491; continue _fun0008 }
  50:
                     var8 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -883,43 +883,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var8.bind(var2)(var3);
                     var8 = var9.dispatch;
                     var3 = {};
-                    var10 = 'QUESTS_CLAIM_REWARD_BEGIN';
-                    var3['type'] = var10;
-                    var10 = var7;
-                    var3['questId'] = var10;
+                    var11 = 'QUESTS_CLAIM_REWARD_BEGIN';
+                    var3['type'] = var11;
+                    var11 = var7;
+                    var3['questId'] = var11;
                     var3 = var8.bind(var9)(var3);
  100: // try_start_0
-                    var8 = _closure1_slot0;
-                    var9 = _closure1_slot2;
+                    var13 = _closure1_slot0;
+                    var12 = _closure1_slot2;
                     var3 = 5;
-                    var3 = var9[var3];
-                    var3 = var8.bind(var2)(var3);
+                    var3 = var12[var3];
+                    var3 = var13.bind(var2)(var3);
                     var9 = var3.HTTP;
                     var8 = var9.post;
                     var3 = {};
-                    var14 = _closure1_slot9;
-                    var13 = var14.QUESTS_CLAIM_REWARD;
-                    var10 = var7;
-                    var10 = var13.bind(var14)(var10);
-                    var3['url'] = var10;
-                    var10 = {};
-                    var10['platform'] = var12;
-                    var10['location'] = var11;
-                    var3['body'] = var10;
-                    var10 = false;
-                    var3['rejectWithError'] = var10;
+                    var16 = _closure1_slot9;
+                    var11 = var16.QUESTS_CLAIM_REWARD;
+                    var15 = var7;
+                    var11 = var11.bind(var16)(var15);
+                    var3['url'] = var11;
+                    var11 = {};
+                    var11['platform'] = var14;
+                    var14 = var10;
+                    var11['location'] = var14;
+                    var10 = 11;
+                    var12 = var12[var10];
+                    var13 = var13.bind(var2)(var12);
+                    var12 = var13.getAdDecisionData;
+                    var17 = var12.bind(var13)(var15, var14);
+                    var18 = var11;
+                    var12 = copyDataProperties(var18, var17);
+                    var3['body'] = var11;
+                    var11 = false;
+                    var3['rejectWithError'] = var11;
                     var3 = var8.bind(var9)(var3);
-                    SaveGenerator(address=185);
- 183:
+                    SaveGenerator(address=219);
+ 217:
                     return var3;
- 185:
+ 219:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(var8) { _fun0008_ip = 370; continue _fun0008 }
- 194:
+                    if(var8) { _fun0008_ip = 401; continue _fun0008 }
+ 228:
                     var9 = _closure1_slot0;
-                    var10 = _closure1_slot2;
-                    var8 = 11;
-                    var8 = var10[var8];
+                    var8 = _closure1_slot2;
+                    var8 = var8[var10];
                     var10 = var9.bind(var2)(var8);
                     var9 = var10.questsEntitlementsFromServer;
                     var8 = var3.body;
@@ -928,8 +935,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.errors;
                     var9 = var8.length;
                     var8 = 0;
-                    if(!(var8 !== var9)) { _fun0008_ip = 312; continue _fun0008 }
- 250:
+                    if(!(var8 !== var9)) { _fun0008_ip = 343; continue _fun0008 }
+ 281:
                     var9 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var8 = var8[var4];
@@ -944,8 +951,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = var7;
                     var8['questId'] = var11;
                     var8 = var9.bind(var10)(var8);
-                    _fun0008_ip = 367; continue _fun0008;
- 312:
+                    _fun0008_ip = 398; continue _fun0008;
+ 343:
                     var9 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var8 = var8[var4];
@@ -959,11 +966,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = var6;
                     var8['entitlements'] = var11;
                     var8 = var9.bind(var10)(var8);
- 367: // try_end0
+ 398: // try_end0
                     return var6;
- 370:
+ 401:
                     return var3;
- 373: // catch_target0
+ 404: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot2;
@@ -978,17 +985,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var9.bind(var2)(var8);
                     var9 = var8.prototype;
                     var9 = Object.create(var9, {constructor: {value: var8}});
-                    var16 = var9;
-                    var15 = var3;
-                    var8 = new var16[var8](var15, var14);
+                    var19 = var9;
+                    var18 = var3;
+                    var8 = new var19[var8](var18, var17);
                     var8 = var8 instanceof Object ? var8 : var9;
                     var4['error'] = var8;
                     var4['questId'] = var7;
                     var4 = var5.bind(var6)(var4);
                     throw var3;
- 460:
+ 491:
                     return var2;
- 463:
+ 494:
                     return var1;
                 }
             };

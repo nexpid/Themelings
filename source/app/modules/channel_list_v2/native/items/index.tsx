@@ -39,12 +39,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 2;
     var2 = var5[var2];
     var2 = var4.bind(var1)(var2);
-    var3['RedesignChannelItem'] = var2;
-    var2 = 3;
-    var2 = var5[var2];
-    var2 = var4.bind(var1)(var2);
     var3['ThreadChannel'] = var2;
-    var2 = 4;
+    var2 = 3;
     var2 = var5[var2];
     var2 = var4.bind(var1)(var2);
     var3['RedesignVoiceUserSummary'] = var2;

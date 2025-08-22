@@ -302,10 +302,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.TransitionStates;
             var9 = var3.MOUNTED;
             var3 = 0;
-            if(!(var12 === var9)) { _fun0005_ip = 120; continue _fun0005 }
- 117:
+            if(!(var12 === var9)) { _fun0005_ip = 121; continue _fun0005 }
+ 118:
             var3 = 1;
- 120:
+ 121:
             var11 = var6.bind(var8)(var3);
             _closure2_slot3 = var11;
             var16 = _closure1_slot0;
@@ -1605,10 +1605,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onAccessibilityAction'] = var26;
             var1['selected'] = var24;
             var24 = !var11;
-            if(!var24) { _fun0011_ip = 916; continue _fun0011 }
- 913:
+            if(!var24) { _fun0011_ip = 917; continue _fun0011 }
+ 914:
             var24 = var25;
- 916:
+ 917:
             var1['unread'] = var24;
             var1['circle'] = var23;
             var1['styles'] = var22;
@@ -1623,11 +1623,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['preventClipping'] = var14;
             var1['layout'] = var5;
             var5 = var7;
-            if(!var11) { _fun0011_ip = 1022; continue _fun0011 }
- 985:
+            if(!var11) { _fun0011_ip = 1023; continue _fun0011 }
+ 986:
             var5 = var7;
-            if(var6) { _fun0011_ip = 1022; continue _fun0011 }
- 991:
+            if(var6) { _fun0011_ip = 1023; continue _fun0011 }
+ 992:
             var11 = _closure1_slot16;
             var7 = _closure1_slot20;
             var6 = {};
@@ -1635,7 +1635,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.length;
             var6['totalItems'] = var12;
             var5 = var11.bind(var4)(var7, var6);
- 1022:
+ 1023:
             var1['externalChildren'] = var5;
             var7 = _closure1_slot16;
             var6 = _closure1_slot0;

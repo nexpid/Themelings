@@ -167,7 +167,5 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['default'] = var2;
-    var2 = 24;
-    var3['CHANNEL_LIST_PADDING_BOTTOM'] = var2;
     return var1;
 })();

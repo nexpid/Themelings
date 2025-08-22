@@ -407,18 +407,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = var3.bind(var5)(var1, var2);
             var1 = null;
-            if(!(var1 != var21)) { _fun0001_ip = 878; continue _fun0001 }
- 850:
+            if(!(var1 != var21)) { _fun0001_ip = 881; continue _fun0001 }
+ 853:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 14;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var19 = var1.PressableOpacity;
-            _fun0001_ip = 882; continue _fun0001;
- 878:
+            _fun0001_ip = 885; continue _fun0001;
+ 881:
             var19 = _closure1_slot5;
- 882:
+ 885:
             var3 = _closure1_slot12;
             var2 = _closure1_slot13;
             var1 = {};
@@ -471,13 +471,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = _closure1_slot11;
             var22 = _closure1_slot5;
             var21 = {};
-            if(var29) { _fun0001_ip = 1123; continue _fun0001 }
- 1117:
+            if(var29) { _fun0001_ip = 1126; continue _fun0001 }
+ 1120:
             var24 = var13;
-            if(var30) { _fun0001_ip = 1125; continue _fun0001 }
- 1123:
+            if(var30) { _fun0001_ip = 1128; continue _fun0001 }
+ 1126:
             var24 = undefined;
- 1125:
+ 1128:
             var21['pointerEvents'] = var24;
             var26 = _closure1_slot11;
             var25 = _closure1_slot0;
@@ -488,30 +488,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = {'color': 'interactive-normal', 'variant': 'heading-sm/normal'};
             var24['onLayout'] = var31;
             var31 = undefined;
-            if(var29) { _fun0001_ip = 1184; continue _fun0001 }
- 1180:
+            if(var29) { _fun0001_ip = 1187; continue _fun0001 }
+ 1183:
             var31 = _closure1_slot8;
- 1184:
+ 1187:
             var24['lineClamp'] = var31;
-            if(var29) { _fun0001_ip = 1201; continue _fun0001 }
- 1192:
-            if(!var30) { _fun0001_ip = 1201; continue _fun0001 }
+            if(var29) { _fun0001_ip = 1204; continue _fun0001 }
  1195:
+            if(!var30) { _fun0001_ip = 1204; continue _fun0001 }
+ 1198:
             var31 = _closure1_slot15;
-            _fun0001_ip = 1207; continue _fun0001;
- 1201:
+            _fun0001_ip = 1210; continue _fun0001;
+ 1204:
             var31 = var18.expanded;
- 1207:
+ 1210:
             var30 = new Array(2);
             var30[0] = var31;
             var31 = {};
             var31['textAlign'] = var32;
             var30[1] = var31;
             var24['style'] = var30;
-            if(!var29) { _fun0001_ip = 1235; continue _fun0001 }
- 1232:
-            var27 = var28;
+            if(!var29) { _fun0001_ip = 1238; continue _fun0001 }
  1235:
+            var27 = var28;
+ 1238:
             var24['children'] = var27;
             var24 = var26.bind(var4)(var25, var24);
             var21['children'] = var24;

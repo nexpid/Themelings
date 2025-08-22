@@ -68,10 +68,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.TransitionStates;
             var10 = var6.MOUNTED;
             var6 = 0;
-            if(!(var11 === var10)) { _fun0001_ip = 96; continue _fun0001 }
- 93:
+            if(!(var11 === var10)) { _fun0001_ip = 97; continue _fun0001 }
+ 94:
             var6 = 1;
- 96:
+ 97:
             var10 = var8.bind(var9)(var6);
             _closure2_slot2 = var10;
             var9 = _closure1_slot3;

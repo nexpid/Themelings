@@ -1522,10 +1522,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var4)(var5);
             var5 = {};
             var8 = !var8;
-            if(!var8) { _fun0013_ip = 517; continue _fun0013 }
- 514:
+            if(!var8) { _fun0013_ip = 519; continue _fun0013 }
+ 516:
             var8 = var9;
- 517:
+ 519:
             var5['style'] = var8;
             var8 = 'none';
             var5['pointerEvents'] = var8;

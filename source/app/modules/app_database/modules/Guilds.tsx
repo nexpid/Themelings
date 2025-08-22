@@ -695,26 +695,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure1_slot9;
                 var3 = var5.getUnsafeMutableRoles;
                 var2 = var1.guildId;
-                var9 = var3.bind(var5)(var2);
+                var12 = var3.bind(var5)(var2);
                 var2 = null;
-                if(!(var2 != var7)) { _fun0008_ip = 158; continue _fun0008 }
- 54:
+                if(!(var2 != var7)) { _fun0008_ip = 210; continue _fun0008 }
+ 57:
                 var3 = var4.put;
-                var6 = _closure1_slot1;
-                var5 = _closure1_slot2;
+                var14 = _closure1_slot1;
+                var15 = _closure1_slot2;
                 var2 = 12;
-                var5 = var5[var2];
-                var2 = undefined;
-                var6 = var6.bind(var2)(var5);
+                var2 = var15[var2];
+                var13 = undefined;
+                var6 = var14.bind(var13)(var2);
                 var5 = var6.attachSerializedData;
+                var11 = 11;
+                var2 = var15[var11];
+                var10 = var14.bind(var13)(var2);
+                var9 = var10.toSerializedPartition;
                 var2 = {};
-                var13 = var2;
-                var12 = var9;
-                var9 = copyDataProperties(var13, var12);
-                var9 = var1.role;
-                var10 = var9.id;
-                var9 = var1.role;
-                var2[var10] = var9;
+                var18 = var2;
+                var17 = var12;
+                var12 = copyDataProperties(var18, var17);
+                var12 = var1.role;
+                var12 = var12.id;
+                var11 = var15[var11];
+                var15 = var14.bind(var13)(var11);
+                var14 = var15.fromServer;
+                var13 = var1.guildId;
+                var11 = var1.role;
+                var11 = var14.bind(var15)(var13, var11);
+                var2[var12] = var11;
+                var2 = var9.bind(var10)(var2);
                 var9 = _closure1_slot8;
                 var8 = var9.getSelfMember;
                 var1 = var1.guildId;
@@ -722,7 +732,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var6)(var7, var2, var1);
                 var1 = arg2;
                 var1 = var3.bind(var4)(var2, var1);
- 158:
+ 210:
                 var1 = undefined;
                 return var1;
             }

@@ -24,11 +24,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var7 = var2.MobileSetting;
+    var2 = 2;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var8 = var2.RendererType;
+    var2 = 3;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.Features;
+    var _closure1_slot4 = var2;
     var2 = {};
-    var8 = 2;
-    var8 = var6[var8];
-    var8 = var5.bind(var1)(var8);
-    var8 = var8.RendererType;
     var8 = var8.TOGGLE;
     var2['type'] = var8;
     var8 = function title() {
@@ -50,19 +55,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['title'] = var8;
     var7 = var7.VOICE;
     var2['parent'] = var7;
-    var7 = function hasSidechainCompression() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.getCurrentConfig;
-        var1 = {};
-        var4 = 'SidechainCompressionSetting';
-        var1['location'] = var4;
+    var7 = function usePredicate() {
+        var3 = _closure1_slot3;
+        var2 = var3.supports;
+        var1 = _closure1_slot4;
+        var1 = var1.SIDECHAIN_COMPRESSION;
         var1 = var2.bind(var3)(var1);
-        var1 = var1.sidechainAvailable;
         return var1;
     };
     var2['usePredicate'] = var7;

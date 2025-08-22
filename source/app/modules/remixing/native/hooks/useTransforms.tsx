@@ -37,17 +37,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var2[var3];
             var4 = null;
             var4 = var4 != var5;
-            if(var4) { _fun0001_ip = 75; continue _fun0001 }
- 56:
+            if(var4) { _fun0001_ip = 76; continue _fun0001 }
+ 57:
             var5 = global;
             var6 = var5.Object;
             var5 = var6.isFrozen;
             var4 = var5.bind(var6)(var2);
- 75:
-            if(var4) { _fun0001_ip = 82; continue _fun0001 }
- 78:
+ 76:
+            if(var4) { _fun0001_ip = 83; continue _fun0001 }
+ 79:
             var2[var3] = var1;
- 82:
+ 83:
             return var1;
         }
     };

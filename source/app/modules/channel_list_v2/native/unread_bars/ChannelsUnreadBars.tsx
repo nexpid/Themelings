@@ -1,4 +1,4 @@
-// app/modules/channel_list_v2/native/unread_bars/ChannelsUnreadBarsFastList.tsx
+// app/modules/channel_list_v2/native/unread_bars/ChannelsUnreadBars.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var8 = metroImportDefault;
@@ -797,11 +797,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {'beforeItem': null, 'afterItem': null};
     var _closure1_slot18 = var4;
     var4 = {};
-    var8 = 'function ChannelsUnreadBarsFastListTsx1(){const{scrollPosValue}=this.__closure;return scrollPosValue.get();}';
+    var8 = 'function ChannelsUnreadBarsTsx1(){const{scrollPosValue}=this.__closure;return scrollPosValue.get();}';
     var4['code'] = var8;
     var _closure1_slot19 = var4;
     var4 = {};
-    var8 = 'function ChannelsUnreadBarsFastListTsx2(position,lastPosition){const{runOnJS,debouncedUpdate}=this.__closure;if(position!==lastPosition){runOnJS(debouncedUpdate)();}}';
+    var8 = 'function ChannelsUnreadBarsTsx2(position,lastPosition){const{runOnJS,debouncedUpdate}=this.__closure;if(position!==lastPosition){runOnJS(debouncedUpdate)();}}';
     var4['code'] = var8;
     var _closure1_slot20 = var4;
     var4 = var7.memo;
@@ -978,14 +978,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = _closure2_slot5;
                         var2 = var2.current;
                         var2 = var4 === var2;
-                        if(!var2) { _fun0009_ip = 54; continue _fun0009 }
- 41:
+                        if(!var2) { _fun0009_ip = 56; continue _fun0009 }
+ 43:
                         var5 = _closure2_slot4;
                         var5 = var5.current;
                         var2 = var3 === var5;
- 54:
-                        if(var2) { _fun0009_ip = 87; continue _fun0009 }
- 57:
+ 56:
+                        if(var2) { _fun0009_ip = 89; continue _fun0009 }
+ 59:
                         var2 = _closure2_slot5;
                         var2['current'] = var4;
                         var2 = _closure2_slot4;
@@ -993,7 +993,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = _closure2_slot10;
                         var1 = undefined;
                         var1 = var2.bind(var1)();
- 87:
+ 89:
                         var1 = undefined;
                         return var1;
                     }
@@ -1024,7 +1024,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5[var20];
             var16 = var3.bind(var4)(var2);
             var8 = var16.useAnimatedReaction;
-            var7 = function F() {
+            var7 = function A() {
                 var2 = _closure2_slot11;
                 var1 = var2.get;
                 var1 = var1.bind(var2)();
@@ -1033,7 +1033,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var2['scrollPosValue'] = var17;
             var7['__closure'] = var2;
-            var2 = 13585715584001.0;
+            var2 = 7966775243843.0;
             var7['__workletHash'] = var2;
             var2 = _closure1_slot19;
             var7['__initData'] = var2;
@@ -1066,7 +1066,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17['runOnJS'] = var20;
             var17['debouncedUpdate'] = var19;
             var2['__closure'] = var17;
-            var17 = 14932911601944.0;
+            var17 = 17498480935002.0;
             var2['__workletHash'] = var17;
             var17 = _closure1_slot20;
             var2['__initData'] = var17;
@@ -1315,7 +1315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/channel_list_v2/native/unread_bars/ChannelsUnreadBarsFastList.tsx';
+    var4 = 'modules/channel_list_v2/native/unread_bars/ChannelsUnreadBars.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
     return var1;

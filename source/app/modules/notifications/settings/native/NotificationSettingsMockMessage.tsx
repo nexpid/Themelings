@@ -126,10 +126,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.bind(var4)(var3);
             var5 = var7.useSharedValue;
             var3 = 0;
-            if(!var6) { _fun0001_ip = 175; continue _fun0001 }
- 165:
+            if(!var6) { _fun0001_ip = 176; continue _fun0001 }
+ 166:
             var3 = 0.8;
- 175:
+ 176:
             var7 = var5.bind(var7)(var3);
             var _closure2_slot1 = var7;
             var13 = _closure1_slot0;
@@ -178,8 +178,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.notificationSetting;
             var2 = _closure1_slot6;
             var2 = var2.ALL_MESSAGES;
-            if(!(var3 !== var2)) { _fun0001_ip = 516; continue _fun0001 }
- 322:
+            if(!(var3 !== var2)) { _fun0001_ip = 517; continue _fun0001 }
+ 323:
             var5 = _closure1_slot7;
             var3 = _closure1_slot4;
             var2 = {};
@@ -218,8 +218,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var13.bind(var4)(var12, var8);
             var2['children'] = var8;
             var15 = var5.bind(var4)(var3, var2);
-            _fun0001_ip = 616; continue _fun0001;
- 516:
+            _fun0001_ip = 617; continue _fun0001;
+ 517:
             var5 = _closure1_slot7;
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -240,7 +240,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var12.bind(var13)(var8);
             var2['children'] = var8;
             var15 = var5.bind(var4)(var3, var2);
- 616:
+ 617:
             var5 = _closure1_slot3;
             var3 = var5.useEffect;
             var2 = new Array(2);

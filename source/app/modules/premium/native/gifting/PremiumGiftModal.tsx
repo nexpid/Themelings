@@ -276,9 +276,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = function render(arg1) {
                         var1 = arg1;
                         var8 = var1.defaultHighlightedReward;
-                        var7 = var1.rewards;
-                        var6 = var1.onSelect;
-                        var5 = var1.variants;
+                        var7 = var1.claimableRewards;
+                        var6 = var1.claimableVariants;
+                        var5 = var1.onSelect;
                         var4 = _closure1_slot5;
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
@@ -288,9 +288,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.bind(var3)(var1);
                         var1 = {};
                         var1['defaultHighlightedReward'] = var8;
-                        var1['rewards'] = var7;
-                        var1['onSelect'] = var6;
-                        var1['variants'] = var5;
+                        var1['claimableRewards'] = var7;
+                        var1['claimableVariants'] = var6;
+                        var1['onSelect'] = var5;
                         var1 = var4.bind(var3)(var2, var1);
                         return var1;
                     };

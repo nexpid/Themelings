@@ -41,7 +41,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1[var10];
         var3 = undefined;
         var1 = var4.bind(var3)(var1);
-        var5 = var1.bind(var3)(var2);
+        var3 = var1.bind(var3)(var2);
+        var1 = var3.alpha;
+        var5 = var1.bind(var3)(var10);
         var1 = var5.get;
         var4 = 'hsl.l';
         var9 = var1.bind(var5)(var4);

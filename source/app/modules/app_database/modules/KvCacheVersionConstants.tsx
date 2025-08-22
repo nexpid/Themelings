@@ -26,7 +26,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['VERSION_TO_FORCE_RESYNCING_ALL_DATA_KEY'] = var2;
     var2 = 3;
     var3['VERSION_TO_SKIP_READING_THE_DATABASE'] = var2;
-    var2 = 'stable-57';
+    var2 = 'stable-294';
     var3['VERSION_TO_FORCE_RESYNCING_ALL_DATA'] = var2;
     return var1;
 })();

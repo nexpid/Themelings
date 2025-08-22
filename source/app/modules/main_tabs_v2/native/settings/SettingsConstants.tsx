@@ -400,6 +400,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PLAY_SHORTCUT_ROW'] = var1;
     var1 = 'CUSTOM_STATUS_NOTIFICATIONS';
     var2['CUSTOM_STATUS_NOTIFICATIONS'] = var1;
+    var1 = 'DOUBLE_TAP_EMOJI';
+    var2['DOUBLE_TAP_EMOJI'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

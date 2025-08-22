@@ -58,43 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot9 = var1;
-    var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var4 = {};
-    var1 = true;
-    var4['value'] = var1;
-    var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var4);
-    var1 = 0;
-    var8 = var7[var1];
-    var4 = metroImportAll;
-    var1 = undefined;
-    var8 = var4.bind(var1)(var8);
-    var4 = 1;
-    var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 2;
-    var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 3;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var4 = var4.useForumChannelStore;
-    var _closure1_slot5 = var4;
-    var4 = 4;
-    var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var5 = var4.jsx;
-    var _closure1_slot6 = var5;
-    var5 = var4.Fragment;
-    var _closure1_slot7 = var5;
-    var4 = var4.jsxs;
-    var _closure1_slot8 = var4;
-    var5 = var8.memo;
-    var4 = function(arg1) {
+    var1 = function ConnectedForumPost(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
@@ -106,11 +70,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 8;
             var3 = var5[var2];
             var6 = undefined;
-            var12 = var4.bind(var6)(var3);
-            var11 = var12.useStateFromStores;
-            var9 = _closure1_slot3;
-            var10 = new Array(1);
-            var10[0] = var9;
+            var11 = var4.bind(var6)(var3);
+            var10 = var11.useStateFromStores;
+            var3 = _closure1_slot3;
+            var9 = new Array(1);
+            var9[0] = var3;
             var3 = function() {
                 var3 = _closure1_slot3;
                 var2 = var3.getChannel;
@@ -118,23 +82,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var16 = var11.bind(var12)(var10, var3);
-            var10 = _closure1_slot1;
+            var16 = var10.bind(var11)(var9, var3);
+            var9 = _closure1_slot1;
             var3 = 9;
             var3 = var5[var3];
-            var11 = var10.bind(var6)(var3);
+            var10 = var9.bind(var6)(var3);
             var13 = null;
-            var10 = var13 != var16;
+            var9 = var13 != var16;
             var3 = '[Forum Post] The thread should not be null here. A store must have missed an update.';
-            var3 = var11.bind(var6)(var10, var3);
-            var10 = var16.parent_id;
-            var _closure2_slot1 = var10;
+            var3 = var10.bind(var6)(var9, var3);
+            var9 = var16.parent_id;
+            var _closure2_slot1 = var9;
             var3 = _closure1_slot5;
-            var3 = var3.bind(var6)(var10);
+            var3 = var3.bind(var6)(var9);
             var3 = var3.layoutType;
-            var10 = var5[var2];
-            var12 = var4.bind(var6)(var10);
+            var9 = var5[var2];
+            var12 = var4.bind(var6)(var9);
             var11 = var12.useStateFromStores;
+            var9 = _closure1_slot3;
             var10 = new Array(1);
             var10[0] = var9;
             var9 = function() {
@@ -215,12 +180,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.isBlocked;
             var2 = var1.isIgnored;
             var1 = null;
-            if(!var18) { _fun0001_ip = 852; continue _fun0001 }
- 387:
-            if(var11) { _fun0001_ip = 700; continue _fun0001 }
- 393:
-            if(var2) { _fun0001_ip = 700; continue _fun0001 }
- 399:
+            if(!var18) { _fun0001_ip = 856; continue _fun0001 }
+ 391:
+            if(var11) { _fun0001_ip = 704; continue _fun0001 }
+ 397:
+            if(var2) { _fun0001_ip = 704; continue _fun0001 }
+ 403:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 15;
@@ -228,12 +193,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var6)(var2);
             var2 = var2.ForumLayout;
             var2 = var2.GRID;
-            if(!(var3 === var2)) { _fun0001_ip = 449; continue _fun0001 }
- 435:
+            if(!(var3 === var2)) { _fun0001_ip = 453; continue _fun0001 }
+ 439:
             var3 = var19.length;
             var2 = 0;
-            if(!(!(var3 > var2))) { _fun0001_ip = 593; continue _fun0001 }
- 449:
+            if(!(!(var3 > var2))) { _fun0001_ip = 597; continue _fun0001 }
+ 453:
             var4 = _closure1_slot6;
             var3 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -267,8 +232,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var17.bind(var6)(var9, var5);
             var2['children'] = var5;
             var2 = var4.bind(var6)(var3, var2);
-            _fun0001_ip = 695; continue _fun0001;
- 593:
+            _fun0001_ip = 699; continue _fun0001;
+ 597:
             var5 = _closure1_slot6;
             var4 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -292,9 +257,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var18.bind(var6)(var17, var9);
             var3['children'] = var9;
             var2 = var5.bind(var6)(var4, var3);
- 695:
-            _fun0001_ip = 849; continue _fun0001;
- 700:
+ 699:
+            _fun0001_ip = 853; continue _fun0001;
+ 704:
             var5 = _closure1_slot6;
             var4 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -324,17 +289,93 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = false;
             var7['isLocalDeviceMedia'] = var10;
             var10 = 'ignored';
-            if(!var11) { _fun0001_ip = 828; continue _fun0001 }
- 824:
-            var10 = 'blocked';
+            if(!var11) { _fun0001_ip = 832; continue _fun0001 }
  828:
+            var10 = 'blocked';
+ 832:
             var7['senderModifier'] = var10;
             var7 = var9.bind(var6)(var8, var7);
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 849:
+ 853:
             var1 = var2;
- 852:
+ 856:
+            return var1;
+        }
+    };
+    var _closure1_slot10 = var1;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var7[var1];
+    var4 = metroImportAll;
+    var1 = undefined;
+    var8 = var4.bind(var1)(var8);
+    var4 = 1;
+    var4 = var7[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
+    var4 = 2;
+    var4 = var7[var4];
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 3;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.useForumChannelStore;
+    var _closure1_slot5 = var4;
+    var4 = 4;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.jsx;
+    var _closure1_slot6 = var5;
+    var5 = var4.Fragment;
+    var _closure1_slot7 = var5;
+    var4 = var4.jsxs;
+    var _closure1_slot8 = var4;
+    var5 = var8.memo;
+    var4 = function(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+            var6 = arg1;
+            var _closure2_slot0 = var6;
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var3 = 8;
+            var3 = var5[var3];
+            var5 = undefined;
+            var7 = var4.bind(var5)(var3);
+            var4 = var7.useStateFromStores;
+            var8 = _closure1_slot3;
+            var3 = new Array(1);
+            var3[0] = var8;
+            var1 = function() {
+                var3 = _closure1_slot3;
+                var2 = var3.getChannel;
+                var1 = _closure2_slot0;
+                var1 = var1.threadId;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            var3 = var4.bind(var7)(var3, var1);
+            var1 = null;
+            var3 = var1 == var3;
+            if(var3) { _fun0003_ip = 99; continue _fun0003 }
+ 73:
+            var4 = _closure1_slot6;
+            var3 = _closure1_slot10;
+            var2 = {};
+            var10 = var2;
+            var9 = var6;
+            var6 = copyDataProperties(var10, var9);
+            var1 = var4.bind(var5)(var3, var2);
+ 99:
             return var1;
         }
     };
@@ -347,7 +388,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var7)(var5);
     var3['default'] = var4;
     var2 = function ForumPostListDisabled(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var1 = arg1;
             var7 = var1.style;
@@ -359,11 +400,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 8;
             var1 = var4[var8];
             var5 = undefined;
-            var13 = var3.bind(var5)(var1);
-            var11 = var13.useStateFromStores;
-            var12 = _closure1_slot3;
+            var12 = var3.bind(var5)(var1);
+            var11 = var12.useStateFromStores;
+            var1 = _closure1_slot3;
             var10 = new Array(1);
-            var10[0] = var12;
+            var10[0] = var1;
             var1 = function() {
                 var3 = _closure1_slot3;
                 var2 = var3.getChannel;
@@ -371,19 +412,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var14 = var11.bind(var13)(var10, var1);
+            var14 = var11.bind(var12)(var10, var1);
             var _closure2_slot1 = var14;
             var10 = _closure1_slot1;
             var1 = 9;
             var1 = var4[var1];
-            var13 = var10.bind(var5)(var1);
+            var12 = var10.bind(var5)(var1);
             var1 = null;
             var11 = var1 != var14;
             var10 = '[Forum Post] The thread should not be null here. A store must have missed an update.';
-            var10 = var13.bind(var5)(var11, var10);
+            var10 = var12.bind(var5)(var11, var10);
             var8 = var4[var8];
             var11 = var3.bind(var5)(var8);
             var10 = var11.useStateFromStores;
+            var12 = _closure1_slot3;
             var8 = new Array(1);
             var8[0] = var12;
             var2 = function() {
@@ -410,8 +452,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['firstMessage'] = var12;
             var2 = var3.bind(var4)(var2);
             var11 = var2.content;
-            if(!var10) { _fun0003_ip = 353; continue _fun0003 }
- 230:
+            if(!var10) { _fun0004_ip = 357; continue _fun0004 }
+ 234:
             var4 = _closure1_slot6;
             var3 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -441,7 +483,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 353:
+ 357:
             return var1;
         }
     };

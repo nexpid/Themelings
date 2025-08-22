@@ -413,7 +413,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = 6;
                     var2 = var15[var12];
                     var4 = var14.bind(var5)(var2);
-                    var2 = var4.hasMultipleApplications;
+                    var2 = var4.isMultiGameSponsoredQuest;
                     var4 = var2.bind(var4)(var11);
                     var2 = var3.config;
                     var2 = var2.messages;
@@ -658,7 +658,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = 6;
                     var2 = var15[var12];
                     var4 = var14.bind(var5)(var2);
-                    var2 = var4.hasMultipleApplications;
+                    var2 = var4.isMultiGameSponsoredQuest;
                     var4 = var2.bind(var4)(var11);
                     var2 = var3.config;
                     var2 = var2.messages;
