@@ -27,11 +27,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun0001_ip = 76; continue _fun0001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -307,7 +307,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.count;
                 var5 = var3.bind(var5)(var6);
                 var3 = 0;
-                if(!(var3 !== var5)) { _fun0005_ip = 278; continue _fun0005 }
+                if(!(var3 !== var5)) { _fun0005_ip = 280; continue _fun0005 }
  138:
                 var3 = _closure1_slot7;
                 var5 = var3.Children;
@@ -386,24 +386,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6[0] = var8;
                 var8 = var7.props;
                 var8 = var8.muted;
-                if(!var8) { _fun0005_ip = 232; continue _fun0005 }
- 226:
+                if(!var8) { _fun0005_ip = 234; continue _fun0005 }
+ 228:
                 var8 = var9.muted;
- 232:
+ 234:
                 var6[1] = var8;
                 var1['style'] = var6;
                 var6 = var7.props;
                 var8 = var6.disableReveal;
                 var6 = undefined;
-                if(var8) { _fun0005_ip = 262; continue _fun0005 }
- 256:
+                if(var8) { _fun0005_ip = 264; continue _fun0005 }
+ 258:
                 var6 = var7.handleTap;
- 262:
+ 264:
                 var1['onPress'] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
- 278:
+ 280:
                 var1 = null;
                 return var1;
             }

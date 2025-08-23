@@ -86,21 +86,67 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = {};
     var13 = function getAnimationData() {
         var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var1 = _closure1_slot2;
+        var2 = 4;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 3;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var3 = var3.bind(var4)(var2, var1);
+        var2 = var3.then;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var3 = var1.default;
+            var1 = global;
+            var2 = var1.fetch;
+            var1 = undefined;
+            var3 = var2.bind(var1)(var3);
+            var2 = var3.then;
+            var1 = function(arg1) {
+                var2 = arg1;
+                var1 = var2.json;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
     var11['getAnimationData'] = var13;
     var13 = function getGlowAnimationData() {
         var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 4;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var1 = _closure1_slot2;
+        var2 = 4;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 5;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var3 = var3.bind(var4)(var2, var1);
+        var2 = var3.then;
+        var1 = function(arg1) {
+            var1 = arg1;
+            var3 = var1.default;
+            var1 = global;
+            var2 = var1.fetch;
+            var1 = undefined;
+            var3 = var2.bind(var1)(var3);
+            var2 = var3.then;
+            var1 = function(arg1) {
+                var2 = arg1;
+                var1 = var2.json;
+                var1 = var1.bind(var2)();
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
     var11['getGlowAnimationData'] = var13;
@@ -112,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = function getImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 6;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -132,7 +178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = function cta() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 6;
+        var1 = 7;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -146,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var5['cta'] = var11;
-    var11 = 7;
+    var11 = 8;
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.GIFTING_PROMOTION_COACHMARK;
@@ -169,7 +215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = function getImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 6;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -197,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function mobileBannerText() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 6;
+        var1 = 7;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -214,7 +260,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function getImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 5;
+        var1 = 6;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -231,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function getAnimatedImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 9;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -255,7 +301,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['body'] = var8;
     var5['gradientConfig'] = var4;
     var2['billingSettingsMarketingBanner'] = var5;
-    var5 = 9;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

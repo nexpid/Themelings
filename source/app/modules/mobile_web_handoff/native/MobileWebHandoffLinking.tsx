@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = arg1;
                     var8 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 447; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 445; continue _fun0002 }
  16:
                     var4 = undefined;
                     if(!(var8 === var4)) { _fun0002_ip = 24; continue _fun0002 }
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var4;
  64:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0002_ip = 444; continue _fun0002 }
+                    if(var5) { _fun0002_ip = 442; continue _fun0002 }
  73:
                     var8 = {};
                     var18 = var8;
@@ -203,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var3;
  195:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0002_ip = 441; continue _fun0002 }
+                    if(var5) { _fun0002_ip = 439; continue _fun0002 }
  204:
                     var5 = global;
                     var13 = var5.URL;
@@ -233,8 +233,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = 'handoff_token';
                     var12 = var13.bind(var14)(var12, var3);
                     var9 = var9.skipLoginRedirect;
-                    if(!(var10 !== var9)) { _fun0002_ip = 379; continue _fun0002 }
- 325:
+                    if(!(var10 !== var9)) { _fun0002_ip = 377; continue _fun0002 }
+ 323:
                     var12 = var5.searchParams;
                     var10 = var12.append;
                     var9 = var8.nonce;
@@ -244,29 +244,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var10.append;
                     var8 = 'redirect_to';
                     var8 = var9.bind(var10)(var8, var11);
- 379:
+ 377:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var7 = 10;
                     var7 = var9[var7];
                     var7 = var8.bind(var4)(var7);
-                    if(var6) { _fun0002_ip = 421; continue _fun0002 }
- 402:
+                    if(var6) { _fun0002_ip = 419; continue _fun0002 }
+ 400:
                     var8 = var7.performURLNavigation;
                     var6 = var5.href;
                     var6 = var8.bind(var7)(var6);
-                    _fun0002_ip = 438; continue _fun0002;
- 421:
+                    _fun0002_ip = 436; continue _fun0002;
+ 419:
                     var6 = var7.openURLExternally;
                     var5 = var5.href;
                     var5 = var6.bind(var7)(var5);
- 438:
+ 436:
                     return var4;
- 441:
+ 439:
                     return var3;
- 444:
+ 442:
                     return var2;
- 447:
+ 445:
                     return var1;
                 }
             };

@@ -2542,7 +2542,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 if(!(var9 != var10)) { _fun0025_ip = 27; continue _fun0025 }
  18:
                 var2 = 0;
-                if(!(!(var10 < var2))) { _fun0025_ip = 490; continue _fun0025 }
+                if(!(!(var10 < var2))) { _fun0025_ip = 494; continue _fun0025 }
  27:
                 var2 = var1.dirty;
                 if(!var2) { _fun0025_ip = 46; continue _fun0025 }
@@ -2562,7 +2562,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = true;
                 var3 = var2;
                 var2 = undefined;
-                if(var1) { _fun0025_ip = 490; continue _fun0025 }
+                if(var1) { _fun0025_ip = 494; continue _fun0025 }
  97:
                 var13 = _closure1_slot33;
                 var1 = var3.value;
@@ -2666,13 +2666,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var5.bind(var6)();
                 var1 = var13.done;
                 var3 = var13;
-                if(var1) { _fun0025_ip = 490; continue _fun0025 }
+                if(var1) { _fun0025_ip = 494; continue _fun0025 }
  473:
                 _fun0025_ip = 97; continue _fun0025;
  478:
                 var1 = {'scrollPosition': 0, 'size': 0, 'sectionOffset': 0};
                 return var1;
- 490:
+ 494:
                 var1 = undefined;
                 return var1;
             }
@@ -5400,30 +5400,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2 * var6;
                 var2 = var3 + var2;
                 var5['blockEnd'] = var2;
-                _fun0063_ip = 221; continue _fun0063;
+                _fun0063_ip = 225; continue _fun0063;
  211:
                 var5 = {'batchSize': 0, 'blockStart': 0, 'blockEnd': 0};
- 221:
+ 225:
                 var3 = var5.batchSize;
                 var2 = var4.state;
                 var2 = var2.batchSize;
                 var2 = var3 === var2;
-                if(!var2) { _fun0063_ip = 266; continue _fun0063 }
- 245:
+                if(!var2) { _fun0063_ip = 270; continue _fun0063 }
+ 249:
                 var6 = var5.blockStart;
                 var3 = var4.state;
                 var3 = var3.blockStart;
                 var2 = var6 === var3;
- 266:
-                if(!var2) { _fun0063_ip = 290; continue _fun0063 }
- 269:
+ 270:
+                if(!var2) { _fun0063_ip = 294; continue _fun0063 }
+ 273:
                 var6 = var5.blockEnd;
                 var3 = var4.state;
                 var3 = var3.blockEnd;
                 var2 = var6 === var3;
- 290:
-                if(var2) { _fun0063_ip = 359; continue _fun0063 }
- 293:
+ 294:
+                if(var2) { _fun0063_ip = 363; continue _fun0063 }
+ 297:
                 var3 = var4.setState;
                 var2 = {};
                 var17 = var2;
@@ -5439,7 +5439,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = 'isFirstLayout';
                 var2[var5] = var6;
                 var2 = var3.bind(var4)(var2);
- 359:
+ 363:
                 return var1;
             }
         };

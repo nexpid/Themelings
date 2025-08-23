@@ -62,5 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['default'] = var2;
+    var2 = 'PremiumPlanSelectionActionSheet';
+    var3['PREMIUM_PLAN_SELECTION_ACTION_SHEET_KEY'] = var2;
     return var1;
 })();

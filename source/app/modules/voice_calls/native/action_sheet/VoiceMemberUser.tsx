@@ -665,7 +665,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.IyYqqa;
             var6 = var7.bind(var8)(var5);
  1557:
-            _fun0001_ip = 1782; continue _fun0001;
+            _fun0001_ip = 1786; continue _fun0001;
  1562:
             var8 = _closure1_slot12;
             var7 = _closure1_slot3;
@@ -716,7 +716,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[1] = var10;
             var5['children'] = var9;
             var6 = var8.bind(var4)(var7, var5);
- 1782:
+ 1786:
             var5 = 'subLabel';
             var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);

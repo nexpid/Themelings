@@ -593,7 +593,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  1157:
             var12 = !var13;
  1160:
-            if(!var12) { _fun0001_ip = 1678; continue _fun0001 }
+            if(!var12) { _fun0001_ip = 1686; continue _fun0001 }
  1166:
             var15 = _closure1_slot12;
             var14 = _closure1_slot4;
@@ -606,7 +606,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.DISCOVERABLE;
             var16 = var17.bind(var18)(var16);
             var17 = null;
-            if(!var16) { _fun0001_ip = 1440; continue _fun0001 }
+            if(!var16) { _fun0001_ip = 1444; continue _fun0001 }
  1220:
             var20 = _closure1_slot12;
             var32 = _closure1_slot0;
@@ -681,19 +681,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21[1] = var24;
             var16['children'] = var21;
             var17 = var20.bind(var4)(var18, var16);
- 1440:
+ 1444:
             var16 = new Array(2);
             var16[0] = var17;
             var17 = var29.presenceCount;
             var18 = var19 != var17;
             var17 = null;
-            if(!var18) { _fun0001_ip = 1664; continue _fun0001 }
- 1466:
+            if(!var18) { _fun0001_ip = 1672; continue _fun0001 }
+ 1470:
             var18 = var29.memberCount;
             var18 = var19 != var18;
             var17 = null;
-            if(!var18) { _fun0001_ip = 1664; continue _fun0001 }
- 1484:
+            if(!var18) { _fun0001_ip = 1672; continue _fun0001 }
+ 1488:
             var20 = _closure1_slot12;
             var18 = _closure1_slot3;
             var19 = var18.Fragment;
@@ -732,11 +732,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21[1] = var22;
             var18['children'] = var21;
             var17 = var20.bind(var4)(var19, var18);
- 1664:
+ 1672:
             var16[1] = var17;
             var13['children'] = var16;
             var12 = var15.bind(var4)(var14, var13);
- 1678:
+ 1686:
             var11[3] = var12;
             var9['children'] = var11;
             var9 = var10.bind(var4)(var7, var9);

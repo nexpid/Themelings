@@ -1,14 +1,16 @@
 // app/intl/IntlLoaderStore.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
+    var5 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
     var _closure1_slot0 = var6;
-    var _closure1_slot1 = var7;
+    var _closure1_slot1 = var5;
+    var _closure1_slot2 = var7;
     var1 = function _setAppLocale() {
         var5 = undefined;
         var1 = undefined;
-        var4 = _closure1_slot2;
+        var4 = _closure1_slot3;
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -21,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var _closure4_slot0 = var6;
                     var3 = undefined;
                     var _closure4_slot1 = var3;
-                    var7 = _closure1_slot3;
+                    var7 = _closure1_slot4;
                     var5 = var7.getState;
                     var5 = var5.bind(var7)();
                     _closure4_slot1 = var5;
@@ -29,8 +31,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.bind(var5)(var6);
                     var8 = new Array(0);
                     var7 = _closure1_slot0;
-                    var10 = _closure1_slot1;
-                    var9 = 2;
+                    var10 = _closure1_slot2;
+                    var9 = 3;
                     var9 = var10[var9];
                     var9 = var7.bind(var3)(var9);
                     var11 = var9.intl;
@@ -39,7 +41,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var8.push;
                     var9 = var9.bind(var8)();
                     var9 = var8.push;
-                    var11 = _closure1_slot2;
+                    var11 = _closure1_slot3;
                     var4 = function* () {
                         var1 = function* anon_0_() {
                             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -49,8 +51,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 if(var2) { _fun0002_ip = 109; continue _fun0002 }
  7:
                                 var5 = _closure1_slot0;
-                                var4 = _closure1_slot1;
-                                var2 = 3;
+                                var4 = _closure1_slot2;
+                                var2 = 4;
                                 var2 = var4[var2];
                                 var4 = undefined;
                                 var5 = var5.bind(var4)(var2);
@@ -64,8 +66,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 if(var5) { _fun0002_ip = 106; continue _fun0002 }
  52:
                                 var5 = _closure1_slot0;
-                                var6 = _closure1_slot1;
-                                var3 = 4;
+                                var6 = _closure1_slot2;
+                                var3 = 5;
                                 var3 = var6[var3];
                                 var6 = var5.bind(var4)(var3);
                                 var5 = var6.loadAllMessagesInLocale;
@@ -95,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var8.push;
                     var4 = function loadDateFnsLocale() {
                         var1 = undefined;
-                        var4 = _closure1_slot5;
+                        var4 = _closure1_slot6;
                         var3 = var4.apply;
                         var1 = arguments;
                         var2 = var1;
@@ -108,7 +110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var8.push;
                     var4 = function setMomentLocale() {
                         var1 = undefined;
-                        var4 = _closure1_slot6;
+                        var4 = _closure1_slot7;
                         var3 = var4.apply;
                         var1 = arguments;
                         var2 = var1;
@@ -119,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.bind(var3)(var6);
                     var4 = var9.bind(var8)(var4);
                     var9 = var8.push;
-                    var4 = 8;
+                    var4 = 9;
                     var4 = var10[var4];
                     var4 = var7.bind(var3)(var4);
                     var4 = var4.default;
@@ -164,58 +166,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot4 = var4;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot4 = var1;
-    var1 = function _loadDateFnsLocale() {
-        var5 = undefined;
-        var1 = undefined;
-        var4 = _closure1_slot2;
-        var3 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
-                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 76; continue _fun0003 }
- 7:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 5;
-                    var2 = var3[var2];
-                    var3 = undefined;
-                    var2 = var4.bind(var3)(var2);
-                    var4 = var2.dateFnsLocales;
-                    var2 = arg1;
-                    var2 = var4[var2];
-                    var4 = null;
-                    if(!(var4 != var2)) { _fun0003_ip = 70; continue _fun0003 }
- 51:
-                    var2 = var2.bind(var3)();
-                    var2 = var2.default;
-                    SaveGenerator(address=64);
- 62:
-                    return var2;
- 64:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 73; continue _fun0003 }
- 70:
-                    return var3;
- 73:
-                    return var2;
- 76:
-                    return var1;
-                }
-            };
-            return var1;
-        };
-        var4 = var4.bind(var5)(var3);
         _closure1_slot5 = var4;
         var3 = var4.apply;
         var1 = arguments;
@@ -225,10 +175,76 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot5 = var1;
+    var1 = function _loadDateFnsLocale() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0003_ip = 132; continue _fun0003 }
+ 10:
+                    var3 = _closure1_slot4;
+                    var2 = var3.getState;
+                    var5 = var2.bind(var3)();
+                    var6 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 6;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var6.bind(var3)(var2);
+                    var6 = var2.dateFnsLocales;
+                    var2 = arg1;
+                    var2 = var6[var2];
+                    var6 = null;
+                    if(!(var6 == var2)) { _fun0003_ip = 101; continue _fun0003 }
+ 68:
+                    var6 = var5.setLocaleData;
+                    var7 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var4 = 2;
+                    var4 = var8[var4];
+                    var4 = var7.bind(var3)(var4);
+                    var4 = var6.bind(var5)(var4);
+                    _fun0003_ip = 126; continue _fun0003;
+ 101:
+                    var2 = var2.bind(var3)();
+                    SaveGenerator(address=109);
+ 107:
+                    return var2;
+ 109:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0003_ip = 129; continue _fun0003 }
+ 115:
+                    var4 = var5.setLocaleData;
+                    var4 = var4.bind(var5)(var2);
+ 126:
+                    return var3;
+ 129:
+                    return var2;
+ 132:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot6 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot6 = var1;
     var1 = function _setMomentLocale() {
         var5 = undefined;
         var1 = undefined;
-        var4 = _closure1_slot2;
+        var4 = _closure1_slot3;
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -239,8 +255,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     if(var2) { _fun0004_ip = 205; continue _fun0004 }
  13:
                     var6 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 6;
+                    var3 = _closure1_slot2;
+                    var2 = 7;
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var6.bind(var3)(var2);
@@ -284,8 +300,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = 'en-US';
                     var5 = var7.bind(var6)(var5);
                     var5 = _closure1_slot0;
-                    var7 = _closure1_slot1;
-                    var4 = 7;
+                    var7 = _closure1_slot2;
+                    var4 = 8;
                     var4 = var7[var4];
                     var5 = var5.bind(var3)(var4);
                     var4 = var5.locale;
@@ -300,7 +316,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot6 = var4;
+        _closure1_slot7 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -308,21 +324,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot6 = var1;
+    var _closure1_slot7 = var1;
     var1 = global;
-    var8 = var1.Object;
-    var5 = var8.defineProperty;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var5 = var7[var1];
-    var4 = metroImportDefault;
+    var4 = var7[var1];
     var1 = undefined;
-    var4 = var4.bind(var1)(var5);
-    var _closure1_slot2 = var4;
+    var4 = var5.bind(var1)(var4);
+    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var7[var4];
     var8 = var6.bind(var1)(var4);
@@ -335,9 +350,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var3 = false;
         var1['isLoading'] = var3;
-        var3 = undefined;
-        var1['inProgressLocale'] = var3;
-        var1['error'] = var3;
+        var5 = undefined;
+        var1['inProgressLocale'] = var5;
+        var1['error'] = var5;
+        var4 = _closure1_slot1;
+        var6 = _closure1_slot2;
+        var3 = 2;
+        var3 = var6[var3];
+        var3 = var4.bind(var5)(var3);
+        var1['localeData'] = var3;
         var3 = function setLoadingStarted(arg1) {
             var3 = _closure2_slot0;
             var2 = {};
@@ -372,7 +393,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['setLoadingSucceeded'] = var3;
-        var2 = function setLoadingFailed(arg1, arg2) {
+        var3 = function setLoadingFailed(arg1, arg2) {
             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var3 = _closure2_slot1;
@@ -394,12 +415,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var1['setLoadingFailed'] = var2;
+        var1['setLoadingFailed'] = var3;
+        var2 = function setLocaleData(arg1) {
+            var3 = _closure2_slot0;
+            var2 = {};
+            var1 = arg1;
+            var2['localeData'] = var1;
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            return var1;
+        };
+        var1['setLocaleData'] = var2;
         return var1;
     };
     var4 = var5.bind(var8)(var4);
-    var _closure1_slot3 = var4;
-    var5 = 9;
+    var _closure1_slot4 = var4;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -409,7 +440,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function subscribeToIntlLoadingSuccess(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
-        var3 = _closure1_slot3;
+        var3 = _closure1_slot4;
         var2 = var3.subscribe;
         var1 = function(arg1, arg2) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
@@ -444,9 +475,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['subscribeToIntlLoadingSuccess'] = var4;
-    var2 = function setAppLocale() {
+    var4 = function setAppLocale() {
         var1 = undefined;
-        var4 = _closure1_slot4;
+        var4 = _closure1_slot5;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -454,6 +485,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['setAppLocale'] = var2;
+    var3['setAppLocale'] = var4;
+    var2 = function useLocaleData() {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+ 0:
+            var3 = _closure1_slot4;
+            var4 = undefined;
+            var1 = function(arg1) {
+                var1 = arg1;
+                var1 = var1.localeData;
+                return var1;
+            };
+            var1 = var3.bind(var4)(var1);
+            var3 = null;
+            if(!(var3 == var1)) { _fun0008_ip = 47; continue _fun0008 }
+ 27:
+            var3 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var2 = 2;
+            var2 = var5[var2];
+            var1 = var3.bind(var4)(var2);
+ 47:
+            return var1;
+        }
+    };
+    var3['useLocaleData'] = var2;
     return var1;
 })();

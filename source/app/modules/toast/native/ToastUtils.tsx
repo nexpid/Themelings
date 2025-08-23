@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.VerificationCriteria;
     var _closure1_slot3 = var4;
-    var4 = 19;
+    var4 = 20;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -1629,7 +1629,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['showSafetySuccess'] = var4;
-    var2 = function() {
+    var4 = function() {
         var3 = _closure1_slot1;
         var7 = _closure1_slot2;
         var1 = 1;
@@ -1662,6 +1662,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['showVerificationSent'] = var2;
+    var3['showVerificationSent'] = var4;
+    var2 = function(arg1) {
+        var3 = _closure1_slot1;
+        var7 = _closure1_slot2;
+        var1 = 1;
+        var2 = var7[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.open;
+        var2 = {};
+        var6 = 'MESSAGE_TIMESTAMP';
+        var2['key'] = var6;
+        var6 = arg1;
+        var2['content'] = var6;
+        var6 = _closure1_slot0;
+        var5 = 19;
+        var5 = var7[var5];
+        var5 = var6.bind(var1)(var5);
+        var5 = var5.ClockIcon;
+        var2['IconComponent'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['presentTimestamp'] = var2;
     return var1;
 })();

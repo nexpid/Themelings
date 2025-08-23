@@ -76,22 +76,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function checkUserProfileEffectExpiry(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            var5 = arg1;
-            var _closure2_slot0 = var5;
+            var4 = arg1;
+            var _closure2_slot0 = var4;
             var3 = _closure1_slot19;
-            var1 = var3.get;
-            var3 = var1.bind(var3)(var5);
+            var2 = var3.get;
+            var3 = var2.bind(var3)(var4);
             var7 = null;
-            var8 = var7 == var3;
-            var1 = undefined;
-            var6 = undefined;
-            if(var8) { _fun0002_ip = 45; continue _fun0002 }
- 39:
-            var6 = var3.profileEffectExpiresAt;
- 45:
-            if(!(var7 != var6)) { _fun0002_ip = 202; continue _fun0002 }
+            if(!(var7 != var3)) { _fun0002_ip = 168; continue _fun0002 }
+ 35:
+            var6 = var3.profileEffect;
+            var9 = var7 == var6;
+            var2 = undefined;
+            var8 = undefined;
+            if(var9) { _fun0002_ip = 58; continue _fun0002 }
  52:
-            var8 = var3.profileEffectExpiresAt;
+            var8 = var6.expiresAt;
+ 58:
+            if(!(var7 != var8)) { _fun0002_ip = 168; continue _fun0002 }
+ 62:
+            var8 = var6.expiresAt;
             var6 = 1000;
             var8 = var6 * var8;
             var6 = _closure1_slot14;
@@ -102,39 +105,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var10)();
             var11 = var9 - var8;
             var8 = 0;
-            if(!(!(var11 <= var8))) { _fun0002_ip = 162; continue _fun0002 }
- 103:
+            if(!(!(var11 <= var8))) { _fun0002_ip = 172; continue _fun0002 }
+ 113:
             var9 = _closure1_slot21;
             var8 = var9.get;
-            var8 = var8.bind(var9)(var5);
-            if(!(var7 != var8)) { _fun0002_ip = 160; continue _fun0002 }
- 121:
+            var8 = var8.bind(var9)(var4);
+            if(!(var7 != var8)) { _fun0002_ip = 168; continue _fun0002 }
+ 131:
             var7 = var8.start;
             var10 = var6.Math;
             var9 = var10.min;
             var6 = _closure1_slot18;
             var6 = var9.bind(var10)(var6, var11);
-            var4 = function() {
+            var5 = function() {
                 var3 = _closure1_slot33;
                 var2 = _closure2_slot0;
                 var1 = undefined;
-                var2 = var3.bind(var1)(var2);
+                var1 = var3.bind(var1)(var2);
                 return var1;
             };
-            var4 = var7.bind(var8)(var6, var4);
-            _fun0002_ip = 202; continue _fun0002;
- 160:
-            return var1;
- 162:
-            var3['profileEffectId'] = var1;
-            var3['profileEffectExpiresAt'] = var1;
-            var4 = _closure1_slot21;
-            var3 = var4.delete;
-            var3 = var3.bind(var4)(var5);
-            var3 = _closure1_slot30;
-            var2 = var3.emitChange;
-            var2 = var2.bind(var3)();
- 202:
+            var5 = var7.bind(var8)(var6, var5);
+ 168:
+            var5 = undefined;
+            return var5;
+ 172:
+            var3['profileEffect'] = var2;
+            var3 = _closure1_slot21;
+            var2 = var3.delete;
+            var2 = var2.bind(var3)(var4);
+            var2 = _closure1_slot30;
+            var1 = var2.emitChange;
+            var1 = var1.bind(var2)();
+            var1 = undefined;
             return var1;
         }
     };
@@ -142,88 +144,92 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function checkGuildMemberProfileEffectExpiry(arg1, arg2) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            var10 = arg1;
+            var6 = arg1;
             var4 = arg2;
-            var _closure2_slot0 = var10;
+            var _closure2_slot0 = var6;
             var _closure2_slot1 = var4;
-            var3 = _closure1_slot20;
-            var2 = var3.get;
-            var7 = var2.bind(var3)(var10);
+            var5 = _closure1_slot20;
+            var2 = var5.get;
+            var7 = var2.bind(var5)(var6);
             var2 = null;
-            if(!(var2 != var7)) { _fun0003_ip = 271; continue _fun0003 }
+            if(!(var2 != var7)) { _fun0003_ip = 214; continue _fun0003 }
  42:
-            var3 = var7.get;
-            var8 = var3.bind(var7)(var4);
-            var6 = var2 == var8;
+            var5 = var7.get;
+            var8 = var5.bind(var7)(var4);
+            if(!(var2 != var8)) { _fun0003_ip = 214; continue _fun0003 }
+ 59:
+            var5 = var8.profileEffect;
+            var11 = var2 == var5;
             var9 = undefined;
-            var3 = undefined;
-            if(var6) { _fun0003_ip = 69; continue _fun0003 }
- 63:
-            var3 = var8.profileEffectExpiresAt;
- 69:
-            if(!(var2 != var3)) { _fun0003_ip = 271; continue _fun0003 }
+            var10 = undefined;
+            if(var11) { _fun0003_ip = 82; continue _fun0003 }
  76:
-            var6 = _closure1_slot22;
-            var3 = var6.get;
-            var3 = var3.bind(var6)(var10);
-            var10 = var8.profileEffectExpiresAt;
-            var6 = 1000;
-            var10 = var6 * var10;
-            var6 = _closure1_slot14;
-            var11 = var10 + var6;
-            var6 = global;
-            var12 = var6.Date;
+            var10 = var5.expiresAt;
+ 82:
+            if(!(var2 != var10)) { _fun0003_ip = 214; continue _fun0003 }
+ 89:
+            var10 = var5.expiresAt;
+            var5 = 1000;
+            var10 = var5 * var10;
+            var5 = _closure1_slot14;
+            var11 = var10 + var5;
+            var5 = global;
+            var12 = var5.Date;
             var10 = var12.now;
             var10 = var10.bind(var12)();
             var14 = var11 - var10;
             var10 = 0;
-            if(!(!(var14 <= var10))) { _fun0003_ip = 202; continue _fun0003 }
- 141:
-            if(!(var2 != var3)) { _fun0003_ip = 200; continue _fun0003 }
- 145:
-            var10 = var3.get;
-            var11 = var10.bind(var3)(var4);
-            if(!(var2 != var11)) { _fun0003_ip = 198; continue _fun0003 }
- 159:
+            if(!(!(var14 <= var10))) { _fun0003_ip = 218; continue _fun0003 }
+ 140:
+            var11 = _closure1_slot22;
+            var10 = var11.get;
+            var12 = var10.bind(var11)(var6);
+            var10 = var2 == var12;
+            var11 = undefined;
+            if(var10) { _fun0003_ip = 173; continue _fun0003 }
+ 163:
+            var10 = var12.get;
+            var11 = var10.bind(var12)(var4);
+ 173:
+            if(!(var2 != var11)) { _fun0003_ip = 214; continue _fun0003 }
+ 177:
             var10 = var11.start;
-            var13 = var6.Math;
+            var13 = var5.Math;
             var12 = var13.min;
-            var6 = _closure1_slot18;
-            var6 = var12.bind(var13)(var6, var14);
-            var5 = function() {
+            var5 = _closure1_slot18;
+            var5 = var12.bind(var13)(var5, var14);
+            var3 = function() {
                 var4 = _closure1_slot34;
                 var3 = _closure2_slot0;
                 var2 = _closure2_slot1;
                 var1 = undefined;
-                var2 = var4.bind(var1)(var3, var2);
+                var1 = var4.bind(var1)(var3, var2);
                 return var1;
             };
-            var5 = var10.bind(var11)(var6, var5);
-            _fun0003_ip = 271; continue _fun0003;
- 198:
-            return var9;
- 200:
-            return var9;
- 202:
-            var6 = var7.set;
-            var5 = {};
-            var16 = var5;
+            var3 = var10.bind(var11)(var5, var3);
+ 214:
+            var3 = undefined;
+            return var3;
+ 218:
+            var5 = var7.set;
+            var3 = {};
+            var16 = var3;
             var15 = var8;
             var8 = copyDataProperties(var16, var15);
-            var8 = 'profileEffectId';
-            var5[var8] = var9;
-            var8 = 'profileEffectExpiresAt';
-            var5[var8] = var9;
-            var5 = var6.bind(var7)(var4, var5);
-            if(!(var2 != var3)) { _fun0003_ip = 257; continue _fun0003 }
- 247:
+            var8 = 'profileEffect';
+            var3[var8] = var9;
+            var3 = var5.bind(var7)(var4, var3);
+            var5 = _closure1_slot22;
+            var3 = var5.get;
+            var3 = var3.bind(var5)(var6);
+            if(!(var2 != var3)) { _fun0003_ip = 278; continue _fun0003 }
+ 268:
             var2 = var3.delete;
             var2 = var2.bind(var3)(var4);
- 257:
+ 278:
             var2 = _closure1_slot30;
             var1 = var2.emitChange;
             var1 = var1.bind(var2)();
- 271:
             var1 = undefined;
             return var1;
         }
@@ -492,11 +498,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  412:
             var6 = global;
             var8 = var6.Date;
-            var20 = var2.premium_since;
+            var21 = var2.premium_since;
             var7 = var8.prototype;
             var7 = Object.create(var7, {constructor: {value: var8}});
-            var21 = var7;
-            var6 = new var21[var8](var20, var19);
+            var22 = var7;
+            var6 = new var22[var8](var21, var20);
             var12 = var6 instanceof Object ? var6 : var7;
  446:
             _closure2_slot1 = var12;
@@ -507,21 +513,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  465:
             var6 = global;
             var8 = var6.Date;
-            var20 = var2.premium_guild_since;
+            var21 = var2.premium_guild_since;
             var7 = var8.prototype;
             var7 = Object.create(var7, {constructor: {value: var8}});
-            var21 = var7;
-            var6 = new var21[var8](var20, var19);
+            var22 = var7;
+            var6 = new var22[var8](var21, var20);
             var11 = var6 instanceof Object ? var6 : var7;
  499:
             _closure2_slot2 = var11;
             var13 = var2.application;
+            var6 = var2.user_profile;
+            var7 = var5 == var6;
+            var18 = undefined;
+            if(var7) { _fun0004_ip = 529; continue _fun0004 }
+ 523:
+            var18 = var6.profile_effect;
+ 529:
             var6 = var2.badges;
-            if(!(var5 == var6)) { _fun0004_ip = 524; continue _fun0004 }
- 518:
+            if(!(var5 == var6)) { _fun0004_ip = 545; continue _fun0004 }
+ 539:
             var10 = new Array(0);
-            _fun0004_ip = 545; continue _fun0004;
- 524:
+            _fun0004_ip = 566; continue _fun0004;
+ 545:
             var8 = var2.badges;
             var7 = var8.map;
             var6 = function(arg1) {
@@ -627,34 +640,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var10 = var7.bind(var8)(var6);
- 545:
+ 566:
             var6 = _closure1_slot29;
             var6 = var5 != var6;
-            if(!var6) { _fun0004_ip = 579; continue _fun0004 }
- 556:
+            if(!var6) { _fun0004_ip = 600; continue _fun0004 }
+ 577:
             var7 = _closure1_slot29;
             var8 = var7.userId;
             var7 = var2.user;
             var7 = var7.id;
             var6 = var8 === var7;
- 579:
-            if(!var6) { _fun0004_ip = 633; continue _fun0004 }
- 582:
+ 600:
+            if(!var6) { _fun0004_ip = 654; continue _fun0004 }
+ 603:
             var6 = global;
             var7 = var6.Date;
             var6 = var7.now;
             var7 = var6.bind(var7)();
             var6 = _closure1_slot29;
             var6 = var6.expiresAtMs;
-            if(!(!(var7 > var6))) { _fun0004_ip = 629; continue _fun0004 }
- 613:
+            if(!(!(var7 > var6))) { _fun0004_ip = 650; continue _fun0004 }
+ 634:
             var7 = _closure1_slot41;
             var6 = _closure1_slot29;
             var6 = var7.bind(var1)(var10, var6);
-            _fun0004_ip = 633; continue _fun0004;
- 629:
+            _fun0004_ip = 654; continue _fun0004;
+ 650:
             _closure1_slot29 = var5;
- 633:
+ 654:
             var9 = _closure1_slot19;
             var8 = var9.set;
             var6 = var2.user;
@@ -666,88 +679,76 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var2.user_profile;
             var17 = var5 == var16;
             var15 = undefined;
-            if(var17) { _fun0004_ip = 689; continue _fun0004 }
- 683:
+            if(var17) { _fun0004_ip = 710; continue _fun0004 }
+ 704:
             var15 = var16.banner;
- 689:
+ 710:
             var6['banner'] = var15;
             var16 = var2.user_profile;
             var17 = var5 == var16;
             var15 = undefined;
-            if(var17) { _fun0004_ip = 715; continue _fun0004 }
- 709:
+            if(var17) { _fun0004_ip = 736; continue _fun0004 }
+ 730:
             var15 = var16.accent_color;
- 715:
+ 736:
             var6['accentColor'] = var15;
             var16 = var2.user_profile;
             var17 = var5 == var16;
             var15 = undefined;
-            if(var17) { _fun0004_ip = 741; continue _fun0004 }
- 735:
+            if(var17) { _fun0004_ip = 762; continue _fun0004 }
+ 756:
             var15 = var16.theme_colors;
- 741:
+ 762:
             var6['themeColors'] = var15;
             var16 = var2.user_profile;
             var17 = var5 == var16;
             var15 = undefined;
-            if(var17) { _fun0004_ip = 767; continue _fun0004 }
- 761:
+            if(var17) { _fun0004_ip = 788; continue _fun0004 }
+ 782:
             var15 = var16.popout_animation_particle_type;
- 767:
+ 788:
             var6['popoutAnimationParticleType'] = var15;
             var15 = var2.user_profile;
             var16 = var5 == var15;
             var17 = undefined;
-            if(var16) { _fun0004_ip = 793; continue _fun0004 }
- 787:
+            if(var16) { _fun0004_ip = 814; continue _fun0004 }
+ 808:
             var17 = var15.bio;
- 793:
-            var18 = var5 != var17;
+ 814:
+            var19 = var5 != var17;
             var15 = '';
             var16 = var15;
-            if(!var18) { _fun0004_ip = 810; continue _fun0004 }
- 807:
+            if(!var19) { _fun0004_ip = 831; continue _fun0004 }
+ 828:
             var16 = var17;
- 810:
+ 831:
             var6['bio'] = var16;
-            var17 = var2.user_profile;
-            var18 = var5 == var17;
+            var17 = var5 != var18;
             var16 = undefined;
-            if(var18) { _fun0004_ip = 850; continue _fun0004 }
- 830:
-            var17 = var17.profile_effect;
-            var18 = var5 == var17;
-            var16 = undefined;
-            if(var18) { _fun0004_ip = 850; continue _fun0004 }
+            if(!var17) { _fun0004_ip = 881; continue _fun0004 }
  845:
-            var16 = var17.id;
- 850:
-            var6['profileEffectId'] = var16;
+            var17 = {};
+            var19 = var18.id;
+            var17['id'] = var19;
+            var19 = var18.sku_id;
+            var17['skuId'] = var19;
+            var18 = var18.expires_at;
+            var17['expiresAt'] = var18;
+            var16 = var17;
+ 881:
+            var6['profileEffect'] = var16;
             var17 = var2.user_profile;
             var18 = var5 == var17;
             var16 = undefined;
-            if(var18) { _fun0004_ip = 891; continue _fun0004 }
- 870:
-            var17 = var17.profile_effect;
-            var18 = var5 == var17;
-            var16 = undefined;
-            if(var18) { _fun0004_ip = 891; continue _fun0004 }
- 885:
-            var16 = var17.expires_at;
- 891:
-            var6['profileEffectExpiresAt'] = var16;
-            var17 = var2.user_profile;
-            var18 = var5 == var17;
-            var16 = undefined;
-            if(var18) { _fun0004_ip = 917; continue _fun0004 }
- 911:
+            if(var18) { _fun0004_ip = 907; continue _fun0004 }
+ 901:
             var16 = var17.pronouns;
- 917:
+ 907:
             var17 = var5 != var16;
-            if(!var17) { _fun0004_ip = 927; continue _fun0004 }
- 924:
+            if(!var17) { _fun0004_ip = 917; continue _fun0004 }
+ 914:
             var15 = var16;
- 927:
+ 917:
             var6['pronouns'] = var15;
             var16 = var2.connected_accounts;
             var15 = var16.filter;
@@ -765,16 +766,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var14 = var15.bind(var16)(var14);
-            if(!(var5 == var14)) { _fun0004_ip = 961; continue _fun0004 }
- 957:
+            if(!(var5 == var14)) { _fun0004_ip = 951; continue _fun0004 }
+ 947:
             var14 = new Array(0);
- 961:
+ 951:
             var6['connectedAccounts'] = var14;
             var14 = var2.application_role_connections;
-            if(!(var5 == var14)) { _fun0004_ip = 982; continue _fun0004 }
- 978:
+            if(!(var5 == var14)) { _fun0004_ip = 972; continue _fun0004 }
+ 968:
             var14 = new Array(0);
- 982:
+ 972:
             var6['applicationRoleConnections'] = var14;
             var6['premiumSince'] = var12;
             var12 = var2.premium_type;
@@ -790,8 +791,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['legacyUsername'] = var11;
             var12 = var5 != var13;
             var11 = null;
-            if(!var12) { _fun0004_ip = 1155; continue _fun0004 }
- 1055:
+            if(!var12) { _fun0004_ip = 1145; continue _fun0004 }
+ 1045:
             var12 = {};
             var14 = var13.id;
             var12['id'] = var14;
@@ -812,34 +813,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.name;
             var12['name'] = var13;
             var11 = var12;
- 1155:
+ 1145:
             var6['application'] = var11;
             var6['badges'] = var10;
             var13 = var2.widgets;
             var11 = var5 == var13;
             var10 = undefined;
-            if(var11) { _fun0004_ip = 1193; continue _fun0004 }
- 1179:
+            if(var11) { _fun0004_ip = 1183; continue _fun0004 }
+ 1169:
             var12 = var13.map;
             var11 = _closure1_slot32;
             var10 = var12.bind(var13)(var11);
- 1193:
+ 1183:
             var6['widgets'] = var10;
             var6 = var8.bind(var9)(var7, var6);
             var7 = var2.user_profile;
             var8 = var5 == var7;
             var6 = undefined;
-            if(var8) { _fun0004_ip = 1240; continue _fun0004 }
- 1219:
+            if(var8) { _fun0004_ip = 1230; continue _fun0004 }
+ 1209:
             var7 = var7.profile_effect;
             var8 = var5 == var7;
             var6 = undefined;
-            if(var8) { _fun0004_ip = 1240; continue _fun0004 }
- 1234:
+            if(var8) { _fun0004_ip = 1230; continue _fun0004 }
+ 1224:
             var6 = var7.expires_at;
- 1240:
-            if(!(var5 != var6)) { _fun0004_ip = 1334; continue _fun0004 }
- 1244:
+ 1230:
+            if(!(var5 != var6)) { _fun0004_ip = 1324; continue _fun0004 }
+ 1234:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 17;
@@ -848,8 +849,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.Timeout;
             var7 = var6.prototype;
             var7 = Object.create(var7, {constructor: {value: var6}});
-            var21 = var7;
-            var6 = new var21[var6](var20);
+            var22 = var7;
+            var6 = new var22[var6](var21);
             var9 = var6 instanceof Object ? var6 : var7;
             var8 = _closure1_slot21;
             var7 = var8.set;
@@ -860,10 +861,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.user;
             var6 = var6.id;
             var6 = var7.bind(var1)(var6);
- 1334:
+ 1324:
             var6 = var2.guild_member_profile;
-            if(!(var5 != var6)) { _fun0004_ip = 1962; continue _fun0004 }
- 1347:
+            if(!(var5 != var6)) { _fun0004_ip = 1933; continue _fun0004 }
+ 1337:
+            var6 = var2.guild_member_profile;
+            var8 = var6.profile_effect;
             var9 = {};
             var6 = var2.user;
             var6 = var6.id;
@@ -878,47 +881,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.accent_color;
             var9['accentColor'] = var6;
             var7 = var2.guild_member_profile;
-            var8 = var5 == var7;
+            var10 = var5 == var7;
             var6 = undefined;
-            if(var8) { _fun0004_ip = 1433; continue _fun0004 }
- 1427:
+            if(var10) { _fun0004_ip = 1435; continue _fun0004 }
+ 1429:
             var6 = var7.theme_colors;
- 1433:
+ 1435:
             var9['themeColors'] = var6;
             var7 = var2.guild_member_profile;
-            var8 = var5 == var7;
+            var10 = var5 == var7;
             var6 = undefined;
-            if(var8) { _fun0004_ip = 1459; continue _fun0004 }
- 1453:
+            if(var10) { _fun0004_ip = 1461; continue _fun0004 }
+ 1455:
             var6 = var7.popout_animation_particle_type;
- 1459:
+ 1461:
             var9['popoutAnimationParticleType'] = var6;
-            var7 = var2.guild_member_profile;
-            var8 = var5 == var7;
+            var7 = var5 != var8;
             var6 = undefined;
-            if(var8) { _fun0004_ip = 1499; continue _fun0004 }
- 1479:
-            var7 = var7.profile_effect;
-            var8 = var5 == var7;
-            var6 = undefined;
-            if(var8) { _fun0004_ip = 1499; continue _fun0004 }
- 1494:
-            var6 = var7.id;
- 1499:
-            var9['profileEffectId'] = var6;
-            var7 = var2.guild_member_profile;
-            var8 = var5 == var7;
-            var6 = undefined;
-            if(var8) { _fun0004_ip = 1540; continue _fun0004 }
- 1519:
-            var7 = var7.profile_effect;
-            var8 = var5 == var7;
-            var6 = undefined;
-            if(var8) { _fun0004_ip = 1540; continue _fun0004 }
- 1534:
-            var6 = var7.expires_at;
- 1540:
-            var9['profileEffectExpiresAt'] = var6;
+            if(!var7) { _fun0004_ip = 1511; continue _fun0004 }
+ 1475:
+            var7 = {};
+            var10 = var8.id;
+            var7['id'] = var10;
+            var10 = var8.sku_id;
+            var7['skuId'] = var10;
+            var8 = var8.expires_at;
+            var7['expiresAt'] = var8;
+            var6 = var7;
+ 1511:
+            var9['profileEffect'] = var6;
             var6 = var2.guild_member_profile;
             var6 = var6.bio;
             var9['bio'] = var6;
@@ -932,13 +923,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.user;
             var6 = var6.id;
             var8 = var7.bind(var8)(var6);
-            if(!(var5 == var8)) { _fun0004_ip = 1695; continue _fun0004 }
- 1620:
+            if(!(var5 == var8)) { _fun0004_ip = 1666; continue _fun0004 }
+ 1591:
             var6 = var4.Map;
             var7 = var6.prototype;
             var7 = Object.create(var7, {constructor: {value: var6}});
-            var21 = var7;
-            var6 = new var21[var6](var20);
+            var22 = var7;
+            var6 = new var22[var6](var21);
             var11 = var6 instanceof Object ? var6 : var7;
             var7 = var11.set;
             var6 = var2.guild_member_profile;
@@ -949,27 +940,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.user;
             var6 = var6.id;
             var6 = var7.bind(var10)(var6, var11);
-            _fun0004_ip = 1717; continue _fun0004;
- 1695:
+            _fun0004_ip = 1688; continue _fun0004;
+ 1666:
             var7 = var8.set;
             var6 = var2.guild_member_profile;
             var6 = var6.guild_id;
             var6 = var7.bind(var8)(var6, var9);
- 1717:
+ 1688:
             var7 = var2.guild_member_profile;
             var8 = var5 == var7;
             var6 = undefined;
-            if(var8) { _fun0004_ip = 1753; continue _fun0004 }
- 1732:
+            if(var8) { _fun0004_ip = 1724; continue _fun0004 }
+ 1703:
             var7 = var7.profile_effect;
             var8 = var5 == var7;
             var6 = undefined;
-            if(var8) { _fun0004_ip = 1753; continue _fun0004 }
- 1747:
+            if(var8) { _fun0004_ip = 1724; continue _fun0004 }
+ 1718:
             var6 = var7.expires_at;
- 1753:
-            if(!(var5 != var6)) { _fun0004_ip = 1962; continue _fun0004 }
- 1760:
+ 1724:
+            if(!(var5 != var6)) { _fun0004_ip = 1933; continue _fun0004 }
+ 1731:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var6 = 17;
@@ -978,21 +969,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.Timeout;
             var7 = var6.prototype;
             var7 = Object.create(var7, {constructor: {value: var6}});
-            var21 = var7;
-            var6 = new var21[var6](var20);
+            var22 = var7;
+            var6 = new var22[var6](var21);
             var7 = var6 instanceof Object ? var6 : var7;
             var9 = _closure1_slot22;
             var8 = var9.get;
             var6 = var2.user;
             var6 = var6.id;
             var6 = var8.bind(var9)(var6);
-            if(!(var5 == var6)) { _fun0004_ip = 1909; continue _fun0004 }
- 1834:
+            if(!(var5 == var6)) { _fun0004_ip = 1880; continue _fun0004 }
+ 1805:
             var4 = var4.Map;
             var5 = var4.prototype;
             var5 = Object.create(var5, {constructor: {value: var4}});
-            var21 = var5;
-            var4 = new var21[var4](var20);
+            var22 = var5;
+            var4 = new var22[var4](var21);
             var9 = var4 instanceof Object ? var4 : var5;
             var5 = var9.set;
             var4 = var2.guild_member_profile;
@@ -1003,20 +994,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.user;
             var4 = var4.id;
             var4 = var5.bind(var8)(var4, var9);
-            _fun0004_ip = 1931; continue _fun0004;
- 1909:
+            _fun0004_ip = 1902; continue _fun0004;
+ 1880:
             var5 = var6.set;
             var4 = var2.guild_member_profile;
             var4 = var4.guild_id;
             var4 = var5.bind(var6)(var4, var7);
- 1931:
+ 1902:
             var4 = _closure1_slot34;
             var3 = var2.user;
             var3 = var3.id;
             var2 = var2.guild_member_profile;
             var2 = var2.guild_id;
             var2 = var4.bind(var1)(var3, var2);
- 1962:
+ 1933:
             return var1;
         }
     };
@@ -1219,148 +1210,180 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure1_slot28 = var3;
             var3 = var2.guild_id;
             var5 = null;
-            if(!(var5 == var3)) { _fun0010_ip = 283; continue _fun0010 }
+            if(!(var5 == var3)) { _fun0010_ip = 328; continue _fun0010 }
  26:
             var6 = var2.userId;
-            var16 = var2.accent_color;
-            var15 = var2.banner;
-            var14 = var2.bio;
-            var13 = var2.pronouns;
-            var12 = var2.popout_animation_particle_type;
-            var11 = var2.theme_colors;
-            var10 = var2.profileEffectId;
-            var3 = var2.profileEffectExpiresAt;
-            var7 = _closure1_slot19;
-            var4 = var7.get;
-            var9 = var4.bind(var7)(var6);
-            if(!(var5 != var9)) { _fun0010_ip = 631; continue _fun0010 }
- 100:
-            var8 = _closure1_slot19;
-            var7 = var8.set;
-            var4 = {};
-            var18 = var4;
-            var17 = var9;
-            var9 = copyDataProperties(var18, var17);
-            var9 = 'accentColor';
-            var4[var9] = var16;
-            var9 = 'banner';
-            var4[var9] = var15;
-            var9 = 'bio';
-            var4[var9] = var14;
-            var9 = 'pronouns';
-            var4[var9] = var13;
-            var9 = 'popoutAnimationParticleType';
-            var4[var9] = var12;
-            var9 = 'themeColors';
-            var4[var9] = var11;
-            var9 = 'profileEffectId';
-            var4[var9] = var10;
-            var9 = 'profileEffectExpiresAt';
-            var4[var9] = var3;
-            var4 = var7.bind(var8)(var6, var4);
-            if(!(var5 != var3)) { _fun0010_ip = 631; continue _fun0010 }
- 206:
-            var7 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var3 = 17;
-            var3 = var4[var3];
+            var15 = var2.accent_color;
+            var14 = var2.banner;
+            var13 = var2.bio;
+            var12 = var2.pronouns;
+            var11 = var2.popout_animation_particle_type;
+            var10 = var2.theme_colors;
+            var7 = var2.profile_effect;
+            var4 = _closure1_slot19;
+            var3 = var4.get;
+            var4 = var3.bind(var4)(var6);
+            if(!(var5 != var4)) { _fun0010_ip = 721; continue _fun0010 }
+ 94:
+            var9 = _closure1_slot19;
+            var8 = var9.set;
+            var3 = {};
+            var17 = var3;
+            var16 = var4;
+            var4 = copyDataProperties(var17, var16);
+            var4 = 'accentColor';
+            var3[var4] = var15;
+            var4 = 'banner';
+            var3[var4] = var14;
+            var4 = 'bio';
+            var3[var4] = var13;
+            var4 = 'pronouns';
+            var3[var4] = var12;
+            var4 = 'popoutAnimationParticleType';
+            var3[var4] = var11;
+            var4 = 'themeColors';
+            var3[var4] = var10;
+            var10 = var5 != var7;
             var4 = undefined;
+            var11 = undefined;
+            if(!var10) { _fun0010_ip = 216; continue _fun0010 }
+ 180:
+            var10 = {};
+            var12 = var7.id;
+            var10['id'] = var12;
+            var12 = var7.sku_id;
+            var10['skuId'] = var12;
+            var12 = var7.expires_at;
+            var10['expiresAt'] = var12;
+            var11 = var10;
+ 216:
+            var10 = 'profileEffect';
+            var3[var10] = var11;
+            var3 = var8.bind(var9)(var6, var3);
+            var8 = var5 == var7;
+            var3 = undefined;
+            if(var8) { _fun0010_ip = 246; continue _fun0010 }
+ 240:
+            var3 = var7.expires_at;
+ 246:
+            if(!(var5 != var3)) { _fun0010_ip = 721; continue _fun0010 }
+ 253:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 17;
+            var3 = var8[var3];
             var3 = var7.bind(var4)(var3);
             var3 = var3.Timeout;
             var7 = var3.prototype;
             var7 = Object.create(var7, {constructor: {value: var3}});
-            var19 = var7;
-            var3 = new var19[var3](var18);
+            var18 = var7;
+            var3 = new var18[var3](var17);
             var8 = var3 instanceof Object ? var3 : var7;
             var7 = _closure1_slot21;
             var3 = var7.set;
             var3 = var3.bind(var7)(var6, var8);
             var3 = _closure1_slot33;
             var3 = var3.bind(var4)(var6);
-            _fun0010_ip = 631; continue _fun0010;
- 283:
+            _fun0010_ip = 721; continue _fun0010;
+ 328:
             var4 = var2.userId;
             var3 = var2.guild_id;
-            var16 = var2.accent_color;
-            var15 = var2.banner;
-            var14 = var2.bio;
-            var13 = var2.pronouns;
-            var12 = var2.popout_animation_particle_type;
-            var11 = var2.theme_colors;
-            var10 = var2.profileEffectId;
-            var2 = var2.profileEffectExpiresAt;
-            var7 = _closure1_slot20;
-            var6 = var7.get;
-            var8 = var6.bind(var7)(var4);
-            if(!(var5 != var3)) { _fun0010_ip = 631; continue _fun0010 }
- 362:
-            if(!(var5 != var8)) { _fun0010_ip = 631; continue _fun0010 }
- 369:
-            var6 = var8.get;
-            var9 = var6.bind(var8)(var3);
-            if(!(var5 != var9)) { _fun0010_ip = 631; continue _fun0010 }
- 386:
-            var7 = var8.set;
+            var15 = var2.accent_color;
+            var14 = var2.banner;
+            var13 = var2.bio;
+            var12 = var2.pronouns;
+            var11 = var2.popout_animation_particle_type;
+            var10 = var2.theme_colors;
+            var7 = var2.profile_effect;
+            var6 = _closure1_slot20;
+            var2 = var6.get;
+            var9 = var2.bind(var6)(var4);
+            if(!(var5 != var3)) { _fun0010_ip = 721; continue _fun0010 }
+ 401:
+            if(!(var5 != var9)) { _fun0010_ip = 721; continue _fun0010 }
+ 408:
+            var2 = var9.get;
+            var2 = var2.bind(var9)(var3);
+            if(!(var5 != var2)) { _fun0010_ip = 721; continue _fun0010 }
+ 425:
+            var8 = var9.set;
             var6 = {};
-            var18 = var6;
-            var17 = var9;
-            var9 = copyDataProperties(var18, var17);
-            var9 = 'accentColor';
-            var6[var9] = var16;
-            var9 = 'banner';
-            var6[var9] = var15;
-            var9 = 'bio';
-            var6[var9] = var14;
-            var9 = 'pronouns';
-            var6[var9] = var13;
-            var9 = 'popoutAnimationParticleType';
-            var6[var9] = var12;
-            var9 = 'themeColors';
-            var6[var9] = var11;
-            var9 = 'profileEffectId';
-            var6[var9] = var10;
-            var9 = 'profileEffectExpiresAt';
-            var6[var9] = var2;
-            var6 = var7.bind(var8)(var3, var6);
-            if(!(var5 != var2)) { _fun0010_ip = 631; continue _fun0010 }
- 488:
-            var7 = _closure1_slot0;
-            var6 = _closure1_slot2;
-            var2 = 17;
-            var6 = var6[var2];
+            var17 = var6;
+            var16 = var2;
+            var2 = copyDataProperties(var17, var16);
+            var2 = 'accentColor';
+            var6[var2] = var15;
+            var2 = 'banner';
+            var6[var2] = var14;
+            var2 = 'bio';
+            var6[var2] = var13;
+            var2 = 'pronouns';
+            var6[var2] = var12;
+            var2 = 'popoutAnimationParticleType';
+            var6[var2] = var11;
+            var2 = 'themeColors';
+            var6[var2] = var10;
+            var10 = var5 != var7;
             var2 = undefined;
+            var11 = undefined;
+            if(!var10) { _fun0010_ip = 543; continue _fun0010 }
+ 507:
+            var10 = {};
+            var12 = var7.id;
+            var10['id'] = var12;
+            var12 = var7.sku_id;
+            var10['skuId'] = var12;
+            var12 = var7.expires_at;
+            var10['expiresAt'] = var12;
+            var11 = var10;
+ 543:
+            var10 = 'profileEffect';
+            var6[var10] = var11;
+            var6 = var8.bind(var9)(var3, var6);
+            var8 = var5 == var7;
+            var6 = undefined;
+            if(var8) { _fun0010_ip = 573; continue _fun0010 }
+ 567:
+            var6 = var7.expires_at;
+ 573:
+            if(!(var5 != var6)) { _fun0010_ip = 721; continue _fun0010 }
+ 580:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var6 = 17;
+            var6 = var8[var6];
             var6 = var7.bind(var2)(var6);
             var6 = var6.Timeout;
             var7 = var6.prototype;
             var7 = Object.create(var7, {constructor: {value: var6}});
-            var19 = var7;
-            var6 = new var19[var6](var18);
+            var18 = var7;
+            var6 = new var18[var6](var17);
             var7 = var6 instanceof Object ? var6 : var7;
             var8 = _closure1_slot22;
             var6 = var8.get;
             var6 = var6.bind(var8)(var4);
-            if(!(var5 == var6)) { _fun0010_ip = 610; continue _fun0010 }
- 554:
+            if(!(var5 == var6)) { _fun0010_ip = 700; continue _fun0010 }
+ 644:
             var5 = global;
             var5 = var5.Map;
             var8 = var5.prototype;
             var8 = Object.create(var8, {constructor: {value: var5}});
-            var19 = var8;
-            var5 = new var19[var5](var18);
+            var18 = var8;
+            var5 = new var18[var5](var17);
             var9 = var5 instanceof Object ? var5 : var8;
             var5 = var9.set;
             var5 = var5.bind(var9)(var3, var7);
             var8 = _closure1_slot22;
             var5 = var8.set;
             var5 = var5.bind(var8)(var4, var9);
-            _fun0010_ip = 621; continue _fun0010;
- 610:
+            _fun0010_ip = 711; continue _fun0010;
+ 700:
             var5 = var6.set;
             var5 = var5.bind(var6)(var3, var7);
- 621:
+ 711:
             var1 = _closure1_slot34;
             var1 = var1.bind(var2)(var4, var3);
- 631:
+ 721:
             var1 = undefined;
             return var1;
         }

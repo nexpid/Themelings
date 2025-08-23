@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = arg2;
                     var6 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 398; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 394; continue _fun0003 }
  19:
                     var3 = global;
                     var4 = var3.performance;
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = null;
                     if(!(var2 != var10)) { _fun0003_ip = 49; continue _fun0003 }
  42:
-                    if(!(var2 == var6)) { _fun0003_ip = 181; continue _fun0003 }
+                    if(!(var2 == var6)) { _fun0003_ip = 177; continue _fun0003 }
  49:
                     var8 = _closure1_slot18;
                     var4 = var8.verbose;
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['messages'] = var8;
                     var2[1] = var4;
                     return var2;
- 181:
+ 177:
                     var9 = _closure1_slot1;
                     var8 = _closure1_slot2;
                     var2 = 15;
@@ -162,13 +162,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var19 = var7;
                     var18 = var6;
                     var2 = var21[var8](var20, var19, var18, var17, var16);
-                    SaveGenerator(address=238);
- 236:
+                    SaveGenerator(address=234);
+ 232:
                     return var2;
- 238:
+ 234:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(var8) { _fun0003_ip = 395; continue _fun0003 }
- 247:
+                    if(var8) { _fun0003_ip = 391; continue _fun0003 }
+ 243:
                     var9 = _closure1_slot18;
                     var8 = var9.verbose;
                     var4 = var2.messages;
@@ -200,9 +200,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3[0] = var5;
                     var3[1] = var4;
                     return var3;
- 395:
+ 391:
                     return var2;
- 398:
+ 394:
                     return var1;
                 }
             };
@@ -1015,13 +1015,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = arg1;
                     var6 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0007_ip = 314; continue _fun0007 }
+                    if(var2) { _fun0007_ip = 322; continue _fun0007 }
  18:
                     var _closure4_slot0 = var11;
                     var8 = undefined;
                     var _closure4_slot1 = var8;
                     var5 = null;
-                    if(!(var5 != var11)) { _fun0007_ip = 282; continue _fun0007 }
+                    if(!(var5 != var11)) { _fun0007_ip = 286; continue _fun0007 }
  37:
                     var7 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -1035,7 +1035,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  74:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(var7) { _fun0007_ip = 279; continue _fun0007 }
+                    if(var7) { _fun0007_ip = 283; continue _fun0007 }
  83:
                     var10 = var2.initial_guild_id;
                     var7 = var5 == var10;
@@ -1105,16 +1105,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = {'channels': null, 'guildId': null};
                     var3 = var4.bind(var5)(var3);
                     return var3;
- 279:
+ 283:
                     return var2;
- 282:
+ 286:
                     var2 = global;
                     var4 = var2.Promise;
                     var3 = var4.resolve;
                     var2 = {'channels': null, 'guildId': null};
                     var2 = var3.bind(var4)(var2);
                     return var2;
- 314:
+ 322:
                     return var1;
                 }
             };

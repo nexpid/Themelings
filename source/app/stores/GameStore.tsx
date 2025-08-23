@@ -224,41 +224,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var _closure1_slot19 = var1;
         var1 = function convertApplicationRecordToDetectableApplication(arg1) {
-            var2 = arg1;
-            var1 = {};
-            var3 = var2.id;
-            var1['id'] = var3;
-            var3 = var2.name;
-            var1['name'] = var3;
-            var3 = var2.executables;
-            var1['executables'] = var3;
-            var3 = var2.overlayWarn;
-            var1['overlayWarn'] = var3;
-            var3 = var2.overlayCompatibilityHook;
-            var1['overlayCompatibilityHook'] = var3;
-            var3 = var2.overlay;
-            var1['overlay'] = var3;
-            var3 = var2.hook;
-            var1['hook'] = var3;
-            var3 = var2.aliases;
-            var1['aliases'] = var3;
-            var3 = var2.supportsOutOfProcessOverlay;
-            var1['supportsOutOfProcessOverlay'] = var3;
-            var3 = new Array(0);
-            var1['themes'] = var3;
-            var2 = var2.icon;
-            var1['icon'] = var2;
-            return var1;
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+                var2 = arg1;
+                var1 = {};
+                var3 = var2.id;
+                var1['id'] = var3;
+                var3 = var2.name;
+                var1['name'] = var3;
+                var3 = var2.executables;
+                var1['executables'] = var3;
+                var3 = var2.overlayWarn;
+                var1['overlayWarn'] = var3;
+                var3 = var2.overlayCompatibilityHook;
+                var1['overlayCompatibilityHook'] = var3;
+                var3 = var2.overlay;
+                var1['overlay'] = var3;
+                var3 = var2.hook;
+                var1['hook'] = var3;
+                var3 = var2.aliases;
+                var1['aliases'] = var3;
+                var3 = var2.supportsOutOfProcessOverlay;
+                var1['supportsOutOfProcessOverlay'] = var3;
+                var3 = new Array(0);
+                var1['themes'] = var3;
+                var3 = var2.icon;
+                var1['icon'] = var3;
+                var2 = var2.thirdPartySkus;
+                var3 = null;
+                if(!(var3 == var2)) { _fun0006_ip = 134; continue _fun0006 }
+ 130:
+                var2 = new Array(0);
+ 134:
+                var1['thirdPartySkus'] = var2;
+                return var1;
+            }
         };
         var _closure1_slot20 = var1;
         var1 = function addDetectableGame(arg1) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                 var2 = arg1;
                 var1 = _closure1_slot7;
                 var1 = var2 instanceof var1;
                 var5 = var2;
-                if(!var1) { _fun0006_ip = 31; continue _fun0006 }
+                if(!var1) { _fun0007_ip = 31; continue _fun0007 }
  20:
                 var3 = _closure1_slot20;
                 var1 = undefined;
@@ -279,7 +289,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var4.bind(var1)(var3);
                 var4 = var7.bind(var1)();
                 var3 = var4.done;
-                if(var3) { _fun0006_ip = 141; continue _fun0006 }
+                if(var3) { _fun0007_ip = 141; continue _fun0007 }
  103:
                 var9 = var4.value;
                 var8 = _closure1_slot11;
@@ -289,7 +299,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var7.bind(var1)();
                 var3 = var8.done;
                 var4 = var8;
-                if(!var3) { _fun0006_ip = 103; continue _fun0006 }
+                if(!var3) { _fun0007_ip = 103; continue _fun0007 }
  141:
                 var4 = _closure1_slot0;
                 var7 = _closure1_slot1;
@@ -298,14 +308,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var1)(var3);
                 var3 = var4.isDesktop;
                 var3 = var3.bind(var4)();
-                if(!var3) { _fun0006_ip = 234; continue _fun0006 }
+                if(!var3) { _fun0007_ip = 234; continue _fun0007 }
  174:
                 var3 = _closure1_slot18;
                 var2 = var2.executables;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0006_ip = 234; continue _fun0006 }
+                if(var2) { _fun0007_ip = 234; continue _fun0007 }
  201:
                 var2 = var3.value;
                 var7 = _closure1_slot12;
@@ -314,7 +324,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var4.bind(var1)();
                 var2 = var7.done;
                 var3 = var7;
-                if(!var2) { _fun0006_ip = 201; continue _fun0006 }
+                if(!var2) { _fun0007_ip = 201; continue _fun0007 }
  234:
                 return var1;
             }
@@ -399,7 +409,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var2.PersistedStore;
         var2 = function(arg1) {
             var4 = function GameStore() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                     var4 = this;
                     var3 = undefined;
@@ -412,13 +422,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure1_slot4;
                     var1 = _closure1_slot17;
                     var1 = var1.bind(var3)();
-                    if(var1) { _fun0007_ip = 69; continue _fun0007 }
+                    if(var1) { _fun0008_ip = 69; continue _fun0008 }
  51:
                     var7 = var9.apply;
                     var5 = arguments;
                     var1 = var5;
                     var1 = var7.bind(var9)(var4, var1);
-                    _fun0007_ip = 105; continue _fun0007;
+                    _fun0008_ip = 105; continue _fun0008;
  69:
                     var7 = global;
                     var8 = var7.Reflect;
@@ -443,20 +453,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 'initialize';
             var5['key'] = var1;
             var1 = function value(arg1) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     var2 = arg1;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0008_ip = 59; continue _fun0008 }
+                    if(!(var1 != var2)) { _fun0009_ip = 59; continue _fun0009 }
  9:
                     var3 = var2.detectableGamesEtag;
-                    if(!(var1 != var3)) { _fun0008_ip = 32; continue _fun0008 }
+                    if(!(var1 != var3)) { _fun0009_ip = 32; continue _fun0009 }
  19:
                     var4 = var2.detectableGamesEtag;
                     _closure1_slot14 = var4;
  32:
                     var3 = var2.detectableGames;
-                    if(!(var1 != var3)) { _fun0008_ip = 59; continue _fun0008 }
+                    if(!(var1 != var3)) { _fun0009_ip = 59; continue _fun0009 }
  42:
                     var2 = var3.forEach;
                     var1 = function(arg1) {
@@ -479,7 +489,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'getState';
             var5['key'] = var7;
             var7 = function value() {
-                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
                     var4 = _closure1_slot0;
                     var2 = _closure1_slot1;
@@ -490,14 +500,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.isDesktop;
                     var1 = var1.bind(var2)();
                     var2 = {};
-                    if(var1) { _fun0009_ip = 63; continue _fun0009 }
+                    if(var1) { _fun0010_ip = 63; continue _fun0010 }
  40:
                     var1 = '';
                     var2['detectableGamesEtag'] = var1;
                     var1 = new Array(0);
                     var2['detectableGames'] = var1;
                     var1 = var2;
-                    _fun0009_ip = 93; continue _fun0009;
+                    _fun0010_ip = 93; continue _fun0010;
  63:
                     var4 = _closure1_slot14;
                     var2['detectableGamesEtag'] = var4;
@@ -539,11 +549,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'getGameByName';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
                     var3 = arg1;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0010_ip = 71; continue _fun0010 }
+                    if(!(var1 != var3)) { _fun0011_ip = 71; continue _fun0011 }
  9:
                     var2 = var3.toLowerCase;
                     var4 = var2.bind(var3)();
@@ -555,7 +565,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure1_slot11;
                     var5 = var5.bind(var6)(var2, var4);
                     var2 = null;
-                    if(!var5) { _fun0010_ip = 69; continue _fun0010 }
+                    if(!var5) { _fun0011_ip = 69; continue _fun0011 }
  61:
                     var3 = _closure1_slot11;
                     var2 = var3[var4];
@@ -571,7 +581,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'isGameInDatabase';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
                     var3 = arg1;
                     var4 = this;
@@ -580,12 +590,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var4)(var1);
                     var1 = null;
                     var1 = var1 != var2;
-                    if(var1) { _fun0011_ip = 72; continue _fun0011 }
+                    if(var1) { _fun0012_ip = 72; continue _fun0012 }
  31:
                     var4 = var3.nativeProcessObserverId;
                     var2 = undefined;
                     var2 = var2 !== var4;
-                    if(!var2) { _fun0011_ip = 69; continue _fun0011 }
+                    if(!var2) { _fun0012_ip = 69; continue _fun0012 }
  46:
                     var4 = var3.nativeProcessObserverId;
                     var3 = 2147483648.0;
@@ -641,17 +651,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'canFetchDetectableGames';
             var5['key'] = var7;
             var7 = function value() {
-                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
                     var2 = _closure1_slot15;
                     var1 = true;
                     var1 = var1 !== var2;
-                    if(!var1) { _fun0012_ip = 65; continue _fun0012 }
+                    if(!var1) { _fun0013_ip = 65; continue _fun0013 }
  16:
                     var4 = _closure1_slot16;
                     var2 = null;
                     var2 = var2 == var4;
-                    if(var2) { _fun0012_ip = 62; continue _fun0012 }
+                    if(var2) { _fun0013_ip = 62; continue _fun0013 }
  29:
                     var4 = global;
                     var5 = var4.Date;
@@ -684,13 +694,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'getGameByGameData';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
                     var2 = arg1;
                     var7 = this;
                     var3 = var2.exePath;
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0013_ip = 235; continue _fun0013 }
+                    if(!(var1 != var3)) { _fun0014_ip = 235; continue _fun0014 }
  21:
                     var4 = var2.exePath;
                     var3 = var4.split;
@@ -709,18 +719,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var2.name;
                     var4 = var1 != var3;
                     var3 = undefined;
-                    if(!var4) { _fun0013_ip = 198; continue _fun0013 }
+                    if(!var4) { _fun0014_ip = 198; continue _fun0014 }
  107:
                     var4 = var7.getGameByName;
                     var2 = var2.name;
                     var2 = var4.bind(var7)(var2);
-                    if(!(var1 != var2)) { _fun0013_ip = 137; continue _fun0013 }
+                    if(!(var1 != var2)) { _fun0014_ip = 137; continue _fun0014 }
  127:
                     var4 = var2.executables;
-                    if(!(var1 == var4)) { _fun0013_ip = 146; continue _fun0013 }
+                    if(!(var1 == var4)) { _fun0014_ip = 146; continue _fun0014 }
  137:
                     var3 = var2;
-                    if(!(var1 != var3)) { _fun0013_ip = 198; continue _fun0013 }
+                    if(!(var1 != var3)) { _fun0014_ip = 198; continue _fun0014 }
  144:
                     return var1;
  146:
@@ -734,21 +744,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.bind(var9)(var4);
                     var4 = var8.includes;
                     var4 = var4.bind(var8)(var5);
-                    if(var4) { _fun0013_ip = 233; continue _fun0013 }
+                    if(var4) { _fun0014_ip = 233; continue _fun0014 }
  182:
                     var4 = var8.includes;
                     var4 = var4.bind(var8)(var6);
                     var3 = var2;
-                    if(var4) { _fun0013_ip = 233; continue _fun0013 }
+                    if(var4) { _fun0014_ip = 233; continue _fun0014 }
  198:
                     var4 = var7.getGameByExecutable;
                     var4 = var4.bind(var7)(var5);
-                    if(!(var1 == var4)) { _fun0013_ip = 224; continue _fun0013 }
+                    if(!(var1 == var4)) { _fun0014_ip = 224; continue _fun0014 }
  213:
                     var5 = var7.getGameByExecutable;
                     var4 = var5.bind(var7)(var6);
  224:
-                    if(!(var1 != var4)) { _fun0013_ip = 231; continue _fun0013 }
+                    if(!(var1 != var4)) { _fun0014_ip = 231; continue _fun0014 }
  228:
                     var3 = var4;
  231:
@@ -765,7 +775,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'shouldReport';
             var5['key'] = var7;
             var7 = function value(arg1) {
-                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                     var5 = arg1;
                     var2 = this;
@@ -785,14 +795,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var1.ShowCurrentGame;
                     var1 = var5.getSetting;
                     var1 = var1.bind(var5)();
-                    if(!var1) { _fun0014_ip = 86; continue _fun0014 }
+                    if(!var1) { _fun0015_ip = 86; continue _fun0015 }
  79:
                     var4 = _closure1_slot15;
                     var1 = !var4;
  86:
-                    if(!var1) { _fun0014_ip = 98; continue _fun0014 }
+                    if(!var1) { _fun0015_ip = 98; continue _fun0015 }
  89:
-                    if(var2) { _fun0014_ip = 95; continue _fun0014 }
+                    if(var2) { _fun0015_ip = 95; continue _fun0015 }
  92:
                     var2 = var3;
  95:
@@ -835,18 +845,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8['persistKey'] = var2;
         var2 = new Array(3);
         var9 = function(arg1) {
-            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
                 var3 = arg1;
                 var4 = null;
-                if(!(var4 == var3)) { _fun0015_ip = 31; continue _fun0015 }
+                if(!(var4 == var3)) { _fun0016_ip = 31; continue _fun0016 }
  9:
                 var1 = {};
                 var2 = '';
                 var1['detectableGamesEtag'] = var2;
                 var2 = new Array(0);
                 var1['detectableGames'] = var2;
-                _fun0015_ip = 92; continue _fun0015;
+                _fun0016_ip = 92; continue _fun0016;
  31:
                 var2 = {};
                 var5 = var3.detectableGamesEtag;
@@ -854,7 +864,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var3.detectableGames;
                 var5 = var4 == var7;
                 var3 = undefined;
-                if(var5) { _fun0015_ip = 76; continue _fun0015 }
+                if(var5) { _fun0016_ip = 76; continue _fun0016 }
  59:
                 var6 = var7.map;
                 var5 = function(arg1) {
@@ -872,7 +882,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var3 = var6.bind(var7)(var5);
  76:
-                if(!(var4 == var3)) { _fun0015_ip = 84; continue _fun0015 }
+                if(!(var4 == var3)) { _fun0016_ip = 84; continue _fun0016 }
  80:
                 var3 = new Array(0);
  84:
@@ -884,7 +894,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var2[0] = var9;
         var9 = function(arg1) {
-            _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
                 var1 = arg1;
                 var4 = _closure1_slot0;
@@ -895,7 +905,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.bind(var2)(var3);
                 var2 = var3.isDesktop;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0016_ip = 64; continue _fun0016 }
+                if(var2) { _fun0017_ip = 64; continue _fun0017 }
  41:
                 var2 = {};
                 var3 = '';
@@ -923,7 +933,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var7.bind(var1)(var2);
         var2 = {};
         var9 = function handleOverlayInitialize(arg1) {
-            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
                 var1 = arg1;
                 var3 = var1.detectableApplications;
@@ -932,7 +942,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var2.bind(var1)(var3);
                 var3 = var4.bind(var1)();
                 var2 = var3.done;
-                if(var2) { _fun0017_ip = 66; continue _fun0017 }
+                if(var2) { _fun0018_ip = 66; continue _fun0018 }
  37:
                 var6 = _closure1_slot21;
                 var2 = var3.value;
@@ -940,7 +950,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var4.bind(var1)();
                 var2 = var6.done;
                 var3 = var6;
-                if(!var2) { _fun0017_ip = 37; continue _fun0017 }
+                if(!var2) { _fun0018_ip = 37; continue _fun0018 }
  66:
                 return var1;
             }
@@ -961,19 +971,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var2['GAMES_DATABASE_FETCH_FAIL'] = var9;
         var4 = function handleDetectableGamesUpdated(arg1) {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
                 var1 = arg1;
                 var4 = var1.games;
                 var2 = var1.etag;
                 var6 = null;
                 var1 = var6 != var2;
-                if(!var1) { _fun0018_ip = 35; continue _fun0018 }
+                if(!var1) { _fun0019_ip = 35; continue _fun0019 }
  24:
                 var3 = _closure1_slot14;
                 var1 = var3 !== var2;
  35:
-                if(!var1) { _fun0018_ip = 45; continue _fun0018 }
+                if(!var1) { _fun0019_ip = 45; continue _fun0019 }
  38:
                 _closure1_slot14 = var2;
  45:
@@ -982,7 +992,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2.bind(var1)(var4);
                 var4 = var5.bind(var1)();
                 var2 = var4.done;
-                if(var2) { _fun0018_ip = 329; continue _fun0018 }
+                if(var2) { _fun0019_ip = 348; continue _fun0019 }
  74:
                 var8 = var4.value;
                 var7 = _closure1_slot21;
@@ -992,7 +1002,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var8.name;
                 var2['name'] = var9;
                 var11 = var8.executables;
-                if(!(var6 == var11)) { _fun0018_ip = 117; continue _fun0018 }
+                if(!(var6 == var11)) { _fun0019_ip = 117; continue _fun0019 }
  113:
                 var11 = new Array(0);
  117:
@@ -1002,34 +1012,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['executables'] = var9;
                 var10 = var8.overlay;
                 var9 = var6 != var10;
-                if(!var9) { _fun0018_ip = 152; continue _fun0018 }
+                if(!var9) { _fun0019_ip = 152; continue _fun0019 }
  149:
                 var9 = var10;
  152:
                 var2['overlay'] = var9;
                 var10 = var8.overlay_warn;
                 var9 = var6 != var10;
-                if(!var9) { _fun0018_ip = 173; continue _fun0018 }
+                if(!var9) { _fun0019_ip = 173; continue _fun0019 }
  170:
                 var9 = var10;
  173:
                 var2['overlayWarn'] = var9;
                 var10 = var8.overlay_compatibility_hook;
                 var9 = var6 != var10;
-                if(!var9) { _fun0018_ip = 194; continue _fun0018 }
+                if(!var9) { _fun0019_ip = 194; continue _fun0019 }
  191:
                 var9 = var10;
  194:
                 var2['overlayCompatibilityHook'] = var9;
                 var10 = var8.hook;
                 var9 = var6 == var10;
-                if(var9) { _fun0018_ip = 215; continue _fun0018 }
+                if(var9) { _fun0019_ip = 215; continue _fun0019 }
  212:
                 var9 = var10;
  215:
                 var2['hook'] = var9;
                 var9 = var8.aliases;
-                if(!(var6 == var9)) { _fun0018_ip = 234; continue _fun0018 }
+                if(!(var6 == var9)) { _fun0019_ip = 234; continue _fun0019 }
  230:
                 var9 = new Array(0);
  234:
@@ -1040,25 +1050,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var10.bind(var11)(var9);
                 var2['supportsOutOfProcessOverlay'] = var9;
                 var9 = var8.themes;
-                if(!(var6 == var9)) { _fun0018_ip = 279; continue _fun0018 }
+                if(!(var6 == var9)) { _fun0019_ip = 279; continue _fun0019 }
  275:
                 var9 = new Array(0);
  279:
                 var2['themes'] = var9;
-                var9 = var8.icon_hash;
-                var10 = var6 != var9;
-                var8 = undefined;
-                if(!var10) { _fun0018_ip = 302; continue _fun0018 }
+                var10 = var8.icon_hash;
+                var11 = var6 != var10;
+                var9 = undefined;
+                if(!var11) { _fun0019_ip = 302; continue _fun0019 }
  299:
-                var8 = var9;
+                var9 = var10;
  302:
-                var2['icon'] = var8;
+                var2['icon'] = var9;
+                var8 = var8.third_party_skus;
+                if(!(var6 == var8)) { _fun0019_ip = 320; continue _fun0019 }
+ 316:
+                var8 = new Array(0);
+ 320:
+                var2['thirdPartySkus'] = var8;
                 var2 = var7.bind(var1)(var2);
                 var7 = var5.bind(var1)();
                 var2 = var7.done;
                 var4 = var7;
-                if(!var2) { _fun0018_ip = 74; continue _fun0018 }
- 329:
+                if(!var2) { _fun0019_ip = 74; continue _fun0019 }
+ 348:
                 _closure1_slot15 = var1;
                 var2 = global;
                 var4 = var2.Date;

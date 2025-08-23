@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot5 = var4;
-    var4 = 7;
+    var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -90,56 +90,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             var4 = arg1;
                             var8 = _closure1_slot0;
-                            var5 = _closure1_slot2;
-                            var2 = 5;
-                            var2 = var5[var2];
+                            var7 = _closure1_slot2;
+                            var1 = 5;
+                            var1 = var7[var1];
                             var6 = undefined;
-                            var9 = var8.bind(var6)(var2);
-                            var7 = var9.getProductPurchaseState;
-                            var2 = _closure1_slot5;
-                            var2 = var7.bind(var9)(var2, var4);
-                            var2 = var2.isPurchased;
-                            var7 = 6;
-                            var5 = var5[var7];
-                            var8 = var8.bind(var6)(var5);
-                            var5 = var8.isBundleProduct;
-                            var5 = var5.bind(var8)(var4);
-                            if(!var5) { _fun0003_ip = 255; continue _fun0003 }
+                            var9 = var8.bind(var6)(var1);
+                            var5 = var9.getProductPurchaseState;
+                            var1 = _closure1_slot5;
+                            var1 = var5.bind(var9)(var1, var4);
+                            var5 = var1.isPurchased;
+                            var1 = 6;
+                            var7 = var7[var1];
+                            var8 = var8.bind(var6)(var7);
+                            var7 = var8.isBundleProduct;
+                            var7 = var7.bind(var8)(var4);
+                            if(!var7) { _fun0003_ip = 285; continue _fun0003 }
  81:
                             var8 = _closure1_slot0;
-                            var5 = _closure1_slot2;
-                            var5 = var5[var7];
-                            var8 = var8.bind(var6)(var5);
-                            var5 = var8.isFreeCollectiblesProduct;
-                            var5 = var5.bind(var8)(var4);
-                            if(var5) { _fun0003_ip = 255; continue _fun0003 }
+                            var7 = _closure1_slot2;
+                            var7 = var7[var1];
+                            var8 = var8.bind(var6)(var7);
+                            var7 = var8.isFreeCollectiblesProduct;
+                            var7 = var7.bind(var8)(var4);
+                            if(var7) { _fun0003_ip = 285; continue _fun0003 }
  115:
-                            if(var2) { _fun0003_ip = 255; continue _fun0003 }
+                            if(var5) { _fun0003_ip = 285; continue _fun0003 }
  121:
-                            var2 = _closure1_slot0;
-                            var1 = _closure1_slot2;
-                            var5 = var1[var7];
-                            var9 = var2.bind(var6)(var5);
+                            var5 = _closure1_slot0;
+                            var7 = _closure1_slot2;
+                            var2 = var7[var1];
+                            var9 = var5.bind(var6)(var2);
                             var8 = var9.getDefaultPriceSetAssignmentPurchaseType;
-                            var5 = _closure2_slot0;
-                            var5 = var8.bind(var9)(var5);
-                            var _closure4_slot0 = var5;
-                            var1 = var1[var7];
-                            var2 = var2.bind(var6)(var1);
+                            var2 = _closure2_slot0;
+                            var8 = var8.bind(var9)(var2);
+                            var _closure4_slot0 = var8;
+                            var1 = var7[var1];
+                            var2 = var5.bind(var6)(var1);
                             var1 = var2.extractPriceByPurchaseTypes;
-                            var1 = var1.bind(var2)(var4, var5);
+                            var1 = var1.bind(var2)(var4, var8);
+                            var2 = 7;
+                            var2 = var7[var2];
+                            var5 = var5.bind(var6)(var2);
+                            var2 = var5.isValidCollectiblesBundle;
+                            var2 = var2.bind(var5)(var4);
+                            if(var2) { _fun0003_ip = 211; continue _fun0003 }
+ 207:
+                            var2 = false;
+                            return var2;
+ 211:
                             var5 = null;
-                            if(!(var5 != var1)) { _fun0003_ip = 251; continue _fun0003 }
- 187:
+                            if(!(var5 != var1)) { _fun0003_ip = 281; continue _fun0003 }
+ 217:
                             var2 = var1.amount;
                             var6 = 0;
-                            if(!(var6 !== var2)) { _fun0003_ip = 251; continue _fun0003 }
- 199:
+                            if(!(var6 !== var2)) { _fun0003_ip = 281; continue _fun0003 }
+ 229:
                             var2 = var4.bundledProducts;
                             var5 = var5 != var2;
                             var2 = 0;
-                            if(!var5) { _fun0003_ip = 239; continue _fun0003 }
- 214:
+                            if(!var5) { _fun0003_ip = 269; continue _fun0003 }
+ 244:
                             var5 = var4.bundledProducts;
                             var4 = var5.reduce;
                             var3 = function(arg1, arg2) {
@@ -173,14 +183,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 }
                             };
                             var2 = var4.bind(var5)(var3, var6);
- 239:
+ 269:
                             var1 = var1.amount;
                             var1 = var1 < var2;
                             return var1;
- 251:
+ 281:
                             var1 = true;
                             return var1;
- 255:
+ 285:
                             var1 = true;
                             return var1;
                         }

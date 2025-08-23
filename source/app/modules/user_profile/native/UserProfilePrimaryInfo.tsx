@@ -210,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0004_ip = 172; continue _fun0004 }
+                    if(!(var1 != var2)) { _fun0004_ip = 176; continue _fun0004 }
  16:
                     var5 = _closure1_slot12;
                     var4 = _closure1_slot0;
@@ -228,8 +228,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var5.bind(var6)(var4, var2);
                     var4 = _closure2_slot2;
                     var2 = var7;
-                    if(!(var1 != var4)) { _fun0004_ip = 170; continue _fun0004 }
- 95:
+                    if(!(var1 != var4)) { _fun0004_ip = 174; continue _fun0004 }
+ 99:
                     var5 = _closure1_slot12;
                     var4 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -248,9 +248,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['accessibilityHint'] = var8;
                     var3['children'] = var7;
                     var2 = var5.bind(var6)(var4, var3);
- 170:
+ 174:
                     return var2;
- 172:
+ 176:
                     return var1;
                 }
             };
@@ -467,7 +467,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot3;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
-                    _fun0006_ip = 323; continue _fun0006;
+                    _fun0006_ip = 392; continue _fun0006;
  28:
                     var2 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -494,7 +494,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4[var1];
                     var1 = var3.bind(var10)(var1);
                     var1 = var1.QUEST_COMPLETED_BADGE;
-                    if(!(var2 === var1)) { _fun0006_ip = 323; continue _fun0006 }
+                    if(!(var2 === var1)) { _fun0006_ip = 392; continue _fun0006 }
  143:
                     var2 = _closure1_slot1;
                     var13 = _closure1_slot2;
@@ -519,10 +519,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = var1;
                     var6 = copyDataProperties(var15, var14);
                     var6 = _closure2_slot4;
+                    var6 = var8 != var6;
+                    var9 = null;
+                    if(!var6) { _fun0006_ip = 296; continue _fun0006 }
+ 251:
+                    var11 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var6 = 22;
+                    var6 = var12[var6];
+                    var11 = var11.bind(var10)(var6);
+                    var6 = var11.isIOS;
+                    var6 = var6.bind(var11)();
+                    var9 = null;
+                    if(!var6) { _fun0006_ip = 296; continue _fun0006 }
+ 286:
+                    var6 = _closure2_slot4;
+                    var9 = var6.advertisingId;
+ 296:
+                    var6 = 'apple_advertising_id';
+                    var1[var6] = var9;
+                    var6 = _closure2_slot4;
                     var9 = var8 != var6;
                     var6 = null;
-                    if(!var9) { _fun0006_ip = 295; continue _fun0006 }
- 251:
+                    if(!var9) { _fun0006_ip = 364; continue _fun0006 }
+ 320:
                     var9 = _closure1_slot0;
                     var11 = _closure1_slot2;
                     var7 = 22;
@@ -531,18 +551,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var9.isAndroid;
                     var7 = var7.bind(var9)();
                     var6 = null;
-                    if(!var7) { _fun0006_ip = 295; continue _fun0006 }
- 285:
+                    if(!var7) { _fun0006_ip = 364; continue _fun0006 }
+ 354:
                     var5 = _closure2_slot4;
                     var6 = var5.advertisingId;
- 295:
+ 364:
                     var5 = 'android_advertising_id';
                     var1[var5] = var6;
                     var6 = false;
                     var5 = 'is_targeted';
                     var1[var5] = var6;
                     var1 = var3.bind(var4)(var2, var1);
- 323:
+ 392:
                     var1 = undefined;
                     return var1;
                 }

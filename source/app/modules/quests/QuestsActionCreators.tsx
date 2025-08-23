@@ -1,12 +1,12 @@
 // app/modules/quests/QuestsActionCreators.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
+    var6 = require;
     var8 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
     var _closure1_slot1 = var8;
-    var _closure1_slot2 = var6;
+    var _closure1_slot2 = var7;
     var1 = function _manuallyStartConsoleQuest() {
         var5 = undefined;
         var1 = undefined;
@@ -213,7 +213,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot10 = var4;
+        _closure1_slot11 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -221,7 +221,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot11 = var1;
     var1 = function _manualStopConsoleQuest() {
         var5 = undefined;
         var1 = undefined;
@@ -268,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot11 = var4;
+        _closure1_slot12 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -276,7 +276,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var1 = function _resetRecentQuestCompletions() {
         var5 = undefined;
         var1 = undefined;
@@ -321,7 +321,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot12 = var4;
+        _closure1_slot13 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -329,7 +329,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = function _fetchCurrentQuests() {
         var5 = undefined;
         var1 = undefined;
@@ -521,7 +521,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot13 = var4;
+        _closure1_slot14 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -529,7 +529,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot13 = var1;
+    var _closure1_slot14 = var1;
     var1 = function _sendHeartbeat() {
         var5 = undefined;
         var1 = undefined;
@@ -683,7 +683,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot14 = var4;
+        _closure1_slot15 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -691,7 +691,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot14 = var1;
+    var _closure1_slot15 = var1;
     var1 = function _enrollInQuest() {
         var5 = undefined;
         var1 = undefined;
@@ -703,148 +703,232 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0007_ip = 515; continue _fun0007 }
+                    if(var3) { _fun0007_ip = 772; continue _fun0007 }
  13:
-                    var5 = arg1;
-                    var10 = var2;
-                    var3 = var2.questContentCTA;
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0007_ip = 135; continue _fun0007 }
+                    var10 = arg1;
+                    var11 = var2;
+                    var2 = var2.questContentCTA;
+                    var7 = null;
+                    if(!(var7 != var2)) { _fun0007_ip = 135; continue _fun0007 }
  31:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 15;
+                    var2 = 16;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
                     var3 = var4.trackQuestContentClicked;
                     var2 = {};
-                    var6 = var5;
-                    var2['questId'] = var6;
-                    var6 = var10;
-                    var7 = var6.questContent;
-                    var2['questContent'] = var7;
-                    var7 = var6.questContentCTA;
-                    var2['questContentCTA'] = var7;
-                    var7 = var6.questContentPosition;
-                    var2['questContentPosition'] = var7;
-                    var7 = var6.questContentRowIndex;
-                    var2['questContentRowIndex'] = var7;
-                    var6 = var6.sourceQuestContent;
-                    var2['sourceQuestContent'] = var6;
+                    var5 = var10;
+                    var2['questId'] = var5;
+                    var5 = var11;
+                    var6 = var5.questContent;
+                    var2['questContent'] = var6;
+                    var6 = var5.questContentCTA;
+                    var2['questContentCTA'] = var6;
+                    var6 = var5.questContentPosition;
+                    var2['questContentPosition'] = var6;
+                    var6 = var5.questContentRowIndex;
+                    var2['questContentRowIndex'] = var6;
+                    var5 = var5.sourceQuestContent;
+                    var2['sourceQuestContent'] = var5;
                     var2 = var3.bind(var4)(var2);
  135:
-                    var4 = var5;
-                    var3 = _closure1_slot7;
-                    if(!(var4 === var3)) { _fun0007_ip = 181; continue _fun0007 }
+                    var4 = var10;
+                    var2 = _closure1_slot7;
+                    if(!(var4 === var2)) { _fun0007_ip = 181; continue _fun0007 }
  149:
-                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 16;
-                    var4 = var4[var3];
-                    var3 = undefined;
-                    var4 = var6.bind(var3)(var4);
-                    var3 = var4.dismissOrbsOnboardingExperience;
-                    var3 = var3.bind(var4)();
+                    var2 = 17;
+                    var4 = var4[var2];
+                    var2 = undefined;
+                    var4 = var5.bind(var2)(var4);
+                    var2 = var4.dismissOrbsOnboardingExperience;
+                    var2 = var2.bind(var4)();
  181:
-                    var6 = _closure1_slot4;
-                    var4 = var6.isEnrolling;
-                    var3 = var5;
-                    var3 = var4.bind(var6)(var3);
-                    if(var3) { _fun0007_ip = 510; continue _fun0007 }
+                    var5 = _closure1_slot4;
+                    var4 = var5.isEnrolling;
+                    var2 = var10;
+                    var2 = var4.bind(var5)(var2);
+                    if(var2) { _fun0007_ip = 753; continue _fun0007 }
  205:
-                    var7 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var6 = 6;
-                    var3 = var3[var6];
-                    var4 = undefined;
-                    var8 = var7.bind(var4)(var3);
-                    var7 = var8.dispatch;
-                    var3 = {};
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 6;
+                    var4 = var4[var2];
+                    var6 = undefined;
+                    var8 = var5.bind(var6)(var4);
+                    var5 = var8.dispatch;
+                    var4 = {};
                     var9 = 'QUESTS_ENROLL_BEGIN';
-                    var3['type'] = var9;
-                    var9 = var5;
-                    var3['questId'] = var9;
-                    var3 = var7.bind(var8)(var3);
+                    var4['type'] = var9;
+                    var9 = var10;
+                    var4['questId'] = var9;
+                    var4 = var5.bind(var8)(var4);
  257: // try_start_0
-                    var13 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var3 = 5;
-                    var3 = var11[var3];
-                    var3 = var13.bind(var4)(var3);
-                    var8 = var3.HTTP;
-                    var7 = var8.post;
-                    var3 = {};
-                    var12 = _closure1_slot9;
-                    var9 = var12.QUESTS_ENROLL;
-                    var14 = var5;
-                    var9 = var9.bind(var12)(var14);
-                    var3['url'] = var9;
+                    var14 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var4 = 5;
+                    var4 = var12[var4];
+                    var4 = var14.bind(var6)(var4);
+                    var8 = var4.HTTP;
+                    var5 = var8.post;
+                    var4 = {};
+                    var13 = _closure1_slot9;
+                    var9 = var13.QUESTS_ENROLL;
+                    var15 = var10;
+                    var9 = var9.bind(var13)(var15);
+                    var4['url'] = var9;
                     var9 = {};
-                    var12 = var10.questContent;
-                    var9['location'] = var12;
-                    var12 = 11;
-                    var11 = var11[var12];
-                    var13 = var13.bind(var4)(var11);
-                    var11 = var13.getAdDecisionData;
-                    var10 = var10.questContent;
-                    var15 = var11.bind(var13)(var14, var10);
-                    var16 = var9;
-                    var10 = copyDataProperties(var16, var15);
-                    var3['body'] = var9;
+                    var13 = var11.questContent;
+                    var9['location'] = var13;
+                    var13 = 11;
+                    var12 = var12[var13];
+                    var14 = var14.bind(var6)(var12);
+                    var12 = var14.getAdDecisionData;
+                    var11 = var11.questContent;
+                    var16 = var12.bind(var14)(var15, var11);
+                    var17 = var9;
+                    var11 = copyDataProperties(var17, var16);
+                    var4['body'] = var9;
                     var9 = true;
-                    var3['rejectWithError'] = var9;
-                    var3 = var7.bind(var8)(var3);
+                    var4['rejectWithError'] = var9;
+                    var4 = var5.bind(var8)(var4);
                     SaveGenerator(address=380);
  378:
-                    return var3;
+                    return var4;
  380:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0007_ip = 461; continue _fun0007 }
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(var5) { _fun0007_ip = 478; continue _fun0007 }
  386:
                     var8 = _closure1_slot1;
-                    var10 = _closure1_slot2;
-                    var7 = var10[var6];
-                    var9 = var8.bind(var4)(var7);
+                    var11 = _closure1_slot2;
+                    var5 = var11[var2];
+                    var9 = var8.bind(var6)(var5);
                     var8 = var9.dispatch;
-                    var7 = {};
-                    var11 = 'QUESTS_ENROLL_SUCCESS';
-                    var7['type'] = var11;
-                    var11 = _closure1_slot0;
-                    var10 = var10[var12];
-                    var12 = var11.bind(var4)(var10);
-                    var11 = var12.questUserStatusFromServer;
-                    var10 = var3.body;
-                    var10 = var11.bind(var12)(var10);
-                    var7['enrolledQuestUserStatus'] = var10;
-                    var7 = var8.bind(var9)(var7);
- 459: // try_end0
-                    _fun0007_ip = 510; continue _fun0007;
- 461:
-                    return var3;
- 464: // catch_target0
-                    CatchBlockStart(arg_register=2);
-                    var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
-                    var2 = var2[var6];
-                    var4 = var3.bind(var4)(var2);
-                    var3 = var4.dispatch;
+                    var5 = {};
+                    var12 = 'QUESTS_ENROLL_SUCCESS';
+                    var5['type'] = var12;
+                    var12 = _closure1_slot0;
+                    var11 = var11[var13];
+                    var13 = var12.bind(var6)(var11);
+                    var12 = var13.questUserStatusFromServer;
+                    var11 = var4.body;
+                    var11 = var12.bind(var13)(var11);
+                    var5['enrolledQuestUserStatus'] = var11;
+                    var5 = var8.bind(var9)(var5);
+                    var5 = {};
+                    var8 = _closure1_slot10;
+                    var8 = var8.SUCCESS;
+                    var5['type'] = var8;
+ 475: // try_end0
+                    return var5;
+ 478:
+                    return var4;
+ 481: // catch_target0
+                    CatchBlockStart(arg_register=7);
+                    var4 = _closure1_slot1;
+                    var5 = _closure1_slot2;
+                    var2 = var5[var2];
+                    var9 = var4.bind(var6)(var2);
+                    var4 = var9.dispatch;
                     var2 = {};
-                    var6 = 'QUESTS_ENROLL_FAILURE';
-                    var2['type'] = var6;
-                    var2['questId'] = var5;
-                    var2 = var3.bind(var4)(var2);
- 510:
-                    var2 = undefined;
+                    var11 = 'QUESTS_ENROLL_FAILURE';
+                    var2['type'] = var11;
+                    var2['questId'] = var10;
+                    var2 = var4.bind(var9)(var2);
+                    var4 = _closure1_slot0;
+                    var2 = 15;
+                    var2 = var5[var2];
+                    var2 = var4.bind(var6)(var2);
+                    var2 = var2.CaptchaCancelError;
+                    var2 = var8 instanceof var2;
+                    if(var2) { _fun0007_ip = 713; continue _fun0007 }
+ 559:
+                    var4 = var7 != var8;
+                    if(!var4) { _fun0007_ip = 577; continue _fun0007 }
+ 566:
+                    var9 = 'object';
+                    var5 = typeof var8;
+                    var4 = var9 === var5;
+ 577:
+                    if(!var4) { _fun0007_ip = 710; continue _fun0007 }
+ 583:
+                    var9 = var8.status;
+                    var5 = 400;
+                    var5 = var5 === var9;
+                    if(!var5) { _fun0007_ip = 625; continue _fun0007 }
+ 601:
+                    var10 = var8.body;
+                    var11 = var7 == var10;
+                    var9 = undefined;
+                    if(var11) { _fun0007_ip = 621; continue _fun0007 }
+ 615:
+                    var9 = var10.captcha_key;
+ 621:
+                    var5 = var7 != var9;
+ 625:
+                    if(var5) { _fun0007_ip = 679; continue _fun0007 }
+ 628:
+                    var9 = var8.captchaFields;
+                    var9 = var7 != var9;
+                    if(!var9) { _fun0007_ip = 676; continue _fun0007 }
+ 641:
+                    var10 = global;
+                    var12 = var10.Object;
+                    var11 = var12.keys;
+                    var10 = var8.captchaFields;
+                    var10 = var11.bind(var12)(var10);
+                    var11 = var10.length;
+                    var10 = 0;
+                    var9 = var11 > var10;
+ 676:
+                    var5 = var9;
+ 679:
+                    if(var5) { _fun0007_ip = 707; continue _fun0007 }
+ 682:
+                    var8 = var8.fields;
+                    var9 = var7 == var8;
+                    var6 = undefined;
+                    if(var9) { _fun0007_ip = 703; continue _fun0007 }
+ 697:
+                    var6 = var8.captcha_key;
+ 703:
+                    var5 = var7 != var6;
+ 707:
+                    var4 = var5;
+ 710:
+                    var2 = var4;
+ 713:
+                    var4 = {};
+                    var5 = _closure1_slot10;
+                    if(var2) { _fun0007_ip = 737; continue _fun0007 }
+ 722:
+                    var2 = var5.UNKNOWN_ERROR;
+                    var4['type'] = var2;
+                    var2 = var4;
+                    _fun0007_ip = 750; continue _fun0007;
+ 737:
+                    var5 = var5.CAPTCHA_FAILED;
+                    var4['type'] = var5;
+                    var2 = var4;
+ 750:
                     return var2;
- 515:
+ 753:
+                    var2 = {};
+                    var3 = _closure1_slot10;
+                    var3 = var3.PREVIOUS_IN_FLIGHT_REQUEST;
+                    var2['type'] = var3;
+                    return var2;
+ 772:
                     return var1;
                 }
             };
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot15 = var4;
+        _closure1_slot16 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -852,7 +936,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = function _claimQuestReward() {
         var5 = undefined;
         var1 = undefined;
@@ -1002,7 +1086,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot16 = var4;
+        _closure1_slot17 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1010,7 +1094,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot16 = var1;
+    var _closure1_slot17 = var1;
     var1 = function _fetchQuestRewardCode() {
         var5 = undefined;
         var1 = undefined;
@@ -1123,7 +1207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot17 = var4;
+        _closure1_slot18 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1131,7 +1215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = function _dismissQuestContent() {
         var5 = undefined;
         var1 = undefined;
@@ -1260,7 +1344,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot18 = var4;
+        _closure1_slot19 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1268,7 +1352,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = function _completeQuestPreview() {
         var5 = undefined;
         var1 = undefined;
@@ -1380,7 +1464,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot19 = var4;
+        _closure1_slot20 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1388,7 +1472,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
     var1 = function _resetQuestPreviewStatus() {
         var5 = undefined;
         var1 = undefined;
@@ -1485,7 +1569,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot20 = var4;
+        _closure1_slot21 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1493,7 +1577,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot21 = var1;
     var1 = function _resetQuestDismissibilityStatus() {
         var5 = undefined;
         var1 = undefined;
@@ -1598,7 +1682,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot21 = var4;
+        _closure1_slot22 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1606,7 +1690,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot22 = var1;
     var1 = function _fetchClaimedQuests() {
         var5 = undefined;
         var1 = undefined;
@@ -1717,7 +1801,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot22 = var4;
+        _closure1_slot23 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -1725,7 +1809,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot22 = var1;
+    var _closure1_slot23 = var1;
     var1 = function _fetchQuestToDeliver() {
         var5 = undefined;
         var1 = undefined;
@@ -1775,7 +1859,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  128: // try_start_0
                     var10 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var5 = 17;
+                    var5 = 18;
                     var5 = var12[var5];
                     var10 = var10.bind(var2)(var5);
                     var5 = var10.getSession;
@@ -1790,7 +1874,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var31 = var5;
                     var12 = _closure1_slot0;
                     var15 = _closure1_slot2;
-                    var10 = 18;
+                    var10 = 19;
                     var10 = var15[var10];
                     var12 = var12.bind(var2)(var10);
                     var10 = var12.getOrRefreshAdSession;
@@ -1959,7 +2043,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  774:
                     var15 = _closure1_slot1;
                     var16 = _closure1_slot2;
-                    var14 = 19;
+                    var14 = 20;
                     var14 = var16[var14];
                     var16 = var15.bind(var2)(var14);
                     var15 = var16.startTracking;
@@ -1969,14 +2053,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  813:
                     var20 = _closure1_slot1;
                     var21 = _closure1_slot2;
-                    var14 = 20;
+                    var14 = 21;
                     var14 = var21[var14];
                     var17 = var20.bind(var2)(var14);
                     var16 = var17.track;
                     var14 = _closure1_slot8;
                     var15 = var14.QUEST_DECISION_RECEIVED;
                     var14 = {};
-                    var19 = 21;
+                    var19 = 22;
                     var19 = var21[var19];
                     var19 = var20.bind(var2)(var19);
                     var34 = var19.bind(var2)();
@@ -2011,14 +2095,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = false;
                     var4['wasSuccessful'] = var12;
                     var4 = var5.bind(var10)(var11, var4);
-                    var4 = 20;
+                    var4 = 21;
                     var4 = var16[var4];
                     var12 = var15.bind(var2)(var4);
                     var11 = var12.track;
                     var4 = _closure1_slot8;
                     var5 = var4.QUEST_DECISION_ROUNDTRIP_ERROR;
                     var4 = {};
-                    var10 = 21;
+                    var10 = 22;
                     var10 = var16[var10];
                     var10 = var15.bind(var2)(var10);
                     var34 = var10.bind(var2)();
@@ -2086,7 +2170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot23 = var4;
+        _closure1_slot24 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2094,7 +2178,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot23 = var1;
+    var _closure1_slot24 = var1;
     var1 = function _updateVideoProgress() {
         var5 = undefined;
         var1 = undefined;
@@ -2175,7 +2259,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot24 = var4;
+        _closure1_slot25 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2183,7 +2267,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot25 = var1;
     var1 = function _fetchVideoTranscript() {
         var5 = undefined;
         var1 = undefined;
@@ -2202,7 +2286,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = undefined;
                     var4 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var3 = 22;
+                    var3 = 23;
                     var5 = var12[var3];
                     var10 = var4.bind(var2)(var5);
                     var9 = var10.resolveVideoQuestAsset;
@@ -2309,7 +2393,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot25 = var4;
+        _closure1_slot26 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2317,7 +2401,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot26 = var1;
     var1 = function _fetchQuest() {
         var5 = undefined;
         var1 = undefined;
@@ -2372,7 +2456,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot26 = var4;
+        _closure1_slot27 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2380,62 +2464,61 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot27 = var1;
     var1 = global;
     var9 = var1.Object;
-    var7 = var9.defineProperty;
+    var5 = var9.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var9)(var3, var1, var4);
+    var1 = var5.bind(var9)(var3, var1, var4);
     var1 = 0;
-    var4 = var6[var1];
+    var4 = var7[var1];
     var1 = undefined;
     var4 = var8.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
-    var4 = var6[var4];
+    var4 = var7[var4];
     var4 = var8.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
-    var7 = var6[var4];
-    var7 = var8.bind(var1)(var7);
-    var _closure1_slot5 = var7;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
+    var5 = var7[var4];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot5 = var5;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
     var4 = var4.FetchStatus;
     var _closure1_slot6 = var4;
     var4 = 3;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
     var4 = var4.ORBS_INTRO_QUEST_ID;
     var _closure1_slot7 = var4;
     var4 = 4;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.AnalyticEvents;
-    var _closure1_slot8 = var7;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var5 = var4.AnalyticEvents;
+    var _closure1_slot8 = var5;
     var4 = var4.Endpoints;
     var _closure1_slot9 = var4;
-    var4 = 23;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/quests/QuestsActionCreators.tsx';
-    var4 = var5.bind(var6)(var4);
-    var4 = function manuallyStartConsoleQuest() {
-        var1 = undefined;
-        var4 = _closure1_slot10;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var3['manuallyStartConsoleQuest'] = var4;
-    var4 = function manualStopConsoleQuest() {
+    var4 = {};
+    var5 = 'success';
+    var4['SUCCESS'] = var5;
+    var5 = 'captcha_failed';
+    var4['CAPTCHA_FAILED'] = var5;
+    var5 = 'unknown_error';
+    var4['UNKNOWN_ERROR'] = var5;
+    var5 = 'previous_in_flight_request';
+    var4['PREVIOUS_IN_FLIGHT_REQUEST'] = var5;
+    var _closure1_slot10 = var4;
+    var5 = 24;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/quests/QuestsActionCreators.tsx';
+    var5 = var6.bind(var7)(var5);
+    var5 = function manuallyStartConsoleQuest() {
         var1 = undefined;
         var4 = _closure1_slot11;
         var3 = var4.apply;
@@ -2445,8 +2528,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['manualStopConsoleQuest'] = var4;
-    var4 = function resetRecentQuestCompletions() {
+    var3['manuallyStartConsoleQuest'] = var5;
+    var5 = function manualStopConsoleQuest() {
         var1 = undefined;
         var4 = _closure1_slot12;
         var3 = var4.apply;
@@ -2456,8 +2539,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['resetRecentQuestCompletions'] = var4;
-    var4 = function fetchCurrentQuests() {
+    var3['manualStopConsoleQuest'] = var5;
+    var5 = function resetRecentQuestCompletions() {
         var1 = undefined;
         var4 = _closure1_slot13;
         var3 = var4.apply;
@@ -2467,8 +2550,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['fetchCurrentQuests'] = var4;
-    var4 = function sendHeartbeat() {
+    var3['resetRecentQuestCompletions'] = var5;
+    var5 = function fetchCurrentQuests() {
         var1 = undefined;
         var4 = _closure1_slot14;
         var3 = var4.apply;
@@ -2478,10 +2561,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['sendHeartbeat'] = var4;
-    var4 = function enrollInQuest() {
+    var3['fetchCurrentQuests'] = var5;
+    var5 = function sendHeartbeat() {
         var1 = undefined;
         var4 = _closure1_slot15;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['sendHeartbeat'] = var5;
+    var3['QuestEnrollmentResultType'] = var4;
+    var4 = function enrollInQuest() {
+        var1 = undefined;
+        var4 = _closure1_slot16;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2492,7 +2587,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['enrollInQuest'] = var4;
     var4 = function claimQuestReward() {
         var1 = undefined;
-        var4 = _closure1_slot16;
+        var4 = _closure1_slot17;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2503,7 +2598,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['claimQuestReward'] = var4;
     var4 = function fetchQuestRewardCode() {
         var1 = undefined;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot18;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2514,7 +2609,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['fetchQuestRewardCode'] = var4;
     var4 = function dismissQuestContent() {
         var1 = undefined;
-        var4 = _closure1_slot18;
+        var4 = _closure1_slot19;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2542,7 +2637,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['dismissProgressTrackingFailureNotice'] = var4;
     var4 = function completeQuestPreview() {
         var1 = undefined;
-        var4 = _closure1_slot19;
+        var4 = _closure1_slot20;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2553,7 +2648,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['completeQuestPreview'] = var4;
     var4 = function resetQuestPreviewStatus() {
         var1 = undefined;
-        var4 = _closure1_slot20;
+        var4 = _closure1_slot21;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2564,7 +2659,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['resetQuestPreviewStatus'] = var4;
     var4 = function resetQuestDismissibilityStatus() {
         var1 = undefined;
-        var4 = _closure1_slot21;
+        var4 = _closure1_slot22;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2628,7 +2723,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['questsVisibleMobileMessagesChanged'] = var4;
     var4 = function fetchClaimedQuests() {
         var1 = undefined;
-        var4 = _closure1_slot22;
+        var4 = _closure1_slot23;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2677,7 +2772,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['resetOptimisticProgress'] = var4;
     var4 = function fetchQuestToDeliver() {
         var1 = undefined;
-        var4 = _closure1_slot23;
+        var4 = _closure1_slot24;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2705,7 +2800,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['updatePrevRestingQuestDockMode'] = var4;
     var4 = function updateVideoProgress() {
         var1 = undefined;
-        var4 = _closure1_slot24;
+        var4 = _closure1_slot25;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2716,7 +2811,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['updateVideoProgress'] = var4;
     var4 = function fetchVideoTranscript() {
         var1 = undefined;
-        var4 = _closure1_slot25;
+        var4 = _closure1_slot26;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -2745,7 +2840,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['updateQuestDockVisibilityOverride'] = var4;
     var2 = function fetchQuest() {
         var1 = undefined;
-        var4 = _closure1_slot26;
+        var4 = _closure1_slot27;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

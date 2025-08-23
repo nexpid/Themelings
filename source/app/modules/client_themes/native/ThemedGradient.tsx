@@ -297,27 +297,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['angleCenter'] = var5;
             var5 = true;
             var1['useAngle'] = var5;
-            if(!var10) { _fun0001_ip = 240; continue _fun0001 }
- 231:
+            if(!var10) { _fun0001_ip = 244; continue _fun0001 }
+ 235:
             var5 = {};
             var5['width'] = var12;
             var10 = var5;
- 240:
+ 244:
             var5 = new Array(5);
             var5[0] = var10;
-            if(!var9) { _fun0001_ip = 260; continue _fun0001 }
- 251:
+            if(!var9) { _fun0001_ip = 264; continue _fun0001 }
+ 255:
             var10 = {};
             var10['height'] = var11;
             var9 = var10;
- 260:
+ 264:
             var5[1] = var9;
             var9 = var8.linearGradient;
             var5[2] = var9;
-            if(!var7) { _fun0001_ip = 283; continue _fun0001 }
- 277:
+            if(!var7) { _fun0001_ip = 287; continue _fun0001 }
+ 281:
             var7 = var8.absolute;
- 283:
+ 287:
             var5[3] = var7;
             var5[4] = var6;
             var1['style'] = var5;
@@ -622,34 +622,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  229:
             var1['angle'] = var14;
             var5 = var5.angleCenter;
-            if(!(var13 == var5)) { _fun0005_ip = 254; continue _fun0005 }
+            if(!(var13 == var5)) { _fun0005_ip = 258; continue _fun0005 }
  244:
             var5 = {'x': 0.5, 'y': 0.5};
- 254:
+ 258:
             var1['angleCenter'] = var5;
             var5 = true;
             var1['useAngle'] = var5;
-            if(!var10) { _fun0005_ip = 278; continue _fun0005 }
- 269:
+            if(!var10) { _fun0005_ip = 282; continue _fun0005 }
+ 273:
             var5 = {};
             var5['width'] = var12;
             var10 = var5;
- 278:
+ 282:
             var5 = new Array(5);
             var5[0] = var10;
-            if(!var9) { _fun0005_ip = 298; continue _fun0005 }
- 289:
+            if(!var9) { _fun0005_ip = 302; continue _fun0005 }
+ 293:
             var10 = {};
             var10['height'] = var11;
             var9 = var10;
- 298:
+ 302:
             var5[1] = var9;
             var9 = var8.linearGradient;
             var5[2] = var9;
-            if(!var7) { _fun0005_ip = 321; continue _fun0005 }
- 315:
+            if(!var7) { _fun0005_ip = 325; continue _fun0005 }
+ 319:
             var7 = var8.absolute;
- 321:
+ 325:
             var5[3] = var7;
             var5[4] = var6;
             var1['style'] = var5;

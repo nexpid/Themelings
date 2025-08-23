@@ -213,16 +213,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg2;
             var2 = _closure1_slot4;
             var2 = var2.LISTEN;
-            if(!(var2 !== var3)) { _fun0003_ip = 255; continue _fun0003 }
+            if(!(var2 !== var3)) { _fun0003_ip = 335; continue _fun0003 }
  26:
             var2 = _closure1_slot4;
             var2 = var2.WATCH;
-            if(!(var2 !== var3)) { _fun0003_ip = 187; continue _fun0003 }
+            if(!(var2 !== var3)) { _fun0003_ip = 267; continue _fun0003 }
  43:
             var2 = _closure1_slot4;
             var2 = var2.JOIN;
-            if(!(var2 !== var3)) { _fun0003_ip = 128; continue _fun0003 }
- 57:
+            if(!(var2 !== var3)) { _fun0003_ip = 208; continue _fun0003 }
+ 60:
+            var2 = _closure1_slot4;
+            var2 = var2.STREAM_REQUEST;
+            if(!(var2 !== var3)) { _fun0003_ip = 145; continue _fun0003 }
+ 74:
             var2 = _closure1_slot4;
             var2 = var2.JOIN_REQUEST;
             var7 = _closure1_slot0;
@@ -239,7 +243,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.Ckxb6u;
             var2 = var3.bind(var4)(var2);
             return var2;
- 128:
+ 145:
+            var3 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 2;
+            var2 = var8[var2];
+            var7 = undefined;
+            var2 = var3.bind(var7)(var2);
+            var4 = var2.intl;
+            var3 = var4.string;
+            var6 = _closure1_slot1;
+            var2 = 3;
+            var2 = var8[var2];
+            var2 = var6.bind(var7)(var2);
+            var2 = var2.DKHheX;
+            var2 = var3.bind(var4)(var2);
+            return var2;
+ 208:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 2;
@@ -254,7 +274,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.pkq6Vl;
             var2 = var3.bind(var4)(var2);
             return var2;
- 187:
+ 267:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 2;
@@ -271,7 +291,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['name'] = var5;
             var2 = var4.bind(var6)(var3, var2);
             return var2;
- 255:
+ 335:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 2;
@@ -360,91 +380,98 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var1 = arg1;
-            var2 = var1.activityActionType;
-            var7 = var1.maxPartySize;
-            var8 = var1.partySize;
+            var3 = var1.activityActionType;
+            var8 = var1.maxPartySize;
+            var9 = var1.partySize;
             var1 = _closure1_slot4;
-            var1 = var1.LISTEN;
-            if(!(var2 !== var1)) { _fun0005_ip = 193; continue _fun0005 }
- 41:
-            var1 = 0;
-            if(!(!(var7 > var1))) { _fun0005_ip = 116; continue _fun0005 }
- 47:
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 2;
-            var4 = var9[var1];
-            var2 = undefined;
-            var4 = var6.bind(var2)(var4);
-            var5 = var4.intl;
-            var4 = var5.formatToPlainString;
-            var1 = var9[var1];
-            var1 = var6.bind(var2)(var1);
-            var1 = var1.t;
-            var2 = var1.65JnWF;
-            var1 = {};
-            var1['partySize'] = var8;
-            var1 = var4.bind(var5)(var2, var1);
-            _fun0005_ip = 188; continue _fun0005;
- 116:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var2 = 2;
-            var5 = var10[var2];
-            var4 = undefined;
-            var5 = var9.bind(var4)(var5);
-            var6 = var5.intl;
-            var5 = var6.formatToPlainString;
-            var2 = var10[var2];
-            var2 = var9.bind(var4)(var2);
-            var2 = var2.t;
-            var4 = var2.gLu7NT;
-            var2 = {};
-            var2['partySize'] = var8;
-            var2['maxPartySize'] = var7;
-            var1 = var5.bind(var6)(var4, var2);
- 188:
-            _fun0005_ip = 343; continue _fun0005;
- 193:
+            var2 = var1.STREAM_REQUEST;
+            var1 = '';
+            if(!(var3 !== var2)) { _fun0005_ip = 367; continue _fun0005 }
+ 45:
+            var2 = _closure1_slot4;
+            var2 = var2.LISTEN;
+            if(!(var3 !== var2)) { _fun0005_ip = 214; continue _fun0005 }
+ 62:
             var2 = 0;
-            if(!(!(var7 > var2))) { _fun0005_ip = 268; continue _fun0005 }
- 199:
-            var9 = _closure1_slot0;
+            if(!(!(var8 > var2))) { _fun0005_ip = 137; continue _fun0005 }
+ 68:
+            var7 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 2;
             var5 = var10[var2];
-            var4 = undefined;
-            var5 = var9.bind(var4)(var5);
+            var3 = undefined;
+            var5 = var7.bind(var3)(var5);
             var6 = var5.intl;
             var5 = var6.formatToPlainString;
             var2 = var10[var2];
-            var2 = var9.bind(var4)(var2);
+            var2 = var7.bind(var3)(var2);
             var2 = var2.t;
-            var4 = var2.UGei0t;
+            var3 = var2.65JnWF;
             var2 = {};
-            var2['partySize'] = var8;
-            var2 = var5.bind(var6)(var4, var2);
-            _fun0005_ip = 340; continue _fun0005;
- 268:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var2['partySize'] = var9;
+            var2 = var5.bind(var6)(var3, var2);
+            _fun0005_ip = 209; continue _fun0005;
+ 137:
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var3 = 2;
-            var5 = var10[var3];
-            var4 = undefined;
-            var5 = var9.bind(var4)(var5);
-            var6 = var5.intl;
-            var5 = var6.formatToPlainString;
-            var3 = var10[var3];
-            var3 = var9.bind(var4)(var3);
+            var6 = var11[var3];
+            var5 = undefined;
+            var6 = var10.bind(var5)(var6);
+            var7 = var6.intl;
+            var6 = var7.formatToPlainString;
+            var3 = var11[var3];
+            var3 = var10.bind(var5)(var3);
             var3 = var3.t;
-            var4 = var3.Zogooq;
+            var5 = var3.gLu7NT;
             var3 = {};
-            var3['partySize'] = var8;
-            var3['maxPartySize'] = var7;
-            var2 = var5.bind(var6)(var4, var3);
- 340:
+            var3['partySize'] = var9;
+            var3['maxPartySize'] = var8;
+            var2 = var6.bind(var7)(var5, var3);
+ 209:
+            _fun0005_ip = 364; continue _fun0005;
+ 214:
+            var3 = 0;
+            if(!(!(var8 > var3))) { _fun0005_ip = 289; continue _fun0005 }
+ 220:
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var3 = 2;
+            var6 = var11[var3];
+            var5 = undefined;
+            var6 = var10.bind(var5)(var6);
+            var7 = var6.intl;
+            var6 = var7.formatToPlainString;
+            var3 = var11[var3];
+            var3 = var10.bind(var5)(var3);
+            var3 = var3.t;
+            var5 = var3.UGei0t;
+            var3 = {};
+            var3['partySize'] = var9;
+            var3 = var6.bind(var7)(var5, var3);
+            _fun0005_ip = 361; continue _fun0005;
+ 289:
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var4 = 2;
+            var6 = var11[var4];
+            var5 = undefined;
+            var6 = var10.bind(var5)(var6);
+            var7 = var6.intl;
+            var6 = var7.formatToPlainString;
+            var4 = var11[var4];
+            var4 = var10.bind(var5)(var4);
+            var4 = var4.t;
+            var5 = var4.Zogooq;
+            var4 = {};
+            var4['partySize'] = var9;
+            var4['maxPartySize'] = var8;
+            var3 = var6.bind(var7)(var5, var4);
+ 361:
+            var2 = var3;
+ 364:
             var1 = var2;
- 343:
+ 367:
             return var1;
         }
     };

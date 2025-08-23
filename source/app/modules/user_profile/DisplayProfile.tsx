@@ -116,35 +116,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = undefined;
                 if(var7) { _fun0002_ip = 227; continue _fun0002 }
  221:
-                var5 = var3.popoutAnimationParticleType;
+                var5 = var3.profileEffect;
  227:
                 if(!(var6 == var5)) { _fun0002_ip = 237; continue _fun0002 }
  231:
-                var5 = var4.popoutAnimationParticleType;
+                var5 = var4.profileEffect;
  237:
-                var2['popoutAnimationParticleType'] = var5;
+                var2['profileEffect'] = var5;
                 var7 = var6 == var3;
                 var5 = undefined;
                 if(var7) { _fun0002_ip = 258; continue _fun0002 }
  252:
-                var5 = var3.profileEffectId;
+                var5 = var3.popoutAnimationParticleType;
  258:
-                if(!(var6 == var5)) { _fun0002_ip = 298; continue _fun0002 }
+                if(!(var6 == var5)) { _fun0002_ip = 268; continue _fun0002 }
  262:
-                var5 = var4.profileEffectId;
-                if(!(var6 != var5)) { _fun0002_ip = 322; continue _fun0002 }
- 272:
-                var5 = var4.profileEffectId;
-                var2['profileEffectId'] = var5;
-                var5 = var4.profileEffectExpiresAt;
-                var2['profileEffectExpiresAt'] = var5;
-                _fun0002_ip = 322; continue _fun0002;
- 298:
-                var5 = var3.profileEffectId;
-                var2['profileEffectId'] = var5;
-                var5 = var3.profileEffectExpiresAt;
-                var2['profileEffectExpiresAt'] = var5;
- 322:
+                var5 = var4.popoutAnimationParticleType;
+ 268:
+                var2['popoutAnimationParticleType'] = var5;
                 var5 = var4.fetchStartedAt;
                 var2['fetchStartedAt'] = var5;
                 var5 = var4.fetchEndedAt;

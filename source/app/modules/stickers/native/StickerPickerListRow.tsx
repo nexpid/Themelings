@@ -364,7 +364,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var2 = undefined;
             var1 = undefined;
-            if(!var23) { _fun0001_ip = 704; continue _fun0001 }
+            if(!var23) { _fun0001_ip = 712; continue _fun0001 }
  346:
             var29 = var22[var11];
             if(!(var4 === var29)) { _fun0001_ip = 418; continue _fun0001 }
@@ -379,7 +379,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var25.PNG;
             var23['stickerType'] = var25;
             var23 = var24.bind(var7)(var23);
-            _fun0001_ip = 694; continue _fun0001;
+            _fun0001_ip = 702; continue _fun0001;
  418:
             var24 = var20.bind(var4)(var29);
             var23 = _closure1_slot3;
@@ -388,7 +388,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var23[var14];
             var24 = var23[var13];
             var23 = var29.id;
-            if(!(var16 == var23)) { _fun0001_ip = 492; continue _fun0001 }
+            if(!(var16 == var23)) { _fun0001_ip = 496; continue _fun0001 }
  454:
             var27 = _closure1_slot1;
             var23 = _closure1_slot2;
@@ -397,10 +397,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var27 = var28.addBreadcrumb;
             var23 = {'message': 'StickerInfo.stickerId is being passed an unexpected null value', 'category': 'sticker'};
             var23 = var27.bind(var28)(var23);
- 492:
+ 496:
             var23 = var29.name;
-            if(!(var16 == var23)) { _fun0001_ip = 539; continue _fun0001 }
- 501:
+            if(!(var16 == var23)) { _fun0001_ip = 547; continue _fun0001 }
+ 505:
             var27 = _closure1_slot1;
             var23 = _closure1_slot2;
             var23 = var23[var18];
@@ -408,7 +408,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var27 = var28.addBreadcrumb;
             var23 = {'message': 'StickerInfo.stickerName is being passed an unexpected null value', 'category': 'sticker'};
             var23 = var27.bind(var28)(var23);
- 539:
+ 547:
             var27 = _closure1_slot0;
             var23 = _closure1_slot2;
             var23 = var23[var17];
@@ -416,8 +416,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var27 = var28.getStickerAssetUrl;
             var23 = _closure1_slot7;
             var23 = var27.bind(var28)(var29, var23, var26);
-            if(!(var16 == var23)) { _fun0001_ip = 619; continue _fun0001 }
- 577:
+            if(!(var16 == var23)) { _fun0001_ip = 627; continue _fun0001 }
+ 585:
             var28 = _closure1_slot1;
             var27 = _closure1_slot2;
             var27 = var27[var18];
@@ -425,7 +425,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var28 = var30.addBreadcrumb;
             var27 = {'message': 'StickerInfo.stickerUrl is being passed an unexpected null value', 'category': 'sticker'};
             var27 = var28.bind(var30)(var27);
- 619:
+ 627:
             var28 = var7.push;
             var27 = {};
             var30 = var29.id;
@@ -443,10 +443,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var25;
             var2 = var24;
             var1 = var23;
- 694:
+ 702:
             var11 = var11 + 1;
             if(var11 < var21) { _fun0001_ip = 346; continue _fun0001 }
- 704:
+ 712:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;

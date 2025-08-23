@@ -477,8 +477,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var8)(var1, var2);
             var3 = _closure1_slot9;
             var2 = _closure1_slot5;
-            if(!(var12 !== var14)) { _fun0005_ip = 353; continue _fun0005 }
- 208:
+            if(!(var12 !== var14)) { _fun0005_ip = 351; continue _fun0005 }
+ 206:
             var1 = {};
             var8 = var7.profileEffects;
             var1['style'] = var8;
@@ -493,10 +493,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var4)(var5);
             var5 = {'resizeMode': 'cover', 'resizeMethod': 'resize', 'enableAnimation': true};
             var11 = {};
-            if(!var18) { _fun0005_ip = 280; continue _fun0005 }
- 277:
+            if(!var18) { _fun0005_ip = 278; continue _fun0005 }
+ 275:
             var16 = var17;
- 280:
+ 278:
             var11['uri'] = var16;
             var5['source'] = var11;
             var5['alt'] = var10;
@@ -514,8 +514,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var10;
             var5 = var9.bind(var4)(var8, var5);
             var1['children'] = var5;
-            _fun0005_ip = 382; continue _fun0005;
- 353:
+            _fun0005_ip = 380; continue _fun0005;
+ 351:
             var5 = {};
             var7 = var7.profileEffects;
             var5['style'] = var7;
@@ -523,7 +523,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['pointerEvents'] = var7;
             var5['onLayout'] = var6;
             var1 = var5;
- 382:
+ 380:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

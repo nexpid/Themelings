@@ -2150,16 +2150,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = 'video_entropy_percentile99';
                     var2[var6] = var8;
                     var6 = _closure1_slot12;
-                    var7 = var7.encoderBuckets;
+                    var11 = var7.encoderBuckets;
                     var8 = _closure1_slot0;
                     var5 = _closure1_slot2;
+                    var10 = var5[var9];
+                    var10 = var8.bind(var1)(var10);
+                    var10 = var10.Encoders;
+                    var10 = var10.EXYNOS;
+                    var10 = var11[var10];
+                    var11 = var6.bind(var1)(var10);
+                    var10 = 'duration_encoder_exynos';
+                    var2[var10] = var11;
+                    var11 = var7.encoderBuckets;
+                    var10 = var5[var9];
+                    var10 = var8.bind(var1)(var10);
+                    var10 = var10.Encoders;
+                    var10 = var10.QUALCOMM;
+                    var10 = var11[var10];
+                    var11 = var6.bind(var1)(var10);
+                    var10 = 'duration_encoder_qualcomm';
+                    var2[var10] = var11;
+                    var7 = var7.encoderBuckets;
                     var5 = var5[var9];
                     var5 = var8.bind(var1)(var5);
                     var5 = var5.Encoders;
-                    var5 = var5.EXYNOS;
+                    var5 = var5.MEDIATEK;
                     var5 = var7[var5];
                     var6 = var6.bind(var1)(var5);
-                    var5 = 'duration_encoder_exynos';
+                    var5 = 'duration_encoder_mediatek';
                     var2[var5] = var6;
                     var2 = var3.bind(var4)(var2);
                     return var1;
@@ -2284,7 +2302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = arg1;
                 var4 = this;
                 var1 = null;
-                if(!(var1 != var3)) { _fun0020_ip = 3246; continue _fun0020 }
+                if(!(var1 != var3)) { _fun0020_ip = 3332; continue _fun0020 }
  15:
                 var29 = global;
                 var5 = var29.Number;
@@ -2757,14 +2775,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var8[var6];
                 var6 = var5.bind(var38)(var6);
                 var28['duration_decoder_exynos'] = var6;
+                var8 = var3.decoderBuckets;
+                var6 = var4[var39];
+                var6 = var7.bind(var38)(var6);
+                var6 = var6.Decoders;
+                var6 = var6.WEBRTC;
+                var6 = var8[var6];
+                var6 = var5.bind(var38)(var6);
+                var28['duration_decoder_webrtc'] = var6;
+                var8 = var3.decoderBuckets;
+                var6 = var4[var39];
+                var6 = var7.bind(var38)(var6);
+                var6 = var6.Decoders;
+                var6 = var6.QUALCOMM;
+                var6 = var8[var6];
+                var6 = var5.bind(var38)(var6);
+                var28['duration_decoder_qualcomm'] = var6;
                 var6 = var3.decoderBuckets;
                 var4 = var4[var39];
                 var4 = var7.bind(var38)(var4);
                 var4 = var4.Decoders;
-                var4 = var4.WEBRTC;
+                var4 = var4.MEDIATEK;
                 var4 = var6[var4];
                 var4 = var5.bind(var38)(var4);
-                var28['duration_decoder_webrtc'] = var4;
+                var28['duration_decoder_mediatek'] = var4;
                 var43 = var28;
                 var42 = var2;
                 var2 = copyDataProperties(var43, var42);
@@ -2799,17 +2833,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.qualitySizeMismatches;
                 var9 = var1 != var14;
                 var37 = 0;
-                if(!var9) { _fun0020_ip = 2747; continue _fun0020 }
- 2744:
+                if(!var9) { _fun0020_ip = 2833; continue _fun0020 }
+ 2830:
                 var37 = var14;
- 2747:
+ 2833:
                 var40 = var3.cryptorFailureBeforeSuccessCount;
                 var41 = var1 != var40;
                 var9 = 0;
-                if(!var41) { _fun0020_ip = 2765; continue _fun0020 }
- 2762:
+                if(!var41) { _fun0020_ip = 2851; continue _fun0020 }
+ 2848:
                 var9 = var40;
- 2765:
+ 2851:
                 var9 = var37 - var9;
                 var37 = _closure1_slot0;
                 var36 = _closure1_slot2;
@@ -2817,56 +2851,56 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var36 = var37.bind(var38)(var36);
                 var36 = var36.OutboundStats;
                 var36 = var3 instanceof var36;
-                if(var36) { _fun0020_ip = 2841; continue _fun0020 }
- 2799:
+                if(var36) { _fun0020_ip = 2927; continue _fun0020 }
+ 2885:
                 var28['receiver_freeze_count'] = var33;
                 var28['receiver_total_freezes_duration'] = var30;
                 var28['receiver_total_frames_duration'] = var2;
                 var28['receiver_pause_count'] = var35;
                 var28['receiver_total_pauses_duration'] = var34;
-                _fun0020_ip = 2865; continue _fun0020;
- 2841:
+                _fun0020_ip = 2951; continue _fun0020;
+ 2927:
                 var28['sender_freeze_count'] = var33;
                 var28['sender_total_freezes_duration'] = var30;
                 var28['sender_total_frames_duration'] = var2;
- 2865:
+ 2951:
                 var2 = {};
                 var43 = var2;
                 var42 = var28;
                 var28 = copyDataProperties(var43, var42);
                 var30 = var31 > var22;
                 var33 = 0;
-                if(!var30) { _fun0020_ip = 2925; continue _fun0020 }
- 2886:
+                if(!var30) { _fun0020_ip = 3011; continue _fun0020 }
+ 2972:
                 var35 = var29.Math;
                 var34 = var35.round;
                 var28 = var1 != var27;
                 var36 = 0;
-                if(!var28) { _fun0020_ip = 2909; continue _fun0020 }
- 2906:
+                if(!var28) { _fun0020_ip = 2995; continue _fun0020 }
+ 2992:
                 var36 = var27;
- 2909:
+ 2995:
                 var28 = 8;
                 var28 = var28 * var36;
                 var28 = var28 / var31;
                 var33 = var34.bind(var35)(var28);
- 2925:
+ 3011:
                 var28 = 'avg_bitrate';
                 var2[var28] = var33;
                 var28 = 0;
-                if(!var30) { _fun0020_ip = 2971; continue _fun0020 }
- 2939:
+                if(!var30) { _fun0020_ip = 3057; continue _fun0020 }
+ 3025:
                 var30 = var29.Math;
                 var29 = var30.round;
                 var33 = var1 != var32;
                 var22 = 0;
-                if(!var33) { _fun0020_ip = 2962; continue _fun0020 }
- 2959:
+                if(!var33) { _fun0020_ip = 3048; continue _fun0020 }
+ 3045:
                 var22 = var32;
- 2962:
+ 3048:
                 var22 = var22 / var31;
                 var28 = var29.bind(var30)(var22);
- 2971:
+ 3057:
                 var22 = 'avg_fps';
                 var2[var22] = var28;
                 var22 = 'num_bytes';
@@ -2919,7 +2953,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'encoder_quality_size_mismatches';
                 var2[var3] = var4;
                 return var2;
- 3246:
+ 3332:
                 return var1;
             }
         };

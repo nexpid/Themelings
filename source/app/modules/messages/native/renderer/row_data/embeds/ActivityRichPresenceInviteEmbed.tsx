@@ -7,6 +7,81 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var7;
     var _closure1_slot2 = var6;
+    var1 = function getPresenceActivity(arg1, arg2, arg3) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var1 = arg1;
+            var6 = arg2;
+            var7 = arg3;
+            var2 = var1.application;
+            var4 = null;
+            if(!(var4 == var2)) { _fun0001_ip = 61; continue _fun0001 }
+ 20:
+            var8 = _closure1_slot10;
+            var5 = var8.findActivity;
+            var2 = var1.author;
+            var3 = var2.id;
+            var2 = function(arg1) {
+                var1 = arg1;
+                var2 = var1.type;
+                var1 = _closure1_slot15;
+                var1 = var1.LISTENING;
+                var1 = var2 === var1;
+                return var1;
+            };
+            var2 = var5.bind(var8)(var3, var2);
+            return var2;
+ 61:
+            var2 = var1.author;
+            var5 = var2.id;
+            var2 = var1.activity;
+            var3 = var4 == var2;
+            var9 = undefined;
+            if(var3) { _fun0001_ip = 92; continue _fun0001 }
+ 87:
+            var9 = var2.type;
+ 92:
+            var3 = _closure1_slot13;
+            var3 = var3.JOIN_REQUEST;
+            if(!(var9 !== var3)) { _fun0001_ip = 151; continue _fun0001 }
+ 109:
+            var3 = var1.activity;
+            var4 = var4 == var3;
+            var8 = undefined;
+            if(var4) { _fun0001_ip = 129; continue _fun0001 }
+ 124:
+            var8 = var3.type;
+ 129:
+            var3 = _closure1_slot13;
+            var3 = var3.STREAM_REQUEST;
+            var4 = var5;
+            if(!(var8 === var3)) { _fun0001_ip = 187; continue _fun0001 }
+ 146:
+            var4 = var7;
+            _fun0001_ip = 187; continue _fun0001;
+ 151:
+            var3 = var7;
+            if(!(var5 === var7)) { _fun0001_ip = 184; continue _fun0001 }
+ 158:
+            var5 = var6.isPrivate;
+            var5 = var5.bind(var6)();
+            var3 = var7;
+            if(!var5) { _fun0001_ip = 184; continue _fun0001 }
+ 174:
+            var5 = var6.getRecipientId;
+            var3 = var5.bind(var6)();
+ 184:
+            var4 = var3;
+ 187:
+            var3 = _closure1_slot10;
+            var2 = var3.getApplicationActivity;
+            var1 = var1.application;
+            var1 = var1.id;
+            var1 = var2.bind(var3)(var4, var1);
+            return var1;
+        }
+    };
+    var _closure1_slot18 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -73,417 +148,369 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot16 = var7;
     var4 = var4.SPOTIFY_PLATFORM_NAME;
     var _closure1_slot17 = var4;
-    var4 = 29;
+    var4 = 31;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/messages/native/renderer/row_data/embeds/ActivityRichPresenceInviteEmbed.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function createActivityRichPresenceInviteEmbed(arg1, arg2) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            var27 = arg1;
-            var32 = arg2;
-            var _closure2_slot0 = var32;
+            var9 = arg1;
+            var14 = arg2;
+            var _closure2_slot0 = var14;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 14;
-            var1 = var4[var1];
-            var17 = undefined;
-            var3 = var3.bind(var17)(var1);
-            var1 = var3.getIsRichPresenceActivityInviteRedesignEnabled;
-            var1 = var1.bind(var3)();
-            if(!var1) { _fun0001_ip = 273; continue _fun0001 }
+            var2 = 14;
+            var2 = var4[var2];
+            var11 = undefined;
+            var3 = var3.bind(var11)(var2);
+            var2 = var3.getIsRichPresenceActivityInviteRedesignEnabled;
+            var2 = var2.bind(var3)();
+            if(!var2) { _fun0002_ip = 270; continue _fun0002 }
  53:
-            var3 = var27.author;
-            var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 273; continue _fun0001 }
+            var2 = var9.author;
+            var4 = null;
+            if(!(var4 != var2)) { _fun0002_ip = 270; continue _fun0002 }
  68:
-            var3 = var27.activity;
-            if(!(var1 != var3)) { _fun0001_ip = 273; continue _fun0001 }
+            var2 = var9.activity;
+            if(!(var4 != var2)) { _fun0002_ip = 270; continue _fun0002 }
  81:
-            if(!(var1 != var32)) { _fun0001_ip = 273; continue _fun0001 }
+            if(!(var4 != var14)) { _fun0002_ip = 270; continue _fun0002 }
  88:
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var3 = 15;
-            var3 = var5[var3];
-            var4 = var4.bind(var17)(var3);
-            var3 = var4.getApplicationFromMessage;
-            var4 = var3.bind(var4)(var27);
-            var3 = var27.application;
-            var5 = var1 == var3;
-            var8 = undefined;
-            if(var5) { _fun0001_ip = 138; continue _fun0001 }
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var2 = 15;
+            var2 = var6[var2];
+            var3 = var3.bind(var11)(var2);
+            var2 = var3.getApplicationFromMessage;
+            var2 = var2.bind(var3)(var9);
+            var3 = var9.application;
+            var6 = var4 == var3;
+            var10 = undefined;
+            if(var6) { _fun0002_ip = 138; continue _fun0002 }
  133:
-            var8 = var3.id;
+            var10 = var3.id;
  138:
-            var5 = var1 != var8;
+            var6 = var4 != var10;
             var3 = null;
-            if(!var5) { _fun0001_ip = 162; continue _fun0001 }
+            if(!var6) { _fun0002_ip = 162; continue _fun0002 }
  147:
-            var6 = _closure1_slot3;
-            var5 = var6.getApplication;
-            var3 = var5.bind(var6)(var8);
- 162:
-            var5 = var1 == var3;
-            if(!var5) { _fun0001_ip = 173; continue _fun0001 }
- 169:
-            var5 = var1 != var8;
- 173:
-            if(!var5) { _fun0001_ip = 197; continue _fun0001 }
- 176:
             var7 = _closure1_slot3;
-            var6 = var7.isFetchingApplication;
-            var7 = var6.bind(var7)(var8);
-            var6 = false;
-            var5 = var6 === var7;
+            var6 = var7.getApplication;
+            var3 = var6.bind(var7)(var10);
+ 162:
+            var6 = var4 == var3;
+            if(!var6) { _fun0002_ip = 173; continue _fun0002 }
+ 169:
+            var6 = var4 != var10;
+ 173:
+            if(!var6) { _fun0002_ip = 197; continue _fun0002 }
+ 176:
+            var8 = _closure1_slot3;
+            var7 = var8.isFetchingApplication;
+            var8 = var7.bind(var8)(var10);
+            var7 = false;
+            var6 = var7 === var8;
  197:
-            if(!var5) { _fun0001_ip = 234; continue _fun0001 }
+            if(!var6) { _fun0002_ip = 234; continue _fun0002 }
  200:
-            var6 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var5 = 12;
-            var5 = var7[var5];
-            var7 = var6.bind(var17)(var5);
-            var6 = var7.fetchApplication;
-            var5 = false;
-            var5 = var6.bind(var7)(var8, var5);
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var6 = 12;
+            var6 = var8[var6];
+            var8 = var7.bind(var11)(var6);
+            var7 = var8.fetchApplication;
+            var6 = false;
+            var6 = var7.bind(var8)(var10, var6);
  234:
-            if(!(var1 != var3)) { _fun0001_ip = 241; continue _fun0001 }
+            if(!(var4 != var3)) { _fun0002_ip = 241; continue _fun0002 }
  238:
-            var4 = var3;
+            var2 = var3;
  241:
-            var5 = _closure1_slot7;
-            var3 = var5.getId;
-            var30 = var3.bind(var5)();
-            var3 = function getPresenceActivity(arg1, arg2, arg3) {
-                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
-                    var1 = arg1;
-                    var6 = arg2;
-                    var7 = arg3;
-                    var2 = var1.application;
-                    var3 = null;
-                    if(!(var3 == var2)) { _fun0002_ip = 61; continue _fun0002 }
- 20:
-                    var8 = _closure1_slot10;
-                    var5 = var8.findActivity;
-                    var2 = var1.author;
-                    var4 = var2.id;
-                    var2 = function(arg1) {
-                        var1 = arg1;
-                        var2 = var1.type;
-                        var1 = _closure1_slot15;
-                        var1 = var1.LISTENING;
-                        var1 = var2 === var1;
-                        return var1;
-                    };
-                    var2 = var5.bind(var8)(var4, var2);
-                    return var2;
- 61:
-                    var2 = var1.author;
-                    var5 = var2.id;
-                    var2 = var1.activity;
-                    var3 = var3 == var2;
-                    var8 = undefined;
-                    if(var3) { _fun0002_ip = 92; continue _fun0002 }
- 87:
-                    var8 = var2.type;
- 92:
-                    var3 = _closure1_slot13;
-                    var3 = var3.JOIN_REQUEST;
-                    var4 = var5;
-                    if(!(var8 === var3)) { _fun0002_ip = 148; continue _fun0002 }
- 112:
-                    var3 = var7;
-                    if(!(var5 === var7)) { _fun0002_ip = 145; continue _fun0002 }
- 119:
-                    var5 = var6.isPrivate;
-                    var5 = var5.bind(var6)();
-                    var3 = var7;
-                    if(!var5) { _fun0002_ip = 145; continue _fun0002 }
- 135:
-                    var5 = var6.getRecipientId;
-                    var3 = var5.bind(var6)();
- 145:
-                    var4 = var3;
- 148:
-                    var3 = _closure1_slot10;
-                    var2 = var3.getApplicationActivity;
-                    var1 = var1.application;
-                    var1 = var1.id;
-                    var1 = var2.bind(var3)(var4, var1);
-                    return var1;
-                }
-            };
-            var23 = var3.bind(var17)(var27, var32, var30);
-            if(!(var1 == var4)) { _fun0001_ip = 275; continue _fun0001 }
- 273:
-            return var17;
- 275:
-            var5 = _closure1_slot0;
+            var6 = _closure1_slot7;
+            var3 = var6.getId;
+            var31 = var3.bind(var6)();
+            var3 = _closure1_slot18;
+            var26 = var3.bind(var11)(var9, var14, var31);
+            if(!(var4 == var2)) { _fun0002_ip = 272; continue _fun0002 }
+ 270:
+            return var11;
+ 272:
+            var3 = var9.activity;
+            var7 = var4 == var3;
+            var6 = undefined;
+            if(var7) { _fun0002_ip = 292; continue _fun0002 }
+ 287:
+            var6 = var3.type;
+ 292:
+            var3 = _closure1_slot13;
+            var3 = var3.STREAM_REQUEST;
+            if(!(var6 !== var3)) { _fun0002_ip = 2684; continue _fun0002 }
+ 309:
+            var6 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var24 = 16;
-            var3 = var3[var24];
-            var7 = var5.bind(var17)(var3);
-            var6 = var7.getHeaderText;
-            var5 = var4.name;
-            var8 = var27.activity;
-            var9 = var1 == var8;
+            var22 = 16;
+            var3 = var3[var22];
+            var8 = var6.bind(var11)(var3);
+            var7 = var8.getHeaderText;
+            var6 = var2.name;
+            var10 = var9.activity;
+            var12 = var4 == var10;
             var3 = undefined;
-            if(var9) { _fun0001_ip = 326; continue _fun0001 }
- 321:
-            var3 = var8.type;
- 326:
-            var13 = var6.bind(var7)(var5, var3);
-            var6 = _closure1_slot1;
+            if(var12) { _fun0002_ip = 360; continue _fun0002 }
+ 355:
+            var3 = var10.type;
+ 360:
+            var19 = var7.bind(var8)(var6, var3);
+            var7 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var5 = 17;
-            var5 = var3[var5];
-            var6 = var6.bind(var17)(var5);
-            var5 = var4.id;
-            var5 = var6.bind(var17)(var23, var27, var5);
-            var11 = !var5;
-            if(!(var1 != var23)) { _fun0001_ip = 435; continue _fun0001 }
- 371:
-            var5 = var23.party;
-            if(!(var1 != var5)) { _fun0001_ip = 435; continue _fun0001 }
- 381:
-            var5 = global;
-            var7 = var5.Array;
-            var6 = var7.from;
-            var9 = _closure1_slot8;
-            var8 = var9.getParty;
-            var5 = var23.party;
-            var5 = var5.id;
-            var5 = var8.bind(var9)(var5);
-            if(!(var1 == var5)) { _fun0001_ip = 428; continue _fun0001 }
- 424:
-            var5 = new Array(0);
- 428:
-            var8 = var6.bind(var7)(var5);
-            _fun0001_ip = 439; continue _fun0001;
- 435:
-            var8 = new Array(0);
- 439:
-            var5 = _closure1_slot0;
-            var6 = 18;
+            var6 = 17;
             var6 = var3[var6];
-            var7 = var5.bind(var17)(var6);
-            var6 = var7.getPartySize;
-            var6 = var6.bind(var7)(var23);
-            var7 = var6.maxPartySize;
-            var6 = 19;
-            var3 = var3[var6];
-            var5 = var5.bind(var17)(var3);
-            var3 = var5.isIOS;
-            var3 = var3.bind(var5)();
-            if(var3) { _fun0001_ip = 540; continue _fun0001 }
- 497:
-            var5 = _closure1_slot0;
+            var7 = var7.bind(var11)(var6);
+            var6 = var2.id;
+            var6 = var7.bind(var11)(var26, var9, var6);
+            var17 = !var6;
+            if(!(var4 != var26)) { _fun0002_ip = 469; continue _fun0002 }
+ 405:
+            var6 = var26.party;
+            if(!(var4 != var6)) { _fun0002_ip = 469; continue _fun0002 }
+ 415:
+            var6 = global;
+            var8 = var6.Array;
+            var7 = var8.from;
+            var12 = _closure1_slot8;
+            var10 = var12.getParty;
+            var6 = var26.party;
+            var6 = var6.id;
+            var6 = var10.bind(var12)(var6);
+            if(!(var4 == var6)) { _fun0002_ip = 462; continue _fun0002 }
+ 458:
+            var6 = new Array(0);
+ 462:
+            var13 = var7.bind(var8)(var6);
+            _fun0002_ip = 473; continue _fun0002;
+ 469:
+            var13 = new Array(0);
+ 473:
+            var6 = _closure1_slot0;
+            var7 = 18;
+            var7 = var3[var7];
+            var8 = var6.bind(var11)(var7);
+            var7 = var8.getPartySize;
+            var7 = var7.bind(var8)(var26);
+            var12 = var7.maxPartySize;
+            var7 = 19;
+            var3 = var3[var7];
+            var6 = var6.bind(var11)(var3);
+            var3 = var6.isIOS;
+            var3 = var3.bind(var6)();
+            if(var3) { _fun0002_ip = 574; continue _fun0002 }
+ 531:
+            var6 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var3 = var3[var6];
-            var5 = var5.bind(var17)(var3);
-            var3 = var5.isAndroid;
-            var3 = var3.bind(var5)();
-            var21 = undefined;
-            if(!var3) { _fun0001_ip = 550; continue _fun0001 }
- 528:
+            var3 = var3[var7];
+            var6 = var6.bind(var11)(var3);
+            var3 = var6.isAndroid;
+            var3 = var3.bind(var6)();
+            var24 = undefined;
+            if(!var3) { _fun0002_ip = 584; continue _fun0002 }
+ 562:
             var3 = _closure1_slot14;
-            var21 = var3.ANDROID;
-            _fun0001_ip = 550; continue _fun0001;
- 540:
-            var3 = _closure1_slot14;
-            var21 = var3.IOS;
- 550:
-            var6 = _closure1_slot9;
-            var5 = var6.getApplicationActivity;
-            var3 = var4.id;
-            var5 = var5.bind(var6)(var3);
-            if(!(var1 == var5)) { _fun0001_ip = 597; continue _fun0001 }
+            var24 = var3.ANDROID;
+            _fun0002_ip = 584; continue _fun0002;
  574:
+            var3 = _closure1_slot14;
+            var24 = var3.IOS;
+ 584:
+            var7 = _closure1_slot9;
+            var6 = var7.getApplicationActivity;
+            var3 = var2.id;
+            var6 = var6.bind(var7)(var3);
+            if(!(var4 == var6)) { _fun0002_ip = 631; continue _fun0002 }
+ 608:
             var10 = _closure1_slot11;
-            var9 = var10.getApplicationActivity;
-            var6 = var4.id;
+            var8 = var10.getApplicationActivity;
+            var7 = var2.id;
             var3 = true;
-            var5 = var9.bind(var10)(var6, var3);
- 597:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var6 = var8.bind(var10)(var7, var3);
+ 631:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
             var3 = 20;
-            var3 = var10[var3];
-            var6 = var9.bind(var17)(var3);
-            var3 = var6.getIsInParty;
-            var6 = var3.bind(var6)(var5, var23);
+            var3 = var8[var3];
+            var10 = var7.bind(var11)(var3);
+            var3 = var10.getIsInParty;
+            var10 = var3.bind(var10)(var6, var26);
             var3 = 21;
-            var3 = var10[var3];
-            var9 = var9.bind(var17)(var3);
-            var3 = var9.getCanSendInvite;
+            var3 = var8[var3];
+            var7 = var7.bind(var11)(var3);
+            var3 = var7.getCanSendInvite;
+            var43 = var7;
+            var42 = var26;
             var41 = var9;
-            var40 = var23;
-            var39 = var27;
-            var38 = var4;
-            var37 = var30;
-            var15 = var41[var3](var40, var39, var38, var37, var36);
+            var40 = var2;
+            var39 = var31;
+            var20 = var43[var3](var42, var41, var40, var39, var38);
             var3 = global;
-            var10 = var3.Set;
-            var9 = var1 == var23;
-            var19 = var5;
-            var5 = undefined;
-            if(var9) { _fun0001_ip = 692; continue _fun0001 }
- 686:
-            var5 = var23.supported_platforms;
- 692:
-            if(!(var1 == var5)) { _fun0001_ip = 700; continue _fun0001 }
- 696:
-            var5 = new Array(0);
- 700:
-            var9 = var10.prototype;
-            var9 = Object.create(var9, {constructor: {value: var10}});
-            var41 = var9;
-            var40 = var5;
-            var5 = new var41[var10](var40, var39);
-            var9 = var5 instanceof Object ? var5 : var9;
-            var10 = var1 != var21;
-            if(!var10) { _fun0001_ip = 740; continue _fun0001 }
+            var8 = var3.Set;
+            var7 = var4 == var26;
+            var21 = var6;
+            var6 = undefined;
+            if(var7) { _fun0002_ip = 726; continue _fun0002 }
+ 720:
+            var6 = var26.supported_platforms;
+ 726:
+            if(!(var4 == var6)) { _fun0002_ip = 734; continue _fun0002 }
  730:
-            var5 = var9.has;
-            var10 = var5.bind(var9)(var21);
- 740:
-            var9 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var5 = 22;
-            var5 = var12[var5];
-            var16 = var9.bind(var17)(var5);
-            var5 = var16.canLaunchFrame;
-            var16 = var5.bind(var16)(var4);
-            var5 = 23;
-            var5 = var12[var5];
-            var18 = var9.bind(var17)(var5);
-            var5 = var18.isEmbeddedApp;
-            var18 = var5.bind(var18)(var4);
-            var5 = 24;
-            var5 = var12[var5];
-            var12 = var9.bind(var17)(var5);
-            var9 = var12.getCanJoin;
-            var5 = {};
-            var5['presenceActivity'] = var23;
-            var5['currentUserPresenceActivity'] = var19;
-            var5['currentUserId'] = var30;
-            var5['message'] = var27;
-            var5['application'] = var4;
-            var5['isEmbeddedApplication'] = var18;
-            var5['isFrameApplication'] = var16;
-            var5['isGameLaunchable'] = var10;
-            var5 = var9.bind(var12)(var5);
-            var18 = var5.canJoin;
-            var9 = _closure1_slot16;
-            var12 = var1 == var23;
-            var5 = undefined;
-            if(var12) { _fun0001_ip = 896; continue _fun0001 }
- 876:
-            var12 = var23.party;
-            var16 = var1 == var12;
-            var5 = undefined;
-            if(var16) { _fun0001_ip = 896; continue _fun0001 }
- 891:
-            var5 = var12.id;
- 896:
-            var9 = var9.bind(var17)(var5);
-            if(var9) { _fun0001_ip = 922; continue _fun0001 }
- 904:
-            var12 = var4.id;
-            var5 = _closure1_slot5;
-            var5 = var5.id;
-            var9 = var12 === var5;
- 922:
-            var19 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var28 = 13;
-            var12 = var5[var28];
-            var12 = var19.bind(var17)(var12);
-            var16 = var12.intl;
-            var12 = var16.string;
-            var5 = var5[var28];
-            var5 = var19.bind(var17)(var5);
-            var5 = var5.t;
-            var5 = var5.OAB5TE;
-            var5 = var12.bind(var16)(var5);
-            var12 = var1 == var23;
-            var25 = undefined;
-            if(var12) { _fun0001_ip = 1008; continue _fun0001 }
- 988:
-            var12 = var23.timestamps;
-            var16 = var1 == var12;
-            var25 = undefined;
-            if(var16) { _fun0001_ip = 1008; continue _fun0001 }
- 1003:
-            var25 = var12.start;
- 1008:
-            if(!(var1 == var25)) { _fun0001_ip = 1030; continue _fun0001 }
- 1012:
-            var16 = var1 == var23;
-            var12 = undefined;
-            if(var16) { _fun0001_ip = 1027; continue _fun0001 }
- 1021:
-            var12 = var23.created_at;
- 1027:
-            var25 = var12;
- 1030:
-            var12 = var1 == var23;
-            var20 = undefined;
-            if(var12) { _fun0001_ip = 1059; continue _fun0001 }
- 1039:
-            var12 = var23.timestamps;
-            var16 = var1 == var12;
-            var20 = undefined;
-            if(var16) { _fun0001_ip = 1059; continue _fun0001 }
- 1054:
-            var20 = var12.end;
- 1059:
-            var12 = var1 != var25;
-            var22 = '';
-            var26 = var22;
-            if(!var12) { _fun0001_ip = 1130; continue _fun0001 }
+            var6 = new Array(0);
+ 734:
+            var7 = var8.prototype;
+            var7 = Object.create(var7, {constructor: {value: var8}});
+            var43 = var7;
+            var42 = var6;
+            var6 = new var43[var8](var42, var41);
+            var7 = var6 instanceof Object ? var6 : var7;
+            var16 = var4 != var24;
+            if(!var16) { _fun0002_ip = 774; continue _fun0002 }
+ 764:
+            var6 = var7.has;
+            var16 = var6.bind(var7)(var24);
+ 774:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var6 = 22;
+            var6 = var8[var6];
+            var15 = var7.bind(var11)(var6);
+            var6 = var15.canLaunchFrame;
+            var15 = var6.bind(var15)(var2);
+            var6 = 23;
+            var6 = var8[var6];
+            var18 = var7.bind(var11)(var6);
+            var6 = var18.isEmbeddedApp;
+            var18 = var6.bind(var18)(var2);
+            var6 = 24;
+            var6 = var8[var6];
+            var8 = var7.bind(var11)(var6);
+            var7 = var8.getCanJoin;
+            var6 = {};
+            var6['presenceActivity'] = var26;
+            var6['currentUserPresenceActivity'] = var21;
+            var6['currentUserId'] = var31;
+            var6['message'] = var9;
+            var6['application'] = var2;
+            var6['isEmbeddedApplication'] = var18;
+            var6['isFrameApplication'] = var15;
+            var6['isGameLaunchable'] = var16;
+            var6 = var7.bind(var8)(var6);
+            var21 = var6.canJoin;
+            var7 = _closure1_slot16;
+            var8 = var4 == var26;
+            var6 = undefined;
+            if(var8) { _fun0002_ip = 930; continue _fun0002 }
+ 910:
+            var8 = var26.party;
+            var15 = var4 == var8;
+            var6 = undefined;
+            if(var15) { _fun0002_ip = 930; continue _fun0002 }
+ 925:
+            var6 = var8.id;
+ 930:
+            var15 = var7.bind(var11)(var6);
+            if(var15) { _fun0002_ip = 956; continue _fun0002 }
+ 938:
+            var7 = var2.id;
+            var6 = _closure1_slot5;
+            var6 = var6.id;
+            var15 = var7 === var6;
+ 956:
+            var18 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var30 = 13;
+            var7 = var6[var30];
+            var7 = var18.bind(var11)(var7);
+            var8 = var7.intl;
+            var7 = var8.string;
+            var6 = var6[var30];
+            var6 = var18.bind(var11)(var6);
+            var6 = var6.t;
+            var6 = var6.OAB5TE;
+            var8 = var7.bind(var8)(var6);
+            var6 = var4 == var26;
+            var27 = undefined;
+            if(var6) { _fun0002_ip = 1042; continue _fun0002 }
+ 1022:
+            var6 = var26.timestamps;
+            var7 = var4 == var6;
+            var27 = undefined;
+            if(var7) { _fun0002_ip = 1042; continue _fun0002 }
+ 1037:
+            var27 = var6.start;
+ 1042:
+            if(!(var4 == var27)) { _fun0002_ip = 1064; continue _fun0002 }
+ 1046:
+            var7 = var4 == var26;
+            var6 = undefined;
+            if(var7) { _fun0002_ip = 1061; continue _fun0002 }
+ 1055:
+            var6 = var26.created_at;
+ 1061:
+            var27 = var6;
+ 1064:
+            var6 = var4 == var26;
+            var23 = undefined;
+            if(var6) { _fun0002_ip = 1093; continue _fun0002 }
  1073:
-            var16 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var12 = 25;
-            var12 = var19[var12];
-            var19 = var16.bind(var17)(var12);
-            var16 = var19.formatActiveTimestamp;
-            var12 = {};
-            var12['start'] = var25;
-            var12['end'] = var20;
-            var20 = var3.Date;
-            var3 = var20.now;
-            var3 = var3.bind(var20)();
-            var26 = var16.bind(var19)(var12, var3);
- 1130:
-            var3 = var4.icon;
-            var3 = var1 != var3;
-            var16 = null;
-            if(!var3) { _fun0001_ip = 1193; continue _fun0001 }
- 1144:
-            var12 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var6 = var26.timestamps;
+            var7 = var4 == var6;
+            var23 = undefined;
+            if(var7) { _fun0002_ip = 1093; continue _fun0002 }
+ 1088:
+            var23 = var6.end;
+ 1093:
+            var6 = var4 != var27;
+            var25 = '';
+            var28 = var25;
+            if(!var6) { _fun0002_ip = 1164; continue _fun0002 }
+ 1107:
+            var7 = _closure1_slot0;
+            var18 = _closure1_slot2;
+            var6 = 25;
+            var6 = var18[var6];
+            var18 = var7.bind(var11)(var6);
+            var7 = var18.formatActiveTimestamp;
+            var6 = {};
+            var6['start'] = var27;
+            var6['end'] = var23;
+            var23 = var3.Date;
+            var3 = var23.now;
+            var3 = var3.bind(var23)();
+            var28 = var7.bind(var18)(var6, var3);
+ 1164:
+            var3 = var2.icon;
+            var3 = var4 != var3;
+            var7 = null;
+            if(!var3) { _fun0002_ip = 1227; continue _fun0002 }
+ 1178:
+            var6 = _closure1_slot0;
+            var18 = _closure1_slot2;
             var3 = 26;
-            var3 = var19[var3];
-            var25 = var12.bind(var17)(var3);
-            var20 = var25.getAppIconSrc;
-            var19 = var4.id;
-            var12 = var4.icon;
-            var3 = var4.bot;
-            var16 = var20.bind(var25)(var19, var12, var3);
- 1193:
-            var20 = var4.name;
-            if(var9) { _fun0001_ip = 1739; continue _fun0001 }
- 1204:
-            if(var11) { _fun0001_ip = 1631; continue _fun0001 }
- 1210:
-            var3 = var8.map;
-            var2 = function(arg1) {
+            var3 = var18[var3];
+            var27 = var6.bind(var11)(var3);
+            var23 = var27.getAppIconSrc;
+            var18 = var2.id;
+            var6 = var2.icon;
+            var3 = var2.bot;
+            var7 = var23.bind(var27)(var18, var6, var3);
+ 1227:
+            var3 = var2.name;
+            if(var15) { _fun0002_ip = 1773; continue _fun0002 }
+ 1238:
+            if(var17) { _fun0002_ip = 1665; continue _fun0002 }
+ 1244:
+            var6 = var13.map;
+            var5 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var4 = _closure1_slot12;
@@ -521,395 +548,482 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var3 = var3.bind(var8)(var2);
-            var12 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var2 = var2[var24];
-            var19 = var12.bind(var17)(var2);
-            var12 = var19.getPartyText;
-            var2 = {};
-            var2['maxPartySize'] = var7;
-            var25 = var8.length;
-            var2['partySize'] = var25;
-            var29 = var27.activity;
-            var31 = var1 == var29;
-            var25 = undefined;
-            if(var31) { _fun0001_ip = 1287; continue _fun0001 }
- 1282:
-            var25 = var29.type;
- 1287:
-            var2['activityActionType'] = var25;
-            var2 = var12.bind(var19)(var2);
-            var12 = {};
-            var12['canJoin'] = var18;
-            var12['canSendInvite'] = var15;
-            var12['isInParty'] = var6;
-            var6 = var27.author;
-            var6 = var6.id;
-            var12['messageAuthorId'] = var6;
-            var12['currentUserId'] = var30;
-            var25 = var12.canJoin;
-            var19 = var12.canSendInvite;
-            var6 = var12.isInParty;
-            var18 = var12.currentUserId;
-            var15 = var12.messageAuthorId;
-            var12 = {};
-            if(var25) { _fun0001_ip = 1530; continue _fun0001 }
- 1373:
-            if(var19) { _fun0001_ip = 1461; continue _fun0001 }
- 1376:
-            if(var6) { _fun0001_ip = 1394; continue _fun0001 }
- 1379:
-            var12['label'] = var17;
-            var6 = false;
-            var12['disabled'] = var6;
-            var6 = var12;
-            _fun0001_ip = 1459; continue _fun0001;
- 1394:
-            var31 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var25 = var19[var28];
-            var25 = var31.bind(var17)(var25);
-            var29 = var25.intl;
-            var25 = var29.string;
-            var19 = var19[var28];
-            var19 = var31.bind(var17)(var19);
-            var19 = var19.t;
-            var19 = var19.KC26NT;
-            var19 = var25.bind(var29)(var19);
-            var12['label'] = var19;
-            var19 = true;
-            var12['disabled'] = var19;
-            var6 = var12;
- 1459:
-            _fun0001_ip = 1528; continue _fun0001;
- 1461:
-            var31 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var25 = var19[var28];
-            var25 = var31.bind(var17)(var25);
-            var29 = var25.intl;
-            var25 = var29.string;
-            var19 = var19[var28];
-            var19 = var31.bind(var17)(var19);
-            var19 = var19.t;
-            var19 = var19.hC/Ze3;
-            var19 = var25.bind(var29)(var19);
-            var12['label'] = var19;
-            var15 = var15 === var18;
-            var12['disabled'] = var15;
-            var6 = var12;
- 1528:
-            _fun0001_ip = 1595; continue _fun0001;
- 1530:
-            var25 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var18 = var15[var28];
-            var18 = var25.bind(var17)(var18);
-            var19 = var18.intl;
-            var18 = var19.string;
-            var15 = var15[var28];
-            var15 = var25.bind(var17)(var15);
-            var15 = var15.t;
-            var15 = var15.VJlc0d;
-            var15 = var18.bind(var19)(var15);
-            var12['label'] = var15;
-            var15 = false;
-            var12['disabled'] = var15;
-            var6 = var12;
- 1595:
-            var18 = var6.label;
-            var6 = var6.disabled;
-            var19 = !var6;
-            var15 = var5;
-            var6 = var3;
-            var5 = var2;
-            var3 = var26;
-            var12 = var16;
-            var2 = var20;
-            _fun0001_ip = 2457; continue _fun0001;
- 1631:
-            var31 = _closure1_slot0;
-            var25 = _closure1_slot2;
-            var24 = var25[var24];
-            var29 = var31.bind(var17)(var24);
-            var24 = var29.getDeadGameInviteText;
-            var41 = var29;
-            var40 = var27;
-            var39 = var4;
-            var38 = var32;
-            var37 = var30;
-            var3 = var41[var24](var40, var39, var38, var37, var36);
-            var29 = var25[var28];
-            var29 = var31.bind(var17)(var29);
-            var30 = var29.intl;
-            var29 = var30.string;
-            var25 = var25[var28];
-            var25 = var31.bind(var17)(var25);
-            var25 = var25.t;
-            var25 = var25.pwEQoq;
-            var15 = var29.bind(var30)(var25);
-            var19 = false;
-            var18 = undefined;
-            var6 = null;
-            var5 = var22;
-            var12 = var16;
-            var2 = var20;
-            _fun0001_ip = 2457; continue _fun0001;
- 1739:
-            if(!(var1 != var23)) { _fun0001_ip = 1762; continue _fun0001 }
- 1743:
-            var20 = var23.details;
-            if(!(var1 != var20)) { _fun0001_ip = 1762; continue _fun0001 }
- 1753:
-            var20 = var23.state;
-            if(!(var1 == var20)) { _fun0001_ip = 1769; continue _fun0001 }
- 1762:
-            var20 = var4.name;
-            _fun0001_ip = 1865; continue _fun0001;
- 1769:
-            var25 = _closure1_slot0;
-            var24 = _closure1_slot2;
-            var29 = var24[var28];
-            var29 = var25.bind(var17)(var29);
-            var30 = var29.intl;
-            var29 = var30.formatToPlainString;
-            var24 = var24[var28];
-            var24 = var25.bind(var17)(var24);
-            var24 = var24.t;
-            var25 = var24.JCvHt7;
-            var24 = {};
-            var31 = var23.details;
-            var24['track'] = var31;
-            var31 = var23.state;
-            var24['artist'] = var31;
-            var30 = var29.bind(var30)(var25, var24);
-            var29 = var30.replace;
-            var25 = '\n';
-            var24 = ' ';
-            var20 = var29.bind(var30)(var25, var24);
- 1865:
-            var30 = _closure1_slot0;
-            var24 = _closure1_slot2;
-            var25 = var24[var28];
-            var25 = var30.bind(var17)(var25);
-            var29 = var25.intl;
-            var25 = var29.string;
-            var24 = var24[var28];
-            var24 = var30.bind(var17)(var24);
-            var24 = var24.t;
-            var24 = var24.sTo7s7;
-            var24 = var25.bind(var29)(var24);
-            if(var11) { _fun0001_ip = 2385; continue _fun0001 }
- 1925:
-            var29 = _closure1_slot1;
-            var30 = _closure1_slot2;
-            var25 = 27;
-            var25 = var30[var25];
-            var29 = var29.bind(var17)(var25);
-            var25 = var4.id;
-            var29 = var29.bind(var17)(var23, var25);
-            var30 = var1 != var29;
-            var25 = undefined;
-            if(!var30) { _fun0001_ip = 1968; continue _fun0001 }
- 1965:
-            var25 = var29;
- 1968:
-            var32 = var27.author;
-            var30 = _closure1_slot4;
-            var27 = var30.hasConnectedAccount;
-            var27 = var27.bind(var30)();
-            var29 = var30.getSyncingWith;
-            var34 = var29.bind(var30)();
-            var29 = var30.getActivity;
-            var31 = var29.bind(var30)();
-            var30 = var32.id;
-            var33 = _closure1_slot7;
-            var29 = var33.getId;
-            var29 = var29.bind(var33)();
-            var29 = var30 === var29;
-            var33 = var1 == var31;
-            var30 = undefined;
-            if(var33) { _fun0001_ip = 2048; continue _fun0001 }
- 2042:
-            var30 = var31.party;
- 2048:
-            var30 = var1 != var30;
-            if(!var30) { _fun0001_ip = 2099; continue _fun0001 }
- 2055:
-            var35 = var1 == var23;
-            var33 = undefined;
-            if(var35) { _fun0001_ip = 2084; continue _fun0001 }
- 2064:
-            var35 = var23.party;
-            var36 = var1 == var35;
-            var33 = undefined;
-            if(var36) { _fun0001_ip = 2084; continue _fun0001 }
- 2079:
-            var33 = var35.id;
- 2084:
-            var31 = var31.party;
-            var31 = var31.id;
-            var30 = var33 === var31;
- 2099:
-            var33 = var1 == var34;
-            var31 = undefined;
-            if(var33) { _fun0001_ip = 2113; continue _fun0001 }
- 2108:
-            var31 = var34.userId;
- 2113:
-            var31 = var1 != var31;
-            if(!var31) { _fun0001_ip = 2143; continue _fun0001 }
- 2120:
-            var35 = var1 == var34;
-            var33 = undefined;
-            if(var35) { _fun0001_ip = 2134; continue _fun0001 }
- 2129:
-            var33 = var34.userId;
- 2134:
-            var32 = var32.id;
-            var31 = var33 === var32;
- 2143:
-            var35 = _closure1_slot0;
-            var32 = _closure1_slot2;
-            var33 = var32[var28];
-            var33 = var35.bind(var17)(var33);
-            var34 = var33.intl;
-            var33 = var34.string;
-            var32 = var32[var28];
-            var32 = var35.bind(var17)(var32);
-            var32 = var32.t;
-            var32 = var32.VJlc0d;
-            var33 = var33.bind(var34)(var32);
-            if(var27) { _fun0001_ip = 2264; continue _fun0001 }
- 2198:
+            var6 = var6.bind(var13)(var5);
+            var18 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var5 = var5[var22];
+            var23 = var18.bind(var11)(var5);
+            var18 = var23.getPartyText;
+            var5 = {};
+            var5['maxPartySize'] = var12;
+            var27 = var13.length;
+            var5['partySize'] = var27;
+            var29 = var9.activity;
+            var32 = var4 == var29;
+            var27 = undefined;
+            if(var32) { _fun0002_ip = 1321; continue _fun0002 }
+ 1316:
+            var27 = var29.type;
+ 1321:
+            var5['activityActionType'] = var27;
+            var5 = var18.bind(var23)(var5);
+            var18 = {};
+            var18['canJoin'] = var21;
+            var18['canSendInvite'] = var20;
+            var18['isInParty'] = var10;
+            var10 = var9.author;
+            var10 = var10.id;
+            var18['messageAuthorId'] = var10;
+            var18['currentUserId'] = var31;
+            var27 = var18.canJoin;
+            var23 = var18.canSendInvite;
+            var10 = var18.isInParty;
+            var21 = var18.currentUserId;
+            var20 = var18.messageAuthorId;
+            var18 = {};
+            if(var27) { _fun0002_ip = 1564; continue _fun0002 }
+ 1407:
+            if(var23) { _fun0002_ip = 1495; continue _fun0002 }
+ 1410:
+            if(var10) { _fun0002_ip = 1428; continue _fun0002 }
+ 1413:
+            var18['label'] = var11;
+            var10 = false;
+            var18['disabled'] = var10;
+            var10 = var18;
+            _fun0002_ip = 1493; continue _fun0002;
+ 1428:
             var32 = _closure1_slot0;
-            var27 = _closure1_slot2;
-            var34 = var27[var28];
-            var34 = var32.bind(var17)(var34);
-            var35 = var34.intl;
-            var34 = var35.formatToPlainString;
-            var27 = var27[var28];
-            var27 = var32.bind(var17)(var27);
-            var27 = var27.t;
-            var32 = var27.XWSHTU;
-            var27 = {};
-            var36 = _closure1_slot17;
-            var27['platform'] = var36;
-            var32 = var34.bind(var35)(var32, var27);
-            _fun0001_ip = 2331; continue _fun0001;
- 2264:
-            var27 = var31;
-            if(var31) { _fun0001_ip = 2273; continue _fun0001 }
- 2270:
-            var27 = var30;
- 2273:
-            var32 = var33;
-            if(!var27) { _fun0001_ip = 2331; continue _fun0001 }
- 2279:
-            var35 = _closure1_slot0;
-            var27 = _closure1_slot2;
-            var33 = var27[var28];
-            var33 = var35.bind(var17)(var33);
-            var34 = var33.intl;
-            var33 = var34.string;
-            var27 = var27[var28];
-            var27 = var35.bind(var17)(var27);
-            var27 = var27.t;
-            var27 = var27.KC26NT;
-            var32 = var33.bind(var34)(var27);
- 2331:
-            var27 = {};
-            var27['label'] = var32;
-            if(var29) { _fun0001_ip = 2343; continue _fun0001 }
- 2340:
-            var29 = var31;
- 2343:
-            if(var29) { _fun0001_ip = 2349; continue _fun0001 }
- 2346:
-            var29 = var30;
- 2349:
-            var27['disabled'] = var29;
-            var18 = var27.label;
-            var27 = var27.disabled;
-            var19 = !var27;
-            var15 = var24;
-            var6 = null;
-            var5 = var22;
-            var3 = var26;
-            var12 = var25;
-            var2 = var20;
-            _fun0001_ip = 2457; continue _fun0001;
- 2385:
+            var23 = _closure1_slot2;
+            var27 = var23[var30];
+            var27 = var32.bind(var11)(var27);
+            var29 = var27.intl;
+            var27 = var29.string;
+            var23 = var23[var30];
+            var23 = var32.bind(var11)(var23);
+            var23 = var23.t;
+            var23 = var23.KC26NT;
+            var23 = var27.bind(var29)(var23);
+            var18['label'] = var23;
+            var23 = true;
+            var18['disabled'] = var23;
+            var10 = var18;
+ 1493:
+            _fun0002_ip = 1562; continue _fun0002;
+ 1495:
+            var32 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var27 = var23[var30];
+            var27 = var32.bind(var11)(var27);
+            var29 = var27.intl;
+            var27 = var29.string;
+            var23 = var23[var30];
+            var23 = var32.bind(var11)(var23);
+            var23 = var23.t;
+            var23 = var23.hC/Ze3;
+            var23 = var27.bind(var29)(var23);
+            var18['label'] = var23;
+            var20 = var20 === var21;
+            var18['disabled'] = var20;
+            var10 = var18;
+ 1562:
+            _fun0002_ip = 1629; continue _fun0002;
+ 1564:
             var27 = _closure1_slot0;
             var20 = _closure1_slot2;
-            var25 = var20[var28];
-            var25 = var27.bind(var17)(var25);
-            var26 = var25.intl;
-            var25 = var26.string;
-            var20 = var20[var28];
-            var20 = var27.bind(var17)(var20);
+            var21 = var20[var30];
+            var21 = var27.bind(var11)(var21);
+            var23 = var21.intl;
+            var21 = var23.string;
+            var20 = var20[var30];
+            var20 = var27.bind(var11)(var20);
             var20 = var20.t;
-            var20 = var20.84qx9v;
-            var3 = var25.bind(var26)(var20);
-            var2 = var4.name;
-            var19 = false;
-            var18 = undefined;
-            var15 = var24;
-            var6 = null;
-            var5 = var22;
-            var12 = var16;
- 2457:
-            var16 = _closure1_slot0;
-            var20 = _closure1_slot2;
-            var4 = 28;
-            var4 = var20[var4];
-            var20 = var16.bind(var17)(var4);
-            var16 = var20.getJoinFromSupportedPlatformsIconKeys;
-            var4 = {};
-            var24 = var1 == var23;
+            var20 = var20.VJlc0d;
+            var20 = var21.bind(var23)(var20);
+            var18['label'] = var20;
+            var20 = false;
+            var18['disabled'] = var20;
+            var10 = var18;
+ 1629:
+            var21 = var10.label;
+            var10 = var10.disabled;
+            var23 = !var10;
+            var20 = var8;
+            var10 = var6;
+            var8 = var5;
+            var6 = var28;
+            var18 = var7;
+            var5 = var3;
+            _fun0002_ip = 2491; continue _fun0002;
+ 1665:
+            var32 = _closure1_slot0;
+            var27 = _closure1_slot2;
+            var22 = var27[var22];
+            var29 = var32.bind(var11)(var22);
+            var22 = var29.getDeadGameInviteText;
+            var43 = var29;
+            var42 = var9;
+            var41 = var2;
+            var40 = var14;
+            var39 = var31;
+            var6 = var43[var22](var42, var41, var40, var39, var38);
+            var29 = var27[var30];
+            var29 = var32.bind(var11)(var29);
+            var31 = var29.intl;
+            var29 = var31.string;
+            var27 = var27[var30];
+            var27 = var32.bind(var11)(var27);
+            var27 = var27.t;
+            var27 = var27.pwEQoq;
+            var20 = var29.bind(var31)(var27);
+            var23 = false;
+            var21 = undefined;
+            var10 = null;
+            var8 = var25;
+            var18 = var7;
+            var5 = var3;
+            _fun0002_ip = 2491; continue _fun0002;
+ 1773:
+            if(!(var4 != var26)) { _fun0002_ip = 1796; continue _fun0002 }
+ 1777:
+            var3 = var26.details;
+            if(!(var4 != var3)) { _fun0002_ip = 1796; continue _fun0002 }
+ 1787:
+            var3 = var26.state;
+            if(!(var4 == var3)) { _fun0002_ip = 1803; continue _fun0002 }
+ 1796:
+            var3 = var2.name;
+            _fun0002_ip = 1899; continue _fun0002;
+ 1803:
+            var27 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var29 = var22[var30];
+            var29 = var27.bind(var11)(var29);
+            var31 = var29.intl;
+            var29 = var31.formatToPlainString;
+            var22 = var22[var30];
+            var22 = var27.bind(var11)(var22);
+            var22 = var22.t;
+            var27 = var22.JCvHt7;
+            var22 = {};
+            var32 = var26.details;
+            var22['track'] = var32;
+            var32 = var26.state;
+            var22['artist'] = var32;
+            var31 = var29.bind(var31)(var27, var22);
+            var29 = var31.replace;
+            var27 = '\n';
+            var22 = ' ';
+            var3 = var29.bind(var31)(var27, var22);
+ 1899:
+            var31 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var27 = var22[var30];
+            var27 = var31.bind(var11)(var27);
+            var29 = var27.intl;
+            var27 = var29.string;
+            var22 = var22[var30];
+            var22 = var31.bind(var11)(var22);
+            var22 = var22.t;
+            var22 = var22.sTo7s7;
+            var27 = var27.bind(var29)(var22);
+            if(var17) { _fun0002_ip = 2419; continue _fun0002 }
+ 1959:
+            var29 = _closure1_slot1;
+            var31 = _closure1_slot2;
+            var22 = 27;
+            var22 = var31[var22];
+            var29 = var29.bind(var11)(var22);
+            var22 = var2.id;
+            var29 = var29.bind(var11)(var26, var22);
+            var31 = var4 != var29;
             var22 = undefined;
-            if(var24) { _fun0001_ip = 2500; continue _fun0001 }
- 2494:
-            var22 = var23.supported_platforms;
- 2500:
-            var4['platforms'] = var22;
-            var4['currentPlatform'] = var21;
-            var4 = var16.bind(var20)(var4);
-            var1 = var1 != var12;
-            var16 = undefined;
-            if(!var1) { _fun0001_ip = 2527; continue _fun0001 }
- 2524:
-            var16 = var12;
- 2527:
+            if(!var31) { _fun0002_ip = 2002; continue _fun0002 }
+ 1999:
+            var22 = var29;
+ 2002:
+            var34 = var9.author;
+            var32 = _closure1_slot4;
+            var29 = var32.hasConnectedAccount;
+            var29 = var29.bind(var32)();
+            var31 = var32.getSyncingWith;
+            var36 = var31.bind(var32)();
+            var31 = var32.getActivity;
+            var33 = var31.bind(var32)();
+            var32 = var34.id;
+            var35 = _closure1_slot7;
+            var31 = var35.getId;
+            var31 = var31.bind(var35)();
+            var31 = var32 === var31;
+            var35 = var4 == var33;
+            var32 = undefined;
+            if(var35) { _fun0002_ip = 2082; continue _fun0002 }
+ 2076:
+            var32 = var33.party;
+ 2082:
+            var32 = var4 != var32;
+            if(!var32) { _fun0002_ip = 2133; continue _fun0002 }
+ 2089:
+            var37 = var4 == var26;
+            var35 = undefined;
+            if(var37) { _fun0002_ip = 2118; continue _fun0002 }
+ 2098:
+            var37 = var26.party;
+            var38 = var4 == var37;
+            var35 = undefined;
+            if(var38) { _fun0002_ip = 2118; continue _fun0002 }
+ 2113:
+            var35 = var37.id;
+ 2118:
+            var33 = var33.party;
+            var33 = var33.id;
+            var32 = var35 === var33;
+ 2133:
+            var35 = var4 == var36;
+            var33 = undefined;
+            if(var35) { _fun0002_ip = 2147; continue _fun0002 }
+ 2142:
+            var33 = var36.userId;
+ 2147:
+            var33 = var4 != var33;
+            if(!var33) { _fun0002_ip = 2177; continue _fun0002 }
+ 2154:
+            var37 = var4 == var36;
+            var35 = undefined;
+            if(var37) { _fun0002_ip = 2168; continue _fun0002 }
+ 2163:
+            var35 = var36.userId;
+ 2168:
+            var34 = var34.id;
+            var33 = var35 === var34;
+ 2177:
+            var37 = _closure1_slot0;
+            var34 = _closure1_slot2;
+            var35 = var34[var30];
+            var35 = var37.bind(var11)(var35);
+            var36 = var35.intl;
+            var35 = var36.string;
+            var34 = var34[var30];
+            var34 = var37.bind(var11)(var34);
+            var34 = var34.t;
+            var34 = var34.VJlc0d;
+            var35 = var35.bind(var36)(var34);
+            if(var29) { _fun0002_ip = 2298; continue _fun0002 }
+ 2232:
+            var34 = _closure1_slot0;
+            var29 = _closure1_slot2;
+            var36 = var29[var30];
+            var36 = var34.bind(var11)(var36);
+            var37 = var36.intl;
+            var36 = var37.formatToPlainString;
+            var29 = var29[var30];
+            var29 = var34.bind(var11)(var29);
+            var29 = var29.t;
+            var34 = var29.XWSHTU;
+            var29 = {};
+            var38 = _closure1_slot17;
+            var29['platform'] = var38;
+            var34 = var36.bind(var37)(var34, var29);
+            _fun0002_ip = 2365; continue _fun0002;
+ 2298:
+            var29 = var33;
+            if(var33) { _fun0002_ip = 2307; continue _fun0002 }
+ 2304:
+            var29 = var32;
+ 2307:
+            var34 = var35;
+            if(!var29) { _fun0002_ip = 2365; continue _fun0002 }
+ 2313:
+            var37 = _closure1_slot0;
+            var29 = _closure1_slot2;
+            var35 = var29[var30];
+            var35 = var37.bind(var11)(var35);
+            var36 = var35.intl;
+            var35 = var36.string;
+            var29 = var29[var30];
+            var29 = var37.bind(var11)(var29);
+            var29 = var29.t;
+            var29 = var29.KC26NT;
+            var34 = var35.bind(var36)(var29);
+ 2365:
+            var29 = {};
+            var29['label'] = var34;
+            if(var31) { _fun0002_ip = 2377; continue _fun0002 }
+ 2374:
+            var31 = var33;
+ 2377:
+            if(var31) { _fun0002_ip = 2383; continue _fun0002 }
+ 2380:
+            var31 = var32;
+ 2383:
+            var29['disabled'] = var31;
+            var21 = var29.label;
+            var29 = var29.disabled;
+            var23 = !var29;
+            var20 = var27;
+            var10 = null;
+            var8 = var25;
+            var6 = var28;
+            var18 = var22;
+            var5 = var3;
+            _fun0002_ip = 2491; continue _fun0002;
+ 2419:
+            var29 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var22 = var3[var30];
+            var22 = var29.bind(var11)(var22);
+            var28 = var22.intl;
+            var22 = var28.string;
+            var3 = var3[var30];
+            var3 = var29.bind(var11)(var3);
+            var3 = var3.t;
+            var3 = var3.84qx9v;
+            var6 = var22.bind(var28)(var3);
+            var5 = var2.name;
+            var23 = false;
+            var21 = undefined;
+            var20 = var27;
+            var10 = null;
+            var8 = var25;
+            var18 = var7;
+ 2491:
+            var7 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var3 = 28;
+            var3 = var22[var3];
+            var22 = var7.bind(var11)(var3);
+            var7 = var22.getJoinFromSupportedPlatformsIconKeys;
+            var3 = {};
+            var27 = var4 == var26;
+            var25 = undefined;
+            if(var27) { _fun0002_ip = 2534; continue _fun0002 }
+ 2528:
+            var25 = var26.supported_platforms;
+ 2534:
+            var3['platforms'] = var25;
+            var3['currentPlatform'] = var24;
+            var7 = var7.bind(var22)(var3);
+            var3 = var4 != var18;
+            var22 = undefined;
+            if(!var3) { _fun0002_ip = 2561; continue _fun0002 }
+ 2558:
+            var22 = var18;
+ 2561:
+            var3 = {};
+            var3['ctaButtonEnabled'] = var23;
+            var3['ctaButtonText'] = var21;
+            var3['footerLabel'] = var20;
+            var21 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var20 = 26;
+            var20 = var23[var20];
+            var21 = var21.bind(var11)(var20);
+            var20 = var21.getAppGradientColors;
+            var20 = var20.bind(var21)(var22);
+            var3['gradientColors'] = var20;
+            var3['headerText'] = var19;
+            var3['iconSrc'] = var18;
+            var17 = !var17;
+            var3['isActive'] = var17;
+            var3['isPlatformSupported'] = var16;
+            var3['isSpotifyParty'] = var15;
+            var15 = 0;
+            if(!(!(var12 > var15))) { _fun0002_ip = 2653; continue _fun0002 }
+ 2648:
+            var12 = var13.length;
+ 2653:
+            var3['maxPartySize'] = var12;
+            var3['partyMemberAvatarURIs'] = var10;
+            var3['partySizeText'] = var8;
+            var3['platformIconKeys'] = var7;
+            var3['subtitle'] = var6;
+            var3['title'] = var5;
+            return var3;
+ 2684:
+            var3 = var2.icon;
+            var3 = var4 != var3;
+            var6 = null;
+            if(!var3) { _fun0002_ip = 2747; continue _fun0002 }
+ 2698:
+            var5 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var3 = 26;
+            var3 = var7[var3];
+            var10 = var5.bind(var11)(var3);
+            var8 = var10.getAppIconSrc;
+            var7 = var2.id;
+            var5 = var2.icon;
+            var3 = var2.bot;
+            var6 = var8.bind(var10)(var7, var5, var3);
+ 2747:
+            var3 = var4 != var6;
+            var7 = undefined;
+            if(!var3) { _fun0002_ip = 2759; continue _fun0002 }
+ 2756:
+            var7 = var6;
+ 2759:
+            var8 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var3 = 26;
+            var3 = var12[var3];
+            var5 = var8.bind(var11)(var3);
+            var3 = var5.getAppGradientColors;
+            var7 = var3.bind(var5)(var7);
+            var5 = _closure1_slot18;
+            var15 = _closure1_slot7;
+            var3 = var15.getId;
+            var3 = var3.bind(var15)();
+            var5 = var5.bind(var11)(var9, var14, var3);
+            var10 = _closure1_slot1;
+            var1 = 17;
+            var1 = var12[var1];
+            var3 = var10.bind(var11)(var1);
+            var1 = var2.id;
+            var5 = var3.bind(var11)(var5, var9, var1);
+            var1 = 16;
+            var1 = var12[var1];
+            var13 = var8.bind(var11)(var1);
+            var3 = var13.getRequestToStreamText;
+            var1 = var15.getId;
+            var1 = var1.bind(var15)();
+            var3 = var3.bind(var13)(var9, var14, var1);
+            var1 = 29;
+            var1 = var12[var1];
+            var1 = var10.bind(var11)(var1);
+            var13 = var1.bind(var11)(var9);
+            var9 = var13.text;
             var1 = {};
-            var1['ctaButtonEnabled'] = var19;
-            var1['ctaButtonText'] = var18;
-            var1['footerLabel'] = var15;
-            var15 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var14 = 26;
-            var14 = var18[var14];
-            var15 = var15.bind(var17)(var14);
-            var14 = var15.getAppGradientColors;
-            var14 = var14.bind(var15)(var16);
-            var1['gradientColors'] = var14;
-            var1['headerText'] = var13;
-            var1['iconSrc'] = var12;
-            var11 = !var11;
-            var1['isActive'] = var11;
-            var1['isPlatformSupported'] = var10;
-            var1['isSpotifyParty'] = var9;
-            var9 = 0;
-            if(!(!(var7 > var9))) { _fun0001_ip = 2627; continue _fun0001 }
- 2622:
-            var7 = var8.length;
- 2627:
-            var1['maxPartySize'] = var7;
-            var1['partyMemberAvatarURIs'] = var6;
-            var1['partySizeText'] = var5;
+            var13 = var13.isDisabled;
+            var13 = !var13;
+            var1['ctaButtonEnabled'] = var13;
+            var1['ctaButtonText'] = var9;
+            var1['footerLabel'] = var4;
+            var1['gradientColors'] = var7;
+            var7 = 13;
+            var7 = var12[var7];
+            var7 = var8.bind(var11)(var7);
+            var9 = var7.intl;
+            var8 = var9.string;
+            var7 = 30;
+            var7 = var12[var7];
+            var7 = var10.bind(var11)(var7);
+            var7 = var7.nAyuPj;
+            var7 = var8.bind(var9)(var7);
+            var1['headerText'] = var7;
+            var1['iconSrc'] = var6;
+            var1['isActive'] = var5;
+            var5 = false;
+            var1['isSpotifyParty'] = var5;
+            var5 = true;
+            var1['isPlatformSupported'] = var5;
+            var5 = 0;
+            var1['maxPartySize'] = var5;
+            var1['partyMemberAvatarURIs'] = var4;
+            var1['partySizeText'] = var4;
+            var4 = new Array(0);
             var1['platformIconKeys'] = var4;
             var1['subtitle'] = var3;
+            var2 = var2.name;
             var1['title'] = var2;
             return var1;
         }

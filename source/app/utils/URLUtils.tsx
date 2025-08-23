@@ -344,28 +344,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot8 = var2;
     var2 = {};
     var2['URL_REGEX'] = var14;
-    var14 = function makeUrl(arg1) {
+    var14 = function makeUrl(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot3;
+            var2 = arg2;
+            var1 = null;
+            if(!(var1 == var2)) { _fun0008_ip = 44; continue _fun0008 }
+ 9:
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot3;
             var1 = 4;
-            var2 = var2[var1];
+            var3 = var3[var1];
             var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            var1 = var2.isDiscordFrontendDevelopment;
-            var2 = var1.bind(var2)();
+            var3 = var4.bind(var1)(var3);
+            var1 = var3.isDiscordFrontendDevelopment;
+            var2 = var1.bind(var3)();
+ 44:
             var1 = global;
-            if(var2) { _fun0008_ip = 54; continue _fun0008 }
- 40:
+            if(var2) { _fun0008_ip = 63; continue _fun0008 }
+ 49:
             var2 = var1.location;
             var6 = var2.host;
-            _fun0008_ip = 72; continue _fun0008;
- 54:
+            _fun0008_ip = 81; continue _fun0008;
+ 63:
             var2 = var1.window;
             var2 = var2.GLOBAL_ENV;
             var6 = var2.INVITE_HOST;
- 72:
+ 81:
             var2 = var1.location;
             var10 = var2.protocol;
             var1 = var1.HermesInternal;

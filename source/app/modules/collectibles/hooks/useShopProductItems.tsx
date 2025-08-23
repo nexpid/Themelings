@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var2;
-        var2 = new Array(4);
+        var2 = new Array(5);
         var2[0] = var1;
         var1 = {};
         var6 = 'firstProfileEffect';
@@ -82,6 +82,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var1['get'] = var6;
         var2[1] = var1;
+        var1 = {};
+        var6 = 'firstNameplate';
+        var1['key'] = var6;
+        var6 = function get() {
+            var3 = this;
+            var2 = var3.getFirstItemByType;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
+            var1 = 3;
+            var4 = var4[var1];
+            var1 = undefined;
+            var1 = var5.bind(var1)(var4);
+            var1 = var1.CollectiblesItemType;
+            var1 = var1.NAMEPLATE;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var1['get'] = var6;
+        var2[2] = var1;
         var1 = {};
         var6 = 'getFirstItemByType';
         var1['key'] = var6;
@@ -109,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[2] = var1;
+        var2[3] = var1;
         var1 = {};
         var6 = 'sortByTypes';
         var1['key'] = var6;
@@ -151,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var5;
-        var2[3] = var1;
+        var2[4] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
@@ -187,79 +206,109 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var3 = var2.firstProfileEffect;
         var1['firstProfileEffect'] = var3;
-        var2 = var2.firstAvatarDecoration;
-        var1['firstAvatarDecoration'] = var2;
+        var3 = var2.firstAvatarDecoration;
+        var1['firstAvatarDecoration'] = var3;
+        var2 = var2.firstNameplate;
+        var1['firstNameplate'] = var2;
         return var1;
     };
     var3['useShopProductItems'] = var4;
     var2 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            var5 = arg1;
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot1;
+            var7 = arg1;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
             var2 = 4;
-            var3 = var8[var2];
+            var3 = var9[var2];
             var1 = undefined;
-            var3 = var7.bind(var1)(var3);
-            var6 = var3.intl;
-            var4 = var6.string;
-            var3 = var8[var2];
-            var3 = var7.bind(var1)(var3);
+            var3 = var8.bind(var1)(var3);
+            var5 = var3.intl;
+            var4 = var5.string;
+            var3 = var9[var2];
+            var3 = var8.bind(var1)(var3);
             var3 = var3.t;
             var3 = var3.7v0T9P;
-            var4 = var4.bind(var6)(var3);
-            var3 = var8[var2];
-            var3 = var7.bind(var1)(var3);
-            var6 = var3.intl;
-            var3 = var6.string;
-            var2 = var8[var2];
-            var2 = var7.bind(var1)(var2);
+            var6 = var4.bind(var5)(var3);
+            var3 = var9[var2];
+            var3 = var8.bind(var1)(var3);
+            var5 = var3.intl;
+            var4 = var5.string;
+            var3 = var9[var2];
+            var3 = var8.bind(var1)(var3);
+            var3 = var3.t;
+            var3 = var3.wR5wOj;
+            var5 = var4.bind(var5)(var3);
+            var3 = var9[var2];
+            var3 = var8.bind(var1)(var3);
+            var4 = var3.intl;
+            var3 = var4.string;
+            var2 = var9[var2];
+            var2 = var8.bind(var1)(var2);
             var2 = var2.t;
-            var2 = var2.wR5wOj;
-            var9 = var3.bind(var6)(var2);
-            var7 = var5.bundledProducts;
-            var6 = null;
-            var3 = var4;
-            var2 = var9;
-            if(!(var6 != var7)) { _fun0003_ip = 223; continue _fun0003 }
- 125:
-            var7 = var5.bundledProducts;
-            var7 = var7.length;
-            var8 = 0;
-            if(!(var7 > var8)) { _fun0003_ip = 169; continue _fun0003 }
- 142:
-            var7 = var5.bundledProducts;
-            var8 = var7[var8];
-            var10 = var6 == var8;
-            var7 = undefined;
-            if(var10) { _fun0003_ip = 166; continue _fun0003 }
- 161:
-            var7 = var8.name;
- 166:
-            var4 = var7;
- 169:
-            var7 = var5.bundledProducts;
-            var8 = var7.length;
-            var7 = 1;
-            var3 = var4;
-            var2 = var9;
-            if(!(var8 > var7)) { _fun0003_ip = 223; continue _fun0003 }
- 193:
-            var5 = var5.bundledProducts;
-            var5 = var5[var7];
-            var6 = var6 == var5;
+            var2 = var2.x5CoXV;
+            var11 = var3.bind(var4)(var2);
+            var9 = var7.bundledProducts;
+            var8 = null;
+            var4 = var6;
+            var3 = var5;
+            var2 = var11;
+            if(!(var8 != var9)) { _fun0003_ip = 324; continue _fun0003 }
+ 175:
+            var9 = var7.bundledProducts;
+            var9 = var9.length;
+            var10 = 0;
+            if(!(var9 > var10)) { _fun0003_ip = 219; continue _fun0003 }
+ 192:
+            var9 = var7.bundledProducts;
+            var10 = var9[var10];
+            var12 = var8 == var10;
+            var9 = undefined;
+            if(var12) { _fun0003_ip = 216; continue _fun0003 }
+ 211:
+            var9 = var10.name;
+ 216:
+            var6 = var9;
+ 219:
+            var9 = var7.bundledProducts;
+            var9 = var9.length;
+            var10 = 1;
+            if(!(var9 > var10)) { _fun0003_ip = 264; continue _fun0003 }
+ 237:
+            var9 = var7.bundledProducts;
+            var10 = var9[var10];
+            var12 = var8 == var10;
+            var9 = undefined;
+            if(var12) { _fun0003_ip = 261; continue _fun0003 }
+ 256:
+            var9 = var10.name;
+ 261:
+            var5 = var9;
+ 264:
+            var9 = var7.bundledProducts;
+            var10 = var9.length;
+            var9 = 2;
+            var4 = var6;
+            var3 = var5;
+            var2 = var11;
+            if(!(var10 > var9)) { _fun0003_ip = 324; continue _fun0003 }
+ 291:
+            var7 = var7.bundledProducts;
+            var7 = var7[var9];
+            var8 = var8 == var7;
             var1 = undefined;
-            if(var6) { _fun0003_ip = 217; continue _fun0003 }
- 212:
-            var1 = var5.name;
- 217:
+            if(var8) { _fun0003_ip = 315; continue _fun0003 }
+ 310:
+            var1 = var7.name;
+ 315:
             var2 = var1;
-            var3 = var4;
- 223:
+            var4 = var6;
+            var3 = var5;
+ 324:
             var1 = {};
-            var1['itemOneName'] = var3;
-            var1['itemTwoName'] = var2;
+            var1['itemOneName'] = var4;
+            var1['itemTwoName'] = var3;
+            var1['itemThreeName'] = var2;
             return var1;
         }
     };

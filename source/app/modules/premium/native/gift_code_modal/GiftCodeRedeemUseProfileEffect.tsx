@@ -112,13 +112,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var12.id;
             var3 = var3.bind(var4)(var2);
-            var2 = null;
-            var5 = var2 == var3;
+            var5 = null;
+            var6 = var5 == var3;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 188; continue _fun0001 }
+            if(var6) { _fun0001_ip = 202; continue _fun0001 }
  182:
-            var2 = var3.profileEffectId;
- 188:
+            var3 = var3.profileEffect;
+            var5 = var5 == var3;
+            var2 = undefined;
+            if(var5) { _fun0001_ip = 202; continue _fun0001 }
+ 197:
+            var2 = var3.id;
+ 202:
             _closure2_slot3 = var2;
             var5 = _closure1_slot5;
             var3 = var5.useEffect;

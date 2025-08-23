@@ -135,11 +135,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var12.indexOf;
                 var12 = var11.bind(var12)(var5);
                 var11 = -1;
-                if(!(var11 !== var12)) { _fun0002_ip = 334; continue _fun0002 }
- 210:
+                if(!(var11 !== var12)) { _fun0002_ip = 336; continue _fun0002 }
+ 212:
                 var11 = 'etf';
-                if(!(var11 !== var5)) { _fun0002_ip = 266; continue _fun0002 }
- 220:
+                if(!(var11 !== var5)) { _fun0002_ip = 268; continue _fun0002 }
+ 222:
                 var2['origin'] = var10;
                 var2['postMessageToRPCClient'] = var9;
                 var2['frameId'] = var8;
@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = false;
                 var2['closed'] = var3;
                 return var2;
- 266:
+ 268:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var2 = 7;
@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = new var21[var7](var20, var19, var18);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
- 334:
+ 336:
                 var3 = _closure1_slot0;
                 var6 = _closure1_slot1;
                 var2 = 7;

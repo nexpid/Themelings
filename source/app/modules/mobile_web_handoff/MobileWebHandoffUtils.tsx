@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 167; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 165; continue _fun0001 }
  10:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot1;
@@ -39,13 +39,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  100:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 164; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 162; continue _fun0001 }
  106:
                     var3 = var2.body;
                     var3 = var3.handoff_token;
                     var4 = null;
-                    if(!(var4 == var3)) { _fun0001_ip = 161; continue _fun0001 }
- 125:
+                    if(!(var4 == var3)) { _fun0001_ip = 159; continue _fun0001 }
+ 123:
                     var4 = global;
                     var6 = var4.Error;
                     var4 = var6.prototype;
@@ -55,11 +55,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = new var8[var6](var7, var6);
                     var4 = var4 instanceof Object ? var4 : var5;
                     throw var4;
- 161:
+ 159:
                     return var3;
- 164:
+ 162:
                     return var2;
- 167:
+ 165:
                     return var1;
                 }
             };

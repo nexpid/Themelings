@@ -85,42 +85,58 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function ProfileEffectRecord(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                var5 = this;
+                var2 = arg1;
+                var6 = this;
                 var1 = _closure1_slot2;
-                var3 = _closure2_slot0;
-                var4 = undefined;
-                var1 = var1.bind(var4)(var5, var3);
-                var10 = new Array(1);
-                var1 = arg1;
-                var10[0] = var1;
+                var4 = _closure2_slot0;
+                var5 = undefined;
+                var1 = var1.bind(var5)(var6, var4);
+                var11 = new Array(1);
+                var11[0] = var2;
                 var1 = _closure1_slot5;
-                var9 = var1.bind(var4)(var3);
-                var3 = _closure1_slot4;
+                var10 = var1.bind(var5)(var4);
+                var4 = _closure1_slot4;
                 var1 = _closure1_slot9;
-                var1 = var1.bind(var4)();
+                var1 = var1.bind(var5)();
                 if(var1) { _fun0002_ip = 73; continue _fun0002 }
  60:
-                var1 = var9.apply;
-                var1 = var1.bind(var9)(var5, var10);
+                var1 = var10.apply;
+                var1 = var1.bind(var10)(var6, var11);
                 _fun0002_ip = 107; continue _fun0002;
  73:
-                var6 = global;
-                var8 = var6.Reflect;
-                var7 = var8.construct;
-                var6 = _closure1_slot5;
-                var6 = var6.bind(var4)(var5);
-                var6 = var6.constructor;
-                var1 = var7.bind(var8)(var9, var10, var6);
+                var7 = global;
+                var9 = var7.Reflect;
+                var8 = var9.construct;
+                var7 = _closure1_slot5;
+                var7 = var7.bind(var5)(var6);
+                var7 = var7.constructor;
+                var1 = var8.bind(var9)(var10, var11, var7);
  107:
-                var1 = var3.bind(var4)(var5, var1);
-                var3 = _closure1_slot0;
-                var5 = _closure1_slot1;
-                var2 = 7;
-                var2 = var5[var2];
-                var2 = var3.bind(var4)(var2);
-                var2 = var2.CollectiblesItemType;
-                var2 = var2.PROFILE_EFFECT;
-                var1['type'] = var2;
+                var1 = var4.bind(var5)(var6, var1);
+                var4 = _closure1_slot0;
+                var6 = _closure1_slot1;
+                var3 = 7;
+                var3 = var6[var3];
+                var3 = var4.bind(var5)(var3);
+                var3 = var3.CollectiblesItemType;
+                var3 = var3.PROFILE_EFFECT;
+                var1['type'] = var3;
+                var3 = var2.title;
+                var1['title'] = var3;
+                var3 = var2.description;
+                var1['description'] = var3;
+                var3 = var2.accessibilityLabel;
+                var1['accessibilityLabel'] = var3;
+                var3 = var2.reducedMotionSrc;
+                var1['reducedMotionSrc'] = var3;
+                var3 = var2.thumbnailPreviewSrc;
+                var1['thumbnailPreviewSrc'] = var3;
+                var3 = var2.effects;
+                var1['effects'] = var3;
+                var3 = var2.animationType;
+                var1['animationType'] = var3;
+                var2 = var2.staticFrameSrc;
+                var1['staticFrameSrc'] = var2;
                 return var1;
             }
         };

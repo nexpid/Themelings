@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = undefined;
             if(var5) { _fun0001_ip = 550; continue _fun0001 }
  544:
-            var2 = var4.profileEffectId;
+            var2 = var4.profileEffect;
  550:
             if(!(var3 != var2)) { _fun0001_ip = 577; continue _fun0001 }
  554:
@@ -335,7 +335,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.getUser;
             var2 = var2.bind(var4)(var5);
             var4 = null;
-            if(!(var4 != var2)) { _fun0004_ip = 492; continue _fun0004 }
+            if(!(var4 != var2)) { _fun0004_ip = 507; continue _fun0004 }
  74:
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -449,10 +449,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['avatar_decoration_sku_id'] = var7;
             var8 = var4 == var5;
             var7 = undefined;
-            if(var8) { _fun0004_ip = 428; continue _fun0004 }
+            if(var8) { _fun0004_ip = 443; continue _fun0004 }
  422:
-            var7 = var5.profileEffectId;
- 428:
+            var8 = var5.profileEffect;
+            var9 = var4 == var8;
+            var7 = undefined;
+            if(var9) { _fun0004_ip = 443; continue _fun0004 }
+ 437:
+            var7 = var8.skuId;
+ 443:
             var1['profile_effect_sku_id'] = var7;
             var7 = _closure1_slot15;
             var6 = var2.id;
@@ -460,16 +465,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['user_status'] = var6;
             var6 = var4 == var5;
             var3 = undefined;
-            if(var6) { _fun0004_ip = 468; continue _fun0004 }
- 463:
+            if(var6) { _fun0004_ip = 483; continue _fun0004 }
+ 478:
             var3 = var5.guildId;
- 468:
+ 483:
             var3 = var4 != var3;
             var1['is_guild_profile'] = var3;
             var2 = var2.bot;
             var1['is_bot_profile'] = var2;
             return var1;
- 492:
+ 507:
             var1 = {};
             return var1;
         }
