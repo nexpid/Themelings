@@ -9,12 +9,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure1_slot0 = var7;
         var _closure1_slot1 = var14;
         var _closure1_slot2 = var8;
-        var15 = global;
-        var5 = var15.Object;
+        var13 = global;
+        var5 = var13.Object;
         var4 = var5.defineProperty;
         var2 = {};
-        var17 = true;
-        var2['value'] = var17;
+        var19 = true;
+        var2['value'] = var19;
         var1 = '__esModule';
         var1 = var4.bind(var5)(var3, var1, var2);
         var2 = 0;
@@ -44,47 +44,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['COPY'] = var6;
         var4 = 'COPY';
         var5[var6] = var4;
-        var5['MESSAGES'] = var9;
-        var4 = 'MESSAGES';
+        var5['QR_CODE'] = var9;
+        var4 = 'QR_CODE';
         var5[var9] = var4;
-        var19 = 3;
-        var5['MAIL'] = var19;
-        var4 = 'MAIL';
-        var5[var19] = var4;
+        var20 = 3;
+        var5['MESSAGES'] = var20;
+        var4 = 'MESSAGES';
+        var5[var20] = var4;
         var18 = 4;
-        var5['FB_MESSENGER'] = var18;
-        var4 = 'FB_MESSENGER';
+        var5['MAIL'] = var18;
+        var4 = 'MAIL';
         var5[var18] = var4;
         var4 = 5;
-        var5['GMAIL'] = var4;
-        var9 = 'GMAIL';
+        var5['FB_MESSENGER'] = var4;
+        var9 = 'FB_MESSENGER';
         var5[var4] = var9;
         var12 = 6;
+        var5['GMAIL'] = var12;
+        var9 = 'GMAIL';
+        var5[var12] = var9;
+        var12 = 7;
         var5['TELEGRAM'] = var12;
         var9 = 'TELEGRAM';
         var5[var12] = var9;
-        var12 = 7;
-        var5['TWITTER'] = var12;
+        var17 = 8;
+        var5['TWITTER'] = var17;
         var9 = 'TWITTER';
-        var5[var12] = var9;
-        var16 = 8;
+        var5[var17] = var9;
+        var16 = 9;
         var5['WHATSAPP'] = var16;
         var9 = 'WHATSAPP';
         var5[var16] = var9;
-        var13 = 9;
-        var5['LINE'] = var13;
+        var15 = 10;
+        var5['LINE'] = var15;
         var9 = 'LINE';
-        var5[var13] = var9;
+        var5[var15] = var9;
         var9 = {};
-        var20 = var5.SHARE;
-        var9['type'] = var20;
-        var19 = var8[var19];
-        var19 = var14.bind(var1)(var19);
-        var9['icon'] = var19;
-        var20 = var15.Promise;
-        var19 = var20.resolve;
-        var19 = var19.bind(var20)(var17);
-        var9['isAvailable'] = var19;
+        var21 = var5.SHARE;
+        var9['type'] = var21;
+        var20 = var8[var20];
+        var20 = var14.bind(var1)(var20);
+        var9['icon'] = var20;
+        var21 = var13.Promise;
+        var20 = var21.resolve;
+        var20 = var20.bind(var21)(var19);
+        var9['isAvailable'] = var20;
         var18 = var8[var18];
         var18 = var14.bind(var1)(var18);
         var9['IconComponent'] = var18;
@@ -129,22 +133,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var9['onPress'] = var4;
-        var4 = new Array(10);
+        var4 = new Array(11);
         var4[0] = var9;
         var9 = {};
         var18 = var5.COPY;
         var9['type'] = var18;
+        var17 = var8[var17];
+        var17 = var14.bind(var1)(var17);
+        var9['icon'] = var17;
+        var18 = var13.Promise;
+        var17 = var18.resolve;
+        var17 = var17.bind(var18)(var19);
+        var9['isAvailable'] = var17;
         var16 = var8[var16];
         var16 = var14.bind(var1)(var16);
-        var9['icon'] = var16;
-        var16 = var15.Promise;
-        var15 = var16.resolve;
-        var15 = var15.bind(var16)(var17);
-        var9['isAvailable'] = var15;
-        var13 = var8[var13];
-        var13 = var14.bind(var1)(var13);
-        var9['IconComponent'] = var13;
-        var13 = function getLabel() {
+        var9['IconComponent'] = var16;
+        var16 = function getLabel() {
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 6;
@@ -160,8 +164,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var9['getLabel'] = var13;
-        var13 = function onPress(arg1) {
+        var9['getLabel'] = var16;
+        var16 = function onPress(arg1) {
             var1 = arg1;
             var5 = var1.channel;
             var4 = var1.code;
@@ -176,37 +180,120 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var2)(var4, var5, var3);
             return var1;
         };
-        var9['onPress'] = var13;
+        var9['onPress'] = var16;
         var4[1] = var9;
+        var9 = {};
+        var16 = var5.QR_CODE;
+        var9['type'] = var16;
+        var15 = var8[var15];
+        var15 = var14.bind(var1)(var15);
+        var9['icon'] = var15;
+        var16 = var13.Promise;
+        var15 = var16.resolve;
+        var13 = 11;
+        var13 = var8[var13];
+        var13 = var7.bind(var1)(var13);
+        var18 = var13.InstantInviteQRCodeExperiment;
+        var17 = var18.getConfig;
+        var13 = {};
+        var19 = 'InstantInviteConstants';
+        var13['location'] = var19;
+        var13 = var17.bind(var18)(var13);
+        var13 = var13.enabled;
+        var13 = var15.bind(var16)(var13);
+        var9['isAvailable'] = var13;
+        var13 = 12;
+        var13 = var8[var13];
+        var13 = var14.bind(var1)(var13);
+        var9['IconComponent'] = var13;
+        var13 = function getLabel() {
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 6;
+            var2 = var6[var1];
+            var4 = undefined;
+            var2 = var5.bind(var4)(var2);
+            var3 = var2.intl;
+            var2 = var3.string;
+            var1 = var6[var1];
+            var1 = var5.bind(var4)(var1);
+            var1 = var1.t;
+            var1 = var1.rriLm5;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var9['getLabel'] = var13;
+        var13 = function onPress(arg1) {
+            var1 = arg1;
+            var10 = var1.code;
+            var2 = var1.channel;
+            var8 = var1.location;
+            var11 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var1 = 13;
+            var4 = var12[var1];
+            var1 = undefined;
+            var7 = var11.bind(var1)(var4);
+            var6 = var7.openLazy;
+            var4 = _closure1_slot0;
+            var3 = 15;
+            var3 = var12[var3];
+            var5 = var4.bind(var1)(var3);
+            var3 = 14;
+            var4 = var12[var3];
+            var3 = var12.paths;
+            var5 = var5.bind(var1)(var4, var3);
+            var3 = global;
+            var3 = var3.HermesInternal;
+            var4 = var3.concat;
+            var3 = 'InstantInviteQRCodeActionSheet-';
+            var15 = var4.bind(var3)(var10);
+            var3 = {};
+            var9 = 16;
+            var9 = var12[var9];
+            var9 = var11.bind(var1)(var9);
+            var9 = var9.bind(var1)(var10);
+            var3['link'] = var9;
+            var3['location'] = var8;
+            var3['channel'] = var2;
+            var13 = 'stack';
+            var17 = var7;
+            var16 = var5;
+            var14 = var3;
+            var2 = var17[var6](var16, var15, var14, var13, var12);
+            return var1;
+        };
+        var9['onPress'] = var13;
+        var4[2] = var9;
         var9 = {};
         var13 = var5.MESSAGES;
         var9['type'] = var13;
-        var15 = 10;
+        var15 = 17;
         var13 = var8[var15];
         var16 = var7.bind(var1)(var13);
         var13 = var16.isIOS;
         var16 = var13.bind(var16)();
         var13 = undefined;
-        if(!var16) { _fun0001_ip = 553; continue _fun0001 }
- 541:
-        var16 = 11;
+        if(!var16) { _fun0001_ip = 702; continue _fun0001 }
+ 690:
+        var16 = 18;
         var16 = var8[var16];
         var13 = var14.bind(var1)(var16);
- 553:
+ 702:
         var9['fullIcon'] = var13;
         var13 = var8[var15];
         var16 = var7.bind(var1)(var13);
         var13 = var16.isAndroid;
         var16 = var13.bind(var16)();
         var13 = undefined;
-        if(!var16) { _fun0001_ip = 593; continue _fun0001 }
- 581:
-        var16 = 12;
+        if(!var16) { _fun0001_ip = 742; continue _fun0001 }
+ 730:
+        var16 = 19;
         var16 = var8[var16];
         var13 = var14.bind(var1)(var16);
- 593:
+ 742:
         var9['icon'] = var13;
-        var13 = 13;
+        var13 = 20;
         var16 = var8[var13];
         var17 = var7.bind(var1)(var16);
         var16 = var17.canSendSMS;
@@ -252,7 +339,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var16 = var11;
                 var15 = var12;
                 var4 = var17[var8](var16, var15, var14, var13, var12);
-                var4 = 10;
+                var4 = 17;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.isIOS;
@@ -261,7 +348,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  112:
                 var5 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var4 = 14;
+                var4 = 13;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.hideActionSheet;
@@ -269,7 +356,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  142:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 13;
+                var3 = 20;
                 var3 = var5[var3];
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.sendSMS;
@@ -283,7 +370,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  9:
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 15;
+                        var1 = 21;
                         var1 = var3[var1];
                         var7 = undefined;
                         var3 = var2.bind(var7)(var1);
@@ -321,7 +408,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  139:
                         var2 = _closure1_slot1;
                         var9 = _closure1_slot2;
-                        var1 = 16;
+                        var1 = 22;
                         var1 = var9[var1];
                         var8 = undefined;
                         var3 = var2.bind(var8)(var1);
@@ -352,7 +439,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var9['onPress'] = var16;
-        var4[2] = var9;
+        var4[3] = var9;
         var9 = {};
         var16 = var5.MAIL;
         var9['type'] = var16;
@@ -361,24 +448,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var17.isIOS;
         var17 = var16.bind(var17)();
         var16 = undefined;
-        if(!var17) { _fun0001_ip = 695; continue _fun0001 }
- 683:
-        var17 = 17;
+        if(!var17) { _fun0001_ip = 844; continue _fun0001 }
+ 832:
+        var17 = 23;
         var17 = var8[var17];
         var16 = var14.bind(var1)(var17);
- 695:
+ 844:
         var9['fullIcon'] = var16;
         var15 = var8[var15];
         var16 = var7.bind(var1)(var15);
         var15 = var16.isAndroid;
         var16 = var15.bind(var16)();
         var15 = undefined;
-        if(!var16) { _fun0001_ip = 735; continue _fun0001 }
- 723:
-        var16 = 18;
+        if(!var16) { _fun0001_ip = 884; continue _fun0001 }
+ 872:
+        var16 = 24;
         var16 = var8[var16];
         var15 = var14.bind(var1)(var16);
- 735:
+ 884:
         var9['icon'] = var15;
         var13 = var8[var13];
         var15 = var7.bind(var1)(var13);
@@ -425,7 +512,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var16 = var11;
                 var15 = var12;
                 var4 = var17[var8](var16, var15, var14, var13, var12);
-                var4 = 10;
+                var4 = 17;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.isIOS;
@@ -434,7 +521,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  112:
                 var5 = _closure1_slot1;
                 var7 = _closure1_slot2;
-                var4 = 14;
+                var4 = 13;
                 var4 = var7[var4];
                 var5 = var5.bind(var1)(var4);
                 var4 = var5.hideActionSheet;
@@ -442,7 +529,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  142:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 13;
+                var3 = 20;
                 var3 = var5[var3];
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.sendMail;
@@ -458,7 +545,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  9:
                         var2 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var1 = 15;
+                        var1 = 21;
                         var1 = var3[var1];
                         var7 = undefined;
                         var3 = var2.bind(var7)(var1);
@@ -496,7 +583,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  139:
                         var2 = _closure1_slot1;
                         var9 = _closure1_slot2;
-                        var1 = 16;
+                        var1 = 22;
                         var1 = var9[var1];
                         var8 = undefined;
                         var3 = var2.bind(var8)(var1);
@@ -527,11 +614,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var9['onPress'] = var13;
-        var4[3] = var9;
+        var4[4] = var9;
         var9 = {};
         var13 = var5.FB_MESSENGER;
         var9['type'] = var13;
-        var13 = 19;
+        var13 = 25;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -565,7 +652,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var1.location;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 20;
+            var1 = 16;
             var3 = var5[var1];
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
@@ -591,11 +678,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var9['onPress'] = var13;
-        var4[4] = var9;
+        var4[5] = var9;
         var9 = {};
         var13 = var5.GMAIL;
         var9['type'] = var13;
-        var13 = 21;
+        var13 = 26;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -652,11 +739,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var9['onPress'] = var13;
-        var4[5] = var9;
+        var4[6] = var9;
         var9 = {};
         var13 = var5.TELEGRAM;
         var9['type'] = var13;
-        var13 = 22;
+        var13 = 27;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -691,7 +778,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var1.location;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 20;
+            var1 = 16;
             var3 = var5[var1];
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
@@ -717,11 +804,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var9['onPress'] = var13;
-        var4[6] = var9;
+        var4[7] = var9;
         var9 = {};
         var13 = var5.TWITTER;
         var9['type'] = var13;
-        var13 = 23;
+        var13 = 28;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -777,11 +864,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var9['onPress'] = var13;
-        var4[7] = var9;
+        var4[8] = var9;
         var9 = {};
         var13 = var5.WHATSAPP;
         var9['type'] = var13;
-        var13 = 24;
+        var13 = 29;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -837,11 +924,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var9['onPress'] = var13;
-        var4[8] = var9;
+        var4[9] = var9;
         var9 = {};
         var13 = var5.LINE;
         var9['type'] = var13;
-        var13 = 25;
+        var13 = 30;
         var13 = var8[var13];
         var13 = var14.bind(var1)(var13);
         var9['fullIcon'] = var13;
@@ -897,13 +984,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var9['onPress'] = var10;
-        var4[9] = var9;
+        var4[10] = var9;
         var9 = var4[var2];
         var2 = new Array(2);
         var2[0] = var9;
         var6 = var4[var6];
         var2[1] = var6;
-        var6 = 26;
+        var6 = 31;
         var6 = var8[var6];
         var8 = var7.bind(var1)(var6);
         var7 = var8.fileFinishedImporting;

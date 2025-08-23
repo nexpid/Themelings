@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var _closure1_slot15 = var1;
+    var _closure1_slot16 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -70,15 +70,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.AnalyticEvents;
-    var _closure1_slot10 = var4;
+    var7 = var4.AnalyticEvents;
+    var _closure1_slot10 = var7;
+    var4 = var4.InstantInviteSources;
+    var _closure1_slot11 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot11 = var7;
+    var _closure1_slot12 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4 = 8;
     var4 = var6[var4];
     var9 = var5.bind(var1)(var4);
@@ -116,7 +118,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10['borderRadius'] = var11;
     var4['actionCardImage'] = var10;
     var4 = var7.bind(var9)(var4);
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var7 = var8.memo;
     var4 = function(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -131,9 +133,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  31:
             var5 = false;
  33:
-            var1 = _closure1_slot13;
+            var1 = _closure1_slot14;
             var11 = var1.bind(var4)();
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot13;
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;
             var1 = 20;
@@ -146,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'medium';
             var1['width'] = var7;
             var1['panelVariant'] = var5;
-            var8 = _closure1_slot11;
+            var8 = _closure1_slot12;
             var7 = _closure1_slot4;
             var5 = {};
             var11 = var11.actionCardImage;
@@ -174,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot14 = var4;
+    var _closure1_slot15 = var4;
     var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -198,7 +200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new Array(1);
             var2[0] = var8;
             var1 = function() {
-                var4 = _closure1_slot15;
+                var4 = _closure1_slot16;
                 var1 = _closure1_slot9;
                 var3 = var1.GUILD_ACTION_CREATE_CHANNEL_CARD;
                 var5 = _closure2_slot0;
@@ -219,8 +221,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var7 = var3.bind(var7)(var1, var2);
-            var3 = _closure1_slot11;
-            var2 = _closure1_slot14;
+            var3 = _closure1_slot12;
+            var2 = _closure1_slot15;
             var1 = {};
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -264,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new Array(1);
             var2[0] = var8;
             var1 = function() {
-                var5 = _closure1_slot15;
+                var5 = _closure1_slot16;
                 var1 = _closure1_slot9;
                 var3 = var1.GUILD_ACTION_CUSTOMIZE_CARD;
                 var4 = _closure2_slot0;
@@ -280,8 +282,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6 = var3.bind(var6)(var1, var2);
-            var3 = _closure1_slot11;
-            var2 = _closure1_slot14;
+            var3 = _closure1_slot12;
+            var2 = _closure1_slot15;
             var1 = {};
             var8 = 'Customize';
             var1['text'] = var8;
@@ -328,34 +330,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.getChannelId;
                     var4 = var3.bind(var4)(var7);
                     var3 = null;
-                    if(!(var3 != var6)) { _fun0005_ip = 134; continue _fun0005 }
+                    if(!(var3 != var6)) { _fun0005_ip = 138; continue _fun0005 }
  60:
-                    var8 = _closure1_slot15;
+                    var8 = _closure1_slot16;
                     var3 = _closure1_slot9;
-                    var7 = var3.GUILD_ACTION_INVITE_CARD;
+                    var3 = var3.GUILD_ACTION_INVITE_CARD;
                     var2 = _closure2_slot0;
-                    var3 = undefined;
-                    var2 = var8.bind(var3)(var7, var2);
-                    var2 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var1 = 16;
-                    var1 = var7[var1];
-                    var3 = var2.bind(var3)(var1);
+                    var7 = undefined;
+                    var2 = var8.bind(var7)(var3, var2);
+                    var3 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var2 = 16;
+                    var2 = var8[var2];
+                    var3 = var3.bind(var7)(var2);
                     var2 = var3.handleOpenInviteActionsheet;
-                    var9 = 'Server Profile';
+                    var1 = _closure1_slot11;
+                    var9 = var1.SERVER_PROFILE;
                     var13 = var3;
                     var12 = var6;
                     var11 = var4;
                     var10 = var5;
                     var1 = var13[var2](var12, var11, var10, var9, var8);
- 134:
+ 138:
                     var1 = undefined;
                     return var1;
                 }
             };
             var7 = var3.bind(var7)(var1, var2);
-            var3 = _closure1_slot11;
-            var2 = _closure1_slot14;
+            var3 = _closure1_slot12;
+            var2 = _closure1_slot15;
             var1 = {};
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -416,7 +419,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  52:
                     if(!var3) { _fun0007_ip = 144; continue _fun0007 }
  55:
-                    var7 = _closure1_slot15;
+                    var7 = _closure1_slot16;
                     var3 = _closure1_slot9;
                     var6 = var3.GUILD_ACTION_STUDENT_HUB_ADD_SERVER;
                     var2 = _closure2_slot0;
@@ -442,8 +445,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var7 = var3.bind(var7)(var1, var2);
-            var3 = _closure1_slot11;
-            var2 = _closure1_slot14;
+            var3 = _closure1_slot12;
+            var2 = _closure1_slot15;
             var1 = {};
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;

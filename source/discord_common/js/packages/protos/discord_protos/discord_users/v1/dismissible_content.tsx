@@ -1226,10 +1226,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['GO_LIVE_SYSTEM_PICKER_COACHMARK'] = var2;
     var1 = 'GO_LIVE_SYSTEM_PICKER_COACHMARK';
     var4[var2] = var1;
-    var2 = 451;
-    var4['USER_PROFILE_POPOUT_INTERACTION_COACHMARK'] = var2;
-    var1 = 'USER_PROFILE_POPOUT_INTERACTION_COACHMARK';
-    var4[var2] = var1;
     var2 = 452;
     var4['RAPIDASH_MORE_GUILDS_UPSELL'] = var2;
     var1 = 'RAPIDASH_MORE_GUILDS_UPSELL';
@@ -1261,14 +1257,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 462;
     var4['TRIAL_FOR_ALL_DESKTOP_MODAL'] = var2;
     var1 = 'TRIAL_FOR_ALL_DESKTOP_MODAL';
-    var4[var2] = var1;
-    var2 = 465;
-    var4['USER_PROFILE_POPOUT_INTERACTION_COACHMARK_ACTIVITY'] = var2;
-    var1 = 'USER_PROFILE_POPOUT_INTERACTION_COACHMARK_ACTIVITY';
-    var4[var2] = var1;
-    var2 = 466;
-    var4['USER_PROFILE_POPOUT_INTERACTION_COACHMARK_ALL'] = var2;
-    var1 = 'USER_PROFILE_POPOUT_INTERACTION_COACHMARK_ALL';
     var4[var2] = var1;
     var2 = 467;
     var4['GIFTING_PROMOTION_ICON'] = var2;

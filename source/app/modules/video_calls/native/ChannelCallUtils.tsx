@@ -29,19 +29,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.UserSettingsSections;
     var _closure1_slot4 = var7;
-    var7 = var4.AnalyticsLocations;
-    var _closure1_slot5 = var7;
     var7 = var4.AnalyticsPages;
-    var _closure1_slot6 = var7;
+    var _closure1_slot5 = var7;
     var7 = var4.InstantInviteSources;
-    var _closure1_slot7 = var7;
+    var _closure1_slot6 = var7;
     var4 = var4.RPC_APPLICATION_LOGGING_CATEGORY;
-    var _closure1_slot8 = var4;
+    var _closure1_slot7 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot9 = var4;
+    var _closure1_slot8 = var4;
     var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -165,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.default;
                 var _closure4_slot0 = var2;
                 var1 = function(arg1) {
-                    var4 = _closure1_slot9;
+                    var4 = _closure1_slot8;
                     var3 = _closure4_slot0;
                     var2 = {};
                     var7 = arg1;
@@ -324,15 +322,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var6;
             var _closure2_slot2 = var5;
             var2 = function onPress() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 15;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 15;
+                var3 = var3[var2];
+                var2 = undefined;
+                var4 = var4.bind(var2)(var3);
                 var3 = var4.showInstantInviteActionSheet;
                 var2 = _closure2_slot0;
-                var1 = 'Voice Channel';
+                var1 = _closure1_slot6;
+                var1 = var1.VOICE_CHANNEL;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
@@ -350,7 +349,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var4.bind(var2)(var3);
                 var4 = var5.showInstantInviteActionSheet;
                 var3 = _closure2_slot0;
-                var1 = _closure1_slot7;
+                var1 = _closure1_slot6;
                 var2 = var1.ACTIVITY_INVITE;
                 var1 = {};
                 var6 = _closure2_slot2;
@@ -369,7 +368,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var4.bind(var2)(var3);
                 var4 = var5.showInstantInviteActionSheet;
                 var3 = _closure2_slot0;
-                var1 = _closure1_slot5;
+                var1 = _closure1_slot6;
                 var2 = var1.STREAM;
                 var1 = {};
                 var6 = _closure2_slot1;
@@ -392,7 +391,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.navigateToNewGroupDM;
                 var2 = _closure2_slot0;
                 var2 = var2.id;
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot5;
                 var1 = var1.CHANNEL_CALL;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
@@ -494,7 +493,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.stringify;
-                var6 = _closure1_slot8;
+                var6 = _closure1_slot7;
                 var2 = new Array(1);
                 var2[0] = var6;
                 var2 = var3.bind(var4)(var2);

@@ -464,26 +464,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = function value(arg1) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                var2 = arg1;
-                var3 = var2.guild;
-                var5 = _closure1_slot8;
-                var4 = var5.getAllThreadsForGuild;
-                var3 = var3.id;
-                var3 = var4.bind(var5)(var3);
-                var _closure3_slot0 = var3;
-                var4 = var3.length;
-                var3 = 0;
-                if(!(var3 !== var4)) { _fun0009_ip = 94; continue _fun0009 }
- 48:
+                var1 = arg1;
+                var4 = var1.guild;
+                var1 = undefined;
+                var _closure3_slot0 = var1;
+                var3 = var4.unavailable;
+                if(var3) { _fun0009_ip = 107; continue _fun0009 }
+ 25:
+                var6 = _closure1_slot8;
+                var5 = var6.getAllThreadsForGuild;
+                var4 = var4.id;
+                var4 = var5.bind(var6)(var4);
+                _closure3_slot0 = var4;
+                var5 = var4.length;
+                var4 = 0;
+                if(!(var4 !== var5)) { _fun0009_ip = 107; continue _fun0009 }
+ 63:
                 var4 = _closure1_slot0;
-                var3 = _closure1_slot1;
-                var2 = 7;
-                var3 = var3[var2];
-                var2 = undefined;
-                var2 = var4.bind(var2)(var3);
-                var3 = var2.Emitter;
-                var2 = var3.batched;
-                var1 = function() {
+                var5 = _closure1_slot1;
+                var3 = 7;
+                var3 = var5[var3];
+                var3 = var4.bind(var1)(var3);
+                var4 = var3.Emitter;
+                var3 = var4.batched;
+                var2 = function() {
                     _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
                         var3 = _closure1_slot9;
@@ -514,9 +518,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var1 = var2.bind(var3)(var1);
- 94:
-                var1 = undefined;
+                var2 = var3.bind(var4)(var2);
+ 107:
                 return var1;
             }
         };

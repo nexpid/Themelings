@@ -119,6 +119,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CONTACT_SYNC_SUGGESTIONS'] = var2;
     var2 = 'impression_creator_promo_page_guild_header_upsell';
     var4['CREATOR_PROMO_PAGE_GUILD_HEADER_UPSELL'] = var2;
+    var2 = 'impression_custom_themes_preview_themes_banner';
+    var4['CUSTOM_THEMES_PREVIEW_THEMES_BANNER'] = var2;
     var2 = 'impression_directory_add_guild_confirmation';
     var4['DIRECTORY_ADD_GUILD_CONFIRMATION'] = var2;
     var2 = 'impression_discoverability';

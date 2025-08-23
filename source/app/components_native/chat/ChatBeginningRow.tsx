@@ -2192,35 +2192,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = function onPress() {
                 _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
-                    var2 = _closure2_slot0;
-                    var3 = var2.vanityURLCode;
-                    var2 = null;
-                    if(!(var2 == var3)) { _fun0018_ip = 68; continue _fun0018 }
+                    var1 = _closure2_slot0;
+                    var3 = var1.vanityURLCode;
+                    var1 = null;
+                    if(!(var1 == var3)) { _fun0018_ip = 72; continue _fun0018 }
  19:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 64;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var5 = var4.bind(var2)(var3);
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 64;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var5 = var5.bind(var3)(var4);
                     var4 = var5.showInstantInviteActionSheet;
                     var3 = _closure2_slot1;
-                    var2 = 'Welcome Message';
-                    var2 = var4.bind(var5)(var3, var2);
-                    _fun0018_ip = 120; continue _fun0018;
- 68:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var2 = 64;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var5 = var4.bind(var2)(var3);
+                    var1 = _closure1_slot33;
+                    var1 = var1.WELCOME_MESSAGE;
+                    var1 = var4.bind(var5)(var3, var1);
+                    _fun0018_ip = 128; continue _fun0018;
+ 72:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 64;
+                    var4 = var4[var3];
+                    var3 = undefined;
+                    var5 = var5.bind(var3)(var4);
                     var4 = var5.showVanityUrlInviteActionSheet;
                     var3 = _closure2_slot0;
                     var2 = _closure2_slot1;
-                    var1 = 'Welcome Message';
+                    var1 = _closure1_slot33;
+                    var1 = var1.WELCOME_MESSAGE;
                     var1 = var4.bind(var5)(var3, var2, var1);
- 120:
+ 128:
                     var1 = undefined;
                     return var1;
                 }

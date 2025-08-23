@@ -3186,11 +3186,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = {'command': null, 'sectionDescriptor': null, 'hasPermission': false};
                     var2 = var2.fetchState;
                     var2 = var2.fetching;
-                    if(var2) { _fun0022_ip = 778; continue _fun0022 }
- 766:
+                    if(var2) { _fun0022_ip = 774; continue _fun0022 }
+ 762:
                     var3 = var3.fetchState;
                     var2 = var3.fetching;
- 778:
+ 774:
                     var1['loading'] = var2;
                     return var1;
                 }

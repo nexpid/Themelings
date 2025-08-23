@@ -51,17 +51,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.Permissions;
     var _closure1_slot9 = var7;
-    var4 = var4.AnalyticsSections;
-    var _closure1_slot10 = var4;
+    var7 = var4.AnalyticsSections;
+    var _closure1_slot10 = var7;
+    var4 = var4.InstantInviteSources;
+    var _closure1_slot11 = var4;
     var4 = 8;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var4 = {};
     var4['listActionRenderer'] = var1;
     var4['listActionHeight'] = var1;
-    var _closure1_slot12 = var4;
+    var _closure1_slot13 = var4;
     var4 = 9;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -71,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['paddingTop'] = var10;
     var4['wrapper'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var4 = 29;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -99,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot7 = var4;
             var _closure2_slot8 = var4;
             var _closure2_slot9 = var4;
-            var5 = _closure1_slot13;
+            var5 = _closure1_slot14;
             var5 = var5.bind(var4)();
             _closure2_slot1 = var5;
             var7 = _closure1_slot0;
@@ -333,23 +335,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = _closure2_slot7;
                             var4 = var3.bind(var4)(var2);
                             var2 = null;
-                            if(!(var2 != var4)) { _fun0005_ip = 92; continue _fun0005 }
+                            if(!(var2 != var4)) { _fun0005_ip = 96; continue _fun0005 }
  30:
-                            var3 = _closure1_slot0;
-                            var5 = _closure1_slot2;
-                            var1 = 25;
-                            var1 = var5[var1];
-                            var2 = undefined;
-                            var6 = var3.bind(var2)(var1);
-                            var1 = var6.dismissGlobalKeyboard;
-                            var1 = var1.bind(var6)();
-                            var1 = 26;
-                            var1 = var5[var1];
-                            var3 = var3.bind(var2)(var1);
+                            var5 = _closure1_slot0;
+                            var6 = _closure1_slot2;
+                            var2 = 25;
+                            var2 = var6[var2];
+                            var3 = undefined;
+                            var7 = var5.bind(var3)(var2);
+                            var2 = var7.dismissGlobalKeyboard;
+                            var2 = var2.bind(var7)();
+                            var2 = 26;
+                            var2 = var6[var2];
+                            var3 = var5.bind(var3)(var2);
                             var2 = var3.showInstantInviteActionSheet;
-                            var1 = 'Chat Sidebar';
+                            var1 = _closure1_slot11;
+                            var1 = var1.CHAT_SIDEBAR;
                             var1 = var2.bind(var3)(var4, var1);
- 92:
+ 96:
                             var1 = undefined;
                             return var1;
                         }
@@ -537,7 +540,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = var1.IconComponent;
                     var11 = var1.handlePress;
                     var9 = var1.sublabel;
-                    var6 = _closure1_slot11;
+                    var6 = _closure1_slot12;
                     var5 = _closure1_slot4;
                     var4 = {};
                     var7 = _closure2_slot1;
@@ -588,7 +591,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['listActionHeight'] = var2;
                     return var1;
  857:
-                    var1 = _closure1_slot12;
+                    var1 = _closure1_slot13;
                     return var1;
                 }
             };

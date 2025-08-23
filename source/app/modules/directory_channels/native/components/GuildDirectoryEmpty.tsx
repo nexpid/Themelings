@@ -35,13 +35,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var12 = var4.Fonts;
+    var4 = var4.InstantInviteSources;
+    var _closure1_slot6 = var4;
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot6 = var7;
+    var _closure1_slot7 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var4 = 5;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
@@ -73,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9['marginBottom'] = var10;
     var4['ctaContainer'] = var9;
     var4 = var7.bind(var8)(var4);
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var4;
     var4 = 19;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -88,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var21;
             var3 = var1.channel;
             var _closure2_slot1 = var3;
-            var1 = _closure1_slot8;
+            var1 = _closure1_slot9;
             var4 = undefined;
             var14 = var1.bind(var4)();
             var13 = _closure1_slot1;
@@ -121,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var18.bind(var4)(var1);
             var1 = var2.useCanCreateOrAddGuildInDirectory;
             var7 = var1.bind(var2)(var3);
-            var3 = _closure1_slot7;
+            var3 = _closure1_slot8;
             var2 = _closure1_slot4;
             var1 = {};
             var6 = var14.container;
@@ -133,7 +135,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['paddingBottom'] = var8;
             var5[1] = var6;
             var1['contentContainerStyle'] = var5;
-            var9 = _closure1_slot6;
+            var9 = _closure1_slot7;
             var6 = _closure1_slot3;
             var5 = {};
             var8 = 10;
@@ -192,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             if(!var7) { _fun0001_ip = 583; continue _fun0001 }
  456:
-            var9 = _closure1_slot6;
+            var9 = _closure1_slot7;
             var17 = _closure1_slot0;
             var12 = _closure1_slot2;
             var7 = 14;
@@ -240,7 +242,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var9.bind(var4)(var8, var7);
  583:
             var5[3] = var6;
-            var8 = _closure1_slot6;
+            var8 = _closure1_slot7;
             var12 = _closure1_slot0;
             var9 = _closure1_slot2;
             var6 = 14;
@@ -251,18 +253,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.ctaContainer;
             var6['style'] = var14;
             var11 = function onPress() {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 17;
-                var2 = var2[var1];
-                var1 = undefined;
-                var6 = var3.bind(var1)(var2);
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var2 = 17;
+                var3 = var3[var2];
+                var2 = undefined;
+                var6 = var4.bind(var2)(var3);
                 var5 = var6.handleOpenInviteActionsheet;
                 var10 = _closure2_slot0;
-                var2 = _closure2_slot1;
-                var9 = var2.id;
+                var3 = _closure2_slot1;
+                var9 = var3.id;
                 var8 = _closure2_slot2;
-                var7 = 'Hub Empty State';
+                var1 = _closure1_slot6;
+                var7 = var1.HUB_EMPTY_STATE;
                 var11 = var6;
                 var1 = var11[var5](var10, var9, var8, var7, var6);
                 return var1;

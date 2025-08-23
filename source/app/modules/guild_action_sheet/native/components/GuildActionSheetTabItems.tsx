@@ -46,15 +46,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot9 = var7;
     var7 = var4.AnalyticsObjects;
     var _closure1_slot10 = var7;
-    var4 = var4.AnalyticsSections;
-    var _closure1_slot11 = var4;
+    var7 = var4.AnalyticsSections;
+    var _closure1_slot11 = var7;
+    var4 = var4.InstantInviteSources;
+    var _closure1_slot12 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot12 = var7;
+    var _closure1_slot13 = var7;
     var4 = var4.jsxs;
-    var _closure1_slot13 = var4;
+    var _closure1_slot14 = var4;
     var4 = 27;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -119,52 +121,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var5 = _closure1_slot8;
-                    var3 = var5.getChannelId;
+                    var4 = var5.getChannelId;
                     var1 = _closure2_slot0;
                     var1 = var1.id;
-                    var7 = var3.bind(var5)(var1);
+                    var7 = var4.bind(var5)(var1);
                     var5 = _closure1_slot0;
-                    var3 = _closure1_slot3;
+                    var4 = _closure1_slot3;
                     var1 = 11;
-                    var3 = var3[var1];
+                    var4 = var4[var1];
                     var1 = undefined;
-                    var6 = var5.bind(var1)(var3);
+                    var6 = var5.bind(var1)(var4);
                     var5 = var6.getInviteChannelId;
-                    var3 = _closure2_slot1;
-                    var6 = var5.bind(var6)(var7, var3);
+                    var4 = _closure2_slot1;
+                    var6 = var5.bind(var6)(var7, var4);
                     var5 = _closure1_slot6;
-                    var3 = var5.getChannel;
-                    var3 = var3.bind(var5)(var6);
+                    var4 = var5.getChannel;
+                    var4 = var4.bind(var5)(var6);
                     var5 = null;
-                    if(!(var5 == var3)) { _fun0002_ip = 112; continue _fun0002 }
+                    if(!(var5 == var4)) { _fun0002_ip = 112; continue _fun0002 }
  88:
                     var8 = _closure1_slot7;
                     var7 = var8.getDefaultChannel;
                     var6 = _closure2_slot0;
                     var6 = var6.id;
-                    var3 = var7.bind(var8)(var6);
+                    var4 = var7.bind(var8)(var6);
  112:
-                    if(!(var5 != var3)) { _fun0002_ip = 168; continue _fun0002 }
+                    if(!(var5 != var4)) { _fun0002_ip = 172; continue _fun0002 }
  116:
-                    var5 = _closure1_slot0;
-                    var6 = _closure1_slot3;
-                    var4 = 12;
-                    var4 = var6[var4];
-                    var7 = var5.bind(var1)(var4);
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot3;
+                    var5 = 12;
+                    var5 = var7[var5];
+                    var7 = var6.bind(var1)(var5);
                     var6 = var7.handleOpenInviteActionsheet;
                     var12 = _closure2_slot0;
-                    var11 = var3.id;
+                    var11 = var4.id;
                     var10 = _closure2_slot1;
-                    var9 = 'Server Profile';
+                    var2 = _closure1_slot12;
+                    var9 = var2.SERVER_PROFILE;
                     var13 = var7;
                     var2 = var13[var6](var12, var11, var10, var9, var8);
- 168:
+ 172:
                     return var1;
                 }
             };
             var1 = var3.bind(var5)(var1, var2);
             var _closure2_slot2 = var1;
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot13;
             var2 = _closure1_slot5;
             var1 = {};
             var14 = true;
@@ -173,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = '100%';
             var5['minWidth'] = var6;
             var1['contentContainerStyle'] = var5;
-            var7 = _closure1_slot13;
+            var7 = _closure1_slot14;
             var5 = 13;
             var5 = var8[var5];
             var5 = var12.bind(var4)(var5);
@@ -221,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var21.bind(var22)(var20, var19);
  441:
             var8['label'] = var17;
-            var20 = _closure1_slot12;
+            var20 = _closure1_slot13;
             var19 = _closure1_slot0;
             var23 = _closure1_slot3;
             var17 = 16;
@@ -280,7 +283,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var12;
             if(!var11) { _fun0001_ip = 680; continue _fun0001 }
  554:
-            var19 = _closure1_slot12;
+            var19 = _closure1_slot13;
             var24 = _closure1_slot0;
             var22 = _closure1_slot3;
             var12 = var22[var10];
@@ -322,7 +325,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var19.bind(var4)(var17, var12);
  680:
             var8[1] = var11;
-            var17 = _closure1_slot12;
+            var17 = _closure1_slot13;
             var24 = _closure1_slot0;
             var22 = _closure1_slot3;
             var11 = var22[var10];
@@ -370,7 +373,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[2] = var11;
             if(!var9) { _fun0001_ip = 990; continue _fun0001 }
  820:
-            var12 = _closure1_slot12;
+            var12 = _closure1_slot13;
             var20 = _closure1_slot0;
             var17 = _closure1_slot3;
             var10 = var17[var10];
@@ -397,7 +400,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var17.bind(var4)(var15);
             _fun0001_ip = 964; continue _fun0001;
  926:
-            var18 = _closure1_slot12;
+            var18 = _closure1_slot13;
             var17 = _closure1_slot0;
             var19 = _closure1_slot3;
             var16 = 24;

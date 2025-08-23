@@ -120,10 +120,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.bind(var15)(var13);
             var7['label'] = var13;
             var7['checked'] = var12;
-            if(var10) { _fun0001_ip = 277; continue _fun0001 }
- 274:
+            if(var10) { _fun0001_ip = 279; continue _fun0001 }
+ 276:
             var10 = var11;
- 277:
+ 279:
             var7['disabled'] = var10;
             var9 = function onPress() {
                 var3 = _closure1_slot1;
