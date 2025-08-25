@@ -9069,13 +9069,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.enabled;
             _closure1_slot73 = var3;
             var2 = var2.unmute;
-            if(!var2) { _fun0119_ip = 45; continue _fun0119 }
+            if(!var2) { _fun0119_ip = 49; continue _fun0119 }
  24:
             var4 = _closure1_slot142;
             var3 = undefined;
             var2 = {'mute': false, 'deaf': false};
             var2 = var4.bind(var3)(var2);
- 45:
+ 49:
             var3 = _closure1_slot67;
             var2 = var3.eachConnection;
             var1 = _closure1_slot129;

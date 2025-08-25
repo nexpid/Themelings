@@ -310,11 +310,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = _closure2_slot0;
                     var2 = var1.creator_id;
                     var1 = null;
-                    if(!(var1 == var2)) { _fun0003_ip = 35; continue _fun0003 }
+                    if(!(var1 == var2)) { _fun0003_ip = 31; continue _fun0003 }
  19:
                     var1 = {'creator': null, 'creatorMember': null};
-                    _fun0003_ip = 105; continue _fun0003;
- 35:
+                    _fun0003_ip = 101; continue _fun0003;
+ 31:
                     var2 = {};
                     var7 = _closure1_slot9;
                     var6 = var7.getUser;
@@ -329,7 +329,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var5.bind(var6)(var4, var3);
                     var2['creatorMember'] = var3;
                     var1 = var2;
- 105:
+ 101:
                     return var1;
                 }
             };
