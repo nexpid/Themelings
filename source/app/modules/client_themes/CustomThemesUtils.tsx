@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 'editor_close';
     var7['EDITOR_CLOSE'] = var8;
     var _closure1_slot10 = var7;
-    var8 = 11;
+    var8 = 12;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -352,7 +352,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['setInitialCustomTheme'] = var4;
-    var2 = function useIsResetButtonDisabled() {
+    var4 = function useIsResetButtonDisabled() {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var2 = _closure1_slot5;
@@ -425,6 +425,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['useIsResetButtonDisabled'] = var2;
+    var3['useIsResetButtonDisabled'] = var4;
+    var2 = function useShouldShowCustomThemesMarketing() {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+ 0:
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var1 = 11;
+            var1 = var6[var1];
+            var3 = undefined;
+            var1 = var4.bind(var3)(var1);
+            var7 = var1.CustomThemesNitroHomeTileExperiment;
+            var2 = var7.useExperiment;
+            var1 = {};
+            var5 = 'CustomThemesUtils';
+            var1['location'] = var5;
+            var1 = var2.bind(var7)(var1);
+            var1 = var1.enabled;
+            var2 = 6;
+            var2 = var6[var2];
+            var2 = var4.bind(var3)(var2);
+            var4 = var2.ClientThemeColorPickerExperiment;
+            var3 = var4.useExperiment;
+            var2 = {};
+            var2['location'] = var5;
+            var2 = var3.bind(var4)(var2);
+            var2 = var2.v2EditorEnabled;
+            if(!var1) { _fun0008_ip = 106; continue _fun0008 }
+ 103:
+            var1 = var2;
+ 106:
+            return var1;
+        }
+    };
+    var3['useShouldShowCustomThemesMarketing'] = var2;
     return var1;
 })();

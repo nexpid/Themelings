@@ -442,7 +442,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var1.type;
                 var3 = _closure1_slot4;
                 var3 = var3.ROUTE;
-                if(!(var8 !== var3)) { _fun0007_ip = 120; continue _fun0007 }
+                if(!(var8 !== var3)) { _fun0007_ip = 119; continue _fun0007 }
  60:
                 var3 = var4.getAncestors;
                 var7 = var3.bind(var4)(var7);
@@ -471,7 +471,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.SETTING_RENDERER_CONFIG;
                 var2 = var2[var3];
                 return var2;
- 120:
+ 119:
                 return var1;
             }
         };

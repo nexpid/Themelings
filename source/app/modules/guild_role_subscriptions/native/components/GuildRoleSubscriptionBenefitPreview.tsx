@@ -179,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getChannelIcon;
             var12 = var3.bind(var4)(var13);
  112:
-            if(!(var1 != var13)) { _fun0003_ip = 321; continue _fun0003 }
+            if(!(var1 != var13)) { _fun0003_ip = 325; continue _fun0003 }
  119:
             var4 = _closure1_slot5;
             var3 = _closure1_slot9;
@@ -225,8 +225,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0003_ip = 444; continue _fun0003;
- 321:
+            _fun0003_ip = 452; continue _fun0003;
+ 325:
             var4 = _closure1_slot5;
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var7)(var9, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 444:
+ 452:
             return var1;
         }
     };

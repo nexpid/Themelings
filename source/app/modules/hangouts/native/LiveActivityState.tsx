@@ -66,7 +66,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var5 = null;
-            if(!(var5 != var1)) { _fun0002_ip = 189; continue _fun0002 }
+            if(!(var5 != var1)) { _fun0002_ip = 187; continue _fun0002 }
  12:
             var4 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -90,8 +90,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var15[var9](var14, var13, var12, var11, var10);
             var7 = 'number';
             var3 = typeof var4;
-            if(!(var7 !== var3)) { _fun0002_ip = 189; continue _fun0002 }
- 108:
+            if(!(var7 !== var3)) { _fun0002_ip = 187; continue _fun0002 }
+ 106:
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 16;
@@ -101,10 +101,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.avatar;
             var5 = var5 != var1;
             var7 = 'missing';
-            if(!var5) { _fun0002_ip = 154; continue _fun0002 }
- 151:
+            if(!var5) { _fun0002_ip = 152; continue _fun0002 }
+ 149:
             var7 = var1;
- 154:
+ 152:
             var1 = global;
             var1 = var1.HermesInternal;
             var6 = var1.concat;
@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = '.png';
             var1 = var6.bind(var5)(var7, var1);
             var1 = var2.bind(var3)(var4, var1);
- 189:
+ 187:
             var1 = undefined;
             return var1;
         }
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.id;
             var6 = var3.bind(var6)(var8, var2);
             var3 = null;
-            if(!(var3 != var6)) { _fun0003_ip = 224; continue _fun0003 }
+            if(!(var3 != var6)) { _fun0003_ip = 223; continue _fun0003 }
  45:
             var7 = _closure1_slot3;
             var2 = var7.getEmbeddedActivitiesForChannel;
@@ -159,49 +159,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.bind(var8)(var5, var4);
             var5 = var3 == var4;
             var7 = undefined;
-            if(var5) { _fun0003_ip = 120; continue _fun0003 }
- 115:
+            if(var5) { _fun0003_ip = 119; continue _fun0003 }
+ 114:
             var7 = var4.type;
- 120:
+ 119:
             var1 = _closure1_slot14;
             var5 = var1.LISTENING;
             var4 = var6.selfStream;
             var1 = 'screenshare';
-            if(var4) { _fun0003_ip = 222; continue _fun0003 }
- 143:
+            if(var4) { _fun0003_ip = 221; continue _fun0003 }
+ 142:
             var3 = var3 != var2;
             var2 = 'activity';
-            if(var3) { _fun0003_ip = 219; continue _fun0003 }
- 154:
+            if(var3) { _fun0003_ip = 218; continue _fun0003 }
+ 153:
             var4 = var6.selfVideo;
             var3 = 'video';
-            if(var4) { _fun0003_ip = 216; continue _fun0003 }
- 167:
+            if(var4) { _fun0003_ip = 215; continue _fun0003 }
+ 166:
             var4 = 'music';
-            if(!(var7 !== var5)) { _fun0003_ip = 213; continue _fun0003 }
- 177:
+            if(!(var7 !== var5)) { _fun0003_ip = 212; continue _fun0003 }
+ 176:
             var7 = var6.selfDeaf;
             var5 = 'deafened';
-            if(var7) { _fun0003_ip = 210; continue _fun0003 }
- 190:
+            if(var7) { _fun0003_ip = 209; continue _fun0003 }
+ 189:
             var7 = var6.selfMute;
             var6 = 'default';
-            if(!var7) { _fun0003_ip = 207; continue _fun0003 }
- 203:
+            if(!var7) { _fun0003_ip = 206; continue _fun0003 }
+ 202:
             var6 = 'muted';
- 207:
+ 206:
             var5 = var6;
- 210:
+ 209:
             var4 = var5;
- 213:
+ 212:
             var3 = var4;
- 216:
+ 215:
             var2 = var3;
- 219:
+ 218:
             var1 = var2;
- 222:
+ 221:
             return var1;
- 224:
+ 223:
             var1 = 'default';
             return var1;
         }

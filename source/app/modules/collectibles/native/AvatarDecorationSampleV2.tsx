@@ -57,7 +57,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['borderRadius'] = var4;
         var4 = 0.8;
         var2['opacity'] = var4;
+        var6 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var4 = 4;
+        var5 = var5[var4];
+        var4 = undefined;
+        var4 = var6.bind(var4)(var5);
+        var4 = var4.colors;
+        var4 = var4.BG_BASE_SECONDARY;
+        var2['backgroundColor'] = var4;
         var1['avatar'] = var2;
+        var2 = {};
+        var4 = 1;
+        var2['opacity'] = var4;
+        var1['threeTierBundle'] = var2;
         var2 = {};
         var2['position'] = var3;
         var1['avatarDecoration'] = var2;
@@ -69,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot8 = var4;
-    var4 = 8;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -84,18 +97,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var1.avatarSource;
             var12 = var1.animate;
             var11 = var1.isPurchased;
-            var1 = var1.bundle;
+            var16 = var1.threeTierBundle;
             var1 = _closure1_slot8;
             var4 = undefined;
             var15 = var1.bind(var4)(var13);
             var2 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var1 = 4;
+            var1 = 5;
             var1 = var6[var1];
             var3 = var2.bind(var4)(var1);
             var2 = var14.type;
             var5 = _closure1_slot0;
-            var1 = 5;
+            var1 = 6;
             var1 = var6[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.CollectiblesItemType;
@@ -109,27 +122,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot5;
             var6 = _closure1_slot3;
             var5 = {};
-            var16 = var15.avatar;
-            var10 = new Array(2);
-            var10[0] = var16;
-            var16 = var11;
+            var17 = var15.avatar;
+            var10 = new Array(3);
+            var10[0] = var17;
+            var17 = var11;
             if(!var11) { _fun0001_ip = 166; continue _fun0001 }
  160:
-            var16 = var15.purchased;
+            var17 = var15.purchased;
  166:
-            var10[1] = var16;
+            var10[1] = var17;
+            if(!var16) { _fun0001_ip = 179; continue _fun0001 }
+ 173:
+            var16 = var15.threeTierBundle;
+ 179:
+            var10[2] = var16;
             var5['style'] = var10;
             var10 = 'contain';
             var5['resizeMode'] = var10;
             var10 = null;
-            if(!(var10 == var8)) { _fun0001_ip = 209; continue _fun0001 }
- 189:
+            if(!(var10 == var8)) { _fun0001_ip = 222; continue _fun0001 }
+ 202:
             var16 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var10 = 6;
+            var10 = 7;
             var10 = var17[var10];
             var8 = var16.bind(var4)(var10);
- 209:
+ 222:
             var5['source'] = var8;
             var6 = var7.bind(var4)(var6, var5);
             var5 = new Array(2);
@@ -140,16 +158,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var15.avatarDecoration;
             var10 = new Array(2);
             var10[0] = var16;
-            if(!var11) { _fun0001_ip = 260; continue _fun0001 }
- 254:
+            if(!var11) { _fun0001_ip = 273; continue _fun0001 }
+ 267:
             var11 = var15.purchased;
- 260:
+ 273:
             var10[1] = var11;
             var6['style'] = var10;
             var11 = _closure1_slot5;
             var10 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var9 = 7;
+            var9 = 8;
             var9 = var15[var9];
             var10 = var10.bind(var4)(var9);
             var9 = {};

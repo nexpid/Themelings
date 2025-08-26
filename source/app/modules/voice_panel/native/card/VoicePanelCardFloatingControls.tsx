@@ -271,8 +271,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var3.bind(var4)(var2);
             var2 = null;
-            if(!(var2 == var3)) { _fun0004_ip = 271; continue _fun0004 }
- 35:
+            if(!(var2 == var3)) { _fun0004_ip = 269; continue _fun0004 }
+ 34:
             var3 = var4.find;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -289,10 +289,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var3.bind(var4)(var1);
-            if(!(var2 == var1)) { _fun0004_ip = 59; continue _fun0004 }
- 57:
+            if(!(var2 == var1)) { _fun0004_ip = 57; continue _fun0004 }
+ 55:
             return var5;
- 59:
+ 57:
             var3 = var1.muteDeafenIconState;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -302,16 +302,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var6)(var2);
             var2 = var2.MuteDeafenIconState;
             var2 = var2.DEAFENED;
-            if(!(var2 !== var3)) { _fun0004_ip = 205; continue _fun0004 }
- 106:
+            if(!(var2 !== var3)) { _fun0004_ip = 203; continue _fun0004 }
+ 104:
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var7];
             var2 = var4.bind(var6)(var2);
             var2 = var2.MuteDeafenIconState;
             var2 = var2.DEAFENED_SERVER;
-            if(!(var2 !== var3)) { _fun0004_ip = 205; continue _fun0004 }
- 139:
+            if(!(var2 !== var3)) { _fun0004_ip = 203; continue _fun0004 }
+ 137:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 23;
@@ -327,7 +327,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['username'] = var5;
             var2 = var4.bind(var7)(var3, var2);
             return var2;
- 205:
+ 203:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 23;
@@ -343,7 +343,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['username'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 271:
+ 269:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 23;

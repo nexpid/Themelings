@@ -979,11 +979,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = global;
                 var2 = var2.Array;
                 var2 = var12 instanceof var2;
-                if(var2) { _fun0012_ip = 148; continue _fun0012 }
- 140:
+                if(var2) { _fun0012_ip = 147; continue _fun0012 }
+ 139:
                 var2 = var10.roles;
-                _fun0012_ip = 188; continue _fun0012;
- 148:
+                _fun0012_ip = 187; continue _fun0012;
+ 147:
                 var12 = _closure1_slot1;
                 var11 = _closure1_slot2;
                 var11 = var11[var13];
@@ -992,12 +992,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var10.id;
                 var10 = var10.roles;
                 var2 = var12.bind(var13)(var11, var10);
- 188:
+ 187:
                 var3 = var3.bind(var8)(var2);
                 var2 = null;
                 var8 = var2 != var9;
-                if(!var8) { _fun0012_ip = 232; continue _fun0012 }
- 202:
+                if(!var8) { _fun0012_ip = 231; continue _fun0012 }
+ 201:
                 var8 = {};
                 var10 = var9.user;
                 var10 = var10.id;
@@ -1005,7 +1005,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var9.roles;
                 var8['roles'] = var9;
                 var2 = var8;
- 232:
+ 231:
                 var4 = var6.bind(var7)(var4, var3, var2);
                 var3 = var5.put;
                 var2 = arg2;

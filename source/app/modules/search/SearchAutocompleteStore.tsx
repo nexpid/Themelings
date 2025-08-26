@@ -39,13 +39,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot24 = var2;
+            _closure1_slot23 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot23 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = undefined;
             if(!var9) { _fun0002_ip = 247; continue _fun0002 }
  234:
-            var9 = _closure1_slot26;
+            var9 = _closure1_slot25;
             var7 = var9.bind(var8)(var3, var8);
  247:
             _fun0002_ip = 265; continue _fun0002;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7;
             _fun0002_ip = 283; continue _fun0002;
  270:
-            var7 = _closure1_slot26;
+            var7 = _closure1_slot25;
             var6 = var7.bind(var8)(var3, var8);
  283:
             var4 = var6;
@@ -188,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot25 = var1;
+    var _closure1_slot24 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -221,7 +221,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot25 = var1;
     var1 = function getOrCreateUserSearchContext(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var7)(var1);
             var1 = var3.getSearchContextId;
             var4 = var1.bind(var3)(var10);
-            var3 = _closure1_slot21;
+            var3 = _closure1_slot20;
             var1 = var3.get;
             var1 = var1.bind(var3)(var4);
             var9 = null;
@@ -249,20 +249,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8[var5];
             var7 = var6.bind(var7)(var5);
             var6 = var7.getUserSearchContext;
-            var8 = _closure1_slot31;
+            var8 = _closure1_slot30;
             var5 = var8.bind;
             var5 = var5.bind(var8)(var9, var10);
             var5 = var6.bind(var7)(var5);
             var3['context'] = var5;
             var1 = var3;
  123:
-            var3 = _closure1_slot21;
+            var3 = _closure1_slot20;
             var2 = var3.set;
             var2 = var2.bind(var3)(var4, var1);
             return var1;
         }
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot26 = var1;
     var1 = function stateFactory(arg1) {
         var1 = arg1;
         var7 = var1.searchContext;
@@ -271,7 +271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var1.tokens;
         var3 = var1.cursorScope;
         var2 = var1.autocompletes;
-        var8 = _closure1_slot27;
+        var8 = _closure1_slot26;
         var1 = undefined;
         var1 = var8.bind(var1)(var7);
         var1 = {};
@@ -283,7 +283,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['autocompletes'] = var2;
         return var1;
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot27 = var1;
     var1 = function isUserAutocompleteFilter(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
@@ -306,12 +306,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot28 = var1;
     var1 = function isUserAutocompleteMode(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var4 = arg1;
-            var5 = _closure1_slot29;
+            var5 = _closure1_slot28;
             var3 = var4.filter;
             var1 = undefined;
             var3 = var5.bind(var1)(var3);
@@ -334,7 +334,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot30 = var1;
+    var _closure1_slot29 = var1;
     var1 = function handleUserSearchResults(arg1, arg2) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
@@ -349,10 +349,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.getSearchContextId;
             var6 = var3.bind(var4)(var9);
-            var4 = _closure1_slot21;
+            var4 = _closure1_slot20;
             var3 = var4.get;
             var4 = var3.bind(var4)(var6);
-            var5 = _closure1_slot20;
+            var5 = _closure1_slot19;
             var3 = var5.get;
             var5 = var3.bind(var5)(var6);
             var14 = null;
@@ -360,7 +360,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  85:
             if(!(var14 != var5)) { _fun0008_ip = 401; continue _fun0008 }
  92:
-            var7 = _closure1_slot30;
+            var7 = _closure1_slot29;
             var3 = var5.mode;
             var3 = var7.bind(var1)(var3);
             if(!var3) { _fun0008_ip = 401; continue _fun0008 }
@@ -372,14 +372,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = 3;
             if(!(var7 === var3)) { _fun0008_ip = 143; continue _fun0008 }
  139:
-            var13 = _closure1_slot22;
+            var13 = _closure1_slot21;
  143:
             if(!(var13 === var1)) { _fun0008_ip = 150; continue _fun0008 }
  147:
             var13 = 10;
  150:
             var3 = new Array(0);
-            var7 = _closure1_slot25;
+            var7 = _closure1_slot24;
             var12 = var7.bind(var1)(var8);
             var8 = var12.bind(var1)();
             var7 = var8.done;
@@ -423,7 +423,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var5.query;
             var8 = var5.mode;
             var7 = var5.tokens;
-            var4 = _closure1_slot28;
+            var4 = _closure1_slot27;
             var3 = {};
             var3['searchContext'] = var9;
             var3['query'] = var10;
@@ -435,19 +435,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var9, var8, var7);
             var3['autocompletes'] = var5;
             var5 = var4.bind(var1)(var3);
-            var4 = _closure1_slot20;
+            var4 = _closure1_slot19;
             var3 = var4.set;
             var3 = var3.bind(var4)(var6, var5);
-            var3 = _closure1_slot23;
+            var3 = _closure1_slot22;
             var2 = var3.emitChange;
             var2 = var2.bind(var3)();
  401:
             return var1;
         }
     };
+    var _closure1_slot30 = var1;
+    var1 = function setSelectedSearchContext(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+ 0:
+            var3 = arg1;
+            var5 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 16;
+            var4 = var4[var1];
+            var1 = undefined;
+            var5 = var5.bind(var1)(var4);
+            var4 = _closure1_slot18;
+            var4 = var5.bind(var1)(var4, var3);
+            if(var4) { _fun0009_ip = 75; continue _fun0009 }
+ 41:
+            _closure1_slot18 = var3;
+            var3 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var2 = 12;
+            var2 = var4[var2];
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.clearTokenCache;
+            var2 = var2.bind(var3)();
+ 75:
+            return var1;
+        }
+    };
     var _closure1_slot31 = var1;
     var1 = function generateFilterResults(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var1 = arg1;
             var5 = var1.filter;
@@ -455,31 +482,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.searchContext;
             var12 = var1.maxResults;
             var10 = undefined;
-            if(!(var12 === var10)) { _fun0009_ip = 37; continue _fun0009 }
+            if(!(var12 === var10)) { _fun0010_ip = 37; continue _fun0010 }
  34:
             var12 = 10;
  37:
             var11 = var1.tokens;
             var _closure2_slot0 = var10;
             var1 = null;
-            if(!(var1 != var5)) { _fun0009_ip = 502; continue _fun0009 }
+            if(!(var1 != var5)) { _fun0010_ip = 502; continue _fun0010 }
  56:
             var6 = var1 == var7;
             var3 = undefined;
-            if(var6) { _fun0009_ip = 94; continue _fun0009 }
+            if(var6) { _fun0010_ip = 94; continue _fun0010 }
  65:
             var6 = var7.getFullMatch;
             var7 = var6.bind(var7)();
             var6 = var1 == var7;
             var3 = undefined;
-            if(var6) { _fun0009_ip = 94; continue _fun0009 }
+            if(var6) { _fun0010_ip = 94; continue _fun0010 }
  84:
             var6 = var7.trim;
             var3 = var6.bind(var7)();
  94:
             var6 = var1 != var3;
             var9 = '';
-            if(!var6) { _fun0009_ip = 108; continue _fun0009 }
+            if(!var6) { _fun0010_ip = 108; continue _fun0010 }
  105:
             var9 = var3;
  108:
@@ -490,28 +517,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var10)(var3);
             var3 = var6.isGuildLikeSearchContext;
             var3 = var3.bind(var6)(var4);
-            if(!var3) { _fun0009_ip = 157; continue _fun0009 }
+            if(!var3) { _fun0010_ip = 157; continue _fun0010 }
  145:
-            var3 = _closure1_slot29;
+            var3 = _closure1_slot28;
             var3 = var3.bind(var10)(var5);
-            if(var3) { _fun0009_ip = 234; continue _fun0009 }
+            if(var3) { _fun0010_ip = 234; continue _fun0010 }
  157:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var3 = 18;
+            var3 = 19;
             var3 = var7[var3];
             var3 = var6.bind(var10)(var3);
             var3 = var3[var5];
             var6 = var1 == var3;
             var7 = undefined;
-            if(var6) { _fun0009_ip = 196; continue _fun0009 }
+            if(var6) { _fun0010_ip = 196; continue _fun0010 }
  190:
             var7 = var3.getAutocompletions;
  196:
-            if(!(var1 == var7)) { _fun0009_ip = 206; continue _fun0009 }
+            if(!(var1 == var7)) { _fun0010_ip = 206; continue _fun0010 }
  200:
             var6 = new Array(0);
-            _fun0009_ip = 232; continue _fun0009;
+            _fun0010_ip = 232; continue _fun0010;
  206:
             var3 = {};
             var3['query'] = var9;
@@ -520,13 +547,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['tokens'] = var11;
             var6 = var7.bind(var10)(var3);
  232:
-            _fun0009_ip = 337; continue _fun0009;
+            _fun0010_ip = 337; continue _fun0010;
  234:
-            var3 = _closure1_slot27;
+            var3 = _closure1_slot26;
             var3 = var3.bind(var10)(var4);
             var11 = var9.length;
             var7 = 0;
-            if(!(var7 === var11)) { _fun0009_ip = 331; continue _fun0009 }
+            if(!(var7 === var11)) { _fun0010_ip = 331; continue _fun0010 }
  254:
             var11 = _closure1_slot11;
             var7 = var11.getCurrentlySelectedChannelId;
@@ -534,11 +561,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var7.bind(var11)(var4);
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
-            var4 = 17;
+            var4 = 18;
             var4 = var11[var4];
             var11 = var7.bind(var10)(var4);
             var7 = var11.getRecentlyTalked;
-            var4 = _closure1_slot22;
+            var4 = _closure1_slot21;
             var11 = var7.bind(var11)(var12, var4);
             var7 = var11.map;
             var4 = function(arg1) {
@@ -563,40 +590,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var3.results;
  337:
             var4 = var6;
-            if(!(var1 != var4)) { _fun0009_ip = 463; continue _fun0009 }
+            if(!(var1 != var4)) { _fun0010_ip = 463; continue _fun0010 }
  344:
-            var3 = _closure1_slot29;
+            var3 = _closure1_slot28;
             var3 = var3.bind(var10)(var5);
             var4 = var6;
-            if(!var3) { _fun0009_ip = 463; continue _fun0009 }
+            if(!var3) { _fun0010_ip = 463; continue _fun0010 }
  359:
             var7 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 18;
+            var3 = 19;
             var3 = var11[var3];
             var7 = var7.bind(var10)(var3);
             var3 = var7.isMeAutcompleteAnswer;
             var3 = var3.bind(var7)(var9);
             var4 = var6;
-            if(!var3) { _fun0009_ip = 463; continue _fun0009 }
+            if(!var3) { _fun0010_ip = 463; continue _fun0010 }
  396:
             var7 = _closure1_slot13;
             var3 = var7.getCurrentUser;
             var7 = var3.bind(var7)();
             _closure2_slot0 = var7;
             var4 = var6;
-            if(!(var1 != var7)) { _fun0009_ip = 463; continue _fun0009 }
+            if(!(var1 != var7)) { _fun0010_ip = 463; continue _fun0010 }
  420:
             var3 = var6.filter;
             var2 = function(arg1) {
-                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
                     var1 = arg1;
                     var1 = var1.user;
                     var2 = null;
                     var3 = var2 == var1;
                     var2 = undefined;
-                    if(var3) { _fun0010_ip = 24; continue _fun0010 }
+                    if(var3) { _fun0011_ip = 24; continue _fun0011 }
  19:
                     var2 = var1.id;
  24:
@@ -609,7 +636,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var6)(var2);
             var6 = var2.unshift;
             var3 = {};
-            var8 = _closure1_slot18;
+            var8 = _closure1_slot17;
             var3['text'] = var8;
             var3['user'] = var7;
             var3 = var6.bind(var2)(var3);
@@ -617,12 +644,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  463:
             var3 = var1 == var4;
             var2 = null;
-            if(var3) { _fun0009_ip = 500; continue _fun0009 }
+            if(var3) { _fun0010_ip = 500; continue _fun0010 }
  472:
             var6 = var4.length;
             var3 = 0;
             var2 = null;
-            if(!(var3 !== var6)) { _fun0009_ip = 500; continue _fun0009 }
+            if(!(var3 !== var6)) { _fun0010_ip = 500; continue _fun0010 }
  485:
             var3 = {};
             var3['group'] = var5;
@@ -636,13 +663,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var _closure1_slot32 = var1;
     var1 = function generateSearchOptions(arg1, arg2) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var4 = arg1;
             var2 = null;
             var2 = var2 != var4;
             var3 = '';
-            if(!var2) { _fun0011_ip = 28; continue _fun0011 }
+            if(!var2) { _fun0012_ip = 28; continue _fun0012 }
  18:
             var2 = var4.getFullMatch;
             var3 = var2.bind(var4)();
@@ -738,20 +765,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = new var15[var9](var14, var13);
             var2 = var2 instanceof Object ? var2 : var8;
             var _closure2_slot0 = var2;
-            var2 = 18;
+            var2 = 19;
             var2 = var7[var2];
             var4 = var6.bind(var4)(var2);
             var2 = var4.getSearchTokenFilterAutocompletions;
             var4 = var2.bind(var4)(var5);
             var2 = var4.filter;
             var1 = function(arg1) {
-                _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+                _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
                     var2 = arg1;
                     var3 = var2.token;
                     var1 = null;
                     var1 = var1 != var3;
-                    if(!var1) { _fun0012_ip = 47; continue _fun0012 }
+                    if(!var1) { _fun0013_ip = 47; continue _fun0013 }
  18:
                     var4 = _closure2_slot0;
                     var3 = var4.get;
@@ -774,7 +801,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var _closure1_slot33 = var1;
     var1 = function generateGlobalResults(arg1, arg2, arg3) {
-        _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
             var6 = arg2;
             var _closure2_slot0 = var6;
@@ -787,23 +814,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2 == var5;
             var4 = undefined;
             var8 = undefined;
-            if(var1) { _fun0013_ip = 71; continue _fun0013 }
+            if(var1) { _fun0014_ip = 71; continue _fun0014 }
  42:
             var1 = var5.getFullMatch;
             var7 = var1.bind(var5)();
             var1 = var2 == var7;
             var8 = undefined;
-            if(var1) { _fun0013_ip = 71; continue _fun0013 }
+            if(var1) { _fun0014_ip = 71; continue _fun0014 }
  61:
             var1 = var7.trim;
             var8 = var1.bind(var7)();
  71:
             var1 = new Array(0);
             var _closure2_slot3 = var1;
-            if(!(var2 != var8)) { _fun0013_ip = 678; continue _fun0013 }
+            if(!(var2 != var8)) { _fun0014_ip = 678; continue _fun0014 }
  86:
             var7 = '';
-            if(!(var7 !== var8)) { _fun0013_ip = 678; continue _fun0013 }
+            if(!(var7 !== var8)) { _fun0014_ip = 678; continue _fun0014 }
  97:
             var8 = _closure1_slot16;
             var8 = var8.FILTER_HAS;
@@ -811,7 +838,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[0] = var8;
             var8 = _closure1_slot12;
             var8 = var8.hidePersonalInformation;
-            if(var8) { _fun0013_ip = 171; continue _fun0013 }
+            if(var8) { _fun0014_ip = 171; continue _fun0014 }
  131:
             var11 = var10.push;
             var8 = _closure1_slot16;
@@ -829,7 +856,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var4)(var8);
             var8 = var11.isChannelFilterSupported;
             var8 = var8.bind(var11)(var6);
-            if(!var8) { _fun0013_ip = 225; continue _fun0013 }
+            if(!var8) { _fun0014_ip = 225; continue _fun0014 }
  205:
             var11 = var10.push;
             var8 = _closure1_slot16;
@@ -838,11 +865,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  225:
             var8 = var10.forEach;
             var3 = function(arg1) {
-                _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                     var1 = arg1;
                     var2 = null;
-                    if(!(var2 != var1)) { _fun0014_ip = 85; continue _fun0014 }
+                    if(!(var2 != var1)) { _fun0015_ip = 85; continue _fun0015 }
  9:
                     var5 = _closure1_slot32;
                     var4 = {};
@@ -857,7 +884,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['tokens'] = var3;
                     var3 = undefined;
                     var3 = var5.bind(var3)(var4);
-                    if(!(var2 != var3)) { _fun0014_ip = 85; continue _fun0014 }
+                    if(!(var2 != var3)) { _fun0015_ip = 85; continue _fun0015 }
  71:
                     var2 = _closure2_slot3;
                     var1 = var2.push;
@@ -870,7 +897,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8.bind(var10)(var3);
             var3 = var2 != var5;
             var8 = var7;
-            if(!var3) { _fun0013_ip = 260; continue _fun0013 }
+            if(!var3) { _fun0014_ip = 260; continue _fun0014 }
  250:
             var3 = var5.getFullMatch;
             var8 = var3.bind(var5)();
@@ -879,14 +906,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var3.bind(var8)();
             var8 = var2 == var14;
             var3 = null;
-            if(var8) { _fun0013_ip = 664; continue _fun0013 }
+            if(var8) { _fun0014_ip = 664; continue _fun0014 }
  282:
             var3 = null;
-            if(!(var7 !== var14)) { _fun0013_ip = 664; continue _fun0013 }
+            if(!(var7 !== var14)) { _fun0014_ip = 664; continue _fun0014 }
  291:
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var12 = 18;
+            var12 = 19;
             var7 = var7[var12];
             var8 = var8.bind(var4)(var7);
             var7 = _closure1_slot16;
@@ -894,12 +921,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var8[var7];
             var8 = var2 == var11;
             var7 = undefined;
-            if(var8) { _fun0013_ip = 394; continue _fun0013 }
+            if(var8) { _fun0014_ip = 394; continue _fun0014 }
  334:
             var8 = var11.getAutocompletions;
             var8 = var2 == var8;
             var7 = undefined;
-            if(var8) { _fun0013_ip = 394; continue _fun0013 }
+            if(var8) { _fun0014_ip = 394; continue _fun0014 }
  349:
             var10 = var11.getAutocompletions;
             var8 = {};
@@ -910,7 +937,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.bind(var11)(var8);
             var8 = var2 == var10;
             var7 = undefined;
-            if(var8) { _fun0013_ip = 394; continue _fun0013 }
+            if(var8) { _fun0014_ip = 394; continue _fun0014 }
  388:
             var8 = 0;
             var7 = var10[var8];
@@ -924,12 +951,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var10[var8];
             var8 = var2 == var13;
             var11 = undefined;
-            if(var8) { _fun0013_ip = 494; continue _fun0013 }
+            if(var8) { _fun0014_ip = 494; continue _fun0014 }
  434:
             var8 = var13.getAutocompletions;
             var8 = var2 == var8;
             var11 = undefined;
-            if(var8) { _fun0013_ip = 494; continue _fun0013 }
+            if(var8) { _fun0014_ip = 494; continue _fun0014 }
  449:
             var10 = var13.getAutocompletions;
             var8 = {};
@@ -940,7 +967,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.bind(var13)(var8);
             var8 = var2 == var10;
             var11 = undefined;
-            if(var8) { _fun0013_ip = 494; continue _fun0013 }
+            if(var8) { _fun0014_ip = 494; continue _fun0014 }
  488:
             var8 = 0;
             var11 = var10[var8];
@@ -954,12 +981,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var10[var8];
             var8 = var2 == var13;
             var10 = undefined;
-            if(var8) { _fun0013_ip = 594; continue _fun0013 }
+            if(var8) { _fun0014_ip = 594; continue _fun0014 }
  534:
             var8 = var13.getAutocompletions;
             var8 = var2 == var8;
             var10 = undefined;
-            if(var8) { _fun0013_ip = 594; continue _fun0013 }
+            if(var8) { _fun0014_ip = 594; continue _fun0014 }
  549:
             var12 = var13.getAutocompletions;
             var8 = {};
@@ -970,23 +997,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.bind(var13)(var8);
             var8 = var2 == var12;
             var10 = undefined;
-            if(var8) { _fun0013_ip = 594; continue _fun0013 }
+            if(var8) { _fun0014_ip = 594; continue _fun0014 }
  588:
             var8 = 0;
             var10 = var12[var8];
  594:
             var8 = var2 == var7;
             var3 = null;
-            if(var8) { _fun0013_ip = 664; continue _fun0013 }
+            if(var8) { _fun0014_ip = 664; continue _fun0014 }
  603:
             var8 = new Array(1);
             var8[0] = var7;
-            if(!(var2 != var11)) { _fun0013_ip = 625; continue _fun0013 }
+            if(!(var2 != var11)) { _fun0014_ip = 625; continue _fun0014 }
  615:
             var7 = var8.push;
             var7 = var7.bind(var8)(var11);
  625:
-            if(!(var2 != var10)) { _fun0013_ip = 639; continue _fun0013 }
+            if(!(var2 != var10)) { _fun0014_ip = 639; continue _fun0014 }
  629:
             var7 = var8.push;
             var7 = var7.bind(var8)(var10);
@@ -998,7 +1025,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['results'] = var8;
             var3 = var7;
  664:
-            if(!(var2 != var3)) { _fun0013_ip = 678; continue _fun0013 }
+            if(!(var2 != var3)) { _fun0014_ip = 678; continue _fun0014 }
  668:
             var2 = var1.push;
             var2 = var2.bind(var1)(var3);
@@ -1011,7 +1038,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.getTotalResults;
             var7 = var3.bind(var7)(var1);
             var3 = 5;
-            if(!(var7 < var3)) { _fun0013_ip = 739; continue _fun0013 }
+            if(!(var7 < var3)) { _fun0014_ip = 739; continue _fun0014 }
  719:
             var3 = var1.push;
             var2 = _closure1_slot33;
@@ -1023,7 +1050,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var _closure1_slot34 = var1;
     var1 = function getAutocompleteList(arg1, arg2, arg3) {
-        _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
             var5 = arg1;
             var6 = arg2;
@@ -1031,15 +1058,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.type;
             var2 = _closure1_slot14;
             var2 = var2.FILTER;
-            if(!(var2 !== var3)) { _fun0015_ip = 112; continue _fun0015 }
+            if(!(var2 !== var3)) { _fun0016_ip = 112; continue _fun0016 }
  31:
             var2 = _closure1_slot14;
             var2 = var2.FILTER_ALL;
-            if(!(var2 !== var3)) { _fun0015_ip = 97; continue _fun0015 }
+            if(!(var2 !== var3)) { _fun0016_ip = 97; continue _fun0016 }
  45:
             var2 = _closure1_slot14;
             var2 = var2.EMPTY;
-            if(!(var2 !== var3)) { _fun0015_ip = 63; continue _fun0015 }
+            if(!(var2 !== var3)) { _fun0016_ip = 63; continue _fun0016 }
  59:
             var2 = undefined;
             return var2;
@@ -1065,16 +1092,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.token;
             var2['currentToken'] = var6;
             var2['searchContext'] = var5;
-            var4 = _closure1_slot22;
+            var4 = _closure1_slot21;
             var2['maxResults'] = var4;
             var2['tokens'] = var1;
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
             var1 = null;
-            if(!(var1 == var3)) { _fun0015_ip = 176; continue _fun0015 }
+            if(!(var1 == var3)) { _fun0016_ip = 176; continue _fun0016 }
  170:
             var1 = new Array(0);
-            _fun0015_ip = 187; continue _fun0015;
+            _fun0016_ip = 187; continue _fun0016;
  176:
             var2 = new Array(1);
             var2[0] = var3;
@@ -1096,14 +1123,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1 = function removeHistoryFromResults(arg1) {
-        _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
+        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
             var4 = arg1;
-            var5 = _closure1_slot20;
+            var5 = _closure1_slot19;
             var2 = var5.get;
             var2 = var2.bind(var5)(var4);
             var5 = null;
-            if(!(var5 != var2)) { _fun0016_ip = 141; continue _fun0016 }
+            if(!(var5 != var2)) { _fun0017_ip = 141; continue _fun0017 }
  28:
             var10 = var2.searchContext;
             var9 = var2.query;
@@ -1115,13 +1142,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var2;
             var5 = var11.forEach;
             var3 = function(arg1) {
-                _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
                     var3 = arg1;
                     var2 = var3.group;
                     var1 = _closure1_slot15;
                     var1 = var1.HISTORY;
-                    if(!(var2 !== var1)) { _fun0017_ip = 43; continue _fun0017 }
+                    if(!(var2 !== var1)) { _fun0018_ip = 43; continue _fun0018 }
  26:
                     var2 = _closure2_slot0;
                     var1 = var2.push;
@@ -1132,7 +1159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var3 = var5.bind(var11)(var3);
-            var5 = _closure1_slot28;
+            var5 = _closure1_slot27;
             var3 = {};
             var3['searchContext'] = var10;
             var3['query'] = var9;
@@ -1142,7 +1169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['autocompletes'] = var2;
             var2 = undefined;
             var3 = var5.bind(var2)(var3);
-            var2 = _closure1_slot20;
+            var2 = _closure1_slot19;
             var1 = var2.set;
             var1 = var1.bind(var2)(var4, var3);
  141:
@@ -1152,7 +1179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var _closure1_slot36 = var1;
     var1 = function rebuildAutocompleteResults(arg1) {
-        _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+        _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
             var9 = arg1;
             var4 = _closure1_slot0;
@@ -1163,16 +1190,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.getSearchContextId;
             var5 = var3.bind(var4)(var9);
-            var4 = _closure1_slot20;
+            var4 = _closure1_slot19;
             var3 = var4.get;
             var6 = var3.bind(var4)(var5);
             var3 = null;
-            if(!(var3 != var6)) { _fun0018_ip = 148; continue _fun0018 }
+            if(!(var3 != var6)) { _fun0019_ip = 148; continue _fun0019 }
  59:
             var10 = var6.query;
             var8 = var6.mode;
             var7 = var6.tokens;
-            var4 = _closure1_slot28;
+            var4 = _closure1_slot27;
             var3 = {};
             var3['searchContext'] = var9;
             var3['query'] = var10;
@@ -1184,7 +1211,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var1)(var9, var8, var7);
             var3['autocompletes'] = var6;
             var4 = var4.bind(var1)(var3);
-            var3 = _closure1_slot20;
+            var3 = _closure1_slot19;
             var2 = var3.set;
             var2 = var2.bind(var3)(var5, var4);
             return var1;
@@ -1256,34 +1283,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot15 = var11;
     var11 = var10.SearchTokenTypes;
     var _closure1_slot16 = var11;
-    var11 = var10.SearchTypes;
-    var _closure1_slot17 = var11;
     var10 = var10.ME;
-    var _closure1_slot18 = var10;
+    var _closure1_slot17 = var10;
     var10 = null;
-    var _closure1_slot19 = var10;
+    var _closure1_slot18 = var10;
     var10 = var9.Map;
     var11 = var10.prototype;
     var11 = Object.create(var11, {constructor: {value: var10}});
     var15 = var11;
     var10 = new var15[var10](var14);
     var10 = var10 instanceof Object ? var10 : var11;
-    var _closure1_slot20 = var10;
+    var _closure1_slot19 = var10;
     var9 = var9.Map;
     var10 = var9.prototype;
     var10 = Object.create(var10, {constructor: {value: var9}});
     var15 = var10;
     var9 = new var15[var9](var14);
     var9 = var9 instanceof Object ? var9 : var10;
-    var _closure1_slot21 = var9;
-    var _closure1_slot22 = var2;
-    var2 = 19;
+    var _closure1_slot20 = var9;
+    var _closure1_slot21 = var2;
+    var2 = 20;
     var2 = var6[var2];
     var2 = var8.bind(var1)(var2);
     var9 = var2.Store;
     var2 = function(arg1) {
         var4 = function SearchAutocompleteStoreClass() {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
  0:
                 var4 = this;
                 var3 = undefined;
@@ -1294,15 +1319,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot6;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot5;
-                var1 = _closure1_slot24;
+                var1 = _closure1_slot23;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0019_ip = 69; continue _fun0019 }
+                if(var1) { _fun0020_ip = 69; continue _fun0020 }
  51:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0019_ip = 105; continue _fun0019;
+                _fun0020_ip = 105; continue _fun0020;
  69:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -1346,7 +1371,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getState';
         var5['key'] = var7;
         var7 = function value(arg1) {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
  0:
                 var4 = arg1;
                 var3 = _closure1_slot0;
@@ -1357,11 +1382,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var1)(var2);
                 var1 = var2.getSearchContextId;
                 var3 = var1.bind(var2)(var4);
-                var2 = _closure1_slot20;
+                var2 = _closure1_slot19;
                 var1 = var2.get;
                 var1 = var1.bind(var2)(var3);
                 var3 = null;
-                if(!(var3 == var1)) { _fun0020_ip = 134; continue _fun0020 }
+                if(!(var3 == var1)) { _fun0021_ip = 134; continue _fun0021 }
  59:
                 var2 = {};
                 var2['searchContext'] = var4;
@@ -1388,7 +1413,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getSelectedSearchContext';
         var5['key'] = var7;
         var6 = function value() {
-            var1 = _closure1_slot19;
+            var1 = _closure1_slot18;
             return var1;
         };
         var5['value'] = var6;
@@ -1399,23 +1424,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var2.bind(var1)(var9);
     var2 = 'SearchAutocompleteStore';
     var9['displayName'] = var2;
-    var2 = 20;
+    var2 = 21;
     var2 = var6[var2];
     var14 = var8.bind(var1)(var2);
     var2 = {};
     var10 = function handleQueryUpdate(arg1) {
-        _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
  0:
             var1 = arg1;
             var12 = var1.searchContext;
             var9 = var1.tokens;
             var8 = var1.cursorScope;
-            _closure1_slot19 = var12;
+            var1 = _closure1_slot31;
+            var6 = undefined;
+            var1 = var1.bind(var6)(var12);
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var17 = 12;
             var4 = var1[var17];
-            var6 = undefined;
             var5 = var3.bind(var6)(var4);
             var4 = var5.getQueryFromTokens;
             var11 = var4.bind(var5)(var9);
@@ -1427,90 +1453,90 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var6)(var1);
             var1 = var3.getSearchContextId;
             var5 = var1.bind(var3)(var12);
-            var3 = _closure1_slot20;
+            var3 = _closure1_slot19;
             var1 = var3.get;
             var3 = var1.bind(var3)(var5);
             var4 = null;
-            if(!(var4 != var3)) { _fun0021_ip = 165; continue _fun0021 }
- 122:
+            if(!(var4 != var3)) { _fun0022_ip = 170; continue _fun0022 }
+ 127:
             var1 = var3.query;
-            if(!(var11 === var1)) { _fun0021_ip = 165; continue _fun0021 }
- 131:
+            if(!(var11 === var1)) { _fun0022_ip = 170; continue _fun0022 }
+ 136:
             var1 = var3.mode;
-            if(!(var4 != var1)) { _fun0021_ip = 483; continue _fun0021 }
- 143:
+            if(!(var4 != var1)) { _fun0022_ip = 488; continue _fun0022 }
+ 148:
             var1 = var3.mode;
             var7 = var1.filter;
             var1 = var10.filter;
-            if(!(var7 !== var1)) { _fun0021_ip = 483; continue _fun0021 }
- 165:
-            var1 = _closure1_slot30;
+            if(!(var7 !== var1)) { _fun0022_ip = 488; continue _fun0022 }
+ 170:
+            var1 = _closure1_slot29;
             var1 = var1.bind(var6)(var10);
-            if(var1) { _fun0021_ip = 238; continue _fun0021 }
- 177:
-            var7 = _closure1_slot21;
+            if(var1) { _fun0022_ip = 243; continue _fun0022 }
+ 182:
+            var7 = _closure1_slot20;
             var1 = var7.get;
             var7 = var1.bind(var7)(var5);
-            if(!(var4 != var7)) { _fun0021_ip = 220; continue _fun0021 }
- 195:
+            if(!(var4 != var7)) { _fun0022_ip = 225; continue _fun0022 }
+ 200:
             var13 = var7.context;
             var1 = var13.clearQuery;
             var1 = var1.bind(var13)();
             var1 = new Array(0);
             var7['results'] = var1;
- 220:
+ 225:
             var1 = _closure1_slot35;
             var7 = var1.bind(var6)(var12, var10, var9);
             var1 = true;
-            _fun0021_ip = 491; continue _fun0021;
- 238:
-            var13 = _closure1_slot27;
+            _fun0022_ip = 496; continue _fun0022;
+ 243:
+            var13 = _closure1_slot26;
             var13 = var13.bind(var6)(var12);
             var15 = var10.token;
             var14 = var4 == var15;
             var16 = undefined;
-            if(var14) { _fun0021_ip = 291; continue _fun0021 }
- 262:
+            if(var14) { _fun0022_ip = 296; continue _fun0022 }
+ 267:
             var14 = var15.getFullMatch;
             var15 = var14.bind(var15)();
             var14 = var4 == var15;
             var16 = undefined;
-            if(var14) { _fun0021_ip = 291; continue _fun0021 }
- 281:
+            if(var14) { _fun0022_ip = 296; continue _fun0022 }
+ 286:
             var14 = var15.trim;
             var16 = var14.bind(var15)();
- 291:
-            if(!(var4 != var16)) { _fun0021_ip = 306; continue _fun0021 }
- 295:
+ 296:
+            if(!(var4 != var16)) { _fun0022_ip = 311; continue _fun0022 }
+ 300:
             var15 = var16.length;
             var14 = 0;
-            if(!(!(var15 > var14))) { _fun0021_ip = 339; continue _fun0021 }
- 306:
+            if(!(!(var15 > var14))) { _fun0022_ip = 344; continue _fun0022 }
+ 311:
             var15 = var13.context;
             var14 = var15.clearQuery;
             var14 = var14.bind(var15)();
             var14 = _closure1_slot35;
             var7 = var14.bind(var6)(var12, var10, var9);
             var1 = true;
-            _fun0021_ip = 491; continue _fun0021;
- 339:
+            _fun0022_ip = 496; continue _fun0022;
+ 344:
             var15 = _closure1_slot0;
             var14 = _closure1_slot2;
             var14 = var14[var17];
             var15 = var15.bind(var6)(var14);
             var14 = var15.getGuildIdFromSearchContext;
             var18 = var14.bind(var15)(var12);
-            if(!(var4 != var18)) { _fun0021_ip = 408; continue _fun0021 }
- 371:
+            if(!(var4 != var18)) { _fun0022_ip = 413; continue _fun0022 }
+ 376:
             var15 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var14 = 16;
+            var14 = 17;
             var14 = var17[var14];
             var17 = var15.bind(var6)(var14);
             var15 = var17.requestMembers;
-            var14 = _closure1_slot22;
+            var14 = _closure1_slot21;
             var14 = var15.bind(var17)(var18, var16, var14);
- 408:
+ 413:
             var15 = var13.context;
             var14 = var15.setQuery;
             var13 = {};
@@ -1518,31 +1544,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = {};
             var19 = var4 != var18;
             var17 = undefined;
-            if(!var19) { _fun0021_ip = 439; continue _fun0021 }
- 436:
+            if(!var19) { _fun0022_ip = 444; continue _fun0022 }
+ 441:
             var17 = var18;
- 439:
+ 444:
             var16['guild'] = var17;
             var13['filters'] = var16;
             var13 = var14.bind(var15)(var13);
             var14 = var4 == var3;
             var13 = undefined;
-            if(var14) { _fun0021_ip = 468; continue _fun0021 }
- 462:
+            if(var14) { _fun0022_ip = 473; continue _fun0022 }
+ 467:
             var13 = var3.autocompletes;
- 468:
-            if(!(var4 == var13)) { _fun0021_ip = 476; continue _fun0021 }
- 472:
+ 473:
+            if(!(var4 == var13)) { _fun0022_ip = 481; continue _fun0022 }
+ 477:
             var13 = new Array(0);
- 476:
+ 481:
             var1 = false;
             var7 = var13;
-            _fun0021_ip = 491; continue _fun0021;
- 483:
+            _fun0022_ip = 496; continue _fun0022;
+ 488:
             var7 = var3.autocompletes;
             var1 = false;
- 491:
-            var4 = _closure1_slot28;
+ 496:
+            var4 = _closure1_slot27;
             var3 = {};
             var3['searchContext'] = var12;
             var3['query'] = var11;
@@ -1551,7 +1577,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['cursorScope'] = var8;
             var3['autocompletes'] = var7;
             var4 = var4.bind(var6)(var3);
-            var3 = _closure1_slot20;
+            var3 = _closure1_slot19;
             var2 = var3.set;
             var2 = var2.bind(var3)(var5, var4);
             return var1;
@@ -1559,29 +1585,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['SEARCH_AUTOCOMPLETE_QUERY_UPDATE'] = var10;
     var10 = function clearSearchState(arg1) {
-        _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
  0:
             var1 = arg1;
             var5 = var1.id;
-            var3 = _closure1_slot21;
+            var3 = _closure1_slot20;
             var1 = var3.get;
             var4 = var1.bind(var3)(var5);
             var1 = null;
-            if(!(var1 != var4)) { _fun0022_ip = 70; continue _fun0022 }
+            if(!(var1 != var4)) { _fun0023_ip = 70; continue _fun0023 }
  31:
             var6 = var4.context;
             var3 = var6.destroy;
             var3 = var3.bind(var6)();
             var3 = new Array(0);
             var4['results'] = var3;
-            var4 = _closure1_slot21;
-            var3 = var4.delete;
-            var3 = var3.bind(var4)(var5);
- 70:
             var4 = _closure1_slot20;
             var3 = var4.delete;
             var3 = var3.bind(var4)(var5);
-            _closure1_slot19 = var1;
+ 70:
+            var4 = _closure1_slot19;
+            var3 = var4.delete;
+            var3 = var3.bind(var4)(var5);
+            _closure1_slot18 = var1;
             var1 = undefined;
             return var1;
         }
@@ -1590,15 +1616,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CHANNEL_CREATE'] = var7;
     var2['CHANNEL_DELETE'] = var7;
     var7 = function handleMiscActions() {
-        _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
  0:
-            var3 = _closure1_slot19;
+            var3 = _closure1_slot18;
             var1 = null;
             var1 = var1 != var3;
-            if(!var1) { _fun0023_ip = 31; continue _fun0023 }
+            if(!var1) { _fun0024_ip = 31; continue _fun0024 }
  16:
             var4 = _closure1_slot37;
-            var3 = _closure1_slot19;
+            var3 = _closure1_slot18;
             var2 = undefined;
             var1 = var4.bind(var2)(var3);
  31:
@@ -1609,81 +1635,84 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleSearchScreenOpen(arg1) {
         var1 = arg1;
         var3 = var1.searchContext;
-        _closure1_slot19 = var3;
-        var2 = _closure1_slot37;
+        var4 = _closure1_slot31;
         var1 = undefined;
+        var4 = var4.bind(var1)(var3);
+        var2 = _closure1_slot37;
         var2 = var2.bind(var1)(var3);
         return var1;
     };
     var2['SEARCH_SCREEN_OPEN'] = var7;
-    var7 = function handleChannelSelect(arg1) {
-        _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+    var7 = function handleChannelSelect() {
+        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
  0:
-            var1 = arg1;
-            var7 = var1.channelId;
-            var1 = _closure1_slot19;
-            var3 = null;
-            if(!(var3 != var1)) { _fun0024_ip = 247; continue _fun0024 }
- 24:
-            var1 = _closure1_slot19;
-            var4 = var1.type;
-            var1 = _closure1_slot17;
-            var1 = var1.DMS;
-            if(!(var4 === var1)) { _fun0024_ip = 87; continue _fun0024 }
- 47:
+            var3 = _closure1_slot18;
+            var2 = null;
+            if(!(var2 != var3)) { _fun0025_ip = 243; continue _fun0025 }
+ 16:
             var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
+            var3 = _closure1_slot2;
             var6 = 12;
-            var1 = var1[var6];
-            var4 = undefined;
-            var8 = var5.bind(var4)(var1);
-            var5 = var8.isChannelFilterSupported;
-            var1 = _closure1_slot19;
-            var1 = var5.bind(var8)(var1);
-            if(var1) { _fun0024_ip = 91; continue _fun0024 }
- 87:
-            var1 = false;
-            return var1;
- 91:
-            var5 = _closure1_slot8;
-            var1 = var5.getChannel;
-            var5 = var1.bind(var5)(var7);
-            if(!(var3 != var5)) { _fun0024_ip = 243; continue _fun0024 }
- 112:
-            var1 = var5.isPrivate;
-            var1 = var1.bind(var5)();
-            if(!var1) { _fun0024_ip = 243; continue _fun0024 }
- 125:
+            var4 = var3[var6];
+            var3 = undefined;
+            var7 = var5.bind(var3)(var4);
+            var5 = var7.isChannelFilterSupported;
+            var4 = _closure1_slot18;
+            var4 = var5.bind(var7)(var4);
+            if(!var4) { _fun0025_ip = 220; continue _fun0025 }
+ 59:
             var5 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var1 = var1[var6];
-            var6 = var5.bind(var4)(var1);
+            var4 = _closure1_slot2;
+            var4 = var4[var6];
+            var6 = var5.bind(var3)(var4);
             var5 = var6.getSearchContextId;
-            var1 = _closure1_slot19;
-            var6 = var5.bind(var6)(var1);
-            var5 = _closure1_slot20;
-            var1 = var5.get;
-            var1 = var1.bind(var5)(var6);
-            if(!(var3 != var1)) { _fun0024_ip = 239; continue _fun0024 }
- 175:
-            var1 = var1.mode;
-            var3 = var1.type;
-            var5 = var1.filter;
-            var1 = _closure1_slot14;
-            var1 = var1.FILTER;
-            var1 = var3 === var1;
-            if(!var1) { _fun0024_ip = 221; continue _fun0024 }
- 207:
-            var3 = _closure1_slot16;
-            var3 = var3.FILTER_IN;
-            var1 = var5 === var3;
- 221:
-            if(!var1) { _fun0024_ip = 237; continue _fun0024 }
+            var4 = _closure1_slot18;
+            var6 = var5.bind(var6)(var4);
+            var5 = _closure1_slot19;
+            var4 = var5.get;
+            var4 = var4.bind(var5)(var6);
+            if(!(var2 != var4)) { _fun0025_ip = 239; continue _fun0025 }
+ 112:
+            var4 = var4.mode;
+            var6 = var4.type;
+            var5 = var4.filter;
+            var8 = var4.token;
+            var7 = var2 == var8;
+            var4 = undefined;
+            if(var7) { _fun0025_ip = 171; continue _fun0025 }
+ 142:
+            var7 = var8.getFullMatch;
+            var8 = var7.bind(var8)();
+            var7 = var2 == var8;
+            var4 = undefined;
+            if(var7) { _fun0025_ip = 171; continue _fun0025 }
+ 161:
+            var7 = var8.trim;
+            var4 = var7.bind(var8)();
+ 171:
+            var2 = var2 == var4;
+            if(var2) { _fun0025_ip = 189; continue _fun0025 }
+ 178:
+            var7 = var4.length;
+            var4 = 0;
+            var2 = var4 === var7;
+ 189:
+            var4 = _closure1_slot14;
+            var4 = var4.FILTER;
+            if(!(var6 === var4)) { _fun0025_ip = 220; continue _fun0025 }
+ 203:
+            var4 = _closure1_slot16;
+            var4 = var4.FILTER_IN;
+            if(!(var5 === var4)) { _fun0025_ip = 220; continue _fun0025 }
+ 217:
+            if(var2) { _fun0025_ip = 224; continue _fun0025 }
+ 220:
+            var2 = false;
+            return var2;
  224:
-            var3 = _closure1_slot37;
-            var2 = _closure1_slot19;
-            var1 = var3.bind(var4)(var2);
- 237:
+            var2 = _closure1_slot37;
+            var1 = _closure1_slot18;
+            var1 = var2.bind(var3)(var1);
             return var1;
  239:
             var1 = false;
@@ -1691,24 +1720,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  243:
             var1 = false;
             return var1;
- 247:
-            var1 = false;
-            return var1;
         }
     };
     var2['CHANNEL_SELECT'] = var7;
     var7 = function handleLogOut() {
-        _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
  0:
-            var3 = _closure1_slot25;
-            var2 = _closure1_slot20;
+            var3 = _closure1_slot24;
+            var2 = _closure1_slot19;
             var1 = var2.keys;
             var2 = var1.bind(var2)();
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
             var3 = var4.bind(var1)();
             var2 = var3.done;
-            if(var2) { _fun0025_ip = 68; continue _fun0025 }
+            if(var2) { _fun0026_ip = 68; continue _fun0026 }
  39:
             var6 = _closure1_slot36;
             var2 = var3.value;
@@ -1716,7 +1742,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var1)();
             var2 = var6.done;
             var3 = var6;
-            if(!var2) { _fun0025_ip = 39; continue _fun0025 }
+            if(!var2) { _fun0026_ip = 39; continue _fun0026 }
  68:
             return var1;
         }
@@ -1737,8 +1763,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var2;
     var2 = new var15[var9](var14, var13, var12);
     var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot23 = var2;
-    var4 = 21;
+    var _closure1_slot22 = var2;
+    var4 = 22;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

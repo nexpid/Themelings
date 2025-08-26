@@ -678,10 +678,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var5 = var1 == var4;
                 var1 = undefined;
-                if(var5) { _fun0009_ip = 83; continue _fun0009 }
- 78:
+                if(var5) { _fun0009_ip = 82; continue _fun0009 }
+ 77:
                 var1 = var4.channel_id;
- 83:
+ 82:
                 var1 = var2.bind(var3)(var1);
                 return var1;
             }

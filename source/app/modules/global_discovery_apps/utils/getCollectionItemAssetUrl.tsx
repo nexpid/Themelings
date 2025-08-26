@@ -74,14 +74,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var1);
             var1 = var1.SUPPORTS_WEBP;
             var9 = 'png';
-            if(!var1) { _fun0001_ip = 177; continue _fun0001 }
- 171:
+            if(!var1) { _fun0001_ip = 175; continue _fun0001 }
+ 169:
             var9 = 'webp';
- 177:
+ 175:
             var4 = _closure1_slot4;
             var1 = null;
-            if(!(var1 == var4)) { _fun0001_ip = 254; continue _fun0001 }
- 187:
+            if(!(var1 == var4)) { _fun0001_ip = 252; continue _fun0001 }
+ 185:
             var1 = var2.location;
             var8 = var1.protocol;
             var7 = _closure1_slot3;
@@ -96,8 +96,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var7;
             var17 = var10;
             var1 = var22[var5](var21, var20, var19, var18, var17, var16);
-            _fun0001_ip = 309; continue _fun0001;
- 254:
+            _fun0001_ip = 307; continue _fun0001;
+ 252:
             var21 = _closure1_slot4;
             var2 = var2.HermesInternal;
             var7 = var2.concat;
@@ -111,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var9;
             var13 = var10;
             var1 = var22[var7](var21, var20, var19, var18, var17, var16, var15, var14, var13, var12);
- 309:
+ 307:
             return var1;
         }
     };

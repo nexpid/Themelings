@@ -86,12 +86,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 'settings-controls';
             var2 = var2.bind(var3)(var1);
             var1 = null;
-            if(!var2) { _fun0001_ip = 857; continue _fun0001 }
+            if(!var2) { _fun0001_ip = 858; continue _fun0001 }
  119:
             var3 = var19.length;
             var2 = 0;
             var1 = null;
-            if(!(var2 !== var3)) { _fun0001_ip = 857; continue _fun0001 }
+            if(!(var2 !== var3)) { _fun0001_ip = 858; continue _fun0001 }
  135:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
@@ -170,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var10;
             var6['children'] = var8;
             var6 = var9.bind(var5)(var7, var6);
-            _fun0001_ip = 847; continue _fun0001;
+            _fun0001_ip = 848; continue _fun0001;
  455:
             var10 = 9;
             var7 = var20[var10];
@@ -278,10 +278,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[1] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var5)(var8, var7);
- 847:
+ 848:
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 857:
+ 858:
             return var1;
         }
     };

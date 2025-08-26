@@ -661,8 +661,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var3 = var2.bind(var3)(var1);
                     var1 = null;
-                    if(!(var1 != var3)) { _fun0007_ip = 87; continue _fun0007 }
- 51:
+                    if(!(var1 != var3)) { _fun0007_ip = 86; continue _fun0007 }
+ 50:
                     var4 = _closure1_slot1;
                     var2 = _closure1_slot2;
                     var1 = 38;
@@ -671,7 +671,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.bind(var1)(var2);
                     var1 = var2.setVideoDevice;
                     var1 = var1.bind(var2)(var3);
- 87:
+ 86:
                     var1 = undefined;
                     return var1;
                 }

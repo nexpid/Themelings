@@ -3751,7 +3751,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var2.props;
                 var4 = var4.currentUserId;
                 var7 = null;
-                if(!(var7 != var4)) { _fun0040_ip = 3281; continue _fun0040 }
+                if(!(var7 != var4)) { _fun0040_ip = 3280; continue _fun0040 }
  36:
                 var4 = var2.props;
                 var4 = var4.messages;
@@ -4396,7 +4396,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  2639:
                 var12 = var2.recordTimings;
                 var12 = var12.bind(var2)();
-                _fun0040_ip = 3281; continue _fun0040;
+                _fun0040_ip = 3280; continue _fun0040;
  2654:
                 var12 = global;
                 var12 = var12.Set;
@@ -4463,7 +4463,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var17 = var3.participantsLength;
                 var15 = var2.props;
                 var15 = var15.participantsLength;
-                if(!(var17 !== var15)) { _fun0040_ip = 3007; continue _fun0040 }
+                if(!(var17 !== var15)) { _fun0040_ip = 3006; continue _fun0040 }
  2918:
                 var15 = _closure1_slot1;
                 var17 = _closure1_slot2;
@@ -4486,12 +4486,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var14 = var16.bind(var17)(var15, var14);
-                if(!(var7 != var14)) { _fun0040_ip = 3007; continue _fun0040 }
- 2992:
+                if(!(var7 != var14)) { _fun0040_ip = 3006; continue _fun0040 }
+ 2991:
                 var15 = var12.add;
                 var14 = var14.id;
                 var14 = var15.bind(var12)(var14);
- 3007:
+ 3006:
                 var15 = var3.channelThreadsVersion;
                 var14 = var2.props;
                 var14 = var14.channelThreadsVersion;
@@ -4515,18 +4515,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = var3.communicationDisabledVersion;
                 var15 = var7 != var14;
                 var7 = -1;
-                if(!var15) { _fun0040_ip = 3129; continue _fun0040 }
- 3126:
+                if(!var15) { _fun0040_ip = 3128; continue _fun0040 }
+ 3125:
                 var7 = var14;
- 3129:
+ 3128:
                 var _closure3_slot26 = var7;
                 var3 = var3.cacheStoreLoaded;
                 var7 = !var3;
-                if(!var7) { _fun0040_ip = 3156; continue _fun0040 }
- 3145:
+                if(!var7) { _fun0040_ip = 3155; continue _fun0040 }
+ 3144:
                 var3 = var2.props;
                 var7 = var3.cacheStoreLoaded;
- 3156:
+ 3155:
                 var _closure3_slot27 = var7;
                 var3 = var2.props;
                 var14 = var3.messages;
@@ -5041,7 +5041,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var2)(var1);
                 var1 = var2.recordTimings;
                 var1 = var1.bind(var2)();
- 3281:
+ 3280:
                 var1 = undefined;
                 return var1;
             }

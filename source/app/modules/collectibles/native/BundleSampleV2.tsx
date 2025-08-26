@@ -3,9 +3,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
+    var _closure1_slot0 = var5;
     var1 = metroImportDefault;
-    var _closure1_slot0 = var1;
-    var _closure1_slot1 = var6;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -19,13 +20,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
     var4 = var4.View;
-    var _closure1_slot2 = var4;
+    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var7 = var4.jsx;
-    var _closure1_slot3 = var7;
-    var7 = var4.Fragment;
     var _closure1_slot4 = var7;
     var4 = var4.jsxs;
     var _closure1_slot5 = var4;
@@ -33,87 +32,324 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
-    var4 = {};
-    var9 = {'position': 'absolute', 'top': 15, 'left': 18, 'width': 84, 'height': 128, 'transform': null, 'alignItems': 'flex-start', 'justifyContent': 'flex-start', 'flexDirection': 'column', 'zIndex': 0};
-    var11 = {};
-    var10 = '-8deg';
-    var11['rotate'] = var10;
-    var10 = new Array(1);
-    var10[0] = var11;
-    var9['transform'] = var10;
-    var4['pfx'] = var9;
-    var9 = {'position': 'absolute', 'top': 66, 'right': 40, 'transform': null, 'zIndex': 1, 'alignItems': 'center', 'justifyContent': 'center'};
-    var11 = {};
-    var10 = '8deg';
-    var11['rotate'] = var10;
-    var10 = new Array(1);
-    var10[0] = var11;
-    var9['transform'] = var10;
-    var4['avatar'] = var9;
+    var4 = function(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var1 = {};
+            var2 = {};
+            var4 = 'large';
+            var3 = arg1;
+            var9 = var4 === var3;
+            var3 = 140;
+            if(!var9) { _fun0001_ip = 27; continue _fun0001 }
+ 21:
+            var3 = 300;
+ 27:
+            var2['width'] = var3;
+            var4 = 280;
+            var3 = var4;
+            if(!var9) { _fun0001_ip = 49; continue _fun0001 }
+ 43:
+            var3 = 340;
+ 49:
+            var2['height'] = var3;
+            var6 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var8 = 3;
+            var3 = var3[var8];
+            var7 = undefined;
+            var3 = var6.bind(var7)(var3);
+            var3 = var3.radii;
+            var3 = var3.xs;
+            var2['borderRadius'] = var3;
+            var1['bundle'] = var2;
+            var2 = {};
+            var3 = 'absolute';
+            var2['position'] = var3;
+            var10 = 70;
+            var3 = var10;
+            if(!var9) { _fun0001_ip = 120; continue _fun0001 }
+ 117:
+            var3 = 10;
+ 120:
+            var2['top'] = var3;
+            var3 = 18;
+            if(!var9) { _fun0001_ip = 133; continue _fun0001 }
+ 130:
+            var3 = 25;
+ 133:
+            var2['left'] = var3;
+            var3 = 80;
+            if(!var9) { _fun0001_ip = 146; continue _fun0001 }
+ 143:
+            var3 = 160;
+ 146:
+            var2['width'] = var3;
+            var3 = 160;
+            if(!var9) { _fun0001_ip = 159; continue _fun0001 }
+ 156:
+            var3 = var4;
+ 159:
+            var2['height'] = var3;
+            var4 = {};
+            var3 = '-8deg';
+            var4['rotate'] = var3;
+            var3 = new Array(1);
+            var3[0] = var4;
+            var2['transform'] = var3;
+            var3 = 0;
+            var2['zIndex'] = var3;
+            var3 = 'hidden';
+            var2['overflow'] = var3;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var3 = var3[var8];
+            var3 = var4.bind(var7)(var3);
+            var3 = var3.radii;
+            var3 = var3.xs;
+            var2['borderRadius'] = var3;
+            var1['pfx'] = var2;
+            var2 = {'position': 'absolute', 'top': 66, 'right': 40, 'transform': null, 'zIndex': 1, 'alignItems': 'center', 'justifyContent': 'center'};
+            var4 = 40;
+            var11 = {};
+            var3 = '8deg';
+            var11['rotate'] = var3;
+            var6 = new Array(1);
+            var6[0] = var11;
+            var2['transform'] = var6;
+            var1['avatarFullSize'] = var2;
+            var2 = {'position': 'absolute', 'top': 130, 'right': 40, 'transform': null, 'zIndex': 1, 'alignItems': 'center', 'justifyContent': 'center'};
+            var11 = {};
+            var11['rotate'] = var3;
+            var6 = new Array(1);
+            var6[0] = var11;
+            var2['transform'] = var6;
+            var1['avatar'] = var2;
+            var2 = {'position': 'absolute', 'top': null, 'right': null, 'transform': null, 'zIndex': 1, 'alignItems': 'center', 'justifyContent': 'center'};
+            var6 = 110;
+            var11 = var6;
+            if(!var9) { _fun0001_ip = 358; continue _fun0001 }
+ 355:
+            var11 = 120;
+ 358:
+            var2['top'] = var11;
+            if(!var9) { _fun0001_ip = 370; continue _fun0001 }
+ 367:
+            var4 = var10;
+ 370:
+            var2['right'] = var4;
+            var4 = {};
+            var4['rotate'] = var3;
+            var3 = new Array(1);
+            var3[0] = var4;
+            var2['transform'] = var3;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
+            var3 = var3[var8];
+            var3 = var4.bind(var7)(var3);
+            var3 = var3.colors;
+            var3 = var3.BLACK;
+            var2['shadowColor'] = var3;
+            var3 = 4;
+            var4 = {'width': 0, 'height': 4};
+            var2['shadowOffset'] = var4;
+            var4 = 0.5;
+            var2['shadowOpacity'] = var4;
+            var2['shadowRadius'] = var3;
+            var1['avatarWithNameplate'] = var2;
+            var2 = {'position': 'absolute', 'bottom': null, 'marginHorizontal': 10, 'width': '90%', 'backgroundColor': null, 'zIndex': 2};
+            if(!var9) { _fun0001_ip = 493; continue _fun0001 }
+ 490:
+            var6 = 90;
+ 493:
+            var2['bottom'] = var6;
+            var6 = _closure1_slot1;
+            var5 = _closure1_slot2;
+            var9 = var5[var8];
+            var9 = var6.bind(var7)(var9);
+            var9 = var9.colors;
+            var9 = var9.BG_BASE_SECONDARY;
+            var2['backgroundColor'] = var9;
+            var9 = var5[var8];
+            var9 = var6.bind(var7)(var9);
+            var9 = var9.radii;
+            var9 = var9.xs;
+            var2['borderRadius'] = var9;
+            var5 = var5[var8];
+            var5 = var6.bind(var7)(var5);
+            var5 = var5.colors;
+            var5 = var5.BLACK;
+            var2['shadowColor'] = var5;
+            var5 = {'width': 0, 'height': 4};
+            var2['shadowOffset'] = var5;
+            var2['shadowOpacity'] = var4;
+            var2['shadowRadius'] = var3;
+            var1['nameplate'] = var2;
+            return var1;
+        }
+    };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot6 = var4;
-    var4 = 5;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/native/BundleSampleV2.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
-        var1 = arg1;
-        var13 = var1.isPurchased;
-        var12 = var1.deco;
-        var16 = var1.pfx;
-        var11 = var1.isDarkTheme;
-        var1 = _closure1_slot6;
-        var4 = undefined;
-        var9 = var1.bind(var4)();
-        var3 = _closure1_slot5;
-        var2 = _closure1_slot4;
-        var1 = {};
-        var8 = _closure1_slot3;
-        var7 = _closure1_slot2;
-        var5 = {};
-        var14 = var9.pfx;
-        var10 = new Array(1);
-        var10[0] = var14;
-        var5['style'] = var10;
-        var10 = _closure1_slot0;
-        var14 = _closure1_slot1;
-        var6 = 3;
-        var6 = var14[var6];
-        var15 = var10.bind(var4)(var6);
-        var6 = {};
-        var6['item'] = var16;
-        var6['isPurchased'] = var13;
-        var6['isDarkTheme'] = var11;
-        var11 = true;
-        var6['bundle'] = var11;
-        var6 = var8.bind(var4)(var15, var6);
-        var5['children'] = var6;
-        var6 = var8.bind(var4)(var7, var5);
-        var5 = new Array(2);
-        var5[0] = var6;
-        var6 = {};
-        var15 = var9.avatar;
-        var9 = new Array(1);
-        var9[0] = var15;
-        var6['style'] = var9;
-        var9 = 4;
-        var9 = var14[var9];
-        var10 = var10.bind(var4)(var9);
-        var9 = {};
-        var9['isPurchased'] = var13;
-        var9['item'] = var12;
-        var12 = 70;
-        var9['size'] = var12;
-        var9['bundle'] = var11;
-        var9 = var8.bind(var4)(var10, var9);
-        var6['children'] = var9;
-        var6 = var8.bind(var4)(var7, var6);
-        var5[1] = var6;
-        var1['children'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+            var1 = arg1;
+            var18 = var1.isPurchased;
+            var17 = var1.deco;
+            var15 = var1.pfx;
+            var5 = var1.nameplate;
+            var11 = var1.isDarkTheme;
+            var2 = var1.size;
+            var4 = undefined;
+            if(!(var2 === var4)) { _fun0002_ip = 48; continue _fun0002 }
+ 44:
+            var2 = 'small';
+ 48:
+            var1 = _closure1_slot6;
+            var10 = var1.bind(var4)(var2);
+            var6 = null;
+            var1 = var6 != var5;
+            var12 = undefined;
+            if(!var1) { _fun0002_ip = 163; continue _fun0002 }
+ 71:
+            var3 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var1 = 4;
+            var1 = var7[var1];
+            var9 = var3.bind(var4)(var1);
+            var8 = var5.type;
+            var3 = _closure1_slot0;
+            var1 = 5;
+            var1 = var7[var1];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.CollectiblesItemType;
+            var1 = var1.NAMEPLATE;
+            var8 = var8 === var1;
+            var1 = 'Item must be Nameplate';
+            var1 = var9.bind(var4)(var8, var1);
+            var1 = 6;
+            var1 = var7[var1];
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.getNameplateDataFromRecord;
+            var12 = var1.bind(var3)(var5);
+ 163:
+            var1 = 'large';
+            var13 = var1 === var2;
+            var16 = 140;
+            if(var13) { _fun0002_ip = 193; continue _fun0002 }
+ 177:
+            var2 = var6 != var12;
+            var1 = 80;
+            if(!var2) { _fun0002_ip = 190; continue _fun0002 }
+ 187:
+            var1 = 60;
+ 190:
+            var16 = var1;
+ 193:
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var5 = var10.bundle;
+            var1['style'] = var5;
+            var8 = _closure1_slot4;
+            var5 = {};
+            var7 = var10.pfx;
+            var5['style'] = var7;
+            var9 = _closure1_slot1;
+            var19 = _closure1_slot2;
+            var7 = 7;
+            var7 = var19[var7];
+            var9 = var9.bind(var4)(var7);
+            var7 = {};
+            var7['item'] = var15;
+            var7['isPurchased'] = var18;
+            var7['isDarkTheme'] = var11;
+            var11 = true;
+            var7['bundle'] = var11;
+            var7 = var8.bind(var4)(var9, var7);
+            var5['children'] = var7;
+            var7 = var8.bind(var4)(var2, var5);
+            var5 = new Array(3);
+            var5[0] = var7;
+            var7 = {};
+            if(!(var6 == var12)) { _fun0002_ip = 310; continue _fun0002 }
+ 302:
+            var11 = var10.avatar;
+            _fun0002_ip = 316; continue _fun0002;
+ 310:
+            var11 = var10.avatarWithNameplate;
+ 316:
+            var9 = new Array(1);
+            var9[0] = var11;
+            var7['style'] = var9;
+            var15 = _closure1_slot4;
+            var11 = _closure1_slot1;
+            var19 = _closure1_slot2;
+            var9 = 8;
+            var9 = var19[var9];
+            var11 = var11.bind(var4)(var9);
+            var9 = {};
+            var9['isPurchased'] = var18;
+            var9['item'] = var17;
+            var9['size'] = var16;
+            var16 = var6 != var12;
+            var9['threeTierBundle'] = var16;
+            var9 = var15.bind(var4)(var11, var9);
+            var7['children'] = var9;
+            var7 = var8.bind(var4)(var2, var7);
+            var5[1] = var7;
+            var7 = var6 != var12;
+            var6 = null;
+            if(!var7) { _fun0002_ip = 538; continue _fun0002 }
+ 408:
+            var9 = _closure1_slot4;
+            var8 = _closure1_slot3;
+            var7 = {};
+            var10 = var10.nameplate;
+            var7['style'] = var10;
+            var11 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var10 = 9;
+            var10 = var15[var10];
+            var10 = var11.bind(var4)(var10);
+            var11 = var10.NameplateDummyUserPreview;
+            var10 = {};
+            var15 = 80;
+            if(!var13) { _fun0002_ip = 465; continue _fun0002 }
+ 462:
+            var15 = 130;
+ 465:
+            var10['width'] = var15;
+            var15 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var14 = 10;
+            var14 = var16[var14];
+            var14 = var15.bind(var4)(var14);
+            var14 = var14.AvatarSizes;
+            if(var13) { _fun0002_ip = 506; continue _fun0002 }
+ 498:
+            var13 = var14.XSMALL_20;
+            _fun0002_ip = 512; continue _fun0002;
+ 506:
+            var13 = var14.NORMAL;
+ 512:
+            var10['avatarSize'] = var13;
+            var10['nameplate'] = var12;
+            var10 = var9.bind(var4)(var11, var10);
+            var7['children'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
+ 538:
+            var5[2] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
     };
     var3['default'] = var2;
     return var1;

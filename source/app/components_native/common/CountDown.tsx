@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun0001_ip = 76; continue _fun0001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var1;
  53:
                 var1 = inf;
-                if(!(var8 !== var1)) { _fun0004_ip = 857; continue _fun0004 }
+                if(!(var8 !== var1)) { _fun0004_ip = 859; continue _fun0004 }
  70:
                 var1 = global;
                 var12 = var1.Math;
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  160:
                 if(!(var12 >= var7)) { _fun0004_ip = 171; continue _fun0004 }
  164:
-                if(!(var2 == var5)) { _fun0004_ip = 917; continue _fun0004 }
+                if(!(var2 == var5)) { _fun0004_ip = 919; continue _fun0004 }
  171:
                 var11 = var1.Math;
                 var10 = var11.floor;
@@ -317,8 +317,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = ':';
                 var15 = var4.bind(var7)(var13);
                 var5 = var15;
-                if(!var3) { _fun0004_ip = 917; continue _fun0004 }
- 486:
+                if(!var3) { _fun0004_ip = 919; continue _fun0004 }
+ 488:
                 var8 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var2 = 7;
@@ -368,8 +368,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = -1;
                 var4 = var15;
                 var2 = var14;
-                if(!(var12 !== var7)) { _fun0004_ip = 830; continue _fun0004 }
- 724:
+                if(!(var12 !== var7)) { _fun0004_ip = 832; continue _fun0004 }
+ 726:
                 var7 = var3.length;
                 var11 = '';
                 var10 = ' ';
@@ -377,8 +377,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var14;
                 var4 = var9;
                 var2 = var8;
-                if(!(var2 < var7)) { _fun0004_ip = 830; continue _fun0004 }
- 753:
+                if(!(var2 < var7)) { _fun0004_ip = 832; continue _fun0004 }
+ 755:
                 var14 = var9.replace;
                 var15 = var3[var8];
                 var7 = var1.HermesInternal;
@@ -390,22 +390,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.bind(var15)(var13);
                 var4 = var15;
                 var2 = var14;
-                if(!(var12 !== var7)) { _fun0004_ip = 830; continue _fun0004 }
- 809:
+                if(!(var12 !== var7)) { _fun0004_ip = 832; continue _fun0004 }
+ 811:
                 var7 = var3.length;
                 var9 = var15;
                 var8 = var14;
                 var4 = var9;
                 var2 = var8;
-                if(var2 < var7) { _fun0004_ip = 753; continue _fun0004 }
- 830:
+                if(var2 < var7) { _fun0004_ip = 755; continue _fun0004 }
+ 832:
                 var3 = var3[var2];
                 var1 = var1.HermesInternal;
                 var2 = var1.concat;
                 var1 = '';
                 var5 = var2.bind(var1)(var4, var3);
-                _fun0004_ip = 917; continue _fun0004;
- 857:
+                _fun0004_ip = 919; continue _fun0004;
+ 859:
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var1 = 7;
@@ -419,7 +419,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.t;
                 var1 = var1.PqEzn5;
                 var5 = var2.bind(var3)(var1);
- 917:
+ 919:
                 var4 = _closure1_slot8;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;

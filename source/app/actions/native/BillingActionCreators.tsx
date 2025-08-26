@@ -189,94 +189,137 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var1 = arg1;
-            var15 = var1.encodedReceipt;
-            var14 = var1.entitlementSkuId;
-            var13 = var1.presentmentCurrency;
-            var12 = var1.presentmentAmount;
-            var11 = var1.appStoreRegion;
-            var10 = var1.giftInfoOptions;
-            var9 = var1.isGift;
-            var5 = var1.retries;
-            var2 = var1.jwsRepresentation;
-            var7 = var1.jwsRepresentations;
-            var8 = var1.source;
-            var6 = null;
-            if(!(var6 != var7)) { _fun0004_ip = 85; continue _fun0004 }
- 78:
-            if(!(var6 == var2)) { _fun0004_ip = 351; continue _fun0004 }
- 85:
-            if(!(var6 != var2)) { _fun0004_ip = 100; continue _fun0004 }
- 89:
+            var17 = var1.encodedReceipt;
+            var16 = var1.entitlementSkuId;
+            var15 = var1.presentmentCurrency;
+            var14 = var1.presentmentAmount;
+            var13 = var1.appStoreRegion;
+            var12 = var1.giftInfoOptions;
+            var11 = var1.isGift;
+            var7 = var1.retries;
+            var3 = var1.jwsRepresentation;
+            var9 = var1.jwsRepresentations;
+            var10 = var1.source;
+            var4 = var1.skipDupCheck;
+            var19 = null;
+            if(!(var19 != var9)) { _fun0004_ip = 93; continue _fun0004 }
+ 86:
+            if(!(var19 == var3)) { _fun0004_ip = 469; continue _fun0004 }
+ 93:
+            if(!(var19 != var3)) { _fun0004_ip = 108; continue _fun0004 }
+ 97:
             var1 = new Array(1);
-            var1[0] = var2;
-            var7 = var1;
- 100:
-            var4 = true;
-            var1 = var4 !== var9;
-            if(var1) { _fun0004_ip = 138; continue _fun0004 }
- 109:
-            var2 = var6 != var10;
-            if(!var2) { _fun0004_ip = 135; continue _fun0004 }
- 116:
-            var16 = var6 == var10;
-            var3 = undefined;
-            if(var16) { _fun0004_ip = 131; continue _fun0004 }
- 125:
-            var3 = var10.gift_style;
- 131:
-            var2 = var6 != var3;
- 135:
-            var1 = var2;
- 138:
-            if(var1) { _fun0004_ip = 198; continue _fun0004 }
- 141:
-            var6 = _closure1_slot1;
-            var3 = _closure1_slot3;
-            var2 = 13;
-            var3 = var3[var2];
-            var2 = undefined;
-            var6 = var6.bind(var2)(var3);
-            var3 = var6.track;
-            var1 = _closure1_slot15;
-            var2 = var1.GIFT_INFO_OPTIONS_MISSING;
-            var1 = {};
-            var1['source'] = var8;
-            var1['sku_id'] = var14;
-            var1 = var3.bind(var6)(var2, var1);
- 198:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot3;
+            var1[0] = var3;
+            var9 = var1;
+ 108:
+            var3 = _closure1_slot1;
+            var18 = _closure1_slot3;
+            var1 = 13;
+            var1 = var18[var1];
+            var5 = undefined;
+            var3 = var3.bind(var5)(var1);
+            var1 = var3.v3;
+            var3 = var1.bind(var3)(var17);
+            var _closure2_slot0 = var3;
+            var6 = _closure1_slot0;
             var1 = 14;
-            var2 = var2[var1];
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            var3 = var1.HTTP;
-            var2 = var3.post;
-            var1 = {};
-            var6 = _closure1_slot17;
-            var6 = var6.BILLING_APPLY_APPLE_RECEIPT;
-            var1['url'] = var6;
-            var6 = {};
-            var6['encoded_receipt'] = var15;
-            var6['entitlement_sku_id'] = var14;
-            var6['presentment_currency'] = var13;
-            var6['presentment_amount'] = var12;
-            var6['app_store_region'] = var11;
-            var6['gift_info_options'] = var10;
-            var6['is_gift'] = var9;
-            var6['source'] = var8;
-            var6['jws_representations'] = var7;
-            var1['body'] = var6;
-            var1['retries'] = var5;
-            var1['oldFormErrors'] = var4;
-            var1['rejectWithError'] = var4;
-            var3 = var2.bind(var3)(var1);
-            var2 = var3.catch;
-            var1 = function(arg1) {
+            var1 = var18[var1];
+            var1 = var6.bind(var5)(var1);
+            var18 = var1.Storage;
+            var6 = var18.get;
+            var1 = _closure1_slot20;
+            var1 = var6.bind(var18)(var1);
+            if(var4) { _fun0004_ip = 215; continue _fun0004 }
+ 187:
+            if(!(var1 === var3)) { _fun0004_ip = 215; continue _fun0004 }
+ 191:
+            var1 = global;
+            var3 = var1.Promise;
+            var1 = var3.resolve;
+            var1 = var1.bind(var3)(var19);
+            _fun0004_ip = 467; continue _fun0004;
+ 215:
+            var6 = true;
+            var3 = var6 !== var11;
+            if(var3) { _fun0004_ip = 253; continue _fun0004 }
+ 224:
+            var4 = var19 != var12;
+            if(!var4) { _fun0004_ip = 250; continue _fun0004 }
+ 231:
+            var20 = var19 == var12;
+            var18 = undefined;
+            if(var20) { _fun0004_ip = 246; continue _fun0004 }
+ 240:
+            var18 = var12.gift_style;
+ 246:
+            var4 = var19 != var18;
+ 250:
+            var3 = var4;
+ 253:
+            if(var3) { _fun0004_ip = 308; continue _fun0004 }
+ 256:
+            var4 = _closure1_slot1;
+            var18 = _closure1_slot3;
+            var3 = 15;
+            var3 = var18[var3];
+            var19 = var4.bind(var5)(var3);
+            var18 = var19.track;
+            var3 = _closure1_slot15;
+            var4 = var3.GIFT_INFO_OPTIONS_MISSING;
+            var3 = {};
+            var3['source'] = var10;
+            var3['sku_id'] = var16;
+            var3 = var18.bind(var19)(var4, var3);
+ 308:
+            var4 = _closure1_slot0;
+            var18 = _closure1_slot3;
+            var3 = 16;
+            var3 = var18[var3];
+            var3 = var4.bind(var5)(var3);
+            var5 = var3.HTTP;
+            var4 = var5.post;
+            var3 = {};
+            var8 = _closure1_slot17;
+            var8 = var8.BILLING_APPLY_APPLE_RECEIPT;
+            var3['url'] = var8;
+            var8 = {};
+            var8['encoded_receipt'] = var17;
+            var8['entitlement_sku_id'] = var16;
+            var8['presentment_currency'] = var15;
+            var8['presentment_amount'] = var14;
+            var8['app_store_region'] = var13;
+            var8['gift_info_options'] = var12;
+            var8['is_gift'] = var11;
+            var8['source'] = var10;
+            var8['jws_representations'] = var9;
+            var3['body'] = var8;
+            var3['retries'] = var7;
+            var3['oldFormErrors'] = var6;
+            var3['rejectWithError'] = var6;
+            var5 = var4.bind(var5)(var3);
+            var4 = var5.then;
+            var3 = function(arg1) {
+                var4 = _closure1_slot0;
+                var3 = _closure1_slot3;
+                var2 = 14;
+                var3 = var3[var2];
+                var2 = undefined;
+                var2 = var4.bind(var2)(var3);
+                var4 = var2.Storage;
+                var3 = var4.set;
+                var2 = _closure1_slot20;
+                var1 = _closure2_slot0;
+                var1 = var3.bind(var4)(var2, var1);
+                var1 = arg1;
+                return var1;
+            };
+            var4 = var4.bind(var5)(var3);
+            var3 = var4.catch;
+            var2 = function(arg1) {
                 var1 = arg1;
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot3;
-                var2 = 15;
+                var2 = 17;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -289,16 +332,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var1, var2);
                 throw var1;
             };
-            var1 = var2.bind(var3)(var1);
+            var1 = var3.bind(var4)(var2);
+ 467:
             return var1;
- 351:
+ 469:
             var1 = global;
             var3 = var1.Error;
             var1 = var3.prototype;
             var2 = Object.create(var1, {constructor: {value: var3}});
-            var18 = "Can pass either 'jwsRepresentation' or 'jwsRepresentations'.  Not both";
-            var19 = var2;
-            var1 = new var19[var3](var18, var17);
+            var22 = "Can pass either 'jwsRepresentation' or 'jwsRepresentations'.  Not both";
+            var23 = var2;
+            var1 = new var23[var3](var22, var21);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
         }
@@ -322,7 +366,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  19: // try_start_0
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 14;
+                    var2 = 16;
                     var3 = var3[var2];
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
@@ -356,7 +400,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 17;
                     var3 = var3[var2];
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
@@ -400,198 +444,186 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 588; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 522; continue _fun0006 }
  10:
-                    var5 = undefined;
                     var8 = undefined;
+                    var11 = undefined;
+                    var14 = undefined;
+                    var9 = undefined;
+                    var10 = undefined;
                     var13 = undefined;
-                    var6 = undefined;
+                    var3 = undefined;
                     var12 = undefined;
                     var4 = undefined;
-                    var10 = undefined;
- 24: // try_start_0
+ 28: // try_start_0
+                    var5 = _closure1_slot1;
+                    var7 = _closure1_slot3;
+                    var2 = 18;
+                    var2 = var7[var2];
+                    var5 = var5.bind(var8)(var2);
+                    var2 = var5.receiptData;
+                    var2 = var2.bind(var5)();
+                    SaveGenerator(address=65);
+ 63:
+                    return var2;
+ 65:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0006_ip = 512; continue _fun0006 }
+ 74:
+                    var14 = var2;
                     var7 = _closure1_slot1;
-                    var9 = _closure1_slot3;
-                    var2 = 16;
-                    var2 = var9[var2];
-                    var7 = var7.bind(var5)(var2);
-                    var2 = var7.receiptData;
-                    var2 = var2.bind(var7)();
-                    SaveGenerator(address=61);
- 59:
-                    return var2;
- 61:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(var7) { _fun0006_ip = 578; continue _fun0006 }
- 70:
-                    var13 = var2;
-                    var11 = _closure1_slot0;
-                    var15 = _closure1_slot3;
-                    var9 = 17;
-                    var7 = var15[var9];
-                    var7 = var11.bind(var5)(var7);
-                    var14 = var7.Storage;
-                    var11 = var14.get;
-                    var7 = _closure1_slot20;
-                    var11 = var11.bind(var14)(var7);
-                    var14 = _closure1_slot1;
-                    var7 = 18;
-                    var7 = var15[var7];
-                    var14 = var14.bind(var5)(var7);
-                    var7 = var14.v3;
-                    var7 = var7.bind(var14)(var2);
-                    var6 = var7;
-                    if(!(var11 !== var7)) { _fun0006_ip = 527; continue _fun0006 }
- 150:
-                    var14 = _closure1_slot9;
-                    var11 = var14.getGiftOptionsForKey;
-                    var7 = var6;
-                    var12 = var11.bind(var14)(var7);
-                    var11 = _closure1_slot14;
-                    var7 = var11.getProducts;
-                    var7 = var7.bind(var11)();
-                    var8 = var7;
-                    var11 = null;
-                    if(!(var11 == var7)) { _fun0006_ip = 197; continue _fun0006 }
- 191:
+                    var16 = _closure1_slot3;
+                    var5 = 13;
+                    var5 = var16[var5];
+                    var7 = var7.bind(var8)(var5);
+                    var5 = var7.v3;
+                    var15 = var5.bind(var7)(var2);
+                    var9 = var15;
+                    var7 = _closure1_slot0;
+                    var5 = 14;
+                    var5 = var16[var5];
+                    var5 = var7.bind(var8)(var5);
+                    var16 = var5.Storage;
+                    var7 = var16.get;
+                    var5 = _closure1_slot20;
+                    var10 = var7.bind(var16)(var5);
+                    var7 = _closure1_slot9;
+                    var5 = var7.getGiftOptionsForKey;
+                    var13 = var5.bind(var7)(var15);
+                    var7 = _closure1_slot14;
+                    var5 = var7.getProducts;
+                    var7 = var5.bind(var7)();
+                    var11 = var7;
+                    var5 = null;
+                    if(!(var5 == var7)) { _fun0006_ip = 191; continue _fun0006 }
+ 185:
                     var7 = new Array(0);
-                    _fun0006_ip = 200; continue _fun0006;
- 197:
-                    var7 = var8;
- 200:
-                    var4 = var7;
-                    var8 = var7.length;
+                    _fun0006_ip = 194; continue _fun0006;
+ 191:
+                    var7 = var11;
+ 194:
+                    var3 = var7;
+                    var11 = var7.length;
                     var7 = 0;
-                    var14 = var8 > var7;
-                    var8 = null;
-                    if(!var14) { _fun0006_ip = 223; continue _fun0006 }
- 219:
-                    var8 = var4[var7];
- 223:
-                    var10 = var8;
+                    var15 = var11 > var7;
+                    var11 = null;
+                    if(!var15) { _fun0006_ip = 217; continue _fun0006 }
+ 213:
+                    var11 = var3[var7];
+ 217:
+                    var12 = var11;
                     var7 = _closure1_slot26;
-                    var4 = {};
-                    var4['encodedReceipt'] = var13;
-                    var13 = 3;
-                    var4['retries'] = var13;
-                    var13 = var11 == var8;
-                    var8 = undefined;
-                    if(var13) { _fun0006_ip = 260; continue _fun0006 }
- 254:
-                    var8 = var10.countryCode;
- 260:
-                    var4['appStoreRegion'] = var8;
-                    var8 = {};
-                    var10 = var12;
-                    var13 = var11 == var10;
-                    var10 = undefined;
-                    if(var13) { _fun0006_ip = 288; continue _fun0006 }
- 279:
-                    var13 = var12;
-                    var10 = var13.gift_style;
- 288:
-                    var8['gift_style'] = var10;
-                    var10 = var12;
-                    var13 = var11 == var10;
-                    var10 = undefined;
-                    if(var13) { _fun0006_ip = 314; continue _fun0006 }
- 305:
-                    var13 = var12;
-                    var10 = var13.reward_sku_ids;
- 314:
-                    var8['reward_sku_ids'] = var10;
-                    var4['giftInfoOptions'] = var8;
-                    var13 = var12;
-                    var14 = var11 == var13;
-                    var13 = undefined;
-                    if(var14) { _fun0006_ip = 345; continue _fun0006 }
- 336:
-                    var14 = var12;
-                    var13 = var14.gift_style;
- 345:
-                    var13 = var11 != var13;
-                    var10 = var13;
-                    if(var13) { _fun0006_ip = 380; continue _fun0006 }
- 355:
-                    var13 = var12;
-                    var14 = var11 == var13;
-                    var13 = undefined;
-                    if(var14) { _fun0006_ip = 376; continue _fun0006 }
- 367:
-                    var14 = var12;
-                    var13 = var14.reward_sku_ids;
- 376:
-                    var10 = var11 != var13;
- 380:
-                    var8 = var10;
-                    if(var10) { _fun0006_ip = 408; continue _fun0006 }
- 386:
-                    var10 = var12;
-                    var13 = var11 == var10;
-                    var10 = undefined;
-                    if(var13) { _fun0006_ip = 404; continue _fun0006 }
- 398:
-                    var10 = var12.recipient_id;
- 404:
-                    var8 = var11 != var10;
- 408:
-                    var4['isGift'] = var8;
-                    var8 = 'restoreFromLocalReceipt';
-                    var4['source'] = var8;
-                    var4 = var7.bind(var5)(var4);
-                    SaveGenerator(address=430);
- 428:
-                    return var4;
- 430:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(var7) { _fun0006_ip = 524; continue _fun0006 }
- 436:
-                    var10 = _closure1_slot1;
-                    var7 = _closure1_slot3;
-                    var8 = 19;
-                    var8 = var7[var8];
-                    var12 = var10.bind(var5)(var8);
-                    var11 = var12.dispatch;
-                    var8 = {};
-                    var10 = 'GIFT_PROMOTION_GIFT_OPTIONS_CLEAR_CACHE_ACTION';
-                    var8['type'] = var10;
-                    var10 = var6;
-                    var8['key'] = var10;
-                    var8 = var11.bind(var12)(var8);
-                    var8 = _closure1_slot0;
-                    var7 = var7[var9];
-                    var7 = var8.bind(var5)(var7);
-                    var9 = var7.Storage;
-                    var8 = var9.set;
-                    var7 = _closure1_slot20;
-                    var7 = var8.bind(var9)(var7, var10);
- 519: // try_end0
-                    var7 = true;
-                    return var7;
- 524:
-                    return var4;
- 527: // try_start_1
-                    var4 = _closure1_slot1;
-                    var7 = _closure1_slot3;
-                    var3 = 19;
-                    var3 = var7[var3];
-                    var5 = var4.bind(var5)(var3);
-                    var4 = var5.dispatch;
                     var3 = {};
-                    var7 = 'GIFT_PROMOTION_GIFT_OPTIONS_CLEAR_CACHE_ACTION';
-                    var3['type'] = var7;
-                    var3['key'] = var6;
-                    var3 = var4.bind(var5)(var3);
- 573: // try_end1
-                    var3 = false;
+                    var3['encodedReceipt'] = var14;
+                    var14 = 3;
+                    var3['retries'] = var14;
+                    var14 = var5 == var11;
+                    var11 = undefined;
+                    if(var14) { _fun0006_ip = 254; continue _fun0006 }
+ 248:
+                    var11 = var12.countryCode;
+ 254:
+                    var3['appStoreRegion'] = var11;
+                    var11 = {};
+                    var12 = var13;
+                    var14 = var5 == var12;
+                    var12 = undefined;
+                    if(var14) { _fun0006_ip = 282; continue _fun0006 }
+ 273:
+                    var14 = var13;
+                    var12 = var14.gift_style;
+ 282:
+                    var11['gift_style'] = var12;
+                    var12 = var13;
+                    var14 = var5 == var12;
+                    var12 = undefined;
+                    if(var14) { _fun0006_ip = 308; continue _fun0006 }
+ 299:
+                    var14 = var13;
+                    var12 = var14.reward_sku_ids;
+ 308:
+                    var11['reward_sku_ids'] = var12;
+                    var3['giftInfoOptions'] = var11;
+                    var14 = var13;
+                    var15 = var5 == var14;
+                    var14 = undefined;
+                    if(var15) { _fun0006_ip = 339; continue _fun0006 }
+ 330:
+                    var15 = var13;
+                    var14 = var15.gift_style;
+ 339:
+                    var14 = var5 != var14;
+                    var12 = var14;
+                    if(var14) { _fun0006_ip = 374; continue _fun0006 }
+ 349:
+                    var14 = var13;
+                    var15 = var5 == var14;
+                    var14 = undefined;
+                    if(var15) { _fun0006_ip = 370; continue _fun0006 }
+ 361:
+                    var15 = var13;
+                    var14 = var15.reward_sku_ids;
+ 370:
+                    var12 = var5 != var14;
+ 374:
+                    var11 = var12;
+                    if(var12) { _fun0006_ip = 402; continue _fun0006 }
+ 380:
+                    var12 = var13;
+                    var14 = var5 == var12;
+                    var12 = undefined;
+                    if(var14) { _fun0006_ip = 398; continue _fun0006 }
+ 392:
+                    var12 = var13.recipient_id;
+ 398:
+                    var11 = var5 != var12;
+ 402:
+                    var3['isGift'] = var11;
+                    var11 = 'restoreFromLocalReceipt';
+                    var3['source'] = var11;
+                    var3 = var7.bind(var8)(var3);
+                    SaveGenerator(address=424);
+ 422:
                     return var3;
- 578:
+ 424:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
+                    if(var7) { _fun0006_ip = 509; continue _fun0006 }
+ 430:
+                    var4 = var3;
+                    var11 = var5 == var3;
+                    var7 = var11;
+                    if(!var11) { _fun0006_ip = 453; continue _fun0006 }
+ 443:
+                    var11 = var10;
+                    var10 = var9;
+                    var7 = var11 !== var10;
+ 453:
+                    if(var7) { _fun0006_ip = 502; continue _fun0006 }
+ 456:
+                    var7 = _closure1_slot1;
+                    var10 = _closure1_slot3;
+                    var6 = 19;
+                    var6 = var10[var6];
+                    var8 = var7.bind(var8)(var6);
+                    var7 = var8.dispatch;
+                    var6 = {};
+                    var10 = 'GIFT_PROMOTION_GIFT_OPTIONS_CLEAR_CACHE_ACTION';
+                    var6['type'] = var10;
+                    var6['key'] = var9;
+                    var6 = var7.bind(var8)(var6);
+ 502:
+                    var4 = var5 != var4;
+ 506: // try_end0
+                    return var4;
+ 509:
+                    return var3;
+ 512:
                     return var2;
- 581: // catch_target0 // catch_target1
+ 515: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var2 = false;
                     return var2;
- 588:
+ 522:
                     return var1;
                 }
             };
@@ -706,7 +738,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = true;
             var2['isDismissable'] = var9;
             var2 = var7.bind(var8)(var2);
-            var2 = 15;
+            var2 = 17;
             var2 = var4[var2];
             var4 = var3.bind(var10)(var2);
             var3 = var4.captureBillingException;
@@ -843,7 +875,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  87:
                     var20 = _closure1_slot0;
                     var21 = _closure1_slot3;
-                    var16 = 16;
+                    var16 = 18;
                     var16 = var21[var16];
                     var20 = var20.bind(var6)(var16);
                     var16 = var20.makeIAPRequest;
@@ -902,7 +934,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  282: // try_end0 // try_end1
                     var14 = _closure1_slot1;
                     var15 = _closure1_slot3;
-                    var13 = 13;
+                    var13 = 15;
                     var13 = var15[var13];
                     var16 = var14.bind(var6)(var13);
                     var15 = var16.track;
@@ -921,7 +953,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  354:
                     var13 = _closure1_slot1;
                     var14 = _closure1_slot3;
-                    var12 = 13;
+                    var12 = 15;
                     var12 = var14[var12];
                     var15 = var13.bind(var6)(var12);
                     var14 = var15.track;
@@ -940,7 +972,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  426:
                     var12 = _closure1_slot1;
                     var13 = _closure1_slot3;
-                    var11 = 13;
+                    var11 = 15;
                     var11 = var13[var11];
                     var13 = var12.bind(var6)(var11);
                     var12 = var13.track;
@@ -985,7 +1017,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     CatchBlockStart(arg_register=1);
                     var5 = _closure1_slot1;
                     var10 = _closure1_slot3;
-                    var4 = 13;
+                    var4 = 15;
                     var4 = var10[var4];
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.track;
@@ -1945,7 +1977,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var16 = var5;
                     var5 = var5.done;
                     var12 = null;
-                    var11 = 13;
+                    var11 = 15;
                     var10 = '';
                     var9 = 3;
                     var8 = 'retryPendingPurchases';
@@ -2112,7 +2144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.bind(var5)(var9);
                     var5 = _closure1_slot0;
                     var9 = _closure1_slot3;
-                    var4 = 15;
+                    var4 = 17;
                     var4 = var9[var4];
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.captureBillingException;
@@ -2330,7 +2362,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var23 = var17.originalPurchase;
                     var27 = _closure1_slot1;
                     var28 = _closure1_slot3;
-                    var20 = 18;
+                    var20 = 13;
                     var20 = var28[var20];
                     var27 = var27.bind(var7)(var20);
                     var20 = var27.v3;
@@ -2422,7 +2454,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var28 = var19;
                     var21['productIdentifier'] = var28;
                     var21 = var24.bind(var27)(var21);
-                    var21 = 13;
+                    var21 = 15;
                     var21 = var23[var21];
                     var24 = var22.bind(var7)(var21);
                     var23 = var24.track;
@@ -2546,7 +2578,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  1307:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot3;
-                    var8 = 15;
+                    var8 = 17;
                     var8 = var10[var8];
                     var10 = var9.bind(var7)(var8);
                     var9 = var10.captureBillingException;
@@ -2802,7 +2834,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     CatchBlockStart(arg_register=6);
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot3;
-                    var3 = 15;
+                    var3 = 17;
                     var3 = var5[var3];
                     var4 = undefined;
                     var6 = var6.bind(var4)(var3);
@@ -2843,7 +2875,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10: // try_start_0
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot3;
-                    var2 = 16;
+                    var2 = 18;
                     var2 = var5[var2];
                     var5 = undefined;
                     var4 = var4.bind(var5)(var2);
@@ -2875,7 +2907,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     CatchBlockStart(arg_register=3);
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 17;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var5.bind(var2)(var3);
@@ -2927,7 +2959,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     CatchBlockStart(arg_register=3);
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 17;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var5.bind(var2)(var3);
@@ -2970,7 +3002,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10: // try_start_0
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot3;
-                    var2 = 16;
+                    var2 = 18;
                     var2 = var5[var2];
                     var5 = undefined;
                     var4 = var4.bind(var5)(var2);
@@ -3002,7 +3034,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     CatchBlockStart(arg_register=3);
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 17;
                     var3 = var3[var2];
                     var2 = undefined;
                     var3 = var5.bind(var2)(var3);
@@ -3105,7 +3137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  261: // try_start_0
                     var18 = _closure1_slot1;
                     var9 = _closure1_slot3;
-                    var29 = 16;
+                    var29 = 18;
                     var9 = var9[var29];
                     var18 = var18.bind(var2)(var9);
                     var9 = var18.canMakePayments;
@@ -3233,7 +3265,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var20 = var13;
                     var22 = _closure1_slot1;
                     var19 = _closure1_slot3;
-                    var28 = 18;
+                    var28 = 13;
                     var28 = var19[var28];
                     var30 = var22.bind(var2)(var28);
                     var29 = var30.v3;
@@ -3323,7 +3355,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var19['type'] = var28;
                     var19['key'] = var23;
                     var19 = var21.bind(var22)(var19);
-                    var19 = 13;
+                    var19 = 15;
                     var19 = var24[var19];
                     var21 = var20.bind(var2)(var19);
                     var20 = var21.track;
@@ -3677,378 +3709,389 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var7['backgroundRestoreReceipt'] = var12;
     var12 = function restoreSubscription() {
-        var2 = this;
-        var _closure2_slot0 = var2;
-        var3 = _closure1_slot7;
-        var2 = undefined;
-        var1 = function* () {
-            var1 = function* anon_0_() {
-                _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
+        _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
  0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0026_ip = 1006; continue _fun0026 }
+            var3 = arguments[0];
+            var2 = undefined;
+            if(!(var3 === var2)) { _fun0026_ip = 13; continue _fun0026 }
+ 11:
+            var3 = false;
+ 13:
+            var _closure2_slot0 = var3;
+            var3 = this;
+            var _closure2_slot1 = var3;
+            var3 = _closure1_slot7;
+            var1 = function* () {
+                var1 = function* anon_0_() {
+                    _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+ 0:
+                        StartGenerator();
+                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                        if(var2) { _fun0027_ip = 1006; continue _fun0027 }
  12:
-                    var2 = undefined;
-                    var9 = undefined;
-                    var5 = _closure1_slot14;
-                    var3 = var5.isBusy;
-                    var3 = var3.bind(var5)();
-                    if(var3) { _fun0026_ip = 1003; continue _fun0026 }
+                        var2 = undefined;
+                        var9 = undefined;
+                        var5 = _closure1_slot14;
+                        var3 = var5.isBusy;
+                        var3 = var3.bind(var5)();
+                        if(var3) { _fun0027_ip = 1003; continue _fun0027 }
  39:
-                    var5 = _closure1_slot1;
-                    var3 = _closure1_slot3;
-                    var6 = 19;
-                    var3 = var3[var6];
-                    var7 = var5.bind(var2)(var3);
-                    var5 = var7.dispatch;
-                    var3 = {};
-                    var10 = 'IAP_RESTORE_PURCHASES_START';
-                    var3['type'] = var10;
-                    var3 = var5.bind(var7)(var3);
+                        var5 = _closure1_slot1;
+                        var3 = _closure1_slot3;
+                        var6 = 19;
+                        var3 = var3[var6];
+                        var7 = var5.bind(var2)(var3);
+                        var5 = var7.dispatch;
+                        var3 = {};
+                        var10 = 'IAP_RESTORE_PURCHASES_START';
+                        var3['type'] = var10;
+                        var3 = var5.bind(var7)(var3);
  81: // try_start_0 // try_start_2
-                    var5 = _closure2_slot0;
-                    var3 = var5.loadProducts;
-                    var3 = var3.bind(var5)();
-                    SaveGenerator(address=102);
+                        var5 = _closure2_slot1;
+                        var3 = var5.loadProducts;
+                        var3 = var3.bind(var5)();
+                        SaveGenerator(address=102);
  100:
-                    return var3;
+                        return var3;
  102:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0026_ip = 737; continue _fun0026 }
+                        ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                        if(var5) { _fun0027_ip = 737; continue _fun0027 }
  111:
-                    var5 = _closure1_slot28;
-                    var5 = var5.bind(var2)();
-                    SaveGenerator(address=123);
+                        var5 = _closure1_slot28;
+                        var5 = var5.bind(var2)();
+                        SaveGenerator(address=123);
  121:
-                    return var5;
+                        return var5;
  123:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(var7) { _fun0026_ip = 695; continue _fun0026 }
+                        ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
+                        if(var7) { _fun0027_ip = 695; continue _fun0027 }
  132:
-                    var10 = _closure1_slot1;
-                    var11 = _closure1_slot3;
-                    var7 = 16;
-                    var7 = var11[var7];
-                    var10 = var10.bind(var2)(var7);
-                    var7 = var10.restorePurchases;
-                    var7 = var7.bind(var10)();
-                    SaveGenerator(address=166);
+                        var10 = _closure1_slot1;
+                        var11 = _closure1_slot3;
+                        var7 = 18;
+                        var7 = var11[var7];
+                        var10 = var10.bind(var2)(var7);
+                        var7 = var10.restorePurchases;
+                        var7 = var7.bind(var10)();
+                        SaveGenerator(address=166);
  164:
-                    return var7;
+                        return var7;
  166:
-                    ResumeGenerator(result_out_reg=6, return_bool_out_reg=9);
-                    if(var10) { _fun0026_ip = 653; continue _fun0026 }
+                        ResumeGenerator(result_out_reg=6, return_bool_out_reg=9);
+                        if(var10) { _fun0027_ip = 653; continue _fun0027 }
  175:
-                    var9 = var7;
-                    var11 = var7.length;
-                    var10 = 0;
-                    if(!(var10 !== var11)) { _fun0026_ip = 508; continue _fun0026 }
+                        var9 = var7;
+                        var11 = var7.length;
+                        var10 = 0;
+                        if(!(var10 !== var11)) { _fun0027_ip = 508; continue _fun0027 }
  192:
-                    var11 = _closure1_slot1;
-                    var12 = _closure1_slot3;
-                    var10 = 30;
-                    var10 = var12[var10];
-                    var10 = var11.bind(var2)(var10);
-                    var11 = var10.bind(var2)(var9);
-                    var10 = var11.uniqBy;
-                    var9 = function(arg1) {
-                        var1 = arg1;
-                        var1 = var1.originalTransactionIdentifier;
-                        return var1;
-                    };
-                    var10 = var10.bind(var11)(var9);
-                    var9 = var10.value;
-                    var10 = var9.bind(var10)();
-                    var9 = var10.map;
-                    var8 = function(arg1) {
-                        _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
- 0:
-                            var5 = arg1;
-                            var6 = _closure1_slot14;
-                            var4 = var6.getProduct;
-                            var3 = var5.productIdentifier;
-                            var8 = var4.bind(var6)(var3);
-                            var6 = _closure1_slot1;
-                            var4 = _closure1_slot3;
-                            var3 = 18;
-                            var3 = var4[var3];
-                            var4 = undefined;
-                            var7 = var6.bind(var4)(var3);
-                            var6 = var7.v3;
-                            var3 = var5.transactionReceipt;
-                            var7 = var6.bind(var7)(var3);
-                            var _closure5_slot0 = var7;
-                            var6 = _closure1_slot9;
-                            var3 = var6.getGiftOptionsForKey;
-                            var7 = var3.bind(var6)(var7);
-                            var3 = _closure1_slot26;
-                            var2 = {};
-                            var5 = var5.transactionReceipt;
-                            var2['encodedReceipt'] = var5;
-                            var6 = null;
-                            var9 = var6 == var8;
-                            var5 = undefined;
-                            if(var9) { _fun0027_ip = 121; continue _fun0027 }
- 115:
-                            var5 = var8.currencyCode;
- 121:
-                            var2['presentmentCurrency'] = var5;
-                            var9 = var6 == var8;
-                            var5 = undefined;
-                            if(var9) { _fun0027_ip = 141; continue _fun0027 }
- 135:
-                            var5 = var8.price;
- 141:
-                            var2['presentmentAmount'] = var5;
-                            var9 = var6 == var8;
-                            var5 = undefined;
-                            if(var9) { _fun0027_ip = 161; continue _fun0027 }
- 155:
-                            var5 = var8.countryCode;
- 161:
-                            var2['appStoreRegion'] = var5;
-                            var5 = {};
-                            var9 = var6 == var7;
-                            var8 = undefined;
-                            if(var9) { _fun0027_ip = 183; continue _fun0027 }
- 177:
-                            var8 = var7.gift_style;
- 183:
-                            var5['gift_style'] = var8;
-                            var8 = var6 == var7;
-                            var6 = undefined;
-                            if(var8) { _fun0027_ip = 203; continue _fun0027 }
- 197:
-                            var6 = var7.reward_sku_ids;
- 203:
-                            var5['reward_sku_ids'] = var6;
-                            var2['giftInfoOptions'] = var5;
-                            var5 = 'restoreSubscription';
-                            var2['source'] = var5;
-                            var3 = var3.bind(var4)(var2);
-                            var2 = var3.then;
-                            var1 = function() {
-                                var3 = _closure1_slot1;
-                                var2 = _closure1_slot3;
-                                var1 = 19;
-                                var2 = var2[var1];
-                                var1 = undefined;
-                                var4 = var3.bind(var1)(var2);
-                                var3 = var4.dispatch;
-                                var2 = {};
-                                var5 = 'GIFT_PROMOTION_GIFT_OPTIONS_CLEAR_CACHE_ACTION';
-                                var2['type'] = var5;
-                                var5 = _closure5_slot0;
-                                var2['key'] = var5;
-                                var2 = var3.bind(var4)(var2);
-                                return var1;
-                            };
-                            var1 = var2.bind(var3)(var1);
+                        var11 = _closure1_slot1;
+                        var12 = _closure1_slot3;
+                        var10 = 30;
+                        var10 = var12[var10];
+                        var10 = var11.bind(var2)(var10);
+                        var11 = var10.bind(var2)(var9);
+                        var10 = var11.uniqBy;
+                        var9 = function(arg1) {
+                            var1 = arg1;
+                            var1 = var1.originalTransactionIdentifier;
                             return var1;
-                        }
-                    };
-                    var10 = var9.bind(var10)(var8);
-                    var8 = global;
-                    var9 = var8.Promise;
-                    var8 = var9.all;
-                    var8 = var8.bind(var9)(var10);
-                    SaveGenerator(address=280);
+                        };
+                        var10 = var10.bind(var11)(var9);
+                        var9 = var10.value;
+                        var10 = var9.bind(var10)();
+                        var9 = var10.map;
+                        var8 = function(arg1) {
+                            _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+ 0:
+                                var5 = arg1;
+                                var6 = _closure1_slot14;
+                                var4 = var6.getProduct;
+                                var3 = var5.productIdentifier;
+                                var8 = var4.bind(var6)(var3);
+                                var6 = _closure1_slot1;
+                                var4 = _closure1_slot3;
+                                var3 = 13;
+                                var3 = var4[var3];
+                                var4 = undefined;
+                                var7 = var6.bind(var4)(var3);
+                                var6 = var7.v3;
+                                var3 = var5.transactionReceipt;
+                                var7 = var6.bind(var7)(var3);
+                                var _closure5_slot0 = var7;
+                                var6 = _closure1_slot9;
+                                var3 = var6.getGiftOptionsForKey;
+                                var7 = var3.bind(var6)(var7);
+                                var3 = _closure1_slot26;
+                                var2 = {};
+                                var5 = var5.transactionReceipt;
+                                var2['encodedReceipt'] = var5;
+                                var6 = null;
+                                var9 = var6 == var8;
+                                var5 = undefined;
+                                if(var9) { _fun0028_ip = 121; continue _fun0028 }
+ 115:
+                                var5 = var8.currencyCode;
+ 121:
+                                var2['presentmentCurrency'] = var5;
+                                var9 = var6 == var8;
+                                var5 = undefined;
+                                if(var9) { _fun0028_ip = 141; continue _fun0028 }
+ 135:
+                                var5 = var8.price;
+ 141:
+                                var2['presentmentAmount'] = var5;
+                                var9 = var6 == var8;
+                                var5 = undefined;
+                                if(var9) { _fun0028_ip = 161; continue _fun0028 }
+ 155:
+                                var5 = var8.countryCode;
+ 161:
+                                var2['appStoreRegion'] = var5;
+                                var5 = {};
+                                var9 = var6 == var7;
+                                var8 = undefined;
+                                if(var9) { _fun0028_ip = 183; continue _fun0028 }
+ 177:
+                                var8 = var7.gift_style;
+ 183:
+                                var5['gift_style'] = var8;
+                                var8 = var6 == var7;
+                                var6 = undefined;
+                                if(var8) { _fun0028_ip = 203; continue _fun0028 }
+ 197:
+                                var6 = var7.reward_sku_ids;
+ 203:
+                                var5['reward_sku_ids'] = var6;
+                                var2['giftInfoOptions'] = var5;
+                                var5 = 'restoreSubscription';
+                                var2['source'] = var5;
+                                var5 = _closure2_slot0;
+                                var2['skipDupCheck'] = var5;
+                                var3 = var3.bind(var4)(var2);
+                                var2 = var3.then;
+                                var1 = function() {
+                                    var3 = _closure1_slot1;
+                                    var2 = _closure1_slot3;
+                                    var1 = 19;
+                                    var2 = var2[var1];
+                                    var1 = undefined;
+                                    var4 = var3.bind(var1)(var2);
+                                    var3 = var4.dispatch;
+                                    var2 = {};
+                                    var5 = 'GIFT_PROMOTION_GIFT_OPTIONS_CLEAR_CACHE_ACTION';
+                                    var2['type'] = var5;
+                                    var5 = _closure5_slot0;
+                                    var2['key'] = var5;
+                                    var2 = var3.bind(var4)(var2);
+                                    return var1;
+                                };
+                                var1 = var2.bind(var3)(var1);
+                                return var1;
+                            }
+                        };
+                        var10 = var9.bind(var10)(var8);
+                        var8 = global;
+                        var9 = var8.Promise;
+                        var8 = var9.all;
+                        var8 = var8.bind(var9)(var10);
+                        SaveGenerator(address=280);
  278:
-                    return var8;
+                        return var8;
  280:
-                    ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(var9) { _fun0026_ip = 466; continue _fun0026 }
+                        ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
+                        if(var9) { _fun0027_ip = 466; continue _fun0027 }
  289:
-                    var10 = _closure1_slot0;
-                    var11 = _closure1_slot3;
-                    var9 = 20;
-                    var9 = var11[var9];
-                    var10 = var10.bind(var2)(var9);
-                    var9 = var10.fetchSubscriptions;
-                    var9 = var9.bind(var10)();
-                    SaveGenerator(address=323);
+                        var10 = _closure1_slot0;
+                        var11 = _closure1_slot3;
+                        var9 = 20;
+                        var9 = var11[var9];
+                        var10 = var10.bind(var2)(var9);
+                        var9 = var10.fetchSubscriptions;
+                        var9 = var9.bind(var10)();
+                        SaveGenerator(address=323);
  321:
-                    return var9;
+                        return var9;
  323:
-                    ResumeGenerator(result_out_reg=8, return_bool_out_reg=9);
-                    if(var10) { _fun0026_ip = 424; continue _fun0026 }
+                        ResumeGenerator(result_out_reg=8, return_bool_out_reg=9);
+                        if(var10) { _fun0027_ip = 424; continue _fun0027 }
  329:
-                    var11 = _closure1_slot1;
-                    var17 = _closure1_slot3;
-                    var10 = 27;
-                    var10 = var17[var10];
-                    var12 = var11.bind(var2)(var10);
-                    var11 = var12.show;
-                    var10 = {};
-                    var16 = _closure1_slot0;
-                    var13 = 25;
-                    var14 = var17[var13];
-                    var14 = var16.bind(var2)(var14);
-                    var15 = var14.intl;
-                    var14 = var15.string;
-                    var13 = var17[var13];
-                    var13 = var16.bind(var2)(var13);
-                    var13 = var13.t;
-                    var13 = var13.pnRpIS;
-                    var13 = var14.bind(var15)(var13);
-                    var10['body'] = var13;
-                    var10 = var11.bind(var12)(var10);
-                    _fun0026_ip = 648; continue _fun0026;
+                        var11 = _closure1_slot1;
+                        var17 = _closure1_slot3;
+                        var10 = 27;
+                        var10 = var17[var10];
+                        var12 = var11.bind(var2)(var10);
+                        var11 = var12.show;
+                        var10 = {};
+                        var16 = _closure1_slot0;
+                        var13 = 25;
+                        var14 = var17[var13];
+                        var14 = var16.bind(var2)(var14);
+                        var15 = var14.intl;
+                        var14 = var15.string;
+                        var13 = var17[var13];
+                        var13 = var16.bind(var2)(var13);
+                        var13 = var13.t;
+                        var13 = var13.pnRpIS;
+                        var13 = var14.bind(var15)(var13);
+                        var10['body'] = var13;
+                        var10 = var11.bind(var12)(var10);
+                        _fun0027_ip = 648; continue _fun0027;
  424: // try_end0 // try_end2
-                    var11 = _closure1_slot1;
-                    var10 = _closure1_slot3;
-                    var10 = var10[var6];
-                    var12 = var11.bind(var2)(var10);
-                    var11 = var12.dispatch;
-                    var10 = {};
-                    var13 = 'IAP_RESTORE_PURCHASES_END';
-                    var10['type'] = var13;
-                    var10 = var11.bind(var12)(var10);
-                    return var9;
+                        var11 = _closure1_slot1;
+                        var10 = _closure1_slot3;
+                        var10 = var10[var6];
+                        var12 = var11.bind(var2)(var10);
+                        var11 = var12.dispatch;
+                        var10 = {};
+                        var13 = 'IAP_RESTORE_PURCHASES_END';
+                        var10['type'] = var13;
+                        var10 = var11.bind(var12)(var10);
+                        return var9;
  466:
-                    var10 = _closure1_slot1;
-                    var9 = _closure1_slot3;
-                    var9 = var9[var6];
-                    var11 = var10.bind(var2)(var9);
-                    var10 = var11.dispatch;
-                    var9 = {};
-                    var12 = 'IAP_RESTORE_PURCHASES_END';
-                    var9['type'] = var12;
-                    var9 = var10.bind(var11)(var9);
-                    return var8;
+                        var10 = _closure1_slot1;
+                        var9 = _closure1_slot3;
+                        var9 = var9[var6];
+                        var11 = var10.bind(var2)(var9);
+                        var10 = var11.dispatch;
+                        var9 = {};
+                        var12 = 'IAP_RESTORE_PURCHASES_END';
+                        var9['type'] = var12;
+                        var9 = var10.bind(var11)(var9);
+                        return var8;
  508: // try_start_1 // try_start_3
-                    var9 = _closure1_slot1;
-                    var15 = _closure1_slot3;
-                    var8 = 27;
-                    var8 = var15[var8];
-                    var10 = var9.bind(var2)(var8);
-                    var9 = var10.show;
-                    var8 = {};
-                    var14 = _closure1_slot0;
-                    var11 = 25;
-                    var12 = var15[var11];
-                    var12 = var14.bind(var2)(var12);
-                    var16 = var12.intl;
-                    var13 = var16.string;
-                    var12 = var15[var11];
-                    var12 = var14.bind(var2)(var12);
-                    var12 = var12.t;
-                    var12 = var12.WXkaoK;
-                    var12 = var13.bind(var16)(var12);
-                    var8['title'] = var12;
-                    var12 = var15[var11];
-                    var12 = var14.bind(var2)(var12);
-                    var13 = var12.intl;
-                    var12 = var13.string;
-                    var11 = var15[var11];
-                    var11 = var14.bind(var2)(var11);
-                    var11 = var11.t;
-                    var11 = var11.YW7lqa;
-                    var11 = var12.bind(var13)(var11);
-                    var8['body'] = var11;
-                    var8 = var9.bind(var10)(var8);
+                        var9 = _closure1_slot1;
+                        var15 = _closure1_slot3;
+                        var8 = 27;
+                        var8 = var15[var8];
+                        var10 = var9.bind(var2)(var8);
+                        var9 = var10.show;
+                        var8 = {};
+                        var14 = _closure1_slot0;
+                        var11 = 25;
+                        var12 = var15[var11];
+                        var12 = var14.bind(var2)(var12);
+                        var16 = var12.intl;
+                        var13 = var16.string;
+                        var12 = var15[var11];
+                        var12 = var14.bind(var2)(var12);
+                        var12 = var12.t;
+                        var12 = var12.WXkaoK;
+                        var12 = var13.bind(var16)(var12);
+                        var8['title'] = var12;
+                        var12 = var15[var11];
+                        var12 = var14.bind(var2)(var12);
+                        var13 = var12.intl;
+                        var12 = var13.string;
+                        var11 = var15[var11];
+                        var11 = var14.bind(var2)(var11);
+                        var11 = var11.t;
+                        var11 = var11.YW7lqa;
+                        var11 = var12.bind(var13)(var11);
+                        var8['body'] = var11;
+                        var8 = var9.bind(var10)(var8);
  648: // try_end1
-                    _fun0026_ip = 919; continue _fun0026;
+                        _fun0027_ip = 919; continue _fun0027;
  653: // try_end3
-                    var9 = _closure1_slot1;
-                    var8 = _closure1_slot3;
-                    var8 = var8[var6];
-                    var10 = var9.bind(var2)(var8);
-                    var9 = var10.dispatch;
-                    var8 = {};
-                    var11 = 'IAP_RESTORE_PURCHASES_END';
-                    var8['type'] = var11;
-                    var8 = var9.bind(var10)(var8);
-                    return var7;
+                        var9 = _closure1_slot1;
+                        var8 = _closure1_slot3;
+                        var8 = var8[var6];
+                        var10 = var9.bind(var2)(var8);
+                        var9 = var10.dispatch;
+                        var8 = {};
+                        var11 = 'IAP_RESTORE_PURCHASES_END';
+                        var8['type'] = var11;
+                        var8 = var9.bind(var10)(var8);
+                        return var7;
  695:
-                    var8 = _closure1_slot1;
-                    var7 = _closure1_slot3;
-                    var7 = var7[var6];
-                    var9 = var8.bind(var2)(var7);
-                    var8 = var9.dispatch;
-                    var7 = {};
-                    var10 = 'IAP_RESTORE_PURCHASES_END';
-                    var7['type'] = var10;
-                    var7 = var8.bind(var9)(var7);
-                    return var5;
+                        var8 = _closure1_slot1;
+                        var7 = _closure1_slot3;
+                        var7 = var7[var6];
+                        var9 = var8.bind(var2)(var7);
+                        var8 = var9.dispatch;
+                        var7 = {};
+                        var10 = 'IAP_RESTORE_PURCHASES_END';
+                        var7['type'] = var10;
+                        var7 = var8.bind(var9)(var7);
+                        return var5;
  737:
-                    var7 = _closure1_slot1;
-                    var5 = _closure1_slot3;
-                    var5 = var5[var6];
-                    var8 = var7.bind(var2)(var5);
-                    var7 = var8.dispatch;
-                    var5 = {};
-                    var9 = 'IAP_RESTORE_PURCHASES_END';
-                    var5['type'] = var9;
-                    var5 = var7.bind(var8)(var5);
-                    return var3;
+                        var7 = _closure1_slot1;
+                        var5 = _closure1_slot3;
+                        var5 = var5[var6];
+                        var8 = var7.bind(var2)(var5);
+                        var7 = var8.dispatch;
+                        var5 = {};
+                        var9 = 'IAP_RESTORE_PURCHASES_END';
+                        var5['type'] = var9;
+                        var5 = var7.bind(var8)(var5);
+                        return var3;
  779: // try_start_4 // catch_target0 // catch_target1
-                    CatchBlockStart(arg_register=2);
-                    var5 = _closure1_slot1;
-                    var12 = _closure1_slot3;
-                    var3 = 27;
-                    var3 = var12[var3];
-                    var7 = var5.bind(var2)(var3);
-                    var5 = var7.show;
-                    var3 = {};
-                    var11 = _closure1_slot0;
-                    var8 = 25;
-                    var9 = var12[var8];
-                    var9 = var11.bind(var2)(var9);
-                    var13 = var9.intl;
-                    var10 = var13.string;
-                    var9 = var12[var8];
-                    var9 = var11.bind(var2)(var9);
-                    var9 = var9.t;
-                    var9 = var9.POsVOj;
-                    var9 = var10.bind(var13)(var9);
-                    var3['title'] = var9;
-                    var9 = var12[var8];
-                    var9 = var11.bind(var2)(var9);
-                    var10 = var9.intl;
-                    var9 = var10.string;
-                    var8 = var12[var8];
-                    var8 = var11.bind(var2)(var8);
-                    var8 = var8.t;
-                    var8 = var8.XbE/Ex;
-                    var8 = var9.bind(var10)(var8);
-                    var3['body'] = var8;
-                    var3 = var5.bind(var7)(var3);
+                        CatchBlockStart(arg_register=2);
+                        var5 = _closure1_slot1;
+                        var12 = _closure1_slot3;
+                        var3 = 27;
+                        var3 = var12[var3];
+                        var7 = var5.bind(var2)(var3);
+                        var5 = var7.show;
+                        var3 = {};
+                        var11 = _closure1_slot0;
+                        var8 = 25;
+                        var9 = var12[var8];
+                        var9 = var11.bind(var2)(var9);
+                        var13 = var9.intl;
+                        var10 = var13.string;
+                        var9 = var12[var8];
+                        var9 = var11.bind(var2)(var9);
+                        var9 = var9.t;
+                        var9 = var9.POsVOj;
+                        var9 = var10.bind(var13)(var9);
+                        var3['title'] = var9;
+                        var9 = var12[var8];
+                        var9 = var11.bind(var2)(var9);
+                        var10 = var9.intl;
+                        var9 = var10.string;
+                        var8 = var12[var8];
+                        var8 = var11.bind(var2)(var8);
+                        var8 = var8.t;
+                        var8 = var8.XbE/Ex;
+                        var8 = var9.bind(var10)(var8);
+                        var3['body'] = var8;
+                        var3 = var5.bind(var7)(var3);
  919: // try_end4
-                    var5 = _closure1_slot1;
-                    var3 = _closure1_slot3;
-                    var3 = var3[var6];
-                    var7 = var5.bind(var2)(var3);
-                    var5 = var7.dispatch;
-                    var3 = {};
-                    var8 = 'IAP_RESTORE_PURCHASES_END';
-                    var3['type'] = var8;
-                    var3 = var5.bind(var7)(var3);
-                    _fun0026_ip = 1003; continue _fun0026;
+                        var5 = _closure1_slot1;
+                        var3 = _closure1_slot3;
+                        var3 = var3[var6];
+                        var7 = var5.bind(var2)(var3);
+                        var5 = var7.dispatch;
+                        var3 = {};
+                        var8 = 'IAP_RESTORE_PURCHASES_END';
+                        var3['type'] = var8;
+                        var3 = var5.bind(var7)(var3);
+                        _fun0027_ip = 1003; continue _fun0027;
  960: // catch_target2 // catch_target3 // catch_target4
-                    CatchBlockStart(arg_register=2);
-                    var5 = _closure1_slot1;
-                    var4 = _closure1_slot3;
-                    var4 = var4[var6];
-                    var6 = var5.bind(var2)(var4);
-                    var5 = var6.dispatch;
-                    var4 = {};
-                    var7 = 'IAP_RESTORE_PURCHASES_END';
-                    var4['type'] = var7;
-                    var4 = var5.bind(var6)(var4);
-                    throw var3;
+                        CatchBlockStart(arg_register=2);
+                        var5 = _closure1_slot1;
+                        var4 = _closure1_slot3;
+                        var4 = var4[var6];
+                        var6 = var5.bind(var2)(var4);
+                        var5 = var6.dispatch;
+                        var4 = {};
+                        var7 = 'IAP_RESTORE_PURCHASES_END';
+                        var4['type'] = var7;
+                        var4 = var5.bind(var6)(var4);
+                        throw var3;
  1003:
-                    return var2;
+                        return var2;
  1006:
-                    return var1;
-                }
+                        return var1;
+                    }
+                };
+                return var1;
             };
+            var1 = var3.bind(var2)(var1);
+            var1 = var1.bind(var2)();
             return var1;
-        };
-        var1 = var3.bind(var2)(var1);
-        var1 = var1.bind(var2)();
-        return var1;
+        }
     };
     var7['restoreSubscription'] = var12;
     var12 = var8.Set;

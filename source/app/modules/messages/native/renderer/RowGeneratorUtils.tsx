@@ -115,10 +115,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.bind(var2)(var3);
             var4 = var5.getMobileOptimizedSrc;
             var3 = null;
-            if(!var1) { _fun0001_ip = 122; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 120; continue _fun0001 }
  116:
             var3 = 'png';
- 122:
+ 120:
             var9 = arg2;
             var8 = arg3;
             var11 = var5;

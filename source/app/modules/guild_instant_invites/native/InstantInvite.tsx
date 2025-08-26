@@ -176,14 +176,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = null;
             var16 = var18 == var15;
             var14 = undefined;
-            if(var16) { _fun0001_ip = 382; continue _fun0001 }
- 377:
+            if(var16) { _fun0001_ip = 384; continue _fun0001 }
+ 379:
             var14 = var15.id;
- 382:
+ 384:
             var15 = var18 != var14;
             var14 = null;
-            if(!var15) { _fun0001_ip = 478; continue _fun0001 }
- 391:
+            if(!var15) { _fun0001_ip = 480; continue _fun0001 }
+ 393:
             var17 = _closure1_slot6;
             var16 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -194,21 +194,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var19.inviter;
             var22 = var18 == var21;
             var20 = undefined;
-            if(var22) { _fun0001_ip = 445; continue _fun0001 }
- 440:
+            if(var22) { _fun0001_ip = 447; continue _fun0001 }
+ 442:
             var20 = var21.id;
- 445:
+ 447:
             var15['userId'] = var20;
             var19 = var19.guild;
             var20 = var18 == var19;
             var18 = undefined;
-            if(var20) { _fun0001_ip = 468; continue _fun0001 }
- 463:
+            if(var20) { _fun0001_ip = 470; continue _fun0001 }
+ 465:
             var18 = var19.id;
- 468:
+ 470:
             var15['guildId'] = var18;
             var14 = var17.bind(var4)(var16, var15);
- 478:
+ 480:
             var8['children'] = var14;
             var10 = var11.bind(var4)(var10, var8);
             var8 = new Array(2);
@@ -469,10 +469,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14['style'] = var21;
             var23 = var11 == var22;
             var21 = undefined;
-            if(var23) { _fun0002_ip = 487; continue _fun0002 }
- 482:
+            if(var23) { _fun0002_ip = 491; continue _fun0002 }
+ 486:
             var21 = var22.name;
- 487:
+ 491:
             var14['children'] = var21;
             var14 = var18.bind(var4)(var17, var14);
             var8[1] = var14;
@@ -557,8 +557,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['style'] = var13;
             var13 = var11 != var16;
             var11 = null;
-            if(!var13) { _fun0002_ip = 734; continue _fun0002 }
- 681:
+            if(!var13) { _fun0002_ip = 740; continue _fun0002 }
+ 687:
             var14 = _closure1_slot6;
             var13 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -570,7 +570,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.guild_id;
             var12['guildId'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 734:
+ 740:
             var9['children'] = var11;
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;

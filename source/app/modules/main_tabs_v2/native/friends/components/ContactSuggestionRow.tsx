@@ -292,7 +292,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['actioned'] = var10;
             var7['label'] = var6;
             var6 = undefined;
-            if(!var12) { _fun0001_ip = 750; continue _fun0001 }
+            if(!var12) { _fun0001_ip = 751; continue _fun0001 }
  673:
             var14 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -314,7 +314,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  740:
             var12['count'] = var17;
             var6 = var15.bind(var16)(var14, var12);
- 750:
+ 751:
             var7['secondaryLabel'] = var6;
             var6 = _closure1_slot0;
             var12 = _closure1_slot2;

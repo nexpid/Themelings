@@ -1577,193 +1577,193 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 380; continue _fun0017 }
- 370:
+                    if(!var17) { _fun0017_ip = 381; continue _fun0017 }
+ 371:
                     var17 = var16.percentiles;
                     var18 = var17[var13];
- 380:
+ 381:
                     var17 = 'target_bitrate_network_percentile1';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 418; continue _fun0017 }
- 405:
+                    if(!var17) { _fun0017_ip = 420; continue _fun0017 }
+ 407:
                     var20 = var16.percentiles;
                     var17 = 5;
                     var18 = var20[var17];
- 418:
+ 420:
                     var17 = 'target_bitrate_network_percentile5';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 456; continue _fun0017 }
- 443:
+                    if(!var17) { _fun0017_ip = 459; continue _fun0017 }
+ 446:
                     var20 = var16.percentiles;
                     var17 = 10;
                     var18 = var20[var17];
- 456:
+ 459:
                     var17 = 'target_bitrate_network_percentile10';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 494; continue _fun0017 }
- 481:
+                    if(!var17) { _fun0017_ip = 498; continue _fun0017 }
+ 485:
                     var20 = var16.percentiles;
                     var17 = 25;
                     var18 = var20[var17];
- 494:
+ 498:
                     var17 = 'target_bitrate_network_percentile25';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 532; continue _fun0017 }
- 519:
+                    if(!var17) { _fun0017_ip = 537; continue _fun0017 }
+ 524:
                     var20 = var16.percentiles;
                     var17 = 50;
                     var18 = var20[var17];
- 532:
+ 537:
                     var17 = 'target_bitrate_network_percentile50';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var17 = var17 > var11;
                     var18 = null;
-                    if(!var17) { _fun0017_ip = 570; continue _fun0017 }
- 557:
+                    if(!var17) { _fun0017_ip = 576; continue _fun0017 }
+ 563:
                     var20 = var16.percentiles;
                     var17 = 75;
                     var18 = var20[var17];
- 570:
+ 576:
                     var17 = 'target_bitrate_network_percentile75';
                     var2[var17] = var18;
                     var17 = var16.count;
                     var18 = var17 > var11;
                     var17 = null;
-                    if(!var18) { _fun0017_ip = 608; continue _fun0017 }
- 595:
+                    if(!var18) { _fun0017_ip = 615; continue _fun0017 }
+ 602:
                     var18 = var16.percentiles;
                     var16 = 99;
                     var17 = var18[var16];
- 608:
+ 615:
                     var16 = 'target_bitrate_network_percentile99';
                     var2[var16] = var17;
                     var17 = 0;
-                    if(!var9) { _fun0017_ip = 671; continue _fun0017 }
- 624:
+                    if(!var9) { _fun0017_ip = 678; continue _fun0017 }
+ 631:
                     var16 = global;
                     var20 = var16.Math;
                     var18 = var20.round;
                     var16 = var7.targetBytesMax;
                     var22 = var8 != var16;
                     var21 = 0;
-                    if(!var22) { _fun0017_ip = 655; continue _fun0017 }
- 652:
+                    if(!var22) { _fun0017_ip = 662; continue _fun0017 }
+ 659:
                     var21 = var16;
- 655:
+ 662:
                     var16 = 8;
                     var16 = var16 * var21;
                     var16 = var16 / var19;
                     var17 = var18.bind(var20)(var16);
- 671:
+ 678:
                     var16 = 'target_bitrate_max';
                     var2[var16] = var17;
                     var16 = 0;
-                    if(!var9) { _fun0017_ip = 734; continue _fun0017 }
- 687:
+                    if(!var9) { _fun0017_ip = 741; continue _fun0017 }
+ 694:
                     var9 = global;
                     var18 = var9.Math;
                     var17 = var18.round;
                     var9 = var7.outboundBytesAvailable;
                     var21 = var8 != var9;
                     var20 = 0;
-                    if(!var21) { _fun0017_ip = 718; continue _fun0017 }
- 715:
+                    if(!var21) { _fun0017_ip = 725; continue _fun0017 }
+ 722:
                     var20 = var9;
- 718:
+ 725:
                     var9 = 8;
                     var9 = var9 * var20;
                     var9 = var9 / var19;
                     var16 = var17.bind(var18)(var9);
- 734:
+ 741:
                     var9 = 'outbound_bandwidth_estimate';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 769; continue _fun0017 }
- 759:
+                    if(!var9) { _fun0017_ip = 777; continue _fun0017 }
+ 767:
                     var9 = var5.percentiles;
                     var16 = var9[var13];
- 769:
+ 777:
                     var9 = 'outbound_bandwidth_surplus_percentile1';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 807; continue _fun0017 }
- 794:
+                    if(!var9) { _fun0017_ip = 816; continue _fun0017 }
+ 803:
                     var17 = var5.percentiles;
                     var9 = 5;
                     var16 = var17[var9];
- 807:
+ 816:
                     var9 = 'outbound_bandwidth_surplus_percentile5';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 845; continue _fun0017 }
- 832:
+                    if(!var9) { _fun0017_ip = 855; continue _fun0017 }
+ 842:
                     var17 = var5.percentiles;
                     var9 = 10;
                     var16 = var17[var9];
- 845:
+ 855:
                     var9 = 'outbound_bandwidth_surplus_percentile10';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 883; continue _fun0017 }
- 870:
+                    if(!var9) { _fun0017_ip = 894; continue _fun0017 }
+ 881:
                     var17 = var5.percentiles;
                     var9 = 25;
                     var16 = var17[var9];
- 883:
+ 894:
                     var9 = 'outbound_bandwidth_surplus_percentile25';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 921; continue _fun0017 }
- 908:
+                    if(!var9) { _fun0017_ip = 933; continue _fun0017 }
+ 920:
                     var17 = var5.percentiles;
                     var9 = 50;
                     var16 = var17[var9];
- 921:
+ 933:
                     var9 = 'outbound_bandwidth_surplus_percentile50';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var9 = var9 > var11;
                     var16 = null;
-                    if(!var9) { _fun0017_ip = 959; continue _fun0017 }
- 946:
+                    if(!var9) { _fun0017_ip = 972; continue _fun0017 }
+ 959:
                     var17 = var5.percentiles;
                     var9 = 75;
                     var16 = var17[var9];
- 959:
+ 972:
                     var9 = 'outbound_bandwidth_surplus_percentile75';
                     var2[var9] = var16;
                     var9 = var5.count;
                     var16 = var9 > var11;
                     var9 = null;
-                    if(!var16) { _fun0017_ip = 997; continue _fun0017 }
- 984:
+                    if(!var16) { _fun0017_ip = 1011; continue _fun0017 }
+ 998:
                     var16 = var5.percentiles;
                     var5 = 99;
                     var9 = var16[var5];
- 997:
+ 1011:
                     var5 = 'outbound_bandwidth_surplus_percentile99';
                     var2[var5] = var9;
                     var17 = _closure1_slot12;
@@ -1869,164 +1869,164 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = var7.vmafScoreNum;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1557; continue _fun0017 }
- 1541:
+                    if(!var15) { _fun0017_ip = 1571; continue _fun0017 }
+ 1555:
                     var17 = var7.vmafScoreSum;
                     var15 = var7.vmafScoreNum;
                     var16 = var17 / var15;
- 1557:
+ 1571:
                     var15 = 'average_encoder_vmaf_score';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1592; continue _fun0017 }
- 1582:
+                    if(!var15) { _fun0017_ip = 1607; continue _fun0017 }
+ 1597:
                     var15 = var14.percentiles;
                     var16 = var15[var13];
- 1592:
+ 1607:
                     var15 = 'encoder_vmaf_score_percentile1';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1630; continue _fun0017 }
- 1617:
+                    if(!var15) { _fun0017_ip = 1646; continue _fun0017 }
+ 1633:
                     var17 = var14.percentiles;
                     var15 = 5;
                     var16 = var17[var15];
- 1630:
+ 1646:
                     var15 = 'encoder_vmaf_score_percentile5';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1668; continue _fun0017 }
- 1655:
+                    if(!var15) { _fun0017_ip = 1685; continue _fun0017 }
+ 1672:
                     var17 = var14.percentiles;
                     var15 = 10;
                     var16 = var17[var15];
- 1668:
+ 1685:
                     var15 = 'encoder_vmaf_score_percentile10';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1706; continue _fun0017 }
- 1693:
+                    if(!var15) { _fun0017_ip = 1724; continue _fun0017 }
+ 1711:
                     var17 = var14.percentiles;
                     var15 = 25;
                     var16 = var17[var15];
- 1706:
+ 1724:
                     var15 = 'encoder_vmaf_score_percentile25';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var15 = var15 > var11;
                     var16 = null;
-                    if(!var15) { _fun0017_ip = 1744; continue _fun0017 }
- 1731:
+                    if(!var15) { _fun0017_ip = 1763; continue _fun0017 }
+ 1750:
                     var17 = var14.percentiles;
                     var15 = 50;
                     var16 = var17[var15];
- 1744:
+ 1763:
                     var15 = 'encoder_vmaf_score_percentile50';
                     var2[var15] = var16;
                     var15 = var14.count;
                     var16 = var15 > var11;
                     var15 = null;
-                    if(!var16) { _fun0017_ip = 1782; continue _fun0017 }
- 1769:
+                    if(!var16) { _fun0017_ip = 1802; continue _fun0017 }
+ 1789:
                     var16 = var14.percentiles;
                     var14 = 75;
                     var15 = var16[var14];
- 1782:
+ 1802:
                     var14 = 'encoder_vmaf_score_percentile75';
                     var2[var14] = var15;
                     var14 = var7.psnrDbNum;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 1824; continue _fun0017 }
- 1808:
+                    if(!var14) { _fun0017_ip = 1844; continue _fun0017 }
+ 1828:
                     var16 = var7.psnrDbSum;
                     var14 = var7.psnrDbNum;
                     var15 = var16 / var14;
- 1824:
+ 1844:
                     var14 = 'average_encoder_psnr_db';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 1859; continue _fun0017 }
- 1849:
+                    if(!var14) { _fun0017_ip = 1880; continue _fun0017 }
+ 1870:
                     var14 = var12.percentiles;
                     var15 = var14[var13];
- 1859:
+ 1880:
                     var14 = 'encoder_psnr_db_percentile1';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 1897; continue _fun0017 }
- 1884:
+                    if(!var14) { _fun0017_ip = 1919; continue _fun0017 }
+ 1906:
                     var16 = var12.percentiles;
                     var14 = 5;
                     var15 = var16[var14];
- 1897:
+ 1919:
                     var14 = 'encoder_psnr_db_percentile5';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 1935; continue _fun0017 }
- 1922:
+                    if(!var14) { _fun0017_ip = 1958; continue _fun0017 }
+ 1945:
                     var16 = var12.percentiles;
                     var14 = 10;
                     var15 = var16[var14];
- 1935:
+ 1958:
                     var14 = 'encoder_psnr_db_percentile10';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 1973; continue _fun0017 }
- 1960:
+                    if(!var14) { _fun0017_ip = 1997; continue _fun0017 }
+ 1984:
                     var16 = var12.percentiles;
                     var14 = 25;
                     var15 = var16[var14];
- 1973:
+ 1997:
                     var14 = 'encoder_psnr_db_percentile25';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var14 = var14 > var11;
                     var15 = null;
-                    if(!var14) { _fun0017_ip = 2011; continue _fun0017 }
- 1998:
+                    if(!var14) { _fun0017_ip = 2036; continue _fun0017 }
+ 2023:
                     var16 = var12.percentiles;
                     var14 = 50;
                     var15 = var16[var14];
- 2011:
+ 2036:
                     var14 = 'encoder_psnr_db_percentile50';
                     var2[var14] = var15;
                     var14 = var12.count;
                     var15 = var14 > var11;
                     var14 = null;
-                    if(!var15) { _fun0017_ip = 2049; continue _fun0017 }
- 2036:
+                    if(!var15) { _fun0017_ip = 2075; continue _fun0017 }
+ 2062:
                     var15 = var12.percentiles;
                     var12 = 75;
                     var14 = var15[var12];
- 2049:
+ 2075:
                     var12 = 'encoder_psnr_db_percentile75';
                     var2[var12] = var14;
                     var12 = var7.outboundSinkWantNum;
                     var12 = var12 > var11;
                     var14 = null;
-                    if(!var12) { _fun0017_ip = 2091; continue _fun0017 }
- 2075:
+                    if(!var12) { _fun0017_ip = 2117; continue _fun0017 }
+ 2101:
                     var15 = var7.outboundSinkWantSum;
                     var12 = var7.outboundSinkWantNum;
                     var14 = var15 / var12;
- 2091:
+ 2117:
                     var12 = 'average_outbound_want';
                     var2[var12] = var14;
                     var14 = var7.framesDroppedRateLimiter;
@@ -2076,77 +2076,77 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2362; continue _fun0017 }
- 2352:
+                    if(!var10) { _fun0017_ip = 2389; continue _fun0017 }
+ 2379:
                     var10 = var6.percentiles;
                     var12 = var10[var13];
- 2362:
+ 2389:
                     var10 = 'video_entropy_percentile1';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2400; continue _fun0017 }
- 2387:
+                    if(!var10) { _fun0017_ip = 2428; continue _fun0017 }
+ 2415:
                     var13 = var6.percentiles;
                     var10 = 5;
                     var12 = var13[var10];
- 2400:
+ 2428:
                     var10 = 'video_entropy_percentile5';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2438; continue _fun0017 }
- 2425:
+                    if(!var10) { _fun0017_ip = 2467; continue _fun0017 }
+ 2454:
                     var13 = var6.percentiles;
                     var10 = 10;
                     var12 = var13[var10];
- 2438:
+ 2467:
                     var10 = 'video_entropy_percentile10';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2476; continue _fun0017 }
- 2463:
+                    if(!var10) { _fun0017_ip = 2506; continue _fun0017 }
+ 2493:
                     var13 = var6.percentiles;
                     var10 = 25;
                     var12 = var13[var10];
- 2476:
+ 2506:
                     var10 = 'video_entropy_percentile25';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2514; continue _fun0017 }
- 2501:
+                    if(!var10) { _fun0017_ip = 2545; continue _fun0017 }
+ 2532:
                     var13 = var6.percentiles;
                     var10 = 50;
                     var12 = var13[var10];
- 2514:
+ 2545:
                     var10 = 'video_entropy_percentile50';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var12 = null;
-                    if(!var10) { _fun0017_ip = 2552; continue _fun0017 }
- 2539:
+                    if(!var10) { _fun0017_ip = 2584; continue _fun0017 }
+ 2571:
                     var13 = var6.percentiles;
                     var10 = 75;
                     var12 = var13[var10];
- 2552:
+ 2584:
                     var10 = 'video_entropy_percentile75';
                     var2[var10] = var12;
                     var10 = var6.count;
                     var10 = var10 > var11;
                     var8 = null;
-                    if(!var10) { _fun0017_ip = 2590; continue _fun0017 }
- 2577:
+                    if(!var10) { _fun0017_ip = 2623; continue _fun0017 }
+ 2610:
                     var10 = var6.percentiles;
                     var6 = 99;
                     var8 = var10[var6];
- 2590:
+ 2623:
                     var6 = 'video_entropy_percentile99';
                     var2[var6] = var8;
                     var6 = _closure1_slot12;
@@ -3164,7 +3164,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         var3 = arg1;
                         var1 = null;
-                        if(!(var1 != var3)) { _fun0023_ip = 1059; continue _fun0023 }
+                        if(!(var1 != var3)) { _fun0023_ip = 1058; continue _fun0023 }
  14:
                         var11 = var3.ssrc;
                         var _closure4_slot0 = var11;
@@ -3261,57 +3261,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = var8.MediaEngineContextTypes;
                         var8 = var8.STREAM;
                         var9 = true;
-                        if(!(var10 === var8)) { _fun0023_ip = 454; continue _fun0023 }
- 345:
+                        if(!(var10 === var8)) { _fun0023_ip = 453; continue _fun0023 }
+ 344:
                         var8 = _closure3_slot0;
                         var10 = var8.connection;
                         var8 = var10.getRemoteVideoSinkWants;
                         var10 = var8.bind(var10)(var11);
                         var8 = var1 != var10;
-                        if(!var8) { _fun0023_ip = 379; continue _fun0023 }
- 373:
+                        if(!var8) { _fun0023_ip = 378; continue _fun0023 }
+ 372:
                         var11 = 0;
                         var8 = var11 !== var10;
- 379:
-                        if(var8) { _fun0023_ip = 405; continue _fun0023 }
- 382:
+ 378:
+                        if(var8) { _fun0023_ip = 404; continue _fun0023 }
+ 381:
                         var11 = var1 == var4;
                         var12 = undefined;
-                        if(var11) { _fun0023_ip = 397; continue _fun0023 }
- 391:
+                        if(var11) { _fun0023_ip = 396; continue _fun0023 }
+ 390:
                         var12 = var4.quality;
- 397:
+ 396:
                         var11 = _closure3_slot6;
                         var8 = var12 !== var11;
- 405:
+ 404:
                         var11 = var10;
-                        if(var8) { _fun0023_ip = 436; continue _fun0023 }
- 411:
+                        if(var8) { _fun0023_ip = 435; continue _fun0023 }
+ 410:
                         var8 = _closure3_slot0;
                         var12 = var8.connection;
                         var10 = var12.getRemoteVideoSinkWants;
                         var8 = 'any';
                         var11 = var10.bind(var12)(var8);
- 436:
+ 435:
                         var12 = var1 != var11;
                         var10 = 0;
                         var8 = 0;
-                        if(!var12) { _fun0023_ip = 450; continue _fun0023 }
- 447:
+                        if(!var12) { _fun0023_ip = 449; continue _fun0023 }
+ 446:
                         var8 = var11;
- 450:
+ 449:
                         var9 = var8 > var10;
- 454:
+ 453:
                         var8 = _closure3_slot0;
                         var8 = var8.videoStopped;
                         var8 = var8.value;
-                        if(var8) { _fun0023_ip = 475; continue _fun0023 }
- 472:
+                        if(var8) { _fun0023_ip = 474; continue _fun0023 }
+ 471:
                         var8 = !var9;
- 475:
+ 474:
                         var9 = var5.isVideoStopped;
-                        if(!(var8 !== var9)) { _fun0023_ip = 529; continue _fun0023 }
- 485:
+                        if(!(var8 !== var9)) { _fun0023_ip = 528; continue _fun0023 }
+ 484:
                         var10 = var5.setVideoStopped;
                         var11 = _closure1_slot0;
                         var12 = _closure1_slot2;
@@ -3321,9 +3321,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var9 = var9.VideoStoppedReasons;
                         var9 = var9.SenderStopped;
                         var9 = var10.bind(var5)(var8, var9);
- 529:
-                        if(var8) { _fun0023_ip = 1059; continue _fun0023 }
- 535:
+ 528:
+                        if(var8) { _fun0023_ip = 1058; continue _fun0023 }
+ 534:
                         var11 = var5.appendAndIncrementStats;
                         var9 = _closure1_slot0;
                         var10 = _closure1_slot2;
@@ -3340,29 +3340,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var9.bind(var7)(var6);
                         var6 = var6.CodecTypes;
                         var6 = var6.UNKNOWN;
-                        if(!(var8 !== var6)) { _fun0023_ip = 641; continue _fun0023 }
- 621:
+                        if(!(var8 !== var6)) { _fun0023_ip = 640; continue _fun0023 }
+ 620:
                         var9 = _closure3_slot4;
                         var8 = var9.add;
                         var6 = var5.encoderCodec;
                         var6 = var8.bind(var9)(var6);
- 641:
+ 640:
                         var6 = var1 == var4;
                         var9 = undefined;
-                        if(var6) { _fun0023_ip = 656; continue _fun0023 }
- 650:
+                        if(var6) { _fun0023_ip = 655; continue _fun0023 }
+ 649:
                         var9 = var4.maxBitrate;
- 656:
+ 655:
                         var8 = var5.appendTargetRates;
                         var6 = var1 == var4;
                         var7 = undefined;
-                        if(var6) { _fun0023_ip = 677; continue _fun0023 }
- 671:
+                        if(var6) { _fun0023_ip = 676; continue _fun0023 }
+ 670:
                         var7 = var4.maxFrameRate;
- 677:
+ 676:
                         var6 = var3.bitrateTarget;
-                        if(!(var1 == var6)) { _fun0023_ip = 740; continue _fun0023 }
- 687:
+                        if(!(var1 == var6)) { _fun0023_ip = 739; continue _fun0023 }
+ 686:
                         var4 = global;
                         var12 = var4.Math;
                         var11 = var12.min;
@@ -3370,18 +3370,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var13 = var4.availableOutgoingBitrate;
                         var14 = var1 != var13;
                         var4 = 0;
-                        if(!var14) { _fun0023_ip = 722; continue _fun0023 }
- 719:
+                        if(!var14) { _fun0023_ip = 721; continue _fun0023 }
+ 718:
                         var4 = var13;
- 722:
+ 721:
                         var13 = var1 != var9;
                         var10 = 0;
-                        if(!var13) { _fun0023_ip = 734; continue _fun0023 }
- 731:
+                        if(!var13) { _fun0023_ip = 733; continue _fun0023 }
+ 730:
                         var10 = var9;
- 734:
+ 733:
                         var6 = var11.bind(var12)(var4, var10);
- 740:
+ 739:
                         var4 = _closure3_slot3;
                         var15 = var4.availableOutgoingBitrate;
                         var19 = var5;
@@ -3392,91 +3392,91 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var3.averageEncodeTime;
                         var7 = var1 != var6;
                         var4 = 0;
-                        if(!var7) { _fun0023_ip = 784; continue _fun0023 }
- 781:
+                        if(!var7) { _fun0023_ip = 783; continue _fun0023 }
+ 780:
                         var4 = var6;
- 784:
+ 783:
                         var5['averageEncodeTime'] = var4;
                         var6 = var3.framesDroppedRateLimiter;
                         var7 = var1 != var6;
                         var4 = null;
-                        if(!var7) { _fun0023_ip = 808; continue _fun0023 }
- 805:
+                        if(!var7) { _fun0023_ip = 807; continue _fun0023 }
+ 804:
                         var4 = var6;
- 808:
+ 807:
                         var5['framesDroppedRateLimiter'] = var4;
                         var6 = var3.framesDroppedEncoderQueue;
                         var7 = var1 != var6;
                         var4 = null;
-                        if(!var7) { _fun0023_ip = 832; continue _fun0023 }
- 829:
+                        if(!var7) { _fun0023_ip = 831; continue _fun0023 }
+ 828:
                         var4 = var6;
- 832:
+ 831:
                         var5['framesDroppedEncoderQueue'] = var4;
                         var6 = var3.framesDroppedCongestionWindow;
                         var7 = var1 != var6;
                         var4 = null;
-                        if(!var7) { _fun0023_ip = 856; continue _fun0023 }
- 853:
+                        if(!var7) { _fun0023_ip = 855; continue _fun0023 }
+ 852:
                         var4 = var6;
- 856:
+ 855:
                         var5['framesDroppedCongestionWindow'] = var4;
                         var6 = var3.framesDroppedEncoder;
                         var7 = var1 != var6;
                         var4 = null;
-                        if(!var7) { _fun0023_ip = 880; continue _fun0023 }
- 877:
+                        if(!var7) { _fun0023_ip = 879; continue _fun0023 }
+ 876:
                         var4 = var6;
- 880:
+ 879:
                         var5['framesDroppedEncoder'] = var4;
                         var4 = _closure3_slot0;
                         var5 = var4.hqSimulcastStreamEncoded;
                         var6 = var3.hqSimulcastStreamEncoded;
                         var4 = var1 != var6;
-                        if(!var4) { _fun0023_ip = 912; continue _fun0023 }
- 909:
+                        if(!var4) { _fun0023_ip = 911; continue _fun0023 }
+ 908:
                         var4 = var6;
- 912:
+ 911:
                         var5['value'] = var4;
                         var4 = _closure3_slot0;
                         var5 = var4.lqSimulcastStreamEncoded;
                         var6 = var3.lqSimulcastStreamEncoded;
                         var4 = var1 != var6;
-                        if(!var4) { _fun0023_ip = 944; continue _fun0023 }
- 941:
+                        if(!var4) { _fun0023_ip = 943; continue _fun0023 }
+ 940:
                         var4 = var6;
- 944:
+ 943:
                         var5['value'] = var4;
                         var4 = _closure3_slot0;
                         var5 = var4.bothSimulcastStreamsEncoded;
                         var4 = var4.hqSimulcastStreamEncoded;
                         var4 = var4.value;
-                        if(!var4) { _fun0023_ip = 989; continue _fun0023 }
- 974:
+                        if(!var4) { _fun0023_ip = 988; continue _fun0023 }
+ 973:
                         var6 = _closure3_slot0;
                         var6 = var6.lqSimulcastStreamEncoded;
                         var4 = var6.value;
- 989:
+ 988:
                         var5['value'] = var4;
                         var4 = _closure3_slot0;
                         var5 = var4.bandwidthLimitedResolution;
                         var6 = var3.bandwidthLimitedResolution;
                         var4 = var1 != var6;
-                        if(!var4) { _fun0023_ip = 1021; continue _fun0023 }
- 1018:
+                        if(!var4) { _fun0023_ip = 1020; continue _fun0023 }
+ 1017:
                         var4 = var6;
- 1021:
+ 1020:
                         var5['value'] = var4;
                         var2 = _closure3_slot0;
                         var2 = var2.bandwidthLimitedFramerate;
                         var3 = var3.bandwidthLimitedFrameRate;
                         var1 = var1 != var3;
-                        if(!var1) { _fun0023_ip = 1053; continue _fun0023 }
- 1050:
+                        if(!var1) { _fun0023_ip = 1052; continue _fun0023 }
+ 1049:
                         var1 = var3;
- 1053:
+ 1052:
                         var2['value'] = var1;
- 1059:
+ 1058:
                         var1 = undefined;
                         return var1;
                     }
@@ -3508,13 +3508,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var4 = var2.bind(var3)(var1);
                         var6 = null;
-                        if(!(var6 != var4)) { _fun0024_ip = 389; continue _fun0024 }
- 35:
+                        if(!(var6 != var4)) { _fun0024_ip = 388; continue _fun0024 }
+ 34:
                         var2 = _closure3_slot0;
                         var2 = var2.inboundStats;
                         var2 = var2[var14];
-                        if(!(var6 == var2)) { _fun0024_ip = 130; continue _fun0024 }
- 56:
+                        if(!(var6 == var2)) { _fun0024_ip = 129; continue _fun0024 }
+ 55:
                         var7 = _closure1_slot0;
                         var5 = _closure1_slot2;
                         var3 = 9;
@@ -3532,7 +3532,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var5.inboundStats;
                         var5[var14] = var3;
                         var2 = var3;
- 130:
+ 129:
                         var7 = _closure1_slot0;
                         var5 = _closure1_slot2;
                         var10 = 9;
@@ -3547,18 +3547,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = var5.statCollectionPausedUsers;
                         var5 = var8.has;
                         var5 = var5.bind(var8)(var14);
-                        if(var5) { _fun0024_ip = 230; continue _fun0024 }
- 202:
+                        if(var5) { _fun0024_ip = 229; continue _fun0024 }
+ 201:
                         var5 = var2.appendAndIncrementStats;
                         var5 = var5.bind(var2)(var7);
                         var8 = var2.appendTransportStats;
                         var5 = _closure3_slot3;
                         var5 = var8.bind(var2)(var5);
- 230:
+ 229:
                         var8 = var7.packets;
                         var5 = 0;
-                        if(!(var8 > var5)) { _fun0024_ip = 284; continue _fun0024 }
- 242:
+                        if(!(var8 > var5)) { _fun0024_ip = 283; continue _fun0024 }
+ 241:
                         var13 = _closure3_slot0;
                         var12 = var13.emit;
                         var8 = _closure1_slot8;
@@ -3568,7 +3568,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var19 = var13;
                         var17 = var14;
                         var7 = var19[var12](var18, var17, var16, var15, var14);
- 284:
+ 283:
                         var7 = var2.decoderCodec;
                         var8 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -3576,27 +3576,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var8.bind(var9)(var3);
                         var3 = var3.CodecTypes;
                         var3 = var3.UNKNOWN;
-                        if(!(var7 !== var3)) { _fun0024_ip = 343; continue _fun0024 }
- 323:
+                        if(!(var7 !== var3)) { _fun0024_ip = 342; continue _fun0024 }
+ 322:
                         var8 = _closure3_slot5;
                         var7 = var8.add;
                         var3 = var2.decoderCodec;
                         var3 = var7.bind(var8)(var3);
- 343:
+ 342:
                         var3 = var2.timeToFirstFrame;
                         var3 = var6 == var3;
-                        if(!var3) { _fun0024_ip = 366; continue _fun0024 }
- 356:
+                        if(!var3) { _fun0024_ip = 365; continue _fun0024 }
+ 355:
                         var4 = var4.framesDecoded;
                         var3 = var4 > var5;
- 366:
-                        if(!var3) { _fun0024_ip = 389; continue _fun0024 }
- 369:
+ 365:
+                        if(!var3) { _fun0024_ip = 388; continue _fun0024 }
+ 368:
                         var3 = _closure3_slot1;
                         var1 = var2.startTime;
                         var1 = var3 - var1;
                         var2['timeToFirstFrame'] = var1;
- 389:
+ 388:
                         var1 = undefined;
                         return var1;
                     }
@@ -3685,7 +3685,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5 == var2;
                 var1 = undefined;
                 var4 = undefined;
-                if(var3) { _fun0026_ip = 48; continue _fun0026 }
+                if(var3) { _fun0026_ip = 47; continue _fun0026 }
  16:
                 var2 = var2.rtp;
                 var6 = var2.outbound;
@@ -3698,22 +3698,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var4 = var3.bind(var6)(var2);
- 48:
+ 47:
                 var2 = this;
                 var3 = var2.videoEffectDuration;
                 var2 = var5 == var4;
                 var6 = undefined;
-                if(var2) { _fun0026_ip = 71; continue _fun0026 }
- 66:
+                if(var2) { _fun0026_ip = 70; continue _fun0026 }
+ 65:
                 var6 = var4.type;
- 71:
+ 70:
                 var2 = 'video';
                 var2 = var2 === var6;
-                if(!var2) { _fun0026_ip = 91; continue _fun0026 }
- 82:
+                if(!var2) { _fun0026_ip = 90; continue _fun0026 }
+ 81:
                 var4 = var4.filter;
                 var2 = var5 != var4;
- 91:
+ 90:
                 var3['value'] = var2;
                 return var1;
             }

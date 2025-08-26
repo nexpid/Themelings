@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.isArray;
                     var1 = var2.pinned;
                     var1 = var3.bind(var4)(var1);
-                    if(!var1) { _fun0003_ip = 62; continue _fun0003 }
+                    if(!var1) { _fun0003_ip = 60; continue _fun0003 }
  30:
                     var4 = var2.pinned;
                     var3 = var4.some;
@@ -97,7 +97,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var1 = var3.bind(var4)(var1);
                     var2['pinned'] = var1;
- 62:
+ 60:
                     var1 = undefined;
                     return var1;
                 }
@@ -120,15 +120,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var3.bind(var5)(var10);
             _closure2_slot3 = var12;
             var3 = null;
-            if(!(var3 != var12)) { _fun0002_ip = 273; continue _fun0002 }
- 244:
+            if(!(var3 != var12)) { _fun0002_ip = 271; continue _fun0002 }
+ 242:
             var11 = _closure1_slot0;
             var5 = _closure1_slot2;
             var5 = var5[var18];
             var11 = var11.bind(var4)(var5);
             var5 = var11.setIncludeNSFW;
             var5 = var5.bind(var11)(var8, var12);
- 273:
+ 271:
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
             var5 = 2;
@@ -149,14 +149,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['pagination'] = var14;
             var5['trackExactTotalHits'] = var13;
             var5 = var11.bind(var12)(var5);
-            if(!(var3 != var6)) { _fun0002_ip = 389; continue _fun0002 }
- 367:
+            if(!(var3 != var6)) { _fun0002_ip = 387; continue _fun0002 }
+ 365:
             var3 = {};
             var3['searchContext'] = var10;
             var3['searchQueryString'] = var9;
             var3['searchQuery'] = var8;
             var3 = var6.bind(var4)(var3);
- 389:
+ 387:
             var6 = var7.map;
             var3 = function(arg1) {
                 var3 = _closure2_slot1;
@@ -309,15 +309,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var6)(var2);
                     var3 = _closure2_slot2;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0004_ip = 160; continue _fun0004 }
- 135:
+                    if(!(var2 != var3)) { _fun0004_ip = 158; continue _fun0004 }
+ 133:
                     var3 = _closure2_slot2;
                     var2 = {};
                     var5 = _closure2_slot0;
                     var2['searchContext'] = var5;
                     var2['tabEntries'] = var4;
                     var2 = var3.bind(var1)(var2);
- 160:
+ 158:
                     return var1;
                 }
             };
@@ -489,10 +489,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6['documentsIndexed'] = var8;
                     var7 = var7.body;
                     var7 = var7.channels;
-                    if(!(var5 == var7)) { _fun0007_ip = 241; continue _fun0007 }
- 237:
+                    if(!(var5 == var7)) { _fun0007_ip = 239; continue _fun0007 }
+ 235:
                     var7 = new Array(0);
- 241:
+ 239:
                     var6['channels'] = var7;
                     var6['cursor'] = var5;
                     var5 = new Array(1);
@@ -893,7 +893,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['clearSearchState'] = var7;
-    var4 = function updateAutocompleteQuery(arg1, arg2, arg3) {
+    var7 = function updateAutocompleteQuery(arg1, arg2, arg3) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 3;
@@ -913,7 +913,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['updateAutocompleteQuery'] = var4;
+    var2['updateAutocompleteQuery'] = var7;
+    var4 = function markSearchTokensRefreshed() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 3;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'SEARCH_TOKENS_REFRESHED';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var2['markSearchTokensRefreshed'] = var4;
     var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

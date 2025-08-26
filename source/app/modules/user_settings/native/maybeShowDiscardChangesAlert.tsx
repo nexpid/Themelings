@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  40:
             var1 = undefined;
             var1 = var2.bind(var1)();
-            _fun0001_ip = 321; continue _fun0001;
+            _fun0001_ip = 325; continue _fun0001;
  51:
             var2 = null;
             if(!(var2 != var3)) { _fun0001_ip = 63; continue _fun0001 }
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['onCancel'] = var5;
             var1 = var3.bind(var4)(var2);
- 321:
+ 325:
             return var1;
         }
     };

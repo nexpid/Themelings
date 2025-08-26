@@ -1599,7 +1599,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             var5 = var4 == var2;
             var6 = undefined;
-            if(var5) { _fun0019_ip = 42; continue _fun0019 }
+            if(var5) { _fun0019_ip = 41; continue _fun0019 }
  26:
             var7 = var2.find;
             var5 = function(arg1) {
@@ -1617,10 +1617,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6 = var7.bind(var2)(var5);
- 42:
+ 41:
             var5 = var8;
-            if(!(var4 != var6)) { _fun0019_ip = 93; continue _fun0019 }
- 49:
+            if(!(var4 != var6)) { _fun0019_ip = 92; continue _fun0019 }
+ 48:
             var11 = _closure1_slot7;
             var10 = var6.name;
             var7 = global;
@@ -1630,11 +1630,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var9.bind(var7)(var11, var10);
             var5 = var8 + var7;
             var2 = var6.options;
- 93:
+ 92:
             var6 = var4 == var2;
             var1 = undefined;
-            if(var6) { _fun0019_ip = 118; continue _fun0019 }
- 102:
+            if(var6) { _fun0019_ip = 116; continue _fun0019 }
+ 101:
             var6 = var2.find;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -1651,10 +1651,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var6.bind(var2)(var3);
- 118:
+ 116:
             var3 = var5;
-            if(!(var4 != var1)) { _fun0019_ip = 169; continue _fun0019 }
- 125:
+            if(!(var4 != var1)) { _fun0019_ip = 167; continue _fun0019 }
+ 123:
             var8 = _closure1_slot7;
             var7 = var1.name;
             var4 = global;
@@ -1664,7 +1664,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var4)(var8, var7);
             var3 = var5 + var4;
             var2 = var1.options;
- 169:
+ 167:
             var1 = {};
             var1['commandKey'] = var3;
             var1['interactionOptions'] = var2;

@@ -244,93 +244,93 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var4 = var4.bind(var5)(var3);
             var9 = null;
-            if(!(var9 == var1)) { _fun0005_ip = 58; continue _fun0005 }
- 33:
+            if(!(var9 == var1)) { _fun0005_ip = 57; continue _fun0005 }
+ 32:
             var3 = {'packetsSentOrReceived': 0, 'packetsLost': 0, 'packetLossRate': 0, 'frameRate': 0, 'resolution': 0, 'numDatapoints': 0, 'frameRateAggregated': 0, 'resolutionAggregated': 0};
             var5 = arg1;
             var3['minVersion'] = var5;
             var1 = var3;
- 58:
-            if(!(var9 != var4)) { _fun0005_ip = 688; continue _fun0005 }
- 65:
+ 57:
+            if(!(var9 != var4)) { _fun0005_ip = 686; continue _fun0005 }
+ 64:
             var3 = _closure1_slot15;
             var6 = undefined;
             var3 = var3.bind(var6)(var4);
-            if(var3) { _fun0005_ip = 102; continue _fun0005 }
- 82:
+            if(var3) { _fun0005_ip = 101; continue _fun0005 }
+ 81:
             var3 = var4.packetsReceived;
             var7 = var9 != var3;
             var5 = 0;
-            if(!var7) { _fun0005_ip = 100; continue _fun0005 }
- 97:
+            if(!var7) { _fun0005_ip = 99; continue _fun0005 }
+ 96:
             var5 = var3;
- 100:
-            _fun0005_ip = 123; continue _fun0005;
- 102:
+ 99:
+            _fun0005_ip = 122; continue _fun0005;
+ 101:
             var7 = var4.packetsSent;
             var10 = var9 != var7;
             var3 = 0;
-            if(!var10) { _fun0005_ip = 120; continue _fun0005 }
- 117:
+            if(!var10) { _fun0005_ip = 119; continue _fun0005 }
+ 116:
             var3 = var7;
- 120:
+ 119:
             var5 = var3;
- 123:
+ 122:
             var3 = _closure1_slot15;
             var3 = var3.bind(var6)(var4);
             var11 = var4.packetsLost;
             var13 = var9 != var11;
-            if(var3) { _fun0005_ip = 155; continue _fun0005 }
- 145:
+            if(var3) { _fun0005_ip = 154; continue _fun0005 }
+ 144:
             var3 = 0;
-            if(!var13) { _fun0005_ip = 153; continue _fun0005 }
- 150:
+            if(!var13) { _fun0005_ip = 152; continue _fun0005 }
+ 149:
             var3 = var11;
- 153:
-            _fun0005_ip = 166; continue _fun0005;
- 155:
+ 152:
+            _fun0005_ip = 165; continue _fun0005;
+ 154:
             var10 = 0;
-            if(!var13) { _fun0005_ip = 163; continue _fun0005 }
- 160:
+            if(!var13) { _fun0005_ip = 162; continue _fun0005 }
+ 159:
             var10 = var11;
- 163:
+ 162:
             var3 = var10;
- 166:
+ 165:
             var10 = _closure1_slot15;
             var10 = var10.bind(var6)(var4);
-            if(var10) { _fun0005_ip = 198; continue _fun0005 }
- 178:
+            if(var10) { _fun0005_ip = 197; continue _fun0005 }
+ 177:
             var10 = var4.frameRateDecode;
             var11 = var9 != var10;
             var13 = 0;
-            if(!var11) { _fun0005_ip = 196; continue _fun0005 }
- 193:
+            if(!var11) { _fun0005_ip = 195; continue _fun0005 }
+ 192:
             var13 = var10;
- 196:
-            _fun0005_ip = 219; continue _fun0005;
- 198:
+ 195:
+            _fun0005_ip = 218; continue _fun0005;
+ 197:
             var11 = var4.frameRateEncode;
             var14 = var9 != var11;
             var10 = 0;
-            if(!var14) { _fun0005_ip = 216; continue _fun0005 }
- 213:
+            if(!var14) { _fun0005_ip = 215; continue _fun0005 }
+ 212:
             var10 = var11;
- 216:
+ 215:
             var13 = var10;
- 219:
+ 218:
             var10 = var4.resolution;
             var11 = var9 == var10;
             var4 = undefined;
-            if(var11) { _fun0005_ip = 239; continue _fun0005 }
- 234:
+            if(var11) { _fun0005_ip = 238; continue _fun0005 }
+ 233:
             var4 = var10.height;
- 239:
+ 238:
             var10 = var9 != var4;
             var11 = 0;
-            if(!var10) { _fun0005_ip = 251; continue _fun0005 }
- 248:
+            if(!var10) { _fun0005_ip = 250; continue _fun0005 }
+ 247:
             var11 = var4;
- 251:
+ 250:
             var10 = var1.numDatapoints;
             var4 = 1;
             var10 = var10 + var4;
@@ -343,8 +343,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['resolutionAggregated'] = var10;
             var11 = var9 == var12;
             var10 = undefined;
-            if(var11) { _fun0005_ip = 327; continue _fun0005 }
- 311:
+            if(var11) { _fun0005_ip = 325; continue _fun0005 }
+ 310:
             var11 = var12.find;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -354,97 +354,97 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var10 = var11.bind(var12)(var2);
- 327:
-            if(!(var9 != var10)) { _fun0005_ip = 344; continue _fun0005 }
- 331:
+ 325:
+            if(!(var9 != var10)) { _fun0005_ip = 342; continue _fun0005 }
+ 329:
             var11 = var1.minVersion;
             var2 = arg2;
-            if(!(!(var2 >= var11))) { _fun0005_ip = 361; continue _fun0005 }
- 344:
+            if(!(!(var2 >= var11))) { _fun0005_ip = 359; continue _fun0005 }
+ 342:
             var1['packetsSentOrReceived'] = var5;
             var1['packetsLost'] = var3;
-            _fun0005_ip = 610; continue _fun0005;
- 361:
+            _fun0005_ip = 608; continue _fun0005;
+ 359:
             var2 = var1.numDatapoints;
             var2 = var2 - var4;
             var1['numDatapoints'] = var2;
             var2 = _closure1_slot15;
             var2 = var2.bind(var6)(var10);
-            if(var2) { _fun0005_ip = 409; continue _fun0005 }
- 389:
+            if(var2) { _fun0005_ip = 407; continue _fun0005 }
+ 387:
             var2 = var10.packetsReceived;
             var11 = var9 != var2;
             var4 = 0;
-            if(!var11) { _fun0005_ip = 407; continue _fun0005 }
- 404:
+            if(!var11) { _fun0005_ip = 405; continue _fun0005 }
+ 402:
             var4 = var2;
+ 405:
+            _fun0005_ip = 428; continue _fun0005;
  407:
-            _fun0005_ip = 430; continue _fun0005;
- 409:
             var11 = var10.packetsSent;
             var12 = var9 != var11;
             var2 = 0;
-            if(!var12) { _fun0005_ip = 427; continue _fun0005 }
- 424:
+            if(!var12) { _fun0005_ip = 425; continue _fun0005 }
+ 422:
             var2 = var11;
- 427:
+ 425:
             var4 = var2;
- 430:
+ 428:
             var2 = _closure1_slot15;
             var2 = var2.bind(var6)(var10);
             var12 = var10.packetsLost;
             var13 = var9 != var12;
-            if(var2) { _fun0005_ip = 462; continue _fun0005 }
- 452:
+            if(var2) { _fun0005_ip = 460; continue _fun0005 }
+ 450:
             var2 = 0;
-            if(!var13) { _fun0005_ip = 460; continue _fun0005 }
- 457:
+            if(!var13) { _fun0005_ip = 458; continue _fun0005 }
+ 455:
             var2 = var12;
+ 458:
+            _fun0005_ip = 471; continue _fun0005;
  460:
-            _fun0005_ip = 473; continue _fun0005;
- 462:
             var11 = 0;
-            if(!var13) { _fun0005_ip = 470; continue _fun0005 }
- 467:
+            if(!var13) { _fun0005_ip = 468; continue _fun0005 }
+ 465:
             var11 = var12;
- 470:
+ 468:
             var2 = var11;
- 473:
+ 471:
             var8 = _closure1_slot15;
             var8 = var8.bind(var6)(var10);
-            if(var8) { _fun0005_ip = 505; continue _fun0005 }
- 485:
+            if(var8) { _fun0005_ip = 503; continue _fun0005 }
+ 483:
             var11 = var10.frameRateDecode;
             var12 = var9 != var11;
             var8 = 0;
-            if(!var12) { _fun0005_ip = 503; continue _fun0005 }
- 500:
+            if(!var12) { _fun0005_ip = 501; continue _fun0005 }
+ 498:
             var8 = var11;
+ 501:
+            _fun0005_ip = 524; continue _fun0005;
  503:
-            _fun0005_ip = 526; continue _fun0005;
- 505:
             var12 = var10.frameRateEncode;
             var13 = var9 != var12;
             var11 = 0;
-            if(!var13) { _fun0005_ip = 523; continue _fun0005 }
- 520:
+            if(!var13) { _fun0005_ip = 521; continue _fun0005 }
+ 518:
             var11 = var12;
- 523:
+ 521:
             var8 = var11;
- 526:
+ 524:
             var10 = var10.resolution;
             var11 = var9 == var10;
             var6 = undefined;
-            if(var11) { _fun0005_ip = 546; continue _fun0005 }
- 541:
+            if(var11) { _fun0005_ip = 544; continue _fun0005 }
+ 539:
             var6 = var10.height;
- 546:
+ 544:
             var9 = var9 != var6;
             var7 = 0;
-            if(!var9) { _fun0005_ip = 558; continue _fun0005 }
- 555:
+            if(!var9) { _fun0005_ip = 556; continue _fun0005 }
+ 553:
             var7 = var6;
- 558:
+ 556:
             var6 = var1.frameRateAggregated;
             var6 = var6 - var8;
             var1['frameRateAggregated'] = var6;
@@ -455,7 +455,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['packetsSentOrReceived'] = var4;
             var2 = var3 - var2;
             var1['packetsLost'] = var2;
- 610:
+ 608:
             var3 = var1.frameRateAggregated;
             var2 = var1.numDatapoints;
             var2 = var3 / var2;
@@ -471,7 +471,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3 / var2;
             var1['packetLossRate'] = var2;
             return var1;
- 688:
+ 686:
             return var1;
         }
     };

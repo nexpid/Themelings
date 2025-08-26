@@ -1762,7 +1762,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.trim;
                     var6 = var5.bind(var6)();
                     var5 = '';
-                    if(!(var5 === var6)) { _fun0021_ip = 317; continue _fun0021 }
+                    if(!(var5 === var6)) { _fun0021_ip = 316; continue _fun0021 }
  239:
                     var6 = _closure1_slot9;
                     var5 = var6.getChannelId;
@@ -1778,8 +1778,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var6 = var6.bind(var3)(var5);
                     var5 = null;
-                    if(!(var5 != var6)) { _fun0021_ip = 317; continue _fun0021 }
- 280:
+                    if(!(var5 != var6)) { _fun0021_ip = 316; continue _fun0021 }
+ 279:
                     var9 = var3.splice;
                     var5 = var3.indexOf;
                     var8 = var5.bind(var3)(var6);
@@ -1787,7 +1787,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var9.bind(var3)(var8, var5);
                     var5 = var3.unshift;
                     var5 = var5.bind(var3)(var6);
- 317:
+ 316:
                     var6 = _closure1_slot7;
                     var5 = var6.getTextChannelNameDisambiguations;
                     var5 = var5.bind(var6)(var7);

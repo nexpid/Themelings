@@ -2453,9 +2453,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  2728:
             var13 = _closure1_slot9;
  2732:
-            if(var3) { _fun0003_ip = 3887; continue _fun0003 }
+            if(var3) { _fun0003_ip = 3883; continue _fun0003 }
  2738:
-            if(!(var2 != var12)) { _fun0003_ip = 3864; continue _fun0003 }
+            if(!(var2 != var12)) { _fun0003_ip = 3860; continue _fun0003 }
  2745:
             if(var1) { _fun0003_ip = 2779; continue _fun0003 }
  2748:
@@ -2465,7 +2465,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['command'] = var12;
             var1['onPressBack'] = var11;
             var7 = var3.bind(var4)(var2, var1);
-            _fun0003_ip = 3862; continue _fun0003;
+            _fun0003_ip = 3858; continue _fun0003;
  2779:
             var3 = _closure1_slot21;
             var2 = _closure1_slot22;
@@ -2634,7 +2634,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  3260:
             var14[2] = var21;
             var21 = !var22;
-            if(var22) { _fun0003_ip = 3416; continue _fun0003 }
+            if(var22) { _fun0003_ip = 3412; continue _fun0003 }
  3273:
             var27 = _closure1_slot20;
             var24 = _closure1_slot7;
@@ -2666,10 +2666,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var28 = var31.bind(var4)(var30, var28);
             var22['children'] = var28;
             var21 = var27.bind(var4)(var24, var22);
- 3416:
+ 3412:
             var14[3] = var21;
-            if(!var15) { _fun0003_ip = 3745; continue _fun0003 }
- 3426:
+            if(!var15) { _fun0003_ip = 3741; continue _fun0003 }
+ 3422:
             var24 = _closure1_slot21;
             var22 = _closure1_slot22;
             var21 = {};
@@ -2827,7 +2827,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25[2] = var26;
             var21['children'] = var25;
             var15 = var24.bind(var4)(var22, var21);
- 3745:
+ 3741:
             var14[4] = var15;
             var22 = _closure1_slot20;
             var21 = _closure1_slot1;
@@ -2855,22 +2855,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var13;
             var1['children'] = var8;
             var7 = var3.bind(var4)(var2, var1);
- 3862:
-            _fun0003_ip = 3885; continue _fun0003;
- 3864:
+ 3858:
+            _fun0003_ip = 3881; continue _fun0003;
+ 3860:
             var3 = _closure1_slot20;
             var2 = _closure1_slot31;
             var1 = {};
             var1['onPressBack'] = var11;
             var7 = var3.bind(var4)(var2, var1);
- 3885:
-            _fun0003_ip = 3903; continue _fun0003;
- 3887:
+ 3881:
+            _fun0003_ip = 3899; continue _fun0003;
+ 3883:
             var3 = _closure1_slot20;
             var2 = _closure1_slot30;
             var1 = {};
             var7 = var3.bind(var4)(var2, var1);
- 3903:
+ 3899:
             var3 = _closure1_slot21;
             var2 = _closure1_slot7;
             var1 = {};
@@ -3186,11 +3186,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = {'command': null, 'sectionDescriptor': null, 'hasPermission': false};
                     var2 = var2.fetchState;
                     var2 = var2.fetching;
-                    if(var2) { _fun0022_ip = 774; continue _fun0022 }
- 762:
+                    if(var2) { _fun0022_ip = 778; continue _fun0022 }
+ 766:
                     var3 = var3.fetchState;
                     var2 = var3.fetching;
- 774:
+ 778:
                     var1['loading'] = var2;
                     return var1;
                 }

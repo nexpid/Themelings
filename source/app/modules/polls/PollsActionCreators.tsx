@@ -208,7 +208,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var4 == var1;
                     var1 = undefined;
                     var5 = undefined;
-                    if(var6) { _fun0005_ip = 66; continue _fun0005 }
+                    if(var6) { _fun0005_ip = 65; continue _fun0005 }
  29:
                     var7 = _closure2_slot0;
                     var6 = var7.find;
@@ -226,36 +226,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var6.bind(var7)(var2);
                     var6 = var4 == var2;
                     var5 = undefined;
-                    if(var6) { _fun0005_ip = 66; continue _fun0005 }
- 60:
+                    if(var6) { _fun0005_ip = 65; continue _fun0005 }
+ 59:
                     var5 = var2.poll_media;
- 66:
+ 65:
                     var6 = var4 == var5;
                     var2 = undefined;
-                    if(var6) { _fun0005_ip = 80; continue _fun0005 }
- 75:
+                    if(var6) { _fun0005_ip = 79; continue _fun0005 }
+ 74:
                     var2 = var5.text;
- 80:
-                    if(!(var4 != var2)) { _fun0005_ip = 99; continue _fun0005 }
- 84:
+ 79:
+                    if(!(var4 != var2)) { _fun0005_ip = 98; continue _fun0005 }
+ 83:
                     var6 = _closure2_slot1;
                     var2 = 1;
                     var2 = var6 + var2;
                     _closure2_slot1 = var2;
- 99:
+ 98:
                     var6 = var4 == var5;
                     var2 = undefined;
-                    if(var6) { _fun0005_ip = 114; continue _fun0005 }
- 108:
+                    if(var6) { _fun0005_ip = 113; continue _fun0005 }
+ 107:
                     var2 = var5.emoji;
- 114:
-                    if(!(var4 != var2)) { _fun0005_ip = 133; continue _fun0005 }
- 118:
+ 113:
+                    if(!(var4 != var2)) { _fun0005_ip = 132; continue _fun0005 }
+ 117:
                     var4 = _closure2_slot2;
                     var2 = 1;
                     var2 = var4 + var2;
                     _closure2_slot2 = var2;
- 133:
+ 132:
                     return var1;
                 }
             };

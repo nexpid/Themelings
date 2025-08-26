@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.startsWith;
             var2 = 'data:';
             var2 = var3.bind(var1)(var2);
-            if(var2) { _fun0001_ip = 332; continue _fun0001 }
+            if(var2) { _fun0001_ip = 330; continue _fun0001 }
  49:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -77,16 +77,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var14)(var2);
             var2 = var2.SUPPORTS_WEBP;
             var11 = 'png';
-            if(!var2) { _fun0001_ip = 95; continue _fun0001 }
- 89:
+            if(!var2) { _fun0001_ip = 93; continue _fun0001 }
+ 87:
             var11 = 'webp';
- 95:
+ 93:
             var2 = var5 != var7;
             var10 = '';
             var9 = 'quality=lossless';
             var8 = var10;
-            if(!var2) { _fun0001_ip = 201; continue _fun0001 }
- 115:
+            if(!var2) { _fun0001_ip = 199; continue _fun0001 }
+ 113:
             var13 = _closure1_slot0;
             var15 = _closure1_slot2;
             var2 = 3;
@@ -103,19 +103,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2 + var3;
             var6 = _closure1_slot7;
             var2 = var10;
-            if(var6) { _fun0001_ip = 195; continue _fun0001 }
- 189:
+            if(var6) { _fun0001_ip = 193; continue _fun0001 }
+ 187:
             var2 = '&quality=lossless';
- 195:
+ 193:
             var9 = var2;
             var8 = var3;
- 201:
+ 199:
             var3 = global;
             var2 = var3.window;
             var2 = var2.GLOBAL_ENV;
             var2 = var2.CDN_HOST;
-            if(!(var5 == var2)) { _fun0001_ip = 275; continue _fun0001 }
- 225:
+            if(!(var5 == var2)) { _fun0001_ip = 273; continue _fun0001 }
+ 223:
             var7 = _closure1_slot6;
             var5 = _closure1_slot3;
             var2 = var5.ROLE_ICON;
@@ -127,8 +127,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var7;
             var22 = var8;
             var2 = var26[var5](var25, var24, var23, var22, var21);
-            _fun0001_ip = 330; continue _fun0001;
- 275:
+            _fun0001_ip = 328; continue _fun0001;
+ 273:
             var25 = _closure1_slot5;
             var3 = var3.HermesInternal;
             var6 = var3.concat;
@@ -144,9 +144,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var8;
             var16 = var9;
             var2 = var26[var6](var25, var24, var23, var22, var21, var20, var19, var18, var17, var16, var15);
- 330:
+ 328:
             return var2;
- 332:
+ 330:
             return var1;
         }
     };

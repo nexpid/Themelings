@@ -357,21 +357,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var4)(var6);
             var6 = var9.isAndroid;
             var6 = var6.bind(var9)();
-            if(!var6) { _fun0001_ip = 559; continue _fun0001 }
- 519:
+            if(!var6) { _fun0001_ip = 558; continue _fun0001 }
+ 518:
             var14 = _closure1_slot5;
             var10 = _closure1_slot9;
             var9 = {};
             var9['authenticatorSelection'] = var17;
             var9['setAuthenticator'] = var16;
             var16 = var12;
-            if(var12) { _fun0001_ip = 548; continue _fun0001 }
- 545:
+            if(var12) { _fun0001_ip = 547; continue _fun0001 }
+ 544:
             var16 = var13;
- 548:
+ 547:
             var9['inProgress'] = var16;
             var6 = var14.bind(var4)(var10, var9);
- 559:
+ 558:
             var1['content'] = var6;
             var10 = _closure1_slot5;
             var9 = _closure1_slot1;
@@ -394,15 +394,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var15.bind(var16)(var14);
             var6['text'] = var14;
             var14 = var12;
-            if(var12) { _fun0001_ip = 660; continue _fun0001 }
- 657:
+            if(var12) { _fun0001_ip = 659; continue _fun0001 }
+ 656:
             var14 = var13;
- 660:
+ 659:
             var6['loading'] = var14;
-            if(var12) { _fun0001_ip = 671; continue _fun0001 }
- 668:
+            if(var12) { _fun0001_ip = 670; continue _fun0001 }
+ 667:
             var12 = var13;
- 671:
+ 670:
             var6['disabled'] = var12;
             var6['onPress'] = var11;
             var6 = var10.bind(var4)(var9, var6);

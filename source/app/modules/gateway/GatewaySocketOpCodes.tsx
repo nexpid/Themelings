@@ -201,6 +201,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['UPDATE_TIME_SPENT_SESSION_ID'] = var10;
     var9 = 'UPDATE_TIME_SPENT_SESSION_ID';
     var2[var10] = var9;
+    var10 = 43;
+    var2['REQUEST_CHANNEL_INFO'] = var10;
+    var9 = 'REQUEST_CHANNEL_INFO';
+    var2[var10] = var9;
     var _closure1_slot8 = var2;
     var8 = var7[var8];
     var8 = var6.bind(var1)(var8);
@@ -269,7 +273,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(20);
+        var1 = new Array(21);
         var1[0] = var5;
         var5 = {};
         var7 = 'voiceStateUpdate';
@@ -783,6 +787,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[17] = var5;
         var5 = {};
+        var7 = 'requestChannelInfo';
+        var5['key'] = var7;
+        var7 = function value(arg1, arg2) {
+            var4 = this;
+            var3 = var4.send;
+            var1 = _closure1_slot8;
+            var2 = var1.REQUEST_CHANNEL_INFO;
+            var1 = {};
+            var5 = arg1;
+            var1['guild_id'] = var5;
+            var5 = arg2;
+            var1['fields'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[18] = var5;
+        var5 = {};
         var7 = 'requestChannelMemberCount';
         var5['key'] = var7;
         var7 = function value(arg1, arg2) {
@@ -800,7 +823,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[18] = var5;
+        var1[19] = var5;
         var5 = {};
         var7 = 'remoteCommand';
         var5['key'] = var7;
@@ -819,7 +842,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var6;
-        var1[19] = var5;
+        var1[20] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -175,7 +175,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.EMBED;
                 var2 = var5 === var3;
  47:
-                if(!var2) { _fun0003_ip = 788; continue _fun0003 }
+                if(!var2) { _fun0003_ip = 786; continue _fun0003 }
  53:
                 var3 = var4.type;
                 var2 = _closure1_slot7;
@@ -315,10 +315,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = null;
                 var19 = var3 != var15;
                 var1 = undefined;
-                if(!var19) { _fun0003_ip = 575; continue _fun0003 }
+                if(!var19) { _fun0003_ip = 573; continue _fun0003 }
  569:
                 var1 = 'png';
- 575:
+ 573:
                 var24 = var18;
                 var23 = var16;
                 var22 = var11;
@@ -349,10 +349,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7['mediaIndex'] = var16;
                 var16 = var3 != var15;
                 var14 = undefined;
-                if(!var16) { _fun0003_ip = 705; continue _fun0003 }
- 702:
+                if(!var16) { _fun0003_ip = 703; continue _fun0003 }
+ 700:
                 var14 = var15;
- 705:
+ 703:
                 var7['videoURI'] = var14;
                 var7['isGIFV'] = var13;
                 var7['sourceURI'] = var12;
@@ -364,20 +364,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var5.bind(var6)(var1);
                 var1 = _closure2_slot0;
                 var1 = var3 != var1;
-                if(!var1) { _fun0003_ip = 766; continue _fun0003 }
- 758:
+                if(!var1) { _fun0003_ip = 764; continue _fun0003 }
+ 756:
                 var3 = _closure2_slot0;
                 var1 = var4 === var3;
- 766:
-                if(!var1) { _fun0003_ip = 777; continue _fun0003 }
- 769:
+ 764:
+                if(!var1) { _fun0003_ip = 775; continue _fun0003 }
+ 767:
                 var1 = _closure2_slot2;
                 _closure2_slot3 = var1;
- 777:
+ 775:
                 var1 = _closure2_slot2;
                 var1 = var1 + 1;
                 _closure2_slot2 = var1;
- 788:
+ 786:
                 var1 = undefined;
                 return var1;
             }

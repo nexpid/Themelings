@@ -202,12 +202,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['firstTimeNotice'] = var5;
     var5 = {};
     var10 = function heading() {
-        var1 = 'Free Reward for YOU!';
+        var1 = 'Choose a FREE reward';
         return var1;
     };
     var5['heading'] = var10;
     var10 = function subheading() {
-        var1 = 'Choose one you love!';
+        var1 = 'Yours to keep if you dare...';
         return var1;
     };
     var5['subheading'] = var10;
@@ -223,7 +223,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['getImageUrl'] = var10;
     var10 = function getBackgroundImageUrl() {
-        var1 = '';
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 9;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
         return var1;
     };
     var5['getBackgroundImageUrl'] = var10;
@@ -236,7 +241,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['eligiblePlanIds'] = var5;
     var5 = {};
     var9 = function desktopBannerText() {
-        var1 = 'You will receive a free deco with this purchase. Choose in the next step.';
+        var1 = 'Pick a free Halloween avatar decoration. Yours to keep with a gift purchase.';
         return var1;
     };
     var5['desktopBannerText'] = var9;
@@ -272,12 +277,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var5['gradientConfig'] = var9;
+    var9 = function getBackgroundImageUrl() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 10;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var5['getBackgroundImageUrl'] = var9;
     var2['planSelectionBanner'] = var5;
     var5 = {};
     var9 = function getAnimatedImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 9;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -294,14 +309,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var5['title'] = var9;
-    var8 = function body() {
+    var9 = function body() {
         var1 = 'All treat, no jumpscare. Gift Nitro this October and get this exclusive, spooky avatar decoration for free.';
         return var1;
     };
-    var5['body'] = var8;
-    var5['gradientConfig'] = var4;
+    var5['body'] = var9;
+    var8 = function getBackgroundImageUrl() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 12;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var5['getBackgroundImageUrl'] = var8;
     var2['billingSettingsMarketingBanner'] = var5;
-    var5 = 10;
+    var5 = 13;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

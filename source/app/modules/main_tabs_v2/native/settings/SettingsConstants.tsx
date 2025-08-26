@@ -86,6 +86,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['USE_DATA_TO_CUSTOMIZE_DISCORD'] = var1;
     var1 = 'USE_DATA_FOR_QUESTS';
     var2['USE_DATA_FOR_QUESTS'] = var1;
+    var1 = 'USE_DATA_FOR_QUESTS_3P';
+    var2['USE_DATA_FOR_QUESTS_3P'] = var1;
     var1 = 'REQUEST_YOUR_DATA';
     var2['REQUEST_YOUR_DATA'] = var1;
     var1 = 'FAMILY_CENTER';

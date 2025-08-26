@@ -3567,17 +3567,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var1.canManageChannels;
                 var2 = var1.guild;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0030_ip = 537; continue _fun0030 }
+                if(!(var1 != var2)) { _fun0030_ip = 536; continue _fun0030 }
  49:
                 var2 = var4.showVoiceSettings;
                 var2 = var2.bind(var4)();
-                if(!var2) { _fun0030_ip = 535; continue _fun0030 }
+                if(!var2) { _fun0030_ip = 534; continue _fun0030 }
  65:
-                if(!var11) { _fun0030_ip = 535; continue _fun0030 }
+                if(!var11) { _fun0030_ip = 534; continue _fun0030 }
  71:
                 var2 = var3.isGuildStageVoice;
                 var2 = var2.bind(var3)();
-                if(var2) { _fun0030_ip = 535; continue _fun0030 }
+                if(var2) { _fun0030_ip = 534; continue _fun0030 }
  87:
                 var12 = var1 == var5;
                 if(var12) { _fun0030_ip = 105; continue _fun0030 }
@@ -3588,7 +3588,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  105:
                 var3 = var1 != var5;
                 var2 = null;
-                if(!var3) { _fun0030_ip = 132; continue _fun0030 }
+                if(!var3) { _fun0030_ip = 131; continue _fun0030 }
  114:
                 var4 = var5.find;
                 var3 = function(arg1) {
@@ -3600,9 +3600,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var4.bind(var5)(var3);
- 132:
-                if(!(var1 == var2)) { _fun0030_ip = 198; continue _fun0030 }
- 136:
+ 131:
+                if(!(var1 == var2)) { _fun0030_ip = 197; continue _fun0030 }
+ 135:
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var3 = 35;
@@ -3616,10 +3616,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.t;
                 var3 = var3.JEmsam;
                 var15 = var4.bind(var5)(var3);
-                _fun0030_ip = 203; continue _fun0030;
- 198:
+                _fun0030_ip = 202; continue _fun0030;
+ 197:
                 var15 = var2.name;
- 203:
+ 202:
                 var2 = new Array(0);
                 var4 = var2.push;
                 var8 = _closure1_slot50;
@@ -3681,10 +3681,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var8.bind(var7)(var14, var13);
                 var3['trailing'] = var13;
                 var11 = !var11;
-                if(var11) { _fun0030_ip = 490; continue _fun0030 }
- 487:
+                if(var11) { _fun0030_ip = 489; continue _fun0030 }
+ 486:
                 var11 = var12;
- 490:
+ 489:
                 var3['disabled'] = var11;
                 var10 = function onPress() {
                     var3 = _closure3_slot0;
@@ -3701,9 +3701,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var8.bind(var7)(var6, var5, var3);
                 var3 = var4.bind(var2)(var3);
                 return var2;
- 535:
+ 534:
                 return var1;
- 537:
+ 536:
                 return var1;
             }
         };

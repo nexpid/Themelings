@@ -495,7 +495,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = arg2;
                 var2 = var6.length;
                 var1 = var3.length;
-                if(!(var2 === var1)) { _fun0009_ip = 203; continue _fun0009 }
+                if(!(var2 === var1)) { _fun0009_ip = 199; continue _fun0009 }
  23:
                 var1 = global;
                 var1 = var1.Set;
@@ -523,29 +523,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var1.bind(var5)(var3);
                 var3 = var4.bind(var5)();
                 var1 = var3.done;
-                if(var1) { _fun0009_ip = 187; continue _fun0009 }
+                if(var1) { _fun0009_ip = 183; continue _fun0009 }
  128:
                 var6 = var3.value;
                 var1 = var2.has;
                 var1 = var1.bind(var2)(var6);
-                if(var1) { _fun0009_ip = 162; continue _fun0009 }
+                if(var1) { _fun0009_ip = 158; continue _fun0009 }
  146:
                 var1 = {'rolesAreDifferent': true, 'allRoleIds': null};
                 return var1;
- 162:
+ 158:
                 var1 = var2.add;
                 var1 = var1.bind(var2)(var6);
                 var6 = var4.bind(var5)();
                 var1 = var6.done;
                 var3 = var6;
                 if(!var1) { _fun0009_ip = 128; continue _fun0009 }
- 187:
+ 183:
                 var1 = {};
                 var3 = false;
                 var1['rolesAreDifferent'] = var3;
                 var1['allRoleIds'] = var2;
                 return var1;
- 203:
+ 199:
                 var1 = {'rolesAreDifferent': true, 'allRoleIds': null};
                 return var1;
             }
@@ -743,7 +743,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.unmarkGuildForResync;
                 var2 = var1.id;
                 var2 = var3.bind(var5)(var2, var6);
-                _fun0012_ip = 549; continue _fun0012;
+                _fun0012_ip = 548; continue _fun0012;
  54:
                 var2 = _closure1_slot12;
                 var2 = var2.Unknown;
@@ -783,7 +783,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  186:
                 var8 = var4;
                 var11 = null;
-                if(var9) { _fun0012_ip = 365; continue _fun0012 }
+                if(var9) { _fun0012_ip = 364; continue _fun0012 }
  197:
                 var13 = _closure1_slot7;
                 var12 = var13.getSelfMember;
@@ -808,49 +808,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var13 = var12.bind(var13)(var10);
                 var12 = var5.processMemberRoleIds;
-                if(!(var7 == var2)) { _fun0012_ip = 281; continue _fun0012 }
- 275:
+                if(!(var7 == var2)) { _fun0012_ip = 280; continue _fun0012 }
+ 274:
                 var10 = new Array(0);
-                _fun0012_ip = 287; continue _fun0012;
- 281:
+                _fun0012_ip = 286; continue _fun0012;
+ 280:
                 var10 = var2.roles;
- 287:
+ 286:
                 var14 = var7 == var13;
                 var2 = undefined;
-                if(var14) { _fun0012_ip = 302; continue _fun0012 }
- 296:
+                if(var14) { _fun0012_ip = 301; continue _fun0012 }
+ 295:
                 var2 = var13.roles;
- 302:
-                if(!(var7 == var2)) { _fun0012_ip = 310; continue _fun0012 }
- 306:
+ 301:
+                if(!(var7 == var2)) { _fun0012_ip = 309; continue _fun0012 }
+ 305:
                 var2 = new Array(0);
- 310:
+ 309:
                 var2 = var12.bind(var5)(var10, var2);
                 var10 = var2.rolesAreDifferent;
                 var2 = var2.allRoleIds;
-                if(!var10) { _fun0012_ip = 341; continue _fun0012 }
- 331:
+                if(!var10) { _fun0012_ip = 340; continue _fun0012 }
+ 330:
                 var12 = _closure1_slot12;
                 var4 = var12.MemberRoles;
- 341:
+ 340:
                 var12 = var7 != var2;
                 var9 = var10;
                 var8 = var4;
                 var11 = null;
-                if(!var12) { _fun0012_ip = 365; continue _fun0012 }
- 356:
+                if(!var12) { _fun0012_ip = 364; continue _fun0012 }
+ 355:
                 var9 = var10;
                 var8 = var4;
                 var11 = var2;
- 365:
+ 364:
                 var4 = var8;
                 var2 = var9;
-                if(var2) { _fun0012_ip = 519; continue _fun0012 }
- 377:
+                if(var2) { _fun0012_ip = 518; continue _fun0012 }
+ 376:
                 var2 = var9;
                 var4 = var8;
-                if(!(var7 != var11)) { _fun0012_ip = 519; continue _fun0012 }
- 390:
+                if(!(var7 != var11)) { _fun0012_ip = 518; continue _fun0012 }
+ 389:
                 var10 = _closure1_slot8;
                 var9 = var10.getUnsafeMutableRoles;
                 var7 = var1.id;
@@ -859,11 +859,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = global;
                 var7 = var7.Array;
                 var7 = var9 instanceof var7;
-                if(var7) { _fun0012_ip = 439; continue _fun0012 }
- 431:
+                if(var7) { _fun0012_ip = 438; continue _fun0012 }
+ 430:
                 var9 = var1.roles;
-                _fun0012_ip = 484; continue _fun0012;
- 439:
+                _fun0012_ip = 483; continue _fun0012;
+ 438:
                 var13 = _closure1_slot2;
                 var12 = _closure1_slot3;
                 var7 = 10;
@@ -874,19 +874,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var1.id;
                 var7 = var1.roles;
                 var9 = var13.bind(var14)(var12, var7);
- 484:
+ 483:
                 var7 = var5.rolesHaveVisibilityChanges;
                 var7 = var7.bind(var5)(var10, var9, var11);
                 var4 = var8;
                 var2 = var7;
-                if(!var2) { _fun0012_ip = 519; continue _fun0012 }
- 506:
+                if(!var2) { _fun0012_ip = 518; continue _fun0012 }
+ 505:
                 var3 = _closure1_slot12;
                 var4 = var3.RolePermissions;
                 var2 = var7;
- 519:
-                if(!var2) { _fun0012_ip = 549; continue _fun0012 }
- 522:
+ 518:
+                if(!var2) { _fun0012_ip = 548; continue _fun0012 }
+ 521:
                 var3 = var5.markGuildForResync;
                 var19 = var1.id;
                 var17 = arg3;
@@ -894,7 +894,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var18 = var6;
                 var16 = var4;
                 var1 = var20[var3](var19, var18, var17, var16, var15);
- 549:
+ 548:
                 var1 = undefined;
                 return var1;
             }

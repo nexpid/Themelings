@@ -62,9 +62,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 3;
         var2 = var4[var1];
         var1 = undefined;
-        var5 = var3.bind(var1)(var2);
-        var2 = var5.restoreSubscription;
-        var2 = var2.bind(var5)();
+        var6 = var3.bind(var1)(var2);
+        var5 = var6.restoreSubscription;
+        var2 = true;
+        var2 = var5.bind(var6)(var2);
         var2 = 4;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);

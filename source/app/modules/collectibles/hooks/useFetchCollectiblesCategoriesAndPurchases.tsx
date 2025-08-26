@@ -201,10 +201,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot8;
             var8 = var1 == var5;
             var1 = undefined;
-            if(var8) { _fun0003_ip = 166; continue _fun0003 }
+            if(var8) { _fun0003_ip = 164; continue _fun0003 }
  158:
             var1 = var5.stalePurchasesOK;
- 166:
+ 164:
             var2 = var2.bind(var4)(var1);
             var8 = var2.isClaiming;
             var5 = var2.fetchPurchasesError;
@@ -212,10 +212,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var2.isFetching;
             var1 = {};
             var11 = var10;
-            if(var11) { _fun0003_ip = 206; continue _fun0003 }
- 203:
+            if(var11) { _fun0003_ip = 204; continue _fun0003 }
+ 201:
             var11 = var9;
- 206:
+ 204:
             var1['isFetching'] = var11;
             var1['isFetchingCategories'] = var10;
             var1['isFetchingPurchases'] = var9;

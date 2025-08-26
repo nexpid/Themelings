@@ -814,7 +814,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3[var4];
                 var5 = var3.filename;
                 var3 = null;
-                if(!(var3 == var5)) { _fun0011_ip = 127; continue _fun0011 }
+                if(!(var3 == var5)) { _fun0011_ip = 128; continue _fun0011 }
  47:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
@@ -833,12 +833,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var8.length;
                 var3['count'] = var8;
                 var6 = var6.bind(var7)(var5, var3);
-                _fun0011_ip = 143; continue _fun0011;
- 127:
+                _fun0011_ip = 144; continue _fun0011;
+ 128:
                 var3 = var2.files;
                 var3 = var3[var4];
                 var6 = var3.filename;
- 143:
+ 144:
                 var5 = var2.files;
                 var4 = var5.some;
                 var3 = function(arg1) {
@@ -1097,7 +1097,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = arg1;
                     var4 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0015_ip = 383; continue _fun0015 }
+                    if(var2) { _fun0015_ip = 382; continue _fun0015 }
  18:
                     var _closure4_slot0 = var11;
                     var7 = _closure1_slot11;
@@ -1121,8 +1121,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var6 = var5.bind(var6)(var3);
                     var3 = null;
-                    if(!(var3 != var6)) { _fun0015_ip = 375; continue _fun0015 }
- 108:
+                    if(!(var3 != var6)) { _fun0015_ip = 374; continue _fun0015 }
+ 107:
                     var5 = var6.status;
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -1132,8 +1132,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var8.bind(var7)(var3);
                     var3 = var3.CloudUploadStatus;
                     var3 = var3.CANCELED;
-                    if(!(var5 !== var3)) { _fun0015_ip = 375; continue _fun0015 }
- 154:
+                    if(!(var5 !== var3)) { _fun0015_ip = 374; continue _fun0015 }
+ 153:
                     var5 = var4.files;
                     var3 = var5.indexOf;
                     var12 = var3.bind(var5)(var6);
@@ -1168,13 +1168,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.bind(var7)(var2);
                     var2 = var3.cancelGetAttachmentFile;
                     var2 = var2.bind(var3)(var6);
-                    SaveGenerator(address=310);
- 308:
+                    SaveGenerator(address=309);
+ 307:
                     return var2;
- 310:
+ 309:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0015_ip = 380; continue _fun0015 }
- 316:
+                    if(var3) { _fun0015_ip = 379; continue _fun0015 }
+ 315:
                     var3 = var6.cancel;
                     var3 = var3.bind(var6)();
                     var7 = var4.emit;
@@ -1183,16 +1183,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var7.bind(var4)(var3, var6);
                     var3 = var4.files;
                     var3 = var3.length;
-                    if(!(var5 === var3)) { _fun0015_ip = 375; continue _fun0015 }
- 365:
+                    if(!(var5 === var3)) { _fun0015_ip = 374; continue _fun0015 }
+ 364:
                     var3 = var4.cancel;
                     var3 = var3.bind(var4)();
- 375:
+ 374:
                     var3 = undefined;
                     return var3;
- 380:
+ 379:
                     return var2;
- 383:
+ 382:
                     return var1;
                 }
             };

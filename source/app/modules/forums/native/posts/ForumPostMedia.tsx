@@ -371,10 +371,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useSetting;
             var3 = var2.bind(var3)();
             var2 = 'png';
-            if(!var3) { _fun0005_ip = 195; continue _fun0005 }
- 193:
+            if(!var3) { _fun0005_ip = 193; continue _fun0005 }
+ 191:
             var2 = null;
- 195:
+ 193:
             var1['format'] = var2;
             return var1;
         }

@@ -77,15 +77,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var13.bind(var4)(var3);
             var3 = var3.TransitionStates;
             var3 = var3.MOUNTED;
-            if(!(var17 !== var3)) { _fun0002_ip = 207; continue _fun0002 }
- 196:
+            if(!(var17 !== var3)) { _fun0002_ip = 208; continue _fun0002 }
+ 197:
             var3 = _closure1_slot15;
             var3 = var3.bind(var4)(var18);
-            _fun0002_ip = 217; continue _fun0002;
- 207:
+            _fun0002_ip = 218; continue _fun0002;
+ 208:
             var13 = _closure1_slot10;
             var3 = var13.NEUTRAL;
- 217:
+ 218:
             var19 = var6.bind(var7)(var3);
             _closure2_slot5 = var19;
             var13 = _closure1_slot4;
@@ -663,33 +663,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.textStyle;
             var1 = var2.animate;
             var5 = undefined;
-            if(!(var1 === var5)) { _fun0007_ip = 34; continue _fun0007 }
- 32:
+            if(!(var1 === var5)) { _fun0007_ip = 35; continue _fun0007 }
+ 33:
             var1 = true;
- 34:
+ 35:
             var8 = var2.textColor;
-            if(!(var8 === var5)) { _fun0007_ip = 50; continue _fun0007 }
- 44:
+            if(!(var8 === var5)) { _fun0007_ip = 51; continue _fun0007 }
+ 45:
             var8 = 'text-normal';
- 50:
+ 51:
             var7 = var2.textVariant;
-            if(!(var7 === var5)) { _fun0007_ip = 66; continue _fun0007 }
- 60:
+            if(!(var7 === var5)) { _fun0007_ip = 67; continue _fun0007 }
+ 61:
             var7 = 'text-sm/normal';
- 66:
+ 67:
             var10 = var2.formatter;
-            if(!(var10 === var5)) { _fun0007_ip = 105; continue _fun0007 }
- 76:
+            if(!(var10 === var5)) { _fun0007_ip = 106; continue _fun0007 }
+ 77:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 11;
             var2 = var4[var2];
             var2 = var3.bind(var5)(var2);
             var10 = var2.defaultFormatter;
- 105:
+ 106:
             var4 = _closure1_slot7;
-            if(var1) { _fun0007_ip = 153; continue _fun0007 }
- 115:
+            if(var1) { _fun0007_ip = 155; continue _fun0007 }
+ 116:
             var3 = _closure1_slot19;
             var1 = {};
             var1['count'] = var11;
@@ -698,8 +698,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['textVariant'] = var7;
             var1['textStyle'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0007_ip = 194; continue _fun0007;
- 153:
+            _fun0007_ip = 197; continue _fun0007;
+ 155:
             var3 = _closure1_slot18;
             var2 = {};
             var2['count'] = var11;
@@ -709,7 +709,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['textVariant'] = var7;
             var2['textStyle'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 194:
+ 197:
             return var1;
         }
     };

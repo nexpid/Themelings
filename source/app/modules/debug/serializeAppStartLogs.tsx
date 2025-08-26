@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var2.serverTrace;
                     var2 = 0;
                     var4 = var3;
-                    if(!(var2 === var5)) { _fun0003_ip = 116; continue _fun0003 }
+                    if(!(var2 === var5)) { _fun0003_ip = 115; continue _fun0003 }
  43:
                     var8 = _closure1_slot1;
                     var7 = _closure1_slot2;
@@ -130,16 +130,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.bind(var9)(var11, var7);
                     var7 = null;
                     var9 = var7 == var8;
-                    if(var9) { _fun0003_ip = 102; continue _fun0003 }
- 96:
+                    if(var9) { _fun0003_ip = 101; continue _fun0003 }
+ 95:
                     var2 = var8.timestamp;
- 102:
-                    if(!(var7 == var2)) { _fun0003_ip = 113; continue _fun0003 }
- 106:
+ 101:
+                    if(!(var7 == var2)) { _fun0003_ip = 112; continue _fun0003 }
+ 105:
                     var2 = _closure2_slot0;
- 113:
+ 112:
                     var4 = var2;
- 116:
+ 115:
                     var14 = _closure2_slot1;
                     var13 = _closure2_slot2;
                     var2 = function joinLogs(arg1, arg2, arg3, arg4) {
@@ -588,15 +588,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var17[var8](var16, var15, var14, var13, var12, var11);
                     var7 = null;
                     var1 = var3;
-                    if(!(var7 != var6)) { _fun0003_ip = 278; continue _fun0003 }
- 247:
+                    if(!(var7 != var6)) { _fun0003_ip = 277; continue _fun0003 }
+ 246:
                     var5 = var5 + var4;
                     var2 = var2.HermesInternal;
                     var4 = var2.concat;
                     var2 = '\n Server trace for trace #';
                     var2 = var4.bind(var2)(var5, var6);
                     var1 = var3 + var2;
- 278:
+ 277:
                     return var1;
                 }
             };

@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = arg1;
                     var3 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 533; continue _fun0001 }
+                    if(var4) { _fun0001_ip = 532; continue _fun0001 }
  16:
                     var6 = var2.entity_type;
                     var9 = var2.guild_id;
@@ -35,7 +35,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  61:
                     var5 = _closure1_slot8;
                     var5 = var5.EXTERNAL;
-                    if(!(var5 === var6)) { _fun0001_ip = 519; continue _fun0001 }
+                    if(!(var5 === var6)) { _fun0001_ip = 518; continue _fun0001 }
  78:
                     var6 = _closure1_slot7;
                     var5 = var6.getGuildId;
@@ -55,11 +55,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var7)(var5);
  144:
                     var5 = null;
-                    if(!(var5 != var3)) { _fun0001_ip = 519; continue _fun0001 }
+                    if(!(var5 != var3)) { _fun0001_ip = 518; continue _fun0001 }
  153:
                     var5 = undefined;
                     var5 = var3.bind(var5)();
-                    _fun0001_ip = 519; continue _fun0001;
+                    _fun0001_ip = 518; continue _fun0001;
  164:
                     var6 = _closure1_slot6;
                     var5 = var6.getChannelId;
@@ -90,10 +90,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.id;
                     var7 = var8.bind(var9)(var7);
  282:
-                    if(!(var6 != var3)) { _fun0001_ip = 519; continue _fun0001 }
+                    if(!(var6 != var3)) { _fun0001_ip = 518; continue _fun0001 }
  289:
                     var5 = var3.bind(var5)();
-                    _fun0001_ip = 519; continue _fun0001;
+                    _fun0001_ip = 518; continue _fun0001;
  298:
                     var6 = _closure1_slot6;
                     var5 = var6.getChannelId;
@@ -102,76 +102,76 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var7.getChannel;
                     var2 = var2.channel_id;
                     var7 = var6.bind(var7)(var2);
-                    var6 = _closure1_slot1;
-                    var8 = _closure1_slot3;
+                    var8 = _closure1_slot1;
+                    var6 = _closure1_slot3;
                     var2 = 6;
-                    var2 = var8[var2];
-                    var8 = undefined;
-                    var10 = var6.bind(var8)(var2);
-                    var9 = null;
-                    var6 = var9 != var7;
+                    var2 = var6[var2];
+                    var6 = undefined;
+                    var10 = var8.bind(var6)(var2);
+                    var8 = null;
+                    var9 = var8 != var7;
                     var2 = 'could not find channel';
-                    var2 = var10.bind(var8)(var6, var2);
+                    var2 = var10.bind(var6)(var9, var2);
                     var2 = var7.id;
                     if(!(var5 !== var2)) { _fun0001_ip = 424; continue _fun0001 }
  380:
                     var5 = _closure1_slot2;
-                    var6 = _closure1_slot3;
+                    var9 = _closure1_slot3;
                     var2 = 7;
-                    var2 = var6[var2];
-                    var6 = var5.bind(var8)(var2);
-                    var5 = var6.connectToStage;
+                    var2 = var9[var2];
+                    var9 = var5.bind(var6)(var2);
+                    var5 = var9.connectToStage;
                     var2 = true;
-                    var2 = var5.bind(var6)(var7, var2);
+                    var2 = var5.bind(var9)(var7, var2);
                     SaveGenerator(address=418);
  416:
                     return var2;
  418:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 530; continue _fun0001 }
+                    if(var5) { _fun0001_ip = 529; continue _fun0001 }
  424:
-                    if(!(var9 != var3)) { _fun0001_ip = 432; continue _fun0001 }
+                    if(!(var8 != var3)) { _fun0001_ip = 432; continue _fun0001 }
  428:
-                    var3 = var3.bind(var8)();
+                    var3 = var3.bind(var6)();
  432:
                     var5 = _closure1_slot2;
-                    var6 = _closure1_slot3;
-                    var3 = 7;
-                    var3 = var6[var3];
-                    var5 = var5.bind(var8)(var3);
-                    var3 = var5.navigateToStage;
-                    var6 = false;
-                    var3 = var3.bind(var5)(var7, var9, var6);
-                    SaveGenerator(address=471);
- 469:
-                    return var3;
- 471:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 527; continue _fun0001 }
- 477:
-                    var5 = _closure1_slot0;
                     var9 = _closure1_slot3;
+                    var3 = 7;
+                    var3 = var9[var3];
+                    var5 = var5.bind(var6)(var3);
+                    var3 = var5.navigateToStage;
+                    var3 = var3.bind(var5)(var7, var8);
+                    SaveGenerator(address=468);
+ 466:
+                    return var3;
+ 468:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(var5) { _fun0001_ip = 526; continue _fun0001 }
+ 474:
+                    var5 = _closure1_slot0;
+                    var8 = _closure1_slot3;
                     var4 = 8;
-                    var4 = var9[var4];
-                    var5 = var5.bind(var8)(var4);
-                    var4 = var5.audienceAckRequestToSpeak;
-                    var4 = var4.bind(var5)(var7, var6);
-                    SaveGenerator(address=513);
- 511:
+                    var4 = var8[var4];
+                    var6 = var5.bind(var6)(var4);
+                    var5 = var6.audienceAckRequestToSpeak;
+                    var4 = false;
+                    var4 = var5.bind(var6)(var7, var4);
+                    SaveGenerator(address=512);
+ 510:
                     return var4;
- 513:
+ 512:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 524; continue _fun0001 }
- 519:
+                    if(var5) { _fun0001_ip = 523; continue _fun0001 }
+ 518:
                     var5 = undefined;
                     return var5;
- 524:
+ 523:
                     return var4;
- 527:
+ 526:
                     return var3;
- 530:
+ 529:
                     return var2;
- 533:
+ 532:
                     return var1;
                 }
             };

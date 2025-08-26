@@ -55,8 +55,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['PUBLIC_STAGE_INFO_ACTION_SHEET_KEY'] = var5;
     var5 = 'stage-channel-audience-notice';
     var3['STAGE_AUDIENCE_NOTICE_SHEET_KEY'] = var5;
-    var5 = 'stage-channel-moderator-join';
-    var3['STAGE_MODERATOR_JOIN_SHEET_KEY'] = var5;
     var5 = 'stage-channel-blocked-users';
     var3['STAGE_BLOCKED_USERS_SHEET_KEY'] = var5;
     var5 = 'stage-settings';

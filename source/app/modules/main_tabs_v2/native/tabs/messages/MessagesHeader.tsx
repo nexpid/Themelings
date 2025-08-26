@@ -172,13 +172,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = _closure1_slot11;
         var2['__initData'] = var12;
         var10 = var3.bind(var10)(var2);
+        var2 = 10;
+        var2 = var11[var2];
+        var12 = var19.bind(var4)(var2);
+        var3 = var12.useIsLargerSearchMobileEntrypointsEnabled;
+        var2 = {};
+        var13 = 'MessagesHeader';
+        var2['location'] = var13;
+        var13 = var3.bind(var12)(var2);
+        var _closure2_slot3 = var13;
         var12 = var8.useCallback;
         var3 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -195,14 +204,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var2 = new Array(0);
-        var18 = var12.bind(var8)(var3, var2);
+        var17 = var12.bind(var8)(var3, var2);
         var12 = var8.useCallback;
         var3 = function() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -224,14 +233,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var2 = new Array(0);
-        var17 = var12.bind(var8)(var3, var2);
-        var3 = var8.useCallback;
-        var2 = function() {
+        var12 = var12.bind(var8)(var3, var2);
+        var _closure2_slot4 = var12;
+        var14 = var8.useCallback;
+        var3 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 10;
+                var1 = 11;
                 var3 = var3[var1];
                 var1 = undefined;
                 var4 = var4.bind(var1)(var3);
@@ -242,7 +252,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  41:
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var3 = 11;
+                var3 = 12;
                 var3 = var5[var3];
                 var5 = var4.bind(var1)(var3);
                 var4 = var5.navigateToSearch;
@@ -258,8 +268,165 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var1 = new Array(0);
-        var15 = var3.bind(var8)(var2, var1);
+        var2 = new Array(0);
+        var2 = var14.bind(var8)(var3, var2);
+        var _closure2_slot5 = var2;
+        var14 = var8.useMemo;
+        var3 = new Array(2);
+        var3[0] = var13;
+        var3[1] = var2;
+        var2 = function() {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+                var1 = _closure2_slot3;
+                var5 = _closure1_slot6;
+                var9 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                if(var1) { _fun0005_ip = 172; continue _fun0005 }
+ 28:
+                var1 = 16;
+                var1 = var10[var1];
+                var3 = undefined;
+                var1 = var9.bind(var3)(var1);
+                var2 = var1.IconButton;
+                var1 = {'onPress': null, 'variant': 'secondary', 'size': 'sm'};
+                var4 = _closure2_slot5;
+                var1['onPress'] = var4;
+                var8 = 'sm';
+                var4 = 14;
+                var4 = var10[var4];
+                var4 = var9.bind(var3)(var4);
+                var7 = var4.MagnifyingGlassIcon;
+                var4 = {};
+                var4['size'] = var8;
+                var4 = var5.bind(var3)(var7, var4);
+                var1['icon'] = var4;
+                var4 = 15;
+                var7 = var10[var4];
+                var7 = var9.bind(var3)(var7);
+                var8 = var7.intl;
+                var7 = var8.string;
+                var4 = var10[var4];
+                var4 = var9.bind(var3)(var4);
+                var4 = var4.t;
+                var4 = var4.5h0QOD;
+                var4 = var7.bind(var8)(var4);
+                var1['accessibilityLabel'] = var4;
+                var1 = var5.bind(var3)(var2, var1);
+                _fun0005_ip = 315; continue _fun0005;
+ 172:
+                var2 = 13;
+                var2 = var10[var2];
+                var4 = undefined;
+                var2 = var9.bind(var4)(var2);
+                var3 = var2.Button;
+                var2 = {'variant': 'secondary', 'grow': true, 'size': 'sm', 'icon': null, 'onPress': null, 'maxFontSizeMultiplier': 1};
+                var11 = 'sm';
+                var7 = 14;
+                var7 = var10[var7];
+                var7 = var9.bind(var4)(var7);
+                var8 = var7.MagnifyingGlassIcon;
+                var7 = {};
+                var7['size'] = var11;
+                var7 = var5.bind(var4)(var8, var7);
+                var2['icon'] = var7;
+                var6 = _closure2_slot5;
+                var2['onPress'] = var6;
+                var6 = 15;
+                var7 = var10[var6];
+                var7 = var9.bind(var4)(var7);
+                var8 = var7.intl;
+                var7 = var8.string;
+                var6 = var10[var6];
+                var6 = var9.bind(var4)(var6);
+                var6 = var6.t;
+                var6 = var6.m7OrlZ;
+                var6 = var7.bind(var8)(var6);
+                var2['text'] = var6;
+                var1 = var5.bind(var4)(var3, var2);
+ 315:
+                return var1;
+            }
+        };
+        var15 = var14.bind(var8)(var2, var3);
+        var3 = var8.useMemo;
+        var2 = new Array(2);
+        var2[0] = var13;
+        var2[1] = var12;
+        var1 = function() {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+                var1 = _closure2_slot3;
+                var5 = _closure1_slot6;
+                var9 = _closure1_slot0;
+                var10 = _closure1_slot2;
+                if(var1) { _fun0006_ip = 174; continue _fun0006 }
+ 28:
+                var1 = 13;
+                var1 = var10[var1];
+                var3 = undefined;
+                var1 = var9.bind(var3)(var1);
+                var2 = var1.Button;
+                var1 = {'variant': 'secondary', 'grow': true, 'size': 'sm', 'icon': null, 'onPress': null, 'maxFontSizeMultiplier': 1};
+                var8 = 'sm';
+                var4 = 17;
+                var4 = var10[var4];
+                var4 = var9.bind(var3)(var4);
+                var7 = var4.UserPlusIcon;
+                var4 = {};
+                var4['size'] = var8;
+                var4 = var5.bind(var3)(var7, var4);
+                var1['icon'] = var4;
+                var4 = _closure2_slot4;
+                var1['onPress'] = var4;
+                var4 = 15;
+                var7 = var10[var4];
+                var7 = var9.bind(var3)(var7);
+                var8 = var7.intl;
+                var7 = var8.string;
+                var4 = var10[var4];
+                var4 = var9.bind(var3)(var4);
+                var4 = var4.t;
+                var4 = var4.zIJnAw;
+                var4 = var7.bind(var8)(var4);
+                var1['text'] = var4;
+                var1 = var5.bind(var3)(var2, var1);
+                _fun0006_ip = 313; continue _fun0006;
+ 174:
+                var2 = 16;
+                var2 = var10[var2];
+                var4 = undefined;
+                var2 = var9.bind(var4)(var2);
+                var3 = var2.IconButton;
+                var2 = {'onPress': null, 'variant': 'secondary', 'size': 'sm'};
+                var6 = _closure2_slot4;
+                var2['onPress'] = var6;
+                var8 = 'sm';
+                var6 = 17;
+                var6 = var10[var6];
+                var6 = var9.bind(var4)(var6);
+                var7 = var6.UserPlusIcon;
+                var6 = {};
+                var6['size'] = var8;
+                var6 = var5.bind(var4)(var7, var6);
+                var2['icon'] = var6;
+                var6 = 15;
+                var7 = var10[var6];
+                var7 = var9.bind(var4)(var7);
+                var8 = var7.intl;
+                var7 = var8.string;
+                var6 = var10[var6];
+                var6 = var9.bind(var4)(var6);
+                var6 = var6.t;
+                var6 = var6.zIJnAw;
+                var6 = var7.bind(var8)(var6);
+                var2['accessibilityLabel'] = var6;
+                var1 = var5.bind(var4)(var3, var2);
+ 313:
+                return var1;
+            }
+        };
+        var14 = var3.bind(var8)(var1, var2);
         var3 = _closure1_slot7;
         var2 = _closure1_slot4;
         var1 = {};
@@ -272,16 +439,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {'style': null, 'color': 'header-primary', 'variant': 'redesign/heading-18/bold', 'maxFontSizeMultiplier': 1.75, 'accessibilityRole': 'header'};
         var13 = var9.headerPanelTitle;
         var5['style'] = var13;
-        var16 = 12;
-        var13 = var11[var16];
-        var13 = var19.bind(var4)(var13);
-        var20 = var13.intl;
-        var14 = var20.string;
-        var13 = var11[var16];
+        var13 = 15;
+        var16 = var11[var13];
+        var16 = var19.bind(var4)(var16);
+        var18 = var16.intl;
+        var16 = var18.string;
+        var13 = var11[var13];
         var13 = var19.bind(var4)(var13);
         var13 = var13.t;
         var13 = var13.OIgYlZ;
-        var13 = var14.bind(var20)(var13);
+        var13 = var16.bind(var18)(var13);
         var5['children'] = var13;
         var12 = var8.bind(var4)(var12, var5);
         var5 = new Array(3);
@@ -289,67 +456,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = {};
         var13 = var9.headerPanelButtons;
         var12['style'] = var13;
-        var13 = 13;
-        var13 = var11[var13];
-        var13 = var19.bind(var4)(var13);
-        var14 = var13.IconButton;
-        var13 = {'onPress': null, 'variant': 'secondary', 'size': 'sm'};
-        var13['onPress'] = var15;
-        var21 = 'sm';
-        var15 = 14;
-        var15 = var11[var15];
-        var15 = var19.bind(var4)(var15);
-        var20 = var15.MagnifyingGlassIcon;
-        var15 = {};
-        var15['size'] = var21;
-        var15 = var8.bind(var4)(var20, var15);
-        var13['icon'] = var15;
-        var15 = var11[var16];
-        var15 = var19.bind(var4)(var15);
-        var22 = var15.intl;
-        var20 = var22.string;
-        var15 = var11[var16];
-        var15 = var19.bind(var4)(var15);
-        var15 = var15.t;
-        var15 = var15.5h0QOD;
-        var15 = var20.bind(var22)(var15);
-        var13['accessibilityLabel'] = var15;
-        var14 = var8.bind(var4)(var14, var13);
         var13 = new Array(3);
-        var13[0] = var14;
+        var13[0] = var15;
         var7 = _closure1_slot1;
-        var14 = 15;
-        var14 = var11[var14];
-        var15 = var7.bind(var4)(var14);
-        var14 = {'noMargin': true, 'onPress': null, 'alternateVariant': true};
-        var14['onPress'] = var18;
-        var14 = var8.bind(var4)(var15, var14);
-        var13[1] = var14;
-        var14 = 16;
-        var14 = var11[var14];
-        var14 = var19.bind(var4)(var14);
-        var15 = var14.Button;
-        var14 = {'variant': 'secondary', 'grow': true, 'size': 'sm', 'icon': null, 'onPress': null, 'maxFontSizeMultiplier': 1};
-        var18 = 17;
-        var18 = var11[var18];
-        var18 = var19.bind(var4)(var18);
-        var20 = var18.UserPlusIcon;
-        var18 = {};
-        var18['size'] = var21;
-        var18 = var8.bind(var4)(var20, var18);
-        var14['icon'] = var18;
-        var14['onPress'] = var17;
-        var17 = var11[var16];
-        var17 = var19.bind(var4)(var17);
-        var18 = var17.intl;
-        var17 = var18.string;
-        var16 = var11[var16];
-        var16 = var19.bind(var4)(var16);
-        var16 = var16.t;
-        var16 = var16.zIJnAw;
-        var16 = var17.bind(var18)(var16);
-        var14['text'] = var16;
-        var14 = var8.bind(var4)(var15, var14);
+        var15 = 18;
+        var15 = var11[var15];
+        var16 = var7.bind(var4)(var15);
+        var15 = {'noMargin': true, 'onPress': null, 'alternateVariant': true};
+        var15['onPress'] = var17;
+        var15 = var8.bind(var4)(var16, var15);
+        var13[1] = var15;
         var13[2] = var14;
         var12['children'] = var13;
         var12 = var3.bind(var4)(var2, var12);
@@ -370,7 +486,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var5.bind(var8)(var4);
-    var5 = 18;
+    var5 = 19;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

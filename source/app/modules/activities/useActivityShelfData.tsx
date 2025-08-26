@@ -202,13 +202,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var2.bind(var3)(var1);
                         var1 = null;
                         var2 = var1 == var3;
-                        if(var2) { _fun0003_ip = 57; continue _fun0003 }
- 43:
+                        if(var2) { _fun0003_ip = 56; continue _fun0003 }
+ 42:
                         var2 = {};
                         var2['activity'] = var4;
                         var2['application'] = var3;
                         var1 = var2;
- 57:
+ 56:
                         return var1;
                     }
                 };

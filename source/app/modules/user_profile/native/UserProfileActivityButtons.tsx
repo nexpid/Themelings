@@ -147,10 +147,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var4 = var3 == var2;
             var1 = undefined;
-            if(var4) { _fun0001_ip = 120; continue _fun0001 }
- 115:
+            if(var4) { _fun0001_ip = 119; continue _fun0001 }
+ 114:
             var1 = var2.id;
- 120:
+ 119:
             var4 = _closure1_slot0;
             var10 = _closure1_slot2;
             var2 = 18;
@@ -176,17 +176,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var3 == var4;
             var2 = var1;
             var1 = null;
-            if(var10) { _fun0001_ip = 365; continue _fun0001 }
- 212:
+            if(var10) { _fun0001_ip = 364; continue _fun0001 }
+ 211:
             var9 = var9.id;
             var4 = var4.id;
             var1 = null;
-            if(!(var9 !== var4)) { _fun0001_ip = 365; continue _fun0001 }
- 231:
+            if(!(var9 !== var4)) { _fun0001_ip = 364; continue _fun0001 }
+ 230:
             var2 = var3 == var2;
             var1 = null;
-            if(var2) { _fun0001_ip = 365; continue _fun0001 }
- 243:
+            if(var2) { _fun0001_ip = 364; continue _fun0001 }
+ 242:
             var4 = _closure1_slot21;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -278,7 +278,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var5)(var6);
             var2['onPress'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 365:
+ 364:
             return var1;
         }
     };

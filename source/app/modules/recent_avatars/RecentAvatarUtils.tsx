@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  33:
             var4 = true;
  35:
-            if(!var1) { _fun0001_ip = 81; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 79; continue _fun0001 }
  38:
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -33,8 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.isAnimatedIconHash;
             var2 = var1.bind(var2)(var3);
             var1 = 'gif';
-            if(var2) { _fun0001_ip = 175; continue _fun0001 }
- 81:
+            if(var2) { _fun0001_ip = 171; continue _fun0001 }
+ 79:
             var2 = global;
             var2 = var2.window;
             var2 = var2.GLOBAL_ENV;
@@ -42,12 +42,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var3 = var2 == var3;
             var2 = 'jpg';
-            if(var3) { _fun0001_ip = 172; continue _fun0001 }
- 116:
+            if(var3) { _fun0001_ip = 168; continue _fun0001 }
+ 114:
             var5 = 'png';
             var3 = var5;
-            if(!var4) { _fun0001_ip = 169; continue _fun0001 }
- 128:
+            if(!var4) { _fun0001_ip = 165; continue _fun0001 }
+ 124:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
             var4 = 1;
@@ -55,14 +55,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.bind(var7)(var4);
             var4 = var4.SUPPORTS_WEBP;
             var3 = var5;
-            if(!var4) { _fun0001_ip = 169; continue _fun0001 }
- 163:
+            if(!var4) { _fun0001_ip = 165; continue _fun0001 }
+ 159:
             var3 = 'webp';
- 169:
+ 165:
             var2 = var3;
- 172:
+ 168:
             var1 = var2;
- 175:
+ 171:
             return var1;
         }
     };
@@ -156,14 +156,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var4 = arg1;
             var1 = 'gif';
-            if(!(var1 !== var4)) { _fun0003_ip = 87; continue _fun0003 }
- 13:
+            if(!(var1 !== var4)) { _fun0003_ip = 83; continue _fun0003 }
+ 11:
             var1 = 'png';
-            if(!(var1 !== var4)) { _fun0003_ip = 79; continue _fun0003 }
- 23:
+            if(!(var1 !== var4)) { _fun0003_ip = 75; continue _fun0003 }
+ 19:
             var1 = 'jpg';
-            if(!(var1 !== var4)) { _fun0003_ip = 71; continue _fun0003 }
- 33:
+            if(!(var1 !== var4)) { _fun0003_ip = 67; continue _fun0003 }
+ 29:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 6;
@@ -173,13 +173,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.assertNever;
             var2 = var2.bind(var3)(var4);
             return var1;
- 71:
+ 67:
             var1 = 'image/jpeg';
             return var1;
- 79:
+ 75:
             var1 = 'image/png';
             return var1;
- 87:
+ 83:
             var1 = 'image/gif';
             return var1;
         }

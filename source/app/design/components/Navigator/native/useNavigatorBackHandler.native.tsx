@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var _closure4_slot0 = var3;
                         var4 = _closure2_slot2;
                         var4 = var4.current;
-                        if(!var4) { _fun0003_ip = 168; continue _fun0003 }
+                        if(!var4) { _fun0003_ip = 172; continue _fun0003 }
  27:
                         var3 = var3.data;
                         var3 = var3.action;
@@ -105,11 +105,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var5.bind(var3)(var4);
                         var4 = var5.isIOS;
                         var4 = var4.bind(var5)();
-                        if(var4) { _fun0003_ip = 140; continue _fun0003 }
+                        if(var4) { _fun0003_ip = 144; continue _fun0003 }
  88:
                         var5 = _closure2_slot0;
                         var4 = null;
-                        if(!(var4 != var5)) { _fun0003_ip = 168; continue _fun0003 }
+                        if(!(var4 != var5)) { _fun0003_ip = 172; continue _fun0003 }
  98:
                         var5 = _closure2_slot0;
                         var4 = {};
@@ -131,18 +131,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4['goBack'] = var2;
                         var2 = undefined;
                         var2 = var5.bind(var2)(var4);
-                        _fun0003_ip = 168; continue _fun0003;
- 140:
+                        _fun0003_ip = 172; continue _fun0003;
+ 144:
                         var4 = _closure2_slot0;
                         var2 = null;
-                        if(!(var2 != var4)) { _fun0003_ip = 168; continue _fun0003 }
- 150:
+                        if(!(var2 != var4)) { _fun0003_ip = 172; continue _fun0003 }
+ 154:
                         var2 = _closure2_slot0;
                         var1 = {};
                         var4 = false;
                         var1['preventable'] = var4;
                         var1 = var2.bind(var3)(var1);
- 168:
+ 172:
                         var1 = undefined;
                         return var1;
                     }

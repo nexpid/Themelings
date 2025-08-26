@@ -628,11 +628,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var12.attachments;
             var3 = var1.length;
             var1 = null;
-            if(!(var6 !== var3)) { _fun0001_ip = 1003; continue _fun0001 }
+            if(!(var6 !== var3)) { _fun0001_ip = 999; continue _fun0001 }
  596:
             var4 = _closure1_slot19;
             var3 = _closure1_slot5;
-            if(!(!(var2 > var6))) { _fun0001_ip = 894; continue _fun0001 }
+            if(!(!(var2 > var6))) { _fun0001_ip = 890; continue _fun0001 }
  611:
             var2 = {};
             var10 = _closure1_slot18;
@@ -684,12 +684,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = _closure1_slot17;
             var22 = var22.DEFAULT;
             var15['type'] = var22;
-            if(!(var20 == var19)) { _fun0001_ip = 845; continue _fun0001 }
+            if(!(var20 == var19)) { _fun0001_ip = 841; continue _fun0001 }
  824:
             var20 = {'id': '0', 'avatar': null, 'discriminator': '0000'};
             var20['username'] = var21;
             var19 = var20;
- 845:
+ 841:
             var15['author'] = var19;
             var19 = var12.content;
             var15['content'] = var19;
@@ -700,8 +700,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var10.bind(var5)(var9, var7);
             var6[1] = var7;
             var2['children'] = var6;
-            _fun0001_ip = 997; continue _fun0001;
- 894:
+            _fun0001_ip = 993; continue _fun0001;
+ 890:
             var6 = {};
             var10 = _closure1_slot18;
             var9 = _closure1_slot8;
@@ -803,9 +803,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[1] = var8;
             var6['children'] = var7;
             var2 = var6;
- 997:
+ 993:
             var1 = var4.bind(var5)(var3, var2);
- 1003:
+ 999:
             return var1;
         }
     };

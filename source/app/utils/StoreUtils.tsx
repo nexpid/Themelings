@@ -659,7 +659,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.GLOBAL_ENV;
                 var13 = var3.CDN_HOST;
                 var4 = null;
-                if(!(var4 == var14)) { _fun0010_ip = 109; continue _fun0010 }
+                if(!(var4 == var14)) { _fun0010_ip = 107; continue _fun0010 }
  38:
                 var5 = var1.mimeType;
                 if(var5) { _fun0010_ip = 53; continue _fun0010 }
@@ -669,39 +669,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = 'mp4';
                 var3 = 'video/quicktime';
                 var14 = var6;
-                if(!(var3 !== var5)) { _fun0010_ip = 109; continue _fun0010 }
+                if(!(var3 !== var5)) { _fun0010_ip = 107; continue _fun0010 }
  72:
                 var3 = 'video/mp4';
                 var14 = var6;
-                if(!(var3 !== var5)) { _fun0010_ip = 109; continue _fun0010 }
+                if(!(var3 !== var5)) { _fun0010_ip = 107; continue _fun0010 }
  85:
                 var3 = 'image/gif';
                 if(!(var3 !== var5)) { _fun0010_ip = 103; continue _fun0010 }
  95:
                 var14 = 'webp';
-                _fun0010_ip = 109; continue _fun0010;
+                _fun0010_ip = 107; continue _fun0010;
  103:
                 var14 = 'gif';
- 109:
+ 107:
                 var3 = 'webp';
                 var3 = var3 !== var14;
-                if(var3) { _fun0010_ip = 129; continue _fun0010 }
- 122:
+                if(var3) { _fun0010_ip = 127; continue _fun0010 }
+ 120:
                 var3 = _closure1_slot14;
- 129:
-                if(var3) { _fun0010_ip = 138; continue _fun0010 }
- 132:
+ 127:
+                if(var3) { _fun0010_ip = 134; continue _fun0010 }
+ 130:
                 var14 = 'png';
- 138:
+ 134:
                 var5 = 'string';
                 var3 = typeof var1;
                 var12 = var1;
-                if(!(var5 !== var3)) { _fun0010_ip = 157; continue _fun0010 }
- 152:
+                if(!(var5 !== var3)) { _fun0010_ip = 153; continue _fun0010 }
+ 148:
                 var12 = var1.id;
+ 153:
+                if(!(var4 == var13)) { _fun0010_ip = 223; continue _fun0010 }
  157:
-                if(!(var4 == var13)) { _fun0010_ip = 227; continue _fun0010 }
- 161:
                 var1 = var2.window;
                 var1 = var1.GLOBAL_ENV;
                 var8 = var1.API_ENDPOINT;
@@ -713,8 +713,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = '';
                 var1 = 'https:';
                 var3 = var5.bind(var3)(var1, var8, var6);
-                _fun0010_ip = 284; continue _fun0010;
- 227:
+                _fun0010_ip = 280; continue _fun0010;
+ 223:
                 var1 = var2.HermesInternal;
                 var11 = var1.concat;
                 var25 = '';
@@ -728,10 +728,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var18 = var12;
                 var16 = var14;
                 var3 = var25[var11](var24, var23, var22, var21, var20, var19, var18, var17, var16, var15);
- 284:
+ 280:
                 var1 = var3;
-                if(!(var4 != var7)) { _fun0010_ip = 376; continue _fun0010 }
- 291:
+                if(!(var4 != var7)) { _fun0010_ip = 372; continue _fun0010 }
+ 287:
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var4 = 9;
@@ -750,7 +750,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = '?size=';
                 var2 = var4.bind(var2)(var5);
                 var1 = var3 + var2;
- 376:
+ 372:
                 return var1;
             }
         };

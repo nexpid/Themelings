@@ -34,7 +34,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var2 = var5 == var8;
             var3 = undefined;
-            if(var2) { _fun0001_ip = 53; continue _fun0001 }
+            if(var2) { _fun0001_ip = 52; continue _fun0001 }
  37:
             var6 = var8.find;
             var2 = function(arg1) {
@@ -45,13 +45,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var6.bind(var8)(var2);
- 53:
-            if(!(var5 == var3)) { _fun0001_ip = 75; continue _fun0001 }
- 57:
+ 52:
+            if(!(var5 == var3)) { _fun0001_ip = 74; continue _fun0001 }
+ 56:
             var6 = _closure1_slot0;
             var2 = var6.getApplication;
             var3 = var2.bind(var6)(var7);
- 75:
+ 74:
             var2 = var4.find;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -63,17 +63,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var2.bind(var4)(var1);
             var2 = var5 == var4;
             var1 = null;
-            if(var2) { _fun0001_ip = 123; continue _fun0001 }
- 100:
+            if(var2) { _fun0001_ip = 121; continue _fun0001 }
+ 98:
             var2 = var5 == var3;
             var1 = null;
-            if(var2) { _fun0001_ip = 123; continue _fun0001 }
- 109:
+            if(var2) { _fun0001_ip = 121; continue _fun0001 }
+ 107:
             var2 = {};
             var2['activity'] = var4;
             var2['application'] = var3;
             var1 = var2;
- 123:
+ 121:
             return var1;
         }
     };

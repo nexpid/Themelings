@@ -1879,7 +1879,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = new Array(2);
             var10[0] = var11;
             var11 = var35 != var15;
-            if(!var11) { _fun0019_ip = 922; continue _fun0019 }
+            if(!var11) { _fun0019_ip = 918; continue _fun0019 }
  836:
             var20 = _closure1_slot16;
             var19 = _closure1_slot0;
@@ -1888,8 +1888,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var19.bind(var4)(var18);
             var19 = var18.Text;
             var18 = {'variant': 'text-sm/medium', 'color': 'text-muted'};
-            if(!(var35 == var21)) { _fun0019_ip = 912; continue _fun0019 }
- 880:
+            if(!(var35 == var21)) { _fun0019_ip = 908; continue _fun0019 }
+ 876:
             var36 = _closure1_slot0;
             var38 = _closure1_slot2;
             var35 = 34;
@@ -1897,10 +1897,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var36 = var36.bind(var4)(var35);
             var35 = var36.formatPercent;
             var21 = var35.bind(var36)(var37, var15);
- 912:
+ 908:
             var18['children'] = var21;
             var11 = var20.bind(var4)(var19, var18);
- 922:
+ 918:
             var10[1] = var11;
             var8['children'] = var10;
             var9 = var7.bind(var4)(var9, var8);
@@ -1917,10 +1917,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var19.isAndroid;
             var19 = var10.bind(var19)();
             var10 = undefined;
-            if(!var19) { _fun0019_ip = 994; continue _fun0019 }
- 988:
+            if(!var19) { _fun0019_ip = 990; continue _fun0019 }
+ 984:
             var10 = var17.slider;
- 994:
+ 990:
             var9['style'] = var10;
             var21 = _closure1_slot16;
             var10 = _closure1_slot0;
@@ -1983,10 +1983,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var9.Button;
             var9 = {};
             var14 = !var14;
-            if(!var14) { _fun0019_ip = 1267; continue _fun0019 }
- 1263:
+            if(!var14) { _fun0019_ip = 1263; continue _fun0019 }
+ 1259:
             var14 = var16 === var15;
- 1267:
+ 1263:
             var9['disabled'] = var14;
             var14 = 'secondary';
             var9['variant'] = var14;

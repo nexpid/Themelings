@@ -62,12 +62,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = {};
     var13['enabled'] = var14;
     var5['defaultConfig'] = var13;
-    var16 = {'id': 1, 'label': 'Enabled'};
+    var14 = {'id': 1, 'label': 'Enabled'};
     var13 = {};
     var13['enabled'] = var15;
-    var16['config'] = var13;
+    var14['config'] = var13;
     var13 = new Array(1);
-    var13[0] = var16;
+    var13[0] = var14;
     var5['treatments'] = var13;
     var5 = var11.bind(var12)(var5);
     var _closure1_slot4 = var5;
@@ -75,15 +75,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var9.bind(var1)(var4);
     var11 = var12.createExperiment;
     var4 = {'kind': 'user', 'id': '2025-08-emoji_studio_speedrun', 'label': 'Emoji Studio V2 Speedrun'};
-    var13 = {};
-    var13['enabled'] = var14;
+    var13 = {'isEmojiEditingExperimentEnabled': false, 'isSelectFileBeforeEmojiStudioExperimentEnabled': false};
     var4['defaultConfig'] = var13;
-    var14 = {'id': 1, 'label': 'Enabled - Instant Upload, Emoji Editing Support'};
-    var13 = {};
-    var13['enabled'] = var15;
+    var14 = {'id': 1, 'label': 'Emoji Editing'};
+    var13 = {'isEmojiEditingExperimentEnabled': true, 'isSelectFileBeforeEmojiStudioExperimentEnabled': false};
     var14['config'] = var13;
-    var13 = new Array(1);
+    var13 = new Array(2);
     var13[0] = var14;
+    var14 = {'id': 2, 'label': 'Select Image File Before Emoji Studio'};
+    var15 = {'isEmojiEditingExperimentEnabled': false, 'isSelectFileBeforeEmojiStudioExperimentEnabled': true};
+    var14['config'] = var15;
+    var13[1] = var14;
     var4['treatments'] = var13;
     var4 = var11.bind(var12)(var4);
     var _closure1_slot5 = var4;
@@ -128,12 +130,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  94:
             var3['disable'] = var7;
             var3 = var5.bind(var6)(var4, var3);
-            var6 = var3.enabled;
-            var4 = var3.showExpressionPickerButton;
+            var7 = var3.enabled;
+            var5 = var3.showExpressionPickerButton;
             var8 = _closure1_slot3;
-            var7 = var8.useExperiment;
-            var5 = {};
-            var5['location'] = var1;
+            var6 = var8.useExperiment;
+            var4 = {};
+            var4['location'] = var1;
             var3 = {};
             var3['autoTrackExposure'] = var11;
             var12 = var9;
@@ -142,12 +144,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var10;
  148:
             var3['disable'] = var12;
-            var3 = var7.bind(var8)(var5, var3);
-            var5 = var3.enabled;
+            var3 = var6.bind(var8)(var4, var3);
+            var6 = var3.enabled;
             var12 = _closure1_slot4;
             var8 = var12.useExperiment;
-            var7 = {};
-            var7['location'] = var1;
+            var4 = {};
+            var4['location'] = var1;
             var3 = {};
             var3['autoTrackExposure'] = var11;
             var13 = var9;
@@ -156,10 +158,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var10;
  196:
             var3['disable'] = var13;
-            var3 = var8.bind(var12)(var7, var3);
-            var3 = var3.enabled;
+            var3 = var8.bind(var12)(var4, var3);
+            var4 = var3.enabled;
             var8 = _closure1_slot5;
-            var7 = var8.useExperiment;
+            var3 = var8.useExperiment;
             var2 = {};
             var2['location'] = var1;
             var1 = {};
@@ -169,22 +171,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10;
  241:
             var1['disable'] = var9;
-            var1 = var7.bind(var8)(var2, var1);
-            var2 = var1.enabled;
+            var1 = var3.bind(var8)(var2, var1);
+            var3 = var1.isEmojiEditingExperimentEnabled;
+            var2 = var1.isSelectFileBeforeEmojiStudioExperimentEnabled;
             var1 = {};
-            var1['enabled'] = var6;
-            var1['isMobileEnabled'] = var5;
-            if(var4) { _fun0001_ip = 274; continue _fun0001 }
- 271:
-            var4 = var3;
- 274:
-            if(var4) { _fun0001_ip = 280; continue _fun0001 }
- 277:
-            var4 = var2;
- 280:
-            var1['isEntrypointEnabled'] = var4;
-            var1['isEntrypointExperimentEnabled'] = var3;
-            var1['isV2SpeedrunExperimentEnabled'] = var2;
+            var1['enabled'] = var7;
+            var1['isMobileEnabled'] = var6;
+            if(var5) { _fun0001_ip = 281; continue _fun0001 }
+ 278:
+            var5 = var4;
+ 281:
+            if(var5) { _fun0001_ip = 287; continue _fun0001 }
+ 284:
+            var5 = var3;
+ 287:
+            if(var5) { _fun0001_ip = 293; continue _fun0001 }
+ 290:
+            var5 = var2;
+ 293:
+            var1['isEntrypointEnabled'] = var5;
+            var1['isEntrypointExperimentEnabled'] = var4;
+            var1['isEmojiEditingExperimentEnabled'] = var3;
+            var1['isSelectFileBeforeEmojiStudioExperimentEnabled'] = var2;
             return var1;
         }
     };

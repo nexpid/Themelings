@@ -127,10 +127,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var17 = var7.bind(var1)(var16);
         var16 = var17.isAndroid;
         var16 = var16.bind(var17)();
-        if(!var16) { _fun0001_ip = 381; continue _fun0001 }
- 375:
+        if(!var16) { _fun0001_ip = 377; continue _fun0001 }
+ 371:
         var15 = -2;
- 381:
+ 377:
         var12['marginTop'] = var15;
         var6['actionText'] = var12;
         var12 = {'position': 'absolute', 'left': 4294967294, 'top': 4294967295};
@@ -257,10 +257,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = 'left';
  69:
                 var13 = var1.count;
-                if(!(var13 === var4)) { _fun0005_ip = 80; continue _fun0005 }
- 78:
+                if(!(var13 === var4)) { _fun0005_ip = 81; continue _fun0005 }
+ 79:
                 var13 = 0;
- 80:
+ 81:
                 var19 = var1.noMargin;
                 var23 = var1.hitSlop;
                 var12 = var1.disabled;
@@ -277,12 +277,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var1.bind(var2)();
                 var8 = null;
                 var9 = var8 != var16;
-                if(!var9) { _fun0005_ip = 175; continue _fun0005 }
- 158:
+                if(!var9) { _fun0005_ip = 176; continue _fun0005 }
+ 159:
                 var1 = 1.2;
                 var1 = var2 > var1;
                 var9 = !var1;
- 175:
+ 176:
                 var3 = _closure1_slot5;
                 var2 = _closure1_slot0;
                 var24 = _closure1_slot2;
@@ -302,25 +302,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = new Array(5);
                 var5[0] = var12;
                 var12 = 'outlined';
-                if(!(var12 !== var20)) { _fun0005_ip = 267; continue _fun0005 }
- 259:
+                if(!(var12 !== var20)) { _fun0005_ip = 268; continue _fun0005 }
+ 260:
                 var12 = var14.filled;
-                _fun0005_ip = 273; continue _fun0005;
- 267:
+                _fun0005_ip = 274; continue _fun0005;
+ 268:
                 var12 = var14.outlined;
- 273:
+ 274:
                 var5[1] = var12;
                 var12 = undefined;
-                if(var9) { _fun0005_ip = 288; continue _fun0005 }
- 282:
+                if(var9) { _fun0005_ip = 289; continue _fun0005 }
+ 283:
                 var12 = var14.roundButton;
- 288:
+ 289:
                 var5[2] = var12;
                 var12 = undefined;
-                if(!var19) { _fun0005_ip = 303; continue _fun0005 }
- 297:
+                if(!var19) { _fun0005_ip = 304; continue _fun0005 }
+ 298:
                 var12 = var14.withoutMargin;
- 303:
+ 304:
                 var5[3] = var12;
                 var5[4] = var11;
                 var1['style'] = var5;
@@ -333,8 +333,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var12.bind(var4)(var11, var5);
                 var5 = new Array(4);
                 var5[0] = var11;
-                if(!var9) { _fun0005_ip = 415; continue _fun0005 }
- 354:
+                if(!var9) { _fun0005_ip = 416; continue _fun0005 }
+ 355:
                 var15 = _closure1_slot4;
                 var12 = _closure1_slot0;
                 var17 = _closure1_slot2;
@@ -349,13 +349,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11['style'] = var17;
                 var11['children'] = var16;
                 var9 = var15.bind(var4)(var12, var11);
- 415:
+ 416:
                 var5[1] = var9;
                 var9 = 0;
                 var9 = var13 > var9;
                 var8 = null;
-                if(!var9) { _fun0005_ip = 476; continue _fun0005 }
- 430:
+                if(!var9) { _fun0005_ip = 477; continue _fun0005 }
+ 431:
                 var12 = _closure1_slot4;
                 var11 = _closure1_slot1;
                 var15 = _closure1_slot2;
@@ -367,16 +367,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9['style'] = var14;
                 var9['value'] = var13;
                 var8 = var12.bind(var4)(var11, var9);
- 476:
+ 477:
                 var5[2] = var8;
-                if(!var6) { _fun0005_ip = 504; continue _fun0005 }
- 483:
+                if(!var6) { _fun0005_ip = 505; continue _fun0005 }
+ 484:
                 var9 = _closure1_slot4;
                 var8 = _closure1_slot8;
                 var7 = {};
                 var7['badgePosition'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
- 504:
+ 505:
                 var5[3] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

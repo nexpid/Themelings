@@ -727,7 +727,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot3;
             var1 = {};
             var1['style'] = var12;
-            if(var8) { _fun0004_ip = 214; continue _fun0004 }
+            if(var8) { _fun0004_ip = 219; continue _fun0004 }
  138:
             if(var7) { _fun0004_ip = 176; continue _fun0004 }
  141:
@@ -740,20 +740,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['screenIndex'] = var11;
             var5['showCreateThread'] = var10;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0004_ip = 212; continue _fun0004;
+            _fun0004_ip = 217; continue _fun0004;
  176:
             var10 = _closure1_slot13;
             var8 = _closure1_slot1;
-            var11 = _closure1_slot2;
+            var12 = _closure1_slot2;
             var7 = 40;
-            var7 = var11[var7];
+            var7 = var12[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
             var7['channelId'] = var9;
+            var7['screenIndex'] = var11;
             var5 = var10.bind(var4)(var8, var7);
- 212:
-            _fun0004_ip = 256; continue _fun0004;
- 214:
+ 217:
+            _fun0004_ip = 261; continue _fun0004;
+ 219:
             var8 = _closure1_slot13;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -764,7 +765,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = {};
             var6['channelId'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 256:
+ 261:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

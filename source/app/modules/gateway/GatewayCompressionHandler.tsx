@@ -435,7 +435,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = this;
                 var1 = var3._stream;
                 var4 = null;
-                if(!(var4 != var1)) { _fun0007_ip = 151; continue _fun0007 }
+                if(!(var4 != var1)) { _fun0007_ip = 149; continue _fun0007 }
  21:
                 var1 = global;
                 var2 = var1.ArrayBuffer;
@@ -458,21 +458,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var1.bind(var2)(var5);
                 var1 = var3._decoder;
                 var2 = var6;
-                if(!(var4 != var1)) { _fun0007_ip = 126; continue _fun0007 }
- 109:
+                if(!(var4 != var1)) { _fun0007_ip = 124; continue _fun0007 }
+ 107:
                 var5 = var3._decoder;
                 var1 = var5.decode;
                 var2 = var1.bind(var5)(var6);
- 126:
+ 124:
                 var1 = var3._onDataReady;
-                if(!(var4 != var1)) { _fun0007_ip = 147; continue _fun0007 }
- 136:
+                if(!(var4 != var1)) { _fun0007_ip = 145; continue _fun0007 }
+ 134:
                 var1 = var3._onDataReady;
                 var1 = var1.bind(var3)(var2);
- 147:
+ 145:
                 var1 = undefined;
                 return var1;
- 151:
+ 149:
                 var1 = global;
                 var3 = var1.Error;
                 var1 = var3.prototype;

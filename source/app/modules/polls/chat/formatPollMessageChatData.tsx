@@ -1026,19 +1026,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['pollMedia'] = var13;
                     var1['isSelected'] = var11;
                     var11 = _closure2_slot7;
-                    if(!var11) { _fun0010_ip = 634; continue _fun0010 }
- 631:
+                    if(!var11) { _fun0010_ip = 630; continue _fun0010 }
+ 627:
                     var11 = var12;
- 634:
+ 630:
                     var1['isVictor'] = var11;
                     var1['didSelfVote'] = var9;
                     var1['style'] = var8;
                     var8 = _closure2_slot10;
-                    if(!var8) { _fun0010_ip = 664; continue _fun0010 }
- 657:
+                    if(!var8) { _fun0010_ip = 660; continue _fun0010 }
+ 653:
                     var9 = _closure2_slot1;
                     var8 = !var9;
- 664:
+ 660:
                     var1['shouldAnimateTransition'] = var8;
                     var9 = var4.Math;
                     var8 = var9.round;
@@ -1242,15 +1242,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2[var28];
             var2 = var22.bind(var15)(var2);
             var2 = var2.t;
-            if(var18) { _fun0008_ip = 948; continue _fun0008 }
- 933:
+            if(var18) { _fun0008_ip = 945; continue _fun0008 }
+ 930:
             var18 = var2.cHfFqq;
             var18 = var3.bind(var9)(var18);
-            _fun0008_ip = 961; continue _fun0008;
- 948:
+            _fun0008_ip = 958; continue _fun0008;
+ 945:
             var2 = var2.PVATMz;
             var18 = var3.bind(var9)(var2);
- 961:
+ 958:
             _closure2_slot15 = var18;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -1318,17 +1318,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var3.bind(var9)(var2);
             var2 = undefined;
-            if(!var11) { _fun0008_ip = 1178; continue _fun0008 }
- 1086:
+            if(!var11) { _fun0008_ip = 1175; continue _fun0008 }
+ 1083:
             var2 = undefined;
-            if(var5) { _fun0008_ip = 1178; continue _fun0008 }
- 1091:
+            if(var5) { _fun0008_ip = 1175; continue _fun0008 }
+ 1088:
             var2 = undefined;
-            if(var6) { _fun0008_ip = 1178; continue _fun0008 }
- 1096:
+            if(var6) { _fun0008_ip = 1175; continue _fun0008 }
+ 1093:
             var2 = undefined;
-            if(var1) { _fun0008_ip = 1178; continue _fun0008 }
- 1101:
+            if(var1) { _fun0008_ip = 1175; continue _fun0008 }
+ 1098:
             var1 = {'label': null, 'presentation': 'textButton', 'enabled': true, 'type': 'showVotes'};
             var26 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -1343,7 +1343,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var21.bind(var22)(var9);
             var1['label'] = var9;
             var2 = var1;
- 1178:
+ 1175:
             var9 = var27.allow_multiselect;
             var22 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -1486,10 +1486,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.bind(var20)();
             var1['answersInteraction'] = var14;
             var14 = undefined;
-            if(!var19) { _fun0008_ip = 1500; continue _fun0008 }
- 1497:
+            if(!var19) { _fun0008_ip = 1497; continue _fun0008 }
+ 1494:
             var14 = var18;
- 1500:
+ 1497:
             var1['answerTapAccessibilityLabel'] = var14;
             var1['layoutType'] = var16;
             var14 = _closure1_slot1;

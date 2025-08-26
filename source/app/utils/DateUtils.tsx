@@ -531,16 +531,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var5;
             var1 = {'days': 0, 'hours': 0, 'minutes': 0};
             var4 = 0;
-            if(!var3) { _fun0010_ip = 45; continue _fun0010 }
- 42:
+            if(!var3) { _fun0010_ip = 49; continue _fun0010 }
+ 46:
             var4 = 1;
- 45:
+ 49:
             var1['seconds'] = var4;
             _closure2_slot0 = var1;
-            if(!(!(var6 > var7))) { _fun0010_ip = 157; continue _fun0010 }
- 58:
-            if(!var3) { _fun0010_ip = 99; continue _fun0010 }
- 61:
+            if(!(!(var6 > var7))) { _fun0010_ip = 161; continue _fun0010 }
+ 62:
+            if(!var3) { _fun0010_ip = 103; continue _fun0010 }
+ 65:
             var3 = global;
             var4 = var3.Number;
             var8 = var4.bind(var5)(var6);
@@ -548,8 +548,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var8 + var4;
             var3 = var3.Number;
             var3 = var3.bind(var5)(var7);
-            if(!(!(var4 > var3))) { _fun0010_ip = 155; continue _fun0010 }
- 99:
+            if(!(!(var4 > var3))) { _fun0010_ip = 159; continue _fun0010 }
+ 103:
             var3 = global;
             var4 = var3.Number;
             var4 = var4.bind(var5)(var7);
@@ -582,9 +582,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             return var1;
- 155:
+ 159:
             return var1;
- 157:
+ 161:
             return var1;
         }
     };

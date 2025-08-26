@@ -218,8 +218,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var12 = var13.bind(var14)(var9, var12);
-            if(!(!(var2 <= var8))) { _fun0002_ip = 295; continue _fun0002 }
- 231:
+            if(!(!(var2 <= var8))) { _fun0002_ip = 297; continue _fun0002 }
+ 232:
             var9 = _closure1_slot0;
             var22 = _closure1_slot2;
             var8 = 15;
@@ -234,8 +234,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = {};
             var8['count'] = var2;
             var13 = var13.bind(var14)(var9, var8);
-            _fun0002_ip = 350; continue _fun0002;
- 295:
+            _fun0002_ip = 352; continue _fun0002;
+ 297:
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
             var8 = 15;
@@ -248,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.t;
             var8 = var8.TXNS7e;
             var13 = var9.bind(var14)(var8);
- 350:
+ 352:
             var9 = _closure1_slot5;
             var8 = var9.useMemo;
             var14 = var4.footer;
@@ -274,8 +274,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var9)(var3, var4);
             var11 = var1 === var2;
             var1 = null;
-            if(var11) { _fun0002_ip = 586; continue _fun0002 }
- 407:
+            if(var11) { _fun0002_ip = 588; continue _fun0002 }
+ 409:
             var4 = _closure1_slot15;
             var3 = _closure1_slot6;
             var2 = {};
@@ -308,17 +308,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['text'] = var13;
             var7['disabled'] = var11;
             var11 = undefined;
-            if(var10) { _fun0002_ip = 557; continue _fun0002 }
- 554:
+            if(var10) { _fun0002_ip = 559; continue _fun0002 }
+ 556:
             var11 = var12;
- 557:
+ 559:
             var7['onPress'] = var11;
             var7['loading'] = var10;
             var7 = var9.bind(var5)(var8, var7);
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 586:
+ 588:
             return var1;
         }
     };

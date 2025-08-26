@@ -453,10 +453,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = {};
             var18 = var16 == var17;
             var16 = undefined;
-            if(var18) { _fun0001_ip = 602; continue _fun0001 }
- 596:
+            if(var18) { _fun0001_ip = 598; continue _fun0001 }
+ 592:
             var16 = var17.email;
- 602:
+ 598:
             var12['email'] = var16;
             var12 = var14.bind(var15)(var13, var12);
             var9['children'] = var12;
