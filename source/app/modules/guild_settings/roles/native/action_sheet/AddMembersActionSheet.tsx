@@ -678,30 +678,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var6.bind(var7)(var1, var8);
             var1 = 21;
             var1 = var5[var1];
-            var6 = var2.bind(var4)(var1);
-            var5 = var6.useSubscribeGuildMembers;
-            var2 = {};
+            var7 = var2.bind(var4)(var1);
+            var6 = var7.useSubscribeGuildMembers;
+            var5 = {};
             var8 = var18.id;
             var1 = global;
             var10 = var1.Object;
-            var7 = var10.keys;
-            var7 = var7.bind(var10)(var15);
-            var2[var8] = var7;
-            var2 = var5.bind(var6)(var2);
+            var2 = var10.keys;
+            var2 = var2.bind(var10)(var15);
+            var5[var8] = var2;
+            var2 = 'AddMembersActionSheet';
+            var2 = var6.bind(var7)(var5, var2);
             var5 = var1.Object;
             var2 = var5.keys;
             var2 = var2.bind(var5)(var15);
             var2 = var2.length;
             var13 = var3 === var2;
-            if(var13) { _fun0007_ip = 265; continue _fun0007 }
- 236:
+            if(var13) { _fun0007_ip = 272; continue _fun0007 }
+ 243:
             var2 = var1.Object;
             var1 = var2.keys;
             var1 = var1.bind(var2)(var15);
             var2 = var1.length;
             var1 = _closure1_slot7;
             var13 = var2 > var1;
- 265:
+ 272:
             var3 = _closure1_slot8;
             var25 = _closure1_slot0;
             var22 = _closure1_slot2;
@@ -776,10 +777,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var8['onPress'] = var19;
             var19 = 'primary';
-            if(!var13) { _fun0007_ip = 498; continue _fun0007 }
- 494:
+            if(!var13) { _fun0007_ip = 505; continue _fun0007 }
+ 501:
             var19 = 'secondary';
- 498:
+ 505:
             var8['variant'] = var19;
             var8['disabled'] = var13;
             var8 = var11.bind(var4)(var10, var8);

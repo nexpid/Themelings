@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14['config'] = var13;
     var13 = new Array(2);
     var13[0] = var14;
-    var14 = {'id': 2, 'label': 'Select Image File Before Emoji Studio'};
+    var14 = {'id': 2, 'label': '"Speedrun": Select Image File Before Emoji Studio'};
     var15 = {'isEmojiEditingExperimentEnabled': false, 'isSelectFileBeforeEmojiStudioExperimentEnabled': true};
     var14['config'] = var15;
     var13[1] = var14;
@@ -177,20 +177,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['enabled'] = var7;
             var1['isMobileEnabled'] = var6;
-            if(var5) { _fun0001_ip = 281; continue _fun0001 }
- 278:
-            var5 = var4;
+            var6 = var5;
+            if(var5) { _fun0001_ip = 284; continue _fun0001 }
  281:
-            if(var5) { _fun0001_ip = 287; continue _fun0001 }
+            var6 = var4;
  284:
-            var5 = var3;
+            if(var6) { _fun0001_ip = 290; continue _fun0001 }
  287:
-            if(var5) { _fun0001_ip = 293; continue _fun0001 }
+            var6 = var3;
  290:
-            var5 = var2;
+            if(var6) { _fun0001_ip = 296; continue _fun0001 }
  293:
-            var1['isEntrypointEnabled'] = var5;
-            var1['isEntrypointExperimentEnabled'] = var4;
+            var6 = var2;
+ 296:
+            var1['isEntrypointEnabled'] = var6;
+            if(var5) { _fun0001_ip = 309; continue _fun0001 }
+ 306:
+            var5 = var3;
+ 309:
+            if(var5) { _fun0001_ip = 315; continue _fun0001 }
+ 312:
+            var5 = var2;
+ 315:
+            var1['isEntrypointEnabledInDMs'] = var5;
+            var1['isEntrypointOnlyExperimentEnabled'] = var4;
             var1['isEmojiEditingExperimentEnabled'] = var3;
             var1['isSelectFileBeforeEmojiStudioExperimentEnabled'] = var2;
             return var1;

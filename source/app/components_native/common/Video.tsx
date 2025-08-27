@@ -165,10 +165,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.mixWithOthers;
             var20 = var1.importantForAccessibility;
             var16 = var1.pauseWhileAppInactive;
-            if(!(var16 === var4)) { _fun0002_ip = 143; continue _fun0002 }
- 141:
+            if(!(var16 === var4)) { _fun0002_ip = 141; continue _fun0002 }
+ 139:
             var16 = true;
- 143:
+ 141:
             var _closure2_slot0 = var16;
             var _closure2_slot1 = var4;
             var17 = _closure1_slot0;
@@ -236,14 +236,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['importantForAccessibility'] = var20;
             var1['poster'] = var19;
             var1['muted'] = var18;
-            if(var15) { _fun0002_ip = 306; continue _fun0002 }
- 297:
-            if(!var16) { _fun0002_ip = 303; continue _fun0002 }
- 300:
+            if(var15) { _fun0002_ip = 304; continue _fun0002 }
+ 295:
+            if(!var16) { _fun0002_ip = 301; continue _fun0002 }
+ 298:
             var16 = !var17;
- 303:
+ 301:
             var15 = var16;
- 306:
+ 304:
             var1['paused'] = var15;
             var1['posterResizeMode'] = var14;
             var1['resizeMode'] = var13;
@@ -262,22 +262,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var8 = var5 == var6;
             var7 = undefined;
-            if(var8) { _fun0002_ip = 405; continue _fun0002 }
- 386:
+            if(var8) { _fun0002_ip = 403; continue _fun0002 }
+ 384:
             var8 = var6.props;
             var9 = var5 == var8;
             var7 = undefined;
-            if(var9) { _fun0002_ip = 405; continue _fun0002 }
- 400:
+            if(var9) { _fun0002_ip = 403; continue _fun0002 }
+ 398:
             var7 = var8.ref;
- 405:
+ 403:
             var1['ref'] = var7;
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0002_ip = 423; continue _fun0002 }
- 418:
+            if(var7) { _fun0002_ip = 421; continue _fun0002 }
+ 416:
             var5 = var6.props;
- 423:
+ 421:
             var28 = var1;
             var27 = var5;
             var5 = copyDataProperties(var28, var27);

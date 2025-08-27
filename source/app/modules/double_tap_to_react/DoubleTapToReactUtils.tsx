@@ -112,7 +112,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'modules/double_tap_to_react/DoubleTapToReactUtils.tsx';
     var5 = var6.bind(var7)(var5);
     var3['emojiFromProtoValue'] = var4;
-    var2 = function handleAddDefaultDoubleTapReaction(arg1, arg2) {
+    var4 = function handleAddDefaultDoubleTapReaction(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var6 = arg1;
@@ -167,6 +167,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['handleAddDefaultDoubleTapReaction'] = var2;
+    var3['handleAddDefaultDoubleTapReaction'] = var4;
+    var2 = function areEmojisEqual(arg1, arg2) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+            var3 = arg1;
+            var2 = arg2;
+            var1 = var3.id;
+            var4 = null;
+            if(!(var4 == var1)) { _fun0003_ip = 26; continue _fun0003 }
+ 17:
+            var1 = var2.id;
+            if(!(var4 != var1)) { _fun0003_ip = 59; continue _fun0003 }
+ 26:
+            var4 = var3.id;
+            var1 = var2.id;
+            var1 = var4 === var1;
+            if(!var1) { _fun0003_ip = 57; continue _fun0003 }
+ 43:
+            var5 = var3.name;
+            var4 = var2.name;
+            var1 = var5 === var4;
+ 57:
+            _fun0003_ip = 73; continue _fun0003;
+ 59:
+            var3 = var3.surrogates;
+            var2 = var2.surrogates;
+            var1 = var3 === var2;
+ 73:
+            return var1;
+        }
+    };
+    var3['areEmojisEqual'] = var2;
     return var1;
 })();

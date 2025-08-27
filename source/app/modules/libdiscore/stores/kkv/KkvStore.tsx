@@ -289,7 +289,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4.Object;
     var4 = var4.hasOwnProperty;
     var _closure1_slot14 = var4;
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.Store;
@@ -986,7 +986,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var1;
-        var1 = new Array(17);
+        var1 = new Array(18);
         var1[0] = var5;
         var5 = {};
         var7 = 'mapPartitions';
@@ -1042,25 +1042,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot0 = var5;
                 var3 = var5.mode;
                 var2 = 'typescript-libdiscore-dual-read';
-                if(!(var2 !== var3)) { _fun0016_ip = 146; continue _fun0016 }
- 27:
+                if(!(var2 !== var3)) { _fun0016_ip = 152; continue _fun0016 }
+ 30:
                 var2 = 'libdiscore';
-                if(!(var2 !== var3)) { _fun0016_ip = 124; continue _fun0016 }
- 37:
+                if(!(var2 !== var3)) { _fun0016_ip = 130; continue _fun0016 }
+ 40:
                 var2 = 'typescript';
-                if(!(var2 !== var3)) { _fun0016_ip = 88; continue _fun0016 }
- 45:
+                if(!(var2 !== var3)) { _fun0016_ip = 94; continue _fun0016 }
+ 48:
                 var6 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 10;
+                var2 = 11;
                 var3 = var3[var2];
                 var2 = undefined;
                 var6 = var6.bind(var2)(var3);
                 var3 = var6.assertNever;
                 var2 = var5.mode;
                 var2 = var3.bind(var6)(var2);
-                _fun0016_ip = 208; continue _fun0016;
- 88:
+                _fun0016_ip = 232; continue _fun0016;
+ 94:
                 var2 = global;
                 var6 = var2.Error;
                 var2 = var6.prototype;
@@ -1070,13 +1070,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = new var9[var6](var8, var7);
                 var2 = var2 instanceof Object ? var2 : var3;
                 throw var2;
- 124:
+ 130:
                 var3 = var5.setKkvRoot;
                 var2 = var3.bind;
                 var2 = var2.bind(var3)(var5);
                 var _closure3_slot1 = var2;
-                _fun0016_ip = 208; continue _fun0016;
- 146:
+                _fun0016_ip = 232; continue _fun0016;
+ 152:
                 var2 = {};
                 var3 = {};
                 var2['root'] = var3;
@@ -1107,24 +1107,218 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 _closure3_slot1 = var2;
+                var2 = global;
+                var3 = var2.Symbol;
+                var2 = undefined;
+                var2 = var3.bind(var2)();
+                var _closure3_slot2 = var2;
                 var3 = var5.addChangeListener;
                 var2 = function() {
-                    var3 = _closure1_slot1;
-                    var2 = _closure1_slot2;
+                    var4 = _closure3_slot0;
+                    var7 = var4.shadowState;
+                    var _closure4_slot0 = var7;
+                    var8 = _closure1_slot1;
+                    var6 = _closure1_slot2;
                     var1 = 9;
-                    var2 = var2[var1];
+                    var5 = var6[var1];
                     var1 = undefined;
-                    var4 = var3.bind(var1)(var2);
-                    var2 = _closure3_slot0;
-                    var3 = var2.shadowState;
-                    var2 = null;
-                    var3 = var2 != var3;
-                    var2 = 'Shadow state must be set in dual-read mode before running validation.';
-                    var2 = var4.bind(var1)(var3, var2);
+                    var8 = var8.bind(var1)(var5);
+                    var5 = null;
+                    var7 = var5 != var7;
+                    var5 = 'Shadow state must be set in dual-read mode before running validation.';
+                    var5 = var8.bind(var1)(var7, var5);
+                    var5 = _closure1_slot0;
+                    var3 = 10;
+                    var3 = var6[var3];
+                    var6 = var5.bind(var1)(var3);
+                    var5 = var6.runDualReadValidation;
+                    var3 = var4.getName;
+                    var4 = var3.bind(var4)();
+                    var3 = 'Kkv';
+                    var2 = function(arg1) {
+                        _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+ 0:
+                            var11 = arg1;
+                            var10 = global;
+                            var3 = var10.Object;
+                            var2 = var3.keys;
+                            var1 = _closure3_slot0;
+                            var1 = var1.root;
+                            var17 = var2.bind(var3)(var1);
+                            var3 = var10.Object;
+                            var2 = var3.keys;
+                            var1 = _closure4_slot0;
+                            var1 = var1.root;
+                            var7 = var2.bind(var3)(var1);
+                            var1 = var17.length;
+                            var6 = 0;
+                            var2 = var6 < var1;
+                            var1 = undefined;
+                            var4 = 7;
+                            var16 = null;
+                            var15 = 0;
+                            var14 = undefined;
+                            var13 = undefined;
+                            var12 = undefined;
+                            var3 = undefined;
+                            if(!var2) { _fun0017_ip = 536; continue _fun0017 }
+ 100:
+                            var18 = var17[var15];
+                            var2 = var10.Object;
+                            var2 = var2.prototype;
+                            var20 = var2.hasOwnProperty;
+                            var19 = var20.call;
+                            var2 = _closure4_slot0;
+                            var2 = var2.root;
+                            var2 = var19.bind(var20)(var2, var18);
+                            var19 = _closure3_slot0;
+                            var19 = var19.root;
+                            var20 = var19[var18];
+                            if(var2) { _fun0017_ip = 242; continue _fun0017 }
+ 159:
+                            var19 = {};
+                            var2 = var20.root;
+                            var19['root'] = var2;
+                            var21 = _closure1_slot0;
+                            var2 = _closure1_slot2;
+                            var2 = var2[var4];
+                            var2 = var21.bind(var1)(var2);
+                            var2 = var2.partitionRootDerived;
+                            var2 = var20[var2];
+                            var19['derived'] = var2;
+                            var2 = {};
+                            var21 = {};
+                            var2['root'] = var21;
+                            var21 = {};
+                            var21['length'] = var6;
+                            var22 = {};
+                            var21['memoized'] = var22;
+                            var2['derived'] = var21;
+                            var2 = var11.bind(var1)(var19, var2);
+                            _fun0017_ip = 521; continue _fun0017;
+ 242:
+                            var2 = _closure4_slot0;
+                            var2 = var2.root;
+                            var19 = var2[var18];
+                            var21 = _closure1_slot0;
+                            var2 = _closure1_slot2;
+                            var18 = var2[var4];
+                            var18 = var21.bind(var1)(var18);
+                            var18 = var18.partitionRootDerived;
+                            var18 = var20[var18];
+                            var22 = var18.memoized;
+                            var18 = _closure3_slot2;
+                            var18 = var22[var18];
+                            var2 = var2[var4];
+                            var2 = var21.bind(var1)(var2);
+                            var2 = var2.partitionRootDerived;
+                            var2 = var19[var2];
+                            var21 = var2.memoized;
+                            var2 = _closure3_slot2;
+                            var2 = var21[var2];
+                            if(!(var16 != var18)) { _fun0017_ip = 353; continue _fun0017 }
+ 334:
+                            var14 = var20;
+                            var13 = var19;
+                            var12 = var18;
+                            var3 = var2;
+                            if(!(var12 !== var3)) { _fun0017_ip = 521; continue _fun0017 }
+ 353:
+                            var24 = {};
+                            var21 = var20.root;
+                            var24['root'] = var21;
+                            var22 = _closure1_slot0;
+                            var21 = _closure1_slot2;
+                            var23 = var21[var4];
+                            var23 = var22.bind(var1)(var23);
+                            var23 = var23.partitionRootDerived;
+                            var23 = var20[var23];
+                            var24['derived'] = var23;
+                            var23 = {};
+                            var25 = var19.root;
+                            var23['root'] = var25;
+                            var25 = var21[var4];
+                            var25 = var22.bind(var1)(var25);
+                            var25 = var25.partitionRootDerived;
+                            var25 = var19[var25];
+                            var23['derived'] = var25;
+                            var23 = var11.bind(var1)(var24, var23);
+                            var23 = {};
+                            var24 = var21[var4];
+                            var24 = var22.bind(var1)(var24);
+                            var24 = var24.partitionRootDerived;
+                            var24 = var20[var24];
+                            var25 = var24.memoized;
+                            var24 = _closure3_slot2;
+                            var25[var24] = var23;
+                            var21 = var21[var4];
+                            var21 = var22.bind(var1)(var21);
+                            var21 = var21.partitionRootDerived;
+                            var21 = var19[var21];
+                            var22 = var21.memoized;
+                            var21 = _closure3_slot2;
+                            var22[var21] = var23;
+                            var14 = var20;
+                            var13 = var19;
+                            var12 = var18;
+                            var3 = var2;
+ 521:
+                            var15 = var15 + 1;
+                            var2 = var17.length;
+                            if(var15 < var2) { _fun0017_ip = 100; continue _fun0017 }
+ 536:
+                            var2 = var7.length;
+                            var2 = var6 < var2;
+                            var3 = 0;
+                            if(!var2) { _fun0017_ip = 715; continue _fun0017 }
+ 553:
+                            var14 = var7[var3];
+                            var2 = var10.Object;
+                            var2 = var2.prototype;
+                            var13 = var2.hasOwnProperty;
+                            var12 = var13.call;
+                            var2 = _closure3_slot0;
+                            var2 = var2.root;
+                            var2 = var12.bind(var13)(var2, var14);
+                            if(var2) { _fun0017_ip = 700; continue _fun0017 }
+ 598:
+                            var12 = {};
+                            var2 = {};
+                            var12['root'] = var2;
+                            var2 = {};
+                            var2['length'] = var6;
+                            var13 = {};
+                            var2['memoized'] = var13;
+                            var12['derived'] = var2;
+                            var2 = {};
+                            var13 = _closure4_slot0;
+                            var15 = var13.root;
+                            var15 = var15[var14];
+                            var15 = var15.root;
+                            var2['root'] = var15;
+                            var13 = var13.root;
+                            var14 = var13[var14];
+                            var15 = _closure1_slot0;
+                            var13 = _closure1_slot2;
+                            var13 = var13[var4];
+                            var13 = var15.bind(var1)(var13);
+                            var13 = var13.partitionRootDerived;
+                            var13 = var14[var13];
+                            var2['derived'] = var13;
+                            var2 = var11.bind(var1)(var12, var2);
+ 700:
+                            var3 = var3 + 1;
+                            var2 = var7.length;
+                            if(var3 < var2) { _fun0017_ip = 553; continue _fun0017 }
+ 715:
+                            return var1;
+                        }
+                    };
+                    var2 = var5.bind(var6)(var4, var3, var2);
                     return var1;
                 };
                 var2 = var3.bind(var5)(var2);
- 208:
+ 232:
                 var3 = var4.registerKkvStore;
                 var2 = var5.getName;
                 var2 = var2.bind(var5)();
@@ -1159,7 +1353,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'partitionVersion';
         var5['key'] = var7;
         var7 = function partitionVersion(arg1) {
-            _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
+            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
  0:
                 var4 = this;
                 var2 = var4.root;
@@ -1167,7 +1361,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2[var1];
                 var1 = null;
                 var2 = var1 == var5;
-                if(var2) { _fun0017_ip = 77; continue _fun0017 }
+                if(var2) { _fun0018_ip = 77; continue _fun0018 }
  25:
                 var3 = var4._derivedVersion;
                 var7 = _closure1_slot0;
@@ -1190,7 +1384,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getRecord';
         var5['key'] = var7;
         var7 = function getRecord(arg1, arg2) {
-            _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
                 var1 = this;
                 var2 = var1.root;
@@ -1199,7 +1393,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var3 = var1 == var2;
                 var1 = undefined;
-                if(var3) { _fun0018_ip = 40; continue _fun0018 }
+                if(var3) { _fun0019_ip = 40; continue _fun0019 }
  27:
                 var3 = var2.root;
                 var2 = arg2;
@@ -1214,14 +1408,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getManyRecords';
         var5['key'] = var7;
         var7 = function getManyRecords(arg1, arg2) {
-            _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
  0:
                 var1 = this;
                 var2 = var1.root;
                 var1 = arg1;
                 var7 = var2[var1];
                 var6 = null;
-                if(!(var6 != var7)) { _fun0019_ip = 101; continue _fun0019 }
+                if(!(var6 != var7)) { _fun0020_ip = 101; continue _fun0020 }
  22:
                 var1 = new Array(0);
                 var3 = _closure1_slot15;
@@ -1230,12 +1424,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var3.bind(var5)(var2);
                 var3 = var4.bind(var5)();
                 var2 = var3.done;
-                if(var2) { _fun0019_ip = 99; continue _fun0019 }
+                if(var2) { _fun0020_ip = 99; continue _fun0020 }
  55:
                 var8 = var3.value;
                 var2 = var7.root;
                 var8 = var2[var8];
-                if(!(var6 != var8)) { _fun0019_ip = 84; continue _fun0019 }
+                if(!(var6 != var8)) { _fun0020_ip = 84; continue _fun0020 }
  74:
                 var2 = var1.push;
                 var2 = var2.bind(var1)(var8);
@@ -1243,7 +1437,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var4.bind(var5)();
                 var2 = var8.done;
                 var3 = var8;
-                if(!var2) { _fun0019_ip = 55; continue _fun0019 }
+                if(!var2) { _fun0020_ip = 55; continue _fun0020 }
  99:
                 return var1;
  101:
@@ -1257,17 +1451,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getPartition';
         var5['key'] = var7;
         var7 = function getPartition(arg1) {
-            _fun0020: for(var _fun0020_ip = 0; ; ) switch(_fun0020_ip) {
+            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
  0:
                 var1 = this;
                 var2 = var1.root;
                 var1 = arg1;
                 var2 = var2[var1];
                 var1 = null;
-                if(!(var1 == var2)) { _fun0020_ip = 31; continue _fun0020 }
+                if(!(var1 == var2)) { _fun0021_ip = 31; continue _fun0021 }
  22:
                 var1 = _closure1_slot12;
-                _fun0020_ip = 37; continue _fun0020;
+                _fun0021_ip = 37; continue _fun0021;
  31:
                 var1 = var2.root;
  37:
@@ -1280,14 +1474,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getBoxedPartition';
         var5['key'] = var7;
         var7 = function getBoxedPartition(arg1) {
-            _fun0021: for(var _fun0021_ip = 0; ; ) switch(_fun0021_ip) {
+            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
  0:
                 var7 = this;
                 var2 = var7.root;
                 var1 = arg1;
                 var4 = var2[var1];
                 var3 = null;
-                if(!(var3 != var4)) { _fun0021_ip = 125; continue _fun0021 }
+                if(!(var3 != var4)) { _fun0022_ip = 125; continue _fun0022 }
  22:
                 var6 = var4.root;
                 var8 = _closure1_slot0;
@@ -1302,7 +1496,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var1.length;
                 var1 = _closure1_slot11;
                 var1 = var4[var1];
-                if(!(var3 == var1)) { _fun0021_ip = 123; continue _fun0021 }
+                if(!(var3 == var1)) { _fun0022_ip = 123; continue _fun0022 }
  86:
                 var3 = _closure1_slot11;
                 var2 = {};
@@ -1326,7 +1520,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'partitionLength';
         var5['key'] = var7;
         var7 = function partitionLength(arg1) {
-            _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
+            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
  0:
                 var1 = this;
                 var2 = var1.root;
@@ -1335,7 +1529,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var2 = var1 == var3;
                 var1 = 0;
-                if(var2) { _fun0022_ip = 67; continue _fun0022 }
+                if(var2) { _fun0023_ip = 67; continue _fun0023 }
  27:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -1378,7 +1572,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'getNullablePartition';
         var5['key'] = var7;
         var7 = function getNullablePartition(arg1) {
-            _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
+            _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
  0:
                 var1 = this;
                 var2 = var1.root;
@@ -1386,7 +1580,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2[var1];
                 var1 = null;
                 var3 = var1 == var2;
-                if(var3) { _fun0023_ip = 31; continue _fun0023 }
+                if(var3) { _fun0024_ip = 31; continue _fun0024 }
  25:
                 var1 = var2.root;
  31:
@@ -1412,14 +1606,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var3)(var2);
             var _closure3_slot3 = var2;
             var1 = function(arg1) {
-                _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
+                _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
  0:
                     var2 = _closure3_slot0;
                     var3 = var2.root;
                     var2 = arg1;
                     var5 = var3[var2];
                     var2 = null;
-                    if(!(var2 != var5)) { _fun0024_ip = 121; continue _fun0024 }
+                    if(!(var2 != var5)) { _fun0025_ip = 121; continue _fun0025 }
  26:
                     var6 = var5.root;
                     var7 = _closure1_slot0;
@@ -1436,7 +1630,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = _closure1_slot14;
                     var3 = var7.call;
                     var3 = var3.bind(var7)(var5, var8);
-                    if(var3) { _fun0024_ip = 119; continue _fun0024 }
+                    if(var3) { _fun0025_ip = 119; continue _fun0025 }
  99:
                     var3 = _closure3_slot1;
                     var3 = var3.bind(var4)(var6);
@@ -1468,7 +1662,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var2)();
             var _closure3_slot2 = var2;
             var1 = function() {
-                _fun0025: for(var _fun0025_ip = 0; ; ) switch(_fun0025_ip) {
+                _fun0026: for(var _fun0026_ip = 0; ; ) switch(_fun0026_ip) {
  0:
                     var1 = _closure3_slot0;
                     var1 = var1.derived;
@@ -1478,7 +1672,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure1_slot14;
                     var2 = var5.call;
                     var2 = var2.bind(var5)(var4, var6);
-                    if(var2) { _fun0025_ip = 80; continue _fun0025 }
+                    if(var2) { _fun0026_ip = 80; continue _fun0026 }
  48:
                     var6 = _closure3_slot1;
                     var2 = _closure3_slot0;
@@ -1499,7 +1693,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var7 = 'setKkvRoot';
         var5['key'] = var7;
-        var6 = function setKkvRoot(arg1, arg2) {
+        var7 = function setKkvRoot(arg1, arg2) {
             var2 = this;
             var1 = arg1;
             var2['root'] = var1;
@@ -1508,13 +1702,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = undefined;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[16] = var5;
+        var5 = {};
+        var7 = 'debugFindRecordByClusteringKeyDoNotUse';
+        var5['key'] = var7;
+        var6 = function debugFindRecordByClusteringKeyDoNotUse(arg1) {
+            _fun0027: for(var _fun0027_ip = 0; ; ) switch(_fun0027_ip) {
+ 0:
+                var9 = arg1;
+                var8 = this;
+                var1 = new Array(0);
+                var6 = var8.root;
+                var2 = null;
+                for(var3 in var6)
+ 26:
+                {
+ 35:
+                    var13 = var3;
+                    var10 = var8.root;
+                    var10 = var10[var13];
+                    var10 = var10.root;
+                    var12 = var10[var9];
+                    if(var2 == var12) { _fun0027_ip = 26; continue _fun0027 }
+ 62:
+                    var11 = var1.push;
+                    var10 = {};
+                    var10['partitionKey'] = var13;
+                    var10['record'] = var12;
+                    var10 = var11.bind(var1)(var10);
+                    _fun0027_ip = 26; continue _fun0027;
+                }
+ 86:
+                return var1;
+            }
+        };
+        var5['value'] = var6;
+        var1[17] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
     var2 = var2.bind(var1)(var4);
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

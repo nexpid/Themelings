@@ -1179,31 +1179,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8;
  95:
             var14 = var3 > var5;
-            if(!var14) { _fun0010_ip = 106; continue _fun0010 }
+            if(!var14) { _fun0010_ip = 109; continue _fun0010 }
  102:
-            if(!(var1 == var7)) { _fun0010_ip = 198; continue _fun0010 }
- 106:
+            if(!(var1 == var7)) { _fun0010_ip = 269; continue _fun0010 }
+ 109:
             var3 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var1 = 11;
-            var8 = var11[var1];
-            var8 = var3.bind(var4)(var8);
+            var8 = _closure1_slot2;
+            var1 = 14;
+            var1 = var8[var1];
+            var3 = var3.bind(var4)(var1);
+            var1 = var3.isSponsoredPlayQuest;
+            var1 = var1.bind(var3)(var19);
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var3 = 11;
+            var8 = var12[var3];
+            var8 = var11.bind(var4)(var8);
             var9 = var8.intl;
-            var8 = var9.formatToPlainString;
-            var1 = var11[var1];
-            var1 = var3.bind(var4)(var1);
+            if(var1) { _fun0010_ip = 227; continue _fun0010 }
+ 168:
+            var13 = var9.formatToPlainString;
+            var1 = var12[var3];
+            var1 = var11.bind(var4)(var1);
             var1 = var1.t;
-            var3 = var1.GXqvCw;
+            var8 = var1.GXqvCw;
             var1 = {};
-            var11 = var19.config;
-            var11 = var11.messages;
-            var11 = var11.gameTitle;
-            var1['gameTitle'] = var11;
-            var1 = var8.bind(var9)(var3, var1);
+            var16 = var19.config;
+            var16 = var16.messages;
+            var16 = var16.gameTitle;
+            var1['gameTitle'] = var16;
+            var1 = var13.bind(var9)(var8, var1);
+            _fun0010_ip = 259; continue _fun0010;
+ 227:
+            var8 = var9.string;
+            var3 = var12[var3];
+            var3 = var11.bind(var4)(var3);
+            var3 = var3.t;
+            var3 = var3.bUyEZW;
+            var1 = var8.bind(var9)(var3);
+ 259:
             var8 = new Array(1);
             var8[0] = var1;
-            _fun0010_ip = 243; continue _fun0010;
- 198:
+            _fun0010_ip = 314; continue _fun0010;
+ 269:
             var3 = var7.map;
             var1 = function(arg1) {
                 var1 = arg1;
@@ -1219,7 +1237,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 1;
             var2 = var3 + var2;
             var8 = var1;
- 243:
+ 314:
             var3 = _closure1_slot11;
             var2 = _closure1_slot6;
             var1 = {};
@@ -1239,10 +1257,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var10.WarningIcon;
             var10 = {};
             var13 = 'text-warning';
-            if(!var14) { _fun0010_ip = 330; continue _fun0010 }
- 324:
+            if(!var14) { _fun0010_ip = 401; continue _fun0010 }
+ 395:
             var13 = 'text-danger';
- 330:
+ 401:
             var10['color'] = var13;
             var11 = var12.bind(var4)(var11, var10);
             var10 = new Array(2);
@@ -1261,16 +1279,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var20[var15];
             var17 = var16.bind(var4)(var17);
             var18 = var17.intl;
-            if(var14) { _fun0010_ip = 453; continue _fun0010 }
- 419:
+            if(var14) { _fun0010_ip = 524; continue _fun0010 }
+ 490:
             var17 = var18.string;
             var14 = var20[var15];
             var14 = var16.bind(var4)(var14);
             var14 = var14.t;
             var14 = var14.YstzGB;
             var14 = var17.bind(var18)(var14);
-            _fun0010_ip = 510; continue _fun0010;
- 453:
+            _fun0010_ip = 581; continue _fun0010;
+ 524:
             var17 = var18.formatToPlainString;
             var15 = var20[var15];
             var15 = var16.bind(var4)(var15);
@@ -1282,7 +1300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.gameTitle;
             var15['gameTitle'] = var19;
             var14 = var17.bind(var18)(var16, var15);
- 510:
+ 581:
             var11['children'] = var14;
             var11 = var13.bind(var4)(var12, var11);
             var10[1] = var11;

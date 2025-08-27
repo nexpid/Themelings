@@ -1,27 +1,17 @@
-// app/modules/payments/utils/goToStandaloneCheckout.tsx
+// app/modules/payments/utils/BillingStandaloneUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
+    var7 = require;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
     var1 = metroImportDefault;
     var _closure1_slot1 = var1;
-    var _closure1_slot2 = var7;
-    var4 = function goToStandaloneCheckout(arg1, arg2, arg3) {
-        var2 = arg1;
-        var17 = var2.planId;
-        var16 = var2.isGift;
-        var15 = var2.loadId;
-        var14 = var2.paymentMethodType;
-        var13 = var2.deepLinkType;
+    var _closure1_slot2 = var8;
+    var5 = function goToBillingStandalonePageWithHandoff(arg1, arg2, arg3) {
         var2 = arg2;
         var _closure2_slot0 = var2;
         var2 = arg3;
         var _closure2_slot1 = var2;
-        var3 = _closure1_slot4;
-        var2 = var3.BILLING_STANDALONE_CHECKOUT_PAGE;
-        var18 = var3;
-        var11 = var18[var2](var17, var16, var15, var14, var13, var12);
         var2 = global;
         var7 = var2.URL;
         var3 = _closure1_slot1;
@@ -34,11 +24,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = _closure1_slot4;
         var2 = var2.BILLING_LOGIN_HANDOFF;
         var5 = false;
-        var17 = var3.bind(var9)(var2, var5);
+        var13 = var3.bind(var9)(var2, var5);
         var3 = var7.prototype;
         var3 = Object.create(var3, {constructor: {value: var7}});
-        var18 = var3;
-        var2 = new var18[var7](var17, var16);
+        var14 = var3;
+        var2 = new var14[var7](var13, var12);
         var2 = var2 instanceof Object ? var2 : var3;
         var _closure2_slot2 = var2;
         var3 = _closure1_slot0;
@@ -47,14 +37,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var3.bind(var4)(var7);
         var7 = var9.v4;
         var7 = var7.bind(var9)();
-        var12 = var2.searchParams;
-        var10 = var12.append;
+        var11 = var2.searchParams;
+        var10 = var11.append;
         var9 = 'handoff_key';
-        var9 = var10.bind(var12)(var9, var7);
-        var10 = var2.searchParams;
-        var9 = var10.append;
-        var2 = 'redirect_to';
-        var2 = var9.bind(var10)(var2, var11);
+        var9 = var10.bind(var11)(var9, var7);
+        var11 = var2.searchParams;
+        var10 = var11.append;
+        var9 = 'redirect_to';
+        var2 = arg1;
+        var2 = var10.bind(var11)(var9, var2);
         var2 = 3;
         var2 = var8[var2];
         var2 = var3.bind(var4)(var2);
@@ -90,29 +81,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
-    var _closure1_slot5 = var4;
+    var _closure1_slot5 = var5;
+    var4 = function goToStandalonePremiumCheckout(arg1, arg2, arg3) {
+        var1 = arg1;
+        var13 = var1.planId;
+        var12 = var1.isGift;
+        var11 = var1.loadId;
+        var10 = var1.paymentMethodType;
+        var9 = var1.deepLinkType;
+        var5 = _closure1_slot5;
+        var2 = _closure1_slot4;
+        var1 = var2.BILLING_STANDALONE_CHECKOUT_PAGE;
+        var14 = var2;
+        var4 = var14[var1](var13, var12, var11, var10, var9, var8);
+        var3 = undefined;
+        var2 = arg2;
+        var1 = arg3;
+        var1 = var5.bind(var3)(var4, var2, var1);
+        return var1;
+    };
+    var _closure1_slot6 = var4;
     var1 = global;
-    var9 = var1.Object;
-    var8 = var9.defineProperty;
-    var5 = {};
+    var10 = var1.Object;
+    var9 = var10.defineProperty;
+    var6 = {};
     var1 = true;
-    var5['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var8.bind(var9)(var3, var1, var5);
+    var1 = var9.bind(var10)(var3, var1, var6);
     var1 = 0;
-    var5 = var7[var1];
+    var6 = var8[var1];
     var1 = undefined;
-    var5 = var6.bind(var1)(var5);
-    var8 = var5.Endpoints;
-    var _closure1_slot3 = var8;
-    var5 = var5.Routes;
-    var _closure1_slot4 = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/payments/utils/goToStandaloneCheckout.tsx';
-    var5 = var6.bind(var7)(var5);
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.Endpoints;
+    var _closure1_slot3 = var9;
+    var6 = var6.Routes;
+    var _closure1_slot4 = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/payments/utils/BillingStandaloneUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['goToBillingStandalonePageWithHandoff'] = var5;
     var5 = function(arg1) {
         var1 = arg1;
         var12 = var1.planId;
@@ -126,10 +137,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var13[var1](var12, var11, var10, var9, var8, var7);
         return var1;
     };
-    var3['generateBillingStandaloneCheckoutUrl'] = var5;
-    var3['goToStandaloneCheckout'] = var4;
-    var2 = function goToStandaloneCheckoutWeb(arg1, arg2) {
-        var5 = _closure1_slot5;
+    var3['generateBillingStandalonePremiumCheckoutUrl'] = var5;
+    var3['goToStandalonePremiumCheckout'] = var4;
+    var2 = function goToStandalonePremiumCheckoutWeb(arg1, arg2) {
+        var5 = _closure1_slot6;
         var4 = undefined;
         var3 = arg1;
         var2 = function(arg1, arg2) {
@@ -153,6 +164,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var5.bind(var4)(var3, var2, var1);
         return var1;
     };
-    var3['goToStandaloneCheckoutWeb'] = var2;
+    var3['goToStandalonePremiumCheckoutWeb'] = var2;
     return var1;
 })();

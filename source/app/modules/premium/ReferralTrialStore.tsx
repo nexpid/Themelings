@@ -767,19 +767,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.bind(var10)(var8);
             var9 = var8.enabled;
             var8 = true;
-            if(!(var8 !== var9)) { _fun0010_ip = 106; continue _fun0010 }
- 92:
-            var8 = null;
-            var8 = var8 == var4;
-            if(!var8) { _fun0010_ip = 104; continue _fun0010 }
- 101:
-            var8 = var6;
- 104:
-            _fun0010_ip = 112; continue _fun0010;
- 106:
+            var8 = var8 === var9;
+            if(var8) { _fun0010_ip = 110; continue _fun0010 }
+ 95:
             var9 = null;
-            var8 = var9 == var4;
- 112:
+            var9 = var9 == var4;
+            if(!var9) { _fun0010_ip = 107; continue _fun0010 }
+ 104:
+            var9 = var6;
+ 107:
+            var8 = var9;
+ 110:
             _closure1_slot22 = var8;
             _closure1_slot23 = var6;
             var6 = false;

@@ -1960,22 +1960,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0023: for(var _fun0023_ip = 0; ; ) switch(_fun0023_ip) {
  0:
             var1 = arg1;
-            var8 = var1.query;
-            var5 = var1.filter;
+            var9 = var1.query;
+            var6 = var1.filter;
             var4 = var1.boosters;
-            var6 = var1.limit;
+            var7 = var1.limit;
             var3 = undefined;
-            if(!(var6 === var3)) { _fun0023_ip = 33; continue _fun0023 }
+            if(!(var7 === var3)) { _fun0023_ip = 33; continue _fun0023 }
  30:
-            var6 = 10;
+            var7 = 10;
  33:
-            var7 = var1.users;
+            var8 = var1.users;
+            var5 = var1.allowSnowflake;
             var2 = _closure1_slot65;
             var1 = {};
-            var1['query'] = var8;
-            var1['members'] = var7;
-            var1['limit'] = var6;
-            var1['filter'] = var5;
+            var1['query'] = var9;
+            var1['members'] = var8;
+            var1['limit'] = var7;
+            var1['filter'] = var6;
+            var1['allowSnowflake'] = var5;
             var1['boosters'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
@@ -2696,65 +2698,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
  0:
             var1 = arg1;
-            var4 = var1.query;
+            var16 = var1.query;
             var2 = var1.limit;
             var6 = undefined;
             if(!(var2 === var6)) { _fun0028_ip = 22; continue _fun0028 }
  19:
             var2 = 10;
  22:
-            var14 = var1.fuzzy;
-            if(!(var14 === var6)) { _fun0028_ip = 34; continue _fun0028 }
+            var15 = var1.fuzzy;
+            if(!(var15 === var6)) { _fun0028_ip = 34; continue _fun0028 }
  32:
-            var14 = true;
+            var15 = true;
  34:
+            var14 = var1.allowSnowflake;
             var13 = var1.filter;
-            if(!(var13 === var6)) { _fun0028_ip = 50; continue _fun0028 }
- 43:
+            if(!(var13 === var6)) { _fun0028_ip = 56; continue _fun0028 }
+ 49:
             var13 = _closure1_slot51;
- 50:
+ 56:
             var12 = var1.boosters;
-            if(!(var12 === var6)) { _fun0028_ip = 62; continue _fun0028 }
- 60:
+            if(!(var12 === var6)) { _fun0028_ip = 68; continue _fun0028 }
+ 66:
             var12 = {};
- 62:
+ 68:
             var1 = '';
-            if(!(var1 !== var4)) { _fun0028_ip = 80; continue _fun0028 }
- 70:
-            var3 = var4.toLocaleLowerCase;
-            var1 = var3.bind(var4)();
- 80:
+            if(!(var1 !== var16)) { _fun0028_ip = 86; continue _fun0028 }
+ 76:
+            var3 = var16.toLocaleLowerCase;
+            var1 = var3.bind(var16)();
+ 86:
             var11 = {};
             var7 = global;
-            var16 = var7.RegExp;
+            var18 = var7.RegExp;
             var5 = _closure1_slot1;
             var9 = _closure1_slot3;
             var4 = 35;
             var8 = var9[var4];
             var10 = var5.bind(var6)(var8);
             var8 = var10.escape;
-            var15 = var8.bind(var10)(var1);
+            var17 = var8.bind(var10)(var1);
             var8 = var7.HermesInternal;
             var10 = var8.concat;
             var8 = '^';
-            var23 = var10.bind(var8)(var15);
-            var8 = var16.prototype;
-            var15 = Object.create(var8, {constructor: {value: var16}});
+            var25 = var10.bind(var8)(var17);
+            var8 = var18.prototype;
+            var17 = Object.create(var8, {constructor: {value: var18}});
             var8 = 'i';
-            var24 = var15;
-            var22 = var8;
-            var10 = new var24[var16](var23, var22, var21);
-            var10 = var10 instanceof Object ? var10 : var15;
+            var26 = var17;
+            var24 = var8;
+            var10 = new var26[var18](var25, var24, var23);
+            var10 = var10 instanceof Object ? var10 : var17;
             var11['exactQuery'] = var10;
             var7 = var7.RegExp;
             var4 = var9[var4];
             var5 = var5.bind(var6)(var4);
             var4 = var5.escape;
-            var23 = var4.bind(var5)(var1);
+            var25 = var4.bind(var5)(var1);
             var5 = var7.prototype;
             var5 = Object.create(var5, {constructor: {value: var7}});
-            var24 = var5;
-            var4 = new var24[var7](var23, var22, var21);
+            var26 = var5;
+            var4 = new var26[var7](var25, var24, var23);
             var4 = var4 instanceof Object ? var4 : var5;
             var11['containQuery'] = var4;
             var11['queryLower'] = var1;
@@ -2770,44 +2773,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var5;
             var7 = undefined;
             var5 = undefined;
-            if(var4) { _fun0028_ip = 426; continue _fun0028 }
- 283:
-            var18 = var8.value;
-            var4 = var13.bind(var6)(var18);
-            if(!var4) { _fun0028_ip = 408; continue _fun0028 }
- 296:
-            var15 = var18.name;
-            var4 = var15.toLocaleLowerCase;
-            var15 = var4.bind(var15)();
-            var4 = _closure1_slot63;
-            var4 = var4.bind(var6)(var15, var11, var14);
-            var7 = var15;
-            var5 = var4;
-            if(!(var4 > var9)) { _fun0028_ip = 408; continue _fun0028 }
+            if(var4) { _fun0028_ip = 453; continue _fun0028 }
+ 289:
+            var20 = var8.value;
+            var4 = var13.bind(var6)(var20);
+            if(!var4) { _fun0028_ip = 435; continue _fun0028 }
+ 305:
+            var17 = var20.name;
+            var4 = var17.toLocaleLowerCase;
+            var17 = var4.bind(var17)();
+            if(!var14) { _fun0028_ip = 332; continue _fun0028 }
+ 323:
+            var4 = var20.id;
+            if(!(var16 !== var4)) { _fun0028_ip = 345; continue _fun0028 }
  332:
-            var17 = var1.push;
-            var16 = {};
-            var19 = _closure1_slot45;
-            var19 = var19.GUILD;
-            var16['type'] = var19;
-            var16['record'] = var18;
-            var20 = _closure1_slot62;
-            var19 = var18.id;
-            var19 = var12[var19];
-            var19 = var20.bind(var6)(var4, var19);
-            var16['score'] = var19;
-            var18 = var18.name;
-            var16['comparator'] = var18;
-            var16['sortable'] = var15;
-            var16 = var17.bind(var1)(var16);
-            var7 = var15;
+            var4 = _closure1_slot63;
+            var4 = var4.bind(var6)(var17, var11, var15);
+            _fun0028_ip = 349; continue _fun0028;
+ 345:
+            var4 = _closure1_slot50;
+ 349:
+            var7 = var17;
             var5 = var4;
- 408:
-            var15 = var10.bind(var6)();
-            var4 = var15.done;
-            var8 = var15;
-            if(!var4) { _fun0028_ip = 283; continue _fun0028 }
- 426:
+            if(!(var4 > var9)) { _fun0028_ip = 435; continue _fun0028 }
+ 359:
+            var19 = var1.push;
+            var18 = {};
+            var21 = _closure1_slot45;
+            var21 = var21.GUILD;
+            var18['type'] = var21;
+            var18['record'] = var20;
+            var22 = _closure1_slot62;
+            var21 = var20.id;
+            var21 = var12[var21];
+            var21 = var22.bind(var6)(var4, var21);
+            var18['score'] = var21;
+            var20 = var20.name;
+            var18['comparator'] = var20;
+            var18['sortable'] = var17;
+            var18 = var19.bind(var1)(var18);
+            var7 = var17;
+            var5 = var4;
+ 435:
+            var17 = var10.bind(var6)();
+            var4 = var17.done;
+            var8 = var17;
+            if(!var4) { _fun0028_ip = 289; continue _fun0028 }
+ 453:
             var4 = var1.sort;
             var5 = _closure1_slot1;
             var7 = _closure1_slot3;
@@ -2816,10 +2828,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var6)(var3);
             var3 = var4.bind(var1)(var3);
             var3 = var1.length;
-            if(!(var3 > var2)) { _fun0028_ip = 472; continue _fun0028 }
- 466:
+            if(!(var3 > var2)) { _fun0028_ip = 499; continue _fun0028 }
+ 493:
             var1['length'] = var2;
- 472:
+ 499:
             return var1;
         }
     };

@@ -1578,14 +1578,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['BOGO_2025_ANNOUNCEMENT_MODAL'] = var2;
     var1 = 'BOGO_2025_ANNOUNCEMENT_MODAL';
     var4[var2] = var1;
-    var2 = 561;
-    var4['BOOSTER_ENHANCED_ROLE_COLORS_COACHMARK'] = var2;
-    var1 = 'BOOSTER_ENHANCED_ROLE_COLORS_COACHMARK';
-    var4[var2] = var1;
-    var2 = 562;
-    var4['BOOSTER_ENHANCED_ROLE_COLORS_ADMIN_UPSELL'] = var2;
-    var1 = 'BOOSTER_ENHANCED_ROLE_COLORS_ADMIN_UPSELL';
-    var4[var2] = var1;
     var2 = 563;
     var4['NITRO_PRIVATE_BROWSING_SURVEY'] = var2;
     var1 = 'NITRO_PRIVATE_BROWSING_SURVEY';

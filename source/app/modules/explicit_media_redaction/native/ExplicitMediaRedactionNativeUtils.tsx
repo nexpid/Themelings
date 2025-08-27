@@ -101,41 +101,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot2;
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
                     var1 = 5;
-                    var3 = var3[var1];
+                    var2 = var2[var1];
                     var1 = undefined;
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.shouldAgeVerifyForExplicitMedia;
-                    var3 = var3.bind(var4)();
-                    if(var3) { _fun0002_ip = 84; continue _fun0002 }
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.shouldAgeVerifyForExplicitMedia;
+                    var2 = var2.bind(var3)();
+                    if(var2) { _fun0002_ip = 84; continue _fun0002 }
  38:
-                    var4 = _closure2_slot0;
-                    var5 = _closure1_slot0;
+                    var3 = _closure2_slot0;
+                    var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var3 = 3;
-                    var3 = var6[var3];
-                    var3 = var5.bind(var1)(var3);
-                    var3 = var3.ExplicitContentRedaction;
-                    var3 = var3.SHOW;
-                    var3 = var4.bind(var1)(var3);
-                    _fun0002_ip = 143; continue _fun0002;
- 84:
-                    var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var3 = 6;
-                    var3 = var6[var3];
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.showAgeVerificationGetStartedModal;
-                    var5 = _closure1_slot0;
-                    var2 = 7;
+                    var2 = 3;
                     var2 = var6[var2];
-                    var2 = var5.bind(var1)(var2);
-                    var2 = var2.AgeVerificationModalEntryPoint;
-                    var2 = var2.OBSCURED_MEDIA;
+                    var2 = var4.bind(var1)(var2);
+                    var2 = var2.ExplicitContentRedaction;
+                    var2 = var2.SHOW;
+                    var2 = var3.bind(var1)(var2);
+                    _fun0002_ip = 150; continue _fun0002;
+ 84:
+                    var3 = _closure1_slot1;
+                    var7 = _closure1_slot2;
+                    var2 = 6;
+                    var2 = var7[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.showAgeVerificationGetStartedModal;
+                    var2 = {};
+                    var6 = _closure1_slot0;
+                    var5 = 7;
+                    var5 = var7[var5];
+                    var5 = var6.bind(var1)(var5);
+                    var5 = var5.AgeVerificationModalEntryPoint;
+                    var5 = var5.OBSCURED_MEDIA;
+                    var2['entryPoint'] = var5;
                     var2 = var3.bind(var4)(var2);
- 143:
+ 150:
                     return var1;
                 }
             };

@@ -482,52 +482,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.channel_id;
                 var1 = var3[var1];
                 var5 = null;
-                if(!(var5 == var1)) { _fun0007_ip = 50; continue _fun0007 }
+                if(!(var5 == var1)) { _fun0007_ip = 54; continue _fun0007 }
  27:
                 var7 = _closure2_slot0;
                 var3 = var4.channel_id;
                 var1 = {'numOfAttachments': 0, 'numOfAttachmentsPendingScan': 0, 'numOfEmbeds': 0, 'numOfEmbedsPendingScan': 0};
                 var7[var3] = var1;
- 50:
+ 54:
                 var3 = _closure2_slot1;
                 var1 = var4.id;
                 var1 = var3[var1];
-                if(!(var5 == var1)) { _fun0007_ip = 105; continue _fun0007 }
- 67:
+                if(!(var5 == var1)) { _fun0007_ip = 109; continue _fun0007 }
+ 71:
                 var7 = _closure2_slot1;
                 var3 = var4.id;
                 var1 = {'channelId': null, 'numOfAttachments': 0, 'numOfGoreAttachments': 0, 'numOfExplicitAttachments': 0, 'numOfEmbeds': 0, 'numOfGoreEmbeds': 0, 'numOfExplicitEmbeds': 0};
                 var8 = var4.channel_id;
                 var1['channelId'] = var8;
                 var7[var3] = var1;
- 105:
+ 109:
                 var3 = var4.attachments;
                 var8 = var5 == var3;
                 var1 = undefined;
                 var7 = undefined;
-                if(var8) { _fun0007_ip = 127; continue _fun0007 }
- 122:
+                if(var8) { _fun0007_ip = 131; continue _fun0007 }
+ 126:
                 var7 = var3.length;
- 127:
+ 131:
                 var8 = var5 != var7;
                 var9 = 0;
-                if(!var8) { _fun0007_ip = 139; continue _fun0007 }
- 136:
+                if(!var8) { _fun0007_ip = 143; continue _fun0007 }
+ 140:
                 var9 = var7;
- 139:
+ 143:
                 var8 = var4.embeds;
                 var10 = var5 == var8;
                 var7 = undefined;
-                if(var10) { _fun0007_ip = 159; continue _fun0007 }
- 154:
+                if(var10) { _fun0007_ip = 163; continue _fun0007 }
+ 158:
                 var7 = var8.length;
- 159:
+ 163:
                 var10 = var5 != var7;
                 var8 = 0;
-                if(!var10) { _fun0007_ip = 171; continue _fun0007 }
- 168:
+                if(!var10) { _fun0007_ip = 175; continue _fun0007 }
+ 172:
                 var8 = var7;
- 171:
+ 175:
                 var10 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var7 = 16;
@@ -566,8 +566,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var4.attachments;
                 var7 = var5 == var10;
                 var8 = undefined;
-                if(var7) { _fun0007_ip = 384; continue _fun0007 }
- 364:
+                if(var7) { _fun0007_ip = 388; continue _fun0007 }
+ 368:
                 var9 = var10.filter;
                 var7 = function(arg1) {
                     var7 = _closure1_slot0;
@@ -596,19 +596,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var7 = var9.bind(var10)(var7);
                 var8 = var7.length;
- 384:
+ 388:
                 var9 = var5 != var8;
                 var7 = 0;
-                if(!var9) { _fun0007_ip = 396; continue _fun0007 }
- 393:
+                if(!var9) { _fun0007_ip = 400; continue _fun0007 }
+ 397:
                 var7 = var8;
- 396:
+ 400:
                 var2['numOfExplicitAttachments'] = var7;
                 var10 = var4.embeds;
                 var7 = var5 == var10;
                 var8 = undefined;
-                if(var7) { _fun0007_ip = 437; continue _fun0007 }
- 417:
+                if(var7) { _fun0007_ip = 441; continue _fun0007 }
+ 421:
                 var9 = var10.filter;
                 var7 = function(arg1) {
                     var7 = _closure1_slot0;
@@ -637,19 +637,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var7 = var9.bind(var10)(var7);
                 var8 = var7.length;
- 437:
+ 441:
                 var9 = var5 != var8;
                 var7 = 0;
-                if(!var9) { _fun0007_ip = 449; continue _fun0007 }
- 446:
+                if(!var9) { _fun0007_ip = 453; continue _fun0007 }
+ 450:
                 var7 = var8;
- 449:
+ 453:
                 var2['numOfExplicitEmbeds'] = var7;
                 var10 = var4.attachments;
                 var7 = var5 == var10;
                 var8 = undefined;
-                if(var7) { _fun0007_ip = 490; continue _fun0007 }
- 470:
+                if(var7) { _fun0007_ip = 494; continue _fun0007 }
+ 474:
                 var9 = var10.filter;
                 var7 = function(arg1) {
                     var7 = _closure1_slot0;
@@ -678,19 +678,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var7 = var9.bind(var10)(var7);
                 var8 = var7.length;
- 490:
+ 494:
                 var9 = var5 != var8;
                 var7 = 0;
-                if(!var9) { _fun0007_ip = 502; continue _fun0007 }
- 499:
+                if(!var9) { _fun0007_ip = 506; continue _fun0007 }
+ 503:
                 var7 = var8;
- 502:
+ 506:
                 var2['numOfGoreAttachments'] = var7;
                 var8 = var4.embeds;
                 var7 = var5 == var8;
                 var4 = undefined;
-                if(var7) { _fun0007_ip = 543; continue _fun0007 }
- 523:
+                if(var7) { _fun0007_ip = 547; continue _fun0007 }
+ 527:
                 var7 = var8.filter;
                 var6 = function(arg1) {
                     var7 = _closure1_slot0;
@@ -719,13 +719,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var6 = var7.bind(var8)(var6);
                 var4 = var6.length;
- 543:
+ 547:
                 var5 = var5 != var4;
                 var3 = 0;
-                if(!var5) { _fun0007_ip = 555; continue _fun0007 }
- 552:
+                if(!var5) { _fun0007_ip = 559; continue _fun0007 }
+ 556:
                 var3 = var4;
- 555:
+ 559:
                 var2['numOfGoreEmbeds'] = var3;
                 return var1;
             }

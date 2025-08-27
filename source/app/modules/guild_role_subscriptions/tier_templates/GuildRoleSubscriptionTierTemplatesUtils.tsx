@@ -831,7 +831,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  41:
             var4 = var5.usedTemplate;
  47:
-            if(!(var7 != var4)) { _fun0017_ip = 659; continue _fun0017 }
+            if(!(var7 != var4)) { _fun0017_ip = 663; continue _fun0017 }
  54:
             var3 = _closure1_slot7;
             var2 = var3.getTemplateWithCategory;
@@ -1008,7 +1008,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  647:
             var1 = {'templateCategory': null, 'hasChangeFromTemplate': null};
             return var1;
- 659:
+ 663:
             var1 = {'templateCategory': null, 'hasChangeFromTemplate': null};
             return var1;
         }

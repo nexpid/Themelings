@@ -315,13 +315,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var10.bind(var11)(var6, var2);
             var2 = 39;
             var2 = var4[var2];
-            var4 = var3.bind(var5)(var2);
-            var3 = var4.useSubscribeGuildMembers;
-            var2 = {};
-            var6 = new Array(1);
-            var6[0] = var9;
-            var2[var8] = var6;
-            var2 = var3.bind(var4)(var2);
+            var6 = var3.bind(var5)(var2);
+            var4 = var6.useSubscribeGuildMembers;
+            var3 = {};
+            var2 = new Array(1);
+            var2[0] = var9;
+            var3[var8] = var2;
+            var2 = 'GuildSettingsModalMemberEdit';
+            var2 = var4.bind(var6)(var3, var2);
             var4 = _closure1_slot9;
             var3 = var4.useCallback;
             var2 = new Array(1);
@@ -337,16 +338,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var2 = var3 != var16;
             var1 = null;
-            if(!var2) { _fun0003_ip = 600; continue _fun0003 }
- 394:
+            if(!var2) { _fun0003_ip = 607; continue _fun0003 }
+ 401:
             var2 = var3 != var18;
             var1 = null;
-            if(!var2) { _fun0003_ip = 600; continue _fun0003 }
- 406:
+            if(!var2) { _fun0003_ip = 607; continue _fun0003 }
+ 413:
             var2 = var3 != var15;
             var1 = null;
-            if(!var2) { _fun0003_ip = 600; continue _fun0003 }
- 418:
+            if(!var2) { _fun0003_ip = 607; continue _fun0003 }
+ 425:
             var4 = _closure1_slot24;
             var8 = _closure1_slot0;
             var10 = _closure1_slot3;
@@ -390,7 +391,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 600:
+ 607:
             return var1;
         }
     };

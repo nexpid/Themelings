@@ -129,17 +129,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var1 = arg1;
+            var1 = var1.entryPoint;
             var _closure2_slot0 = var1;
-            var5 = _closure1_slot0;
-            var4 = _closure1_slot2;
-            var1 = 7;
-            var4 = var4[var1];
             var1 = undefined;
+            var _closure2_slot1 = var1;
+            var5 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var4 = 7;
+            var4 = var6[var4];
             var5 = var5.bind(var1)(var4);
             var4 = var5.isAgeVerified;
             var4 = var4.bind(var5)();
-            if(!var4) { _fun0003_ip = 84; continue _fun0003 }
- 47:
+            if(!var4) { _fun0003_ip = 94; continue _fun0003 }
+ 57:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var5 = 8;
@@ -148,8 +150,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.isEligibleForSensitiveContentDefaults;
             var5 = 'age_verification_utils';
             var4 = var6.bind(var7)(var5);
- 84:
-            var _closure2_slot1 = var4;
+ 94:
+            _closure2_slot1 = var4;
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var4 = 4;

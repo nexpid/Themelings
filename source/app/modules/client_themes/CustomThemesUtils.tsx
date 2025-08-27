@@ -426,9 +426,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['useIsResetButtonDisabled'] = var4;
-    var2 = function useShouldShowCustomThemesMarketing() {
+    var2 = function useShouldShowCustomThemesMarketing(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
+            var5 = arg1;
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;
             var1 = 11;
@@ -438,7 +439,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1.CustomThemesNitroHomeTileExperiment;
             var2 = var7.useExperiment;
             var1 = {};
-            var5 = 'CustomThemesUtils';
             var1['location'] = var5;
             var1 = var2.bind(var7)(var1);
             var1 = var1.enabled;
@@ -451,10 +451,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['location'] = var5;
             var2 = var3.bind(var4)(var2);
             var2 = var2.v2EditorEnabled;
-            if(!var1) { _fun0008_ip = 106; continue _fun0008 }
- 103:
+            if(!var1) { _fun0008_ip = 103; continue _fun0008 }
+ 100:
             var1 = var2;
- 106:
+ 103:
             return var1;
         }
     };

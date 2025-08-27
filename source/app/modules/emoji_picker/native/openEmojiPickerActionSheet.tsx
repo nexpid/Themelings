@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var4 = 'EmojiPickerActionSheet';
     var3['EMOJI_PICKER_ACTION_SHEET_KEY'] = var4;
-    var2 = function openEmojiPickerActionSheet(arg1) {
+    var2 = function openEmojiPickerActionSheet(arg1, arg2) {
         var4 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 1;
@@ -43,18 +43,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = _closure1_slot1;
         var3 = 2;
         var3 = var2[var3];
-        var6 = var5.bind(var1)(var3);
-        var5 = var6.openLazy;
+        var7 = var5.bind(var1)(var3);
+        var6 = var7.openLazy;
         var3 = 4;
         var3 = var2[var3];
         var4 = var4.bind(var1)(var3);
         var3 = 3;
         var3 = var2[var3];
         var2 = var2.paths;
-        var4 = var4.bind(var1)(var3, var2);
-        var3 = 'EmojiPickerActionSheet';
-        var2 = arg1;
-        var2 = var5.bind(var6)(var4, var3, var2);
+        var11 = var4.bind(var1)(var3, var2);
+        var10 = 'EmojiPickerActionSheet';
+        var9 = arg1;
+        var8 = arg2;
+        var12 = var7;
+        var2 = var12[var6](var11, var10, var9, var8, var7);
         return var1;
     };
     var3['openEmojiPickerActionSheet'] = var2;

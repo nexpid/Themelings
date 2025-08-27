@@ -421,41 +421,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['redeemVirtualCurrencyForSKU'] = var4;
-    var4 = function openEarnedOrbsCoachmark(arg1) {
-        var1 = arg1;
-        var5 = var1.earnedOrbsQuantity;
-        var4 = var1.dedupeKey;
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.dispatch;
-        var1 = {};
-        var6 = 'VIRTUAL_CURRENCY_EARNED_ORBS_COACHMARK_OPEN';
-        var1['type'] = var6;
-        var1['earnedOrbsQuantity'] = var5;
-        var1['dedupeKey'] = var4;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['openEarnedOrbsCoachmark'] = var4;
-    var4 = function closeEarnedOrbsCoachmark() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 3;
-        var2 = var2[var1];
-        var1 = undefined;
-        var3 = var3.bind(var1)(var2);
-        var2 = var3.dispatch;
-        var1 = {};
-        var4 = 'VIRTUAL_CURRENCY_EARNED_ORBS_COACHMARK_CLOSE';
-        var1['type'] = var4;
-        var1 = var2.bind(var3)(var1);
-        return var1;
-    };
-    var3['closeEarnedOrbsCoachmark'] = var4;
     var2 = function setBalancePillOverlay(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;

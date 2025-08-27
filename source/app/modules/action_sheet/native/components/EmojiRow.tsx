@@ -108,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot9;
             var3 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var1 = 15;
+            var1 = 18;
             var1 = var9[var1];
             var1 = var3.bind(var5)(var1);
             var3 = var1.LegacyText;
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot9;
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 14;
+            var2 = 17;
             var2 = var6[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -168,7 +168,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot2 = var13;
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 16;
+            var1 = 19;
             var5 = var6[var1];
             var7 = var3.bind(var4)(var5);
             var5 = var7.useThemeContext;
@@ -194,14 +194,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot3 = var9;
             var6 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var1 = 17;
+            var1 = 20;
             var1 = var10[var1];
             var1 = var6.bind(var4)(var1);
             var1 = var1.ReactionTypes;
             var1 = var1.BURST;
             var7 = var2 === var1;
             _closure2_slot4 = var7;
-            var1 = 18;
+            var1 = 21;
             var3 = var10[var1];
             var3 = var6.bind(var4)(var3);
             var3 = var3.ADD_REACTION_ICONS;
@@ -217,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var5 = var13.emojiWrapper;
             var1['style'] = var5;
-            var5 = 19;
+            var5 = 22;
             var5 = var10[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.PressableOpacity;
@@ -226,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['accessibilityRole'] = var10;
             var14 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var10 = 20;
+            var10 = 23;
             var15 = var17[var10];
             var15 = var14.bind(var4)(var15);
             var16 = var15.intl;
@@ -247,7 +247,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = function onPress() {
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 18;
+                var1 = 21;
                 var1 = var9[var1];
                 var2 = undefined;
                 var6 = var8.bind(var2)(var1);
@@ -286,12 +286,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  438:
             var9 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var8 = 21;
+            var8 = 24;
             var8 = var15[var8];
             var9 = var9.bind(var4)(var8);
             var8 = {};
             var14 = _closure1_slot0;
-            var13 = 22;
+            var13 = 25;
             var13 = var15[var13];
             var13 = var14.bind(var4)(var13);
             var13 = var13.DismissibleContent;
@@ -311,7 +311,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var _closure3_slot0 = var1;
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 25;
                     var1 = var5[var1];
                     var5 = undefined;
                     var1 = var6.bind(var5)(var1);
@@ -342,7 +342,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure1_slot9;
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 23;
+                    var2 = 26;
                     var2 = var6[var2];
                     var3 = var3.bind(var5)(var2);
                     var2 = {};
@@ -377,6 +377,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var2;
             var16 = var1.emoji;
             var _closure2_slot1 = var16;
+            var2 = var1.doubleTapReactionEnabled;
+            var _closure2_slot2 = var2;
+            var1 = var1.showToast;
+            var _closure2_slot3 = var1;
             var1 = _closure1_slot11;
             var4 = undefined;
             var7 = var1.bind(var4)();
@@ -387,14 +391,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var5;
             var10 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var5 = 19;
+            var5 = 22;
             var5 = var12[var5];
             var5 = var10.bind(var4)(var5);
             var6 = var5.PressableOpacity;
             var5 = {};
             var9 = 'button';
             var5['accessibilityRole'] = var9;
-            var9 = 20;
+            var9 = 23;
             var11 = var12[var9];
             var11 = var10.bind(var4)(var11);
             var13 = var11.intl;
@@ -407,10 +411,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = null;
             var17 = var12 == var16;
             var14 = undefined;
-            if(var17) { _fun0004_ip = 155; continue _fun0004 }
- 150:
+            if(var17) { _fun0004_ip = 175; continue _fun0004 }
+ 170:
             var14 = var16.name;
- 155:
+ 175:
             var9['emojiName'] = var14;
             var9 = var11.bind(var13)(var10, var9);
             var5['accessibilityLabel'] = var9;
@@ -419,54 +423,113 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = function onPress() {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                    var5 = _closure2_slot0;
-                    var11 = _closure2_slot1;
-                    var4 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var1 = 8;
-                    var3 = var3[var1];
+                    var6 = _closure2_slot0;
+                    var5 = _closure2_slot1;
+                    var3 = {};
+                    var2 = _closure2_slot2;
+                    var3['showDoubleTapNotification'] = var2;
+                    var1 = _closure2_slot3;
+                    var3['showToast'] = var1;
+                    var8 = _closure1_slot1;
+                    var1 = _closure1_slot2;
+                    var4 = 8;
+                    var7 = var1[var4];
                     var1 = undefined;
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.hideActionSheet;
-                    var3 = var3.bind(var4)();
-                    var3 = null;
-                    if(!(var3 != var11)) { _fun0005_ip = 209; continue _fun0005 }
- 55:
-                    var10 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var3 = 9;
-                    var3 = var4[var3];
-                    var7 = var10.bind(var1)(var3);
-                    var6 = var7.triggerHapticFeedback;
+                    var8 = var8.bind(var1)(var7);
+                    var7 = var8.hideActionSheet;
+                    var7 = var7.bind(var8)();
+                    var7 = null;
+                    if(!(var7 != var5)) { _fun0005_ip = 428; continue _fun0005 }
+ 75:
+                    var15 = _closure1_slot0;
+                    var10 = _closure1_slot2;
+                    var8 = 9;
+                    var8 = var10[var8];
+                    var12 = var15.bind(var1)(var8);
+                    var11 = var12.triggerHapticFeedback;
+                    var9 = _closure1_slot1;
+                    var8 = 10;
+                    var8 = var10[var8];
+                    var8 = var9.bind(var1)(var8);
+                    var8 = var8.IMPACT_LIGHT;
+                    var8 = var11.bind(var12)(var8);
+                    var8 = 11;
+                    var8 = var10[var8];
+                    var14 = var15.bind(var1)(var8);
+                    var13 = var14.addReaction;
+                    var12 = var6.channel_id;
+                    var11 = var6.id;
+                    var8 = 12;
+                    var8 = var10[var8];
+                    var15 = var15.bind(var1)(var8);
+                    var8 = var15.toReactionEmoji;
+                    var8 = var8.bind(var15)(var5);
+                    var8 = var13.bind(var14)(var12, var11, var8);
+                    var8 = 13;
+                    var8 = var10[var8];
+                    var10 = var9.bind(var1)(var8);
+                    var9 = var10.focusMessage;
+                    var8 = {};
+                    var11 = var6.channel_id;
+                    var8['channelId'] = var11;
+                    var11 = var6.id;
+                    var8['messageId'] = var11;
+                    var8 = var9.bind(var10)(var8);
+                    if(!(var7 == var3)) { _fun0005_ip = 235; continue _fun0005 }
+ 233:
+                    var3 = {};
+ 235:
+                    var8 = var3.showDoubleTapNotification;
+                    var7 = var1 !== var8;
+                    if(!var7) { _fun0005_ip = 251; continue _fun0005 }
+ 248:
+                    var7 = var8;
+ 251:
+                    var3 = var3.showToast;
+                    if(!var7) { _fun0005_ip = 428; continue _fun0005 }
+ 263:
+                    if(!(var1 !== var3)) { _fun0005_ip = 270; continue _fun0005 }
+ 267:
+                    if(var3) { _fun0005_ip = 349; continue _fun0005 }
+ 270:
+                    var7 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var4 = var3[var4];
+                    var9 = var7.bind(var1)(var4);
+                    var8 = var9.openLazy;
+                    var7 = _closure1_slot0;
+                    var4 = 16;
+                    var4 = var3[var4];
+                    var7 = var7.bind(var1)(var4);
+                    var4 = 15;
+                    var4 = var3[var4];
+                    var3 = var3.paths;
+                    var7 = var7.bind(var1)(var4, var3);
+                    var4 = {};
+                    var4['emoji'] = var5;
+                    var3 = 'DoubleTapToReactActionSheet';
+                    var3 = var8.bind(var9)(var7, var3, var4);
+                    _fun0005_ip = 428; continue _fun0005;
+ 349:
                     var3 = _closure1_slot1;
-                    var2 = 10;
-                    var2 = var4[var2];
-                    var2 = var3.bind(var1)(var2);
-                    var2 = var2.IMPACT_LIGHT;
-                    var2 = var6.bind(var7)(var2);
-                    var2 = 11;
-                    var2 = var4[var2];
-                    var9 = var10.bind(var1)(var2);
-                    var8 = var9.addReaction;
-                    var7 = var5.channel_id;
-                    var6 = var5.id;
-                    var2 = 12;
-                    var2 = var4[var2];
-                    var10 = var10.bind(var1)(var2);
-                    var2 = var10.toReactionEmoji;
-                    var2 = var2.bind(var10)(var11);
-                    var2 = var8.bind(var9)(var7, var6, var2);
-                    var2 = 13;
+                    var4 = _closure1_slot2;
+                    var2 = 14;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
-                    var3 = var4.focusMessage;
+                    var3 = var4.enqueueNotification;
                     var2 = {};
-                    var6 = var5.channel_id;
-                    var2['channelId'] = var6;
-                    var5 = var5.id;
-                    var2['messageId'] = var5;
+                    var7 = 'REACTION_USER_EDU';
+                    var2['type'] = var7;
+                    var8 = var6.id;
+                    var6 = global;
+                    var6 = var6.HermesInternal;
+                    var7 = var6.concat;
+                    var6 = 'reaction_edu_';
+                    var6 = var7.bind(var6)(var8);
+                    var2['key'] = var6;
+                    var2['emoji'] = var5;
                     var2 = var3.bind(var4)(var2);
- 209:
+ 428:
                     return var1;
                 }
             };
@@ -475,28 +538,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var7;
             var8 = var12 != var16;
             var7 = null;
-            if(!var8) { _fun0004_ip = 328; continue _fun0004 }
- 208:
+            if(!var8) { _fun0004_ip = 348; continue _fun0004 }
+ 228:
             var10 = _closure1_slot9;
             var9 = _closure1_slot12;
             var8 = {};
             var11 = var16.id;
             var13 = var12 == var11;
             var11 = undefined;
-            if(!var13) { _fun0004_ip = 237; continue _fun0004 }
- 232:
+            if(!var13) { _fun0004_ip = 257; continue _fun0004 }
+ 252:
             var11 = var16.surrogates;
- 237:
+ 257:
             var8['surrogates'] = var11;
             var11 = var16.id;
-            if(!(var12 == var11)) { _fun0004_ip = 257; continue _fun0004 }
- 250:
+            if(!(var12 == var11)) { _fun0004_ip = 277; continue _fun0004 }
+ 270:
             var11 = var16.url;
-            _fun0004_ip = 318; continue _fun0004;
- 257:
+            _fun0004_ip = 338; continue _fun0004;
+ 277:
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var12 = 24;
+            var12 = 27;
             var12 = var14[var12];
             var14 = var13.bind(var4)(var12);
             var13 = var14.getEmojiURL;
@@ -508,10 +571,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = _closure1_slot7;
             var12['size'] = var15;
             var11 = var13.bind(var14)(var12);
- 318:
+ 338:
             var8['url'] = var11;
             var7 = var10.bind(var4)(var9, var8);
- 328:
+ 348:
             var5['children'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;
@@ -520,7 +583,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot14 = var4;
-    var4 = 31;
+    var4 = 35;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -540,43 +603,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.bind(var4)();
             var1 = var11.getGuildId;
             var7 = var1.bind(var11)();
-            var15 = _closure1_slot0;
+            var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var1 = 26;
+            var1 = 29;
             var2 = var14[var1];
-            var3 = var15.bind(var4)(var2);
+            var3 = var13.bind(var4)(var2);
             var2 = var3.useFrequentlyUsedEmojis;
             var3 = var2.bind(var3)(var7);
             var1 = var14[var1];
-            var2 = var15.bind(var4)(var1);
+            var2 = var13.bind(var4)(var1);
             var1 = var2.useFrequentlyUsedReactionEmojis;
             var1 = var1.bind(var2)(var7);
-            var2 = 27;
+            var2 = 30;
             var2 = var14[var2];
-            var13 = var15.bind(var4)(var2);
-            var12 = var13.useCanSplitFrecencyList;
-            var7 = 'EmojiRow';
-            var17 = true;
+            var12 = var13.bind(var4)(var2);
+            var7 = var12.useCanSplitFrecencyList;
+            var17 = 'EmojiRow';
+            var18 = true;
             var2 = {'location': 'EmojiRow', 'autoTrackExposure': true};
-            var2 = var12.bind(var13)(var2);
+            var2 = var7.bind(var12)(var2);
             var12 = var2.canSplitFrecencyList;
-            var13 = 28;
-            var2 = var14[var13];
-            var18 = var15.bind(var4)(var2);
-            var16 = var18.useCanUseReactionFrecency;
+            var7 = 31;
+            var2 = var14[var7];
+            var16 = var13.bind(var4)(var2);
+            var15 = var16.useCanUseReactionFrecency;
             var2 = {'location': 'EmojiRow', 'autoTrackExposure': true};
-            var2 = var16.bind(var18)(var2);
-            var13 = var14[var13];
-            var13 = var15.bind(var4)(var13);
-            var16 = var13.RetriggerReactionFrecencyAlgorithmsExperiment;
+            var2 = var15.bind(var16)(var2);
+            var7 = var14[var7];
+            var7 = var13.bind(var4)(var7);
+            var16 = var7.RetriggerReactionFrecencyAlgorithmsExperiment;
             var15 = var16.useExperiment;
             var13 = {};
-            var13['location'] = var7;
+            var13['location'] = var17;
             var7 = {};
-            var7['autoTrackExposure'] = var17;
+            var7['autoTrackExposure'] = var18;
             var7 = var15.bind(var16)(var13, var7);
             var13 = _closure1_slot1;
-            var7 = 29;
+            var7 = 32;
+            var7 = var14[var7];
+            var16 = var13.bind(var4)(var7);
+            var15 = var16.useExperiment;
+            var7 = {};
+            var7['location'] = var17;
+            var7 = var15.bind(var16)(var7);
+            var15 = var7.enabled;
+            var _closure2_slot2 = var15;
+            var7 = var7.showToast;
+            var _closure2_slot3 = var7;
+            var7 = 33;
             var7 = var14[var7];
             var7 = var13.bind(var4)(var7);
             var7 = var7.bind(var4)();
@@ -591,17 +665,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 60;
             var7 = var15 / var7;
             var7 = var13.bind(var14)(var7);
-            if(var12) { _fun0006_ip = 306; continue _fun0006 }
- 303:
-            if(!var2) { _fun0006_ip = 309; continue _fun0006 }
- 306:
+            if(var12) { _fun0006_ip = 354; continue _fun0006 }
+ 351:
+            if(!var2) { _fun0006_ip = 357; continue _fun0006 }
+ 354:
             var3 = var1;
- 309:
+ 357:
             var2 = var3.filter;
             var1 = function(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 30;
+                var1 = 34;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -621,13 +695,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var2.bind(var3)(var1);
             var1 = var12.length;
             var2 = null;
-            if(!(var1 < var7)) { _fun0006_ip = 356; continue _fun0006 }
- 337:
+            if(!(var1 < var7)) { _fun0006_ip = 404; continue _fun0006 }
+ 385:
             var1 = var12.push;
             var1 = var1.bind(var12)(var2);
             var1 = var12.length;
-            if(var1 < var7) { _fun0006_ip = 337; continue _fun0006 }
- 356:
+            if(var1 < var7) { _fun0006_ip = 385; continue _fun0006 }
+ 404:
             var3 = _closure1_slot10;
             var2 = _closure1_slot3;
             var1 = {};
@@ -650,30 +724,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure1_slot9;
                     var3 = _closure1_slot14;
                     var2 = {};
-                    var7 = _closure2_slot0;
-                    var2['message'] = var7;
+                    var8 = _closure2_slot0;
+                    var2['message'] = var8;
                     var2['emoji'] = var6;
+                    var8 = _closure2_slot2;
+                    var2['doubleTapReactionEnabled'] = var8;
+                    var7 = _closure2_slot3;
+                    var2['showToast'] = var7;
                     var7 = null;
-                    if(!(var7 != var6)) { _fun0007_ip = 99; continue _fun0007 }
- 41:
+                    if(!(var7 != var6)) { _fun0007_ip = 117; continue _fun0007 }
+ 59:
                     var7 = var6.type;
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var1 = 25;
+                    var1 = 28;
                     var8 = var8[var1];
                     var1 = undefined;
                     var1 = var9.bind(var1)(var8);
                     var1 = var1.EmojiTypes;
                     var1 = var1.UNICODE;
-                    if(!(var7 !== var1)) { _fun0007_ip = 91; continue _fun0007 }
- 84:
+                    if(!(var7 !== var1)) { _fun0007_ip = 109; continue _fun0007 }
+ 102:
                     var1 = var6.id;
-                    _fun0007_ip = 96; continue _fun0007;
- 91:
+                    _fun0007_ip = 114; continue _fun0007;
+ 109:
                     var1 = var6.surrogates;
- 96:
+ 114:
                     var5 = var1;
- 99:
+ 117:
                     var1 = undefined;
                     var1 = var4.bind(var1)(var3, var2, var5);
                     return var1;
@@ -689,7 +767,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['message'] = var10;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var9 = 17;
+            var9 = 20;
             var9 = var11[var9];
             var9 = var10.bind(var4)(var9);
             var9 = var9.ReactionTypes;

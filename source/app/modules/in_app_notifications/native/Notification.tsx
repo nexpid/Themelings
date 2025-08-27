@@ -362,8 +362,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var8.bind(var4)(var16, var12);
             var12 = new Array(2);
             var12[0] = var16;
-            if(!(var15 == var13)) { _fun0002_ip = 499; continue _fun0002 }
- 449:
+            if(!(var15 == var13)) { _fun0002_ip = 495; continue _fun0002 }
+ 445:
             var16 = _closure1_slot7;
             var15 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -373,7 +373,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = {'variant': 'redesign/message-preview/medium', 'color': 'text-secondary', 'lineClamp': 2};
             var14['children'] = var17;
             var13 = var16.bind(var4)(var15, var14);
- 499:
+ 495:
             var12[1] = var13;
             var10['children'] = var12;
             var10 = var8.bind(var4)(var11, var10);

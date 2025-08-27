@@ -469,9 +469,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var1 = arg1;
                     var _closure3_slot0 = var1;
-                    var4 = _closure2_slot0;
-                    var3 = var4.find;
-                    var2 = function(arg1) {
+                    var1 = var1.nativeEvent;
+                    var1 = var1.stickerId;
+                    var2 = null;
+                    if(!(var2 == var1)) { _fun0006_ip = 76; continue _fun0006 }
+ 26:
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var1 = 16;
+                    var4 = var4[var1];
+                    var1 = undefined;
+                    var5 = var5.bind(var1)(var4);
+                    var4 = var5.addBreadcrumb;
+                    var1 = {'message': 'onPressSticker callback received unexpected null stickerId', 'category': 'sticker'};
+                    var1 = var4.bind(var5)(var1);
+ 76:
+                    var5 = _closure2_slot0;
+                    var4 = var5.find;
+                    var3 = function(arg1) {
                         var1 = arg1;
                         var2 = var1.id;
                         var1 = _closure3_slot0;
@@ -480,14 +495,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var2 === var1;
                         return var1;
                     };
-                    var3 = var3.bind(var4)(var2);
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0006_ip = 50; continue _fun0006 }
- 39:
+                    var3 = var4.bind(var5)(var3);
+                    if(!(var2 != var3)) { _fun0006_ip = 115; continue _fun0006 }
+ 104:
                     var2 = _closure2_slot7;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
- 50:
+ 115:
                     var1 = undefined;
                     return var1;
                 }
@@ -498,9 +512,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var1 = arg1;
                     var _closure3_slot0 = var1;
-                    var4 = _closure2_slot0;
-                    var3 = var4.find;
-                    var2 = function(arg1) {
+                    var1 = var1.nativeEvent;
+                    var1 = var1.stickerId;
+                    var2 = null;
+                    if(!(var2 == var1)) { _fun0007_ip = 76; continue _fun0007 }
+ 26:
+                    var5 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var1 = 16;
+                    var4 = var4[var1];
+                    var1 = undefined;
+                    var5 = var5.bind(var1)(var4);
+                    var4 = var5.addBreadcrumb;
+                    var1 = {'message': 'onLongPressSticker callback received unexpected null stickerId', 'category': 'sticker'};
+                    var1 = var4.bind(var5)(var1);
+ 76:
+                    var5 = _closure2_slot0;
+                    var4 = var5.find;
+                    var3 = function(arg1) {
                         var1 = arg1;
                         var2 = var1.id;
                         var1 = _closure3_slot0;
@@ -509,14 +538,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var2 === var1;
                         return var1;
                     };
-                    var3 = var3.bind(var4)(var2);
-                    var2 = null;
-                    if(!(var2 != var3)) { _fun0007_ip = 50; continue _fun0007 }
- 39:
+                    var3 = var4.bind(var5)(var3);
+                    if(!(var2 != var3)) { _fun0007_ip = 115; continue _fun0007 }
+ 104:
                     var2 = _closure2_slot8;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
- 50:
+ 115:
                     var1 = undefined;
                     return var1;
                 }

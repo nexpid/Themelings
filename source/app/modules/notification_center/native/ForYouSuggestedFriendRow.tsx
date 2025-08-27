@@ -443,10 +443,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29 = var30.isAndroid;
             var30 = var29.bind(var30)();
             var29 = 0;
-            if(!var30) { _fun0002_ip = 1004; continue _fun0002 }
- 998:
+            if(!var30) { _fun0002_ip = 1000; continue _fun0002 }
+ 994:
             var29 = -2;
- 1004:
+ 1000:
             var28['marginTop'] = var29;
             var27['style'] = var28;
             var30 = _closure1_slot9;
@@ -464,10 +464,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var35 = var36.isAndroid;
             var35 = var35.bind(var36)();
             var34 = 0;
-            if(!var35) { _fun0002_ip = 1081; continue _fun0002 }
- 1078:
+            if(!var35) { _fun0002_ip = 1077; continue _fun0002 }
+ 1074:
             var34 = 2;
- 1081:
+ 1077:
             var33 = var33 + var34;
             var28['lineHeight'] = var33;
             var21 = var21.messagePreview;
@@ -518,10 +518,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var22.isLayoutCozy;
             var22 = var21.bind(var22)(var6);
             var21 = 'sm';
-            if(!var22) { _fun0002_ip = 1325; continue _fun0002 }
- 1321:
+            if(!var22) { _fun0002_ip = 1321; continue _fun0002 }
+ 1317:
             var21 = 'md';
- 1325:
+ 1321:
             var16['size'] = var21;
             var21 = function onAddSuggestion(arg1) {
                 var4 = _closure1_slot1;

@@ -165,9 +165,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = {'raw': 'PLUM_15', 'opacity': 1};
     var8[var15] = var14;
     var14 = {};
-    var15 = {'color': 'gradient.mid', 'opacity': 0.4, 'lightness': '*0.75'};
+    var15 = {'color': 'gradient.mid', 'opacity': 0.9, 'lightness': '*0.5', 'saturation': '*0.2'};
     var14['light'] = var15;
-    var15 = {'color': 'gradient.mid', 'opacity': 0.3, 'lightness': 0.75, 'saturation': '*1.2'};
+    var15 = {'color': 'gradient.mid', 'opacity': 0.8, 'lightness': '*0.5', 'saturation': '*1.2'};
     var14['dark'] = var15;
     var8[var12] = var14;
     var7['BACKGROUND_ACCENT'] = var8;

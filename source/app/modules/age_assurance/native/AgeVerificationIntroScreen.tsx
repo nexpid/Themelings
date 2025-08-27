@@ -452,34 +452,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 156; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 178; continue _fun0001 }
  10:
-                    var10 = _closure1_slot0;
-                    var11 = _closure1_slot2;
-                    var5 = 21;
-                    var2 = var11[var5];
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var2 = 21;
+                    var5 = var7[var2];
                     var3 = undefined;
-                    var9 = var10.bind(var3)(var2);
-                    var8 = var9.trackAgeVerificationModalClicked;
-                    var7 = _closure2_slot0;
-                    var6 = var11[var5];
-                    var6 = var10.bind(var3)(var6);
-                    var6 = var6.AgeVerificationModalVersion;
-                    var6 = var6.PRIMARY;
-                    var5 = var11[var5];
-                    var5 = var10.bind(var3)(var5);
-                    var5 = var5.AgeVerificationModalCta;
-                    var5 = var5.GET_STARTED;
-                    var5 = var8.bind(var9)(var7, var6, var5);
-                    var2 = _closure2_slot1;
-                    var2 = var2.bind(var3)();
-                    SaveGenerator(address=109);
- 107:
+                    var12 = var6.bind(var3)(var5);
+                    var11 = var12.trackAgeVerificationModalClicked;
+                    var10 = _closure2_slot0;
+                    var8 = var7[var2];
+                    var8 = var6.bind(var3)(var8);
+                    var8 = var8.AgeVerificationModalVersion;
+                    var9 = var8.PRIMARY;
+                    var8 = var7[var2];
+                    var8 = var6.bind(var3)(var8);
+                    var8 = var8.AgeVerificationModalCta;
+                    var8 = var8.GET_STARTED;
+                    var8 = var11.bind(var12)(var10, var9, var8);
+                    var5 = _closure2_slot1;
+                    var2 = var7[var2];
+                    var2 = var6.bind(var3)(var2);
+                    var2 = var2.AgeVerificationModalEntryPoint;
+                    var2 = var2.GET_STARTED_MODAL;
+                    var2 = var5.bind(var3)(var2);
+                    SaveGenerator(address=131);
+ 129:
                     return var2;
- 109:
+ 131:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 153; continue _fun0001 }
- 115:
+                    if(var5) { _fun0001_ip = 175; continue _fun0001 }
+ 137:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var5 = 23;
@@ -489,9 +493,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure1_slot8;
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 153:
+ 175:
                     return var2;
- 156:
+ 178:
                     return var1;
                 }
             };

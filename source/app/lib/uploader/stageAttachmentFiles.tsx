@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var7 = var9.bind(var1)(var7);
                                 var7 = var7.CloudUploadStatus;
                                 var7 = var7.NOT_STARTED;
-                                if(!(var7 !== var8)) { _fun0002_ip = 319; continue _fun0002 }
+                                if(!(var7 !== var8)) { _fun0002_ip = 399; continue _fun0002 }
  72:
                                 var9 = _closure1_slot0;
                                 var7 = _closure1_slot1;
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var7 = var9.bind(var1)(var7);
                                 var7 = var7.CloudUploadStatus;
                                 var7 = var7.COMPLETED;
-                                if(!(var7 !== var8)) { _fun0002_ip = 308; continue _fun0002 }
+                                if(!(var7 !== var8)) { _fun0002_ip = 388; continue _fun0002 }
  108:
                                 var9 = _closure1_slot0;
                                 var7 = _closure1_slot1;
@@ -75,16 +75,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var7 = var9.bind(var1)(var7);
                                 var7 = var7.CloudUploadStatus;
                                 var7 = var7.ERROR;
-                                if(!(var7 !== var8)) { _fun0002_ip = 218; continue _fun0002 }
- 141:
+                                if(!(var7 !== var8)) { _fun0002_ip = 298; continue _fun0002 }
+ 144:
                                 var9 = _closure1_slot0;
                                 var7 = _closure1_slot1;
                                 var7 = var7[var10];
                                 var7 = var9.bind(var1)(var7);
                                 var7 = var7.CloudUploadStatus;
                                 var7 = var7.CANCELED;
-                                if(!(var7 === var8)) { _fun0002_ip = 333; continue _fun0002 }
+                                if(!(var7 !== var8)) { _fun0002_ip = 257; continue _fun0002 }
  177:
+                                var9 = _closure1_slot0;
+                                var7 = _closure1_slot1;
+                                var7 = var7[var10];
+                                var7 = var9.bind(var1)(var7);
+                                var7 = var7.CloudUploadStatus;
+                                var7 = var7.REMOVED_FROM_MSG_DRAFT;
+                                if(!(var7 === var8)) { _fun0002_ip = 413; continue _fun0002 }
+ 213:
+                                var7 = global;
+                                var9 = var7.Error;
+                                var7 = var9.prototype;
+                                var8 = Object.create(var7, {constructor: {value: var9}});
+                                var12 = 'Upload is removed from draft';
+                                var13 = var8;
+                                var7 = new var13[var9](var12, var11);
+                                var7 = var7 instanceof Object ? var7 : var8;
+                                var7 = var6.bind(var1)(var7);
+                                _fun0002_ip = 413; continue _fun0002;
+ 257:
                                 var7 = global;
                                 var9 = var7.Error;
                                 var7 = var9.prototype;
@@ -94,17 +113,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var7 = new var13[var9](var12, var11);
                                 var7 = var7 instanceof Object ? var7 : var8;
                                 var7 = var6.bind(var1)(var7);
-                                _fun0002_ip = 333; continue _fun0002;
- 218:
+                                _fun0002_ip = 413; continue _fun0002;
+ 298:
                                 var7 = _closure4_slot0;
-                                if(!var7) { _fun0002_ip = 251; continue _fun0002 }
- 228:
+                                if(!var7) { _fun0002_ip = 331; continue _fun0002 }
+ 308:
                                 var7 = _closure5_slot0;
                                 var7 = var7.error;
                                 var4 = _closure1_slot3;
                                 var4 = var4.ENTITY_TOO_LARGE;
-                                if(!(var7 === var4)) { _fun0002_ip = 292; continue _fun0002 }
- 251:
+                                if(!(var7 === var4)) { _fun0002_ip = 372; continue _fun0002 }
+ 331:
                                 var4 = global;
                                 var8 = var4.Error;
                                 var4 = var8.prototype;
@@ -114,21 +133,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var4 = new var13[var8](var12, var11);
                                 var4 = var4 instanceof Object ? var4 : var7;
                                 var4 = var6.bind(var1)(var4);
-                                _fun0002_ip = 333; continue _fun0002;
- 292:
+                                _fun0002_ip = 413; continue _fun0002;
+ 372:
                                 var6 = _closure5_slot0;
                                 var4 = var6.upload;
                                 var4 = var4.bind(var6)();
-                                _fun0002_ip = 333; continue _fun0002;
- 308:
+                                _fun0002_ip = 413; continue _fun0002;
+ 388:
                                 var4 = 'complete';
                                 var4 = var5.bind(var1)(var4);
-                                _fun0002_ip = 333; continue _fun0002;
- 319:
+                                _fun0002_ip = 413; continue _fun0002;
+ 399:
                                 var5 = _closure5_slot0;
                                 var4 = var5.upload;
                                 var4 = var4.bind(var5)();
- 333:
+ 413:
                                 var5 = _closure5_slot0;
                                 var6 = var5.on;
                                 var4 = 'complete';

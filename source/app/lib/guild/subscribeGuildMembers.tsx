@@ -39,13 +39,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot12 = var2;
+            _closure1_slot13 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot12 = var1;
+    var _closure1_slot13 = var1;
     var1 = ['forwardedRef'];
     var _closure1_slot3 = var1;
     var1 = global;
@@ -91,7 +91,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot11 = var4;
-    var4 = 11;
+    var4 = false;
+    var _closure1_slot12 = var4;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -140,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = _closure1_slot8;
                             var10 = var1.bind(var5)(var2);
                             var2 = _closure1_slot7;
-                            var1 = _closure1_slot12;
+                            var1 = _closure1_slot13;
                             var1 = var1.bind(var5)();
                             if(var1) { _fun0003_ip = 73; continue _fun0003 }
  60:
@@ -375,13 +377,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['default'] = var4;
-    var2 = function useSubscribeGuildMembers(arg1) {
-        var5 = arg1;
-        var _closure2_slot0 = var5;
+    var2 = function useSubscribeGuildMembers(arg1, arg2) {
+        var6 = arg1;
+        var5 = arg2;
+        var _closure2_slot0 = var6;
+        var _closure2_slot1 = var5;
         var4 = _closure1_slot10;
         var3 = var4.useEffect;
-        var2 = new Array(1);
-        var2[0] = var5;
+        var2 = new Array(2);
+        var2[0] = var6;
+        var2[1] = var5;
         var1 = function() {
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -392,17 +397,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.forEach;
             var3 = _closure2_slot0;
             var2 = function(arg1, arg2) {
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var1 = 9;
-                var2 = var2[var1];
-                var1 = undefined;
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.subscribeMembers;
-                var2 = arg2;
-                var1 = arg1;
-                var1 = var3.bind(var4)(var2, var1);
-                return var1;
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+                    var5 = arg1;
+                    var4 = arg2;
+                    var3 = _closure1_slot12;
+                    var2 = !var3;
+                    if(var3) { _fun0006_ip = 31; continue _fun0006 }
+ 19:
+                    var6 = var5.length;
+                    var3 = 50;
+                    var2 = var6 > var3;
+ 31:
+                    if(!var2) { _fun0006_ip = 117; continue _fun0006 }
+ 34:
+                    var2 = true;
+                    _closure1_slot12 = var2;
+                    var6 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var2 = 11;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var7 = var6.bind(var2)(var3);
+                    var6 = var7.captureMessage;
+                    var3 = {};
+                    var2 = {};
+                    var8 = var5.length;
+                    var2['userIdsCount'] = var8;
+                    var2['guildId'] = var4;
+                    var8 = _closure2_slot1;
+                    var2['reason'] = var8;
+                    var3['extra'] = var2;
+                    var2 = 'SubscribeGuildMembers called with more than 50 userIds.';
+                    var2 = var6.bind(var7)(var2, var3);
+ 117:
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 9;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var3 = var3.bind(var1)(var2);
+                    var2 = var3.subscribeMembers;
+                    var2 = var2.bind(var3)(var4, var5);
+                    return var1;
+                }
             };
             var2 = var4.bind(var5)(var3, var2);
             var1 = function() {

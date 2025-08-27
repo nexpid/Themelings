@@ -307,33 +307,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 175; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 208; continue _fun0003 }
  10: // try_start_0
-                    var4 = _closure1_slot0;
-                    var5 = _closure1_slot2;
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
                     var2 = 31;
-                    var2 = var5[var2];
-                    var5 = undefined;
-                    var4 = var4.bind(var5)(var2);
-                    var2 = var4.testAgeVerification;
-                    var2 = var2.bind(var4)();
+                    var2 = var4[var2];
+                    var8 = undefined;
+                    var3 = var3.bind(var8)(var2);
+                    var2 = var3.testAgeVerification;
+                    var2 = var2.bind(var3)();
                     SaveGenerator(address=49);
  47:
                     return var2;
  49:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 115; continue _fun0003 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(var3) { _fun0003_ip = 148; continue _fun0003 }
  55:
                     var4 = _closure1_slot1;
-                    var6 = _closure1_slot2;
+                    var9 = _closure1_slot2;
                     var3 = 33;
-                    var3 = var6[var3];
-                    var5 = var4.bind(var5)(var3);
+                    var3 = var9[var3];
+                    var5 = var4.bind(var8)(var3);
                     var4 = var5.showAgeVerification;
                     var3 = {};
-                    var6 = var2.verification_webview_url;
-                    var3['webviewUrl'] = var6;
-                    var6 = function onComplete() {
+                    var7 = var2.verification_webview_url;
+                    var3['webviewUrl'] = var7;
+                    var7 = function onComplete() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
                         var1 = 32;
@@ -345,13 +345,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var3['onComplete'] = var6;
+                    var3['onComplete'] = var7;
+                    var7 = _closure1_slot0;
+                    var6 = 34;
+                    var6 = var9[var6];
+                    var6 = var7.bind(var8)(var6);
+                    var6 = var6.AgeVerificationModalEntryPoint;
+                    var6 = var6.DEV_TOOLS_QUICK_ACTIONS;
+                    var3['entryPoint'] = var6;
                     var3 = var4.bind(var5)(var3);
- 113: // try_end0
-                    _fun0003_ip = 170; continue _fun0003;
- 115:
+ 146: // try_end0
+                    _fun0003_ip = 203; continue _fun0003;
+ 148:
                     return var2;
- 118: // catch_target0
+ 151: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -362,10 +369,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.open;
                     var2 = {'content': 'Failed to show age verification test modal', 'key': 'age-verification-test-failure'};
                     var2 = var3.bind(var4)(var2);
- 170:
+ 203:
                     var2 = undefined;
                     return var2;
- 175:
+ 208:
                     return var1;
                 }
             };
@@ -401,12 +408,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var2.bind(var4)();
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
-            var2 = 34;
+            var2 = 35;
             var2 = var6[var2];
             var2 = var3.bind(var4)(var2);
             var8 = var2.bind(var4)();
             var5 = _closure1_slot0;
-            var3 = 35;
+            var3 = 36;
             var2 = var6[var3];
             var11 = var5.bind(var4)(var2);
             var10 = var11.useStateFromStoresObject;
@@ -486,7 +493,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10[var13];
             var _closure2_slot4 = var10;
             var18 = var7.useState;
-            var10 = 36;
+            var10 = 37;
             var10 = var6[var10];
             var19 = var5.bind(var4)(var10);
             var10 = var19.isJSITraceEnabled;
@@ -497,7 +504,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot5 = var21;
             var10 = var10[var13];
             var _closure2_slot6 = var10;
-            var10 = 37;
+            var10 = 38;
             var10 = var6[var10];
             var10 = var5.bind(var4)(var10);
             var13 = var10.IgnoreProfileSpeedbumpDisabled;
@@ -510,7 +517,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 36;
+                var1 = 37;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -588,14 +595,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = _closure1_slot20;
             var17 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var7 = 39;
+            var7 = 40;
             var6 = var16[var7];
             var6 = var17.bind(var4)(var6);
             var8 = var6.TableRowGroup;
             var6 = {};
             var9 = 'General';
             var6['title'] = var9;
-            var13 = 40;
+            var13 = 41;
             var9 = var16[var13];
             var9 = var17.bind(var4)(var9);
             var10 = var9.TableSwitchRow;
@@ -606,7 +613,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = function onValueChange() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 41;
+                var1 = 42;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -625,7 +632,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = new Array(9);
             var6[0] = var8;
             var22 = _closure1_slot1;
-            var8 = 42;
+            var8 = 43;
             var9 = var16[var8];
             var11 = var22.bind(var4)(var9);
             var9 = {};
@@ -657,14 +664,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = _closure1_slot20;
             var16 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var23 = 43;
+            var23 = 44;
             var23 = var12[var23];
             var23 = var16.bind(var4)(var23);
             var26 = var23.ThemeLightIcon;
             var23 = {};
             var23 = var22.bind(var4)(var26, var23);
             var17['icon'] = var23;
-            var23 = 44;
+            var23 = 45;
             var23 = var12[var23];
             var26 = var16.bind(var4)(var23);
             var23 = var26.isThemeLight;
@@ -681,7 +688,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = {};
             var23 = 'Reduced Motion';
             var18['label'] = var23;
-            var23 = 45;
+            var23 = 46;
             var23 = var12[var23];
             var23 = var16.bind(var4)(var23);
             var26 = var23.AccessibilityIcon;
@@ -723,7 +730,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot20;
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 40;
+                var1 = 41;
                 var1 = var9[var1];
                 var3 = undefined;
                 var1 = var8.bind(var3)(var1);
@@ -734,7 +741,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
-                        var1 = 46;
+                        var1 = 47;
                         var3 = var3[var1];
                         var1 = undefined;
                         var5 = var4.bind(var1)(var3);
@@ -754,7 +761,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var1['onValueChange'] = var6;
                 var1['label'] = var5;
-                var6 = 47;
+                var6 = 48;
                 var6 = var9[var6];
                 var6 = var8.bind(var3)(var6);
                 var8 = var6.PencilIcon;
@@ -786,7 +793,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var16.bind(var4)(var9);
             var18 = var9.TableRowGroup;
             var9 = {};
-            var17 = 48;
+            var17 = 49;
             var11 = var12[var17];
             var11 = var16.bind(var4)(var11);
             var23 = var11.intl;
@@ -797,7 +804,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.Aojq+P;
             var11 = var20.bind(var23)(var11);
             var9['title'] = var11;
-            var11 = 49;
+            var11 = 50;
             var12 = var12[var11];
             var12 = var16.bind(var4)(var12);
             var20 = var12.TableRow;
@@ -815,14 +822,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = _closure1_slot20;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var25 = 50;
+            var25 = 51;
             var25 = var16[var25];
             var25 = var15.bind(var4)(var25);
             var26 = var25.LanguageIcon;
             var25 = {};
             var25 = var23.bind(var4)(var26, var25);
             var12['icon'] = var25;
-            var25 = 51;
+            var25 = 52;
             var26 = var16[var25];
             var26 = var15.bind(var4)(var26);
             var27 = var26.TableRowArrow;
@@ -850,7 +857,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['subLabel'] = var17;
             var17 = _closure1_slot26;
             var12['onPress'] = var17;
-            var17 = 52;
+            var17 = 53;
             var26 = var16[var17];
             var26 = var15.bind(var4)(var26);
             var27 = var26.WrenchIcon;
@@ -871,7 +878,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = {'label': 'Launch MFA', 'subLabel': 'Dismiss dev tools after launching.'};
             var26 = _closure1_slot23;
             var12['onPress'] = var26;
-            var26 = 53;
+            var26 = 54;
             var27 = var16[var26];
             var27 = var15.bind(var4)(var27);
             var28 = var27.KeyIcon;
@@ -955,19 +962,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var27 = 'Show age verification get started modal';
             var12['label'] = var27;
             var27 = function onPress() {
-                var3 = _closure1_slot1;
-                var6 = _closure1_slot2;
-                var2 = 33;
-                var2 = var6[var2];
-                var5 = undefined;
-                var3 = var3.bind(var5)(var2);
+                var2 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var1 = 33;
+                var1 = var7[var1];
+                var6 = undefined;
+                var3 = var2.bind(var6)(var1);
                 var2 = var3.showAgeVerificationGetStartedModal;
-                var4 = _closure1_slot0;
-                var1 = 54;
-                var1 = var6[var1];
-                var1 = var4.bind(var5)(var1);
-                var1 = var1.AgeVerificationModalEntryPoint;
-                var1 = var1.DEV_TOOLS_QUICK_ACTIONS;
+                var1 = {};
+                var5 = _closure1_slot0;
+                var4 = 34;
+                var4 = var7[var4];
+                var4 = var5.bind(var6)(var4);
+                var4 = var4.AgeVerificationModalEntryPoint;
+                var4 = var4.DEV_TOOLS_QUICK_ACTIONS;
+                var1['entryPoint'] = var4;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
@@ -1026,7 +1035,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = function onValueChange() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 37;
+                var1 = 38;
                 var2 = var2[var1];
                 var1 = undefined;
                 var1 = var3.bind(var1)(var2);
@@ -1225,7 +1234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  2820:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 38;
+            var2 = 39;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var3 = var2.default;

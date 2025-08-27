@@ -400,7 +400,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 18;
+            var1 = 17;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var3.bind(var1)(var2);
@@ -480,7 +480,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var1)(var5);
     var5 = var5.PremiumTypes;
     var _closure1_slot12 = var5;
-    var5 = 19;
+    var5 = 18;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -489,72 +489,71 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function useSoundGrid(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
-            var16 = arg1;
+            var15 = arg1;
             var2 = arguments[1];
-            var8 = arguments[2];
-            var _closure2_slot0 = var16;
-            var5 = undefined;
-            if(!(var2 === var5)) { _fun0008_ip = 23; continue _fun0008 }
+            var7 = arguments[2];
+            var _closure2_slot0 = var15;
+            var16 = undefined;
+            if(!(var2 === var16)) { _fun0008_ip = 23; continue _fun0008 }
  21:
             var2 = {};
  23:
-            var11 = var2.filterOutEmptyCurrentGuild;
-            if(!(var11 === var5)) { _fun0008_ip = 35; continue _fun0008 }
+            var10 = var2.filterOutEmptyCurrentGuild;
+            if(!(var10 === var16)) { _fun0008_ip = 35; continue _fun0008 }
  33:
-            var11 = false;
+            var10 = false;
  35:
-            var _closure2_slot1 = var11;
-            if(!(var8 === var5)) { _fun0008_ip = 45; continue _fun0008 }
+            var _closure2_slot1 = var10;
+            if(!(var7 === var16)) { _fun0008_ip = 45; continue _fun0008 }
  43:
-            var8 = false;
+            var7 = false;
  45:
-            var _closure2_slot2 = var8;
-            var _closure2_slot3 = var5;
-            var _closure2_slot4 = var5;
-            var _closure2_slot5 = var5;
-            var _closure2_slot6 = var5;
-            var _closure2_slot7 = var5;
-            var _closure2_slot8 = var5;
-            var _closure2_slot9 = var5;
-            var _closure2_slot10 = var5;
-            var _closure2_slot11 = var5;
-            var _closure2_slot12 = var5;
-            var _closure2_slot13 = var5;
-            var _closure2_slot14 = var5;
-            var _closure2_slot15 = var5;
-            var _closure2_slot16 = var5;
+            var _closure2_slot2 = var7;
+            var _closure2_slot3 = var16;
+            var _closure2_slot4 = var16;
+            var _closure2_slot5 = var16;
+            var _closure2_slot6 = var16;
+            var _closure2_slot7 = var16;
+            var _closure2_slot8 = var16;
+            var _closure2_slot9 = var16;
+            var _closure2_slot10 = var16;
+            var _closure2_slot11 = var16;
+            var _closure2_slot12 = var16;
+            var _closure2_slot13 = var16;
+            var _closure2_slot14 = var16;
+            var _closure2_slot15 = var16;
             var4 = _closure1_slot0;
-            var21 = _closure1_slot2;
+            var20 = _closure1_slot2;
             var3 = 12;
-            var6 = var21[var3];
-            var10 = var4.bind(var5)(var6);
-            var9 = var10.useStateFromStores;
-            var6 = _closure1_slot7;
-            var7 = new Array(1);
-            var7[0] = var6;
-            var6 = function() {
+            var5 = var20[var3];
+            var9 = var4.bind(var16)(var5);
+            var8 = var9.useStateFromStores;
+            var5 = _closure1_slot7;
+            var6 = new Array(1);
+            var6[0] = var5;
+            var5 = function() {
                 var2 = _closure1_slot7;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var14 = var9.bind(var10)(var7, var6);
-            var13 = _closure1_slot1;
-            var10 = 13;
-            var6 = var21[var10];
-            var9 = var13.bind(var5)(var6);
-            var7 = var9.isPremium;
-            var6 = _closure1_slot12;
-            var6 = var6.TIER_2;
-            var6 = var7.bind(var9)(var14, var6);
-            _closure2_slot3 = var6;
-            var7 = var21[var3];
-            var15 = var4.bind(var5)(var7);
-            var12 = var15.useStateFromStoresArray;
-            var7 = _closure1_slot9;
-            var9 = new Array(1);
-            var9[0] = var7;
-            var7 = function() {
+            var13 = var8.bind(var9)(var6, var5);
+            var12 = _closure1_slot1;
+            var9 = 13;
+            var5 = var20[var9];
+            var8 = var12.bind(var16)(var5);
+            var6 = var8.isPremium;
+            var5 = _closure1_slot12;
+            var5 = var5.TIER_2;
+            var5 = var6.bind(var8)(var13, var5);
+            _closure2_slot3 = var5;
+            var6 = var20[var3];
+            var14 = var4.bind(var16)(var6);
+            var11 = var14.useStateFromStoresArray;
+            var6 = _closure1_slot9;
+            var8 = new Array(1);
+            var8[0] = var6;
+            var6 = function() {
                 var3 = _closure1_slot9;
                 var1 = var3.getSounds;
                 var2 = var1.bind(var3)();
@@ -568,33 +567,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1[2] = var2;
                 return var1;
             };
-            var12 = var12.bind(var15)(var9, var7);
-            var9 = _closure1_slot3;
-            var7 = 3;
-            var9 = var9.bind(var5)(var12, var7);
-            var7 = 0;
-            var19 = var9[var7];
-            _closure2_slot4 = var19;
-            var7 = 1;
-            var18 = var9[var7];
-            _closure2_slot5 = var18;
-            var7 = 2;
-            var7 = var9[var7];
-            _closure2_slot6 = var7;
-            var9 = 14;
-            var9 = var21[var9];
-            var15 = var4.bind(var5)(var9);
-            var12 = var15.useSortedGuildIdsForSoundboard;
-            var9 = false;
-            var20 = var12.bind(var15)(var16, var9);
-            _closure2_slot7 = var20;
-            var9 = var21[var3];
-            var17 = var4.bind(var5)(var9);
-            var16 = var17.useStateFromStoresArray;
-            var12 = _closure1_slot5;
-            var15 = new Array(1);
-            var15[0] = var12;
-            var9 = function() {
+            var11 = var11.bind(var14)(var8, var6);
+            var8 = _closure1_slot3;
+            var6 = 3;
+            var8 = var8.bind(var16)(var11, var6);
+            var6 = 0;
+            var18 = var8[var6];
+            _closure2_slot4 = var18;
+            var6 = 1;
+            var17 = var8[var6];
+            _closure2_slot5 = var17;
+            var6 = 2;
+            var6 = var8[var6];
+            _closure2_slot6 = var6;
+            var8 = 14;
+            var8 = var20[var8];
+            var14 = var4.bind(var16)(var8);
+            var11 = var14.useSortedGuildIdsForSoundboard;
+            var8 = false;
+            var19 = var11.bind(var14)(var15, var8);
+            _closure2_slot7 = var19;
+            var8 = var20[var3];
+            var21 = var4.bind(var16)(var8);
+            var15 = var21.useStateFromStoresArray;
+            var11 = _closure1_slot5;
+            var14 = new Array(1);
+            var14[0] = var11;
+            var8 = function() {
                 var1 = new Array(0);
                 var _closure3_slot0 = var1;
                 var4 = _closure2_slot7;
@@ -620,19 +619,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var9 = var16.bind(var17)(var15, var9);
-            _closure2_slot8 = var9;
-            var10 = var21[var10];
-            var13 = var13.bind(var5)(var10);
-            var10 = var13.canUseSoundboardEverywhere;
-            var10 = var10.bind(var13)(var14);
-            _closure2_slot9 = var10;
-            var13 = var21[var3];
-            var15 = var4.bind(var5)(var13);
-            var14 = var15.useStateFromStores;
-            var13 = new Array(1);
-            var13[0] = var12;
-            var12 = function() {
+            var8 = var15.bind(var21)(var14, var8);
+            _closure2_slot8 = var8;
+            var9 = var20[var9];
+            var12 = var12.bind(var16)(var9);
+            var9 = var12.canUseSoundboardEverywhere;
+            var9 = var9.bind(var12)(var13);
+            _closure2_slot9 = var9;
+            var12 = var20[var3];
+            var14 = var4.bind(var16)(var12);
+            var13 = var14.useStateFromStores;
+            var12 = new Array(1);
+            var12[0] = var11;
+            var11 = function() {
                 _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
                     var3 = _closure1_slot5;
@@ -650,17 +649,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var13 = var14.bind(var15)(var13, var12);
-            _closure2_slot10 = var13;
-            var12 = var21[var3];
-            var17 = var4.bind(var5)(var12);
-            var16 = var17.useStateFromStores;
-            var12 = _closure1_slot6;
-            var15 = new Array(1);
-            var15[0] = var12;
+            var12 = var13.bind(var14)(var12, var11);
+            _closure2_slot10 = var12;
+            var11 = var20[var3];
+            var21 = var4.bind(var16)(var11);
+            var15 = var21.useStateFromStores;
+            var11 = _closure1_slot6;
             var14 = new Array(1);
-            var14[0] = var13;
-            var12 = function() {
+            var14[0] = var11;
+            var13 = new Array(1);
+            var13[0] = var12;
+            var11 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 15;
@@ -673,132 +672,120 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.canCreateExpressions;
                 return var1;
             };
-            var12 = var16.bind(var17)(var15, var12, var14);
-            _closure2_slot11 = var12;
-            var14 = 16;
-            var14 = var21[var14];
-            var16 = var4.bind(var5)(var14);
-            var15 = var16.useRecentlyHeardExperiment;
-            var14 = {'location': 'soundboard-useSoundGrid', 'autoTrackExposure': true};
-            var15 = var15.bind(var16)(var14);
-            var14 = var15.canSeeRecentlyHeard;
-            _closure2_slot12 = var14;
-            var15 = var15.canSeeFrequentlyPlayed;
-            _closure2_slot13 = var15;
-            var16 = _closure1_slot18;
-            var16 = var16.bind(var5)();
-            _closure2_slot14 = var16;
-            var3 = var21[var3];
-            var23 = var4.bind(var5)(var3);
-            var22 = var23.useStateFromStoresArray;
+            var11 = var15.bind(var21)(var14, var11, var13);
+            _closure2_slot11 = var11;
+            var13 = 16;
+            var13 = var20[var13];
+            var15 = var4.bind(var16)(var13);
+            var14 = var15.useRecentlyHeardExperiment;
+            var13 = {'location': 'soundboard-useSoundGrid', 'autoTrackExposure': true};
+            var14 = var14.bind(var15)(var13);
+            var13 = var14.canSeeRecentlyHeard;
+            _closure2_slot12 = var13;
+            var14 = var14.canSeeFrequentlyPlayed;
+            _closure2_slot13 = var14;
+            var15 = _closure1_slot18;
+            var15 = var15.bind(var16)();
+            _closure2_slot14 = var15;
+            var3 = var20[var3];
+            var20 = var4.bind(var16)(var3);
+            var16 = var20.useStateFromStoresArray;
             var3 = _closure1_slot8;
-            var17 = new Array(1);
-            var17[0] = var3;
+            var4 = new Array(1);
+            var4[0] = var3;
             var3 = function() {
                 var1 = _closure1_slot8;
                 var1 = var1.recentlyHeardSoundIds;
                 return var1;
             };
-            var17 = var22.bind(var23)(var17, var3);
-            _closure2_slot15 = var17;
-            var3 = 17;
-            var3 = var21[var3];
-            var3 = var4.bind(var5)(var3);
-            var5 = var3.SoundboardDefaultReorderingExperiment;
-            var4 = var5.useExperiment;
-            var3 = {};
-            var21 = 'useSoundGrid';
-            var3['location'] = var21;
-            var5 = var4.bind(var5)(var3);
-            _closure2_slot16 = var5;
+            var16 = var16.bind(var20)(var4, var3);
+            _closure2_slot15 = var16;
             var4 = _closure1_slot4;
             var3 = var4.useMemo;
-            var2 = new Array(16);
-            var2[0] = var20;
-            var2[1] = var19;
-            var2[2] = var18;
-            var2[3] = var17;
-            var2[4] = var16;
-            var2[5] = var15;
-            var2[6] = var14;
-            var2[7] = var13;
-            var2[8] = var12;
-            var2[9] = var11;
-            var2[10] = var10;
-            var2[11] = var9;
-            var2[12] = var8;
-            var2[13] = var7;
-            var2[14] = var6;
-            var5 = var5.moveDefaultToBottom;
-            var2[15] = var5;
+            var2 = new Array(15);
+            var2[0] = var19;
+            var2[1] = var18;
+            var2[2] = var17;
+            var2[3] = var16;
+            var2[4] = var15;
+            var2[5] = var14;
+            var2[6] = var13;
+            var2[7] = var12;
+            var2[8] = var11;
+            var2[9] = var10;
+            var2[10] = var9;
+            var2[11] = var8;
+            var2[12] = var7;
+            var2[13] = var6;
+            var2[14] = var5;
             var1 = function() {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
-                    var18 = 0;
-                    var _closure3_slot0 = var18;
-                    var _closure3_slot1 = var18;
-                    var3 = new Array(0);
-                    var4 = _closure2_slot2;
-                    if(var4) { _fun0011_ip = 1069; continue _fun0011 }
+                    var17 = 0;
+                    var _closure3_slot0 = var17;
+                    var _closure3_slot1 = var17;
+                    var4 = new Array(0);
+                    var1 = _closure2_slot2;
+                    if(var1) { _fun0011_ip = 1060; continue _fun0011 }
  32:
                     var5 = _closure1_slot16;
-                    var4 = {};
-                    var4['sections'] = var3;
+                    var1 = {};
+                    var1['sections'] = var4;
                     var7 = _closure2_slot7;
-                    var4['guildIds'] = var7;
+                    var1['guildIds'] = var7;
                     var7 = _closure2_slot4;
-                    var4['allSounds'] = var7;
+                    var1['allSounds'] = var7;
                     var7 = global;
                     var9 = var7.Array;
                     var8 = var9.from;
                     var7 = _closure2_slot5;
                     var7 = var8.bind(var9)(var7);
-                    var4['potentialSoundIdsForSection'] = var7;
+                    var1['potentialSoundIdsForSection'] = var7;
                     var9 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var17 = 9;
-                    var8 = var7[var17];
+                    var16 = 9;
+                    var8 = var7[var16];
                     var7 = undefined;
                     var8 = var9.bind(var7)(var8);
                     var8 = var8.SoundboardSoundGridSectionType;
                     var8 = var8.FAVORITES;
-                    var4['sectionType'] = var8;
+                    var1['sectionType'] = var8;
                     var8 = true;
-                    var4['sortById'] = var8;
-                    var4 = var5.bind(var7)(var4);
-                    var4 = _closure2_slot12;
-                    if(!var4) { _fun0011_ip = 230; continue _fun0011 }
+                    var1['sortById'] = var8;
+                    var1 = var5.bind(var7)(var1);
+                    var1 = _closure2_slot12;
+                    if(!var1) { _fun0011_ip = 230; continue _fun0011 }
  146:
                     var5 = _closure1_slot16;
-                    var4 = {};
-                    var4['sections'] = var3;
+                    var1 = {};
+                    var1['sections'] = var4;
                     var8 = _closure2_slot7;
-                    var4['guildIds'] = var8;
+                    var1['guildIds'] = var8;
                     var8 = _closure2_slot4;
-                    var4['allSounds'] = var8;
+                    var1['allSounds'] = var8;
                     var8 = _closure2_slot15;
-                    var4['potentialSoundIdsForSection'] = var8;
+                    var1['potentialSoundIdsForSection'] = var8;
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var8 = var8[var17];
+                    var8 = var8[var16];
                     var8 = var9.bind(var7)(var8);
                     var8 = var8.SoundboardSoundGridSectionType;
                     var8 = var8.RECENTLY_HEARD;
-                    var4['sectionType'] = var8;
+                    var1['sectionType'] = var8;
                     var8 = false;
-                    var4['sortById'] = var8;
-                    var4 = var5.bind(var7)(var4);
+                    var1['sortById'] = var8;
+                    var1 = var5.bind(var7)(var1);
  230:
-                    var4 = _closure2_slot13;
-                    if(!var4) { _fun0011_ip = 338; continue _fun0011 }
+                    var1 = _closure2_slot13;
+                    if(!var1) { _fun0011_ip = 338; continue _fun0011 }
  237:
                     var5 = _closure1_slot16;
-                    var4 = {};
-                    var4['sections'] = var3;
+                    var1 = {};
+                    var1['sections'] = var4;
                     var8 = _closure2_slot7;
-                    var4['guildIds'] = var8;
+                    var1['guildIds'] = var8;
                     var8 = _closure2_slot4;
-                    var4['allSounds'] = var8;
+                    var1['allSounds'] = var8;
                     var10 = _closure2_slot14;
                     var9 = var10.map;
                     var8 = function(arg1) {
@@ -807,32 +794,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var8 = var9.bind(var10)(var8);
-                    var4['potentialSoundIdsForSection'] = var8;
+                    var1['potentialSoundIdsForSection'] = var8;
                     var9 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var8 = var8[var17];
+                    var8 = var8[var16];
                     var8 = var9.bind(var7)(var8);
                     var8 = var8.SoundboardSoundGridSectionType;
                     var8 = var8.FREQUENTLY_USED;
-                    var4['sectionType'] = var8;
+                    var1['sectionType'] = var8;
                     var8 = false;
-                    var4['sortById'] = var8;
-                    var4 = var5.bind(var7)(var4);
+                    var1['sortById'] = var8;
+                    var1 = var5.bind(var7)(var1);
  338:
-                    var4 = _closure2_slot10;
-                    if(!(var7 !== var4)) { _fun0011_ip = 642; continue _fun0011 }
+                    var1 = _closure2_slot10;
+                    if(!(var7 !== var1)) { _fun0011_ip = 642; continue _fun0011 }
  349:
                     var9 = _closure2_slot10;
-                    var4 = {};
+                    var1 = {};
                     var5 = _closure2_slot11;
-                    var4['currentGuildHasAddPermissions'] = var5;
+                    var1['currentGuildHasAddPermissions'] = var5;
                     var5 = _closure2_slot4;
-                    var4['allSounds'] = var5;
+                    var1['allSounds'] = var5;
                     var5 = _closure2_slot1;
-                    var4['filterOutEmptyCurrentGuild'] = var5;
-                    var5 = var4.currentGuildHasAddPermissions;
-                    var11 = var4.allSounds;
-                    var4 = var4.filterOutEmptyCurrentGuild;
+                    var1['filterOutEmptyCurrentGuild'] = var5;
+                    var5 = var1.currentGuildHasAddPermissions;
+                    var11 = var1.allSounds;
+                    var1 = var1.filterOutEmptyCurrentGuild;
                     var10 = var11.get;
                     var8 = var9.id;
                     var10 = var10.bind(var11)(var8);
@@ -857,7 +844,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var5;
  480:
                     var5 = var8.length;
-                    var5 = var18 === var5;
+                    var5 = var17 === var5;
                     var10 = !var10;
                     if(!var10) { _fun0011_ip = 498; continue _fun0011 }
  495:
@@ -865,7 +852,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  498:
                     if(var10) { _fun0011_ip = 504; continue _fun0011 }
  501:
-                    var10 = var4;
+                    var10 = var1;
  504:
                     if(var10) { _fun0011_ip = 556; continue _fun0011 }
  507:
@@ -873,7 +860,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = {};
                     var13 = _closure1_slot0;
                     var12 = _closure1_slot2;
-                    var12 = var12[var17];
+                    var12 = var12[var16];
                     var12 = var13.bind(var7)(var12);
                     var12 = var12.SoundboardSoundItemType;
                     var12 = var12.ADD_SOUND;
@@ -881,18 +868,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10['guild'] = var9;
                     var10 = var11.bind(var8)(var10);
  556:
-                    if(!var4) { _fun0011_ip = 562; continue _fun0011 }
+                    if(!var1) { _fun0011_ip = 562; continue _fun0011 }
  559:
-                    var4 = var5;
+                    var1 = var5;
  562:
-                    if(var4) { _fun0011_ip = 642; continue _fun0011 }
+                    if(var1) { _fun0011_ip = 642; continue _fun0011 }
  565:
-                    var5 = var3.push;
-                    var4 = {};
+                    var5 = var4.push;
+                    var1 = {};
                     var10 = {};
                     var12 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var11 = var11[var17];
+                    var11 = var11[var16];
                     var11 = var12.bind(var7)(var11);
                     var11 = var11.SoundboardSoundGridSectionType;
                     var11 = var11.GUILD;
@@ -900,109 +887,105 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10['guild'] = var9;
                     var11 = false;
                     var10['isNitroLocked'] = var11;
-                    var4['categoryInfo'] = var10;
+                    var1['categoryInfo'] = var10;
                     var9 = var9.id;
-                    var4['key'] = var9;
-                    var4['items'] = var8;
-                    var4 = var5.bind(var3)(var4);
+                    var1['key'] = var9;
+                    var1['items'] = var8;
+                    var1 = var5.bind(var4)(var1);
  642:
-                    var4 = _closure2_slot9;
-                    if(var4) { _fun0011_ip = 659; continue _fun0011 }
+                    var1 = _closure2_slot9;
+                    if(var1) { _fun0011_ip = 663; continue _fun0011 }
  649:
-                    var5 = _closure2_slot16;
-                    var4 = var5.moveDefaultToBottom;
- 659:
-                    if(var4) { _fun0011_ip = 676; continue _fun0011 }
- 662:
-                    var8 = _closure1_slot17;
-                    var5 = _closure2_slot4;
-                    var5 = var8.bind(var7)(var3, var5);
- 676:
-                    var5 = {};
-                    var5['sections'] = var3;
-                    var8 = _closure2_slot8;
-                    var5['guilds'] = var8;
-                    var8 = _closure2_slot10;
-                    var16 = null;
-                    var9 = var16 == var8;
-                    var8 = undefined;
-                    if(var9) { _fun0011_ip = 716; continue _fun0011 }
- 707:
-                    var9 = _closure2_slot10;
-                    var8 = var9.id;
- 716:
-                    var5['currentGuildId'] = var8;
-                    var8 = _closure2_slot4;
-                    var5['allSounds'] = var8;
-                    var8 = _closure2_slot3;
-                    var5['hasNitro'] = var8;
-                    var15 = var5.sections;
-                    var8 = var5.guilds;
-                    var14 = var5.currentGuildId;
-                    var13 = var5.allSounds;
-                    var12 = var5.hasNitro;
-                    var5 = _closure1_slot13;
-                    var11 = var5.bind(var7)(var8);
-                    var8 = var11.bind(var7)();
-                    var5 = var8.done;
-                    var10 = var8;
-                    var9 = undefined;
-                    var8 = undefined;
-                    if(var5) { _fun0011_ip = 969; continue _fun0011 }
- 800:
-                    var22 = var10.value;
-                    var5 = var22.id;
-                    if(!(var5 !== var14)) { _fun0011_ip = 951; continue _fun0011 }
- 817:
-                    var20 = _closure1_slot15;
-                    var19 = var13.get;
-                    var5 = var22.id;
-                    var19 = var19.bind(var13)(var5);
-                    var5 = var19;
-                    if(!(var16 == var19)) { _fun0011_ip = 847; continue _fun0011 }
- 843:
-                    var5 = new Array(0);
- 847:
-                    var5 = var20.bind(var7)(var5);
-                    var20 = var5.length;
-                    var9 = var19;
-                    var8 = var5;
-                    if(!(var20 > var18)) { _fun0011_ip = 951; continue _fun0011 }
- 867:
-                    var21 = var15.push;
-                    var20 = {};
-                    var23 = {};
-                    var25 = _closure1_slot0;
-                    var24 = _closure1_slot2;
-                    var24 = var24[var17];
-                    var24 = var25.bind(var7)(var24);
-                    var24 = var24.SoundboardSoundGridSectionType;
-                    var24 = var24.GUILD;
-                    var23['type'] = var24;
-                    var23['guild'] = var22;
-                    var24 = !var12;
-                    var23['isNitroLocked'] = var24;
-                    var20['categoryInfo'] = var23;
-                    var22 = var22.id;
-                    var20['key'] = var22;
-                    var20['items'] = var5;
-                    var20 = var21.bind(var15)(var20);
-                    var9 = var19;
-                    var8 = var5;
- 951:
-                    var19 = var11.bind(var7)();
-                    var5 = var19.done;
-                    var10 = var19;
-                    if(!var5) { _fun0011_ip = 800; continue _fun0011 }
- 969:
-                    if(!var4) { _fun0011_ip = 986; continue _fun0011 }
- 972:
                     var5 = _closure1_slot17;
-                    var4 = _closure2_slot4;
-                    var4 = var5.bind(var7)(var3, var4);
- 986:
-                    var5 = var3.forEach;
-                    var4 = function(arg1) {
+                    var1 = _closure2_slot4;
+                    var1 = var5.bind(var7)(var4, var1);
+ 663:
+                    var1 = {};
+                    var1['sections'] = var4;
+                    var5 = _closure2_slot8;
+                    var1['guilds'] = var5;
+                    var5 = _closure2_slot10;
+                    var15 = null;
+                    var8 = var15 == var5;
+                    var5 = undefined;
+                    if(var8) { _fun0011_ip = 703; continue _fun0011 }
+ 694:
+                    var8 = _closure2_slot10;
+                    var5 = var8.id;
+ 703:
+                    var1['currentGuildId'] = var5;
+                    var5 = _closure2_slot4;
+                    var1['allSounds'] = var5;
+                    var5 = _closure2_slot3;
+                    var1['hasNitro'] = var5;
+                    var14 = var1.sections;
+                    var5 = var1.guilds;
+                    var13 = var1.currentGuildId;
+                    var12 = var1.allSounds;
+                    var11 = var1.hasNitro;
+                    var1 = _closure1_slot13;
+                    var10 = var1.bind(var7)(var5);
+                    var5 = var10.bind(var7)();
+                    var1 = var5.done;
+                    var9 = var5;
+                    var8 = undefined;
+                    var5 = undefined;
+                    if(var1) { _fun0011_ip = 956; continue _fun0011 }
+ 787:
+                    var21 = var9.value;
+                    var1 = var21.id;
+                    if(!(var1 !== var13)) { _fun0011_ip = 938; continue _fun0011 }
+ 804:
+                    var19 = _closure1_slot15;
+                    var18 = var12.get;
+                    var1 = var21.id;
+                    var18 = var18.bind(var12)(var1);
+                    var1 = var18;
+                    if(!(var15 == var18)) { _fun0011_ip = 834; continue _fun0011 }
+ 830:
+                    var1 = new Array(0);
+ 834:
+                    var1 = var19.bind(var7)(var1);
+                    var19 = var1.length;
+                    var8 = var18;
+                    var5 = var1;
+                    if(!(var19 > var17)) { _fun0011_ip = 938; continue _fun0011 }
+ 854:
+                    var20 = var14.push;
+                    var19 = {};
+                    var22 = {};
+                    var24 = _closure1_slot0;
+                    var23 = _closure1_slot2;
+                    var23 = var23[var16];
+                    var23 = var24.bind(var7)(var23);
+                    var23 = var23.SoundboardSoundGridSectionType;
+                    var23 = var23.GUILD;
+                    var22['type'] = var23;
+                    var22['guild'] = var21;
+                    var23 = !var11;
+                    var22['isNitroLocked'] = var23;
+                    var19['categoryInfo'] = var22;
+                    var21 = var21.id;
+                    var19['key'] = var21;
+                    var19['items'] = var1;
+                    var19 = var20.bind(var14)(var19);
+                    var8 = var18;
+                    var5 = var1;
+ 938:
+                    var18 = var10.bind(var7)();
+                    var1 = var18.done;
+                    var9 = var18;
+                    if(!var1) { _fun0011_ip = 787; continue _fun0011 }
+ 956:
+                    var1 = _closure2_slot9;
+                    if(!var1) { _fun0011_ip = 977; continue _fun0011 }
+ 963:
+                    var5 = _closure1_slot17;
+                    var1 = _closure2_slot4;
+                    var1 = var5.bind(var7)(var4, var1);
+ 977:
+                    var5 = var4.forEach;
+                    var1 = function(arg1) {
                         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
                             var2 = arg1;
@@ -1038,13 +1021,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         }
                     };
-                    var4 = var5.bind(var3)(var4);
-                    var4 = {};
-                    var4['categories'] = var3;
+                    var1 = var5.bind(var4)(var1);
+                    var1 = {};
+                    var1['categories'] = var4;
                     var5 = _closure2_slot4;
-                    var4['allSounds'] = var5;
+                    var1['allSounds'] = var5;
                     var5 = _closure2_slot6;
-                    var4['isFetching'] = var5;
+                    var1['isFetching'] = var5;
                     var5 = {};
                     var7 = _closure2_slot5;
                     var7 = var7.size;
@@ -1053,21 +1036,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['unlockedCustomSoundCount'] = var7;
                     var6 = _closure3_slot1;
                     var5['lockedCustomSoundCount'] = var6;
-                    var4['soundCounts'] = var5;
-                    return var4;
- 1069:
-                    var5 = _closure1_slot17;
+                    var1['soundCounts'] = var5;
+                    _fun0011_ip = 1123; continue _fun0011;
+ 1060:
+                    var6 = _closure1_slot17;
+                    var5 = _closure2_slot4;
+                    var2 = undefined;
+                    var2 = var6.bind(var2)(var4, var5);
+                    var2 = {};
+                    var2['categories'] = var4;
                     var4 = _closure2_slot4;
-                    var1 = undefined;
-                    var1 = var5.bind(var1)(var3, var4);
-                    var1 = {};
-                    var1['categories'] = var3;
-                    var3 = _closure2_slot4;
-                    var1['allSounds'] = var3;
-                    var2 = _closure2_slot6;
-                    var1['isFetching'] = var2;
-                    var2 = {'favoriteSoundCount': 0, 'unlockedCustomSoundCount': 0, 'lockedCustomSoundCount': 0};
-                    var1['soundCounts'] = var2;
+                    var2['allSounds'] = var4;
+                    var3 = _closure2_slot6;
+                    var2['isFetching'] = var3;
+                    var3 = {'favoriteSoundCount': 0, 'unlockedCustomSoundCount': 0, 'lockedCustomSoundCount': 0};
+                    var2['soundCounts'] = var3;
+                    var1 = var2;
+ 1123:
                     return var1;
                 }
             };

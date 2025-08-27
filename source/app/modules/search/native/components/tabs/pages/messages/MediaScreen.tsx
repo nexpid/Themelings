@@ -257,9 +257,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                 var1 = arg1;
-                var5 = var1.media;
-                var _closure3_slot0 = var5;
-                var4 = var1.originView;
+                var4 = var1.media;
+                var _closure3_slot0 = var4;
+                var3 = var1.originView;
                 var6 = _closure2_slot3;
                 var1 = null;
                 var6 = var1 == var6;
@@ -269,7 +269,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  41:
                 var7 = _closure2_slot3;
                 var6 = var7.find;
-                var2 = function(arg1) {
+                var5 = function(arg1) {
                     var1 = arg1;
                     var2 = var1.id;
                     var1 = _closure3_slot0;
@@ -277,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2 === var1;
                     return var1;
                 };
-                var8 = var6.bind(var7)(var2);
+                var8 = var6.bind(var7)(var5);
  62:
                 var7 = _closure1_slot0;
                 var9 = _closure1_slot2;
@@ -285,7 +285,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var9[var6];
                 var7 = var7.bind(var1)(var6);
                 var6 = var7.shouldAgeVerifyForSearchMedia;
-                var6 = var6.bind(var7)(var5, var8);
+                var6 = var6.bind(var7)(var4, var8);
                 if(var6) { _fun0003_ip = 188; continue _fun0003 }
  100:
                 var7 = _closure1_slot0;
@@ -297,33 +297,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = {};
                 var9 = _closure2_slot0;
                 var6['searchContext'] = var9;
-                var9 = var5.channelId;
+                var9 = var4.channelId;
                 var6['channelId'] = var9;
-                var9 = var5.messageId;
+                var9 = var4.messageId;
                 var6['messageId'] = var9;
                 var9 = arg2;
                 var6['index'] = var9;
                 var9 = _closure2_slot1;
                 var6['tab'] = var9;
                 var6 = var7.bind(var8)(var6);
-                var3 = _closure2_slot6;
-                var3 = var3.bind(var1)(var5, var4);
-                _fun0003_ip = 247; continue _fun0003;
+                var2 = _closure2_slot6;
+                var2 = var2.bind(var1)(var4, var3);
+                _fun0003_ip = 254; continue _fun0003;
  188:
-                var4 = _closure1_slot1;
-                var6 = _closure1_slot2;
-                var3 = 16;
-                var3 = var6[var3];
-                var4 = var4.bind(var1)(var3);
+                var3 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var2 = 16;
+                var2 = var7[var2];
+                var4 = var3.bind(var1)(var2);
                 var3 = var4.showAgeVerificationGetStartedModal;
-                var5 = _closure1_slot0;
-                var2 = 17;
-                var2 = var6[var2];
-                var2 = var5.bind(var1)(var2);
-                var2 = var2.AgeVerificationModalEntryPoint;
-                var2 = var2.SEARCH_MEDIA_PREVIEW;
+                var2 = {};
+                var6 = _closure1_slot0;
+                var5 = 17;
+                var5 = var7[var5];
+                var5 = var6.bind(var1)(var5);
+                var5 = var5.AgeVerificationModalEntryPoint;
+                var5 = var5.SEARCH_MEDIA_PREVIEW;
+                var2['entryPoint'] = var5;
                 var2 = var3.bind(var4)(var2);
- 247:
+ 254:
                 return var1;
             }
         };

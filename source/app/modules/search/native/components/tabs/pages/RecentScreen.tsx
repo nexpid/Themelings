@@ -558,19 +558,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                 var1 = arg1;
-                var5 = var1.media;
-                var _closure3_slot0 = var5;
-                var4 = var1.originView;
-                var2 = _closure2_slot4;
+                var4 = var1.media;
+                var _closure3_slot0 = var4;
+                var3 = var1.originView;
+                var5 = _closure2_slot4;
                 var1 = null;
-                var2 = var1 == var2;
+                var5 = var1 == var5;
                 var1 = undefined;
                 var8 = undefined;
-                if(var2) { _fun0005_ip = 62; continue _fun0005 }
+                if(var5) { _fun0005_ip = 62; continue _fun0005 }
  41:
                 var7 = _closure2_slot4;
                 var6 = var7.find;
-                var2 = function(arg1) {
+                var5 = function(arg1) {
                     var1 = arg1;
                     var2 = var1.id;
                     var1 = _closure3_slot0;
@@ -578,7 +578,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2 === var1;
                     return var1;
                 };
-                var8 = var6.bind(var7)(var2);
+                var8 = var6.bind(var7)(var5);
  62:
                 var7 = _closure1_slot0;
                 var9 = _closure1_slot2;
@@ -586,7 +586,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var9[var6];
                 var7 = var7.bind(var1)(var6);
                 var6 = var7.shouldAgeVerifyForSearchMedia;
-                var6 = var6.bind(var7)(var5, var8);
+                var6 = var6.bind(var7)(var4, var8);
                 if(var6) { _fun0005_ip = 279; continue _fun0005 }
  103:
                 var8 = _closure1_slot8;
@@ -617,9 +617,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var8.trackSearchResultClicked;
                 var6 = {};
                 var6['searchContext'] = var11;
-                var11 = var5.channelId;
+                var11 = var4.channelId;
                 var6['channelId'] = var11;
-                var11 = var5.messageId;
+                var11 = var4.messageId;
                 var6['messageId'] = var11;
                 var12 = _closure2_slot8;
                 var11 = var12.findIndex;
@@ -635,24 +635,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6['index'] = var10;
                 var6['totalSearchResults'] = var9;
                 var6 = var7.bind(var8)(var6);
-                var3 = _closure2_slot9;
-                var3 = var3.bind(var1)(var5, var4);
-                _fun0005_ip = 338; continue _fun0005;
+                var2 = _closure2_slot9;
+                var2 = var2.bind(var1)(var4, var3);
+                _fun0005_ip = 345; continue _fun0005;
  279:
-                var4 = _closure1_slot1;
-                var6 = _closure1_slot2;
-                var3 = 23;
-                var3 = var6[var3];
-                var4 = var4.bind(var1)(var3);
+                var3 = _closure1_slot1;
+                var7 = _closure1_slot2;
+                var2 = 23;
+                var2 = var7[var2];
+                var4 = var3.bind(var1)(var2);
                 var3 = var4.showAgeVerificationGetStartedModal;
-                var5 = _closure1_slot0;
-                var2 = 24;
-                var2 = var6[var2];
-                var2 = var5.bind(var1)(var2);
-                var2 = var2.AgeVerificationModalEntryPoint;
-                var2 = var2.SEARCH_MEDIA_PREVIEW;
+                var2 = {};
+                var6 = _closure1_slot0;
+                var5 = 24;
+                var5 = var7[var5];
+                var5 = var6.bind(var1)(var5);
+                var5 = var5.AgeVerificationModalEntryPoint;
+                var5 = var5.SEARCH_MEDIA_PREVIEW;
+                var2['entryPoint'] = var5;
                 var2 = var3.bind(var4)(var2);
- 338:
+ 345:
                 return var1;
             }
         };
