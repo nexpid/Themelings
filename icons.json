@@ -1140,6 +1140,16 @@
         "width": 60,
         "height": 60
     },
+    "CandyIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/CandyIcon.png",
+        "hash": "120d53427396cc67c24abd8f2a6f153a",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "cap_2": {
         "file": "images/native/avatars/cap_2.png",
         "hash": "0bdcf228295d7206b9649c79781a956c",
@@ -11535,15 +11545,6 @@
         "width": 70,
         "height": 47
     },
-    "safety_banner": {
-        "file": "modules/self_mod/shared/images/safety_banner.png",
-        "hash": "7427d46d5fa9756d7de0249fed86bd3d",
-        "scales": [
-            1
-        ],
-        "width": 2880,
-        "height": 1152
-    },
     "safety_check": {
         "file": "images/native/guild_settings/community_settings/safety_check.png",
         "hash": "1c24dd3dd196a8ef2977a4e0d877d187",
@@ -11984,6 +11985,16 @@
         "width": 24,
         "height": 24
     },
+    "SkullIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/SkullIcon.png",
+        "hash": "f9a93e52f7c522e1c3844d3bd86ea116",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "SlashBoxIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/SlashBoxIcon.png",
         "hash": "7a0f959d1dd5fca3c25a104922c4a02b",
@@ -12246,16 +12257,6 @@
     "StarOutlineIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/StarOutlineIcon.png",
         "hash": "9941b404840d769bd8e67a01a87ae6a6",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "StarShootingIcon": {
-        "file": "design/components/Icon/native/redesign/generated/images/StarShootingIcon.png",
-        "hash": "f8a7ce5938218336d0345b289fcf2775",
         "scales": [
             2,
             3
