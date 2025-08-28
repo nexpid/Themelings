@@ -629,46 +629,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var8[0] = var9;
                             var14 = _closure1_slot11;
                             var9 = _closure1_slot17;
-                            var12 = var9.Screen;
-                            var9 = {};
-                            var10 = 'member-verification';
-                            var9['name'] = var10;
-                            var10 = _closure1_slot25;
-                            var9['getComponent'] = var10;
+                            var13 = var9.Screen;
+                            var10 = {};
+                            var9 = 'member-verification';
+                            var10['name'] = var9;
+                            var9 = _closure1_slot25;
+                            var10['getComponent'] = var9;
                             var15 = {'presentation': 'transparentModal', 'animation': 'slide_from_bottom'};
-                            var11 = _closure2_slot6;
+                            var9 = _closure2_slot6;
                             var18 = var15;
-                            var17 = var11;
+                            var17 = var9;
                             var16 = copyDataProperties(var18, var17);
-                            var9['options'] = var15;
-                            var9 = var14.bind(var1)(var12, var9);
-                            var8[1] = var9;
-                            var12 = _closure1_slot33;
-                            var9 = null;
-                            var14 = var9 == var11;
-                            var11 = undefined;
+                            var10['options'] = var15;
+                            var10 = var14.bind(var1)(var13, var10);
+                            var8[1] = var10;
+                            var10 = _closure1_slot33;
+                            var13 = null;
+                            var14 = var13 == var9;
+                            var9 = undefined;
                             if(var14) { _fun0005_ip = 205; continue _fun0005 }
  195:
                             var14 = _closure2_slot6;
-                            var11 = var14.animation;
+                            var9 = var14.animation;
  205:
-                            if(!(var9 == var11)) { _fun0005_ip = 213; continue _fun0005 }
+                            if(!(var13 == var9)) { _fun0005_ip = 213; continue _fun0005 }
  209:
-                            var11 = _closure2_slot2;
+                            var9 = _closure2_slot2;
  213:
-                            var11 = var12.bind(var1)(var11);
-                            var8[2] = var11;
-                            var10 = _closure2_slot4;
-                            var9 = null;
-                            if(var10) { _fun0005_ip = 281; continue _fun0005 }
- 231:
-                            var12 = _closure1_slot11;
-                            var10 = _closure1_slot17;
-                            var11 = var10.Screen;
-                            var10 = {};
-                            var14 = 'settings';
-                            var10['name'] = var14;
-                            var13 = function options(arg1) {
+                            var9 = var10.bind(var1)(var9);
+                            var8[2] = var9;
+                            var11 = _closure1_slot11;
+                            var9 = _closure1_slot17;
+                            var10 = var9.Screen;
+                            var9 = {};
+                            var13 = 'settings';
+                            var9['name'] = var13;
+                            var12 = function options(arg1) {
                                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                                     var1 = arg1;
@@ -679,14 +675,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var5 = var2 != var3;
                                     var4 = 'slide_from_right';
                                     var2 = var4;
-                                    if(!var5) { _fun0007_ip = 53; continue _fun0007 }
+                                    if(!var5) { _fun0007_ip = 66; continue _fun0007 }
  35:
                                     var3 = var3.isRootScreen;
                                     var2 = var4;
-                                    if(!var3) { _fun0007_ip = 53; continue _fun0007 }
+                                    if(!var3) { _fun0007_ip = 66; continue _fun0007 }
  47:
+                                    var3 = _closure2_slot4;
+                                    var2 = var4;
+                                    if(var3) { _fun0007_ip = 66; continue _fun0007 }
+ 60:
                                     var2 = 'slide_from_bottom';
- 53:
+ 66:
                                     var1['animation'] = var2;
                                     var2 = false;
                                     var1['headerShown'] = var2;
@@ -696,11 +696,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     return var1;
                                 }
                             };
-                            var10['options'] = var13;
-                            var13 = _closure1_slot31;
-                            var10['getComponent'] = var13;
-                            var9 = var12.bind(var1)(var11, var10);
- 281:
+                            var9['options'] = var12;
+                            var12 = _closure1_slot31;
+                            var9['getComponent'] = var12;
+                            var9 = var11.bind(var1)(var10, var9);
                             var8[3] = var9;
                             var5['children'] = var8;
                             var7 = var4.bind(var1)(var7, var5);

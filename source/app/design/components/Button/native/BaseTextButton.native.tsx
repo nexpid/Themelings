@@ -623,27 +623,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var4)(var1);
             var1 = var2.useButtonTextColorStyles;
             var30 = var1.bind(var2)(var19);
-            if(!(var12 != var14)) { _fun0007_ip = 424; continue _fun0007 }
- 404:
-            if(!(var11 !== var15)) { _fun0007_ip = 416; continue _fun0007 }
- 408:
+            if(!(var12 != var14)) { _fun0007_ip = 423; continue _fun0007 }
+ 403:
+            if(!(var11 !== var15)) { _fun0007_ip = 415; continue _fun0007 }
+ 407:
             var29 = var26.iconRight;
-            _fun0007_ip = 422; continue _fun0007;
- 416:
+            _fun0007_ip = 421; continue _fun0007;
+ 415:
             var29 = var26.iconLeft;
- 422:
-            _fun0007_ip = 426; continue _fun0007;
- 424:
+ 421:
+            _fun0007_ip = 425; continue _fun0007;
+ 423:
             var29 = {};
- 426:
-            if(!(var12 != var14)) { _fun0007_ip = 451; continue _fun0007 }
- 430:
+ 425:
+            if(!(var12 != var14)) { _fun0007_ip = 450; continue _fun0007 }
+ 429:
             var2 = _closure1_slot3;
             var1 = var2.isValidElement;
             var1 = var1.bind(var2)(var14);
             var13 = var14;
-            if(var1) { _fun0007_ip = 518; continue _fun0007 }
- 451:
+            if(var1) { _fun0007_ip = 517; continue _fun0007 }
+ 450:
             var3 = _closure1_slot6;
             var2 = _closure1_slot20;
             var1 = {};
@@ -660,9 +660,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['iconOpticalOffsetMargin'] = var32;
             var1['iconPosition'] = var15;
             var13 = var3.bind(var4)(var2, var1);
- 518:
-            if(!(var12 == var20)) { _fun0007_ip = 585; continue _fun0007 }
- 522:
+ 517:
+            if(!(var12 == var20)) { _fun0007_ip = 584; continue _fun0007 }
+ 521:
             var3 = _closure1_slot6;
             var2 = _closure1_slot4;
             var1 = {};
@@ -678,7 +678,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var28;
             var1['children'] = var23;
             var20 = var3.bind(var4)(var2, var1);
- 585:
+ 584:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var28 = _closure1_slot2;
@@ -692,16 +692,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var37 = var1;
             var36 = var24;
             var24 = copyDataProperties(var37, var36);
-            if(!var27) { _fun0007_ip = 643; continue _fun0007 }
- 637:
+            if(!var27) { _fun0007_ip = 642; continue _fun0007 }
+ 636:
             var27 = var26.grow;
- 643:
+ 642:
             var24 = new Array(3);
             var24[0] = var27;
-            if(!var25) { _fun0007_ip = 660; continue _fun0007 }
- 654:
+            if(!var25) { _fun0007_ip = 659; continue _fun0007 }
+ 653:
             var25 = var26.shrink;
- 660:
+ 659:
             var24[1] = var25;
             var24[2] = var5;
             var5 = 'style';
@@ -710,8 +710,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var5] = var10;
             var5 = 'accessibilityRole';
             var1[var5] = var22;
-            if(!(var12 == var7)) { _fun0007_ip = 730; continue _fun0007 }
- 699:
+            if(!(var12 == var7)) { _fun0007_ip = 729; continue _fun0007 }
+ 698:
             var22 = _closure1_slot0;
             var24 = _closure1_slot2;
             var5 = 13;
@@ -719,7 +719,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var22.bind(var4)(var5);
             var5 = var22.getNodeText;
             var7 = var5.bind(var22)(var23);
- 730:
+ 729:
             var5 = 'accessibilityLabel';
             var1[var5] = var7;
             var5 = 'hitSlop';
@@ -744,37 +744,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = {};
             var8['value'] = var16;
             var16 = var12 != var14;
-            if(!var16) { _fun0007_ip = 838; continue _fun0007 }
- 834:
+            if(!var16) { _fun0007_ip = 837; continue _fun0007 }
+ 833:
             var16 = var11 === var15;
- 838:
-            if(!var16) { _fun0007_ip = 844; continue _fun0007 }
- 841:
+ 837:
+            if(!var16) { _fun0007_ip = 843; continue _fun0007 }
+ 840:
             var16 = var13;
- 844:
+ 843:
             var11 = new Array(3);
             var11[0] = var16;
             var16 = var20;
-            if(!(var4 !== var21)) { _fun0007_ip = 884; continue _fun0007 }
- 859:
+            if(!(var4 !== var21)) { _fun0007_ip = 883; continue _fun0007 }
+ 858:
             var19 = _closure1_slot6;
             var18 = _closure1_slot19;
             var17 = {};
             var17['collapseText'] = var21;
             var17['children'] = var20;
             var16 = var19.bind(var4)(var18, var17);
- 884:
+ 883:
             var11[1] = var16;
             var12 = var12 != var14;
-            if(!var12) { _fun0007_ip = 903; continue _fun0007 }
- 895:
+            if(!var12) { _fun0007_ip = 902; continue _fun0007 }
+ 894:
             var14 = 'end';
             var12 = var14 === var15;
- 903:
-            if(!var12) { _fun0007_ip = 909; continue _fun0007 }
- 906:
+ 902:
+            if(!var12) { _fun0007_ip = 908; continue _fun0007 }
+ 905:
             var12 = var13;
- 909:
+ 908:
             var11[2] = var12;
             var8['children'] = var11;
             var8 = var10.bind(var4)(var9, var8);

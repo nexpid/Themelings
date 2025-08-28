@@ -1682,6 +1682,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CUSTOM_THEMES_PREMIUM_TAB_BADGE'] = var2;
     var1 = 'CUSTOM_THEMES_PREMIUM_TAB_BADGE';
     var4[var2] = var1;
+    var2 = 591;
+    var4['CHURN_DISCOUNT_PREMIUM_TAB_COACHMARK'] = var2;
+    var1 = 'CHURN_DISCOUNT_PREMIUM_TAB_COACHMARK';
+    var4[var2] = var1;
+    var2 = 592;
+    var4['CHURN_DISCOUNT_PREMIUM_TAB_BADGE'] = var2;
+    var1 = 'CHURN_DISCOUNT_PREMIUM_TAB_BADGE';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

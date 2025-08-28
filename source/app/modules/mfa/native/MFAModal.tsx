@@ -168,47 +168,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot2;
                 var1 = 6;
-                var2 = var2[var1];
-                var1 = undefined;
-                var2 = var4.bind(var1)(var2);
-                var2 = var2.MfaScreens;
-                var2 = var2.SELECT;
-                var3['name'] = var2;
-                var4 = {};
-                var2 = _closure2_slot0;
-                var4['mfaChallenge'] = var2;
+                var1 = var2[var1];
+                var2 = undefined;
+                var1 = var4.bind(var2)(var1);
+                var1 = var1.MfaScreens;
+                var1 = var1.SELECT;
+                var3['name'] = var1;
+                var5 = {};
+                var1 = _closure2_slot0;
+                var5['mfaChallenge'] = var1;
                 var6 = _closure2_slot4;
-                var4['finish'] = var6;
-                var3['params'] = var4;
-                var4 = var2.methods;
-                var2 = 0;
-                var2 = var4[var2];
-                var4 = null;
-                var6 = var4 == var2;
-                var4 = undefined;
+                var5['finish'] = var6;
+                var3['params'] = var5;
+                var5 = var1.methods;
+                var1 = 0;
+                var5 = var5[var1];
+                var1 = null;
+                var6 = var1 == var5;
+                var1 = undefined;
                 if(var6) { _fun0003_ip = 99; continue _fun0003 }
  94:
-                var4 = var2.type;
+                var1 = var5.type;
  99:
-                if(!(var1 !== var4)) { _fun0003_ip = 148; continue _fun0003 }
+                if(!(var2 !== var1)) { _fun0003_ip = 144; continue _fun0003 }
  103:
-                var1 = new Array(2);
-                var1[0] = var3;
                 var2 = {};
-                var2['name'] = var4;
-                var4 = {};
-                var6 = _closure2_slot0;
-                var4['mfaChallenge'] = var6;
-                var5 = _closure2_slot4;
-                var4['finish'] = var5;
-                var2['params'] = var4;
-                var1[1] = var2;
-                _fun0003_ip = 159; continue _fun0003;
- 148:
+                var2['name'] = var1;
+                var1 = {};
+                var5 = _closure2_slot0;
+                var1['mfaChallenge'] = var5;
+                var4 = _closure2_slot4;
+                var1['finish'] = var4;
+                var2['params'] = var1;
+                var1 = new Array(1);
+                var1[0] = var2;
+                _fun0003_ip = 155; continue _fun0003;
+ 144:
                 var2 = new Array(1);
                 var2[0] = var3;
                 var1 = var2;
- 159:
+ 155:
                 return var1;
             }
         };

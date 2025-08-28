@@ -1424,6 +1424,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getCustomHangStatus;
             var3 = var3.bind(var4)();
             var1['customHangStatus'] = var3;
+            var4 = _closure1_slot6;
+            var3 = var4.getGameActivityHangStatus;
+            var3 = var3.bind(var4)();
+            var1['gameActivityHangStatus'] = var3;
             var3 = _closure1_slot15;
             var2 = var3.getVoiceChannelId;
             var3 = var2.bind(var3)();
@@ -1435,60 +1439,71 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = function(arg1, arg2) {
             _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
-                var8 = arg1;
+                var4 = arg1;
                 var1 = arg2;
-                var3 = var1.hangStatus;
-                var5 = var1.customHangStatus;
-                var1 = var8.inVoice;
-                if(var1) { _fun0019_ip = 31; continue _fun0019 }
- 27:
+                var6 = var1.hangStatus;
+                var8 = var1.customHangStatus;
+                var5 = var1.gameActivityHangStatus;
+                var1 = var4.inVoice;
+                if(var1) { _fun0019_ip = 37; continue _fun0019 }
+ 33:
                 var1 = undefined;
                 return var1;
- 31:
-                var9 = null;
-                if(!(var9 != var3)) { _fun0019_ip = 53; continue _fun0019 }
  37:
-                var2 = var8.hangStatus;
+                var3 = null;
+                if(!(var3 != var6)) { _fun0019_ip = 62; continue _fun0019 }
+ 43:
+                var2 = var4.hangStatus;
                 var1 = 'hang_status_select';
-                if(!(var3 === var2)) { _fun0019_ip = 170; continue _fun0019 }
- 53:
-                if(!(var9 != var5)) { _fun0019_ip = 165; continue _fun0019 }
- 57:
-                var7 = var5.status;
-                var2 = var8.customHangStatus;
-                var4 = var9 == var2;
-                var3 = undefined;
+                if(!(var6 === var2)) { _fun0019_ip = 207; continue _fun0019 }
+ 62:
+                if(!(var3 != var8)) { _fun0019_ip = 174; continue _fun0019 }
+ 66:
+                var10 = var8.status;
+                var2 = var4.customHangStatus;
+                var7 = var3 == var2;
                 var6 = undefined;
-                if(var4) { _fun0019_ip = 84; continue _fun0019 }
- 79:
-                var6 = var2.status;
- 84:
-                var4 = 'hang_status_select';
-                var2 = var4;
-                if(!(var7 === var6)) { _fun0019_ip = 167; continue _fun0019 }
- 97:
-                var7 = _closure1_slot0;
-                var10 = _closure1_slot1;
-                var6 = 25;
-                var6 = var10[var6];
-                var7 = var7.bind(var3)(var6);
-                var6 = var7.isEqual;
-                var5 = var5.emoji;
-                var8 = var8.customHangStatus;
-                var9 = var9 == var8;
+                var9 = undefined;
+                if(var7) { _fun0019_ip = 93; continue _fun0019 }
+ 88:
+                var9 = var2.status;
+ 93:
+                var7 = 'hang_status_select';
+                var2 = var7;
+                if(!(var10 === var9)) { _fun0019_ip = 204; continue _fun0019 }
+ 106:
+                var10 = _closure1_slot0;
+                var11 = _closure1_slot1;
+                var9 = 25;
+                var9 = var11[var9];
+                var10 = var10.bind(var6)(var9);
+                var9 = var10.isEqual;
+                var8 = var8.emoji;
+                var11 = var4.customHangStatus;
+                var12 = var3 == var11;
+                var6 = undefined;
+                if(var12) { _fun0019_ip = 162; continue _fun0019 }
+ 156:
+                var6 = var11.emoji;
+ 162:
+                var6 = var9.bind(var10)(var8, var6);
+                var2 = var7;
+                if(!var6) { _fun0019_ip = 204; continue _fun0019 }
+ 174:
+                var7 = var3 != var5;
                 var3 = undefined;
-                if(var9) { _fun0019_ip = 153; continue _fun0019 }
- 147:
-                var3 = var8.emoji;
- 153:
-                var3 = var6.bind(var7)(var5, var3);
-                var2 = var4;
-                if(!var3) { _fun0019_ip = 167; continue _fun0019 }
- 165:
-                var2 = undefined;
- 167:
+                if(!var7) { _fun0019_ip = 201; continue _fun0019 }
+ 183:
+                var4 = var4.gameActivityHangStatus;
+                var3 = undefined;
+                if(!(var4 !== var5)) { _fun0019_ip = 201; continue _fun0019 }
+ 195:
+                var3 = 'hang_status_select';
+ 201:
+                var2 = var3;
+ 204:
                 var1 = var2;
- 170:
+ 207:
                 return var1;
             }
         };

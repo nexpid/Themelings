@@ -143,10 +143,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var4.bind(var20)(var2);
                 var4 = var5.useSharedValue;
                 var2 = 0;
-                if(var6) { _fun0002_ip = 217; continue _fun0002 }
- 214:
+                if(var6) { _fun0002_ip = 216; continue _fun0002 }
+ 213:
                 var2 = var3;
- 217:
+ 216:
                 var5 = var4.bind(var5)(var2);
                 _closure2_slot8 = var5;
                 var9 = _closure1_slot0;

@@ -2214,24 +2214,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function value() {
             _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
-                var9 = this;
-                var1 = var9.props;
-                var13 = var1.guild;
-                var10 = var1.canManage;
-                var4 = var13.features;
+                var10 = this;
+                var1 = var10.props;
+                var14 = var1.guild;
+                var13 = var1.canManage;
+                var4 = var14.features;
                 var3 = var4.has;
                 var1 = _closure1_slot21;
                 var1 = var1.VERIFIED;
                 var1 = var3.bind(var4)(var1);
                 if(var1) { _fun0016_ip = 85; continue _fun0016 }
  51:
-                var4 = var13.features;
+                var4 = var14.features;
                 var3 = var4.has;
                 var1 = _closure1_slot21;
                 var1 = var1.DISCOVERABLE;
                 var3 = var3.bind(var4)(var1);
                 var1 = null;
-                if(!var3) { _fun0016_ip = 378; continue _fun0016 }
+                if(!var3) { _fun0016_ip = 408; continue _fun0016 }
  85:
                 var5 = _closure1_slot27;
                 var11 = _closure1_slot0;
@@ -2246,16 +2246,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var12[var8];
                 var7 = var11.bind(var4)(var7);
                 var15 = var7.intl;
-                var14 = var15.string;
+                var9 = var15.string;
                 var7 = var12[var8];
                 var7 = var11.bind(var4)(var7);
                 var7 = var7.t;
                 var7 = var7.RSfm+v;
-                var7 = var14.bind(var15)(var7);
+                var7 = var9.bind(var15)(var7);
                 var2['title'] = var7;
                 var7 = var12[var6];
                 var7 = var11.bind(var4)(var7);
-                var14 = var7.FormHint;
+                var9 = var7.FormHint;
                 var7 = {};
                 var15 = var12[var8];
                 var15 = var11.bind(var4)(var15);
@@ -2267,18 +2267,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = var15./B6PR0;
                 var15 = var16.bind(var17)(var15);
                 var7['children'] = var15;
-                var7 = var5.bind(var4)(var14, var7);
+                var7 = var5.bind(var4)(var9, var7);
                 var2['hint'] = var7;
                 var6 = var12[var6];
                 var6 = var11.bind(var4)(var6);
                 var7 = var6.FormInput;
-                var6 = {'showCharactersRemaining': true, 'maxLength': 120, 'showTopContainer': false, 'value': null, 'multiline': true, 'disabled': null, 'numberOfLines': 4, 'onChange': null, 'autoCorrect': true};
-                var13 = var13.description;
-                var6['value'] = var13;
-                var10 = !var10;
-                var6['disabled'] = var10;
-                var9 = var9.handleDescriptionChange;
-                var6['onChange'] = var9;
+                var6 = {'showCharactersRemaining': true, 'maxLength': null, 'showTopContainer': false, 'value': null, 'multiline': true, 'disabled': null, 'numberOfLines': 4};
+                var9 = true;
+                var15 = 41;
+                var15 = var12[var15];
+                var15 = var11.bind(var4)(var15);
+                var15 = var15.MAX_DESCRIPTION_LENGTH;
+                var6['maxLength'] = var15;
+                var14 = var14.description;
+                var6['value'] = var14;
+                var13 = !var13;
+                var6['disabled'] = var13;
+                var10 = var10.handleDescriptionChange;
+                var6['onChange'] = var10;
+                var6['autoCorrect'] = var9;
                 var9 = var12[var8];
                 var9 = var11.bind(var4)(var9);
                 var10 = var9.intl;
@@ -2292,7 +2299,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var5.bind(var4)(var7, var6);
                 var2['children'] = var6;
                 var1 = var5.bind(var4)(var3, var2);
- 378:
+ 408:
                 return var1;
             }
         };
@@ -2468,7 +2475,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var12.bind(var5)(var2);
                 var3 = var2.FormSection;
                 var2 = {};
-                var6 = 41;
+                var6 = 42;
                 var6 = var13[var6];
                 var6 = var12.bind(var5)(var6);
                 var7 = var6.TableRow;
@@ -2554,7 +2561,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var8;
             var8 = _closure1_slot27;
-            var6 = 42;
+            var6 = 43;
             var6 = var9[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.NavScrim;
@@ -2572,12 +2579,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var7 = var4.bind(var1)(var7);
     var _closure1_slot32 = var7;
-    var4 = 43;
+    var4 = 44;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ThemeContext;
     var7['contextType'] = var4;
-    var4 = 48;
+    var4 = 49;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -2590,13 +2597,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var2.contentContainerStyle;
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var4 = 44;
+            var4 = 45;
             var4 = var3[var4];
             var5 = undefined;
             var7 = var2.bind(var5)(var4);
             var4 = var7.useNavigation;
             var18 = var4.bind(var7)();
-            var4 = 45;
+            var4 = 46;
             var7 = var3[var4];
             var12 = var2.bind(var5)(var7);
             var11 = var12.useStateFromStoresObject;
@@ -2719,7 +2726,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var11 = var7.bind(var8)(var4, var1);
-            var1 = 46;
+            var1 = 47;
             var1 = var3[var1];
             var1 = var2.bind(var5)(var1);
             var7 = var1.SimpleDeadchatPromptExperiment;
@@ -2753,7 +2760,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot27;
             var3 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 47;
+            var2 = 48;
             var2 = var7[var2];
             var2 = var3.bind(var5)(var2);
             var3 = var2.RedesignCompat;

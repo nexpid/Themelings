@@ -167,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var _closure4_slot0 = var2;
                         var3 = var5.length;
                         var2 = 0;
-                        if(!(var2 !== var3)) { _fun0002_ip = 88; continue _fun0002 }
+                        if(!(var2 !== var3)) { _fun0002_ip = 89; continue _fun0002 }
  27:
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var2 = var3.bind(var4)(var2);
                         return var2;
- 88:
+ 89:
                         var3 = _closure1_slot7;
                         var2 = var3.getFlattenedGuildIds;
                         var4 = var2.bind(var3)();

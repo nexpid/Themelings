@@ -1279,13 +1279,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = this;
                 var3 = var5.userSearchContext;
                 var29 = null;
-                if(!(var29 != var3)) { _fun0023_ip = 580; continue _fun0023 }
+                if(!(var29 != var3)) { _fun0023_ip = 582; continue _fun0023 }
  27:
                 var6 = var5._include;
                 var4 = _closure1_slot10;
                 var4 = var4.USER;
                 var4 = var6.bind(var5)(var4);
-                if(!var4) { _fun0023_ip = 580; continue _fun0023 }
+                if(!var4) { _fun0023_ip = 582; continue _fun0023 }
  57:
                 var4 = var5.options;
                 var13 = var4.allowSnowflake;
@@ -1302,7 +1302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  110:
                 var8 = var6.thread;
  116:
-                if(!(var29 != var8)) { _fun0023_ip = 491; continue _fun0023 }
+                if(!(var29 != var8)) { _fun0023_ip = 492; continue _fun0023 }
  123:
                 var12 = _closure1_slot5;
                 var11 = var12.getMemberListSections;
@@ -1415,10 +1415,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8['allowSnowflake'] = var13;
                 var8 = var11.bind(var12)(var8);
                 var5['_userResults'] = var8;
-                _fun0023_ip = 580; continue _fun0023;
- 491:
-                if(!(var9 !== var10)) { _fun0023_ip = 531; continue _fun0023 }
- 495:
+                _fun0023_ip = 582; continue _fun0023;
+ 492:
+                if(!(var9 !== var10)) { _fun0023_ip = 532; continue _fun0023 }
+ 496:
                 var8 = _closure1_slot1;
                 var11 = _closure1_slot2;
                 var1 = 13;
@@ -1427,7 +1427,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var9.requestMembers;
                 var1 = 100;
                 var1 = var8.bind(var9)(var10, var7, var1);
- 531:
+ 532:
                 var1 = var3.setLimit;
                 var1 = var1.bind(var3)(var2);
                 var2 = var3.setQuery;
@@ -1438,7 +1438,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['blacklist'] = var5;
                 var1['boosters'] = var4;
                 var1 = var2.bind(var3)(var1);
- 580:
+ 582:
                 var1 = undefined;
                 return var1;
             }
@@ -1525,7 +1525,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 if(var1) { _fun0025_ip = 36; continue _fun0025 }
  30:
                 var1 = new Array(0);
-                _fun0025_ip = 92; continue _fun0025;
+                _fun0025_ip = 93; continue _fun0025;
  36:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -1542,7 +1542,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = true;
                 var2['fuzzy'] = var5;
                 var1 = var3.bind(var4)(var2);
- 92:
+ 93:
                 return var1;
             }
         };
@@ -1671,7 +1671,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 if(var1) { _fun0027_ip = 36; continue _fun0027 }
  30:
                 var1 = new Array(0);
-                _fun0027_ip = 92; continue _fun0027;
+                _fun0027_ip = 93; continue _fun0027;
  36:
                 var4 = _closure1_slot1;
                 var3 = _closure1_slot2;
@@ -1688,7 +1688,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = true;
                 var2['fuzzy'] = var5;
                 var1 = var3.bind(var4)(var2);
- 92:
+ 93:
                 return var1;
             }
         };

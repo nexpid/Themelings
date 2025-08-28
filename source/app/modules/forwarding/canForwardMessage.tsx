@@ -9,62 +9,68 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function _canForwardMessage(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var8 = arg1;
-            var2 = var8.state;
+            var9 = arg1;
+            var2 = var9.state;
             var1 = _closure1_slot7;
             var1 = var1.SEND_FAILED;
             var1 = var2 !== var1;
-            if(!var1) { _fun0001_ip = 182; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 201; continue _fun0001 }
  31:
             var2 = _closure1_slot8;
             var4 = var2.FORWARDABLE;
             var3 = var4.has;
-            var2 = var8.type;
+            var2 = var9.type;
             var2 = var3.bind(var4)(var2);
             var3 = !var2;
             var2 = !var3;
-            if(var3) { _fun0001_ip = 179; continue _fun0001 }
- 65:
-            var3 = var8.poll;
-            var9 = null;
-            var3 = var9 == var3;
-            if(!var3) { _fun0001_ip = 176; continue _fun0001 }
- 80:
-            var4 = var8.activity;
-            var4 = var9 == var4;
-            if(!var4) { _fun0001_ip = 173; continue _fun0001 }
- 93:
-            var5 = var8.call;
-            var5 = var9 == var5;
-            if(!var5) { _fun0001_ip = 170; continue _fun0001 }
- 105:
-            var6 = var8.activityInstance;
-            var6 = var9 == var6;
-            if(!var6) { _fun0001_ip = 167; continue _fun0001 }
- 118:
-            var11 = _closure1_slot0;
-            var10 = _closure1_slot1;
-            var9 = 5;
-            var10 = var10[var9];
-            var9 = undefined;
-            var10 = var11.bind(var9)(var10);
-            var9 = var10.removeFlag;
-            var8 = var8.flags;
-            var7 = _closure1_slot9;
-            var8 = var9.bind(var10)(var8, var7);
-            var7 = 0;
-            var6 = var7 === var8;
- 167:
+            if(var3) { _fun0001_ip = 198; continue _fun0001 }
+ 68:
+            var3 = var9.poll;
+            var10 = null;
+            var3 = var10 == var3;
+            if(!var3) { _fun0001_ip = 195; continue _fun0001 }
+ 83:
+            var4 = var9.sharedClientTheme;
+            var4 = var10 == var4;
+            if(!var4) { _fun0001_ip = 192; continue _fun0001 }
+ 96:
+            var5 = var9.activity;
+            var5 = var10 == var5;
+            if(!var5) { _fun0001_ip = 189; continue _fun0001 }
+ 109:
+            var6 = var9.call;
+            var6 = var10 == var6;
+            if(!var6) { _fun0001_ip = 186; continue _fun0001 }
+ 121:
+            var7 = var9.activityInstance;
+            var7 = var10 == var7;
+            if(!var7) { _fun0001_ip = 183; continue _fun0001 }
+ 134:
+            var12 = _closure1_slot0;
+            var11 = _closure1_slot1;
+            var10 = 5;
+            var11 = var11[var10];
+            var10 = undefined;
+            var11 = var12.bind(var10)(var11);
+            var10 = var11.removeFlag;
+            var9 = var9.flags;
+            var8 = _closure1_slot9;
+            var9 = var10.bind(var11)(var9, var8);
+            var8 = 0;
+            var7 = var8 === var9;
+ 183:
+            var6 = var7;
+ 186:
             var5 = var6;
- 170:
+ 189:
             var4 = var5;
- 173:
+ 192:
             var3 = var4;
- 176:
+ 195:
             var2 = var3;
- 179:
+ 198:
             var1 = var2;
- 182:
+ 201:
             return var1;
         }
     };

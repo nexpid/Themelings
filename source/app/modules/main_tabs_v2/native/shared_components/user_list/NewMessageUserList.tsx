@@ -1112,19 +1112,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var18.useUserListActionsProps;
             var3 = {};
             var19 = undefined;
-            if(var16) { _fun0011_ip = 671; continue _fun0011 }
- 668:
+            if(var16) { _fun0011_ip = 672; continue _fun0011 }
+ 669:
             var19 = var33;
- 671:
+ 672:
             var3['actions'] = var19;
             var19 = undefined;
-            if(var16) { _fun0011_ip = 692; continue _fun0011 }
- 681:
+            if(var16) { _fun0011_ip = 693; continue _fun0011 }
+ 682:
             var19 = undefined;
-            if(!var29) { _fun0011_ip = 692; continue _fun0011 }
- 686:
+            if(!var29) { _fun0011_ip = 693; continue _fun0011 }
+ 687:
             var19 = var28.searchBarRowContainer;
- 692:
+ 693:
             var3['style'] = var19;
             var3 = var7.bind(var18)(var3);
             var20 = var3.headerSize;
@@ -1160,20 +1160,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var3.bind(var23)(var2);
             var1 = var1.length;
             var1 = var8 === var1;
-            if(!var1) { _fun0011_ip = 778; continue _fun0011 }
- 774:
+            if(!var1) { _fun0011_ip = 779; continue _fun0011 }
+ 775:
             var1 = var35 != var25;
- 778:
-            if(!(var35 == var6)) { _fun0011_ip = 1126; continue _fun0011 }
- 785:
+ 779:
+            if(!(var35 == var6)) { _fun0011_ip = 1127; continue _fun0011 }
+ 786:
             var7 = _closure1_slot10;
-            if(var18) { _fun0011_ip = 1047; continue _fun0011 }
- 795:
+            if(var18) { _fun0011_ip = 1048; continue _fun0011 }
+ 796:
             var2 = _closure1_slot5;
             var3 = {};
             var27 = var28.noResults;
-            if(var1) { _fun0011_ip = 1005; continue _fun0011 }
- 813:
+            if(var1) { _fun0011_ip = 1006; continue _fun0011 }
+ 814:
             var3['style'] = var27;
             var30 = _closure1_slot10;
             var26 = _closure1_slot1;
@@ -1208,33 +1208,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var31 = var32.bind(var4)(var31);
             var32 = var31.UserFlashListActions;
             var31 = {};
-            if(!(var35 != var34)) { _fun0011_ip = 975; continue _fun0011 }
- 972:
+            if(!(var35 != var34)) { _fun0011_ip = 976; continue _fun0011 }
+ 973:
             var33 = var34;
- 975:
+ 976:
             var31['actions'] = var33;
             var31 = var30.bind(var4)(var32, var31);
             var1['children'] = var31;
             var1 = var30.bind(var4)(var26, var1);
             var3['children'] = var1;
             var1 = var3;
-            _fun0011_ip = 1039; continue _fun0011;
- 1005:
+            _fun0011_ip = 1040; continue _fun0011;
+ 1006:
             var26 = new Array(2);
             var26[0] = var27;
             var27 = undefined;
-            if(!var29) { _fun0011_ip = 1024; continue _fun0011 }
- 1018:
+            if(!var29) { _fun0011_ip = 1025; continue _fun0011 }
+ 1019:
             var27 = var28.searchBarRowContainer;
- 1024:
+ 1025:
             var26[1] = var27;
             var3['style'] = var26;
             var3['children'] = var25;
             var1 = var3;
- 1039:
+ 1040:
             var1 = var7.bind(var4)(var2, var1);
-            _fun0011_ip = 1123; continue _fun0011;
- 1047:
+            _fun0011_ip = 1124; continue _fun0011;
+ 1048:
             var3 = _closure1_slot0;
             var25 = _closure1_slot2;
             var2 = 18;
@@ -1252,9 +1252,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 12;
             var2['insetEnd'] = var8;
             var1 = var7.bind(var4)(var3, var2);
- 1123:
+ 1124:
             var6 = var1;
- 1126:
+ 1127:
             var3 = _closure1_slot12;
             var2 = _closure1_slot11;
             var1 = {};
@@ -1265,10 +1265,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var19[var5];
             var7 = var7.bind(var4)(var5);
             var5 = {};
-            if(!var17) { _fun0011_ip = 1168; continue _fun0011 }
- 1165:
+            if(!var17) { _fun0011_ip = 1169; continue _fun0011 }
+ 1166:
             var17 = var18;
- 1168:
+ 1169:
             var5['autoFocus'] = var17;
             var5['hasQuery'] = var16;
             var5['onChangeText'] = var15;

@@ -196,38 +196,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 10;
             var4 = var22[var4];
             var4 = var20.bind(var5)(var4);
-            if(!(var5 === var6)) { _fun0001_ip = 405; continue _fun0001 }
- 357:
+            if(!(var5 === var6)) { _fun0001_ip = 409; continue _fun0001 }
+ 361:
             var22 = var1 == var21;
             var20 = undefined;
-            if(var22) { _fun0001_ip = 372; continue _fun0001 }
- 366:
+            if(var22) { _fun0001_ip = 376; continue _fun0001 }
+ 370:
             var20 = var21.avatarDecoration;
- 372:
-            if(!(var1 == var20)) { _fun0001_ip = 384; continue _fun0001 }
  376:
+            if(!(var1 == var20)) { _fun0001_ip = 388; continue _fun0001 }
+ 380:
             var19 = var19.avatarDecoration;
-            _fun0001_ip = 402; continue _fun0001;
- 384:
+            _fun0001_ip = 406; continue _fun0001;
+ 388:
             var22 = var1 == var21;
             var20 = undefined;
-            if(var22) { _fun0001_ip = 399; continue _fun0001 }
- 393:
+            if(var22) { _fun0001_ip = 403; continue _fun0001 }
+ 397:
             var20 = var21.avatarDecoration;
- 399:
+ 403:
             var19 = var20;
- 402:
+ 406:
             var6 = var19;
- 405:
+ 409:
             var6 = var4.bind(var5)(var6);
             var4 = {};
             var4['isMobileOnline'] = var18;
             var4['size'] = var15;
             var15 = null;
-            if(var17) { _fun0001_ip = 429; continue _fun0001 }
- 426:
+            if(var17) { _fun0001_ip = 433; continue _fun0001 }
+ 430:
             var15 = var16;
- 429:
+ 433:
             var4['status'] = var15;
             var15 = var12.avatarStatusStyle;
             var12 = new Array(2);
@@ -241,10 +241,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var14.bind(var5)(var12);
             var12 = var12.bind(var5)(var13);
             var4['streaming'] = var12;
-            if(!var10) { _fun0001_ip = 492; continue _fun0001 }
- 489:
+            if(!var10) { _fun0001_ip = 496; continue _fun0001 }
+ 493:
             var10 = !var11;
- 492:
+ 496:
             var4['animate'] = var10;
             var4['avatarDecoration'] = var6;
             _closure2_slot5 = var4;
@@ -297,11 +297,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            if(!(var1 == var8)) { _fun0001_ip = 522; continue _fun0001 }
- 515:
+            if(!(var1 == var8)) { _fun0001_ip = 526; continue _fun0001 }
+ 519:
             var1 = var6.bind(var5)(var9);
-            _fun0001_ip = 604; continue _fun0001;
- 522:
+            _fun0001_ip = 608; continue _fun0001;
+ 526:
             var4 = _closure1_slot7;
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -322,7 +322,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'children';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
- 604:
+ 608:
             return var1;
         }
     };

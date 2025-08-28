@@ -773,7 +773,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
-                var3 = var4.openSearchScreen;
+                var3 = var4.initializeAutocomplete;
                 var2 = _closure2_slot5;
                 var2 = var3.bind(var4)(var2);
                 return var1;
@@ -864,8 +864,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var3 = var7.bind(var11)(var3, var4);
-            if(!(var1 != var39)) { _fun0001_ip = 2038; continue _fun0001 }
- 1160:
+            if(!(var1 != var39)) { _fun0001_ip = 2037; continue _fun0001 }
+ 1159:
             var7 = _closure1_slot12;
             var4 = _closure1_slot4;
             var3 = {};
@@ -922,8 +922,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var35 = var39.isPrivate;
             var36 = var35.bind(var39)();
             var35 = null;
-            if(var36) { _fun0001_ip = 1441; continue _fun0001 }
- 1397:
+            if(var36) { _fun0001_ip = 1440; continue _fun0001 }
+ 1396:
             var38 = _closure1_slot11;
             var37 = _closure1_slot1;
             var40 = _closure1_slot2;
@@ -935,7 +935,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var39 = 'left';
             var36['textAlign'] = var39;
             var35 = var38.bind(var5)(var37, var36);
- 1441:
+ 1440:
             var34[2] = var35;
             var32['children'] = var34;
             var32 = var7.bind(var5)(var33, var32);
@@ -959,8 +959,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = {};
             var6['gesture'] = var9;
             var11 = _closure1_slot12;
-            if(var8) { _fun0001_ip = 1759; continue _fun0001 }
- 1547:
+            if(var8) { _fun0001_ip = 1758; continue _fun0001 }
+ 1546:
             var9 = _closure1_slot1;
             var8 = _closure1_slot2;
             var8 = var8[var10];
@@ -979,8 +979,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = new Array(2);
             var10[0] = var12;
             var12 = null;
-            if(!(var15 !== var28)) { _fun0001_ip = 1740; continue _fun0001 }
- 1623:
+            if(!(var15 !== var28)) { _fun0001_ip = 1739; continue _fun0001 }
+ 1622:
             var29 = _closure1_slot11;
             var28 = _closure1_slot0;
             var34 = _closure1_slot2;
@@ -1009,12 +1009,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var30 = var29.bind(var5)(var31, var30);
             var15['children'] = var30;
             var12 = var29.bind(var5)(var28, var15);
- 1740:
+ 1739:
             var10[1] = var12;
             var8['children'] = var10;
             var8 = var11.bind(var5)(var9, var8);
-            _fun0001_ip = 2016; continue _fun0001;
- 1759:
+            _fun0001_ip = 2015; continue _fun0001;
+ 1758:
             var10 = _closure1_slot4;
             var9 = {};
             var15 = var18.detailsContainer;
@@ -1046,12 +1046,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['onBackPress'] = var20;
             var15['suggestionsDismissed'] = var23;
             var15['setSuggestionsDismissed'] = var22;
-            if(var19) { _fun0001_ip = 1893; continue _fun0001 }
- 1890:
+            if(var19) { _fun0001_ip = 1892; continue _fun0001 }
+ 1889:
             var19 = var21;
- 1893:
-            if(var19) { _fun0001_ip = 1925; continue _fun0001 }
- 1896:
+ 1892:
+            if(var19) { _fun0001_ip = 1924; continue _fun0001 }
+ 1895:
             var22 = _closure1_slot0;
             var23 = _closure1_slot2;
             var21 = 19;
@@ -1059,11 +1059,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var22.bind(var5)(var21);
             var21 = var22.isAndroid;
             var19 = var21.bind(var22)();
- 1925:
-            if(!var19) { _fun0001_ip = 1932; continue _fun0001 }
- 1928:
+ 1924:
+            if(!var19) { _fun0001_ip = 1931; continue _fun0001 }
+ 1927:
             var19 = var1 != var20;
- 1932:
+ 1931:
             var15['showBackButton'] = var19;
             var15 = var14.bind(var5)(var18, var15);
             var12['children'] = var15;
@@ -1083,13 +1083,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[1] = var13;
             var9['children'] = var12;
             var8 = var11.bind(var5)(var10, var9);
- 2016:
+ 2015:
             var6['children'] = var8;
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 2038:
+ 2037:
             return var1;
         }
     };

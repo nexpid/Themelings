@@ -390,14 +390,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = _closure1_slot9;
                 var6 = var6.PLAYING;
                 var6 = var8 !== var6;
-                if(!var6) { _fun0002_ip = 678; continue _fun0002 }
- 664:
+                if(!var6) { _fun0002_ip = 676; continue _fun0002 }
+ 662:
                 var7 = _closure1_slot9;
                 var7 = var7.PAUSED;
                 var6 = var8 !== var7;
- 678:
-                if(!var6) { _fun0002_ip = 769; continue _fun0002 }
- 681:
+ 676:
+                if(!var6) { _fun0002_ip = 767; continue _fun0002 }
+ 679:
                 var9 = _closure1_slot6;
                 var8 = _closure1_slot1;
                 var7 = _closure1_slot2;
@@ -416,7 +416,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var9.bind(var4)(var11, var10);
                 var7['children'] = var10;
                 var6 = var9.bind(var4)(var8, var7);
- 769:
+ 767:
                 var5[1] = var6;
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

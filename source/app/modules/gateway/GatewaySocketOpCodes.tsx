@@ -440,17 +440,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = null;
                 var9 = var5 != var8;
                 var7 = '';
-                if(!var9) { _fun0004_ip = 61; continue _fun0004 }
- 58:
+                if(!var9) { _fun0004_ip = 62; continue _fun0004 }
+ 59:
                 var7 = var8;
- 61:
+ 62:
                 var1['query'] = var7;
                 var7 = var5 != var6;
                 var5 = null;
-                if(!var7) { _fun0004_ip = 77; continue _fun0004 }
- 74:
+                if(!var7) { _fun0004_ip = 79; continue _fun0004 }
+ 76:
                 var5 = var6;
- 77:
+ 79:
                 var1['continuation_token'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 var1 = undefined;

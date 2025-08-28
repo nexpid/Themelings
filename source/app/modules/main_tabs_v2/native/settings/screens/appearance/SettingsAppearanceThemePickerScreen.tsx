@@ -691,16 +691,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var21 = var17[var22];
                 var25 = var21.theme;
                 var21 = 'light';
-                if(!(var21 === var25)) { _fun0003_ip = 801; continue _fun0003 }
- 799:
+                if(!(var21 === var25)) { _fun0003_ip = 800; continue _fun0003 }
+ 798:
                 var11 = 0;
- 801:
+ 800:
                 var8 = var2.bind(var8)(var11);
                 var2 = var29.activeIndex;
-                if(!var14) { _fun0003_ip = 818; continue _fun0003 }
- 815:
+                if(!var14) { _fun0003_ip = 817; continue _fun0003 }
+ 814:
                 var2 = var8;
- 818:
+ 817:
                 _closure2_slot17 = var2;
                 var25 = _closure1_slot4;
                 var18 = var25.useMemo;
@@ -1273,8 +1273,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var11 = var11.bind(var25)(var7, var8);
                 var7 = var2;
-                if(var14) { _fun0003_ip = 1819; continue _fun0003 }
- 1556:
+                if(var14) { _fun0003_ip = 1818; continue _fun0003 }
+ 1555:
                 var2 = _closure1_slot37;
                 var26 = var2.bind(var4)(var17, var3, var6);
                 var8 = _closure1_slot14;
@@ -1331,8 +1331,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10[1] = var25;
                 var2['children'] = var10;
                 var10 = var8.bind(var4)(var3, var2);
-                _fun0003_ip = 1896; continue _fun0003;
- 1819:
+                _fun0003_ip = 1895; continue _fun0003;
+ 1818:
                 var8 = _closure1_slot13;
                 var3 = _closure1_slot1;
                 var25 = _closure1_slot2;
@@ -1350,7 +1350,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['hasMidnightNux'] = var13;
                 var2['onThemeSelected'] = var11;
                 var10 = var8.bind(var4)(var3, var2);
- 1896:
+ 1895:
                 var8 = _closure1_slot4;
                 var3 = var8.useEffect;
                 var2 = new Array(4);
@@ -1427,15 +1427,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = {'width': '100%', 'height': '100%'};
                 var5[0] = var6;
                 var6 = !var14;
-                if(var14) { _fun0003_ip = 2023; continue _fun0003 }
- 2017:
+                if(var14) { _fun0003_ip = 2022; continue _fun0003 }
+ 2016:
                 var6 = var21.bgBasePrimary;
- 2023:
+ 2022:
                 var5[1] = var6;
                 var1['style'] = var5;
                 var6 = null;
-                if(!var14) { _fun0003_ip = 2085; continue _fun0003 }
- 2036:
+                if(!var14) { _fun0003_ip = 2084; continue _fun0003 }
+ 2035:
                 var8 = _closure1_slot13;
                 var7 = _closure1_slot1;
                 var11 = _closure1_slot2;
@@ -1448,7 +1448,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = true;
                 var5['isDimmed'] = var11;
                 var6 = var8.bind(var4)(var7, var5);
- 2085:
+ 2084:
                 var5 = new Array(2);
                 var5[0] = var6;
                 var8 = _closure1_slot14;
@@ -1488,12 +1488,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11['animatedStyles'] = var21;
                 var11['data'] = var20;
                 var11['useGradientBackground'] = var14;
-                if(!var14) { _fun0003_ip = 2248; continue _fun0003 }
- 2245:
+                if(!var14) { _fun0003_ip = 2247; continue _fun0003 }
+ 2244:
                 var14 = var19;
- 2248:
-                if(!var14) { _fun0003_ip = 2293; continue _fun0003 }
- 2251:
+ 2247:
+                if(!var14) { _fun0003_ip = 2292; continue _fun0003 }
+ 2250:
                 var16 = var17[var16];
                 var16 = var16.type;
                 var17 = _closure1_slot0;
@@ -1503,7 +1503,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = var15.ClientThemeType;
                 var15 = var15.STANDARD_BACKGROUND_THEME;
                 var14 = var16 !== var15;
- 2293:
+ 2292:
                 var11['isNitroLocked'] = var14;
                 var11 = var13.bind(var4)(var12, var11);
                 var9[1] = var11;

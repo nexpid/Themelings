@@ -554,35 +554,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var14 = var8 != var11;
             var13 = undefined;
-            if(!var14) { _fun0008_ip = 155; continue _fun0008 }
- 152:
+            if(!var14) { _fun0008_ip = 156; continue _fun0008 }
+ 153:
             var13 = var11;
- 155:
+ 156:
             var7['context_uri'] = var13;
             var14 = var8 == var11;
             var13 = undefined;
-            if(!var14) { _fun0008_ip = 180; continue _fun0008 }
- 169:
+            if(!var14) { _fun0008_ip = 181; continue _fun0008 }
+ 170:
             var14 = new Array(1);
             var14[0] = var12;
             var13 = var14;
- 180:
+ 181:
             var7['uris'] = var13;
             var11 = var8 != var11;
             var10 = undefined;
-            if(!var11) { _fun0008_ip = 205; continue _fun0008 }
- 196:
+            if(!var11) { _fun0008_ip = 206; continue _fun0008 }
+ 197:
             var11 = {};
             var11['uri'] = var12;
             var10 = var11;
- 205:
+ 206:
             var7['offset'] = var10;
             var10 = var8 != var9;
             var8 = 0;
-            if(!var10) { _fun0008_ip = 222; continue _fun0008 }
- 219:
+            if(!var10) { _fun0008_ip = 223; continue _fun0008 }
+ 220:
             var8 = var9;
- 222:
+ 223:
             var7['position_ms'] = var8;
             var2['body'] = var7;
             var4 = var3.bind(var4)(var6, var5, var2);
@@ -593,7 +593,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = arg1;
                     var3 = _closure2_slot5;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0009_ip = 94; continue _fun0009 }
+                    if(!(var2 != var3)) { _fun0009_ip = 95; continue _fun0009 }
  16:
                     var6 = _closure1_slot9;
                     var5 = var6.put;
@@ -615,7 +615,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7['state'] = var8;
                     var2['query'] = var7;
                     var1 = var5.bind(var6)(var4, var3, var2);
- 94:
+ 95:
                     return var1;
                 }
             };

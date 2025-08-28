@@ -403,16 +403,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['unread'] = var12;
             var14 = var5 != var13;
             var12 = '';
-            if(!var14) { _fun0001_ip = 530; continue _fun0001 }
- 527:
+            if(!var14) { _fun0001_ip = 529; continue _fun0001 }
+ 526:
             var12 = var13;
- 530:
+ 529:
             var1['label'] = var12;
             var1['config'] = var8;
             var1['styles'] = var7;
             var1['externalChildren'] = var6;
-            if(!(var5 == var10)) { _fun0001_ip = 629; continue _fun0001 }
- 552:
+            if(!(var5 == var10)) { _fun0001_ip = 628; continue _fun0001 }
+ 551:
             var7 = _closure1_slot9;
             var6 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -430,8 +430,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.LARGE;
             var5['size'] = var8;
             var5 = var7.bind(var4)(var6, var5);
-            _fun0001_ip = 679; continue _fun0001;
- 629:
+            _fun0001_ip = 678; continue _fun0001;
+ 628:
             var8 = _closure1_slot9;
             var7 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -444,7 +444,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.guildIcon;
             var6['style'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 679:
+ 678:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

@@ -178,12 +178,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.getCounts;
             var1 = var1.bind(var3)(var4);
             var3 = null;
-            if(!(var3 != var1)) { _fun0003_ip = 42; continue _fun0003 }
- 34:
+            if(!(var3 != var1)) { _fun0003_ip = 43; continue _fun0003 }
+ 35:
             _closure1_slot7 = var1;
             var1 = undefined;
             return var1;
- 42:
+ 43:
             var1 = false;
             return var1;
         }

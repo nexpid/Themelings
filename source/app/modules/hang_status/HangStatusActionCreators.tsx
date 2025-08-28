@@ -223,9 +223,71 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['updateCustomHangStatus'] = var5;
+    var5 = function updateGameActivityHangStatus(arg1, arg2) {
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+            var10 = arg1;
+            var9 = arg2;
+            var8 = null;
+            if(!(var8 == var10)) { _fun0004_ip = 31; continue _fun0004 }
+ 12:
+            var2 = _closure1_slot8;
+            var1 = undefined;
+            var1 = var2.bind(var1)(var9);
+            _fun0004_ip = 214; continue _fun0004;
+ 31:
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot1;
+            var1 = 6;
+            var1 = var3[var1];
+            var6 = undefined;
+            var7 = var2.bind(var6)(var1);
+            var4 = var7.dispatch;
+            var1 = {};
+            var11 = 'UPDATE_HANG_STATUS_GAME_ACTIVITY';
+            var1['type'] = var11;
+            var1['applicationId'] = var10;
+            var1['saveAsDefault'] = var9;
+            var1 = var4.bind(var7)(var1);
+            var1 = 7;
+            var1 = var3[var1];
+            var4 = var2.bind(var6)(var1);
+            var3 = var4.track;
+            var1 = _closure1_slot7;
+            var2 = var1.SET_HANG_STATUS;
+            var1 = {};
+            var7 = 'game_activity';
+            var1['status_type'] = var7;
+            var9 = _closure1_slot5;
+            var7 = var9.getVoiceChannelId;
+            var7 = var7.bind(var9)();
+            var1['channel_id'] = var7;
+            var10 = _closure1_slot3;
+            var9 = var10.getChannel;
+            var11 = _closure1_slot5;
+            var7 = var11.getVoiceChannelId;
+            var7 = var7.bind(var11)();
+            var7 = var9.bind(var10)(var7);
+            var8 = var8 == var7;
+            if(var8) { _fun0004_ip = 185; continue _fun0004 }
+ 180:
+            var6 = var7.guild_id;
+ 185:
+            var1['guild_id'] = var6;
+            var6 = _closure1_slot4;
+            var5 = var6.getMediaSessionId;
+            var5 = var5.bind(var6)();
+            var1['media_session_id'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+ 214:
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var3['updateGameActivityHangStatus'] = var5;
     var3['clearHangStatus'] = var4;
     var2 = function deleteInvalidHangStatuses() {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var3 = _closure1_slot6;
             var2 = var3.getCustomHangStatus;
@@ -239,27 +301,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arraySpread(var8, var7, var6);
             var3 = var4.filter;
             var2 = function(arg1) {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                     var3 = arg1;
                     var4 = null;
                     var1 = var4 != var3;
-                    if(!var1) { _fun0005_ip = 22; continue _fun0005 }
+                    if(!var1) { _fun0006_ip = 22; continue _fun0006 }
  12:
                     var2 = var3.emoji;
                     var1 = var4 != var2;
  22:
-                    if(!var1) { _fun0005_ip = 88; continue _fun0005 }
+                    if(!var1) { _fun0006_ip = 88; continue _fun0006 }
  25:
                     var5 = var3.emoji;
                     var6 = var4 == var5;
                     var2 = undefined;
-                    if(var6) { _fun0005_ip = 45; continue _fun0005 }
+                    if(var6) { _fun0006_ip = 45; continue _fun0006 }
  40:
                     var2 = var5.id;
  45:
                     var2 = var4 != var2;
-                    if(!var2) { _fun0005_ip = 85; continue _fun0005 }
+                    if(!var2) { _fun0006_ip = 85; continue _fun0006 }
  52:
                     var6 = _closure1_slot2;
                     var5 = var6.getCustomEmojiById;
@@ -276,7 +338,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var4)(var2);
             var3 = var4.length;
             var2 = 0;
-            if(!(var3 > var2)) { _fun0004_ip = 124; continue _fun0004 }
+            if(!(var3 > var2)) { _fun0005_ip = 124; continue _fun0005 }
  75:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;

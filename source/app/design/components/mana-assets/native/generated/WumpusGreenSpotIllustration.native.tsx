@@ -42,7 +42,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var1.height;
             if(!(var8 === var4)) { _fun0001_ip = 49; continue _fun0001 }
  46:
-            var8 = 162;
+            var8 = 192;
  49:
             var3 = _closure1_slot2;
             var12 = _closure1_slot0;

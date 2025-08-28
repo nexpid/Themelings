@@ -156,6 +156,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['SUBSCRIPTION_HEADER'] = var1;
     var1 = 'churn discount subscription header';
     var2['CHURN_DISCOUNT_SUBSCRIPTION_HEADER'] = var1;
+    var1 = 'churn discount popover';
+    var2['CHURN_DISCOUNT_POPOVER'] = var1;
     var1 = 'account credit banner';
     var2['ACCOUNT_CREDIT_BANNER'] = var1;
     var1 = 'premium uncancel modal';

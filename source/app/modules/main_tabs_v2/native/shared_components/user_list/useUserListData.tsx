@@ -1296,8 +1296,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var _closure4_slot0 = var1;
                         var4 = _closure3_slot0;
                         var4 = var4.currentQuery;
-                        if(!(var4 === var5)) { _fun0024_ip = 107; continue _fun0024 }
- 39:
+                        if(!(var4 === var5)) { _fun0024_ip = 108; continue _fun0024 }
+ 40:
                         var4 = new Array(0);
                         _closure4_slot0 = var4;
                         var6 = var7.reduce;
@@ -1361,18 +1361,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var3 = false;
                         var3 = var6.bind(var7)(var5, var3);
-                        if(!var3) { _fun0024_ip = 107; continue _fun0024 }
- 71:
+                        if(!var3) { _fun0024_ip = 108; continue _fun0024 }
+ 72:
                         var3 = _closure3_slot0;
                         var3['filteredGuildMembers'] = var4;
                         var4 = var3.onUpdate;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0024_ip = 107; continue _fun0024 }
- 93:
+                        if(!(var3 != var4)) { _fun0024_ip = 108; continue _fun0024 }
+ 94:
                         var3 = var4.call;
                         var2 = _closure3_slot0;
                         var2 = var3.bind(var4)(var2);
- 107:
+ 108:
                         return var1;
                     }
                 };
@@ -1582,7 +1582,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = arg1;
                 var6 = var5.bind(var6)(var4);
                 var4 = '';
-                if(!(var4 !== var6)) { _fun0027_ip = 147; continue _fun0027 }
+                if(!(var4 !== var6)) { _fun0027_ip = 148; continue _fun0027 }
  50:
                 var4 = arg2;
                 if(!var4) { _fun0027_ip = 90; continue _fun0027 }
@@ -1598,7 +1598,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  90:
                 var5 = var2.userSearchContext;
                 var3 = null;
-                if(!(var3 != var5)) { _fun0027_ip = 169; continue _fun0027 }
+                if(!(var3 != var5)) { _fun0027_ip = 170; continue _fun0027 }
  102:
                 var4 = var5.setQuery;
                 var3 = {};
@@ -1608,15 +1608,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = 0.002592;
                 var3['boosterFallback'] = var6;
                 var3 = var4.bind(var5)(var3);
-                _fun0027_ip = 169; continue _fun0027;
- 147:
+                _fun0027_ip = 170; continue _fun0027;
+ 148:
                 var3 = var2.userSearchContext;
                 var2 = null;
-                if(!(var2 != var3)) { _fun0027_ip = 169; continue _fun0027 }
- 159:
+                if(!(var2 != var3)) { _fun0027_ip = 170; continue _fun0027 }
+ 160:
                 var2 = var3.clearQuery;
                 var2 = var2.bind(var3)();
- 169:
+ 170:
                 return var1;
             }
         };
@@ -2201,16 +2201,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot9 = var7;
             var6 = var3.excludeCurrentUser;
             var20 = undefined;
-            if(!(var6 === var20)) { _fun0036_ip = 118; continue _fun0036 }
- 116:
+            if(!(var6 === var20)) { _fun0036_ip = 119; continue _fun0036 }
+ 117:
             var6 = false;
- 118:
+ 119:
             var _closure2_slot10 = var6;
             var5 = var3.affinitySuggestionsLimit;
-            if(!(var5 === var20)) { _fun0036_ip = 135; continue _fun0036 }
- 132:
+            if(!(var5 === var20)) { _fun0036_ip = 136; continue _fun0036 }
+ 133:
             var5 = 5;
- 135:
+ 136:
             var _closure2_slot11 = var5;
             var _closure2_slot12 = var20;
             var _closure2_slot13 = var20;

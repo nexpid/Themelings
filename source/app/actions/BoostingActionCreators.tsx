@@ -93,7 +93,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var10 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 198; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 199; continue _fun0002 }
  13:
                     var7 = undefined;
                     if(!(var10 === var7)) { _fun0002_ip = 21; continue _fun0002 }
@@ -105,7 +105,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var7;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 195; continue _fun0002 }
+                    if(var3) { _fun0002_ip = 196; continue _fun0002 }
  34:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -125,13 +125,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['query'] = var9;
                     var3['rejectWithError'] = var8;
                     var3 = var4.bind(var6)(var3);
-                    SaveGenerator(address=114);
- 112:
+                    SaveGenerator(address=115);
+ 113:
                     return var3;
- 114:
+ 115:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 192; continue _fun0002 }
- 120:
+                    if(var4) { _fun0002_ip = 193; continue _fun0002 }
+ 121:
                     var8 = var3.body;
                     var6 = var8.map;
                     var4 = function(arg1) {
@@ -154,11 +154,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['appliedGuildBoosts'] = var4;
                     var5 = var6.bind(var7)(var5);
                     return var4;
- 192:
+ 193:
                     return var3;
- 195:
+ 196:
                     return var2;
- 198:
+ 199:
                     return var1;
                 }
             };

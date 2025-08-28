@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  52:
             var7 = var1.ok;
             var1 = false;
-            if(!var7) { _fun0002_ip = 231; continue _fun0002 }
+            if(!var7) { _fun0002_ip = 235; continue _fun0002 }
  66:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['userId'] = var10;
             var7 = var8.bind(var9)(var7);
             var1 = false;
-            _fun0002_ip = 231; continue _fun0002;
+            _fun0002_ip = 235; continue _fun0002;
  125:
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['onCancel'] = var6;
             var3 = var4.bind(var5)(var3);
- 231:
+ 235:
             return var1;
         }
     };
@@ -279,19 +279,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.isStranger;
             var8 = var8.bind(var9)(var7);
             var9 = null;
-            if(!(var9 == var6)) { _fun0007_ip = 248; continue _fun0007 }
+            if(!(var9 == var6)) { _fun0007_ip = 259; continue _fun0007 }
  116:
-            if(!var3) { _fun0007_ip = 248; continue _fun0007 }
+            if(!var3) { _fun0007_ip = 259; continue _fun0007 }
  122:
             var9 = false;
-            if(!(var9 !== var8)) { _fun0007_ip = 248; continue _fun0007 }
- 128:
-            if(!var8) { _fun0007_ip = 134; continue _fun0007 }
+            if(!(var9 !== var8)) { _fun0007_ip = 259; continue _fun0007 }
  131:
-            if(var3) { _fun0007_ip = 193; continue _fun0007 }
+            if(!var8) { _fun0007_ip = 137; continue _fun0007 }
  134:
-            if(!var3) { _fun0007_ip = 246; continue _fun0007 }
+            if(var3) { _fun0007_ip = 200; continue _fun0007 }
  137:
+            if(!var3) { _fun0007_ip = 257; continue _fun0007 }
+ 140:
             var8 = _closure1_slot5;
             var3 = {};
             var3['userId'] = var7;
@@ -352,8 +352,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var8.bind(var9)(var3);
-            _fun0007_ip = 246; continue _fun0007;
- 193:
+            _fun0007_ip = 257; continue _fun0007;
+ 200:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var3 = 5;
@@ -404,9 +404,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['onCancel'] = var10;
             var3 = var8.bind(var9)(var3);
- 246:
+ 257:
             return var4;
- 248:
+ 259:
             var3 = _closure1_slot5;
             var2 = {};
             var2['userId'] = var7;

@@ -335,8 +335,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var7 = var7.container;
             var1['style'] = var7;
-            if(!(var5 == var18)) { _fun0003_ip = 464; continue _fun0003 }
- 389:
+            if(!(var5 == var18)) { _fun0003_ip = 463; continue _fun0003 }
+ 388:
             var8 = _closure1_slot9;
             var7 = _closure1_slot5;
             var5 = {};
@@ -355,8 +355,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var22.bind(var4)(var21, var20);
             var5['children'] = var20;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0003_ip = 540; continue _fun0003;
- 464:
+            _fun0003_ip = 539; continue _fun0003;
+ 463:
             var8 = _closure1_slot9;
             var7 = _closure1_slot11;
             var6 = {};
@@ -414,7 +414,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['expandBottomSheet'] = var10;
             var6['onCommandExecuted'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 540:
+ 539:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

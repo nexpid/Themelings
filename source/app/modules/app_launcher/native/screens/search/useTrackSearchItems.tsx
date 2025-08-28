@@ -80,19 +80,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         var6 = arg1;
                         var1 = var6.isViewable;
-                        if(!var1) { _fun0002_ip = 266; continue _fun0002 }
+                        if(!var1) { _fun0002_ip = 267; continue _fun0002 }
  15:
                         var2 = _closure2_slot0;
                         var1 = var6.item;
                         var11 = undefined;
                         var3 = var2.bind(var11)(var1);
                         var2 = null;
-                        if(!(var2 != var3)) { _fun0002_ip = 266; continue _fun0002 }
+                        if(!(var2 != var3)) { _fun0002_ip = 267; continue _fun0002 }
  43:
                         var1 = _closure2_slot4;
                         var1 = var1.current;
                         var1 = var1[var3];
-                        if(!(var2 == var1)) { _fun0002_ip = 266; continue _fun0002 }
+                        if(!(var2 == var1)) { _fun0002_ip = 267; continue _fun0002 }
  63:
                         var1 = _closure2_slot4;
                         var2 = var1.current;
@@ -139,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['properties'] = var1;
                         var1 = false;
                         var1 = var3.bind(var4)(var2, var1);
- 266:
+ 267:
                         var1 = undefined;
                         return var1;
                     }

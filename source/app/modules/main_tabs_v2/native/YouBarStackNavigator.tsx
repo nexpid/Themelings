@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot14 = var1;
-    var1 = function getSettingsComponent() {
+    var1 = function getYouComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 9;
@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot15 = var1;
-    var1 = function getYouComponent() {
+    var1 = function getICYMIComponent() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
         var1 = 10;
@@ -51,17 +51,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot16 = var1;
-    var1 = function getICYMIComponent() {
-        var3 = _closure1_slot0;
-        var2 = _closure1_slot2;
-        var1 = 11;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        var1 = var1.default;
-        return var1;
-    };
-    var _closure1_slot17 = var1;
     var1 = global;
     var9 = var1.Object;
     var7 = var9.defineProperty;
@@ -122,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.bind(var2)(var3);
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
-                var2 = 12;
+                var2 = 11;
                 var2 = var6[var2];
                 var7 = var5.bind(var3)(var2);
                 var6 = var7.useStateFromStores;
@@ -164,44 +153,62 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var4 = undefined;
-        var14 = var1.bind(var4)();
-        var _closure2_slot0 = var14;
-        var9 = _closure1_slot1;
+        var15 = var1.bind(var4)();
+        var _closure2_slot0 = var15;
+        var8 = _closure1_slot1;
         var3 = _closure1_slot2;
-        var1 = 13;
+        var1 = 12;
         var1 = var3[var1];
-        var1 = var9.bind(var4)(var1);
+        var1 = var8.bind(var4)(var1);
         var1 = var1.bind(var4)();
         var2 = _closure1_slot0;
-        var1 = 14;
+        var1 = 13;
         var6 = var3[var1];
         var10 = var2.bind(var4)(var6);
-        var8 = var10.useICYMIExperiment;
-        var6 = 'TabsNavigator';
-        var13 = var8.bind(var10)(var6);
-        var _closure2_slot1 = var13;
-        var8 = 15;
-        var8 = var3[var8];
-        var9 = var9.bind(var4)(var8);
-        var8 = 'hide_icymi_tab';
-        var12 = var9.bind(var4)(var8);
-        var _closure2_slot2 = var12;
+        var6 = var10.useICYMIExperiment;
+        var9 = 'TabsNavigator';
+        var14 = var6.bind(var10)(var9);
+        var _closure2_slot1 = var14;
+        var6 = 14;
+        var6 = var3[var6];
+        var8 = var8.bind(var4)(var6);
+        var6 = 'hide_icymi_tab';
+        var13 = var8.bind(var4)(var6);
+        var _closure2_slot2 = var13;
         var1 = var3[var1];
-        var3 = var2.bind(var4)(var1);
-        var2 = var3.useIsNotificationsTabMerged;
+        var8 = var2.bind(var4)(var1);
+        var6 = var8.useIsNotificationsTabMerged;
         var1 = {};
-        var1['location'] = var6;
-        var1 = var2.bind(var3)(var1);
-        var11 = var1.enabled;
-        var _closure2_slot3 = var11;
+        var1['location'] = var9;
+        var1 = var6.bind(var8)(var1);
+        var12 = var1.enabled;
+        var _closure2_slot3 = var12;
+        var1 = 15;
+        var1 = var3[var1];
+        var2 = var2.bind(var4)(var1);
+        var1 = var2.useAccessibilityNativeStackOptions;
+        var11 = var1.bind(var2)();
+        var _closure2_slot4 = var11;
         var10 = _closure1_slot3;
         var3 = var10.useMemo;
-        var2 = function() {
-            var1 = {'headerShown': false, 'gestureEnabled': true, 'fullScreenGestureEnabled': true};
+        var2 = new Array(1);
+        var2[0] = var11;
+        var1 = function() {
+            var1 = {};
+            var4 = _closure2_slot4;
+            var5 = var1;
+            var2 = copyDataProperties(var5, var4);
+            var3 = false;
+            var2 = 'headerShown';
+            var1[var2] = var3;
+            var3 = true;
+            var2 = 'gestureEnabled';
+            var1[var2] = var3;
+            var2 = 'fullScreenGestureEnabled';
+            var1[var2] = var3;
             return var1;
         };
-        var1 = new Array(0);
-        var8 = var3.bind(var10)(var2, var1);
+        var8 = var3.bind(var10)(var1, var2);
         var3 = _closure1_slot9;
         var2 = _closure1_slot5;
         var1 = {};
@@ -215,11 +222,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['id'] = var9;
         var5['screenOptions'] = var8;
         var9 = var10.useMemo;
-        var8 = new Array(4);
-        var8[0] = var14;
-        var8[1] = var13;
-        var8[2] = var12;
-        var8[3] = var11;
+        var8 = new Array(5);
+        var8[0] = var15;
+        var8[1] = var14;
+        var8[2] = var13;
+        var8[3] = var12;
+        var8[4] = var11;
         var7 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -237,65 +245,89 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5['initialParams'] = var1;
                 var1 = _closure1_slot13;
                 var5['getComponent'] = var1;
+                var1 = function options() {
+                    var1 = {};
+                    var3 = _closure2_slot4;
+                    var4 = var1;
+                    var2 = copyDataProperties(var4, var3);
+                    return var1;
+                };
+                var5['options'] = var1;
                 var1 = undefined;
                 var7 = var8.bind(var1)(var7, var5);
-                var5 = new Array(5);
+                var5 = new Array(4);
                 var5[0] = var7;
                 var8 = _closure2_slot1;
                 var7 = null;
-                if(!var8) { _fun0002_ip = 143; continue _fun0002 }
- 89:
+                if(!var8) { _fun0002_ip = 167; continue _fun0002 }
+ 102:
                 var8 = _closure2_slot2;
                 var7 = null;
-                if(var8) { _fun0002_ip = 143; continue _fun0002 }
- 98:
-                var11 = _closure1_slot9;
+                if(var8) { _fun0002_ip = 167; continue _fun0002 }
+ 111:
+                var12 = _closure1_slot9;
                 var8 = _closure1_slot12;
-                var10 = var8.Screen;
+                var11 = var8.Screen;
                 var8 = {};
-                var12 = _closure1_slot8;
-                var12 = var12.ICYMI;
-                var8['name'] = var12;
-                var12 = _closure1_slot17;
-                var8['getComponent'] = var12;
-                var7 = var11.bind(var1)(var10, var8);
- 143:
+                var13 = _closure1_slot8;
+                var13 = var13.ICYMI;
+                var8['name'] = var13;
+                var13 = _closure1_slot16;
+                var8['getComponent'] = var13;
+                var13 = function options() {
+                    var1 = {};
+                    var3 = _closure2_slot4;
+                    var4 = var1;
+                    var2 = copyDataProperties(var4, var3);
+                    return var1;
+                };
+                var8['options'] = var13;
+                var7 = var12.bind(var1)(var11, var8);
+ 167:
                 var5[1] = var7;
                 var6 = _closure2_slot3;
                 var6 = !var6;
-                if(!var6) { _fun0002_ip = 202; continue _fun0002 }
- 157:
-                var10 = _closure1_slot9;
+                if(!var6) { _fun0002_ip = 237; continue _fun0002 }
+ 181:
+                var11 = _closure1_slot9;
                 var7 = _closure1_slot12;
                 var8 = var7.Screen;
                 var7 = {};
-                var11 = _closure1_slot8;
-                var11 = var11.NOTIFICATIONS;
-                var7['name'] = var11;
-                var11 = _closure1_slot14;
-                var7['getComponent'] = var11;
-                var6 = var10.bind(var1)(var8, var7);
- 202:
+                var12 = _closure1_slot8;
+                var12 = var12.NOTIFICATIONS;
+                var7['name'] = var12;
+                var12 = _closure1_slot14;
+                var7['getComponent'] = var12;
+                var12 = function options() {
+                    var1 = {};
+                    var3 = _closure2_slot4;
+                    var4 = var1;
+                    var2 = copyDataProperties(var4, var3);
+                    return var1;
+                };
+                var7['options'] = var12;
+                var6 = var11.bind(var1)(var8, var7);
+ 237:
                 var5[2] = var6;
                 var8 = _closure1_slot9;
                 var6 = _closure1_slot12;
-                var11 = var6.Screen;
-                var7 = {};
-                var10 = _closure1_slot8;
-                var12 = var10.SETTINGS;
-                var7['name'] = var12;
-                var12 = _closure1_slot15;
-                var7['getComponent'] = var12;
-                var7 = var8.bind(var1)(var11, var7);
-                var5[3] = var7;
                 var7 = var6.Screen;
                 var6 = {};
-                var10 = var10.YOU;
-                var6['name'] = var10;
-                var9 = _closure1_slot16;
-                var6['getComponent'] = var9;
+                var11 = _closure1_slot8;
+                var11 = var11.YOU;
+                var6['name'] = var11;
+                var10 = _closure1_slot15;
+                var6['getComponent'] = var10;
+                var9 = function options() {
+                    var1 = {};
+                    var3 = _closure2_slot4;
+                    var4 = var1;
+                    var2 = copyDataProperties(var4, var3);
+                    return var1;
+                };
+                var6['options'] = var9;
                 var6 = var8.bind(var1)(var7, var6);
-                var5[4] = var6;
+                var5[3] = var6;
                 var2['children'] = var5;
                 var1 = var4.bind(var1)(var3, var2);
                 return var1;

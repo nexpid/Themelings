@@ -539,51 +539,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var2.potions;
                 var1['potions'] = var4;
                 var4 = var2.referralTrialOfferId;
-                if(var4) { _fun0005_ip = 720; continue _fun0005 }
- 718:
+                if(var4) { _fun0005_ip = 718; continue _fun0005 }
+ 716:
                 var4 = null;
- 720:
+ 718:
                 var1['referralTrialOfferId'] = var4;
                 var4 = var2.gift_info;
-                if(!(var3 == var4)) { _fun0005_ip = 742; continue _fun0005 }
- 736:
+                if(!(var3 == var4)) { _fun0005_ip = 740; continue _fun0005 }
+ 734:
                 var4 = var2.giftInfo;
- 742:
+ 740:
                 var1['giftInfo'] = var4;
                 var4 = var2.giftingPrompt;
-                if(var4) { _fun0005_ip = 759; continue _fun0005 }
- 757:
+                if(var4) { _fun0005_ip = 757; continue _fun0005 }
+ 755:
                 var4 = null;
- 759:
+ 757:
                 var1['giftingPrompt'] = var4;
                 var4 = var2.messageSnapshots;
-                if(var4) { _fun0005_ip = 778; continue _fun0005 }
- 774:
+                if(var4) { _fun0005_ip = 776; continue _fun0005 }
+ 772:
                 var4 = new Array(0);
- 778:
+ 776:
                 var1['messageSnapshots'] = var4;
                 var4 = var2.isUnsupported;
-                if(var4) { _fun0005_ip = 795; continue _fun0005 }
- 793:
+                if(var4) { _fun0005_ip = 793; continue _fun0005 }
+ 791:
                 var4 = false;
- 795:
+ 793:
                 var1['isUnsupported'] = var4;
                 var4 = var2.changelog_id;
-                if(!(var3 == var4)) { _fun0005_ip = 825; continue _fun0005 }
- 811:
+                if(!(var3 == var4)) { _fun0005_ip = 823; continue _fun0005 }
+ 809:
                 var5 = var2.changelogId;
-                if(var5) { _fun0005_ip = 822; continue _fun0005 }
- 820:
+                if(var5) { _fun0005_ip = 820; continue _fun0005 }
+ 818:
                 var5 = null;
- 822:
+ 820:
                 var4 = var5;
- 825:
+ 823:
                 var1['changelogId'] = var4;
                 var2 = var2.chatWallpaperInfo;
-                if(var2) { _fun0005_ip = 842; continue _fun0005 }
- 840:
+                if(var2) { _fun0005_ip = 840; continue _fun0005 }
+ 838:
                 var2 = null;
- 842:
+ 840:
                 var1['chatWallpaperInfo'] = var2;
                 return var1;
             }

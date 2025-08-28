@@ -119,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 313; continue _fun0002 }
+                    if(var3) { _fun0002_ip = 314; continue _fun0002 }
  13:
                     var9 = var2.token;
                     var12 = var2.feedId;
@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var6;
  41:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 310; continue _fun0002 }
+                    if(var3) { _fun0002_ip = 311; continue _fun0002 }
  50: // try_start_0
                     var7 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -156,20 +156,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = false;
                     var3['rejectWithError'] = var9;
                     var3 = var7.bind(var8)(var3);
-                    SaveGenerator(address=151);
- 149:
+                    SaveGenerator(address=152);
+ 150:
                     return var3;
- 151:
+ 152:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0002_ip = 251; continue _fun0002 }
- 157:
+                    if(var7) { _fun0002_ip = 252; continue _fun0002 }
+ 158:
                     var7 = var3.body;
                     var4 = var7;
                     var8 = var7.wait_ms_until_next_fetch;
                     var5 = var8;
                     var7 = null;
-                    if(!(var7 != var8)) { _fun0002_ip = 248; continue _fun0002 }
- 182:
+                    if(!(var7 != var8)) { _fun0002_ip = 249; continue _fun0002 }
+ 183:
                     var7 = global;
                     var8 = var7.Date;
                     var9 = var7.Date;
@@ -185,11 +185,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var8.toISOString;
                     var5 = var5.bind(var8)();
                     var7['expired_at'] = var5;
- 248: // try_end0
+ 249: // try_end0
                     return var4;
- 251:
+ 252:
                     return var3;
- 254: // catch_target0
+ 255: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -204,9 +204,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = new var16[var3](var15, var14);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
- 310:
+ 311:
                     return var2;
- 313:
+ 314:
                     return var1;
                 }
             };

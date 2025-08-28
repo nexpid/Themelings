@@ -421,8 +421,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.optionNameToLastQuery;
             var3 = var6.get;
             var3 = var3.bind(var6)(var4);
-            if(!(var3 !== var10)) { _fun0007_ip = 297; continue _fun0007 }
- 61:
+            if(!(var3 !== var10)) { _fun0007_ip = 299; continue _fun0007 }
+ 62:
             var6 = var1.optionNameToLastQuery;
             var3 = var6.set;
             var3 = var3.bind(var6)(var4, var10);
@@ -432,22 +432,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var8 = var6 == var9;
             var3 = undefined;
-            if(var8) { _fun0007_ip = 115; continue _fun0007 }
- 105:
+            if(var8) { _fun0007_ip = 116; continue _fun0007 }
+ 106:
             var8 = var9.get;
             var3 = var8.bind(var9)(var10);
- 115:
-            if(!(var6 == var3)) { _fun0007_ip = 268; continue _fun0007 }
- 122:
+ 116:
+            if(!(var6 == var3)) { _fun0007_ip = 270; continue _fun0007 }
+ 123:
             var9 = var1.optionNameToNonce;
             var8 = var9.get;
             var9 = var8.bind(var9)(var4);
-            if(!(var6 != var9)) { _fun0007_ip = 156; continue _fun0007 }
- 142:
+            if(!(var6 != var9)) { _fun0007_ip = 157; continue _fun0007 }
+ 143:
             var8 = _closure1_slot9;
             var6 = var8.delete;
             var6 = var6.bind(var8)(var9);
- 156:
+ 157:
             var9 = _closure1_slot9;
             var8 = var9.set;
             var6 = {};
@@ -470,14 +470,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var6)(var4, var7);
             var5 = var1.lastErrored;
             var2 = undefined;
-            if(!var5) { _fun0007_ip = 266; continue _fun0007 }
- 256:
+            if(!var5) { _fun0007_ip = 268; continue _fun0007 }
+ 258:
             var5 = false;
             var1['lastErrored'] = var5;
             var2 = true;
- 266:
-            return var2;
  268:
+            return var2;
+ 270:
             var2 = false;
             var1['lastErrored'] = var2;
             var2 = var1.optionNameToLastResults;
@@ -485,7 +485,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var2)(var4, var3);
             var1 = true;
             return var1;
- 297:
+ 299:
             var1 = false;
             return var1;
         }
@@ -503,7 +503,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.get;
             var3 = var1.bind(var3)(var2);
             var5 = null;
-            if(!(var5 != var3)) { _fun0008_ip = 528; continue _fun0008 }
+            if(!(var5 != var3)) { _fun0008_ip = 530; continue _fun0008 }
  49:
             var6 = _closure1_slot9;
             var1 = var6.delete;
@@ -634,29 +634,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.get;
             var7 = var3.name;
             var8 = var8.bind(var9)(var7);
-            if(!(var5 != var8)) { _fun0008_ip = 460; continue _fun0008 }
+            if(!(var5 != var8)) { _fun0008_ip = 461; continue _fun0008 }
  444:
             var7 = var8.set;
             var5 = var3.query;
             var5 = var7.bind(var8)(var5, var6);
- 460:
+ 461:
             var8 = var1.optionNameToLastQuery;
             var7 = var8.get;
             var5 = var3.name;
             var7 = var7.bind(var8)(var5);
             var5 = var3.query;
-            if(!(var7 === var5)) { _fun0008_ip = 518; continue _fun0008 }
- 490:
+            if(!(var7 === var5)) { _fun0008_ip = 520; continue _fun0008 }
+ 492:
             var1['lastErrored'] = var4;
             var5 = var1.optionNameToLastResults;
             var4 = var5.set;
             var3 = var3.name;
             var3 = var4.bind(var5)(var3, var6);
- 518:
+ 520:
             var1['lastResponseNonce'] = var2;
             var1 = true;
             return var1;
- 528:
+ 530:
             var1 = false;
             return var1;
         }

@@ -295,7 +295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 170; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 171; continue _fun0006 }
  10:
                     var8 = arg1;
  13: // try_start_0
@@ -317,13 +317,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = true;
                     var2['rejectWithError'] = var7;
                     var2 = var4.bind(var6)(var2);
-                    SaveGenerator(address=92);
- 90:
+                    SaveGenerator(address=93);
+ 91:
                     return var2;
- 92:
+ 93:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0006_ip = 160; continue _fun0006 }
- 98:
+                    if(var4) { _fun0006_ip = 161; continue _fun0006 }
+ 99:
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var3 = 4;
@@ -337,16 +337,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.eligible_guilds;
                     var3['eligibleGuilds'] = var6;
                     var3 = var4.bind(var5)(var3);
- 158: // try_end0
-                    _fun0006_ip = 165; continue _fun0006;
- 160:
+ 159: // try_end0
+                    _fun0006_ip = 166; continue _fun0006;
+ 161:
                     return var2;
- 163: // catch_target0
+ 164: // catch_target0
                     CatchBlockStart(arg_register=1);
- 165:
+ 166:
                     var2 = undefined;
                     return var2;
- 170:
+ 171:
                     return var1;
                 }
             };

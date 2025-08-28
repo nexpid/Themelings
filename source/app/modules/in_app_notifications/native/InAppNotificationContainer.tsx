@@ -780,10 +780,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var10 = var2 != var8;
             var2 = 0;
-            if(!var10) { _fun0001_ip = 259; continue _fun0001 }
- 256:
+            if(!var10) { _fun0001_ip = 256; continue _fun0001 }
+ 253:
             var2 = var8;
- 259:
+ 256:
             var2 = var6.bind(var7)(var2);
             _closure2_slot8 = var2;
             var11 = _closure1_slot4;
@@ -1574,10 +1574,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.safeAreaContainer;
             var5['style'] = var8;
             var8 = undefined;
-            if(!var9) { _fun0001_ip = 1573; continue _fun0001 }
- 1567:
+            if(!var9) { _fun0001_ip = 1567; continue _fun0001 }
+ 1561:
             var8 = 'no-hide-descendants';
- 1573:
+ 1567:
             var5['importantForAccessibility'] = var8;
             var9 = _closure1_slot10;
             var15 = _closure1_slot0;

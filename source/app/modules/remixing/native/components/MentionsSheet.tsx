@@ -960,16 +960,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = _closure2_slot4;
                         var4['channel'] = var8;
                         var8 = _closure2_slot7;
-                        if(var8) { _fun0008_ip = 79; continue _fun0008 }
- 75:
+                        if(var8) { _fun0008_ip = 80; continue _fun0008 }
+ 76:
                         var8 = _closure2_slot8;
- 79:
+ 80:
                         var4['canMentionEveryone'] = var8;
                         var8 = _closure2_slot7;
-                        if(var8) { _fun0008_ip = 95; continue _fun0008 }
- 91:
+                        if(var8) { _fun0008_ip = 96; continue _fun0008 }
+ 92:
                         var8 = _closure2_slot8;
- 95:
+ 96:
                         var4['canMentionHere'] = var8;
                         var8 = true;
                         var4['canMentionUsers'] = var8;

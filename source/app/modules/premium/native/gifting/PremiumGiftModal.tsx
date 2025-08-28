@@ -275,7 +275,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['headerStyle'] = var10;
                     var10 = function render(arg1) {
                         var1 = arg1;
-                        var8 = var1.defaultHighlightedReward;
+                        var9 = var1.defaultHighlightedReward;
+                        var8 = var1.defaultCategory;
                         var7 = var1.claimableRewards;
                         var6 = var1.claimableVariants;
                         var5 = var1.onSelect;
@@ -287,7 +288,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = undefined;
                         var2 = var2.bind(var3)(var1);
                         var1 = {};
-                        var1['defaultHighlightedReward'] = var8;
+                        var1['defaultHighlightedReward'] = var9;
+                        var1['defaultCategory'] = var8;
                         var1['claimableRewards'] = var7;
                         var1['claimableVariants'] = var6;
                         var1['onSelect'] = var5;

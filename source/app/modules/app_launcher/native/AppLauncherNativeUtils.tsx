@@ -67,10 +67,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var2.searchResultsPosition;
             var3 = var2.navigates;
             var1 = undefined;
-            if(!(var3 === var1)) { _fun0001_ip = 61; continue _fun0001 }
- 59:
+            if(!(var3 === var1)) { _fun0001_ip = 62; continue _fun0001 }
+ 60:
             var3 = true;
- 61:
+ 62:
             var6 = var2.entrypoint;
             var11 = _closure1_slot0;
             var12 = _closure1_slot3;
@@ -85,8 +85,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var10.id;
             var16 = _closure1_slot10;
             var16 = var16.BUILT_IN;
-            if(!(var17 !== var16)) { _fun0001_ip = 165; continue _fun0001 }
- 131:
+            if(!(var17 !== var16)) { _fun0001_ip = 166; continue _fun0001 }
+ 132:
             var17 = _closure1_slot0;
             var18 = _closure1_slot3;
             var16 = 7;
@@ -94,8 +94,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var17.bind(var1)(var16);
             var16 = var16.ApplicationCommandTriggerSections;
             var16 = var16.APP;
-            _fun0001_ip = 197; continue _fun0001;
- 165:
+            _fun0001_ip = 198; continue _fun0001;
+ 166:
             var18 = _closure1_slot0;
             var19 = _closure1_slot3;
             var17 = 7;
@@ -103,23 +103,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var18.bind(var1)(var17);
             var17 = var17.ApplicationCommandTriggerSections;
             var16 = var17.BUILT_IN;
- 197:
+ 198:
             var4['section'] = var16;
             var17 = var10.id;
             var16 = null;
             var18 = var16 != var17;
-            if(!var18) { _fun0001_ip = 218; continue _fun0001 }
- 215:
+            if(!var18) { _fun0001_ip = 219; continue _fun0001 }
+ 216:
             var16 = var17;
- 218:
+ 219:
             var4['application_id'] = var16;
             var4['section_name'] = var7;
             var4['query'] = var15;
             var4['search_results_position'] = var14;
             var4['source'] = var6;
             var4 = var12.bind(var13)(var11, var4);
-            if(!var3) { _fun0001_ip = 297; continue _fun0001 }
- 250:
+            if(!var3) { _fun0001_ip = 299; continue _fun0001 }
+ 252:
             var4 = var5.navigate;
             var2 = _closure1_slot8;
             var3 = var2.APPLICATION_VIEW;
@@ -130,7 +130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['sectionName'] = var7;
             var2['entrypoint'] = var6;
             var2 = var4.bind(var5)(var3, var2);
- 297:
+ 299:
             return var1;
         }
     };
@@ -239,14 +239,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var16.bind(var1)(var4);
             var4 = var4.ApplicationCommandType;
             var4 = var4.PRIMARY_ENTRY_POINT;
-            if(!(var14 !== var4)) { _fun0003_ip = 380; continue _fun0003 }
- 213:
+            if(!(var14 !== var4)) { _fun0003_ip = 382; continue _fun0003 }
+ 215:
             var16 = var10.id;
             var4 = _closure1_slot10;
             var4 = var4.FRECENCY;
             var14 = var10;
-            if(!(var16 === var4)) { _fun0003_ip = 264; continue _fun0003 }
- 235:
+            if(!(var16 === var4)) { _fun0003_ip = 266; continue _fun0003 }
+ 237:
             var4 = var11.find;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -259,14 +259,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var11)(var3);
             var4 = null;
             var14 = var10;
-            if(!(var4 != var3)) { _fun0003_ip = 264; continue _fun0003 }
- 261:
+            if(!(var4 != var3)) { _fun0003_ip = 266; continue _fun0003 }
+ 263:
             var14 = var3;
- 264:
+ 266:
             var4 = var9.type;
             var3 = 'channel';
-            if(!(var3 === var4)) { _fun0003_ip = 378; continue _fun0003 }
- 277:
+            if(!(var3 === var4)) { _fun0003_ip = 380; continue _fun0003 }
+ 279:
             var4 = _closure1_slot2;
             var11 = _closure1_slot3;
             var3 = 11;
@@ -288,10 +288,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['analyticsLocation'] = var13;
             var3['onCommandExecuted'] = var12;
             var3 = var11.bind(var5)(var4, var3);
-            _fun0003_ip = 432; continue _fun0003;
- 378:
-            return var1;
+            _fun0003_ip = 434; continue _fun0003;
  380:
+            return var1;
+ 382:
             var4 = var5.navigate;
             var2 = _closure1_slot8;
             var3 = var2.APPLICATION_VIEW;
@@ -303,7 +303,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['sectionName'] = var7;
             var2['entrypoint'] = var6;
             var2 = var4.bind(var5)(var3, var2);
- 432:
+ 434:
             return var1;
         }
     };

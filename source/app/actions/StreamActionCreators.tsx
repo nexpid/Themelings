@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = arg2;
                     var9 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0006_ip = 488; continue _fun0006 }
+                    if(var2) { _fun0006_ip = 489; continue _fun0006 }
  19:
                     var12 = var14;
                     var11 = var13;
@@ -267,7 +267,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = _closure1_slot6;
                     var5 = var8.shouldFetchPreview;
                     var5 = var5.bind(var8)(var14, var13, var9);
-                    if(!var5) { _fun0006_ip = 485; continue _fun0006 }
+                    if(!var5) { _fun0006_ip = 486; continue _fun0006 }
  60:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -330,13 +330,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = false;
                     var8['rejectWithError'] = var11;
                     var8 = var9.bind(var10)(var8);
-                    SaveGenerator(address=296);
- 294:
+                    SaveGenerator(address=297);
+ 295:
                     return var8;
- 296:
+ 297:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(var9) { _fun0006_ip = 366; continue _fun0006 }
- 302:
+                    if(var9) { _fun0006_ip = 367; continue _fun0006 }
+ 303:
                     var10 = _closure1_slot1;
                     var9 = _closure1_slot2;
                     var9 = var9[var5];
@@ -351,17 +351,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = var12.url;
                     var9['previewURL'] = var12;
                     var9 = var10.bind(var11)(var9);
- 364: // try_end0
-                    _fun0006_ip = 485; continue _fun0006;
- 366:
+ 365: // try_end0
+                    _fun0006_ip = 486; continue _fun0006;
+ 367:
                     return var8;
- 369: // catch_target0
+ 370: // catch_target0
                     CatchBlockStart(arg_register=7);
                     var4 = var8;
                     var9 = var8.status;
                     var8 = 429;
-                    if(!(var8 === var9)) { _fun0006_ip = 436; continue _fun0006 }
- 389:
+                    if(!(var8 === var9)) { _fun0006_ip = 437; continue _fun0006 }
+ 390:
                     var4 = var4.body;
                     var8 = var4.retry_after;
                     var9 = _closure1_slot1;
@@ -372,7 +372,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.Millis;
                     var4 = var4.SECOND;
                     var6 = var8 * var4;
- 436:
+ 437:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
                     var3 = var3[var5];
@@ -384,9 +384,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['streamKey'] = var7;
                     var3['retryAfter'] = var6;
                     var3 = var4.bind(var5)(var3);
- 485:
+ 486:
                     return var2;
- 488:
+ 489:
                     return var1;
                 }
             };

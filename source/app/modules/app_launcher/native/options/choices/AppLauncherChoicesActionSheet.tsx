@@ -266,10 +266,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = _closure2_slot0;
                     var7 = var6.choices;
                     var6 = null;
-                    if(!(var6 == var7)) { _fun0004_ip = 63; continue _fun0004 }
- 59:
+                    if(!(var6 == var7)) { _fun0004_ip = 64; continue _fun0004 }
+ 60:
                     var7 = new Array(0);
- 63:
+ 64:
                     var3['choices'] = var7;
                     var3['limit'] = var6;
                     var3 = var4.bind(var5)(var3);

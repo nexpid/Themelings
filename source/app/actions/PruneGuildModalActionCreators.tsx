@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 144; continue _fun0002 }
+                        if(var2) { _fun0002_ip = 145; continue _fun0002 }
  10:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot1;
@@ -73,19 +73,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = false;
                         var2['rejectWithError'] = var5;
                         var2 = var3.bind(var4)(var2);
-                        SaveGenerator(address=119);
- 117:
+                        SaveGenerator(address=120);
+ 118:
                         return var2;
- 119:
+ 120:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                        if(var3) { _fun0002_ip = 141; continue _fun0002 }
- 125:
+                        if(var3) { _fun0002_ip = 142; continue _fun0002 }
+ 126:
                         var3 = var2.body;
                         var3 = var3.pruned;
                         return var3;
- 141:
+ 142:
                         return var2;
- 144:
+ 145:
                         return var1;
                     }
                 };

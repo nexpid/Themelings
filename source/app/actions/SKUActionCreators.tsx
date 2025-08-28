@@ -416,7 +416,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = arg3;
                     var8 = arg4;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 580; continue _fun0004 }
+                    if(var4) { _fun0004_ip = 581; continue _fun0004 }
  19:
                     var12 = arg2;
                     var13 = var5;
@@ -481,13 +481,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = false;
                     var5['rejectWithError'] = var11;
                     var5 = var8.bind(var10)(var5);
-                    SaveGenerator(address=241);
- 239:
+                    SaveGenerator(address=242);
+ 240:
                     return var5;
- 241:
+ 242:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                    if(var8) { _fun0004_ip = 317; continue _fun0004 }
- 247:
+                    if(var8) { _fun0004_ip = 318; continue _fun0004 }
+ 248:
                     var3 = var5;
                     var10 = _closure1_slot1;
                     var8 = _closure1_slot2;
@@ -503,11 +503,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var5.body;
                     var8['price'] = var13;
                     var8 = var10.bind(var11)(var8);
- 312: // try_end0
-                    _fun0004_ip = 575; continue _fun0004;
- 317:
+ 313: // try_end0
+                    _fun0004_ip = 576; continue _fun0004;
+ 318:
                     return var5;
- 320: // catch_target0
+ 321: // catch_target0
                     CatchBlockStart(arg_register=7);
                     var6 = var8;
                     var10 = _closure1_slot1;
@@ -526,8 +526,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var10.bind(var7)(var5);
                     var5 = var5.BillingError;
                     var5 = var8 instanceof var5;
-                    if(var5) { _fun0004_ip = 446; continue _fun0004 }
- 398:
+                    if(var5) { _fun0004_ip = 447; continue _fun0004 }
+ 399:
                     var8 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var5 = var5[var9];
@@ -539,10 +539,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var18 = var8;
                     var5 = new var18[var9](var17, var16);
                     var5 = var5 instanceof Object ? var5 : var8;
-                    _fun0004_ip = 449; continue _fun0004;
- 446:
+                    _fun0004_ip = 450; continue _fun0004;
+ 447:
                     var5 = var6;
- 449:
+ 450:
                     var2 = var5;
                     var6 = var5.code;
                     var9 = _closure1_slot0;
@@ -552,8 +552,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var9.bind(var7)(var5);
                     var5 = var5.ErrorCodes;
                     var5 = var5.BILLING_BUNDLE_ALREADY_PURCHASED;
-                    if(!(var6 !== var5)) { _fun0004_ip = 578; continue _fun0004 }
- 493:
+                    if(!(var6 !== var5)) { _fun0004_ip = 579; continue _fun0004 }
+ 494:
                     var5 = var2;
                     var6 = var5.code;
                     var9 = _closure1_slot0;
@@ -562,8 +562,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var9.bind(var7)(var5);
                     var5 = var5.ErrorCodes;
                     var5 = var5.BILLING_BUNDLE_PARTIALLY_OWNED;
-                    if(!(var6 !== var5)) { _fun0004_ip = 578; continue _fun0004 }
- 534:
+                    if(!(var6 !== var5)) { _fun0004_ip = 579; continue _fun0004 }
+ 535:
                     var5 = var2;
                     var5 = var5.code;
                     var6 = _closure1_slot0;
@@ -572,12 +572,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var6.bind(var7)(var4);
                     var4 = var4.ErrorCodes;
                     var4 = var4.INVALID_BILLING_ADDRESS;
-                    if(!(var5 !== var4)) { _fun0004_ip = 578; continue _fun0004 }
- 575:
+                    if(!(var5 !== var4)) { _fun0004_ip = 579; continue _fun0004 }
+ 576:
                     return var3;
- 578:
+ 579:
                     throw var2;
- 580:
+ 581:
                     return var1;
                 }
             };

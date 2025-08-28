@@ -92,6 +92,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['REQUEST_YOUR_DATA'] = var1;
     var1 = 'FAMILY_CENTER';
     var2['FAMILY_CENTER'] = var1;
+    var1 = 'FAMILY_CENTER_PARENTAL_CONTROLS_SETTINGS';
+    var2['FAMILY_CENTER_PARENTAL_CONTROLS_SETTINGS'] = var1;
     var1 = 'AUTHORIZED_APPS';
     var2['AUTHORIZED_APPS'] = var1;
     var1 = 'AUTHORIZED_APP';
@@ -364,6 +366,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['ICYMI_TAB'] = var1;
     var1 = 'QUEST_HOME';
     var2['QUEST_HOME'] = var1;
+    var1 = 'QUEST_PREVIEW_TOOL';
+    var2['QUEST_PREVIEW_TOOL'] = var1;
     var1 = 'ENCRYPTION_VERIFIED_DEVICES';
     var2['ENCRYPTION_VERIFIED_DEVICES'] = var1;
     var1 = 'DATA_AND_PRIVACY_SECURE_FRAMES_PERSISTENT_CODES';

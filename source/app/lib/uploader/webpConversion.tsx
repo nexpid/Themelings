@@ -17,11 +17,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 367; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 363; continue _fun0001 }
  10:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var2 = 2;
+                    var2 = 3;
                     var2 = var5[var2];
                     var15 = undefined;
                     var7 = var3.bind(var15)(var2);
@@ -30,17 +30,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = arg1;
                     var2 = {'async': true, 'expanded': true, 'includeUnknown': true};
                     var2 = var6.bind(var7)(var5, var2);
-                    SaveGenerator(address=70);
- 68:
+                    SaveGenerator(address=66);
+ 64:
                     return var2;
- 70:
+ 66:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 364; continue _fun0001 }
- 79:
+                    if(var5) { _fun0001_ip = 360; continue _fun0001 }
+ 75:
                     var5 = var2.icc;
                     var14 = null;
-                    if(!(var14 != var5)) { _fun0001_ip = 340; continue _fun0001 }
- 94:
+                    if(!(var14 != var5)) { _fun0001_ip = 336; continue _fun0001 }
+ 90:
                     var10 = var2.icc;
                     var6 = global;
                     var7 = var6.Object;
@@ -52,37 +52,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = '';
                     var8 = 'ICC Description';
                     var7 = undefined;
-                    if(!var5) { _fun0001_ip = 205; continue _fun0001 }
- 144:
+                    if(!var5) { _fun0001_ip = 201; continue _fun0001 }
+ 140:
                     var9 = var13[var12];
-                    if(!(var8 === var9)) { _fun0001_ip = 193; continue _fun0001 }
- 152:
+                    if(!(var8 === var9)) { _fun0001_ip = 189; continue _fun0001 }
+ 148:
                     var16 = var10[var9];
                     var17 = var14 == var16;
                     var5 = undefined;
-                    if(var17) { _fun0001_ip = 170; continue _fun0001 }
- 165:
+                    if(var17) { _fun0001_ip = 166; continue _fun0001 }
+ 161:
                     var5 = var16.description;
- 170:
+ 166:
                     var7 = var16;
-                    if(!(var14 != var5)) { _fun0001_ip = 193; continue _fun0001 }
- 177:
+                    if(!(var14 != var5)) { _fun0001_ip = 189; continue _fun0001 }
+ 173:
                     var5 = var10[var9];
                     var5 = var5.description;
                     var7 = var16;
-                    if(!(var11 === var5)) { _fun0001_ip = 231; continue _fun0001 }
- 193:
+                    if(!(var11 === var5)) { _fun0001_ip = 227; continue _fun0001 }
+ 189:
                     var12 = var12 + 1;
                     var5 = var13.length;
-                    if(var12 < var5) { _fun0001_ip = 144; continue _fun0001 }
- 205:
+                    if(var12 < var5) { _fun0001_ip = 140; continue _fun0001 }
+ 201:
                     var8 = _closure1_slot4;
                     var7 = var8.verbose;
                     var5 = '[webp] ICC profile detected but could not parse description - assuming non-sRGB';
                     var5 = var7.bind(var8)(var5);
                     var5 = false;
                     return var5;
- 231:
+ 227:
                     var5 = var10[var9];
                     var7 = var5.description;
                     var5 = var7.toLowerCase;
@@ -96,29 +96,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var9.description;
                     var6 = var6.HermesInternal;
                     var9 = var6.concat;
-                    if(var5) { _fun0001_ip = 319; continue _fun0001 }
- 299:
+                    if(var5) { _fun0001_ip = 315; continue _fun0001 }
+ 295:
                     var5 = '[webp] non sRGB ICC profile description found: ';
                     var5 = var9.bind(var5)(var10);
                     var5 = var7.bind(var8)(var5);
                     var5 = false;
-                    _fun0001_ip = 337; continue _fun0001;
- 319:
+                    _fun0001_ip = 333; continue _fun0001;
+ 315:
                     var6 = '[webp] sRGB ICC profile description found: ';
                     var6 = var9.bind(var6)(var10);
                     var6 = var7.bind(var8)(var6);
                     var5 = true;
- 337:
+ 333:
                     return var5;
- 340:
+ 336:
                     var6 = _closure1_slot4;
                     var5 = var6.verbose;
                     var4 = '[webp] no ICC profile detected - assuming sRGB';
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 364:
+ 360:
                     return var2;
- 367:
+ 363:
                     return var1;
                 }
             };
@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var3 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                    if(var7) { _fun0002_ip = 601; continue _fun0002 }
+                    if(var7) { _fun0002_ip = 707; continue _fun0002 }
  15:
                     var2 = var3;
                     var _closure4_slot0 = var3;
@@ -165,7 +165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = undefined;
                     var8 = var3.type;
                     var3 = 'image/webp';
-                    if(!(var3 !== var8)) { _fun0002_ip = 564; continue _fun0002 }
+                    if(!(var3 !== var8)) { _fun0002_ip = 670; continue _fun0002 }
  46:
                     var9 = ['image/png'];
                     var8 = var9.includes;
@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var3.Promise;
                     var3 = var9.prototype;
                     var8 = Object.create(var3, {constructor: {value: var9}});
-                    var14 = function(arg1, arg2) {
+                    var17 = function(arg1, arg2) {
                         var2 = arg1;
                         var _closure5_slot0 = var2;
                         var2 = arg2;
@@ -241,8 +241,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = undefined;
                         return var1;
                     };
-                    var15 = var8;
-                    var3 = new var15[var9](var14, var13);
+                    var18 = var8;
+                    var3 = new var18[var9](var17, var16);
                     var8 = var3 instanceof Object ? var3 : var8;
                     SaveGenerator(address=197);
  195:
@@ -264,33 +264,66 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  229:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
                     var3 = var2;
-                    if(var8) { _fun0002_ip = 522; continue _fun0002 }
+                    if(var8) { _fun0002_ip = 628; continue _fun0002 }
  241:
                     var6 = var3;
  244: // try_start_2 // try_end1
                     var9 = _closure1_slot1;
-                    var10 = _closure1_slot2;
-                    var8 = 3;
-                    var8 = var10[var8];
+                    var8 = _closure1_slot2;
+                    var12 = 2;
+                    var8 = var8[var12];
                     var10 = var9.bind(var7)(var8);
                     var9 = var10.decode;
                     var8 = var6;
-                    var8 = var9.bind(var10)(var8);
-                    var5 = var8;
-                    var9 = var8.ctype;
-                    var8 = 4;
-                    if(!(var8 !== var9)) { _fun0002_ip = 449; continue _fun0002 }
- 300:
-                    var8 = var5;
-                    var9 = var8.ctype;
-                    var8 = 6;
-                    if(!(var8 !== var9)) { _fun0002_ip = 449; continue _fun0002 }
- 319:
+                    var11 = var9.bind(var10)(var8);
+                    var5 = var11;
+                    var8 = var11.ctype;
+                    var15 = 4;
+                    if(!(var15 !== var8)) { _fun0002_ip = 312; continue _fun0002 }
+ 297:
+                    var10 = var11.ctype;
+                    var9 = 6;
+                    var8 = false;
+                    if(!(var9 === var10)) { _fun0002_ip = 419; continue _fun0002 }
+ 312:
+                    var10 = _closure1_slot1;
+                    var9 = _closure1_slot2;
+                    var9 = var9[var12];
+                    var10 = var10.bind(var7)(var9);
+                    var9 = var10.toRGBA8;
+                    var17 = var9.bind(var10)(var11);
+                    var9 = global;
+                    var9 = var9.Uint8Array;
+                    var10 = var9.prototype;
+                    var10 = Object.create(var10, {constructor: {value: var9}});
+                    var18 = var10;
+                    var9 = new var18[var9](var17, var16);
+                    var14 = var9 instanceof Object ? var9 : var10;
+                    var9 = var14.length;
+                    var13 = 3;
+                    var9 = var13 < var9;
+                    var11 = 255;
+                    var8 = false;
+                    if(!var9) { _fun0002_ip = 419; continue _fun0002 }
+ 388:
+                    var9 = var14[var13];
+                    var9 = var9 < var11;
+                    var8 = true;
+                    if(var9) { _fun0002_ip = 419; continue _fun0002 }
+ 401:
+                    var13 = var13 + var15;
+                    var9 = var14.length;
+                    var9 = var13 < var9;
+                    var8 = false;
+                    if(var9) { _fun0002_ip = 388; continue _fun0002 }
+ 419:
+                    if(var8) { _fun0002_ip = 555; continue _fun0002 }
+ 425:
                     var5 = var5.tabs;
                     var8 = var5.acTL;
                     var5 = null;
-                    if(!(var5 == var8)) { _fun0002_ip = 415; continue _fun0002 }
- 337: // try_start_3 // try_end2
+                    if(!(var5 == var8)) { _fun0002_ip = 521; continue _fun0002 }
+ 443: // try_start_3 // try_end2
                     var4 = function hasSrgbIccProfile() {
                         var1 = undefined;
                         var4 = _closure1_slot6;
@@ -302,24 +335,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var4 = var4.bind(var7)(var6);
-                    SaveGenerator(address=351);
- 349:
+                    SaveGenerator(address=457);
+ 455:
                     return var4;
- 351:
+ 457:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0002_ip = 376; continue _fun0002 }
- 357:
-                    if(var4) { _fun0002_ip = 373; continue _fun0002 }
- 360:
+                    if(var6) { _fun0002_ip = 482; continue _fun0002 }
+ 463:
+                    if(var4) { _fun0002_ip = 479; continue _fun0002 }
+ 466:
                     var6 = _closure1_slot5;
                     var6 = var6.ICC_NON_SRGB_PROFILE;
- 370: // try_end3
+ 476: // try_end3
                     return var6;
- 373:
+ 479:
                     return var5;
- 376:
+ 482:
                     return var4;
- 379: // catch_target3
+ 485: // catch_target3
                     CatchBlockStart(arg_register=6);
                     var6 = _closure1_slot4;
                     var5 = var6.warn;
@@ -328,25 +361,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure1_slot5;
                     var4 = var4.ICC_DETECTION_FAILED;
                     return var4;
- 415: // try_start_4
+ 521: // try_start_4
                     var6 = _closure1_slot4;
                     var5 = var6.verbose;
                     var4 = '[webp] png is animated (apng) - skipping conversion';
                     var4 = var5.bind(var6)(var4);
                     var4 = _closure1_slot5;
                     var4 = var4.ANIMATED_IMAGE;
- 446: // try_end4
+ 552: // try_end4
                     return var4;
- 449: // try_start_5
+ 555: // try_start_5
                     var6 = _closure1_slot4;
                     var5 = var6.verbose;
-                    var4 = '[webp] png has transparency - skipping conversion';
+                    var4 = '[webp] png uses actual transparency - skipping conversion';
                     var4 = var5.bind(var6)(var4);
                     var3 = _closure1_slot5;
                     var3 = var3.HAS_TRANSPARENCY;
- 480: // try_end5
+ 586: // try_end5
                     return var3;
- 483: // catch_target2 // catch_target4 // catch_target5
+ 589: // catch_target2 // catch_target4 // catch_target5
                     CatchBlockStart(arg_register=6);
                     var6 = _closure1_slot4;
                     var5 = var6.warn;
@@ -355,9 +388,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure1_slot5;
                     var3 = var3.CORRUPTED_FILE;
                     return var3;
- 522:
+ 628:
                     return var2;
- 525: // catch_target0 // catch_target1
+ 631: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=5);
                     var5 = _closure1_slot4;
                     var4 = var5.warn;
@@ -366,7 +399,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure1_slot5;
                     var2 = var2.CONVERSION_FAILED;
                     return var2;
- 564:
+ 670:
                     var5 = _closure1_slot4;
                     var4 = var5.verbose;
                     var3 = '[WebP] File already WebP format';
@@ -374,7 +407,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure1_slot5;
                     var2 = var2.ALREADY_WEBP;
                     return var2;
- 601:
+ 707:
                     return var1;
                 }
             };

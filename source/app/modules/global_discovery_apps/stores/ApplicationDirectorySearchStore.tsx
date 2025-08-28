@@ -61,8 +61,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var1.excludeEmbeddedAppsWithoutPrimaryEntryPointAppCommand;
             var13 = var1.source;
             var3 = undefined;
-            if(!(var13 === var3)) { _fun0002_ip = 107; continue _fun0002 }
- 72:
+            if(!(var13 === var3)) { _fun0002_ip = 108; continue _fun0002 }
+ 73:
             var2 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 5;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             var1 = var1.SearchAppsRequestSource;
             var13 = var1.APP_DIRECTORY;
- 107:
+ 108:
             var1 = global;
             var1 = var1.HermesInternal;
             var12 = var1.concat;

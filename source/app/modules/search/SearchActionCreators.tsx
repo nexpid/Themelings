@@ -379,20 +379,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.bind(var7)(var10);
             var _closure2_slot0 = var8;
             var6 = null;
-            if(!(var6 != var8)) { _fun0006_ip = 103; continue _fun0006 }
- 74:
+            if(!(var6 != var8)) { _fun0006_ip = 104; continue _fun0006 }
+ 75:
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;
             var6 = var6[var4];
             var7 = var7.bind(var1)(var6);
             var6 = var7.setIncludeNSFW;
             var6 = var6.bind(var7)(var9, var8);
- 103:
-            if(!var5) { _fun0006_ip = 116; continue _fun0006 }
- 106:
+ 104:
+            if(!var5) { _fun0006_ip = 117; continue _fun0006 }
+ 107:
             var5 = true;
             var9['search_everywhere'] = var5;
- 116:
+ 117:
             var6 = _closure1_slot0;
             var5 = _closure1_slot2;
             var4 = var5[var4];
@@ -695,30 +695,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['clearWebSearchHistory'] = var7;
-    var7 = function openSearchScreen(arg1) {
-        var7 = arg1;
+    var7 = function initializeAutocomplete(arg1) {
         var3 = _closure1_slot1;
-        var8 = _closure1_slot2;
+        var2 = _closure1_slot2;
         var1 = 3;
-        var2 = var8[var1];
+        var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
         var2 = {};
-        var6 = 'SEARCH_SCREEN_OPEN';
-        var2['type'] = var6;
-        var2['searchContext'] = var7;
-        var6 = _closure1_slot0;
-        var5 = 1;
-        var5 = var8[var5];
-        var6 = var6.bind(var1)(var5);
-        var5 = var6.getSearchContextId;
-        var5 = var5.bind(var6)(var7);
-        var2['id'] = var5;
+        var5 = 'SEARCH_AUTOCOMPLETE_INITIALIZE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['searchContext'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['openSearchScreen'] = var7;
+    var2['initializeAutocomplete'] = var7;
     var7 = function setShowBlockedResults(arg1, arg2) {
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;

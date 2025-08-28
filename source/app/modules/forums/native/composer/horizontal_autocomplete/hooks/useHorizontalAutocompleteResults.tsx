@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot2 = var13;
                 var1 = _closure2_slot6;
                 var12 = null;
-                if(!(var12 != var1)) { _fun0001_ip = 349; continue _fun0001 }
+                if(!(var12 != var1)) { _fun0001_ip = 350; continue _fun0001 }
  26:
                 var2 = _closure2_slot6;
                 var1 = var2.trim;
@@ -157,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = 4;
                 var6 = undefined;
                 var1 = undefined;
-                if(!(var10 !== var2)) { _fun0001_ip = 349; continue _fun0001 }
+                if(!(var10 !== var2)) { _fun0001_ip = 350; continue _fun0001 }
  71:
                 var4 = _closure1_slot0;
                 var2 = _closure1_slot1;
@@ -254,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['channelTypes'] = var3;
                 var1['queryOptions'] = var2;
                 return var1;
- 349:
+ 350:
                 var1 = {'query': null, 'autocompleteType': null, 'autocompleteSelectionStart': null};
                 return var1;
             }

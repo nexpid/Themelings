@@ -197,7 +197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 StartGenerator();
                                 var5 = arg1;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0004_ip = 565; continue _fun0004 }
+                                if(var2) { _fun0004_ip = 566; continue _fun0004 }
  13:
                                 var3 = _closure3_slot0;
                                 var3 = var3.isFetchEnabled;
@@ -208,7 +208,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var3 = var4.add;
                                 var2 = _closure1_slot11;
                                 var2 = var3.bind(var4)(var2);
-                                _fun0004_ip = 560; continue _fun0004;
+                                _fun0004_ip = 561; continue _fun0004;
  61:
                                 var3 = null;
                                 var6 = var3 == var5;
@@ -238,7 +238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var5 = var5.bind(var4)(var3);
                                 var3 = var5.isStaleFeaturedGuilds;
                                 var3 = var3.bind(var5)(var6);
-                                if(!var3) { _fun0004_ip = 560; continue _fun0004 }
+                                if(!var3) { _fun0004_ip = 561; continue _fun0004 }
  159:
                                 var6 = _closure1_slot1;
                                 var5 = _closure1_slot3;
@@ -283,13 +283,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var8 = false;
                                 var5['rejectWithError'] = var8;
                                 var5 = var6.bind(var7)(var5);
-                                SaveGenerator(address=349);
- 347:
+                                SaveGenerator(address=350);
+ 348:
                                 return var5;
- 349:
+ 350:
                                 ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                                if(var6) { _fun0004_ip = 469; continue _fun0004 }
- 355:
+                                if(var6) { _fun0004_ip = 470; continue _fun0004 }
+ 356:
                                 var6 = var5.body;
                                 var9 = var6.total;
                                 var6 = var5.body;
@@ -314,11 +314,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var6['guilds'] = var10;
                                 var6['total'] = var9;
                                 var6 = var7.bind(var8)(var6);
- 467: // try_end0
-                                _fun0004_ip = 560; continue _fun0004;
- 469:
+ 468: // try_end0
+                                _fun0004_ip = 561; continue _fun0004;
+ 470:
                                 return var5;
- 472: // catch_target0
+ 473: // catch_target0
                                 CatchBlockStart(arg_register=8);
                                 var5 = _closure1_slot1;
                                 var6 = _closure1_slot3;
@@ -340,10 +340,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var2 = {};
                                 var2['categoryId'] = var5;
                                 var2 = var3.bind(var4)(var2);
- 560:
+ 561:
                                 var2 = undefined;
                                 return var2;
- 565:
+ 566:
                                 return var1;
                             }
                         };
@@ -375,7 +375,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 StartGenerator();
                                 var2 = arg1;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                                if(var3) { _fun0005_ip = 540; continue _fun0005 }
+                                if(var3) { _fun0005_ip = 541; continue _fun0005 }
  13:
                                 var7 = var2.categoryId;
                                 var5 = var2.forceRefresh;
@@ -389,7 +389,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 return var3;
  37:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                                if(var4) { _fun0005_ip = 537; continue _fun0005 }
+                                if(var4) { _fun0005_ip = 538; continue _fun0005 }
  46:
                                 var6 = _closure3_slot0;
                                 var6 = var6.isFetchEnabled;
@@ -400,7 +400,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var6 = var8.add;
                                 var4 = var7;
                                 var4 = var6.bind(var8)(var4);
-                                _fun0005_ip = 534; continue _fun0005;
+                                _fun0005_ip = 535; continue _fun0005;
  90:
                                 var9 = _closure1_slot10;
                                 var8 = var9.getLastFetchTimestamp;
@@ -417,7 +417,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var6 = var6.bind(var3)(var5);
                                 var5 = var6.isStaleFeaturedGuilds;
                                 var5 = var5.bind(var6)(var8);
-                                if(!var5) { _fun0005_ip = 534; continue _fun0005 }
+                                if(!var5) { _fun0005_ip = 535; continue _fun0005 }
  158:
                                 var8 = _closure1_slot1;
                                 var6 = _closure1_slot3;
@@ -458,13 +458,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var10 = false;
                                 var6['rejectWithError'] = var10;
                                 var6 = var8.bind(var9)(var6);
-                                SaveGenerator(address=328);
- 326:
+                                SaveGenerator(address=329);
+ 327:
                                 return var6;
- 328:
+ 329:
                                 ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                                if(var8) { _fun0005_ip = 447; continue _fun0005 }
- 334:
+                                if(var8) { _fun0005_ip = 448; continue _fun0005 }
+ 335:
                                 var8 = var6.body;
                                 var11 = var8.total;
                                 var8 = var6.body;
@@ -489,11 +489,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var8['guilds'] = var12;
                                 var8['total'] = var11;
                                 var8 = var9.bind(var10)(var8);
- 445: // try_end0
-                                _fun0005_ip = 534; continue _fun0005;
- 447:
+ 446: // try_end0
+                                _fun0005_ip = 535; continue _fun0005;
+ 448:
                                 return var6;
- 450: // catch_target0
+ 451: // catch_target0
                                 CatchBlockStart(arg_register=9);
                                 var8 = _closure1_slot1;
                                 var6 = _closure1_slot3;
@@ -514,11 +514,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var4 = {};
                                 var4['categoryId'] = var7;
                                 var4 = var5.bind(var6)(var4);
- 534:
+ 535:
                                 return var3;
- 537:
+ 538:
                                 return var2;
- 540:
+ 541:
                                 return var1;
                             }
                         };

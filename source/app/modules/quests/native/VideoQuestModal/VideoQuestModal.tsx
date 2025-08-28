@@ -374,10 +374,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useSharedValue;
             var7 = _closure1_slot11;
             var7 = var7.POST_WATCH_VIDEO;
-            if(!(var15 === var7)) { _fun0001_ip = 498; continue _fun0001 }
- 495:
+            if(!(var15 === var7)) { _fun0001_ip = 497; continue _fun0001 }
+ 494:
             var5 = var6;
- 498:
+ 497:
             var6 = var2.bind(var3)(var5);
             var _closure2_slot10 = var6;
             var10 = _closure1_slot0;
@@ -627,8 +627,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = _closure1_slot11;
             var12 = var12.WATCH_VIDEO;
             var13 = var15 === var12;
-            if(!var13) { _fun0001_ip = 1226; continue _fun0001 }
- 1164:
+            if(!var13) { _fun0001_ip = 1225; continue _fun0001 }
+ 1163:
             var20 = _closure1_slot8;
             var16 = _closure1_slot1;
             var24 = _closure1_slot2;
@@ -643,14 +643,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['setIsFullscreen'] = var21;
             var12['sourceQuestContent'] = var17;
             var13 = var20.bind(var4)(var16, var12);
- 1226:
+ 1225:
             var12 = new Array(2);
             var12[0] = var13;
             var13 = _closure1_slot11;
             var13 = var13.POST_WATCH_VIDEO;
             var13 = var15 === var13;
-            if(!var13) { _fun0001_ip = 1298; continue _fun0001 }
- 1251:
+            if(!var13) { _fun0001_ip = 1297; continue _fun0001 }
+ 1250:
             var16 = _closure1_slot8;
             var15 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -662,7 +662,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14['onRestartVideo'] = var18;
             var14['sourceQuestContent'] = var17;
             var13 = var16.bind(var4)(var15, var14);
- 1298:
+ 1297:
             var12[1] = var13;
             var11['children'] = var12;
             var11 = var7.bind(var4)(var2, var11);

@@ -477,7 +477,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[1] = var9;
             var5[2] = var8;
             var9 = _closure1_slot15;
-            if(var6) { _fun0001_ip = 1075; continue _fun0001 }
+            if(var6) { _fun0001_ip = 1076; continue _fun0001 }
  937:
             var8 = _closure1_slot1;
             var18 = _closure1_slot3;
@@ -509,8 +509,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var15.bind(var16)(var14, var13);
             var6['body'] = var13;
             var6 = var9.bind(var4)(var8, var6);
-            _fun0001_ip = 1156; continue _fun0001;
- 1075:
+            _fun0001_ip = 1157; continue _fun0001;
+ 1076:
             var8 = _closure1_slot8;
             var7 = {};
             var7['sections'] = var12;
@@ -794,7 +794,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['keyboardDismissMode'] = var11;
             var7['contentContainerStyle'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 1156:
+ 1157:
             var5[3] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

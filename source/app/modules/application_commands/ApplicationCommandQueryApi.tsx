@@ -933,24 +933,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot16;
             var5 = 0;
             var2 = 0;
-            if(!var4) { _fun0014_ip = 77; continue _fun0014 }
- 57:
+            if(!var4) { _fun0014_ip = 78; continue _fun0014 }
+ 58:
             var6 = var6.placeholderCount;
             var10 = null;
             var10 = var10 != var6;
             var2 = 0;
-            if(!var10) { _fun0014_ip = 77; continue _fun0014 }
- 74:
+            if(!var10) { _fun0014_ip = 78; continue _fun0014 }
+ 75:
             var2 = var6;
- 77:
+ 78:
             var1 = var1.commandTypes;
             var1 = var1[var5];
             var6 = undefined;
             var10 = var8.bind(var6)(var2, var1);
             var1 = {};
             var2 = var9;
-            if(!var4) { _fun0014_ip = 132; continue _fun0014 }
- 103:
+            if(!var4) { _fun0014_ip = 133; continue _fun0014 }
+ 104:
             var8 = new Array(0);
             var13 = var8;
             var12 = var9;
@@ -960,15 +960,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var10;
             var9 = arraySpread(var13, var12, var11);
             var2 = var8;
- 132:
+ 133:
             var1['commands'] = var2;
             var2 = var7;
-            if(!var4) { _fun0014_ip = 206; continue _fun0014 }
- 143:
+            if(!var4) { _fun0014_ip = 207; continue _fun0014 }
+ 144:
             var4 = var7.length;
             var2 = var7;
-            if(!(var5 === var4)) { _fun0014_ip = 206; continue _fun0014 }
- 155:
+            if(!(var5 === var4)) { _fun0014_ip = 207; continue _fun0014 }
+ 156:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
             var4 = 9;
@@ -981,7 +981,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = new Array(1);
             var3[0] = var4;
             var2 = var3;
- 206:
+ 207:
             var1['sections'] = var2;
             return var1;
         }

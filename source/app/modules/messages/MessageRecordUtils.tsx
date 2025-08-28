@@ -457,10 +457,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var8] = var9;
             var7 = var7 == var2;
             var6 = undefined;
-            if(var7) { _fun0002_ip = 1282; continue _fun0002 }
- 1279:
+            if(var7) { _fun0002_ip = 1280; continue _fun0002 }
+ 1277:
             var6 = var2;
- 1282:
+ 1280:
             var2 = 'giftInfo';
             var1[var2] = var6;
             var2 = 'giftingPrompt';

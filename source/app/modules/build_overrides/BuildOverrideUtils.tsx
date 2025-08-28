@@ -194,16 +194,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var9)(var2);
                 var8 = var3.bind(var4)(var2);
                 var4 = null;
-                if(!(var4 != var8)) { _fun0004_ip = 190; continue _fun0004 }
+                if(!(var4 != var8)) { _fun0004_ip = 191; continue _fun0004 }
  62:
                 var8['search'] = var4;
                 var2 = _closure1_slot5;
-                if(!var2) { _fun0004_ip = 90; continue _fun0004 }
+                if(!var2) { _fun0004_ip = 91; continue _fun0004 }
  75:
                 var3 = var8.query;
                 var2 = _closure1_slot5;
                 var3['version'] = var2;
- 90:
+ 91:
                 var3 = _closure1_slot0;
                 var10 = _closure1_slot3;
                 var2 = 5;
@@ -238,13 +238,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1 = var3.bind(var5)(var2, var1);
-                _fun0004_ip = 209; continue _fun0004;
- 190:
+                _fun0004_ip = 210; continue _fun0004;
+ 191:
                 var2 = global;
                 var3 = var2.Promise;
                 var2 = var3.resolve;
                 var1 = var2.bind(var3)(var4);
- 209:
+ 210:
                 return var1;
             }
         };
@@ -256,7 +256,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot11;
                 var4 = undefined;
                 var3 = var3.bind(var4)(var5);
-                if(var3) { _fun0006_ip = 254; continue _fun0006 }
+                if(var3) { _fun0006_ip = 256; continue _fun0006 }
  25:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot3;
@@ -266,19 +266,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var6.safeParseWithQuery;
                 var11 = var3.bind(var6)(var5);
                 var7 = null;
-                if(!(var7 != var11)) { _fun0006_ip = 233; continue _fun0006 }
+                if(!(var7 != var11)) { _fun0006_ip = 235; continue _fun0006 }
  65:
                 var11['search'] = var7;
                 var6 = var11.query;
                 var3 = 'true';
                 var6['meta'] = var3;
                 var3 = _closure1_slot5;
-                if(!var3) { _fun0006_ip = 108; continue _fun0006 }
- 93:
+                if(!var3) { _fun0006_ip = 110; continue _fun0006 }
+ 94:
                 var6 = var11.query;
                 var3 = _closure1_slot5;
                 var6['version'] = var3;
- 108:
+ 110:
                 var3 = global;
                 var3 = var3.window;
                 var3 = var3.location;
@@ -318,15 +318,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var6.bind(var8)(var3, var2);
-                _fun0006_ip = 252; continue _fun0006;
- 233:
+                _fun0006_ip = 254; continue _fun0006;
+ 235:
                 var3 = global;
                 var6 = var3.Promise;
                 var3 = var6.resolve;
                 var2 = var3.bind(var6)(var7);
- 252:
-                return var2;
  254:
+                return var2;
+ 256:
                 var2 = global;
                 var3 = var2.Promise;
                 var2 = var3.resolve;
@@ -439,7 +439,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot11;
                 var7 = undefined;
                 var1 = var1.bind(var7)(var2);
-                if(var1) { _fun0010_ip = 222; continue _fun0010 }
+                if(var1) { _fun0010_ip = 226; continue _fun0010 }
  23:
                 var3 = _closure1_slot1;
                 var5 = _closure1_slot3;
@@ -449,40 +449,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.safeParseWithQuery;
                 var6 = var1.bind(var3)(var2);
                 var1 = null;
-                if(!(var1 != var6)) { _fun0010_ip = 220; continue _fun0010 }
+                if(!(var1 != var6)) { _fun0010_ip = 224; continue _fun0010 }
  63:
                 var8 = _closure1_slot8;
                 var5 = var8.has;
                 var3 = var6.hostname;
                 var3 = var5.bind(var8)(var3);
-                if(!var3) { _fun0010_ip = 125; continue _fun0010 }
+                if(!var3) { _fun0010_ip = 126; continue _fun0010 }
  86:
                 var3 = var6.query;
                 var11 = 's';
                 var3 = var11 in var3;
-                if(!var3) { _fun0010_ip = 125; continue _fun0010 }
- 102:
+                if(!var3) { _fun0010_ip = 126; continue _fun0010 }
+ 103:
                 var8 = _closure1_slot9;
                 var5 = var8.has;
                 var3 = var6.pathname;
                 var3 = var5.bind(var8)(var3);
-                if(var3) { _fun0010_ip = 127; continue _fun0010 }
- 125:
+                if(var3) { _fun0010_ip = 128; continue _fun0010 }
+ 126:
                 return var1;
- 127:
+ 128:
                 var9 = var6.query;
                 for(var3 in var9)
- 140:
+ 142:
                 {
- 149:
+ 151:
                     var13 = var3;
-                    if(var11 === var13) { _fun0010_ip = 140; continue _fun0010 }
- 156:
+                    if(var11 === var13) { _fun0010_ip = 142; continue _fun0010 }
+ 158:
                     var12 = var6.query;
                     var12 = delete var12[var13];
-                    _fun0010_ip = 140; continue _fun0010;
+                    _fun0010_ip = 142; continue _fun0010;
                 }
- 167:
+ 170:
                 var3 = {};
                 var5 = var6.query;
                 var5 = var5.s;
@@ -496,9 +496,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var4.bind(var5)(var6);
                 var3['url'] = var4;
                 return var3;
- 220:
+ 224:
                 return var1;
- 222:
+ 226:
                 var1 = {};
                 var3 = null;
                 var1['payload'] = var3;

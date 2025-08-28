@@ -595,8 +595,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = _closure1_slot7;
             var8['component'] = var12;
             var11 = !var11;
-            if(!var11) { _fun0003_ip = 742; continue _fun0003 }
- 493:
+            if(!var11) { _fun0003_ip = 741; continue _fun0003 }
+ 492:
             var14 = _closure1_slot17;
             var28 = _closure1_slot1;
             var26 = _closure1_slot3;
@@ -721,7 +721,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var17.bind(var4)(var16, var15);
             var12['children'] = var15;
             var11 = var14.bind(var4)(var13, var12);
- 742:
+ 741:
             var8['children'] = var11;
             var8 = var10.bind(var4)(var9, var8);
             var5['footer'] = var8;

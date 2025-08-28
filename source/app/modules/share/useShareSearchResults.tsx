@@ -24,20 +24,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot8;
             var3 = null;
             var5 = var3 != var1;
-            if(!var5) { _fun0001_ip = 77; continue _fun0001 }
- 63:
+            if(!var5) { _fun0001_ip = 78; continue _fun0001 }
+ 64:
             var7 = _closure1_slot8;
             var6 = var7.includes;
             var5 = var6.bind(var7)(var1);
- 77:
+ 78:
             var3 = null;
-            if(!var5) { _fun0001_ip = 96; continue _fun0001 }
- 82:
+            if(!var5) { _fun0001_ip = 97; continue _fun0001 }
+ 83:
             var5 = new Array(1);
             var5[0] = var1;
             var2 = var5;
             var3 = var1;
- 96:
+ 97:
             var1 = {};
             var1['query'] = var4;
             var1['queryMode'] = var3;
@@ -211,10 +211,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot12 = var6;
             var12 = var10.current;
             var10 = var11;
-            if(!(var4 === var12)) { _fun0002_ip = 376; continue _fun0002 }
- 371:
+            if(!(var4 === var12)) { _fun0002_ip = 383; continue _fun0002 }
+ 378:
             var10 = var6.current;
- 376:
+ 383:
             _closure2_slot13 = var10;
             var6 = _closure1_slot4;
             var20 = var6.useEffect;

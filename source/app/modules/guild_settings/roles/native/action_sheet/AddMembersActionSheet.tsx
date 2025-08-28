@@ -477,7 +477,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 'always';
             var6['keyboardShouldPersistTaps'] = var9;
             var6 = var7.bind(var4)(var8, var6);
-            _fun0002_ip = 836; continue _fun0002;
+            _fun0002_ip = 837; continue _fun0002;
  645:
             var9 = _closure1_slot8;
             var8 = _closure1_slot1;
@@ -507,7 +507,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.t;
             var10 = var10.oB9gra;
             var10 = var12.bind(var13)(var10);
-            _fun0002_ip = 826; continue _fun0002;
+            _fun0002_ip = 827; continue _fun0002;
  767:
             var12 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -522,10 +522,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = {};
             var11['query'] = var15;
             var10 = var13.bind(var14)(var12, var11);
- 826:
+ 827:
             var7['body'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 836:
+ 837:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

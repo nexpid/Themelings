@@ -442,19 +442,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var19.useUserListActionsProps;
             var12 = {};
             var25 = undefined;
-            if(var2) { _fun0001_ip = 610; continue _fun0001 }
- 607:
+            if(var2) { _fun0001_ip = 611; continue _fun0001 }
+ 608:
             var25 = var30;
- 610:
+ 611:
             var12['actions'] = var25;
             var25 = undefined;
-            if(var2) { _fun0001_ip = 631; continue _fun0001 }
- 620:
+            if(var2) { _fun0001_ip = 632; continue _fun0001 }
+ 621:
             var25 = undefined;
-            if(!var10) { _fun0001_ip = 631; continue _fun0001 }
- 625:
+            if(!var10) { _fun0001_ip = 632; continue _fun0001 }
+ 626:
             var25 = var15.searchBarRowContainer;
- 631:
+ 632:
             var12['style'] = var25;
             var12 = var14.bind(var19)(var12);
             var19 = var12.renderHeader;
@@ -490,26 +490,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.bind(var22)(var6);
             var1 = var1.length;
             var1 = var3 === var1;
-            if(!var1) { _fun0001_ip = 717; continue _fun0001 }
- 713:
+            if(!var1) { _fun0001_ip = 718; continue _fun0001 }
+ 714:
             var1 = var9 != var24;
- 717:
-            if(!var8) { _fun0001_ip = 723; continue _fun0001 }
- 720:
+ 718:
+            if(!var8) { _fun0001_ip = 724; continue _fun0001 }
+ 721:
             var8 = !var14;
- 723:
-            if(!var8) { _fun0001_ip = 729; continue _fun0001 }
- 726:
+ 724:
+            if(!var8) { _fun0001_ip = 730; continue _fun0001 }
+ 727:
             var8 = !var2;
- 729:
+ 730:
             var3 = _closure1_slot8;
-            if(var14) { _fun0001_ip = 951; continue _fun0001 }
- 739:
+            if(var14) { _fun0001_ip = 952; continue _fun0001 }
+ 740:
             var2 = _closure1_slot5;
             var6 = {};
             var26 = var15.noResults;
-            if(var1) { _fun0001_ip = 904; continue _fun0001 }
- 757:
+            if(var1) { _fun0001_ip = 905; continue _fun0001 }
+ 758:
             var6['style'] = var26;
             var27 = _closure1_slot8;
             var25 = _closure1_slot1;
@@ -536,36 +536,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var28 = {};
             var28['actions'] = var30;
             var30 = undefined;
-            if(!var10) { _fun0001_ip = 875; continue _fun0001 }
- 869:
+            if(!var10) { _fun0001_ip = 876; continue _fun0001 }
+ 870:
             var30 = var15.searchBarRowContainer;
- 875:
+ 876:
             var28['style'] = var30;
             var28 = var27.bind(var4)(var29, var28);
             var1['children'] = var28;
             var1 = var27.bind(var4)(var25, var1);
             var6['children'] = var1;
             var1 = var6;
-            _fun0001_ip = 943; continue _fun0001;
- 904:
+            _fun0001_ip = 944; continue _fun0001;
+ 905:
             var25 = new Array(2);
             var25[0] = var26;
             var26 = undefined;
-            if(!var10) { _fun0001_ip = 928; continue _fun0001 }
- 917:
+            if(!var10) { _fun0001_ip = 929; continue _fun0001 }
+ 918:
             var26 = undefined;
-            if(var8) { _fun0001_ip = 928; continue _fun0001 }
- 922:
+            if(var8) { _fun0001_ip = 929; continue _fun0001 }
+ 923:
             var26 = var15.searchBarRowContainer;
- 928:
+ 929:
             var25[1] = var26;
             var6['style'] = var25;
             var6['children'] = var24;
             var1 = var6;
- 943:
+ 944:
             var6 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 1027; continue _fun0001;
- 951:
+            _fun0001_ip = 1028; continue _fun0001;
+ 952:
             var2 = _closure1_slot0;
             var24 = _closure1_slot2;
             var1 = 14;
@@ -583,13 +583,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['insetEnd'] = var12;
             var1['disableStickySections'] = var7;
             var6 = var3.bind(var4)(var2, var1);
- 1027:
+ 1028:
             var3 = _closure1_slot10;
             var2 = _closure1_slot9;
             var1 = {};
             var7 = !var5;
-            if(!var7) { _fun0001_ip = 1082; continue _fun0001 }
- 1043:
+            if(!var7) { _fun0001_ip = 1083; continue _fun0001 }
+ 1044:
             var19 = _closure1_slot8;
             var12 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -600,15 +600,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = true;
             var5['absolute'] = var20;
             var7 = var19.bind(var4)(var12, var5);
- 1082:
+ 1083:
             var5 = new Array(3);
             var5[0] = var7;
             var7 = null;
-            if(!var10) { _fun0001_ip = 1194; continue _fun0001 }
- 1095:
+            if(!var10) { _fun0001_ip = 1195; continue _fun0001 }
+ 1096:
             var7 = null;
-            if(var8) { _fun0001_ip = 1194; continue _fun0001 }
- 1100:
+            if(var8) { _fun0001_ip = 1195; continue _fun0001 }
+ 1101:
             var10 = _closure1_slot8;
             var9 = _closure1_slot5;
             var8 = {};
@@ -625,15 +625,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['tags'] = var16;
             var15 = var15.searchBar;
             var11['style'] = var15;
-            if(!var13) { _fun0001_ip = 1173; continue _fun0001 }
- 1170:
+            if(!var13) { _fun0001_ip = 1174; continue _fun0001 }
+ 1171:
             var13 = var14;
- 1173:
+ 1174:
             var11['autoFocus'] = var13;
             var11 = var10.bind(var4)(var12, var11);
             var8['children'] = var11;
             var7 = var10.bind(var4)(var9, var8);
- 1194:
+ 1195:
             var5[1] = var7;
             var5[2] = var6;
             var1['children'] = var5;

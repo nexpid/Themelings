@@ -825,7 +825,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = 'keyboardShouldPersistTaps';
             var6[var11] = var12;
             var6 = var7.bind(var4)(var8, var6);
-            _fun0002_ip = 1813; continue _fun0002;
+            _fun0002_ip = 1814; continue _fun0002;
  1647:
             var8 = _closure1_slot17;
             var7 = {};
@@ -865,7 +865,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'children';
             var7[var10] = var11;
             var6 = var8.bind(var4)(var9, var7);
- 1813:
+ 1814:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

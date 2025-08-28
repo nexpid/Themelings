@@ -323,20 +323,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var7 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 386; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 387; continue _fun0005 }
  13:
                     var2 = var7.getCatalogNonce;
                     var3 = null;
-                    if(!(var3 != var2)) { _fun0005_ip = 350; continue _fun0005 }
+                    if(!(var3 != var2)) { _fun0005_ip = 351; continue _fun0005 }
  28:
                     var2 = var7.getModuleVersion;
-                    if(!(var3 != var2)) { _fun0005_ip = 350; continue _fun0005 }
+                    if(!(var3 != var2)) { _fun0005_ip = 351; continue _fun0005 }
  41:
                     var2 = var7.getRequestedModelIds;
-                    if(!(var3 != var2)) { _fun0005_ip = 350; continue _fun0005 }
+                    if(!(var3 != var2)) { _fun0005_ip = 351; continue _fun0005 }
  54:
                     var2 = var7.setCatalog;
-                    if(!(var3 != var2)) { _fun0005_ip = 350; continue _fun0005 }
+                    if(!(var3 != var2)) { _fun0005_ip = 351; continue _fun0005 }
  67:
                     var2 = var7.getCatalogNonce;
                     var8 = var2.bind(var7)();
@@ -367,35 +367,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = true;
                     var2['rejectWithError'] = var6;
                     var2 = var4.bind(var5)(var2);
-                    SaveGenerator(address=200);
- 198:
+                    SaveGenerator(address=201);
+ 199:
                     return var2;
- 200:
+ 201:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0005_ip = 347; continue _fun0005 }
- 209:
+                    if(var4) { _fun0005_ip = 348; continue _fun0005 }
+ 210:
                     var6 = var2.text;
                     var4 = var2.body;
                     var5 = var2.headers;
                     var5 = var5.x-discord-catalog-signature;
                     var8 = var4.models;
-                    if(!(var3 != var8)) { _fun0005_ip = 311; continue _fun0005 }
- 243:
-                    if(!(var3 != var5)) { _fun0005_ip = 275; continue _fun0005 }
- 247:
+                    if(!(var3 != var8)) { _fun0005_ip = 312; continue _fun0005 }
+ 244:
+                    if(!(var3 != var5)) { _fun0005_ip = 276; continue _fun0005 }
+ 248:
                     var3 = var7.setCatalog;
                     var3 = var3.bind(var7)(var6, var5);
-                    SaveGenerator(address=263);
- 261:
+                    SaveGenerator(address=264);
+ 262:
                     return var3;
- 263:
+ 264:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0005_ip = 272; continue _fun0005 }
- 269:
+                    if(var5) { _fun0005_ip = 273; continue _fun0005 }
+ 270:
                     return var4;
- 272:
+ 273:
                     return var3;
- 275:
+ 276:
                     var3 = global;
                     var5 = var3.Error;
                     var3 = var5.prototype;
@@ -405,7 +405,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = new var14[var5](var13, var12);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
- 311:
+ 312:
                     var3 = global;
                     var5 = var3.Error;
                     var3 = var5.prototype;
@@ -415,9 +415,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = new var14[var5](var13, var12);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
- 347:
+ 348:
                     return var2;
- 350:
+ 351:
                     var2 = global;
                     var4 = var2.Error;
                     var2 = var4.prototype;
@@ -427,7 +427,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new var14[var4](var13, var12);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
- 386:
+ 387:
                     return var1;
                 }
             };

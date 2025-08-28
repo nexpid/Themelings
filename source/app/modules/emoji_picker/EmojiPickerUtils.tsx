@@ -1269,32 +1269,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['index_num'] = var6;
             var10 = var8 == var9;
             var6 = undefined;
-            if(var10) { _fun0012_ip = 296; continue _fun0012 }
- 290:
+            if(var10) { _fun0012_ip = 297; continue _fun0012 }
+ 291:
             var6 = var9.loadId;
- 296:
+ 297:
             var2['load_id'] = var6;
             var10 = var8 == var9;
             var6 = undefined;
-            if(var10) { _fun0012_ip = 330; continue _fun0012 }
- 310:
+            if(var10) { _fun0012_ip = 331; continue _fun0012 }
+ 311:
             var10 = var9.results;
             var11 = var8 == var10;
             var6 = undefined;
-            if(var11) { _fun0012_ip = 330; continue _fun0012 }
- 325:
+            if(var11) { _fun0012_ip = 331; continue _fun0012 }
+ 326:
             var6 = var10.length;
- 330:
+ 331:
             var2['total_results'] = var6;
             var10 = var8 == var9;
             var6 = undefined;
-            if(var10) { _fun0012_ip = 393; continue _fun0012 }
- 344:
+            if(var10) { _fun0012_ip = 394; continue _fun0012 }
+ 345:
             var10 = var9.results;
             var8 = var8 == var10;
             var6 = undefined;
-            if(var8) { _fun0012_ip = 393; continue _fun0012 }
- 359:
+            if(var8) { _fun0012_ip = 394; continue _fun0012 }
+ 360:
             var9 = var10.map;
             var8 = function(arg1) {
                 var1 = arg1;
@@ -1311,7 +1311,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6 = var8.bind(var9)(var7);
- 393:
+ 394:
             var2['emoji_suggestion_ids'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
@@ -1858,7 +1858,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = /:$/;
                 var6 = var3.bind(var4)(var1, var2);
                 var1 = null;
-                if(!(var2 !== var6)) { _fun0018_ip = 133; continue _fun0018 }
+                if(!(var2 !== var6)) { _fun0018_ip = 134; continue _fun0018 }
  67:
                 var4 = _closure1_slot4;
                 var3 = var4.searchWithoutFetchingLatest;
@@ -1875,7 +1875,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure2_slot3;
                 var2['showOnlyUnicode'] = var5;
                 var1 = var3.bind(var4)(var2);
- 133:
+ 134:
                 return var1;
             }
         };

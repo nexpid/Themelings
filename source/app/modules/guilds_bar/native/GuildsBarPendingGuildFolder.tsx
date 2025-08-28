@@ -224,8 +224,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['preventClipping'] = var8;
             var1['config'] = var6;
             var6 = null;
-            if(!var7) { _fun0001_ip = 444; continue _fun0001 }
- 391:
+            if(!var7) { _fun0001_ip = 443; continue _fun0001 }
+ 390:
             var9 = _closure1_slot6;
             var8 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -238,7 +238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.length;
             var7['totalItems'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 444:
+ 443:
             var1['externalChildren'] = var6;
             var7 = _closure1_slot6;
             var6 = _closure1_slot0;
