@@ -12355,6 +12355,16 @@
         "width": 24,
         "height": 24
     },
+    "StopIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/StopIcon.png",
+        "hash": "97bbfc926ecaa084c0258711933f1eca",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "stream": {
         "file": "modules/voice_panel/native/images/stream.png",
         "hash": "4d740f655500daa7dbc22677153114f7",
