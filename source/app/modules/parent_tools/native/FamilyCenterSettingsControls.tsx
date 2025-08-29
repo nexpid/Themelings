@@ -98,11 +98,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useIsFamilyCenterV2Enabled;
             var1 = 'settings-controls';
             var1 = var2.bind(var3)(var1);
-            if(!var1) { _fun0001_ip = 893; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 892; continue _fun0001 }
  143:
             var2 = var18.length;
             var1 = 0;
-            if(!(var1 !== var2)) { _fun0001_ip = 893; continue _fun0001 }
+            if(!(var1 !== var2)) { _fun0001_ip = 892; continue _fun0001 }
  157:
             var1 = function handleSettingsClick(arg1) {
                 var4 = _closure2_slot1;
@@ -202,7 +202,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[1] = var9;
             var5['children'] = var7;
             var5 = var8.bind(var4)(var6, var5);
-            _fun0001_ip = 881; continue _fun0001;
+            _fun0001_ip = 880; continue _fun0001;
  488:
             var9 = 11;
             var6 = var19[var9];
@@ -310,11 +310,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[1] = var10;
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 881:
+ 880:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 893:
+ 892:
             var1 = null;
             return var1;
         }

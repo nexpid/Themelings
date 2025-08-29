@@ -522,17 +522,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = null;
                 var3 = var1 != var3;
                 var1 = 0;
-                if(!var3) { _fun0010_ip = 51; continue _fun0010 }
+                if(!var3) { _fun0010_ip = 50; continue _fun0010 }
  20:
                 var3 = var2._initialized;
                 var1 = 0;
-                if(!var3) { _fun0010_ip = 51; continue _fun0010 }
+                if(!var3) { _fun0010_ip = 50; continue _fun0010 }
  31:
                 var4 = var2._members;
                 var3 = var4.count;
                 var2 = arg1;
                 var1 = var3.bind(var4)(var2);
- 51:
+ 50:
                 return var1;
             }
         };

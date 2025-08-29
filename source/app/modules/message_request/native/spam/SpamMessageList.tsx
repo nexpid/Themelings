@@ -727,7 +727,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.channel;
                     var1 = var1.id;
                     var1 = var5.bind(var2)(var4, var3, var1);
-                    _fun0005_ip = 315; continue _fun0005;
+                    _fun0005_ip = 314; continue _fun0005;
  154:
                     var5 = _closure1_slot8;
                     var4 = _closure1_slot5;
@@ -762,7 +762,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var8.bind(var2)(var7, var6);
                     var3['children'] = var6;
                     var1 = var5.bind(var2)(var4, var3);
- 315:
+ 314:
                     return var1;
                 }
             };

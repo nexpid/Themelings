@@ -174,16 +174,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[0] = var16;
             var16 = null;
             var16 = var16 != var17;
-            if(!var16) { _fun0001_ip = 466; continue _fun0001 }
- 462:
+            if(!var16) { _fun0001_ip = 467; continue _fun0001 }
+ 463:
             var16 = var17 < var19;
- 466:
-            if(!var16) { _fun0001_ip = 478; continue _fun0001 }
- 469:
+ 467:
+            if(!var16) { _fun0001_ip = 479; continue _fun0001 }
+ 470:
             var17 = {};
             var17['flex'] = var18;
             var16 = var17;
- 478:
+ 479:
             var15[1] = var16;
             var6['contentContainerStyle'] = var15;
             var15 = var13.scrollView;
@@ -195,8 +195,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['horizontal'] = var13;
             var6['showsHorizontalScrollIndicator'] = var11;
             var9 = !var9;
-            if(!var9) { _fun0001_ip = 544; continue _fun0001 }
- 527:
+            if(!var9) { _fun0001_ip = 545; continue _fun0001 }
+ 528:
             var11 = var12.map;
             var10 = function(arg1, arg2) {
                 var8 = arg1;
@@ -227,7 +227,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var9 = var11.bind(var12)(var10);
- 544:
+ 545:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

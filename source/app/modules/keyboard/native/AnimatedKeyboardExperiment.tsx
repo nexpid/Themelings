@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var8 = var6.bind(var1)(var4);
     var5 = var8.createApexExperiment;
-    var4 = {'name': '2025-08_animated_keyboard_android', 'kind': 'user'};
+    var4 = {'name': '2025-08-animated-keyboard-android', 'kind': 'user'};
     var9 = {};
     var10 = false;
     var9['enabled'] = var10;

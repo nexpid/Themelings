@@ -67,29 +67,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
-            var10 = var2.initiallyShowHeader;
+            var12 = var2.initiallyShowHeader;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 19; continue _fun0001 }
+            if(!(var12 === var4)) { _fun0001_ip = 19; continue _fun0001 }
  17:
-            var10 = true;
+            var12 = true;
  19:
             var7 = var2.children;
+            var8 = var2.pointerEvents;
+            var11 = var2.style;
             var _closure2_slot0 = var4;
             var _closure2_slot1 = var4;
             var _closure2_slot2 = var4;
             var _closure2_slot3 = var4;
-            var8 = _closure1_slot0;
+            var10 = _closure1_slot0;
             var9 = _closure1_slot2;
             var5 = 5;
             var2 = var9[var5];
-            var3 = var8.bind(var4)(var2);
+            var3 = var10.bind(var4)(var2);
             var2 = var3.useSharedValue;
-            var14 = var2.bind(var3)(var10);
-            _closure2_slot0 = var14;
-            var10 = _closure1_slot4;
-            var11 = var10.useCallback;
+            var16 = var2.bind(var3)(var12);
+            _closure2_slot0 = var16;
+            var12 = _closure1_slot4;
+            var13 = var12.useCallback;
             var3 = new Array(1);
-            var3[0] = var14;
+            var3[0] = var16;
             var2 = function(arg1) {
                 var3 = _closure2_slot0;
                 var2 = var3.set;
@@ -97,17 +99,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var2 = var11.bind(var10)(var2, var3);
+            var2 = var13.bind(var12)(var2, var3);
             _closure2_slot1 = var2;
             var2 = var9[var5];
-            var11 = var8.bind(var4)(var2);
-            var3 = var11.useSharedValue;
+            var13 = var10.bind(var4)(var2);
+            var3 = var13.useSharedValue;
             var2 = 0;
-            var13 = var3.bind(var11)(var2);
-            _closure2_slot2 = var13;
-            var12 = var10.useCallback;
-            var11 = new Array(1);
-            var11[0] = var13;
+            var15 = var3.bind(var13)(var2);
+            _closure2_slot2 = var15;
+            var14 = var12.useCallback;
+            var13 = new Array(1);
+            var13[0] = var15;
             var3 = function(arg1) {
                 var3 = _closure2_slot2;
                 var2 = var3.set;
@@ -116,12 +118,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = undefined;
                 return var1;
             };
-            var3 = var12.bind(var10)(var3, var11);
+            var3 = var14.bind(var12)(var3, var13);
             _closure2_slot3 = var3;
             var3 = var9[var5];
-            var11 = var8.bind(var4)(var3);
-            var8 = var11.useAnimatedStyle;
-            var3 = function u() {
+            var13 = var10.bind(var4)(var3);
+            var10 = var13.useAnimatedStyle;
+            var3 = function H() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var1 = {'position': 'relative', 'height': '100%', 'width': '100%'};
@@ -139,16 +141,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var12 = {};
-            var12['showHeader'] = var14;
-            var12['headerHeight'] = var13;
-            var3['__closure'] = var12;
-            var12 = 8421392603729.0;
-            var3['__workletHash'] = var12;
-            var12 = _closure1_slot7;
-            var3['__initData'] = var12;
-            var8 = var8.bind(var11)(var3);
-            var3 = var10.useState;
+            var14 = {};
+            var14['showHeader'] = var16;
+            var14['headerHeight'] = var15;
+            var3['__closure'] = var14;
+            var14 = 8421392603729.0;
+            var3['__workletHash'] = var14;
+            var14 = _closure1_slot7;
+            var3['__initData'] = var14;
+            var10 = var10.bind(var13)(var3);
+            var3 = var12.useState;
             var1 = function() {
                 var1 = {};
                 var3 = _closure2_slot0;
@@ -161,22 +163,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['setHeaderHeight'] = var2;
                 return var1;
             };
-            var10 = var3.bind(var10)(var1);
+            var12 = var3.bind(var12)(var1);
             var3 = _closure1_slot3;
             var1 = 1;
-            var1 = var3.bind(var4)(var10, var1);
-            var10 = var1[var2];
+            var1 = var3.bind(var4)(var12, var1);
+            var12 = var1[var2];
             var3 = _closure1_slot5;
             var1 = _closure1_slot6;
             var2 = var1.Provider;
             var1 = {};
-            var1['value'] = var10;
+            var1['value'] = var12;
             var6 = _closure1_slot1;
             var5 = var9[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.View;
             var5 = {};
-            var5['style'] = var8;
+            var9 = new Array(2);
+            var9[0] = var11;
+            var9[1] = var10;
+            var5['style'] = var9;
+            var5['pointerEvents'] = var8;
             var5['children'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['children'] = var5;

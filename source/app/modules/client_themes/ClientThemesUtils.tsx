@@ -17,9 +17,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var1];
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
-    var4 = var4.ThemeTypes;
+    var4 = var4.PROTO_THEME_MAP_WEB_REFRESH;
     var _closure1_slot2 = var4;
-    var4 = 2;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.ThemeTypes;
+    var _closure1_slot3 = var4;
+    var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -33,11 +38,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 0.3;
             if(!(!(var2 <= var1))) { _fun0001_ip = 37; continue _fun0001 }
  22:
-            var1 = _closure1_slot2;
+            var1 = _closure1_slot3;
             var1 = var1.LIGHT;
             _fun0001_ip = 50; continue _fun0001;
  37:
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var1 = var2.DARK;
  50:
             return var1;
@@ -55,7 +60,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var1.stop;
             var4 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 1;
+            var1 = 2;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var4.bind(var1)(var2);
@@ -85,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getLinearGradientForBackgroundGradient'] = var4;
-    var2 = function areThemesEqualForGradientThemes(arg1, arg2) {
+    var4 = function areThemesEqualForGradientThemes(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var6 = arg1;
@@ -93,23 +98,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6 === var5;
             if(var1) { _fun0002_ip = 87; continue _fun0002 }
  13:
-            var2 = _closure1_slot2;
+            var2 = _closure1_slot3;
             var2 = var2.DARK;
             var2 = var6 === var2;
             if(!var2) { _fun0002_ip = 47; continue _fun0002 }
  33:
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.DARKER;
             var2 = var5 === var3;
  47:
             if(var2) { _fun0002_ip = 84; continue _fun0002 }
  50:
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.DARKER;
             var3 = var6 === var3;
             if(!var3) { _fun0002_ip = 81; continue _fun0002 }
  67:
-            var4 = _closure1_slot2;
+            var4 = _closure1_slot3;
             var4 = var4.DARK;
             var3 = var5 === var4;
  81:
@@ -120,6 +125,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['areThemesEqualForGradientThemes'] = var2;
+    var3['areThemesEqualForGradientThemes'] = var4;
+    var2 = function(arg1) {
+        var2 = _closure1_slot2;
+        var1 = arg1;
+        var1 = var2[var1];
+        return var1;
+    };
+    var3['getBaseTheme'] = var2;
     return var1;
 })();

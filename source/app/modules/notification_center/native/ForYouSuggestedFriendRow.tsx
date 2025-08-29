@@ -295,7 +295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getName;
             var2 = var25.user;
             var22 = var3.bind(var4)(var2);
-            _fun0002_ip = 531; continue _fun0002;
+            _fun0002_ip = 530; continue _fun0002;
  462:
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -312,7 +312,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var25.mutualFriendsCount;
             var2['count'] = var10;
             var22 = var4.bind(var7)(var3, var2);
- 531:
+ 530:
             var30 = _closure1_slot0;
             var29 = _closure1_slot2;
             var2 = 18;

@@ -103,6 +103,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CLIP_EDITOR_VIEWED'] = var2;
     var2 = 'impression_clip_gallery_viewed';
     var4['CLIP_GALLERY_VIEWED'] = var2;
+    var2 = 'impression_cloud_play_cta';
+    var4['CLOUD_PLAY_CTA'] = var2;
     var2 = 'impression_clyde_ai_profile_embed_viewed';
     var4['CLYDE_AI_PROFILE_EMBED_VIEWED'] = var2;
     var2 = 'impression_collectibles_expiry_modal';
@@ -119,6 +121,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CONTACT_SYNC_SUGGESTIONS'] = var2;
     var2 = 'impression_creator_promo_page_guild_header_upsell';
     var4['CREATOR_PROMO_PAGE_GUILD_HEADER_UPSELL'] = var2;
+    var2 = 'impression_custom_theme_share';
+    var4['CUSTOM_THEME_SHARE'] = var2;
     var2 = 'impression_custom_themes_appearance_settings_banner';
     var4['CUSTOM_THEMES_APPEARANCE_SETTINGS_BANNER'] = var2;
     var2 = 'impression_custom_themes_preview_themes_banner';

@@ -512,10 +512,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var10.bind(var4)(var3);
             var10 = var15.useSharedValue;
             var3 = 0;
-            if(!var17) { _fun0005_ip = 186; continue _fun0005 }
- 183:
+            if(!var17) { _fun0005_ip = 187; continue _fun0005 }
+ 184:
             var3 = 1;
- 186:
+ 187:
             var19 = var10.bind(var15)(var3);
             _closure2_slot3 = var19;
             var15 = _closure1_slot4;
@@ -651,12 +651,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var6.container;
             var6 = new Array(3);
             var6[0] = var13;
-            if(!var12) { _fun0005_ip = 477; continue _fun0005 }
- 467:
+            if(!var12) { _fun0005_ip = 478; continue _fun0005 }
+ 468:
             var13 = {};
             var13['paddingBottom'] = var16;
             var12 = var13;
- 477:
+ 478:
             var6[1] = var12;
             var6[2] = var7;
             var1['style'] = var6;

@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var4 = var6.bind(var7)(var5, var4);
-                if(var4) { _fun0001_ip = 254; continue _fun0001 }
+                if(var4) { _fun0001_ip = 253; continue _fun0001 }
  44:
                 var5 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot0;
                 var6 = var4.bind(var5)(var3);
                 var3 = null;
-                if(!(var3 != var6)) { _fun0001_ip = 254; continue _fun0001 }
+                if(!(var3 != var6)) { _fun0001_ip = 253; continue _fun0001 }
  90:
                 var4 = _closure1_slot10;
                 var3 = _closure1_slot4;
@@ -201,7 +201,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['voiceChannels'] = var5;
                 var1['count'] = var4;
                 var1 = var2.bind(var3)(var1);
- 254:
+ 253:
                 var1 = undefined;
                 return var1;
             }

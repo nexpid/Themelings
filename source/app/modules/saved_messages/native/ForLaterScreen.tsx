@@ -249,7 +249,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var2 = arg1;
             var3 = null;
-            if(!(var2 != var3)) { _fun0002_ip = 279; continue _fun0002 }
+            if(!(var2 != var3)) { _fun0002_ip = 280; continue _fun0002 }
  14:
             var5 = undefined;
             var _closure2_slot0 = var5;
@@ -343,7 +343,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var6;
             var1 = var4.bind(var5)(var3, var1);
             return var1;
- 279:
+ 280:
             var14 = "Cannot destructure 'undefined' or 'null'.";
             var15 = var2;
             var1 = throwTypeError(var15, var14);

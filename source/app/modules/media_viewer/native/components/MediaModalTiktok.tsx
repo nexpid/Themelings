@@ -400,7 +400,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.UNREADY;
                     var2 = var4 !== var3;
  79:
-                    if(!var2) { _fun0005_ip = 423; continue _fun0005 }
+                    if(!var2) { _fun0005_ip = 427; continue _fun0005 }
  85:
                     var2 = _closure2_slot0;
                     if(!var2) { _fun0005_ip = 135; continue _fun0005 }
@@ -474,7 +474,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var6.bind(var1)(var3);
                     var3 = var3.PlayerState;
                     var3 = var3.ENDED;
-                    if(!(var4 === var3)) { _fun0005_ip = 386; continue _fun0005 }
+                    if(!(var4 === var3)) { _fun0005_ip = 390; continue _fun0005 }
  342:
                     var6 = _closure1_slot10;
                     var4 = _closure2_slot7;
@@ -485,19 +485,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = 'play';
                     var3['type'] = var7;
                     var3 = var6.bind(var1)(var4, var3);
- 386:
+ 390:
                     var4 = _closure1_slot10;
                     var3 = _closure2_slot7;
                     var2 = {};
                     var6 = _closure2_slot8;
                     var5 = 'unMute';
-                    if(!var6) { _fun0005_ip = 413; continue _fun0005 }
- 409:
-                    var5 = 'mute';
+                    if(!var6) { _fun0005_ip = 417; continue _fun0005 }
  413:
+                    var5 = 'mute';
+ 417:
                     var2['type'] = var5;
                     var2 = var4.bind(var1)(var3, var2);
- 423:
+ 427:
                     return var1;
                 }
             };

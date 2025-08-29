@@ -251,27 +251,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/main_tabs_v2/native/settings/screens/SettingsChatScreen.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function SettingsChatScreen() {
-        var5 = _closure1_slot1;
+        var2 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var3 = 18;
-        var3 = var6[var3];
+        var4 = 18;
+        var5 = var6[var4];
         var4 = undefined;
-        var8 = var5.bind(var4)(var3);
-        var7 = var8.useExperiment;
-        var5 = {};
-        var3 = 'settings';
-        var5['location'] = var3;
-        var3 = {};
-        var9 = false;
-        var3['autoTrackExposure'] = var9;
-        var3 = var7.bind(var8)(var5, var3);
-        var8 = var3.enabled;
-        var _closure2_slot0 = var8;
-        var7 = _closure1_slot3;
-        var5 = var7.useMemo;
-        var3 = new Array(1);
-        var3[0] = var8;
-        var2 = function() {
+        var9 = var2.bind(var4)(var5);
+        var8 = var9.useDoubleTapToReactExperiment;
+        var7 = {};
+        var5 = true;
+        var7['autoTrackExposure'] = var5;
+        var5 = 'settings';
+        var5 = var8.bind(var9)(var5, var7);
+        var9 = var5.enabled;
+        var _closure2_slot0 = var9;
+        var8 = _closure1_slot3;
+        var7 = var8.useMemo;
+        var5 = new Array(1);
+        var5[0] = var9;
+        var3 = function() {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var3 = _closure2_slot0;
@@ -495,9 +493,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var5 = var5.bind(var7)(var2, var3);
+        var5 = var7.bind(var8)(var3, var5);
         var3 = _closure1_slot9;
-        var2 = _closure1_slot0;
         var1 = 19;
         var1 = var6[var1];
         var1 = var2.bind(var4)(var1);

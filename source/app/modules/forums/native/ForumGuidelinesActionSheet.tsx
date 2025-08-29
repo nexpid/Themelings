@@ -580,8 +580,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);
             var5[0] = var7;
-            if(!var6) { _fun0001_ip = 1490; continue _fun0001 }
- 1370:
+            if(!var6) { _fun0001_ip = 1494; continue _fun0001 }
+ 1374:
             var9 = _closure1_slot7;
             var8 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -610,7 +610,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['text'] = var11;
             var7['onPress'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 1490:
+ 1494:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

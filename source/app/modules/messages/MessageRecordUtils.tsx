@@ -715,15 +715,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  93:
                     var3 = var1.count;
                     var2 = 0;
-                    if(!(var3 < var2)) { _fun0007_ip = 111; continue _fun0007 }
- 105:
+                    if(!(var3 < var2)) { _fun0007_ip = 110; continue _fun0007 }
+ 104:
                     var1['count'] = var2;
- 111:
+ 110:
                     var3 = var1.burst_count;
-                    if(!(var3 < var2)) { _fun0007_ip = 127; continue _fun0007 }
- 121:
+                    if(!(var3 < var2)) { _fun0007_ip = 126; continue _fun0007 }
+ 120:
                     var1['burst_count'] = var2;
- 127:
+ 126:
                     return var1;
                 }
             };

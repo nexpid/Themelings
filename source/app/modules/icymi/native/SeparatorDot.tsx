@@ -60,7 +60,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = _closure1_slot1;
         var2 = _closure1_slot0;
         var1 = {};
-        var5 = var5.separatorDot;
+        var6 = var5.separatorDot;
+        var5 = new Array(1);
+        var5[0] = var6;
         var1['style'] = var5;
         var1 = var3.bind(var4)(var2, var1);
         return var1;

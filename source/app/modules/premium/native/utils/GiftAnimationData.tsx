@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 'LOTTIE';
     var4[var8] = var5;
     var _closure1_slot3 = var4;
-    var5 = 28;
+    var5 = 26;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -60,58 +60,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg1;
             var4 = arg2;
             var2 = _closure1_slot2;
-            var2 = var2.NITROWEEN_STANDARD;
-            if(!(var2 !== var3)) { _fun0002_ip = 1309; continue _fun0002 }
+            var2 = var2.STANDARD_BOX;
+            if(!(var2 !== var3)) { _fun0002_ip = 1155; continue _fun0002 }
  26:
             var2 = _closure1_slot2;
-            var2 = var2.STANDARD_BOX;
-            if(!(var2 !== var3)) { _fun0002_ip = 1172; continue _fun0002 }
+            var2 = var2.CAKE;
+            if(!(var2 !== var3)) { _fun0002_ip = 1018; continue _fun0002 }
  43:
             var2 = _closure1_slot2;
-            var2 = var2.CAKE;
-            if(!(var2 !== var3)) { _fun0002_ip = 1035; continue _fun0002 }
+            var2 = var2.CHEST;
+            if(!(var2 !== var3)) { _fun0002_ip = 881; continue _fun0002 }
  60:
             var2 = _closure1_slot2;
-            var2 = var2.CHEST;
-            if(!(var2 !== var3)) { _fun0002_ip = 898; continue _fun0002 }
+            var2 = var2.COFFEE;
+            if(!(var2 !== var3)) { _fun0002_ip = 744; continue _fun0002 }
  77:
             var2 = _closure1_slot2;
-            var2 = var2.COFFEE;
-            if(!(var2 !== var3)) { _fun0002_ip = 761; continue _fun0002 }
+            var2 = var2.SEASONAL_STANDARD_BOX;
+            if(!(var2 !== var3)) { _fun0002_ip = 607; continue _fun0002 }
  94:
             var2 = _closure1_slot2;
-            var2 = var2.SEASONAL_STANDARD_BOX;
-            if(!(var2 !== var3)) { _fun0002_ip = 624; continue _fun0002 }
+            var2 = var2.SEASONAL_CAKE;
+            if(!(var2 !== var3)) { _fun0002_ip = 470; continue _fun0002 }
  111:
             var2 = _closure1_slot2;
-            var2 = var2.SEASONAL_CAKE;
-            if(!(var2 !== var3)) { _fun0002_ip = 487; continue _fun0002 }
+            var2 = var2.SEASONAL_CHEST;
+            if(!(var2 !== var3)) { _fun0002_ip = 333; continue _fun0002 }
  128:
             var2 = _closure1_slot2;
-            var2 = var2.SEASONAL_CHEST;
-            if(!(var2 !== var3)) { _fun0002_ip = 350; continue _fun0002 }
- 145:
-            var2 = _closure1_slot2;
             var2 = var2.SEASONAL_COFFEE;
-            if(!(var2 !== var3)) { _fun0002_ip = 213; continue _fun0002 }
- 159:
+            if(!(var2 !== var3)) { _fun0002_ip = 196; continue _fun0002 }
+ 142:
             var2 = _closure1_slot2;
             var2 = var2.SNOWGLOBE;
-            if(!(var2 !== var3)) { _fun0002_ip = 197; continue _fun0002 }
- 173:
+            if(!(var2 !== var3)) { _fun0002_ip = 180; continue _fun0002 }
+ 156:
             var2 = _closure1_slot2;
             var2 = var2.BOX;
-            if(!(var2 !== var3)) { _fun0002_ip = 197; continue _fun0002 }
- 187:
+            if(!(var2 !== var3)) { _fun0002_ip = 180; continue _fun0002 }
+ 170:
             var2 = _closure1_slot2;
             var2 = var2.CUP;
- 197:
+ 180:
             var2 = global;
             var3 = var2.Error;
             var2 = undefined;
             var2 = var3.bind(var2)();
             throw var2;
- 213:
+ 196:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var6 = 1;
@@ -120,271 +116,232 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var5)(var2);
             var2 = var2.AnimationState;
             var2 = var2.IDLE;
-            if(!(var2 !== var4)) { _fun0002_ip = 328; continue _fun0002 }
- 251:
+            if(!(var2 !== var4)) { _fun0002_ip = 311; continue _fun0002 }
+ 234:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var3.bind(var5)(var2);
             var2 = var2.AnimationState;
             var2 = var2.LOOP;
-            if(!(var2 !== var4)) { _fun0002_ip = 306; continue _fun0002 }
- 284:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 27;
-            var2 = var6[var2];
-            var2 = var3.bind(var5)(var2);
-            return var2;
- 306:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 26;
-            var2 = var6[var2];
-            var2 = var3.bind(var5)(var2);
-            return var2;
- 328:
+            if(!(var2 !== var4)) { _fun0002_ip = 289; continue _fun0002 }
+ 267:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 25;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 350:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var6 = 1;
-            var2 = var2[var6];
-            var5 = undefined;
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.IDLE;
-            if(!(var2 !== var4)) { _fun0002_ip = 465; continue _fun0002 }
- 388:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.LOOP;
-            if(!(var2 !== var4)) { _fun0002_ip = 443; continue _fun0002 }
- 421:
+ 289:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 24;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 443:
+ 311:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 23;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 465:
+ 333:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 448; continue _fun0002 }
+ 371:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 426; continue _fun0002 }
+ 404:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 22;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 487:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var6 = 1;
-            var2 = var2[var6];
-            var5 = undefined;
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.IDLE;
-            if(!(var2 !== var4)) { _fun0002_ip = 602; continue _fun0002 }
- 525:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.LOOP;
-            if(!(var2 !== var4)) { _fun0002_ip = 580; continue _fun0002 }
- 558:
+ 426:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 21;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 580:
+ 448:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 20;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 602:
+ 470:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 585; continue _fun0002 }
+ 508:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 563; continue _fun0002 }
+ 541:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 19;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 624:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var6 = 1;
-            var2 = var2[var6];
-            var5 = undefined;
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.IDLE;
-            if(!(var2 !== var4)) { _fun0002_ip = 739; continue _fun0002 }
- 662:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.LOOP;
-            if(!(var2 !== var4)) { _fun0002_ip = 717; continue _fun0002 }
- 695:
+ 563:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 18;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 717:
+ 585:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 17;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 739:
+ 607:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 722; continue _fun0002 }
+ 645:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 700; continue _fun0002 }
+ 678:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 16;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 761:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var6 = 1;
-            var2 = var2[var6];
-            var5 = undefined;
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.IDLE;
-            if(!(var2 !== var4)) { _fun0002_ip = 876; continue _fun0002 }
- 799:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.LOOP;
-            if(!(var2 !== var4)) { _fun0002_ip = 854; continue _fun0002 }
- 832:
+ 700:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 15;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 854:
+ 722:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 14;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 876:
+ 744:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 859; continue _fun0002 }
+ 782:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 837; continue _fun0002 }
+ 815:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 13;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 898:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var6 = 1;
-            var2 = var2[var6];
-            var5 = undefined;
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.IDLE;
-            if(!(var2 !== var4)) { _fun0002_ip = 1013; continue _fun0002 }
- 936:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.LOOP;
-            if(!(var2 !== var4)) { _fun0002_ip = 991; continue _fun0002 }
- 969:
+ 837:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 12;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 991:
+ 859:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 11;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 1013:
+ 881:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var6 = 1;
+            var2 = var2[var6];
+            var5 = undefined;
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.IDLE;
+            if(!(var2 !== var4)) { _fun0002_ip = 996; continue _fun0002 }
+ 919:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot1;
+            var2 = var2[var6];
+            var2 = var3.bind(var5)(var2);
+            var2 = var2.AnimationState;
+            var2 = var2.LOOP;
+            if(!(var2 !== var4)) { _fun0002_ip = 974; continue _fun0002 }
+ 952:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 10;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 1035:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var6 = 1;
-            var2 = var2[var6];
-            var5 = undefined;
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.IDLE;
-            if(!(var2 !== var4)) { _fun0002_ip = 1150; continue _fun0002 }
- 1073:
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var6];
-            var2 = var3.bind(var5)(var2);
-            var2 = var2.AnimationState;
-            var2 = var2.LOOP;
-            if(!(var2 !== var4)) { _fun0002_ip = 1128; continue _fun0002 }
- 1106:
+ 974:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 9;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 1128:
+ 996:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 8;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 1150:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 7;
-            var2 = var6[var2];
-            var2 = var3.bind(var5)(var2);
-            return var2;
- 1172:
+ 1018:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var6 = 1;
@@ -393,37 +350,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var5)(var2);
             var2 = var2.AnimationState;
             var2 = var2.IDLE;
-            if(!(var2 !== var4)) { _fun0002_ip = 1287; continue _fun0002 }
- 1210:
+            if(!(var2 !== var4)) { _fun0002_ip = 1133; continue _fun0002 }
+ 1056:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var3.bind(var5)(var2);
             var2 = var2.AnimationState;
             var2 = var2.LOOP;
-            if(!(var2 !== var4)) { _fun0002_ip = 1265; continue _fun0002 }
- 1243:
+            if(!(var2 !== var4)) { _fun0002_ip = 1111; continue _fun0002 }
+ 1089:
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var2 = 7;
+            var2 = var6[var2];
+            var2 = var3.bind(var5)(var2);
+            return var2;
+ 1111:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 6;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 1265:
+ 1133:
             var3 = _closure1_slot0;
             var6 = _closure1_slot1;
             var2 = 5;
             var2 = var6[var2];
             var2 = var3.bind(var5)(var2);
             return var2;
- 1287:
-            var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var2 = 4;
-            var2 = var6[var2];
-            var2 = var3.bind(var5)(var2);
-            return var2;
- 1309:
+ 1155:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var6 = 1;
@@ -432,23 +389,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var3)(var2);
             var2 = var2.AnimationState;
             var2 = var2.IDLE;
-            if(!(var2 !== var4)) { _fun0002_ip = 1402; continue _fun0002 }
- 1347:
+            if(!(var2 !== var4)) { _fun0002_ip = 1270; continue _fun0002 }
+ 1193:
             var5 = _closure1_slot0;
             var2 = _closure1_slot1;
             var2 = var2[var6];
             var2 = var5.bind(var3)(var2);
             var2 = var2.AnimationState;
             var2 = var2.LOOP;
-            if(!(var2 !== var4)) { _fun0002_ip = 1402; continue _fun0002 }
- 1380:
+            if(!(var2 !== var4)) { _fun0002_ip = 1248; continue _fun0002 }
+ 1226:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot1;
+            var2 = 4;
+            var2 = var5[var2];
+            var2 = var4.bind(var3)(var2);
+            return var2;
+ 1248:
             var4 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 3;
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
             return var2;
- 1402:
+ 1270:
             var2 = _closure1_slot0;
             var4 = _closure1_slot1;
             var1 = 2;

@@ -187,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(var1) { _fun0001_ip = 50; continue _fun0001 }
  42:
             var1 = var2.user_id;
-            _fun0001_ip = 80; continue _fun0001;
+            _fun0001_ip = 79; continue _fun0001;
  50:
             var4 = var2.count;
             var2 = global;
@@ -195,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var2.concat;
             var2 = 'RemainingUsersGroup-';
             var1 = var3.bind(var2)(var4);
- 80:
+ 79:
             return var1;
         }
     };

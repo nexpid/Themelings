@@ -183,11 +183,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var14.bind(var4)(var9);
             var9 = var9.ActivityAction;
             var9 = var9.START;
-            if(!(var12 !== var9)) { _fun0002_ip = 422; continue _fun0002 }
+            if(!(var12 !== var9)) { _fun0002_ip = 421; continue _fun0002 }
  332:
             var12 = var18.length;
             var9 = var17;
-            if(!(!(var12 <= var19))) { _fun0002_ip = 420; continue _fun0002 }
+            if(!(!(var12 <= var19))) { _fun0002_ip = 419; continue _fun0002 }
  344:
             var14 = _closure1_slot0;
             var20 = _closure1_slot2;
@@ -206,9 +206,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['count'] = var18;
             var12['username'] = var17;
             var9 = var15.bind(var16)(var14, var12);
- 420:
-            _fun0002_ip = 476; continue _fun0002;
- 422:
+ 419:
+            _fun0002_ip = 475; continue _fun0002;
+ 421:
             var12 = _closure1_slot0;
             var14 = _closure1_slot2;
             var11 = 28;
@@ -219,12 +219,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.maxParticipants;
             var14 = var10 != var13;
             var10 = 0;
-            if(!var14) { _fun0002_ip = 471; continue _fun0002 }
- 468:
+            if(!var14) { _fun0002_ip = 470; continue _fun0002 }
+ 467:
             var10 = var13;
- 471:
+ 470:
             var9 = var11.bind(var12)(var10);
- 476:
+ 475:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

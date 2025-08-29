@@ -93,22 +93,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['height'] = var5;
             var1['cornerRadius'] = var6;
             var6 = 'top-right';
-            if(!(var6 !== var7)) { _fun0001_ip = 262; continue _fun0001 }
- 232:
+            if(!(var6 !== var7)) { _fun0001_ip = 258; continue _fun0001 }
+ 228:
             var6 = var4 - var3;
             var6 = var6 + var2;
             var1['x'] = var6;
             var5 = var4 - var5;
             var5 = var5 + var2;
             var1['y'] = var5;
-            _fun0001_ip = 285; continue _fun0001;
- 262:
+            _fun0001_ip = 281; continue _fun0001;
+ 258:
             var3 = var4 - var3;
             var3 = var3 + var2;
             var1['x'] = var3;
             var2 = -var2;
             var1['y'] = var2;
- 285:
+ 281:
             return var1;
         }
     };

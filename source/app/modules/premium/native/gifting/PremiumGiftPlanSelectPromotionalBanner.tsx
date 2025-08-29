@@ -23,7 +23,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.HorizontalGradient;
+    var4 = var4.VerticalGradient;
     var _closure1_slot3 = var4;
     var4 = 2;
     var4 = var6[var4];
@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6[var13];
             var6 = var7.bind(var5)(var6);
             var7 = var6.Text;
-            var6 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'black'};
+            var6 = {'style': null, 'variant': 'text-sm/semibold', 'color': 'white'};
             var17 = var12.promotionalHeader;
             var16 = new Array(1);
             var16[0] = var17;
@@ -205,7 +205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8[var13];
             var8 = var9.bind(var5)(var8);
             var9 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-sm/normal', 'color': 'black'};
+            var8 = {'style': null, 'variant': 'text-sm/normal', 'color': 'white'};
             var12 = var12.promotionalSubheader;
             var8['style'] = var12;
             var8['children'] = var11;

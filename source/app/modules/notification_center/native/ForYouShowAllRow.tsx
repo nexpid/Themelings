@@ -16,10 +16,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var1.onPress;
             var5 = var1.panelVariant;
             var8 = undefined;
-            if(!(var5 === var8)) { _fun0001_ip = 33; continue _fun0001 }
- 31:
+            if(!(var5 === var8)) { _fun0001_ip = 32; continue _fun0001 }
+ 30:
             var5 = false;
- 33:
+ 32:
             var25 = _closure1_slot0;
             var27 = _closure1_slot2;
             var24 = 6;
@@ -91,13 +91,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var28[var25];
             var25 = var27.bind(var8)(var25);
             var25 = var25.AvatarSizes;
-            if(var24) { _fun0001_ip = 355; continue _fun0001 }
- 347:
+            if(var24) { _fun0001_ip = 354; continue _fun0001 }
+ 346:
             var24 = var25.SMALL;
-            _fun0001_ip = 361; continue _fun0001;
- 355:
+            _fun0001_ip = 360; continue _fun0001;
+ 354:
             var24 = var25.XSMALL_20;
- 361:
+ 360:
             var19['size'] = var24;
             var24 = '';
             var19['aria-label'] = var24;

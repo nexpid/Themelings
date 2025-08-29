@@ -28,17 +28,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var10.bind(var4)(var3);
             var12 = var13.useSharedValue;
             var10 = 0;
-            if(!var5) { _fun0001_ip = 86; continue _fun0001 }
- 83:
+            if(!var5) { _fun0001_ip = 87; continue _fun0001 }
+ 84:
             var10 = 1;
- 86:
+ 87:
             var13 = var12.bind(var13)(var10);
             _closure2_slot1 = var13;
             var16 = 180;
-            if(!var8) { _fun0001_ip = 103; continue _fun0001 }
- 101:
+            if(!var8) { _fun0001_ip = 104; continue _fun0001 }
+ 102:
             var16 = 0;
- 103:
+ 104:
             _closure2_slot2 = var16;
             var15 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -159,15 +159,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var2 = var8.bind(var12)(var2, var3);
-            if(var1) { _fun0001_ip = 293; continue _fun0001 }
- 282:
-            if(var5) { _fun0001_ip = 293; continue _fun0001 }
- 285:
+            if(var1) { _fun0001_ip = 294; continue _fun0001 }
+ 283:
+            if(var5) { _fun0001_ip = 294; continue _fun0001 }
+ 286:
             var8 = var7.emptyNode;
-            _fun0001_ip = 299; continue _fun0001;
- 293:
+            _fun0001_ip = 300; continue _fun0001;
+ 294:
             var8 = var7.filledNode;
- 299:
+ 300:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
@@ -181,8 +181,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[1] = var10;
             var7[2] = var8;
             var1['style'] = var7;
-            if(!var5) { _fun0001_ip = 409; continue _fun0001 }
- 356:
+            if(!var5) { _fun0001_ip = 410; continue _fun0001 }
+ 357:
             var8 = _closure1_slot6;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -193,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = {'variant': 'heading-deprecated-12/extrabold', 'color': 'interactive-active'};
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 409:
+ 410:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

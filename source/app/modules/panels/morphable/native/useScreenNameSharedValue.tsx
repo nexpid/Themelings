@@ -43,30 +43,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = null;
             var1 = var7 == var10;
             var11 = undefined;
-            if(var1) { _fun0001_ip = 75; continue _fun0001 }
- 65:
+            if(var1) { _fun0001_ip = 76; continue _fun0001 }
+ 66:
             var1 = var10.isReady;
             var11 = var1.bind(var10)();
- 75:
+ 76:
             var8 = 'unknown';
             var9 = true;
             var1 = var8;
-            if(!(var9 === var11)) { _fun0001_ip = 125; continue _fun0001 }
- 88:
+            if(!(var9 === var11)) { _fun0001_ip = 126; continue _fun0001 }
+ 89:
             var9 = var10.getCurrentRoute;
             var9 = var9.bind(var10)();
             var10 = var7 == var9;
             var6 = undefined;
-            if(var10) { _fun0001_ip = 112; continue _fun0001 }
- 107:
+            if(var10) { _fun0001_ip = 113; continue _fun0001 }
+ 108:
             var6 = var9.name;
- 112:
+ 113:
             var7 = var7 != var6;
             var1 = var8;
-            if(!var7) { _fun0001_ip = 125; continue _fun0001 }
- 122:
+            if(!var7) { _fun0001_ip = 126; continue _fun0001 }
+ 123:
             var1 = var6;
- 125:
+ 126:
             var1 = var4.bind(var5)(var1);
             var _closure2_slot0 = var1;
             var5 = _closure1_slot2;

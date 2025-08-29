@@ -663,33 +663,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.textStyle;
             var1 = var2.animate;
             var5 = undefined;
-            if(!(var1 === var5)) { _fun0007_ip = 35; continue _fun0007 }
- 33:
+            if(!(var1 === var5)) { _fun0007_ip = 34; continue _fun0007 }
+ 32:
             var1 = true;
- 35:
+ 34:
             var8 = var2.textColor;
-            if(!(var8 === var5)) { _fun0007_ip = 51; continue _fun0007 }
- 45:
+            if(!(var8 === var5)) { _fun0007_ip = 50; continue _fun0007 }
+ 44:
             var8 = 'text-normal';
- 51:
+ 50:
             var7 = var2.textVariant;
-            if(!(var7 === var5)) { _fun0007_ip = 67; continue _fun0007 }
- 61:
+            if(!(var7 === var5)) { _fun0007_ip = 66; continue _fun0007 }
+ 60:
             var7 = 'text-sm/normal';
- 67:
+ 66:
             var10 = var2.formatter;
-            if(!(var10 === var5)) { _fun0007_ip = 106; continue _fun0007 }
- 77:
+            if(!(var10 === var5)) { _fun0007_ip = 105; continue _fun0007 }
+ 76:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 11;
             var2 = var4[var2];
             var2 = var3.bind(var5)(var2);
             var10 = var2.defaultFormatter;
- 106:
+ 105:
             var4 = _closure1_slot7;
-            if(var1) { _fun0007_ip = 155; continue _fun0007 }
- 116:
+            if(var1) { _fun0007_ip = 153; continue _fun0007 }
+ 115:
             var3 = _closure1_slot19;
             var1 = {};
             var1['count'] = var11;
@@ -698,8 +698,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['textVariant'] = var7;
             var1['textStyle'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0007_ip = 197; continue _fun0007;
- 155:
+            _fun0007_ip = 194; continue _fun0007;
+ 153:
             var3 = _closure1_slot18;
             var2 = {};
             var2['count'] = var11;
@@ -709,7 +709,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['textVariant'] = var7;
             var2['textStyle'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 197:
+ 194:
             return var1;
         }
     };

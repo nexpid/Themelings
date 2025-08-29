@@ -1098,6 +1098,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = undefined;
                     var2 = var3.bind(var1)(var2);
                     var2 = var2.BaseConnectionEvent;
+                    var3 = var2.FirstFrameStats;
+                    var2 = arg1;
+                    var2 = var4.bind(var5)(var3, var2);
+                    return var1;
+                };
+                var1['handleFirstFrameStats'] = var8;
+                var8 = function(arg1) {
+                    var5 = _closure3_slot0;
+                    var4 = var5.emit;
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var1 = 10;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    var2 = var2.BaseConnectionEvent;
                     var3 = var2.Silence;
                     var2 = arg1;
                     var2 = !var2;
@@ -2055,7 +2071,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var4 = var1.handleNoInput;
                                     var4 = var6.bind(var7)(var4);
                                     var1 = var1.videoSupported;
-                                    if(!var1) { _fun0025_ip = 882; continue _fun0025 }
+                                    if(!var1) { _fun0025_ip = 921; continue _fun0025 }
  662:
                                     var6 = _closure3_slot2;
                                     var4 = var6.setOnVideoCallback;
@@ -2073,55 +2089,65 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var1 = var4.bind(var6)(var1);
  726:
                                     var1 = _closure3_slot2;
-                                    var1 = var1.setOnDesktopSourceEnded;
+                                    var1 = var1.setOnFirstFrameDeliveredStatsCallback;
                                     if(!(var2 != var1)) { _fun0025_ip = 765; continue _fun0025 }
  740:
+                                    var6 = _closure3_slot2;
+                                    var4 = var6.setOnFirstFrameDeliveredStatsCallback;
+                                    var1 = _closure3_slot0;
+                                    var1 = var1.handleFirstFrameStats;
+                                    var1 = var4.bind(var6)(var1);
+ 765:
+                                    var1 = _closure3_slot2;
+                                    var1 = var1.setOnDesktopSourceEnded;
+                                    if(!(var2 != var1)) { _fun0025_ip = 804; continue _fun0025 }
+ 779:
                                     var6 = _closure3_slot2;
                                     var4 = var6.setOnDesktopSourceEnded;
                                     var1 = _closure3_slot0;
                                     var1 = var1.handleDesktopSourceEnded;
                                     var1 = var4.bind(var6)(var1);
- 765:
+ 804:
                                     var1 = _closure3_slot2;
                                     var1 = var1.setOnSoundshare;
-                                    if(!(var2 != var1)) { _fun0025_ip = 804; continue _fun0025 }
- 779:
+                                    if(!(var2 != var1)) { _fun0025_ip = 843; continue _fun0025 }
+ 818:
                                     var6 = _closure3_slot2;
                                     var4 = var6.setOnSoundshare;
                                     var1 = _closure3_slot0;
                                     var1 = var1.handleSoundshare;
                                     var1 = var4.bind(var6)(var1);
- 804:
+ 843:
                                     var1 = _closure3_slot2;
                                     var1 = var1.setOnSoundshareEnded;
-                                    if(!(var2 != var1)) { _fun0025_ip = 843; continue _fun0025 }
- 818:
+                                    if(!(var2 != var1)) { _fun0025_ip = 882; continue _fun0025 }
+ 857:
                                     var6 = _closure3_slot2;
                                     var4 = var6.setOnSoundshareEnded;
                                     var1 = _closure3_slot0;
                                     var1 = var1.handleSoundshareEnded;
                                     var1 = var4.bind(var6)(var1);
- 843:
+ 882:
                                     var1 = _closure3_slot2;
                                     var1 = var1.setOnSoundshareFailed;
-                                    if(!(var2 != var1)) { _fun0025_ip = 882; continue _fun0025 }
- 857:
+                                    if(!(var2 != var1)) { _fun0025_ip = 921; continue _fun0025 }
+ 896:
                                     var6 = _closure3_slot2;
                                     var4 = var6.setOnSoundshareFailed;
                                     var1 = _closure3_slot0;
                                     var1 = var1.handleSoundshareFailed;
                                     var1 = var4.bind(var6)(var1);
- 882:
+ 921:
                                     var1 = _closure3_slot2;
                                     var1 = var1.setOnMLSFailureCallback;
-                                    if(!(var2 != var1)) { _fun0025_ip = 921; continue _fun0025 }
- 896:
+                                    if(!(var2 != var1)) { _fun0025_ip = 960; continue _fun0025 }
+ 935:
                                     var4 = _closure3_slot2;
                                     var2 = var4.setOnMLSFailureCallback;
                                     var1 = _closure3_slot0;
                                     var1 = var1.handleMLSFailure;
                                     var1 = var2.bind(var4)(var1);
- 921:
+ 960:
                                     var2 = _closure3_slot0;
                                     var6 = var2.setConnectionState;
                                     var4 = _closure1_slot21;
@@ -2216,23 +2242,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     var2 = var4.length;
                                     var3 = 0;
                                     var2 = var3 < var2;
-                                    if(!var2) { _fun0025_ip = 1270; continue _fun0025 }
- 1215:
+                                    if(!var2) { _fun0025_ip = 1309; continue _fun0025 }
+ 1254:
                                     var8 = var4[var3];
                                     var2 = _closure3_slot0;
                                     var2 = var2.userId;
-                                    if(!(var8 !== var2)) { _fun0025_ip = 1258; continue _fun0025 }
- 1232:
+                                    if(!(var8 !== var2)) { _fun0025_ip = 1297; continue _fun0025 }
+ 1271:
                                     var7 = _closure3_slot0;
                                     var6 = var7.setSpeakingFlags;
                                     var2 = var7.localSpeakingFlags;
                                     var2 = var2[var8];
                                     var2 = var6.bind(var7)(var8, var2);
- 1258:
+ 1297:
                                     var3 = var3 + 1;
                                     var2 = var4.length;
-                                    if(var3 < var2) { _fun0025_ip = 1215; continue _fun0025 }
- 1270:
+                                    if(var3 < var2) { _fun0025_ip = 1254; continue _fun0025 }
+ 1309:
                                     return var1;
                                 }
                             };

@@ -1000,8 +1000,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7[1] = var8;
                 var1['style'] = var7;
                 var7 = null;
-                if(var5) { _fun0008_ip = 571; continue _fun0008 }
- 490:
+                if(var5) { _fun0008_ip = 573; continue _fun0008 }
+ 492:
                 var9 = _closure1_slot14;
                 var8 = _closure1_slot16;
                 var5 = {};
@@ -1021,7 +1021,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = 'small';
                 var5['size'] = var11;
                 var7 = var9.bind(var4)(var8, var5);
- 571:
+ 573:
                 var5 = new Array(3);
                 var5[0] = var7;
                 var9 = _closure1_slot14;

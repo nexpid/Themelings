@@ -36,7 +36,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var7;
     var4 = var4.jsxs;
     var _closure1_slot7 = var4;
-    var4 = 17;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -54,14 +54,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useSafetyFlowTask;
             var2 = var2.bind(var3)();
             var14 = var2.task;
-            var _closure2_slot0 = var14;
-            var10 = var2.setTask;
-            var _closure2_slot1 = var10;
+            var2 = 5;
+            var2 = var16[var2];
+            var3 = var21.bind(var4)(var2);
+            var2 = var3.useOnTaskComplete;
+            var10 = var2.bind(var3)();
+            var _closure2_slot0 = var10;
             var8 = _closure1_slot5;
             var2 = var8.useRef;
             var3 = '';
             var2 = var2.bind(var8)(var3);
-            var _closure2_slot2 = var2;
+            var _closure2_slot1 = var2;
             var2 = var8.useState;
             var2 = var2.bind(var8)(var3);
             var11 = _closure1_slot4;
@@ -69,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var11.bind(var4)(var2, var9);
             var7 = 0;
             var18 = var2[var7];
-            var _closure2_slot3 = var18;
+            var _closure2_slot2 = var18;
             var3 = 1;
             var17 = var2[var3];
             var2 = var8.useState;
@@ -78,20 +81,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var11.bind(var4)(var2, var9);
             var6 = var2[var7];
             var15 = var2[var3];
-            var _closure2_slot4 = var15;
+            var _closure2_slot3 = var15;
             var2 = var8.useState;
             var2 = var2.bind(var8)(var12);
             var2 = var11.bind(var4)(var2, var9);
             var9 = var2[var7];
-            var _closure2_slot5 = var9;
+            var _closure2_slot4 = var9;
             var2 = var2[var3];
-            var _closure2_slot6 = var2;
-            var2 = 5;
-            var2 = var16[var2];
-            var3 = var21.bind(var4)(var2);
-            var2 = var3.useNavigation;
-            var11 = var2.bind(var3)();
-            var _closure2_slot7 = var11;
+            var _closure2_slot5 = var2;
             var7 = var8.useCallback;
             var3 = _closure1_slot3;
             var2 = function* () {
@@ -100,99 +97,61 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0002_ip = 413; continue _fun0002 }
+                        if(var2) { _fun0002_ip = 284; continue _fun0002 }
  10:
                         var2 = undefined;
-                        var10 = undefined;
-                        var11 = undefined;
-                        var4 = _closure2_slot2;
-                        var4 = var4.current;
-                        var10 = var4;
-                        var12 = null;
-                        if(!(var12 != var4)) { _fun0002_ip = 410; continue _fun0002 }
- 40:
-                        var5 = var10;
+                        var6 = undefined;
+                        var4 = _closure2_slot1;
+                        var5 = var4.current;
+                        var6 = var5;
+                        var4 = null;
+                        if(!(var4 != var5)) { _fun0002_ip = 281; continue _fun0002 }
+ 38:
+                        var5 = var6;
                         var4 = '';
-                        if(!(var4 !== var5)) { _fun0002_ip = 410; continue _fun0002 }
- 54: // try_start_0
-                        var4 = _closure2_slot4;
-                        var7 = true;
-                        var4 = var4.bind(var2)(var7);
-                        var5 = _closure1_slot0;
-                        var8 = _closure1_slot2;
-                        var4 = 6;
-                        var4 = var8[var4];
-                        var8 = var5.bind(var2)(var4);
-                        var5 = var8.completeTask;
+                        if(!(var4 !== var5)) { _fun0002_ip = 281; continue _fun0002 }
+ 52: // try_start_0
+                        var4 = _closure2_slot3;
+                        var5 = true;
+                        var4 = var4.bind(var2)(var5);
+                        var4 = _closure2_slot5;
+                        var4 = var4.bind(var2)(var5);
+                        var5 = _closure2_slot0;
                         var4 = {};
-                        var9 = _closure2_slot0;
-                        var13 = var9.task_id;
-                        var4['task_id'] = var13;
-                        var9 = var9.flow_context;
-                        var11 = var9;
-                        var12 = var12 == var9;
-                        var9 = undefined;
-                        if(var12) { _fun0002_ip = 135; continue _fun0002 }
- 129:
-                        var9 = var11.flow_id;
- 135:
-                        var4['flow_id'] = var9;
-                        var9 = {};
-                        var9['verification_code'] = var10;
-                        var10 = 'verification_code';
-                        var9['type'] = var10;
-                        var4['data'] = var9;
-                        var4 = var5.bind(var8)(var4);
-                        SaveGenerator(address=172);
- 170:
+                        var4['verification_code'] = var6;
+                        var7 = _closure1_slot0;
+                        var8 = _closure1_slot2;
+                        var6 = 6;
+                        var6 = var8[var6];
+                        var6 = var7.bind(var2)(var6);
+                        var6 = var6.TaskInputType;
+                        var6 = var6.VerificationCode;
+                        var4['type'] = var6;
+                        var4 = var5.bind(var2)(var4);
+                        SaveGenerator(address=133);
+ 131:
                         return var4;
- 172:
+ 133:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(var5) { _fun0002_ip = 284; continue _fun0002 }
- 178:
-                        var5 = _closure2_slot6;
-                        var5 = var5.bind(var2)(var7);
-                        var7 = _closure1_slot0;
-                        var5 = _closure1_slot2;
-                        var8 = 7;
-                        var5 = var5[var8];
-                        var9 = var7.bind(var2)(var5);
-                        var7 = var9.fetchAndUpdateTask;
-                        var5 = _closure2_slot1;
-                        var5 = var7.bind(var9)(var5);
-                        SaveGenerator(address=226);
- 224:
-                        return var5;
- 226:
-                        ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                        if(var7) { _fun0002_ip = 281; continue _fun0002 }
- 232:
-                        var9 = _closure2_slot4;
-                        var7 = false;
-                        var7 = var9.bind(var2)(var7);
-                        var7 = _closure1_slot0;
-                        var6 = _closure1_slot2;
-                        var6 = var6[var8];
-                        var8 = var7.bind(var2)(var6);
-                        var7 = var8.navigateToScreenForTask;
-                        var6 = _closure2_slot7;
-                        var6 = var7.bind(var8)(var6, var5);
- 276: // try_end0
-                        _fun0002_ip = 410; continue _fun0002;
- 281:
-                        return var5;
- 284:
+                        if(var5) { _fun0002_ip = 155; continue _fun0002 }
+ 139:
+                        var6 = _closure2_slot3;
+                        var5 = false;
+                        var5 = var6.bind(var2)(var5);
+ 150: // try_end0
+                        _fun0002_ip = 281; continue _fun0002;
+ 155:
                         return var4;
- 287: // catch_target0
+ 158: // catch_target0
                         CatchBlockStart(arg_register=3);
-                        var5 = _closure2_slot4;
+                        var5 = _closure2_slot3;
                         var4 = false;
                         var5 = var5.bind(var2)(var4);
-                        var3 = _closure2_slot6;
+                        var3 = _closure2_slot5;
                         var3 = var3.bind(var2)(var4);
                         var9 = _closure1_slot1;
                         var10 = _closure1_slot2;
-                        var3 = 8;
+                        var3 = 7;
                         var3 = var10[var3];
                         var5 = var9.bind(var2)(var3);
                         var4 = var5.open;
@@ -200,39 +159,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = 'SAFETY_FLOWS_VERIFY_EMAIL_ERROR';
                         var3['key'] = var7;
                         var7 = _closure1_slot0;
-                        var6 = 9;
+                        var6 = 8;
                         var6 = var10[var6];
                         var6 = var7.bind(var2)(var6);
                         var8 = var6.intl;
                         var7 = var8.string;
-                        var6 = 10;
+                        var6 = 9;
                         var6 = var10[var6];
                         var6 = var9.bind(var2)(var6);
                         var6 = var6.PfbG6O;
                         var6 = var7.bind(var8)(var6);
                         var3['content'] = var6;
                         var3 = var4.bind(var5)(var3);
- 410:
+ 281:
                         return var2;
- 413:
+ 284:
                         return var1;
                     }
                 };
                 return var1;
             };
             var3 = var3.bind(var4)(var2);
-            var2 = new Array(3);
-            var2[0] = var14;
-            var2[1] = var11;
-            var2[2] = var10;
+            var2 = new Array(1);
+            var2[0] = var10;
             var7 = var7.bind(var8)(var3, var2);
-            var _closure2_slot8 = var7;
+            var _closure2_slot6 = var7;
             var10 = var8.useEffect;
             var3 = new Array(1);
             var3[0] = var18;
             var2 = function() {
-                var2 = _closure2_slot2;
-                var1 = _closure2_slot3;
+                var2 = _closure2_slot1;
+                var1 = _closure2_slot2;
                 var2['current'] = var1;
                 var1 = undefined;
                 return var1;
@@ -246,17 +203,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    var2 = _closure2_slot3;
+                    var2 = _closure2_slot2;
                     var3 = var2.length;
                     var2 = 6;
                     var2 = var2 !== var3;
                     if(var2) { _fun0003_ip = 26; continue _fun0003 }
  22:
-                    var2 = _closure2_slot5;
+                    var2 = _closure2_slot4;
  26:
                     if(var2) { _fun0003_ip = 39; continue _fun0003 }
  29:
-                    var2 = _closure2_slot8;
+                    var2 = _closure2_slot6;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
  39:
@@ -267,16 +224,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var8)(var1, var2);
             var3 = _closure1_slot6;
             var13 = _closure1_slot1;
-            var1 = 11;
+            var1 = 10;
             var1 = var16[var1];
             var2 = var13.bind(var4)(var1);
             var1 = {};
-            var20 = 9;
+            var20 = 8;
             var8 = var16[var20];
             var8 = var21.bind(var4)(var8);
             var10 = var8.intl;
             var9 = var10.string;
-            var19 = 10;
+            var19 = 9;
             var8 = var16[var19];
             var8 = var13.bind(var4)(var8);
             var8 = var8.Qm6K/v;
@@ -294,18 +251,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onAction'] = var7;
             var1['submitting'] = var6;
             var7 = _closure1_slot7;
-            var9 = 12;
+            var9 = 11;
             var5 = var16[var9];
             var5 = var21.bind(var4)(var5);
             var6 = var5.Stack;
             var5 = {};
-            var11 = 13;
+            var11 = 12;
             var8 = var16[var11];
             var8 = var13.bind(var4)(var8);
             var8 = var8.spacing;
             var8 = var8.PX_16;
             var5['spacing'] = var8;
-            var8 = 14;
+            var8 = 13;
             var8 = var16[var8];
             var8 = var21.bind(var4)(var8);
             var10 = var8.Text;
@@ -331,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.spacing;
             var11 = var11.PX_8;
             var9['spacing'] = var11;
-            var11 = 15;
+            var11 = 14;
             var11 = var16[var11];
             var11 = var21.bind(var4)(var11);
             var12 = var11.TextInput;
@@ -350,7 +307,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var3.bind(var4)(var12, var11);
             var11 = new Array(2);
             var11[0] = var12;
-            var12 = 16;
+            var12 = 15;
             var12 = var16[var12];
             var13 = var13.bind(var4)(var12);
             var12 = {};
@@ -359,10 +316,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = null;
             var16 = var14 == var15;
             var14 = undefined;
-            if(var16) { _fun0001_ip = 765; continue _fun0001 }
- 759:
+            if(var16) { _fun0001_ip = 743; continue _fun0001 }
+ 737:
             var14 = var15.flow_id;
- 765:
+ 743:
             var12['flowId'] = var14;
             var12 = var3.bind(var4)(var13, var12);
             var11[1] = var12;

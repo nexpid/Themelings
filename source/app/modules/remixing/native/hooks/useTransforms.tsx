@@ -23,32 +23,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function _default(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var3 = arg1;
-            var2 = arg2;
+            var4 = arg1;
+            var3 = arg2;
             var5 = _closure1_slot0;
-            var4 = _closure1_slot1;
+            var2 = _closure1_slot1;
             var1 = 0;
-            var4 = var4[var1];
+            var2 = var2[var1];
             var1 = undefined;
-            var5 = var5.bind(var1)(var4);
-            var4 = var5.useSharedValue;
+            var5 = var5.bind(var1)(var2);
+            var2 = var5.useSharedValue;
             var1 = arg3;
-            var1 = var4.bind(var5)(var1);
-            var5 = var2[var3];
-            var4 = null;
-            var4 = var4 != var5;
-            if(var4) { _fun0001_ip = 75; continue _fun0001 }
- 56:
-            var5 = global;
-            var6 = var5.Object;
+            var2 = var2.bind(var5)(var1);
+            var1 = global;
+            var6 = var1.Object;
             var5 = var6.isFrozen;
-            var4 = var5.bind(var6)(var2);
- 75:
-            if(var4) { _fun0001_ip = 82; continue _fun0001 }
- 78:
-            var2[var3] = var1;
+            var5 = var5.bind(var6)(var3);
+            if(var5) { _fun0001_ip = 82; continue _fun0001 }
+ 66:
+            var6 = var3[var4];
+            var5 = null;
+            if(!(var5 == var6)) { _fun0001_ip = 80; continue _fun0001 }
+ 76:
+            var3[var4] = var2;
+ 80:
+            return var2;
  82:
-            return var1;
+            var3 = var1.Error;
+            var1 = var3.prototype;
+            var2 = Object.create(var1, {constructor: {value: var3}});
+            var7 = 'transformMap was touched on the UI thread and locked, invalid state.';
+            var8 = var2;
+            var1 = new var8[var3](var7, var6);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
         }
     };
     var3['default'] = var2;

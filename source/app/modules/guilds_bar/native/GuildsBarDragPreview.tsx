@@ -437,10 +437,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.TransitionStates;
             var7 = var2.ENTERED;
             var2 = 1;
-            if(!(var14 === var7)) { _fun0007_ip = 102; continue _fun0007 }
- 100:
+            if(!(var14 === var7)) { _fun0007_ip = 103; continue _fun0007 }
+ 101:
             var2 = 0;
- 102:
+ 103:
             var15 = var3.bind(var5)(var2);
             _closure2_slot2 = var15;
             var3 = var9.type;
@@ -678,8 +678,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var9.type;
             var5 = _closure1_slot4;
             var5 = var5.FOLDER;
-            if(!(var7 !== var5)) { _fun0007_ip = 429; continue _fun0007 }
- 379:
+            if(!(var7 !== var5)) { _fun0007_ip = 430; continue _fun0007 }
+ 380:
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -692,8 +692,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = true;
             var5['isDragPreview'] = var10;
             var5 = var8.bind(var4)(var7, var5);
-            _fun0007_ip = 516; continue _fun0007;
- 429:
+            _fun0007_ip = 517; continue _fun0007;
+ 430:
             var8 = _closure1_slot6;
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -714,7 +714,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = true;
             var6['isDragPreview'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 516:
+ 517:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

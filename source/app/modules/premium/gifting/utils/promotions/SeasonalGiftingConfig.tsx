@@ -33,7 +33,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = {'skuId': '1287835633733341224', 'assetId': 'a_4f2b75e5adff09709702613ea0e2cb70'};
     var14 = {'skuId': '1287835633762701382', 'assetId': 'a_604d1f0f336d41089acc3f82f458a99e'};
     var4 = {};
-    var2 = ['rgb(2, 25, 47)', 'rgb(9, 95, 51)', 'rgb(21, 209, 46)'];
+    var2 = ['rgb(35, 86, 53)', 'rgb(3, 15, 40)'];
     var4['gradient'] = var2;
     var _closure1_slot3 = var4;
     var2 = {};
@@ -200,29 +200,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = var10.PREMUIM_UPSELL_GIFTING_PROMOTION;
     var5['analyticsPage'] = var10;
     var2['firstTimeNotice'] = var5;
+    var10 = var9.PREMIUM_YEAR_TIER_2;
+    var5 = new Array(2);
+    var5[0] = var10;
+    var9 = var9.PREMIUM_MONTH_TIER_2;
+    var5[1] = var9;
+    var2['eligiblePlanIds'] = var5;
     var5 = {};
-    var10 = function heading() {
+    var9 = function heading() {
         var1 = 'Choose a FREE reward';
         return var1;
     };
-    var5['heading'] = var10;
-    var10 = function subheading() {
+    var5['heading'] = var9;
+    var9 = function subheading() {
         var1 = 'Yours to keep if you dare...';
         return var1;
     };
-    var5['subheading'] = var10;
+    var5['subheading'] = var9;
     var5['gradientConfig'] = var4;
-    var10 = function getImageUrl() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 6;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        return var1;
-    };
-    var5['getImageUrl'] = var10;
-    var10 = function getBackgroundImageUrl() {
+    var9 = function getImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 9;
@@ -231,14 +227,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var1)(var2);
         return var1;
     };
-    var5['getBackgroundImageUrl'] = var10;
+    var5['getImageUrl'] = var9;
+    var9 = function getBannerImageUrl() {
+        var1 = '';
+        return var1;
+    };
+    var5['getBannerImageUrl'] = var9;
+    var9 = function getBackgroundImageUrl() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 10;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
+    };
+    var5['getBackgroundImageUrl'] = var9;
     var2['planSelection'] = var5;
-    var10 = var9.PREMIUM_YEAR_TIER_2;
-    var5 = new Array(2);
-    var5[0] = var10;
-    var9 = var9.PREMIUM_MONTH_TIER_2;
-    var5[1] = var9;
-    var2['eligiblePlanIds'] = var5;
     var5 = {};
     var9 = function desktopBannerText() {
         var1 = 'Pick a free Halloween avatar decoration. Yours to keep with a gift purchase.';
@@ -246,26 +251,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['desktopBannerText'] = var9;
     var9 = function mobileBannerText() {
-        var5 = _closure1_slot0;
-        var6 = _closure1_slot2;
-        var1 = 7;
-        var2 = var6[var1];
-        var4 = undefined;
-        var2 = var5.bind(var4)(var2);
-        var3 = var2.intl;
-        var2 = var3.string;
-        var1 = var6[var1];
-        var1 = var5.bind(var4)(var1);
-        var1 = var1.t;
-        var1 = var1.VBnNJS;
-        var1 = var2.bind(var3)(var1);
+        var1 = 'Free reward for YOU! Choose one you love!';
         return var1;
     };
     var5['mobileBannerText'] = var9;
     var9 = function getImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 6;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -278,12 +271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['gradientConfig'] = var9;
     var9 = function getBackgroundImageUrl() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 10;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
+        var1 = '';
         return var1;
     };
     var5['getBackgroundImageUrl'] = var9;
@@ -292,7 +280,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function getAnimatedImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 11;
+        var1 = 12;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -317,7 +305,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function getBackgroundImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 12;
+        var1 = 13;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -325,7 +313,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['getBackgroundImageUrl'] = var8;
     var2['billingSettingsMarketingBanner'] = var5;
-    var5 = 13;
+    var5 = 14;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 422; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 492; continue _fun0001 }
  13:
                     var4 = undefined;
                     if(!(var2 === var4)) { _fun0001_ip = 21; continue _fun0001 }
@@ -31,11 +31,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var4;
  31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 419; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 489; continue _fun0001 }
  40:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 3;
+                    var3 = 4;
                     var3 = var7[var3];
                     var7 = var5.bind(var4)(var3);
                     var5 = var7.isEligibleForSafetyFlowsExperiment;
@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = 'open-safety-flow';
                     var3['location'] = var9;
                     var3 = var5.bind(var7)(var3);
-                    if(!var3) { _fun0001_ip = 410; continue _fun0001 }
+                    if(!var3) { _fun0001_ip = 480; continue _fun0001 }
  92:
                     var7 = null;
                     if(!(var7 == var8)) { _fun0001_ip = 112; continue _fun0001 }
@@ -58,16 +58,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  126:
                     var5 = _closure1_slot1;
                     var9 = _closure1_slot2;
-                    var3 = 4;
+                    var3 = 5;
                     var3 = var9[var3];
                     var5 = var5.bind(var4)(var3);
                     var3 = var5.isFullScreenVerification;
                     var3 = var3.bind(var5)(var8);
-                    if(!var3) { _fun0001_ip = 410; continue _fun0001 }
+                    if(!var3) { _fun0001_ip = 480; continue _fun0001 }
  163:
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
-                    var3 = 5;
+                    var3 = 6;
                     var3 = var8[var3];
                     var5 = var5.bind(var4)(var3);
                     var3 = var5.getCurrentTask;
@@ -77,35 +77,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var3;
  197:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 416; continue _fun0001 }
+                    if(var5) { _fun0001_ip = 486; continue _fun0001 }
  206:
-                    if(!(var7 != var3)) { _fun0001_ip = 413; continue _fun0001 }
+                    if(!(var7 != var3)) { _fun0001_ip = 483; continue _fun0001 }
  213:
+                    var8 = var3.task_type;
+                    var10 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var9 = 3;
+                    var5 = var5[var9];
+                    var5 = var10.bind(var4)(var5);
+                    var5 = var5.TaskType;
+                    var5 = var5.AGE_VERIFICATION;
+                    if(!(var8 !== var5)) { _fun0001_ip = 354; continue _fun0001 }
+ 255:
                     var8 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var9 = 6;
                     var5 = var5[var9];
                     var5 = var8.bind(var4)(var5);
                     var8 = var5.TASK_TYPE_TO_SCREENS;
                     var5 = var3.task_type;
                     var5 = var8[var5];
-                    if(!(var7 == var5)) { _fun0001_ip = 284; continue _fun0001 }
- 253:
+                    if(!(var7 == var5)) { _fun0001_ip = 323; continue _fun0001 }
+ 292:
                     var7 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var5 = var5[var9];
                     var5 = var7.bind(var4)(var5);
                     var5 = var5.SafetyFlowScreens;
                     var5 = var5.UPDATE_APP;
-                    _fun0001_ip = 313; continue _fun0001;
- 284:
+                    _fun0001_ip = 352; continue _fun0001;
+ 323:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var7 = var7[var9];
                     var7 = var8.bind(var4)(var7);
                     var7 = var7.SafetyFlowScreens;
                     var5 = var7.OVERVIEW;
- 313:
+ 352:
+                    _fun0001_ip = 383; continue _fun0001;
+ 354:
+                    var8 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var9];
+                    var7 = var8.bind(var4)(var7);
+                    var7 = var7.SafetyFlowScreens;
+                    var5 = var7.AGE_VERIFICATION;
+ 383:
                     var8 = _closure1_slot1;
                     var11 = _closure1_slot2;
                     var7 = 7;
@@ -128,15 +146,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var10.bind(var4)(var5);
                     var5 = var5.SAFETY_FLOWS_MODAL_KEY;
                     var5 = var8.bind(var9)(var7, var6, var5);
- 410:
+ 480:
                     return var4;
- 413:
+ 483:
                     return var4;
- 416:
+ 486:
                     return var3;
- 419:
+ 489:
                     return var2;
- 422:
+ 492:
                     return var1;
                 }
             };

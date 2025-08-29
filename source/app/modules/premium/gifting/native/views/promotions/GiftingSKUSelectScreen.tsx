@@ -612,8 +612,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = new Array(4);
             var7[0] = var21;
             var8 = var13 != var8;
-            if(!var8) { _fun0004_ip = 810; continue _fun0004 }
- 666:
+            if(!var8) { _fun0004_ip = 812; continue _fun0004 }
+ 668:
             var22 = _closure1_slot7;
             var32 = _closure1_slot0;
             var33 = _closure1_slot2;
@@ -642,7 +642,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var28.bind(var29)(var24, var23);
             var16['children'] = var23;
             var8 = var22.bind(var4)(var21, var16);
- 810:
+ 812:
             var7[1] = var8;
             var16 = _closure1_slot7;
             var22 = _closure1_slot5;
@@ -670,10 +670,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.bind(var4)(var8);
             var8 = {};
             var8['rewardsToDisplay'] = var20;
-            if(!(var13 == var18)) { _fun0004_ip = 930; continue _fun0004 }
- 926:
+            if(!(var13 == var18)) { _fun0004_ip = 932; continue _fun0004 }
+ 928:
             var18 = new Array(0);
- 930:
+ 932:
             var8['claimableRewards'] = var18;
             var8['onSelect'] = var17;
             var8['highlightedSkuId'] = var11;
@@ -702,15 +702,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15[var19];
             var15 = var18.bind(var4)(var15);
             var15 = var15.t;
-            var15 = var15.WaYuBQ;
+            var15 = var15.3d0NmZ;
             var15 = var16.bind(var17)(var15);
             var9['text'] = var15;
             var9['onPress'] = var14;
             var11 = var13 == var11;
-            if(var11) { _fun0004_ip = 1085; continue _fun0004 }
- 1082:
+            if(var11) { _fun0004_ip = 1087; continue _fun0004 }
+ 1084:
             var11 = !var12;
- 1085:
+ 1087:
             var9['disabled'] = var11;
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;

@@ -1,0 +1,551 @@
+// app/modules/conversations/ConversationProvider.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var7 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var7;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var8.bind(var9)(var3, var1, var4);
+    var1 = 0;
+    var8 = var6[var1];
+    var4 = metroImportAll;
+    var1 = undefined;
+    var4 = var4.bind(var1)(var8);
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot4 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var6[var4];
+    var4 = var7.bind(var1)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 4;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot7 = var4;
+    var4 = 10;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/conversations/ConversationProvider.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function ConversationProvider(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var1 = arg1;
+            var13 = var1.conversationProps;
+            var _closure2_slot0 = var13;
+            var5 = var1.children;
+            var10 = var1.MediaComponent;
+            var _closure2_slot1 = var10;
+            var4 = undefined;
+            var _closure2_slot5 = var4;
+            var _closure2_slot6 = var4;
+            var6 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var8 = 5;
+            var7 = var2[var8];
+            var12 = var6.bind(var4)(var7);
+            var11 = var12.useStateFromStores;
+            var7 = _closure1_slot6;
+            var9 = new Array(1);
+            var9[0] = var7;
+            var7 = function() {
+                _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+                    var1 = _closure2_slot0;
+                    var2 = var1.messages;
+                    var1 = 0;
+                    var2 = var2[var1];
+                    var4 = null;
+                    var3 = var4 == var2;
+                    var1 = null;
+                    if(var3) { _fun0002_ip = 74; continue _fun0002 }
+ 30:
+                    var7 = _closure1_slot6;
+                    var6 = var7.getMessage;
+                    var3 = var2.getChannelId;
+                    var5 = var3.bind(var2)();
+                    var3 = var2.id;
+                    var3 = var6.bind(var7)(var5, var3);
+                    if(!(var4 != var3)) { _fun0002_ip = 71; continue _fun0002 }
+ 68:
+                    var2 = var3;
+ 71:
+                    var1 = var2;
+ 74:
+                    return var1;
+                }
+            };
+            var11 = var11.bind(var12)(var9, var7);
+            var _closure2_slot2 = var11;
+            var7 = var2[var8];
+            var14 = var6.bind(var4)(var7);
+            var12 = var14.useStateFromStores;
+            var7 = _closure1_slot4;
+            var9 = new Array(1);
+            var9[0] = var7;
+            var7 = function() {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                    var1 = _closure2_slot2;
+                    var5 = null;
+                    var2 = var5 == var1;
+                    var1 = null;
+                    if(var2) { _fun0003_ip = 74; continue _fun0003 }
+ 18:
+                    var7 = _closure1_slot4;
+                    var6 = var7.getChannel;
+                    var2 = _closure2_slot2;
+                    var2 = var2.channel_id;
+                    var2 = var6.bind(var7)(var2);
+                    if(!(var5 == var2)) { _fun0003_ip = 71; continue _fun0003 }
+ 48:
+                    var5 = _closure1_slot4;
+                    var4 = var5.getChannel;
+                    var3 = _closure2_slot2;
+                    var3 = var3.id;
+                    var2 = var4.bind(var5)(var3);
+ 71:
+                    var1 = var2;
+ 74:
+                    return var1;
+                }
+            };
+            var14 = var12.bind(var14)(var9, var7);
+            var _closure2_slot3 = var14;
+            var2 = var2[var8];
+            var9 = var6.bind(var4)(var2);
+            var7 = var9.useStateFromStores;
+            var2 = _closure1_slot5;
+            var6 = new Array(1);
+            var6[0] = var2;
+            var2 = function() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+                    var1 = _closure2_slot3;
+                    var6 = null;
+                    if(!(var6 == var1)) { _fun0004_ip = 31; continue _fun0004 }
+ 13:
+                    var1 = _closure2_slot0;
+                    var1 = var1.guildId;
+                    var2 = var6 == var1;
+                    var1 = null;
+                    if(var2) { _fun0004_ip = 83; continue _fun0004 }
+ 31:
+                    var4 = _closure1_slot5;
+                    var3 = var4.getGuild;
+                    var2 = _closure2_slot3;
+                    var7 = var6 == var2;
+                    var2 = undefined;
+                    if(var7) { _fun0004_ip = 65; continue _fun0004 }
+ 56:
+                    var7 = _closure2_slot3;
+                    var2 = var7.guild_id;
+ 65:
+                    if(!(var6 == var2)) { _fun0004_ip = 78; continue _fun0004 }
+ 69:
+                    var5 = _closure2_slot0;
+                    var2 = var5.guildId;
+ 78:
+                    var1 = var3.bind(var4)(var2);
+ 83:
+                    return var1;
+                }
+            };
+            var6 = var7.bind(var9)(var6, var2);
+            var _closure2_slot4 = var6;
+            var12 = _closure1_slot3;
+            var9 = var12.useEffect;
+            var2 = null;
+            var7 = var2 == var14;
+            var15 = undefined;
+            if(var7) { _fun0001_ip = 208; continue _fun0001 }
+ 203:
+            var15 = var14.id;
+ 208:
+            var7 = new Array(4);
+            var7[0] = var15;
+            var15 = var13.type;
+            var7[1] = var15;
+            var16 = var2 == var6;
+            var15 = undefined;
+            if(var16) { _fun0001_ip = 239; continue _fun0001 }
+ 234:
+            var15 = var6.id;
+ 239:
+            var7[2] = var15;
+            var15 = var2 == var11;
+            var2 = undefined;
+            if(var15) { _fun0001_ip = 257; continue _fun0001 }
+ 252:
+            var2 = var11.id;
+ 257:
+            var7[3] = var2;
+            var2 = function() {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+                    var1 = _closure2_slot0;
+                    var2 = var1.type;
+                    var1 = 'message';
+                    if(!(var1 === var2)) { _fun0005_ip = 79; continue _fun0005 }
+ 20:
+                    var1 = _closure2_slot2;
+                    var2 = null;
+                    var4 = var2 == var1;
+                    var3 = undefined;
+                    var1 = undefined;
+                    if(var4) { _fun0005_ip = 46; continue _fun0005 }
+ 37:
+                    var4 = _closure2_slot2;
+                    var1 = var4.id;
+ 46:
+                    if(!(var2 != var1)) { _fun0005_ip = 79; continue _fun0005 }
+ 50:
+                    var1 = _closure2_slot3;
+                    var4 = var2 == var1;
+                    var1 = undefined;
+                    if(var4) { _fun0005_ip = 72; continue _fun0005 }
+ 63:
+                    var4 = _closure2_slot3;
+                    var1 = var4.id;
+ 72:
+                    if(!(var2 == var1)) { _fun0005_ip = 286; continue _fun0005 }
+ 79:
+                    var1 = _closure2_slot0;
+                    var2 = var1.type;
+                    var1 = 'forum_thread';
+                    var1 = var1 === var2;
+                    if(!var1) { _fun0005_ip = 129; continue _fun0005 }
+ 101:
+                    var2 = _closure2_slot2;
+                    var4 = null;
+                    var6 = var4 == var2;
+                    var2 = undefined;
+                    if(var6) { _fun0005_ip = 125; continue _fun0005 }
+ 116:
+                    var6 = _closure2_slot2;
+                    var2 = var6.id;
+ 125:
+                    var1 = var4 != var2;
+ 129:
+                    if(!var1) { _fun0005_ip = 443; continue _fun0005 }
+ 135:
+                    var6 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var2 = 7;
+                    var2 = var4[var2];
+                    var4 = undefined;
+                    var7 = var6.bind(var4)(var2);
+                    var6 = var7.fetchMessages;
+                    var2 = {'channelId': null, 'limit': 25, 'forICYMI': true, 'isPreload': true};
+                    var8 = _closure2_slot2;
+                    var8 = var8.id;
+                    var2['channelId'] = var8;
+                    var2 = var6.bind(var7)(var2);
+                    var2 = _closure2_slot4;
+                    var6 = null;
+                    var7 = var6 == var2;
+                    var2 = undefined;
+                    if(var7) { _fun0005_ip = 224; continue _fun0005 }
+ 215:
+                    var7 = _closure2_slot4;
+                    var2 = var7.id;
+ 224:
+                    if(!(var6 != var2)) { _fun0005_ip = 443; continue _fun0005 }
+ 231:
+                    var2 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var1 = 8;
+                    var1 = var6[var1];
+                    var6 = var2.bind(var4)(var1);
+                    var4 = var6.preload;
+                    var1 = _closure2_slot4;
+                    var2 = var1.id;
+                    var1 = _closure2_slot2;
+                    var1 = var1.id;
+                    var1 = var4.bind(var6)(var2, var1);
+                    _fun0005_ip = 443; continue _fun0005;
+ 286:
+                    var2 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var1 = 6;
+                    var1 = var6[var1];
+                    var8 = var2.bind(var3)(var1);
+                    var7 = var8.atNextMillisecond;
+                    var4 = _closure2_slot2;
+                    var1 = var4.id;
+                    var10 = var7.bind(var8)(var1);
+                    var1 = 7;
+                    var7 = var6[var1];
+                    var9 = var2.bind(var3)(var7);
+                    var8 = var9.fetchMessages;
+                    var7 = {'channelId': null, 'limit': 11, 'before': null, 'forICYMI': true, 'isPreload': true};
+                    var5 = _closure2_slot3;
+                    var11 = var5.id;
+                    var7['channelId'] = var11;
+                    var7['before'] = var10;
+                    var7 = var8.bind(var9)(var7);
+                    var1 = var6[var1];
+                    var3 = var2.bind(var3)(var1);
+                    var2 = var3.fetchMessages;
+                    var1 = {'channelId': null, 'limit': 20, 'after': null, 'forICYMI': true, 'isPreload': true};
+                    var5 = var5.id;
+                    var1['channelId'] = var5;
+                    var4 = var4.id;
+                    var1['after'] = var4;
+                    var1 = var2.bind(var3)(var1);
+ 443:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var2 = var9.bind(var12)(var2, var7);
+            var2 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var8 = var7[var8];
+            var16 = var2.bind(var4)(var8);
+            var15 = var16.useStateFromStoresArray;
+            var8 = _closure1_slot6;
+            var12 = new Array(1);
+            var12[0] = var8;
+            var9 = new Array(2);
+            var9[0] = var13;
+            var9[1] = var11;
+            var8 = function() {
+                _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+                    var2 = _closure2_slot0;
+                    var12 = null;
+                    if(!(var12 != var2)) { _fun0006_ip = 431; continue _fun0006 }
+ 16:
+                    var2 = _closure2_slot2;
+                    if(!(var12 != var2)) { _fun0006_ip = 431; continue _fun0006 }
+ 27:
+                    var2 = _closure2_slot0;
+                    var3 = var2.type;
+                    var2 = 'message';
+                    if(!(var2 !== var3)) { _fun0006_ip = 75; continue _fun0006 }
+ 44:
+                    var2 = _closure2_slot0;
+                    var4 = var2.messages;
+                    var3 = var4.map;
+                    var2 = function(arg1) {
+                        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+ 0:
+                            var1 = arg1;
+                            var5 = _closure1_slot6;
+                            var4 = var5.getMessage;
+                            var3 = var1.channel_id;
+                            var2 = var1.id;
+                            var2 = var4.bind(var5)(var3, var2);
+                            var3 = null;
+                            if(!(var3 != var2)) { _fun0007_ip = 41; continue _fun0007 }
+ 38:
+                            var1 = var2;
+ 41:
+                            return var1;
+                        }
+                    };
+                    var2 = var3.bind(var4)(var2);
+                    return var2;
+ 75:
+                    var5 = _closure1_slot6;
+                    var4 = var5.getMessages;
+                    var2 = _closure2_slot2;
+                    var3 = var2.channel_id;
+                    var11 = var4.bind(var5)(var3);
+                    var3 = var11.indexOf;
+                    var2 = var2.id;
+                    var10 = var3.bind(var11)(var2);
+                    var2 = -1;
+                    if(!(var2 !== var10)) { _fun0006_ip = 417; continue _fun0006 }
+ 131:
+                    var2 = new Array(0);
+                    var9 = global;
+                    var6 = var9.Math;
+                    var5 = var6.max;
+                    var3 = 10;
+                    var4 = var10 - var3;
+                    var3 = 0;
+                    var4 = var5.bind(var6)(var3, var4);
+                    var13 = var9.Math;
+                    var6 = var13.min;
+                    var3 = var11.length;
+                    var8 = 1;
+                    var5 = var3 - var8;
+                    var7 = 20;
+                    var3 = var10 + var7;
+                    var3 = var6.bind(var13)(var5, var3);
+                    var6 = 5400000;
+                    var5 = 1800000;
+                    if(!(var4 <= var3)) { _fun0006_ip = 415; continue _fun0006 }
+ 218:
+                    var3 = var11.getByIndex;
+                    var14 = var3.bind(var11)(var4);
+                    var13 = var12 != var14;
+                    var3 = var4;
+                    if(!var13) { _fun0006_ip = 362; continue _fun0006 }
+ 241:
+                    var15 = var3 === var10;
+                    if(var15) { _fun0006_ip = 302; continue _fun0006 }
+ 248:
+                    var16 = var3 < var10;
+                    if(!var16) { _fun0006_ip = 299; continue _fun0006 }
+ 255:
+                    var17 = _closure2_slot2;
+                    var18 = var17.timestamp;
+                    var17 = var18.getTime;
+                    var18 = var17.bind(var18)();
+                    var19 = var14.timestamp;
+                    var17 = var19.getTime;
+                    var17 = var17.bind(var19)();
+                    var17 = var18 - var17;
+                    var16 = var17 < var5;
+ 299:
+                    var15 = var16;
+ 302:
+                    if(var15) { _fun0006_ip = 359; continue _fun0006 }
+ 305:
+                    var16 = var3 > var10;
+                    if(!var16) { _fun0006_ip = 356; continue _fun0006 }
+ 312:
+                    var18 = var14.timestamp;
+                    var17 = var18.getTime;
+                    var18 = var17.bind(var18)();
+                    var17 = _closure2_slot2;
+                    var19 = var17.timestamp;
+                    var17 = var19.getTime;
+                    var17 = var17.bind(var19)();
+                    var17 = var18 - var17;
+                    var16 = var17 < var6;
+ 356:
+                    var15 = var16;
+ 359:
+                    var13 = var15;
+ 362:
+                    if(!var13) { _fun0006_ip = 375; continue _fun0006 }
+ 365:
+                    var13 = var2.push;
+                    var13 = var13.bind(var2)(var14);
+ 375:
+                    var4 = var3 + 1;
+                    var15 = var9.Math;
+                    var14 = var15.min;
+                    var3 = var11.length;
+                    var13 = var3 - var8;
+                    var3 = var10 + var7;
+                    var3 = var14.bind(var15)(var13, var3);
+                    if(var4 <= var3) { _fun0006_ip = 218; continue _fun0006 }
+ 415:
+                    return var2;
+ 417:
+                    var2 = _closure2_slot2;
+                    var1 = new Array(1);
+                    var1[0] = var2;
+                    return var1;
+ 431:
+                    var1 = new Array(0);
+                    return var1;
+                }
+            };
+            var15 = var15.bind(var16)(var12, var8, var9);
+            _closure2_slot5 = var15;
+            var9 = _closure1_slot3;
+            var12 = var9.useMemo;
+            var8 = new Array(4);
+            var8[0] = var13;
+            var8[1] = var15;
+            var8[2] = var14;
+            var8[3] = var6;
+            var6 = function() {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+ 0:
+                    var1 = _closure2_slot3;
+                    var3 = null;
+                    var2 = var3 == var1;
+                    var1 = null;
+                    if(var2) { _fun0008_ip = 104; continue _fun0008 }
+ 18:
+                    var2 = _closure2_slot4;
+                    var2 = var3 == var2;
+                    var1 = null;
+                    if(var2) { _fun0008_ip = 104; continue _fun0008 }
+ 31:
+                    var2 = {};
+                    var3 = _closure2_slot0;
+                    var5 = var3.id;
+                    var2['conversationId'] = var5;
+                    var5 = var3.type;
+                    var2['type'] = var5;
+                    var5 = _closure2_slot5;
+                    var2['messages'] = var5;
+                    var5 = _closure2_slot3;
+                    var2['channel'] = var5;
+                    var4 = _closure2_slot4;
+                    var2['guild'] = var4;
+                    var4 = var3.title;
+                    var2['title'] = var4;
+                    var3 = var3.description;
+                    var2['description'] = var3;
+                    var1 = var2;
+ 104:
+                    return var1;
+                }
+            };
+            var12 = var12.bind(var9)(var6, var8);
+            _closure2_slot6 = var12;
+            var8 = var9.useMemo;
+            var6 = new Array(4);
+            var6[0] = var13;
+            var6[1] = var12;
+            var6[2] = var11;
+            var6[3] = var10;
+            var3 = function() {
+                var1 = {};
+                var3 = _closure2_slot0;
+                var1['conversationProps'] = var3;
+                var3 = _closure2_slot6;
+                var1['conversation'] = var3;
+                var4 = _closure2_slot6;
+                var3 = null;
+                var3 = var3 == var4;
+                var1['isLoading'] = var3;
+                var3 = _closure2_slot2;
+                var1['keyMessage'] = var3;
+                var2 = _closure2_slot1;
+                var1['MediaComponent'] = var2;
+                return var1;
+            };
+            var6 = var8.bind(var9)(var3, var6);
+            var3 = _closure1_slot7;
+            var1 = 9;
+            var1 = var7[var1];
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.ConversationContext;
+            var2 = var1.Provider;
+            var1 = {};
+            var1['value'] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['ConversationProvider'] = var2;
+    return var1;
+})();

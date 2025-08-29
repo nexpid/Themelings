@@ -55,9 +55,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var3 != var7)) { _fun0001_ip = 74; continue _fun0001 }
  65:
             var2 = 0;
-            if(!(!(var7 > var2))) { _fun0001_ip = 406; continue _fun0001 }
+            if(!(!(var7 > var2))) { _fun0001_ip = 405; continue _fun0001 }
  74:
-            if(var1) { _fun0001_ip = 369; continue _fun0001 }
+            if(var1) { _fun0001_ip = 368; continue _fun0001 }
  80:
             if(!(var3 != var15)) { _fun0001_ip = 93; continue _fun0001 }
  84:
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var8;
             var1 = var4.bind(var5)(var3, var2);
  227:
-            _fun0001_ip = 367; continue _fun0001;
+            _fun0001_ip = 366; continue _fun0001;
  232:
             var4 = _closure1_slot3;
             var13 = _closure1_slot0;
@@ -132,9 +132,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var10.bind(var11)(var9, var8);
             var2['children'] = var8;
             var1 = var4.bind(var5)(var3, var2);
- 367:
-            _fun0001_ip = 404; continue _fun0001;
- 369:
+ 366:
+            _fun0001_ip = 403; continue _fun0001;
+ 368:
             var4 = _closure1_slot3;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -143,9 +143,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var2);
             var2 = {};
             var1 = var4.bind(var5)(var3, var2);
- 404:
-            _fun0001_ip = 450; continue _fun0001;
- 406:
+ 403:
+            _fun0001_ip = 449; continue _fun0001;
+ 405:
             var4 = _closure1_slot3;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -156,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['value'] = var7;
             var2['isMentionLowImportance'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 450:
+ 449:
             return var1;
         }
     };

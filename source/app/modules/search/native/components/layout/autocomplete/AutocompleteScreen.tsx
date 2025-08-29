@@ -832,7 +832,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     if(!var6) { _fun0007_ip = 504; continue _fun0007 }
  468:
                     var8 = var9.getData;
-                    var6 = 'channels';
+                    var6 = 'channelIds';
                     var6 = var8.bind(var9)(var6);
                     if(!(var4 != var6)) { _fun0007_ip = 504; continue _fun0007 }
  487:
@@ -840,7 +840,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = function(arg1) {
                         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
-                            var5 = arg1;
+                            var4 = _closure1_slot5;
+                            var3 = var4.getChannel;
+                            var2 = arg1;
+                            var5 = var3.bind(var4)(var2);
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
                             var1 = 17;
@@ -854,10 +857,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = null;
                             var6 = var2 == var5;
                             var2 = undefined;
-                            if(var6) { _fun0012_ip = 70; continue _fun0012 }
- 65:
+                            if(var6) { _fun0012_ip = 84; continue _fun0012 }
+ 79:
                             var2 = var5.id;
- 70:
+ 84:
                             var2 = var3.bind(var1)(var2, var4);
                             return var1;
                         }

@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.jsx;
     var _closure1_slot5 = var4;
-    var4 = 13;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -152,10 +152,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var7['render'] = var9;
                 var1[var8] = var7;
+                var7 = var6[var2];
+                var7 = var5.bind(var3)(var7);
+                var7 = var7.SafetyFlowScreens;
+                var8 = var7.UPDATE_APP;
+                var7 = {};
+                var9 = function headerLeft() {
+                    var1 = null;
+                    return var1;
+                };
+                var7['headerLeft'] = var9;
+                var9 = function headerTitle() {
+                    var1 = null;
+                    return var1;
+                };
+                var7['headerTitle'] = var9;
+                var9 = function render() {
+                    var4 = _closure1_slot5;
+                    var2 = _closure1_slot1;
+                    var3 = _closure1_slot2;
+                    var1 = 9;
+                    var1 = var3[var1];
+                    var3 = undefined;
+                    var2 = var2.bind(var3)(var1);
+                    var1 = {};
+                    var1 = var4.bind(var3)(var2, var1);
+                    return var1;
+                };
+                var7['render'] = var9;
+                var1[var8] = var7;
                 var2 = var6[var2];
                 var2 = var5.bind(var3)(var2);
                 var2 = var2.SafetyFlowScreens;
-                var3 = var2.UPDATE_APP;
+                var3 = var2.AGE_VERIFICATION;
                 var2 = {};
                 var5 = function headerLeft() {
                     var1 = null;
@@ -171,7 +200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure1_slot5;
                     var2 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 9;
+                    var1 = 10;
                     var1 = var3[var1];
                     var3 = undefined;
                     var2 = var2.bind(var3)(var1);
@@ -206,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = function(arg1) {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 10;
+                    var1 = 11;
                     var2 = var2[var1];
                     var1 = undefined;
                     var3 = var3.bind(var1)(var2);
@@ -250,14 +279,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = _closure1_slot5;
         var6 = _closure1_slot0;
         var10 = _closure1_slot2;
-        var1 = 11;
+        var1 = 12;
         var1 = var10[var1];
         var1 = var6.bind(var4)(var1);
         var1 = var1.SafetyFlowTaskContext;
         var2 = var1.Provider;
         var1 = {};
         var1['value'] = var5;
-        var5 = 12;
+        var5 = 13;
         var5 = var10[var5];
         var5 = var6.bind(var4)(var5);
         var6 = var5.StepModal;

@@ -582,6 +582,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['AUTOMOD_PROFILE_QUARANTINE_ALERT'] = var1;
     var1 = 'share nitro embed';
     var2['SHARE_NITRO_EMBED'] = var1;
+    var1 = 'share custom client theme embed';
+    var2['SHARE_CUSTOM_CLIENT_THEME_EMBED'] = var1;
     var1 = 'embedded activity message';
     var2['EMBEDDED_ACTIVITY_MESSAGE'] = var1;
     var1 = 'referral trials composer button';
@@ -668,6 +670,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['COLLECTIBLES_SHOP_MOBILE_FEATURED_PAGE_MENU_ITEM'] = var1;
     var1 = 'collectibles shop mobile shop all menu item';
     var2['COLLECTIBLES_SHOP_MOBILE_SHOP_ALL_MENU_ITEM'] = var1;
+    var1 = 'collectibles shop mobile orbs menu item';
+    var2['COLLECTIBLES_SHOP_MOBILE_ORBS_MENU_ITEM'] = var1;
     var1 = 'collectibles profile settings upsell';
     var2['COLLECTIBLES_PROFILE_SETTINGS_UPSELL'] = var1;
     var1 = 'collectibles payment modal';
@@ -890,6 +894,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['USER_PROFILE_OVERFLOW_MENU'] = var1;
     var1 = 'user profile custom status bubble';
     var2['USER_PROFILE_CUSTOM_STATUS_BUBBLE'] = var1;
+    var1 = 'user profile activity buttons';
+    var2['USER_PROFILE_ACTIVITY_BUTTONS'] = var1;
+    var1 = 'user profile cloud play section';
+    var2['USER_PROFILE_ACTIVITY_CLOUD_PLAY_SECTION'] = var1;
     var1 = 'blocked profile modal';
     var2['BLOCKED_PROFILE_MODAL'] = var1;
     var1 = 'ignored profile modal';
@@ -949,6 +957,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['OVERLAY_VOICE_WIDGET'] = var1;
     var1 = 'request to stream invite embed';
     var2['REQUEST_TO_STREAM_INVITE_EMBED'] = var1;
+    var1 = 'member list gaming content popout';
+    var2['MEMBER_LIST_GAMING_CONTENT_POPOUT'] = var1;
+    var1 = 'cloud play popover';
+    var2['CLOUD_PLAY_POPOVER'] = var1;
+    var1 = 'now playing item rich presence section';
+    var2['NOW_PLAYING_ITEM_RICH_PRESENCE_SECTION'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

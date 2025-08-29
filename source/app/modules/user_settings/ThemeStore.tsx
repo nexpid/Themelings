@@ -451,13 +451,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['SET_THEME_OVERRIDE'] = var9;
-    var4 = function handleClearThemeOverride() {
+    var9 = function handleClearThemeOverride() {
         var2 = _closure1_slot21;
         var1 = undefined;
         var1 = var2.bind(var1)();
         return var1;
     };
-    var2['CLEAR_THEME_OVERRIDE'] = var4;
+    var2['CLEAR_THEME_OVERRIDE'] = var9;
+    var4 = function handleRefresh() {
+        var2 = _closure1_slot21;
+        var1 = undefined;
+        var1 = var2.bind(var1)();
+        return var1;
+    };
+    var2['REFRESH_THEME'] = var4;
     var4 = var8.prototype;
     var4 = Object.create(var4, {constructor: {value: var8}});
     var16 = var4;

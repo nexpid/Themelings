@@ -222,11 +222,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  732:
             var2['borderRadius'] = var3;
             var1['promotionalAvatarSecondary'] = var2;
-            var2 = {'position': 'absolute', 'top': 0, 'right': 10, 'height': 120, 'width': 150, 'zIndex': 2};
+            var2 = {'position': 'absolute', 'top': 0, 'right': 10, 'height': 115, 'width': 135, 'zIndex': 2};
             var1['rotatingAvatars'] = var2;
             var2 = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
             var1['promotionalCardImage'] = var2;
-            var2 = {'position': 'absolute', 'height': 400, 'width': 150, 'top': 100, 'right': 0};
+            var2 = {'position': 'absolute', 'height': 300, 'width': 150, 'top': 80, 'right': 0};
             var1['promotionalBackground'] = var2;
             return var1;
         }

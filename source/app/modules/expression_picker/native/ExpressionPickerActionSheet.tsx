@@ -137,8 +137,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = -1;
             var11 = var2.bind(var3)(var1);
             var1 = null;
-            if(!(var5 !== var19)) { _fun0001_ip = 573; continue _fun0001 }
- 294:
+            if(!(var5 !== var19)) { _fun0001_ip = 574; continue _fun0001 }
+ 295:
             var4 = _closure1_slot8;
             var3 = _closure1_slot7;
             var2 = {};
@@ -149,8 +149,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var5)(var6);
             var6 = var7.isIOS;
             var7 = var6.bind(var7)();
-            if(!var7) { _fun0001_ip = 374; continue _fun0001 }
- 337:
+            if(!var7) { _fun0001_ip = 375; continue _fun0001 }
+ 338:
             var9 = _closure1_slot6;
             var8 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = {};
             var6['animatedSheetIndex'] = var11;
             var7 = var9.bind(var5)(var8, var6);
- 374:
+ 375:
             var6 = new Array(2);
             var6[0] = var7;
             var9 = _closure1_slot6;
@@ -228,7 +228,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 573:
+ 574:
             return var1;
         }
     };

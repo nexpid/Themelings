@@ -33,129 +33,135 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var6 = var1.presenceActivity;
+            var7 = var1.presenceActivity;
             var10 = var1.currentUserPresenceActivity;
-            var4 = var1.currentUserId;
-            var3 = var1.message;
+            var5 = var1.currentUserId;
+            var2 = var1.message;
             var8 = var1.application;
-            var7 = var1.isEmbeddedApplication;
-            var5 = var1.isFrameApplication;
+            var6 = var1.isEmbeddedApplication;
+            var4 = var1.isFrameApplication;
             var1 = var1.isGameLaunchable;
-            var2 = var3.author;
-            var2 = var2.id;
-            if(!(var2 !== var4)) { _fun0001_ip = 490; continue _fun0001 }
+            var3 = var2.author;
+            var3 = var3.id;
+            if(!(var3 !== var5)) { _fun0001_ip = 523; continue _fun0001 }
  67:
             var11 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var4 = 1;
-            var9 = var9[var4];
-            var4 = undefined;
-            var9 = var11.bind(var4)(var9);
+            var5 = 1;
+            var9 = var9[var5];
+            var5 = undefined;
+            var9 = var11.bind(var5)(var9);
             var8 = var8.id;
-            var8 = var9.bind(var4)(var6, var3, var8);
+            var8 = var9.bind(var5)(var7, var2, var8);
             if(var8) { _fun0001_ip = 123; continue _fun0001 }
  107:
-            var8 = {'canJoin': false, 'isRemoteJoin': false};
+            var8 = {'canJoin': false, 'remoteJoinPlatform': null};
             return var8;
  123:
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
             var8 = 2;
             var8 = var12[var8];
-            var11 = var9.bind(var4)(var8);
+            var11 = var9.bind(var5)(var8);
             var8 = var11.getPartySize;
-            var11 = var8.bind(var11)(var6);
+            var11 = var8.bind(var11)(var7);
             var8 = 3;
             var8 = var12[var8];
-            var9 = var9.bind(var4)(var8);
+            var9 = var9.bind(var5)(var8);
             var8 = var9.hasPartySize;
             var8 = var8.bind(var9)(var11);
-            if(!var8) { _fun0001_ip = 474; continue _fun0001 }
+            if(!var8) { _fun0001_ip = 507; continue _fun0001 }
  183:
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
             var8 = 4;
             var8 = var12[var8];
-            var9 = var9.bind(var4)(var8);
+            var9 = var9.bind(var5)(var8);
             var8 = var9.isPartyFull;
             var8 = var8.bind(var9)(var11);
-            if(var8) { _fun0001_ip = 474; continue _fun0001 }
+            if(var8) { _fun0001_ip = 507; continue _fun0001 }
  220:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
             var8 = 5;
             var8 = var11[var8];
-            var9 = var9.bind(var4)(var8);
+            var9 = var9.bind(var5)(var8);
             var8 = var9.getIsInParty;
-            var8 = var8.bind(var9)(var10, var6);
-            if(var8) { _fun0001_ip = 474; continue _fun0001 }
+            var8 = var8.bind(var9)(var10, var7);
+            if(var8) { _fun0001_ip = 491; continue _fun0001 }
  258:
             var9 = _closure1_slot0;
             var10 = _closure1_slot2;
             var8 = 6;
             var8 = var10[var8];
-            var9 = var9.bind(var4)(var8);
+            var9 = var9.bind(var5)(var8);
             var8 = var9.getIsAskToJoin;
-            var8 = var8.bind(var9)(var3);
-            if(var8) { _fun0001_ip = 474; continue _fun0001 }
+            var8 = var8.bind(var9)(var2);
+            if(var8) { _fun0001_ip = 475; continue _fun0001 }
  295:
-            if(!var7) { _fun0001_ip = 304; continue _fun0001 }
+            if(!var6) { _fun0001_ip = 304; continue _fun0001 }
  298:
-            if(var5) { _fun0001_ip = 458; continue _fun0001 }
+            if(var4) { _fun0001_ip = 459; continue _fun0001 }
  304:
-            var5 = var3.activity;
-            var3 = null;
-            var8 = var3 == var5;
-            var7 = undefined;
+            var2 = var2.activity;
+            var4 = null;
+            var8 = var4 == var2;
+            var6 = undefined;
             if(var8) { _fun0001_ip = 326; continue _fun0001 }
  321:
-            var7 = var5.type;
+            var6 = var2.type;
  326:
-            var5 = _closure1_slot3;
-            var5 = var5.JOIN;
-            if(!(var7 === var5)) { _fun0001_ip = 378; continue _fun0001 }
+            var2 = _closure1_slot3;
+            var2 = var2.JOIN;
+            if(!(var6 === var2)) { _fun0001_ip = 379; continue _fun0001 }
  340:
-            if(!(var3 != var6)) { _fun0001_ip = 378; continue _fun0001 }
+            if(!(var4 != var7)) { _fun0001_ip = 379; continue _fun0001 }
  344:
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
-            var3 = 7;
-            var3 = var7[var3];
-            var5 = var5.bind(var4)(var3);
-            var3 = var5.isActivityRemoteJoinable;
-            var3 = var3.bind(var5)(var6);
-            if(var3) { _fun0001_ip = 442; continue _fun0001 }
- 378:
-            var3 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var2 = 8;
-            var2 = var5[var2];
-            var2 = var3.bind(var4)(var2);
-            var2 = var2.isPlatformEmbedded;
-            if(!var2) { _fun0001_ip = 410; continue _fun0001 }
- 407:
-            if(var1) { _fun0001_ip = 426; continue _fun0001 }
- 410:
-            var1 = {'canJoin': false, 'isRemoteJoin': false};
-            _fun0001_ip = 440; continue _fun0001;
- 426:
-            var1 = {'canJoin': true, 'isRemoteJoin': false};
- 440:
-            _fun0001_ip = 456; continue _fun0001;
- 442:
-            var1 = {'canJoin': true, 'isRemoteJoin': true};
- 456:
-            _fun0001_ip = 472; continue _fun0001;
- 458:
-            var1 = {'canJoin': true, 'isRemoteJoin': false};
- 472:
-            _fun0001_ip = 488; continue _fun0001;
- 474:
-            var1 = {'canJoin': false, 'isRemoteJoin': false};
- 488:
+            var6 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var2 = 7;
+            var2 = var8[var2];
+            var6 = var6.bind(var5)(var2);
+            var2 = var6.getRemoteJoinableActivityPlatform;
+            var2 = var2.bind(var6)(var7);
+            if(!(var4 == var2)) { _fun0001_ip = 443; continue _fun0001 }
+ 379:
+            var4 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var3 = 8;
+            var3 = var6[var3];
+            var3 = var4.bind(var5)(var3);
+            var3 = var3.isPlatformEmbedded;
+            if(!var3) { _fun0001_ip = 411; continue _fun0001 }
+ 408:
+            if(var1) { _fun0001_ip = 427; continue _fun0001 }
+ 411:
+            var1 = {'canJoin': false, 'remoteJoinPlatform': null};
+            _fun0001_ip = 441; continue _fun0001;
+ 427:
+            var1 = {'canJoin': true, 'remoteJoinPlatform': null};
+ 441:
             return var1;
- 490:
-            var1 = {'canJoin': false, 'isRemoteJoin': false};
+ 443:
+            var1 = {};
+            var3 = true;
+            var1['canJoin'] = var3;
+            var1['remoteJoinPlatform'] = var2;
+            return var1;
+ 459:
+            var1 = {'canJoin': true, 'remoteJoinPlatform': null};
+            return var1;
+ 475:
+            var1 = {'canJoin': false, 'remoteJoinPlatform': null};
+            return var1;
+ 491:
+            var1 = {'canJoin': false, 'remoteJoinPlatform': null};
+            return var1;
+ 507:
+            var1 = {'canJoin': false, 'remoteJoinPlatform': null};
+            return var1;
+ 523:
+            var1 = {'canJoin': false, 'remoteJoinPlatform': null};
             return var1;
         }
     };

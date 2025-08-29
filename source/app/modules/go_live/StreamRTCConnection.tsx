@@ -315,7 +315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2 = var2.bind(var1)();
-    var5 = 34;
+    var5 = 35;
     var5 = var7[var5];
     var5 = var8.bind(var1)(var5);
     var4 = function(arg1) {
@@ -1606,47 +1606,98 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var10[var6];
                     var6 = var7.bind(var1)(var6);
                     var6 = var6.BaseConnectionEvent;
-                    var7 = var6.FirstFrame;
-                    var6 = function() {
+                    var7 = var6.FirstFrameStats;
+                    var6 = function(arg1) {
                         _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
+                            var6 = arg1;
                             var2 = _closure3_slot0;
                             var2 = var2._firstFrameDelivered;
-                            if(var2) { _fun0017_ip = 176; continue _fun0017 }
- 19:
-                            var6 = _closure3_slot0;
+                            if(var2) { _fun0017_ip = 380; continue _fun0017 }
+ 22:
+                            var9 = _closure3_slot0;
                             var1 = true;
-                            var6['_firstFrameDelivered'] = var1;
-                            var1 = var6.getStreamAnalyticsProperties;
-                            var5 = var1.bind(var6)();
-                            var4 = _closure1_slot1;
-                            var3 = _closure1_slot2;
-                            var2 = 27;
-                            var3 = var3[var2];
-                            var2 = undefined;
-                            var4 = var4.bind(var2)(var3);
+                            var9['_firstFrameDelivered'] = var1;
+                            var1 = var9.getStreamAnalyticsProperties;
+                            var7 = var1.bind(var9)();
+                            var2 = _closure1_slot1;
+                            var10 = _closure1_slot2;
+                            var1 = 27;
+                            var1 = var10[var1];
+                            var8 = undefined;
+                            var4 = var2.bind(var8)(var1);
                             var3 = var4.track;
                             var1 = _closure1_slot19;
                             var2 = var1.RECEIVER_FIRST_FRAME_DELIVERED;
                             var1 = {};
-                            var7 = var5.guild_id;
-                            var1['guild_id'] = var7;
-                            var7 = var5.channel_id;
-                            var1['channel_id'] = var7;
-                            var7 = var5.rtc_connection_id;
-                            var1['rtc_connection_id'] = var7;
-                            var7 = var5.media_session_id;
-                            var1['media_session_id'] = var7;
-                            var5 = var5.parent_media_session_id;
-                            var1['parent_media_session_id'] = var5;
-                            var5 = var6.analyticsContext;
-                            var5 = var5.numViewers;
-                            var1['num_viewers'] = var5;
-                            var5 = var6.getDuration;
-                            var5 = var5.bind(var6)();
-                            var1['time_connected_to_first_frame_delivered'] = var5;
+                            var11 = var7.guild_id;
+                            var1['guild_id'] = var11;
+                            var11 = var7.channel_id;
+                            var1['channel_id'] = var11;
+                            var11 = var7.rtc_connection_id;
+                            var1['rtc_connection_id'] = var11;
+                            var11 = var7.media_session_id;
+                            var1['media_session_id'] = var11;
+                            var7 = var7.parent_media_session_id;
+                            var1['parent_media_session_id'] = var7;
+                            var7 = var9.analyticsContext;
+                            var7 = var7.numViewers;
+                            var1['num_viewers'] = var7;
+                            var7 = var9.getDuration;
+                            var7 = var7.bind(var9)();
+                            var1['time_connected_to_first_frame_delivered'] = var7;
+                            var7 = _closure1_slot0;
+                            var5 = 29;
+                            var5 = var10[var5];
+                            var7 = var7.bind(var8)(var5);
+                            var5 = var7.now;
+                            var7 = var5.bind(var7)();
+                            var5 = var9.getCreatedTime;
+                            var5 = var5.bind(var9)();
+                            var5 = var7 - var5;
+                            var1['time_total_to_first_frame'] = var5;
+                            var7 = var6.remoteVideoStreamCreatedTimestamp;
+                            var9 = -1;
+                            var5 = var9;
+                            if(!(var8 !== var7)) { _fun0017_ip = 269; continue _fun0017 }
+ 240:
+                            var7 = var6.remoteUserCreatedTimestamp;
+                            var5 = var9;
+                            if(!(var8 !== var7)) { _fun0017_ip = 269; continue _fun0017 }
+ 253:
+                            var10 = var6.remoteVideoStreamCreatedTimestamp;
+                            var7 = var6.remoteUserCreatedTimestamp;
+                            var5 = var10 - var7;
+ 269:
+                            var1['time_remote_user_to_video_stream_created'] = var5;
+                            var7 = var6.videoDataReceivedTimestamp;
+                            var5 = var9;
+                            if(!(var8 !== var7)) { _fun0017_ip = 318; continue _fun0017 }
+ 289:
+                            var7 = var6.remoteVideoStreamCreatedTimestamp;
+                            var5 = var9;
+                            if(!(var8 !== var7)) { _fun0017_ip = 318; continue _fun0017 }
+ 302:
+                            var10 = var6.videoDataReceivedTimestamp;
+                            var7 = var6.remoteVideoStreamCreatedTimestamp;
+                            var5 = var10 - var7;
+ 318:
+                            var1['time_video_stream_created_to_video_data_received'] = var5;
+                            var7 = var6.videoSourceDeliveredFrameTimestamp;
+                            var5 = var9;
+                            if(!(var8 !== var7)) { _fun0017_ip = 367; continue _fun0017 }
+ 338:
+                            var7 = var6.videoDataReceivedTimestamp;
+                            var5 = var9;
+                            if(!(var8 !== var7)) { _fun0017_ip = 367; continue _fun0017 }
+ 351:
+                            var7 = var6.videoSourceDeliveredFrameTimestamp;
+                            var6 = var6.videoDataReceivedTimestamp;
+                            var5 = var7 - var6;
+ 367:
+                            var1['time_video_data_received_to_video_source_delivered_frame'] = var5;
                             var1 = var3.bind(var4)(var2, var1);
- 176:
+ 380:
                             var1 = undefined;
                             return var1;
                         }
@@ -2039,7 +2090,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  14:
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 29;
+                var1 = 30;
                 var1 = var2[var1];
                 var2 = undefined;
                 var1 = var3.bind(var2)(var1);
@@ -2135,7 +2186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot3 = var4;
                 var7 = _closure1_slot0;
                 var8 = _closure1_slot2;
-                var4 = 30;
+                var4 = 31;
                 var4 = var8[var4];
                 var5 = undefined;
                 var4 = var7.bind(var5)(var4);
@@ -2145,7 +2196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var9.bind(var10)();
                 var4['stream_application_name'] = var9;
                 var _closure3_slot6 = var4;
-                var4 = 31;
+                var4 = 32;
                 var4 = var8[var4];
                 var5 = var7.bind(var5)(var4);
                 var4 = var5.areClipsEnabled;
@@ -2245,7 +2296,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var15 = _closure3_slot8;
                         var16 = var1;
                         var10 = copyDataProperties(var16, var15);
-                        var10 = 32;
+                        var10 = 33;
                         var10 = var12[var10];
                         var11 = var11.bind(var8)(var10);
                         var10 = var11.getAppHardwareAccelerationEnabled;
@@ -2276,7 +2327,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  340:
                         var9 = _closure1_slot1;
                         var10 = _closure1_slot2;
-                        var6 = 33;
+                        var6 = 34;
                         var6 = var10[var6];
                         var6 = var9.bind(var8)(var6);
                         var7 = var6.bind(var8)();
@@ -2364,7 +2415,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var15 = _closure3_slot8;
                         var16 = var2;
                         var10 = copyDataProperties(var16, var15);
-                        var10 = 32;
+                        var10 = 33;
                         var10 = var12[var10];
                         var11 = var11.bind(var1)(var10);
                         var10 = var11.getAppHardwareAccelerationEnabled;
@@ -2395,7 +2446,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  364:
                         var8 = _closure1_slot1;
                         var9 = _closure1_slot2;
-                        var6 = 33;
+                        var6 = 34;
                         var6 = var9[var6];
                         var6 = var8.bind(var1)(var6);
                         var7 = var6.bind(var1)();
@@ -2440,7 +2491,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var4.bind(var1)(var5);
-    var5 = 35;
+    var5 = 36;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

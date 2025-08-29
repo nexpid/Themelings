@@ -459,7 +459,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26[0] = var27;
             var28 = var10 != var39;
             var27 = null;
-            if(!var28) { _fun0001_ip = 962; continue _fun0001 }
+            if(!var28) { _fun0001_ip = 961; continue _fun0001 }
  810:
             var30 = _closure1_slot12;
             var29 = _closure1_slot11;
@@ -494,7 +494,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var31[1] = var32;
             var28['children'] = var31;
             var27 = var30.bind(var4)(var29, var28);
- 962:
+ 961:
             var26[1] = var27;
             var25['children'] = var26;
             var25 = var22.bind(var4)(var21, var25);
@@ -525,13 +525,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = new Array(4);
             var8[0] = var11;
             var10 = var10 != var19;
-            if(!var10) { _fun0001_ip = 1102; continue _fun0001 }
- 1094:
+            if(!var10) { _fun0001_ip = 1101; continue _fun0001 }
+ 1093:
             var11 = '';
             var10 = var11 !== var19;
- 1102:
-            if(!var10) { _fun0001_ip = 1167; continue _fun0001 }
- 1105:
+ 1101:
+            if(!var10) { _fun0001_ip = 1166; continue _fun0001 }
+ 1104:
             var18 = _closure1_slot10;
             var16 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -543,7 +543,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['style'] = var20;
             var11['children'] = var19;
             var10 = var18.bind(var4)(var16, var11);
- 1167:
+ 1166:
             var8[1] = var10;
             var11 = _closure1_slot10;
             var16 = _closure1_slot6;
@@ -562,10 +562,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['loading'] = var15;
             var9['onPress'] = var13;
             var13 = 'active';
-            if(!var14) { _fun0001_ip = 1248; continue _fun0001 }
- 1244:
+            if(!var14) { _fun0001_ip = 1247; continue _fun0001 }
+ 1243:
             var13 = 'secondary';
- 1248:
+ 1247:
             var9['variant'] = var13;
             var9['text'] = var12;
             var9 = var11.bind(var4)(var10, var9);

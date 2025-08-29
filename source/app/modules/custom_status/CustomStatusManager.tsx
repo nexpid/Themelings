@@ -170,75 +170,89 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var3['POST_CONNECTION_OPEN'] = var4;
                 var1['actions'] = var3;
-                var2 = function() {
+                var3 = function() {
+                    var2 = _closure3_slot0;
+                    var1 = var2.manageExpiringCustomStatus;
+                    var1 = var1.bind(var2)();
+                    var1 = var2.manageExpiringStatus;
+                    var1 = var1.bind(var2)();
+                    var1 = var2.lazilyMigrateStatusCreatedAt;
+                    var1 = var1.bind(var2)();
+                    var1 = var2.manageExpiringFocusMode;
+                    var1 = var1.bind(var2)();
+                    var1 = undefined;
+                    return var1;
+                };
+                var1['handleUpdateProto'] = var3;
+                var3 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        var5 = _closure1_slot0;
+                        var4 = _closure1_slot0;
                         var1 = _closure1_slot2;
-                        var7 = 8;
-                        var4 = var1[var7];
+                        var5 = 8;
+                        var3 = var1[var5];
                         var1 = undefined;
-                        var4 = var5.bind(var1)(var4);
-                        var5 = var4.CustomStatusSetting;
-                        var4 = var5.getSetting;
-                        var6 = var4.bind(var5)();
-                        var5 = null;
-                        if(!(var5 != var6)) { _fun0003_ip = 286; continue _fun0003 }
- 52:
-                        var4 = var6.expiresAtMs;
-                        if(!(var5 != var4)) { _fun0003_ip = 78; continue _fun0003 }
- 62:
-                        var8 = var6.expiresAtMs;
-                        var4 = '0';
-                        if(!(var4 === var8)) { _fun0003_ip = 108; continue _fun0003 }
- 78:
-                        var4 = _closure1_slot13;
-                        if(!(var5 != var4)) { _fun0003_ip = 300; continue _fun0003 }
- 89:
-                        var8 = _closure1_slot13;
-                        var4 = var8.stop;
-                        var4 = var4.bind(var8)();
-                        _fun0003_ip = 300; continue _fun0003;
- 108:
-                        var4 = global;
-                        var9 = var4.Date;
-                        var8 = var4.Number;
-                        var6 = var6.expiresAtMs;
-                        var14 = var8.bind(var1)(var6);
-                        var8 = var9.prototype;
-                        var8 = Object.create(var8, {constructor: {value: var9}});
-                        var15 = var8;
-                        var6 = new var15[var9](var14, var13);
-                        var8 = var6 instanceof Object ? var6 : var8;
-                        var6 = var8.getTime;
-                        var6 = var6.bind(var8)();
-                        var4 = var4.Date;
-                        var8 = var4.prototype;
-                        var8 = Object.create(var8, {constructor: {value: var4}});
-                        var15 = var8;
-                        var4 = new var15[var4](var14);
-                        var8 = var4 instanceof Object ? var4 : var8;
-                        var4 = var8.getTime;
-                        var4 = var4.bind(var8)();
-                        var10 = var6 - var4;
-                        var4 = 0;
-                        if(!(!(var10 > var4))) { _fun0003_ip = 259; continue _fun0003 }
- 209:
-                        var6 = _closure1_slot0;
-                        var4 = _closure1_slot2;
-                        var4 = var4[var7];
-                        var4 = var6.bind(var1)(var4);
-                        var6 = var4.CustomStatusSetting;
-                        var4 = var6.updateSetting;
-                        var4 = var4.bind(var6)(var1);
+                        var3 = var4.bind(var1)(var3);
+                        var4 = var3.CustomStatusSetting;
+                        var3 = var4.getSetting;
+                        var4 = var3.bind(var4)();
+                        var6 = null;
+                        if(!(var6 != var4)) { _fun0003_ip = 286; continue _fun0003 }
+ 50:
+                        var3 = var4.expiresAtMs;
+                        if(!(var6 != var3)) { _fun0003_ip = 76; continue _fun0003 }
+ 60:
+                        var7 = var4.expiresAtMs;
+                        var3 = '0';
+                        if(!(var3 === var7)) { _fun0003_ip = 106; continue _fun0003 }
+ 76:
+                        var3 = _closure1_slot13;
+                        if(!(var6 != var3)) { _fun0003_ip = 300; continue _fun0003 }
+ 87:
                         var6 = _closure1_slot13;
-                        var4 = var6.stop;
-                        var4 = var4.bind(var6)();
+                        var3 = var6.stop;
+                        var3 = var3.bind(var6)();
                         _fun0003_ip = 300; continue _fun0003;
- 259:
-                        var9 = _closure1_slot13;
-                        var8 = var9.start;
-                        var6 = function() {
+ 106:
+                        var3 = global;
+                        var7 = var3.Date;
+                        var6 = var3.Number;
+                        var4 = var4.expiresAtMs;
+                        var10 = var6.bind(var1)(var4);
+                        var6 = var7.prototype;
+                        var6 = Object.create(var6, {constructor: {value: var7}});
+                        var11 = var6;
+                        var4 = new var11[var7](var10, var9);
+                        var6 = var4 instanceof Object ? var4 : var6;
+                        var4 = var6.getTime;
+                        var4 = var4.bind(var6)();
+                        var3 = var3.Date;
+                        var6 = var3.prototype;
+                        var6 = Object.create(var6, {constructor: {value: var3}});
+                        var11 = var6;
+                        var3 = new var11[var3](var10);
+                        var6 = var3 instanceof Object ? var3 : var6;
+                        var3 = var6.getTime;
+                        var3 = var3.bind(var6)();
+                        var7 = var4 - var3;
+                        var3 = 0;
+                        if(!(!(var7 > var3))) { _fun0003_ip = 257; continue _fun0003 }
+ 207:
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var3 = var3[var5];
+                        var3 = var4.bind(var1)(var3);
+                        var4 = var3.CustomStatusSetting;
+                        var3 = var4.updateSetting;
+                        var3 = var3.bind(var4)(var1);
+                        var4 = _closure1_slot13;
+                        var3 = var4.stop;
+                        var3 = var3.bind(var4)();
+                        _fun0003_ip = 300; continue _fun0003;
+ 257:
+                        var6 = _closure1_slot13;
+                        var5 = var6.start;
+                        var4 = function() {
                             var3 = _closure1_slot0;
                             var2 = _closure1_slot2;
                             var1 = 8;
@@ -250,93 +264,99 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var2.bind(var3)(var1);
                             return var1;
                         };
-                        var4 = true;
-                        var4 = var8.bind(var9)(var10, var6, var4);
+                        var3 = true;
+                        var3 = var5.bind(var6)(var7, var4, var3);
                         _fun0003_ip = 300; continue _fun0003;
  286:
-                        var6 = _closure1_slot13;
-                        var4 = var6.stop;
-                        var4 = var4.bind(var6)();
+                        var3 = _closure1_slot13;
+                        var2 = var3.stop;
+                        var2 = var2.bind(var3)();
  300:
-                        var6 = _closure1_slot0;
-                        var4 = _closure1_slot2;
-                        var4 = var4[var7];
-                        var4 = var6.bind(var1)(var4);
-                        var6 = var4.StatusExpiresAtSetting;
-                        var4 = var6.getSetting;
-                        var8 = var4.bind(var6)();
-                        if(!(var5 != var8)) { _fun0003_ip = 375; continue _fun0003 }
- 337:
-                        var4 = '0';
-                        if(!(var4 !== var8)) { _fun0003_ip = 375; continue _fun0003 }
- 347:
+                        return var1;
+                    }
+                };
+                var1['manageExpiringCustomStatus'] = var3;
+                var3 = function() {
+                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var1 = 8;
+                        var3 = var3[var1];
+                        var1 = undefined;
+                        var3 = var4.bind(var1)(var3);
+                        var4 = var3.StatusExpiresAtSetting;
+                        var3 = var4.getSetting;
+                        var5 = var3.bind(var4)();
+                        var4 = null;
+                        if(!(var4 != var5)) { _fun0004_ip = 85; continue _fun0004 }
+ 47:
+                        var3 = '0';
+                        if(!(var3 !== var5)) { _fun0004_ip = 85; continue _fun0004 }
+ 57:
                         var6 = _closure1_slot8;
-                        var4 = var6.getStatus;
-                        var6 = var4.bind(var6)();
-                        var4 = _closure1_slot10;
-                        var4 = var4.ONLINE;
-                        if(!(var6 === var4)) { _fun0003_ip = 405; continue _fun0003 }
- 375:
+                        var3 = var6.getStatus;
+                        var6 = var3.bind(var6)();
+                        var3 = _closure1_slot10;
+                        var3 = var3.ONLINE;
+                        if(!(var6 === var3)) { _fun0004_ip = 115; continue _fun0004 }
+ 85:
+                        var3 = _closure1_slot11;
+                        if(!(var4 != var3)) { _fun0004_ip = 323; continue _fun0004 }
+ 96:
                         var4 = _closure1_slot11;
-                        if(!(var5 != var4)) { _fun0003_ip = 630; continue _fun0003 }
- 386:
-                        var6 = _closure1_slot11;
-                        var4 = var6.stop;
-                        var4 = var4.bind(var6)();
-                        _fun0003_ip = 630; continue _fun0003;
- 405:
-                        var4 = global;
-                        var9 = var4.Date;
-                        var6 = var4.Number;
-                        var14 = var6.bind(var1)(var8);
-                        var8 = var9.prototype;
-                        var8 = Object.create(var8, {constructor: {value: var9}});
-                        var15 = var8;
-                        var6 = new var15[var9](var14, var13);
-                        var8 = var6 instanceof Object ? var6 : var8;
-                        var6 = var8.getTime;
-                        var6 = var6.bind(var8)();
-                        var4 = var4.Date;
-                        var8 = var4.prototype;
-                        var8 = Object.create(var8, {constructor: {value: var4}});
-                        var15 = var8;
-                        var4 = new var15[var4](var14);
-                        var8 = var4 instanceof Object ? var4 : var8;
-                        var4 = var8.getTime;
-                        var4 = var4.bind(var8)();
-                        var10 = var6 - var4;
-                        var4 = 0;
-                        if(!(!(var10 > var4))) { _fun0003_ip = 605; continue _fun0003 }
- 500:
-                        var6 = _closure1_slot1;
-                        var8 = _closure1_slot2;
-                        var4 = 9;
-                        var4 = var8[var4];
-                        var6 = var6.bind(var1)(var4);
-                        var4 = {};
-                        var8 = _closure1_slot10;
-                        var8 = var8.ONLINE;
-                        var4['nextStatus'] = var8;
-                        var9 = _closure1_slot8;
-                        var8 = var9.getStatus;
-                        var8 = var8.bind(var9)();
-                        var4['prevStatus'] = var8;
-                        var8 = {};
-                        var9 = {};
-                        var11 = _closure1_slot9;
-                        var11 = var11.CUSTOM_STATUS_MANAGER;
-                        var9['object'] = var11;
-                        var8['location'] = var9;
-                        var4['analyticsContext'] = var8;
-                        var4 = var6.bind(var1)(var4);
-                        var6 = _closure1_slot11;
-                        var4 = var6.stop;
-                        var4 = var4.bind(var6)();
-                        _fun0003_ip = 630; continue _fun0003;
- 605:
-                        var9 = _closure1_slot11;
-                        var8 = var9.start;
-                        var6 = function() {
+                        var3 = var4.stop;
+                        var3 = var3.bind(var4)();
+                        _fun0004_ip = 323; continue _fun0004;
+ 115:
+                        var3 = global;
+                        var6 = var3.Date;
+                        var4 = var3.Number;
+                        var11 = var4.bind(var1)(var5);
+                        var5 = var6.prototype;
+                        var5 = Object.create(var5, {constructor: {value: var6}});
+                        var12 = var5;
+                        var4 = new var12[var6](var11, var10);
+                        var5 = var4 instanceof Object ? var4 : var5;
+                        var4 = var5.getTime;
+                        var4 = var4.bind(var5)();
+                        var3 = var3.Date;
+                        var5 = var3.prototype;
+                        var5 = Object.create(var5, {constructor: {value: var3}});
+                        var12 = var5;
+                        var3 = new var12[var3](var11);
+                        var5 = var3 instanceof Object ? var3 : var5;
+                        var3 = var5.getTime;
+                        var3 = var3.bind(var5)();
+                        var6 = var4 - var3;
+                        var3 = 0;
+                        if(!(!(var6 > var3))) { _fun0004_ip = 296; continue _fun0004 }
+ 210:
+                        var4 = _closure1_slot1;
+                        var5 = _closure1_slot2;
+                        var3 = 9;
+                        var3 = var5[var3];
+                        var4 = var4.bind(var1)(var3);
+                        var3 = {};
+                        var5 = _closure1_slot10;
+                        var5 = var5.ONLINE;
+                        var3['nextStatus'] = var5;
+                        var5 = {};
+                        var7 = {};
+                        var8 = _closure1_slot9;
+                        var8 = var8.CUSTOM_STATUS_MANAGER;
+                        var7['object'] = var8;
+                        var5['location'] = var7;
+                        var3['analyticsContext'] = var5;
+                        var3 = var4.bind(var1)(var3);
+                        var4 = _closure1_slot11;
+                        var3 = var4.stop;
+                        var3 = var3.bind(var4)();
+                        _fun0004_ip = 323; continue _fun0004;
+ 296:
+                        var5 = _closure1_slot11;
+                        var4 = var5.start;
+                        var3 = function() {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot2;
                             var1 = 9;
@@ -347,10 +367,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = _closure1_slot10;
                             var4 = var4.ONLINE;
                             var2['nextStatus'] = var4;
-                            var5 = _closure1_slot8;
-                            var4 = var5.getStatus;
-                            var4 = var4.bind(var5)();
-                            var2['prevStatus'] = var4;
                             var4 = {};
                             var5 = {};
                             var6 = _closure1_slot9;
@@ -361,65 +377,158 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var3.bind(var1)(var2);
                             return var1;
                         };
-                        var4 = true;
-                        var4 = var8.bind(var9)(var10, var6, var4);
- 630:
-                        var6 = _closure1_slot0;
-                        var4 = _closure1_slot2;
-                        var4 = var4[var7];
-                        var4 = var6.bind(var1)(var4);
-                        var6 = var4.FocusModeExpiresAtSetting;
-                        var4 = var6.getSetting;
-                        var6 = var4.bind(var6)();
-                        if(!(var5 != var6)) { _fun0003_ip = 677; continue _fun0003 }
- 667:
-                        var4 = '0';
-                        if(!(var4 === var6)) { _fun0003_ip = 707; continue _fun0003 }
- 677:
-                        var4 = _closure1_slot12;
-                        if(!(var5 != var4)) { _fun0003_ip = 876; continue _fun0003 }
- 688:
-                        var5 = _closure1_slot12;
-                        var4 = var5.stop;
-                        var4 = var4.bind(var5)();
-                        _fun0003_ip = 876; continue _fun0003;
- 707:
-                        var4 = global;
-                        var7 = var4.Date;
-                        var5 = var4.Number;
-                        var14 = var5.bind(var1)(var6);
-                        var6 = var7.prototype;
-                        var6 = Object.create(var6, {constructor: {value: var7}});
-                        var15 = var6;
-                        var5 = new var15[var7](var14, var13);
-                        var6 = var5 instanceof Object ? var5 : var6;
-                        var5 = var6.getTime;
-                        var5 = var5.bind(var6)();
-                        var4 = var4.Date;
-                        var6 = var4.prototype;
-                        var6 = Object.create(var6, {constructor: {value: var4}});
-                        var15 = var6;
-                        var4 = new var15[var4](var14);
-                        var6 = var4 instanceof Object ? var4 : var6;
-                        var4 = var6.getTime;
-                        var4 = var4.bind(var6)();
-                        var6 = var5 - var4;
-                        var4 = 0;
-                        if(!(!(var6 > var4))) { _fun0003_ip = 851; continue _fun0003 }
- 802:
-                        var5 = _closure1_slot0;
+                        var2 = true;
+                        var2 = var4.bind(var5)(var6, var3, var2);
+ 323:
+                        return var1;
+                    }
+                };
+                var1['manageExpiringStatus'] = var3;
+                var3 = function() {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+                        var2 = _closure1_slot8;
+                        var1 = var2.getStatus;
+                        var2 = var1.bind(var2)();
+                        var1 = _closure1_slot10;
+                        var1 = var1.ONLINE;
+                        if(!(var2 !== var1)) { _fun0005_ip = 290; continue _fun0005 }
+ 34:
+                        var2 = _closure1_slot0;
+                        var1 = _closure1_slot2;
+                        var5 = 8;
+                        var1 = var1[var5];
+                        var3 = undefined;
+                        var1 = var2.bind(var3)(var1);
+                        var2 = var1.StatusCreatedAtSetting;
+                        var1 = var2.getSetting;
+                        var1 = var1.bind(var2)();
+                        var6 = null;
+                        if(!(var6 == var1)) { _fun0005_ip = 290; continue _fun0005 }
+ 81:
+                        var2 = _closure1_slot0;
+                        var1 = _closure1_slot2;
+                        var1 = var1[var5];
+                        var1 = var2.bind(var3)(var1);
+                        var2 = var1.StatusExpiresAtSetting;
+                        var1 = var2.getSetting;
+                        var7 = var1.bind(var2)();
+                        var1 = '0';
+                        var5 = undefined;
+                        if(!(var1 !== var7)) { _fun0005_ip = 215; continue _fun0005 }
+ 126:
+                        var1 = global;
+                        var8 = var1.Date;
+                        var2 = var1.Number;
+                        var9 = var2.bind(var3)(var7);
+                        var7 = var8.prototype;
+                        var7 = Object.create(var7, {constructor: {value: var8}});
+                        var10 = var7;
+                        var2 = new var10[var8](var9, var8);
+                        var7 = var2 instanceof Object ? var2 : var7;
+                        var2 = var7.getTime;
+                        var2 = var2.bind(var7)();
+                        var1 = var1.Date;
+                        var7 = var1.prototype;
+                        var7 = Object.create(var7, {constructor: {value: var1}});
+                        var10 = var7;
+                        var1 = new var10[var1](var9);
+                        var7 = var1 instanceof Object ? var1 : var7;
+                        var1 = var7.getTime;
+                        var1 = var1.bind(var7)();
+                        var5 = var2 - var1;
+ 215:
+                        var2 = _closure1_slot1;
                         var7 = _closure1_slot2;
-                        var4 = 10;
-                        var4 = var7[var4];
-                        var7 = var5.bind(var1)(var4);
-                        var5 = var7.setFocusMode;
-                        var4 = false;
-                        var4 = var5.bind(var7)(var4);
-                        var5 = _closure1_slot12;
-                        var4 = var5.stop;
+                        var1 = 9;
+                        var1 = var7[var1];
+                        var2 = var2.bind(var3)(var1);
+                        var1 = {};
+                        var7 = _closure1_slot8;
+                        var4 = var7.getStatus;
+                        var4 = var4.bind(var7)();
+                        var1['nextStatus'] = var4;
+                        var4 = undefined;
+                        if(!(var6 != var5)) { _fun0005_ip = 273; continue _fun0005 }
+ 262:
+                        var6 = 0;
+                        var4 = undefined;
+                        if(!(var5 > var6)) { _fun0005_ip = 273; continue _fun0005 }
+ 270:
+                        var4 = var5;
+ 273:
+                        var1['durationMillis'] = var4;
+                        var4 = true;
+                        var1['disableTracking'] = var4;
+                        var1 = var2.bind(var3)(var1);
+ 290:
+                        var1 = undefined;
+                        return var1;
+                    }
+                };
+                var1['lazilyMigrateStatusCreatedAt'] = var3;
+                var2 = function() {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+                        var4 = _closure1_slot0;
+                        var3 = _closure1_slot2;
+                        var1 = 8;
+                        var3 = var3[var1];
+                        var1 = undefined;
+                        var3 = var4.bind(var1)(var3);
+                        var4 = var3.FocusModeExpiresAtSetting;
+                        var3 = var4.getSetting;
+                        var5 = var3.bind(var4)();
+                        var4 = null;
+                        if(!(var4 != var5)) { _fun0006_ip = 57; continue _fun0006 }
+ 47:
+                        var3 = '0';
+                        if(!(var3 === var5)) { _fun0006_ip = 87; continue _fun0006 }
+ 57:
+                        var3 = _closure1_slot12;
+                        if(!(var4 != var3)) { _fun0006_ip = 258; continue _fun0006 }
+ 68:
+                        var4 = _closure1_slot12;
+                        var3 = var4.stop;
+                        var3 = var3.bind(var4)();
+                        _fun0006_ip = 258; continue _fun0006;
+ 87:
+                        var3 = global;
+                        var6 = var3.Date;
+                        var4 = var3.Number;
+                        var9 = var4.bind(var1)(var5);
+                        var5 = var6.prototype;
+                        var5 = Object.create(var5, {constructor: {value: var6}});
+                        var10 = var5;
+                        var4 = new var10[var6](var9, var8);
+                        var5 = var4 instanceof Object ? var4 : var5;
+                        var4 = var5.getTime;
                         var4 = var4.bind(var5)();
-                        _fun0003_ip = 876; continue _fun0003;
- 851:
+                        var3 = var3.Date;
+                        var5 = var3.prototype;
+                        var5 = Object.create(var5, {constructor: {value: var3}});
+                        var10 = var5;
+                        var3 = new var10[var3](var9);
+                        var5 = var3 instanceof Object ? var3 : var5;
+                        var3 = var5.getTime;
+                        var3 = var3.bind(var5)();
+                        var6 = var4 - var3;
+                        var3 = 0;
+                        if(!(!(var6 > var3))) { _fun0006_ip = 231; continue _fun0006 }
+ 182:
+                        var4 = _closure1_slot0;
+                        var5 = _closure1_slot2;
+                        var3 = 10;
+                        var3 = var5[var3];
+                        var5 = var4.bind(var1)(var3);
+                        var4 = var5.setFocusMode;
+                        var3 = false;
+                        var3 = var4.bind(var5)(var3);
+                        var4 = _closure1_slot12;
+                        var3 = var4.stop;
+                        var3 = var3.bind(var4)();
+                        _fun0006_ip = 258; continue _fun0006;
+ 231:
                         var5 = _closure1_slot12;
                         var4 = var5.start;
                         var3 = function() {
@@ -436,11 +545,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var2 = true;
                         var2 = var4.bind(var5)(var6, var3, var2);
- 876:
+ 258:
                         return var1;
                     }
                 };
-                var1['handleUpdateProto'] = var2;
+                var1['manageExpiringFocusMode'] = var2;
                 return var1;
             }
         };

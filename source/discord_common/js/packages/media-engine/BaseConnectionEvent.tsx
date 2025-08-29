@@ -82,6 +82,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['Stats'] = var1;
     var1 = 'first-frame';
     var2['FirstFrame'] = var1;
+    var1 = 'first-frame-stats';
+    var2['FirstFrameStats'] = var1;
     var1 = 'video-encoder-fallback';
     var2['VideoEncoderFallback'] = var1;
     var1 = 'remote-streams-ready';

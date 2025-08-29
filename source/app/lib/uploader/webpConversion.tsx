@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 363; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 367; continue _fun0001 }
  10:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -30,17 +30,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = arg1;
                     var2 = {'async': true, 'expanded': true, 'includeUnknown': true};
                     var2 = var6.bind(var7)(var5, var2);
-                    SaveGenerator(address=66);
- 64:
+                    SaveGenerator(address=70);
+ 68:
                     return var2;
- 66:
+ 70:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 360; continue _fun0001 }
- 75:
+                    if(var5) { _fun0001_ip = 364; continue _fun0001 }
+ 79:
                     var5 = var2.icc;
                     var14 = null;
-                    if(!(var14 != var5)) { _fun0001_ip = 336; continue _fun0001 }
- 90:
+                    if(!(var14 != var5)) { _fun0001_ip = 340; continue _fun0001 }
+ 94:
                     var10 = var2.icc;
                     var6 = global;
                     var7 = var6.Object;
@@ -52,37 +52,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = '';
                     var8 = 'ICC Description';
                     var7 = undefined;
-                    if(!var5) { _fun0001_ip = 201; continue _fun0001 }
- 140:
+                    if(!var5) { _fun0001_ip = 205; continue _fun0001 }
+ 144:
                     var9 = var13[var12];
-                    if(!(var8 === var9)) { _fun0001_ip = 189; continue _fun0001 }
- 148:
+                    if(!(var8 === var9)) { _fun0001_ip = 193; continue _fun0001 }
+ 152:
                     var16 = var10[var9];
                     var17 = var14 == var16;
                     var5 = undefined;
-                    if(var17) { _fun0001_ip = 166; continue _fun0001 }
- 161:
+                    if(var17) { _fun0001_ip = 170; continue _fun0001 }
+ 165:
                     var5 = var16.description;
- 166:
+ 170:
                     var7 = var16;
-                    if(!(var14 != var5)) { _fun0001_ip = 189; continue _fun0001 }
- 173:
+                    if(!(var14 != var5)) { _fun0001_ip = 193; continue _fun0001 }
+ 177:
                     var5 = var10[var9];
                     var5 = var5.description;
                     var7 = var16;
-                    if(!(var11 === var5)) { _fun0001_ip = 227; continue _fun0001 }
- 189:
+                    if(!(var11 === var5)) { _fun0001_ip = 231; continue _fun0001 }
+ 193:
                     var12 = var12 + 1;
                     var5 = var13.length;
-                    if(var12 < var5) { _fun0001_ip = 140; continue _fun0001 }
- 201:
+                    if(var12 < var5) { _fun0001_ip = 144; continue _fun0001 }
+ 205:
                     var8 = _closure1_slot4;
                     var7 = var8.verbose;
                     var5 = '[webp] ICC profile detected but could not parse description - assuming non-sRGB';
                     var5 = var7.bind(var8)(var5);
                     var5 = false;
                     return var5;
- 227:
+ 231:
                     var5 = var10[var9];
                     var7 = var5.description;
                     var5 = var7.toLowerCase;
@@ -96,29 +96,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var9.description;
                     var6 = var6.HermesInternal;
                     var9 = var6.concat;
-                    if(var5) { _fun0001_ip = 315; continue _fun0001 }
- 295:
+                    if(var5) { _fun0001_ip = 319; continue _fun0001 }
+ 299:
                     var5 = '[webp] non sRGB ICC profile description found: ';
                     var5 = var9.bind(var5)(var10);
                     var5 = var7.bind(var8)(var5);
                     var5 = false;
-                    _fun0001_ip = 333; continue _fun0001;
- 315:
+                    _fun0001_ip = 337; continue _fun0001;
+ 319:
                     var6 = '[webp] sRGB ICC profile description found: ';
                     var6 = var9.bind(var6)(var10);
                     var6 = var7.bind(var8)(var6);
                     var5 = true;
- 333:
+ 337:
                     return var5;
- 336:
+ 340:
                     var6 = _closure1_slot4;
                     var5 = var6.verbose;
                     var4 = '[webp] no ICC profile detected - assuming sRGB';
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 360:
+ 364:
                     return var2;
- 363:
+ 367:
                     return var1;
                 }
             };

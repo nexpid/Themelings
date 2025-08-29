@@ -418,25 +418,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var11.bind(var18)(var1, var10);
             var10 = var3.banner;
             var1 = null;
-            if(!(var1 != var10)) { _fun0001_ip = 793; continue _fun0001 }
- 540:
+            if(!(var1 != var10)) { _fun0001_ip = 794; continue _fun0001 }
+ 541:
             var7 = !var7;
-            if(!var7) { _fun0001_ip = 549; continue _fun0001 }
- 546:
+            if(!var7) { _fun0001_ip = 550; continue _fun0001 }
+ 547:
             var7 = !var8;
- 549:
-            if(!var7) { _fun0001_ip = 555; continue _fun0001 }
- 552:
+ 550:
+            if(!var7) { _fun0001_ip = 556; continue _fun0001 }
+ 553:
             var7 = var4;
- 555:
-            if(!var7) { _fun0001_ip = 584; continue _fun0001 }
- 558:
+ 556:
+            if(!var7) { _fun0001_ip = 585; continue _fun0001 }
+ 559:
             var8 = var3.features;
             var4 = var8.has;
             var3 = _closure1_slot13;
             var3 = var3.ANIMATED_BANNER;
             var7 = var4.bind(var8)(var3);
- 584:
+ 585:
             var11 = _closure1_slot1;
             var10 = _closure1_slot2;
             var3 = 30;
@@ -503,7 +503,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 793:
+ 794:
             return var1;
         }
     };

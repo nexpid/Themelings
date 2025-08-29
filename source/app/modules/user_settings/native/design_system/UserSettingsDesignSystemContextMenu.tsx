@@ -84,22 +84,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = false;
  34:
             var10 = var2.count;
-            if(!(var10 === var4)) { _fun0002_ip = 47; continue _fun0002 }
- 44:
+            if(!(var10 === var4)) { _fun0002_ip = 46; continue _fun0002 }
+ 43:
             var10 = 3;
- 47:
+ 46:
             var _closure2_slot1 = var10;
             var1 = var2.sections;
-            if(!(var1 === var4)) { _fun0002_ip = 64; continue _fun0002 }
- 61:
+            if(!(var1 === var4)) { _fun0002_ip = 63; continue _fun0002 }
+ 60:
             var1 = 1;
- 64:
+ 63:
             var _closure2_slot2 = var1;
             var7 = var2.alignButton;
-            if(!(var7 === var4)) { _fun0002_ip = 84; continue _fun0002 }
- 78:
+            if(!(var7 === var4)) { _fun0002_ip = 83; continue _fun0002 }
+ 77:
             var7 = 'flex-start';
- 84:
+ 83:
             var6 = _closure1_slot2;
             var3 = var6.useMemo;
             var2 = new Array(2);

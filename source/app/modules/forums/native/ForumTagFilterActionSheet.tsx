@@ -229,7 +229,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var16.size;
             var10 = var9 > var10;
             var9 = ' ';
-            if(!var10) { _fun0003_ip = 354; continue _fun0003 }
+            if(!var10) { _fun0003_ip = 353; continue _fun0003 }
  287:
             var13 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -245,7 +245,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.size;
             var10['count'] = var16;
             var9 = var14.bind(var15)(var13, var10);
- 354:
+ 353:
             var5['subtitle'] = var9;
             var15 = _closure1_slot11;
             var9 = _closure1_slot0;

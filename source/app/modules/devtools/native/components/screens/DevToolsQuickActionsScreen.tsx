@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot26 = var1;
+    var _closure1_slot27 = var1;
     var1 = function handleThemeChange(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot27 = var1;
+    var _closure1_slot28 = var1;
     var1 = function handleReducedMotionChange(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -75,7 +75,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot28 = var1;
+    var _closure1_slot29 = var1;
     var1 = function handleLaunchWelcomeReset() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
@@ -101,7 +101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot29 = var1;
+    var _closure1_slot30 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -394,6 +394,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var4.bind(var1)();
     var _closure1_slot25 = var4;
+    var4 = function handleResetDoubleTapState() {
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot2;
+        var2 = 24;
+        var5 = var4[var2];
+        var1 = undefined;
+        var7 = var3.bind(var1)(var5);
+        var6 = var7.removeDismissedContent;
+        var5 = 25;
+        var5 = var4[var5];
+        var5 = var3.bind(var1)(var5);
+        var5 = var5.DismissibleContent;
+        var5 = var5.DOUBLE_TAP_TO_REACT_UPSELL;
+        var5 = var6.bind(var7)(var5);
+        var5 = var4[var2];
+        var5 = var3.bind(var1)(var5);
+        var6 = var5.PreloadedUserSettingsActionCreators;
+        var5 = var6.updateAsync;
+        var2 = var4[var2];
+        var2 = var3.bind(var1)(var2);
+        var2 = var2.UserSettingsDelay;
+        var4 = var2.INFREQUENT_USER_ACTION;
+        var3 = 'textAndImages';
+        var2 = function(arg1) {
+            var1 = undefined;
+            var2 = arg1;
+            var2['defaultReactionEmoji'] = var1;
+            return var1;
+        };
+        var2 = var5.bind(var6)(var3, var2, var4);
+        return var1;
+    };
+    var _closure1_slot26 = var4;
     var4 = 62;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
@@ -574,7 +607,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var15 = var6.bind(var7)(var3, var5);
-            if(var2) { _fun0004_ip = 2820; continue _fun0004 }
+            if(var2) { _fun0004_ip = 2922; continue _fun0004 }
  457:
             var5 = _closure1_slot21;
             var3 = _closure1_slot6;
@@ -677,7 +710,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var26.isThemeLight;
             var23 = var23.bind(var26)(var27);
             var17['value'] = var23;
-            var23 = _closure1_slot27;
+            var23 = _closure1_slot28;
             var17['onValueChange'] = var23;
             var18 = var19.bind(var4)(var18, var17);
             var17 = new Array(2);
@@ -696,7 +729,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var22.bind(var4)(var26, var23);
             var18['icon'] = var23;
             var18['value'] = var20;
-            var20 = _closure1_slot28;
+            var20 = _closure1_slot29;
             var18['onValueChange'] = var20;
             var18 = var22.bind(var4)(var19, var18);
             var17[1] = var18;
@@ -837,7 +870,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var23.bind(var4)(var27, var26);
             var12['trailing'] = var26;
             var12 = var22.bind(var4)(var20, var12);
-            var20 = new Array(11);
+            var20 = new Array(12);
             var20[0] = var12;
             var12 = var16[var11];
             var12 = var15.bind(var4)(var12);
@@ -855,7 +888,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['label'] = var17;
             var17 = 'Dismiss dev tools after launching.';
             var12['subLabel'] = var17;
-            var17 = _closure1_slot26;
+            var17 = _closure1_slot27;
             var12['onPress'] = var17;
             var17 = 53;
             var26 = var16[var17];
@@ -897,7 +930,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableRow;
             var12 = {'label': 'Reset Launch Welcome', 'subLabel': 'Resets launch welcome NUX flag, requires an app restart to take effect.'};
-            var27 = _closure1_slot29;
+            var27 = _closure1_slot30;
             var12['onPress'] = var27;
             var27 = var16[var26];
             var27 = var15.bind(var4)(var27);
@@ -1006,6 +1039,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var27 = var15.bind(var4)(var27);
             var27 = var27.showCaptchaTestModal;
             var12['onPress'] = var27;
+            var27 = var16[var26];
+            var27 = var15.bind(var4)(var27);
+            var28 = var27.KeyIcon;
+            var27 = {};
+            var27 = var23.bind(var4)(var28, var27);
+            var12['icon'] = var27;
+            var27 = var16[var25];
+            var27 = var15.bind(var4)(var27);
+            var28 = var27.TableRowArrow;
+            var27 = {};
+            var27 = var23.bind(var4)(var28, var27);
+            var12['trailing'] = var27;
+            var12 = var23.bind(var4)(var22, var12);
+            var20[7] = var12;
+            var12 = var16[var11];
+            var12 = var15.bind(var4)(var12);
+            var22 = var12.TableRow;
+            var12 = {'label': 'Reset Double Tap Emoji State', 'subLabel': 'Clears double tap emoji and resets dismissible content. Requires an app restart to take effect.'};
+            var27 = _closure1_slot26;
+            var12['onPress'] = var27;
             var26 = var16[var26];
             var26 = var15.bind(var4)(var26);
             var27 = var26.KeyIcon;
@@ -1019,7 +1072,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var23.bind(var4)(var26, var25);
             var12['trailing'] = var25;
             var12 = var23.bind(var4)(var22, var12);
-            var20[7] = var12;
+            var20[8] = var12;
             var12 = var16[var13];
             var12 = var15.bind(var4)(var12);
             var22 = var12.TableSwitchRow;
@@ -1048,15 +1101,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var12['onValueChange'] = var24;
             var12 = var23.bind(var4)(var22, var12);
-            var20[8] = var12;
+            var20[9] = var12;
             var12 = 57;
             var12 = var16[var12];
             var15 = var15.bind(var4)(var12);
             var12 = var15.isAndroid;
             var15 = var12.bind(var15)();
             var12 = null;
-            if(!var15) { _fun0004_ip = 2299; continue _fun0004 }
- 2206:
+            if(!var15) { _fun0004_ip = 2401; continue _fun0004 }
+ 2308:
             var16 = _closure1_slot20;
             var23 = _closure1_slot0;
             var24 = _closure1_slot2;
@@ -1082,8 +1135,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var13['onValueChange'] = var21;
             var12 = var16.bind(var4)(var15, var13);
- 2299:
-            var20[9] = var12;
+ 2401:
+            var20[10] = var12;
             var13 = _closure1_slot20;
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -1103,7 +1156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var13.bind(var4)(var24, var23);
             var21['icon'] = var23;
             var21 = var13.bind(var4)(var22, var21);
-            var20[10] = var21;
+            var20[11] = var21;
             var9['children'] = var20;
             var9 = var19.bind(var4)(var18, var9);
             var6[6] = var9;
@@ -1231,7 +1284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 2820:
+ 2922:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 39;

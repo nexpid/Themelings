@@ -1690,6 +1690,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['CHURN_DISCOUNT_PREMIUM_TAB_BADGE'] = var2;
     var1 = 'CHURN_DISCOUNT_PREMIUM_TAB_BADGE';
     var4[var2] = var1;
+    var2 = 593;
+    var4['DOUBLE_TAP_TO_REACT_UPSELL'] = var2;
+    var1 = 'DOUBLE_TAP_TO_REACT_UPSELL';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -40,7 +40,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['updateCustomTheme'] = var4;
-    var2 = function() {
+    var4 = function() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -54,6 +54,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['resetCustomTheme'] = var2;
+    var3['resetCustomTheme'] = var4;
+    var4 = function(arg1) {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'PREVIEW_CUSTOM_THEME';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['previewCustomTheme'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['previewCustomTheme'] = var4;
+    var2 = function() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 0;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'CLEAR_PREVIEW_CUSTOM_THEME';
+        var2['type'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['clearPreviewTheme'] = var2;
     return var1;
 })();

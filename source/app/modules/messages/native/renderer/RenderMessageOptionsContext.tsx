@@ -31,7 +31,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/messages/native/renderer/RenderMessageOptionsContext.tsx';
     var4 = var5.bind(var6)(var4);
     var3['UserOption'] = var2;
-    var2 = {'renderEmbeds': true, 'renderReactions': true, 'inlineEmbedMedia': true, 'inlineAttachmentMedia': true, 'animateEmoji': true, 'gifAutoPlay': false, 'renderCodedLinks': true, 'renderGiftCode': true, 'renderActivityInstanceEmbed': true, 'renderActivityInviteEmbed': true, 'renderComponents': true, 'renderThreadEmbeds': true, 'renderReplies': true, 'renderCommunicationDisabled': false, 'renderAttachments': true, 'renderExecutedCommands': true, 'renderPolls': true, 'renderForumPostActions': true, 'ignoreMentioned': false, 'ignoreEmbedDescriptionCache': false, 'forceHideSimpleEmbedContent': false, 'enableSwipeActions': false, 'useAlternateEmbedColors': false};
+    var2 = {'renderEmbeds': true, 'renderReactions': true, 'inlineEmbedMedia': true, 'inlineAttachmentMedia': true, 'animateEmoji': true, 'gifAutoPlay': false, 'renderCodedLinks': true, 'renderGiftCode': true, 'renderActivityInstanceEmbed': true, 'renderActivityInviteEmbed': true, 'renderComponents': true, 'renderThreadEmbeds': true, 'renderReplies': true, 'renderCommunicationDisabled': false, 'renderAttachments': true, 'renderExecutedCommands': true, 'renderPolls': true, 'renderSharedClientTheme': true, 'renderForumPostActions': true, 'ignoreMentioned': false, 'ignoreEmbedDescriptionCache': false, 'forceHideSimpleEmbedContent': false, 'enableSwipeActions': false, 'useAlternateEmbedColors': false};
     var3['DEFAULT_OPTIONS'] = var2;
     return var1;
 })();
