@@ -406,30 +406,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = {};
             var19 = var24.detailsRow;
             var16['style'] = var19;
-            if(!var21) { _fun0002_ip = 834; continue _fun0002 }
- 818:
+            if(!var21) { _fun0002_ip = 838; continue _fun0002 }
+ 822:
             var25 = _closure1_slot16;
             var22 = _closure1_slot19;
             var19 = {};
             var21 = var25.bind(var4)(var22, var19);
- 834:
+ 838:
             var19 = new Array(4);
             var19[0] = var21;
-            if(!var12) { _fun0002_ip = 861; continue _fun0002 }
- 845:
+            if(!var12) { _fun0002_ip = 865; continue _fun0002 }
+ 849:
             var25 = _closure1_slot16;
             var22 = _closure1_slot20;
             var21 = {};
             var12 = var25.bind(var4)(var22, var21);
- 861:
+ 865:
             var19[1] = var12;
-            if(!var10) { _fun0002_ip = 884; continue _fun0002 }
- 868:
+            if(!var10) { _fun0002_ip = 888; continue _fun0002 }
+ 872:
             var22 = _closure1_slot16;
             var21 = _closure1_slot21;
             var12 = {};
             var10 = var22.bind(var4)(var21, var12);
- 884:
+ 888:
             var19[2] = var10;
             var22 = _closure1_slot16;
             var10 = _closure1_slot0;

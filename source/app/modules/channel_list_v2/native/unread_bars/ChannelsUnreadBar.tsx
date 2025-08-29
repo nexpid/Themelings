@@ -666,35 +666,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = _closure1_slot13;
             var1['__initData'] = var15;
             var17 = var3.bind(var6)(var1);
-            if(var11) { _fun0002_ip = 996; continue _fun0002 }
- 932:
+            if(var11) { _fun0002_ip = 993; continue _fun0002 }
+ 929:
             var1 = 'bottom';
-            if(!(var1 !== var2)) { _fun0002_ip = 968; continue _fun0002 }
- 940:
+            if(!(var1 !== var2)) { _fun0002_ip = 965; continue _fun0002 }
+ 937:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 19;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.ArrowSmallUpIcon;
-            _fun0002_ip = 994; continue _fun0002;
- 968:
+            _fun0002_ip = 991; continue _fun0002;
+ 965:
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 18;
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.ArrowSmallDownIcon;
- 994:
-            _fun0002_ip = 1022; continue _fun0002;
- 996:
+ 991:
+            _fun0002_ip = 1019; continue _fun0002;
+ 993:
             var2 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 17;
             var1 = var6[var1];
             var1 = var2.bind(var4)(var1);
             var3 = var1.AtIcon;
- 1022:
+ 1019:
             var2 = _closure1_slot9;
             var1 = {};
             var15 = _closure1_slot1;
@@ -702,15 +702,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 9;
             var6 = var19[var6];
             var15 = var15.bind(var4)(var6);
-            if(var11) { _fun0002_ip = 1064; continue _fun0002 }
- 1051:
+            if(var11) { _fun0002_ip = 1061; continue _fun0002 }
+ 1048:
             var6 = var15.colors;
             var6 = var6.TEXT_BRAND;
-            _fun0002_ip = 1075; continue _fun0002;
- 1064:
+            _fun0002_ip = 1072; continue _fun0002;
+ 1061:
             var15 = var15.unsafe_rawColors;
             var6 = var15.WHITE_500;
- 1075:
+ 1072:
             var1['color'] = var6;
             var6 = 'xxs';
             var1['size'] = var6;
@@ -725,10 +725,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15[2] = var17;
             var1['style'] = var15;
             var15 = 'none';
-            if(!var16) { _fun0002_ip = 1140; continue _fun0002 }
- 1136:
+            if(!var16) { _fun0002_ip = 1137; continue _fun0002 }
+ 1133:
             var15 = 'auto';
- 1140:
+ 1137:
             var1['pointerEvents'] = var15;
             var15 = 'button';
             var1['accessibilityRole'] = var15;
@@ -751,10 +751,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'text-xs/bold';
             var6['variant'] = var10;
             var10 = 'text-brand';
-            if(!var11) { _fun0002_ip = 1245; continue _fun0002 }
- 1239:
+            if(!var11) { _fun0002_ip = 1242; continue _fun0002 }
+ 1236:
             var10 = 'always-white';
- 1245:
+ 1242:
             var6['color'] = var10;
             var10 = 1.5;
             var6['maxFontSizeMultiplier'] = var10;

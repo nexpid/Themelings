@@ -216,13 +216,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.OFFLINE;
                     var3 = var5 === var4;
  45:
-                    if(var3) { _fun0005_ip = 65; continue _fun0005 }
+                    if(var3) { _fun0005_ip = 66; continue _fun0005 }
  48:
                     var3 = _closure2_slot1;
                     var1 = var1.count;
                     var1 = var3 + var1;
                     _closure2_slot1 = var1;
- 65:
+ 66:
                     var1 = undefined;
                     return var1;
                 }

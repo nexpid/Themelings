@@ -456,15 +456,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var16.bind(var17)(var6);
             var1['accessibilityLabel'] = var6;
             var6 = var12;
-            if(!var7) { _fun0001_ip = 890; continue _fun0001 }
- 833:
+            if(!var7) { _fun0001_ip = 889; continue _fun0001 }
+ 832:
             var7 = null;
             var6 = var12;
-            if(!(var7 == var8)) { _fun0001_ip = 890; continue _fun0001 }
- 842:
+            if(!(var7 == var8)) { _fun0001_ip = 889; continue _fun0001 }
+ 841:
             var6 = var12;
-            if(var5) { _fun0001_ip = 890; continue _fun0001 }
- 848:
+            if(var5) { _fun0001_ip = 889; continue _fun0001 }
+ 847:
             var8 = _closure1_slot5;
             var7 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -475,7 +475,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var14;
             var5['children'] = var12;
             var6 = var8.bind(var4)(var7, var5);
- 890:
+ 889:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot5;
@@ -497,10 +497,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.AvatarSizes;
             var10 = var9.EDIT_AVATAR_DECORATION;
             var9 = 'xs';
-            if(!(var11 === var10)) { _fun0001_ip = 986; continue _fun0001 }
- 982:
+            if(!(var11 === var10)) { _fun0001_ip = 985; continue _fun0001 }
+ 981:
             var9 = 'sm';
- 986:
+ 985:
             var6['size'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

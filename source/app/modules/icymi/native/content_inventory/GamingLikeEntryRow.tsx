@@ -479,11 +479,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['content'] = var33;
             var2 = var3.bind(var4)(var2);
             var15 = var2.openReplyActionSheet;
-            if(!(var1 != var25)) { _fun0004_ip = 1606; continue _fun0004 }
+            if(!(var1 != var25)) { _fun0004_ip = 1610; continue _fun0004 }
  343:
-            if(!(var1 != var22)) { _fun0004_ip = 1606; continue _fun0004 }
+            if(!(var1 != var22)) { _fun0004_ip = 1610; continue _fun0004 }
  350:
-            if(!(var1 != var18)) { _fun0004_ip = 1606; continue _fun0004 }
+            if(!(var1 != var18)) { _fun0004_ip = 1610; continue _fun0004 }
  357:
             var3 = _closure1_slot0;
             var2 = _closure1_slot3;
@@ -553,8 +553,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = new Array(2);
             var10[0] = var12;
             var12 = null;
-            if(!var13) { _fun0004_ip = 739; continue _fun0004 }
- 634:
+            if(!var13) { _fun0004_ip = 743; continue _fun0004 }
+ 638:
             var30 = _closure1_slot9;
             var32 = _closure1_slot0;
             var37 = _closure1_slot3;
@@ -576,7 +576,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var31 = var32.bind(var34)(var31);
             var17['children'] = var31;
             var12 = var30.bind(var5)(var24, var17);
- 739:
+ 743:
             var10[1] = var12;
             var6['children'] = var10;
             var6 = var9.bind(var5)(var7, var6);
@@ -596,18 +596,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var30.isEntryActive;
             var30 = var24.bind(var30)(var33);
             var24 = 'header-secondary';
-            if(!var30) { _fun0004_ip = 842; continue _fun0004 }
- 836:
+            if(!var30) { _fun0004_ip = 846; continue _fun0004 }
+ 840:
             var24 = 'status-positive';
- 842:
+ 846:
             var10['color'] = var24;
             var10['children'] = var19;
             var12 = var17.bind(var5)(var12, var10);
             var10 = new Array(2);
             var10[0] = var12;
             var12 = null;
-            if(var13) { _fun0004_ip = 1080; continue _fun0004 }
- 872:
+            if(var13) { _fun0004_ip = 1084; continue _fun0004 }
+ 876:
             var19 = _closure1_slot11;
             var17 = _closure1_slot10;
             var13 = {};
@@ -631,10 +631,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var34 = var35.isEntryActive;
             var35 = var34.bind(var35)(var33);
             var34 = 'header-muted';
-            if(!var35) { _fun0004_ip = 989; continue _fun0004 }
- 983:
+            if(!var35) { _fun0004_ip = 993; continue _fun0004 }
+ 987:
             var34 = 'status-positive';
- 989:
+ 993:
             var30['color'] = var34;
             var35 = _closure1_slot0;
             var38 = _closure1_slot3;
@@ -655,7 +655,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24[1] = var30;
             var13['children'] = var24;
             var12 = var19.bind(var5)(var17, var13);
- 1080:
+ 1084:
             var10[1] = var12;
             var6['children'] = var10;
             var6 = var9.bind(var5)(var7, var6);
@@ -671,8 +671,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12[0] = var13;
             var17 = var1 != var20;
             var13 = null;
-            if(!var17) { _fun0004_ip = 1208; continue _fun0004 }
- 1144:
+            if(!var17) { _fun0004_ip = 1212; continue _fun0004 }
+ 1148:
             var17 = {};
             var24 = _closure1_slot1;
             var30 = _closure1_slot3;
@@ -687,7 +687,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.bind(var20)();
             var17['backgroundColor'] = var19;
             var13 = var17;
- 1208:
+ 1212:
             var12[1] = var13;
             var9['style'] = var12;
             var24 = _closure1_slot9;
@@ -724,14 +724,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = new Array(2);
             var19[0] = var20;
             var20 = var1 != var27;
-            if(!var20) { _fun0004_ip = 1371; continue _fun0004 }
- 1360:
+            if(!var20) { _fun0004_ip = 1375; continue _fun0004 }
+ 1364:
             var25 = var27.length;
             var24 = 0;
             var20 = var25 > var24;
- 1371:
-            if(!var20) { _fun0004_ip = 1404; continue _fun0004 }
- 1374:
+ 1375:
+            if(!var20) { _fun0004_ip = 1408; continue _fun0004 }
+ 1378:
             var26 = _closure1_slot9;
             var25 = _closure1_slot5;
             var24 = {};
@@ -739,7 +739,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24['style'] = var28;
             var24['children'] = var27;
             var20 = var26.bind(var5)(var25, var24);
- 1404:
+ 1408:
             var19[1] = var20;
             var13['children'] = var19;
             var13 = var18.bind(var5)(var17, var13);
@@ -749,8 +749,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = new Array(2);
             var9[0] = var10;
             var10 = null;
-            if(var11) { _fun0004_ip = 1580; continue _fun0004 }
- 1448:
+            if(var11) { _fun0004_ip = 1584; continue _fun0004 }
+ 1452:
             var13 = _closure1_slot9;
             var17 = _closure1_slot0;
             var20 = _closure1_slot3;
@@ -779,14 +779,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['onReply'] = var15;
             var11['onForward'] = var14;
             var10 = var13.bind(var5)(var12, var11);
- 1580:
+ 1584:
             var9[1] = var10;
             var6['children'] = var9;
             var6 = var7.bind(var5)(var8, var6);
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 1606:
+ 1610:
             return var1;
         }
     };

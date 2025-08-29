@@ -2863,8 +2863,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var15.VoicePanelVisualEffectView;
             var15 = {};
             var21 = !var21;
-            if(!var21) { _fun0007_ip = 1358; continue _fun0007 }
- 1329:
+            if(!var21) { _fun0007_ip = 1356; continue _fun0007 }
+ 1327:
             var24 = _closure1_slot0;
             var25 = _closure1_slot2;
             var23 = 46;
@@ -2872,7 +2872,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var24.bind(var4)(var23);
             var23 = var24.isAndroid;
             var21 = var23.bind(var24)();
- 1358:
+ 1356:
             var15['matchAppTheme'] = var21;
             var15 = var8.bind(var4)(var16, var15);
             var13[1] = var15;

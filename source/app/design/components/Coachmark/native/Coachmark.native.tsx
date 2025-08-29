@@ -222,12 +222,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13[0] = var23;
             var24 = var22 != var35;
             var23 = null;
-            if(!var24) { _fun0001_ip = 821; continue _fun0001 }
- 640:
+            if(!var24) { _fun0001_ip = 820; continue _fun0001 }
+ 639:
             var24 = var22 != var34;
             var23 = null;
-            if(!var24) { _fun0001_ip = 821; continue _fun0001 }
- 652:
+            if(!var24) { _fun0001_ip = 820; continue _fun0001 }
+ 651:
             var27 = _closure1_slot11;
             var25 = _closure1_slot12;
             var24 = {};
@@ -246,33 +246,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var30 = var36[var30];
             var30 = var31.bind(var4)(var30);
             var31 = var30.Button;
-            if(var1) { _fun0001_ip = 772; continue _fun0001 }
- 729:
+            if(var1) { _fun0001_ip = 771; continue _fun0001 }
+ 728:
             var30 = {};
             var38 = var22 != var37;
             var36 = 'secondary';
-            if(!var38) { _fun0001_ip = 745; continue _fun0001 }
- 742:
+            if(!var38) { _fun0001_ip = 744; continue _fun0001 }
+ 741:
             var36 = var37;
- 745:
+ 744:
             var30['variant'] = var36;
             var36 = 'lg';
             var30['size'] = var36;
             var30['text'] = var35;
             var30['onPress'] = var34;
             var30['grow'] = var33;
-            _fun0001_ip = 801; continue _fun0001;
- 772:
+            _fun0001_ip = 800; continue _fun0001;
+ 771:
             var33 = {'variant': 'secondary-overlay', 'size': 'lg', 'text': null, 'onPress': null, 'grow': true};
             var33['text'] = var35;
             var33['onPress'] = var34;
             var30 = var33;
- 801:
+ 800:
             var30 = var32.bind(var4)(var31, var30);
             var29[1] = var30;
             var24['children'] = var29;
             var23 = var27.bind(var4)(var25, var24);
- 821:
+ 820:
             var13[1] = var23;
             var25 = _closure1_slot10;
             var24 = _closure1_slot8;
@@ -310,8 +310,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var13;
             var8 = var8.bind(var4)(var3, var2);
             var3 = _closure1_slot10;
-            if(var1) { _fun0001_ip = 1033; continue _fun0001 }
- 987:
+            if(var1) { _fun0001_ip = 1032; continue _fun0001 }
+ 986:
             var2 = _closure1_slot7;
             var1 = {};
             var23 = var17.bodyContainer;
@@ -322,8 +322,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var13;
             var1['children'] = var8;
             var13 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 1095; continue _fun0001;
- 1033:
+            _fun0001_ip = 1094; continue _fun0001;
+ 1032:
             var2 = _closure1_slot0;
             var23 = _closure1_slot2;
             var1 = 15;
@@ -338,7 +338,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['pressed'] = var20;
             var1['children'] = var8;
             var13 = var3.bind(var4)(var2, var1);
- 1095:
+ 1094:
             var3 = _closure1_slot11;
             var2 = _closure1_slot7;
             var1 = {};
@@ -369,18 +369,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var23.isIOS;
             var23 = var8.bind(var23)();
             var8 = undefined;
-            if(!var23) { _fun0001_ip = 1169; continue _fun0001 }
- 1163:
+            if(!var23) { _fun0001_ip = 1168; continue _fun0001 }
+ 1162:
             var8 = var17.shadow;
- 1169:
+ 1168:
             var5[1] = var8;
             var8 = {};
             var21 = var22 != var21;
             var19 = 0;
-            if(!var21) { _fun0001_ip = 1187; continue _fun0001 }
- 1184:
+            if(!var21) { _fun0001_ip = 1186; continue _fun0001 }
+ 1183:
             var19 = var15;
- 1187:
+ 1186:
             var8['opacity'] = var19;
             var8['top'] = var11;
             var8['left'] = var9;
@@ -388,15 +388,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var5;
             var19 = 'bottom';
             var8 = var19 === var6;
-            if(!var8) { _fun0001_ip = 1243; continue _fun0001 }
- 1218:
+            if(!var8) { _fun0001_ip = 1242; continue _fun0001 }
+ 1217:
             var11 = _closure1_slot10;
             var9 = _closure1_slot15;
             var5 = {};
             var5['position'] = var19;
             var5['adjustmentX'] = var10;
             var8 = var11.bind(var4)(var9, var5);
- 1243:
+ 1242:
             var5 = new Array(3);
             var5[0] = var8;
             var11 = _closure1_slot10;
@@ -421,17 +421,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.bind(var4)(var12);
             var12 = var19.isAndroid;
             var12 = var12.bind(var19)();
-            if(var12) { _fun0001_ip = 1348; continue _fun0001 }
- 1342:
+            if(var12) { _fun0001_ip = 1347; continue _fun0001 }
+ 1341:
             var12 = new Array(0);
-            _fun0001_ip = 1369; continue _fun0001;
- 1348:
+            _fun0001_ip = 1368; continue _fun0001;
+ 1347:
             var19 = var17.shadow;
             var17 = new Array(2);
             var17[0] = var19;
             var17[1] = var18;
             var12 = var17;
- 1369:
+ 1368:
             var44 = var14;
             var43 = var12;
             var42 = var15;
@@ -446,15 +446,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[1] = var8;
             var11 = 'top';
             var6 = var11 === var6;
-            if(!var6) { _fun0001_ip = 1455; continue _fun0001 }
- 1430:
+            if(!var6) { _fun0001_ip = 1454; continue _fun0001 }
+ 1429:
             var9 = _closure1_slot10;
             var8 = _closure1_slot15;
             var7 = {};
             var7['position'] = var11;
             var7['adjustmentX'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 1455:
+ 1454:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

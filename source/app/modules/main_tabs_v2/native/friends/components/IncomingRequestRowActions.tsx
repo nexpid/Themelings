@@ -639,10 +639,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var12.View;
             var12 = {'style': null, 'accessibilityElementsHidden': true, 'importantForAccessibility': 'no-hide-descendants'};
             var14 = null;
-            if(!var21) { _fun0001_ip = 1215; continue _fun0001 }
- 1212:
+            if(!var21) { _fun0001_ip = 1211; continue _fun0001 }
+ 1208:
             var14 = var15;
- 1215:
+ 1211:
             var12['style'] = var14;
             var16 = _closure1_slot5;
             var15 = _closure1_slot1;
@@ -652,10 +652,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var14.View;
             var14 = {};
             var19 = null;
-            if(!var21) { _fun0001_ip = 1257; continue _fun0001 }
- 1254:
+            if(!var21) { _fun0001_ip = 1253; continue _fun0001 }
+ 1250:
             var19 = var20;
- 1257:
+ 1253:
             var14['style'] = var19;
             var18 = function onLayout(arg1) {
                 var1 = arg1;

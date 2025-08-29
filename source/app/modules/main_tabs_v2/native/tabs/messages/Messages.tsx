@@ -989,8 +989,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = _closure1_slot10;
             var14 = _closure1_slot1;
             var16 = _closure1_slot2;
-            if(var11) { _fun0001_ip = 1187; continue _fun0001 }
- 957:
+            if(var11) { _fun0001_ip = 1186; continue _fun0001 }
+ 956:
             var12 = 39;
             var12 = var16[var12];
             var13 = var14.bind(var4)(var12);
@@ -1038,18 +1038,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var17.getSize;
             var12['sectionHeaderSize'] = var17;
             var12 = var15.bind(var4)(var13, var12);
-            _fun0001_ip = 1207; continue _fun0001;
- 1187:
+            _fun0001_ip = 1206; continue _fun0001;
+ 1186:
             var13 = 38;
             var13 = var16[var13];
             var14 = var14.bind(var4)(var13);
             var13 = {};
             var12 = var15.bind(var4)(var14, var13);
- 1207:
+ 1206:
             var8[1] = var12;
             var9 = null;
-            if(var11) { _fun0001_ip = 1248; continue _fun0001 }
- 1216:
+            if(var11) { _fun0001_ip = 1247; continue _fun0001 }
+ 1215:
             var12 = _closure1_slot10;
             var11 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -1058,7 +1058,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var4)(var10);
             var10 = {};
             var9 = var12.bind(var4)(var11, var10);
- 1248:
+ 1247:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

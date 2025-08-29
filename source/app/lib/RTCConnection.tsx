@@ -8462,20 +8462,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = null;
                     var13 = var10 != var9;
                     var9 = 0;
-                    if(!var13) { _fun0112_ip = 145; continue _fun0112 }
- 142:
+                    if(!var13) { _fun0112_ip = 146; continue _fun0112 }
+ 143:
                     var9 = var12;
- 145:
+ 146:
                     var2['countDuringReset'] = var9;
                     var2['firstOccurrence'] = var11;
                     var9 = var3._mlsInitReceivedTime;
                     var10 = var10 != var9;
                     var9 = undefined;
-                    if(!var10) { _fun0112_ip = 180; continue _fun0112 }
- 170:
+                    if(!var10) { _fun0112_ip = 181; continue _fun0112 }
+ 171:
                     var10 = var3._mlsInitReceivedTime;
                     var9 = var11 - var10;
- 180:
+ 181:
                     var2['timeSinceInit'] = var9;
                     var8 = _closure1_slot36;
                     var8 = var8.bind(var1)();
@@ -8536,7 +8536,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = 'time_since_init';
                     var6 = 'event_history';
                     var5 = 'connection_serial';
-                    if(var2) { _fun0113_ip = 415; continue _fun0113 }
+                    if(var2) { _fun0113_ip = 416; continue _fun0113 }
  194:
                     var2 = var4.value;
                     var36 = var2.id;
@@ -8583,7 +8583,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var26.done;
                     var4 = var26;
                     if(!var2) { _fun0113_ip = 194; continue _fun0113 }
- 415:
+ 416:
                     var2 = new Array(0);
                     var3['_mlsFailures'] = var2;
                     return var1;

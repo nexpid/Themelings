@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = arg2;
                     var5 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 326; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 327; continue _fun0001 }
  21:
                     var4 = var5.map;
                     var3 = function(arg1) {
@@ -115,7 +115,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  154:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 323; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 324; continue _fun0001 }
  163:
                     var6 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -129,10 +129,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var3;
  200:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0001_ip = 320; continue _fun0001 }
+                    if(var6) { _fun0001_ip = 321; continue _fun0001 }
  206:
                     var6 = null;
-                    if(!(var6 != var3)) { _fun0001_ip = 267; continue _fun0001 }
+                    if(!(var6 != var3)) { _fun0001_ip = 268; continue _fun0001 }
  212:
                     var7 = _closure1_slot1;
                     var9 = _closure1_slot2;
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6['roleId'] = var8;
                     var6['count'] = var3;
                     var6 = var7.bind(var9)(var6);
- 267:
+ 268:
                     var6 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var5 = 3;
@@ -161,11 +161,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['roleConnectionConfigurations'] = var2;
                     var5 = var6.bind(var7)(var5);
                     return var4;
- 320:
+ 321:
                     return var3;
- 323:
+ 324:
                     return var2;
- 326:
+ 327:
                     return var1;
                 }
             };

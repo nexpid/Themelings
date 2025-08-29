@@ -382,10 +382,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.bind(var4)(var3);
             var3 = var3.bind(var4)(var6);
             var3 = var3.isLoading;
-            if(var3) { _fun0001_ip = 879; continue _fun0001 }
+            if(var3) { _fun0001_ip = 883; continue _fun0001 }
  315:
             var3 = null;
-            if(!(var3 != var5)) { _fun0001_ip = 879; continue _fun0001 }
+            if(!(var3 != var5)) { _fun0001_ip = 883; continue _fun0001 }
  324:
             _closure2_slot6 = var2;
             var5 = _closure1_slot15;
@@ -462,15 +462,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13[var18];
             var13 = var15.bind(var4)(var13);
             var15 = var13.t;
-            if(var11) { _fun0001_ip = 682; continue _fun0001 }
- 667:
+            if(var11) { _fun0001_ip = 686; continue _fun0001 }
+ 671:
             var13 = var15.IuvV5+;
             var13 = var16.bind(var17)(var13);
-            _fun0001_ip = 693; continue _fun0001;
- 682:
+            _fun0001_ip = 697; continue _fun0001;
+ 686:
             var15 = var15.3DzNjY;
             var13 = var16.bind(var17)(var15);
- 693:
+ 697:
             var7['text'] = var13;
             var13 = function onPress() {
                 var3 = _closure1_slot1;
@@ -790,7 +790,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var5.bind(var4)(var3, var2);
             return var2;
- 879:
+ 883:
             var3 = _closure1_slot14;
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;

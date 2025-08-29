@@ -515,13 +515,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = _closure1_slot9;
             var9 = {};
             var17 = _closure1_slot8;
-            if(var6) { _fun0002_ip = 417; continue _fun0002 }
- 409:
+            if(var6) { _fun0002_ip = 416; continue _fun0002 }
+ 408:
             var16 = var17.scrollView;
-            _fun0002_ip = 423; continue _fun0002;
- 417:
+            _fun0002_ip = 422; continue _fun0002;
+ 416:
             var16 = var17.scrollViewScreenReader;
- 423:
+ 422:
             var9['style'] = var16;
             var9['ref'] = var15;
             var9['onScroll'] = var14;
@@ -533,8 +533,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = _closure1_slot11;
             var9['scrollIndicatorInsets'] = var13;
             var14 = !var6;
-            if(!var14) { _fun0002_ip = 526; continue _fun0002 }
- 480:
+            if(!var14) { _fun0002_ip = 525; continue _fun0002 }
+ 479:
             var16 = _closure1_slot5;
             var15 = _closure1_slot1;
             var17 = _closure1_slot2;
@@ -546,19 +546,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var17.blurRegion;
             var13['style'] = var17;
             var14 = var16.bind(var4)(var15, var13);
- 526:
+ 525:
             var13 = new Array(3);
             var13[0] = var14;
             var14 = null;
             var14 = var14 != var18;
-            if(!var14) { _fun0002_ip = 563; continue _fun0002 }
- 543:
+            if(!var14) { _fun0002_ip = 562; continue _fun0002 }
+ 542:
             var17 = _closure1_slot5;
             var16 = _closure1_slot10;
             var15 = {};
             var15['channel'] = var18;
             var14 = var17.bind(var4)(var16, var15);
- 563:
+ 562:
             var13[1] = var14;
             var16 = _closure1_slot5;
             var15 = _closure1_slot0;
@@ -579,8 +579,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var7;
             var6 = !var6;
-            if(!var6) { _fun0002_ip = 700; continue _fun0002 }
- 649:
+            if(!var6) { _fun0002_ip = 699; continue _fun0002 }
+ 648:
             var9 = _closure1_slot5;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -593,7 +593,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.blurRegion;
             var7['style'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 700:
+ 699:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

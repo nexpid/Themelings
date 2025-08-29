@@ -2967,12 +2967,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = _closure2_slot6;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0024_ip = 383; continue _fun0024 }
+                    if(!(var1 != var2)) { _fun0024_ip = 384; continue _fun0024 }
  18:
                     var1 = _closure2_slot6;
                     var2 = var1.length;
                     var1 = 1;
-                    if(!(!(var2 < var1))) { _fun0024_ip = 383; continue _fun0024 }
+                    if(!(!(var2 < var1))) { _fun0024_ip = 384; continue _fun0024 }
  37:
                     var1 = _closure2_slot6;
                     var13 = var1.length;
@@ -3078,7 +3078,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['children'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
- 383:
+ 384:
                     var1 = undefined;
                     return var1;
                 }

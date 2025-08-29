@@ -643,11 +643,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['key'] = var8;
                         var2['emoji'] = var7;
                         var6 = function onDismiss() {
-                            var3 = _closure4_slot0;
-                            var1 = _closure1_slot7;
-                            var2 = var1.UNKNOWN;
+                            var4 = _closure1_slot1;
+                            var3 = _closure1_slot2;
+                            var1 = 17;
+                            var3 = var3[var1];
                             var1 = undefined;
-                            var1 = var3.bind(var1)(var2);
+                            var4 = var4.bind(var1)(var3);
+                            var3 = var4.clearNotification;
+                            var3 = var3.bind(var4)();
+                            var3 = _closure4_slot0;
+                            var2 = _closure1_slot7;
+                            var2 = var2.UNKNOWN;
+                            var2 = var3.bind(var1)(var2);
                             return var1;
                         };
                         var2['onDismiss'] = var6;

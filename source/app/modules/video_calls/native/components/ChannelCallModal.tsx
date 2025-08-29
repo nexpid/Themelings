@@ -394,17 +394,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4[var2];
             var _closure2_slot13 = var2;
             var2 = var14;
-            if(var2) { _fun0005_ip = 455; continue _fun0005 }
- 433:
+            if(var2) { _fun0005_ip = 452; continue _fun0005 }
+ 430:
             var4 = null;
             var4 = var4 != var19;
-            if(!var4) { _fun0005_ip = 452; continue _fun0005 }
- 442:
+            if(!var4) { _fun0005_ip = 449; continue _fun0005 }
+ 439:
             var6 = var19.isGuildStageVoice;
             var4 = var6.bind(var19)();
- 452:
+ 449:
             var2 = var4;
- 455:
+ 452:
             var7 = !var2;
             var4 = {};
             var4['channelId'] = var20;
@@ -742,10 +742,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['width'] = var8;
             var4['translateX'] = var10;
             var3 = !var3;
-            if(!var3) { _fun0005_ip = 944; continue _fun0005 }
- 941:
+            if(!var3) { _fun0005_ip = 941; continue _fun0005 }
+ 938:
             var3 = !var14;
- 944:
+ 941:
             var4['enabled'] = var3;
             var3 = function useSwipeToChatGesture(arg1) {
                 var1 = arg1;
@@ -1087,8 +1087,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var4.bind(var7)(var1, var3);
             var1 = null;
             var3 = var1 == var19;
-            if(var3) { _fun0005_ip = 1484; continue _fun0005 }
- 1241:
+            if(var3) { _fun0005_ip = 1481; continue _fun0005 }
+ 1238:
             var4 = _closure1_slot14;
             var13 = _closure1_slot0;
             var17 = _closure1_slot2;
@@ -1145,7 +1145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1484:
+ 1481:
             return var1;
         }
     };

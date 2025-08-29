@@ -1144,7 +1144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['setTabFocused'] = var7;
-    var4 = function setCardHeight(arg1, arg2) {
+    var7 = function setCardHeight(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
         var1 = 3;
@@ -1162,7 +1162,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var2['setCardHeight'] = var4;
+    var2['setCardHeight'] = var7;
+    var4 = function takeSurvey() {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+ 0:
+            var5 = arguments[0];
+            var1 = undefined;
+            if(!(var5 === var1)) { _fun0011_ip = 26; continue _fun0011 }
+ 9:
+            var2 = global;
+            var3 = var2.Date;
+            var2 = var3.now;
+            var5 = var2.bind(var3)();
+ 26:
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var2 = 3;
+            var2 = var4[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.dispatch;
+            var2 = {};
+            var6 = 'ICYMI_TAKE_SURVEY';
+            var2['type'] = var6;
+            var2['takenAt'] = var5;
+            var2 = var3.bind(var4)(var2);
+            return var1;
+        }
+    };
+    var2['takeSurvey'] = var4;
     var4 = 8;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

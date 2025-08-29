@@ -342,10 +342,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             _closure2_slot13 = var9;
-            if(!(var5 == var1)) { _fun0002_ip = 418; continue _fun0002 }
- 414:
+            if(!(var5 == var1)) { _fun0002_ip = 416; continue _fun0002 }
+ 412:
             var1 = _closure1_slot6;
- 418:
+ 416:
             _closure2_slot14 = var1;
             var16 = function handleClose() {
                 var4 = _closure2_slot11;
