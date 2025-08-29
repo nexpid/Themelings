@@ -295,7 +295,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.getName;
             var2 = var25.user;
             var22 = var3.bind(var4)(var2);
-            _fun0002_ip = 531; continue _fun0002;
+            _fun0002_ip = 530; continue _fun0002;
  462:
             var3 = _closure1_slot0;
             var10 = _closure1_slot2;
@@ -312,7 +312,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var25.mutualFriendsCount;
             var2['count'] = var10;
             var22 = var4.bind(var7)(var3, var2);
- 531:
+ 530:
             var30 = _closure1_slot0;
             var29 = _closure1_slot2;
             var2 = 18;
@@ -443,10 +443,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29 = var30.isAndroid;
             var30 = var29.bind(var30)();
             var29 = 0;
-            if(!var30) { _fun0002_ip = 1003; continue _fun0002 }
- 997:
+            if(!var30) { _fun0002_ip = 1002; continue _fun0002 }
+ 996:
             var29 = -2;
- 1003:
+ 1002:
             var28['marginTop'] = var29;
             var27['style'] = var28;
             var30 = _closure1_slot9;
@@ -464,10 +464,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var35 = var36.isAndroid;
             var35 = var35.bind(var36)();
             var34 = 0;
-            if(!var35) { _fun0002_ip = 1080; continue _fun0002 }
- 1077:
+            if(!var35) { _fun0002_ip = 1079; continue _fun0002 }
+ 1076:
             var34 = 2;
- 1080:
+ 1079:
             var33 = var33 + var34;
             var28['lineHeight'] = var33;
             var21 = var21.messagePreview;
@@ -518,10 +518,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var22.isLayoutCozy;
             var22 = var21.bind(var22)(var6);
             var21 = 'sm';
-            if(!var22) { _fun0002_ip = 1324; continue _fun0002 }
- 1320:
+            if(!var22) { _fun0002_ip = 1323; continue _fun0002 }
+ 1319:
             var21 = 'md';
- 1324:
+ 1323:
             var16['size'] = var21;
             var21 = function onAddSuggestion(arg1) {
                 var4 = _closure1_slot1;

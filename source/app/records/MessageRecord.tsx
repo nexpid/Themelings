@@ -781,7 +781,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = _closure3_slot0;
                         var6 = var7.bind(var8)(var6, var2);
                         var2 = var1;
-                        if(!var6) { _fun0009_ip = 633; continue _fun0009 }
+                        if(!var6) { _fun0009_ip = 631; continue _fun0009 }
  62:
                         var6 = arg2;
                         _closure3_slot4 = var6;
@@ -793,7 +793,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var9.bind(var3)(var6);
                         var6 = var6.ReactionTypes;
                         var6 = var6.BURST;
-                        if(!(var7 !== var6)) { _fun0009_ip = 442; continue _fun0009 }
+                        if(!(var7 !== var6)) { _fun0009_ip = 440; continue _fun0009 }
  112:
                         var6 = _closure3_slot3;
                         var7 = _closure1_slot0;
@@ -802,27 +802,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var7.bind(var3)(var5);
                         var5 = var5.ReactionTypes;
                         var5 = var5.VOTE;
-                        if(!(var6 !== var5)) { _fun0009_ip = 300; continue _fun0009 }
+                        if(!(var6 !== var5)) { _fun0009_ip = 298; continue _fun0009 }
  152:
                         var5 = _closure3_slot1;
                         if(!var5) { _fun0009_ip = 171; continue _fun0009 }
  159:
                         var5 = var1.me_burst;
-                        if(var5) { _fun0009_ip = 298; continue _fun0009 }
+                        if(var5) { _fun0009_ip = 296; continue _fun0009 }
  171:
                         var5 = _closure3_slot1;
                         if(!var5) { _fun0009_ip = 187; continue _fun0009 }
  178:
                         var5 = var1.me;
-                        if(var5) { _fun0009_ip = 202; continue _fun0009 }
+                        if(var5) { _fun0009_ip = 201; continue _fun0009 }
  187:
                         var6 = var1.count;
                         var5 = 1;
                         var8 = var6 + var5;
-                        _fun0009_ip = 208; continue _fun0009;
- 202:
+                        _fun0009_ip = 206; continue _fun0009;
+ 201:
                         var8 = var1.count;
- 208:
+ 206:
                         var5 = {};
                         var11 = var5;
                         var10 = var1;
@@ -840,41 +840,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = _closure3_slot1;
                         var6 = !var6;
                         var7 = !var6;
-                        if(!var6) { _fun0009_ip = 281; continue _fun0009 }
- 275:
+                        if(!var6) { _fun0009_ip = 279; continue _fun0009 }
+ 273:
                         var7 = var1.me;
- 281:
+ 279:
                         var6 = 'me';
                         var5[var6] = var7;
                         var2 = var5;
-                        _fun0009_ip = 633; continue _fun0009;
- 298:
+                        _fun0009_ip = 631; continue _fun0009;
+ 296:
                         return var1;
- 300:
+ 298:
                         var6 = var1.count_details;
                         var5 = null;
                         var7 = var5 == var6;
                         var3 = undefined;
-                        if(var7) { _fun0009_ip = 323; continue _fun0009 }
- 317:
+                        if(var7) { _fun0009_ip = 321; continue _fun0009 }
+ 315:
                         var3 = var6.vote;
- 323:
+ 321:
                         var6 = var5 != var3;
                         var5 = 0;
-                        if(!var6) { _fun0009_ip = 335; continue _fun0009 }
- 332:
+                        if(!var6) { _fun0009_ip = 333; continue _fun0009 }
+ 330:
                         var5 = var3;
- 335:
+ 333:
                         var3 = _closure3_slot1;
-                        if(!var3) { _fun0009_ip = 354; continue _fun0009 }
- 342:
+                        if(!var3) { _fun0009_ip = 352; continue _fun0009 }
+ 340:
                         var3 = var1.me_vote;
                         var7 = var5;
-                        if(var3) { _fun0009_ip = 361; continue _fun0009 }
- 354:
+                        if(var3) { _fun0009_ip = 359; continue _fun0009 }
+ 352:
                         var3 = 1;
                         var7 = var5 + var3;
- 361:
+ 359:
                         var3 = {};
                         var11 = var3;
                         var10 = var1;
@@ -890,48 +890,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = _closure3_slot1;
                         var5 = !var5;
                         var6 = !var5;
-                        if(!var5) { _fun0009_ip = 425; continue _fun0009 }
- 419:
+                        if(!var5) { _fun0009_ip = 423; continue _fun0009 }
+ 417:
                         var6 = var1.me_vote;
- 425:
+ 423:
                         var5 = 'me_vote';
                         var3[var5] = var6;
                         var2 = var3;
-                        _fun0009_ip = 633; continue _fun0009;
- 442:
+                        _fun0009_ip = 631; continue _fun0009;
+ 440:
                         var3 = _closure3_slot1;
-                        if(!var3) { _fun0009_ip = 461; continue _fun0009 }
- 449:
+                        if(!var3) { _fun0009_ip = 459; continue _fun0009 }
+ 447:
                         var3 = var1.me;
-                        if(var3) { _fun0009_ip = 635; continue _fun0009 }
- 461:
+                        if(var3) { _fun0009_ip = 633; continue _fun0009 }
+ 459:
                         var3 = _closure3_slot1;
-                        if(!var3) { _fun0009_ip = 477; continue _fun0009 }
- 468:
+                        if(!var3) { _fun0009_ip = 475; continue _fun0009 }
+ 466:
                         var3 = var1.me_burst;
-                        if(var3) { _fun0009_ip = 492; continue _fun0009 }
- 477:
+                        if(var3) { _fun0009_ip = 490; continue _fun0009 }
+ 475:
                         var5 = var1.burst_count;
                         var3 = 1;
                         var7 = var5 + var3;
-                        _fun0009_ip = 498; continue _fun0009;
- 492:
+                        _fun0009_ip = 496; continue _fun0009;
+ 490:
                         var7 = var1.burst_count;
- 498:
+ 496:
                         var5 = var1.burst_colors;
                         var3 = null;
-                        if(!(var3 != var5)) { _fun0009_ip = 527; continue _fun0009 }
- 510:
+                        if(!(var3 != var5)) { _fun0009_ip = 525; continue _fun0009 }
+ 508:
                         var3 = var1.burst_colors;
                         var5 = var3.length;
                         var3 = 0;
-                        if(!(!(var5 > var3))) { _fun0009_ip = 533; continue _fun0009 }
- 527:
+                        if(!(!(var5 > var3))) { _fun0009_ip = 531; continue _fun0009 }
+ 525:
                         var5 = _closure3_slot2;
-                        _fun0009_ip = 539; continue _fun0009;
- 533:
+                        _fun0009_ip = 537; continue _fun0009;
+ 531:
                         var5 = var1.burst_colors;
- 539:
+ 537:
                         var3 = {};
                         var11 = var3;
                         var10 = var1;
@@ -939,10 +939,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = _closure3_slot1;
                         var4 = !var4;
                         var6 = !var4;
-                        if(!var4) { _fun0009_ip = 570; continue _fun0009 }
- 564:
+                        if(!var4) { _fun0009_ip = 568; continue _fun0009 }
+ 562:
                         var6 = var1.me_burst;
- 570:
+ 568:
                         var4 = 'me_burst';
                         var3[var4] = var6;
                         var4 = 'burst_count';
@@ -958,15 +958,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = 'burst_colors';
                         var3[var4] = var5;
                         var2 = var3;
- 633:
+ 631:
                         return var2;
- 635:
+ 633:
                         return var1;
                     }
                 };
                 var3 = var10.bind(var11)(var3);
                 var1 = _closure3_slot4;
-                if(!(var8 === var1)) { _fun0008_ip = 403; continue _fun0008 }
+                if(!(var8 === var1)) { _fun0008_ip = 391; continue _fun0008 }
  130:
                 var11 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -975,7 +975,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var11.bind(var9)(var8);
                 var8 = var8.ReactionTypes;
                 var8 = var8.BURST;
-                if(!(var2 !== var8)) { _fun0008_ip = 342; continue _fun0008 }
+                if(!(var2 !== var8)) { _fun0008_ip = 334; continue _fun0008 }
  172:
                 var8 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -983,7 +983,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var8.bind(var9)(var1);
                 var1 = var1.ReactionTypes;
                 var1 = var1.VOTE;
-                if(!(var2 !== var1)) { _fun0008_ip = 275; continue _fun0008 }
+                if(!(var2 !== var1)) { _fun0008_ip = 267; continue _fun0008 }
  205:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': null, 'me_burst': false, 'count': 1, 'count_details': null, 'burst_count': 0};
@@ -994,8 +994,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = new Array(0);
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 403; continue _fun0008;
- 275:
+                _fun0008_ip = 391; continue _fun0008;
+ 267:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
                 var1['emoji'] = var7;
@@ -1005,8 +1005,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = new Array(0);
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 403; continue _fun0008;
- 342:
+                _fun0008_ip = 391; continue _fun0008;
+ 334:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': null, 'count': 0, 'count_details': null, 'burst_count': 1};
                 var1['emoji'] = var7;
@@ -1015,7 +1015,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['count_details'] = var6;
                 var1['burst_colors'] = var5;
                 var1 = var2.bind(var3)(var1);
- 403:
+ 391:
                 var2 = var4.set;
                 var1 = 'reactions';
                 var1 = var2.bind(var4)(var1, var3);
@@ -1110,7 +1110,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = _closure3_slot0;
                         var6 = var7.bind(var8)(var6, var1);
                         var1 = var5;
-                        if(!var6) { _fun0011_ip = 531; continue _fun0011 }
+                        if(!var6) { _fun0011_ip = 526; continue _fun0011 }
  62:
                         var7 = _closure3_slot2;
                         var9 = _closure1_slot0;
@@ -1120,7 +1120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var9.bind(var3)(var6);
                         var6 = var6.ReactionTypes;
                         var6 = var6.BURST;
-                        if(!(var7 !== var6)) { _fun0011_ip = 402; continue _fun0011 }
+                        if(!(var7 !== var6)) { _fun0011_ip = 397; continue _fun0011 }
  105:
                         var6 = _closure3_slot2;
                         var7 = _closure1_slot0;
@@ -1129,21 +1129,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var7.bind(var3)(var2);
                         var2 = var2.ReactionTypes;
                         var2 = var2.VOTE;
-                        if(!(var6 !== var2)) { _fun0011_ip = 266; continue _fun0011 }
- 145:
+                        if(!(var6 !== var2)) { _fun0011_ip = 261; continue _fun0011 }
+ 142:
                         var2 = _closure3_slot1;
-                        if(!var2) { _fun0011_ip = 169; continue _fun0011 }
- 152:
+                        if(!var2) { _fun0011_ip = 165; continue _fun0011 }
+ 149:
                         var2 = var5.me;
-                        if(var2) { _fun0011_ip = 169; continue _fun0011 }
- 161:
+                        if(var2) { _fun0011_ip = 165; continue _fun0011 }
+ 158:
                         var8 = var5.count;
-                        _fun0011_ip = 182; continue _fun0011;
- 169:
+                        _fun0011_ip = 177; continue _fun0011;
+ 165:
                         var6 = var5.count;
                         var2 = 1;
                         var8 = var6 - var2;
- 182:
+ 177:
                         var2 = {};
                         var11 = var2;
                         var10 = var5;
@@ -1152,10 +1152,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2[var6] = var8;
                         var6 = _closure3_slot1;
                         var7 = !var6;
-                        if(!var7) { _fun0011_ip = 219; continue _fun0011 }
- 213:
+                        if(!var7) { _fun0011_ip = 214; continue _fun0011 }
+ 208:
                         var7 = var5.me;
- 219:
+ 214:
                         var6 = 'me';
                         var2[var6] = var7;
                         var7 = {};
@@ -1166,32 +1166,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7[var6] = var8;
                         var6 = 'count_details';
                         var2[var6] = var7;
-                        _fun0011_ip = 521; continue _fun0011;
- 266:
+                        _fun0011_ip = 516; continue _fun0011;
+ 261:
                         var7 = var5.count_details;
                         var6 = null;
                         var8 = var6 == var7;
                         var3 = undefined;
-                        if(var8) { _fun0011_ip = 289; continue _fun0011 }
- 283:
+                        if(var8) { _fun0011_ip = 284; continue _fun0011 }
+ 278:
                         var3 = var7.vote;
- 289:
+ 284:
                         var7 = var6 != var3;
                         var6 = 0;
-                        if(!var7) { _fun0011_ip = 301; continue _fun0011 }
- 298:
+                        if(!var7) { _fun0011_ip = 296; continue _fun0011 }
+ 293:
                         var6 = var3;
- 301:
+ 296:
                         var3 = _closure3_slot1;
-                        if(!var3) { _fun0011_ip = 320; continue _fun0011 }
- 308:
+                        if(!var3) { _fun0011_ip = 315; continue _fun0011 }
+ 303:
                         var3 = var5.me_vote;
                         var8 = var6;
-                        if(!var3) { _fun0011_ip = 327; continue _fun0011 }
- 320:
+                        if(!var3) { _fun0011_ip = 322; continue _fun0011 }
+ 315:
                         var3 = 1;
                         var8 = var6 - var3;
- 327:
+ 322:
                         var3 = {};
                         var11 = var3;
                         var10 = var5;
@@ -1206,28 +1206,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3[var6] = var7;
                         var6 = _closure3_slot1;
                         var7 = !var6;
-                        if(!var7) { _fun0011_ip = 388; continue _fun0011 }
- 382:
+                        if(!var7) { _fun0011_ip = 383; continue _fun0011 }
+ 377:
                         var7 = var5.me_vote;
- 388:
+ 383:
                         var6 = 'me_vote';
                         var3[var6] = var7;
                         var2 = var3;
-                        _fun0011_ip = 521; continue _fun0011;
- 402:
+                        _fun0011_ip = 516; continue _fun0011;
+ 397:
                         var3 = _closure3_slot1;
-                        if(!var3) { _fun0011_ip = 426; continue _fun0011 }
- 409:
+                        if(!var3) { _fun0011_ip = 421; continue _fun0011 }
+ 404:
                         var3 = var5.me_burst;
-                        if(var3) { _fun0011_ip = 426; continue _fun0011 }
- 418:
+                        if(var3) { _fun0011_ip = 421; continue _fun0011 }
+ 413:
                         var7 = var5.burst_count;
-                        _fun0011_ip = 439; continue _fun0011;
- 426:
+                        _fun0011_ip = 434; continue _fun0011;
+ 421:
                         var6 = var5.burst_count;
                         var3 = 1;
                         var7 = var6 - var3;
- 439:
+ 434:
                         var3 = {};
                         var11 = var3;
                         var10 = var5;
@@ -1236,10 +1236,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3[var6] = var7;
                         var6 = _closure3_slot1;
                         var8 = !var6;
-                        if(!var8) { _fun0011_ip = 476; continue _fun0011 }
- 470:
+                        if(!var8) { _fun0011_ip = 471; continue _fun0011 }
+ 465:
                         var8 = var5.me_burst;
- 476:
+ 471:
                         var6 = 'me_burst';
                         var3[var6] = var8;
                         var6 = {};
@@ -1251,11 +1251,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = 'count_details';
                         var3[var5] = var6;
                         var2 = var3;
- 521:
+ 516:
                         var3 = arg2;
                         _closure3_slot3 = var3;
                         var1 = var2;
- 531:
+ 526:
                         return var1;
                     }
                 };
@@ -1272,70 +1272,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var6.count_details;
                 var6 = var5 == var12;
                 var7 = undefined;
-                if(var6) { _fun0010_ip = 153; continue _fun0010 }
- 147:
+                if(var6) { _fun0010_ip = 152; continue _fun0010 }
+ 146:
                 var7 = var12.normal;
- 153:
+ 152:
                 var13 = var5 != var7;
                 var6 = 0;
                 var8 = 0;
-                if(!var13) { _fun0010_ip = 167; continue _fun0010 }
- 164:
+                if(!var13) { _fun0010_ip = 166; continue _fun0010 }
+ 163:
                 var8 = var7;
- 167:
+ 166:
                 var7 = var5 == var12;
                 var13 = undefined;
-                if(var7) { _fun0010_ip = 182; continue _fun0010 }
- 176:
+                if(var7) { _fun0010_ip = 181; continue _fun0010 }
+ 175:
                 var13 = var12.burst;
- 182:
+ 181:
                 var14 = var5 != var13;
                 var7 = 0;
-                if(!var14) { _fun0010_ip = 194; continue _fun0010 }
- 191:
+                if(!var14) { _fun0010_ip = 193; continue _fun0010 }
+ 190:
                 var7 = var13;
- 194:
+ 193:
                 var13 = var5 == var12;
                 var2 = undefined;
-                if(var13) { _fun0010_ip = 209; continue _fun0010 }
- 203:
+                if(var13) { _fun0010_ip = 208; continue _fun0010 }
+ 202:
                 var2 = var12.vote;
- 209:
+ 208:
                 var12 = var5 != var2;
                 var5 = 0;
-                if(!var12) { _fun0010_ip = 221; continue _fun0010 }
- 218:
+                if(!var12) { _fun0010_ip = 220; continue _fun0010 }
+ 217:
                 var5 = var2;
- 221:
+ 220:
                 var2 = _closure3_slot3;
                 var2 = var11 !== var2;
-                if(!var2) { _fun0010_ip = 236; continue _fun0010 }
- 232:
+                if(!var2) { _fun0010_ip = 235; continue _fun0010 }
+ 231:
                 var2 = var10 <= var6;
- 236:
-                if(!var2) { _fun0010_ip = 243; continue _fun0010 }
- 239:
+ 235:
+                if(!var2) { _fun0010_ip = 242; continue _fun0010 }
+ 238:
                 var2 = var9 <= var6;
- 243:
-                if(!var2) { _fun0010_ip = 250; continue _fun0010 }
- 246:
+ 242:
+                if(!var2) { _fun0010_ip = 249; continue _fun0010 }
+ 245:
                 var2 = var8 <= var6;
- 250:
-                if(!var2) { _fun0010_ip = 257; continue _fun0010 }
- 253:
+ 249:
+                if(!var2) { _fun0010_ip = 256; continue _fun0010 }
+ 252:
                 var2 = var7 <= var6;
- 257:
-                if(!var2) { _fun0010_ip = 264; continue _fun0010 }
- 260:
+ 256:
+                if(!var2) { _fun0010_ip = 263; continue _fun0010 }
+ 259:
                 var2 = var5 <= var6;
- 264:
-                if(!var2) { _fun0010_ip = 286; continue _fun0010 }
- 267:
+ 263:
+                if(!var2) { _fun0010_ip = 285; continue _fun0010 }
+ 266:
                 var5 = var3.splice;
                 var2 = _closure3_slot3;
                 var1 = 1;
                 var1 = var5.bind(var3)(var2, var1);
- 286:
+ 285:
                 var2 = var4.set;
                 var1 = 'reactions';
                 var1 = var2.bind(var4)(var1, var3);

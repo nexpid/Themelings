@@ -3525,17 +3525,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var2.query;
                 var8 = var2.count;
                 var13 = undefined;
-                if(!(var8 === var13)) { _fun0065_ip = 37; continue _fun0065 }
- 35:
+                if(!(var8 === var13)) { _fun0065_ip = 36; continue _fun0065 }
+ 34:
                 var8 = 0;
- 37:
+ 36:
                 var5 = var2.intention;
                 var _closure3_slot1 = var5;
                 var3 = var2.includeExternalGuilds;
-                if(!(var3 === var13)) { _fun0065_ip = 59; continue _fun0065 }
- 57:
+                if(!(var3 === var13)) { _fun0065_ip = 58; continue _fun0065 }
+ 56:
                 var3 = true;
- 59:
+ 58:
                 var _closure3_slot2 = var3;
                 var4 = var2.matchComparator;
                 var2 = var2.showOnlyUnicode;
@@ -3557,8 +3557,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var9.escape;
                 var11 = var3.bind(var9)(var11);
                 var9 = null;
-                if(!(var9 == var4)) { _fun0065_ip = 228; continue _fun0065 }
- 171:
+                if(!(var9 == var4)) { _fun0065_ip = 227; continue _fun0065 }
+ 170:
                 var3 = global;
                 var13 = var3.RegExp;
                 var3 = var3.HermesInternal;
@@ -3582,14 +3582,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.bind(var3)(var1);
                     return var1;
                 };
- 228:
+ 227:
                 var3 = var9 != var10;
                 var9 = null;
-                if(!var3) { _fun0065_ip = 247; continue _fun0065 }
- 237:
+                if(!var3) { _fun0065_ip = 246; continue _fun0065 }
+ 236:
                 var3 = var10.getGuildId;
                 var9 = var3.bind(var10)();
- 247:
+ 246:
                 var3 = _closure1_slot40;
                 var2 = var3.get;
                 var3 = var2.bind(var3)(var9);

@@ -355,7 +355,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var4.getCurrentIndex;
                         var5 = var1.bind(var4)();
                         var4 = _closure3_slot0;
-                        if(!(var5 !== var4)) { _fun0003_ip = 182; continue _fun0003 }
+                        if(!(var5 !== var4)) { _fun0003_ip = 181; continue _fun0003 }
  54:
                         var4 = _closure3_slot0;
                         if(!(var5 !== var4)) { _fun0003_ip = 105; continue _fun0003 }
@@ -396,7 +396,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3['count'] = var6;
                         var3 = var4.bind(var5)(var3);
                         return var3;
- 182:
+ 181:
                         var3 = _closure2_slot5;
                         var2 = _closure3_slot0;
                         var1 = undefined;

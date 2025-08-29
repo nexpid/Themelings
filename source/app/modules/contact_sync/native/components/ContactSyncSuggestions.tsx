@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[0] = var10;
             var10 = var18.mutual_friends_count;
             var10 = var13 != var10;
-            if(!var10) { _fun0001_ip = 450; continue _fun0001 }
+            if(!var10) { _fun0001_ip = 449; continue _fun0001 }
  343:
             var13 = _closure1_slot8;
             var15 = _closure1_slot0;
@@ -277,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var16.bind(var17)(var15, var14);
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 450:
+ 449:
             var9[1] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

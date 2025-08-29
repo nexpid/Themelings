@@ -3,9 +3,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
+    var _closure1_slot0 = var5;
     var1 = metroImportDefault;
-    var _closure1_slot0 = var1;
-    var _closure1_slot1 = var6;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -17,28 +18,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = 0;
     var4 = var6[var1];
     var1 = undefined;
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createExperiment;
-    var4 = {'kind': 'user', 'id': '2023-08_remix_ga', 'label': 'Remix General Available'};
-    var9 = {'canSeeRemixBadge': false, 'canRemix': false, 'isNitroPerk': false};
-    var4['defaultConfig'] = var9;
-    var10 = {'id': 1, 'label': 'Remix for Nitro Subscribers'};
-    var9 = {'canSeeRemixBadge': true, 'canRemix': true, 'isNitroPerk': true};
-    var10['config'] = var9;
-    var9 = new Array(3);
-    var9[0] = var10;
-    var10 = {'id': 3, 'label': 'Upsell Remix for Non-Nitro Users'};
-    var11 = {'canSeeRemixBadge': true, 'canRemix': false, 'isNitroPerk': true};
-    var10['config'] = var11;
-    var9[1] = var10;
-    var10 = {'id': 5, 'label': 'Remix GA for everyone'};
-    var11 = {'canSeeRemixBadge': true, 'canRemix': true, 'isNitroPerk': false};
-    var10['config'] = var11;
-    var9[2] = var10;
-    var4['treatments'] = var9;
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot2 = var4;
-    var4 = 2;
+    var9 = var5.bind(var1)(var4);
+    var8 = var9.createExperiment;
+    var7 = {'kind': 'user', 'id': '2023-08_remix_ga', 'label': 'Remix General Available'};
+    var4 = {'canSeeRemixBadge': false, 'canRemix': false, 'isNitroPerk': false};
+    var7['defaultConfig'] = var4;
+    var4 = {'id': 1, 'label': 'Remix for Nitro Subscribers'};
+    var10 = {'canSeeRemixBadge': true, 'canRemix': true, 'isNitroPerk': true};
+    var4['config'] = var10;
+    var10 = new Array(3);
+    var10[0] = var4;
+    var11 = {'id': 3, 'label': 'Upsell Remix for Non-Nitro Users'};
+    var4 = 3;
+    var12 = {'canSeeRemixBadge': true, 'canRemix': false, 'isNitroPerk': true};
+    var11['config'] = var12;
+    var10[1] = var11;
+    var11 = {'id': 5, 'label': 'Remix GA for everyone'};
+    var12 = {'canSeeRemixBadge': true, 'canRemix': true, 'isNitroPerk': false};
+    var11['config'] = var12;
+    var10[2] = var11;
+    var7['treatments'] = var10;
+    var7 = var8.bind(var9)(var7);
+    var _closure1_slot3 = var7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -48,131 +49,217 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var5 = arg1;
-            var7 = {};
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var2 = 1;
-            var2 = var3[var2];
-            var3 = undefined;
-            var2 = var4.bind(var3)(var2);
-            var2 = var2.bind(var3)();
-            var2 = var2.analyticsLocations;
-            var7['analyticsLocations'] = var2;
+            var6 = {};
+            var2 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 1;
+            var1 = var4[var1];
+            var4 = undefined;
+            var1 = var2.bind(var4)(var1);
+            var1 = var1.bind(var4)();
+            var1 = var1.analyticsLocations;
+            var6['analyticsLocations'] = var1;
             if(!var5) { _fun0001_ip = 66; continue _fun0001 }
  48:
-            var2 = {};
-            var4 = new Array(1);
-            var4[0] = var5;
-            var2['analyticsLocations'] = var4;
-            var7 = var2;
- 66:
-            var2 = global;
-            var2 = var2.Boolean;
-            var6 = _closure1_slot2;
-            var5 = var6.useExperiment;
-            var4 = {};
-            var1 = 'canRemixHook';
-            var4['location'] = var1;
             var1 = {};
-            var8 = true;
-            var1['autoTrackExposure'] = var8;
-            var1['trackExposureOptions'] = var7;
-            var1 = var5.bind(var6)(var4, var1);
-            var1 = var1.canRemix;
-            var1 = var2.bind(var3)(var1);
+            var2 = new Array(1);
+            var2[0] = var5;
+            var1['analyticsLocations'] = var2;
+            var6 = var1;
+ 66:
+            var2 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var1 = 2;
+            var1 = var5[var1];
+            var5 = var2.bind(var4)(var1);
+            var4 = var5.useIsRemixEnabled;
+            var1 = {};
+            var2 = 'canRemixHook';
+            var1['location'] = var2;
+            var1 = var4.bind(var5)(var1);
+            var5 = _closure1_slot3;
+            var4 = var5.useExperiment;
+            var3 = {};
+            var3['location'] = var2;
+            var2 = {};
+            var7 = true;
+            var2['autoTrackExposure'] = var7;
+            var2['trackExposureOptions'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            var2 = var2.canRemix;
+            if(!var1) { _fun0001_ip = 157; continue _fun0001 }
+ 154:
+            var1 = var2;
+ 157:
             return var1;
         }
     };
     var3['useCanRemix'] = var4;
     var4 = function canRemix() {
-        var4 = _closure1_slot2;
-        var3 = var4.getCurrentConfig;
-        var2 = {};
-        var1 = 'canRemix';
-        var2['location'] = var1;
-        var1 = {};
-        var5 = true;
-        var1['autoTrackExposure'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        var1 = var1.canRemix;
-        return var1;
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var4.bind(var1)(var2);
+            var4 = var5.isRemixEnabled;
+            var2 = {};
+            var1 = 'canRemix';
+            var2['location'] = var1;
+            var2 = var4.bind(var5)(var2);
+            var5 = _closure1_slot3;
+            var4 = var5.getCurrentConfig;
+            var3 = {};
+            var3['location'] = var1;
+            var1 = {};
+            var6 = true;
+            var1['autoTrackExposure'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            var1 = var1.canRemix;
+            if(!var1) { _fun0002_ip = 89; continue _fun0002 }
+ 86:
+            var1 = var2;
+ 89:
+            return var1;
+        }
     };
     var3['canRemix'] = var4;
     var4 = function canSeeRemixBadge() {
-        var4 = _closure1_slot2;
-        var3 = var4.getCurrentConfig;
-        var2 = {};
-        var1 = 'canSeeRemixBadge';
-        var2['location'] = var1;
-        var1 = {};
-        var5 = true;
-        var1['autoTrackExposure'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        var1 = var1.canSeeRemixBadge;
-        return var1;
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var4.bind(var1)(var2);
+            var4 = var5.isRemixEnabled;
+            var2 = {};
+            var1 = 'canSeeRemixBadge';
+            var2['location'] = var1;
+            var2 = var4.bind(var5)(var2);
+            var5 = _closure1_slot3;
+            var4 = var5.getCurrentConfig;
+            var3 = {};
+            var3['location'] = var1;
+            var1 = {};
+            var6 = true;
+            var1['autoTrackExposure'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            var1 = var1.canSeeRemixBadge;
+            if(!var1) { _fun0003_ip = 89; continue _fun0003 }
+ 86:
+            var1 = var2;
+ 89:
+            return var1;
+        }
     };
     var3['canSeeRemixBadge'] = var4;
     var4 = function useCanSeeRemixBadge() {
-        var4 = _closure1_slot2;
-        var3 = var4.useExperiment;
-        var2 = {};
-        var1 = 'canSeeRemixBadge';
-        var2['location'] = var1;
-        var1 = {};
-        var5 = true;
-        var1['autoTrackExposure'] = var5;
-        var1 = var3.bind(var4)(var2, var1);
-        var1 = var1.canSeeRemixBadge;
-        return var1;
+        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var4.bind(var1)(var2);
+            var4 = var5.useIsRemixEnabled;
+            var2 = {};
+            var1 = 'canSeeRemixBadge';
+            var2['location'] = var1;
+            var2 = var4.bind(var5)(var2);
+            var5 = _closure1_slot3;
+            var4 = var5.useExperiment;
+            var3 = {};
+            var3['location'] = var1;
+            var1 = {};
+            var6 = true;
+            var1['autoTrackExposure'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            var1 = var1.canSeeRemixBadge;
+            if(!var1) { _fun0004_ip = 89; continue _fun0004 }
+ 86:
+            var1 = var2;
+ 89:
+            return var1;
+        }
     };
     var3['useCanSeeRemixBadge'] = var4;
     var4 = function useIsRemixANitroPerk() {
-        var1 = global;
-        var3 = var1.Boolean;
-        var5 = _closure1_slot2;
-        var4 = var5.useExperiment;
-        var2 = {};
-        var1 = 'isRemixANitroPerkHook';
-        var2['location'] = var1;
-        var1 = {};
-        var6 = true;
-        var1['autoTrackExposure'] = var6;
-        var1 = var4.bind(var5)(var2, var1);
-        var2 = var1.isNitroPerk;
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        return var1;
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+            var4 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 2;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var4.bind(var1)(var2);
+            var4 = var5.useIsRemixEnabled;
+            var2 = {};
+            var1 = 'isRemixANitroPerkHook';
+            var2['location'] = var1;
+            var2 = var4.bind(var5)(var2);
+            var5 = _closure1_slot3;
+            var4 = var5.useExperiment;
+            var3 = {};
+            var3['location'] = var1;
+            var1 = {};
+            var6 = true;
+            var1['autoTrackExposure'] = var6;
+            var1 = var4.bind(var5)(var3, var1);
+            var1 = var1.isNitroPerk;
+            if(!var1) { _fun0005_ip = 91; continue _fun0005 }
+ 88:
+            var1 = var2;
+ 91:
+            return var1;
+        }
     };
     var3['useIsRemixANitroPerk'] = var4;
     var2 = function useShouldUpsellRemix() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
-            var5 = arguments[0];
-            var6 = arguments[1];
-            var1 = undefined;
-            if(!(var5 === var1)) { _fun0002_ip = 14; continue _fun0002 }
+            var8 = arguments[0];
+            var9 = arguments[1];
+            var4 = undefined;
+            if(!(var8 === var4)) { _fun0006_ip = 14; continue _fun0006 }
  12:
-            var5 = {};
+            var8 = {};
  14:
-            if(!(var6 === var1)) { _fun0002_ip = 20; continue _fun0002 }
+            if(!(var9 === var4)) { _fun0006_ip = 20; continue _fun0006 }
  18:
-            var6 = true;
+            var9 = true;
  20:
-            var4 = _closure1_slot2;
-            var3 = var4.useExperiment;
+            var7 = _closure1_slot3;
+            var6 = var7.useExperiment;
+            var3 = {};
+            var5 = 'useShouldUpsellRemixHook';
+            var3['location'] = var5;
             var2 = {};
-            var1 = 'useShouldUpsellRemixHook';
-            var2['location'] = var1;
+            var2['autoTrackExposure'] = var9;
+            var2['trackExposureOptions'] = var8;
+            var2 = var6.bind(var7)(var3, var2);
+            var3 = _closure1_slot0;
+            var6 = _closure1_slot2;
+            var1 = 2;
+            var1 = var6[var1];
+            var4 = var3.bind(var4)(var1);
+            var3 = var4.useIsRemixEnabled;
             var1 = {};
-            var1['autoTrackExposure'] = var6;
-            var1['trackExposureOptions'] = var5;
-            var2 = var3.bind(var4)(var2, var1);
-            var1 = var2.canRemix;
-            var1 = !var1;
-            if(!var1) { _fun0002_ip = 81; continue _fun0002 }
- 75:
+            var1['location'] = var5;
+            var1 = var3.bind(var4)(var1);
+            if(!var1) { _fun0006_ip = 112; continue _fun0006 }
+ 103:
+            var3 = var2.canRemix;
+            var1 = !var3;
+ 112:
+            if(!var1) { _fun0006_ip = 121; continue _fun0006 }
+ 115:
             var1 = var2.isNitroPerk;
- 81:
+ 121:
             return var1;
         }
     };

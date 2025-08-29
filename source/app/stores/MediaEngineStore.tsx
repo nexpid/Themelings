@@ -2509,17 +2509,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = arg1;
                         var2 = var4.taskMetrics;
                         var1 = null;
-                        if(!(var1 != var2)) { _fun0023_ip = 421; continue _fun0023 }
+                        if(!(var1 != var2)) { _fun0023_ip = 425; continue _fun0023 }
  20:
                         var2 = var4.taskMetrics;
                         var2 = var2.length;
                         var14 = 0;
-                        if(!(var14 !== var2)) { _fun0023_ip = 421; continue _fun0023 }
+                        if(!(var14 !== var2)) { _fun0023_ip = 425; continue _fun0023 }
  40:
                         var2 = var4.taskMetrics;
                         var5 = var2.length;
                         var2 = 1;
-                        if(!(var2 !== var5)) { _fun0023_ip = 419; continue _fun0023 }
+                        if(!(var2 !== var5)) { _fun0023_ip = 423; continue _fun0023 }
  61:
                         var2 = {'metrics_period_ms': null, 'total_tasks': 0, 'total_exec_time_ns': 0};
                         var5 = var4.periodMs;
@@ -2583,10 +2583,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var13 = 'slow_task_';
                         var12 = '_longest_exec_time_ns';
                         var11 = 0;
- 244:
+ 248:
                         var4 = var5.length;
-                        if(!(var11 < var4)) { _fun0023_ip = 310; continue _fun0023 }
- 253:
+                        if(!(var11 < var4)) { _fun0023_ip = 314; continue _fun0023 }
+ 257:
                         var4 = var5[var11];
                         var15 = var3.HermesInternal;
                         var15 = var15.concat;
@@ -2598,14 +2598,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var15 = var15.bind(var13)(var11, var12);
                         var4 = var4.longestExecTimeNs;
                         var2[var15] = var4;
- 310:
+ 314:
                         var11 = var11 + 1;
                         var4 = 0;
-                        if(var11 < var9) { _fun0023_ip = 244; continue _fun0023 }
- 319:
+                        if(var11 < var9) { _fun0023_ip = 248; continue _fun0023 }
+ 323:
                         var11 = var10.length;
-                        if(!(var4 < var11)) { _fun0023_ip = 385; continue _fun0023 }
- 328:
+                        if(!(var4 < var11)) { _fun0023_ip = 389; continue _fun0023 }
+ 332:
                         var11 = var10[var4];
                         var12 = var3.HermesInternal;
                         var12 = var12.concat;
@@ -2617,18 +2617,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var12 = var12.bind(var8)(var4, var6);
                         var11 = var11.longestQueueTimeNs;
                         var2[var12] = var11;
- 385:
+ 389:
                         var4 = var4 + 1;
-                        if(var4 < var9) { _fun0023_ip = 319; continue _fun0023 }
- 392:
+                        if(var4 < var9) { _fun0023_ip = 323; continue _fun0023 }
+ 396:
                         var4 = var3.JSON;
                         var3 = var4.stringify;
                         var3 = var3.bind(var4)(var5);
                         var2['full_task_report'] = var3;
                         return var2;
- 419:
+ 423:
                         return var1;
- 421:
+ 425:
                         return var1;
                     }
                 };

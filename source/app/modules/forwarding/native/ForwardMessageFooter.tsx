@@ -183,12 +183,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var23.length;
             var1 = var1 > var2;
             var6 = undefined;
-            if(!var1) { _fun0001_ip = 512; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 511; continue _fun0001 }
  405:
             var1 = var16.length;
             var1 = var1 > var2;
             var6 = undefined;
-            if(!var1) { _fun0001_ip = 512; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 511; continue _fun0001 }
  419:
             var2 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -209,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var22.bind(var23)(var9);
             var1['channelNames'] = var9;
             var6 = var3.bind(var8)(var2, var1);
- 512:
+ 511:
             var3 = _closure1_slot7;
             var2 = _closure1_slot1;
             var22 = _closure1_slot2;
@@ -237,10 +237,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = !var20;
             var8['disabled'] = var20;
             var20 = undefined;
-            if(var19) { _fun0001_ip = 637; continue _fun0001 }
- 634:
+            if(var19) { _fun0001_ip = 636; continue _fun0001 }
+ 633:
             var20 = var10;
- 637:
+ 636:
             var8['onPress'] = var20;
             var8['loading'] = var19;
             var8 = var3.bind(var4)(var9, var8);

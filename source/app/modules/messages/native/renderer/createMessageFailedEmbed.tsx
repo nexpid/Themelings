@@ -67,9 +67,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['disableBackgroundColor'] = var3;
             var3 = var5.failedMessageBodyTextColor;
             var1['bodyTextColor'] = var3;
-            _fun0001_ip = 533; continue _fun0001;
+            _fun0001_ip = 532; continue _fun0001;
  145:
-            if(var2) { _fun0001_ip = 369; continue _fun0001 }
+            if(var2) { _fun0001_ip = 368; continue _fun0001 }
  151:
             var2 = {};
             var3 = _closure1_slot4;
@@ -98,8 +98,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var4.currentSize;
             var3 = '';
             var7 = 0;
-            if(!(var7 !== var9)) { _fun0001_ip = 343; continue _fun0001 }
- 277:
+            if(!(var7 !== var9)) { _fun0001_ip = 342; continue _fun0001 }
+ 276:
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
             var6 = 6;
@@ -114,13 +114,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = ' (';
             var4 = ')';
             var3 = var7.bind(var6)(var8, var4);
- 343:
+ 342:
             var3 = '' + var3;
             var2['attachmentsSize'] = var3;
             var3 = var5.embedBodyTextColor;
             var2['bodyTextColor'] = var3;
-            _fun0001_ip = 530; continue _fun0001;
- 369:
+            _fun0001_ip = 529; continue _fun0001;
+ 368:
             var3 = {};
             var6 = _closure1_slot4;
             var6 = var6.TEXT;
@@ -157,9 +157,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var6)(var4);
             var3['iconURL'] = var4;
             var2 = var3;
- 530:
+ 529:
             var1 = var2;
- 533:
+ 532:
             return var1;
         }
     };

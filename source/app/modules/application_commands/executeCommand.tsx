@@ -2682,7 +2682,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = arg1;
                     var2 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0011_ip = 481; continue _fun0011 }
+                    if(var3) { _fun0011_ip = 480; continue _fun0011 }
  18:
                     var14 = var8;
                     var7 = var2;
@@ -2757,7 +2757,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  111:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(var8) { _fun0011_ip = 478; continue _fun0011 }
+                    if(var8) { _fun0011_ip = 477; continue _fun0011 }
  120:
                     var11 = var2.totalSize;
                     var9 = var2.largestUploadedFileSize;
@@ -2767,7 +2767,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var15.max;
                     var8 = _closure1_slot15;
                     var8 = var13.bind(var15)(var16, var8);
-                    if(!(!(var9 > var8))) { _fun0011_ip = 470; continue _fun0011 }
+                    if(!(!(var9 > var8))) { _fun0011_ip = 469; continue _fun0011 }
  165:
                     var9 = var11;
                     var15 = _closure1_slot0;
@@ -2776,7 +2776,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8[var13];
                     var8 = var15.bind(var6)(var8);
                     var8 = var8.MAX_TOTAL_ATTACHMENT_SIZE;
-                    if(!(!(var9 > var8))) { _fun0011_ip = 470; continue _fun0011 }
+                    if(!(!(var9 > var8))) { _fun0011_ip = 469; continue _fun0011 }
  201: // try_start_0
                     var9 = _closure1_slot1;
                     var15 = _closure1_slot3;
@@ -2792,7 +2792,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
                     if(var9) { _fun0011_ip = 241; continue _fun0011 }
  239: // try_end0
-                    _fun0011_ip = 351; continue _fun0011;
+                    _fun0011_ip = 350; continue _fun0011;
  241:
                     return var8;
  244: // catch_target0
@@ -2820,18 +2820,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7['count'] = var19;
                     var7 = var17.bind(var18)(var16, var7);
                     var7 = var9.bind(var15)(var8, var6, var7);
- 351:
+ 350:
                     var9 = _closure1_slot25;
                     var8 = var14;
                     var7 = true;
                     var7 = var9.bind(var6)(var8, var7);
-                    SaveGenerator(address=370);
- 368:
+                    SaveGenerator(address=369);
+ 367:
                     return var7;
- 370:
+ 369:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(var8) { _fun0011_ip = 467; continue _fun0011 }
- 376:
+                    if(var8) { _fun0011_ip = 466; continue _fun0011 }
+ 375:
                     var11 = var7.totalSize;
                     var4 = var7.largestUploadedFileSize;
                     var15 = var14;
@@ -2846,33 +2846,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var12 = var14.bind(var15)(var12);
                     var9 = var12;
-                    if(var12) { _fun0011_ip = 442; continue _fun0011 }
- 415:
+                    if(var12) { _fun0011_ip = 441; continue _fun0011 }
+ 414:
                     var12 = _closure1_slot0;
                     var10 = _closure1_slot3;
                     var10 = var10[var13];
                     var10 = var12.bind(var6)(var10);
                     var10 = var10.MAX_TOTAL_ATTACHMENT_SIZE;
                     var9 = var11 > var10;
- 442:
+ 441:
                     var9 = !var9;
                     var8 = var9;
-                    if(var9) { _fun0011_ip = 464; continue _fun0011 }
- 451:
+                    if(var9) { _fun0011_ip = 463; continue _fun0011 }
+ 450:
                     var10 = var5;
                     var9 = var4;
                     var9 = var10.bind(var6)(var9);
                     var8 = false;
- 464:
+ 463:
                     return var8;
- 467:
+ 466:
                     return var7;
- 470:
+ 469:
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 478:
+ 477:
                     return var2;
- 481:
+ 480:
                     return var1;
                 }
             };

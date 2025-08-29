@@ -1242,15 +1242,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2[var28];
             var2 = var22.bind(var15)(var2);
             var2 = var2.t;
-            if(var18) { _fun0008_ip = 949; continue _fun0008 }
- 934:
+            if(var18) { _fun0008_ip = 948; continue _fun0008 }
+ 933:
             var18 = var2.cHfFqq;
             var18 = var3.bind(var9)(var18);
-            _fun0008_ip = 962; continue _fun0008;
- 949:
+            _fun0008_ip = 961; continue _fun0008;
+ 948:
             var2 = var2.PVATMz;
             var18 = var3.bind(var9)(var2);
- 962:
+ 961:
             _closure2_slot15 = var18;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -1318,17 +1318,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var3.bind(var9)(var2);
             var2 = undefined;
-            if(!var11) { _fun0008_ip = 1179; continue _fun0008 }
- 1087:
+            if(!var11) { _fun0008_ip = 1178; continue _fun0008 }
+ 1086:
             var2 = undefined;
-            if(var5) { _fun0008_ip = 1179; continue _fun0008 }
- 1092:
+            if(var5) { _fun0008_ip = 1178; continue _fun0008 }
+ 1091:
             var2 = undefined;
-            if(var6) { _fun0008_ip = 1179; continue _fun0008 }
- 1097:
+            if(var6) { _fun0008_ip = 1178; continue _fun0008 }
+ 1096:
             var2 = undefined;
-            if(var1) { _fun0008_ip = 1179; continue _fun0008 }
- 1102:
+            if(var1) { _fun0008_ip = 1178; continue _fun0008 }
+ 1101:
             var1 = {'label': null, 'presentation': 'textButton', 'enabled': true, 'type': 'showVotes'};
             var26 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -1343,7 +1343,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var21.bind(var22)(var9);
             var1['label'] = var9;
             var2 = var1;
- 1179:
+ 1178:
             var9 = var27.allow_multiselect;
             var22 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -1486,10 +1486,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var14.bind(var20)();
             var1['answersInteraction'] = var14;
             var14 = undefined;
-            if(!var19) { _fun0008_ip = 1501; continue _fun0008 }
- 1498:
+            if(!var19) { _fun0008_ip = 1500; continue _fun0008 }
+ 1497:
             var14 = var18;
- 1501:
+ 1500:
             var1['answerTapAccessibilityLabel'] = var14;
             var1['layoutType'] = var16;
             var14 = _closure1_slot1;

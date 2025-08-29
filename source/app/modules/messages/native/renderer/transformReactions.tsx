@@ -49,7 +49,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  50:
                 var1 = var2.vote;
  56:
-                if(!(var10 == var1)) { _fun0001_ip = 478; continue _fun0001 }
+                if(!(var10 == var1)) { _fun0001_ip = 477; continue _fun0001 }
  63:
                 var7 = _closure2_slot0;
                 if(!var7) { _fun0001_ip = 79; continue _fun0001 }
@@ -96,18 +96,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = var3;
                 var8 = var18[var12](var17, var16, var15, var14, var13);
                 var1 = var3.id;
-                if(!(var10 != var1)) { _fun0001_ip = 282; continue _fun0001 }
- 253:
+                if(!(var10 != var1)) { _fun0001_ip = 281; continue _fun0001 }
+ 252:
                 var11 = var3.id;
                 var1 = global;
                 var1 = var1.HermesInternal;
                 var10 = var1.concat;
                 var1 = '';
                 var10 = var10.bind(var1)(var11);
-                _fun0001_ip = 287; continue _fun0001;
- 282:
+                _fun0001_ip = 286; continue _fun0001;
+ 281:
                 var10 = var3.id;
- 287:
+ 286:
                 var1 = {};
                 var17 = var1;
                 var16 = var6;
@@ -131,12 +131,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var7.isArray;
                 var3 = var1.burst_colors;
                 var3 = var6.bind(var7)(var3);
-                if(!var3) { _fun0001_ip = 476; continue _fun0001 }
- 383:
+                if(!var3) { _fun0001_ip = 475; continue _fun0001 }
+ 382:
                 var3 = var1.burst_colors;
                 var3 = var3.length;
-                if(!(var3 > var5)) { _fun0001_ip = 476; continue _fun0001 }
- 398:
+                if(!(var3 > var5)) { _fun0001_ip = 475; continue _fun0001 }
+ 397:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var2 = 3;
@@ -154,9 +154,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['shouldProcessMobileColors'] = var5;
                 var2 = var3.bind(var4)(var2);
                 var1['themedBurstColors'] = var2;
- 476:
+ 475:
                 return var1;
- 478:
+ 477:
                 var1 = new Array(0);
                 return var1;
             }

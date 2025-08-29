@@ -607,8 +607,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13['accessibilityState'] = var21;
             var13['disabled'] = var16;
             var21 = undefined;
-            if(!var17) { _fun0007_ip = 511; continue _fun0007 }
- 434:
+            if(!var17) { _fun0007_ip = 515; continue _fun0007 }
+ 438:
             var24 = _closure1_slot11;
             var23 = _closure1_slot0;
             var27 = _closure1_slot2;
@@ -627,12 +627,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var25.REDESIGN_BUTTON_ACTIVE_TEXT;
             var22['color'] = var25;
             var21 = var24.bind(var4)(var23, var22);
- 511:
+ 515:
             var13['icon'] = var21;
-            if(!var16) { _fun0007_ip = 578; continue _fun0007 }
- 518:
-            if(var19) { _fun0007_ip = 578; continue _fun0007 }
- 521:
+            if(!var16) { _fun0007_ip = 582; continue _fun0007 }
+ 522:
+            if(var19) { _fun0007_ip = 582; continue _fun0007 }
+ 525:
             var23 = _closure1_slot0;
             var24 = _closure1_slot2;
             var19 = 25;
@@ -645,8 +645,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.t;
             var19 = var19.cEnaW1;
             var19 = var21.bind(var22)(var19);
-            _fun0007_ip = 654; continue _fun0007;
- 578:
+            _fun0007_ip = 658; continue _fun0007;
+ 582:
             var21 = _closure1_slot0;
             var24 = _closure1_slot2;
             var20 = 25;
@@ -657,28 +657,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var24[var20];
             var20 = var21.bind(var4)(var20);
             var21 = var20.t;
-            if(var17) { _fun0007_ip = 638; continue _fun0007 }
- 625:
+            if(var17) { _fun0007_ip = 642; continue _fun0007 }
+ 629:
             var20 = var21.XqMe3N;
             var20 = var22.bind(var23)(var20);
-            _fun0007_ip = 651; continue _fun0007;
- 638:
+            _fun0007_ip = 655; continue _fun0007;
+ 642:
             var21 = var21.TwueCw;
             var20 = var22.bind(var23)(var21);
- 651:
+ 655:
             var19 = var20;
- 654:
+ 658:
             var13['text'] = var19;
             var19 = 'sm';
             var13['size'] = var19;
             var13['onPress'] = var18;
-            if(var16) { _fun0007_ip = 680; continue _fun0007 }
- 673:
+            if(var16) { _fun0007_ip = 684; continue _fun0007 }
+ 677:
             var16 = 'active';
-            if(var17) { _fun0007_ip = 684; continue _fun0007 }
- 680:
-            var16 = 'secondary';
+            if(var17) { _fun0007_ip = 688; continue _fun0007 }
  684:
+            var16 = 'secondary';
+ 688:
             var13['variant'] = var16;
             var16 = true;
             var13['grow'] = var16;
