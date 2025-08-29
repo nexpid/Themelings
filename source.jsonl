@@ -6957,7 +6957,7 @@
 { "file": "app/modules/search/native/components/tabs/SearchTabsTransitionGroup.tsx", "size": 18440 }
 { "file": "app/modules/search/native/components/tabs/SearchTabsGradient.tsx", "size": 2866 }
 { "file": "app/modules/search/native/hooks/useAutoTrackSearchTabCountsViewedAnalytics.tsx", "size": 9001 }
-{ "file": "app/modules/search/native/components/layout/autocomplete/AutocompleteScreen.tsx", "size": 40707 }
+{ "file": "app/modules/search/native/components/layout/autocomplete/AutocompleteScreen.tsx", "size": 41489 }
 { "file": "app/modules/search/native/components/layout/autocomplete/AutocompleteScreenUtils.tsx", "size": 17351 }
 { "file": "app/design/components/Icon/native/redesign/generated/ChatArrowRightIcon.tsx", "size": 2501 }
 { "file": "app/design/components/Icon/native/redesign/generated/WebhookIcon.tsx", "size": 2487 }
