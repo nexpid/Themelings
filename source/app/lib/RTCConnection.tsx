@@ -3535,7 +3535,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.state;
                     var3 = _closure1_slot21;
                     var3 = var3.DISCONNECTED;
-                    if(!(var4 !== var3)) { _fun0051_ip = 2443; continue _fun0051 }
+                    if(!(var4 !== var3)) { _fun0051_ip = 2471; continue _fun0051 }
  430:
                     var4 = var5._videoQuality;
                     var _closure3_slot3 = var4;
@@ -4296,7 +4296,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var7.Promise;
                     var4 = var8.all;
                     var9 = var3.bind(var13)();
-                    var3 = new Array(3);
+                    var3 = new Array(4);
                     var3[0] = var9;
                     var12 = _closure1_slot1;
                     var14 = _closure1_slot3;
@@ -4322,6 +4322,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var10.bind(var11)();
  2409:
                     var3[2] = var9;
+                    var10 = _closure1_slot14;
+                    var9 = var10.getMediaEngine;
+                    var10 = var9.bind(var10)();
+                    var9 = var10.getSystemMicrophoneMode;
+                    var9 = var9.bind(var10)();
+                    var3[3] = var9;
                     var4 = var4.bind(var8)(var3);
                     var3 = var4.then;
                     var1 = function(arg1) {
@@ -4342,7 +4348,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = var7;
  32: // try_start_0
                             var7 = var5;
-                            var11 = var7.batteryUsageRounded;
+                            var12 = var7.batteryUsageRounded;
  41: // try_end0
                             var5 = undefined;
                             var7 = var3;
@@ -4356,25 +4362,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  66:
                             var5 = var7;
  69:
-                            var10 = var5;
+                            var11 = var5;
                             var5 = undefined;
                             var7 = var3;
                             if(var7) { _fun0056_ip = 100; continue _fun0056 }
  80:
+                            var7 = var6().value;
+                            var8 = var2;
+                            var8 = var8 === var4;
+                            var3 = var8;
+                            if(var8) { _fun0056_ip = 100; continue _fun0056 }
+ 97:
+                            var5 = var7;
+ 100:
+                            var10 = var5;
+                            var5 = undefined;
+                            var7 = var3;
+                            if(var7) { _fun0056_ip = 131; continue _fun0056 }
+ 111:
                             var6 = var6().value;
                             var7 = var2;
                             var7 = var7 === var4;
                             var3 = var7;
-                            if(var7) { _fun0056_ip = 100; continue _fun0056 }
- 97:
+                            if(var7) { _fun0056_ip = 131; continue _fun0056 }
+ 128:
                             var5 = var6;
- 100:
+ 131:
                             var9 = var5;
                             var5 = var3;
-                            if(var5) { _fun0056_ip = 112; continue _fun0056 }
- 109:
+                            if(var5) { _fun0056_ip = 143; continue _fun0056 }
+ 140:
                             var2.return();
- 112:
+ 143:
                             var7 = _closure1_slot1;
                             var8 = _closure1_slot3;
                             var6 = 19;
@@ -4384,74 +4403,77 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = _closure1_slot19;
                             var6 = var5.VOICE_DISCONNECT;
                             var5 = {};
-                            var13 = _closure3_slot5;
-                            var14 = var5;
-                            var12 = copyDataProperties(var14, var13);
+                            var14 = _closure3_slot5;
+                            var15 = var5;
+                            var13 = copyDataProperties(var15, var14);
+                            var13 = var12;
+                            var12 = 'battery_usage';
+                            var5[var12] = var13;
                             var12 = var11;
-                            var11 = 'battery_usage';
+                            var11 = 'krisp_nc_model';
                             var5[var11] = var12;
                             var11 = var10;
-                            var10 = 'krisp_nc_model';
+                            var12 = null;
+                            var11 = var12 == var11;
+                            var13 = undefined;
+                            if(var11) { _fun0056_ip = 250; continue _fun0056 }
+ 239:
+                            var11 = var10;
+                            var13 = var11.lowNoiseMs;
+ 250:
+                            var11 = 'duration_low_noise_detected_ms';
+                            var5[var11] = var13;
+                            var11 = var10;
+                            var11 = var12 == var11;
+                            var13 = undefined;
+                            if(var11) { _fun0056_ip = 284; continue _fun0056 }
+ 273:
+                            var11 = var10;
+                            var13 = var11.mediumNoiseMs;
+ 284:
+                            var11 = 'duration_medium_noise_detected_ms';
+                            var5[var11] = var13;
+                            var11 = var10;
+                            var11 = var12 == var11;
+                            var13 = undefined;
+                            if(var11) { _fun0056_ip = 318; continue _fun0056 }
+ 307:
+                            var11 = var10;
+                            var13 = var11.highNoiseMs;
+ 318:
+                            var11 = 'duration_high_noise_detected_ms';
+                            var5[var11] = var13;
+                            var11 = var10;
+                            var12 = var12 == var11;
+                            var11 = undefined;
+                            if(var12) { _fun0056_ip = 349; continue _fun0056 }
+ 341:
+                            var11 = var10.talkTimeMs;
+ 349:
+                            var10 = 'duration_noise_cancellation_voice_detected_ms';
                             var5[var10] = var11;
                             var10 = var9;
-                            var11 = null;
-                            var10 = var11 == var10;
-                            var12 = undefined;
-                            if(var10) { _fun0056_ip = 219; continue _fun0056 }
- 208:
-                            var10 = var9;
-                            var12 = var10.lowNoiseMs;
- 219:
-                            var10 = 'duration_low_noise_detected_ms';
-                            var5[var10] = var12;
-                            var10 = var9;
-                            var10 = var11 == var10;
-                            var12 = undefined;
-                            if(var10) { _fun0056_ip = 253; continue _fun0056 }
- 242:
-                            var10 = var9;
-                            var12 = var10.mediumNoiseMs;
- 253:
-                            var10 = 'duration_medium_noise_detected_ms';
-                            var5[var10] = var12;
-                            var10 = var9;
-                            var10 = var11 == var10;
-                            var12 = undefined;
-                            if(var10) { _fun0056_ip = 287; continue _fun0056 }
- 276:
-                            var10 = var9;
-                            var12 = var10.highNoiseMs;
- 287:
-                            var10 = 'duration_high_noise_detected_ms';
-                            var5[var10] = var12;
-                            var10 = var9;
-                            var11 = var11 == var10;
-                            var10 = undefined;
-                            if(var11) { _fun0056_ip = 318; continue _fun0056 }
- 310:
-                            var10 = var9.talkTimeMs;
- 318:
-                            var9 = 'duration_noise_cancellation_voice_detected_ms';
+                            var9 = 'system_microphone_mode';
                             var5[var9] = var10;
                             var5 = var7.bind(var8)(var6, var5);
                             return var4;
- 337: // catch_target0
+ 382: // catch_target0
                             CatchBlockStart(arg_register=0);
-                            _fun0056_ip = 343; continue _fun0056;
- 341:
+                            _fun0056_ip = 388; continue _fun0056;
+ 386:
                             CatchBlockStart(arg_register=0);
- 343:
-                            if(var3) { _fun0056_ip = 349; continue _fun0056 }
- 346:
+ 388:
+                            if(var3) { _fun0056_ip = 394; continue _fun0056 }
+ 391:
                             var2.return();
- 349:
+ 394:
                             throw var1;
                         }
                     };
                     var1 = var3.bind(var4)(var1);
                     var1 = var5._trackRemainingSecureFrameTransitions;
                     var1 = var1.bind(var5)();
- 2443:
+ 2471:
                     var1 = new Array(0);
                     var5['_pingTimeouts'] = var1;
                     var1 = new Array(0);
@@ -4464,11 +4486,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = null;
                     var5['_mediaSessionId'] = var3;
                     var8 = var5._voiceQuality;
-                    if(!(var3 != var8)) { _fun0051_ip = 2513; continue _fun0051 }
- 2503:
+                    if(!(var3 != var8)) { _fun0051_ip = 2541; continue _fun0051 }
+ 2531:
                     var1 = var8.stop;
                     var1 = var1.bind(var8)();
- 2513:
+ 2541:
                     var5['_voiceQuality'] = var3;
                     var9 = var7.clearInterval;
                     var8 = var5._voiceQualityPeriodicStatsInterval;
@@ -4479,26 +4501,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['_noiseCancellationError'] = var4;
                     var5['_numNoiseCancellationChanges'] = var4;
                     var9 = var5._voiceDuration;
-                    if(!(var3 != var9)) { _fun0051_ip = 2582; continue _fun0051 }
- 2572:
+                    if(!(var3 != var9)) { _fun0051_ip = 2610; continue _fun0051 }
+ 2600:
                     var8 = var9.stop;
                     var8 = var8.bind(var9)();
- 2582:
+ 2610:
                     var5['_voiceDuration'] = var3;
                     var9 = var5._videoQuality;
-                    if(!(var3 != var9)) { _fun0051_ip = 2608; continue _fun0051 }
- 2598:
+                    if(!(var3 != var9)) { _fun0051_ip = 2636; continue _fun0051 }
+ 2626:
                     var8 = var9.stop;
                     var8 = var8.bind(var9)();
- 2608:
+ 2636:
                     var5['_videoQuality'] = var3;
                     var5['_videoHealthManager'] = var3;
                     var9 = var5._localMediaSinkWantsManager;
-                    if(!(var3 != var9)) { _fun0051_ip = 2640; continue _fun0051 }
- 2630:
+                    if(!(var3 != var9)) { _fun0051_ip = 2668; continue _fun0051 }
+ 2658:
                     var8 = var9.reset;
                     var8 = var8.bind(var9)();
- 2640:
+ 2668:
                     var5['_secureFramesState'] = var3;
                     var9 = var7.Set;
                     var8 = var5.userId;
@@ -4522,13 +4544,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['_secureFramesTransitionPrepareCount'] = var4;
                     var5['_secureFramesTransitionExecuteCount'] = var4;
                     var4 = var5._connection;
-                    if(!(var3 != var4)) { _fun0051_ip = 2782; continue _fun0051 }
- 2760:
+                    if(!(var3 != var4)) { _fun0051_ip = 2810; continue _fun0051 }
+ 2788:
                     var4 = var5._connection;
                     var5['_connection'] = var3;
                     var3 = var4.destroy;
                     var3 = var3.bind(var4)();
- 2782:
+ 2810:
                     var4 = var5.setState;
                     var2 = _closure1_slot21;
                     var3 = var2.DISCONNECTED;

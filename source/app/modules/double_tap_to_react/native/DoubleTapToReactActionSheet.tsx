@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var6[var10];
         var15 = var11.bind(var1)(var15);
         var15 = var15.colors;
-        var15 = var15.BG_MOD_STRONG;
+        var15 = var15.CARD_PRIMARY_BG;
         var9['backgroundColor'] = var15;
         var15 = var6[var10];
         var15 = var11.bind(var1)(var15);
@@ -142,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var6[var10];
         var14 = var11.bind(var1)(var14);
         var14 = var14.radii;
-        var14 = var14.lg;
+        var14 = var14.xl;
         var9['borderRadius'] = var14;
         var9['justifyContent'] = var12;
         var9['alignItems'] = var12;

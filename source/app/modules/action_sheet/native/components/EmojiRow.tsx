@@ -540,93 +540,107 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = arg1;
                         var7 = arg2;
                         var3 = arg3;
+                        var _closure4_slot0 = var7;
                         var5 = _closure1_slot1;
-                        var1 = _closure1_slot2;
-                        var9 = 10;
-                        var4 = var1[var9];
+                        var4 = _closure1_slot2;
+                        var1 = 10;
+                        var4 = var4[var1];
                         var1 = undefined;
                         var5 = var5.bind(var1)(var4);
                         var4 = var5.hideActionSheet;
                         var4 = var4.bind(var5)();
                         var4 = null;
-                        if(!(var4 != var7)) { _fun0006_ip = 460; continue _fun0006 }
- 55:
-                        var10 = _closure1_slot0;
-                        var11 = _closure1_slot2;
-                        var4 = 11;
-                        var4 = var11[var4];
-                        var13 = var10.bind(var1)(var4);
-                        var12 = var13.triggerHapticFeedback;
-                        var5 = _closure1_slot1;
-                        var4 = 12;
-                        var4 = var11[var4];
-                        var4 = var5.bind(var1)(var4);
-                        var4 = var4.IMPACT_LIGHT;
-                        var4 = var12.bind(var13)(var4);
-                        var4 = 13;
-                        var4 = var11[var4];
-                        var15 = var10.bind(var1)(var4);
-                        var14 = var15.addReaction;
-                        var13 = var8.channel_id;
+                        if(!(var4 != var7)) { _fun0006_ip = 417; continue _fun0006 }
+ 59:
+                        var4 = _closure1_slot0;
+                        var10 = _closure1_slot2;
+                        var5 = 11;
+                        var5 = var10[var5];
+                        var12 = var4.bind(var1)(var5);
+                        var11 = var12.triggerHapticFeedback;
+                        var9 = _closure1_slot1;
+                        var5 = 12;
+                        var5 = var10[var5];
+                        var5 = var9.bind(var1)(var5);
+                        var5 = var5.IMPACT_LIGHT;
+                        var5 = var11.bind(var12)(var5);
+                        var5 = 13;
+                        var5 = var10[var5];
+                        var14 = var4.bind(var1)(var5);
+                        var13 = var14.addReaction;
+                        var12 = var8.channel_id;
+                        var11 = var8.id;
+                        var5 = 14;
+                        var5 = var10[var5];
+                        var15 = var4.bind(var1)(var5);
+                        var5 = var15.toReactionEmoji;
+                        var5 = var5.bind(var15)(var7);
+                        var5 = var13.bind(var14)(var12, var11, var5);
+                        var5 = 15;
+                        var5 = var10[var5];
+                        var11 = var9.bind(var1)(var5);
+                        var9 = var11.focusMessage;
+                        var5 = {};
+                        var12 = var8.channel_id;
+                        var5['channelId'] = var12;
                         var12 = var8.id;
-                        var4 = 14;
-                        var4 = var11[var4];
-                        var16 = var10.bind(var1)(var4);
-                        var4 = var16.toReactionEmoji;
-                        var4 = var4.bind(var16)(var7);
-                        var4 = var14.bind(var15)(var13, var12, var4);
-                        var4 = 15;
-                        var4 = var11[var4];
-                        var12 = var5.bind(var1)(var4);
-                        var5 = var12.focusMessage;
-                        var4 = {};
-                        var13 = var8.channel_id;
-                        var4['channelId'] = var13;
-                        var13 = var8.id;
-                        var4['messageId'] = var13;
-                        var4 = var5.bind(var12)(var4);
-                        var4 = var3.showDoubleTapUpsell;
+                        var5['messageId'] = var12;
+                        var5 = var9.bind(var11)(var5);
+                        var9 = var3.showDoubleTapUpsell;
                         var5 = var3.markAsDismissed;
-                        var _closure4_slot0 = var5;
+                        var _closure4_slot1 = var5;
                         var3 = 16;
-                        var3 = var11[var3];
-                        var12 = var10.bind(var1)(var3);
-                        var11 = var12.getDoubleTapToReactExperiment;
-                        var10 = {};
+                        var3 = var10[var3];
+                        var11 = var4.bind(var1)(var3);
+                        var10 = var11.getDoubleTapToReactExperiment;
+                        var4 = {};
                         var3 = true;
-                        var10['autoTrackExposure'] = var3;
+                        var4['autoTrackExposure'] = var3;
                         var3 = 'EmojiRow';
-                        var10 = var11.bind(var12)(var3, var10);
-                        var3 = var10.enabled;
-                        var10 = var10.showToast;
-                        if(!var3) { _fun0006_ip = 279; continue _fun0006 }
- 276:
-                        var3 = var4;
- 279:
-                        if(!var3) { _fun0006_ip = 460; continue _fun0006 }
- 285:
+                        var3 = var10.bind(var11)(var3, var4);
+                        var4 = var3.enabled;
+                        var3 = var3.showToast;
+                        if(!var4) { _fun0006_ip = 283; continue _fun0006 }
+ 280:
+                        var4 = var9;
+ 283:
+                        if(!var4) { _fun0006_ip = 417; continue _fun0006 }
+ 289:
+                        if(var3) { _fun0006_ip = 321; continue _fun0006 }
+ 292:
+                        var3 = global;
+                        var9 = var3.setTimeout;
+                        var4 = function() {
+                            var5 = _closure1_slot1;
+                            var2 = _closure1_slot2;
+                            var1 = 10;
+                            var4 = var2[var1];
+                            var1 = undefined;
+                            var6 = var5.bind(var1)(var4);
+                            var5 = var6.openLazy;
+                            var4 = _closure1_slot0;
+                            var3 = 19;
+                            var3 = var2[var3];
+                            var4 = var4.bind(var1)(var3);
+                            var3 = 18;
+                            var3 = var2[var3];
+                            var2 = var2.paths;
+                            var4 = var4.bind(var1)(var3, var2);
+                            var3 = {};
+                            var7 = _closure4_slot0;
+                            var3['emoji'] = var7;
+                            var2 = _closure4_slot1;
+                            var3['markAsDismissed'] = var2;
+                            var2 = 'DoubleTapToReactActionSheet';
+                            var2 = var5.bind(var6)(var4, var2, var3);
+                            return var1;
+                        };
+                        var3 = 500;
+                        var3 = var9.bind(var1)(var4, var3);
+                        _fun0006_ip = 417; continue _fun0006;
+ 321:
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
-                        if(var10) { _fun0006_ip = 372; continue _fun0006 }
- 296:
-                        var9 = var4[var9];
-                        var12 = var3.bind(var1)(var9);
-                        var11 = var12.openLazy;
-                        var9 = _closure1_slot0;
-                        var2 = 19;
-                        var2 = var4[var2];
-                        var10 = var9.bind(var1)(var2);
-                        var2 = 18;
-                        var9 = var4[var2];
-                        var2 = var4.paths;
-                        var10 = var10.bind(var1)(var9, var2);
-                        var9 = {};
-                        var9['emoji'] = var7;
-                        var9['markAsDismissed'] = var5;
-                        var2 = 'DoubleTapToReactActionSheet';
-                        var2 = var11.bind(var12)(var10, var2, var9);
-                        _fun0006_ip = 460; continue _fun0006;
- 372:
                         var2 = 17;
                         var2 = var4[var2];
                         var4 = var3.bind(var1)(var2);
@@ -651,7 +665,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var4.bind(var1)(var3);
                             var3 = var4.clearNotification;
                             var3 = var3.bind(var4)();
-                            var3 = _closure4_slot0;
+                            var3 = _closure4_slot1;
                             var2 = _closure1_slot7;
                             var2 = var2.UNKNOWN;
                             var2 = var3.bind(var1)(var2);
@@ -660,7 +674,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['onDismiss'] = var6;
                         var2['markAsDismissed'] = var5;
                         var2 = var3.bind(var4)(var2);
- 460:
+ 417:
                         return var1;
                     }
                 };

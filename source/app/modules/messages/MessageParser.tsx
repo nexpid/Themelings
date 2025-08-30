@@ -2122,7 +2122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.getGuild;
             var3 = var4.bind(var5)(var6);
  67:
-            if(var2) { _fun0024_ip = 120; continue _fun0024 }
+            if(var2) { _fun0024_ip = 118; continue _fun0024 }
  70:
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -2134,12 +2134,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot19;
             var4 = ['spoiler', 'timestamp'];
             var7 = var6.bind(var7)(var5, var4);
-            _fun0024_ip = 124; continue _fun0024;
- 120:
+            _fun0024_ip = 122; continue _fun0024;
+ 118:
             var7 = _closure1_slot19;
- 124:
-            if(var2) { _fun0024_ip = 157; continue _fun0024 }
- 127:
+ 122:
+            if(var2) { _fun0024_ip = 155; continue _fun0024 }
+ 125:
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
             var4 = 19;
@@ -2147,10 +2147,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = undefined;
             var4 = var6.bind(var4)(var5);
             var5 = var4.translateSurrogatesToInlineEmoji;
-            _fun0024_ip = 161; continue _fun0024;
- 157:
+            _fun0024_ip = 159; continue _fun0024;
+ 155:
             var5 = _closure1_slot26;
- 161:
+ 159:
             var4 = {};
             var6 = true;
             var4['inline'] = var6;

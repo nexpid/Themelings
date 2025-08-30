@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     var1 = arg1;
-                    var2 = var1.keyboardOpen;
+                    var2 = var1.systemKeyboardOpen;
                     var3 = _closure3_slot0;
                     var3 = var2 === var3;
                     if(var3) { _fun0001_ip = 26; continue _fun0001 }

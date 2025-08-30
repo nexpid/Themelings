@@ -1263,14 +1263,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var6 = var5.Stats;
                         var5 = var8.handleStats;
                         var5 = var7.bind(var8)(var6, var5);
-                        _fun0020_ip = 984; continue _fun0020;
+                        _fun0020_ip = 976; continue _fun0020;
  96:
                         var9 = null;
-                        if(!(var9 != var2)) { _fun0020_ip = 984; continue _fun0020 }
+                        if(!(var9 != var2)) { _fun0020_ip = 976; continue _fun0020 }
  105:
                         var5 = _closure3_slot0;
                         var5 = var5.stats;
-                        if(!(var9 != var5)) { _fun0020_ip = 974; continue _fun0020 }
+                        if(!(var9 != var5)) { _fun0020_ip = 966; continue _fun0020 }
  122:
                         var6 = _closure1_slot1;
                         var11 = _closure1_slot2;
@@ -1355,12 +1355,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = var7.lost;
                         var6 = var6.lost;
                         var6 = var7 - var6;
-                        if(!(var10 !== var5)) { _fun0020_ip = 382; continue _fun0020 }
- 277:
-                        if(!(var5 > var10)) { _fun0020_ip = 430; continue _fun0020 }
- 284:
-                        if(!(var6 >= var10)) { _fun0020_ip = 430; continue _fun0020 }
- 291:
+                        if(!(var10 !== var5)) { _fun0020_ip = 374; continue _fun0020 }
+ 269:
+                        if(!(var5 > var10)) { _fun0020_ip = 422; continue _fun0020 }
+ 276:
+                        if(!(var6 >= var10)) { _fun0020_ip = 422; continue _fun0020 }
+ 283:
                         var11 = _closure1_slot1;
                         var13 = _closure1_slot2;
                         var7 = 11;
@@ -1381,8 +1381,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = 100;
                         var5 = var5 * var12;
                         var5 = var7.bind(var11)(var6, var5);
-                        _fun0020_ip = 430; continue _fun0020;
- 382:
+                        _fun0020_ip = 422; continue _fun0020;
+ 374:
                         var7 = _closure3_slot0;
                         var6 = var7.emit;
                         var11 = _closure1_slot0;
@@ -1393,7 +1393,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var5.BaseConnectionEvent;
                         var5 = var5.OutboundLossRate;
                         var5 = var6.bind(var7)(var5, var10);
- 430:
+ 422:
                         var5 = var2.rtp;
                         var7 = var5.outbound;
                         var6 = var7.filter;
@@ -1420,56 +1420,56 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var4 = var5.bind(var7)(var4);
                         var4 = var4[var10];
-                        if(!(var9 != var6)) { _fun0020_ip = 974; continue _fun0020 }
- 509:
-                        if(!(var9 != var4)) { _fun0020_ip = 974; continue _fun0020 }
- 516:
+                        if(!(var9 != var6)) { _fun0020_ip = 966; continue _fun0020 }
+ 501:
+                        if(!(var9 != var4)) { _fun0020_ip = 966; continue _fun0020 }
+ 508:
                         var5 = var6.framesCaptured;
-                        if(!(var9 != var5)) { _fun0020_ip = 974; continue _fun0020 }
- 529:
+                        if(!(var9 != var5)) { _fun0020_ip = 966; continue _fun0020 }
+ 521:
                         var5 = var4.framesCaptured;
-                        if(!(var9 != var5)) { _fun0020_ip = 974; continue _fun0020 }
- 542:
+                        if(!(var9 != var5)) { _fun0020_ip = 966; continue _fun0020 }
+ 534:
                         var7 = var6.framesCaptured;
                         var5 = var4.framesCaptured;
                         var5 = var7 - var5;
                         var7 = var6.noiseCancellerFrames;
                         var11 = var5;
-                        if(!(var9 != var7)) { _fun0020_ip = 605; continue _fun0020 }
- 571:
+                        if(!(var9 != var7)) { _fun0020_ip = 597; continue _fun0020 }
+ 563:
                         var7 = var4.noiseCancellerFrames;
                         var12 = var9 != var7;
                         var7 = 0;
-                        if(!var12) { _fun0020_ip = 602; continue _fun0020 }
- 586:
+                        if(!var12) { _fun0020_ip = 594; continue _fun0020 }
+ 578:
                         var13 = var6.noiseCancellerFrames;
                         var12 = var4.noiseCancellerFrames;
                         var7 = var13 - var12;
- 602:
+ 594:
                         var11 = var7;
- 605:
+ 597:
                         var7 = _closure3_slot0;
                         var7 = var7.noiseCancellation;
-                        if(!var7) { _fun0020_ip = 806; continue _fun0020 }
- 621:
+                        if(!var7) { _fun0020_ip = 798; continue _fun0020 }
+ 613:
                         var7 = 50;
-                        if(!(var11 > var7)) { _fun0020_ip = 806; continue _fun0020 }
- 631:
+                        if(!(var11 > var7)) { _fun0020_ip = 798; continue _fun0020 }
+ 623:
                         var7 = var6.noiseCancellerProcessTime;
-                        if(!(var9 != var7)) { _fun0020_ip = 806; continue _fun0020 }
- 644:
+                        if(!(var9 != var7)) { _fun0020_ip = 798; continue _fun0020 }
+ 636:
                         var7 = var4.noiseCancellerProcessTime;
-                        if(!(var9 != var7)) { _fun0020_ip = 806; continue _fun0020 }
- 657:
+                        if(!(var9 != var7)) { _fun0020_ip = 798; continue _fun0020 }
+ 649:
                         var12 = var6.noiseCancellerProcessTime;
                         var7 = var4.noiseCancellerProcessTime;
                         var7 = var12 - var7;
                         var12 = var7 / var11;
                         var11 = 8;
-                        if(!(!(var12 > var11))) { _fun0020_ip = 748; continue _fun0020 }
- 684:
-                        if(!(var10 === var7)) { _fun0020_ip = 806; continue _fun0020 }
- 688:
+                        if(!(!(var12 > var11))) { _fun0020_ip = 740; continue _fun0020 }
+ 676:
+                        if(!(var10 === var7)) { _fun0020_ip = 798; continue _fun0020 }
+ 680:
                         var12 = _closure3_slot0;
                         var11 = var12.emit;
                         var10 = _closure1_slot0;
@@ -1482,8 +1482,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = _closure1_slot27;
                         var7 = var7.FAILED;
                         var7 = var11.bind(var12)(var10, var7);
-                        _fun0020_ip = 806; continue _fun0020;
- 748:
+                        _fun0020_ip = 798; continue _fun0020;
+ 740:
                         var12 = _closure3_slot0;
                         var11 = var12.emit;
                         var10 = _closure1_slot0;
@@ -1496,37 +1496,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var7 = _closure1_slot27;
                         var7 = var7.CPU_OVERUSE;
                         var7 = var11.bind(var12)(var10, var7);
- 806:
+ 798:
                         var7 = _closure3_slot0;
                         var10 = var7.inputMode;
                         var7 = _closure1_slot20;
                         var7 = var7.VOICE_ACTIVITY;
-                        if(!(var10 === var7)) { _fun0020_ip = 974; continue _fun0020 }
- 833:
+                        if(!(var10 === var7)) { _fun0020_ip = 966; continue _fun0020 }
+ 825:
                         var7 = _closure3_slot0;
                         var7 = var7.vadAutoThreshold;
-                        if(!var7) { _fun0020_ip = 974; continue _fun0020 }
- 849:
+                        if(!var7) { _fun0020_ip = 966; continue _fun0020 }
+ 841:
                         var7 = _closure3_slot0;
                         var7 = var7.vadUseKrisp;
-                        if(!var7) { _fun0020_ip = 974; continue _fun0020 }
- 862:
+                        if(!var7) { _fun0020_ip = 966; continue _fun0020 }
+ 854:
                         var7 = 50;
-                        if(!(var5 > var7)) { _fun0020_ip = 974; continue _fun0020 }
- 869:
+                        if(!(var5 > var7)) { _fun0020_ip = 966; continue _fun0020 }
+ 861:
                         var7 = var6.voiceActivityDetectorProcessTime;
-                        if(!(var9 != var7)) { _fun0020_ip = 974; continue _fun0020 }
- 879:
+                        if(!(var9 != var7)) { _fun0020_ip = 966; continue _fun0020 }
+ 871:
                         var7 = var4.voiceActivityDetectorProcessTime;
-                        if(!(var9 != var7)) { _fun0020_ip = 974; continue _fun0020 }
- 889:
+                        if(!(var9 != var7)) { _fun0020_ip = 966; continue _fun0020 }
+ 881:
                         var6 = var6.voiceActivityDetectorProcessTime;
                         var4 = var4.voiceActivityDetectorProcessTime;
                         var4 = var6 - var4;
                         var5 = var4 / var5;
                         var4 = 4;
-                        if(!(var5 > var4)) { _fun0020_ip = 974; continue _fun0020 }
- 916:
+                        if(!(var5 > var4)) { _fun0020_ip = 966; continue _fun0020 }
+ 908:
                         var6 = _closure3_slot0;
                         var5 = var6.emit;
                         var7 = _closure1_slot0;
@@ -1539,10 +1539,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = _closure1_slot27;
                         var3 = var3.VAD_CPU_OVERUSE;
                         var3 = var5.bind(var6)(var4, var3);
- 974:
+ 966:
                         var1 = _closure3_slot0;
                         var1['stats'] = var2;
- 984:
+ 976:
                         var1 = undefined;
                         return var1;
                     }

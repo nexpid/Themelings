@@ -165,7 +165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(71);
+        var1 = new Array(73);
         var1[0] = var5;
         var5 = {};
         var7 = 'interact';
@@ -899,16 +899,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[62] = var5;
         var5 = {};
-        var7 = 'setNativeDesktopVideoSourcePickerActive';
+        var7 = 'getSystemMicrophoneMode';
         var5['key'] = var7;
         var7 = function value() {
-            var1 = undefined;
+            var1 = global;
+            var3 = var1.Promise;
+            var2 = var3.resolve;
+            var1 = '';
+            var1 = var2.bind(var3)(var1);
             return var1;
         };
         var5['value'] = var7;
         var1[63] = var5;
         var5 = {};
-        var7 = 'presentNativeScreenSharePicker';
+        var7 = 'showSystemCaptureConfigurationUI';
         var5['key'] = var7;
         var7 = function value() {
             var1 = undefined;
@@ -917,7 +921,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[64] = var5;
         var5 = {};
-        var7 = 'releaseNativeDesktopVideoSourcePickerStream';
+        var7 = 'setNativeDesktopVideoSourcePickerActive';
         var5['key'] = var7;
         var7 = function value() {
             var1 = undefined;
@@ -926,7 +930,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[65] = var5;
         var5 = {};
-        var7 = 'setMaybePreprocessMute';
+        var7 = 'presentNativeScreenSharePicker';
         var5['key'] = var7;
         var7 = function value() {
             var1 = undefined;
@@ -935,7 +939,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5['value'] = var7;
         var1[66] = var5;
         var5 = {};
-        var7 = 'setAudioInputBypassSystemProcessing';
+        var7 = 'releaseNativeDesktopVideoSourcePickerStream';
         var5['key'] = var7;
         var7 = function value() {
             var1 = undefined;
@@ -943,6 +947,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var5['value'] = var7;
         var1[67] = var5;
+        var5 = {};
+        var7 = 'setMaybePreprocessMute';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[68] = var5;
+        var5 = {};
+        var7 = 'setAudioInputBypassSystemProcessing';
+        var5['key'] = var7;
+        var7 = function value() {
+            var1 = undefined;
+            return var1;
+        };
+        var5['value'] = var7;
+        var1[69] = var5;
         var5 = {};
         var7 = 'fetchAsyncResources';
         var5['key'] = var7;
@@ -954,7 +976,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[68] = var5;
+        var1[70] = var5;
         var5 = {};
         var7 = 'getNoiseCancellationStats';
         var5['key'] = var7;
@@ -973,7 +995,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[69] = var5;
+        var1[71] = var5;
         var5 = {};
         var7 = 'setNoiseCancellationEnableStats';
         var5['key'] = var7;
@@ -982,7 +1004,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var6;
-        var1[70] = var5;
+        var1[72] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

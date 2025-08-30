@@ -23,13 +23,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         var7 = var4.bind(var1)(var7);
         var _closure1_slot3 = var7;
-        var14 = 1;
-        var4 = var6[var14];
+        var4 = 1;
+        var4 = var6[var4];
         var4 = var5.bind(var1)(var4);
         var4 = var4.View;
         var _closure1_slot4 = var4;
-        var4 = 2;
-        var4 = var6[var4];
+        var14 = 2;
+        var4 = var6[var14];
         var4 = var5.bind(var1)(var4);
         var13 = var4.ACTION_SHEET_BACKGROUND_COLOR;
         var4 = var4.ACTION_SHEET_MAX_WIDTH;
@@ -98,20 +98,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var15.PX_8;
         var10['gap'] = var15;
         var4['emojiRow'] = var10;
-        var10 = {};
-        var15 = var6[var11];
-        var15 = var12.bind(var1)(var15);
-        var15 = var15.spacing;
-        var15 = var15.PX_8;
-        var10['padding'] = var15;
+        var10 = {'borderRadius': null, 'borderWidth': 2, 'borderColor': 'transparent'};
         var15 = var6[var11];
         var15 = var12.bind(var1)(var15);
         var15 = var15.radii;
         var15 = var15.md;
         var10['borderRadius'] = var15;
-        var10['borderWidth'] = var14;
-        var14 = 'transparent';
-        var10['borderColor'] = var14;
+        var4['emojiPressable'] = var10;
+        var10 = {};
+        var15 = var6[var11];
+        var15 = var12.bind(var1)(var15);
+        var15 = var15.colors;
+        var15 = var15.BG_BRAND;
+        var10['borderColor'] = var15;
+        var4['selectedEmojiPressable'] = var10;
+        var10 = {};
+        var15 = var6[var11];
+        var15 = var12.bind(var1)(var15);
+        var15 = var15.radii;
+        var15 = var15.sm;
+        var10['borderRadius'] = var15;
+        var15 = var6[var11];
+        var15 = var12.bind(var1)(var15);
+        var15 = var15.spacing;
+        var15 = var15.PX_8;
+        var10['padding'] = var15;
+        var10['margin'] = var14;
         var4['emojiWrapper'] = var10;
         var10 = {};
         var14 = var6[var11];
@@ -119,12 +131,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var14.colors;
         var14 = var14.BG_MOD_STRONG;
         var10['backgroundColor'] = var14;
-        var14 = var6[var11];
-        var14 = var12.bind(var1)(var14);
-        var14 = var14.colors;
-        var14 = var14.BG_BRAND;
-        var10['borderColor'] = var14;
-        var4['selectedEmoji'] = var10;
+        var4['selectedEmojiWrapper'] = var10;
         var10 = {};
         var14 = var6[var11];
         var14 = var12.bind(var1)(var14);
@@ -159,14 +166,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var1 = arg1;
-                var13 = var1.emoji;
-                var _closure2_slot0 = var13;
+                var16 = var1.emoji;
+                var _closure2_slot0 = var16;
                 var2 = var1.onPress;
                 var _closure2_slot1 = var2;
-                var7 = var1.selected;
+                var10 = var1.selected;
                 var1 = _closure1_slot11;
                 var4 = undefined;
-                var8 = var1.bind(var4)();
+                var11 = var1.bind(var4)();
                 var3 = _closure1_slot8;
                 var2 = _closure1_slot0;
                 var6 = _closure1_slot2;
@@ -177,8 +184,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var6 = 'button';
                 var1['accessibilityRole'] = var6;
-                var10 = null;
-                var6 = var10 == var13;
+                var13 = null;
+                var6 = var13 == var16;
                 var1['disabled'] = var6;
                 var5 = function onPress() {
                     var3 = _closure2_slot1;
@@ -188,58 +195,73 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1['onPress'] = var5;
-                var6 = var8.emojiWrapper;
+                var6 = var11.emojiPressable;
                 var5 = new Array(2);
                 var5[0] = var6;
                 var6 = undefined;
-                if(!var7) { _fun0002_ip = 129; continue _fun0002 }
+                if(!var10) { _fun0002_ip = 129; continue _fun0002 }
  123:
-                var6 = var8.selectedEmoji;
+                var6 = var11.selectedEmojiPressable;
  129:
                 var5[1] = var6;
                 var1['style'] = var5;
                 var7 = _closure1_slot8;
-                var6 = _closure1_slot1;
-                var9 = _closure1_slot2;
-                var5 = 9;
-                var5 = var9[var5];
-                var6 = var6.bind(var4)(var5);
+                var6 = _closure1_slot4;
                 var5 = {};
-                var9 = var8.emoji;
-                var5['style'] = var9;
-                var9 = var8.customEmoji;
-                var5['fastImageStyle'] = var9;
-                var8 = var8.textEmoji;
-                var5['textEmojiStyle'] = var8;
-                var8 = var13.id;
-                var11 = var10 == var8;
-                var8 = '';
-                var9 = var8;
-                if(!var11) { _fun0002_ip = 219; continue _fun0002 }
- 214:
-                var9 = var13.surrogates;
- 219:
-                var5['name'] = var9;
-                var9 = var13.id;
-                var9 = var10 != var9;
-                if(!var9) { _fun0002_ip = 296; continue _fun0002 }
- 235:
-                var10 = _closure1_slot1;
-                var11 = _closure1_slot2;
-                var9 = 10;
-                var9 = var11[var9];
-                var11 = var10.bind(var4)(var9);
-                var10 = var11.getEmojiURL;
-                var9 = {};
-                var14 = var13.id;
-                var9['id'] = var14;
-                var13 = var13.animated;
-                var9['animated'] = var13;
-                var12 = _closure1_slot6;
-                var9['size'] = var12;
-                var8 = var10.bind(var11)(var9);
- 296:
-                var5['src'] = var8;
+                var9 = var11.emojiWrapper;
+                var8 = new Array(2);
+                var8[0] = var9;
+                var9 = undefined;
+                if(!var10) { _fun0002_ip = 172; continue _fun0002 }
+ 166:
+                var9 = var11.selectedEmojiWrapper;
+ 172:
+                var8[1] = var9;
+                var5['style'] = var8;
+                var10 = _closure1_slot8;
+                var9 = _closure1_slot1;
+                var12 = _closure1_slot2;
+                var8 = 9;
+                var8 = var12[var8];
+                var9 = var9.bind(var4)(var8);
+                var8 = {};
+                var12 = var11.emoji;
+                var8['style'] = var12;
+                var12 = var11.customEmoji;
+                var8['fastImageStyle'] = var12;
+                var11 = var11.textEmoji;
+                var8['textEmojiStyle'] = var11;
+                var11 = var16.id;
+                var14 = var13 == var11;
+                var11 = '';
+                var12 = var11;
+                if(!var14) { _fun0002_ip = 262; continue _fun0002 }
+ 257:
+                var12 = var16.surrogates;
+ 262:
+                var8['name'] = var12;
+                var12 = var16.id;
+                var12 = var13 != var12;
+                if(!var12) { _fun0002_ip = 339; continue _fun0002 }
+ 278:
+                var13 = _closure1_slot1;
+                var14 = _closure1_slot2;
+                var12 = 10;
+                var12 = var14[var12];
+                var14 = var13.bind(var4)(var12);
+                var13 = var14.getEmojiURL;
+                var12 = {};
+                var17 = var16.id;
+                var12['id'] = var17;
+                var16 = var16.animated;
+                var12['animated'] = var16;
+                var15 = _closure1_slot6;
+                var12['size'] = var15;
+                var11 = var13.bind(var14)(var12);
+ 339:
+                var8['src'] = var11;
+                var8 = var10.bind(var4)(var9, var8);
+                var5['children'] = var8;
                 var5 = var7.bind(var4)(var6, var5);
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
@@ -253,14 +275,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                 var1 = arg1;
-                var22 = var1.selectedEmoji;
-                var _closure2_slot0 = var22;
+                var25 = var1.selectedEmoji;
+                var _closure2_slot0 = var25;
                 var2 = var1.onPressEmoji;
                 var _closure2_slot1 = var2;
                 var6 = var1.style;
                 var1 = _closure1_slot11;
                 var4 = undefined;
-                var19 = var1.bind(var4)();
+                var22 = var1.bind(var4)();
                 var7 = _closure1_slot0;
                 var10 = _closure1_slot2;
                 var1 = 11;
@@ -315,7 +337,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.useMemo;
                 var2 = new Array(2);
                 var2[0] = var8;
-                var2[1] = var22;
+                var2[1] = var25;
                 var1 = function() {
                     var3 = _closure2_slot2;
                     var2 = var3.findIndex;
@@ -342,7 +364,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var5 = new Array(2);
                 var5[0] = var6;
-                var6 = var19.emojiRow;
+                var6 = var22.emojiRow;
                 var5[1] = var6;
                 var1['style'] = var5;
                 var6 = var8.map;
@@ -407,107 +429,122 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var6['onPress'] = var9;
-                var9 = var19.emojiWrapper;
-                var10 = new Array(2);
-                var10[0] = var9;
-                var9 = -1;
-                var9 = var9 === var11;
-                var11 = var9;
-                if(!var11) { _fun0003_ip = 361; continue _fun0003 }
+                var10 = var22.emojiPressable;
+                var9 = new Array(2);
+                var9[0] = var10;
+                var10 = -1;
+                var12 = var10 === var11;
+                var10 = var12;
+                if(!var12) { _fun0003_ip = 361; continue _fun0003 }
  355:
-                var11 = var19.selectedEmoji;
+                var10 = var22.selectedEmojiPressable;
  361:
-                var10[1] = var11;
-                var6['style'] = var10;
-                if(var9) { _fun0003_ip = 430; continue _fun0003 }
- 372:
+                var9[1] = var10;
+                var6['style'] = var9;
                 var11 = _closure1_slot8;
-                var10 = _closure1_slot0;
-                var12 = _closure1_slot2;
-                var9 = 17;
-                var9 = var12[var9];
-                var9 = var10.bind(var4)(var9);
-                var10 = var9.ReactionIcon;
+                var10 = _closure1_slot4;
                 var9 = {};
-                var12 = var19.chooseEmojiButton;
-                var12 = var12.color;
-                var9['color'] = var12;
-                var9 = var11.bind(var4)(var10, var9);
-                _fun0003_ip = 723; continue _fun0003;
- 430:
-                var12 = _closure1_slot10;
-                var11 = _closure1_slot9;
-                var10 = {};
-                var15 = _closure1_slot8;
-                var14 = _closure1_slot1;
-                var16 = _closure1_slot2;
-                var13 = 9;
-                var13 = var16[var13];
-                var14 = var14.bind(var4)(var13);
-                var13 = {};
-                var16 = var19.emoji;
-                var13['style'] = var16;
-                var16 = var19.customEmoji;
-                var13['fastImageStyle'] = var16;
-                var16 = var19.textEmoji;
-                var13['textEmojiStyle'] = var16;
-                var16 = var22.id;
-                var20 = null;
-                var21 = var20 == var16;
-                var16 = '';
-                var18 = var16;
-                if(!var21) { _fun0003_ip = 524; continue _fun0003 }
- 519:
-                var18 = var22.surrogates;
- 524:
-                var13['name'] = var18;
-                var18 = var22.id;
-                var18 = var20 != var18;
-                if(!var18) { _fun0003_ip = 601; continue _fun0003 }
- 540:
-                var20 = _closure1_slot1;
-                var21 = _closure1_slot2;
-                var18 = 10;
-                var18 = var21[var18];
-                var21 = var20.bind(var4)(var18);
-                var20 = var21.getEmojiURL;
-                var18 = {};
-                var23 = var22.id;
-                var18['id'] = var23;
-                var22 = var22.animated;
-                var18['animated'] = var22;
-                var22 = _closure1_slot6;
-                var18['size'] = var22;
-                var16 = var20.bind(var21)(var18);
- 601:
-                var13['src'] = var16;
-                var14 = var15.bind(var4)(var14, var13);
+                var14 = var22.emojiWrapper;
                 var13 = new Array(2);
                 var13[0] = var14;
-                var16 = _closure1_slot8;
-                var15 = _closure1_slot4;
-                var14 = {};
-                var18 = var19.customReactionOverlay;
-                var14['style'] = var18;
-                var18 = _closure1_slot0;
-                var20 = _closure1_slot2;
-                var17 = 17;
-                var17 = var20[var17];
-                var17 = var18.bind(var4)(var17);
-                var18 = var17.ReactionIcon;
-                var17 = {};
-                var20 = var19.selectedCustomReactionIcon;
-                var20 = var20.color;
-                var17['color'] = var20;
-                var19 = var19.selectedCustomReactionIcon;
-                var17['style'] = var19;
-                var17 = var16.bind(var4)(var18, var17);
-                var14['children'] = var17;
-                var14 = var16.bind(var4)(var15, var14);
+                var14 = var12;
+                if(!var14) { _fun0003_ip = 405; continue _fun0003 }
+ 399:
+                var14 = var22.selectedEmojiWrapper;
+ 405:
                 var13[1] = var14;
-                var10['children'] = var13;
-                var9 = var12.bind(var4)(var11, var10);
- 723:
+                var9['style'] = var13;
+                if(var12) { _fun0003_ip = 474; continue _fun0003 }
+ 416:
+                var14 = _closure1_slot8;
+                var13 = _closure1_slot0;
+                var15 = _closure1_slot2;
+                var12 = 17;
+                var12 = var15[var12];
+                var12 = var13.bind(var4)(var12);
+                var13 = var12.ReactionIcon;
+                var12 = {};
+                var15 = var22.chooseEmojiButton;
+                var15 = var15.color;
+                var12['color'] = var15;
+                var12 = var14.bind(var4)(var13, var12);
+                _fun0003_ip = 767; continue _fun0003;
+ 474:
+                var15 = _closure1_slot10;
+                var14 = _closure1_slot9;
+                var13 = {};
+                var18 = _closure1_slot8;
+                var17 = _closure1_slot1;
+                var19 = _closure1_slot2;
+                var16 = 9;
+                var16 = var19[var16];
+                var17 = var17.bind(var4)(var16);
+                var16 = {};
+                var19 = var22.emoji;
+                var16['style'] = var19;
+                var19 = var22.customEmoji;
+                var16['fastImageStyle'] = var19;
+                var19 = var22.textEmoji;
+                var16['textEmojiStyle'] = var19;
+                var19 = var25.id;
+                var23 = null;
+                var24 = var23 == var19;
+                var19 = '';
+                var21 = var19;
+                if(!var24) { _fun0003_ip = 568; continue _fun0003 }
+ 563:
+                var21 = var25.surrogates;
+ 568:
+                var16['name'] = var21;
+                var21 = var25.id;
+                var21 = var23 != var21;
+                if(!var21) { _fun0003_ip = 645; continue _fun0003 }
+ 584:
+                var23 = _closure1_slot1;
+                var24 = _closure1_slot2;
+                var21 = 10;
+                var21 = var24[var21];
+                var24 = var23.bind(var4)(var21);
+                var23 = var24.getEmojiURL;
+                var21 = {};
+                var26 = var25.id;
+                var21['id'] = var26;
+                var25 = var25.animated;
+                var21['animated'] = var25;
+                var25 = _closure1_slot6;
+                var21['size'] = var25;
+                var19 = var23.bind(var24)(var21);
+ 645:
+                var16['src'] = var19;
+                var17 = var18.bind(var4)(var17, var16);
+                var16 = new Array(2);
+                var16[0] = var17;
+                var19 = _closure1_slot8;
+                var18 = _closure1_slot4;
+                var17 = {};
+                var21 = var22.customReactionOverlay;
+                var17['style'] = var21;
+                var21 = _closure1_slot0;
+                var23 = _closure1_slot2;
+                var20 = 17;
+                var20 = var23[var20];
+                var20 = var21.bind(var4)(var20);
+                var21 = var20.ReactionIcon;
+                var20 = {};
+                var23 = var22.selectedCustomReactionIcon;
+                var23 = var23.color;
+                var20['color'] = var23;
+                var22 = var22.selectedCustomReactionIcon;
+                var20['style'] = var22;
+                var20 = var19.bind(var4)(var21, var20);
+                var17['children'] = var20;
+                var17 = var19.bind(var4)(var18, var17);
+                var16[1] = var17;
+                var13['children'] = var16;
+                var12 = var15.bind(var4)(var14, var13);
+ 767:
+                var9['children'] = var12;
+                var9 = var11.bind(var4)(var10, var9);
                 var6['children'] = var9;
                 var6 = var8.bind(var4)(var7, var6);
                 var5[1] = var6;

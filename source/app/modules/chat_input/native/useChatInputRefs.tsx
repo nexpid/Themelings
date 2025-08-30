@@ -62,7 +62,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.MessageSendLocation;
     var _closure1_slot12 = var4;
-    var4 = 33;
+    var4 = 34;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -199,7 +199,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = var8[var3];
         var6 = var6.bind(var7)(var3);
         var3 = function() {
-            var1 = {'editId': null, 'focused': false, 'selectionStart': 0, 'selectionEnd': 0};
+            var1 = {'editId': null, 'focused': false, 'selectionStart': 0, 'selectionEnd': 0, 'text': null, 'textPrev': null, 'textFieldContentSize': 0};
             var3 = _closure2_slot0;
             var4 = var3.defaultValue;
             var1['text'] = var4;
@@ -1338,34 +1338,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['openCustomKeyboard'] = var1;
             var1 = function openSystemKeyboard() {
-                var8 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var1 = 20;
-                var3 = var4[var1];
-                var1 = undefined;
-                var6 = var8.bind(var1)(var3);
-                var5 = var6.setKeyboardType;
-                var3 = {};
-                var7 = 19;
-                var7 = var4[var7];
-                var7 = var8.bind(var1)(var7);
-                var7 = var7.KeyboardTypes;
-                var7 = var7.SYSTEM;
-                var3['type'] = var7;
-                var7 = {};
-                var8 = true;
-                var7['keyboardWillOpen'] = var8;
-                var3['context'] = var7;
-                var3 = var5.bind(var6)(var3);
-                var3 = _closure1_slot1;
-                var2 = 13;
-                var2 = var4[var2];
-                var4 = var3.bind(var1)(var2);
-                var3 = var4.openSystemKeyboard;
-                var2 = _closure2_slot7;
-                var2 = var2.current;
-                var2 = var3.bind(var4)(var2);
-                return var1;
+                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+ 0:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 33;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.getKeyboardIsOpen;
+                    var3 = {};
+                    var6 = false;
+                    var3['includeCustomKeyboard'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    if(var3) { _fun0018_ip = 161; continue _fun0018 }
+ 48:
+                    var8 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var3 = 20;
+                    var3 = var4[var3];
+                    var6 = var8.bind(var1)(var3);
+                    var5 = var6.setKeyboardType;
+                    var3 = {};
+                    var7 = 19;
+                    var7 = var4[var7];
+                    var7 = var8.bind(var1)(var7);
+                    var7 = var7.KeyboardTypes;
+                    var7 = var7.SYSTEM;
+                    var3['type'] = var7;
+                    var7 = {};
+                    var8 = true;
+                    var7['keyboardWillOpen'] = var8;
+                    var3['context'] = var7;
+                    var3 = var5.bind(var6)(var3);
+                    var3 = _closure1_slot1;
+                    var2 = 13;
+                    var2 = var4[var2];
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.openSystemKeyboard;
+                    var2 = _closure2_slot7;
+                    var2 = var2.current;
+                    var2 = var3.bind(var4)(var2);
+ 161:
+                    return var1;
+                }
             };
             var3['openSystemKeyboard'] = var1;
             var1 = function replaceRange(arg1) {
@@ -1415,12 +1431,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3['setText'] = var1;
             var1 = function showSideActions() {
-                _fun0018: for(var _fun0018_ip = 0; ; ) switch(_fun0018_ip) {
+                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
  0:
                     var2 = _closure2_slot2;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0018_ip = 44; continue _fun0018 }
+                    if(!(var2 != var3)) { _fun0019_ip = 44; continue _fun0019 }
  18:
                     var2 = var3.onShowActions;
                     var1 = _closure2_slot13;

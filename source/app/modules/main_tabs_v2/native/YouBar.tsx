@@ -176,10 +176,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var13.PX_4;
     var10['gap'] = var13;
     var4['statusRow'] = var10;
+    var13 = 16;
     var10 = {'width': 16, 'height': 16};
     var4['statusEmoji'] = var10;
     var10 = {'flexDirection': 'row', 'alignItems': 'center'};
     var4['usernameRow'] = var10;
+    var10 = {};
+    var14 = var6[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.colors;
+    var14 = var14.BG_MOD_FAINT;
+    var10['backgroundColor'] = var14;
+    var14 = var6[var11];
+    var14 = var12.bind(var1)(var14);
+    var14 = var14.radii;
+    var14 = var14.round;
+    var10['borderRadius'] = var14;
+    var10['height'] = var13;
+    var13 = 80;
+    var10['width'] = var13;
+    var4['placeholder'] = var10;
     var10 = {};
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -222,217 +238,235 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = _closure1_slot24;
             var4 = undefined;
-            var21 = var1.bind(var4)();
+            var11 = var1.bind(var4)();
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var5 = 15;
             var6 = var1[var5];
-            var9 = var3.bind(var4)(var6);
-            var8 = var9.useStateFromStores;
+            var10 = var3.bind(var4)(var6);
+            var9 = var10.useStateFromStores;
             var6 = _closure1_slot11;
-            var7 = new Array(1);
-            var7[0] = var6;
+            var8 = new Array(1);
+            var8[0] = var6;
             var6 = function() {
                 var2 = _closure1_slot11;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var11 = var8.bind(var9)(var7, var6);
+            var13 = var9.bind(var10)(var8, var6);
             var6 = var1[var5];
-            var9 = var3.bind(var4)(var6);
-            var8 = var9.useStateFromStores;
+            var10 = var3.bind(var4)(var6);
+            var9 = var10.useStateFromStores;
             var6 = _closure1_slot10;
-            var7 = new Array(1);
-            var7[0] = var6;
+            var8 = new Array(1);
+            var8[0] = var6;
             var6 = function() {
                 var2 = _closure1_slot10;
                 var1 = var2.getStatus;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var18 = var8.bind(var9)(var7, var6);
-            var7 = _closure1_slot1;
-            var19 = 16;
-            var6 = var1[var19];
-            var7 = var7.bind(var4)(var6);
-            var6 = var7.useName;
-            var22 = var6.bind(var7)(var11);
+            var21 = var9.bind(var10)(var8, var6);
+            var8 = _closure1_slot1;
+            var22 = 16;
+            var6 = var1[var22];
+            var8 = var8.bind(var4)(var6);
+            var6 = var8.useName;
+            var23 = var6.bind(var8)(var13);
             var6 = 17;
             var6 = var1[var6];
-            var7 = var3.bind(var4)(var6);
-            var6 = var7.useCustomStatusActivity;
-            var20 = var6.bind(var7)();
+            var8 = var3.bind(var4)(var6);
+            var6 = var8.useCustomStatusActivity;
+            var20 = var6.bind(var8)();
             var5 = var1[var5];
-            var7 = var3.bind(var4)(var5);
-            var6 = var7.useStateFromStores;
-            var8 = _closure1_slot8;
+            var8 = var3.bind(var4)(var5);
+            var6 = var8.useStateFromStores;
+            var9 = _closure1_slot8;
             var5 = new Array(1);
-            var5[0] = var8;
+            var5[0] = var9;
             var2 = function() {
                 var1 = _closure1_slot8;
                 var1 = var1.useReducedMotion;
                 return var1;
             };
-            var8 = var6.bind(var7)(var5, var2);
+            var9 = var6.bind(var8)(var5, var2);
             var2 = 18;
             var2 = var1[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.AVATAR_SIZE_MAP;
-            var13 = 19;
-            var1 = var1[var13];
+            var15 = 19;
+            var1 = var1[var15];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AvatarSizes;
             var1 = var1.NORMAL;
-            var10 = var2[var1];
+            var12 = var2[var1];
             var3 = _closure1_slot20;
             var2 = _closure1_slot6;
+            var19 = null;
+            if(!(var19 != var13)) { _fun0001_ip = 776; continue _fun0001 }
+ 255:
             var1 = {};
-            var5 = var21.youButton;
+            var5 = var11.youButton;
             var1['style'] = var5;
-            var17 = null;
-            if(!(var17 != var11)) { _fun0001_ip = 376; continue _fun0001 }
- 264:
-            var7 = _closure1_slot19;
+            var8 = _closure1_slot19;
             var6 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var5 = var9[var13];
+            var10 = _closure1_slot2;
+            var5 = var10[var15];
             var6 = var6.bind(var4)(var5);
             var5 = {};
-            var5['user'] = var11;
+            var5['user'] = var13;
             var5['guildId'] = var4;
-            var12 = _closure1_slot0;
-            var9 = var9[var13];
-            var9 = var12.bind(var4)(var9);
-            var9 = var9.AvatarSizes;
-            var9 = var9.NORMAL;
-            var5['size'] = var9;
-            var8 = !var8;
-            var5['animate'] = var8;
-            var8 = true;
-            var5['needsOffscreenAlphaCompositing'] = var8;
-            var12 = var17 == var11;
-            var9 = undefined;
-            if(var12) { _fun0001_ip = 354; continue _fun0001 }
- 348:
-            var9 = var11.avatarDecoration;
- 354:
-            var5['avatarDecoration'] = var9;
-            var5['status'] = var18;
-            var5['autoStatusCutout'] = var8;
-            var6 = var7.bind(var4)(var6, var5);
-            _fun0001_ip = 438; continue _fun0001;
- 376:
-            var8 = _closure1_slot19;
-            var7 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var5 = 20;
-            var5 = var9[var5];
-            var5 = var7.bind(var4)(var5);
-            var7 = var5.ReactionIcon;
-            var5 = {};
-            var9 = {};
-            var9['width'] = var10;
-            var9['height'] = var10;
-            var5['style'] = var9;
-            var9 = 'interactive-normal';
-            var5['color'] = var9;
-            var6 = var8.bind(var4)(var7, var5);
- 438:
+            var14 = _closure1_slot0;
+            var10 = var10[var15];
+            var10 = var14.bind(var4)(var10);
+            var10 = var10.AvatarSizes;
+            var10 = var10.NORMAL;
+            var5['size'] = var10;
+            var9 = !var9;
+            var5['animate'] = var9;
+            var9 = true;
+            var5['needsOffscreenAlphaCompositing'] = var9;
+            var14 = var19 == var13;
+            var10 = undefined;
+            if(var14) { _fun0001_ip = 357; continue _fun0001 }
+ 351:
+            var10 = var13.avatarDecoration;
+ 357:
+            var5['avatarDecoration'] = var10;
+            var5['status'] = var21;
+            var5['autoStatusCutout'] = var9;
+            var6 = var8.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
-            var8 = _closure1_slot20;
-            var7 = _closure1_slot6;
+            var9 = _closure1_slot20;
+            var8 = _closure1_slot6;
             var6 = {};
-            var9 = var21.userText;
-            var6['style'] = var9;
-            var9 = {};
-            var10 = var21.usernameRow;
-            var9['style'] = var10;
-            var13 = _closure1_slot19;
-            var12 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var15 = 21;
-            var10 = var14[var15];
-            var10 = var12.bind(var4)(var10);
-            var11 = var10.Text;
-            var10 = {'variant': 'heading-md/bold', 'color': 'header-primary', 'lineClamp': 1, 'maxFontSizeMultiplier': 1.75};
-            var10['children'] = var22;
-            var11 = var13.bind(var4)(var11, var10);
-            var10 = new Array(2);
-            var10[0] = var11;
-            var11 = 22;
-            var11 = var14[var11];
-            var11 = var12.bind(var4)(var11);
-            var12 = var11.ChevronSmallRightIcon;
-            var11 = {'size': 'xs', 'color': 'header-secondary'};
-            var11 = var13.bind(var4)(var12, var11);
-            var10[1] = var11;
-            var9['children'] = var10;
-            var10 = var8.bind(var4)(var7, var9);
-            var9 = new Array(2);
-            var9[0] = var10;
+            var10 = var11.userText;
+            var6['style'] = var10;
             var10 = {};
-            var11 = var21.statusRow;
-            var10['style'] = var11;
-            var12 = var17 == var20;
-            var11 = undefined;
-            if(var12) { _fun0001_ip = 626; continue _fun0001 }
- 620:
-            var11 = var20.emoji;
- 626:
-            var11 = var17 != var11;
-            var12 = null;
-            if(!var11) { _fun0001_ip = 692; continue _fun0001 }
- 635:
-            var14 = _closure1_slot19;
-            var13 = _closure1_slot1;
-            var22 = _closure1_slot2;
-            var11 = 23;
-            var11 = var22[var11];
-            var13 = var13.bind(var4)(var11);
-            var11 = {};
-            var11['size'] = var19;
-            var21 = var21.statusEmoji;
-            var11['style'] = var21;
-            var21 = var20.emoji;
-            var11['emoji'] = var21;
-            var12 = var14.bind(var4)(var13, var11);
- 692:
-            var11 = new Array(2);
-            var11[0] = var12;
-            var14 = _closure1_slot19;
-            var13 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var12 = var12[var15];
-            var12 = var13.bind(var4)(var12);
-            var13 = var12.Text;
-            var12 = {'variant': 'text-xs/medium', 'color': 'text-normal', 'lineClamp': 1, 'ellipsizeMode': 'tail', 'maxFontSizeMultiplier': 1.75};
-            var21 = var17 == var20;
-            var15 = undefined;
-            if(var21) { _fun0001_ip = 754; continue _fun0001 }
- 749:
-            var15 = var20.state;
- 754:
-            if(!(var17 == var15)) { _fun0001_ip = 786; continue _fun0001 }
- 758:
-            var17 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var16 = var16[var19];
-            var17 = var17.bind(var4)(var16);
-            var16 = var17.humanizeStatus;
-            var15 = var16.bind(var17)(var18);
- 786:
-            var12['children'] = var15;
-            var12 = var14.bind(var4)(var13, var12);
-            var11[1] = var12;
-            var10['children'] = var11;
-            var10 = var8.bind(var4)(var7, var10);
-            var9[1] = var10;
-            var6['children'] = var9;
-            var6 = var8.bind(var4)(var7, var6);
+            var13 = var11.usernameRow;
+            var10['style'] = var13;
+            var16 = _closure1_slot19;
+            var15 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var18 = 21;
+            var13 = var17[var18];
+            var13 = var15.bind(var4)(var13);
+            var14 = var13.Text;
+            var13 = {'variant': 'heading-md/bold', 'color': 'header-primary', 'lineClamp': 1, 'maxFontSizeMultiplier': 1.75};
+            var13['children'] = var23;
+            var14 = var16.bind(var4)(var14, var13);
+            var13 = new Array(2);
+            var13[0] = var14;
+            var14 = 22;
+            var14 = var17[var14];
+            var14 = var15.bind(var4)(var14);
+            var15 = var14.ChevronSmallRightIcon;
+            var14 = {'size': 'xs', 'color': 'header-secondary'};
+            var14 = var16.bind(var4)(var15, var14);
+            var13[1] = var14;
+            var10['children'] = var13;
+            var13 = var9.bind(var4)(var8, var10);
+            var10 = new Array(2);
+            var10[0] = var13;
+            var13 = {};
+            var14 = var11.statusRow;
+            var13['style'] = var14;
+            var15 = var19 == var20;
+            var14 = undefined;
+            if(var15) { _fun0001_ip = 565; continue _fun0001 }
+ 559:
+            var14 = var20.emoji;
+ 565:
+            var14 = var19 != var14;
+            var15 = null;
+            if(!var14) { _fun0001_ip = 631; continue _fun0001 }
+ 574:
+            var17 = _closure1_slot19;
+            var16 = _closure1_slot1;
+            var23 = _closure1_slot2;
+            var14 = 23;
+            var14 = var23[var14];
+            var16 = var16.bind(var4)(var14);
+            var14 = {};
+            var14['size'] = var22;
+            var23 = var11.statusEmoji;
+            var14['style'] = var23;
+            var23 = var20.emoji;
+            var14['emoji'] = var23;
+            var15 = var17.bind(var4)(var16, var14);
+ 631:
+            var14 = new Array(2);
+            var14[0] = var15;
+            var17 = _closure1_slot19;
+            var16 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var15 = var15[var18];
+            var15 = var16.bind(var4)(var15);
+            var16 = var15.Text;
+            var15 = {'variant': 'text-xs/medium', 'color': 'text-normal', 'lineClamp': 1, 'ellipsizeMode': 'tail', 'maxFontSizeMultiplier': 1.75};
+            var23 = var19 == var20;
+            var18 = undefined;
+            if(var23) { _fun0001_ip = 693; continue _fun0001 }
+ 688:
+            var18 = var20.state;
+ 693:
+            if(!(var19 == var18)) { _fun0001_ip = 725; continue _fun0001 }
+ 697:
+            var20 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var19 = var19[var22];
+            var20 = var20.bind(var4)(var19);
+            var19 = var20.humanizeStatus;
+            var18 = var19.bind(var20)(var21);
+ 725:
+            var15['children'] = var18;
+            var15 = var17.bind(var4)(var16, var15);
+            var14[1] = var15;
+            var13['children'] = var14;
+            var13 = var9.bind(var4)(var8, var13);
+            var10[1] = var13;
+            var6['children'] = var10;
+            var6 = var9.bind(var4)(var8, var6);
             var5[1] = var6;
             var1['children'] = var5;
+            _fun0001_ip = 913; continue _fun0001;
+ 776:
+            var5 = {};
+            var6 = var11.youButton;
+            var5['style'] = var6;
+            var9 = _closure1_slot19;
+            var8 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var6 = 20;
+            var6 = var10[var6];
+            var6 = var8.bind(var4)(var6);
+            var8 = var6.ReactionIcon;
+            var6 = {};
+            var10 = {};
+            var10['width'] = var12;
+            var10['height'] = var12;
+            var6['style'] = var10;
+            var10 = 'bg-mod-strong';
+            var6['color'] = var10;
+            var8 = var9.bind(var4)(var8, var6);
+            var6 = new Array(2);
+            var6[0] = var8;
+            var8 = _closure1_slot6;
+            var7 = {};
+            var10 = var11.userText;
+            var7['style'] = var10;
+            var10 = {};
+            var11 = var11.placeholder;
+            var10['style'] = var11;
+            var10 = var9.bind(var4)(var8, var10);
+            var7['children'] = var10;
+            var7 = var9.bind(var4)(var8, var7);
+            var6[1] = var7;
+            var5['children'] = var6;
+            var1 = var5;
+ 913:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

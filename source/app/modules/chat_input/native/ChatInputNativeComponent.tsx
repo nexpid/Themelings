@@ -66,34 +66,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var1 = arg1;
-                var3 = var1.accessibilityLabel;
-                var2 = var1.customKeyboard;
+                var23 = var1.accessibilityLabel;
+                var21 = var1.customKeyboard;
                 var11 = var1.placeholder;
-                var23 = var1.editable;
-                var21 = var1.markAsSpoilerTitle;
+                var25 = var1.editable;
+                var22 = var1.markAsSpoilerTitle;
                 var4 = undefined;
-                if(!(var21 === var4)) { _fun0002_ip = 98; continue _fun0002 }
+                if(!(var22 === var4)) { _fun0002_ip = 98; continue _fun0002 }
  40:
-                var8 = _closure1_slot0;
-                var9 = _closure1_slot2;
-                var5 = 6;
-                var6 = var9[var5];
-                var6 = var8.bind(var4)(var6);
-                var7 = var6.intl;
-                var6 = var7.string;
-                var5 = var9[var5];
-                var5 = var8.bind(var4)(var5);
-                var5 = var5.t;
-                var5 = var5.gsI+xM;
-                var21 = var6.bind(var7)(var5);
+                var6 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var2 = 6;
+                var3 = var7[var2];
+                var3 = var6.bind(var4)(var3);
+                var5 = var3.intl;
+                var3 = var5.string;
+                var2 = var7[var2];
+                var2 = var6.bind(var4)(var2);
+                var2 = var2.t;
+                var2 = var2.gsI+xM;
+                var22 = var3.bind(var5)(var2);
  98:
                 var8 = var1.setNoExtractUI;
                 var7 = var1.shouldShowCursor;
                 var20 = var1.onBeginFocus;
                 var19 = var1.onEndBlur;
                 var18 = var1.onChangeContentSize;
-                var25 = var1.onMount;
-                var _closure2_slot0 = var25;
+                var3 = var1.onMaxHeightChanged;
+                var26 = var1.onMount;
+                var _closure2_slot0 = var26;
                 var17 = var1.onSelectionOrTextChange;
                 var16 = var1.onTextFlushed;
                 var15 = var1.onPasteImage;
@@ -101,69 +102,69 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var1.onTapAction;
                 var12 = var1.onRequestSend;
                 var _closure2_slot1 = var4;
-                var5 = _closure1_slot6;
-                var9 = var5.bind(var4)();
-                var6 = var9.style;
-                var5 = var9.textColor;
+                var2 = _closure1_slot6;
+                var2 = var2.bind(var4)();
+                var6 = var2.style;
+                var5 = var2.textColor;
                 var5 = var5.color;
-                var9 = var9.placeholderColor;
-                var10 = var9.color;
-                var26 = _closure1_slot0;
-                var27 = _closure1_slot2;
-                var9 = 7;
-                var9 = var27[var9];
-                var24 = var26.bind(var4)(var9);
-                var9 = var24.useTheme;
-                var28 = var9.bind(var24)();
-                var9 = 8;
-                var9 = var27[var9];
-                var24 = var26.bind(var4)(var9);
-                var9 = var24.isThemeDark;
-                var24 = var9.bind(var24)(var28);
+                var2 = var2.placeholderColor;
+                var10 = var2.color;
+                var27 = _closure1_slot0;
+                var28 = _closure1_slot2;
+                var2 = 7;
+                var2 = var28[var2];
+                var9 = var27.bind(var4)(var2);
+                var2 = var9.useTheme;
+                var29 = var2.bind(var9)();
+                var2 = 8;
+                var2 = var28[var2];
+                var9 = var27.bind(var4)(var2);
+                var2 = var9.isThemeDark;
+                var2 = var2.bind(var9)(var29);
                 var9 = 9;
-                var9 = var27[var9];
-                var28 = var26.bind(var4)(var9);
-                var27 = var28.hexWithOpacity;
-                var26 = _closure1_slot1;
-                var29 = _closure1_slot2;
+                var9 = var28[var9];
+                var29 = var27.bind(var4)(var9);
+                var28 = var29.hexWithOpacity;
+                var27 = _closure1_slot1;
+                var30 = _closure1_slot2;
                 var9 = 5;
-                var9 = var29[var9];
-                var9 = var26.bind(var4)(var9);
+                var9 = var30[var9];
+                var9 = var27.bind(var4)(var9);
                 var9 = var9.unsafe_rawColors;
-                if(var24) { _fun0002_ip = 323; continue _fun0002 }
- 315:
-                var26 = var9.PRIMARY_500;
-                _fun0002_ip = 329; continue _fun0002;
- 323:
-                var26 = var9.WHITE_500;
+                if(var2) { _fun0002_ip = 329; continue _fun0002 }
+ 321:
+                var27 = var9.PRIMARY_500;
+                _fun0002_ip = 335; continue _fun0002;
  329:
+                var27 = var9.WHITE_500;
+ 335:
                 var9 = _closure1_slot4;
-                var29 = var9.gradientPreset;
+                var30 = var9.gradientPreset;
                 var9 = null;
-                var29 = var9 != var29;
+                var30 = var9 != var30;
                 var9 = 0.6;
-                if(!var29) { _fun0002_ip = 368; continue _fun0002 }
- 358:
+                if(!var30) { _fun0002_ip = 374; continue _fun0002 }
+ 364:
                 var9 = 0.8;
- 368:
-                var9 = var27.bind(var28)(var26, var9);
-                var27 = _closure1_slot3;
-                var26 = var27.useRef;
-                var26 = var26.bind(var27)(var25);
-                _closure2_slot1 = var26;
-                var28 = var27.useEffect;
-                var26 = new Array(1);
-                var26[0] = var25;
-                var25 = function() {
+ 374:
+                var9 = var28.bind(var29)(var27, var9);
+                var28 = _closure1_slot3;
+                var27 = var28.useRef;
+                var27 = var27.bind(var28)(var26);
+                _closure2_slot1 = var27;
+                var29 = var28.useEffect;
+                var27 = new Array(1);
+                var27[0] = var26;
+                var26 = function() {
                     var2 = _closure2_slot1;
                     var1 = _closure2_slot0;
                     var2['current'] = var1;
                     var1 = undefined;
                     return var1;
                 };
-                var25 = var28.bind(var27)(var25, var26);
-                var26 = var27.useEffect;
-                var25 = function() {
+                var26 = var29.bind(var28)(var26, var27);
+                var27 = var28.useEffect;
+                var26 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                         var2 = _closure2_slot1;
@@ -179,56 +180,63 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var22 = new Array(0);
-                var22 = var26.bind(var27)(var25, var22);
+                var24 = new Array(0);
+                var24 = var27.bind(var28)(var26, var24);
+                var27 = _closure1_slot0;
+                var26 = _closure1_slot2;
+                var24 = 10;
+                var26 = var26[var24];
+                var27 = var27.bind(var4)(var26);
+                var26 = var27.isAndroid;
+                var26 = var26.bind(var27)();
+                var27 = undefined;
+                if(var26) { _fun0002_ip = 483; continue _fun0002 }
+ 480:
+                var27 = var23;
+ 483:
                 var26 = _closure1_slot0;
-                var25 = _closure1_slot2;
-                var22 = 10;
-                var25 = var25[var22];
-                var26 = var26.bind(var4)(var25);
-                var25 = var26.isAndroid;
-                var25 = var25.bind(var26)();
+                var23 = _closure1_slot2;
+                var23 = var23[var24];
+                var26 = var26.bind(var4)(var23);
+                var23 = var26.isAndroid;
+                var23 = var23.bind(var26)();
                 var26 = undefined;
-                if(var25) { _fun0002_ip = 477; continue _fun0002 }
- 474:
-                var26 = var3;
- 477:
-                var25 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var3 = var3[var22];
-                var25 = var25.bind(var4)(var3);
-                var3 = var25.isAndroid;
-                var3 = var3.bind(var25)();
-                var25 = undefined;
-                if(var3) { _fun0002_ip = 511; continue _fun0002 }
- 508:
-                var25 = var2;
- 511:
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
-                var2 = var2[var22];
-                var3 = var3.bind(var4)(var2);
-                var2 = var3.isAndroid;
-                var2 = var2.bind(var3)();
-                var22 = 'default';
-                if(!var2) { _fun0002_ip = 546; continue _fun0002 }
- 544:
-                var22 = undefined;
- 546:
+                if(var23) { _fun0002_ip = 517; continue _fun0002 }
+ 514:
+                var26 = var21;
+ 517:
+                var23 = _closure1_slot0;
+                var21 = _closure1_slot2;
+                var21 = var21[var24];
+                var23 = var23.bind(var4)(var21);
+                var21 = var23.isAndroid;
+                var21 = var21.bind(var23)();
+                var23 = 'default';
+                if(!var21) { _fun0002_ip = 552; continue _fun0002 }
+ 550:
+                var23 = undefined;
+ 552:
+                var24 = 2;
+                if(!var2) { _fun0002_ip = 561; continue _fun0002 }
+ 558:
+                var24 = 1;
+ 561:
+                var21 = _closure1_slot1;
+                var28 = _closure1_slot2;
+                var2 = 11;
+                var2 = var28[var2];
+                var2 = var21.bind(var4)(var2);
+                var21 = var2.bind(var4)(var3);
                 var3 = _closure1_slot5;
                 var2 = _closure1_slot7;
                 var1 = {};
-                var1['accessibilityLabel'] = var26;
-                var1['children'] = var25;
-                var1['editable'] = var23;
-                var23 = 2;
-                if(!var24) { _fun0002_ip = 578; continue _fun0002 }
- 575:
-                var23 = 1;
- 578:
-                var1['keyboardAppearance'] = var23;
-                var1['keyboardType'] = var22;
-                var1['markAsSpoilerTitle'] = var21;
+                var1['accessibilityLabel'] = var27;
+                var1['children'] = var26;
+                var1['editable'] = var25;
+                var1['keyboardAppearance'] = var24;
+                var1['keyboardType'] = var23;
+                var1['markAsSpoilerTitle'] = var22;
+                var1['maxHeight'] = var21;
                 var1['onBeginFocus'] = var20;
                 var1['onEndBlur'] = var19;
                 var1['onChangeContentSize'] = var18;
@@ -263,7 +271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var8.bind(var1)(var4);
         _fun0001_ip = 308; continue _fun0001;
  291:
-        var8 = 11;
+        var8 = 12;
         var8 = var6[var8];
         var8 = var5.bind(var1)(var8);
         var4 = var8.default;
@@ -271,7 +279,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure1_slot7 = var4;
         var4 = 'ChatInputNativeComponent';
         var2['displayName'] = var4;
-        var4 = 12;
+        var4 = 13;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

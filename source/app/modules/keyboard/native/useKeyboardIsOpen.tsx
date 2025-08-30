@@ -19,7 +19,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var1;
     var1 = function KEYBOARD_OPEN_GETTER(arg1) {
         var1 = arg1;
-        var1 = var1.keyboardOpen;
+        var1 = var1.systemKeyboardOpen;
         return var1;
     };
     var _closure1_slot4 = var1;
@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
-            var1 = var2.keyboardOpen;
+            var1 = var2.systemKeyboardOpen;
             if(var1) { _fun0001_ip = 58; continue _fun0001 }
  12:
             var3 = var2.keyboardType;
@@ -104,7 +104,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var6)(var1);
             var1 = var5.getState;
             var1 = var1.bind(var5)();
-            var5 = var1.keyboardOpen;
+            var5 = var1.systemKeyboardOpen;
             var1 = var5;
             if(!var2) { _fun0003_ip = 146; continue _fun0003 }
  73:

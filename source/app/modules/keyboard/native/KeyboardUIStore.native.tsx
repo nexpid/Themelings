@@ -223,10 +223,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var10 = !var14;
  312:
                         var6 = _closure2_slot0;
-                        var6 = var6.keyboardOpen;
+                        var6 = var6.systemKeyboardOpen;
                         if(!(var11 == var6)) { _fun0004_ip = 332; continue _fun0004 }
  326:
-                        var6 = var1.keyboardOpen;
+                        var6 = var1.systemKeyboardOpen;
  332:
                         if(!var6) { _fun0004_ip = 386; continue _fun0004 }
  335:
@@ -307,7 +307,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var1.customKeyboardHeight;
                         if(!(var2 === var3)) { _fun0004_ip = 623; continue _fun0004 }
  613:
-                        var2 = var1.keyboardOpen;
+                        var2 = var1.systemKeyboardOpen;
                         if(!(var2 !== var6)) { _fun0004_ip = 668; continue _fun0004 }
  623:
                         var2 = {};
@@ -315,7 +315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['keyboardDuration'] = var9;
                         var2['keyboardHeight'] = var8;
                         var2['keyboardHeightExcludingSafeAreaInsets'] = var7;
-                        var2['keyboardOpen'] = var6;
+                        var2['systemKeyboardOpen'] = var6;
                         var2['keyboardType'] = var5;
                         var2['keyboardTypePrevious'] = var4;
                         var2['customKeyboardHeight'] = var3;
@@ -458,7 +458,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {'keyboardHeight': 0, 'excludeSafeAreaInsets': true};
             var7 = var8.bind(var3)(var7);
             var1['keyboardHeightExcludingSafeAreaInsets'] = var7;
-            var1['keyboardOpen'] = var6;
+            var1['systemKeyboardOpen'] = var6;
             var6 = var5[var2];
             var6 = var4.bind(var3)(var6);
             var6 = var6.KeyboardTypes;
@@ -484,7 +484,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['keyboardHeight'] = var5;
             var3['keyboardDuration'] = var1;
             var5 = true;
-            var3['keyboardOpen'] = var5;
+            var3['systemKeyboardOpen'] = var5;
             var1 = undefined;
             var3 = var4.bind(var1)(var3);
             var4 = _closure1_slot0;
@@ -506,7 +506,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot12;
             var4 = false;
             var1 = undefined;
-            var3 = {'keyboardHeight': 0, 'keyboardOpen': false};
+            var3 = {'keyboardHeight': 0, 'systemKeyboardOpen': false};
             var3 = var5.bind(var1)(var3);
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;

@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['registrationName'] = var5;
     var1['topTapAction'] = var2;
     var4['directEventTypes'] = var1;
-    var2 = {'textColor': true, 'editable': true, 'shouldShowCursor': true, 'placeholder': true, 'placeholderColor': true, 'markAsSpoilerTitle': true, 'keyboardAppearance': true, 'selectionColor': true, 'setNoExtractUI': true, 'keyboardType': true};
+    var2 = {'textColor': true, 'editable': true, 'shouldShowCursor': true, 'placeholder': true, 'placeholderColor': true, 'markAsSpoilerTitle': true, 'keyboardAppearance': true, 'selectionColor': true, 'setNoExtractUI': true, 'keyboardType': true, 'maxHeight': true};
     var1 = 0;
     var5 = var8[var1];
     var1 = undefined;

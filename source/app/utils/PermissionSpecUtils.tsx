@@ -249,15 +249,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var22.type;
             var1 = _closure1_slot7;
             var1 = var1.GUILD_CATEGORY;
-            if(!(var1 !== var4)) { _fun0003_ip = 2389; continue _fun0003 }
+            if(!(var1 !== var4)) { _fun0003_ip = 2393; continue _fun0003 }
  294:
             var1 = _closure1_slot7;
             var1 = var1.GUILD_VOICE;
-            if(!(var1 !== var4)) { _fun0003_ip = 1844; continue _fun0003 }
+            if(!(var1 !== var4)) { _fun0003_ip = 1848; continue _fun0003 }
  311:
             var1 = _closure1_slot7;
             var1 = var1.GUILD_STAGE_VOICE;
-            if(!(var1 !== var4)) { _fun0003_ip = 1221; continue _fun0003 }
+            if(!(var1 !== var4)) { _fun0003_ip = 1225; continue _fun0003 }
  328:
             var1 = _closure1_slot7;
             var1 = var1.GUILD_FORUM;
@@ -438,8 +438,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var11.generateChannelTextSection;
             var2 = {'showPrivateThreads': false, 'showCreateThreads': false};
             var13 = undefined;
-            if(!var14) { _fun0003_ip = 1085; continue _fun0003 }
- 1038:
+            if(!var14) { _fun0003_ip = 1089; continue _fun0003 }
+ 1042:
             var20 = _closure1_slot0;
             var18 = _closure1_slot3;
             var18 = var18[var15];
@@ -478,7 +478,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var18['setUpAutomod'] = var23;
             var13 = var20.bind(var21)(var22, var18);
- 1085:
+ 1089:
             var2['sectionDescription'] = var13;
             var2['inSoundmojiExperiment'] = var17;
             var2['inPinPermissionExperiment'] = var16;
@@ -530,7 +530,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var1;
             var2 = arraySpread(var26, var25, var24);
             return var1;
- 1221:
+ 1225:
             var9 = _closure1_slot2;
             var2 = _closure1_slot3;
             var4 = 14;
@@ -624,8 +624,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var13)(var2);
             var2 = {};
             var13 = undefined;
-            if(!var14) { _fun0003_ip = 1732; continue _fun0003 }
- 1665:
+            if(!var14) { _fun0003_ip = 1736; continue _fun0003 }
+ 1669:
             var19 = _closure1_slot0;
             var18 = _closure1_slot3;
             var20 = var18[var15];
@@ -653,7 +653,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var18['setUpAutomod'] = var22;
             var13 = var20.bind(var21)(var19, var18);
- 1732:
+ 1736:
             var2['sectionDescription'] = var13;
             var2['inSoundmojiExperiment'] = var17;
             var2 = var9.bind(var12)(var6, var5, var2);
@@ -678,7 +678,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var9)(var6, var4, var2);
             var1[6] = var2;
             return var1;
- 1844:
+ 1848:
             var9 = _closure1_slot2;
             var2 = _closure1_slot3;
             var4 = 14;
@@ -744,8 +744,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var12)(var2);
             var2 = {};
             var12 = undefined;
-            if(!var14) { _fun0003_ip = 2216; continue _fun0003 }
- 2149:
+            if(!var14) { _fun0003_ip = 2220; continue _fun0003 }
+ 2153:
             var15 = _closure1_slot0;
             var14 = _closure1_slot3;
             var18 = var14[var13];
@@ -773,7 +773,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var14['setUpAutomod'] = var20;
             var12 = var18.bind(var19)(var15, var14);
- 2216:
+ 2220:
             var2['sectionDescription'] = var12;
             var2['inSoundmojiExperiment'] = var17;
             var2 = var9.bind(var11)(var6, var5, var2);
@@ -810,7 +810,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var5)(var6, var2);
             var1[5] = var2;
             return var1;
- 2389:
+ 2393:
             var5 = _closure1_slot2;
             var11 = _closure1_slot3;
             var4 = 14;

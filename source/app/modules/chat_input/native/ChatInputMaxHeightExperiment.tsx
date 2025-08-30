@@ -1,0 +1,56 @@
+// app/modules/chat_input/native/ChatInputMaxHeightExperiment.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var6 = require;
+    var3 = exports;
+    var7 = dependencyMap;
+    var1 = global;
+    var8 = var1.Object;
+    var5 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var5.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var7[var1];
+    var1 = undefined;
+    var8 = var6.bind(var1)(var4);
+    var5 = var8.createApexExperiment;
+    var4 = {'name': '2025-08-chat-input-max-height', 'kind': 'user'};
+    var9 = {'maxHeight': 100, 'clampEnabled': false};
+    var4['defaultConfig'] = var9;
+    var9 = {};
+    var10 = {'maxHeight': 200, 'clampEnabled': true};
+    var9[1] = var10;
+    var10 = {'maxHeight': 100, 'clampEnabled': true};
+    var9[2] = var10;
+    var4['variations'] = var9;
+    var4 = var5.bind(var8)(var4);
+    var8 = var4.getConfig;
+    var5 = {};
+    var9 = 'chatInputMaxHeight';
+    var5['location'] = var9;
+    var5 = var8.bind(var4)(var5);
+    var8 = var5.maxHeight;
+    var _closure1_slot0 = var8;
+    var5 = var5.clampEnabled;
+    var _closure1_slot1 = var5;
+    var5 = 1;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/chat_input/native/ChatInputMaxHeightExperiment.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['ChatInputMaxHeightExperiment'] = var4;
+    var4 = function getChatInputMaxHeightIsClamped() {
+        var1 = _closure1_slot1;
+        return var1;
+    };
+    var3['getChatInputMaxHeightIsClamped'] = var4;
+    var2 = function getChatInputMaxHeightExperimentValue() {
+        var1 = _closure1_slot0;
+        return var1;
+    };
+    var3['getChatInputMaxHeightExperimentValue'] = var2;
+    return var1;
+})();

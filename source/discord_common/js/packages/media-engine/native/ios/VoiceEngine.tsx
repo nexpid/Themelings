@@ -905,6 +905,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var7 = var8.bind(var1)(var9, var7);
         var2['setBroadcastBlockedCallback'] = var7;
+        var9 = 'system-microphone-mode-change';
+        var7 = function(arg1) {
+            var1 = arg1;
+            var2 = var1.mode;
+            var1 = new Array(1);
+            var1[0] = var2;
+            return var1;
+        };
+        var7 = var8.bind(var1)(var9, var7);
+        var2['setSystemMicrophoneModeChangeCallback'] = var7;
         var9 = 'on-broadcast-thumbnail';
         var7 = function(arg1) {
             var1 = arg1;
