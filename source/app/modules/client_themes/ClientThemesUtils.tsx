@@ -17,8 +17,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var1];
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
+    var7 = var4.PROTO_THEME_MAP_MOBILE;
+    var _closure1_slot2 = var7;
     var4 = var4.PROTO_THEME_MAP_WEB_REFRESH;
-    var _closure1_slot2 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);

@@ -587,7 +587,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['autoInitializeNativeSdk'] = var9;
                     var9 = _closure1_slot14;
                     var5['beforeSend'] = var9;
-                    var9 = '4568';
+                    var9 = '4569';
                     var5['dist'] = var9;
                     var5['dsn'] = var6;
                     var5['environment'] = var3;
@@ -597,7 +597,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['sampleRate'] = var3;
                     var3 = _closure1_slot10;
                     var5['ignoreErrors'] = var3;
-                    var3 = 'discord_android@296.8.0-2+296208';
+                    var3 = 'discord_android@296.9.0-2+296209';
                     var5['release'] = var3;
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot3;
