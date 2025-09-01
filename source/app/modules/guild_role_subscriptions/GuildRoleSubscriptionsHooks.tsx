@@ -481,10 +481,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arguments[1];
             var _closure2_slot0 = var4;
             var5 = undefined;
-            if(!(var2 === var5)) { _fun0009_ip = 28; continue _fun0009 }
+            if(!(var2 === var5)) { _fun0009_ip = 32; continue _fun0009 }
  18:
             var2 = {'includeSoftDeleted': false, 'sortDeletedListingsLast': false};
- 28:
+ 32:
             var _closure2_slot1 = var2;
             var3 = _closure1_slot11;
             var3 = var3.bind(var5)(var4);

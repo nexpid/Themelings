@@ -103,15 +103,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.bind(var2)();
             var1 = var1.length;
             var3 = 0;
-            if(!(!(var1 > var3))) { _fun0003_ip = 69; continue _fun0003 }
+            if(!(!(var1 > var3))) { _fun0003_ip = 73; continue _fun0003 }
  44:
             var1 = var2.isEmpty;
             var1 = var1.bind(var2)();
-            if(!var1) { _fun0003_ip = 69; continue _fun0003 }
+            if(!var1) { _fun0003_ip = 73; continue _fun0003 }
  57:
             var1 = {'render': false, 'lastShownChannelActive': false};
             return var1;
- 69:
+ 73:
             var1 = var2.getShownChannelIds;
             var1 = var1.bind(var2)();
             var4 = var1.length;
