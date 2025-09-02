@@ -515,20 +515,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var2 = arg1;
-            var8 = var2.channelId;
-            var _closure2_slot0 = var8;
+            var3 = var2.channelId;
+            var _closure2_slot0 = var3;
             var6 = var2.screenIndex;
             var3 = var2.showCreateThread;
             var4 = _closure1_slot0;
-            var9 = _closure1_slot2;
+            var8 = _closure1_slot2;
             var5 = 14;
-            var7 = var9[var5];
+            var7 = var8[var5];
             var5 = undefined;
-            var11 = var4.bind(var5)(var7);
-            var10 = var11.useStateFromStores;
-            var12 = _closure1_slot6;
+            var10 = var4.bind(var5)(var7);
+            var9 = var10.useStateFromStores;
+            var11 = _closure1_slot6;
             var7 = new Array(1);
-            var7[0] = var12;
+            var7[0] = var11;
             var1 = function() {
                 var3 = _closure1_slot6;
                 var2 = var3.getChannel;
@@ -536,46 +536,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var7 = var10.bind(var11)(var7, var1);
+            var7 = var9.bind(var10)(var7, var1);
             var1 = 37;
-            var1 = var9[var1];
+            var1 = var8[var1];
             var4 = var4.bind(var5)(var1);
-            var1 = var4.useShouldAgeGateChannel;
-            var8 = var1.bind(var4)(var8);
+            var1 = var4.useIsChannelContentGated;
+            var8 = var1.bind(var4)(var7);
             var4 = null;
             var9 = var4 == var7;
             var1 = null;
-            if(var9) { _fun0003_ip = 198; continue _fun0003 }
+            if(var9) { _fun0003_ip = 148; continue _fun0003 }
  113:
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var9 = 38;
-            var9 = var11[var9];
-            var11 = var10.bind(var5)(var9);
-            var10 = var11.shouldNSFWGateGuild;
-            var12 = var4 == var7;
-            var9 = undefined;
-            if(var12) { _fun0003_ip = 153; continue _fun0003 }
- 148:
-            var9 = var7.guild_id;
- 153:
-            var9 = var10.bind(var11)(var9);
             var1 = null;
-            if(var9) { _fun0003_ip = 198; continue _fun0003 }
- 163:
+            if(var8) { _fun0003_ip = 148; continue _fun0003 }
+ 118:
             var1 = null;
-            if(var8) { _fun0003_ip = 198; continue _fun0003 }
- 168:
-            var1 = null;
-            if(var3) { _fun0003_ip = 198; continue _fun0003 }
- 173:
+            if(var3) { _fun0003_ip = 148; continue _fun0003 }
+ 123:
             var4 = _closure1_slot13;
             var3 = _closure1_slot15;
             var2 = {};
             var2['channel'] = var7;
             var2['screenIndex'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 198:
+ 148:
             return var1;
         }
     };
@@ -648,7 +632,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['actionWrapper'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot14 = var4;
-    var4 = 41;
+    var4 = 40;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -745,7 +729,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = _closure1_slot13;
             var8 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var7 = 40;
+            var7 = 39;
             var7 = var12[var7];
             var8 = var8.bind(var4)(var7);
             var7 = {};
@@ -758,7 +742,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot13;
             var7 = _closure1_slot0;
             var10 = _closure1_slot2;
-            var6 = 39;
+            var6 = 38;
             var6 = var10[var6];
             var6 = var7.bind(var4)(var6);
             var7 = var6.ForumChannelCloseSearchButton;

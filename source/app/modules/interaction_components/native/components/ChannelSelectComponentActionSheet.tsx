@@ -42,14 +42,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function _default(arg1) {
         var1 = arg1;
-        var11 = var1.selectionActionComponent;
+        var12 = var1.selectionActionComponent;
+        var11 = var1.labelComponent;
         var5 = var1.channelId;
         var _closure2_slot0 = var5;
         var10 = var1.guildId;
         var _closure2_slot1 = var10;
-        var12 = var1.containerId;
+        var13 = var1.containerId;
         var8 = var1.onSubmit;
-        var2 = var11.channelTypes;
+        var2 = var12.channelTypes;
         var _closure2_slot2 = var2;
         var7 = _closure1_slot3;
         var4 = var7.useCallback;
@@ -72,14 +73,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var9 = var4.bind(var7)(var2, var3);
         var2 = _closure1_slot1;
-        var13 = _closure1_slot2;
+        var14 = _closure1_slot2;
         var3 = 5;
-        var3 = var13[var3];
+        var3 = var14[var3];
         var4 = undefined;
         var7 = var2.bind(var4)(var3);
         var3 = {};
-        var3['selectActionComponent'] = var11;
-        var3['containerId'] = var12;
+        var3['selectActionComponent'] = var12;
+        var3['containerId'] = var13;
         var3['guildId'] = var10;
         var3['queryOptions'] = var9;
         var3['onSubmit'] = var8;
@@ -87,17 +88,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var3.options;
         var9 = var3.selectedOptions;
         var8 = var3.isSelected;
-        var12 = var3.onPressOptionItem;
+        var13 = var3.onPressOptionItem;
         var7 = var3.submitSelection;
         var _closure2_slot3 = var7;
         var7 = var3.setQuery;
         var3 = _closure1_slot6;
         var1 = 6;
-        var1 = var13[var1];
+        var1 = var14[var1];
         var2 = var2.bind(var4)(var1);
         var1 = {};
-        var1['onPressOptionItem'] = var12;
-        var12 = function renderIcon(arg1) {
+        var1['onPressOptionItem'] = var13;
+        var13 = function renderIcon(arg1) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                 var4 = _closure1_slot4;
@@ -138,8 +139,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var1['renderIcon'] = var12;
-        var1['selectionActionComponent'] = var11;
+        var1['renderIcon'] = var13;
+        var1['selectionActionComponent'] = var12;
+        var1['labelComponent'] = var11;
         var1['options'] = var10;
         var10 = var9.length;
         var1['selectedCount'] = var10;

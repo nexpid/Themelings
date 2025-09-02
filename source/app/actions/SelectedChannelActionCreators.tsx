@@ -29,22 +29,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 2;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
+    var _closure1_slot6 = var2;
     var2 = 3;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot6 = var2;
+    var _closure1_slot7 = var2;
     var2 = 4;
     var2 = var6[var2];
     var2 = var7.bind(var1)(var2);
-    var _closure1_slot7 = var2;
-    var2 = 5;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
     var _closure1_slot8 = var2;
-    var2 = 6;
-    var2 = var6[var2];
-    var2 = var7.bind(var1)(var2);
-    var2 = 7;
+    var2 = 5;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var7 = var2.ME;
@@ -67,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.isInitialSetup;
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 8;
+            var1 = 6;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -96,7 +90,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function selectPrivateChannel(arg1) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot3;
-        var1 = 9;
+        var1 = 7;
         var3 = var3[var1];
         var1 = undefined;
         var4 = var4.bind(var1)(var3);
@@ -147,7 +141,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  78:
             var10 = _closure1_slot0;
             var11 = _closure1_slot3;
-            var9 = 10;
+            var9 = 8;
             var9 = var11[var9];
             var10 = var10.bind(var1)(var9);
             var9 = var10.endHangout;
@@ -156,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  110:
             var10 = _closure1_slot0;
             var11 = _closure1_slot3;
-            var9 = 10;
+            var9 = 8;
             var9 = var11[var9];
             var10 = var10.bind(var1)(var9);
             var9 = var10.startHangout;
@@ -177,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  187:
             var3 = _closure1_slot0;
             var9 = _closure1_slot3;
-            var2 = 11;
+            var2 = 9;
             var2 = var9[var2];
             var3 = var3.bind(var1)(var2);
             var2 = var3.selectVoiceChannelAdditional;
@@ -205,7 +199,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  26:
             var7 = _closure1_slot2;
             var5 = _closure1_slot3;
-            var1 = 12;
+            var1 = 10;
             var5 = var5[var1];
             var1 = undefined;
             var5 = var7.bind(var1)(var5);
@@ -214,7 +208,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  59:
             var6 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var1 = 13;
+            var1 = 11;
             var5 = var5[var1];
             var1 = undefined;
             var6 = var6.bind(var1)(var5);
@@ -249,7 +243,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.bind(var4)(var3);
             var7 = _closure1_slot2;
             var8 = _closure1_slot3;
-            var6 = 14;
+            var6 = 12;
             var6 = var8[var6];
             var8 = var7.bind(var1)(var6);
             var7 = var8.close;
@@ -265,11 +259,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  250:
             var7 = _closure1_slot0;
             var9 = _closure1_slot3;
-            var2 = 9;
+            var2 = 7;
             var2 = var9[var2];
             var6 = var7.bind(var1)(var2);
             var5 = var6.transitionTo;
-            var2 = 15;
+            var2 = 13;
             var2 = var9[var2];
             var7 = var7.bind(var1)(var2);
             var2 = var7.previousTextChannelRouteForGuild;
@@ -284,7 +278,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var2['disconnect'] = var4;
-    var4 = 16;
+    var4 = 14;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

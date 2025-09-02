@@ -193,16 +193,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = {'variant': 'secondary', 'size': 'md'};
         var14 = var17[var13];
         var14 = var16.bind(var4)(var14);
-        var18 = var14.intl;
-        var15 = var18.string;
-        var14 = var17[var13];
-        var14 = var16.bind(var4)(var14);
-        var14 = var14.t;
-        var14 = var14.kw8/ER;
-        var14 = var15.bind(var18)(var14);
-        var9['accessibilityLabel'] = var14;
-        var14 = var17[var13];
-        var14 = var16.bind(var4)(var14);
         var15 = var14.intl;
         var14 = var15.string;
         var13 = var17[var13];

@@ -2003,13 +2003,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = 0;
                             var2 = var3 === var4;
  36:
-                            if(var2) { _fun0022_ip = 67; continue _fun0022 }
+                            if(var2) { _fun0022_ip = 63; continue _fun0022 }
  39:
                             var3 = _closure2_slot23;
                             var2 = var3.set;
                             var1 = {'gestureActive': false, 'x': 0, 'y': 0};
                             var1 = var2.bind(var3)(var1);
- 67:
+ 63:
                             var1 = undefined;
                             return var1;
                         }

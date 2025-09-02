@@ -98,6 +98,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['INTRO_TO_ORBS_QUEST'] = var1;
     var1 = 'intro to orbs quest banner';
     var2['INTRO_TO_ORBS_QUEST_BANNER'] = var1;
+    var1 = 'mobile orbs reward claim modal';
+    var2['MOBILE_ORBS_REWARD_CLAIM_MODAL'] = var1;
     var1 = 'orbs balance menu';
     var2['ORBS_BALANCE_MENU'] = var1;
     var1 = 'premium payment action sheet';
@@ -158,6 +160,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CHURN_DISCOUNT_SUBSCRIPTION_HEADER'] = var1;
     var1 = 'churn discount popover';
     var2['CHURN_DISCOUNT_POPOVER'] = var1;
+    var1 = 'churn discount persistent cta';
+    var2['CHURN_DISCOUNT_PERSISTENT_CTA'] = var1;
     var1 = 'account credit banner';
     var2['ACCOUNT_CREDIT_BANNER'] = var1;
     var1 = 'premium uncancel modal';

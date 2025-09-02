@@ -89,8 +89,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 11;
             var3 = var8[var3];
             var4 = var4.bind(var5)(var3);
-            var3 = var4.useShouldAgeGateChannel;
-            var3 = var3.bind(var4)(var9);
+            var3 = var4.useIsChannelContentGated;
+            var3 = var3.bind(var4)(var11);
             var8 = !var3;
             if(!var8) { _fun0001_ip = 147; continue _fun0001 }
  144:

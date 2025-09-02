@@ -70,35 +70,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var7 = var1.quest;
-            var11 = var1.product;
+            var13 = var1.product;
             var6 = var1.questContent;
             var5 = var1.questContentPosition;
-            var10 = var1.onSuccess;
+            var12 = var1.onSuccess;
             var4 = var1.sourceQuestContent;
             var8 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 7;
-            var3 = var3[var1];
+            var1 = _closure1_slot2;
+            var9 = 7;
+            var3 = var1[var9];
             var1 = undefined;
-            var9 = var8.bind(var1)(var3);
-            var8 = var9.hasQuestRewardCode;
+            var10 = var8.bind(var1)(var3);
+            var8 = var10.hasQuestRewardCode;
             var3 = var7.config;
-            var3 = var8.bind(var9)(var3);
-            if(var3) { _fun0001_ip = 133; continue _fun0001 }
+            var3 = var8.bind(var10)(var3);
+            if(var3) { _fun0001_ip = 201; continue _fun0001 }
  83:
             var8 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var9];
+            var9 = var8.bind(var1)(var3);
+            var8 = var9.hasVirtualCurrencyReward;
+            var3 = var7.config;
+            var3 = var8.bind(var9)(var3);
+            var8 = _closure1_slot0;
             var9 = _closure1_slot2;
+            if(var3) { _fun0001_ip = 169; continue _fun0001 }
+ 127:
+            var3 = 9;
+            var3 = var9[var3];
+            var11 = var8.bind(var1)(var3);
+            var10 = var11.openQuestCollectibleRewardModal;
+            var3 = {};
+            var3['quest'] = var7;
+            var3['product'] = var13;
+            var3['onSuccess'] = var12;
+            var3 = var10.bind(var11)(var3);
+            _fun0001_ip = 237; continue _fun0001;
+ 169:
             var3 = 8;
             var3 = var9[var3];
             var9 = var8.bind(var1)(var3);
-            var8 = var9.openQuestCollectibleRewardModal;
+            var8 = var9.openQuestsOrbsRewardModal;
             var3 = {};
             var3['quest'] = var7;
-            var3['product'] = var11;
-            var3['onSuccess'] = var10;
             var3 = var8.bind(var9)(var3);
-            _fun0001_ip = 169; continue _fun0001;
- 133:
+            _fun0001_ip = 237; continue _fun0001;
+ 201:
             var3 = _closure1_slot10;
             var2 = {};
             var7 = var7.id;
@@ -107,7 +125,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['questContentPosition'] = var5;
             var2['sourceQuestContent'] = var4;
             var2 = var3.bind(var1)(var2);
- 169:
+ 237:
             return var1;
         }
     };
@@ -130,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = undefined;
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var8 = 9;
+                    var8 = 10;
                     var8 = var10[var8];
                     var12 = var9.bind(var7)(var8);
                     var11 = var12.getQuestLogger;
@@ -139,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = var13.QUEST_HOME_MOBILE;
                     var8['location'] = var13;
                     var2 = var11.bind(var12)(var8);
-                    var8 = 10;
+                    var8 = 11;
                     var8 = var10[var8];
                     var8 = var9.bind(var7)(var8);
                     var9 = var8.SharedQuestFields;
@@ -152,13 +170,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  118: // try_start_0
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot2;
-                    var6 = 11;
+                    var6 = 12;
                     var6 = var11[var6];
                     var9 = var10.bind(var7)(var6);
                     var8 = var9.claimQuestReward;
                     var6 = var4.id;
                     var4 = var3;
-                    var3 = 12;
+                    var3 = 13;
                     var3 = var11[var3];
                     var3 = var10.bind(var7)(var3);
                     var3 = var3.QuestContent;
@@ -183,7 +201,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var4)(var2, var6);
                     var6 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var2 = 13;
+                    var2 = 14;
                     var2 = var8[var2];
                     var4 = var6.bind(var7)(var2);
                     var3 = var4.open;
@@ -191,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = 'CLAIM_QUEST_REWARD_ERROR';
                     var2['key'] = var9;
                     var11 = _closure1_slot0;
-                    var5 = 14;
+                    var5 = 15;
                     var9 = var8[var5];
                     var9 = var11.bind(var7)(var9);
                     var10 = var9.intl;
@@ -202,7 +220,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.CKsXk5;
                     var5 = var9.bind(var10)(var5);
                     var2['content'] = var5;
-                    var5 = 15;
+                    var5 = 16;
                     var5 = var8[var5];
                     var5 = var6.bind(var7)(var5);
                     var2['icon'] = var5;
@@ -274,7 +292,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  121:
                     var16 = _closure1_slot1;
                     var17 = _closure1_slot2;
-                    var5 = 13;
+                    var5 = 14;
                     var5 = var17[var5];
                     var12 = var16.bind(var6)(var5);
                     var11 = var12.open;
@@ -282,7 +300,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = 'CLAIM_QUEST_REWARD_ERROR';
                     var5['key'] = var15;
                     var20 = _closure1_slot0;
-                    var15 = 14;
+                    var15 = 15;
                     var18 = var17[var15];
                     var18 = var20.bind(var6)(var18);
                     var19 = var18.intl;
@@ -293,7 +311,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = var15.HZlu09;
                     var15 = var18.bind(var19)(var15);
                     var5['content'] = var15;
-                    var15 = 15;
+                    var15 = 16;
                     var15 = var17[var15];
                     var15 = var16.bind(var6)(var15);
                     var5['icon'] = var15;
@@ -367,7 +385,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var4.bind(var1)();
-    var6 = 19;
+    var6 = 20;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -413,7 +431,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var3;
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var3 = 16;
+            var3 = 17;
             var3 = var5[var3];
             var3 = var4.bind(var1)(var3);
             var3 = var3.bind(var1)();
@@ -424,7 +442,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 17;
+                    var1 = 18;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -458,7 +476,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg1;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 18;
+            var1 = 19;
             var2 = var2[var1];
             var1 = undefined;
             var2 = var4.bind(var1)(var2);

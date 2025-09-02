@@ -1962,7 +1962,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 30;
             var4 = var6[var4];
             var5 = var5.bind(var1)(var4);
-            var4 = var5.isChannelNSFW;
+            var4 = var5.isChannelContentGated;
             var4 = var4.bind(var5)(var3);
             if(var4) { _fun0014_ip = 153; continue _fun0014 }
  99:

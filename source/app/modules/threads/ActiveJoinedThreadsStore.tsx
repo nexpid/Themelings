@@ -884,7 +884,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = _closure1_slot2;
                 var14 = var14[var6];
                 var15 = var15.bind(var5)(var14);
-                var14 = var15.isChannelNSFW;
+                var14 = var15.isChannelContentGated;
                 var2 = var13[var2];
                 var2 = var2.channel;
                 var2 = var14.bind(var15)(var2);
@@ -916,7 +916,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = _closure1_slot2;
                 var11 = var11[var3];
                 var12 = var12.bind(var2)(var11);
-                var11 = var12.isChannelNSFW;
+                var11 = var12.isChannelContentGated;
                 var1 = var9[var1];
                 var1 = var11.bind(var12)(var1);
                 if(!var1) { _fun0012_ip = 156; continue _fun0012 }
@@ -2271,7 +2271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot2;
             var7 = var7[var5];
             var8 = var8.bind(var1)(var7);
-            var7 = var8.isChannelNSFW;
+            var7 = var8.isChannelContentGated;
             var7 = var7.bind(var8)(var3);
             var9 = _closure1_slot40;
             var8 = var3.guild_id;

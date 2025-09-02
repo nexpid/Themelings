@@ -20,45 +20,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.getChannel;
             var2 = var2.bind(var4)(var5);
             var4 = null;
-            if(!(var4 != var2)) { _fun0001_ip = 270; continue _fun0001 }
+            if(!(var4 != var2)) { _fun0001_ip = 236; continue _fun0001 }
  46:
-            var8 = _closure1_slot0;
-            var7 = _closure1_slot3;
-            var6 = 14;
-            var7 = var7[var6];
+            var7 = _closure1_slot0;
+            var6 = _closure1_slot3;
+            var4 = 14;
+            var4 = var6[var4];
             var6 = undefined;
-            var9 = var8.bind(var6)(var7);
-            var8 = var9.hasMessageReadPermission;
-            var7 = var3.application;
-            var7 = var7.id;
+            var8 = var7.bind(var6)(var4);
+            var7 = var8.hasMessageReadPermission;
+            var4 = var3.application;
+            var4 = var4.id;
             var3 = var3.authorization;
             var3 = var3.scopes;
-            var3 = var8.bind(var9)(var2, var7, var3);
-            if(!var3) { _fun0001_ip = 270; continue _fun0001 }
+            var3 = var7.bind(var8)(var2, var4, var3);
+            if(!var3) { _fun0001_ip = 236; continue _fun0001 }
  109:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot3;
+            var4 = _closure1_slot0;
+            var7 = _closure1_slot3;
             var3 = 16;
-            var3 = var8[var3];
-            var7 = var7.bind(var6)(var3);
-            var3 = var7.isChannelNSFW;
-            var3 = var3.bind(var7)(var2);
-            if(!var3) { _fun0001_ip = 177; continue _fun0001 }
+            var3 = var7[var3];
+            var4 = var4.bind(var6)(var3);
+            var3 = var4.userCannotSeeNSFWContent;
+            var3 = var3.bind(var4)(var2);
+            if(var3) { _fun0001_ip = 145; continue _fun0001 }
  143:
-            var7 = _closure1_slot13;
-            var3 = var7.getCurrentUser;
-            var3 = var3.bind(var7)();
-            var7 = var4 == var3;
-            var4 = undefined;
-            if(var7) { _fun0001_ip = 171; continue _fun0001 }
- 165:
-            var4 = var3.nsfwAllowed;
- 171:
-            var3 = true;
-            if(!(var3 === var4)) { _fun0001_ip = 179; continue _fun0001 }
- 177:
             return var6;
- 179:
+ 145:
             var4 = _closure1_slot1;
             var7 = _closure1_slot3;
             var3 = 15;
@@ -73,15 +61,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.HermesInternal;
             var3 = var2.concat;
             var2 = 'Invalid nsfw channel id: ';
-            var11 = var3.bind(var2)(var7);
+            var10 = var3.bind(var2)(var7);
             var3 = var6.prototype;
             var3 = Object.create(var3, {constructor: {value: var6}});
-            var13 = var3;
-            var12 = var4;
-            var2 = new var13[var6](var12, var11, var10);
+            var12 = var3;
+            var11 = var4;
+            var2 = new var12[var6](var11, var10, var9);
             var2 = var2 instanceof Object ? var2 : var3;
             throw var2;
- 270:
+ 236:
             var4 = _closure1_slot1;
             var3 = _closure1_slot3;
             var2 = 15;
@@ -96,12 +84,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.HermesInternal;
             var2 = var1.concat;
             var1 = 'Invalid channel id: ';
-            var11 = var2.bind(var1)(var5);
+            var10 = var2.bind(var1)(var5);
             var2 = var4.prototype;
             var2 = Object.create(var2, {constructor: {value: var4}});
-            var13 = var2;
-            var12 = var3;
-            var1 = new var13[var4](var12, var11, var10);
+            var12 = var2;
+            var11 = var3;
+            var1 = new var12[var4](var11, var10, var9);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
         }

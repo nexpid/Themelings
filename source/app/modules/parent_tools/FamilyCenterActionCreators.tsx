@@ -21,14 +21,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  7:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 5;
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var4.bind(var3)(var2);
                     var5 = var2.HTTP;
                     var4 = var5.patch;
                     var2 = {};
-                    var6 = _closure1_slot6;
+                    var6 = _closure1_slot7;
                     var6 = var6.FAMILY_CENTER_LINKED_USERS;
                     var2['url'] = var6;
                     var6 = {};
@@ -46,7 +46,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var1.body;
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var2 = 3;
+                        var2 = 4;
                         var3 = var3[var2];
                         var2 = undefined;
                         var4 = var4.bind(var2)(var3);
@@ -76,7 +76,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot7 = var4;
+        _closure1_slot8 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot8 = var1;
     var1 = function _removeLinkForUserId() {
         var5 = undefined;
         var1 = undefined;
@@ -101,14 +101,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var _closure4_slot0 = var8;
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var3 = 4;
+                    var3 = 5;
                     var4 = var4[var3];
                     var3 = undefined;
                     var4 = var5.bind(var3)(var4);
                     var6 = var4.HTTP;
                     var5 = var6.del;
                     var4 = {};
-                    var7 = _closure1_slot6;
+                    var7 = _closure1_slot7;
                     var7 = var7.FAMILY_CENTER_LINKED_USERS;
                     var4['url'] = var7;
                     var7 = {};
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var1.body;
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var2 = 3;
+                        var2 = 4;
                         var3 = var3[var2];
                         var2 = undefined;
                         var4 = var4.bind(var2)(var3);
@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot8 = var4;
+        _closure1_slot9 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -163,7 +163,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot9 = var1;
     var1 = function _getLinkCodeForCurrentUser() {
         var5 = undefined;
         var1 = undefined;
@@ -178,14 +178,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  7:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 5;
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var4.bind(var3)(var2);
                     var5 = var2.HTTP;
                     var4 = var5.get;
                     var2 = {};
-                    var6 = _closure1_slot6;
+                    var6 = _closure1_slot7;
                     var6 = var6.FAMILY_CENTER_LINK_CODE;
                     var2['url'] = var6;
                     var6 = false;
@@ -198,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var1.link_code;
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
-                        var2 = 3;
+                        var2 = 4;
                         var3 = var3[var2];
                         var2 = undefined;
                         var4 = var4.bind(var2)(var3);
@@ -228,7 +228,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot9 = var4;
+        _closure1_slot10 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -236,7 +236,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -252,16 +252,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var7[var4];
-    var4 = var6.bind(var1)(var4);
-    var4 = var4.FamilyCenterAction;
+    var4 = var5.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
+    var4 = var4.FamilyCenterAction;
+    var _closure1_slot5 = var4;
+    var4 = 3;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
     var5 = var4.AnalyticEvents;
-    var _closure1_slot5 = var5;
+    var _closure1_slot6 = var5;
     var4 = var4.Endpoints;
-    var _closure1_slot6 = var4;
+    var _closure1_slot7 = var4;
     var4 = {};
     var5 = function initialPageLoad() {
         var3 = _closure1_slot3;
@@ -276,7 +280,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10:
                     var3 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var9 = 3;
+                    var9 = 4;
                     var2 = var5[var9];
                     var6 = undefined;
                     var7 = var3.bind(var6)(var2);
@@ -286,13 +290,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['type'] = var8;
                     var2 = var3.bind(var7)(var2);
                     var3 = _closure1_slot0;
-                    var2 = 4;
+                    var2 = 5;
                     var2 = var5[var2];
                     var2 = var3.bind(var6)(var2);
                     var5 = var2.HTTP;
                     var3 = var5.get;
                     var2 = {};
-                    var7 = _closure1_slot6;
+                    var7 = _closure1_slot7;
                     var7 = var7.FAMILY_CENTER_TEEN_ACTIVITY_ME;
                     var2['url'] = var7;
                     var7 = false;
@@ -408,14 +412,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 5;
                     var2 = var5[var2];
                     var6 = undefined;
                     var2 = var3.bind(var6)(var2);
                     var5 = var2.HTTP;
                     var3 = var5.get;
                     var2 = {};
-                    var7 = _closure1_slot6;
+                    var7 = _closure1_slot7;
                     var7 = var7.FAMILY_CENTER_LINKED_USERS;
                     var2['url'] = var7;
                     var7 = false;
@@ -436,7 +440,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['users'] = var5;
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var4 = 3;
+                    var4 = 4;
                     var4 = var7[var4];
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.dispatch;
@@ -478,14 +482,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 5;
                     var2 = var5[var2];
                     var6 = undefined;
                     var2 = var3.bind(var6)(var2);
                     var5 = var2.HTTP;
                     var3 = var5.post;
                     var2 = {};
-                    var7 = _closure1_slot6;
+                    var7 = _closure1_slot7;
                     var7 = var7.FAMILY_CENTER_LINKED_USERS;
                     var2['url'] = var7;
                     var7 = {};
@@ -512,7 +516,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['users'] = var5;
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot2;
-                    var4 = 3;
+                    var4 = 4;
                     var4 = var7[var4];
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.dispatch;
@@ -552,7 +556,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10:
                     var3 = _closure1_slot1;
                     var5 = _closure1_slot2;
-                    var7 = 3;
+                    var7 = 4;
                     var2 = var5[var7];
                     var6 = undefined;
                     var8 = var3.bind(var6)(var2);
@@ -561,12 +565,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = 'FAMILY_CENTER_FETCH_START';
                     var2['type'] = var9;
                     var2 = var3.bind(var8)(var2);
-                    var8 = _closure1_slot6;
+                    var8 = _closure1_slot7;
                     var3 = var8.FAMILY_CENTER_TEEN_ACTIVITY;
                     var2 = _closure2_slot0;
                     var8 = var3.bind(var8)(var2);
                     var3 = _closure1_slot0;
-                    var2 = 4;
+                    var2 = 5;
                     var2 = var5[var2];
                     var2 = var3.bind(var6)(var2);
                     var5 = var2.HTTP;
@@ -643,14 +647,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10:
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 4;
+                    var2 = 5;
                     var2 = var4[var2];
                     var6 = undefined;
                     var2 = var3.bind(var6)(var2);
                     var4 = var2.HTTP;
                     var3 = var4.get;
                     var2 = {};
-                    var11 = _closure1_slot6;
+                    var11 = _closure1_slot7;
                     var10 = var11.FAMILY_CENTER_TEEN_ACTIVITY_MORE;
                     var17 = _closure2_slot0;
                     var16 = _closure2_slot1;
@@ -684,14 +688,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7['guilds'] = var4;
                     var5 = _closure1_slot1;
                     var8 = _closure1_slot2;
-                    var4 = 5;
+                    var4 = 6;
                     var4 = var8[var4];
                     var11 = var5.bind(var6)(var4);
                     var10 = var11.track;
-                    var4 = _closure1_slot5;
+                    var4 = _closure1_slot6;
                     var9 = var4.FAMILY_CENTER_ACTION;
                     var4 = {};
-                    var13 = _closure1_slot4;
+                    var13 = _closure1_slot5;
                     var13 = var13.LoadMore;
                     var4['action'] = var13;
                     var13 = _closure2_slot0;
@@ -699,7 +703,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = _closure2_slot1;
                     var4['action_display_type'] = var12;
                     var4 = var10.bind(var11)(var9, var4);
-                    var4 = 3;
+                    var4 = 4;
                     var4 = var8[var4];
                     var6 = var5.bind(var6)(var4);
                     var5 = var6.dispatch;
@@ -725,7 +729,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function selectTab(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 3;
+        var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -744,14 +748,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var7;
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var2 = 4;
+        var2 = 5;
         var3 = var3[var2];
         var2 = undefined;
         var2 = var4.bind(var2)(var3);
         var4 = var2.HTTP;
         var3 = var4.get;
         var2 = {};
-        var6 = _closure1_slot6;
+        var6 = _closure1_slot7;
         var5 = var6.FAMILY_CENTER_TEEN_SETTINGS_AND_CONSENTS;
         var5 = var5.bind(var6)(var7);
         var2['url'] = var5;
@@ -766,7 +770,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.consents;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 3;
+            var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -786,67 +790,124 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4['fetchTeenSettingsAndConsents'] = var5;
     var5 = function updateTeenSettings(arg1, arg2, arg3) {
-        var8 = arg1;
-        var _closure2_slot0 = var8;
-        var11 = _closure1_slot0;
-        var12 = _closure1_slot2;
-        var6 = 6;
-        var2 = var12[var6];
-        var10 = undefined;
-        var2 = var11.bind(var10)(var2);
-        var3 = var2.PreloadedUserSettings;
-        var2 = var3.create;
-        var9 = var2.bind(var3)();
+        var2 = arg1;
+        var _closure2_slot0 = var2;
         var2 = arg2;
-        var3 = var9[var2];
+        var _closure2_slot1 = var2;
         var2 = arg3;
-        var2 = var2.bind(var10)(var3);
-        var2 = 4;
-        var2 = var12[var2];
-        var2 = var11.bind(var10)(var2);
-        var4 = var2.HTTP;
-        var3 = var4.patch;
-        var2 = {};
-        var7 = _closure1_slot6;
-        var5 = var7.FAMILY_CENTER_TEEN_SETTINGS;
-        var5 = var5.bind(var7)(var8);
-        var2['url'] = var5;
-        var5 = {};
-        var7 = 7;
-        var7 = var12[var7];
-        var8 = var11.bind(var10)(var7);
-        var7 = var8.protoToB64;
-        var6 = var12[var6];
-        var6 = var11.bind(var10)(var6);
-        var6 = var6.PreloadedUserSettings;
-        var6 = var7.bind(var8)(var6, var9);
-        var5['settings'] = var6;
-        var2['body'] = var5;
-        var5 = false;
-        var2['rejectWithError'] = var5;
-        var3 = var3.bind(var4)(var2);
-        var2 = var3.then;
-        var1 = function(arg1) {
-            var1 = arg1;
-            var1 = var1.body;
-            var5 = var1.settings;
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 3;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.dispatch;
-            var2 = {};
-            var6 = 'FAMILY_CENTER_TEEN_UPDATE_SETTINGS_SUCCESS';
-            var2['type'] = var6;
-            var6 = _closure2_slot0;
-            var2['userId'] = var6;
-            var2['settings'] = var5;
-            var2 = var3.bind(var4)(var2);
+        var _closure2_slot2 = var2;
+        var3 = _closure1_slot3;
+        var2 = undefined;
+        var1 = function* () {
+            var1 = function* anon_0_() {
+                _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+ 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0009_ip = 375; continue _fun0009 }
+ 10:
+                    var5 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var7 = 7;
+                    var6 = var2[var7];
+                    var3 = undefined;
+                    var9 = var5.bind(var3)(var6);
+                    var6 = var9.getProtoFieldClass;
+                    var14 = 8;
+                    var2 = var2[var14];
+                    var2 = var5.bind(var3)(var2);
+                    var5 = var2.PreloadedUserSettings;
+                    var2 = _closure2_slot1;
+                    var12 = var6.bind(var9)(var5, var2);
+                    var6 = _closure1_slot4;
+                    var5 = var6.getSettings;
+                    var2 = _closure2_slot0;
+                    var6 = var5.bind(var6)(var2);
+                    var2 = null;
+                    var5 = var2 == var6;
+                    var11 = undefined;
+                    if(var5) { _fun0009_ip = 110; continue _fun0009 }
+ 102:
+                    var5 = _closure2_slot1;
+                    var11 = var6[var5];
+ 110:
+                    var6 = _closure1_slot0;
+                    var5 = _closure1_slot2;
+                    var7 = var5[var7];
+                    var10 = var6.bind(var3)(var7);
+                    var9 = var10.createModifiedProto;
+                    var18 = _closure2_slot2;
+                    var5 = var5[var14];
+                    var5 = var6.bind(var3)(var5);
+                    var16 = var5.PreloadedUserSettings;
+                    var15 = _closure2_slot1;
+                    var20 = var10;
+                    var19 = var11;
+                    var17 = var12;
+                    var12 = var20[var9](var19, var18, var17, var16, var15, var14);
+                    if(!(var2 != var12)) { _fun0009_ip = 369; continue _fun0009 }
+ 176:
+                    var13 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var9[var2];
+                    var2 = var13.bind(var3)(var2);
+                    var6 = var2.HTTP;
+                    var5 = var6.patch;
+                    var2 = {};
+                    var11 = _closure1_slot7;
+                    var10 = var11.FAMILY_CENTER_TEEN_SETTINGS;
+                    var7 = _closure2_slot0;
+                    var7 = var10.bind(var11)(var7);
+                    var2['url'] = var7;
+                    var7 = {};
+                    var10 = 9;
+                    var10 = var9[var10];
+                    var11 = var13.bind(var3)(var10);
+                    var10 = var11.protoToB64;
+                    var9 = var9[var14];
+                    var9 = var13.bind(var3)(var9);
+                    var9 = var9.PreloadedUserSettings;
+                    var9 = var10.bind(var11)(var9, var12);
+                    var7['settings'] = var9;
+                    var2['body'] = var7;
+                    var7 = false;
+                    var2['rejectWithError'] = var7;
+                    var2 = var5.bind(var6)(var2);
+                    SaveGenerator(address=297);
+ 295:
+                    return var2;
+ 297:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0009_ip = 372; continue _fun0009 }
+ 303:
+                    var5 = var2.body;
+                    var7 = var5.settings;
+                    var5 = _closure1_slot1;
+                    var6 = _closure1_slot2;
+                    var4 = 4;
+                    var4 = var6[var4];
+                    var6 = var5.bind(var3)(var4);
+                    var5 = var6.dispatch;
+                    var4 = {};
+                    var9 = 'FAMILY_CENTER_TEEN_UPDATE_SETTINGS_SUCCESS';
+                    var4['type'] = var9;
+                    var8 = _closure2_slot0;
+                    var4['userId'] = var8;
+                    var4['settings'] = var7;
+                    var4 = var5.bind(var6)(var4);
+ 369:
+                    return var3;
+ 372:
+                    return var2;
+ 375:
+                    return var1;
+                }
+            };
             return var1;
         };
-        var1 = var2.bind(var3)(var1);
+        var1 = var3.bind(var2)(var1);
+        var1 = var1.bind(var2)();
         return var1;
     };
     var4['updateTeenSettings'] = var5;
@@ -855,14 +916,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var7;
         var4 = _closure1_slot0;
         var3 = _closure1_slot2;
-        var2 = 4;
+        var2 = 5;
         var3 = var3[var2];
         var2 = undefined;
         var2 = var4.bind(var2)(var3);
         var4 = var2.HTTP;
         var3 = var4.patch;
         var2 = {};
-        var6 = _closure1_slot6;
+        var6 = _closure1_slot7;
         var5 = var6.FAMILY_CENTER_TEEN_CONSENTS;
         var5 = var5.bind(var6)(var7);
         var2['url'] = var5;
@@ -882,7 +943,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.consents;
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 3;
+            var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -900,7 +961,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['updateTeenConsents'] = var5;
-    var5 = 8;
+    var5 = 10;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -909,7 +970,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['default'] = var4;
     var4 = function updateLinkForUserId() {
         var1 = undefined;
-        var4 = _closure1_slot7;
+        var4 = _closure1_slot8;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -920,7 +981,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['updateLinkForUserId'] = var4;
     var4 = function removeLinkForUserId() {
         var1 = undefined;
-        var4 = _closure1_slot8;
+        var4 = _closure1_slot9;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -931,7 +992,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['removeLinkForUserId'] = var4;
     var2 = function getLinkCodeForCurrentUser() {
         var1 = undefined;
-        var4 = _closure1_slot9;
+        var4 = _closure1_slot10;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

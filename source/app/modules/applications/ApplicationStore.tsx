@@ -1487,7 +1487,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['LOAD_NOTIFICATION_CENTER_ITEMS_SUCCESS'] = var8;
-    var8 = function handleOAuth2TokenCreate(arg1) {
+    var4 = function handleOAuth2TokenCreate(arg1) {
         var1 = arg1;
         var4 = var1.application;
         var3 = _closure1_slot17;
@@ -1498,24 +1498,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var1)(var2);
         return var1;
     };
-    var2['OAUTH2_TOKEN_CREATE'] = var8;
-    var4 = function handleRobloxsubgameApplicationFetchSuccess(arg1) {
-        _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
- 0:
-            var1 = arg1;
-            var3 = var1.application;
-            var1 = null;
-            if(!(var1 != var3)) { _fun0032_ip = 28; continue _fun0032 }
- 14:
-            var2 = _closure1_slot17;
-            var1 = undefined;
-            var1 = var2.bind(var1)(var3);
- 28:
-            var1 = undefined;
-            return var1;
-        }
-    };
-    var2['ROBLOX_SUBGAME_APPLICATION_FETCH_SUCCESS'] = var4;
+    var2['OAUTH2_TOKEN_CREATE'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var14 = var4;

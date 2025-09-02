@@ -51,7 +51,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var6[var14];
         var11 = var2.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.XtIgwc;
+        var11 = var11.6Zuiv7;
         var11 = var13.bind(var15)(var11);
         var12['label'] = var11;
         var11 = 'Trick';
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var6[var14];
         var14 = var2.bind(var4)(var14);
         var14 = var14.t;
-        var14 = var14.baye/P;
+        var14 = var14.2UeOlZ;
         var14 = var16.bind(var17)(var14);
         var12['label'] = var14;
         var14 = 'Treat';

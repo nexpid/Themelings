@@ -844,7 +844,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = null;
     var6 = var9.bind(var10)(var6);
     var _closure1_slot16 = var6;
-    var6 = 21;
+    var6 = 22;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -887,26 +887,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                     var1 = _closure2_slot0;
-                    var8 = null;
-                    if(!(var8 == var1)) { _fun0015_ip = 123; continue _fun0015 }
- 13:
+                    var9 = null;
+                    if(!(var9 == var1)) { _fun0015_ip = 135; continue _fun0015 }
+ 15:
                     var2 = _closure1_slot1;
-                    var5 = _closure1_slot2;
-                    var1 = 20;
-                    var1 = var5[var1];
-                    var7 = undefined;
-                    var6 = var2.bind(var7)(var1);
+                    var6 = _closure1_slot2;
+                    var1 = 21;
+                    var1 = var6[var1];
+                    var8 = undefined;
+                    var7 = var2.bind(var8)(var1);
                     var2 = _closure2_slot1;
-                    var5 = var8 != var2;
+                    var6 = var9 != var2;
                     var1 = 'modal is present if message is not';
-                    var1 = var6.bind(var7)(var5, var1);
+                    var1 = var7.bind(var8)(var6, var1);
                     var1 = {};
-                    var5 = _closure1_slot19;
-                    var4 = var5.bind;
-                    var4 = var4.bind(var5)(var8, var2);
-                    var1['useComponentState'] = var4;
-                    var4 = var2.channelId;
-                    var1['channelId'] = var4;
+                    var6 = _closure1_slot19;
+                    var5 = var6.bind;
+                    var5 = var5.bind(var6)(var9, var2);
+                    var1['useComponentState'] = var5;
+                    var5 = var2.channelId;
+                    var1['channelId'] = var5;
                     var1['modal'] = var2;
                     var2 = _closure2_slot2;
                     var1['validators'] = var2;
@@ -914,22 +914,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['validationErrors'] = var2;
                     var2 = _closure2_slot4;
                     var1['setValidationErrors'] = var2;
-                    _fun0015_ip = 182; continue _fun0015;
- 123:
+                    var2 = function getParents(arg1) {
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 20;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.getParents;
+                        var1 = _closure2_slot1;
+                        var2 = var1.components;
+                        var1 = arg1;
+                        var1 = var3.bind(var4)(var2, var1);
+                        return var1;
+                    };
+                    var1['getParents'] = var2;
+                    _fun0015_ip = 204; continue _fun0015;
+ 135:
                     var2 = {};
-                    var7 = _closure1_slot18;
-                    var6 = var7.bind;
-                    var4 = _closure2_slot0;
-                    var5 = _closure2_slot5;
-                    var5 = var6.bind(var7)(var8, var4, var5);
-                    var2['useComponentState'] = var5;
-                    var5 = var4.channel_id;
-                    var2['channelId'] = var5;
-                    var2['message'] = var4;
-                    var3 = _closure2_slot2;
-                    var2['validators'] = var3;
+                    var8 = _closure1_slot18;
+                    var7 = var8.bind;
+                    var5 = _closure2_slot0;
+                    var6 = _closure2_slot5;
+                    var6 = var7.bind(var8)(var9, var5, var6);
+                    var2['useComponentState'] = var6;
+                    var6 = var5.channel_id;
+                    var2['channelId'] = var6;
+                    var2['message'] = var5;
+                    var4 = _closure2_slot2;
+                    var2['validators'] = var4;
+                    var3 = function getParents(arg1) {
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 20;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.getParents;
+                        var1 = _closure2_slot0;
+                        var2 = var1.components;
+                        var1 = arg1;
+                        var1 = var3.bind(var4)(var2, var1);
+                        return var1;
+                    };
+                    var2['getParents'] = var3;
                     var1 = var2;
- 182:
+ 204:
                     return var1;
                 }
             };

@@ -181,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var1[var9];
             var1 = undefined;
             var10 = var8.bind(var1)(var7);
-            var8 = var10.isChannelNSFW;
+            var8 = var10.isChannelContentGated;
             var7 = arg2;
             var7 = var8.bind(var10)(var7);
             if(!var7) { _fun0003_ip = 161; continue _fun0003 }
@@ -192,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot1;
             var7 = var7[var9];
             var8 = var8.bind(var1)(var7);
-            var7 = var8.isChannelNSFW;
+            var7 = var8.isChannelContentGated;
             var7 = var7.bind(var8)(var6);
             if(var7) { _fun0003_ip = 161; continue _fun0003 }
  96:

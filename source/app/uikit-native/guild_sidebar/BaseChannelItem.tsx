@@ -90,29 +90,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var3 = _closure1_slot9;
             var3 = var3.UNREAD_IMPORTANT;
-            if(!(var2 !== var3)) { _fun0003_ip = 90; continue _fun0003 }
+            if(!(var2 !== var3)) { _fun0003_ip = 94; continue _fun0003 }
  20:
             var3 = _closure1_slot9;
             var3 = var3.RELEVANT;
-            if(!(var2 !== var3)) { _fun0003_ip = 90; continue _fun0003 }
+            if(!(var2 !== var3)) { _fun0003_ip = 94; continue _fun0003 }
  34:
             var3 = _closure1_slot9;
             var3 = var3.SELECTED;
-            if(!(var2 !== var3)) { _fun0003_ip = 90; continue _fun0003 }
+            if(!(var2 !== var3)) { _fun0003_ip = 94; continue _fun0003 }
  48:
             var1 = _closure1_slot9;
             var1 = var1.MUTED;
-            if(!(var2 !== var1)) { _fun0003_ip = 74; continue _fun0003 }
+            if(!(var2 !== var1)) { _fun0003_ip = 78; continue _fun0003 }
  62:
             var1 = {'variant': 'text-xs/medium', 'color': 'text-muted'};
-            _fun0003_ip = 88; continue _fun0003;
- 74:
+            _fun0003_ip = 92; continue _fun0003;
+ 78:
             var1 = {'variant': 'text-xs/medium', 'color': 'interactive-muted'};
- 88:
-            _fun0003_ip = 104; continue _fun0003;
- 90:
+ 92:
+            _fun0003_ip = 108; continue _fun0003;
+ 94:
             var1 = {'variant': 'text-xs/medium', 'color': 'redesign-channel-name-text'};
- 104:
+ 108:
             return var1;
         }
     };

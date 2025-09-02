@@ -232,8 +232,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 14;
             var1 = var5[var1];
             var2 = var3.bind(var4)(var1);
-            var1 = var2.useShouldAgeGateChannel;
-            var10 = var1.bind(var2)(var14);
+            var1 = var2.useIsChannelContentGated;
+            var10 = var1.bind(var2)(var16);
             var1 = var5[var19];
             var20 = var3.bind(var4)(var1);
             var17 = var20.useStateFromStores;

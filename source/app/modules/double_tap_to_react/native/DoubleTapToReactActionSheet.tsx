@@ -355,32 +355,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                         var1 = _closure2_slot3;
-                        if(!var1) { _fun0005_ip = 155; continue _fun0005 }
- 15:
-                        var6 = _closure1_slot0;
-                        var5 = _closure1_slot2;
-                        var2 = 10;
-                        var2 = var5[var2];
-                        var3 = undefined;
-                        var2 = var6.bind(var3)(var2);
-                        var7 = var2.DoubleTapReactionEmoji;
-                        var6 = var7.updateSetting;
-                        var2 = {};
-                        var8 = _closure2_slot2;
-                        var9 = var8.id;
-                        var2['emojiId'] = var9;
-                        var8 = var8.name;
-                        var2['emojiName'] = var8;
-                        var2 = var6.bind(var7)(var2);
-                        var2 = _closure1_slot1;
-                        var1 = 14;
-                        var1 = var5[var1];
-                        var3 = var2.bind(var3)(var1);
-                        var2 = var3.open;
+                        if(!var1) { _fun0005_ip = 80; continue _fun0005 }
+ 12:
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
+                        var1 = 10;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var1 = var3.bind(var1)(var2);
+                        var3 = var1.DoubleTapReactionEmoji;
+                        var2 = var3.updateSetting;
                         var1 = {};
-                        var5 = 'DEFAULT_REACTION_EMOJI_UPDATED';
-                        var1['key'] = var5;
-                        var5 = function icon() {
+                        var4 = _closure2_slot2;
+                        var6 = var4.id;
+                        var1['emojiId'] = var6;
+                        var4 = var4.name;
+                        var1['emojiName'] = var4;
+                        var1 = var2.bind(var3)(var1);
+ 80:
+                        var3 = _closure1_slot1;
+                        var2 = _closure1_slot2;
+                        var1 = 14;
+                        var2 = var2[var1];
+                        var1 = undefined;
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.open;
+                        var2 = {};
+                        var6 = 'DEFAULT_REACTION_EMOJI_UPDATED';
+                        var2['key'] = var6;
+                        var6 = function icon() {
                             _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                                 var4 = _closure1_slot9;
@@ -415,8 +418,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 return var1;
                             }
                         };
-                        var1['icon'] = var5;
-                        var4 = function content() {
+                        var2['icon'] = var6;
+                        var5 = function content() {
                             var4 = _closure1_slot9;
                             var6 = _closure1_slot0;
                             var10 = _closure1_slot2;
@@ -449,12 +452,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = var4.bind(var3)(var2, var1);
                             return var1;
                         };
-                        var1['content'] = var4;
-                        var4 = 3000;
-                        var1['toastDurationMs'] = var4;
-                        var1 = var2.bind(var3)(var1);
- 155:
-                        var1 = undefined;
+                        var2['content'] = var5;
+                        var5 = 3000;
+                        var2['toastDurationMs'] = var5;
+                        var2 = var3.bind(var4)(var2);
                         return var1;
                     }
                 };

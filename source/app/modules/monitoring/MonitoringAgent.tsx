@@ -344,7 +344,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3['url'] = var6;
                 var6 = {};
                 var6['metrics'] = var7;
-                var7 = {'built_at': '1756790549197', 'build_number': '4578'};
+                var7 = {'built_at': '1756851200751', 'build_number': '4583'};
                 var6['client_info'] = var7;
                 var3['body'] = var6;
                 var6 = 1;

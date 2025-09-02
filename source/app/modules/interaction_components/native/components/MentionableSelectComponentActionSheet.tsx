@@ -101,8 +101,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var12 = var1.selectionActionComponent;
-            var _closure2_slot0 = var12;
+            var13 = var1.selectionActionComponent;
+            var _closure2_slot0 = var13;
+            var12 = var1.labelComponent;
             var5 = var1.channelId;
             var _closure2_slot1 = var5;
             var3 = var1.guildId;
@@ -116,32 +117,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot3 = var2;
             var7 = _closure1_slot6;
             var2 = var7.getGuild;
-            var18 = var2.bind(var7)(var3);
-            var _closure2_slot4 = var18;
+            var19 = var2.bind(var7)(var3);
+            var _closure2_slot4 = var19;
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 10;
             var2 = var8[var2];
             var8 = var7.bind(var4)(var2);
             var2 = null;
-            var2 = var2 == var18;
+            var2 = var2 == var19;
             var7 = undefined;
-            if(var2) { _fun0001_ip = 120; continue _fun0001 }
- 115:
-            var7 = var18.id;
- 120:
+            if(var2) { _fun0001_ip = 126; continue _fun0001 }
+ 121:
+            var7 = var19.id;
+ 126:
             var10 = _closure1_slot0;
-            var15 = _closure1_slot2;
+            var16 = _closure1_slot2;
             var2 = 11;
-            var2 = var15[var2];
+            var2 = var16[var2];
             var2 = var10.bind(var4)(var2);
             var2 = var2.MIN_REREQUEST_TIME;
             var2 = var8.bind(var4)(var7, var2);
             _closure2_slot5 = var2;
-            var17 = _closure1_slot3;
-            var8 = var17.useCallback;
+            var18 = _closure1_slot3;
+            var8 = var18.useCallback;
             var7 = new Array(2);
-            var7[0] = var12;
+            var7[0] = var13;
             var7[1] = var5;
             var2 = function(arg1) {
                 var3 = _closure1_slot0;
@@ -158,13 +159,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var4.bind(var5)(var3, var1, var2);
                 return var1;
             };
-            var10 = var8.bind(var17)(var2, var7);
+            var10 = var8.bind(var18)(var2, var7);
             var2 = _closure1_slot1;
             var7 = 12;
-            var7 = var15[var7];
+            var7 = var16[var7];
             var8 = var2.bind(var4)(var7);
             var7 = {};
-            var7['selectActionComponent'] = var12;
+            var7['selectActionComponent'] = var13;
             var7['containerId'] = var11;
             var7['guildId'] = var3;
             var7['queryOptions'] = var10;
@@ -173,13 +174,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var7.options;
             var10 = var7.selectedOptions;
             var9 = var7.isSelected;
-            var14 = var7.onPressOptionItem;
+            var15 = var7.onPressOptionItem;
             var8 = var7.submitSelection;
             var7 = var7.setQuery;
-            var16 = var17.useCallback;
-            var13 = new Array(2);
-            var13[0] = var18;
-            var13[1] = var3;
+            var17 = var18.useCallback;
+            var14 = new Array(2);
+            var14[0] = var19;
+            var14[1] = var3;
             var3 = function(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -343,15 +344,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var13 = var16.bind(var17)(var3, var13);
+            var14 = var17.bind(var18)(var3, var14);
             var3 = _closure1_slot10;
             var1 = 18;
-            var1 = var15[var1];
+            var1 = var16[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var1['onPressOptionItem'] = var14;
-            var1['renderIcon'] = var13;
-            var13 = function renderDescription(arg1) {
+            var1['onPressOptionItem'] = var15;
+            var1['renderIcon'] = var14;
+            var14 = function renderDescription(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     var2 = arg1;
@@ -391,8 +392,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var1['renderDescription'] = var13;
-            var13 = function renderOptionSuffix(arg1) {
+            var1['renderDescription'] = var14;
+            var14 = function renderOptionSuffix(arg1) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     var3 = arg1;
@@ -475,8 +476,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var1['renderOptionSuffix'] = var13;
-            var1['selectionActionComponent'] = var12;
+            var1['renderOptionSuffix'] = var14;
+            var1['selectionActionComponent'] = var13;
+            var1['labelComponent'] = var12;
             var1['options'] = var11;
             var11 = var10.length;
             var1['selectedCount'] = var11;

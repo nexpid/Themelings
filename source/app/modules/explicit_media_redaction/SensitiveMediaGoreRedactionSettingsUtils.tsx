@@ -1,10 +1,10 @@
 // app/modules/explicit_media_redaction/SensitiveMediaGoreRedactionSettingsUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
+    var8 = require;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
-    var _closure1_slot1 = var8;
+    var9 = dependencyMap;
+    var _closure1_slot0 = var8;
+    var _closure1_slot1 = var9;
     var1 = global;
     var6 = var1.Object;
     var5 = var6.defineProperty;
@@ -14,22 +14,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = '__esModule';
     var1 = var5.bind(var6)(var3, var1, var4);
     var1 = 0;
-    var5 = var8[var1];
+    var5 = var9[var1];
     var4 = metroImportAll;
     var1 = undefined;
     var4 = var4.bind(var1)(var5);
     var _closure1_slot2 = var4;
     var4 = 1;
-    var5 = var8[var4];
+    var5 = var9[var4];
     var4 = metroImportDefault;
     var4 = var4.bind(var1)(var5);
     var _closure1_slot3 = var4;
     var4 = 2;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
     var4 = var4.HelpdeskArticles;
     var _closure1_slot4 = var4;
-    var5 = function resolveGoreSettingWithDefaults(arg1) {
+    var6 = function resolveGoreSettingWithDefaults(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot5 = var5;
+    var _closure1_slot5 = var6;
     var4 = function resultDefaultSettingsForSensitiveContentDefaultsMixed(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -210,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot7 = var4;
-    var4 = function resolveGoreSettingWithDefaultsForTeen(arg1) {
+    var5 = function resolveGoreSettingWithDefaultsForTeen(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
             var2 = arg1;
@@ -255,7 +255,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot8 = var5;
     var4 = function getGoreContentSettingOrDefault(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -314,13 +314,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot9 = var4;
-    var6 = 6;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/explicit_media_redaction/SensitiveMediaGoreRedactionSettingsUtils.tsx';
-    var6 = var7.bind(var8)(var6);
-    var3['resolveGoreSettingWithDefaults'] = var5;
+    var7 = 6;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/explicit_media_redaction/SensitiveMediaGoreRedactionSettingsUtils.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['resolveGoreSettingWithDefaults'] = var6;
+    var3['resolveGoreSettingWithDefaultsForTeen'] = var5;
     var3['getGoreContentSettingOrDefault'] = var4;
     var4 = function(arg1) {
         var3 = _closure1_slot9;

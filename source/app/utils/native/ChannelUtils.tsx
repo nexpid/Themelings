@@ -76,535 +76,530 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.bind(var11)(var5, var2);
             var2 = var4.isForumPost;
             var2 = var2.bind(var4)();
-            if(var2) { _fun0002_ip = 1694; continue _fun0002 }
+            if(var2) { _fun0002_ip = 1673; continue _fun0002 }
  121:
             var5 = _closure1_slot7;
             var2 = var4.type;
             var2 = var5.bind(var3)(var2);
-            if(!(var8 == var2)) { _fun0002_ip = 1692; continue _fun0002 }
+            if(!(var8 == var2)) { _fun0002_ip = 1671; continue _fun0002 }
  142:
             var5 = var4.isMediaChannel;
             var11 = var5.bind(var4)();
-            var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var5 = 21;
-            var5 = var14[var5];
-            var13 = var13.bind(var3)(var5);
-            var5 = var13.isChannelNSFWWithoutGuildRollup;
-            var5 = var5.bind(var13)(var4);
+            var5 = var4.isNSFW;
+            var5 = var5.bind(var4)();
             var14 = var4.type;
             var13 = _closure1_slot6;
             var13 = var13.PRIVATE_THREAD;
-            if(!(var13 !== var14)) { _fun0002_ip = 1676; continue _fun0002 }
- 205:
+            if(!(var13 !== var14)) { _fun0002_ip = 1655; continue _fun0002 }
+ 184:
             var13 = _closure1_slot6;
             var13 = var13.ANNOUNCEMENT_THREAD;
-            if(!(var13 !== var14)) { _fun0002_ip = 1676; continue _fun0002 }
- 222:
+            if(!(var13 !== var14)) { _fun0002_ip = 1655; continue _fun0002 }
+ 201:
             var13 = _closure1_slot6;
             var13 = var13.PUBLIC_THREAD;
-            if(!(var13 !== var14)) { _fun0002_ip = 1676; continue _fun0002 }
- 239:
+            if(!(var13 !== var14)) { _fun0002_ip = 1655; continue _fun0002 }
+ 218:
             var13 = _closure1_slot6;
             var13 = var13.GUILD_CATEGORY;
-            if(!(var13 !== var14)) { _fun0002_ip = 1654; continue _fun0002 }
- 256:
+            if(!(var13 !== var14)) { _fun0002_ip = 1633; continue _fun0002 }
+ 235:
             var13 = _closure1_slot6;
             var13 = var13.GUILD_TEXT;
-            if(!(var13 !== var14)) { _fun0002_ip = 1465; continue _fun0002 }
- 273:
+            if(!(var13 !== var14)) { _fun0002_ip = 1444; continue _fun0002 }
+ 252:
             var13 = _closure1_slot6;
             var13 = var13.GUILD_FORUM;
-            if(!(var13 !== var14)) { _fun0002_ip = 1275; continue _fun0002 }
- 290:
+            if(!(var13 !== var14)) { _fun0002_ip = 1254; continue _fun0002 }
+ 269:
             var13 = _closure1_slot6;
             var13 = var13.GUILD_MEDIA;
-            if(!(var13 !== var14)) { _fun0002_ip = 1121; continue _fun0002 }
- 307:
+            if(!(var13 !== var14)) { _fun0002_ip = 1100; continue _fun0002 }
+ 286:
             var13 = _closure1_slot6;
             var13 = var13.GROUP_DM;
-            if(!(var13 !== var14)) { _fun0002_ip = 1099; continue _fun0002 }
- 324:
+            if(!(var13 !== var14)) { _fun0002_ip = 1078; continue _fun0002 }
+ 303:
             var13 = _closure1_slot6;
             var13 = var13.DM;
-            if(!(var13 !== var14)) { _fun0002_ip = 1077; continue _fun0002 }
- 341:
+            if(!(var13 !== var14)) { _fun0002_ip = 1056; continue _fun0002 }
+ 320:
             var13 = _closure1_slot6;
             var13 = var13.GUILD_ANNOUNCEMENT;
-            if(!(var13 !== var14)) { _fun0002_ip = 923; continue _fun0002 }
- 358:
+            if(!(var13 !== var14)) { _fun0002_ip = 902; continue _fun0002 }
+ 337:
             var13 = _closure1_slot6;
             var13 = var13.GUILD_STAGE_VOICE;
-            if(!(var13 !== var14)) { _fun0002_ip = 711; continue _fun0002 }
- 375:
+            if(!(var13 !== var14)) { _fun0002_ip = 690; continue _fun0002 }
+ 354:
             var13 = _closure1_slot6;
             var13 = var13.GUILD_VOICE;
-            if(!(var13 !== var14)) { _fun0002_ip = 427; continue _fun0002 }
- 389:
+            if(!(var13 !== var14)) { _fun0002_ip = 406; continue _fun0002 }
+ 368:
             var13 = _closure1_slot6;
             var13 = var13.GUILD_DIRECTORY;
-            if(!(var13 !== var14)) { _fun0002_ip = 405; continue _fun0002 }
- 403:
+            if(!(var13 !== var14)) { _fun0002_ip = 384; continue _fun0002 }
+ 382:
             return var8;
- 405:
+ 384:
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
             var13 = 13;
             var13 = var15[var13];
             var13 = var14.bind(var3)(var13);
             return var13;
- 427:
-            if(var12) { _fun0002_ip = 689; continue _fun0002 }
- 433:
-            if(!var9) { _fun0002_ip = 516; continue _fun0002 }
- 436:
-            if(!(var8 != var6)) { _fun0002_ip = 449; continue _fun0002 }
- 440:
+ 406:
+            if(var12) { _fun0002_ip = 668; continue _fun0002 }
+ 412:
+            if(!var9) { _fun0002_ip = 495; continue _fun0002 }
+ 415:
+            if(!(var8 != var6)) { _fun0002_ip = 428; continue _fun0002 }
+ 419:
             var12 = var6.ignoreTraits;
-            if(var12) { _fun0002_ip = 516; continue _fun0002 }
- 449:
+            if(var12) { _fun0002_ip = 495; continue _fun0002 }
+ 428:
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
-            var12 = 24;
+            var12 = 23;
             var12 = var14[var12];
             var12 = var13.bind(var3)(var12);
             var12 = var12.bind(var3)(var4);
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
-            if(var12) { _fun0002_ip = 499; continue _fun0002 }
- 485:
+            if(var12) { _fun0002_ip = 478; continue _fun0002 }
+ 464:
             var12 = 14;
             var12 = var15[var12];
             var12 = var14.bind(var3)(var12);
-            _fun0002_ip = 511; continue _fun0002;
- 499:
-            var13 = 32;
+            _fun0002_ip = 490; continue _fun0002;
+ 478:
+            var13 = 31;
             var13 = var15[var13];
             var12 = var14.bind(var3)(var13);
- 511:
-            _fun0002_ip = 687; continue _fun0002;
- 516:
-            if(!var10) { _fun0002_ip = 557; continue _fun0002 }
- 519:
-            if(!(var8 != var6)) { _fun0002_ip = 532; continue _fun0002 }
- 523:
+ 490:
+            _fun0002_ip = 666; continue _fun0002;
+ 495:
+            if(!var10) { _fun0002_ip = 536; continue _fun0002 }
+ 498:
+            if(!(var8 != var6)) { _fun0002_ip = 511; continue _fun0002 }
+ 502:
             var13 = var6.ignoreTraits;
-            if(var13) { _fun0002_ip = 557; continue _fun0002 }
- 532:
+            if(var13) { _fun0002_ip = 536; continue _fun0002 }
+ 511:
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var13 = 32;
+            var13 = 31;
             var13 = var15[var13];
             var13 = var14.bind(var3)(var13);
-            _fun0002_ip = 684; continue _fun0002;
- 557:
+            _fun0002_ip = 663; continue _fun0002;
+ 536:
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
-            var14 = 24;
+            var14 = 23;
             var14 = var16[var14];
             var14 = var15.bind(var3)(var14);
             var14 = var14.bind(var3)(var4);
-            if(!var14) { _fun0002_ip = 620; continue _fun0002 }
- 585:
-            if(!(var8 != var6)) { _fun0002_ip = 598; continue _fun0002 }
- 589:
+            if(!var14) { _fun0002_ip = 599; continue _fun0002 }
+ 564:
+            if(!(var8 != var6)) { _fun0002_ip = 577; continue _fun0002 }
+ 568:
             var14 = var6.ignoreTraits;
-            if(var14) { _fun0002_ip = 620; continue _fun0002 }
- 598:
+            if(var14) { _fun0002_ip = 599; continue _fun0002 }
+ 577:
             var15 = _closure1_slot1;
             var16 = _closure1_slot2;
             var14 = 14;
             var14 = var16[var14];
             var14 = var15.bind(var3)(var14);
-            _fun0002_ip = 681; continue _fun0002;
- 620:
-            if(!var5) { _fun0002_ip = 658; continue _fun0002 }
- 623:
-            if(!(var8 != var6)) { _fun0002_ip = 636; continue _fun0002 }
- 627:
+            _fun0002_ip = 660; continue _fun0002;
+ 599:
+            if(!var5) { _fun0002_ip = 637; continue _fun0002 }
+ 602:
+            if(!(var8 != var6)) { _fun0002_ip = 615; continue _fun0002 }
+ 606:
             var15 = var6.ignoreTraits;
-            if(var15) { _fun0002_ip = 658; continue _fun0002 }
- 636:
+            if(var15) { _fun0002_ip = 637; continue _fun0002 }
+ 615:
             var16 = _closure1_slot1;
             var17 = _closure1_slot2;
-            var15 = 33;
+            var15 = 32;
             var15 = var17[var15];
             var15 = var16.bind(var3)(var15);
-            _fun0002_ip = 678; continue _fun0002;
- 658:
+            _fun0002_ip = 657; continue _fun0002;
+ 637:
             var17 = _closure1_slot1;
             var18 = _closure1_slot2;
             var16 = 12;
             var16 = var18[var16];
             var15 = var17.bind(var3)(var16);
- 678:
+ 657:
             var14 = var15;
- 681:
+ 660:
             var13 = var14;
- 684:
+ 663:
             var12 = var13;
- 687:
-            _fun0002_ip = 709; continue _fun0002;
- 689:
+ 666:
+            _fun0002_ip = 688; continue _fun0002;
+ 668:
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
             var13 = 16;
             var13 = var15[var13];
             var12 = var14.bind(var3)(var13);
- 709:
+ 688:
             return var12;
- 711:
-            if(!var9) { _fun0002_ip = 794; continue _fun0002 }
- 714:
-            if(!(var8 != var6)) { _fun0002_ip = 727; continue _fun0002 }
- 718:
+ 690:
+            if(!var9) { _fun0002_ip = 773; continue _fun0002 }
+ 693:
+            if(!(var8 != var6)) { _fun0002_ip = 706; continue _fun0002 }
+ 697:
             var9 = var6.ignoreTraits;
-            if(var9) { _fun0002_ip = 794; continue _fun0002 }
- 727:
+            if(var9) { _fun0002_ip = 773; continue _fun0002 }
+ 706:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var9 = 24;
+            var9 = 23;
             var9 = var13[var9];
             var9 = var12.bind(var3)(var9);
             var9 = var9.bind(var3)(var4);
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
-            if(var9) { _fun0002_ip = 777; continue _fun0002 }
- 763:
+            if(var9) { _fun0002_ip = 756; continue _fun0002 }
+ 742:
             var9 = 15;
             var9 = var14[var9];
             var9 = var13.bind(var3)(var9);
-            _fun0002_ip = 789; continue _fun0002;
- 777:
-            var12 = 32;
+            _fun0002_ip = 768; continue _fun0002;
+ 756:
+            var12 = 31;
             var12 = var14[var12];
             var9 = var13.bind(var3)(var12);
+ 768:
+            _fun0002_ip = 900; continue _fun0002;
+ 773:
+            if(!var10) { _fun0002_ip = 811; continue _fun0002 }
+ 776:
+            if(!(var8 != var6)) { _fun0002_ip = 789; continue _fun0002 }
+ 780:
+            var10 = var6.ignoreTraits;
+            if(var10) { _fun0002_ip = 811; continue _fun0002 }
  789:
-            _fun0002_ip = 921; continue _fun0002;
- 794:
-            if(!var10) { _fun0002_ip = 832; continue _fun0002 }
- 797:
-            if(!(var8 != var6)) { _fun0002_ip = 810; continue _fun0002 }
- 801:
-            var10 = var6.ignoreTraits;
-            if(var10) { _fun0002_ip = 832; continue _fun0002 }
- 810:
-            var12 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var10 = 32;
-            var10 = var13[var10];
-            var10 = var12.bind(var3)(var10);
-            _fun0002_ip = 918; continue _fun0002;
- 832:
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var12 = 24;
-            var12 = var14[var12];
-            var12 = var13.bind(var3)(var12);
-            var12 = var12.bind(var3)(var4);
-            if(!var12) { _fun0002_ip = 895; continue _fun0002 }
- 860:
-            if(!(var8 != var6)) { _fun0002_ip = 873; continue _fun0002 }
- 864:
-            var12 = var6.ignoreTraits;
-            if(var12) { _fun0002_ip = 895; continue _fun0002 }
- 873:
-            var13 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var12 = 15;
-            var12 = var14[var12];
-            var12 = var13.bind(var3)(var12);
-            _fun0002_ip = 915; continue _fun0002;
- 895:
-            var14 = _closure1_slot1;
-            var15 = _closure1_slot2;
-            var13 = 11;
-            var13 = var15[var13];
-            var12 = var14.bind(var3)(var13);
- 915:
-            var10 = var12;
- 918:
-            var9 = var10;
- 921:
-            return var9;
- 923:
-            if(var7) { _fun0002_ip = 1055; continue _fun0002 }
- 929:
-            if(!var5) { _fun0002_ip = 967; continue _fun0002 }
- 932:
-            if(!(var8 != var6)) { _fun0002_ip = 945; continue _fun0002 }
- 936:
-            var9 = var6.ignoreTraits;
-            if(var9) { _fun0002_ip = 967; continue _fun0002 }
- 945:
-            var10 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var9 = 30;
-            var9 = var12[var9];
-            var9 = var10.bind(var3)(var9);
-            _fun0002_ip = 1053; continue _fun0002;
- 967:
-            var12 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var10 = 24;
-            var10 = var13[var10];
-            var10 = var12.bind(var3)(var10);
-            var10 = var10.bind(var3)(var4);
-            if(!var10) { _fun0002_ip = 1030; continue _fun0002 }
- 995:
-            if(!(var8 != var6)) { _fun0002_ip = 1008; continue _fun0002 }
- 999:
-            var10 = var6.ignoreTraits;
-            if(var10) { _fun0002_ip = 1030; continue _fun0002 }
- 1008:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
             var10 = 31;
             var10 = var13[var10];
             var10 = var12.bind(var3)(var10);
-            _fun0002_ip = 1050; continue _fun0002;
- 1030:
+            _fun0002_ip = 897; continue _fun0002;
+ 811:
+            var13 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var12 = 23;
+            var12 = var14[var12];
+            var12 = var13.bind(var3)(var12);
+            var12 = var12.bind(var3)(var4);
+            if(!var12) { _fun0002_ip = 874; continue _fun0002 }
+ 839:
+            if(!(var8 != var6)) { _fun0002_ip = 852; continue _fun0002 }
+ 843:
+            var12 = var6.ignoreTraits;
+            if(var12) { _fun0002_ip = 874; continue _fun0002 }
+ 852:
+            var13 = _closure1_slot1;
+            var14 = _closure1_slot2;
+            var12 = 15;
+            var12 = var14[var12];
+            var12 = var13.bind(var3)(var12);
+            _fun0002_ip = 894; continue _fun0002;
+ 874:
+            var14 = _closure1_slot1;
+            var15 = _closure1_slot2;
+            var13 = 11;
+            var13 = var15[var13];
+            var12 = var14.bind(var3)(var13);
+ 894:
+            var10 = var12;
+ 897:
+            var9 = var10;
+ 900:
+            return var9;
+ 902:
+            if(var7) { _fun0002_ip = 1034; continue _fun0002 }
+ 908:
+            if(!var5) { _fun0002_ip = 946; continue _fun0002 }
+ 911:
+            if(!(var8 != var6)) { _fun0002_ip = 924; continue _fun0002 }
+ 915:
+            var9 = var6.ignoreTraits;
+            if(var9) { _fun0002_ip = 946; continue _fun0002 }
+ 924:
+            var10 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var9 = 29;
+            var9 = var12[var9];
+            var9 = var10.bind(var3)(var9);
+            _fun0002_ip = 1032; continue _fun0002;
+ 946:
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var10 = 23;
+            var10 = var13[var10];
+            var10 = var12.bind(var3)(var10);
+            var10 = var10.bind(var3)(var4);
+            if(!var10) { _fun0002_ip = 1009; continue _fun0002 }
+ 974:
+            if(!(var8 != var6)) { _fun0002_ip = 987; continue _fun0002 }
+ 978:
+            var10 = var6.ignoreTraits;
+            if(var10) { _fun0002_ip = 1009; continue _fun0002 }
+ 987:
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var10 = 30;
+            var10 = var13[var10];
+            var10 = var12.bind(var3)(var10);
+            _fun0002_ip = 1029; continue _fun0002;
+ 1009:
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
             var12 = 10;
             var12 = var14[var12];
             var10 = var13.bind(var3)(var12);
- 1050:
+ 1029:
             var9 = var10;
- 1053:
-            _fun0002_ip = 1075; continue _fun0002;
- 1055:
+ 1032:
+            _fun0002_ip = 1054; continue _fun0002;
+ 1034:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var10 = 22;
+            var10 = 21;
             var10 = var13[var10];
             var9 = var12.bind(var3)(var10);
- 1075:
+ 1054:
             return var9;
- 1077:
+ 1056:
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
             var9 = 9;
             var9 = var12[var9];
             var9 = var10.bind(var3)(var9);
             return var9;
- 1099:
+ 1078:
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
             var9 = 8;
             var9 = var12[var9];
             var9 = var10.bind(var3)(var9);
             return var9;
- 1121:
-            if(var7) { _fun0002_ip = 1253; continue _fun0002 }
- 1127:
-            if(!var5) { _fun0002_ip = 1165; continue _fun0002 }
- 1130:
-            if(!(var8 != var6)) { _fun0002_ip = 1143; continue _fun0002 }
- 1134:
+ 1100:
+            if(var7) { _fun0002_ip = 1232; continue _fun0002 }
+ 1106:
+            if(!var5) { _fun0002_ip = 1144; continue _fun0002 }
+ 1109:
+            if(!(var8 != var6)) { _fun0002_ip = 1122; continue _fun0002 }
+ 1113:
             var9 = var6.ignoreTraits;
-            if(var9) { _fun0002_ip = 1165; continue _fun0002 }
- 1143:
+            if(var9) { _fun0002_ip = 1144; continue _fun0002 }
+ 1122:
             var10 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var9 = 26;
+            var9 = 25;
             var9 = var12[var9];
             var9 = var10.bind(var3)(var9);
-            _fun0002_ip = 1251; continue _fun0002;
- 1165:
+            _fun0002_ip = 1230; continue _fun0002;
+ 1144:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var10 = 24;
+            var10 = 23;
             var10 = var13[var10];
             var10 = var12.bind(var3)(var10);
             var10 = var10.bind(var3)(var4);
-            if(!var10) { _fun0002_ip = 1228; continue _fun0002 }
- 1193:
-            if(!(var8 != var6)) { _fun0002_ip = 1206; continue _fun0002 }
- 1197:
+            if(!var10) { _fun0002_ip = 1207; continue _fun0002 }
+ 1172:
+            if(!(var8 != var6)) { _fun0002_ip = 1185; continue _fun0002 }
+ 1176:
             var10 = var6.ignoreTraits;
-            if(var10) { _fun0002_ip = 1228; continue _fun0002 }
- 1206:
+            if(var10) { _fun0002_ip = 1207; continue _fun0002 }
+ 1185:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var10 = 28;
+            var10 = 27;
             var10 = var13[var10];
             var10 = var12.bind(var3)(var10);
-            _fun0002_ip = 1248; continue _fun0002;
- 1228:
+            _fun0002_ip = 1227; continue _fun0002;
+ 1207:
             var13 = _closure1_slot1;
             var14 = _closure1_slot2;
             var12 = 18;
             var12 = var14[var12];
             var10 = var13.bind(var3)(var12);
- 1248:
+ 1227:
             var9 = var10;
- 1251:
-            _fun0002_ip = 1273; continue _fun0002;
- 1253:
+ 1230:
+            _fun0002_ip = 1252; continue _fun0002;
+ 1232:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var10 = 22;
+            var10 = 21;
             var10 = var13[var10];
             var9 = var12.bind(var3)(var10);
- 1273:
+ 1252:
             return var9;
- 1275:
-            if(var7) { _fun0002_ip = 1443; continue _fun0002 }
- 1281:
-            if(!var5) { _fun0002_ip = 1331; continue _fun0002 }
- 1284:
-            if(!(var8 != var6)) { _fun0002_ip = 1297; continue _fun0002 }
- 1288:
+ 1254:
+            if(var7) { _fun0002_ip = 1422; continue _fun0002 }
+ 1260:
+            if(!var5) { _fun0002_ip = 1310; continue _fun0002 }
+ 1263:
+            if(!(var8 != var6)) { _fun0002_ip = 1276; continue _fun0002 }
+ 1267:
             var9 = var6.ignoreTraits;
-            if(var9) { _fun0002_ip = 1331; continue _fun0002 }
- 1297:
+            if(var9) { _fun0002_ip = 1310; continue _fun0002 }
+ 1276:
             var10 = _closure1_slot1;
             var13 = _closure1_slot2;
-            if(var11) { _fun0002_ip = 1317; continue _fun0002 }
- 1308:
-            var9 = 27;
+            if(var11) { _fun0002_ip = 1296; continue _fun0002 }
+ 1287:
+            var9 = 26;
             var9 = var13[var9];
-            _fun0002_ip = 1324; continue _fun0002;
- 1317:
-            var12 = 26;
+            _fun0002_ip = 1303; continue _fun0002;
+ 1296:
+            var12 = 25;
             var9 = var13[var12];
- 1324:
+ 1303:
             var9 = var10.bind(var3)(var9);
-            _fun0002_ip = 1441; continue _fun0002;
- 1331:
+            _fun0002_ip = 1420; continue _fun0002;
+ 1310:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var10 = 24;
+            var10 = 23;
             var10 = var13[var10];
             var10 = var12.bind(var3)(var10);
             var10 = var10.bind(var3)(var4);
-            if(!var10) { _fun0002_ip = 1406; continue _fun0002 }
- 1359:
-            if(!(var8 != var6)) { _fun0002_ip = 1372; continue _fun0002 }
- 1363:
+            if(!var10) { _fun0002_ip = 1385; continue _fun0002 }
+ 1338:
+            if(!(var8 != var6)) { _fun0002_ip = 1351; continue _fun0002 }
+ 1342:
             var10 = var6.ignoreTraits;
-            if(var10) { _fun0002_ip = 1406; continue _fun0002 }
- 1372:
+            if(var10) { _fun0002_ip = 1385; continue _fun0002 }
+ 1351:
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
-            if(var11) { _fun0002_ip = 1392; continue _fun0002 }
- 1383:
-            var10 = 29;
+            if(var11) { _fun0002_ip = 1371; continue _fun0002 }
+ 1362:
+            var10 = 28;
             var10 = var14[var10];
-            _fun0002_ip = 1399; continue _fun0002;
- 1392:
-            var13 = 28;
+            _fun0002_ip = 1378; continue _fun0002;
+ 1371:
+            var13 = 27;
             var10 = var14[var13];
- 1399:
+ 1378:
             var10 = var12.bind(var3)(var10);
-            _fun0002_ip = 1438; continue _fun0002;
- 1406:
+            _fun0002_ip = 1417; continue _fun0002;
+ 1385:
             var12 = _closure1_slot1;
             var14 = _closure1_slot2;
-            if(var11) { _fun0002_ip = 1426; continue _fun0002 }
- 1417:
+            if(var11) { _fun0002_ip = 1405; continue _fun0002 }
+ 1396:
             var11 = 17;
             var11 = var14[var11];
-            _fun0002_ip = 1433; continue _fun0002;
- 1426:
+            _fun0002_ip = 1412; continue _fun0002;
+ 1405:
             var13 = 18;
             var11 = var14[var13];
- 1433:
+ 1412:
             var10 = var12.bind(var3)(var11);
- 1438:
+ 1417:
             var9 = var10;
- 1441:
-            _fun0002_ip = 1463; continue _fun0002;
- 1443:
+ 1420:
+            _fun0002_ip = 1442; continue _fun0002;
+ 1422:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var10 = 22;
+            var10 = 21;
             var10 = var12[var10];
             var9 = var11.bind(var3)(var10);
- 1463:
+ 1442:
             return var9;
- 1465:
-            if(var7) { _fun0002_ip = 1632; continue _fun0002 }
- 1471:
-            if(!var5) { _fun0002_ip = 1509; continue _fun0002 }
- 1474:
-            if(!(var8 != var6)) { _fun0002_ip = 1487; continue _fun0002 }
- 1478:
+ 1444:
+            if(var7) { _fun0002_ip = 1611; continue _fun0002 }
+ 1450:
+            if(!var5) { _fun0002_ip = 1488; continue _fun0002 }
+ 1453:
+            if(!(var8 != var6)) { _fun0002_ip = 1466; continue _fun0002 }
+ 1457:
             var5 = var6.ignoreTraits;
-            if(var5) { _fun0002_ip = 1509; continue _fun0002 }
- 1487:
+            if(var5) { _fun0002_ip = 1488; continue _fun0002 }
+ 1466:
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var5 = 23;
+            var5 = 22;
             var5 = var9[var5];
             var5 = var7.bind(var3)(var5);
-            _fun0002_ip = 1630; continue _fun0002;
- 1509:
+            _fun0002_ip = 1609; continue _fun0002;
+ 1488:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var7 = 24;
+            var7 = 23;
             var7 = var10[var7];
             var7 = var9.bind(var3)(var7);
             var7 = var7.bind(var3)(var4);
-            if(!var7) { _fun0002_ip = 1572; continue _fun0002 }
- 1537:
-            if(!(var8 != var6)) { _fun0002_ip = 1550; continue _fun0002 }
- 1541:
+            if(!var7) { _fun0002_ip = 1551; continue _fun0002 }
+ 1516:
+            if(!(var8 != var6)) { _fun0002_ip = 1529; continue _fun0002 }
+ 1520:
             var6 = var6.ignoreTraits;
-            if(var6) { _fun0002_ip = 1572; continue _fun0002 }
- 1550:
+            if(var6) { _fun0002_ip = 1551; continue _fun0002 }
+ 1529:
             var7 = _closure1_slot1;
             var9 = _closure1_slot2;
             var6 = 19;
             var6 = var9[var6];
             var6 = var7.bind(var3)(var6);
-            _fun0002_ip = 1627; continue _fun0002;
- 1572:
+            _fun0002_ip = 1606; continue _fun0002;
+ 1551:
             var7 = var4.linkedLobby;
-            if(!(var8 == var7)) { _fun0002_ip = 1604; continue _fun0002 }
- 1582:
+            if(!(var8 == var7)) { _fun0002_ip = 1583; continue _fun0002 }
+ 1561:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
             var7 = 7;
             var7 = var9[var7];
             var7 = var8.bind(var3)(var7);
-            _fun0002_ip = 1624; continue _fun0002;
- 1604:
+            _fun0002_ip = 1603; continue _fun0002;
+ 1583:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
-            var8 = 25;
+            var8 = 24;
             var8 = var10[var8];
             var7 = var9.bind(var3)(var8);
- 1624:
+ 1603:
             var6 = var7;
- 1627:
+ 1606:
             var5 = var6;
- 1630:
-            _fun0002_ip = 1652; continue _fun0002;
- 1632:
+ 1609:
+            _fun0002_ip = 1631; continue _fun0002;
+ 1611:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var6 = 22;
+            var6 = 21;
             var6 = var8[var6];
             var5 = var7.bind(var3)(var6);
- 1652:
+ 1631:
             return var5;
- 1654:
+ 1633:
             var6 = _closure1_slot1;
             var7 = _closure1_slot2;
             var5 = 6;
             var5 = var7[var5];
             var5 = var6.bind(var3)(var5);
             return var5;
- 1676:
+ 1655:
             var5 = _closure1_slot7;
             var4 = var4.type;
             var4 = var5.bind(var3)(var4);
             return var4;
- 1692:
+ 1671:
             return var2;
- 1694:
+ 1673:
             var2 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = 16;
@@ -646,582 +641,577 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var10.bind(var12)(var8, var2);
             var2 = var5.isForumPost;
             var2 = var2.bind(var5)();
-            if(var2) { _fun0003_ip = 1951; continue _fun0003 }
+            if(var2) { _fun0003_ip = 1930; continue _fun0003 }
  121:
             var2 = var5.isMediaChannel;
             var10 = var2.bind(var5)();
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var2 = 21;
-            var2 = var13[var2];
-            var12 = var12.bind(var3)(var2);
-            var2 = var12.isChannelNSFWWithoutGuildRollup;
-            var2 = var2.bind(var12)(var5);
+            var2 = var5.isNSFW;
+            var2 = var2.bind(var5)();
             var13 = var5.type;
             var12 = _closure1_slot6;
             var12 = var12.PRIVATE_THREAD;
-            if(!(var12 !== var13)) { _fun0003_ip = 1923; continue _fun0003 }
- 184:
+            if(!(var12 !== var13)) { _fun0003_ip = 1902; continue _fun0003 }
+ 163:
             var12 = _closure1_slot6;
             var12 = var12.ANNOUNCEMENT_THREAD;
-            if(!(var12 !== var13)) { _fun0003_ip = 1895; continue _fun0003 }
- 201:
+            if(!(var12 !== var13)) { _fun0003_ip = 1874; continue _fun0003 }
+ 180:
             var12 = _closure1_slot6;
             var12 = var12.PUBLIC_THREAD;
-            if(!(var12 !== var13)) { _fun0003_ip = 1895; continue _fun0003 }
- 218:
+            if(!(var12 !== var13)) { _fun0003_ip = 1874; continue _fun0003 }
+ 197:
             var12 = _closure1_slot6;
             var12 = var12.GUILD_CATEGORY;
-            if(!(var12 !== var13)) { _fun0003_ip = 1867; continue _fun0003 }
- 235:
+            if(!(var12 !== var13)) { _fun0003_ip = 1846; continue _fun0003 }
+ 214:
             var12 = _closure1_slot6;
             var12 = var12.GUILD_TEXT;
-            if(!(var12 !== var13)) { _fun0003_ip = 1645; continue _fun0003 }
- 252:
+            if(!(var12 !== var13)) { _fun0003_ip = 1624; continue _fun0003 }
+ 231:
             var12 = _closure1_slot6;
             var12 = var12.GUILD_FORUM;
-            if(!(var12 !== var13)) { _fun0003_ip = 1392; continue _fun0003 }
- 269:
+            if(!(var12 !== var13)) { _fun0003_ip = 1371; continue _fun0003 }
+ 248:
             var12 = _closure1_slot6;
             var12 = var12.GUILD_MEDIA;
-            if(!(var12 !== var13)) { _fun0003_ip = 1214; continue _fun0003 }
- 286:
+            if(!(var12 !== var13)) { _fun0003_ip = 1193; continue _fun0003 }
+ 265:
             var12 = _closure1_slot6;
             var12 = var12.GROUP_DM;
-            if(!(var12 !== var13)) { _fun0003_ip = 1186; continue _fun0003 }
- 303:
+            if(!(var12 !== var13)) { _fun0003_ip = 1165; continue _fun0003 }
+ 282:
             var12 = _closure1_slot6;
             var12 = var12.DM;
-            if(!(var12 !== var13)) { _fun0003_ip = 1158; continue _fun0003 }
- 320:
+            if(!(var12 !== var13)) { _fun0003_ip = 1137; continue _fun0003 }
+ 299:
             var12 = _closure1_slot6;
             var12 = var12.GUILD_ANNOUNCEMENT;
-            if(!(var12 !== var13)) { _fun0003_ip = 980; continue _fun0003 }
- 337:
+            if(!(var12 !== var13)) { _fun0003_ip = 959; continue _fun0003 }
+ 316:
             var12 = _closure1_slot6;
             var12 = var12.GUILD_STAGE_VOICE;
-            if(!(var12 !== var13)) { _fun0003_ip = 738; continue _fun0003 }
- 354:
+            if(!(var12 !== var13)) { _fun0003_ip = 717; continue _fun0003 }
+ 333:
             var12 = _closure1_slot6;
             var12 = var12.GUILD_VOICE;
-            if(!(var12 !== var13)) { _fun0003_ip = 412; continue _fun0003 }
- 368:
+            if(!(var12 !== var13)) { _fun0003_ip = 391; continue _fun0003 }
+ 347:
             var12 = _closure1_slot6;
             var12 = var12.GUILD_DIRECTORY;
-            if(!(var12 !== var13)) { _fun0003_ip = 384; continue _fun0003 }
- 382:
+            if(!(var12 !== var13)) { _fun0003_ip = 363; continue _fun0003 }
+ 361:
             return var3;
- 384:
+ 363:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var12 = 60;
+            var12 = 59;
             var12 = var14[var12];
             var12 = var13.bind(var3)(var12);
             var12 = var12.HubIcon;
             return var12;
- 412:
-            if(var11) { _fun0003_ip = 710; continue _fun0003 }
- 418:
-            if(!var8) { _fun0003_ip = 513; continue _fun0003 }
- 421:
-            if(!(var6 != var4)) { _fun0003_ip = 434; continue _fun0003 }
- 425:
+ 391:
+            if(var11) { _fun0003_ip = 689; continue _fun0003 }
+ 397:
+            if(!var8) { _fun0003_ip = 492; continue _fun0003 }
+ 400:
+            if(!(var6 != var4)) { _fun0003_ip = 413; continue _fun0003 }
+ 404:
             var11 = var4.ignoreTraits;
-            if(var11) { _fun0003_ip = 513; continue _fun0003 }
- 434:
+            if(var11) { _fun0003_ip = 492; continue _fun0003 }
+ 413:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var11 = 24;
+            var11 = 23;
             var11 = var13[var11];
             var11 = var12.bind(var3)(var11);
             var11 = var11.bind(var3)(var5);
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            if(var11) { _fun0003_ip = 490; continue _fun0003 }
- 470:
-            var11 = 57;
+            if(var11) { _fun0003_ip = 469; continue _fun0003 }
+ 449:
+            var11 = 56;
             var11 = var14[var11];
             var11 = var13.bind(var3)(var11);
             var11 = var11.VoiceLockIcon;
-            _fun0003_ip = 508; continue _fun0003;
- 490:
-            var12 = 54;
+            _fun0003_ip = 487; continue _fun0003;
+ 469:
+            var12 = 53;
             var12 = var14[var12];
             var12 = var13.bind(var3)(var12);
             var11 = var12.LockIcon;
- 508:
-            _fun0003_ip = 708; continue _fun0003;
- 513:
-            if(!var9) { _fun0003_ip = 560; continue _fun0003 }
- 516:
-            if(!(var6 != var4)) { _fun0003_ip = 529; continue _fun0003 }
- 520:
+ 487:
+            _fun0003_ip = 687; continue _fun0003;
+ 492:
+            if(!var9) { _fun0003_ip = 539; continue _fun0003 }
+ 495:
+            if(!(var6 != var4)) { _fun0003_ip = 508; continue _fun0003 }
+ 499:
             var12 = var4.ignoreTraits;
-            if(var12) { _fun0003_ip = 560; continue _fun0003 }
- 529:
+            if(var12) { _fun0003_ip = 539; continue _fun0003 }
+ 508:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var12 = 54;
+            var12 = 53;
             var12 = var14[var12];
             var12 = var13.bind(var3)(var12);
             var12 = var12.LockIcon;
-            _fun0003_ip = 705; continue _fun0003;
- 560:
+            _fun0003_ip = 684; continue _fun0003;
+ 539:
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var13 = 24;
+            var13 = 23;
             var13 = var15[var13];
             var13 = var14.bind(var3)(var13);
             var13 = var13.bind(var3)(var5);
-            if(!var13) { _fun0003_ip = 629; continue _fun0003 }
- 588:
-            if(!(var6 != var4)) { _fun0003_ip = 601; continue _fun0003 }
- 592:
+            if(!var13) { _fun0003_ip = 608; continue _fun0003 }
+ 567:
+            if(!(var6 != var4)) { _fun0003_ip = 580; continue _fun0003 }
+ 571:
             var13 = var4.ignoreTraits;
-            if(var13) { _fun0003_ip = 629; continue _fun0003 }
- 601:
+            if(var13) { _fun0003_ip = 608; continue _fun0003 }
+ 580:
             var14 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var13 = 57;
+            var13 = 56;
             var13 = var15[var13];
             var13 = var14.bind(var3)(var13);
             var13 = var13.VoiceLockIcon;
-            _fun0003_ip = 702; continue _fun0003;
- 629:
-            if(!var2) { _fun0003_ip = 673; continue _fun0003 }
- 632:
-            if(!(var6 != var4)) { _fun0003_ip = 645; continue _fun0003 }
- 636:
+            _fun0003_ip = 681; continue _fun0003;
+ 608:
+            if(!var2) { _fun0003_ip = 652; continue _fun0003 }
+ 611:
+            if(!(var6 != var4)) { _fun0003_ip = 624; continue _fun0003 }
+ 615:
             var14 = var4.ignoreTraits;
-            if(var14) { _fun0003_ip = 673; continue _fun0003 }
- 645:
+            if(var14) { _fun0003_ip = 652; continue _fun0003 }
+ 624:
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
-            var14 = 58;
+            var14 = 57;
             var14 = var16[var14];
             var14 = var15.bind(var3)(var14);
             var14 = var14.VoiceWarningIcon;
-            _fun0003_ip = 699; continue _fun0003;
- 673:
+            _fun0003_ip = 678; continue _fun0003;
+ 652:
             var16 = _closure1_slot0;
             var17 = _closure1_slot2;
-            var15 = 59;
+            var15 = 58;
             var15 = var17[var15];
             var15 = var16.bind(var3)(var15);
             var14 = var15.VoiceNormalIcon;
- 699:
+ 678:
             var13 = var14;
- 702:
+ 681:
             var12 = var13;
- 705:
+ 684:
             var11 = var12;
- 708:
-            _fun0003_ip = 736; continue _fun0003;
- 710:
+ 687:
+            _fun0003_ip = 715; continue _fun0003;
+ 689:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
-            var12 = 34;
+            var12 = 33;
             var12 = var14[var12];
             var12 = var13.bind(var3)(var12);
             var11 = var12.ChatIcon;
- 736:
+ 715:
             return var11;
- 738:
-            if(!var8) { _fun0003_ip = 833; continue _fun0003 }
- 741:
-            if(!(var6 != var4)) { _fun0003_ip = 754; continue _fun0003 }
- 745:
+ 717:
+            if(!var8) { _fun0003_ip = 812; continue _fun0003 }
+ 720:
+            if(!(var6 != var4)) { _fun0003_ip = 733; continue _fun0003 }
+ 724:
             var8 = var4.ignoreTraits;
-            if(var8) { _fun0003_ip = 833; continue _fun0003 }
- 754:
+            if(var8) { _fun0003_ip = 812; continue _fun0003 }
+ 733:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var8 = 24;
+            var8 = 23;
             var8 = var12[var8];
             var8 = var11.bind(var3)(var8);
             var8 = var8.bind(var3)(var5);
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            if(var8) { _fun0003_ip = 810; continue _fun0003 }
- 790:
-            var8 = 55;
+            if(var8) { _fun0003_ip = 789; continue _fun0003 }
+ 769:
+            var8 = 54;
             var8 = var13[var8];
             var8 = var12.bind(var3)(var8);
             var8 = var8.StageLockIcon;
-            _fun0003_ip = 828; continue _fun0003;
- 810:
-            var11 = 54;
-            var11 = var13[var11];
-            var11 = var12.bind(var3)(var11);
-            var8 = var11.LockIcon;
- 828:
-            _fun0003_ip = 978; continue _fun0003;
- 833:
-            if(!var9) { _fun0003_ip = 877; continue _fun0003 }
- 836:
-            if(!(var6 != var4)) { _fun0003_ip = 849; continue _fun0003 }
- 840:
-            var9 = var4.ignoreTraits;
-            if(var9) { _fun0003_ip = 877; continue _fun0003 }
- 849:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var9 = 54;
-            var9 = var12[var9];
-            var9 = var11.bind(var3)(var9);
-            var9 = var9.LockIcon;
-            _fun0003_ip = 975; continue _fun0003;
- 877:
-            var12 = _closure1_slot1;
-            var13 = _closure1_slot2;
-            var11 = 24;
-            var11 = var13[var11];
-            var11 = var12.bind(var3)(var11);
-            var11 = var11.bind(var3)(var5);
-            if(!var11) { _fun0003_ip = 946; continue _fun0003 }
- 905:
-            if(!(var6 != var4)) { _fun0003_ip = 918; continue _fun0003 }
- 909:
-            var11 = var4.ignoreTraits;
-            if(var11) { _fun0003_ip = 946; continue _fun0003 }
- 918:
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var11 = 55;
-            var11 = var13[var11];
-            var11 = var12.bind(var3)(var11);
-            var11 = var11.StageLockIcon;
-            _fun0003_ip = 972; continue _fun0003;
- 946:
-            var13 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var12 = 56;
-            var12 = var14[var12];
-            var12 = var13.bind(var3)(var12);
-            var11 = var12.StageIcon;
- 972:
-            var9 = var11;
- 975:
-            var8 = var9;
- 978:
-            return var8;
- 980:
-            if(var7) { _fun0003_ip = 1130; continue _fun0003 }
- 986:
-            if(!var2) { _fun0003_ip = 1030; continue _fun0003 }
- 989:
-            if(!(var6 != var4)) { _fun0003_ip = 1002; continue _fun0003 }
- 993:
-            var8 = var4.ignoreTraits;
-            if(var8) { _fun0003_ip = 1030; continue _fun0003 }
- 1002:
-            var9 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var8 = 51;
-            var8 = var11[var8];
-            var8 = var9.bind(var3)(var8);
-            var8 = var8.AnnouncementsWarningIcon;
-            _fun0003_ip = 1128; continue _fun0003;
- 1030:
-            var11 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var9 = 24;
-            var9 = var12[var9];
-            var9 = var11.bind(var3)(var9);
-            var9 = var9.bind(var3)(var5);
-            if(!var9) { _fun0003_ip = 1099; continue _fun0003 }
- 1058:
-            if(!(var6 != var4)) { _fun0003_ip = 1071; continue _fun0003 }
- 1062:
-            var9 = var4.ignoreTraits;
-            if(var9) { _fun0003_ip = 1099; continue _fun0003 }
- 1071:
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var9 = 52;
-            var9 = var12[var9];
-            var9 = var11.bind(var3)(var9);
-            var9 = var9.AnnouncementsLockIcon;
-            _fun0003_ip = 1125; continue _fun0003;
- 1099:
-            var12 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            _fun0003_ip = 807; continue _fun0003;
+ 789:
             var11 = 53;
             var11 = var13[var11];
             var11 = var12.bind(var3)(var11);
-            var9 = var11.AnnouncementsIcon;
- 1125:
-            var8 = var9;
- 1128:
-            _fun0003_ip = 1156; continue _fun0003;
- 1130:
+            var8 = var11.LockIcon;
+ 807:
+            _fun0003_ip = 957; continue _fun0003;
+ 812:
+            if(!var9) { _fun0003_ip = 856; continue _fun0003 }
+ 815:
+            if(!(var6 != var4)) { _fun0003_ip = 828; continue _fun0003 }
+ 819:
+            var9 = var4.ignoreTraits;
+            if(var9) { _fun0003_ip = 856; continue _fun0003 }
+ 828:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var9 = 38;
+            var9 = 53;
             var9 = var12[var9];
             var9 = var11.bind(var3)(var9);
-            var8 = var9.BookCheckIcon;
- 1156:
+            var9 = var9.LockIcon;
+            _fun0003_ip = 954; continue _fun0003;
+ 856:
+            var12 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var11 = 23;
+            var11 = var13[var11];
+            var11 = var12.bind(var3)(var11);
+            var11 = var11.bind(var3)(var5);
+            if(!var11) { _fun0003_ip = 925; continue _fun0003 }
+ 884:
+            if(!(var6 != var4)) { _fun0003_ip = 897; continue _fun0003 }
+ 888:
+            var11 = var4.ignoreTraits;
+            if(var11) { _fun0003_ip = 925; continue _fun0003 }
+ 897:
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var11 = 54;
+            var11 = var13[var11];
+            var11 = var12.bind(var3)(var11);
+            var11 = var11.StageLockIcon;
+            _fun0003_ip = 951; continue _fun0003;
+ 925:
+            var13 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var12 = 55;
+            var12 = var14[var12];
+            var12 = var13.bind(var3)(var12);
+            var11 = var12.StageIcon;
+ 951:
+            var9 = var11;
+ 954:
+            var8 = var9;
+ 957:
             return var8;
- 1158:
+ 959:
+            if(var7) { _fun0003_ip = 1109; continue _fun0003 }
+ 965:
+            if(!var2) { _fun0003_ip = 1009; continue _fun0003 }
+ 968:
+            if(!(var6 != var4)) { _fun0003_ip = 981; continue _fun0003 }
+ 972:
+            var8 = var4.ignoreTraits;
+            if(var8) { _fun0003_ip = 1009; continue _fun0003 }
+ 981:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
             var8 = 50;
             var8 = var11[var8];
             var8 = var9.bind(var3)(var8);
-            var8 = var8.AtIcon;
+            var8 = var8.AnnouncementsWarningIcon;
+            _fun0003_ip = 1107; continue _fun0003;
+ 1009:
+            var11 = _closure1_slot1;
+            var12 = _closure1_slot2;
+            var9 = 23;
+            var9 = var12[var9];
+            var9 = var11.bind(var3)(var9);
+            var9 = var9.bind(var3)(var5);
+            if(!var9) { _fun0003_ip = 1078; continue _fun0003 }
+ 1037:
+            if(!(var6 != var4)) { _fun0003_ip = 1050; continue _fun0003 }
+ 1041:
+            var9 = var4.ignoreTraits;
+            if(var9) { _fun0003_ip = 1078; continue _fun0003 }
+ 1050:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var9 = 51;
+            var9 = var12[var9];
+            var9 = var11.bind(var3)(var9);
+            var9 = var9.AnnouncementsLockIcon;
+            _fun0003_ip = 1104; continue _fun0003;
+ 1078:
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var11 = 52;
+            var11 = var13[var11];
+            var11 = var12.bind(var3)(var11);
+            var9 = var11.AnnouncementsIcon;
+ 1104:
+            var8 = var9;
+ 1107:
+            _fun0003_ip = 1135; continue _fun0003;
+ 1109:
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
+            var9 = 37;
+            var9 = var12[var9];
+            var9 = var11.bind(var3)(var9);
+            var8 = var9.BookCheckIcon;
+ 1135:
             return var8;
- 1186:
+ 1137:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
             var8 = 49;
             var8 = var11[var8];
             var8 = var9.bind(var3)(var8);
-            var8 = var8.GroupIcon;
+            var8 = var8.AtIcon;
             return var8;
- 1214:
-            if(var7) { _fun0003_ip = 1364; continue _fun0003 }
- 1220:
-            if(!var2) { _fun0003_ip = 1264; continue _fun0003 }
- 1223:
-            if(!(var6 != var4)) { _fun0003_ip = 1236; continue _fun0003 }
- 1227:
-            var8 = var4.ignoreTraits;
-            if(var8) { _fun0003_ip = 1264; continue _fun0003 }
- 1236:
+ 1165:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var8 = 43;
+            var8 = 48;
+            var8 = var11[var8];
+            var8 = var9.bind(var3)(var8);
+            var8 = var8.GroupIcon;
+            return var8;
+ 1193:
+            if(var7) { _fun0003_ip = 1343; continue _fun0003 }
+ 1199:
+            if(!var2) { _fun0003_ip = 1243; continue _fun0003 }
+ 1202:
+            if(!(var6 != var4)) { _fun0003_ip = 1215; continue _fun0003 }
+ 1206:
+            var8 = var4.ignoreTraits;
+            if(var8) { _fun0003_ip = 1243; continue _fun0003 }
+ 1215:
+            var9 = _closure1_slot0;
+            var11 = _closure1_slot2;
+            var8 = 42;
             var8 = var11[var8];
             var8 = var9.bind(var3)(var8);
             var8 = var8.ImageWarningIcon;
-            _fun0003_ip = 1362; continue _fun0003;
- 1264:
+            _fun0003_ip = 1341; continue _fun0003;
+ 1243:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var9 = 24;
+            var9 = 23;
             var9 = var12[var9];
             var9 = var11.bind(var3)(var9);
             var9 = var9.bind(var3)(var5);
-            if(!var9) { _fun0003_ip = 1333; continue _fun0003 }
- 1292:
-            if(!(var6 != var4)) { _fun0003_ip = 1305; continue _fun0003 }
- 1296:
+            if(!var9) { _fun0003_ip = 1312; continue _fun0003 }
+ 1271:
+            if(!(var6 != var4)) { _fun0003_ip = 1284; continue _fun0003 }
+ 1275:
             var9 = var4.ignoreTraits;
-            if(var9) { _fun0003_ip = 1333; continue _fun0003 }
- 1305:
+            if(var9) { _fun0003_ip = 1312; continue _fun0003 }
+ 1284:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var9 = 45;
+            var9 = 44;
             var9 = var12[var9];
             var9 = var11.bind(var3)(var9);
             var9 = var9.ImageLockIcon;
-            _fun0003_ip = 1359; continue _fun0003;
- 1333:
+            _fun0003_ip = 1338; continue _fun0003;
+ 1312:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var11 = 47;
+            var11 = 46;
             var11 = var13[var11];
             var11 = var12.bind(var3)(var11);
             var9 = var11.ImageIcon;
- 1359:
+ 1338:
             var8 = var9;
- 1362:
-            _fun0003_ip = 1390; continue _fun0003;
- 1364:
+ 1341:
+            _fun0003_ip = 1369; continue _fun0003;
+ 1343:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var9 = 38;
+            var9 = 37;
             var9 = var12[var9];
             var9 = var11.bind(var3)(var9);
             var8 = var9.BookCheckIcon;
- 1390:
+ 1369:
             return var8;
- 1392:
-            if(var7) { _fun0003_ip = 1617; continue _fun0003 }
- 1398:
-            if(!var2) { _fun0003_ip = 1468; continue _fun0003 }
- 1401:
-            if(!(var6 != var4)) { _fun0003_ip = 1414; continue _fun0003 }
- 1405:
+ 1371:
+            if(var7) { _fun0003_ip = 1596; continue _fun0003 }
+ 1377:
+            if(!var2) { _fun0003_ip = 1447; continue _fun0003 }
+ 1380:
+            if(!(var6 != var4)) { _fun0003_ip = 1393; continue _fun0003 }
+ 1384:
             var8 = var4.ignoreTraits;
-            if(var8) { _fun0003_ip = 1468; continue _fun0003 }
- 1414:
+            if(var8) { _fun0003_ip = 1447; continue _fun0003 }
+ 1393:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
-            if(var10) { _fun0003_ip = 1445; continue _fun0003 }
- 1425:
-            var8 = 44;
+            if(var10) { _fun0003_ip = 1424; continue _fun0003 }
+ 1404:
+            var8 = 43;
             var8 = var12[var8];
             var8 = var11.bind(var3)(var8);
             var8 = var8.ForumWarningIcon;
-            _fun0003_ip = 1463; continue _fun0003;
- 1445:
-            var9 = 43;
+            _fun0003_ip = 1442; continue _fun0003;
+ 1424:
+            var9 = 42;
             var9 = var12[var9];
             var9 = var11.bind(var3)(var9);
             var8 = var9.ImageWarningIcon;
- 1463:
-            _fun0003_ip = 1615; continue _fun0003;
- 1468:
+ 1442:
+            _fun0003_ip = 1594; continue _fun0003;
+ 1447:
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
-            var9 = 24;
+            var9 = 23;
             var9 = var12[var9];
             var9 = var11.bind(var3)(var9);
             var9 = var9.bind(var3)(var5);
-            if(!var9) { _fun0003_ip = 1560; continue _fun0003 }
- 1496:
-            if(!(var6 != var4)) { _fun0003_ip = 1509; continue _fun0003 }
- 1500:
+            if(!var9) { _fun0003_ip = 1539; continue _fun0003 }
+ 1475:
+            if(!(var6 != var4)) { _fun0003_ip = 1488; continue _fun0003 }
+ 1479:
             var9 = var4.ignoreTraits;
-            if(var9) { _fun0003_ip = 1560; continue _fun0003 }
- 1509:
+            if(var9) { _fun0003_ip = 1539; continue _fun0003 }
+ 1488:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            if(var10) { _fun0003_ip = 1540; continue _fun0003 }
- 1520:
-            var9 = 46;
+            if(var10) { _fun0003_ip = 1519; continue _fun0003 }
+ 1499:
+            var9 = 45;
             var9 = var13[var9];
             var9 = var12.bind(var3)(var9);
             var9 = var9.ForumLockIcon;
-            _fun0003_ip = 1558; continue _fun0003;
- 1540:
-            var11 = 45;
+            _fun0003_ip = 1537; continue _fun0003;
+ 1519:
+            var11 = 44;
             var11 = var13[var11];
             var11 = var12.bind(var3)(var11);
             var9 = var11.ImageLockIcon;
- 1558:
-            _fun0003_ip = 1612; continue _fun0003;
- 1560:
+ 1537:
+            _fun0003_ip = 1591; continue _fun0003;
+ 1539:
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            if(var10) { _fun0003_ip = 1591; continue _fun0003 }
- 1571:
-            var10 = 48;
+            if(var10) { _fun0003_ip = 1570; continue _fun0003 }
+ 1550:
+            var10 = 47;
             var10 = var13[var10];
             var10 = var12.bind(var3)(var10);
             var10 = var10.ForumIcon;
-            _fun0003_ip = 1609; continue _fun0003;
- 1591:
-            var11 = 47;
+            _fun0003_ip = 1588; continue _fun0003;
+ 1570:
+            var11 = 46;
             var11 = var13[var11];
             var11 = var12.bind(var3)(var11);
             var10 = var11.ImageIcon;
- 1609:
+ 1588:
             var9 = var10;
- 1612:
+ 1591:
             var8 = var9;
- 1615:
-            _fun0003_ip = 1643; continue _fun0003;
- 1617:
+ 1594:
+            _fun0003_ip = 1622; continue _fun0003;
+ 1596:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var9 = 38;
+            var9 = 37;
             var9 = var11[var9];
             var9 = var10.bind(var3)(var9);
             var8 = var9.BookCheckIcon;
- 1643:
+ 1622:
             return var8;
- 1645:
-            if(var7) { _fun0003_ip = 1839; continue _fun0003 }
- 1651:
-            if(!var2) { _fun0003_ip = 1698; continue _fun0003 }
- 1654:
-            if(!(var6 != var4)) { _fun0003_ip = 1667; continue _fun0003 }
- 1658:
+ 1624:
+            if(var7) { _fun0003_ip = 1818; continue _fun0003 }
+ 1630:
+            if(!var2) { _fun0003_ip = 1677; continue _fun0003 }
+ 1633:
+            if(!(var6 != var4)) { _fun0003_ip = 1646; continue _fun0003 }
+ 1637:
             var2 = var4.ignoreTraits;
-            if(var2) { _fun0003_ip = 1698; continue _fun0003 }
- 1667:
+            if(var2) { _fun0003_ip = 1677; continue _fun0003 }
+ 1646:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var2 = 39;
+            var2 = 38;
             var2 = var8[var2];
             var2 = var7.bind(var3)(var2);
             var2 = var2.TextWarningIcon;
-            _fun0003_ip = 1837; continue _fun0003;
- 1698:
+            _fun0003_ip = 1816; continue _fun0003;
+ 1677:
             var8 = _closure1_slot1;
             var9 = _closure1_slot2;
-            var7 = 24;
+            var7 = 23;
             var7 = var9[var7];
             var7 = var8.bind(var3)(var7);
             var7 = var7.bind(var3)(var5);
-            if(!var7) { _fun0003_ip = 1767; continue _fun0003 }
- 1726:
-            if(!(var6 != var4)) { _fun0003_ip = 1739; continue _fun0003 }
- 1730:
+            if(!var7) { _fun0003_ip = 1746; continue _fun0003 }
+ 1705:
+            if(!(var6 != var4)) { _fun0003_ip = 1718; continue _fun0003 }
+ 1709:
             var4 = var4.ignoreTraits;
-            if(var4) { _fun0003_ip = 1767; continue _fun0003 }
- 1739:
+            if(var4) { _fun0003_ip = 1746; continue _fun0003 }
+ 1718:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var4 = 40;
+            var4 = 39;
             var4 = var8[var4];
             var4 = var7.bind(var3)(var4);
             var4 = var4.TextLockIcon;
-            _fun0003_ip = 1834; continue _fun0003;
- 1767:
+            _fun0003_ip = 1813; continue _fun0003;
+ 1746:
             var5 = var5.linkedLobby;
-            if(!(var6 == var5)) { _fun0003_ip = 1805; continue _fun0003 }
- 1777:
+            if(!(var6 == var5)) { _fun0003_ip = 1784; continue _fun0003 }
+ 1756:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var5 = 42;
+            var5 = 41;
             var5 = var7[var5];
             var5 = var6.bind(var3)(var5);
             var5 = var5.TextIcon;
-            _fun0003_ip = 1831; continue _fun0003;
- 1805:
+            _fun0003_ip = 1810; continue _fun0003;
+ 1784:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var6 = 41;
+            var6 = 40;
             var6 = var8[var6];
             var6 = var7.bind(var3)(var6);
             var5 = var6.TextControllerIcon;
- 1831:
+ 1810:
             var4 = var5;
- 1834:
+ 1813:
             var2 = var4;
- 1837:
-            _fun0003_ip = 1865; continue _fun0003;
- 1839:
+ 1816:
+            _fun0003_ip = 1844; continue _fun0003;
+ 1818:
             var5 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var4 = 38;
+            var4 = 37;
             var4 = var6[var4];
             var4 = var5.bind(var3)(var4);
             var2 = var4.BookCheckIcon;
- 1865:
+ 1844:
             return var2;
- 1867:
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var2 = 37;
-            var2 = var5[var2];
-            var2 = var4.bind(var3)(var2);
-            var2 = var2.FolderIcon;
-            return var2;
- 1895:
+ 1846:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 36;
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
-            var2 = var2.ThreadIcon;
+            var2 = var2.FolderIcon;
             return var2;
- 1923:
+ 1874:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 35;
             var2 = var5[var2];
             var2 = var4.bind(var3)(var2);
+            var2 = var2.ThreadIcon;
+            return var2;
+ 1902:
+            var4 = _closure1_slot0;
+            var5 = _closure1_slot2;
+            var2 = 34;
+            var2 = var5[var2];
+            var2 = var4.bind(var3)(var2);
             var2 = var2.ThreadLockIcon;
             return var2;
- 1951:
+ 1930:
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 34;
+            var1 = 33;
             var1 = var4[var1];
             var1 = var2.bind(var3)(var1);
             var1 = var1.ChatIcon;
@@ -1255,7 +1245,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var8.bind(var1)(var7);
     var7 = var7.ChannelTypes;
     var _closure1_slot6 = var7;
-    var7 = 61;
+    var7 = 60;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
@@ -1625,7 +1615,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  227:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 60;
+            var1 = 59;
             var4 = var4[var1];
             var1 = undefined;
             var1 = var5.bind(var1)(var4);
@@ -1634,7 +1624,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  257:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 59;
+            var1 = 58;
             var4 = var4[var1];
             var1 = undefined;
             var1 = var5.bind(var1)(var4);
@@ -1643,7 +1633,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  287:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 56;
+            var1 = 55;
             var4 = var4[var1];
             var1 = undefined;
             var1 = var5.bind(var1)(var4);
@@ -1652,7 +1642,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  317:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 53;
+            var1 = 52;
             var4 = var4[var1];
             var1 = undefined;
             var1 = var5.bind(var1)(var4);
@@ -1661,7 +1651,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  347:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 50;
+            var1 = 49;
             var4 = var4[var1];
             var1 = undefined;
             var1 = var5.bind(var1)(var4);
@@ -1670,7 +1660,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  377:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 49;
+            var1 = 48;
             var4 = var4[var1];
             var1 = undefined;
             var1 = var5.bind(var1)(var4);
@@ -1679,7 +1669,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  407:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 47;
+            var1 = 46;
             var4 = var4[var1];
             var1 = undefined;
             var1 = var5.bind(var1)(var4);
@@ -1688,7 +1678,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  437:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 48;
+            var1 = 47;
             var4 = var4[var1];
             var1 = undefined;
             var1 = var5.bind(var1)(var4);
@@ -1697,7 +1687,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  467:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 42;
+            var1 = 41;
             var4 = var4[var1];
             var1 = undefined;
             var1 = var5.bind(var1)(var4);
@@ -1706,7 +1696,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  497:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 37;
+            var1 = 36;
             var4 = var4[var1];
             var1 = undefined;
             var1 = var5.bind(var1)(var4);
@@ -1719,14 +1709,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot2;
             if(var1) { _fun0008_ip = 570; continue _fun0008 }
  548:
-            var1 = 36;
+            var1 = 35;
             var2 = var3[var1];
             var1 = undefined;
             var1 = var4.bind(var1)(var2);
             var1 = var1.ThreadIcon;
             _fun0008_ip = 590; continue _fun0008;
  570:
-            var2 = 34;
+            var2 = 33;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);

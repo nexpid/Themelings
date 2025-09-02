@@ -2453,9 +2453,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  2726:
             var13 = _closure1_slot9;
  2730:
-            if(var3) { _fun0003_ip = 3885; continue _fun0003 }
+            if(var3) { _fun0003_ip = 3881; continue _fun0003 }
  2736:
-            if(!(var2 != var12)) { _fun0003_ip = 3862; continue _fun0003 }
+            if(!(var2 != var12)) { _fun0003_ip = 3858; continue _fun0003 }
  2743:
             if(var1) { _fun0003_ip = 2777; continue _fun0003 }
  2746:
@@ -2465,7 +2465,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['command'] = var12;
             var1['onPressBack'] = var11;
             var7 = var3.bind(var4)(var2, var1);
-            _fun0003_ip = 3860; continue _fun0003;
+            _fun0003_ip = 3856; continue _fun0003;
  2777:
             var3 = _closure1_slot21;
             var2 = _closure1_slot22;
@@ -2522,8 +2522,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = new Array(6);
             var14[0] = var21;
             var21 = var24;
-            if(!var21) { _fun0003_ip = 3096; continue _fun0003 }
- 3044:
+            if(!var21) { _fun0003_ip = 3092; continue _fun0003 }
+ 3040:
             var30 = _closure1_slot20;
             var28 = _closure1_slot7;
             var27 = {};
@@ -2592,15 +2592,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var31 = var34.bind(var35)(var31);
             var27['children'] = var31;
             var21 = var30.bind(var4)(var28, var27);
- 3096:
+ 3092:
             var14[1] = var21;
             var21 = !var24;
-            if(var24) { _fun0003_ip = 3109; continue _fun0003 }
- 3106:
+            if(var24) { _fun0003_ip = 3105; continue _fun0003 }
+ 3102:
             var21 = var22;
- 3109:
-            if(!var21) { _fun0003_ip = 3258; continue _fun0003 }
- 3115:
+ 3105:
+            if(!var21) { _fun0003_ip = 3254; continue _fun0003 }
+ 3111:
             var28 = _closure1_slot20;
             var27 = _closure1_slot7;
             var24 = {};
@@ -2631,11 +2631,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var30 = var34.bind(var4)(var31, var30);
             var24['children'] = var30;
             var21 = var28.bind(var4)(var27, var24);
- 3258:
+ 3254:
             var14[2] = var21;
             var21 = !var22;
-            if(var22) { _fun0003_ip = 3414; continue _fun0003 }
- 3271:
+            if(var22) { _fun0003_ip = 3410; continue _fun0003 }
+ 3267:
             var27 = _closure1_slot20;
             var24 = _closure1_slot7;
             var22 = {};
@@ -2666,10 +2666,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var28 = var31.bind(var4)(var30, var28);
             var22['children'] = var28;
             var21 = var27.bind(var4)(var24, var22);
- 3414:
+ 3410:
             var14[3] = var21;
-            if(!var15) { _fun0003_ip = 3743; continue _fun0003 }
- 3424:
+            if(!var15) { _fun0003_ip = 3739; continue _fun0003 }
+ 3420:
             var24 = _closure1_slot21;
             var22 = _closure1_slot22;
             var21 = {};
@@ -2827,7 +2827,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25[2] = var26;
             var21['children'] = var25;
             var15 = var24.bind(var4)(var22, var21);
- 3743:
+ 3739:
             var14[4] = var15;
             var22 = _closure1_slot20;
             var21 = _closure1_slot1;
@@ -2855,22 +2855,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var13;
             var1['children'] = var8;
             var7 = var3.bind(var4)(var2, var1);
- 3860:
-            _fun0003_ip = 3883; continue _fun0003;
- 3862:
+ 3856:
+            _fun0003_ip = 3879; continue _fun0003;
+ 3858:
             var3 = _closure1_slot20;
             var2 = _closure1_slot31;
             var1 = {};
             var1['onPressBack'] = var11;
             var7 = var3.bind(var4)(var2, var1);
- 3883:
-            _fun0003_ip = 3901; continue _fun0003;
- 3885:
+ 3879:
+            _fun0003_ip = 3897; continue _fun0003;
+ 3881:
             var3 = _closure1_slot20;
             var2 = _closure1_slot30;
             var1 = {};
             var7 = var3.bind(var4)(var2, var1);
- 3901:
+ 3897:
             var3 = _closure1_slot21;
             var2 = _closure1_slot7;
             var1 = {};

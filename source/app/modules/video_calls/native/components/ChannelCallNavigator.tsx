@@ -446,10 +446,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var11.bind(var12)(var2, var10);
             var2 = 20;
             var2 = var8[var2];
-            var11 = var3.bind(var4)(var2);
-            var10 = var11.useShouldAgeGateChannel;
-            var2 = var7.id;
-            var2 = var10.bind(var11)(var2);
+            var10 = var3.bind(var4)(var2);
+            var2 = var10.useIsChannelContentGated;
+            var2 = var2.bind(var10)(var7);
             var16 = _closure1_slot5;
             var12 = var16.useEffect;
             var11 = function() {
@@ -609,21 +608,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var1);
             var1 = var3.useIsVoiceChannelLocked;
             var1 = var1.bind(var3)(var7);
-            if(var2) { _fun0006_ip = 407; continue _fun0006 }
- 302:
-            if(var1) { _fun0006_ip = 340; continue _fun0006 }
- 305:
+            if(var2) { _fun0006_ip = 402; continue _fun0006 }
+ 297:
+            if(var1) { _fun0006_ip = 335; continue _fun0006 }
+ 300:
             var1 = var7.isVocalThread;
             var1 = var1.bind(var7)();
-            if(var1) { _fun0006_ip = 340; continue _fun0006 }
- 318:
+            if(var1) { _fun0006_ip = 335; continue _fun0006 }
+ 313:
             var3 = _closure1_slot13;
             var2 = _closure1_slot21;
             var1 = {};
             var1['channel'] = var7;
             var8 = var3.bind(var4)(var2, var1);
-            _fun0006_ip = 405; continue _fun0006;
- 340:
+            _fun0006_ip = 400; continue _fun0006;
+ 335:
             var3 = _closure1_slot13;
             var2 = _closure1_slot6;
             var1 = {};
@@ -640,9 +639,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var11.bind(var4)(var10, var9);
             var1['children'] = var9;
             var8 = var3.bind(var4)(var2, var1);
- 405:
-            _fun0006_ip = 480; continue _fun0006;
- 407:
+ 400:
+            _fun0006_ip = 475; continue _fun0006;
+ 402:
             var3 = _closure1_slot13;
             var10 = _closure1_slot1;
             var11 = _closure1_slot2;
@@ -660,7 +659,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.id;
             var1['channelId'] = var7;
             var8 = var3.bind(var4)(var2, var1);
- 480:
+ 475:
             var2 = _closure1_slot1;
             var11 = _closure1_slot2;
             var1 = 27;
@@ -678,10 +677,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.bind(var4)(var7);
             var7 = var10.isAndroid;
             var7 = var7.bind(var10)();
-            if(var7) { _fun0006_ip = 553; continue _fun0006 }
- 550:
+            if(var7) { _fun0006_ip = 548; continue _fun0006 }
+ 545:
             var7 = !var6;
- 553:
+ 548:
             var1['forceHide'] = var7;
             var6 = !var6;
             var1['showWhenParticipantOnScreen'] = var6;
