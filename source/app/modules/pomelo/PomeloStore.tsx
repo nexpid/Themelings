@@ -432,15 +432,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1 == var5;
             var1 = undefined;
             var4 = undefined;
-            if(var6) { _fun0007_ip = 67; continue _fun0007 }
- 59:
+            if(var6) { _fun0007_ip = 71; continue _fun0007 }
+ 63:
             var4 = var5.invalid_current_username;
- 67:
-            if(!(var3 === var4)) { _fun0007_ip = 81; continue _fun0007 }
  71:
+            if(!(var3 === var4)) { _fun0007_ip = 85; continue _fun0007 }
+ 75:
             var2 = _closure1_slot8;
             var2['currentUsernameInvalid'] = var3;
- 81:
+ 85:
             return var1;
         }
     };

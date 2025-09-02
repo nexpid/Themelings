@@ -1037,7 +1037,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = _closure3_slot1;
                     var5['lockedCustomSoundCount'] = var6;
                     var1['soundCounts'] = var5;
-                    _fun0011_ip = 1123; continue _fun0011;
+                    _fun0011_ip = 1119; continue _fun0011;
  1060:
                     var6 = _closure1_slot17;
                     var5 = _closure2_slot4;
@@ -1052,7 +1052,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = {'favoriteSoundCount': 0, 'unlockedCustomSoundCount': 0, 'lockedCustomSoundCount': 0};
                     var2['soundCounts'] = var3;
                     var1 = var2;
- 1123:
+ 1119:
                     return var1;
                 }
             };

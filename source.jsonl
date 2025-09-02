@@ -4047,7 +4047,7 @@
 { "file": "app/modules/safety_hub/SafetyHubActionCreators.tsx", "size": 39775 }
 { "file": "app/modules/safety_hub/hooks/useSafetyHubAccountStanding.tsx", "size": 1477 }
 { "file": "app/modules/safety_hub/native/ClassificationEvidence.tsx", "size": 4674 }
-{ "file": "app/modules/safety_hub/native/ClassificationMessageEvidence.tsx", "size": 30604 }
+{ "file": "app/modules/safety_hub/native/ClassificationMessageEvidence.tsx", "size": 30602 }
 { "file": "app/modules/chat/native/Chat.android.tsx", "size": 4355 }
 { "file": "app/modules/chat/native/native_required_assets.android.tsx", "size": 13075 }
 { "file": "discord_common/js/packages/rtn-codegen/js/ChatListNativeComponent.tsx", "size": 1090 }

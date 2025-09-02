@@ -266,8 +266,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.isAndroid;
             var12 = var12.bind(var13)();
             var10 = 0;
-            if(!var12) { _fun0002_ip = 254; continue _fun0002 }
- 224:
+            if(!var12) { _fun0002_ip = 258; continue _fun0002 }
+ 228:
             var12 = _closure1_slot1;
             var13 = _closure1_slot2;
             var11 = 4;
@@ -275,7 +275,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.bind(var4)(var11);
             var11 = var11.spacing;
             var10 = var11.PX_16;
- 254:
+ 258:
             var9 = var9 + var10;
             var8['paddingBottom'] = var9;
             var7[1] = var8;
