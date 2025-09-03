@@ -2,20 +2,20 @@
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-        var8 = require;
-        var10 = metroImportDefault;
+        var6 = require;
+        var8 = metroImportDefault;
         var3 = exports;
-        var9 = dependencyMap;
-        var _closure1_slot0 = var8;
-        var _closure1_slot1 = var10;
-        var _closure1_slot2 = var9;
+        var7 = dependencyMap;
+        var _closure1_slot0 = var6;
+        var _closure1_slot1 = var8;
+        var _closure1_slot2 = var7;
         var1 = function getCustomKeyboardHeight(arg1, arg2) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var8 = arg1;
                 var2 = _closure1_slot0;
                 var1 = _closure1_slot2;
-                var7 = 6;
+                var7 = 4;
                 var1 = var1[var7];
                 var6 = undefined;
                 var1 = var2.bind(var6)(var1);
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var1.excludeSafeAreaInsets;
                 var3 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 7;
+                var1 = 6;
                 var1 = var5[var1];
                 var5 = undefined;
                 var3 = var3.bind(var5)(var1);
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  63:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var7 = 9;
+                var7 = 8;
                 var7 = var9[var7];
                 var8 = var8.bind(var5)(var7);
                 var7 = var8.getSafeAreaInsets;
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  104:
                 var3 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var2 = 8;
+                var2 = 7;
                 var2 = var6[var2];
                 var3 = var3.bind(var5)(var2);
                 var2 = var3.getImeInsets;
@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var1;
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 10;
+            var1 = 9;
             var3 = var3[var1];
             var1 = undefined;
             var4 = var4.bind(var1)(var3);
@@ -147,7 +147,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3['keyboardHeight'] = var5;
                         var7 = _closure1_slot0;
                         var8 = _closure1_slot2;
-                        var5 = 7;
+                        var5 = 6;
                         var5 = var8[var5];
                         var12 = undefined;
                         var7 = var7.bind(var12)(var5);
@@ -216,7 +216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  283:
                         var16 = _closure1_slot1;
                         var17 = _closure1_slot2;
-                        var14 = 11;
+                        var14 = 10;
                         var14 = var17[var14];
                         var14 = var16.bind(var12)(var14);
                         var14 = var14.bind(var12)(var15, var13);
@@ -284,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  525:
                         var11 = _closure1_slot1;
                         var13 = _closure1_slot2;
-                        var2 = 11;
+                        var2 = 10;
                         var2 = var13[var2];
                         var11 = var11.bind(var12)(var2);
                         var2 = var1.keyboardContexts;
@@ -331,77 +331,74 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var _closure1_slot12 = var1;
-        var1 = global;
-        var6 = var1.Object;
-        var5 = var6.defineProperty;
-        var4 = {};
+        var4 = global;
+        var10 = var4.Object;
+        var9 = var10.defineProperty;
+        var5 = {};
         var1 = true;
-        var4['value'] = var1;
+        var5['value'] = var1;
         var1 = '__esModule';
-        var1 = var5.bind(var6)(var3, var1, var4);
+        var1 = var9.bind(var10)(var3, var1, var5);
         var1 = 0;
-        var4 = var9[var1];
+        var5 = var7[var1];
         var1 = undefined;
-        var4 = var8.bind(var1)(var4);
-        var13 = var4.Keyboard;
-        var4 = 1;
-        var4 = var9[var4];
-        var4 = var8.bind(var1)(var4);
-        var4 = var4.AppLauncherRouteName;
-        var _closure1_slot3 = var4;
-        var4 = 2;
-        var4 = var9[var4];
-        var4 = var8.bind(var1)(var4);
-        var4 = var4.ExpressionPickerViewType;
-        var _closure1_slot4 = var4;
-        var4 = 3;
-        var4 = var9[var4];
-        var4 = var8.bind(var1)(var4);
-        var4 = var4.MediaKeyboardTarget;
-        var _closure1_slot5 = var4;
-        var4 = 'customKeyboardHeight';
-        var _closure1_slot6 = var4;
-        var4 = 4;
-        var5 = var9[var4];
-        var7 = var8.bind(var1)(var5);
-        var6 = var7.makeMutable;
-        var5 = 5;
-        var5 = var9[var5];
-        var5 = var8.bind(var1)(var5);
-        var5 = var5.KeyboardTypes;
-        var5 = var5.SYSTEM;
-        var5 = var6.bind(var7)(var5);
+        var5 = var6.bind(var1)(var5);
+        var11 = var5.Keyboard;
+        var5 = 1;
+        var5 = var7[var5];
+        var5 = var6.bind(var1)(var5);
+        var5 = var5.AppLauncherRouteName;
+        var _closure1_slot3 = var5;
+        var5 = 2;
+        var5 = var7[var5];
+        var5 = var6.bind(var1)(var5);
+        var5 = var5.ExpressionPickerViewType;
+        var _closure1_slot4 = var5;
+        var5 = 3;
+        var5 = var7[var5];
+        var5 = var6.bind(var1)(var5);
+        var5 = var5.MediaKeyboardTarget;
+        var _closure1_slot5 = var5;
+        var5 = 'customKeyboardHeight';
+        var _closure1_slot6 = var5;
+        var5 = var4.Set;
+        var9 = var5.prototype;
+        var9 = Object.create(var9, {constructor: {value: var5}});
+        var16 = var9;
+        var5 = new var16[var5](var15);
+        var5 = var5 instanceof Object ? var5 : var9;
         var _closure1_slot7 = var5;
-        var4 = var9[var4];
-        var7 = var8.bind(var1)(var4);
-        var6 = var7.makeMutable;
-        var4 = false;
-        var4 = var6.bind(var7)(var4);
+        var4 = var4.Set;
+        var5 = var4.prototype;
+        var5 = Object.create(var5, {constructor: {value: var4}});
+        var16 = var5;
+        var4 = new var16[var4](var15);
+        var4 = var4 instanceof Object ? var4 : var5;
         var _closure1_slot8 = var4;
-        var6 = 7;
-        var7 = var9[var6];
-        var11 = var8.bind(var1)(var7);
-        var7 = var11.isAndroid;
-        var7 = var7.bind(var11)();
-        var14 = 'keyboardWillShow';
-        if(!var7) { _fun0001_ip = 291; continue _fun0001 }
- 285:
-        var14 = 'keyboardDidShow';
- 291:
-        var6 = var9[var6];
-        var7 = var8.bind(var1)(var6);
-        var6 = var7.isAndroid;
-        var6 = var6.bind(var7)();
-        var12 = 'keyboardWillHide';
-        if(!var6) { _fun0001_ip = 324; continue _fun0001 }
- 318:
-        var12 = 'keyboardDidHide';
- 324:
-        var6 = 12;
-        var6 = var9[var6];
-        var11 = var8.bind(var1)(var6);
-        var7 = var11.create;
-        var6 = function() {
+        var4 = 6;
+        var5 = var7[var4];
+        var9 = var6.bind(var1)(var5);
+        var5 = var9.isAndroid;
+        var5 = var5.bind(var9)();
+        var12 = 'keyboardWillShow';
+        if(!var5) { _fun0001_ip = 274; continue _fun0001 }
+ 268:
+        var12 = 'keyboardDidShow';
+ 274:
+        var4 = var7[var4];
+        var5 = var6.bind(var1)(var4);
+        var4 = var5.isAndroid;
+        var4 = var4.bind(var5)();
+        var10 = 'keyboardWillHide';
+        if(!var4) { _fun0001_ip = 307; continue _fun0001 }
+ 301:
+        var10 = 'keyboardDidHide';
+ 307:
+        var4 = 11;
+        var4 = var7[var4];
+        var9 = var6.bind(var1)(var4);
+        var5 = var9.create;
+        var4 = function() {
             var1 = {};
             var9 = _closure1_slot10;
             var4 = _closure1_slot0;
@@ -471,10 +468,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['keyboardTypePrevious'] = var2;
             return var1;
         };
-        var6 = var7.bind(var11)(var6);
-        var _closure1_slot9 = var6;
-        var11 = var13.addListener;
-        var7 = function(arg1) {
+        var4 = var5.bind(var9)(var4);
+        var _closure1_slot9 = var4;
+        var9 = var11.addListener;
+        var5 = function(arg1) {
             var2 = arg1;
             var1 = var2.duration;
             var2 = var2.endCoordinates;
@@ -489,42 +486,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var1)(var3);
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 13;
+            var3 = 12;
             var3 = var6[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.onKeyboardChanged;
             var3 = var3.bind(var4)(var5);
             var4 = _closure1_slot8;
-            var3 = var4.set;
-            var2 = false;
+            var3 = var4.forEach;
+            var2 = function(arg1) {
+                var3 = arg1;
+                var2 = undefined;
+                var1 = false;
+                var1 = var3.bind(var2)(var1);
+                return var1;
+            };
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var7 = var11.bind(var13)(var14, var7);
-        var11 = var13.addListener;
-        var7 = function() {
-            var5 = _closure1_slot12;
-            var4 = false;
+        var5 = var9.bind(var11)(var12, var5);
+        var9 = var11.addListener;
+        var5 = function() {
+            var4 = _closure1_slot12;
+            var5 = false;
             var1 = undefined;
             var3 = {'keyboardHeight': 0, 'systemKeyboardOpen': false};
-            var3 = var5.bind(var1)(var3);
-            var5 = _closure1_slot0;
+            var3 = var4.bind(var1)(var3);
+            var4 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var3 = 13;
+            var3 = 12;
             var3 = var6[var3];
-            var5 = var5.bind(var1)(var3);
-            var3 = var5.onKeyboardChanged;
-            var3 = var3.bind(var5)(var4);
-            var3 = _closure1_slot8;
-            var2 = var3.set;
-            var2 = var2.bind(var3)(var4);
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.onKeyboardChanged;
+            var3 = var3.bind(var4)(var5);
+            var4 = _closure1_slot8;
+            var3 = var4.forEach;
+            var2 = function(arg1) {
+                var3 = arg1;
+                var2 = undefined;
+                var1 = false;
+                var1 = var3.bind(var2)(var1);
+                return var1;
+            };
+            var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var7 = var11.bind(var13)(var12, var7);
-        var7 = 14;
-        var7 = var9[var7];
-        var10 = var10.bind(var1)(var7);
-        var7 = function(arg1) {
+        var5 = var9.bind(var11)(var10, var5);
+        var5 = 13;
+        var5 = var7[var5];
+        var8 = var8.bind(var1)(var5);
+        var5 = function(arg1) {
             var1 = arg1;
             var1 = var1.bottom;
             var3 = _closure1_slot12;
@@ -534,58 +544,103 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var1)(var2);
             return var1;
         };
-        var7 = var10.bind(var1)(var7);
-        var7 = 15;
-        var7 = var9[var7];
-        var9 = var8.bind(var1)(var7);
-        var8 = var9.fileFinishedImporting;
-        var7 = 'modules/keyboard/native/KeyboardUIStore.native.tsx';
-        var7 = var8.bind(var9)(var7);
-        var3['default'] = var6;
-        var3['keyboardTypeSharedValue'] = var5;
-        var3['keyboardWillOpenSharedValue'] = var4;
-        var2 = function setKeyboardType(arg1) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
-                var4 = arg1;
-                var5 = _closure1_slot7;
-                var3 = var5.set;
-                var1 = var4.type;
-                var1 = var3.bind(var5)(var1);
-                var6 = _closure1_slot8;
-                var5 = var6.set;
-                var7 = var4.type;
-                var8 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var1 = 5;
-                var3 = var3[var1];
+        var5 = var8.bind(var1)(var5);
+        var5 = 14;
+        var5 = var7[var5];
+        var7 = var6.bind(var1)(var5);
+        var6 = var7.fileFinishedImporting;
+        var5 = 'modules/keyboard/native/KeyboardUIStore.native.tsx';
+        var5 = var6.bind(var7)(var5);
+        var3['default'] = var4;
+        var4 = function setKeyboardType(arg1) {
+            var1 = arg1;
+            var _closure2_slot0 = var1;
+            var6 = _closure1_slot7;
+            var5 = var6.forEach;
+            var4 = function(arg1) {
+                var3 = _closure2_slot0;
+                var2 = arg1;
                 var1 = undefined;
-                var3 = var8.bind(var1)(var3);
-                var3 = var3.KeyboardTypes;
-                var3 = var3.SYSTEM;
-                var3 = var7 === var3;
-                if(!var3) { _fun0005_ip = 108; continue _fun0005 }
- 80:
-                var7 = var4.context;
-                var8 = null;
-                var9 = var8 == var7;
-                var8 = undefined;
-                if(var9) { _fun0005_ip = 102; continue _fun0005 }
- 96:
-                var8 = var7.keyboardWillOpen;
- 102:
-                var7 = true;
-                var3 = var7 === var8;
- 108:
-                var3 = var5.bind(var6)(var3);
-                var3 = _closure1_slot12;
-                var2 = {};
-                var2['keyboardType'] = var4;
-                var2 = var3.bind(var1)(var2);
+                var1 = var2.bind(var1)(var3);
                 return var1;
-            }
+            };
+            var4 = var5.bind(var6)(var4);
+            var5 = _closure1_slot8;
+            var4 = var5.forEach;
+            var3 = function(arg1) {
+                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+                    var2 = _closure2_slot0;
+                    var4 = var2.type;
+                    var5 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var3[var2];
+                    var3 = undefined;
+                    var2 = var5.bind(var3)(var2);
+                    var2 = var2.KeyboardTypes;
+                    var2 = var2.SYSTEM;
+                    var2 = var4 === var2;
+                    if(!var2) { _fun0005_ip = 88; continue _fun0005 }
+ 56:
+                    var1 = _closure2_slot0;
+                    var1 = var1.context;
+                    var4 = null;
+                    var5 = var4 == var1;
+                    var4 = undefined;
+                    if(var5) { _fun0005_ip = 82; continue _fun0005 }
+ 76:
+                    var4 = var1.keyboardWillOpen;
+ 82:
+                    var1 = true;
+                    var2 = var1 === var4;
+ 88:
+                    var1 = arg1;
+                    var1 = var1.bind(var3)(var2);
+                    return var1;
+                }
+            };
+            var3 = var4.bind(var5)(var3);
+            var3 = _closure1_slot12;
+            var2 = {};
+            var2['keyboardType'] = var1;
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            return var1;
         };
-        var3['setKeyboardType'] = var2;
+        var3['setKeyboardType'] = var4;
+        var4 = function addKeyboardWillOpenChangedListener(arg1) {
+            var4 = arg1;
+            var _closure2_slot0 = var4;
+            var3 = _closure1_slot8;
+            var2 = var3.add;
+            var2 = var2.bind(var3)(var4);
+            var1 = function() {
+                var3 = _closure1_slot8;
+                var2 = var3.delete;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            return var1;
+        };
+        var3['addKeyboardWillOpenChangedListener'] = var4;
+        var2 = function addKeyboardTypeChangedListener(arg1) {
+            var4 = arg1;
+            var _closure2_slot0 = var4;
+            var3 = _closure1_slot7;
+            var2 = var3.add;
+            var2 = var2.bind(var3)(var4);
+            var1 = function() {
+                var3 = _closure1_slot7;
+                var2 = var3.delete;
+                var1 = _closure2_slot0;
+                var1 = var2.bind(var3)(var1);
+                return var1;
+            };
+            return var1;
+        };
+        var3['addKeyboardTypeChangedListener'] = var2;
         return var1;
     }
 })();

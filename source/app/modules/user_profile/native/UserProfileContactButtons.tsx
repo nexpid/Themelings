@@ -26,23 +26,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = undefined;
             var5 = var1.bind(var4)();
             var9 = 'secondary';
-            if(!var2) { _fun0001_ip = 78; continue _fun0001 }
- 74:
+            if(!var2) { _fun0001_ip = 74; continue _fun0001 }
+ 70:
             var9 = 'primary';
- 78:
+ 74:
             var3 = _closure1_slot1;
             var6 = _closure1_slot2;
             var1 = 7;
             var1 = var6[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.colors;
-            if(var2) { _fun0001_ip = 114; continue _fun0001 }
- 106:
+            if(var2) { _fun0001_ip = 110; continue _fun0001 }
+ 102:
             var14 = var1.REDESIGN_BUTTON_SECONDARY_TEXT;
-            _fun0001_ip = 120; continue _fun0001;
- 114:
+            _fun0001_ip = 116; continue _fun0001;
+ 110:
             var14 = var1.WHITE;
- 120:
+ 116:
             var3 = _closure1_slot6;
             var2 = _closure1_slot3;
             var1 = {};

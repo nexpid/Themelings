@@ -130,38 +130,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['BlockedDomainsStore'] = var4;
         var4 = function getFluxApi() {
             var1 = {};
-            var3 = function registerKvStore(arg1, arg2) {
-                var5 = arg2;
-                var3 = _closure1_slot2;
-                var2 = var3.registerKvStore;
-                var1 = arg1;
-                var1 = var2.bind(var3)(var1, var5);
-                var2 = var1.storeToken;
-                var4 = var1.root;
-                var3 = var1.derived;
-                var1 = undefined;
-                var1 = var5.bind(var1)(var4, var3);
-                var1 = {};
-                var1['storeToken'] = var2;
-                return var1;
-            };
-            var1['registerKvStore'] = var3;
-            var3 = function registerKkvStore(arg1, arg2) {
-                var5 = arg2;
-                var3 = _closure1_slot2;
-                var2 = var3.registerKkvStore;
-                var1 = arg1;
-                var1 = var2.bind(var3)(var1, var5);
-                var2 = var1.storeToken;
-                var4 = var1.root;
-                var3 = var1.derived;
-                var1 = undefined;
-                var1 = var5.bind(var1)(var4, var3);
-                var1 = {};
-                var1['storeToken'] = var2;
-                return var1;
-            };
-            var1['registerKkvStore'] = var3;
+            var4 = _closure1_slot2;
+            var4 = var4.registerKvStore;
+            var1['registerKvStore'] = var4;
+            var4 = _closure1_slot2;
+            var4 = var4.registerKkvStore;
+            var1['registerKkvStore'] = var4;
             var4 = _closure1_slot2;
             var4 = var4.findStoresThatCanHandleActionType;
             var1['findStoresThatCanHandleActionType'] = var4;

@@ -39,17 +39,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var11[var2];
         var2 = var3.bind(var10)(var2);
         var2 = var2.bind(var10)();
-        var8 = var2.keyboardOpenOrOpening;
-        var _closure2_slot1 = var8;
+        var14 = var2.keyboardOpenOrOpening;
+        var _closure2_slot1 = var14;
         var12 = var2.keyboardOpenedHeight;
         var _closure2_slot2 = var12;
+        var9 = _closure1_slot0;
         var2 = 2;
+        var5 = var11[var2];
+        var6 = var9.bind(var10)(var5);
+        var5 = var6.useKeyboardTypeSharedValue;
+        var8 = var5.bind(var6)();
+        var _closure2_slot3 = var8;
+        var2 = var11[var2];
+        var5 = var9.bind(var10)(var2);
+        var2 = var5.useKeyboardWillOpenSharedValue;
+        var13 = var2.bind(var5)();
+        var _closure2_slot4 = var13;
+        var2 = 3;
         var2 = var11[var2];
         var2 = var3.bind(var10)(var2);
         var6 = var2.bind(var10)();
-        var _closure2_slot3 = var6;
-        var9 = _closure1_slot0;
-        var2 = 3;
+        var _closure2_slot5 = var6;
+        var2 = 4;
         var2 = var11[var2];
         var3 = var9.bind(var10)(var2);
         var2 = var3.useDerivedValue;
@@ -59,66 +70,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure2_slot1;
                 var1 = var3.get;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0001_ip = 173; continue _fun0001 }
- 22:
-                var6 = _closure1_slot0;
-                var4 = _closure1_slot2;
-                var1 = 4;
-                var4 = var4[var1];
-                var5 = undefined;
-                var4 = var6.bind(var5)(var4);
-                var6 = var4.keyboardWillOpenSharedValue;
-                var4 = var6.get;
-                var4 = var4.bind(var6)();
-                if(var4) { _fun0001_ip = 173; continue _fun0001 }
- 65:
-                var4 = _closure1_slot0;
-                var6 = _closure1_slot2;
-                var1 = var6[var1];
-                var1 = var4.bind(var5)(var1);
-                var3 = var1.keyboardTypeSharedValue;
+                if(var1) { _fun0001_ip = 137; continue _fun0001 }
+ 19:
+                var3 = _closure2_slot4;
+                var1 = var3.get;
+                var1 = var1.bind(var3)();
+                if(var1) { _fun0001_ip = 137; continue _fun0001 }
+ 35:
+                var3 = _closure2_slot3;
                 var1 = var3.get;
                 var3 = var1.bind(var3)();
+                var5 = _closure1_slot0;
+                var4 = _closure1_slot2;
                 var1 = 5;
-                var1 = var6[var1];
-                var1 = var4.bind(var5)(var1);
+                var4 = var4[var1];
+                var1 = undefined;
+                var1 = var5.bind(var1)(var4);
                 var1 = var1.KeyboardTypes;
                 var1 = var1.SYSTEM;
-                if(!(var3 !== var1)) { _fun0001_ip = 153; continue _fun0001 }
- 125:
+                if(!(var3 !== var1)) { _fun0001_ip = 117; continue _fun0001 }
+ 89:
                 var3 = _closure2_slot0;
                 var1 = var3.get;
                 var1 = var1.bind(var3)();
                 var3 = var1.bottom;
-                var1 = _closure2_slot3;
+                var1 = _closure2_slot5;
                 var1 = var3 + var1;
-                _fun0001_ip = 171; continue _fun0001;
- 153:
+                _fun0001_ip = 135; continue _fun0001;
+ 117:
                 var4 = _closure2_slot0;
                 var3 = var4.get;
                 var3 = var3.bind(var4)();
                 var1 = var3.bottom;
- 171:
-                _fun0001_ip = 186; continue _fun0001;
- 173:
+ 135:
+                _fun0001_ip = 150; continue _fun0001;
+ 137:
                 var3 = _closure2_slot2;
                 var2 = var3.get;
                 var1 = var2.bind(var3)();
- 186:
+ 150:
                 return var1;
             }
         };
         var5 = {};
-        var5['keyboardOpenOrOpening'] = var8;
-        var8 = 4;
-        var13 = var11[var8];
-        var13 = var9.bind(var10)(var13);
-        var13 = var13.keyboardWillOpenSharedValue;
+        var5['keyboardOpenOrOpening'] = var14;
         var5['keyboardWillOpenSharedValue'] = var13;
         var5['keyboardOpenedHeight'] = var12;
-        var8 = var11[var8];
-        var8 = var9.bind(var10)(var8);
-        var8 = var8.keyboardTypeSharedValue;
         var5['keyboardTypeSharedValue'] = var8;
         var8 = 5;
         var8 = var11[var8];

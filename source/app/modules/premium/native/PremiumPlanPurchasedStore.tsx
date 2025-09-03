@@ -297,7 +297,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     if(!var6) { _fun0005_ip = 65; continue _fun0005 }
  45:
                     var6 = _closure2_slot0;
-                    var5 = 'mobile_web_checking_out';
+                    var5 = 'in_mobile_web';
                     var1 = null;
                     if(!(var5 !== var6)) { _fun0005_ip = 65; continue _fun0005 }
  61:

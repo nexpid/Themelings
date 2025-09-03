@@ -326,7 +326,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['useShouldAutoSelectGiftingPromotionReward'] = var5;
     var3['useIsPlanEligibleForGiftingPromotion'] = var4;
-    var2 = function createGradientStyle(arg1) {
+    var4 = function createGradientStyle(arg1) {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var3 = arg1;
@@ -377,6 +377,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['createGradientStyle'] = var2;
+    var3['createGradientStyle'] = var4;
+    var2 = function createBackgroundStyle(arg1) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+ 0:
+            var5 = arg1;
+            var1 = null;
+            if(!(var1 == var5)) { _fun0009_ip = 13; continue _fun0009 }
+ 9:
+            var1 = undefined;
+            return var1;
+ 13:
+            var1 = {'backgroundImage': null, 'backgroundSize': 'cover', 'backgroundPosition': 'center', 'backgroundRepeat': 'no-repeat'};
+            var2 = global;
+            var2 = var2.HermesInternal;
+            var4 = var2.concat;
+            var3 = 'url(';
+            var2 = ')';
+            var2 = var4.bind(var3)(var5, var2);
+            var1['backgroundImage'] = var2;
+            return var1;
+        }
+    };
+    var3['createBackgroundStyle'] = var2;
     return var1;
 })();

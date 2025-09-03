@@ -299,11 +299,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  18:
                     var1 = 'back';
                     var1 = var1 === var3;
-                    _fun0003_ip = 36; continue _fun0003;
+                    _fun0003_ip = 38; continue _fun0003;
  28:
                     var2 = 'front';
                     var1 = var2 === var3;
- 36:
+ 38:
                     return var1;
                 }
             };

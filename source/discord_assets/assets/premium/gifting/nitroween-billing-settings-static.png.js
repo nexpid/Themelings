@@ -1,4 +1,4 @@
-// discord_assets/assets/premium/gifting/halloween-lightning.webm.js
+// discord_assets/assets/premium/gifting/nitroween-billing-settings-static.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/premium/gifting/halloween-lightning.webm.js';
+    var2 = '../discord_assets/assets/premium/gifting/nitroween-billing-settings-static.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/bf713cc590130994ed4a7e808c99bbb9080bda6045cd423fd1660f93309350ca.webm';
+    var2 = 'https://cdn.discordapp.com/assets/content/1024ca0857c301d6fe390e260e951e035a996503b062bfd055bf90b1056b83ee.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 116236;
+    var4 = 137203;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

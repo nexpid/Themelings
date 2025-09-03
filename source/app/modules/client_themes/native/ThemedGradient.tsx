@@ -647,34 +647,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  233:
             var1['angle'] = var14;
             var5 = var5.angleCenter;
-            if(!(var13 == var5)) { _fun0005_ip = 258; continue _fun0005 }
+            if(!(var13 == var5)) { _fun0005_ip = 262; continue _fun0005 }
  248:
             var5 = {'x': 0.5, 'y': 0.5};
- 258:
+ 262:
             var1['angleCenter'] = var5;
             var5 = true;
             var1['useAngle'] = var5;
-            if(!var10) { _fun0005_ip = 282; continue _fun0005 }
- 273:
+            if(!var10) { _fun0005_ip = 286; continue _fun0005 }
+ 277:
             var5 = {};
             var5['width'] = var12;
             var10 = var5;
- 282:
+ 286:
             var5 = new Array(5);
             var5[0] = var10;
-            if(!var9) { _fun0005_ip = 302; continue _fun0005 }
- 293:
+            if(!var9) { _fun0005_ip = 306; continue _fun0005 }
+ 297:
             var10 = {};
             var10['height'] = var11;
             var9 = var10;
- 302:
+ 306:
             var5[1] = var9;
             var9 = var8.linearGradient;
             var5[2] = var9;
-            if(!var7) { _fun0005_ip = 325; continue _fun0005 }
- 319:
+            if(!var7) { _fun0005_ip = 329; continue _fun0005 }
+ 323:
             var7 = var8.absolute;
- 325:
+ 329:
             var5[3] = var7;
             var5[4] = var6;
             var1['style'] = var5;

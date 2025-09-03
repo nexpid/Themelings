@@ -1,4 +1,4 @@
-// discord_assets/assets/premium/gifting/halloween-trick-or-treat.webm.js
+// discord_assets/assets/premium/gifting/nitroween-in-app-flow-static.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,12 +16,12 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/premium/gifting/halloween-trick-or-treat.webm.js';
+    var2 = '../discord_assets/assets/premium/gifting/nitroween-in-app-flow-static.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/3c72ca61988a337c240b25ffa04c1efd8ae9c71b57ef19cf98aa02790bfbd137.webm';
+    var2 = 'https://cdn.discordapp.com/assets/content/c09cfaf550f2026785114ac8dba337a504ae9938aa23f638abfc9c4b318c0885.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 41097;
+    var4 = 64539;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

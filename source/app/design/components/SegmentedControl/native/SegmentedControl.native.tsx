@@ -898,8 +898,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['keyboardShouldPersistTaps'] = var10;
             var1['children'] = var6;
             var1 = var9.bind(var5)(var4, var1);
-            if(!var3) { _fun0001_ip = 1313; continue _fun0001 }
- 1269:
+            if(!var3) { _fun0001_ip = 1309; continue _fun0001 }
+ 1265:
             var4 = _closure1_slot6;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -910,7 +910,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['gesture'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1313:
+ 1309:
             return var1;
         }
     };

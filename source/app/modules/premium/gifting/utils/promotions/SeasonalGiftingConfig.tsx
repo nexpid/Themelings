@@ -155,30 +155,65 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 4;
     var2['dismissibleContentVersion'] = var5;
     var5 = {};
-    var11 = function getImageUrl() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 6;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        return var1;
+    var11 = function getImageUrl(arg1, arg2) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = arg2;
+            if(var1) { _fun0001_ip = 26; continue _fun0001 }
+ 17:
+            var1 = 7;
+            var2 = var4[var1];
+            _fun0001_ip = 33; continue _fun0001;
+ 26:
+            var1 = 6;
+            var2 = var4[var1];
+ 33:
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
+        }
     };
     var5['getImageUrl'] = var11;
     var11 = function title() {
-        var1 = 'Gift Nitro. Get a reward.';
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 8;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.UPFiIi;
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
     var5['title'] = var11;
     var11 = function description() {
-        var1 = 'Choose between 4 avatar decos in either a trick or treat theme.';
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 8;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.F/5kFB;
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
     var5['description'] = var11;
     var11 = function cta() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 7;
+        var1 = 8;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -192,7 +227,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var5['cta'] = var11;
-    var11 = 8;
+    var11 = 9;
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.GIFTING_PROMOTION_COACHMARK;
@@ -208,20 +243,64 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['eligiblePlanIds'] = var5;
     var5 = {};
     var9 = function heading() {
-        var1 = 'Choose a FREE reward';
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 8;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.ruVnPj;
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
     var5['heading'] = var9;
     var9 = function subheading() {
-        var1 = 'Yours to keep if you dare...';
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 8;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.q4BJSE;
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
     var5['subheading'] = var9;
+    var9 = function mobileSubheading(arg1) {
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 8;
+        var3 = var6[var1];
+        var2 = undefined;
+        var3 = var5.bind(var2)(var3);
+        var4 = var3.intl;
+        var3 = var4.formatToPlainString;
+        var1 = var6[var1];
+        var1 = var5.bind(var2)(var1);
+        var1 = var1.t;
+        var2 = var1.eDBuFx;
+        var1 = {};
+        var5 = arg1;
+        var1['rewardCount'] = var5;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var5['mobileSubheading'] = var9;
     var5['gradientConfig'] = var4;
     var9 = function getImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 9;
+        var1 = 7;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -246,19 +325,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['planSelection'] = var5;
     var5 = {};
     var9 = function desktopBannerText() {
-        var1 = 'Pick a free Halloween avatar decoration. Yours to keep with a gift purchase.';
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 8;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.mMgymZ;
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
     var5['desktopBannerText'] = var9;
     var9 = function mobileBannerText() {
-        var1 = 'Free reward for YOU! Choose one you love!';
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 8;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.dAqTcH;
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
     var5['mobileBannerText'] = var9;
     var9 = function getImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 11;
+        var1 = 6;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -280,7 +383,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function getAnimatedImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 12;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -288,17 +391,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['getAnimatedImageUrl'] = var9;
     var9 = function getStaticImageUrl() {
-        var1 = '';
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 12;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
         return var1;
     };
     var5['getStaticImageUrl'] = var9;
     var9 = function title() {
-        var1 = 'Gift Nitro, Get Treated';
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 8;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.CGgAyM;
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
     var5['title'] = var9;
     var9 = function body() {
-        var1 = 'All treat, no jumpscare. Gift Nitro this October and get this exclusive, spooky avatar decoration for free.';
+        var5 = _closure1_slot0;
+        var6 = _closure1_slot2;
+        var1 = 8;
+        var2 = var6[var1];
+        var4 = undefined;
+        var2 = var5.bind(var4)(var2);
+        var3 = var2.intl;
+        var2 = var3.string;
+        var1 = var6[var1];
+        var1 = var5.bind(var4)(var1);
+        var1 = var1.t;
+        var1 = var1.9rInzc;
+        var1 = var2.bind(var3)(var1);
         return var1;
     };
     var5['body'] = var9;

@@ -310,7 +310,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15['tokenToStore'] = var9;
                 var9 = var7.length;
                 var7 = 0;
-                if(!(var7 !== var9)) { _fun0004_ip = 630; continue _fun0004 }
+                if(!(var7 !== var9)) { _fun0004_ip = 624; continue _fun0004 }
  93:
                 var9 = _closure1_slot0;
                 var10 = _closure1_slot2;
@@ -327,7 +327,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var10.info;
                 var7 = 'Not initializing DispatcherBridge, because kvStoreApi is unavailable.';
                 var7 = var9.bind(var10)(var7);
-                _fun0004_ip = 630; continue _fun0004;
+                _fun0004_ip = 624; continue _fun0004;
  158: // try_start_0
                 var6 = new Array(0);
                 var9 = _closure1_slot11;
@@ -341,7 +341,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = ' => [token: ';
                 var10 = ', mode: ';
                 var9 = ']';
-                if(var7) { _fun0004_ip = 344; continue _fun0004 }
+                if(var7) { _fun0004_ip = 338; continue _fun0004 }
  215:
                 var7 = var13;
                 var18 = var7.value;
@@ -349,8 +349,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var20 = var7.bind(var18)();
                 var16 = var18.registerWithLibdiscore;
                 var7 = var4;
-                var7 = var16.bind(var18)(var7);
-                var19 = var7.storeToken;
+                var19 = var16.bind(var18)(var7);
                 var16 = var15.tokenToStore;
                 var7 = var16.set;
                 var7 = var7.bind(var16)(var19, var18);
@@ -373,7 +372,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var7;
                 var7 = var7.done;
                 if(!var7) { _fun0004_ip = 215; continue _fun0004 }
- 344:
+ 338:
                 var7 = _closure1_slot8;
                 var9 = var7.info;
                 var14 = var8.length;
@@ -943,15 +942,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var27 = var8;
                 var3 = var27[var7](var26, var25, var24, var23, var22);
- 605: // try_end0
-                _fun0004_ip = 630; continue _fun0004;
- 607: // catch_target0
+ 599: // try_end0
+                _fun0004_ip = 624; continue _fun0004;
+ 601: // catch_target0
                 CatchBlockStart(arg_register=4);
                 var4 = _closure1_slot8;
                 var3 = var4.error;
                 var2 = 'Failed to initialize the dispatcher bridge';
                 var2 = var3.bind(var4)(var2, var5);
- 630:
+ 624:
                 return var1;
             }
         };

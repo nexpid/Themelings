@@ -4861,7 +4861,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var2 = this;
                 var1 = var2.started;
-                if(!var1) { _fun0056_ip = 157; continue _fun0056 }
+                if(!var1) { _fun0056_ip = 161; continue _fun0056 }
  15:
                 var1 = false;
                 var2['started'] = var1;
@@ -4895,7 +4895,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.dispatch;
                 var1 = {'type': 'AUDIO_INPUT_DETECTED', 'inputDetected': null};
                 var1 = var2.bind(var3)(var1);
- 157:
+ 161:
                 var1 = undefined;
                 return var1;
             }

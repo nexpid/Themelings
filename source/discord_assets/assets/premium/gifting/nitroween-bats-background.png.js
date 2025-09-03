@@ -18,10 +18,10 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var4 = var5.fileFinishedImporting;
     var2 = '../discord_assets/assets/premium/gifting/nitroween-bats-background.png.js';
     var2 = var4.bind(var5)(var2);
-    var2 = 'https://cdn.discordapp.com/assets/content/96d3211640baade8a040c85837b9f74402fa9974ecbc31f4f5380919a092ed63.png';
+    var2 = 'https://cdn.discordapp.com/assets/content/b92cca965f41c5baa5960d42a58135e69424d1f807ece0366704e670c13568f8.png';
     var3['default'] = var2;
     var2 = {};
-    var4 = 17672;
+    var4 = 5884;
     var2['fileBytes'] = var4;
     var3['metadata'] = var2;
     return var1;

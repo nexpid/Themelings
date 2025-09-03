@@ -966,7 +966,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var3 = var10.bind(var11)(var3);
                 var1 = _closure3_slot4;
-                if(!(var8 === var1)) { _fun0008_ip = 384; continue _fun0008 }
+                if(!(var8 === var1)) { _fun0008_ip = 403; continue _fun0008 }
  130:
                 var11 = _closure1_slot0;
                 var8 = _closure1_slot2;
@@ -975,7 +975,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var11.bind(var9)(var8);
                 var8 = var8.ReactionTypes;
                 var8 = var8.BURST;
-                if(!(var2 !== var8)) { _fun0008_ip = 327; continue _fun0008 }
+                if(!(var2 !== var8)) { _fun0008_ip = 342; continue _fun0008 }
  172:
                 var8 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -983,7 +983,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var8.bind(var9)(var1);
                 var1 = var1.ReactionTypes;
                 var1 = var1.VOTE;
-                if(!(var2 !== var1)) { _fun0008_ip = 264; continue _fun0008 }
+                if(!(var2 !== var1)) { _fun0008_ip = 275; continue _fun0008 }
  205:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': null, 'me_burst': false, 'count': 1, 'count_details': null, 'burst_count': 0};
@@ -994,8 +994,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = new Array(0);
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 384; continue _fun0008;
- 264:
+                _fun0008_ip = 403; continue _fun0008;
+ 275:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
                 var1['emoji'] = var7;
@@ -1005,8 +1005,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = new Array(0);
                 var1['burst_colors'] = var8;
                 var1 = var2.bind(var3)(var1);
-                _fun0008_ip = 384; continue _fun0008;
- 327:
+                _fun0008_ip = 403; continue _fun0008;
+ 342:
                 var2 = var3.push;
                 var1 = {'emoji': null, 'me': false, 'me_burst': null, 'count': 0, 'count_details': null, 'burst_count': 1};
                 var1['emoji'] = var7;
@@ -1015,7 +1015,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['count_details'] = var6;
                 var1['burst_colors'] = var5;
                 var1 = var2.bind(var3)(var1);
- 384:
+ 403:
                 var2 = var4.set;
                 var1 = 'reactions';
                 var1 = var2.bind(var4)(var1, var3);

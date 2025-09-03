@@ -614,7 +614,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 1030; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 1028; continue _fun0006 }
  13:
                     var17 = var2.query;
                     var16 = var2.guildId;
@@ -631,18 +631,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = undefined;
                     var7 = undefined;
                     var18 = undefined;
-                    SaveGenerator(address=63);
- 61:
+                    SaveGenerator(address=61);
+ 59:
                     return var3;
- 63:
+ 61:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0006_ip = 1027; continue _fun0006 }
- 72:
+                    if(var5) { _fun0006_ip = 1025; continue _fun0006 }
+ 70:
                     var21 = null;
-                    if(!(var21 == var4)) { _fun0006_ip = 80; continue _fun0006 }
- 78:
+                    if(!(var21 == var4)) { _fun0006_ip = 78; continue _fun0006 }
+ 76:
                     var4 = {};
- 80:
+ 78:
                     var15 = var4.page;
                     var14 = var4.pageSize;
                     var13 = var4.categoryId;
@@ -652,8 +652,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var4.excludeNonEmbeddedApps;
                     var8 = var4.excludeEmbeddedAppsWithoutPrimaryEntryPointAppCommand;
                     var4 = var4.source;
-                    if(!(var3 === var4)) { _fun0006_ip = 172; continue _fun0006 }
- 137:
+                    if(!(var3 === var4)) { _fun0006_ip = 170; continue _fun0006 }
+ 135:
                     var6 = _closure1_slot0;
                     var20 = _closure1_slot2;
                     var5 = 14;
@@ -661,7 +661,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var3)(var5);
                     var5 = var5.SearchAppsRequestSource;
                     var4 = var5.APP_DIRECTORY;
- 172:
+ 170:
                     var7 = var4;
                     var4 = global;
                     var5 = var4.Date;
@@ -693,21 +693,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['categoryId'] = var25;
                     var5['integrationType'] = var24;
                     var5 = var20.bind(var23)(var5);
-                    if(!(var21 == var5)) { _fun0006_ip = 311; continue _fun0006 }
- 309:
+                    if(!(var21 == var5)) { _fun0006_ip = 309; continue _fun0006 }
+ 307:
                     var5 = {};
- 311:
+ 309:
                     var20 = var5.lastFetchTimeMs;
                     var5 = _closure1_slot12;
                     var5 = var5.FETCHING;
-                    if(!(var22 !== var5)) { _fun0006_ip = 1024; continue _fun0006 }
- 334:
-                    if(!(var21 != var20)) { _fun0006_ip = 353; continue _fun0006 }
- 338:
+                    if(!(var22 !== var5)) { _fun0006_ip = 1022; continue _fun0006 }
+ 332:
+                    if(!(var21 != var20)) { _fun0006_ip = 351; continue _fun0006 }
+ 336:
                     var5 = _closure1_slot18;
                     var5 = var20 + var5;
-                    if(!(!(var5 > var6))) { _fun0006_ip = 1024; continue _fun0006 }
- 353:
+                    if(!(!(var5 > var6))) { _fun0006_ip = 1022; continue _fun0006 }
+ 351:
                     var20 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var6 = 11;
@@ -740,7 +740,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var23 = var7;
                     var5['source'] = var23;
                     var5 = var20.bind(var22)(var5);
- 481: // try_start_0
+ 479: // try_start_0
                     var20 = _closure1_slot0;
                     var22 = _closure1_slot2;
                     var5 = 13;
@@ -782,13 +782,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var23 = true;
                     var5['rejectWithError'] = var23;
                     var5 = var20.bind(var22)(var5);
-                    SaveGenerator(address=660);
- 658:
+                    SaveGenerator(address=658);
+ 656:
                     return var5;
- 660:
+ 658:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=19);
-                    if(var20) { _fun0006_ip = 927; continue _fun0006 }
- 669:
+                    if(var20) { _fun0006_ip = 925; continue _fun0006 }
+ 667:
                     var18 = var5;
                     var22 = _closure1_slot1;
                     var20 = _closure1_slot2;
@@ -842,16 +842,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var20['source'] = var24;
                     var20 = var22.bind(var23)(var20);
                     var20 = var19;
-                    if(!(var21 != var20)) { _fun0006_ip = 925; continue _fun0006 }
- 909:
+                    if(!(var21 != var20)) { _fun0006_ip = 923; continue _fun0006 }
+ 907:
                     var18 = var18.body;
                     var18 = var18.result_count;
                     var18 = var19.bind(var3)(var18);
- 925: // try_end0
-                    _fun0006_ip = 1024; continue _fun0006;
- 927:
+ 923: // try_end0
+                    _fun0006_ip = 1022; continue _fun0006;
+ 925:
                     return var5;
- 930: // catch_target0
+ 928: // catch_target0
                     CatchBlockStart(arg_register=4);
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -873,11 +873,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['excludeEmbeddedAppsWithoutPrimaryEntryPointAppCommand'] = var8;
                     var4['source'] = var7;
                     var4 = var5.bind(var6)(var4);
- 1024:
+ 1022:
                     return var3;
- 1027:
+ 1025:
                     return var2;
- 1030:
+ 1028:
                     return var1;
                 }
             };

@@ -103,11 +103,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = 3;
                 var2 = var2[var1];
                 var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.goToStandaloneNitroManagementFromMobileApp;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.goToStandaloneNitroManagementFromMobileApp;
                 var1 = _closure2_slot0;
+                var2 = var1.onSuccessCallback;
                 var1 = var1.onFailureCallback;
-                var1 = var2.bind(var3)(var1);
+                var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
             var3['manageExternalNitroSubscription'] = var11;
