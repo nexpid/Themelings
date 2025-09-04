@@ -43,49 +43,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function(arg1, arg2) {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                var2 = arg1;
-                var4 = _closure1_slot6;
-                var3 = var4.getCategoryForProduct;
-                var1 = var2.skuId;
-                var7 = var3.bind(var4)(var1);
-                var6 = undefined;
-                var1 = null;
-                if(!(var6 !== var7)) { _fun0001_ip = 184; continue _fun0001 }
- 38:
-                var5 = _closure1_slot7;
-                var4 = _closure1_slot0;
-                var10 = _closure1_slot2;
-                var3 = 8;
-                var3 = var10[var3];
-                var3 = var4.bind(var6)(var3);
-                var4 = var3.CollectiblesAnalyticsProvider;
-                var3 = {};
-                var9 = {};
+                var10 = arg1;
+                var3 = _closure1_slot6;
+                var2 = var3.getCategoryForProduct;
+                var1 = var10.skuId;
+                var9 = var2.bind(var3)(var1);
+                var5 = undefined;
+                if(!(var5 !== var9)) { _fun0001_ip = 192; continue _fun0001 }
+ 36:
+                var1 = var10.items;
+                var1 = var1.length;
+                var2 = 0;
+                if(!(!(var1 > var2))) { _fun0001_ip = 61; continue _fun0001 }
+ 53:
+                var4 = var10.skuId;
+                _fun0001_ip = 76; continue _fun0001;
+ 61:
+                var1 = var10.items;
+                var1 = var1[var2];
+                var4 = var1.id;
+ 76:
+                var3 = _closure1_slot7;
+                var2 = _closure1_slot0;
+                var11 = _closure1_slot2;
+                var1 = 8;
+                var1 = var11[var1];
+                var1 = var2.bind(var5)(var1);
+                var2 = var1.CollectiblesAnalyticsProvider;
+                var1 = {};
+                var7 = {};
                 var12 = _closure2_slot0;
-                var11 = arg2;
-                var11 = var12 + var11;
-                var9['tilePosition'] = var11;
-                var3['newValue'] = var9;
-                var11 = _closure1_slot7;
-                var9 = _closure1_slot1;
-                var8 = 5;
-                var8 = var10[var8];
-                var10 = var9.bind(var6)(var8);
-                var9 = {};
-                var9['product'] = var2;
-                var7 = var7.unpublishedAt;
-                var9['unpublishedAt'] = var7;
-                var8 = var2.items;
-                var7 = 0;
-                var8 = var8[var7];
-                var8 = var8.id;
-                var8 = var11.bind(var6)(var10, var9, var8);
-                var3['children'] = var8;
-                var2 = var2.items;
-                var2 = var2[var7];
-                var2 = var2.id;
-                var1 = var5.bind(var6)(var4, var3, var2);
- 184:
+                var8 = arg2;
+                var8 = var12 + var8;
+                var7['tilePosition'] = var8;
+                var1['newValue'] = var7;
+                var8 = _closure1_slot7;
+                var7 = _closure1_slot1;
+                var6 = 5;
+                var6 = var11[var6];
+                var7 = var7.bind(var5)(var6);
+                var6 = {};
+                var6['product'] = var10;
+                var9 = var9.unpublishedAt;
+                var6['unpublishedAt'] = var9;
+                var6 = var8.bind(var5)(var7, var6, var4);
+                var1['children'] = var6;
+                var1 = var3.bind(var5)(var2, var1, var4);
+                return var1;
+ 192:
+                var1 = null;
                 return var1;
             }
         };

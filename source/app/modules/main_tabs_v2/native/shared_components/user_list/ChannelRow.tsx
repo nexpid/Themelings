@@ -369,7 +369,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = _closure2_slot5;
                     var5 = undefined;
-                    if(!(var5 === var2)) { _fun0007_ip = 516; continue _fun0007 }
+                    if(!(var5 === var2)) { _fun0007_ip = 512; continue _fun0007 }
  16:
                     var3 = _closure2_slot0;
                     var2 = var3.isThread;
@@ -448,8 +448,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = _closure2_slot11;
                     var7 = null;
                     var8 = var7 != var8;
-                    if(!var8) { _fun0007_ip = 500; continue _fun0007 }
- 320:
+                    if(!var8) { _fun0007_ip = 496; continue _fun0007 }
+ 316:
                     var10 = _closure1_slot14;
                     var9 = _closure1_slot13;
                     var8 = {};
@@ -486,12 +486,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11[1] = var12;
                     var8['children'] = var11;
                     var7 = var10.bind(var5)(var9, var8);
- 500:
+ 496:
                     var6[2] = var7;
                     var2['children'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var2;
- 516:
+ 512:
                     var1 = _closure2_slot5;
                     return var1;
                 }

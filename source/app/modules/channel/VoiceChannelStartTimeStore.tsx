@@ -435,33 +435,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var2.VoiceChannelDurationExperiment;
             var3 = var8.getCurrentConfig;
             var2 = {};
+            var2['guildId'] = var7;
             var9 = 'VoiceChannelStartTimeStore';
             var2['location'] = var9;
             var2 = var3.bind(var8)(var2);
             var2 = var2.enabled;
-            if(var2) { _fun0007_ip = 85; continue _fun0007 }
- 81:
+            if(var2) { _fun0007_ip = 89; continue _fun0007 }
+ 85:
             var2 = false;
             return var2;
- 85:
+ 89:
             var2 = _closure1_slot10;
             var3 = var2[var7];
             var2 = null;
-            if(!(var2 == var3)) { _fun0007_ip = 109; continue _fun0007 }
- 99:
+            if(!(var2 == var3)) { _fun0007_ip = 113; continue _fun0007 }
+ 103:
             var8 = _closure1_slot10;
             var3 = {};
             var8[var7] = var3;
- 109:
+ 113:
             var3 = _closure1_slot10;
             var3 = var3[var7];
             var7 = var2 != var6;
             var2 = undefined;
-            if(!var7) { _fun0007_ip = 135; continue _fun0007 }
- 126:
+            if(!var7) { _fun0007_ip = 139; continue _fun0007 }
+ 130:
             var5 = _closure1_slot14;
             var2 = var5.bind(var1)(var6);
- 135:
+ 139:
             var3[var4] = var2;
             return var1;
         }

@@ -1690,6 +1690,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['DOUBLE_TAP_TO_REACT_UPSELL'] = var2;
     var1 = 'DOUBLE_TAP_TO_REACT_UPSELL';
     var4[var2] = var1;
+    var2 = 594;
+    var4['NITRO_DROP_REWARD'] = var2;
+    var1 = 'NITRO_DROP_REWARD';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

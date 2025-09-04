@@ -72,7 +72,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var5 !== var8)) { _fun0001_ip = 79; continue _fun0001 }
  68:
             var1 = '';
-            if(!(var1 === var8)) { _fun0001_ip = 215; continue _fun0001 }
+            if(!(var1 === var8)) { _fun0001_ip = 211; continue _fun0001 }
  79:
             var3 = _closure1_slot6;
             var12 = _closure1_slot0;
@@ -100,8 +100,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessibilityLabel'] = var4;
             var1['onPress'] = var9;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0001_ip = 391; continue _fun0001;
- 215:
+            _fun0001_ip = 387; continue _fun0001;
+ 211:
             var4 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 391:
+ 387:
             return var1;
         }
     };

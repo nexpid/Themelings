@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['feedContainer'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -71,30 +71,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var8 = var1.block;
-            var _closure2_slot0 = var8;
+            var9 = var1.block;
+            var _closure2_slot0 = var9;
+            var10 = var1.screen;
             var1 = _closure1_slot7;
             var5 = undefined;
             var7 = var1.bind(var5)();
-            var10 = _closure1_slot0;
+            var11 = _closure1_slot0;
             var1 = _closure1_slot2;
             var3 = 6;
             var2 = var1[var3];
-            var13 = var10.bind(var5)(var2);
-            var12 = var13.useStateFromStores;
+            var14 = var11.bind(var5)(var2);
+            var13 = var14.useStateFromStores;
             var2 = _closure1_slot5;
-            var11 = new Array(1);
-            var11[0] = var2;
+            var12 = new Array(1);
+            var12[0] = var2;
             var4 = function() {
                 var1 = _closure1_slot5;
                 var1 = var1.categories;
                 return var1;
             };
-            var12 = var12.bind(var13)(var11, var4);
-            var _closure2_slot1 = var12;
+            var13 = var13.bind(var14)(var12, var4);
+            var _closure2_slot1 = var13;
             var3 = var1[var3];
-            var11 = var10.bind(var5)(var3);
-            var4 = var11.useStateFromStores;
+            var12 = var11.bind(var5)(var3);
+            var4 = var12.useStateFromStores;
             var3 = new Array(1);
             var3[0] = var2;
             var2 = function() {
@@ -102,14 +103,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.products;
                 return var1;
             };
-            var2 = var4.bind(var11)(var3, var2);
+            var2 = var4.bind(var12)(var3, var2);
             var _closure2_slot2 = var2;
-            var11 = _closure1_slot3;
-            var4 = var11.useMemo;
+            var12 = _closure1_slot3;
+            var4 = var12.useMemo;
             var3 = new Array(3);
-            var3[0] = var8;
-            var12 = var12.size;
-            var3[1] = var12;
+            var3[0] = var9;
+            var13 = var13.size;
+            var3[1] = var13;
             var2 = var2.size;
             var3[2] = var2;
             var2 = function() {
@@ -150,72 +151,73 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var4 = var4.bind(var11)(var2, var3);
+            var4 = var4.bind(var12)(var2, var3);
             var2 = 8;
             var2 = var1[var2];
-            var2 = var10.bind(var5)(var2);
-            var12 = var2.COLLECTIBLES_SHOP_CARD_HEIGHT;
-            var2 = var8.type;
+            var2 = var11.bind(var5)(var2);
+            var13 = var2.COLLECTIBLES_SHOP_CARD_HEIGHT;
+            var2 = var9.type;
             var3 = 7;
             var1 = var1[var3];
-            var1 = var10.bind(var5)(var1);
+            var1 = var11.bind(var5)(var1);
             var1 = var1.ShopBlockType;
             var1 = var1.HERO;
-            if(!(var1 !== var2)) { _fun0001_ip = 454; continue _fun0001 }
- 223:
-            var10 = _closure1_slot0;
+            if(!(var1 !== var2)) { _fun0001_ip = 465; continue _fun0001 }
+ 229:
+            var11 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
-            var1 = var10.bind(var5)(var1);
+            var1 = var11.bind(var5)(var1);
             var1 = var1.ShopBlockType;
             var1 = var1.FEATURED;
-            if(!(var1 !== var2)) { _fun0001_ip = 398; continue _fun0001 }
- 259:
-            var10 = _closure1_slot0;
+            if(!(var1 !== var2)) { _fun0001_ip = 409; continue _fun0001 }
+ 265:
+            var11 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
-            var1 = var10.bind(var5)(var1);
+            var1 = var11.bind(var5)(var1);
             var1 = var1.ShopBlockType;
             var1 = var1.FEED;
-            if(!(var1 !== var2)) { _fun0001_ip = 358; continue _fun0001 }
- 292:
-            var10 = _closure1_slot0;
+            if(!(var1 !== var2)) { _fun0001_ip = 364; continue _fun0001 }
+ 298:
+            var11 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
-            var1 = var10.bind(var5)(var1);
+            var1 = var11.bind(var5)(var1);
             var1 = var1.ShopBlockType;
             var1 = var1.SHELF;
-            if(!(var1 !== var2)) { _fun0001_ip = 354; continue _fun0001 }
- 325:
+            if(!(var1 !== var2)) { _fun0001_ip = 360; continue _fun0001 }
+ 331:
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var3];
             var1 = var2.bind(var5)(var1);
             var1 = var1.ShopBlockType;
             var1 = var1.WIDE_BANNER;
- 354:
+ 360:
             var1 = null;
             return var1;
- 358:
+ 364:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
-            var10 = _closure1_slot2;
-            var1 = 11;
-            var1 = var10[var1];
+            var11 = _closure1_slot2;
+            var1 = 12;
+            var1 = var11[var1];
             var2 = var2.bind(var5)(var1);
             var1 = {};
-            var1['feedBlock'] = var8;
+            var1['feedBlock'] = var9;
+            var1['screen'] = var10;
             var1 = var3.bind(var5)(var2, var1, var4);
             return var1;
- 398:
+ 409:
             var3 = _closure1_slot6;
             var2 = _closure1_slot4;
             var1 = {};
             var10 = var7.featuredContainer;
             var1['style'] = var10;
-            var11 = var8.subblocks;
+            var11 = var9.subblocks;
             var10 = var11.map;
-            var9 = function(arg1, arg2) {
+            var8 = function(arg1, arg2) {
                 var6 = arg1;
                 var4 = _closure1_slot5;
                 var3 = var4.getCategoryByStoreListingId;
@@ -224,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure1_slot6;
                 var3 = _closure1_slot1;
                 var4 = _closure1_slot2;
-                var2 = 10;
+                var2 = 11;
                 var2 = var4[var2];
                 var4 = undefined;
                 var3 = var3.bind(var4)(var2);
@@ -235,34 +237,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var5.bind(var4)(var3, var2, var1);
                 return var1;
             };
-            var9 = var10.bind(var11)(var9);
-            var1['children'] = var9;
+            var8 = var10.bind(var11)(var8);
+            var1['children'] = var8;
             var1 = var3.bind(var5)(var2, var1, var4);
             return var1;
- 454:
+ 465:
+            var12 = var9.categorySkuId;
+            var2 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var1 = 9;
+            var1 = var3[var1];
+            var1 = var2.bind(var5)(var1);
+            var1 = var1.CollectiblesCategorySkuId;
+            var11 = var1.ORB;
             var3 = _closure1_slot6;
             var2 = _closure1_slot4;
             var1 = {};
-            var9 = var7.heroContainer;
+            var8 = var7.heroContainer;
             var7 = new Array(2);
-            var7[0] = var9;
-            var9 = {};
-            var10 = 275;
-            var11 = var10 + var12;
-            var10 = 0.5;
-            var10 = var10 * var12;
-            var10 = var11 - var10;
-            var9['height'] = var10;
-            var7[1] = var9;
+            var7[0] = var8;
+            var8 = {};
+            var10 = undefined;
+            if(!(var12 !== var11)) { _fun0001_ip = 563; continue _fun0001 }
+ 535:
+            var11 = 275;
+            var12 = var11 + var13;
+            var11 = 0.5;
+            var11 = var11 * var13;
+            var10 = var12 - var11;
+ 563:
+            var8['height'] = var10;
+            var7[1] = var8;
             var1['style'] = var7;
+            var8 = _closure1_slot6;
             var7 = _closure1_slot1;
-            var9 = _closure1_slot2;
-            var6 = 9;
-            var6 = var9[var6];
+            var10 = _closure1_slot2;
+            var6 = 10;
+            var6 = var10[var6];
             var7 = var7.bind(var5)(var6);
             var6 = {};
-            var6['heroBlock'] = var8;
-            var6 = var3.bind(var5)(var7, var6);
+            var6['heroBlock'] = var9;
+            var6 = var8.bind(var5)(var7, var6);
             var1['children'] = var6;
             var1 = var3.bind(var5)(var2, var1, var4);
             return var1;

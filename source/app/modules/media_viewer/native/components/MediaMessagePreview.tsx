@@ -467,7 +467,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot17;
                     var3['reactionsTheme'] = var2;
                     var2 = _closure2_slot4;
-                    if(var2) { _fun0005_ip = 271; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 275; continue _fun0005 }
  90:
                     var2 = {'numberOfLines': 3, 'expandable': true};
                     var8 = _closure1_slot0;
@@ -503,7 +503,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = 'fade';
                     var2['outAnimation'] = var4;
                     var3['truncation'] = var2;
- 271:
+ 275:
                     return var1;
                 }
             };
