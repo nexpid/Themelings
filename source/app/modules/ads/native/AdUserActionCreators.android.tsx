@@ -10,86 +10,110 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot2;
-        var3 = function* () {
-            var1 = function* anon_0_() {
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 528; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 620; continue _fun0001 }
  10:
+                    var14 = arg1;
                     var2 = undefined;
                     var4 = undefined;
+                    var10 = undefined;
                     var9 = global;
                     var6 = var9.performance;
                     var5 = var6.now;
                     var4 = var5.bind(var6)();
- 31: // try_start_0
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot1;
+ 36: // try_start_0
+                    var7 = _closure1_slot0;
+                    var11 = _closure1_slot1;
                     var8 = 2;
-                    var5 = var7[var8];
-                    var11 = var6.bind(var2)(var5);
-                    var10 = var11.dispatch;
+                    var5 = var11[var8];
+                    var13 = var7.bind(var2)(var5);
+                    var12 = var13.dispatch;
                     var5 = {};
-                    var12 = 'FETCH_AD_USER_START';
-                    var5['type'] = var12;
-                    var5 = var10.bind(var11)(var5);
+                    var15 = 'FETCH_AD_USER_START';
+                    var5['type'] = var15;
+                    var5 = var12.bind(var13)(var5);
                     var5 = 3;
-                    var5 = var7[var5];
-                    var6 = var6.bind(var2)(var5);
-                    var5 = var6.getGoogleAdvertisingId;
-                    var5 = var5.bind(var6)();
-                    SaveGenerator(address=104);
- 102:
+                    var5 = var11[var5];
+                    var7 = var7.bind(var2)(var5);
+                    var5 = var7.getGoogleAdvertisingId;
+                    var5 = var5.bind(var7)();
+                    SaveGenerator(address=109);
+ 107:
                     return var5;
- 104:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(var6) { _fun0001_ip = 295; continue _fun0001 }
- 113:
-                    var7 = var9.performance;
-                    var6 = var7.now;
-                    var7 = var6.bind(var7)();
-                    var6 = var4;
-                    var14 = var7 - var6;
+ 109:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
+                    if(var7) { _fun0001_ip = 387; continue _fun0001 }
+ 118:
+                    var10 = var5;
+                    var11 = var9.performance;
+                    var7 = var11.now;
+                    var11 = var7.bind(var11)();
+                    var7 = var4;
+                    var15 = var11 - var7;
+                    var11 = _closure1_slot0;
+                    var12 = _closure1_slot1;
+                    var7 = 4;
+                    var13 = var12[var7];
+                    var18 = var11.bind(var2)(var13);
+                    var17 = var18.track;
+                    var13 = _closure1_slot3;
+                    var16 = var13.AD_USER_FETCH_DURATION;
+                    var13 = {};
+                    var19 = _closure1_slot4;
+                    var19 = var19.ANDROID;
+                    var13['platform'] = var19;
+                    var19 = true;
+                    var13['success'] = var19;
+                    var13['duration_ms'] = var15;
+                    var19 = var5.googleAdvertisingId;
+                    var15 = null;
+                    var19 = var15 != var19;
+                    var13['has_advertising_id'] = var19;
+                    var19 = var5.isLimitAdTrackingEnabled;
+                    var13['is_limit_ad_tracking_enabled'] = var19;
+                    var13 = var17.bind(var18)(var16, var13);
+                    var7 = var12[var7];
+                    var13 = var11.bind(var2)(var7);
+                    var12 = var13.track;
+                    var7 = _closure1_slot3;
+                    var11 = var7.AD_IDENTIFIER_FETCHED;
+                    var7 = {};
+                    var16 = var5.googleAdvertisingId;
+                    var16 = var15 != var16;
+                    var7['has_advertising_id'] = var16;
+                    var16 = var5.googleAdvertisingId;
+                    var16 = var15 != var16;
+                    if(!var16) { _fun0001_ip = 306; continue _fun0001 }
+ 297:
+                    var16 = var10;
+                    var15 = var16.googleAdvertisingId;
+ 306:
+                    var7['android_advertising_id'] = var15;
+                    var7['location'] = var14;
+                    var7 = var12.bind(var13)(var11, var7);
                     var7 = _closure1_slot0;
                     var6 = _closure1_slot1;
-                    var10 = 4;
-                    var10 = var6[var10];
-                    var13 = var7.bind(var2)(var10);
-                    var12 = var13.track;
-                    var10 = _closure1_slot3;
-                    var11 = var10.AD_USER_FETCH_DURATION;
-                    var10 = {};
-                    var15 = _closure1_slot4;
-                    var15 = var15.ANDROID;
-                    var10['platform'] = var15;
-                    var15 = true;
-                    var10['success'] = var15;
-                    var10['duration_ms'] = var14;
-                    var15 = var5.googleAdvertisingId;
-                    var14 = null;
-                    var14 = var14 != var15;
-                    var10['has_advertising_id'] = var14;
-                    var14 = var5.isLimitAdTrackingEnabled;
-                    var10['is_limit_ad_tracking_enabled'] = var14;
-                    var10 = var12.bind(var13)(var11, var10);
                     var6 = var6[var8];
                     var8 = var7.bind(var2)(var6);
                     var7 = var8.dispatch;
                     var6 = {};
-                    var10 = 'FETCH_AD_USER_SUCCESS';
-                    var6['type'] = var10;
-                    var10 = var5.googleAdvertisingId;
-                    var6['advertisingId'] = var10;
-                    var10 = var5.isLimitAdTrackingEnabled;
+                    var11 = 'FETCH_AD_USER_SUCCESS';
+                    var6['type'] = var11;
+                    var11 = var10.googleAdvertisingId;
+                    var6['advertisingId'] = var11;
+                    var10 = var10.isLimitAdTrackingEnabled;
                     var6['isLimitAdTrackingEnabled'] = var10;
                     var6 = var7.bind(var8)(var6);
- 290: // try_end0
-                    _fun0001_ip = 525; continue _fun0001;
- 295:
+ 382: // try_end0
+                    _fun0001_ip = 617; continue _fun0001;
+ 387:
                     return var5;
- 298: // catch_target0
+ 390: // catch_target0
                     CatchBlockStart(arg_register=10);
                     var3 = var11;
                     var6 = var9.performance;
@@ -113,16 +137,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['duration_ms'] = var10;
                     var10 = var9.Error;
                     var10 = var11 instanceof var10;
-                    if(var10) { _fun0001_ip = 418; continue _fun0001 }
- 402:
+                    if(var10) { _fun0001_ip = 510; continue _fun0001 }
+ 494:
                     var10 = var9.String;
                     var9 = var3;
                     var9 = var10.bind(var2)(var9);
-                    _fun0001_ip = 426; continue _fun0001;
- 418:
+                    _fun0001_ip = 518; continue _fun0001;
+ 510:
                     var10 = var3;
                     var9 = var10.message;
- 426:
+ 518:
                     var4['error_message'] = var9;
                     var4 = var7.bind(var8)(var6, var4);
                     var4 = _closure1_slot0;
@@ -146,9 +170,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = 'FETCH_AD_USER_FAILURE';
                     var3['type'] = var6;
                     var3 = var4.bind(var5)(var3);
- 525:
+ 617:
                     return var2;
- 528:
+ 620:
                     return var1;
                 }
             };

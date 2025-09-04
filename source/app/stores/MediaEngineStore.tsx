@@ -239,10 +239,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var3 = var6.bind(var3)(var4);
             var3 = var3.isPlatformEmbedded;
-            if(var3) { _fun0005_ip = 80; continue _fun0005 }
- 78:
+            if(var3) { _fun0005_ip = 76; continue _fun0005 }
+ 74:
             var3 = false;
- 80:
+ 76:
             var2['autoThreshold'] = var3;
             var3 = true;
             var4 = new Array(0);
@@ -7677,14 +7677,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.isVoiceFiltersEnabled;
             var3 = {'location': 'MediaEngineStore', 'autoTrackExposure': false};
             var3 = var5.bind(var6)(var3);
-            if(!var3) { _fun0105_ip = 382; continue _fun0105 }
- 370:
+            if(!var3) { _fun0105_ip = 378; continue _fun0105 }
+ 366:
             var5 = var4.mostRecentlyRequestedVoiceFilter;
             var4 = null;
             var3 = var4 !== var5;
- 382:
-            if(!var3) { _fun0105_ip = 415; continue _fun0105 }
- 385:
+ 378:
+            if(!var3) { _fun0105_ip = 411; continue _fun0105 }
+ 381:
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
             var4 = 29;
@@ -7692,14 +7692,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var4);
             var4 = var5.isDesktop;
             var3 = var4.bind(var5)();
- 415:
-            if(!var3) { _fun0105_ip = 550; continue _fun0105 }
- 421:
+ 411:
+            if(!var3) { _fun0105_ip = 546; continue _fun0105 }
+ 417:
             var4 = _closure1_slot15;
             var3 = var4.getLastInitAttemptMayHaveCrashed;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0105_ip = 472; continue _fun0105 }
- 440:
+            if(var3) { _fun0105_ip = 468; continue _fun0105 }
+ 436:
             var4 = _closure1_slot0;
             var5 = _closure1_slot3;
             var3 = 65;
@@ -7707,8 +7707,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.maybeSetupVoiceFiltersNativeModule;
             var3 = var3.bind(var4)();
-            _fun0105_ip = 550; continue _fun0105;
- 472:
+            _fun0105_ip = 546; continue _fun0105;
+ 468:
             var4 = _closure1_slot1;
             var5 = _closure1_slot3;
             var3 = 52;
@@ -7725,7 +7725,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var3['mostRecentlyRequestedVoiceFilter'] = var5;
             var3 = var4.bind(var1)(var3);
- 550:
+ 546:
             var2 = _closure1_slot151;
             var2 = var2.bind(var1)();
             return var1;

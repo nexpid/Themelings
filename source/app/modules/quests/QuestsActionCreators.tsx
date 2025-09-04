@@ -2279,17 +2279,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var11 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0017_ip = 416; continue _fun0017 }
+                    if(var2) { _fun0017_ip = 428; continue _fun0017 }
  13:
                     var7 = var11;
                     var2 = undefined;
-                    var8 = undefined;
+                    var9 = undefined;
                     var4 = _closure1_slot0;
                     var12 = _closure1_slot2;
                     var3 = 23;
                     var5 = var12[var3];
                     var10 = var4.bind(var2)(var5);
-                    var9 = var10.resolveVideoQuestAsset;
+                    var8 = var10.resolveVideoQuestAsset;
                     var5 = var12[var3];
                     var5 = var4.bind(var2)(var5);
                     var5 = var5.VideoVariant;
@@ -2301,8 +2301,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = arg2;
                     var17 = var10;
                     var16 = var11;
-                    var4 = var17[var9](var16, var15, var14, var13, var12);
-                    var8 = var4;
+                    var4 = var17[var8](var16, var15, var14, var13, var12);
+                    var9 = var4;
                     var3 = null;
                     if(!(var3 == var4)) { _fun0017_ip = 173; continue _fun0017 }
  113:
@@ -2311,26 +2311,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var3.bind(var4)();
                     var4 = var5.setTranscriptAsset;
                     var3 = {};
-                    var9 = var7;
-                    var9 = var9.id;
-                    var3['questId'] = var9;
-                    var9 = _closure1_slot6;
-                    var9 = var9.FAILURE;
-                    var3['fetchStatus'] = var9;
+                    var8 = var7;
+                    var8 = var8.id;
+                    var3['questId'] = var8;
+                    var8 = _closure1_slot6;
+                    var8 = var8.FAILURE;
+                    var3['fetchStatus'] = var8;
                     var3 = var4.bind(var5)(var3);
-                    _fun0017_ip = 413; continue _fun0017;
+                    _fun0017_ip = 425; continue _fun0017;
  173:
                     var4 = _closure1_slot5;
                     var3 = var4.getState;
                     var5 = var3.bind(var4)();
                     var4 = var5.setTranscriptAsset;
                     var3 = {};
-                    var9 = var7;
-                    var9 = var9.id;
-                    var3['questId'] = var9;
-                    var9 = _closure1_slot6;
-                    var9 = var9.FETCHING;
-                    var3['fetchStatus'] = var9;
+                    var8 = var7;
+                    var8 = var8.id;
+                    var3['questId'] = var8;
+                    var8 = _closure1_slot6;
+                    var8 = var8.FETCHING;
+                    var3['fetchStatus'] = var8;
                     var3 = var4.bind(var5)(var3);
  228: // try_start_0
                     var4 = _closure1_slot0;
@@ -2341,37 +2341,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var3.HTTP;
                     var4 = var5.get;
                     var3 = {};
+                    var8 = var9;
                     var8 = var8.url;
                     var3['url'] = var8;
                     var8 = true;
                     var3['rejectWithError'] = var8;
                     var3 = var4.bind(var5)(var3);
-                    SaveGenerator(address=284);
- 282:
+                    SaveGenerator(address=287);
+ 285:
                     return var3;
- 284:
+ 287:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0017_ip = 356; continue _fun0017 }
- 290:
+                    if(var4) { _fun0017_ip = 368; continue _fun0017 }
+ 293:
                     var5 = _closure1_slot5;
                     var4 = var5.getState;
                     var8 = var4.bind(var5)();
                     var5 = var8.setTranscriptAsset;
                     var4 = {};
-                    var9 = var7;
-                    var9 = var9.id;
-                    var4['questId'] = var9;
-                    var9 = _closure1_slot6;
-                    var9 = var9.SUCCESS;
-                    var4['fetchStatus'] = var9;
-                    var9 = var3.text;
-                    var4['text'] = var9;
+                    var10 = var7;
+                    var10 = var10.id;
+                    var4['questId'] = var10;
+                    var10 = _closure1_slot6;
+                    var10 = var10.SUCCESS;
+                    var4['fetchStatus'] = var10;
+                    var10 = var3.text;
+                    var4['text'] = var10;
+                    var9 = var9.url;
+                    var4['url'] = var9;
                     var4 = var5.bind(var8)(var4);
- 354: // try_end0
-                    _fun0017_ip = 413; continue _fun0017;
- 356:
+ 366: // try_end0
+                    _fun0017_ip = 425; continue _fun0017;
+ 368:
                     return var3;
- 359: // catch_target0
+ 371: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var4 = _closure1_slot5;
                     var3 = var4.getState;
@@ -2384,9 +2387,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.FAILURE;
                     var3['fetchStatus'] = var6;
                     var3 = var4.bind(var5)(var3);
- 413:
+ 425:
                     return var2;
- 416:
+ 428:
                     return var1;
                 }
             };

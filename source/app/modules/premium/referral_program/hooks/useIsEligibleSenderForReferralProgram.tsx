@@ -25,23 +25,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/premium/referral_program/hooks/useIsEligibleSenderForReferralProgram.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var8 = arguments[1];
+            var7 = arguments[0];
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0001_ip = 11; continue _fun0001 }
+            if(!(var7 === var4)) { _fun0001_ip = 11; continue _fun0001 }
  9:
-            var8 = false;
+            var7 = false;
  11:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
             var2 = 1;
             var2 = var5[var2];
-            var7 = var3.bind(var4)(var2);
-            var6 = var7.useMaybeFetchReferralsRemaining;
-            var2 = arg1;
-            var2 = var6.bind(var7)(var2, var8);
+            var6 = var3.bind(var4)(var2);
+            var2 = var6.useMaybeFetchReferralsRemaining;
+            var2 = var2.bind(var6)(var7);
             var2 = 2;
             var2 = var5[var2];
             var4 = var3.bind(var4)(var2);

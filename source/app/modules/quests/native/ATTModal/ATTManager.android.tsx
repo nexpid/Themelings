@@ -140,12 +140,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = 5;
                 var2 = var2[var1];
                 var1 = undefined;
-                var2 = var3.bind(var1)(var2);
-                var1 = var2.fetchAdUser;
-                var1 = var1.bind(var2)();
- 35: // try_end0
-                _fun0003_ip = 75; continue _fun0003;
- 37: // catch_target0
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.fetchAdUser;
+                var1 = 'post_connection_open';
+                var1 = var2.bind(var3)(var1);
+ 42: // try_end0
+                _fun0003_ip = 82; continue _fun0003;
+ 44: // catch_target0
                 CatchBlockStart(arg_register=2);
                 var4 = _closure1_slot1;
                 var2 = _closure1_slot2;
@@ -155,7 +156,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var4.bind(var1)(var2);
                 var1 = var2.captureException;
                 var1 = var1.bind(var2)(var3);
- 75:
+ 82:
                 var1 = undefined;
                 return var1;
             }

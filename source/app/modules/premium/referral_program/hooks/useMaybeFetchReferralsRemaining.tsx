@@ -36,16 +36,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var7;
     var4 = var4.FractionalPremiumStates;
     var _closure1_slot7 = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/premium/referral_program/hooks/useMaybeFetchReferralsRemaining.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function(arg1) {
+    var2 = function() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var6 = arguments[1];
+            var6 = arguments[0];
             var1 = undefined;
             if(!(var6 === var1)) { _fun0001_ip = 13; continue _fun0001 }
  11:
@@ -53,12 +53,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  13:
             var _closure2_slot0 = var6;
             var _closure2_slot1 = var1;
-            var8 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
             var4 = 4;
-            var4 = var10[var4];
-            var9 = var8.bind(var1)(var4);
-            var7 = var9.useStateFromStores;
+            var4 = var9[var4];
+            var10 = var7.bind(var1)(var4);
+            var8 = var10.useStateFromStores;
             var4 = _closure1_slot4;
             var5 = new Array(1);
             var5[0] = var4;
@@ -68,72 +68,62 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var12 = var7.bind(var9)(var5, var4);
+            var12 = var8.bind(var10)(var5, var4);
             var4 = 5;
-            var4 = var10[var4];
-            var5 = var8.bind(var1)(var4);
+            var4 = var9[var4];
+            var5 = var7.bind(var1)(var4);
             var4 = var5.useHasDiscountApplied;
             var5 = var4.bind(var5)();
             var4 = 6;
-            var4 = var10[var4];
-            var7 = var8.bind(var1)(var4);
+            var4 = var9[var4];
+            var7 = var7.bind(var1)(var4);
             var4 = var7.useHasActiveTrial;
             var4 = var4.bind(var7)();
+            var8 = _closure1_slot1;
             var7 = 7;
-            var7 = var10[var7];
-            var9 = var8.bind(var1)(var7);
-            var8 = var9.useIsEligibleSenderForReferralProgramExperiment;
-            var7 = arg1;
-            var7 = var8.bind(var9)(var7);
-            var7 = var7.eligibleToFetch;
-            var9 = _closure1_slot1;
-            var8 = 8;
-            var8 = var10[var8];
-            var8 = var9.bind(var1)(var8);
-            var8 = var8.bind(var1)();
-            if(!var7) { _fun0001_ip = 194; continue _fun0001 }
- 171:
-            var9 = null;
-            var9 = var9 == var12;
-            var10 = undefined;
-            if(var9) { _fun0001_ip = 188; continue _fun0001 }
- 182:
-            var10 = var12.verified;
- 188:
-            var9 = true;
-            var7 = var9 === var10;
- 194:
-            if(!var7) { _fun0001_ip = 239; continue _fun0001 }
- 197:
+            var7 = var9[var7];
+            var7 = var8.bind(var1)(var7);
+            var8 = var7.bind(var1)();
+            var7 = null;
+            var7 = var7 == var12;
+            var9 = undefined;
+            if(var7) { _fun0001_ip = 153; continue _fun0001 }
+ 147:
+            var9 = var12.verified;
+ 153:
+            var7 = true;
+            var7 = var7 === var9;
+            if(!var7) { _fun0001_ip = 204; continue _fun0001 }
+ 162:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var9 = 9;
+            var9 = 8;
             var9 = var11[var9];
             var11 = var10.bind(var1)(var9);
             var10 = var11.isPremiumExactly;
             var9 = _closure1_slot6;
             var9 = var9.TIER_2;
             var7 = var10.bind(var11)(var12, var9);
- 239:
-            if(!var7) { _fun0001_ip = 248; continue _fun0001 }
- 242:
+ 204:
+            if(!var7) { _fun0001_ip = 213; continue _fun0001 }
+ 207:
             var7 = var8.fetched;
- 248:
-            if(!var7) { _fun0001_ip = 271; continue _fun0001 }
- 251:
+ 213:
+            if(!var7) { _fun0001_ip = 236; continue _fun0001 }
+ 216:
             var9 = var8.fractionalState;
             var8 = _closure1_slot7;
             var8 = var8.FP_ONLY;
             var7 = var9 !== var8;
- 271:
-            if(!var7) { _fun0001_ip = 277; continue _fun0001 }
- 274:
+ 236:
+            if(!var7) { _fun0001_ip = 242; continue _fun0001 }
+ 239:
             var7 = !var5;
- 277:
-            if(!var7) { _fun0001_ip = 283; continue _fun0001 }
- 280:
+ 242:
+            if(!var7) { _fun0001_ip = 248; continue _fun0001 }
+ 245:
             var7 = !var4;
- 283:
+ 248:
             _closure2_slot1 = var7;
             var5 = _closure1_slot3;
             var4 = var5.useEffect;

@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['loadingSpinner'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -103,43 +103,85 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    var3 = _closure2_slot1;
-                    var2 = null;
-                    var2 = var2 != var3;
-                    if(!var2) { _fun0002_ip = 39; continue _fun0002 }
- 16:
-                    var3 = _closure2_slot1;
-                    var4 = var3.questId;
-                    var3 = _closure2_slot0;
-                    var3 = var3.id;
-                    var2 = var4 === var3;
- 39:
-                    if(!var2) { _fun0002_ip = 69; continue _fun0002 }
- 42:
-                    var3 = _closure2_slot1;
-                    var4 = var3.fetchStatus;
-                    var3 = _closure1_slot5;
-                    var3 = var3.NONE;
-                    var2 = var4 !== var3;
- 69:
-                    if(var2) { _fun0002_ip = 137; continue _fun0002 }
- 72:
-                    var6 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var2 = 7;
-                    var2 = var7[var2];
-                    var5 = undefined;
-                    var4 = var6.bind(var5)(var2);
-                    var3 = var4.fetchVideoTranscript;
-                    var2 = _closure2_slot0;
-                    var1 = 8;
-                    var1 = var7[var1];
-                    var1 = var6.bind(var5)(var1);
-                    var1 = var1.FirstPartyQuestTaskTypes;
-                    var1 = var1.WATCH_VIDEO_ON_MOBILE;
-                    var1 = var3.bind(var4)(var2, var1);
- 137:
+                    var11 = _closure1_slot0;
+                    var12 = _closure1_slot2;
+                    var4 = 7;
+                    var3 = var12[var4];
                     var1 = undefined;
+                    var10 = var11.bind(var1)(var3);
+                    var9 = var10.resolveVideoQuestAsset;
+                    var8 = _closure2_slot0;
+                    var7 = 8;
+                    var5 = var12[var7];
+                    var5 = var11.bind(var1)(var5);
+                    var5 = var5.FirstPartyQuestTaskTypes;
+                    var15 = var5.WATCH_VIDEO_ON_MOBILE;
+                    var5 = var12[var4];
+                    var5 = var11.bind(var1)(var5);
+                    var5 = var5.VideoVariant;
+                    var14 = var5.VIDEO;
+                    var4 = var12[var4];
+                    var4 = var11.bind(var1)(var4);
+                    var4 = var4.VideoAssetProperty;
+                    var13 = var4.TRANSCRIPT;
+                    var17 = var10;
+                    var16 = var8;
+                    var6 = var17[var9](var16, var15, var14, var13, var12);
+                    var4 = _closure2_slot1;
+                    var8 = null;
+                    var4 = var8 == var4;
+                    if(var4) { _fun0002_ip = 150; continue _fun0002 }
+ 127:
+                    var5 = _closure2_slot1;
+                    var9 = var5.questId;
+                    var5 = _closure2_slot0;
+                    var5 = var5.id;
+                    var4 = var9 !== var5;
+ 150:
+                    if(var4) { _fun0002_ip = 177; continue _fun0002 }
+ 153:
+                    var5 = _closure2_slot1;
+                    var9 = var5.fetchStatus;
+                    var5 = _closure1_slot5;
+                    var5 = var5.NONE;
+                    var4 = var9 === var5;
+ 177:
+                    if(var4) { _fun0002_ip = 237; continue _fun0002 }
+ 180:
+                    var5 = _closure2_slot1;
+                    var9 = var5.fetchStatus;
+                    var5 = _closure1_slot5;
+                    var5 = var5.SUCCESS;
+                    var5 = var9 === var5;
+                    if(!var5) { _fun0002_ip = 234; continue _fun0002 }
+ 207:
+                    var9 = var8 == var6;
+                    var8 = undefined;
+                    if(var9) { _fun0002_ip = 221; continue _fun0002 }
+ 216:
+                    var8 = var6.url;
+ 221:
+                    var6 = _closure2_slot1;
+                    var6 = var6.url;
+                    var5 = var8 !== var6;
+ 234:
+                    var4 = var5;
+ 237:
+                    if(!var4) { _fun0002_ip = 297; continue _fun0002 }
+ 240:
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var4 = 9;
+                    var4 = var2[var4];
+                    var5 = var6.bind(var1)(var4);
+                    var4 = var5.fetchVideoTranscript;
+                    var3 = _closure2_slot0;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var1)(var2);
+                    var2 = var2.FirstPartyQuestTaskTypes;
+                    var2 = var2.WATCH_VIDEO_ON_MOBILE;
+                    var2 = var4.bind(var5)(var3, var2);
+ 297:
                     return var1;
                 }
             };
@@ -201,19 +243,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot7;
             var8 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var15[var1];
             var1 = var8.bind(var4)(var1);
             var2 = var1.ActionSheet;
             var1 = {};
             var5 = true;
             var1['scrollable'] = var5;
-            var5 = 10;
+            var5 = 11;
             var5 = var15[var5];
             var5 = var8.bind(var4)(var5);
             var6 = var5.BottomSheetTitleHeader;
             var5 = {};
-            var7 = 11;
+            var7 = 12;
             var17 = var15[var7];
             var17 = var8.bind(var4)(var17);
             var18 = var17.intl;
@@ -226,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['title'] = var7;
             var5 = var3.bind(var4)(var6, var5);
             var1['header'] = var5;
-            var5 = 12;
+            var5 = 13;
             var5 = var15[var5];
             var5 = var8.bind(var4)(var5);
             var6 = var5.BottomSheetScrollView;
@@ -235,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['paddingBottom'] = var9;
             var5['contentContainerStyle'] = var7;
             var9 = _closure1_slot8;
-            var7 = 13;
+            var7 = 14;
             var7 = var15[var7];
             var7 = var8.bind(var4)(var7);
             var8 = var7.Stack;
@@ -276,7 +318,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = _closure1_slot7;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 14;
+                var1 = 15;
                 var1 = var3[var1];
                 var4 = undefined;
                 var1 = var2.bind(var4)(var1);

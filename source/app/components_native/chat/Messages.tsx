@@ -5757,18 +5757,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.useSetting;
             r101 = var2.bind(var5)();
             var2 = var13[var3];
-            var14 = var8.bind(var4)(var2);
-            var12 = var14.useStateFromStores;
+            var12 = var8.bind(var4)(var2);
+            var9 = var12.useStateFromStores;
             var2 = _closure1_slot41;
-            var9 = new Array(1);
-            var9[0] = var2;
-            var5 = function() {
+            var5 = new Array(1);
+            var5[0] = var2;
+            var2 = function() {
                 var1 = _closure1_slot41;
                 var1 = var1.theme;
                 return var1;
             };
-            var2 = new Array(0);
-            var9 = var12.bind(var14)(var9, var5, var2);
+            var9 = var9.bind(var12)(var5, var2);
             var2 = 101;
             var2 = var13[var2];
             var5 = var8.bind(var4)(var2);
@@ -6774,30 +6773,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7.id;
             var90 = var8.bind(var13)(var2);
             var48 = var22 != var82;
-            if(!var48) { _fun0046_ip = 2274; continue _fun0046 }
- 2256:
+            if(!var48) { _fun0046_ip = 2269; continue _fun0046 }
+ 2251:
             var2 = var82.ready;
-            if(var2) { _fun0046_ip = 2271; continue _fun0046 }
- 2265:
+            if(var2) { _fun0046_ip = 2266; continue _fun0046 }
+ 2260:
             var2 = var82.cached;
- 2271:
+ 2266:
             var48 = var2;
- 2274:
+ 2269:
             var92 = var22 != var82;
-            if(!var92) { _fun0046_ip = 2287; continue _fun0046 }
- 2281:
+            if(!var92) { _fun0046_ip = 2282; continue _fun0046 }
+ 2276:
             var92 = var82.cached;
- 2287:
+ 2282:
             var91 = var22 != var82;
-            if(!var91) { _fun0046_ip = 2300; continue _fun0046 }
- 2294:
+            if(!var91) { _fun0046_ip = 2295; continue _fun0046 }
+ 2289:
             var91 = var82.ready;
- 2300:
-            if(!var91) { _fun0046_ip = 2312; continue _fun0046 }
- 2303:
+ 2295:
+            if(!var91) { _fun0046_ip = 2307; continue _fun0046 }
+ 2298:
             var2 = var82.loadingMore;
             var91 = !var2;
- 2312:
+ 2307:
             var8 = _closure1_slot0;
             var13 = _closure1_slot2;
             var2 = var13[var3];
@@ -6861,10 +6860,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var13.useCurrentUserCommunicationDisabled;
             var15 = var22 == var11;
             var2 = undefined;
-            if(var15) { _fun0046_ip = 2508; continue _fun0046 }
- 2503:
+            if(var15) { _fun0046_ip = 2503; continue _fun0046 }
+ 2498:
             var2 = var11.id;
- 2508:
+ 2503:
             var8 = var8.bind(var13)(var2);
             var2 = _closure1_slot3;
             var2 = var2.bind(var4)(var8, var12);
@@ -7430,8 +7429,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['profile'] = var5;
             var5 = var7.isThread;
             var7 = var5.bind(var7)();
-            if(!var7) { _fun0046_ip = 3635; continue _fun0046 }
- 3596:
+            if(!var7) { _fun0046_ip = 3630; continue _fun0046 }
+ 3591:
             r106 = _closure1_slot76;
             var8 = _closure1_slot1;
             r107 = _closure1_slot2;
@@ -7442,7 +7441,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             r107 = true;
             var5['absolute'] = r107;
             var7 = r106.bind(var4)(var8, var5);
- 3635:
+ 3630:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot76;
@@ -7510,10 +7509,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['interactionStates'] = var51;
             var6['interactionComponentStates'] = var50;
             var6['interactionComponentStatesVersion'] = var49;
-            if(!var47) { _fun0046_ip = 3964; continue _fun0046 }
- 3961:
+            if(!var47) { _fun0046_ip = 3959; continue _fun0046 }
+ 3956:
             var47 = var48;
- 3964:
+ 3959:
             var6['hasLoadedExperiments'] = var47;
             var6['guildSystemChannelFlags'] = var46;
             var6['currentUserCommunicationDisabled'] = var45;
@@ -7542,18 +7541,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['resolvedReferralTrialOfferIds'] = var24;
             var24 = var22 == var23;
             var22 = undefined;
-            if(var24) { _fun0046_ip = 4108; continue _fun0046 }
- 4103:
+            if(var24) { _fun0046_ip = 4103; continue _fun0046 }
+ 4098:
             var22 = var23.id;
- 4108:
+ 4103:
             var6['referralTrialOfferId'] = var22;
             var6['isPremiumTier2User'] = var21;
             var6['activityInviteMessageIds'] = var20;
             var17 = 0;
-            if(var19) { _fun0046_ip = 4131; continue _fun0046 }
- 4128:
+            if(var19) { _fun0046_ip = 4126; continue _fun0046 }
+ 4123:
             var17 = var18;
- 4131:
+ 4126:
             var6['guildInviteColorsFetched'] = var17;
             var6['isAgeVerified'] = var16;
             var6['guildEmojis'] = var15;

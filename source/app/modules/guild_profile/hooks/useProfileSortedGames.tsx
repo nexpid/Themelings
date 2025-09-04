@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 3;
             var2 = var7[var2];
             var2 = var5.bind(var6)(var2);
-            var2 = var2.DetectableApplicationTheme;
+            var2 = var2.GameTheme;
             var2 = var2.EROTIC;
             var1 = var3.bind(var4)(var2);
  80:

@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var5.bind(var1)(var3, var4);
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot1;
-                var2 = 4;
+                var2 = 5;
                 var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
                 var2 = var3.isLibdiscoreLoaded;
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot0 = var6;
                 var4 = _closure1_slot0;
                 var5 = _closure1_slot1;
-                var2 = 4;
+                var2 = 5;
                 var2 = var5[var2];
                 var8 = undefined;
                 var4 = var4.bind(var8)(var2);
@@ -424,7 +424,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2 = var2.bind(var1)();
-    var6 = 5;
+    var6 = 6;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -528,33 +528,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.bind(var4)(var1);
             var1 = var1.UploadPlatform;
             var1 = var1.REACT_NATIVE;
-            var1 = var5 !== var1;
-            if(var1) { _fun0008_ip = 64; continue _fun0008 }
+            var1 = var5 === var1;
+            if(!var1) { _fun0008_ip = 64; continue _fun0008 }
  53:
             var6 = var3.uri;
             var5 = null;
-            var1 = var5 == var6;
+            var1 = var5 != var6;
  64:
-            if(var1) { _fun0008_ip = 92; continue _fun0008 }
+            if(!var1) { _fun0008_ip = 103; continue _fun0008 }
  67:
-            var6 = var3.uri;
-            var5 = var6.startsWith;
-            var3 = 'file://';
-            var3 = var5.bind(var6)(var3);
-            var1 = !var3;
- 92:
-            if(var1) { _fun0008_ip = 128; continue _fun0008 }
- 95:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var5 = 4;
+            var5 = var7[var5];
+            var6 = var6.bind(var4)(var5);
+            var5 = var6.fileIsInAppDir;
+            var3 = var3.uri;
+            var1 = var5.bind(var6)(var3);
+ 103:
+            if(!var1) { _fun0008_ip = 136; continue _fun0008 }
+ 106:
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var2 = 4;
+            var2 = 5;
             var2 = var5[var2];
             var3 = var3.bind(var4)(var2);
             var2 = var3.isLibdiscoreLoaded;
-            var2 = var2.bind(var3)();
-            var1 = !var2;
- 128:
-            var1 = !var1;
+            var1 = var2.bind(var3)();
+ 136:
             return var1;
         }
     };

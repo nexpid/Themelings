@@ -304,11 +304,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot1 = var6;
         var1 = {};
         var1['context'] = var7;
-        var4 = var5.useCallback;
-        var3 = new Array(2);
-        var3[0] = var7;
-        var3[1] = var6;
-        var2 = function(arg1) {
+        var8 = var5.useCallback;
+        var4 = new Array(2);
+        var4[0] = var7;
+        var4[1] = var6;
+        var3 = function(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                 var2 = _closure2_slot0;
@@ -337,8 +337,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
+        var3 = var8.bind(var5)(var3, var4);
+        var1['trackUserProfileAction'] = var3;
+        var4 = var5.useCallback;
+        var3 = new Array(2);
+        var3[0] = var7;
+        var3[1] = var6;
+        var2 = function(arg1) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+                var2 = _closure2_slot0;
+                var1 = null;
+                if(!(var1 != var2)) { _fun0006_ip = 81; continue _fun0006 }
+ 13:
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 3;
+                var2 = var2[var1];
+                var1 = undefined;
+                var3 = var3.bind(var1)(var2);
+                var2 = var3.trackUserProfileEditAction;
+                var1 = {};
+                var5 = _closure2_slot1;
+                var1['analyticsLocations'] = var5;
+                var6 = _closure2_slot0;
+                var7 = var1;
+                var4 = copyDataProperties(var7, var6);
+                var6 = arg1;
+                var7 = var1;
+                var4 = copyDataProperties(var7, var6);
+                var1 = var2.bind(var3)(var1);
+ 81:
+                var1 = undefined;
+                return var1;
+            }
+        };
         var2 = var4.bind(var5)(var2, var3);
-        var1['trackUserProfileAction'] = var2;
+        var1['trackUserProfileEditAction'] = var2;
         return var1;
     };
     var3['useUserProfileAnalyticsContext'] = var2;

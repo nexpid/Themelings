@@ -406,10 +406,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 13;
             var1 = var6[var1];
             var5 = undefined;
-            var7 = var4.bind(var5)(var1);
-            var2 = var7.useIsEligibleSenderForReferralProgram;
-            var1 = 'nitro-home';
-            var2 = var2.bind(var7)(var1);
+            var2 = var4.bind(var5)(var1);
+            var1 = var2.useIsEligibleSenderForReferralProgram;
+            var2 = var1.bind(var2)();
             var1 = 14;
             var1 = var6[var1];
             var4 = var4.bind(var5)(var1);
@@ -419,10 +418,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var1.referralSentUsers;
             var13 = var1.refreshAt;
             var1 = null;
-            if(!(var1 != var14)) { _fun0005_ip = 95; continue _fun0005 }
- 90:
+            if(!(var1 != var14)) { _fun0005_ip = 88; continue _fun0005 }
+ 83:
             var4 = var14.length;
- 95:
+ 88:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var4 = 15;
@@ -471,8 +470,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var6 = var6.bind(var9)(var3, var4);
             var1 = null;
-            if(!var2) { _fun0005_ip = 396; continue _fun0005 }
- 186:
+            if(!var2) { _fun0005_ip = 389; continue _fun0005 }
+ 179:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -511,19 +510,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8[var12];
             var8 = var11.bind(var5)(var8);
             var8 = var8.t;
-            if(var7) { _fun0005_ip = 369; continue _fun0005 }
- 356:
+            if(var7) { _fun0005_ip = 362; continue _fun0005 }
+ 349:
             var7 = var8.Lm2nFR;
             var7 = var9.bind(var10)(var7);
-            _fun0005_ip = 380; continue _fun0005;
- 369:
+            _fun0005_ip = 373; continue _fun0005;
+ 362:
             var8 = var8.SY9tyM;
             var7 = var9.bind(var10)(var8);
- 380:
+ 373:
             var2['cta'] = var7;
             var2['buttonOnPress'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 396:
+ 389:
             return var1;
         }
     };

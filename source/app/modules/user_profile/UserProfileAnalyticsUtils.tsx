@@ -1,64 +1,64 @@
 // app/modules/user_profile/UserProfileAnalyticsUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var7 = require;
+    var8 = require;
     var5 = metroImportDefault;
     var3 = exports;
-    var8 = dependencyMap;
-    var _closure1_slot0 = var7;
+    var9 = dependencyMap;
+    var _closure1_slot0 = var8;
     var _closure1_slot1 = var5;
-    var _closure1_slot2 = var8;
+    var _closure1_slot2 = var9;
     var1 = global;
-    var9 = var1.Object;
-    var6 = var9.defineProperty;
+    var7 = var1.Object;
+    var6 = var7.defineProperty;
     var4 = {};
     var1 = true;
     var4['value'] = var1;
     var1 = '__esModule';
-    var1 = var6.bind(var9)(var3, var1, var4);
+    var1 = var6.bind(var7)(var3, var1, var4);
     var1 = 0;
-    var4 = var8[var1];
+    var4 = var9[var1];
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
     var _closure1_slot3 = var4;
     var4 = 1;
-    var4 = var8[var4];
+    var4 = var9[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot4 = var4;
     var4 = 2;
-    var4 = var8[var4];
+    var4 = var9[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot5 = var4;
     var4 = 3;
-    var4 = var8[var4];
+    var4 = var9[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot6 = var4;
     var4 = 4;
-    var4 = var8[var4];
+    var4 = var9[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot7 = var4;
     var4 = 5;
-    var4 = var8[var4];
+    var4 = var9[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot8 = var4;
     var4 = 6;
-    var4 = var8[var4];
+    var4 = var9[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot9 = var4;
     var4 = 7;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
     var4 = var4.TrackUserProfileProperties;
     var _closure1_slot10 = var4;
     var4 = 8;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
     var5 = var4.ActivityTypes;
     var _closure1_slot11 = var5;
     var4 = var4.AnalyticEvents;
     var _closure1_slot12 = var4;
     var4 = 9;
-    var4 = var8[var4];
-    var4 = var7.bind(var1)(var4);
+    var4 = var9[var4];
+    var4 = var8.bind(var1)(var4);
     var4 = var4.StatusTypes;
     var _closure1_slot13 = var4;
     var4 = function getProfileProperties(arg1) {
@@ -287,7 +287,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot15 = var4;
-    var5 = function getActivityType(arg1) {
+    var6 = function getActivityType(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var6 = arg1;
@@ -315,7 +315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot16 = var5;
+    var _closure1_slot16 = var6;
     var4 = function getTrackUserProfileProperties(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -480,7 +480,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot17 = var4;
-    var4 = function getTrackUserRelationshipProperties(arg1) {
+    var5 = function getTrackUserRelationshipProperties(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var1 = arg1;
@@ -533,16 +533,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot18 = var4;
-    var6 = 15;
-    var6 = var8[var6];
-    var8 = var7.bind(var1)(var6);
-    var7 = var8.fileFinishedImporting;
-    var6 = 'modules/user_profile/UserProfileAnalyticsUtils.tsx';
-    var6 = var7.bind(var8)(var6);
-    var3['getActivityType'] = var5;
-    var3['getTrackUserRelationshipProperties'] = var4;
-    var4 = function(arg1) {
+    var _closure1_slot18 = var5;
+    var4 = function trackUserProfileAction(arg1) {
         var12 = arg1;
         var19 = var12.guildId;
         var15 = var12.channelId;
@@ -596,6 +588,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
+    var _closure1_slot19 = var4;
+    var7 = 15;
+    var7 = var9[var7];
+    var9 = var8.bind(var1)(var7);
+    var8 = var9.fileFinishedImporting;
+    var7 = 'modules/user_profile/UserProfileAnalyticsUtils.tsx';
+    var7 = var8.bind(var9)(var7);
+    var3['getActivityType'] = var6;
+    var3['getTrackUserRelationshipProperties'] = var5;
     var3['trackUserProfileAction'] = var4;
     var4 = function(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
@@ -1024,7 +1025,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['trackUserProfileBadgeHovered'] = var4;
-    var2 = function(arg1) {
+    var4 = function(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
             var1 = arg1;
@@ -1145,6 +1146,68 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['trackDmProfileToggled'] = var2;
+    var3['trackDmProfileToggled'] = var4;
+    var2 = function(arg1) {
+        var13 = arg1;
+        var20 = var13.guildId;
+        var16 = var13.channelId;
+        var12 = var13.analyticsLocations;
+        var11 = var13.action;
+        var10 = var13.widgetEdited;
+        var9 = var13.gameId;
+        var8 = var13.numResults;
+        var7 = var13.numCharacters;
+        var3 = _closure1_slot19;
+        var2 = {};
+        var22 = var2;
+        var21 = var13;
+        var1 = copyDataProperties(var22, var21);
+        var1 = 'action';
+        var2[var1] = var11;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var3 = _closure1_slot1;
+        var17 = _closure1_slot2;
+        var2 = 12;
+        var2 = var17[var2];
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.track;
+        var2 = _closure1_slot12;
+        var3 = var2.USER_PROFILE_EDIT_ACTION;
+        var2 = {};
+        var15 = _closure1_slot0;
+        var14 = 13;
+        var18 = var17[var14];
+        var19 = var15.bind(var1)(var18);
+        var18 = var19.collectGuildAnalyticsMetadata;
+        var21 = var18.bind(var19)(var20);
+        var22 = var2;
+        var18 = copyDataProperties(var22, var21);
+        var14 = var17[var14];
+        var15 = var15.bind(var1)(var14);
+        var14 = var15.collectChannelAnalyticsMetadataFromId;
+        var21 = var14.bind(var15)(var16);
+        var22 = var2;
+        var14 = copyDataProperties(var22, var21);
+        var6 = _closure1_slot17;
+        var21 = var6.bind(var1)(var13);
+        var22 = var2;
+        var6 = copyDataProperties(var22, var21);
+        var6 = 'location_stack';
+        var2[var6] = var12;
+        var6 = 'edit_action';
+        var2[var6] = var11;
+        var6 = 'widget_edited';
+        var2[var6] = var10;
+        var6 = 'game_id';
+        var2[var6] = var9;
+        var6 = 'num_results';
+        var2[var6] = var8;
+        var6 = 'num_characters';
+        var2[var6] = var7;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var3['trackUserProfileEditAction'] = var2;
     return var1;
 })();

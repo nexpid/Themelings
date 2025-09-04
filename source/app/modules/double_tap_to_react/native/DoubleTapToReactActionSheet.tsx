@@ -112,8 +112,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var6[var10];
         var15 = var11.bind(var1)(var15);
         var15 = var15.spacing;
-        var15 = var15.PX_24;
-        var9['padding'] = var15;
+        var15 = var15.PX_4;
+        var9['paddingHorizontal'] = var15;
+        var15 = var6[var10];
+        var15 = var11.bind(var1)(var15);
+        var15 = var15.spacing;
+        var15 = var15.PX_12;
+        var9['paddingVertical'] = var15;
         var4['content'] = var9;
         var9 = {};
         var15 = 'row';
@@ -195,20 +200,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var16.isIOS;
         var16 = var14.bind(var16)();
         var14 = 16;
-        if(!var16) { _fun0001_ip = 858; continue _fun0001 }
- 855:
+        if(!var16) { _fun0001_ip = 883; continue _fun0001 }
+ 880:
         var14 = var15;
- 858:
+ 883:
         var9['fontSize'] = var14;
         var13 = var6[var13];
         var14 = var5.bind(var1)(var13);
         var13 = var14.isIOS;
         var14 = var13.bind(var14)();
         var13 = undefined;
-        if(!var14) { _fun0001_ip = 890; continue _fun0001 }
- 887:
+        if(!var14) { _fun0001_ip = 915; continue _fun0001 }
+ 912:
         var13 = 32;
- 890:
+ 915:
         var9['lineHeight'] = var13;
         var9['textAlign'] = var12;
         var4['toastEmojiText'] = var9;
@@ -593,7 +598,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var19[var9];
                 var9 = var15.bind(var4)(var9);
                 var10 = var9.Text;
-                var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-muted'};
+                var9 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-normal'};
                 var21 = var20.alignCenter;
                 var9['style'] = var21;
                 var21 = var19[var18];

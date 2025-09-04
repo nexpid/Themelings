@@ -4388,7 +4388,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var1['ZW'] = var7;
     var _closure1_slot3 = var1;
-    var1 = 3;
+    var1 = 5;
     var5 = var5[var1];
     var1 = undefined;
     var7 = var6.bind(var1)(var5);
@@ -4449,13 +4449,76 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getDefaultCountryCode'] = var4;
-    var2 = function getI18NCountryName(arg1) {
+    var4 = function getI18NCountryName(arg1) {
         var2 = _closure1_slot3;
         var1 = arg1;
         var1 = var2[var1];
         var1 = var1.bind(var2)();
         return var1;
     };
-    var3['getI18NCountryName'] = var2;
+    var3['getI18NCountryName'] = var4;
+    var2 = function convertToAlpha2(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+            var4 = arg1;
+            var2 = var4.length;
+            var1 = 2;
+            if(!(var1 !== var2)) { _fun0003_ip = 117; continue _fun0003 }
+ 15:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.CountryCodesISO3to2;
+            var1 = var1[var4];
+            var2 = null;
+            if(!(var2 != var1)) { _fun0003_ip = 58; continue _fun0003 }
+ 56:
+            return var1;
+ 58:
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var1.HermesInternal;
+            var5 = var1.concat;
+            var2 = 'Could not find ';
+            var1 = ' in CountryCodesISO3to2';
+            var7 = var5.bind(var2)(var4, var1);
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var8 = var2;
+            var1 = new var8[var3](var7, var6);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
+ 117:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            var1 = var1.CountryCodes;
+            var1 = var1[var4];
+            var2 = null;
+            if(!(var2 != var1)) { _fun0003_ip = 160; continue _fun0003 }
+ 158:
+            return var1;
+ 160:
+            var1 = global;
+            var3 = var1.Error;
+            var1 = var1.HermesInternal;
+            var2 = var1.concat;
+            var1 = 'Invalid country code alpha2 ';
+            var7 = var2.bind(var1)(var4);
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var8 = var2;
+            var1 = new var8[var3](var7, var6);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
+        }
+    };
+    var3['convertToAlpha2'] = var2;
     return var1;
 })();

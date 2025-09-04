@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/ads/utils/AdDataUtils.android.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function getAdUser() {
+    var4 = function getAdUser(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var3 = _closure1_slot4;
@@ -47,21 +47,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.isFetching;
             var3 = var3.hasFetchFailed;
             var5 = null;
-            if(!(var5 == var4)) { _fun0001_ip = 106; continue _fun0001 }
+            if(!(var5 == var4)) { _fun0001_ip = 110; continue _fun0001 }
  31:
-            if(var3) { _fun0001_ip = 106; continue _fun0001 }
+            if(var3) { _fun0001_ip = 110; continue _fun0001 }
  34:
-            if(var2) { _fun0001_ip = 69; continue _fun0001 }
+            if(var2) { _fun0001_ip = 73; continue _fun0001 }
  37:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
             var1 = 4;
             var2 = var2[var1];
             var1 = undefined;
-            var2 = var3.bind(var1)(var2);
-            var1 = var2.fetchAdUser;
-            var1 = var1.bind(var2)();
- 69:
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.fetchAdUser;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+ 73:
             var1 = global;
             var3 = var1.Promise;
             var1 = var3.prototype;
@@ -143,34 +144,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var2;
             var1 = new var7[var3](var6, var5);
             var1 = var1 instanceof Object ? var1 : var2;
-            _fun0001_ip = 125; continue _fun0001;
- 106:
+            _fun0001_ip = 129; continue _fun0001;
+ 110:
             var2 = global;
             var3 = var2.Promise;
             var2 = var3.resolve;
             var1 = var2.bind(var3)(var4);
- 125:
+ 129:
             return var1;
         }
     };
     var3['getAdUser'] = var4;
-    var2 = function useAdUser() {
+    var2 = function useAdUser(arg1) {
+        var6 = arg1;
+        var _closure2_slot0 = var6;
         var5 = _closure1_slot3;
         var4 = var5.useState;
         var3 = _closure1_slot4;
         var3 = var3.adUser;
-        var6 = var4.bind(var5)(var3);
+        var7 = var4.bind(var5)(var3);
         var4 = _closure1_slot2;
         var3 = undefined;
         var1 = 2;
-        var4 = var4.bind(var3)(var6, var1);
+        var4 = var4.bind(var3)(var7, var1);
         var1 = 0;
         var1 = var4[var1];
         var3 = 1;
         var3 = var4[var3];
-        var _closure2_slot0 = var3;
+        var _closure2_slot1 = var3;
         var4 = var5.useEffect;
-        var3 = function() {
+        var3 = new Array(1);
+        var3[0] = var6;
+        var2 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                 var4 = function handleStoreChange() {
@@ -187,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  32:
                         if(!var2) { _fun0005_ip = 59; continue _fun0005 }
  35:
-                        var3 = _closure2_slot0;
+                        var3 = _closure2_slot1;
                         var1 = _closure1_slot4;
                         var2 = var1.adUser;
                         var1 = undefined;
@@ -212,17 +217,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  51:
                 var3 = var5;
  54:
-                if(var3) { _fun0004_ip = 89; continue _fun0004 }
+                if(var3) { _fun0004_ip = 97; continue _fun0004 }
  57:
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot1;
                 var3 = 4;
                 var5 = var5[var3];
                 var3 = undefined;
-                var5 = var6.bind(var3)(var5);
-                var3 = var5.fetchAdUser;
-                var3 = var3.bind(var5)();
- 89:
+                var6 = var6.bind(var3)(var5);
+                var5 = var6.fetchAdUser;
+                var3 = _closure2_slot0;
+                var3 = var5.bind(var6)(var3);
+ 97:
                 var3 = _closure1_slot4;
                 var2 = var3.addChangeListener;
                 var2 = var2.bind(var3)(var4);
@@ -236,8 +242,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var2 = new Array(0);
-        var2 = var4.bind(var5)(var3, var2);
+        var2 = var4.bind(var5)(var2, var3);
         return var1;
     };
     var3['useAdUser'] = var2;

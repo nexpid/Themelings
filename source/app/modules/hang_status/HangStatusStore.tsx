@@ -648,7 +648,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure1_slot10 = var1;
             _closure1_slot11 = var1;
             _closure1_slot13 = var1;
-            if(!var3) { _fun0013_ip = 81; continue _fun0013 }
+            if(!var3) { _fun0013_ip = 85; continue _fun0013 }
  29:
             var4 = _closure1_slot14;
             var3 = {'status': null, 'customHangStatus': null, 'gameActivityHangStatus': null};
@@ -660,7 +660,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6 + var5;
             var3['expiresAt'] = var5;
             var4['currentDefaultStatus'] = var3;
- 81:
+ 85:
             _closure1_slot12 = var1;
             var1 = undefined;
             return var1;

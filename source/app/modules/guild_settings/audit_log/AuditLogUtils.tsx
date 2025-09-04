@@ -8985,27 +8985,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     _fun0045: for(var _fun0045_ip = 0; ; ) switch(_fun0045_ip) {
  0:
                                         var1 = arg1;
-                                        var _closure6_slot0 = var1;
-                                        var5 = _closure1_slot1;
-                                        var4 = _closure1_slot3;
-                                        var3 = 27;
-                                        var4 = var4[var3];
-                                        var3 = undefined;
-                                        var3 = var5.bind(var3)(var4);
-                                        var4 = var3.getMaxAgeOptions;
-                                        var3 = var4.find;
-                                        var2 = function(arg1) {
-                                            var1 = arg1;
-                                            var2 = var1.value;
-                                            var1 = _closure6_slot0;
-                                            var1 = var1 === var2;
-                                            return var1;
-                                        };
-                                        var2 = var3.bind(var4)(var2);
-                                        if(!var2) { _fun0045_ip = 65; continue _fun0045 }
- 60:
+                                        var4 = _closure1_slot1;
+                                        var3 = _closure1_slot3;
+                                        var2 = 27;
+                                        var3 = var3[var2];
+                                        var2 = undefined;
+                                        var3 = var4.bind(var2)(var3);
+                                        var2 = var3.getMaxAgeOptionByValue;
+                                        var2 = var2.bind(var3)(var1);
+                                        var3 = null;
+                                        if(!(var3 !== var2)) { _fun0045_ip = 50; continue _fun0045 }
+ 45:
                                         var1 = var2.label;
- 65:
+ 50:
                                         return var1;
                                     }
                                 };

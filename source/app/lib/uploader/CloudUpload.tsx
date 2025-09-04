@@ -891,38 +891,67 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var6 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0012_ip = 651; continue _fun0012 }
+                    if(var2) { _fun0012_ip = 808; continue _fun0012 }
  13:
                     var2 = var6.responseUrl;
-                    var9 = null;
-                    if(!(var9 != var2)) { _fun0012_ip = 615; continue _fun0012 }
+                    var8 = null;
+                    if(!(var8 != var2)) { _fun0012_ip = 772; continue _fun0012 }
  28:
-                    var5 = _closure1_slot16;
-                    var4 = var5.log;
-                    var8 = var6.id;
-                    var2 = global;
-                    var2 = var2.HermesInternal;
-                    var7 = var2.concat;
+                    var10 = _closure1_slot16;
+                    var5 = var10.log;
+                    var7 = var6.id;
+                    var11 = global;
+                    var2 = var11.HermesInternal;
+                    var4 = var2.concat;
                     var2 = 'Uploading ';
-                    var2 = var7.bind(var2)(var8);
-                    var2 = var4.bind(var5)(var2);
+                    var4 = var4.bind(var2)(var7);
+                    var2 = var6.item;
+                    var12 = var2.platform;
+                    var13 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var7 = 15;
+                    var2 = var2[var7];
+                    var9 = undefined;
+                    var2 = var13.bind(var9)(var2);
+                    var2 = var2.UploadPlatform;
+                    var2 = var2.REACT_NATIVE;
+                    if(!(var12 !== var2)) { _fun0012_ip = 159; continue _fun0012 }
+ 119:
+                    var2 = var6.item;
+                    var2 = var2.file;
+                    var13 = var2.name;
+                    var2 = var11.HermesInternal;
+                    var12 = var2.concat;
+                    var2 = 'filename=';
+                    var2 = var12.bind(var2)(var13);
+                    _fun0012_ip = 210; continue _fun0012;
+ 159:
+                    var12 = var6.item;
+                    var15 = var12.filename;
+                    var12 = var6.item;
+                    var14 = var12.uri;
+                    var11 = var11.HermesInternal;
+                    var13 = var11.concat;
+                    var12 = 'filename=';
+                    var11 = ', uri=';
+                    var2 = var13.bind(var12)(var15, var11, var14);
+ 210:
+                    var2 = var5.bind(var10)(var4, var2);
                     var2 = var6.item;
                     var4 = var2.platform;
                     var5 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var2 = 15;
-                    var2 = var7[var2];
-                    var8 = undefined;
-                    var2 = var5.bind(var8)(var2);
+                    var2 = _closure1_slot2;
+                    var2 = var2[var7];
+                    var2 = var5.bind(var9)(var2);
                     var2 = var2.UploadPlatform;
                     var2 = var2.REACT_NATIVE;
-                    if(!(var4 !== var2)) { _fun0012_ip = 143; continue _fun0012 }
- 124:
+                    if(!(var4 !== var2)) { _fun0012_ip = 279; continue _fun0012 }
+ 260:
                     var2 = var6.item;
                     var5 = var2.file;
                     var4 = 'application/octet-stream';
-                    _fun0012_ip = 237; continue _fun0012;
- 143:
+                    _fun0012_ip = 373; continue _fun0012;
+ 279:
                     var7 = {};
                     var2 = var6.item;
                     var2 = var2.mimeType;
@@ -934,127 +963,131 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.filename;
                     var7['name'] = var2;
                     var2 = var7.type;
-                    var9 = var9 != var2;
+                    var8 = var8 != var2;
                     var11 = 'application/octet-stream';
                     var2 = var11;
-                    if(!var9) { _fun0012_ip = 231; continue _fun0012 }
- 210:
+                    if(!var8) { _fun0012_ip = 367; continue _fun0012 }
+ 346:
                     var10 = var7.type;
-                    var9 = 'application/json';
+                    var8 = 'application/json';
                     var2 = var11;
-                    if(!(var9 !== var10)) { _fun0012_ip = 231; continue _fun0012 }
- 226:
+                    if(!(var8 !== var10)) { _fun0012_ip = 367; continue _fun0012 }
+ 362:
                     var2 = var7.type;
- 231:
+ 367:
                     var4 = var2;
                     var5 = var7;
- 237:
+ 373:
                     var7 = _closure1_slot0;
-                    var9 = _closure1_slot2;
+                    var8 = _closure1_slot2;
                     var2 = 19;
-                    var2 = var9[var2];
-                    var9 = var7.bind(var8)(var2);
-                    var7 = var9.getResumableAttachmentUploadsV2Config;
+                    var2 = var8[var2];
+                    var8 = var7.bind(var9)(var2);
+                    var7 = var8.getResumableAttachmentUploadsV2Config;
                     var2 = {};
                     var10 = 'CloudUpload';
                     var2['location'] = var10;
-                    var2 = var7.bind(var9)(var2);
+                    var2 = var7.bind(var8)(var2);
                     var7 = var2.enableNewRetry;
-                    if(var7) { _fun0012_ip = 470; continue _fun0012 }
- 290:
+                    if(var7) { _fun0012_ip = 606; continue _fun0012 }
+ 426:
                     var7 = {};
                     var7['Content-Type'] = var4;
-                    var9 = var6.contentHash;
-                    if(!(var8 !== var9)) { _fun0012_ip = 321; continue _fun0012 }
- 307:
-                    var9 = var6.contentHash;
-                    var7['Content-MD5'] = var9;
- 321:
+                    var8 = var6.contentHash;
+                    if(!(var9 !== var8)) { _fun0012_ip = 457; continue _fun0012 }
+ 443:
+                    var8 = var6.contentHash;
+                    var7['Content-MD5'] = var8;
+ 457:
                     var10 = {};
-                    var9 = var6.responseUrl;
-                    var10['url'] = var9;
+                    var8 = var6.responseUrl;
+                    var10['url'] = var8;
                     var10['body'] = var5;
                     var10['headers'] = var7;
                     var7 = var6._abortController;
                     var7 = var7.signal;
                     var10['signal'] = var7;
-                    var9 = _closure1_slot1;
+                    var8 = _closure1_slot1;
                     var11 = _closure1_slot2;
                     var7 = 20;
                     var7 = var11[var7];
-                    var13 = var9.bind(var8)(var7);
+                    var13 = var8.bind(var9)(var7);
                     var12 = var13.throttle;
-                    var9 = var6.createResumeAwareProgressFn;
+                    var8 = var6.createResumeAwareProgressFn;
                     var7 = 0;
-                    var9 = var9.bind(var6)(var7);
+                    var8 = var8.bind(var6)(var7);
                     var7 = 50;
-                    var7 = var12.bind(var13)(var9, var7);
+                    var7 = var12.bind(var13)(var8, var7);
                     var10['onRequestProgress'] = var7;
                     var7 = false;
                     var10['rejectWithError'] = var7;
                     var7 = var6.retryOpts;
-                    var15 = var7.bind(var6)();
-                    var16 = var10;
-                    var7 = copyDataProperties(var16, var15);
-                    var9 = _closure1_slot0;
+                    var17 = var7.bind(var6)();
+                    var18 = var10;
+                    var7 = copyDataProperties(var18, var17);
+                    var8 = _closure1_slot0;
                     var7 = 14;
                     var7 = var11[var7];
-                    var7 = var9.bind(var8)(var7);
-                    var9 = var7.HTTP;
-                    var7 = var9.put;
-                    var7 = var7.bind(var9)(var10);
+                    var7 = var8.bind(var9)(var7);
+                    var8 = var7.HTTP;
+                    var7 = var8.put;
+                    var7 = var7.bind(var8)(var10);
                     return var7;
- 470:
-                    var10 = _closure1_slot0;
+ 606:
+                    var8 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var9 = 16;
-                    var7 = var7[var9];
-                    var11 = var10.bind(var8)(var7);
-                    var10 = var11.canUploadNatively;
+                    var10 = 16;
+                    var7 = var7[var10];
+                    var11 = var8.bind(var9)(var7);
+                    var8 = var11.canUploadNatively;
                     var7 = var6.item;
-                    var7 = var10.bind(var11)(var7);
-                    if(!var7) { _fun0012_ip = 566; continue _fun0012 }
- 509:
-                    var7 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var3 = var3[var9];
+                    var7 = var8.bind(var11)(var7);
+                    if(!var7) { _fun0012_ip = 723; continue _fun0012 }
+ 645:
+                    var8 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var10];
+                    var7 = var8.bind(var9)(var7);
+                    var7 = var7.LibdiscoreHttpClient;
+                    var8 = var7.prototype;
+                    var8 = Object.create(var8, {constructor: {value: var7}});
+                    var19 = var8;
+                    var7 = new var19[var7](var18);
+                    var7 = var7 instanceof Object ? var7 : var8;
+                    var6['_uploadHttpClient'] = var7;
+                    var7 = true;
+                    var6['_libdiscoreEnabled'] = var7;
+                    var8 = _closure1_slot16;
+                    var7 = var8.log;
+                    var3 = 'Using libdiscore client for file upload';
                     var3 = var7.bind(var8)(var3);
-                    var3 = var3.LibdiscoreHttpClient;
-                    var7 = var3.prototype;
-                    var7 = Object.create(var7, {constructor: {value: var3}});
-                    var17 = var7;
-                    var3 = new var17[var3](var16);
-                    var3 = var3 instanceof Object ? var3 : var7;
-                    var6['_uploadHttpClient'] = var3;
-                    var3 = true;
-                    var6['_libdiscoreEnabled'] = var3;
- 566:
+ 723:
                     var2 = var2.enableResumption;
                     var6['_resumptionEnabled'] = var2;
                     var3 = var6.uploadFileWithResumption;
                     var2 = var6.responseUrl;
                     var2 = var3.bind(var6)(var2, var5, var4);
-                    SaveGenerator(address=603);
- 601:
+                    SaveGenerator(address=760);
+ 758:
                     return var2;
- 603:
+ 760:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0012_ip = 612; continue _fun0012 }
- 609:
+                    if(var3) { _fun0012_ip = 769; continue _fun0012 }
+ 766:
                     return var2;
- 612:
+ 769:
                     return var2;
- 615:
+ 772:
                     var2 = global;
                     var4 = var2.Error;
                     var2 = var4.prototype;
                     var3 = Object.create(var2, {constructor: {value: var4}});
-                    var16 = '_uploadFileToCloud - responseUrl is not set';
-                    var17 = var3;
-                    var2 = new var17[var4](var16, var15);
+                    var18 = '_uploadFileToCloud - responseUrl is not set';
+                    var19 = var3;
+                    var2 = new var19[var4](var18, var17);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
- 651:
+ 808:
                     return var1;
                 }
             };

@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 299; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 295; continue _fun0001 }
  10:
                     var6 = arg2;
                     var5 = arg3;
@@ -29,11 +29,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = null;
                     var7 = var2 == var3;
                     var3 = null;
-                    if(var7) { _fun0001_ip = 140; continue _fun0001 }
+                    if(var7) { _fun0001_ip = 136; continue _fun0001 }
  54:
                     var8 = 'cache';
                     var7 = arg1;
-                    if(!(var8 !== var7)) { _fun0001_ip = 102; continue _fun0001 }
+                    if(!(var8 !== var7)) { _fun0001_ip = 100; continue _fun0001 }
  65:
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot1;
@@ -42,8 +42,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.getConstants;
                     var7 = var7.bind(var8)();
                     var7 = var7.DocumentsDirPath;
-                    _fun0001_ip = 137; continue _fun0001;
- 102:
+                    _fun0001_ip = 133; continue _fun0001;
+ 100:
                     var10 = _closure1_slot0;
                     var8 = _closure1_slot1;
                     var8 = var8[var12];
@@ -51,12 +51,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var10.getConstants;
                     var8 = var8.bind(var10)();
                     var7 = var8.CacheDirPath;
- 137:
+ 133:
                     var3 = var7;
- 140:
+ 136:
                     var9 = var3;
-                    if(!(var2 != var3)) { _fun0001_ip = 296; continue _fun0001 }
- 150:
+                    if(!(var2 != var3)) { _fun0001_ip = 292; continue _fun0001 }
+ 146:
                     var7 = _closure1_slot0;
                     var3 = _closure1_slot1;
                     var3 = var3[var12];
@@ -68,17 +68,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var6;
                     var3 = var13 + var3;
                     var3 = var7.bind(var8)(var3);
-                    SaveGenerator(address=202);
- 200:
+                    SaveGenerator(address=198);
+ 196:
                     return var3;
- 202:
+ 198:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 293; continue _fun0001 }
- 208:
-                    if(var3) { _fun0001_ip = 214; continue _fun0001 }
- 211:
+                    if(var7) { _fun0001_ip = 289; continue _fun0001 }
+ 204:
+                    if(var3) { _fun0001_ip = 210; continue _fun0001 }
+ 207:
                     return var2;
- 214: // try_start_0
+ 210: // try_start_0
                     var8 = _closure1_slot0;
                     var7 = _closure1_slot1;
                     var7 = var7[var12];
@@ -87,28 +87,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var9 + var10;
                     var6 = var9 + var6;
                     var5 = var7.bind(var8)(var6, var5);
-                    SaveGenerator(address=255);
- 253:
+                    SaveGenerator(address=251);
+ 249:
                     return var5;
- 255:
+ 251:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(var6) { _fun0001_ip = 264; continue _fun0001 }
- 261: // try_end0
+                    if(var6) { _fun0001_ip = 260; continue _fun0001 }
+ 257: // try_end0
                     return var5;
- 264:
+ 260:
                     return var5;
- 267: // catch_target0
+ 263: // catch_target0
                     CatchBlockStart(arg_register=6);
                     var6 = _closure1_slot3;
                     var5 = var6.error;
                     var4 = 'Failed to read file from disk';
                     var4 = var5.bind(var6)(var4, var7);
                     return var2;
- 293:
+ 289:
                     return var3;
- 296:
+ 292:
                     return var2;
- 299:
+ 295:
                     return var1;
                 }
             };

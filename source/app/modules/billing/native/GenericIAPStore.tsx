@@ -198,71 +198,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function initGenericProducts(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-            var2 = arg1;
-            var2 = var2.products;
-            var3 = global;
-            var4 = var3.Set;
-            var5 = var4.prototype;
-            var5 = Object.create(var5, {constructor: {value: var4}});
-            var10 = var5;
-            var4 = new var10[var4](var9);
-            var6 = var4 instanceof Object ? var4 : var5;
-            var _closure2_slot0 = var6;
-            var3 = var3.Set;
-            var4 = var3.prototype;
-            var4 = Object.create(var4, {constructor: {value: var3}});
-            var10 = var4;
-            var3 = new var10[var3](var9);
-            var5 = var3 instanceof Object ? var3 : var4;
-            var _closure2_slot1 = var5;
-            var3 = var2.forEach;
-            var1 = function(arg1) {
-                var1 = arg1;
-                var5 = _closure2_slot1;
-                var4 = var5.add;
-                var3 = var1.countryCode;
-                var3 = var4.bind(var5)(var3);
-                var3 = _closure2_slot0;
-                var2 = var3.add;
-                var1 = var1.currencyCode;
-                var1 = var2.bind(var3)(var1);
-                var1 = undefined;
-                return var1;
-            };
-            var1 = var3.bind(var2)(var1);
-            var1 = var6.size;
-            var4 = 1;
-            var1 = var4 === var1;
-            if(!var1) { _fun0004_ip = 112; continue _fun0004 }
- 103:
-            var3 = var5.size;
-            var1 = var4 === var3;
- 112:
-            if(!var1) { _fun0004_ip = 178; continue _fun0004 }
- 115:
-            var3 = {};
-            var1 = new Array(0);
-            var4 = 0;
-            var9 = var1;
-            var8 = var6;
-            var7 = 0;
-            var6 = arraySpread(var9, var8, var7);
-            var1 = var1[var4];
-            var3['currency'] = var1;
-            var1 = new Array(0);
-            var9 = var1;
-            var8 = var5;
-            var5 = arraySpread(var9, var8, var7);
-            var1 = var1[var4];
-            var3['country'] = var1;
-            _closure1_slot9 = var3;
-            _closure1_slot7 = var2;
- 178:
-            var1 = undefined;
-            return var1;
-        }
+        var1 = arg1;
+        var3 = var1.products;
+        var2 = var1.storeFront;
+        _closure1_slot7 = var3;
+        _closure1_slot9 = var2;
+        var1 = undefined;
+        return var1;
     };
     var2['IAP_LOAD_GENERIC_PRODUCTS'] = var9;
     var9 = function genericIapInitConnection(arg1) {

@@ -50,13 +50,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.PREMIUM_TIER_2_REFERRAL_TRIAL_ID;
     var _closure1_slot10 = var4;
-    var4 = 24;
+    var4 = 21;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/messages/native/renderer/row_data/embeds/ReferralTrialEmbed.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function createReferralTrialEmbedRedeemable(arg1, arg2, arg3) {
+    var2 = function createReferralTrialEmbedRedeemable(arg1, arg2, arg3) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var4 = arg1;
@@ -200,9 +200,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var30.referrer_id;
  605:
             var1 = var9.bind(var14)(var1);
-            if(!(var29 != var11)) { _fun0001_ip = 2112; continue _fun0001 }
+            if(!(var29 != var11)) { _fun0001_ip = 2116; continue _fun0001 }
  617:
-            if(!(var29 != var1)) { _fun0001_ip = 2112; continue _fun0001 }
+            if(!(var29 != var1)) { _fun0001_ip = 2116; continue _fun0001 }
  624:
             var16 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -230,7 +230,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['senderUserName'] = var26;
             var9['recipientUserName'] = var24;
             var9 = var16.bind(var17)(var14, var9);
-            if(!(var29 != var30)) { _fun0001_ip = 1997; continue _fun0001 }
+            if(!(var29 != var30)) { _fun0001_ip = 2001; continue _fun0001 }
  758:
             var17 = _closure1_slot7;
             var16 = var17.getUserTrialOffer;
@@ -406,13 +406,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17['helpdeskArticle'] = var23;
             var17 = var21.bind(var22)(var18, var17);
             var18 = undefined;
-            _fun0001_ip = 1718; continue _fun0001;
+            _fun0001_ip = 1722; continue _fun0001;
  1329:
-            if(var19) { _fun0001_ip = 1657; continue _fun0001 }
+            if(var19) { _fun0001_ip = 1659; continue _fun0001 }
  1335:
-            if(!var12) { _fun0001_ip = 1400; continue _fun0001 }
+            if(!var12) { _fun0001_ip = 1402; continue _fun0001 }
  1338:
-            if(var20) { _fun0001_ip = 1400; continue _fun0001 }
+            if(var20) { _fun0001_ip = 1402; continue _fun0001 }
  1341:
             var25 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -426,14 +426,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var21.9SNdf3;
             var18 = var22.bind(var23)(var21);
             var17 = undefined;
-            _fun0001_ip = 1718; continue _fun0001;
- 1400:
-            if(var14) { _fun0001_ip = 1530; continue _fun0001 }
- 1406:
-            if(var20) { _fun0001_ip = 1530; continue _fun0001 }
- 1409:
-            if(var1) { _fun0001_ip = 1530; continue _fun0001 }
- 1412:
+            _fun0001_ip = 1722; continue _fun0001;
+ 1402:
+            if(var14) { _fun0001_ip = 1532; continue _fun0001 }
+ 1408:
+            if(var20) { _fun0001_ip = 1532; continue _fun0001 }
+ 1411:
+            if(var1) { _fun0001_ip = 1532; continue _fun0001 }
+ 1414:
             var21 = _closure1_slot0;
             var29 = _closure1_slot2;
             var20 = var29[var8];
@@ -459,8 +459,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25['url'] = var27;
             var20['helpdeskArticle'] = var25;
             var20 = var22.bind(var23)(var21, var20);
-            _fun0001_ip = 1650; continue _fun0001;
- 1530:
+            _fun0001_ip = 1652; continue _fun0001;
+ 1532:
             var22 = _closure1_slot0;
             var30 = _closure1_slot2;
             var21 = var30[var8];
@@ -487,11 +487,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21['helpdeskArticle'] = var27;
             var21['username'] = var26;
             var20 = var23.bind(var25)(var22, var21);
- 1650:
+ 1652:
             var17 = var20;
             var18 = undefined;
-            _fun0001_ip = 1718; continue _fun0001;
- 1657:
+            _fun0001_ip = 1722; continue _fun0001;
+ 1659:
             var21 = _closure1_slot0;
             var20 = _closure1_slot2;
             var22 = var20[var8];
@@ -506,20 +506,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20['username'] = var24;
             var18 = var22.bind(var23)(var21, var20);
             var17 = undefined;
- 1718:
+ 1722:
             var12 = !var12;
-            if(!var12) { _fun0001_ip = 1727; continue _fun0001 }
- 1724:
+            if(!var12) { _fun0001_ip = 1731; continue _fun0001 }
+ 1728:
             var12 = !var19;
- 1727:
-            if(!var12) { _fun0001_ip = 1733; continue _fun0001 }
- 1730:
+ 1731:
+            if(!var12) { _fun0001_ip = 1737; continue _fun0001 }
+ 1734:
             var12 = var14;
- 1733:
-            if(!var12) { _fun0001_ip = 1739; continue _fun0001 }
- 1736:
+ 1737:
+            if(!var12) { _fun0001_ip = 1743; continue _fun0001 }
+ 1740:
             var12 = !var1;
- 1739:
+ 1743:
             var14 = {};
             var35 = var14;
             var34 = var4;
@@ -541,8 +541,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = 'canBeAccepted';
             var14[var11] = var12;
             var1 = var14;
-            if(!var12) { _fun0001_ip = 1995; continue _fun0001 }
- 1836:
+            if(!var12) { _fun0001_ip = 1999; continue _fun0001 }
+ 1840:
             var5 = {};
             var35 = var5;
             var34 = var14;
@@ -578,9 +578,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 'acceptLabelIconUrl';
             var5[var10] = var11;
             var1 = var5;
- 1995:
+ 1999:
             return var1;
- 1997:
+ 2001:
             var1 = {};
             var35 = var1;
             var34 = var4;
@@ -608,7 +608,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 'canBeAccepted';
             var1[var5] = var6;
             return var1;
- 2112:
+ 2116:
             var1 = {};
             var35 = var1;
             var34 = var4;
@@ -634,209 +634,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['createReferralTrialEmbedRedeemable'] = var4;
-    var2 = function createReferralTrialEmbed(arg1, arg2) {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
-            var2 = arg1;
-            var7 = arg2;
-            var3 = var2.author;
-            var1 = null;
-            if(!(var1 != var3)) { _fun0002_ip = 173; continue _fun0002 }
- 21:
-            var3 = var2.referralTrialOfferId;
-            if(!(var1 != var3)) { _fun0002_ip = 173; continue _fun0002 }
- 34:
-            var4 = _closure1_slot1;
-            var5 = _closure1_slot2;
-            var3 = 21;
-            var3 = var5[var3];
-            var8 = undefined;
-            var3 = var4.bind(var8)(var3);
-            var3 = var3.bind(var8)(var7);
-            var3 = var3.colors;
-            var13 = var3.headerColor;
-            var14 = var3.titleColor;
-            var10 = var3.subtitleColor;
-            var5 = var3.borderColor;
-            var4 = var3.backgroundColor;
-            var12 = var3.thumbnailBackgroundColor;
-            var9 = _closure1_slot4;
-            var6 = var9.getChannel;
-            var3 = var2.getChannelId;
-            var3 = var3.bind(var2)();
-            var6 = var6.bind(var9)(var3);
-            var9 = var2.referralTrialOfferId;
-            var2 = var1 != var6;
-            if(!var2) { _fun0002_ip = 151; continue _fun0002 }
- 141:
-            var3 = var6.isDM;
-            var2 = var3.bind(var6)();
- 151:
-            var6 = _closure1_slot3;
-            var3 = var6.getRelevantUserTrialOffer;
-            var9 = var3.bind(var6)(var9);
-            if(!var2) { _fun0002_ip = 173; continue _fun0002 }
- 169:
-            if(!(var1 == var9)) { _fun0002_ip = 177; continue _fun0002 }
- 173:
-            var2 = undefined;
-            return var2;
- 177:
-            var6 = _closure1_slot5;
-            var3 = var6.getUser;
-            var2 = var9.user_id;
-            var21 = var3.bind(var6)(var2);
-            var3 = var6.getUser;
-            var2 = var9.referrer_id;
-            var22 = var3.bind(var6)(var2);
-            if(!(var1 != var21)) { _fun0002_ip = 818; continue _fun0002 }
- 222:
-            if(!(var1 != var22)) { _fun0002_ip = 818; continue _fun0002 }
- 229:
-            var3 = _closure1_slot1;
-            var11 = _closure1_slot2;
-            var2 = 16;
-            var2 = var11[var2];
-            var3 = var3.bind(var8)(var2);
-            var2 = var3.isPremium;
-            var6 = var2.bind(var3)(var21);
-            var3 = _closure1_slot0;
-            var2 = 17;
-            var2 = var11[var2];
-            var3 = var3.bind(var8)(var2);
-            var2 = var3.hasUserTrialOfferExpired;
-            var2 = var2.bind(var3)(var9);
-            var9 = _closure1_slot0;
-            var23 = _closure1_slot2;
-            var16 = 13;
-            var3 = var23[var16];
-            var3 = var9.bind(var8)(var3);
-            var18 = var3.intl;
-            if(var6) { _fun0002_ip = 418; continue _fun0002 }
- 315:
-            if(var2) { _fun0002_ip = 386; continue _fun0002 }
- 318:
-            var15 = var18.formatToPlainString;
-            var3 = var23[var16];
-            var3 = var9.bind(var8)(var3);
-            var3 = var3.t;
-            var11 = var3.1oPGmp;
-            var3 = {};
-            var20 = _closure1_slot1;
-            var19 = 15;
-            var19 = var23[var19];
-            var20 = var20.bind(var8)(var19);
-            var19 = var20.getName;
-            var19 = var19.bind(var20)(var21);
-            var3['username'] = var19;
-            var15 = var15.bind(var18)(var11, var3);
-            _fun0002_ip = 416; continue _fun0002;
- 386:
-            var11 = var18.string;
-            var3 = var23[var16];
-            var3 = var9.bind(var8)(var3);
-            var3 = var3.t;
-            var3 = var3.9SNdf3;
-            var15 = var11.bind(var18)(var3);
- 416:
-            _fun0002_ip = 482; continue _fun0002;
- 418:
-            var11 = var18.formatToPlainString;
-            var3 = var23[var16];
-            var3 = var9.bind(var8)(var3);
-            var3 = var3.t;
-            var9 = var3.Mptau7;
-            var3 = {};
-            var20 = _closure1_slot1;
-            var19 = 15;
-            var19 = var23[var19];
-            var20 = var20.bind(var8)(var19);
-            var19 = var20.getName;
-            var19 = var19.bind(var20)(var21);
-            var3['username'] = var19;
-            var15 = var11.bind(var18)(var9, var3);
- 482:
-            var3 = '';
-            var11 = var3;
-            if(var6) { _fun0002_ip = 552; continue _fun0002 }
- 492:
-            var11 = var3;
-            if(var2) { _fun0002_ip = 552; continue _fun0002 }
- 498:
-            var9 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var3 = var2[var16];
-            var3 = var9.bind(var8)(var3);
-            var6 = var3.intl;
-            var3 = var6.string;
-            var2 = var2[var16];
-            var2 = var9.bind(var8)(var2);
-            var2 = var2.t;
-            var2 = var2.SGbw2N;
-            var11 = var3.bind(var6)(var2);
- 552:
-            var2 = {};
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var3 = 11;
-            var18 = var9[var3];
-            var19 = var6.bind(var8)(var18);
-            var18 = var19.getAssetUriForEmbed;
-            var21 = _closure1_slot1;
-            var17 = 22;
-            var17 = var9[var17];
-            var17 = var21.bind(var8)(var17);
-            var17 = var18.bind(var19)(var17);
-            var2['thumbnailUrl'] = var17;
-            var17 = var9[var16];
-            var17 = var6.bind(var8)(var17);
-            var19 = var17.intl;
-            var18 = var19.formatToPlainString;
-            var16 = var9[var16];
-            var16 = var6.bind(var8)(var16);
-            var16 = var16.t;
-            var17 = var16.lieTqa;
-            var16 = {};
-            var20 = 15;
-            var20 = var9[var20];
-            var21 = var21.bind(var8)(var20);
-            var20 = var21.getName;
-            var20 = var20.bind(var21)(var22);
-            var16['username'] = var20;
-            var17 = var18.bind(var19)(var17, var16);
-            var16 = var17.toUpperCase;
-            var16 = var16.bind(var17)();
-            var2['headerText'] = var16;
-            var2['titleText'] = var15;
-            var2['titleColor'] = var14;
-            var2['headerColor'] = var13;
-            var2['thumbnailBackgroundColor'] = var12;
-            var2['subtitle'] = var11;
-            var2['subtitleColor'] = var10;
-            var2['borderColor'] = var5;
-            var2['backgroundColor'] = var4;
-            var4 = 3;
-            var2['thumbnailCornerRadius'] = var4;
-            var3 = var9[var3];
-            var5 = var6.bind(var8)(var3);
-            var4 = var5.getAssetUriForEmbed;
-            var3 = 23;
-            var3 = var9[var3];
-            var6 = var6.bind(var8)(var3);
-            var3 = var6.getPremiumEmbedBackgroundSource;
-            var3 = var3.bind(var6)(var7);
-            var3 = var4.bind(var5)(var3);
-            var2['splashUrl'] = var3;
-            var3 = true;
-            var2['splashHasRadialGradient'] = var3;
-            var3 = 0.8;
-            var2['splashOpacity'] = var3;
-            return var2;
- 818:
-            return var1;
-        }
-    };
-    var3['createReferralTrialEmbed'] = var2;
+    var3['createReferralTrialEmbedRedeemable'] = var2;
     return var1;
 })();

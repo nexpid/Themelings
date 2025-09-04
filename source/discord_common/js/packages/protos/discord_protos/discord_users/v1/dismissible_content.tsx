@@ -1470,10 +1470,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['THIRD_PARTY_OUTBOUND_PROMO_NAGBAR'] = var2;
     var1 = 'THIRD_PARTY_OUTBOUND_PROMO_NAGBAR';
     var4[var2] = var1;
-    var2 = 533;
-    var4['CUSTOM_STATUS_PROMPTS_COACHMARK'] = var2;
-    var1 = 'CUSTOM_STATUS_PROMPTS_COACHMARK';
-    var4[var2] = var1;
     var2 = 534;
     var4['GUILD_TAG_USER_PROFILE_NEW_BADGE'] = var2;
     var1 = 'GUILD_TAG_USER_PROFILE_NEW_BADGE';

@@ -297,12 +297,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.LinkIcon;
             return var2;
  762:
-            var2 = _closure1_slot0;
+            var2 = _closure1_slot1;
             var4 = _closure1_slot2;
             var1 = 7;
             var1 = var4[var1];
             var1 = var2.bind(var3)(var1);
-            var1 = var1.ChatArrowRightIcon;
             return var1;
         }
     };

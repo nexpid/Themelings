@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 10;
             var9 = var8[var9];
             var9 = var3.bind(var4)(var9);
-            var9 = var9.ArrowLargeRightIcon;
+            var9 = var9.ChatArrowRightIcon;
             var1['IconComponent'] = var9;
             var9 = function action() {
                 var2 = _closure2_slot1;
@@ -282,7 +282,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = 10;
             var13 = var9[var13];
             var13 = var8.bind(var4)(var13);
-            var13 = var13.ArrowLargeRightIcon;
+            var13 = var13.ChatArrowRightIcon;
             var2['IconComponent'] = var13;
             var13 = function action() {
                 var2 = _closure2_slot1;

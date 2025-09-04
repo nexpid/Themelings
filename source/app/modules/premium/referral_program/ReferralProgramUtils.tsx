@@ -242,21 +242,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var5)(var1);
             var3 = var4.useExperiment;
             var1 = {};
-            var10 = 'useIsReferralProgramPopoverShowable';
-            var1['location'] = var10;
+            var7 = 'useIsReferralProgramPopoverShowable';
+            var1['location'] = var7;
             var3 = var3.bind(var4)(var1);
             var7 = _closure1_slot0;
             var1 = 7;
             var1 = var9[var1];
             var8 = var7.bind(var5)(var1);
             var4 = var8.useIsEligibleSenderForReferralProgram;
-            var11 = var3.cohort;
+            var10 = var3.cohort;
             var1 = var9[var6];
             var1 = var7.bind(var5)(var1);
             var1 = var1.ReferralProgramPopoverExperimentCohort;
             var1 = var1.Control;
-            var1 = var11 === var1;
-            var1 = var4.bind(var8)(var10, var1);
+            var1 = var10 === var1;
+            var1 = var4.bind(var8)(var1);
             var4 = _closure1_slot4;
             var8 = var4.bind(var5)();
             var4 = 8;
@@ -273,23 +273,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var7 = var9.bind(var10)(var7, var4);
-            if(!var1) { _fun0003_ip = 166; continue _fun0003 }
- 160:
+            if(!var1) { _fun0003_ip = 165; continue _fun0003 }
+ 159:
             var4 = false;
             var1 = var4 === var8;
- 166:
-            if(!var1) { _fun0003_ip = 175; continue _fun0003 }
- 169:
+ 165:
+            if(!var1) { _fun0003_ip = 174; continue _fun0003 }
+ 168:
             var4 = null;
             var1 = var4 !== var7;
- 175:
-            if(!var1) { _fun0003_ip = 184; continue _fun0003 }
- 178:
+ 174:
+            if(!var1) { _fun0003_ip = 183; continue _fun0003 }
+ 177:
             var4 = 0;
             var1 = var7 > var4;
- 184:
-            if(!var1) { _fun0003_ip = 226; continue _fun0003 }
- 187:
+ 183:
+            if(!var1) { _fun0003_ip = 225; continue _fun0003 }
+ 186:
             var3 = var3.cohort;
             var4 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -298,7 +298,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ReferralProgramPopoverExperimentCohort;
             var2 = var2.Control;
             var1 = var3 !== var2;
- 226:
+ 225:
             return var1;
         }
     };

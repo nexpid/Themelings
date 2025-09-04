@@ -225,7 +225,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getAttachmentFile'] = var4;
-    var2 = function cancelGetAttachmentFile() {
+    var4 = function cancelGetAttachmentFile() {
         var1 = undefined;
         var4 = _closure1_slot6;
         var3 = var4.apply;
@@ -235,6 +235,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['cancelGetAttachmentFile'] = var2;
+    var3['cancelGetAttachmentFile'] = var4;
+    var2 = function fileIsInAppDir(arg1) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+            var4 = arg1;
+            var3 = var4;
+            var2 = var4.replace;
+            var1 = /^file:\\/\\//;
+            var5 = '';
+            var3 = var2.bind(var4)(var1, var5);
+ 35: // try_start_0
+            var8 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var7 = 4;
+            var4 = var4[var7];
+            var6 = undefined;
+            var8 = var8.bind(var6)(var4);
+            var4 = var8.getAppDir;
+            var4 = var4.bind(var8)();
+            var4 = var5 !== var4;
+            var1 = var4;
+            if(!var4) { _fun0003_ip = 121; continue _fun0003 }
+ 80:
+            var4 = var3;
+            var3 = var4.startsWith;
+            var5 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var7];
+            var5 = var5.bind(var6)(var2);
+            var2 = var5.getAppDir;
+            var2 = var2.bind(var5)();
+            var1 = var3.bind(var4)(var2);
+ 121: // try_end0
+            return var1;
+ 123: // catch_target0
+            CatchBlockStart(arg_register=3);
+            var3 = _closure1_slot4;
+            var2 = var3.error;
+            var1 = 'Failed to get app dir';
+            var1 = var2.bind(var3)(var1, var4);
+            var1 = false;
+            return var1;
+        }
+    };
+    var3['fileIsInAppDir'] = var2;
     return var1;
 })();

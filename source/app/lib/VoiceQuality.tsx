@@ -1161,12 +1161,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var4 = var2.mosCount;
                 var4 = var4 > var3;
-                if(!var4) { _fun0009_ip = 114; continue _fun0009 }
- 98:
+                if(!var4) { _fun0009_ip = 118; continue _fun0009 }
+ 102:
                 var5 = var2.mosSum;
                 var4 = var2.mosCount;
                 var3 = var5 / var4;
- 114:
+ 118:
                 var1['mos_mean'] = var3;
                 var4 = var2.mosBuckets;
                 var3 = 1;
@@ -2248,21 +2248,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var1 = arg2;
             var3 = null;
-            if(!(var3 == var1)) { _fun0020_ip = 26; continue _fun0020 }
+            if(!(var3 == var1)) { _fun0020_ip = 22; continue _fun0020 }
  12:
             var1 = {'accumulated': 0, 'lastValue': 0};
- 26:
+ 22:
             var4 = var1.accumulated;
             var3 = var1.lastValue;
             var1 = {};
-            if(!(!(var3 > var2))) { _fun0020_ip = 54; continue _fun0020 }
- 44:
+            if(!(!(var3 > var2))) { _fun0020_ip = 50; continue _fun0020 }
+ 40:
             var3 = var2 - var3;
             var3 = var4 + var3;
-            _fun0020_ip = 58; continue _fun0020;
- 54:
+            _fun0020_ip = 54; continue _fun0020;
+ 50:
             var3 = var4 + var2;
- 58:
+ 54:
             var1['accumulated'] = var3;
             var1['lastValue'] = var2;
             return var1;

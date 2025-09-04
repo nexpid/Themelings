@@ -193,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = 11;
             var20 = var16[var20];
             var20 = var21.bind(var4)(var20);
-            var20 = var20.LinkIcon;
+            var20 = var20.ChatArrowRightIcon;
             var18['IconComponent'] = var20;
             var18 = var3.bind(var4)(var19, var18);
             var8['icon'] = var18;

@@ -36,6 +36,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NSFW_SERVER_INVITE_EMBED'] = var2;
     var2 = 'NSFW Voice Channel';
     var4['NSFW_VOICE_CHANNEL'] = var2;
+    var2 = 'Large Guild';
+    var4['LARGE_GUILD'] = var2;
     var2 = 'Family Center';
     var4['FAMILY_CENTER'] = var2;
     var2 = 'Register';

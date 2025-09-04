@@ -550,7 +550,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = 28;
                     var7 = var6[var7];
                     var7 = var11.bind(var9)(var7);
-                    var7 = var7.LinkIcon;
+                    var7 = var7.ChatArrowRightIcon;
                     var2['IconComponent'] = var7;
                     var7 = var6[var10];
                     var7 = var11.bind(var9)(var7);

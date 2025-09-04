@@ -112,25 +112,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.bind(var10)(var4);
             var5 = 11;
             var5 = var9[var5];
-            var9 = var6.bind(var7)(var5);
-            var6 = var9.useIsEligibleSenderForReferralProgram;
-            var5 = var4;
-            if(var5) { _fun0001_ip = 105; continue _fun0001 }
+            var6 = var6.bind(var7)(var5);
+            var5 = var6.useIsEligibleSenderForReferralProgram;
+            if(var4) { _fun0001_ip = 102; continue _fun0001 }
+ 99:
+            var4 = var2;
  102:
-            var5 = var2;
- 105:
-            var4 = 'useReferralProgramCoachmark';
-            var6 = var6.bind(var9)(var4, var5);
+            var6 = var5.bind(var6)(var4);
             var5 = _closure1_slot0;
             var9 = _closure1_slot2;
             var4 = 12;
             var4 = var9[var4];
             var5 = var5.bind(var7)(var4);
             var4 = var5.useSelectedDismissibleContent;
-            if(!var6) { _fun0001_ip = 186; continue _fun0001 }
- 144:
-            if(var2) { _fun0001_ip = 186; continue _fun0001 }
- 147:
+            if(!var6) { _fun0001_ip = 178; continue _fun0001 }
+ 136:
+            if(var2) { _fun0001_ip = 178; continue _fun0001 }
+ 139:
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
@@ -139,10 +137,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var2.REFERRAL_TRIAL_MOBILE_SENDER_COACHMARK;
             var2 = new Array(1);
             var2[0] = var6;
-            _fun0001_ip = 190; continue _fun0001;
- 186:
+            _fun0001_ip = 182; continue _fun0001;
+ 178:
             var2 = new Array(0);
- 190:
+ 182:
             var5 = var4.bind(var5)(var2);
             var4 = _closure1_slot3;
             var2 = 2;
@@ -249,12 +247,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var3 = var4.bind(var5)(var1, var3);
             var1 = null;
-            if(!var2) { _fun0001_ip = 310; continue _fun0001 }
- 301:
+            if(!var2) { _fun0001_ip = 302; continue _fun0001 }
+ 293:
             var2 = {};
             var2['props'] = var3;
             var1 = var2;
- 310:
+ 302:
             return var1;
         }
     };
