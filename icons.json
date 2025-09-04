@@ -8838,16 +8838,6 @@
         "width": 270,
         "height": 134
     },
-    "img_premium_embed_background_darker": {
-        "file": "design/components/Illustration/native/redesign/generated/images/img_premium_embed_background_darker.png",
-        "hash": "4b788fe2fa791eaba90efe49b6973c8f",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 270,
-        "height": 134
-    },
     "img_premium_embed_background_light": {
         "file": "images/native/gifting/img_premium_embed_background_light.png",
         "hash": "415663ee17f9e1c2411c453e5e8ca806",
