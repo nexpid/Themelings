@@ -81,16 +81,6 @@
         "width": 14,
         "height": 14
     },
-    "age_gate": {
-        "file": "modules/age_gate/native/images/age_gate.png",
-        "hash": "ad7a61dd64de620143b365fb0819e1ec",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 121,
-        "height": 90
-    },
     "airplay": {
         "file": "modules/voice_panel/native/images/airplay.png",
         "hash": "2e77386663ba77387d021543bdafafef",
@@ -10822,6 +10812,16 @@
         "width": 327,
         "height": 285
     },
+    "OrbsIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/OrbsIcon.png",
+        "hash": "1d207f0b2416c202161667e6f7d5c74e",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "PaintbrushThinIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/PaintbrushThinIcon.png",
         "hash": "0f3ad63393d7c6270b44d74fab333a11",
@@ -12949,16 +12949,6 @@
         ],
         "width": 70,
         "height": 47
-    },
-    "underage_blocker": {
-        "file": "modules/age_gate/native/images/underage_blocker.png",
-        "hash": "d5d89232ce23eb53c15b1a0f477f22fd",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 251,
-        "height": 167
     },
     "UnknownGameIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/UnknownGameIcon.png",
