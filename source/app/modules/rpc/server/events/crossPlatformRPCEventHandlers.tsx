@@ -94,7 +94,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             throw var1;
         }
     };
-    var11 = function speakingEvents(arg1) {
+    var10 = function speakingEvents(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var1 = arg1;
@@ -192,17 +192,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 11;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var10 = var2.RPC_SCOPE_CONFIG;
-    var13 = var2.RPC_LOCAL_SCOPE;
     var16 = var2.RPC_AUTHENTICATED_SCOPE;
+    var14 = var2.RPC_LOCAL_SCOPE;
+    var11 = var2.RPC_SCOPE_CONFIG;
     var2 = 12;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
     var4 = var2.ApplicationFlags;
     var _closure1_slot15 = var4;
+    var4 = var2.RPCErrors;
+    var _closure1_slot16 = var4;
     var4 = var2.RPCEvents;
-    var2 = var2.RPCErrors;
-    var _closure1_slot16 = var2;
     var17 = function messageEventsValidation(arg1) {
         var5 = arg1;
         var3 = _closure1_slot1;
@@ -224,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         return var1;
     };
-    var14 = function speakingEventsValidation(arg1) {
+    var12 = function speakingEventsValidation(arg1) {
         var5 = arg1;
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
@@ -247,8 +247,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = {};
     var9 = var4.GUILD_STATUS;
     var7 = {};
-    var12 = 17;
-    var18 = var6[var12];
+    var13 = 17;
+    var18 = var6[var13];
     var18 = var5.bind(var1)(var18);
     var18 = var18.OAuth2Scopes;
     var18 = var18.RPC;
@@ -369,14 +369,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var4.VOICE_STATE_CREATE;
     var7 = {};
     var18 = {};
-    var20 = var10.ANY;
-    var19 = var6[var12];
+    var20 = var11.ANY;
+    var19 = var6[var13];
     var19 = var5.bind(var1)(var19);
     var19 = var19.OAuth2Scopes;
     var21 = var19.RPC;
     var19 = new Array(2);
     var19[0] = var21;
-    var21 = var6[var12];
+    var21 = var6[var13];
     var21 = var5.bind(var1)(var21);
     var21 = var21.OAuth2Scopes;
     var21 = var21.RPC_VOICE_READ;
@@ -516,14 +516,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var4.VOICE_STATE_DELETE;
     var7 = {};
     var18 = {};
-    var20 = var10.ANY;
-    var19 = var6[var12];
+    var20 = var11.ANY;
+    var19 = var6[var13];
     var19 = var5.bind(var1)(var19);
     var19 = var19.OAuth2Scopes;
     var21 = var19.RPC;
     var19 = new Array(2);
     var19[0] = var21;
-    var21 = var6[var12];
+    var21 = var6[var13];
     var21 = var5.bind(var1)(var21);
     var21 = var21.OAuth2Scopes;
     var21 = var21.RPC_VOICE_READ;
@@ -660,14 +660,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var4.VOICE_STATE_UPDATE;
     var7 = {};
     var18 = {};
-    var20 = var10.ANY;
-    var19 = var6[var12];
+    var20 = var11.ANY;
+    var19 = var6[var13];
     var19 = var5.bind(var1)(var19);
     var19 = var19.OAuth2Scopes;
     var21 = var19.RPC;
     var19 = new Array(2);
     var19[0] = var21;
-    var21 = var6[var12];
+    var21 = var6[var13];
     var21 = var5.bind(var1)(var21);
     var21 = var21.OAuth2Scopes;
     var21 = var21.RPC_VOICE_READ;
@@ -809,14 +809,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var4.VOICE_CONNECTION_STATUS;
     var7 = {};
     var18 = {};
-    var20 = var10.ANY;
-    var19 = var6[var12];
+    var20 = var11.ANY;
+    var19 = var6[var13];
     var19 = var5.bind(var1)(var19);
     var19 = var19.OAuth2Scopes;
     var21 = var19.RPC;
     var19 = new Array(2);
     var19[0] = var21;
-    var21 = var6[var12];
+    var21 = var6[var13];
     var21 = var5.bind(var1)(var21);
     var21 = var21.OAuth2Scopes;
     var21 = var21.RPC_VOICE_READ;
@@ -874,7 +874,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2[var9] = var7;
     var9 = var4.MESSAGE_CREATE;
     var7 = {};
-    var18 = var6[var12];
+    var18 = var6[var13];
     var18 = var5.bind(var1)(var18);
     var18 = var18.OAuth2Scopes;
     var18 = var18.RPC;
@@ -884,7 +884,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2[var9] = var7;
     var9 = var4.MESSAGE_UPDATE;
     var7 = {};
-    var18 = var6[var12];
+    var18 = var6[var13];
     var18 = var5.bind(var1)(var18);
     var18 = var18.OAuth2Scopes;
     var18 = var18.RPC;
@@ -894,7 +894,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2[var9] = var7;
     var9 = var4.MESSAGE_DELETE;
     var7 = {};
-    var18 = var6[var12];
+    var18 = var6[var13];
     var18 = var5.bind(var1)(var18);
     var18 = var18.OAuth2Scopes;
     var18 = var18.RPC;
@@ -905,204 +905,204 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var4.SPEAKING_START;
     var7 = {};
     var15 = {};
-    var18 = var10.ANY;
-    var17 = var6[var12];
+    var18 = var11.ANY;
+    var17 = var6[var13];
     var17 = var5.bind(var1)(var17);
     var17 = var17.OAuth2Scopes;
     var19 = var17.RPC;
     var17 = new Array(3);
     var17[0] = var19;
-    var19 = var6[var12];
+    var19 = var6[var13];
     var19 = var5.bind(var1)(var19);
     var19 = var19.OAuth2Scopes;
     var19 = var19.RPC_VOICE_READ;
     var17[1] = var19;
-    var17[2] = var13;
+    var17[2] = var14;
     var15[var18] = var17;
     var7['scope'] = var15;
-    var7['validation'] = var14;
-    var7['handler'] = var11;
+    var7['validation'] = var12;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.SPEAKING_STOP;
     var7 = {};
     var15 = {};
-    var18 = var10.ANY;
-    var17 = var6[var12];
+    var18 = var11.ANY;
+    var17 = var6[var13];
     var17 = var5.bind(var1)(var17);
     var17 = var17.OAuth2Scopes;
     var19 = var17.RPC;
     var17 = new Array(3);
     var17[0] = var19;
-    var19 = var6[var12];
+    var19 = var6[var13];
     var19 = var5.bind(var1)(var19);
     var19 = var19.OAuth2Scopes;
     var19 = var19.RPC_VOICE_READ;
     var17[1] = var19;
-    var17[2] = var13;
+    var17[2] = var14;
     var15[var18] = var17;
     var7['scope'] = var15;
-    var7['validation'] = var14;
-    var7['handler'] = var11;
+    var7['validation'] = var12;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.GUILD_CREATE;
     var7 = {};
-    var11 = var6[var12];
-    var11 = var5.bind(var1)(var11);
-    var11 = var11.OAuth2Scopes;
-    var11 = var11.RPC;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = var6[var13];
+    var10 = var5.bind(var1)(var10);
+    var10 = var10.OAuth2Scopes;
+    var10 = var10.RPC;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.CHANNEL_CREATE;
     var7 = {};
-    var11 = var6[var12];
-    var11 = var5.bind(var1)(var11);
-    var11 = var11.OAuth2Scopes;
-    var11 = var11.RPC;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = var6[var13];
+    var10 = var5.bind(var1)(var10);
+    var10 = var10.OAuth2Scopes;
+    var10 = var10.RPC;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.GAME_JOIN;
     var7 = {};
-    var11 = {};
-    var15 = var10.ANY;
-    var14 = var6[var12];
-    var14 = var5.bind(var1)(var14);
-    var14 = var14.OAuth2Scopes;
-    var17 = var14.RPC;
-    var14 = new Array(2);
-    var14[0] = var17;
-    var14[1] = var13;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = {};
+    var15 = var11.ANY;
+    var12 = var6[var13];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.OAuth2Scopes;
+    var17 = var12.RPC;
+    var12 = new Array(2);
+    var12[0] = var17;
+    var12[1] = var14;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.GAME_SPECTATE;
     var7 = {};
-    var11 = {};
-    var15 = var10.ANY;
-    var14 = var6[var12];
-    var14 = var5.bind(var1)(var14);
-    var14 = var14.OAuth2Scopes;
-    var17 = var14.RPC;
-    var14 = new Array(2);
-    var14[0] = var17;
-    var14[1] = var13;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = {};
+    var15 = var11.ANY;
+    var12 = var6[var13];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.OAuth2Scopes;
+    var17 = var12.RPC;
+    var12 = new Array(2);
+    var12[0] = var17;
+    var12[1] = var14;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.ACTIVITY_JOIN;
     var7 = {};
-    var11 = {};
-    var15 = var10.ANY;
-    var14 = var6[var12];
-    var14 = var5.bind(var1)(var14);
-    var14 = var14.OAuth2Scopes;
-    var17 = var14.RPC;
-    var14 = new Array(3);
-    var14[0] = var17;
-    var14[1] = var16;
-    var14[2] = var13;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = {};
+    var15 = var11.ANY;
+    var12 = var6[var13];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.OAuth2Scopes;
+    var17 = var12.RPC;
+    var12 = new Array(3);
+    var12[0] = var17;
+    var12[1] = var16;
+    var12[2] = var14;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.ACTIVITY_JOIN_REQUEST;
     var7 = {};
-    var11 = {};
-    var15 = var10.ANY;
-    var14 = var6[var12];
-    var14 = var5.bind(var1)(var14);
-    var14 = var14.OAuth2Scopes;
-    var17 = var14.RPC;
-    var14 = new Array(2);
-    var14[0] = var17;
-    var14[1] = var13;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = {};
+    var15 = var11.ANY;
+    var12 = var6[var13];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.OAuth2Scopes;
+    var17 = var12.RPC;
+    var12 = new Array(2);
+    var12[0] = var17;
+    var12[1] = var14;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.ACTIVITY_SPECTATE;
     var7 = {};
-    var11 = {};
-    var15 = var10.ANY;
-    var14 = var6[var12];
-    var14 = var5.bind(var1)(var14);
-    var14 = var14.OAuth2Scopes;
-    var17 = var14.RPC;
-    var14 = new Array(3);
-    var14[0] = var17;
-    var14[1] = var16;
-    var14[2] = var13;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = {};
+    var15 = var11.ANY;
+    var12 = var6[var13];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.OAuth2Scopes;
+    var17 = var12.RPC;
+    var12 = new Array(3);
+    var12[0] = var17;
+    var12[1] = var16;
+    var12[2] = var14;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.ACTIVITY_INVITE;
     var7 = {};
-    var11 = {};
-    var15 = var10.ANY;
-    var14 = var6[var12];
-    var14 = var5.bind(var1)(var14);
-    var14 = var14.OAuth2Scopes;
-    var17 = var14.RPC;
-    var14 = new Array(2);
-    var14[0] = var17;
-    var14[1] = var13;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = {};
+    var15 = var11.ANY;
+    var12 = var6[var13];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.OAuth2Scopes;
+    var17 = var12.RPC;
+    var12 = new Array(2);
+    var12[0] = var17;
+    var12[1] = var14;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.ACTIVITY_PIP_MODE_UPDATE;
     var7 = {};
     var7['scope'] = var1;
-    var11 = function handler() {
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.ACTIVITY_LAYOUT_MODE_UPDATE;
     var7 = {};
     var7['scope'] = var1;
-    var11 = function handler() {
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.ACTIVITY_INSTANCE_PARTICIPANTS_UPDATE;
     var7 = 19;
@@ -1112,76 +1112,76 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2[var9] = var7;
     var9 = var4.THERMAL_STATE_UPDATE;
     var7 = {};
-    var11 = {};
-    var15 = var10.ANY;
-    var14 = new Array(1);
-    var14[0] = var16;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = {};
+    var15 = var11.ANY;
+    var12 = new Array(1);
+    var12[0] = var16;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.ORIENTATION_UPDATE;
     var7 = {};
-    var11 = {};
-    var15 = var10.ANY;
-    var14 = new Array(1);
-    var14[0] = var16;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = {};
+    var15 = var11.ANY;
+    var12 = new Array(1);
+    var12[0] = var16;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.VOICE_CHANNEL_SELECT;
     var7 = {};
-    var11 = var6[var12];
-    var11 = var5.bind(var1)(var11);
-    var11 = var11.OAuth2Scopes;
-    var11 = var11.RPC;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = var6[var13];
+    var10 = var5.bind(var1)(var10);
+    var10 = var10.OAuth2Scopes;
+    var10 = var10.RPC;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.NOTIFICATION_CREATE;
     var7 = {};
-    var11 = {};
-    var15 = var10.ALL;
-    var14 = var6[var12];
-    var14 = var5.bind(var1)(var14);
-    var14 = var14.OAuth2Scopes;
-    var17 = var14.RPC;
-    var14 = new Array(2);
-    var14[0] = var17;
-    var17 = var6[var12];
+    var10 = {};
+    var15 = var11.ALL;
+    var12 = var6[var13];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.OAuth2Scopes;
+    var17 = var12.RPC;
+    var12 = new Array(2);
+    var12[0] = var17;
+    var17 = var6[var13];
     var17 = var5.bind(var1)(var17);
     var17 = var17.OAuth2Scopes;
     var17 = var17.RPC_NOTIFICATIONS_READ;
-    var14[1] = var17;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var12[1] = var17;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.RELATIONSHIP_UPDATE;
     var7 = {};
-    var11 = var6[var12];
-    var11 = var5.bind(var1)(var11);
-    var11 = var11.OAuth2Scopes;
-    var11 = var11.RELATIONSHIPS_READ;
-    var7['scope'] = var11;
-    var11 = function handler(arg1) {
+    var10 = var6[var13];
+    var10 = var5.bind(var1)(var10);
+    var10 = var10.OAuth2Scopes;
+    var10 = var10.RELATIONSHIPS_READ;
+    var7['scope'] = var10;
+    var10 = function handler(arg1) {
         _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
             var1 = arg1;
@@ -1238,22 +1238,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             throw var1;
         }
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.CURRENT_USER_UPDATE;
     var7 = {};
-    var11 = {};
-    var15 = var10.ANY;
-    var14 = new Array(2);
-    var14[0] = var13;
-    var17 = var6[var12];
+    var10 = {};
+    var15 = var11.ANY;
+    var12 = new Array(2);
+    var12[0] = var14;
+    var17 = var6[var13];
     var17 = var5.bind(var1)(var17);
     var17 = var17.OAuth2Scopes;
     var17 = var17.IDENTIFY;
-    var14[1] = var17;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var12[1] = var17;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = function(arg1) {
             _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
@@ -1300,26 +1300,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.CURRENT_GUILD_MEMBER_UPDATE;
     var7 = {};
-    var11 = {};
-    var15 = var10.ALL;
-    var14 = var6[var12];
-    var14 = var5.bind(var1)(var14);
-    var14 = var14.OAuth2Scopes;
-    var17 = var14.IDENTIFY;
-    var14 = new Array(2);
-    var14[0] = var17;
-    var17 = var6[var12];
+    var10 = {};
+    var15 = var11.ALL;
+    var12 = var6[var13];
+    var12 = var5.bind(var1)(var12);
+    var12 = var12.OAuth2Scopes;
+    var17 = var12.IDENTIFY;
+    var12 = new Array(2);
+    var12[0] = var17;
+    var17 = var6[var13];
     var17 = var5.bind(var1)(var17);
     var17 = var17.OAuth2Scopes;
     var17 = var17.GUILDS_MEMBERS_READ;
-    var14[1] = var17;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler(arg1) {
+    var12[1] = var17;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler(arg1) {
         var2 = arg1;
         var2 = var2.args;
         var2 = var2.guild_id;
@@ -1371,52 +1371,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.ENTITLEMENT_CREATE;
     var7 = {};
-    var11 = {};
-    var15 = var10.ANY;
-    var14 = new Array(2);
-    var14[0] = var13;
-    var14[1] = var16;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = {};
+    var15 = var11.ANY;
+    var12 = new Array(2);
+    var12[0] = var14;
+    var12[1] = var16;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.ENTITLEMENT_DELETE;
     var7 = {};
-    var11 = {};
-    var15 = var10.ANY;
-    var14 = new Array(2);
-    var14[0] = var13;
-    var14[1] = var16;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var10 = {};
+    var15 = var11.ANY;
+    var12 = new Array(2);
+    var12[0] = var14;
+    var12[1] = var16;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = undefined;
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
     var9 = var4.SCREENSHARE_STATE_UPDATE;
     var7 = {};
-    var11 = {};
-    var15 = var10.ALL;
-    var14 = new Array(2);
-    var14[0] = var13;
-    var16 = var6[var12];
+    var10 = {};
+    var15 = var11.ALL;
+    var12 = new Array(2);
+    var12[0] = var14;
+    var16 = var6[var13];
     var16 = var5.bind(var1)(var16);
     var16 = var16.OAuth2Scopes;
     var16 = var16.RPC_SCREENSHARE_READ;
-    var14[1] = var16;
-    var11[var15] = var14;
-    var7['scope'] = var11;
-    var11 = function handler() {
+    var12[1] = var16;
+    var10[var15] = var12;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = function(arg1) {
             _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
@@ -1520,22 +1520,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         return var1;
     };
-    var7['handler'] = var11;
+    var7['handler'] = var10;
     var2[var9] = var7;
-    var7 = var4.VIDEO_STATE_UPDATE;
-    var4 = {};
-    var9 = {};
-    var11 = var10.ALL;
-    var10 = new Array(2);
-    var10[0] = var13;
-    var12 = var6[var12];
-    var12 = var5.bind(var1)(var12);
-    var12 = var12.OAuth2Scopes;
-    var12 = var12.RPC_VIDEO_READ;
-    var10[1] = var12;
-    var9[var11] = var10;
-    var4['scope'] = var9;
-    var8 = function handler() {
+    var9 = var4.VIDEO_STATE_UPDATE;
+    var7 = {};
+    var10 = {};
+    var12 = var11.ALL;
+    var11 = new Array(2);
+    var11[0] = var14;
+    var13 = var6[var13];
+    var13 = var5.bind(var1)(var13);
+    var13 = var13.OAuth2Scopes;
+    var13 = var13.RPC_VIDEO_READ;
+    var11[1] = var13;
+    var10[var12] = var11;
+    var7['scope'] = var10;
+    var10 = function handler() {
         var1 = function(arg1) {
             _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:
@@ -1562,6 +1562,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
+        return var1;
+    };
+    var7['handler'] = var10;
+    var2[var9] = var7;
+    var7 = var4.AUTHORIZE_REQUEST;
+    var4 = {};
+    var4['scope'] = var1;
+    var8 = function handler() {
+        var1 = undefined;
         return var1;
     };
     var4['handler'] = var8;

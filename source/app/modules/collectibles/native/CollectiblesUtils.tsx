@@ -395,14 +395,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['getFormattedPriceForCollectiblesProduct'] = var6;
+    var6 = function(arg1, arg2, arg3) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+ 0:
+            var2 = arg2;
+            var3 = _closure1_slot3;
+            var4 = arg3;
+            if(var4) { _fun0007_ip = 35; continue _fun0007 }
+ 16:
+            if(var2) { _fun0007_ip = 27; continue _fun0007 }
+ 19:
+            var4 = var3.DEFAULT;
+            _fun0007_ip = 33; continue _fun0007;
+ 27:
+            var4 = var3.PREMIUM_TIER_2;
+ 33:
+            _fun0007_ip = 55; continue _fun0007;
+ 35:
+            if(var2) { _fun0007_ip = 46; continue _fun0007 }
+ 38:
+            var2 = var3.MOBILE;
+            _fun0007_ip = 52; continue _fun0007;
+ 46:
+            var2 = var3.MOBILE_PREMIUM_TIER_2;
+ 52:
+            var4 = var2;
+ 55:
+            var3 = _closure1_slot4;
+            var2 = undefined;
+            var1 = arg1;
+            var1 = var3.bind(var2)(var1, var4);
+            return var1;
+        }
+    };
+    var3['getPriceForCollectiblesProduct'] = var6;
     var3['extractPriceByPurchaseTypes'] = var5;
     var3['isGPlaySynced'] = var4;
     var4 = function(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var4 = arg1;
             var1 = null;
-            if(!(var1 != var4)) { _fun0007_ip = 92; continue _fun0007 }
+            if(!(var1 != var4)) { _fun0008_ip = 92; continue _fun0008 }
  9:
             var1 = new Array(0);
             var3 = _closure1_slot7;
@@ -412,12 +446,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var5)(var2);
             var3 = var4.bind(var5)();
             var2 = var3.done;
-            if(var2) { _fun0007_ip = 90; continue _fun0007 }
+            if(var2) { _fun0008_ip = 90; continue _fun0008 }
  48:
             var7 = var3.value;
             var2 = _closure1_slot6;
             var2 = var2.bind(var5)(var7);
-            if(!var2) { _fun0007_ip = 75; continue _fun0007 }
+            if(!var2) { _fun0008_ip = 75; continue _fun0008 }
  65:
             var2 = var1.push;
             var2 = var2.bind(var1)(var7);
@@ -425,7 +459,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.bind(var5)();
             var2 = var7.done;
             var3 = var7;
-            if(!var2) { _fun0007_ip = 48; continue _fun0007 }
+            if(!var2) { _fun0008_ip = 48; continue _fun0008 }
  90:
             return var1;
  92:
@@ -438,13 +472,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = arg1;
         var2 = var3.filter;
         var1 = function(arg1) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                 var2 = arg1;
                 var3 = var2.unpublishedAt;
                 var1 = null;
                 var1 = var1 == var3;
-                if(var1) { _fun0008_ip = 56; continue _fun0008 }
+                if(var1) { _fun0009_ip = 56; continue _fun0009 }
  18:
                 var4 = var2.unpublishedAt;
                 var3 = global;
@@ -460,7 +494,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var2.length;
                 var2 = 0;
                 var2 = var3 > var2;
-                if(!var1) { _fun0008_ip = 79; continue _fun0008 }
+                if(!var1) { _fun0009_ip = 79; continue _fun0009 }
  76:
                 var1 = var2;
  79:

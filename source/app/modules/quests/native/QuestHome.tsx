@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 14;
             var2 = var1[var2];
             var14 = var3.bind(var6)(var2);
-            var11 = var14.useVirtualCurrencyEnabled;
+            var11 = var14.useVirtualCurrencyMobileEnabled;
             var2 = {};
             var16 = 'quest_home';
             var2['location'] = var16;

@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 7;
             var1 = var10[var1];
             var3 = var9.bind(var4)(var1);
-            var2 = var3.useVirtualCurrencyEnabled;
+            var2 = var3.useVirtualCurrencyMobileEnabled;
             var1 = {};
             var5 = 'CollectiblesShopHeader';
             var1['location'] = var5;

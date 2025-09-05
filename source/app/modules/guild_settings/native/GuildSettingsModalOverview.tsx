@@ -1981,7 +1981,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.INVITE_SPLASH;
                 var2 = var2.bind(var3)(var1);
                 var1 = null;
-                if(!var2) { _fun0014_ip = 512; continue _fun0014 }
+                if(!var2) { _fun0014_ip = 508; continue _fun0014 }
  72:
                 var4 = _closure1_slot28;
                 var3 = _closure1_slot8;
@@ -2095,7 +2095,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6[3] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 512:
+ 508:
                 return var1;
             }
         };

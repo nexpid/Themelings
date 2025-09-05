@@ -47,39 +47,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function watchStream(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            var1 = arg1;
+            var2 = arg1;
             var7 = arg2;
-            var4 = _closure1_slot4;
-            var3 = var4.getRemoteSessionId;
-            var3 = var3.bind(var4)();
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot2;
+            var1 = 16;
+            var4 = var4[var1];
+            var1 = undefined;
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.getGoLiveDefaultMultiwatchExperimentConfig;
+            var4 = {};
+            var8 = 'StreamActionCreators.watchStream';
+            var4['location'] = var8;
+            var4 = var5.bind(var6)(var4);
+            var12 = var4.defaultWatchMultipleStreams;
+            var5 = _closure1_slot4;
+            var4 = var5.getRemoteSessionId;
+            var4 = var4.bind(var5)();
             var6 = null;
-            if(!(var6 == var3)) { _fun0002_ip = 269; continue _fun0002 }
- 32:
-            var3 = var1.guildId;
-            var10 = var1.channelId;
-            if(!(var6 != var3)) { _fun0002_ip = 64; continue _fun0002 }
- 46:
+            if(!(var6 == var4)) { _fun0002_ip = 325; continue _fun0002 }
+ 83:
+            var4 = var2.guildId;
+            var10 = var2.channelId;
+            if(!(var6 != var4)) { _fun0002_ip = 113; continue _fun0002 }
+ 97:
             var4 = _closure1_slot18;
-            var3 = undefined;
-            var3 = var4.bind(var3)(var3, var10);
-            if(var3) { _fun0002_ip = 269; continue _fun0002 }
- 64:
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var3 = 13;
-            var3 = var5[var3];
-            var5 = undefined;
-            var4 = var4.bind(var5)(var3);
-            var3 = var4.encodeStreamKey;
-            var4 = var3.bind(var4)(var1);
+            var4 = var4.bind(var1)(var1, var10);
+            if(var4) { _fun0002_ip = 325; continue _fun0002 }
+ 113:
+            var5 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var4 = 13;
+            var4 = var8[var4];
+            var5 = var5.bind(var1)(var4);
+            var4 = var5.encodeStreamKey;
+            var5 = var4.bind(var5)(var2);
             var8 = var6 == var7;
-            var3 = undefined;
-            if(var8) { _fun0002_ip = 112; continue _fun0002 }
- 106:
-            var3 = var7.forceMultiple;
- 112:
-            if(var3) { _fun0002_ip = 160; continue _fun0002 }
- 115:
+            var4 = undefined;
+            if(var8) { _fun0002_ip = 159; continue _fun0002 }
+ 153:
+            var4 = var7.forceMultiple;
+ 159:
+            if(var4) { _fun0002_ip = 207; continue _fun0002 }
+ 162:
             var9 = _closure1_slot7;
             var8 = var9.getAllActiveStreamsForChannel;
             var10 = var8.bind(var9)(var10);
@@ -96,41 +106,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.bind(var10)(var8);
             var9 = var8.length;
             var8 = _closure1_slot17;
-            var3 = var9 >= var8;
- 160:
+            var4 = var9 >= var8;
+ 207:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var8 = 12;
             var8 = var10[var8];
-            var10 = var9.bind(var5)(var8);
+            var10 = var9.bind(var1)(var8);
             var9 = var10.dispatch;
             var8 = {};
             var11 = 'STREAM_WATCH';
             var8['type'] = var11;
-            var8['streamKey'] = var4;
-            var8['allowMultiple'] = var3;
+            var8['streamKey'] = var5;
+            var11 = var4;
+            if(var4) { _fun0002_ip = 256; continue _fun0002 }
+ 253:
+            var11 = var12;
+ 256:
+            var8['allowMultiple'] = var11;
             var8 = var9.bind(var10)(var8);
-            if(var3) { _fun0002_ip = 229; continue _fun0002 }
- 213:
-            var6 = var6 != var7;
-            if(!var6) { _fun0002_ip = 226; continue _fun0002 }
- 220:
-            var6 = var7.noFocus;
- 226:
-            var3 = var6;
- 229:
-            if(var3) { _fun0002_ip = 269; continue _fun0002 }
- 232:
-            var3 = _closure1_slot1;
-            var6 = _closure1_slot2;
-            var2 = 16;
-            var2 = var6[var2];
-            var3 = var3.bind(var5)(var2);
-            var2 = var3.selectParticipant;
-            var1 = var1.channelId;
-            var1 = var2.bind(var3)(var1, var4);
+            if(var4) { _fun0002_ip = 285; continue _fun0002 }
  269:
-            var1 = undefined;
+            var6 = var6 != var7;
+            if(!var6) { _fun0002_ip = 282; continue _fun0002 }
+ 276:
+            var6 = var7.noFocus;
+ 282:
+            var4 = var6;
+ 285:
+            if(var4) { _fun0002_ip = 325; continue _fun0002 }
+ 288:
+            var4 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var3 = 17;
+            var3 = var6[var3];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.selectParticipant;
+            var2 = var2.channelId;
+            var2 = var3.bind(var4)(var2, var5);
+ 325:
             return var1;
         }
     };
@@ -169,7 +183,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  106:
             var4 = _closure1_slot1;
             var5 = _closure1_slot2;
-            var1 = 17;
+            var1 = 18;
             var1 = var5[var1];
             var1 = var4.bind(var2)(var1);
             var1 = var1.bind(var2)(var3);
@@ -307,7 +321,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  192: // try_start_0
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var8 = 18;
+                    var8 = 19;
                     var8 = var10[var8];
                     var8 = var9.bind(var2)(var8);
                     var10 = var8.HTTP;
@@ -366,7 +380,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var4.retry_after;
                     var9 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var4 = 19;
+                    var4 = 20;
                     var4 = var10[var4];
                     var4 = var9.bind(var2)(var4);
                     var4 = var4.Millis;
@@ -418,7 +432,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  13: // try_start_0
                     var3 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var2 = 20;
+                    var2 = 21;
                     var2 = var10[var2];
                     var9 = undefined;
                     var4 = var3.bind(var9)(var2);
@@ -432,7 +446,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['oldFormErrors'] = var5;
                     var6 = {};
                     var8 = _closure1_slot0;
-                    var7 = 21;
+                    var7 = 22;
                     var7 = var10[var7];
                     var7 = var8.bind(var9)(var7);
                     var7 = var7.NetworkActionNames;
@@ -490,7 +504,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  19: // try_start_0
                     var3 = _closure1_slot1;
                     var10 = _closure1_slot2;
-                    var2 = 20;
+                    var2 = 21;
                     var2 = var10[var2];
                     var9 = undefined;
                     var4 = var3.bind(var9)(var2);
@@ -508,7 +522,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['oldFormErrors'] = var5;
                     var6 = {};
                     var8 = _closure1_slot0;
-                    var7 = 21;
+                    var7 = 22;
                     var7 = var10[var7];
                     var7 = var8.bind(var9)(var7);
                     var7 = var7.NetworkActionNames;
@@ -614,7 +628,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var8.Number;
     var8 = var8.MAX_VALUE;
     var _closure1_slot17 = var8;
-    var8 = 26;
+    var8 = 27;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;
@@ -778,7 +792,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = arg1;
         var6 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var1 = 22;
+        var1 = 23;
         var3 = var4[var1];
         var1 = undefined;
         var9 = var6.bind(var1)(var3);
@@ -805,7 +819,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function changeStreamRegion(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 18;
+        var1 = 19;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
@@ -888,7 +902,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  96:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var4 = 23;
+            var4 = 24;
             var4 = var8[var4];
             var7 = var7.bind(var1)(var4);
             var4 = var7.disconnect;
@@ -896,14 +910,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  126:
             var4 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var3 = 24;
+            var3 = 25;
             var3 = var7[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.addRecipient;
             var9 = function() {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
-                var1 = 25;
+                var1 = 26;
                 var2 = var2[var1];
                 var1 = undefined;
                 var7 = var3.bind(var1)(var2);

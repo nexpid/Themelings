@@ -117,6 +117,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['useVirtualCurrencyEnabled'] = var2;
+    var3['useVirtualCurrencyMobileEnabled'] = var2;
     return var1;
 })();

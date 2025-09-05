@@ -31,20 +31,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 3;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var2 = var2.EmojiIntention;
+    var2 = var2.AnalyticEvents;
     var _closure1_slot4 = var2;
     var2 = 4;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
-    var2 = var2.jsx;
+    var2 = var2.EmojiIntention;
     var _closure1_slot5 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
+    var2 = var2.jsx;
+    var _closure1_slot6 = var2;
     var2 = {};
     var8 = var8.PRESSABLE;
     var2['type'] = var8;
     var8 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 11;
+        var1 = 14;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -65,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var1 = 5;
+            var1 = 6;
             var1 = var6[var1];
             var5 = undefined;
             var8 = var3.bind(var5)(var1);
@@ -94,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var4 = var7.bind(var8)(var4, var1);
-            var1 = 6;
+            var1 = 7;
             var1 = var6[var1];
             var3 = var3.bind(var5)(var1);
             var1 = var3.disambiguatedEmojiFromProtoValue;
@@ -109,7 +114,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  104:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var3 = 7;
+            var3 = 8;
             var3 = var8[var3];
             var8 = var4.bind(var5)(var3);
             var4 = var8.getEmojiURL;
@@ -118,10 +123,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['id'] = var9;
             var6 = var4.bind(var8)(var3);
  160:
-            var4 = _closure1_slot5;
+            var4 = _closure1_slot6;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
-            var2 = 8;
+            var2 = 9;
             var2 = var8[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
@@ -148,30 +153,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function onPressSetting() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 9;
+        var1 = 10;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.openEmojiPickerActionSheet;
         var2 = {};
-        var5 = _closure1_slot4;
+        var5 = _closure1_slot5;
         var5 = var5.DEFAULT_REACT_EMOJI;
         var2['pickerIntention'] = var5;
         var5 = function onPressEmoji(arg1) {
             var5 = arg1;
-            var3 = _closure1_slot0;
-            var2 = _closure1_slot2;
-            var1 = 10;
-            var2 = var2[var1];
+            var10 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = 11;
+            var3 = var4[var1];
             var1 = undefined;
+            var8 = var10.bind(var1)(var3);
+            var7 = var8.track;
+            var3 = _closure1_slot4;
+            var6 = var3.DOUBLE_TAP_REACT_EMOJI_UPDATED;
+            var3 = {};
+            var9 = var5.id;
+            var3['emoji_id'] = var9;
+            var9 = var5.name;
+            var3['emoji_name'] = var9;
+            var9 = var5.animated;
+            var3['emoji_animated'] = var9;
+            var9 = false;
+            var3['recommended'] = var9;
+            var9 = 12;
+            var9 = var4[var9];
+            var9 = var10.bind(var1)(var9);
+            var9 = var9.USER_SETTINGS;
+            var3['location'] = var9;
+            var3 = var7.bind(var8)(var6, var3);
+            var3 = _closure1_slot0;
+            var2 = 13;
+            var2 = var4[var2];
             var2 = var3.bind(var1)(var2);
             var4 = var2.DoubleTapReactionEmoji;
             var3 = var4.updateSetting;
             var2 = {};
             var6 = var5.id;
             var2['emojiId'] = var6;
-            var5 = var5.name;
-            var2['emojiName'] = var5;
+            var6 = var5.name;
+            var2['emojiName'] = var6;
+            var5 = var5.animated;
+            var2['animated'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
         };
@@ -188,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var2 = 5;
+            var2 = 6;
             var3 = var5[var2];
             var2 = undefined;
             var7 = var4.bind(var2)(var3);
@@ -217,7 +246,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var3 = var6.bind(var7)(var3, var1);
-            var1 = 6;
+            var1 = 7;
             var1 = var5[var1];
             var2 = var4.bind(var2)(var1);
             var1 = var2.disambiguatedEmojiFromProtoValue;
@@ -237,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var2['useDescription'] = var4;
-    var4 = 12;
+    var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

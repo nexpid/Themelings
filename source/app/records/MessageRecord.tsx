@@ -322,273 +322,267 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = function MessageRecord(arg1) {
             _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                var2 = arg1;
+                var3 = arg1;
                 var7 = this;
                 var1 = _closure1_slot3;
                 var6 = _closure2_slot0;
-                var4 = undefined;
-                var1 = var1.bind(var4)(var7, var6);
-                var3 = _closure1_slot12;
+                var2 = undefined;
+                var1 = var1.bind(var2)(var7, var6);
+                var4 = _closure1_slot12;
                 var1 = new Array(1);
-                var1[0] = var2;
-                var1 = var3.bind(var4)(var7, var6, var1);
-                var3 = var2.id;
-                var1['id'] = var3;
-                var3 = var2.channel_id;
-                var1['channel_id'] = var3;
-                var3 = var2.author;
-                var1['author'] = var3;
-                var3 = var2.customRenderedContent;
-                var1['customRenderedContent'] = var3;
-                var3 = var2.mentions;
-                if(var3) { _fun0005_ip = 106; continue _fun0005 }
+                var1[0] = var3;
+                var1 = var4.bind(var2)(var7, var6, var1);
+                var4 = var3.id;
+                var1['id'] = var4;
+                var4 = var3.channel_id;
+                var1['channel_id'] = var4;
+                var4 = var3.author;
+                var1['author'] = var4;
+                var4 = var3.customRenderedContent;
+                var1['customRenderedContent'] = var4;
+                var4 = var3.mentions;
+                if(var4) { _fun0005_ip = 106; continue _fun0005 }
  102:
-                var3 = new Array(0);
+                var4 = new Array(0);
  106:
-                var1['mentions'] = var3;
-                var3 = var2.mentionRoles;
-                if(var3) { _fun0005_ip = 125; continue _fun0005 }
+                var1['mentions'] = var4;
+                var4 = var3.mentionRoles;
+                if(var4) { _fun0005_ip = 125; continue _fun0005 }
  121:
-                var3 = new Array(0);
+                var4 = new Array(0);
  125:
-                var1['mentionRoles'] = var3;
-                var3 = var2.mentionChannels;
-                if(var3) { _fun0005_ip = 144; continue _fun0005 }
+                var1['mentionRoles'] = var4;
+                var4 = var3.mentionChannels;
+                if(var4) { _fun0005_ip = 144; continue _fun0005 }
  140:
-                var3 = new Array(0);
+                var4 = new Array(0);
  144:
-                var1['mentionChannels'] = var3;
-                var3 = var2.mentionGames;
-                if(var3) { _fun0005_ip = 163; continue _fun0005 }
+                var1['mentionChannels'] = var4;
+                var4 = var3.mentionGames;
+                if(var4) { _fun0005_ip = 163; continue _fun0005 }
  159:
-                var3 = new Array(0);
+                var4 = new Array(0);
  163:
-                var1['mentionGames'] = var3;
-                var3 = var2.mentioned;
-                if(var3) { _fun0005_ip = 180; continue _fun0005 }
+                var1['mentionGames'] = var4;
+                var4 = var3.mentioned;
+                if(var4) { _fun0005_ip = 180; continue _fun0005 }
  178:
-                var3 = false;
+                var4 = false;
  180:
-                var1['mentioned'] = var3;
-                var3 = var2.pinned;
-                if(var3) { _fun0005_ip = 197; continue _fun0005 }
+                var1['mentioned'] = var4;
+                var4 = var3.pinned;
+                if(var4) { _fun0005_ip = 197; continue _fun0005 }
  195:
-                var3 = false;
+                var4 = false;
  197:
-                var1['pinned'] = var3;
-                var3 = var2.mentionEveryone;
-                if(var3) { _fun0005_ip = 214; continue _fun0005 }
+                var1['pinned'] = var4;
+                var4 = var3.mentionEveryone;
+                if(var4) { _fun0005_ip = 214; continue _fun0005 }
  212:
-                var3 = false;
+                var4 = false;
  214:
-                var1['mentionEveryone'] = var3;
-                var3 = var2.tts;
-                if(var3) { _fun0005_ip = 231; continue _fun0005 }
+                var1['mentionEveryone'] = var4;
+                var4 = var3.tts;
+                if(var4) { _fun0005_ip = 231; continue _fun0005 }
  229:
-                var3 = false;
+                var4 = false;
  231:
-                var1['tts'] = var3;
-                var3 = var2.giftCodes;
-                if(var3) { _fun0005_ip = 250; continue _fun0005 }
+                var1['tts'] = var4;
+                var4 = var3.giftCodes;
+                if(var4) { _fun0005_ip = 250; continue _fun0005 }
  246:
-                var3 = new Array(0);
+                var4 = new Array(0);
  250:
-                var1['giftCodes'] = var3;
-                var3 = var2.state;
-                if(var3) { _fun0005_ip = 274; continue _fun0005 }
+                var1['giftCodes'] = var4;
+                var4 = var3.state;
+                if(var4) { _fun0005_ip = 274; continue _fun0005 }
  264:
                 var5 = _closure1_slot9;
-                var3 = var5.SENT;
+                var4 = var5.SENT;
  274:
-                var1['state'] = var3;
-                var5 = var2.nonce;
-                var3 = null;
-                var6 = var3 != var5;
-                var4 = undefined;
+                var1['state'] = var4;
+                var5 = var3.nonce;
+                var4 = null;
+                var6 = var4 != var5;
+                var2 = undefined;
                 if(!var6) { _fun0005_ip = 300; continue _fun0005 }
  297:
-                var4 = var5;
+                var2 = var5;
  300:
-                var1['nonce'] = var4;
-                var4 = var2.blocked;
-                if(var4) { _fun0005_ip = 317; continue _fun0005 }
+                var1['nonce'] = var2;
+                var2 = var3.blocked;
+                if(var2) { _fun0005_ip = 317; continue _fun0005 }
  315:
-                var4 = false;
+                var2 = false;
  317:
-                var1['blocked'] = var4;
-                var4 = var2.ignored;
-                if(var4) { _fun0005_ip = 334; continue _fun0005 }
+                var1['blocked'] = var2;
+                var2 = var3.ignored;
+                if(var2) { _fun0005_ip = 334; continue _fun0005 }
  332:
-                var4 = false;
+                var2 = false;
  334:
-                var1['ignored'] = var4;
-                var4 = var2.call;
-                if(var4) { _fun0005_ip = 350; continue _fun0005 }
+                var1['ignored'] = var2;
+                var2 = var3.call;
+                if(var2) { _fun0005_ip = 350; continue _fun0005 }
  348:
-                var4 = null;
- 350:
-                var1['call'] = var4;
-                var4 = var2.bot;
-                if(var4) { _fun0005_ip = 367; continue _fun0005 }
- 365:
-                var4 = false;
- 367:
-                var1['bot'] = var4;
-                var4 = var2.webhookId;
-                if(var4) { _fun0005_ip = 384; continue _fun0005 }
- 382:
-                var4 = null;
- 384:
-                var1['webhookId'] = var4;
-                var4 = var2.reactions;
-                if(var4) { _fun0005_ip = 403; continue _fun0005 }
- 399:
-                var4 = new Array(0);
- 403:
-                var1['reactions'] = var4;
-                var4 = var2.application_id;
-                if(var4) { _fun0005_ip = 423; continue _fun0005 }
- 418:
-                var4 = var2.applicationId;
- 423:
-                if(var4) { _fun0005_ip = 428; continue _fun0005 }
- 426:
-                var4 = null;
- 428:
-                var1['applicationId'] = var4;
-                var4 = var2.application;
-                if(var4) { _fun0005_ip = 444; continue _fun0005 }
- 442:
-                var4 = null;
- 444:
-                var1['application'] = var4;
-                var4 = var2.activity;
-                if(var4) { _fun0005_ip = 461; continue _fun0005 }
- 459:
-                var4 = null;
- 461:
-                var1['activity'] = var4;
-                var4 = var2.activity_instance;
-                if(var4) { _fun0005_ip = 482; continue _fun0005 }
- 476:
-                var4 = var2.activityInstance;
- 482:
-                if(var4) { _fun0005_ip = 487; continue _fun0005 }
- 485:
-                var4 = null;
- 487:
-                var1['activityInstance'] = var4;
-                var4 = var2.messageReference;
-                if(var4) { _fun0005_ip = 504; continue _fun0005 }
- 502:
-                var4 = null;
- 504:
-                var1['messageReference'] = var4;
-                var4 = var2.hit;
-                if(var4) { _fun0005_ip = 527; continue _fun0005 }
- 521:
-                var4 = var2.isSearchHit;
- 527:
-                if(var4) { _fun0005_ip = 532; continue _fun0005 }
- 530:
-                var4 = false;
- 532:
-                var1['isSearchHit'] = var4;
-                var4 = var2.loggingName;
-                if(var4) { _fun0005_ip = 549; continue _fun0005 }
- 547:
-                var4 = null;
- 549:
-                var1['loggingName'] = var4;
-                var4 = var2.colorString;
-                var1['colorString'] = var4;
-                var4 = var2.nick;
-                var1['nick'] = var4;
-                var4 = var2.interaction;
-                if(var4) { _fun0005_ip = 590; continue _fun0005 }
- 588:
-                var4 = null;
- 590:
-                var1['interaction'] = var4;
-                var4 = var2.interactionData;
-                if(var4) { _fun0005_ip = 607; continue _fun0005 }
- 605:
-                var4 = null;
- 607:
-                var1['interactionData'] = var4;
-                var4 = var2.interactionMetadata;
-                if(var4) { _fun0005_ip = 624; continue _fun0005 }
- 622:
-                var4 = null;
- 624:
-                var1['interactionMetadata'] = var4;
-                var4 = var2.interactionError;
-                if(var4) { _fun0005_ip = 641; continue _fun0005 }
- 639:
-                var4 = null;
- 641:
-                var1['interactionError'] = var4;
-                var4 = var2.roleSubscriptionData;
-                var1['roleSubscriptionData'] = var4;
-                var4 = var2.purchaseNotification;
-                var1['purchaseNotification'] = var4;
-                var4 = var2.poll;
-                var1['poll'] = var4;
-                var4 = var2.shared_client_theme;
-                if(var4) { _fun0005_ip = 698; continue _fun0005 }
- 692:
-                var4 = var2.sharedClientTheme;
- 698:
-                var1['sharedClientTheme'] = var4;
-                var4 = var2.potions;
-                var1['potions'] = var4;
-                var4 = var2.referralTrialOfferId;
-                if(var4) { _fun0005_ip = 727; continue _fun0005 }
- 725:
-                var4 = null;
- 727:
-                var1['referralTrialOfferId'] = var4;
-                var4 = var2.gift_info;
-                if(!(var3 == var4)) { _fun0005_ip = 749; continue _fun0005 }
- 743:
-                var4 = var2.giftInfo;
- 749:
-                var1['giftInfo'] = var4;
-                var4 = var2.giftingPrompt;
-                if(var4) { _fun0005_ip = 766; continue _fun0005 }
- 764:
-                var4 = null;
- 766:
-                var1['giftingPrompt'] = var4;
-                var4 = var2.messageSnapshots;
-                if(var4) { _fun0005_ip = 785; continue _fun0005 }
- 781:
-                var4 = new Array(0);
- 785:
-                var1['messageSnapshots'] = var4;
-                var4 = var2.isUnsupported;
-                if(var4) { _fun0005_ip = 802; continue _fun0005 }
- 800:
-                var4 = false;
- 802:
-                var1['isUnsupported'] = var4;
-                var4 = var2.changelog_id;
-                if(!(var3 == var4)) { _fun0005_ip = 832; continue _fun0005 }
- 818:
-                var5 = var2.changelogId;
-                if(var5) { _fun0005_ip = 829; continue _fun0005 }
- 827:
-                var5 = null;
- 829:
-                var4 = var5;
- 832:
-                var1['changelogId'] = var4;
-                var2 = var2.chatWallpaperInfo;
-                if(var2) { _fun0005_ip = 849; continue _fun0005 }
- 847:
                 var2 = null;
- 849:
-                var1['chatWallpaperInfo'] = var2;
+ 350:
+                var1['call'] = var2;
+                var2 = var3.bot;
+                if(var2) { _fun0005_ip = 367; continue _fun0005 }
+ 365:
+                var2 = false;
+ 367:
+                var1['bot'] = var2;
+                var2 = var3.webhookId;
+                if(var2) { _fun0005_ip = 384; continue _fun0005 }
+ 382:
+                var2 = null;
+ 384:
+                var1['webhookId'] = var2;
+                var2 = var3.reactions;
+                if(var2) { _fun0005_ip = 403; continue _fun0005 }
+ 399:
+                var2 = new Array(0);
+ 403:
+                var1['reactions'] = var2;
+                var2 = var3.application_id;
+                if(var2) { _fun0005_ip = 423; continue _fun0005 }
+ 418:
+                var2 = var3.applicationId;
+ 423:
+                if(var2) { _fun0005_ip = 428; continue _fun0005 }
+ 426:
+                var2 = null;
+ 428:
+                var1['applicationId'] = var2;
+                var2 = var3.application;
+                if(var2) { _fun0005_ip = 444; continue _fun0005 }
+ 442:
+                var2 = null;
+ 444:
+                var1['application'] = var2;
+                var2 = var3.activity;
+                if(var2) { _fun0005_ip = 461; continue _fun0005 }
+ 459:
+                var2 = null;
+ 461:
+                var1['activity'] = var2;
+                var2 = var3.activity_instance;
+                if(var2) { _fun0005_ip = 482; continue _fun0005 }
+ 476:
+                var2 = var3.activityInstance;
+ 482:
+                if(var2) { _fun0005_ip = 487; continue _fun0005 }
+ 485:
+                var2 = null;
+ 487:
+                var1['activityInstance'] = var2;
+                var2 = var3.messageReference;
+                if(var2) { _fun0005_ip = 504; continue _fun0005 }
+ 502:
+                var2 = null;
+ 504:
+                var1['messageReference'] = var2;
+                var2 = var3.hit;
+                if(var2) { _fun0005_ip = 527; continue _fun0005 }
+ 521:
+                var2 = var3.isSearchHit;
+ 527:
+                if(var2) { _fun0005_ip = 532; continue _fun0005 }
+ 530:
+                var2 = false;
+ 532:
+                var1['isSearchHit'] = var2;
+                var2 = var3.loggingName;
+                if(var2) { _fun0005_ip = 549; continue _fun0005 }
+ 547:
+                var2 = null;
+ 549:
+                var1['loggingName'] = var2;
+                var2 = var3.colorString;
+                var1['colorString'] = var2;
+                var2 = var3.nick;
+                var1['nick'] = var2;
+                var2 = var3.interaction;
+                if(var2) { _fun0005_ip = 590; continue _fun0005 }
+ 588:
+                var2 = null;
+ 590:
+                var1['interaction'] = var2;
+                var2 = var3.interactionData;
+                if(var2) { _fun0005_ip = 607; continue _fun0005 }
+ 605:
+                var2 = null;
+ 607:
+                var1['interactionData'] = var2;
+                var2 = var3.interactionMetadata;
+                if(var2) { _fun0005_ip = 624; continue _fun0005 }
+ 622:
+                var2 = null;
+ 624:
+                var1['interactionMetadata'] = var2;
+                var2 = var3.interactionError;
+                if(var2) { _fun0005_ip = 641; continue _fun0005 }
+ 639:
+                var2 = null;
+ 641:
+                var1['interactionError'] = var2;
+                var2 = var3.roleSubscriptionData;
+                var1['roleSubscriptionData'] = var2;
+                var2 = var3.purchaseNotification;
+                var1['purchaseNotification'] = var2;
+                var2 = var3.poll;
+                var1['poll'] = var2;
+                var2 = var3.shared_client_theme;
+                if(var2) { _fun0005_ip = 698; continue _fun0005 }
+ 692:
+                var2 = var3.sharedClientTheme;
+ 698:
+                var1['sharedClientTheme'] = var2;
+                var2 = var3.potions;
+                var1['potions'] = var2;
+                var2 = var3.referralTrialOfferId;
+                if(var2) { _fun0005_ip = 727; continue _fun0005 }
+ 725:
+                var2 = null;
+ 727:
+                var1['referralTrialOfferId'] = var2;
+                var2 = var3.gift_info;
+                if(!(var4 == var2)) { _fun0005_ip = 749; continue _fun0005 }
+ 743:
+                var2 = var3.giftInfo;
+ 749:
+                var1['giftInfo'] = var2;
+                var2 = var3.giftingPrompt;
+                if(var2) { _fun0005_ip = 766; continue _fun0005 }
+ 764:
+                var2 = null;
+ 766:
+                var1['giftingPrompt'] = var2;
+                var2 = var3.messageSnapshots;
+                if(var2) { _fun0005_ip = 785; continue _fun0005 }
+ 781:
+                var2 = new Array(0);
+ 785:
+                var1['messageSnapshots'] = var2;
+                var2 = var3.isUnsupported;
+                if(var2) { _fun0005_ip = 802; continue _fun0005 }
+ 800:
+                var2 = false;
+ 802:
+                var1['isUnsupported'] = var2;
+                var2 = var3.changelog_id;
+                if(!(var4 == var2)) { _fun0005_ip = 832; continue _fun0005 }
+ 818:
+                var3 = var3.changelogId;
+                if(var3) { _fun0005_ip = 829; continue _fun0005 }
+ 827:
+                var3 = null;
+ 829:
+                var2 = var3;
+ 832:
+                var1['changelogId'] = var2;
                 return var1;
             }
         };

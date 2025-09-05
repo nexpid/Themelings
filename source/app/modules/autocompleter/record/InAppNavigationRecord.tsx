@@ -4,6 +4,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var7;
     var1 = function _isNativeReflectConstruct() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -36,13 +38,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot7 = var2;
+            _closure1_slot10 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot7 = var1;
+    var _closure1_slot10 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -55,23 +57,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var7[var1];
     var1 = undefined;
     var2 = var5.bind(var1)(var2);
-    var _closure1_slot0 = var2;
+    var _closure1_slot2 = var2;
     var2 = 1;
     var2 = var7[var2];
     var2 = var5.bind(var1)(var2);
-    var _closure1_slot1 = var2;
+    var _closure1_slot3 = var2;
     var2 = 2;
     var2 = var7[var2];
     var2 = var5.bind(var1)(var2);
-    var _closure1_slot2 = var2;
+    var _closure1_slot4 = var2;
     var2 = 3;
     var2 = var7[var2];
     var2 = var5.bind(var1)(var2);
-    var _closure1_slot3 = var2;
+    var _closure1_slot5 = var2;
     var2 = 4;
     var2 = var7[var2];
     var2 = var5.bind(var1)(var2);
-    var _closure1_slot4 = var2;
+    var _closure1_slot6 = var2;
     var2 = 5;
     var2 = var7[var2];
     var5 = var5.bind(var1)(var2);
@@ -79,7 +81,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var7[var2];
     var2 = var6.bind(var1)(var2);
     var2 = var2.Routes;
-    var _closure1_slot5 = var2;
+    var _closure1_slot7 = var2;
+    var2 = 7;
+    var2 = var7[var2];
+    var2 = var6.bind(var1)(var2);
+    var2 = var2.QuestsExperimentLocations;
+    var _closure1_slot8 = var2;
     var2 = {};
     var8 = 'SHOP';
     var2['SHOP'] = var8;
@@ -91,21 +98,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['APPS_HOME'] = var8;
     var8 = 'SETTINGS';
     var2['SETTINGS'] = var8;
-    var _closure1_slot6 = var2;
+    var _closure1_slot9 = var2;
     var4 = function(arg1) {
         var5 = function InAppNavigationRecord(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var2 = arg1;
                 var5 = this;
-                var1 = _closure1_slot0;
+                var1 = _closure1_slot2;
                 var3 = _closure2_slot0;
                 var4 = undefined;
                 var1 = var1.bind(var4)(var5, var3);
-                var1 = _closure1_slot3;
+                var1 = _closure1_slot5;
                 var10 = var1.bind(var4)(var3);
-                var3 = _closure1_slot2;
-                var1 = _closure1_slot7;
+                var3 = _closure1_slot4;
+                var1 = _closure1_slot10;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 65; continue _fun0002 }
  52:
@@ -116,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = global;
                 var9 = var7.Reflect;
                 var8 = var9.construct;
-                var6 = _closure1_slot3;
+                var6 = _closure1_slot5;
                 var6 = var6.bind(var4)(var5);
                 var7 = var6.constructor;
                 var6 = new Array(0);
@@ -135,11 +142,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var _closure2_slot0 = var5;
-        var6 = _closure1_slot4;
+        var6 = _closure1_slot6;
         var4 = undefined;
         var3 = arg1;
         var3 = var6.bind(var4)(var5, var3);
-        var3 = _closure1_slot1;
+        var3 = _closure1_slot3;
         var1 = {};
         var6 = 'fromType';
         var1['key'] = var6;
@@ -148,23 +155,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var4 = arg1;
                 var3 = arg2;
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot9;
                 var1 = var1.SHOP;
-                if(!(var1 !== var4)) { _fun0003_ip = 401; continue _fun0003 }
+                if(!(var1 !== var4)) { _fun0003_ip = 472; continue _fun0003 }
  26:
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot9;
                 var1 = var1.NITRO_HOME;
-                if(!(var1 !== var4)) { _fun0003_ip = 338; continue _fun0003 }
+                if(!(var1 !== var4)) { _fun0003_ip = 409; continue _fun0003 }
  43:
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot9;
                 var1 = var1.QUEST_HOME;
                 if(!(var1 !== var4)) { _fun0003_ip = 275; continue _fun0003 }
  60:
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot9;
                 var1 = var1.APPS_HOME;
                 if(!(var1 !== var4)) { _fun0003_ip = 212; continue _fun0003 }
  77:
-                var1 = _closure1_slot6;
+                var1 = _closure1_slot9;
                 var1 = var1.SETTINGS;
                 if(!(var1 !== var4)) { _fun0003_ip = 127; continue _fun0003 }
  91:
@@ -183,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = null;
                 if(!(var5 == var3)) { _fun0003_ip = 161; continue _fun0003 }
  142:
-                var7 = _closure1_slot5;
+                var7 = _closure1_slot7;
                 var6 = var7.SETTINGS;
                 var5 = 'account';
                 var3 = var6.bind(var7)(var5);
@@ -191,7 +198,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['path'] = var3;
                 var3 = arg3;
                 var1['label'] = var3;
-                var3 = _closure1_slot6;
+                var3 = _closure1_slot9;
                 var3 = var3.SETTINGS;
                 var1['type'] = var3;
                 var3 = var4.prototype;
@@ -204,10 +211,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  212:
                 var4 = _closure2_slot0;
                 var1 = {};
-                var3 = _closure1_slot5;
+                var3 = _closure1_slot7;
                 var3 = var3.GLOBAL_DISCOVERY_APPS;
                 var1['path'] = var3;
-                var3 = _closure1_slot6;
+                var3 = _closure1_slot9;
                 var3 = var3.APPS_HOME;
                 var1['type'] = var3;
                 var3 = var4.prototype;
@@ -220,10 +227,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  275:
                 var4 = _closure2_slot0;
                 var1 = {};
-                var3 = _closure1_slot5;
-                var3 = var3.QUEST_HOME;
+                var6 = _closure1_slot0;
+                var5 = _closure1_slot1;
+                var3 = 8;
+                var5 = var5[var3];
+                var3 = undefined;
+                var3 = var6.bind(var3)(var5);
+                var6 = var3.QuestHomeEntrypointRelocation;
+                var5 = var6.getConfig;
+                var3 = {};
+                var7 = _closure1_slot8;
+                var7 = var7.IN_APP_NAVIGATION;
+                var3['location'] = var7;
+                var3 = var5.bind(var6)(var3);
+                var3 = var3.enabled;
+                var5 = _closure1_slot7;
+                if(var3) { _fun0003_ip = 359; continue _fun0003 }
+ 351:
+                var3 = var5.QUEST_HOME;
+                _fun0003_ip = 365; continue _fun0003;
+ 359:
+                var3 = var5.QUEST_HOME_V2;
+ 365:
                 var1['path'] = var3;
-                var3 = _closure1_slot6;
+                var3 = _closure1_slot9;
                 var3 = var3.QUEST_HOME;
                 var1['type'] = var3;
                 var3 = var4.prototype;
@@ -233,13 +260,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = new var9[var4](var8, var7);
                 var1 = var1 instanceof Object ? var1 : var3;
                 return var1;
- 338:
+ 409:
                 var4 = _closure2_slot0;
                 var1 = {};
-                var3 = _closure1_slot5;
+                var3 = _closure1_slot7;
                 var3 = var3.NITRO_HOME;
                 var1['path'] = var3;
-                var3 = _closure1_slot6;
+                var3 = _closure1_slot9;
                 var3 = var3.NITRO_HOME;
                 var1['type'] = var3;
                 var3 = var4.prototype;
@@ -249,13 +276,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = new var9[var4](var8, var7);
                 var1 = var1 instanceof Object ? var1 : var3;
                 return var1;
- 401:
+ 472:
                 var3 = _closure2_slot0;
                 var1 = {};
-                var4 = _closure1_slot5;
+                var4 = _closure1_slot7;
                 var4 = var4.COLLECTIBLES_SHOP;
                 var1['path'] = var4;
-                var2 = _closure1_slot6;
+                var2 = _closure1_slot9;
                 var2 = var2.SHOP;
                 var1['type'] = var2;
                 var2 = var3.prototype;
@@ -275,7 +302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var4.bind(var1)(var5);
-    var5 = 7;
+    var5 = 9;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

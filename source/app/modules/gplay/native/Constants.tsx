@@ -37,6 +37,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['BILLING_UNAVAILABLE'] = var10;
     var1 = 'BILLING_UNAVAILABLE';
     var2[var10] = var1;
+    var10 = 999;
+    var2['BILLING_CLIENT_NOT_READY'] = var10;
+    var1 = 'BILLING_CLIENT_NOT_READY';
+    var2[var10] = var1;
     var10 = 5;
     var2['DEVELOPER_ERROR'] = var10;
     var1 = 'DEVELOPER_ERROR';

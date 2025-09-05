@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  116:
             var1 = var18 != var24;
             var7 = undefined;
-            if(!var1) { _fun0001_ip = 274; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 278; continue _fun0001 }
  128:
             var21 = _closure1_slot4;
             var2 = _closure1_slot1;
@@ -108,13 +108,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var23;
             var1['size'] = var22;
             var7 = var21.bind(var4)(var2, var1);
-            _fun0001_ip = 274; continue _fun0001;
+            _fun0001_ip = 278; continue _fun0001;
  174:
             var2 = _closure1_slot4;
             var1 = {};
             var1['size'] = var19;
             var7 = var2.bind(var4)(var3, var1);
-            _fun0001_ip = 274; continue _fun0001;
+            _fun0001_ip = 278; continue _fun0001;
  192:
             var3 = _closure1_slot4;
             var2 = _closure1_slot0;
@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var19;
             var1['children'] = var16;
             var7 = var3.bind(var4)(var2, var1);
- 274:
+ 278:
             var3 = _closure1_slot5;
             var2 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -144,10 +144,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var19 = arg2;
             var1['ref'] = var19;
-            if(!(var18 != var17)) { _fun0001_ip = 320; continue _fun0001 }
- 317:
+            if(!(var18 != var17)) { _fun0001_ip = 324; continue _fun0001 }
+ 321:
             var16 = var17;
- 320:
+ 324:
             var1['accessibilityLabel'] = var16;
             var1['accessibilityHint'] = var15;
             var1['accessibilityActions'] = var14;
@@ -158,20 +158,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 0.6;
             var1['activeOpacity'] = var8;
             var8 = undefined;
-            if(!var12) { _fun0001_ip = 375; continue _fun0001 }
- 371:
-            var8 = _closure1_slot3;
+            if(!var12) { _fun0001_ip = 379; continue _fun0001 }
  375:
+            var8 = _closure1_slot3;
+ 379:
             var1['androidRippleConfig'] = var8;
             var11 = var10.button;
             var8 = new Array(3);
             var8[0] = var11;
             var8[1] = var9;
             var9 = var5;
-            if(!var9) { _fun0001_ip = 410; continue _fun0001 }
- 404:
+            if(!var9) { _fun0001_ip = 414; continue _fun0001 }
+ 408:
             var9 = var10.buttonDisabled;
- 410:
+ 414:
             var8[2] = var9;
             var1['style'] = var8;
             var1['disabled'] = var5;

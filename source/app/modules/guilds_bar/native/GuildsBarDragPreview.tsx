@@ -486,19 +486,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     if(!(var6 !== var1)) { _fun0008_ip = 105; continue _fun0008 }
  89:
                     var1 = {'translateX': 10, 'translateY': 4294967286};
-                    _fun0008_ip = 115; continue _fun0008;
+                    _fun0008_ip = 119; continue _fun0008;
  105:
                     var1 = {'translateX': 0, 'translateY': 0};
- 115:
+ 119:
                     var15 = var1.translateX;
                     var14 = var1.translateY;
                     var1 = {};
                     var3 = _closure2_slot3;
                     var2 = var6;
-                    if(!var3) { _fun0008_ip = 141; continue _fun0008 }
- 139:
+                    if(!var3) { _fun0008_ip = 145; continue _fun0008 }
+ 143:
                     var2 = 0;
- 141:
+ 145:
                     var1['zIndex'] = var2;
                     var11 = {};
                     var8 = _closure1_slot0;
@@ -599,12 +599,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var8.bind(var4)(var3);
                     var3 = var4.withSpring;
                     var8 = _closure2_slot3;
-                    if(!var8) { _fun0008_ip = 441; continue _fun0008 }
- 428:
+                    if(!var8) { _fun0008_ip = 445; continue _fun0008 }
+ 432:
                     var8 = _closure2_slot2;
                     var7 = var8.get;
                     var6 = var7.bind(var8)();
- 441:
+ 445:
                     var2 = _closure1_slot8;
                     var2 = var3.bind(var4)(var6, var2, var5);
                     var1['opacity'] = var2;

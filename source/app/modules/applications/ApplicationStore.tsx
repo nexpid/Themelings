@@ -234,9 +234,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var8.now;
             var1 = var1.bind(var8)();
             var1 = var6.bind(var7)(var5, var1);
-            var1 = null;
+            var7 = null;
             var6 = var2;
-            if(!(var1 != var4)) { _fun0005_ip = 84; continue _fun0005 }
+            if(!(var7 != var4)) { _fun0005_ip = 84; continue _fun0005 }
  71:
             var1 = var4.mergeFromApplicationUpdate;
             var6 = var1.bind(var4)(var2);
@@ -247,29 +247,64 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.bind(var5)(var1, var6);
             var5 = _closure1_slot10;
             var4 = var5.set;
-            var7 = var2.name;
-            var1 = var7.toLowerCase;
-            var1 = var1.bind(var7)();
+            var8 = var2.name;
+            var1 = var8.toLowerCase;
+            var1 = var1.bind(var8)();
             var1 = var4.bind(var5)(var1, var6);
             var5 = _closure1_slot15;
             var4 = var2.aliases;
             var1 = undefined;
-            var7 = var5.bind(var1)(var4);
-            var5 = var7.bind(var1)();
+            var8 = var5.bind(var1)(var4);
+            var5 = var8.bind(var1)();
             var4 = var5.done;
             if(var4) { _fun0005_ip = 208; continue _fun0005 }
  163:
-            var10 = var5.value;
-            var9 = _closure1_slot10;
-            var8 = var9.set;
-            var4 = var10.toLowerCase;
-            var4 = var4.bind(var10)();
-            var4 = var8.bind(var9)(var4, var6);
-            var8 = var7.bind(var1)();
-            var4 = var8.done;
-            var5 = var8;
+            var11 = var5.value;
+            var10 = _closure1_slot10;
+            var9 = var10.set;
+            var4 = var11.toLowerCase;
+            var4 = var4.bind(var11)();
+            var4 = var9.bind(var10)(var4, var6);
+            var9 = var8.bind(var1)();
+            var4 = var9.done;
+            var5 = var9;
             if(!var4) { _fun0005_ip = 163; continue _fun0005 }
  208:
+            var4 = var2.linkedGames;
+            if(!(var7 != var4)) { _fun0005_ip = 326; continue _fun0005 }
+ 218:
+            var5 = _closure1_slot15;
+            var4 = var2.linkedGames;
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.bind(var1)();
+            var4 = var5.done;
+            if(var4) { _fun0005_ip = 326; continue _fun0005 }
+ 245:
+            var9 = var5.value;
+            var4 = var9.application;
+            if(!(var7 != var4)) { _fun0005_ip = 311; continue _fun0005 }
+ 259:
+            var8 = _closure1_slot17;
+            var10 = var9.application;
+            var4 = _closure1_slot6;
+            var4 = var10 instanceof var4;
+            if(var4) { _fun0005_ip = 301; continue _fun0005 }
+ 279:
+            var11 = _closure1_slot6;
+            var10 = var11.createFromServer;
+            var4 = var9.application;
+            var4 = var10.bind(var11)(var4);
+            _fun0005_ip = 306; continue _fun0005;
+ 301:
+            var4 = var9.application;
+ 306:
+            var4 = var8.bind(var1)(var4);
+ 311:
+            var8 = var6.bind(var1)();
+            var4 = var8.done;
+            var5 = var8;
+            if(!var4) { _fun0005_ip = 245; continue _fun0005 }
+ 326:
             var4 = _closure1_slot12;
             var3 = var4.delete;
             var2 = var2.id;

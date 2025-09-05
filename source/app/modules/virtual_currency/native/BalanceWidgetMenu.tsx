@@ -107,8 +107,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var10.bind(var4)(var1);
         var2 = var1.TableRowGroup;
         var1 = {};
-        var5 = 'Orbs Balance Widget';
-        var1['title'] = var5;
         var5 = 8;
         var5 = var13[var5];
         var5 = var10.bind(var4)(var5);

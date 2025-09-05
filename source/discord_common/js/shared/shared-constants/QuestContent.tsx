@@ -158,6 +158,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NOT_SHAREABLE_QUEST_EMBED'] = var6;
     var2 = 'NOT_SHAREABLE_QUEST_EMBED';
     var4[var6] = var2;
+    var6 = 37;
+    var4['QUEST_HOME_MOVE_CALLOUT_DISCOVER'] = var6;
+    var2 = 'QUEST_HOME_MOVE_CALLOUT_DISCOVER';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

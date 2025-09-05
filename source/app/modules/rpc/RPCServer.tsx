@@ -37,13 +37,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var7 = var4.AnalyticEvents;
     var _closure1_slot6 = var7;
-    var7 = var4.RPCEvents;
+    var7 = var4.RPCCloseCodes;
     var _closure1_slot7 = var7;
     var7 = var4.RPCCommands;
     var _closure1_slot8 = var7;
-    var7 = var4.RPCCloseCodes;
+    var7 = var4.RPCErrors;
     var _closure1_slot9 = var7;
-    var4 = var4.RPCErrors;
+    var4 = var4.RPCEvents;
     var _closure1_slot10 = var4;
     var4 = new Array(0);
     var _closure1_slot11 = var4;
@@ -75,15 +75,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var3['commands'] = var2;
             var2 = global;
+            var4 = var2.Set;
+            var5 = var4.prototype;
+            var5 = Object.create(var5, {constructor: {value: var4}});
+            var8 = var5;
+            var4 = new var8[var4](var7);
+            var4 = var4 instanceof Object ? var4 : var5;
+            var3['sockets'] = var4;
+            var4 = new Array(0);
+            var3['subscriptions'] = var4;
             var2 = var2.Set;
             var4 = var2.prototype;
             var4 = Object.create(var4, {constructor: {value: var2}});
             var8 = var4;
             var2 = new var8[var2](var7);
             var2 = var2 instanceof Object ? var2 : var4;
-            var3['sockets'] = var2;
-            var2 = new Array(0);
-            var3['subscriptions'] = var2;
+            var3['isSubscribedListeners'] = var2;
             var2 = arg1;
             var3['getJoi'] = var2;
             return var1;
@@ -132,7 +139,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(16);
+        var2 = new Array(18);
         var2[0] = var1;
         var1 = {};
         var6 = 'handleConnect';
@@ -185,7 +192,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var8.dispatch;
                 var2 = _closure1_slot8;
                 var11 = var2.DISPATCH;
-                var2 = _closure1_slot7;
+                var2 = _closure1_slot10;
                 var10 = var2.READY;
                 var12 = null;
                 var14 = var8;
@@ -196,7 +203,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var2;
  227:
                 var3 = var4.close;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot7;
                 var2 = var1.CLOSE_NORMAL;
                 var1 = 'User logged out';
                 var1 = var3.bind(var4)(var2, var1);
@@ -283,7 +290,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var7[var5];
                     var11 = var6.bind(var2)(var5);
                     var10 = {};
-                    var5 = _closure1_slot10;
+                    var5 = _closure1_slot9;
                     var5 = var5.INVALID_PERMISSIONS;
                     var10['errorCode'] = var5;
                     var5 = var11.prototype;
@@ -339,7 +346,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = undefined;
                     var4 = var5.bind(var3)(var4);
                     var3 = {};
-                    var2 = _closure1_slot10;
+                    var2 = _closure1_slot9;
                     var2 = var2.INVALID_COMMAND;
                     var3['errorCode'] = var2;
                     var1 = _closure3_slot2;
@@ -364,7 +371,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = undefined;
                     var4 = var4.bind(var2)(var3);
                     var3 = {};
-                    var1 = _closure1_slot10;
+                    var1 = _closure1_slot9;
                     var1 = var1.INVALID_PAYLOAD;
                     var3['errorCode'] = var1;
                     var1 = var4.prototype;
@@ -455,7 +462,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                         var2 = undefined;
                                         var6 = var6.bind(var2)(var5);
                                         var5 = {};
-                                        var4 = _closure1_slot10;
+                                        var4 = _closure1_slot9;
                                         var4 = var4.INVALID_PAYLOAD;
                                         var5['errorCode'] = var4;
                                         var7 = var1.message;
@@ -687,7 +694,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  40:
                 if(!(var9 === var1)) { _fun0007_ip = 57; continue _fun0007 }
  44:
-                var3 = _closure1_slot10;
+                var3 = _closure1_slot9;
                 var9 = var3.UNKNOWN_ERROR;
  57:
                 if(!(var2 === var1)) { _fun0007_ip = 67; continue _fun0007 }
@@ -708,7 +715,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4['message'] = var2;
                 var4 = var10.bind(var11)(var5, var4);
                 var5 = var6.dispatch;
-                var3 = _closure1_slot7;
+                var3 = _closure1_slot10;
                 var14 = var3.ERROR;
                 var3 = {};
                 var3['code'] = var9;
@@ -724,6 +731,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var1['value'] = var6;
         var2[7] = var1;
+        var1 = {};
+        var6 = 'listenIsSubscribed';
+        var1['key'] = var6;
+        var6 = function value(arg1) {
+            var4 = arg1;
+            var2 = this;
+            var _closure3_slot0 = var2;
+            var _closure3_slot1 = var4;
+            var3 = var2.isSubscribedListeners;
+            var2 = var3.add;
+            var2 = var2.bind(var3)(var4);
+            var1 = function() {
+                var2 = _closure3_slot0;
+                var3 = var2.isSubscribedListeners;
+                var2 = var3.delete;
+                var1 = _closure3_slot1;
+                var1 = var2.bind(var3)(var1);
+                var1 = undefined;
+                return var1;
+            };
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[8] = var1;
+        var1 = {};
+        var6 = 'dispatchIsSubscribedUpdate';
+        var1['key'] = var6;
+        var6 = function value() {
+            var1 = this;
+            var3 = var1.isSubscribedListeners;
+            var2 = var3.forEach;
+            var1 = function(arg1) {
+                var2 = arg1;
+                var1 = undefined;
+                var1 = var2.bind(var1)();
+                return var1;
+            };
+            var1 = var2.bind(var3)(var1);
+            var1 = undefined;
+            return var1;
+        };
+        var1['value'] = var6;
+        var2[9] = var1;
         var1 = {};
         var6 = 'isSubscribed';
         var1['key'] = var6;
@@ -759,7 +809,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[8] = var1;
+        var2[10] = var1;
         var1 = {};
         var6 = 'getSubscription';
         var1['key'] = var6;
@@ -806,81 +856,83 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[9] = var1;
+        var2[11] = var1;
         var1 = {};
         var6 = 'addSubscription';
         var1['key'] = var6;
         var6 = function value(arg1, arg2, arg3) {
             _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-                var7 = arg1;
-                var6 = arg2;
-                var5 = arg3;
-                var10 = arguments[3];
-                var2 = this;
+                var8 = arg1;
+                var7 = arg2;
+                var6 = arg3;
+                var11 = arguments[3];
+                var3 = this;
                 var1 = undefined;
-                if(!(var10 === var1)) { _fun0010_ip = 23; continue _fun0010 }
+                if(!(var11 === var1)) { _fun0010_ip = 23; continue _fun0010 }
  21:
-                var10 = null;
+                var11 = null;
  23:
-                var8 = var2.dispatch;
-                var4 = var8.bind;
-                var3 = _closure1_slot8;
-                var14 = var3.DISPATCH;
-                var12 = null;
-                var18 = var8;
-                var17 = var2;
-                var16 = var7;
-                var15 = null;
-                var13 = var6;
-                var11 = var18[var4](var17, var16, var15, var14, var13, var12);
-                var3 = var2.getSubscription;
-                var3 = var3.bind(var2)(var7, var6, var5);
-                if(!(var12 == var3)) { _fun0010_ip = 153; continue _fun0010 }
+                var5 = var3.dispatch;
+                var4 = var5.bind;
+                var2 = _closure1_slot8;
+                var15 = var2.DISPATCH;
+                var13 = null;
+                var19 = var5;
+                var18 = var3;
+                var17 = var8;
+                var16 = null;
+                var14 = var7;
+                var12 = var19[var4](var18, var17, var16, var15, var14, var13);
+                var2 = var3.getSubscription;
+                var2 = var2.bind(var3)(var8, var7, var6);
+                if(!(var13 == var2)) { _fun0010_ip = 163; continue _fun0010 }
  85:
-                var4 = var2.subscriptions;
-                var3 = var4.push;
+                var5 = var3.subscriptions;
+                var4 = var5.push;
                 var2 = {};
-                var2['update'] = var10;
-                var2['dispatch'] = var11;
-                var8 = null;
-                if(!var10) { _fun0010_ip = 128; continue _fun0010 }
+                var2['update'] = var11;
+                var2['dispatch'] = var12;
+                var9 = null;
+                if(!var11) { _fun0010_ip = 128; continue _fun0010 }
  112:
-                var9 = {};
-                var9['prevState'] = var12;
-                var9['dispatch'] = var11;
-                var8 = var10.bind(var1)(var9);
+                var10 = {};
+                var10['prevState'] = var13;
+                var10['dispatch'] = var12;
+                var9 = var11.bind(var1)(var10);
  128:
-                var2['prevState'] = var8;
-                var2['socket'] = var7;
-                var2['evt'] = var6;
-                var2['args'] = var5;
-                var2 = var3.bind(var4)(var2);
- 153:
+                var2['prevState'] = var9;
+                var2['socket'] = var8;
+                var2['evt'] = var7;
+                var2['args'] = var6;
+                var2 = var4.bind(var5)(var2);
+                var2 = var3.dispatchIsSubscribedUpdate;
+                var2 = var2.bind(var3)();
+ 163:
                 return var1;
             }
         };
         var1['value'] = var6;
-        var2[10] = var1;
+        var2[12] = var1;
         var1 = {};
         var6 = 'removeSubscription';
         var1['key'] = var6;
         var6 = function value(arg1, arg2, arg3) {
+            var3 = this;
             var1 = arg1;
             var _closure3_slot0 = var1;
             var1 = arg2;
             var _closure3_slot1 = var1;
             var1 = arg3;
             var _closure3_slot2 = var1;
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
             var1 = 5;
-            var3 = var3[var1];
+            var4 = var4[var1];
             var1 = undefined;
-            var5 = var4.bind(var1)(var3);
-            var4 = var5.remove;
-            var3 = this;
-            var3 = var3.subscriptions;
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.remove;
+            var4 = var3.subscriptions;
             var2 = function(arg1) {
                 _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
@@ -910,26 +962,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var2 = var4.bind(var5)(var3, var2);
+            var2 = var5.bind(var6)(var4, var2);
+            var2 = var3.dispatchIsSubscribedUpdate;
+            var2 = var2.bind(var3)();
             return var1;
         };
         var1['value'] = var6;
-        var2[11] = var1;
+        var2[13] = var1;
         var1 = {};
         var6 = 'removeSubscriptions';
         var1['key'] = var6;
         var6 = function value(arg1) {
+            var3 = this;
             var1 = arg1;
             var _closure3_slot0 = var1;
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
+            var5 = _closure1_slot0;
+            var4 = _closure1_slot1;
             var1 = 5;
-            var3 = var3[var1];
+            var4 = var4[var1];
             var1 = undefined;
-            var5 = var4.bind(var1)(var3);
-            var4 = var5.remove;
-            var3 = this;
-            var3 = var3.subscriptions;
+            var6 = var5.bind(var1)(var4);
+            var5 = var6.remove;
+            var4 = var3.subscriptions;
             var2 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.socket;
@@ -937,11 +991,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2 === var1;
                 return var1;
             };
-            var2 = var4.bind(var5)(var3, var2);
+            var2 = var5.bind(var6)(var4, var2);
+            var2 = var3.dispatchIsSubscribedUpdate;
+            var2 = var2.bind(var3)();
             return var1;
         };
         var1['value'] = var6;
-        var2[12] = var1;
+        var2[14] = var1;
         var1 = {};
         var6 = 'dispatchToSubscriptions';
         var1['key'] = var6;
@@ -1074,7 +1130,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[13] = var1;
+        var2[15] = var1;
         var1 = {};
         var6 = 'updateSubscriptions';
         var1['key'] = var6;
@@ -1102,7 +1158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var6;
-        var2[14] = var1;
+        var2[16] = var1;
         var1 = {};
         var6 = 'storeWait';
         var1['key'] = var6;
@@ -1235,7 +1291,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var5;
-        var2[15] = var1;
+        var2[17] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

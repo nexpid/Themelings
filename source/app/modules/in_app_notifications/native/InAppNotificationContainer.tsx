@@ -133,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = 'function InAppNotificationContainerTsx12(){const{interpolate,pressed}=this.__closure;const tapScale=interpolate(pressed.get(),[0,1],[1,0.95]);return{transform:[{scale:tapScale}]};}';
     var4['code'] = var7;
     var _closure1_slot27 = var4;
-    var4 = 40;
+    var4 = 41;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -155,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 34;
+                    var1 = 35;
                     var3 = var3[var1];
                     var1 = undefined;
                     var6 = var4.bind(var1)(var3);
@@ -251,20 +251,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = undefined;
                         var8 = var3.bind(var1)(var5);
                         var7 = var8.openLazy;
-                        var5 = _closure1_slot0;
+                        var9 = _closure1_slot0;
                         var2 = 12;
                         var2 = var4[var2];
-                        var6 = var5.bind(var1)(var2);
+                        var6 = var9.bind(var1)(var2);
                         var2 = 28;
                         var5 = var4[var2];
                         var2 = var4.paths;
                         var6 = var6.bind(var1)(var5, var2);
                         var5 = {};
                         var2 = _closure3_slot0;
-                        var9 = var2.emoji;
-                        var5['emoji'] = var9;
+                        var10 = var2.emoji;
+                        var5['emoji'] = var10;
                         var2 = var2.markAsDismissed;
                         var5['markAsDismissed'] = var2;
+                        var2 = 29;
+                        var2 = var4[var2];
+                        var2 = var9.bind(var1)(var2);
+                        var2 = var2.ImpressionNames;
+                        var2 = var2.DOUBLE_TAP_REACT_UPSELL;
+                        var5['impressionName'] = var2;
                         var2 = 'DoubleTapToReactActionSheet';
                         var2 = var7.bind(var8)(var6, var2, var5);
                         var2 = 18;
@@ -278,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = _closure1_slot10;
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot2;
-                    var2 = 29;
+                    var2 = 30;
                     var2 = var6[var2];
                     var6 = undefined;
                     var5 = var5.bind(var6)(var2);
@@ -808,7 +814,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var _closure2_slot13 = var26;
             var2 = _closure1_slot1;
-            var7 = 30;
+            var7 = 31;
             var7 = var8[var7];
             var10 = var2.bind(var4)(var7);
             var7 = function() {
@@ -816,7 +822,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.set;
                 var13 = _closure1_slot0;
                 var14 = _closure1_slot2;
-                var5 = 31;
+                var5 = 32;
                 var5 = var14[var5];
                 var12 = undefined;
                 var9 = var13.bind(var12)(var5);
@@ -914,7 +920,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var4.set;
                     var13 = _closure1_slot0;
                     var14 = _closure1_slot2;
-                    var6 = 31;
+                    var6 = 32;
                     var6 = var14[var6];
                     var12 = undefined;
                     var9 = var13.bind(var12)(var6);
@@ -1009,7 +1015,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var7.useSharedValue;
             var15 = var5.bind(var7)(var9);
             var _closure2_slot16 = var15;
-            var7 = 32;
+            var7 = 33;
             var5 = var8[var7];
             var5 = var6.bind(var4)(var5);
             var9 = var5.Gesture;
@@ -1021,7 +1027,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.set;
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 33;
+                var1 = 34;
                 var5 = var5[var1];
                 var1 = undefined;
                 var7 = var6.bind(var1)(var5);
@@ -1034,7 +1040,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var13 = {};
             var13['pressed'] = var15;
-            var25 = 33;
+            var25 = 34;
             var14 = var8[var25];
             var14 = var6.bind(var4)(var14);
             var14 = var14.withSpring;
@@ -1087,7 +1093,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.set;
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot2;
-                var1 = 33;
+                var1 = 34;
                 var5 = var5[var1];
                 var1 = undefined;
                 var7 = var6.bind(var1)(var5);
@@ -1219,7 +1225,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var2.bind(var5)(var1);
                     var3 = _closure2_slot5;
                     var2 = var3.set;
-                    var1 = 33;
+                    var1 = 34;
                     var1 = var7[var1];
                     var8 = var6.bind(var5)(var1);
                     var7 = var8.withSpring;
@@ -1238,7 +1244,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.set;
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var5 = 31;
+                    var5 = 32;
                     var5 = var7[var5];
                     var13 = undefined;
                     var8 = var6.bind(var13)(var5);
@@ -1319,7 +1325,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = {'velocityY': null, 'MIN_SWIPE_VELOCITY': 100, 'MIN_SWIPE_DISTANCE': 25};
             var14['velocityY'] = var21;
             var14['notificationGestureY'] = var22;
-            var21 = 31;
+            var21 = 32;
             var21 = var8[var21];
             var21 = var6.bind(var4)(var21);
             var21 = var21.withTiming;
@@ -1514,7 +1520,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  13:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 35;
+                    var2 = 36;
                     var3 = var3[var2];
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
@@ -1528,7 +1534,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var3 = var9.bind(var11)(var3, var5);
-            var3 = 36;
+            var3 = 37;
             var3 = var8[var3];
             var9 = var6.bind(var4)(var3);
             var5 = var9.useStateFromStores;
@@ -1543,11 +1549,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var9 = var5.bind(var9)(var3, var1);
             var3 = _closure1_slot10;
-            var1 = 37;
+            var1 = 38;
             var1 = var8[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
-            var5 = 38;
+            var5 = 39;
             var5 = var8[var5];
             var5 = var6.bind(var4)(var5);
             var6 = var5.SafeAreaPaddingView;
@@ -1585,7 +1591,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var12.View;
             var12 = {};
             var12['style'] = var14;
-            var14 = 39;
+            var14 = 40;
             var14 = var19[var14];
             var14 = var15.bind(var4)(var14);
             var15 = var14.NotificationPressable;

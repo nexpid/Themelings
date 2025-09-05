@@ -139,6 +139,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['DM_LIST_KEBAB_MENU_SHOWN'] = var2;
     var2 = 'impression_dm_list_right_click_menu_shown';
     var4['DM_LIST_RIGHT_CLICK_MENU_SHOWN'] = var2;
+    var2 = 'impression_double_tap_react_upsell';
+    var4['DOUBLE_TAP_REACT_UPSELL'] = var2;
     var2 = 'impression_drops_quest_completion';
     var4['DROPS_QUEST_COMPLETION'] = var2;
     var2 = 'impression_drops_quest_enrollment';

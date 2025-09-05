@@ -596,52 +596,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  26:
             var2['paddingLeft'] = var5;
             var8 = _closure1_slot1;
-            var12 = _closure1_slot2;
+            var11 = _closure1_slot2;
             var10 = 11;
-            var7 = var12[var10];
+            var7 = var11[var10];
             var9 = undefined;
             var7 = var8.bind(var9)(var7);
             var7 = var7.spacing;
             var7 = var7.PX_8;
             var2['gap'] = var7;
             var1['pressable'] = var2;
-            var2 = {'flexDirection': 'row', 'overflow': 'hidden'};
-            var11 = 'hidden';
+            var2 = {};
             var8 = _closure1_slot0;
             var7 = 13;
-            var7 = var12[var7];
+            var7 = var11[var7];
             var8 = var8.bind(var9)(var7);
             var7 = var8.isAndroid;
             var8 = var7.bind(var8)();
             var7 = 0;
-            if(!var8) { _fun0005_ip = 131; continue _fun0005 }
- 125:
+            if(!var8) { _fun0005_ip = 115; continue _fun0005 }
+ 109:
             var7 = -2;
- 131:
+ 115:
             var2['marginTop'] = var7;
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
-            var12 = var7[var10];
-            var12 = var8.bind(var9)(var12);
-            var12 = var12.radii;
-            var12 = var12.md;
-            var2['borderRadius'] = var12;
-            var12 = var7[var10];
-            var12 = var8.bind(var9)(var12);
-            var12 = var12.spacing;
-            var12 = var12.PX_8;
-            var2['gap'] = var12;
+            var11 = var7[var10];
+            var11 = var8.bind(var9)(var11);
+            var11 = var11.radii;
+            var11 = var11.md;
+            var2['borderRadius'] = var11;
+            var11 = var7[var10];
+            var11 = var8.bind(var9)(var11);
+            var11 = var11.spacing;
+            var11 = var11.PX_8;
+            var2['gap'] = var11;
             var1['messagePreview'] = var2;
             var2 = {};
-            var12 = var7[var10];
-            var12 = var8.bind(var9)(var12);
-            var12 = var12.spacing;
-            var12 = var12.PX_8;
-            var2['gap'] = var12;
-            var12 = _closure1_slot11;
-            var2['marginHorizontal'] = var12;
-            var12 = _closure1_slot18;
-            var2['padding'] = var12;
+            var11 = var7[var10];
+            var11 = var8.bind(var9)(var11);
+            var11 = var11.spacing;
+            var11 = var11.PX_8;
+            var2['gap'] = var11;
+            var11 = _closure1_slot11;
+            var2['marginHorizontal'] = var11;
+            var11 = _closure1_slot18;
+            var2['padding'] = var11;
+            var11 = 'hidden';
             var2['overflow'] = var11;
             var2['borderWidth'] = var3;
             var11 = var7[var10];
@@ -663,10 +663,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['replyInner'] = var2;
             var2 = {};
             var7 = 0;
-            if(var6) { _fun0005_ip = 353; continue _fun0005 }
- 349:
+            if(var6) { _fun0005_ip = 341; continue _fun0005 }
+ 337:
             var7 = _closure1_slot13;
- 353:
+ 341:
             var2['paddingLeft'] = var7;
             var7 = _closure1_slot11;
             var2['paddingBottom'] = var7;
@@ -688,10 +688,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot11;
             var2['paddingHorizontal'] = var7;
             var4 = 0;
-            if(var6) { _fun0005_ip = 451; continue _fun0005 }
- 447:
+            if(var6) { _fun0005_ip = 439; continue _fun0005 }
+ 435:
             var4 = _closure1_slot13;
- 451:
+ 439:
             var2['marginLeft'] = var4;
             var1['footer'] = var2;
             var2 = {};
@@ -711,9 +711,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var9;
             var10 = var1.channel;
             var _closure2_slot1 = var10;
-            var21 = var1.guild;
-            var _closure2_slot2 = var21;
-            var23 = var1.visible;
+            var24 = var1.guild;
+            var _closure2_slot2 = var24;
+            var21 = var1.visible;
             var7 = var1.messageContext;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -735,15 +735,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
-            var19 = var4.bind(var6)(var3, var1);
+            var20 = var4.bind(var6)(var3, var1);
             var6 = _closure1_slot3;
             var4 = var6.useEffect;
-            var11 = null;
-            var3 = var11 == var21;
+            var14 = null;
+            var3 = var14 == var24;
             var1 = undefined;
             if(var3) { _fun0006_ip = 124; continue _fun0006 }
  119:
-            var1 = var21.id;
+            var1 = var24.id;
  124:
             var3 = new Array(2);
             var3[0] = var1;
@@ -795,20 +795,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var3.bind(var5)(var1);
             var6 = var8.useICYMIMessage;
             var3 = var10.id;
-            var12 = var11 == var7;
+            var11 = var14 == var7;
             var1 = undefined;
-            if(var12) { _fun0006_ip = 206; continue _fun0006 }
+            if(var11) { _fun0006_ip = 206; continue _fun0006 }
  200:
             var1 = var7.reply_message_id;
  206:
-            var24 = var6.bind(var8)(var3, var1);
+            var22 = var6.bind(var8)(var3, var1);
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var4];
             var6 = var3.bind(var5)(var1);
             var4 = var6.useICYMIMessage;
             var3 = var10.id;
-            var8 = var11 == var7;
+            var8 = var14 == var7;
             var1 = undefined;
             if(var8) { _fun0006_ip = 255; continue _fun0006 }
  249:
@@ -824,13 +824,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 'ICYMIMessageRow';
             var1 = var3.bind(var4)(var1);
             var3 = _closure1_slot20;
-            var16 = var3.bind(var5)(var1);
+            var11 = var3.bind(var5)(var1);
             var7 = _closure1_slot3;
             var6 = var7.useCallback;
             var3 = var10.id;
             var4 = new Array(3);
             var4[0] = var3;
-            var3 = var21.id;
+            var3 = var24.id;
             var4[1] = var3;
             var3 = var9.id;
             var4[2] = var3;
@@ -927,12 +927,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var15 = var6.bind(var12)(var3, var4);
+            var17 = var6.bind(var12)(var3, var4);
             var12 = _closure1_slot3;
             var6 = var12.useCallback;
             var4 = new Array(2);
             var4[0] = var9;
-            var3 = var21.id;
+            var3 = var24.id;
             var4[1] = var3;
             var3 = function() {
                 _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
@@ -968,7 +968,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var20 = var6.bind(var12)(var3, var4);
+            var23 = var6.bind(var12)(var3, var4);
             var6 = _closure1_slot3;
             var4 = var6.useMemo;
             var3 = new Array(1);
@@ -988,18 +988,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var6 = var4.bind(var6)(var2, var3);
-            if(var1) { _fun0006_ip = 1044; continue _fun0006 }
+            if(var1) { _fun0006_ip = 1075; continue _fun0006 }
  508:
             var3 = _closure1_slot17;
-            var17 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var22 = 28;
-            var1 = var18[var22];
-            var1 = var17.bind(var5)(var1);
+            var18 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var15 = 28;
+            var1 = var19[var15];
+            var1 = var18.bind(var5)(var1);
             var2 = var1.MessageContentPost;
             var1 = {};
             var1['channel'] = var10;
-            var1['guild'] = var21;
+            var1['guild'] = var24;
             var4 = var9.author;
             var1['author'] = var4;
             var1['message'] = var9;
@@ -1009,120 +1009,127 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['type'] = var4;
             var27 = _closure1_slot1;
             var4 = 32;
-            var4 = var18[var4];
-            var14 = var27.bind(var5)(var4);
-            var12 = var14.extractTimestamp;
+            var4 = var19[var4];
+            var16 = var27.bind(var5)(var4);
+            var12 = var16.extractTimestamp;
             var4 = var9.id;
-            var4 = var12.bind(var14)(var4);
+            var4 = var12.bind(var16)(var4);
             var1['timestamp'] = var4;
             var1['onHeaderPress'] = var8;
             var1['onHeaderLongPress'] = var7;
-            var14 = _closure1_slot17;
+            var16 = _closure1_slot17;
             var4 = 33;
-            var4 = var18[var4];
-            var4 = var17.bind(var5)(var4);
+            var4 = var19[var4];
+            var4 = var18.bind(var5)(var4);
             var12 = var4.PressableHighlight;
             var4 = {};
             var4['onPress'] = var8;
-            var4['onLongPress'] = var15;
-            var15 = 130;
-            var4['unstable_pressDelay'] = var15;
-            var15 = 'button';
-            var4['accessibilityRole'] = var15;
-            var15 = 34;
-            var26 = var18[var15];
+            var4['onLongPress'] = var17;
+            var17 = 130;
+            var4['unstable_pressDelay'] = var17;
+            var17 = 'button';
+            var4['accessibilityRole'] = var17;
+            var17 = 34;
+            var26 = var19[var17];
             var27 = var27.bind(var5)(var26);
             var26 = {};
             var26['channel'] = var10;
             var26 = var27.bind(var5)(var26);
             var4['accessibilityLabel'] = var26;
-            var15 = var18[var15];
-            var18 = var17.bind(var5)(var15);
-            var17 = var18.getChannelA11yHint;
-            var15 = {};
-            var15['channel'] = var10;
-            var15['muted'] = var19;
-            var15 = var17.bind(var18)(var15);
-            var4['accessibilityHint'] = var15;
-            var15 = var16.pressable;
-            var4['style'] = var15;
-            var15 = var11 != var25;
-            var17 = null;
-            if(!var15) { _fun0006_ip = 791; continue _fun0006 }
- 758:
-            var19 = _closure1_slot16;
-            var18 = _closure1_slot22;
-            var15 = {};
-            var15['message'] = var25;
-            var15['channel'] = var10;
-            var15['guild'] = var21;
-            var15['visible'] = var23;
-            var17 = var19.bind(var5)(var18, var15);
- 791:
-            var15 = new Array(3);
-            var15[0] = var17;
-            var19 = _closure1_slot16;
-            var18 = _closure1_slot22;
+            var17 = var19[var17];
+            var19 = var18.bind(var5)(var17);
+            var18 = var19.getChannelA11yHint;
             var17 = {};
-            var17['message'] = var9;
             var17['channel'] = var10;
-            var17['guild'] = var21;
-            var17['visible'] = var23;
-            var17 = var19.bind(var5)(var18, var17);
-            var15[1] = var17;
-            var18 = var11 != var24;
-            var17 = null;
-            if(!var18) { _fun0006_ip = 873; continue _fun0006 }
- 845:
-            var23 = _closure1_slot16;
-            var19 = _closure1_slot23;
-            var18 = {};
-            var18['message'] = var24;
-            var18['channel'] = var10;
-            var18['guild'] = var21;
-            var17 = var23.bind(var5)(var19, var18);
- 873:
-            var15[2] = var17;
-            var4['children'] = var15;
-            var12 = var14.bind(var5)(var12, var4);
-            var4 = new Array(3);
-            var4[0] = var12;
-            var15 = _closure1_slot17;
-            var14 = _closure1_slot4;
-            var12 = {};
-            var16 = var16.footer;
-            var12['style'] = var16;
-            var19 = _closure1_slot16;
-            var18 = _closure1_slot1;
-            var17 = _closure1_slot2;
-            var16 = 35;
-            var16 = var17[var16];
-            var18 = var18.bind(var5)(var16);
-            var16 = {};
-            var16['message'] = var9;
-            var16['channel'] = var10;
-            var18 = var19.bind(var5)(var18, var16);
-            var16 = new Array(2);
-            var16[0] = var18;
-            var19 = _closure1_slot16;
-            var18 = _closure1_slot0;
-            var17 = var17[var22];
-            var17 = var18.bind(var5)(var17);
-            var18 = var17.ThreadAsComments;
+            var17['muted'] = var20;
+            var17 = var18.bind(var19)(var17);
+            var4['accessibilityHint'] = var17;
+            var17 = var11.pressable;
+            var4['style'] = var17;
+            var17 = var14 != var25;
+            var18 = null;
+            if(!var17) { _fun0006_ip = 791; continue _fun0006 }
+ 758:
+            var20 = _closure1_slot16;
+            var19 = _closure1_slot22;
             var17 = {};
-            var17['guild'] = var21;
-            var17['parentMessage'] = var9;
-            var17['onPress'] = var20;
-            var17 = var19.bind(var5)(var18, var17);
-            var16[1] = var17;
-            var12['children'] = var16;
-            var12 = var15.bind(var5)(var14, var12);
-            var4[1] = var12;
-            var4[2] = var11;
+            var17['message'] = var25;
+            var17['channel'] = var10;
+            var17['guild'] = var24;
+            var17['visible'] = var21;
+            var18 = var20.bind(var5)(var19, var17);
+ 791:
+            var17 = new Array(3);
+            var17[0] = var18;
+            var20 = _closure1_slot16;
+            var19 = _closure1_slot22;
+            var18 = {};
+            var18['message'] = var9;
+            var18['channel'] = var10;
+            var18['guild'] = var24;
+            var18['visible'] = var21;
+            var18 = var20.bind(var5)(var19, var18);
+            var17[1] = var18;
+            var19 = var14 != var22;
+            var18 = null;
+            if(!var19) { _fun0006_ip = 873; continue _fun0006 }
+ 845:
+            var21 = _closure1_slot16;
+            var20 = _closure1_slot23;
+            var19 = {};
+            var19['message'] = var22;
+            var19['channel'] = var10;
+            var19['guild'] = var24;
+            var18 = var21.bind(var5)(var20, var19);
+ 873:
+            var17[2] = var18;
+            var4['children'] = var17;
+            var12 = var16.bind(var5)(var12, var4);
+            var4 = new Array(4);
+            var4[0] = var12;
+            var18 = _closure1_slot17;
+            var17 = _closure1_slot4;
+            var16 = {};
+            var11 = var11.footer;
+            var16['style'] = var11;
+            var20 = _closure1_slot16;
+            var19 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            var12 = 35;
+            var12 = var11[var12];
+            var19 = var19.bind(var5)(var12);
+            var12 = {};
+            var12['message'] = var9;
+            var12['channel'] = var10;
+            var12 = var20.bind(var5)(var19, var12);
+            var19 = new Array(2);
+            var19[0] = var12;
+            var22 = _closure1_slot16;
+            var12 = _closure1_slot0;
+            var20 = var11[var15];
+            var20 = var12.bind(var5)(var20);
+            var21 = var20.ThreadAsComments;
+            var20 = {};
+            var20['guild'] = var24;
+            var20['parentMessage'] = var9;
+            var20['onPress'] = var23;
+            var20 = var22.bind(var5)(var21, var20);
+            var19[1] = var20;
+            var16['children'] = var19;
+            var16 = var18.bind(var5)(var17, var16);
+            var4[1] = var16;
+            var4[2] = var14;
+            var14 = _closure1_slot16;
+            var11 = var11[var15];
+            var11 = var12.bind(var5)(var11);
+            var12 = var11.Separator;
+            var11 = {};
+            var11 = var14.bind(var5)(var12, var11);
+            var4[3] = var11;
             var1['children'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0006_ip = 1206; continue _fun0006;
- 1044:
+            _fun0006_ip = 1237; continue _fun0006;
+ 1075:
             var4 = _closure1_slot16;
             var11 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -1159,7 +1166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onHeaderLongPress'] = var7;
             var2['conversationProps'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1206:
+ 1237:
             return var1;
         }
     };

@@ -178,6 +178,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['PREMIUM_TIER_2_DISCOUNT_ENDING_NOTICE'] = var1;
     var1 = 'boosted guild perks modal';
     var2['BOOSTED_GUILD_PERKS_MODAL'] = var1;
+    var1 = 'portkey overview';
+    var2['PORTKEY_OVERVIEW'] = var1;
     var1 = 'guild powerups - overview';
     var2['GUILD_POWERUPS_OVERVIEW'] = var1;
     var1 = 'guild powerups - guild settings role edit';
@@ -568,6 +570,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MESSAGE_REACTIONS'] = var1;
     var1 = 'message preview reactions';
     var2['MESSAGE_PREVIEW_REACTIONS'] = var1;
+    var1 = 'double tap to react action sheet';
+    var2['DOUBLE_TAP_TO_REACT_ACTION_SHEET'] = var1;
     var1 = 'app icon selector';
     var2['APP_ICON_SELECTOR'] = var1;
     var1 = 'app icon editor';
