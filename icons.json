@@ -12366,15 +12366,6 @@
         "width": 24,
         "height": 24
     },
-    "strike-detail-header": {
-        "file": "modules/safety_hub/images/strike-detail-header.png",
-        "hash": "ba5a7a6ae03572cf6b7dfa5d87700868",
-        "scales": [
-            1
-        ],
-        "width": 222,
-        "height": 202
-    },
     "study": {
         "file": "modules/hub/native/images/study.png",
         "hash": "3c685966e643346896f1eed744338b14",
