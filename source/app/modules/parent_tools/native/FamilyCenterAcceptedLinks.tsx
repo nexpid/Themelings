@@ -283,8 +283,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['style'] = var8;
             var9 = var10.length;
             var8 = 0;
-            if(!(var8 !== var9)) { _fun0002_ip = 358; continue _fun0002 }
- 337:
+            if(!(var8 !== var9)) { _fun0002_ip = 359; continue _fun0002 }
+ 338:
             var9 = var10.map;
             var8 = function(arg1) {
                 var1 = arg1;
@@ -303,8 +303,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var8 = var9.bind(var10)(var8);
-            _fun0002_ip = 469; continue _fun0002;
- 358:
+            _fun0002_ip = 470; continue _fun0002;
+ 359:
             var11 = _closure1_slot7;
             var10 = _closure1_slot3;
             var9 = {};
@@ -330,7 +330,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var14.bind(var4)(var13, var12);
             var9['children'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 469:
+ 470:
             var6['children'] = var8;
             var6 = var7.bind(var4)(var2, var6);
             var5[1] = var6;

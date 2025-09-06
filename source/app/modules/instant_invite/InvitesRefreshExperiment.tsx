@@ -45,7 +45,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8[var4];
     var10 = var7.bind(var1)(var4);
     var9 = var10.createExperiment;
-    var4 = {'kind': 'user', 'id': '2025-09_invite_refresh_entrypoints', 'label': 'Invites Refresh'};
+    var4 = {'kind': 'user', 'id': '2025-09_invite_refresh_entrypoints', 'label': 'Invites Refresh Entrypoints Only'};
     var12 = {'isVoiceChannelEntrypointEnabled': false, 'isInCallEntrypointEnabled': false, 'isGuildEntrypointEnabled': false, 'isTextChannelEntrypointEnabled': false};
     var4['defaultConfig'] = var12;
     var11 = var11.CONNECTION_OPEN;

@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var6 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 637; continue _fun0001 }
+                    if(var7) { _fun0001_ip = 692; continue _fun0001 }
  15:
                     var2 = var6;
                     var _closure4_slot0 = var6;
@@ -38,7 +38,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = undefined;
                     var7 = var6.type;
                     var6 = 'image/webp';
-                    if(!(var6 !== var7)) { _fun0001_ip = 600; continue _fun0001 }
+                    if(!(var6 !== var7)) { _fun0001_ip = 655; continue _fun0001 }
  46:
                     var9 = ['image/png'];
                     var7 = var9.includes;
@@ -137,7 +137,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  229:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
                     var3 = var2;
-                    if(var6) { _fun0001_ip = 558; continue _fun0001 }
+                    if(var6) { _fun0001_ip = 613; continue _fun0001 }
  241:
                     var5 = var3;
  244: // try_start_2 // try_end1
@@ -151,39 +151,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.bind(var7)(var5);
                     var4 = var6;
                     var5 = null;
-                    if(!(var5 != var6)) { _fun0001_ip = 483; continue _fun0001 }
+                    if(!(var5 != var6)) { _fun0001_ip = 538; continue _fun0001 }
  295:
                     var7 = var4;
                     var6 = var7.hasTransparency;
                     var6 = var6.bind(var7)();
-                    if(var6) { _fun0001_ip = 449; continue _fun0001 }
+                    if(var6) { _fun0001_ip = 504; continue _fun0001 }
  316:
                     var7 = var4;
                     var6 = var7.isAnimated;
                     var6 = var6.bind(var7)();
-                    if(var6) { _fun0001_ip = 415; continue _fun0001 }
- 332: // try_start_3 // try_end2
+                    if(var6) { _fun0001_ip = 470; continue _fun0001 }
+ 335:
+                    var7 = var4;
+                    var6 = var7.isPng8;
+                    var6 = var6.bind(var7)();
+                    if(var6) { _fun0001_ip = 436; continue _fun0001 }
+ 353: // try_start_3 // try_end2
                     var6 = var4;
                     var4 = var6.hasSrgbIccProfile;
                     var4 = var4.bind(var6)();
-                    SaveGenerator(address=351);
- 349:
+                    SaveGenerator(address=372);
+ 370:
                     return var4;
- 351:
+ 372:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(var6) { _fun0001_ip = 376; continue _fun0001 }
- 357:
-                    if(var4) { _fun0001_ip = 373; continue _fun0001 }
- 360:
+                    if(var6) { _fun0001_ip = 397; continue _fun0001 }
+ 378:
+                    if(var4) { _fun0001_ip = 394; continue _fun0001 }
+ 381:
                     var6 = _closure1_slot5;
                     var6 = var6.ICC_NON_SRGB_PROFILE;
- 370: // try_end3
+ 391: // try_end3
                     return var6;
- 373:
+ 394:
                     return var5;
- 376:
+ 397:
                     return var4;
- 379: // catch_target3
+ 400: // catch_target3
                     CatchBlockStart(arg_register=6);
                     var6 = _closure1_slot4;
                     var5 = var6.warn;
@@ -192,25 +197,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = _closure1_slot5;
                     var4 = var4.ICC_DETECTION_FAILED;
                     return var4;
- 415: // try_start_4
+ 436: // try_start_4
+                    var6 = _closure1_slot4;
+                    var5 = var6.verbose;
+                    var4 = '[webp] png is PNG8 format (indexed color) - skipping conversion';
+                    var4 = var5.bind(var6)(var4);
+                    var4 = _closure1_slot5;
+                    var4 = var4.PNG8_FORMAT;
+ 467: // try_end4
+                    return var4;
+ 470: // try_start_5
                     var6 = _closure1_slot4;
                     var5 = var6.verbose;
                     var4 = '[webp] png is animated (apng) - skipping conversion';
                     var4 = var5.bind(var6)(var4);
                     var4 = _closure1_slot5;
                     var4 = var4.ANIMATED_IMAGE;
- 446: // try_end4
+ 501: // try_end5
                     return var4;
- 449: // try_start_5
+ 504: // try_start_6
                     var6 = _closure1_slot4;
                     var5 = var6.verbose;
                     var4 = '[webp] png uses actual transparency - skipping conversion';
                     var4 = var5.bind(var6)(var4);
                     var3 = _closure1_slot5;
                     var3 = var3.HAS_TRANSPARENCY;
- 480: // try_end5
+ 535: // try_end6
                     return var3;
- 483: // try_start_6
+ 538: // try_start_7
                     var3 = global;
                     var5 = var3.Error;
                     var3 = var5.prototype;
@@ -220,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = new var15[var5](var14, var13);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
- 519: // try_end6 // catch_target2 // catch_target4 // catch_target5 // catch_target6
+ 574: // try_end7 // catch_target2 // catch_target4 // catch_target5 // catch_target6 // catch_target7
                     CatchBlockStart(arg_register=6);
                     var6 = _closure1_slot4;
                     var5 = var6.warn;
@@ -229,9 +243,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure1_slot5;
                     var3 = var3.CORRUPTED_FILE;
                     return var3;
- 558:
+ 613:
                     return var2;
- 561: // catch_target0 // catch_target1
+ 616: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=5);
                     var5 = _closure1_slot4;
                     var4 = var5.warn;
@@ -240,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure1_slot5;
                     var2 = var2.CONVERSION_FAILED;
                     return var2;
- 600:
+ 655:
                     var5 = _closure1_slot4;
                     var4 = var5.verbose;
                     var3 = '[WebP] File already WebP format';
@@ -248,7 +262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure1_slot5;
                     var2 = var2.ALREADY_WEBP;
                     return var2;
- 637:
+ 692:
                     return var1;
                 }
             };
@@ -1024,6 +1038,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['ANIMATED_IMAGE'] = var7;
     var7 = 'has_transparency';
     var6['HAS_TRANSPARENCY'] = var7;
+    var7 = 'png8_format';
+    var6['PNG8_FORMAT'] = var7;
     var7 = 'insufficient_savings';
     var6['INSUFFICIENT_SAVINGS'] = var7;
     var7 = 'conversion_failed';

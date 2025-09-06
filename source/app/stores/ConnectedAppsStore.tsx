@@ -200,12 +200,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.application;
             var1 = var5.id;
             var4 = null;
-            if(!(var4 != var1)) { _fun0003_ip = 126; continue _fun0003 }
+            if(!(var4 != var1)) { _fun0003_ip = 128; continue _fun0003 }
  19:
             var2 = var5.id;
             var3 = _closure1_slot7;
             var3 = var3[var2];
-            if(!(var4 == var3)) { _fun0003_ip = 100; continue _fun0003 }
+            if(!(var4 == var3)) { _fun0003_ip = 101; continue _fun0003 }
  39:
             var4 = _closure1_slot7;
             var3 = {};
@@ -222,7 +222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = false;
             var3['authenticated'] = var5;
             var4[var2] = var3;
- 100:
+ 101:
             var1 = _closure1_slot7;
             var2 = var1[var2];
             var1 = var2.count;
@@ -230,7 +230,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['count'] = var1;
             var1 = undefined;
             return var1;
- 126:
+ 128:
             var1 = false;
             return var1;
         }
@@ -279,7 +279,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5[var3];
             var2 = var4 != var3;
  42:
-            if(!var2) { _fun0005_ip = 112; continue _fun0005 }
+            if(!var2) { _fun0005_ip = 114; continue _fun0005 }
  45:
             var4 = _closure1_slot7;
             var3 = var1.id;
@@ -292,12 +292,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4[var3];
             var4 = var3.count;
             var3 = 0;
-            if(!(var3 === var4)) { _fun0005_ip = 112; continue _fun0005 }
- 99:
+            if(!(var3 === var4)) { _fun0005_ip = 114; continue _fun0005 }
+ 101:
             var2 = _closure1_slot7;
             var1 = var1.id;
             var1 = delete var2[var1];
- 112:
+ 114:
             var1 = undefined;
             return var1;
         }

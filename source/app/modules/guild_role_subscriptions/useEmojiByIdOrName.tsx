@@ -1,11 +1,11 @@
-// app/modules/guild_role_subscriptions/useEmojiById.tsx
+// app/modules/guild_role_subscriptions/useEmojiByIdOrName.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
     var _closure1_slot1 = var6;
-    var2 = function useEmojiById(arg1, arg2) {
+    var2 = function useEmojiByIdOrName(arg1, arg2) {
         var7 = arg1;
         var6 = arg2;
         var _closure2_slot0 = var7;
@@ -69,9 +69,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/guild_role_subscriptions/useEmojiById.tsx';
+    var4 = 'modules/guild_role_subscriptions/useEmojiByIdOrName.tsx';
     var4 = var5.bind(var6)(var4);
     var3['default'] = var2;
-    var3['useEmojiById'] = var2;
+    var3['useEmojiByIdOrName'] = var2;
     return var1;
 })();

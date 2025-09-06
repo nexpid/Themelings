@@ -1479,35 +1479,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.bind(var1)(var4);
                     var4 = var5.getNativeSyntheticEventData;
                     var4 = var4.bind(var5)(var2);
-                    var8 = var4.reaction;
-                    var7 = var4.messageId;
-                    var6 = var4.isBurst;
-                    var9 = _closure3_slot0;
-                    var5 = var9.isModalOrActionsheetObstructing;
-                    var5 = var5.bind(var9)();
-                    if(var5) { _fun0016_ip = 155; continue _fun0016 }
+                    var9 = var4.reaction;
+                    var8 = var4.messageId;
+                    var7 = var4.isBurst;
+                    var6 = _closure3_slot0;
+                    var5 = var6.isModalOrActionsheetObstructing;
+                    var5 = var5.bind(var6)();
+                    if(var5) { _fun0016_ip = 185; continue _fun0016 }
  76:
                     var5 = _closure3_slot0;
                     var4 = var5.getMessageData;
-                    var4 = var4.bind(var5)(var7);
+                    var4 = var4.bind(var5)(var8);
                     var5 = null;
-                    if(!(var5 != var4)) { _fun0016_ip = 155; continue _fun0016 }
+                    if(!(var5 != var4)) { _fun0016_ip = 185; continue _fun0016 }
  97:
-                    var13 = var4.messageChannel;
+                    var6 = var4.messageChannel;
                     var4 = _closure1_slot0;
-                    var9 = _closure1_slot3;
+                    var5 = _closure1_slot3;
                     var3 = 75;
-                    var3 = var9[var3];
-                    var4 = var4.bind(var1)(var3);
-                    var3 = var4.handleAddOrRemoveReaction;
+                    var3 = var5[var3];
+                    var5 = var4.bind(var1)(var3);
+                    var4 = var5.handleAddOrRemoveReaction;
+                    var3 = {};
+                    var15 = var3;
+                    var14 = var9;
+                    var10 = copyDataProperties(var15, var14);
+                    var10 = var9.emoji;
+                    var9 = 'emoji';
+                    var3[var9] = var10;
                     var2 = var2.nativeEvent;
-                    var10 = var2.location;
-                    var15 = var4;
-                    var14 = var7;
-                    var12 = var8;
-                    var11 = var6;
-                    var2 = var15[var3](var14, var13, var12, var11, var10, var9);
- 155:
+                    var11 = var2.location;
+                    var16 = var5;
+                    var15 = var8;
+                    var14 = var6;
+                    var13 = var3;
+                    var12 = var7;
+                    var2 = var16[var4](var15, var14, var13, var12, var11, var10);
+ 185:
                     return var1;
                 }
             };

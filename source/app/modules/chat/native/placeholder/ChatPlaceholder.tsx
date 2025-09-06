@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = 7;
         var5 = var9[var5];
         var7 = var2.bind(var4)(var5);
-        var5 = {'isKeyboardAwareOnAndroid': false, 'includeKeyboardHeightIOS': true};
+        var5 = {'isKeyboardAwareOnAndroid': false, 'includeKeyboardHeight': true};
         var5 = var7.bind(var4)(var5);
         var5 = var5.insets;
         var7 = {};

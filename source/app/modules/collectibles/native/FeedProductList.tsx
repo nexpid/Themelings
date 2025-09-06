@@ -1,93 +1,116 @@
 // app/modules/collectibles/native/FeedProductList.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var5 = require;
-    var11 = metroImportDefault;
+    var6 = require;
+    var12 = metroImportDefault;
     var3 = exports;
-    var6 = dependencyMap;
-    var _closure1_slot0 = var5;
-    var _closure1_slot1 = var11;
-    var _closure1_slot2 = var6;
+    var7 = dependencyMap;
+    var _closure1_slot0 = var6;
+    var _closure1_slot1 = var12;
+    var _closure1_slot2 = var7;
+    var2 = function useColumns() {
+        var3 = _closure1_slot1;
+        var8 = _closure1_slot2;
+        var2 = 6;
+        var2 = var8[var2];
+        var7 = undefined;
+        var2 = var3.bind(var7)(var2);
+        var4 = var2.bind(var7)();
+        var2 = global;
+        var3 = var2.Math;
+        var2 = var3.floor;
+        var4 = var4.width;
+        var6 = _closure1_slot0;
+        var1 = 7;
+        var1 = var8[var1];
+        var1 = var6.bind(var7)(var1);
+        var5 = var1.COLLECTIBLES_SHOP_CARD_WIDTH;
+        var1 = 5;
+        var1 = var8[var1];
+        var1 = var6.bind(var7)(var1);
+        var1 = var1.SHOP_CARD_GAP;
+        var1 = var5 + var1;
+        var1 = var4 / var1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var _closure1_slot9 = var2;
     var1 = global;
-    var8 = var1.Object;
-    var7 = var8.defineProperty;
-    var4 = {};
+    var9 = var1.Object;
+    var8 = var9.defineProperty;
+    var5 = {};
     var1 = true;
-    var4['value'] = var1;
+    var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = var8.bind(var9)(var3, var1, var5);
     var1 = 0;
-    var7 = var6[var1];
-    var4 = metroImportAll;
+    var8 = var7[var1];
+    var5 = metroImportAll;
     var1 = undefined;
-    var4 = var4.bind(var1)(var7);
-    var4 = 1;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.View;
-    var _closure1_slot3 = var4;
-    var4 = 2;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot4 = var4;
-    var4 = 3;
-    var4 = var6[var4];
-    var8 = var5.bind(var1)(var4);
-    var7 = var8.createStyles;
-    var4 = {};
-    var9 = {'flex': 1, 'alignItems': 'center'};
-    var10 = 4;
-    var10 = var6[var10];
-    var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
-    var10 = var10.PX_16;
-    var9['paddingTop'] = var10;
-    var4['skeletonGrid'] = var9;
-    var9 = {'flexDirection': 'row', 'justifyContent': 'center'};
-    var10 = 5;
-    var11 = var6[var10];
-    var11 = var5.bind(var1)(var11);
-    var11 = var11.SHOP_CARD_GAP;
-    var9['gap'] = var11;
-    var10 = var6[var10];
-    var10 = var5.bind(var1)(var10);
-    var10 = var10.SHOP_CARD_GAP;
-    var9['paddingBottom'] = var10;
-    var4['skeletonRow'] = var9;
-    var4 = var7.bind(var8)(var4);
-    var _closure1_slot5 = var4;
-    var4 = function SkeletonGrid(arg1) {
+    var5 = var5.bind(var1)(var8);
+    var5 = 1;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var5 = var5.View;
+    var _closure1_slot3 = var5;
+    var5 = 2;
+    var5 = var7[var5];
+    var5 = var6.bind(var1)(var5);
+    var8 = var5.jsx;
+    var _closure1_slot4 = var8;
+    var8 = var5.Fragment;
+    var _closure1_slot5 = var8;
+    var5 = var5.jsxs;
+    var _closure1_slot6 = var5;
+    var5 = 3;
+    var5 = var7[var5];
+    var9 = var6.bind(var1)(var5);
+    var8 = var9.createStyles;
+    var5 = {};
+    var10 = {'flex': 1, 'alignItems': 'center'};
+    var11 = 4;
+    var13 = var7[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var10['paddingTop'] = var13;
+    var5['skeletonGrid'] = var10;
+    var10 = {'flexDirection': 'row', 'justifyContent': 'center'};
+    var13 = 5;
+    var14 = var7[var13];
+    var14 = var6.bind(var1)(var14);
+    var14 = var14.SHOP_CARD_GAP;
+    var10['gap'] = var14;
+    var13 = var7[var13];
+    var13 = var6.bind(var1)(var13);
+    var13 = var13.SHOP_CARD_GAP;
+    var10['paddingBottom'] = var13;
+    var5['skeletonRow'] = var10;
+    var10 = {};
+    var13 = var7[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_16;
+    var10['paddingHorizontal'] = var13;
+    var11 = var7[var11];
+    var11 = var12.bind(var1)(var11);
+    var11 = var11.spacing;
+    var11 = var11.PX_16;
+    var10['marginBottom'] = var11;
+    var5['titleContainer'] = var10;
+    var5 = var8.bind(var9)(var5);
+    var _closure1_slot7 = var5;
+    var5 = function SkeletonGrid(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
             var8 = var1.loadingCardsNum;
             var _closure2_slot0 = var8;
-            var3 = _closure1_slot5;
+            var3 = _closure1_slot7;
             var4 = undefined;
             var6 = var3.bind(var4)();
             var _closure2_slot1 = var6;
-            var5 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var3 = 6;
-            var3 = var12[var3];
-            var3 = var5.bind(var4)(var3);
-            var3 = var3.bind(var4)();
-            var5 = global;
-            var7 = var5.Math;
-            var5 = var7.floor;
-            var9 = var3.width;
-            var11 = _closure1_slot0;
-            var3 = 7;
-            var3 = var12[var3];
-            var3 = var11.bind(var4)(var3);
-            var10 = var3.COLLECTIBLES_SHOP_CARD_WIDTH;
-            var3 = 5;
-            var3 = var12[var3];
-            var3 = var11.bind(var4)(var3);
-            var3 = var3.SHOP_CARD_GAP;
-            var3 = var10 + var3;
-            var3 = var9 / var3;
-            var7 = var5.bind(var7)(var3);
+            var3 = _closure1_slot9;
+            var7 = var3.bind(var4)();
             var _closure2_slot2 = var7;
             var5 = new Array(0);
             var _closure2_slot3 = var5;
@@ -156,12 +179,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = 0;
             var9 = var2 < var8;
-            if(!var9) { _fun0001_ip = 169; continue _fun0001 }
- 156:
+            if(!var9) { _fun0001_ip = 81; continue _fun0001 }
+ 68:
             var9 = var3.bind(var4)(var2);
             var2 = var2 + var7;
-            if(var2 < var8) { _fun0001_ip = 156; continue _fun0001 }
- 169:
+            if(var2 < var8) { _fun0001_ip = 68; continue _fun0001 }
+ 81:
             var3 = _closure1_slot4;
             var2 = _closure1_slot3;
             var1 = {};
@@ -172,72 +195,88 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot6 = var4;
-    var4 = 9;
-    var4 = var6[var4];
-    var6 = var5.bind(var1)(var4);
-    var5 = var6.fileFinishedImporting;
-    var4 = 'modules/collectibles/native/FeedProductList.tsx';
-    var4 = var5.bind(var6)(var4);
-    var2 = function FeedProductList(arg1) {
+    var _closure1_slot8 = var5;
+    var5 = 10;
+    var5 = var7[var5];
+    var7 = var6.bind(var1)(var5);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/collectibles/native/FeedProductList.tsx';
+    var5 = var6.bind(var7)(var5);
+    var4 = function FeedProductList(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var1 = arg1;
-            var7 = var1.products;
-            var6 = var1.loadingCardsNum;
-            var4 = _closure1_slot1;
-            var1 = _closure1_slot2;
-            var3 = 6;
-            var3 = var1[var3];
-            var5 = undefined;
-            var3 = var4.bind(var5)(var3);
-            var8 = var3.bind(var5)();
-            var3 = global;
-            var4 = var3.Math;
-            var3 = var4.floor;
-            var8 = var8.width;
-            var11 = _closure1_slot0;
-            var9 = 7;
-            var9 = var1[var9];
-            var9 = var11.bind(var5)(var9);
-            var10 = var9.COLLECTIBLES_SHOP_CARD_WIDTH;
-            var9 = 5;
-            var1 = var1[var9];
-            var1 = var11.bind(var5)(var1);
-            var1 = var1.SHOP_CARD_GAP;
-            var1 = var10 + var1;
-            var1 = var8 / var1;
-            var8 = var3.bind(var4)(var1);
-            var3 = var7.length;
-            var1 = 0;
-            if(!(var1 !== var3)) { _fun0002_ip = 181; continue _fun0002 }
- 127:
-            var4 = _closure1_slot4;
-            var3 = _closure1_slot1;
-            var1 = _closure1_slot2;
-            var1 = var1[var9];
-            var3 = var3.bind(var5)(var1);
-            var1 = {};
-            var1['products'] = var7;
-            var7 = 1;
-            var9 = var8 < var7;
-            if(var9) { _fun0002_ip = 168; continue _fun0002 }
- 165:
-            var7 = var8;
- 168:
-            var1['column'] = var7;
-            var1 = var4.bind(var5)(var3, var1);
-            _fun0002_ip = 202; continue _fun0002;
- 181:
-            var4 = _closure1_slot4;
+            var11 = var1.products;
+            var10 = var1.loadingCardsNum;
+            var15 = var1.title;
+            var1 = _closure1_slot7;
+            var4 = undefined;
+            var13 = var1.bind(var4)();
+            var1 = _closure1_slot9;
+            var12 = var1.bind(var4)();
             var3 = _closure1_slot6;
-            var2 = {};
-            var2['loadingCardsNum'] = var6;
-            var1 = var4.bind(var5)(var3, var2);
- 202:
+            var2 = _closure1_slot5;
+            var1 = {};
+            var5 = null;
+            var6 = var5 != var15;
+            if(!var6) { _fun0002_ip = 137; continue _fun0002 }
+ 60:
+            var9 = _closure1_slot4;
+            var8 = _closure1_slot3;
+            var5 = {};
+            var13 = var13.titleContainer;
+            var5['style'] = var13;
+            var14 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var13 = 9;
+            var13 = var16[var13];
+            var13 = var14.bind(var4)(var13);
+            var14 = var13.Text;
+            var13 = {};
+            var16 = 'heading-lg/semibold';
+            var13['variant'] = var16;
+            var13['children'] = var15;
+            var13 = var9.bind(var4)(var14, var13);
+            var5['children'] = var13;
+            var6 = var9.bind(var4)(var8, var5);
+ 137:
+            var5 = new Array(2);
+            var5[0] = var6;
+            var8 = var11.length;
+            var6 = 0;
+            if(!(var6 !== var8)) { _fun0002_ip = 213; continue _fun0002 }
+ 156:
+            var9 = _closure1_slot4;
+            var8 = _closure1_slot1;
+            var13 = _closure1_slot2;
+            var6 = 5;
+            var6 = var13[var6];
+            var8 = var8.bind(var4)(var6);
+            var6 = {};
+            var6['products'] = var11;
+            var11 = 1;
+            var13 = var12 < var11;
+            if(var13) { _fun0002_ip = 200; continue _fun0002 }
+ 197:
+            var11 = var12;
+ 200:
+            var6['column'] = var11;
+            var6 = var9.bind(var4)(var8, var6);
+            _fun0002_ip = 234; continue _fun0002;
+ 213:
+            var9 = _closure1_slot4;
+            var8 = _closure1_slot8;
+            var7 = {};
+            var7['loadingCardsNum'] = var10;
+            var6 = var9.bind(var4)(var8, var7);
+ 234:
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
             return var1;
         }
     };
-    var3['default'] = var2;
+    var3['default'] = var4;
+    var3['useColumns'] = var2;
     return var1;
 })();

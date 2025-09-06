@@ -419,10 +419,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.useCanCreateOrAddGuildInDirectory;
             var4 = var1.bind(var3)(var4);
             var1 = null;
-            if(!var4) { _fun0004_ip = 388; continue _fun0004 }
+            if(!var4) { _fun0004_ip = 384; continue _fun0004 }
  81:
             var1 = null;
-            if(var2) { _fun0004_ip = 388; continue _fun0004 }
+            if(var2) { _fun0004_ip = 384; continue _fun0004 }
  89:
             var4 = _closure1_slot19;
             var16 = _closure1_slot0;
@@ -508,7 +508,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 388:
+ 384:
             return var1;
         }
     };

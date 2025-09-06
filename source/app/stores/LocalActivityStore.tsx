@@ -253,16 +253,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot16;
             var4 = var8.getCurrentUserActiveStream;
             var4 = var4.bind(var8)();
-            if(!(var6 != var9)) { _fun0002_ip = 758; continue _fun0002 }
+            if(!(var6 != var9)) { _fun0002_ip = 728; continue _fun0002 }
  560:
             var8 = var9.name;
-            if(!(var6 != var8)) { _fun0002_ip = 758; continue _fun0002 }
+            if(!(var6 != var8)) { _fun0002_ip = 728; continue _fun0002 }
  572:
-            if(var7) { _fun0002_ip = 758; continue _fun0002 }
+            if(var7) { _fun0002_ip = 728; continue _fun0002 }
  578:
             if(!var5) { _fun0002_ip = 588; continue _fun0002 }
  581:
-            if(!(var6 != var4)) { _fun0002_ip = 758; continue _fun0002 }
+            if(!(var6 != var4)) { _fun0002_ip = 728; continue _fun0002 }
  588:
             var7 = _closure1_slot18;
             var5 = var7.getGameByName;
@@ -288,16 +288,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  664:
             var4['application_id'] = var7;
             var7 = {};
-            var10 = var9.distributor;
-            var11 = var6 != var10;
-            var8 = undefined;
-            if(!var11) { _fun0002_ip = 689; continue _fun0002 }
- 686:
-            var8 = var10;
- 689:
-            var7['distributor'] = var8;
-            var4['metadata'] = var7;
-            var7 = {};
             var8 = var9.start;
             var7['start'] = var8;
             var4['timestamps'] = var7;
@@ -311,12 +301,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var4;
             var7 = copyDataProperties(var16, var15);
             var4 = var5.bind(var3)(var4);
- 758:
+ 728:
             var5 = _closure1_slot14;
             var4 = var5.getActivity;
             var7 = var4.bind(var5)();
-            if(!(var6 != var7)) { _fun0002_ip = 812; continue _fun0002 }
- 776:
+            if(!(var6 != var7)) { _fun0002_ip = 782; continue _fun0002 }
+ 746:
             var5 = var3.push;
             var4 = {};
             var8 = _closure1_slot22;
@@ -326,12 +316,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var7;
             var7 = copyDataProperties(var16, var15);
             var4 = var5.bind(var3)(var4);
- 812:
+ 782:
             var5 = _closure1_slot12;
             var4 = var5.getCurrentHangStatus;
             var8 = var4.bind(var5)();
-            if(!(var6 != var8)) { _fun0002_ip = 923; continue _fun0002 }
- 830:
+            if(!(var6 != var8)) { _fun0002_ip = 893; continue _fun0002 }
+ 800:
             var5 = _closure1_slot12;
             var4 = var5.getCustomHangStatus;
             var7 = var4.bind(var5)();
@@ -345,20 +335,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['state'] = var8;
             var9 = var6 == var7;
             var8 = undefined;
-            if(var9) { _fun0002_ip = 893; continue _fun0002 }
- 888:
+            if(var9) { _fun0002_ip = 863; continue _fun0002 }
+ 858:
             var8 = var7.status;
- 893:
+ 863:
             var4['details'] = var8;
             var8 = var6 == var7;
             var6 = undefined;
-            if(var8) { _fun0002_ip = 913; continue _fun0002 }
- 907:
+            if(var8) { _fun0002_ip = 883; continue _fun0002 }
+ 877:
             var6 = var7.emoji;
- 913:
+ 883:
             var4['emoji'] = var6;
             var4 = var5.bind(var3)(var4);
- 923:
+ 893:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
             var4 = 23;
@@ -366,10 +356,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var4);
             var4 = _closure1_slot23;
             var4 = var5.bind(var1)(var4, var3);
-            if(var4) { _fun0002_ip = 960; continue _fun0002 }
- 956:
+            if(var4) { _fun0002_ip = 930; continue _fun0002 }
+ 926:
             _closure1_slot23 = var3;
- 960:
+ 930:
             return var1;
         }
     };

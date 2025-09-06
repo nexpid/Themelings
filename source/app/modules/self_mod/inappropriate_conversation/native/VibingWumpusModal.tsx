@@ -157,10 +157,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.wumpus;
             var9['style'] = var12;
             var12 = undefined;
-            if(!var14) { _fun0001_ip = 322; continue _fun0001 }
- 312:
+            if(!var14) { _fun0001_ip = 326; continue _fun0001 }
+ 316:
             var12 = 0.8;
- 322:
+ 326:
             var9['progress'] = var12;
             var10 = var11.bind(var4)(var10, var9);
             var9 = new Array(3);
@@ -280,15 +280,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19[var24];
             var19 = var21.bind(var4)(var19);
             var21 = var19.t;
-            if(var17) { _fun0001_ip = 816; continue _fun0001 }
- 803:
+            if(var17) { _fun0001_ip = 822; continue _fun0001 }
+ 809:
             var19 = var21.ZcgDJS;
             var19 = var22.bind(var23)(var19);
-            _fun0001_ip = 827; continue _fun0001;
- 816:
+            _fun0001_ip = 833; continue _fun0001;
+ 822:
             var21 = var21.RscU7O;
             var19 = var22.bind(var23)(var21);
- 827:
+ 833:
             var14['text'] = var19;
             var18 = function onPress() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
@@ -373,19 +373,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = _closure1_slot12;
             var21 = _closure1_slot0;
             var22 = _closure1_slot2;
-            if(var17) { _fun0001_ip = 877; continue _fun0001 }
- 857:
+            if(var17) { _fun0001_ip = 885; continue _fun0001 }
+ 865:
             var17 = 21;
             var17 = var22[var17];
             var17 = var21.bind(var4)(var17);
             var18 = var17.PauseIcon;
-            _fun0001_ip = 895; continue _fun0001;
- 877:
+            _fun0001_ip = 903; continue _fun0001;
+ 885:
             var17 = 20;
             var17 = var22[var17];
             var17 = var21.bind(var4)(var17);
             var18 = var17.PlayIcon;
- 895:
+ 903:
             var17 = {};
             var21 = 'md';
             var17['size'] = var21;

@@ -227,31 +227,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = 4;
     var2['dismissibleContentVersion'] = var5;
     var5 = {};
-    var11 = function getImageUrl(arg1, arg2) {
-        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
- 0:
-            var3 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var1 = arg2;
-            if(var1) { _fun0001_ip = 26; continue _fun0001 }
- 17:
-            var1 = 9;
-            var2 = var4[var1];
-            _fun0001_ip = 33; continue _fun0001;
- 26:
-            var1 = 8;
-            var2 = var4[var1];
- 33:
-            var1 = undefined;
-            var1 = var3.bind(var1)(var2);
-            return var1;
-        }
+    var11 = function getImageUrl() {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 8;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        return var1;
     };
     var5['getImageUrl'] = var11;
     var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -268,7 +257,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = function description() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -285,7 +274,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = function cta() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -299,7 +288,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var5['cta'] = var11;
-    var11 = 11;
+    var11 = 10;
     var11 = var7[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.GIFTING_PROMOTION_COACHMARK;
@@ -317,7 +306,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function heading() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -334,7 +323,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function subheading() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -351,7 +340,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function mobileSubheading(arg1) {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var3 = var6[var1];
         var2 = undefined;
         var3 = var5.bind(var2)(var3);
@@ -372,7 +361,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function getImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 9;
+        var1 = 11;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -399,7 +388,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function desktopBannerText() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -416,7 +405,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function mobileBannerText() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -433,7 +422,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function getImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 8;
+        var1 = 13;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -455,7 +444,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function getAnimatedImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 13;
+        var1 = 14;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -465,7 +454,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function getStaticImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 14;
+        var1 = 15;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -475,7 +464,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -492,7 +481,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = function body() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;
-        var1 = 10;
+        var1 = 9;
         var2 = var6[var1];
         var4 = undefined;
         var2 = var5.bind(var4)(var2);
@@ -509,7 +498,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function getBackgroundImageUrl() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot2;
-        var1 = 15;
+        var1 = 16;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -517,7 +506,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var5['getBackgroundImageUrl'] = var8;
     var2['billingSettingsMarketingBanner'] = var5;
-    var5 = 16;
+    var5 = 17;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

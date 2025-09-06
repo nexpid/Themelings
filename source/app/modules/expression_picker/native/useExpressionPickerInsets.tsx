@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 3;
             var1 = var7[var1];
             var4 = var4.bind(var5)(var1);
-            var1 = {'includeKeyboardHeightAndroid': true, 'includeKeyboardHeightIOS': true, 'includeCustomKeyboardHeightIOS': false};
+            var1 = {'includeKeyboardHeight': true, 'includeCustomKeyboardHeightIOS': false};
             var1 = var4.bind(var5)(var1);
             var1 = var1.insets;
             var4 = var1.bottom;
@@ -66,10 +66,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var8.bind(var9)(var3, var7);
             var1['safeAreaStyle'] = var3;
             var3 = 0;
-            if(!var6) { _fun0001_ip = 133; continue _fun0001 }
- 129:
-            var3 = _closure1_slot3;
+            if(!var6) { _fun0001_ip = 137; continue _fun0001 }
  133:
+            var3 = _closure1_slot3;
+ 137:
             var3 = var4 + var3;
             var4 = _closure1_slot0;
             var6 = _closure1_slot1;

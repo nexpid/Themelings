@@ -484,7 +484,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 8;
             var2 = var21[var2];
             var3 = var8.bind(var4)(var2);
-            var2 = {'includeKeyboardHeightIOS': true, 'includeKeyboardHeightAndroid': true};
+            var2 = {};
+            var9 = true;
+            var2['includeKeyboardHeight'] = var9;
             var2 = var3.bind(var4)(var2);
             var2 = var2.insets;
             var10 = var2.top;
@@ -506,8 +508,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 'below';
             var9 = var9 === var28;
             var2 = var2 - var7;
-            if(var9) { _fun0004_ip = 424; continue _fun0004 }
- 388:
+            if(var9) { _fun0004_ip = 419; continue _fun0004 }
+ 383:
             var14 = var2 - var10;
             var21 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -516,8 +518,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var21.bind(var4)(var10);
             var10 = var10.CONTEXT_MENU_EDGE_OFFSET;
             var14 = var14 - var10;
-            _fun0004_ip = 458; continue _fun0004;
- 424:
+            _fun0004_ip = 453; continue _fun0004;
+ 419:
             var3 = var2 - var3;
             var10 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -526,7 +528,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var10.bind(var4)(var2);
             var2 = var2.CONTEXT_MENU_EDGE_OFFSET;
             var14 = var3 - var2;
- 458:
+ 453:
             _closure2_slot9 = var14;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -538,10 +540,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot10 = var2;
             var21 = {};
             var3 = 'bottom';
-            if(!var9) { _fun0004_ip = 510; continue _fun0004 }
- 506:
+            if(!var9) { _fun0004_ip = 505; continue _fun0004 }
+ 501:
             var3 = 'top';
- 510:
+ 505:
             var21[var3] = var7;
             var21[var27] = var5;
             var3 = 'maxHeight';
@@ -559,7 +561,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var9[var22];
             var8 = var7.bind(var4)(var3);
             var5 = var8.useAnimatedStyle;
-            var3 = function H() {
+            var3 = function R() {
                 _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                     var1 = global;
@@ -1016,8 +1018,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['accessibilityRole'] = var12;
             var14 = null;
             var12 = var14 != var18;
-            if(!var12) { _fun0004_ip = 1211; continue _fun0004 }
- 1080:
+            if(!var12) { _fun0004_ip = 1206; continue _fun0004 }
+ 1075:
             var21 = _closure1_slot7;
             var20 = _closure1_slot6;
             var12 = {};
@@ -1047,7 +1049,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22[1] = var23;
             var12['children'] = var22;
             var14 = var21.bind(var4)(var20, var12);
- 1211:
+ 1206:
             var12 = new Array(2);
             var12[0] = var14;
             var14 = _closure1_slot17;

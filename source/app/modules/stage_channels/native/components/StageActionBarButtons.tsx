@@ -654,7 +654,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPress'] = var8;
             var1['isSmallSize'] = var6;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0006_ip = 511; continue _fun0006;
+            _fun0006_ip = 512; continue _fun0006;
  318:
             var4 = _closure1_slot14;
             var3 = _closure1_slot2;
@@ -700,7 +700,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['notifications'] = var7;
             var2['isSmallSize'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 511:
+ 512:
             return var1;
         }
     };

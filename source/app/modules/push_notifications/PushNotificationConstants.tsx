@@ -29,18 +29,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var5.startsWith;
         var2 = 'com.discord.kodiak';
         var2 = var6.bind(var5)(var2);
-        var6 = 'apns';
-        var7 = var5;
-        if(!var2) { _fun0001_ip = 122; continue _fun0001 }
- 116:
+        var7 = var5.startsWith;
+        var6 = 'com.hammerandchisel.discord.local';
+        var8 = var7.bind(var5)(var6);
         var6 = 'apns_internal';
- 122:
+        var7 = var5;
+        if(var2) { _fun0001_ip = 151; continue _fun0001 }
+ 133:
+        var5 = 'apns';
+        if(!var8) { _fun0001_ip = 148; continue _fun0001 }
+ 142:
+        var5 = 'apns_local';
+ 148:
+        var6 = var5;
+ 151:
         var _closure1_slot2 = var6;
-        var5 = 'apns_voip';
-        if(!var2) { _fun0001_ip = 141; continue _fun0001 }
- 135:
         var5 = 'apns_internal_voip';
- 141:
+        if(var2) { _fun0001_ip = 182; continue _fun0001 }
+ 164:
+        var2 = 'apns_voip';
+        if(!var8) { _fun0001_ip = 179; continue _fun0001 }
+ 173:
+        var2 = 'apns_local_voip';
+ 179:
+        var5 = var2;
+ 182:
         var2 = {};
         var8 = 'reminder';
         var2['REMINDER'] = var8;

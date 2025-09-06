@@ -825,13 +825,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = 27;
             var16 = var32[var10];
             var17 = var31.bind(var4)(var16);
-            var16 = {'includeCustomKeyboardHeightIOS': false, 'includeCustomKeyboardHeightAndroid': false, 'includeKeyboardHeightIOS': true};
+            var16 = {'includeCustomKeyboardHeightIOS': false, 'includeCustomKeyboardHeightAndroid': false, 'includeKeyboardHeight': true};
             var16 = var17.bind(var4)(var16);
             var16 = var16.insets;
             var16 = var16.bottom;
             var10 = var32[var10];
             var17 = var31.bind(var4)(var10);
-            var10 = {'includeCustomKeyboardHeightIOS': false, 'includeCustomKeyboardHeightAndroid': false, 'includeKeyboardHeightIOS': true, 'includeKeyboardHeightAndroid': true};
+            var10 = {'includeCustomKeyboardHeightIOS': false, 'includeCustomKeyboardHeightAndroid': false, 'includeKeyboardHeight': true};
             var10 = var17.bind(var4)(var10);
             var10 = var10.insets;
             var23 = _closure1_slot6;

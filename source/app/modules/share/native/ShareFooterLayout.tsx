@@ -121,8 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var5[var1];
             var6 = var2.bind(var4)(var1);
             var1 = {};
-            var1['includeKeyboardHeightAndroid'] = var7;
-            var1['includeKeyboardHeightIOS'] = var7;
+            var1['includeKeyboardHeight'] = var7;
             var1 = var6.bind(var4)(var1);
             var1 = var1.insets;
             var6 = var12.footer;
@@ -185,8 +184,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var5 = var10 != var16;
             var6 = null;
-            if(!var5) { _fun0001_ip = 346; continue _fun0001 }
- 288:
+            if(!var5) { _fun0001_ip = 341; continue _fun0001 }
+ 283:
             var8 = _closure1_slot6;
             var7 = _closure1_slot5;
             var5 = {};
@@ -201,7 +200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[1] = var16;
             var5['children'] = var9;
             var6 = var8.bind(var4)(var7, var5);
- 346:
+ 341:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot6;
@@ -220,8 +219,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = new Array(2);
             var9[0] = var12;
             var10 = var10 != var14;
-            if(!var10) { _fun0001_ip = 476; continue _fun0001 }
- 423:
+            if(!var10) { _fun0001_ip = 471; continue _fun0001 }
+ 418:
             var13 = _closure1_slot4;
             var12 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -232,7 +231,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = {'variant': 'text-sm/normal', 'color': 'text-warning'};
             var11['children'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 476:
+ 471:
             var9[1] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

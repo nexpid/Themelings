@@ -123,7 +123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = 9;
             var2 = var7[var2];
             var3 = var3.bind(var4)(var2);
-            var2 = var3.useEmojiById;
+            var2 = var3.useEmojiByIdOrName;
             var12 = var2.bind(var3)(var10, var1);
             var8 = var1;
             if(!(var11 == var8)) { _fun0001_ip = 231; continue _fun0001 }

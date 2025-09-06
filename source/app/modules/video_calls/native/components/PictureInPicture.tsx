@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var5.bind(var4)(var1);
             var1 = {};
             var12 = true;
-            var1['includeKeyboardHeightIOS'] = var12;
+            var1['includeKeyboardHeight'] = var12;
             var1 = var9.bind(var4)(var1);
             var17 = var1.insets;
             _closure2_slot0 = var17;
@@ -189,7 +189,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3[var9];
             var10 = var2.bind(var4)(var1);
             var8 = var10.useAnimatedStyle;
-            var1 = function f() {
+            var1 = function S() {
                 var1 = {};
                 var2 = _closure2_slot0;
                 var2 = var2.top;

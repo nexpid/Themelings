@@ -708,39 +708,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     var1 = arg1;
-                    var1 = var1.nativeEvent;
-                    var7 = var1.reaction;
-                    var6 = var1.isBurst;
-                    var2 = _closure2_slot20;
-                    var3 = null;
-                    if(!(var3 != var2)) { _fun0009_ip = 133; continue _fun0009 }
- 33:
+                    var2 = var1.nativeEvent;
+                    var1 = var2.reaction;
+                    var7 = var2.isBurst;
+                    var3 = _closure2_slot20;
+                    var4 = null;
+                    if(!(var4 != var3)) { _fun0009_ip = 163; continue _fun0009 }
+ 36:
                     var8 = _closure1_slot9;
-                    var5 = var8.getChannel;
-                    var4 = _closure2_slot0;
-                    var5 = var5.bind(var8)(var4);
-                    if(!(var3 != var5)) { _fun0009_ip = 133; continue _fun0009 }
- 58:
+                    var6 = var8.getChannel;
+                    var5 = _closure2_slot0;
+                    var6 = var6.bind(var8)(var5);
+                    if(!(var4 != var6)) { _fun0009_ip = 163; continue _fun0009 }
+ 61:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var2 = 26;
-                    var2 = var10[var2];
+                    var3 = 26;
+                    var3 = var10[var3];
                     var8 = undefined;
-                    var4 = var9.bind(var8)(var2);
-                    var3 = var4.handleAddOrRemoveReaction;
-                    var2 = _closure2_slot1;
+                    var5 = var9.bind(var8)(var3);
+                    var4 = var5.handleAddOrRemoveReaction;
+                    var3 = _closure2_slot1;
+                    var2 = {};
+                    var16 = var2;
+                    var15 = var1;
+                    var11 = copyDataProperties(var16, var15);
+                    var11 = var1.emoji;
+                    var1 = 'emoji';
+                    var2[var1] = var11;
                     var1 = 27;
                     var1 = var10[var1];
                     var1 = var9.bind(var8)(var1);
                     var1 = var1.ReactionLocations;
-                    var11 = var1.MOBILE_MEDIA_VIEWER;
-                    var16 = var4;
-                    var15 = var2;
-                    var14 = var5;
+                    var12 = var1.MOBILE_MEDIA_VIEWER;
+                    var17 = var5;
+                    var16 = var3;
+                    var15 = var6;
+                    var14 = var2;
                     var13 = var7;
-                    var12 = var6;
-                    var1 = var16[var3](var15, var14, var13, var12, var11, var10);
- 133:
+                    var1 = var17[var4](var16, var15, var14, var13, var12, var11);
+ 163:
                     var1 = undefined;
                     return var1;
                 }

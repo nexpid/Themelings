@@ -381,10 +381,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16[0] = var17;
             var17 = {};
             var18 = 0;
-            if(!var19) { _fun0002_ip = 250; continue _fun0002 }
- 247:
+            if(!var19) { _fun0002_ip = 251; continue _fun0002 }
+ 248:
             var18 = 1;
- 250:
+ 251:
             var17['flexGrow'] = var18;
             var16[1] = var17;
             var1['style'] = var16;
@@ -430,8 +430,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[0] = var8;
             var8 = var5 != var13;
             var5 = null;
-            if(!var8) { _fun0002_ip = 421; continue _fun0002 }
- 387:
+            if(!var8) { _fun0002_ip = 423; continue _fun0002 }
+ 388:
             var9 = _closure1_slot4;
             var8 = _closure1_slot15;
             var7 = {};
@@ -440,7 +440,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['activeIndex'] = var11;
             var7['pressed'] = var10;
             var5 = var9.bind(var4)(var8, var7);
- 421:
+ 423:
             var6[1] = var5;
             var5 = 'children';
             var1[var5] = var6;

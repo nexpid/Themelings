@@ -383,7 +383,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg1;
             var1 = var3.length;
             var11 = 1;
-            if(!(!(var1 < var11))) { _fun0005_ip = 576; continue _fun0005 }
+            if(!(!(var1 < var11))) { _fun0005_ip = 577; continue _fun0005 }
  18:
             var2 = _closure1_slot7;
             var8 = undefined;
@@ -419,13 +419,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var12.length;
             var2 = var1 < var11;
             var1 = '';
-            if(var2) { _fun0005_ip = 574; continue _fun0005 }
+            if(var2) { _fun0005_ip = 575; continue _fun0005 }
  130:
             var2 = var12.length;
-            if(!(var11 !== var2)) { _fun0005_ip = 464; continue _fun0005 }
+            if(!(var11 !== var2)) { _fun0005_ip = 465; continue _fun0005 }
  142:
             var2 = var12.length;
-            if(!(var10 !== var2)) { _fun0005_ip = 317; continue _fun0005 }
+            if(!(var10 !== var2)) { _fun0005_ip = 318; continue _fun0005 }
  154:
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
@@ -468,8 +468,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['count'] = var6;
             var2['emojiNames'] = var7;
             var2 = var4.bind(var5)(var3, var2);
-            _fun0005_ip = 462; continue _fun0005;
- 317:
+            _fun0005_ip = 463; continue _fun0005;
+ 318:
             var4 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 29;
@@ -490,10 +490,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var15 = var10 == var14;
             var13 = undefined;
-            if(var15) { _fun0005_ip = 408; continue _fun0005 }
- 403:
+            if(var15) { _fun0005_ip = 409; continue _fun0005 }
+ 404:
             var13 = var14.username;
- 408:
+ 409:
             var3['firstUsername'] = var13;
             var14 = _closure1_slot3;
             var13 = var14.getUser;
@@ -501,16 +501,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.bind(var14)(var11);
             var13 = var10 == var11;
             var10 = undefined;
-            if(var13) { _fun0005_ip = 446; continue _fun0005 }
- 441:
+            if(var13) { _fun0005_ip = 447; continue _fun0005 }
+ 442:
             var10 = var11.username;
- 446:
+ 447:
             var3['secondUsername'] = var10;
             var3['emojiNames'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 462:
-            _fun0005_ip = 571; continue _fun0005;
- 464:
+ 463:
+            _fun0005_ip = 572; continue _fun0005;
+ 465:
             var4 = _closure1_slot0;
             var10 = _closure1_slot2;
             var3 = 29;
@@ -531,18 +531,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = null;
             var10 = var10 == var9;
             var8 = undefined;
-            if(var10) { _fun0005_ip = 555; continue _fun0005 }
- 550:
+            if(var10) { _fun0005_ip = 556; continue _fun0005 }
+ 551:
             var8 = var9.username;
- 555:
+ 556:
             var3['firstUsername'] = var8;
             var3['emojiNames'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 571:
+ 572:
             var1 = var2;
- 574:
+ 575:
             return var1;
- 576:
+ 577:
             var1 = '';
             return var1;
         }

@@ -61,7 +61,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 2;
             var1 = var11[var1];
             var2 = var2.bind(var6)(var1);
-            var1 = var2.useEmojiById;
+            var1 = var2.useEmojiByIdOrName;
             var13 = var1.bind(var2)(var7, var5);
             var2 = null;
             if(!(var2 != var13)) { _fun0001_ip = 319; continue _fun0001 }

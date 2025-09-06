@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = arg1;
                     var4 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 1377; continue _fun0001 }
+                    if(var5) { _fun0001_ip = 1577; continue _fun0001 }
  18:
                     var7 = var2;
                     var _closure4_slot0 = var2;
@@ -30,68 +30,79 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  31:
                     var4 = {};
  33:
-                    var21 = undefined;
-                    var _closure4_slot1 = var5;
                     var22 = undefined;
-                    var _closure4_slot2 = var5;
+                    var _closure4_slot1 = var5;
                     var23 = undefined;
+                    var _closure4_slot2 = var5;
+                    var24 = undefined;
                     var10 = undefined;
                     var _closure4_slot3 = var5;
-                    var19 = undefined;
-                    var15 = undefined;
+                    var20 = undefined;
+                    var16 = undefined;
+                    var13 = undefined;
                     var12 = undefined;
                     var8 = undefined;
                     var9 = undefined;
                     var14 = undefined;
-                    SaveGenerator(address=69);
- 67:
-                    return var5;
+                    SaveGenerator(address=71);
  69:
+                    return var5;
+ 71:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=10);
-                    if(var11) { _fun0001_ip = 1374; continue _fun0001 }
- 78:
+                    if(var11) { _fun0001_ip = 1574; continue _fun0001 }
+ 80:
                     var11 = var4.source;
-                    var21 = var11;
+                    var22 = var11;
                     _closure4_slot1 = var11;
                     var11 = var4.loadId;
-                    var22 = var11;
+                    var23 = var11;
                     _closure4_slot2 = var11;
-                    var23 = var4.lurkLocation;
-                    var13 = var4.lurker;
+                    var24 = var4.lurkLocation;
+                    var15 = var4.lurker;
                     var11 = null;
-                    var4 = var11 != var13;
-                    if(!var4) { _fun0001_ip = 127; continue _fun0001 }
- 124:
-                    var4 = var13;
- 127:
+                    var4 = var11 != var15;
+                    if(!var4) { _fun0001_ip = 129; continue _fun0001 }
+ 126:
+                    var4 = var15;
+ 129:
                     var10 = var4;
                     _closure4_slot3 = var4;
-                    var16 = _closure1_slot14;
-                    var13 = var16.getCurrentUser;
-                    var18 = var13.bind(var16)();
-                    var16 = var11 == var18;
-                    var13 = undefined;
-                    if(var16) { _fun0001_ip = 180; continue _fun0001 }
- 159:
-                    var17 = var18.hasFlag;
-                    var16 = _closure1_slot17;
-                    var16 = var16.QUARANTINED;
-                    var13 = var17.bind(var18)(var16);
- 180:
-                    if(!(var11 != var13)) { _fun0001_ip = 190; continue _fun0001 }
- 184:
-                    if(var13) { _fun0001_ip = 1314; continue _fun0001 }
- 190:
-                    var16 = _closure1_slot1;
-                    var13 = _closure1_slot3;
-                    var18 = 13;
-                    var13 = var13[var18];
-                    var17 = var16.bind(var5)(var13);
-                    var16 = var17.wait;
-                    var13 = function() {
+                    var17 = _closure1_slot14;
+                    var15 = var17.getCurrentUser;
+                    var19 = var15.bind(var17)();
+                    var17 = var11 == var19;
+                    var15 = undefined;
+                    if(var17) { _fun0001_ip = 182; continue _fun0001 }
+ 161:
+                    var18 = var19.hasFlag;
+                    var17 = _closure1_slot17;
+                    var17 = var17.QUARANTINED;
+                    var15 = var18.bind(var19)(var17);
+ 182:
+                    if(!(var11 != var15)) { _fun0001_ip = 192; continue _fun0001 }
+ 186:
+                    if(var15) { _fun0001_ip = 1514; continue _fun0001 }
+ 192:
+                    var17 = _closure1_slot0;
+                    var18 = _closure1_slot3;
+                    var15 = 16;
+                    var15 = var18[var15];
+                    var18 = var17.bind(var5)(var15);
+                    var17 = var18.shouldShowReverifyForLargeGuildId;
+                    var15 = var7;
+                    var15 = var17.bind(var18)(var15);
+                    if(var15) { _fun0001_ip = 1437; continue _fun0001 }
+ 232:
+                    var17 = _closure1_slot1;
+                    var15 = _closure1_slot3;
+                    var19 = 14;
+                    var15 = var15[var19];
+                    var18 = var17.bind(var5)(var15);
+                    var17 = var18.wait;
+                    var15 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot3;
-                        var1 = 13;
+                        var1 = 14;
                         var2 = var2[var1];
                         var1 = undefined;
                         var3 = var3.bind(var1)(var2);
@@ -110,287 +121,310 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var2.bind(var3)(var1);
                         return var1;
                     };
-                    var13 = var16.bind(var17)(var13);
- 226: // try_start_0
-                    var16 = _closure1_slot13;
-                    var13 = var16.getGuildId;
-                    var17 = var13.bind(var16)();
-                    var16 = var7;
-                    var13 = null;
-                    if(!(var16 === var17)) { _fun0001_ip = 293; continue _fun0001 }
- 249:
-                    var20 = _closure1_slot11;
-                    var17 = var20.getGuild;
-                    var16 = var7;
-                    var16 = var17.bind(var20)(var16);
-                    var16 = var11 != var16;
-                    var13 = null;
-                    if(!var16) { _fun0001_ip = 293; continue _fun0001 }
- 275:
-                    var20 = _closure1_slot12;
-                    var17 = var20.getChannelId;
-                    var16 = var7;
-                    var13 = var17.bind(var20)(var16);
- 293:
-                    var19 = var13;
-                    var16 = _closure1_slot0;
-                    var17 = _closure1_slot3;
-                    var13 = 15;
-                    var13 = var17[var13];
-                    var13 = var16.bind(var5)(var13);
-                    var17 = var13.HTTP;
-                    var16 = var17.put;
-                    var13 = {};
-                    var25 = _closure1_slot16;
-                    var24 = var25.GUILD_JOIN;
-                    var20 = var7;
-                    var20 = var24.bind(var25)(var20);
-                    var13['url'] = var20;
-                    var20 = {};
-                    var25 = var10;
-                    var20['lurker'] = var25;
-                    var24 = null;
-                    if(!var25) { _fun0001_ip = 380; continue _fun0001 }
- 366:
-                    var26 = _closure1_slot8;
-                    var25 = var26.getSessionId;
-                    var24 = var25.bind(var26)();
- 380:
-                    var20['session_id'] = var24;
-                    var20['recommendation_load_id'] = var22;
-                    var24 = var10;
-                    var22 = null;
-                    if(!var24) { _fun0001_ip = 415; continue _fun0001 }
- 400:
-                    var24 = var23;
-                    var24 = var11 != var24;
-                    var22 = null;
-                    if(!var24) { _fun0001_ip = 415; continue _fun0001 }
- 412:
-                    var22 = var23;
- 415:
-                    var20['location'] = var22;
-                    var13['query'] = var20;
-                    var20 = {};
-                    var20['source'] = var21;
-                    var13['context'] = var20;
-                    var20 = true;
-                    var13['oldFormErrors'] = var20;
-                    var20 = {};
-                    var13['body'] = var20;
-                    var20 = false;
-                    var13['rejectWithError'] = var20;
-                    var13 = var16.bind(var17)(var13);
-                    SaveGenerator(address=462);
- 460:
-                    return var13;
- 462:
-                    ResumeGenerator(result_out_reg=12, return_bool_out_reg=15);
-                    if(var16) { _fun0001_ip = 930; continue _fun0001 }
- 471:
-                    var15 = var13;
-                    var16 = var13.body;
-                    var16 = var16.join_request;
-                    if(!(var11 != var16)) { _fun0001_ip = 554; continue _fun0001 }
- 489:
-                    var17 = _closure1_slot1;
-                    var16 = _closure1_slot3;
-                    var16 = var16[var18];
-                    var20 = var17.bind(var5)(var16);
-                    var17 = var20.dispatch;
-                    var16 = {};
-                    var21 = 'USER_GUILD_JOIN_REQUEST_UPDATE';
-                    var16['type'] = var21;
-                    var21 = var7;
-                    var16['guildId'] = var21;
-                    var21 = var15;
-                    var21 = var21.body;
-                    var21 = var21.join_request;
-                    var16['request'] = var21;
-                    var16 = var17.bind(var20)(var16);
- 554:
-                    var20 = _closure1_slot11;
-                    var17 = var20.getGuild;
-                    var16 = var7;
-                    var16 = var17.bind(var20)(var16);
-                    if(!(var11 == var16)) { _fun0001_ip = 597; continue _fun0001 }
- 575:
-                    var16 = var15;
-                    var16 = var16.body;
-                    var16 = var16.show_verification_form;
-                    if(var16) { _fun0001_ip = 878; continue _fun0001 }
- 597:
-                    var16 = var15;
-                    var16 = var16.body;
-                    var16 = var16.welcome_screen;
-                    if(!(var11 != var16)) { _fun0001_ip = 687; continue _fun0001 }
- 615:
-                    var17 = _closure1_slot1;
-                    var16 = _closure1_slot3;
-                    var16 = var16[var18];
-                    var20 = var17.bind(var5)(var16);
-                    var17 = var20.dispatch;
-                    var16 = {};
-                    var21 = 'WELCOME_SCREEN_UPDATE';
-                    var16['type'] = var21;
-                    var21 = var15;
-                    var22 = var21.body;
-                    var22 = var22.id;
-                    var16['guildId'] = var22;
-                    var21 = var21.body;
-                    var21 = var21.welcome_screen;
-                    var16['welcomeScreen'] = var21;
-                    var16 = var17.bind(var20)(var16);
- 687:
-                    var16 = var15;
-                    var16 = var16.body;
-                    var16 = var16.approximate_presence_count;
-                    if(!(var11 != var16)) { _fun0001_ip = 776; continue _fun0001 }
- 705:
-                    var17 = _closure1_slot1;
-                    var16 = _closure1_slot3;
-                    var16 = var16[var18];
-                    var18 = var17.bind(var5)(var16);
-                    var17 = var18.dispatch;
-                    var16 = {};
-                    var20 = 'ONLINE_GUILD_MEMBER_COUNT_UPDATE';
-                    var16['type'] = var20;
+                    var15 = var17.bind(var18)(var15);
+ 268: // try_start_0
+                    var17 = _closure1_slot13;
+                    var15 = var17.getGuildId;
+                    var18 = var15.bind(var17)();
+                    var17 = var7;
+                    var15 = null;
+                    if(!(var17 === var18)) { _fun0001_ip = 335; continue _fun0001 }
+ 291:
+                    var21 = _closure1_slot11;
+                    var18 = var21.getGuild;
+                    var17 = var7;
+                    var17 = var18.bind(var21)(var17);
+                    var17 = var11 != var17;
+                    var15 = null;
+                    if(!var17) { _fun0001_ip = 335; continue _fun0001 }
+ 317:
+                    var21 = _closure1_slot12;
+                    var18 = var21.getChannelId;
+                    var17 = var7;
+                    var15 = var18.bind(var21)(var17);
+ 335:
                     var20 = var15;
-                    var21 = var20.body;
-                    var21 = var21.id;
-                    var16['guildId'] = var21;
-                    var20 = var20.body;
-                    var20 = var20.approximate_presence_count;
-                    var16['count'] = var20;
-                    var16 = var17.bind(var18)(var16);
- 776:
-                    var16 = var10;
-                    if(var16) { _fun0001_ip = 872; continue _fun0001 }
- 782:
-                    var18 = _closure1_slot0;
-                    var16 = _closure1_slot3;
-                    var17 = 18;
-                    var17 = var16[var17];
-                    var18 = var18.bind(var5)(var17);
-                    var17 = 17;
-                    var17 = var16[var17];
-                    var16 = var16.paths;
-                    var16 = var18.bind(var5)(var17, var16);
-                    SaveGenerator(address=824);
- 822:
-                    return var16;
- 824:
-                    ResumeGenerator(result_out_reg=15, return_bool_out_reg=16);
-                    if(var17) { _fun0001_ip = 869; continue _fun0001 }
- 830:
-                    var18 = var16.default;
-                    var17 = {};
-                    var20 = var7;
-                    var17['guildId'] = var20;
-                    var17['returnChannelId'] = var19;
-                    var17 = var18.bind(var5)(var17);
-                    SaveGenerator(address=860);
- 858:
-                    return var17;
- 860:
-                    ResumeGenerator(result_out_reg=16, return_bool_out_reg=17);
-                    if(!var18) { _fun0001_ip = 872; continue _fun0001 }
- 866: // try_end0
-                    return var17;
- 869:
-                    return var16;
- 872: // try_start_1
-                    var16 = var15;
- 875: // try_end1
-                    return var16;
- 878: // try_start_2
                     var17 = _closure1_slot0;
                     var18 = _closure1_slot3;
-                    var16 = 16;
-                    var16 = var18[var16];
-                    var18 = var17.bind(var5)(var16);
-                    var17 = var18.transitionTo;
-                    var20 = _closure1_slot20;
-                    var19 = var20.GUILD_MEMBER_VERIFICATION;
-                    var16 = var7;
-                    var16 = var19.bind(var20)(var16);
-                    var16 = var17.bind(var18)(var16);
- 927: // try_end2
+                    var15 = 18;
+                    var15 = var18[var15];
+                    var15 = var17.bind(var5)(var15);
+                    var18 = var15.HTTP;
+                    var17 = var18.put;
+                    var15 = {};
+                    var26 = _closure1_slot16;
+                    var25 = var26.GUILD_JOIN;
+                    var21 = var7;
+                    var21 = var25.bind(var26)(var21);
+                    var15['url'] = var21;
+                    var21 = {};
+                    var26 = var10;
+                    var21['lurker'] = var26;
+                    var25 = null;
+                    if(!var26) { _fun0001_ip = 422; continue _fun0001 }
+ 408:
+                    var27 = _closure1_slot8;
+                    var26 = var27.getSessionId;
+                    var25 = var26.bind(var27)();
+ 422:
+                    var21['session_id'] = var25;
+                    var21['recommendation_load_id'] = var23;
+                    var25 = var10;
+                    var23 = null;
+                    if(!var25) { _fun0001_ip = 457; continue _fun0001 }
+ 442:
+                    var25 = var24;
+                    var25 = var11 != var25;
+                    var23 = null;
+                    if(!var25) { _fun0001_ip = 457; continue _fun0001 }
+ 454:
+                    var23 = var24;
+ 457:
+                    var21['location'] = var23;
+                    var15['query'] = var21;
+                    var21 = {};
+                    var21['source'] = var22;
+                    var15['context'] = var21;
+                    var21 = true;
+                    var15['oldFormErrors'] = var21;
+                    var21 = {};
+                    var15['body'] = var21;
+                    var21 = false;
+                    var15['rejectWithError'] = var21;
+                    var15 = var17.bind(var18)(var15);
+                    SaveGenerator(address=504);
+ 502:
                     return var15;
- 930:
-                    return var13;
- 933: // catch_target0 // catch_target1 // catch_target2
-                    CatchBlockStart(arg_register=12);
-                    var6 = var13;
+ 504:
+                    ResumeGenerator(result_out_reg=14, return_bool_out_reg=16);
+                    if(var17) { _fun0001_ip = 973; continue _fun0001 }
+ 513:
+                    var16 = var15;
+                    var17 = var15.body;
+                    var17 = var17.join_request;
+                    if(!(var11 != var17)) { _fun0001_ip = 596; continue _fun0001 }
+ 531:
+                    var18 = _closure1_slot1;
+                    var17 = _closure1_slot3;
+                    var17 = var17[var19];
+                    var21 = var18.bind(var5)(var17);
+                    var18 = var21.dispatch;
+                    var17 = {};
+                    var22 = 'USER_GUILD_JOIN_REQUEST_UPDATE';
+                    var17['type'] = var22;
+                    var22 = var7;
+                    var17['guildId'] = var22;
+                    var22 = var16;
+                    var22 = var22.body;
+                    var22 = var22.join_request;
+                    var17['request'] = var22;
+                    var17 = var18.bind(var21)(var17);
+ 596:
+                    var21 = _closure1_slot11;
+                    var18 = var21.getGuild;
+                    var17 = var7;
+                    var17 = var18.bind(var21)(var17);
+                    if(!(var11 == var17)) { _fun0001_ip = 639; continue _fun0001 }
+ 617:
+                    var17 = var16;
+                    var17 = var17.body;
+                    var17 = var17.show_verification_form;
+                    if(var17) { _fun0001_ip = 921; continue _fun0001 }
+ 639:
+                    var17 = var16;
+                    var17 = var17.body;
+                    var17 = var17.welcome_screen;
+                    if(!(var11 != var17)) { _fun0001_ip = 729; continue _fun0001 }
+ 657:
+                    var18 = _closure1_slot1;
+                    var17 = _closure1_slot3;
+                    var17 = var17[var19];
+                    var21 = var18.bind(var5)(var17);
+                    var18 = var21.dispatch;
+                    var17 = {};
+                    var22 = 'WELCOME_SCREEN_UPDATE';
+                    var17['type'] = var22;
+                    var22 = var16;
+                    var23 = var22.body;
+                    var23 = var23.id;
+                    var17['guildId'] = var23;
+                    var22 = var22.body;
+                    var22 = var22.welcome_screen;
+                    var17['welcomeScreen'] = var22;
+                    var17 = var18.bind(var21)(var17);
+ 729:
+                    var17 = var16;
+                    var17 = var17.body;
+                    var17 = var17.approximate_presence_count;
+                    if(!(var11 != var17)) { _fun0001_ip = 819; continue _fun0001 }
+ 747:
+                    var18 = _closure1_slot1;
+                    var17 = _closure1_slot3;
+                    var17 = var17[var19];
+                    var19 = var18.bind(var5)(var17);
+                    var18 = var19.dispatch;
+                    var17 = {};
+                    var21 = 'ONLINE_GUILD_MEMBER_COUNT_UPDATE';
+                    var17['type'] = var21;
+                    var21 = var16;
+                    var22 = var21.body;
+                    var22 = var22.id;
+                    var17['guildId'] = var22;
+                    var21 = var21.body;
+                    var21 = var21.approximate_presence_count;
+                    var17['count'] = var21;
+                    var17 = var18.bind(var19)(var17);
+ 819:
+                    var17 = var10;
+                    if(var17) { _fun0001_ip = 915; continue _fun0001 }
+ 825:
+                    var19 = _closure1_slot0;
+                    var17 = _closure1_slot3;
+                    var18 = 21;
+                    var18 = var17[var18];
+                    var19 = var19.bind(var5)(var18);
+                    var18 = 20;
+                    var18 = var17[var18];
+                    var17 = var17.paths;
+                    var17 = var19.bind(var5)(var18, var17);
+                    SaveGenerator(address=867);
+ 865:
+                    return var17;
+ 867:
+                    ResumeGenerator(result_out_reg=16, return_bool_out_reg=17);
+                    if(var18) { _fun0001_ip = 912; continue _fun0001 }
+ 873:
+                    var19 = var17.default;
+                    var18 = {};
+                    var21 = var7;
+                    var18['guildId'] = var21;
+                    var18['returnChannelId'] = var20;
+                    var18 = var19.bind(var5)(var18);
+                    SaveGenerator(address=903);
+ 901:
+                    return var18;
+ 903:
+                    ResumeGenerator(result_out_reg=17, return_bool_out_reg=18);
+                    if(!var19) { _fun0001_ip = 915; continue _fun0001 }
+ 909: // try_end0
+                    return var18;
+ 912:
+                    return var17;
+ 915: // try_start_1
+                    var17 = var16;
+ 918: // try_end1
+                    return var17;
+ 921: // try_start_2
+                    var18 = _closure1_slot0;
+                    var19 = _closure1_slot3;
+                    var17 = 19;
+                    var17 = var19[var17];
+                    var19 = var18.bind(var5)(var17);
+                    var18 = var19.transitionTo;
+                    var21 = _closure1_slot20;
+                    var20 = var21.GUILD_MEMBER_VERIFICATION;
+                    var17 = var7;
+                    var17 = var20.bind(var21)(var17);
+                    var17 = var18.bind(var19)(var17);
+ 970: // try_end2
+                    return var16;
+ 973:
+                    return var15;
+ 976: // catch_target0 // catch_target1 // catch_target2
+                    CatchBlockStart(arg_register=14);
+                    var6 = var15;
+                    var15 = var15.body;
+                    var13 = var15;
+                    var16 = var11 == var15;
+                    var15 = undefined;
+                    if(var16) { _fun0001_ip = 1003; continue _fun0001 }
+ 998:
+                    var15 = var13.code;
+ 1003:
+                    var13 = _closure1_slot15;
+                    var13 = var13.USER_GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED;
+                    if(!(var15 === var13)) { _fun0001_ip = 1058; continue _fun0001 }
+ 1017:
+                    var15 = _closure1_slot0;
+                    var16 = _closure1_slot3;
+                    var13 = 17;
+                    var13 = var16[var13];
+                    var16 = var15.bind(var5)(var13);
+                    var15 = var16.openAgeGateModal;
+                    var13 = _closure1_slot22;
+                    var13 = var13.JOIN_LARGE_GUILD_UNDERAGE;
+                    var13 = var15.bind(var16)(var13);
+ 1058:
+                    var13 = var6;
                     var13 = var13.body;
                     var12 = var13;
                     var15 = var11 == var13;
                     var13 = undefined;
-                    if(var15) { _fun0001_ip = 960; continue _fun0001 }
- 955:
+                    if(var15) { _fun0001_ip = 1083; continue _fun0001 }
+ 1078:
                     var13 = var12.code;
- 960:
+ 1083:
                     var12 = _closure1_slot15;
                     var12 = var12.TOO_MANY_USER_GUILDS;
-                    if(!(var13 === var12)) { _fun0001_ip = 1077; continue _fun0001 }
- 974:
+                    if(!(var13 === var12)) { _fun0001_ip = 1200; continue _fun0001 }
+ 1097:
                     var13 = _closure1_slot14;
                     var12 = var13.getCurrentUser;
                     var16 = var12.bind(var13)();
                     var14 = var16;
                     var15 = _closure1_slot1;
                     var17 = _closure1_slot3;
-                    var13 = 19;
+                    var13 = 22;
                     var13 = var17[var13];
                     var15 = var15.bind(var5)(var13);
                     var13 = var15.canUseIncreasedGuildCap;
                     var13 = var13.bind(var15)(var16);
                     var12 = var13;
-                    if(var13) { _fun0001_ip = 1055; continue _fun0001 }
- 1027:
+                    if(var13) { _fun0001_ip = 1178; continue _fun0001 }
+ 1150:
                     var13 = var14;
                     var15 = var11 == var13;
                     var13 = undefined;
-                    if(var15) { _fun0001_ip = 1052; continue _fun0001 }
- 1039:
+                    if(var15) { _fun0001_ip = 1175; continue _fun0001 }
+ 1162:
                     var15 = var14;
                     var14 = var15.isStaff;
                     var13 = var14.bind(var15)();
- 1052:
+ 1175:
                     var12 = var13;
- 1055:
-                    var13 = _closure1_slot22;
-                    if(var12) { _fun0001_ip = 1068; continue _fun0001 }
- 1062:
+ 1178:
+                    var13 = _closure1_slot23;
+                    if(var12) { _fun0001_ip = 1191; continue _fun0001 }
+ 1185:
                     var12 = _closure1_slot18;
-                    _fun0001_ip = 1072; continue _fun0001;
- 1068:
+                    _fun0001_ip = 1195; continue _fun0001;
+ 1191:
                     var12 = _closure1_slot19;
- 1072:
+ 1195:
                     var12 = var13.bind(var5)(var12);
- 1077:
+ 1200:
                     var12 = var6;
                     var12 = var12.body;
                     var8 = var12;
                     var13 = var11 == var12;
                     var12 = undefined;
-                    if(var13) { _fun0001_ip = 1102; continue _fun0001 }
- 1097:
+                    if(var13) { _fun0001_ip = 1225; continue _fun0001 }
+ 1220:
                     var12 = var8.code;
- 1102:
+ 1225:
                     var8 = _closure1_slot15;
                     var8 = var8.GUILD_AT_CAPACITY;
-                    if(!(var12 === var8)) { _fun0001_ip = 1255; continue _fun0001 }
- 1119:
+                    if(!(var12 === var8)) { _fun0001_ip = 1378; continue _fun0001 }
+ 1242:
                     var12 = _closure1_slot1;
                     var18 = _closure1_slot3;
-                    var8 = 11;
+                    var8 = 12;
                     var8 = var18[var8];
                     var13 = var12.bind(var5)(var8);
                     var12 = var13.show;
                     var8 = {};
                     var17 = _closure1_slot0;
-                    var14 = 12;
+                    var14 = 13;
                     var15 = var18[var14];
                     var15 = var17.bind(var5)(var15);
                     var19 = var15.intl;
@@ -412,41 +446,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = var15.bind(var16)(var14);
                     var8['body'] = var14;
                     var8 = var12.bind(var13)(var8);
- 1255:
+ 1378:
                     var8 = var10;
-                    if(!var10) { _fun0001_ip = 1300; continue _fun0001 }
- 1261:
+                    if(!var10) { _fun0001_ip = 1423; continue _fun0001 }
+ 1384:
                     var10 = var6;
                     var10 = var10.body;
                     var9 = var10;
                     var11 = var11 == var10;
                     var10 = undefined;
-                    if(var11) { _fun0001_ip = 1286; continue _fun0001 }
- 1281:
+                    if(var11) { _fun0001_ip = 1409; continue _fun0001 }
+ 1404:
                     var10 = var9.code;
- 1286:
+ 1409:
                     var9 = _closure1_slot15;
                     var9 = var9.UNKNOWN_GUILD;
                     var8 = var10 === var9;
- 1300:
-                    if(!var8) { _fun0001_ip = 1312; continue _fun0001 }
- 1303:
-                    var8 = _closure1_slot23;
+ 1423:
+                    if(!var8) { _fun0001_ip = 1435; continue _fun0001 }
+ 1426:
+                    var8 = _closure1_slot24;
                     var7 = var8.bind(var5)(var7);
- 1312:
+ 1435:
                     throw var6;
- 1314:
-                    var6 = _closure1_slot1;
-                    var7 = _closure1_slot3;
-                    var4 = 14;
-                    var4 = var7[var4];
-                    var4 = var6.bind(var5)(var4);
-                    var4 = var4.bind(var5)();
-                    var4 = global;
-                    var5 = var4.Promise;
-                    var4 = var5.prototype;
-                    var4 = Object.create(var4, {constructor: {value: var5}});
-                    var28 = function(arg1, arg2) {
+ 1437:
+                    var7 = _closure1_slot0;
+                    var8 = _closure1_slot3;
+                    var6 = 17;
+                    var6 = var8[var6];
+                    var8 = var7.bind(var5)(var6);
+                    var7 = var8.openAgeGateModal;
+                    var6 = _closure1_slot22;
+                    var6 = var6.JOIN_LARGE_GUILD_UNDERAGE;
+                    var6 = var7.bind(var8)(var6);
+                    var6 = global;
+                    var8 = var6.Promise;
+                    var6 = var8.prototype;
+                    var7 = Object.create(var6, {constructor: {value: var8}});
+                    var29 = function(arg1, arg2) {
                         var1 = global;
                         var1 = var1.Error;
                         var2 = var1.prototype;
@@ -459,13 +496,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var2.bind(var1)(var3);
                         return var1;
                     };
-                    var29 = var4;
-                    var3 = new var29[var5](var28, var27);
+                    var30 = var7;
+                    var6 = new var30[var8](var29, var28);
+                    var6 = var6 instanceof Object ? var6 : var7;
+                    return var6;
+ 1514:
+                    var6 = _closure1_slot1;
+                    var7 = _closure1_slot3;
+                    var4 = 15;
+                    var4 = var7[var4];
+                    var4 = var6.bind(var5)(var4);
+                    var4 = var4.bind(var5)();
+                    var4 = global;
+                    var5 = var4.Promise;
+                    var4 = var5.prototype;
+                    var4 = Object.create(var4, {constructor: {value: var5}});
+                    var29 = function(arg1, arg2) {
+                        var1 = global;
+                        var1 = var1.Error;
+                        var2 = var1.prototype;
+                        var2 = Object.create(var2, {constructor: {value: var1}});
+                        var5 = var2;
+                        var1 = new var5[var1](var4);
+                        var3 = var1 instanceof Object ? var1 : var2;
+                        var2 = arg2;
+                        var1 = undefined;
+                        var1 = var2.bind(var1)(var3);
+                        return var1;
+                    };
+                    var30 = var4;
+                    var3 = new var30[var5](var29, var28);
                     var3 = var3 instanceof Object ? var3 : var4;
                     return var3;
- 1374:
+ 1574:
                     return var2;
- 1377:
+ 1577:
                     return var1;
                 }
             };
@@ -474,7 +539,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot24 = var4;
+        _closure1_slot25 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -482,7 +547,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot24 = var1;
+    var _closure1_slot25 = var1;
     var2 = function waitForGuild(arg1) {
         var2 = arg1;
         var _closure2_slot0 = var2;
@@ -522,7 +587,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1 instanceof Object ? var1 : var2;
         return var1;
     };
-    var _closure1_slot25 = var2;
+    var _closure1_slot26 = var2;
     var1 = ['icon', 'unicodeEmoji'];
     var _closure1_slot4 = var1;
     var1 = global;
@@ -592,17 +657,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot20 = var8;
     var4 = var4.AnalyticEvents;
     var _closure1_slot21 = var4;
+    var4 = 11;
+    var4 = var7[var4];
+    var4 = var6.bind(var1)(var4);
+    var4 = var4.AgeGateSource;
+    var _closure1_slot22 = var4;
     var4 = function showTooManyUserGuildsAlert(arg1) {
         var3 = _closure1_slot1;
         var9 = _closure1_slot3;
-        var1 = 11;
+        var1 = 12;
         var2 = var9[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
         var3 = var4.show;
         var2 = {};
         var6 = _closure1_slot0;
-        var5 = 12;
+        var5 = 13;
         var7 = var9[var5];
         var7 = var6.bind(var1)(var7);
         var10 = var7.intl;
@@ -629,11 +699,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot22 = var4;
+    var _closure1_slot23 = var4;
     var8 = function deleteGuild(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 13;
+        var1 = 14;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -648,11 +718,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var _closure1_slot23 = var8;
+    var _closure1_slot24 = var8;
     var4 = {};
     var9 = function joinGuild() {
         var1 = undefined;
-        var4 = _closure1_slot24;
+        var4 = _closure1_slot25;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -681,7 +751,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
                     if(var2) { _fun0003_ip = 281; continue _fun0003 }
  10:
-                    var5 = _closure1_slot25;
+                    var5 = _closure1_slot26;
                     var2 = _closure2_slot0;
                     var4 = undefined;
                     var2 = var5.bind(var4)(var2);
@@ -699,7 +769,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  59:
                     var6 = _closure1_slot0;
                     var11 = _closure1_slot3;
-                    var5 = 20;
+                    var5 = 23;
                     var5 = var11[var5];
                     var6 = var6.bind(var4)(var5);
                     var5 = var6.getChannelIdForGuildTransition;
@@ -738,7 +808,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  177:
                     var8 = _closure1_slot1;
                     var9 = _closure1_slot3;
-                    var5 = 21;
+                    var5 = 24;
                     var5 = var9[var5];
                     var5 = var8.bind(var4)(var5);
                     var9 = _closure1_slot20;
@@ -782,7 +852,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function selectGuild(arg1) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot3;
-        var1 = 22;
+        var1 = 25;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -795,7 +865,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function createGuild(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 13;
+        var1 = 14;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -812,7 +882,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function setServerMute(arg1, arg2, arg3) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot3;
-        var1 = 15;
+        var1 = 18;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -840,7 +910,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function setServerDeaf(arg1, arg2, arg3) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot3;
-        var1 = 15;
+        var1 = 18;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -868,7 +938,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function setChannel(arg1, arg2, arg3) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot3;
-        var1 = 15;
+        var1 = 18;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
@@ -895,7 +965,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function setMemberFlags(arg1, arg2, arg3) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot3;
-        var1 = 15;
+        var1 = 18;
         var2 = var2[var1];
         var1 = undefined;
         var2 = var3.bind(var1)(var2);
@@ -926,7 +996,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot1 = var7;
         var4 = _closure1_slot0;
         var3 = _closure1_slot3;
-        var2 = 15;
+        var2 = 18;
         var3 = var3[var2];
         var2 = undefined;
         var2 = var4.bind(var2)(var3);
@@ -952,7 +1022,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 13;
+            var1 = 14;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -984,7 +1054,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var1.moderatorReportId;
             var2 = _closure1_slot1;
             var14 = _closure1_slot3;
-            var1 = 23;
+            var1 = 26;
             var1 = var14[var1];
             var13 = undefined;
             var3 = var2.bind(var13)(var1);
@@ -1003,7 +1073,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['oldFormErrors'] = var4;
             var4 = {};
             var12 = _closure1_slot0;
-            var5 = 24;
+            var5 = 27;
             var5 = var14[var5];
             var5 = var12.bind(var13)(var5);
             var5 = var5.NetworkActionNames;
@@ -1047,7 +1117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function banUser(arg1, arg2, arg3, arg4, arg5) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot3;
-        var1 = 15;
+        var1 = 18;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1079,7 +1149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function unbanUser(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot3;
-        var1 = 15;
+        var1 = 18;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1099,7 +1169,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function banMultipleUsers(arg1, arg2, arg3, arg4) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot3;
-        var1 = 15;
+        var1 = 18;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1159,7 +1229,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  41:
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot3;
-                    var2 = 12;
+                    var2 = 13;
                     var4 = var11[var2];
                     var4 = var10.bind(var5)(var4);
                     var7 = var4.intl;
@@ -1201,7 +1271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['colors'] = var2;
                     var7 = _closure1_slot2;
                     var9 = _closure1_slot3;
-                    var4 = 25;
+                    var4 = 28;
                     var4 = var9[var4];
                     var4 = var7.bind(var5)(var4);
                     var4 = var4.NONE;
@@ -1210,7 +1280,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  218: // try_start_0
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot3;
-                    var3 = 15;
+                    var3 = 18;
                     var3 = var7[var3];
                     var3 = var4.bind(var5)(var3);
                     var7 = var3.HTTP;
@@ -1237,7 +1307,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var3.body;
                     var8 = _closure1_slot2;
                     var9 = _closure1_slot3;
-                    var7 = 26;
+                    var7 = 29;
                     var7 = var9[var7];
                     var10 = var8.bind(var5)(var7);
                     var8 = var10.deserialize;
@@ -1245,7 +1315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.bind(var10)(var7);
                     var4['permissions'] = var7;
                     var8 = _closure1_slot1;
-                    var7 = 13;
+                    var7 = 14;
                     var7 = var9[var7];
                     var11 = var8.bind(var5)(var7);
                     var10 = var11.dispatch;
@@ -1257,7 +1327,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7['roleId'] = var12;
                     var7['role'] = var4;
                     var7 = var10.bind(var11)(var7);
-                    var7 = 27;
+                    var7 = 30;
                     var7 = var9[var7];
                     var8 = var8.bind(var5)(var7);
                     var7 = var8.checkGuildTemplateDirty;
@@ -1271,7 +1341,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     CatchBlockStart(arg_register=3);
                     var3 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var2 = 28;
+                    var2 = 31;
                     var2 = var6[var2];
                     var2 = var3.bind(var5)(var2);
                     var3 = var2.prototype;
@@ -1333,7 +1403,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  87:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 18;
                     var2 = var7[var2];
                     var2 = var5.bind(var6)(var2);
                     var7 = var2.HTTP;
@@ -1368,7 +1438,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  210:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot3;
-                    var4 = 27;
+                    var4 = 30;
                     var4 = var7[var4];
                     var5 = var5.bind(var6)(var4);
                     var4 = var5.checkGuildTemplateDirty;
@@ -1391,7 +1461,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function updateRolePermissions(arg1, arg2, arg3) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot3;
-        var1 = 15;
+        var1 = 18;
         var2 = var2[var1];
         var1 = undefined;
         var1 = var3.bind(var1)(var2);
@@ -1421,7 +1491,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var9;
         var4 = _closure1_slot0;
         var3 = _closure1_slot3;
-        var1 = 15;
+        var1 = 18;
         var3 = var3[var1];
         var1 = undefined;
         var3 = var4.bind(var1)(var3);
@@ -1438,7 +1508,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 27;
+            var1 = 30;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -1468,7 +1538,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 18;
                     var2 = var5[var2];
                     var6 = undefined;
                     var2 = var3.bind(var6)(var2);
@@ -1496,7 +1566,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  110:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot3;
-                    var4 = 27;
+                    var4 = 30;
                     var4 = var7[var4];
                     var5 = var5.bind(var6)(var4);
                     var4 = var5.checkGuildTemplateDirty;
@@ -1533,7 +1603,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10:
                     var3 = _closure1_slot0;
                     var5 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 18;
                     var2 = var5[var2];
                     var6 = undefined;
                     var2 = var3.bind(var6)(var2);
@@ -1561,7 +1631,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  110:
                     var5 = _closure1_slot1;
                     var7 = _closure1_slot3;
-                    var4 = 27;
+                    var4 = 30;
                     var4 = var7[var4];
                     var5 = var5.bind(var6)(var4);
                     var4 = var5.checkGuildTemplateDirty;
@@ -1603,7 +1673,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  35:
             var2 = _closure1_slot1;
             var7 = _closure1_slot3;
-            var1 = 13;
+            var1 = 14;
             var1 = var7[var1];
             var3 = var2.bind(var3)(var1);
             var2 = var3.dispatch;
@@ -1643,7 +1713,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.continuationToken;
             var3 = _closure1_slot1;
             var2 = _closure1_slot3;
-            var1 = 13;
+            var1 = 14;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -1673,7 +1743,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  17:
             var2 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var1 = 13;
+            var1 = 14;
             var1 = var5[var1];
             var3 = var2.bind(var3)(var1);
             var2 = var3.dispatch;
@@ -1712,7 +1782,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function move(arg1, arg2, arg3, arg4) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 13;
+        var1 = 14;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -1752,7 +1822,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  30:
             var3 = _closure1_slot1;
             var5 = _closure1_slot3;
-            var2 = 13;
+            var2 = 14;
             var2 = var5[var2];
             var5 = var3.bind(var1)(var2);
             var3 = var5.dispatch;
@@ -1784,7 +1854,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function createGuildFolderLocal(arg1, arg2) {
         var3 = _closure1_slot1;
         var4 = _closure1_slot3;
-        var1 = 29;
+        var1 = 32;
         var5 = var4[var1];
         var1 = undefined;
         var6 = var3.bind(var1)(var5);
@@ -1792,7 +1862,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = _closure1_slot21;
         var2 = var2.GUILD_FOLDER_CREATED;
         var2 = var5.bind(var6)(var2);
-        var2 = 13;
+        var2 = 14;
         var2 = var4[var2];
         var4 = var3.bind(var1)(var2);
         var3 = var4.dispatch;
@@ -1810,7 +1880,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function editGuildFolderLocal(arg1, arg2, arg3) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 13;
+        var1 = 14;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -1831,7 +1901,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function deleteGuildFolderLocal(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 13;
+        var1 = 14;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -1854,7 +1924,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var1.bind(var3)(var5);
             var4 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var1 = 29;
+            var1 = 32;
             var3 = var3[var1];
             var1 = undefined;
             var7 = var4.bind(var1)(var3);
@@ -1873,7 +1943,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.bind(var7)(var4, var3);
             var3 = _closure1_slot1;
             var4 = _closure1_slot3;
-            var2 = 13;
+            var2 = 14;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
@@ -1889,7 +1959,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function setGuildFolderExpanded(arg1, arg2) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 13;
+        var1 = 14;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -1908,7 +1978,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function collapseAllFolders() {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 13;
+        var1 = 14;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -1923,7 +1993,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = function nsfwAgree(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
-        var1 = 13;
+        var1 = 14;
         var2 = var2[var1];
         var1 = undefined;
         var4 = var3.bind(var1)(var2);
@@ -1946,29 +2016,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.bind(var3)(var8);
             var3 = _closure1_slot7;
             var1 = undefined;
-            var3 = var3.bind(var1)(var4);
+            var5 = var3.bind(var1)(var4);
+            var4 = _closure1_slot0;
+            var3 = _closure1_slot3;
+            var6 = 16;
+            var3 = var3[var6];
+            var4 = var4.bind(var1)(var3);
+            var3 = var4.shouldShowReverifyForLargeGuildId;
+            var3 = var3.bind(var4)(var8);
             var4 = null;
-            if(!(var4 != var8)) { _fun0014_ip = 196; continue _fun0014 }
- 40:
-            if(var3) { _fun0014_ip = 196; continue _fun0014 }
- 46:
+            if(!(var4 != var8)) { _fun0014_ip = 230; continue _fun0014 }
+ 71:
+            if(var5) { _fun0014_ip = 230; continue _fun0014 }
+ 77:
+            if(var3) { _fun0014_ip = 230; continue _fun0014 }
+ 83:
             var5 = _closure1_slot10;
             var3 = var5.getDefaultChannel;
             var3 = var3.bind(var5)(var8);
-            if(!(var4 != var3)) { _fun0014_ip = 153; continue _fun0014 }
- 65:
+            if(!(var4 != var3)) { _fun0014_ip = 187; continue _fun0014 }
+ 102:
             var5 = _closure1_slot0;
-            var6 = _closure1_slot3;
-            var4 = 30;
-            var4 = var6[var4];
+            var4 = _closure1_slot3;
+            var4 = var4[var6];
             var5 = var5.bind(var1)(var4);
             var4 = var5.isChannelContentGated;
             var4 = var4.bind(var5)(var3);
-            if(var4) { _fun0014_ip = 153; continue _fun0014 }
- 99:
+            if(var4) { _fun0014_ip = 187; continue _fun0014 }
+ 133:
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
-            var4 = 16;
+            var4 = 19;
             var4 = var6[var4];
             var5 = var5.bind(var1)(var4);
             var4 = var5.transitionTo;
@@ -1977,29 +2055,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.id;
             var3 = var6.bind(var7)(var8, var3);
             var3 = var4.bind(var5)(var3);
-            _fun0014_ip = 237; continue _fun0014;
- 153:
+            _fun0014_ip = 271; continue _fun0014;
+ 187:
             var4 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var3 = 16;
+            var3 = 19;
             var3 = var5[var3];
             var5 = var4.bind(var1)(var3);
             var4 = var5.transitionTo;
             var3 = _closure1_slot20;
             var3 = var3.FRIENDS;
             var3 = var4.bind(var5)(var3);
-            _fun0014_ip = 237; continue _fun0014;
- 196:
+            _fun0014_ip = 271; continue _fun0014;
+ 230:
             var4 = _closure1_slot0;
             var5 = _closure1_slot3;
-            var3 = 16;
+            var3 = 19;
             var3 = var5[var3];
             var4 = var4.bind(var1)(var3);
             var3 = var4.transitionTo;
             var2 = _closure1_slot20;
             var2 = var2.FRIENDS;
             var2 = var3.bind(var4)(var2);
- 237:
+ 271:
             return var1;
         }
     };
@@ -2016,7 +2094,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  27:
             var5 = _closure1_slot0;
             var3 = _closure1_slot3;
-            var2 = 16;
+            var2 = 19;
             var3 = var3[var2];
             var2 = undefined;
             var5 = var5.bind(var2)(var3);
@@ -2028,7 +2106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  72:
             var5 = _closure1_slot0;
             var3 = _closure1_slot3;
-            var2 = 16;
+            var2 = 19;
             var3 = var3[var2];
             var2 = undefined;
             var3 = var5.bind(var2)(var3);
@@ -2076,7 +2154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  77:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 18;
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var5.bind(var3)(var2);
@@ -2093,7 +2171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var2.body;
                     var5 = _closure1_slot1;
                     var6 = _closure1_slot3;
-                    var4 = 13;
+                    var4 = 14;
                     var4 = var6[var4];
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.dispatch;
@@ -2157,7 +2235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  43:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot3;
-                        var2 = 15;
+                        var2 = 18;
                         var2 = var3[var2];
                         var3 = undefined;
                         var2 = var4.bind(var3)(var2);
@@ -2179,7 +2257,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = function(arg1) {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot3;
-                            var1 = 13;
+                            var1 = 14;
                             var2 = var2[var1];
                             var1 = undefined;
                             var4 = var3.bind(var1)(var2);
@@ -2279,7 +2357,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  113:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot3;
-                        var2 = 15;
+                        var2 = 18;
                         var2 = var3[var2];
                         var3 = undefined;
                         var2 = var4.bind(var3)(var2);
@@ -2301,7 +2379,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = function(arg1) {
                             var3 = _closure1_slot1;
                             var2 = _closure1_slot3;
-                            var1 = 13;
+                            var1 = 14;
                             var2 = var2[var1];
                             var1 = undefined;
                             var4 = var3.bind(var1)(var2);
@@ -2357,7 +2435,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  7:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 18;
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var4.bind(var3)(var2);
@@ -2374,7 +2452,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = function(arg1) {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot3;
-                        var1 = 13;
+                        var1 = 14;
                         var2 = var2[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
@@ -2415,7 +2493,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot0 = var8;
         var4 = _closure1_slot0;
         var3 = _closure1_slot3;
-        var2 = 15;
+        var2 = 18;
         var3 = var3[var2];
         var2 = undefined;
         var2 = var4.bind(var2)(var3);
@@ -2434,7 +2512,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.body;
             var4 = _closure1_slot1;
             var3 = _closure1_slot3;
-            var2 = 13;
+            var2 = 14;
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
@@ -2469,7 +2547,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  7:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 18;
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var4.bind(var3)(var2);
@@ -2521,7 +2599,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  7:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 18;
                     var2 = var3[var2];
                     var3 = undefined;
                     var2 = var4.bind(var3)(var2);
@@ -2571,7 +2649,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  7:
                     var4 = _closure1_slot0;
                     var3 = _closure1_slot3;
-                    var2 = 15;
+                    var2 = 18;
                     var3 = var3[var2];
                     var2 = undefined;
                     var2 = var4.bind(var2)(var3);
@@ -2606,7 +2684,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['getGuildRoleConnectionsConfigurations'] = var5;
-    var5 = 31;
+    var5 = 33;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

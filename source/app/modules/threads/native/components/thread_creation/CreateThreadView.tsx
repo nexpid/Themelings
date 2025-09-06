@@ -413,7 +413,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.bind(var4)(var2);
             var23 = false;
             var8 = true;
-            var2 = {'isKeyboardAwareOnAndroid': false, 'includeKeyboardHeightIOS': true};
+            var2 = {'isKeyboardAwareOnAndroid': false, 'includeKeyboardHeight': true};
             var2 = var3.bind(var4)(var2);
             var21 = var2.insets;
             var2 = var13.isForumLikeChannel;

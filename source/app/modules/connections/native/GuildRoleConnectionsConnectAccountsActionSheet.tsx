@@ -229,16 +229,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['operatorText'] = var10;
             var3['value'] = var12;
             var6 = var6.bind(var8)(var3);
-            _fun0003_ip = 655; continue _fun0003;
+            _fun0003_ip = 657; continue _fun0003;
  406:
             var3 = _closure1_slot17;
             var3 = var3.LESS_THAN;
-            if(!(var3 !== var4)) { _fun0003_ip = 550; continue _fun0003 }
+            if(!(var3 !== var4)) { _fun0003_ip = 551; continue _fun0003 }
  423:
             var3 = _closure1_slot17;
             var3 = var3.GREATER_THAN;
             var6 = var11;
-            if(!(var3 === var4)) { _fun0003_ip = 655; continue _fun0003 }
+            if(!(var3 === var4)) { _fun0003_ip = 657; continue _fun0003 }
  443:
             var4 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -264,8 +264,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var15.bind(var16)(var13, var14);
             var3['count'] = var13;
             var6 = var8.bind(var10)(var4, var3);
-            _fun0003_ip = 655; continue _fun0003;
- 550:
+            _fun0003_ip = 657; continue _fun0003;
+ 551:
             var4 = _closure1_slot0;
             var13 = _closure1_slot2;
             var3 = 23;
@@ -290,11 +290,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var13.bind(var14)(var11, var12);
             var3['count'] = var11;
             var6 = var8.bind(var10)(var4, var3);
- 655:
+ 657:
             var3 = var1 == var6;
             var1 = null;
-            if(var3) { _fun0003_ip = 744; continue _fun0003 }
- 664:
+            if(var3) { _fun0003_ip = 746; continue _fun0003 }
+ 666:
             var4 = _closure1_slot28;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -306,16 +306,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = 'text-xs/normal';
             var2['variant'] = var8;
             var8 = 'text-danger';
-            if(!var9) { _fun0003_ip = 720; continue _fun0003 }
- 714:
+            if(!var9) { _fun0003_ip = 722; continue _fun0003 }
+ 716:
             var8 = 'header-secondary';
- 720:
+ 722:
             var2['color'] = var8;
             var7 = var7.connectionsCheck;
             var2['style'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 744:
+ 746:
             return var1;
         }
     };

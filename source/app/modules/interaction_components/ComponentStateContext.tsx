@@ -888,8 +888,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var1 = _closure2_slot0;
                     var9 = null;
-                    if(!(var9 == var1)) { _fun0015_ip = 135; continue _fun0015 }
- 15:
+                    if(!(var9 == var1)) { _fun0015_ip = 149; continue _fun0015 }
+ 18:
                     var2 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var1 = 21;
@@ -907,6 +907,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['useComponentState'] = var5;
                     var5 = var2.channelId;
                     var1['channelId'] = var5;
+                    var5 = var2.customId;
+                    var1['containerId'] = var5;
                     var1['modal'] = var2;
                     var2 = _closure2_slot2;
                     var1['validators'] = var2;
@@ -929,8 +931,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1['getParents'] = var2;
-                    _fun0015_ip = 204; continue _fun0015;
- 135:
+                    _fun0015_ip = 228; continue _fun0015;
+ 149:
                     var2 = {};
                     var8 = _closure1_slot18;
                     var7 = var8.bind;
@@ -940,6 +942,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['useComponentState'] = var6;
                     var6 = var5.channel_id;
                     var2['channelId'] = var6;
+                    var6 = var5.id;
+                    var2['containerId'] = var6;
                     var2['message'] = var5;
                     var4 = _closure2_slot2;
                     var2['validators'] = var4;
@@ -959,7 +963,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var2['getParents'] = var3;
                     var1 = var2;
- 204:
+ 228:
                     return var1;
                 }
             };
@@ -995,6 +999,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['useComponentStateContext'] = var4;
+    var4 = function useComponentContainerId() {
+        var3 = _closure1_slot4;
+        var2 = var3.useContext;
+        var1 = _closure1_slot16;
+        var1 = var2.bind(var3)(var1);
+        var1 = var1.containerId;
+        return var1;
+    };
+    var3['useComponentContainerId'] = var4;
     var2 = function useComponentError(arg1) {
         _fun0016: for(var _fun0016_ip = 0; ; ) switch(_fun0016_ip) {
  0:

@@ -653,7 +653,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var1;
-        var1 = new Array(13);
+        var1 = new Array(12);
         var1[0] = var5;
         var5 = {};
         var7 = 'getState';
@@ -679,15 +679,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var5['value'] = var7;
         var1[2] = var5;
-        var5 = {};
-        var7 = 'getApplications';
-        var5['key'] = var7;
-        var7 = function value() {
-            var1 = _closure1_slot8;
-            return var1;
-        };
-        var5['value'] = var7;
-        var1[3] = var5;
         var5 = {};
         var7 = 'getGuildApplication';
         var5['key'] = var7;
@@ -731,7 +722,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[4] = var5;
+        var1[3] = var5;
         var5 = {};
         var7 = 'getGuildApplicationIds';
         var5['key'] = var7;
@@ -757,7 +748,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[5] = var5;
+        var1[4] = var5;
         var5 = {};
         var7 = 'getApplication';
         var5['key'] = var7;
@@ -778,7 +769,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[6] = var5;
+        var1[5] = var5;
         var5 = {};
         var7 = 'getApplicationByName';
         var5['key'] = var7;
@@ -808,7 +799,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var7;
-        var1[7] = var5;
+        var1[6] = var5;
         var5 = {};
         var7 = 'getApplicationLastUpdated';
         var5['key'] = var7;
@@ -820,7 +811,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[8] = var5;
+        var1[7] = var5;
         var5 = {};
         var7 = 'isFetchingApplication';
         var5['key'] = var7;
@@ -834,7 +825,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[9] = var5;
+        var1[8] = var5;
         var5 = {};
         var7 = 'didFetchingApplicationFail';
         var5['key'] = var7;
@@ -848,7 +839,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[10] = var5;
+        var1[9] = var5;
         var5 = {};
         var7 = 'getFetchingOrFailedFetchingIds';
         var5['key'] = var7;
@@ -863,7 +854,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var7;
-        var1[11] = var5;
+        var1[10] = var5;
         var5 = {};
         var7 = 'getAppIdForBotUserId';
         var5['key'] = var7;
@@ -890,7 +881,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var5['value'] = var6;
-        var1[12] = var5;
+        var1[11] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

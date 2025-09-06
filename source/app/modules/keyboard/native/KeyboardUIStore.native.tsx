@@ -85,7 +85,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 if(!(var1 !== var6)) { _fun0003_ip = 102; continue _fun0003 }
  58:
                 var3 = 0;
-                if(var4) { _fun0003_ip = 98; continue _fun0003 }
+                if(!var4) { _fun0003_ip = 98; continue _fun0003 }
  63:
                 var8 = _closure1_slot0;
                 var9 = _closure1_slot2;
@@ -96,7 +96,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var7.bind(var8)();
                 var3 = var7.bottom;
  98:
-                var1 = var6 + var3;
+                var1 = var6 - var3;
  102:
                 _fun0003_ip = 135; continue _fun0003;
  104:
@@ -145,24 +145,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var1.keyboardHeight;
  57:
                         var3['keyboardHeight'] = var5;
-                        var7 = _closure1_slot0;
-                        var8 = _closure1_slot2;
-                        var5 = 6;
-                        var5 = var8[var5];
+                        var16 = false;
+                        var3['excludeSafeAreaInsets'] = var16;
                         var12 = undefined;
-                        var7 = var7.bind(var12)(var5);
-                        var5 = var7.isIOS;
-                        var5 = var5.bind(var7)();
-                        var3['excludeSafeAreaInsets'] = var5;
                         var8 = var4.bind(var12)(var3);
                         var4 = _closure1_slot11;
                         var3 = {};
                         var5 = _closure2_slot0;
                         var5 = var5.keyboardHeight;
-                        if(!(var11 == var5)) { _fun0004_ip = 130; continue _fun0004 }
- 124:
+                        if(!(var11 == var5)) { _fun0004_ip = 102; continue _fun0004 }
+ 96:
                         var5 = var1.keyboardHeight;
- 130:
+ 102:
                         var3['keyboardHeight'] = var5;
                         var5 = true;
                         var3['excludeSafeAreaInsets'] = var5;
@@ -171,117 +165,128 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var3.keyboardType;
                         var4 = var11 == var3;
                         var5 = undefined;
-                        if(var4) { _fun0004_ip = 171; continue _fun0004 }
- 166:
+                        if(var4) { _fun0004_ip = 143; continue _fun0004 }
+ 138:
                         var5 = var3.type;
- 171:
-                        if(!(var11 == var5)) { _fun0004_ip = 181; continue _fun0004 }
- 175:
+ 143:
+                        if(!(var11 == var5)) { _fun0004_ip = 153; continue _fun0004 }
+ 147:
                         var5 = var1.keyboardType;
- 181:
+ 153:
                         var3 = var1.keyboardType;
-                        if(!(var5 === var3)) { _fun0004_ip = 199; continue _fun0004 }
- 191:
+                        if(!(var5 === var3)) { _fun0004_ip = 171; continue _fun0004 }
+ 163:
                         var4 = var1.keyboardTypePrevious;
-                        _fun0004_ip = 205; continue _fun0004;
- 199:
+                        _fun0004_ip = 177; continue _fun0004;
+ 171:
                         var4 = var1.keyboardType;
- 205:
-                        var3 = _closure1_slot10;
-                        var3 = var3.bind(var12)(var7, var5);
+ 177:
+                        var10 = _closure1_slot10;
+                        var13 = _closure1_slot0;
+                        var14 = _closure1_slot2;
+                        var3 = 6;
+                        var3 = var14[var3];
+                        var13 = var13.bind(var12)(var3);
+                        var3 = var13.isIOS;
+                        var13 = var3.bind(var13)();
+                        var3 = var7;
+                        if(!var13) { _fun0004_ip = 220; continue _fun0004 }
+ 217:
+                        var3 = var8;
+ 220:
+                        var3 = var10.bind(var12)(var3, var5);
                         var10 = var1.keyboardContexts;
                         var15 = var10[var5];
                         var10 = _closure2_slot0;
                         var13 = var10.keyboardType;
                         var14 = var11 == var13;
                         var10 = undefined;
-                        if(var14) { _fun0004_ip = 249; continue _fun0004 }
- 244:
+                        if(var14) { _fun0004_ip = 260; continue _fun0004 }
+ 255:
                         var10 = var13.context;
- 249:
+ 260:
                         var13 = var15;
-                        if(!(var11 != var10)) { _fun0004_ip = 259; continue _fun0004 }
- 256:
+                        if(!(var11 != var10)) { _fun0004_ip = 270; continue _fun0004 }
+ 267:
                         var13 = var10;
- 259:
+ 270:
                         var14 = 'object';
                         var10 = typeof var15;
-                        if(!(var14 === var10)) { _fun0004_ip = 277; continue _fun0004 }
- 270:
+                        if(!(var14 === var10)) { _fun0004_ip = 288; continue _fun0004 }
+ 281:
                         var10 = typeof var13;
-                        if(!(var14 !== var10)) { _fun0004_ip = 283; continue _fun0004 }
- 277:
+                        if(!(var14 !== var10)) { _fun0004_ip = 294; continue _fun0004 }
+ 288:
                         var10 = var15 !== var13;
-                        _fun0004_ip = 312; continue _fun0004;
- 283:
-                        var16 = _closure1_slot1;
-                        var17 = _closure1_slot2;
+                        _fun0004_ip = 323; continue _fun0004;
+ 294:
+                        var17 = _closure1_slot1;
+                        var18 = _closure1_slot2;
                         var14 = 10;
-                        var14 = var17[var14];
-                        var14 = var16.bind(var12)(var14);
+                        var14 = var18[var14];
+                        var14 = var17.bind(var12)(var14);
                         var14 = var14.bind(var12)(var15, var13);
                         var10 = !var14;
- 312:
+ 323:
                         var6 = _closure2_slot0;
                         var6 = var6.systemKeyboardOpen;
-                        if(!(var11 == var6)) { _fun0004_ip = 332; continue _fun0004 }
- 326:
+                        if(!(var11 == var6)) { _fun0004_ip = 343; continue _fun0004 }
+ 337:
                         var6 = var1.systemKeyboardOpen;
- 332:
-                        if(!var6) { _fun0004_ip = 386; continue _fun0004 }
- 335:
+ 343:
+                        if(!var6) { _fun0004_ip = 397; continue _fun0004 }
+ 346:
                         var14 = var1.keyboardContexts;
                         var15 = _closure1_slot0;
                         var11 = _closure1_slot2;
-                        var18 = 5;
-                        var11 = var11[var18];
+                        var19 = 5;
+                        var11 = var11[var19];
                         var11 = var15.bind(var12)(var11);
                         var11 = var11.KeyboardTypes;
                         var11 = var11.SYSTEM;
                         var11 = var14[var11];
                         var11 = var11.keyboardWillOpen;
-                        if(var11) { _fun0004_ip = 422; continue _fun0004 }
- 386:
+                        if(var11) { _fun0004_ip = 433; continue _fun0004 }
+ 397:
                         var14 = var1.keyboardContexts;
-                        if(var10) { _fun0004_ip = 400; continue _fun0004 }
- 395:
+                        if(var10) { _fun0004_ip = 411; continue _fun0004 }
+ 406:
                         var10 = var14;
-                        _fun0004_ip = 420; continue _fun0004;
- 400:
+                        _fun0004_ip = 431; continue _fun0004;
+ 411:
                         var11 = {};
-                        var20 = var11;
-                        var19 = var14;
-                        var14 = copyDataProperties(var20, var19);
+                        var21 = var11;
+                        var20 = var14;
+                        var14 = copyDataProperties(var21, var20);
                         var11[var5] = var13;
                         var10 = var11;
- 420:
-                        _fun0004_ip = 525; continue _fun0004;
- 422:
+ 431:
+                        _fun0004_ip = 534; continue _fun0004;
+ 433:
                         var11 = {};
-                        var19 = var1.keyboardContexts;
-                        var20 = var11;
-                        var13 = copyDataProperties(var20, var19);
-                        var17 = _closure1_slot0;
+                        var20 = var1.keyboardContexts;
+                        var21 = var11;
+                        var13 = copyDataProperties(var21, var20);
+                        var18 = _closure1_slot0;
                         var15 = _closure1_slot2;
-                        var13 = var15[var18];
-                        var13 = var17.bind(var12)(var13);
+                        var13 = var15[var19];
+                        var13 = var18.bind(var12)(var13);
                         var13 = var13.KeyboardTypes;
                         var14 = var13.SYSTEM;
                         var13 = {};
-                        var16 = var1.keyboardContexts;
-                        var15 = var15[var18];
-                        var15 = var17.bind(var12)(var15);
+                        var17 = var1.keyboardContexts;
+                        var15 = var15[var19];
+                        var15 = var18.bind(var12)(var15);
                         var15 = var15.KeyboardTypes;
                         var15 = var15.SYSTEM;
-                        var19 = var16[var15];
-                        var20 = var13;
-                        var15 = copyDataProperties(var20, var19);
-                        var16 = false;
+                        var20 = var17[var15];
+                        var21 = var13;
+                        var15 = copyDataProperties(var21, var20);
                         var15 = 'keyboardWillOpen';
                         var13[var15] = var16;
                         var11[var14] = var13;
                         var10 = var11;
- 525:
+ 534:
                         var11 = _closure1_slot1;
                         var13 = _closure1_slot2;
                         var2 = 10;
@@ -291,25 +296,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var11.bind(var12)(var2, var10);
                         var2 = !var2;
                         var11 = var1.keyboardDuration;
-                        if(!(var11 === var9)) { _fun0004_ip = 623; continue _fun0004 }
- 570:
-                        if(var2) { _fun0004_ip = 623; continue _fun0004 }
- 573:
+                        if(!(var11 === var9)) { _fun0004_ip = 632; continue _fun0004 }
+ 579:
+                        if(var2) { _fun0004_ip = 632; continue _fun0004 }
+ 582:
                         var2 = var1.keyboardHeight;
-                        if(!(var2 === var8)) { _fun0004_ip = 623; continue _fun0004 }
- 583:
+                        if(!(var2 === var8)) { _fun0004_ip = 632; continue _fun0004 }
+ 592:
                         var2 = var1.keyboardHeightExcludingSafeAreaInsets;
-                        if(!(var2 === var7)) { _fun0004_ip = 623; continue _fun0004 }
- 593:
+                        if(!(var2 === var7)) { _fun0004_ip = 632; continue _fun0004 }
+ 602:
                         var2 = var1.keyboardType;
-                        if(!(var2 === var5)) { _fun0004_ip = 623; continue _fun0004 }
- 603:
+                        if(!(var2 === var5)) { _fun0004_ip = 632; continue _fun0004 }
+ 612:
                         var2 = var1.customKeyboardHeight;
-                        if(!(var2 === var3)) { _fun0004_ip = 623; continue _fun0004 }
- 613:
+                        if(!(var2 === var3)) { _fun0004_ip = 632; continue _fun0004 }
+ 622:
                         var2 = var1.systemKeyboardOpen;
-                        if(!(var2 !== var6)) { _fun0004_ip = 668; continue _fun0004 }
- 623:
+                        if(!(var2 !== var6)) { _fun0004_ip = 677; continue _fun0004 }
+ 632:
                         var2 = {};
                         var2['keyboardContexts'] = var10;
                         var2['keyboardDuration'] = var9;
@@ -320,7 +325,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['keyboardTypePrevious'] = var4;
                         var2['customKeyboardHeight'] = var3;
                         var1 = var2;
- 668:
+ 677:
                         return var1;
                     }
                 };

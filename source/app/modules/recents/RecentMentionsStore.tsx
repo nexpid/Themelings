@@ -512,24 +512,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.THIS_SERVER;
             var4 = 'guildFilter';
             var5 = var7.bind(var1)(var4, var5);
-            if(var5) { _fun0009_ip = 177; continue _fun0009 }
- 165:
+            if(var5) { _fun0009_ip = 179; continue _fun0009 }
+ 167:
             var6 = 'everyoneFilter';
             var4 = false;
             var5 = var7.bind(var1)(var6, var4);
- 177:
-            if(var5) { _fun0009_ip = 192; continue _fun0009 }
- 180:
+ 179:
+            if(var5) { _fun0009_ip = 194; continue _fun0009 }
+ 182:
             var6 = 'roleFilter';
             var4 = false;
             var5 = var7.bind(var1)(var6, var4);
- 192:
+ 194:
             var4 = {};
             _closure1_slot25 = var4;
             var4 = new Array(0);
             var _closure2_slot1 = var4;
-            if(!var5) { _fun0009_ip = 228; continue _fun0009 }
- 209:
+            if(!var5) { _fun0009_ip = 230; continue _fun0009 }
+ 211:
             var7 = _closure1_slot23;
             var6 = var7.forEach;
             var5 = function(arg1) {
@@ -554,7 +554,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var5 = var6.bind(var7)(var5);
- 228:
+ 230:
             _closure1_slot23 = var4;
             var2 = function resetChannelMentionCount(arg1) {
                 var3 = arg1;
@@ -596,11 +596,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot23;
             var4 = var2.length;
             var2 = 0;
-            if(!(var2 === var4)) { _fun0009_ip = 263; continue _fun0009 }
- 257:
+            if(!(var2 === var4)) { _fun0009_ip = 265; continue _fun0009 }
+ 259:
             var2 = false;
             _closure1_slot29 = var2;
- 263:
+ 265:
             return var1;
         }
     };

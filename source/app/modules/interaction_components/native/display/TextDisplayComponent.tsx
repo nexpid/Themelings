@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var8.bind(var1)(var7);
  236:
         var _closure1_slot9 = var4;
-        var4 = 17;
+        var4 = 18;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -74,12 +74,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function TextDisplayComponent(arg1) {
             _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                var15 = arg1;
-                var7 = _closure1_slot4;
-                var1 = var7.useState;
-                var1 = var1.bind(var7)();
-                var12 = _closure1_slot3;
+                var16 = arg1;
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
+                var1 = 9;
+                var1 = var4[var1];
                 var5 = undefined;
+                var6 = var3.bind(var5)(var1);
+                var1 = var6.useComponentContainerId;
+                var15 = var1.bind(var6)();
+                var14 = _closure1_slot4;
+                var1 = var14.useState;
+                var1 = var1.bind(var14)();
+                var12 = _closure1_slot3;
                 var11 = 2;
                 var1 = var12.bind(var5)(var1, var11);
                 var8 = 0;
@@ -87,8 +94,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = 1;
                 var1 = var1[var6];
                 var _closure2_slot0 = var1;
-                var4 = var7.useCallback;
-                var3 = function(arg1) {
+                var13 = var14.useCallback;
+                var7 = function(arg1) {
                     var1 = arg1;
                     var1 = var1.nativeEvent;
                     var3 = _closure2_slot0;
@@ -99,39 +106,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1 = new Array(0);
-                var7 = var4.bind(var7)(var3, var1);
-                var3 = _closure1_slot6;
-                var1 = var3.getChannelId;
-                var19 = var1.bind(var3)();
-                var _closure2_slot1 = var19;
-                var3 = _closure1_slot1;
-                var4 = _closure1_slot2;
-                var1 = 9;
-                var1 = var4[var1];
-                var13 = var3.bind(var5)(var1);
-                var1 = 'channelId not available in TextDisplayComponent';
-                var1 = var13.bind(var5)(var19, var1);
+                var7 = var13.bind(var14)(var7, var1);
+                var13 = _closure1_slot6;
+                var1 = var13.getChannelId;
+                var20 = var1.bind(var13)();
+                var _closure2_slot1 = var20;
+                var13 = _closure1_slot1;
                 var1 = 10;
                 var1 = var4[var1];
-                var17 = var3.bind(var5)(var1);
-                var16 = var17.parseToAST;
-                var14 = var15.content;
-                var3 = _closure1_slot0;
+                var14 = var13.bind(var5)(var1);
+                var1 = 'channelId not available in TextDisplayComponent';
+                var1 = var14.bind(var5)(var20, var1);
                 var1 = 11;
                 var1 = var4[var1];
-                var18 = var3.bind(var5)(var1);
-                var13 = var18.getInitialParserState;
-                var1 = {};
-                var1['channelId'] = var19;
-                var19 = _closure1_slot7;
-                var1['renderOptions'] = var19;
-                var13 = var13.bind(var18)(var1);
-                var1 = true;
-                var16 = var16.bind(var17)(var14, var1, var13);
+                var18 = var13.bind(var5)(var1);
+                var17 = var18.parseToAST;
+                var14 = var16.content;
                 var1 = 12;
                 var1 = var4[var1];
-                var17 = var3.bind(var5)(var1);
-                var14 = var17.useStateFromStoresArray;
+                var19 = var3.bind(var5)(var1);
+                var13 = var19.getInitialParserState;
+                var1 = {};
+                var1['channelId'] = var20;
+                var20 = _closure1_slot7;
+                var1['renderOptions'] = var20;
+                var13 = var13.bind(var19)(var1);
+                var1 = true;
+                var17 = var17.bind(var18)(var14, var1, var13);
+                var1 = 13;
+                var1 = var4[var1];
+                var18 = var3.bind(var5)(var1);
+                var14 = var18.useStateFromStoresArray;
                 var1 = _closure1_slot5;
                 var13 = new Array(1);
                 var13[0] = var1;
@@ -144,11 +149,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1[1] = var2;
                     return var1;
                 };
-                var1 = var14.bind(var17)(var13, var1);
+                var1 = var14.bind(var18)(var13, var1);
                 var1 = var12.bind(var5)(var1, var11);
                 var13 = var1[var8];
                 var12 = var1[var6];
-                var1 = 13;
+                var1 = 14;
                 var1 = var4[var1];
                 var1 = var3.bind(var5)(var1);
                 var6 = var1.AnimateEmoji;
@@ -158,13 +163,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = _closure1_slot9;
                 var1 = {};
                 var11 = {};
-                var22 = var11;
-                var21 = var15;
-                var15 = copyDataProperties(var22, var21);
-                var15 = 'content';
-                var11[var15] = var16;
+                var23 = var11;
+                var22 = var16;
+                var16 = copyDataProperties(var23, var22);
+                var16 = 'content';
+                var11[var16] = var17;
                 var1['model'] = var11;
                 var11 = {};
+                var11['containerId'] = var15;
                 var11['shouldAnimateEmoji'] = var14;
                 var11['shouldShowLinkDecorations'] = var12;
                 var12 = 'dot';
@@ -180,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var1.data;
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 14;
+                    var1 = 15;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -190,7 +196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1['onTapLink'] = var9;
-                var9 = 15;
+                var9 = 16;
                 var11 = var4[var9];
                 var11 = var3.bind(var5)(var11);
                 var11 = var11.contentHandlers;
@@ -238,19 +244,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.isAndroid;
                 var3 = var1.bind(var3)();
                 var1 = var6;
-                if(!var3) { _fun0002_ip = 658; continue _fun0002 }
- 617:
+                if(!var3) { _fun0002_ip = 685; continue _fun0002 }
+ 644:
                 var4 = _closure1_slot8;
                 var3 = _closure1_slot1;
                 var8 = _closure1_slot2;
-                var2 = 16;
+                var2 = 17;
                 var2 = var8[var2];
                 var3 = var3.bind(var5)(var2);
                 var2 = {};
                 var2['onLayout'] = var7;
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 658:
+ 685:
                 return var1;
             }
         };

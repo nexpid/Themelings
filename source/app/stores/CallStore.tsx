@@ -542,15 +542,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var3 === var7)) { _fun0010_ip = 41; continue _fun0010 }
  35:
             var3 = null;
-            if(!(var3 == var6)) { _fun0010_ip = 78; continue _fun0010 }
+            if(!(var3 == var6)) { _fun0010_ip = 74; continue _fun0010 }
  41:
             var3 = {'channelId': null, 'ringing': null, 'messageId': null, 'region': null, 'regionUpdated': false};
             var3['channelId'] = var2;
             var5 = new Array(0);
             var3['ringing'] = var5;
             var3['unavailable'] = var7;
-            _fun0010_ip = 102; continue _fun0010;
- 78:
+            _fun0010_ip = 98; continue _fun0010;
+ 74:
             var5 = {};
             var9 = var5;
             var8 = var6;
@@ -558,16 +558,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'unavailable';
             var5[var6] = var7;
             var3 = var5;
- 102:
+ 98:
             var4[var2] = var3;
             var3 = _closure1_slot13;
             var4 = var3[var2];
             var3 = null;
-            if(!(var3 != var4)) { _fun0010_ip = 128; continue _fun0010 }
- 120:
+            if(!(var3 != var4)) { _fun0010_ip = 124; continue _fun0010 }
+ 116:
             var1 = _closure1_slot13;
             var1 = delete var1[var2];
- 128:
+ 124:
             var1 = undefined;
             return var1;
         }

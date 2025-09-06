@@ -39,16 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var7 = var4.ChannelTypes;
-    var _closure1_slot8 = var7;
-    var7 = var4.GuildFeatures;
-    var _closure1_slot9 = var7;
-    var4 = var4.MessageFlags;
-    var _closure1_slot10 = var4;
-    var4 = 14;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -96,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot1 = var6;
         var5 = _closure1_slot0;
         var4 = _closure1_slot2;
-        var3 = 6;
+        var3 = 5;
         var4 = var4[var3];
         var3 = undefined;
         var5 = var5.bind(var3)(var4);
@@ -109,7 +100,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var3 = _closure1_slot1;
             var2 = _closure1_slot2;
-            var1 = 7;
+            var1 = 6;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);
@@ -190,7 +181,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 8;
+                var1 = 7;
                 var2 = var2[var1];
                 var1 = undefined;
                 var7 = var3.bind(var1)(var2);
@@ -203,18 +194,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  56:
                 var5 = _closure1_slot1;
                 var10 = _closure1_slot2;
-                var3 = 9;
+                var3 = 8;
                 var3 = var10[var3];
                 var7 = var5.bind(var1)(var3);
                 var6 = var7.fetchApplications;
-                var3 = 7;
+                var3 = 6;
                 var3 = var10[var3];
                 var5 = var5.bind(var1)(var3);
                 var3 = _closure2_slot1;
                 var8 = var5.bind(var1)(var3);
                 var5 = var8.filter;
                 var9 = _closure1_slot0;
-                var4 = 10;
+                var4 = 9;
                 var4 = var10[var4];
                 var4 = var9.bind(var1)(var4);
                 var4 = var4.isNotNullish;
@@ -236,125 +227,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['useFetchMessageApplications'] = var4;
-    var4 = function useShouldTrackAnnouncementMessageViews(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-            var1 = arg1;
-            var5 = var1.guild;
-            var10 = var1.channel;
-            var _closure2_slot0 = var10;
-            var7 = var1.messages;
-            var _closure2_slot1 = var7;
-            var8 = var1.isMessagesReady;
-            var _closure2_slot2 = var8;
-            var3 = undefined;
-            var _closure2_slot3 = var3;
-            var4 = null;
-            var6 = var4 == var5;
-            var1 = undefined;
-            if(var6) { _fun0004_ip = 94; continue _fun0004 }
- 56:
-            var9 = var5.features;
-            var5 = var4 == var9;
-            var1 = undefined;
-            if(var5) { _fun0004_ip = 94; continue _fun0004 }
- 71:
-            var6 = var9.has;
-            var5 = _closure1_slot9;
-            var5 = var5.COMMUNITY;
-            var1 = var6.bind(var9)(var5);
- 94:
-            var9 = var4 != var1;
-            if(!var9) { _fun0004_ip = 104; continue _fun0004 }
- 101:
-            var9 = var1;
- 104:
-            _closure2_slot3 = var9;
-            var6 = _closure1_slot4;
-            var5 = var6.useMemo;
-            var11 = var10.type;
-            var4 = new Array(5);
-            var4[0] = var11;
-            var10 = var10.guild_id;
-            var4[1] = var10;
-            var4[2] = var9;
-            var4[3] = var8;
-            var4[4] = var7;
-            var2 = function() {
-                _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
- 0:
-                    var1 = _closure2_slot0;
-                    var2 = var1.type;
-                    var1 = _closure1_slot8;
-                    var1 = var1.GUILD_ANNOUNCEMENT;
-                    var1 = var2 === var1;
-                    if(!var1) { _fun0005_ip = 36; continue _fun0005 }
- 32:
-                    var1 = _closure2_slot3;
- 36:
-                    var2 = _closure2_slot2;
-                    if(!var2) { _fun0005_ip = 67; continue _fun0005 }
- 43:
-                    var5 = _closure2_slot1;
-                    var4 = var5.some;
-                    var3 = function(arg1) {
-                        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
-                            var5 = arg1;
-                            var1 = var5.messageReference;
-                            var3 = null;
-                            var1 = var3 != var1;
-                            if(!var1) { _fun0006_ip = 28; continue _fun0006 }
- 18:
-                            var2 = var5.webhookId;
-                            var1 = var3 != var2;
- 28:
-                            if(!var1) { _fun0006_ip = 55; continue _fun0006 }
- 31:
-                            var4 = var5.hasFlag;
-                            var2 = _closure1_slot10;
-                            var2 = var2.IS_CROSSPOST;
-                            var1 = var4.bind(var5)(var2);
- 55:
-                            if(!var1) { _fun0006_ip = 74; continue _fun0006 }
- 58:
-                            var2 = _closure2_slot0;
-                            var2 = var2.guild_id;
-                            var1 = var3 != var2;
- 74:
-                            return var1;
-                        }
-                    };
-                    var2 = var4.bind(var5)(var3);
- 67:
-                    if(var1) { _fun0005_ip = 73; continue _fun0005 }
- 70:
-                    var1 = var2;
- 73:
-                    return var1;
-                }
-            };
-            var5 = var5.bind(var6)(var2, var4);
-            var2 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var1 = 11;
-            var1 = var4[var1];
-            var4 = var2.bind(var3)(var1);
-            var3 = var4.useExperiment;
-            var2 = {};
-            var1 = '41de6d_1';
-            var2['location'] = var1;
-            var1 = {};
-            var5 = !var5;
-            var1['disable'] = var5;
-            var5 = true;
-            var1['autoTrackExposure'] = var5;
-            var1 = var3.bind(var4)(var2, var1);
-            var1 = var1.enabled;
-            return var1;
-        }
-    };
-    var3['useShouldTrackAnnouncementMessageViews'] = var4;
     var4 = function useMessagesLifecycle(arg1) {
         var2 = arg1;
         var3 = var2.messages;
@@ -376,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = function() {
             var3 = _closure1_slot0;
             var6 = _closure1_slot2;
-            var2 = 12;
+            var2 = 10;
             var4 = var6[var2];
             var1 = undefined;
             var9 = var3.bind(var1)(var4);
@@ -478,7 +350,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function() {
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 13;
+            var2 = 11;
             var3 = var3[var2];
             var2 = undefined;
             var2 = var4.bind(var2)(var3);
@@ -486,12 +358,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.prototype;
             var2 = Object.create(var2, {constructor: {value: var4}});
             var6 = function() {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     var1 = _closure2_slot0;
                     var3 = var1.current;
                     var1 = null;
-                    if(!(var1 !== var3)) { _fun0007_ip = 41; continue _fun0007 }
+                    if(!(var1 !== var3)) { _fun0004_ip = 41; continue _fun0004 }
  18:
                     var4 = _closure1_slot5;
                     var2 = _closure2_slot0;

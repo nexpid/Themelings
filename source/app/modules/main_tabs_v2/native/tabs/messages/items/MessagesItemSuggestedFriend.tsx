@@ -248,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot2;
                     var2 = var2.user;
                     var6 = var4.bind(var5)(var2);
-                    _fun0002_ip = 159; continue _fun0002;
+                    _fun0002_ip = 160; continue _fun0002;
  82:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
@@ -267,17 +267,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.mutualFriendsCount;
                     var2['count'] = var8;
                     var6 = var5.bind(var7)(var4, var2);
- 159:
+ 160:
                     var2 = _closure2_slot2;
                     var2 = var2.friendSuggestionName;
-                    if(!(var3 != var2)) { _fun0002_ip = 194; continue _fun0002 }
- 173:
+                    if(!(var3 != var2)) { _fun0002_ip = 195; continue _fun0002 }
+ 174:
                     var2 = _closure2_slot2;
                     var2 = var2.friendSuggestionName;
                     var4 = var2.length;
                     var2 = 0;
-                    if(!(!(var4 > var2))) { _fun0002_ip = 241; continue _fun0002 }
- 194:
+                    if(!(!(var4 > var2))) { _fun0002_ip = 242; continue _fun0002 }
+ 195:
                     var5 = _closure1_slot1;
                     var4 = _closure1_slot2;
                     var2 = 13;
@@ -288,11 +288,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot2;
                     var2 = var2.user;
                     var2 = var4.bind(var5)(var2);
-                    _fun0002_ip = 251; continue _fun0002;
- 241:
+                    _fun0002_ip = 252; continue _fun0002;
+ 242:
                     var4 = _closure2_slot2;
                     var2 = var4.friendSuggestionName;
- 251:
+ 252:
                     var7 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var4 = 14;
@@ -306,14 +306,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3 != var8;
                     var5 = '';
                     var4 = var5;
-                    if(!var3) { _fun0002_ip = 332; continue _fun0002 }
- 308:
+                    if(!var3) { _fun0002_ip = 333; continue _fun0002 }
+ 309:
                     var3 = global;
                     var3 = var3.HermesInternal;
                     var7 = var3.concat;
                     var3 = ' · ';
                     var4 = var7.bind(var3)(var8);
- 332:
+ 333:
                     var3 = global;
                     var3 = var3.HermesInternal;
                     var3 = var3.concat;

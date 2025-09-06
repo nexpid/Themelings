@@ -38,6 +38,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NSFW_VOICE_CHANNEL'] = var2;
     var2 = 'Large Guild';
     var4['LARGE_GUILD'] = var2;
+    var2 = 'Access Large Guild Access Underage';
+    var4['ACCESS_LARGE_GUILD_UNDERAGE'] = var2;
+    var2 = 'Join Large Guild Underage';
+    var4['JOIN_LARGE_GUILD_UNDERAGE'] = var2;
     var2 = 'Family Center';
     var4['FAMILY_CENTER'] = var2;
     var2 = 'Register';

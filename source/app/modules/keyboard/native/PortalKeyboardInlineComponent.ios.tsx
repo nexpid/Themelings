@@ -99,11 +99,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure2_slot2 = var9;
         var3 = 4;
         var3 = var15[var3];
-        var5 = var11.bind(var14)(var3);
-        var3 = {};
-        var6 = true;
-        var3['excludeSafeAreaInsets'] = var6;
-        var6 = var5.bind(var14)(var3);
+        var3 = var11.bind(var14)(var3);
+        var6 = var3.bind(var14)();
         var _closure2_slot3 = var6;
         var3 = 5;
         var3 = var15[var3];

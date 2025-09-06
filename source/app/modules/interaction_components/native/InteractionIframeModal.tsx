@@ -122,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var6.bind(var4)(var3);
             var3 = {};
             var10 = true;
-            var3['includeKeyboardHeightIOS'] = var10;
+            var3['includeKeyboardHeight'] = var10;
             var3 = var9.bind(var4)(var3);
             var9 = var3.insets;
             var16 = var17.useLayoutEffect;

@@ -506,7 +506,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var30.bind(var4)(var1);
                 var1 = {};
                 var5 = true;
-                var1['includeKeyboardHeightIOS'] = var5;
+                var1['includeKeyboardHeight'] = var5;
                 var1 = var2.bind(var4)(var1);
                 var7 = var1.insets;
                 var1 = 22;

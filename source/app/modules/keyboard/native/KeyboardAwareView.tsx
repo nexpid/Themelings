@@ -12,45 +12,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = global;
             var4 = var1.Math;
             var3 = var4.max;
-            var2 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
             var1 = 5;
-            var1 = var5[var1];
+            var1 = var10[var1];
             var8 = undefined;
-            var5 = var2.bind(var8)(var1);
+            var5 = var9.bind(var8)(var1);
             var2 = var5.getSystemKeyboardHeight;
             var1 = {};
-            var7 = true;
+            var7 = 6;
+            var7 = var10[var7];
+            var9 = var9.bind(var8)(var7);
+            var7 = var9.isAndroid;
+            var7 = var7.bind(var9)();
             var1['excludeSafeAreaInsets'] = var7;
             var5 = var2.bind(var5)(var1);
             var2 = 0;
-            if(!(var2 === var5)) { _fun0001_ip = 157; continue _fun0001 }
- 64:
+            if(!(var2 === var5)) { _fun0001_ip = 176; continue _fun0001 }
+ 83:
             var7 = _closure1_slot0;
             var10 = _closure1_slot1;
-            var1 = 6;
+            var1 = 7;
             var1 = var10[var1];
             var9 = var7.bind(var8)(var1);
             var1 = var9.getKeyboardType;
             var9 = var1.bind(var9)();
-            var1 = 7;
+            var1 = 8;
             var1 = var10[var1];
             var1 = var7.bind(var8)(var1);
             var1 = var1.KeyboardTypes;
             var7 = var1.SYSTEM;
             var1 = 0;
-            if(!(var9 !== var7)) { _fun0001_ip = 154; continue _fun0001 }
- 124:
+            if(!(var9 !== var7)) { _fun0001_ip = 173; continue _fun0001 }
+ 143:
             var7 = _closure1_slot0;
             var9 = _closure1_slot1;
-            var6 = 8;
+            var6 = 9;
             var6 = var9[var6];
             var7 = var7.bind(var8)(var6);
             var6 = var7.getCustomKeyboardHeight;
             var1 = var6.bind(var7)();
- 154:
+ 173:
             var5 = var1;
- 157:
+ 176:
             var1 = arg1;
             var1 = var5 + var1;
             var1 = var3.bind(var4)(var2, var1);
@@ -187,7 +191,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  29:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot1;
-                    var3 = 9;
+                    var3 = 10;
                     var3 = var4[var3];
                     var4 = undefined;
                     var5 = var5.bind(var4)(var3);
@@ -203,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  80:
                     var2 = _closure1_slot0;
                     var5 = _closure1_slot1;
-                    var1 = 10;
+                    var1 = 11;
                     var1 = var5[var1];
                     var2 = var2.bind(var4)(var1);
                     var1 = var2.DeprecatedLayoutAnimationKeyboard;
@@ -274,7 +278,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 11;
+    var4 = 12;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
