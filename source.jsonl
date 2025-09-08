@@ -446,7 +446,7 @@
 { "file": "app/modules/links/native/handleSupportedURL.tsx", "size": 89834 }
 { "file": "app/modules/gateway/PostConnectionCallbackStore.tsx", "size": 3712 }
 { "file": "app/modules/nuf/NewUserStore.tsx", "size": 6517 }
-{ "file": "app/modules/gateway/GatewayConnectionStore.tsx", "size": 57436 }
+{ "file": "app/modules/gateway/GatewayConnectionStore.tsx", "size": 57432 }
 { "file": "app/stores/CallStore.tsx", "size": 19356 }
 { "file": "app/stores/SelectedChannelStore.tsx", "size": 50808 }
 { "file": "app/stores/MediaEngineStore.tsx", "size": 345461 }
@@ -6631,7 +6631,7 @@
 { "file": "app/modules/guild_sidebar/FavoritesServerChannelList.tsx", "size": 48016 }
 { "file": "app/modules/main_tabs_v2/native/tabs/guilds/empty_states/GuildsEmpty.tsx", "size": 19863 }
 { "file": "app/modules/age_gate/native/components/NsfwGateGuildSidebar.tsx", "size": 9006 }
-{ "file": "app/modules/main_tabs_v2/native/YouBar.tsx", "size": 94764 }
+{ "file": "app/modules/main_tabs_v2/native/YouBar.tsx", "size": 95227 }
 { "file": "app/modules/icymi/native/useICYMITabBadge.tsx", "size": 5429 }
 { "file": "app/modules/main_tabs_v2/native/tabs/notifications/useNotificationsTabBadge.tsx", "size": 4565 }
 { "file": "app/modules/icymi/native/useICYMIMentionMessages.tsx", "size": 16217 }

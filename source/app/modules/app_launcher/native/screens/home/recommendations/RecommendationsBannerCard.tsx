@@ -226,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = true;
             var3['botIconFirst'] = var11;
             var9 = var4.bind(var9)(var3);
-            if(var1) { _fun0001_ip = 1063; continue _fun0001 }
+            if(var1) { _fun0001_ip = 1067; continue _fun0001 }
  265:
             var4 = _closure1_slot7;
             var3 = _closure1_slot0;
@@ -299,7 +299,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.EmbeddedActivityLabelTypes;
             var18 = var16.NONE;
             var16 = null;
-            if(!(var25 !== var18)) { _fun0001_ip = 747; continue _fun0001 }
+            if(!(var25 !== var18)) { _fun0001_ip = 751; continue _fun0001 }
  529:
             var20 = _closure1_slot7;
             var19 = _closure1_slot4;
@@ -319,7 +319,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var23 = var24.bind(var5)(var23, var21);
             var21 = new Array(2);
             var21[0] = var23;
-            if(!var22) { _fun0001_ip = 733; continue _fun0001 }
+            if(!var22) { _fun0001_ip = 737; continue _fun0001 }
  611:
             var25 = _closure1_slot6;
             var24 = _closure1_slot4;
@@ -347,11 +347,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var26 = var25.bind(var5)(var27, var26);
             var23['children'] = var26;
             var22 = var25.bind(var5)(var24, var23);
- 733:
+ 737:
             var21[1] = var22;
             var18['children'] = var21;
             var16 = var20.bind(var5)(var19, var18);
- 747:
+ 751:
             var14[1] = var16;
             var11['children'] = var14;
             var12 = var13.bind(var5)(var12, var11);
@@ -363,8 +363,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var17.appDetailsContainer;
             var12['style'] = var16;
             var16 = var15 != var9;
-            if(!var16) { _fun0001_ip = 852; continue _fun0001 }
- 796:
+            if(!var16) { _fun0001_ip = 856; continue _fun0001 }
+ 800:
             var19 = _closure1_slot6;
             var18 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -378,7 +378,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var17.appIconContainer;
             var15['wrapperStyle'] = var20;
             var16 = var19.bind(var5)(var18, var15);
- 852:
+ 856:
             var15 = new Array(3);
             var15[0] = var16;
             var21 = _closure1_slot7;
@@ -422,8 +422,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11[1] = var12;
             var1['children'] = var11;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 1124; continue _fun0001;
- 1063:
+            _fun0001_ip = 1128; continue _fun0001;
+ 1067:
             var4 = _closure1_slot6;
             var3 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -438,7 +438,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['isFirstRow'] = var7;
             var2['isLastRow'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1124:
+ 1128:
             return var1;
         }
     };
