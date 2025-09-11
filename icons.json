@@ -951,7 +951,7 @@
         "height": 60
     },
     "brb": {
-        "file": "modules/hang_status/images/native/brb.png",
+        "file": "modules/hang_status/images/native/original/brb.png",
         "hash": "ded44871a3e3493cb071ae1023856397",
         "scales": [
             2,
@@ -1606,7 +1606,7 @@
         "height": 24
     },
     "chillin": {
-        "file": "modules/hang_status/images/native/chillin.png",
+        "file": "modules/hang_status/images/native/original/chillin.png",
         "hash": "6a3ff455f3b3ca63aaeac56dc14bc116",
         "scales": [
             2,
@@ -3451,7 +3451,7 @@
         "height": 24
     },
     "gaming": {
-        "file": "modules/hang_status/images/native/gaming.png",
+        "file": "modules/hang_status/images/native/original/gaming.png",
         "hash": "e8ceff5513321e12afccedad88f1bc88",
         "scales": [
             2,
@@ -3666,7 +3666,7 @@
         "height": 24
     },
     "grubbin": {
-        "file": "modules/hang_status/images/native/grubbin.png",
+        "file": "modules/hang_status/images/native/original/grubbin.png",
         "hash": "2c5d50c03e0f088e045182444b7b5818",
         "scales": [
             2,
@@ -3888,15 +3888,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "hero-orb": {
-        "file": "modules/virtual_currency/images/native/hero-orb.png",
-        "hash": "402771a0c827505c343cdd593ea151bc",
-        "scales": [
-            1
-        ],
-        "width": 154,
-        "height": 141
     },
     "hi": {
         "file": "_/discord_common/js/shared/images/flags/hi.png",
@@ -9593,7 +9584,7 @@
         "height": 100
     },
     "in-the-zone": {
-        "file": "modules/hang_status/images/native/in-the-zone.png",
+        "file": "modules/hang_status/images/native/original/in-the-zone.png",
         "hash": "9c92ffc4f8bfefa67028fbff77cc6777",
         "scales": [
             2,
@@ -10038,6 +10029,16 @@
         ],
         "width": 161,
         "height": 161
+    },
+    "MagicDoorIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/MagicDoorIcon.png",
+        "hash": "669642507156cd2ac1bb4d4dcd684ffa",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "MagicWandIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/MagicWandIcon.png",
@@ -13250,16 +13251,6 @@
         "width": 24,
         "height": 24
     },
-    "wandering": {
-        "file": "modules/hang_status/images/native/wandering.png",
-        "hash": "f582e7d48943842574ad87f8670e93f1",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
-    },
     "WarningIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/WarningIcon.png",
         "hash": "ba2e75015b1baf3aa35bb6efd5d517fa",
@@ -13281,7 +13272,7 @@
         "height": 18
     },
     "watching": {
-        "file": "modules/hang_status/images/native/watching.png",
+        "file": "modules/hang_status/images/native/original/watching.png",
         "hash": "838c77993f0c4e98e3a5b02a06e563ec",
         "scales": [
             2,
