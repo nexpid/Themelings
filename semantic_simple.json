@@ -845,6 +845,12 @@
     "midnight": "#212229e6",
     "darker": "#212229e6"
   },
+  "GRADIENT_PROGRESS_PILL_BACKGROUND": {
+    "dark": "#5c5d67",
+    "light": "#bcbdc2",
+    "midnight": "#3b3c43",
+    "darker": "#46474f"
+  },
   "GUILD_NOTIFICATIONS_BOTTOM_SHEET_PILL_BACKGROUND": {
     "dark": "#1e1f22",
     "light": "#ffffff",

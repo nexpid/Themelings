@@ -4229,6 +4229,36 @@
       }
     ]
   },
+  "GRADIENT_PROGRESS_PILL_BACKGROUND": {
+    "dark": [
+      "#5c5d67",
+      {
+        "raw": "NEUTRAL_45",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#bcbdc2",
+      {
+        "raw": "NEUTRAL_18",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#3b3c43",
+      {
+        "raw": "NEUTRAL_63",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#46474f",
+      {
+        "raw": "NEUTRAL_56",
+        "opacity": 1
+      }
+    ]
+  },
   "GUILD_NOTIFICATIONS_BOTTOM_SHEET_PILL_BACKGROUND": {
     "dark": [
       "#1e1f22",
