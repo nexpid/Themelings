@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var1)(var5);
     var5 = var5.HOISTED_SEARCH_APPLICATION_IDS_BY_PRIORITY;
     var _closure1_slot5 = var5;
-    var5 = 6;
+    var5 = 7;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -118,12 +118,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var4)(var2);
             var3 = var4.filter;
             var2 = function(arg1) {
-                var3 = _closure1_slot7;
-                var2 = undefined;
-                var1 = arg1;
-                var1 = var3.bind(var2)(var1);
-                var1 = !var1;
-                return var1;
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                    var2 = arg1;
+                    var1 = _closure1_slot7;
+                    var5 = undefined;
+                    var1 = var1.bind(var5)(var2);
+                    var1 = !var1;
+                    if(!var1) { _fun0003_ip = 67; continue _fun0003 }
+ 23:
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var3 = 6;
+                    var3 = var6[var3];
+                    var3 = var4.bind(var5)(var3);
+                    var4 = var3.GAME_WIDGET_BANNED_APPLICATION_IDS;
+                    var3 = var4.has;
+                    var2 = var2.id;
+                    var2 = var3.bind(var4)(var2);
+                    var1 = !var2;
+ 67:
+                    return var1;
+                }
             };
             var4 = var3.bind(var4)(var2);
             var3 = var4.map;

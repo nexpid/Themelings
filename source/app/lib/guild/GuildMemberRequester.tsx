@@ -294,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var2;
-        var2 = new Array(6);
+        var2 = new Array(7);
         var2[0] = var1;
         var1 = {};
         var6 = 'request';
@@ -411,7 +411,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var6 = '_getGuildState';
         var1['key'] = var6;
-        var5 = function value(arg1) {
+        var6 = function value(arg1) {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                 var4 = arg1;
@@ -436,8 +436,79 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var1['value'] = var5;
+        var1['value'] = var6;
         var2[5] = var1;
+        var1 = {};
+        var6 = 'getDebugState';
+        var1['key'] = var6;
+        var5 = function value(arg1) {
+            var2 = arg1;
+            var _closure3_slot0 = var2;
+            var4 = new Array(0);
+            var _closure3_slot1 = var4;
+            var3 = new Array(0);
+            var _closure3_slot2 = var3;
+            var2 = new Array(0);
+            var _closure3_slot3 = var2;
+            var7 = _closure1_slot1;
+            var6 = _closure1_slot2;
+            var5 = 3;
+            var6 = var6[var5];
+            var5 = undefined;
+            var7 = var7.bind(var5)(var6);
+            var6 = var7.forEach;
+            var5 = this;
+            var5 = var5._guildStates;
+            var1 = function(arg1) {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+ 0:
+                    var1 = arg1;
+                    var5 = var1._pendingRequests;
+                    var4 = var5.has;
+                    var3 = _closure3_slot0;
+                    var3 = var4.bind(var5)(var3);
+                    if(!var3) { _fun0010_ip = 49; continue _fun0010 }
+ 29:
+                    var5 = _closure3_slot1;
+                    var4 = var5.push;
+                    var3 = var1._guildId;
+                    var3 = var4.bind(var5)(var3);
+ 49:
+                    var5 = var1._unacknowledgedRequests;
+                    var4 = var5.has;
+                    var3 = _closure3_slot0;
+                    var3 = var4.bind(var5)(var3);
+                    if(!var3) { _fun0010_ip = 92; continue _fun0010 }
+ 72:
+                    var5 = _closure3_slot2;
+                    var4 = var5.push;
+                    var3 = var1._guildId;
+                    var3 = var4.bind(var5)(var3);
+ 92:
+                    var5 = var1._sentRequests;
+                    var4 = var5.has;
+                    var3 = _closure3_slot0;
+                    var3 = var4.bind(var5)(var3);
+                    if(!var3) { _fun0010_ip = 135; continue _fun0010 }
+ 115:
+                    var3 = _closure3_slot3;
+                    var2 = var3.push;
+                    var1 = var1._guildId;
+                    var1 = var2.bind(var3)(var1);
+ 135:
+                    var1 = undefined;
+                    return var1;
+                }
+            };
+            var1 = var6.bind(var7)(var5, var1);
+            var1 = {};
+            var1['pendingRequestGuildIds'] = var4;
+            var1['unacknowledgedRequestGuildIds'] = var3;
+            var1['sentRequestGuildIds'] = var2;
+            return var1;
+        };
+        var1['value'] = var5;
+        var2[6] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;

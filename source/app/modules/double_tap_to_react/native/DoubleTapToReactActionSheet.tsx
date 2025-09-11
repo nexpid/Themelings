@@ -79,20 +79,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var15.isIOS;
         var15 = var10.bind(var15)();
         var10 = 36;
-        if(!var15) { _fun0001_ip = 335; continue _fun0001 }
- 332:
+        if(!var15) { _fun0001_ip = 334; continue _fun0001 }
+ 331:
         var10 = var12;
- 335:
+ 334:
         var9['fontSize'] = var10;
         var10 = var6[var14];
         var12 = var5.bind(var1)(var10);
         var10 = var12.isIOS;
         var12 = var10.bind(var12)();
         var10 = undefined;
-        if(!var12) { _fun0001_ip = 367; continue _fun0001 }
- 364:
+        if(!var12) { _fun0001_ip = 366; continue _fun0001 }
+ 363:
         var10 = 56;
- 367:
+ 366:
         var9['lineHeight'] = var10;
         var12 = 'center';
         var9['textAlign'] = var12;
@@ -111,10 +111,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var15.isIOS;
         var15 = var14.bind(var15)();
         var14 = undefined;
-        if(!var15) { _fun0001_ip = 449; continue _fun0001 }
- 446:
+        if(!var15) { _fun0001_ip = 448; continue _fun0001 }
+ 445:
         var14 = 56;
- 449:
+ 448:
         var9['lineHeight'] = var14;
         var4['selectedEmojiText'] = var9;
         var9 = {'flexDirection': 'column', 'alignItems': 'center'};
@@ -338,7 +338,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0005_ip = 271; continue _fun0005 }
+                            if(var2) { _fun0005_ip = 270; continue _fun0005 }
  10:
                             var2 = _closure2_slot4;
                             if(!var2) { _fun0005_ip = 112; continue _fun0005 }
@@ -365,7 +365,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var2;
  103:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(var3) { _fun0005_ip = 268; continue _fun0005 }
+                            if(var3) { _fun0005_ip = 267; continue _fun0005 }
  112:
                             var12 = _closure1_slot1;
                             var6 = _closure1_slot2;
@@ -402,9 +402,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4['emoji'] = var7;
                             var4 = var5.bind(var6)(var4);
                             return var3;
- 268:
+ 267:
                             return var2;
- 271:
+ 270:
                             return var1;
                         }
                     };
@@ -485,10 +485,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = null;
                 var18 = var15 == var18;
                 var15 = '';
-                if(!var18) { _fun0002_ip = 420; continue _fun0002 }
- 415:
+                if(!var18) { _fun0002_ip = 418; continue _fun0002 }
+ 413:
                 var15 = var16.surrogates;
- 420:
+ 418:
                 var9['name'] = var15;
                 var9['src'] = var11;
                 var9 = var3.bind(var4)(var10, var9);
@@ -596,15 +596,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = var14[var18];
                 var14 = var17.bind(var4)(var14);
                 var14 = var14.t;
-                if(var13) { _fun0002_ip = 972; continue _fun0002 }
- 957:
+                if(var13) { _fun0002_ip = 970; continue _fun0002 }
+ 955:
                 var13 = var14.tdsiOz;
                 var13 = var15.bind(var16)(var13);
-                _fun0002_ip = 983; continue _fun0002;
- 972:
+                _fun0002_ip = 981; continue _fun0002;
+ 970:
                 var14 = var14.NX+WJC;
                 var13 = var15.bind(var16)(var14);
- 983:
+ 981:
                 var9['text'] = var13;
                 var9['onPress'] = var12;
                 var9 = var11.bind(var4)(var10, var9);

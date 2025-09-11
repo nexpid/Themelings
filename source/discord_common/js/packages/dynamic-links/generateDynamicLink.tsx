@@ -415,84 +415,62 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function parseDynamicLink(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            var14 = arg1;
-            var1 = var14;
+            var12 = arg1;
+            var1 = var12;
             var8 = undefined;
             var4 = undefined;
-            var5 = undefined;
-            var11 = undefined;
+            var7 = undefined;
             var9 = undefined;
             var3 = undefined;
             var6 = undefined;
             var2 = undefined;
             var10 = undefined;
-            var12 = var14.startsWith;
-            var7 = 'https://discordapp.onelink.me';
-            var7 = var12.bind(var14)(var7);
-            var13 = var14.startsWith;
-            var12 = 'https://discordapp.page.link';
-            var4 = var13.bind(var14)(var12);
-            if(var7) { _fun0005_ip = 71; continue _fun0005 }
- 61:
-            var7 = var4;
-            if(var7) { _fun0005_ip = 71; continue _fun0005 }
- 67:
-            var7 = null;
-            return var7;
- 71: // try_start_0
-            var7 = global;
-            var13 = var7.URL;
-            var16 = var1;
-            var12 = var13.prototype;
-            var12 = Object.create(var12, {constructor: {value: var13}});
-            var17 = var12;
-            var1 = new var17[var13](var16, var15);
-            var1 = var1 instanceof Object ? var1 : var12;
-            var5 = var1.searchParams;
-            var1 = var4;
-            var14 = var5;
-            var13 = var14.get;
-            if(var1) { _fun0005_ip = 135; continue _fun0005 }
- 122:
+            var11 = var12.startsWith;
+            var5 = 'https://discordapp.onelink.me';
+            var5 = var11.bind(var12)(var5);
+            if(var5) { _fun0005_ip = 46; continue _fun0005 }
+ 42:
+            var5 = null;
+            return var5;
+ 46: // try_start_0
+            var5 = global;
+            var12 = var5.URL;
+            var14 = var1;
+            var11 = var12.prototype;
+            var11 = Object.create(var11, {constructor: {value: var12}});
+            var15 = var11;
+            var1 = new var15[var12](var14, var13);
+            var1 = var1 instanceof Object ? var1 : var11;
+            var12 = var1.searchParams;
+            var4 = var12;
+            var11 = var12.get;
             var1 = 'deep_link_value';
-            var12 = var13.bind(var14)(var1);
-            _fun0005_ip = 144; continue _fun0005;
- 135:
-            var1 = 'link';
-            var12 = var13.bind(var14)(var1);
- 144:
-            var11 = var12;
+            var11 = var11.bind(var12)(var1);
+            var7 = var11;
             var1 = null;
-            if(!(var1 != var12)) { _fun0005_ip = 359; continue _fun0005 }
- 156:
-            var12 = var7.decodeURIComponent;
-            var16 = var12.bind(var8)(var11);
-            var7 = var7.URL;
-            var11 = var7.prototype;
-            var11 = Object.create(var11, {constructor: {value: var7}});
-            var17 = var11;
-            var7 = new var17[var7](var16, var15);
-            var7 = var7 instanceof Object ? var7 : var11;
-            var3 = var7.searchParams;
-            var11 = var5;
-            var7 = var11.get;
-            if(var4) { _fun0005_ip = 221; continue _fun0005 }
- 210:
+            if(!(var1 != var11)) { _fun0005_ip = 303; continue _fun0005 }
+ 114:
+            var11 = var5.decodeURIComponent;
+            var14 = var11.bind(var8)(var7);
+            var5 = var5.URL;
+            var7 = var5.prototype;
+            var7 = Object.create(var7, {constructor: {value: var5}});
+            var15 = var7;
+            var5 = new var15[var5](var14, var13);
+            var5 = var5 instanceof Object ? var5 : var7;
+            var3 = var5.searchParams;
+            var7 = var4;
+            var5 = var7.get;
             var4 = 'pid';
-            var5 = var7.bind(var11)(var4);
-            _fun0005_ip = 230; continue _fun0005;
- 221:
-            var4 = 'utm_source';
-            var5 = var7.bind(var11)(var4);
- 230:
+            var5 = var5.bind(var7)(var4);
             var6 = var5;
             var4 = {};
             var7 = var1 != var5;
             var5 = undefined;
-            if(!var7) { _fun0005_ip = 247; continue _fun0005 }
- 244:
+            if(!var7) { _fun0005_ip = 191; continue _fun0005 }
+ 188:
             var5 = var6;
- 247:
+ 191:
             var4['utmSource'] = var5;
             var2 = var4;
             var4 = _closure1_slot6;
@@ -507,8 +485,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 2;
             var5 = 0;
             var4 = 1;
-            if(var3) { _fun0005_ip = 357; continue _fun0005 }
- 306:
+            if(var3) { _fun0005_ip = 301; continue _fun0005 }
+ 250:
             var3 = var9;
             var11 = var3.value;
             var3 = _closure1_slot5;
@@ -521,12 +499,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var8)();
             var9 = var3;
             var3 = var3.done;
-            if(!var3) { _fun0005_ip = 306; continue _fun0005 }
- 357: // try_end0
+            if(!var3) { _fun0005_ip = 250; continue _fun0005 }
+ 301: // try_end0
             return var2;
- 359:
+ 303:
             return var1;
- 361: // catch_target0
+ 305: // catch_target0
             CatchBlockStart(arg_register=0);
             var1 = null;
             return var1;

@@ -334,53 +334,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot3;
             var5 = var6.getChannel;
             var6 = var5.bind(var6)(var8);
-            if(!(var3 != var6)) { _fun0004_ip = 109; continue _fun0004 }
- 96:
+            if(!(var3 != var6)) { _fun0004_ip = 108; continue _fun0004 }
+ 95:
             var5 = var6.isPrivate;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0004_ip = 121; continue _fun0004 }
- 109:
+            if(var5) { _fun0004_ip = 120; continue _fun0004 }
+ 108:
             var5 = _closure1_slot8;
             var16 = var5.GUILD_CHANNEL;
-            _fun0004_ip = 131; continue _fun0004;
- 121:
+            _fun0004_ip = 130; continue _fun0004;
+ 120:
             var5 = _closure1_slot8;
             var16 = var5.DM_CHANNEL;
- 131:
-            if(!(var3 != var6)) { _fun0004_ip = 148; continue _fun0004 }
- 135:
+ 130:
+            if(!(var3 != var6)) { _fun0004_ip = 147; continue _fun0004 }
+ 134:
             var5 = var6.isForumLikeChannel;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0004_ip = 177; continue _fun0004 }
- 148:
-            if(!(var3 != var6)) { _fun0004_ip = 165; continue _fun0004 }
- 152:
+            if(var5) { _fun0004_ip = 176; continue _fun0004 }
+ 147:
+            if(!(var3 != var6)) { _fun0004_ip = 164; continue _fun0004 }
+ 151:
             var5 = var6.isForumPost;
             var5 = var5.bind(var6)();
-            if(var5) { _fun0004_ip = 177; continue _fun0004 }
- 165:
+            if(var5) { _fun0004_ip = 176; continue _fun0004 }
+ 164:
             var5 = _closure1_slot9;
             var15 = var5.CHANNEL;
-            _fun0004_ip = 187; continue _fun0004;
- 177:
+            _fun0004_ip = 186; continue _fun0004;
+ 176:
             var5 = _closure1_slot9;
             var15 = var5.FORUM_CHANNEL_POST;
- 187:
-            if(!(var3 == var13)) { _fun0004_ip = 232; continue _fun0004 }
- 191:
+ 186:
+            if(!(var3 == var13)) { _fun0004_ip = 231; continue _fun0004 }
+ 190:
             var6 = _closure1_slot4;
             var5 = var6.getMessage;
             var6 = var5.bind(var6)(var8, var9);
             var3 = var3 == var6;
             var5 = undefined;
-            if(var3) { _fun0004_ip = 226; continue _fun0004 }
- 216:
+            if(var3) { _fun0004_ip = 225; continue _fun0004 }
+ 215:
             var3 = var6.isPoll;
             var5 = var3.bind(var6)();
- 226:
+ 225:
             var3 = true;
             var13 = var3 === var5;
- 232:
+ 231:
             var6 = _closure1_slot1;
             var3 = _closure1_slot2;
             var5 = 18;

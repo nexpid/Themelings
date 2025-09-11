@@ -506,7 +506,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['hasCustomProfileTheme'] = var20;
             var15 = var19.bind(var4)(var18, var15);
             var12[1] = var15;
-            if(!var14) { _fun0001_ip = 1228; continue _fun0001 }
+            if(!var14) { _fun0001_ip = 1232; continue _fun0001 }
  1196:
             var19 = _closure1_slot7;
             var18 = _closure1_slot1;
@@ -515,8 +515,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var20[var15];
             var18 = var18.bind(var4)(var15);
             var15 = {};
+            var15['style'] = var16;
             var14 = var19.bind(var4)(var18, var15);
- 1228:
+ 1232:
             var12[2] = var14;
             var20 = _closure1_slot7;
             var14 = _closure1_slot1;

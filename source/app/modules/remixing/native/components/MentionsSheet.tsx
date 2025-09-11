@@ -111,8 +111,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var13.md;
         var9['borderTopRightRadius'] = var13;
         var4['autocomplete'] = var9;
-        var9 = {'display': 'flex', 'flexDirection': 'column', 'alignItems': 'center', 'width': '100%', 'top': 12};
-        var4['keyboardAwareView'] = var9;
         var13 = 16;
         var9 = {'marginLeft': 16, 'height': 1};
         var4['itemDivider'] = var9;
@@ -868,7 +866,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var _closure1_slot20 = var4;
-        var4 = 34;
+        var4 = 33;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;
@@ -878,75 +876,85 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                 var1 = arg1;
-                var7 = var1.channelId;
-                var _closure2_slot0 = var7;
-                var6 = var1.canvasCenterPoint;
-                var _closure2_slot1 = var6;
+                var11 = var1.channelId;
+                var _closure2_slot0 = var11;
+                var8 = var1.canvasCenterPoint;
+                var _closure2_slot1 = var8;
                 var1 = var1.onSelect;
                 var _closure2_slot2 = var1;
                 var4 = undefined;
                 var _closure2_slot7 = var4;
                 var _closure2_slot8 = var4;
                 var2 = _closure1_slot16;
-                var14 = var2.bind(var4)();
-                var _closure2_slot3 = var14;
+                var10 = var2.bind(var4)();
+                var _closure2_slot3 = var10;
                 var3 = _closure1_slot7;
                 var2 = var3.getChannel;
-                var17 = var2.bind(var3)(var7);
-                var _closure2_slot4 = var17;
-                var5 = _closure1_slot4;
-                var3 = var5.useState;
+                var16 = var2.bind(var3)(var11);
+                var _closure2_slot4 = var16;
+                var6 = _closure1_slot4;
+                var3 = var6.useState;
                 var2 = new Array(0);
-                var5 = var3.bind(var5)(var2);
+                var6 = var3.bind(var6)(var2);
                 var3 = _closure1_slot3;
                 var2 = 2;
-                var3 = var3.bind(var4)(var5, var2);
+                var3 = var3.bind(var4)(var6, var2);
                 var2 = 0;
-                var13 = var3[var2];
+                var9 = var3[var2];
                 var2 = 1;
-                var16 = var3[var2];
-                var _closure2_slot5 = var16;
+                var15 = var3[var2];
+                var _closure2_slot5 = var15;
                 var2 = _closure1_slot12;
                 var2 = var2.bind(var4)();
-                var18 = var2.mentionsText;
-                var _closure2_slot6 = var18;
+                var17 = var2.mentionsText;
+                var _closure2_slot6 = var17;
+                var3 = _closure1_slot1;
+                var6 = _closure1_slot2;
+                var2 = 28;
+                var2 = var6[var2];
+                var3 = var3.bind(var4)(var2);
+                var2 = {};
+                var6 = true;
+                var2['includeKeyboardHeight'] = var6;
+                var2 = var3.bind(var4)(var2);
+                var12 = var2.insets;
                 var3 = null;
-                var2 = var3 == var17;
-                var15 = undefined;
-                if(var2) { _fun0007_ip = 164; continue _fun0007 }
- 154:
-                var2 = var17.isPrivate;
-                var15 = var2.bind(var17)();
- 164:
-                _closure2_slot7 = var15;
-                var8 = _closure1_slot9;
-                var5 = var8.can;
+                var2 = var3 == var16;
+                var14 = undefined;
+                if(var2) { _fun0007_ip = 204; continue _fun0007 }
+ 194:
+                var2 = var16.isPrivate;
+                var14 = var2.bind(var16)();
+ 204:
+                _closure2_slot7 = var14;
+                var13 = _closure1_slot9;
+                var6 = var13.can;
                 var2 = _closure1_slot14;
                 var2 = var2.MENTION_EVERYONE;
-                var2 = var5.bind(var8)(var2, var17);
+                var2 = var6.bind(var13)(var2, var16);
                 _closure2_slot8 = var2;
-                var8 = _closure1_slot1;
-                var10 = _closure1_slot2;
-                var5 = 28;
-                var5 = var10[var5];
-                var12 = var8.bind(var4)(var5);
-                var5 = var3 != var17;
+                var13 = _closure1_slot1;
+                var18 = _closure1_slot2;
+                var6 = 29;
+                var6 = var18[var6];
+                var13 = var13.bind(var4)(var6);
+                var6 = var3 != var16;
                 var3 = 'remix should be in a channel';
-                var3 = var12.bind(var4)(var5, var3);
-                var5 = _closure1_slot4;
-                var12 = var5.useEffect;
+                var3 = var13.bind(var4)(var6, var3);
+                var6 = _closure1_slot4;
+                var13 = var6.useEffect;
                 var3 = new Array(5);
-                var3[0] = var18;
-                var3[1] = var17;
-                var3[2] = var16;
-                var3[3] = var15;
+                var3[0] = var17;
+                var3[1] = var16;
+                var3[2] = var15;
+                var3[3] = var14;
                 var3[4] = var2;
                 var2 = function() {
                     _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                         var4 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 29;
+                        var1 = 30;
                         var2 = var2[var1];
                         var1 = undefined;
                         var7 = var4.bind(var1)(var2);
@@ -985,7 +993,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var8 = var4.roles;
                         var4 = _closure1_slot1;
                         var6 = _closure1_slot2;
-                        var3 = 30;
+                        var3 = 31;
                         var3 = var6[var3];
                         var4 = var4.bind(var1)(var3);
                         var6 = var7.map;
@@ -1040,11 +1048,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var2 = var12.bind(var5)(var2, var3);
-                var3 = var5.useCallback;
+                var2 = var13.bind(var6)(var2, var3);
+                var3 = var6.useCallback;
                 var2 = new Array(3);
-                var2[0] = var7;
-                var2[1] = var6;
+                var2[0] = var11;
+                var2[1] = var8;
                 var2[2] = var1;
                 var1 = function(arg1) {
                     _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -1119,41 +1127,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     }
                 };
-                var12 = var3.bind(var5)(var1, var2);
+                var8 = var3.bind(var6)(var1, var2);
                 var3 = _closure1_slot15;
                 var2 = _closure1_slot5;
                 var1 = {};
-                var6 = var14.iconContainer;
-                var5 = new Array(1);
-                var5[0] = var6;
-                var1['style'] = var5;
-                var5 = 'box-none';
-                var1['pointerEvents'] = var5;
-                var15 = _closure1_slot0;
-                var5 = 31;
-                var5 = var10[var5];
-                var5 = var15.bind(var4)(var5);
-                var6 = var5.SafeAreaPaddingView;
-                var5 = {'bottom': null, 'left': false, 'right': false};
-                var7 = 13;
-                var7 = var10[var7];
-                var15 = var15.bind(var4)(var7);
-                var7 = var15.isAndroid;
-                var7 = var7.bind(var15)();
-                var5['bottom'] = var7;
-                var7 = var14.safeAreaPaddingView;
-                var5['style'] = var7;
-                var7 = 32;
-                var7 = var10[var7];
-                var8 = var8.bind(var4)(var7);
-                var7 = {};
-                var10 = var14.keyboardAwareView;
-                var7['style'] = var10;
-                var10 = _closure1_slot6;
-                var9 = {};
-                var14 = var14.autocomplete;
-                var9['style'] = var14;
-                var14 = function keyExtractor(arg1, arg2) {
+                var11 = var10.iconContainer;
+                var6 = new Array(2);
+                var6[0] = var11;
+                var11 = {};
+                var12 = var12.bottom;
+                var11['paddingBottom'] = var12;
+                var6[1] = var11;
+                var1['style'] = var6;
+                var6 = 'box-none';
+                var1['pointerEvents'] = var6;
+                var6 = _closure1_slot6;
+                var5 = {};
+                var10 = var10.autocomplete;
+                var5['style'] = var10;
+                var10 = function keyExtractor(arg1, arg2) {
                     var1 = global;
                     var3 = var1.String;
                     var2 = undefined;
@@ -1161,14 +1153,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var3.bind(var2)(var1);
                     return var1;
                 };
-                var9['keyExtractor'] = var14;
-                var9['data'] = var13;
-                var9['renderItem'] = var12;
-                var11 = function ItemSeparatorComponent() {
+                var5['keyExtractor'] = var10;
+                var5['data'] = var9;
+                var5['renderItem'] = var8;
+                var7 = function ItemSeparatorComponent() {
                     var4 = _closure1_slot15;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 33;
+                    var1 = 32;
                     var1 = var3[var1];
                     var3 = undefined;
                     var1 = var2.bind(var3)(var1);
@@ -1180,13 +1172,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 };
-                var9['ItemSeparatorComponent'] = var11;
-                var11 = 'always';
-                var9['keyboardShouldPersistTaps'] = var11;
-                var9 = var3.bind(var4)(var10, var9);
-                var7['children'] = var9;
-                var7 = var3.bind(var4)(var8, var7);
-                var5['children'] = var7;
+                var5['ItemSeparatorComponent'] = var7;
+                var7 = 'always';
+                var5['keyboardShouldPersistTaps'] = var7;
                 var5 = var3.bind(var4)(var6, var5);
                 var1['children'] = var5;
                 var1 = var3.bind(var4)(var2, var1);

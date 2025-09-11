@@ -154,12 +154,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var4 = arg1;
                     var3 = arguments[1];
+                    var5 = arguments[2];
                     var _closure3_slot0 = var4;
                     var1 = undefined;
-                    if(!(var3 === var1)) { _fun0002_ip = 20; continue _fun0002 }
- 18:
+                    if(!(var3 === var1)) { _fun0002_ip = 23; continue _fun0002 }
+ 21:
                     var3 = true;
- 20:
+ 23:
+                    if(!(var5 === var1)) { _fun0002_ip = 29; continue _fun0002 }
+ 27:
+                    var5 = false;
+ 29:
+                    var _closure3_slot1 = var5;
                     var5 = function updateIndex(arg1) {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -184,35 +190,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var5 == var6;
                             var7 = var6;
  75:
-                            if(var4) { _fun0003_ip = 107; continue _fun0003 }
+                            if(var4) { _fun0003_ip = 120; continue _fun0003 }
  78:
                             var6 = var7.scrollTo;
                             var4 = {};
                             var4['x'] = var8;
-                            var8 = _closure2_slot6;
+                            var8 = _closure3_slot1;
                             var8 = !var8;
+                            if(!var8) { _fun0003_ip = 110; continue _fun0003 }
+ 103:
+                            var9 = _closure2_slot6;
+                            var8 = !var9;
+ 110:
                             var4['animated'] = var8;
                             var4 = var6.bind(var7)(var4);
- 107:
+ 120:
                             var4 = _closure2_slot5;
-                            if(!(var5 != var4)) { _fun0003_ip = 124; continue _fun0003 }
- 115:
+                            if(!(var5 != var4)) { _fun0003_ip = 137; continue _fun0003 }
+ 128:
                             var2 = _closure2_slot5;
                             var2 = var2.bind(var1)(var3);
- 124:
+ 137:
                             return var1;
                         }
                     };
-                    var _closure3_slot1 = var5;
-                    if(!var3) { _fun0002_ip = 52; continue _fun0002 }
- 32:
+                    var _closure3_slot2 = var5;
+                    if(!var3) { _fun0002_ip = 65; continue _fun0002 }
+ 45:
                     var7 = _closure2_slot11;
                     var6 = var7.get;
                     var6 = var6.bind(var7)();
                     var3 = var6 !== var4;
- 52:
-                    if(!var3) { _fun0002_ip = 110; continue _fun0002 }
- 55:
+ 65:
+                    if(!var3) { _fun0002_ip = 123; continue _fun0002 }
+ 68:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot2;
                     var3 = 4;
@@ -224,29 +235,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.HapticFeedbackTypes;
                     var3 = var3.IMPACT_MEDIUM;
                     var3 = var6.bind(var7)(var3);
- 110:
+ 123:
                     var7 = _closure2_slot11;
                     var6 = var7.get;
                     var6 = var6.bind(var7)();
-                    if(!(var4 !== var6)) { _fun0002_ip = 162; continue _fun0002 }
- 130:
+                    if(!(var4 !== var6)) { _fun0002_ip = 175; continue _fun0002 }
+ 143:
                     var7 = _closure2_slot4;
                     var6 = null;
-                    if(!(var6 == var7)) { _fun0002_ip = 147; continue _fun0002 }
- 140:
+                    if(!(var6 == var7)) { _fun0002_ip = 160; continue _fun0002 }
+ 153:
                     var5 = var5.bind(var1)(var4);
-                    _fun0002_ip = 162; continue _fun0002;
- 147:
+                    _fun0002_ip = 175; continue _fun0002;
+ 160:
                     var3 = _closure2_slot4;
                     var2 = function() {
-                        var3 = _closure3_slot1;
+                        var3 = _closure3_slot2;
                         var2 = _closure3_slot0;
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
                         return var1;
                     };
                     var2 = var3.bind(var1)(var4, var2);
- 162:
+ 175:
                     return var1;
                 }
             };

@@ -3858,16 +3858,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var12;
  255:
                 var2['mime_type'] = var11;
-                var11 = var7.filename;
-                var2['filename'] = var11;
                 var11 = var7.uploadAnalytics;
                 var12 = var11.numUploadAttempts;
                 var13 = var9 != var12;
                 var11 = 1;
-                if(!var13) { _fun0037_ip = 296; continue _fun0037 }
- 293:
+                if(!var13) { _fun0037_ip = 285; continue _fun0037 }
+ 282:
                 var11 = var12;
- 296:
+ 285:
                 var2['num_upload_attempts'] = var11;
                 var11 = var7.error;
                 var2['error_code'] = var11;
@@ -3894,38 +3892,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = var11.convertedMimeType;
                 var13 = var9 != var12;
                 var11 = var8;
-                if(!var13) { _fun0037_ip = 454; continue _fun0037 }
- 451:
+                if(!var13) { _fun0037_ip = 443; continue _fun0037 }
+ 440:
                 var11 = var12;
- 454:
+ 443:
                 var2['converted_mime_type'] = var11;
                 var11 = var7.uploadAnalytics;
                 var11 = var11.imageCompressionQuality;
                 var12 = var9 != var11;
                 var10 = 0;
-                if(!var12) { _fun0037_ip = 485; continue _fun0037 }
- 482:
+                if(!var12) { _fun0037_ip = 474; continue _fun0037 }
+ 471:
                 var10 = var11;
- 485:
+ 474:
                 var2['image_compression_quality'] = var10;
                 var10 = var7.uploadAnalytics;
                 var10 = var10.videoCompressionQuality;
                 var11 = var9 != var10;
-                if(!var11) { _fun0037_ip = 512; continue _fun0037 }
- 509:
+                if(!var11) { _fun0037_ip = 501; continue _fun0037 }
+ 498:
                 var8 = var10;
- 512:
+ 501:
                 var2['video_compression_quality'] = var8;
                 var8 = var7.uploadAnalytics;
                 var8 = var8.convertedMimeType;
                 var8 = var9 != var8;
-                if(!var8) { _fun0037_ip = 560; continue _fun0037 }
- 538:
+                if(!var8) { _fun0037_ip = 549; continue _fun0037 }
+ 527:
                 var10 = var7.mimeType;
                 var9 = var7.uploadAnalytics;
                 var9 = var9.convertedMimeType;
                 var8 = var10 !== var9;
- 560:
+ 549:
                 var2['was_converted'] = var8;
                 var9 = var7.currentSize;
                 var8 = var7.preCompressionSize;
@@ -4021,10 +4019,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['conversion_failure_reason'] = var8;
                 var8 = var7._libdiscoreEnabled;
                 var7 = 'httputils';
-                if(!var8) { _fun0037_ip = 1160; continue _fun0037 }
- 1154:
+                if(!var8) { _fun0037_ip = 1149; continue _fun0037 }
+ 1143:
                 var7 = 'libdiscore';
- 1160:
+ 1149:
                 var2['upload_http_client'] = var7;
                 var7 = _closure1_slot13;
                 var6 = var7.getType;

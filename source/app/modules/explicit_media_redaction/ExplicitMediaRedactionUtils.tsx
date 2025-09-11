@@ -829,7 +829,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['useShouldAgeVerifyForReason'] = var4;
-    var2 = function trackToggleMediaObscurityV2(arg1) {
+    var4 = function trackToggleMediaObscurityV2(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
             var1 = arg1;
@@ -864,6 +864,67 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['trackToggleMediaObscurityV2'] = var2;
+    var3['trackToggleMediaObscurityV2'] = var4;
+    var2 = function hasMessageSnapshotsWithAttachmentsOrEmbeds(arg1) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+ 0:
+            var1 = arg1;
+            var4 = var1.message_snapshots;
+            var1 = null;
+            var2 = var1 == var4;
+            var1 = undefined;
+            if(var2) { _fun0014_ip = 38; continue _fun0014 }
+ 20:
+            var3 = var4.some;
+            var2 = function(arg1) {
+                _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
+ 0:
+                    var3 = arg1;
+                    var5 = var3.message;
+                    var4 = null;
+                    var6 = var4 == var5;
+                    var1 = undefined;
+                    if(var6) { _fun0015_ip = 25; continue _fun0015 }
+ 19:
+                    var1 = var5.attachments;
+ 25:
+                    var1 = var4 != var1;
+                    if(!var1) { _fun0015_ip = 54; continue _fun0015 }
+ 32:
+                    var5 = var3.message;
+                    var5 = var5.attachments;
+                    var6 = var5.length;
+                    var5 = 0;
+                    var1 = var6 > var5;
+ 54:
+                    if(var1) { _fun0015_ip = 109; continue _fun0015 }
+ 57:
+                    var5 = var3.message;
+                    var6 = var4 == var5;
+                    var2 = undefined;
+                    if(var6) { _fun0015_ip = 77; continue _fun0015 }
+ 71:
+                    var2 = var5.embeds;
+ 77:
+                    var2 = var4 != var2;
+                    if(!var2) { _fun0015_ip = 106; continue _fun0015 }
+ 84:
+                    var3 = var3.message;
+                    var3 = var3.embeds;
+                    var4 = var3.length;
+                    var3 = 0;
+                    var2 = var4 > var3;
+ 106:
+                    var1 = var2;
+ 109:
+                    return var1;
+                }
+            };
+            var1 = var3.bind(var4)(var2);
+ 38:
+            return var1;
+        }
+    };
+    var3['hasMessageSnapshotsWithAttachmentsOrEmbeds'] = var2;
     return var1;
 })();

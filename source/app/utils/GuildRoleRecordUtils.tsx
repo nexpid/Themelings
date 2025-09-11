@@ -186,6 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = function fromServer(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
+            var10 = arg1;
             var4 = arg2;
             var3 = _closure1_slot9;
             var2 = {};
@@ -193,17 +194,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['id'] = var1;
             var1 = var4.name;
             var2['name'] = var1;
-            var1 = arg1;
-            var2['guildId'] = var1;
+            var2['guildId'] = var10;
             var6 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 2;
             var5 = var5[var1];
             var1 = undefined;
-            var7 = var6.bind(var1)(var5);
-            var6 = var7.deserialize;
+            var8 = var6.bind(var1)(var5);
+            var6 = var8.deserialize;
             var5 = var4.permissions;
-            var5 = var6.bind(var7)(var5);
+            var5 = var6.bind(var8)(var5);
             var2['permissions'] = var5;
             var5 = var4.mentionable;
             var2['mentionable'] = var5;
@@ -214,56 +214,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var4.color;
             var5 = null;
             var6 = 0;
-            var7 = null;
+            var8 = null;
             if(!(var6 !== var9)) { _fun0004_ip = 161; continue _fun0004 }
  125:
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
+            var11 = _closure1_slot0;
+            var12 = _closure1_slot2;
             var9 = 3;
-            var9 = var11[var9];
-            var11 = var10.bind(var1)(var9);
-            var10 = var11.int2hex;
+            var9 = var12[var9];
+            var12 = var11.bind(var1)(var9);
+            var11 = var12.int2hex;
             var9 = var4.color;
-            var7 = var10.bind(var11)(var9);
+            var8 = var11.bind(var12)(var9);
  161:
-            var2['colorString'] = var7;
-            var9 = var4.colors;
-            var10 = var5 != var9;
-            var7 = null;
-            if(!var10) { _fun0004_ip = 183; continue _fun0004 }
- 180:
-            var7 = var9;
- 183:
-            var2['colors'] = var7;
+            var2['colorString'] = var8;
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var7 = 4;
+            var11 = var9[var7];
+            var13 = var8.bind(var1)(var11);
+            var12 = var13.getServerColors;
+            var11 = var4.colors;
+            var11 = var12.bind(var13)(var11, var10);
+            var2['colors'] = var11;
+            var7 = var9[var7];
+            var9 = var8.bind(var1)(var7);
+            var8 = var9.extractColorStringsFromServerColors;
             var7 = var4.colors;
-            var9 = var5 != var7;
-            var7 = null;
-            if(!var9) { _fun0004_ip = 237; continue _fun0004 }
- 201:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var8 = 4;
-            var8 = var10[var8];
-            var10 = var9.bind(var1)(var8);
-            var9 = var10.extractColorStringsFromServerColors;
-            var8 = var4.colors;
-            var7 = var9.bind(var10)(var8);
- 237:
+            var7 = var8.bind(var9)(var7, var10);
             var2['colorStrings'] = var7;
             var7 = var4.hoist;
             var2['hoist'] = var7;
             var8 = var4.managed;
             var7 = var5 != var8;
-            if(!var7) { _fun0004_ip = 269; continue _fun0004 }
- 266:
+            if(!var7) { _fun0004_ip = 265; continue _fun0004 }
+ 262:
             var7 = var8;
- 269:
+ 265:
             var2['managed'] = var7;
             var7 = var4.tags;
-            if(!(var5 == var7)) { _fun0004_ip = 286; continue _fun0004 }
- 284:
+            if(!(var5 == var7)) { _fun0004_ip = 282; continue _fun0004 }
+ 280:
             var7 = {};
- 286:
+ 282:
             var2['tags'] = var7;
             var7 = var4.icon;
             var2['icon'] = var7;
@@ -272,18 +264,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.flags;
             var8 = var5 != var7;
             var6 = 0;
-            if(!var8) { _fun0004_ip = 328; continue _fun0004 }
- 325:
+            if(!var8) { _fun0004_ip = 324; continue _fun0004 }
+ 321:
             var6 = var7;
- 328:
+ 324:
             var2['flags'] = var6;
             var6 = var4.description;
             var7 = var5 != var6;
             var5 = null;
-            if(!var7) { _fun0004_ip = 349; continue _fun0004 }
- 346:
+            if(!var7) { _fun0004_ip = 345; continue _fun0004 }
+ 342:
             var5 = var6;
- 349:
+ 345:
             var2['description'] = var5;
             var4 = var4.version;
             var2['version'] = var4;
@@ -304,6 +296,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function fromSerialized(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
+            var9 = arg1;
             var4 = arg2;
             var3 = _closure1_slot9;
             var2 = {};
@@ -311,86 +304,77 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['id'] = var1;
             var1 = var4.name;
             var2['name'] = var1;
-            var1 = arg1;
-            var2['guildId'] = var1;
-            var6 = _closure1_slot1;
+            var2['guildId'] = var9;
+            var7 = _closure1_slot1;
             var5 = _closure1_slot2;
             var1 = 2;
             var5 = var5[var1];
             var1 = undefined;
-            var8 = var6.bind(var1)(var5);
-            var6 = var8.deserialize;
+            var8 = var7.bind(var1)(var5);
+            var7 = var8.deserialize;
             var5 = var4.permissions;
-            var5 = var6.bind(var8)(var5);
+            var5 = var7.bind(var8)(var5);
             var2['permissions'] = var5;
             var5 = var4.mentionable;
             var2['mentionable'] = var5;
-            var6 = var4.originalPosition;
+            var7 = var4.originalPosition;
             var5 = null;
-            if(!(var5 == var6)) { _fun0005_ip = 111; continue _fun0005 }
+            if(!(var5 == var7)) { _fun0005_ip = 111; continue _fun0005 }
  106:
-            var6 = var4.position;
+            var7 = var4.position;
  111:
-            var2['position'] = var6;
-            var6 = var4.color;
-            var2['color'] = var6;
-            var6 = var4.color;
-            var8 = var5 != var6;
-            var6 = null;
+            var2['position'] = var7;
+            var7 = var4.color;
+            var2['color'] = var7;
+            var7 = var4.color;
+            var8 = var5 != var7;
+            var7 = null;
             if(!var8) { _fun0005_ip = 187; continue _fun0005 }
  138:
-            var9 = var4.color;
+            var10 = var4.color;
             var8 = 0;
-            var6 = null;
-            if(!(var8 !== var9)) { _fun0005_ip = 187; continue _fun0005 }
+            var7 = null;
+            if(!(var8 !== var10)) { _fun0005_ip = 187; continue _fun0005 }
  151:
-            var9 = _closure1_slot0;
-            var10 = _closure1_slot2;
+            var10 = _closure1_slot0;
+            var11 = _closure1_slot2;
             var8 = 3;
-            var8 = var10[var8];
-            var10 = var9.bind(var1)(var8);
-            var9 = var10.int2hex;
+            var8 = var11[var8];
+            var11 = var10.bind(var1)(var8);
+            var10 = var11.int2hex;
             var8 = var4.color;
-            var6 = var9.bind(var10)(var8);
+            var7 = var10.bind(var11)(var8);
  187:
-            var2['colorString'] = var6;
-            var8 = var4.colors;
-            var9 = var5 != var8;
-            var6 = null;
-            if(!var9) { _fun0005_ip = 209; continue _fun0005 }
- 206:
-            var6 = var8;
- 209:
-            var2['colors'] = var6;
+            var2['colorString'] = var7;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var6 = 4;
+            var10 = var8[var6];
+            var12 = var7.bind(var1)(var10);
+            var11 = var12.getServerColors;
+            var10 = var4.colors;
+            var10 = var11.bind(var12)(var10, var9);
+            var2['colors'] = var10;
+            var6 = var8[var6];
+            var8 = var7.bind(var1)(var6);
+            var7 = var8.extractColorStringsFromServerColors;
             var6 = var4.colors;
-            var8 = var5 != var6;
-            var6 = null;
-            if(!var8) { _fun0005_ip = 263; continue _fun0005 }
- 227:
-            var8 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var7 = 4;
-            var7 = var9[var7];
-            var9 = var8.bind(var1)(var7);
-            var8 = var9.extractColorStringsFromServerColors;
-            var7 = var4.colors;
-            var6 = var8.bind(var9)(var7);
- 263:
+            var6 = var7.bind(var8)(var6, var9);
             var2['colorStrings'] = var6;
             var6 = var4.hoist;
             var2['hoist'] = var6;
             var7 = var4.managed;
             var6 = var5 != var7;
-            if(!var6) { _fun0005_ip = 295; continue _fun0005 }
- 292:
+            if(!var6) { _fun0005_ip = 291; continue _fun0005 }
+ 288:
             var6 = var7;
- 295:
+ 291:
             var2['managed'] = var6;
             var6 = var4.tags;
-            if(!(var5 == var6)) { _fun0005_ip = 312; continue _fun0005 }
- 310:
+            if(!(var5 == var6)) { _fun0005_ip = 308; continue _fun0005 }
+ 306:
             var6 = {};
- 312:
+ 308:
             var2['tags'] = var6;
             var6 = var4.icon;
             var2['icon'] = var6;
@@ -399,18 +383,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.flags;
             var8 = var5 != var7;
             var6 = 0;
-            if(!var8) { _fun0005_ip = 354; continue _fun0005 }
- 351:
+            if(!var8) { _fun0005_ip = 350; continue _fun0005 }
+ 347:
             var6 = var7;
- 354:
+ 350:
             var2['flags'] = var6;
             var6 = var4.description;
             var7 = var5 != var6;
             var5 = null;
-            if(!var7) { _fun0005_ip = 375; continue _fun0005 }
- 372:
+            if(!var7) { _fun0005_ip = 371; continue _fun0005 }
+ 368:
             var5 = var6;
- 375:
+ 371:
             var2['description'] = var5;
             var4 = var4.version;
             var2['version'] = var4;

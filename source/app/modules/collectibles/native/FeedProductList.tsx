@@ -206,70 +206,72 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var1 = arg1;
-            var11 = var1.products;
+            var12 = var1.products;
             var10 = var1.loadingCardsNum;
-            var15 = var1.title;
+            var16 = var1.title;
+            var11 = var1.preferVCPrice;
             var1 = _closure1_slot7;
             var4 = undefined;
-            var13 = var1.bind(var4)();
+            var14 = var1.bind(var4)();
             var1 = _closure1_slot9;
-            var12 = var1.bind(var4)();
+            var13 = var1.bind(var4)();
             var3 = _closure1_slot6;
             var2 = _closure1_slot5;
             var1 = {};
             var5 = null;
-            var6 = var5 != var15;
-            if(!var6) { _fun0002_ip = 137; continue _fun0002 }
- 60:
+            var6 = var5 != var16;
+            if(!var6) { _fun0002_ip = 143; continue _fun0002 }
+ 66:
             var9 = _closure1_slot4;
             var8 = _closure1_slot3;
             var5 = {};
-            var13 = var13.titleContainer;
-            var5['style'] = var13;
-            var14 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var13 = 9;
-            var13 = var16[var13];
-            var13 = var14.bind(var4)(var13);
-            var14 = var13.Text;
-            var13 = {};
-            var16 = 'heading-lg/semibold';
-            var13['variant'] = var16;
-            var13['children'] = var15;
-            var13 = var9.bind(var4)(var14, var13);
-            var5['children'] = var13;
+            var14 = var14.titleContainer;
+            var5['style'] = var14;
+            var15 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var14 = 9;
+            var14 = var17[var14];
+            var14 = var15.bind(var4)(var14);
+            var15 = var14.Text;
+            var14 = {};
+            var17 = 'heading-lg/semibold';
+            var14['variant'] = var17;
+            var14['children'] = var16;
+            var14 = var9.bind(var4)(var15, var14);
+            var5['children'] = var14;
             var6 = var9.bind(var4)(var8, var5);
- 137:
+ 143:
             var5 = new Array(2);
             var5[0] = var6;
-            var8 = var11.length;
+            var8 = var12.length;
             var6 = 0;
-            if(!(var6 !== var8)) { _fun0002_ip = 213; continue _fun0002 }
- 156:
+            if(!(var6 !== var8)) { _fun0002_ip = 224; continue _fun0002 }
+ 162:
             var9 = _closure1_slot4;
             var8 = _closure1_slot1;
-            var13 = _closure1_slot2;
+            var14 = _closure1_slot2;
             var6 = 5;
-            var6 = var13[var6];
+            var6 = var14[var6];
             var8 = var8.bind(var4)(var6);
             var6 = {};
-            var6['products'] = var11;
-            var11 = 1;
-            var13 = var12 < var11;
-            if(var13) { _fun0002_ip = 200; continue _fun0002 }
- 197:
-            var11 = var12;
- 200:
-            var6['column'] = var11;
+            var6['products'] = var12;
+            var12 = 1;
+            var14 = var13 < var12;
+            if(var14) { _fun0002_ip = 206; continue _fun0002 }
+ 203:
+            var12 = var13;
+ 206:
+            var6['column'] = var12;
+            var6['preferVCPrice'] = var11;
             var6 = var9.bind(var4)(var8, var6);
-            _fun0002_ip = 234; continue _fun0002;
- 213:
+            _fun0002_ip = 245; continue _fun0002;
+ 224:
             var9 = _closure1_slot4;
             var8 = _closure1_slot8;
             var7 = {};
             var7['loadingCardsNum'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 234:
+ 245:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

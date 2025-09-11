@@ -147,11 +147,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var6.emoji;
                     var1 = var1.id;
                     var7 = null;
-                    if(!(var7 == var1)) { _fun0002_ip = 123; continue _fun0002 }
- 112:
+                    if(!(var7 == var1)) { _fun0002_ip = 121; continue _fun0002 }
+ 111:
                     var6 = var6.emoji;
                     var1 = var6.name;
- 123:
+ 121:
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 }
@@ -286,11 +286,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var6.emoji;
                     var1 = var1.id;
                     var7 = null;
-                    if(!(var7 == var1)) { _fun0004_ip = 123; continue _fun0004 }
- 112:
+                    if(!(var7 == var1)) { _fun0004_ip = 121; continue _fun0004 }
+ 111:
                     var6 = var6.emoji;
                     var1 = var6.name;
- 123:
+ 121:
                     var1 = var5.bind(var4)(var3, var2, var1);
                     return var1;
                 }

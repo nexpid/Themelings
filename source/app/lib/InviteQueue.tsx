@@ -26,11 +26,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun0001_ip = 76; continue _fun0001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -209,20 +209,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot2 = var7;
                 var5 = var1.location;
                 var _closure3_slot3 = var5;
-                var4 = var1.suggested;
+                var4 = var1.inviteAnalyticsMetadata;
                 var _closure3_slot4 = var4;
                 var9 = var1.type;
                 var8 = _closure1_slot9;
                 var8 = var8.GROUP_DM;
-                if(!(var8 !== var9)) { _fun0003_ip = 158; continue _fun0003 }
+                if(!(var8 !== var9)) { _fun0003_ip = 162; continue _fun0003 }
  64:
                 var8 = _closure1_slot9;
                 var8 = var8.CHANNEL;
-                if(!(var8 !== var9)) { _fun0003_ip = 158; continue _fun0003 }
+                if(!(var8 !== var9)) { _fun0003_ip = 162; continue _fun0003 }
  78:
                 var8 = _closure1_slot9;
                 var8 = var8.USER;
-                if(!(var8 === var9)) { _fun0003_ip = 191; continue _fun0003 }
+                if(!(var8 === var9)) { _fun0003_ip = 195; continue _fun0003 }
  92:
                 var9 = _closure1_slot0;
                 var8 = _closure1_slot1;
@@ -269,8 +269,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var8.bind(var9)(var3, var2);
-                _fun0003_ip = 191; continue _fun0003;
- 158:
+                _fun0003_ip = 195; continue _fun0003;
+ 162:
                 var3 = var6._sendInvite;
                 var14 = var1.channel;
                 var13 = var1.inviteKey;
@@ -279,7 +279,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var4;
                 var10 = var7;
                 var1 = var15[var3](var14, var13, var12, var11, var10, var9);
- 191:
+ 195:
                 var1 = undefined;
                 return var1;
             }

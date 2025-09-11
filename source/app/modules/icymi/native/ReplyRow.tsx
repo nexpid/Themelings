@@ -1606,9 +1606,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var13[var1];
         var4 = undefined;
         var3 = var11.bind(var4)(var1);
-        var2 = var3.useICYMIUXRefreshExperiment;
-        var1 = 'icymi_ux_refresh';
-        var2 = var2.bind(var3)(var1);
+        var2 = var3.useDestinationICYMIExperiment;
+        var1 = {};
+        var5 = 'ReplyRow';
+        var1['location'] = var5;
+        var1 = var2.bind(var3)(var1);
+        var2 = var1.isNewCardDesign;
         var1 = _closure1_slot19;
         var12 = var1.bind(var4)(var2);
         var3 = _closure1_slot16;

@@ -210,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 0;
             var2 = var7[var1];
             var1 = '@';
-            if(!(var1 !== var2)) { _fun0004_ip = 1106; continue _fun0004 }
+            if(!(var1 !== var2)) { _fun0004_ip = 1105; continue _fun0004 }
  68:
             var13 = ':';
             if(!(var13 !== var2)) { _fun0004_ip = 861; continue _fun0004 }
@@ -448,7 +448,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var1.bind(var8)(var7);
             var8 = var10 == var9;
             var1 = null;
-            if(var8) { _fun0004_ip = 1104; continue _fun0004 }
+            if(var8) { _fun0004_ip = 1103; continue _fun0004 }
  913:
             var8 = 1;
             var8 = var9[var8];
@@ -459,11 +459,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var9)();
             var9 = var10 != var2;
             var1 = null;
-            if(!var9) { _fun0004_ip = 1104; continue _fun0004 }
+            if(!var9) { _fun0004_ip = 1103; continue _fun0004 }
  957:
             var9 = var8 in var2;
             var1 = null;
-            if(!var9) { _fun0004_ip = 1104; continue _fun0004 }
+            if(!var9) { _fun0004_ip = 1103; continue _fun0004 }
  969:
             var9 = var2[var8];
             var2 = {};
@@ -503,9 +503,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[0] = var9;
             var2['children'] = var8;
             var1 = var2;
- 1104:
+ 1103:
             return var1;
- 1106:
+ 1105:
             var2 = function resolveUserOrRole(arg1, arg2, arg3, arg4, arg5) {
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:

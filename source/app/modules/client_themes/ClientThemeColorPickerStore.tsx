@@ -18,9 +18,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var4);
     var4 = var7.create;
-    var2 = function(arg1) {
+    var2 = function(arg1, arg2) {
         var1 = arg1;
         var _closure2_slot0 = var1;
+        var1 = arg2;
+        var _closure2_slot1 = var1;
         var1 = {'colors': null, 'chassisMixAmount': 74, 'gradientAngle': 0};
         var3 = new Array(0);
         var1['colors'] = var3;
@@ -101,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['setGradientAngle'] = var3;
-        var2 = function setAll(arg1) {
+        var3 = function setAll(arg1) {
             var1 = arg1;
             var3 = var1.colors;
             var _closure3_slot0 = var3;
@@ -132,7 +134,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             return var1;
         };
-        var1['setAll'] = var2;
+        var1['setAll'] = var3;
+        var2 = function isEditorActive() {
+            var2 = _closure2_slot1;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            var1 = var1.colors;
+            var2 = var1.length;
+            var1 = 0;
+            var1 = var2 > var1;
+            return var1;
+        };
+        var1['isEditorActive'] = var2;
         return var1;
     };
     var2 = var4.bind(var7)(var2);

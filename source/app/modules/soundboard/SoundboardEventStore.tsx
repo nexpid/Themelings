@@ -377,41 +377,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['computeBonus'] = var10;
-    var10 = function computeWeight(arg1) {
-        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
- 0:
-            var3 = arg1;
-            var1 = 3;
-            var2 = var3 <= var1;
-            var1 = 100;
-            if(var2) { _fun0006_ip = 71; continue _fun0006 }
- 16:
-            var2 = 15;
-            var2 = var3 <= var2;
-            var1 = 70;
-            if(var2) { _fun0006_ip = 71; continue _fun0006 }
- 29:
-            var4 = 30;
-            var2 = var3 <= var4;
-            var1 = 50;
-            if(var2) { _fun0006_ip = 71; continue _fun0006 }
- 42:
-            var2 = 45;
-            var2 = var3 <= var2;
-            var1 = var4;
-            if(var2) { _fun0006_ip = 71; continue _fun0006 }
- 55:
-            var2 = 80;
-            var2 = var3 <= var2;
-            var1 = 1;
-            if(!var2) { _fun0006_ip = 71; continue _fun0006 }
- 68:
-            var1 = 10;
- 71:
-            return var1;
-        }
-    };
-    var2['computeWeight'] = var10;
     var10 = function lookupKey(arg1) {
         var3 = _closure1_slot10;
         var2 = var3.getSoundById;
@@ -439,7 +404,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = var2.PersistedStore;
     var2 = function(arg1) {
         var4 = function SoundboardEventStore() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var4 = this;
                 var3 = undefined;
@@ -452,13 +417,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot5;
                 var1 = _closure1_slot15;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0007_ip = 69; continue _fun0007 }
+                if(var1) { _fun0006_ip = 69; continue _fun0006 }
  51:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0007_ip = 105; continue _fun0007;
+                _fun0006_ip = 105; continue _fun0006;
  69:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -483,7 +448,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value(arg1) {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                 var3 = arg1;
                 var5 = this;
@@ -495,11 +460,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var6 == var3;
                 var1 = undefined;
                 var4 = undefined;
-                if(var7) { _fun0008_ip = 48; continue _fun0008 }
+                if(var7) { _fun0007_ip = 48; continue _fun0007 }
  42:
                 var4 = var3.recentlyHeardCache;
  48:
-                if(!(var6 != var4)) { _fun0008_ip = 73; continue _fun0008 }
+                if(!(var6 != var4)) { _fun0007_ip = 73; continue _fun0007 }
  52:
                 var8 = _closure1_slot13;
                 var7 = var8.load;
@@ -508,11 +473,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  73:
                 var7 = var6 == var3;
                 var4 = undefined;
-                if(var7) { _fun0008_ip = 88; continue _fun0008 }
+                if(var7) { _fun0007_ip = 88; continue _fun0007 }
  82:
                 var4 = var3.playedEventsPendingFlush;
  88:
-                if(!(var6 != var4)) { _fun0008_ip = 102; continue _fun0008 }
+                if(!(var6 != var4)) { _fun0007_ip = 102; continue _fun0007 }
  92:
                 var3 = var3.playedEventsPendingFlush;
                 _closure1_slot12 = var3;
@@ -599,7 +564,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7.bind(var1)(var2);
     var2 = {};
     var9 = function handleSoundPlayLocally(arg1) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var1 = arg1;
             var3 = var1.sound;
@@ -607,7 +572,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot19;
             var1 = undefined;
             var5 = var5.bind(var1)();
-            if(!var5) { _fun0009_ip = 152; continue _fun0009 }
+            if(!var5) { _fun0008_ip = 152; continue _fun0008 }
  31:
             var5 = var3.soundId;
             var3 = var5.toString;
@@ -619,7 +584,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var1)(var3);
             var3 = var3.LocalSoundTrigger;
             var3 = var3.SOUNDBOARD;
-            if(!(var4 === var3)) { _fun0009_ip = 152; continue _fun0009 }
+            if(!(var4 === var3)) { _fun0008_ip = 152; continue _fun0008 }
  82:
             var4 = _closure1_slot14;
             var3 = var4.track;
@@ -643,7 +608,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['GUILD_SOUNDBOARD_SOUND_PLAY_LOCALLY'] = var9;
     var9 = function handleSoundPlayStart(arg1) {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
             var1 = arg1;
             var4 = var1.soundId;
@@ -658,7 +623,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = {'location': 'soundboard_event_store', 'autoTrackExposure': false};
             var3 = var6.bind(var7)(var3);
             var3 = var3.canSeeRecentlyHeard;
-            if(!var3) { _fun0010_ip = 150; continue _fun0010 }
+            if(!var3) { _fun0009_ip = 150; continue _fun0009 }
  73:
             var3 = var4.toString;
             var4 = var3.bind(var4)();
@@ -668,15 +633,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var7 = var3 == var6;
             var3 = undefined;
-            if(var7) { _fun0010_ip = 111; continue _fun0010 }
+            if(var7) { _fun0009_ip = 111; continue _fun0009 }
  106:
             var3 = var6.id;
  111:
             var3 = var5 !== var3;
-            if(!var3) { _fun0010_ip = 132; continue _fun0010 }
+            if(!var3) { _fun0009_ip = 132; continue _fun0009 }
  118:
             var5 = function _soundInJoinedGuilds(arg1) {
-                _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+                _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
                     var1 = arg1;
                     var _closure3_slot0 = var1;
@@ -691,7 +656,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var4.bind(var5)();
                     var1 = var2.done;
                     var3 = null;
-                    if(var1) { _fun0011_ip = 107; continue _fun0011 }
+                    if(var1) { _fun0010_ip = 108; continue _fun0010 }
  60:
                     var8 = var2.value;
                     var7 = var8.find;
@@ -705,25 +670,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var7.bind(var8)(var1);
-                    if(!(var3 == var1)) { _fun0011_ip = 103; continue _fun0011 }
- 86:
+                    if(!(var3 == var1)) { _fun0010_ip = 104; continue _fun0010 }
+ 87:
                     var7 = var4.bind(var5)();
                     var1 = var7.done;
                     var2 = var7;
-                    if(var1) { _fun0011_ip = 107; continue _fun0011 }
- 101:
-                    _fun0011_ip = 60; continue _fun0011;
- 103:
+                    if(var1) { _fun0010_ip = 108; continue _fun0010 }
+ 102:
+                    _fun0010_ip = 60; continue _fun0010;
+ 104:
                     var1 = true;
                     return var1;
- 107:
+ 108:
                     var1 = false;
                     return var1;
                 }
             };
             var3 = var5.bind(var1)(var4);
  132:
-            if(!var3) { _fun0010_ip = 150; continue _fun0010 }
+            if(!var3) { _fun0009_ip = 150; continue _fun0009 }
  135:
             var3 = _closure1_slot13;
             var2 = var3.set;
@@ -734,7 +699,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var2['GUILD_SOUNDBOARD_SOUND_PLAY_START'] = var9;
     var4 = function handleUserSettingsProtoUpdate(arg1) {
-        _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
             var1 = arg1;
             var2 = var1.settings;
@@ -743,17 +708,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot19;
             var1 = undefined;
             var2 = var2.bind(var1)();
-            if(!var2) { _fun0012_ip = 50; continue _fun0012 }
+            if(!var2) { _fun0011_ip = 50; continue _fun0011 }
  36:
             var5 = _closure1_slot11;
             var5 = var5.FRECENCY_AND_FAVORITES_SETTINGS;
             var2 = var6 === var5;
  50:
-            if(!var2) { _fun0012_ip = 56; continue _fun0012 }
+            if(!var2) { _fun0011_ip = 56; continue _fun0011 }
  53:
             var2 = var4;
  56:
-            if(!var2) { _fun0012_ip = 67; continue _fun0012 }
+            if(!var2) { _fun0011_ip = 67; continue _fun0011 }
  59:
             var2 = new Array(0);
             _closure1_slot12 = var2;

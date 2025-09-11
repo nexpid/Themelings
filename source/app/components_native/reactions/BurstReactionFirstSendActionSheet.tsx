@@ -258,8 +258,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.DismissibleContent;
             var3 = var3.SUPER_REACTIONS_FIRST_SENT;
             var3 = var8.bind(var11)(var3);
-            if(var3) { _fun0001_ip = 239; continue _fun0001 }
- 111:
+            if(var3) { _fun0001_ip = 237; continue _fun0001 }
+ 110:
             var8 = _closure1_slot0;
             var3 = _closure1_slot2;
             var10 = var3[var10];
@@ -287,8 +287,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['emoji'] = var5;
             var3 = 'BurstReactionFirstSendActionSheet';
             var3 = var9.bind(var10)(var8, var3, var4);
-            _fun0001_ip = 294; continue _fun0001;
- 239:
+            _fun0001_ip = 291; continue _fun0001;
+ 237:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 18;
@@ -302,7 +302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['messageId'] = var6;
             var2['emoji'] = var5;
             var2 = var3.bind(var4)(var2);
- 294:
+ 291:
             return var1;
         }
     };

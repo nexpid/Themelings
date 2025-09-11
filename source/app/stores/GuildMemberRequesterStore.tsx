@@ -481,12 +481,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(2);
+        var1 = new Array(3);
         var1[0] = var5;
         var5 = {};
         var7 = 'requestMember';
         var5['key'] = var7;
-        var6 = function requestMember(arg1, arg2) {
+        var7 = function requestMember(arg1, arg2) {
             var4 = _closure1_slot13;
             var1 = undefined;
             var3 = arg1;
@@ -494,8 +494,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var1)(var3, var2);
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[1] = var5;
+        var5 = {};
+        var7 = 'getDebugState';
+        var5['key'] = var7;
+        var6 = function getDebugState(arg1) {
+            var3 = _closure1_slot9;
+            var2 = var3.getDebugState;
+            var1 = arg1;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[2] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

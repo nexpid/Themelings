@@ -75,8 +75,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var2 = var2 != var7;
             var5 = 0;
-            if(!var2) { _fun0001_ip = 123; continue _fun0001 }
- 92:
+            if(!var2) { _fun0001_ip = 125; continue _fun0001 }
+ 94:
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
             var2 = 4;
@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var3.extractTimestamp;
             var5 = var2.bind(var3)(var7);
- 123:
+ 125:
             var3 = _closure1_slot4;
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;

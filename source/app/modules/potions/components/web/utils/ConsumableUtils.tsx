@@ -560,15 +560,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var2 = arg1;
             var1 = null;
-            if(!(var1 != var2)) { _fun0009_ip = 250; continue _fun0009 }
+            if(!(var1 != var2)) { _fun0009_ip = 248; continue _fun0009 }
  12:
             var3 = var2.potions;
-            if(!(var1 != var3)) { _fun0009_ip = 248; continue _fun0009 }
+            if(!(var1 != var3)) { _fun0009_ip = 246; continue _fun0009 }
  25:
             var3 = var2.potions;
             var4 = var3.length;
             var3 = 0;
-            if(!(var3 !== var4)) { _fun0009_ip = 246; continue _fun0009 }
+            if(!(var3 !== var4)) { _fun0009_ip = 244; continue _fun0009 }
  45:
             var4 = _closure1_slot10;
             var2 = var2.potions;
@@ -580,7 +580,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4;
             var6 = undefined;
             var5 = undefined;
-            if(var2) { _fun0009_ip = 244; continue _fun0009 }
+            if(var2) { _fun0009_ip = 242; continue _fun0009 }
  90:
             var2 = var7.value;
             var13 = var2.type;
@@ -591,7 +591,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.MessagePotionTypes;
             var4 = var4.CONFETTI;
             var12 = var5;
-            if(!(var13 === var4)) { _fun0009_ip = 209; continue _fun0009 }
+            if(!(var13 === var4)) { _fun0009_ip = 208; continue _fun0009 }
  136:
             var13 = var2.used_by;
             var14 = _closure1_slot6;
@@ -605,37 +605,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  169:
             var6 = var14;
             var12 = var5;
-            if(!(var13 === var4)) { _fun0009_ip = 209; continue _fun0009 }
+            if(!(var13 === var4)) { _fun0009_ip = 208; continue _fun0009 }
  179:
             var13 = var2.emoji;
             var15 = var1 == var13;
             var4 = undefined;
-            if(var15) { _fun0009_ip = 199; continue _fun0009 }
- 194:
+            if(var15) { _fun0009_ip = 198; continue _fun0009 }
+ 193:
             var4 = var13.length;
- 199:
+ 198:
             var6 = var14;
             var12 = var13;
-            if(!(!(var4 > var3))) { _fun0009_ip = 232; continue _fun0009 }
- 209:
+            if(!(!(var4 > var3))) { _fun0009_ip = 231; continue _fun0009 }
+ 208:
             var13 = var9.bind(var10)();
             var4 = var13.done;
             var5 = var12;
             var7 = var13;
-            if(var4) { _fun0009_ip = 244; continue _fun0009 }
- 227:
+            if(var4) { _fun0009_ip = 242; continue _fun0009 }
+ 226:
             _fun0009_ip = 90; continue _fun0009;
- 232:
+ 231:
             var2 = var2.emoji;
             var2 = var2[var3];
             return var2;
+ 242:
+            return var1;
  244:
             return var1;
  246:
             return var1;
  248:
-            return var1;
- 250:
             return var1;
         }
     };

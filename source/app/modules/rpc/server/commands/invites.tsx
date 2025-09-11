@@ -34,12 +34,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 4;
     var2 = var6[var2];
     var2 = var5.bind(var1)(var2);
+    var2 = var2.InstantInviteSources;
+    var _closure1_slot5 = var2;
+    var2 = 5;
+    var2 = var6[var2];
+    var2 = var5.bind(var1)(var2);
     var4 = var2.RPCCommands;
     var2 = var2.RPCErrors;
-    var _closure1_slot5 = var2;
+    var _closure1_slot6 = var2;
     var2 = {};
     var7 = var4.INVITE_USER_EMBEDDED;
-    var8 = 5;
+    var8 = 6;
     var8 = var6[var8];
     var10 = var5.bind(var1)(var8);
     var9 = var10.createRPCCommand;
@@ -47,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var12 = {};
     var14 = var13.ANY;
-    var13 = 6;
+    var13 = 7;
     var13 = var6[var13];
     var13 = var5.bind(var1)(var13);
     var13 = var13.OAuth2Scopes;
@@ -73,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 863; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 884; continue _fun0001 }
  10:
                     var5 = undefined;
                     var8 = undefined;
@@ -83,17 +88,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.id;
                     var8 = var2;
                     var4 = null;
-                    if(!(var4 != var2)) { _fun0001_ip = 786; continue _fun0001 }
+                    if(!(var4 != var2)) { _fun0001_ip = 807; continue _fun0001 }
  45:
                     var6 = _closure1_slot3;
                     var3 = var6.getConnectedActivityLocation;
                     var3 = var3.bind(var6)();
-                    if(!(var4 != var3)) { _fun0001_ip = 712; continue _fun0001 }
+                    if(!(var4 != var3)) { _fun0001_ip = 733; continue _fun0001 }
  69:
                     var10 = var3.kind;
                     var11 = _closure1_slot0;
                     var6 = _closure1_slot1;
-                    var12 = 8;
+                    var12 = 9;
                     var6 = var6[var12];
                     var6 = var11.bind(var5)(var6);
                     var6 = var6.EmbeddedActivityLocationKind;
@@ -126,12 +131,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  215:
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot1;
-                    var6 = 7;
+                    var6 = 8;
                     var6 = var11[var6];
                     var6 = var10.bind(var5)(var6);
                     var12 = var6.RPCError;
                     var11 = {};
-                    var6 = _closure1_slot5;
+                    var6 = _closure1_slot6;
                     var6 = var6.NO_ELIGIBLE_ACTIVITY;
                     var11['errorCode'] = var6;
                     var6 = var12.prototype;
@@ -152,7 +157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var3.type;
                     var10 = _closure1_slot0;
                     var11 = _closure1_slot1;
-                    var4 = 10;
+                    var4 = 11;
                     var4 = var11[var4];
                     var4 = var10.bind(var5)(var4);
                     var4 = var4.ChannelTypes;
@@ -164,12 +169,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  364:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot1;
-                    var3 = 7;
+                    var3 = 8;
                     var3 = var6[var3];
                     var3 = var4.bind(var5)(var3);
                     var10 = var3.RPCError;
                     var6 = {};
-                    var3 = _closure1_slot5;
+                    var3 = _closure1_slot6;
                     var3 = var3.INVALID_CHANNEL;
                     var6['errorCode'] = var3;
                     var3 = var10.prototype;
@@ -183,12 +188,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  438:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot1;
-                    var3 = 7;
+                    var3 = 8;
                     var3 = var6[var3];
                     var3 = var4.bind(var5)(var3);
                     var10 = var3.RPCError;
                     var6 = {};
-                    var3 = _closure1_slot5;
+                    var3 = _closure1_slot6;
                     var3 = var3.INVALID_CHANNEL;
                     var6['errorCode'] = var3;
                     var3 = var10.prototype;
@@ -202,7 +207,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  512:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot1;
-                    var3 = 9;
+                    var3 = 10;
                     var3 = var6[var3];
                     var4 = var4.bind(var5)(var3);
                     var3 = var4.validateOpenInviteDialog;
@@ -211,7 +216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  547: // try_start_0
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot1;
-                    var3 = 11;
+                    var3 = 12;
                     var3 = var6[var3];
                     var6 = var4.bind(var5)(var3);
                     var4 = var6.sendEmbeddedActivityInviteUser;
@@ -225,27 +230,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['prefixedContent'] = var7;
                     var7 = 'RPC_ACTIVITY_INVITE_USER';
                     var3['location'] = var7;
+                    var7 = {};
+                    var8 = _closure1_slot5;
+                    var8 = var8.ACTIVITY_INVITE;
+                    var7['source'] = var8;
+                    var3['inviteAnalyticsMetadata'] = var7;
                     var3 = var4.bind(var6)(var3);
-                    SaveGenerator(address=624);
- 622:
+                    SaveGenerator(address=645);
+ 643:
                     return var3;
- 624:
+ 645:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 633; continue _fun0001 }
- 630: // try_end0
+                    if(var4) { _fun0001_ip = 654; continue _fun0001 }
+ 651: // try_end0
                     return var5;
- 633:
+ 654:
                     return var3;
- 636: // catch_target0
+ 657: // catch_target0
                     CatchBlockStart(arg_register=2);
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot1;
-                    var3 = 7;
+                    var3 = 8;
                     var3 = var6[var3];
                     var3 = var4.bind(var5)(var3);
                     var7 = var3.RPCError;
                     var6 = {};
-                    var3 = _closure1_slot5;
+                    var3 = _closure1_slot6;
                     var3 = var3.UNKNOWN_ERROR;
                     var6['errorCode'] = var3;
                     var3 = var7.prototype;
@@ -256,15 +266,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = new var15[var7](var14, var13, var12);
                     var3 = var3 instanceof Object ? var3 : var4;
                     throw var3;
- 712:
+ 733:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot1;
-                    var3 = 7;
+                    var3 = 8;
                     var3 = var6[var3];
                     var3 = var4.bind(var5)(var3);
                     var6 = var3.RPCError;
                     var4 = {};
-                    var2 = _closure1_slot5;
+                    var2 = _closure1_slot6;
                     var2 = var2.NO_ELIGIBLE_ACTIVITY;
                     var4['errorCode'] = var2;
                     var2 = var6.prototype;
@@ -275,15 +285,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new var15[var6](var14, var13, var12);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
- 786:
+ 807:
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot1;
-                    var3 = 7;
+                    var3 = 8;
                     var3 = var6[var3];
                     var3 = var4.bind(var5)(var3);
                     var5 = var3.RPCError;
                     var4 = {};
-                    var2 = _closure1_slot5;
+                    var2 = _closure1_slot6;
                     var2 = var2.INVALID_COMMAND;
                     var4['errorCode'] = var2;
                     var2 = var5.prototype;
@@ -294,7 +304,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = new var15[var5](var14, var13, var12);
                     var2 = var2 instanceof Object ? var2 : var3;
                     throw var2;
- 863:
+ 884:
                     return var1;
                 }
             };
@@ -307,7 +317,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['handler'] = var11;
     var4 = var9.bind(var10)(var8, var4);
     var2[var7] = var4;
-    var4 = 12;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

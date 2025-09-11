@@ -521,7 +521,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var2 = var1 == var2;
                     var8 = undefined;
-                    if(var2) { _fun0007_ip = 64; continue _fun0007 }
+                    if(var2) { _fun0007_ip = 65; continue _fun0007 }
  43:
                     var4 = _closure2_slot5;
                     var3 = var4.find;
@@ -534,7 +534,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var8 = var3.bind(var4)(var2);
- 64:
+ 65:
                     _closure3_slot1 = var8;
                     var4 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -544,20 +544,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var6.getAppLauncherIconSource;
                     var9 = var1 == var8;
                     var3 = undefined;
-                    if(var9) { _fun0007_ip = 111; continue _fun0007 }
- 106:
+                    if(var9) { _fun0007_ip = 112; continue _fun0007 }
+ 107:
                     var3 = var8.application;
- 111:
+ 112:
                     var10 = var4.bind(var6)(var3);
                     var3 = _closure2_slot4;
                     var4 = var3.length;
                     var3 = 1;
                     var11 = var4 - var3;
-                    if(!(var1 != var8)) { _fun0007_ip = 330; continue _fun0007 }
- 139:
+                    if(!(var1 != var8)) { _fun0007_ip = 331; continue _fun0007 }
+ 140:
                     var6 = var1 != var10;
-                    if(!var6) { _fun0007_ip = 191; continue _fun0007 }
- 146:
+                    if(!var6) { _fun0007_ip = 192; continue _fun0007 }
+ 147:
                     var9 = _closure1_slot8;
                     var4 = _closure1_slot1;
                     var15 = _closure1_slot2;
@@ -569,7 +569,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = 36;
                     var3['iconSize'] = var10;
                     var6 = var9.bind(var5)(var4, var3);
- 191:
+ 192:
                     var4 = _closure1_slot8;
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
@@ -610,7 +610,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['icon'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var2;
- 330:
+ 331:
                     return var1;
                 }
             };

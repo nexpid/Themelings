@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var5)(var1);
             var5 = var1;
             var1 = null;
-            if(!var2) { _fun0002_ip = 212; continue _fun0002 }
+            if(!var2) { _fun0002_ip = 208; continue _fun0002 }
  107:
             if(!(var6 != var3)) { _fun0002_ip = 139; continue _fun0002 }
  111:
@@ -102,7 +102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var7.hasOwnProperty;
             var2 = var2.bind(var7)(var3);
             var1 = null;
-            if(!var2) { _fun0002_ip = 212; continue _fun0002 }
+            if(!var2) { _fun0002_ip = 208; continue _fun0002 }
  139:
             var2 = {};
             var7 = _closure1_slot0;
@@ -114,14 +114,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.location;
             var6 = var6.search;
             var6 = var7.bind(var8)(var6);
-            var6 = var6.source;
-            var2['source'] = var6;
+            var2['params'] = var6;
             var4 = _closure1_slot3;
             var4 = var4[var5];
             var2['section'] = var4;
             var2['subsection'] = var3;
             var1 = var2;
- 212:
+ 208:
             return var1;
         }
     };

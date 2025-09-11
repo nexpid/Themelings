@@ -505,26 +505,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = null;
                     var3 = var6 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0006_ip = 29; continue _fun0006 }
- 24:
+                    if(var3) { _fun0006_ip = 28; continue _fun0006 }
+ 23:
                     var1 = var2.id;
- 29:
+ 28:
                     var2 = var6 != var1;
                     var1 = null;
-                    if(!var2) { _fun0006_ip = 80; continue _fun0006 }
- 38:
+                    if(!var2) { _fun0006_ip = 78; continue _fun0006 }
+ 37:
                     var3 = _closure1_slot9;
                     var2 = var3.getUsableCustomEmojiById;
                     var5 = _closure2_slot0;
                     var5 = var5.emoji;
                     var6 = var6 == var5;
                     var4 = undefined;
-                    if(var6) { _fun0006_ip = 75; continue _fun0006 }
- 70:
+                    if(var6) { _fun0006_ip = 73; continue _fun0006 }
+ 68:
                     var4 = var5.id;
- 75:
+ 73:
                     var1 = var2.bind(var3)(var4);
- 80:
+ 78:
                     return var1;
                 }
             };
@@ -573,16 +573,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var9.emoji;
             var16 = var13 == var15;
             var14 = undefined;
-            if(var16) { _fun0005_ip = 259; continue _fun0005 }
- 254:
+            if(var16) { _fun0005_ip = 258; continue _fun0005 }
+ 253:
             var14 = var15.name;
- 259:
+ 258:
             var15 = var13 != var14;
             var13 = '';
-            if(!var15) { _fun0005_ip = 273; continue _fun0005 }
- 270:
+            if(!var15) { _fun0005_ip = 272; continue _fun0005 }
+ 269:
             var13 = var14;
- 273:
+ 272:
             var10['name'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var5['children'] = var10;

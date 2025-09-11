@@ -84,13 +84,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var9['textAlign'] = var12;
     var4['text'] = var9;
-    var9 = {'paddingBottom': null, 'height': 143, 'width': 195};
+    var9 = {'height': 188, 'width': 335};
     var10 = var6[var10];
     var10 = var11.bind(var1)(var10);
-    var10 = var10.spacing;
-    var10 = var10.PX_16;
-    var9['paddingBottom'] = var10;
-    var4['image'] = var9;
+    var10 = var10.radii;
+    var10 = var10.sm;
+    var9['borderRadius'] = var10;
+    var4['imageShared'] = var9;
+    var9 = {};
+    var10 = 'hidden';
+    var9['overflow'] = var10;
+    var4['imageWrapperAndroid'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot11 = var4;
     var4 = 22;
@@ -256,7 +260,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var3.bind(var4)(var1, var2);
             var2 = var10 == var15;
             var1 = null;
-            if(var2) { _fun0001_ip = 833; continue _fun0001 }
+            if(var2) { _fun0001_ip = 877; continue _fun0001 }
  379:
             var4 = _closure1_slot9;
             var12 = _closure1_slot0;
@@ -285,25 +289,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.bind(var5)(var11);
             var11 = var12.isAndroid;
             var11 = var11.bind(var12)();
-            if(!var11) { _fun0001_ip = 521; continue _fun0001 }
+            if(!var11) { _fun0001_ip = 565; continue _fun0001 }
  466:
-            if(!(var10 != var17)) { _fun0001_ip = 521; continue _fun0001 }
+            if(!(var10 != var17)) { _fun0001_ip = 565; continue _fun0001 }
  470:
-            if(var9) { _fun0001_ip = 521; continue _fun0001 }
+            if(var9) { _fun0001_ip = 565; continue _fun0001 }
  473:
             var11 = _closure1_slot9;
-            var10 = _closure1_slot1;
-            var12 = _closure1_slot2;
-            var9 = 18;
-            var9 = var12[var9];
-            var10 = var10.bind(var5)(var9);
+            var10 = _closure1_slot4;
             var9 = {};
-            var9['url'] = var17;
-            var12 = var21.image;
+            var16 = var21.imageShared;
+            var12 = new Array(2);
+            var12[0] = var16;
+            var16 = var21.imageWrapperAndroid;
+            var12[1] = var16;
             var9['style'] = var12;
+            var16 = _closure1_slot1;
+            var18 = _closure1_slot2;
+            var12 = 18;
+            var12 = var18[var12];
+            var16 = var16.bind(var5)(var12);
+            var12 = {};
+            var12['url'] = var17;
+            var18 = var21.imageShared;
+            var12['style'] = var18;
+            var12 = var11.bind(var5)(var16, var12);
+            var9['children'] = var12;
             var10 = var11.bind(var5)(var10, var9);
-            _fun0001_ip = 573; continue _fun0001;
- 521:
+            _fun0001_ip = 617; continue _fun0001;
+ 565:
             var12 = _closure1_slot9;
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -314,10 +328,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = {};
             var16['uri'] = var17;
             var9['source'] = var16;
-            var16 = var21.image;
+            var16 = var21.imageShared;
             var9['style'] = var16;
             var10 = var12.bind(var5)(var11, var9);
- 573:
+ 617:
             var9 = new Array(3);
             var9[0] = var10;
             var17 = _closure1_slot10;
@@ -372,7 +386,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 833:
+ 877:
             return var1;
         }
     };

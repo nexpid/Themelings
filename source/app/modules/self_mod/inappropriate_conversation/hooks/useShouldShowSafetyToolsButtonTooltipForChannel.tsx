@@ -63,9 +63,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.useShouldShowInitialSafetyToolsButtonTooltip;
             var2 = var2.bind(var4)(var7);
             var4 = null;
-            if(!(var4 != var5)) { _fun0001_ip = 385; continue _fun0001 }
+            if(!(var4 != var5)) { _fun0001_ip = 397; continue _fun0001 }
  96:
-            if(var2) { _fun0001_ip = 385; continue _fun0001 }
+            if(var2) { _fun0001_ip = 397; continue _fun0001 }
  102:
             var5 = _closure1_slot0;
             var7 = _closure1_slot1;
@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var2);
             var2 = var5.shouldShowTakeoverForWarnings;
             var2 = var2.bind(var5)(var6);
-            if(var2) { _fun0001_ip = 385; continue _fun0001 }
+            if(var2) { _fun0001_ip = 397; continue _fun0001 }
  139:
             var5 = var6.some;
             var2 = function(arg1) {
@@ -115,20 +115,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var8)(var5);
             var8 = var7.length;
             var5 = 1;
-            if(!(!(var8 < var5))) { _fun0001_ip = 385; continue _fun0001 }
- 201:
+            if(!(!(var8 < var5))) { _fun0001_ip = 397; continue _fun0001 }
+ 207:
             var5 = 0;
             var5 = var7[var5];
             var11 = var5.dismiss_timestamp;
             var7 = var2;
-            if(!(var7 === var1)) { _fun0001_ip = 222; continue _fun0001 }
- 220:
+            if(!(var7 === var1)) { _fun0001_ip = 228; continue _fun0001 }
+ 226:
             var7 = false;
- 222:
+ 228:
             var5 = var4 == var11;
             var2 = true;
-            if(var5) { _fun0001_ip = 329; continue _fun0001 }
- 231:
+            if(var5) { _fun0001_ip = 335; continue _fun0001 }
+ 237:
             var5 = global;
             var8 = var5.Date;
             var10 = var8.prototype;
@@ -139,13 +139,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var8 instanceof Object ? var8 : var10;
             var8 = var10.getTime;
             var8 = var8.bind(var10)();
-            if(var7) { _fun0001_ip = 281; continue _fun0001 }
- 275:
-            var7 = _closure1_slot4;
-            _fun0001_ip = 285; continue _fun0001;
+            if(var7) { _fun0001_ip = 287; continue _fun0001 }
  281:
+            var7 = _closure1_slot4;
+            _fun0001_ip = 291; continue _fun0001;
+ 287:
             var7 = _closure1_slot3;
- 285:
+ 291:
             var7 = var8 + var7;
             var5 = var5.Date;
             var8 = var5.prototype;
@@ -156,9 +156,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var8.getTime;
             var5 = var5.bind(var8)();
             var2 = var5 >= var7;
- 329:
-            if(!var2) { _fun0001_ip = 385; continue _fun0001 }
- 332:
+ 335:
+            if(!var2) { _fun0001_ip = 397; continue _fun0001 }
+ 338:
             var5 = var6.filter;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -178,8 +178,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var6.bind(var5)(var2);
-            if(!(var4 == var2)) { _fun0001_ip = 383; continue _fun0001 }
- 367:
+            if(!(var4 == var2)) { _fun0001_ip = 395; continue _fun0001 }
+ 377:
             var4 = var5.findLast;
             var3 = function(arg1) {
                 var1 = arg1;
@@ -190,9 +190,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var4.bind(var5)(var3);
- 383:
+ 395:
             return var2;
- 385:
+ 397:
             return var1;
         }
     };

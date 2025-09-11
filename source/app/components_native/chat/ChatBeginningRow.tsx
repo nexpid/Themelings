@@ -2190,21 +2190,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = _closure2_slot0;
                     var3 = var1.vanityURLCode;
                     var1 = null;
-                    if(!(var1 == var3)) { _fun0018_ip = 72; continue _fun0018 }
+                    if(!(var1 == var3)) { _fun0018_ip = 78; continue _fun0018 }
  19:
-                    var5 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var3 = 63;
-                    var4 = var4[var3];
-                    var3 = undefined;
-                    var5 = var5.bind(var3)(var4);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var1 = 63;
+                    var3 = var3[var1];
+                    var1 = undefined;
+                    var5 = var4.bind(var1)(var3);
                     var4 = var5.showInstantInviteActionSheet;
                     var3 = _closure2_slot1;
-                    var1 = _closure1_slot33;
-                    var1 = var1.WELCOME_MESSAGE;
+                    var1 = {};
+                    var6 = _closure1_slot33;
+                    var6 = var6.WELCOME_MESSAGE;
+                    var1['source'] = var6;
                     var1 = var4.bind(var5)(var3, var1);
-                    _fun0018_ip = 128; continue _fun0018;
- 72:
+                    _fun0018_ip = 134; continue _fun0018;
+ 78:
                     var5 = _closure1_slot0;
                     var4 = _closure1_slot2;
                     var3 = 63;
@@ -2217,7 +2219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = _closure1_slot33;
                     var1 = var1.WELCOME_MESSAGE;
                     var1 = var4.bind(var5)(var3, var2, var1);
- 128:
+ 134:
                     var1 = undefined;
                     return var1;
                 }

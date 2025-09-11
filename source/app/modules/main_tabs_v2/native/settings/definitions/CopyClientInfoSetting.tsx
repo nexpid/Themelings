@@ -4,9 +4,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = metroImportDefault;
     var3 = exports;
     var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var9;
-    var _closure1_slot2 = var7;
+    var1 = global;
+    var _closure1_slot0 = var1;
+    var _closure1_slot1 = var6;
+    var _closure1_slot2 = var9;
+    var _closure1_slot3 = var7;
     var2 = function getClientInfoString(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -26,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot7 = var2;
+    var _closure1_slot9 = var2;
     var1 = function getClientInfo() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            var3 = _closure1_slot3;
+            var3 = _closure1_slot4;
             var1 = var3.getCurrentBuildOverride;
             var1 = var1.bind(var3)();
             var3 = var1.overrides;
@@ -40,15 +42,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = undefined;
             if(var1) { _fun0002_ip = 66; continue _fun0002 }
  36:
-            var5 = _closure1_slot0;
-            var7 = _closure1_slot2;
+            var5 = _closure1_slot1;
+            var7 = _closure1_slot3;
             var1 = 5;
             var1 = var7[var1];
             var1 = var5.bind(var4)(var1);
             var1 = var1.DEVICE_FIELD;
             var6 = var3[var1];
  66:
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot8;
             var3 = var1.Manifest;
             var1 = var3.trim;
             var1 = var1.bind(var3)();
@@ -59,11 +61,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var3;
             if(!var1) { _fun0002_ip = 119; continue _fun0002 }
  109:
-            var1 = _closure1_slot6;
+            var1 = _closure1_slot8;
             var5 = var1.Manifest;
  119:
-            var1 = _closure1_slot7;
-            var7 = _closure1_slot6;
+            var1 = _closure1_slot9;
+            var7 = _closure1_slot8;
             var7 = var7.Build;
             var7 = var1.bind(var4)(var7);
             var8 = var8 != var6;
@@ -73,25 +75,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  150:
             var6 = var1.bind(var4)(var3);
             var1 = {};
-            var3 = _closure1_slot7;
-            var8 = _closure1_slot6;
+            var3 = _closure1_slot9;
+            var8 = _closure1_slot8;
             var8 = var8.Version;
             var8 = var3.bind(var4)(var8);
             var1['appVersion'] = var8;
             var1['buildNumber'] = var7;
             var1['buildOverride'] = var6;
             var1['manifest'] = var5;
-            var2 = _closure1_slot6;
+            var2 = _closure1_slot8;
             var2 = var2.ReleaseChannel;
             var2 = var3.bind(var4)(var2);
             var1['releaseChannel'] = var2;
             return var1;
         }
     };
-    var _closure1_slot8 = var1;
+    var _closure1_slot10 = var1;
     var1 = function copyToast(arg1) {
-        var3 = _closure1_slot0;
-        var4 = _closure1_slot2;
+        var3 = _closure1_slot1;
+        var4 = _closure1_slot3;
         var1 = 6;
         var2 = var4[var1];
         var1 = undefined;
@@ -106,20 +108,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.bind(var3)();
         return var1;
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot11 = var1;
     var1 = function ClientClientInfoActionSheet() {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            var4 = _closure1_slot5;
-            var11 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var4 = _closure1_slot7;
+            var11 = _closure1_slot1;
+            var13 = _closure1_slot3;
             var1 = 8;
             var1 = var13[var1];
             var3 = undefined;
             var1 = var11.bind(var3)(var1);
             var2 = var1.ActionSheet;
             var1 = {};
-            var7 = _closure1_slot4;
+            var7 = _closure1_slot5;
             var5 = 9;
             var5 = var13[var5];
             var5 = var11.bind(var3)(var5);
@@ -138,14 +140,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['title'] = var8;
             var5 = var7.bind(var3)(var6, var5);
             var1['header'] = var5;
-            var7 = _closure1_slot5;
+            var7 = _closure1_slot7;
             var9 = 11;
             var5 = var13[var9];
             var5 = var11.bind(var3)(var5);
             var5 = var5.ActionSheetRow;
             var6 = var5.Group;
             var5 = {};
-            var15 = _closure1_slot4;
+            var15 = _closure1_slot5;
             var8 = var13[var9];
             var8 = var11.bind(var3)(var8);
             var10 = var8.ActionSheetRow;
@@ -160,13 +162,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16.H66MEh;
             var16 = var18.bind(var19)(var16);
             var8['label'] = var16;
-            var18 = _closure1_slot8;
+            var18 = _closure1_slot10;
             var16 = var18.bind(var3)();
             var16 = var16.appVersion;
             var8['subLabel'] = var16;
             var16 = function onPress() {
-                var3 = _closure1_slot9;
-                var2 = _closure1_slot8;
+                var3 = _closure1_slot11;
+                var2 = _closure1_slot10;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var2 = var2.appVersion;
@@ -177,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var15.bind(var3)(var10, var8);
             var8 = new Array(6);
             var8[0] = var10;
-            var16 = _closure1_slot4;
+            var16 = _closure1_slot5;
             var10 = var13[var9];
             var10 = var11.bind(var3)(var10);
             var15 = var10.ActionSheetRow;
@@ -196,8 +198,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.buildNumber;
             var10['subLabel'] = var19;
             var19 = function onPress() {
-                var3 = _closure1_slot9;
-                var2 = _closure1_slot8;
+                var3 = _closure1_slot11;
+                var2 = _closure1_slot10;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var2 = var2.buildNumber;
@@ -207,7 +209,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['onPress'] = var19;
             var10 = var16.bind(var3)(var15, var10);
             var8[1] = var10;
-            var16 = _closure1_slot4;
+            var16 = _closure1_slot5;
             var10 = var13[var9];
             var10 = var11.bind(var3)(var10);
             var15 = var10.ActionSheetRow;
@@ -226,8 +228,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.releaseChannel;
             var10['subLabel'] = var19;
             var19 = function onPress() {
-                var3 = _closure1_slot9;
-                var2 = _closure1_slot8;
+                var3 = _closure1_slot11;
+                var2 = _closure1_slot10;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var2 = var2.releaseChannel;
@@ -237,7 +239,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['onPress'] = var19;
             var10 = var16.bind(var3)(var15, var10);
             var8[2] = var10;
-            var16 = _closure1_slot4;
+            var16 = _closure1_slot5;
             var10 = var13[var9];
             var10 = var11.bind(var3)(var10);
             var15 = var10.ActionSheetRow;
@@ -256,8 +258,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.manifest;
             var10['subLabel'] = var19;
             var19 = function onPress() {
-                var3 = _closure1_slot9;
-                var2 = _closure1_slot8;
+                var3 = _closure1_slot11;
+                var2 = _closure1_slot10;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var2 = var2.manifest;
@@ -267,7 +269,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10['onPress'] = var19;
             var10 = var16.bind(var3)(var15, var10);
             var8[3] = var10;
-            var16 = _closure1_slot4;
+            var16 = _closure1_slot5;
             var10 = var13[var9];
             var10 = var11.bind(var3)(var10);
             var15 = var10.ActionSheetRow;
@@ -286,8 +288,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var18.buildOverride;
             var10['subLabel'] = var18;
             var18 = function onPress() {
-                var3 = _closure1_slot9;
-                var2 = _closure1_slot8;
+                var3 = _closure1_slot11;
+                var2 = _closure1_slot10;
                 var1 = undefined;
                 var2 = var2.bind(var1)();
                 var2 = var2.buildOverride;
@@ -303,33 +305,81 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.isFabric;
             var11 = var10.bind(var11)();
             var10 = null;
-            if(!var11) { _fun0003_ip = 778; continue _fun0003 }
- 720:
-            var15 = _closure1_slot4;
-            var13 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var11 = var11[var9];
-            var11 = var13.bind(var3)(var11);
-            var13 = var11.ActionSheetRow;
-            var11 = {'label': 'React Native New Architecture', 'subLabel': 'Enabled'};
-            var16 = function onPress() {
-                var3 = _closure1_slot9;
+            if(!var11) { _fun0003_ip = 890; continue _fun0003 }
+ 723:
+            var15 = _closure1_slot7;
+            var13 = _closure1_slot6;
+            var11 = {};
+            var21 = _closure1_slot5;
+            var19 = _closure1_slot1;
+            var18 = _closure1_slot3;
+            var16 = var18[var9];
+            var16 = var19.bind(var3)(var16);
+            var20 = var16.ActionSheetRow;
+            var16 = {'label': 'React Native New Architecture', 'subLabel': 'Enabled'};
+            var22 = 'Enabled';
+            var23 = function onPress() {
+                var3 = _closure1_slot11;
                 var1 = undefined;
                 var2 = 'React Native New Architecture is enabled.';
                 var2 = var3.bind(var1)(var2);
                 return var1;
             };
-            var11['onPress'] = var16;
+            var16['onPress'] = var23;
+            var20 = var21.bind(var3)(var20, var16);
+            var16 = new Array(2);
+            var16[0] = var20;
+            var20 = _closure1_slot5;
+            var18 = var18[var9];
+            var18 = var19.bind(var3)(var18);
+            var19 = var18.ActionSheetRow;
+            var18 = {};
+            var21 = 'Bridgeless mode';
+            var18['label'] = var21;
+            var21 = _closure1_slot0;
+            var23 = var21._IS_BRIDGELESS;
+            var21 = 'Disabled';
+            if(!var23) { _fun0003_ip = 854; continue _fun0003 }
+ 851:
+            var21 = var22;
+ 854:
+            var18['subLabel'] = var21;
+            var21 = function onPress() {
+                _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+                    var3 = _closure1_slot11;
+                    var1 = _closure1_slot0;
+                    var1 = var1._IS_BRIDGELESS;
+                    var5 = 'disabled';
+                    if(!var1) { _fun0004_ip = 28; continue _fun0004 }
+ 24:
+                    var5 = 'enabled';
+ 28:
+                    var1 = global;
+                    var1 = var1.HermesInternal;
+                    var4 = var1.concat;
+                    var2 = 'Bridgeless is ';
+                    var1 = '.';
+                    var2 = var4.bind(var2)(var5, var1);
+                    var1 = undefined;
+                    var2 = var3.bind(var1)(var2);
+                    return var1;
+                }
+            };
+            var18['onPress'] = var21;
+            var18 = var20.bind(var3)(var19, var18);
+            var16[1] = var18;
+            var11['children'] = var16;
             var10 = var15.bind(var3)(var13, var11);
- 778:
+ 890:
             var8[5] = var10;
             var5['children'] = var8;
             var6 = var7.bind(var3)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
-            var8 = _closure1_slot4;
-            var16 = _closure1_slot0;
-            var13 = _closure1_slot2;
+            var8 = _closure1_slot5;
+            var16 = _closure1_slot1;
+            var13 = _closure1_slot3;
             var6 = var13[var9];
             var6 = var16.bind(var3)(var6);
             var6 = var6.ActionSheetRow;
@@ -337,12 +387,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = {};
             var10 = true;
             var6['hasIcons'] = var10;
-            var11 = _closure1_slot4;
+            var11 = _closure1_slot5;
             var9 = var13[var9];
             var9 = var16.bind(var3)(var9);
             var10 = var9.ActionSheetRow;
             var9 = {};
-            var18 = _closure1_slot4;
+            var18 = _closure1_slot5;
             var14 = 13;
             var14 = var13[var14];
             var14 = var16.bind(var3)(var14);
@@ -361,17 +411,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var14.bind(var15)(var13);
             var9['label'] = var13;
             var12 = function onPress() {
-                var3 = _closure1_slot8;
+                var3 = _closure1_slot10;
                 var1 = undefined;
                 var4 = var3.bind(var1)();
                 var15 = var4.appVersion;
                 var14 = var4.buildNumber;
                 var22 = var4.releaseChannel;
                 var18 = var4.buildOverride;
-                var3 = _closure1_slot9;
+                var3 = _closure1_slot11;
                 var20 = var4.manifest;
-                var4 = _closure1_slot0;
-                var5 = _closure1_slot2;
+                var4 = _closure1_slot1;
+                var5 = _closure1_slot3;
                 var2 = 14;
                 var6 = var5[var2];
                 var7 = var4.bind(var1)(var6);
@@ -413,7 +463,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot12 = var1;
     var1 = global;
     var11 = var1.Object;
     var10 = var11.defineProperty;
@@ -426,7 +476,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7[var1];
     var1 = undefined;
     var4 = var9.bind(var1)(var4);
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = 1;
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
@@ -435,22 +485,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var7[var4];
     var4 = var6.bind(var1)(var4);
     var10 = var4.jsx;
-    var _closure1_slot4 = var10;
+    var _closure1_slot5 = var10;
+    var10 = var4.Fragment;
+    var _closure1_slot6 = var10;
     var4 = var4.jsxs;
-    var _closure1_slot5 = var4;
+    var _closure1_slot7 = var4;
     var4 = 3;
     var10 = var7[var4];
     var4 = metroImportAll;
     var10 = var4.bind(var1)(var10);
     var4 = var10.getConstants;
     var4 = var4.bind(var10)();
-    var _closure1_slot6 = var4;
+    var _closure1_slot8 = var4;
     var4 = {};
     var9 = var9.PRESSABLE;
     var4['type'] = var9;
     var9 = function title() {
-        var5 = _closure1_slot0;
-        var6 = _closure1_slot2;
+        var5 = _closure1_slot1;
+        var6 = _closure1_slot3;
         var1 = 10;
         var2 = var6[var1];
         var4 = undefined;
@@ -473,8 +525,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var9.ClipboardListIcon;
     var4['IconComponent'] = var9;
     var8 = function handleClientInfoPress() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
+        var3 = _closure1_slot2;
+        var2 = _closure1_slot3;
         var1 = 4;
         var2 = var2[var1];
         var1 = undefined;
@@ -484,7 +536,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var2.Promise;
         var3 = var6.resolve;
         var2 = {};
-        var7 = _closure1_slot10;
+        var7 = _closure1_slot12;
         var2['default'] = var7;
         var3 = var3.bind(var6)(var2);
         var2 = 'ClientClientInfoActionSheet';

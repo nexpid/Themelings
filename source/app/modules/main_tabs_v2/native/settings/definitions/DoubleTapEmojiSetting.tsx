@@ -174,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var7 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 241; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 240; continue _fun0003 }
  13:
                     var11 = _closure1_slot1;
                     var6 = _closure1_slot2;
@@ -219,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  191:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0003_ip = 238; continue _fun0003 }
+                    if(var5) { _fun0003_ip = 237; continue _fun0003 }
  197:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -231,9 +231,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['emoji'] = var7;
                     var4 = var5.bind(var6)(var4);
                     return var3;
- 238:
+ 237:
                     return var2;
- 241:
+ 240:
                     return var1;
                 }
             };

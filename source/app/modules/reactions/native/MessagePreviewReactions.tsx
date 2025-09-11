@@ -102,8 +102,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['value'] = var5;
             var7 = var9.length;
             var5 = 0;
-            if(!(!(var7 > var5))) { _fun0001_ip = 167; continue _fun0001 }
- 127:
+            if(!(!(var7 > var5))) { _fun0001_ip = 166; continue _fun0001 }
+ 126:
             var8 = _closure1_slot4;
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -113,8 +113,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.MessageReactionsEmpty;
             var5 = {};
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 223; continue _fun0001;
- 167:
+            _fun0001_ip = 221; continue _fun0001;
+ 166:
             var8 = _closure1_slot4;
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['emoji'] = var10;
             var6['reactions'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 223:
+ 221:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

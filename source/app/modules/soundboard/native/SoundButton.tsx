@@ -396,10 +396,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = null;
                 var10 = var8 != var9;
                 var8 = '';
-                if(!var10) { _fun0003_ip = 247; continue _fun0003 }
- 244:
+                if(!var10) { _fun0003_ip = 245; continue _fun0003 }
+ 242:
                 var8 = var9;
- 247:
+ 245:
                 var6['name'] = var8;
                 var6 = var3.bind(var4)(var7, var6);
                 var5['children'] = var6;

@@ -163,41 +163,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4['computeBonus'] = var9;
-    var9 = function computeWeight(arg1) {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
-            var3 = arg1;
-            var1 = 3;
-            var2 = var3 <= var1;
-            var1 = 100;
-            if(var2) { _fun0003_ip = 71; continue _fun0003 }
- 16:
-            var2 = 15;
-            var2 = var3 <= var2;
-            var1 = 70;
-            if(var2) { _fun0003_ip = 71; continue _fun0003 }
- 29:
-            var4 = 30;
-            var2 = var3 <= var4;
-            var1 = 50;
-            if(var2) { _fun0003_ip = 71; continue _fun0003 }
- 42:
-            var2 = 45;
-            var2 = var3 <= var2;
-            var1 = var4;
-            if(var2) { _fun0003_ip = 71; continue _fun0003 }
- 55:
-            var2 = 80;
-            var2 = var3 <= var2;
-            var1 = 1;
-            if(!var2) { _fun0003_ip = 71; continue _fun0003 }
- 68:
-            var1 = 10;
- 71:
-            return var1;
-        }
-    };
-    var4['computeWeight'] = var9;
     var9 = function lookupKey(arg1) {
         var3 = _closure1_slot8;
         var2 = var3.getStickerById;
@@ -221,11 +186,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var4 instanceof Object ? var4 : var9;
     var _closure1_slot11 = var4;
     var4 = function recomputeStickerFrecency() {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var2 = _closure1_slot8;
             var2 = var2.isLoaded;
-            if(!var2) { _fun0004_ip = 30; continue _fun0004 }
+            if(!var2) { _fun0003_ip = 30; continue _fun0003 }
  16:
             var2 = _closure1_slot11;
             var1 = var2.compute;
@@ -249,7 +214,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var4.PersistedStore;
     var4 = function(arg1) {
         var4 = function StickersPersistedStore() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                 var4 = this;
                 var3 = undefined;
@@ -262,13 +227,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot14;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0005_ip = 69; continue _fun0005 }
+                if(var1) { _fun0004_ip = 69; continue _fun0004 }
  51:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0005_ip = 105; continue _fun0005;
+                _fun0004_ip = 105; continue _fun0004;
  69:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -293,7 +258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = 'initialize';
         var5['key'] = var1;
         var1 = function value(arg1) {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                 var2 = arg1;
                 var4 = this;
@@ -301,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot8;
                 var3 = var5.bind(var4)(var3);
                 var3 = null;
-                if(!(var3 != var2)) { _fun0006_ip = 34; continue _fun0006 }
+                if(!(var3 != var2)) { _fun0005_ip = 34; continue _fun0005 }
  30:
                 _closure1_slot10 = var2;
  34:
@@ -368,12 +333,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var8.bind(var1)(var4);
     var4 = {};
     var10 = function STICKER_TRACK_USAGE(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var1 = arg1;
             var3 = var1.stickerIds;
             var1 = null;
-            if(!(var1 != var3)) { _fun0007_ip = 32; continue _fun0007 }
+            if(!(var1 != var3)) { _fun0006_ip = 32; continue _fun0006 }
  15:
             var2 = var3.forEach;
             var1 = function(arg1) {
@@ -405,7 +370,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4['STICKER_TRACK_USAGE'] = var10;
     var5 = function handleUserSettingsProtoUpdate(arg1) {
-        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
             var1 = arg1;
             var2 = var1.settings;
@@ -413,9 +378,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.wasSaved;
             var3 = _closure1_slot9;
             var3 = var3.FRECENCY_AND_FAVORITES_SETTINGS;
-            if(!(var4 === var3)) { _fun0008_ip = 58; continue _fun0008 }
+            if(!(var4 === var3)) { _fun0007_ip = 58; continue _fun0007 }
  37:
-            if(!var2) { _fun0008_ip = 58; continue _fun0008 }
+            if(!var2) { _fun0007_ip = 58; continue _fun0007 }
  40:
             var2 = _closure1_slot10;
             var1 = new Array(0);

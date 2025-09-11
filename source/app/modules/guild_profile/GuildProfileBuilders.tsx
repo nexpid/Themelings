@@ -262,7 +262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = 0;
             var4 = var3;
             var3 = undefined;
-            if(var2) { _fun0005_ip = 260; continue _fun0005 }
+            if(var2) { _fun0005_ip = 259; continue _fun0005 }
  113:
             var15 = var4.value;
             var2 = var15.position;
@@ -277,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.MAX_TRAITS;
             var2 = var13 >= var12;
  162:
-            if(var2) { _fun0005_ip = 242; continue _fun0005 }
+            if(var2) { _fun0005_ip = 241; continue _fun0005 }
  165:
             var13 = var15.position;
             var12 = {};
@@ -300,12 +300,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['emoji'] = var14;
             var1[var13] = var12;
             var3 = var2;
- 242:
+ 241:
             var12 = var7.bind(var8)();
             var2 = var12.done;
             var4 = var12;
             if(!var2) { _fun0005_ip = 113; continue _fun0005 }
- 260:
+ 259:
             return var1;
         }
     };
@@ -535,14 +535,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  19:
                     var2 = var5 == var1;
                     var1 = null;
-                    if(var2) { _fun0009_ip = 146; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 143; continue _fun0009 }
  28:
                     var2 = var4.label;
                     var6 = var2.length;
                     var2 = 0;
                     var2 = var6 <= var2;
                     var1 = null;
-                    if(var2) { _fun0009_ip = 146; continue _fun0009 }
+                    if(var2) { _fun0009_ip = 143; continue _fun0009 }
  49:
                     var2 = {};
                     var6 = var4.label;
@@ -552,29 +552,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var4.emoji;
                     var8 = var5 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0009_ip = 87; continue _fun0009 }
- 82:
+                    if(var8) { _fun0009_ip = 86; continue _fun0009 }
+ 81:
                     var6 = var7.id;
- 87:
+ 86:
                     var2['emoji_id'] = var6;
                     var7 = var4.emoji;
                     var8 = var5 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0009_ip = 112; continue _fun0009 }
- 107:
+                    if(var8) { _fun0009_ip = 110; continue _fun0009 }
+ 105:
                     var6 = var7.name;
- 112:
+ 110:
                     var2['emoji_name'] = var6;
                     var4 = var4.emoji;
                     var5 = var5 == var4;
                     var3 = undefined;
-                    if(var5) { _fun0009_ip = 138; continue _fun0009 }
- 132:
+                    if(var5) { _fun0009_ip = 135; continue _fun0009 }
+ 129:
                     var3 = var4.animated;
- 138:
+ 135:
                     var2['emoji_animated'] = var3;
                     var1 = var2;
- 146:
+ 143:
                     return var1;
                 }
             };

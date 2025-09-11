@@ -487,11 +487,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = undefined;
             if(!var2) { _fun0004_ip = 304; continue _fun0004 }
  443:
-            if(!(var4 != var7)) { _fun0004_ip = 479; continue _fun0004 }
+            if(!(var4 != var7)) { _fun0004_ip = 480; continue _fun0004 }
  447:
             var6 = var7;
             var2 = var10;
-            if(!(var4 == var10)) { _fun0004_ip = 526; continue _fun0004 }
+            if(!(var4 == var10)) { _fun0004_ip = 527; continue _fun0004 }
  457:
             var9 = var8.find;
             var3 = function(arg1) {
@@ -513,42 +513,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var9.bind(var8)(var3);
             var6 = var7;
-            _fun0004_ip = 526; continue _fun0004;
- 479:
+            _fun0004_ip = 527; continue _fun0004;
+ 480:
             var9 = var8.length;
             var3 = 0;
-            if(!(var9 > var3)) { _fun0004_ip = 501; continue _fun0004 }
- 490:
+            if(!(var9 > var3)) { _fun0004_ip = 502; continue _fun0004 }
+ 491:
             var3 = var8[var3];
             _closure2_slot0 = var3;
             var7 = var3;
- 501:
+ 502:
             var9 = var8.length;
             var3 = 1;
             var6 = var7;
             var2 = var10;
-            if(!(var9 > var3)) { _fun0004_ip = 526; continue _fun0004 }
- 519:
+            if(!(var9 > var3)) { _fun0004_ip = 527; continue _fun0004 }
+ 520:
             var2 = var8[var3];
             var6 = var7;
- 526:
-            if(!(var4 != var6)) { _fun0004_ip = 548; continue _fun0004 }
- 530:
+ 527:
+            if(!(var4 != var6)) { _fun0004_ip = 549; continue _fun0004 }
+ 531:
             var3 = var6;
-            if(!(var4 == var2)) { _fun0004_ip = 568; continue _fun0004 }
- 537:
+            if(!(var4 == var2)) { _fun0004_ip = 569; continue _fun0004 }
+ 538:
             var4 = 0;
             var2 = var5[var4];
             var3 = var6;
-            _fun0004_ip = 568; continue _fun0004;
- 548:
+            _fun0004_ip = 569; continue _fun0004;
+ 549:
             var4 = 0;
             var4 = var5[var4];
             _closure2_slot0 = var4;
             var1 = 1;
             var2 = var5[var1];
             var3 = var4;
- 568:
+ 569:
             var1 = {};
             var1['firstBotApplication'] = var3;
             var1['secondBotApplication'] = var2;

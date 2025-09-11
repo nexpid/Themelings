@@ -47,8 +47,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new Array(0);
             var15 = var4.bind(var8)(var3, var1);
             var1 = null;
-            if(!(var1 != var13)) { _fun0001_ip = 282; continue _fun0001 }
- 111:
+            if(!(var1 != var13)) { _fun0001_ip = 284; continue _fun0001 }
+ 113:
             var4 = _closure1_slot13;
             var3 = _closure1_slot12;
             var1 = {};
@@ -66,10 +66,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var16.isAndroid;
             var16 = var14.bind(var16)();
             var14 = undefined;
-            if(!var16) { _fun0001_ip = 182; continue _fun0001 }
- 179:
+            if(!var16) { _fun0001_ip = 184; continue _fun0001 }
+ 181:
             var14 = var15;
- 182:
+ 184:
             var8['onLayout'] = var14;
             var8['onPress'] = var13;
             var8['androidRippleConfig'] = var11;
@@ -92,8 +92,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[1] = var9;
             var1['children'] = var8;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 320; continue _fun0001;
- 282:
+            _fun0001_ip = 322; continue _fun0001;
+ 284:
             var4 = _closure1_slot11;
             var3 = _closure1_slot6;
             var2 = {};
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['accessibilityRole'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 320:
+ 322:
             return var1;
         }
     };
@@ -754,8 +754,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['source'] = var10;
             var1['onPress'] = var5;
             var5 = 0;
-            if(!(!(var7 > var5))) { _fun0008_ip = 257; continue _fun0008 }
- 200:
+            if(!(!(var7 > var5))) { _fun0008_ip = 261; continue _fun0008 }
+ 204:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var10 = 19;
@@ -768,8 +768,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.t;
             var10 = var10.tlopTE;
             var10 = var11.bind(var12)(var10);
-            _fun0008_ip = 320; continue _fun0008;
- 257:
+            _fun0008_ip = 324; continue _fun0008;
+ 261:
             var12 = _closure1_slot0;
             var15 = _closure1_slot2;
             var11 = 19;
@@ -784,16 +784,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = {};
             var11['number'] = var7;
             var10 = var13.bind(var14)(var12, var11);
- 320:
+ 324:
             var1['accessibilityLabel'] = var10;
             var1['badge'] = var9;
             var10 = var7 > var5;
             var9 = undefined;
-            if(!var10) { _fun0008_ip = 347; continue _fun0008 }
- 338:
+            if(!var10) { _fun0008_ip = 351; continue _fun0008 }
+ 342:
             var10 = var7.toString;
             var9 = var10.bind(var7)();
- 347:
+ 351:
             var1['buttonText'] = var9;
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
@@ -805,10 +805,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['hitSlop'] = var8;
             var7 = var7 > var5;
             var5 = null;
-            if(!var7) { _fun0008_ip = 403; continue _fun0008 }
- 397:
+            if(!var7) { _fun0008_ip = 407; continue _fun0008 }
+ 401:
             var5 = var6.eventsActionButtonWithText;
- 403:
+ 407:
             var1['style'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

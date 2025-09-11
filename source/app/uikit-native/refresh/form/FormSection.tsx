@@ -383,10 +383,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var9.TableRowGroup;
             var9 = {};
             var9['title'] = var15;
-            if(!(var6 != var14)) { _fun0002_ip = 746; continue _fun0002 }
- 743:
+            if(!(var6 != var14)) { _fun0002_ip = 747; continue _fun0002 }
+ 744:
             var13 = var14;
- 746:
+ 747:
             var9['hasIcons'] = var13;
             var13 = _closure1_slot9;
             var13 = var13.bind(var4)(var12);
@@ -399,8 +399,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[0] = var8;
             var8 = var6 != var10;
             var6 = null;
-            if(!var8) { _fun0002_ip = 835; continue _fun0002 }
- 802:
+            if(!var8) { _fun0002_ip = 836; continue _fun0002 }
+ 803:
             var9 = _closure1_slot6;
             var8 = _closure1_slot4;
             var7 = {};
@@ -410,7 +410,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['style'] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 835:
+ 836:
             var5[1] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

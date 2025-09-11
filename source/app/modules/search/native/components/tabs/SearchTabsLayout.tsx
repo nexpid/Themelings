@@ -839,16 +839,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = _closure2_slot10;
                             var2 = var4 === var3;
  36:
-                            if(!var2) { _fun0013_ip = 63; continue _fun0013 }
+                            if(!var2) { _fun0013_ip = 66; continue _fun0013 }
  39:
-                            var5 = _closure2_slot4;
+                            var6 = _closure2_slot4;
                             var2 = undefined;
-                            var4 = 0;
-                            var3 = false;
-                            var3 = var5.bind(var2)(var4, var3);
+                            var5 = 0;
+                            var4 = false;
+                            var3 = true;
+                            var3 = var6.bind(var2)(var5, var4, var3);
                             var1 = _closure2_slot14;
                             var1 = var1.bind(var2)();
- 63:
+ 66:
                             var1 = undefined;
                             return var1;
                         }

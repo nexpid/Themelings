@@ -200,7 +200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.AuthenticatorType;
             var2 = var2.WEBAUTHN;
             var2 = var6 === var2;
-            if(!var2) { _fun0003_ip = 89; continue _fun0003 }
+            if(!var2) { _fun0003_ip = 90; continue _fun0003 }
  64:
             var7 = _closure1_slot8;
             var6 = var7.find;
@@ -214,9 +214,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5 = var6.bind(var7)(var5);
             var2 = var1 === var5;
- 89:
-            if(!var2) { _fun0003_ip = 125; continue _fun0003 }
- 92:
+ 90:
+            if(!var2) { _fun0003_ip = 126; continue _fun0003 }
+ 93:
             var9 = _closure1_slot8;
             var2 = new Array(1);
             var8 = 0;
@@ -226,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 1;
             var4 = var5 + var4;
             _closure1_slot8 = var2;
- 125:
+ 126:
             return var1;
         }
     };

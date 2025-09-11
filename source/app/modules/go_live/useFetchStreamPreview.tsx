@@ -176,10 +176,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot5 = var13;
             var4 = var2.previewUrl;
             var2 = var2.isLoading;
-            if(var1) { _fun0001_ip = 237; continue _fun0001 }
- 234:
+            if(var1) { _fun0001_ip = 245; continue _fun0001 }
+ 242:
             var1 = var8;
- 237:
+ 245:
             var _closure2_slot6 = var1;
             var9 = _closure1_slot2;
             var8 = var9.useEffect;
@@ -222,21 +222,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var6 = var8.bind(var9)(var6, var7);
-            if(var5) { _fun0001_ip = 309; continue _fun0001 }
- 292:
-            if(!var1) { _fun0001_ip = 309; continue _fun0001 }
- 295:
+            if(var5) { _fun0001_ip = 319; continue _fun0001 }
+ 302:
+            if(!var1) { _fun0001_ip = 319; continue _fun0001 }
+ 305:
             var1 = {};
             var1['previewUrl'] = var4;
             var1['isLoading'] = var2;
-            _fun0001_ip = 326; continue _fun0001;
- 309:
+            _fun0001_ip = 336; continue _fun0001;
+ 319:
             var2 = {};
             var2['previewUrl'] = var3;
             var3 = false;
             var2['isLoading'] = var3;
             var1 = var2;
- 326:
+ 336:
             return var1;
         }
     };

@@ -87,7 +87,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var6[var11];
         var16 = var12.bind(var1)(var16);
         var16 = var16.colors;
-        var16 = var16.BG_MOD_STRONG;
+        var16 = var16.CARD_PRIMARY_BG;
         var10['backgroundColor'] = var16;
         var16 = var6[var11];
         var16 = var12.bind(var1)(var16);
@@ -125,20 +125,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var18.isIOS;
         var18 = var16.bind(var18)();
         var16 = 20;
-        if(!var18) { _fun0001_ip = 574; continue _fun0001 }
- 571:
+        if(!var18) { _fun0001_ip = 573; continue _fun0001 }
+ 570:
         var16 = var17;
- 574:
+ 573:
         var10['fontSize'] = var16;
         var15 = var6[var15];
         var16 = var5.bind(var1)(var15);
         var15 = var16.isIOS;
         var16 = var15.bind(var16)();
         var15 = undefined;
-        if(!var16) { _fun0001_ip = 606; continue _fun0001 }
- 603:
+        if(!var16) { _fun0001_ip = 605; continue _fun0001 }
+ 602:
         var15 = 32;
- 606:
+ 605:
         var10['lineHeight'] = var15;
         var10['textAlign'] = var14;
         var4['textEmoji'] = var10;
@@ -210,15 +210,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var14 = var13 == var11;
                 var11 = '';
                 var12 = var11;
-                if(!var14) { _fun0002_ip = 232; continue _fun0002 }
- 227:
+                if(!var14) { _fun0002_ip = 230; continue _fun0002 }
+ 225:
                 var12 = var21.surrogates;
- 232:
+ 230:
                 var9['name'] = var12;
                 var12 = var21.id;
                 var12 = var13 != var12;
-                if(!var12) { _fun0002_ip = 309; continue _fun0002 }
- 248:
+                if(!var12) { _fun0002_ip = 307; continue _fun0002 }
+ 246:
                 var13 = _closure1_slot1;
                 var14 = _closure1_slot2;
                 var12 = 10;
@@ -233,7 +233,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = _closure1_slot4;
                 var12['size'] = var15;
                 var11 = var13.bind(var14)(var12);
- 309:
+ 307:
                 var9['src'] = var11;
                 var9 = var3.bind(var4)(var10, var9);
                 var12 = new Array(2);
@@ -245,7 +245,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var11[var15];
                 var13 = var9.bind(var4)(var13);
                 var14 = var13.Text;
-                var13 = {'variant': 'text-md/semibold', 'color': 'interactive-normal', 'children': '1'};
+                var13 = {'variant': 'text-lg/semibold', 'color': 'interactive-normal', 'children': '1'};
                 var13 = var10.bind(var4)(var14, var13);
                 var12[1] = var13;
                 var7['children'] = var12;
@@ -281,7 +281,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var18 = 13;
                 var18 = var11[var18];
                 var18 = var9.bind(var4)(var18);
-                var19 = var18.NewBadge;
+                var19 = var18.DoubleTapNewBadge;
                 var18 = {};
                 var18 = var10.bind(var4)(var19, var18);
                 var16[1] = var18;

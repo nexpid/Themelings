@@ -48,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 3;
             var1 = var7[var1];
             var4 = var4.bind(var5)(var1);
-            var1 = {'includeKeyboardHeight': true, 'includeCustomKeyboardHeightIOS': false};
+            var1 = {'includeKeyboardHeight': true, 'includeCustomKeyboardHeight': false};
             var1 = var4.bind(var5)(var1);
             var1 = var1.insets;
             var4 = var1.bottom;

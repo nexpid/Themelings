@@ -285,12 +285,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var4 = var4.bind(var5)(var2);
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0006_ip = 53; continue _fun0006 }
- 39:
+                    if(!(var2 != var4)) { _fun0006_ip = 54; continue _fun0006 }
+ 40:
                     var2 = _closure2_slot1;
                     var1 = var3.soundId;
                     var2[var1] = var3;
- 53:
+ 54:
                     var1 = undefined;
                     return var1;
                 }

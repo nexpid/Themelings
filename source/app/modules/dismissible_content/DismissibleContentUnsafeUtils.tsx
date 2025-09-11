@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = arg1;
                     var7 = arguments[2];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 141; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 145; continue _fun0003 }
  16:
                     var4 = undefined;
                     if(!(var7 === var4)) { _fun0003_ip = 24; continue _fun0003 }
@@ -161,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var4;
  28:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0003_ip = 138; continue _fun0003 }
+                    if(var3) { _fun0003_ip = 142; continue _fun0003 }
  34:
                     var6 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -171,17 +171,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var11.markDismissibleContentAsDismissedPreProcessing;
                     var10 = var10.bind(var11)(var8, var7);
                     var3 = var3[var9];
-                    var10 = var6.bind(var4)(var3);
-                    var6 = var10.UNSAFE_addGuildDismissedContent;
-                    var3 = arg2;
-                    var3 = var6.bind(var10)(var8, var3);
-                    SaveGenerator(address=97);
- 95:
+                    var11 = var6.bind(var4)(var3);
+                    var10 = var11.UNSAFE_addGuildDismissedContent;
+                    var6 = arg2;
+                    var3 = 1;
+                    var3 = var10.bind(var11)(var8, var6, var3);
+                    SaveGenerator(address=101);
+ 99:
                     return var3;
- 97:
+ 101:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0003_ip = 135; continue _fun0003 }
- 103:
+                    if(var6) { _fun0003_ip = 139; continue _fun0003 }
+ 107:
                     var6 = _closure1_slot0;
                     var5 = _closure1_slot2;
                     var5 = var5[var9];
@@ -189,11 +190,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.markDismissibleContentAsDismissedPostProcessing;
                     var5 = var5.bind(var6)(var8, var7);
                     return var4;
- 135:
+ 139:
                     return var3;
- 138:
+ 142:
                     return var2;
- 141:
+ 145:
                     return var1;
                 }
             };
@@ -215,64 +216,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = function* (arg1, arg2) {
-            var1 = function* anon_0_(arg1, arg2) {
+        var3 = function* (arg1, arg2, arg3) {
+            var1 = function* anon_0_(arg1, arg2, arg3) {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                     StartGenerator();
-                    var8 = arg1;
-                    var7 = arguments[2];
+                    var7 = arg1;
+                    var10 = arg2;
+                    var6 = arg3;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0004_ip = 141; continue _fun0004 }
- 16:
-                    var4 = undefined;
-                    if(!(var7 === var4)) { _fun0004_ip = 24; continue _fun0004 }
- 22:
-                    var7 = {};
- 24:
-                    SaveGenerator(address=28);
- 26:
-                    return var4;
- 28:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 138; continue _fun0004 }
- 34:
-                    var6 = _closure1_slot0;
-                    var3 = _closure1_slot2;
-                    var9 = 5;
-                    var10 = var3[var9];
-                    var11 = var6.bind(var4)(var10);
-                    var10 = var11.markDismissibleContentAsDismissedPreProcessing;
-                    var10 = var10.bind(var11)(var8, var7);
-                    var3 = var3[var9];
-                    var10 = var6.bind(var4)(var3);
-                    var6 = var10.UNSAFE_addTimeRecurringGuildDismissedContent;
-                    var3 = arg2;
-                    var3 = var6.bind(var10)(var8, var3);
-                    SaveGenerator(address=97);
- 95:
-                    return var3;
- 97:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(var6) { _fun0004_ip = 135; continue _fun0004 }
- 103:
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var5 = var5[var9];
-                    var6 = var6.bind(var4)(var5);
-                    var5 = var6.markDismissibleContentAsDismissedPostProcessing;
-                    var5 = var5.bind(var6)(var8, var7);
-                    return var4;
- 135:
-                    return var3;
- 138:
+                    if(var2) { _fun0004_ip = 144; continue _fun0004 }
+ 19:
+                    var5 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    var8 = 5;
+                    var9 = var2[var8];
+                    var3 = undefined;
+                    var11 = var5.bind(var3)(var9);
+                    var9 = var11.getGuildNextNumTimesDismissed;
+                    var9 = var9.bind(var11)(var7, var10);
+                    var11 = var2[var8];
+                    var12 = var5.bind(var3)(var11);
+                    var11 = var12.markDismissibleContentAsDismissedPreProcessing;
+                    var11 = var11.bind(var12)(var7, var6);
+                    var2 = var2[var8];
+                    var5 = var5.bind(var3)(var2);
+                    var2 = var5.UNSAFE_addTimeRecurringGuildDismissedContent;
+                    var2 = var2.bind(var5)(var7, var10, var9);
+                    SaveGenerator(address=103);
+ 101:
                     return var2;
+ 103:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0004_ip = 141; continue _fun0004 }
+ 109:
+                    var5 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var4 = var4[var8];
+                    var5 = var5.bind(var3)(var4);
+                    var4 = var5.markDismissibleContentAsDismissedPostProcessing;
+                    var4 = var4.bind(var5)(var7, var6);
+                    return var3;
  141:
+                    return var2;
+ 144:
                     return var1;
                 }
             };
-            var2 = var1.next;
-            var2 = var2.bind(var1)();
             return var1;
         };
         var4 = var4.bind(var5)(var3);

@@ -74,13 +74,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = 0.5;
     var14['opacity'] = var15;
     var7['claimed'] = var14;
-    var14 = {'position': 'absolute', 'top': 53, 'right': 60, 'opacity': 1, 'color': null, 'fontWeight': 'bold'};
-    var15 = var6[var10];
-    var15 = var11.bind(var1)(var15);
-    var15 = var15.colors;
-    var15 = var15.WHITE;
-    var14['color'] = var15;
+    var14 = {'position': 'absolute', 'opacity': 1, 'fontWeight': 'bold'};
     var7['checkmark'] = var14;
+    var14 = {'position': 'absolute', 'top': 10, 'zIndex': 3, 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'width': '100%', 'height': '75%'};
+    var7['checkmarkContainer'] = var14;
     var14 = {'position': 'absolute', 'bottom': 20, 'left': 0, 'right': 0, 'paddingHorizontal': null, 'alignItems': 'flex-start'};
     var15 = var6[var10];
     var15 = var11.bind(var1)(var15);
@@ -185,22 +182,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(3);
             var5[0] = var6;
             var6 = var13;
-            if(!var6) { _fun0001_ip = 363; continue _fun0001 }
+            if(!var6) { _fun0001_ip = 389; continue _fun0001 }
  307:
             var10 = _closure1_slot5;
-            var8 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var7 = 8;
-            var7 = var11[var7];
-            var7 = var8.bind(var4)(var7);
-            var8 = var7.CheckmarkLargeBoldIcon;
+            var8 = _closure1_slot4;
             var7 = {};
-            var11 = 'lg';
-            var7['size'] = var11;
-            var11 = var9.checkmark;
+            var11 = var9.checkmarkContainer;
             var7['style'] = var11;
+            var12 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var11 = 8;
+            var11 = var15[var11];
+            var11 = var12.bind(var4)(var11);
+            var12 = var11.CheckmarkLargeBoldIcon;
+            var11 = {};
+            var15 = 'lg';
+            var11['size'] = var15;
+            var15 = var9.checkmark;
+            var11['style'] = var15;
+            var11 = var10.bind(var4)(var12, var11);
+            var7['children'] = var11;
             var6 = var10.bind(var4)(var8, var7);
- 363:
+ 389:
             var5[1] = var6;
             var8 = _closure1_slot6;
             var7 = _closure1_slot4;
@@ -234,15 +237,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var18[var14];
             var14 = var17.bind(var4)(var14);
             var14 = var14.t;
-            if(var13) { _fun0001_ip = 539; continue _fun0001 }
- 524:
+            if(var13) { _fun0001_ip = 565; continue _fun0001 }
+ 550:
             var13 = var14.QQsaCQ;
             var13 = var15.bind(var16)(var13);
-            _fun0001_ip = 550; continue _fun0001;
- 539:
+            _fun0001_ip = 576; continue _fun0001;
+ 565:
             var14 = var14.6cfuDg;
             var13 = var15.bind(var16)(var14);
- 550:
+ 576:
             var10['children'] = var13;
             var10 = var12.bind(var4)(var11, var10);
             var9[1] = var10;

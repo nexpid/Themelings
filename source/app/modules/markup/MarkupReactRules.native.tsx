@@ -570,7 +570,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['children'] = var1;
             var1 = var2.key;
             var1 = var5.bind(var6)(var4, var3, var1);
-            _fun0011_ip = 255; continue _fun0011;
+            _fun0011_ip = 253; continue _fun0011;
  168:
             var4 = _closure1_slot1;
             var12 = _closure1_slot2;
@@ -579,25 +579,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var6)(var3);
             var3 = {};
             var9 = var9.emoji;
-            if(var9) { _fun0011_ip = 209; continue _fun0011 }
- 199:
+            if(var9) { _fun0011_ip = 207; continue _fun0011 }
+ 198:
             var11 = _closure1_slot16;
             var9 = var11.emoji;
- 209:
+ 207:
             var3['style'] = var9;
             var9 = {};
             var10 = var10.src;
             var9['uri'] = var10;
             var3['source'] = var9;
             var7 = !var7;
-            if(!var7) { _fun0011_ip = 238; continue _fun0011 }
- 235:
+            if(!var7) { _fun0011_ip = 236; continue _fun0011 }
+ 233:
             var7 = var8;
- 238:
+ 236:
             var3['enableAnimation'] = var7;
             var2 = var2.key;
             var1 = var5.bind(var6)(var4, var3, var2);
- 255:
+ 253:
             return var1;
         }
     };

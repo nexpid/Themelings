@@ -133,18 +133,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 137; continue _fun0002 }
+                    if(var3) { _fun0002_ip = 136; continue _fun0002 }
  13:
                     var8 = var2.emoji;
                     var6 = var2.emojiSource;
                     var5 = undefined;
-                    SaveGenerator(address=31);
- 29:
+                    SaveGenerator(address=30);
+ 28:
                     return var5;
- 31:
+ 30:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 134; continue _fun0002 }
- 37:
+                    if(var3) { _fun0002_ip = 133; continue _fun0002 }
+ 36:
                     var4 = {};
                     var7 = _closure1_slot2;
                     var4['cache'] = var7;
@@ -167,25 +167,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var3 = var3.bind(var5)(var4);
-                    SaveGenerator(address=109);
- 107:
+                    SaveGenerator(address=108);
+ 106:
                     return var3;
- 109:
+ 108:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0002_ip = 131; continue _fun0002 }
- 115:
+                    if(var4) { _fun0002_ip = 130; continue _fun0002 }
+ 114:
                     var5 = null;
                     var4 = var3;
-                    if(!(var5 == var4)) { _fun0002_ip = 128; continue _fun0002 }
- 124:
+                    if(!(var5 == var4)) { _fun0002_ip = 127; continue _fun0002 }
+ 123:
                     var4 = new Array(0);
- 128:
+ 127:
                     return var4;
- 131:
+ 130:
                     return var3;
- 134:
+ 133:
                     return var2;
- 137:
+ 136:
                     return var1;
                 }
             };

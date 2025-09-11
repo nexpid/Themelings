@@ -242,12 +242,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var12 = 'center';
     var9['textAlign'] = var12;
-    var12 = var6[var10];
-    var12 = var11.bind(var1)(var12);
-    var12 = var12.spacing;
-    var12 = var12.PX_8;
-    var9['padding'] = var12;
+    var13 = var6[var10];
+    var13 = var11.bind(var1)(var13);
+    var13 = var13.spacing;
+    var13 = var13.PX_8;
+    var9['padding'] = var13;
     var4['header'] = var9;
+    var9 = {};
+    var9['textAlign'] = var12;
+    var4['subtitle'] = var9;
     var9 = {};
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
@@ -257,8 +260,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;
+    var12 = var12.PX_24;
+    var9['marginTop'] = var12;
+    var12 = var6[var10];
+    var12 = var11.bind(var1)(var12);
+    var12 = var12.spacing;
     var12 = var12.PX_16;
-    var9['marginVertical'] = var12;
+    var9['marginBottom'] = var12;
     var4['segmentedControlContainer'] = var9;
     var9 = {};
     var12 = var6[var10];
@@ -369,12 +377,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var3 = var3.bind(var4)(var2);
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0005_ip = 43; continue _fun0005 }
- 32:
+                    if(!(var2 != var3)) { _fun0005_ip = 44; continue _fun0005 }
+ 33:
                     var2 = _closure2_slot3;
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
- 43:
+ 44:
                     var1 = undefined;
                     return var1;
                 }
@@ -594,7 +602,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var21[var8];
             var7 = var29.bind(var4)(var7);
             var22 = var7.Text;
-            var7 = {'style': null, 'variant': 'redesign/heading-18/bold', 'color': 'header-primary', 'accessibilityRole': 'header'};
+            var7 = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary', 'accessibilityRole': 'header'};
             var19 = var10.header;
             var7['style'] = var19;
             var19 = 8;
@@ -614,8 +622,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var21[var8];
             var22 = var29.bind(var4)(var22);
             var23 = var22.Text;
-            var22 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-normal'};
-            var27 = var10.header;
+            var22 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-normal'};
+            var27 = var10.subtitle;
             var22['style'] = var27;
             var27 = var21[var19];
             var27 = var29.bind(var4)(var27);
@@ -632,8 +640,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var21[var8];
             var8 = var29.bind(var4)(var8);
             var22 = var8.Text;
-            var8 = {'style': null, 'variant': 'text-sm/medium', 'color': 'text-normal'};
-            var23 = var10.header;
+            var8 = {'style': null, 'variant': 'text-md/medium', 'color': 'text-normal'};
+            var23 = var10.subtitle;
             var8['style'] = var23;
             var23 = var21[var19];
             var23 = var29.bind(var4)(var23);
@@ -670,10 +678,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var15.bind(var4)(var8);
             var8 = {};
             var8['rewardsToDisplay'] = var20;
-            if(!(var13 == var18)) { _fun0004_ip = 960; continue _fun0004 }
- 956:
+            if(!(var13 == var18)) { _fun0004_ip = 962; continue _fun0004 }
+ 958:
             var18 = new Array(0);
- 960:
+ 962:
             var8['claimableRewards'] = var18;
             var8['onSelect'] = var17;
             var8['highlightedSkuId'] = var11;
@@ -707,10 +715,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['text'] = var15;
             var9['onPress'] = var14;
             var11 = var13 == var11;
-            if(var11) { _fun0004_ip = 1115; continue _fun0004 }
- 1112:
+            if(var11) { _fun0004_ip = 1117; continue _fun0004 }
+ 1114:
             var11 = !var12;
- 1115:
+ 1117:
             var9['disabled'] = var11;
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;

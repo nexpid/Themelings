@@ -937,23 +937,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var4 = var5.getNativeSyntheticEventData;
                         var3 = arg1;
                         var3 = var4.bind(var5)(var3);
-                        var4 = var3.reaction;
-                        var6 = var4.emoji;
-                        var5 = var3.messageId;
-                        var4 = var3.channelId;
+                        var7 = var3.reaction;
+                        var6 = var3.messageId;
+                        var5 = var3.channelId;
                         var3 = _closure3_slot0;
                         var3 = var3.props;
                         var3 = var3.hasActionSheetOpen;
-                        if(var3) { _fun0013_ip = 115; continue _fun0013 }
- 82:
+                        if(var3) { _fun0013_ip = 125; continue _fun0013 }
+ 76:
                         var3 = _closure1_slot0;
-                        var7 = _closure1_slot3;
+                        var4 = _closure1_slot3;
                         var2 = 33;
-                        var2 = var7[var2];
-                        var3 = var3.bind(var1)(var2);
-                        var2 = var3.handleViewPreviewReactions;
-                        var2 = var2.bind(var3)(var5, var4, var6);
- 115:
+                        var2 = var4[var2];
+                        var4 = var3.bind(var1)(var2);
+                        var3 = var4.handleViewPreviewReactions;
+                        var2 = null;
+                        var8 = var2 != var7;
+                        var2 = undefined;
+                        if(!var8) { _fun0013_ip = 118; continue _fun0013 }
+ 113:
+                        var2 = var7.emoji;
+ 118:
+                        var2 = var3.bind(var4)(var6, var5, var2);
+ 125:
                         return var1;
                     }
                 };

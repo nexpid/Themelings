@@ -1,0 +1,34 @@
+// app/modules/virtual_currency/types.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
+    var1 = global;
+    var5 = var1.Object;
+    var4 = var5.defineProperty;
+    var2 = {};
+    var1 = true;
+    var2['value'] = var1;
+    var1 = '__esModule';
+    var1 = var4.bind(var5)(var3, var1, var2);
+    var4 = {};
+    var1 = 'DEFAULT';
+    var4['DEFAULT'] = var1;
+    var1 = 'HIGHLIGHTED';
+    var4['HIGHLIGHTED'] = var1;
+    var1 = 'SELECTED';
+    var4['SELECTED'] = var1;
+    var2 = {};
+    var1 = 'orb_profile_badge';
+    var2['ORB_PROFILE_BADGE'] = var1;
+    var5 = dependencyMap;
+    var1 = 0;
+    var6 = var5[var1];
+    var5 = require;
+    var1 = undefined;
+    var7 = var5.bind(var1)(var6);
+    var6 = var7.fileFinishedImporting;
+    var5 = 'modules/virtual_currency/types.tsx';
+    var5 = var6.bind(var7)(var5);
+    var3['BalanceWidgetMode'] = var4;
+    var3['OrbBadges'] = var2;
+    return var1;
+})();

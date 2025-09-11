@@ -322,16 +322,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var6;
             var _closure2_slot2 = var5;
             var2 = function onPress() {
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var2 = 15;
-                var3 = var3[var2];
-                var2 = undefined;
-                var4 = var4.bind(var2)(var3);
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 15;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
                 var3 = var4.showInstantInviteActionSheet;
                 var2 = _closure2_slot0;
-                var1 = _closure1_slot6;
-                var1 = var1.VOICE_CHANNEL;
+                var1 = {};
+                var5 = _closure1_slot6;
+                var5 = var5.VOICE_CHANNEL;
+                var1['source'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
@@ -341,39 +343,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var3 != var5)) { _fun0002_ip = 56; continue _fun0002 }
  40:
             var2 = function onPress() {
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var2 = 15;
-                var3 = var3[var2];
-                var2 = undefined;
-                var5 = var4.bind(var2)(var3);
-                var4 = var5.showInstantInviteActionSheet;
-                var3 = _closure2_slot0;
-                var1 = _closure1_slot6;
-                var2 = var1.ACTIVITY_INVITE;
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 15;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.showInstantInviteActionSheet;
+                var2 = _closure2_slot0;
                 var1 = {};
-                var6 = _closure2_slot2;
-                var1['targetApplicationId'] = var6;
-                var1 = var4.bind(var5)(var3, var2, var1);
+                var6 = _closure1_slot6;
+                var6 = var6.ACTIVITY_INVITE;
+                var1['source'] = var6;
+                var5 = _closure2_slot2;
+                var1['targetApplicationId'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
             _fun0002_ip = 56; continue _fun0002;
  49:
             var2 = function onPress() {
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var2 = 15;
-                var3 = var3[var2];
-                var2 = undefined;
-                var5 = var4.bind(var2)(var3);
-                var4 = var5.showInstantInviteActionSheet;
-                var3 = _closure2_slot0;
-                var1 = _closure1_slot6;
-                var2 = var1.STREAM;
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 15;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.showInstantInviteActionSheet;
+                var2 = _closure2_slot0;
                 var1 = {};
-                var6 = _closure2_slot1;
-                var1['stream'] = var6;
-                var1 = var4.bind(var5)(var3, var2, var1);
+                var6 = _closure1_slot6;
+                var6 = var6.STREAM;
+                var1['source'] = var6;
+                var5 = _closure2_slot1;
+                var1['stream'] = var5;
+                var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };
  56:

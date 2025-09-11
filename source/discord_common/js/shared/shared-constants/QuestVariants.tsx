@@ -94,6 +94,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MOBILE_ONLY_QUEST_PUSH_TO_MOBILE'] = var4;
     var1 = 'MOBILE_ONLY_QUEST_PUSH_TO_MOBILE';
     var2[var4] = var1;
+    var4 = 24;
+    var2['MANUAL_HEARTBEAT_INITIALIZATION'] = var4;
+    var1 = 'MANUAL_HEARTBEAT_INITIALIZATION';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

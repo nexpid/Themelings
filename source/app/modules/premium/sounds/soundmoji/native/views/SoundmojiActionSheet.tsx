@@ -132,7 +132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = null;
                 var2 = var15 == var17;
                 var1 = null;
-                if(var2) { _fun0002_ip = 525; continue _fun0002 }
+                if(var2) { _fun0002_ip = 523; continue _fun0002 }
  111:
                 var4 = _closure1_slot5;
                 var3 = _closure1_slot0;
@@ -158,7 +158,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var17.emojiName;
                 var10 = var15 != var9;
  203:
-                if(!var10) { _fun0002_ip = 310; continue _fun0002 }
+                if(!var10) { _fun0002_ip = 308; continue _fun0002 }
  206:
                 var12 = _closure1_slot5;
                 var18 = _closure1_slot1;
@@ -180,13 +180,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var16 = var17.emojiName;
                 var18 = var15 != var16;
                 var15 = '';
-                if(!var18) { _fun0002_ip = 300; continue _fun0002 }
- 297:
+                if(!var18) { _fun0002_ip = 298; continue _fun0002 }
+ 295:
                 var15 = var16;
- 300:
+ 298:
                 var9['name'] = var15;
                 var10 = var12.bind(var5)(var11, var9);
- 310:
+ 308:
                 var9 = new Array(2);
                 var9[0] = var10;
                 var12 = _closure1_slot6;
@@ -235,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var8.bind(var5)(var7, var6);
                 var2['children'] = var6;
                 var1 = var4.bind(var5)(var3, var2);
- 525:
+ 523:
                 return var1;
             }
         };

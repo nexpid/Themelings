@@ -28,11 +28,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var4)(var2);
             var2 = !var2;
             var _closure2_slot0 = var2;
- 70: // try_end0
-            _fun0001_ip = 74; continue _fun0001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun0001_ip = 76; continue _fun0001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             var2 = function _isNativeReflectConstruct() {
                 var1 = _closure2_slot0;
                 var1 = !var1;
@@ -235,14 +235,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var6;
                 var7 = var3;
                 var4 = var2;
-                if(!(var5 != var11)) { _fun0002_ip = 335; continue _fun0002 }
- 183:
+                if(!(var5 != var11)) { _fun0002_ip = 339; continue _fun0002 }
+ 187:
                 var10 = 0;
                 var8 = var6;
                 var7 = var3;
                 var4 = var2;
-                if(!(var11 > var10)) { _fun0002_ip = 335; continue _fun0002 }
- 201:
+                if(!(var11 > var10)) { _fun0002_ip = 339; continue _fun0002 }
+ 205:
                 var9 = global;
                 var6 = var9.Math;
                 var3 = var6.max;
@@ -270,28 +270,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var10.floor;
                 var6 = var11 % var6;
                 var8 = var9.bind(var10)(var6);
- 335:
+ 339:
                 var2 = {};
                 var9 = var5 != var8;
                 var6 = 0;
-                if(!var9) { _fun0002_ip = 349; continue _fun0002 }
- 346:
+                if(!var9) { _fun0002_ip = 353; continue _fun0002 }
+ 350:
                 var6 = var8;
- 349:
+ 353:
                 var2['seconds'] = var6;
                 var8 = var5 != var7;
                 var6 = 0;
-                if(!var8) { _fun0002_ip = 366; continue _fun0002 }
- 363:
+                if(!var8) { _fun0002_ip = 370; continue _fun0002 }
+ 367:
                 var6 = var7;
- 366:
+ 370:
                 var2['minutes'] = var6;
                 var5 = var5 != var4;
                 var3 = 0;
-                if(!var5) { _fun0002_ip = 383; continue _fun0002 }
- 380:
+                if(!var5) { _fun0002_ip = 387; continue _fun0002 }
+ 384:
                 var3 = var4;
- 383:
+ 387:
                 var2['hours'] = var3;
                 var1['state'] = var2;
                 return var1;

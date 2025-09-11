@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(25);
+        var1 = new Array(26);
         var1[0] = var5;
         var5 = {};
         var7 = 'getVisibleGame';
@@ -348,12 +348,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var7 = 'addExecutableTrackedByAnalytics';
         var5['key'] = var7;
-        var6 = function value() {
+        var7 = function value() {
             var1 = undefined;
             return var1;
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[24] = var5;
+        var5 = {};
+        var7 = 'isInputServiceInitialized';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = false;
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[25] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

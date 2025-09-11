@@ -61,11 +61,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.MessagePotionTypes;
                     var1 = var1.CONFETTI;
                     var1 = var2 === var1;
-                    if(!var1) { _fun0002_ip = 91; continue _fun0002 }
+                    if(!var1) { _fun0002_ip = 90; continue _fun0002 }
  52:
                     var2 = _closure2_slot0;
                     var2 = !var2;
-                    if(var2) { _fun0002_ip = 88; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 87; continue _fun0002 }
  65:
                     var4 = var3.emoji;
                     var3 = 0;
@@ -73,9 +73,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var3.id;
                     var3 = null;
                     var2 = var3 != var4;
- 88:
+ 87:
                     var1 = var2;
- 91:
+ 90:
                     return var1;
                 }
             };

@@ -67,8 +67,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = undefined;
             var3 = var1.bind(var4)();
             var1 = _closure1_slot18;
-            var1 = var3 === var1;
-            if(var1) { _fun0002_ip = 59; continue _fun0002 }
+            var1 = var3 !== var1;
+            if(!var1) { _fun0002_ip = 59; continue _fun0002 }
  24:
             _closure1_slot18 = var3;
             var5 = _closure1_slot1;
@@ -274,9 +274,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'theme';
         var5['key'] = var7;
         var7 = function get() {
-            var2 = _closure1_slot20;
-            var1 = undefined;
-            var1 = var2.bind(var1)();
+            var1 = _closure1_slot18;
             return var1;
         };
         var5['get'] = var7;

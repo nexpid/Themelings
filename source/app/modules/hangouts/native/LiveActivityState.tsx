@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.id;
             var6 = var3.bind(var6)(var8, var2);
             var3 = null;
-            if(!(var3 != var6)) { _fun0003_ip = 223; continue _fun0003 }
+            if(!(var3 != var6)) { _fun0003_ip = 224; continue _fun0003 }
  45:
             var7 = _closure1_slot3;
             var2 = var7.getEmbeddedActivitiesForChannel;
@@ -159,49 +159,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.bind(var8)(var5, var4);
             var5 = var3 == var4;
             var7 = undefined;
-            if(var5) { _fun0003_ip = 119; continue _fun0003 }
- 114:
+            if(var5) { _fun0003_ip = 120; continue _fun0003 }
+ 115:
             var7 = var4.type;
- 119:
+ 120:
             var1 = _closure1_slot14;
             var5 = var1.LISTENING;
             var4 = var6.selfStream;
             var1 = 'screenshare';
-            if(var4) { _fun0003_ip = 221; continue _fun0003 }
- 142:
+            if(var4) { _fun0003_ip = 222; continue _fun0003 }
+ 143:
             var3 = var3 != var2;
             var2 = 'activity';
-            if(var3) { _fun0003_ip = 218; continue _fun0003 }
- 153:
+            if(var3) { _fun0003_ip = 219; continue _fun0003 }
+ 154:
             var4 = var6.selfVideo;
             var3 = 'video';
-            if(var4) { _fun0003_ip = 215; continue _fun0003 }
- 166:
+            if(var4) { _fun0003_ip = 216; continue _fun0003 }
+ 167:
             var4 = 'music';
-            if(!(var7 !== var5)) { _fun0003_ip = 212; continue _fun0003 }
- 176:
+            if(!(var7 !== var5)) { _fun0003_ip = 213; continue _fun0003 }
+ 177:
             var7 = var6.selfDeaf;
             var5 = 'deafened';
-            if(var7) { _fun0003_ip = 209; continue _fun0003 }
- 189:
+            if(var7) { _fun0003_ip = 210; continue _fun0003 }
+ 190:
             var7 = var6.selfMute;
             var6 = 'default';
-            if(!var7) { _fun0003_ip = 206; continue _fun0003 }
- 202:
+            if(!var7) { _fun0003_ip = 207; continue _fun0003 }
+ 203:
             var6 = 'muted';
- 206:
+ 207:
             var5 = var6;
- 209:
+ 210:
             var4 = var5;
- 212:
+ 213:
             var3 = var4;
- 215:
+ 216:
             var2 = var3;
- 218:
+ 219:
             var1 = var2;
- 221:
+ 222:
             return var1;
- 223:
+ 224:
             var1 = 'default';
             return var1;
         }

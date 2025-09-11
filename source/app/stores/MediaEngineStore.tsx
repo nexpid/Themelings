@@ -3250,8 +3250,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg2;
             var2 = var6[var1];
             var3 = null;
-            if(!(var3 == var2)) { _fun0033_ip = 65; continue _fun0033 }
+            if(!(var3 == var2)) { _fun0033_ip = 27; continue _fun0033 }
  16:
+            var4 = _closure1_slot49;
+            var2 = var6[var4];
+ 27:
+            if(!(var3 == var2)) { _fun0033_ip = 80; continue _fun0033 }
+ 31:
             var7 = _closure1_slot1;
             var5 = _closure1_slot3;
             var4 = 35;
@@ -3263,11 +3268,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.bind(var5)();
             var4 = var5.first;
             var2 = var4.bind(var5)();
- 65:
-            if(!(var3 != var2)) { _fun0033_ip = 74; continue _fun0033 }
- 69:
+ 80:
+            if(!(var3 != var2)) { _fun0033_ip = 89; continue _fun0033 }
+ 84:
             var1 = var2.id;
- 74:
+ 89:
             return var1;
         }
     };
@@ -4589,7 +4594,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = {};
     var19[var22] = var9;
     var24 = var20.VOICE_ISOLATION;
-    var22 = {'modeOptions': null, 'echoCancellation': true, 'noiseSuppression': false, 'automaticGainControl': true, 'noiseCancellation': true, 'bypassSystemInputProcessing': false};
+    var22 = {'modeOptions': null, 'echoCancellation': true, 'noiseSuppression': false, 'automaticGainControl': true, 'noiseCancellation': true, 'bypassSystemInputProcessing': true};
     var9 = {'autoThreshold': true, 'vadUseKrisp': true};
     var22['modeOptions'] = var9;
     var9 = false;
@@ -7674,14 +7679,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.isVoiceFiltersEnabled;
             var3 = {'location': 'MediaEngineStore', 'autoTrackExposure': false};
             var3 = var5.bind(var6)(var3);
-            if(!var3) { _fun0105_ip = 382; continue _fun0105 }
- 370:
+            if(!var3) { _fun0105_ip = 378; continue _fun0105 }
+ 366:
             var5 = var4.mostRecentlyRequestedVoiceFilter;
             var4 = null;
             var3 = var4 !== var5;
- 382:
-            if(!var3) { _fun0105_ip = 415; continue _fun0105 }
- 385:
+ 378:
+            if(!var3) { _fun0105_ip = 411; continue _fun0105 }
+ 381:
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
             var4 = 29;
@@ -7689,14 +7694,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var4);
             var4 = var5.isDesktop;
             var3 = var4.bind(var5)();
- 415:
-            if(!var3) { _fun0105_ip = 550; continue _fun0105 }
- 421:
+ 411:
+            if(!var3) { _fun0105_ip = 546; continue _fun0105 }
+ 417:
             var4 = _closure1_slot15;
             var3 = var4.getLastInitAttemptMayHaveCrashed;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0105_ip = 472; continue _fun0105 }
- 440:
+            if(var3) { _fun0105_ip = 468; continue _fun0105 }
+ 436:
             var4 = _closure1_slot0;
             var5 = _closure1_slot3;
             var3 = 65;
@@ -7704,8 +7709,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.maybeSetupVoiceFiltersNativeModule;
             var3 = var3.bind(var4)();
-            _fun0105_ip = 550; continue _fun0105;
- 472:
+            _fun0105_ip = 546; continue _fun0105;
+ 468:
             var4 = _closure1_slot1;
             var5 = _closure1_slot3;
             var3 = 52;
@@ -7722,7 +7727,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var3['mostRecentlyRequestedVoiceFilter'] = var5;
             var3 = var4.bind(var1)(var3);
- 550:
+ 546:
             var2 = _closure1_slot151;
             var2 = var2.bind(var1)();
             return var1;
@@ -8586,6 +8591,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['activeInputProfile'] = var1;
         var1 = undefined;
         var3 = var5.bind(var1)(var3);
+        var3 = _closure1_slot126;
+        var3 = var3.bind(var1)();
         var _closure2_slot0 = var3;
         var6 = _closure1_slot67;
         var5 = var6.eachConnection;

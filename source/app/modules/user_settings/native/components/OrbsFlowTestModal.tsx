@@ -36,14 +36,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = _closure1_slot4;
         var5 = var7.useCallback;
         var3 = function() {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
+            var4 = _closure1_slot1;
+            var3 = _closure1_slot2;
             var1 = 11;
-            var2 = var2[var1];
+            var3 = var3[var1];
             var1 = undefined;
-            var6 = var3.bind(var1)(var2);
+            var6 = var4.bind(var1)(var3);
             var5 = var6.openLazy;
-            var4 = function() {
+            var4 = {};
+            var3 = function markAsDismissed() {
+                var1 = undefined;
+                return var1;
+            };
+            var4['markAsDismissed'] = var3;
+            var3 = function() {
                 var3 = _closure1_slot0;
                 var1 = _closure1_slot2;
                 var2 = 13;
@@ -63,9 +69,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var3 = 'OrbsAnnouncementActionSheet';
-            var2 = {};
-            var2 = var5.bind(var6)(var4, var3, var2);
+            var2 = 'OrbsAnnouncementActionSheet';
+            var2 = var5.bind(var6)(var3, var2, var4);
             return var1;
         };
         var2 = new Array(0);

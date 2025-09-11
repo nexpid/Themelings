@@ -797,34 +797,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['showReportModalForInappropriateConversationSafetyAlert'] = var4;
     var4 = function showReportModalForWidget(arg1, arg2, arg3, arg4) {
-        var2 = arg2;
-        var7 = _closure1_slot0;
-        var8 = _closure1_slot2;
-        var1 = 6;
-        var3 = var8[var1];
-        var1 = undefined;
-        var6 = var7.bind(var1)(var3);
-        var5 = var6.showReportModal;
-        var4 = {};
-        var3 = 5;
-        var3 = var8[var3];
-        var3 = var7.bind(var1)(var3);
-        var3 = var3.ReportNames;
-        var3 = var3.WIDGET;
-        var4['name'] = var3;
-        var3 = var2.id;
-        var4['widget_id'] = var3;
-        var3 = arg1;
-        var4['user_id'] = var3;
-        var4['widget'] = var2;
-        var3 = {};
-        var2 = arg3;
-        var3['onSubmit'] = var2;
-        var2 = arg4;
-        var3['appContext'] = var2;
-        var2 = {};
-        var2 = var5.bind(var6)(var4, var2, var3);
-        return var1;
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+ 0:
+            var2 = arg2;
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var1 = 6;
+            var3 = var8[var1];
+            var1 = undefined;
+            var6 = var7.bind(var1)(var3);
+            var5 = var6.showReportModal;
+            var4 = {};
+            var3 = 5;
+            var3 = var8[var3];
+            var3 = var7.bind(var1)(var3);
+            var3 = var3.ReportNames;
+            var3 = var3.WIDGET;
+            var4['name'] = var3;
+            var7 = var2.id;
+            var3 = null;
+            var8 = var3 != var7;
+            var3 = '';
+            if(!var8) { _fun0005_ip = 85; continue _fun0005 }
+ 82:
+            var3 = var7;
+ 85:
+            var4['widget_id'] = var3;
+            var3 = arg1;
+            var4['user_id'] = var3;
+            var4['widget'] = var2;
+            var3 = {};
+            var2 = arg3;
+            var3['onSubmit'] = var2;
+            var2 = arg4;
+            var3['appContext'] = var2;
+            var2 = {};
+            var2 = var5.bind(var6)(var4, var2, var3);
+            return var1;
+        }
     };
     var3['showReportModalForWidget'] = var4;
     var4 = function showReportModalForApp(arg1) {

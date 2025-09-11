@@ -58,23 +58,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.ensure;
             var1 = var1.bind(var3)(var8, var7, var6);
             var3 = 'MESSAGE_REACTION_ADD';
-            if(!(var3 !== var5)) { _fun0002_ip = 76; continue _fun0002 }
- 58:
+            if(!(var3 !== var5)) { _fun0002_ip = 75; continue _fun0002 }
+ 57:
             var5 = var1.users;
             var3 = var5.delete;
             var3 = var3.bind(var5)(var4);
-            _fun0002_ip = 114; continue _fun0002;
- 76:
+            _fun0002_ip = 113; continue _fun0002;
+ 75:
             var3 = _closure1_slot10;
             var2 = var3.getUser;
             var3 = var2.bind(var3)(var4);
             var2 = null;
-            if(!(var2 != var3)) { _fun0002_ip = 114; continue _fun0002 }
- 97:
+            if(!(var2 != var3)) { _fun0002_ip = 113; continue _fun0002 }
+ 96:
             var2 = var1.users;
             var1 = var2.set;
             var1 = var1.bind(var2)(var4, var3);
- 114:
+ 113:
             var1 = undefined;
             return var1;
         }
@@ -262,7 +262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.ensure;
                 var1 = var1.bind(var3)(var7, var6, var5);
                 var3 = var1.fetched;
-                if(var3) { _fun0005_ip = 174; continue _fun0005 }
+                if(var3) { _fun0005_ip = 173; continue _fun0005 }
  44:
                 var4 = _closure1_slot9;
                 var3 = var4.getChannel;
@@ -280,7 +280,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = _closure1_slot7;
                 var3 = var4.isLurking;
                 var3 = var3.bind(var4)(var9);
-                if(var3) { _fun0005_ip = 170; continue _fun0005 }
+                if(var3) { _fun0005_ip = 169; continue _fun0005 }
  101:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot1;
@@ -299,11 +299,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 var2 = true;
                 var1['fetched'] = var2;
-                _fun0005_ip = 174; continue _fun0005;
- 170:
+                _fun0005_ip = 173; continue _fun0005;
+ 169:
                 var2 = undefined;
                 return var2;
- 174:
+ 173:
                 var1 = var1.users;
                 return var1;
             }

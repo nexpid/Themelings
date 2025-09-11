@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var10[var4];
     var12 = var9.bind(var1)(var4);
     var11 = var12.createExperiment;
-    var4 = {'kind': 'user', 'id': '2025-08-emoji_studio_speedrun', 'label': 'Emoji Studio V2 Speedrun'};
+    var4 = {'kind': 'user', 'id': '2025-08_emoji_studio_speedrun', 'label': 'Emoji Studio V2 Speedrun'};
     var13 = {'isEmojiEditingExperimentEnabled': false, 'isSelectFileBeforeEmojiStudioExperimentEnabled': false};
     var4['defaultConfig'] = var13;
     var14 = {'id': 1, 'label': 'Emoji Editing'};

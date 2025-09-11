@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var1);
             var1 = {};
             var4 = false;
-            var1['includeCustomKeyboardHeightAndroid'] = var4;
+            var1['includeCustomKeyboardHeight'] = var4;
             var1 = var3.bind(var5)(var1);
             var8 = var1.insets;
             var4 = var8.bottom;

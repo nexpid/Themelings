@@ -279,8 +279,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var6.emoji;
                     var1 = null;
                     var2 = var1 != var2;
-                    if(!var2) { _fun0004_ip = 126; continue _fun0004 }
- 18:
+                    if(!var2) { _fun0004_ip = 123; continue _fun0004 }
+ 17:
                     var5 = _closure1_slot5;
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
@@ -303,7 +303,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.fastImageEmoji;
                     var2['fastImageStyle'] = var6;
                     var1 = var5.bind(var4)(var3, var2);
- 126:
+ 123:
                     return var1;
                 }
             };
@@ -399,10 +399,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var5.emoji;
                     var8 = null;
                     var8 = var8 == var7;
-                    if(var8) { _fun0006_ip = 82; continue _fun0006 }
- 77:
+                    if(var8) { _fun0006_ip = 81; continue _fun0006 }
+ 76:
                     var6 = var7.name;
- 82:
+ 81:
                     var1['emojiName'] = var6;
                     var6 = var5.label;
                     var1['optionName'] = var6;

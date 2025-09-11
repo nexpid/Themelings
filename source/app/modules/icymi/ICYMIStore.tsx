@@ -2054,8 +2054,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot39;
             var3 = var1[var3];
             var1 = null;
-            if(!(var1 != var3)) { _fun0026_ip = 183; continue _fun0026 }
- 50:
+            if(!(var1 != var3)) { _fun0026_ip = 182; continue _fun0026 }
+ 49:
             var10 = var3.type;
             var11 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -2065,20 +2065,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var11.bind(var1)(var7);
             var7 = var7.ICYMIItemTypes;
             var7 = var7.MESSAGE;
-            if(!(var10 === var7)) { _fun0026_ip = 179; continue _fun0026 }
- 93:
+            if(!(var10 === var7)) { _fun0026_ip = 178; continue _fun0026 }
+ 92:
             var7 = _closure1_slot16;
             var2 = var7.getId;
             var2 = var2.bind(var7)();
             var7 = var2 === var6;
             var2 = 'MESSAGE_REACTION_ADD';
-            if(!(var2 !== var5)) { _fun0026_ip = 139; continue _fun0026 }
- 119:
+            if(!(var2 !== var5)) { _fun0026_ip = 138; continue _fun0026 }
+ 118:
             var5 = var3.message;
             var2 = var5.removeReaction;
             var2 = var2.bind(var5)(var9, var7, var8);
-            _fun0026_ip = 171; continue _fun0026;
- 139:
+            _fun0026_ip = 170; continue _fun0026;
+ 138:
             var6 = var3.message;
             var5 = var6.addReaction;
             var13 = var4.colors;
@@ -2087,13 +2087,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var7;
             var12 = var8;
             var2 = var16[var5](var15, var14, var13, var12, var11);
- 171:
+ 170:
             var3['message'] = var2;
             return var1;
- 179:
+ 178:
             var1 = false;
             return var1;
- 183:
+ 182:
             var1 = false;
             return var1;
         }
@@ -4069,8 +4069,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1[var3];
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0053_ip = 107; continue _fun0053 }
- 34:
+            if(!var1) { _fun0053_ip = 106; continue _fun0053 }
+ 33:
             var3 = var4.type;
             var7 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -4081,16 +4081,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ICYMIItemTypes;
             var2 = var2.MESSAGE;
             var2 = var3 === var2;
-            if(!var2) { _fun0053_ip = 104; continue _fun0053 }
- 80:
+            if(!var2) { _fun0053_ip = 103; continue _fun0053 }
+ 79:
             var5 = var4.message;
             var3 = var5.removeReactionsForEmoji;
             var3 = var3.bind(var5)(var6);
             var4['message'] = var3;
             var2 = undefined;
- 104:
+ 103:
             var1 = var2;
- 107:
+ 106:
             return var1;
         }
     };

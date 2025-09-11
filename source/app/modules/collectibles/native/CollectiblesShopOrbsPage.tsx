@@ -101,6 +101,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = _closure1_slot4;
                     var5 = var5.ORBS;
                     var1['screen'] = var5;
+                    var5 = true;
+                    var1['preferVCPrice'] = var5;
                     var1 = var4.bind(var3)(var2, var1);
                     return var1;
                 }

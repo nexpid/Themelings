@@ -239,7 +239,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = var1.getLabel;
                     var2 = _closure2_slot0;
                     var1 = null;
-                    if(!(var1 == var2)) { _fun0002_ip = 193; continue _fun0002 }
+                    if(!(var1 == var2)) { _fun0002_ip = 192; continue _fun0002 }
  54:
                     var4 = _closure1_slot7;
                     var2 = _closure1_slot0;
@@ -273,16 +273,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.emoji;
                     var5['style'] = var8;
                     var8 = var12;
-                    if(!var10) { _fun0002_ip = 167; continue _fun0002 }
- 164:
+                    if(!var10) { _fun0002_ip = 166; continue _fun0002 }
+ 163:
                     var8 = var13;
- 167:
+ 166:
                     var5['source'] = var8;
                     var5 = var4.bind(var3)(var7, var5);
                     var1['children'] = var5;
                     var1 = var4.bind(var3)(var2, var1, var6);
-                    _fun0002_ip = 366; continue _fun0002;
- 193:
+                    _fun0002_ip = 364; continue _fun0002;
+ 192:
                     var5 = _closure1_slot7;
                     var4 = _closure1_slot3;
                     var3 = {};
@@ -319,10 +319,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var15 = _closure2_slot3;
                     var15 = var15.emoji;
                     var10['style'] = var15;
-                    if(!var14) { _fun0002_ip = 323; continue _fun0002 }
- 320:
+                    if(!var14) { _fun0002_ip = 321; continue _fun0002 }
+ 318:
                     var12 = var13;
- 323:
+ 321:
                     var10['source'] = var12;
                     var10 = var5.bind(var2)(var11, var10);
                     var7['icon'] = var10;
@@ -332,7 +332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var5.bind(var2)(var8, var7);
                     var3['children'] = var7;
                     var1 = var5.bind(var2)(var4, var3, var6);
- 366:
+ 364:
                     return var1;
                 }
             };

@@ -110,24 +110,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var4.bind(var3)(var1);
                     var1 = var1.EmojiTypes;
                     var1 = var1.GUILD;
-                    if(!(var2 !== var1)) { _fun0002_ip = 108; continue _fun0002 }
+                    if(!(var2 !== var1)) { _fun0002_ip = 104; continue _fun0002 }
  92:
                     var1 = {'emoji': null, 'joinedEmojiSourceGuildRecord': null};
-                    _fun0002_ip = 147; continue _fun0002;
- 108:
+                    _fun0002_ip = 142; continue _fun0002;
+ 104:
                     var2 = {};
                     var2['emoji'] = var6;
                     var4 = var5.getGuild;
                     var7 = var7 == var6;
                     var3 = undefined;
-                    if(var7) { _fun0002_ip = 134; continue _fun0002 }
- 129:
+                    if(var7) { _fun0002_ip = 129; continue _fun0002 }
+ 124:
                     var3 = var6.guildId;
- 134:
+ 129:
                     var3 = var4.bind(var5)(var3);
                     var2['joinedEmojiSourceGuildRecord'] = var3;
                     var1 = var2;
- 147:
+ 142:
                     return var1;
                 }
             };
@@ -137,23 +137,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = null;
             var4 = var18 != var5;
             var2 = var18 != var5;
-            if(!var2) { _fun0001_ip = 166; continue _fun0001 }
- 140:
+            if(!var2) { _fun0001_ip = 165; continue _fun0001 }
+ 139:
             var8 = var5.features;
             var7 = var8.has;
             var6 = _closure1_slot10;
             var6 = var6.DISCOVERABLE;
             var2 = var7.bind(var8)(var6);
- 166:
+ 165:
             var11 = !var4;
-            if(!var4) { _fun0001_ip = 175; continue _fun0001 }
- 172:
+            if(!var4) { _fun0001_ip = 174; continue _fun0001 }
+ 171:
             var11 = var2;
- 175:
-            if(!var11) { _fun0001_ip = 182; continue _fun0001 }
- 178:
+ 174:
+            if(!var11) { _fun0001_ip = 181; continue _fun0001 }
+ 177:
             var11 = var18 != var13;
- 182:
+ 181:
             _closure2_slot2 = var11;
             var12 = _closure1_slot4;
             var2 = var12.useState;
@@ -175,12 +175,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var18 != var5;
             var12 = var11;
             var15 = null;
-            if(!var8) { _fun0001_ip = 285; continue _fun0001 }
- 270:
+            if(!var8) { _fun0001_ip = 284; continue _fun0001 }
+ 269:
             var11 = _closure1_slot7;
             var8 = var11.createFromGuildRecord;
             var15 = var8.bind(var11)(var5);
- 285:
+ 284:
             var11 = _closure1_slot4;
             var8 = var11.useState;
             var8 = var8.bind(var11)(var15);

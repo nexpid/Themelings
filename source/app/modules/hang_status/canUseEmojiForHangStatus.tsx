@@ -36,14 +36,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var3 = var2.id;
             var1 = null;
-            if(!(var1 != var3)) { _fun0001_ip = 111; continue _fun0001 }
+            if(!(var1 != var3)) { _fun0001_ip = 110; continue _fun0001 }
  14:
             var4 = _closure1_slot2;
             var3 = var4.getCustomEmojiById;
             var2 = var2.id;
             var6 = var3.bind(var4)(var2);
             var1 = var1 != var6;
-            if(!var1) { _fun0001_ip = 109; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 108; continue _fun0001 }
  44:
             var4 = _closure1_slot0;
             var3 = _closure1_slot1;
@@ -61,9 +61,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['intention'] = var5;
             var2 = var3.bind(var4)(var2);
             var1 = !var2;
- 109:
+ 108:
             return var1;
- 111:
+ 110:
             var1 = true;
             return var1;
         }

@@ -151,49 +151,49 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var1 == var3;
                     var6 = undefined;
                     var3 = undefined;
-                    if(var4) { _fun0002_ip = 35; continue _fun0002 }
+                    if(var4) { _fun0002_ip = 34; continue _fun0002 }
  20:
                     var4 = _closure2_slot5;
                     var4 = var4.emoji;
                     var3 = var4.name;
- 35:
-                    if(!(var1 != var3)) { _fun0002_ip = 363; continue _fun0002 }
- 42:
+ 34:
+                    if(!(var1 != var3)) { _fun0002_ip = 355; continue _fun0002 }
+ 41:
                     var3 = _closure2_slot5;
                     var4 = var1 == var3;
                     var3 = undefined;
-                    if(var4) { _fun0002_ip = 70; continue _fun0002 }
- 55:
+                    if(var4) { _fun0002_ip = 68; continue _fun0002 }
+ 54:
                     var4 = _closure2_slot5;
                     var4 = var4.emoji;
                     var3 = var4.name;
- 70:
-                    if(!(var1 != var3)) { _fun0002_ip = 109; continue _fun0002 }
- 74:
+ 68:
+                    if(!(var1 != var3)) { _fun0002_ip = 106; continue _fun0002 }
+ 72:
                     var3 = _closure2_slot5;
                     var4 = var1 == var3;
                     var3 = undefined;
-                    if(var4) { _fun0002_ip = 102; continue _fun0002 }
- 87:
+                    if(var4) { _fun0002_ip = 99; continue _fun0002 }
+ 85:
                     var4 = _closure2_slot5;
                     var4 = var4.emoji;
                     var3 = var4.id;
- 102:
-                    if(!(var1 != var3)) { _fun0002_ip = 346; continue _fun0002 }
- 109:
+ 99:
+                    if(!(var1 != var3)) { _fun0002_ip = 339; continue _fun0002 }
+ 106:
                     var3 = _closure2_slot5;
                     var4 = var1 == var3;
                     var3 = undefined;
-                    if(var4) { _fun0002_ip = 137; continue _fun0002 }
- 122:
+                    if(var4) { _fun0002_ip = 133; continue _fun0002 }
+ 119:
                     var4 = _closure2_slot5;
                     var4 = var4.emoji;
                     var3 = var4.id;
- 137:
+ 133:
                     var3 = var1 != var3;
                     var7 = undefined;
-                    if(!var3) { _fun0002_ip = 259; continue _fun0002 }
- 146:
+                    if(!var3) { _fun0002_ip = 253; continue _fun0002 }
+ 142:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var3 = 12;
@@ -206,12 +206,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var9.id;
                     var3['id'] = var9;
                     var9 = _closure2_slot1;
-                    if(!var9) { _fun0002_ip = 219; continue _fun0002 }
- 203:
+                    if(!var9) { _fun0002_ip = 213; continue _fun0002 }
+ 198:
                     var10 = _closure2_slot5;
                     var10 = var10.emoji;
                     var9 = var10.animated;
- 219:
+ 213:
                     var3['animated'] = var9;
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot2;
@@ -221,7 +221,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var8.DEFAULT_EMOJI_SIZE;
                     var3['size'] = var8;
                     var7 = var4.bind(var5)(var3);
- 259:
+ 253:
                     var5 = _closure1_slot11;
                     var4 = _closure1_slot1;
                     var8 = _closure1_slot2;
@@ -241,12 +241,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['name'] = var7;
                     var3 = var5.bind(var6)(var4, var3);
                     return var3;
- 346:
+ 339:
                     var2 = _closure2_slot5;
                     var2 = var2.emoji;
                     var2 = var2.name;
                     return var2;
- 363:
+ 355:
                     return var1;
                 }
             };

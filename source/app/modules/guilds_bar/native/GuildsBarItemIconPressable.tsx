@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var16 = var6[var11];
     var16 = var12.bind(var1)(var16);
     var16 = var16.colors;
-    var16 = var16.BACKGROUND_ACCENT;
+    var16 = var16.BG_MOD_STRONG;
     var10['backgroundColor'] = var16;
     var4['iconBackground'] = var10;
     var10 = {};

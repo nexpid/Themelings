@@ -197,35 +197,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = '';
             var5 = 'number';
             var4 = var3;
-            if(var2) { _fun0004_ip = 131; continue _fun0004 }
+            if(var2) { _fun0004_ip = 128; continue _fun0004 }
  45:
             var2 = var4.value;
             var3 = var2.emoji;
             var3 = var3.id;
             var3 = typeof var3;
-            if(!(var5 !== var3)) { _fun0004_ip = 81; continue _fun0004 }
- 68:
+            if(!(var5 !== var3)) { _fun0004_ip = 79; continue _fun0004 }
+ 67:
             var3 = var2.emoji;
             var3 = var3.id;
-            _fun0004_ip = 108; continue _fun0004;
- 81:
+            _fun0004_ip = 105; continue _fun0004;
+ 79:
             var10 = var2.emoji;
             var11 = var10.id;
             var10 = var7.HermesInternal;
             var10 = var10.concat;
             var3 = var10.bind(var6)(var11);
- 108:
-            if(!(var3 !== var9)) { _fun0004_ip = 129; continue _fun0004 }
- 112:
+ 105:
+            if(!(var3 !== var9)) { _fun0004_ip = 126; continue _fun0004 }
+ 109:
             var10 = var8.bind(var1)();
             var3 = var10.done;
             var4 = var10;
-            if(var3) { _fun0004_ip = 131; continue _fun0004 }
- 127:
+            if(var3) { _fun0004_ip = 128; continue _fun0004 }
+ 124:
             _fun0004_ip = 45; continue _fun0004;
- 129:
+ 126:
             return var2;
- 131:
+ 128:
             return var1;
         }
     };
@@ -1026,19 +1026,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['pollMedia'] = var13;
                     var1['isSelected'] = var11;
                     var11 = _closure2_slot7;
-                    if(!var11) { _fun0010_ip = 634; continue _fun0010 }
- 631:
+                    if(!var11) { _fun0010_ip = 632; continue _fun0010 }
+ 629:
                     var11 = var12;
- 634:
+ 632:
                     var1['isVictor'] = var11;
                     var1['didSelfVote'] = var9;
                     var1['style'] = var8;
                     var8 = _closure2_slot10;
-                    if(!var8) { _fun0010_ip = 664; continue _fun0010 }
- 657:
+                    if(!var8) { _fun0010_ip = 662; continue _fun0010 }
+ 655:
                     var9 = _closure2_slot1;
                     var8 = !var9;
- 664:
+ 662:
                     var1['shouldAnimateTransition'] = var8;
                     var9 = var4.Math;
                     var8 = var9.round;

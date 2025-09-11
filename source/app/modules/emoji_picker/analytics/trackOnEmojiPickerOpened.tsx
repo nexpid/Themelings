@@ -31,111 +31,75 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var17.getGuildId;
             var4 = var2.bind(var17)();
  89:
-            var3 = _closure1_slot1;
-            var14 = _closure1_slot2;
-            var2 = 7;
-            var2 = var14[var2];
-            var12 = var3.bind(var1)(var2);
-            var5 = var12.getCurrentConfig;
-            var3 = {};
-            var15 = 'trackOnEmojiPickerOpened';
-            var3['location'] = var15;
-            var2 = {};
-            var18 = true;
-            var2['autoTrackExposure'] = var18;
-            var2 = var5.bind(var12)(var3, var2);
-            var3 = var2.canSplitFrecencyList;
-            var12 = _closure1_slot0;
-            var5 = 8;
-            var2 = var14[var5];
-            var19 = var12.bind(var1)(var2);
-            var18 = var19.getCanUseReactionFrecency;
-            var2 = {'location': 'trackOnEmojiPickerOpened', 'autoTrackExposure': true};
-            var2 = var18.bind(var19)(var2);
-            var5 = var14[var5];
-            var5 = var12.bind(var1)(var5);
-            var14 = var5.RetriggerReactionFrecencyAlgorithmsExperiment;
-            var12 = var14.trackExposure;
-            var5 = {};
-            var5['location'] = var15;
-            var5 = var12.bind(var14)(var5);
-            if(var3) { _fun0001_ip = 227; continue _fun0001 }
- 224:
-            if(!var2) { _fun0001_ip = 241; continue _fun0001 }
- 227:
-            var5 = _closure1_slot8;
-            var5 = var5.REACTION;
-            if(!(var9 !== var5)) { _fun0001_ip = 268; continue _fun0001 }
- 241:
-            var5 = _closure1_slot4;
-            var5 = var5.emojiFrecencyWithoutFetchingLatest;
-            var12 = var5.frequently;
-            var5 = var12.slice;
-            var12 = var5.bind(var12)();
-            _fun0001_ip = 293; continue _fun0001;
- 268:
-            var5 = _closure1_slot4;
-            var5 = var5.emojiReactionFrecencyWithoutFetchingLatest;
-            var14 = var5.frequently;
-            var5 = var14.slice;
-            var12 = var5.bind(var14)();
- 293:
-            if(!(var6 == var17)) { _fun0001_ip = 303; continue _fun0001 }
- 297:
-            var22 = new Array(0);
-            _fun0001_ip = 334; continue _fun0001;
- 303:
-            var15 = _closure1_slot4;
-            var14 = var15.getDisambiguatedEmojiContext;
-            var5 = var17.getGuildId;
-            var5 = var5.bind(var17)();
-            var5 = var14.bind(var15)(var5);
-            var22 = var5.favoriteEmojisWithoutFetchingLatest;
- 334:
-            if(var3) { _fun0001_ip = 340; continue _fun0001 }
- 337:
-            if(!var2) { _fun0001_ip = 354; continue _fun0001 }
- 340:
             var2 = _closure1_slot8;
             var2 = var2.REACTION;
-            if(!(var9 !== var2)) { _fun0001_ip = 372; continue _fun0001 }
- 354:
+            if(!(var9 !== var2)) { _fun0001_ip = 130; continue _fun0001 }
+ 103:
+            var2 = _closure1_slot4;
+            var2 = var2.emojiFrecencyWithoutFetchingLatest;
+            var3 = var2.frequently;
+            var2 = var3.slice;
+            var12 = var2.bind(var3)();
+            _fun0001_ip = 155; continue _fun0001;
+ 130:
+            var2 = _closure1_slot4;
+            var2 = var2.emojiReactionFrecencyWithoutFetchingLatest;
+            var3 = var2.frequently;
+            var2 = var3.slice;
+            var12 = var2.bind(var3)();
+ 155:
+            if(!(var6 == var17)) { _fun0001_ip = 165; continue _fun0001 }
+ 159:
+            var22 = new Array(0);
+            _fun0001_ip = 196; continue _fun0001;
+ 165:
+            var5 = _closure1_slot4;
+            var3 = var5.getDisambiguatedEmojiContext;
+            var2 = var17.getGuildId;
+            var2 = var2.bind(var17)();
+            var2 = var3.bind(var5)(var2);
+            var22 = var2.favoriteEmojisWithoutFetchingLatest;
+ 196:
+            var2 = _closure1_slot8;
+            var2 = var2.REACTION;
+            if(!(var9 !== var2)) { _fun0001_ip = 228; continue _fun0001 }
+ 210:
             var2 = _closure1_slot4;
             var2 = var2.emojiFrecencyWithoutFetchingLatest;
             var3 = var2.numFrequentlyItems;
-            _fun0001_ip = 388; continue _fun0001;
- 372:
+            _fun0001_ip = 244; continue _fun0001;
+ 228:
             var2 = _closure1_slot4;
             var2 = var2.emojiReactionFrecencyWithoutFetchingLatest;
             var3 = var2.numFrequentlyItems;
- 388:
+ 244:
             var2 = var12.slice;
             var5 = 0;
             var18 = var2.bind(var12)(var5, var3);
-            if(!(var6 == var4)) { _fun0001_ip = 411; continue _fun0001 }
- 405:
+            if(!(var6 == var4)) { _fun0001_ip = 267; continue _fun0001 }
+ 261:
             var14 = new Array(0);
-            _fun0001_ip = 426; continue _fun0001;
- 411:
+            _fun0001_ip = 282; continue _fun0001;
+ 267:
             var3 = _closure1_slot4;
             var2 = var3.getGuildEmoji;
             var14 = var2.bind(var3)(var4);
- 426:
+ 282:
             var4 = _closure1_slot4;
             var3 = var4.getDisambiguatedEmojiContext;
             var12 = var6 == var17;
             var2 = undefined;
-            if(var12) { _fun0001_ip = 455; continue _fun0001 }
- 445:
+            if(var12) { _fun0001_ip = 311; continue _fun0001 }
+ 301:
             var12 = var17.getGuildId;
             var2 = var12.bind(var17)();
- 455:
+ 311:
             var2 = var3.bind(var4)(var2);
             var4 = var2.groupedCustomEmojis;
-            if(!(var6 == var4)) { _fun0001_ip = 472; continue _fun0001 }
- 470:
+            if(!(var6 == var4)) { _fun0001_ip = 328; continue _fun0001 }
+ 326:
             var4 = {};
- 472:
+ 328:
             var2 = global;
             var3 = var2.Object;
             var2 = var3.values;
@@ -151,18 +115,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var3.bind(var4)(var2, var5);
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 9;
+            var2 = 7;
             var2 = var4[var2];
             var4 = var3.bind(var1)(var2);
             var3 = var4.getTopAndNewlyAddedEmojis;
             var2 = {};
             var15 = var6 == var17;
             var5 = undefined;
-            if(var15) { _fun0001_ip = 556; continue _fun0001 }
- 546:
+            if(var15) { _fun0001_ip = 412; continue _fun0001 }
+ 402:
             var15 = var17.getGuildId;
             var5 = var15.bind(var17)();
- 556:
+ 412:
             var2['guildId'] = var5;
             var2['pickerIntention'] = var9;
             var2 = var3.bind(var4)(var2);
@@ -170,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var2.newlyAddedEmojis;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 10;
+            var2 = 8;
             var2 = var4[var2];
             var5 = var3.bind(var1)(var2);
             var3 = var5.getEmojiHotrail;
@@ -182,21 +146,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var2.visibleTopEmojis;
             var13 = var2.visibleNewlyAddedEmojis;
             var3 = _closure1_slot1;
-            var2 = 11;
+            var2 = 9;
             var2 = var4[var2];
             var5 = var3.bind(var1)(var2);
             var4 = var5.trackWithMetadata;
             var2 = _closure1_slot8;
             var2 = var2.REACTION;
-            if(!(var9 !== var2)) { _fun0001_ip = 690; continue _fun0001 }
- 678:
+            if(!(var9 !== var2)) { _fun0001_ip = 546; continue _fun0001 }
+ 534:
             var2 = _closure1_slot7;
             var3 = var2.EXPRESSION_PICKER_OPENED;
-            _fun0001_ip = 700; continue _fun0001;
- 690:
+            _fun0001_ip = 556; continue _fun0001;
+ 546:
             var2 = _closure1_slot7;
             var3 = var2.REACTION_PICKER_OPENED;
- 700:
+ 556:
             var2 = {};
             var2['width'] = var16;
             var16 = _closure1_slot9;
@@ -227,7 +191,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var22.filter;
             var19 = _closure1_slot1;
             var20 = _closure1_slot2;
-            var16 = 12;
+            var16 = 10;
             var17 = var20[var16];
             var17 = var19.bind(var1)(var17);
             var17 = var17.isCustomEmoji;
@@ -311,22 +275,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot8;
             var7 = var7.REACTION;
             var7 = var9 === var7;
-            if(!var7) { _fun0001_ip = 1081; continue _fun0001 }
- 1071:
+            if(!var7) { _fun0001_ip = 937; continue _fun0001 }
+ 927:
             var9 = {};
             var9['is_burst'] = var10;
             var7 = var9;
- 1081:
+ 937:
             var24 = var2;
             var23 = var7;
             var7 = copyDataProperties(var24, var23);
             var6 = var6 != var8;
-            if(!var6) { _fun0001_ip = 1108; continue _fun0001 }
- 1098:
+            if(!var6) { _fun0001_ip = 964; continue _fun0001 }
+ 954:
             var7 = {};
             var7['location_object'] = var8;
             var6 = var7;
- 1108:
+ 964:
             var24 = var2;
             var23 = var6;
             var6 = copyDataProperties(var24, var23);
@@ -376,7 +340,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.bind(var1)(var5);
     var5 = var5.ExpressionPickerViewType;
     var _closure1_slot9 = var5;
-    var5 = 13;
+    var5 = 11;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;

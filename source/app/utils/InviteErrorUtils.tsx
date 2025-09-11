@@ -43,19 +43,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg1;
             var1 = _closure1_slot4;
             var1 = var1.TOO_MANY_USER_GUILDS;
-            if(!(var1 !== var3)) { _fun0001_ip = 284; continue _fun0001 }
+            if(!(var1 !== var3)) { _fun0001_ip = 414; continue _fun0001 }
  23:
             var1 = _closure1_slot4;
             var1 = var1.GUILD_AT_CAPACITY;
-            if(!(var1 !== var3)) { _fun0001_ip = 171; continue _fun0001 }
+            if(!(var1 !== var3)) { _fun0001_ip = 301; continue _fun0001 }
  40:
             var1 = _closure1_slot4;
             var1 = var1.GUILD_JOIN_INVITE_LIMITED_ACCESS;
-            if(!(var1 !== var3)) { _fun0001_ip = 58; continue _fun0001 }
- 54:
+            if(!(var1 !== var3)) { _fun0001_ip = 188; continue _fun0001 }
+ 57:
+            var1 = _closure1_slot4;
+            var1 = var1.USER_GUILD_JOIN_LARGE_GUILD_UNDERAGE_DISALLOWED;
+            if(!(var1 !== var3)) { _fun0001_ip = 75; continue _fun0001 }
+ 71:
             var1 = null;
             return var1;
- 58:
+ 75:
+            var1 = {};
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot2;
+            var3 = 3;
+            var4 = var8[var3];
+            var6 = undefined;
+            var4 = var7.bind(var6)(var4);
+            var9 = var4.intl;
+            var5 = var9.string;
+            var4 = var8[var3];
+            var4 = var7.bind(var6)(var4);
+            var4 = var4.t;
+            var4 = var4.u/xsKy;
+            var4 = var5.bind(var9)(var4);
+            var1['title'] = var4;
+            var4 = var8[var3];
+            var4 = var7.bind(var6)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.t;
+            var3 = var3.SxY4IS;
+            var3 = var4.bind(var5)(var3);
+            var1['description'] = var3;
+            return var1;
+ 188:
             var1 = {};
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -82,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var3);
             var1['description'] = var3;
             return var1;
- 171:
+ 301:
             var1 = {};
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -109,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var3);
             var1['description'] = var3;
             return var1;
- 284:
+ 414:
             var3 = _closure1_slot3;
             var1 = var3.getCurrentUser;
             var4 = var1.bind(var3)();
@@ -121,23 +152,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var6)(var1);
             var1 = var3.canUseIncreasedGuildCap;
             var1 = var1.bind(var3)(var4);
-            if(var1) { _fun0001_ip = 363; continue _fun0001 }
- 333:
+            if(var1) { _fun0001_ip = 493; continue _fun0001 }
+ 463:
             var1 = null;
             var3 = var1 == var4;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 354; continue _fun0001 }
- 344:
+            if(var3) { _fun0001_ip = 484; continue _fun0001 }
+ 474:
             var3 = var4.isStaff;
             var1 = var3.bind(var4)();
- 354:
-            if(var1) { _fun0001_ip = 363; continue _fun0001 }
- 357:
+ 484:
+            if(var1) { _fun0001_ip = 493; continue _fun0001 }
+ 487:
             var10 = _closure1_slot6;
-            _fun0001_ip = 367; continue _fun0001;
- 363:
+            _fun0001_ip = 497; continue _fun0001;
+ 493:
             var10 = _closure1_slot7;
- 367:
+ 497:
             var1 = {};
             var5 = _closure1_slot0;
             var7 = _closure1_slot2;

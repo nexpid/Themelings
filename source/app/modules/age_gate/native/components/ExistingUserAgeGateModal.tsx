@@ -36,31 +36,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var _closure3_slot0 = var3;
                     var4 = _closure1_slot6;
                     var4 = var4.NSFW_SERVER_INVITE;
-                    if(!(var4 !== var3)) { _fun0002_ip = 127; continue _fun0002 }
- 26:
+                    if(!(var4 !== var3)) { _fun0002_ip = 170; continue _fun0002 }
+ 29:
                     var4 = _closure1_slot6;
                     var4 = var4.NSFW_SERVER_INVITE_EMBED;
-                    if(!(var4 !== var3)) { _fun0002_ip = 127; continue _fun0002 }
- 40:
+                    if(!(var4 !== var3)) { _fun0002_ip = 170; continue _fun0002 }
+ 46:
+                    var4 = _closure1_slot6;
+                    var4 = var4.JOIN_LARGE_GUILD_UNDERAGE;
+                    if(!(var4 !== var3)) { _fun0002_ip = 161; continue _fun0002 }
+ 60:
+                    var4 = _closure1_slot6;
+                    var4 = var4.ACCESS_LARGE_GUILD_UNDERAGE;
+                    if(!(var4 !== var3)) { _fun0002_ip = 161; continue _fun0002 }
+ 74:
                     var4 = _closure1_slot6;
                     var4 = var4.NSFW_SERVER;
-                    if(!(var4 !== var3)) { _fun0002_ip = 118; continue _fun0002 }
- 54:
+                    if(!(var4 !== var3)) { _fun0002_ip = 152; continue _fun0002 }
+ 88:
                     var4 = _closure1_slot6;
                     var4 = var4.NSFW_CHANNEL;
-                    if(!(var4 !== var3)) { _fun0002_ip = 118; continue _fun0002 }
- 68:
+                    if(!(var4 !== var3)) { _fun0002_ip = 152; continue _fun0002 }
+ 102:
                     var4 = _closure1_slot6;
                     var4 = var4.NSFW_VOICE_CHANNEL;
-                    if(!(var4 !== var3)) { _fun0002_ip = 109; continue _fun0002 }
- 82:
+                    if(!(var4 !== var3)) { _fun0002_ip = 143; continue _fun0002 }
+ 116:
                     var2 = _closure1_slot6;
                     var2 = var2.FAMILY_CENTER;
-                    if(!(var2 !== var3)) { _fun0002_ip = 100; continue _fun0002 }
- 96:
+                    if(!(var2 !== var3)) { _fun0002_ip = 134; continue _fun0002 }
+ 130:
                     var2 = undefined;
                     return var2;
- 100:
+ 134:
                     var2 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -74,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     return var2;
- 109:
+ 143:
                     var2 = function() {
                         var3 = _closure1_slot1;
                         var4 = _closure1_slot2;
@@ -100,7 +108,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     return var2;
- 118:
+ 152:
                     var2 = function() {
                         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -132,7 +140,45 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         }
                     };
                     return var2;
- 127:
+ 161:
+                    var2 = function() {
+                        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+                            var3 = _closure1_slot4;
+                            var1 = var3.getGuildId;
+                            var4 = var1.bind(var3)();
+                            var1 = null;
+                            if(!(var1 != var4)) { _fun0004_ip = 56; continue _fun0004 }
+ 23:
+                            var5 = _closure1_slot1;
+                            var3 = _closure1_slot2;
+                            var1 = 11;
+                            var3 = var3[var1];
+                            var1 = undefined;
+                            var3 = var5.bind(var1)(var3);
+                            var1 = var3.nsfwReturnToSafety;
+                            var1 = var1.bind(var3)(var4);
+ 56:
+                            var5 = _closure1_slot0;
+                            var4 = _closure1_slot2;
+                            var1 = 10;
+                            var3 = var4[var1];
+                            var1 = undefined;
+                            var6 = var5.bind(var1)(var3);
+                            var5 = var6.closeAgeGateModal;
+                            var3 = _closure3_slot0;
+                            var3 = var5.bind(var6)(var3);
+                            var3 = _closure1_slot1;
+                            var2 = 12;
+                            var2 = var4[var2];
+                            var3 = var3.bind(var1)(var2);
+                            var2 = var3.popAll;
+                            var2 = var2.bind(var3)();
+                            return var1;
+                        }
+                    };
+                    return var2;
+ 170:
                     var1 = function() {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
@@ -186,14 +232,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = function render(arg1, arg2) {
                 var5 = _closure2_slot0;
                 var2 = function generateOnSuccess(arg1, arg2) {
-                    _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+                    _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                         var1 = arg2;
                         var _closure4_slot0 = var1;
                         var3 = _closure1_slot6;
                         var4 = var3.NSFW_SERVER_INVITE;
                         var3 = arg1;
-                        if(!(var3 === var4)) { _fun0004_ip = 64; continue _fun0004 }
+                        if(!(var3 === var4)) { _fun0005_ip = 64; continue _fun0005 }
  29:
                         var4 = _closure1_slot0;
                         var3 = _closure1_slot2;
@@ -203,7 +249,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var4.bind(var1)(var3);
                         var1 = var3.isIOS;
                         var1 = var1.bind(var3)();
-                        if(var1) { _fun0004_ip = 73; continue _fun0004 }
+                        if(var1) { _fun0005_ip = 73; continue _fun0005 }
  64:
                         var1 = function() {
                             var8 = _closure1_slot0;
@@ -240,7 +286,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2 = var3.bind(var4)(var2);
                             return var1;
                         };
-                        _fun0004_ip = 80; continue _fun0004;
+                        _fun0005_ip = 80; continue _fun0005;
  73:
                         var1 = function() {
                             var3 = _closure4_slot0;
@@ -452,7 +498,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/age_gate/native/components/ExistingUserAgeGateModal.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function ExistingUserAgeGateModal(arg1) {
-        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+        _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var1 = arg1;
             var11 = var1.source;
@@ -485,10 +531,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var9.bind(var10)(var7, var8);
             var1['screens'] = var7;
             var7 = _closure1_slot7;
-            if(var6) { _fun0005_ip = 123; continue _fun0005 }
+            if(var6) { _fun0006_ip = 123; continue _fun0006 }
  115:
             var6 = var7.AgeGate;
-            _fun0005_ip = 129; continue _fun0005;
+            _fun0006_ip = 129; continue _fun0006;
  123:
             var6 = var7.Pawtect;
  129:

@@ -48,10 +48,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var8.reactions;
             var10 = var8.isSelectedBurst;
             var4 = undefined;
-            if(!(var10 === var4)) { _fun0001_ip = 41; continue _fun0001 }
- 39:
+            if(!(var10 === var4)) { _fun0001_ip = 40; continue _fun0001 }
+ 38:
             var10 = false;
- 41:
+ 40:
             var6 = {'channelId': 0, 'messageId': 0, 'emoji': 0, 'reactions': 0, 'isSelectedBurst': 0};
             var3 = null;
             var19 = var6;
@@ -144,14 +144,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var11 = var11.bind(var4)(var14, var13);
             var15 = var11;
-            if(!(var3 != var2)) { _fun0001_ip = 171; continue _fun0001 }
- 156:
+            if(!(var3 != var2)) { _fun0001_ip = 170; continue _fun0001 }
+ 155:
             var3 = var2.length;
             var15 = var11;
-            if(!(var3 > var7)) { _fun0001_ip = 171; continue _fun0001 }
- 168:
+            if(!(var3 > var7)) { _fun0001_ip = 170; continue _fun0001 }
+ 167:
             var15 = var2;
- 171:
+ 170:
             var11 = new Array(0);
             _closure2_slot0 = var11;
             var3 = var15.forEach;
@@ -236,8 +236,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['value'] = var5;
             var5 = var11.length;
-            if(!(!(var5 > var7))) { _fun0001_ip = 296; continue _fun0001 }
- 256:
+            if(!(!(var5 > var7))) { _fun0001_ip = 295; continue _fun0001 }
+ 255:
             var8 = _closure1_slot5;
             var7 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -247,8 +247,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.MessageReactionsEmpty;
             var5 = {};
             var5 = var8.bind(var4)(var7, var5);
-            _fun0001_ip = 367; continue _fun0001;
- 296:
+            _fun0001_ip = 365; continue _fun0001;
+ 295:
             var8 = _closure1_slot5;
             var7 = _closure1_slot0;
             var15 = _closure1_slot2;
@@ -266,7 +266,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var9;
             var9 = copyDataProperties(var19, var18);
             var5 = var8.bind(var4)(var7, var6);
- 367:
+ 365:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

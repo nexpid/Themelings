@@ -43,18 +43,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/collectibles/hooks/useFetchCollectiblesProduct.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function useFetchCollectiblesProduct(arg1) {
+    var2 = function useFetchCollectiblesProduct(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var9 = arg1;
-            var _closure2_slot0 = var9;
+            var10 = arg1;
+            var7 = arg2;
+            var _closure2_slot0 = var10;
+            var _closure2_slot1 = var7;
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var7 = 5;
-            var2 = var2[var7];
+            var8 = 5;
+            var2 = var2[var8];
             var6 = undefined;
-            var8 = var3.bind(var6)(var2);
-            var5 = var8.useStateFromStores;
+            var9 = var3.bind(var6)(var2);
+            var5 = var9.useStateFromStores;
             var2 = _closure1_slot4;
             var3 = new Array(1);
             var3[0] = var2;
@@ -74,22 +76,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var2 = var5.bind(var8)(var3, var2);
+            var2 = var5.bind(var9)(var3, var2);
             var5 = null;
-            var8 = var5 != var2;
-            if(!var8) { _fun0001_ip = 91; continue _fun0001 }
- 71:
+            var9 = var5 != var2;
+            if(!var9) { _fun0001_ip = 98; continue _fun0001 }
+ 78:
             var3 = var2.productLine;
             var2 = _closure1_slot6;
             var2 = var2.COLLECTIBLES;
-            var8 = var3 !== var2;
- 91:
-            var _closure2_slot1 = var8;
+            var9 = var3 !== var2;
+ 98:
+            var _closure2_slot2 = var9;
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var2 = var2[var7];
-            var10 = var3.bind(var6)(var2);
-            var7 = var10.useStateFromStoresArray;
+            var2 = var2[var8];
+            var11 = var3.bind(var6)(var2);
+            var8 = var11.useStateFromStoresArray;
             var2 = _closure1_slot5;
             var3 = new Array(1);
             var3[0] = var2;
@@ -111,78 +113,82 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1[3] = var2;
                 return var1;
             };
-            var7 = var7.bind(var10)(var3, var2);
+            var8 = var8.bind(var11)(var3, var2);
             var3 = _closure1_slot2;
             var2 = 4;
-            var11 = var3.bind(var6)(var7, var2);
+            var12 = var3.bind(var6)(var8, var2);
             var2 = 0;
-            var2 = var11[var2];
-            var _closure2_slot2 = var2;
+            var2 = var12[var2];
+            var _closure2_slot3 = var2;
             var3 = 1;
-            var3 = var11[var3];
-            var _closure2_slot3 = var3;
-            var7 = 2;
-            var7 = var11[var7];
-            var10 = 3;
-            var10 = var11[var10];
-            var7 = var5 != var7;
-            if(!var7) { _fun0001_ip = 200; continue _fun0001 }
- 196:
-            var7 = var5 != var10;
- 200:
-            if(!var7) { _fun0001_ip = 234; continue _fun0001 }
+            var3 = var12[var3];
+            var _closure2_slot4 = var3;
+            var8 = 2;
+            var8 = var12[var8];
+            var11 = 3;
+            var11 = var12[var11];
+            var8 = var5 != var8;
+            if(!var8) { _fun0001_ip = 207; continue _fun0001 }
  203:
+            var8 = var5 != var11;
+ 207:
+            if(!var8) { _fun0001_ip = 241; continue _fun0001 }
+ 210:
             var5 = global;
-            var11 = var5.Date;
-            var5 = var11.now;
-            var5 = var5.bind(var11)();
-            var10 = var5 - var10;
+            var12 = var5.Date;
+            var5 = var12.now;
+            var5 = var5.bind(var12)();
+            var11 = var5 - var11;
             var5 = 3600000;
-            var7 = var10 < var5;
- 234:
-            var _closure2_slot4 = var7;
+            var8 = var11 < var5;
+ 241:
+            var _closure2_slot5 = var8;
             var5 = _closure1_slot3;
-            var4 = new Array(5);
-            var4[0] = var9;
+            var4 = new Array(6);
+            var4[0] = var10;
             var4[1] = var3;
-            var4[2] = var8;
+            var4[2] = var9;
             var4[3] = var2;
-            var4[4] = var7;
+            var4[4] = var8;
+            var4[5] = var7;
             var1 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                    var2 = _closure2_slot0;
-                    var4 = null;
-                    var2 = var4 == var2;
-                    if(var2) { _fun0003_ip = 24; continue _fun0003 }
- 16:
-                    var3 = _closure2_slot3;
-                    var2 = var4 != var3;
- 24:
-                    if(var2) { _fun0003_ip = 31; continue _fun0003 }
- 27:
-                    var2 = _closure2_slot1;
- 31:
-                    if(var2) { _fun0003_ip = 38; continue _fun0003 }
- 34:
-                    var2 = _closure2_slot2;
- 38:
-                    if(var2) { _fun0003_ip = 45; continue _fun0003 }
- 41:
-                    var2 = _closure2_slot4;
- 45:
-                    if(var2) { _fun0003_ip = 88; continue _fun0003 }
- 48:
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
-                    var2 = 6;
-                    var3 = var3[var2];
-                    var2 = undefined;
-                    var3 = var4.bind(var2)(var3);
-                    var2 = var3.fetchCollectiblesProduct;
                     var1 = _closure2_slot0;
-                    var1 = var2.bind(var3)(var1);
- 88:
+                    var3 = null;
+                    var1 = var3 == var1;
+                    if(var1) { _fun0003_ip = 24; continue _fun0003 }
+ 16:
+                    var2 = _closure2_slot4;
+                    var1 = var3 != var2;
+ 24:
+                    if(var1) { _fun0003_ip = 31; continue _fun0003 }
+ 27:
+                    var1 = _closure2_slot2;
+ 31:
+                    if(var1) { _fun0003_ip = 38; continue _fun0003 }
+ 34:
+                    var1 = _closure2_slot3;
+ 38:
+                    if(var1) { _fun0003_ip = 45; continue _fun0003 }
+ 41:
+                    var1 = _closure2_slot5;
+ 45:
+                    if(var1) { _fun0003_ip = 100; continue _fun0003 }
+ 48:
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
+                    var1 = 6;
+                    var2 = var2[var1];
+                    var1 = undefined;
+                    var4 = var3.bind(var1)(var2);
+                    var3 = var4.fetchCollectiblesProduct;
+                    var2 = _closure2_slot0;
+                    var1 = {};
+                    var5 = _closure2_slot1;
+                    var1['includeBundles'] = var5;
+                    var1 = var3.bind(var4)(var2, var1);
+ 100:
                     var1 = undefined;
                     return var1;
                 }

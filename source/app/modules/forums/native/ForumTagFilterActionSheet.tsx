@@ -58,8 +58,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var9 = var5 != var12;
             var7 = undefined;
-            if(!var9) { _fun0001_ip = 206; continue _fun0001 }
- 149:
+            if(!var9) { _fun0001_ip = 205; continue _fun0001 }
+ 148:
             var9 = _closure1_slot1;
             var10 = _closure1_slot2;
             var8 = 19;
@@ -73,14 +73,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['animated'] = var12;
             var8['size'] = var11;
             var7 = var9.bind(var10)(var8);
- 206:
+ 205:
             var1['src'] = var7;
             var7 = var5 != var6;
             var5 = '';
-            if(!var7) { _fun0001_ip = 225; continue _fun0001 }
- 222:
+            if(!var7) { _fun0001_ip = 224; continue _fun0001 }
+ 221:
             var5 = var6;
- 225:
+ 224:
             var1['name'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

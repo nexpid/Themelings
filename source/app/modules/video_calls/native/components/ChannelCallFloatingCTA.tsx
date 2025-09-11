@@ -525,16 +525,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.bind(var4)(var7);
             var1['image'] = var7;
             var6 = function onPress() {
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var2 = 42;
-                var3 = var3[var2];
-                var2 = undefined;
-                var4 = var4.bind(var2)(var3);
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 42;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
                 var3 = var4.showInstantInviteActionSheet;
                 var2 = _closure2_slot0;
-                var1 = _closure1_slot15;
-                var1 = var1.VOICE_CHANNEL;
+                var1 = {};
+                var5 = _closure1_slot15;
+                var5 = var5.VOICE_CHANNEL;
+                var1['source'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };

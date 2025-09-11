@@ -801,16 +801,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(var2) { _fun0006_ip = 103; continue _fun0006 }
  96:
             var13 = function() {
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
-                var2 = 21;
-                var3 = var3[var2];
-                var2 = undefined;
-                var4 = var4.bind(var2)(var3);
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot2;
+                var1 = 21;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
                 var3 = var4.showInstantInviteActionSheet;
                 var2 = _closure2_slot0;
-                var1 = _closure1_slot13;
-                var1 = var1.VOICE_CHANNEL;
+                var1 = {};
+                var5 = _closure1_slot13;
+                var5 = var5.VOICE_CHANNEL;
+                var1['source'] = var5;
                 var1 = var3.bind(var4)(var2, var1);
                 return var1;
             };

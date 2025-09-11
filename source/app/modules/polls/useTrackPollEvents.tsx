@@ -56,34 +56,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = arg1;
                     var1 = var1.image;
                     var2 = null;
-                    if(!(var2 != var1)) { _fun0001_ip = 103; continue _fun0001 }
+                    if(!(var2 != var1)) { _fun0001_ip = 102; continue _fun0001 }
  15:
                     var3 = var1.emoji;
-                    if(!(var2 == var3)) { _fun0001_ip = 85; continue _fun0001 }
- 25:
+                    if(!(var2 == var3)) { _fun0001_ip = 84; continue _fun0001 }
+ 24:
                     var3 = var1.stickerId;
-                    if(!(var2 == var3)) { _fun0001_ip = 65; continue _fun0001 }
- 35:
+                    if(!(var2 == var3)) { _fun0001_ip = 64; continue _fun0001 }
+ 34:
                     var1 = var1.mediaAttachmentState;
-                    if(!(var2 != var1)) { _fun0001_ip = 103; continue _fun0001 }
- 45:
+                    if(!(var2 != var1)) { _fun0001_ip = 102; continue _fun0001 }
+ 44:
                     var3 = _closure3_slot0;
                     var1 = 1;
                     var1 = var3 + var1;
                     _closure3_slot0 = var1;
-                    _fun0001_ip = 103; continue _fun0001;
- 65:
+                    _fun0001_ip = 102; continue _fun0001;
+ 64:
                     var3 = _closure3_slot2;
                     var1 = 1;
                     var1 = var3 + var1;
                     _closure3_slot2 = var1;
-                    _fun0001_ip = 103; continue _fun0001;
- 85:
+                    _fun0001_ip = 102; continue _fun0001;
+ 84:
                     var3 = _closure3_slot1;
                     var1 = 1;
                     var1 = var3 + var1;
                     _closure3_slot1 = var1;
- 103:
+ 102:
                     var1 = undefined;
                     return var1;
                 }

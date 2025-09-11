@@ -13,7 +13,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4 == var6;
             var2 = undefined;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 56; continue _fun0001 }
+            if(var5) { _fun0001_ip = 57; continue _fun0001 }
  25:
             var5 = var6.find;
             var3 = function(arg1) {
@@ -26,16 +26,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var6)(var3);
             var4 = var4 == var3;
             var1 = undefined;
-            if(var4) { _fun0001_ip = 56; continue _fun0001 }
- 51:
+            if(var4) { _fun0001_ip = 57; continue _fun0001 }
+ 52:
             var1 = var3.value;
- 56:
+ 57:
             var4 = 'string';
             var3 = typeof var1;
-            if(!(var4 !== var3)) { _fun0001_ip = 69; continue _fun0001 }
- 67:
+            if(!(var4 !== var3)) { _fun0001_ip = 70; continue _fun0001 }
+ 68:
             return var2;
- 69:
+ 70:
             return var1;
         }
     };
@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4 == var6;
             var2 = undefined;
             var1 = undefined;
-            if(var5) { _fun0002_ip = 56; continue _fun0002 }
+            if(var5) { _fun0002_ip = 57; continue _fun0002 }
  25:
             var5 = var6.find;
             var3 = function(arg1) {
@@ -63,16 +63,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.bind(var6)(var3);
             var4 = var4 == var3;
             var1 = undefined;
-            if(var4) { _fun0002_ip = 56; continue _fun0002 }
- 51:
+            if(var4) { _fun0002_ip = 57; continue _fun0002 }
+ 52:
             var1 = var3.value;
- 56:
+ 57:
             var4 = 'number';
             var3 = typeof var1;
-            if(!(var4 !== var3)) { _fun0002_ip = 69; continue _fun0002 }
- 67:
+            if(!(var4 !== var3)) { _fun0002_ip = 70; continue _fun0002 }
+ 68:
             return var2;
- 69:
+ 70:
             return var1;
         }
     };

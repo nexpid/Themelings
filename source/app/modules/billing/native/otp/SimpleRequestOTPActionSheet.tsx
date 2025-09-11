@@ -632,10 +632,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {'variant': 'text-md/medium', 'color': 'always-white'};
             var20 = var8 == var7;
             var12 = undefined;
-            if(var20) { _fun0001_ip = 699; continue _fun0001 }
- 694:
+            if(var20) { _fun0001_ip = 703; continue _fun0001 }
+ 698:
             var12 = var7.name;
- 699:
+ 703:
             var7 = ['Gifting '];
             var7[1] = var12;
             var12 = ' to ';
@@ -658,18 +658,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var8 != var13;
             var12 = 'No message';
             var8 = var12;
-            if(!var11) { _fun0001_ip = 838; continue _fun0001 }
- 803:
+            if(!var11) { _fun0001_ip = 842; continue _fun0001 }
+ 807:
             var11 = '';
             var8 = var12;
-            if(!(var11 !== var13)) { _fun0001_ip = 838; continue _fun0001 }
- 814:
+            if(!(var11 !== var13)) { _fun0001_ip = 842; continue _fun0001 }
+ 818:
             var11 = global;
             var11 = var11.HermesInternal;
             var12 = var11.concat;
             var11 = 'Message: ';
             var8 = var12.bind(var11)(var13);
- 838:
+ 842:
             var7[14] = var8;
             var5['children'] = var7;
             var6 = var3.bind(var4)(var6, var5);
@@ -690,10 +690,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = 'primary';
             var12['variant'] = var17;
             var17 = 'Send Gift';
-            if(!var15) { _fun0001_ip = 932; continue _fun0001 }
- 926:
+            if(!var15) { _fun0001_ip = 936; continue _fun0001 }
+ 930:
             var17 = 'Loading...';
- 932:
+ 936:
             var12['text'] = var17;
             var12['onPress'] = var16;
             var12['disabled'] = var15;

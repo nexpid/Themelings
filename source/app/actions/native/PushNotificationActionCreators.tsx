@@ -508,7 +508,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['setPushPermissionState'] = var4;
-    var2 = function setPushPermissionReactivationSeen(arg1) {
+    var4 = function setPushPermissionReactivationSeen(arg1) {
         var3 = _closure1_slot1;
         var2 = _closure1_slot3;
         var1 = 15;
@@ -524,6 +524,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var3.bind(var4)(var2);
         return var1;
     };
-    var3['setPushPermissionReactivationSeen'] = var2;
+    var3['setPushPermissionReactivationSeen'] = var4;
+    var2 = function setPushNotificationPermissionEligibleForPrompt(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot3;
+        var1 = 15;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'PUSH_NOTIFICATION_PERMISSION_SET_ELIGIBLE';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['promptType'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['setPushNotificationPermissionEligibleForPrompt'] = var2;
     return var1;
 })();

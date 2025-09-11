@@ -653,12 +653,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var8 = var10.bind(var11)(var8);
             var10 = var4 == var8;
-            if(!var10) { _fun0004_ip = 169; continue _fun0004 }
- 165:
+            if(!var10) { _fun0004_ip = 170; continue _fun0004 }
+ 166:
             var10 = var4 != var15;
- 169:
-            if(!var10) { _fun0004_ip = 191; continue _fun0004 }
- 172:
+ 170:
+            if(!var10) { _fun0004_ip = 193; continue _fun0004 }
+ 173:
             var10 = _closure1_slot3;
             var3 = var10.find;
             var1 = function(arg1) {
@@ -670,26 +670,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var8 = var3.bind(var10)(var1);
- 191:
-            if(!(var4 != var8)) { _fun0004_ip = 199; continue _fun0004 }
- 195:
-            if(!(var4 == var15)) { _fun0004_ip = 231; continue _fun0004 }
- 199:
-            if(!(var4 == var8)) { _fun0004_ip = 219; continue _fun0004 }
- 203:
+ 193:
+            if(!(var4 != var8)) { _fun0004_ip = 201; continue _fun0004 }
+ 197:
+            if(!(var4 == var15)) { _fun0004_ip = 233; continue _fun0004 }
+ 201:
+            if(!(var4 == var8)) { _fun0004_ip = 221; continue _fun0004 }
+ 205:
             var1 = var4 != var15;
             var3 = 'unknown';
-            if(!var1) { _fun0004_ip = 217; continue _fun0004 }
- 214:
+            if(!var1) { _fun0004_ip = 219; continue _fun0004 }
+ 216:
             var3 = var15;
- 217:
-            _fun0004_ip = 229; continue _fun0004;
  219:
+            _fun0004_ip = 231; continue _fun0004;
+ 221:
             var1 = var8.name;
             var3 = var1.bind(var8)(var9);
- 229:
-            _fun0004_ip = 345; continue _fun0004;
  231:
+            _fun0004_ip = 347; continue _fun0004;
+ 233:
             var1 = var8.name;
             var10 = var1.bind(var8)(var9);
             var1 = var10.split;
@@ -700,14 +700,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var15.lastIndexOf;
             var14 = var1.bind(var15)(var13);
             var1 = -1;
-            if(!(var1 === var14)) { _fun0004_ip = 308; continue _fun0004 }
- 286:
+            if(!(var1 === var14)) { _fun0004_ip = 310; continue _fun0004 }
+ 288:
             var1 = global;
             var1 = var1.HermesInternal;
             var1 = var1.concat;
             var1 = var1.bind(var5)(var15, var13, var12);
-            _fun0004_ip = 342; continue _fun0004;
- 308:
+            _fun0004_ip = 344; continue _fun0004;
+ 310:
             var11 = var15.substr;
             var10 = 0;
             var11 = var11.bind(var15)(var10, var14);
@@ -715,70 +715,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.HermesInternal;
             var10 = var10.concat;
             var1 = var10.bind(var5)(var11, var13, var12);
- 342:
+ 344:
             var3 = var1;
- 345:
+ 347:
             var1 = {};
             var1['uri'] = var7;
             var1['filename'] = var3;
             var7 = var2;
-            if(!(var4 == var2)) { _fun0004_ip = 380; continue _fun0004 }
- 363:
+            if(!(var4 == var2)) { _fun0004_ip = 382; continue _fun0004 }
+ 365:
             var10 = var4 == var8;
             var3 = undefined;
-            if(var10) { _fun0004_ip = 377; continue _fun0004 }
- 372:
+            if(var10) { _fun0004_ip = 379; continue _fun0004 }
+ 374:
             var3 = var8.type;
- 377:
+ 379:
             var7 = var3;
- 380:
+ 382:
             var10 = var4 != var7;
             var3 = 'unknown';
-            if(!var10) { _fun0004_ip = 394; continue _fun0004 }
- 391:
+            if(!var10) { _fun0004_ip = 396; continue _fun0004 }
+ 393:
             var3 = var7;
- 394:
+ 396:
             var1['type'] = var3;
             var3 = var2;
-            if(!(var4 == var2)) { _fun0004_ip = 427; continue _fun0004 }
- 405:
+            if(!(var4 == var2)) { _fun0004_ip = 429; continue _fun0004 }
+ 407:
             var10 = var4 == var8;
             var7 = undefined;
-            if(var10) { _fun0004_ip = 424; continue _fun0004 }
- 414:
+            if(var10) { _fun0004_ip = 426; continue _fun0004 }
+ 416:
             var10 = var8.name;
             var7 = var10.bind(var8)(var9);
- 424:
+ 426:
             var3 = var7;
- 427:
+ 429:
             var7 = var4 != var3;
             var10 = var5;
-            if(!var7) { _fun0004_ip = 440; continue _fun0004 }
- 437:
+            if(!var7) { _fun0004_ip = 442; continue _fun0004 }
+ 439:
             var10 = var3;
- 440:
+ 442:
             var7 = var10.indexOf;
             var3 = 'video';
             var7 = var7.bind(var10)(var3);
             var3 = -1;
             var7 = var3 !== var7;
             var1['isVideo'] = var7;
-            if(!(var4 == var2)) { _fun0004_ip = 496; continue _fun0004 }
- 474:
+            if(!(var4 == var2)) { _fun0004_ip = 498; continue _fun0004 }
+ 476:
             var7 = var4 == var8;
             var6 = undefined;
-            if(var7) { _fun0004_ip = 493; continue _fun0004 }
- 483:
+            if(var7) { _fun0004_ip = 495; continue _fun0004 }
+ 485:
             var7 = var8.name;
             var6 = var7.bind(var8)(var9);
- 493:
+ 495:
             var2 = var6;
- 496:
+ 498:
             var4 = var4 != var2;
-            if(!var4) { _fun0004_ip = 506; continue _fun0004 }
- 503:
+            if(!var4) { _fun0004_ip = 508; continue _fun0004 }
+ 505:
             var5 = var2;
- 506:
+ 508:
             var4 = var5.indexOf;
             var2 = 'image';
             var2 = var4.bind(var5)(var2);

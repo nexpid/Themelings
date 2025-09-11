@@ -28,7 +28,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 358; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 357; continue _fun0001 }
  10:
                     var9 = arg1;
                     var7 = arg2;
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  76:
                     var10 = _closure1_slot4;
                     var10 = var10.NON_MODERATED_TAG_REQUIRED;
-                    if(!(var11 !== var10)) { _fun0001_ip = 314; continue _fun0001 }
+                    if(!(var11 !== var10)) { _fun0001_ip = 313; continue _fun0001 }
  96:
                     var10 = var8;
                     var10 = var10.body;
@@ -76,19 +76,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  121:
                     var4 = _closure1_slot4;
                     var4 = var4.INVALID_FORM_BODY;
-                    if(!(var10 === var4)) { _fun0001_ip = 355; continue _fun0001 }
+                    if(!(var10 === var4)) { _fun0001_ip = 354; continue _fun0001 }
  138:
                     var8 = var8.body;
                     var5 = var8;
                     var8 = var9 != var8;
                     var4 = var8;
-                    if(!var8) { _fun0001_ip = 168; continue _fun0001 }
+                    if(!var8) { _fun0001_ip = 167; continue _fun0001 }
  156:
                     var5 = var5.errors;
                     var4 = var5.emoji;
- 168:
-                    if(!var4) { _fun0001_ip = 355; continue _fun0001 }
- 174:
+ 167:
+                    if(!var4) { _fun0001_ip = 354; continue _fun0001 }
+ 173:
                     var5 = _closure1_slot1;
                     var13 = _closure1_slot2;
                     var4 = 2;
@@ -119,8 +119,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var10.bind(var11)(var9);
                     var4['body'] = var9;
                     var4 = var5.bind(var8)(var4);
-                    _fun0001_ip = 355; continue _fun0001;
- 314:
+                    _fun0001_ip = 354; continue _fun0001;
+ 313:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
                     var3 = 2;
@@ -131,9 +131,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['title'] = var7;
                     var3['body'] = var6;
                     var3 = var4.bind(var5)(var3);
- 355:
+ 354:
                     return var2;
- 358:
+ 357:
                     return var1;
                 }
             };

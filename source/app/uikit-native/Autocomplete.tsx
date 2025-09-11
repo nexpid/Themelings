@@ -496,7 +496,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = undefined;
             var11 = var1.bind(var4)();
             var1 = '';
-            if(!(var1 === var9)) { _fun0005_ip = 123; continue _fun0005 }
+            if(!(var1 === var9)) { _fun0005_ip = 122; continue _fun0005 }
  44:
             var3 = _closure1_slot9;
             var2 = _closure1_slot0;
@@ -516,8 +516,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['allowFontScaling'] = var8;
             var1['children'] = var6;
             var6 = var3.bind(var4)(var2, var1);
-            _fun0005_ip = 193; continue _fun0005;
- 123:
+            _fun0005_ip = 191; continue _fun0005;
+ 122:
             var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -535,7 +535,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['uri'] = var9;
             var1['source'] = var8;
             var6 = var3.bind(var4)(var2, var1);
- 193:
+ 191:
             var3 = _closure1_slot9;
             var2 = _closure1_slot0;
             var8 = _closure1_slot2;

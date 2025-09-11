@@ -874,6 +874,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['APP_MESSAGE_EMBED'] = var1;
     var1 = 'user settings sessions';
     var2['USER_SETTINGS_SESSIONS'] = var1;
+    var1 = 'mobile app manage premium subscription cta';
+    var2['MOBILE_APP_MANAGE_PREMIUM_SUBSCRIPTION_CTA'] = var1;
     var1 = 'sharing controls coachmark';
     var2['SHARING_CONTROLS_COACHMARK'] = var1;
     var1 = 'not sharing link';

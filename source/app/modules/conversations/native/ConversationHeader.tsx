@@ -290,7 +290,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var12[var18];
             var17 = var11.bind(var5)(var17);
             var19 = var17.Text;
-            var17 = {'variant': 'heading-sm/semibold', 'color': 'text-secondary'};
+            var17 = {'variant': 'text-md/semibold', 'color': 'text-secondary'};
             var20 = var20.guild;
             var20 = var20.name;
             var17['children'] = var20;

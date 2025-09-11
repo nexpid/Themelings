@@ -454,7 +454,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var7 = var9.bind(var10)(var7, var8);
-            if(var3) { _fun0001_ip = 1313; continue _fun0001 }
+            if(var3) { _fun0001_ip = 1337; continue _fun0001 }
  748:
             var7 = var1 == var21;
             var3 = undefined;
@@ -462,11 +462,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  757:
             var3 = var21.launchId;
  763:
-            if(!(var1 != var3)) { _fun0001_ip = 1313; continue _fun0001 }
+            if(!(var1 != var3)) { _fun0001_ip = 1337; continue _fun0001 }
  770:
-            if(!(var1 != var19)) { _fun0001_ip = 1313; continue _fun0001 }
+            if(!(var1 != var19)) { _fun0001_ip = 1337; continue _fun0001 }
  777:
-            if(var2) { _fun0001_ip = 1311; continue _fun0001 }
+            if(var2) { _fun0001_ip = 1335; continue _fun0001 }
  783:
             var17 = {};
             var3 = var21.compositeInstanceId;
@@ -492,49 +492,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17['location_id'] = var2;
             var2 = var21.launchId;
             var17['launch_id'] = var2;
+            var2 = var21.proxyTicket;
+            if(!(var1 != var2)) { _fun0001_ip = 884; continue _fun0001 }
+ 870:
+            var2 = var21.proxyTicket;
+            var17['discord_proxy_ticket'] = var2;
+ 884:
             var2 = var1 != var23;
-            if(!var2) { _fun0001_ip = 876; continue _fun0001 }
- 867:
+            if(!var2) { _fun0001_ip = 900; continue _fun0001 }
+ 891:
             var3 = var23.id;
             var2 = var1 != var3;
- 876:
-            if(!var2) { _fun0001_ip = 888; continue _fun0001 }
- 879:
+ 900:
+            if(!var2) { _fun0001_ip = 912; continue _fun0001 }
+ 903:
             var3 = var23.id;
             var2 = var7 !== var3;
- 888:
-            if(!var2) { _fun0001_ip = 902; continue _fun0001 }
- 891:
+ 912:
+            if(!var2) { _fun0001_ip = 926; continue _fun0001 }
+ 915:
             var2 = var23.id;
             var17['channel_id'] = var2;
- 902:
+ 926:
             var3 = var1 == var23;
             var2 = undefined;
-            if(var3) { _fun0001_ip = 916; continue _fun0001 }
- 911:
+            if(var3) { _fun0001_ip = 940; continue _fun0001 }
+ 935:
             var2 = var23.guild_id;
- 916:
+ 940:
             var2 = var1 != var2;
-            if(!var2) { _fun0001_ip = 941; continue _fun0001 }
- 923:
+            if(!var2) { _fun0001_ip = 965; continue _fun0001 }
+ 947:
             var8 = var1 == var23;
             var3 = undefined;
-            if(var8) { _fun0001_ip = 937; continue _fun0001 }
- 932:
+            if(var8) { _fun0001_ip = 961; continue _fun0001 }
+ 956:
             var3 = var23.guild_id;
- 937:
+ 961:
             var2 = var7 !== var3;
- 941:
-            if(!var2) { _fun0001_ip = 964; continue _fun0001 }
- 944:
+ 965:
+            if(!var2) { _fun0001_ip = 988; continue _fun0001 }
+ 968:
             var3 = var1 == var23;
             var2 = undefined;
-            if(var3) { _fun0001_ip = 958; continue _fun0001 }
- 953:
+            if(var3) { _fun0001_ip = 982; continue _fun0001 }
+ 977:
             var2 = var23.guild_id;
- 958:
+ 982:
             var17['guild_id'] = var2;
- 964:
+ 988:
             var7 = _closure1_slot14;
             var3 = _closure1_slot13;
             var2 = {};
@@ -576,17 +582,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['applicationId'] = var14;
             var24 = var1 == var23;
             var22 = undefined;
-            if(var24) { _fun0001_ip = 1069; continue _fun0001 }
- 1064:
+            if(var24) { _fun0001_ip = 1093; continue _fun0001 }
+ 1088:
             var22 = var23.id;
- 1069:
+ 1093:
             var9['channelId'] = var22;
             var24 = var1 == var23;
             var22 = undefined;
-            if(var24) { _fun0001_ip = 1087; continue _fun0001 }
- 1082:
+            if(var24) { _fun0001_ip = 1111; continue _fun0001 }
+ 1106:
             var22 = var23.guild_id;
- 1087:
+ 1111:
             var9['guildId'] = var22;
             var22 = var21.url;
             var9['activityUrl'] = var22;
@@ -606,20 +612,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var17.has;
             var17 = var16.bind(var17)(var14);
             var16 = 'origin';
-            if(!var17) { _fun0001_ip = 1184; continue _fun0001 }
- 1178:
+            if(!var17) { _fun0001_ip = 1208; continue _fun0001 }
+ 1202:
             var16 = 'no-referrer';
- 1184:
+ 1208:
             var9['referrerPolicy'] = var16;
             var16 = _closure1_slot8;
             var16 = var16.PIP;
             var16 = var18 === var16;
-            if(var16) { _fun0001_ip = 1220; continue _fun0001 }
- 1206:
+            if(var16) { _fun0001_ip = 1244; continue _fun0001 }
+ 1230:
             var17 = _closure1_slot8;
             var17 = var17.GRID;
             var16 = var18 === var17;
- 1220:
+ 1244:
             var9['isPipOrGridMode'] = var16;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -628,10 +634,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var17.bind(var4)(var16);
             var16 = var16.EMBEDDED_ACTIVITY_WEB_VIEW_KEY;
             var9['webViewKey'] = var16;
-            if(!var15) { _fun0001_ip = 1262; continue _fun0001 }
- 1259:
+            if(!var15) { _fun0001_ip = 1286; continue _fun0001 }
+ 1283:
             var12 = var13;
- 1262:
+ 1286:
             var9['safeAreasConfig'] = var12;
             var13 = _closure1_slot11;
             var12 = var13.has;
@@ -643,9 +649,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var8;
             var2 = var7.bind(var4)(var3, var2);
             return var2;
- 1311:
+ 1335:
             return var1;
- 1313:
+ 1337:
             var3 = _closure1_slot12;
             var2 = _closure1_slot6;
             var1 = {};

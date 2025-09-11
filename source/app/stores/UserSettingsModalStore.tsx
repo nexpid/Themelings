@@ -153,7 +153,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = new Array(0);
  359:
             _closure1_slot22 = var4;
-            var3 = var3.impressionSource;
+            var3 = var3.searchParams;
             var4 = var2 != var3;
             var2 = null;
             if(!var4) { _fun0002_ip = 381; continue _fun0002 }
@@ -498,7 +498,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = _closure1_slot23;
                 var1['initialSection'] = var3;
                 var2 = _closure1_slot24;
-                var1['impressionSource'] = var2;
+                var1['searchParams'] = var2;
                 return var1;
             }
         };

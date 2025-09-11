@@ -307,7 +307,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            if(var1) { _fun0001_ip = 1507; continue _fun0001 }
+            if(var1) { _fun0001_ip = 1514; continue _fun0001 }
  498:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
@@ -552,7 +552,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4[7] = var10;
             var10 = var7 == var13;
             var7 = null;
-            if(var10) { _fun0001_ip = 1491; continue _fun0001 }
+            if(var10) { _fun0001_ip = 1498; continue _fun0001 }
  1432:
             var12 = _closure1_slot5;
             var11 = _closure1_slot1;
@@ -561,18 +561,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var14[var10];
             var11 = var11.bind(var5)(var10);
             var10 = {};
+            var14 = 16;
+            var10['size'] = var14;
             var10['hangStatusActivity'] = var13;
             var13 = var6.hangStatusIcon;
             var10['textEmojiStyle'] = var13;
             var13 = var6.hangStatusIcon;
             var10['emojiStyle'] = var13;
             var7 = var12.bind(var5)(var11, var10);
- 1491:
+ 1498:
             var4[8] = var7;
             var1['children'] = var4;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0001_ip = 1577; continue _fun0001;
- 1507:
+            _fun0001_ip = 1584; continue _fun0001;
+ 1514:
             var4 = _closure1_slot5;
             var3 = _closure1_slot3;
             var2 = {};
@@ -590,7 +592,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1577:
+ 1584:
             return var1;
         }
     };

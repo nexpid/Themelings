@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.message;
             var1 = var1.content;
             var9 = var5.bind(var8)(var1);
-            if(!(var6 != var9)) { _fun0001_ip = 882; continue _fun0001 }
+            if(!(var6 != var9)) { _fun0001_ip = 881; continue _fun0001 }
  280:
             var5 = _closure1_slot3;
             var1 = var5.getDisambiguatedEmojiContext;
@@ -212,7 +212,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.ADD_REACTIONS;
             var1 = var5.bind(var8)(var1, var13);
             var5 = undefined;
-            if(!var1) { _fun0001_ip = 796; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 795; continue _fun0001 }
  729:
             var1 = {'count': 0, 'burst_count': 0, 'me': false, 'me_burst': false};
             var8 = {};
@@ -227,7 +227,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['displayName'] = var9;
             var1['emoji'] = var8;
             var5 = var1;
- 796:
+ 795:
             var1 = {};
             var1['content'] = var7;
             var8 = _closure1_slot1;
@@ -241,20 +241,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.reactions;
             var8 = var7.length;
             var7 = 0;
-            if(!(!(var8 > var7))) { _fun0001_ip = 865; continue _fun0001 }
- 851:
-            if(!(var6 != var5)) { _fun0001_ip = 865; continue _fun0001 }
- 855:
+            if(!(!(var8 > var7))) { _fun0001_ip = 864; continue _fun0001 }
+ 850:
+            if(!(var6 != var5)) { _fun0001_ip = 864; continue _fun0001 }
+ 854:
             var6 = new Array(1);
             var6[0] = var5;
-            _fun0001_ip = 871; continue _fun0001;
- 865:
+            _fun0001_ip = 870; continue _fun0001;
+ 864:
             var6 = var4.reactions;
- 871:
+ 870:
             var5 = 'reactions';
             var1[var5] = var6;
             return var1;
- 882:
+ 881:
             var1 = {};
             var7 = _closure1_slot0;
             var6 = _closure1_slot2;

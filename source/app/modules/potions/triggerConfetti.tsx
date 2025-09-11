@@ -271,7 +271,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  41:
             var3 = _closure1_slot6;
             var3 = var3.bind(var1)();
-            if(!var3) { _fun0003_ip = 291; continue _fun0003 }
+            if(!var3) { _fun0003_ip = 289; continue _fun0003 }
  58:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -283,17 +283,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var8 = var5 == var3;
             var4 = undefined;
-            if(var8) { _fun0003_ip = 126; continue _fun0003 }
+            if(var8) { _fun0003_ip = 125; continue _fun0003 }
  100:
             var9 = var3.emoji;
             var8 = var5 == var9;
             var4 = undefined;
-            if(var8) { _fun0003_ip = 126; continue _fun0003 }
- 115:
+            if(var8) { _fun0003_ip = 125; continue _fun0003 }
+ 114:
             var8 = 0;
             var8 = var9[var8];
             var4 = var8.id;
- 126:
+ 125:
             var11 = var5 == var4;
             var4 = _closure1_slot7;
             var6 = var4.bind(var1)(var7, var6);
@@ -314,25 +314,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var14[var12];
             var12 = var13.bind(var1)(var12);
             var12 = var12.ConfettiTriggerEmojiType;
-            if(var11) { _fun0003_ip = 226; continue _fun0003 }
- 218:
+            if(var11) { _fun0003_ip = 225; continue _fun0003 }
+ 217:
             var11 = var12.UserCreated;
-            _fun0003_ip = 232; continue _fun0003;
- 226:
+            _fun0003_ip = 231; continue _fun0003;
+ 225:
             var11 = var12.Unicode;
- 232:
+ 231:
             var6['emoji_type'] = var11;
             var6['will_play'] = var4;
             var6['failure_reason'] = var10;
             var10 = arguments[3];
             var6['location'] = var10;
             var6 = var8.bind(var9)(var7, var6);
-            if(!var4) { _fun0003_ip = 267; continue _fun0003 }
- 263:
+            if(!var4) { _fun0003_ip = 266; continue _fun0003 }
+ 262:
             var4 = var5 != var3;
- 267:
-            if(!var4) { _fun0003_ip = 291; continue _fun0003 }
- 270:
+ 266:
+            if(!var4) { _fun0003_ip = 289; continue _fun0003 }
+ 269:
             var4 = var3.emoji;
             var3 = var4.forEach;
             var2 = function(arg1) {
@@ -354,7 +354,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var2 = var3.bind(var4)(var2);
- 291:
+ 289:
             return var1;
         }
     };
@@ -376,7 +376,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  35:
             var3 = _closure1_slot6;
             var3 = var3.bind(var1)();
-            if(!var3) { _fun0004_ip = 247; continue _fun0004 }
+            if(!var3) { _fun0004_ip = 246; continue _fun0004 }
  52:
             var7 = var6.id;
             var3 = null;
@@ -413,7 +413,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = arguments[3];
             var4['location'] = var10;
             var4 = var8.bind(var9)(var7, var4);
-            if(!var3) { _fun0004_ip = 247; continue _fun0004 }
+            if(!var3) { _fun0004_ip = 246; continue _fun0004 }
  195:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
@@ -427,7 +427,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['emoji'] = var6;
             var2['boundingRect'] = var5;
             var2 = var3.bind(var4)(var2);
- 247:
+ 246:
             return var1;
         }
     };

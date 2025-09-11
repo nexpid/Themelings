@@ -381,11 +381,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var2 = var2.bind(var4)(var1);
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0005_ip = 55; continue _fun0005 }
- 44:
+                    if(!(var1 != var2)) { _fun0005_ip = 56; continue _fun0005 }
+ 45:
                     var1 = var2.onKeyCommand;
                     var1 = var1.bind(var2)(var3);
- 55:
+ 56:
                     var1 = undefined;
                     return var1;
                 }

@@ -375,21 +375,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     var3 = _closure2_slot1;
-                    var1 = null;
-                    if(!(var1 != var3)) { _fun0005_ip = 64; continue _fun0005 }
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0005_ip = 70; continue _fun0005 }
  13:
-                    var5 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    var3 = 16;
-                    var4 = var4[var3];
-                    var3 = undefined;
-                    var4 = var5.bind(var3)(var4);
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 16;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
                     var3 = var4.showInstantInviteActionSheet;
                     var2 = _closure2_slot1;
-                    var1 = _closure1_slot13;
-                    var1 = var1.GUILD_PROGRESS;
+                    var1 = {};
+                    var5 = _closure1_slot13;
+                    var5 = var5.GUILD_PROGRESS;
+                    var1['source'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
- 64:
+ 70:
                     var1 = undefined;
                     return var1;
                 }

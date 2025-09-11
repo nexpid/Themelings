@@ -312,31 +312,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot10;
             var4 = var4[var2];
             var6 = null;
-            if(!(var6 != var4)) { _fun0007_ip = 235; continue _fun0007 }
- 61:
+            if(!(var6 != var4)) { _fun0007_ip = 234; continue _fun0007 }
+ 60:
             var10 = var4.firstMessage;
-            if(!(var6 != var10)) { _fun0007_ip = 235; continue _fun0007 }
- 74:
+            if(!(var6 != var10)) { _fun0007_ip = 234; continue _fun0007 }
+ 73:
             var10 = var4.firstMessage;
             var10 = var10.id;
-            if(!(var12 === var10)) { _fun0007_ip = 231; continue _fun0007 }
- 92:
+            if(!(var12 === var10)) { _fun0007_ip = 230; continue _fun0007 }
+ 91:
             var12 = _closure1_slot9;
             var10 = var12.getCurrentUser;
             var10 = var10.bind(var12)();
             var6 = var6 != var10;
-            if(!var6) { _fun0007_ip = 121; continue _fun0007 }
- 112:
+            if(!var6) { _fun0007_ip = 120; continue _fun0007 }
+ 111:
             var10 = var10.id;
             var6 = var10 === var11;
- 121:
-            if(!var9) { _fun0007_ip = 131; continue _fun0007 }
- 124:
-            if(var6) { _fun0007_ip = 131; continue _fun0007 }
- 127:
+ 120:
+            if(!var9) { _fun0007_ip = 130; continue _fun0007 }
+ 123:
+            if(var6) { _fun0007_ip = 130; continue _fun0007 }
+ 126:
             var9 = false;
             return var9;
- 131:
+ 130:
             var10 = _closure1_slot10;
             var9 = {};
             var16 = var9;
@@ -346,13 +346,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot10;
             var2 = var1[var2];
             var1 = 'MESSAGE_REACTION_ADD';
-            if(!(var1 !== var5)) { _fun0007_ip = 188; continue _fun0007 }
- 167:
+            if(!(var1 !== var5)) { _fun0007_ip = 187; continue _fun0007 }
+ 166:
             var5 = var4.firstMessage;
             var1 = var5.removeReaction;
             var1 = var1.bind(var5)(var8, var6, var7);
-            _fun0007_ip = 221; continue _fun0007;
- 188:
+            _fun0007_ip = 220; continue _fun0007;
+ 187:
             var5 = var4.firstMessage;
             var4 = var5.addReaction;
             var14 = var3.colors;
@@ -361,14 +361,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var6;
             var13 = var7;
             var1 = var17[var4](var16, var15, var14, var13, var12);
- 221:
+ 220:
             var2['firstMessage'] = var1;
             var1 = undefined;
             return var1;
- 231:
+ 230:
             var1 = false;
             return var1;
- 235:
+ 234:
             var1 = false;
             return var1;
         }
@@ -753,18 +753,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1[var5];
             var7 = null;
             var1 = var7 != var6;
-            if(!var1) { _fun0016_ip = 49; continue _fun0016 }
- 39:
+            if(!var1) { _fun0016_ip = 48; continue _fun0016 }
+ 38:
             var2 = var6.firstMessage;
             var1 = var7 != var2;
- 49:
-            if(!var1) { _fun0016_ip = 121; continue _fun0016 }
- 52:
+ 48:
+            if(!var1) { _fun0016_ip = 120; continue _fun0016 }
+ 51:
             var2 = var6.firstMessage;
             var2 = var2.id;
             var2 = var4 === var2;
-            if(!var2) { _fun0016_ip = 118; continue _fun0016 }
- 70:
+            if(!var2) { _fun0016_ip = 117; continue _fun0016 }
+ 69:
             var4 = _closure1_slot10;
             var3 = {};
             var10 = var3;
@@ -777,9 +777,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3[var6] = var7;
             var4[var5] = var3;
             var2 = undefined;
- 118:
+ 117:
             var1 = var2;
- 121:
+ 120:
             return var1;
         }
     };

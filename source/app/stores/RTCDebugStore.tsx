@@ -586,7 +586,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  64:
                 var1 = var3 == var6;
                 var4 = undefined;
-                if(var1) { _fun0007_ip = 92; continue _fun0007 }
+                if(var1) { _fun0007_ip = 93; continue _fun0007 }
  73:
                 var5 = var6.find;
                 var1 = function(arg1) {
@@ -597,22 +597,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var4 = var5.bind(var6)(var1);
- 92:
+ 93:
                 var1 = {};
                 var6 = var3 == var4;
                 var5 = undefined;
-                if(var6) { _fun0007_ip = 114; continue _fun0007 }
- 103:
+                if(var6) { _fun0007_ip = 115; continue _fun0007 }
+ 104:
                 var6 = var4.codec;
                 var5 = var6.name;
- 114:
+ 115:
                 var1['codec'] = var5;
                 var5 = var3 == var4;
                 var3 = undefined;
-                if(var5) { _fun0007_ip = 134; continue _fun0007 }
- 128:
+                if(var5) { _fun0007_ip = 135; continue _fun0007 }
+ 129:
                 var3 = var4.resolution;
- 134:
+ 135:
                 var1['resolution'] = var3;
                 var1['bitrateEstimate'] = var2;
                 return var1;
@@ -653,7 +653,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  74:
                 var2 = var5 == var8;
                 var4 = undefined;
-                if(var2) { _fun0008_ip = 102; continue _fun0008 }
+                if(var2) { _fun0008_ip = 103; continue _fun0008 }
  83:
                 var6 = var8.find;
                 var2 = function(arg1) {
@@ -664,26 +664,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var4 = var6.bind(var8)(var2);
- 102:
+ 103:
                 var2 = global;
                 var8 = var2.Array;
                 var6 = var8.isArray;
                 var9 = var5 == var1;
                 var2 = undefined;
-                if(var9) { _fun0008_ip = 130; continue _fun0008 }
- 124:
+                if(var9) { _fun0008_ip = 131; continue _fun0008 }
+ 125:
                 var2 = var1.availableOutgoingBitrate;
- 130:
+ 131:
                 var6 = var6.bind(var8)(var2);
-                if(!var6) { _fun0008_ip = 153; continue _fun0008 }
- 138:
+                if(!var6) { _fun0008_ip = 154; continue _fun0008 }
+ 139:
                 var2 = var1.availableOutgoingBitrate;
                 var2 = var2.length;
                 var6 = var2 > var7;
- 153:
+ 154:
                 var2 = undefined;
-                if(!var6) { _fun0008_ip = 191; continue _fun0008 }
- 158:
+                if(!var6) { _fun0008_ip = 192; continue _fun0008 }
+ 159:
                 var6 = var1.availableOutgoingBitrate;
                 var1 = var1.availableOutgoingBitrate;
                 var7 = var1.length;
@@ -691,22 +691,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var7 - var1;
                 var1 = var6[var1];
                 var2 = var1.value;
- 191:
+ 192:
                 var1 = {};
                 var7 = var5 == var4;
                 var6 = undefined;
-                if(var7) { _fun0008_ip = 213; continue _fun0008 }
- 202:
+                if(var7) { _fun0008_ip = 214; continue _fun0008 }
+ 203:
                 var7 = var4.codec;
                 var6 = var7.name;
- 213:
+ 214:
                 var1['codec'] = var6;
                 var5 = var5 == var4;
                 var3 = undefined;
-                if(var5) { _fun0008_ip = 233; continue _fun0008 }
- 227:
+                if(var5) { _fun0008_ip = 234; continue _fun0008 }
+ 228:
                 var3 = var4.resolution;
- 233:
+ 234:
                 var1['resolution'] = var3;
                 var1['bitrateEstimate'] = var2;
                 return var1;

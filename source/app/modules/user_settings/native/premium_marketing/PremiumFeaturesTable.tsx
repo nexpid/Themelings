@@ -1187,8 +1187,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {'style': null, 'accessibilityRole': 'header', 'variant': 'heading-xl/extrabold', 'color': 'header-primary', 'accessible': true};
             var14 = var10.headerText;
             var5['style'] = var14;
-            if(!(var13 == var12)) { _fun0003_ip = 2619; continue _fun0003 }
- 2567:
+            if(!(var13 == var12)) { _fun0003_ip = 2623; continue _fun0003 }
+ 2571:
             var16 = _closure1_slot0;
             var13 = _closure1_slot2;
             var14 = var13[var17];
@@ -1200,7 +1200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.t;
             var13 = var13.vLz3Zm;
             var12 = var14.bind(var15)(var13);
- 2619:
+ 2623:
             var5['children'] = var12;
             var7 = var8.bind(var4)(var7, var5);
             var5 = new Array(2);

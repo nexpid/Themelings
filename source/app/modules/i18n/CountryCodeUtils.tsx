@@ -28,10 +28,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             var3 = null;
-            if(!(var3 == var2)) { _fun0001_ip = 56; continue _fun0001 }
- 54:
+            if(!(var3 == var2)) { _fun0001_ip = 57; continue _fun0001 }
+ 55:
             return var1;
- 56:
+ 57:
             var1 = {};
             var3 = var2.name;
             var1['name'] = var3;
@@ -4419,10 +4419,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             var3 = null;
-            if(!(var3 == var2)) { _fun0002_ip = 56; continue _fun0002 }
- 54:
+            if(!(var3 == var2)) { _fun0002_ip = 57; continue _fun0002 }
+ 55:
             return var1;
- 56:
+ 57:
             var1 = {};
             var3 = var2.name;
             var1['name'] = var3;
@@ -4463,8 +4463,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = arg1;
             var2 = var4.length;
             var1 = 2;
-            if(!(var1 !== var2)) { _fun0003_ip = 117; continue _fun0003 }
- 15:
+            if(!(var1 !== var2)) { _fun0003_ip = 197; continue _fun0003 }
+ 18:
+            var2 = var4.length;
+            var1 = 3;
+            if(!(var1 === var2)) { _fun0003_ip = 132; continue _fun0003 }
+ 30:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 4;
@@ -4474,24 +4478,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.CountryCodesISO3to2;
             var1 = var1[var4];
             var2 = null;
-            if(!(var2 != var1)) { _fun0003_ip = 58; continue _fun0003 }
- 56:
+            if(!(var2 != var1)) { _fun0003_ip = 73; continue _fun0003 }
+ 71:
             return var1;
- 58:
+ 73:
             var1 = global;
             var3 = var1.Error;
             var1 = var1.HermesInternal;
             var5 = var1.concat;
             var2 = 'Could not find ';
             var1 = ' in CountryCodesISO3to2';
-            var7 = var5.bind(var2)(var4, var1);
+            var9 = var5.bind(var2)(var4, var1);
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});
-            var8 = var2;
-            var1 = new var8[var3](var7, var6);
+            var10 = var2;
+            var1 = new var10[var3](var9, var8);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
- 117:
+ 132:
+            var1 = global;
+            var3 = var1.Error;
+            var6 = var4.length;
+            var1 = var1.HermesInternal;
+            var5 = var1.concat;
+            var2 = 'Bad country code passed: ';
+            var1 = ' with length ';
+            var9 = var5.bind(var2)(var4, var1, var6);
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var10 = var2;
+            var1 = new var10[var3](var9, var8);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
+ 197:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
             var1 = 3;
@@ -4501,20 +4520,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.CountryCodes;
             var1 = var1[var4];
             var2 = null;
-            if(!(var2 != var1)) { _fun0003_ip = 160; continue _fun0003 }
- 158:
+            if(!(var2 != var1)) { _fun0003_ip = 240; continue _fun0003 }
+ 238:
             return var1;
- 160:
+ 240:
             var1 = global;
             var3 = var1.Error;
             var1 = var1.HermesInternal;
             var2 = var1.concat;
             var1 = 'Invalid country code alpha2 ';
-            var7 = var2.bind(var1)(var4);
+            var9 = var2.bind(var1)(var4);
             var2 = var3.prototype;
             var2 = Object.create(var2, {constructor: {value: var3}});
-            var8 = var2;
-            var1 = new var8[var3](var7, var6);
+            var10 = var2;
+            var1 = new var10[var3](var9, var8);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
         }

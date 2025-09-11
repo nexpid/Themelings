@@ -80,10 +80,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var15.isIOS;
         var15 = var14.bind(var15)();
         var14 = undefined;
-        if(!var15) { _fun0001_ip = 348; continue _fun0001 }
- 345:
+        if(!var15) { _fun0001_ip = 347; continue _fun0001 }
+ 344:
         var14 = 60;
- 348:
+ 347:
         var9['fontSize'] = var14;
         var14 = 74;
         var9['lineHeight'] = var14;
@@ -352,10 +352,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = null;
                 var13 = var10 != var12;
                 var10 = '';
-                if(!var13) { _fun0002_ip = 455; continue _fun0002 }
- 452:
+                if(!var13) { _fun0002_ip = 453; continue _fun0002 }
+ 450:
                 var10 = var12;
- 455:
+ 453:
                 var8['name'] = var10;
                 var9 = var3.bind(var4)(var9, var8);
                 var8 = new Array(3);
@@ -390,19 +390,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12['variant'] = var19;
                 var24 = _closure1_slot0;
                 var27 = _closure1_slot2;
-                if(var17) { _fun0002_ip = 621; continue _fun0002 }
- 601:
+                if(var17) { _fun0002_ip = 619; continue _fun0002 }
+ 599:
                 var19 = 22;
                 var19 = var27[var19];
                 var19 = var24.bind(var4)(var19);
                 var20 = var19.StarOutlineIcon;
-                _fun0002_ip = 639; continue _fun0002;
- 621:
+                _fun0002_ip = 637; continue _fun0002;
+ 619:
                 var19 = 21;
                 var19 = var27[var19];
                 var19 = var24.bind(var4)(var19);
                 var20 = var19.StarIcon;
- 639:
+ 637:
                 var19 = {};
                 var24 = var23.star;
                 var19['style'] = var24;
@@ -418,15 +418,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var19 = var19[var24];
                 var19 = var28.bind(var4)(var19);
                 var19 = var19.t;
-                if(var17) { _fun0002_ip = 721; continue _fun0002 }
- 708:
+                if(var17) { _fun0002_ip = 719; continue _fun0002 }
+ 706:
                 var17 = var19.yZFibW;
                 var17 = var20.bind(var27)(var17);
-                _fun0002_ip = 732; continue _fun0002;
- 721:
+                _fun0002_ip = 730; continue _fun0002;
+ 719:
                 var19 = var19.aBUcp6;
                 var17 = var20.bind(var27)(var19);
- 732:
+ 730:
                 var12['text'] = var17;
                 var12['onPress'] = var15;
                 var13 = var14.bind(var4)(var13, var12);
@@ -484,10 +484,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var24 = var23.border;
                 var20 = new Array(3);
                 var20[0] = var24;
-                if(!var22) { _fun0002_ip = 987; continue _fun0002 }
- 981:
+                if(!var22) { _fun0002_ip = 985; continue _fun0002 }
+ 979:
                 var22 = var23.borderPlaying;
- 987:
+ 985:
                 var20[1] = var22;
                 var20[2] = var21;
                 var17['style'] = var20;

@@ -1372,10 +1372,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.message;
             var3 = var2.channel_id;
             var1 = null;
-            if(!(var1 != var3)) { _fun0022_ip = 521; continue _fun0022 }
+            if(!(var1 != var3)) { _fun0022_ip = 583; continue _fun0022 }
  22:
             var3 = var2.id;
-            if(!(var1 != var3)) { _fun0022_ip = 521; continue _fun0022 }
+            if(!(var1 != var3)) { _fun0022_ip = 583; continue _fun0022 }
  34:
             var3 = var2.author;
             var4 = var1 == var3;
@@ -1388,33 +1388,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot10;
             var4 = var7.getId;
             var4 = var4.bind(var7)();
-            if(!(var6 !== var4)) { _fun0022_ip = 521; continue _fun0022 }
+            if(!(var6 !== var4)) { _fun0022_ip = 583; continue _fun0022 }
  80:
             var4 = var2.embeds;
-            if(!(var1 == var4)) { _fun0022_ip = 103; continue _fun0022 }
+            if(!(var1 == var4)) { _fun0022_ip = 138; continue _fun0022 }
  90:
             var4 = var2.attachments;
-            if(!(var1 != var4)) { _fun0022_ip = 517; continue _fun0022 }
- 103:
+            if(!(var1 == var4)) { _fun0022_ip = 138; continue _fun0022 }
+ 100:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 15;
+            var4 = var7[var4];
+            var6 = var6.bind(var5)(var4);
+            var4 = var6.hasMessageSnapshotsWithAttachmentsOrEmbeds;
+            var4 = var4.bind(var6)(var2);
+            if(var4) { _fun0022_ip = 138; continue _fun0022 }
+ 134:
+            var4 = false;
+            return var4;
+ 138:
             var6 = var2.embeds;
             var7 = var1 == var6;
             var4 = undefined;
-            if(var7) { _fun0022_ip = 123; continue _fun0022 }
- 118:
+            if(var7) { _fun0022_ip = 158; continue _fun0022 }
+ 153:
             var4 = var6.length;
- 123:
+ 158:
             var6 = 0;
-            if(!(var6 === var4)) { _fun0022_ip = 156; continue _fun0022 }
- 129:
+            if(!(var6 === var4)) { _fun0022_ip = 226; continue _fun0022 }
+ 164:
             var7 = var2.attachments;
             var8 = var1 == var7;
             var4 = undefined;
-            if(var8) { _fun0022_ip = 149; continue _fun0022 }
- 144:
+            if(var8) { _fun0022_ip = 184; continue _fun0022 }
+ 179:
             var4 = var7.length;
- 149:
-            if(!(var6 !== var4)) { _fun0022_ip = 513; continue _fun0022 }
- 156:
+ 184:
+            if(!(var6 === var4)) { _fun0022_ip = 226; continue _fun0022 }
+ 188:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot2;
+            var4 = 15;
+            var4 = var7[var4];
+            var6 = var6.bind(var5)(var4);
+            var4 = var6.hasMessageSnapshotsWithAttachmentsOrEmbeds;
+            var4 = var4.bind(var6)(var2);
+            if(var4) { _fun0022_ip = 226; continue _fun0022 }
+ 222:
+            var4 = false;
+            return var4;
+ 226:
             var7 = _closure1_slot0;
             var4 = _closure1_slot2;
             var6 = 16;
@@ -1422,23 +1446,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var5)(var4);
             var4 = var7.hasUnscannedMedia;
             var4 = var4.bind(var7)(var2);
-            if(var4) { _fun0022_ip = 400; continue _fun0022 }
- 193:
+            if(var4) { _fun0022_ip = 470; continue _fun0022 }
+ 263:
             var9 = _closure1_slot13;
             var8 = var9.getMessage;
             var7 = var2.channel_id;
             var4 = var2.id;
             var7 = var8.bind(var9)(var7, var4);
-            if(!(var1 == var7)) { _fun0022_ip = 249; continue _fun0022 }
- 223:
+            if(!(var1 == var7)) { _fun0022_ip = 319; continue _fun0022 }
+ 293:
             var10 = _closure1_slot16;
             var9 = var10.getMessage;
             var8 = var2.id;
             var4 = var2.channel_id;
             var7 = var9.bind(var10)(var8, var4);
- 249:
-            if(!(var1 == var7)) { _fun0022_ip = 296; continue _fun0022 }
- 253:
+ 319:
+            if(!(var1 == var7)) { _fun0022_ip = 366; continue _fun0022 }
+ 323:
             var10 = _closure1_slot8;
             var9 = var10.getMessage;
             var8 = var2.channel_id;
@@ -1446,15 +1470,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var9.bind(var10)(var8, var4);
             var9 = var1 == var8;
             var4 = undefined;
-            if(var9) { _fun0022_ip = 293; continue _fun0022 }
- 288:
+            if(var9) { _fun0022_ip = 363; continue _fun0022 }
+ 358:
             var4 = var8.message;
- 293:
+ 363:
             var7 = var4;
- 296:
+ 366:
             var4 = var1 == var7;
-            if(var4) { _fun0022_ip = 355; continue _fun0022 }
- 303:
+            if(var4) { _fun0022_ip = 425; continue _fun0022 }
+ 373:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var6 = var11[var6];
@@ -1466,9 +1490,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var10.updateMessageRecord;
             var6 = var6.bind(var10)(var7, var2);
             var4 = var8.bind(var9)(var6);
- 355:
-            if(var4) { _fun0022_ip = 400; continue _fun0022 }
- 358:
+ 425:
+            if(var4) { _fun0022_ip = 470; continue _fun0022 }
+ 428:
             var6 = _closure1_slot24;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -1478,7 +1502,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.TimeoutCancelSource;
             var4 = var4.UPDATE;
             var4 = var6.bind(var5)(var7, var4);
- 400:
+ 470:
             var6 = _closure1_slot14;
             var4 = var6.getChannelId;
             var7 = var4.bind(var6)();
@@ -1486,22 +1510,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.getCurrentSidebarChannelId;
             var6 = var4.bind(var6)(var7);
             var4 = var2.channel_id;
-            if(!(var4 !== var7)) { _fun0022_ip = 451; continue _fun0022 }
- 438:
+            if(!(var4 !== var7)) { _fun0022_ip = 521; continue _fun0022 }
+ 508:
             var4 = var2.channel_id;
-            if(!(var4 !== var6)) { _fun0022_ip = 451; continue _fun0022 }
- 447:
+            if(!(var4 !== var6)) { _fun0022_ip = 521; continue _fun0022 }
+ 517:
             var4 = false;
             return var4;
- 451:
+ 521:
             var7 = _closure1_slot13;
             var6 = var7.getMessage;
             var4 = var2.channel_id;
             var2 = var2.id;
             var2 = var6.bind(var7)(var4, var2);
             var1 = var1 != var2;
-            if(!var1) { _fun0022_ip = 511; continue _fun0022 }
- 484:
+            if(!var1) { _fun0022_ip = 581; continue _fun0022 }
+ 554:
             var4 = _closure1_slot28;
             var3 = new Array(1);
             var3[0] = var2;
@@ -1509,15 +1533,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = true;
             var2['isMessageUpdate'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 511:
+ 581:
             return var1;
- 513:
-            var1 = false;
-            return var1;
- 517:
-            var1 = false;
-            return var1;
- 521:
+ 583:
             var1 = false;
             return var1;
         }

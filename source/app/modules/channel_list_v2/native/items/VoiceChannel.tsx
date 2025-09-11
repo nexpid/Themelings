@@ -429,7 +429,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['channelInfo'] = var6;
             var6 = var14.length;
             var5 = null;
-            if(!(var7 !== var6)) { _fun0002_ip = 933; continue _fun0002 }
+            if(!(var7 !== var6)) { _fun0002_ip = 929; continue _fun0002 }
  687:
             if(var13) { _fun0002_ip = 771; continue _fun0002 }
  690:
@@ -451,7 +451,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var8.bind(var4)(var12, var10);
             var6['children'] = var10;
             var5 = var8.bind(var4)(var7, var6);
-            _fun0002_ip = 933; continue _fun0002;
+            _fun0002_ip = 929; continue _fun0002;
  771:
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -489,7 +489,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var8.bind(var4)(var10, var9);
             var6['children'] = var9;
             var5 = var8.bind(var4)(var7, var6);
- 933:
+ 929:
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;

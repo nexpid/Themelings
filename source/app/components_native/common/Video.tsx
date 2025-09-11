@@ -131,70 +131,75 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var1 = arg1;
-            var22 = var1.style;
-            var21 = var1.source;
-            var19 = var1.poster;
+            var23 = var1.style;
+            var22 = var1.source;
+            var20 = var1.poster;
             var12 = var1.onLoadStart;
             var11 = var1.onLoad;
             var10 = var1.onError;
             var9 = var1.onEnd;
-            var15 = var1.paused;
+            var16 = var1.paused;
             var4 = undefined;
-            if(!(var15 === var4)) { _fun0002_ip = 59; continue _fun0002 }
+            if(!(var16 === var4)) { _fun0002_ip = 59; continue _fun0002 }
  57:
-            var15 = false;
+            var16 = false;
  59:
-            var18 = var1.muted;
-            if(!(var18 === var4)) { _fun0002_ip = 71; continue _fun0002 }
+            var19 = var1.muted;
+            if(!(var19 === var4)) { _fun0002_ip = 71; continue _fun0002 }
  69:
-            var18 = true;
+            var19 = true;
  71:
-            var14 = var1.posterResizeMode;
-            if(!(var14 === var4)) { _fun0002_ip = 85; continue _fun0002 }
+            var15 = var1.posterResizeMode;
+            if(!(var15 === var4)) { _fun0002_ip = 85; continue _fun0002 }
  81:
-            var14 = 'contain';
+            var15 = 'contain';
  85:
-            var13 = var1.resizeMode;
-            if(!(var13 === var4)) { _fun0002_ip = 99; continue _fun0002 }
+            var14 = var1.resizeMode;
+            if(!(var14 === var4)) { _fun0002_ip = 99; continue _fun0002 }
  95:
-            var13 = 'contain';
+            var14 = 'contain';
  99:
             var8 = var1.disableFocus;
             var6 = var1.controls;
             var7 = var1.ariaHidden;
             var5 = var1.mixWithOthers;
-            var20 = var1.importantForAccessibility;
-            var16 = var1.pauseWhileAppInactive;
-            if(!(var16 === var4)) { _fun0002_ip = 141; continue _fun0002 }
+            var21 = var1.importantForAccessibility;
+            var17 = var1.pauseWhileAppInactive;
+            if(!(var17 === var4)) { _fun0002_ip = 141; continue _fun0002 }
  139:
-            var16 = true;
+            var17 = true;
  141:
-            var _closure2_slot0 = var16;
+            var _closure2_slot0 = var17;
+            var13 = var1.playInBackground;
+            if(!(var13 === var4)) { _fun0002_ip = 157; continue _fun0002 }
+ 155:
+            var13 = false;
+ 157:
             var _closure2_slot1 = var4;
-            var17 = _closure1_slot0;
-            var23 = _closure1_slot1;
+            var18 = _closure1_slot0;
+            var24 = _closure1_slot1;
             var3 = 10;
-            var3 = var23[var3];
-            var3 = var17.bind(var4)(var3);
+            var3 = var24[var3];
+            var3 = var18.bind(var4)(var3);
             var3 = var3.default;
-            var25 = _closure1_slot8;
-            var23 = var25.useState;
-            var17 = _closure1_slot12;
-            var24 = var17.currentState;
-            var17 = 'active';
-            var17 = var17 === var24;
-            var24 = var23.bind(var25)(var17);
-            var23 = _closure1_slot7;
-            var17 = 2;
-            var24 = var23.bind(var4)(var24, var17);
-            var17 = 0;
-            var17 = var24[var17];
-            var23 = 1;
-            var23 = var24[var23];
-            _closure2_slot1 = var23;
-            var24 = var25.useEffect;
-            var23 = new Array(1);
-            var23[0] = var16;
+            var26 = _closure1_slot8;
+            var24 = var26.useState;
+            var18 = _closure1_slot12;
+            var25 = var18.currentState;
+            var18 = 'active';
+            var18 = var18 === var25;
+            var25 = var24.bind(var26)(var18);
+            var24 = _closure1_slot7;
+            var18 = 2;
+            var25 = var24.bind(var4)(var25, var18);
+            var18 = 0;
+            var18 = var25[var18];
+            var24 = 1;
+            var24 = var25[var24];
+            _closure2_slot1 = var24;
+            var25 = var26.useEffect;
+            var24 = new Array(1);
+            var24[0] = var17;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -228,29 +233,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var2 = var24.bind(var25)(var2, var23);
+            var2 = var25.bind(var26)(var2, var24);
             var2 = _closure1_slot13;
             var1 = {};
-            var1['style'] = var22;
-            var1['source'] = var21;
-            var1['importantForAccessibility'] = var20;
-            var1['poster'] = var19;
-            var1['muted'] = var18;
-            if(var15) { _fun0002_ip = 304; continue _fun0002 }
- 295:
-            if(!var16) { _fun0002_ip = 301; continue _fun0002 }
- 298:
-            var16 = !var17;
- 301:
-            var15 = var16;
- 304:
-            var1['paused'] = var15;
-            var1['posterResizeMode'] = var14;
-            var1['resizeMode'] = var13;
-            var13 = true;
-            var1['repeat'] = var13;
-            var13 = false;
+            var1['style'] = var23;
+            var1['source'] = var22;
+            var1['importantForAccessibility'] = var21;
+            var1['poster'] = var20;
+            var1['muted'] = var19;
+            if(var16) { _fun0002_ip = 316; continue _fun0002 }
+ 307:
+            if(!var17) { _fun0002_ip = 313; continue _fun0002 }
+ 310:
+            var17 = !var18;
+ 313:
+            var16 = var17;
+ 316:
+            var1['paused'] = var16;
+            var1['posterResizeMode'] = var15;
+            var1['resizeMode'] = var14;
+            var14 = true;
+            var1['repeat'] = var14;
             var1['playInBackground'] = var13;
+            var13 = false;
+            var1['pictureInPicture'] = var13;
             var1['playWhenInactive'] = var13;
             var1['onLoadStart'] = var12;
             var1['onLoad'] = var11;
@@ -262,25 +268,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var8 = var5 == var6;
             var7 = undefined;
-            if(var8) { _fun0002_ip = 403; continue _fun0002 }
- 384:
+            if(var8) { _fun0002_ip = 420; continue _fun0002 }
+ 401:
             var8 = var6.props;
             var9 = var5 == var8;
             var7 = undefined;
-            if(var9) { _fun0002_ip = 403; continue _fun0002 }
- 398:
+            if(var9) { _fun0002_ip = 420; continue _fun0002 }
+ 415:
             var7 = var8.ref;
- 403:
+ 420:
             var1['ref'] = var7;
             var7 = var5 == var6;
             var5 = undefined;
-            if(var7) { _fun0002_ip = 421; continue _fun0002 }
- 416:
+            if(var7) { _fun0002_ip = 438; continue _fun0002 }
+ 433:
             var5 = var6.props;
- 421:
-            var28 = var1;
-            var27 = var5;
-            var5 = copyDataProperties(var28, var27);
+ 438:
+            var29 = var1;
+            var28 = var5;
+            var5 = copyDataProperties(var29, var28);
             var1 = var2.bind(var4)(var3, var1);
             return var1;
         }

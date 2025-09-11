@@ -903,16 +903,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var30 = var30.GroupPlusIcon;
                     var21['IconComponent'] = var30;
                     var30 = function onPress() {
-                        var4 = _closure1_slot0;
-                        var3 = _closure1_slot2;
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot2;
                         var1 = 34;
-                        var3 = var3[var1];
+                        var2 = var2[var1];
                         var1 = undefined;
-                        var5 = var4.bind(var1)(var3);
+                        var5 = var3.bind(var1)(var2);
                         var4 = var5.showInstantInviteActionSheet;
                         var3 = _closure3_slot0;
-                        var2 = _closure1_slot25;
-                        var2 = var2.CONTEXT_MENU;
+                        var2 = {};
+                        var6 = _closure1_slot25;
+                        var6 = var6.CONTEXT_MENU;
+                        var2['source'] = var6;
                         var2 = var4.bind(var5)(var3, var2);
                         return var1;
                     };

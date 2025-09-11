@@ -19,13 +19,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = arg1;
                     var2 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=7);
-                    if(var8) { _fun0001_ip = 559; continue _fun0001 }
+                    if(var8) { _fun0001_ip = 571; continue _fun0001 }
  18:
                     var5 = var3;
                     var _closure4_slot0 = var3;
                     var4 = var2;
                     var _closure4_slot1 = var2;
-                    var11 = arg3;
+                    var10 = arg3;
                     var2 = undefined;
                     var7 = undefined;
  39: // try_start_0
@@ -43,77 +43,80 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var3.AccessibilityAnnouncer;
                     var8 = var9.announce;
                     var3 = 19;
-                    var10 = var16[var3];
-                    var10 = var15.bind(var2)(var10);
-                    var14 = var10.intl;
-                    var10 = var14.string;
+                    var12 = var16[var3];
+                    var12 = var15.bind(var2)(var12);
+                    var14 = var12.intl;
+                    var12 = var14.string;
                     var3 = var16[var3];
                     var3 = var15.bind(var2)(var3);
                     var3 = var3.t;
                     var3 = var3.kC3ZRE;
-                    var3 = var10.bind(var14)(var3);
+                    var3 = var12.bind(var14)(var3);
                     var3 = var8.bind(var9)(var3);
-                    var10 = _closure1_slot5;
-                    var9 = var10.getDefaultChannel;
+                    var12 = _closure1_slot5;
+                    var9 = var12.getDefaultChannel;
                     var3 = _closure1_slot14;
                     var8 = var3.CREATE_INSTANT_INVITE;
                     var3 = true;
-                    var8 = var9.bind(var10)(var13, var3, var8);
-                    var7 = var8;
-                    var10 = null;
-                    if(!(var10 != var8)) { _fun0001_ip = 426; continue _fun0001 }
+                    var9 = var9.bind(var12)(var13, var3, var8);
+                    var7 = var9;
+                    var8 = null;
+                    if(!(var8 != var9)) { _fun0001_ip = 438; continue _fun0001 }
  196:
-                    var15 = _closure1_slot1;
-                    var16 = _closure1_slot2;
+                    var14 = _closure1_slot1;
+                    var15 = _closure1_slot2;
                     var8 = 20;
-                    var8 = var16[var8];
-                    var13 = var15.bind(var2)(var8);
-                    var9 = var13.createInvite;
+                    var8 = var15[var8];
+                    var12 = var14.bind(var2)(var8);
+                    var9 = var12.createInvite;
                     var8 = var7.id;
                     var7 = {};
-                    var14 = 21;
-                    var17 = var16[var14];
-                    var17 = var15.bind(var2)(var17);
-                    var17 = var17.INVITE_OPTIONS_ONCE;
-                    var17 = var17.value;
-                    var7['max_uses'] = var17;
-                    var14 = var16[var14];
-                    var14 = var15.bind(var2)(var14);
-                    var14 = var14.INVITE_OPTIONS_7_DAYS;
-                    var14 = var14.value;
-                    var7['max_age'] = var14;
+                    var13 = 21;
+                    var16 = var15[var13];
+                    var16 = var14.bind(var2)(var16);
+                    var16 = var16.INVITE_OPTIONS_ONCE;
+                    var16 = var16.value;
+                    var7['max_uses'] = var16;
+                    var13 = var15[var13];
+                    var13 = var14.bind(var2)(var13);
+                    var13 = var13.INVITE_OPTIONS_7_DAYS;
+                    var13 = var13.value;
+                    var7['max_age'] = var13;
                     var7['unique'] = var3;
-                    var3 = var11;
-                    var3 = var9.bind(var13)(var8, var7, var3);
+                    var3 = var10;
+                    var3 = var9.bind(var12)(var8, var7, var3);
                     SaveGenerator(address=301);
  299:
                     return var3;
  301:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 423; continue _fun0001 }
- 307:
+                    if(var7) { _fun0001_ip = 435; continue _fun0001 }
+ 310:
                     var8 = _closure1_slot1;
-                    var15 = _closure1_slot2;
-                    var13 = 22;
-                    var7 = var15[var13];
+                    var14 = _closure1_slot2;
+                    var12 = 22;
+                    var7 = var14[var12];
                     var9 = var8.bind(var2)(var7);
                     var8 = var9.enqueue;
                     var7 = {};
-                    var14 = var3.code;
-                    var7['inviteKey'] = var14;
-                    var14 = _closure1_slot0;
-                    var13 = var15[var13];
-                    var13 = var14.bind(var2)(var13);
-                    var13 = var13.InvitePropertiesType;
-                    var13 = var13.USER;
-                    var7['type'] = var13;
-                    var14 = _closure1_slot11;
-                    var13 = var14.getUser;
-                    var12 = var5;
-                    var12 = var13.bind(var14)(var12);
-                    var7['user'] = var12;
+                    var13 = var3.code;
+                    var7['inviteKey'] = var13;
+                    var13 = _closure1_slot0;
+                    var12 = var14[var12];
+                    var12 = var13.bind(var2)(var12);
+                    var12 = var12.InvitePropertiesType;
+                    var12 = var12.USER;
+                    var7['type'] = var12;
+                    var13 = _closure1_slot11;
+                    var12 = var13.getUser;
+                    var11 = var5;
+                    var11 = var12.bind(var13)(var11);
+                    var7['user'] = var11;
+                    var11 = var10;
                     var7['location'] = var11;
-                    var7['suggested'] = var10;
+                    var10 = {};
+                    var10['source'] = var11;
+                    var7['inviteAnalyticsMetadata'] = var10;
                     var6 = function() {
                         var6 = _closure1_slot12;
                         var5 = _closure4_slot0;
@@ -143,16 +146,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var6 = var8.bind(var9)(var7, var6);
- 418: // try_end0
-                    _fun0001_ip = 556; continue _fun0001;
- 423:
+ 430: // try_end0
+                    _fun0001_ip = 568; continue _fun0001;
+ 435:
                     return var3;
- 426: // try_start_1
+ 438: // try_start_1
                     var3 = global;
                     var3 = var3.Error;
                     var3 = var3.bind(var2)();
                     throw var3;
- 440: // try_end1 // catch_target0 // catch_target1
+ 452: // try_end1 // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=2);
                     var7 = _closure1_slot12;
                     var6 = var5;
@@ -178,9 +181,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.fEptJC;
                     var3 = var6.bind(var7)(var3);
                     var3 = var4.bind(var5)(var3);
- 556:
+ 568:
                     return var2;
- 559:
+ 571:
                     return var1;
                 }
             };

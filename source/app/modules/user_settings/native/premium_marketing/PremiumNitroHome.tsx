@@ -530,30 +530,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['title'] = var14;
             var10 = _closure1_slot13;
             var10 = var10.FP_ONLY;
-            if(!(var13 !== var10)) { _fun0003_ip = 812; continue _fun0003 }
- 786:
+            if(!(var13 !== var10)) { _fun0003_ip = 811; continue _fun0003 }
+ 785:
             var13 = var12.entranceSounds;
             var10 = new Array(2);
             var10[0] = var13;
             var13 = var12.badge;
             var10[1] = var13;
-            _fun0003_ip = 855; continue _fun0003;
- 812:
+            _fun0003_ip = 854; continue _fun0003;
+ 811:
             var13 = var12.entranceSounds;
-            if(var11) { _fun0003_ip = 841; continue _fun0003 }
- 821:
+            if(var11) { _fun0003_ip = 840; continue _fun0003 }
+ 820:
             var11 = new Array(2);
             var11[0] = var13;
             var12 = var12.greyBadge;
             var11[1] = var12;
-            _fun0003_ip = 852; continue _fun0003;
- 841:
+            _fun0003_ip = 851; continue _fun0003;
+ 840:
             var12 = new Array(1);
             var12[0] = var13;
             var11 = var12;
- 852:
+ 851:
             var10 = var11;
- 855:
+ 854:
             var6['perks'] = var10;
             var9 = function onItemChange(arg1) {
                 var4 = _closure2_slot0;

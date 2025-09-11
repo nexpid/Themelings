@@ -45,11 +45,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var19 = var9.bind(var15)(var3, var8);
             var9 = null;
-            if(!(var9 == var13)) { _fun0001_ip = 148; continue _fun0001 }
- 140:
+            if(!(var9 == var13)) { _fun0001_ip = 150; continue _fun0001 }
+ 142:
             var3 = _closure1_slot9;
             var13 = var3[var5];
- 148:
+ 150:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = var5[var2];
@@ -145,20 +145,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['guildId'] = var4;
             var5['cutout'] = var8;
             var5['animate'] = var10;
-            if(!(var9 != var11)) { _fun0001_ip = 332; continue _fun0001 }
- 318:
+            if(!(var9 != var11)) { _fun0001_ip = 336; continue _fun0001 }
+ 322:
             var8 = {};
             var19 = 0;
             var19 = var11[var19];
             var8['user'] = var19;
-            _fun0001_ip = 347; continue _fun0001;
- 332:
+            _fun0001_ip = 351; continue _fun0001;
+ 336:
             var19 = {};
             var20 = 0;
             var20 = var12[var20];
             var19['source'] = var20;
             var8 = var19;
- 347:
+ 351:
             var22 = var5;
             var21 = var8;
             var8 = copyDataProperties(var22, var21);
@@ -181,20 +181,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['size'] = var13;
             var6['guildId'] = var4;
             var6['animate'] = var10;
-            if(!(var9 != var11)) { _fun0001_ip = 460; continue _fun0001 }
- 445:
+            if(!(var9 != var11)) { _fun0001_ip = 464; continue _fun0001 }
+ 449:
             var9 = {};
             var10 = 1;
             var10 = var11[var10];
             var9['user'] = var10;
-            _fun0001_ip = 476; continue _fun0001;
- 460:
+            _fun0001_ip = 480; continue _fun0001;
+ 464:
             var10 = {};
             var11 = 1;
             var11 = var12[var11];
             var10['source'] = var11;
             var9 = var10;
- 476:
+ 480:
             var22 = var6;
             var21 = var9;
             var9 = copyDataProperties(var22, var21);
@@ -382,20 +382,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var4.bind(var14)(var3, var1);
             var3 = var9.icon;
             var1 = null;
-            if(!(var1 == var3)) { _fun0002_ip = 297; continue _fun0002 }
- 120:
+            if(!(var1 == var3)) { _fun0002_ip = 299; continue _fun0002 }
+ 122:
             var1 = var9.recipients;
             var1 = var1.length;
             var14 = 0;
-            if(!(var14 !== var1)) { _fun0002_ip = 297; continue _fun0002 }
- 140:
+            if(!(var14 !== var1)) { _fun0002_ip = 299; continue _fun0002 }
+ 142:
             var1 = var15.length;
-            if(!(var14 !== var1)) { _fun0002_ip = 297; continue _fun0002 }
- 152:
+            if(!(var14 !== var1)) { _fun0002_ip = 299; continue _fun0002 }
+ 154:
             var3 = var15.length;
             var1 = 1;
-            if(!(var1 !== var3)) { _fun0002_ip = 218; continue _fun0002 }
- 164:
+            if(!(var1 !== var3)) { _fun0002_ip = 220; continue _fun0002 }
+ 166:
             var4 = _closure1_slot7;
             var3 = _closure1_slot11;
             var1 = {};
@@ -408,8 +408,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['accessible'] = var7;
             var1['accessibilityLabel'] = var6;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0002_ip = 295; continue _fun0002;
- 218:
+            _fun0002_ip = 297; continue _fun0002;
+ 220:
             var13 = _closure1_slot7;
             var4 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -429,9 +429,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['accessible'] = var7;
             var3['accessibilityLabel'] = var6;
             var1 = var13.bind(var5)(var4, var3);
- 295:
-            _fun0002_ip = 366; continue _fun0002;
  297:
+            _fun0002_ip = 368; continue _fun0002;
+ 299:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var13 = _closure1_slot2;
@@ -449,7 +449,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['accessible'] = var7;
             var2['accessibilityLabel'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 366:
+ 368:
             return var1;
         }
     };

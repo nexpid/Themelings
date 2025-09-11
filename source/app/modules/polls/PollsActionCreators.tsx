@@ -208,7 +208,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var4 == var1;
                     var1 = undefined;
                     var5 = undefined;
-                    if(var6) { _fun0005_ip = 65; continue _fun0005 }
+                    if(var6) { _fun0005_ip = 66; continue _fun0005 }
  29:
                     var7 = _closure2_slot0;
                     var6 = var7.find;
@@ -226,27 +226,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var6.bind(var7)(var2);
                     var6 = var4 == var2;
                     var5 = undefined;
-                    if(var6) { _fun0005_ip = 65; continue _fun0005 }
- 59:
+                    if(var6) { _fun0005_ip = 66; continue _fun0005 }
+ 60:
                     var5 = var2.poll_media;
- 65:
+ 66:
                     var6 = var4 == var5;
                     var2 = undefined;
-                    if(var6) { _fun0005_ip = 79; continue _fun0005 }
- 74:
+                    if(var6) { _fun0005_ip = 80; continue _fun0005 }
+ 75:
                     var2 = var5.text;
- 79:
-                    if(!(var4 != var2)) { _fun0005_ip = 98; continue _fun0005 }
- 83:
+ 80:
+                    if(!(var4 != var2)) { _fun0005_ip = 99; continue _fun0005 }
+ 84:
                     var6 = _closure2_slot1;
                     var2 = 1;
                     var2 = var6 + var2;
                     _closure2_slot1 = var2;
- 98:
+ 99:
                     var6 = var4 == var5;
                     var2 = undefined;
                     if(var6) { _fun0005_ip = 113; continue _fun0005 }
- 107:
+ 108:
                     var2 = var5.emoji;
  113:
                     if(!(var4 != var2)) { _fun0005_ip = 132; continue _fun0005 }
@@ -502,11 +502,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     if(!(var1 !== var3)) { _fun0009_ip = 21; continue _fun0009 }
  15:
                     var1 = new Array(0);
-                    _fun0009_ip = 32; continue _fun0009;
+                    _fun0009_ip = 31; continue _fun0009;
  21:
                     var2 = var2.emoji;
                     var1 = var2.name;
- 32:
+ 31:
                     return var1;
                 }
             };
@@ -622,7 +622,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = true;
                             var3 = 21;
                             var1 = undefined;
-                            if(!var2) { _fun0011_ip = 175; continue _fun0011 }
+                            if(!var2) { _fun0011_ip = 171; continue _fun0011 }
  39:
                             var2 = var9[var8];
                             var15 = var2.id;
@@ -655,7 +655,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var8 = var8 + 1;
                             var2 = var9.length;
                             if(var8 < var2) { _fun0011_ip = 39; continue _fun0011 }
- 175:
+ 171:
                             return var1;
                         }
                     };
@@ -1570,31 +1570,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var1 = var1.image;
                             var5 = var4 == var1;
                             var3 = undefined;
-                            if(var5) { _fun0020_ip = 197; continue _fun0020 }
+                            if(var5) { _fun0020_ip = 196; continue _fun0020 }
  191:
                             var3 = var1.emoji;
- 197:
-                            if(!(var4 != var3)) { _fun0020_ip = 265; continue _fun0020 }
- 201:
+ 196:
+                            if(!(var4 != var3)) { _fun0020_ip = 264; continue _fun0020 }
+ 200:
                             var1 = var3.id;
-                            if(!(var4 == var1)) { _fun0020_ip = 240; continue _fun0020 }
- 210:
+                            if(!(var4 == var1)) { _fun0020_ip = 239; continue _fun0020 }
+ 209:
                             var1 = var3.optionallyDiverseSequence;
-                            if(!(var4 != var1)) { _fun0020_ip = 265; continue _fun0020 }
- 220:
+                            if(!(var4 != var1)) { _fun0020_ip = 264; continue _fun0020 }
+ 219:
                             var1 = {};
                             var4 = var3.optionallyDiverseSequence;
                             var1['name'] = var4;
                             var2['emoji'] = var1;
-                            _fun0020_ip = 265; continue _fun0020;
- 240:
+                            _fun0020_ip = 264; continue _fun0020;
+ 239:
                             var1 = {};
                             var3 = var3.id;
                             var1['id'] = var3;
                             var3 = '';
                             var1['name'] = var3;
                             var2['emoji'] = var1;
- 265:
+ 264:
                             var1 = {};
                             var1['poll_media'] = var2;
                             return var1;

@@ -728,14 +728,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.onDelete;
             var12 = var10 == var12;
             var10 = null;
-            if(var12) { _fun0001_ip = 1604; continue _fun0001 }
- 1583:
+            if(var12) { _fun0001_ip = 1603; continue _fun0001 }
+ 1582:
             var13 = _closure1_slot11;
             var12 = _closure1_slot14;
             var11 = {};
             var11['onDelete'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 1604:
+ 1603:
             var9[6] = var10;
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);

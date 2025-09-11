@@ -549,6 +549,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['QUERY_SET'] = var5;
     var5 = 'QUERY_CLEAR';
     var2['QUERY_CLEAR'] = var5;
+    var5 = 'REQUEST_DEBUG_STATE';
+    var2['REQUEST_DEBUG_STATE'] = var5;
+    var5 = 'DEBUG_STATE';
+    var2['DEBUG_STATE'] = var5;
     var _closure1_slot16 = var2;
     var2 = function() {
         var4 = _closure1_slot8;
@@ -1712,7 +1716,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var5['value'] = var1;
-        var1 = new Array(5);
+        var1 = new Array(6);
         var1[0] = var5;
         var5 = {};
         var7 = '_terminate';
@@ -1886,7 +1890,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = {};
         var7 = 'getUserSearchContext';
         var5['key'] = var7;
-        var6 = function value(arg1) {
+        var7 = function value(arg1) {
             _fun0032: for(var _fun0032_ip = 0; ; ) switch(_fun0032_ip) {
  0:
                 var5 = arguments[1];
@@ -1924,8 +1928,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 throw var1;
             }
         };
-        var5['value'] = var6;
+        var5['value'] = var7;
         var1[4] = var5;
+        var5 = {};
+        var7 = 'requestDebugState';
+        var5['key'] = var7;
+        var6 = function value() {
+            var1 = global;
+            var3 = var1.Promise;
+            var2 = var3.resolve;
+            var1 = null;
+            var1 = var2.bind(var3)(var1);
+            return var1;
+        };
+        var5['value'] = var6;
+        var1[5] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };

@@ -199,7 +199,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = arg1;
             var3 = var5.remotePartyId;
             var1 = null;
-            if(!(var1 == var3)) { _fun0002_ip = 33; continue _fun0002 }
+            if(!(var1 == var3)) { _fun0002_ip = 31; continue _fun0002 }
  17:
             var3 = function joinViaDeeplink(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -227,7 +227,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  81:
                     var _closure3_slot0 = var6;
                     var5 = null;
-                    if(!(var5 != var6)) { _fun0003_ip = 110; continue _fun0003 }
+                    if(!(var5 != var6)) { _fun0003_ip = 108; continue _fun0003 }
  91:
                     var2 = _closure1_slot6;
                     var1 = function(arg1) {
@@ -242,21 +242,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var2.bind(var3)(var4, var1);
-                    _fun0003_ip = 131; continue _fun0003;
- 110:
+                    _fun0003_ip = 129; continue _fun0003;
+ 108:
                     var2 = global;
                     var4 = var2.Promise;
                     var3 = var4.resolve;
                     var2 = false;
                     var1 = var3.bind(var4)(var2);
- 131:
+ 129:
                     return var1;
                 }
             };
             var1 = undefined;
             var1 = var3.bind(var1)(var5);
-            _fun0002_ip = 55; continue _fun0002;
- 33:
+            _fun0002_ip = 51; continue _fun0002;
+ 31:
             var4 = _closure1_slot6;
             var3 = undefined;
             var2 = function() {
@@ -264,7 +264,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var4.bind(var3)(var5, var2);
- 55:
+ 51:
             return var1;
         }
     };

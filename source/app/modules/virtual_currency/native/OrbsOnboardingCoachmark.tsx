@@ -113,7 +113,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1['renderImgComponent'] = var2;
-            var2 = 12;
+            var2 = 4;
             var1['offsetY'] = var2;
             return var1;
         };

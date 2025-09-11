@@ -578,38 +578,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = function value(arg1) {
             _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-                var5 = arg1;
-                var2 = _closure1_slot23;
-                var1 = var2.get;
-                var6 = var1.bind(var2)(var5);
-                var2 = _closure1_slot8;
-                var1 = var2.getUserAffinities;
-                var4 = var1.bind(var2)();
-                var2 = var4.map;
+                var4 = arg1;
+                var3 = _closure1_slot23;
+                var1 = var3.get;
+                var5 = var1.bind(var3)(var4);
+                var3 = _closure1_slot8;
+                var1 = var3.getUserAffinities;
+                var6 = var1.bind(var3)();
+                var3 = var6.map;
                 var1 = function(arg1) {
                     var1 = arg1;
                     var1 = var1.otherUserId;
                     return var1;
                 };
-                var4 = var2.bind(var4)(var1);
+                var3 = var3.bind(var6)(var1);
                 var1 = null;
-                var2 = var1 != var6;
-                if(!var2) { _fun0007_ip = 119; continue _fun0007 }
- 60:
-                var2 = {};
-                var6 = var6.index;
-                var2['rowNum'] = var6;
-                var5 = var5.isSuggested;
-                var2['isAffinitySuggestion'] = var5;
-                var5 = _closure1_slot22;
-                var5 = var5.length;
-                var2['numTotal'] = var5;
+                if(!(var1 == var5)) { _fun0007_ip = 61; continue _fun0007 }
+ 57:
+                var1 = undefined;
+                return var1;
+ 61:
+                var1 = {};
+                var5 = var5.index;
+                var1['rowNum'] = var5;
+                var4 = var4.isSuggested;
+                var1['isAffinitySuggestion'] = var4;
+                var4 = _closure1_slot22;
                 var4 = var4.length;
-                var2['numAffinityConnections'] = var4;
-                var3 = _closure1_slot16;
-                var2['isFiltered'] = var3;
-                var1 = var2;
- 119:
+                var1['numTotal'] = var4;
+                var3 = var3.length;
+                var1['numAffinityConnections'] = var3;
+                var2 = _closure1_slot16;
+                var1['isFiltered'] = var2;
                 return var1;
             }
         };

@@ -197,7 +197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.themeColors;
  432:
             var5 = var3 != var5;
-            if(!var5) { _fun0001_ip = 466; continue _fun0001 }
+            if(!var5) { _fun0001_ip = 467; continue _fun0001 }
  439:
             var9 = var4.themeColors;
             var8 = var9.find;
@@ -209,40 +209,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var7 = var8.bind(var9)(var7);
             var5 = var2 !== var7;
- 466:
-            if(!var5) { _fun0001_ip = 492; continue _fun0001 }
- 469:
+ 467:
+            if(!var5) { _fun0001_ip = 493; continue _fun0001 }
+ 470:
             var7 = var1.push;
             var5 = _closure1_slot10;
             var5 = var5.THEME;
             var5 = var7.bind(var1)(var5);
- 492:
+ 493:
             var7 = var3 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 507; continue _fun0001 }
- 501:
+            if(var7) { _fun0001_ip = 508; continue _fun0001 }
+ 502:
             var5 = var6.avatarDecoration;
- 507:
-            if(!(var3 != var5)) { _fun0001_ip = 534; continue _fun0001 }
- 511:
+ 508:
+            if(!(var3 != var5)) { _fun0001_ip = 535; continue _fun0001 }
+ 512:
             var6 = var1.push;
             var5 = _closure1_slot10;
             var5 = var5.AVATAR_DECORATION;
             var5 = var6.bind(var1)(var5);
- 534:
+ 535:
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 549; continue _fun0001 }
- 543:
+            if(var5) { _fun0001_ip = 550; continue _fun0001 }
+ 544:
             var2 = var4.profileEffect;
- 549:
-            if(!(var3 != var2)) { _fun0001_ip = 576; continue _fun0001 }
- 553:
+ 550:
+            if(!(var3 != var2)) { _fun0001_ip = 577; continue _fun0001 }
+ 554:
             var3 = var1.push;
             var2 = _closure1_slot10;
             var2 = var2.PROFILE_EFFECT;
             var2 = var3.bind(var1)(var2);
- 576:
+ 577:
             return var1;
         }
     };
@@ -1150,7 +1150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['trackDmProfileToggled'] = var4;
-    var2 = function(arg1) {
+    var4 = function(arg1) {
         var13 = arg1;
         var20 = var13.guildId;
         var16 = var13.channelId;
@@ -1211,6 +1211,69 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
-    var3['trackUserProfileEditAction'] = var2;
+    var3['trackUserProfileEditAction'] = var4;
+    var2 = function(arg1) {
+        var13 = arg1;
+        var20 = var13.guildId;
+        var16 = var13.channelId;
+        var12 = var13.analyticsLocations;
+        var11 = var13.widgetEdited;
+        var10 = var13.gameIds;
+        var9 = var13.tags;
+        var8 = var13.numCharactersCommentary;
+        var7 = var13.isWidgetRemoved;
+        var3 = _closure1_slot19;
+        var2 = {};
+        var22 = var2;
+        var21 = var13;
+        var1 = copyDataProperties(var22, var21);
+        var4 = 'EDIT_SAVED';
+        var1 = 'action';
+        var2[var1] = var4;
+        var1 = undefined;
+        var2 = var3.bind(var1)(var2);
+        var3 = _closure1_slot1;
+        var17 = _closure1_slot2;
+        var2 = 12;
+        var2 = var17[var2];
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.track;
+        var2 = _closure1_slot12;
+        var3 = var2.USER_PROFILE_EDIT_SAVED;
+        var2 = {};
+        var15 = _closure1_slot0;
+        var14 = 13;
+        var18 = var17[var14];
+        var19 = var15.bind(var1)(var18);
+        var18 = var19.collectGuildAnalyticsMetadata;
+        var21 = var18.bind(var19)(var20);
+        var22 = var2;
+        var18 = copyDataProperties(var22, var21);
+        var14 = var17[var14];
+        var15 = var15.bind(var1)(var14);
+        var14 = var15.collectChannelAnalyticsMetadataFromId;
+        var21 = var14.bind(var15)(var16);
+        var22 = var2;
+        var14 = copyDataProperties(var22, var21);
+        var6 = _closure1_slot17;
+        var21 = var6.bind(var1)(var13);
+        var22 = var2;
+        var6 = copyDataProperties(var22, var21);
+        var6 = 'location_stack';
+        var2[var6] = var12;
+        var6 = 'widget_edited';
+        var2[var6] = var11;
+        var6 = 'game_ids';
+        var2[var6] = var10;
+        var6 = 'tags';
+        var2[var6] = var9;
+        var6 = 'num_characters_commentary';
+        var2[var6] = var8;
+        var6 = 'is_widget_removed';
+        var2[var6] = var7;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var3['trackUserProfileEditSaved'] = var2;
     return var1;
 })();

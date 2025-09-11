@@ -58,10 +58,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.onComplete;
             var6 = var7.withFadeOut;
             var5 = undefined;
-            if(!(var6 === var5)) { _fun0001_ip = 45; continue _fun0001 }
- 43:
+            if(!(var6 === var5)) { _fun0001_ip = 44; continue _fun0001 }
+ 42:
             var6 = true;
- 45:
+ 44:
             var4 = {'channelId': 0, 'messageId': 0, 'emoji': 0, 'isFullscreen': 0, 'onComplete': 0, 'withFadeOut': 0};
             var1 = null;
             var18 = var4;
@@ -96,30 +96,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var10 = var10.bind(var11)(var4, var2);
-            if(!(var1 != var7)) { _fun0001_ip = 331; continue _fun0001 }
- 185:
+            if(!(var1 != var7)) { _fun0001_ip = 329; continue _fun0001 }
+ 183:
             var4 = _closure1_slot1;
             var12 = _closure1_slot2;
-            if(var6) { _fun0001_ip = 205; continue _fun0001 }
- 196:
+            if(var6) { _fun0001_ip = 203; continue _fun0001 }
+ 194:
             var2 = 7;
             var2 = var12[var2];
-            _fun0001_ip = 212; continue _fun0001;
- 205:
+            _fun0001_ip = 210; continue _fun0001;
+ 203:
             var11 = 6;
             var2 = var12[var11];
- 212:
+ 210:
             var4 = var4.bind(var5)(var2);
             var2 = {};
-            if(var6) { _fun0001_ip = 232; continue _fun0001 }
- 222:
+            if(var6) { _fun0001_ip = 230; continue _fun0001 }
+ 220:
             var2['onAnimationFinish'] = var3;
             var6 = var2;
-            _fun0001_ip = 240; continue _fun0001;
- 232:
+            _fun0001_ip = 238; continue _fun0001;
+ 230:
             var2['onComplete'] = var3;
             var6 = var2;
- 240:
+ 238:
             var3 = _closure1_slot4;
             var2 = {};
             var9 = _closure1_slot5;
@@ -128,10 +128,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = false;
             var2['loop'] = var9;
             var9 = 1.2;
-            if(!var10) { _fun0001_ip = 289; continue _fun0001 }
- 279:
+            if(!var10) { _fun0001_ip = 287; continue _fun0001 }
+ 277:
             var9 = 0.5;
- 289:
+ 287:
             var2['speed'] = var9;
             var18 = var2;
             var17 = var8;
@@ -143,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var6] = var7;
             var2 = var3.bind(var5)(var4, var2);
             return var2;
- 331:
+ 329:
             return var1;
         }
     };

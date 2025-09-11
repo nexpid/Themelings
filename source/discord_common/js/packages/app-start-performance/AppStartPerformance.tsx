@@ -194,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = this;
                     var1 = var2.isTracing;
-                    if(!var1) { _fun0004_ip = 117; continue _fun0004 }
+                    if(!var1) { _fun0004_ip = 116; continue _fun0004 }
  12:
                     var4 = var2.logs;
                     var3 = var4.push;
@@ -219,7 +219,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var3.bind(var4)(var1);
                     var1 = var2.addImportLogDetail;
                     var1 = var1.bind(var2)();
- 117:
+ 116:
                     var1 = undefined;
                     return var1;
                 }
@@ -238,7 +238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var3.log;
                     var1 = var1.bind(var3)(var5);
                     var1 = var2.isTracing;
-                    if(!var1) { _fun0005_ip = 111; continue _fun0005 }
+                    if(!var1) { _fun0005_ip = 110; continue _fun0005 }
  29:
                     var4 = var2.logs;
                     var3 = var4.push;
@@ -258,7 +258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var3.bind(var4)(var1);
                     var1 = var2.addImportLogDetail;
                     var1 = var1.bind(var2)();
- 111:
+ 110:
                     var1 = undefined;
                     return var1;
                 }
@@ -345,7 +345,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = arg3;
                     var7 = this;
                     var1 = var7.isTracing;
-                    if(!var1) { _fun0008_ip = 178; continue _fun0008 }
+                    if(!var1) { _fun0008_ip = 177; continue _fun0008 }
  18:
                     var1 = var7.logs;
                     var1 = var1.length;
@@ -382,19 +382,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var7[var4];
                     var9 = var6 == var8;
                     var7 = undefined;
-                    if(var9) { _fun0008_ip = 152; continue _fun0008 }
- 146:
+                    if(var9) { _fun0008_ip = 151; continue _fun0008 }
+ 145:
                     var7 = var8.prefix;
- 152:
+ 151:
                     var8 = var6 != var7;
                     var6 = '';
-                    if(!var8) { _fun0008_ip = 166; continue _fun0008 }
- 163:
+                    if(!var8) { _fun0008_ip = 165; continue _fun0008 }
+ 162:
                     var6 = var7;
- 166:
+ 165:
                     var1['prefix'] = var6;
                     var1 = var2.bind(var3)(var4, var5, var1);
- 178:
+ 177:
                     var1 = undefined;
                     return var1;
                 }
@@ -409,7 +409,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var4 = this;
                     var1 = var4.isTracing;
-                    if(!var1) { _fun0009_ip = 121; continue _fun0009 }
+                    if(!var1) { _fun0009_ip = 119; continue _fun0009 }
  12:
                     var3 = var4.logs;
                     var2 = var3.push;
@@ -434,7 +434,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var8.bind(var7)(var6, var5, var4);
                     var1['log'] = var4;
                     var1 = var2.bind(var3)(var1);
- 121:
+ 119:
                     var1 = undefined;
                     return var1;
                 }

@@ -330,29 +330,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = function handlePress() {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-                            var4 = _closure1_slot5;
-                            var3 = var4.getChannel;
-                            var2 = _closure2_slot7;
-                            var4 = var3.bind(var4)(var2);
-                            var2 = null;
-                            if(!(var2 != var4)) { _fun0005_ip = 96; continue _fun0005 }
+                            var3 = _closure1_slot5;
+                            var2 = var3.getChannel;
+                            var1 = _closure2_slot7;
+                            var4 = var2.bind(var3)(var1);
+                            var1 = null;
+                            if(!(var1 != var4)) { _fun0005_ip = 102; continue _fun0005 }
  30:
-                            var5 = _closure1_slot0;
+                            var3 = _closure1_slot0;
                             var6 = _closure1_slot2;
-                            var2 = 25;
-                            var2 = var6[var2];
-                            var3 = undefined;
-                            var7 = var5.bind(var3)(var2);
-                            var2 = var7.dismissGlobalKeyboard;
-                            var2 = var2.bind(var7)();
-                            var2 = 26;
-                            var2 = var6[var2];
-                            var3 = var5.bind(var3)(var2);
+                            var1 = 25;
+                            var1 = var6[var1];
+                            var2 = undefined;
+                            var7 = var3.bind(var2)(var1);
+                            var1 = var7.dismissGlobalKeyboard;
+                            var1 = var1.bind(var7)();
+                            var1 = 26;
+                            var1 = var6[var1];
+                            var3 = var3.bind(var2)(var1);
                             var2 = var3.showInstantInviteActionSheet;
-                            var1 = _closure1_slot11;
-                            var1 = var1.CHAT_SIDEBAR;
+                            var1 = {};
+                            var5 = _closure1_slot11;
+                            var5 = var5.CHAT_SIDEBAR;
+                            var1['source'] = var5;
                             var1 = var2.bind(var3)(var4, var1);
- 96:
+ 102:
                             var1 = undefined;
                             return var1;
                         }

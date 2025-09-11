@@ -3,9 +3,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = require;
     var3 = exports;
     var6 = dependencyMap;
+    var _closure1_slot0 = var5;
     var1 = metroImportDefault;
-    var _closure1_slot0 = var1;
-    var _closure1_slot1 = var6;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
     var4 = global;
     var9 = var4.Object;
     var8 = var9.defineProperty;
@@ -19,12 +20,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var7);
     var7 = var7.PaymentSourceTypes;
+    var _closure1_slot3 = var7;
     var9 = var7.CARD;
     var8 = new Array(2);
     var8[0] = var9;
     var9 = var7.PAYPAL;
     var8[1] = var9;
-    var _closure1_slot2 = var8;
+    var _closure1_slot4 = var8;
     var10 = var4.Set;
     var8 = var10.prototype;
     var9 = Object.create(var8, {constructor: {value: var10}});
@@ -212,7 +214,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var8;
     var8 = new var18[var10](var17, var16);
     var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot3 = var8;
+    var _closure1_slot5 = var8;
     var8 = var4.Map;
     var9 = var7.PAYSAFE_CARD;
     var7 = new Array(2);
@@ -233,8 +235,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var17 = var4;
     var4 = new var18[var8](var17, var16);
     var4 = var4 instanceof Object ? var4 : var7;
-    var _closure1_slot4 = var4;
-    var4 = 2;
+    var _closure1_slot6 = var4;
+    var4 = 3;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -243,71 +245,71 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function getPaymentMethods(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var2 = arg1;
-            var4 = var2.ipCountryCode;
-            var2 = var2.location;
-            var7 = undefined;
-            var _closure2_slot1 = var7;
-            var _closure2_slot2 = var7;
-            var _closure2_slot3 = var7;
-            var6 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var5 = 1;
-            var5 = var8[var5];
-            var7 = var6.bind(var7)(var5);
+            var1 = arg1;
+            var2 = var1.ipCountryCode;
+            var1 = var1.location;
+            var10 = undefined;
+            var _closure2_slot1 = var10;
+            var _closure2_slot2 = var10;
+            var _closure2_slot3 = var10;
+            var6 = _closure1_slot1;
+            var7 = _closure1_slot2;
+            var4 = 1;
+            var4 = var7[var4];
+            var7 = var6.bind(var10)(var4);
             var6 = var7.getCurrentConfig;
-            var5 = {};
-            var5['location'] = var2;
-            var2 = {};
+            var4 = {};
+            var4['location'] = var1;
+            var1 = {};
             var8 = false;
-            var2['autoTrackExposure'] = var8;
-            var5 = var6.bind(var7)(var5, var2);
-            var2 = var5.enabledPaymentTypes;
-            var _closure2_slot0 = var2;
-            var2 = var5.forceCountryCode;
-            var7 = var5.validCountryCodes;
+            var1['autoTrackExposure'] = var8;
+            var4 = var6.bind(var7)(var4, var1);
+            var1 = var4.enabledPaymentTypes;
+            var _closure2_slot0 = var1;
+            var1 = var4.forceCountryCode;
+            var7 = var4.validCountryCodes;
             var8 = null;
-            var6 = var8 != var4;
-            var5 = 'ALL';
+            var6 = var8 != var2;
+            var4 = 'ALL';
             if(!var6) { _fun0001_ip = 118; continue _fun0001 }
  115:
-            var5 = var4;
+            var4 = var2;
  118:
-            _closure2_slot1 = var5;
-            var5 = var7.length;
+            _closure2_slot1 = var4;
+            var4 = var7.length;
             var6 = 0;
-            var5 = var5 > var6;
-            if(!var5) { _fun0001_ip = 140; continue _fun0001 }
+            var4 = var4 > var6;
+            if(!var4) { _fun0001_ip = 140; continue _fun0001 }
  136:
-            var5 = var8 != var2;
+            var4 = var8 != var1;
  140:
-            if(!var5) { _fun0001_ip = 147; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 147; continue _fun0001 }
  143:
-            var5 = var8 != var4;
+            var4 = var8 != var2;
  147:
-            if(!var5) { _fun0001_ip = 170; continue _fun0001 }
+            if(!var4) { _fun0001_ip = 170; continue _fun0001 }
  150:
-            var5 = var7.includes;
-            var5 = var5.bind(var7)(var4);
-            if(!var5) { _fun0001_ip = 166; continue _fun0001 }
+            var4 = var7.includes;
+            var4 = var4.bind(var7)(var2);
+            if(!var4) { _fun0001_ip = 166; continue _fun0001 }
  163:
-            var2 = var4;
+            var1 = var2;
  166:
-            _closure2_slot1 = var2;
+            _closure2_slot1 = var1;
  170:
             var4 = global;
-            var2 = var4.Set;
-            var5 = var2.prototype;
-            var5 = Object.create(var5, {constructor: {value: var2}});
-            var13 = var5;
-            var2 = new var13[var2](var12);
-            var7 = var2 instanceof Object ? var2 : var5;
+            var1 = var4.Set;
+            var2 = var1.prototype;
+            var2 = Object.create(var2, {constructor: {value: var1}});
+            var15 = var2;
+            var1 = new var15[var1](var14);
+            var7 = var1 instanceof Object ? var1 : var2;
             _closure2_slot2 = var7;
-            var2 = new Array(0);
-            _closure2_slot3 = var2;
-            var9 = _closure1_slot3;
-            var8 = var9.forEach;
-            var5 = function(arg1, arg2) {
+            var9 = new Array(0);
+            _closure2_slot3 = var9;
+            var8 = _closure1_slot5;
+            var2 = var8.forEach;
+            var1 = function(arg1, arg2) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var5 = arg1;
@@ -335,9 +337,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var5 = var8.bind(var9)(var5);
-            var8 = _closure1_slot4;
-            var5 = var8.forEach;
+            var1 = var2.bind(var8)(var1);
+            var8 = _closure1_slot6;
+            var2 = var8.forEach;
             var1 = function(arg1, arg2) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -356,18 +358,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var1 = var5.bind(var8)(var1);
+            var1 = var2.bind(var8)(var1);
+            var2 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var11 = 2;
+            var1 = var1[var11];
+            var1 = var2.bind(var10)(var1);
+            var1 = var1.isIOSWeb;
+            if(var1) { _fun0001_ip = 300; continue _fun0001 }
+ 277:
+            var8 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var2 = var2[var11];
+            var2 = var8.bind(var10)(var2);
+            var1 = var2.isAndroidWeb;
+ 300:
+            var2 = var9;
+            if(!var1) { _fun0001_ip = 348; continue _fun0001 }
+ 306:
+            var8 = var7.delete;
+            var1 = _closure1_slot3;
+            var1 = var1.VENMO;
+            var1 = var8.bind(var7)(var1);
+            var8 = var9.filter;
+            var1 = function(arg1) {
+                var1 = _closure1_slot3;
+                var2 = var1.VENMO;
+                var1 = arg1;
+                var1 = var1 !== var2;
+                return var1;
+            };
+            var1 = var8.bind(var9)(var1);
+            _closure2_slot3 = var1;
+            var2 = var1;
+ 348:
             var1 = {};
-            var11 = _closure1_slot2;
+            var13 = _closure1_slot4;
             var3 = new Array(0);
-            var12 = var3;
-            var10 = 0;
-            var10 = arraySpread(var12, var11, var10);
+            var14 = var3;
+            var12 = 0;
+            var12 = arraySpread(var14, var13, var12);
             var6 = var4.Array;
             var4 = var6.from;
-            var11 = var4.bind(var6)(var7);
-            var12 = var3;
-            var4 = arraySpread(var12, var11, var10);
+            var13 = var4.bind(var6)(var7);
+            var14 = var3;
+            var4 = arraySpread(var14, var13, var12);
             var1['countryPaymentMethods'] = var3;
             var1['remainingPaymentMethods'] = var2;
             return var1;

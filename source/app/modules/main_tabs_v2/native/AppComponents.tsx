@@ -74,7 +74,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var12 = var7.PictureInPictureGlobalContainer;
         var7 = {};
         var12 = var14.bind(var1)(var12, var7);
-        var7 = new Array(10);
+        var7 = new Array(11);
         var7[0] = var12;
         var12 = var9[var11];
         var12 = var8.bind(var1)(var12);
@@ -128,6 +128,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = {};
         var11 = var14.bind(var1)(var12, var11);
         var7[9] = var11;
+        var11 = 8;
+        var11 = var9[var11];
+        var11 = var8.bind(var1)(var11);
+        var12 = var11.OrbsAnnouncementDismissibleContent;
+        var11 = {};
+        var11 = var14.bind(var1)(var12, var11);
+        var7[10] = var11;
         var5['children'] = var7;
         var6 = var10.bind(var1)(var6, var5);
         var4 = var9[var4];
@@ -135,16 +142,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var5.isAndroid;
         var4 = var4.bind(var5)();
         var5 = null;
-        if(!var4) { _fun0001_ip = 498; continue _fun0001 }
- 472:
-        var4 = 8;
+        if(!var4) { _fun0001_ip = 528; continue _fun0001 }
+ 502:
+        var4 = 9;
         var4 = var9[var4];
         var4 = var8.bind(var1)(var4);
         var7 = var4.AccessibilityAnnouncerLiveRegion;
         var4 = {};
         var5 = var14.bind(var1)(var7, var4);
- 498:
-        var4 = 9;
+ 528:
+        var4 = 10;
         var4 = var9[var4];
         var7 = var13.bind(var1)(var4);
         var4 = {};
@@ -154,20 +161,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = {};
         var11 = ['external-pip'];
         var2['lockKeys'] = var11;
-        var11 = 10;
+        var11 = 11;
         var11 = var9[var11];
         var12 = var13.bind(var1)(var11);
         var11 = {};
         var12 = var14.bind(var1)(var12, var11);
         var11 = new Array(3);
         var11[0] = var12;
-        var12 = 11;
+        var12 = 12;
         var12 = var9[var12];
         var15 = var13.bind(var1)(var12);
         var12 = {};
         var12 = var14.bind(var1)(var15, var12);
         var11[1] = var12;
-        var12 = 12;
+        var12 = 13;
         var12 = var9[var12];
         var13 = var13.bind(var1)(var12);
         var12 = {};
@@ -175,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11[2] = var12;
         var2['children'] = var11;
         var2 = var10.bind(var1)(var7, var2);
-        var7 = 13;
+        var7 = 14;
         var7 = var9[var7];
         var9 = var8.bind(var1)(var7);
         var8 = var9.fileFinishedImporting;

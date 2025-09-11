@@ -370,8 +370,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var3.bind(var4)(var1);
             var1 = null;
             var3 = var1 != var11;
-            if(!var3) { _fun0002_ip = 550; continue _fun0002 }
- 345:
+            if(!var3) { _fun0002_ip = 549; continue _fun0002 }
+ 344:
             var4 = _closure1_slot6;
             var3 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -393,10 +393,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var13.bind(var14)(var10);
             var6[1] = var10;
             var6[2] = var8;
-            if(!var7) { _fun0002_ip = 446; continue _fun0002 }
- 440:
+            if(!var7) { _fun0002_ip = 445; continue _fun0002 }
+ 439:
             var7 = var9.voiceChannelEffectEmojiContainerTileNotch;
- 446:
+ 445:
             var6[3] = var7;
             var2['style'] = var6;
             var8 = _closure1_slot6;
@@ -421,7 +421,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 550:
+ 549:
             return var1;
         }
     };

@@ -260,8 +260,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var4 = var1.emoji;
             var1 = null;
-            if(!(var1 != var4)) { _fun0005_ip = 113; continue _fun0005 }
- 15:
+            if(!(var1 != var4)) { _fun0005_ip = 112; continue _fun0005 }
+ 14:
             var3 = _closure1_slot10;
             var2 = var3.unshift;
             var2 = var2.bind(var3)(var4);
@@ -280,12 +280,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot9;
             var2 = 1;
             var2 = var4 + var2;
-            if(!(var3 > var2)) { _fun0005_ip = 113; continue _fun0005 }
- 99:
+            if(!(var3 > var2)) { _fun0005_ip = 112; continue _fun0005 }
+ 98:
             var2 = _closure1_slot10;
             var1 = var2.pop;
             var1 = var1.bind(var2)();
- 113:
+ 112:
             var1 = undefined;
             return var1;
         }
@@ -300,12 +300,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.animationType;
             var2 = null;
             var1 = var2 != var6;
-            if(!var1) { _fun0006_ip = 33; continue _fun0006 }
- 29:
+            if(!var1) { _fun0006_ip = 32; continue _fun0006 }
+ 28:
             var1 = var2 != var4;
- 33:
-            if(!var1) { _fun0006_ip = 140; continue _fun0006 }
- 36:
+ 32:
+            if(!var1) { _fun0006_ip = 138; continue _fun0006 }
+ 35:
             var3 = _closure1_slot11;
             var2 = {};
             var2['emoji'] = var6;
@@ -332,7 +332,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot15;
             var1 = undefined;
             var1 = var2.bind(var1)();
- 140:
+ 138:
             var1 = undefined;
             return var1;
         }

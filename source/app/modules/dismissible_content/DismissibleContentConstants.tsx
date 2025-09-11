@@ -61,6 +61,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['VIRTUAL_CURRENCY_ONBOARDING'] = var1;
     var1 = 'ACCOUNT_NAME_ZONE';
     var2['ACCOUNT_NAME_ZONE'] = var1;
+    var1 = 'VIRTUAL_CURRENCY_MOBILE_ONBOARDING';
+    var2['VIRTUAL_CURRENCY_MOBILE_ONBOARDING'] = var1;
     var5 = dependencyMap;
     var1 = 0;
     var6 = var5[var1];

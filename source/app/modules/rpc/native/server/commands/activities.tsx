@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
-            var9 = var1.socket;
+            var8 = var1.socket;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 5;
@@ -68,32 +68,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var3.validateOpenInviteDialog;
             var2 = var2.bind(var3)();
-            var7 = var2.channel;
+            var6 = var2.channel;
             var2 = var2.frame;
-            var8 = null;
-            if(!(var8 == var2)) { _fun0001_ip = 135; continue _fun0001 }
+            var7 = null;
+            if(!(var7 == var2)) { _fun0001_ip = 138; continue _fun0001 }
  61:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
             var2 = 7;
             var2 = var5[var2];
-            var6 = var3.bind(var4)(var2);
-            var5 = var6.showInstantInviteActionSheet;
-            var2 = _closure1_slot4;
-            var3 = var2.ACTIVITY_INVITE;
+            var5 = var3.bind(var4)(var2);
+            var3 = var5.showInstantInviteActionSheet;
             var2 = {};
-            var9 = var9.application;
-            var9 = var9.id;
-            var10 = var8 != var9;
-            var8 = undefined;
-            if(!var10) { _fun0001_ip = 121; continue _fun0001 }
- 118:
-            var8 = var9;
- 121:
-            var2['targetApplicationId'] = var8;
-            var2 = var5.bind(var6)(var7, var3, var2);
+            var9 = _closure1_slot4;
+            var9 = var9.ACTIVITY_INVITE;
+            var2['source'] = var9;
+            var8 = var8.application;
+            var8 = var8.id;
+            var9 = var7 != var8;
+            var7 = undefined;
+            if(!var9) { _fun0001_ip = 125; continue _fun0001 }
+ 122:
+            var7 = var8;
+ 125:
+            var2['targetApplicationId'] = var7;
+            var2 = var3.bind(var5)(var6, var2);
             return var4;
- 135:
+ 138:
             var3 = _closure1_slot1;
             var5 = _closure1_slot2;
             var2 = 6;
@@ -105,10 +106,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['errorCode'] = var1;
             var1 = var4.prototype;
             var2 = Object.create(var1, {constructor: {value: var4}});
-            var12 = 'Cannot support frames (yet)';
-            var14 = var2;
-            var13 = var3;
-            var1 = new var14[var4](var13, var12, var11);
+            var10 = 'Cannot support frames (yet)';
+            var12 = var2;
+            var11 = var3;
+            var1 = new var12[var4](var11, var10, var9);
             var1 = var1 instanceof Object ? var1 : var2;
             throw var1;
         }

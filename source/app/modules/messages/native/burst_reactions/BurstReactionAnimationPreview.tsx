@@ -48,8 +48,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.ReactionTypes;
             var3 = var1.BURST;
             var1 = null;
-            if(!(var4 === var3)) { _fun0001_ip = 120; continue _fun0001 }
- 68:
+            if(!(var4 === var3)) { _fun0001_ip = 118; continue _fun0001 }
+ 67:
             var4 = _closure1_slot3;
             var3 = _closure1_slot1;
             var9 = _closure1_slot2;
@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['messageId'] = var7;
             var2['emoji'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 120:
+ 118:
             return var1;
         }
     };

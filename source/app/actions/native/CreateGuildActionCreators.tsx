@@ -51,16 +51,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var3.setImmediate;
                 var3 = undefined;
                 var2 = function() {
-                    var4 = _closure1_slot0;
-                    var3 = _closure1_slot1;
+                    var3 = _closure1_slot0;
+                    var2 = _closure1_slot1;
                     var1 = 2;
-                    var3 = var3[var1];
+                    var2 = var2[var1];
                     var1 = undefined;
-                    var5 = var4.bind(var1)(var3);
+                    var5 = var3.bind(var1)(var2);
                     var4 = var5.showInstantInviteActionSheet;
                     var3 = _closure3_slot0;
-                    var2 = _closure1_slot3;
-                    var2 = var2.GUILD_CREATE;
+                    var2 = {};
+                    var6 = _closure1_slot3;
+                    var6 = var6.GUILD_CREATE;
+                    var2['source'] = var6;
                     var2 = var4.bind(var5)(var3, var2);
                     return var1;
                 };

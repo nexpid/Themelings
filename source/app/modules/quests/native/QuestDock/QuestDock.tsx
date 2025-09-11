@@ -1003,7 +1003,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8.bind(var15)(var1);
             var17 = _closure1_slot5;
             var15 = var17.useState;
-            var1 = true;
+            var1 = false;
             var15 = var15.bind(var17)(var1);
             var1 = _closure1_slot4;
             var1 = var1.bind(var5)(var15, var16);
@@ -1197,7 +1197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var3 = function(arg1) {
                                     var2 = true;
                                     var1 = arg1;
-                                    var1 = var2 !== var1;
+                                    var1 = var2 === var1;
                                     return var1;
                                 };
                                 var4 = var4.bind(var2)(var3);
@@ -1245,7 +1245,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  609:
             if(var3) { _fun0008_ip = 615; continue _fun0008 }
  612:
-            var3 = var4;
+            var3 = !var4;
  615:
             var _closure2_slot10 = var3;
             var14 = _closure1_slot5;

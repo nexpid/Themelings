@@ -71,9 +71,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = var5[var2];
     var2 = var6.bind(var1)(var2);
     var _closure1_slot4 = var2;
-    var2 = {};
-    var7 = false;
-    var2['showCoachmark'] = var7;
+    var2 = {'showCoachmark': false, 'onboardingPillEnabled': false};
     var _closure1_slot5 = var2;
     var2 = 5;
     var2 = var5[var2];
@@ -116,22 +114,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var _closure2_slot0 = var4;
-        var6 = _closure1_slot4;
+        var5 = _closure1_slot4;
         var3 = undefined;
-        var5 = arg1;
-        var5 = var6.bind(var3)(var4, var5);
+        var2 = arg1;
+        var2 = var5.bind(var3)(var4, var2);
         var2 = _closure1_slot1;
         var5 = {};
-        var6 = 'showCoachmark';
-        var5['key'] = var6;
+        var1 = 'showCoachmark';
+        var5['key'] = var1;
         var1 = function get() {
             var1 = _closure1_slot5;
             var1 = var1.showCoachmark;
             return var1;
         };
         var5['get'] = var1;
-        var1 = new Array(1);
+        var1 = new Array(2);
         var1[0] = var5;
+        var5 = {};
+        var7 = 'onboardingPillEnabled';
+        var5['key'] = var7;
+        var6 = function get() {
+            var1 = _closure1_slot5;
+            var1 = var1.onboardingPillEnabled;
+            return var1;
+        };
+        var5['get'] = var6;
+        var1[1] = var5;
         var1 = var2.bind(var3)(var4, var1);
         return var1;
     };
@@ -150,14 +158,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['VIRTUAL_CURRENCY_ONBOARDING_COACHMARK_SHOW'] = var8;
-    var4 = function handleHideCoachmark() {
+    var8 = function handleHideCoachmark() {
         var2 = _closure1_slot5;
         var1 = false;
         var2['showCoachmark'] = var1;
         var1 = undefined;
         return var1;
     };
-    var2['VIRTUAL_CURRENCY_ONBOARDING_COACHMARK_HIDE'] = var4;
+    var2['VIRTUAL_CURRENCY_ONBOARDING_COACHMARK_HIDE'] = var8;
+    var4 = function handleSetOnboardingPillEnabled(arg1) {
+        var2 = _closure1_slot5;
+        var1 = arg1;
+        var1 = var1.onboardingPillEnabled;
+        var2['onboardingPillEnabled'] = var1;
+        var1 = undefined;
+        return var1;
+    };
+    var2['VIRTUAL_CURRENCY_ONBOARDING_PILL_ENABLED_SET'] = var4;
     var4 = var7.prototype;
     var4 = Object.create(var4, {constructor: {value: var7}});
     var12 = var4;

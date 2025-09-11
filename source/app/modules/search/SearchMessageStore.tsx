@@ -130,11 +130,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var3)(var5);
             var5 = var7.shouldApplyReaction;
             var5 = var5.bind(var7)(var8);
-            if(var5) { _fun0004_ip = 81; continue _fun0004 }
- 77:
+            if(var5) { _fun0004_ip = 80; continue _fun0004 }
+ 76:
             var5 = false;
             return var5;
- 81:
+ 80:
             var7 = _closure1_slot7;
             var5 = var7.getId;
             var5 = var5.bind(var7)();

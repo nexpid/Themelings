@@ -193,18 +193,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var13.bind(var9)(var3);
             var6 = var6.bind(var12)(var3);
             var3 = undefined;
-            if(var2) { _fun0002_ip = 328; continue _fun0002 }
+            if(var2) { _fun0002_ip = 327; continue _fun0002 }
  247:
             var12 = var11 == var4;
             var2 = undefined;
-            if(var12) { _fun0002_ip = 262; continue _fun0002 }
+            if(var12) { _fun0002_ip = 261; continue _fun0002 }
  256:
             var2 = var4.emoji;
- 262:
+ 261:
             var2 = var11 != var2;
             var3 = undefined;
-            if(var2) { _fun0002_ip = 328; continue _fun0002 }
- 271:
+            if(var2) { _fun0002_ip = 327; continue _fun0002 }
+ 270:
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var2 = 6;
@@ -217,10 +217,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.t;
             var2 = var2.xpOyTE;
             var3 = var11.bind(var12)(var2);
- 328:
+ 327:
             var2 = undefined;
-            if(!var1) { _fun0002_ip = 629; continue _fun0002 }
- 336:
+            if(!var1) { _fun0002_ip = 628; continue _fun0002 }
+ 335:
             var1 = {};
             var11 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -284,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.bind(var12)(var10);
             var1['closeIcon'] = var10;
             var2 = var1;
- 629:
+ 628:
             var1 = {};
             var10 = 3;
             var1['numDisplayedReactions'] = var10;
@@ -300,15 +300,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var8[var10];
             var8 = var13.bind(var9)(var8);
             var8 = var8.t;
-            if(var7) { _fun0002_ip = 713; continue _fun0002 }
- 700:
+            if(var7) { _fun0002_ip = 712; continue _fun0002 }
+ 699:
             var7 = var8.0rQinJ;
             var7 = var11.bind(var12)(var7);
-            _fun0002_ip = 724; continue _fun0002;
- 713:
+            _fun0002_ip = 723; continue _fun0002;
+ 712:
             var8 = var8.OtF+lJ;
             var7 = var11.bind(var12)(var8);
- 724:
+ 723:
             var1['followLabel'] = var7;
             var1['shareIcon'] = var6;
             var8 = _closure1_slot0;

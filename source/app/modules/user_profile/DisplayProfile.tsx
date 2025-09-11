@@ -154,7 +154,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var2;
-        var2 = new Array(20);
+        var2 = new Array(21);
         var2[0] = var1;
         var1 = {};
         var6 = 'premiumGuildSince';
@@ -190,22 +190,51 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['get'] = var6;
         var2[3] = var1;
         var1 = {};
-        var6 = 'primaryColor';
+        var6 = 'gameWidgets';
         var1['key'] = var6;
         var6 = function get() {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                var1 = this;
+                var1 = var1._userProfile;
+                var4 = var1.widgets;
+                var1 = null;
+                var2 = var1 == var4;
+                var6 = undefined;
+                var1 = undefined;
+                if(var2) { _fun0003_ip = 67; continue _fun0003 }
+ 28:
+                var3 = var4.filter;
+                var5 = _closure1_slot0;
+                var7 = _closure1_slot2;
+                var2 = 3;
+                var2 = var7[var2];
+                var2 = var5.bind(var6)(var2);
+                var2 = var2.isGameWidget;
+                var1 = var3.bind(var4)(var2);
+ 67:
+                return var1;
+            }
+        };
+        var1['get'] = var6;
+        var2[4] = var1;
+        var1 = {};
+        var6 = 'primaryColor';
+        var1['key'] = var6;
+        var6 = function get() {
+            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                 var2 = this;
                 var5 = var2.themeColors;
                 var3 = null;
                 var4 = var3 == var5;
                 var1 = undefined;
-                if(var4) { _fun0003_ip = 26; continue _fun0003 }
+                if(var4) { _fun0004_ip = 26; continue _fun0004 }
  20:
                 var4 = 0;
                 var1 = var5[var4];
  26:
-                if(!(var3 == var1)) { _fun0003_ip = 36; continue _fun0003 }
+                if(!(var3 == var1)) { _fun0004_ip = 36; continue _fun0004 }
  30:
                 var1 = var2.accentColor;
  36:
@@ -213,14 +242,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['get'] = var6;
-        var2[4] = var1;
+        var2[5] = var1;
         var1 = {};
         var6 = 'canUsePremiumProfileCustomization';
         var1['key'] = var6;
         var6 = function get() {
             var4 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var2 = 3;
+            var2 = 4;
             var3 = var3[var2];
             var2 = undefined;
             var4 = var4.bind(var2)(var3);
@@ -233,7 +262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var6;
-        var2[5] = var1;
+        var2[6] = var1;
         var1 = {};
         var6 = 'canEditThemes';
         var1['key'] = var6;
@@ -243,7 +272,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var6;
-        var2[6] = var1;
+        var2[7] = var1;
         var1 = {};
         var6 = 'application';
         var1['key'] = var6;
@@ -254,23 +283,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var6;
-        var2[7] = var1;
+        var2[8] = var1;
         var1 = {};
         var6 = 'isLoaded';
         var1['key'] = var6;
         var6 = function get() {
-            _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                 var3 = this;
                 var1 = var3._userProfile;
                 var4 = undefined;
                 var1 = var4 !== var1;
-                if(!var1) { _fun0004_ip = 45; continue _fun0004 }
+                if(!var1) { _fun0005_ip = 45; continue _fun0005 }
  18:
                 var5 = var3.guildId;
                 var2 = null;
                 var2 = var2 == var5;
-                if(var2) { _fun0004_ip = 42; continue _fun0004 }
+                if(var2) { _fun0005_ip = 42; continue _fun0005 }
  32:
                 var3 = var3._guildMemberProfile;
                 var2 = var4 !== var3;
@@ -281,30 +310,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['get'] = var6;
-        var2[8] = var1;
+        var2[9] = var1;
         var1 = {};
         var6 = 'hasThemeColors';
         var1['key'] = var6;
         var6 = function value() {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
                 var4 = this;
                 var6 = var4.themeColors;
                 var3 = null;
                 var5 = var3 == var6;
                 var1 = undefined;
-                if(var5) { _fun0005_ip = 26; continue _fun0005 }
+                if(var5) { _fun0006_ip = 26; continue _fun0006 }
  20:
                 var5 = 0;
                 var1 = var6[var5];
  26:
                 var1 = var3 != var1;
-                if(var1) { _fun0005_ip = 59; continue _fun0005 }
+                if(var1) { _fun0006_ip = 59; continue _fun0006 }
  33:
                 var5 = var4.themeColors;
                 var4 = var3 == var5;
                 var2 = undefined;
-                if(var4) { _fun0005_ip = 55; continue _fun0005 }
+                if(var4) { _fun0006_ip = 55; continue _fun0006 }
  48:
                 var4 = 1;
                 var2 = var5[var4];
@@ -315,33 +344,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[9] = var1;
+        var2[10] = var1;
         var1 = {};
         var6 = 'hasPremiumCustomization';
         var1['key'] = var6;
         var6 = function value() {
-            _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
                 var2 = this;
                 var1 = var2.isUsingGuildMemberBanner;
                 var1 = var1.bind(var2)();
-                if(var1) { _fun0006_ip = 26; continue _fun0006 }
+                if(var1) { _fun0007_ip = 26; continue _fun0007 }
  16:
                 var3 = var2.isUsingGuildMemberBio;
                 var1 = var3.bind(var2)();
  26:
-                if(var1) { _fun0006_ip = 41; continue _fun0006 }
+                if(var1) { _fun0007_ip = 41; continue _fun0007 }
  29:
                 var4 = var2.banner;
                 var3 = null;
                 var1 = var3 != var4;
  41:
-                if(var1) { _fun0006_ip = 54; continue _fun0006 }
+                if(var1) { _fun0007_ip = 54; continue _fun0007 }
  44:
                 var3 = var2.hasThemeColors;
                 var1 = var3.bind(var2)();
  54:
-                if(var1) { _fun0006_ip = 69; continue _fun0006 }
+                if(var1) { _fun0007_ip = 69; continue _fun0007 }
  57:
                 var3 = var2.popoutAnimationParticleType;
                 var2 = null;
@@ -351,19 +380,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[10] = var1;
+        var2[11] = var1;
         var1 = {};
         var6 = 'isUsingGuildMemberBanner';
         var1['key'] = var6;
         var6 = function value() {
-            _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                 var1 = this;
                 var3 = var1._guildMemberProfile;
                 var2 = null;
                 var4 = var2 == var3;
                 var1 = undefined;
-                if(var4) { _fun0007_ip = 26; continue _fun0007 }
+                if(var4) { _fun0008_ip = 26; continue _fun0008 }
  20:
                 var1 = var3.banner;
  26:
@@ -372,42 +401,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[11] = var1;
-        var1 = {};
-        var6 = 'isUsingGuildMemberBio';
-        var1['key'] = var6;
-        var6 = function value() {
-            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
-                var2 = this;
-                var5 = var2._guildMemberProfile;
-                var4 = null;
-                var6 = var4 == var5;
-                var1 = undefined;
-                if(var6) { _fun0008_ip = 26; continue _fun0008 }
- 20:
-                var1 = var5.bio;
- 26:
-                var1 = var4 != var1;
-                if(!var1) { _fun0008_ip = 62; continue _fun0008 }
- 33:
-                var2 = var2._guildMemberProfile;
-                var4 = var4 == var2;
-                var3 = undefined;
-                if(var4) { _fun0008_ip = 54; continue _fun0008 }
- 48:
-                var3 = var2.bio;
- 54:
-                var2 = '';
-                var1 = var2 !== var3;
- 62:
-                return var1;
-            }
-        };
-        var1['value'] = var6;
         var2[12] = var1;
         var1 = {};
-        var6 = 'isUsingGuildMemberPronouns';
+        var6 = 'isUsingGuildMemberBio';
         var1['key'] = var6;
         var6 = function value() {
             _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -419,7 +415,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = undefined;
                 if(var6) { _fun0009_ip = 26; continue _fun0009 }
  20:
-                var1 = var5.pronouns;
+                var1 = var5.bio;
  26:
                 var1 = var4 != var1;
                 if(!var1) { _fun0009_ip = 62; continue _fun0009 }
@@ -429,7 +425,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = undefined;
                 if(var4) { _fun0009_ip = 54; continue _fun0009 }
  48:
-                var3 = var2.pronouns;
+                var3 = var2.bio;
  54:
                 var2 = '';
                 var1 = var2 !== var3;
@@ -440,10 +436,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['value'] = var6;
         var2[13] = var1;
         var1 = {};
+        var6 = 'isUsingGuildMemberPronouns';
+        var1['key'] = var6;
+        var6 = function value() {
+            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+ 0:
+                var2 = this;
+                var5 = var2._guildMemberProfile;
+                var4 = null;
+                var6 = var4 == var5;
+                var1 = undefined;
+                if(var6) { _fun0010_ip = 26; continue _fun0010 }
+ 20:
+                var1 = var5.pronouns;
+ 26:
+                var1 = var4 != var1;
+                if(!var1) { _fun0010_ip = 62; continue _fun0010 }
+ 33:
+                var2 = var2._guildMemberProfile;
+                var4 = var4 == var2;
+                var3 = undefined;
+                if(var4) { _fun0010_ip = 54; continue _fun0010 }
+ 48:
+                var3 = var2.pronouns;
+ 54:
+                var2 = '';
+                var1 = var2 !== var3;
+ 62:
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[14] = var1;
+        var1 = {};
         var6 = 'getBannerURL';
         var1['key'] = var6;
         var6 = function value(arg1) {
-            _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
  0:
                 var1 = arg1;
                 var7 = this;
@@ -451,15 +480,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var1.size;
                 var2 = var7.guildId;
                 var1 = null;
-                if(!(var1 != var2)) { _fun0010_ip = 41; continue _fun0010 }
+                if(!(var1 != var2)) { _fun0011_ip = 41; continue _fun0011 }
  28:
                 var1 = var7.isUsingGuildMemberBanner;
                 var1 = var1.bind(var7)();
-                if(var1) { _fun0010_ip = 110; continue _fun0010 }
+                if(var1) { _fun0011_ip = 110; continue _fun0011 }
  41:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 4;
+                var1 = 5;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -472,11 +501,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['canAnimate'] = var6;
                 var1['size'] = var5;
                 var1 = var2.bind(var3)(var1);
-                _fun0010_ip = 186; continue _fun0010;
+                _fun0011_ip = 186; continue _fun0011;
  110:
                 var4 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var2 = 4;
+                var2 = 5;
                 var3 = var3[var2];
                 var2 = undefined;
                 var4 = var4.bind(var2)(var3);
@@ -496,43 +525,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[14] = var1;
+        var2[15] = var1;
         var1 = {};
         var6 = 'getPreviewBanner';
         var1['key'] = var6;
         var6 = function value(arg1, arg2) {
-            _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
  0:
                 var2 = arg1;
                 var8 = arg2;
                 var7 = arguments[2];
                 var9 = this;
                 var6 = undefined;
-                if(!(var7 === var6)) { _fun0011_ip = 24; continue _fun0011 }
+                if(!(var7 === var6)) { _fun0012_ip = 24; continue _fun0012 }
  18:
                 var7 = 480;
  24:
                 var3 = null;
                 var1 = var2;
-                if(!(var3 == var1)) { _fun0011_ip = 153; continue _fun0011 }
+                if(!(var3 == var1)) { _fun0012_ip = 153; continue _fun0012 }
  33:
-                if(!(var3 !== var2)) { _fun0011_ip = 61; continue _fun0011 }
+                if(!(var3 !== var2)) { _fun0012_ip = 61; continue _fun0012 }
  37:
                 var4 = var9.getBannerURL;
                 var2 = {};
                 var2['canAnimate'] = var8;
                 var2['size'] = var7;
                 var2 = var4.bind(var9)(var2);
-                _fun0011_ip = 150; continue _fun0011;
+                _fun0012_ip = 150; continue _fun0012;
  61:
                 var4 = var9.isUsingGuildMemberBanner;
                 var4 = var4.bind(var9)();
                 var3 = null;
-                if(!var4) { _fun0011_ip = 147; continue _fun0011 }
+                if(!var4) { _fun0012_ip = 147; continue _fun0012 }
  76:
                 var5 = _closure1_slot0;
                 var10 = _closure1_slot2;
-                var4 = 4;
+                var4 = 5;
                 var4 = var10[var4];
                 var6 = var5.bind(var6)(var4);
                 var5 = var6.getUserBannerURL;
@@ -554,17 +583,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[15] = var1;
+        var2[16] = var1;
         var1 = {};
         var6 = 'getPreviewBio';
         var1['key'] = var6;
         var6 = function value(arg1) {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
                 var1 = this;
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
-                var2 = 5;
+                var2 = 6;
                 var2 = var4[var2];
                 var4 = undefined;
                 var6 = var3.bind(var4)(var2);
@@ -572,7 +601,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var1._guildMemberProfile;
                 var2 = null;
                 var7 = var2 == var3;
-                if(var7) { _fun0012_ip = 55; continue _fun0012 }
+                if(var7) { _fun0013_ip = 55; continue _fun0013 }
  49:
                 var4 = var3.bio;
  55:
@@ -588,12 +617,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[16] = var1;
+        var2[17] = var1;
         var1 = {};
         var6 = 'getPreviewThemeColors';
         var1['key'] = var6;
         var6 = function value(arg1) {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
                 var4 = arg1;
                 var3 = this;
@@ -601,27 +630,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var6 == var4;
                 var2 = undefined;
                 var1 = undefined;
-                if(var5) { _fun0013_ip = 25; continue _fun0013 }
+                if(var5) { _fun0014_ip = 25; continue _fun0014 }
  19:
                 var5 = 0;
                 var1 = var4[var5];
  25:
-                if(!(var6 != var1)) { _fun0013_ip = 52; continue _fun0013 }
+                if(!(var6 != var1)) { _fun0014_ip = 52; continue _fun0014 }
  29:
                 var1 = var6 == var4;
                 var5 = undefined;
-                if(var1) { _fun0013_ip = 45; continue _fun0013 }
+                if(var1) { _fun0014_ip = 45; continue _fun0014 }
  38:
                 var1 = 1;
                 var5 = var4[var1];
  45:
                 var1 = var4;
-                if(!(var6 == var5)) { _fun0013_ip = 79; continue _fun0013 }
+                if(!(var6 == var5)) { _fun0014_ip = 79; continue _fun0014 }
  52:
-                if(!(var2 === var4)) { _fun0013_ip = 64; continue _fun0013 }
+                if(!(var2 === var4)) { _fun0014_ip = 64; continue _fun0014 }
  56:
                 var2 = var3.themeColors;
-                _fun0013_ip = 76; continue _fun0013;
+                _fun0014_ip = 76; continue _fun0014;
  64:
                 var3 = var3._userProfile;
                 var2 = var3.themeColors;
@@ -632,18 +661,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[17] = var1;
+        var2[18] = var1;
         var1 = {};
         var6 = 'getBadges';
         var1['key'] = var6;
         var6 = function value() {
-            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+            _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                 var2 = this;
                 var1 = var2._userProfile;
                 var5 = var1.badges;
                 var4 = null;
-                if(!(var4 == var5)) { _fun0014_ip = 25; continue _fun0014 }
+                if(!(var4 == var5)) { _fun0015_ip = 25; continue _fun0015 }
  21:
                 var5 = new Array(0);
  25:
@@ -655,11 +684,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var2._guildMemberProfile;
                 var6 = var4 == var5;
                 var2 = undefined;
-                if(var6) { _fun0014_ip = 62; continue _fun0014 }
+                if(var6) { _fun0015_ip = 62; continue _fun0015 }
  56:
                 var2 = var5.badges;
  62:
-                if(!(var4 == var2)) { _fun0014_ip = 70; continue _fun0014 }
+                if(!(var4 == var2)) { _fun0015_ip = 70; continue _fun0015 }
  66:
                 var2 = new Array(0);
  70:
@@ -671,7 +700,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var1['value'] = var6;
-        var2[18] = var1;
+        var2[19] = var1;
         var1 = {};
         var6 = 'getLegacyUsername';
         var1['key'] = var6;
@@ -682,13 +711,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['value'] = var5;
-        var2[19] = var1;
+        var2[20] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
     var2 = var2.bind(var1)();
-    var4 = 6;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

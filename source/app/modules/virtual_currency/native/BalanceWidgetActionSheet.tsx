@@ -40,13 +40,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var7;
     var4 = var4.jsxs;
     var _closure1_slot8 = var4;
-    var4 = 14;
+    var4 = 15;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {};
-    var10 = 12;
+    var10 = 13;
     var12 = var6[var10];
     var12 = var11.bind(var1)(var12);
     var12 = var12.spacing;
@@ -91,7 +91,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var6[var10];
     var13 = var11.bind(var1)(var13);
     var13 = var13.spacing;
-    var13 = var13.PX_8;
+    var13 = var13.PX_12;
     var9['paddingTop'] = var13;
     var4['header'] = var9;
     var9 = {};
@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['balanceHeader'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot9 = var4;
-    var4 = 15;
+    var4 = 16;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -160,7 +160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.COLLECTIBLES_SHOP;
                     var2['analyticsSource'] = var6;
                     var5 = _closure1_slot6;
-                    var5 = var5.FEATURED_PAGE;
+                    var5 = var5.ORBS;
                     var2['screen'] = var5;
                     var2 = var3.bind(var4)(var2);
                     var4 = _closure2_slot0;
@@ -183,13 +183,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var6.bind(var5)(var3, var2);
             var3 = var5.useCallback;
             var2 = function() {
-                var3 = _closure1_slot1;
-                var2 = _closure1_slot2;
+                var5 = _closure1_slot1;
+                var4 = _closure1_slot2;
                 var1 = 4;
-                var2 = var2[var1];
+                var3 = var4[var1];
                 var1 = undefined;
+                var5 = var5.bind(var1)(var3);
+                var3 = var5.hideActionSheet;
+                var3 = var3.bind(var5)();
+                var3 = _closure1_slot0;
+                var2 = 7;
+                var2 = var4[var2];
                 var3 = var3.bind(var1)(var2);
-                var2 = var3.hideActionSheet;
+                var2 = var3.openQuestHome;
                 var2 = var2.bind(var3)();
                 return var1;
             };
@@ -198,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot7;
             var17 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var1 = 7;
+            var1 = 8;
             var1 = var19[var1];
             var1 = var17.bind(var4)(var1);
             var2 = var1.BottomSheet;
@@ -216,7 +222,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = {};
             var11 = var10.balanceHeader;
             var7['style'] = var11;
-            var21 = 8;
+            var21 = 9;
             var11 = var19[var21];
             var11 = var17.bind(var4)(var11);
             var13 = var11.OrbIcon;
@@ -229,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var3.bind(var4)(var13, var11);
             var11 = new Array(2);
             var11[0] = var13;
-            var13 = 9;
+            var13 = 10;
             var13 = var19[var13];
             var13 = var17.bind(var4)(var13);
             var17 = var13.Text;
@@ -266,7 +272,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17['accessibilityRole'] = var15;
             var20 = _closure1_slot0;
             var15 = _closure1_slot2;
-            var22 = 10;
+            var22 = 11;
             var21 = var15[var22];
             var21 = var20.bind(var4)(var21);
             var24 = var21.intl;
@@ -280,7 +286,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = {};
             var23 = var10.iconBackground;
             var21['style'] = var23;
-            var23 = 11;
+            var23 = 12;
             var23 = var15[var23];
             var23 = var20.bind(var4)(var23);
             var24 = var23.CircleQuestionIcon;
@@ -288,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = 'sm';
             var23['size'] = var25;
             var26 = _closure1_slot1;
-            var25 = 12;
+            var25 = 13;
             var25 = var15[var25];
             var25 = var26.bind(var4)(var25);
             var25 = var25.colors;
@@ -312,7 +318,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = {};
             var10 = var10.actions;
             var8['style'] = var10;
-            var11 = 13;
+            var11 = 14;
             var10 = var15[var11];
             var10 = var20.bind(var4)(var10);
             var13 = var10.Button;

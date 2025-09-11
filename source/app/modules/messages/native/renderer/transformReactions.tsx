@@ -45,20 +45,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = var10 == var2;
                 var4 = undefined;
                 var1 = undefined;
-                if(var7) { _fun0001_ip = 56; continue _fun0001 }
- 50:
+                if(var7) { _fun0001_ip = 54; continue _fun0001 }
+ 48:
                 var1 = var2.vote;
- 56:
-                if(!(var10 == var1)) { _fun0001_ip = 476; continue _fun0001 }
- 63:
+ 54:
+                if(!(var10 == var1)) { _fun0001_ip = 474; continue _fun0001 }
+ 61:
                 var7 = _closure2_slot0;
-                if(!var7) { _fun0001_ip = 79; continue _fun0001 }
- 73:
+                if(!var7) { _fun0001_ip = 77; continue _fun0001 }
+ 71:
                 var7 = var3.animated;
- 79:
+ 77:
                 var1 = var3.id;
-                if(!(var10 != var1)) { _fun0001_ip = 147; continue _fun0001 }
- 88:
+                if(!(var10 != var1)) { _fun0001_ip = 145; continue _fun0001 }
+ 86:
                 var2 = _closure1_slot1;
                 var8 = _closure1_slot2;
                 var1 = 1;
@@ -72,8 +72,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = 48;
                 var1['size'] = var9;
                 var9 = var2.bind(var8)(var1);
-                _fun0001_ip = 183; continue _fun0001;
- 147:
+                _fun0001_ip = 181; continue _fun0001;
+ 145:
                 var2 = _closure1_slot1;
                 var1 = _closure1_slot2;
                 var1 = var1[var5];
@@ -81,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var8.getURL;
                 var1 = var3.name;
                 var9 = var2.bind(var8)(var1);
- 183:
+ 181:
                 var8 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var1 = 2;
@@ -98,15 +98,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.id;
                 var1 = var10 == var1;
                 var10 = null;
-                if(var1) { _fun0001_ip = 285; continue _fun0001 }
- 258:
+                if(var1) { _fun0001_ip = 283; continue _fun0001 }
+ 256:
                 var12 = var3.id;
                 var1 = global;
                 var1 = var1.HermesInternal;
                 var11 = var1.concat;
                 var1 = '';
                 var10 = var11.bind(var1)(var12);
- 285:
+ 283:
                 var1 = {};
                 var17 = var1;
                 var16 = var6;
@@ -130,12 +130,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var7.isArray;
                 var3 = var1.burst_colors;
                 var3 = var6.bind(var7)(var3);
-                if(!var3) { _fun0001_ip = 474; continue _fun0001 }
- 381:
+                if(!var3) { _fun0001_ip = 472; continue _fun0001 }
+ 379:
                 var3 = var1.burst_colors;
                 var3 = var3.length;
-                if(!(var3 > var5)) { _fun0001_ip = 474; continue _fun0001 }
- 396:
+                if(!(var3 > var5)) { _fun0001_ip = 472; continue _fun0001 }
+ 394:
                 var6 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var2 = 3;
@@ -153,9 +153,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2['shouldProcessMobileColors'] = var5;
                 var2 = var3.bind(var4)(var2);
                 var1['themedBurstColors'] = var2;
- 474:
+ 472:
                 return var1;
- 476:
+ 474:
                 var1 = new Array(0);
                 return var1;
             }

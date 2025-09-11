@@ -396,8 +396,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var4.bind(var5)(var3);
                             var _closure4_slot2 = var4;
                             var3 = null;
-                            if(!(var3 != var4)) { _fun0004_ip = 151; continue _fun0004 }
- 51:
+                            if(!(var3 != var4)) { _fun0004_ip = 152; continue _fun0004 }
+ 52:
                             var3 = global;
                             var5 = var3.Set;
                             var6 = var5.prototype;
@@ -570,7 +570,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             };
                             var2 = var3.bind(var4)(var2);
                             return var1;
- 151:
+ 152:
                             return var1;
                         }
                     };

@@ -391,26 +391,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = null;
                     var3 = var6 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0008_ip = 29; continue _fun0008 }
- 24:
+                    if(var3) { _fun0008_ip = 28; continue _fun0008 }
+ 23:
                     var1 = var2.id;
- 29:
+ 28:
                     var2 = var6 != var1;
                     var1 = null;
-                    if(!var2) { _fun0008_ip = 80; continue _fun0008 }
- 38:
+                    if(!var2) { _fun0008_ip = 78; continue _fun0008 }
+ 37:
                     var3 = _closure1_slot7;
                     var2 = var3.getUsableCustomEmojiById;
                     var5 = _closure2_slot0;
                     var5 = var5.emoji;
                     var6 = var6 == var5;
                     var4 = undefined;
-                    if(var6) { _fun0008_ip = 75; continue _fun0008 }
- 70:
+                    if(var6) { _fun0008_ip = 73; continue _fun0008 }
+ 68:
                     var4 = var5.id;
- 75:
+ 73:
                     var1 = var2.bind(var3)(var4);
- 80:
+ 78:
                     return var1;
                 }
             };
@@ -419,29 +419,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = null;
             var3 = var14 == var2;
             var1 = undefined;
-            if(var3) { _fun0007_ip = 100; continue _fun0007 }
- 95:
+            if(var3) { _fun0007_ip = 99; continue _fun0007 }
+ 94:
             var1 = var2.id;
- 100:
+ 99:
             var7 = var14 != var1;
-            if(var7) { _fun0007_ip = 131; continue _fun0007 }
- 107:
+            if(var7) { _fun0007_ip = 129; continue _fun0007 }
+ 106:
             var2 = var9.emoji;
             var3 = var14 == var2;
             var1 = undefined;
-            if(var3) { _fun0007_ip = 127; continue _fun0007 }
- 122:
+            if(var3) { _fun0007_ip = 125; continue _fun0007 }
+ 120:
             var1 = var2.name;
- 127:
+ 125:
             var7 = var14 != var1;
- 131:
+ 129:
             var3 = _closure1_slot18;
             var2 = _closure1_slot4;
             var1 = {};
             var5 = var15.dropdownPill;
             var1['style'] = var5;
-            if(!var7) { _fun0007_ip = 354; continue _fun0007 }
- 157:
+            if(!var7) { _fun0007_ip = 351; continue _fun0007 }
+ 155:
             var10 = _closure1_slot17;
             var8 = _closure1_slot4;
             var5 = {};
@@ -460,8 +460,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11['fastImageStyle'] = var15;
             var16 = var14 != var19;
             var15 = undefined;
-            if(!var16) { _fun0007_ip = 295; continue _fun0007 }
- 234:
+            if(!var16) { _fun0007_ip = 293; continue _fun0007 }
+ 232:
             var17 = _closure1_slot1;
             var18 = _closure1_slot2;
             var16 = 30;
@@ -476,26 +476,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = _closure1_slot15;
             var16['size'] = var19;
             var15 = var17.bind(var18)(var16);
- 295:
+ 293:
             var11['src'] = var15;
             var16 = var9.emoji;
             var17 = var14 == var16;
             var15 = undefined;
-            if(var17) { _fun0007_ip = 320; continue _fun0007 }
- 315:
+            if(var17) { _fun0007_ip = 317; continue _fun0007 }
+ 312:
             var15 = var16.name;
- 320:
+ 317:
             var16 = var14 != var15;
             var14 = '';
-            if(!var16) { _fun0007_ip = 334; continue _fun0007 }
- 331:
+            if(!var16) { _fun0007_ip = 331; continue _fun0007 }
+ 328:
             var14 = var15;
- 334:
+ 331:
             var11['name'] = var14;
             var11 = var13.bind(var4)(var12, var11);
             var5['children'] = var11;
             var7 = var10.bind(var4)(var8, var5);
- 354:
+ 351:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot17;

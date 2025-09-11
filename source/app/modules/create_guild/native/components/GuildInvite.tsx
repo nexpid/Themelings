@@ -705,36 +705,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot6;
                     var1 = var3 != var2;
  24:
-                    if(!var1) { _fun0008_ip = 152; continue _fun0008 }
+                    if(!var1) { _fun0008_ip = 155; continue _fun0008 }
  30:
-                    var3 = _closure1_slot1;
-                    var5 = _closure1_slot2;
-                    var2 = 29;
-                    var2 = var5[var2];
-                    var4 = undefined;
-                    var8 = var3.bind(var4)(var2);
+                    var2 = _closure1_slot1;
+                    var4 = _closure1_slot2;
+                    var1 = 29;
+                    var1 = var4[var1];
+                    var3 = undefined;
+                    var8 = var2.bind(var3)(var1);
                     var7 = var8.trackWithMetadata;
-                    var2 = _closure1_slot14;
-                    var3 = var2.SEARCH_STARTED;
-                    var2 = {};
+                    var1 = _closure1_slot14;
+                    var2 = var1.SEARCH_STARTED;
+                    var1 = {};
                     var9 = _closure1_slot18;
                     var9 = var9.INSTANT_INVITE;
-                    var2['search_type'] = var9;
-                    var2 = var7.bind(var8)(var3, var2);
-                    var3 = _closure1_slot0;
-                    var2 = 28;
-                    var2 = var5[var2];
-                    var5 = var3.bind(var4)(var2);
-                    var4 = var5.showInstantInviteActionSheet;
-                    var3 = _closure2_slot6;
-                    var1 = _closure1_slot16;
-                    var2 = var1.GUILD_CREATE;
+                    var1['search_type'] = var9;
+                    var1 = var7.bind(var8)(var2, var1);
+                    var2 = _closure1_slot0;
+                    var1 = 28;
+                    var1 = var4[var1];
+                    var4 = var2.bind(var3)(var1);
+                    var3 = var4.showInstantInviteActionSheet;
+                    var2 = _closure2_slot6;
                     var1 = {};
-                    var6 = _closure2_slot5;
-                    var6 = var6.code;
-                    var1['code'] = var6;
-                    var1 = var4.bind(var5)(var3, var2, var1);
- 152:
+                    var6 = _closure1_slot16;
+                    var6 = var6.GUILD_CREATE;
+                    var1['source'] = var6;
+                    var5 = _closure2_slot5;
+                    var5 = var5.code;
+                    var1['code'] = var5;
+                    var1 = var3.bind(var4)(var2, var1);
+ 155:
                     var1 = undefined;
                     return var1;
                 }

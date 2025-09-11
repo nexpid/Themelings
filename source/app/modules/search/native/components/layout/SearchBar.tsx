@@ -620,22 +620,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             }
         };
         var10 = var7.bind(var14)(var3, var5);
-        var7 = var14.useEffect;
-        var5 = new Array(1);
-        var5[0] = var16;
-        var3 = function() {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 17;
-            var2 = var2[var1];
-            var1 = undefined;
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.syncAutocomplete;
-            var2 = _closure2_slot0;
-            var2 = var3.bind(var4)(var2);
-            return var1;
-        };
-        var3 = var7.bind(var14)(var3, var5);
         var7 = var14.useCallback;
         var5 = new Array(1);
         var5[0] = var16;
@@ -838,7 +822,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = var17[var6];
         var15 = var3.bind(var4)(var6);
         var12 = var15.useAnimatedStyle;
-        var6 = function D() {
+        var6 = function A() {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
                 var1 = {};
