@@ -1,4 +1,4 @@
-// app/design/components/AccessibilityAnnouncer/AccessibilityAnnouncerLiveRegion.android.tsx
+// discord_common/js/packages/design/components/AccessibilityAnnouncer/AccessibilityAnnouncerLiveRegion.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var6 = require;
     var3 = exports;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
-    var5 = 'design/components/AccessibilityAnnouncer/AccessibilityAnnouncerLiveRegion.android.tsx';
+    var5 = '../discord_common/js/packages/design/components/AccessibilityAnnouncer/AccessibilityAnnouncerLiveRegion.native.tsx';
     var5 = var6.bind(var7)(var5);
     var4 = function updateAccessibilityAnnouncerLiveRegionMessage(arg1) {
         var2 = arg1;

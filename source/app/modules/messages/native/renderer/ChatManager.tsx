@@ -369,7 +369,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = this;
                 var5 = var1.message;
                 var6 = var1.updateMessageIds;
-                var2 = var1.forced;
+                var2 = var1.forceRender;
                 var4 = undefined;
                 if(!(var7 === var4)) { _fun0007_ip = 34; continue _fun0007 }
  32:

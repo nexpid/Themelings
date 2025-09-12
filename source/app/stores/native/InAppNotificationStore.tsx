@@ -890,12 +890,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var1;
             var13 = var2.reactorUserId;
             var4 = null;
-            if(!(var4 != var10)) { _fun0011_ip = 753; continue _fun0011 }
+            if(!(var4 != var10)) { _fun0011_ip = 752; continue _fun0011 }
  40:
             var2 = var10.reactions;
-            if(!(var4 != var2)) { _fun0011_ip = 753; continue _fun0011 }
+            if(!(var4 != var2)) { _fun0011_ip = 752; continue _fun0011 }
  53:
-            if(!(var4 != var1)) { _fun0011_ip = 753; continue _fun0011 }
+            if(!(var4 != var1)) { _fun0011_ip = 752; continue _fun0011 }
  60:
             var3 = _closure1_slot0;
             var1 = _closure1_slot2;
@@ -905,7 +905,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var1)(var2);
             var2 = var3.allowInAppNotifications;
             var2 = var2.bind(var3)();
-            if(!var2) { _fun0011_ip = 753; continue _fun0011 }
+            if(!var2) { _fun0011_ip = 752; continue _fun0011 }
  101:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -920,14 +920,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  150:
             var11 = var2.channelId;
             var9 = var2.guildId;
-            if(!(var4 != var11)) { _fun0011_ip = 749; continue _fun0011 }
+            if(!(var4 != var11)) { _fun0011_ip = 748; continue _fun0011 }
  167:
             var3 = _closure1_slot17;
             var2 = var3.getCurrentlySelectedChannelId;
             var2 = var2.bind(var3)();
-            if(!(var2 !== var11)) { _fun0011_ip = 749; continue _fun0011 }
+            if(!(var2 !== var11)) { _fun0011_ip = 748; continue _fun0011 }
  188:
-            if(!(var4 != var9)) { _fun0011_ip = 749; continue _fun0011 }
+            if(!(var4 != var9)) { _fun0011_ip = 748; continue _fun0011 }
  195:
             var6 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -942,7 +942,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var6.bind(var1)(var2);
             var2 = var2.ReactionNotificationType;
             var2 = var2.NOTIFICATIONS_DISABLED;
-            if(!(var3 !== var2)) { _fun0011_ip = 745; continue _fun0011 }
+            if(!(var3 !== var2)) { _fun0011_ip = 744; continue _fun0011 }
  262:
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -992,11 +992,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = _closure1_slot18;
             var5 = var8.getUser;
             var8 = var5.bind(var8)(var13);
-            if(!(var4 != var6)) { _fun0011_ip = 741; continue _fun0011 }
+            if(!(var4 != var6)) { _fun0011_ip = 740; continue _fun0011 }
  440:
             if(!(var4 == var8)) { _fun0011_ip = 450; continue _fun0011 }
  444:
-            if(!var3) { _fun0011_ip = 741; continue _fun0011 }
+            if(!var3) { _fun0011_ip = 740; continue _fun0011 }
  450:
             var14 = var10.reactions;
             var13 = var14.find;
@@ -1030,19 +1030,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.bind(var14)(var5);
             var14 = var4 != var13;
             var5 = undefined;
-            if(!var14) { _fun0011_ip = 486; continue _fun0011 }
- 483:
+            if(!var14) { _fun0011_ip = 485; continue _fun0011 }
+ 482:
             var5 = var13;
- 486:
-            if(!(var4 == var5)) { _fun0011_ip = 500; continue _fun0011 }
- 490:
-            if(var3) { _fun0011_ip = 500; continue _fun0011 }
- 493:
-            if(var2) { _fun0011_ip = 500; continue _fun0011 }
- 496:
+ 485:
+            if(!(var4 == var5)) { _fun0011_ip = 499; continue _fun0011 }
+ 489:
+            if(var3) { _fun0011_ip = 499; continue _fun0011 }
+ 492:
+            if(var2) { _fun0011_ip = 499; continue _fun0011 }
+ 495:
             var2 = false;
             return var2;
- 500:
+ 499:
             var3 = _closure1_slot1;
             var4 = _closure1_slot2;
             var2 = 37;
@@ -1058,13 +1058,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var13)(var3, var2);
             var3 = var2.enableInAppNotifications;
             var2 = var2.enableNotificationsForAllReactions;
-            if(!var3) { _fun0011_ip = 571; continue _fun0011 }
- 568:
-            if(var2) { _fun0011_ip = 575; continue _fun0011 }
- 571:
+            if(!var3) { _fun0011_ip = 570; continue _fun0011 }
+ 567:
+            if(var2) { _fun0011_ip = 574; continue _fun0011 }
+ 570:
             var2 = false;
             return var2;
- 575:
+ 574:
             var3 = _closure1_slot28;
             var2 = {};
             var4 = {};
@@ -1113,16 +1113,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['notification'] = var4;
             var2 = var3.bind(var1)(var2);
             return var1;
- 741:
+ 740:
             var1 = false;
             return var1;
- 745:
+ 744:
             var1 = false;
             return var1;
- 749:
+ 748:
             var1 = false;
             return var1;
- 753:
+ 752:
             var1 = false;
             return var1;
         }

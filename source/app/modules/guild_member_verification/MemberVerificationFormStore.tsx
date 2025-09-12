@@ -167,10 +167,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = null;
                 var7 = var2 == var5;
                 var2 = undefined;
-                if(var7) { _fun0004_ip = 59; continue _fun0004 }
- 53:
+                if(var7) { _fun0004_ip = 58; continue _fun0004 }
+ 52:
                 var2 = var5.formFields;
- 59:
+ 58:
                 var5 = _closure1_slot0;
                 var7 = _closure1_slot2;
                 var1 = 6;

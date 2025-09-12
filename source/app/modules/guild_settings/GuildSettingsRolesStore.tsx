@@ -288,36 +288,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4['tertiary_color'] = var9;
                 var6[var8] = var4;
                 var4 = var2.colors;
-                if(!(var5 != var4)) { _fun0005_ip = 381; continue _fun0005 }
- 295:
+                if(!(var5 != var4)) { _fun0005_ip = 385; continue _fun0005 }
+ 299:
                 var4 = {};
                 var8 = var2.colors;
                 var8 = var8.primary_color;
-                if(!(var5 == var8)) { _fun0005_ip = 316; continue _fun0005 }
- 312:
-                var8 = _closure1_slot16;
+                if(!(var5 == var8)) { _fun0005_ip = 320; continue _fun0005 }
  316:
+                var8 = _closure1_slot16;
+ 320:
                 var4['primary_color'] = var8;
                 var8 = var2.colors;
                 var9 = var8.secondary_color;
                 var10 = var5 != var9;
                 var8 = null;
-                if(!var10) { _fun0005_ip = 344; continue _fun0005 }
- 341:
+                if(!var10) { _fun0005_ip = 348; continue _fun0005 }
+ 345:
                 var8 = var9;
- 344:
+ 348:
                 var4['secondary_color'] = var8;
                 var8 = var2.colors;
                 var8 = var8.tertiary_color;
                 var9 = var5 != var8;
                 var5 = null;
-                if(!var9) { _fun0005_ip = 372; continue _fun0005 }
- 369:
+                if(!var9) { _fun0005_ip = 376; continue _fun0005 }
+ 373:
                 var5 = var8;
- 372:
+ 376:
                 var4['tertiary_color'] = var5;
                 var6[var7] = var4;
- 381:
+ 385:
                 var5 = _closure1_slot34;
                 var4 = var5.set;
                 var3 = var2.id;
@@ -458,19 +458,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var8 = var8.bind(var9)(var7);
                     var7 = null;
-                    if(!(var7 != var8)) { _fun0008_ip = 82; continue _fun0008 }
- 64:
-                    if(!(var7 != var6)) { _fun0008_ip = 82; continue _fun0008 }
- 68:
+                    if(!(var7 != var8)) { _fun0008_ip = 81; continue _fun0008 }
+ 63:
+                    if(!(var7 != var6)) { _fun0008_ip = 81; continue _fun0008 }
+ 67:
                     var5 = _closure2_slot0;
                     var3 = _closure3_slot1;
                     var5[var3] = var6;
-                    _fun0008_ip = 96; continue _fun0008;
- 82:
+                    _fun0008_ip = 95; continue _fun0008;
+ 81:
                     var3 = _closure1_slot24;
                     var2 = var3.delete;
                     var2 = var2.bind(var3)(var4);
- 96:
+ 95:
                     return var1;
                 }
             };
@@ -1218,13 +1218,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot42;
             var5 = undefined;
             var4 = var1.bind(var5)(var11);
-            if(!(var6 != var4)) { _fun0021_ip = 259; continue _fun0021 }
+            if(!(var6 != var4)) { _fun0021_ip = 267; continue _fun0021 }
  80:
             var3 = _closure1_slot34;
             var1 = var3.get;
             var12 = var1.bind(var3)(var11);
             var1 = var6 != var12;
-            if(!var1) { _fun0021_ip = 257; continue _fun0021 }
+            if(!var1) { _fun0021_ip = 265; continue _fun0021 }
  104:
             var3 = _closure1_slot23;
             var3 = var3.SOLID;
@@ -1251,17 +1251,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['colors'] = var7;
             var7 = var6 != var8;
             var6 = null;
-            if(!var7) { _fun0021_ip = 246; continue _fun0021 }
- 227:
+            if(!var7) { _fun0021_ip = 254; continue _fun0021 }
+ 235:
             var7 = {'primaryColor': null, 'secondaryColor': null, 'tertiaryColor': null};
             var7['primaryColor'] = var8;
             var6 = var7;
- 246:
+ 254:
             var2['colorStrings'] = var6;
             var1 = var3.bind(var5)(var4, var2);
- 257:
+ 265:
             return var1;
- 259:
+ 267:
             var1 = false;
             return var1;
         }

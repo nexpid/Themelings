@@ -2468,6 +2468,127 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot27 = var1;
+    var1 = function _fetchQuestPreview() {
+        var5 = undefined;
+        var1 = undefined;
+        var4 = _closure1_slot3;
+        var3 = function* (arg1) {
+            var1 = function* anon_0_(arg1) {
+                _fun0019: for(var _fun0019_ip = 0; ; ) switch(_fun0019_ip) {
+ 0:
+                    StartGenerator();
+                    var5 = arg1;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(var2) { _fun0019_ip = 350; continue _fun0019 }
+ 13:
+                    var6 = var5;
+                    var3 = _closure1_slot4;
+                    var2 = var3.isFetchingQuestPreview;
+                    var2 = var2.bind(var3)(var5);
+                    if(var2) { _fun0019_ip = 345; continue _fun0019 }
+ 42:
+                    var5 = _closure1_slot1;
+                    var2 = _closure1_slot2;
+                    var3 = 6;
+                    var2 = var2[var3];
+                    var9 = undefined;
+                    var7 = var5.bind(var9)(var2);
+                    var5 = var7.dispatch;
+                    var2 = {};
+                    var8 = 'QUESTS_FETCH_PREVIEW_BEGIN';
+                    var2['type'] = var8;
+                    var8 = var6;
+                    var2['questId'] = var8;
+                    var2 = var5.bind(var7)(var2);
+ 94: // try_start_0
+                    var5 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var2 = 5;
+                    var2 = var7[var2];
+                    var2 = var5.bind(var9)(var2);
+                    var7 = var2.HTTP;
+                    var5 = var7.get;
+                    var2 = {};
+                    var11 = _closure1_slot9;
+                    var10 = var11.QUEST_PREVIEW;
+                    var8 = var6;
+                    var8 = var10.bind(var11)(var8);
+                    var2['url'] = var8;
+                    var8 = false;
+                    var2['rejectWithError'] = var8;
+                    var2 = var5.bind(var7)(var2);
+                    SaveGenerator(address=163);
+ 161:
+                    return var2;
+ 163:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(var5) { _fun0019_ip = 255; continue _fun0019 }
+ 169:
+                    var7 = _closure1_slot1;
+                    var12 = _closure1_slot2;
+                    var5 = var12[var3];
+                    var8 = var7.bind(var9)(var5);
+                    var7 = var8.dispatch;
+                    var5 = {};
+                    var10 = 'QUESTS_FETCH_PREVIEW_SUCCESS';
+                    var5['type'] = var10;
+                    var10 = var6;
+                    var5['questId'] = var10;
+                    var11 = _closure1_slot0;
+                    var10 = 11;
+                    var10 = var12[var10];
+                    var12 = var11.bind(var9)(var10);
+                    var11 = var12.questWithUserStatusFromServer;
+                    var10 = var2.body;
+                    var10 = var11.bind(var12)(var10);
+                    var5['quest'] = var10;
+                    var5 = var7.bind(var8)(var5);
+ 253: // try_end0
+                    _fun0019_ip = 345; continue _fun0019;
+ 255:
+                    return var2;
+ 258: // catch_target0
+                    CatchBlockStart(arg_register=1);
+                    var8 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var3 = var10[var3];
+                    var5 = var8.bind(var9)(var3);
+                    var4 = var5.dispatch;
+                    var3 = {};
+                    var7 = 'QUESTS_FETCH_PREVIEW_FAILURE';
+                    var3['type'] = var7;
+                    var7 = 7;
+                    var7 = var10[var7];
+                    var7 = var8.bind(var9)(var7);
+                    var8 = var7.prototype;
+                    var8 = Object.create(var8, {constructor: {value: var7}});
+                    var14 = var8;
+                    var13 = var2;
+                    var7 = new var14[var7](var13, var12);
+                    var7 = var7 instanceof Object ? var7 : var8;
+                    var3['error'] = var7;
+                    var3['questId'] = var6;
+                    var3 = var4.bind(var5)(var3);
+                    throw var2;
+ 345:
+                    var2 = undefined;
+                    return var2;
+ 350:
+                    return var1;
+                }
+            };
+            return var1;
+        };
+        var4 = var4.bind(var5)(var3);
+        _closure1_slot28 = var4;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var _closure1_slot28 = var1;
     var1 = global;
     var9 = var1.Object;
     var5 = var9.defineProperty;
@@ -2841,7 +2962,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['updateQuestDockVisibilityOverride'] = var4;
-    var2 = function fetchQuest() {
+    var4 = function fetchQuest() {
         var1 = undefined;
         var4 = _closure1_slot27;
         var3 = var4.apply;
@@ -2851,6 +2972,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var3['fetchQuest'] = var2;
+    var3['fetchQuest'] = var4;
+    var2 = function fetchQuestPreview() {
+        var1 = undefined;
+        var4 = _closure1_slot28;
+        var3 = var4.apply;
+        var1 = arguments;
+        var2 = var1;
+        var1 = this;
+        var1 = var3.bind(var4)(var1, var2);
+        return var1;
+    };
+    var3['fetchQuestPreview'] = var2;
     return var1;
 })();

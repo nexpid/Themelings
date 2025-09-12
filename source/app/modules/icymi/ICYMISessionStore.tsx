@@ -224,17 +224,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function endCurrentSession() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            var1 = _closure1_slot7;
-            var2 = null;
-            var1 = var2 != var1;
-            if(!var1) { _fun0005_ip = 36; continue _fun0005 }
+            var3 = _closure1_slot7;
+            var1 = null;
+            var1 = var1 != var3;
+            if(!var1) { _fun0005_ip = 32; continue _fun0005 }
  16:
-            var5 = _closure1_slot7;
-            var4 = var5.endSession;
-            var4 = var4.bind(var5)();
-            _closure1_slot7 = var2;
+            var3 = _closure1_slot7;
+            var2 = var3.endSession;
+            var2 = var2.bind(var3)();
             var1 = true;
- 36:
+ 32:
             return var1;
         }
     };
@@ -259,14 +258,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = function handleTabOpened(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
-            var1 = _closure1_slot7;
-            var4 = null;
-            var1 = var4 == var1;
-            if(!var1) { _fun0007_ip = 68; continue _fun0007 }
- 16:
-            var2 = _closure1_slot7;
-            if(!(var4 == var2)) { _fun0007_ip = 58; continue _fun0007 }
- 24:
+            var2 = _closure1_slot15;
+            var1 = undefined;
+            var1 = var2.bind(var1)();
+            var2 = _closure1_slot8;
+            var4 = var2.length;
+            var2 = 0;
+            if(!(var4 > var2)) { _fun0007_ip = 66; continue _fun0007 }
+ 28:
             var6 = _closure1_slot11;
             var8 = _closure1_slot8;
             var2 = var6.prototype;
@@ -275,13 +274,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var4;
             var2 = new var9[var6](var8, var7, var6);
             var2 = var2 instanceof Object ? var2 : var4;
-            _fun0007_ip = 62; continue _fun0007;
- 58:
-            var2 = _closure1_slot7;
- 62:
             _closure1_slot7 = var2;
             var1 = true;
- 68:
+ 66:
             return var1;
         }
     };
@@ -346,21 +341,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'list';
  33:
                 var _closure3_slot1 = var3;
-                var7 = _closure1_slot5;
-                var5 = _closure2_slot0;
-                var5 = var7.bind(var1)(var4, var5);
-                var5 = _closure1_slot0;
-                var7 = _closure1_slot1;
+                var5 = _closure1_slot5;
+                var3 = _closure2_slot0;
+                var3 = var5.bind(var1)(var4, var3);
+                var7 = _closure1_slot0;
+                var8 = _closure1_slot1;
                 var3 = 5;
-                var3 = var7[var3];
-                var5 = var5.bind(var1)(var3);
+                var3 = var8[var3];
+                var5 = var7.bind(var1)(var3);
                 var3 = var5.v4;
                 var3 = var3.bind(var5)();
                 var4['_sessionId'] = var3;
                 var3 = global;
-                var7 = var3.Date;
-                var5 = var7.now;
-                var5 = var5.bind(var7)();
+                var10 = var3.Date;
+                var5 = var10.now;
+                var5 = var5.bind(var10)();
                 var4['_startTimestamp'] = var5;
                 var5 = null;
                 var4['_endTimestamp'] = var5;
@@ -368,37 +363,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4['_activeItems'] = var5;
                 var5 = 0;
                 var4['_impressionCount'] = var5;
-                var7 = var3.Map;
-                var8 = var7.prototype;
-                var8 = Object.create(var8, {constructor: {value: var7}});
-                var11 = var8;
-                var7 = new var11[var7](var10);
-                var7 = var7 instanceof Object ? var7 : var8;
-                var4['_viewedItemIdMap'] = var7;
-                var7 = var3.Set;
-                var8 = var7.prototype;
-                var8 = Object.create(var8, {constructor: {value: var7}});
-                var11 = var8;
-                var7 = new var11[var7](var10);
-                var7 = var7 instanceof Object ? var7 : var8;
-                var4['_impressionItemTypes'] = var7;
+                var10 = var3.Map;
+                var11 = var10.prototype;
+                var11 = Object.create(var11, {constructor: {value: var10}});
+                var14 = var11;
+                var10 = new var14[var10](var13);
+                var10 = var10 instanceof Object ? var10 : var11;
+                var4['_viewedItemIdMap'] = var10;
+                var10 = var3.Set;
+                var11 = var10.prototype;
+                var11 = Object.create(var11, {constructor: {value: var10}});
+                var14 = var11;
+                var10 = new var14[var10](var13);
+                var10 = var10 instanceof Object ? var10 : var11;
+                var4['_impressionItemTypes'] = var10;
                 var4['_reloadCount'] = var5;
                 var4['_feedFetchCount'] = var5;
                 var4['_visibleItemsChangedCount'] = var5;
                 var4['_latestDwellStartTimeMs'] = var5;
-                var8 = var3.setTimeout;
-                var7 = function() {
+                var11 = var3.setTimeout;
+                var10 = function() {
                     var2 = _closure3_slot0;
                     var1 = var2.endSession;
                     var1 = var1.bind(var2)();
                     return var1;
                 };
                 var3 = 300000;
-                var3 = var8.bind(var1)(var7, var3);
+                var3 = var11.bind(var1)(var10, var3);
                 var4['_timeout'] = var3;
+                var3 = 6;
+                var3 = var8[var3];
+                var3 = var7.bind(var1)(var3);
+                var8 = var3.ICYMIAnalytics;
+                var7 = var8.trackFeedSessionStarted;
+                var3 = {};
+                var10 = var4._sessionId;
+                var3['icymiSessionId'] = var10;
+                var10 = var4._startTimestamp;
+                var3['sessionStartTimeMs'] = var10;
+                var9 = _closure1_slot9;
+                var3['previousIcymiSessionCount'] = var9;
+                var3 = var7.bind(var8)(var3);
                 var3 = var6.length;
-                if(!(var3 > var5)) { _fun0008_ip = 298; continue _fun0008 }
- 270:
+                if(!(var3 > var5)) { _fun0008_ip = 360; continue _fun0008 }
+ 332:
                 var3 = var4.setVisibleItems;
                 var5 = var6.map;
                 var2 = function(arg1) {
@@ -416,7 +424,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2 = var5.bind(var6)(var2);
                 var2 = var3.bind(var4)(var2);
- 298:
+ 360:
                 return var1;
             }
         };
@@ -430,7 +438,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var1['get'] = var2;
-        var2 = new Array(17);
+        var2 = new Array(18);
         var2[0] = var1;
         var1 = {};
         var6 = 'startTimestamp';
@@ -585,16 +593,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var5 = var4.bind(var5)(var3);
                         var3 = null;
-                        if(!(var3 == var5)) { _fun0010_ip = 79; continue _fun0010 }
- 46:
+                        if(!(var3 == var5)) { _fun0010_ip = 78; continue _fun0010 }
+ 45:
                         var6 = _closure3_slot2;
                         var4 = var6.push;
                         var7 = _closure3_slot1;
                         var3 = var7._createImpression;
                         var3 = var3.bind(var7)(var1);
                         var3 = var4.bind(var6)(var3);
-                        _fun0010_ip = 113; continue _fun0010;
- 79:
+                        _fun0010_ip = 112; continue _fun0010;
+ 78:
                         var4 = _closure3_slot2;
                         var3 = var4.push;
                         var3 = var3.bind(var4)(var5);
@@ -602,7 +610,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.delete;
                         var1 = var1.itemId;
                         var1 = var2.bind(var3)(var1);
- 113:
+ 112:
                         var1 = undefined;
                         return var1;
                     }
@@ -706,20 +714,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.now;
             var2 = var2.bind(var4)();
             var1['_endTimestamp'] = var2;
-            var6 = _closure1_slot0;
-            var5 = _closure1_slot1;
+            var9 = _closure1_slot0;
+            var10 = _closure1_slot1;
             var4 = 6;
-            var4 = var5[var4];
+            var4 = var10[var4];
             var5 = undefined;
-            var4 = var6.bind(var5)(var4);
+            var4 = var9.bind(var5)(var4);
             var7 = var4.ICYMIAnalytics;
             var6 = var7.trackFeedSessionCompleted;
             var4 = {};
             var8 = var1._sessionId;
             var4['icymiSessionId'] = var8;
-            var9 = var1._endTimestamp;
+            var11 = var1._endTimestamp;
             var8 = var1._startTimestamp;
-            var8 = var9 - var8;
+            var8 = var11 - var8;
             var4['sessionDurationMs'] = var8;
             var8 = var1._startTimestamp;
             var4['sessionStartTimeMs'] = var8;
@@ -730,10 +738,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var1._viewedItemIdMap;
             var8 = var8.size;
             var4['uniqueImpressionCount'] = var8;
-            var10 = var3.Array;
-            var9 = var10.from;
+            var12 = var3.Array;
+            var11 = var12.from;
             var8 = var1._impressionItemTypes;
-            var8 = var9.bind(var10)(var8);
+            var8 = var11.bind(var12)(var8);
             var4['impressionItemTypes'] = var8;
             var8 = var1._reloadCount;
             var4['feedReloadCount'] = var8;
@@ -745,6 +753,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['latestDwellStartTimeMs'] = var8;
             var8 = _closure1_slot9;
             var4['previousIcyMiSessionCount'] = var8;
+            var8 = 7;
+            var8 = var10[var8];
+            var8 = var9.bind(var5)(var8);
+            var10 = var8.DestinationICYMIExperiment;
+            var9 = var10.getConfig;
+            var8 = {};
+            var11 = 'ICYMISessionStore.endSession';
+            var8['location'] = var11;
+            var8 = var9.bind(var10)(var8);
+            var8 = var8.uxVariation;
+            var4['uxVariation'] = var8;
             var4 = var6.bind(var7)(var4);
             var4 = var3.clearTimeout;
             var3 = var1._timeout;
@@ -794,40 +813,76 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var2 = arg1;
                 var3 = this;
+                var _closure3_slot0 = var3;
+                var5 = _closure1_slot0;
+                var7 = _closure1_slot1;
+                var1 = 5;
+                var1 = var7[var1];
+                var7 = undefined;
+                var5 = var5.bind(var7)(var1);
+                var1 = var5.v4;
+                var5 = var1.bind(var5)();
                 var1 = {};
-                var4 = var2.itemId;
-                var1['itemId'] = var4;
-                var4 = var2.itemType;
-                var1['itemType'] = var4;
-                var4 = global;
-                var5 = var4.Date;
-                var4 = var5.now;
-                var4 = var4.bind(var5)();
-                var1['impressionStartTimestamp'] = var4;
-                var4 = false;
-                var1['impressionComplete'] = var4;
-                var4 = var2.triggerType;
-                var1['triggerType'] = var4;
-                var4 = var2.itemFeedIndex;
-                var1['itemFeedIndex'] = var4;
-                var4 = var2.itemScore;
-                var1['itemScore'] = var4;
-                var4 = var2.isInitiallyVisible;
-                var1['isInitiallyVisible'] = var4;
-                var4 = var2.itemChannelType;
-                var1['itemChannelType'] = var4;
-                var6 = _closure1_slot10;
-                var5 = var6.get;
-                var4 = var2.itemId;
-                var5 = var5.bind(var6)(var4);
+                var8 = var2.itemId;
+                var1['itemId'] = var8;
+                var8 = var2.itemType;
+                var1['itemType'] = var8;
+                var1['impressionId'] = var5;
+                var5 = global;
+                var9 = var5.Date;
+                var8 = var9.now;
+                var8 = var8.bind(var9)();
+                var1['impressionStartTimestamp'] = var8;
+                var8 = false;
+                var1['impressionComplete'] = var8;
+                var8 = var2.triggerType;
+                var1['triggerType'] = var8;
+                var8 = var2.itemFeedIndex;
+                var1['itemFeedIndex'] = var8;
+                var8 = var2.itemScore;
+                var1['itemScore'] = var8;
+                var8 = var2.isInitiallyVisible;
+                var1['isInitiallyVisible'] = var8;
+                var8 = var2.itemChannelType;
+                var1['itemChannelType'] = var8;
+                var10 = _closure1_slot10;
+                var9 = var10.get;
+                var8 = var2.itemId;
+                var10 = var9.bind(var10)(var8);
                 var8 = null;
-                var6 = var8 != var5;
-                var4 = null;
-                if(!var6) { _fun0011_ip = 151; continue _fun0011 }
- 148:
-                var4 = var5;
- 151:
-                var1['itemCardHeight'] = var4;
+                var11 = var8 != var10;
+                var9 = null;
+                if(!var11) { _fun0011_ip = 194; continue _fun0011 }
+ 191:
+                var9 = var10;
+ 194:
+                var1['itemCardHeight'] = var9;
+                var9 = _closure1_slot0;
+                var10 = _closure1_slot1;
+                var6 = 7;
+                var6 = var10[var6];
+                var6 = var9.bind(var7)(var6);
+                var10 = var6.DestinationICYMIExperiment;
+                var9 = var10.getConfig;
+                var6 = {};
+                var11 = 'ICYMISessionStore._createImpression';
+                var6['location'] = var11;
+                var6 = var9.bind(var10)(var6);
+                var6 = var6.uxVariation;
+                var1['uxVariation'] = var6;
+                var _closure3_slot1 = var1;
+                var6 = var5.setTimeout;
+                var5 = function() {
+                    var3 = _closure3_slot0;
+                    var2 = var3._track1sImpression;
+                    var1 = _closure3_slot1;
+                    var1 = var1.impressionId;
+                    var1 = var2.bind(var3)(var1);
+                    var1 = undefined;
+                    return var1;
+                };
+                var4 = 950;
+                var4 = var6.bind(var7)(var5, var4);
                 var4 = var3._impressionCount;
                 var4 = var4 + 1;
                 var3['_impressionCount'] = var4;
@@ -840,10 +895,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var9.bind(var10)(var4);
                 var9 = var8 != var4;
                 var8 = 0;
-                if(!var9) { _fun0011_ip = 222; continue _fun0011 }
- 219:
+                if(!var9) { _fun0011_ip = 354; continue _fun0011 }
+ 351:
                 var8 = var4;
- 222:
+ 354:
                 var4 = 1;
                 var4 = var8 + var4;
                 var4 = var6.bind(var7)(var5, var4);
@@ -859,10 +914,95 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['value'] = var6;
         var2[15] = var1;
         var1 = {};
+        var6 = '_track1sImpression';
+        var1['key'] = var6;
+        var6 = function _track1sImpression(arg1) {
+            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+ 0:
+                var7 = this;
+                var2 = arg1;
+                var _closure3_slot0 = var2;
+                var3 = var7._activeItems;
+                var2 = var3.find;
+                var1 = function(arg1) {
+                    var1 = arg1;
+                    var2 = var1.impressionId;
+                    var1 = _closure3_slot0;
+                    var1 = var2 === var1;
+                    return var1;
+                };
+                var6 = var2.bind(var3)(var1);
+                var4 = null;
+                if(!(var4 != var6)) { _fun0012_ip = 284; continue _fun0012 }
+ 44:
+                var3 = _closure1_slot0;
+                var2 = _closure1_slot1;
+                var1 = 6;
+                var2 = var2[var1];
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                var3 = var1.ICYMIAnalytics;
+                var2 = var3.trackFeedItemDwell1s;
+                var1 = {};
+                var8 = var7._sessionId;
+                var1['icymiSessionId'] = var8;
+                var8 = var6.impressionId;
+                var1['impressionId'] = var8;
+                var8 = var6.itemId;
+                var1['itemId'] = var8;
+                var8 = var6.itemType;
+                var1['itemType'] = var8;
+                var8 = var6.impressionStartTimestamp;
+                var1['dwellStartTimeMs'] = var8;
+                var8 = var6.triggerType;
+                var1['triggerType'] = var8;
+                var9 = var7._viewedItemIdMap;
+                var8 = var9.get;
+                var7 = var6.itemId;
+                var8 = var8.bind(var9)(var7);
+                var9 = var4 != var8;
+                var7 = 0;
+                if(!var9) { _fun0012_ip = 183; continue _fun0012 }
+ 180:
+                var7 = var8;
+ 183:
+                var1['itemOccurenceCountInSession'] = var7;
+                var7 = var6.itemFeedIndex;
+                var1['itemFeedIndex'] = var7;
+                var7 = var6.itemScore;
+                var1['itemScore'] = var7;
+                var7 = var6.isInitiallyVisible;
+                var1['isInitiallyVisible'] = var7;
+                var7 = var6.itemChannelType;
+                var1['itemChannelType'] = var7;
+                var8 = _closure1_slot10;
+                var7 = var8.get;
+                var5 = var6.itemId;
+                var5 = var7.bind(var8)(var5);
+                if(!(var4 == var5)) { _fun0012_ip = 262; continue _fun0012 }
+ 256:
+                var5 = var6.itemCardHeight;
+ 262:
+                var6 = var4 != var5;
+                var4 = null;
+                if(!var6) { _fun0012_ip = 274; continue _fun0012 }
+ 271:
+                var4 = var5;
+ 274:
+                var1['itemCardHeight'] = var4;
+                var1 = var2.bind(var3)(var1);
+ 284:
+                var1 = undefined;
+                return var1;
+            }
+        };
+        var1['value'] = var6;
+        var2[16] = var1;
+        var1 = {};
         var6 = '_endImpression';
         var1['key'] = var6;
         var5 = function _endImpression(arg1) {
-            _fun0012: for(var _fun0012_ip = 0; ; ) switch(_fun0012_ip) {
+            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
                 var3 = this;
                 var2 = arg1;
@@ -882,7 +1022,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = null;
                 var4 = var8 != var2;
                 var1 = null;
-                if(!var4) { _fun0012_ip = 376; continue _fun0012 }
+                if(!var4) { _fun0013_ip = 398; continue _fun0013 }
  60:
                 var4 = global;
                 var5 = var4.Date;
@@ -902,6 +1042,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = {};
                 var10 = var3._sessionId;
                 var4['icymiSessionId'] = var10;
+                var10 = var2.impressionId;
+                var4['impressionId'] = var10;
                 var11 = var2.impressionEndTimestamp;
                 var10 = var2.impressionStartTimestamp;
                 var10 = var11 - var10;
@@ -922,10 +1064,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var11.bind(var12)(var10);
                 var12 = var8 != var11;
                 var10 = 0;
-                if(!var12) { _fun0012_ip = 251; continue _fun0012 }
- 248:
+                if(!var12) { _fun0013_ip = 262; continue _fun0013 }
+ 259:
                 var10 = var11;
- 251:
+ 262:
                 var4['itemOccurenceCountInSession'] = var10;
                 var10 = var2.itemFeedIndex;
                 var4['itemFeedIndex'] = var10;
@@ -939,42 +1081,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var10 = var11.get;
                 var9 = var2.itemId;
                 var9 = var10.bind(var11)(var9);
-                if(!(var8 == var9)) { _fun0012_ip = 330; continue _fun0012 }
- 324:
+                if(!(var8 == var9)) { _fun0013_ip = 341; continue _fun0013 }
+ 335:
                 var9 = var2.itemCardHeight;
- 330:
+ 341:
                 var10 = var8 != var9;
                 var8 = null;
-                if(!var10) { _fun0012_ip = 342; continue _fun0012 }
- 339:
+                if(!var10) { _fun0013_ip = 353; continue _fun0013 }
+ 350:
                 var8 = var9;
- 342:
+ 353:
                 var4['itemCardHeight'] = var8;
+                var8 = var2.uxVariation;
+                var4['uxVariation'] = var8;
                 var4 = var5.bind(var7)(var4);
                 var5 = var3._activeItems;
                 var4 = var5.splice;
                 var3 = 1;
                 var3 = var4.bind(var5)(var6, var3);
                 var1 = var2;
- 376:
+ 398:
                 return var1;
             }
         };
         var1['value'] = var5;
-        var2[16] = var1;
+        var2[17] = var1;
         var1 = undefined;
         var1 = var4.bind(var1)(var3, var2);
         return var1;
     };
     var2 = var2.bind(var1)();
     var _closure1_slot11 = var2;
-    var5 = 7;
+    var5 = 8;
     var5 = var8[var5];
     var5 = var9.bind(var1)(var5);
     var10 = var5.Store;
     var5 = function(arg1) {
         var4 = function ICYMISessionStore() {
-            _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
+            _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
                 var4 = this;
                 var3 = undefined;
@@ -987,13 +1131,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot2;
                 var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
-                if(var1) { _fun0013_ip = 69; continue _fun0013 }
+                if(var1) { _fun0014_ip = 69; continue _fun0014 }
  51:
                 var7 = var9.apply;
                 var5 = arguments;
                 var1 = var5;
                 var1 = var7.bind(var9)(var4, var1);
-                _fun0013_ip = 105; continue _fun0013;
+                _fun0014_ip = 105; continue _fun0014;
  69:
                 var7 = global;
                 var8 = var7.Reflect;
@@ -1037,25 +1181,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var10 = var5.bind(var1)(var10);
-    var5 = 8;
+    var5 = 9;
     var5 = var8[var5];
     var14 = var9.bind(var1)(var5);
     var5 = {};
     var5['ICYMI_TAB_OPENED'] = var6;
     var6 = function handleTabClosed(arg1) {
-        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
- 0:
-            var3 = _closure1_slot7;
-            var1 = null;
-            var1 = var1 != var3;
-            if(!var1) { _fun0014_ip = 26; continue _fun0014 }
- 16:
-            var3 = _closure1_slot15;
-            var2 = undefined;
-            var1 = var3.bind(var2)();
- 26:
-            return var1;
-        }
+        var2 = _closure1_slot15;
+        var1 = undefined;
+        var1 = var2.bind(var1)();
+        return var1;
     };
     var5['ICYMI_TAB_CLOSED'] = var6;
     var6 = function handleIcymiTabFocussed(arg1) {
@@ -1244,7 +1379,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var5;
     var5 = new var15[var10](var14, var13, var12);
     var5 = var5 instanceof Object ? var5 : var6;
-    var6 = 9;
+    var6 = 10;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;

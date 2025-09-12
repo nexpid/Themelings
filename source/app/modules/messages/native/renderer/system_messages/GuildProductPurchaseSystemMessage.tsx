@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = {};
             var17 = var7.id;
             var11['userId'] = var17;
-            var11['guildMemberAvatar'] = var16;
+            var11['avatar'] = var16;
             var11['guildId'] = var15;
             var6 = var12.bind(var14)(var11, var7);
  317:

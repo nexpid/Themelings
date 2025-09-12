@@ -60,10 +60,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var4.getChannelId;
                 var7 = var3.bind(var4)();
                 var3 = null;
-                if(!(var3 != var7)) { _fun0001_ip = 189; continue _fun0001 }
+                if(!(var3 != var7)) { _fun0001_ip = 188; continue _fun0001 }
  28:
                 var4 = _closure2_slot0;
-                if(var4) { _fun0001_ip = 189; continue _fun0001 }
+                if(var4) { _fun0001_ip = 188; continue _fun0001 }
  41:
                 var5 = _closure1_slot2;
                 var4 = var5.getVideoParticipants;
@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var4.length;
                 var4 = 0;
                 var4 = var5 > var4;
-                if(var4) { _fun0001_ip = 141; continue _fun0001 }
+                if(var4) { _fun0001_ip = 140; continue _fun0001 }
  87:
                 var6 = _closure1_slot2;
                 var5 = var6.getStreamParticipants;
@@ -106,7 +106,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var2 = var5.bind(var6)(var2);
                 var4 = var3 != var2;
- 141:
+ 140:
                 var2 = {};
                 var6 = _closure1_slot0;
                 var5 = _closure1_slot1;
@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = 'externalPipEnabled';
                 var2[var3] = var4;
                 return var2;
- 189:
+ 188:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
                 var1 = 4;

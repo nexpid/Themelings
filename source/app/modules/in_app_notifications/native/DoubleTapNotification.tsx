@@ -206,19 +206,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var11 = var16.textEmoji;
                 var9['textEmojiStyle'] = var11;
                 var11 = var21.id;
-                var13 = null;
-                var14 = var13 == var11;
+                var12 = null;
+                var13 = var12 == var11;
                 var11 = '';
-                var12 = var11;
-                if(!var14) { _fun0002_ip = 230; continue _fun0002 }
- 225:
-                var12 = var21.surrogates;
- 230:
-                var9['name'] = var12;
-                var12 = var21.id;
-                var12 = var13 != var12;
-                if(!var12) { _fun0002_ip = 307; continue _fun0002 }
- 246:
+                if(!var13) { _fun0002_ip = 227; continue _fun0002 }
+ 222:
+                var11 = var21.surrogates;
+ 227:
+                var9['name'] = var11;
+                var11 = var21.id;
+                if(!(var12 == var11)) { _fun0002_ip = 247; continue _fun0002 }
+ 240:
+                var11 = var21.url;
+                _fun0002_ip = 308; continue _fun0002;
+ 247:
                 var13 = _closure1_slot1;
                 var14 = _closure1_slot2;
                 var12 = 10;
@@ -233,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var15 = _closure1_slot4;
                 var12['size'] = var15;
                 var11 = var13.bind(var14)(var12);
- 307:
+ 308:
                 var9['src'] = var11;
                 var9 = var3.bind(var4)(var10, var9);
                 var12 = new Array(2);

@@ -109,13 +109,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.disambiguatedEmojiFromProtoValue;
             var7 = var1.bind(var3)(var4);
             var1 = null;
-            if(!(var1 != var7)) { _fun0001_ip = 250; continue _fun0001 }
+            if(!(var1 != var7)) { _fun0001_ip = 252; continue _fun0001 }
  90:
             var3 = var7.id;
-            var3 = var1 != var3;
-            var6 = undefined;
-            if(!var3) { _fun0001_ip = 160; continue _fun0001 }
- 104:
+            if(!(var1 == var3)) { _fun0001_ip = 106; continue _fun0001 }
+ 99:
+            var6 = var7.url;
+            _fun0001_ip = 162; continue _fun0001;
+ 106:
             var4 = _closure1_slot1;
             var8 = _closure1_slot2;
             var3 = 9;
@@ -126,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var7.id;
             var3['id'] = var9;
             var6 = var4.bind(var8)(var3);
- 160:
+ 162:
             var4 = _closure1_slot7;
             var3 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -140,16 +141,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.id;
             var8 = var1 == var6;
             var6 = '';
-            if(!var8) { _fun0001_ip = 231; continue _fun0001 }
- 226:
+            if(!var8) { _fun0001_ip = 233; continue _fun0001 }
+ 228:
             var6 = var7.surrogates;
- 231:
+ 233:
             var2['name'] = var6;
             var6 = true;
             var2['adjustsFontSizeToFit'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 250:
+ 252:
             return var1;
         }
     };

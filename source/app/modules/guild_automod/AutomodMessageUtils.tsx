@@ -29,7 +29,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var5.type;
             var6 = _closure1_slot7;
             var6 = var6.AUTO_MODERATION_MESSAGE;
-            if(!(var7 !== var6)) { _fun0001_ip = 153; continue _fun0001 }
+            if(!(var7 !== var6)) { _fun0001_ip = 152; continue _fun0001 }
  75:
             var6 = var5.type;
             var1 = _closure1_slot7;
@@ -40,12 +40,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  96:
             var6 = var3 == var5;
             var1 = undefined;
-            if(var6) { _fun0001_ip = 151; continue _fun0001 }
+            if(var6) { _fun0001_ip = 150; continue _fun0001 }
  105:
             var8 = var5.fields;
             var6 = var3 == var8;
             var1 = undefined;
-            if(var6) { _fun0001_ip = 151; continue _fun0001 }
+            if(var6) { _fun0001_ip = 150; continue _fun0001 }
  120:
             var7 = var8.find;
             var6 = function(arg1) {
@@ -58,21 +58,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.bind(var8)(var6);
             var7 = var3 == var6;
             var1 = undefined;
-            if(var7) { _fun0001_ip = 151; continue _fun0001 }
- 145:
+            if(var7) { _fun0001_ip = 150; continue _fun0001 }
+ 144:
             var1 = var6.rawValue;
- 151:
+ 150:
             return var1;
- 153:
+ 152:
             var6 = var3 == var5;
             var1 = undefined;
-            if(var6) { _fun0001_ip = 208; continue _fun0001 }
- 162:
+            if(var6) { _fun0001_ip = 206; continue _fun0001 }
+ 161:
             var6 = var5.fields;
             var5 = var3 == var6;
             var1 = undefined;
-            if(var5) { _fun0001_ip = 208; continue _fun0001 }
- 177:
+            if(var5) { _fun0001_ip = 206; continue _fun0001 }
+ 176:
             var5 = var6.find;
             var2 = function(arg1) {
                 var1 = arg1;
@@ -84,10 +84,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var6)(var2);
             var3 = var3 == var2;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 208; continue _fun0001 }
- 202:
+            if(var3) { _fun0001_ip = 206; continue _fun0001 }
+ 200:
             var1 = var2.rawValue;
- 208:
+ 206:
             return var1;
         }
     };

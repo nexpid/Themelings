@@ -1,0 +1,38 @@
+// app/modules/launchpad/native/LaunchPadGestureCoordinatorExperiment.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var3 = exports;
+    var5 = dependencyMap;
+    var1 = global;
+    var6 = var1.Object;
+    var4 = var6.defineProperty;
+    var2 = {};
+    var8 = true;
+    var2['value'] = var8;
+    var1 = '__esModule';
+    var1 = var4.bind(var6)(var3, var1, var2);
+    var1 = 0;
+    var4 = var5[var1];
+    var2 = metroImportDefault;
+    var1 = undefined;
+    var4 = var2.bind(var1)(var4);
+    var2 = {'kind': 'user', 'name': '2025-09-launchpad-gesture-coordinator'};
+    var6 = {};
+    var7 = false;
+    var6['enabled'] = var7;
+    var2['defaultConfig'] = var6;
+    var6 = {};
+    var7 = {};
+    var7['enabled'] = var8;
+    var6[1] = var7;
+    var2['variations'] = var6;
+    var2 = var4.bind(var1)(var2);
+    var4 = 1;
+    var5 = var5[var4];
+    var4 = require;
+    var6 = var4.bind(var1)(var5);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/launchpad/native/LaunchPadGestureCoordinatorExperiment.tsx';
+    var4 = var5.bind(var6)(var4);
+    var3['default'] = var2;
+    return var1;
+})();

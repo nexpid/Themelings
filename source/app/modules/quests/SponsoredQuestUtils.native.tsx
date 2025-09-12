@@ -25,6 +25,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['openSponsoredQuestModal'] = var4;
     var2 = function createGameSheetHook(arg1) {
         var1 = arg1;
+        var2 = var1.quest;
+        var2 = var1.sourceQuestContent;
         var2 = var1.applications;
         var2 = var1.popoutTargetElementRef;
         var2 = var1.onGameSheetOpened;

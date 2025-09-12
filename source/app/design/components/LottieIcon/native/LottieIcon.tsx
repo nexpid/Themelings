@@ -109,29 +109,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = null;
             var2 = var12 == var18;
             var8 = undefined;
-            if(var2) { _fun0001_ip = 266; continue _fun0001 }
- 261:
+            if(var2) { _fun0001_ip = 264; continue _fun0001 }
+ 259:
             var8 = var18.start;
- 266:
+ 264:
             var19 = var12 != var8;
             var2 = -1;
             var16 = var2;
-            if(!var19) { _fun0001_ip = 285; continue _fun0001 }
- 282:
+            if(!var19) { _fun0001_ip = 283; continue _fun0001 }
+ 280:
             var16 = var8;
- 285:
+ 283:
             _closure2_slot5 = var16;
             var19 = var12 == var18;
             var8 = undefined;
-            if(var19) { _fun0001_ip = 303; continue _fun0001 }
- 298:
+            if(var19) { _fun0001_ip = 301; continue _fun0001 }
+ 296:
             var8 = var18.duration;
- 303:
+ 301:
             var18 = var12 != var8;
-            if(!var18) { _fun0001_ip = 313; continue _fun0001 }
- 310:
+            if(!var18) { _fun0001_ip = 311; continue _fun0001 }
+ 308:
             var2 = var8;
- 313:
+ 311:
             var2 = var16 + var2;
             _closure2_slot6 = var2;
             var19 = _closure1_slot3;
@@ -153,15 +153,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var8 === var13;
             var8 = {};
             var19 = var6;
-            if(!var13) { _fun0001_ip = 410; continue _fun0001 }
- 407:
+            if(!var13) { _fun0001_ip = 408; continue _fun0001 }
+ 405:
             var19 = var20;
- 410:
+ 408:
             var8['width'] = var19;
-            if(!var13) { _fun0001_ip = 420; continue _fun0001 }
- 417:
+            if(!var13) { _fun0001_ip = 418; continue _fun0001 }
+ 415:
             var6 = var7;
- 420:
+ 418:
             var8['height'] = var6;
             var7 = _closure1_slot0;
             var13 = _closure1_slot2;

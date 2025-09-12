@@ -95,7 +95,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  12:
                 var5 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 21;
+                var1 = 19;
                 var1 = var2[var1];
                 var2 = undefined;
                 var1 = var5.bind(var2)(var1);
@@ -252,7 +252,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure1_slot22 = var2;
         var2 = {};
         var _closure1_slot23 = var2;
-        var2 = 23;
+        var2 = 21;
         var2 = var6[var2];
         var2 = var7.bind(var1)(var2);
         var8 = var2.Store;
@@ -341,7 +341,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = arg1;
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 22;
+                    var1 = 20;
                     var3 = var3[var1];
                     var1 = undefined;
                     var4 = var4.bind(var1)(var3);
@@ -759,7 +759,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var5.bind(var6)(var1);
                 var6 = _closure1_slot0;
                 var9 = _closure1_slot2;
-                var1 = 20;
+                var1 = 18;
                 var1 = var9[var1];
                 var1 = var6.bind(var8)(var1);
                 var1 = var1.MediaEngineContextTypes;
@@ -994,206 +994,161 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0022: for(var _fun0022_ip = 0; ; ) switch(_fun0022_ip) {
  0:
                 var1 = arg1;
-                var6 = var1.streamKey;
+                var4 = var1.streamKey;
                 var10 = var1.rtcServerId;
                 var9 = var1.rtcChannelId;
                 var5 = var1.region;
-                var13 = var1.viewerIds;
+                var12 = var1.viewerIds;
                 var1 = _closure1_slot23;
-                var11 = var1[var6];
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot2;
+                var6 = var1[var4];
+                var7 = _closure1_slot0;
+                var3 = _closure1_slot2;
                 var1 = 15;
-                var2 = var2[var1];
+                var3 = var3[var1];
                 var1 = undefined;
-                var3 = var3.bind(var1)(var2);
-                var2 = var3.decodeStreamKey;
-                var4 = var2.bind(var3)(var6);
-                var2 = null;
-                var3 = var2 == var11;
+                var7 = var7.bind(var1)(var3);
+                var3 = var7.decodeStreamKey;
+                var14 = var3.bind(var7)(var4);
+                var8 = null;
+                var3 = var8 == var6;
                 if(!var3) { _fun0022_ip = 90; continue _fun0022 }
  86:
-                var3 = var2 != var10;
+                var3 = var8 != var10;
  90:
                 if(!var3) { _fun0022_ip = 527; continue _fun0022 }
  96:
                 var3 = _closure1_slot18;
-                var3 = var3[var6];
-                if(!(var2 == var3)) { _fun0022_ip = 116; continue _fun0022 }
+                var3 = var3[var4];
+                if(!(var8 == var3)) { _fun0022_ip = 116; continue _fun0022 }
  108:
                 var3 = _closure1_slot17;
-                var3[var6] = var2;
+                var3[var4] = var8;
  116:
                 var3 = _closure1_slot17;
-                var3 = var3[var6];
-                var3 = var2 == var3;
+                var3 = var3[var4];
+                var3 = var8 == var3;
                 if(!var3) { _fun0022_ip = 143; continue _fun0022 }
  131:
-                var8 = _closure1_slot19;
-                var8 = var8[var6];
-                var3 = var2 == var8;
+                var7 = _closure1_slot19;
+                var7 = var7[var4];
+                var3 = var8 == var7;
  143:
                 if(!var3) { _fun0022_ip = 190; continue _fun0022 }
  146:
-                var8 = _closure1_slot17;
-                var12 = _closure1_slot0;
-                var14 = _closure1_slot2;
+                var7 = _closure1_slot17;
+                var11 = _closure1_slot0;
+                var13 = _closure1_slot2;
                 var3 = 16;
-                var3 = var14[var3];
-                var14 = var12.bind(var1)(var3);
-                var12 = var14.getStreamerApplication;
+                var3 = var13[var3];
+                var13 = var11.bind(var1)(var3);
+                var11 = var13.getStreamerApplication;
                 var3 = _closure1_slot12;
-                var3 = var12.bind(var14)(var4, var3);
-                var8[var6] = var3;
+                var3 = var11.bind(var13)(var14, var3);
+                var7[var4] = var3;
  190:
-                var8 = _closure1_slot0;
+                var7 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var12 = 13;
-                var3 = var3[var12];
-                var3 = var8.bind(var1)(var3);
-                var8 = var3.StreamRTCAnalyticsContext;
+                var11 = 13;
+                var3 = var3[var11];
+                var3 = var7.bind(var1)(var3);
+                var7 = var3.StreamRTCAnalyticsContext;
                 var3 = {};
                 var3['streamRegion'] = var5;
                 var5 = _closure1_slot17;
-                var5 = var5[var6];
+                var5 = var5[var4];
                 var3['streamApplication'] = var5;
-                var14 = _closure1_slot26;
+                var13 = _closure1_slot26;
                 var5 = _closure1_slot19;
-                var5 = var5[var6];
-                var5 = var14.bind(var1)(var5);
+                var5 = var5[var4];
+                var5 = var13.bind(var1)(var5);
                 var3['streamSourceType'] = var5;
                 var5 = _closure1_slot16;
-                var14 = var5[var6];
-                var15 = var2 == var14;
+                var13 = var5[var4];
+                var14 = var8 == var13;
                 var5 = undefined;
-                if(var15) { _fun0022_ip = 281; continue _fun0022 }
+                if(var14) { _fun0022_ip = 281; continue _fun0022 }
  275:
-                var5 = var14.appContext;
+                var5 = var13.appContext;
  281:
                 var3['actionContext'] = var5;
-                var14 = var2 != var13;
+                var13 = var8 != var12;
                 var5 = 0;
-                if(!var14) { _fun0022_ip = 300; continue _fun0022 }
+                if(!var13) { _fun0022_ip = 300; continue _fun0022 }
  295:
-                var5 = var13.length;
+                var5 = var12.length;
  300:
                 var3['numViewers'] = var5;
                 var5 = _closure1_slot20;
-                var5 = var5[var6];
+                var5 = var5[var4];
                 var3['goLiveModalDurationMs'] = var5;
                 var5 = _closure1_slot16;
-                var13 = var5[var6];
-                var14 = var2 == var13;
+                var12 = var5[var4];
+                var13 = var8 == var12;
                 var5 = undefined;
-                if(var14) { _fun0022_ip = 341; continue _fun0022 }
+                if(var13) { _fun0022_ip = 341; continue _fun0022 }
  335:
-                var5 = var13.analyticsLocations;
+                var5 = var12.analyticsLocations;
  341:
                 var3['analyticsLocations'] = var5;
-                var5 = var8.prototype;
-                var5 = Object.create(var5, {constructor: {value: var8}});
-                var19 = var5;
-                var18 = var3;
-                var3 = new var19[var8](var18, var17);
+                var5 = var7.prototype;
+                var5 = Object.create(var5, {constructor: {value: var7}});
+                var17 = var5;
+                var16 = var3;
+                var3 = new var17[var7](var16, var15);
                 var5 = var3 instanceof Object ? var3 : var5;
-                var8 = _closure1_slot1;
+                var7 = _closure1_slot1;
                 var3 = _closure1_slot2;
-                var13 = 12;
-                var13 = var3[var13];
-                var15 = var8.bind(var1)(var13);
-                var13 = _closure1_slot3;
-                var14 = var2 != var13;
-                var13 = 'Creating RTCConnection without session.';
-                var13 = var15.bind(var1)(var14, var13);
-                var3 = var3[var12];
-                var8 = var8.bind(var1)(var3);
-                var3 = {};
+                var12 = 12;
+                var12 = var3[var12];
+                var14 = var7.bind(var1)(var12);
                 var12 = _closure1_slot3;
-                var3['sessionId'] = var12;
-                var3['streamKey'] = var6;
+                var13 = var8 != var12;
+                var12 = 'Creating RTCConnection without session.';
+                var12 = var14.bind(var1)(var13, var12);
+                var3 = var3[var11];
+                var7 = var7.bind(var1)(var3);
+                var3 = {};
+                var11 = _closure1_slot3;
+                var3['sessionId'] = var11;
+                var3['streamKey'] = var4;
                 var3['serverId'] = var10;
                 var3['channelId'] = var9;
                 var9 = _closure1_slot22;
                 var3['initialLayout'] = var9;
                 var3['analyticsContext'] = var5;
                 var5 = _closure1_slot17;
-                var5 = var5[var6];
-                var5 = var2 != var5;
+                var5 = var5[var4];
+                var5 = var8 != var5;
                 var3['isStreamer'] = var5;
-                var9 = _closure1_slot13;
-                var5 = var9.getMediaSessionId;
-                var5 = var5.bind(var9)();
+                var8 = _closure1_slot13;
+                var5 = var8.getMediaSessionId;
+                var5 = var5.bind(var8)();
                 var3['parentMediaSessionId'] = var5;
-                var5 = var8.prototype;
-                var5 = Object.create(var5, {constructor: {value: var8}});
-                var19 = var5;
-                var18 = var3;
-                var3 = new var19[var8](var18, var17);
+                var5 = var7.prototype;
+                var5 = Object.create(var5, {constructor: {value: var7}});
+                var17 = var5;
+                var16 = var3;
+                var3 = new var17[var7](var16, var15);
                 var3 = var3 instanceof Object ? var3 : var5;
                 var5 = _closure1_slot23;
-                var5[var6] = var3;
-                var11 = var3;
+                var5[var4] = var3;
+                var6 = var3;
  527:
                 var3 = _closure1_slot21;
-                var3 = delete var3[var6];
-                var5 = _closure1_slot1;
-                var8 = _closure1_slot2;
-                var3 = 17;
-                var3 = var8[var3];
-                var9 = var5.bind(var1)(var3);
-                var5 = var9.dispatch;
-                var3 = {};
-                var10 = 'MEDIA_ENGINE_CONNECTION_STATS_HISTORY_RESET';
-                var3['type'] = var10;
-                var10 = var11.getMediaEngineConnectionId;
-                var10 = var10.bind(var11)();
-                var3['mediaEngineConnectionId'] = var10;
-                var3 = var5.bind(var9)(var3);
-                var5 = _closure1_slot0;
-                var3 = 18;
-                var3 = var8[var3];
-                var8 = var5.bind(var1)(var3);
-                var5 = var8.isEligibleForGoLiveNotificationGuildExperiment;
-                var3 = {};
-                var9 = var4.guildId;
-                var3['guildId'] = var9;
-                var9 = 'StreamRTCConnectionStore';
-                var3['location'] = var9;
-                var3 = var5.bind(var8)(var3);
-                if(!var3) { _fun0022_ip = 667; continue _fun0022 }
- 643:
-                var5 = var4.ownerId;
-                var8 = _closure1_slot10;
-                var4 = var8.getId;
-                var4 = var4.bind(var8)();
-                var3 = var5 === var4;
- 667:
-                if(!var3) { _fun0022_ip = 747; continue _fun0022 }
- 670:
-                var4 = _closure1_slot0;
-                var5 = _closure1_slot2;
-                var3 = 19;
-                var3 = var5[var3];
-                var5 = var4.bind(var1)(var3);
-                var4 = var5.createStreamStartNotificationV2;
-                var3 = _closure1_slot17;
-                var8 = var3[var6];
-                var9 = var2 == var8;
-                var3 = undefined;
-                if(var9) { _fun0022_ip = 718; continue _fun0022 }
- 713:
-                var3 = var8.id;
- 718:
-                var7 = _closure1_slot17;
-                var7 = var7[var6];
-                var8 = var2 == var7;
-                var2 = undefined;
-                if(var8) { _fun0022_ip = 740; continue _fun0022 }
- 735:
-                var2 = var7.name;
- 740:
-                var2 = var4.bind(var5)(var6, var3, var2);
- 747:
+                var3 = delete var3[var4];
+                var3 = _closure1_slot1;
+                var4 = _closure1_slot2;
+                var2 = 17;
+                var2 = var4[var2];
+                var4 = var3.bind(var1)(var2);
+                var3 = var4.dispatch;
+                var2 = {};
+                var5 = 'MEDIA_ENGINE_CONNECTION_STATS_HISTORY_RESET';
+                var2['type'] = var5;
+                var5 = var6.getMediaEngineConnectionId;
+                var5 = var5.bind(var6)();
+                var2['mediaEngineConnectionId'] = var5;
+                var2 = var3.bind(var4)(var2);
                 return var1;
             }
         };
@@ -1408,7 +1363,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var2;
         var2 = new var15[var8](var14, var13, var12);
         var2 = var2 instanceof Object ? var2 : var4;
-        var4 = 24;
+        var4 = 22;
         var4 = var6[var4];
         var6 = var5.bind(var1)(var4);
         var5 = var6.fileFinishedImporting;

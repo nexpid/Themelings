@@ -197,7 +197,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var4.themeColors;
  432:
             var5 = var3 != var5;
-            if(!var5) { _fun0001_ip = 467; continue _fun0001 }
+            if(!var5) { _fun0001_ip = 466; continue _fun0001 }
  439:
             var9 = var4.themeColors;
             var8 = var9.find;
@@ -209,40 +209,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var7 = var8.bind(var9)(var7);
             var5 = var2 !== var7;
- 467:
-            if(!var5) { _fun0001_ip = 493; continue _fun0001 }
- 470:
+ 466:
+            if(!var5) { _fun0001_ip = 492; continue _fun0001 }
+ 469:
             var7 = var1.push;
             var5 = _closure1_slot10;
             var5 = var5.THEME;
             var5 = var7.bind(var1)(var5);
- 493:
+ 492:
             var7 = var3 == var6;
             var5 = undefined;
-            if(var7) { _fun0001_ip = 508; continue _fun0001 }
- 502:
+            if(var7) { _fun0001_ip = 507; continue _fun0001 }
+ 501:
             var5 = var6.avatarDecoration;
- 508:
-            if(!(var3 != var5)) { _fun0001_ip = 535; continue _fun0001 }
- 512:
+ 507:
+            if(!(var3 != var5)) { _fun0001_ip = 534; continue _fun0001 }
+ 511:
             var6 = var1.push;
             var5 = _closure1_slot10;
             var5 = var5.AVATAR_DECORATION;
             var5 = var6.bind(var1)(var5);
- 535:
+ 534:
             var5 = var3 == var4;
             var2 = undefined;
-            if(var5) { _fun0001_ip = 550; continue _fun0001 }
- 544:
+            if(var5) { _fun0001_ip = 549; continue _fun0001 }
+ 543:
             var2 = var4.profileEffect;
- 550:
-            if(!(var3 != var2)) { _fun0001_ip = 577; continue _fun0001 }
- 554:
+ 549:
+            if(!(var3 != var2)) { _fun0001_ip = 576; continue _fun0001 }
+ 553:
             var3 = var1.push;
             var2 = _closure1_slot10;
             var2 = var2.PROFILE_EFFECT;
             var2 = var3.bind(var1)(var2);
- 577:
+ 576:
             return var1;
         }
     };
@@ -893,16 +893,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[var11] = var12;
             var12 = var8 == var10;
             var11 = undefined;
-            if(var12) { _fun0008_ip = 418; continue _fun0008 }
- 412:
+            if(var12) { _fun0008_ip = 416; continue _fun0008 }
+ 410:
             var11 = var10.author_id;
- 418:
+ 416:
             var10 = 'author_id_v2';
             var2[var10] = var11;
             var10 = var8 == var9;
             var11 = undefined;
-            if(var10) { _fun0008_ip = 459; continue _fun0008 }
- 438:
+            if(var10) { _fun0008_ip = 457; continue _fun0008 }
+ 436:
             var13 = var9.entries;
             var12 = var13.map;
             var10 = function(arg1) {
@@ -911,13 +911,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var11 = var12.bind(var13)(var10);
- 459:
+ 457:
             var10 = 'item_ids';
             var2[var10] = var11;
             var10 = var8 == var9;
             var8 = undefined;
-            if(var10) { _fun0008_ip = 500; continue _fun0008 }
- 479:
+            if(var10) { _fun0008_ip = 498; continue _fun0008 }
+ 477:
             var10 = var9.entries;
             var9 = var10.map;
             var6 = function(arg1) {
@@ -926,7 +926,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var8 = var9.bind(var10)(var6);
- 500:
+ 498:
             var6 = 'author_ids_v2';
             var2[var6] = var8;
             var6 = 'voice_channel_id';

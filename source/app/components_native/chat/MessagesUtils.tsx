@@ -1892,7 +1892,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  70:
             var4 = {};
             var3 = true;
-            var4['forced'] = var3;
+            var4['forceRender'] = var3;
             var4['updateMessageIds'] = var2;
             var3 = arg3;
             var2 = undefined;

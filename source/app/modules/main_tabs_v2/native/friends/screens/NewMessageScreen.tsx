@@ -230,7 +230,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure2_slot0 = var2;
                 var1 = var2.length;
                 var3 = 1;
-                if(!(var3 !== var1)) { _fun0006_ip = 136; continue _fun0006 }
+                if(!(var3 !== var1)) { _fun0006_ip = 135; continue _fun0006 }
  21:
                 var5 = _closure1_slot10;
                 var4 = var5.getSortedChannels;
@@ -248,7 +248,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var5.length;
                 var1 = var6 < var1;
                 var3 = null;
-                if(!var1) { _fun0006_ip = 127; continue _fun0006 }
+                if(!var1) { _fun0006_ip = 126; continue _fun0006 }
  89:
                 var8 = var5[var6];
                 var4 = var8.find;
@@ -280,17 +280,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     }
                 };
                 var1 = var4.bind(var8)(var1);
-                if(!(var3 == var1)) { _fun0006_ip = 129; continue _fun0006 }
- 115:
+                if(!(var3 == var1)) { _fun0006_ip = 128; continue _fun0006 }
+ 114:
                 var6 = var6 + 1;
                 var4 = var5.length;
                 if(var6 < var4) { _fun0006_ip = 89; continue _fun0006 }
- 127:
+ 126:
                 return var3;
- 129:
+ 128:
                 var1 = var1.channelId;
                 return var1;
- 136:
+ 135:
                 var1 = 0;
                 var3 = var2[var1];
                 var2 = _closure1_slot8;
@@ -298,10 +298,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var1.bind(var2)(var3);
                 var1 = null;
                 var3 = var1 != var2;
-                if(!var3) { _fun0006_ip = 172; continue _fun0006 }
- 169:
+                if(!var3) { _fun0006_ip = 171; continue _fun0006 }
+ 168:
                 var1 = var2;
- 172:
+ 171:
                 return var1;
             }
         };
@@ -1197,10 +1197,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var14.isAndroid;
         var14 = var13.bind(var14)();
         var13 = 'center';
-        if(!var14) { _fun0001_ip = 557; continue _fun0001 }
- 551:
+        if(!var14) { _fun0001_ip = 558; continue _fun0001 }
+ 552:
         var13 = 'flex-start';
- 557:
+ 558:
         var9['alignItems'] = var13;
         var4['header'] = var9;
         var9 = {};

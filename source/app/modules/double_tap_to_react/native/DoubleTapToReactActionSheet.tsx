@@ -79,20 +79,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var15.isIOS;
         var15 = var10.bind(var15)();
         var10 = 36;
-        if(!var15) { _fun0001_ip = 334; continue _fun0001 }
- 331:
+        if(!var15) { _fun0001_ip = 335; continue _fun0001 }
+ 332:
         var10 = var12;
- 334:
+ 335:
         var9['fontSize'] = var10;
         var10 = var6[var14];
         var12 = var5.bind(var1)(var10);
         var10 = var12.isIOS;
         var12 = var10.bind(var12)();
         var10 = undefined;
-        if(!var12) { _fun0001_ip = 366; continue _fun0001 }
- 363:
+        if(!var12) { _fun0001_ip = 367; continue _fun0001 }
+ 364:
         var10 = 56;
- 366:
+ 367:
         var9['lineHeight'] = var10;
         var12 = 'center';
         var9['textAlign'] = var12;
@@ -111,10 +111,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var15.isIOS;
         var15 = var14.bind(var15)();
         var14 = undefined;
-        if(!var15) { _fun0001_ip = 448; continue _fun0001 }
- 445:
+        if(!var15) { _fun0001_ip = 449; continue _fun0001 }
+ 446:
         var14 = 56;
- 448:
+ 449:
         var9['lineHeight'] = var14;
         var4['selectedEmojiText'] = var9;
         var9 = {'flexDirection': 'column', 'alignItems': 'center'};
@@ -305,10 +305,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = _closure2_slot1;
                         var2 = var1.id;
                         var1 = null;
-                        var2 = var1 != var2;
-                        var1 = '';
-                        if(!var2) { _fun0004_ip = 95; continue _fun0004 }
- 25:
+                        if(!(var1 == var2)) { _fun0004_ip = 29; continue _fun0004 }
+ 18:
+                        var1 = _closure2_slot1;
+                        var1 = var1.url;
+                        _fun0004_ip = 99; continue _fun0004;
+ 29:
                         var4 = _closure1_slot1;
                         var3 = _closure1_slot2;
                         var2 = 15;
@@ -325,7 +327,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = _closure1_slot10;
                         var2['size'] = var5;
                         var1 = var3.bind(var4)(var2);
- 95:
+ 99:
                         return var1;
                     }
                 };

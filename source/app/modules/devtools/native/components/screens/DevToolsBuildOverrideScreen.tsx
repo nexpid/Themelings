@@ -168,10 +168,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     var3 = var1 == var2;
                     var1 = undefined;
-                    if(var3) { _fun0003_ip = 50; continue _fun0003 }
- 45:
+                    if(var3) { _fun0003_ip = 49; continue _fun0003 }
+ 44:
                     var1 = var2.label;
- 50:
+ 49:
                     return var1;
                 }
             };
@@ -383,10 +383,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var20.bind(var21)(var11);
             var20 = var10 == var11;
             var10 = undefined;
-            if(var20) { _fun0001_ip = 862; continue _fun0001 }
- 857:
+            if(var20) { _fun0001_ip = 861; continue _fun0001 }
+ 856:
             var10 = var11.icon;
- 862:
+ 861:
             var18['icon'] = var10;
             var11 = _closure1_slot7;
             var10 = _closure1_slot0;

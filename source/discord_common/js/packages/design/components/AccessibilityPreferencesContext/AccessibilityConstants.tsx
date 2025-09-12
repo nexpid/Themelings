@@ -1,4 +1,4 @@
-// app/design/components/AccessibilityPreferencesContext/AccessibilityConstants.tsx
+// discord_common/js/packages/design/components/AccessibilityPreferencesContext/AccessibilityConstants.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = 'design/components/AccessibilityPreferencesContext/AccessibilityConstants.tsx';
+    var2 = '../discord_common/js/packages/design/components/AccessibilityPreferencesContext/AccessibilityConstants.tsx';
     var2 = var4.bind(var5)(var2);
     var2 = 0.4;
     var3['LOW_SATURATION_THRESHOLD'] = var2;

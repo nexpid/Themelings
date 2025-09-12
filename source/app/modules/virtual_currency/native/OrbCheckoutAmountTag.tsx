@@ -1,0 +1,107 @@
+// app/modules/virtual_currency/native/OrbCheckoutAmountTag.tsx
+export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
+    var5 = require;
+    var11 = metroImportDefault;
+    var3 = exports;
+    var6 = dependencyMap;
+    var _closure1_slot0 = var5;
+    var _closure1_slot1 = var11;
+    var _closure1_slot2 = var6;
+    var1 = global;
+    var8 = var1.Object;
+    var7 = var8.defineProperty;
+    var4 = {};
+    var1 = true;
+    var4['value'] = var1;
+    var1 = '__esModule';
+    var1 = var7.bind(var8)(var3, var1, var4);
+    var1 = 0;
+    var4 = var6[var1];
+    var1 = undefined;
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.View;
+    var _closure1_slot3 = var4;
+    var4 = 1;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var7 = var4.jsx;
+    var _closure1_slot4 = var7;
+    var4 = var4.jsxs;
+    var _closure1_slot5 = var4;
+    var4 = 2;
+    var4 = var6[var4];
+    var8 = var5.bind(var1)(var4);
+    var7 = var8.createStyles;
+    var4 = {};
+    var9 = {'flexDirection': 'row', 'alignItems': 'center'};
+    var10 = 3;
+    var10 = var6[var10];
+    var10 = var11.bind(var1)(var10);
+    var10 = var10.spacing;
+    var10 = var10.PX_4;
+    var9['gap'] = var10;
+    var4['orbAmountTag'] = var9;
+    var4 = var7.bind(var8)(var4);
+    var _closure1_slot6 = var4;
+    var4 = 6;
+    var4 = var6[var4];
+    var6 = var5.bind(var1)(var4);
+    var5 = var6.fileFinishedImporting;
+    var4 = 'modules/virtual_currency/native/OrbCheckoutAmountTag.tsx';
+    var4 = var5.bind(var6)(var4);
+    var2 = function _default(arg1) {
+        _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+            var1 = arg1;
+            var10 = var1.orbAmount;
+            var1 = _closure1_slot6;
+            var4 = undefined;
+            var5 = var1.bind(var4)();
+            var3 = _closure1_slot5;
+            var2 = _closure1_slot3;
+            var1 = {};
+            var5 = var5.orbAmountTag;
+            var1['style'] = var5;
+            var8 = _closure1_slot4;
+            var6 = _closure1_slot1;
+            var9 = _closure1_slot2;
+            var11 = 4;
+            var5 = var9[var11];
+            var6 = var6.bind(var4)(var5);
+            var5 = {};
+            var12 = true;
+            var5['shouldUseThemeColor'] = var12;
+            var7 = _closure1_slot0;
+            var11 = var9[var11];
+            var11 = var7.bind(var4)(var11);
+            var11 = var11.OrbIconSize;
+            var11 = var11.SMALL;
+            var5['size'] = var11;
+            var6 = var8.bind(var4)(var6, var5);
+            var5 = new Array(2);
+            var5[0] = var6;
+            var6 = 5;
+            var6 = var9[var6];
+            var6 = var7.bind(var4)(var6);
+            var7 = var6.Text;
+            var6 = {};
+            var9 = 'text-md/semibold';
+            var6['variant'] = var9;
+            var9 = null;
+            var11 = var9 == var10;
+            var9 = '--';
+            if(var11) { _fun0001_ip = 165; continue _fun0001 }
+ 162:
+            var9 = var10;
+ 165:
+            var6['children'] = var9;
+            var6 = var8.bind(var4)(var7, var6);
+            var5[1] = var6;
+            var1['children'] = var5;
+            var1 = var3.bind(var4)(var2, var1);
+            return var1;
+        }
+    };
+    var3['default'] = var2;
+    return var1;
+})();

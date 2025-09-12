@@ -244,7 +244,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot7 = var2;
             var6 = var1.roleStyle;
             var _closure2_slot8 = var6;
-            var7 = var1.forced;
+            var7 = var1.forceRender;
             var _closure2_slot9 = var7;
             var2 = var1.updateMessageIds;
             var _closure2_slot10 = var2;
@@ -431,7 +431,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = _closure2_slot10;
                     var1['updateMessageIds'] = var6;
                     var5 = _closure2_slot9;
-                    var1['forced'] = var5;
+                    var1['forceRender'] = var5;
                     var1 = var2.bind(var3)(var1, var4);
                     return var1;
                 }

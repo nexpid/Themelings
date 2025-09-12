@@ -98,7 +98,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 326; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 330; continue _fun0002 }
  10:
                     var7 = arg1;
  13: // try_start_0
@@ -117,13 +117,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = var9.bind(var10)(var8);
                     var2['url'] = var8;
                     var2 = var3.bind(var5)(var2);
-                    SaveGenerator(address=91);
- 89:
+                    SaveGenerator(address=95);
+ 93:
                     return var2;
- 91:
+ 95:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 271; continue _fun0002 }
- 100:
+                    if(var3) { _fun0002_ip = 275; continue _fun0002 }
+ 104:
                     var5 = var2.body;
                     var3 = {};
                     var8 = var5.primary_category_id;
@@ -158,11 +158,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['guildId'] = var7;
                     var4['metadata'] = var3;
                     var4 = var5.bind(var6)(var4);
- 268: // try_end0
+ 272: // try_end0
                     return var3;
- 271:
+ 275:
                     return var2;
- 274: // catch_target0
+ 278: // catch_target0
                     CatchBlockStart(arg_register=1);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -176,7 +176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['type'] = var6;
                     var3 = var4.bind(var5)(var3);
                     return var2;
- 326:
+ 330:
                     return var1;
                 }
             };

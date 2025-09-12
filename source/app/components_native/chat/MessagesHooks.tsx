@@ -262,6 +262,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['oldestUnreadMessageId'] = var4;
             var4 = _closure2_slot3;
             var7['channelId'] = var4;
+            var11 = _closure2_slot4;
+            var7['screenIndex'] = var11;
             var11 = _closure2_slot5;
             var7['updateRows'] = var11;
             var10 = _closure2_slot6;
@@ -348,13 +350,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var6;
         var3[1] = var1;
         var1 = function() {
-            var4 = _closure1_slot0;
+            var4 = _closure1_slot1;
             var3 = _closure1_slot2;
             var2 = 11;
             var3 = var3[var2];
             var2 = undefined;
-            var2 = var4.bind(var2)(var3);
-            var4 = var2.ChatUpdatesQueue;
+            var4 = var4.bind(var2)(var3);
             var2 = var4.prototype;
             var2 = Object.create(var2, {constructor: {value: var4}});
             var6 = function() {

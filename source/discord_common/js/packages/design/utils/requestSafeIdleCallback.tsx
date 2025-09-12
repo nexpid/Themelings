@@ -1,4 +1,4 @@
-// app/design/utils/requestSafeIdleCallback.tsx
+// discord_common/js/packages/design/utils/requestSafeIdleCallback.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'design/utils/requestSafeIdleCallback.tsx';
+    var4 = '../discord_common/js/packages/design/utils/requestSafeIdleCallback.tsx';
     var4 = var5.bind(var6)(var4);
     var4 = function setOriginWindow(arg1) {
         var1 = arg1;

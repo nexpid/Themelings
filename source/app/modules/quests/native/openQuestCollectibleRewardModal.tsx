@@ -218,7 +218,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 13;
             var3 = var9[var3];
             var9 = var8.bind(var1)(var3);
-            var8 = var9.getIsQuestBrandColorRemovalExperimentEnabled;
+            var8 = var9.getIsQuestBrandColorRemovalPhase2ExperimentEnabled;
             var3 = {};
             var11 = var4.config;
             var3['questConfig'] = var11;

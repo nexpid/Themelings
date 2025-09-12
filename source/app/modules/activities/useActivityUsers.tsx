@@ -54,7 +54,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 var4 = _closure2_slot1;
                 var3 = null;
-                if(!(var3 != var4)) { _fun0001_ip = 125; continue _fun0001 }
+                if(!(var3 != var4)) { _fun0001_ip = 124; continue _fun0001 }
  15:
                 var5 = _closure1_slot3;
                 var4 = var5.getEmbeddedActivitiesForChannel;
@@ -69,8 +69,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var4.bind(var5)(var2);
-                if(!(var3 != var2)) { _fun0001_ip = 119; continue _fun0001 }
- 59:
+                if(!(var3 != var2)) { _fun0001_ip = 118; continue _fun0001 }
+ 58:
                 var3 = global;
                 var4 = var3.Array;
                 var3 = var4.from;
@@ -93,12 +93,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var1 = var2.bind(var3)(var1);
-                _fun0001_ip = 123; continue _fun0001;
- 119:
+                _fun0001_ip = 122; continue _fun0001;
+ 118:
                 var1 = new Array(0);
- 123:
+ 122:
                 return var1;
- 125:
+ 124:
                 var1 = new Array(0);
                 return var1;
             }

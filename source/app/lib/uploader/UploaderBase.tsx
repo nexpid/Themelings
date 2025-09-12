@@ -1091,7 +1091,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = arg1;
                     var4 = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0015_ip = 357; continue _fun0015 }
+                    if(var2) { _fun0015_ip = 356; continue _fun0015 }
  18:
                     var _closure4_slot0 = var11;
                     var7 = _closure1_slot11;
@@ -1115,12 +1115,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var6 = var5.bind(var6)(var3);
                     var3 = null;
-                    if(!(var3 != var6)) { _fun0015_ip = 352; continue _fun0015 }
- 108:
+                    if(!(var3 != var6)) { _fun0015_ip = 351; continue _fun0015 }
+ 107:
                     var3 = var6.isCancelled;
                     var3 = var3.bind(var6)();
-                    if(var3) { _fun0015_ip = 352; continue _fun0015 }
- 124:
+                    if(var3) { _fun0015_ip = 351; continue _fun0015 }
+ 123:
                     var5 = var4.files;
                     var3 = var5.indexOf;
                     var11 = var3.bind(var5)(var6);
@@ -1156,13 +1156,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var7.bind(var2)(var3);
                     var2 = var3.cancelGetAttachmentFile;
                     var2 = var2.bind(var3)(var6);
-                    SaveGenerator(address=282);
- 280:
+                    SaveGenerator(address=281);
+ 279:
                     return var2;
- 282:
+ 281:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0015_ip = 349; continue _fun0015 }
- 288:
+                    if(var3) { _fun0015_ip = 348; continue _fun0015 }
+ 287:
                     var3 = var6.cancel;
                     var3 = var3.bind(var6)();
                     var7 = var4.emit;
@@ -1171,17 +1171,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var7.bind(var4)(var3, var6);
                     var3 = var4.files;
                     var3 = var3.length;
-                    if(!(var5 === var3)) { _fun0015_ip = 352; continue _fun0015 }
- 337:
+                    if(!(var5 === var3)) { _fun0015_ip = 351; continue _fun0015 }
+ 336:
                     var3 = var4.cancel;
                     var3 = var3.bind(var4)();
-                    _fun0015_ip = 352; continue _fun0015;
- 349:
+                    _fun0015_ip = 351; continue _fun0015;
+ 348:
                     return var2;
- 352:
+ 351:
                     var2 = undefined;
                     return var2;
- 357:
+ 356:
                     return var1;
                 }
             };

@@ -1,4 +1,4 @@
-// app/design/components/AccessibilityPreferencesContext/AccessibilityPreferencesContext.tsx
+// discord_common/js/packages/design/components/AccessibilityPreferencesContext/AccessibilityPreferencesContext.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var5 = dependencyMap;
@@ -16,21 +16,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var6 = var2.bind(var1)(var4);
     var4 = var6.createContext;
-    var2 = {};
-    var7 = false;
-    var8 = {'enabled': false, 'rawValue': 'no-preference'};
-    var2['reducedMotion'] = var8;
-    var2['prefersCrossfades'] = var7;
-    var8 = {'enabled': false, 'rawValue': 'none'};
-    var2['forcedColors'] = var8;
-    var2['alwaysShowLinkDecorations'] = var7;
+    var2 = {'reducedMotion': null, 'prefersCrossfades': false, 'forcedColors': null, 'alwaysShowLinkDecorations': false, 'highContrastModeEnabled': false};
+    var7 = {'enabled': false, 'rawValue': 'no-preference'};
+    var2['reducedMotion'] = var7;
+    var7 = {'enabled': false, 'rawValue': 'none'};
+    var2['forcedColors'] = var7;
     var2 = var4.bind(var6)(var2);
     var4 = 1;
     var5 = var5[var4];
     var4 = require;
     var6 = var4.bind(var1)(var5);
     var5 = var6.fileFinishedImporting;
-    var4 = 'design/components/AccessibilityPreferencesContext/AccessibilityPreferencesContext.tsx';
+    var4 = '../discord_common/js/packages/design/components/AccessibilityPreferencesContext/AccessibilityPreferencesContext.tsx';
     var4 = var5.bind(var6)(var4);
     var3['AccessibilityPreferencesContext'] = var2;
     return var1;

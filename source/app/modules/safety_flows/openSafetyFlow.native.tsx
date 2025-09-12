@@ -18,143 +18,165 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 492; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 582; continue _fun0001 }
  13:
-                    var4 = undefined;
-                    if(!(var2 === var4)) { _fun0001_ip = 21; continue _fun0001 }
+                    var3 = undefined;
+                    if(!(var2 === var3)) { _fun0001_ip = 21; continue _fun0001 }
  19:
                     var2 = {};
  21:
-                    var8 = var2.requiredAction;
-                    SaveGenerator(address=31);
- 29:
-                    return var4;
+                    var9 = var2.requiredAction;
+                    var7 = undefined;
+                    SaveGenerator(address=33);
  31:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 489; continue _fun0001 }
- 40:
-                    var5 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var3 = 4;
-                    var3 = var7[var3];
-                    var7 = var5.bind(var4)(var3);
-                    var5 = var7.isEligibleForSafetyFlowsExperiment;
-                    var3 = {};
-                    var9 = 'open-safety-flow';
-                    var3['location'] = var9;
-                    var3 = var5.bind(var7)(var3);
-                    if(!var3) { _fun0001_ip = 480; continue _fun0001 }
- 92:
-                    var7 = null;
-                    if(!(var7 == var8)) { _fun0001_ip = 112; continue _fun0001 }
- 98:
-                    var5 = _closure1_slot4;
-                    var3 = var5.getAction;
-                    var8 = var3.bind(var5)();
- 112:
-                    var3 = _closure1_slot5;
-                    var3 = var3.REQUIRE_SAFETY_FLOWS;
-                    if(!(var8 !== var3)) { _fun0001_ip = 163; continue _fun0001 }
- 126:
-                    var5 = _closure1_slot1;
-                    var9 = _closure1_slot2;
-                    var3 = 5;
-                    var3 = var9[var3];
-                    var5 = var5.bind(var4)(var3);
-                    var3 = var5.isFullScreenVerification;
-                    var3 = var3.bind(var5)(var8);
-                    if(!var3) { _fun0001_ip = 480; continue _fun0001 }
- 163:
-                    var5 = _closure1_slot0;
-                    var8 = _closure1_slot2;
-                    var3 = 6;
-                    var3 = var8[var3];
-                    var5 = var5.bind(var4)(var3);
-                    var3 = var5.getCurrentTask;
-                    var3 = var3.bind(var5)();
-                    SaveGenerator(address=197);
- 195:
                     return var3;
- 197:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 486; continue _fun0001 }
- 206:
-                    if(!(var7 != var3)) { _fun0001_ip = 483; continue _fun0001 }
- 213:
-                    var8 = var3.task_type;
-                    var10 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var9 = 3;
-                    var5 = var5[var9];
-                    var5 = var10.bind(var4)(var5);
-                    var5 = var5.TaskType;
-                    var5 = var5.AGE_VERIFICATION;
-                    if(!(var8 !== var5)) { _fun0001_ip = 354; continue _fun0001 }
- 255:
-                    var8 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var5 = var5[var9];
-                    var5 = var8.bind(var4)(var5);
-                    var8 = var5.TASK_TYPE_TO_SCREENS;
-                    var5 = var3.task_type;
-                    var5 = var8[var5];
-                    if(!(var7 == var5)) { _fun0001_ip = 323; continue _fun0001 }
- 292:
-                    var7 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var5 = var5[var9];
-                    var5 = var7.bind(var4)(var5);
-                    var5 = var5.SafetyFlowScreens;
-                    var5 = var5.UPDATE_APP;
-                    _fun0001_ip = 352; continue _fun0001;
- 323:
-                    var8 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var7 = var7[var9];
-                    var7 = var8.bind(var4)(var7);
-                    var7 = var7.SafetyFlowScreens;
-                    var5 = var7.OVERVIEW;
- 352:
-                    _fun0001_ip = 383; continue _fun0001;
- 354:
-                    var8 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var7 = var7[var9];
-                    var7 = var8.bind(var4)(var7);
-                    var7 = var7.SafetyFlowScreens;
-                    var5 = var7.AGE_VERIFICATION;
- 383:
+ 33:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(var4) { _fun0001_ip = 579; continue _fun0001 }
+ 42:
+                    var4 = null;
+                    if(!(var4 == var9)) { _fun0001_ip = 65; continue _fun0001 }
+ 48:
+                    var6 = _closure1_slot4;
+                    var5 = var6.getAction;
+                    var9 = var5.bind(var6)();
+ 65:
+                    var6 = _closure1_slot5;
+                    var6 = var6.REQUIRE_SAFETY_FLOWS;
+                    if(!(var9 !== var6)) { _fun0001_ip = 119; continue _fun0001 }
+ 82:
                     var8 = _closure1_slot1;
-                    var11 = _closure1_slot2;
-                    var7 = 7;
-                    var7 = var11[var7];
-                    var9 = var8.bind(var4)(var7);
-                    var8 = var9.pushLazy;
-                    var10 = _closure1_slot0;
-                    var6 = 9;
-                    var6 = var11[var6];
-                    var12 = var10.bind(var4)(var6);
-                    var6 = 8;
-                    var7 = var11[var6];
-                    var6 = var11.paths;
-                    var7 = var12.bind(var4)(var7, var6);
-                    var6 = {};
-                    var6['task'] = var3;
-                    var6['initialScreen'] = var5;
-                    var5 = 10;
-                    var5 = var11[var5];
-                    var5 = var10.bind(var4)(var5);
-                    var5 = var5.SAFETY_FLOWS_MODAL_KEY;
-                    var5 = var8.bind(var9)(var7, var6, var5);
- 480:
-                    return var4;
- 483:
-                    return var4;
- 486:
+                    var10 = _closure1_slot2;
+                    var6 = 4;
+                    var6 = var10[var6];
+                    var8 = var8.bind(var3)(var6);
+                    var6 = var8.isFullScreenVerification;
+                    var6 = var6.bind(var8)(var9);
+                    if(!var6) { _fun0001_ip = 576; continue _fun0001 }
+ 119: // try_start_0
+                    var8 = _closure1_slot0;
+                    var9 = _closure1_slot2;
+                    var6 = 5;
+                    var6 = var9[var6];
+                    var8 = var8.bind(var3)(var6);
+                    var6 = var8.getCurrentTask;
+                    var6 = var6.bind(var8)();
+                    SaveGenerator(address=153);
+ 151:
+                    return var6;
+ 153:
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
+                    if(var8) { _fun0001_ip = 450; continue _fun0001 }
+ 162:
+                    var7 = var6;
+                    if(!(var4 != var6)) { _fun0001_ip = 447; continue _fun0001 }
+ 172:
+                    var14 = var7;
+                    var8 = var14.task_type;
+                    var9 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var10 = 3;
+                    var7 = var7[var10];
+                    var7 = var9.bind(var3)(var7);
+                    var7 = var7.TaskType;
+                    var7 = var7.AGE_VERIFICATION;
+                    if(!(var8 !== var7)) { _fun0001_ip = 316; continue _fun0001 }
+ 217:
+                    var8 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var10];
+                    var7 = var8.bind(var3)(var7);
+                    var8 = var7.TASK_TYPE_TO_SCREENS;
+                    var7 = var14.task_type;
+                    var7 = var8[var7];
+                    if(!(var4 == var7)) { _fun0001_ip = 285; continue _fun0001 }
+ 254:
+                    var8 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var7 = var7[var10];
+                    var7 = var8.bind(var3)(var7);
+                    var7 = var7.SafetyFlowScreens;
+                    var7 = var7.UPDATE_APP;
+                    _fun0001_ip = 314; continue _fun0001;
+ 285:
+                    var9 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var8 = var8[var10];
+                    var8 = var9.bind(var3)(var8);
+                    var8 = var8.SafetyFlowScreens;
+                    var7 = var8.OVERVIEW;
+ 314:
+                    _fun0001_ip = 345; continue _fun0001;
+ 316:
+                    var9 = _closure1_slot0;
+                    var8 = _closure1_slot2;
+                    var8 = var8[var10];
+                    var8 = var9.bind(var3)(var8);
+                    var8 = var8.SafetyFlowScreens;
+                    var7 = var8.AGE_VERIFICATION;
+ 345:
+                    var9 = _closure1_slot1;
+                    var13 = _closure1_slot2;
+                    var8 = 6;
+                    var8 = var13[var8];
+                    var11 = var9.bind(var3)(var8);
+                    var10 = var11.pushLazy;
+                    var12 = _closure1_slot0;
+                    var8 = 8;
+                    var8 = var13[var8];
+                    var15 = var12.bind(var3)(var8);
+                    var8 = 7;
+                    var9 = var13[var8];
+                    var8 = var13.paths;
+                    var9 = var15.bind(var3)(var9, var8);
+                    var8 = {};
+                    var8['task'] = var14;
+                    var8['initialScreen'] = var7;
+                    var7 = 9;
+                    var7 = var13[var7];
+                    var7 = var12.bind(var3)(var7);
+                    var7 = var7.SAFETY_FLOWS_MODAL_KEY;
+                    var7 = var10.bind(var11)(var9, var8, var7);
+ 442: // try_end0
+                    _fun0001_ip = 576; continue _fun0001;
+ 447:
                     return var3;
- 489:
+ 450:
+                    return var6;
+ 453: // catch_target0
+                    CatchBlockStart(arg_register=5);
+                    var7 = _closure1_slot1;
+                    var10 = _closure1_slot2;
+                    var6 = 6;
+                    var6 = var10[var6];
+                    var8 = var7.bind(var3)(var6);
+                    var7 = var8.pushLazy;
+                    var9 = _closure1_slot0;
+                    var5 = 8;
+                    var5 = var10[var5];
+                    var11 = var9.bind(var3)(var5);
+                    var5 = 7;
+                    var6 = var10[var5];
+                    var5 = var10.paths;
+                    var6 = var11.bind(var3)(var6, var5);
+                    var5 = {};
+                    var5['task'] = var4;
+                    var4 = 3;
+                    var4 = var10[var4];
+                    var4 = var9.bind(var3)(var4);
+                    var4 = var4.SafetyFlowScreens;
+                    var4 = var4.ERROR;
+                    var5['initialScreen'] = var4;
+                    var4 = 9;
+                    var4 = var10[var4];
+                    var4 = var9.bind(var3)(var4);
+                    var4 = var4.SAFETY_FLOWS_MODAL_KEY;
+                    var4 = var7.bind(var8)(var6, var5, var4);
+ 576:
+                    return var3;
+ 579:
                     return var2;
- 492:
+ 582:
                     return var1;
                 }
             };
@@ -194,7 +216,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var1)(var4);
     var4 = var4.UserRequiredActions;
     var _closure1_slot5 = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

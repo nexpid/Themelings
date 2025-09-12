@@ -253,7 +253,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var6.bind(var5)(var4, var3, var1);
             var1 = null;
             var2 = var1 == var2;
-            if(var2) { _fun0001_ip = 1275; continue _fun0001 }
+            if(var2) { _fun0001_ip = 1285; continue _fun0001 }
  264:
             var4 = _closure1_slot13;
             var3 = _closure1_slot8;
@@ -303,14 +303,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16['style'] = var20;
             var20 = var14[var10];
             var20 = var13.bind(var5)(var20);
-            var23 = var20.intl;
-            var22 = var23.format;
+            var24 = var20.intl;
+            var22 = var24.format;
             var20 = var14[var10];
             var20 = var13.bind(var5)(var20);
             var20 = var20.t;
-            var21 = var20.zHolhY;
+            var21 = var20.CN0Hvb;
             var20 = {};
-            var20 = var22.bind(var23)(var21, var20);
+            var23 = _closure1_slot10;
+            var25 = var23.TERMS_SUMMARY;
+            var20['url'] = var25;
+            var20 = var22.bind(var24)(var21, var20);
             var16['children'] = var20;
             var16 = var9.bind(var5)(var19, var16);
             var6[1] = var16;
@@ -328,7 +331,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var20.t;
             var21 = var20.iw0hFh;
             var20 = {};
-            var23 = _closure1_slot10;
             var25 = var23.TERMS;
             var20['url'] = var25;
             var20 = var22.bind(var24)(var21, var20);
@@ -487,7 +489,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[8] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1275:
+ 1285:
             return var1;
         }
     };

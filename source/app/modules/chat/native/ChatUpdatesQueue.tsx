@@ -358,6 +358,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/chat/native/ChatUpdatesQueue.tsx';
     var4 = var5.bind(var6)(var4);
-    var3['ChatUpdatesQueue'] = var2;
+    var3['default'] = var2;
     return var1;
 })();

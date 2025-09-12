@@ -162,6 +162,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['QUEST_HOME_MOVE_CALLOUT_DISCOVER'] = var6;
     var2 = 'QUEST_HOME_MOVE_CALLOUT_DISCOVER';
     var4[var6] = var2;
+    var6 = 38;
+    var4['SPONSORED_QUEST_SHEET'] = var6;
+    var2 = 'SPONSORED_QUEST_SHEET';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

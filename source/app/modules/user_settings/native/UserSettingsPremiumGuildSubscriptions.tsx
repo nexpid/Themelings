@@ -230,17 +230,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5['destinationPane'] = var8;
                         var5 = var6.bind(var7)(var5);
                         var5 = null;
-                        if(!(var5 == var3)) { _fun0003_ip = 168; continue _fun0003 }
- 146:
+                        if(!(var5 == var3)) { _fun0003_ip = 167; continue _fun0003 }
+ 145:
                         var5 = var4.push;
                         var2 = _closure1_slot15;
                         var2 = var2.PREMIUM;
                         var2 = var5.bind(var4)(var2);
-                        _fun0003_ip = 179; continue _fun0003;
- 168:
+                        _fun0003_ip = 178; continue _fun0003;
+ 167:
                         var2 = var4.navigate;
                         var2 = var2.bind(var4)(var3);
- 179:
+ 178:
                         return var1;
                     }
                 };

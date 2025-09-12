@@ -350,11 +350,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var5['scrollIntoView'] = var9;
-    var9 = function updateRows(arg1, arg2, arg3) {
+    var9 = function updateRows(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var11 = arg1;
-            var9 = arg3;
+            var9 = arg2;
             var1 = null;
             if(!(var1 == var11)) { _fun0006_ip = 35; continue _fun0006 }
  12:
@@ -362,12 +362,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var2 = 'updateRows';
             var2 = var4.bind(var3)(var2);
-            _fun0006_ip = 265; continue _fun0006;
+            _fun0006_ip = 268; continue _fun0006;
  35:
             var3 = _closure1_slot4;
             var12 = undefined;
             var8 = var3.bind(var12)(var11);
-            if(!(var1 != var8)) { _fun0006_ip = 265; continue _fun0006 }
+            if(!(var1 != var8)) { _fun0006_ip = 268; continue _fun0006 }
  56:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -392,19 +392,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = global;
             var5 = var10.JSON;
             var4 = var5.stringify;
-            var3 = arg2;
+            var3 = var9.rows;
             var5 = var4.bind(var5)(var3);
             var4 = var9.isLoadingAtTop;
             var3 = var9.scrollData;
             var13 = var1 != var3;
             var3 = null;
-            if(!var13) { _fun0006_ip = 193; continue _fun0006 }
- 170:
+            if(!var13) { _fun0006_ip = 196; continue _fun0006 }
+ 173:
             var14 = var10.JSON;
             var13 = var14.stringify;
             var10 = var9.scrollData;
             var3 = var13.bind(var14)(var10);
- 193:
+ 196:
             var10 = _closure1_slot0;
             var13 = _closure1_slot2;
             var2 = 5;
@@ -414,10 +414,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var10)(var11);
             var9 = var9.HACK_iOSForceAnimations;
             var1 = var1 != var9;
-            if(!var1) { _fun0006_ip = 240; continue _fun0006 }
- 237:
-            var1 = var9;
+            if(!var1) { _fun0006_ip = 243; continue _fun0006 }
  240:
+            var1 = var9;
+ 243:
             var21 = var7;
             var20 = var8;
             var19 = var5;
@@ -426,7 +426,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var2;
             var15 = var1;
             var1 = var21[var6](var20, var19, var18, var17, var16, var15, var14);
- 265:
+ 268:
             var1 = undefined;
             return var1;
         }

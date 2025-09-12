@@ -702,8 +702,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = {};
                     var1 = _closure3_slot0;
                     var2['quest'] = var1;
-                    var6 = _closure3_slot1;
-                    var2['questContentPosition'] = var6;
+                    var9 = _closure3_slot1;
+                    var2['questContentPosition'] = var9;
+                    var6 = _closure1_slot13;
+                    var2['containerPadding'] = var6;
                     var6 = _closure2_slot3;
                     var2['onLayout'] = var6;
                     var6 = 21;

@@ -154,9 +154,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var20;
             var2 = 7;
             var2 = var4[var2];
-            var6 = var3.bind(var5)(var2);
-            var2 = var6.useConversationChannelNavigator;
-            var2 = var2.bind(var6)();
+            var7 = var3.bind(var5)(var2);
+            var6 = var7.useConversationChannelNavigator;
+            var2 = 'press_header';
+            var2 = var6.bind(var7)(var2);
             var6 = var2.navigateToKeyMessage;
             var2 = 8;
             var2 = var4[var2];
@@ -194,8 +195,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = null;
             var2 = var16 == var20;
             var1 = null;
-            if(var2) { _fun0001_ip = 856; continue _fun0001 }
- 139:
+            if(var2) { _fun0001_ip = 863; continue _fun0001 }
+ 146:
             var4 = _closure1_slot7;
             var3 = _closure1_slot3;
             var2 = {};
@@ -250,14 +251,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = {'variant': 'text-md/semibold', 'color': 'header-primary', 'ellipsizeMode': 'tail', 'lineClamp': 1};
             var22 = var10.channelName;
             var9['style'] = var22;
-            if(!(var16 == var17)) { _fun0001_ip = 394; continue _fun0001 }
- 382:
+            if(!(var16 == var17)) { _fun0001_ip = 401; continue _fun0001 }
+ 389:
             var16 = var20.channel;
             var16 = var16.name;
-            _fun0001_ip = 399; continue _fun0001;
- 394:
+            _fun0001_ip = 406; continue _fun0001;
+ 401:
             var16 = var17.name;
- 399:
+ 406:
             var9['children'] = var16;
             var9 = var12.bind(var5)(var11, var9);
             var15[1] = var9;
@@ -353,7 +354,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[3] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 856:
+ 863:
             return var1;
         }
     };

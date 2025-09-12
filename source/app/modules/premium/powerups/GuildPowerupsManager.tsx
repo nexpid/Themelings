@@ -262,7 +262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = 15;
                 var1 = var5[var1];
                 var2 = var2.bind(var4)(var1);
-                var1 = var2.fetchGuildUnlockedPowerups;
+                var1 = var2.fetchGuildBoostEntitlements;
                 var1 = var1.bind(var2)(var3);
  348:
                 var1 = undefined;
@@ -327,7 +327,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = 15;
                 var2 = var5[var2];
                 var6 = var3.bind(var1)(var2);
-                var2 = var6.fetchGuildUnlockedPowerups;
+                var2 = var6.fetchGuildBoostEntitlements;
                 var2 = var2.bind(var6)(var4);
                 var2 = 16;
                 var2 = var5[var2];

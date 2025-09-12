@@ -3227,7 +3227,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var7.isEmbeddedApp;
                     var4 = var4.bind(var7)(var5);
                     var7 = !var4;
-                    if(!var7) { _fun0041_ip = 93; continue _fun0041 }
+                    if(!var7) { _fun0041_ip = 92; continue _fun0041 }
  62:
                     var8 = _closure2_slot18;
                     var4 = var8.find;
@@ -3242,7 +3242,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.bind(var8)(var3);
                     var3 = null;
                     var7 = var3 != var4;
- 93:
+ 92:
                     var9 = _closure1_slot0;
                     var10 = _closure1_slot3;
                     var2 = 23;
@@ -4580,22 +4580,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var2 == var3;
                     var1 = undefined;
                     var7 = undefined;
-                    if(var4) { _fun0051_ip = 72; continue _fun0051 }
- 40:
+                    if(var4) { _fun0051_ip = 71; continue _fun0051 }
+ 39:
                     var8 = var3.applications;
                     var3 = var2 == var8;
                     var7 = undefined;
-                    if(var3) { _fun0051_ip = 72; continue _fun0051 }
- 55:
+                    if(var3) { _fun0051_ip = 71; continue _fun0051 }
+ 54:
                     var4 = var8.map;
                     var3 = function(arg1) {
                         var1 = arg1;
                         return var1;
                     };
                     var7 = var4.bind(var8)(var3);
- 72:
-                    if(!(var2 != var7)) { _fun0051_ip = 305; continue _fun0051 }
- 79:
+ 71:
+                    if(!(var2 != var7)) { _fun0051_ip = 304; continue _fun0051 }
+ 78:
                     var8 = _closure1_slot0;
                     var9 = _closure1_slot3;
                     var2 = 23;
@@ -4655,7 +4655,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var6.bind(var7)(var5);
                     var2['title'] = var5;
                     var2 = var3.bind(var4)(var2);
- 305:
+ 304:
                     return var1;
                 }
             };

@@ -17,14 +17,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.split;
             var1 = ':';
             var1 = var2.bind(var3)(var1);
-            _fun0001_ip = 35; continue _fun0001;
+            _fun0001_ip = 32; continue _fun0001;
  25:
-            var1 = [null, null];
- 35:
+            var1 = _closure1_slot5;
+ 32:
             return var1;
         }
     };
-    var _closure1_slot8 = var6;
+    var _closure1_slot9 = var6;
     var1 = global;
     var7 = var1.Object;
     var5 = var7.defineProperty;
@@ -44,6 +44,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var8.bind(var1)(var4);
     var4 = var4.ActivityTypes;
     var _closure1_slot4 = var4;
+    var4 = [null, null];
+    var _closure1_slot5 = var4;
     var4 = function getOriginalSystemHangStatuses() {
         var1 = {};
         var2 = _closure1_slot3;
@@ -168,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1[var3] = var2;
         return var1;
     };
-    var _closure1_slot5 = var4;
+    var _closure1_slot6 = var4;
     var5 = function getHangStatusOptions(arg1) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -475,13 +477,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1[var3] = var2;
             return var1;
  1346:
-            var2 = _closure1_slot5;
+            var2 = _closure1_slot6;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot6 = var5;
+    var _closure1_slot7 = var5;
     var4 = function getHangStatusDetails(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -511,7 +513,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  63:
             if(!(var1 != var4)) { _fun0003_ip = 134; continue _fun0003 }
  67:
-            var4 = _closure1_slot8;
+            var4 = _closure1_slot9;
             var2 = var2.state;
             var8 = var4.bind(var5)(var2);
             var2 = 0;
@@ -521,7 +523,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             if(!(var4 !== var7)) { _fun0003_ip = 132; continue _fun0003 }
  103:
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot7;
             var9 = var8.length;
             var7 = 1;
             if(!(var9 > var7)) { _fun0003_ip = 123; continue _fun0003 }
@@ -538,7 +540,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot7 = var4;
+    var _closure1_slot8 = var4;
     var7 = 15;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
@@ -580,7 +582,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = null;
             if(var7) { _fun0004_ip = 155; continue _fun0004 }
  74:
-            var8 = _closure1_slot8;
+            var8 = _closure1_slot9;
             var7 = var4.state;
             var8 = var8.bind(var3)(var7);
             var7 = 0;
@@ -589,7 +591,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.CUSTOM;
             if(!(var8 !== var7)) { _fun0004_ip = 134; continue _fun0004 }
  108:
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot8;
             var6 = var2.bind(var3)(var4, var6);
             var7 = var5 == var6;
             var2 = undefined;

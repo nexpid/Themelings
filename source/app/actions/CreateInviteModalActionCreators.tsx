@@ -144,7 +144,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.getPendingSettings;
             var2 = var2.bind(var4)();
             var14 = null;
-            if(!(var14 != var2)) { _fun0002_ip = 285; continue _fun0002 }
+            if(!(var14 != var2)) { _fun0002_ip = 289; continue _fun0002 }
  28:
             var5 = _closure1_slot1;
             var6 = _closure1_slot2;
@@ -262,7 +262,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var1 = var3.bind(var4)(var2, var1);
- 285:
+ 289:
             var1 = undefined;
             return var1;
         }

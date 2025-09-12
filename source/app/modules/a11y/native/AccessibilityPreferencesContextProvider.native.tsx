@@ -116,6 +116,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['forcedColors'] = var3;
             var2 = _closure2_slot3;
             var1['alwaysShowLinkDecorations'] = var2;
+            var2 = false;
+            var1['highContrastModeEnabled'] = var2;
             return var1;
         };
         var6 = var8.bind(var9)(var3, var6);

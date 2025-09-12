@@ -708,11 +708,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 };
                 var3 = var5.bind(var6)(var3);
                 var2 = var2 != var3;
-                if(!var2) { _fun0012_ip = 118; continue _fun0012 }
- 107:
+                if(!var2) { _fun0012_ip = 117; continue _fun0012 }
+ 106:
                 var2 = var4.getThreadSettings;
                 var1 = var2.bind(var4)(var3);
- 118:
+ 117:
                 return var1;
             }
         };

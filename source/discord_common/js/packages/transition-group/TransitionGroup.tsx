@@ -289,12 +289,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var1.transitionLeave;
                 var1 = var4.props;
                 var1 = var1.transitionLeave;
-                if(!(var2 !== var1)) { _fun0005_ip = 337; continue _fun0005 }
+                if(!(var2 !== var1)) { _fun0005_ip = 346; continue _fun0005 }
  70:
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot1;
-                var9 = 7;
-                var2 = var2[var9];
+                var8 = 7;
+                var2 = var2[var8];
                 var7 = undefined;
                 var5 = var3.bind(var7)(var2);
                 var3 = var5.getChildMapping;
@@ -305,84 +305,87 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var2.children;
                 var2 = var4.props;
                 var2 = var2.transitionEnter;
-                if(var2) { _fun0005_ip = 164; continue _fun0005 }
+                if(var2) { _fun0005_ip = 167; continue _fun0005 }
  138:
                 var2 = var4._keysToEnter;
-                var2 = var2.length;
-                if(!var2) { _fun0005_ip = 183; continue _fun0005 }
- 152:
+                var6 = var2.length;
+                var2 = 0;
+                if(!(var6 > var2)) { _fun0005_ip = 186; continue _fun0005 }
+ 155:
                 var2 = new Array(0);
                 var4['_keysToEnter'] = var2;
-                _fun0005_ip = 183; continue _fun0005;
- 164:
+                _fun0005_ip = 186; continue _fun0005;
+ 167:
                 var6 = var4._enqueueTransitions;
                 var2 = var4._keysToEnter;
                 var2 = var6.bind(var4)(var5, var3, var2);
- 183:
+ 186:
                 var2 = var4.props;
                 var6 = var2.transitionLeave;
                 var2 = var4._enqueueTransitions;
-                if(var6) { _fun0005_ip = 324; continue _fun0005 }
- 203:
-                var8 = new Array(0);
-                var6 = var2.bind(var4)(var3, var5, var8);
+                if(var6) { _fun0005_ip = 333; continue _fun0005 }
+ 209:
+                var9 = new Array(0);
+                var6 = var2.bind(var4)(var3, var5, var9);
                 var6 = _closure1_slot0;
                 var1 = _closure1_slot1;
-                var1 = var1[var9];
+                var1 = var1[var8];
                 var6 = var6.bind(var7)(var1);
                 var1 = var6.mergeChildMappings;
-                var7 = var1.bind(var6)(var3, var5);
-                var6 = var8.length;
+                var8 = var1.bind(var6)(var3, var5);
+                var7 = var9.length;
+                var6 = 0;
+                var10 = var6 < var7;
                 var1 = 0;
-                var9 = var1 < var6;
-                if(!var9) { _fun0005_ip = 272; continue _fun0005 }
- 257:
-                var9 = var8[var1];
-                var9 = delete var7[var9];
+                if(!var10) { _fun0005_ip = 280; continue _fun0005 }
+ 265:
+                var10 = var9[var1];
+                var10 = delete var8[var10];
                 var1 = var1 + 1;
-                if(var1 < var6) { _fun0005_ip = 257; continue _fun0005 }
- 272:
+                if(var1 < var7) { _fun0005_ip = 265; continue _fun0005 }
+ 280:
                 var1 = var4._isMounted;
-                if(!var1) { _fun0005_ip = 298; continue _fun0005 }
- 281:
-                var6 = var4.setState;
+                if(!var1) { _fun0005_ip = 306; continue _fun0005 }
+ 289:
+                var7 = var4.setState;
                 var1 = {};
-                var1['children'] = var7;
-                var1 = var6.bind(var4)(var1);
- 298:
+                var1['children'] = var8;
+                var1 = var7.bind(var4)(var1);
+ 306:
                 var1 = var4._keysToLeave;
                 var1 = var1.length;
-                if(!var1) { _fun0005_ip = 337; continue _fun0005 }
- 312:
+                if(!(var1 > var6)) { _fun0005_ip = 346; continue _fun0005 }
+ 321:
                 var1 = new Array(0);
                 var4['_keysToLeave'] = var1;
-                _fun0005_ip = 337; continue _fun0005;
- 324:
+                _fun0005_ip = 346; continue _fun0005;
+ 333:
                 var1 = var4._keysToLeave;
                 var1 = var2.bind(var4)(var3, var5, var1);
- 337:
+ 346:
                 var1 = var4._keysToEnter;
                 var1 = var1.length;
-                if(!var1) { _fun0005_ip = 384; continue _fun0005 }
- 351:
-                var3 = var4._keysToEnter;
+                var2 = 0;
+                if(!(var1 > var2)) { _fun0005_ip = 396; continue _fun0005 }
+ 363:
+                var5 = var4._keysToEnter;
                 var1 = new Array(0);
                 var4['_keysToEnter'] = var1;
-                var2 = var3.forEach;
+                var3 = var5.forEach;
                 var1 = var4.performEnter;
-                var1 = var2.bind(var3)(var1, var4);
- 384:
+                var1 = var3.bind(var5)(var1, var4);
+ 396:
                 var1 = var4._keysToLeave;
                 var1 = var1.length;
-                if(!var1) { _fun0005_ip = 431; continue _fun0005 }
- 398:
+                if(!(var1 > var2)) { _fun0005_ip = 444; continue _fun0005 }
+ 411:
                 var3 = var4._keysToLeave;
                 var1 = new Array(0);
                 var4['_keysToLeave'] = var1;
                 var2 = var3.forEach;
                 var1 = var4.performLeave;
                 var1 = var2.bind(var3)(var1, var4);
- 431:
+ 444:
                 var1 = undefined;
                 return var1;
             }

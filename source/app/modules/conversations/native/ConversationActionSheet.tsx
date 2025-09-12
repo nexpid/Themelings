@@ -63,8 +63,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = {};
         var6 = var5.conversationProps;
         var1['conversationProps'] = var6;
-        var5 = var5.MediaComponent;
-        var1['MediaComponent'] = var5;
+        var6 = var5.MediaComponent;
+        var1['MediaComponent'] = var6;
+        var5 = var5.trackItemInteraction;
+        var1['trackItemInteraction'] = var5;
         var5 = 5;
         var5 = var11[var5];
         var5 = var10.bind(var4)(var5);

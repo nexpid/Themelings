@@ -1002,50 +1002,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var1 = 27;
-                    var2 = var2[var1];
+                    var4 = _closure1_slot0;
+                    var1 = _closure1_slot2;
+                    var7 = 27;
+                    var3 = var1[var7];
                     var1 = undefined;
-                    var2 = var3.bind(var1)(var2);
-                    var8 = var2.ICYMIAnalytics;
-                    var7 = var8.trackItemInteraction;
-                    var2 = _closure2_slot0;
-                    var6 = var2.id;
-                    var3 = 'message';
-                    var2 = 'press_message';
-                    var2 = var7.bind(var8)(var6, var3, var2);
-                    var2 = _closure2_slot8;
-                    var3 = _closure1_slot0;
-                    var4 = _closure1_slot2;
-                    if(var2) { _fun0009_ip = 135; continue _fun0009 }
+                    var3 = var4.bind(var1)(var3);
+                    var9 = var3.ICYMIAnalytics;
+                    var6 = var9.trackItemInteraction;
+                    var3 = _closure2_slot0;
+                    var5 = var3.id;
+                    var4 = 'message';
+                    var3 = 'press_message';
+                    var3 = var6.bind(var9)(var5, var4, var3);
+                    var3 = _closure2_slot8;
+                    var6 = _closure1_slot0;
+                    var2 = _closure1_slot2;
+                    if(var3) { _fun0009_ip = 135; continue _fun0009 }
  81:
-                    var2 = 30;
-                    var2 = var4[var2];
-                    var9 = var3.bind(var1)(var2);
-                    var8 = var9.navigateToPost;
-                    var2 = _closure2_slot1;
-                    var7 = var2.id;
-                    var2 = _closure2_slot2;
-                    var6 = var2.id;
-                    var2 = _closure2_slot0;
-                    var2 = var2.id;
-                    var2 = var8.bind(var9)(var7, var6, var2);
-                    _fun0009_ip = 186; continue _fun0009;
+                    var3 = 30;
+                    var3 = var2[var3];
+                    var10 = var6.bind(var1)(var3);
+                    var9 = var10.navigateToPost;
+                    var3 = _closure2_slot1;
+                    var5 = var3.id;
+                    var3 = _closure2_slot2;
+                    var4 = var3.id;
+                    var3 = _closure2_slot0;
+                    var3 = var3.id;
+                    var3 = var9.bind(var10)(var5, var4, var3);
+                    _fun0009_ip = 208; continue _fun0009;
  135:
-                    var2 = 31;
-                    var2 = var4[var2];
-                    var4 = var3.bind(var1)(var2);
-                    var3 = var4.openConversation;
-                    var2 = {};
-                    var11 = _closure2_slot12;
-                    var12 = var2;
-                    var5 = copyDataProperties(var12, var11);
-                    var6 = 'icymi-bottom-sheet';
-                    var5 = 'renderLocation';
-                    var2[var5] = var6;
-                    var2 = var3.bind(var4)(var2);
- 186:
+                    var3 = 31;
+                    var3 = var2[var3];
+                    var5 = var6.bind(var1)(var3);
+                    var4 = var5.openConversation;
+                    var3 = {};
+                    var12 = _closure2_slot12;
+                    var13 = var3;
+                    var8 = copyDataProperties(var13, var12);
+                    var9 = 'icymi-bottom-sheet';
+                    var8 = 'renderLocation';
+                    var3[var8] = var9;
+                    var2 = var2[var7];
+                    var2 = var6.bind(var1)(var2);
+                    var2 = var2.ICYMIAnalytics;
+                    var2 = var2.trackItemInteraction;
+                    var2 = var4.bind(var5)(var3, var2);
+ 208:
                     return var1;
                 }
             };

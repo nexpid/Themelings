@@ -126,35 +126,61 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         };
         var2['icon'] = var6;
         var5 = function content() {
-            var4 = _closure1_slot4;
-            var6 = _closure1_slot0;
-            var9 = _closure1_slot2;
-            var1 = 7;
-            var1 = var9[var1];
-            var3 = undefined;
-            var1 = var6.bind(var3)(var1);
-            var2 = var1.Text;
-            var1 = {};
-            var5 = 'text-sm/normal';
-            var1['variant'] = var5;
-            var5 = 8;
-            var7 = var9[var5];
-            var7 = var6.bind(var3)(var7);
-            var8 = var7.intl;
-            var7 = var8.format;
-            var5 = var9[var5];
-            var5 = var6.bind(var3)(var5);
-            var5 = var5.t;
-            var6 = var5.WZGLFh;
-            var5 = {};
-            var9 = _closure2_slot0;
-            var5['emojiName'] = var9;
-            var5 = var7.bind(var8)(var6, var5);
-            var1['children'] = var5;
-            var1 = var4.bind(var3)(var2, var1);
-            return var1;
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+                var4 = _closure1_slot4;
+                var2 = _closure1_slot0;
+                var3 = _closure1_slot2;
+                var1 = 7;
+                var1 = var3[var1];
+                var3 = undefined;
+                var1 = var2.bind(var3)(var1);
+                var2 = var1.Text;
+                var1 = {};
+                var5 = 'text-sm/normal';
+                var1['variant'] = var5;
+                var7 = _closure2_slot0;
+                var5 = null;
+                if(!(var5 == var7)) { _fun0001_ip = 118; continue _fun0001 }
+ 59:
+                var9 = _closure1_slot0;
+                var11 = _closure1_slot2;
+                var5 = 8;
+                var7 = var11[var5];
+                var7 = var9.bind(var3)(var7);
+                var8 = var7.intl;
+                var7 = var8.string;
+                var5 = var11[var5];
+                var5 = var9.bind(var3)(var5);
+                var5 = var5.t;
+                var5 = var5.CL5mWl;
+                var5 = var7.bind(var8)(var5);
+                _fun0001_ip = 187; continue _fun0001;
+ 118:
+                var7 = _closure1_slot0;
+                var11 = _closure1_slot2;
+                var6 = 8;
+                var8 = var11[var6];
+                var8 = var7.bind(var3)(var8);
+                var9 = var8.intl;
+                var8 = var9.format;
+                var6 = var11[var6];
+                var6 = var7.bind(var3)(var6);
+                var6 = var6.t;
+                var7 = var6.WZGLFh;
+                var6 = {};
+                var10 = _closure2_slot0;
+                var6['emojiName'] = var10;
+                var5 = var8.bind(var9)(var7, var6);
+ 187:
+                var1['children'] = var5;
+                var1 = var4.bind(var3)(var2, var1);
+                return var1;
+            }
         };
         var2['content'] = var5;
+        var5 = 3000;
+        var2['toastDurationMs'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };

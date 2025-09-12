@@ -504,8 +504,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 };
                                 var3 = var3.bind(var4)(var2);
                                 var2 = null;
-                                if(!(var2 == var3)) { _fun0009_ip = 109; continue _fun0009 }
- 47:
+                                if(!(var2 == var3)) { _fun0009_ip = 108; continue _fun0009 }
+ 46:
                                 var2 = global;
                                 var6 = var2.clearTimeout;
                                 var5 = _closure3_slot2;
@@ -537,7 +537,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                     return var1;
                                 };
                                 var1 = var2.bind(var3)(var1);
- 109:
+ 108:
                                 var1 = undefined;
                                 return var1;
                             }

@@ -28,10 +28,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             var3 = null;
-            if(!(var3 == var2)) { _fun0001_ip = 57; continue _fun0001 }
- 55:
+            if(!(var3 == var2)) { _fun0001_ip = 56; continue _fun0001 }
+ 54:
             return var1;
- 57:
+ 56:
             var1 = {};
             var3 = var2.name;
             var1['name'] = var3;
@@ -4419,10 +4419,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             var3 = null;
-            if(!(var3 == var2)) { _fun0002_ip = 57; continue _fun0002 }
- 55:
+            if(!(var3 == var2)) { _fun0002_ip = 56; continue _fun0002 }
+ 54:
             return var1;
- 57:
+ 56:
             var1 = {};
             var3 = var2.name;
             var1['name'] = var3;

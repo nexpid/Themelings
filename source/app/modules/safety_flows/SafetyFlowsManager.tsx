@@ -46,91 +46,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var _closure1_slot7 = var1;
     var1 = function handleConnectionOpenSupplemental() {
-        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
- 0:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var1 = 5;
-            var3 = var3[var1];
-            var1 = undefined;
-            var5 = var4.bind(var1)(var3);
-            var4 = var5.isEligibleForSafetyFlowsExperiment;
-            var3 = {};
-            var6 = 'modal-manager-verification';
-            var3['location'] = var6;
-            var3 = var4.bind(var5)(var3);
-            if(!var3) { _fun0002_ip = 81; continue _fun0002 }
- 51:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var2 = 6;
-            var2 = var4[var2];
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.openSafetyFlow;
-            var2 = var2.bind(var3)();
- 81:
-            return var1;
-        }
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.openSafetyFlow;
+        var2 = var2.bind(var3)();
+        return var1;
     };
     var _closure1_slot8 = var1;
     var1 = function handleSafetyFlowsModalOpen() {
-        _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
- 0:
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var1 = 5;
-            var3 = var3[var1];
-            var1 = undefined;
-            var5 = var4.bind(var1)(var3);
-            var4 = var5.isEligibleForSafetyFlowsExperiment;
-            var3 = {};
-            var6 = 'modal-manager-verification';
-            var3['location'] = var6;
-            var3 = var4.bind(var5)(var3);
-            if(!var3) { _fun0003_ip = 81; continue _fun0003 }
- 51:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var2 = 6;
-            var2 = var4[var2];
-            var3 = var3.bind(var1)(var2);
-            var2 = var3.openSafetyFlow;
-            var2 = var2.bind(var3)();
- 81:
-            return var1;
-        }
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var3 = var3.bind(var1)(var2);
+        var2 = var3.openSafetyFlow;
+        var2 = var2.bind(var3)();
+        return var1;
     };
     var _closure1_slot9 = var1;
     var1 = function handleUserRequiredActionUpdate(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-            var1 = arg1;
-            var5 = var1.requiredAction;
-            var4 = _closure1_slot0;
-            var3 = _closure1_slot1;
-            var1 = 5;
-            var3 = var3[var1];
-            var1 = undefined;
-            var6 = var4.bind(var1)(var3);
-            var4 = var6.isEligibleForSafetyFlowsExperiment;
-            var3 = {};
-            var7 = 'modal-manager-verification';
-            var3['location'] = var7;
-            var3 = var4.bind(var6)(var3);
-            if(!var3) { _fun0004_ip = 98; continue _fun0004 }
- 60:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var2 = 6;
-            var2 = var4[var2];
-            var4 = var3.bind(var1)(var2);
-            var3 = var4.openSafetyFlow;
-            var2 = {};
-            var2['requiredAction'] = var5;
-            var2 = var3.bind(var4)(var2);
- 98:
-            return var1;
-        }
+        var1 = arg1;
+        var5 = var1.requiredAction;
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 5;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.openSafetyFlow;
+        var2 = {};
+        var2['requiredAction'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
     };
     var _closure1_slot10 = var1;
     var1 = global;
@@ -162,12 +114,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var _closure1_slot6 = var4;
-    var4 = 7;
+    var4 = 6;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
         var3 = function SafetyFlowsManager(arg1) {
-            _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var5 = this;
                 var13 = 0;
@@ -186,11 +138,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = _closure1_slot4;
                 var1 = _closure1_slot7;
                 var1 = var1.bind(var4)();
-                if(var1) { _fun0005_ip = 84; continue _fun0005 }
+                if(var1) { _fun0002_ip = 84; continue _fun0002 }
  71:
                 var1 = var9.apply;
                 var1 = var1.bind(var9)(var5, var10);
-                _fun0005_ip = 118; continue _fun0005;
+                _fun0002_ip = 118; continue _fun0002;
  84:
                 var6 = global;
                 var8 = var6.Reflect;
@@ -227,7 +179,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 8;
+    var4 = 7;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

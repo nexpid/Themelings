@@ -604,11 +604,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var _closure4_slot0 = var1;
                         var4 = _closure1_slot14;
                         var3 = null;
-                        if(!(var3 != var4)) { _fun0010_ip = 78; continue _fun0010 }
+                        if(!(var3 != var4)) { _fun0010_ip = 77; continue _fun0010 }
  27:
                         var4 = _closure1_slot14;
                         var4 = var4.data;
-                        if(!(var3 != var4)) { _fun0010_ip = 78; continue _fun0010 }
+                        if(!(var3 != var4)) { _fun0010_ip = 77; continue _fun0010 }
  40:
                         var5 = var4.voiceUsers;
                         var4 = var5.find;
@@ -620,12 +620,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var2 = var4.bind(var5)(var2);
-                        if(!(var3 != var2)) { _fun0010_ip = 78; continue _fun0010 }
- 68:
+                        if(!(var3 != var2)) { _fun0010_ip = 77; continue _fun0010 }
+ 67:
                         var2 = _closure1_slot20;
                         var1 = undefined;
                         var1 = var2.bind(var1)();
- 78:
+ 77:
                         var1 = undefined;
                         return var1;
                     }

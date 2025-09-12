@@ -71,10 +71,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var5.bind(var1)(var13);
         var13 = var14.isIOS;
         var13 = var13.bind(var14)();
-        if(!var13) { _fun0001_ip = 313; continue _fun0001 }
- 311:
+        if(!var13) { _fun0001_ip = 314; continue _fun0001 }
+ 312:
         var10 = 0;
- 313:
+ 314:
         var9['marginTop'] = var10;
         var4['doubleTapCustomEmoji'] = var9;
         var9 = {'marginTop': null, 'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'flexWrap': 'wrap'};
@@ -167,23 +167,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         var1 = _closure2_slot3;
                         var2 = null;
-                        var3 = var2 == var1;
-                        var4 = undefined;
+                        if(!(var2 == var1)) { _fun0004_ip = 17; continue _fun0004 }
+ 13:
                         var1 = undefined;
-                        if(var3) { _fun0004_ip = 29; continue _fun0004 }
- 20:
-                        var3 = _closure2_slot3;
-                        var1 = var3.id;
- 29:
-                        var2 = var2 != var1;
-                        var1 = undefined;
-                        if(!var2) { _fun0004_ip = 105; continue _fun0004 }
- 38:
-                        var3 = _closure1_slot1;
-                        var6 = _closure1_slot2;
+                        return var1;
+ 17:
+                        var1 = _closure2_slot3;
+                        var1 = var1.id;
+                        if(!(var2 == var1)) { _fun0004_ip = 41; continue _fun0004 }
+ 30:
+                        var1 = _closure2_slot3;
+                        var1 = var1.url;
+                        _fun0004_ip = 110; continue _fun0004;
+ 41:
+                        var4 = _closure1_slot1;
+                        var3 = _closure1_slot2;
                         var2 = 12;
-                        var2 = var6[var2];
-                        var4 = var3.bind(var4)(var2);
+                        var3 = var3[var2];
+                        var2 = undefined;
+                        var4 = var4.bind(var2)(var3);
                         var3 = var4.getEmojiURL;
                         var2 = {};
                         var5 = _closure2_slot3;
@@ -194,7 +196,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var5 = var5.animated;
                         var2['animated'] = var5;
                         var1 = var3.bind(var4)(var2);
- 105:
+ 110:
                         return var1;
                     }
                 };

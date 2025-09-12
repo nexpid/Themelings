@@ -35,657 +35,662 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var1 = arg1;
-            var10 = var1.quest;
-            var8 = var1.taskDetails;
-            var14 = var1.thirdPartyTaskDetails;
+            var11 = var1.quest;
+            var10 = var1.taskDetails;
+            var15 = var1.thirdPartyTaskDetails;
+            var8 = var1.sourceQuestContent;
             var7 = var1.withoutMarkdown;
-            var15 = var1.currentUser;
-            var5 = var1.popoutTargetElementRef;
+            var16 = var1.currentUser;
+            var6 = var1.popoutTargetElementRef;
             var4 = var1.onGameSheetOpened;
             var3 = var1.onGameSheetClosed;
-            var12 = _closure1_slot0;
+            var13 = _closure1_slot0;
             var1 = _closure1_slot1;
-            var6 = 8;
-            var6 = var1[var6];
+            var5 = 8;
+            var5 = var1[var5];
             var9 = undefined;
-            var13 = var12.bind(var9)(var6);
-            var11 = var13.isPremium;
-            var6 = _closure1_slot6;
-            var6 = var6.TIER_2;
-            var11 = var11.bind(var13)(var15, var6);
-            var20 = 6;
-            var6 = var1[var20];
-            var15 = var12.bind(var9)(var6);
-            var13 = var15.getCollectibleQuestRewardDuration;
-            var6 = var10.config;
-            var6 = var13.bind(var15)(var6);
-            var1 = var1[var20];
-            var12 = var12.bind(var9)(var1);
-            var1 = var12.isConsoleQuest;
-            var1 = var1.bind(var12)(var10);
-            if(!var1) { _fun0002_ip = 177; continue _fun0002 }
- 149:
-            var13 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var12 = var12[var20];
-            var13 = var13.bind(var9)(var12);
-            var12 = var13.shouldUsePlayOnDesktopTask;
-            var1 = var12.bind(var13)(var10);
- 177:
-            var13 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var12 = var12[var20];
-            var13 = var13.bind(var9)(var12);
-            var12 = var13.isSponsoredPlayQuest;
-            var12 = var12.bind(var13)(var10);
-            if(var12) { _fun0002_ip = 2440; continue _fun0002 }
- 211:
-            if(var1) { _fun0002_ip = 2094; continue _fun0002 }
- 217:
-            var12 = _closure1_slot0;
-            var1 = _closure1_slot1;
-            var1 = var1[var20];
-            var12 = var12.bind(var9)(var1);
-            var1 = var12.isConsoleQuest;
-            var1 = var1.bind(var12)(var10);
-            if(var1) { _fun0002_ip = 1748; continue _fun0002 }
- 251:
-            var12 = _closure1_slot0;
-            var1 = _closure1_slot1;
-            var1 = var1[var20];
-            var12 = var12.bind(var9)(var1);
-            var1 = var12.shouldUsePlayOnDesktopTask;
-            var1 = var1.bind(var12)(var10);
-            if(var1) { _fun0002_ip = 1400; continue _fun0002 }
- 285:
-            var12 = _closure1_slot0;
-            var1 = _closure1_slot1;
-            var1 = var1[var20];
-            var13 = var12.bind(var9)(var1);
-            var12 = var13.isTieredRewardCodeQuest;
-            var1 = {};
-            var1['quest'] = var10;
-            var1 = var12.bind(var13)(var1);
-            if(var1) { _fun0002_ip = 1281; continue _fun0002 }
- 326:
-            var12 = _closure1_slot0;
-            var1 = _closure1_slot1;
-            var1 = var1[var20];
-            var12 = var12.bind(var9)(var1);
-            var1 = var12.hasWatchVideoTasks;
-            var1 = var1.bind(var12)(var10);
-            var13 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            if(var1) { _fun0002_ip = 897; continue _fun0002 }
- 368:
-            var1 = var12[var20];
-            var15 = var13.bind(var9)(var1);
-            var1 = var15.hasPlayActivityTask;
-            var1 = var1.bind(var15)(var10);
-            if(var1) { _fun0002_ip = 755; continue _fun0002 }
- 394:
-            var15 = null;
-            if(!(var15 == var14)) { _fun0002_ip = 745; continue _fun0002 }
- 403:
-            var16 = {};
-            var16['quest'] = var10;
-            var16['taskDetails'] = var8;
-            var16['withoutMarkdown'] = var7;
-            var16['hasNitro'] = var11;
-            var16['collectibleRewardDuration'] = var6;
-            var1 = var16.quest;
-            var21 = var16.taskDetails;
-            var17 = var16.withoutMarkdown;
-            var24 = var16.hasNitro;
-            var19 = var16.collectibleRewardDuration;
-            var25 = _closure1_slot0;
-            var16 = _closure1_slot1;
-            var18 = 5;
-            var18 = var16[var18];
-            var18 = var25.bind(var9)(var18);
-            var23 = var18.SharedQuestFields;
-            var22 = var23.build;
-            var18 = var1.config;
-            var18 = var22.bind(var23)(var18);
-            var18 = var18.defaultRewardNameWithArticle;
-            var21 = var21.targetMinutes;
-            var22 = var1.config;
-            var22 = var22.messages;
-            var22 = var22.gameTitle;
-            var23 = var16[var20];
-            var27 = var25.bind(var9)(var23);
-            var26 = var27.isCollectibleQuestRewardPremiumExtendable;
-            var23 = var1.config;
-            var23 = var26.bind(var27)(var23);
-            var16 = var16[var20];
-            var25 = var25.bind(var9)(var16);
-            var16 = var25.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            var1 = var1.config;
-            var1 = var16.bind(var25)(var1);
-            var16 = _closure1_slot8;
-            if(!var24) { _fun0002_ip = 591; continue _fun0002 }
- 588:
-            if(var23) { _fun0002_ip = 666; continue _fun0002 }
- 591:
-            if(var23) { _fun0002_ip = 631; continue _fun0002 }
- 594:
-            if(!(var15 == var19)) { _fun0002_ip = 631; continue _fun0002 }
- 598:
-            var23 = _closure1_slot0;
-            var24 = _closure1_slot1;
-            var15 = 4;
-            var15 = var24[var15];
-            var15 = var23.bind(var9)(var15);
-            var15 = var15.t;
-            var15 = var15.hkJ+Gh;
-            _fun0002_ip = 664; continue _fun0002;
- 631:
-            var24 = _closure1_slot0;
-            var25 = _closure1_slot1;
-            var23 = 4;
-            var23 = var25[var23];
-            var23 = var24.bind(var9)(var23);
-            var23 = var23.t;
-            var15 = var23.BLyDvL;
- 664:
-            _fun0002_ip = 715; continue _fun0002;
- 666:
-            var24 = _closure1_slot0;
-            var25 = _closure1_slot1;
-            var23 = 4;
-            var23 = var25[var23];
-            var23 = var24.bind(var9)(var23);
-            var23 = var23.t;
-            if(var1) { _fun0002_ip = 704; continue _fun0002 }
- 694:
-            var1 = var23.smG9qq;
-            _fun0002_ip = 712; continue _fun0002;
- 704:
-            var1 = var23.X8Yt//;
- 712:
-            var15 = var1;
- 715:
-            var1 = {};
-            var1['gameTitle'] = var22;
-            var1['streamingDurationRequirement'] = var21;
-            var1['duration'] = var19;
-            var1['questReward'] = var18;
-            var1 = var16.bind(var9)(var15, var1, var17);
-            _fun0002_ip = 750; continue _fun0002;
- 745:
-            var1 = var14.description;
- 750:
-            _fun0002_ip = 892; continue _fun0002;
- 755:
-            var16 = {};
-            var16['quest'] = var10;
-            var16['taskDetails'] = var8;
-            var16['withoutMarkdown'] = var7;
-            var14 = var16.quest;
-            var15 = var16.taskDetails;
-            var17 = var16.withoutMarkdown;
-            var19 = var15.targetMinutes;
-            var15 = _closure1_slot0;
-            var21 = _closure1_slot1;
-            var16 = 5;
-            var16 = var21[var16];
-            var16 = var15.bind(var9)(var16);
-            var18 = var16.SharedQuestFields;
-            var16 = var18.build;
-            var14 = var14.config;
-            var14 = var16.bind(var18)(var14);
-            var18 = var14.defaultRewardNameWithArticle;
-            var16 = _closure1_slot8;
-            var14 = 4;
-            var14 = var21[var14];
-            var14 = var15.bind(var9)(var14);
-            var14 = var14.t;
-            var15 = var14.VYwSSk;
-            var14 = {};
-            var14['streamingDurationRequirement'] = var19;
-            var14['questReward'] = var18;
-            var1 = var16.bind(var9)(var15, var14, var17);
- 892:
-            _fun0002_ip = 1279; continue _fun0002;
- 897:
-            var15 = 5;
-            var12 = var12[var15];
-            var12 = var13.bind(var9)(var12);
-            var14 = var12.SharedQuestFields;
-            var13 = var14.build;
-            var12 = var10.config;
-            var12 = var13.bind(var14)(var12);
-            var14 = var12.defaultWatchVideoTask;
-            var13 = null;
-            var16 = var13 == var14;
-            var12 = undefined;
-            if(var16) { _fun0002_ip = 960; continue _fun0002 }
- 948:
-            var14 = var14.messages;
-            var12 = var14.videoTitle;
- 960:
-            var14 = var13 != var12;
-            var16 = 'video';
-            if(!var14) { _fun0002_ip = 974; continue _fun0002 }
- 971:
-            var16 = var12;
- 974:
+            var14 = var13.bind(var9)(var5);
+            var12 = var14.isPremium;
+            var5 = _closure1_slot6;
+            var5 = var5.TIER_2;
+            var12 = var12.bind(var14)(var16, var5);
+            var21 = 6;
+            var5 = var1[var21];
+            var16 = var13.bind(var9)(var5);
+            var14 = var16.getCollectibleQuestRewardDuration;
+            var5 = var11.config;
+            var5 = var14.bind(var16)(var5);
+            var1 = var1[var21];
+            var13 = var13.bind(var9)(var1);
+            var1 = var13.isConsoleQuest;
+            var1 = var1.bind(var13)(var11);
+            if(!var1) { _fun0002_ip = 183; continue _fun0002 }
+ 155:
             var14 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var15 = var12[var15];
-            var15 = var14.bind(var9)(var15);
-            var18 = var15.SharedQuestFields;
-            var17 = var18.build;
-            var15 = var10.config;
-            var15 = var17.bind(var18)(var15);
-            var15 = var15.defaultRewardNameWithArticle;
-            var17 = var12[var20];
-            var19 = var14.bind(var9)(var17);
-            var18 = var19.isCollectibleQuestRewardPremiumExtendable;
-            var17 = var10.config;
-            var17 = var18.bind(var19)(var17);
-            var12 = var12[var20];
-            var18 = var14.bind(var9)(var12);
-            var14 = var18.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            var12 = var10.config;
-            var12 = var14.bind(var18)(var12);
-            var14 = _closure1_slot8;
-            if(!var17) { _fun0002_ip = 1082; continue _fun0002 }
- 1076:
-            if(var11) { _fun0002_ip = 1207; continue _fun0002 }
- 1082:
-            if(var17) { _fun0002_ip = 1172; continue _fun0002 }
- 1085:
-            if(!(var13 == var6)) { _fun0002_ip = 1172; continue _fun0002 }
- 1089:
-            var17 = var10.id;
-            var13 = _closure1_slot4;
-            if(!(var17 !== var13)) { _fun0002_ip = 1137; continue _fun0002 }
- 1102:
-            var17 = _closure1_slot0;
-            var18 = _closure1_slot1;
-            var13 = 4;
-            var13 = var18[var13];
-            var13 = var17.bind(var9)(var13);
-            var13 = var13.t;
-            var13 = var13.g+InPD;
-            _fun0002_ip = 1170; continue _fun0002;
- 1137:
-            var18 = _closure1_slot0;
-            var19 = _closure1_slot1;
-            var17 = 4;
-            var17 = var19[var17];
-            var17 = var18.bind(var9)(var17);
-            var17 = var17.t;
-            var13 = var17.Rsd5bG;
- 1170:
-            _fun0002_ip = 1205; continue _fun0002;
- 1172:
-            var18 = _closure1_slot0;
-            var19 = _closure1_slot1;
-            var17 = 4;
-            var17 = var19[var17];
-            var17 = var18.bind(var9)(var17);
-            var17 = var17.t;
-            var13 = var17.W/HkLC;
- 1205:
-            _fun0002_ip = 1256; continue _fun0002;
- 1207:
-            var18 = _closure1_slot0;
-            var19 = _closure1_slot1;
-            var17 = 4;
-            var17 = var19[var17];
-            var17 = var18.bind(var9)(var17);
-            var17 = var17.t;
-            if(var12) { _fun0002_ip = 1245; continue _fun0002 }
- 1235:
-            var12 = var17.vs/xBg;
-            _fun0002_ip = 1253; continue _fun0002;
- 1245:
-            var12 = var17.xqX+var7;
- 1253:
-            var13 = var12;
- 1256:
-            var12 = {};
-            var12['videoTitle'] = var16;
-            var12['rewardNameWithArticle'] = var15;
-            var12['duration'] = var6;
-            var1 = var14.bind(var9)(var13, var12, var7);
- 1279:
-            _fun0002_ip = 1395; continue _fun0002;
- 1281:
-            var14 = {};
-            var14['quest'] = var10;
-            var14['taskDetails'] = var8;
-            var14['withoutMarkdown'] = var7;
-            var12 = var14.quest;
-            var13 = var14.taskDetails;
-            var15 = var14.withoutMarkdown;
-            var16 = var13.targetMinutes;
-            var12 = var12.config;
-            var12 = var12.messages;
-            var17 = var12.gameTitle;
-            var14 = _closure1_slot8;
+            var13 = _closure1_slot1;
+            var13 = var13[var21];
+            var14 = var14.bind(var9)(var13);
+            var13 = var14.shouldUsePlayOnDesktopTask;
+            var1 = var13.bind(var14)(var11);
+ 183:
+            var14 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var13 = var13[var21];
+            var14 = var14.bind(var9)(var13);
+            var13 = var14.isSponsoredPlayQuest;
+            var13 = var13.bind(var14)(var11);
+            if(var13) { _fun0002_ip = 2446; continue _fun0002 }
+ 217:
+            if(var1) { _fun0002_ip = 2100; continue _fun0002 }
+ 223:
             var13 = _closure1_slot0;
-            var18 = _closure1_slot1;
-            var12 = 4;
-            var12 = var18[var12];
-            var12 = var13.bind(var9)(var12);
-            var12 = var12.t;
-            var13 = var12.a/ia7O;
-            var12 = {};
-            var12['gameTitle'] = var17;
-            var12['streamingDurationRequirement'] = var16;
-            var1 = var14.bind(var9)(var13, var12, var15);
- 1395:
-            _fun0002_ip = 1743; continue _fun0002;
- 1400:
-            var14 = {};
-            var14['quest'] = var10;
-            var14['taskDetails'] = var8;
-            var14['withoutMarkdown'] = var7;
-            var14['hasNitro'] = var11;
-            var14['collectibleRewardDuration'] = var6;
-            var12 = var14.quest;
-            var13 = var14.taskDetails;
-            var15 = var14.withoutMarkdown;
-            var21 = var14.hasNitro;
-            var17 = var14.collectibleRewardDuration;
-            var22 = _closure1_slot0;
-            var14 = _closure1_slot1;
+            var1 = _closure1_slot1;
+            var1 = var1[var21];
+            var13 = var13.bind(var9)(var1);
+            var1 = var13.isConsoleQuest;
+            var1 = var1.bind(var13)(var11);
+            if(var1) { _fun0002_ip = 1754; continue _fun0002 }
+ 257:
+            var13 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var21];
+            var13 = var13.bind(var9)(var1);
+            var1 = var13.shouldUsePlayOnDesktopTask;
+            var1 = var1.bind(var13)(var11);
+            if(var1) { _fun0002_ip = 1406; continue _fun0002 }
+ 291:
+            var13 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var21];
+            var14 = var13.bind(var9)(var1);
+            var13 = var14.isTieredRewardCodeQuest;
+            var1 = {};
+            var1['quest'] = var11;
+            var1 = var13.bind(var14)(var1);
+            if(var1) { _fun0002_ip = 1287; continue _fun0002 }
+ 332:
+            var13 = _closure1_slot0;
+            var1 = _closure1_slot1;
+            var1 = var1[var21];
+            var13 = var13.bind(var9)(var1);
+            var1 = var13.hasWatchVideoTasks;
+            var1 = var1.bind(var13)(var11);
+            var14 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            if(var1) { _fun0002_ip = 903; continue _fun0002 }
+ 374:
+            var1 = var13[var21];
+            var16 = var14.bind(var9)(var1);
+            var1 = var16.hasPlayActivityTask;
+            var1 = var1.bind(var16)(var11);
+            if(var1) { _fun0002_ip = 761; continue _fun0002 }
+ 400:
+            var16 = null;
+            if(!(var16 == var15)) { _fun0002_ip = 751; continue _fun0002 }
+ 409:
+            var17 = {};
+            var17['quest'] = var11;
+            var17['taskDetails'] = var10;
+            var17['withoutMarkdown'] = var7;
+            var17['hasNitro'] = var12;
+            var17['collectibleRewardDuration'] = var5;
+            var1 = var17.quest;
+            var22 = var17.taskDetails;
+            var18 = var17.withoutMarkdown;
+            var25 = var17.hasNitro;
+            var20 = var17.collectibleRewardDuration;
+            var26 = _closure1_slot0;
+            var17 = _closure1_slot1;
+            var19 = 5;
+            var19 = var17[var19];
+            var19 = var26.bind(var9)(var19);
+            var24 = var19.SharedQuestFields;
+            var23 = var24.build;
+            var19 = var1.config;
+            var19 = var23.bind(var24)(var19);
+            var19 = var19.defaultRewardNameWithArticle;
+            var22 = var22.targetMinutes;
+            var23 = var1.config;
+            var23 = var23.messages;
+            var23 = var23.gameTitle;
+            var24 = var17[var21];
+            var28 = var26.bind(var9)(var24);
+            var27 = var28.isCollectibleQuestRewardPremiumExtendable;
+            var24 = var1.config;
+            var24 = var27.bind(var28)(var24);
+            var17 = var17[var21];
+            var26 = var26.bind(var9)(var17);
+            var17 = var26.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            var1 = var1.config;
+            var1 = var17.bind(var26)(var1);
+            var17 = _closure1_slot8;
+            if(!var25) { _fun0002_ip = 597; continue _fun0002 }
+ 594:
+            if(var24) { _fun0002_ip = 672; continue _fun0002 }
+ 597:
+            if(var24) { _fun0002_ip = 637; continue _fun0002 }
+ 600:
+            if(!(var16 == var20)) { _fun0002_ip = 637; continue _fun0002 }
+ 604:
+            var24 = _closure1_slot0;
+            var25 = _closure1_slot1;
+            var16 = 4;
+            var16 = var25[var16];
+            var16 = var24.bind(var9)(var16);
+            var16 = var16.t;
+            var16 = var16.hkJ+Gh;
+            _fun0002_ip = 670; continue _fun0002;
+ 637:
+            var25 = _closure1_slot0;
+            var26 = _closure1_slot1;
+            var24 = 4;
+            var24 = var26[var24];
+            var24 = var25.bind(var9)(var24);
+            var24 = var24.t;
+            var16 = var24.BLyDvL;
+ 670:
+            _fun0002_ip = 721; continue _fun0002;
+ 672:
+            var25 = _closure1_slot0;
+            var26 = _closure1_slot1;
+            var24 = 4;
+            var24 = var26[var24];
+            var24 = var25.bind(var9)(var24);
+            var24 = var24.t;
+            if(var1) { _fun0002_ip = 710; continue _fun0002 }
+ 700:
+            var1 = var24.smG9qq;
+            _fun0002_ip = 718; continue _fun0002;
+ 710:
+            var1 = var24.X8Yt//;
+ 718:
+            var16 = var1;
+ 721:
+            var1 = {};
+            var1['gameTitle'] = var23;
+            var1['streamingDurationRequirement'] = var22;
+            var1['duration'] = var20;
+            var1['questReward'] = var19;
+            var1 = var17.bind(var9)(var16, var1, var18);
+            _fun0002_ip = 756; continue _fun0002;
+ 751:
+            var1 = var15.description;
+ 756:
+            _fun0002_ip = 898; continue _fun0002;
+ 761:
+            var17 = {};
+            var17['quest'] = var11;
+            var17['taskDetails'] = var10;
+            var17['withoutMarkdown'] = var7;
+            var15 = var17.quest;
+            var16 = var17.taskDetails;
+            var18 = var17.withoutMarkdown;
+            var20 = var16.targetMinutes;
+            var16 = _closure1_slot0;
+            var22 = _closure1_slot1;
+            var17 = 5;
+            var17 = var22[var17];
+            var17 = var16.bind(var9)(var17);
+            var19 = var17.SharedQuestFields;
+            var17 = var19.build;
+            var15 = var15.config;
+            var15 = var17.bind(var19)(var15);
+            var19 = var15.defaultRewardNameWithArticle;
+            var17 = _closure1_slot8;
+            var15 = 4;
+            var15 = var22[var15];
+            var15 = var16.bind(var9)(var15);
+            var15 = var15.t;
+            var16 = var15.VYwSSk;
+            var15 = {};
+            var15['streamingDurationRequirement'] = var20;
+            var15['questReward'] = var19;
+            var1 = var17.bind(var9)(var16, var15, var18);
+ 898:
+            _fun0002_ip = 1285; continue _fun0002;
+ 903:
             var16 = 5;
-            var16 = var14[var16];
-            var16 = var22.bind(var9)(var16);
+            var13 = var13[var16];
+            var13 = var14.bind(var9)(var13);
+            var15 = var13.SharedQuestFields;
+            var14 = var15.build;
+            var13 = var11.config;
+            var13 = var14.bind(var15)(var13);
+            var15 = var13.defaultWatchVideoTask;
+            var14 = null;
+            var17 = var14 == var15;
+            var13 = undefined;
+            if(var17) { _fun0002_ip = 966; continue _fun0002 }
+ 954:
+            var15 = var15.messages;
+            var13 = var15.videoTitle;
+ 966:
+            var15 = var14 != var13;
+            var17 = 'video';
+            if(!var15) { _fun0002_ip = 980; continue _fun0002 }
+ 977:
+            var17 = var13;
+ 980:
+            var15 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var16 = var13[var16];
+            var16 = var15.bind(var9)(var16);
             var19 = var16.SharedQuestFields;
             var18 = var19.build;
-            var16 = var12.config;
+            var16 = var11.config;
             var16 = var18.bind(var19)(var16);
             var16 = var16.defaultRewardNameWithArticle;
-            var18 = var13.targetMinutes;
-            var13 = var12.config;
-            var13 = var13.messages;
-            var19 = var13.gameTitle;
-            var13 = var14[var20];
-            var24 = var22.bind(var9)(var13);
-            var23 = var24.isCollectibleQuestRewardPremiumExtendable;
-            var13 = var12.config;
-            var13 = var23.bind(var24)(var13);
-            var14 = var14[var20];
-            var22 = var22.bind(var9)(var14);
-            var14 = var22.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            var12 = var12.config;
-            var12 = var14.bind(var22)(var12);
-            var14 = _closure1_slot8;
-            if(!var21) { _fun0002_ip = 1588; continue _fun0002 }
- 1585:
-            if(var13) { _fun0002_ip = 1665; continue _fun0002 }
- 1588:
-            if(var13) { _fun0002_ip = 1632; continue _fun0002 }
- 1591:
-            var13 = null;
-            if(!(var13 == var17)) { _fun0002_ip = 1632; continue _fun0002 }
- 1597:
-            var21 = _closure1_slot0;
-            var22 = _closure1_slot1;
-            var13 = 4;
-            var13 = var22[var13];
-            var13 = var21.bind(var9)(var13);
-            var13 = var13.t;
-            var13 = var13.FZL5Q0;
-            _fun0002_ip = 1663; continue _fun0002;
- 1632:
-            var22 = _closure1_slot0;
-            var23 = _closure1_slot1;
-            var21 = 4;
-            var21 = var23[var21];
-            var21 = var22.bind(var9)(var21);
-            var21 = var21.t;
-            var13 = var21.AwuMRU;
- 1663:
-            _fun0002_ip = 1710; continue _fun0002;
- 1665:
-            var22 = _closure1_slot0;
-            var23 = _closure1_slot1;
-            var21 = 4;
-            var21 = var23[var21];
-            var21 = var22.bind(var9)(var21);
-            var21 = var21.t;
-            if(var12) { _fun0002_ip = 1701; continue _fun0002 }
- 1693:
-            var12 = var21.ziB0HB;
-            _fun0002_ip = 1707; continue _fun0002;
- 1701:
-            var12 = var21.eb/SnZ;
- 1707:
-            var13 = var12;
- 1710:
-            var12 = {};
-            var12['gameTitle'] = var19;
-            var12['streamingDurationRequirement'] = var18;
-            var12['rewardNameWithArticle'] = var16;
-            var12['duration'] = var17;
-            var12['questReward'] = var16;
-            var1 = var14.bind(var9)(var13, var12, var15);
- 1743:
-            _fun0002_ip = 2089; continue _fun0002;
- 1748:
-            var14 = {};
-            var14['quest'] = var10;
-            var14['taskDetails'] = var8;
-            var14['withoutMarkdown'] = var7;
-            var14['hasNitro'] = var11;
-            var14['collectibleRewardDuration'] = var6;
-            var12 = var14.quest;
-            var13 = var14.taskDetails;
-            var15 = var14.withoutMarkdown;
-            var21 = var14.hasNitro;
-            var17 = var14.collectibleRewardDuration;
-            var22 = _closure1_slot0;
-            var14 = _closure1_slot1;
-            var16 = 5;
-            var16 = var14[var16];
-            var16 = var22.bind(var9)(var16);
-            var19 = var16.SharedQuestFields;
-            var18 = var19.build;
-            var16 = var12.config;
-            var16 = var18.bind(var19)(var16);
-            var18 = var16.defaultRewardNameWithArticle;
-            var16 = var13.targetMinutes;
-            var13 = var12.config;
-            var13 = var13.messages;
-            var19 = var13.gameTitle;
-            var13 = var14[var20];
-            var24 = var22.bind(var9)(var13);
-            var23 = var24.isCollectibleQuestRewardPremiumExtendable;
-            var13 = var12.config;
-            var13 = var23.bind(var24)(var13);
-            var14 = var14[var20];
-            var22 = var22.bind(var9)(var14);
-            var14 = var22.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            var12 = var12.config;
-            var12 = var14.bind(var22)(var12);
-            var14 = _closure1_slot8;
-            if(!var21) { _fun0002_ip = 1936; continue _fun0002 }
- 1933:
-            if(var13) { _fun0002_ip = 2011; continue _fun0002 }
- 1936:
-            if(var13) { _fun0002_ip = 1978; continue _fun0002 }
- 1939:
-            var13 = null;
-            if(!(var13 == var17)) { _fun0002_ip = 1978; continue _fun0002 }
- 1945:
-            var21 = _closure1_slot0;
-            var22 = _closure1_slot1;
-            var13 = 4;
-            var13 = var22[var13];
-            var13 = var21.bind(var9)(var13);
-            var13 = var13.t;
-            var13 = var13.NIimTk;
-            _fun0002_ip = 2009; continue _fun0002;
- 1978:
-            var22 = _closure1_slot0;
-            var23 = _closure1_slot1;
-            var21 = 4;
-            var21 = var23[var21];
-            var21 = var22.bind(var9)(var21);
-            var21 = var21.t;
-            var13 = var21.AwuMRU;
- 2009:
-            _fun0002_ip = 2056; continue _fun0002;
- 2011:
-            var22 = _closure1_slot0;
-            var23 = _closure1_slot1;
-            var21 = 4;
-            var21 = var23[var21];
-            var21 = var22.bind(var9)(var21);
-            var21 = var21.t;
-            if(var12) { _fun0002_ip = 2047; continue _fun0002 }
- 2039:
-            var12 = var21.ziB0HB;
-            _fun0002_ip = 2053; continue _fun0002;
- 2047:
-            var12 = var21.eb/SnZ;
- 2053:
-            var13 = var12;
- 2056:
-            var12 = {};
-            var12['gameTitle'] = var19;
-            var12['targetMinutes'] = var16;
-            var12['rewardNameWithArticle'] = var18;
-            var12['duration'] = var17;
-            var12['streamingDurationRequirement'] = var16;
-            var1 = var14.bind(var9)(var13, var12, var15);
- 2089:
-            _fun0002_ip = 2435; continue _fun0002;
- 2094:
-            var12 = {};
-            var12['quest'] = var10;
-            var12['taskDetails'] = var8;
-            var12['withoutMarkdown'] = var7;
-            var12['hasNitro'] = var11;
-            var12['collectibleRewardDuration'] = var6;
-            var6 = var12.quest;
-            var11 = var12.taskDetails;
-            var13 = var12.withoutMarkdown;
-            var18 = var12.hasNitro;
-            var15 = var12.collectibleRewardDuration;
-            var19 = _closure1_slot0;
-            var12 = _closure1_slot1;
-            var14 = 5;
-            var14 = var12[var14];
-            var14 = var19.bind(var9)(var14);
-            var17 = var14.SharedQuestFields;
-            var16 = var17.build;
-            var14 = var6.config;
-            var14 = var16.bind(var17)(var14);
-            var16 = var14.defaultRewardNameWithArticle;
-            var14 = var11.targetMinutes;
-            var11 = var6.config;
-            var11 = var11.messages;
-            var17 = var11.gameTitle;
-            var11 = var12[var20];
-            var22 = var19.bind(var9)(var11);
-            var21 = var22.isCollectibleQuestRewardPremiumExtendable;
-            var11 = var6.config;
-            var11 = var21.bind(var22)(var11);
-            var12 = var12[var20];
-            var19 = var19.bind(var9)(var12);
-            var12 = var19.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            var6 = var6.config;
-            var6 = var12.bind(var19)(var6);
-            var12 = _closure1_slot8;
-            if(!var18) { _fun0002_ip = 2282; continue _fun0002 }
- 2279:
-            if(var11) { _fun0002_ip = 2357; continue _fun0002 }
- 2282:
-            if(var11) { _fun0002_ip = 2324; continue _fun0002 }
- 2285:
-            var11 = null;
-            if(!(var11 == var15)) { _fun0002_ip = 2324; continue _fun0002 }
- 2291:
+            var18 = var13[var21];
+            var20 = var15.bind(var9)(var18);
+            var19 = var20.isCollectibleQuestRewardPremiumExtendable;
+            var18 = var11.config;
+            var18 = var19.bind(var20)(var18);
+            var13 = var13[var21];
+            var19 = var15.bind(var9)(var13);
+            var15 = var19.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            var13 = var11.config;
+            var13 = var15.bind(var19)(var13);
+            var15 = _closure1_slot8;
+            if(!var18) { _fun0002_ip = 1088; continue _fun0002 }
+ 1082:
+            if(var12) { _fun0002_ip = 1213; continue _fun0002 }
+ 1088:
+            if(var18) { _fun0002_ip = 1178; continue _fun0002 }
+ 1091:
+            if(!(var14 == var5)) { _fun0002_ip = 1178; continue _fun0002 }
+ 1095:
+            var18 = var11.id;
+            var14 = _closure1_slot4;
+            if(!(var18 !== var14)) { _fun0002_ip = 1143; continue _fun0002 }
+ 1108:
             var18 = _closure1_slot0;
             var19 = _closure1_slot1;
-            var11 = 4;
-            var11 = var19[var11];
-            var11 = var18.bind(var9)(var11);
-            var11 = var11.t;
-            var11 = var11.NIimTk;
-            _fun0002_ip = 2355; continue _fun0002;
- 2324:
+            var14 = 4;
+            var14 = var19[var14];
+            var14 = var18.bind(var9)(var14);
+            var14 = var14.t;
+            var14 = var14.g+InPD;
+            _fun0002_ip = 1176; continue _fun0002;
+ 1143:
             var19 = _closure1_slot0;
             var20 = _closure1_slot1;
             var18 = 4;
             var18 = var20[var18];
             var18 = var19.bind(var9)(var18);
             var18 = var18.t;
-            var11 = var18.AwuMRU;
- 2355:
-            _fun0002_ip = 2402; continue _fun0002;
- 2357:
+            var14 = var18.Rsd5bG;
+ 1176:
+            _fun0002_ip = 1211; continue _fun0002;
+ 1178:
             var19 = _closure1_slot0;
             var20 = _closure1_slot1;
             var18 = 4;
             var18 = var20[var18];
             var18 = var19.bind(var9)(var18);
             var18 = var18.t;
-            if(var6) { _fun0002_ip = 2393; continue _fun0002 }
- 2385:
-            var6 = var18.ziB0HB;
-            _fun0002_ip = 2399; continue _fun0002;
- 2393:
-            var6 = var18.eb/SnZ;
- 2399:
-            var11 = var6;
- 2402:
-            var6 = {};
-            var6['gameTitle'] = var17;
-            var6['streamingDurationRequirement'] = var14;
-            var6['rewardNameWithArticle'] = var16;
-            var6['duration'] = var15;
-            var6['targetMinutes'] = var14;
-            var1 = var12.bind(var9)(var11, var6, var13);
- 2435:
-            _fun0002_ip = 2779; continue _fun0002;
- 2440:
-            var6 = {};
-            var6['quest'] = var10;
-            var6['taskDetails'] = var8;
-            var6['withoutMarkdown'] = var7;
-            var6['popoutTargetElementRef'] = var5;
-            var6['onGameSheetOpened'] = var4;
-            var6['onGameSheetClosed'] = var3;
-            var5 = var6.quest;
-            var4 = var6.taskDetails;
-            var3 = var6.withoutMarkdown;
-            var13 = var6.popoutTargetElementRef;
-            var12 = var6.onGameSheetOpened;
-            var11 = var6.onGameSheetClosed;
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot1;
-            var6 = 5;
-            var6 = var8[var6];
-            var6 = var7.bind(var9)(var6);
-            var7 = var6.SharedQuestFields;
-            var6 = var7.build;
+            var14 = var18.W/HkLC;
+ 1211:
+            _fun0002_ip = 1262; continue _fun0002;
+ 1213:
+            var19 = _closure1_slot0;
+            var20 = _closure1_slot1;
+            var18 = 4;
+            var18 = var20[var18];
+            var18 = var19.bind(var9)(var18);
+            var18 = var18.t;
+            if(var13) { _fun0002_ip = 1251; continue _fun0002 }
+ 1241:
+            var13 = var18.vs/xBg;
+            _fun0002_ip = 1259; continue _fun0002;
+ 1251:
+            var13 = var18.xqX+var7;
+ 1259:
+            var14 = var13;
+ 1262:
+            var13 = {};
+            var13['videoTitle'] = var17;
+            var13['rewardNameWithArticle'] = var16;
+            var13['duration'] = var5;
+            var1 = var15.bind(var9)(var14, var13, var7);
+ 1285:
+            _fun0002_ip = 1401; continue _fun0002;
+ 1287:
+            var15 = {};
+            var15['quest'] = var11;
+            var15['taskDetails'] = var10;
+            var15['withoutMarkdown'] = var7;
+            var13 = var15.quest;
+            var14 = var15.taskDetails;
+            var16 = var15.withoutMarkdown;
+            var17 = var14.targetMinutes;
+            var13 = var13.config;
+            var13 = var13.messages;
+            var18 = var13.gameTitle;
+            var15 = _closure1_slot8;
+            var14 = _closure1_slot0;
+            var19 = _closure1_slot1;
+            var13 = 4;
+            var13 = var19[var13];
+            var13 = var14.bind(var9)(var13);
+            var13 = var13.t;
+            var14 = var13.a/ia7O;
+            var13 = {};
+            var13['gameTitle'] = var18;
+            var13['streamingDurationRequirement'] = var17;
+            var1 = var15.bind(var9)(var14, var13, var16);
+ 1401:
+            _fun0002_ip = 1749; continue _fun0002;
+ 1406:
+            var15 = {};
+            var15['quest'] = var11;
+            var15['taskDetails'] = var10;
+            var15['withoutMarkdown'] = var7;
+            var15['hasNitro'] = var12;
+            var15['collectibleRewardDuration'] = var5;
+            var13 = var15.quest;
+            var14 = var15.taskDetails;
+            var16 = var15.withoutMarkdown;
+            var22 = var15.hasNitro;
+            var18 = var15.collectibleRewardDuration;
+            var23 = _closure1_slot0;
+            var15 = _closure1_slot1;
+            var17 = 5;
+            var17 = var15[var17];
+            var17 = var23.bind(var9)(var17);
+            var20 = var17.SharedQuestFields;
+            var19 = var20.build;
+            var17 = var13.config;
+            var17 = var19.bind(var20)(var17);
+            var17 = var17.defaultRewardNameWithArticle;
+            var19 = var14.targetMinutes;
+            var14 = var13.config;
+            var14 = var14.messages;
+            var20 = var14.gameTitle;
+            var14 = var15[var21];
+            var25 = var23.bind(var9)(var14);
+            var24 = var25.isCollectibleQuestRewardPremiumExtendable;
+            var14 = var13.config;
+            var14 = var24.bind(var25)(var14);
+            var15 = var15[var21];
+            var23 = var23.bind(var9)(var15);
+            var15 = var23.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            var13 = var13.config;
+            var13 = var15.bind(var23)(var13);
+            var15 = _closure1_slot8;
+            if(!var22) { _fun0002_ip = 1594; continue _fun0002 }
+ 1591:
+            if(var14) { _fun0002_ip = 1671; continue _fun0002 }
+ 1594:
+            if(var14) { _fun0002_ip = 1638; continue _fun0002 }
+ 1597:
+            var14 = null;
+            if(!(var14 == var18)) { _fun0002_ip = 1638; continue _fun0002 }
+ 1603:
+            var22 = _closure1_slot0;
+            var23 = _closure1_slot1;
+            var14 = 4;
+            var14 = var23[var14];
+            var14 = var22.bind(var9)(var14);
+            var14 = var14.t;
+            var14 = var14.FZL5Q0;
+            _fun0002_ip = 1669; continue _fun0002;
+ 1638:
+            var23 = _closure1_slot0;
+            var24 = _closure1_slot1;
+            var22 = 4;
+            var22 = var24[var22];
+            var22 = var23.bind(var9)(var22);
+            var22 = var22.t;
+            var14 = var22.AwuMRU;
+ 1669:
+            _fun0002_ip = 1716; continue _fun0002;
+ 1671:
+            var23 = _closure1_slot0;
+            var24 = _closure1_slot1;
+            var22 = 4;
+            var22 = var24[var22];
+            var22 = var23.bind(var9)(var22);
+            var22 = var22.t;
+            if(var13) { _fun0002_ip = 1707; continue _fun0002 }
+ 1699:
+            var13 = var22.ziB0HB;
+            _fun0002_ip = 1713; continue _fun0002;
+ 1707:
+            var13 = var22.eb/SnZ;
+ 1713:
+            var14 = var13;
+ 1716:
+            var13 = {};
+            var13['gameTitle'] = var20;
+            var13['streamingDurationRequirement'] = var19;
+            var13['rewardNameWithArticle'] = var17;
+            var13['duration'] = var18;
+            var13['questReward'] = var17;
+            var1 = var15.bind(var9)(var14, var13, var16);
+ 1749:
+            _fun0002_ip = 2095; continue _fun0002;
+ 1754:
+            var15 = {};
+            var15['quest'] = var11;
+            var15['taskDetails'] = var10;
+            var15['withoutMarkdown'] = var7;
+            var15['hasNitro'] = var12;
+            var15['collectibleRewardDuration'] = var5;
+            var13 = var15.quest;
+            var14 = var15.taskDetails;
+            var16 = var15.withoutMarkdown;
+            var22 = var15.hasNitro;
+            var18 = var15.collectibleRewardDuration;
+            var23 = _closure1_slot0;
+            var15 = _closure1_slot1;
+            var17 = 5;
+            var17 = var15[var17];
+            var17 = var23.bind(var9)(var17);
+            var20 = var17.SharedQuestFields;
+            var19 = var20.build;
+            var17 = var13.config;
+            var17 = var19.bind(var20)(var17);
+            var19 = var17.defaultRewardNameWithArticle;
+            var17 = var14.targetMinutes;
+            var14 = var13.config;
+            var14 = var14.messages;
+            var20 = var14.gameTitle;
+            var14 = var15[var21];
+            var25 = var23.bind(var9)(var14);
+            var24 = var25.isCollectibleQuestRewardPremiumExtendable;
+            var14 = var13.config;
+            var14 = var24.bind(var25)(var14);
+            var15 = var15[var21];
+            var23 = var23.bind(var9)(var15);
+            var15 = var23.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            var13 = var13.config;
+            var13 = var15.bind(var23)(var13);
+            var15 = _closure1_slot8;
+            if(!var22) { _fun0002_ip = 1942; continue _fun0002 }
+ 1939:
+            if(var14) { _fun0002_ip = 2017; continue _fun0002 }
+ 1942:
+            if(var14) { _fun0002_ip = 1984; continue _fun0002 }
+ 1945:
+            var14 = null;
+            if(!(var14 == var18)) { _fun0002_ip = 1984; continue _fun0002 }
+ 1951:
+            var22 = _closure1_slot0;
+            var23 = _closure1_slot1;
+            var14 = 4;
+            var14 = var23[var14];
+            var14 = var22.bind(var9)(var14);
+            var14 = var14.t;
+            var14 = var14.NIimTk;
+            _fun0002_ip = 2015; continue _fun0002;
+ 1984:
+            var23 = _closure1_slot0;
+            var24 = _closure1_slot1;
+            var22 = 4;
+            var22 = var24[var22];
+            var22 = var23.bind(var9)(var22);
+            var22 = var22.t;
+            var14 = var22.AwuMRU;
+ 2015:
+            _fun0002_ip = 2062; continue _fun0002;
+ 2017:
+            var23 = _closure1_slot0;
+            var24 = _closure1_slot1;
+            var22 = 4;
+            var22 = var24[var22];
+            var22 = var23.bind(var9)(var22);
+            var22 = var22.t;
+            if(var13) { _fun0002_ip = 2053; continue _fun0002 }
+ 2045:
+            var13 = var22.ziB0HB;
+            _fun0002_ip = 2059; continue _fun0002;
+ 2053:
+            var13 = var22.eb/SnZ;
+ 2059:
+            var14 = var13;
+ 2062:
+            var13 = {};
+            var13['gameTitle'] = var20;
+            var13['targetMinutes'] = var17;
+            var13['rewardNameWithArticle'] = var19;
+            var13['duration'] = var18;
+            var13['streamingDurationRequirement'] = var17;
+            var1 = var15.bind(var9)(var14, var13, var16);
+ 2095:
+            _fun0002_ip = 2441; continue _fun0002;
+ 2100:
+            var13 = {};
+            var13['quest'] = var11;
+            var13['taskDetails'] = var10;
+            var13['withoutMarkdown'] = var7;
+            var13['hasNitro'] = var12;
+            var13['collectibleRewardDuration'] = var5;
+            var5 = var13.quest;
+            var12 = var13.taskDetails;
+            var14 = var13.withoutMarkdown;
+            var19 = var13.hasNitro;
+            var16 = var13.collectibleRewardDuration;
+            var20 = _closure1_slot0;
+            var13 = _closure1_slot1;
+            var15 = 5;
+            var15 = var13[var15];
+            var15 = var20.bind(var9)(var15);
+            var18 = var15.SharedQuestFields;
+            var17 = var18.build;
+            var15 = var5.config;
+            var15 = var17.bind(var18)(var15);
+            var17 = var15.defaultRewardNameWithArticle;
+            var15 = var12.targetMinutes;
+            var12 = var5.config;
+            var12 = var12.messages;
+            var18 = var12.gameTitle;
+            var12 = var13[var21];
+            var23 = var20.bind(var9)(var12);
+            var22 = var23.isCollectibleQuestRewardPremiumExtendable;
+            var12 = var5.config;
+            var12 = var22.bind(var23)(var12);
+            var13 = var13[var21];
+            var20 = var20.bind(var9)(var13);
+            var13 = var20.isCollectibleQuestRewardPermanentWithPremiumSubscription;
             var5 = var5.config;
+            var5 = var13.bind(var20)(var5);
+            var13 = _closure1_slot8;
+            if(!var19) { _fun0002_ip = 2288; continue _fun0002 }
+ 2285:
+            if(var12) { _fun0002_ip = 2363; continue _fun0002 }
+ 2288:
+            if(var12) { _fun0002_ip = 2330; continue _fun0002 }
+ 2291:
+            var12 = null;
+            if(!(var12 == var16)) { _fun0002_ip = 2330; continue _fun0002 }
+ 2297:
+            var19 = _closure1_slot0;
+            var20 = _closure1_slot1;
+            var12 = 4;
+            var12 = var20[var12];
+            var12 = var19.bind(var9)(var12);
+            var12 = var12.t;
+            var12 = var12.NIimTk;
+            _fun0002_ip = 2361; continue _fun0002;
+ 2330:
+            var20 = _closure1_slot0;
+            var21 = _closure1_slot1;
+            var19 = 4;
+            var19 = var21[var19];
+            var19 = var20.bind(var9)(var19);
+            var19 = var19.t;
+            var12 = var19.AwuMRU;
+ 2361:
+            _fun0002_ip = 2408; continue _fun0002;
+ 2363:
+            var20 = _closure1_slot0;
+            var21 = _closure1_slot1;
+            var19 = 4;
+            var19 = var21[var19];
+            var19 = var20.bind(var9)(var19);
+            var19 = var19.t;
+            if(var5) { _fun0002_ip = 2399; continue _fun0002 }
+ 2391:
+            var5 = var19.ziB0HB;
+            _fun0002_ip = 2405; continue _fun0002;
+ 2399:
+            var5 = var19.eb/SnZ;
+ 2405:
+            var12 = var5;
+ 2408:
+            var5 = {};
+            var5['gameTitle'] = var18;
+            var5['streamingDurationRequirement'] = var15;
+            var5['rewardNameWithArticle'] = var17;
+            var5['duration'] = var16;
+            var5['targetMinutes'] = var15;
+            var1 = var13.bind(var9)(var12, var5, var14);
+ 2441:
+            _fun0002_ip = 2806; continue _fun0002;
+ 2446:
+            var5 = {};
+            var5['quest'] = var11;
+            var5['taskDetails'] = var10;
+            var5['sourceQuestContent'] = var8;
+            var5['withoutMarkdown'] = var7;
+            var5['popoutTargetElementRef'] = var6;
+            var5['onGameSheetOpened'] = var4;
+            var5['onGameSheetClosed'] = var3;
+            var16 = var5.quest;
+            var4 = var5.taskDetails;
+            var15 = var5.sourceQuestContent;
+            var3 = var5.withoutMarkdown;
+            var13 = var5.popoutTargetElementRef;
+            var12 = var5.onGameSheetOpened;
+            var11 = var5.onGameSheetClosed;
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var5 = 5;
+            var5 = var7[var5];
+            var5 = var6.bind(var9)(var5);
+            var7 = var5.SharedQuestFields;
+            var6 = var7.build;
+            var5 = var16.config;
             var5 = var6.bind(var7)(var5);
             var8 = var5.defaultRewardNameWithArticle;
             var7 = var4.targetMinutes;
             var14 = var4.applications;
             var4 = _closure1_slot0;
             var10 = _closure1_slot1;
-            if(var3) { _fun0002_ip = 2716; continue _fun0002 }
- 2582:
+            if(var3) { _fun0002_ip = 2743; continue _fun0002 }
+ 2599:
             var3 = 7;
             var3 = var10[var3];
             var6 = var4.bind(var9)(var3);
             var5 = var6.createGameSheetHook;
             var3 = {};
+            var3['quest'] = var16;
+            var3['sourceQuestContent'] = var15;
             var15 = null;
-            if(!(var15 == var14)) { _fun0002_ip = 2612; continue _fun0002 }
- 2608:
+            if(!(var15 == var14)) { _fun0002_ip = 2639; continue _fun0002 }
+ 2635:
             var14 = new Array(0);
- 2612:
+ 2639:
             var3['applications'] = var14;
             var3['popoutTargetElementRef'] = var13;
             var3['onGameSheetOpened'] = var12;
@@ -707,8 +712,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['targetMinutes'] = var7;
             var2['gameSheetHook'] = var11;
             var2 = var5.bind(var6)(var3, var2);
-            _fun0002_ip = 2776; continue _fun0002;
- 2716:
+            _fun0002_ip = 2803; continue _fun0002;
+ 2743:
             var3 = 4;
             var5 = var10[var3];
             var5 = var4.bind(var9)(var5);
@@ -722,9 +727,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['rewardNameWithArticle'] = var8;
             var3['targetMinutes'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 2776:
+ 2803:
             var1 = var2;
- 2779:
+ 2806:
             return var1;
         }
     };

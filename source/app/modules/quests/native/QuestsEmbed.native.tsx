@@ -99,7 +99,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1 instanceof Object ? var1 : var3;
             var1 = var3.toISOString;
             var1 = var1.bind(var3)();
-            if(!(!(var2 < var1))) { _fun0002_ip = 241; continue _fun0002 }
+            if(!(!(var2 < var1))) { _fun0002_ip = 267; continue _fun0002 }
  65:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -124,11 +124,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.EMBED_MOBILE;
             var1['location'] = var7;
             var7 = 10;
+            var10 = var9[var7];
+            var10 = var8.bind(var4)(var10);
+            var10 = var10.QuestContent;
+            var10 = var10.QUEST_EMBED_MOBILE;
+            var1['questContent'] = var10;
             var7 = var9[var7];
             var7 = var8.bind(var4)(var7);
             var7 = var7.QuestContent;
             var7 = var7.QUEST_EMBED_MOBILE;
-            var1['questContent'] = var7;
+            var1['sourceQuestContent'] = var7;
             var7 = function connectedConsoleLinkOnClick() {
                 var1 = undefined;
                 return var1;
@@ -136,16 +141,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['connectedConsoleLinkOnClick'] = var7;
             var7 = null;
             var7 = var7 != var6;
-            if(!var7) { _fun0002_ip = 222; continue _fun0002 }
- 219:
+            if(!var7) { _fun0002_ip = 248; continue _fun0002 }
+ 245:
             var4 = var6;
- 222:
+ 248:
             var1['thirdPartyTaskDetails'] = var4;
             var4 = true;
             var1['withoutMarkdown'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
- 241:
+ 267:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var1 = 7;

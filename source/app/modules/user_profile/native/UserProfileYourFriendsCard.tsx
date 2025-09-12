@@ -371,7 +371,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var9[var11];
         var13 = var7.bind(var4)(var13);
         var13 = var13.t;
-        var13 = var13.CAqwXl;
+        var13 = var13.TdEu5e;
         var13 = var14.bind(var15)(var13);
         var1['accessibilityLabel'] = var13;
         var1['onPress'] = var8;
@@ -395,7 +395,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var9[var11];
         var11 = var7.bind(var4)(var11);
         var11 = var11.t;
-        var11 = var11.CAqwXl;
+        var11 = var11.TdEu5e;
         var11 = var12.bind(var13)(var11);
         var5['children'] = var11;
         var10 = var8.bind(var4)(var10, var5);

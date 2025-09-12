@@ -51,10 +51,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
  22:
             var _closure2_slot0 = var2;
+            var2 = var5.shouldShowExpressiveModal;
             var2 = null;
             var4 = Object.create(var2);
             var2 = 0;
             var4['onClose'] = var2;
+            var4['shouldShowExpressiveModal'] = var2;
             var9 = {};
             var8 = var5;
             var7 = var4;

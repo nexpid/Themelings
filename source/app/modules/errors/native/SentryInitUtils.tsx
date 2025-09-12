@@ -63,7 +63,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  114:
             var3 = true;
  116:
-            if(var3) { _fun0001_ip = 735; continue _fun0001 }
+            if(var3) { _fun0001_ip = 787; continue _fun0001 }
  122:
             var6 = var1 == var4;
             var3 = undefined;
@@ -71,25 +71,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  131:
             var3 = var4.originalException;
  137:
-            var4 = var1 == var3;
-            var6 = undefined;
-            if(var4) { _fun0001_ip = 166; continue _fun0001 }
+            var6 = var1 == var3;
+            var7 = undefined;
+            if(var6) { _fun0001_ip = 166; continue _fun0001 }
  146:
             var3 = var3.err;
-            var4 = var1 == var3;
-            var6 = undefined;
-            if(var4) { _fun0001_ip = 166; continue _fun0001 }
+            var6 = var1 == var3;
+            var7 = undefined;
+            if(var6) { _fun0001_ip = 166; continue _fun0001 }
  161:
-            var6 = var3.code;
+            var7 = var3.code;
  166:
-            var4 = 'ABORTED';
+            var6 = 'ABORTED';
             var3 = false;
-            if(!(var4 === var6)) { _fun0001_ip = 180; continue _fun0001 }
+            if(!(var6 === var7)) { _fun0001_ip = 180; continue _fun0001 }
  178:
             var3 = true;
  180:
-            if(var3) { _fun0001_ip = 735; continue _fun0001 }
+            if(var3) { _fun0001_ip = 787; continue _fun0001 }
  186:
+            var6 = var1 == var4;
+            var3 = undefined;
+            if(var6) { _fun0001_ip = 201; continue _fun0001 }
+ 195:
+            var3 = var4.originalException;
+ 201:
+            var6 = var1 == var3;
+            var4 = undefined;
+            if(var6) { _fun0001_ip = 215; continue _fun0001 }
+ 210:
+            var4 = var3.status;
+ 215:
+            if(!(var1 != var4)) { _fun0001_ip = 249; continue _fun0001 }
+ 219:
+            var3 = var2.tags;
+            if(!(var1 == var3)) { _fun0001_ip = 237; continue _fun0001 }
+ 229:
+            var3 = {};
+            var2['tags'] = var3;
+ 237:
+            var3 = var2.tags;
+            var3['httpStatusCode'] = var4;
+ 249:
             var8 = _closure1_slot9;
             var7 = var8.info;
             var6 = {};
@@ -99,136 +122,132 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var7.bind(var8)(var4, var6);
             var6 = var2.level;
             var4 = 'fatal';
-            if(!(var4 !== var6)) { _fun0001_ip = 257; continue _fun0001 }
- 237:
+            if(!(var4 !== var6)) { _fun0001_ip = 317; continue _fun0001 }
+ 300:
+            var6 = var2.level;
+            var4 = 'error';
+            if(!(var4 === var6)) { _fun0001_ip = 727; continue _fun0001 }
+ 317:
             var7 = var2.level;
-            var6 = 'error';
-            var4 = var2;
-            if(!(var6 === var7)) { _fun0001_ip = 672; continue _fun0001 }
- 257:
-            var8 = var2.level;
-            var7 = 1;
-            var6 = 'error';
-            if(!(var6 === var8)) { _fun0001_ip = 284; continue _fun0001 }
- 274:
-            var7 = 0.01;
- 284:
-            var6 = _closure1_slot12;
-            if(var6) { _fun0001_ip = 308; continue _fun0001 }
- 291:
-            var6 = _closure1_slot17;
-            var6 = var6.bind(var5)(var7);
-            var4 = undefined;
-            if(!var6) { _fun0001_ip = 672; continue _fun0001 }
- 308:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot3;
-            var6 = 5;
-            var6 = var8[var6];
-            var7 = var7.bind(var5)(var6);
-            var6 = var7.getHistory;
-            var6 = var6.bind(var7)();
-            var10 = var6.location;
-            var7 = _closure1_slot1;
-            var6 = 6;
-            var6 = var8[var6];
-            var9 = var7.bind(var5)(var6);
-            var8 = var9.track;
-            var6 = _closure1_slot5;
-            var7 = var6.APP_CRASHED;
+            var6 = 1;
+            var4 = 'error';
+            if(!(var4 === var7)) { _fun0001_ip = 344; continue _fun0001 }
+ 334:
+            var6 = 0.01;
+ 344:
+            var4 = _closure1_slot12;
+            if(var4) { _fun0001_ip = 366; continue _fun0001 }
+ 351:
+            var4 = _closure1_slot17;
+            var4 = var4.bind(var5)(var6);
+            if(!var4) { _fun0001_ip = 727; continue _fun0001 }
+ 366:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var4 = 5;
+            var4 = var7[var4];
+            var6 = var6.bind(var5)(var4);
+            var4 = var6.getHistory;
+            var4 = var4.bind(var6)();
+            var9 = var4.location;
+            var6 = _closure1_slot1;
+            var4 = 6;
+            var4 = var7[var4];
+            var8 = var6.bind(var5)(var4);
+            var7 = var8.track;
+            var4 = _closure1_slot5;
+            var6 = var4.APP_CRASHED;
+            var4 = {};
+            var9 = var9.pathname;
+            var4['path'] = var9;
+            var4['extra'] = var5;
+            var9 = _closure1_slot15;
+            var9 = var9.bind(var5)(var2);
+            var4['error_message'] = var9;
+            var9 = var2.level;
+            var4['error_level'] = var9;
+            var9 = _closure1_slot16;
+            var9 = var9.bind(var5)(var2);
+            var4['error_stack'] = var9;
+            var4 = var7.bind(var8)(var6, var4);
+            var4 = var2.tags;
+            var7 = var1 == var4;
+            var6 = undefined;
+            if(var7) { _fun0001_ip = 516; continue _fun0001 }
+ 510:
+            var6 = var4.event.origin;
+ 516:
+            var4 = 'javascript';
+            if(!(var4 !== var6)) { _fun0001_ip = 558; continue _fun0001 }
+ 524:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var4 = 7;
+            var4 = var7[var4];
+            var4 = var6.bind(var5)(var4);
+            var4 = var4.AppCrashedReasons;
+            var11 = var4.UNHANDLED_NATIVE_ERROR;
+            _fun0001_ip = 590; continue _fun0001;
+ 558:
+            var6 = _closure1_slot0;
+            var7 = _closure1_slot3;
+            var4 = 7;
+            var4 = var7[var4];
+            var4 = var6.bind(var5)(var4);
+            var4 = var4.AppCrashedReasons;
+            var11 = var4.UNHANDLED_JS_ERROR;
+ 590:
+            var6 = _closure1_slot1;
+            var10 = _closure1_slot3;
+            var4 = 8;
+            var4 = var10[var4];
+            var8 = var6.bind(var5)(var4);
+            var7 = var8.increment;
             var6 = {};
-            var10 = var10.pathname;
-            var6['path'] = var10;
-            var6['extra'] = var5;
-            var10 = _closure1_slot15;
-            var10 = var10.bind(var5)(var2);
-            var6['error_message'] = var10;
-            var10 = var2.level;
-            var6['error_level'] = var10;
-            var10 = _closure1_slot16;
-            var10 = var10.bind(var5)(var2);
-            var6['error_stack'] = var10;
-            var6 = var8.bind(var9)(var7, var6);
-            var6 = var2.tags;
-            var8 = var1 == var6;
-            var7 = undefined;
-            if(var8) { _fun0001_ip = 458; continue _fun0001 }
- 452:
-            var7 = var6.event.origin;
- 458:
-            var6 = 'javascript';
-            if(!(var6 !== var7)) { _fun0001_ip = 500; continue _fun0001 }
- 466:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot3;
-            var6 = 7;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var6 = var6.AppCrashedReasons;
-            var12 = var6.UNHANDLED_NATIVE_ERROR;
-            _fun0001_ip = 532; continue _fun0001;
- 500:
-            var7 = _closure1_slot0;
-            var8 = _closure1_slot3;
-            var6 = 7;
-            var6 = var8[var6];
-            var6 = var7.bind(var5)(var6);
-            var6 = var6.AppCrashedReasons;
-            var12 = var6.UNHANDLED_JS_ERROR;
- 532:
-            var7 = _closure1_slot1;
-            var11 = _closure1_slot3;
-            var6 = 8;
-            var6 = var11[var6];
-            var9 = var7.bind(var5)(var6);
-            var8 = var9.increment;
-            var7 = {};
-            var10 = _closure1_slot0;
-            var6 = 9;
-            var6 = var11[var6];
-            var6 = var10.bind(var5)(var6);
-            var6 = var6.MetricEvents;
-            var6 = var6.APP_CRASHED;
-            var7['name'] = var6;
-            var10 = global;
-            var6 = var10.HermesInternal;
-            var11 = var6.concat;
-            var6 = 'reason:';
-            var11 = var11.bind(var6)(var12);
-            var6 = new Array(2);
-            var6[0] = var11;
-            var12 = var2.level;
-            var10 = var10.HermesInternal;
-            var11 = var10.concat;
-            var10 = 'level:';
-            var10 = var11.bind(var10)(var12);
-            var6[1] = var10;
-            var7['tags'] = var6;
-            var6 = true;
-            var6 = var8.bind(var9)(var7, var6);
-            var4 = var2;
- 672:
-            var4 = !var4;
+            var9 = _closure1_slot0;
+            var4 = 9;
+            var4 = var10[var4];
+            var4 = var9.bind(var5)(var4);
+            var4 = var4.MetricEvents;
+            var4 = var4.APP_CRASHED;
+            var6['name'] = var4;
+            var9 = global;
+            var4 = var9.HermesInternal;
+            var10 = var4.concat;
+            var4 = 'reason:';
+            var10 = var10.bind(var4)(var11);
+            var4 = new Array(2);
+            var4[0] = var10;
+            var11 = var2.level;
+            var9 = var9.HermesInternal;
+            var10 = var9.concat;
+            var9 = 'level:';
+            var9 = var10.bind(var9)(var11);
+            var4[1] = var9;
+            var6['tags'] = var4;
+            var4 = true;
+            var4 = var7.bind(var8)(var6, var4);
+ 727:
             var4 = _closure1_slot11;
             var7 = var2.level;
             var6 = 'error';
-            if(!(var6 === var7)) { _fun0001_ip = 703; continue _fun0001 }
- 693:
+            if(!(var6 === var7)) { _fun0001_ip = 755; continue _fun0001 }
+ 745:
             var4 = 0.005;
- 703:
+ 755:
             var6 = _closure1_slot12;
-            if(var6) { _fun0001_ip = 733; continue _fun0001 }
- 710:
+            if(var6) { _fun0001_ip = 785; continue _fun0001 }
+ 762:
             var6 = _closure1_slot13;
             var6 = var6.bind(var5)();
-            if(!var6) { _fun0001_ip = 735; continue _fun0001 }
- 721:
+            if(!var6) { _fun0001_ip = 787; continue _fun0001 }
+ 773:
             var3 = _closure1_slot17;
             var3 = var3.bind(var5)(var4);
-            if(!var3) { _fun0001_ip = 735; continue _fun0001 }
- 733:
+            if(!var3) { _fun0001_ip = 787; continue _fun0001 }
+ 785:
             return var2;
- 735:
+ 787:
             return var1;
         }
     };
@@ -557,7 +576,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['autoInitializeNativeSdk'] = var9;
                     var9 = _closure1_slot14;
                     var5['beforeSend'] = var9;
-                    var9 = '4620';
+                    var9 = '4624';
                     var5['dist'] = var9;
                     var5['dsn'] = var6;
                     var5['environment'] = var3;
@@ -567,7 +586,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['sampleRate'] = var3;
                     var3 = _closure1_slot10;
                     var5['ignoreErrors'] = var3;
-                    var3 = 'discord_android@298.3.0-2+298203';
+                    var3 = 'discord_android@298.4.0-2+298204';
                     var5['release'] = var3;
                     var3 = _closure1_slot0;
                     var6 = _closure1_slot3;

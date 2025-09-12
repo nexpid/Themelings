@@ -159,7 +159,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var4 = var7.bind(var8)(var4);
     var _closure1_slot12 = var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -170,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var4 = arg1;
             var9 = var4.children;
-            var15 = var4.conversationProps;
+            var17 = var4.conversationProps;
             var3 = var4.actionLabel;
             var _closure2_slot0 = var3;
             var31 = var4.timestamp;
@@ -178,9 +178,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot1 = var19;
             var2 = var4.type;
             var _closure2_slot2 = var2;
-            var17 = var4.onHeaderPress;
-            var _closure2_slot3 = var17;
-            var16 = var4.onHeaderLongPress;
+            var16 = var4.onHeaderPress;
+            var _closure2_slot3 = var16;
+            var15 = var4.onHeaderLongPress;
             var5 = var4.channelId;
             var _closure2_slot4 = var5;
             var7 = var4.guildId;
@@ -348,7 +348,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18[0] = var26;
             var26 = var12.genContentSubtitleChannel;
             var18[1] = var26;
-            var18[2] = var17;
+            var18[2] = var16;
             var18[3] = var20;
             var18[4] = var3;
             var3 = function() {
@@ -543,15 +543,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.bind(var4)(var5);
             var6 = var5.PressableHighlight;
             var5 = {};
-            var5['onPress'] = var17;
-            var5['onLongPress'] = var16;
-            var16 = var12.content;
-            var5['style'] = var16;
+            var5['onPress'] = var16;
+            var5['onLongPress'] = var15;
+            var15 = var12.content;
+            var5['style'] = var15;
+            var15 = {};
+            var15['style'] = var8;
             var16 = {};
-            var16['style'] = var8;
-            var17 = {};
             var8 = var12.header;
-            var17['style'] = var8;
+            var16['style'] = var8;
             var18 = new Array(2);
             var18[0] = var7;
             var19 = {};
@@ -637,11 +637,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19['children'] = var20;
             var19 = var3.bind(var4)(var2, var19);
             var18[1] = var19;
-            var17['children'] = var18;
-            var17 = var3.bind(var4)(var2, var17);
-            var16['children'] = var17;
-            var16 = var13.bind(var4)(var2, var16);
-            var5['children'] = var16;
+            var16['children'] = var18;
+            var16 = var3.bind(var4)(var2, var16);
+            var15['children'] = var16;
+            var15 = var13.bind(var4)(var2, var15);
+            var5['children'] = var15;
             var6 = var13.bind(var4)(var6, var5);
             var5 = new Array(2);
             var5[0] = var6;
@@ -654,30 +654,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.cardContent;
  1041:
             var6['style'] = var11;
-            if(!(var10 == var9)) { _fun0001_ip = 1125; continue _fun0001 }
+            if(!(var10 == var9)) { _fun0001_ip = 1154; continue _fun0001 }
  1049:
-            var11 = var10 != var15;
+            var11 = var10 != var17;
             var10 = null;
-            if(!var11) { _fun0001_ip = 1122; continue _fun0001 }
+            if(!var11) { _fun0001_ip = 1151; continue _fun0001 }
  1058:
             var13 = _closure1_slot9;
-            var12 = _closure1_slot0;
+            var15 = _closure1_slot0;
             var16 = _closure1_slot2;
             var11 = 20;
             var11 = var16[var11];
-            var11 = var12.bind(var4)(var11);
+            var11 = var15.bind(var4)(var11);
             var12 = var11.ConversationPreview;
             var11 = {};
-            var11['conversationProps'] = var15;
-            var15 = _closure1_slot1;
+            var11['conversationProps'] = var17;
+            var17 = _closure1_slot1;
             var14 = 21;
             var14 = var16[var14];
-            var14 = var15.bind(var4)(var14);
+            var14 = var17.bind(var4)(var14);
             var11['MediaComponent'] = var14;
+            var14 = 22;
+            var14 = var16[var14];
+            var14 = var15.bind(var4)(var14);
+            var14 = var14.ICYMIAnalytics;
+            var14 = var14.trackItemInteraction;
+            var11['trackItemInteraction'] = var14;
             var10 = var13.bind(var4)(var12, var11);
- 1122:
+ 1151:
             var9 = var10;
- 1125:
+ 1154:
             var6['children'] = var9;
             var6 = var8.bind(var4)(var7, var6);
             var5[1] = var6;

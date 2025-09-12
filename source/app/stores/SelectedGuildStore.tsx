@@ -136,7 +136,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = true;
  38:
             var3 = _closure1_slot12;
-            if(!(var3 === var4)) { _fun0004_ip = 200; continue _fun0004 }
+            if(!(var3 === var4)) { _fun0004_ip = 199; continue _fun0004 }
  49:
             var4 = _closure1_slot10;
             var3 = var4.getGuildsArray;
@@ -151,8 +151,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2 = var3.bind(var4)(var2);
             var3 = null;
-            if(!(var3 == var2)) { _fun0004_ip = 136; continue _fun0004 }
- 85:
+            if(!(var3 == var2)) { _fun0004_ip = 135; continue _fun0004 }
+ 84:
             _closure1_slot12 = var3;
             var6 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -165,8 +165,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.ME;
             var3 = var4.bind(var6)(var3);
             var1 = true;
-            _fun0004_ip = 200; continue _fun0004;
- 136:
+            _fun0004_ip = 199; continue _fun0004;
+ 135:
             var3 = var2.id;
             _closure1_slot12 = var3;
             var6 = _closure1_slot0;
@@ -182,7 +182,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var5.bind(var6)(var2);
             var2 = var3.bind(var4)(var2);
             var1 = true;
- 200:
+ 199:
             return var1;
         }
     };

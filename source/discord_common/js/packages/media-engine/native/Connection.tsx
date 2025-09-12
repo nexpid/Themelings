@@ -784,23 +784,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 };
                                 var7 = var2.bind(var4)(var1);
                                 var1 = undefined;
-                                if(!(var1 !== var7)) { _fun0014_ip = 381; continue _fun0014 }
- 47:
+                                if(!(var1 !== var7)) { _fun0014_ip = 380; continue _fun0014 }
+ 46:
                                 var2 = var7.quality;
                                 var8 = null;
                                 var6 = var8 != var2;
                                 var5 = 0;
-                                if(!var6) { _fun0014_ip = 67; continue _fun0014 }
- 64:
+                                if(!var6) { _fun0014_ip = 66; continue _fun0014 }
+ 63:
                                 var5 = var2;
- 67:
+ 66:
                                 var2 = 100;
-                                if(!(var5 < var2)) { _fun0014_ip = 381; continue _fun0014 }
- 77:
+                                if(!(var5 < var2)) { _fun0014_ip = 380; continue _fun0014 }
+ 76:
                                 var5 = var7.type;
                                 var2 = 'video';
-                                if(!(var2 === var5)) { _fun0014_ip = 381; continue _fun0014 }
- 93:
+                                if(!(var2 === var5)) { _fun0014_ip = 380; continue _fun0014 }
+ 92:
                                 var2 = global;
                                 var9 = var2.Math;
                                 var6 = var9.floor;
@@ -817,24 +817,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var5 = var7.minBitrate;
                                 var12 = var8 != var5;
                                 var6 = 0;
-                                if(!var12) { _fun0014_ip = 180; continue _fun0014 }
- 177:
+                                if(!var12) { _fun0014_ip = 179; continue _fun0014 }
+ 176:
                                 var6 = var5;
- 180:
+ 179:
                                 var12 = var7.maxBitrate;
                                 var5 = var10;
-                                if(!(var8 != var12)) { _fun0014_ip = 196; continue _fun0014 }
- 193:
+                                if(!(var8 != var12)) { _fun0014_ip = 195; continue _fun0014 }
+ 192:
                                 var5 = var12;
- 196:
+ 195:
                                 var5 = var9.bind(var1)(var10, var6, var5);
                                 var6 = var7.targetBitrate;
                                 var8 = var8 != var6;
                                 var4 = 0;
-                                if(!var8) { _fun0014_ip = 221; continue _fun0014 }
- 218:
+                                if(!var8) { _fun0014_ip = 220; continue _fun0014 }
+ 217:
                                 var4 = var6;
- 221:
+ 220:
                                 var9 = var2.Math;
                                 var8 = var9.abs;
                                 var6 = var5 - var4;
@@ -845,13 +845,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var6 = var6 / var4;
                                 var4 = 0.1;
                                 var4 = var6 > var4;
-                                if(var4) { _fun0014_ip = 284; continue _fun0014 }
- 274:
+                                if(var4) { _fun0014_ip = 283; continue _fun0014 }
+ 273:
                                 var6 = var7.targetBitrate;
                                 var4 = var1 === var6;
- 284:
-                                if(!var4) { _fun0014_ip = 381; continue _fun0014 }
- 287:
+ 283:
+                                if(!var4) { _fun0014_ip = 380; continue _fun0014 }
+ 286:
                                 var3 = _closure3_slot0;
                                 var6 = var3.logger;
                                 var4 = var6.info;
@@ -870,7 +870,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var2 = var2.bind(var4)(var5);
                                 var2 = var3.updateVideoQuality;
                                 var2 = var2.bind(var3)();
- 381:
+ 380:
                                 return var1;
                             }
                         };
@@ -5438,16 +5438,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var25 == var2;
                 var24 = undefined;
                 var4 = undefined;
-                if(var5) { _fun0067_ip = 70; continue _fun0067 }
- 64:
+                if(var5) { _fun0067_ip = 69; continue _fun0067 }
+ 63:
                 var4 = var2.payloadType;
- 70:
+ 69:
                 var5 = var25 != var4;
                 var2 = 0;
-                if(!var5) { _fun0067_ip = 82; continue _fun0067 }
- 79:
+                if(!var5) { _fun0067_ip = 81; continue _fun0067 }
+ 78:
                 var2 = var4;
- 82:
+ 81:
                 var3['type'] = var2;
                 var3['name'] = var28;
                 var5 = var26.codecs;
@@ -5497,11 +5497,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot23;
                 var4 = var1.STREAM;
                 var1 = arg3;
-                if(!(var1 === var4)) { _fun0067_ip = 159; continue _fun0067 }
- 150:
+                if(!(var1 === var4)) { _fun0067_ip = 158; continue _fun0067 }
+ 149:
                 var1 = 2;
                 var3['channels'] = var1;
- 159:
+ 158:
                 var4 = new Array(0);
                 var5 = {'name': '', 'type': 0, 'rtxType': 0};
                 var1 = {};
@@ -5527,13 +5527,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var7 = undefined;
                 var6 = undefined;
                 var5 = var12;
-                if(var1) { _fun0067_ip = 781; continue _fun0067 }
- 264:
+                if(var1) { _fun0067_ip = 780; continue _fun0067 }
+ 263:
                 var31 = var13.value;
                 var1 = var31.name;
                 var29 = var12;
-                if(!(var1 !== var28)) { _fun0067_ip = 757; continue _fun0067 }
- 284:
+                if(!(var1 !== var28)) { _fun0067_ip = 756; continue _fun0067 }
+ 283:
                 var30 = {};
                 var32 = _closure1_slot0;
                 var1 = _closure1_slot2;
@@ -5545,29 +5545,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var30['name'] = var1;
                 var1 = var25 == var31;
                 var33 = undefined;
-                if(var1) { _fun0067_ip = 338; continue _fun0067 }
- 332:
+                if(var1) { _fun0067_ip = 337; continue _fun0067 }
+ 331:
                 var33 = var31.payloadType;
- 338:
+ 337:
                 var32 = var25 != var33;
                 var1 = 0;
-                if(!var32) { _fun0067_ip = 350; continue _fun0067 }
- 347:
+                if(!var32) { _fun0067_ip = 349; continue _fun0067 }
+ 346:
                 var1 = var33;
- 350:
+ 349:
                 var30['type'] = var1;
                 var1 = var25 == var31;
                 var32 = undefined;
-                if(var1) { _fun0067_ip = 369; continue _fun0067 }
- 363:
+                if(var1) { _fun0067_ip = 368; continue _fun0067 }
+ 362:
                 var32 = var31.rtxPayloadType;
- 369:
+ 368:
                 var34 = var25 != var32;
                 var1 = 0;
-                if(!var34) { _fun0067_ip = 381; continue _fun0067 }
- 378:
+                if(!var34) { _fun0067_ip = 380; continue _fun0067 }
+ 377:
                 var1 = var32;
- 381:
+ 380:
                 var30['rtxType'] = var1;
                 var34 = var26.getCodecParams;
                 var1 = var31.name;
@@ -5578,47 +5578,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot11;
                 var1 = var1.RESET_DECODER_ON_ERRORS;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0067_ip = 451; continue _fun0067 }
- 437:
+                if(!var1) { _fun0067_ip = 450; continue _fun0067 }
+ 436:
                 var1 = var30.params;
                 var1['reset-on-errors'] = var20;
- 451:
+ 450:
                 var35 = var26.experimentFlags;
                 var34 = var35.has;
                 var1 = _closure1_slot11;
                 var1 = var1.SOFTWARE_FALLBACK_ON_ERRORS;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0067_ip = 494; continue _fun0067 }
- 480:
+                if(!var1) { _fun0067_ip = 493; continue _fun0067 }
+ 479:
                 var1 = var30.params;
                 var1['fallback-after-errors'] = var16;
- 494:
+ 493:
                 var35 = var26.experimentFlags;
                 var34 = var35.has;
                 var1 = _closure1_slot11;
                 var1 = var1.SOFTWARE_FALLBACK_ON_CONSECUTIVE_ERRORS;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0067_ip = 537; continue _fun0067 }
- 523:
+                if(!var1) { _fun0067_ip = 536; continue _fun0067 }
+ 522:
                 var1 = var30.params;
                 var1['fallback-on-consecutive-errors'] = var20;
- 537:
+ 536:
                 var35 = var26.experimentFlags;
                 var34 = var35.has;
                 var1 = _closure1_slot11;
                 var1 = var1.SIGNAL_AV1_HARDWARE_DECODE;
                 var1 = var34.bind(var35)(var1);
-                if(!var1) { _fun0067_ip = 580; continue _fun0067 }
- 566:
+                if(!var1) { _fun0067_ip = 579; continue _fun0067 }
+ 565:
                 var1 = var30.params;
                 var1['hardware-av1-decode'] = var20;
- 580:
+ 579:
                 var34 = var26.hardwareH264;
                 var1 = var17;
-                if(!var34) { _fun0067_ip = 595; continue _fun0067 }
- 592:
+                if(!var34) { _fun0067_ip = 594; continue _fun0067 }
+ 591:
                 var1 = var20;
- 595:
+ 594:
                 var34 = var30.params;
                 var34['hardware-h264'] = var1;
                 var34 = var4.push;
@@ -5631,8 +5631,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var10;
                 var7 = var30;
                 var6 = var1;
-                if(!(var34 === var27)) { _fun0067_ip = 757; continue _fun0067 }
- 647:
+                if(!(var34 === var27)) { _fun0067_ip = 756; continue _fun0067 }
+ 646:
                 var34 = {};
                 var39 = var34;
                 var38 = var30;
@@ -5646,11 +5646,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var35 = _closure1_slot11;
                 var35 = var35.VIDEOTOOLBOX_RATE_CONTROL;
                 var35 = var36.bind(var37)(var35);
-                if(!var35) { _fun0067_ip = 724; continue _fun0067 }
- 710:
+                if(!var35) { _fun0067_ip = 723; continue _fun0067 }
+ 709:
                 var35 = var34.params;
                 var35['fixed-rate-presentation-timestamps'] = var20;
- 724:
+ 723:
                 var35 = var34.params;
                 var35['hardware-h264'] = var1;
                 var29 = var34;
@@ -5660,14 +5660,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var8 = var10;
                 var7 = var30;
                 var6 = var1;
- 757:
+ 756:
                 var30 = var21.bind(var24)();
                 var1 = var30.done;
                 var12 = var29;
                 var13 = var30;
                 var5 = var12;
-                if(!var1) { _fun0067_ip = 264; continue _fun0067 }
- 781:
+                if(!var1) { _fun0067_ip = 263; continue _fun0067 }
+ 780:
                 var1 = {};
                 var1['videoEncoder'] = var5;
                 var1['videoDecoders'] = var4;

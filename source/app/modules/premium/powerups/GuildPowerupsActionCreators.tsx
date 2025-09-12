@@ -273,7 +273,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var3['fetchPowerupCatalogForGuild'] = var4;
-    var4 = function fetchGuildUnlockedPowerups(arg1) {
+    var4 = function fetchGuildBoostEntitlements(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var8 = arg1;
@@ -305,40 +305,105 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var4)(var2);
             var2 = var3.then;
             var1 = function(arg1) {
-                var1 = arg1;
-                var5 = var1.body;
-                var4 = var5.reduce;
-                var3 = function(arg1, arg2) {
-                    var1 = arg1;
-                    var3 = arg2;
-                    var2 = var3.sku_id;
-                    var1[var2] = var3;
-                    return var1;
+                var6 = {};
+                var _closure3_slot0 = var6;
+                var5 = {};
+                var _closure3_slot1 = var5;
+                var2 = arg1;
+                var3 = var2.body;
+                var2 = var3.forEach;
+                var1 = function(arg1) {
+                    _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
+ 0:
+                        var4 = arg1;
+                        var5 = var4.sku;
+                        var3 = null;
+                        var6 = var3 == var5;
+                        var1 = undefined;
+                        var2 = undefined;
+                        if(var6) { _fun0006_ip = 58; continue _fun0006 }
+ 22:
+                        var5 = var5.tenant_metadata;
+                        var6 = var3 == var5;
+                        var2 = undefined;
+                        if(var6) { _fun0006_ip = 58; continue _fun0006 }
+ 37:
+                        var5 = var5.guild_monetization;
+                        var6 = var3 == var5;
+                        var2 = undefined;
+                        if(var6) { _fun0006_ip = 58; continue _fun0006 }
+ 52:
+                        var2 = var5.powerup;
+ 58:
+                        if(!(var3 == var2)) { _fun0006_ip = 171; continue _fun0006 }
+ 62:
+                        var5 = var3 == var4;
+                        var2 = undefined;
+                        if(var5) { _fun0006_ip = 92; continue _fun0006 }
+ 71:
+                        var5 = var4.sku;
+                        var6 = var3 == var5;
+                        var2 = undefined;
+                        if(var6) { _fun0006_ip = 92; continue _fun0006 }
+ 86:
+                        var2 = var5.powerup_metadata;
+ 92:
+                        if(!(var3 == var2)) { _fun0006_ip = 171; continue _fun0006 }
+ 96:
+                        var5 = var4.sku;
+                        var6 = var3 == var5;
+                        var2 = undefined;
+                        if(var6) { _fun0006_ip = 149; continue _fun0006 }
+ 111:
+                        var5 = var5.tenant_metadata;
+                        var6 = var3 == var5;
+                        var2 = undefined;
+                        if(var6) { _fun0006_ip = 149; continue _fun0006 }
+ 126:
+                        var5 = var5.guild_monetization;
+                        var6 = var3 == var5;
+                        var2 = undefined;
+                        if(var6) { _fun0006_ip = 149; continue _fun0006 }
+ 141:
+                        var2 = var5.game_server;
+ 149:
+                        if(!(var3 != var2)) { _fun0006_ip = 188; continue _fun0006 }
+ 153:
+                        var3 = _closure3_slot1;
+                        var2 = var4.id;
+                        var3[var2] = var4;
+                        _fun0006_ip = 188; continue _fun0006;
+ 171:
+                        var3 = _closure3_slot0;
+                        var2 = var4.sku_id;
+                        var3[var2] = var4;
+ 188:
+                        return var1;
+                    }
                 };
-                var2 = {};
-                var5 = var4.bind(var5)(var3, var2);
-                var4 = _closure1_slot1;
-                var3 = _closure1_slot2;
-                var2 = 2;
-                var3 = var3[var2];
-                var2 = undefined;
-                var4 = var4.bind(var2)(var3);
+                var1 = var2.bind(var3)(var1);
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 2;
+                var2 = var2[var1];
+                var1 = undefined;
+                var4 = var3.bind(var1)(var2);
                 var3 = var4.dispatch;
                 var2 = {};
-                var6 = 'GUILD_UNLOCKED_POWERUPS_FETCH_SUCCESS';
-                var2['type'] = var6;
-                var6 = _closure2_slot0;
-                var2['guildId'] = var6;
-                var2['unlockedPowerups'] = var5;
+                var7 = 'GUILD_BOOST_ENTITLEMENTS_FETCH_SUCCESS';
+                var2['type'] = var7;
+                var7 = _closure2_slot0;
+                var2['guildId'] = var7;
+                var2['unlockedPowerups'] = var6;
+                var2['unlockedGameServers'] = var5;
                 var2 = var3.bind(var4)(var2);
-                var1 = var1.body;
                 return var1;
             };
             var1 = var2.bind(var3)(var1);
             return var1;
         }
     };
-    var3['fetchGuildUnlockedPowerups'] = var4;
+    var3['fetchGuildBoostEntitlements'] = var4;
     var4 = function enablePowerupForGuild(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot2;

@@ -781,6 +781,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['trackFeedEmptyLoadingAbandoned'] = var7;
+    var7 = function trackFeedSessionStarted(arg1) {
+        var6 = arg1;
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 4;
+        var2 = var2[var1];
+        var1 = undefined;
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.track;
+        var2 = _closure1_slot5;
+        var3 = var2.FEED_SESSION_STARTED;
+        var2 = {};
+        var8 = _closure1_slot3;
+        var7 = var8.getLoadId;
+        var7 = var7.bind(var8)();
+        var2['load_id'] = var7;
+        var7 = var8.getVersion;
+        var7 = var7.bind(var8)();
+        var2['version'] = var7;
+        var7 = var6.sessionStartTimeMs;
+        var2['session_start_time_ms'] = var7;
+        var7 = var6.icymiSessionId;
+        var2['icymi_session_id'] = var7;
+        var6 = var6.previousIcymiSessionCount;
+        var2['previous_icymi_session_count'] = var6;
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var2['trackFeedSessionStarted'] = var7;
     var7 = function trackFeedSessionCompleted(arg1) {
         var6 = arg1;
         var3 = _closure1_slot1;
@@ -822,14 +851,72 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['impression_item_types'] = var7;
         var7 = var6.latestDwellStartTimeMs;
         var2['latest_dwell_start_time_ms'] = var7;
-        var6 = var6.previousIcyMiSessionCount;
-        var2['previous_icymi_session_count'] = var6;
+        var7 = var6.previousIcyMiSessionCount;
+        var2['previous_icymi_session_count'] = var7;
+        var6 = var6.uxVariation;
+        var2['ux_variation'] = var6;
         var2 = var4.bind(var5)(var3, var2);
         return var1;
     };
     var2['trackFeedSessionCompleted'] = var7;
-    var4 = function trackFeedItemDwelled(arg1) {
+    var7 = function trackFeedItemDwell1s(arg1) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
+ 0:
+            var6 = arg1;
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 4;
+            var2 = var2[var1];
+            var1 = undefined;
+            var5 = var3.bind(var1)(var2);
+            var4 = var5.track;
+            var2 = _closure1_slot5;
+            var3 = var2.FEED_ITEM_1S_DWELLED;
+            var2 = {};
+            var8 = _closure1_slot3;
+            var7 = var8.getLoadId;
+            var7 = var7.bind(var8)();
+            var2['load_id'] = var7;
+            var7 = var8.getVersion;
+            var7 = var7.bind(var8)();
+            var2['version'] = var7;
+            var7 = var6.impressionId;
+            var2['impression_id'] = var7;
+            var7 = var6.itemId;
+            var2['item_id'] = var7;
+            var7 = var6.itemType;
+            var2['item_type'] = var7;
+            var7 = var6.dwellStartTimeMs;
+            var2['dwell_start_time_ms'] = var7;
+            var7 = var6.icymiSessionId;
+            var2['icymi_session_id'] = var7;
+            var7 = var6.triggerType;
+            var2['trigger_type'] = var7;
+            var7 = var6.itemOccurenceCountInSession;
+            var2['item_occurence_count_in_session'] = var7;
+            var7 = var6.itemFeedIndex;
+            var2['item_feed_index'] = var7;
+            var7 = var6.isInitiallyVisible;
+            var2['is_initially_visible'] = var7;
+            var7 = var6.itemScore;
+            var2['item_score'] = var7;
+            var8 = var6.itemChannelType;
+            var7 = null;
+            var9 = var7 != var8;
+            if(!var9) { _fun0004_ip = 207; continue _fun0004 }
+ 204:
+            var7 = var8;
+ 207:
+            var2['item_channel_type'] = var7;
+            var6 = var6.itemCardHeight;
+            var2['item_card_height'] = var6;
+            var2 = var4.bind(var5)(var3, var2);
+            return var1;
+        }
+    };
+    var2['trackFeedItemDwell1s'] = var7;
+    var4 = function trackFeedItemDwelled(arg1) {
+        _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var6 = arg1;
             var3 = _closure1_slot1;
@@ -849,6 +936,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var8.getVersion;
             var7 = var7.bind(var8)();
             var2['version'] = var7;
+            var7 = var6.impressionId;
+            var2['impression_id'] = var7;
             var7 = var6.dwellTimeMs;
             var2['dwell_time_ms'] = var7;
             var7 = var6.itemId;
@@ -874,13 +963,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.itemChannelType;
             var7 = null;
             var9 = var7 != var8;
-            if(!var9) { _fun0004_ip = 232; continue _fun0004 }
- 229:
+            if(!var9) { _fun0005_ip = 231; continue _fun0005 }
+ 228:
             var7 = var8;
- 232:
+ 231:
             var2['item_channel_type'] = var7;
-            var6 = var6.itemCardHeight;
-            var2['item_card_height'] = var6;
+            var7 = var6.itemCardHeight;
+            var2['item_card_height'] = var7;
+            var6 = var6.uxVariation;
+            var2['ux_variation'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         }

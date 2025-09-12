@@ -46,14 +46,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var2 = arg1;
-            var17 = var2.balance;
+            var19 = var2.balance;
             var9 = var2.showNotificationBadge;
             var1 = var2.onPress;
             var _closure2_slot0 = var1;
             var6 = var2.disabled;
             var _closure2_slot1 = var6;
-            var16 = null;
-            var7 = var16 === var17;
+            var18 = null;
+            var7 = var18 === var19;
             var _closure2_slot2 = var7;
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var1.onboardingPillEnabled;
                 return var1;
             };
-            var11 = var5.bind(var8)(var3, var2);
+            var14 = var5.bind(var8)(var3, var2);
             var2 = _closure1_slot8;
             var13 = var2.bind(var4)();
             var3 = _closure1_slot2;
@@ -115,17 +115,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['ref'] = var5;
             var5 = 'button';
             var1['accessibilityRole'] = var5;
-            var5 = var16 != var17;
-            var12 = 'loading';
+            var5 = var18 != var19;
+            var11 = 'loading';
             if(!var5) { _fun0001_ip = 222; continue _fun0001 }
  219:
-            var12 = var17;
+            var11 = var19;
  222:
             var5 = global;
             var5 = var5.HermesInternal;
             var8 = var5.concat;
             var5 = 'Orbs balance: ';
-            var5 = var8.bind(var5)(var12);
+            var5 = var8.bind(var5)(var11);
             var1['accessibilityLabel'] = var5;
             var5 = {};
             if(var6) { _fun0001_ip = 258; continue _fun0001 }
@@ -141,87 +141,94 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['style'] = var8;
             var12 = _closure1_slot6;
             var8 = {};
-            var15 = var13.orbsLottieContainer;
-            var8['style'] = var15;
+            var11 = var13.orbsLottieContainer;
+            var8['style'] = var11;
             var20 = _closure1_slot0;
             var21 = _closure1_slot1;
-            var19 = 5;
-            var15 = var21[var19];
-            var15 = var20.bind(var4)(var15);
-            var18 = var15.OrbIcon;
-            var15 = {};
-            var19 = var21[var19];
-            var19 = var20.bind(var4)(var19);
-            var19 = var19.OrbIconSize;
-            var19 = var19.SMALL;
-            var15['size'] = var19;
-            var15 = var12.bind(var4)(var18, var15);
-            var8['children'] = var15;
-            var12 = var12.bind(var4)(var6, var8);
-            var8 = new Array(3);
-            var8[0] = var12;
-            var15 = _closure1_slot6;
-            var19 = _closure1_slot0;
-            var20 = _closure1_slot1;
-            if(var11) { _fun0001_ip = 477; continue _fun0001 }
- 394:
-            var11 = 8;
-            var11 = var20[var11];
-            var11 = var19.bind(var4)(var11);
-            var12 = var11.BalanceCounter;
+            var17 = 5;
+            var11 = var21[var17];
+            var11 = var20.bind(var4)(var11);
+            var15 = var11.OrbIcon;
             var11 = {};
-            var18 = var16 != var17;
-            var16 = 0;
-            if(!var18) { _fun0001_ip = 426; continue _fun0001 }
- 423:
-            var16 = var17;
- 426:
-            var11['value'] = var16;
-            var16 = function onValueChange() {
+            var17 = var21[var17];
+            var17 = var20.bind(var4)(var17);
+            var17 = var17.OrbIconSize;
+            var17 = var17.SMALL;
+            var11['size'] = var17;
+            var11 = var12.bind(var4)(var15, var11);
+            var8['children'] = var11;
+            var11 = var12.bind(var4)(var6, var8);
+            var8 = new Array(3);
+            var8[0] = var11;
+            var11 = {};
+            var15 = var13.balanceCounterContainer;
+            var11['style'] = var15;
+            var17 = _closure1_slot6;
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot1;
+            if(var14) { _fun0001_ip = 499; continue _fun0001 }
+ 406:
+            var14 = 8;
+            var14 = var22[var14];
+            var14 = var21.bind(var4)(var14);
+            var15 = var14.BalanceCounter;
+            var14 = {};
+            var20 = var18 != var19;
+            var18 = 0;
+            if(!var20) { _fun0001_ip = 438; continue _fun0001 }
+ 435:
+            var18 = var19;
+ 438:
+            var14['value'] = var18;
+            var18 = function onValueChange() {
                 var1 = undefined;
                 return var1;
             };
-            var11['onValueChange'] = var16;
-            var14 = function onValueReached() {
+            var14['onValueChange'] = var18;
+            var16 = function onValueReached() {
                 var1 = undefined;
                 return var1;
             };
-            var11['onValueReached'] = var14;
-            var14 = 3000;
-            var11['targetTotalCounterTime'] = var14;
-            var11 = var15.bind(var4)(var12, var11);
-            _fun0001_ip = 577; continue _fun0001;
- 477:
-            var12 = 6;
-            var12 = var20[var12];
-            var12 = var19.bind(var4)(var12);
-            var14 = var12.Text;
-            var12 = {'variant': 'text-sm/semibold', 'color': 'header-primary'};
-            var16 = var13.onboardingText;
-            var12['style'] = var16;
-            var16 = 7;
-            var17 = var20[var16];
-            var17 = var19.bind(var4)(var17);
-            var18 = var17.intl;
-            var17 = var18.string;
-            var16 = var20[var16];
-            var16 = var19.bind(var4)(var16);
-            var16 = var16.t;
-            var16 = var16.9JpRfH;
-            var16 = var17.bind(var18)(var16);
-            var12['children'] = var16;
-            var11 = var15.bind(var4)(var14, var12);
- 577:
+            var14['onValueReached'] = var16;
+            var16 = 3000;
+            var14['targetTotalCounterTime'] = var16;
+            var16 = var13.balanceText;
+            var14['style'] = var16;
+            var14 = var17.bind(var4)(var15, var14);
+            _fun0001_ip = 599; continue _fun0001;
+ 499:
+            var15 = 6;
+            var15 = var22[var15];
+            var15 = var21.bind(var4)(var15);
+            var16 = var15.Text;
+            var15 = {'variant': 'text-sm/semibold', 'color': 'header-primary'};
+            var18 = var13.balanceText;
+            var15['style'] = var18;
+            var18 = 7;
+            var19 = var22[var18];
+            var19 = var21.bind(var4)(var19);
+            var20 = var19.intl;
+            var19 = var20.string;
+            var18 = var22[var18];
+            var18 = var21.bind(var4)(var18);
+            var18 = var18.t;
+            var18 = var18.9JpRfH;
+            var18 = var19.bind(var20)(var18);
+            var15['children'] = var18;
+            var14 = var17.bind(var4)(var16, var15);
+ 599:
+            var11['children'] = var14;
+            var11 = var12.bind(var4)(var6, var11);
             var8[1] = var11;
-            if(!var9) { _fun0001_ip = 610; continue _fun0001 }
- 584:
+            if(!var9) { _fun0001_ip = 642; continue _fun0001 }
+ 616:
             var12 = _closure1_slot6;
             var11 = _closure1_slot4;
             var10 = {};
             var13 = var13.notificationBadge;
             var10['style'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 610:
+ 642:
             var8[2] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
@@ -238,7 +245,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var5.bind(var1)(var4);
     var8 = var9.createStyles;
     var4 = {};
-    var10 = {'height': 36, 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexDirection': 'row', 'paddingHorizontal': 12, 'paddingVertical': 8, 'backgroundColor': null, 'borderWidth': 0};
+    var10 = {'height': 36, 'borderRadius': null, 'justifyContent': 'center', 'alignItems': 'center', 'flexDirection': 'row', 'paddingHorizontal': 12, 'paddingVertical': 4, 'backgroundColor': null, 'borderWidth': 0};
     var11 = 10;
     var13 = var6[var11];
     var13 = var12.bind(var1)(var13);
@@ -254,18 +261,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = {'flexDirection': 'row', 'alignItems': 'center', 'justifyContent': 'center', 'flexShrink': 0, 'position': 'relative'};
     var4['container'] = var10;
     var10 = {'position': 'relative', 'height': 18, 'width': 18, 'justifyContent': 'center', 'alignItems': 'center'};
+    var14 = {};
+    var13 = -1;
+    var14['translateY'] = var13;
+    var13 = new Array(1);
+    var13[0] = var14;
+    var10['transform'] = var13;
     var4['orbsLottieContainer'] = var10;
     var10 = {'position': 'absolute', 'right': -4.5, 'top': -4.5, 'width': 8, 'height': 8};
+    var13 = var6[var11];
+    var13 = var12.bind(var1)(var13);
+    var13 = var13.radii;
+    var13 = var13.xs;
+    var10['borderRadius'] = var13;
+    var4['notificationBadge'] = var10;
+    var10 = {'justifyContent': 'center', 'alignItems': 'flex-end', 'marginLeft': 4};
+    var4['balanceCounterContainer'] = var10;
+    var10 = {};
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
-    var11 = var11.radii;
-    var11 = var11.xs;
-    var10['borderRadius'] = var11;
-    var4['notificationBadge'] = var10;
-    var10 = {};
-    var11 = 6;
-    var10['marginLeft'] = var11;
-    var4['onboardingText'] = var10;
+    var11 = var11.colors;
+    var11 = var11.REDESIGN_BUTTON_TERTIARY_TEXT;
+    var10['color'] = var11;
+    var4['balanceText'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot8 = var4;
     var4 = 11;

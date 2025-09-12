@@ -250,12 +250,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot6;
                     var4 = var2.current;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0004_ip = 39; continue _fun0004 }
+                    if(!(var2 != var4)) { _fun0004_ip = 43; continue _fun0004 }
  18:
                     var3 = var4.scrollTo;
                     var2 = {'y': 0, 'animated': false};
                     var2 = var3.bind(var4)(var2);
- 39:
+ 43:
                     var3 = _closure2_slot4;
                     var1 = undefined;
                     var2 = arg1;

@@ -39,7 +39,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var6.USER_VERIFY;
                     var5['event'] = var6;
                     var2['trackedActionData'] = var5;
-                    var5 = false;
+                    var5 = true;
                     var2['rejectWithError'] = var5;
                     var2 = var3.bind(var4)(var2);
                     SaveGenerator(address=111);

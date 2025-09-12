@@ -563,12 +563,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new Array(0);
             var4 = var5.bind(var7)(var4, var2, var1);
             var1 = null;
-            if(!var4) { _fun0004_ip = 517; continue _fun0004 }
+            if(!var4) { _fun0004_ip = 521; continue _fun0004 }
  108:
             var4 = 0;
             var4 = var26 <= var4;
             var2 = null;
-            if(var4) { _fun0004_ip = 514; continue _fun0004 }
+            if(var4) { _fun0004_ip = 518; continue _fun0004 }
  122:
             var5 = _closure1_slot6;
             var4 = var5.isEstimated;
@@ -681,9 +681,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[1] = var8;
             var3['children'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 514:
+ 518:
             var1 = var2;
- 517:
+ 521:
             return var1;
         }
     };

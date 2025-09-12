@@ -194,19 +194,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = null;
                     var3 = var4 == var3;
                     var6 = undefined;
-                    if(var3) { _fun0003_ip = 132; continue _fun0003 }
+                    if(var3) { _fun0003_ip = 131; continue _fun0003 }
  74:
                     var3 = _closure2_slot0;
                     var3 = var3.props;
                     var3 = var3.activeCommand;
                     var5 = var4 == var3;
                     var6 = undefined;
-                    if(var5) { _fun0003_ip = 132; continue _fun0003 }
+                    if(var5) { _fun0003_ip = 131; continue _fun0003 }
  98:
                     var7 = var3.options;
                     var3 = var4 == var7;
                     var6 = undefined;
-                    if(var3) { _fun0003_ip = 132; continue _fun0003 }
+                    if(var3) { _fun0003_ip = 131; continue _fun0003 }
  112:
                     var5 = var7.find;
                     var3 = function(arg1) {
@@ -217,12 +217,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var6 = var5.bind(var7)(var3);
- 132:
-                    if(!(var4 != var6)) { _fun0003_ip = 182; continue _fun0003 }
- 136:
+ 131:
+                    if(!(var4 != var6)) { _fun0003_ip = 181; continue _fun0003 }
+ 135:
                     var3 = _closure2_slot0;
-                    if(!(var4 != var3)) { _fun0003_ip = 182; continue _fun0003 }
- 144:
+                    if(!(var4 != var3)) { _fun0003_ip = 181; continue _fun0003 }
+ 143:
                     var5 = _closure2_slot0;
                     var4 = var5.insertOrJumpCommandOption;
                     var3 = {};
@@ -234,7 +234,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = undefined;
                     var8 = var3;
                     var2 = var12[var4](var11, var10, var9, var8, var7);
- 182:
+ 181:
                     return var1;
                 }
             };

@@ -119,14 +119,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot5;
                     var2 = var3.current;
  30:
-                    if(var2) { _fun0002_ip = 63; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 67; continue _fun0002 }
  33:
                     var2 = _closure2_slot3;
                     var4 = var2.current;
                     var3 = var4.scrollTo;
                     var2 = {'animated': false, 'y': 0};
                     var2 = var3.bind(var4)(var2);
- 63:
+ 67:
                     var2 = _closure2_slot5;
                     var1 = false;
                     var2['current'] = var1;

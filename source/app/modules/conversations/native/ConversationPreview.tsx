@@ -104,52 +104,56 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = function ConversationPreviewBase() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot0;
+            var5 = _closure1_slot2;
             var1 = 5;
-            var1 = var3[var1];
+            var2 = var5[var1];
             var4 = undefined;
-            var5 = var2.bind(var4)(var1);
-            var1 = var5.useConversationContext;
-            var1 = var1.bind(var5)();
-            var8 = var1.keyMessage;
-            var _closure2_slot0 = var8;
-            var15 = var1.conversation;
+            var7 = var3.bind(var4)(var2);
+            var2 = var7.useConversationContext;
+            var2 = var2.bind(var7)();
+            var12 = var2.keyMessage;
+            var _closure2_slot0 = var12;
+            var15 = var2.conversation;
             var _closure2_slot1 = var15;
-            var12 = var1.conversationProps;
-            var _closure2_slot2 = var12;
-            var1 = 6;
-            var1 = var3[var1];
-            var3 = var2.bind(var4)(var1);
-            var2 = var3.useDestinationICYMIExperiment;
-            var1 = {};
-            var5 = 'ConversationPreview';
-            var1['location'] = var5;
-            var1 = var2.bind(var3)(var1);
-            var2 = var1.shouldTruncateMessages;
-            var _closure2_slot3 = var2;
-            var1 = var1.isBottomSheetInteractions;
-            var _closure2_slot4 = var1;
+            var13 = var2.conversationProps;
+            var _closure2_slot2 = var13;
+            var1 = var5[var1];
+            var2 = var3.bind(var4)(var1);
+            var1 = var2.useConversationRenderContext;
+            var1 = var1.bind(var2)();
+            var1 = var1.trackItemInteraction;
+            var _closure2_slot3 = var1;
+            var2 = 6;
+            var2 = var5[var2];
+            var5 = var3.bind(var4)(var2);
+            var3 = var5.useDestinationICYMIExperiment;
+            var2 = {};
+            var7 = 'ConversationPreview';
+            var2['location'] = var7;
+            var2 = var3.bind(var5)(var2);
+            var8 = var2.isBottomSheetInteractions;
+            var _closure2_slot4 = var8;
             var7 = null;
             var3 = var7 == var15;
             var2 = undefined;
-            if(var3) { _fun0002_ip = 136; continue _fun0002 }
- 131:
+            if(var3) { _fun0002_ip = 155; continue _fun0002 }
+ 150:
             var2 = var15.title;
- 136:
+ 155:
             var2 = var7 != var2;
             var3 = 'primary';
-            if(!var2) { _fun0002_ip = 151; continue _fun0002 }
- 147:
+            if(!var2) { _fun0002_ip = 170; continue _fun0002 }
+ 166:
             var3 = 'secondary';
- 151:
+ 170:
             var2 = _closure1_slot8;
             var10 = var2.bind(var4)(var3);
             var5 = _closure1_slot3;
             var11 = var5.useMemo;
             var3 = new Array(2);
             var3[0] = var15;
-            var3[1] = var8;
+            var3[1] = var12;
             var2 = function() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -214,60 +218,79 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var11.bind(var5)(var2, var3);
             var _closure2_slot5 = var11;
             var3 = var5.useCallback;
-            var2 = new Array(4);
-            var2[0] = var12;
+            var2 = new Array(5);
+            var2[0] = var13;
             var2[1] = var15;
-            var2[2] = var8;
-            var2[3] = var1;
+            var2[2] = var12;
+            var2[3] = var8;
+            var2[4] = var1;
             var1 = function() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    var1 = _closure2_slot4;
-                    if(var1) { _fun0004_ip = 110; continue _fun0004 }
- 10:
-                    var1 = _closure2_slot1;
+                    var2 = _closure2_slot4;
+                    if(var2) { _fun0004_ip = 138; continue _fun0004 }
+ 13:
+                    var2 = _closure2_slot1;
                     var3 = null;
-                    var1 = var3 != var1;
-                    if(!var1) { _fun0004_ip = 31; continue _fun0004 }
- 23:
-                    var2 = _closure2_slot0;
-                    var1 = var3 != var2;
- 31:
-                    if(!var1) { _fun0004_ip = 174; continue _fun0004 }
- 37:
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var1 = 9;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var6 = var3.bind(var1)(var2);
+                    var2 = var3 != var2;
+                    if(!var2) { _fun0004_ip = 34; continue _fun0004 }
+ 26:
+                    var4 = _closure2_slot0;
+                    var2 = var3 != var4;
+ 34:
+                    if(!var2) { _fun0004_ip = 234; continue _fun0004 }
+ 40:
+                    var2 = _closure2_slot3;
+                    if(!(var3 != var2)) { _fun0004_ip = 65; continue _fun0004 }
+ 48:
+                    var4 = _closure2_slot3;
+                    var3 = undefined;
+                    var2 = 'press_message';
+                    var2 = var4.bind(var3)(var2);
+ 65:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 9;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var6 = var4.bind(var2)(var3);
                     var5 = var6.navigateToMessage;
-                    var1 = _closure2_slot1;
-                    var2 = var1.channel;
+                    var2 = _closure2_slot1;
+                    var3 = var2.channel;
+                    var4 = var3.id;
+                    var2 = var2.guild;
                     var3 = var2.id;
-                    var1 = var1.guild;
-                    var2 = var1.id;
-                    var1 = _closure2_slot0;
-                    var1 = var1.id;
-                    var1 = var5.bind(var6)(var3, var2, var1);
-                    _fun0004_ip = 174; continue _fun0004;
- 110:
-                    var3 = _closure1_slot0;
-                    var2 = _closure1_slot2;
-                    var1 = 8;
-                    var2 = var2[var1];
-                    var1 = undefined;
-                    var3 = var3.bind(var1)(var2);
-                    var2 = var3.openConversation;
-                    var1 = {};
+                    var2 = _closure2_slot0;
+                    var2 = var2.id;
+                    var2 = var5.bind(var6)(var4, var3, var2);
+                    _fun0004_ip = 234; continue _fun0004;
+ 138:
+                    var3 = _closure2_slot3;
+                    var2 = null;
+                    if(!(var2 != var3)) { _fun0004_ip = 165; continue _fun0004 }
+ 148:
+                    var4 = _closure2_slot3;
+                    var3 = undefined;
+                    var2 = 'press_preview';
+                    var2 = var4.bind(var3)(var2);
+ 165:
+                    var4 = _closure1_slot0;
+                    var3 = _closure1_slot2;
+                    var2 = 8;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var4 = var4.bind(var2)(var3);
+                    var3 = var4.openConversation;
+                    var2 = {};
                     var8 = _closure2_slot2;
-                    var9 = var1;
-                    var4 = copyDataProperties(var9, var8);
-                    var5 = 'icymi-bottom-sheet';
-                    var4 = 'renderLocation';
-                    var1[var4] = var5;
-                    var1 = var2.bind(var3)(var1);
- 174:
+                    var9 = var2;
+                    var5 = copyDataProperties(var9, var8);
+                    var6 = 'icymi-bottom-sheet';
+                    var5 = 'renderLocation';
+                    var2[var5] = var6;
+                    var1 = _closure2_slot3;
+                    var1 = var3.bind(var4)(var2, var1);
+ 234:
                     var1 = undefined;
                     return var1;
                 }
@@ -281,14 +304,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var5;
             var8 = var7 == var15;
             var5 = undefined;
-            if(var8) { _fun0002_ip = 273; continue _fun0002 }
- 268:
+            if(var8) { _fun0002_ip = 296; continue _fun0002 }
+ 291:
             var5 = var15.title;
- 273:
+ 296:
             var5 = var7 != var5;
             var7 = null;
-            if(!var5) { _fun0002_ip = 366; continue _fun0002 }
- 282:
+            if(!var5) { _fun0002_ip = 389; continue _fun0002 }
+ 305:
             var12 = _closure1_slot6;
             var8 = _closure1_slot5;
             var5 = {};
@@ -306,7 +329,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var12.bind(var4)(var14, var13);
             var5['children'] = var13;
             var7 = var12.bind(var4)(var8, var5);
- 366:
+ 389:
             var5 = new Array(2);
             var5[0] = var7;
             var8 = _closure1_slot6;
@@ -320,7 +343,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var2 = arg1;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0005_ip = 240; continue _fun0005 }
+                    if(!(var1 != var2)) { _fun0005_ip = 231; continue _fun0005 }
  12:
                     var3 = _closure2_slot5;
                     var3 = var3.length;
@@ -370,29 +393,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['channel'] = var7;
                     var7 = true;
                     var3['hideTimestamp'] = var7;
-                    var10 = _closure2_slot3;
-                    var3['truncate'] = var10;
                     var3['previewType'] = var8;
                     var8 = _closure2_slot1;
                     var10 = var1 == var8;
                     var8 = undefined;
-                    if(var10) { _fun0005_ip = 201; continue _fun0005 }
- 192:
+                    if(var10) { _fun0005_ip = 192; continue _fun0005 }
+ 183:
                     var9 = _closure2_slot1;
                     var8 = var9.title;
- 201:
+ 192:
                     var9 = var1 != var8;
                     var8 = 'primary';
-                    if(!var9) { _fun0005_ip = 216; continue _fun0005 }
- 212:
+                    if(!var9) { _fun0005_ip = 207; continue _fun0005 }
+ 203:
                     var8 = 'secondary';
- 216:
+ 207:
                     var3['backgroundVariant'] = var8;
                     var3['disableNavigateOnPress'] = var7;
                     var2 = var2.id;
                     var2 = var5.bind(var6)(var4, var3, var2);
                     return var2;
- 240:
+ 231:
                     return var1;
                 }
             };
@@ -414,17 +435,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function ConversationPreview(arg1) {
         var3 = arg1;
-        var8 = var3.conversationProps;
-        var6 = var3.MediaComponent;
-        var1 = null;
-        var2 = Object.create(var1);
-        var1 = 0;
-        var2['conversationProps'] = var1;
-        var2['MediaComponent'] = var1;
-        var11 = {};
-        var10 = var3;
-        var9 = var2;
-        var10 = copyDataProperties(var11, var10, var9);
+        var9 = var3.conversationProps;
+        var8 = var3.MediaComponent;
+        var6 = var3.trackItemInteraction;
+        var2 = {'conversationProps': 0, 'MediaComponent': 0, 'trackItemInteraction': 0};
+        var11 = null;
+        var12 = var2;
+        var1 = silentSetPrototypeOf(var12, var11);
+        var12 = {};
+        var11 = var3;
+        var10 = var2;
+        var11 = copyDataProperties(var12, var11, var10);
         var4 = _closure1_slot6;
         var2 = _closure1_slot0;
         var3 = _closure1_slot2;
@@ -434,12 +455,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var2.bind(var3)(var1);
         var2 = var1.ConversationProvider;
         var1 = {};
-        var1['conversationProps'] = var8;
-        var1['MediaComponent'] = var6;
+        var1['conversationProps'] = var9;
+        var1['MediaComponent'] = var8;
+        var1['trackItemInteraction'] = var6;
         var6 = _closure1_slot9;
         var5 = {};
-        var11 = var5;
-        var7 = copyDataProperties(var11, var10);
+        var12 = var5;
+        var7 = copyDataProperties(var12, var11);
         var5 = var4.bind(var3)(var6, var5);
         var1['children'] = var5;
         var1 = var4.bind(var3)(var2, var1);

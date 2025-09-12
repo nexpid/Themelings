@@ -140,7 +140,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = {};
             var19 = var2.id;
             var14['userId'] = var19;
-            var14['guildMemberAvatar'] = var17;
+            var14['avatar'] = var17;
             var14['guildId'] = var18;
             var8 = var15.bind(var16)(var14, var2);
  399:

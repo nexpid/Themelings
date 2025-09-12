@@ -486,82 +486,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot24 = var1;
-    var1 = function _createStreamStartNotificationV() {
-        var5 = undefined;
-        var1 = undefined;
-        var4 = _closure1_slot3;
-        var3 = function* (arg1, arg2, arg3) {
-            var1 = function* anon_0_(arg1, arg2, arg3) {
-                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0008_ip = 165; continue _fun0008 }
- 10:
-                    var5 = arg1;
-                    var8 = arg2;
-                    var6 = arg3;
- 19: // try_start_0
-                    var3 = _closure1_slot1;
-                    var10 = _closure1_slot2;
-                    var2 = 21;
-                    var2 = var10[var2];
-                    var9 = undefined;
-                    var4 = var3.bind(var9)(var2);
-                    var3 = var4.post;
-                    var2 = {};
-                    var12 = _closure1_slot13;
-                    var11 = var12.STREAM_NOTIFY_V2;
-                    var5 = var11.bind(var12)(var5);
-                    var2['url'] = var5;
-                    var5 = {};
-                    var5['application_id'] = var8;
-                    var5['game_title'] = var6;
-                    var2['body'] = var5;
-                    var5 = true;
-                    var2['oldFormErrors'] = var5;
-                    var6 = {};
-                    var8 = _closure1_slot0;
-                    var7 = 22;
-                    var7 = var10[var7];
-                    var7 = var8.bind(var9)(var7);
-                    var7 = var7.NetworkActionNames;
-                    var7 = var7.STREAM_NOTIFY;
-                    var6['event'] = var7;
-                    var2['trackedActionData'] = var6;
-                    var2['rejectWithError'] = var5;
-                    var2 = var3.bind(var4)(var2);
-                    SaveGenerator(address=147);
- 145:
-                    return var2;
- 147:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0008_ip = 155; continue _fun0008 }
- 153: // try_end0
-                    _fun0008_ip = 160; continue _fun0008;
- 155:
-                    return var2;
- 158: // catch_target0
-                    CatchBlockStart(arg_register=1);
- 160:
-                    var2 = undefined;
-                    return var2;
- 165:
-                    return var1;
-                }
-            };
-            return var1;
-        };
-        var4 = var4.bind(var5)(var3);
-        _closure1_slot25 = var4;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var _closure1_slot25 = var1;
     var8 = global;
     var14 = var8.Object;
     var13 = var14.defineProperty;
@@ -635,7 +559,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var8 = 'actions/StreamActionCreators.tsx';
     var8 = var9.bind(var10)(var8);
     var8 = function startStream(arg1, arg2, arg3) {
-        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var6 = arg1;
             var3 = _closure1_slot1;
@@ -649,11 +573,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = 'STREAM_START';
             var2['type'] = var7;
             var7 = null;
-            if(!(var7 == var6)) { _fun0009_ip = 61; continue _fun0009 }
+            if(!(var7 == var6)) { _fun0008_ip = 61; continue _fun0008 }
  49:
             var7 = _closure1_slot16;
             var7 = var7.CALL;
-            _fun0009_ip = 71; continue _fun0009;
+            _fun0008_ip = 71; continue _fun0008;
  61:
             var8 = _closure1_slot16;
             var7 = var8.GUILD;
@@ -777,17 +701,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['notifyStreamStart'] = var4;
-    var4 = function createStreamStartNotificationV2() {
-        var1 = undefined;
-        var4 = _closure1_slot25;
-        var3 = var4.apply;
-        var1 = arguments;
-        var2 = var1;
-        var1 = this;
-        var1 = var3.bind(var4)(var1, var2);
-        return var1;
-    };
-    var3['createStreamStartNotificationV2'] = var4;
     var4 = function updateStreamSettings(arg1) {
         var5 = arg1;
         var6 = _closure1_slot0;
@@ -843,11 +756,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['changeStreamRegion'] = var4;
     var4 = function stopOwnStream() {
-        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
+        _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
             var4 = arguments[0];
             var1 = undefined;
-            if(!(var4 === var1)) { _fun0010_ip = 11; continue _fun0010 }
+            if(!(var4 === var1)) { _fun0009_ip = 11; continue _fun0009 }
  9:
             var4 = true;
  11:
@@ -855,7 +768,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5.getCurrentUserActiveStream;
             var6 = var3.bind(var5)();
             var3 = null;
-            if(!(var3 != var6)) { _fun0010_ip = 75; continue _fun0010 }
+            if(!(var3 != var6)) { _fun0009_ip = 75; continue _fun0009 }
  34:
             var3 = _closure1_slot21;
             var5 = _closure1_slot0;
@@ -872,7 +785,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['stopOwnStream'] = var4;
     var2 = function joinPrivateChannelAndWatchStream(arg1, arg2) {
-        _fun0011: for(var _fun0011_ip = 0; ; ) switch(_fun0011_ip) {
+        _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var6 = arg1;
             var _closure2_slot0 = var6;
@@ -894,11 +807,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var4.bind(var7)();
             var4 = null;
             var4 = var4 != var7;
-            if(!var4) { _fun0011_ip = 93; continue _fun0011 }
+            if(!var4) { _fun0010_ip = 93; continue _fun0010 }
  89:
             var4 = var7 !== var6;
  93:
-            if(!var4) { _fun0011_ip = 126; continue _fun0011 }
+            if(!var4) { _fun0010_ip = 126; continue _fun0010 }
  96:
             var7 = _closure1_slot1;
             var8 = _closure1_slot2;

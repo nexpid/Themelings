@@ -315,7 +315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var _closure3_slot0 = var1;
                 var1 = var3.getIsEnabled;
                 var1 = var1.bind(var3)();
-                if(!var1) { _fun0009_ip = 54; continue _fun0009 }
+                if(!var1) { _fun0009_ip = 53; continue _fun0009 }
  25:
                 var4 = _closure1_slot11;
                 var3 = var4.find;
@@ -329,7 +329,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var4)(var2);
                 var2 = null;
                 var1 = var2 != var3;
- 54:
+ 53:
                 return var1;
             }
         };
@@ -408,14 +408,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var5 = var5.bind(var6)(var4);
             var4 = null;
-            if(!(var4 != var5)) { _fun0010_ip = 67; continue _fun0010 }
- 49:
+            if(!(var4 != var5)) { _fun0010_ip = 66; continue _fun0010 }
+ 48:
             var1 = _closure1_slot8;
             var1 = var1.lastUsedObject;
             var1[var3] = var2;
             var1 = undefined;
             return var1;
- 67:
+ 66:
             var1 = false;
             return var1;
         }

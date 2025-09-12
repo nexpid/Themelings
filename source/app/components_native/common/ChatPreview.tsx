@@ -660,25 +660,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         var1 = _closure3_slot0;
                         var1 = var1.chatRef;
-                        var5 = var1.current;
+                        var4 = var1.current;
                         var1 = null;
-                        if(!(var1 != var5)) { _fun0007_ip = 82; continue _fun0007 }
+                        if(!(var1 != var4)) { _fun0007_ip = 86; continue _fun0007 }
  24:
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot3;
                         var1 = 23;
                         var2 = var2[var1];
                         var1 = undefined;
-                        var4 = var3.bind(var1)(var2);
-                        var3 = var4.updateRows;
-                        var2 = {};
-                        var1 = false;
-                        var2['isLoadingAtTop'] = var1;
-                        var1 = arg2;
-                        var2['scrollData'] = var1;
-                        var1 = arg1;
-                        var1 = var3.bind(var4)(var5, var1, var2);
- 82:
+                        var3 = var3.bind(var1)(var2);
+                        var2 = var3.updateRows;
+                        var1 = {};
+                        var5 = arg1;
+                        var1['rows'] = var5;
+                        var5 = false;
+                        var1['isLoadingAtTop'] = var5;
+                        var5 = arg2;
+                        var1['scrollData'] = var5;
+                        var1 = var2.bind(var3)(var4, var1);
+ 86:
                         var1 = undefined;
                         return var1;
                     }

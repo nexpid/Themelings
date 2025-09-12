@@ -1,4 +1,4 @@
-// app/design/components/AccessibilityAnnouncer/AccessibilityAnnouncer.android.tsx
+// discord_common/js/packages/design/components/AccessibilityAnnouncer/AccessibilityAnnouncer.android.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -56,7 +56,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'design/components/AccessibilityAnnouncer/AccessibilityAnnouncer.android.tsx';
+    var4 = '../discord_common/js/packages/design/components/AccessibilityAnnouncer/AccessibilityAnnouncer.android.tsx';
     var4 = var5.bind(var6)(var4);
     var3['AccessibilityAnnouncer'] = var2;
     return var1;

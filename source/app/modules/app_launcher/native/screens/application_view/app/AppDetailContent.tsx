@@ -1094,8 +1094,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var43 = _closure1_slot13;
             var35 = _closure1_slot1;
             var47 = _closure1_slot3;
-            if(var29) { _fun0004_ip = 1274; continue _fun0004 }
- 1215:
+            if(var29) { _fun0004_ip = 1273; continue _fun0004 }
+ 1214:
             var29 = 34;
             var29 = var47[var29];
             var31 = var35.bind(var4)(var29);
@@ -1108,8 +1108,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var48 = var33.expandDescriptionCTAStyle;
             var29['expandDescriptionCTAStyle'] = var48;
             var29 = var43.bind(var4)(var31, var29);
-            _fun0004_ip = 1331; continue _fun0004;
- 1274:
+            _fun0004_ip = 1330; continue _fun0004;
+ 1273:
             var31 = 33;
             var31 = var47[var31];
             var35 = var35.bind(var4)(var31);
@@ -1123,7 +1123,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var44 = var44 > var45;
             var31['hasCommands'] = var44;
             var29 = var43.bind(var4)(var35, var31);
- 1331:
+ 1330:
             var24[1] = var29;
             var35 = _closure1_slot13;
             var31 = _closure1_slot1;
@@ -1134,8 +1134,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29 = {};
             var44 = var28 == var25;
             var43 = 24;
-            if(var44) { _fun0004_ip = 1401; continue _fun0004 }
- 1371:
+            if(var44) { _fun0004_ip = 1400; continue _fun0004 }
+ 1370:
             var45 = _closure1_slot1;
             var46 = _closure1_slot3;
             var44 = 10;
@@ -1143,7 +1143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var44 = var45.bind(var4)(var44);
             var44 = var44.spacing;
             var43 = var44.PX_16;
- 1401:
+ 1400:
             var29['size'] = var43;
             var29 = var35.bind(var4)(var31, var29);
             var24[2] = var29;
@@ -1151,18 +1151,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29 = var41.length;
             var25 = 1;
             var25 = var29 > var25;
-            if(!var25) { _fun0004_ip = 1437; continue _fun0004 }
- 1434:
+            if(!var25) { _fun0004_ip = 1436; continue _fun0004 }
+ 1433:
             var25 = !var15;
- 1437:
-            if(!var25) { _fun0004_ip = 1453; continue _fun0004 }
- 1440:
+ 1436:
+            if(!var25) { _fun0004_ip = 1452; continue _fun0004 }
+ 1439:
             var31 = var26.type;
             var29 = 'channel';
             var25 = var29 === var31;
- 1453:
-            if(!var25) { _fun0004_ip = 1518; continue _fun0004 }
- 1456:
+ 1452:
+            if(!var25) { _fun0004_ip = 1517; continue _fun0004 }
+ 1455:
             var35 = _closure1_slot13;
             var31 = _closure1_slot1;
             var29 = _closure1_slot3;
@@ -1177,11 +1177,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29['installOnDemand'] = var37;
             var29['sectionName'] = var36;
             var25 = var35.bind(var4)(var31, var29);
- 1518:
+ 1517:
             var24[4] = var25;
             var25 = null;
-            if(!var27) { _fun0004_ip = 1698; continue _fun0004 }
- 1530:
+            if(!var27) { _fun0004_ip = 1697; continue _fun0004 }
+ 1529:
             var31 = _closure1_slot0;
             var29 = _closure1_slot3;
             var29 = var29[var32];
@@ -1189,8 +1189,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29 = var31.isEmbeddedApp;
             var29 = var29.bind(var31)(var13);
             var25 = null;
-            if(var29) { _fun0004_ip = 1698; continue _fun0004 }
- 1566:
+            if(var29) { _fun0004_ip = 1697; continue _fun0004 }
+ 1565:
             var32 = _closure1_slot13;
             var31 = _closure1_slot6;
             var29 = {};
@@ -1218,16 +1218,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var35 = var37.bind(var4)(var36, var35);
             var29['children'] = var35;
             var25 = var32.bind(var4)(var31, var29);
- 1698:
+ 1697:
             var24[5] = var25;
             var25 = null;
-            if(var27) { _fun0004_ip = 1954; continue _fun0004 }
- 1710:
+            if(var27) { _fun0004_ip = 1953; continue _fun0004 }
+ 1709:
             var27 = var26.type;
             var26 = 'channel';
             var25 = null;
-            if(!(var26 === var27)) { _fun0004_ip = 1954; continue _fun0004 }
- 1728:
+            if(!(var26 === var27)) { _fun0004_ip = 1953; continue _fun0004 }
+ 1727:
             var28 = _closure1_slot14;
             var27 = _closure1_slot6;
             var26 = {};
@@ -1262,8 +1262,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var31 = var32.bind(var4)(var31, var29);
             var29 = new Array(2);
             var29[0] = var31;
-            if(!var30) { _fun0004_ip = 1940; continue _fun0004 }
- 1891:
+            if(!var30) { _fun0004_ip = 1939; continue _fun0004 }
+ 1890:
             var33 = _closure1_slot13;
             var32 = _closure1_slot1;
             var35 = _closure1_slot3;
@@ -1281,11 +1281,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var31['onSortOptionPress'] = var34;
             var30 = var33.bind(var4)(var32, var31);
- 1940:
+ 1939:
             var29[1] = var30;
             var26['children'] = var29;
             var25 = var28.bind(var4)(var27, var26);
- 1954:
+ 1953:
             var24[6] = var25;
             var23['children'] = var24;
             var23 = var3.bind(var4)(var2, var23);
@@ -1311,10 +1311,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.animatedProps;
             var7['animatedProps'] = var5;
             var5 = undefined;
-            if(!var15) { _fun0004_ip = 2080; continue _fun0004 }
- 2076:
+            if(!var15) { _fun0004_ip = 2079; continue _fun0004 }
+ 2075:
             var5 = 'loading';
- 2080:
+ 2079:
             var7 = var14.bind(var4)(var8, var7, var5);
             var5 = new Array(2);
             var5[0] = var7;

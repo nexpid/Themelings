@@ -377,8 +377,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var8 = var3.bind(var5)(var1);
             var1 = null;
-            if(!(var1 == var8)) { _fun0004_ip = 336; continue _fun0004 }
- 284:
+            if(!(var1 == var8)) { _fun0004_ip = 335; continue _fun0004 }
+ 283:
             var6 = _closure1_slot0;
             var1 = _closure1_slot2;
             var3 = var1[var12];
@@ -390,7 +390,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.+Gyklp;
             var8 = var3.bind(var5)(var1);
- 336:
+ 335:
             var1 = {};
             var3 = global;
             var7 = var3.Math;
@@ -401,8 +401,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 3;
             var3 = var6.bind(var7)(var3, var5);
             var1['percentComplete'] = var3;
-            if(!(!(var11 < var9))) { _fun0004_ip = 434; continue _fun0004 }
- 380:
+            if(!(!(var11 < var9))) { _fun0004_ip = 433; continue _fun0004 }
+ 379:
             var7 = _closure1_slot0;
             var3 = _closure1_slot2;
             var5 = var3[var12];
@@ -414,8 +414,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.t;
             var3 = var3.+Gyklp;
             var3 = var5.bind(var6)(var3);
-            _fun0004_ip = 515; continue _fun0004;
- 434:
+            _fun0004_ip = 514; continue _fun0004;
+ 433:
             var5 = _closure1_slot0;
             var4 = _closure1_slot2;
             var6 = var4[var12];
@@ -433,7 +433,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['total'] = var9;
             var4['step'] = var8;
             var3 = var6.bind(var7)(var5, var4);
- 515:
+ 514:
             var1['subtitle'] = var3;
             var1['completed'] = var2;
             return var1;

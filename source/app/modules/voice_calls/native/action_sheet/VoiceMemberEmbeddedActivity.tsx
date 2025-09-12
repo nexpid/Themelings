@@ -277,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure2_slot3;
                     var1 = null;
                     var3 = var1 == var3;
-                    if(var3) { _fun0003_ip = 63; continue _fun0003 }
+                    if(var3) { _fun0003_ip = 62; continue _fun0003 }
  16:
                     var4 = _closure1_slot6;
                     var3 = var4.getEmbeddedActivitiesForChannel;
@@ -304,7 +304,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         }
                     };
                     var1 = var3.bind(var4)(var2);
- 63:
+ 62:
                     return var1;
                 }
             };

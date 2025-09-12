@@ -126,36 +126,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var1 = arg1;
                     var4 = arg2;
-                    var6 = _closure2_slot0;
-                    var5 = var6.get;
-                    var3 = var4.skuId;
-                    var5 = var5.bind(var6)(var3);
-                    var7 = _closure1_slot0;
-                    var6 = _closure1_slot1;
-                    var3 = 5;
-                    var6 = var6[var3];
-                    var3 = undefined;
-                    var6 = var7.bind(var3)(var6);
-                    var3 = var6.isPremiumCollectiblesProduct;
-                    var8 = _closure2_slot2;
-                    var7 = var8.get;
+                    var5 = _closure2_slot0;
+                    var3 = var5.get;
                     var2 = var4.skuId;
-                    var2 = var7.bind(var8)(var2);
-                    var2 = var3.bind(var6)(var2);
+                    var5 = var3.bind(var5)(var2);
+                    var6 = _closure1_slot0;
+                    var3 = _closure1_slot1;
+                    var2 = 5;
+                    var3 = var3[var2];
+                    var2 = undefined;
+                    var7 = var6.bind(var2)(var3);
+                    var6 = var7.isPremiumCollectiblesProduct;
                     var3 = null;
-                    if(!(var3 == var5)) { _fun0001_ip = 112; continue _fun0001 }
- 91:
-                    if(var2) { _fun0001_ip = 128; continue _fun0001 }
- 94:
+                    var2 = var5;
+                    if(!(var3 == var2)) { _fun0001_ip = 89; continue _fun0001 }
+ 69:
+                    var10 = _closure2_slot2;
+                    var9 = var10.get;
+                    var8 = var4.skuId;
+                    var2 = var9.bind(var10)(var8);
+ 89:
+                    var2 = var6.bind(var7)(var2);
+                    if(!(var3 == var5)) { _fun0001_ip = 119; continue _fun0001 }
+ 98:
+                    if(var2) { _fun0001_ip = 135; continue _fun0001 }
+ 101:
                     var3 = var1.preview;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
-                    _fun0001_ip = 128; continue _fun0001;
- 112:
+                    _fun0001_ip = 135; continue _fun0001;
+ 119:
                     var3 = var1.purchase;
                     var2 = var3.push;
                     var2 = var2.bind(var3)(var4);
- 128:
+ 135:
                     return var1;
                 }
             };

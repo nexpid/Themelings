@@ -52,8 +52,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var7.bind(var3)(var2);
             var6 = var9.useStateFromStoresObject;
             var2 = _closure1_slot4;
-            var5 = new Array(1);
-            var5[0] = var2;
+            var4 = new Array(1);
+            var4[0] = var2;
             var2 = function() {
                 var1 = {};
                 var2 = _closure1_slot4;
@@ -63,23 +63,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['loading'] = var2;
                 return var1;
             };
-            var2 = var6.bind(var9)(var5, var2);
+            var2 = var6.bind(var9)(var4, var2);
             var6 = var2.methods;
             var _closure2_slot1 = var6;
             var2 = var2.loading;
-            var5 = 5;
-            var5 = var8[var5];
-            var8 = var7.bind(var3)(var5);
-            var7 = var8.useInitiateAgeVerification;
-            var5 = arg1;
-            var5 = var7.bind(var8)(var5);
-            var5 = var5.initiateAgeVerification;
-            var _closure2_slot2 = var5;
-            var8 = _closure1_slot3;
-            var7 = var8.useEffect;
-            var5 = new Array(1);
-            var5[0] = var6;
-            var4 = function() {
+            var4 = 5;
+            var4 = var8[var4];
+            var11 = var7.bind(var3)(var4);
+            var10 = var11.useInitiateAgeVerification;
+            var15 = arg1;
+            var14 = false;
+            var4 = null;
+            var12 = true;
+            var16 = var11;
+            var13 = null;
+            var7 = var16[var10](var15, var14, var13, var12, var11);
+            var7 = var7.initiateAgeVerification;
+            var _closure2_slot2 = var7;
+            var9 = _closure1_slot3;
+            var8 = var9.useEffect;
+            var7 = new Array(1);
+            var7[0] = var6;
+            var5 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                     var2 = _closure2_slot1;
@@ -99,11 +104,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var4 = var7.bind(var8)(var4, var5);
-            var4 = null;
+            var5 = var8.bind(var9)(var5, var7);
             var4 = var4 == var6;
-            if(var4) { _fun0001_ip = 190; continue _fun0001 }
- 156:
+            if(var4) { _fun0001_ip = 198; continue _fun0001 }
+ 164:
             var5 = var6.map;
             var4 = function(arg1) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
@@ -222,7 +226,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var3 = var4.bind(var5)(var1);
- 190:
+ 198:
             var1 = {};
             var1['ageVerificationMethods'] = var3;
             var1['loading'] = var2;

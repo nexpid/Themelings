@@ -11,9 +11,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = arg1;
             var4 = arg2;
             var5 = null;
-            if(!(var5 != var2)) { _fun0001_ip = 122; continue _fun0001 }
+            if(!(var5 != var2)) { _fun0001_ip = 126; continue _fun0001 }
  12:
-            if(!(var5 != var4)) { _fun0001_ip = 122; continue _fun0001 }
+            if(!(var5 != var4)) { _fun0001_ip = 126; continue _fun0001 }
  16:
             var6 = _closure1_slot2;
             var1 = var6.getGuild;
@@ -30,23 +30,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {'primary_color': null, 'secondary_color': null, 'tertiary_color': null};
             var7 = var2.primary_color;
             var6 = 0;
-            if(!(var6 !== var7)) { _fun0001_ip = 96; continue _fun0001 }
- 88:
+            if(!(var6 !== var7)) { _fun0001_ip = 100; continue _fun0001 }
+ 92:
             var6 = var2.primary_color;
-            _fun0001_ip = 100; continue _fun0001;
- 96:
-            var6 = _closure1_slot3;
+            _fun0001_ip = 104; continue _fun0001;
  100:
+            var6 = _closure1_slot3;
+ 104:
             var1['primary_color'] = var6;
-            if(var5) { _fun0001_ip = 117; continue _fun0001 }
- 109:
+            if(var5) { _fun0001_ip = 121; continue _fun0001 }
+ 113:
             var3 = _closure1_slot8;
-            if(!(var4 === var3)) { _fun0001_ip = 120; continue _fun0001 }
- 117:
+            if(!(var4 === var3)) { _fun0001_ip = 124; continue _fun0001 }
+ 121:
             var1 = var2;
- 120:
+ 124:
             return var1;
- 122:
+ 126:
             var1 = _closure1_slot6;
             return var1;
         }
