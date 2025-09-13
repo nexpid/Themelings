@@ -15,7 +15,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 700; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 731; continue _fun0001 }
  10:
                     var2 = global;
                     var4 = var2.Promise;
@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var5[var2];
                     var2 = var5.paths;
                     var9 = var10.bind(var8)(var9, var2);
-                    var2 = new Array(21);
+                    var2 = new Array(22);
                     var2[0] = var9;
                     var9 = var5[var6];
                     var11 = var7.bind(var8)(var9);
@@ -164,16 +164,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var5.paths;
                     var9 = var11.bind(var8)(var10, var9);
                     var2[19] = var9;
+                    var9 = var5[var6];
+                    var11 = var7.bind(var8)(var9);
+                    var9 = 21;
+                    var10 = var5[var9];
+                    var9 = var5.paths;
+                    var9 = var11.bind(var8)(var10, var9);
+                    var2[20] = var9;
                     var6 = var5[var6];
                     var7 = var7.bind(var8)(var6);
-                    var6 = 21;
+                    var6 = 22;
                     var6 = var5[var6];
                     var5 = var5.paths;
                     var5 = var7.bind(var8)(var6, var5);
-                    var2[20] = var5;
+                    var2[21] = var5;
                     var2 = var3.bind(var4)(var2);
                     return var2;
- 700:
+ 731:
                     return var1;
                 }
             };
@@ -203,7 +210,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var4.bind(var1)(var7);
     var _closure1_slot2 = var4;
-    var4 = 22;
+    var4 = 23;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

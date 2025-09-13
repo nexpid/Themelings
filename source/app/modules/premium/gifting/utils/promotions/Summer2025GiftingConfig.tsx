@@ -264,26 +264,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['gradientConfig'] = var11;
     var2['planSelectionBanner'] = var7;
     var7 = {};
-    var11 = function getAnimatedImageUrl() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 11;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        return var1;
+    var11 = function getImageUrl(arg1) {
+        _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
+ 0:
+            var3 = _closure1_slot1;
+            var4 = _closure1_slot2;
+            var1 = arg1;
+            if(var1) { _fun0002_ip = 26; continue _fun0002 }
+ 17:
+            var1 = 11;
+            var2 = var4[var1];
+            _fun0002_ip = 33; continue _fun0002;
+ 26:
+            var1 = 5;
+            var2 = var4[var1];
+ 33:
+            var1 = undefined;
+            var1 = var3.bind(var1)(var2);
+            return var1;
+        }
     };
-    var7['getAnimatedImageUrl'] = var11;
-    var11 = function getStaticImageUrl() {
-        var3 = _closure1_slot1;
-        var2 = _closure1_slot2;
-        var1 = 5;
-        var2 = var2[var1];
-        var1 = undefined;
-        var1 = var3.bind(var1)(var2);
-        return var1;
-    };
-    var7['getStaticImageUrl'] = var11;
+    var7['getImageUrl'] = var11;
     var11 = function title() {
         var5 = _closure1_slot0;
         var6 = _closure1_slot2;

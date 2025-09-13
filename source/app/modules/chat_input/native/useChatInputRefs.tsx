@@ -1043,68 +1043,73 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
                     var1 = arg1;
-                    var3 = var1.url;
-                    var1 = _closure2_slot12;
-                    var2 = var1.current;
-                    var1 = var2.channel;
-                    var14 = var2.pendingReply;
-                    var2 = var2.threadCreationCallback;
-                    var6 = _closure1_slot7;
-                    var5 = var6.isChannelOnCooldown;
-                    var5 = var5.bind(var6)(var1);
-                    if(var5) { _fun0013_ip = 69; continue _fun0013 }
+                    var4 = var1.url;
+                    var2 = _closure2_slot12;
+                    var3 = var2.current;
+                    var2 = var3.channel;
+                    var15 = var3.pendingReply;
+                    var3 = var3.threadCreationCallback;
+                    var7 = _closure1_slot7;
+                    var6 = var7.isChannelOnCooldown;
+                    var6 = var6.bind(var7)(var2);
+                    if(var6) { _fun0013_ip = 69; continue _fun0013 }
  58:
-                    var7 = var3.length;
-                    var6 = 0;
-                    var5 = var6 === var7;
+                    var8 = var4.length;
+                    var7 = 0;
+                    var6 = var7 === var8;
  69:
-                    if(var5) { _fun0013_ip = 248; continue _fun0013 }
+                    if(var6) { _fun0013_ip = 267; continue _fun0013 }
  75:
-                    var5 = null;
-                    if(!(var5 == var2)) { _fun0013_ip = 241; continue _fun0013 }
+                    var6 = null;
+                    if(!(var6 == var3)) { _fun0013_ip = 241; continue _fun0013 }
  84:
-                    var13 = _closure1_slot1;
-                    var7 = _closure1_slot2;
-                    var5 = 26;
-                    var8 = var7[var5];
-                    var6 = undefined;
-                    var12 = var13.bind(var6)(var8);
-                    var11 = var12.sendMessage;
-                    var10 = var1.id;
-                    var8 = 29;
-                    var8 = var7[var8];
-                    var9 = var13.bind(var6)(var8);
-                    var8 = var9.parse;
-                    var9 = var8.bind(var9)(var1, var3);
-                    var8 = {};
-                    var5 = var7[var5];
-                    var13 = var13.bind(var6)(var5);
-                    var5 = var13.getSendMessageOptionsForReply;
-                    var17 = var5.bind(var13)(var14);
-                    var18 = var8;
-                    var5 = copyDataProperties(var18, var17);
-                    var5 = _closure1_slot12;
-                    var13 = var5.GIF_REPLY;
-                    var5 = 'location';
-                    var8[var5] = var13;
-                    var16 = true;
-                    var19 = var12;
+                    var14 = _closure1_slot1;
+                    var8 = _closure1_slot2;
+                    var6 = 26;
+                    var9 = var8[var6];
+                    var7 = undefined;
+                    var13 = var14.bind(var7)(var9);
+                    var12 = var13.sendMessage;
+                    var11 = var2.id;
+                    var9 = 29;
+                    var9 = var8[var9];
+                    var10 = var14.bind(var7)(var9);
+                    var9 = var10.parse;
+                    var10 = var9.bind(var10)(var2, var4);
+                    var9 = {};
+                    var6 = var8[var6];
+                    var14 = var14.bind(var7)(var6);
+                    var6 = var14.getSendMessageOptionsForReply;
+                    var18 = var6.bind(var14)(var15);
+                    var19 = var9;
+                    var6 = copyDataProperties(var19, var18);
+                    var6 = _closure1_slot12;
+                    var14 = var6.GIF_REPLY;
+                    var6 = 'location';
+                    var9[var6] = var14;
+                    var17 = true;
+                    var20 = var13;
+                    var19 = var11;
                     var18 = var10;
-                    var17 = var9;
-                    var15 = var8;
-                    var5 = var19[var11](var18, var17, var16, var15, var14);
-                    var5 = _closure1_slot0;
-                    var4 = 27;
-                    var4 = var7[var4];
-                    var5 = var5.bind(var6)(var4);
-                    var4 = var5.deletePendingReply;
-                    var1 = var1.id;
-                    var1 = var4.bind(var5)(var1);
+                    var16 = var9;
+                    var6 = var20[var12](var19, var18, var17, var16, var15);
+                    var6 = _closure1_slot0;
+                    var5 = 27;
+                    var5 = var8[var5];
+                    var6 = var6.bind(var7)(var5);
+                    var5 = var6.deletePendingReply;
+                    var2 = var2.id;
+                    var2 = var5.bind(var6)(var2);
                     _fun0013_ip = 248; continue _fun0013;
  241:
-                    var1 = undefined;
-                    var1 = var2.bind(var1)(var3);
+                    var2 = undefined;
+                    var2 = var3.bind(var2)(var4);
  248:
+                    var1 = _closure2_slot15;
+                    var2 = var1.current;
+                    var1 = var2.dismissKeyboard;
+                    var1 = var1.bind(var2)();
+ 267:
                     var1 = undefined;
                     return var1;
                 }

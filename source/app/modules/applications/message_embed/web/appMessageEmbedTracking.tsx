@@ -105,25 +105,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['trackAppEmbedViewed'] = var4;
-    var4 = function trackAppEmbedLinkCopied(arg1, arg2) {
-        var4 = _closure1_slot0;
-        var3 = _closure1_slot1;
-        var1 = 1;
-        var3 = var3[var1];
-        var1 = undefined;
-        var5 = var4.bind(var1)(var3);
-        var4 = var5.track;
-        var2 = _closure1_slot2;
-        var3 = var2.APP_EMBED_LINK_COPIED;
-        var2 = {};
-        var6 = arg1;
-        var2['application_id'] = var6;
-        var6 = arg2;
-        var2['link_type'] = var6;
-        var2 = var4.bind(var5)(var3, var2);
-        return var1;
-    };
-    var3['trackAppEmbedLinkCopied'] = var4;
     var2 = function trackAppEmbedLinkSent(arg1, arg2, arg3, arg4) {
         var4 = _closure1_slot0;
         var3 = _closure1_slot1;

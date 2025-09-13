@@ -112,25 +112,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['goToStandaloneNitroManagementFromMobileApp'] = var4;
-    var2 = function goToStandaloneGuildBoostManagementFromMobileApp(arg1, arg2, arg3) {
-        var2 = arg2;
+    var2 = function goToStandaloneGuildBoostCheckoutFromMobileApp(arg1, arg2, arg3, arg4) {
+        var2 = arg3;
         var _closure2_slot0 = var2;
-        var8 = _closure1_slot0;
+        var6 = _closure1_slot0;
         var9 = _closure1_slot2;
         var3 = 1;
         var4 = var9[var3];
         var3 = undefined;
-        var5 = var8.bind(var3)(var4);
+        var5 = var6.bind(var3)(var4);
         var4 = var5.goToBillingStandalonePageWithHandoff;
-        var7 = _closure1_slot3;
-        var6 = var7.BILLING_STANDALONE_GUILD_BOOST_CHECKOUT_PAGE;
+        var8 = _closure1_slot3;
+        var7 = var8.BILLING_STANDALONE_GUILD_BOOST_CHECKOUT_PAGE;
         var2 = 3;
         var2 = var9[var2];
-        var2 = var8.bind(var3)(var2);
+        var2 = var6.bind(var3)(var2);
         var2 = var2.LinkingTypes;
-        var3 = var2.APPLE_PAYMENT_LINK;
-        var2 = arg1;
-        var3 = var6.bind(var7)(var2, var3);
+        var6 = var2.APPLE_PAYMENT_LINK;
+        var3 = arg1;
+        var2 = arg2;
+        var3 = var7.bind(var8)(var3, var6, var2);
         var2 = function(arg1, arg2) {
             var4 = arg1;
             var3 = arg2;
@@ -153,10 +154,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var1)(var4, var3);
             return var1;
         };
-        var1 = arg3;
+        var1 = arg4;
         var1 = var4.bind(var5)(var3, var2, var1);
         return var1;
     };
-    var3['goToStandaloneGuildBoostManagementFromMobileApp'] = var2;
+    var3['goToStandaloneGuildBoostCheckoutFromMobileApp'] = var2;
     return var1;
 })();

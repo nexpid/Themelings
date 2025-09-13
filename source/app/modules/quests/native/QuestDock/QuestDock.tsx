@@ -84,7 +84,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var16[var2];
             var18 = var11.bind(var4)(var10);
             var11 = var18.useDerivedValue;
-            var10 = function B() {
+            var10 = function x() {
                 var2 = _closure2_slot4;
                 var1 = var2.get;
                 var2 = var1.bind(var2)();
@@ -883,6 +883,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot38 = var1;
+    var1 = function QuestBarRenderedTriggerPointWrapper() {
+        var4 = _closure1_slot5;
+        var3 = var4.useEffect;
+        var2 = function() {
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 32;
+            var2 = var2[var1];
+            var1 = undefined;
+            var2 = var3.bind(var1)(var2);
+            var3 = var2.QuestBarRenderedTriggerPoint;
+            var2 = var3.trigger;
+            var2 = var2.bind(var3)();
+            return var1;
+        };
+        var1 = new Array(0);
+        var1 = var3.bind(var4)(var2, var1);
+        var1 = null;
+        return var1;
+    };
+    var _closure1_slot39 = var1;
     var1 = function QuestDockWithEntranceAnimation() {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
@@ -915,7 +936,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1[var14];
             var _closure2_slot3 = var1;
             var3 = _closure1_slot0;
-            var1 = 32;
+            var1 = 33;
             var1 = var12[var1];
             var11 = var3.bind(var5)(var1);
             var8 = var11.useStateFromStores;
@@ -929,7 +950,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = var8.bind(var11)(var2, var1);
             var _closure2_slot4 = var1;
-            var1 = 33;
+            var1 = 34;
             var1 = var12[var1];
             var8 = var3.bind(var5)(var1);
             var2 = var8.useIsEligibleForQuests;
@@ -942,7 +963,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var12[var2];
             var15 = var3.bind(var5)(var1);
             var8 = var15.useAnimatedStyle;
-            var1 = function D() {
+            var1 = function _() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                     var1 = {};
@@ -1010,7 +1031,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1[var4];
             var1 = var1[var14];
             var _closure2_slot5 = var1;
-            var1 = 34;
+            var1 = 35;
             var14 = var12[var1];
             var15 = var3.bind(var5)(var14);
             var14 = var15.useQuestDockHeroAsset;
@@ -1034,12 +1055,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot8 = var12;
             var14 = _closure1_slot0;
             var19 = _closure1_slot2;
-            var12 = 35;
+            var12 = 36;
             var12 = var19[var12];
             var15 = var14.bind(var5)(var12);
             var12 = var15.useGradientBottom;
             var15 = var12.bind(var15)();
-            var12 = 36;
+            var12 = 37;
             var12 = var19[var12];
             var17 = var14.bind(var5)(var12);
             var14 = var17.useToken;
@@ -1113,7 +1134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 CatchBlockStart(arg_register=1);
                                 var4 = _closure1_slot1;
                                 var3 = _closure1_slot2;
-                                var2 = 37;
+                                var2 = 38;
                                 var3 = var3[var2];
                                 var2 = undefined;
                                 var5 = var4.bind(var2)(var3);
@@ -1255,7 +1276,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 38;
+                var1 = 39;
                 var2 = var2[var1];
                 var1 = undefined;
                 var3 = var3.bind(var1)(var2);
@@ -1268,7 +1289,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = function() {
                     var3 = _closure1_slot0;
                     var2 = _closure1_slot2;
-                    var1 = 38;
+                    var1 = 39;
                     var2 = var2[var1];
                     var1 = undefined;
                     var4 = var3.bind(var1)(var2);
@@ -1318,7 +1339,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['onLayout'] = var7;
             var8 = _closure1_slot21;
             var11 = _closure1_slot0;
-            var6 = 39;
+            var6 = 40;
             var6 = var12[var6];
             var6 = var11.bind(var5)(var6);
             var7 = var6.QuestContentImpressionTrackerNative;
@@ -1352,8 +1373,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['mode'] = var1;
                     var1 = undefined;
                     var6 = var7.bind(var1)(var6, var5);
-                    var5 = new Array(2);
+                    var5 = new Array(3);
                     var5[0] = var6;
+                    var8 = _closure1_slot21;
+                    var7 = _closure1_slot39;
+                    var6 = {};
+                    var6 = var8.bind(var1)(var7, var6);
+                    var5[1] = var6;
                     var8 = _closure1_slot21;
                     var10 = _closure1_slot0;
                     var13 = _closure1_slot2;
@@ -1363,18 +1389,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var6.QuestDockGestureContextProvider;
                     var6 = {};
                     var11 = _closure1_slot21;
-                    var9 = 40;
+                    var9 = 41;
                     var9 = var13[var9];
                     var9 = var10.bind(var1)(var9);
                     var10 = var9.ThemeContextProvider;
                     var9 = {};
                     var14 = _closure2_slot8;
                     var13 = undefined;
-                    if(var14) { _fun0012_ip = 139; continue _fun0012 }
- 129:
+                    if(var14) { _fun0012_ip = 159; continue _fun0012 }
+ 149:
                     var14 = _closure1_slot20;
                     var13 = var14.DARK;
- 139:
+ 159:
                     var9['theme'] = var13;
                     var14 = _closure1_slot21;
                     var13 = _closure1_slot37;
@@ -1386,7 +1412,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var11.bind(var1)(var10, var9);
                     var6['children'] = var9;
                     var6 = var8.bind(var1)(var7, var6);
-                    var5[1] = var6;
+                    var5[2] = var6;
                     var2['children'] = var5;
                     var1 = var4.bind(var1)(var3, var2);
                     return var1;
@@ -1400,7 +1426,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot39 = var1;
+    var _closure1_slot40 = var1;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -1671,7 +1697,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 34;
+            var1 = 35;
             var1 = var3[var1];
             var5 = undefined;
             var2 = var2.bind(var5)(var1);
@@ -1696,7 +1722,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['quest'] = var8;
             var2['value'] = var7;
             var8 = _closure1_slot21;
-            var7 = _closure1_slot39;
+            var7 = _closure1_slot40;
             var6 = {};
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
@@ -1706,7 +1732,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var2 = var4.bind(var7)(var2);
-    var4 = 41;
+    var4 = 42;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

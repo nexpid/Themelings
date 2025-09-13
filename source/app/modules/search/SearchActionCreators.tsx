@@ -886,45 +886,57 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var2['clearSearchState'] = var7;
-    var7 = function updateAutocompleteQuery(arg1, arg2, arg3) {
+    var7 = function updateAutocompleteQuery(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
+            var1 = arg1;
+            var7 = var1.searchContext;
+            var6 = var1.tokens;
+            var2 = var1.queryString;
+            var5 = var1.cursorScope;
+            var1 = var2.trim;
+            var1 = var1.bind(var2)();
+            var2 = var1.length;
+            var1 = 0;
+            var1 = var2 > var1;
+            if(!var1) { _fun0009_ip = 97; continue _fun0009 }
+ 51:
             var4 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var1 = 7;
-            var3 = var3[var1];
+            var2 = 7;
+            var3 = var3[var2];
+            var2 = undefined;
+            var4 = var4.bind(var2)(var3);
+            var3 = var4.getIsSearchAutocompleteFetchFrecencyExperimentEnabled;
+            var2 = {};
+            var8 = 'updateAutocompleteQuery';
+            var2['location'] = var8;
+            var1 = var3.bind(var4)(var2);
+ 97:
+            if(!var1) { _fun0009_ip = 141; continue _fun0009 }
+ 100:
+            var3 = _closure1_slot0;
+            var2 = _closure1_slot2;
+            var1 = 8;
+            var2 = var2[var1];
             var1 = undefined;
-            var5 = var4.bind(var1)(var3);
-            var4 = var5.getIsSearchAutocompleteFetchFrecencyExperimentEnabled;
-            var3 = {};
-            var6 = 'updateAutocompleteQuery';
-            var3['location'] = var6;
-            var3 = var4.bind(var5)(var3);
-            if(!var3) { _fun0009_ip = 85; continue _fun0009 }
- 49:
-            var4 = _closure1_slot0;
-            var5 = _closure1_slot2;
-            var3 = 8;
-            var3 = var5[var3];
-            var3 = var4.bind(var1)(var3);
-            var4 = var3.FrecencyUserSettingsActionCreators;
-            var3 = var4.loadIfNecessary;
-            var3 = var3.bind(var4)();
- 85:
+            var1 = var3.bind(var1)(var2);
+            var2 = var1.FrecencyUserSettingsActionCreators;
+            var1 = var2.loadIfNecessary;
+            var1 = var1.bind(var2)();
+ 141:
             var3 = _closure1_slot1;
-            var4 = _closure1_slot2;
-            var2 = 3;
-            var2 = var4[var2];
+            var2 = _closure1_slot2;
+            var1 = 3;
+            var2 = var2[var1];
+            var1 = undefined;
             var4 = var3.bind(var1)(var2);
             var3 = var4.dispatch;
             var2 = {};
-            var5 = 'SEARCH_AUTOCOMPLETE_QUERY_UPDATE';
-            var2['type'] = var5;
-            var5 = arg1;
-            var2['searchContext'] = var5;
-            var5 = arg2;
-            var2['tokens'] = var5;
-            var5 = arg3;
+            var8 = 'SEARCH_AUTOCOMPLETE_QUERY_UPDATE';
+            var2['type'] = var8;
+            var2['searchContext'] = var7;
+            var2['tokens'] = var6;
             var2['cursorScope'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;

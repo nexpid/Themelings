@@ -182,33 +182,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
             var3 = arg1;
-            var20 = var3.arrow;
-            var15 = var3.contentHeight;
+            var22 = var3.arrow;
+            var17 = var3.contentHeight;
             var2 = var3.deprecatedFormRow;
             var6 = undefined;
             if(!(var2 === var6)) { _fun0002_ip = 33; continue _fun0002 }
  31:
             var2 = false;
  33:
-            var16 = var3.disabled;
-            var19 = var3.end;
-            var13 = var3.guildId;
-            var11 = var3.leading;
-            var9 = var3.onPress;
-            var7 = var3.trailing;
+            var18 = var3.disabled;
+            var21 = var3.end;
+            var15 = var3.guildId;
+            var13 = var3.leading;
+            var11 = var3.onPress;
+            var9 = var3.trailing;
             var4 = var3.userId;
             var _closure2_slot0 = var4;
-            var8 = var3.subLabel;
-            var18 = var3.start;
+            var10 = var3.subLabel;
+            var20 = var3.start;
+            var8 = var3.accessibilityRole;
+            var7 = var3.accessibilityState;
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
             var3 = 10;
             var3 = var5[var3];
             var5 = var4.bind(var6)(var3);
             var4 = var5.useStateFromStores;
-            var12 = _closure1_slot4;
+            var14 = _closure1_slot4;
             var3 = new Array(1);
-            var3[0] = var12;
+            var3[0] = var14;
             var1 = function() {
                 var3 = _closure1_slot4;
                 var2 = var3.getUser;
@@ -216,104 +218,108 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var14 = var4.bind(var5)(var3, var1);
-            var12 = null;
-            var3 = var12 == var14;
+            var16 = var4.bind(var5)(var3, var1);
+            var14 = null;
+            var3 = var14 == var16;
             var1 = null;
-            if(var3) { _fun0002_ip = 517; continue _fun0002 }
- 152:
+            if(var3) { _fun0002_ip = 546; continue _fun0002 }
+ 163:
             var5 = _closure1_slot5;
             var4 = _closure1_slot0;
-            var17 = _closure1_slot2;
-            if(var2) { _fun0002_ip = 352; continue _fun0002 }
- 170:
+            var19 = _closure1_slot2;
+            if(var2) { _fun0002_ip = 372; continue _fun0002 }
+ 181:
             var2 = 12;
-            var2 = var17[var2];
+            var2 = var19[var2];
             var2 = var4.bind(var6)(var2);
             var3 = var2.TableRow;
             var2 = {};
-            var2['arrow'] = var20;
-            var2['disabled'] = var16;
-            var2['end'] = var19;
-            var19 = var11;
-            if(!(var12 == var11)) { _fun0002_ip = 286; continue _fun0002 }
- 210:
-            var22 = _closure1_slot5;
-            var21 = _closure1_slot1;
-            var25 = _closure1_slot2;
-            var23 = 9;
-            var20 = var25[var23];
-            var21 = var21.bind(var6)(var20);
-            var20 = {};
-            var24 = var14.getAvatarSource;
-            var24 = var24.bind(var14)(var13);
-            var20['source'] = var24;
-            var24 = _closure1_slot0;
-            var23 = var25[var23];
-            var23 = var24.bind(var6)(var23);
-            var23 = var23.AvatarSizes;
-            var23 = var23.SMALL;
-            var20['size'] = var23;
-            var19 = var22.bind(var6)(var21, var20);
- 286:
-            var2['icon'] = var19;
-            var21 = _closure1_slot5;
-            var20 = _closure1_slot8;
-            var19 = {};
-            var19['contentHeight'] = var15;
-            var19['user'] = var14;
-            var19['guildId'] = var13;
-            var19 = var21.bind(var6)(var20, var19);
-            var2['label'] = var19;
-            var2['onPress'] = var9;
-            var2['start'] = var18;
-            var2['subLabel'] = var8;
-            var2['trailing'] = var7;
+            var2['arrow'] = var22;
+            var2['disabled'] = var18;
+            var2['end'] = var21;
+            var21 = var13;
+            if(!(var14 == var13)) { _fun0002_ip = 297; continue _fun0002 }
+ 221:
+            var24 = _closure1_slot5;
+            var23 = _closure1_slot1;
+            var27 = _closure1_slot2;
+            var25 = 9;
+            var22 = var27[var25];
+            var23 = var23.bind(var6)(var22);
+            var22 = {};
+            var26 = var16.getAvatarSource;
+            var26 = var26.bind(var16)(var15);
+            var22['source'] = var26;
+            var26 = _closure1_slot0;
+            var25 = var27[var25];
+            var25 = var26.bind(var6)(var25);
+            var25 = var25.AvatarSizes;
+            var25 = var25.SMALL;
+            var22['size'] = var25;
+            var21 = var24.bind(var6)(var23, var22);
+ 297:
+            var2['icon'] = var21;
+            var23 = _closure1_slot5;
+            var22 = _closure1_slot8;
+            var21 = {};
+            var21['contentHeight'] = var17;
+            var21['user'] = var16;
+            var21['guildId'] = var15;
+            var21 = var23.bind(var6)(var22, var21);
+            var2['label'] = var21;
+            var2['onPress'] = var11;
+            var2['start'] = var20;
+            var2['subLabel'] = var10;
+            var2['trailing'] = var9;
+            var2['accessibilityRole'] = var8;
+            var2['accessibilityState'] = var7;
             var2 = var5.bind(var6)(var3, var2);
-            _fun0002_ip = 514; continue _fun0002;
- 352:
+            _fun0002_ip = 543; continue _fun0002;
+ 372:
             var3 = 11;
-            var3 = var17[var3];
+            var3 = var19[var3];
             var3 = var4.bind(var6)(var3);
             var4 = var3.FormRow;
             var3 = {};
-            var3['disabled'] = var16;
-            if(!(var12 == var11)) { _fun0002_ip = 456; continue _fun0002 }
- 380:
-            var17 = _closure1_slot5;
-            var16 = _closure1_slot1;
-            var20 = _closure1_slot2;
-            var18 = 9;
-            var12 = var20[var18];
-            var16 = var16.bind(var6)(var12);
+            var3['disabled'] = var18;
+            if(!(var14 == var13)) { _fun0002_ip = 476; continue _fun0002 }
+ 400:
+            var19 = _closure1_slot5;
+            var18 = _closure1_slot1;
+            var22 = _closure1_slot2;
+            var20 = 9;
+            var14 = var22[var20];
+            var18 = var18.bind(var6)(var14);
+            var14 = {};
+            var21 = var16.getAvatarSource;
+            var21 = var21.bind(var16)(var15);
+            var14['source'] = var21;
+            var21 = _closure1_slot0;
+            var20 = var22[var20];
+            var20 = var21.bind(var6)(var20);
+            var20 = var20.AvatarSizes;
+            var20 = var20.SMALL;
+            var14['size'] = var20;
+            var13 = var19.bind(var6)(var18, var14);
+ 476:
+            var3['leading'] = var13;
+            var14 = _closure1_slot5;
+            var13 = _closure1_slot8;
             var12 = {};
-            var19 = var14.getAvatarSource;
-            var19 = var19.bind(var14)(var13);
-            var12['source'] = var19;
-            var19 = _closure1_slot0;
-            var18 = var20[var18];
-            var18 = var19.bind(var6)(var18);
-            var18 = var18.AvatarSizes;
-            var18 = var18.SMALL;
-            var12['size'] = var18;
-            var11 = var17.bind(var6)(var16, var12);
- 456:
-            var3['leading'] = var11;
-            var12 = _closure1_slot5;
-            var11 = _closure1_slot8;
-            var10 = {};
-            var10['contentHeight'] = var15;
-            var10['user'] = var14;
-            var10['guildId'] = var13;
-            var10 = var12.bind(var6)(var11, var10);
-            var3['label'] = var10;
-            var3['onPress'] = var9;
-            var3['subLabel'] = var8;
-            var3['trailing'] = var7;
+            var12['contentHeight'] = var17;
+            var12['user'] = var16;
+            var12['guildId'] = var15;
+            var12 = var14.bind(var6)(var13, var12);
+            var3['label'] = var12;
+            var3['onPress'] = var11;
+            var3['subLabel'] = var10;
+            var3['trailing'] = var9;
+            var3['accessibilityRole'] = var8;
+            var3['accessibilityState'] = var7;
             var2 = var5.bind(var6)(var4, var3);
- 514:
+ 543:
             var1 = var2;
- 517:
+ 546:
             return var1;
         }
     };

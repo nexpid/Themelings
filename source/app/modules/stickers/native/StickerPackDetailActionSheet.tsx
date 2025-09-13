@@ -285,10 +285,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var24.doesStickerPackHavePopoutInformation;
             var24 = var21.bind(var24)(var12);
             var21 = undefined;
-            if(!var24) { _fun0001_ip = 510; continue _fun0001 }
- 507:
+            if(!var24) { _fun0001_ip = 506; continue _fun0001 }
+ 503:
             var21 = var10;
- 510:
+ 506:
             var17['onPress'] = var21;
             var17['withBanner'] = var20;
             var17['withDescription'] = var20;
@@ -357,8 +357,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(3);
             var5[0] = var9;
             var8 = var8 != var18;
-            if(!var8) { _fun0001_ip = 830; continue _fun0001 }
- 723:
+            if(!var8) { _fun0001_ip = 826; continue _fun0001 }
+ 719:
             var15 = _closure1_slot9;
             var14 = _closure1_slot0;
             var19 = _closure1_slot2;
@@ -390,10 +390,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var15.bind(var4)(var17, var16);
             var9['children'] = var16;
             var8 = var15.bind(var4)(var14, var9);
- 830:
+ 826:
             var5[1] = var8;
-            if(!var6) { _fun0001_ip = 886; continue _fun0001 }
- 837:
+            if(!var6) { _fun0001_ip = 882; continue _fun0001 }
+ 833:
             var9 = _closure1_slot9;
             var8 = _closure1_slot1;
             var7 = _closure1_slot2;
@@ -405,7 +405,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['style'] = var11;
             var7['onClose'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 886:
+ 882:
             var5[2] = var6;
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);

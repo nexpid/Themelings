@@ -769,24 +769,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = var1.handleAudioInputInitialization;
                 var5 = var9.bind(var7)(var5);
  591:
+                var5 = var7.setAudioDeviceModuleErrorCallback;
+                if(!(var6 != var5)) { _fun0003_ip = 618; continue _fun0003 }
+ 601:
+                var9 = var7.setAudioDeviceModuleErrorCallback;
+                var5 = var1.handleAudioDeviceModuleErrorCallback;
+                var5 = var9.bind(var7)(var5);
+ 618:
                 var9 = var7.setTransportOptions;
                 var5 = {'idleJitterBufferFlush': true, 'ducking': false};
                 var5 = var9.bind(var7)(var5);
                 var5 = var7.setNativeScreenSharePickerCallbacks;
-                if(!(var6 != var5)) { _fun0003_ip = 657; continue _fun0003 }
- 626:
+                if(!(var6 != var5)) { _fun0003_ip = 684; continue _fun0003 }
+ 653:
                 var12 = var7.setNativeScreenSharePickerCallbacks;
                 var11 = var1.handleNativeScreenSharePickerUpdate;
                 var9 = var1.handleNativeScreenSharePickerCancel;
                 var5 = var1.handleNativeScreenSharePickerError;
                 var5 = var12.bind(var7)(var11, var9, var5);
- 657:
-                var5 = var7.setAudioDeviceModuleErrorCallback;
-                if(!(var6 != var5)) { _fun0003_ip = 684; continue _fun0003 }
- 667:
-                var9 = var7.setAudioDeviceModuleErrorCallback;
-                var5 = var1.handleAudioDeviceModuleErrorCallback;
-                var5 = var9.bind(var7)(var5);
  684:
                 var5 = var7.setVideoCodecErrorCallback;
                 if(!(var6 != var5)) { _fun0003_ip = 711; continue _fun0003 }

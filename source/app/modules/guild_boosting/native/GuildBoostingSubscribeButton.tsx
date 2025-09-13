@@ -36,30 +36,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.AnalyticsObjects;
+    var8 = var4.AnalyticEvents;
     var _closure1_slot7 = var8;
-    var8 = var4.AnalyticsObjectTypes;
+    var8 = var4.AnalyticsObjects;
     var _closure1_slot8 = var8;
-    var8 = var4.AnalyticsPages;
+    var8 = var4.AnalyticsObjectTypes;
     var _closure1_slot9 = var8;
+    var8 = var4.AnalyticsPages;
+    var _closure1_slot10 = var8;
     var4 = var4.NOOP;
-    var _closure1_slot10 = var4;
+    var _closure1_slot11 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.PremiumGuildSubscribeModalScenes;
-    var _closure1_slot11 = var4;
+    var _closure1_slot12 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.FractionalPremiumStates;
-    var _closure1_slot12 = var4;
+    var4 = var4.CustomCheckoutFlow;
+    var _closure1_slot13 = var4;
     var4 = 7;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
-    var _closure1_slot13 = var4;
+    var4 = var4.FractionalPremiumStates;
+    var _closure1_slot14 = var4;
     var4 = 8;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot15 = var4;
+    var4 = 9;
     var4 = var6[var4];
     var8 = var7.bind(var1)(var4);
     var4 = var8.prototype;
@@ -68,50 +75,80 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var7;
     var4 = new var13[var8](var12, var11);
     var4 = var4 instanceof Object ? var4 : var7;
-    var _closure1_slot14 = var4;
+    var _closure1_slot16 = var4;
     var4 = function() {
         var4 = _closure1_slot3;
         var3 = undefined;
-        var2 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
+        var2 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
                 _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 110; continue _fun0001 }
- 9:
-                    var6 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var3 = 9;
-                    var5 = var5[var3];
+                    if(var3) { _fun0001_ip = 153; continue _fun0001 }
+ 12:
+                    var3 = arg1;
+                    var _closure4_slot0 = var3;
                     var3 = undefined;
+                    var _closure4_slot1 = var3;
+                    var6 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var5 = 10;
+                    var5 = var7[var5];
                     var8 = var6.bind(var3)(var5);
-                    var7 = var8.goToStandaloneGuildBoostManagementFromMobileApp;
-                    var6 = arg1;
-                    var5 = function() {
-                        var3 = _closure1_slot14;
-                        var2 = var3.log;
-                        var1 = 'Successfully opened mobile web Guild Boost Management page';
-                        var1 = var2.bind(var3)(var1);
+                    var5 = var8.getNewAnalyticsLoadId;
+                    var9 = var5.bind(var8)();
+                    _closure4_slot1 = var9;
+                    var5 = 11;
+                    var5 = var7[var5];
+                    var8 = var6.bind(var3)(var5);
+                    var7 = var8.goToStandaloneGuildBoostCheckoutFromMobileApp;
+                    var13 = arg2;
+                    var11 = function() {
+                        var4 = _closure1_slot1;
+                        var3 = _closure1_slot2;
+                        var1 = 12;
+                        var3 = var3[var1];
                         var1 = undefined;
+                        var6 = var4.bind(var1)(var3);
+                        var5 = var6.track;
+                        var3 = _closure1_slot7;
+                        var4 = var3.MOBILE_OPEN_STANDALONE_GUILD_BOOST_CHECKOUT_PAGE;
+                        var3 = {};
+                        var8 = _closure4_slot1;
+                        var3['load_id'] = var8;
+                        var11 = _closure4_slot0;
+                        var7 = new Array(0);
+                        var10 = 0;
+                        var12 = var7;
+                        var8 = arraySpread(var12, var11, var10);
+                        var3['location_stack'] = var7;
+                        var7 = _closure1_slot13;
+                        var7 = var7.APPLE_PAYMENT_LINK;
+                        var3['custom_checkout_flow'] = var7;
+                        var3 = var5.bind(var6)(var4, var3);
+                        var4 = _closure1_slot16;
+                        var3 = var4.log;
+                        var2 = 'Successfully opened mobile web Guild Boost Management page';
+                        var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var2 = function(arg1) {
-                        var4 = _closure1_slot14;
+                    var10 = function(arg1) {
+                        var4 = _closure1_slot16;
                         var3 = var4.error;
                         var2 = 'Failed to open mobile web Guild Boost Management page, error response: ';
                         var1 = arg1;
                         var1 = var3.bind(var4)(var2, var1);
                         var3 = _closure1_slot1;
                         var9 = _closure1_slot2;
-                        var1 = 10;
+                        var1 = 13;
                         var2 = var9[var1];
                         var1 = undefined;
                         var4 = var3.bind(var1)(var2);
                         var3 = var4.show;
                         var2 = {};
                         var8 = _closure1_slot0;
-                        var5 = 11;
+                        var5 = 14;
                         var6 = var9[var5];
                         var6 = var8.bind(var1)(var6);
                         var10 = var6.intl;
@@ -137,25 +174,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var3.bind(var4)(var2);
                         return var1;
                     };
-                    var2 = var7.bind(var8)(var6, var5, var2);
-                    SaveGenerator(address=68);
- 66:
+                    var14 = var8;
+                    var12 = var9;
+                    var2 = var14[var7](var13, var12, var11, var10, var9);
+                    SaveGenerator(address=111);
+ 109:
                     return var2;
- 68:
+ 111:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 107; continue _fun0001 }
- 74:
+                    if(var5) { _fun0001_ip = 150; continue _fun0001 }
+ 117:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 12;
+                    var4 = 15;
                     var4 = var6[var4];
                     var5 = var5.bind(var3)(var4);
                     var4 = var5.closeApplyBoostModal;
                     var4 = var4.bind(var5)();
                     return var3;
- 107:
+ 150:
                     return var2;
- 110:
+ 153:
                     return var1;
                 }
             };
@@ -176,7 +215,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var4.bind(var1)();
-    var _closure1_slot15 = var4;
+    var _closure1_slot17 = var4;
     var4 = function() {
         var4 = _closure1_slot3;
         var3 = undefined;
@@ -190,28 +229,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10:
                     var5 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var2 = 13;
+                    var2 = 16;
                     var2 = var3[var2];
                     var3 = undefined;
                     var8 = var5.bind(var3)(var2);
                     var7 = var8.launchGuildBoostFlowOrAlert;
                     var6 = {};
-                    var2 = _closure1_slot9;
+                    var2 = _closure1_slot10;
                     var2 = var2.PREMIUM_GUILD_USER_MODAL;
                     var6['page'] = var2;
                     var2 = arg2;
                     var6['section'] = var2;
-                    var2 = _closure1_slot7;
+                    var2 = _closure1_slot8;
                     var2 = var2.BUTTON_CTA;
                     var6['object'] = var2;
-                    var2 = _closure1_slot8;
+                    var2 = _closure1_slot9;
                     var2 = var2.BUY;
                     var6['objectType'] = var2;
                     var5 = arg1;
                     var2 = function() {
                         var3 = _closure1_slot1;
                         var2 = _closure1_slot2;
-                        var1 = 14;
+                        var1 = 17;
                         var2 = var2[var1];
                         var1 = undefined;
                         var2 = var3.bind(var1)(var2);
@@ -229,7 +268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  124:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
-                    var4 = 12;
+                    var4 = 15;
                     var4 = var6[var4];
                     var5 = var5.bind(var3)(var4);
                     var4 = var5.closeApplyBoostModal;
@@ -258,8 +297,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var4 = var4.bind(var1)();
-    var _closure1_slot16 = var4;
-    var4 = 23;
+    var _closure1_slot18 = var4;
+    var4 = 26;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -283,26 +322,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.fractionalPremiumState;
             var2 = _closure1_slot1;
             var13 = _closure1_slot2;
-            var1 = 15;
+            var1 = 18;
             var1 = var13[var1];
             var4 = undefined;
             var1 = var2.bind(var4)(var1);
             var12 = var1.bind(var4)();
             var _closure2_slot4 = var12;
             var10 = _closure1_slot0;
-            var1 = 16;
+            var1 = 19;
             var1 = var13[var1];
             var14 = var10.bind(var4)(var1);
             var1 = var14.useNavigation;
             var17 = var1.bind(var14)();
             var _closure2_slot5 = var17;
-            var1 = 17;
+            var1 = 20;
             var1 = var13[var1];
             var1 = var2.bind(var4)(var1);
             var1 = var1.bind(var4)();
             var1 = var1.analyticsLocations;
             var _closure2_slot6 = var1;
-            var2 = 18;
+            var2 = 21;
             var2 = var13[var2];
             var14 = var10.bind(var4)(var2);
             var13 = var14.useStateFromStores;
@@ -344,14 +383,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = !var16;
             if(!var10) { _fun0003_ip = 223; continue _fun0003 }
  209:
-            var2 = _closure1_slot12;
+            var2 = _closure1_slot14;
             var2 = var2.NONE;
             var10 = var3 !== var2;
  223:
             var _closure2_slot8 = var10;
             var3 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var2 = 19;
+            var2 = 22;
             var2 = var13[var2];
             var14 = var3.bind(var4)(var2);
             var3 = var14.useIsMobileApplePaymentLinksEnabled;
@@ -376,10 +415,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     var2 = _closure2_slot4;
-                    if(var2) { _fun0005_ip = 280; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 285; continue _fun0005 }
  13:
                     var2 = _closure2_slot7;
-                    if(var2) { _fun0005_ip = 165; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 170; continue _fun0005 }
  23:
                     var2 = _closure2_slot9;
                     if(!var2) { _fun0005_ip = 120; continue _fun0005 }
@@ -394,67 +433,68 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var3.bind(var4)();
                     var6 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var3 = 20;
-                    var5 = var7[var3];
-                    var4 = undefined;
-                    var8 = var6.bind(var4)(var5);
-                    var5 = var8.getPremiumManagementMethod;
-                    var5 = var5.bind(var8)(var9);
+                    var3 = 23;
+                    var4 = var7[var3];
+                    var5 = undefined;
+                    var8 = var6.bind(var5)(var4);
+                    var4 = var8.getPremiumManagementMethod;
+                    var4 = var4.bind(var8)(var9);
                     var3 = var7[var3];
-                    var3 = var6.bind(var4)(var3);
+                    var3 = var6.bind(var5)(var3);
                     var3 = var3.PremiumManagementMethod;
                     var3 = var3.IN_WEB;
-                    if(!(var5 !== var3)) { _fun0005_ip = 145; continue _fun0005 }
+                    if(!(var4 !== var3)) { _fun0005_ip = 145; continue _fun0005 }
  120:
-                    var7 = _closure1_slot16;
+                    var7 = _closure1_slot18;
                     var6 = _closure2_slot6;
-                    var5 = _closure2_slot3;
+                    var4 = _closure2_slot3;
                     var3 = undefined;
-                    var3 = var7.bind(var3)(var6, var5);
+                    var3 = var7.bind(var3)(var6, var4);
                     return var3;
  145:
-                    var3 = _closure1_slot15;
+                    var4 = _closure1_slot17;
+                    var3 = _closure2_slot6;
                     var2 = _closure2_slot0;
                     var2 = var2.id;
-                    var2 = var3.bind(var4)(var2);
+                    var2 = var4.bind(var5)(var3, var2);
                     return var2;
- 165:
+ 170:
                     var4 = _closure2_slot5;
                     var5 = _closure2_slot1;
                     var2 = _closure2_slot0;
                     var8 = var2.id;
                     var7 = _closure2_slot3;
                     var3 = var4.push;
-                    var1 = _closure1_slot11;
+                    var1 = _closure1_slot12;
                     var2 = var1.CONFIRMATION;
                     var1 = {};
                     var1['guildId'] = var8;
                     var1['previousGuildSubscriptionSlot'] = var5;
                     var5 = {};
-                    var8 = _closure1_slot9;
+                    var8 = _closure1_slot10;
                     var8 = var8.PREMIUM_GUILD_USER_MODAL;
                     var5['page'] = var8;
                     var5['section'] = var7;
-                    var7 = _closure1_slot7;
+                    var7 = _closure1_slot8;
                     var7 = var7.BUTTON_CTA;
                     var5['object'] = var7;
-                    var6 = _closure1_slot8;
+                    var6 = _closure1_slot9;
                     var6 = var6.BUY;
                     var5['objectType'] = var6;
                     var1['location'] = var5;
                     var1 = var3.bind(var4)(var2, var1);
                     var1 = undefined;
                     return var1;
- 280:
-                    var1 = _closure1_slot10;
+ 285:
+                    var1 = _closure1_slot11;
                     return var1;
                 }
             };
             var1 = var3.bind(var14)(var1, var2);
             var _closure2_slot10 = var1;
-            var3 = _closure1_slot13;
+            var3 = _closure1_slot15;
             var2 = _closure1_slot1;
-            var1 = 21;
+            var1 = 24;
             var1 = var13[var1];
             var2 = var2.bind(var4)(var1);
             var1 = {};
@@ -472,7 +512,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['disabled'] = var10;
             var12 = _closure1_slot0;
             var13 = _closure1_slot2;
-            var9 = 11;
+            var9 = 14;
             var10 = var13[var9];
             var10 = var12.bind(var4)(var10);
             var11 = var10.intl;
@@ -501,10 +541,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = null;
                     if(!var2) { _fun0006_ip = 89; continue _fun0006 }
  12:
-                    var5 = _closure1_slot13;
+                    var5 = _closure1_slot15;
                     var3 = _closure1_slot0;
                     var4 = _closure1_slot2;
-                    var2 = 22;
+                    var2 = 25;
                     var2 = var4[var2];
                     var4 = undefined;
                     var2 = var3.bind(var4)(var2);

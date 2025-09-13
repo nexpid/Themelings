@@ -38,13 +38,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot9 = var2;
+            _closure1_slot11 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot9 = var1;
+    var _closure1_slot11 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -80,10 +80,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var4 = 6;
     var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.InputModes;
+    var4 = var7.bind(var1)(var4);
     var _closure1_slot8 = var4;
-    var4 = 9;
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var8 = var4.AppStates;
+    var _closure1_slot9 = var8;
+    var4 = var4.InputModes;
+    var _closure1_slot10 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
     var2 = function(arg1) {
@@ -105,7 +111,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot4;
-                var1 = _closure1_slot9;
+                var1 = _closure1_slot11;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0002_ip = 86; continue _fun0002 }
  73:
@@ -124,77 +130,93 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var4)(var5, var1);
                 var _closure3_slot0 = var1;
                 var3 = {};
-                var4 = function POST_CONNECTION_OPEN() {
+                var4 = function APP_STATE_UPDATE() {
                     var2 = _closure3_slot0;
-                    var1 = var2.handlePostConnectionOpen;
+                    var1 = var2.handleAppStateUpdate;
                     var1 = var1.bind(var2)();
                     return var1;
                 };
-                var3['POST_CONNECTION_OPEN'] = var4;
+                var3['APP_STATE_UPDATE'] = var4;
                 var1['actions'] = var3;
+                var3 = false;
+                var1['hasFetchedKrisp'] = var3;
                 var2 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                        var4 = _closure1_slot0;
-                        var1 = _closure1_slot1;
-                        var8 = 7;
-                        var3 = var1[var8];
-                        var1 = undefined;
-                        var3 = var4.bind(var1)(var3);
-                        var6 = null;
-                        if(!(var6 != var3)) { _fun0003_ip = 73; continue _fun0003 }
- 33:
-                        var4 = _closure1_slot0;
-                        var3 = _closure1_slot1;
-                        var3 = var3[var8];
-                        var7 = var4.bind(var1)(var3);
-                        var4 = var7.hasOnDemandResource;
-                        var3 = 'krisp';
-                        var3 = var4.bind(var7)(var3);
-                        if(var3) { _fun0003_ip = 227; continue _fun0003 }
- 73:
-                        var4 = _closure1_slot7;
-                        var3 = var4.getModeOptions;
-                        var3 = var3.bind(var4)();
-                        var3 = var3.autoThreshold;
-                        var _closure4_slot0 = var3;
-                        var4 = _closure1_slot0;
-                        var3 = _closure1_slot1;
-                        var7 = 8;
-                        var7 = var3[var7];
-                        var11 = var4.bind(var1)(var7);
+                        var3 = _closure1_slot8;
+                        var2 = var3.getState;
+                        var3 = var2.bind(var3)();
+                        var2 = _closure1_slot9;
+                        var2 = var2.ACTIVE;
+                        if(!(var3 === var2)) { _fun0003_ip = 289; continue _fun0003 }
+ 36:
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot1;
+                        var8 = 8;
+                        var2 = var2[var8];
+                        var7 = undefined;
+                        var2 = var3.bind(var7)(var2);
+                        var5 = null;
+                        if(!(var5 != var2)) { _fun0003_ip = 104; continue _fun0003 }
+ 64:
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot1;
+                        var2 = var2[var8];
+                        var6 = var3.bind(var7)(var2);
+                        var3 = var6.hasOnDemandResource;
+                        var2 = 'krisp';
+                        var2 = var3.bind(var6)(var2);
+                        if(var2) { _fun0003_ip = 289; continue _fun0003 }
+ 104:
+                        var3 = _closure3_slot0;
+                        var3 = var3.hasFetchedKrisp;
+                        if(var3) { _fun0003_ip = 289; continue _fun0003 }
+ 123:
+                        var3 = _closure3_slot0;
+                        var2 = true;
+                        var3['hasFetchedKrisp'] = var2;
+                        var3 = _closure1_slot7;
+                        var2 = var3.getModeOptions;
+                        var2 = var2.bind(var3)();
+                        var2 = var2.autoThreshold;
+                        var _closure4_slot0 = var2;
+                        var3 = _closure1_slot0;
+                        var2 = _closure1_slot1;
+                        var6 = 9;
+                        var6 = var2[var6];
+                        var11 = var3.bind(var7)(var6);
                         var10 = var11.setMode;
-                        var7 = _closure1_slot8;
-                        var9 = var7.VOICE_ACTIVITY;
-                        var7 = {};
+                        var6 = _closure1_slot10;
+                        var9 = var6.VOICE_ACTIVITY;
+                        var6 = {};
                         var12 = false;
-                        var7['autoThreshold'] = var12;
-                        var7 = var10.bind(var11)(var9, var7);
-                        var3 = var3[var8];
-                        var3 = var4.bind(var1)(var3);
-                        var3 = var6 == var3;
-                        var4 = undefined;
-                        if(var3) { _fun0003_ip = 207; continue _fun0003 }
- 166:
-                        var7 = _closure1_slot0;
-                        var5 = _closure1_slot1;
-                        var5 = var5[var8];
-                        var8 = var7.bind(var1)(var5);
-                        var7 = var8.fetchOnDemandResource;
-                        var5 = 'krisp';
-                        var5 = var7.bind(var8)(var5);
-                        var3 = var6 == var5;
-                        var4 = var5;
- 207:
-                        if(var3) { _fun0003_ip = 227; continue _fun0003 }
- 210:
-                        var3 = var4.then;
-                        var2 = function(arg1) {
+                        var6['autoThreshold'] = var12;
+                        var6 = var10.bind(var11)(var9, var6);
+                        var2 = var2[var8];
+                        var2 = var3.bind(var7)(var2);
+                        var2 = var5 == var2;
+                        var3 = undefined;
+                        if(var2) { _fun0003_ip = 269; continue _fun0003 }
+ 228:
+                        var6 = _closure1_slot0;
+                        var4 = _closure1_slot1;
+                        var4 = var4[var8];
+                        var7 = var6.bind(var7)(var4);
+                        var6 = var7.fetchOnDemandResource;
+                        var4 = 'krisp';
+                        var4 = var6.bind(var7)(var4);
+                        var2 = var5 == var4;
+                        var3 = var4;
+ 269:
+                        if(var2) { _fun0003_ip = 289; continue _fun0003 }
+ 272:
+                        var2 = var3.then;
+                        var1 = function(arg1) {
                             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                                 var4 = _closure1_slot0;
                                 var1 = _closure1_slot1;
-                                var6 = 7;
+                                var6 = 8;
                                 var3 = var1[var6];
                                 var1 = undefined;
                                 var4 = var4.bind(var1)(var3);
@@ -220,11 +242,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  80:
                                 var4 = _closure1_slot0;
                                 var5 = _closure1_slot1;
-                                var3 = 8;
+                                var3 = 9;
                                 var3 = var5[var3];
                                 var5 = var4.bind(var1)(var3);
                                 var4 = var5.setMode;
-                                var2 = _closure1_slot8;
+                                var2 = _closure1_slot10;
                                 var3 = var2.VOICE_ACTIVITY;
                                 var2 = {};
                                 var6 = _closure4_slot0;
@@ -234,12 +256,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 return var1;
                             }
                         };
-                        var2 = var3.bind(var4)(var2);
- 227:
+                        var1 = var2.bind(var3)(var1);
+ 289:
+                        var1 = undefined;
                         return var1;
                     }
                 };
-                var1['handlePostConnectionOpen'] = var2;
+                var1['handleAppStateUpdate'] = var2;
                 return var1;
             }
         };
@@ -258,7 +281,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var4;
     var2 = new var13[var2](var12);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 10;
+    var4 = 11;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

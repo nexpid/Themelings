@@ -166,6 +166,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['SPONSORED_QUEST_SHEET'] = var6;
     var2 = 'SPONSORED_QUEST_SHEET';
     var4[var6] = var2;
+    var6 = 39;
+    var4['MOBILE_ORBS_ONBOARDING_DC'] = var6;
+    var2 = 'MOBILE_ORBS_ONBOARDING_DC';
+    var4[var6] = var2;
     var2 = {};
     var8 = var1.Set;
     var6 = var8.prototype;

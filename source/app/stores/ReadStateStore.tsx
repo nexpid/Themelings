@@ -1998,26 +1998,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot79;
             var2 = var3.get;
             var4 = var2.bind(var3)(var4);
-            if(var1) { _fun0033_ip = 91; continue _fun0033 }
+            if(var1) { _fun0033_ip = 87; continue _fun0033 }
  45:
             var1 = var4._ackMessageId;
             var1 = var6 !== var1;
-            if(!var1) { _fun0033_ip = 89; continue _fun0033 }
+            if(!var1) { _fun0033_ip = 85; continue _fun0033 }
  58:
             var3 = var4.ack;
             var2 = {'messageId': null, 'local': true, 'trackAnalytics': false};
             var2['messageId'] = var6;
             var1 = var3.bind(var4)(var2);
- 89:
-            _fun0033_ip = 118; continue _fun0033;
- 91:
+ 85:
+            _fun0033_ip = 114; continue _fun0033;
+ 87:
             var3 = var4.rebuildChannelState;
             var2 = true;
             var3 = var3.bind(var4)(var6, var2, var5);
             var3 = var4.clearOutgoingAck;
             var3 = var3.bind(var4)();
             var1 = true;
- 118:
+ 114:
             return var1;
         }
     };
@@ -5278,7 +5278,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var6 / var2;
                 var2 = var3.bind(var5)(var2);
                 var3 = var4.lastViewed;
-                if(!(var2 !== var3)) { _fun0085_ip = 174; continue _fun0085 }
+                if(!(var2 !== var3)) { _fun0085_ip = 170; continue _fun0085 }
  114:
                 var4['lastViewed'] = var2;
                 var2 = var4.canTrackUnreads;
@@ -5289,12 +5289,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var3.bind(var4)();
                 var2 = !var3;
  146:
-                if(!var2) { _fun0085_ip = 174; continue _fun0085 }
+                if(!var2) { _fun0085_ip = 170; continue _fun0085 }
  149:
                 var3 = var4.ack;
                 var2 = {'force': true, 'trackAnalytics': false};
                 var2 = var3.bind(var4)(var2);
- 174:
+ 170:
                 return var1;
             }
         };
@@ -8024,14 +8024,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var4 = var1.channelId;
             var1 = null;
-            if(!(var1 != var4)) { _fun0139_ip = 127; continue _fun0139 }
+            if(!(var1 != var4)) { _fun0139_ip = 123; continue _fun0139 }
  14:
             var3 = _closure1_slot79;
             var2 = var3.get;
             var3 = var2.bind(var3)(var4);
             var2 = var3.hasMentions;
             var2 = var2.bind(var3)();
-            if(var2) { _fun0139_ip = 127; continue _fun0139 }
+            if(var2) { _fun0139_ip = 123; continue _fun0139 }
  44:
             var3['oldestUnreadMessageId'] = var1;
             var2 = var3.ack;
@@ -8049,7 +8049,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['location'] = var4;
             var1 = var2.bind(var3)(var1);
             return var1;
- 127:
+ 123:
             var1 = undefined;
             return var1;
         }
@@ -9149,7 +9149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  38:
             var6 = var4.id;
  43:
-            if(!(var3 != var6)) { _fun0160_ip = 125; continue _fun0160 }
+            if(!(var3 != var6)) { _fun0160_ip = 121; continue _fun0160 }
  47:
             var4 = _closure1_slot79;
             var3 = var4.get;
@@ -9157,7 +9157,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.MESSAGE_REQUESTS;
             var4 = var3.bind(var4)(var6, var2);
             var2 = var4.ackMessageId;
-            if(!(var5 !== var2)) { _fun0160_ip = 121; continue _fun0160 }
+            if(!(var5 !== var2)) { _fun0160_ip = 117; continue _fun0160 }
  82:
             var4['ackMessageId'] = var5;
             var3 = var4.ack;
@@ -9165,10 +9165,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['messageId'] = var5;
             var2 = var3.bind(var4)(var2);
             return var1;
- 121:
+ 117:
             var1 = false;
             return var1;
- 125:
+ 121:
             var1 = false;
             return var1;
         }

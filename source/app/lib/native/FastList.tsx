@@ -2542,7 +2542,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 if(!(var9 != var10)) { _fun0025_ip = 27; continue _fun0025 }
  18:
                 var2 = 0;
-                if(!(!(var10 < var2))) { _fun0025_ip = 490; continue _fun0025 }
+                if(!(!(var10 < var2))) { _fun0025_ip = 494; continue _fun0025 }
  27:
                 var2 = var1.dirty;
                 if(!var2) { _fun0025_ip = 46; continue _fun0025 }
@@ -2562,7 +2562,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = true;
                 var3 = var2;
                 var2 = undefined;
-                if(var1) { _fun0025_ip = 490; continue _fun0025 }
+                if(var1) { _fun0025_ip = 494; continue _fun0025 }
  97:
                 var13 = _closure1_slot33;
                 var1 = var3.value;
@@ -2666,13 +2666,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var13 = var5.bind(var6)();
                 var1 = var13.done;
                 var3 = var13;
-                if(var1) { _fun0025_ip = 490; continue _fun0025 }
+                if(var1) { _fun0025_ip = 494; continue _fun0025 }
  473:
                 _fun0025_ip = 97; continue _fun0025;
  478:
                 var1 = {'scrollPosition': 0, 'size': 0, 'sectionOffset': 0};
                 return var1;
- 490:
+ 494:
                 var1 = undefined;
                 return var1;
             }

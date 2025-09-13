@@ -16,7 +16,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.random;
             var2 = var1.bind(var2)();
             var1 = 0.1;
-            if(!(!(var2 > var1))) { _fun0001_ip = 278; continue _fun0001 }
+            if(!(!(var2 > var1))) { _fun0001_ip = 295; continue _fun0001 }
  38:
             var1 = var5.apiResponseTimestamp;
             var6 = null;
@@ -73,11 +73,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var1;
             var14 = var6;
             var6 = copyDataProperties(var15, var14);
-            var6 = var5.callerSource;
-            var5 = 'caller_source';
+            var7 = var5.callerSource;
+            var6 = 'caller_source';
+            var1[var6] = var7;
+            var6 = var5.adRequestId;
+            var5 = 'ad_request_id';
             var1[var5] = var6;
             var1 = var3.bind(var4)(var2, var1);
- 278:
+ 295:
             var1 = undefined;
             return var1;
         }
@@ -136,17 +139,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = this;
             var _closure3_slot0 = var3;
             var _closure3_slot1 = var6;
-            var5 = {};
+            var5 = {'initialSendTimestamp': null, 'endpoint': null, 'apiResponseTimestamp': null, 'wasSuccessful': false, 'callerSource': null, 'adRequestId': null};
             var1 = global;
             var7 = var1.Date;
             var4 = var7.now;
             var4 = var4.bind(var7)();
             var5['initialSendTimestamp'] = var4;
             var5['endpoint'] = var6;
-            var4 = null;
-            var5['apiResponseTimestamp'] = var4;
-            var4 = false;
-            var5['wasSuccessful'] = var4;
             var4 = arg2;
             var5['callerSource'] = var4;
             var4 = var3.pendingRequests;
@@ -191,36 +190,42 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = function value(arg1, arg2) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                var3 = arg1;
-                var1 = this;
-                var2 = arg2;
-                var6 = var2.wasSuccessful;
-                var4 = var1.pendingRequests;
-                var2 = var4.get;
-                var2 = var2.bind(var4)(var3);
-                var4 = null;
-                if(!(var4 != var2)) { _fun0003_ip = 114; continue _fun0003 }
- 37:
-                var5 = _closure1_slot7;
-                var4 = {};
-                var9 = var4;
-                var8 = var2;
-                var2 = copyDataProperties(var9, var8);
-                var2 = global;
-                var7 = var2.Date;
-                var2 = var7.now;
-                var7 = var2.bind(var7)();
-                var2 = 'apiResponseTimestamp';
-                var4[var2] = var7;
-                var2 = 'wasSuccessful';
-                var4[var2] = var6;
-                var2 = undefined;
-                var2 = var5.bind(var2)(var4);
-                var2 = var1.pendingRequests;
-                var1 = var2.delete;
-                var1 = var1.bind(var2)(var3);
- 114:
+                var4 = arg1;
+                var1 = arg2;
+                var2 = this;
+                var8 = var1.wasSuccessful;
+                var7 = var1.adRequestId;
                 var1 = undefined;
+                if(!(var7 === var1)) { _fun0003_ip = 29; continue _fun0003 }
+ 27:
+                var7 = null;
+ 29:
+                var5 = var2.pendingRequests;
+                var3 = var5.get;
+                var6 = var3.bind(var5)(var4);
+                var3 = null;
+                if(!(var3 != var6)) { _fun0003_ip = 135; continue _fun0003 }
+ 51:
+                var5 = _closure1_slot7;
+                var3 = {};
+                var11 = var3;
+                var10 = var6;
+                var6 = copyDataProperties(var11, var10);
+                var6 = global;
+                var9 = var6.Date;
+                var6 = var9.now;
+                var9 = var6.bind(var9)();
+                var6 = 'apiResponseTimestamp';
+                var3[var6] = var9;
+                var6 = 'wasSuccessful';
+                var3[var6] = var8;
+                var6 = 'adRequestId';
+                var3[var6] = var7;
+                var3 = var5.bind(var1)(var3);
+                var3 = var2.pendingRequests;
+                var2 = var3.delete;
+                var2 = var2.bind(var3)(var4);
+ 135:
                 return var1;
             }
         };

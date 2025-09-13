@@ -1,4 +1,4 @@
-// discord_assets/assets/premium/gifting/nitroween-coachmark.png.js
+// discord_assets/assets/premium/gifting/nitroween-coachmark-animated.png.js
 module.exports = (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -16,7 +16,7 @@ module.exports = (function(global, require, metroImportDefault, metroImportAll, 
     var1 = undefined;
     var5 = var2.bind(var1)(var4);
     var4 = var5.fileFinishedImporting;
-    var2 = '../discord_assets/assets/premium/gifting/nitroween-coachmark.png.js';
+    var2 = '../discord_assets/assets/premium/gifting/nitroween-coachmark-animated.png.js';
     var2 = var4.bind(var5)(var2);
     var2 = 'https://cdn.discordapp.com/assets/content/17a8c1cd35fb9499b4ab475c660c127a209d4e545f7d021ec197866daabf8800.png';
     var3['default'] = var2;

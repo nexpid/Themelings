@@ -80,10 +80,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var15.isIOS;
         var15 = var14.bind(var15)();
         var14 = undefined;
-        if(!var15) { _fun0001_ip = 349; continue _fun0001 }
- 346:
+        if(!var15) { _fun0001_ip = 347; continue _fun0001 }
+ 344:
         var14 = 60;
- 349:
+ 347:
         var9['fontSize'] = var14;
         var14 = 74;
         var9['lineHeight'] = var14;

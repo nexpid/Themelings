@@ -362,95 +362,132 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-            var4 = arg1;
-            var9 = var4.isSelected;
-            var10 = var4.skuId;
-            var8 = var4.children;
-            var3 = {'isSelected': 0, 'skuId': 0, 'children': 0};
-            var1 = null;
-            var17 = var3;
-            var16 = null;
-            var2 = silentSetPrototypeOf(var17, var16);
-            var17 = {};
-            var16 = var4;
-            var15 = var3;
-            var6 = copyDataProperties(var17, var16, var15);
-            var2 = _closure1_slot9;
+            var3 = arg1;
+            var13 = var3.isSelected;
+            var16 = var3.skuId;
+            var10 = var3.children;
+            var2 = {'isSelected': 0, 'skuId': 0, 'children': 0};
+            var7 = null;
+            var19 = var2;
+            var18 = null;
+            var1 = silentSetPrototypeOf(var19, var18);
+            var19 = {};
+            var18 = var3;
+            var17 = var2;
+            var6 = copyDataProperties(var19, var18, var17);
+            var1 = _closure1_slot9;
             var4 = undefined;
-            var11 = var2.bind(var4)();
+            var12 = var1.bind(var4)();
             var5 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 19;
-            var2 = var3[var2];
-            var14 = var5.bind(var4)(var2);
-            var13 = var14.useStateFromStores;
-            var2 = _closure1_slot5;
-            var12 = new Array(1);
-            var12[0] = var2;
-            var2 = function() {
+            var1 = 19;
+            var1 = var3[var1];
+            var11 = var5.bind(var4)(var1);
+            var9 = var11.useStateFromStores;
+            var1 = _closure1_slot5;
+            var2 = new Array(1);
+            var2[0] = var1;
+            var1 = function() {
                 var2 = _closure1_slot5;
                 var1 = var2.getCurrentUser;
                 var1 = var1.bind(var2)();
                 return var1;
             };
-            var14 = var13.bind(var14)(var12, var2);
-            var13 = _closure1_slot1;
-            var2 = 20;
-            var2 = var3[var2];
-            var12 = var13.bind(var4)(var2);
-            var2 = var12.canUseCollectibles;
-            var2 = var2.bind(var12)(var14);
-            var12 = 21;
-            var12 = var3[var12];
-            var12 = var13.bind(var4)(var12);
-            var12 = var12.bind(var4)(var10);
-            var12 = var12.purchase;
-            var13 = 22;
-            var3 = var3[var13];
+            var11 = var9.bind(var11)(var2, var1);
+            var9 = _closure1_slot1;
+            var1 = 20;
+            var1 = var3[var1];
+            var2 = var9.bind(var4)(var1);
+            var1 = var2.canUseCollectibles;
+            var2 = var1.bind(var2)(var11);
+            var1 = 21;
+            var1 = var3[var1];
+            var1 = var9.bind(var4)(var1);
+            var1 = var1.bind(var4)(var16);
+            var9 = var1.product;
+            var1 = var1.purchase;
+            var15 = 22;
+            var11 = var3[var15];
+            var14 = var5.bind(var4)(var11);
+            var11 = var14.isProductNew;
+            var11 = var11.bind(var14)(var16);
+            var3 = var3[var15];
             var5 = var5.bind(var4)(var3);
-            var3 = var5.isProductNew;
-            var10 = var3.bind(var5)(var10);
-            var5 = var1 == var12;
-            if(var5) { _fun0003_ip = 237; continue _fun0003 }
- 200:
-            var3 = _closure1_slot0;
-            var1 = _closure1_slot2;
-            var1 = var1[var13];
-            var3 = var3.bind(var4)(var1);
-            var1 = var3.isPremiumCollectiblesPurchase;
-            var1 = var1.bind(var3)(var12);
-            if(!var1) { _fun0003_ip = 234; continue _fun0003 }
- 231:
-            var1 = !var2;
- 234:
-            var5 = var1;
- 237:
+            var3 = var5.isPremiumCollectiblesProduct;
+            var3 = var3.bind(var5)(var9);
+            var5 = var7 == var1;
+            if(var5) { _fun0003_ip = 263; continue _fun0003 }
+ 226:
+            var14 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var9 = var9[var15];
+            var14 = var14.bind(var4)(var9);
+            var9 = var14.isPremiumCollectiblesPurchase;
+            var9 = var9.bind(var14)(var1);
+            if(!var9) { _fun0003_ip = 260; continue _fun0003 }
+ 257:
+            var9 = !var2;
+ 260:
+            var5 = var9;
+ 263:
+            var9 = var3;
+            if(!var9) { _fun0003_ip = 272; continue _fun0003 }
+ 269:
+            var9 = var2;
+ 272:
+            if(!var9) { _fun0003_ip = 279; continue _fun0003 }
+ 275:
+            var9 = var7 == var1;
+ 279:
             var3 = _closure1_slot8;
             var2 = _closure1_slot10;
             var1 = {};
-            var1['isSelected'] = var9;
-            var17 = var1;
-            var16 = var6;
-            var6 = copyDataProperties(var17, var16);
+            var1['isSelected'] = var13;
+            var19 = var1;
+            var18 = var6;
+            var6 = copyDataProperties(var19, var18);
             var6 = new Array(2);
-            var6[0] = var8;
-            if(!var5) { _fun0003_ip = 334; continue _fun0003 }
- 273:
-            var9 = _closure1_slot7;
-            var8 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var7 = 18;
-            var7 = var12[var7];
-            var7 = var8.bind(var4)(var7);
-            var8 = var7.LockBadge;
-            var7 = {};
-            var12 = var11.lockIcon;
-            var11 = new Array(1);
-            var11[0] = var12;
-            var7['style'] = var11;
-            var7['isNew'] = var10;
-            var5 = var9.bind(var4)(var8, var7);
- 334:
+            var6[0] = var10;
+            if(!var5) { _fun0003_ip = 381; continue _fun0003 }
+ 315:
+            if(var9) { _fun0003_ip = 381; continue _fun0003 }
+ 318:
+            var13 = _closure1_slot7;
+            var10 = _closure1_slot0;
+            var14 = _closure1_slot2;
+            var5 = 18;
+            var5 = var14[var5];
+            var5 = var10.bind(var4)(var5);
+            var10 = var5.LockBadge;
+            var5 = {};
+            var15 = var12.lockIcon;
+            var14 = new Array(1);
+            var14[0] = var15;
+            var5['style'] = var14;
+            var5['isNew'] = var11;
+            var5 = var13.bind(var4)(var10, var5);
+            _fun0003_ip = 450; continue _fun0003;
+ 381:
+            var7 = null;
+            if(!var9) { _fun0003_ip = 447; continue _fun0003 }
+ 386:
+            var10 = _closure1_slot7;
+            var9 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var8 = 18;
+            var8 = var13[var8];
+            var8 = var9.bind(var4)(var8);
+            var9 = var8.PremiumBadge;
+            var8 = {};
+            var13 = var12.lockIcon;
+            var12 = new Array(1);
+            var12[0] = var13;
+            var8['style'] = var12;
+            var8['isNew'] = var11;
+            var7 = var10.bind(var4)(var9, var8);
+ 447:
+            var5 = var7;
+ 450:
             var6[1] = var5;
             var5 = 'children';
             var1[var5] = var6;
