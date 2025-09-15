@@ -393,15 +393,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8['resizeMode'] = var16;
             var16 = {};
             var21 = _closure1_slot2;
-            if(var18) { _fun0002_ip = 511; continue _fun0002 }
- 502:
+            if(var18) { _fun0002_ip = 515; continue _fun0002 }
+ 506:
             var18 = 22;
             var18 = var21[var18];
-            _fun0002_ip = 518; continue _fun0002;
- 511:
+            _fun0002_ip = 522; continue _fun0002;
+ 515:
             var20 = 21;
             var18 = var21[var20];
- 518:
+ 522:
             var18 = var19.bind(var4)(var18);
             var16['uri'] = var18;
             var8['source'] = var16;

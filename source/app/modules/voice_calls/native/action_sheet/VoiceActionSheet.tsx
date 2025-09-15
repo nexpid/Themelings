@@ -149,9 +149,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var4)(var3);
             var3 = var5.requiresVoiceChannelsOnboard;
             var3 = var3.bind(var5)();
-            if(var3) { _fun0001_ip = 450; continue _fun0001 }
+            if(var3) { _fun0001_ip = 454; continue _fun0001 }
  168:
-            if(var2) { _fun0001_ip = 338; continue _fun0001 }
+            if(var2) { _fun0001_ip = 342; continue _fun0001 }
  174:
             var5 = _closure1_slot6;
             var3 = _closure1_slot0;
@@ -190,8 +190,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var10.bind(var4)(var9, var8);
             var2['children'] = var8;
             var5 = var5.bind(var4)(var3, var2);
-            _fun0001_ip = 448; continue _fun0001;
- 338:
+            _fun0001_ip = 452; continue _fun0001;
+ 342:
             var8 = _closure1_slot7;
             var3 = _closure1_slot0;
             var14 = _closure1_slot2;
@@ -219,9 +219,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9[1] = var10;
             var2['children'] = var9;
             var5 = var8.bind(var4)(var3, var2);
- 448:
-            _fun0001_ip = 520; continue _fun0001;
- 450:
+ 452:
+            _fun0001_ip = 524; continue _fun0001;
+ 454:
             var8 = _closure1_slot6;
             var3 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -239,7 +239,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var8.bind(var4)(var10, var9);
             var2['children'] = var9;
             var5 = var8.bind(var4)(var3, var2);
- 520:
+ 524:
             var3 = _closure1_slot6;
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;

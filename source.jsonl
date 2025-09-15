@@ -212,7 +212,7 @@
 { "file": "app/modules/collectibles/utils/mappers.tsx", "size": 2649 }
 { "file": "app/modules/staff/StaffMemberPreloader.tsx", "size": 2396 }
 { "file": "app/modules/staff/StaffMemberConstants.tsx", "size": 679 }
-{ "file": "app/actions/GuildActionCreators.tsx", "size": 95452 }
+{ "file": "app/actions/GuildActionCreators.tsx", "size": 95459 }
 { "file": "app/stores/ExpandedGuildFolderStore.tsx", "size": 18238 }
 { "file": "app/stores/GuildChannelStore.tsx", "size": 50216 }
 { "file": "app/modules/channel/GatedChannelStore.tsx", "size": 31824 }
@@ -940,7 +940,7 @@
 { "file": "app/modules/threads/ActiveJoinedThreadsStore.tsx", "size": 81862 }
 { "file": "app/stores/GuildNSFWAgreeStore.tsx", "size": 7201 }
 { "file": "app/modules/age_assurance/AgeVerificationLargeServersExperiment.tsx", "size": 1720 }
-{ "file": "app/modules/age_assurance/AgeVerificationUtils.tsx", "size": 27864 }
+{ "file": "app/modules/age_assurance/AgeVerificationUtils.tsx", "size": 28842 }
 { "file": "app/stores/MessageStore.tsx", "size": 87143 }
 { "file": "app/lib/ChannelMessages.tsx", "size": 119182 }
 { "file": "app/flow/Client.tsx", "size": 2407 }

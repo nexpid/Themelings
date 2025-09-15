@@ -1,71 +1,96 @@
 // app/modules/age_assurance/AgeVerificationUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var8 = require;
-    var5 = metroImportDefault;
+    var6 = metroImportDefault;
     var3 = exports;
     var9 = dependencyMap;
     var _closure1_slot0 = var8;
-    var _closure1_slot1 = var5;
+    var _closure1_slot1 = var6;
     var _closure1_slot2 = var9;
-    var1 = global;
-    var7 = var1.Object;
-    var6 = var7.defineProperty;
-    var4 = {};
+    var4 = global;
+    var10 = var4.Object;
+    var7 = var10.defineProperty;
+    var5 = {};
     var1 = true;
-    var4['value'] = var1;
+    var5['value'] = var1;
     var1 = '__esModule';
-    var1 = var6.bind(var7)(var3, var1, var4);
+    var1 = var7.bind(var10)(var3, var1, var5);
     var1 = 0;
-    var4 = var9[var1];
+    var5 = var9[var1];
     var1 = undefined;
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot3 = var4;
-    var4 = 1;
-    var4 = var9[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot4 = var4;
-    var4 = 2;
-    var6 = var9[var4];
-    var4 = metroImportAll;
-    var4 = var4.bind(var1)(var6);
-    var _closure1_slot5 = var4;
-    var4 = 3;
-    var4 = var9[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot6 = var4;
-    var4 = 4;
-    var4 = var9[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 5;
-    var4 = var9[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot8 = var4;
-    var4 = 6;
-    var4 = var9[var4];
-    var4 = var8.bind(var1)(var4);
-    var4 = var4.FULLSCREEN_AGE_VERIFICATION_ENTRY_POINTS;
-    var _closure1_slot9 = var4;
-    var4 = 7;
-    var4 = var9[var4];
-    var4 = var8.bind(var1)(var4);
-    var4 = var4.MessageEmbedTypes;
-    var _closure1_slot10 = var4;
-    var4 = 8;
-    var4 = var9[var4];
-    var4 = var8.bind(var1)(var4);
-    var4 = var4.SafetyToastType;
-    var _closure1_slot11 = var4;
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot3 = var5;
+    var5 = 1;
+    var5 = var9[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot4 = var5;
+    var5 = 2;
+    var7 = var9[var5];
+    var5 = metroImportAll;
+    var5 = var5.bind(var1)(var7);
+    var _closure1_slot5 = var5;
+    var5 = 3;
+    var5 = var9[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot6 = var5;
+    var5 = 4;
+    var5 = var9[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot7 = var5;
+    var5 = 5;
+    var5 = var9[var5];
+    var5 = var6.bind(var1)(var5);
+    var _closure1_slot8 = var5;
+    var5 = 6;
+    var5 = var9[var5];
+    var5 = var8.bind(var1)(var5);
+    var5 = var5.FULLSCREEN_AGE_VERIFICATION_ENTRY_POINTS;
+    var _closure1_slot9 = var5;
+    var5 = 7;
+    var5 = var9[var5];
+    var5 = var8.bind(var1)(var5);
+    var5 = var5.MessageEmbedTypes;
+    var _closure1_slot10 = var5;
+    var5 = 8;
+    var5 = var9[var5];
+    var5 = var8.bind(var1)(var5);
+    var5 = var5.AgeGateSource;
+    var6 = 9;
+    var6 = var9[var6];
+    var6 = var8.bind(var1)(var6);
+    var6 = var6.SafetyToastType;
+    var _closure1_slot11 = var6;
+    var6 = var4.Set;
+    var7 = var5.NSFW_SERVER;
+    var4 = new Array(6);
+    var4[0] = var7;
+    var7 = var5.NSFW_SERVER_INVITE;
+    var4[1] = var7;
+    var7 = var5.NSFW_SERVER_INVITE_EMBED;
+    var4[2] = var7;
+    var7 = var5.LARGE_GUILD;
+    var4[3] = var7;
+    var7 = var5.JOIN_LARGE_GUILD_UNDERAGE;
+    var4[4] = var7;
+    var5 = var5.ACCESS_LARGE_GUILD_UNDERAGE;
+    var4[5] = var5;
+    var5 = var6.prototype;
+    var5 = Object.create(var5, {constructor: {value: var6}});
+    var14 = var5;
+    var13 = var4;
+    var4 = new var14[var6](var13, var12);
+    var4 = var4 instanceof Object ? var4 : var5;
+    var _closure1_slot12 = var4;
     var6 = {};
     var4 = 'ctas';
     var6['CTAS'] = var4;
     var4 = 'content_type';
     var6['CONTENT_TYPE'] = var4;
-    var _closure1_slot12 = var6;
+    var _closure1_slot13 = var6;
     var5 = {};
     var4 = 'retry';
     var5['RETRY'] = var4;
-    var _closure1_slot13 = var5;
+    var _closure1_slot14 = var5;
     var4 = {};
     var7 = 'verified_adult';
     var4['VERIFIED_ADULT'] = var7;
@@ -73,12 +98,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['VERIFIED_TEEN'] = var7;
     var7 = 'error';
     var4['ERROR'] = var7;
-    var7 = 17;
+    var7 = 18;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;
     var7 = 'modules/age_assurance/AgeVerificationUtils.tsx';
     var7 = var8.bind(var9)(var7);
+    var7 = function(arg1) {
+        var3 = _closure1_slot12;
+        var2 = var3.has;
+        var1 = arg1;
+        var1 = var2.bind(var3)(var1);
+        return var1;
+    };
+    var3['ageGateSourceHasLightboxBackdrop'] = var7;
     var7 = function shouldShowTiggerPawtect() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -95,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  35:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -110,7 +143,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 10;
+            var2 = 11;
             var2 = var4[var2];
             var4 = undefined;
             var6 = var3.bind(var4)(var2);
@@ -134,7 +167,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  72:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -160,7 +193,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  35:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -175,7 +208,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 10;
+            var2 = 11;
             var2 = var4[var2];
             var4 = undefined;
             var6 = var3.bind(var4)(var2);
@@ -199,7 +232,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  72:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -225,7 +258,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  35:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -240,7 +273,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var2 = 10;
+            var2 = 11;
             var2 = var4[var2];
             var4 = undefined;
             var6 = var3.bind(var4)(var2);
@@ -264,7 +297,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  72:
             var3 = _closure1_slot0;
             var5 = _closure1_slot2;
-            var1 = 9;
+            var1 = 10;
             var1 = var5[var1];
             var1 = var3.bind(var4)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -315,7 +348,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function(arg1) {
                 var1 = arg1;
                 var2 = var1.rawName;
-                var1 = _closure1_slot12;
+                var1 = _closure1_slot13;
                 var1 = var1.CTAS;
                 var1 = var2 === var1;
                 return var1;
@@ -330,7 +363,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = ',';
             var4 = var4.bind(var5)(var3);
             var3 = var4.includes;
-            var2 = _closure1_slot13;
+            var2 = _closure1_slot14;
             var2 = var2.RETRY;
             var1 = var3.bind(var4)(var2);
  198:
@@ -357,7 +390,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  35:
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var6 = 9;
+            var6 = 10;
             var1 = var1[var6];
             var1 = var8.bind(var5)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -388,7 +421,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 10;
+            var1 = 11;
             var1 = var4[var1];
             var5 = undefined;
             var6 = var3.bind(var5)(var1);
@@ -412,7 +445,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  72:
             var8 = _closure1_slot0;
             var1 = _closure1_slot2;
-            var6 = 9;
+            var6 = 10;
             var1 = var1[var6];
             var1 = var8.bind(var5)(var1);
             var1 = var1.AgeVerificationStatusUkAndAusOnly;
@@ -479,7 +512,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot4 = var7;
             var9 = _closure1_slot0;
             var12 = _closure1_slot2;
-            var7 = 10;
+            var7 = 11;
             var7 = var12[var7];
             var13 = var9.bind(var2)(var7);
             var12 = var13.useStateFromStores;
@@ -515,7 +548,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
-                    var1 = 11;
+                    var1 = 12;
                     var3 = var3[var1];
                     var1 = undefined;
                     var6 = var4.bind(var1)(var3);
@@ -531,7 +564,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  65:
                     var3 = _closure1_slot1;
                     var4 = _closure1_slot2;
-                    var2 = 12;
+                    var2 = 13;
                     var2 = var4[var2];
                     var4 = var3.bind(var1)(var2);
                     var3 = var4.maybeOpenAgeVerificationUserFeedback;
@@ -568,7 +601,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  32: // try_start_0 // try_start_1
                             var7 = _closure1_slot1;
                             var9 = _closure1_slot2;
-                            var6 = 11;
+                            var6 = 12;
                             var6 = var9[var6];
                             var10 = var7.bind(var5)(var6);
                             var7 = var10.dispatch;
@@ -577,7 +610,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var6['type'] = var11;
                             var6 = var7.bind(var10)(var6);
                             var7 = _closure1_slot0;
-                            var6 = 13;
+                            var6 = 14;
                             var6 = var9[var6];
                             var7 = var7.bind(var5)(var6);
                             var6 = var7.initiateVerification;
@@ -591,7 +624,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  114:
                             var6 = _closure1_slot1;
                             var7 = _closure1_slot2;
-                            var4 = 14;
+                            var4 = 15;
                             var4 = var7[var4];
                             var7 = var6.bind(var5)(var4);
                             var6 = var7.showAgeVerification;
@@ -619,7 +652,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             CatchBlockStart(arg_register=1);
                             var6 = _closure1_slot1;
                             var7 = _closure1_slot2;
-                            var4 = 15;
+                            var4 = 16;
                             var4 = var7[var4];
                             var6 = var6.bind(var5)(var4);
                             var4 = var6.showFailedToast;
@@ -679,7 +712,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var8;
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var7 = 10;
+            var7 = 11;
             var4 = var11[var7];
             var1 = undefined;
             var9 = var10.bind(var1)(var4);
@@ -705,7 +738,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var9 = var6.bind(var9)(var5, var4);
             var5 = _closure1_slot1;
-            var4 = 16;
+            var4 = 17;
             var4 = var11[var4];
             var4 = var5.bind(var1)(var4);
             var6 = var4.bind(var1)(var9);

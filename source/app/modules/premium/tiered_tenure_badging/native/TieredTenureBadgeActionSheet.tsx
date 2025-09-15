@@ -607,10 +607,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.BottomSheet;
             var1 = {'scrollable': true, 'startExpanded': true};
             var6 = undefined;
-            if(!var12) { _fun0002_ip = 1185; continue _fun0002 }
- 1182:
+            if(!var12) { _fun0002_ip = 1189; continue _fun0002 }
+ 1186:
             var6 = var7;
- 1185:
+ 1189:
             var1['footer'] = var6;
             var7 = _closure1_slot11;
             var6 = _closure1_slot0;

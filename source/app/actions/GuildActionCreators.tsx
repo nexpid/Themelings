@@ -2022,7 +2022,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 16;
             var3 = var3[var6];
             var4 = var4.bind(var1)(var3);
-            var3 = var4.shouldShowReverifyForLargeGuildId;
+            var3 = var4.shouldShowAgeVerificationForLargeGuildId;
             var3 = var3.bind(var4)(var8);
             var4 = null;
             if(!(var4 != var8)) { _fun0014_ip = 230; continue _fun0014 }
