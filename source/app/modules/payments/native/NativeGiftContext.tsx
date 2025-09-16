@@ -58,9 +58,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 8;
     var2 = var8[var2];
     var2 = var7.bind(var1)(var2);
-    var2 = var2.jsx;
+    var2 = var2.PaymentGateways;
     var _closure1_slot13 = var2;
     var2 = 9;
+    var2 = var8[var2];
+    var2 = var7.bind(var1)(var2);
+    var2 = var2.jsx;
+    var _closure1_slot14 = var2;
+    var2 = 10;
     var2 = var8[var2];
     var14 = var12.bind(var1)(var2);
     var2 = var14.prototype;
@@ -69,17 +74,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = var13;
     var2 = new var18[var14](var17, var16);
     var2 = var2 instanceof Object ? var2 : var13;
-    var _closure1_slot14 = var2;
-    var2 = 10;
+    var _closure1_slot15 = var2;
+    var2 = 11;
     var2 = var8[var2];
     var2 = var12.bind(var1)(var2);
     var2 = var2.bind(var1)();
     var2 = var11.bind(var1)(var2, var10);
     var9 = var2[var9];
-    var _closure1_slot15 = var9;
+    var _closure1_slot16 = var9;
     var4 = var2[var4];
     var2 = var2[var6];
-    var6 = 24;
+    var6 = 25;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -166,7 +171,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot7 = var3;
             var8 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var3 = 11;
+            var3 = 12;
             var3 = var11[var3];
             var13 = var8.bind(var5)(var3);
             var3 = var13.useGiftStyles;
@@ -181,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var4];
             _closure2_slot9 = var3;
             var17 = var13.useState;
-            var3 = 12;
+            var3 = 13;
             var18 = var11[var3];
             var18 = var8.bind(var5)(var18);
             var19 = var18.intl;
@@ -212,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var4];
             _closure2_slot15 = var3;
             var17 = _closure1_slot1;
-            var3 = 13;
+            var3 = 14;
             var3 = var11[var3];
             var18 = var17.bind(var5)(var3);
             var17 = var18.useConfig;
@@ -244,13 +249,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot21 = var10;
             var9 = var3[var4];
             _closure2_slot22 = var9;
-            var3 = 14;
+            var3 = 15;
             var3 = var11[var3];
             var4 = var8.bind(var5)(var3);
             var3 = var4.getPlanIdForPremiumType;
             var4 = var3.bind(var4)(var24, var23);
             _closure2_slot23 = var4;
-            var3 = 15;
+            var3 = 16;
             var3 = var11[var3];
             var8 = var8.bind(var5)(var3);
             var3 = var8.getProductIdForGift;
@@ -264,13 +269,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot25 = var33;
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
-            var3 = 16;
+            var3 = 17;
             var3 = var8[var3];
             var11 = var7.bind(var5)(var3);
             var3 = var11.useHandlePremiumPurchase;
             var31 = var3.bind(var11)();
             _closure2_slot26 = var31;
-            var3 = 17;
+            var3 = 18;
             var11 = var8[var3];
             var12 = var7.bind(var5)(var11);
             var11 = var12.useClaimableGiftingPromotionRewards;
@@ -281,7 +286,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var11.useClaimableGiftingPromotionVariantsRewards;
             var11 = var3.bind(var11)();
             _closure2_slot28 = var11;
-            var3 = 18;
+            var3 = 19;
             var3 = var8[var3];
             var13 = var7.bind(var5)(var3);
             var8 = var13.useStateFromStores;
@@ -449,7 +454,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  76:
                         var4 = _closure1_slot1;
                         var6 = _closure1_slot2;
-                        var3 = 19;
+                        var3 = 20;
                         var3 = var6[var3];
                         var5 = var4.bind(var5)(var3);
                         var4 = var5.unsubscribe;
@@ -483,7 +488,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  10:
                             var5 = _closure1_slot1;
                             var6 = _closure1_slot2;
-                            var2 = 19;
+                            var2 = 20;
                             var4 = var6[var2];
                             var2 = undefined;
                             var8 = var5.bind(var2)(var4);
@@ -492,7 +497,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = arg1;
                             var4 = var7.bind(var8)(var5, var4);
                             var5 = _closure1_slot0;
-                            var4 = 20;
+                            var4 = 21;
                             var4 = var6[var4];
                             var5 = var5.bind(var2)(var4);
                             var4 = var5.isAndroid;
@@ -509,7 +514,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  112:
                             var4 = _closure1_slot0;
                             var6 = _closure1_slot2;
-                            var3 = 21;
+                            var3 = 22;
                             var3 = var6[var3];
                             var4 = var4.bind(var2)(var3);
                             var3 = var4.markOrderAsSigningInProgress;
@@ -555,7 +560,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function(arg1) {
                 var4 = _closure1_slot1;
                 var6 = _closure1_slot2;
-                var1 = 19;
+                var1 = 20;
                 var2 = var6[var1];
                 var1 = undefined;
                 var7 = var4.bind(var1)(var2);
@@ -565,7 +570,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var5.bind(var7)(var4, var2);
                 var4 = _closure2_slot3;
                 var5 = _closure1_slot0;
-                var3 = 22;
+                var3 = 23;
                 var3 = var6[var3];
                 var3 = var5.bind(var1)(var3);
                 var3 = var3.PaymentFlowStep;
@@ -588,7 +593,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0006_ip = 613; continue _fun0006 }
+                            if(var2) { _fun0006_ip = 668; continue _fun0006 }
  12:
                             var2 = undefined;
                             var _closure5_slot0 = var2;
@@ -602,20 +607,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = var4.bind(var2)(var3);
                             _closure5_slot1 = var3;
                             var3 = _closure2_slot16;
-                            if(!var3) { _fun0006_ip = 364; continue _fun0006 }
+                            if(!var3) { _fun0006_ip = 419; continue _fun0006 }
  66: // try_start_0
-                            var10 = _closure1_slot0;
-                            var11 = _closure1_slot2;
-                            var9 = 21;
-                            var3 = var11[var9];
-                            var6 = var10.bind(var2)(var3);
+                            var12 = _closure1_slot0;
+                            var13 = _closure1_slot2;
+                            var11 = 22;
+                            var3 = var13[var11];
+                            var6 = var12.bind(var2)(var3);
                             var4 = var6.createOrder;
                             var3 = {};
-                            var12 = _closure2_slot25;
-                            var3['skuId'] = var12;
-                            var12 = _closure2_slot1;
-                            var3['recipientUserId'] = var12;
-                            var9 = var11[var9];
+                            var10 = _closure2_slot25;
+                            var3['skuId'] = var10;
+                            var10 = 21;
+                            var10 = var13[var10];
+                            var12 = var12.bind(var2)(var10);
+                            var10 = var12.isAndroid;
+                            var10 = var10.bind(var12)();
+                            var12 = _closure1_slot13;
+                            if(var10) { _fun0006_ip = 142; continue _fun0006 }
+ 134:
+                            var10 = var12.APPLE;
+                            _fun0006_ip = 148; continue _fun0006;
+ 142:
+                            var10 = var12.GOOGLE;
+ 148:
+                            var3['paymentGateway'] = var10;
+                            var10 = _closure2_slot1;
+                            var3['recipientUserId'] = var10;
+                            var10 = _closure1_slot0;
+                            var9 = _closure1_slot2;
+                            var9 = var9[var11];
                             var9 = var10.bind(var2)(var9);
                             var9 = var9.ItemPurchaseType;
                             var9 = var9.ONE_TIME;
@@ -642,19 +663,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var9['custom_message_contents'] = var10;
                             var3['giftInfo'] = var9;
                             var3 = var4.bind(var6)(var3);
-                            SaveGenerator(address=252);
- 250:
+                            SaveGenerator(address=307);
+ 305:
                             return var3;
- 252:
+ 307:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                            if(var4) { _fun0006_ip = 260; continue _fun0006 }
- 258: // try_end0
-                            _fun0006_ip = 364; continue _fun0006;
- 260:
+                            if(var4) { _fun0006_ip = 315; continue _fun0006 }
+ 313: // try_end0
+                            _fun0006_ip = 419; continue _fun0006;
+ 315:
                             return var3;
- 263: // catch_target0
+ 318: // catch_target0
                             CatchBlockStart(arg_register=8);
-                            var11 = _closure1_slot14;
+                            var11 = _closure1_slot15;
                             var10 = var11.error;
                             var6 = {};
                             var6['error'] = var9;
@@ -664,7 +685,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var4 = var10.bind(var11)(var4, var6);
                             var4 = _closure1_slot0;
                             var6 = _closure1_slot2;
-                            var3 = 23;
+                            var3 = 24;
                             var3 = var6[var3];
                             var6 = var4.bind(var2)(var3);
                             var4 = var6.captureBillingException;
@@ -676,16 +697,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var10['source'] = var11;
                             var3['tags'] = var10;
                             var3 = var4.bind(var6)(var9, var3);
- 364:
+ 419:
                             var4 = _closure1_slot0;
                             var9 = _closure1_slot2;
-                            var3 = 20;
+                            var3 = 21;
                             var3 = var9[var3];
                             var4 = var4.bind(var2)(var3);
                             var3 = var4.isAndroid;
                             var3 = var3.bind(var4)();
-                            if(!var3) { _fun0006_ip = 448; continue _fun0006 }
- 399:
+                            if(!var3) { _fun0006_ip = 503; continue _fun0006 }
+ 454:
                             var10 = function handleGPlayUpdatePurchaseAction(arg1) {
                                 _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
@@ -697,7 +718,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  26:
                                     var2 = _closure1_slot1;
                                     var3 = _closure1_slot2;
-                                    var1 = 19;
+                                    var1 = 20;
                                     var1 = var3[var1];
                                     var3 = undefined;
                                     var6 = var2.bind(var3)(var1);
@@ -716,17 +737,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             _closure5_slot2 = var10;
                             var4 = _closure1_slot1;
                             var9 = _closure1_slot2;
-                            var3 = 19;
+                            var3 = 20;
                             var3 = var9[var3];
                             var9 = var4.bind(var2)(var3);
                             var4 = var9.subscribe;
                             var3 = 'GPLAY_UPDATE_PURCHASE_STATE';
                             var3 = var4.bind(var9)(var3, var10);
- 448:
+ 503:
                             var4 = _closure2_slot3;
                             var9 = _closure1_slot0;
                             var10 = _closure1_slot2;
-                            var3 = 22;
+                            var3 = 23;
                             var3 = var10[var3];
                             var3 = var9.bind(var2)(var3);
                             var3 = var3.PaymentFlowStep;
@@ -800,7 +821,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3['onPurchaseError'] = var5;
                             var3 = var4.bind(var2)(var3);
                             return var2;
- 613:
+ 668:
                             return var1;
                         }
                     };
@@ -911,8 +932,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var7 = var7.bind(var8)(var2, var3);
-            var3 = _closure1_slot13;
-            var1 = _closure1_slot15;
+            var3 = _closure1_slot14;
+            var1 = _closure1_slot16;
             var2 = var1.Provider;
             var1 = {};
             var1['value'] = var7;

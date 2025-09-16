@@ -588,6 +588,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CUSTOM_THEMES_EDITOR'] = var1;
     var1 = 'automod profile quarantine alert';
     var2['AUTOMOD_PROFILE_QUARANTINE_ALERT'] = var1;
+    var1 = 'automod nagbar notice';
+    var2['AUTOMOD_NAGBAR_NOTICE'] = var1;
     var1 = 'share nitro embed';
     var2['SHARE_NITRO_EMBED'] = var1;
     var1 = 'share custom client theme embed';
@@ -973,6 +975,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['CLOUD_PLAY_POPOVER'] = var1;
     var1 = 'now playing item rich presence section';
     var2['NOW_PLAYING_ITEM_RICH_PRESENCE_SECTION'] = var1;
+    var1 = 'now playing item game section';
+    var2['NOW_PLAYING_ITEM_GAME_SECTION'] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

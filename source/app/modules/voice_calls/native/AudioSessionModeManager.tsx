@@ -38,13 +38,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot20 = var2;
+            _closure1_slot19 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot20 = var1;
+    var _closure1_slot19 = var1;
     var1 = function handleAVAudioSessionMode() {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -55,7 +55,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var5)();
             var2 = var3.bind(var4)(var2);
             var5 = null;
-            if(!(var5 != var2)) { _fun0002_ip = 217; continue _fun0002 }
+            if(!(var5 != var2)) { _fun0002_ip = 229; continue _fun0002 }
  40:
             var4 = _closure1_slot9;
             var3 = var4.getAllActiveStreams;
@@ -80,9 +80,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var6.getCurrentEmbeddedActivity;
             var3 = var3.bind(var6)();
             var3 = var5 != var3;
-            if(var4) { _fun0002_ip = 205; continue _fun0002 }
+            if(var4) { _fun0002_ip = 211; continue _fun0002 }
  126:
-            if(var3) { _fun0002_ip = 205; continue _fun0002 }
+            if(var3) { _fun0002_ip = 211; continue _fun0002 }
  129:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
@@ -96,47 +96,50 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var6)();
             var2 = var2.id;
             var3 = var4.bind(var5)(var3, var2);
-            var2 = _closure1_slot18;
-            if(var3) { _fun0002_ip = 197; continue _fun0002 }
- 189:
+            var2 = _closure1_slot17;
+            var2 = var2.AVAudioSessionMode;
+            if(var3) { _fun0002_ip = 203; continue _fun0002 }
+ 195:
             var3 = var2.LISTEN;
-            _fun0002_ip = 203; continue _fun0002;
- 197:
-            var3 = var2.VOICE;
+            _fun0002_ip = 209; continue _fun0002;
  203:
-            _fun0002_ip = 215; continue _fun0002;
- 205:
-            var2 = _closure1_slot18;
-            var3 = var2.VIDEO;
- 215:
+            var3 = var2.VOICE;
+ 209:
             _fun0002_ip = 227; continue _fun0002;
- 217:
-            var2 = _closure1_slot18;
-            var3 = var2.DEFAULT;
+ 211:
+            var2 = _closure1_slot17;
+            var2 = var2.AVAudioSessionMode;
+            var3 = var2.VIDEO;
  227:
-            var2 = _closure1_slot19;
+            _fun0002_ip = 245; continue _fun0002;
+ 229:
+            var2 = _closure1_slot17;
+            var2 = var2.AVAudioSessionMode;
+            var3 = var2.DEFAULT;
+ 245:
+            var2 = _closure1_slot18;
             var2 = var2 !== var3;
-            if(!var2) { _fun0002_ip = 266; continue _fun0002 }
- 238:
+            if(!var2) { _fun0002_ip = 284; continue _fun0002 }
+ 256:
             var5 = _closure1_slot15;
             var4 = var5.getState;
             var5 = var4.bind(var5)();
             var4 = _closure1_slot16;
             var4 = var4.ACTIVE;
             var2 = var5 === var4;
- 266:
-            if(!var2) { _fun0002_ip = 284; continue _fun0002 }
- 269:
-            _closure1_slot19 = var3;
-            var2 = _closure1_slot17;
-            var1 = undefined;
-            var1 = var2.bind(var1)(var3);
  284:
+            if(!var2) { _fun0002_ip = 308; continue _fun0002 }
+ 287:
+            _closure1_slot18 = var3;
+            var2 = _closure1_slot17;
+            var1 = var2.setAVAudioSessionMode;
+            var1 = var1.bind(var2)(var3);
+ 308:
             var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot21 = var1;
+    var _closure1_slot20 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -169,58 +172,53 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var8 = var4.NativeModules;
-    var4 = var4.Platform;
-    var4 = 6;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot7 = var4;
-    var4 = 7;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot8 = var4;
-    var4 = 8;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot9 = var4;
-    var4 = 9;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot10 = var4;
-    var4 = 10;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot11 = var4;
-    var4 = 11;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot12 = var4;
-    var4 = 12;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot13 = var4;
-    var4 = 13;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot14 = var4;
-    var4 = 14;
-    var4 = var6[var4];
-    var4 = var7.bind(var1)(var4);
-    var _closure1_slot15 = var4;
-    var4 = 15;
-    var4 = var6[var4];
-    var4 = var5.bind(var1)(var4);
-    var4 = var4.AppStates;
-    var _closure1_slot16 = var4;
-    var4 = function VoiceEngine_setAVAudioSessionMode() {
-        var1 = undefined;
-        return var1;
-    };
+    var4 = var4.NativeModules;
+    var8 = 6;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot7 = var8;
+    var8 = 7;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot8 = var8;
+    var8 = 8;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot9 = var8;
+    var8 = 9;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot10 = var8;
+    var8 = 10;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot11 = var8;
+    var8 = 11;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot12 = var8;
+    var8 = 12;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot13 = var8;
+    var8 = 13;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot14 = var8;
+    var8 = 14;
+    var8 = var6[var8];
+    var8 = var7.bind(var1)(var8);
+    var _closure1_slot15 = var8;
+    var8 = 15;
+    var8 = var6[var8];
+    var8 = var5.bind(var1)(var8);
+    var8 = var8.AppStates;
+    var _closure1_slot16 = var8;
+    var4 = var4.VoiceEngine;
     var _closure1_slot17 = var4;
-    var4 = {'VOICE': 'AVAudioSessionModeVoiceChat', 'VIDEO': 'AVAudioSessionModeVideoChat', 'LISTEN': 'AVAudioSessionModeSpokenAudio', 'DEFAULT': 'AVAudioSessionModeDefault'};
-    var _closure1_slot18 = var4;
+    var4 = var4.AVAudioSessionMode;
     var4 = var4.VOICE;
-    var _closure1_slot19 = var4;
+    var _closure1_slot18 = var4;
     var4 = 17;
     var4 = var6[var4];
     var4 = var7.bind(var1)(var4);
@@ -243,7 +241,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var4)(var3);
                 var3 = _closure1_slot4;
-                var1 = _closure1_slot20;
+                var1 = _closure1_slot19;
                 var1 = var1.bind(var4)();
                 if(var1) { _fun0003_ip = 84; continue _fun0003 }
  71:
@@ -269,7 +267,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var3 instanceof Object ? var3 : var4;
                 var4 = var6.set;
                 var3 = _closure1_slot9;
-                var5 = _closure1_slot21;
+                var5 = _closure1_slot20;
                 var6 = var4.bind(var6)(var3, var5);
                 var4 = var6.set;
                 var3 = _closure1_slot14;

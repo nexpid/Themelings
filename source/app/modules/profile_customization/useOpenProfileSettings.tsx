@@ -50,22 +50,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  11:
             var2 = {};
  13:
-            var9 = var2.guild;
-            var _closure2_slot0 = var9;
-            var8 = var2.scrollPosition;
-            var _closure2_slot1 = var8;
-            var7 = var2.analyticsLocation;
-            var _closure2_slot2 = var7;
-            var6 = var2.analyticsLocations;
-            var _closure2_slot3 = var6;
-            var5 = var2.openWithoutBackstack;
+            var8 = var2.guild;
+            var _closure2_slot0 = var8;
+            var7 = var2.scrollPosition;
+            var _closure2_slot1 = var7;
+            var6 = var2.analyticsLocation;
+            var _closure2_slot2 = var6;
+            var5 = var2.analyticsLocations;
+            var _closure2_slot3 = var5;
             var3 = _closure1_slot2;
-            var2 = new Array(5);
-            var2[0] = var9;
-            var2[1] = var8;
-            var2[2] = var7;
-            var2[3] = var6;
-            var2[4] = var5;
+            var2 = new Array(4);
+            var2[0] = var8;
+            var2[1] = var7;
+            var2[2] = var6;
+            var2[3] = var5;
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:

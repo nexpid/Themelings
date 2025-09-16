@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 213; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 211; continue _fun0001 }
  10:
                     var4 = undefined;
                     var5 = undefined;
@@ -28,37 +28,37 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = ['filename', 'fileSize', 'playableDuration', 'imageSize'];
                     var2['include'] = var7;
                     var2 = var3.bind(var6)(var2);
-                    SaveGenerator(address=65);
- 63:
+                    SaveGenerator(address=63);
+ 61:
                     return var2;
- 65:
+ 63:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 131; continue _fun0001 }
- 71:
+                    if(var3) { _fun0001_ip = 129; continue _fun0001 }
+ 69:
                     var5 = var2;
                     var3 = null;
-                    if(!var2) { _fun0001_ip = 128; continue _fun0001 }
- 79:
+                    if(!var2) { _fun0001_ip = 126; continue _fun0001 }
+ 77:
                     var6 = var5;
                     var6 = var6.edges;
                     var3 = null;
-                    if(!var6) { _fun0001_ip = 128; continue _fun0001 }
- 93:
+                    if(!var6) { _fun0001_ip = 126; continue _fun0001 }
+ 91:
                     var6 = var5;
                     var6 = var6.edges;
                     var7 = var6.length;
                     var6 = 0;
                     var7 = var7 > var6;
                     var3 = null;
-                    if(!var7) { _fun0001_ip = 128; continue _fun0001 }
- 118:
+                    if(!var7) { _fun0001_ip = 126; continue _fun0001 }
+ 116:
                     var5 = var5.edges;
                     var3 = var5[var6];
- 128: // try_end0
+ 126: // try_end0
                     return var3;
- 131:
+ 129:
                     return var2;
- 134: // catch_target0
+ 132: // catch_target0
                     CatchBlockStart(arg_register=6);
                     var3 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -78,7 +78,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var3.bind(var4)(var2);
                     var2 = null;
                     return var2;
- 213:
+ 211:
                     return var1;
                 }
             };

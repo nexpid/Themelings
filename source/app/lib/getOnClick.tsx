@@ -249,8 +249,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = var4.AppContext;
     var7 = var4.InviteStates;
     var _closure1_slot11 = var7;
-    var7 = var4.Routes;
-    var4 = var4.UserSettingsSections;
+    var4 = var4.Routes;
     var4 = 9;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);

@@ -47,8 +47,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['guild'] = var19;
             var1['analyticsLocation'] = var7;
             var1['analyticsLocations'] = var3;
-            var3 = true;
-            var1['openWithoutBackstack'] = var3;
             var1 = var2.bind(var4)(var1);
             var _closure2_slot0 = var1;
             var3 = _closure1_slot18;
@@ -73,25 +71,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9[var12];
             var9 = var10.bind(var4)(var9);
             var9 = var9.t;
-            if(var6) { _fun0001_ip = 291; continue _fun0001 }
- 283:
+            if(var6) { _fun0001_ip = 284; continue _fun0001 }
+ 276:
             var6 = var9.PKQB/P;
-            _fun0001_ip = 299; continue _fun0001;
- 291:
+            _fun0001_ip = 292; continue _fun0001;
+ 284:
             var6 = var9.+MWrWl;
- 299:
+ 292:
             var6 = var7.bind(var8)(var6);
             var1['label'] = var6;
             var7 = null;
             var6 = var15;
-            if(!(var7 != var16)) { _fun0001_ip = 537; continue _fun0001 }
- 320:
+            if(!(var7 != var16)) { _fun0001_ip = 530; continue _fun0001 }
+ 313:
             var8 = var16.hasAvatarForGuild;
             var7 = var19.id;
             var7 = var8.bind(var16)(var7);
             var6 = var15;
-            if(!var7) { _fun0001_ip = 537; continue _fun0001 }
- 345:
+            if(!var7) { _fun0001_ip = 530; continue _fun0001 }
+ 338:
             var9 = _closure1_slot19;
             var8 = _closure1_slot4;
             var7 = {};
@@ -135,7 +133,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10[1] = var11;
             var7['children'] = var10;
             var6 = var9.bind(var4)(var8, var7);
- 537:
+ 530:
             var1['subLabel'] = var6;
             var5 = function onPress() {
                 var3 = _closure1_slot1;

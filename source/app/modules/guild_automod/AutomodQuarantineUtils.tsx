@@ -269,22 +269,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = arg1;
         var6 = var2.guildId;
         var _closure2_slot0 = var6;
-        var10 = var2.scrollPosition;
-        var9 = var2.analyticsLocation;
-        var8 = var2.analyticsLocations;
-        var7 = var2.openWithoutBackstack;
+        var8 = var2.scrollPosition;
+        var7 = var2.analyticsLocations;
         var5 = _closure1_slot0;
-        var11 = _closure1_slot1;
+        var9 = _closure1_slot1;
         var2 = 9;
-        var12 = var11[var2];
+        var10 = var9[var2];
         var4 = undefined;
-        var15 = var5.bind(var4)(var12);
-        var14 = var15.useStateFromStores;
-        var12 = _closure1_slot5;
-        var13 = new Array(1);
-        var13[0] = var12;
-        var12 = new Array(1);
-        var12[0] = var6;
+        var13 = var5.bind(var4)(var10);
+        var12 = var13.useStateFromStores;
+        var10 = _closure1_slot5;
+        var11 = new Array(1);
+        var11[0] = var10;
+        var10 = new Array(1);
+        var10[0] = var6;
         var6 = function() {
             var3 = _closure1_slot5;
             var2 = var3.getGuild;
@@ -292,11 +290,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             return var1;
         };
-        var6 = var14.bind(var15)(var13, var6, var12);
+        var6 = var12.bind(var13)(var11, var6, var10);
         var _closure2_slot1 = var6;
-        var2 = var11[var2];
-        var12 = var5.bind(var4)(var2);
-        var11 = var12.useStateFromStores;
+        var2 = var9[var2];
+        var10 = var5.bind(var4)(var2);
+        var9 = var10.useStateFromStores;
         var2 = _closure1_slot6;
         var5 = new Array(1);
         var5[0] = var2;
@@ -320,17 +318,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var2 = var11.bind(var12)(var5, var2, var4);
+        var2 = var9.bind(var10)(var5, var2, var4);
         var _closure2_slot2 = var2;
         var5 = _closure1_slot2;
         var4 = var5.useCallback;
-        var3 = new Array(6);
+        var3 = new Array(4);
         var3[0] = var2;
-        var3[1] = var10;
-        var3[2] = var9;
-        var3[3] = var8;
-        var3[4] = var7;
-        var3[5] = var6;
+        var3[1] = var8;
+        var3[2] = var7;
+        var3[3] = var6;
         var1 = function() {
             _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:

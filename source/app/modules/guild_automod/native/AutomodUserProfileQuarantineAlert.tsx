@@ -167,8 +167,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.useOpenFixQuarantinedProfileModal;
             var1 = {};
             var1['guildId'] = var7;
-            var7 = true;
-            var1['openWithoutBackstack'] = var7;
             var3 = var2.bind(var3)(var1);
             var2 = _closure1_slot6;
             var1 = 2;
@@ -178,8 +176,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot0 = var1;
             var1 = 1;
             var7 = var2[var1];
-            if(var7) { _fun0002_ip = 305; continue _fun0002 }
- 248:
+            if(var7) { _fun0002_ip = 298; continue _fun0002 }
+ 241:
             var10 = _closure1_slot0;
             var11 = _closure1_slot2;
             var1 = 14;
@@ -192,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.t;
             var1 = var1.FFj5Dg;
             var8 = var2.bind(var3)(var1);
- 305:
+ 298:
             var10 = _closure1_slot0;
             var1 = _closure1_slot2;
             var13 = 14;
@@ -203,15 +201,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1[var13];
             var1 = var10.bind(var4)(var1);
             var1 = var1.t;
-            if(var7) { _fun0002_ip = 367; continue _fun0002 }
- 352:
+            if(var7) { _fun0002_ip = 360; continue _fun0002 }
+ 345:
             var7 = var1.WikgZ2;
             var7 = var2.bind(var3)(var7);
-            _fun0002_ip = 378; continue _fun0002;
- 367:
+            _fun0002_ip = 371; continue _fun0002;
+ 360:
             var1 = var1./PGQf3;
             var7 = var2.bind(var3)(var1);
- 378:
+ 371:
             var3 = _closure1_slot16;
             var2 = _closure1_slot19;
             var1 = {};

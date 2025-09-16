@@ -178,12 +178,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var4.PUBLIC_PATH;
         var3 = var5 != var4;
  634:
-        if(var3) { _fun0001_ip = 655; continue _fun0001 }
+        if(var3) { _fun0001_ip = 659; continue _fun0001 }
  637:
+        var4 = var2.window;
+        var4 = var4.GLOBAL_ENV;
+        var4 = var4.SPRIG_API_KEY;
+        var3 = var5 != var4;
+ 659:
+        if(var3) { _fun0001_ip = 680; continue _fun0001 }
+ 662:
         var3 = var2.window;
         var3 = var3.GLOBAL_ENV;
-        var3 = var3.SPRIG_API_KEY;
- 655:
+        var3 = var3.MUX_ENV_KEY;
+ 680:
         var3 = var1.window;
         var4 = var3.GLOBAL_ENV;
         var3 = '//discord.com/api';
@@ -295,10 +302,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = var2.env;
         var2 = var2.DEV_SESSION_KEY;
         var3['DEV_SESSION_KEY'] = var2;
+        var2 = var1.window;
+        var3 = var2.GLOBAL_ENV;
+        var2 = 'ZaQ2JuStvc';
+        var3['SPRIG_API_KEY'] = var2;
         var1 = var1.window;
         var2 = var1.GLOBAL_ENV;
-        var1 = 'ZaQ2JuStvc';
-        var2['SPRIG_API_KEY'] = var1;
+        var1 = '1qd16mdmdjasipqg3irobln4u';
+        var2['MUX_ENV_KEY'] = var1;
         var2 = dependencyMap;
         var1 = 0;
         var3 = var2[var1];

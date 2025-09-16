@@ -130,25 +130,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = '#76567E';
         var3['color'] = var9;
         var1[var8] = var3;
-        var8 = var2.EATING;
-        var3 = {};
-        var9 = var7[var4];
-        var9 = var10.bind(var6)(var9);
-        var12 = var9.intl;
-        var11 = var12.string;
-        var9 = var7[var4];
-        var9 = var10.bind(var6)(var9);
-        var9 = var9.t;
-        var9 = var9.UVSEhY;
-        var9 = var11.bind(var12)(var9);
-        var3['title'] = var9;
-        var9 = 7;
-        var9 = var7[var9];
-        var9 = var5.bind(var6)(var9);
-        var3['icon'] = var9;
-        var9 = '#717B54';
-        var3['color'] = var9;
-        var1[var8] = var3;
         var3 = var2.WATCHING;
         var2 = {};
         var8 = var7[var4];
@@ -161,7 +142,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var4.di6IFx;
         var4 = var8.bind(var9)(var4);
         var2['title'] = var4;
-        var4 = 8;
+        var4 = 7;
         var4 = var7[var4];
         var4 = var5.bind(var6)(var4);
         var2['icon'] = var4;
@@ -303,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.fFTJTE;
             var9 = var10.bind(var11)(var9);
             var3['title'] = var9;
-            var9 = 10;
+            var9 = 9;
             var9 = var7[var9];
             var9 = var6.bind(var5)(var9);
             var9 = var9.MagicDoorIcon;
@@ -321,7 +302,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.vybY9f;
             var9 = var10.bind(var11)(var9);
             var3['title'] = var9;
-            var9 = 11;
+            var9 = 10;
             var9 = var7[var9];
             var9 = var6.bind(var5)(var9);
             var9 = var9.FoodIcon;
@@ -339,7 +320,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.wvWdTU;
             var9 = var10.bind(var11)(var9);
             var3['title'] = var9;
-            var9 = 12;
+            var9 = 11;
             var9 = var7[var9];
             var9 = var6.bind(var5)(var9);
             var9 = var9.GameControllerIcon;
@@ -357,7 +338,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.s8xFaG;
             var9 = var10.bind(var11)(var9);
             var3['title'] = var9;
-            var9 = 13;
+            var9 = 12;
             var9 = var7[var9];
             var9 = var6.bind(var5)(var9);
             var9 = var9.EmbedIcon;
@@ -375,7 +356,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.D5eCT0;
             var4 = var8.bind(var9)(var4);
             var2['title'] = var4;
-            var4 = 14;
+            var4 = 13;
             var4 = var7[var4];
             var4 = var6.bind(var5)(var4);
             var4 = var4.ObjectIcon;
@@ -401,7 +382,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.fFTJTE;
             var4 = var10.bind(var11)(var4);
             var3['title'] = var4;
-            var4 = 9;
+            var4 = 8;
             var10 = var7[var4];
             var10 = var6.bind(var5)(var10);
             var10 = var10.PlaneIllocon;
@@ -541,7 +522,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot8 = var4;
-    var7 = 15;
+    var7 = 14;
     var7 = var9[var7];
     var9 = var8.bind(var1)(var7);
     var8 = var9.fileFinishedImporting;

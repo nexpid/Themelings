@@ -296,7 +296,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)();
             var4 = new Array(1);
             var4[0] = var2;
-            var2 = var3.getRecentCustomStatuses;
+            var2 = var3.getRecentStatuses;
             var7 = var2.bind(var3)();
             var6 = 1;
             var8 = var4;
@@ -308,32 +308,38 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = arg1;
                     var4 = null;
                     var1 = var4 != var3;
-                    if(!var1) { _fun0006_ip = 21; continue _fun0006 }
+                    if(!var1) { _fun0006_ip = 23; continue _fun0006 }
  12:
+                    var5 = 'string';
+                    var2 = typeof var3;
+                    var1 = var5 !== var2;
+ 23:
+                    if(!var1) { _fun0006_ip = 35; continue _fun0006 }
+ 26:
                     var2 = var3.emoji;
                     var1 = var4 != var2;
- 21:
-                    if(!var1) { _fun0006_ip = 85; continue _fun0006 }
- 24:
+ 35:
+                    if(!var1) { _fun0006_ip = 99; continue _fun0006 }
+ 38:
                     var5 = var3.emoji;
                     var6 = var4 == var5;
                     var2 = undefined;
-                    if(var6) { _fun0006_ip = 43; continue _fun0006 }
- 38:
+                    if(var6) { _fun0006_ip = 57; continue _fun0006 }
+ 52:
                     var2 = var5.id;
- 43:
+ 57:
                     var2 = var4 != var2;
-                    if(!var2) { _fun0006_ip = 82; continue _fun0006 }
- 50:
+                    if(!var2) { _fun0006_ip = 96; continue _fun0006 }
+ 64:
                     var6 = _closure1_slot2;
                     var5 = var6.getCustomEmojiById;
                     var3 = var3.emoji;
                     var3 = var3.id;
                     var3 = var5.bind(var6)(var3);
                     var2 = var4 == var3;
- 82:
+ 96:
                     var1 = var2;
- 85:
+ 99:
                     return var1;
                 }
             };
