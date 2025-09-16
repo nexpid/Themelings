@@ -466,7 +466,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0004_ip = 157; continue _fun0004 }
+                    if(var3) { _fun0004_ip = 153; continue _fun0004 }
  13:
                     var9 = var2.subscriptionId;
                     var3 = var2.preventFetch;
@@ -476,9 +476,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var6;
  31:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0004_ip = 154; continue _fun0004 }
+                    if(var4) { _fun0004_ip = 150; continue _fun0004 }
  37:
-                    if(var3) { _fun0004_ip = 149; continue _fun0004 }
+                    if(var3) { _fun0004_ip = 145; continue _fun0004 }
  40:
                     var5 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -493,26 +493,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.bind(var8)(var9);
                     var3['url'] = var7;
                     var3 = var5.bind(var6)(var3);
-                    SaveGenerator(address=117);
- 115:
+                    SaveGenerator(address=113);
+ 111:
                     return var3;
- 117:
+ 113:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(var5) { _fun0004_ip = 146; continue _fun0004 }
- 123:
+                    if(var5) { _fun0004_ip = 142; continue _fun0004 }
+ 119:
                     var6 = _closure1_slot11;
                     var5 = var6.createInvoiceFromServer;
                     var4 = var3.body;
                     var4 = var5.bind(var6)(var4);
                     return var4;
- 146:
+ 142:
                     return var3;
- 149:
+ 145:
                     var3 = null;
                     return var3;
- 154:
+ 150:
                     return var2;
- 157:
+ 153:
                     return var1;
                 }
             };

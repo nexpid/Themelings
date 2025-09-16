@@ -454,11 +454,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = _closure1_slot2;
             var6 = var2.bind(var3)(var1);
             var1 = null;
-            if(!(var1 == var6)) { _fun0008_ip = 43; continue _fun0008 }
+            if(!(var1 == var6)) { _fun0008_ip = 39; continue _fun0008 }
  27:
             var2 = {'red': 0, 'green': 0, 'blue': 0};
-            _fun0008_ip = 121; continue _fun0008;
- 43:
+            _fun0008_ip = 117; continue _fun0008;
+ 39:
             var1 = {};
             var3 = global;
             var7 = var3.parseInt;
@@ -478,7 +478,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var5)(var3);
             var1['blue'] = var3;
             var2 = var1;
- 121:
+ 117:
             var3 = var2.red;
             var1 = 16;
             var3 = var3 << var1;

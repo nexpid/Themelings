@@ -354,7 +354,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var11 = arg1;
-            var9 = arg2;
+            var10 = arg2;
             var1 = null;
             if(!(var1 == var11)) { _fun0006_ip = 35; continue _fun0006 }
  12:
@@ -362,12 +362,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var2 = 'updateRows';
             var2 = var4.bind(var3)(var2);
-            _fun0006_ip = 268; continue _fun0006;
+            _fun0006_ip = 287; continue _fun0006;
  35:
             var3 = _closure1_slot4;
             var12 = undefined;
-            var8 = var3.bind(var12)(var11);
-            if(!(var1 != var8)) { _fun0006_ip = 268; continue _fun0006 }
+            var9 = var3.bind(var12)(var11);
+            if(!(var1 != var9)) { _fun0006_ip = 287; continue _fun0006 }
  56:
             var4 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -382,51 +382,58 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot2;
             var3 = 4;
             var3 = var5[var3];
-            var7 = var4.bind(var12)(var3);
+            var8 = var4.bind(var12)(var3);
             _fun0006_ip = 121; continue _fun0006;
  111:
             var3 = _closure1_slot3;
-            var7 = var3.DCDChatManager;
+            var8 = var3.DCDChatManager;
  121:
-            var6 = var7.updateRows;
-            var10 = global;
-            var5 = var10.JSON;
-            var4 = var5.stringify;
-            var3 = var9.rows;
-            var5 = var4.bind(var5)(var3);
-            var4 = var9.isLoadingAtTop;
-            var3 = var9.scrollData;
-            var13 = var1 != var3;
-            var3 = null;
+            var7 = var8.updateRows;
+            var3 = global;
+            var6 = var3.JSON;
+            var5 = var6.stringify;
+            var4 = var10.rows;
+            var6 = var5.bind(var6)(var4);
+            var5 = var10.isLoadingAtTop;
+            var4 = var10.scrollData;
+            var13 = var1 != var4;
+            var4 = null;
             if(!var13) { _fun0006_ip = 196; continue _fun0006 }
  173:
-            var14 = var10.JSON;
+            var14 = var3.JSON;
             var13 = var14.stringify;
-            var10 = var9.scrollData;
-            var3 = var13.bind(var14)(var10);
+            var3 = var10.scrollData;
+            var4 = var13.bind(var14)(var3);
  196:
-            var10 = _closure1_slot0;
+            var3 = _closure1_slot0;
             var13 = _closure1_slot2;
             var2 = 5;
             var2 = var13[var2];
-            var10 = var10.bind(var12)(var2);
-            var2 = var10.getAndIncrementChangesetIdForChat;
-            var2 = var2.bind(var10)(var11);
-            var9 = var9.HACK_iOSForceAnimations;
-            var1 = var1 != var9;
-            if(!var1) { _fun0006_ip = 243; continue _fun0006 }
+            var3 = var3.bind(var12)(var2);
+            var2 = var3.getAndIncrementChangesetIdForChat;
+            var3 = var2.bind(var3)(var11);
+            var11 = var10.HACK_iOSForceAnimations;
+            var2 = var1 != var11;
+            if(!var2) { _fun0006_ip = 243; continue _fun0006 }
  240:
-            var1 = var9;
+            var2 = var11;
  243:
-            var21 = var7;
-            var20 = var8;
+            var10 = var10.forceReload;
+            var1 = var1 != var10;
+            if(!var1) { _fun0006_ip = 259; continue _fun0006 }
+ 256:
+            var1 = var10;
+ 259:
+            var22 = var8;
+            var21 = var9;
+            var20 = var6;
             var19 = var5;
             var18 = var4;
             var17 = var3;
             var16 = var2;
             var15 = var1;
-            var1 = var21[var6](var20, var19, var18, var17, var16, var15, var14);
- 268:
+            var1 = var22[var7](var21, var20, var19, var18, var17, var16, var15, var14);
+ 287:
             var1 = undefined;
             return var1;
         }

@@ -602,50 +602,52 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var3 = var1.userId;
-            var18 = var1.nick;
+            var19 = var1.nick;
             var4 = var1.guildId;
-            var17 = var1.avatar;
-            var16 = var1.avatarDecoration;
-            var14 = var1.guildRoles;
-            var15 = var1.roles;
-            var13 = var1.premiumSince;
-            var12 = var1.isPending;
-            var11 = var1.joinedAt;
-            var10 = var1.communicationDisabledUntil;
-            var8 = var1.unusualDMActivityUntil;
-            var7 = var1.fullProfileLoadedTimestamp;
-            var6 = var1.flags;
-            var2 = var1.collectibles;
+            var18 = var1.avatar;
+            var17 = var1.avatarDecoration;
+            var15 = var1.guildRoles;
+            var16 = var1.roles;
+            var14 = var1.premiumSince;
+            var13 = var1.isPending;
+            var12 = var1.joinedAt;
+            var11 = var1.communicationDisabledUntil;
+            var10 = var1.unusualDMActivityUntil;
+            var8 = var1.fullProfileLoadedTimestamp;
+            var7 = var1.flags;
+            var6 = var1.collectibles;
+            var2 = var1.displayNameStyles;
             var1 = _closure1_slot38;
             var9 = undefined;
-            var14 = var1.bind(var9)(var14, var15);
+            var15 = var1.bind(var9)(var15, var16);
             var1 = {};
             var1['userId'] = var3;
-            var1['nick'] = var18;
+            var1['nick'] = var19;
             var1['guildId'] = var4;
-            var1['avatar'] = var17;
-            var1['avatarDecoration'] = var16;
-            var1['roles'] = var15;
-            var15 = var14.colorString;
-            var1['colorString'] = var15;
-            var15 = var14.colorStrings;
-            var1['colorStrings'] = var15;
-            var15 = var14.colorRoleId;
-            var1['colorRoleId'] = var15;
-            var15 = var14.iconRoleId;
-            var1['iconRoleId'] = var15;
-            var15 = var14.hoistRoleId;
-            var1['hoistRoleId'] = var15;
-            var14 = var14.highestRoleId;
-            var1['highestRoleId'] = var14;
-            var1['premiumSince'] = var13;
-            var1['isPending'] = var12;
-            var1['joinedAt'] = var11;
-            var1['communicationDisabledUntil'] = var10;
-            var1['unusualDMActivityUntil'] = var8;
-            var1['fullProfileLoadedTimestamp'] = var7;
-            var1['flags'] = var6;
-            var1['collectibles'] = var2;
+            var1['avatar'] = var18;
+            var1['avatarDecoration'] = var17;
+            var1['roles'] = var16;
+            var16 = var15.colorString;
+            var1['colorString'] = var16;
+            var16 = var15.colorStrings;
+            var1['colorStrings'] = var16;
+            var16 = var15.colorRoleId;
+            var1['colorRoleId'] = var16;
+            var16 = var15.iconRoleId;
+            var1['iconRoleId'] = var16;
+            var16 = var15.hoistRoleId;
+            var1['hoistRoleId'] = var16;
+            var15 = var15.highestRoleId;
+            var1['highestRoleId'] = var15;
+            var1['premiumSince'] = var14;
+            var1['isPending'] = var13;
+            var1['joinedAt'] = var12;
+            var1['communicationDisabledUntil'] = var11;
+            var1['unusualDMActivityUntil'] = var10;
+            var1['fullProfileLoadedTimestamp'] = var8;
+            var1['flags'] = var7;
+            var1['collectibles'] = var6;
+            var1['displayNameStyles'] = var2;
             var6 = _closure1_slot0;
             var2 = _closure1_slot2;
             var8 = 15;
@@ -656,15 +658,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = null;
             var13 = var6 != var2;
             var7 = 0;
-            if(!var13) { _fun0009_ip = 285; continue _fun0009 }
- 282:
+            if(!var13) { _fun0009_ip = 296; continue _fun0009 }
+ 293:
             var7 = var2;
- 285:
+ 296:
             var2 = _closure1_slot14;
             var2 = var2.IS_GUEST;
             var2 = var11.bind(var12)(var7, var2);
-            if(!var2) { _fun0009_ip = 366; continue _fun0009 }
- 304:
+            if(!var2) { _fun0009_ip = 377; continue _fun0009 }
+ 315:
             var7 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var8];
@@ -673,60 +675,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.flags;
             var11 = var6 != var2;
             var10 = 0;
-            if(!var11) { _fun0009_ip = 344; continue _fun0009 }
- 341:
+            if(!var11) { _fun0009_ip = 355; continue _fun0009 }
+ 352:
             var10 = var2;
- 344:
+ 355:
             var2 = _closure1_slot14;
             var2 = var2.BYPASSES_VERIFICATION;
             var2 = var7.bind(var8)(var10, var2);
             var1['flags'] = var2;
- 366:
+ 377:
             var2 = _closure1_slot16;
             var2 = var2[var4];
-            if(!(var6 != var2)) { _fun0009_ip = 572; continue _fun0009 }
- 381:
+            if(!(var6 != var2)) { _fun0009_ip = 583; continue _fun0009 }
+ 392:
             var7 = _closure1_slot10;
             var2 = var7.getId;
             var2 = var2.bind(var7)();
-            if(!(var3 === var2)) { _fun0009_ip = 570; continue _fun0009 }
- 402:
+            if(!(var3 === var2)) { _fun0009_ip = 581; continue _fun0009 }
+ 413:
             var3 = _closure1_slot9;
             var2 = var3.isViewingRoles;
             var2 = var2.bind(var3)(var4);
-            if(var2) { _fun0009_ip = 460; continue _fun0009 }
- 420:
+            if(var2) { _fun0009_ip = 471; continue _fun0009 }
+ 431:
             var3 = _closure1_slot9;
             var2 = var3.isFullServerPreview;
             var2 = var2.bind(var3)(var4);
-            if(var2) { _fun0009_ip = 460; continue _fun0009 }
- 438:
+            if(var2) { _fun0009_ip = 471; continue _fun0009 }
+ 449:
             var2 = _closure1_slot18;
             var2 = var2[var4];
-            if(!(var6 != var2)) { _fun0009_ip = 570; continue _fun0009 }
- 450:
+            if(!(var6 != var2)) { _fun0009_ip = 581; continue _fun0009 }
+ 461:
             var2 = _closure1_slot18;
             var2 = delete var2[var4];
-            _fun0009_ip = 570; continue _fun0009;
- 460:
+            _fun0009_ip = 581; continue _fun0009;
+ 471:
             var3 = _closure1_slot9;
             var2 = var3.getViewingRoles;
             var8 = var2.bind(var3)(var4);
             var3 = _closure1_slot18;
             var2 = {};
-            var21 = var2;
-            var20 = var1;
-            var7 = copyDataProperties(var21, var20);
+            var22 = var2;
+            var21 = var1;
+            var7 = copyDataProperties(var22, var21);
             var10 = _closure1_slot9;
             var7 = var10.getMemberOptions;
-            var20 = var7.bind(var10)(var4);
-            var21 = var2;
-            var7 = copyDataProperties(var21, var20);
-            if(!(var6 == var8)) { _fun0009_ip = 527; continue _fun0009 }
- 521:
+            var21 = var7.bind(var10)(var4);
+            var22 = var2;
+            var7 = copyDataProperties(var22, var21);
+            if(!(var6 == var8)) { _fun0009_ip = 538; continue _fun0009 }
+ 532:
             var6 = new Array(0);
-            _fun0009_ip = 557; continue _fun0009;
- 527:
+            _fun0009_ip = 568; continue _fun0009;
+ 538:
             var7 = _closure1_slot1;
             var10 = _closure1_slot2;
             var5 = 16;
@@ -734,13 +736,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var9)(var5);
             var5 = var7.keys;
             var6 = var5.bind(var7)(var8);
- 557:
+ 568:
             var5 = 'roles';
             var2[var5] = var6;
             var3[var4] = var2;
- 570:
+ 581:
             return var1;
- 572:
+ 583:
             return var1;
         }
     };
@@ -829,66 +831,68 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = arg1;
             var6 = var1.guildId;
             var3 = var1.user;
-            var19 = var1.nick;
+            var20 = var1.nick;
             var2 = var1.avatar;
-            var21 = var1.avatarDecoration;
-            var17 = var1.roles;
-            var16 = var1.premiumSince;
-            var15 = var1.isPending;
-            var14 = var1.joinedAt;
-            var13 = var1.communicationDisabledUntil;
-            var12 = var1.unusualDMActivityUntil;
-            var10 = var1.flags;
-            var9 = var1.collectibles;
+            var22 = var1.avatarDecoration;
+            var18 = var1.roles;
+            var17 = var1.premiumSince;
+            var16 = var1.isPending;
+            var15 = var1.joinedAt;
+            var14 = var1.communicationDisabledUntil;
+            var13 = var1.unusualDMActivityUntil;
+            var11 = var1.flags;
+            var10 = var1.collectibles;
+            var9 = var1.displayNameStyles;
             var4 = _closure1_slot16;
             var5 = var4[var6];
-            var11 = null;
-            if(!(var11 != var5)) { _fun0011_ip = 363; continue _fun0011 }
- 98:
+            var12 = null;
+            if(!(var12 != var5)) { _fun0011_ip = 374; continue _fun0011 }
+ 104:
             var7 = _closure1_slot13;
             var4 = var7.getGuild;
-            var18 = var4.bind(var7)(var6);
-            if(!(var11 != var18)) { _fun0011_ip = 314; continue _fun0011 }
- 119:
+            var19 = var4.bind(var7)(var6);
+            if(!(var12 != var19)) { _fun0011_ip = 325; continue _fun0011 }
+ 125:
             var7 = var3.id;
             var8 = _closure1_slot39;
             var4 = {};
-            var20 = var3.id;
-            var4['userId'] = var20;
-            var4['nick'] = var19;
+            var21 = var3.id;
+            var4['userId'] = var21;
+            var4['nick'] = var20;
             var4['guildId'] = var6;
             var4['avatar'] = var2;
-            var20 = _closure1_slot0;
-            var19 = _closure1_slot2;
+            var21 = _closure1_slot0;
+            var20 = _closure1_slot2;
             var2 = 17;
-            var19 = var19[var2];
+            var20 = var20[var2];
             var2 = undefined;
-            var20 = var20.bind(var2)(var19);
-            var19 = var20.parseAvatarDecorationData;
-            var19 = var19.bind(var20)(var21);
-            var4['avatarDecoration'] = var19;
-            var20 = _closure1_slot12;
-            var19 = var20.getUnsafeMutableRoles;
-            var18 = var18.id;
-            var18 = var19.bind(var20)(var18);
-            var4['guildRoles'] = var18;
-            var4['roles'] = var17;
-            var4['premiumSince'] = var16;
-            var4['isPending'] = var15;
-            var4['joinedAt'] = var14;
-            var4['communicationDisabledUntil'] = var13;
-            var4['unusualDMActivityUntil'] = var12;
-            var12 = var3.id;
-            var12 = var5[var12];
-            var13 = var11 == var12;
-            var11 = undefined;
-            if(var13) { _fun0011_ip = 270; continue _fun0011 }
- 264:
-            var11 = var12.fullProfileLoadedTimestamp;
+            var21 = var21.bind(var2)(var20);
+            var20 = var21.parseAvatarDecorationData;
+            var20 = var20.bind(var21)(var22);
+            var4['avatarDecoration'] = var20;
+            var21 = _closure1_slot12;
+            var20 = var21.getUnsafeMutableRoles;
+            var19 = var19.id;
+            var19 = var20.bind(var21)(var19);
+            var4['guildRoles'] = var19;
+            var4['roles'] = var18;
+            var4['premiumSince'] = var17;
+            var4['isPending'] = var16;
+            var4['joinedAt'] = var15;
+            var4['communicationDisabledUntil'] = var14;
+            var4['unusualDMActivityUntil'] = var13;
+            var13 = var3.id;
+            var13 = var5[var13];
+            var14 = var12 == var13;
+            var12 = undefined;
+            if(var14) { _fun0011_ip = 276; continue _fun0011 }
  270:
-            var4['fullProfileLoadedTimestamp'] = var11;
-            var4['flags'] = var10;
-            var4['collectibles'] = var9;
+            var12 = var13.fullProfileLoadedTimestamp;
+ 276:
+            var4['fullProfileLoadedTimestamp'] = var12;
+            var4['flags'] = var11;
+            var4['collectibles'] = var10;
+            var4['displayNameStyles'] = var9;
             var4 = var8.bind(var2)(var4);
             var5[var7] = var4;
             var4 = _closure1_slot31;
@@ -896,7 +900,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5[var3];
             var3 = var4.bind(var2)(var6, var3);
             return var2;
- 314:
+ 325:
             var3 = _closure1_slot15;
             var2 = var3.warn;
             var1 = global;
@@ -908,7 +912,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             var1 = false;
             return var1;
- 363:
+ 374:
             var1 = false;
             return var1;
         }
@@ -999,11 +1003,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = _closure1_slot2;
                     var9 = 18;
                     var9 = var11[var9];
-                    var11 = var10.bind(var1)(var9);
-                    var10 = var11.parseServerUserCollectibles;
+                    var13 = var10.bind(var1)(var9);
+                    var12 = var13.parseServerUserCollectibles;
                     var9 = var2.collectibles;
-                    var9 = var10.bind(var11)(var9);
+                    var9 = var12.bind(var13)(var9);
                     var4['collectibles'] = var9;
+                    var9 = 19;
+                    var9 = var11[var9];
+                    var11 = var10.bind(var1)(var9);
+                    var10 = var11.parseServerDisplayNameStyles;
+                    var9 = var2.display_name_styles;
+                    var9 = var10.bind(var11)(var9);
+                    var4['displayNameStyles'] = var9;
                     var4 = var8.bind(var1)(var4);
                     var7[var6] = var4;
                     var4 = _closure1_slot31;
@@ -1091,7 +1102,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.filter;
         var7 = _closure1_slot1;
         var4 = _closure1_slot2;
-        var1 = 20;
+        var1 = 21;
         var4 = var4[var1];
         var1 = undefined;
         var4 = var7.bind(var1)(var4);
@@ -1111,106 +1122,113 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function buildMembers(arg1) {
         _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
-            var11 = arg1;
-            var10 = var11.id;
+            var12 = arg1;
+            var11 = var12.id;
             var1 = _closure1_slot16;
-            var1 = var10 in var1;
+            var1 = var11 in var1;
             if(var1) { _fun0015_ip = 37; continue _fun0015 }
  22:
             var3 = _closure1_slot16;
-            var2 = var11.id;
+            var2 = var12.id;
             var1 = {};
             var3[var2] = var1;
  37:
             var2 = _closure1_slot13;
             var1 = var2.getGuild;
-            var8 = var1.bind(var2)(var10);
-            var7 = null;
-            if(!(var7 != var8)) { _fun0015_ip = 399; continue _fun0015 }
+            var9 = var1.bind(var2)(var11);
+            var8 = null;
+            if(!(var8 != var9)) { _fun0015_ip = 433; continue _fun0015 }
  60:
             var1 = _closure1_slot16;
-            var6 = var1[var10];
+            var7 = var1[var11];
             var2 = _closure1_slot29;
-            var1 = var11.members;
-            var5 = undefined;
-            var4 = var2.bind(var5)(var1);
-            var2 = var4.bind(var5)();
+            var1 = var12.members;
+            var6 = undefined;
+            var5 = var2.bind(var6)(var1);
+            var2 = var5.bind(var6)();
             var1 = var2.done;
-            var3 = 18;
-            if(var1) { _fun0015_ip = 395; continue _fun0015 }
- 103:
-            var14 = var2.value;
-            var1 = var14.user;
+            var4 = 18;
+            var3 = 19;
+            if(var1) { _fun0015_ip = 429; continue _fun0015 }
+ 106:
+            var15 = var2.value;
+            var1 = var15.user;
             var1 = var1.id;
-            var17 = var6[var1];
-            var13 = _closure1_slot39;
-            var12 = {};
-            var12['userId'] = var1;
-            var15 = var14.nick;
-            var12['nick'] = var15;
-            var15 = var11.id;
-            var12['guildId'] = var15;
-            var15 = var14.avatar;
-            var12['avatar'] = var15;
-            var15 = _closure1_slot42;
-            var15 = var15.bind(var5)(var14);
-            var12['avatarDecoration'] = var15;
-            var18 = _closure1_slot12;
-            var16 = var18.getUnsafeMutableRoles;
-            var15 = var8.id;
-            var15 = var16.bind(var18)(var15);
-            var12['guildRoles'] = var15;
-            var15 = var14.roles;
-            var12['roles'] = var15;
-            var15 = var14.premium_since;
-            var12['premiumSince'] = var15;
-            var15 = var14.pending;
-            var12['isPending'] = var15;
-            var15 = var14.joined_at;
-            var12['joinedAt'] = var15;
-            var15 = var14.communication_disabled_until;
-            var12['communicationDisabledUntil'] = var15;
-            var16 = var7 == var17;
-            var15 = undefined;
-            if(var16) { _fun0015_ip = 272; continue _fun0015 }
- 266:
-            var15 = var17.fullProfileLoadedTimestamp;
- 272:
-            var12['fullProfileLoadedTimestamp'] = var15;
-            var15 = var14.flags;
-            var12['flags'] = var15;
-            var15 = var14.unusual_dm_activity_until;
-            if(!(var7 == var15)) { _fun0015_ip = 314; continue _fun0015 }
- 296:
-            var18 = var7 == var17;
+            var18 = var7[var1];
+            var14 = _closure1_slot39;
+            var13 = {};
+            var13['userId'] = var1;
+            var16 = var15.nick;
+            var13['nick'] = var16;
+            var16 = var12.id;
+            var13['guildId'] = var16;
+            var16 = var15.avatar;
+            var13['avatar'] = var16;
+            var16 = _closure1_slot42;
+            var16 = var16.bind(var6)(var15);
+            var13['avatarDecoration'] = var16;
+            var19 = _closure1_slot12;
+            var17 = var19.getUnsafeMutableRoles;
+            var16 = var9.id;
+            var16 = var17.bind(var19)(var16);
+            var13['guildRoles'] = var16;
+            var16 = var15.roles;
+            var13['roles'] = var16;
+            var16 = var15.premium_since;
+            var13['premiumSince'] = var16;
+            var16 = var15.pending;
+            var13['isPending'] = var16;
+            var16 = var15.joined_at;
+            var13['joinedAt'] = var16;
+            var16 = var15.communication_disabled_until;
+            var13['communicationDisabledUntil'] = var16;
+            var17 = var8 == var18;
             var16 = undefined;
-            if(var18) { _fun0015_ip = 311; continue _fun0015 }
- 305:
-            var16 = var17.unusualDMActivityUntil;
- 311:
-            var15 = var16;
+            if(var17) { _fun0015_ip = 275; continue _fun0015 }
+ 269:
+            var16 = var18.fullProfileLoadedTimestamp;
+ 275:
+            var13['fullProfileLoadedTimestamp'] = var16;
+            var16 = var15.flags;
+            var13['flags'] = var16;
+            var16 = var15.unusual_dm_activity_until;
+            if(!(var8 == var16)) { _fun0015_ip = 317; continue _fun0015 }
+ 299:
+            var19 = var8 == var18;
+            var17 = undefined;
+            if(var19) { _fun0015_ip = 314; continue _fun0015 }
+ 308:
+            var17 = var18.unusualDMActivityUntil;
  314:
-            var12['unusualDMActivityUntil'] = var15;
-            var16 = _closure1_slot0;
-            var15 = _closure1_slot2;
-            var15 = var15[var3];
-            var16 = var16.bind(var5)(var15);
-            var15 = var16.parseServerUserCollectibles;
-            var14 = var14.collectibles;
-            var14 = var15.bind(var16)(var14);
-            var12['collectibles'] = var14;
-            var12 = var13.bind(var5)(var12);
-            var6[var1] = var12;
+            var16 = var17;
+ 317:
+            var13['unusualDMActivityUntil'] = var16;
+            var17 = _closure1_slot0;
+            var16 = _closure1_slot2;
+            var18 = var16[var4];
+            var20 = var17.bind(var6)(var18);
+            var19 = var20.parseServerUserCollectibles;
+            var18 = var15.collectibles;
+            var18 = var19.bind(var20)(var18);
+            var13['collectibles'] = var18;
+            var16 = var16[var3];
+            var17 = var17.bind(var6)(var16);
+            var16 = var17.parseServerDisplayNameStyles;
+            var15 = var15.display_name_styles;
+            var15 = var16.bind(var17)(var15);
+            var13['displayNameStyles'] = var15;
+            var13 = var14.bind(var6)(var13);
+            var7[var1] = var13;
             var1 = _closure1_slot31;
-            var1 = var1.bind(var5)(var10, var12);
-            var12 = var4.bind(var5)();
-            var1 = var12.done;
-            var2 = var12;
-            if(!var1) { _fun0015_ip = 103; continue _fun0015 }
- 395:
+            var1 = var1.bind(var6)(var11, var13);
+            var13 = var5.bind(var6)();
+            var1 = var13.done;
+            var2 = var13;
+            if(!var1) { _fun0015_ip = 106; continue _fun0015 }
+ 429:
             var1 = true;
             return var1;
- 399:
+ 433:
             var1 = false;
             return var1;
         }
@@ -1225,13 +1243,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.guildId;
             var12 = var4[var3];
             var11 = null;
-            if(!(var11 != var12)) { _fun0016_ip = 499; continue _fun0016 }
+            if(!(var11 != var12)) { _fun0016_ip = 510; continue _fun0016 }
  34:
             var5 = _closure1_slot13;
             var4 = var5.getGuild;
             var3 = var1.guildId;
             var10 = var4.bind(var5)(var3);
-            if(!(var11 != var10)) { _fun0016_ip = 438; continue _fun0016 }
+            if(!(var11 != var10)) { _fun0016_ip = 449; continue _fun0016 }
  60:
             var4 = _closure1_slot10;
             var3 = var4.getId;
@@ -1250,7 +1268,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.done;
             var7 = 'GUILD_ROLE_DELETE';
             var6 = 0;
-            if(var4) { _fun0016_ip = 436; continue _fun0016 }
+            if(var4) { _fun0016_ip = 447; continue _fun0016 }
  136:
             var4 = var5.value;
             var16 = var12[var4];
@@ -1265,7 +1283,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var11 == var14)) { _fun0016_ip = 193; continue _fun0016 }
  180:
             var14 = var16.hoistRoleId;
-            if(!(var11 != var14)) { _fun0016_ip = 418; continue _fun0016 }
+            if(!(var11 != var14)) { _fun0016_ip = 429; continue _fun0016 }
  193:
             if(!(var4 === var9)) { _fun0016_ip = 206; continue _fun0016 }
  197:
@@ -1318,22 +1336,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var16.fullProfileLoadedTimestamp;
  374:
             var14['fullProfileLoadedTimestamp'] = var17;
-            var16 = var16.collectibles;
-            var14['collectibles'] = var16;
+            var17 = var16.collectibles;
+            var14['collectibles'] = var17;
+            var16 = var16.displayNameStyles;
+            var14['displayNameStyles'] = var16;
             var14 = var15.bind(var3)(var14);
             var12[var4] = var14;
             var15 = _closure1_slot31;
             var14 = var1.guildId;
             var4 = var12[var4];
             var4 = var15.bind(var3)(var14, var4);
- 418:
+ 429:
             var14 = var8.bind(var3)();
             var4 = var14.done;
             var5 = var14;
             if(!var4) { _fun0016_ip = 136; continue _fun0016 }
- 436:
+ 447:
             return var3;
- 438:
+ 449:
             var3 = _closure1_slot15;
             var2 = var3.warn;
             var24 = var1.guildId;
@@ -1348,7 +1368,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             var1 = false;
             return var1;
- 499:
+ 510:
             var1 = false;
             return var1;
         }
@@ -1361,12 +1381,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot16;
             var5 = var2[var6];
             var2 = null;
-            if(!(var2 != var5)) { _fun0017_ip = 287; continue _fun0017 }
+            if(!(var2 != var5)) { _fun0017_ip = 298; continue _fun0017 }
  28:
             var4 = _closure1_slot13;
             var3 = var4.getGuild;
             var8 = var3.bind(var4)(var6);
-            if(!(var2 != var8)) { _fun0017_ip = 238; continue _fun0017 }
+            if(!(var2 != var8)) { _fun0017_ip = 249; continue _fun0017 }
  49:
             var3 = _closure1_slot10;
             var2 = var3.getId;
@@ -1401,13 +1421,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['fullProfileLoadedTimestamp'] = var8;
             var8 = var2.flags;
             var3['flags'] = var8;
-            var2 = var2.collectibles;
-            var3['collectibles'] = var2;
+            var8 = var2.collectibles;
+            var3['collectibles'] = var8;
+            var2 = var2.displayNameStyles;
+            var3['displayNameStyles'] = var2;
             var2 = undefined;
             var3 = var7.bind(var2)(var3);
             var5[var4] = var3;
             return var2;
- 238:
+ 249:
             var3 = _closure1_slot15;
             var2 = var3.warn;
             var1 = global;
@@ -1419,7 +1441,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             var1 = false;
             return var1;
- 287:
+ 298:
             var1 = false;
             return var1;
         }
@@ -1772,7 +1794,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var18 = 'USER';
     var12[var19] = var18;
     var _closure1_slot27 = var12;
-    var12 = 23;
+    var12 = 24;
     var12 = var10[var12];
     var12 = var11.bind(var1)(var12);
     var18 = var12.Store;
@@ -1853,7 +1875,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure3_slot0 = var2;
             var5 = _closure1_slot1;
             var4 = _closure1_slot2;
-            var3 = 21;
+            var3 = 22;
             var3 = var4[var3];
             var4 = undefined;
             var3 = var5.bind(var4)(var3);
@@ -2400,7 +2422,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  66:
                 var6 = _closure1_slot1;
                 var9 = _closure1_slot2;
-                var3 = 21;
+                var3 = 22;
                 var4 = var9[var3];
                 var5 = var6.bind(var7)(var4);
                 var4 = var5.difference;
@@ -2431,7 +2453,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var12 = var12.bind(var1)(var18);
     var12['displayName'] = var7;
-    var7 = 24;
+    var7 = 25;
     var7 = var10[var7];
     var23 = var11.bind(var1)(var7);
     var7 = {};
@@ -2605,12 +2627,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  67:
             var6 = var3[var4];
  71:
-            if(!(var8 != var6)) { _fun0041_ip = 455; continue _fun0041 }
+            if(!(var8 != var6)) { _fun0041_ip = 466; continue _fun0041 }
  78:
             var2 = _closure1_slot13;
             var1 = var2.getGuild;
             var10 = var1.bind(var2)(var12);
-            if(!(var8 != var10)) { _fun0041_ip = 451; continue _fun0041 }
+            if(!(var8 != var10)) { _fun0041_ip = 462; continue _fun0041 }
  99:
             var1 = _closure1_slot25;
             var14 = var1[var12];
@@ -2622,7 +2644,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = {};
             var16 = _closure1_slot1;
             var15 = _closure1_slot2;
-            var20 = 21;
+            var20 = 22;
             var17 = var15[var20];
             var1 = undefined;
             var18 = var16.bind(var1)(var17);
@@ -2697,15 +2719,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['flags'] = var7;
             var7 = var6.fullProfileLoadedTimestamp;
             var2['fullProfileLoadedTimestamp'] = var7;
-            var6 = var6.collectibles;
-            var2['collectibles'] = var6;
+            var7 = var6.collectibles;
+            var2['collectibles'] = var7;
+            var6 = var6.displayNameStyles;
+            var2['displayNameStyles'] = var6;
             var2 = var5.bind(var1)(var2);
             var3[var4] = var2;
             return var1;
- 451:
+ 462:
             var1 = false;
             return var1;
- 455:
+ 466:
             var1 = false;
             return var1;
         }
@@ -2782,7 +2806,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var6.filter;
         var7 = _closure1_slot0;
         var2 = _closure1_slot2;
-        var1 = 19;
+        var1 = 20;
         var1 = var2[var1];
         var2 = undefined;
         var1 = var7.bind(var2)(var1);
@@ -2813,7 +2837,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.filter;
             var8 = _closure1_slot0;
             var3 = _closure1_slot2;
-            var2 = 19;
+            var2 = 20;
             var2 = var3[var2];
             var3 = undefined;
             var2 = var8.bind(var3)(var2);
@@ -3078,12 +3102,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot16;
             var5 = var2[var6];
             var2 = null;
-            if(!(var2 != var5)) { _fun0047_ip = 375; continue _fun0047 }
+            if(!(var2 != var5)) { _fun0047_ip = 409; continue _fun0047 }
  34:
             var7 = _closure1_slot13;
             var4 = var7.getGuild;
             var9 = var4.bind(var7)(var6);
-            if(!(var2 != var9)) { _fun0047_ip = 326; continue _fun0047 }
+            if(!(var2 != var9)) { _fun0047_ip = 360; continue _fun0047 }
  55:
             var2 = var3.user;
             var7 = var2.id;
@@ -3129,11 +3153,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = _closure1_slot2;
             var9 = 18;
             var9 = var11[var9];
-            var11 = var10.bind(var2)(var9);
-            var10 = var11.parseServerUserCollectibles;
+            var13 = var10.bind(var2)(var9);
+            var12 = var13.parseServerUserCollectibles;
             var9 = var3.collectibles;
-            var9 = var10.bind(var11)(var9);
+            var9 = var12.bind(var13)(var9);
             var4['collectibles'] = var9;
+            var9 = 19;
+            var9 = var11[var9];
+            var11 = var10.bind(var2)(var9);
+            var10 = var11.parseServerDisplayNameStyles;
+            var9 = var3.display_name_styles;
+            var9 = var10.bind(var11)(var9);
+            var4['displayNameStyles'] = var9;
             var4 = var8.bind(var2)(var4);
             var5[var7] = var4;
             var4 = _closure1_slot31;
@@ -3142,7 +3173,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var5[var3];
             var3 = var4.bind(var2)(var6, var3);
             return var2;
- 326:
+ 360:
             var3 = _closure1_slot15;
             var2 = var3.warn;
             var1 = global;
@@ -3154,7 +3185,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var2.bind(var3)(var1);
             var1 = false;
             return var1;
- 375:
+ 409:
             var1 = false;
             return var1;
         }
@@ -3324,7 +3355,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var1.participants;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
-            var1 = 22;
+            var1 = 23;
             var1 = var4[var1];
             var4 = undefined;
             var3 = var3.bind(var4)(var1);
@@ -3370,7 +3401,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var22 = var7;
     var7 = new var24[var12](var23, var22, var21);
     var7 = var7 instanceof Object ? var7 : var8;
-    var8 = 25;
+    var8 = 26;
     var8 = var10[var8];
     var10 = var9.bind(var1)(var8);
     var9 = var10.fileFinishedImporting;

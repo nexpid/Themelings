@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 205; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 201; continue _fun0001 }
  10:
                     var2 = _closure1_slot4;
                     var4 = var2.lastFetched;
@@ -30,7 +30,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.bind(var5)();
                     var4 = var2 - var4;
                     var2 = _closure1_slot6;
-                    if(!(!(var4 < var2))) { _fun0001_ip = 200; continue _fun0001 }
+                    if(!(!(var4 < var2))) { _fun0001_ip = 196; continue _fun0001 }
  61: // try_start_0
                     var4 = _closure1_slot0;
                     var5 = _closure1_slot2;
@@ -45,13 +45,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.USER_ACTIVITY_STATISTICS;
                     var2['url'] = var7;
                     var2 = var4.bind(var6)(var2);
-                    SaveGenerator(address=132);
- 130:
+                    SaveGenerator(address=128);
+ 126:
                     return var2;
- 132:
+ 128:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 192; continue _fun0001 }
- 138:
+                    if(var4) { _fun0001_ip = 188; continue _fun0001 }
+ 134:
                     var4 = _closure1_slot1;
                     var6 = _closure1_slot2;
                     var3 = 5;
@@ -64,17 +64,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var2.body;
                     var3['statistics'] = var6;
                     var3 = var4.bind(var5)(var3);
- 190: // try_end0
-                    _fun0001_ip = 200; continue _fun0001;
- 192:
+ 186: // try_end0
+                    _fun0001_ip = 196; continue _fun0001;
+ 188:
                     return var2;
- 195: // catch_target0
+ 191: // catch_target0
                     CatchBlockStart(arg_register=1);
                     return var2;
- 200:
+ 196:
                     var2 = undefined;
                     return var2;
- 205:
+ 201:
                     return var1;
                 }
             };

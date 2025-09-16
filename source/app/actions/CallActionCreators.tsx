@@ -93,12 +93,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  59:
             var2 = undefined;
             var2 = var3.bind(var2)(var5);
-            _fun0001_ip = 204; continue _fun0001;
+            _fun0001_ip = 200; continue _fun0001;
  71:
             var3 = _closure1_slot4;
             var2 = var3.isBlocked;
             var2 = var2.bind(var3)(var4);
-            if(var2) { _fun0001_ip = 208; continue _fun0001 }
+            if(var2) { _fun0001_ip = 204; continue _fun0001 }
  92:
             var3 = _closure1_slot5;
             var2 = var3.getUser;
@@ -233,10 +233,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var1 = var3.bind(var4)(var2, var1);
- 204:
+ 200:
             var1 = undefined;
             return var1;
- 208:
+ 204:
             var1 = undefined;
             return var1;
         }

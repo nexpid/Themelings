@@ -6,56 +6,79 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = dependencyMap;
     var _closure1_slot0 = var8;
     var _closure1_slot1 = var7;
-    var4 = function clearHangStatus(arg1) {
+    var1 = function _getAnalyticsProperties() {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-            var3 = _closure1_slot0;
-            var4 = _closure1_slot1;
-            var1 = 6;
-            var2 = var4[var1];
-            var1 = undefined;
-            var7 = var3.bind(var1)(var2);
-            var5 = var7.dispatch;
+            var3 = _closure1_slot5;
+            var1 = var3.getVoiceChannelId;
+            var5 = var1.bind(var3)();
+            var3 = _closure1_slot4;
+            var1 = var3.getMediaSessionId;
+            var3 = var1.bind(var3)();
+            var4 = null;
+            if(!(var4 != var5)) { _fun0001_ip = 102; continue _fun0001 }
+ 37:
+            var1 = {};
+            var1['channel_id'] = var5;
+            var7 = _closure1_slot3;
+            var6 = var7.getChannel;
+            var6 = var6.bind(var7)(var5);
+            var7 = var4 == var6;
+            var4 = undefined;
+            if(var7) { _fun0001_ip = 71; continue _fun0001 }
+ 66:
+            var4 = var6.guild_id;
+ 71:
+            var1['guild_id'] = var4;
+            var1['media_session_id'] = var3;
+            var4 = _closure1_slot6;
+            var2 = var4.countVoiceStatesForChannel;
+            var2 = var2.bind(var4)(var5);
+            var1['call_num_participants'] = var2;
+            _fun0001_ip = 129; continue _fun0001;
+ 102:
             var2 = {};
-            var8 = 'CLEAR_HANG_STATUS';
-            var2['type'] = var8;
-            var8 = arg1;
-            var2['saveAsDefault'] = var8;
-            var2 = var5.bind(var7)(var2);
-            var2 = 7;
-            var2 = var4[var2];
-            var5 = var3.bind(var1)(var2);
-            var4 = var5.track;
-            var2 = _closure1_slot7;
-            var3 = var2.CLEAR_HANG_STATUS;
-            var2 = {};
-            var8 = _closure1_slot5;
-            var7 = var8.getVoiceChannelId;
-            var7 = var7.bind(var8)();
-            var2['channel_id'] = var7;
-            var9 = _closure1_slot3;
-            var8 = var9.getChannel;
-            var10 = _closure1_slot5;
-            var7 = var10.getVoiceChannelId;
-            var7 = var7.bind(var10)();
-            var8 = var8.bind(var9)(var7);
-            var7 = null;
-            var9 = var7 == var8;
-            var7 = undefined;
-            if(var9) { _fun0001_ip = 144; continue _fun0001 }
- 139:
-            var7 = var8.guild_id;
- 144:
-            var2['guild_id'] = var7;
-            var7 = _closure1_slot4;
-            var6 = var7.getMediaSessionId;
-            var6 = var6.bind(var7)();
-            var2['media_session_id'] = var6;
-            var2 = var4.bind(var5)(var3, var2);
+            var4 = undefined;
+            var2['channel_id'] = var4;
+            var2['guild_id'] = var4;
+            var2['media_session_id'] = var3;
+            var3 = 0;
+            var2['call_num_participants'] = var3;
+            var1 = var2;
+ 129:
             return var1;
         }
     };
-    var _closure1_slot8 = var4;
+    var _closure1_slot9 = var1;
+    var4 = function clearHangStatus(arg1) {
+        var3 = _closure1_slot0;
+        var4 = _closure1_slot1;
+        var1 = 7;
+        var2 = var4[var1];
+        var1 = undefined;
+        var7 = var3.bind(var1)(var2);
+        var5 = var7.dispatch;
+        var2 = {};
+        var8 = 'CLEAR_HANG_STATUS';
+        var2['type'] = var8;
+        var8 = arg1;
+        var2['saveAsDefault'] = var8;
+        var2 = var5.bind(var7)(var2);
+        var2 = 8;
+        var2 = var4[var2];
+        var5 = var3.bind(var1)(var2);
+        var4 = var5.track;
+        var2 = _closure1_slot8;
+        var3 = var2.CLEAR_HANG_STATUS;
+        var2 = {};
+        var6 = _closure1_slot9;
+        var9 = var6.bind(var1)();
+        var10 = var2;
+        var6 = copyDataProperties(var10, var9);
+        var2 = var4.bind(var5)(var3, var2);
+        return var1;
+    };
+    var _closure1_slot10 = var4;
     var1 = global;
     var10 = var1.Object;
     var9 = var10.defineProperty;
@@ -87,10 +110,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot6 = var5;
     var5 = 5;
     var5 = var7[var5];
+    var5 = var8.bind(var1)(var5);
+    var _closure1_slot7 = var5;
+    var5 = 6;
+    var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
     var5 = var5.AnalyticEvents;
-    var _closure1_slot7 = var5;
-    var5 = 8;
+    var _closure1_slot8 = var5;
+    var5 = 9;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -99,8 +126,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function updateHangStatus(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-            var8 = arg1;
-            var10 = arg2;
+            var7 = arg1;
+            var9 = arg2;
             var3 = _closure1_slot3;
             var2 = var3.getChannel;
             var4 = _closure1_slot5;
@@ -110,51 +137,46 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = null;
             var4 = var2 == var3;
             var1 = undefined;
-            var7 = undefined;
+            var10 = undefined;
             if(var4) { _fun0002_ip = 55; continue _fun0002 }
  50:
-            var7 = var3.guild_id;
+            var10 = var3.guild_id;
  55:
-            if(!(var2 != var8)) { _fun0002_ip = 63; continue _fun0002 }
+            if(!(var2 != var7)) { _fun0002_ip = 63; continue _fun0002 }
  59:
-            if(!(var2 == var7)) { _fun0002_ip = 77; continue _fun0002 }
+            if(!(var2 == var10)) { _fun0002_ip = 74; continue _fun0002 }
  63:
-            var2 = _closure1_slot8;
-            var2 = var2.bind(var1)(var10);
-            _fun0002_ip = 211; continue _fun0002;
- 77:
+            var2 = _closure1_slot10;
+            var2 = var2.bind(var1)(var9);
+            _fun0002_ip = 182; continue _fun0002;
+ 74:
             var3 = _closure1_slot0;
             var4 = _closure1_slot1;
-            var2 = 6;
+            var2 = 7;
             var2 = var4[var2];
-            var9 = var3.bind(var1)(var2);
-            var5 = var9.dispatch;
+            var8 = var3.bind(var1)(var2);
+            var5 = var8.dispatch;
             var2 = {};
             var11 = 'UPDATE_HANG_STATUS';
             var2['type'] = var11;
-            var2['status'] = var8;
-            var2['guildId'] = var7;
-            var2['saveAsDefault'] = var10;
-            var2 = var5.bind(var9)(var2);
-            var2 = 7;
+            var2['status'] = var7;
+            var2['guildId'] = var10;
+            var2['saveAsDefault'] = var9;
+            var2 = var5.bind(var8)(var2);
+            var2 = 8;
             var2 = var4[var2];
             var5 = var3.bind(var1)(var2);
             var4 = var5.track;
-            var2 = _closure1_slot7;
+            var2 = _closure1_slot8;
             var3 = var2.SET_HANG_STATUS;
             var2 = {};
-            var2['status_type'] = var8;
-            var9 = _closure1_slot5;
-            var8 = var9.getVoiceChannelId;
-            var8 = var8.bind(var9)();
-            var2['channel_id'] = var8;
-            var2['guild_id'] = var7;
-            var7 = _closure1_slot4;
-            var6 = var7.getMediaSessionId;
-            var6 = var6.bind(var7)();
-            var2['media_session_id'] = var6;
+            var2['status_type'] = var7;
+            var6 = _closure1_slot9;
+            var12 = var6.bind(var1)();
+            var13 = var2;
+            var6 = copyDataProperties(var13, var12);
             var2 = var4.bind(var5)(var3, var2);
- 211:
+ 182:
             return var1;
         }
     };
@@ -163,63 +185,47 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var7 = arg1;
-            var11 = arg2;
-            var10 = arg3;
+            var10 = arg2;
+            var9 = arg3;
             var1 = '';
             if(!(var1 !== var7)) { _fun0003_ip = 23; continue _fun0003 }
  17:
-            var8 = null;
-            if(!(var8 == var11)) { _fun0003_ip = 42; continue _fun0003 }
+            var1 = null;
+            if(!(var1 == var10)) { _fun0003_ip = 39; continue _fun0003 }
  23:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot10;
             var1 = undefined;
-            var1 = var2.bind(var1)(var10);
-            _fun0003_ip = 223; continue _fun0003;
- 42:
+            var1 = var2.bind(var1)(var9);
+            _fun0003_ip = 154; continue _fun0003;
+ 39:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 6;
+            var1 = 7;
             var1 = var3[var1];
             var6 = undefined;
-            var9 = var2.bind(var6)(var1);
-            var4 = var9.dispatch;
+            var8 = var2.bind(var6)(var1);
+            var4 = var8.dispatch;
             var1 = {};
-            var12 = 'UPDATE_HANG_STATUS_CUSTOM';
-            var1['type'] = var12;
-            var1['emoji'] = var11;
+            var11 = 'UPDATE_HANG_STATUS_CUSTOM';
+            var1['type'] = var11;
+            var1['emoji'] = var10;
             var1['status'] = var7;
-            var1['saveAsDefault'] = var10;
-            var1 = var4.bind(var9)(var1);
-            var1 = 7;
+            var1['saveAsDefault'] = var9;
+            var1 = var4.bind(var8)(var1);
+            var1 = 8;
             var1 = var3[var1];
             var4 = var2.bind(var6)(var1);
             var3 = var4.track;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot8;
             var2 = var1.SET_HANG_STATUS;
             var1 = {};
             var1['status_type'] = var7;
-            var9 = _closure1_slot5;
-            var7 = var9.getVoiceChannelId;
-            var7 = var7.bind(var9)();
-            var1['channel_id'] = var7;
-            var10 = _closure1_slot3;
-            var9 = var10.getChannel;
-            var11 = _closure1_slot5;
-            var7 = var11.getVoiceChannelId;
-            var7 = var7.bind(var11)();
-            var7 = var9.bind(var10)(var7);
-            var8 = var8 == var7;
-            if(var8) { _fun0003_ip = 194; continue _fun0003 }
- 189:
-            var6 = var7.guild_id;
- 194:
-            var1['guild_id'] = var6;
-            var6 = _closure1_slot4;
-            var5 = var6.getMediaSessionId;
-            var5 = var5.bind(var6)();
-            var1['media_session_id'] = var5;
+            var5 = _closure1_slot9;
+            var12 = var5.bind(var6)();
+            var13 = var1;
+            var5 = copyDataProperties(var13, var12);
             var1 = var3.bind(var4)(var2, var1);
- 223:
+ 154:
             var1 = undefined;
             return var1;
         }
@@ -228,60 +234,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function updateGameActivityHangStatus(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            var10 = arg1;
-            var9 = arg2;
-            var8 = null;
-            if(!(var8 == var10)) { _fun0004_ip = 31; continue _fun0004 }
+            var9 = arg1;
+            var8 = arg2;
+            var1 = null;
+            if(!(var1 == var9)) { _fun0004_ip = 28; continue _fun0004 }
  12:
-            var2 = _closure1_slot8;
+            var2 = _closure1_slot10;
             var1 = undefined;
-            var1 = var2.bind(var1)(var9);
-            _fun0004_ip = 214; continue _fun0004;
- 31:
+            var1 = var2.bind(var1)(var8);
+            _fun0004_ip = 145; continue _fun0004;
+ 28:
             var2 = _closure1_slot0;
             var3 = _closure1_slot1;
-            var1 = 6;
+            var1 = 7;
             var1 = var3[var1];
             var6 = undefined;
             var7 = var2.bind(var6)(var1);
             var4 = var7.dispatch;
             var1 = {};
-            var11 = 'UPDATE_HANG_STATUS_GAME_ACTIVITY';
-            var1['type'] = var11;
-            var1['applicationId'] = var10;
-            var1['saveAsDefault'] = var9;
+            var10 = 'UPDATE_HANG_STATUS_GAME_ACTIVITY';
+            var1['type'] = var10;
+            var1['applicationId'] = var9;
+            var1['saveAsDefault'] = var8;
             var1 = var4.bind(var7)(var1);
-            var1 = 7;
+            var1 = 8;
             var1 = var3[var1];
             var4 = var2.bind(var6)(var1);
             var3 = var4.track;
-            var1 = _closure1_slot7;
+            var1 = _closure1_slot8;
             var2 = var1.SET_HANG_STATUS;
             var1 = {};
             var7 = 'game_activity';
             var1['status_type'] = var7;
-            var9 = _closure1_slot5;
-            var7 = var9.getVoiceChannelId;
-            var7 = var7.bind(var9)();
-            var1['channel_id'] = var7;
-            var10 = _closure1_slot3;
-            var9 = var10.getChannel;
-            var11 = _closure1_slot5;
-            var7 = var11.getVoiceChannelId;
-            var7 = var7.bind(var11)();
-            var7 = var9.bind(var10)(var7);
-            var8 = var8 == var7;
-            if(var8) { _fun0004_ip = 185; continue _fun0004 }
- 180:
-            var6 = var7.guild_id;
- 185:
-            var1['guild_id'] = var6;
-            var6 = _closure1_slot4;
-            var5 = var6.getMediaSessionId;
-            var5 = var5.bind(var6)();
-            var1['media_session_id'] = var5;
+            var5 = _closure1_slot9;
+            var11 = var5.bind(var6)();
+            var12 = var1;
+            var5 = copyDataProperties(var12, var11);
             var1 = var3.bind(var4)(var2, var1);
- 214:
+ 145:
             var1 = undefined;
             return var1;
         }
@@ -291,7 +281,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = function deleteInvalidHangStatuses() {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            var3 = _closure1_slot6;
+            var3 = _closure1_slot7;
             var2 = var3.getCustomHangStatus;
             var2 = var2.bind(var3)();
             var4 = new Array(1);
@@ -350,7 +340,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  75:
             var3 = _closure1_slot0;
             var2 = _closure1_slot1;
-            var1 = 6;
+            var1 = 7;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);

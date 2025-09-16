@@ -65,6 +65,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['overlayContainer'] = var10;
     var10 = {'width': 80, 'height': 80, 'resizeMode': 'contain'};
     var4['externalProductImage'] = var10;
+    var10 = {};
+    var11 = 0.4;
+    var10['opacity'] = var11;
+    var4['externalProductPurchased'] = var10;
     var4 = var8.bind(var9)(var4);
     var _closure1_slot8 = var4;
     var4 = function PurchasedAssetOverlay() {
@@ -112,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var6.firstAvatarDecoration;
             var6 = var6.firstNameplate;
             var10 = _closure1_slot8;
-            var13 = var10.bind(var4)();
+            var14 = var10.bind(var4)();
             var10 = var2.type;
             var12 = 9;
             var3 = var3[var12];
@@ -128,18 +132,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.bind(var4)(var3);
             var3 = var10.isValidCollectiblesBundle;
             var3 = var3.bind(var10)(var2);
-            if(var3) { _fun0001_ip = 721; continue _fun0001 }
+            if(var3) { _fun0001_ip = 777; continue _fun0001 }
  153:
             var11 = _closure1_slot3;
             var10 = var2.items;
             var3 = 1;
             var10 = var11.bind(var4)(var10, var3);
             var3 = 0;
-            var14 = var10[var3];
+            var13 = var10[var3];
             var10 = var2.skuId;
             var3 = _closure1_slot5;
             var3 = var3.ORB_PROFILE_BADGE;
-            if(!(var10 !== var3)) { _fun0001_ip = 629; continue _fun0001 }
+            if(!(var10 !== var3)) { _fun0001_ip = 657; continue _fun0001 }
  201:
             var3 = var2.skuId;
             var2 = _closure1_slot5;
@@ -147,11 +151,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var3 !== var2)) { _fun0001_ip = 537; continue _fun0001 }
  224:
             var2 = null;
-            var3 = var2 == var14;
+            var3 = var2 == var13;
             var10 = undefined;
             if(var3) { _fun0001_ip = 240; continue _fun0001 }
  235:
-            var10 = var14.type;
+            var10 = var13.type;
  240:
             var11 = _closure1_slot0;
             var3 = _closure1_slot2;
@@ -182,7 +186,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
-            var11 = var13.overlayContainer;
+            var11 = var14.overlayContainer;
             var2['style'] = var11;
             var12 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -190,7 +194,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var15[var11];
             var12 = var12.bind(var4)(var11);
             var11 = {};
-            var11['item'] = var14;
+            var11['item'] = var13;
             var11['isPurchased'] = var9;
             var11 = var10.bind(var4)(var12, var11);
             var2['children'] = var11;
@@ -204,7 +208,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var11[var2];
             var3 = var3.bind(var4)(var2);
             var2 = {};
-            var2['item'] = var14;
+            var2['item'] = var13;
             var2['isPurchased'] = var9;
             var2['isDarkTheme'] = var5;
             var2 = var10.bind(var4)(var3, var2);
@@ -213,7 +217,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
-            var11 = var13.overlayContainer;
+            var11 = var14.overlayContainer;
             var2['style'] = var11;
             var12 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -222,9 +226,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var12.bind(var4)(var11);
             var11 = {};
             var11['isPurchased'] = var9;
-            var11['item'] = var14;
-            var14 = 100;
-            var11['size'] = var14;
+            var11['item'] = var13;
+            var13 = 100;
+            var11['size'] = var13;
             var11 = var10.bind(var4)(var12, var11);
             var2['children'] = var11;
             var2 = var10.bind(var4)(var3, var2);
@@ -233,51 +237,69 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
-            var11 = var13.overlayContainer;
+            var12 = var14.overlayContainer;
+            var11 = new Array(2);
+            var11[0] = var12;
+            var12 = var9;
+            if(!var9) { _fun0001_ip = 573; continue _fun0001 }
+ 567:
+            var12 = var14.externalProductPurchased;
+ 573:
+            var11[1] = var12;
             var2['style'] = var11;
-            var16 = _closure1_slot1;
-            var17 = _closure1_slot2;
+            var13 = _closure1_slot6;
+            var17 = _closure1_slot1;
+            var18 = _closure1_slot2;
             var11 = 12;
-            var11 = var17[var11];
-            var12 = var16.bind(var4)(var11);
+            var11 = var18[var11];
+            var12 = var17.bind(var4)(var11);
             var11 = {};
-            var14 = {};
-            var15 = 14;
-            var15 = var17[var15];
-            var15 = var16.bind(var4)(var15);
-            var14['uri'] = var15;
-            var11['source'] = var14;
-            var14 = var13.externalProductImage;
-            var11['style'] = var14;
-            var11 = var10.bind(var4)(var12, var11);
+            var15 = {};
+            var16 = 14;
+            var16 = var18[var16];
+            var16 = var17.bind(var4)(var16);
+            var15['uri'] = var16;
+            var11['source'] = var15;
+            var15 = var14.externalProductImage;
+            var11['style'] = var15;
+            var11 = var13.bind(var4)(var12, var11);
             var2['children'] = var11;
             var2 = var10.bind(var4)(var3, var2);
             return var2;
- 629:
+ 657:
             var10 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
-            var11 = var13.overlayContainer;
+            var12 = var14.overlayContainer;
+            var11 = new Array(2);
+            var11[0] = var12;
+            var12 = var9;
+            if(!var12) { _fun0001_ip = 693; continue _fun0001 }
+ 687:
+            var12 = var14.externalProductPurchased;
+ 693:
+            var11[1] = var12;
             var2['style'] = var11;
-            var16 = _closure1_slot1;
-            var17 = _closure1_slot2;
+            var13 = _closure1_slot6;
+            var17 = _closure1_slot1;
+            var18 = _closure1_slot2;
             var11 = 12;
-            var11 = var17[var11];
-            var12 = var16.bind(var4)(var11);
+            var11 = var18[var11];
+            var12 = var17.bind(var4)(var11);
             var11 = {};
-            var14 = {};
-            var15 = 13;
-            var15 = var17[var15];
-            var15 = var16.bind(var4)(var15);
-            var14['uri'] = var15;
-            var11['source'] = var14;
-            var13 = var13.externalProductImage;
-            var11['style'] = var13;
-            var11 = var10.bind(var4)(var12, var11);
+            var15 = {};
+            var16 = 13;
+            var16 = var18[var16];
+            var16 = var17.bind(var4)(var16);
+            var15['uri'] = var16;
+            var11['source'] = var15;
+            var14 = var14.externalProductImage;
+            var11['style'] = var14;
+            var11 = var13.bind(var4)(var12, var11);
             var2['children'] = var11;
             var2 = var10.bind(var4)(var3, var2);
             return var2;
- 721:
+ 777:
             var3 = _closure1_slot6;
             var2 = _closure1_slot1;
             var10 = _closure1_slot2;

@@ -182,6 +182,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var8.radii;
         var8 = var8.sm;
         var2['borderBottomRightRadius'] = var8;
+        var8 = -4;
+        var2['left'] = var8;
         var1['editButton'] = var2;
         var2 = {'width': 90, 'height': 60, 'left': 4294967286};
         var1['giftPromotionRewards'] = var2;
