@@ -3665,16 +3665,6 @@
         "width": 24,
         "height": 24
     },
-    "grubbin": {
-        "file": "modules/hang_status/images/native/original/grubbin.png",
-        "hash": "2c5d50c03e0f088e045182444b7b5818",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 25,
-        "height": 25
-    },
     "guild_identity_education_dark": {
         "file": "modules/guild_identity/images/guild_identity_education_dark.png",
         "hash": "977038e35a08043eb799ac3c20093988",
@@ -12067,6 +12057,24 @@
         ],
         "width": 16,
         "height": 16
+    },
+    "SpendEarnOrbs": {
+        "file": "design/components/LottieIcon/native/generated/lotties/SpendEarnOrbs.lottie",
+        "hash": "b2bc444db9cae6b34cebe16db6f4d97e",
+        "scales": [
+            1
+        ],
+        "width": null,
+        "height": null
+    },
+    "SpendEarnOrbsLightTheme": {
+        "file": "design/components/LottieIcon/native/generated/lotties/SpendEarnOrbsLightTheme.lottie",
+        "hash": "c6e628162099a849e9d1af7d811d1feb",
+        "scales": [
+            1
+        ],
+        "width": null,
+        "height": null
     },
     "SpoilerIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/SpoilerIcon.png",
