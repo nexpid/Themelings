@@ -515,8 +515,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var7.currentApp;
             var7 = var7.focusedOrientationLockState;
             var14 = null;
-            if(!(var14 == var7)) { _fun0004_ip = 373; continue _fun0004 }
- 342:
+            if(!(var14 == var7)) { _fun0004_ip = 375; continue _fun0004 }
+ 344:
             var17 = _closure1_slot0;
             var20 = _closure1_slot2;
             var9 = 22;
@@ -524,7 +524,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var17 = var17.bind(var4)(var9);
             var9 = var17.getDefaultOrientationLockState;
             var7 = var9.bind(var17)(var18);
- 373:
+ 375:
             _closure2_slot8 = var7;
             var9 = _closure1_slot15;
             var6 = var6.top;
@@ -743,12 +743,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var14 != var15;
             var7['isActivityConnected'] = var16;
             var14 = var14 != var15;
-            if(!var14) { _fun0004_ip = 635; continue _fun0004 }
- 621:
+            if(!var14) { _fun0004_ip = 637; continue _fun0004 }
+ 623:
             var15 = _closure1_slot13;
             var15 = var15.PANEL;
             var14 = var13 === var15;
- 635:
+ 637:
             var7['isActivityFocused'] = var14;
             var7['isVoicePanelFullscreen'] = var6;
             var6 = function useSafeAreaLock(arg1) {

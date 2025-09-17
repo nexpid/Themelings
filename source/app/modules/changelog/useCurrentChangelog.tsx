@@ -158,12 +158,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['loaded'] = var4;
             var1 = var2;
  244:
-            _fun0001_ip = 269; continue _fun0001;
+            _fun0001_ip = 265; continue _fun0001;
  246:
             var2 = {'id': null, 'changelog': null, 'loaded': false};
             var2['id'] = var3;
             var1 = var2;
- 269:
+ 265:
             return var1;
         }
     };

@@ -136,10 +136,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = null;
             var13 = var9 != var12;
             var9 = 'text-md/semibold';
-            if(!var13) { _fun0001_ip = 218; continue _fun0001 }
- 215:
+            if(!var13) { _fun0001_ip = 222; continue _fun0001 }
+ 219:
             var9 = var12;
- 218:
+ 222:
             var5['variant'] = var9;
             var9 = _closure1_slot0;
             var12 = _closure1_slot1;

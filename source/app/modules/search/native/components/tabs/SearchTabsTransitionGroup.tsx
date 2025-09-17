@@ -48,10 +48,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var6.TransitionStates;
             var9 = var6.MOUNTED;
             var6 = 0;
-            if(!(var3 === var9)) { _fun0001_ip = 105; continue _fun0001 }
- 102:
+            if(!(var3 === var9)) { _fun0001_ip = 106; continue _fun0001 }
+ 103:
             var6 = 1;
- 105:
+ 106:
             var13 = var7.bind(var8)(var6);
             _closure2_slot3 = var13;
             var6 = _closure1_slot0;
@@ -374,17 +374,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = null;
             var12 = var8 == var10;
             var11 = undefined;
-            if(var12) { _fun0001_ip = 627; continue _fun0001 }
- 621:
+            if(var12) { _fun0001_ip = 628; continue _fun0001 }
+ 622:
             var11 = var10.gesture;
- 627:
+ 628:
             var5['simultaneousHandlers'] = var11;
             var10 = var8 != var10;
             var8 = undefined;
-            if(!var10) { _fun0001_ip = 644; continue _fun0001 }
- 641:
+            if(!var10) { _fun0001_ip = 645; continue _fun0001 }
+ 642:
             var8 = var9;
- 644:
+ 645:
             var5['onEndDrag'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;

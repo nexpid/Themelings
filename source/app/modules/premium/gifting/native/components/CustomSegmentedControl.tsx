@@ -1235,10 +1235,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var6.isAndroid;
             var4 = var4.bind(var6)();
             var9 = 'tabbar';
-            if(!var4) { _fun0002_ip = 1787; continue _fun0002 }
- 1781:
+            if(!var4) { _fun0002_ip = 1791; continue _fun0002 }
+ 1785:
             var9 = 'tablist';
- 1787:
+ 1791:
             var12 = _closure1_slot7;
             var6 = _closure1_slot4;
             var4 = {};
@@ -1274,8 +1274,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['keyboardShouldPersistTaps'] = var10;
             var1['children'] = var6;
             var1 = var9.bind(var5)(var4, var1);
-            if(!var3) { _fun0002_ip = 1997; continue _fun0002 }
- 1953:
+            if(!var3) { _fun0002_ip = 2001; continue _fun0002 }
+ 1957:
             var4 = _closure1_slot6;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -1286,7 +1286,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['gesture'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1997:
+ 2001:
             return var1;
         }
     };

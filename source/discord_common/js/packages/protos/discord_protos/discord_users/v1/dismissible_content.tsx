@@ -1742,6 +1742,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['NOTIFICATION_NUDGE_APP_START_BOTTOM_SHEET'] = var2;
     var1 = 'NOTIFICATION_NUDGE_APP_START_BOTTOM_SHEET';
     var4[var2] = var1;
+    var2 = 610;
+    var4['ACCOUNT_LINK_PROMPT'] = var2;
+    var1 = 'ACCOUNT_LINK_PROMPT';
+    var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;
     var1 = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

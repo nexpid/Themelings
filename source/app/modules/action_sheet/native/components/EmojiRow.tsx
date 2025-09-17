@@ -363,59 +363,60 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = function onPress() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-                    var8 = _closure2_slot0;
-                    var4 = _closure2_slot1;
-                    var5 = _closure1_slot1;
-                    var3 = _closure1_slot2;
-                    var1 = 8;
-                    var3 = var3[var1];
-                    var1 = undefined;
-                    var5 = var5.bind(var1)(var3);
-                    var3 = var5.hideActionSheet;
-                    var3 = var3.bind(var5)();
-                    var3 = null;
-                    if(!(var3 != var4)) { _fun0004_ip = 235; continue _fun0004 }
- 55:
-                    var3 = _closure1_slot0;
-                    var5 = _closure1_slot2;
-                    var6 = 9;
-                    var7 = var5[var6];
-                    var9 = var3.bind(var1)(var7);
-                    var7 = var9.triggerHapticFeedback;
-                    var6 = var5[var6];
-                    var6 = var3.bind(var1)(var6);
-                    var6 = var6.HapticFeedbackTypes;
-                    var6 = var6.IMPACT_LIGHT;
-                    var6 = var7.bind(var9)(var6);
-                    var6 = 10;
-                    var6 = var5[var6];
-                    var11 = var3.bind(var1)(var6);
-                    var10 = var11.addReaction;
-                    var9 = var8.channel_id;
-                    var7 = var8.id;
-                    var6 = 11;
-                    var6 = var5[var6];
-                    var12 = var3.bind(var1)(var6);
-                    var6 = var12.toReactionEmoji;
-                    var6 = var6.bind(var12)(var4);
-                    var6 = var10.bind(var11)(var9, var7, var6);
+                    var2 = _closure2_slot0;
+                    var5 = _closure2_slot1;
                     var6 = _closure1_slot1;
-                    var2 = 12;
-                    var2 = var5[var2];
-                    var7 = var6.bind(var1)(var2);
-                    var6 = var7.focusMessage;
-                    var2 = {};
-                    var9 = var8.channel_id;
-                    var2['channelId'] = var9;
-                    var8 = var8.id;
-                    var2['messageId'] = var8;
-                    var2 = var6.bind(var7)(var2);
-                    var2 = 13;
-                    var2 = var5[var2];
-                    var3 = var3.bind(var1)(var2);
-                    var2 = var3.initializeDoubleTapEmojiAndUpsell;
-                    var2 = var2.bind(var3)(var4);
- 235:
+                    var4 = _closure1_slot2;
+                    var1 = 8;
+                    var4 = var4[var1];
+                    var1 = undefined;
+                    var6 = var6.bind(var1)(var4);
+                    var4 = var6.hideActionSheet;
+                    var4 = var4.bind(var6)();
+                    var4 = null;
+                    if(!(var4 != var5)) { _fun0004_ip = 241; continue _fun0004 }
+ 55:
+                    var4 = _closure1_slot0;
+                    var6 = _closure1_slot2;
+                    var7 = 9;
+                    var8 = var6[var7];
+                    var9 = var4.bind(var1)(var8);
+                    var8 = var9.triggerHapticFeedback;
+                    var7 = var6[var7];
+                    var7 = var4.bind(var1)(var7);
+                    var7 = var7.HapticFeedbackTypes;
+                    var7 = var7.IMPACT_LIGHT;
+                    var7 = var8.bind(var9)(var7);
+                    var7 = 10;
+                    var7 = var6[var7];
+                    var11 = var4.bind(var1)(var7);
+                    var10 = var11.addReaction;
+                    var9 = var2.channel_id;
+                    var8 = var2.id;
+                    var7 = 11;
+                    var7 = var6[var7];
+                    var12 = var4.bind(var1)(var7);
+                    var7 = var12.toReactionEmoji;
+                    var7 = var7.bind(var12)(var5);
+                    var7 = var10.bind(var11)(var9, var8, var7);
+                    var7 = _closure1_slot1;
+                    var3 = 12;
+                    var3 = var6[var3];
+                    var8 = var7.bind(var1)(var3);
+                    var7 = var8.focusMessage;
+                    var3 = {};
+                    var9 = var2.channel_id;
+                    var3['channelId'] = var9;
+                    var9 = var2.id;
+                    var3['messageId'] = var9;
+                    var3 = var7.bind(var8)(var3);
+                    var3 = 13;
+                    var3 = var6[var3];
+                    var4 = var4.bind(var1)(var3);
+                    var3 = var4.initializeDoubleTapEmojiAndUpsell;
+                    var2 = var2.channel_id;
+                    var2 = var3.bind(var4)(var5, var2);
+ 241:
                     return var1;
                 }
             };

@@ -21,7 +21,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = var6.fileFinishedImporting;
     var4 = 'modules/double_tap_to_react/native/DoubleTapChatInputBannerActionCreators.tsx';
     var4 = var5.bind(var6)(var4);
-    var4 = function showChatInputBanner(arg1) {
+    var4 = function showChatInputBanner(arg1, arg2) {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 0;
@@ -34,6 +34,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2['type'] = var5;
         var5 = arg1;
         var2['emoji'] = var5;
+        var5 = arg2;
+        var2['channelId'] = var5;
         var2 = var3.bind(var4)(var2);
         return var1;
     };

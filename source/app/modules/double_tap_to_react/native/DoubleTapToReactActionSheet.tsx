@@ -79,20 +79,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var10 = var15.isIOS;
         var15 = var10.bind(var15)();
         var10 = 36;
-        if(!var15) { _fun0001_ip = 335; continue _fun0001 }
- 332:
+        if(!var15) { _fun0001_ip = 334; continue _fun0001 }
+ 331:
         var10 = var12;
- 335:
+ 334:
         var9['fontSize'] = var10;
         var10 = var6[var14];
         var12 = var5.bind(var1)(var10);
         var10 = var12.isIOS;
         var12 = var10.bind(var12)();
         var10 = undefined;
-        if(!var12) { _fun0001_ip = 367; continue _fun0001 }
- 364:
+        if(!var12) { _fun0001_ip = 366; continue _fun0001 }
+ 363:
         var10 = 56;
- 367:
+ 366:
         var9['lineHeight'] = var10;
         var12 = 'center';
         var9['textAlign'] = var12;
@@ -111,10 +111,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var14 = var15.isIOS;
         var15 = var14.bind(var15)();
         var14 = undefined;
-        if(!var15) { _fun0001_ip = 449; continue _fun0001 }
- 446:
+        if(!var15) { _fun0001_ip = 448; continue _fun0001 }
+ 445:
         var14 = 56;
- 449:
+ 448:
         var9['lineHeight'] = var14;
         var4['selectedEmojiText'] = var9;
         var9 = {'flexDirection': 'column', 'alignItems': 'center'};

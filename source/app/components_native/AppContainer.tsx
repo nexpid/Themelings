@@ -505,7 +505,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = false;
         var8['strict'] = var7;
         var8 = var9.bind(var10)(var8);
- 397: // try_start_0
+ 396: // try_start_0
         var9 = var5;
         var10 = var6;
         var8 = 15;
@@ -513,11 +513,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var9.bind(var1)(var8);
         var8 = var9.enableFreeze;
         var8 = var8.bind(var9)();
- 425: // try_end0
-        _fun0001_ip = 429; continue _fun0001;
- 427: // catch_target0
+ 424: // try_end0
+        _fun0001_ip = 428; continue _fun0001;
+ 426: // catch_target0
         CatchBlockStart(arg_register=7);
- 429:
+ 428:
         var8 = 16;
         var8 = var6[var8];
         var10 = var5.bind(var1)(var8);

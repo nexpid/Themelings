@@ -51,10 +51,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var11 = var13.isAndroid;
         var13 = var11.bind(var13)();
         var11 = 0;
-        if(!var13) { _fun0001_ip = 195; continue _fun0001 }
- 192:
+        if(!var13) { _fun0001_ip = 194; continue _fun0001 }
+ 191:
         var11 = var12;
- 195:
+ 194:
         var9['paddingBottom'] = var11;
         var4['contentWrapper'] = var9;
         var9 = {};

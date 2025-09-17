@@ -437,10 +437,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.TransitionStates;
             var9 = var2.MOUNTED;
             var2 = 0;
-            if(!(var24 === var9)) { _fun0004_ip = 208; continue _fun0004 }
- 205:
+            if(!(var24 === var9)) { _fun0004_ip = 209; continue _fun0004 }
+ 206:
             var2 = 1;
- 208:
+ 209:
             var11 = var3.bind(var8)(var2);
             _closure2_slot8 = var11;
             var9 = _closure1_slot3;
@@ -508,8 +508,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = 'below';
             var9 = var9 === var28;
             var2 = var2 - var7;
-            if(var9) { _fun0004_ip = 419; continue _fun0004 }
- 383:
+            if(var9) { _fun0004_ip = 420; continue _fun0004 }
+ 384:
             var14 = var2 - var10;
             var21 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -518,8 +518,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var21.bind(var4)(var10);
             var10 = var10.CONTEXT_MENU_EDGE_OFFSET;
             var14 = var14 - var10;
-            _fun0004_ip = 453; continue _fun0004;
- 419:
+            _fun0004_ip = 454; continue _fun0004;
+ 420:
             var3 = var2 - var3;
             var10 = _closure1_slot0;
             var21 = _closure1_slot2;
@@ -528,7 +528,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var10.bind(var4)(var2);
             var2 = var2.CONTEXT_MENU_EDGE_OFFSET;
             var14 = var3 - var2;
- 453:
+ 454:
             _closure2_slot9 = var14;
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
@@ -540,10 +540,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _closure2_slot10 = var2;
             var21 = {};
             var3 = 'bottom';
-            if(!var9) { _fun0004_ip = 505; continue _fun0004 }
- 501:
+            if(!var9) { _fun0004_ip = 507; continue _fun0004 }
+ 503:
             var3 = 'top';
- 505:
+ 507:
             var21[var3] = var7;
             var21[var27] = var5;
             var3 = 'maxHeight';
@@ -1018,8 +1018,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9['accessibilityRole'] = var12;
             var14 = null;
             var12 = var14 != var18;
-            if(!var12) { _fun0004_ip = 1206; continue _fun0004 }
- 1075:
+            if(!var12) { _fun0004_ip = 1208; continue _fun0004 }
+ 1077:
             var21 = _closure1_slot7;
             var20 = _closure1_slot6;
             var12 = {};
@@ -1049,7 +1049,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22[1] = var23;
             var12['children'] = var22;
             var14 = var21.bind(var4)(var20, var12);
- 1206:
+ 1208:
             var12 = new Array(2);
             var12[0] = var14;
             var14 = _closure1_slot17;

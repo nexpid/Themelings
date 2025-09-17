@@ -38,18 +38,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot11 = var2;
+            _closure1_slot12 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot11 = var1;
+    var _closure1_slot12 = var1;
     var2 = function handleShowBanner(arg1) {
         var1 = arg1;
-        var2 = var1.emoji;
-        var3 = true;
-        _closure1_slot8 = var3;
+        var3 = var1.emoji;
+        var2 = var1.channelId;
+        var4 = true;
+        _closure1_slot8 = var4;
+        _closure1_slot10 = var3;
         _closure1_slot9 = var2;
         var1 = undefined;
         return var1;
@@ -58,9 +60,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = false;
         _closure1_slot8 = var1;
         var1 = undefined;
+        _closure1_slot9 = var1;
         return var1;
     };
-    var _closure1_slot12 = var10;
+    var _closure1_slot13 = var10;
     var1 = global;
     var11 = var1.Object;
     var9 = var11.defineProperty;
@@ -97,10 +100,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot7 = var4;
     var4 = false;
     var _closure1_slot8 = var4;
+    var _closure1_slot9 = var1;
     var4 = null;
-    var _closure1_slot9 = var4;
-    var4 = 80;
     var _closure1_slot10 = var4;
+    var4 = 80;
+    var _closure1_slot11 = var4;
     var4 = 7;
     var4 = var7[var4];
     var4 = var8.bind(var1)(var4);
@@ -118,7 +122,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot11;
+                var1 = _closure1_slot12;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
@@ -161,7 +165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'bannerEmoji';
         var5['key'] = var7;
         var7 = function get() {
-            var1 = _closure1_slot9;
+            var1 = _closure1_slot10;
             return var1;
         };
         var5['get'] = var7;
@@ -170,7 +174,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = 'bannerHeight';
         var5['key'] = var7;
         var6 = function get() {
-            var1 = _closure1_slot10;
+            var1 = _closure1_slot11;
             return var1;
         };
         var5['get'] = var6;
@@ -187,13 +191,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = {};
     var4['SHOW_DOUBLE_TAP_TO_REACT_BANNER'] = var2;
     var4['HIDE_DOUBLE_TAP_TO_REACT_BANNER'] = var10;
-    var10 = function handleAutoHideBanner() {
+    var10 = function handleAutoHideBanner(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
+            var1 = arg1;
+            var4 = var1.channelId;
             var2 = _closure1_slot8;
             var1 = false;
-            if(!(var1 !== var2)) { _fun0003_ip = 66; continue _fun0003 }
- 13:
+            if(!(var1 !== var2)) { _fun0003_ip = 82; continue _fun0003 }
+ 21:
+            var2 = _closure1_slot9;
+            if(!(var2 !== var4)) { _fun0003_ip = 82; continue _fun0003 }
+ 29:
             var5 = _closure1_slot0;
             var4 = _closure1_slot1;
             var2 = 6;
@@ -204,10 +213,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = _closure1_slot7;
             var4 = var4.AUTO_DISMISS;
             var4 = var5.bind(var6)(var4);
-            var3 = _closure1_slot12;
+            var3 = _closure1_slot13;
             var3 = var3.bind(var2)();
             return var2;
- 66:
+ 82:
             return var1;
         }
     };
@@ -215,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5 = function handleUpdateBannerHeight(arg1) {
         var1 = arg1;
         var2 = var1.height;
-        _closure1_slot10 = var2;
+        _closure1_slot11 = var2;
         var1 = undefined;
         return var1;
     };

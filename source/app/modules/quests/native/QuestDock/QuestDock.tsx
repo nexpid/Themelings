@@ -692,10 +692,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15['style'] = var7;
             var7 = !var6;
             var6 = !var7;
-            if(var7) { _fun0001_ip = 1364; continue _fun0001 }
- 1361:
+            if(var7) { _fun0001_ip = 1365; continue _fun0001 }
+ 1362:
             var6 = var31;
- 1364:
+ 1365:
             var15['accessibilityViewIsModal'] = var6;
             var15['onAccessibilityEscape'] = var12;
             var6 = 'box-none';
@@ -732,10 +732,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['onPressIn'] = var36;
             var7['onPressOut'] = var35;
             var7['onPress'] = var29;
-            if(!var31) { _fun0001_ip = 1520; continue _fun0001 }
- 1516:
+            if(!var31) { _fun0001_ip = 1521; continue _fun0001 }
+ 1517:
             var28 = 'none';
- 1520:
+ 1521:
             var7['pointerEvents'] = var28;
             var7 = var27.bind(var4)(var13, var7);
             var27 = new Array(4);
@@ -792,8 +792,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var29 = new Array(2);
             var29[0] = var30;
             var30 = !var32;
-            if(var32) { _fun0001_ip = 1790; continue _fun0001 }
- 1758:
+            if(var32) { _fun0001_ip = 1791; continue _fun0001 }
+ 1759:
             var34 = _closure1_slot21;
             var33 = _closure1_slot1;
             var35 = _closure1_slot2;
@@ -802,7 +802,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var33 = var33.bind(var4)(var32);
             var32 = {};
             var30 = var34.bind(var4)(var33, var32);
- 1790:
+ 1791:
             var29[1] = var30;
             var7['children'] = var29;
             var7 = var28.bind(var4)(var13, var7);

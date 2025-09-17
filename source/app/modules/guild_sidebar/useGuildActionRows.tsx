@@ -149,7 +149,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var20.bind(var21)(var3, var7);
             var21 = var11.features;
             var20 = var21.has;
-            var4 = var4.GAME_SERVER_HOSTING;
+            var4 = var4.GAME_SERVERS;
             var4 = var20.bind(var21)(var4);
             if(!var12) { _fun0001_ip = 519; continue _fun0001 }
  499:

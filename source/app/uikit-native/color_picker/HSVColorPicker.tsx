@@ -94,20 +94,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var12 = null;
             var17 = var10;
-            if(!(var12 != var11)) { _fun0001_ip = 166; continue _fun0001 }
- 163:
-            var17 = var11;
+            if(!(var12 != var11)) { _fun0001_ip = 169; continue _fun0001 }
  166:
+            var17 = var11;
+ 169:
             var5['hue'] = var17;
-            if(!(var12 != var16)) { _fun0001_ip = 178; continue _fun0001 }
- 175:
-            var15 = var16;
+            if(!(var12 != var16)) { _fun0001_ip = 181; continue _fun0001 }
  178:
+            var15 = var16;
+ 181:
             var5['saturation'] = var15;
-            if(!(var12 != var14)) { _fun0001_ip = 190; continue _fun0001 }
- 187:
-            var13 = var14;
+            if(!(var12 != var14)) { _fun0001_ip = 193; continue _fun0001 }
  190:
+            var13 = var14;
+ 193:
             var5['value'] = var13;
             var5['onPanFinalize'] = var9;
             var7 = var8.bind(var4)(var7, var5);
@@ -120,10 +120,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var13[var6];
             var7 = var7.bind(var4)(var6);
             var6 = {};
-            if(!(var12 != var11)) { _fun0001_ip = 246; continue _fun0001 }
- 243:
-            var10 = var11;
+            if(!(var12 != var11)) { _fun0001_ip = 249; continue _fun0001 }
  246:
+            var10 = var11;
+ 249:
             var6['hue'] = var10;
             var6['onPanFinalize'] = var9;
             var6 = var8.bind(var4)(var7, var6);

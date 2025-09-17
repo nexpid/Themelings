@@ -206,21 +206,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var6.bind(var12)(var1, var3);
             var3 = var17 == var11;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 351; continue _fun0001 }
- 345:
+            if(var3) { _fun0001_ip = 352; continue _fun0001 }
+ 346:
             var1 = var11.mutualFriendsCount;
- 351:
+ 352:
             var12 = var17 != var1;
-            if(!var12) { _fun0001_ip = 377; continue _fun0001 }
- 358:
+            if(!var12) { _fun0001_ip = 378; continue _fun0001 }
+ 359:
             var3 = var17 == var11;
             var1 = undefined;
-            if(var3) { _fun0001_ip = 373; continue _fun0001 }
- 367:
+            if(var3) { _fun0001_ip = 374; continue _fun0001 }
+ 368:
             var1 = var11.mutualFriendsCount;
- 373:
+ 374:
             var12 = var1 > var2;
- 377:
+ 378:
             var2 = _closure1_slot0;
             var3 = _closure1_slot2;
             var1 = 9;
@@ -228,8 +228,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var4)(var1);
             var1 = var2.getSuggestedContactNameForSuggestion;
             var18 = var1.bind(var2)(var13, var11);
-            if(!(var17 == var18)) { _fun0001_ip = 451; continue _fun0001 }
- 413:
+            if(!(var17 == var18)) { _fun0001_ip = 452; continue _fun0001 }
+ 414:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 4;
@@ -238,8 +238,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.getUserTag;
             var1 = var11.user;
             var6 = var2.bind(var3)(var1);
-            _fun0001_ip = 517; continue _fun0001;
- 451:
+            _fun0001_ip = 518; continue _fun0001;
+ 452:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 4;
@@ -254,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = '';
             var1 = ' · ';
             var6 = var3.bind(var2)(var14, var1, var18);
- 517:
+ 518:
             var3 = _closure1_slot8;
             var2 = _closure1_slot1;
             var14 = _closure1_slot2;
@@ -292,8 +292,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['actioned'] = var10;
             var7['label'] = var6;
             var6 = undefined;
-            if(!var12) { _fun0001_ip = 750; continue _fun0001 }
- 672:
+            if(!var12) { _fun0001_ip = 751; continue _fun0001 }
+ 673:
             var14 = _closure1_slot0;
             var18 = _closure1_slot2;
             var12 = 6;
@@ -308,13 +308,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = {};
             var18 = var17 == var11;
             var17 = undefined;
-            if(var18) { _fun0001_ip = 739; continue _fun0001 }
- 733:
+            if(var18) { _fun0001_ip = 740; continue _fun0001 }
+ 734:
             var17 = var11.mutualFriendsCount;
- 739:
+ 740:
             var12['count'] = var17;
             var6 = var15.bind(var16)(var14, var12);
- 750:
+ 751:
             var7['secondaryLabel'] = var6;
             var6 = _closure1_slot0;
             var12 = _closure1_slot2;

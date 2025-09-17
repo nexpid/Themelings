@@ -91,8 +91,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot5;
             var5 = undefined;
             var12 = var2.bind(var5)(var3);
-            if(!(var1 == var10)) { _fun0002_ip = 158; continue _fun0002 }
- 83:
+            if(!(var1 == var10)) { _fun0002_ip = 154; continue _fun0002 }
+ 79:
             var3 = _closure1_slot3;
             var2 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -110,8 +110,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 'maxFontSizeMultiplier';
             var1[var4] = var11;
             var1 = var3.bind(var5)(var2, var1);
-            _fun0002_ip = 400; continue _fun0002;
- 158:
+            _fun0002_ip = 396; continue _fun0002;
+ 154:
             var4 = _closure1_slot4;
             var8 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -166,7 +166,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = 'children';
             var2[var6] = var7;
             var1 = var4.bind(var5)(var3, var2);
- 400:
+ 396:
             return var1;
         }
     };

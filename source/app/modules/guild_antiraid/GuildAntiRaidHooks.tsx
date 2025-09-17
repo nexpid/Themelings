@@ -863,10 +863,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4 > var3;
  327:
             var1['dmsDisabled'] = var2;
-            _fun0012_ip = 348; continue _fun0012;
+            _fun0012_ip = 344; continue _fun0012;
  334:
             var1 = {'dmsDisabled': false, 'invitesDisabled': false};
- 348:
+ 344:
             return var1;
         }
     };

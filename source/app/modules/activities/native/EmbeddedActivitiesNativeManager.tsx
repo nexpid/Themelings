@@ -244,8 +244,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var9.isAndroid;
         var9 = var5.bind(var9)();
         var5 = null;
-        if(!var9) { _fun0001_ip = 416; continue _fun0001 }
- 384:
+        if(!var9) { _fun0001_ip = 415; continue _fun0001 }
+ 383:
         var9 = 15;
         var9 = var7[var9];
         var14 = var8.bind(var1)(var9);
@@ -254,7 +254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var10;
         var9 = new var15[var11](var14, var13);
         var5 = var9 instanceof Object ? var9 : var10;
- 416:
+ 415:
         var _closure1_slot17 = var5;
         var5 = 32;
         var5 = var7[var5];

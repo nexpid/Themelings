@@ -367,10 +367,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = 'https:';
         var9 = var9.bind(var21)(var8);
         var8 = 'ws:';
-        if(!var9) { _fun0001_ip = 509; continue _fun0001 }
- 503:
+        if(!var9) { _fun0001_ip = 508; continue _fun0001 }
+ 502:
         var8 = 'wss:';
- 509:
+ 508:
         var _closure1_slot29 = var8;
         var8 = {};
         var8['CONNECTION_CREATE'] = var4;

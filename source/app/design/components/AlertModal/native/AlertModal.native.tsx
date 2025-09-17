@@ -225,10 +225,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.TransitionStates;
             var6 = var2.MOUNTED;
             var2 = 0;
-            if(!(var4 === var6)) { _fun0003_ip = 111; continue _fun0003 }
- 108:
+            if(!(var4 === var6)) { _fun0003_ip = 112; continue _fun0003 }
+ 109:
             var2 = 1;
- 111:
+ 112:
             var2 = var3.bind(var5)(var2);
             var _closure2_slot2 = var2;
             var11 = _closure1_slot0;
@@ -1084,10 +1084,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var1.View;
             var1 = {};
             var9 = 'no-hide-descendants';
-            if(!(var6 === var8)) { _fun0008_ip = 560; continue _fun0008 }
- 556:
+            if(!(var6 === var8)) { _fun0008_ip = 561; continue _fun0008 }
+ 557:
             var9 = 'auto';
- 560:
+ 561:
             var1['importantForAccessibility'] = var9;
             var6 = var6 !== var8;
             var1['accessibilityElementsHidden'] = var6;
@@ -1166,14 +1166,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14[2] = var15;
             var15 = null;
             var17 = var15 != var19;
-            if(!var17) { _fun0008_ip = 886; continue _fun0008 }
- 866:
+            if(!var17) { _fun0008_ip = 887; continue _fun0008 }
+ 867:
             var18 = _closure1_slot11;
             var17 = _closure1_slot30;
             var16 = {};
             var16['children'] = var19;
             var15 = var18.bind(var4)(var17, var16);
- 886:
+ 887:
             var14[3] = var15;
             var11['children'] = var14;
             var11 = var13.bind(var4)(var12, var11);

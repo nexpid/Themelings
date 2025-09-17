@@ -308,16 +308,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var6.bind(var1)(var8);
         var8 = var9.isAndroid;
         var8 = var8.bind(var9)();
-        if(var8) { _fun0001_ip = 322; continue _fun0001 }
- 312:
+        if(var8) { _fun0001_ip = 321; continue _fun0001 }
+ 311:
         var5 = var5.DCDIconManager;
-        _fun0001_ip = 339; continue _fun0001;
- 322:
+        _fun0001_ip = 338; continue _fun0001;
+ 321:
         var8 = 9;
         var8 = var7[var8];
         var8 = var6.bind(var1)(var8);
         var5 = var8.default;
- 339:
+ 338:
         var _closure1_slot13 = var5;
         var5 = 17;
         var5 = var7[var5];

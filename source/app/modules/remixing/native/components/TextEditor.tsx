@@ -615,8 +615,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['paddingBottom'] = var7;
             var1['style'] = var6;
             var6 = var5;
-            if(!var6) { _fun0001_ip = 1017; continue _fun0001 }
- 984:
+            if(!var6) { _fun0001_ip = 1019; continue _fun0001 }
+ 986:
             var8 = _closure1_slot13;
             var7 = _closure1_slot1;
             var5 = _closure1_slot2;
@@ -625,7 +625,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var5['text'] = var21;
             var6 = var8.bind(var4)(var7, var5);
- 1017:
+ 1019:
             var5 = new Array(2);
             var5[0] = var6;
             var8 = _closure1_slot14;
@@ -660,10 +660,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var23.isAndroid;
             var23 = var22.bind(var23)();
             var22 = 'ascii-capable';
-            if(!var23) { _fun0001_ip = 1174; continue _fun0001 }
- 1168:
+            if(!var23) { _fun0001_ip = 1176; continue _fun0001 }
+ 1170:
             var22 = 'visible-password';
- 1174:
+ 1176:
             var9['keyboardType'] = var22;
             var9['value'] = var21;
             var9['onLayout'] = var17;

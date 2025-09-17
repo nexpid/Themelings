@@ -93,13 +93,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.questDockSoftDismissedAt;
             var3 = var7.bind(var8)(var3);
             var7 = _closure1_slot4;
-            if(var3) { _fun0001_ip = 105; continue _fun0001 }
- 97:
+            if(var3) { _fun0001_ip = 107; continue _fun0001 }
+ 99:
             var3 = var7.COLLAPSED;
-            _fun0001_ip = 111; continue _fun0001;
- 105:
+            _fun0001_ip = 113; continue _fun0001;
+ 107:
             var3 = var7.SOFT_DISMISSED;
- 111:
+ 113:
             var8 = var5.bind(var6)(var3);
             var _closure2_slot1 = var8;
             var6 = _closure1_slot2;

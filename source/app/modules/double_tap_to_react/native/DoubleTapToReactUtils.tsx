@@ -211,14 +211,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
-        var3 = function* (arg1) {
-            var1 = function* anon_0_(arg1) {
+        var3 = function* (arg1, arg2) {
+            var1 = function* anon_0_(arg1, arg2) {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                     StartGenerator();
                     var10 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0003_ip = 686; continue _fun0003 }
+                    if(var2) { _fun0003_ip = 690; continue _fun0003 }
  15:
                     var _closure4_slot0 = var10;
                     var4 = _closure1_slot0;
@@ -235,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var5.bind(var6)(var3, var4);
                     var3 = var4.enabled;
                     var6 = var4.upsellType;
-                    if(!var3) { _fun0003_ip = 683; continue _fun0003 }
+                    if(!var3) { _fun0003_ip = 687; continue _fun0003 }
  86:
                     var3 = _closure1_slot6;
                     var3 = var3.settings;
@@ -280,7 +280,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var4.bind(var2)(var3);
                     var3 = var4.maybeShowDoubleTapReminderToast;
                     var3 = var3.bind(var4)(var10);
-                    _fun0003_ip = 683; continue _fun0003;
+                    _fun0003_ip = 687; continue _fun0003;
  221:
                     var12 = _closure1_slot0;
                     var3 = _closure1_slot2;
@@ -294,7 +294,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.DismissibleContent;
                     var3 = var3.DOUBLE_TAP_TO_REACT_UPSELL;
                     var3 = var4.bind(var7)(var3);
-                    if(var3) { _fun0003_ip = 683; continue _fun0003 }
+                    if(var3) { _fun0003_ip = 687; continue _fun0003 }
  282:
                     var4 = _closure1_slot0;
                     var7 = _closure1_slot2;
@@ -316,7 +316,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var3;
  356:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0003_ip = 680; continue _fun0003 }
+                    if(var4) { _fun0003_ip = 684; continue _fun0003 }
  365:
                     var7 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -324,7 +324,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var7.bind(var2)(var4);
                     var4 = var4.DoubleTapToReactUpsellType;
                     var4 = var4.TOAST;
-                    if(!(var6 !== var4)) { _fun0003_ip = 547; continue _fun0003 }
+                    if(!(var6 !== var4)) { _fun0003_ip = 551; continue _fun0003 }
  401:
                     var7 = _closure1_slot0;
                     var4 = _closure1_slot2;
@@ -380,7 +380,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = 500;
                     var4 = var7.bind(var2)(var6, var4);
                     var4 = undefined;
-                    _fun0003_ip = 542; continue _fun0003;
+                    _fun0003_ip = 546; continue _fun0003;
  465:
                     var7 = _closure1_slot0;
                     var11 = _closure1_slot2;
@@ -395,13 +395,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var12.bind(var13)(var6);
                     var6 = 25;
                     var6 = var11[var6];
-                    var7 = var7.bind(var2)(var6);
-                    var6 = var7.showChatInputBanner;
-                    var6 = var6.bind(var7)(var10);
+                    var11 = var7.bind(var2)(var6);
+                    var7 = var11.showChatInputBanner;
+                    var6 = arg2;
+                    var6 = var7.bind(var11)(var10, var6);
                     var4 = undefined;
- 542:
-                    _fun0003_ip = 677; continue _fun0003;
- 547:
+ 546:
+                    _fun0003_ip = 681; continue _fun0003;
+ 551:
                     var12 = _closure1_slot0;
                     var7 = _closure1_slot2;
                     var6 = 29;
@@ -442,13 +443,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5['duration'] = var8;
                     var5 = var6.bind(var7)(var5);
                     var4 = undefined;
- 677:
+ 681:
                     return var4;
- 680:
+ 684:
                     return var3;
- 683:
+ 687:
                     return var2;
- 686:
+ 690:
                     return var1;
                 }
             };

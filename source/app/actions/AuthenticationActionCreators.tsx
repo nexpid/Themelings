@@ -1804,7 +1804,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var4 = _closure1_slot17;
             var3 = null;
-            if(!(var3 == var4)) { _fun0021_ip = 156; continue _fun0021 }
+            if(!(var3 == var4)) { _fun0021_ip = 152; continue _fun0021 }
  18:
             var3 = global;
             var6 = var3.clearTimeout;
@@ -1960,10 +1960,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1 = var4.bind(var5)(var3, var1);
             _closure1_slot17 = var1;
-            _fun0021_ip = 160; continue _fun0021;
- 156:
+            _fun0021_ip = 156; continue _fun0021;
+ 152:
             var1 = _closure1_slot17;
- 160:
+ 156:
             return var1;
         }
     };

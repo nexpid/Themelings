@@ -2915,8 +2915,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = _closure1_slot10;
             var14 = _closure1_slot1;
             var15 = _closure1_slot2;
-            if(var10) { _fun0003_ip = 1549; continue _fun0003 }
- 1512:
+            if(var10) { _fun0003_ip = 1551; continue _fun0003 }
+ 1514:
             var9 = var15[var9];
             var10 = var14.bind(var4)(var9);
             var9 = {};
@@ -2925,8 +2925,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = 'none';
             var9['pointerEvents'] = var11;
             var9 = var12.bind(var4)(var10, var9);
-            _fun0003_ip = 1611; continue _fun0003;
- 1549:
+            _fun0003_ip = 1613; continue _fun0003;
+ 1551:
             var10 = 22;
             var10 = var15[var10];
             var11 = var14.bind(var4)(var10);
@@ -2941,7 +2941,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13.BRAND_500;
             var10['color'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 1611:
+ 1613:
             var8[1] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

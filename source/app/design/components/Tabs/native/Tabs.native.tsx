@@ -914,10 +914,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var11.isIOS;
             var11 = var10.bind(var11)();
             var10 = undefined;
-            if(!var11) { _fun0001_ip = 1199; continue _fun0001 }
- 1193:
+            if(!var11) { _fun0001_ip = 1200; continue _fun0001 }
+ 1194:
             var10 = 'tabbar';
- 1199:
+ 1200:
             var1['accessibilityRole'] = var10;
             var1['onScroll'] = var8;
             var8 = false;
@@ -950,8 +950,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var8;
             var6 = var6.bind(var5)(var4, var1);
             var1 = var6;
-            if(!(var3 != var7)) { _fun0001_ip = 1391; continue _fun0001 }
- 1344:
+            if(!(var3 != var7)) { _fun0001_ip = 1392; continue _fun0001 }
+ 1345:
             var4 = _closure1_slot6;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -963,7 +963,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['gesture'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1391:
+ 1392:
             return var1;
         }
     };

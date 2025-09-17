@@ -194,65 +194,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = function _shouldSeePushNotificationNudge(arg1, arg2, arg3) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
-            var4 = arg1;
+            var2 = arg1;
+            var3 = null;
+            if(!(var3 != var2)) { _fun0004_ip = 71; continue _fun0004 }
+ 9:
+            var1 = var2.reminderUI;
+            var4 = var2.isContextual;
+            var2 = var3 != var4;
+            if(!var2) { _fun0004_ip = 31; continue _fun0004 }
+ 28:
+            var2 = var4;
+ 31:
+            var1 = var3 != var1;
+            if(!var1) { _fun0004_ip = 69; continue _fun0004 }
+ 38:
+            if(!var2) { _fun0004_ip = 66; continue _fun0004 }
+ 41:
+            var3 = arg3;
+            var5 = var3.eligiblePromptTypes;
+            var4 = var5.has;
             var3 = arg2;
-            var2 = arg3;
-            var1 = null;
-            if(!(var1 != var4)) { _fun0004_ip = 189; continue _fun0004 }
- 18:
-            var6 = var4.reminderUI;
-            var5 = var4.timing;
-            var7 = var4.isContextual;
-            var4 = var1 != var7;
-            if(!var4) { _fun0004_ip = 46; continue _fun0004 }
- 43:
-            var4 = var7;
- 46:
-            if(!(var1 != var6)) { _fun0004_ip = 185; continue _fun0004 }
- 53:
-            if(!var4) { _fun0004_ip = 79; continue _fun0004 }
- 56:
-            var6 = var2.eligiblePromptTypes;
-            var4 = var6.has;
-            var4 = var4.bind(var6)(var3);
-            if(var4) { _fun0004_ip = 79; continue _fun0004 }
- 75:
-            var4 = false;
-            return var4;
- 79:
-            var2 = var2.promptLastSeen;
-            var9 = var2[var3];
-            var1 = var1 == var9;
-            if(var1) { _fun0004_ip = 183; continue _fun0004 }
- 96:
-            var4 = _closure1_slot1;
-            var7 = _closure1_slot2;
-            var3 = 12;
-            var3 = var7[var3];
-            var6 = undefined;
-            var3 = var4.bind(var6)(var3);
-            var8 = var3.bind(var6)();
-            var4 = var8.diff;
-            var3 = 'days';
-            var3 = var4.bind(var8)(var9, var3);
-            var4 = _closure1_slot0;
-            var2 = 11;
-            var2 = var7[var2];
-            var2 = var4.bind(var6)(var2);
-            var2 = var2.NotificationNudgeTimingVariant;
-            var4 = var2.AGGRESSIVE;
-            var2 = 7;
-            if(!(var5 === var4)) { _fun0004_ip = 179; continue _fun0004 }
- 176:
-            var2 = 3;
- 179:
-            var1 = var3 >= var2;
- 183:
+            var3 = var4.bind(var5)(var3);
+            var2 = !var3;
+ 66:
+            var1 = !var2;
+ 69:
             return var1;
- 185:
-            var1 = false;
-            return var1;
- 189:
+ 71:
             var1 = false;
             return var1;
         }
@@ -267,53 +235,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     StartGenerator();
-                    var8 = arg1;
+                    var9 = arg1;
+                    var13 = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0005_ip = 138; continue _fun0005 }
- 13:
-                    var2 = _closure1_slot6;
-                    var3 = var2.NativePermissionManager;
-                    var2 = var3.getNotificationAuthorizationStatus;
-                    var2 = var2.bind(var3)();
-                    SaveGenerator(address=40);
- 38:
-                    return var2;
- 40:
+                    if(var2) { _fun0005_ip = 168; continue _fun0005 }
+ 16:
+                    var8 = undefined;
+                    if(!(var13 === var8)) { _fun0005_ip = 24; continue _fun0005 }
+ 22:
+                    var13 = true;
+ 24:
+                    SaveGenerator(address=28);
+ 26:
+                    return var8;
+ 28:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0005_ip = 135; continue _fun0005 }
- 46:
-                    var3 = _closure1_slot10;
-                    var3 = var3.DENIED;
-                    var3 = var2 === var3;
-                    if(!var3) { _fun0005_ip = 132; continue _fun0005 }
- 63:
-                    var7 = _closure1_slot14;
-                    var5 = _closure1_slot11;
-                    var11 = var5[var8];
-                    var5 = null;
-                    var9 = var5 == var11;
-                    var6 = undefined;
-                    var5 = undefined;
-                    if(var9) { _fun0005_ip = 111; continue _fun0005 }
- 88:
-                    var10 = var11.getExperiment;
-                    var9 = {};
-                    var12 = 'shouldSeePushNotificationNudge';
-                    var9['location'] = var12;
-                    var5 = var10.bind(var11)(var9);
- 111:
-                    var9 = _closure1_slot7;
-                    var4 = var9.getState;
-                    var4 = var4.bind(var9)();
-                    var3 = var7.bind(var6)(var5, var8, var4);
- 132:
+                    if(var3) { _fun0005_ip = 165; continue _fun0005 }
+ 37:
+                    var3 = _closure1_slot6;
+                    var4 = var3.NativePermissionManager;
+                    var3 = var4.getNotificationAuthorizationStatus;
+                    var3 = var3.bind(var4)();
+                    SaveGenerator(address=64);
+ 62:
                     return var3;
- 135:
-                    return var2;
+ 64:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(var4) { _fun0005_ip = 162; continue _fun0005 }
+ 70:
+                    var4 = _closure1_slot10;
+                    var4 = var4.DENIED;
+                    var4 = var3 === var4;
+                    if(!var4) { _fun0005_ip = 159; continue _fun0005 }
+ 87:
+                    var7 = _closure1_slot14;
+                    var6 = _closure1_slot11;
+                    var12 = var6[var9];
+                    var6 = null;
+                    var10 = var6 == var12;
+                    var6 = undefined;
+                    if(var10) { _fun0005_ip = 138; continue _fun0005 }
+ 110:
+                    var11 = var12.getExperiment;
+                    var10 = {};
+                    var14 = 'shouldSeePushNotificationNudge';
+                    var10['location'] = var14;
+                    var10['autoTrackExposure'] = var13;
+                    var6 = var11.bind(var12)(var10);
  138:
+                    var10 = _closure1_slot7;
+                    var5 = var10.getState;
+                    var5 = var5.bind(var10)();
+                    var4 = var7.bind(var8)(var6, var9, var5);
+ 159:
+                    return var4;
+ 162:
+                    return var3;
+ 165:
+                    return var2;
+ 168:
                     return var1;
                 }
             };
+            var2 = var1.next;
+            var2 = var2.bind(var1)();
             return var1;
         };
         var4 = var4.bind(var5)(var3);
@@ -411,7 +396,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7['useExperiment'] = var9;
     var4[var8] = var7;
     var _closure1_slot11 = var4;
-    var4 = 14;
+    var4 = 13;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -527,6 +512,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['enableProvisionalPushNotification'] = var4;
+    var4 = function useNudgeExperimentConfigWithoutExposure(arg1) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+ 0:
+            var2 = _closure1_slot11;
+            var1 = arg1;
+            var4 = var2[var1];
+            var1 = null;
+            var2 = var1 == var4;
+            var1 = undefined;
+            if(var2) { _fun0007_ip = 50; continue _fun0007 }
+ 25:
+            var3 = var4.getExperiment;
+            var2 = {'location': 'useNudgeExperimentConfigWithoutExposure', 'autoTrackExposure': false};
+            var1 = var3.bind(var4)(var2);
+ 50:
+            return var1;
+        }
+    };
+    var3['useNudgeExperimentConfigWithoutExposure'] = var4;
     var4 = function shouldSeePushNotificationNudge(arg1) {
         var1 = undefined;
         var4 = _closure1_slot15;
@@ -539,25 +543,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     };
     var3['shouldSeePushNotificationNudge'] = var4;
     var2 = function useShouldSeePushNotificationNudge(arg1) {
-        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
             var6 = arg1;
-            var5 = _closure1_slot5;
-            var4 = var5.useState;
-            var3 = null;
-            var8 = var4.bind(var5)(var3);
-            var7 = _closure1_slot3;
+            var12 = arguments[1];
             var5 = undefined;
+            if(!(var12 === var5)) { _fun0008_ip = 16; continue _fun0008 }
+ 14:
+            var12 = true;
+ 16:
+            var _closure2_slot0 = var5;
+            var7 = _closure1_slot5;
+            var4 = var7.useState;
+            var3 = null;
+            var8 = var4.bind(var7)(var3);
+            var7 = _closure1_slot3;
             var4 = 2;
             var7 = var7.bind(var5)(var8, var4);
             var4 = 0;
             var8 = var7[var4];
             var4 = 1;
             var4 = var7[var4];
-            var _closure2_slot0 = var4;
+            _closure2_slot0 = var4;
             var7 = _closure1_slot0;
             var9 = _closure1_slot2;
-            var4 = 13;
+            var4 = 12;
             var4 = var9[var4];
             var10 = var7.bind(var5)(var4);
             var9 = var10.useStateFromStoresObject;
@@ -578,15 +588,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var8[var6];
             var8 = var3 == var10;
             var3 = undefined;
-            if(var8) { _fun0007_ip = 166; continue _fun0007 }
- 138:
+            if(var8) { _fun0008_ip = 186; continue _fun0008 }
+ 151:
             var9 = var10.useExperiment;
             var8 = {};
             var11 = 'useShouldSeePushNotificationNudge';
             var8['location'] = var11;
-            var8['autoTrackExposure'] = var7;
+            var11 = var7;
+            if(!var11) { _fun0008_ip = 176; continue _fun0008 }
+ 173:
+            var11 = var12;
+ 176:
+            var8['autoTrackExposure'] = var11;
             var3 = var9.bind(var10)(var8);
- 166:
+ 186:
             var10 = _closure1_slot5;
             var9 = var10.useEffect;
             var8 = function() {
@@ -596,11 +611,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = _closure1_slot4;
                     var2 = function* () {
                         var1 = function* anon_0_() {
-                            _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
+                            _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0008_ip = 60; continue _fun0008 }
+                                if(var2) { _fun0009_ip = 60; continue _fun0009 }
  7:
                                 var2 = _closure1_slot6;
                                 var3 = var2.NativePermissionManager;
@@ -611,7 +626,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 return var2;
  34:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                if(var3) { _fun0008_ip = 57; continue _fun0008 }
+                                if(var3) { _fun0009_ip = 57; continue _fun0009 }
  40:
                                 var4 = _closure2_slot0;
                                 var3 = undefined;
@@ -654,11 +669,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var9.bind(var10)(var8, var1);
             var1 = !var7;
             var1 = !var1;
-            if(!var7) { _fun0007_ip = 212; continue _fun0007 }
- 201:
+            if(!var7) { _fun0008_ip = 232; continue _fun0008 }
+ 221:
             var2 = _closure1_slot14;
             var1 = var2.bind(var5)(var3, var6, var4);
- 212:
+ 232:
             return var1;
         }
     };

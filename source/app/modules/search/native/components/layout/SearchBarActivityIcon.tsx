@@ -316,10 +316,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var12.isAndroid;
             var12 = var11.bind(var12)();
             var11 = 'xs';
-            if(!var12) { _fun0001_ip = 577; continue _fun0001 }
- 573:
+            if(!var12) { _fun0001_ip = 578; continue _fun0001 }
+ 574:
             var11 = 'sm';
- 577:
+ 578:
             var9['size'] = var11;
             var11 = 'interactive-normal';
             var9['color'] = var11;

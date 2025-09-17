@@ -202,15 +202,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = var16[var20];
             var16 = var21.bind(var4)(var16);
             var16 = var16.t;
-            if(var15) { _fun0001_ip = 343; continue _fun0001 }
- 330:
+            if(var15) { _fun0001_ip = 344; continue _fun0001 }
+ 331:
             var15 = var16.cpT0Cg;
             var15 = var18.bind(var19)(var15);
-            _fun0001_ip = 354; continue _fun0001;
- 343:
+            _fun0001_ip = 355; continue _fun0001;
+ 344:
             var16 = var16.13/7kZ;
             var15 = var18.bind(var19)(var16);
- 354:
+ 355:
             var6['accessibilityLabel'] = var15;
             var14 = function onPress() {
                 _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
@@ -234,8 +234,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = _closure1_slot5;
             var16 = _closure1_slot0;
             var22 = _closure1_slot2;
-            if(var14) { _fun0001_ip = 449; continue _fun0001 }
- 390:
+            if(var14) { _fun0001_ip = 450; continue _fun0001 }
+ 391:
             var14 = 12;
             var14 = var22[var14];
             var14 = var16.bind(var4)(var14);
@@ -249,8 +249,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.INTERACTIVE_NORMAL;
             var14['color'] = var19;
             var14 = var18.bind(var4)(var15, var14);
-            _fun0001_ip = 506; continue _fun0001;
- 449:
+            _fun0001_ip = 507; continue _fun0001;
+ 450:
             var15 = 11;
             var15 = var22[var15];
             var15 = var16.bind(var4)(var15);
@@ -264,7 +264,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.INTERACTIVE_NORMAL;
             var15['color'] = var19;
             var14 = var18.bind(var4)(var16, var15);
- 506:
+ 507:
             var6['children'] = var14;
             var7 = var8.bind(var4)(var7, var6);
             var6 = new Array(3);

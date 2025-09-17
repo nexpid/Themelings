@@ -519,8 +519,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var8 != var7;
             _closure2_slot11 = var15;
             var14 = var3;
-            if(var14) { _fun0001_ip = 732; continue _fun0001 }
- 698:
+            if(var14) { _fun0001_ip = 733; continue _fun0001 }
+ 699:
             var7 = _closure1_slot0;
             var22 = _closure1_slot2;
             var3 = 15;
@@ -529,7 +529,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var7.isPremiumCollectiblesProduct;
             var3 = var3.bind(var7)(var10);
             var14 = !var3;
- 732:
+ 733:
             _closure2_slot12 = var14;
             var7 = _closure1_slot4;
             var10 = var7.useMemo;
@@ -624,10 +624,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2[5] = var13;
             var13 = var8 == var12;
             var8 = undefined;
-            if(var13) { _fun0001_ip = 824; continue _fun0001 }
- 818:
+            if(var13) { _fun0001_ip = 825; continue _fun0001 }
+ 819:
             var8 = var12.skuId;
- 824:
+ 825:
             var2[6] = var8;
             var1 = function() {
                 _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
@@ -743,25 +743,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7[var13];
             var8 = var8.bind(var4)(var7);
             var7 = {};
-            if(var15) { _fun0001_ip = 1004; continue _fun0001 }
- 970:
-            if(var14) { _fun0001_ip = 1004; continue _fun0001 }
- 973:
+            if(var15) { _fun0001_ip = 1005; continue _fun0001 }
+ 971:
+            if(var14) { _fun0001_ip = 1005; continue _fun0001 }
+ 974:
             var15 = _closure1_slot0;
             var14 = _closure1_slot2;
             var14 = var14[var13];
             var14 = var15.bind(var4)(var14);
             var14 = var14.ButtonColors;
             var14 = var14.GREEN;
-            _fun0001_ip = 1033; continue _fun0001;
- 1004:
+            _fun0001_ip = 1034; continue _fun0001;
+ 1005:
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
             var15 = var15[var13];
             var15 = var16.bind(var4)(var15);
             var15 = var15.ButtonColors;
             var14 = var15.BRAND;
- 1033:
+ 1034:
             var7['color'] = var14;
             var7['onPress'] = var12;
             var12 = _closure1_slot0;

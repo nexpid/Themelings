@@ -170,7 +170,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var12 = var10.features;
                     var11 = var12.has;
                     var9 = _closure1_slot9;
-                    var9 = var9.GAME_SERVER_HOSTING;
+                    var9 = var9.GAME_SERVERS;
                     var8 = var11.bind(var12)(var9);
  568:
                     return var8;

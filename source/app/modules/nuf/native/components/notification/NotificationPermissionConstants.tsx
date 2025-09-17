@@ -33,6 +33,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FOOTER'] = var1;
     var1 = 'cta';
     var2['CTA'] = var1;
+    var1 = 'dm_list';
+    var2['DM_LIST'] = var1;
     var1 = 'message_sent';
     var2['MESSAGE_SENT'] = var1;
     var1 = 'user_setting';

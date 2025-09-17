@@ -145,28 +145,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var14.isIOS;
         var14 = var13.bind(var14)();
         var13 = 0;
-        if(!var14) { _fun0001_ip = 436; continue _fun0001 }
- 414:
+        if(!var14) { _fun0001_ip = 435; continue _fun0001 }
+ 413:
         var14 = 13;
         var14 = var6[var14];
         var14 = var11.bind(var1)(var14);
         var14 = var14.spacing;
         var13 = var14.PX_16;
- 436:
+ 435:
         var9['paddingHorizontal'] = var13;
         var12 = var6[var12];
         var13 = var5.bind(var1)(var12);
         var12 = var13.isIOS;
         var12 = var12.bind(var13)();
         var10 = 0;
-        if(!var12) { _fun0001_ip = 487; continue _fun0001 }
- 464:
+        if(!var12) { _fun0001_ip = 486; continue _fun0001 }
+ 463:
         var12 = 13;
         var12 = var6[var12];
         var12 = var11.bind(var1)(var12);
         var12 = var12.spacing;
         var10 = var12.PX_8;
- 487:
+ 486:
         var9['paddingVertical'] = var10;
         var10 = 13;
         var10 = var6[var10];

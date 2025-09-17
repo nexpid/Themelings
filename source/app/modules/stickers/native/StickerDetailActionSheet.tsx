@@ -100,10 +100,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var15.isAndroid;
         var15 = var13.bind(var15)();
         var13 = 0;
-        if(!var15) { _fun0001_ip = 412; continue _fun0001 }
- 409:
+        if(!var15) { _fun0001_ip = 411; continue _fun0001 }
+ 408:
         var13 = var14;
- 412:
+ 411:
         var10['paddingBottom'] = var13;
         var4['content'] = var10;
         var10 = {'lineHeight': 18, 'marginTop': 4, 'marginBottom': 10};

@@ -87,10 +87,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var2.bind(var4)(var1);
             var2 = var10.useSharedValue;
             var1 = 0;
-            if(!var7) { _fun0001_ip = 108; continue _fun0001 }
- 105:
+            if(!var7) { _fun0001_ip = 109; continue _fun0001 }
+ 106:
             var1 = 1;
- 108:
+ 109:
             var17 = var2.bind(var10)(var1);
             _closure2_slot2 = var17;
             var18 = _closure1_slot3;
@@ -225,10 +225,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[2] = var8;
             var1['style'] = var5;
             var5 = 'none';
-            if(!var7) { _fun0001_ip = 388; continue _fun0001 }
- 384:
+            if(!var7) { _fun0001_ip = 389; continue _fun0001 }
+ 385:
             var5 = 'auto';
- 388:
+ 389:
             var1['pointerEvents'] = var5;
             var8 = _closure1_slot6;
             var13 = _closure1_slot1;

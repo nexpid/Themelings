@@ -341,8 +341,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var6.bind(var1)(var10);
         var10 = var13.isIOS;
         var10 = var10.bind(var13)();
-        if(!var10) { _fun0001_ip = 515; continue _fun0001 }
- 464:
+        if(!var10) { _fun0001_ip = 514; continue _fun0001 }
+ 463:
         var14 = var9.parseInt;
         var15 = var12.Version;
         var12 = var9.HermesInternal;
@@ -354,7 +354,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var12 | 0;
         var12 = 15;
         var10 = var13 <= var12;
- 515:
+ 514:
         var _closure1_slot15 = var10;
         var10 = 10;
         var10 = var7[var10];
