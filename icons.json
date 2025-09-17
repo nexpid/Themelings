@@ -11899,7 +11899,7 @@
     },
     "ShieldIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ShieldIcon.png",
-        "hash": "23794d23aa919d01cb3bfce1992752bf",
+        "hash": "55002ee2e7c6080c4e1487434a86b9f9",
         "scales": [
             2,
             3
@@ -11909,7 +11909,7 @@
     },
     "ShieldLockIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ShieldLockIcon.png",
-        "hash": "8e3bfd8f982ca8f242bf0d6778e237a9",
+        "hash": "b43252936fe6190500afd5ad2e0b51c9",
         "scales": [
             2,
             3
@@ -11919,7 +11919,7 @@
     },
     "ShieldUserIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ShieldUserIcon.png",
-        "hash": "2e81c1e017bdf458cb4f9d7a500eeb93",
+        "hash": "5e7e2668c0d26e6f03eb6638c7764cce",
         "scales": [
             2,
             3
