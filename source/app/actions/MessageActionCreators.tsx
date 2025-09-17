@@ -1068,7 +1068,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.getChannel;
             var13 = var2.bind(var3)(var5);
             var2 = null;
-            if(!(var2 != var13)) { _fun0005_ip = 369; continue _fun0005 }
+            if(!(var2 != var13)) { _fun0005_ip = 365; continue _fun0005 }
  34:
             var11 = _closure1_slot0;
             var12 = _closure1_slot2;
@@ -1184,14 +1184,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['context'] = var10;
             var7 = var8.bind(var9)(var7);
             var2 = var2 != var4;
-            if(!var2) { _fun0005_ip = 311; continue _fun0005 }
- 300:
+            if(!var2) { _fun0005_ip = 307; continue _fun0005 }
+ 296:
             var8 = var4.length;
             var7 = 0;
             var2 = var8 > var7;
- 311:
-            if(!var2) { _fun0005_ip = 369; continue _fun0005 }
- 314:
+ 307:
+            if(!var2) { _fun0005_ip = 365; continue _fun0005 }
+ 310:
             var2 = _closure1_slot1;
             var7 = _closure1_slot2;
             var1 = 46;
@@ -1205,7 +1205,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['channelId'] = var5;
             var1['attachments'] = var4;
             var1 = var2.bind(var3)(var1);
- 369:
+ 365:
             var1 = undefined;
             return var1;
         }
@@ -5630,7 +5630,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(var2) { _fun0037_ip = 191; continue _fun0037 }
+                        if(var2) { _fun0037_ip = 195; continue _fun0037 }
  12:
                         var3 = function dispatchDelete() {
                             var3 = _closure1_slot1;
@@ -5676,7 +5676,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         };
                         var _closure4_slot0 = var3;
                         var2 = _closure2_slot2;
-                        if(var2) { _fun0037_ip = 180; continue _fun0037 }
+                        if(var2) { _fun0037_ip = 184; continue _fun0037 }
  34:
                         var5 = _closure1_slot1;
                         var6 = _closure1_slot2;
@@ -5692,7 +5692,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var2;
  78:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(var5) { _fun0037_ip = 177; continue _fun0037 }
+                        if(var5) { _fun0037_ip = 181; continue _fun0037 }
  84:
                         var6 = _closure1_slot0;
                         var10 = _closure1_slot2;
@@ -5717,16 +5717,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             return var1;
                         };
                         var4 = var5.bind(var6)(var4);
-                        _fun0037_ip = 186; continue _fun0037;
- 177:
+                        _fun0037_ip = 190; continue _fun0037;
+ 181:
                         return var2;
- 180:
+ 184:
                         var2 = undefined;
                         var2 = var3.bind(var2)();
- 186:
+ 190:
                         var2 = undefined;
                         return var2;
- 191:
+ 195:
                         return var1;
                     }
                 };

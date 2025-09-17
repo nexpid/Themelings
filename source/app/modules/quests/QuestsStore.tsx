@@ -38,13 +38,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot34 = var2;
+            _closure1_slot35 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot34 = var1;
+    var _closure1_slot35 = var1;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -116,7 +116,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = undefined;
             if(!var9) { _fun0002_ip = 247; continue _fun0002 }
  234:
-            var9 = _closure1_slot36;
+            var9 = _closure1_slot37;
             var7 = var9.bind(var8)(var3, var8);
  247:
             _fun0002_ip = 265; continue _fun0002;
@@ -128,7 +128,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7;
             _fun0002_ip = 283; continue _fun0002;
  270:
-            var7 = _closure1_slot36;
+            var7 = _closure1_slot37;
             var6 = var7.bind(var8)(var3, var8);
  283:
             var4 = var6;
@@ -187,7 +187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot35 = var1;
+    var _closure1_slot36 = var1;
     var1 = function _arrayLikeToArray(arg1, arg2) {
         _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
@@ -220,264 +220,298 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot36 = var1;
+    var _closure1_slot37 = var1;
     var2 = function initializeState() {
         var1 = false;
         var _closure1_slot2 = var1;
         var _closure1_slot3 = var1;
         var _closure1_slot4 = var1;
-        var1 = global;
-        var2 = var1.Map;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot5 = var2;
-        var2 = var1.Map;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot6 = var2;
-        var2 = var1.Map;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot7 = var2;
-        var2 = 0;
-        var _closure1_slot8 = var2;
-        var _closure1_slot9 = var2;
-        var2 = var1.Set;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot10 = var2;
-        var2 = var1.Set;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot11 = var2;
-        var2 = var1.Set;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot12 = var2;
-        var2 = var1.Set;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot13 = var2;
-        var2 = var1.Set;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot14 = var2;
-        var2 = var1.Map;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        _closure1_slot31 = var2;
-        var2 = var1.Map;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot16 = var2;
-        var2 = var1.Map;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot17 = var2;
-        var2 = var1.Map;
-        var4 = var2.prototype;
-        var4 = Object.create(var4, {constructor: {value: var2}});
-        var6 = var4;
-        var2 = new var6[var2](var5);
-        var2 = var2 instanceof Object ? var2 : var4;
-        var _closure1_slot18 = var2;
-        var2 = null;
-        var _closure1_slot19 = var2;
-        var4 = var1.Map;
-        var5 = var4.prototype;
-        var5 = Object.create(var5, {constructor: {value: var4}});
-        var6 = var5;
-        var4 = new var6[var4](var5);
-        var4 = var4 instanceof Object ? var4 : var5;
-        var _closure1_slot20 = var4;
-        var4 = var1.Set;
-        var5 = var4.prototype;
-        var5 = Object.create(var5, {constructor: {value: var4}});
-        var6 = var5;
-        var4 = new var6[var4](var5);
-        var4 = var4 instanceof Object ? var4 : var5;
-        var _closure1_slot15 = var4;
-        var4 = var1.Map;
-        var5 = var4.prototype;
-        var5 = Object.create(var5, {constructor: {value: var4}});
-        var6 = var5;
-        var4 = new var6[var4](var5);
-        var4 = var4 instanceof Object ? var4 : var5;
-        var _closure1_slot21 = var4;
-        var1 = var1.Map;
+        var2 = global;
+        var1 = var2.Map;
         var4 = var1.prototype;
         var4 = Object.create(var4, {constructor: {value: var1}});
         var6 = var4;
         var1 = new var6[var1](var5);
         var1 = var1 instanceof Object ? var1 : var4;
+        var _closure1_slot5 = var1;
+        var1 = var2.Map;
+        var4 = var1.prototype;
+        var4 = Object.create(var4, {constructor: {value: var1}});
+        var6 = var4;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var _closure1_slot6 = var1;
+        var1 = var2.Map;
+        var4 = var1.prototype;
+        var4 = Object.create(var4, {constructor: {value: var1}});
+        var6 = var4;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var _closure1_slot7 = var1;
+        var1 = 0;
+        var _closure1_slot8 = var1;
+        var _closure1_slot9 = var1;
+        var1 = var2.Set;
+        var4 = var1.prototype;
+        var4 = Object.create(var4, {constructor: {value: var1}});
+        var6 = var4;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var _closure1_slot10 = var1;
+        var1 = var2.Set;
+        var4 = var1.prototype;
+        var4 = Object.create(var4, {constructor: {value: var1}});
+        var6 = var4;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var _closure1_slot11 = var1;
+        var1 = var2.Set;
+        var4 = var1.prototype;
+        var4 = Object.create(var4, {constructor: {value: var1}});
+        var6 = var4;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var _closure1_slot12 = var1;
+        var1 = var2.Set;
+        var4 = var1.prototype;
+        var4 = Object.create(var4, {constructor: {value: var1}});
+        var6 = var4;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var _closure1_slot13 = var1;
+        var1 = var2.Set;
+        var4 = var1.prototype;
+        var4 = Object.create(var4, {constructor: {value: var1}});
+        var6 = var4;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var _closure1_slot14 = var1;
+        var1 = var2.Map;
+        var4 = var1.prototype;
+        var4 = Object.create(var4, {constructor: {value: var1}});
+        var6 = var4;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        _closure1_slot32 = var1;
+        var1 = var2.Map;
+        var4 = var1.prototype;
+        var4 = Object.create(var4, {constructor: {value: var1}});
+        var6 = var4;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var _closure1_slot16 = var1;
+        var1 = var2.Map;
+        var4 = var1.prototype;
+        var4 = Object.create(var4, {constructor: {value: var1}});
+        var6 = var4;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var _closure1_slot17 = var1;
+        var1 = var2.Map;
+        var4 = var1.prototype;
+        var4 = Object.create(var4, {constructor: {value: var1}});
+        var6 = var4;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var4;
+        var _closure1_slot18 = var1;
+        var4 = null;
+        var _closure1_slot19 = var4;
+        var1 = var2.Map;
+        var5 = var1.prototype;
+        var5 = Object.create(var5, {constructor: {value: var1}});
+        var6 = var5;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var5;
+        var _closure1_slot20 = var1;
+        var1 = var2.Set;
+        var5 = var1.prototype;
+        var5 = Object.create(var5, {constructor: {value: var1}});
+        var6 = var5;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var5;
+        var _closure1_slot15 = var1;
+        var1 = var2.Map;
+        var5 = var1.prototype;
+        var5 = Object.create(var5, {constructor: {value: var1}});
+        var6 = var5;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var5;
+        var _closure1_slot21 = var1;
+        var1 = var2.Map;
+        var5 = var1.prototype;
+        var5 = Object.create(var5, {constructor: {value: var1}});
+        var6 = var5;
+        var1 = new var6[var1](var5);
+        var1 = var1 instanceof Object ? var1 : var5;
         var _closure1_slot29 = var1;
-        var4 = _closure1_slot45;
+        var5 = _closure1_slot46;
         var1 = undefined;
-        var4 = var4.bind(var1)();
-        var _closure1_slot30 = var2;
+        var5 = var5.bind(var1)();
+        var _closure1_slot30 = var4;
+        var2 = var2.Map;
+        var4 = var2.prototype;
+        var4 = Object.create(var4, {constructor: {value: var2}});
+        var6 = var4;
+        var2 = new var6[var2](var5);
+        var2 = var2 instanceof Object ? var2 : var4;
+        var _closure1_slot31 = var2;
         return var1;
     };
-    var _closure1_slot37 = var2;
+    var _closure1_slot38 = var2;
     var1 = function updateQuestData(arg1, arg2) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
             var4 = arg1;
-            var2 = arg2;
-            var5 = global;
-            var7 = var5.Map;
-            var21 = _closure1_slot5;
+            var5 = arg2;
+            var2 = global;
+            var7 = var2.Map;
+            var23 = _closure1_slot5;
             var6 = var7.prototype;
             var6 = Object.create(var6, {constructor: {value: var7}});
-            var22 = var6;
-            var3 = new var22[var7](var21, var20);
+            var24 = var6;
+            var3 = new var24[var7](var23, var22);
             var6 = var3 instanceof Object ? var3 : var6;
             _closure1_slot5 = var6;
             var3 = var6.get;
             var6 = var3.bind(var6)(var4);
-            var12 = null;
-            if(!(var12 != var6)) { _fun0005_ip = 403; continue _fun0005 }
+            var3 = null;
+            if(!(var3 != var6)) { _fun0005_ip = 505; continue _fun0005 }
  64:
-            var3 = {};
-            var21 = var3;
-            var20 = var6;
-            var6 = copyDataProperties(var21, var20);
-            var21 = var3;
-            var20 = var2;
-            var6 = copyDataProperties(var21, var20);
-            var6 = var2.userStatus;
-            if(!(var12 != var6)) { _fun0005_ip = 388; continue _fun0005 }
+            var8 = {};
+            var23 = var8;
+            var22 = var6;
+            var6 = copyDataProperties(var23, var22);
+            var23 = var8;
+            var22 = var5;
+            var6 = copyDataProperties(var23, var22);
+            var6 = var5.userStatus;
+            if(!(var3 != var6)) { _fun0005_ip = 388; continue _fun0005 }
  99:
-            var6 = var5.Object;
-            var5 = var6.values;
-            var7 = var2.userStatus;
-            var8 = var12 == var7;
-            var11 = undefined;
-            var2 = undefined;
-            if(var8) { _fun0005_ip = 133; continue _fun0005 }
- 127:
-            var2 = var7.progress;
- 133:
-            if(!(var12 == var2)) { _fun0005_ip = 139; continue _fun0005 }
- 137:
-            var2 = {};
- 139:
-            var10 = var5.bind(var6)(var2);
-            var2 = var10.length;
-            var9 = 0;
-            var2 = var9 < var2;
-            var8 = 8;
-            var7 = 7;
+            var9 = var2.Object;
+            var7 = var9.values;
+            var10 = var5.userStatus;
+            var11 = var3 == var10;
+            var14 = undefined;
             var6 = undefined;
-            var5 = undefined;
-            if(!var2) { _fun0005_ip = 388; continue _fun0005 }
+            if(var11) { _fun0005_ip = 133; continue _fun0005 }
+ 127:
+            var6 = var10.progress;
+ 133:
+            if(!(var3 == var6)) { _fun0005_ip = 139; continue _fun0005 }
+ 137:
+            var6 = {};
+ 139:
+            var13 = var7.bind(var9)(var6);
+            var6 = var13.length;
+            var12 = 0;
+            var6 = var12 < var6;
+            var11 = 8;
+            var10 = 7;
+            var9 = undefined;
+            var7 = undefined;
+            if(!var6) { _fun0005_ip = 388; continue _fun0005 }
  171:
-            var15 = var10[var9];
-            var13 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var7];
-            var13 = var13.bind(var11)(var2);
-            var2 = var13.isNil;
-            var2 = var2.bind(var13)(var15);
-            var14 = var6;
-            var13 = var5;
-            if(var2) { _fun0005_ip = 367; continue _fun0005 }
+            var17 = var13[var12];
+            var15 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var6 = var6[var10];
+            var15 = var15.bind(var14)(var6);
+            var6 = var15.isNil;
+            var6 = var6.bind(var15)(var17);
+            var16 = var9;
+            var15 = var7;
+            if(var6) { _fun0005_ip = 367; continue _fun0005 }
  215:
-            var16 = _closure1_slot0;
-            var2 = _closure1_slot1;
-            var2 = var2[var8];
-            var2 = var16.bind(var11)(var2);
-            var2 = var2.FirstPartyQuestTaskTypesSets;
-            var17 = var2.DESKTOP;
-            var16 = var17.has;
-            var2 = var15.eventName;
-            var16 = var16.bind(var17)(var2);
-            var2 = var5;
-            if(!var16) { _fun0005_ip = 361; continue _fun0005 }
+            var18 = _closure1_slot0;
+            var6 = _closure1_slot1;
+            var6 = var6[var11];
+            var6 = var18.bind(var14)(var6);
+            var6 = var6.FirstPartyQuestTaskTypesSets;
+            var19 = var6.DESKTOP;
+            var18 = var19.has;
+            var6 = var17.eventName;
+            var18 = var18.bind(var19)(var6);
+            var6 = var7;
+            if(!var18) { _fun0005_ip = 361; continue _fun0005 }
  266:
-            var16 = var15.heartbeat;
-            var18 = var12 == var16;
-            var17 = undefined;
-            if(var18) { _fun0005_ip = 287; continue _fun0005 }
+            var18 = var17.heartbeat;
+            var20 = var3 == var18;
+            var19 = undefined;
+            if(var20) { _fun0005_ip = 287; continue _fun0005 }
  281:
-            var17 = var16.lastBeatAt;
+            var19 = var18.lastBeatAt;
  287:
-            if(!(var12 == var17)) { _fun0005_ip = 338; continue _fun0005 }
+            if(!(var3 == var19)) { _fun0005_ip = 338; continue _fun0005 }
  291:
-            var17 = var15.heartbeat;
-            var15 = var12 == var17;
-            var18 = undefined;
-            if(var15) { _fun0005_ip = 312; continue _fun0005 }
+            var19 = var17.heartbeat;
+            var17 = var3 == var19;
+            var20 = undefined;
+            if(var17) { _fun0005_ip = 312; continue _fun0005 }
  306:
-            var18 = var17.lastBeatAt;
+            var20 = var19.lastBeatAt;
  312:
-            var15 = var17;
-            if(!(var12 == var18)) { _fun0005_ip = 355; continue _fun0005 }
+            var17 = var19;
+            if(!(var3 == var20)) { _fun0005_ip = 355; continue _fun0005 }
  319:
-            var19 = _closure1_slot15;
-            var18 = var19.delete;
-            var18 = var18.bind(var19)(var4);
-            var15 = var17;
+            var21 = _closure1_slot15;
+            var20 = var21.delete;
+            var20 = var20.bind(var21)(var4);
+            var17 = var19;
             _fun0005_ip = 355; continue _fun0005;
  338:
-            var18 = _closure1_slot15;
-            var17 = var18.add;
-            var17 = var17.bind(var18)(var4);
-            var15 = var5;
+            var20 = _closure1_slot15;
+            var19 = var20.add;
+            var19 = var19.bind(var20)(var4);
+            var17 = var7;
  355:
-            var2 = var15;
-            var6 = var16;
+            var6 = var17;
+            var9 = var18;
  361:
-            var14 = var6;
-            var13 = var2;
+            var16 = var9;
+            var15 = var6;
  367:
-            var9 = var9 + 1;
-            var2 = var10.length;
-            var6 = var14;
-            var5 = var13;
-            if(var9 < var2) { _fun0005_ip = 171; continue _fun0005 }
+            var12 = var12 + 1;
+            var6 = var13.length;
+            var9 = var16;
+            var7 = var15;
+            if(var12 < var6) { _fun0005_ip = 171; continue _fun0005 }
  388:
-            var2 = _closure1_slot5;
-            var1 = var2.set;
-            var1 = var1.bind(var2)(var4, var3);
- 403:
+            var7 = _closure1_slot5;
+            var6 = var7.set;
+            var6 = var6.bind(var7)(var4, var8);
+            var7 = _closure1_slot31;
+            var6 = var7.has;
+            var6 = var6.bind(var7)(var4);
+            if(!var6) { _fun0005_ip = 505; continue _fun0005 }
+ 420:
+            var7 = _closure1_slot31;
+            var6 = var7.get;
+            var6 = var6.bind(var7)(var4);
+            if(!(var3 != var6)) { _fun0005_ip = 505; continue _fun0005 }
+ 438:
+            var7 = var2.Map;
+            var23 = _closure1_slot31;
+            var3 = var7.prototype;
+            var3 = Object.create(var3, {constructor: {value: var7}});
+            var24 = var3;
+            var2 = new var24[var7](var23, var22);
+            var3 = var2 instanceof Object ? var2 : var3;
+            _closure1_slot31 = var3;
+            var2 = var3.set;
+            var1 = {};
+            var23 = var1;
+            var22 = var6;
+            var6 = copyDataProperties(var23, var22);
+            var23 = var1;
+            var22 = var5;
+            var5 = copyDataProperties(var23, var22);
+            var1 = var2.bind(var3)(var4, var1);
+ 505:
             var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot38 = var1;
+    var _closure1_slot39 = var1;
     var1 = function _addRewardCode(arg1, arg2) {
         var1 = global;
         var4 = var1.Map;
@@ -495,7 +529,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot39 = var1;
+    var _closure1_slot40 = var1;
     var1 = function updateQuestRewardData(arg1, arg2) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
@@ -563,10 +597,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  225:
             if(!(var7 != var8)) { _fun0006_ip = 239; continue _fun0006 }
  229:
-            var3 = _closure1_slot39;
+            var3 = _closure1_slot40;
             var3 = var3.bind(var1)(var4, var8);
  239:
-            var3 = _closure1_slot38;
+            var3 = _closure1_slot39;
             var2 = {};
             var5 = {};
             var13 = var5;
@@ -595,7 +629,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot40 = var1;
+    var _closure1_slot41 = var1;
     var1 = function maybeDeleteQuestHeartbeatFailure(arg1) {
         _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
  0:
@@ -622,7 +656,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot41 = var1;
+    var _closure1_slot42 = var1;
     var1 = function removeQuestIdFromIsEnrolling(arg1) {
         var1 = global;
         var4 = var1.Set;
@@ -639,7 +673,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot42 = var1;
+    var _closure1_slot43 = var1;
     var1 = function removeQuestIdFromIsDismissing(arg1) {
         var1 = global;
         var4 = var1.Set;
@@ -656,7 +690,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = undefined;
         return var1;
     };
-    var _closure1_slot43 = var1;
+    var _closure1_slot44 = var1;
     var1 = function checkAllQuestsExpiration() {
         _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
@@ -718,7 +752,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!var3) { _fun0008_ip = 91; continue _fun0008 }
  73:
             _closure1_slot29 = var2;
-            var2 = _closure1_slot33;
+            var2 = _closure1_slot34;
             var1 = var2.emitChange;
             var1 = var1.bind(var2)();
  91:
@@ -726,26 +760,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot44 = var1;
+    var _closure1_slot45 = var1;
     var1 = function _stopExpirationCheckInterval() {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
-            var3 = _closure1_slot32;
+            var3 = _closure1_slot33;
             var1 = null;
             if(!(var1 !== var3)) { _fun0010_ip = 36; continue _fun0010 }
  13:
             var3 = global;
             var5 = var3.clearInterval;
-            var4 = _closure1_slot32;
+            var4 = _closure1_slot33;
             var3 = undefined;
             var3 = var5.bind(var3)(var4);
-            _closure1_slot32 = var1;
+            _closure1_slot33 = var1;
  36:
             var1 = undefined;
             return var1;
         }
     };
-    var _closure1_slot45 = var1;
+    var _closure1_slot46 = var1;
     var8 = global;
     var11 = var8.Object;
     var10 = var11.defineProperty;
@@ -790,9 +824,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var15 = var9;
     var8 = new var15[var8](var14);
     var8 = var8 instanceof Object ? var8 : var9;
-    var _closure1_slot31 = var8;
-    var8 = null;
     var _closure1_slot32 = var8;
+    var8 = null;
+    var _closure1_slot33 = var8;
     var2 = var2.bind(var1)();
     var2 = 13;
     var2 = var6[var2];
@@ -811,7 +845,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = _closure1_slot25;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot24;
-                var1 = _closure1_slot34;
+                var1 = _closure1_slot35;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0011_ip = 69; continue _fun0011 }
  51:
@@ -1100,7 +1134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var7 = function value(arg1, arg2) {
             _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
  0:
-                var3 = _closure1_slot31;
+                var3 = _closure1_slot32;
                 var2 = var3.get;
                 var1 = arg1;
                 var4 = var2.bind(var3)(var1);
@@ -1159,10 +1193,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var14 = var7.bind(var1)(var2);
     var2 = {};
     var7 = function handleLogout() {
-        var3 = _closure1_slot45;
+        var3 = _closure1_slot46;
         var1 = undefined;
         var3 = var3.bind(var1)();
-        var2 = _closure1_slot37;
+        var2 = _closure1_slot38;
         var2 = var2.bind(var1)();
         return var1;
     };
@@ -1179,7 +1213,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var8 = var1.quests;
-            var5 = var1.excludedQuests;
+            var7 = var1.excludedQuests;
             var6 = var1.questEnrollmentBlockedUntil;
             var4 = global;
             var2 = var4.Date;
@@ -1200,35 +1234,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = Object.create(var2, {constructor: {value: var1}});
             var26 = var2;
             var1 = new var26[var1](var25);
-            var2 = var1 instanceof Object ? var1 : var2;
-            var7 = _closure1_slot35;
+            var5 = var1 instanceof Object ? var1 : var2;
+            var2 = _closure1_slot36;
             var1 = undefined;
-            var15 = var7.bind(var1)(var8);
+            var15 = var2.bind(var1)(var8);
             var8 = var15.bind(var1)();
-            var7 = var8.done;
+            var2 = var8.done;
             var14 = 12;
             var13 = 'Delivered ';
             var12 = ' (';
             var11 = ')';
             var10 = 10;
             var9 = 11;
-            if(var7) { _fun0016_ip = 386; continue _fun0016 }
+            if(var2) { _fun0016_ip = 386; continue _fun0016 }
  158:
-            var7 = var8.value;
+            var2 = var8.value;
             var18 = _closure1_slot5;
             var17 = var18.set;
-            var16 = var7.id;
-            var16 = var17.bind(var18)(var16, var7);
-            var20 = var2.set;
-            var18 = var7.id;
+            var16 = var2.id;
+            var16 = var17.bind(var18)(var16, var2);
+            var20 = var5.set;
+            var18 = var2.id;
             var19 = _closure1_slot0;
             var16 = _closure1_slot1;
             var17 = var16[var10];
             var21 = var19.bind(var1)(var17);
             var17 = var21.isQuestExpired;
-            var17 = var17.bind(var21)(var7);
-            var17 = var20.bind(var2)(var18, var17);
-            var18 = var7.targetedContent;
+            var17 = var17.bind(var21)(var2);
+            var17 = var20.bind(var5)(var18, var17);
+            var18 = var2.targetedContent;
             var17 = var18.includes;
             var16 = var16[var9];
             var16 = var19.bind(var1)(var16);
@@ -1248,79 +1282,120 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16['location'] = var19;
             var17 = var17.bind(var18)(var16);
             var16 = var17.log;
-            var18 = var7.config;
+            var18 = var2.config;
             var18 = var18.messages;
             var25 = var18.questName;
-            var23 = var7.id;
-            var7 = var4.HermesInternal;
-            var7 = var7.concat;
+            var23 = var2.id;
+            var2 = var4.HermesInternal;
+            var2 = var2.concat;
             var26 = var13;
             var24 = var12;
             var22 = var11;
-            var7 = var26[var7](var25, var24, var23, var22, var21);
-            var7 = var16.bind(var17)(var7);
+            var2 = var26[var2](var25, var24, var23, var22, var21);
+            var2 = var16.bind(var17)(var2);
  368:
             var16 = var15.bind(var1)();
-            var7 = var16.done;
+            var2 = var16.done;
             var8 = var16;
-            if(!var7) { _fun0016_ip = 158; continue _fun0016 }
+            if(!var2) { _fun0016_ip = 158; continue _fun0016 }
  386:
-            _closure1_slot29 = var2;
             var2 = var4.Map;
-            var7 = var2.prototype;
-            var7 = Object.create(var7, {constructor: {value: var2}});
-            var26 = var7;
+            var8 = var2.prototype;
+            var8 = Object.create(var8, {constructor: {value: var2}});
+            var26 = var8;
             var2 = new var26[var2](var25);
-            var2 = var2 instanceof Object ? var2 : var7;
+            var2 = var2 instanceof Object ? var2 : var8;
             _closure1_slot6 = var2;
-            var2 = _closure1_slot35;
-            var7 = var2.bind(var1)(var5);
-            var5 = var7.bind(var1)();
-            var2 = var5.done;
-            if(var2) { _fun0016_ip = 481; continue _fun0016 }
- 441:
-            var10 = var5.value;
-            var9 = _closure1_slot6;
-            var8 = var9.set;
-            var2 = var10.id;
-            var2 = var8.bind(var9)(var2, var10);
-            var8 = var7.bind(var1)();
-            var2 = var8.done;
-            var5 = var8;
-            if(!var2) { _fun0016_ip = 441; continue _fun0016 }
- 481:
-            var2 = function _startExpirationCheckInterval() {
+            var2 = _closure1_slot36;
+            var8 = var2.bind(var1)(var7);
+            var7 = var8.bind(var1)();
+            var2 = var7.done;
+            if(var2) { _fun0016_ip = 477; continue _fun0016 }
+ 437:
+            var12 = var7.value;
+            var11 = _closure1_slot6;
+            var9 = var11.set;
+            var2 = var12.id;
+            var2 = var9.bind(var11)(var2, var12);
+            var9 = var8.bind(var1)();
+            var2 = var9.done;
+            var7 = var9;
+            if(!var2) { _fun0016_ip = 437; continue _fun0016 }
+ 477:
+            var8 = _closure1_slot36;
+            var11 = _closure1_slot31;
+            var2 = null;
+            var9 = var2 == var11;
+            var7 = undefined;
+            if(var9) { _fun0016_ip = 505; continue _fun0016 }
+ 496:
+            var9 = var11.values;
+            var7 = var9.bind(var11)();
+ 505:
+            var9 = var8.bind(var1)(var7);
+            var8 = var9.bind(var1)();
+            var7 = var8.done;
+            if(var7) { _fun0016_ip = 628; continue _fun0016 }
+ 522:
+            var14 = var8.value;
+            var12 = _closure1_slot5;
+            var11 = var12.has;
+            var7 = var14.id;
+            var7 = var11.bind(var12)(var7);
+            if(var7) { _fun0016_ip = 613; continue _fun0016 }
+ 549:
+            var12 = _closure1_slot5;
+            var11 = var12.set;
+            var7 = var14.id;
+            var7 = var11.bind(var12)(var7, var14);
+            var12 = var5.set;
+            var11 = var14.id;
+            var13 = _closure1_slot0;
+            var7 = _closure1_slot1;
+            var7 = var7[var10];
+            var13 = var13.bind(var1)(var7);
+            var7 = var13.isQuestExpired;
+            var7 = var7.bind(var13)(var14);
+            var7 = var12.bind(var5)(var11, var7);
+ 613:
+            var11 = var9.bind(var1)();
+            var7 = var11.done;
+            var8 = var11;
+            if(!var7) { _fun0016_ip = 522; continue _fun0016 }
+ 628:
+            _closure1_slot29 = var5;
+            var5 = function _startExpirationCheckInterval() {
                 _fun0017: for(var _fun0017_ip = 0; ; ) switch(_fun0017_ip) {
  0:
-                    var2 = _closure1_slot32;
+                    var2 = _closure1_slot33;
                     var1 = null;
                     if(!(var1 === var2)) { _fun0017_ip = 56; continue _fun0017 }
  13:
-                    var2 = _closure1_slot44;
+                    var2 = _closure1_slot45;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     var2 = global;
                     var5 = var2.setInterval;
                     var4 = function() {
-                        var2 = _closure1_slot44;
+                        var2 = _closure1_slot45;
                         var1 = undefined;
                         var2 = var2.bind(var1)();
                         return var1;
                     };
                     var2 = 1000;
                     var2 = var5.bind(var1)(var4, var2);
-                    _closure1_slot32 = var2;
+                    _closure1_slot33 = var2;
                     return var1;
  56:
                     var1 = undefined;
                     return var1;
                 }
             };
-            var2 = var2.bind(var1)();
-            var2 = null;
+            var5 = var5.bind(var1)();
             var5 = var2 != var6;
-            if(!var5) { _fun0016_ip = 530; continue _fun0016 }
- 501:
+            var2 = null;
+            if(!var5) { _fun0016_ip = 681; continue _fun0016 }
+ 652:
             var4 = var4.Date;
             var5 = var4.prototype;
             var5 = Object.create(var5, {constructor: {value: var4}});
@@ -1328,7 +1403,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var25 = var6;
             var4 = new var26[var4](var25, var24);
             var2 = var4 instanceof Object ? var4 : var5;
- 530:
+ 681:
             _closure1_slot30 = var2;
             return var1;
         }
@@ -1365,7 +1440,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new var11[var1](var10);
             var1 = var1 instanceof Object ? var1 : var2;
             _closure1_slot7 = var1;
-            var2 = _closure1_slot35;
+            var2 = _closure1_slot36;
             var1 = undefined;
             var4 = var2.bind(var1)(var3);
             var3 = var4.bind(var1)();
@@ -1488,6 +1563,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _closure1_slot14 = var6;
         var5 = var6.delete;
         var5 = var5.bind(var6)(var4);
+        var7 = var2.Map;
+        var9 = _closure1_slot31;
+        var6 = var7.prototype;
+        var6 = Object.create(var6, {constructor: {value: var7}});
+        var10 = var6;
+        var5 = new var10[var7](var9, var8);
+        var6 = var5 instanceof Object ? var5 : var6;
+        _closure1_slot31 = var6;
+        var5 = var6.set;
+        var5 = var5.bind(var6)(var4, var3);
         var6 = var2.Map;
         var9 = _closure1_slot5;
         var5 = var6.prototype;
@@ -1530,7 +1615,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = _closure1_slot15;
             var4 = var5.add;
             var4 = var4.bind(var5)(var6);
-            var5 = _closure1_slot38;
+            var5 = _closure1_slot39;
             var4 = {};
             var4['userStatus'] = var1;
             var1 = undefined;
@@ -1538,7 +1623,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = null;
             if(!(var4 != var3)) { _fun0020_ip = 72; continue _fun0020 }
  63:
-            var2 = _closure1_slot41;
+            var2 = _closure1_slot42;
             var2 = var2.bind(var1)(var3);
  72:
             return var1;
@@ -1607,13 +1692,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleEnrollSuccess(arg1) {
         var1 = arg1;
         var2 = var1.enrolledQuestUserStatus;
-        var6 = _closure1_slot38;
+        var6 = _closure1_slot39;
         var5 = var2.questId;
         var4 = {};
         var4['userStatus'] = var2;
         var1 = undefined;
         var4 = var6.bind(var1)(var5, var4);
-        var3 = _closure1_slot42;
+        var3 = _closure1_slot43;
         var2 = var2.questId;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -1622,7 +1707,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleEnrollFailure(arg1) {
         var1 = arg1;
         var3 = var1.questId;
-        var2 = _closure1_slot42;
+        var2 = _closure1_slot43;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -1663,7 +1748,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.delete;
             var3 = var3.bind(var1)(var4);
             _closure1_slot12 = var1;
-            var3 = _closure1_slot39;
+            var3 = _closure1_slot40;
             var1 = undefined;
             var3 = var3.bind(var1)(var4, var6);
             var5 = _closure1_slot5;
@@ -1684,7 +1769,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  124:
             if(!var3) { _fun0022_ip = 171; continue _fun0022 }
  127:
-            var3 = _closure1_slot38;
+            var3 = _closure1_slot39;
             var2 = {};
             var5 = {};
             var10 = var5;
@@ -1751,7 +1836,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5 = var2.delete;
         var5 = var5.bind(var2)(var4);
         _closure1_slot11 = var2;
-        var2 = _closure1_slot40;
+        var2 = _closure1_slot41;
         var1 = undefined;
         var2 = var2.bind(var1)(var4, var3);
         return var1;
@@ -1796,13 +1881,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleDismissContentSuccess(arg1) {
         var1 = arg1;
         var2 = var1.dismissedQuestUserStatus;
-        var6 = _closure1_slot38;
+        var6 = _closure1_slot39;
         var5 = var2.questId;
         var4 = {};
         var4['userStatus'] = var2;
         var1 = undefined;
         var4 = var6.bind(var1)(var5, var4);
-        var3 = _closure1_slot43;
+        var3 = _closure1_slot44;
         var2 = var2.questId;
         var2 = var3.bind(var1)(var2);
         return var1;
@@ -1811,7 +1896,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleDismissContentFailure(arg1) {
         var1 = arg1;
         var3 = var1.questId;
-        var2 = _closure1_slot43;
+        var2 = _closure1_slot44;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -1847,7 +1932,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var1)(var2);
             var2 = var7.questUserStatusFromServer;
             var2 = var2.bind(var7)(var5);
-            var9 = _closure1_slot38;
+            var9 = _closure1_slot39;
             var8 = var5.quest_id;
             var7 = {};
             var7['userStatus'] = var2;
@@ -1892,7 +1977,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5 === var7;
             if(!var5) { _fun0023_ip = 334; continue _fun0023 }
  314:
-            var9 = _closure1_slot31;
+            var9 = _closure1_slot32;
             var8 = var9.has;
             var7 = var2.questId;
             var5 = var8.bind(var9)(var7);
@@ -1906,7 +1991,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = 'Removing optimistic progress for ';
             var4 = var7.bind(var4)(var8);
             var4 = var5.bind(var6)(var4);
-            var4 = _closure1_slot31;
+            var4 = _closure1_slot32;
             var3 = var4.delete;
             var2 = var2.questId;
             var2 = var3.bind(var4)(var2);
@@ -1918,7 +2003,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleStreamClose(arg1) {
         var1 = arg1;
         var3 = var1.streamKey;
-        var2 = _closure1_slot41;
+        var2 = _closure1_slot42;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -1927,7 +2012,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var7 = function handleDismissProgressTrackingFailureNotice(arg1) {
         var1 = arg1;
         var3 = var1.streamKey;
-        var2 = _closure1_slot41;
+        var2 = _closure1_slot42;
         var1 = undefined;
         var2 = var2.bind(var1)(var3);
         return var1;
@@ -1938,7 +2023,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var2 = var1.previewQuestUserStatus;
-            var6 = _closure1_slot38;
+            var6 = _closure1_slot39;
             var5 = var2.questId;
             var4 = {};
             var4['userStatus'] = var2;
@@ -2075,7 +2160,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.questId;
             var6 = var1.taskEventName;
             var5 = var1.progress;
-            var3 = _closure1_slot31;
+            var3 = _closure1_slot32;
             var2 = var3.get;
             var3 = var2.bind(var3)(var4);
             var2 = null;
@@ -2091,7 +2176,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  72:
             var2 = var3.set;
             var2 = var2.bind(var3)(var6, var5);
-            var2 = _closure1_slot31;
+            var2 = _closure1_slot32;
             var1 = var2.set;
             var1 = var1.bind(var2)(var4, var3);
             var1 = undefined;
@@ -2104,12 +2189,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var3 = var1.questId;
-            var4 = _closure1_slot31;
+            var4 = _closure1_slot32;
             var2 = var4.has;
             var2 = var2.bind(var4)(var3);
             if(!var2) { _fun0028_ip = 43; continue _fun0028 }
  29:
-            var4 = _closure1_slot31;
+            var4 = _closure1_slot32;
             var2 = var4.delete;
             var2 = var2.bind(var4)(var3);
  43:
@@ -2153,7 +2238,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var13 = var2;
     var2 = new var15[var9](var14, var13, var12);
     var2 = var2 instanceof Object ? var2 : var7;
-    var _closure1_slot33 = var2;
+    var _closure1_slot34 = var2;
     var4 = 15;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);

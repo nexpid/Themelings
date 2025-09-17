@@ -4740,6 +4740,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = 'nvNewPresets';
                     var4 = var5.bind(var9)(var4);
  623:
+                    var5 = _closure1_slot14;
+                    var4 = var5.getUseVaapiEncoder;
+                    var4 = var4.bind(var5)();
+                    if(!var4) { _fun0058_ip = 658; continue _fun0058 }
+ 642:
+                    var5 = var9.push;
+                    var4 = 'vaapi';
+                    var4 = var5.bind(var9)(var4);
+ 658:
                     var5 = var2.setVideoEncoderExperiments;
                     var7 = var9.join;
                     var4 = ',';

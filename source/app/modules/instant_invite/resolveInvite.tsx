@@ -120,7 +120,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = new var14[var4](var13);
     var4 = var4 instanceof Object ? var4 : var7;
     var _closure1_slot12 = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -150,7 +150,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = _closure1_slot12;
             var5 = var6.has;
             var5 = var5.bind(var6)(var3);
-            if(var5) { _fun0002_ip = 403; continue _fun0002 }
+            if(var5) { _fun0002_ip = 370; continue _fun0002 }
  96:
             var9 = _closure1_slot0;
             var11 = _closure1_slot2;
@@ -172,18 +172,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var12.guildScheduledEventId;
             var4 = 'guild_scheduled_event_id';
             var8[var4] = var5;
-            var4 = 7;
-            var4 = var11[var4];
-            var6 = var9.bind(var10)(var4);
-            var5 = var6.isEligibleForAdvancedServerJoin;
-            var4 = {};
-            var13 = 'resolveInvite';
-            var4['location'] = var13;
-            var5 = var5.bind(var6)(var4);
             var4 = 'with_permissions';
-            var8[var4] = var5;
+            var8[var4] = var7;
             var5 = _closure1_slot1;
-            var4 = 8;
+            var4 = 7;
             var4 = var11[var4];
             var6 = var5.bind(var10)(var4);
             var5 = var6.get;
@@ -196,7 +188,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['query'] = var8;
             var4['oldFormErrors'] = var7;
             var7 = {};
-            var8 = 9;
+            var8 = 8;
             var8 = var11[var8];
             var8 = var9.bind(var10)(var8);
             var8 = var8.NetworkActionNames;
@@ -220,7 +212,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var1.USER_BANNED;
                     var2 = _closure1_slot0;
                     var3 = _closure1_slot2;
-                    var1 = 10;
+                    var1 = 9;
                     var1 = var3[var1];
                     var3 = var2.bind(var10)(var1);
                     var2 = var3.exact;
@@ -560,7 +552,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.set;
             var4 = var4.bind(var5)(var3, var2);
             return var2;
- 403:
+ 370:
             var2 = _closure1_slot12;
             var1 = var2.get;
             var1 = var1.bind(var2)(var3);

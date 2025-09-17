@@ -50,7 +50,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var3.bind(var4)();
             var3 = _closure1_slot5;
             var3 = var3.PUSH_TO_TALK;
-            if(!(var4 === var3)) { _fun0001_ip = 355; continue _fun0001 }
+            if(!(var4 === var3)) { _fun0001_ip = 357; continue _fun0001 }
  36:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.DismissibleContent;
             var3 = var3.CONSOLE_PTT_DISABLE_ALERT;
             var3 = var4.bind(var5)(var3);
-            if(var3) { _fun0001_ip = 355; continue _fun0001 }
+            if(var3) { _fun0001_ip = 357; continue _fun0001 }
  99:
             var3 = {};
             var4 = _closure1_slot6;
@@ -109,7 +109,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3[var2];
             var _closure2_slot0 = var3;
             var2 = null;
-            if(!(var2 != var3)) { _fun0001_ip = 335; continue _fun0001 }
+            if(!(var2 != var3)) { _fun0001_ip = 337; continue _fun0001 }
  300:
             var2 = global;
             var3 = var2.Promise;
@@ -165,15 +165,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var2;
             var1 = new var13[var3](var12, var11);
             var1 = var1 instanceof Object ? var1 : var2;
-            _fun0001_ip = 353; continue _fun0001;
- 335:
+            _fun0001_ip = 355; continue _fun0001;
+ 337:
             var2 = global;
             var3 = var2.Promise;
             var2 = var3.resolve;
             var1 = var2.bind(var3)();
- 353:
-            return var1;
  355:
+            return var1;
+ 357:
             var1 = global;
             var2 = var1.Promise;
             var1 = var2.resolve;

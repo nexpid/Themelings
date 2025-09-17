@@ -17,7 +17,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 319; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 317; continue _fun0001 }
  10:
                     var2 = arg1;
                     var9 = var2.guildId;
@@ -27,7 +27,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var7;
  24:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0001_ip = 316; continue _fun0001 }
+                    if(var3) { _fun0001_ip = 314; continue _fun0001 }
  33:
                     var4 = _closure1_slot1;
                     var5 = _closure1_slot2;
@@ -52,7 +52,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var3;
  119:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0001_ip = 313; continue _fun0001 }
+                    if(var4) { _fun0001_ip = 311; continue _fun0001 }
  128:
                     var8 = var3.features;
                     var5 = var8.has;
@@ -67,7 +67,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = var5.COMMUNITY;
                     var4 = var8.bind(var10)(var5);
  183:
-                    if(!var4) { _fun0001_ip = 301; continue _fun0001 }
+                    if(!var4) { _fun0001_ip = 299; continue _fun0001 }
  186:
                     var5 = _closure1_slot0;
                     var8 = _closure1_slot2;
@@ -81,12 +81,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var4;
  221:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0001_ip = 310; continue _fun0001 }
+                    if(var5) { _fun0001_ip = 308; continue _fun0001 }
  227:
                     var8 = _closure1_slot6;
                     var5 = var8.shouldShowOnboarding;
                     var5 = var5.bind(var8)(var9);
-                    if(!var5) { _fun0001_ip = 301; continue _fun0001 }
+                    if(!var5) { _fun0001_ip = 299; continue _fun0001 }
  245:
                     var8 = _closure1_slot12;
                     var5 = function fetchLandingAsset() {
@@ -100,36 +100,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var5 = var5.bind(var7)(var3);
-                    SaveGenerator(address=267);
- 265:
+                    SaveGenerator(address=265);
+ 263:
                     return var5;
- 267:
+ 265:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(var10) { _fun0001_ip = 307; continue _fun0001 }
- 273:
+                    if(var10) { _fun0001_ip = 305; continue _fun0001 }
+ 271:
                     var8[var9] = var5;
                     var8 = _closure1_slot15;
                     var6 = var3.id;
                     var6 = var8.bind(var7)(var6);
-                    SaveGenerator(address=295);
+                    SaveGenerator(address=293);
+ 291:
+                    return var6;
  293:
-                    return var6;
- 295:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    if(var8) { _fun0001_ip = 304; continue _fun0001 }
- 301:
+                    if(var8) { _fun0001_ip = 302; continue _fun0001 }
+ 299:
                     return var7;
- 304:
+ 302:
                     return var6;
- 307:
+ 305:
                     return var5;
- 310:
+ 308:
                     return var4;
- 313:
+ 311:
                     return var3;
- 316:
+ 314:
                     return var2;
- 319:
+ 317:
                     return var1;
                 }
             };

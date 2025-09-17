@@ -541,7 +541,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         CatchBlockStart(arg_register=2);
                         return var2;
  304: // try_start_1
-                        var4 = _closure1_slot0;
+                        var4 = _closure1_slot1;
                         var5 = _closure1_slot2;
                         var3 = 17;
                         var3 = var5[var3];

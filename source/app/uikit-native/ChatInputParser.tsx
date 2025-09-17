@@ -222,12 +222,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = copyDataProperties(var11, var10, var9);
             var1 = var5 != var8;
             var3 = null;
-            if(!var1) { _fun0002_ip = 97; continue _fun0002 }
- 60:
+            if(!var1) { _fun0002_ip = 101; continue _fun0002 }
+ 64:
             var1 = var5 != var4;
             var3 = null;
-            if(!var1) { _fun0002_ip = 97; continue _fun0002 }
- 69:
+            if(!var1) { _fun0002_ip = 101; continue _fun0002 }
+ 73:
             var1 = {};
             var7 = _closure1_slot4;
             var5 = undefined;
@@ -235,7 +235,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['backgroundColor'] = var5;
             var1['cornerRadius'] = var4;
             var3 = var1;
- 97:
+ 101:
             var1 = {};
             var5 = _closure1_slot4;
             var4 = undefined;

@@ -453,7 +453,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['title'] = var8;
             var4 = var7[var4];
             var4 = var6.bind(var5)(var4);
-            var4 = var4.BookIllocon;
+            var4 = var4.BookBlueIllocon;
             var2['icon'] = var4;
             var1[var3] = var2;
             return var1;

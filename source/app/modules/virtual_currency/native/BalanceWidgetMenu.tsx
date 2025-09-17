@@ -33,13 +33,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot5 = var7;
     var4 = var4.jsxs;
     var _closure1_slot6 = var4;
-    var4 = 13;
+    var4 = 15;
     var4 = var6[var4];
     var8 = var5.bind(var1)(var4);
     var7 = var8.createStyles;
     var4 = {};
     var9 = {'flex': 1, 'flexDirection': 'row', 'alignItems': 'center', 'padding': 16};
-    var11 = 14;
+    var11 = 16;
     var11 = var6[var11];
     var11 = var12.bind(var1)(var11);
     var11 = var11.radii;
@@ -53,7 +53,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['pill'] = var9;
     var4 = var7.bind(var8)(var4);
     var _closure1_slot7 = var4;
-    var4 = 15;
+    var4 = 17;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -79,46 +79,101 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3 = new Array(1);
         var3[0] = var12;
         var2 = function() {
-            var3 = _closure1_slot1;
-            var2 = _closure1_slot2;
-            var1 = 4;
-            var2 = var2[var1];
-            var1 = undefined;
-            var6 = var3.bind(var1)(var2);
-            var5 = var6.openLazy;
-            var4 = {};
-            var2 = _closure2_slot0;
-            var4['balance'] = var2;
-            var3 = function() {
-                var3 = _closure1_slot0;
-                var1 = _closure1_slot2;
-                var2 = 6;
-                var2 = var1[var2];
-                var4 = undefined;
-                var3 = var3.bind(var4)(var2);
-                var2 = 5;
-                var2 = var1[var2];
-                var1 = var1.paths;
-                var3 = var3.bind(var4)(var2, var1);
-                var2 = var3.then;
-                var1 = function(arg1) {
-                    var1 = arg1;
-                    var1 = var1.default;
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+                var3 = _closure1_slot1;
+                var2 = _closure1_slot2;
+                var1 = 4;
+                var2 = var2[var1];
+                var1 = undefined;
+                var6 = var3.bind(var1)(var2);
+                var5 = var6.openLazy;
+                var4 = {};
+                var3 = _closure2_slot0;
+                var4['balance'] = var3;
+                var2 = null;
+                var3 = var2 != var3;
+                var10 = 0;
+                if(!var3) { _fun0001_ip = 60; continue _fun0001 }
+ 56:
+                var10 = _closure2_slot0;
+ 60:
+                var3 = 4100;
+                var11 = var10 > var3;
+                var10 = undefined;
+                if(!var11) { _fun0001_ip = 79; continue _fun0001 }
+ 75:
+                var10 = 'dark';
+ 79:
+                var4['themeOverride'] = var10;
+                var10 = _closure2_slot0;
+                var10 = var2 != var10;
+                var8 = 0;
+                if(!var10) { _fun0001_ip = 101; continue _fun0001 }
+ 97:
+                var8 = _closure2_slot0;
+ 101:
+                var3 = var8 > var3;
+                var2 = null;
+                if(!var3) { _fun0001_ip = 215; continue _fun0001 }
+ 110:
+                var3 = {};
+                var9 = _closure1_slot1;
+                var11 = _closure1_slot2;
+                var8 = 7;
+                var8 = var11[var8];
+                var8 = var9.bind(var1)(var8);
+                var3['backgroundImage'] = var8;
+                var8 = 8;
+                var8 = var11[var8];
+                var8 = var9.bind(var1)(var8);
+                var3['bannerImage'] = var8;
+                var10 = _closure1_slot0;
+                var7 = 9;
+                var8 = var11[var7];
+                var8 = var10.bind(var1)(var8);
+                var9 = var8.intl;
+                var8 = var9.string;
+                var7 = var11[var7];
+                var7 = var10.bind(var1)(var7);
+                var7 = var7.t;
+                var7 = var7.LaMEFB;
+                var7 = var8.bind(var9)(var7);
+                var3['bannerText'] = var7;
+                var2 = var3;
+ 215:
+                var4['promotionConfig'] = var2;
+                var3 = function() {
+                    var3 = _closure1_slot0;
+                    var1 = _closure1_slot2;
+                    var2 = 6;
+                    var2 = var1[var2];
+                    var4 = undefined;
+                    var3 = var3.bind(var4)(var2);
+                    var2 = 5;
+                    var2 = var1[var2];
+                    var1 = var1.paths;
+                    var3 = var3.bind(var4)(var2, var1);
+                    var2 = var3.then;
+                    var1 = function(arg1) {
+                        var1 = arg1;
+                        var1 = var1.default;
+                        return var1;
+                    };
+                    var1 = var2.bind(var3)(var1);
                     return var1;
                 };
-                var1 = var2.bind(var3)(var1);
+                var2 = 'BalanceWidgetMenu';
+                var2 = var5.bind(var6)(var3, var2, var4);
                 return var1;
-            };
-            var2 = 'BalanceWidgetMenu';
-            var2 = var5.bind(var6)(var3, var2, var4);
-            return var1;
+            }
         };
         var5 = var5.bind(var8)(var2, var3);
         var3 = var8.useCallback;
         var2 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 7;
+            var1 = 10;
             var2 = var2[var1];
             var1 = undefined;
             var3 = var3.bind(var1)(var2);
@@ -129,7 +184,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function() {
                 var3 = _closure1_slot0;
                 var2 = _closure1_slot2;
-                var1 = 8;
+                var1 = 11;
                 var2 = var2[var1];
                 var1 = undefined;
                 var4 = var3.bind(var1)(var2);
@@ -145,7 +200,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = new Array(0);
         var11 = var3.bind(var8)(var2, var1);
         var3 = _closure1_slot6;
-        var1 = 9;
+        var1 = 12;
         var1 = var13[var1];
         var1 = var10.bind(var4)(var1);
         var2 = var1.PressableOpacity;
@@ -157,14 +212,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var5[1] = var7;
         var1['style'] = var5;
         var8 = _closure1_slot5;
-        var5 = 10;
+        var5 = 13;
         var5 = var13[var5];
         var5 = var10.bind(var4)(var5);
         var7 = var5.Text;
         var5 = {'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
         var14 = var9.label;
         var5['style'] = var14;
-        var14 = 11;
+        var14 = 9;
         var15 = var13[var14];
         var15 = var10.bind(var4)(var15);
         var16 = var15.intl;
@@ -182,7 +237,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var6 = {};
         var9 = var9.pill;
         var6['style'] = var9;
-        var9 = 12;
+        var9 = 14;
         var9 = var13[var9];
         var9 = var10.bind(var4)(var9);
         var10 = var9.BalanceWidgetPill;

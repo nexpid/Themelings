@@ -90,15 +90,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var14)(var12);
             var5['accessibilityLabel'] = var12;
             var13 = _closure1_slot2;
-            if(var10) { _fun0002_ip = 157; continue _fun0002 }
- 148:
+            if(var10) { _fun0002_ip = 161; continue _fun0002 }
+ 152:
             var10 = 10;
             var10 = var13[var10];
-            _fun0002_ip = 164; continue _fun0002;
- 157:
+            _fun0002_ip = 168; continue _fun0002;
+ 161:
             var12 = 9;
             var10 = var13[var12];
- 164:
+ 168:
             var10 = var11.bind(var3)(var10);
             var5['source'] = var10;
             var11 = _closure1_slot1;
@@ -158,15 +158,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.bind(var14)(var12);
             var5['accessibilityLabel'] = var12;
             var13 = _closure1_slot2;
-            if(var10) { _fun0003_ip = 159; continue _fun0003 }
- 150:
+            if(var10) { _fun0003_ip = 163; continue _fun0003 }
+ 154:
             var10 = 12;
             var10 = var13[var10];
-            _fun0003_ip = 166; continue _fun0003;
- 159:
+            _fun0003_ip = 170; continue _fun0003;
+ 163:
             var12 = 11;
             var10 = var13[var12];
- 166:
+ 170:
             var10 = var11.bind(var3)(var10);
             var5['source'] = var10;
             var11 = _closure1_slot1;

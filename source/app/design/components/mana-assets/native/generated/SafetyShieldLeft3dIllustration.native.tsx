@@ -1,4 +1,4 @@
-// app/design/components/mana-assets/native/generated/BookIllocon.native.tsx
+// app/design/components/mana-assets/native/generated/SafetyShieldLeft3dIllustration.native.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -24,38 +24,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'design/components/mana-assets/native/generated/BookIllocon.native.tsx';
+    var4 = 'design/components/mana-assets/native/generated/SafetyShieldLeft3dIllustration.native.tsx';
     var4 = var5.bind(var6)(var4);
-    var2 = function BookIllocon(arg1) {
+    var2 = function SafetyShieldLeft3dIllustration(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
             var1 = arg1;
             var7 = var1.accessible;
             var6 = var1.accessibilityLabel;
             var5 = var1.resizeMode;
-            var8 = var1.size;
+            var10 = var1.width;
             var4 = undefined;
-            if(!(var8 === var4)) { _fun0001_ip = 34; continue _fun0001 }
+            if(!(var10 === var4)) { _fun0001_ip = 37; continue _fun0001 }
  31:
-            var8 = 64;
- 34:
+            var10 = 288;
+ 37:
+            var8 = var1.height;
+            if(!(var8 === var4)) { _fun0001_ip = 49; continue _fun0001 }
+ 46:
+            var8 = 192;
+ 49:
             var3 = _closure1_slot2;
-            var11 = _closure1_slot0;
-            var12 = _closure1_slot1;
+            var12 = _closure1_slot0;
+            var13 = _closure1_slot1;
             var1 = 1;
-            var1 = var12[var1];
-            var2 = var11.bind(var4)(var1);
+            var1 = var13[var1];
+            var2 = var12.bind(var4)(var1);
             var1 = {};
             var9 = 0;
             var1['fadeDuration'] = var9;
             var9 = {};
-            var10 = 2;
-            var10 = var12[var10];
-            var10 = var11.bind(var4)(var10);
-            var9['uri'] = var10;
+            var11 = 2;
+            var11 = var13[var11];
+            var11 = var12.bind(var4)(var11);
+            var9['uri'] = var11;
             var1['source'] = var9;
             var9 = {};
-            var9['width'] = var8;
+            var9['width'] = var10;
             var9['height'] = var8;
             var8 = new Array(1);
             var8[0] = var9;
@@ -67,6 +72,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['BookIllocon'] = var2;
+    var3['SafetyShieldLeft3dIllustration'] = var2;
     return var1;
 })();

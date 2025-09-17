@@ -335,7 +335,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  52:
                         var2 = var5.powerup;
  58:
-                        if(!(var3 == var2)) { _fun0006_ip = 171; continue _fun0006 }
+                        if(!(var3 == var2)) { _fun0006_ip = 169; continue _fun0006 }
  62:
                         var5 = var3 == var4;
                         var2 = undefined;
@@ -348,36 +348,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  86:
                         var2 = var5.powerup_metadata;
  92:
-                        if(!(var3 == var2)) { _fun0006_ip = 171; continue _fun0006 }
+                        if(!(var3 == var2)) { _fun0006_ip = 169; continue _fun0006 }
  96:
                         var5 = var4.sku;
                         var6 = var3 == var5;
                         var2 = undefined;
-                        if(var6) { _fun0006_ip = 149; continue _fun0006 }
+                        if(var6) { _fun0006_ip = 147; continue _fun0006 }
  111:
                         var5 = var5.tenant_metadata;
                         var6 = var3 == var5;
                         var2 = undefined;
-                        if(var6) { _fun0006_ip = 149; continue _fun0006 }
+                        if(var6) { _fun0006_ip = 147; continue _fun0006 }
  126:
                         var5 = var5.guild_monetization;
                         var6 = var3 == var5;
                         var2 = undefined;
-                        if(var6) { _fun0006_ip = 149; continue _fun0006 }
+                        if(var6) { _fun0006_ip = 147; continue _fun0006 }
  141:
                         var2 = var5.game_server;
- 149:
-                        if(!(var3 != var2)) { _fun0006_ip = 188; continue _fun0006 }
- 153:
+ 147:
+                        if(!(var3 != var2)) { _fun0006_ip = 186; continue _fun0006 }
+ 151:
                         var3 = _closure3_slot1;
                         var2 = var4.id;
                         var3[var2] = var4;
-                        _fun0006_ip = 188; continue _fun0006;
- 171:
+                        _fun0006_ip = 186; continue _fun0006;
+ 169:
                         var3 = _closure3_slot0;
                         var2 = var4.sku_id;
                         var3[var2] = var4;
- 188:
+ 186:
                         return var1;
                     }
                 };

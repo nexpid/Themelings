@@ -163,6 +163,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['FRIENDS'] = var2;
     var2 = 'impression_game_console_device_list';
     var4['GAME_CONSOLE_DEVICE_LIST'] = var2;
+    var2 = 'impression_game_detection_report_modal';
+    var4['GAME_DETECTION_REPORT_MODAL'] = var2;
     var2 = 'impression_gdm_settings_invites';
     var4['GDM_SETTINGS_INVITES'] = var2;
     var2 = 'impression_gift_intent_action_button';

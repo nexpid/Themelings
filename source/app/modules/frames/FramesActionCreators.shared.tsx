@@ -1,4 +1,4 @@
-// app/modules/frames/FramesActionCreators.tsx
+// app/modules/frames/FramesActionCreators.shared.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var7 = metroImportDefault;
@@ -191,7 +191,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/frames/FramesActionCreators.tsx';
+    var4 = 'modules/frames/FramesActionCreators.shared.tsx';
     var4 = var5.bind(var6)(var4);
     var4 = function launchFrame() {
         var1 = undefined;

@@ -85,23 +85,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var9 = var3 == var7;
             var6 = undefined;
-            if(var9) { _fun0001_ip = 178; continue _fun0001 }
- 173:
+            if(var9) { _fun0001_ip = 174; continue _fun0001 }
+ 169:
             var6 = var7.id;
+ 174:
+            if(!(var3 == var6)) { _fun0001_ip = 209; continue _fun0001 }
  178:
-            if(!(var3 == var6)) { _fun0001_ip = 213; continue _fun0001 }
- 182:
             var7 = var14.emoji;
             var9 = var3 == var7;
             var6 = undefined;
-            if(var9) { _fun0001_ip = 201; continue _fun0001 }
- 196:
+            if(var9) { _fun0001_ip = 197; continue _fun0001 }
+ 192:
             var6 = var7.name;
- 201:
+ 197:
             var6 = var3 != var6;
             var7 = null;
-            if(!var6) { _fun0001_ip = 417; continue _fun0001 }
- 213:
+            if(!var6) { _fun0001_ip = 413; continue _fun0001 }
+ 209:
             var11 = _closure1_slot8;
             var9 = _closure1_slot4;
             var6 = {};
@@ -120,8 +120,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['fastImageStyle'] = var16;
             var17 = var3 != var20;
             var16 = undefined;
-            if(!var17) { _fun0001_ip = 359; continue _fun0001 }
- 298:
+            if(!var17) { _fun0001_ip = 355; continue _fun0001 }
+ 294:
             var18 = _closure1_slot1;
             var19 = _closure1_slot2;
             var17 = 9;
@@ -136,33 +136,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = _closure1_slot7;
             var17['size'] = var20;
             var16 = var18.bind(var19)(var17);
- 359:
+ 355:
             var12['src'] = var16;
             var16 = var14.emoji;
             var18 = var3 == var16;
             var17 = undefined;
-            if(var18) { _fun0001_ip = 383; continue _fun0001 }
- 378:
+            if(var18) { _fun0001_ip = 379; continue _fun0001 }
+ 374:
             var17 = var16.name;
- 383:
+ 379:
             var18 = var3 != var17;
             var16 = '';
-            if(!var18) { _fun0001_ip = 397; continue _fun0001 }
- 394:
+            if(!var18) { _fun0001_ip = 393; continue _fun0001 }
+ 390:
             var16 = var17;
- 397:
+ 393:
             var12['name'] = var16;
             var12 = var15.bind(var4)(var13, var12);
             var6['children'] = var12;
             var7 = var11.bind(var4)(var9, var6);
- 417:
+ 413:
             var6 = null;
-            if(!var2) { _fun0001_ip = 564; continue _fun0001 }
- 425:
+            if(!var2) { _fun0001_ip = 560; continue _fun0001 }
+ 421:
             var2 = var14.isUnseen;
             var6 = null;
-            if(!var2) { _fun0001_ip = 564; continue _fun0001 }
- 439:
+            if(!var2) { _fun0001_ip = 560; continue _fun0001 }
+ 435:
             var9 = _closure1_slot8;
             var15 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -190,7 +190,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var10.newBadge;
             var2['textStyle'] = var11;
             var6 = var9.bind(var4)(var3, var2);
- 564:
+ 560:
             var9 = _closure1_slot9;
             var3 = _closure1_slot4;
             var2 = {};
@@ -363,8 +363,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new Array(0);
             var15 = var3.bind(var4)(var2, var1);
             var1 = null;
-            if(!(var1 != var20)) { _fun0003_ip = 599; continue _fun0003 }
- 207:
+            if(!(var1 != var20)) { _fun0003_ip = 591; continue _fun0003 }
+ 201:
             var4 = _closure1_slot8;
             var17 = _closure1_slot0;
             var18 = _closure1_slot2;
@@ -473,7 +473,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['children'] = var6;
             var2 = var4.bind(var5)(var3, var2);
             return var2;
- 599:
+ 591:
             return var1;
         }
     };

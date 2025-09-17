@@ -116,12 +116,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var4 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 65; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 63; continue _fun0002 }
  10:
                     var3 = _closure1_slot4;
                     var2 = var3.shouldFetch;
                     var2 = var2.bind(var3)(var4);
-                    if(!var2) { _fun0002_ip = 57; continue _fun0002 }
+                    if(!var2) { _fun0002_ip = 55; continue _fun0002 }
  31:
                     var3 = function fetchMemberCountsFromBackend() {
                         var1 = undefined;
@@ -135,18 +135,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     };
                     var2 = undefined;
                     var2 = var3.bind(var2)(var4);
-                    SaveGenerator(address=51);
- 49:
+                    SaveGenerator(address=49);
+ 47:
                     return var2;
- 51:
+ 49:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0002_ip = 62; continue _fun0002 }
- 57:
+                    if(var3) { _fun0002_ip = 60; continue _fun0002 }
+ 55:
                     var3 = undefined;
                     return var3;
- 62:
+ 60:
                     return var2;
- 65:
+ 63:
                     return var1;
                 }
             };
@@ -237,7 +237,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var4.get;
             var1 = var1.bind(var4)(var9);
             var4 = null;
-            if(!(var4 == var1)) { _fun0003_ip = 108; continue _fun0003 }
+            if(!(var4 == var1)) { _fun0003_ip = 106; continue _fun0003 }
  71:
             var8 = _closure1_slot6;
             var7 = var8.set;
@@ -285,12 +285,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var1 = var1.bind(var3)(var6, var5);
-            _fun0003_ip = 125; continue _fun0003;
- 108:
+            _fun0003_ip = 123; continue _fun0003;
+ 106:
             var3 = var2.Promise;
             var2 = var3.resolve;
             var1 = var2.bind(var3)(var4);
- 125:
+ 123:
             return var1;
         }
     };

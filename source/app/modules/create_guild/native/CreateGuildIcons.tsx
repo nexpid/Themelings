@@ -65,7 +65,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['STUDY'] = var8;
     var8 = var7[var5];
     var8 = var6.bind(var1)(var8);
-    var8 = var8.BookIllocon;
+    var8 = var8.BookBlueIllocon;
     var2['CLUBS'] = var8;
     var8 = var7[var5];
     var8 = var6.bind(var1)(var8);
@@ -77,7 +77,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['LOCAL_COMMUNITY'] = var8;
     var5 = var7[var5];
     var5 = var6.bind(var1)(var5);
-    var5 = var5.BookIllocon;
+    var5 = var5.BookBlueIllocon;
     var2['SCHOOL_CLUB'] = var5;
     var5 = 8;
     var5 = var7[var5];

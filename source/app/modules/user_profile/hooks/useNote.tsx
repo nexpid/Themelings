@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var9 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 317; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 321; continue _fun0001 }
  13:
                     var6 = var9;
                     var2 = undefined;
@@ -49,19 +49,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var11.bind(var12)(var9);
                     var4['url'] = var9;
                     var4 = var7.bind(var8)(var4);
-                    SaveGenerator(address=142);
- 140:
+                    SaveGenerator(address=146);
+ 144:
                     return var4;
- 142:
+ 146:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 266; continue _fun0001 }
- 148:
+                    if(var7) { _fun0001_ip = 270; continue _fun0001 }
+ 152:
                     var7 = var4.body;
                     var10 = var7;
                     var8 = var7.note_user_id;
                     var7 = var6;
-                    if(!(var8 === var7)) { _fun0001_ip = 230; continue _fun0001 }
- 171:
+                    if(!(var8 === var7)) { _fun0001_ip = 234; continue _fun0001 }
+ 175:
                     var8 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var7 = var7[var5];
@@ -75,9 +75,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var10.note;
                     var7['note'] = var10;
                     var7 = var8.bind(var9)(var7);
- 228: // try_end0
-                    _fun0001_ip = 314; continue _fun0001;
- 230: // try_start_1
+ 232: // try_end0
+                    _fun0001_ip = 318; continue _fun0001;
+ 234: // try_start_1
                     var7 = global;
                     var9 = var7.Error;
                     var7 = var9.prototype;
@@ -87,9 +87,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = new var14[var9](var13, var12);
                     var7 = var7 instanceof Object ? var7 : var8;
                     throw var7;
- 266: // try_end1
+ 270: // try_end1
                     return var4;
- 269: // catch_target0 // catch_target1
+ 273: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=3);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -101,9 +101,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['type'] = var7;
                     var3['id'] = var6;
                     var3 = var4.bind(var5)(var3);
- 314:
+ 318:
                     return var2;
- 317:
+ 321:
                     return var1;
                 }
             };

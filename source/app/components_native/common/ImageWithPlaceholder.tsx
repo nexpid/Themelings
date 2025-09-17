@@ -77,12 +77,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var17 = var4;
                 var16 = var3;
                 var2 = copyDataProperties(var18, var17, var16);
-                if(!(var1 != var8)) { _fun0002_ip = 89; continue _fun0002 }
- 72:
+                if(!(var1 != var8)) { _fun0002_ip = 85; continue _fun0002 }
+ 68:
                 var1 = _closure1_slot5;
                 var1 = var1.THUMBHASH;
-                if(!(var7 !== var1)) { _fun0002_ip = 195; continue _fun0002 }
- 89:
+                if(!(var7 !== var1)) { _fun0002_ip = 191; continue _fun0002 }
+ 85:
                 var11 = _closure1_slot3;
                 var5 = _closure1_slot2;
                 var4 = {};
@@ -109,8 +109,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var12 = 'children';
                 var4[var12] = var13;
                 var1 = var11.bind(var1)(var5, var4);
-                _fun0002_ip = 268; continue _fun0002;
- 195:
+                _fun0002_ip = 264; continue _fun0002;
+ 191:
                 var5 = _closure1_slot3;
                 var4 = _closure1_slot6;
                 var3 = {};
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3[var2] = var6;
                 var2 = undefined;
                 var1 = var5.bind(var2)(var4, var3);
- 268:
+ 264:
                 return var1;
             }
         };

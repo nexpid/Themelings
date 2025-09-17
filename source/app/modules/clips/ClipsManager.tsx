@@ -730,7 +730,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(var2) { _fun0011_ip = 225; continue _fun0011 }
+                                if(var2) { _fun0011_ip = 223; continue _fun0011 }
  12:
                                 var2 = _closure1_slot14;
                                 var6 = undefined;
@@ -740,7 +740,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 return var2;
  29:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(var5) { _fun0011_ip = 222; continue _fun0011 }
+                                if(var5) { _fun0011_ip = 220; continue _fun0011 }
  38:
                                 var7 = null;
                                 var8 = var7 == var2;
@@ -749,7 +749,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  49:
                                 var5 = var2.gpus;
  55:
-                                if(!(var7 == var5)) { _fun0011_ip = 166; continue _fun0011 }
+                                if(!(var7 == var5)) { _fun0011_ip = 164; continue _fun0011 }
  59:
                                 var5 = _closure1_slot1;
                                 var7 = _closure1_slot3;
@@ -759,13 +759,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var5 = var4.processUtils;
                                 var4 = var5.getSystemInfo;
                                 var4 = var4.bind(var5)();
-                                SaveGenerator(address=101);
- 99:
+                                SaveGenerator(address=99);
+ 97:
                                 return var4;
- 101:
+ 99:
                                 ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                                if(var5) { _fun0011_ip = 163; continue _fun0011 }
- 107:
+                                if(var5) { _fun0011_ip = 161; continue _fun0011 }
+ 105:
                                 var7 = var4.gpus;
                                 var6 = var7.map;
                                 var5 = function(arg1) {
@@ -781,9 +781,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var6 = var6.bind(var7)(var8);
                                 var5['classification'] = var6;
                                 return var5;
- 163:
+ 161:
                                 return var4;
- 166:
+ 164:
                                 var5 = var2.gpus;
                                 var4 = var5.map;
                                 var3 = function(arg1) {
@@ -799,9 +799,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var4 = var4.bind(var5)(var6);
                                 var3['classification'] = var4;
                                 return var3;
- 222:
+ 220:
                                 return var2;
- 225:
+ 223:
                                 return var1;
                             }
                         };

@@ -182,11 +182,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 }
             };
             var18 = var5.bind(var6)(var3, var1, var2);
-            if(!var18) { _fun0002_ip = 141; continue _fun0002 }
- 132:
+            if(!var18) { _fun0002_ip = 143; continue _fun0002 }
+ 134:
             var1 = _closure1_slot5;
             var18 = var1.bind(var4)(var14);
- 141:
+ 143:
             var11 = _closure1_slot0;
             var17 = _closure1_slot2;
             var1 = 10;
@@ -253,8 +253,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8[2] = var9;
             var9 = null;
             var11 = null;
-            if(var12) { _fun0002_ip = 391; continue _fun0002 }
- 360:
+            if(var12) { _fun0002_ip = 395; continue _fun0002 }
+ 364:
             var17 = _closure1_slot6;
             var16 = _closure1_slot9;
             var12 = {};
@@ -262,11 +262,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['onCloseAction'] = var19;
             var12['isConnected'] = var18;
             var11 = var17.bind(var4)(var16, var12);
- 391:
+ 395:
             var8[3] = var11;
             var9 = var9 != var15;
-            if(!var9) { _fun0002_ip = 468; continue _fun0002 }
- 402:
+            if(!var9) { _fun0002_ip = 474; continue _fun0002 }
+ 406:
             var12 = _closure1_slot6;
             var11 = _closure1_slot1;
             var16 = _closure1_slot2;
@@ -299,7 +299,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var10['onRecurrencePress'] = var13;
             var9 = var12.bind(var4)(var11, var10);
- 468:
+ 474:
             var8[4] = var9;
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);

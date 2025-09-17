@@ -558,27 +558,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var2.product;
             var _closure2_slot0 = var12;
             var11 = var2.analyticsLocations;
-            var18 = var2.onBuy;
-            var20 = var2.condensed;
+            var20 = var2.onBuy;
+            var21 = var2.condensed;
             var2 = _closure1_slot13;
             var5 = undefined;
             var15 = var2.bind(var5)();
             var7 = _closure1_slot0;
-            var16 = _closure1_slot2;
+            var17 = _closure1_slot2;
             var2 = 28;
-            var2 = var16[var2];
+            var2 = var17[var2];
             var3 = var7.bind(var5)(var2);
             var2 = var3.useCurrentUser;
             var4 = var2.bind(var3)();
             var2 = 29;
-            var2 = var16[var2];
+            var2 = var17[var2];
             var3 = var7.bind(var5)(var2);
             var2 = var3.useProductPurchaseState;
             var2 = var2.bind(var3)(var12);
             var9 = var2.isPurchased;
-            var23 = var2.isPartiallyOwnedBundle;
+            var24 = var2.isPartiallyOwnedBundle;
             var2 = 30;
-            var2 = var16[var2];
+            var2 = var17[var2];
             var13 = var7.bind(var5)(var2);
             var10 = var13.useStateFromStoresArray;
             var2 = _closure1_slot6;
@@ -602,26 +602,30 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var5)(var6, var2);
             var2 = 0;
             var6 = var3[var2];
-            var17 = _closure1_slot1;
+            var18 = _closure1_slot1;
             var2 = 31;
-            var2 = var16[var2];
-            var3 = var17.bind(var5)(var2);
+            var2 = var17[var2];
+            var3 = var18.bind(var5)(var2);
             var2 = var3.canUseCollectibles;
             var19 = var2.bind(var3)(var4);
-            var3 = 32;
-            var2 = var16[var3];
-            var4 = var7.bind(var5)(var2);
-            var2 = var4.isPremiumCollectiblesProduct;
-            var2 = var2.bind(var4)(var12);
-            var3 = var16[var3];
-            var4 = var7.bind(var5)(var3);
-            var3 = var4.isFreeCollectiblesProduct;
-            var3 = var3.bind(var4)(var12);
+            var4 = 32;
+            var2 = var17[var4];
+            var3 = var7.bind(var5)(var2);
+            var2 = var3.isPremiumCollectiblesProduct;
+            var2 = var2.bind(var3)(var12);
+            var3 = var17[var4];
+            var10 = var7.bind(var5)(var3);
+            var3 = var10.isFreeCollectiblesProduct;
+            var3 = var3.bind(var10)(var12);
+            var4 = var17[var4];
+            var10 = var7.bind(var5)(var4);
+            var4 = var10.isOrbsExclusiveCollectiblesProduct;
+            var16 = var4.bind(var10)(var12);
             var4 = _closure1_slot14;
             var4 = var4.bind(var5)(var12, var19);
             var10 = var4.canAfford;
             var4 = 33;
-            var4 = var16[var4];
+            var4 = var17[var4];
             var14 = var7.bind(var5)(var4);
             var13 = var14.useHandleUseNow;
             var4 = {};
@@ -630,89 +634,93 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var4.handleUseNow;
             var14 = var4.isApplying;
             var4 = 34;
-            var4 = var16[var4];
-            var17 = var17.bind(var5)(var4);
+            var4 = var17[var4];
+            var18 = var18.bind(var5)(var4);
             var4 = {};
             var4['product'] = var12;
             var4['analyticsLocations'] = var11;
-            var4['onBuy'] = var18;
-            var4 = var17.bind(var5)(var4);
-            var24 = var4.handleBuyNow;
-            var26 = var4.isBuying;
+            var4['onBuy'] = var20;
+            var4 = var18.bind(var5)(var4);
+            var25 = var4.handleBuyNow;
+            var27 = var4.isBuying;
             var4 = 35;
-            var4 = var16[var4];
-            var16 = var7.bind(var5)(var4);
-            var7 = var16.useHandleClaim;
+            var4 = var17[var4];
+            var17 = var7.bind(var5)(var4);
+            var7 = var17.useHandleClaim;
             var4 = {};
             var4['product'] = var12;
-            var4 = var7.bind(var16)(var4);
+            var4 = var7.bind(var17)(var4);
             var4 = var4.handleClaim;
             var7 = !var2;
-            if(!var7) { _fun0006_ip = 401; continue _fun0006 }
- 398:
+            if(!var7) { _fun0006_ip = 421; continue _fun0006 }
+ 418:
             var7 = !var3;
- 401:
-            if(!var7) { _fun0006_ip = 445; continue _fun0006 }
- 404:
-            var17 = var12.type;
-            var18 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var16 = 36;
-            var16 = var21[var16];
-            var16 = var18.bind(var5)(var16);
-            var16 = var16.CollectiblesItemType;
-            var16 = var16.BUNDLE;
-            var7 = var17 !== var16;
- 445:
-            if(!var7) { _fun0006_ip = 489; continue _fun0006 }
- 448:
-            var17 = var12.type;
-            var18 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var16 = 36;
-            var16 = var21[var16];
-            var16 = var18.bind(var5)(var16);
-            var16 = var16.CollectiblesItemType;
-            var16 = var16.EXTERNAL_SKU;
-            var7 = var17 !== var16;
- 489:
-            if(var9) { _fun0006_ip = 1368; continue _fun0006 }
- 495:
-            if(!var2) { _fun0006_ip = 544; continue _fun0006 }
- 498:
-            if(var19) { _fun0006_ip = 544; continue _fun0006 }
- 501:
-            if(var3) { _fun0006_ip = 544; continue _fun0006 }
- 504:
-            var17 = _closure1_slot10;
-            var16 = _closure1_slot0;
-            var18 = _closure1_slot2;
+ 421:
+            if(!var7) { _fun0006_ip = 427; continue _fun0006 }
+ 424:
+            var7 = !var16;
+ 427:
+            if(!var7) { _fun0006_ip = 471; continue _fun0006 }
+ 430:
+            var18 = var12.type;
+            var20 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var17 = 36;
+            var17 = var22[var17];
+            var17 = var20.bind(var5)(var17);
+            var17 = var17.CollectiblesItemType;
+            var17 = var17.BUNDLE;
+            var7 = var18 !== var17;
+ 471:
+            if(!var7) { _fun0006_ip = 515; continue _fun0006 }
+ 474:
+            var18 = var12.type;
+            var20 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var17 = 36;
+            var17 = var22[var17];
+            var17 = var20.bind(var5)(var17);
+            var17 = var17.CollectiblesItemType;
+            var17 = var17.EXTERNAL_SKU;
+            var7 = var18 !== var17;
+ 515:
+            if(var9) { _fun0006_ip = 1403; continue _fun0006 }
+ 521:
+            if(!var2) { _fun0006_ip = 570; continue _fun0006 }
+ 524:
+            if(var19) { _fun0006_ip = 570; continue _fun0006 }
+ 527:
+            if(var3) { _fun0006_ip = 570; continue _fun0006 }
+ 530:
+            var18 = _closure1_slot10;
+            var17 = _closure1_slot0;
+            var20 = _closure1_slot2;
             var9 = 38;
-            var9 = var18[var9];
-            var9 = var16.bind(var5)(var9);
-            var16 = var9.UnlockWithNitroButton;
+            var9 = var20[var9];
+            var9 = var17.bind(var5)(var9);
+            var17 = var9.UnlockWithNitroButton;
             var9 = {};
-            var9 = var17.bind(var5)(var16, var9);
+            var9 = var18.bind(var5)(var17, var9);
             return var9;
- 544:
-            if(var3) { _fun0006_ip = 1258; continue _fun0006 }
- 550:
-            if(!var2) { _fun0006_ip = 559; continue _fun0006 }
- 553:
-            if(var19) { _fun0006_ip = 1258; continue _fun0006 }
- 559:
-            var16 = _closure1_slot0;
-            var18 = _closure1_slot2;
+ 570:
+            if(var3) { _fun0006_ip = 1293; continue _fun0006 }
+ 576:
+            if(!var2) { _fun0006_ip = 585; continue _fun0006 }
+ 579:
+            if(var19) { _fun0006_ip = 1293; continue _fun0006 }
+ 585:
+            var17 = _closure1_slot0;
+            var20 = _closure1_slot2;
             var2 = 39;
-            var2 = var18[var2];
-            var9 = var16.bind(var5)(var2);
+            var2 = var20[var2];
+            var9 = var17.bind(var5)(var2);
             var3 = var9.match;
             var2 = var12.type;
-            var17 = var3.bind(var9)(var2);
-            var9 = var17.with;
-            var22 = 36;
-            var2 = var18[var22];
-            var2 = var16.bind(var5)(var2);
+            var18 = var3.bind(var9)(var2);
+            var9 = var18.with;
+            var23 = 36;
+            var2 = var20[var23];
+            var2 = var17.bind(var5)(var2);
             var2 = var2.CollectiblesItemType;
             var3 = var2.BUNDLE;
             var2 = function() {
@@ -731,10 +739,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var17 = var9.bind(var17)(var3, var2);
-            var9 = var17.with;
-            var2 = var18[var22];
-            var2 = var16.bind(var5)(var2);
+            var18 = var9.bind(var18)(var3, var2);
+            var9 = var18.with;
+            var2 = var20[var23];
+            var2 = var17.bind(var5)(var2);
             var2 = var2.CollectiblesItemType;
             var3 = var2.PROFILE_EFFECT;
             var2 = function() {
@@ -753,10 +761,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var17 = var9.bind(var17)(var3, var2);
-            var9 = var17.with;
-            var2 = var18[var22];
-            var2 = var16.bind(var5)(var2);
+            var18 = var9.bind(var18)(var3, var2);
+            var9 = var18.with;
+            var2 = var20[var23];
+            var2 = var17.bind(var5)(var2);
             var2 = var2.CollectiblesItemType;
             var3 = var2.NAMEPLATE;
             var2 = function() {
@@ -775,10 +783,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var17 = var9.bind(var17)(var3, var2);
-            var9 = var17.with;
-            var2 = var18[var22];
-            var2 = var16.bind(var5)(var2);
+            var18 = var9.bind(var18)(var3, var2);
+            var9 = var18.with;
+            var2 = var20[var23];
+            var2 = var17.bind(var5)(var2);
             var2 = var2.CollectiblesItemType;
             var3 = var2.AVATAR_DECORATION;
             var2 = function() {
@@ -797,7 +805,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var3 = var9.bind(var17)(var3, var2);
+            var3 = var9.bind(var18)(var3, var2);
             var2 = var3.otherwise;
             var1 = function() {
                 var5 = _closure1_slot0;
@@ -815,140 +823,144 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
-            var25 = var2.bind(var3)(var1);
+            var26 = var2.bind(var3)(var1);
             var3 = _closure1_slot11;
             var2 = _closure1_slot12;
             var1 = {};
-            var17 = _closure1_slot10;
+            var18 = _closure1_slot10;
             var9 = 40;
-            var9 = var18[var9];
-            var9 = var16.bind(var5)(var9);
-            var16 = var9.TextWithIOSLinkWorkaround;
+            var9 = var20[var9];
+            var9 = var17.bind(var5)(var9);
+            var17 = var9.TextWithIOSLinkWorkaround;
             var9 = {};
-            if(var20) { _fun0006_ip = 821; continue _fun0006 }
- 813:
-            var18 = var15.disclaimer;
-            _fun0006_ip = 827; continue _fun0006;
- 821:
-            var18 = var15.disclaimerCondensed;
- 827:
-            var9['style'] = var18;
-            var18 = 'text-xs/normal';
-            if(!var20) { _fun0006_ip = 846; continue _fun0006 }
- 840:
-            var18 = 'text-xxs/normal';
- 846:
-            var9['variant'] = var18;
-            var18 = 'interactive-active';
-            var9['color'] = var18;
-            var20 = var12.type;
-            var21 = _closure1_slot0;
-            var18 = _closure1_slot2;
-            var18 = var18[var22];
-            var18 = var21.bind(var5)(var18);
-            var18 = var18.CollectiblesItemType;
-            var18 = var18.EXTERNAL_SKU;
-            var18 = var20 !== var18;
-            if(!var18) { _fun0006_ip = 979; continue _fun0006 }
- 901:
-            var21 = _closure1_slot0;
-            var28 = _closure1_slot2;
-            var20 = 18;
-            var22 = var28[var20];
-            var22 = var21.bind(var5)(var22);
-            var27 = var22.intl;
-            var22 = var27.format;
-            var20 = var28[var20];
-            var20 = var21.bind(var5)(var20);
-            var20 = var20.t;
-            var21 = var20.iIglwM;
-            var20 = {};
-            var20['buyButtonLabel'] = var25;
-            var28 = _closure1_slot8;
-            var28 = var28.PAID_TERMS;
-            var20['paidServiceTermURL'] = var28;
-            var18 = var22.bind(var27)(var21, var20);
- 979:
-            var9['children'] = var18;
-            var16 = var17.bind(var5)(var16, var9);
+            if(var21) { _fun0006_ip = 847; continue _fun0006 }
+ 839:
+            var20 = var15.disclaimer;
+            _fun0006_ip = 853; continue _fun0006;
+ 847:
+            var20 = var15.disclaimerCondensed;
+ 853:
+            var9['style'] = var20;
+            var20 = 'text-xs/normal';
+            if(!var21) { _fun0006_ip = 872; continue _fun0006 }
+ 866:
+            var20 = 'text-xxs/normal';
+ 872:
+            var9['variant'] = var20;
+            var20 = 'interactive-active';
+            var9['color'] = var20;
+            var21 = var12.type;
+            var22 = _closure1_slot0;
+            var20 = _closure1_slot2;
+            var20 = var20[var23];
+            var20 = var22.bind(var5)(var20);
+            var20 = var20.CollectiblesItemType;
+            var20 = var20.EXTERNAL_SKU;
+            var20 = var21 !== var20;
+            if(!var20) { _fun0006_ip = 1005; continue _fun0006 }
+ 927:
+            var22 = _closure1_slot0;
+            var29 = _closure1_slot2;
+            var21 = 18;
+            var23 = var29[var21];
+            var23 = var22.bind(var5)(var23);
+            var28 = var23.intl;
+            var23 = var28.format;
+            var21 = var29[var21];
+            var21 = var22.bind(var5)(var21);
+            var21 = var21.t;
+            var22 = var21.iIglwM;
+            var21 = {};
+            var21['buyButtonLabel'] = var26;
+            var29 = _closure1_slot8;
+            var29 = var29.PAID_TERMS;
+            var21['paidServiceTermURL'] = var29;
+            var20 = var23.bind(var28)(var22, var21);
+ 1005:
+            var9['children'] = var20;
+            var17 = var18.bind(var5)(var17, var9);
             var9 = new Array(4);
-            var9[0] = var16;
-            var16 = var10;
-            if(!var16) { _fun0006_ip = 1029; continue _fun0006 }
- 1003:
-            var20 = _closure1_slot10;
-            var18 = _closure1_slot16;
-            var17 = {};
-            var17['product'] = var12;
-            var17['isPremiumUser'] = var19;
-            var16 = var20.bind(var5)(var18, var17);
+            var9[0] = var17;
+            var17 = var10;
+            if(!var17) { _fun0006_ip = 1055; continue _fun0006 }
  1029:
-            var9[1] = var16;
-            var18 = _closure1_slot11;
-            var17 = _closure1_slot5;
-            var16 = {};
-            var20 = var15.buttonContainer;
-            var16['style'] = var20;
-            var22 = _closure1_slot10;
-            var21 = _closure1_slot0;
-            var27 = _closure1_slot2;
-            var20 = 41;
-            var20 = var27[var20];
-            var20 = var21.bind(var5)(var20);
-            var21 = var20.Button;
-            var20 = {};
-            var20['loading'] = var26;
-            var20['text'] = var25;
-            var20['onPress'] = var24;
-            var20['disabled'] = var23;
-            var25 = 'primary';
-            var23 = var25;
-            if(!var10) { _fun0006_ip = 1116; continue _fun0006 }
- 1112:
-            var23 = 'secondary';
- 1116:
-            var20['variant'] = var23;
-            var23 = 'lg';
-            var20['size'] = var23;
-            var23 = true;
-            var20['grow'] = var23;
-            var21 = var22.bind(var5)(var21, var20);
-            var20 = new Array(2);
-            var20[0] = var21;
-            var21 = var7;
-            if(!var7) { _fun0006_ip = 1192; continue _fun0006 }
- 1155:
-            var24 = _closure1_slot10;
-            var23 = _closure1_slot15;
-            var22 = {};
-            var22['product'] = var12;
-            var22['analyticsLocations'] = var11;
-            if(!var10) { _fun0006_ip = 1182; continue _fun0006 }
- 1178:
-            var25 = 'secondary';
- 1182:
-            var22['variant'] = var25;
-            var21 = var24.bind(var5)(var23, var22);
- 1192:
-            var20[1] = var21;
-            var16['children'] = var20;
-            var16 = var18.bind(var5)(var17, var16);
+            var21 = _closure1_slot10;
+            var20 = _closure1_slot16;
+            var18 = {};
+            var18['product'] = var12;
+            var18['isPremiumUser'] = var19;
+            var17 = var21.bind(var5)(var20, var18);
+ 1055:
+            var9[1] = var17;
+            var16 = !var16;
+            if(!var16) { _fun0006_ip = 1241; continue _fun0006 }
+ 1068:
+            var20 = _closure1_slot11;
+            var18 = _closure1_slot5;
+            var17 = {};
+            var21 = var15.buttonContainer;
+            var17['style'] = var21;
+            var23 = _closure1_slot10;
+            var22 = _closure1_slot0;
+            var28 = _closure1_slot2;
+            var21 = 41;
+            var21 = var28[var21];
+            var21 = var22.bind(var5)(var21);
+            var22 = var21.Button;
+            var21 = {};
+            var21['loading'] = var27;
+            var21['text'] = var26;
+            var21['onPress'] = var25;
+            var21['disabled'] = var24;
+            var26 = 'primary';
+            var24 = var26;
+            if(!var10) { _fun0006_ip = 1151; continue _fun0006 }
+ 1147:
+            var24 = 'secondary';
+ 1151:
+            var21['variant'] = var24;
+            var24 = 'lg';
+            var21['size'] = var24;
+            var24 = true;
+            var21['grow'] = var24;
+            var22 = var23.bind(var5)(var22, var21);
+            var21 = new Array(2);
+            var21[0] = var22;
+            var22 = var7;
+            if(!var7) { _fun0006_ip = 1227; continue _fun0006 }
+ 1190:
+            var25 = _closure1_slot10;
+            var24 = _closure1_slot15;
+            var23 = {};
+            var23['product'] = var12;
+            var23['analyticsLocations'] = var11;
+            if(!var10) { _fun0006_ip = 1217; continue _fun0006 }
+ 1213:
+            var26 = 'secondary';
+ 1217:
+            var23['variant'] = var26;
+            var22 = var25.bind(var5)(var24, var23);
+ 1227:
+            var21[1] = var22;
+            var17['children'] = var21;
+            var16 = var20.bind(var5)(var18, var17);
+ 1241:
             var9[2] = var16;
             var10 = !var10;
-            if(!var10) { _fun0006_ip = 1242; continue _fun0006 }
- 1216:
+            if(!var10) { _fun0006_ip = 1277; continue _fun0006 }
+ 1251:
             var18 = _closure1_slot10;
             var17 = _closure1_slot16;
             var16 = {};
             var16['product'] = var12;
             var16['isPremiumUser'] = var19;
             var10 = var18.bind(var5)(var17, var16);
- 1242:
+ 1277:
             var9[3] = var10;
             var1['children'] = var9;
             var1 = var3.bind(var5)(var2, var1);
             return var1;
- 1258:
+ 1293:
             var3 = _closure1_slot10;
             var2 = _closure1_slot1;
             var18 = _closure1_slot2;
@@ -974,7 +986,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['onPress'] = var4;
             var1 = var3.bind(var5)(var2, var1);
             return var1;
- 1368:
+ 1403:
             var2 = var12.type;
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
@@ -984,8 +996,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var1.CollectiblesItemType;
             var1 = var1.EXTERNAL_SKU;
             var1 = var2 !== var1;
-            if(!var1) { _fun0006_ip = 1592; continue _fun0006 }
- 1415:
+            if(!var1) { _fun0006_ip = 1627; continue _fun0006 }
+ 1450:
             var4 = _closure1_slot11;
             var3 = _closure1_slot5;
             var2 = {};
@@ -1017,19 +1029,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var10.bind(var5)(var9, var6);
             var6 = new Array(2);
             var6[0] = var9;
-            if(!var7) { _fun0006_ip = 1578; continue _fun0006 }
- 1552:
+            if(!var7) { _fun0006_ip = 1613; continue _fun0006 }
+ 1587:
             var10 = _closure1_slot10;
             var9 = _closure1_slot15;
             var8 = {};
             var8['product'] = var12;
             var8['analyticsLocations'] = var11;
             var7 = var10.bind(var5)(var9, var8);
- 1578:
+ 1613:
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1592:
+ 1627:
             return var1;
         }
     };

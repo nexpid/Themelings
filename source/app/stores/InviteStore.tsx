@@ -413,9 +413,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var1.invite;
                 var3 = var3.is_nickname_changeable;
                 var2['is_nickname_changeable'] = var3;
+                var3 = var1.invite;
+                var3 = var3.profile;
+                var2['profile'] = var3;
                 var1 = var1.invite;
-                var1 = var1.profile;
-                var2['profile'] = var1;
+                var1 = var1.roles;
+                var2['roles'] = var1;
                 var1 = undefined;
                 return var1;
             }
@@ -537,9 +540,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = var1.invite;
                 var3 = var3.is_nickname_changeable;
                 var2['is_nickname_changeable'] = var3;
+                var3 = var1.invite;
+                var3 = var3.profile;
+                var2['profile'] = var3;
                 var1 = var1.invite;
-                var1 = var1.profile;
-                var2['profile'] = var1;
+                var1 = var1.roles;
+                var2['roles'] = var1;
                 var1 = undefined;
                 return var1;
             }

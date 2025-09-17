@@ -654,7 +654,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var15.inContent;
             var13 = var12 != var13;
             var12 = null;
-            if(!var13) { _fun0012_ip = 389; continue _fun0012 }
+            if(!var13) { _fun0012_ip = 385; continue _fun0012 }
  192:
             var17 = _closure1_slot13;
             var19 = _closure1_slot1;
@@ -673,20 +673,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var19.getFontScale;
             var19 = var18.bind(var19)();
             var18 = 1.25;
-            if(!(!(var19 < var18))) { _fun0012_ip = 313; continue _fun0012 }
+            if(!(!(var19 < var18))) { _fun0012_ip = 309; continue _fun0012 }
  274:
             var18 = 2;
             if(!(!(var19 < var18))) { _fun0012_ip = 297; continue _fun0012 }
  281:
             var18 = {'width': 16, 'height': 16};
-            _fun0012_ip = 311; continue _fun0012;
+            _fun0012_ip = 307; continue _fun0012;
  297:
             var18 = {'width': 12, 'height': 12};
- 311:
-            _fun0012_ip = 327; continue _fun0012;
- 313:
+ 307:
+            _fun0012_ip = 323; continue _fun0012;
+ 309:
             var18 = {'width': 8, 'height': 8};
- 327:
+ 323:
             var13['style'] = var18;
             var19 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -701,7 +701,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var18.CUSTOM;
             var13['size'] = var18;
             var12 = var17.bind(var6)(var16, var13);
- 389:
+ 385:
             var1[1] = var12;
             var13 = _closure1_slot0;
             var16 = _closure1_slot2;
@@ -716,24 +716,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var6)(var5, var4, var1);
             var4 = var2.disablePressableChannelMention;
             var1 = var7;
-            if(var4) { _fun0012_ip = 537; continue _fun0012 }
- 458:
+            if(var4) { _fun0012_ip = 533; continue _fun0012 }
+ 454:
             var5 = _closure1_slot13;
             var4 = _closure1_slot5;
             var3 = {};
             var3['accessibilityRole'] = var11;
             var9 = var9.channel;
-            if(var9) { _fun0012_ip = 486; continue _fun0012 }
- 480:
+            if(var9) { _fun0012_ip = 482; continue _fun0012 }
+ 476:
             var9 = var10.channelMention;
- 486:
+ 482:
             var3['style'] = var9;
             var10 = var2.noStyleAndInteraction;
             var9 = 'auto';
-            if(!var10) { _fun0012_ip = 507; continue _fun0012 }
- 503:
+            if(!var10) { _fun0012_ip = 503; continue _fun0012 }
+ 499:
             var9 = 'none';
- 507:
+ 503:
             var3['pointerEvents'] = var9;
             var8 = function onPress() {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
@@ -782,7 +782,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3['children'] = var7;
             var2 = var2.key;
             var1 = var5.bind(var6)(var4, var3, var2);
- 537:
+ 533:
             return var1;
         }
     };

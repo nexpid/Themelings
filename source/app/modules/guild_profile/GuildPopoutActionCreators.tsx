@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var9 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0001_ip = 254; continue _fun0001 }
+                    if(var2) { _fun0001_ip = 258; continue _fun0001 }
  13:
                     var6 = var9;
                     var7 = _closure1_slot1;
@@ -48,13 +48,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var9 = var10.bind(var11)(var9);
                     var4['url'] = var9;
                     var4 = var7.bind(var8)(var4);
-                    SaveGenerator(address=140);
- 138:
+                    SaveGenerator(address=144);
+ 142:
                     return var4;
- 140:
+ 144:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(var7) { _fun0001_ip = 203; continue _fun0001 }
- 146:
+                    if(var7) { _fun0001_ip = 207; continue _fun0001 }
+ 150:
                     var8 = _closure1_slot1;
                     var7 = _closure1_slot2;
                     var7 = var7[var5];
@@ -68,11 +68,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var4.body;
                     var7['guild'] = var10;
                     var7 = var8.bind(var9)(var7);
- 201: // try_end0
-                    _fun0001_ip = 251; continue _fun0001;
- 203:
+ 205: // try_end0
+                    _fun0001_ip = 255; continue _fun0001;
+ 207:
                     return var4;
- 206: // catch_target0
+ 210: // catch_target0
                     CatchBlockStart(arg_register=3);
                     var4 = _closure1_slot1;
                     var3 = _closure1_slot2;
@@ -84,9 +84,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3['type'] = var7;
                     var3['guildId'] = var6;
                     var3 = var4.bind(var5)(var3);
- 251:
+ 255:
                     return var2;
- 254:
+ 258:
                     return var1;
                 }
             };

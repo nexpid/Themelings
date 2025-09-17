@@ -26,11 +26,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 'modules/collectibles/native/hooks/useFilteredAndSortedProducts.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function(arg1) {
-        var3 = arg1;
-        var1 = var3.products;
-        var _closure2_slot0 = var1;
-        var6 = var3.maxProducts;
+        var1 = arg1;
+        var10 = var1.products;
+        var _closure2_slot0 = var10;
+        var6 = var1.maxProducts;
         var _closure2_slot1 = var6;
+        var1 = var1.bypassAndroidUnsyncedFilter;
+        var _closure2_slot2 = var1;
         var7 = _closure1_slot0;
         var8 = _closure1_slot1;
         var4 = 1;
@@ -38,28 +40,40 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = undefined;
         var9 = var7.bind(var4)(var5);
         var5 = var9.useBadBundleFilter;
-        var11 = var5.bind(var9)();
-        var _closure2_slot2 = var11;
+        var12 = var5.bind(var9)();
+        var _closure2_slot3 = var12;
         var5 = 2;
         var5 = var8[var5];
         var9 = var7.bind(var4)(var5);
         var5 = var9.useAndroidUnsyncedFilter;
-        var10 = var5.bind(var9)();
-        var _closure2_slot3 = var10;
+        var11 = var5.bind(var9)();
+        var _closure2_slot4 = var11;
         var5 = _closure1_slot2;
         var9 = var5.useMemo;
-        var3 = new Array(3);
-        var3[0] = var11;
-        var3[1] = var10;
-        var3[2] = var1;
+        var3 = new Array(4);
+        var3[0] = var12;
+        var3[1] = var11;
+        var3[2] = var10;
+        var3[3] = var1;
         var1 = function() {
-            var3 = _closure2_slot2;
-            var4 = _closure2_slot3;
-            var1 = _closure2_slot0;
-            var2 = undefined;
-            var1 = var4.bind(var2)(var1);
-            var1 = var3.bind(var2)(var1);
-            return var1;
+            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+ 0:
+                var3 = _closure2_slot3;
+                var2 = _closure2_slot2;
+                if(var2) { _fun0001_ip = 31; continue _fun0001 }
+ 14:
+                var5 = _closure2_slot4;
+                var4 = _closure2_slot0;
+                var2 = undefined;
+                var2 = var5.bind(var2)(var4);
+                _fun0001_ip = 35; continue _fun0001;
+ 31:
+                var2 = _closure2_slot0;
+ 35:
+                var1 = undefined;
+                var1 = var3.bind(var1)(var2);
+                return var1;
+            }
         };
         var3 = var9.bind(var5)(var1, var3);
         var1 = 3;
@@ -67,7 +81,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var4 = var7.bind(var4)(var1);
         var1 = var4.usePurchasedProductsSort;
         var7 = var1.bind(var4)(var3);
-        var _closure2_slot4 = var7;
+        var _closure2_slot5 = var7;
         var1 = {};
         var1['filteredProducts'] = var3;
         var4 = var5.useMemo;
@@ -75,16 +89,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3[0] = var7;
         var3[1] = var6;
         var2 = function() {
-            _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
+            _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
                 var3 = _closure2_slot1;
                 var1 = null;
-                if(!(var1 == var3)) { _fun0001_ip = 19; continue _fun0001 }
+                if(!(var1 == var3)) { _fun0002_ip = 19; continue _fun0002 }
  13:
-                var1 = _closure2_slot4;
-                _fun0001_ip = 40; continue _fun0001;
+                var1 = _closure2_slot5;
+                _fun0002_ip = 40; continue _fun0002;
  19:
-                var5 = _closure2_slot4;
+                var5 = _closure2_slot5;
                 var4 = var5.slice;
                 var3 = _closure2_slot1;
                 var2 = 0;

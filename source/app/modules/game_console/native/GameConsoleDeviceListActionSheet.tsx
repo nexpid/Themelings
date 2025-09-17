@@ -523,14 +523,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var18 = var5.bind(var7)(var1, var3);
             var1 = var18.length;
-            if(!(!(var1 > var2))) { _fun0001_ip = 342; continue _fun0001 }
- 321:
+            if(!(!(var1 > var2))) { _fun0001_ip = 354; continue _fun0001 }
+ 333:
             var3 = _closure1_slot12;
             var2 = _closure1_slot18;
             var1 = {};
             var8 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 541; continue _fun0001;
- 342:
+            _fun0001_ip = 555; continue _fun0001;
+ 354:
             var3 = _closure1_slot13;
             var2 = _closure1_slot14;
             var1 = {};
@@ -592,7 +592,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5[1] = var7;
             var1['children'] = var5;
             var8 = var3.bind(var4)(var2, var1);
- 541:
+ 555:
             var3 = _closure1_slot12;
             var2 = _closure1_slot0;
             var5 = _closure1_slot2;
@@ -607,8 +607,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5['transferring'] = var17;
             var14 = var14 != var13;
             var13 = undefined;
-            if(!var14) { _fun0001_ip = 602; continue _fun0001 }
- 597:
+            if(!var14) { _fun0001_ip = 618; continue _fun0001 }
+ 611:
             var13 = function handleTransferVoice() {
                 var1 = undefined;
                 var4 = _closure2_slot7;
@@ -619,7 +619,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = var3.bind(var4)(var1, var2);
                 return var1;
             };
- 602:
+ 618:
             var5['onPress'] = var13;
             var5 = var11.bind(var4)(var7, var5);
             var1['footer'] = var5;
@@ -646,10 +646,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = _closure1_slot6;
             var14 = {};
             var11 = var10;
-            if(var11) { _fun0001_ip = 721; continue _fun0001 }
- 718:
+            if(var11) { _fun0001_ip = 737; continue _fun0001 }
+ 734:
             var11 = var17;
- 721:
+ 737:
             var14['disabled'] = var11;
             var6 = function onPress() {
                 var3 = _closure1_slot0;
@@ -698,15 +698,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = {};
             var11 = var12.container;
             var5['contentContainerStyle'] = var11;
-            if(!var10) { _fun0001_ip = 928; continue _fun0001 }
- 902:
+            if(!var10) { _fun0001_ip = 946; continue _fun0001 }
+ 920:
             var11 = _closure1_slot12;
             var10 = _closure1_slot9;
             var9 = {};
             var12 = var12.loading;
             var9['style'] = var12;
             var8 = var11.bind(var4)(var10, var9);
- 928:
+ 946:
             var5['children'] = var8;
             var5 = var7.bind(var4)(var6, var5);
             var1['children'] = var5;

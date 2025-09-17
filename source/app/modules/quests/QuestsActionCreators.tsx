@@ -541,25 +541,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0006_ip = 483; continue _fun0006 }
+                    if(var3) { _fun0006_ip = 493; continue _fun0006 }
  13:
                     var8 = var2.questId;
                     var7 = var2.streamKey;
+                    var12 = var2.applicationId;
                     var2 = var2.terminal;
                     var3 = undefined;
-                    if(!(var2 === var3)) { _fun0006_ip = 39; continue _fun0006 }
- 37:
+                    if(!(var2 === var3)) { _fun0006_ip = 44; continue _fun0006 }
+ 42:
                     var2 = false;
- 39:
+ 44:
                     var9 = var2;
                     var14 = undefined;
-                    SaveGenerator(address=48);
- 46:
+                    SaveGenerator(address=53);
+ 51:
                     return var3;
- 48:
+ 53:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(var4) { _fun0006_ip = 480; continue _fun0006 }
- 57: // try_start_0
+                    if(var4) { _fun0006_ip = 490; continue _fun0006 }
+ 62: // try_start_0
                     var5 = _closure1_slot1;
                     var16 = _closure1_slot2;
                     var4 = 13;
@@ -567,14 +568,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var5.bind(var3)(var4);
                     var5 = var6.post;
                     var4 = {};
-                    var12 = _closure1_slot9;
-                    var11 = var12.QUESTS_HEARTBEAT;
+                    var15 = _closure1_slot9;
+                    var11 = var15.QUESTS_HEARTBEAT;
                     var13 = var8;
-                    var11 = var11.bind(var12)(var13);
+                    var11 = var11.bind(var15)(var13);
                     var4['url'] = var11;
                     var11 = {};
-                    var12 = var7;
-                    var11['stream_key'] = var12;
+                    var15 = var7;
+                    var11['stream_key'] = var15;
+                    var11['application_id'] = var12;
                     var11['terminal'] = var9;
                     var4['body'] = var11;
                     var11 = {};
@@ -602,10 +604,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var13 = null;
                     var15 = var13 != var15;
                     var13 = '';
-                    if(!var15) { _fun0006_ip = 238; continue _fun0006 }
- 235:
+                    if(!var15) { _fun0006_ip = 248; continue _fun0006 }
+ 245:
                     var13 = var14;
- 238:
+ 248:
                     var12['stack_trace'] = var13;
                     var13 = true;
                     var12['is_playtime_eligible'] = var13;
@@ -613,13 +615,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['trackedActionData'] = var11;
                     var4['rejectWithError'] = var9;
                     var4 = var5.bind(var6)(var4);
-                    SaveGenerator(address=275);
- 273:
+                    SaveGenerator(address=285);
+ 283:
                     return var4;
- 275:
+ 285:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(var5) { _fun0006_ip = 378; continue _fun0006 }
- 281:
+                    if(var5) { _fun0006_ip = 388; continue _fun0006 }
+ 291:
                     var6 = _closure1_slot1;
                     var12 = _closure1_slot2;
                     var5 = 6;
@@ -642,11 +644,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var10 = var7;
                     var5['streamKey'] = var10;
                     var5 = var6.bind(var9)(var5);
- 376: // try_end0
-                    _fun0006_ip = 477; continue _fun0006;
- 378:
+ 386: // try_end0
+                    _fun0006_ip = 487; continue _fun0006;
+ 388:
                     return var4;
- 381: // catch_target0
+ 391: // catch_target0
                     CatchBlockStart(arg_register=10);
                     var10 = _closure1_slot1;
                     var12 = _closure1_slot2;
@@ -670,11 +672,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4['questId'] = var8;
                     var4['streamKey'] = var7;
                     var4 = var5.bind(var6)(var4);
- 477:
+ 487:
                     return var3;
- 480:
+ 490:
                     return var2;
- 483:
+ 493:
                     return var1;
                 }
             };
