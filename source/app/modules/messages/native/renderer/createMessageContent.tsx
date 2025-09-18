@@ -490,7 +490,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  734:
             var15 = var24;
  737:
-            if(!(var18 == var15)) { _fun0003_ip = 7436; continue _fun0003 }
+            if(!(var18 == var15)) { _fun0003_ip = 7434; continue _fun0003 }
  744:
             var26 = _closure1_slot1;
             var28 = _closure1_slot2;
@@ -498,7 +498,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var28[var24];
             var24 = var26.bind(var5)(var24);
             var24 = var24.bind(var5)(var2);
-            if(var24) { _fun0003_ip = 7243; continue _fun0003 }
+            if(var24) { _fun0003_ip = 7241; continue _fun0003 }
  775:
             var67 = !var13;
             if(var67) { _fun0003_ip = 784; continue _fun0003 }
@@ -2175,11 +2175,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var30 = var25.remixButtonBackgroundColor;
             var1['remixButtonBackgroundColor'] = var30;
             var1['referralTrialOfferInfo'] = var28;
-            if(var27) { _fun0003_ip = 6905; continue _fun0003 }
- 6899:
+            if(var27) { _fun0003_ip = 6903; continue _fun0003 }
+ 6897:
             var27 = new Array(0);
-            _fun0003_ip = 6937; continue _fun0003;
- 6905:
+            _fun0003_ip = 6935; continue _fun0003;
+ 6903:
             var30 = _closure1_slot0;
             var32 = _closure1_slot2;
             var28 = 76;
@@ -2187,7 +2187,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var30 = var30.bind(var5)(var28);
             var28 = var30.createPostPreviewEmbeds;
             var27 = var28.bind(var30)(var2, var31);
- 6937:
+ 6935:
             var1['postPreviewEmbeds'] = var27;
             var27 = _closure1_slot0;
             var28 = _closure1_slot2;
@@ -2225,10 +2225,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var28.bind(var29)(var27, var24, var25);
             var1['ctaButton'] = var24;
             var24 = undefined;
-            if(!var26) { _fun0003_ip = 7131; continue _fun0003 }
- 7125:
+            if(!var26) { _fun0003_ip = 7129; continue _fun0003 }
+ 7123:
             var24 = var25.embedBackgroundColor;
- 7131:
+ 7129:
             var1['audioAttachmentBackgroundColor'] = var24;
             var25 = _closure1_slot0;
             var26 = _closure1_slot2;
@@ -2245,21 +2245,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['gameApplicationId'] = var4;
             var4 = var18 == var22;
             var16 = undefined;
-            if(var4) { _fun0003_ip = 7220; continue _fun0003 }
- 7215:
+            if(var4) { _fun0003_ip = 7218; continue _fun0003 }
+ 7213:
             var16 = var22.type;
- 7220:
+ 7218:
             var4 = _closure1_slot25;
             var4 = var4.GUILD_ANNOUNCEMENT;
             var4 = var16 === var4;
             var1['isAnnouncementChannel'] = var4;
             return var1;
- 7243:
+ 7241:
             var4 = var2.type;
             var1 = _closure1_slot22;
             var1 = var1.THREAD_CREATED;
-            if(!(var4 !== var1)) { _fun0003_ip = 7340; continue _fun0003 }
- 7262:
+            if(!(var4 !== var1)) { _fun0003_ip = 7338; continue _fun0003 }
+ 7260:
             var4 = _closure1_slot0;
             var16 = _closure1_slot2;
             var1 = 36;
@@ -2273,15 +2273,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['roleStyle'] = var14;
             var21 = var18 == var22;
             var18 = undefined;
-            if(var21) { _fun0003_ip = 7328; continue _fun0003 }
- 7318:
+            if(var21) { _fun0003_ip = 7326; continue _fun0003 }
+ 7316:
             var21 = var22.isForumPost;
             var18 = var21.bind(var22)();
- 7328:
+ 7326:
             var1['isForumPost'] = var18;
             var1 = var4.bind(var16)(var1);
-            _fun0003_ip = 7434; continue _fun0003;
- 7340:
+            _fun0003_ip = 7432; continue _fun0003;
+ 7338:
             var4 = {};
             var16 = _closure1_slot28;
             r105 = undefined;
@@ -2307,9 +2307,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             r104 = var4;
             var16 = copyDataProperties(r104, r103);
             var1 = var4;
- 7434:
+ 7432:
             return var1;
- 7436:
+ 7434:
             var1 = {};
             var4 = _closure1_slot30;
             var3 = {};

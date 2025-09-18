@@ -124,9 +124,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var9 = var5.bind(var1)(var2);
                 var6 = var9.withTiming;
                 var5 = {};
-                var2 = 1000;
+                var2 = 650;
                 var5['duration'] = var2;
-                var2 = 0.7;
+                var2 = 1;
                 var6 = var6.bind(var9)(var2, var5);
                 var5 = -1;
                 var2 = true;

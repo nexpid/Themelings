@@ -121,7 +121,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.id;
                     var2 = var3.bind(var4)(var2);
                     var1['localMute'] = var2;
-                    _fun0002_ip = 94; continue _fun0002;
+                    _fun0002_ip = 98; continue _fun0002;
  59:
                     var2 = {'localMute': false, 'localDeaf': false};
                     var4 = _closure1_slot8;
@@ -129,7 +129,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var3.bind(var4)();
                     var2['localVideo'] = var3;
                     var1 = var2;
- 94:
+ 98:
                     return var1;
                 }
             };

@@ -321,8 +321,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var14.get;
             var1 = var1.bind(var14)();
             var1 = !var1;
-            if(!var1) { _fun0005_ip = 262; continue _fun0005 }
- 216:
+            if(!var1) { _fun0005_ip = 260; continue _fun0005 }
+ 214:
             var5 = global;
             var11 = var5.Math;
             var7 = var11.abs;
@@ -332,12 +332,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.bind(var11)(var5);
             var5 = 0.2;
             var1 = var7 > var5;
- 262:
-            if(!var1) { _fun0005_ip = 275; continue _fun0005 }
- 265:
+ 260:
+            if(!var1) { _fun0005_ip = 273; continue _fun0005 }
+ 263:
             var1 = var9.set;
             var1 = var1.bind(var9)(var2);
- 275:
+ 273:
             var7 = _closure1_slot3;
             var5 = var7.useCallback;
             var2 = function G(arg1) {

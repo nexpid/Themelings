@@ -1074,8 +1074,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = 1;
             var3 = var4[var3];
             var _closure2_slot19 = var3;
-            if(!(var1 !== var12)) { _fun0004_ip = 1434; continue _fun0004 }
- 1194:
+            if(!(var1 !== var12)) { _fun0004_ip = 1431; continue _fun0004 }
+ 1191:
             var4 = _closure1_slot5;
             var3 = _closure1_slot6;
             var1 = {'ref': null, 'style': null, 'contentOffset': null, 'keyboardShouldPersistTaps': 'handled', 'showsHorizontalScrollIndicator': false, 'pagingEnabled': true};
@@ -1106,10 +1106,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = var10.isIOS;
             var10 = var8.bind(var10)();
             var8 = undefined;
-            if(!var10) { _fun0004_ip = 1344; continue _fun0004 }
- 1341:
+            if(!var10) { _fun0004_ip = 1341; continue _fun0004 }
+ 1338:
             var8 = 32;
- 1344:
+ 1341:
             var1['scrollEventThrottle'] = var8;
             var8 = var9.map;
             var6 = function(arg1, arg2) {
@@ -1137,8 +1137,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var4.bind(var5)(var3, var1);
             var3 = null;
             var1 = var6;
-            if(!(var3 != var7)) { _fun0004_ip = 1432; continue _fun0004 }
- 1385:
+            if(!(var3 != var7)) { _fun0004_ip = 1429; continue _fun0004 }
+ 1382:
             var4 = _closure1_slot5;
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
@@ -1150,9 +1150,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2['gesture'] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1432:
+ 1429:
             return var1;
- 1434:
+ 1431:
             var1 = null;
             return var1;
         }

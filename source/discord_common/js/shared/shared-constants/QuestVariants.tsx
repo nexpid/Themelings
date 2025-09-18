@@ -98,6 +98,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['MANUAL_HEARTBEAT_INITIALIZATION'] = var4;
     var1 = 'MANUAL_HEARTBEAT_INITIALIZATION';
     var2[var4] = var1;
+    var4 = 25;
+    var2['CLOUD_GAMING_ACTIVITY'] = var4;
+    var1 = 'CLOUD_GAMING_ACTIVITY';
+    var2[var4] = var1;
     var4 = dependencyMap;
     var1 = 0;
     var5 = var4[var1];

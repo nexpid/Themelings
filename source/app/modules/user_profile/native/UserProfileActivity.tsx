@@ -2433,10 +2433,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var15 = var5.bind(var1)(var14);
         var14 = var15.isAndroid;
         var14 = var14.bind(var15)();
-        if(!var14) { _fun0001_ip = 1066; continue _fun0001 }
- 1063:
+        if(!var14) { _fun0001_ip = 1067; continue _fun0001 }
+ 1064:
         var12 = var13;
- 1066:
+ 1067:
         var9['height'] = var12;
         var4['voiceCallNameIconWrapper'] = var9;
         var9 = {};

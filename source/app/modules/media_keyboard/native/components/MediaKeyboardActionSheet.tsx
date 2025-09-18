@@ -46,43 +46,56 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var5.bind(var6)(var4);
     var2 = function MediaKeyboardActionSheet(arg1) {
         var1 = arg1;
-        var7 = var1.applicationCommandOption;
-        var _closure2_slot0 = var7;
-        var12 = var1.channel;
-        var _closure2_slot1 = var12;
-        var11 = var1.draftType;
-        var _closure2_slot2 = var11;
-        var17 = var1.onAttachPress;
-        var _closure2_slot3 = var17;
-        var10 = var1.onPressCamera;
-        var9 = var1.onSelectItem;
-        var8 = var1.onViewAll;
+        var20 = var1.title;
+        var _closure2_slot0 = var20;
+        var17 = var1.subtitle;
+        var _closure2_slot1 = var17;
+        var15 = var1.channel;
+        var _closure2_slot2 = var15;
+        var14 = var1.draftType;
+        var _closure2_slot3 = var14;
+        var8 = var1.uploadLimit;
         var _closure2_slot4 = var8;
+        var7 = var1.disableWhenReachedLimit;
+        var _closure2_slot5 = var7;
+        var10 = var1.includedUploadIds;
+        var _closure2_slot6 = var10;
+        var9 = var1.showRemixButton;
+        var23 = var1.onAttachPress;
+        var _closure2_slot7 = var23;
+        var13 = var1.onPressCamera;
+        var12 = var1.onSelectItem;
+        var11 = var1.onViewAll;
+        var _closure2_slot8 = var11;
         var6 = var1.onClose;
-        var _closure2_slot5 = var6;
-        var14 = var1.onBack;
-        var _closure2_slot6 = var14;
+        var _closure2_slot9 = var6;
+        var22 = var1.onBack;
+        var _closure2_slot10 = var22;
         var2 = _closure1_slot0;
-        var13 = _closure1_slot2;
+        var16 = _closure1_slot2;
         var4 = 4;
-        var5 = var13[var4];
+        var5 = var16[var4];
         var4 = undefined;
-        var16 = var2.bind(var4)(var5);
-        var15 = var16.useSharedValue;
+        var19 = var2.bind(var4)(var5);
+        var18 = var19.useSharedValue;
         var5 = -1;
-        var5 = var15.bind(var16)(var5);
-        var _closure2_slot7 = var5;
-        var18 = _closure1_slot3;
-        var16 = var18.useCallback;
-        var15 = new Array(7);
-        var15[0] = var5;
-        var15[1] = var12;
-        var15[2] = var11;
-        var15[3] = var17;
-        var15[4] = var14;
-        var15[5] = var8;
-        var15[6] = var7;
-        var14 = function() {
+        var5 = var18.bind(var19)(var5);
+        var _closure2_slot11 = var5;
+        var21 = _closure1_slot3;
+        var19 = var21.useCallback;
+        var18 = new Array(11);
+        var18[0] = var5;
+        var18[1] = var15;
+        var18[2] = var14;
+        var18[3] = var23;
+        var18[4] = var22;
+        var18[5] = var11;
+        var18[6] = var8;
+        var18[7] = var10;
+        var18[8] = var7;
+        var18[9] = var20;
+        var18[10] = var17;
+        var17 = function() {
             var4 = _closure1_slot7;
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
@@ -91,31 +104,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = undefined;
             var2 = var2.bind(var3)(var1);
             var1 = {};
-            var7 = _closure2_slot7;
-            var1['animatedIndex'] = var7;
+            var7 = _closure2_slot0;
+            var1['title'] = var7;
             var7 = _closure2_slot1;
+            var1['subtitle'] = var7;
+            var7 = _closure2_slot11;
+            var1['animatedIndex'] = var7;
+            var7 = _closure2_slot2;
             var1['channel'] = var7;
             var7 = true;
             var1['disablePolls'] = var7;
-            var8 = _closure2_slot2;
+            var8 = _closure2_slot3;
             var1['draftType'] = var8;
             var1['hideScrim'] = var7;
-            var7 = _closure2_slot6;
+            var7 = _closure2_slot10;
             var1['onBack'] = var7;
-            var7 = _closure2_slot3;
+            var7 = _closure2_slot7;
             var1['onAttachPress'] = var7;
             var6 = _closure1_slot6;
             var1['onPollsPress'] = var6;
-            var6 = _closure2_slot4;
+            var6 = _closure2_slot8;
             var1['onViewAll'] = var6;
-            var5 = _closure2_slot0;
-            var1['singleItemConfig'] = var5;
+            var6 = _closure2_slot4;
+            var1['uploadLimit'] = var6;
+            var6 = _closure2_slot5;
+            var1['disableWhenReachedLimit'] = var6;
+            var5 = _closure2_slot6;
+            var1['includedUploadIds'] = var5;
             var1 = var4.bind(var3)(var2, var1);
             return var1;
         };
-        var16 = var16.bind(var18)(var14, var15);
-        var17 = var18.useCallback;
-        var15 = function() {
+        var19 = var19.bind(var21)(var17, var18);
+        var20 = var21.useCallback;
+        var18 = function() {
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var1 = 6;
@@ -142,19 +163,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var4.bind(var5)(var3, var2);
             return var1;
         };
-        var14 = new Array(0);
-        var15 = var17.bind(var18)(var15, var14);
-        var17 = var18.useCallback;
-        var14 = new Array(1);
-        var14[0] = var6;
+        var17 = new Array(0);
+        var18 = var20.bind(var21)(var18, var17);
+        var20 = var21.useCallback;
+        var17 = new Array(1);
+        var17[0] = var6;
         var6 = function() {
             _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
-                var3 = _closure2_slot5;
+                var3 = _closure2_slot9;
                 var2 = null;
                 if(!(var2 != var3)) { _fun0001_ip = 23; continue _fun0001 }
  13:
-                var2 = _closure2_slot5;
+                var2 = _closure2_slot9;
                 var1 = undefined;
                 var1 = var2.bind(var1)();
  23:
@@ -162,24 +183,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             }
         };
-        var14 = var17.bind(var18)(var6, var14);
-        var _closure2_slot8 = var14;
+        var17 = var20.bind(var21)(var6, var17);
+        var _closure2_slot12 = var17;
         var6 = _closure1_slot1;
-        var17 = 9;
-        var17 = var13[var17];
-        var17 = var6.bind(var4)(var17);
+        var20 = 9;
+        var20 = var16[var20];
+        var20 = var6.bind(var4)(var20);
         var3 = function() {
             var1 = function() {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
-                    var3 = _closure2_slot8;
+                    var3 = _closure2_slot12;
                     var1 = null;
                     var4 = var1 == var3;
                     var3 = undefined;
                     var1 = undefined;
                     if(var4) { _fun0002_ip = 28; continue _fun0002 }
  20:
-                    var2 = _closure2_slot8;
+                    var2 = _closure2_slot12;
                     var1 = var2.bind(var3)();
  28:
                     return var1;
@@ -187,29 +208,32 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             return var1;
         };
-        var3 = var17.bind(var4)(var3);
+        var3 = var20.bind(var4)(var3);
         var3 = _closure1_slot7;
         var1 = 10;
-        var1 = var13[var1];
+        var1 = var16[var1];
         var1 = var2.bind(var4)(var1);
         var2 = var1.BottomSheet;
         var1 = {};
-        var1['handleComponent'] = var16;
-        var16 = true;
-        var1['scrollable'] = var16;
-        var1['onExpand'] = var15;
-        var1['onDismiss'] = var14;
+        var1['handleComponent'] = var19;
+        var19 = true;
+        var1['scrollable'] = var19;
+        var1['onExpand'] = var18;
+        var1['onDismiss'] = var17;
         var1['animatedIndex'] = var5;
         var5 = 11;
-        var5 = var13[var5];
+        var5 = var16[var5];
         var6 = var6.bind(var4)(var5);
         var5 = {};
-        var5['channel'] = var12;
-        var5['draftType'] = var11;
-        var5['onPressCamera'] = var10;
-        var5['onSelectItem'] = var9;
-        var5['onViewAll'] = var8;
-        var5['singleItemConfig'] = var7;
+        var5['channel'] = var15;
+        var5['draftType'] = var14;
+        var5['onPressCamera'] = var13;
+        var5['onSelectItem'] = var12;
+        var5['onViewAll'] = var11;
+        var5['includedUploadIds'] = var10;
+        var5['showRemixButton'] = var9;
+        var5['uploadLimit'] = var8;
+        var5['disableWhenReachedLimit'] = var7;
         var5 = var3.bind(var4)(var6, var5);
         var1['children'] = var5;
         var1 = var3.bind(var4)(var2, var1);

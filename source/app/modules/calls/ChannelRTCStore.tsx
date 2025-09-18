@@ -600,12 +600,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = _closure1_slot33;
             var3 = var2[var5];
             var2 = null;
-            if(!(var2 == var3)) { _fun0014_ip = 38; continue _fun0014 }
+            if(!(var2 == var3)) { _fun0014_ip = 42; continue _fun0014 }
  20:
             var3 = _closure1_slot33;
             var2 = {'gridDurationMs': 0, 'focusDurationMs': 0, 'toggleCount': 0, 'lastUpdate': 0};
             var3[var5] = var2;
- 38:
+ 42:
             var2 = _closure1_slot33;
             var3 = var2[var5];
             var2 = global;
@@ -617,19 +617,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var5);
             var6 = var3.lastUpdate;
             var5 = 0;
-            if(!(var6 > var5)) { _fun0014_ip = 119; continue _fun0014 }
- 86:
+            if(!(var6 > var5)) { _fun0014_ip = 123; continue _fun0014 }
+ 90:
             var5 = var3.lastUpdate;
             var6 = var2 - var5;
             var5 = 'gridDurationMs';
-            if(!var4) { _fun0014_ip = 107; continue _fun0014 }
- 103:
-            var5 = 'focusDurationMs';
+            if(!var4) { _fun0014_ip = 111; continue _fun0014 }
  107:
+            var5 = 'focusDurationMs';
+ 111:
             var4 = var3[var5];
             var4 = var4 + var6;
             var3[var5] = var4;
- 119:
+ 123:
             var3['lastUpdate'] = var2;
             return var1;
         }

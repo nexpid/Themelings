@@ -240,16 +240,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['mentionCounts'] = var3;
             var6 = var4 == var5;
             var3 = undefined;
-            if(var6) { _fun0005_ip = 65; continue _fun0005 }
- 59:
+            if(var6) { _fun0005_ip = 69; continue _fun0005 }
+ 63:
             var3 = var5.sentinel;
- 65:
+ 69:
             var4 = var4 != var3;
             var2 = 0;
-            if(!var4) { _fun0005_ip = 77; continue _fun0005 }
- 74:
+            if(!var4) { _fun0005_ip = 81; continue _fun0005 }
+ 78:
             var2 = var3;
- 77:
+ 81:
             var1['sentinel'] = var2;
             return var1;
         }

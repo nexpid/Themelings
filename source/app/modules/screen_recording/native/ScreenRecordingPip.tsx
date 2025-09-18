@@ -161,8 +161,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = new Array(0);
             var13 = var4.bind(var6)(var3, var1);
             var1 = null;
-            if(!var2) { _fun0001_ip = 910; continue _fun0001 }
- 360:
+            if(!var2) { _fun0001_ip = 908; continue _fun0001 }
+ 358:
             var4 = _closure1_slot8;
             var3 = _closure1_slot9;
             var2 = {};
@@ -217,26 +217,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = var20.stepText;
             var13['style'] = var21;
             var21 = 'Uploading...';
-            if(var16) { _fun0001_ip = 634; continue _fun0001 }
- 606:
+            if(var16) { _fun0001_ip = 632; continue _fun0001 }
+ 604:
             var24 = var23 + var22;
             var22 = global;
             var22 = var22.HermesInternal;
             var23 = var22.concat;
             var22 = 'Step ';
             var21 = var23.bind(var22)(var24);
- 634:
+ 632:
             var13['children'] = var21;
             var17 = var19.bind(var5)(var17, var13);
             var13 = new Array(2);
             var13[0] = var17;
             var17 = _closure1_slot7;
-            if(var16) { _fun0001_ip = 815; continue _fun0001 }
- 662:
+            if(var16) { _fun0001_ip = 813; continue _fun0001 }
+ 660:
             var16 = _closure1_slot5;
             var19 = {};
-            if(var14) { _fun0001_ip = 740; continue _fun0001 }
- 671:
+            if(var14) { _fun0001_ip = 738; continue _fun0001 }
+ 669:
             var14 = var20.stopButton;
             var19['style'] = var14;
             var22 = _closure1_slot7;
@@ -250,8 +250,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = var22.bind(var5)(var21, var14);
             var19['children'] = var14;
             var14 = var19;
-            _fun0001_ip = 807; continue _fun0001;
- 740:
+            _fun0001_ip = 805; continue _fun0001;
+ 738:
             var20 = var20.doneButton;
             var19['style'] = var20;
             var22 = _closure1_slot7;
@@ -265,10 +265,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var20 = var22.bind(var5)(var21, var20);
             var19['children'] = var20;
             var14 = var19;
- 807:
+ 805:
             var14 = var17.bind(var5)(var16, var14);
-            _fun0001_ip = 872; continue _fun0001;
- 815:
+            _fun0001_ip = 870; continue _fun0001;
+ 813:
             var16 = _closure1_slot0;
             var19 = _closure1_slot2;
             var15 = 19;
@@ -282,7 +282,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var15['onPress'] = var18;
             var14 = var17.bind(var5)(var16, var15);
- 872:
+ 870:
             var13[1] = var14;
             var10['children'] = var13;
             var10 = var12.bind(var5)(var11, var10);
@@ -291,7 +291,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 910:
+ 908:
             return var1;
         }
     };

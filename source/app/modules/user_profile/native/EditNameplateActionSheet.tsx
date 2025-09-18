@@ -946,11 +946,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var15 = var3 != var10;
             _closure2_slot8 = var15;
             var14 = var7;
-            if(var14) { _fun0002_ip = 671; continue _fun0002 }
- 627:
+            if(var14) { _fun0002_ip = 670; continue _fun0002 }
+ 626:
             var3 = var3 != var20;
-            if(!var3) { _fun0002_ip = 668; continue _fun0002 }
- 634:
+            if(!var3) { _fun0002_ip = 667; continue _fun0002 }
+ 633:
             var10 = _closure1_slot0;
             var21 = _closure1_slot2;
             var7 = 27;
@@ -959,9 +959,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var10.isPremiumCollectiblesProduct;
             var7 = var7.bind(var10)(var20);
             var3 = !var7;
- 668:
+ 667:
             var14 = var3;
- 671:
+ 670:
             _closure2_slot9 = var14;
             var7 = _closure1_slot4;
             var10 = var7.useMemo;
@@ -1195,25 +1195,25 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7[var13];
             var8 = var8.bind(var4)(var7);
             var7 = {};
-            if(var15) { _fun0002_ip = 928; continue _fun0002 }
- 894:
-            if(var14) { _fun0002_ip = 928; continue _fun0002 }
- 897:
+            if(var15) { _fun0002_ip = 927; continue _fun0002 }
+ 893:
+            if(var14) { _fun0002_ip = 927; continue _fun0002 }
+ 896:
             var15 = _closure1_slot0;
             var14 = _closure1_slot2;
             var14 = var14[var13];
             var14 = var15.bind(var4)(var14);
             var14 = var14.ButtonColors;
             var14 = var14.GREEN;
-            _fun0002_ip = 957; continue _fun0002;
- 928:
+            _fun0002_ip = 956; continue _fun0002;
+ 927:
             var16 = _closure1_slot0;
             var15 = _closure1_slot2;
             var15 = var15[var13];
             var15 = var16.bind(var4)(var15);
             var15 = var15.ButtonColors;
             var14 = var15.BRAND;
- 957:
+ 956:
             var7['color'] = var14;
             var7['onPress'] = var12;
             var12 = _closure1_slot0;

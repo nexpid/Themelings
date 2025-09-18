@@ -890,10 +890,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['POLLS_CHAT_INPUT_COACHMARK'] = var2;
     var1 = 'POLLS_CHAT_INPUT_COACHMARK';
     var4[var2] = var1;
-    var2 = 355;
-    var4['PER_GUILD_COLLECTIBLES_CUSTOMIZATION_COACHMARK'] = var2;
-    var1 = 'PER_GUILD_COLLECTIBLES_CUSTOMIZATION_COACHMARK';
-    var4[var2] = var1;
     var2 = 358;
     var4['LOOTBOXES_ENTRYPOINT'] = var2;
     var1 = 'LOOTBOXES_ENTRYPOINT';
@@ -1745,6 +1741,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2 = 610;
     var4['ACCOUNT_LINK_PROMPT'] = var2;
     var1 = 'ACCOUNT_LINK_PROMPT';
+    var4[var2] = var1;
+    var2 = 611;
+    var4['WISHLIST_NUX_TOOLTIP_AND_MODAL'] = var2;
+    var1 = 'WISHLIST_NUX_TOOLTIP_AND_MODAL';
     var4[var2] = var1;
     var2 = {};
     var2['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = var5;

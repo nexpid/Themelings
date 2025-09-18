@@ -1,4 +1,4 @@
-// app/modules/modals/native/SimpleLoadingModalUI.tsx
+// app/modules/mobile_web_handoff/native/SimpleLoadingModalUI.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -58,7 +58,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/modals/native/SimpleLoadingModalUI.tsx';
+    var4 = 'modules/mobile_web_handoff/native/SimpleLoadingModalUI.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function SimpleLoadingModal(arg1) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
@@ -70,7 +70,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = undefined;
             if(!(var2 === var4)) { _fun0001_ip = 32; continue _fun0001 }
  27:
-            var2 = function I() {
+            var2 = function f() {
                 var1 = undefined;
                 return var1;
             };
@@ -79,7 +79,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.onRejected;
             if(!(var1 === var4)) { _fun0001_ip = 51; continue _fun0001 }
  46:
-            var1 = function f() {
+            var1 = function I() {
                 var1 = undefined;
                 return var1;
             };

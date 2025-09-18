@@ -841,21 +841,27 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = function TTIEvent(arg1, arg2) {
                 _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
-                    var2 = arguments[2];
+                    var4 = arguments[2];
+                    var2 = arguments[3];
                     var3 = this;
                     var1 = undefined;
-                    if(!(var2 === var1)) { _fun0013_ip = 14; continue _fun0013 }
- 12:
+                    if(!(var4 === var1)) { _fun0013_ip = 17; continue _fun0013 }
+ 15:
+                    var4 = false;
+ 17:
+                    if(!(var2 === var1)) { _fun0013_ip = 23; continue _fun0013 }
+ 21:
                     var2 = false;
- 14:
-                    var5 = _closure1_slot9;
-                    var4 = _closure2_slot0;
-                    var4 = var5.bind(var1)(var3, var4);
-                    var4 = arg1;
-                    var3['emoji'] = var4;
-                    var4 = arg2;
-                    var3['name'] = var4;
-                    var3['onlyOnce'] = var2;
+ 23:
+                    var6 = _closure1_slot9;
+                    var5 = _closure2_slot0;
+                    var5 = var6.bind(var1)(var3, var5);
+                    var5 = arg1;
+                    var3['emoji'] = var5;
+                    var5 = arg2;
+                    var3['name'] = var5;
+                    var3['onlyOnce'] = var4;
+                    var3['alwaysRecord'] = var2;
                     var2 = 0;
                     var3['time_'] = var2;
                     var4 = null;
@@ -894,22 +900,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  29:
                     var5 = var2.time_;
                     var4 = 0;
-                    if(!(var4 !== var5)) { _fun0014_ip = 100; continue _fun0014 }
+                    if(!(var4 !== var5)) { _fun0014_ip = 130; continue _fun0014 }
  41:
-                    var4 = var2.onlyOnce;
-                    if(var4) { _fun0014_ip = 196; continue _fun0014 }
+                    var5 = var2.onlyOnce;
+                    if(var5) { _fun0014_ip = 226; continue _fun0014 }
  53:
-                    var5 = _closure1_slot2;
-                    var6 = _closure1_slot4;
-                    var4 = 6;
-                    var4 = var6[var4];
-                    var7 = var5.bind(var1)(var4);
-                    var6 = var7.mark;
-                    var5 = var2.emoji;
-                    var4 = var2.name;
-                    var4 = var6.bind(var7)(var5, var4);
-                    _fun0014_ip = 196; continue _fun0014;
- 100:
+                    var5 = var2.alwaysRecord;
+                    if(var5) { _fun0014_ip = 109; continue _fun0014 }
+ 62:
+                    var6 = _closure1_slot2;
+                    var7 = _closure1_slot4;
+                    var5 = 6;
+                    var5 = var7[var5];
+                    var8 = var6.bind(var1)(var5);
+                    var7 = var8.mark;
+                    var6 = var2.emoji;
+                    var5 = var2.name;
+                    var5 = var7.bind(var8)(var6, var5);
+                    _fun0014_ip = 226; continue _fun0014;
+ 109:
+                    var2['time_'] = var4;
+                    var4 = var2.record;
+                    var4 = var4.bind(var2)(var3);
+                    var4 = undefined;
+                    return var4;
+ 130:
                     var2['time_'] = var3;
                     var6 = _closure1_slot3;
                     var5 = _closure1_slot4;
@@ -930,7 +945,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var2.emoji;
                     var2 = var2.name;
                     var2 = var4.bind(var5)(var3, var2);
- 196:
+ 226:
                     var2 = _closure1_slot11;
                     var2 = var2.bind(var1)();
                     return var1;
@@ -1031,357 +1046,368 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = _closure1_slot13;
             var2 = var7.prototype;
             var5 = Object.create(var2, {constructor: {value: var7}});
-            var13 = '❗';
-            var12 = 'Load index.tsx';
-            var14 = var5;
-            var2 = new var14[var7](var13, var12, var11);
+            var16 = '❗';
+            var15 = 'Load index.tsx';
+            var17 = var5;
+            var2 = new var17[var7](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['loadIndex'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
             var8 = '💾';
-            var12 = 'Load fast_connect native module';
-            var14 = var5;
-            var13 = var8;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Load fast_connect native module';
+            var17 = var5;
+            var16 = var8;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['loadFastConnectNativeModule'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
             var7 = '🌐';
-            var12 = 'Fast Connect IDENTIFY';
-            var14 = var5;
-            var13 = var7;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Fast Connect IDENTIFY';
+            var17 = var5;
+            var16 = var7;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['beginFastConnect'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
             var9 = '🏃';
-            var12 = 'Load Imports';
-            var14 = var5;
-            var13 = var9;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Load Imports';
+            var17 = var5;
+            var16 = var9;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['loadImports'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Initial Initialization';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Initial Initialization';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['init'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Load Storage';
-            var14 = var5;
-            var13 = var8;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Load Storage';
+            var17 = var5;
+            var16 = var8;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['loadStorage'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Parse Storage';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Parse Storage';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['parseStorage'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Load Mini Cache';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Load Mini Cache';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['loadMiniCache'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Fetch Guild Cache';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Fetch Guild Cache';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['fetchGuildCache'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Fetch Initial Guild Channels Cache';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Fetch Initial Guild Channels Cache';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['fetchGuildChannelsCache'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Load Cached Messages';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Load Cached Messages';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['loadCachedMessages'] = var2;
             var6 = _closure1_slot14;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
             var10 = '🎨';
-            var12 = 'First React Render';
-            var14 = var5;
-            var13 = var10;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'First React Render';
+            var17 = var5;
+            var16 = var10;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['renderApp'] = var2;
             var6 = _closure1_slot14;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'First React Render useEffect';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'First React Render useEffect';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['renderAppEffect'] = var2;
             var6 = _closure1_slot14;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'React Render Messages';
-            var14 = var5;
-            var11 = true;
-            var2 = new var14[var6](var13, var12, var11, var10);
+            var15 = 'First Contentful Paint';
+            var17 = var5;
+            var14 = false;
+            var13 = true;
+            var2 = new var17[var6](var16, var15, var14, var13, var12);
+            var2 = var2 instanceof Object ? var2 : var5;
+            var3['firstContentfulPaint'] = var2;
+            var6 = _closure1_slot14;
+            var2 = var6.prototype;
+            var5 = Object.create(var2, {constructor: {value: var6}});
+            var15 = 'React Render Messages';
+            var17 = var5;
+            var14 = true;
+            var2 = new var17[var6](var16, var15, var14, var13);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['renderMessages'] = var2;
             var6 = _closure1_slot14;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'React Render Cached Messages';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11, var10);
+            var15 = 'React Render Cached Messages';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14, var13);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['renderMessagesWithCache'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'RowGenerator.generate()';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'RowGenerator.generate()';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['firstRowGenerator'] = var2;
             var6 = _closure1_slot14;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
             var9 = '🖥️';
-            var12 = 'Display Cached Messages';
-            var14 = var5;
-            var13 = var9;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Display Cached Messages';
+            var17 = var5;
+            var16 = var9;
+            var14 = false;
+            var2 = new var17[var6](var16, var15, var14, var13, var12);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['displayMessagesWithCache'] = var2;
             var6 = _closure1_slot14;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'React Render Latest Messages';
-            var14 = var5;
-            var13 = var10;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'React Render Latest Messages';
+            var17 = var5;
+            var16 = var10;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['renderLatestMessages'] = var2;
             var6 = _closure1_slot14;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Display Latest Messages';
-            var14 = var5;
-            var13 = var9;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Display Latest Messages';
+            var17 = var5;
+            var16 = var9;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['displayLatestMessages'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Initial Guild';
-            var14 = var5;
-            var13 = var7;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Initial Guild';
+            var17 = var5;
+            var16 = var7;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['initialGuild'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Load Lazy Cache';
-            var14 = var5;
-            var13 = var8;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Load Lazy Cache';
+            var17 = var5;
+            var16 = var8;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['loadLazyCache'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Fetch Lazy Cache';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Fetch Lazy Cache';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['fetchLazyCache'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Parse Lazy Cache';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Parse Lazy Cache';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['parseLazyCache'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Fetch Stale Channels';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Fetch Stale Channels';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['fetchStaleChannels'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Deserialize Cache';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Deserialize Cache';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['deserializeCache'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Dispatch Lazy Cache';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Dispatch Lazy Cache';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['dispatchLazyCache'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Parse READY';
-            var14 = var5;
-            var13 = var7;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Parse READY';
+            var17 = var5;
+            var16 = var7;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['parseReady'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'READY';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'READY';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['ready'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Hydrate READY';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Hydrate READY';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['hydrateReady'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Dispatch READY';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Dispatch READY';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['dispatchReady'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Parse READY Supplemental';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Parse READY Supplemental';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['parseReadySupplemental'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'READY Supplemental';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'READY Supplemental';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['readySupplemental'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Hydrate READY Supplemental';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Hydrate READY Supplemental';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['hydrateReadySupplemental'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Dispatch READY Supplemental';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Dispatch READY Supplemental';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['dispatchReadySupplemental'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Fetch messages';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Fetch messages';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['fetchMessages'] = var2;
             var6 = _closure1_slot13;
             var2 = var6.prototype;
             var5 = Object.create(var2, {constructor: {value: var6}});
-            var12 = 'Dispatch messages';
-            var14 = var5;
-            var2 = new var14[var6](var13, var12, var11);
+            var15 = 'Dispatch messages';
+            var17 = var5;
+            var2 = new var17[var6](var16, var15, var14);
             var2 = var2 instanceof Object ? var2 : var5;
             var3['dispatchMessages'] = var2;
             var2 = {};
             var5 = _closure1_slot15;
             var6 = var5.prototype;
             var6 = Object.create(var6, {constructor: {value: var5}});
-            var14 = var6;
-            var5 = new var14[var5](var13);
+            var17 = var6;
+            var5 = new var17[var5](var16);
             var5 = var5 instanceof Object ? var5 : var6;
             var2['polyfillsEnd'] = var5;
             var5 = _closure1_slot15;
             var6 = var5.prototype;
             var6 = Object.create(var6, {constructor: {value: var5}});
-            var14 = var6;
-            var5 = new var14[var5](var13);
+            var17 = var6;
+            var5 = new var17[var5](var16);
             var5 = var5 instanceof Object ? var5 : var6;
             var2['sentryEnd'] = var5;
             var5 = _closure1_slot15;
             var6 = var5.prototype;
             var6 = Object.create(var6, {constructor: {value: var5}});
-            var14 = var6;
-            var5 = new var14[var5](var13);
+            var17 = var6;
+            var5 = new var17[var5](var16);
             var5 = var5 instanceof Object ? var5 : var6;
             var2['appStateChangeStart'] = var5;
             var5 = _closure1_slot15;
             var6 = var5.prototype;
             var6 = Object.create(var6, {constructor: {value: var5}});
-            var14 = var6;
-            var5 = new var14[var5](var13);
+            var17 = var6;
+            var5 = new var17[var5](var16);
             var5 = var5 instanceof Object ? var5 : var6;
             var2['appStateChangeEnd'] = var5;
             var5 = _closure1_slot15;
             var6 = var5.prototype;
             var6 = Object.create(var6, {constructor: {value: var5}});
-            var14 = var6;
-            var5 = new var14[var5](var13);
+            var17 = var6;
+            var5 = new var17[var5](var16);
             var5 = var5 instanceof Object ? var5 : var6;
             var2['loadMiniCacheStart'] = var5;
             var5 = _closure1_slot15;
             var6 = var5.prototype;
             var6 = Object.create(var6, {constructor: {value: var5}});
-            var14 = var6;
-            var5 = new var14[var5](var13);
+            var17 = var6;
+            var5 = new var17[var5](var16);
             var5 = var5 instanceof Object ? var5 : var6;
             var2['loadStorageStart'] = var5;
             var4 = _closure1_slot15;
             var5 = var4.prototype;
             var5 = Object.create(var5, {constructor: {value: var4}});
-            var14 = var5;
-            var4 = new var14[var4](var13);
+            var17 = var5;
+            var4 = new var17[var4](var16);
             var4 = var4 instanceof Object ? var4 : var5;
             var2['loadStorageEnd'] = var4;
             var3['imports'] = var2;
@@ -1854,19 +1880,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = function value(arg1, arg2) {
                 _fun0024: for(var _fun0024_ip = 0; ; ) switch(_fun0024_ip) {
  0:
-                    var23 = this;
-                    var2 = var23.getStartTime;
+                    var24 = this;
+                    var2 = var24.getStartTime;
                     var1 = arg2;
-                    var22 = var2.bind(var23)(var1);
+                    var23 = var2.bind(var24)(var1);
                     var3 = _closure1_slot16;
                     var1 = undefined;
                     var2 = arg1;
-                    var20 = var3.bind(var1)(var2);
-                    var3 = var20.bind(var1)();
+                    var21 = var3.bind(var1)(var2);
+                    var3 = var21.bind(var1)();
                     var2 = var3.done;
-                    var19 = null;
-                    var18 = 'ChatModule.updateRows() Finish';
-                    var17 = 'ChatModule.updateRows() Start';
+                    var20 = null;
+                    var19 = 'ChatModule.updateRows() Finish';
+                    var18 = 'ChatModule.updateRows() Start';
+                    var17 = 'RUN_JS_BUNDLE_START';
                     var16 = 'CacheStorage Init End';
                     var15 = 'CacheStorage Init Start';
                     var14 = 'REACT_BRIDGE_LOADING_END';
@@ -1880,157 +1907,166 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = 'GET_REACT_INSTANCE_MANAGER_END';
                     var5 = 'GET_REACT_INSTANCE_MANAGER_START';
                     var4 = 'Finish MainApplication.initialize()';
-                    if(var2) { _fun0024_ip = 784; continue _fun0024 }
- 141:
+                    if(var2) { _fun0024_ip = 830; continue _fun0024 }
+ 147:
                     var2 = var3.value;
-                    var24 = var2.label;
-                    if(!(var4 !== var24)) { _fun0024_ip = 738; continue _fun0024 }
- 158:
-                    if(!(var5 !== var24)) { _fun0024_ip = 708; continue _fun0024 }
- 165:
-                    if(!(var6 !== var24)) { _fun0024_ip = 678; continue _fun0024 }
- 172:
-                    if(!(var7 !== var24)) { _fun0024_ip = 648; continue _fun0024 }
- 179:
-                    if(!(var8 !== var24)) { _fun0024_ip = 618; continue _fun0024 }
- 186:
-                    if(!(var9 !== var24)) { _fun0024_ip = 585; continue _fun0024 }
- 193:
-                    if(!(var10 !== var24)) { _fun0024_ip = 552; continue _fun0024 }
- 200:
-                    if(!(var11 !== var24)) { _fun0024_ip = 519; continue _fun0024 }
- 207:
-                    if(!(var12 !== var24)) { _fun0024_ip = 486; continue _fun0024 }
- 214:
-                    if(!(var13 !== var24)) { _fun0024_ip = 453; continue _fun0024 }
- 221:
-                    if(!(var14 !== var24)) { _fun0024_ip = 420; continue _fun0024 }
- 228:
-                    if(!(var15 !== var24)) { _fun0024_ip = 387; continue _fun0024 }
- 235:
-                    if(!(var16 !== var24)) { _fun0024_ip = 354; continue _fun0024 }
- 239:
-                    if(!(var17 !== var24)) { _fun0024_ip = 302; continue _fun0024 }
- 243:
-                    if(!(var18 === var24)) { _fun0024_ip = 766; continue _fun0024 }
- 250:
-                    var24 = var23.extraProperties;
-                    var24 = var24.time_first_native_message_render_end;
-                    if(!(var19 == var24)) { _fun0024_ip = 766; continue _fun0024 }
- 269:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_first_native_message_render_end'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 302:
-                    var24 = var23.extraProperties;
-                    var24 = var24.time_first_native_message_render_start;
-                    if(!(var19 == var24)) { _fun0024_ip = 766; continue _fun0024 }
- 321:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_first_native_message_render_start'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 354:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_init_native_storage_end'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 387:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_init_native_storage_start'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 420:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_react_bridge_loading_end'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 453:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_react_bridge_loading_start'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 486:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_create_ui_manager_module_end'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 519:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_create_ui_manager_module_start'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 552:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_create_catalyst_instance_end'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 585:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_create_catalyst_instance_start'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 618:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_process_packages_end'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 648:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_process_packages_start'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 678:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_get_react_instance_manager_end'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 708:
-                    var25 = var23.extraProperties;
-                    var26 = _closure1_slot19;
-                    var24 = var2.timestamp;
-                    var24 = var26.bind(var1)(var22, var24);
-                    var25['time_get_react_instance_manager_start'] = var24;
-                    _fun0024_ip = 766; continue _fun0024;
- 738:
-                    var24 = var23.extraProperties;
-                    var25 = _closure1_slot19;
-                    var2 = var2.timestamp;
-                    var2 = var25.bind(var1)(var22, var2);
-                    var24['time_main_application_initialize_end'] = var2;
- 766:
-                    var24 = var20.bind(var1)();
-                    var2 = var24.done;
-                    var3 = var24;
-                    if(!var2) { _fun0024_ip = 141; continue _fun0024 }
+                    var25 = var2.label;
+                    if(!(var4 !== var25)) { _fun0024_ip = 784; continue _fun0024 }
+ 164:
+                    if(!(var5 !== var25)) { _fun0024_ip = 754; continue _fun0024 }
+ 171:
+                    if(!(var6 !== var25)) { _fun0024_ip = 724; continue _fun0024 }
+ 178:
+                    if(!(var7 !== var25)) { _fun0024_ip = 694; continue _fun0024 }
+ 185:
+                    if(!(var8 !== var25)) { _fun0024_ip = 664; continue _fun0024 }
+ 192:
+                    if(!(var9 !== var25)) { _fun0024_ip = 631; continue _fun0024 }
+ 199:
+                    if(!(var10 !== var25)) { _fun0024_ip = 598; continue _fun0024 }
+ 206:
+                    if(!(var11 !== var25)) { _fun0024_ip = 565; continue _fun0024 }
+ 213:
+                    if(!(var12 !== var25)) { _fun0024_ip = 532; continue _fun0024 }
+ 220:
+                    if(!(var13 !== var25)) { _fun0024_ip = 499; continue _fun0024 }
+ 227:
+                    if(!(var14 !== var25)) { _fun0024_ip = 466; continue _fun0024 }
+ 234:
+                    if(!(var15 !== var25)) { _fun0024_ip = 433; continue _fun0024 }
+ 241:
+                    if(!(var16 !== var25)) { _fun0024_ip = 400; continue _fun0024 }
+ 248:
+                    if(!(var17 !== var25)) { _fun0024_ip = 367; continue _fun0024 }
+ 252:
+                    if(!(var18 !== var25)) { _fun0024_ip = 315; continue _fun0024 }
+ 256:
+                    if(!(var19 === var25)) { _fun0024_ip = 812; continue _fun0024 }
+ 263:
+                    var25 = var24.extraProperties;
+                    var25 = var25.time_first_native_message_render_end;
+                    if(!(var20 == var25)) { _fun0024_ip = 812; continue _fun0024 }
+ 282:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_first_native_message_render_end'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 315:
+                    var25 = var24.extraProperties;
+                    var25 = var25.time_first_native_message_render_start;
+                    if(!(var20 == var25)) { _fun0024_ip = 812; continue _fun0024 }
+ 334:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_first_native_message_render_start'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 367:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_before_js_bundle_start'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 400:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_init_native_storage_end'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 433:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_init_native_storage_start'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 466:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_react_bridge_loading_end'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 499:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_react_bridge_loading_start'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 532:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_create_ui_manager_module_end'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 565:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_create_ui_manager_module_start'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 598:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_create_catalyst_instance_end'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 631:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_create_catalyst_instance_start'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 664:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_process_packages_end'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 694:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_process_packages_start'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 724:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_get_react_instance_manager_end'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
+ 754:
+                    var26 = var24.extraProperties;
+                    var27 = _closure1_slot19;
+                    var25 = var2.timestamp;
+                    var25 = var27.bind(var1)(var23, var25);
+                    var26['time_get_react_instance_manager_start'] = var25;
+                    _fun0024_ip = 812; continue _fun0024;
  784:
+                    var25 = var24.extraProperties;
+                    var26 = _closure1_slot19;
+                    var2 = var2.timestamp;
+                    var2 = var26.bind(var1)(var23, var2);
+                    var25['time_main_application_initialize_end'] = var2;
+ 812:
+                    var25 = var21.bind(var1)();
+                    var2 = var25.done;
+                    var3 = var25;
+                    if(!var2) { _fun0024_ip = 147; continue _fun0024 }
+ 830:
                     return var1;
                 }
             };
@@ -2193,6 +2229,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var6.serialize;
                     var6 = var3.bind(var6)(var7);
                     var3 = 'time_render_app_effect_start';
+                    var1[var3] = var6;
+                    var6 = var2.firstContentfulPaint;
+                    var3 = var6.serialize;
+                    var6 = var3.bind(var6)(var7);
+                    var3 = 'time_first_contentful_paint';
                     var1[var3] = var6;
                     var6 = var2.renderMessages;
                     var3 = var6.serialize;
@@ -2602,55 +2643,55 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var5 = null;
                     var7 = var5 == var3;
                     var6 = undefined;
-                    if(var7) { _fun0025_ip = 2980; continue _fun0025 }
- 2974:
+                    if(var7) { _fun0025_ip = 3008; continue _fun0025 }
+ 3002:
                     var6 = var3.guilds;
- 2980:
+ 3008:
                     var3 = 'cache_num_guilds';
                     var1[var3] = var6;
                     var3 = var2.cacheInfo;
                     var7 = var5 == var3;
                     var6 = undefined;
-                    if(var7) { _fun0025_ip = 3012; continue _fun0025 }
- 3006:
+                    if(var7) { _fun0025_ip = 3040; continue _fun0025 }
+ 3034:
                     var6 = var3.privateChannels;
- 3012:
+ 3040:
                     var3 = 'cache_num_private_channels';
                     var1[var3] = var6;
                     var3 = var2.cacheInfo;
                     var7 = var5 == var3;
                     var6 = undefined;
-                    if(var7) { _fun0025_ip = 3044; continue _fun0025 }
- 3038:
+                    if(var7) { _fun0025_ip = 3072; continue _fun0025 }
+ 3066:
                     var6 = var3.basicChannels;
- 3044:
+ 3072:
                     var3 = 'cache_num_basic_channels';
                     var1[var3] = var6;
                     var3 = var2.cacheInfo;
                     var7 = var5 == var3;
                     var6 = undefined;
-                    if(var7) { _fun0025_ip = 3076; continue _fun0025 }
- 3070:
+                    if(var7) { _fun0025_ip = 3104; continue _fun0025 }
+ 3098:
                     var6 = var3.basicChannelsStale;
- 3076:
+ 3104:
                     var3 = 'cache_num_basic_channels_stale';
                     var1[var3] = var6;
                     var3 = var2.cacheInfo;
                     var7 = var5 == var3;
                     var6 = undefined;
-                    if(var7) { _fun0025_ip = 3108; continue _fun0025 }
- 3102:
+                    if(var7) { _fun0025_ip = 3136; continue _fun0025 }
+ 3130:
                     var6 = var3.fullChannels;
- 3108:
+ 3136:
                     var3 = 'cache_num_full_channels';
                     var1[var3] = var6;
                     var3 = var2.cacheInfo;
                     var5 = var5 == var3;
                     var4 = undefined;
-                    if(var5) { _fun0025_ip = 3140; continue _fun0025 }
- 3134:
+                    if(var5) { _fun0025_ip = 3168; continue _fun0025 }
+ 3162:
                     var4 = var3.fullChannelGuilds;
- 3140:
+ 3168:
                     var3 = 'cache_num_full_channel_guilds';
                     var1[var3] = var4;
                     var3 = var2.loadIndex;

@@ -142,10 +142,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var10.TransitionStates;
             var12 = var10.YEETED;
             var10 = 'relative';
-            if(!(var13 === var12)) { _fun0001_ip = 194; continue _fun0001 }
- 190:
+            if(!(var13 === var12)) { _fun0001_ip = 193; continue _fun0001 }
+ 189:
             var10 = 'absolute';
- 194:
+ 193:
             var7['position'] = var10;
             var7['opacity'] = var8;
             var5[1] = var7;
@@ -165,10 +165,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var13.isAndroid;
             var12 = var12.bind(var13)();
             var11 = 0;
-            if(!var12) { _fun0001_ip = 284; continue _fun0001 }
- 281:
+            if(!var12) { _fun0001_ip = 283; continue _fun0001 }
+ 280:
             var11 = 2;
- 284:
+ 283:
             var10['paddingBottom'] = var11;
             var5['style'] = var10;
             var5['children'] = var9;
@@ -366,8 +366,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = null;
             var3 = var11 == var12;
             var1 = null;
-            if(var3) { _fun0003_ip = 466; continue _fun0003 }
- 245:
+            if(var3) { _fun0003_ip = 465; continue _fun0003 }
+ 244:
             var4 = _closure1_slot21;
             var3 = _closure1_slot1;
             var15 = _closure1_slot2;
@@ -384,10 +384,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7 = var7.TransitionStates;
             var8 = var7.YEETED;
             var7 = 'relative';
-            if(!(var14 === var8)) { _fun0003_ip = 319; continue _fun0003 }
- 315:
+            if(!(var14 === var8)) { _fun0003_ip = 318; continue _fun0003 }
+ 314:
             var7 = 'absolute';
- 319:
+ 318:
             var6['position'] = var7;
             var2['style'] = var6;
             var8 = _closure1_slot21;
@@ -400,10 +400,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['user'] = var12;
             var17 = var11 != var16;
             var14 = undefined;
-            if(!var17) { _fun0003_ip = 369; continue _fun0003 }
- 366:
+            if(!var17) { _fun0003_ip = 368; continue _fun0003 }
+ 365:
             var14 = var16;
- 369:
+ 368:
             var6['guildId'] = var14;
             var14 = _closure1_slot0;
             var13 = _closure1_slot2;
@@ -418,17 +418,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6['needsOffscreenAlphaCompositing'] = var9;
             var13 = var11 == var12;
             var11 = undefined;
-            if(var13) { _fun0003_ip = 436; continue _fun0003 }
- 430:
+            if(var13) { _fun0003_ip = 435; continue _fun0003 }
+ 429:
             var11 = var12.avatarDecoration;
- 436:
+ 435:
             var6['avatarDecoration'] = var11;
             var6['status'] = var10;
             var6['autoStatusCutout'] = var9;
             var6 = var8.bind(var5)(var7, var6);
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 466:
+ 465:
             return var1;
         }
     };

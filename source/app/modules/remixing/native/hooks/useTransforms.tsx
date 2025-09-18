@@ -38,16 +38,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var1.Object;
             var5 = var6.isFrozen;
             var5 = var5.bind(var6)(var3);
-            if(var5) { _fun0001_ip = 82; continue _fun0001 }
- 66:
+            if(var5) { _fun0001_ip = 81; continue _fun0001 }
+ 65:
             var6 = var3[var4];
             var5 = null;
-            if(!(var5 == var6)) { _fun0001_ip = 80; continue _fun0001 }
- 76:
+            if(!(var5 == var6)) { _fun0001_ip = 79; continue _fun0001 }
+ 75:
             var3[var4] = var2;
- 80:
+ 79:
             return var2;
- 82:
+ 81:
             var3 = var1.Error;
             var1 = var3.prototype;
             var2 = Object.create(var1, {constructor: {value: var3}});

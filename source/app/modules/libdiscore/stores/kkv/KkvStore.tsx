@@ -1013,7 +1013,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var4 = var5.mode;
                 var4 = var6.bind(var7)(var4);
                 var4 = undefined;
-                _fun0016_ip = 256; continue _fun0016;
+                _fun0016_ip = 260; continue _fun0016;
  93:
                 var1 = global;
                 var7 = var1.Error;
@@ -1028,7 +1028,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var5.setKkvState;
                 var1 = var6.bind;
                 var4 = var1.bind(var6)(var5);
-                _fun0016_ip = 256; continue _fun0016;
+                _fun0016_ip = 260; continue _fun0016;
  147:
                 var1 = {};
                 var6 = {};
@@ -1204,7 +1204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 };
                 var2 = var6.bind(var5)(var2);
- 256:
+ 260:
                 var2 = var3.registerKkvStore;
                 var1 = var5.getName;
                 var1 = var1.bind(var5)();

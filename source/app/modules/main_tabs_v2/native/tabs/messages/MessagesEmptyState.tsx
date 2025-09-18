@@ -154,12 +154,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = new Array(2);
             var5[0] = var6;
             var6 = undefined;
-            if(!var7) { _fun0001_ip = 306; continue _fun0001 }
- 296:
+            if(!var7) { _fun0001_ip = 302; continue _fun0001 }
+ 292:
             var7 = {};
             var7['paddingBottom'] = var8;
             var6 = var7;
- 306:
+ 302:
             var5[1] = var6;
             var1['contentContainerStyle'] = var5;
             var7 = _closure1_slot9;
@@ -188,11 +188,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var21 = 350;
             var19 = 622;
             var17 = var21;
-            if(!(var20 < var19)) { _fun0001_ip = 430; continue _fun0001 }
- 422:
+            if(!(var20 < var19)) { _fun0001_ip = 426; continue _fun0001 }
+ 418:
             var18 = var20 / var19;
             var17 = var18 * var21;
- 430:
+ 426:
             var16['height'] = var17;
             var17 = global;
             var18 = var17.Math;

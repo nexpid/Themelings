@@ -341,16 +341,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var22 = var4.bind(var6)(var1, var2);
             var2 = var12.length;
             var1 = null;
-            if(!(var3 !== var2)) { _fun0001_ip = 954; continue _fun0001 }
- 519:
+            if(!(var3 !== var2)) { _fun0001_ip = 951; continue _fun0001 }
+ 516:
             var4 = _closure1_slot6;
             var3 = _closure1_slot4;
             var2 = {};
             var6 = undefined;
-            if(!var19) { _fun0001_ip = 540; continue _fun0001 }
- 534:
+            if(!var19) { _fun0001_ip = 537; continue _fun0001 }
+ 531:
             var6 = var18.containerRevamp;
- 540:
+ 537:
             var2['style'] = var6;
             var9 = _closure1_slot5;
             var8 = _closure1_slot7;
@@ -404,10 +404,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var16 = new Array(2);
             var16[0] = var17;
             var17 = undefined;
-            if(!var19) { _fun0001_ip = 800; continue _fun0001 }
- 794:
+            if(!var19) { _fun0001_ip = 797; continue _fun0001 }
+ 791:
             var17 = var18.attachmentPreviewContentContainerRevamp;
- 800:
+ 797:
             var16[1] = var17;
             var7['contentContainerStyle'] = var16;
             var16 = true;
@@ -484,7 +484,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[2] = var7;
             var2['children'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 954:
+ 951:
             return var1;
         }
     };

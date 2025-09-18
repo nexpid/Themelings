@@ -405,19 +405,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var16)(var3);
             var3 = var5.useCanForwardMessage;
             var5 = var3.bind(var5)(var15);
-            if(!var5) { _fun0001_ip = 472; continue _fun0001 }
- 440:
+            if(!var5) { _fun0001_ip = 476; continue _fun0001 }
+ 444:
             var15 = var4.attachmentId;
             var3 = null;
             var3 = var3 != var15;
-            if(var3) { _fun0001_ip = 469; continue _fun0001 }
- 455:
+            if(var3) { _fun0001_ip = 473; continue _fun0001 }
+ 459:
             var15 = var4.accessoryType;
             var4 = 'embed';
             var3 = var4 === var15;
- 469:
+ 473:
             var5 = var3;
- 472:
+ 476:
             _closure2_slot13 = var5;
             var4 = _closure1_slot3;
             var3 = var4.useMemo;

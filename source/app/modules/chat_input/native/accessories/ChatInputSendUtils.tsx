@@ -1,12 +1,12 @@
 // app/modules/chat_input/native/accessories/ChatInputSendUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
-    var6 = require;
-    var8 = metroImportDefault;
+    var7 = require;
+    var9 = metroImportDefault;
     var3 = exports;
-    var7 = dependencyMap;
-    var _closure1_slot0 = var6;
-    var _closure1_slot1 = var8;
-    var _closure1_slot2 = var7;
+    var8 = dependencyMap;
+    var _closure1_slot0 = var7;
+    var _closure1_slot1 = var9;
+    var _closure1_slot2 = var8;
     var1 = function _createForOfIteratorHelperLoose(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -450,7 +450,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         }
     };
     var _closure1_slot15 = var1;
-    var4 = function chatInputValidateContentLength(arg1) {
+    var5 = function chatInputValidateContentLength(arg1) {
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var1 = arg1;
@@ -561,19 +561,108 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot16 = var4;
+    var _closure1_slot16 = var5;
+    var4 = function showFileSizeExceededAlert(arg1, arg2) {
+        _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+ 0:
+            var2 = _closure1_slot7;
+            var1 = var2.getCurrentUser;
+            var4 = var1.bind(var2)();
+            var3 = _closure1_slot1;
+            var2 = _closure1_slot2;
+            var1 = 17;
+            var2 = var2[var1];
+            var1 = undefined;
+            var3 = var3.bind(var1)(var2);
+            var2 = var3.canUploadLargeFiles;
+            var2 = var2.bind(var3)(var4);
+            var3 = _closure1_slot1;
+            var11 = _closure1_slot2;
+            if(var2) { _fun0007_ip = 189; continue _fun0007 }
+ 63:
+            var2 = 18;
+            var2 = var11[var2];
+            var6 = var3.bind(var1)(var2);
+            var4 = var6.handleShowUpsellAlert;
+            var2 = {};
+            var7 = _closure1_slot10;
+            var7 = var7.UPLOAD;
+            var2['initialUpsellKey'] = var7;
+            var7 = {};
+            var8 = _closure1_slot9;
+            var8 = var8.FILE_UPLOAD_POPOUT;
+            var7['section'] = var8;
+            var2['analyticsLocation'] = var7;
+            var7 = 28;
+            var7 = var11[var7];
+            var7 = var3.bind(var1)(var7);
+            var8 = var7.FILE_UPLOAD_POPOUT;
+            var7 = new Array(1);
+            var7[0] = var8;
+            var2['analyticsLocations'] = var7;
+            var7 = {};
+            var8 = _closure1_slot12;
+            var8 = var8.UPLOAD_ERROR_UPSELL;
+            var7['type'] = var8;
+            var2['analyticsProperties'] = var7;
+            var7 = arg2;
+            var2['largestFileSize'] = var7;
+            var2 = var4.bind(var6)(var2);
+            _fun0007_ip = 351; continue _fun0007;
+ 189:
+            var2 = 19;
+            var2 = var11[var2];
+            var4 = var3.bind(var1)(var2);
+            var3 = var4.show;
+            var2 = {};
+            var10 = _closure1_slot0;
+            var5 = 20;
+            var6 = var11[var5];
+            var6 = var10.bind(var1)(var6);
+            var8 = var6.intl;
+            var7 = var8.string;
+            var6 = var11[var5];
+            var6 = var10.bind(var1)(var6);
+            var6 = var6.t;
+            var6 = var6./tGlcn;
+            var6 = var7.bind(var8)(var6);
+            var2['title'] = var6;
+            var6 = var11[var5];
+            var6 = var10.bind(var1)(var6);
+            var8 = var6.intl;
+            var7 = var8.formatToPlainString;
+            var5 = var11[var5];
+            var5 = var10.bind(var1)(var5);
+            var5 = var5.t;
+            var6 = var5.fxEKdX;
+            var5 = {};
+            var9 = 27;
+            var9 = var11[var9];
+            var11 = var10.bind(var1)(var9);
+            var10 = var11.sizeString;
+            var9 = arg1;
+            var9 = var10.bind(var11)(var9);
+            var5['maxSize'] = var9;
+            var5 = var7.bind(var8)(var6, var5);
+            var2['body'] = var5;
+            var2 = var3.bind(var4)(var2);
+ 351:
+            return var1;
+        }
+    };
+    var _closure1_slot17 = var4;
     var1 = function _chatInputSendApplicationCommand() {
         var5 = undefined;
         var1 = undefined;
         var4 = _closure1_slot3;
         var3 = function* (arg1) {
             var1 = function* anon_0_(arg1) {
-                _fun0007: for(var _fun0007_ip = 0; ; ) switch(_fun0007_ip) {
+                _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
  0:
                     StartGenerator();
                     var2 = arg1;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(var3) { _fun0007_ip = 395; continue _fun0007 }
+                    if(var3) { _fun0008_ip = 390; continue _fun0008 }
  13:
                     var4 = var2.applicationCommand;
                     var7 = var4.command;
@@ -585,20 +674,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var5;
  43:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(var3) { _fun0007_ip = 392; continue _fun0007 }
+                    if(var3) { _fun0008_ip = 387; continue _fun0008 }
  52:
                     var14 = var8.channel;
                     var3 = var8.chatInputRef;
                     var4 = var3.current;
                     var9 = null;
-                    if(!(var9 != var4)) { _fun0007_ip = 84; continue _fun0007 }
+                    if(!(var9 != var4)) { _fun0008_ip = 84; continue _fun0008 }
  74:
                     var3 = var4.clearText;
                     var3 = var3.bind(var4)();
  84:
                     var4 = _closure1_slot0;
                     var10 = _closure1_slot2;
-                    var3 = 27;
+                    var3 = 29;
                     var3 = var10[var3];
                     var10 = var4.bind(var5)(var3);
                     var4 = var10.installApplicationOnDemandIfNeeded;
@@ -615,21 +704,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var3;
  153:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(var4) { _fun0007_ip = 389; continue _fun0007 }
+                    if(var4) { _fun0008_ip = 384; continue _fun0008 }
  162:
                     var4 = var3.isAuthorized;
-                    if(!var4) { _fun0007_ip = 383; continue _fun0007 }
+                    if(!var4) { _fun0008_ip = 378; continue _fun0008 }
  174:
                     var10 = _closure1_slot1;
                     var13 = _closure1_slot2;
-                    var4 = 28;
+                    var4 = 30;
                     var4 = var13[var4];
                     var10 = var10.bind(var5)(var4);
                     var4 = {};
                     var4['command'] = var7;
                     var4['optionValues'] = var11;
                     var12 = _closure1_slot0;
-                    var11 = 29;
+                    var11 = 31;
                     var11 = var13[var11];
                     var13 = var12.bind(var5)(var11);
                     var12 = var13.getCommandContext;
@@ -639,103 +728,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11['type'] = var14;
                     var11 = var12.bind(var13)(var11);
                     var4['context'] = var11;
-                    var11 = function maxSizeCallback(arg1, arg2) {
-                        _fun0008: for(var _fun0008_ip = 0; ; ) switch(_fun0008_ip) {
- 0:
-                            var2 = _closure1_slot7;
-                            var1 = var2.getCurrentUser;
-                            var4 = var1.bind(var2)();
-                            var3 = _closure1_slot1;
-                            var2 = _closure1_slot2;
-                            var1 = 17;
-                            var2 = var2[var1];
-                            var1 = undefined;
-                            var3 = var3.bind(var1)(var2);
-                            var2 = var3.canUploadLargeFiles;
-                            var2 = var2.bind(var3)(var4);
-                            var3 = _closure1_slot1;
-                            var11 = _closure1_slot2;
-                            if(var2) { _fun0008_ip = 189; continue _fun0008 }
- 63:
-                            var2 = 18;
-                            var2 = var11[var2];
-                            var6 = var3.bind(var1)(var2);
-                            var4 = var6.handleShowUpsellAlert;
-                            var2 = {};
-                            var7 = _closure1_slot10;
-                            var7 = var7.UPLOAD;
-                            var2['initialUpsellKey'] = var7;
-                            var7 = {};
-                            var8 = _closure1_slot9;
-                            var8 = var8.FILE_UPLOAD_POPOUT;
-                            var7['section'] = var8;
-                            var2['analyticsLocation'] = var7;
-                            var7 = 31;
-                            var7 = var11[var7];
-                            var7 = var3.bind(var1)(var7);
-                            var8 = var7.FILE_UPLOAD_POPOUT;
-                            var7 = new Array(1);
-                            var7[0] = var8;
-                            var2['analyticsLocations'] = var7;
-                            var7 = {};
-                            var8 = _closure1_slot12;
-                            var8 = var8.UPLOAD_ERROR_UPSELL;
-                            var7['type'] = var8;
-                            var2['analyticsProperties'] = var7;
-                            var7 = arg2;
-                            var2['largestFileSize'] = var7;
-                            var2 = var4.bind(var6)(var2);
-                            _fun0008_ip = 351; continue _fun0008;
- 189:
-                            var2 = 19;
-                            var2 = var11[var2];
-                            var4 = var3.bind(var1)(var2);
-                            var3 = var4.show;
-                            var2 = {};
-                            var10 = _closure1_slot0;
-                            var5 = 20;
-                            var6 = var11[var5];
-                            var6 = var10.bind(var1)(var6);
-                            var8 = var6.intl;
-                            var7 = var8.string;
-                            var6 = var11[var5];
-                            var6 = var10.bind(var1)(var6);
-                            var6 = var6.t;
-                            var6 = var6./tGlcn;
-                            var6 = var7.bind(var8)(var6);
-                            var2['title'] = var6;
-                            var6 = var11[var5];
-                            var6 = var10.bind(var1)(var6);
-                            var8 = var6.intl;
-                            var7 = var8.formatToPlainString;
-                            var5 = var11[var5];
-                            var5 = var10.bind(var1)(var5);
-                            var5 = var5.t;
-                            var6 = var5.fxEKdX;
-                            var5 = {};
-                            var9 = 30;
-                            var9 = var11[var9];
-                            var11 = var10.bind(var1)(var9);
-                            var10 = var11.sizeString;
-                            var9 = arg1;
-                            var9 = var10.bind(var11)(var9);
-                            var5['maxSize'] = var9;
-                            var5 = var7.bind(var8)(var6, var5);
-                            var2['body'] = var5;
-                            var2 = var3.bind(var4)(var2);
- 351:
-                            return var1;
-                        }
-                    };
+                    var11 = _closure1_slot17;
                     var4['maxSizeCallback'] = var11;
                     var4 = var10.bind(var5)(var4);
-                    SaveGenerator(address=274);
- 272:
+                    SaveGenerator(address=269);
+ 267:
                     return var4;
- 274:
+ 269:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
-                    if(var10) { _fun0007_ip = 386; continue _fun0007 }
- 280:
+                    if(var10) { _fun0008_ip = 381; continue _fun0008 }
+ 275:
                     var10 = var7.inputType;
                     var11 = _closure1_slot0;
                     var12 = _closure1_slot2;
@@ -745,12 +747,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var7.ApplicationCommandInputType;
                     var7 = var7.BUILT_IN_TEXT;
                     var7 = var10 === var7;
-                    if(!var7) { _fun0007_ip = 329; continue _fun0007 }
- 325:
+                    if(!var7) { _fun0008_ip = 324; continue _fun0008 }
+ 320:
                     var7 = var9 != var4;
- 329:
-                    if(!var7) { _fun0007_ip = 383; continue _fun0007 }
- 332:
+ 324:
+                    if(!var7) { _fun0008_ip = 378; continue _fun0008 }
+ 327:
                     var7 = _closure1_slot15;
                     var6 = {};
                     var9 = var4.content;
@@ -762,15 +764,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6['source'] = var9;
                     var6['params'] = var8;
                     var6 = var7.bind(var5)(var6);
- 383:
+ 378:
                     return var5;
- 386:
+ 381:
                     return var4;
- 389:
+ 384:
                     return var3;
- 392:
+ 387:
                     return var2;
- 395:
+ 390:
                     return var1;
                 }
             };
@@ -779,7 +781,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var4 = var4.bind(var5)(var3);
-        _closure1_slot17 = var4;
+        _closure1_slot18 = var4;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;
@@ -787,64 +789,64 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var3.bind(var4)(var1, var2);
         return var1;
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = global;
-    var10 = var1.Object;
-    var9 = var10.defineProperty;
-    var5 = {};
+    var11 = var1.Object;
+    var10 = var11.defineProperty;
+    var6 = {};
     var1 = true;
-    var5['value'] = var1;
+    var6['value'] = var1;
     var1 = '__esModule';
-    var1 = var9.bind(var10)(var3, var1, var5);
+    var1 = var10.bind(var11)(var3, var1, var6);
     var1 = 0;
-    var5 = var7[var1];
+    var6 = var8[var1];
     var1 = undefined;
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot3 = var5;
-    var5 = 1;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.DraftType;
-    var _closure1_slot4 = var5;
-    var5 = 2;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot5 = var5;
-    var5 = 3;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot6 = var5;
-    var5 = 4;
-    var5 = var7[var5];
-    var5 = var8.bind(var1)(var5);
-    var _closure1_slot7 = var5;
-    var5 = 5;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var8 = var5.AnalyticEvents;
-    var _closure1_slot8 = var8;
-    var8 = var5.AnalyticsSections;
-    var _closure1_slot9 = var8;
-    var5 = var5.UpsellTypes;
-    var _closure1_slot10 = var5;
-    var5 = 6;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.MessageSendLocation;
-    var _closure1_slot11 = var5;
-    var5 = 7;
-    var5 = var7[var5];
-    var5 = var6.bind(var1)(var5);
-    var5 = var5.PremiumUpsellTypes;
-    var _closure1_slot12 = var5;
-    var5 = 33;
-    var5 = var7[var5];
-    var7 = var6.bind(var1)(var5);
-    var6 = var7.fileFinishedImporting;
-    var5 = 'modules/chat_input/native/accessories/ChatInputSendUtils.tsx';
-    var5 = var6.bind(var7)(var5);
-    var3['chatInputValidateContentLength'] = var4;
-    var4 = function chatInputHandleSendText(arg1) {
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot3 = var6;
+    var6 = 1;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.DraftType;
+    var _closure1_slot4 = var6;
+    var6 = 2;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot5 = var6;
+    var6 = 3;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot6 = var6;
+    var6 = 4;
+    var6 = var8[var6];
+    var6 = var9.bind(var1)(var6);
+    var _closure1_slot7 = var6;
+    var6 = 5;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var9 = var6.AnalyticEvents;
+    var _closure1_slot8 = var9;
+    var9 = var6.AnalyticsSections;
+    var _closure1_slot9 = var9;
+    var6 = var6.UpsellTypes;
+    var _closure1_slot10 = var6;
+    var6 = 6;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.MessageSendLocation;
+    var _closure1_slot11 = var6;
+    var6 = 7;
+    var6 = var8[var6];
+    var6 = var7.bind(var1)(var6);
+    var6 = var6.PremiumUpsellTypes;
+    var _closure1_slot12 = var6;
+    var6 = 33;
+    var6 = var8[var6];
+    var8 = var7.bind(var1)(var6);
+    var7 = var8.fileFinishedImporting;
+    var6 = 'modules/chat_input/native/accessories/ChatInputSendUtils.tsx';
+    var6 = var7.bind(var8)(var6);
+    var3['chatInputValidateContentLength'] = var5;
+    var5 = function chatInputHandleSendText(arg1) {
         _fun0009: for(var _fun0009_ip = 0; ; ) switch(_fun0009_ip) {
  0:
             var1 = arg1;
@@ -1036,8 +1038,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['chatInputHandleSendText'] = var4;
-    var4 = function chatInputCreateThread(arg1) {
+    var3['chatInputHandleSendText'] = var5;
+    var5 = function chatInputCreateThread(arg1) {
         _fun0010: for(var _fun0010_ip = 0; ; ) switch(_fun0010_ip) {
  0:
             var1 = arg1;
@@ -1089,10 +1091,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['chatInputCreateThread'] = var4;
+    var3['chatInputCreateThread'] = var5;
+    var3['showFileSizeExceededAlert'] = var4;
     var2 = function chatInputSendApplicationCommand() {
         var1 = undefined;
-        var4 = _closure1_slot17;
+        var4 = _closure1_slot18;
         var3 = var4.apply;
         var1 = arguments;
         var2 = var1;

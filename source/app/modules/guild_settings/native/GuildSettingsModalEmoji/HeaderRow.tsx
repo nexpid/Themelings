@@ -643,20 +643,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var16 = var5.bind(var1)(var15);
         var15 = var16.isAndroid;
         var15 = var15.bind(var16)();
-        if(!var15) { _fun0001_ip = 309; continue _fun0001 }
- 306:
+        if(!var15) { _fun0001_ip = 310; continue _fun0001 }
+ 307:
         var14 = 12;
- 309:
+ 310:
         var9['paddingTop'] = var14;
         var14 = var6[var13];
         var15 = var5.bind(var1)(var14);
         var14 = var15.isAndroid;
         var15 = var14.bind(var15)();
         var14 = 0;
-        if(!var15) { _fun0001_ip = 340; continue _fun0001 }
- 337:
+        if(!var15) { _fun0001_ip = 341; continue _fun0001 }
+ 338:
         var14 = 12;
- 340:
+ 341:
         var9['paddingBottom'] = var14;
         var4['uploadInstructionsContainer'] = var9;
         var9 = {'marginTop': 4294967280, 'marginLeft': 4294967280};
@@ -665,10 +665,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var14.isAndroid;
         var13 = var13.bind(var14)();
         var12 = 0;
-        if(!var13) { _fun0001_ip = 393; continue _fun0001 }
- 387:
+        if(!var13) { _fun0001_ip = 394; continue _fun0001 }
+ 388:
         var12 = -8;
- 393:
+ 394:
         var9['marginBottom'] = var12;
         var4['uploadInstructionsHeading'] = var9;
         var9 = {};

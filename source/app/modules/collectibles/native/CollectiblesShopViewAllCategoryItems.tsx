@@ -259,10 +259,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6 = var7.useEffect;
             var3 = var20 == var8;
             var9 = undefined;
-            if(var3) { _fun0001_ip = 505; continue _fun0001 }
- 499:
+            if(var3) { _fun0001_ip = 504; continue _fun0001 }
+ 498:
             var9 = var8.sessionId;
- 505:
+ 504:
             var3 = new Array(3);
             var3[0] = var9;
             var3[1] = var5;
@@ -385,12 +385,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12['logo'] = var24;
             var24 = var20 == var23;
             var20 = undefined;
-            if(var24) { _fun0001_ip = 754; continue _fun0001 }
- 739:
+            if(var24) { _fun0001_ip = 753; continue _fun0001 }
+ 738:
             var24 = var23.label;
             var23 = var24.toHexString;
             var20 = var23.bind(var24)();
- 754:
+ 753:
             var12['buttonColor'] = var20;
             var12 = var3.bind(var4)(var13, var12);
             var10[1] = var12;

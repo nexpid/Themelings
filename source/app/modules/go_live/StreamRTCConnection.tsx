@@ -1613,7 +1613,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var6 = arg1;
                             var2 = _closure3_slot0;
                             var2 = var2._firstFrameDelivered;
-                            if(var2) { _fun0017_ip = 380; continue _fun0017 }
+                            if(var2) { _fun0017_ip = 647; continue _fun0017 }
  22:
                             var9 = _closure3_slot0;
                             var1 = true;
@@ -1657,47 +1657,119 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var5 = var7 - var5;
                             var1['time_total_to_first_frame'] = var5;
                             var7 = var6.remoteVideoStreamCreatedTimestamp;
-                            var9 = -1;
-                            var5 = var9;
-                            if(!(var8 !== var7)) { _fun0017_ip = 269; continue _fun0017 }
- 240:
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 274; continue _fun0017 }
+ 233:
                             var7 = var6.remoteUserCreatedTimestamp;
-                            var5 = var9;
-                            if(!(var8 !== var7)) { _fun0017_ip = 269; continue _fun0017 }
- 253:
-                            var10 = var6.remoteVideoStreamCreatedTimestamp;
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 274; continue _fun0017 }
+ 245:
+                            var7 = global;
+                            var10 = var7.Number;
+                            var11 = var6.remoteVideoStreamCreatedTimestamp;
                             var7 = var6.remoteUserCreatedTimestamp;
-                            var5 = var10 - var7;
- 269:
+                            var7 = var11 - var7;
+                            var5 = var10.bind(var8)(var7);
+ 274:
                             var1['time_remote_user_to_video_stream_created'] = var5;
                             var7 = var6.videoDataReceivedTimestamp;
-                            var5 = var9;
-                            if(!(var8 !== var7)) { _fun0017_ip = 318; continue _fun0017 }
- 289:
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 334; continue _fun0017 }
+ 293:
                             var7 = var6.remoteVideoStreamCreatedTimestamp;
-                            var5 = var9;
-                            if(!(var8 !== var7)) { _fun0017_ip = 318; continue _fun0017 }
- 302:
-                            var10 = var6.videoDataReceivedTimestamp;
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 334; continue _fun0017 }
+ 305:
+                            var7 = global;
+                            var10 = var7.Number;
+                            var11 = var6.videoDataReceivedTimestamp;
                             var7 = var6.remoteVideoStreamCreatedTimestamp;
-                            var5 = var10 - var7;
- 318:
+                            var7 = var11 - var7;
+                            var5 = var10.bind(var8)(var7);
+ 334:
                             var1['time_video_stream_created_to_video_data_received'] = var5;
                             var7 = var6.videoSourceDeliveredFrameTimestamp;
-                            var5 = var9;
-                            if(!(var8 !== var7)) { _fun0017_ip = 367; continue _fun0017 }
- 338:
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 394; continue _fun0017 }
+ 353:
                             var7 = var6.videoDataReceivedTimestamp;
-                            var5 = var9;
-                            if(!(var8 !== var7)) { _fun0017_ip = 367; continue _fun0017 }
- 351:
-                            var7 = var6.videoSourceDeliveredFrameTimestamp;
-                            var6 = var6.videoDataReceivedTimestamp;
-                            var5 = var7 - var6;
- 367:
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 394; continue _fun0017 }
+ 365:
+                            var7 = global;
+                            var10 = var7.Number;
+                            var11 = var6.videoSourceDeliveredFrameTimestamp;
+                            var7 = var6.videoDataReceivedTimestamp;
+                            var7 = var11 - var7;
+                            var5 = var10.bind(var8)(var7);
+ 394:
                             var1['time_video_data_received_to_video_source_delivered_frame'] = var5;
+                            var7 = var6.updateMLSExternalSenderTimestamp;
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 454; continue _fun0017 }
+ 413:
+                            var7 = var6.remoteUserCreatedTimestamp;
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 454; continue _fun0017 }
+ 425:
+                            var7 = global;
+                            var10 = var7.Number;
+                            var11 = var6.updateMLSExternalSenderTimestamp;
+                            var7 = var6.remoteUserCreatedTimestamp;
+                            var7 = var11 - var7;
+                            var5 = var10.bind(var8)(var7);
+ 454:
+                            var1['time_remote_user_to_mls_external_sender_updated'] = var5;
+                            var7 = var6.setRemoteSecureFrameKeyRatchetTimestamp;
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 514; continue _fun0017 }
+ 473:
+                            var7 = var6.remoteUserCreatedTimestamp;
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 514; continue _fun0017 }
+ 485:
+                            var7 = global;
+                            var10 = var7.Number;
+                            var11 = var6.setRemoteSecureFrameKeyRatchetTimestamp;
+                            var7 = var6.remoteUserCreatedTimestamp;
+                            var7 = var11 - var7;
+                            var5 = var10.bind(var8)(var7);
+ 514:
+                            var1['time_remote_user_to_secure_frame_remote_key_ratchet_set'] = var5;
+                            var7 = var6.setLocalSecureFrameKeyRatchetTimestamp;
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 574; continue _fun0017 }
+ 533:
+                            var7 = var6.remoteUserCreatedTimestamp;
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 574; continue _fun0017 }
+ 545:
+                            var7 = global;
+                            var10 = var7.Number;
+                            var11 = var6.setLocalSecureFrameKeyRatchetTimestamp;
+                            var7 = var6.remoteUserCreatedTimestamp;
+                            var7 = var11 - var7;
+                            var5 = var10.bind(var8)(var7);
+ 574:
+                            var1['time_remote_user_to_secure_frame_local_key_ratchet_set'] = var5;
+                            var7 = var6.firstFrameDecryptedTimestamp;
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 634; continue _fun0017 }
+ 593:
+                            var7 = var6.remoteUserCreatedTimestamp;
+                            var5 = null;
+                            if(!(var8 !== var7)) { _fun0017_ip = 634; continue _fun0017 }
+ 605:
+                            var7 = global;
+                            var7 = var7.Number;
+                            var9 = var6.firstFrameDecryptedTimestamp;
+                            var6 = var6.remoteUserCreatedTimestamp;
+                            var6 = var9 - var6;
+                            var5 = var7.bind(var8)(var6);
+ 634:
+                            var1['time_remote_user_to_first_frame_decrypted'] = var5;
                             var1 = var3.bind(var4)(var2, var1);
- 380:
+ 647:
                             var1 = undefined;
                             return var1;
                         }

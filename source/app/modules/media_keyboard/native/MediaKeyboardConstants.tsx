@@ -22,6 +22,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6['APP_LAUNCHER'] = var2;
     var1 = 'APP_LAUNCHER';
     var6[var2] = var1;
+    var2 = 3;
+    var6['INTERACTION_MODAL'] = var2;
+    var1 = 'INTERACTION_MODAL';
+    var6[var2] = var1;
     var5 = {};
     var1 = 'fully expanded';
     var5['FULLY_EXPANDED'] = var1;

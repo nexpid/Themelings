@@ -1,4 +1,4 @@
-// app/modules/modals/native/SimpleLoadingModal.tsx
+// app/modules/mobile_web_handoff/native/SimpleLoadingModal.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var5 = require;
     var3 = exports;
@@ -20,7 +20,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
-    var4 = 'modules/modals/native/SimpleLoadingModal.tsx';
+    var4 = 'modules/mobile_web_handoff/native/SimpleLoadingModal.tsx';
     var4 = var5.bind(var6)(var4);
     var2 = function showSimpleLoadingModal(arg1, arg2) {
         var7 = arg1;

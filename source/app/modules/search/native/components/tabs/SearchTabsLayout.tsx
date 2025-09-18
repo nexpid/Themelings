@@ -895,8 +895,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var23.items;
             var3 = var1.length;
             var1 = 0;
-            if(!(var1 !== var3)) { _fun0001_ip = 1222; continue _fun0001 }
- 913:
+            if(!(var1 !== var3)) { _fun0001_ip = 1221; continue _fun0001 }
+ 912:
             var4 = _closure1_slot13;
             var3 = _closure1_slot14;
             var1 = {};
@@ -952,24 +952,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14['nativeGesture'] = var20;
             var23 = var17 != var19;
             var20 = undefined;
-            if(!var23) { _fun0001_ip = 1141; continue _fun0001 }
- 1138:
+            if(!var23) { _fun0001_ip = 1140; continue _fun0001 }
+ 1137:
             var20 = var22;
- 1141:
+ 1140:
             var14['onBeginDragWorklet'] = var20;
             var22 = var17 != var19;
             var20 = undefined;
-            if(!var22) { _fun0001_ip = 1158; continue _fun0001 }
- 1155:
+            if(!var22) { _fun0001_ip = 1157; continue _fun0001 }
+ 1154:
             var20 = var21;
- 1158:
+ 1157:
             var14['onEndDragWorklet'] = var20;
             var19 = var17 != var19;
             var17 = undefined;
-            if(!var19) { _fun0001_ip = 1175; continue _fun0001 }
- 1172:
+            if(!var19) { _fun0001_ip = 1174; continue _fun0001 }
+ 1171:
             var17 = var18;
- 1175:
+ 1174:
             var14['onScrollWorklet'] = var17;
             var14 = var16.bind(var5)(var15, var14);
             var11['children'] = var14;
@@ -979,14 +979,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7[1] = var8;
             var1['children'] = var7;
             var1 = var4.bind(var5)(var3, var1);
-            _fun0001_ip = 1243; continue _fun0001;
- 1222:
+            _fun0001_ip = 1242; continue _fun0001;
+ 1221:
             var4 = _closure1_slot12;
             var3 = _closure1_slot21;
             var2 = {};
             var2['searchContext'] = var6;
             var1 = var4.bind(var5)(var3, var2);
- 1243:
+ 1242:
             return var1;
         }
     };

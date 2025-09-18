@@ -383,12 +383,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot5;
                     var4 = var2.current;
                     var2 = null;
-                    if(!(var2 != var4)) { _fun0007_ip = 63; continue _fun0007 }
+                    if(!(var2 != var4)) { _fun0007_ip = 67; continue _fun0007 }
  42:
                     var3 = var4.scrollToOffset;
                     var2 = {'offset': 0, 'animated': false};
                     var2 = var3.bind(var4)(var2);
- 63:
+ 67:
                     return var1;
                 }
             };

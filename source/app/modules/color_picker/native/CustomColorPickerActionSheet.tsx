@@ -262,8 +262,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = null;
             var2 = var18 == var6;
             var23 = undefined;
-            if(var2) { _fun0003_ip = 304; continue _fun0003 }
- 277:
+            if(var2) { _fun0003_ip = 301; continue _fun0003 }
+ 274:
             var3 = var6.map;
             var2 = function(arg1) {
                 var3 = _closure1_slot0;
@@ -280,7 +280,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var6)(var2);
             var2 = var3.concat;
             var23 = var2.bind(var3)(var5);
- 304:
+ 301:
             var2 = function updateInputHexValueFromHsv(arg1) {
                 var3 = _closure1_slot0;
                 var4 = _closure1_slot2;
@@ -553,8 +553,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 return var1;
             };
             var10['onSelect'] = var21;
-            if(!(var18 == var19)) { _fun0003_ip = 866; continue _fun0003 }
- 809:
+            if(!(var18 == var19)) { _fun0003_ip = 863; continue _fun0003 }
+ 806:
             var19 = _closure1_slot0;
             var18 = _closure1_slot2;
             var18 = var18[var20];
@@ -567,7 +567,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var13.get;
             var18 = var18.bind(var13)();
             var17 = var21.bind(var22)(var20, var19, var18);
- 866:
+ 863:
             var10['color'] = var17;
             var10 = var16.bind(var4)(var11, var10);
             var8[1] = var10;

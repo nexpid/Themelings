@@ -25,7 +25,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot4 = var7;
     var4 = var4.jsxs;
     var _closure1_slot5 = var4;
-    var4 = 3;
+    var4 = 4;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -43,18 +43,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = 0;
             var1 = var5 > var1;
             var5 = null;
-            if(!var1) { _fun0001_ip = 99; continue _fun0001 }
+            if(!var1) { _fun0001_ip = 157; continue _fun0001 }
  40:
-            var13 = _closure1_slot3;
-            var10 = _closure1_slot0;
-            var11 = _closure1_slot2;
-            var1 = 1;
-            var1 = var11[var1];
-            var12 = undefined;
-            var1 = var10.bind(var12)(var1);
-            var11 = var1.TTIMeasurementView;
+            var12 = _closure1_slot5;
+            var11 = _closure1_slot4;
             var10 = {};
-            var1 = function onMeasurement(arg1) {
+            var16 = _closure1_slot3;
+            var15 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var1 = 1;
+            var13 = var17[var1];
+            var1 = undefined;
+            var13 = var15.bind(var1)(var13);
+            var18 = var13.TTIMeasurementView;
+            var14 = {};
+            var13 = function onMeasurement(arg1) {
                 var3 = _closure1_slot1;
                 var2 = _closure1_slot2;
                 var1 = 2;
@@ -69,23 +72,34 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var3.bind(var4)(var2);
                 return var1;
             };
-            var10['onMeasurement'] = var1;
-            var1 = 'cached_messages_tti';
-            var5 = var13.bind(var12)(var11, var10, var1);
- 99:
+            var14['onMeasurement'] = var13;
+            var13 = 'cached_messages_tti';
+            var14 = var16.bind(var1)(var18, var14, var13);
+            var13 = new Array(2);
+            var13[0] = var14;
+            var14 = 3;
+            var14 = var17[var14];
+            var14 = var15.bind(var1)(var14);
+            var15 = var14.TTIFirstContentfulPaint;
+            var14 = {};
+            var14 = var16.bind(var1)(var15, var14);
+            var13[1] = var14;
+            var10['children'] = var13;
+            var5 = var12.bind(var1)(var11, var10);
+ 157:
             var1 = new Array(2);
             var1[0] = var5;
             var5 = var8.hasFetched;
-            if(var5) { _fun0001_ip = 138; continue _fun0001 }
- 116:
+            if(var5) { _fun0001_ip = 196; continue _fun0001 }
+ 174:
             var10 = var8.ready;
             var5 = null;
-            if(!var10) { _fun0001_ip = 197; continue _fun0001 }
- 127:
+            if(!var10) { _fun0001_ip = 255; continue _fun0001 }
+ 185:
             var8 = var8.cached;
             var5 = null;
-            if(var8) { _fun0001_ip = 197; continue _fun0001 }
- 138:
+            if(var8) { _fun0001_ip = 255; continue _fun0001 }
+ 196:
             var10 = _closure1_slot3;
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
@@ -113,7 +127,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var7['onMeasurement'] = var6;
             var6 = 'latest_messages_tti';
             var5 = var10.bind(var9)(var8, var7, var6);
- 197:
+ 255:
             var1[1] = var5;
             var2['children'] = var1;
             var1 = undefined;

@@ -221,10 +221,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var12 = var15.useSharedValue;
             var16 = var5;
             var5 = 0;
-            if(!var14) { _fun0001_ip = 286; continue _fun0001 }
- 283:
+            if(!var14) { _fun0001_ip = 285; continue _fun0001 }
+ 282:
             var5 = var17;
- 286:
+ 285:
             var5 = var12.bind(var15)(var5);
             _closure2_slot8 = var5;
             var23 = _closure1_slot0;
@@ -364,10 +364,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var10 = var5.bind(var3)(var21, var10);
             _closure2_slot9 = var10;
             var20 = null;
-            if(!(var20 == var13)) { _fun0001_ip = 503; continue _fun0001 }
- 498:
+            if(!(var20 == var13)) { _fun0001_ip = 502; continue _fun0001 }
+ 497:
             var13 = var3.length;
- 503:
+ 502:
             var3 = var10.length;
             var29 = var13 - var3;
             _closure2_slot10 = var29;
@@ -553,8 +553,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = _closure1_slot9;
             var2 = _closure1_slot5;
             var5 = {};
-            if(var1) { _fun0001_ip = 1087; continue _fun0001 }
- 700:
+            if(var1) { _fun0001_ip = 1086; continue _fun0001 }
+ 699:
             var16 = var11.avatarStack;
             var1 = new Array(2);
             var1[0] = var16;
@@ -582,8 +582,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = new Array(2);
             var18[0] = var22;
             var20 = null;
-            if(!(var29 > var21)) { _fun0001_ip = 940; continue _fun0001 }
- 819:
+            if(!(var29 > var21)) { _fun0001_ip = 939; continue _fun0001 }
+ 818:
             var23 = _closure1_slot8;
             var22 = _closure1_slot5;
             var21 = {};
@@ -608,18 +608,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var24 = var26.bind(var4)(var25, var24);
             var21['children'] = var24;
             var20 = var23.bind(var4)(var22, var21);
- 940:
+ 939:
             var18[1] = var20;
             var1['children'] = var18;
             var16 = var17.bind(var4)(var16, var1);
             var1 = new Array(2);
             var1[0] = var16;
-            if(var8) { _fun0001_ip = 968; continue _fun0001 }
- 965:
+            if(var8) { _fun0001_ip = 967; continue _fun0001 }
+ 964:
             var8 = var14;
- 968:
-            if(!var8) { _fun0001_ip = 1071; continue _fun0001 }
- 971:
+ 967:
+            if(!var8) { _fun0001_ip = 1070; continue _fun0001 }
+ 970:
             var17 = _closure1_slot8;
             var16 = _closure1_slot1;
             var20 = _closure1_slot2;
@@ -643,12 +643,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var17.bind(var4)(var19, var18);
             var14['children'] = var18;
             var8 = var17.bind(var4)(var16, var14);
- 1071:
+ 1070:
             var1[1] = var8;
             var5['children'] = var1;
             var1 = var5;
-            _fun0001_ip = 1257; continue _fun0001;
- 1087:
+            _fun0001_ip = 1256; continue _fun0001;
+ 1086:
             var14 = var11.stageAvatarStack;
             var8 = new Array(2);
             var8[0] = var14;
@@ -686,7 +686,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var6[1] = var7;
             var5['children'] = var6;
             var1 = var5;
- 1257:
+ 1256:
             var1 = var3.bind(var4)(var2, var1);
             return var1;
         }

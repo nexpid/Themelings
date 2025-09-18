@@ -2615,10 +2615,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var10.RELEASE_CHANNEL;
         var10 = 'staging';
         var10 = var10 === var13;
-        if(var10) { _fun0001_ip = 731; continue _fun0001 }
- 729:
+        if(var10) { _fun0001_ip = 732; continue _fun0001 }
+ 730:
         var10 = true;
- 731:
+ 732:
         var _closure1_slot31 = var10;
         var10 = {};
         var _closure1_slot32 = var10;

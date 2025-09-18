@@ -1,4 +1,4 @@
-// app/modules/virtual_currency/shared/animationUtils.tsx
+// app/modules/virtual_currency/shared/AnimationUtils.tsx
 export default (function(global, require, metroImportDefault, metroImportAll, moduleObject, exports, dependencyMap) {
     var3 = exports;
     var1 = global;
@@ -18,7 +18,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var7 = var5.bind(var1)(var6);
     var6 = var7.fileFinishedImporting;
-    var5 = 'modules/virtual_currency/shared/animationUtils.tsx';
+    var5 = 'modules/virtual_currency/shared/AnimationUtils.tsx';
     var5 = var6.bind(var7)(var5);
     var5 = 3000;
     var3['EXPECTED_ORB_LOTTIE_ANIMATION_DURATION_MS'] = var5;

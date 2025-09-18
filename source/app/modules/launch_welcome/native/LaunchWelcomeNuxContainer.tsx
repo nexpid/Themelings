@@ -348,8 +348,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.bind(var3)(var5);
             var20 = var2.length;
             var19 = 3;
-            if(!(!(var20 <= var19))) { _fun0001_ip = 988; continue _fun0001 }
- 519:
+            if(!(!(var20 <= var19))) { _fun0001_ip = 987; continue _fun0001 }
+ 518:
             var5 = function handleDismiss() {
                 var3 = _closure2_slot3;
                 var1 = undefined;
@@ -368,13 +368,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['style'] = var6;
             var10 = 'none';
             var6 = var10;
-            if(!var12) { _fun0001_ip = 582; continue _fun0001 }
- 572:
+            if(!var12) { _fun0001_ip = 581; continue _fun0001 }
+ 571:
             var6 = var10;
-            if(!var7) { _fun0001_ip = 582; continue _fun0001 }
- 578:
+            if(!var7) { _fun0001_ip = 581; continue _fun0001 }
+ 577:
             var6 = 'auto';
- 582:
+ 581:
             var1['pointerEvents'] = var6;
             var1['onPressIn'] = var5;
             var1['onPress'] = var5;
@@ -466,7 +466,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['children'] = var5;
             var1 = var3.bind(var4)(var2, var1);
             return var1;
- 988:
+ 987:
             var1 = null;
             return var1;
         }

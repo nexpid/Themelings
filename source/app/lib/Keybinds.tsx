@@ -508,48 +508,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var8 = var5.bind(var1)(var7);
         var7 = var8.isMac;
         var7 = var7.bind(var8)();
-        if(var7) { _fun0001_ip = 255; continue _fun0001 }
- 229:
+        if(var7) { _fun0001_ip = 256; continue _fun0001 }
+ 230:
         var7 = var6[var11];
         var8 = var5.bind(var1)(var7);
         var7 = var8.isMacWeb;
         var7 = var7.bind(var8)();
         var9 = 'ctrl';
-        if(!var7) { _fun0001_ip = 259; continue _fun0001 }
- 255:
+        if(!var7) { _fun0001_ip = 260; continue _fun0001 }
+ 256:
         var9 = 'cmd';
- 259:
+ 260:
         var _closure1_slot9 = var9;
         var7 = var6[var11];
         var8 = var5.bind(var1)(var7);
         var7 = var8.isMac;
         var7 = var7.bind(var8)();
-        if(var7) { _fun0001_ip = 311; continue _fun0001 }
- 285:
+        if(var7) { _fun0001_ip = 312; continue _fun0001 }
+ 286:
         var7 = var6[var11];
         var8 = var5.bind(var1)(var7);
         var7 = var8.isMacWeb;
         var7 = var7.bind(var8)();
         var8 = 'alt';
-        if(!var7) { _fun0001_ip = 315; continue _fun0001 }
- 311:
+        if(!var7) { _fun0001_ip = 316; continue _fun0001 }
+ 312:
         var8 = 'opt';
- 315:
+ 316:
         var7 = var6[var11];
         var13 = var5.bind(var1)(var7);
         var7 = var13.isMac;
         var7 = var7.bind(var13)();
-        if(var7) { _fun0001_ip = 363; continue _fun0001 }
- 337:
+        if(var7) { _fun0001_ip = 364; continue _fun0001 }
+ 338:
         var7 = var6[var11];
         var13 = var5.bind(var1)(var7);
         var7 = var13.isMacWeb;
         var13 = var7.bind(var13)();
         var7 = 'enter';
-        if(!var13) { _fun0001_ip = 367; continue _fun0001 }
- 363:
+        if(!var13) { _fun0001_ip = 368; continue _fun0001 }
+ 364:
         var7 = 'return';
- 367:
+ 368:
         var13 = 4;
         var13 = var6[var13];
         var13 = var5.bind(var1)(var13);
@@ -622,8 +622,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var5.bind(var1)(var11);
         var11 = var13.isDesktop;
         var11 = var11.bind(var13)();
-        if(!var11) { _fun0001_ip = 738; continue _fun0001 }
- 672:
+        if(!var11) { _fun0001_ip = 739; continue _fun0001 }
+ 673:
         var11 = 5;
         var11 = var6[var11];
         var12 = var12.bind(var1)(var11);
@@ -643,7 +643,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var2 = var12.bind(var13)(var11, var2);
- 738:
+ 739:
         var2 = {};
         var2['combokeys'] = var10;
         var2['modKey'] = var9;

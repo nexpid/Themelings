@@ -1846,15 +1846,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2['mode'] = var5;
                     var5 = false;
                     var2['locked'] = var5;
-                    if(!var15) { _fun0024_ip = 90; continue _fun0024 }
- 87:
-                    if(var11) { _fun0024_ip = 96; continue _fun0024 }
- 90:
+                    if(!var15) { _fun0024_ip = 89; continue _fun0024 }
+ 86:
+                    if(var11) { _fun0024_ip = 95; continue _fun0024 }
+ 89:
                     var5 = _closure1_slot17;
-                    _fun0024_ip = 100; continue _fun0024;
- 96:
+                    _fun0024_ip = 99; continue _fun0024;
+ 95:
                     var5 = _closure1_slot18;
- 100:
+ 99:
                     var2['height'] = var5;
                     var2['pushToTalk'] = var15;
                     var2 = var3.bind(var4)(var2);

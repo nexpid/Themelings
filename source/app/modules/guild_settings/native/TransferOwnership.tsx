@@ -433,10 +433,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var11 = var10.Text;
             var10 = {'variant': 'text-md/medium', 'color': 'header-secondary'};
             var14 = null;
-            if(!(var14 == var17)) { _fun0001_ip = 705; continue _fun0001 }
- 604:
-            if(var8) { _fun0001_ip = 705; continue _fun0001 }
- 607:
+            if(!(var14 == var17)) { _fun0001_ip = 709; continue _fun0001 }
+ 608:
+            if(var8) { _fun0001_ip = 709; continue _fun0001 }
+ 611:
             var14 = _closure1_slot0;
             var22 = _closure1_slot2;
             var8 = 21;
@@ -458,8 +458,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var19 = var19.bind(var21)(var25);
             var8['user'] = var19;
             var8 = var17.bind(var18)(var14, var8);
-            _fun0001_ip = 815; continue _fun0001;
- 705:
+            _fun0001_ip = 819; continue _fun0001;
+ 709:
             var17 = _closure1_slot0;
             var22 = _closure1_slot2;
             var14 = 21;
@@ -560,7 +560,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var14['AKAHook'] = var20;
             var8 = var18.bind(var19)(var17, var14);
- 815:
+ 819:
             var10['children'] = var8;
             var8 = 'transfer-ownership-details';
             var8 = var13.bind(var4)(var11, var10, var8);

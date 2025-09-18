@@ -1197,10 +1197,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var13 = var14.isAndroid;
         var14 = var13.bind(var14)();
         var13 = 'center';
-        if(!var14) { _fun0001_ip = 557; continue _fun0001 }
- 551:
+        if(!var14) { _fun0001_ip = 558; continue _fun0001 }
+ 552:
         var13 = 'flex-start';
- 557:
+ 558:
         var9['alignItems'] = var13;
         var4['header'] = var9;
         var9 = {};
