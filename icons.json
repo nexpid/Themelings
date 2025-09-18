@@ -4738,126 +4738,154 @@
     },
     "ic_file_small_acrobat": {
         "file": "images/native/icons/ic_file_small_acrobat.png",
-        "hash": "8b6a262226cbbcc59f72dbfb47e9c38c",
+        "hash": "127a752466784cf57691500bcfc955ae",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_ae": {
         "file": "images/native/icons/ic_file_small_ae.png",
-        "hash": "3b34c5536efcff1ba2fc85622a5f2e85",
+        "hash": "0635cb06abe6ac2f6d4e5817a0dfb236",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_ai": {
         "file": "images/native/icons/ic_file_small_ai.png",
-        "hash": "b966998275b870d9e752a10045be08b4",
+        "hash": "40c0d9a37382b6f4efeb6b9b20cf23ba",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_archive": {
         "file": "images/native/icons/ic_file_small_archive.png",
-        "hash": "db8d6bf5b28ff4411fdc76cab67a64fa",
+        "hash": "7e58d4dc1cf5cf663768e2048a34f162",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_audio": {
         "file": "images/native/icons/ic_file_small_audio.png",
-        "hash": "2f169a5eb4d450c30d056b925be84499",
+        "hash": "56256b2d0c1f686d3df4fce9de28505a",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_code": {
         "file": "images/native/icons/ic_file_small_code.png",
-        "hash": "4c62241f2214a24f323f482bd6570a23",
+        "hash": "135884ac95baa487151d1a8517964199",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_document": {
         "file": "images/native/icons/ic_file_small_document.png",
-        "hash": "1b280958508bc5f1d3f508a336bacc17",
+        "hash": "317510f9e9255b233aed4b094f163966",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_image": {
         "file": "images/native/icons/ic_file_small_image.png",
-        "hash": "d95774427d8ff7b8ffdf9809181834fb",
+        "hash": "a706a0d368e318c310cbc99fe4471213",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_ps": {
         "file": "images/native/icons/ic_file_small_ps.png",
-        "hash": "2a6daf6f1ff6ac652bf6912d398b5451",
+        "hash": "4f3507228f76eea58da6db7d8807bb01",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_sketch": {
         "file": "images/native/icons/ic_file_small_sketch.png",
-        "hash": "3b7e093553790e2856cd4dd8319ea74b",
+        "hash": "5740634dc33de72534d208b361b37df5",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_spreadsheet": {
         "file": "images/native/icons/ic_file_small_spreadsheet.png",
-        "hash": "1ca1eef53170b326d5722fc83dfcacda",
+        "hash": "d51dcd36c49102cc28f65e2bcdf9f203",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_unknown": {
         "file": "images/native/icons/ic_file_small_unknown.png",
-        "hash": "25cdfd0a3470b41c527fa3921d8c377b",
+        "hash": "d8d26041b143c28256c8d12c6e5e1dc9",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_video": {
         "file": "images/native/icons/ic_file_small_video.png",
-        "hash": "2bddd4cc85a4dc3c447b23bca68d16f4",
+        "hash": "2650502107a79cae01df0fa151a7570a",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
     },
     "ic_file_small_webcode": {
         "file": "images/native/icons/ic_file_small_webcode.png",
-        "hash": "03ead9139cb4ee387bb9dcd5fa2f355a",
+        "hash": "b193e2a038165601eb12e283d0af80aa",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
         "width": 24,
         "height": 32
