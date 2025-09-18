@@ -231,12 +231,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var1.height;
                     var1 = _closure1_slot7;
                     var1 = var3 - var1;
-                    if(!(var2 >= var1)) { _fun0004_ip = 73; continue _fun0004 }
- 60:
+                    if(!(var2 >= var1)) { _fun0004_ip = 74; continue _fun0004 }
+ 61:
                     var2 = _closure2_slot4;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 73:
+ 74:
                     var1 = undefined;
                     return var1;
                 }

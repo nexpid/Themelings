@@ -955,15 +955,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var3 = var6 == var1;
                     var1 = undefined;
                     var4 = undefined;
-                    if(var3) { _fun0009_ip = 61; continue _fun0009 }
- 45:
+                    if(var3) { _fun0009_ip = 62; continue _fun0009 }
+ 46:
                     var5 = _closure2_slot3;
                     var5 = var5.current;
                     var3 = var6 == var5;
                     var4 = var5;
- 61:
-                    if(var3) { _fun0009_ip = 82; continue _fun0009 }
- 64:
+ 62:
+                    if(var3) { _fun0009_ip = 83; continue _fun0009 }
+ 65:
                     var3 = var4.measure;
                     var2 = function(arg1, arg2, arg3, arg4, arg5, arg6) {
                         var3 = _closure2_slot5;
@@ -986,7 +986,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var2 = var3.bind(var4)(var2);
- 82:
+ 83:
                     return var1;
                 }
             };
@@ -1004,15 +1004,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var1.contentOffset;
                     var4 = _closure2_slot4;
                     var3 = null;
-                    if(!(var3 != var4)) { _fun0010_ip = 51; continue _fun0010 }
- 27:
+                    if(!(var3 != var4)) { _fun0010_ip = 52; continue _fun0010 }
+ 28:
                     var3 = _closure2_slot2;
                     var2 = var2.y;
                     var1 = _closure2_slot4;
                     var2 = var2 > var1;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 51:
+ 52:
                     var1 = undefined;
                     return var1;
                 }

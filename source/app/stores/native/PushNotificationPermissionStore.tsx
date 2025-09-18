@@ -187,18 +187,73 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = function value(arg1) {
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
-                var2 = arg1;
+                var9 = arg1;
+                var3 = {};
+                var12 = _closure1_slot8;
+                var13 = var3;
+                var1 = copyDataProperties(var13, var12);
+                var8 = null;
+                var4 = var8 != var9;
                 var1 = null;
-                if(!(var1 == var2)) { _fun0003_ip = 16; continue _fun0003 }
- 9:
-                var2 = _closure1_slot8;
- 16:
-                _closure1_slot9 = var2;
-                var3 = _closure1_slot0;
-                var2 = _closure1_slot1;
-                var1 = 5;
-                var2 = var2[var1];
+                if(!var4) { _fun0003_ip = 33; continue _fun0003 }
+ 30:
+                var1 = var9;
+ 33:
+                var13 = var3;
+                var12 = var1;
+                var1 = copyDataProperties(var13, var12);
+                var5 = {};
+                var1 = _closure1_slot8;
+                var12 = var1.promptLastSeen;
+                var13 = var5;
+                var1 = copyDataProperties(var13, var12);
+                var6 = var8 == var9;
                 var1 = undefined;
+                var4 = undefined;
+                if(var6) { _fun0003_ip = 79; continue _fun0003 }
+ 73:
+                var4 = var9.promptLastSeen;
+ 79:
+                var13 = var5;
+                var12 = var4;
+                var4 = copyDataProperties(var13, var12);
+                var4 = 'promptLastSeen';
+                var3[var4] = var5;
+                var4 = global;
+                var6 = var4.Set;
+                var4 = _closure1_slot8;
+                var12 = var4.eligiblePromptTypes;
+                var4 = new Array(0);
+                var11 = 0;
+                var13 = var4;
+                var7 = arraySpread(var13, var12, var11);
+                var10 = var8 == var9;
+                var5 = undefined;
+                if(var10) { _fun0003_ip = 144; continue _fun0003 }
+ 138:
+                var5 = var9.eligiblePromptTypes;
+ 144:
+                if(!(var8 == var5)) { _fun0003_ip = 152; continue _fun0003 }
+ 148:
+                var5 = new Array(0);
+ 152:
+                var13 = var4;
+                var12 = var5;
+                var11 = var7;
+                var5 = arraySpread(var13, var12, var11);
+                var5 = var6.prototype;
+                var5 = Object.create(var5, {constructor: {value: var6}});
+                var14 = var5;
+                var13 = var4;
+                var4 = new var14[var6](var13, var12);
+                var5 = var4 instanceof Object ? var4 : var5;
+                var4 = 'eligiblePromptTypes';
+                var3[var4] = var5;
+                _closure1_slot9 = var3;
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot1;
+                var2 = 5;
+                var2 = var4[var2];
                 var4 = var3.bind(var1)(var2);
                 var3 = var4.checkPermissions;
                 var2 = function(arg1) {
@@ -283,43 +338,72 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var10 = function(arg1) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
-            var3 = arg1;
+            var2 = arg1;
             var1 = {};
-            var2 = _closure1_slot8;
-            var8 = var1;
-            var7 = var2;
-            var4 = copyDataProperties(var8, var7);
+            var3 = _closure1_slot8;
             var8 = var1;
             var7 = var3;
             var4 = copyDataProperties(var8, var7);
+            var8 = var1;
+            var7 = var2;
+            var4 = copyDataProperties(var8, var7);
             var4 = {};
-            var7 = var2.promptLastSeen;
-            var8 = var4;
-            var2 = copyDataProperties(var8, var7);
             var7 = var3.promptLastSeen;
             var8 = var4;
-            var2 = copyDataProperties(var8, var7);
-            var2 = 'promptLastSeen';
-            var1[var2] = var4;
-            var2 = global;
-            var4 = var2.Set;
-            var6 = var2.Array;
+            var3 = copyDataProperties(var8, var7);
+            var7 = var2.promptLastSeen;
+            var8 = var4;
+            var3 = copyDataProperties(var8, var7);
+            var3 = 'promptLastSeen';
+            var1[var3] = var4;
+            var4 = var2.eligiblePromptTypes;
+            var3 = null;
+            if(!(var3 != var4)) { _fun0005_ip = 201; continue _fun0005 }
+ 81:
+            var4 = global;
+            var6 = var4.Array;
             var5 = var6.isArray;
-            var2 = var3.eligiblePromptTypes;
-            var2 = var5.bind(var6)(var2);
-            if(var2) { _fun0005_ip = 108; continue _fun0005 }
- 102:
-            var2 = new Array(0);
-            _fun0005_ip = 114; continue _fun0005;
+            var3 = var2.eligiblePromptTypes;
+            var3 = var5.bind(var6)(var3);
+            if(var3) { _fun0005_ip = 167; continue _fun0005 }
  108:
-            var2 = var3.eligiblePromptTypes;
- 114:
-            var3 = var4.prototype;
-            var3 = Object.create(var3, {constructor: {value: var4}});
-            var9 = var3;
-            var8 = var2;
-            var2 = new var9[var4](var8, var7);
-            var3 = var2 instanceof Object ? var2 : var3;
+            var5 = var2.eligiblePromptTypes;
+            var3 = var4.Set;
+            var3 = var5 instanceof var3;
+            if(var3) { _fun0005_ip = 159; continue _fun0005 }
+ 127:
+            var6 = var4.Set;
+            var3 = var6.prototype;
+            var5 = Object.create(var3, {constructor: {value: var6}});
+            var8 = new Array(0);
+            var9 = var5;
+            var3 = new var9[var6](var8, var7);
+            var3 = var3 instanceof Object ? var3 : var5;
+            _fun0005_ip = 165; continue _fun0005;
+ 159:
+            var3 = var2.eligiblePromptTypes;
+ 165:
+            _fun0005_ip = 199; continue _fun0005;
+ 167:
+            var5 = var4.Set;
+            var8 = var2.eligiblePromptTypes;
+            var4 = var5.prototype;
+            var4 = Object.create(var4, {constructor: {value: var5}});
+            var9 = var4;
+            var2 = new var9[var5](var8, var7);
+            var3 = var2 instanceof Object ? var2 : var4;
+ 199:
+            _fun0005_ip = 233; continue _fun0005;
+ 201:
+            var2 = global;
+            var5 = var2.Set;
+            var2 = var5.prototype;
+            var4 = Object.create(var2, {constructor: {value: var5}});
+            var8 = new Array(0);
+            var9 = var4;
+            var2 = new var9[var5](var8, var7);
+            var3 = var2 instanceof Object ? var2 : var4;
+ 233:
             var2 = 'eligiblePromptTypes';
             var1[var2] = var3;
             return var1;
@@ -359,11 +443,20 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['PUSH_NOTIFICATION_PERMISSION_REACTIVATION_SEEN'] = var10;
     var6 = function setPromptTypeAsEligible(arg1) {
         var1 = arg1;
-        var3 = var1.promptType;
+        var4 = var1.promptType;
+        var2 = _closure1_slot9;
+        var3 = global;
+        var5 = var3.Set;
         var1 = _closure1_slot9;
-        var2 = var1.eligiblePromptTypes;
-        var1 = var2.add;
-        var1 = var1.bind(var2)(var3);
+        var6 = var1.eligiblePromptTypes;
+        var3 = var5.prototype;
+        var3 = Object.create(var3, {constructor: {value: var5}});
+        var7 = var3;
+        var1 = new var7[var5](var6, var5);
+        var3 = var1 instanceof Object ? var1 : var3;
+        var1 = var3.add;
+        var1 = var1.bind(var3)(var4);
+        var2['eligiblePromptTypes'] = var1;
         var1 = true;
         return var1;
     };

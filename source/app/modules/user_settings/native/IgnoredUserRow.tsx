@@ -136,11 +136,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.nativeEvent;
                     var2 = var1.actionName;
                     var1 = 'unignore';
-                    if(!(var1 !== var2)) { _fun0002_ip = 28; continue _fun0002 }
- 24:
+                    if(!(var1 !== var2)) { _fun0002_ip = 29; continue _fun0002 }
+ 25:
                     var1 = undefined;
                     return var1;
- 28:
+ 29:
                     var3 = _closure1_slot5;
                     var1 = _closure2_slot0;
                     var2 = var1.id;

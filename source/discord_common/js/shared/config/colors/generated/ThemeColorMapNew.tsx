@@ -11782,7 +11782,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var11 = var7[var10];
     var11 = var6.bind(var1)(var11);
     var11 = var11.Color;
-    var11 = var11.OPACITY_4;
+    var11 = var11.OPACITY_WHITE_4;
     var5[1] = var11;
     var11 = var7[var10];
     var11 = var6.bind(var1)(var11);

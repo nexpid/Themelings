@@ -139,10 +139,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['mobileBg'] = var3;
                 var3 = var2.mobileBanner;
                 var1['mobileBanner'] = var3;
-                var3 = var2.banner;
-                var1['banner'] = var3;
-                var3 = var2.bannerAsset;
-                var1['bannerAsset'] = var3;
                 var3 = var2.catalogBannerAsset;
                 var1['catalogBannerAsset'] = var3;
                 var3 = var2.heroBanner;
@@ -153,8 +149,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1['heroLogo'] = var3;
                 var3 = var2.heroBannerAsset;
                 var1['heroBannerAsset'] = var3;
-                var3 = var2.bannerTextColor;
-                var1['bannerTextColor'] = var3;
                 var3 = var2.heroBannerConfig;
                 var1['heroBannerConfig'] = var3;
                 var2 = var2.heroLogoDisplayConfig;
@@ -175,47 +169,44 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
                 var3 = arg1;
-                var27 = this;
-                var24 = var3.products;
-                var21 = var3.logo;
-                var20 = var3.hero_ranking;
-                var19 = var3.pdp_bg;
-                var18 = var3.mobile_bg;
-                var17 = var3.mobile_banner;
-                var16 = var3.banner;
-                var15 = var3.banner_asset;
-                var14 = var3.catalog_banner_asset;
-                var13 = var3.hero_banner;
-                var12 = var3.hero_banner_asset;
-                var11 = var3.featured_block;
-                var9 = var3.hero_logo;
-                var8 = var3.banner_text_color;
+                var24 = this;
+                var21 = var3.products;
+                var18 = var3.logo;
+                var17 = var3.hero_ranking;
+                var16 = var3.pdp_bg;
+                var15 = var3.mobile_bg;
+                var14 = var3.mobile_banner;
+                var13 = var3.catalog_banner_asset;
+                var12 = var3.hero_banner;
+                var11 = var3.hero_banner_asset;
+                var9 = var3.featured_block;
+                var8 = var3.hero_logo;
                 var10 = var3.hero_banner_config;
                 var6 = var3.hero_logo_display_config;
-                var2 = {'products': 0, 'logo': 0, 'hero_ranking': 0, 'pdp_bg': 0, 'mobile_bg': 0, 'mobile_banner': 0, 'banner': 0, 'banner_asset': 0, 'catalog_banner_asset': 0, 'hero_banner': 0, 'hero_banner_asset': 0, 'featured_block': 0, 'hero_logo': 0, 'banner_text_color': 0, 'hero_banner_config': 0, 'hero_logo_display_config': 0};
+                var2 = {'products': 0, 'logo': 0, 'hero_ranking': 0, 'pdp_bg': 0, 'mobile_bg': 0, 'mobile_banner': 0, 'catalog_banner_asset': 0, 'hero_banner': 0, 'hero_banner_asset': 0, 'featured_block': 0, 'hero_logo': 0, 'hero_banner_config': 0, 'hero_logo_display_config': 0};
                 var5 = null;
-                var30 = var2;
-                var29 = null;
-                var1 = silentSetPrototypeOf(var30, var29);
-                var30 = {};
-                var29 = var3;
-                var28 = var2;
-                var25 = copyDataProperties(var30, var29, var28);
+                var27 = var2;
+                var26 = null;
+                var1 = silentSetPrototypeOf(var27, var26);
+                var27 = {};
+                var26 = var3;
+                var25 = var2;
+                var22 = copyDataProperties(var27, var26, var25);
                 var3 = _closure2_slot0;
                 var1 = {};
-                var _closure3_slot0 = var27;
-                var26 = _closure1_slot6;
-                var22 = _closure1_slot5;
+                var _closure3_slot0 = var24;
+                var23 = _closure1_slot6;
+                var19 = _closure1_slot5;
                 var4 = undefined;
-                var23 = var22.bind(var4)(var3);
-                var22 = 'fromServer';
-                var23 = var26.bind(var4)(var23, var22, var27);
-                var _closure3_slot1 = var23;
-                var26 = 'function';
-                var22 = typeof var23;
-                if(!(var26 === var22)) { _fun0003_ip = 203; continue _fun0003 }
- 198:
-                var23 = function(arg1) {
+                var20 = var19.bind(var4)(var3);
+                var19 = 'fromServer';
+                var20 = var23.bind(var4)(var20, var19, var24);
+                var _closure3_slot1 = var20;
+                var23 = 'function';
+                var19 = typeof var20;
+                if(!(var23 === var19)) { _fun0003_ip = 185; continue _fun0003 }
+ 180:
+                var20 = function(arg1) {
                     var4 = _closure3_slot1;
                     var3 = var4.apply;
                     var2 = _closure3_slot0;
@@ -223,14 +214,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
                 };
- 203:
-                var22 = new Array(1);
-                var22[0] = var25;
-                var29 = var23.bind(var4)(var22);
-                var30 = var1;
-                var22 = copyDataProperties(var30, var29);
-                var23 = var24.reduce;
-                var22 = function(arg1, arg2) {
+ 185:
+                var19 = new Array(1);
+                var19[0] = var22;
+                var26 = var20.bind(var4)(var19);
+                var27 = var1;
+                var19 = copyDataProperties(var27, var26);
+                var20 = var21.reduce;
+                var19 = function(arg1, arg2) {
                     _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
  0:
                         var1 = arg1;
@@ -274,60 +265,54 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     }
                 };
                 var7 = new Array(0);
-                var22 = var23.bind(var24)(var22, var7);
+                var19 = var20.bind(var21)(var19, var7);
                 var7 = 'products';
-                var1[var7] = var22;
-                var7 = 'logo';
-                var1[var7] = var21;
-                var7 = 'heroRanking';
-                var1[var7] = var20;
-                var7 = 'pdpBg';
                 var1[var7] = var19;
-                var7 = 'mobileBg';
+                var7 = 'logo';
                 var1[var7] = var18;
-                var7 = 'mobileBanner';
+                var7 = 'heroRanking';
                 var1[var7] = var17;
-                var7 = 'banner';
+                var7 = 'pdpBg';
                 var1[var7] = var16;
-                var7 = 'bannerAsset';
+                var7 = 'mobileBg';
                 var1[var7] = var15;
-                var7 = 'catalogBannerAsset';
+                var7 = 'mobileBanner';
                 var1[var7] = var14;
-                var7 = 'heroBanner';
+                var7 = 'catalogBannerAsset';
                 var1[var7] = var13;
-                var7 = 'heroBannerAsset';
+                var7 = 'heroBanner';
                 var1[var7] = var12;
-                var7 = 'featuredBlock';
+                var7 = 'heroBannerAsset';
                 var1[var7] = var11;
-                var7 = 'heroLogo';
+                var7 = 'featuredBlock';
                 var1[var7] = var9;
-                var7 = 'bannerTextColor';
+                var7 = 'heroLogo';
                 var1[var7] = var8;
                 var7 = var5 != var10;
                 var8 = undefined;
-                if(!var7) { _fun0003_ip = 394; continue _fun0003 }
- 379:
+                if(!var7) { _fun0003_ip = 349; continue _fun0003 }
+ 334:
                 var9 = _closure1_slot9;
                 var7 = var9.fromServer;
                 var8 = var7.bind(var9)(var10);
- 394:
+ 349:
                 var7 = 'heroBannerConfig';
                 var1[var7] = var8;
                 var5 = var5 != var6;
                 var4 = undefined;
-                if(!var5) { _fun0003_ip = 427; continue _fun0003 }
- 412:
+                if(!var5) { _fun0003_ip = 382; continue _fun0003 }
+ 367:
                 var5 = _closure1_slot10;
                 var2 = var5.fromServer;
                 var4 = var2.bind(var5)(var6);
- 427:
+ 382:
                 var2 = 'heroLogoDisplayConfig';
                 var1[var2] = var4;
                 var2 = var3.prototype;
                 var2 = Object.create(var2, {constructor: {value: var3}});
-                var31 = var2;
-                var30 = var1;
-                var1 = new var31[var3](var30, var29);
+                var28 = var2;
+                var27 = var1;
+                var1 = new var28[var3](var27, var26);
                 var1 = var1 instanceof Object ? var1 : var2;
                 return var1;
             }

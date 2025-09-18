@@ -407,7 +407,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             var3 = _closure4_slot1;
                             var2 = null;
-                            if(!(var2 != var3)) { _fun0007_ip = 72; continue _fun0007 }
+                            if(!(var2 != var3)) { _fun0007_ip = 73; continue _fun0007 }
  13:
                             var3 = _closure4_slot1;
                             var2 = {};
@@ -424,7 +424,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var2['touch'] = var1;
                             var1 = undefined;
                             var1 = var3.bind(var1)(var2);
- 72:
+ 73:
                             var1 = undefined;
                             return var1;
                         }
@@ -778,11 +778,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.y;
                     var4['scrollValue'] = var1;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0013_ip = 56; continue _fun0013 }
- 49:
+                    if(!(var1 != var2)) { _fun0013_ip = 57; continue _fun0013 }
+ 50:
                     var1 = undefined;
                     var1 = var2.bind(var1)(var3);
- 56:
+ 57:
                     var1 = undefined;
                     return var1;
                 }

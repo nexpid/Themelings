@@ -1216,22 +1216,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var4.height;
                     var4 = 20;
                     var4 = var6 - var4;
-                    if(!(!(var5 >= var4))) { _fun0017_ip = 143; continue _fun0017 }
- 102:
+                    if(!(!(var5 >= var4))) { _fun0017_ip = 144; continue _fun0017 }
+ 103:
                     var4 = _closure2_slot1;
                     var5 = null;
-                    if(!(var5 != var4)) { _fun0017_ip = 126; continue _fun0017 }
- 112:
+                    if(!(var5 != var4)) { _fun0017_ip = 127; continue _fun0017 }
+ 113:
                     var6 = _closure2_slot1;
                     var4 = var6.set;
                     var4 = var4.bind(var6)(var7);
- 126:
+ 127:
                     var4 = _closure2_slot2;
-                    if(!(var5 != var4)) { _fun0017_ip = 143; continue _fun0017 }
- 134:
+                    if(!(var5 != var4)) { _fun0017_ip = 144; continue _fun0017 }
+ 135:
                     var2 = _closure2_slot2;
                     var2 = var2.bind(var1)(var3);
- 143:
+ 144:
                     return var1;
                 }
             };

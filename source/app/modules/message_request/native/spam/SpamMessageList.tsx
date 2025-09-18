@@ -247,29 +247,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var1.actionName;
                     var3 = _closure1_slot11;
                     var3 = var3.ACCEPT_SPAM_MESSAGE;
-                    if(!(var3 !== var2)) { _fun0003_ip = 93; continue _fun0003 }
- 31:
+                    if(!(var3 !== var2)) { _fun0003_ip = 94; continue _fun0003 }
+ 32:
                     var3 = _closure1_slot11;
                     var3 = var3.IGNORE_SPAM_MESSAGE;
-                    if(!(var3 !== var2)) { _fun0003_ip = 78; continue _fun0003 }
- 45:
+                    if(!(var3 !== var2)) { _fun0003_ip = 79; continue _fun0003 }
+ 46:
                     var1 = _closure1_slot11;
                     var1 = var1.PREVIEW_SPAM_MESSAGE;
-                    if(!(var1 !== var2)) { _fun0003_ip = 63; continue _fun0003 }
- 59:
+                    if(!(var1 !== var2)) { _fun0003_ip = 64; continue _fun0003 }
+ 60:
                     var1 = undefined;
                     return var1;
- 63:
+ 64:
                     var2 = _closure2_slot10;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     return var1;
- 78:
+ 79:
                     var2 = _closure2_slot8;
                     var1 = undefined;
                     var2 = var2.bind(var1)();
                     return var1;
- 93:
+ 94:
                     var2 = _closure2_slot9;
                     var1 = undefined;
                     var2 = var2.bind(var1)();

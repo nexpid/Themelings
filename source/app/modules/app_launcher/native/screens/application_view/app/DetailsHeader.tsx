@@ -478,7 +478,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
                     var2 = _closure2_slot13;
-                    if(var2) { _fun0005_ip = 109; continue _fun0005 }
+                    if(var2) { _fun0005_ip = 110; continue _fun0005 }
  10:
                     var2 = arg1;
                     var2 = var2.nativeEvent;
@@ -495,19 +495,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.current;
                     var4 = 0;
                     var2 = var2 > var4;
-                    if(!var2) { _fun0005_ip = 93; continue _fun0005 }
- 80:
+                    if(!var2) { _fun0005_ip = 94; continue _fun0005 }
+ 81:
                     var3 = _closure2_slot10;
                     var3 = var3.current;
                     var2 = var3 > var4;
- 93:
-                    if(!var2) { _fun0005_ip = 109; continue _fun0005 }
- 96:
+ 94:
+                    if(!var2) { _fun0005_ip = 110; continue _fun0005 }
+ 97:
                     var3 = _closure2_slot14;
                     var2 = undefined;
                     var1 = true;
                     var1 = var3.bind(var2)(var1);
- 109:
+ 110:
                     var1 = undefined;
                     return var1;
                 }
@@ -708,7 +708,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                     var3 = _closure2_slot8;
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0006_ip = 43; continue _fun0006 }
+                    if(!(var2 == var3)) { _fun0006_ip = 44; continue _fun0006 }
  13:
                     var3 = _closure2_slot9;
                     var1 = arg1;
@@ -717,7 +717,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var1.width;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 43:
+ 44:
                     var1 = undefined;
                     return var1;
                 }
@@ -774,19 +774,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var2.current;
                     var4 = 0;
                     var2 = var2 > var4;
-                    if(!var2) { _fun0007_ip = 63; continue _fun0007 }
- 50:
+                    if(!var2) { _fun0007_ip = 64; continue _fun0007 }
+ 51:
                     var3 = _closure2_slot10;
                     var3 = var3.current;
                     var2 = var3 > var4;
- 63:
-                    if(!var2) { _fun0007_ip = 79; continue _fun0007 }
- 66:
+ 64:
+                    if(!var2) { _fun0007_ip = 80; continue _fun0007 }
+ 67:
                     var3 = _closure2_slot14;
                     var2 = undefined;
                     var1 = true;
                     var1 = var3.bind(var2)(var1);
- 79:
+ 80:
                     var1 = undefined;
                     return var1;
                 }
@@ -837,21 +837,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot0;
                     var4 = var2.current;
                     var2 = null;
-                    if(!(var2 == var4)) { _fun0008_ip = 47; continue _fun0008 }
- 37:
+                    if(!(var2 == var4)) { _fun0008_ip = 48; continue _fun0008 }
+ 38:
                     var2 = _closure2_slot0;
                     var2['current'] = var3;
- 47:
+ 48:
                     var2 = 3;
-                    if(!(var3 > var2)) { _fun0008_ip = 76; continue _fun0008 }
- 54:
+                    if(!(var3 > var2)) { _fun0008_ip = 77; continue _fun0008 }
+ 55:
                     var4 = _closure2_slot12;
                     var3 = undefined;
                     var2 = true;
                     var4 = var4.bind(var3)(var2);
                     var1 = _closure2_slot2;
                     var1 = var1.bind(var3)(var2);
- 76:
+ 77:
                     var1 = undefined;
                     return var1;
                 }

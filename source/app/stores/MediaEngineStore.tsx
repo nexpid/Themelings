@@ -7897,14 +7897,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var6.isVoiceFiltersEnabled;
             var3 = {'location': 'MediaEngineStore', 'autoTrackExposure': false};
             var3 = var5.bind(var6)(var3);
-            if(!var3) { _fun0107_ip = 382; continue _fun0107 }
- 370:
+            if(!var3) { _fun0107_ip = 378; continue _fun0107 }
+ 366:
             var5 = var4.mostRecentlyRequestedVoiceFilter;
             var4 = null;
             var3 = var4 !== var5;
- 382:
-            if(!var3) { _fun0107_ip = 415; continue _fun0107 }
- 385:
+ 378:
+            if(!var3) { _fun0107_ip = 411; continue _fun0107 }
+ 381:
             var5 = _closure1_slot0;
             var6 = _closure1_slot3;
             var4 = 29;
@@ -7912,14 +7912,14 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var1)(var4);
             var4 = var5.isDesktop;
             var3 = var4.bind(var5)();
- 415:
-            if(!var3) { _fun0107_ip = 550; continue _fun0107 }
- 421:
+ 411:
+            if(!var3) { _fun0107_ip = 546; continue _fun0107 }
+ 417:
             var4 = _closure1_slot15;
             var3 = var4.getLastInitAttemptMayHaveCrashed;
             var3 = var3.bind(var4)();
-            if(var3) { _fun0107_ip = 472; continue _fun0107 }
- 440:
+            if(var3) { _fun0107_ip = 468; continue _fun0107 }
+ 436:
             var4 = _closure1_slot0;
             var5 = _closure1_slot3;
             var3 = 65;
@@ -7927,8 +7927,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var4.bind(var1)(var3);
             var3 = var4.maybeSetupVoiceFiltersNativeModule;
             var3 = var3.bind(var4)();
-            _fun0107_ip = 550; continue _fun0107;
- 472:
+            _fun0107_ip = 546; continue _fun0107;
+ 468:
             var4 = _closure1_slot1;
             var5 = _closure1_slot3;
             var3 = 52;
@@ -7945,7 +7945,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = null;
             var3['mostRecentlyRequestedVoiceFilter'] = var5;
             var3 = var4.bind(var1)(var3);
- 550:
+ 546:
             var2 = _closure1_slot154;
             var2 = var2.bind(var1)();
             return var1;

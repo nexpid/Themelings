@@ -35,50 +35,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4 = 4;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.DismissibleContentGroupName;
+    var4 = var4.PermissionPromptType;
     var _closure1_slot6 = var4;
     var4 = 5;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.UserSettingsTypes;
+    var4 = var4.DismissibleContentGroupName;
     var _closure1_slot7 = var4;
     var4 = 6;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
-    var4 = var4.jsx;
+    var4 = var4.UserSettingsTypes;
     var _closure1_slot8 = var4;
+    var4 = 7;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.jsx;
+    var _closure1_slot9 = var4;
     var4 = function AppIconsCoachMarkImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
-        var2 = 8;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
-        var2 = 7;
-        var2 = var1[var2];
-        var1 = var1.paths;
-        var1 = var3.bind(var4)(var2, var1);
-        return var1;
-    };
-    var _closure1_slot9 = var4;
-    var4 = function MobileShopMarketingSheetImporter() {
-        var3 = _closure1_slot0;
-        var1 = _closure1_slot2;
-        var2 = 8;
-        var2 = var1[var2];
-        var4 = undefined;
-        var3 = var3.bind(var4)(var2);
         var2 = 9;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 8;
         var2 = var1[var2];
         var1 = var1.paths;
         var1 = var3.bind(var4)(var2, var1);
         return var1;
     };
     var _closure1_slot10 = var4;
-    var4 = function GiftingPromotionCoachmarkImporter() {
+    var4 = function MobileShopMarketingSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
-        var2 = 8;
+        var2 = 9;
         var2 = var1[var2];
         var4 = undefined;
         var3 = var3.bind(var4)(var2);
@@ -89,10 +80,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot11 = var4;
-    var4 = function RobloxConnectionCoachmarkImporter() {
+    var4 = function GiftingPromotionCoachmarkImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
-        var2 = 8;
+        var2 = 9;
         var2 = var1[var2];
         var4 = undefined;
         var3 = var3.bind(var4)(var2);
@@ -103,10 +94,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot12 = var4;
-    var4 = function BogoPromotionActionSheetImporter() {
+    var4 = function RobloxConnectionCoachmarkImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
-        var2 = 8;
+        var2 = 9;
         var2 = var1[var2];
         var4 = undefined;
         var3 = var3.bind(var4)(var2);
@@ -117,10 +108,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot13 = var4;
-    var4 = function GooglePlayPriceChangeActionSheetImporter() {
+    var4 = function BogoPromotionActionSheetImporter() {
         var3 = _closure1_slot0;
         var1 = _closure1_slot2;
-        var2 = 8;
+        var2 = 9;
         var2 = var1[var2];
         var4 = undefined;
         var3 = var3.bind(var4)(var2);
@@ -131,7 +122,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var _closure1_slot14 = var4;
-    var4 = 27;
+    var4 = function GooglePlayPriceChangeActionSheetImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 9;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 14;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot15 = var4;
+    var4 = function NotificationNudgeActionSheetImporter() {
+        var3 = _closure1_slot0;
+        var1 = _closure1_slot2;
+        var2 = 9;
+        var2 = var1[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = 15;
+        var2 = var1[var2];
+        var1 = var1.paths;
+        var1 = var3.bind(var4)(var2, var1);
+        return var1;
+    };
+    var _closure1_slot16 = var4;
+    var4 = 31;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -142,7 +161,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var2 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var9 = 14;
+            var9 = 16;
             var1 = var7[var9];
             var4 = undefined;
             var8 = var2.bind(var4)(var1);
@@ -153,23 +172,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = function() {
                 var3 = _closure1_slot5;
                 var2 = var3.hasLoaded;
-                var1 = _closure1_slot7;
+                var1 = _closure1_slot8;
                 var1 = var1.PRELOADED_USER_SETTINGS;
                 var1 = var2.bind(var3)(var1);
                 return var1;
             };
             var2 = var3.bind(var8)(var2, var1);
             var3 = _closure1_slot1;
-            var1 = 15;
+            var1 = 17;
             var1 = var7[var1];
             var8 = var3.bind(var4)(var1);
             var7 = var8.getCurrentConfig;
             var3 = {};
-            var14 = 'MainViewTooltipActionSheets';
-            var3['location'] = var14;
+            var15 = 'MainViewTooltipActionSheets';
+            var3['location'] = var15;
             var1 = {};
-            var20 = false;
-            var1['autoTrackExposure'] = var20;
+            var12 = false;
+            var1['autoTrackExposure'] = var12;
             var1 = var7.bind(var8)(var3, var1);
             var1 = var1.disabled;
             var10 = var2;
@@ -179,48 +198,48 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  118:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
-            var1 = 16;
+            var1 = 18;
             var1 = var3[var1];
             var1 = var2.bind(var4)(var1);
-            var3 = var1.bind(var4)();
-            var1 = null;
-            var7 = var1 == var3;
-            var2 = undefined;
-            if(var7) { _fun0001_ip = 159; continue _fun0001 }
+            var2 = var1.bind(var4)();
+            var14 = null;
+            var3 = var14 == var2;
+            var1 = undefined;
+            if(var3) { _fun0001_ip = 159; continue _fun0001 }
  153:
-            var2 = var3.firstTimeNotice;
+            var1 = var2.firstTimeNotice;
  159:
-            var11 = var1 != var2;
-            var7 = var1 == var3;
-            var2 = undefined;
-            if(var7) { _fun0001_ip = 178; continue _fun0001 }
+            var11 = var14 != var1;
+            var3 = var14 == var2;
+            var1 = undefined;
+            if(var3) { _fun0001_ip = 178; continue _fun0001 }
  172:
-            var2 = var3.reminderNotice;
+            var1 = var2.reminderNotice;
  178:
-            var16 = var1 != var2;
+            var17 = var14 != var1;
             var8 = _closure1_slot0;
             var7 = _closure1_slot2;
-            var2 = 17;
+            var1 = 19;
+            var1 = var7[var1];
+            var2 = var8.bind(var4)(var1);
+            var1 = var2.useIsEligibleForBogoPromotion;
+            var1 = var1.bind(var2)();
+            var2 = 20;
             var2 = var7[var2];
-            var3 = var8.bind(var4)(var2);
-            var2 = var3.useIsEligibleForBogoPromotion;
-            var2 = var2.bind(var3)();
-            var3 = 18;
-            var3 = var7[var3];
-            var13 = var8.bind(var4)(var3);
-            var12 = var13.useShouldShowRobloxConnectionCoachmark;
-            var3 = {};
-            var3['location'] = var14;
-            var3 = var12.bind(var13)(var3);
+            var13 = var8.bind(var4)(var2);
+            var3 = var13.useShouldShowRobloxConnectionCoachmark;
+            var2 = {};
+            var2['location'] = var15;
+            var2 = var3.bind(var13)(var2);
             var13 = _closure1_slot1;
-            var12 = 19;
-            var12 = var7[var12];
-            var15 = var13.bind(var4)(var12);
-            var13 = var15.useConfig;
-            var12 = {};
-            var12['location'] = var14;
-            var12 = var13.bind(var15)(var12);
-            var12 = var12.showMarketing;
+            var3 = 21;
+            var3 = var7[var3];
+            var16 = var13.bind(var4)(var3);
+            var13 = var16.useConfig;
+            var3 = {};
+            var3['location'] = var15;
+            var3 = var13.bind(var16)(var3);
+            var3 = var3.showMarketing;
             var7 = var7[var9];
             var13 = var8.bind(var4)(var7);
             var9 = var13.useStateFromStoresArray;
@@ -236,36 +255,36 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1[1] = var2;
                 return var1;
             };
-            var9 = var9.bind(var13)(var8, var7);
-            var8 = _closure1_slot3;
-            var7 = 2;
-            var7 = var8.bind(var4)(var9, var7);
+            var8 = var9.bind(var13)(var8, var7);
+            var7 = _closure1_slot3;
+            var20 = 2;
+            var7 = var7.bind(var4)(var8, var20);
             var13 = 0;
-            var17 = var7[var13];
-            var15 = 1;
-            var7 = var7[var15];
-            var9 = var1 != var7;
+            var18 = var7[var13];
+            var16 = 1;
+            var7 = var7[var16];
+            var9 = var14 != var7;
             if(!var9) { _fun0001_ip = 421; continue _fun0001 }
  353:
-            var18 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            var8 = 20;
-            var8 = var22[var8];
-            var21 = var18.bind(var4)(var8);
-            var19 = var21.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
-            var8 = 21;
-            var8 = var22[var8];
-            var8 = var18.bind(var4)(var8);
+            var19 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var8 = 22;
+            var8 = var23[var8];
+            var22 = var19.bind(var4)(var8);
+            var21 = var22.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
+            var8 = 23;
+            var8 = var23[var8];
+            var8 = var19.bind(var4)(var8);
             var8 = var8.DismissibleContent;
-            var18 = var8.GOOGLE_PLAY_PRICE_CHANGE_ACTION_SHEET;
+            var19 = var8.GOOGLE_PLAY_PRICE_CHANGE_ACTION_SHEET;
             var8 = var7.priceChangeId;
-            var8 = var19.bind(var21)(var18, var8);
+            var8 = var21.bind(var22)(var19, var8);
             var9 = var8.isDismissed;
  421:
             var8 = var10;
             if(!var10) { _fun0001_ip = 430; continue _fun0001 }
  427:
-            var8 = var17;
+            var8 = var18;
  430:
             if(!var8) { _fun0001_ip = 436; continue _fun0001 }
  433:
@@ -276,187 +295,239 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  442:
             var9 = !var8;
  445:
-            var18 = null;
+            var19 = null;
             if(!var9) { _fun0001_ip = 657; continue _fun0001 }
  453:
             var9 = null;
             if(!var11) { _fun0001_ip = 490; continue _fun0001 }
  458:
-            var19 = _closure1_slot0;
-            var21 = _closure1_slot2;
-            var17 = 21;
-            var17 = var21[var17];
-            var17 = var19.bind(var4)(var17);
-            var17 = var17.DismissibleContent;
-            var9 = var17.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var18 = 23;
+            var18 = var22[var18];
+            var18 = var21.bind(var4)(var18);
+            var18 = var18.DismissibleContent;
+            var9 = var18.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
  490:
             if(!var11) { _fun0001_ip = 496; continue _fun0001 }
  493:
-            var11 = var16;
+            var11 = var17;
  496:
             if(!var11) { _fun0001_ip = 560; continue _fun0001 }
  499:
-            var21 = _closure1_slot0;
-            var22 = _closure1_slot2;
-            var16 = 22;
-            var16 = var22[var16];
-            var19 = var21.bind(var4)(var16);
-            var17 = var19.isVersionedDismissibleContentDismissed;
-            var16 = 21;
-            var16 = var22[var16];
-            var16 = var21.bind(var4)(var16);
-            var16 = var16.DismissibleContent;
-            var16 = var16.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
-            var16 = var17.bind(var19)(var16);
-            var11 = var16.isDismissed;
+            var22 = _closure1_slot0;
+            var23 = _closure1_slot2;
+            var17 = 24;
+            var17 = var23[var17];
+            var21 = var22.bind(var4)(var17);
+            var18 = var21.isVersionedDismissibleContentDismissed;
+            var17 = 23;
+            var17 = var23[var17];
+            var17 = var22.bind(var4)(var17);
+            var17 = var17.DismissibleContent;
+            var17 = var17.GIFTING_PROMOTION_MOBILE_FIRST_TIME_HALFSHEET;
+            var17 = var18.bind(var21)(var17);
+            var11 = var17.isDismissed;
  560:
             if(!var11) { _fun0001_ip = 619; continue _fun0001 }
  563:
-            var17 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var16 = 23;
-            var16 = var19[var16];
-            var16 = var17.bind(var4)(var16);
-            var19 = var16.SeasonalGiftingReminderExperiment;
-            var17 = var19.getCurrentConfig;
-            var16 = {};
-            var16['location'] = var14;
-            var14 = {};
-            var14['autoTrackExposure'] = var20;
-            var14 = var17.bind(var19)(var16, var14);
-            var11 = var14.enabled;
+            var18 = _closure1_slot0;
+            var21 = _closure1_slot2;
+            var17 = 25;
+            var17 = var21[var17];
+            var17 = var18.bind(var4)(var17);
+            var21 = var17.SeasonalGiftingReminderExperiment;
+            var18 = var21.getCurrentConfig;
+            var17 = {};
+            var17['location'] = var15;
+            var15 = {};
+            var15['autoTrackExposure'] = var12;
+            var15 = var18.bind(var21)(var17, var15);
+            var11 = var15.enabled;
  619:
             if(!var11) { _fun0001_ip = 654; continue _fun0001 }
  622:
-            var14 = _closure1_slot0;
-            var16 = _closure1_slot2;
-            var11 = 21;
-            var11 = var16[var11];
-            var11 = var14.bind(var4)(var11);
+            var15 = _closure1_slot0;
+            var17 = _closure1_slot2;
+            var11 = 23;
+            var11 = var17[var11];
+            var11 = var15.bind(var4)(var11);
             var11 = var11.DismissibleContent;
             var9 = var11.GIFTING_PROMOTION_REMINDER;
  654:
-            var18 = var9;
+            var19 = var9;
  657:
-            var14 = _closure1_slot0;
+            var15 = _closure1_slot0;
             var11 = _closure1_slot2;
-            var9 = 24;
+            var9 = 26;
             var11 = var11[var9];
-            var17 = var14.bind(var4)(var11);
-            var16 = var17.useSelectedVersionedDismissibleContent;
-            var11 = var1 != var18;
-            var14 = 0;
+            var18 = var15.bind(var4)(var11);
+            var17 = var18.useSelectedVersionedDismissibleContent;
+            var11 = var14 != var19;
+            var15 = 0;
             if(!var11) { _fun0001_ip = 723; continue _fun0001 }
  692:
-            var19 = _closure1_slot0;
-            var20 = _closure1_slot2;
-            var11 = 25;
-            var11 = var20[var11];
-            var19 = var19.bind(var4)(var11);
-            var11 = var19.getVersionedDismissibleContentCurrentVersion;
-            var14 = var11.bind(var19)(var18);
+            var21 = _closure1_slot0;
+            var22 = _closure1_slot2;
+            var11 = 27;
+            var11 = var22[var11];
+            var21 = var21.bind(var4)(var11);
+            var11 = var21.getVersionedDismissibleContentCurrentVersion;
+            var15 = var11.bind(var21)(var19);
  723:
-            var11 = _closure1_slot6;
+            var11 = _closure1_slot7;
             var11 = var11.MAIN_VIEW_TOOLTIPS;
-            var14 = var16.bind(var17)(var18, var14, var11);
+            var15 = var17.bind(var18)(var19, var15, var11);
             var11 = _closure1_slot3;
-            var11 = var11.bind(var4)(var14, var15);
+            var11 = var11.bind(var4)(var15, var16);
             var11 = var11[var13];
             var _closure2_slot0 = var11;
-            var16 = _closure1_slot0;
-            var14 = _closure1_slot2;
-            var14 = var14[var9];
-            var18 = var16.bind(var4)(var14);
-            var17 = var18.useSelectedSnowflakeBoundDismissibleContent;
-            var16 = null;
+            var17 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var15 = var15[var9];
+            var19 = var17.bind(var4)(var15);
+            var18 = var19.useSelectedSnowflakeBoundDismissibleContent;
+            var17 = null;
             if(!var8) { _fun0001_ip = 818; continue _fun0001 }
  786:
-            var14 = _closure1_slot0;
-            var19 = _closure1_slot2;
-            var8 = 21;
-            var8 = var19[var8];
-            var8 = var14.bind(var4)(var8);
+            var15 = _closure1_slot0;
+            var21 = _closure1_slot2;
+            var8 = 23;
+            var8 = var21[var8];
+            var8 = var15.bind(var4)(var8);
             var8 = var8.DismissibleContent;
-            var16 = var8.GOOGLE_PLAY_PRICE_CHANGE_ACTION_SHEET;
+            var17 = var8.GOOGLE_PLAY_PRICE_CHANGE_ACTION_SHEET;
  818:
-            var14 = var1 == var7;
+            var15 = var14 == var7;
             var8 = undefined;
-            if(var14) { _fun0001_ip = 833; continue _fun0001 }
+            if(var15) { _fun0001_ip = 833; continue _fun0001 }
  827:
             var8 = var7.priceChangeId;
  833:
-            var19 = var1 != var8;
-            var14 = '';
-            if(!var19) { _fun0001_ip = 847; continue _fun0001 }
+            var21 = var14 != var8;
+            var15 = '';
+            if(!var21) { _fun0001_ip = 847; continue _fun0001 }
  844:
-            var14 = var8;
+            var15 = var8;
  847:
-            var8 = _closure1_slot6;
+            var8 = _closure1_slot7;
             var8 = var8.MAIN_VIEW_TOOLTIPS;
-            var14 = var17.bind(var18)(var16, var14, var8);
+            var15 = var18.bind(var19)(var17, var15, var8);
             var8 = _closure1_slot3;
-            var8 = var8.bind(var4)(var14, var15);
+            var8 = var8.bind(var4)(var15, var16);
             var8 = var8[var13];
-            if(var10) { _fun0001_ip = 883; continue _fun0001 }
- 881:
-            return var1;
- 883:
-            if(!(var1 != var8)) { _fun0001_ip = 894; continue _fun0001 }
- 887:
-            if(!(var1 == var7)) { _fun0001_ip = 1222; continue _fun0001 }
- 894:
-            var14 = _closure1_slot0;
-            var10 = _closure1_slot2;
-            var13 = 21;
-            var10 = var10[var13];
-            var10 = var14.bind(var4)(var10);
-            var10 = var10.DismissibleContent;
-            var14 = var10.CUSTOM_APP_ICONS_COACHMARK;
-            var10 = new Array(1);
-            var10[0] = var14;
-            if(!var12) { _fun0001_ip = 976; continue _fun0001 }
- 937:
-            var14 = var10.push;
-            var15 = _closure1_slot0;
-            var12 = _closure1_slot2;
-            var12 = var12[var13];
-            var12 = var15.bind(var4)(var12);
-            var12 = var12.DismissibleContent;
-            var12 = var12.COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING;
-            var12 = var14.bind(var10)(var12);
- 976:
-            if(!var3) { _fun0001_ip = 1018; continue _fun0001 }
- 979:
-            var12 = var10.push;
-            var14 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var3 = var3[var13];
-            var3 = var14.bind(var4)(var3);
-            var3 = var3.DismissibleContent;
-            var3 = var3.ROBLOX_CONNECTION_COACHMARK;
-            var3 = var12.bind(var10)(var3);
+            var21 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var18 = 28;
+            var15 = var19[var18];
+            var23 = var21.bind(var4)(var15);
+            var22 = var23.useShouldSeePushNotificationNudge;
+            var17 = _closure1_slot6;
+            var15 = var17.APP_LOAD_PROMPT;
+            var15 = var22.bind(var23)(var15);
+            var18 = var19[var18];
+            var22 = var21.bind(var4)(var18);
+            var18 = var22.useNudgeExperimentConfigWithoutExposure;
+            var17 = var17.APP_LOAD_PROMPT;
+            var17 = var18.bind(var22)(var17);
+            var23 = {};
+            var18 = 29;
+            var19 = var19[var18];
+            var22 = var21.bind(var4)(var19);
+            var21 = var22.getNotificationNudgeCooldownMs;
+            var24 = var14 == var17;
+            var19 = undefined;
+            if(var24) { _fun0001_ip = 980; continue _fun0001 }
+ 974:
+            var19 = var17.timing;
+ 980:
+            var19 = var21.bind(var22)(var19);
+            var23['cooldownDurationMs'] = var19;
+            var21 = _closure1_slot0;
+            var19 = _closure1_slot2;
+            var19 = var19[var9];
+            var22 = var21.bind(var4)(var19);
+            var21 = var22.useSelectedTimeRecurringDismissibleContent;
+            var19 = null;
+            if(!var15) { _fun0001_ip = 1050; continue _fun0001 }
  1018:
-            if(!var2) { _fun0001_ip = 1060; continue _fun0001 }
- 1021:
+            var24 = _closure1_slot0;
+            var25 = _closure1_slot2;
+            var15 = 23;
+            var15 = var25[var15];
+            var15 = var24.bind(var4)(var15);
+            var15 = var15.DismissibleContent;
+            var19 = var15.NOTIFICATION_NUDGE_APP_START_BOTTOM_SHEET;
+ 1050:
+            var15 = _closure1_slot7;
+            var15 = var15.MAIN_VIEW_TOOLTIPS;
+            var19 = var21.bind(var22)(var19, var23, var15);
+            var15 = _closure1_slot3;
+            var15 = var15.bind(var4)(var19, var20);
+            var13 = var15[var13];
+            var15 = var15[var16];
+            if(var10) { _fun0001_ip = 1090; continue _fun0001 }
+ 1088:
+            return var14;
+ 1090:
+            if(!(var14 != var8)) { _fun0001_ip = 1101; continue _fun0001 }
+ 1094:
+            if(!(var14 == var7)) { _fun0001_ip = 1556; continue _fun0001 }
+ 1101:
+            var16 = _closure1_slot0;
+            var10 = _closure1_slot2;
+            var15 = 23;
+            var10 = var10[var15];
+            var10 = var16.bind(var4)(var10);
+            var10 = var10.DismissibleContent;
+            var16 = var10.CUSTOM_APP_ICONS_COACHMARK;
+            var10 = new Array(1);
+            var10[0] = var16;
+            if(!var3) { _fun0001_ip = 1183; continue _fun0001 }
+ 1144:
+            var16 = var10.push;
+            var19 = _closure1_slot0;
+            var3 = _closure1_slot2;
+            var3 = var3[var15];
+            var3 = var19.bind(var4)(var3);
+            var3 = var3.DismissibleContent;
+            var3 = var3.COLLECTIBLES_MOBILE_SHOP_REFRESH_MARKETING;
+            var3 = var16.bind(var10)(var3);
+ 1183:
+            if(!var2) { _fun0001_ip = 1225; continue _fun0001 }
+ 1186:
             var3 = var10.push;
-            var12 = _closure1_slot0;
+            var16 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var2 = var2[var13];
-            var2 = var12.bind(var4)(var2);
+            var2 = var2[var15];
+            var2 = var16.bind(var4)(var2);
             var2 = var2.DismissibleContent;
-            var2 = var2.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
+            var2 = var2.ROBLOX_CONNECTION_COACHMARK;
             var2 = var3.bind(var10)(var2);
- 1060:
-            if(!(var1 == var11)) { _fun0001_ip = 1126; continue _fun0001 }
- 1064:
-            var3 = _closure1_slot8;
+ 1225:
+            if(!var1) { _fun0001_ip = 1267; continue _fun0001 }
+ 1228:
+            var2 = var10.push;
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var1 = var1[var15];
+            var1 = var3.bind(var4)(var1);
+            var1 = var1.DismissibleContent;
+            var1 = var1.MOBILE_BOGO_PROMOTION_ACTION_SHEET;
+            var1 = var2.bind(var10)(var1);
+ 1267:
+            if(!(var14 == var11)) { _fun0001_ip = 1460; continue _fun0001 }
+ 1274:
+            if(!(var14 == var13)) { _fun0001_ip = 1340; continue _fun0001 }
+ 1278:
+            var3 = _closure1_slot9;
             var2 = _closure1_slot1;
             var1 = _closure1_slot2;
             var1 = var1[var9];
             var2 = var2.bind(var4)(var1);
             var1 = {};
             var1['contentTypes'] = var10;
-            var10 = _closure1_slot6;
+            var10 = _closure1_slot7;
             var10 = var10.MAIN_VIEW_TOOLTIPS;
             var1['groupName'] = var10;
             var10 = function children(arg1) {
@@ -467,7 +538,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var1.markAsDismissed;
                     var3 = _closure1_slot0;
                     var1 = _closure1_slot2;
-                    var7 = 21;
+                    var7 = 23;
                     var1 = var1[var7];
                     var4 = undefined;
                     var1 = var3.bind(var4)(var1);
@@ -501,10 +572,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  161:
                     return var4;
  163:
-                    var3 = _closure1_slot8;
+                    var3 = _closure1_slot9;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 26;
+                    var1 = 30;
+                    var1 = var7[var1];
+                    var1 = var2.bind(var4)(var1);
+                    var2 = var1.DismissibleActionSheet;
+                    var1 = {};
+                    var7 = 'MainViewTooltipActionSheets';
+                    var1['actionSheetKey'] = var7;
+                    var7 = _closure1_slot14;
+                    var1['importer'] = var7;
+                    var1['markAsDismissed'] = var6;
+                    var1 = var3.bind(var4)(var2, var1);
+                    return var1;
+ 226:
+                    var3 = _closure1_slot9;
+                    var2 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var1 = 30;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
@@ -516,49 +603,33 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1['markAsDismissed'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
- 226:
-                    var3 = _closure1_slot8;
-                    var2 = _closure1_slot0;
-                    var7 = _closure1_slot2;
-                    var1 = 26;
-                    var1 = var7[var1];
-                    var1 = var2.bind(var4)(var1);
-                    var2 = var1.DismissibleActionSheet;
-                    var1 = {};
-                    var7 = 'MainViewTooltipActionSheets';
-                    var1['actionSheetKey'] = var7;
-                    var7 = _closure1_slot12;
-                    var1['importer'] = var7;
-                    var1['markAsDismissed'] = var6;
-                    var1 = var3.bind(var4)(var2, var1);
-                    return var1;
  289:
-                    var3 = _closure1_slot8;
+                    var3 = _closure1_slot9;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 26;
+                    var1 = 30;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
                     var1 = {};
                     var7 = 'MainViewTooltipActionSheets';
                     var1['actionSheetKey'] = var7;
-                    var7 = _closure1_slot10;
+                    var7 = _closure1_slot11;
                     var1['importer'] = var7;
                     var1['markAsDismissed'] = var6;
                     var1 = var3.bind(var4)(var2, var1);
                     return var1;
  352:
-                    var3 = _closure1_slot8;
+                    var3 = _closure1_slot9;
                     var2 = _closure1_slot0;
                     var7 = _closure1_slot2;
-                    var1 = 26;
+                    var1 = 30;
                     var1 = var7[var1];
                     var1 = var2.bind(var4)(var1);
                     var2 = var1.DismissibleActionSheet;
                     var1 = {};
                     var1['markAsDismissed'] = var6;
-                    var5 = _closure1_slot9;
+                    var5 = _closure1_slot10;
                     var1['importer'] = var5;
                     var5 = 'MainViewTooltipActionSheets';
                     var1['actionSheetKey'] = var5;
@@ -568,32 +639,97 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var1['children'] = var10;
             var1 = var3.bind(var4)(var2, var1);
-            _fun0001_ip = 1220; continue _fun0001;
- 1126:
-            var10 = _closure1_slot8;
+            _fun0001_ip = 1458; continue _fun0001;
+ 1340:
+            var10 = _closure1_slot9;
+            var16 = _closure1_slot0;
+            var15 = _closure1_slot2;
+            var2 = var15[var9];
+            var2 = var16.bind(var4)(var2);
+            var3 = var2.SelectedTimeRecurringDismissibleContent;
+            var2 = {};
+            var2['contentType'] = var13;
+            var13 = {};
+            var15 = var15[var18];
+            var16 = var16.bind(var4)(var15);
+            var15 = var16.getNotificationNudgeCooldownMs;
+            var18 = var14 == var17;
+            var14 = undefined;
+            if(var18) { _fun0001_ip = 1406; continue _fun0001 }
+ 1400:
+            var14 = var17.timing;
+ 1406:
+            var14 = var15.bind(var16)(var14);
+            var13['cooldownDurationMs'] = var14;
+            var2['timeRecurringConfig'] = var13;
+            var13 = _closure1_slot7;
+            var13 = var13.MAIN_VIEW_TOOLTIPS;
+            var2['groupName'] = var13;
+            var2['bypassAutoDismiss'] = var12;
+            var12 = function children(arg1) {
+                _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
+ 0:
+                    var1 = arg1;
+                    var5 = var1.markAsDismissed;
+                    var2 = var1.visibleContent;
+                    var3 = _closure1_slot0;
+                    var4 = _closure1_slot2;
+                    var1 = 23;
+                    var1 = var4[var1];
+                    var4 = undefined;
+                    var1 = var3.bind(var4)(var1);
+                    var1 = var1.DismissibleContent;
+                    var1 = var1.NOTIFICATION_NUDGE_APP_START_BOTTOM_SHEET;
+                    if(!(var2 !== var1)) { _fun0003_ip = 58; continue _fun0003 }
+ 56:
+                    return var4;
+ 58:
+                    var3 = _closure1_slot9;
+                    var2 = _closure1_slot0;
+                    var7 = _closure1_slot2;
+                    var1 = 30;
+                    var1 = var7[var1];
+                    var1 = var2.bind(var4)(var1);
+                    var2 = var1.DismissibleActionSheet;
+                    var1 = {};
+                    var7 = 'MainViewTooltipActionSheets';
+                    var1['actionSheetKey'] = var7;
+                    var6 = _closure1_slot16;
+                    var1['importer'] = var6;
+                    var1['markAsDismissed'] = var5;
+                    var1 = var3.bind(var4)(var2, var1);
+                    return var1;
+                }
+            };
+            var2['children'] = var12;
+            var1 = var10.bind(var4)(var3, var2);
+ 1458:
+            _fun0001_ip = 1554; continue _fun0001;
+ 1460:
+            var10 = _closure1_slot9;
             var13 = _closure1_slot0;
             var14 = _closure1_slot2;
             var2 = var14[var9];
             var2 = var13.bind(var4)(var2);
             var3 = var2.SelectedVersionedDismissibleContent;
             var2 = {};
-            var12 = 25;
+            var12 = 27;
             var12 = var14[var12];
             var13 = var13.bind(var4)(var12);
             var12 = var13.getVersionedDismissibleContentCurrentVersion;
             var12 = var12.bind(var13)(var11);
             var2['latestVersion'] = var12;
             var2['contentType'] = var11;
-            var11 = _closure1_slot6;
+            var11 = _closure1_slot7;
             var11 = var11.MAIN_VIEW_TOOLTIPS;
             var2['groupName'] = var11;
             var11 = function children(arg1) {
                 var1 = arg1;
                 var5 = var1.markAsDismissed;
-                var4 = _closure1_slot8;
+                var4 = _closure1_slot9;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 26;
+                var1 = 30;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -601,7 +737,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var7 = 'MainViewTooltipActionSheets';
                 var1['actionSheetKey'] = var7;
-                var6 = _closure1_slot11;
+                var6 = _closure1_slot12;
                 var1['importer'] = var6;
                 var1['markAsDismissed'] = var5;
                 var5 = _closure2_slot0;
@@ -611,10 +747,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             };
             var2['children'] = var11;
             var1 = var10.bind(var4)(var3, var2);
- 1220:
+ 1554:
             return var1;
- 1222:
-            var3 = _closure1_slot8;
+ 1556:
+            var3 = _closure1_slot9;
             var2 = _closure1_slot0;
             var1 = _closure1_slot2;
             var1 = var1[var9];
@@ -624,16 +760,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1['contentType'] = var8;
             var7 = var7.priceChangeId;
             var1['newSnowflakeId'] = var7;
-            var6 = _closure1_slot6;
+            var6 = _closure1_slot7;
             var6 = var6.MAIN_VIEW_TOOLTIPS;
             var1['groupName'] = var6;
             var5 = function children(arg1) {
                 var1 = arg1;
                 var5 = var1.markAsDismissed;
-                var4 = _closure1_slot8;
+                var4 = _closure1_slot9;
                 var2 = _closure1_slot0;
                 var3 = _closure1_slot2;
-                var1 = 26;
+                var1 = 30;
                 var1 = var3[var1];
                 var3 = undefined;
                 var1 = var2.bind(var3)(var1);
@@ -641,7 +777,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var1 = {};
                 var7 = 'MainViewTooltipActionSheets';
                 var1['actionSheetKey'] = var7;
-                var6 = _closure1_slot14;
+                var6 = _closure1_slot15;
                 var1['importer'] = var6;
                 var1['markAsDismissed'] = var5;
                 var1 = var4.bind(var3)(var2, var1);

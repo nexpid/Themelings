@@ -47,7 +47,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var11 = arg1;
                     var12 = arg2;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(var2) { _fun0002_ip = 959; continue _fun0002 }
+                    if(var2) { _fun0002_ip = 980; continue _fun0002 }
  18:
                     var _closure4_slot0 = var12;
                     var3 = undefined;
@@ -57,18 +57,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var2.bind(var12)();
                     _closure4_slot1 = var6;
                     var13 = null;
-                    if(!(var13 != var6)) { _fun0002_ip = 953; continue _fun0002 }
+                    if(!(var13 != var6)) { _fun0002_ip = 974; continue _fun0002 }
  55:
                     var5 = _closure1_slot6;
                     var2 = var5.getGuild;
                     var2 = var2.bind(var5)(var6);
-                    if(!(var13 != var2)) { _fun0002_ip = 953; continue _fun0002 }
+                    if(!(var13 != var2)) { _fun0002_ip = 974; continue _fun0002 }
  79:
                     var5 = _closure1_slot7;
                     var2 = var5.getCurrentUser;
                     var2 = var2.bind(var5)();
                     _closure4_slot2 = var2;
-                    if(!(var13 != var2)) { _fun0002_ip = 953; continue _fun0002 }
+                    if(!(var13 != var2)) { _fun0002_ip = 974; continue _fun0002 }
  103:
                     var5 = _closure1_slot0;
                     var6 = _closure1_slot2;
@@ -82,7 +82,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var2;
  137:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(var5) { _fun0002_ip = 956; continue _fun0002 }
+                    if(var5) { _fun0002_ip = 977; continue _fun0002 }
  146:
                     var5 = global;
                     var9 = var5.Array;
@@ -152,7 +152,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var6 = var8.bind(var9)(var6);
                     var9 = var6.length;
                     var8 = 5;
-                    if(!(!(var9 > var8))) { _fun0002_ip = 759; continue _fun0002 }
+                    if(!(!(var9 > var8))) { _fun0002_ip = 780; continue _fun0002 }
  245:
                     var9 = _closure1_slot6;
                     var8 = var9.getGuildIds;
@@ -277,7 +277,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var22 = var16;
                     var20 = var9;
                     var7 = var24[var14](var23, var22, var21, var20, var19);
-                    _fun0002_ip = 953; continue _fun0002;
+                    _fun0002_ip = 974; continue _fun0002;
  545:
                     var10 = var5.Math;
                     var9 = var10.floor;
@@ -291,19 +291,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var7 = var8.length;
                     var7 = var14 * var7;
                     var7 = var9.bind(var10)(var7);
-                    var7 = var8[var7];
-                    var9 = _closure1_slot1;
-                    var16 = _closure1_slot2;
-                    var8 = 12;
-                    var8 = var16[var8];
-                    var15 = var9.bind(var3)(var8);
+                    var17 = var8[var7];
+                    var8 = _closure1_slot1;
+                    var18 = _closure1_slot2;
+                    var7 = 12;
+                    var7 = var18[var7];
+                    var15 = var8.bind(var3)(var7);
                     var14 = var15.sendMessage;
                     var10 = var12.id;
-                    var8 = 14;
-                    var8 = var16[var8];
-                    var9 = var9.bind(var3)(var8);
+                    var7 = 14;
+                    var7 = var18[var7];
+                    var9 = var8.bind(var3)(var7);
                     var8 = var9.parse;
-                    var7 = var7.allNamesString;
+                    var16 = _closure1_slot0;
+                    var7 = 13;
+                    var7 = var18[var7];
+                    var16 = var16.bind(var3)(var7);
+                    var7 = var16.getAllEmojiNamesString;
+                    var7 = var7.bind(var16)(var17);
                     var9 = var8.bind(var9)(var12, var7);
                     var8 = {};
                     var7 = _closure1_slot10;
@@ -314,10 +319,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var17 = var16.bind(var12)();
                     var18 = var13 != var17;
                     var16 = undefined;
-                    if(!var18) { _fun0002_ip = 713; continue _fun0002 }
- 710:
+                    if(!var18) { _fun0002_ip = 734; continue _fun0002 }
+ 731:
                     var16 = var17;
- 713:
+ 734:
                     var7['guild_id'] = var16;
                     var16 = var12.id;
                     var7['channel_id'] = var16;
@@ -329,8 +334,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var22 = var9;
                     var20 = var8;
                     var7 = var24[var14](var23, var22, var21, var20, var19);
-                    _fun0002_ip = 953; continue _fun0002;
- 759:
+                    _fun0002_ip = 974; continue _fun0002;
+ 780:
                     var8 = var5.Math;
                     var7 = var8.floor;
                     var14 = var5.Math;
@@ -360,10 +365,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var14 = var14.bind(var12)();
                     var15 = var13 != var14;
                     var13 = undefined;
-                    if(!var15) { _fun0002_ip = 896; continue _fun0002 }
- 893:
+                    if(!var15) { _fun0002_ip = 917; continue _fun0002 }
+ 914:
                     var13 = var14;
- 896:
+ 917:
                     var10['guild_id'] = var13;
                     var12 = var12.id;
                     var10['channel_id'] = var12;
@@ -378,11 +383,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var22 = var9;
                     var20 = var5;
                     var4 = var24[var7](var23, var22, var21, var20, var19);
- 953:
+ 974:
                     return var3;
- 956:
+ 977:
                     return var2;
- 959:
+ 980:
                     return var1;
                 }
             };

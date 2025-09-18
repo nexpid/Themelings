@@ -61,6 +61,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var5['COLOR_WAVE'] = var1;
     var1 = 'MidnightPrismIcon';
     var5['MIDNIGHT_PRISM'] = var1;
+    var1 = 'TrickIcon';
+    var5['TRICK'] = var1;
+    var1 = 'TreatIcon';
+    var5['TREAT'] = var1;
     var4 = {};
     var1 = 'DripIcon';
     var4['DRIP'] = var1;

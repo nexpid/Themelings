@@ -203,18 +203,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot3;
                     var5 = var2.current;
                     var2 = null;
-                    if(!(var2 == var5)) { _fun0004_ip = 101; continue _fun0004 }
- 85:
+                    if(!(var2 == var5)) { _fun0004_ip = 105; continue _fun0004 }
+ 88:
                     var6 = var6.nativeEvent;
                     var6 = var6.layout;
                     var5 = var6.height;
- 101:
+ 105:
                     var4['height'] = var5;
                     var _closure3_slot0 = var4;
                     var3 = _closure2_slot2;
                     var3 = var3.current;
-                    if(!(var2 != var3)) { _fun0004_ip = 140; continue _fun0004 }
- 122:
+                    if(!(var2 != var3)) { _fun0004_ip = 144; continue _fun0004 }
+ 126:
                     var2 = var3.measure;
                     var1 = function(arg1, arg2, arg3, arg4) {
                         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
@@ -252,7 +252,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         }
                     };
                     var1 = var2.bind(var3)(var1);
- 140:
+ 144:
                     var1 = undefined;
                     return var1;
                 }
@@ -645,13 +645,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.props;
                         var4 = var2.onScroll;
                         var2 = null;
-                        if(!(var2 != var4)) { _fun0010_ip = 69; continue _fun0010 }
- 49:
+                        if(!(var2 != var4)) { _fun0010_ip = 70; continue _fun0010 }
+ 50:
                         var1 = _closure3_slot0;
                         var2 = var1.props;
                         var1 = var2.onScroll;
                         var1 = var1.bind(var2)(var3);
- 69:
+ 70:
                         var1 = undefined;
                         return var1;
                     }

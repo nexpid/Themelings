@@ -659,7 +659,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot2;
                     var3 = var2.current;
                     var2 = null;
-                    if(!(var2 == var3)) { _fun0008_ip = 69; continue _fun0008 }
+                    if(!(var2 == var3)) { _fun0008_ip = 70; continue _fun0008 }
  18:
                     var3 = _closure2_slot2;
                     var2 = {};
@@ -674,7 +674,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = _closure2_slot9;
                     var1 = undefined;
                     var1 = var2.bind(var1)();
- 69:
+ 70:
                     var1 = undefined;
                     return var1;
                 }

@@ -681,13 +681,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var1 = var1.nativeEvent;
                                 var2 = var1.key;
                                 var1 = 'Backspace';
-                                if(!(var1 === var2)) { _fun0008_ip = 119; continue _fun0008 }
- 26:
+                                if(!(var1 === var2)) { _fun0008_ip = 120; continue _fun0008 }
+ 27:
                                 var1 = _closure2_slot5;
                                 var1 = var1[var3];
                                 var7 = '';
-                                if(!(var7 === var1)) { _fun0008_ip = 158; continue _fun0008 }
- 45:
+                                if(!(var7 === var1)) { _fun0008_ip = 159; continue _fun0008 }
+ 46:
                                 var6 = _closure2_slot6;
                                 var11 = _closure2_slot5;
                                 var1 = 1;
@@ -704,23 +704,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var1 = var3 - var1;
                                 var2 = var2[var1];
                                 var1 = null;
-                                if(!(var1 != var2)) { _fun0008_ip = 158; continue _fun0008 }
- 107:
+                                if(!(var1 != var2)) { _fun0008_ip = 159; continue _fun0008 }
+ 108:
                                 var1 = var2.focus;
                                 var1 = var1.bind(var2)();
-                                _fun0008_ip = 158; continue _fun0008;
- 119:
+                                _fun0008_ip = 159; continue _fun0008;
+ 120:
                                 var1 = _closure2_slot7;
                                 var2 = var1.current;
                                 var1 = 1;
                                 var1 = var3 + var1;
                                 var2 = var2[var1];
                                 var1 = null;
-                                if(!(var1 != var2)) { _fun0008_ip = 158; continue _fun0008 }
- 148:
+                                if(!(var1 != var2)) { _fun0008_ip = 159; continue _fun0008 }
+ 149:
                                 var1 = var2.focus;
                                 var1 = var1.bind(var2)();
- 158:
+ 159:
                                 var1 = undefined;
                                 return var1;
                             }

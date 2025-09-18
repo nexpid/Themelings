@@ -308,18 +308,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var9 = var6.bind(var1)(var8);
         var8 = var9.isAndroid;
         var8 = var8.bind(var9)();
-        if(var8) { _fun0001_ip = 322; continue _fun0001 }
- 312:
+        if(var8) { _fun0001_ip = 321; continue _fun0001 }
+ 311:
         var5 = var5.DCDIconManager;
-        _fun0001_ip = 339; continue _fun0001;
- 322:
+        _fun0001_ip = 338; continue _fun0001;
+ 321:
         var8 = 9;
         var8 = var7[var8];
         var8 = var6.bind(var1)(var8);
         var5 = var8.default;
- 339:
+ 338:
         var _closure1_slot13 = var5;
-        var5 = 17;
+        var5 = 18;
         var5 = var7[var5];
         var7 = var6.bind(var1)(var5);
         var6 = var7.fileFinishedImporting;
@@ -339,32 +339,43 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var3['setAppIcon'] = var4;
         var4 = function useAppIcons() {
             var2 = _closure1_slot14;
-            var10 = undefined;
-            var2 = var2.bind(var10)();
+            var8 = undefined;
+            var2 = var2.bind(var8)();
             var6 = _closure1_slot5;
             var4 = var6.useState;
             var3 = new Array(0);
             var4 = var4.bind(var6)(var3);
             var3 = _closure1_slot4;
-            var9 = 2;
-            var6 = var3.bind(var10)(var4, var9);
+            var10 = 2;
+            var6 = var3.bind(var8)(var4, var10);
             var3 = 0;
             var4 = var6[var3];
             var7 = 1;
             var6 = var6[var7];
             var _closure2_slot0 = var6;
             var11 = _closure1_slot5;
-            var8 = var11.useState;
+            var9 = var11.useState;
             var6 = new Array(0);
-            var8 = var8.bind(var11)(var6);
+            var9 = var9.bind(var11)(var6);
             var6 = _closure1_slot4;
-            var6 = var6.bind(var10)(var8, var9);
+            var6 = var6.bind(var8)(var9, var10);
             var3 = var6[var3];
             var6 = var6[var7];
             var _closure2_slot1 = var6;
+            var7 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var6 = 16;
+            var6 = var9[var6];
+            var8 = var7.bind(var8)(var6);
+            var7 = var8.useIsHalloweenAppIconsEnabled;
+            var6 = 'app_icons_settings';
+            var8 = var7.bind(var8)(var6);
+            var _closure2_slot2 = var8;
             var7 = _closure1_slot5;
             var6 = var7.useEffect;
-            var5 = function() {
+            var5 = new Array(1);
+            var5[0] = var8;
+            var1 = function() {
                 var4 = _closure1_slot3;
                 var1 = undefined;
                 var3 = function* () {
@@ -373,52 +384,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(var2) { _fun0004_ip = 335; continue _fun0004 }
+                            if(var2) { _fun0004_ip = 340; continue _fun0004 }
  12:
                             var2 = undefined;
                             var _closure5_slot0 = var2;
  18: // try_start_0
-                            var6 = _closure1_slot13;
+                            var5 = _closure1_slot13;
                             var3 = null;
-                            var6 = var3 == var6;
+                            var5 = var3 == var5;
                             var3 = undefined;
-                            if(var6) { _fun0004_ip = 52; continue _fun0004 }
+                            if(var5) { _fun0004_ip = 52; continue _fun0004 }
  36:
                             var7 = _closure1_slot13;
-                            var6 = var7.getAvailableIcons;
-                            var3 = var6.bind(var7)();
+                            var5 = var7.getAvailableIcons;
+                            var3 = var5.bind(var7)();
  52:
                             SaveGenerator(address=56);
  54:
                             return var3;
  56:
-                            ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                            if(var6) { _fun0004_ip = 188; continue _fun0004 }
+                            ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                            if(var5) { _fun0004_ip = 193; continue _fun0004 }
  65:
                             var7 = var3.map;
-                            var6 = function(arg1) {
-                                var1 = arg1;
-                                var1 = var1.id;
-                                return var1;
-                            };
-                            var6 = var7.bind(var3)(var6);
-                            _closure5_slot0 = var6;
-                            var6 = _closure1_slot7;
-                            var8 = var6.bind(var2)();
-                            var7 = var8.filter;
-                            var6 = function(arg1) {
-                                var3 = _closure5_slot0;
-                                var2 = var3.includes;
-                                var1 = arg1;
-                                var1 = var1.id;
-                                var1 = var2.bind(var3)(var1);
-                                return var1;
-                            };
-                            var14 = var7.bind(var8)(var6);
-                            var6 = _closure1_slot8;
-                            var8 = var6.bind(var2)();
-                            var6 = var8.filter;
                             var5 = function(arg1) {
+                                var1 = arg1;
+                                var1 = var1.id;
+                                return var1;
+                            };
+                            var5 = var7.bind(var3)(var5);
+                            _closure5_slot0 = var5;
+                            var8 = _closure1_slot7;
+                            var7 = _closure2_slot2;
+                            var9 = var8.bind(var2)(var7);
+                            var8 = var9.filter;
+                            var7 = function(arg1) {
                                 var3 = _closure5_slot0;
                                 var2 = var3.includes;
                                 var1 = arg1;
@@ -426,7 +426,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var1 = var2.bind(var3)(var1);
                                 return var1;
                             };
-                            var8 = var6.bind(var8)(var5);
+                            var14 = var8.bind(var9)(var7);
+                            var8 = _closure1_slot8;
+                            var9 = var8.bind(var2)();
+                            var8 = var9.filter;
+                            var6 = function(arg1) {
+                                var3 = _closure5_slot0;
+                                var2 = var3.includes;
+                                var1 = arg1;
+                                var1 = var1.id;
+                                var1 = var2.bind(var3)(var1);
+                                return var1;
+                            };
+                            var8 = var8.bind(var9)(var6);
                             var6 = _closure2_slot1;
                             var6 = var6.bind(var2)(var8);
                             var5 = _closure2_slot0;
@@ -438,11 +450,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var15 = var4;
                             var6 = arraySpread(var15, var14, var13);
                             var4 = var5.bind(var2)(var4);
- 183: // try_end0
-                            _fun0004_ip = 332; continue _fun0004;
- 188:
+ 188: // try_end0
+                            _fun0004_ip = 337; continue _fun0004;
+ 193:
                             return var3;
- 191: // catch_target0
+ 196: // catch_target0
                             CatchBlockStart(arg_register=6);
                             var5 = _closure1_slot1;
                             var12 = _closure1_slot2;
@@ -474,9 +486,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                             var3 = 'Error fetching available app icons: ';
                             var3 = var6.bind(var3)(var7);
                             var3 = var4.bind(var5)(var3);
- 332:
+ 337:
                             return var2;
- 335:
+ 340:
                             return var1;
                         }
                     };
@@ -497,8 +509,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.bind(var1)();
                 return var1;
             };
-            var1 = new Array(0);
-            var1 = var6.bind(var7)(var5, var1);
+            var1 = var6.bind(var7)(var1, var5);
             var1 = {};
             var1['officialAppIcons'] = var4;
             var1['limitedTimeAppIcons'] = var3;
@@ -509,7 +520,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var2 = function() {
             var3 = _closure1_slot0;
             var2 = _closure1_slot2;
-            var1 = 16;
+            var1 = 17;
             var2 = var2[var1];
             var1 = undefined;
             var4 = var3.bind(var1)(var2);

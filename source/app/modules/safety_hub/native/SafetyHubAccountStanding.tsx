@@ -567,15 +567,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                                 var2 = var2.layout;
                                 var4 = var2.height;
                                 var3 = _closure2_slot1;
-                                if(!(var4 > var3)) { _fun0003_ip = 57; continue _fun0003 }
- 30:
+                                if(!(var4 > var3)) { _fun0003_ip = 59; continue _fun0003 }
+ 31:
                                 var3 = _closure2_slot2;
                                 var1 = var1.nativeEvent;
                                 var1 = var1.layout;
                                 var2 = var1.height;
                                 var1 = undefined;
                                 var1 = var3.bind(var1)(var2);
- 57:
+ 59:
                                 var1 = undefined;
                                 return var1;
                             }

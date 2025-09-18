@@ -991,13 +991,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         _fun0006: for(var _fun0006_ip = 0; ; ) switch(_fun0006_ip) {
  0:
             var1 = arg1;
-            var2 = var1.quest;
+            var1 = var1.quest;
             var3 = _closure1_slot11;
-            var5 = undefined;
-            var4 = var3.bind(var5)(var2);
+            var6 = undefined;
+            var4 = var3.bind(var6)(var1);
             var3 = _closure1_slot7;
             var3 = var3.PLAY;
-            if(!(var3 !== var4)) { _fun0006_ip = 255; continue _fun0006 }
+            if(!(var3 !== var4)) { _fun0006_ip = 312; continue _fun0006 }
  40:
             var3 = _closure1_slot7;
             var3 = var3.STREAM;
@@ -1011,61 +1011,88 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.IN_GAME;
             if(!(var3 !== var4)) { _fun0006_ip = 90; continue _fun0006 }
  88:
-            return var5;
+            return var6;
  90:
-            var2 = var2.config;
-            var4 = var2.features;
-            var3 = var4.includes;
-            var2 = _closure1_slot5;
-            var2 = var2.START_QUEST_CTA;
-            var2 = var3.bind(var4)(var2);
+            var3 = var1.config;
+            var5 = var3.features;
+            var4 = var5.includes;
+            var3 = _closure1_slot5;
+            var3 = var3.START_QUEST_CTA;
+            var3 = var4.bind(var5)(var3);
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot1;
+            var4 = 4;
+            var5 = var9[var4];
+            var5 = var8.bind(var6)(var5);
+            var7 = var5.intl;
+            var5 = var7.string;
+            var4 = var9[var4];
+            var4 = var8.bind(var6)(var4);
+            var4 = var4.t;
+            if(var3) { _fun0006_ip = 181; continue _fun0006 }
+ 168:
+            var3 = var4.l7E81t;
+            var3 = var5.bind(var7)(var3);
+            _fun0006_ip = 194; continue _fun0006;
+ 181:
+            var4 = var4.ToGcxM;
+            var3 = var5.bind(var7)(var4);
+ 194:
+            return var3;
+ 196:
             var7 = _closure1_slot0;
             var8 = _closure1_slot1;
             var3 = 4;
             var4 = var8[var3];
-            var4 = var7.bind(var5)(var4);
-            var6 = var4.intl;
-            var4 = var6.string;
+            var4 = var7.bind(var6)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
             var3 = var8[var3];
-            var3 = var7.bind(var5)(var3);
+            var3 = var7.bind(var6)(var3);
             var3 = var3.t;
-            if(var2) { _fun0006_ip = 181; continue _fun0006 }
- 168:
-            var2 = var3.l7E81t;
-            var2 = var4.bind(var6)(var2);
-            _fun0006_ip = 194; continue _fun0006;
- 181:
-            var3 = var3.ToGcxM;
-            var2 = var4.bind(var6)(var3);
- 194:
-            return var2;
- 196:
-            var6 = _closure1_slot0;
+            var3 = var3.umdNio;
+            var3 = var4.bind(var5)(var3);
+            return var3;
+ 255:
+            var7 = _closure1_slot0;
+            var8 = _closure1_slot1;
+            var3 = 4;
+            var4 = var8[var3];
+            var4 = var7.bind(var6)(var4);
+            var5 = var4.intl;
+            var4 = var5.string;
+            var3 = var8[var3];
+            var3 = var7.bind(var6)(var3);
+            var3 = var3.t;
+            var3 = var3.l7E81t;
+            var3 = var4.bind(var5)(var3);
+            return var3;
+ 312:
+            var1 = var1.config;
+            var4 = var1.features;
+            var3 = var4.includes;
+            var1 = _closure1_slot5;
+            var1 = var1.START_QUEST_CTA;
+            var1 = var3.bind(var4)(var1);
+            var5 = _closure1_slot0;
             var7 = _closure1_slot1;
             var2 = 4;
             var3 = var7[var2];
-            var3 = var6.bind(var5)(var3);
+            var3 = var5.bind(var6)(var3);
             var4 = var3.intl;
             var3 = var4.string;
             var2 = var7[var2];
-            var2 = var6.bind(var5)(var2);
+            var2 = var5.bind(var6)(var2);
             var2 = var2.t;
-            var2 = var2.umdNio;
-            var2 = var3.bind(var4)(var2);
-            return var2;
- 255:
-            var4 = _closure1_slot0;
-            var6 = _closure1_slot1;
-            var1 = 4;
-            var2 = var6[var1];
-            var2 = var4.bind(var5)(var2);
-            var3 = var2.intl;
-            var2 = var3.string;
-            var1 = var6[var1];
-            var1 = var4.bind(var5)(var1);
-            var1 = var1.t;
-            var1 = var1.l7E81t;
-            var1 = var2.bind(var3)(var1);
+            if(var1) { _fun0006_ip = 403; continue _fun0006 }
+ 390:
+            var1 = var2.l7E81t;
+            var1 = var3.bind(var4)(var1);
+            _fun0006_ip = 416; continue _fun0006;
+ 403:
+            var2 = var2.hRIVy8;
+            var1 = var3.bind(var4)(var2);
+ 416:
             return var1;
         }
     };

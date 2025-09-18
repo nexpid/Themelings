@@ -28,13 +28,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var1.url;
             var1 = null;
             var1 = var1 != var4;
-            if(!var1) { _fun0001_ip = 30; continue _fun0001 }
- 22:
+            if(!var1) { _fun0001_ip = 31; continue _fun0001 }
+ 23:
             var2 = '';
             var1 = var2 !== var4;
- 30:
-            if(!var1) { _fun0001_ip = 70; continue _fun0001 }
- 33:
+ 31:
+            if(!var1) { _fun0001_ip = 71; continue _fun0001 }
+ 34:
             var2 = _closure1_slot1;
             var3 = _closure1_slot2;
             var1 = 1;
@@ -44,7 +44,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = {};
             var1['urlString'] = var4;
             var1 = var2.bind(var3)(var1);
- 70:
+ 71:
             var1 = undefined;
             return var1;
         }
@@ -56,26 +56,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 StartGenerator();
                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                if(var2) { _fun0002_ip = 162; continue _fun0002 }
+                if(var2) { _fun0002_ip = 163; continue _fun0002 }
  10:
                 var2 = arg1;
                 var2 = var2.nativeEvent;
                 var2 = var2.data;
                 var7 = var2.attachmentUrl;
                 var4 = undefined;
-                SaveGenerator(address=35);
- 33:
+                SaveGenerator(address=36);
+ 34:
                 return var4;
- 35:
+ 36:
                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                if(var3) { _fun0002_ip = 159; continue _fun0002 }
- 41:
+                if(var3) { _fun0002_ip = 160; continue _fun0002 }
+ 42:
                 var3 = null;
-                if(!(var3 != var7)) { _fun0002_ip = 153; continue _fun0002 }
- 47:
+                if(!(var3 != var7)) { _fun0002_ip = 154; continue _fun0002 }
+ 48:
                 var3 = '';
-                if(!(var3 !== var7)) { _fun0002_ip = 153; continue _fun0002 }
- 55:
+                if(!(var3 !== var7)) { _fun0002_ip = 154; continue _fun0002 }
+ 56:
                 var6 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var3 = 2;
@@ -83,13 +83,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var4)(var3);
                 var3 = var6.maybeRefreshAttachmentUrl;
                 var3 = var3.bind(var6)(var7);
-                SaveGenerator(address=93);
- 91:
+                SaveGenerator(address=94);
+ 92:
                 return var3;
- 93:
+ 94:
                 ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                if(var6) { _fun0002_ip = 156; continue _fun0002 }
- 99:
+                if(var6) { _fun0002_ip = 157; continue _fun0002 }
+ 100:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var5 = 3;
@@ -102,13 +102,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var4)(var5);
                 var5 = var6.openURL;
                 var5 = var5.bind(var6)(var3);
- 153:
+ 154:
                 return var4;
- 156:
+ 157:
                 return var3;
- 159:
+ 160:
                 return var2;
- 162:
+ 163:
                 return var1;
             }
         };
@@ -135,26 +135,26 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
                 StartGenerator();
                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                if(var2) { _fun0003_ip = 140; continue _fun0003 }
+                if(var2) { _fun0003_ip = 141; continue _fun0003 }
  10:
                 var2 = arg1;
                 var2 = var2.nativeEvent;
                 var2 = var2.data;
                 var7 = var2.attachmentUrl;
                 var4 = undefined;
-                SaveGenerator(address=35);
- 33:
+                SaveGenerator(address=36);
+ 34:
                 return var4;
- 35:
+ 36:
                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                if(var3) { _fun0003_ip = 137; continue _fun0003 }
- 41:
+                if(var3) { _fun0003_ip = 138; continue _fun0003 }
+ 42:
                 var3 = null;
-                if(!(var3 != var7)) { _fun0003_ip = 131; continue _fun0003 }
- 47:
+                if(!(var3 != var7)) { _fun0003_ip = 132; continue _fun0003 }
+ 48:
                 var3 = '';
-                if(!(var3 !== var7)) { _fun0003_ip = 131; continue _fun0003 }
- 55:
+                if(!(var3 !== var7)) { _fun0003_ip = 132; continue _fun0003 }
+ 56:
                 var6 = _closure1_slot0;
                 var8 = _closure1_slot2;
                 var3 = 2;
@@ -162,13 +162,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var6 = var6.bind(var4)(var3);
                 var3 = var6.maybeRefreshAttachmentUrl;
                 var3 = var3.bind(var6)(var7);
-                SaveGenerator(address=93);
- 91:
+                SaveGenerator(address=94);
+ 92:
                 return var3;
- 93:
+ 94:
                 ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                if(var6) { _fun0003_ip = 134; continue _fun0003 }
- 99:
+                if(var6) { _fun0003_ip = 135; continue _fun0003 }
+ 100:
                 var6 = _closure1_slot1;
                 var7 = _closure1_slot2;
                 var5 = 1;
@@ -177,13 +177,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var5 = {};
                 var5['urlString'] = var3;
                 var5 = var6.bind(var4)(var5);
- 131:
+ 132:
                 return var4;
- 134:
+ 135:
                 return var3;
- 137:
+ 138:
                 return var2;
- 140:
+ 141:
                 return var1;
             }
         };
@@ -366,15 +366,15 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var1.content;
             var2 = null;
             var2 = var2 != var3;
-            if(!var2) { _fun0005_ip = 44; continue _fun0005 }
- 28:
+            if(!var2) { _fun0005_ip = 45; continue _fun0005 }
+ 29:
             var3 = var1.content;
             var4 = 'string';
             var3 = typeof var3;
             var2 = var4 === var3;
- 44:
-            if(!var2) { _fun0005_ip = 110; continue _fun0005 }
- 47:
+ 45:
+            if(!var2) { _fun0005_ip = 111; continue _fun0005 }
+ 48:
             var3 = _closure1_slot0;
             var4 = _closure1_slot2;
             var2 = 10;
@@ -389,7 +389,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var3.bind(var2)(var1);
             var1 = var2.presentCopiedToClipboard;
             var1 = var1.bind(var2)();
- 110:
+ 111:
             var1 = undefined;
             return var1;
         }

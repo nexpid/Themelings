@@ -530,9 +530,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var4['secureFramesIcon'] = var10;
     var10 = {'display': 'flex', 'alignItems': 'center', 'justifyContent': 'center'};
     var4['hangStatusContainer'] = var10;
-    var10 = {'position': 'absolute', 'width': 24, 'height': 24};
+    var10 = {'position': 'absolute', 'width': 16, 'height': 16};
     var4['hangStatus'] = var10;
-    var10 = {'position': 'absolute', 'fontSize': 24, 'lineHeight': 32};
+    var10 = {'position': 'absolute', 'fontSize': 16, 'lineHeight': 16};
     var4['textEmojiHangStatus'] = var10;
     var10 = {};
     var11 = var6[var11];
@@ -787,7 +787,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var16[var2];
             var3 = var3.bind(var5)(var2);
             var2 = {};
-            var16 = 24;
+            var16 = 16;
             var2['size'] = var16;
             var16 = var11.textEmojiHangStatus;
             var2['textEmojiStyle'] = var16;

@@ -9,8 +9,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var9 = var1.Object;
     var8 = var9.defineProperty;
     var2 = {};
-    var4 = true;
-    var2['value'] = var4;
+    var7 = true;
+    var2['value'] = var7;
     var1 = '__esModule';
     var1 = var8.bind(var9)(var3, var1, var2);
     var2 = {};
@@ -43,7 +43,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['AgeGateManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'CURRENT_USER_UPDATE', 'MESSAGE_CREATE'];
@@ -59,7 +59,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['AgeVerificationManager'] = var1;
     var1 = {};
     var8 = function inlineRequire() {
@@ -73,7 +73,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['hasStoreChangeListeners'] = var4;
+    var1['hasStoreChangeListeners'] = var7;
     var2['AppAnalyticsManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN'];
@@ -89,7 +89,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ATTManager'] = var1;
     var1 = {};
     var8 = function inlineRequire() {
@@ -103,7 +103,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['hasStoreChangeListeners'] = var4;
+    var1['hasStoreChangeListeners'] = var7;
     var2['AudioSessionModeManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'AUDIO_SET_LOCAL_VOLUME', 'AUDIO_TOGGLE_LOCAL_MUTE', 'AUDIO_TOGGLE_LOCAL_SOUNDBOARD_MUTE'];
@@ -134,7 +134,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['BackgroundSyncManager'] = var1;
     var1 = {};
     var8 = function inlineRequire() {
@@ -148,7 +148,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['loadAfterConnectionOpen'] = var4;
+    var1['loadAfterConnectionOpen'] = var7;
     var2['BlockedDomainManager'] = var1;
     var1 = {};
     var8 = function inlineRequire() {
@@ -162,7 +162,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['loadAfterConnectionOpen'] = var4;
+    var1['loadAfterConnectionOpen'] = var7;
     var2['BugReportManager'] = var1;
     var1 = {};
     var8 = ['VOICE_STATE_UPDATES', 'EMBEDDED_ACTIVITY_CLOSE', 'CONNECTION_CLOSED'];
@@ -208,7 +208,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ChangelogManager'] = var1;
     var1 = {};
     var8 = ['GUILD_LOCAL_RING_START', 'GUILD_RING_STOP'];
@@ -224,7 +224,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['hasStoreChangeListeners'] = var4;
+    var1['hasStoreChangeListeners'] = var7;
     var2['ChannelCallManager'] = var1;
     var1 = {};
     var8 = ['GUILD_CREATE', 'POST_CONNECTION_OPEN', 'CHANNEL_SYNC'];
@@ -255,7 +255,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ChannelSafetyWarningsManager'] = var1;
     var1 = {};
     var8 = ['VOICE_CHANNEL_SELECT', 'CALL_CREATE', 'USER_SETTINGS_MODAL_OPEN'];
@@ -284,7 +284,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['loadAfterConnectionOpen'] = var4;
+    var1['loadAfterConnectionOpen'] = var7;
     var2['CommunicationDisabledManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN'];
@@ -315,7 +315,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['loadAfterConnectionOpen'] = var4;
+    var1['loadAfterConnectionOpen'] = var7;
     var2['CustomStatusManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'IDLE'];
@@ -331,7 +331,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['loadAfterConnectionOpen'] = var4;
+    var1['loadAfterConnectionOpen'] = var7;
     var2['DeadchatPromptManager'] = var1;
     var1 = {};
     var8 = ['DM_SETTINGS_UPSELL_SHOW'];
@@ -377,7 +377,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['loadRightBeforeConnectionOpen'] = var4;
+    var1['loadRightBeforeConnectionOpen'] = var7;
     var2['EntityVersionsManager'] = var1;
     var1 = {};
     var8 = ['CHANNEL_SELECT', 'LOAD_MESSAGES_SUCCESS', 'MESSAGE_CREATE', 'MESSAGE_UPDATE', 'SEARCH_MESSAGES_SUCCESS', 'MOD_VIEW_SEARCH_MESSAGES_SUCCESS', 'LOAD_FORUM_POSTS', 'LOAD_ARCHIVED_THREADS_SUCCESS', 'LOAD_THREADS_SUCCESS', 'LOGOUT', 'LOAD_PINNED_MESSAGES_SUCCESS', 'USER_SETTINGS_PROTO_UPDATE', 'CHANNEL_RTC_UPDATE_CHAT_OPEN', 'SIDEBAR_VIEW_CHANNEL'];
@@ -393,7 +393,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ExplicitMediaManager'] = var1;
     var1 = {};
     var8 = ['APP_STATE_UPDATE', 'LOGOUT', 'POST_CONNECTION_OPEN'];
@@ -409,7 +409,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['KvBackgroundManager'] = var1;
     var1 = {};
     var8 = ['VOICE_CHANNEL_SHOW_FEEDBACK', 'STREAM_CLOSE', 'EMBEDDED_ACTIVITY_CLOSE', 'IN_APP_REPORTS_SHOW_FEEDBACK', 'BLOCK_USER_SHOW_FEEDBACK', 'AGE_VERIFICATION_SHOW_FEEDBACK'];
@@ -440,7 +440,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ForumManager'] = var1;
     var1 = {};
     var8 = function inlineRequire() {
@@ -454,7 +454,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['loadAfterConnectionOpen'] = var4;
+    var1['loadAfterConnectionOpen'] = var7;
     var2['ForumGuidelinesManager'] = var1;
     var1 = {};
     var8 = ['CHANNEL_SELECT', 'THREAD_CREATE'];
@@ -470,7 +470,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ForumPostAnalyticsManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'CONNECTION_RESUMED', 'CONNECTION_CLOSED', 'APP_STATE_UPDATE'];
@@ -486,7 +486,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['FrecencyUserSettingsManager'] = var1;
     var1 = {};
     var8 = ['WAIT_FOR_REMOTE_SESSION', 'POST_CONNECTION_OPEN', 'SESSIONS_REPLACE', 'AUDIO_TOGGLE_SELF_DEAF', 'AUDIO_TOGGLE_SELF_MUTE', 'VOICE_STATE_UPDATES', 'CONSOLE_COMMAND_UPDATE', 'PASSIVE_UPDATE_V2', 'REMOTE_SESSION_DISCONNECT'];
@@ -517,7 +517,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['GuildOnboardingHomeManager'] = var1;
     var1 = {};
     var8 = ['CHANNEL_SELECT', 'GUILD_DELETE', 'POST_CONNECTION_OPEN'];
@@ -533,7 +533,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['GuildOnboardingManager'] = var1;
     var1 = {};
     var8 = ['GUILD_POWERUP_ENTITLEMENTS_CREATE', 'GUILD_POWERUP_ENTITLEMENTS_DELETE', 'GUILD_APPLIED_BOOSTS_UPDATE'];
@@ -549,8 +549,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
-    var1['hasStoreChangeListeners'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
+    var1['hasStoreChangeListeners'] = var7;
     var2['GuildPowerupsManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'GUILD_DELETE', 'GUILD_UNAVAILABLE', 'INVITE_RESOLVE_SUCCESS', 'CHANNEL_SELECT'];
@@ -566,7 +566,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['GuildScheduledEventManager'] = var1;
     var1 = {};
     var8 = ['INVITE_ACCEPT_SUCCESS'];
@@ -597,7 +597,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['hasStoreChangeListeners'] = var4;
+    var1['hasStoreChangeListeners'] = var7;
     var2['HangStatusManager'] = var1;
     var1 = {};
     var8 = ['GUILD_JOIN_REQUEST_UPDATE', 'CHANNEL_SELECT', 'POST_CONNECTION_OPEN'];
@@ -613,7 +613,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['MemberVerificationApplicationManager'] = var1;
     var1 = {};
     var8 = ['MESSAGE_UPDATE', 'MESSAGE_CREATE'];
@@ -629,7 +629,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['MessageSessionMetadataManager'] = var1;
     var1 = {};
     var8 = ['NOTIFICATIONS_SET_DISABLED_SOUNDS'];
@@ -645,7 +645,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['hasStoreChangeListeners'] = var4;
+    var1['hasStoreChangeListeners'] = var7;
     var2['HolidayEventsManager'] = var1;
     var1 = {};
     var8 = ['APP_STATE_UPDATE', 'POST_CONNECTION_OPEN'];
@@ -736,7 +736,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['JSWatchdogManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN'];
@@ -812,7 +812,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var9;
-    var1['loadAfterConnectionOpen'] = var4;
+    var1['loadAfterConnectionOpen'] = var7;
     var2['MetricKitManager'] = var1;
     var1 = {};
     var9 = ['LOGOUT'];
@@ -828,7 +828,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var9;
-    var1['loadAfterConnectionOpen'] = var4;
+    var1['loadAfterConnectionOpen'] = var7;
     var2['MultiAccountManager'] = var1;
     var1 = {};
     var9 = ['START_HANGOUT', 'END_HANGOUT', 'APP_STATE_UPDATE', 'VOICE_STATE_UPDATES', 'SPEAKING', 'MESSAGE_CREATE', 'LOAD_USER_AFFINITIES_SUCCESS'];
@@ -905,7 +905,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['NotificationPermissionManager'] = var1;
     var1 = {};
     var8 = ['LOGOUT'];
@@ -921,7 +921,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['loadAfterConnectionOpen'] = var4;
+    var1['loadAfterConnectionOpen'] = var7;
     var2['NUFChannelsManager'] = var1;
     var1 = {};
     var8 = function inlineRequire() {
@@ -935,7 +935,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['hasStoreChangeListeners'] = var4;
+    var1['hasStoreChangeListeners'] = var7;
     var2['ParticipantFocusManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN'];
@@ -979,7 +979,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['hasStoreChangeListeners'] = var4;
+    var1['hasStoreChangeListeners'] = var7;
     var2['ProximitySensorManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'CURRENT_USER_UPDATE', 'LOGOUT'];
@@ -1040,7 +1040,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['SavedMessagesManager'] = var1;
     var1 = {};
     var8 = ['SAVED_MESSAGES_UPDATE', 'SAVED_MESSAGE_CREATE', 'SAVED_MESSAGE_DELETE'];
@@ -1056,7 +1056,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['MessageRemindersNotificationManager'] = var1;
     var1 = {};
     var8 = ['USER_SETTINGS_PROTO_UPDATE', 'POST_CONNECTION_OPEN'];
@@ -1072,7 +1072,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['SearchTokensManager'] = var1;
     var1 = {};
     var8 = ['GUILD_CREATE', 'CHANNEL_CREATE', 'LOGOUT'];
@@ -1101,7 +1101,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['hasStoreChangeListeners'] = var4;
+    var1['hasStoreChangeListeners'] = var7;
     var2['SelfPresenceStoreManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN'];
@@ -1132,7 +1132,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['SharedSpacesWarningManager'] = var1;
     var1 = {};
     var8 = ['VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES'];
@@ -1223,7 +1223,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ThreadManager'] = var1;
     var1 = {};
     var8 = ['GUILD_CREATE', 'POST_CONNECTION_OPEN'];
@@ -1254,7 +1254,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['UrgentSystemDMManagerBase'] = var1;
     var1 = {};
     var8 = ['CATEGORY_COLLAPSE', 'CATEGORY_EXPAND', 'CATEGORY_COLLAPSE_ALL', 'CATEGORY_EXPAND_ALL', 'POST_CONNECTION_OPEN', 'USER_GUILD_SETTINGS_FULL_UPDATE'];
@@ -1285,7 +1285,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['UserSearchManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'OVERLAY_INITIALIZE', 'USER_SETTINGS_PROTO_UPDATE'];
@@ -1316,7 +1316,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['UserTrialOfferManager'] = var1;
     var1 = {};
     var8 = ['VOICE_CHANNEL_SELECT'];
@@ -1437,7 +1437,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['MediaPostEmbedManager'] = var1;
     var1 = {};
     var8 = ['RTC_CONNECTION_FLAGS', 'RTC_CONNECTION_STATE', 'POST_CONNECTION_OPEN', 'RTC_CONNECTION_USERS_MERGED', 'CLIPS_ALLOW_VOICE_RECORDING_UPDATE', 'CLIPS_SETTINGS_UPDATE', 'CLIPS_INIT_FAILURE', 'STREAM_START', 'RUNNING_GAMES_CHANGE', 'RUNNING_GAME_TOGGLE_DETECTION', 'CLIPS_RESTART', 'RTC_CONNECTION_VIDEO', 'MEDIA_ENGINE_SET_HARDWARE_ENCODING'];
@@ -1453,7 +1453,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ClipsManager'] = var1;
     var1 = {};
     var8 = ['CHANNEL_CREATE'];
@@ -1469,7 +1469,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['MidjourneyOnboardingManager'] = var1;
     var1 = {};
     var8 = ['MESSAGE_ACK', 'CHANNEL_SELECT', 'POST_CONNECTION_OPEN', 'EXPERIMENT_OVERRIDE_BUCKET', 'EXPERIMENTS_FETCH_SUCCESS'];
@@ -1485,7 +1485,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['NativeNotificationsManager'] = var1;
     var1 = {};
     var8 = ['VIBING_WUMPUS_PLAY_MUSIC', 'VIBING_WUMPUS_STOP_MUSIC', 'VIBING_WUMPUS_PAUSE_MUSIC'];
@@ -1501,7 +1501,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['InappropriateConversationsManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'CONNECTION_CLOSED', 'IDLE', 'WINDOW_FOCUS', 'CONTENT_INVENTORY_TOGGLE_FEED_HIDDEN', 'CONTENT_INVENTORY_MANUAL_REFRESH', 'CONTENT_INVENTORY_INBOX_STALE', 'SPOTIFY_NEW_TRACK', 'GAME_PROFILE_OPEN'];
@@ -1517,7 +1517,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ContentInventoryManager'] = var1;
     var1 = {};
     var8 = ['QUESTS_FETCH_CURRENT_QUESTS_BEGIN', 'POST_CONNECTION_OPEN', 'RUNNING_GAMES_CHANGE', 'USER_SETTINGS_PROTO_UPDATE', 'LOGOUT'];
@@ -1548,8 +1548,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['hasStoreChangeListeners'] = var4;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['hasStoreChangeListeners'] = var7;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['QuestMobileEmbedVisibilityManager'] = var1;
     var1 = {};
     var8 = ['MESSAGE_CREATE', 'MESSAGE_SEND_FAILED'];
@@ -1565,7 +1565,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['MessageSendFailureNotificationManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN'];
@@ -1626,8 +1626,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
-    var1['hasStoreChangeListeners'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
+    var1['hasStoreChangeListeners'] = var7;
     var2['PasskeyUpsellManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN'];
@@ -1658,7 +1658,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ReferralMessageManager'] = var1;
     var1 = {};
     var8 = ['MEDIA_ENGINE_SET_AUDIO_ENABLED', 'AUDIO_INPUT_DETECTED', 'AUDIO_SET_DISPLAY_SILENCE_WARNING', 'CERTIFIED_DEVICES_SET', 'AUDIO_SET_INPUT_DEVICE', 'AUDIO_SET_OUTPUT_DEVICE', 'MEDIA_ENGINE_DEVICES', 'RTC_CONNECTION_STATE', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_SET_GO_LIVE_SOURCE', 'MEDIA_ENGINE_SOUNDSHARE_FAILED', 'MEDIA_ENGINE_NOISE_CANCELLATION_ERROR', 'MEDIA_ENGINE_VOICE_ACTIVITY_DETECTION_ERROR', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED', 'NATIVE_SCREEN_SHARE_PICKER_UPDATE', 'NATIVE_SCREEN_SHARE_PICKER_ERROR', 'MEDIA_SESSION_JOINED', 'RTC_CONNECTION_UPDATE_ID', 'RTC_CONNECTION_REMOTE_VIDEO_SINK_WANTS', 'REPORT_AV_ERROR', 'VIDEO_STREAM_READY_TIMEOUT', 'CLEAR_VIDEO_STREAM_READY_TIMEOUT', 'RTC_CONNECTION_VIDEO', 'STREAM_CLOSE'];
@@ -1674,7 +1674,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['AVErrorManager'] = var1;
     var1 = {};
     var8 = ['STREAM_WATCH', 'STREAM_START', 'STREAM_CREATE', 'STREAM_UPDATE', 'STREAM_DELETE', 'STREAM_CLOSE', 'CALL_UPDATE', 'CHANNEL_UPDATES', 'VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES'];
@@ -1690,7 +1690,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['ApplicationStreamingManager'] = var1;
     var1 = {};
     var8 = new Array(0);
@@ -1706,7 +1706,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['hasStoreChangeListeners'] = var4;
+    var1['hasStoreChangeListeners'] = var7;
     var2['LibdiscoreExperimentManager'] = var1;
     var1 = {};
     var8 = ['POST_CONNECTION_OPEN', 'CHANNEL_SELECT', 'CHANNEL_CREATE', 'CHANNEL_DELETE', 'CHANNEL_UPDATES', 'GUILD_CREATE', 'GUILD_UPDATE', 'GUILD_DELETE', 'LOGOUT', 'RELATIONSHIP_ADD', 'RELATIONSHIP_REMOVE', 'RELATIONSHIP_UPDATE', 'THREAD_CREATE', 'THREAD_DELETE', 'THREAD_UPDATE', 'USER_UPDATE'];
@@ -1722,12 +1722,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var1['inlineRequire'] = var8;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['NativeIntentsManager'] = var1;
     var1 = {};
     var8 = ['CONNECTION_OPEN_SUPPLEMENTAL', 'SAFETY_FLOWS_MODAL_OPEN', 'USER_REQUIRED_ACTION_UPDATE'];
     var1['actions'] = var8;
-    var7 = function inlineRequire() {
+    var8 = function inlineRequire() {
         var3 = _closure1_slot0;
         var2 = _closure1_slot1;
         var1 = 111;
@@ -1737,16 +1737,31 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1 = var1.default;
         return var1;
     };
-    var1['inlineRequire'] = var7;
-    var1['neverLoadBeforeConnectionOpen'] = var4;
+    var1['inlineRequire'] = var8;
+    var1['neverLoadBeforeConnectionOpen'] = var7;
     var2['SafetyFlowsManager'] = var1;
-    var1 = 112;
+    var1 = {};
+    var7 = ['USER_APPLICATION_IDENTITY_UPDATE', 'USER_APPLICATION_IDENTITY_REMOVE'];
+    var1['actions'] = var7;
+    var4 = function inlineRequire() {
+        var3 = _closure1_slot0;
+        var2 = _closure1_slot1;
+        var1 = 112;
+        var2 = var2[var1];
+        var1 = undefined;
+        var1 = var3.bind(var1)(var2);
+        var1 = var1.default;
+        return var1;
+    };
+    var1['inlineRequire'] = var4;
+    var2['UserApplicationIdentityManager'] = var1;
+    var1 = 113;
     var4 = var6[var1];
     var1 = undefined;
     var7 = var5.bind(var1)(var4);
     var4 = var7.initialize;
     var4 = var4.bind(var7)(var2);
-    var4 = 113;
+    var4 = 114;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

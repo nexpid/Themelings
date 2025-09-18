@@ -1413,13 +1413,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var3 = var3._chatRef;
                         var3 = var3.current;
                         var19 = var4.bind(var7)(var3);
-                        if(!(var20 !== var19)) { _fun0016_ip = 207; continue _fun0016 }
- 138:
+                        if(!(var20 !== var19)) { _fun0016_ip = 208; continue _fun0016 }
+ 139:
                         var3 = _closure3_slot0;
                         var3 = var3.props;
                         var3 = var3.isStaff;
-                        if(!var3) { _fun0016_ip = 379; continue _fun0016 }
- 159:
+                        if(!var3) { _fun0016_ip = 380; continue _fun0016 }
+ 160:
                         var18 = _closure1_slot77;
                         var7 = var18.log;
                         var3 = _closure3_slot0;
@@ -1430,8 +1430,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var22 = var20;
                         var21 = var19;
                         var3 = var25[var7](var24, var23, var22, var21, var20);
-                        _fun0016_ip = 379; continue _fun0016;
- 207:
+                        _fun0016_ip = 380; continue _fun0016;
+ 208:
                         var7 = _closure3_slot0;
                         var2 = var7.props;
                         var4 = var2.visibleMessagesWindowHandler;
@@ -1468,7 +1468,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2['firstVisibleMessageRowIndex'] = var6;
                         var2['lastVisibleMessageRowIndex'] = var5;
                         var2 = var3.bind(var4)(var2);
- 379:
+ 380:
                         return var1;
                     }
                 };
@@ -3056,10 +3056,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var10 = var7.mimeType;
                         var11 = var8 != var10;
                         var9 = 'video';
-                        if(!var11) { _fun0030_ip = 154; continue _fun0030 }
- 151:
+                        if(!var11) { _fun0030_ip = 155; continue _fun0030 }
+ 152:
                         var9 = var10;
- 154:
+ 155:
                         var2['mime_type'] = var9;
                         var2['file_size'] = var8;
                         var7 = var7.fileDurationSec;

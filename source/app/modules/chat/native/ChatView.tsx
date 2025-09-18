@@ -358,11 +358,11 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = _closure2_slot2;
                     var2 = var1.current;
                     var1 = null;
-                    if(!(var1 != var2)) { _fun0006_ip = 45; continue _fun0006 }
- 34:
+                    if(!(var1 != var2)) { _fun0006_ip = 46; continue _fun0006 }
+ 35:
                     var1 = var2.handlePressKey;
                     var1 = var1.bind(var2)(var3);
- 45:
+ 46:
                     var1 = undefined;
                     return var1;
                 }

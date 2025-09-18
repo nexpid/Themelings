@@ -76,12 +76,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg4;
             var _closure2_slot3 = var3;
             var6 = undefined;
-            if(!(var1 === var6)) { _fun0002_ip = 52; continue _fun0002 }
+            if(!(var1 === var6)) { _fun0002_ip = 41; continue _fun0002 }
  39:
-            var3 = _closure1_slot5;
-            var1 = var3.INFREQUENT_USER_ACTION;
- 52:
-            var _closure2_slot4 = var1;
+            var1 = {};
+ 41:
+            var3 = var1.delay;
+            if(!(var3 === var6)) { _fun0002_ip = 64; continue _fun0002 }
+ 51:
+            var4 = _closure1_slot5;
+            var3 = var4.INFREQUENT_USER_ACTION;
+ 64:
+            var _closure2_slot4 = var3;
+            var1 = var1.comparator;
+            if(!(var1 === var6)) { _fun0002_ip = 83; continue _fun0002 }
+ 78:
+            var1 = function o(arg1, arg2) {
+                var2 = arg1;
+                var1 = arg2;
+                var1 = var2 === var1;
+                return var1;
+            };
+ 83:
+            var _closure2_slot5 = var1;
             var5 = function getSetting() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
@@ -103,7 +119,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     return var1;
                 }
             };
-            var _closure2_slot5 = var5;
+            var _closure2_slot6 = var5;
             var1 = {};
             var1['getSetting'] = var5;
             var4 = _closure1_slot6;
@@ -137,18 +153,22 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var4.bind(var6)(var5, var3);
             var1['updateSetting'] = var3;
             var2 = function useSetting() {
-                var4 = _closure1_slot0;
-                var3 = _closure1_slot2;
+                var3 = _closure1_slot0;
+                var4 = _closure1_slot2;
                 var2 = 4;
-                var3 = var3[var2];
-                var2 = undefined;
-                var4 = var4.bind(var2)(var3);
-                var3 = var4.useStateFromStores;
+                var2 = var4[var2];
+                var6 = undefined;
+                var5 = var3.bind(var6)(var2);
+                var4 = var5.useStateFromStores;
                 var1 = _closure1_slot4;
-                var2 = new Array(1);
-                var2[0] = var1;
-                var1 = _closure2_slot5;
-                var1 = var3.bind(var4)(var2, var1);
+                var3 = new Array(1);
+                var3[0] = var1;
+                var9 = _closure2_slot6;
+                var7 = _closure2_slot5;
+                var11 = var5;
+                var10 = var3;
+                var8 = undefined;
+                var1 = var11[var4](var10, var9, var8, var7, var6);
                 return var1;
             };
             var1['useSetting'] = var2;
@@ -361,7 +381,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['wrapSettingWithOverride'] = var4;
-    var4 = function wrapSettingWithExperimentDefaults(arg1) {
+    var2 = function wrapSettingWithExperimentDefaults(arg1) {
         var1 = arg1;
         var3 = var1.baseSetting;
         var _closure2_slot0 = var3;
@@ -451,31 +471,6 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['updateSetting'] = var2;
         return var1;
     };
-    var3['wrapSettingWithExperimentDefaults'] = var4;
-    var2 = function overrideUseStateFromStoresFunction(arg1, arg2) {
-        var3 = arg1;
-        var _closure2_slot0 = var3;
-        var1 = arg2;
-        var _closure2_slot1 = var1;
-        var1 = {};
-        var5 = var1;
-        var4 = var3;
-        var3 = copyDataProperties(var5, var4);
-        var3 = function useSetting() {
-            var4 = _closure2_slot1;
-            var2 = _closure1_slot4;
-            var3 = new Array(1);
-            var3[0] = var2;
-            var1 = _closure2_slot0;
-            var2 = var1.getSetting;
-            var1 = undefined;
-            var1 = var4.bind(var1)(var3, var2);
-            return var1;
-        };
-        var2 = 'useSetting';
-        var1[var2] = var3;
-        return var1;
-    };
-    var3['overrideUseStateFromStoresFunction'] = var2;
+    var3['wrapSettingWithExperimentDefaults'] = var2;
     return var1;
 })();

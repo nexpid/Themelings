@@ -981,7 +981,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getEmojiColors'] = var4;
-    var2 = function getEmojiUrl(arg1) {
+    var4 = function getEmojiUrl(arg1) {
         _fun0013: for(var _fun0013_ip = 0; ; ) switch(_fun0013_ip) {
  0:
             var1 = arg1;
@@ -1026,6 +1026,28 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['getEmojiUrl'] = var2;
+    var3['getEmojiUrl'] = var4;
+    var2 = function getAllEmojiNamesString(arg1) {
+        _fun0014: for(var _fun0014_ip = 0; ; ) switch(_fun0014_ip) {
+ 0:
+            var2 = arg1;
+            var1 = 'allNamesString';
+            var1 = var1 in var2;
+            if(var1) { _fun0014_ip = 46; continue _fun0014 }
+ 16:
+            var4 = var2.name;
+            var1 = global;
+            var1 = var1.HermesInternal;
+            var3 = var1.concat;
+            var1 = ':';
+            var1 = var3.bind(var1)(var4, var1);
+            _fun0014_ip = 54; continue _fun0014;
+ 46:
+            var1 = var2.allNamesString;
+ 54:
+            return var1;
+        }
+    };
+    var3['getAllEmojiNamesString'] = var2;
     return var1;
 })();

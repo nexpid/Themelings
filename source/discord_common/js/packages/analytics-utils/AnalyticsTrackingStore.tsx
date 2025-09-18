@@ -128,8 +128,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var _closure1_slot27 = var5;
         var4 = var4.window;
         var4 = var4.requestIdleCallback;
-        if(!(var5 == var4)) { _fun0001_ip = 336; continue _fun0001 }
- 331:
+        if(!(var5 == var4)) { _fun0001_ip = 332; continue _fun0001 }
+ 327:
         var4 = function(arg1) {
             var2 = arg1;
             var _closure2_slot0 = var2;
@@ -145,7 +145,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var1 = var3.bind(var2)(var1);
             return var1;
         };
- 336:
+ 332:
         var _closure1_slot30 = var4;
         var4 = 6;
         var4 = var7[var4];

@@ -125,18 +125,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = null;
             var10 = var3 == var6;
             var11 = undefined;
-            if(var10) { _fun0001_ip = 170; continue _fun0001 }
- 165:
+            if(var10) { _fun0001_ip = 176; continue _fun0001 }
+ 171:
             var11 = var6.type;
- 170:
+ 176:
             var3 = var3 != var11;
-            if(!var3) { _fun0001_ip = 197; continue _fun0001 }
- 177:
+            if(!var3) { _fun0001_ip = 203; continue _fun0001 }
+ 183:
             var9 = _closure1_slot12;
             var10 = var9.CALLABLE;
             var9 = var10.has;
             var3 = var9.bind(var10)(var11);
- 197:
+ 203:
             var2 = function useCanRingToGuildVoiceChannel(arg1) {
                 _fun0002: for(var _fun0002_ip = 0; ; ) switch(_fun0002_ip) {
  0:
@@ -231,10 +231,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var8 = null;
                     var9 = var8 == var7;
                     var1 = undefined;
-                    if(var9) { _fun0002_ip = 159; continue _fun0002 }
- 154:
+                    if(var9) { _fun0002_ip = 163; continue _fun0002 }
+ 158:
                     var1 = var7.id;
- 159:
+ 163:
                     var1 = var2.bind(var6)(var1);
                     var2 = var1.needSubscriptionToAccess;
                     var9 = _closure1_slot1;
@@ -246,70 +246,70 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = {};
                     var13 = var8 == var7;
                     var12 = undefined;
-                    if(var13) { _fun0002_ip = 212; continue _fun0002 }
- 207:
+                    if(var13) { _fun0002_ip = 216; continue _fun0002 }
+ 211:
                     var12 = var7.guild_id;
- 212:
+ 216:
                     var1['guildId'] = var12;
                     var1['location'] = var11;
                     var1 = var9.bind(var10)(var1);
                     var1 = var1.enabled;
                     var8 = var8 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0002_ip = 244; continue _fun0002 }
- 239:
+                    if(var8) { _fun0002_ip = 248; continue _fun0002 }
+ 243:
                     var6 = var7.type;
- 244:
+ 248:
                     var5 = _closure1_slot11;
                     var5 = var5.GUILD_VOICE;
                     var5 = var6 === var5;
-                    if(!var1) { _fun0002_ip = 264; continue _fun0002 }
- 261:
+                    if(!var1) { _fun0002_ip = 268; continue _fun0002 }
+ 265:
                     var1 = var5;
- 264:
-                    if(!var1) { _fun0002_ip = 270; continue _fun0002 }
- 267:
+ 268:
+                    if(!var1) { _fun0002_ip = 274; continue _fun0002 }
+ 271:
                     var1 = var4;
- 270:
-                    if(!var1) { _fun0002_ip = 276; continue _fun0002 }
- 273:
+ 274:
+                    if(!var1) { _fun0002_ip = 280; continue _fun0002 }
+ 277:
                     var1 = var3;
- 276:
-                    if(!var1) { _fun0002_ip = 282; continue _fun0002 }
- 279:
+ 280:
+                    if(!var1) { _fun0002_ip = 286; continue _fun0002 }
+ 283:
                     var1 = !var2;
- 282:
+ 286:
                     return var1;
                 }
             };
             var2 = var2.bind(var7)(var4, var8, var6);
-            if(!var1) { _fun0001_ip = 215; continue _fun0001 }
- 212:
+            if(!var1) { _fun0001_ip = 223; continue _fun0001 }
+ 220:
             var1 = !var5;
- 215:
-            if(!var1) { _fun0001_ip = 227; continue _fun0001 }
- 218:
+ 223:
+            if(!var1) { _fun0001_ip = 235; continue _fun0001 }
+ 226:
             var5 = var4.bot;
             var1 = !var5;
- 227:
-            if(!var1) { _fun0001_ip = 239; continue _fun0001 }
- 230:
+ 235:
+            if(!var1) { _fun0001_ip = 247; continue _fun0001 }
+ 238:
             var5 = var4.system;
             var1 = !var5;
- 239:
-            if(!var1) { _fun0001_ip = 251; continue _fun0001 }
- 242:
+ 247:
+            if(!var1) { _fun0001_ip = 259; continue _fun0001 }
+ 250:
             var4 = var4.isProvisional;
             var1 = !var4;
- 251:
-            if(!var1) { _fun0001_ip = 263; continue _fun0001 }
- 254:
-            if(var2) { _fun0001_ip = 260; continue _fun0001 }
- 257:
+ 259:
+            if(!var1) { _fun0001_ip = 271; continue _fun0001 }
+ 262:
+            if(var2) { _fun0001_ip = 268; continue _fun0001 }
+ 265:
             var2 = var3;
- 260:
+ 268:
             var1 = var2;
- 263:
+ 271:
             return var1;
         }
     };

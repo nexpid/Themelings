@@ -421,23 +421,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var2 = var1.actionName;
                     var1 = 'viewProfile';
                     var1 = var1 === var2;
-                    if(!var1) { _fun0003_ip = 40; continue _fun0003 }
- 27:
+                    if(!var1) { _fun0003_ip = 41; continue _fun0003 }
+ 28:
                     var3 = _closure2_slot1;
                     var2 = null;
                     var1 = var2 !== var3;
- 40:
-                    if(!var1) { _fun0003_ip = 71; continue _fun0003 }
- 43:
+ 41:
+                    if(!var1) { _fun0003_ip = 72; continue _fun0003 }
+ 44:
                     var3 = _closure2_slot1;
                     var2 = null;
-                    if(!(var2 != var3)) { _fun0003_ip = 71; continue _fun0003 }
- 56:
+                    if(!(var2 != var3)) { _fun0003_ip = 72; continue _fun0003 }
+ 57:
                     var3 = _closure2_slot1;
                     var2 = _closure2_slot3;
                     var1 = undefined;
                     var1 = var3.bind(var1)(var2);
- 71:
+ 72:
                     var1 = undefined;
                     return var1;
                 }

@@ -4,7 +4,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3 = exports;
     var6 = dependencyMap;
     var _closure1_slot0 = var5;
-    var _closure1_slot1 = var6;
+    var1 = metroImportDefault;
+    var _closure1_slot1 = var1;
+    var _closure1_slot2 = var6;
     var1 = global;
     var8 = var1.Object;
     var7 = var8.defineProperty;
@@ -18,23 +20,23 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var1 = undefined;
     var4 = var5.bind(var1)(var4);
     var4 = var4.isAvatarDecorationRecord;
-    var _closure1_slot2 = var4;
+    var _closure1_slot3 = var4;
     var4 = 1;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.isNameplateRecord;
-    var _closure1_slot3 = var4;
+    var _closure1_slot4 = var4;
     var4 = 2;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.isProfileEffectRecord;
-    var _closure1_slot4 = var4;
+    var _closure1_slot5 = var4;
     var4 = 3;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
     var4 = var4.ApplicationStreamPresets;
-    var _closure1_slot5 = var4;
-    var4 = 8;
+    var _closure1_slot6 = var4;
+    var4 = 10;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;
@@ -46,7 +48,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = arg3;
             var1 = {};
             var4 = {};
-            var5 = _closure1_slot5;
+            var5 = _closure1_slot6;
             var5 = var5.PRESET_CUSTOM;
             var4['preset'] = var5;
             var5 = arg1;
@@ -55,7 +57,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4['frameRate'] = var5;
             var1['qualityOptions'] = var4;
             var5 = _closure1_slot0;
-            var4 = _closure1_slot1;
+            var4 = _closure1_slot2;
             var2 = 4;
             var4 = var4[var2];
             var2 = undefined;
@@ -153,7 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  179:
             var9 = var3.variantsReturnStyle;
             var10 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var8 = 5;
             var6 = var6[var8];
             var7 = undefined;
@@ -163,7 +165,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             if(!(var9 === var6)) { _fun0002_ip = 261; continue _fun0002 }
  226:
             var6 = _closure1_slot0;
-            var4 = _closure1_slot1;
+            var4 = _closure1_slot2;
             var4 = var4[var8];
             var4 = var6.bind(var7)(var4);
             var4 = var4.ShopVariantsReturnStyle;
@@ -193,7 +195,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var3['buildFetchCollectiblesOptionsQuery'] = var4;
     var4 = function(arg1) {
         var3 = _closure1_slot0;
-        var2 = _closure1_slot1;
+        var2 = _closure1_slot2;
         var1 = 6;
         var2 = var2[var1];
         var1 = undefined;
@@ -210,7 +212,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         return var1;
     };
     var3['getNameplateSource'] = var4;
-    var2 = function(arg1) {
+    var4 = function(arg1) {
         _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:
             var1 = arg1;
@@ -226,21 +228,21 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  28:
             if(!(var1 != var5)) { _fun0003_ip = 271; continue _fun0003 }
  35:
-            var3 = _closure1_slot2;
+            var3 = _closure1_slot3;
             var3 = var3.bind(var4)(var5);
             if(var3) { _fun0003_ip = 204; continue _fun0003 }
  53:
-            var3 = _closure1_slot4;
+            var3 = _closure1_slot5;
             var3 = var3.bind(var4)(var5);
             if(var3) { _fun0003_ip = 151; continue _fun0003 }
  65:
-            var3 = _closure1_slot3;
+            var3 = _closure1_slot4;
             var6 = var3.bind(var4)(var5);
             var3 = '';
             if(!var6) { _fun0003_ip = 149; continue _fun0003 }
  81:
             var7 = _closure1_slot0;
-            var8 = _closure1_slot1;
+            var8 = _closure1_slot2;
             var6 = 6;
             var6 = var8[var6];
             var8 = var7.bind(var4)(var6);
@@ -278,7 +280,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var3;
  204:
             var3 = _closure1_slot0;
-            var6 = _closure1_slot1;
+            var6 = _closure1_slot2;
             var2 = 7;
             var2 = var6[var2];
             var4 = var3.bind(var4)(var2);
@@ -298,6 +300,35 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var3['getVariantThumbnailUrl'] = var2;
+    var3['getVariantThumbnailUrl'] = var4;
+    var2 = function() {
+        var3 = _closure1_slot1;
+        var5 = _closure1_slot2;
+        var2 = 8;
+        var2 = var5[var2];
+        var4 = undefined;
+        var3 = var3.bind(var4)(var2);
+        var2 = {};
+        var6 = true;
+        var2['forceFetch'] = var6;
+        var3 = var3.bind(var4)(var2);
+        var2 = _closure1_slot0;
+        var1 = 9;
+        var1 = var5[var1];
+        var5 = var2.bind(var4)(var1);
+        var4 = var5.dateFormat;
+        var2 = var3.endsAt;
+        var1 = 'L';
+        var2 = var4.bind(var5)(var2, var1);
+        var1 = {};
+        var4 = var3.fetched;
+        var4 = !var4;
+        var1['isLoading'] = var4;
+        var3 = var3.isFractionalPremiumActive;
+        var1['isFractionalPremiumActive'] = var3;
+        var1['expiresAt'] = var2;
+        return var1;
+    };
+    var3['useFetchFractionalPremiumInfo'] = var2;
     return var1;
 })();

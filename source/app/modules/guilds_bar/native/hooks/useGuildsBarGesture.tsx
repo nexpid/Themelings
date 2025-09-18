@@ -2651,12 +2651,12 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var2 = var2.bind(var4)();
                 var5 = var2.mode;
                 var4 = 'drag';
-                if(!(var4 === var5)) { _fun0021_ip = 127; continue _fun0021 }
- 112:
+                if(!(var4 === var5)) { _fun0021_ip = 130; continue _fun0021 }
+ 115:
                 var3 = _closure2_slot14;
                 var2 = var2.absoluteY;
                 var2 = var3.bind(var1)(var2);
- 127:
+ 130:
                 return var1;
             }
         };

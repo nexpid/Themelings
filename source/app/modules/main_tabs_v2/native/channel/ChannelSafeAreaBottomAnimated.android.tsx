@@ -106,8 +106,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var4 = var2.bind(var4)();
                     var2 = var4.toFixed;
                     var2 = var2.bind(var4)(var5);
-                    if(!(var3 !== var2)) { _fun0001_ip = 84; continue _fun0001 }
- 64:
+                    if(!(var3 !== var2)) { _fun0001_ip = 85; continue _fun0001 }
+ 65:
                     var3 = _closure3_slot1;
                     var2 = undefined;
                     var1 = function(arg1) {
@@ -117,7 +117,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         return var1;
                     };
                     var1 = var3.bind(var2)(var1);
- 84:
+ 85:
                     var1 = undefined;
                     return var1;
                 }

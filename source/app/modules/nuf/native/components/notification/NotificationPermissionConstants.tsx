@@ -49,6 +49,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var2['FRIEND_REQUEST_ACCEPTED'] = var1;
     var1 = 'notification_center';
     var2['NOTIFICATION_CENTER'] = var1;
+    var1 = 'app_load_notification_nudge';
+    var2['APP_LOAD_NOTIFICATION_NUDGE'] = var1;
+    var1 = 'channel_banner';
+    var2['CHANNEL_BANNER'] = var1;
     var5 = dependencyMap;
     var1 = 0;
     var6 = var5[var1];

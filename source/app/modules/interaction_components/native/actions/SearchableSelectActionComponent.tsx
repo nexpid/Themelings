@@ -42,18 +42,18 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var8 = arg1;
             var _closure2_slot0 = var8;
             var12 = var8.type;
-            var2 = _closure1_slot0;
-            var3 = _closure1_slot2;
-            var1 = 3;
-            var1 = var3[var1];
+            var3 = _closure1_slot0;
+            var1 = _closure1_slot2;
+            var2 = 3;
+            var2 = var1[var2];
             var4 = undefined;
-            var2 = var2.bind(var4)(var1);
-            var1 = var2.useComponentStateContext;
-            var11 = var1.bind(var2)();
+            var3 = var3.bind(var4)(var2);
+            var2 = var3.useComponentStateContext;
+            var11 = var2.bind(var3)();
             var2 = _closure1_slot1;
-            var1 = 4;
-            var1 = var3[var1];
-            var6 = var2.bind(var4)(var1);
+            var6 = 4;
+            var1 = var1[var6];
+            var9 = var2.bind(var4)(var1);
             var2 = null;
             var3 = var2 == var11;
             var1 = undefined;
@@ -63,6 +63,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  82:
             var3 = var2 != var1;
             var1 = 'SearchableSelectActionComponent must be rendered inside a modal ComponentStateContext';
+            var1 = var9.bind(var4)(var3, var1);
+            var3 = _closure1_slot1;
+            var1 = _closure1_slot2;
+            var1 = var1[var6];
+            var6 = var3.bind(var4)(var1);
+            var3 = var2 == var11;
+            var1 = undefined;
+            if(var3) { _fun0001_ip = 129; continue _fun0001 }
+ 124:
+            var1 = var11.channelId;
+ 129:
+            var3 = var2 != var1;
+            var1 = 'SearchableSelectActionComponent must be used inside a channel';
             var1 = var6.bind(var4)(var3, var1);
             var6 = _closure1_slot4;
             var3 = var6.getChannel;
@@ -70,16 +83,16 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var3 = var3.bind(var6)(var1);
             var6 = var2 == var3;
             var1 = undefined;
-            if(var6) { _fun0001_ip = 131; continue _fun0001 }
- 126:
+            if(var6) { _fun0001_ip = 178; continue _fun0001 }
+ 173:
             var1 = var3.guild_id;
- 131:
+ 178:
             var3 = var2 != var1;
             var10 = null;
-            if(!var3) { _fun0001_ip = 143; continue _fun0001 }
- 140:
+            if(!var3) { _fun0001_ip = 190; continue _fun0001 }
+ 187:
             var10 = var1;
- 143:
+ 190:
             var _closure2_slot1 = var10;
             var9 = _closure1_slot3;
             var6 = var9.useMemo;
@@ -115,13 +128,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var14 = 0;
             var6 = var1 > var14;
             var1 = undefined;
-            if(!var6) { _fun0001_ip = 223; continue _fun0001 }
- 209:
+            if(!var6) { _fun0001_ip = 270; continue _fun0001 }
+ 256:
             var6 = {};
             var6['type'] = var12;
             var6['selectedOptions'] = var9;
             var1 = var6;
- 223:
+ 270:
             var3 = var3.bind(var11)(var8, var1);
             var1 = var3.state;
             var12 = var3.visualState;
@@ -131,10 +144,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var _closure2_slot2 = var6;
             var13 = var2 == var1;
             var16 = undefined;
-            if(var13) { _fun0001_ip = 276; continue _fun0001 }
- 271:
+            if(var13) { _fun0001_ip = 323; continue _fun0001 }
+ 318:
             var16 = var1.type;
- 276:
+ 323:
             var17 = _closure1_slot0;
             var13 = _closure1_slot2;
             var15 = 6;
@@ -142,21 +155,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var17.bind(var4)(var13);
             var13 = var13.ComponentType;
             var13 = var13.USER_SELECT;
-            if(!(var16 !== var13)) { _fun0001_ip = 456; continue _fun0001 }
- 315:
-            var13 = var2 == var1;
-            var16 = undefined;
-            if(var13) { _fun0001_ip = 329; continue _fun0001 }
- 324:
-            var16 = var1.type;
- 329:
-            var17 = _closure1_slot0;
-            var13 = _closure1_slot2;
-            var13 = var13[var15];
-            var13 = var17.bind(var4)(var13);
-            var13 = var13.ComponentType;
-            var13 = var13.ROLE_SELECT;
-            if(!(var16 !== var13)) { _fun0001_ip = 456; continue _fun0001 }
+            if(!(var16 !== var13)) { _fun0001_ip = 503; continue _fun0001 }
  362:
             var13 = var2 == var1;
             var16 = undefined;
@@ -169,8 +168,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13[var15];
             var13 = var17.bind(var4)(var13);
             var13 = var13.ComponentType;
-            var13 = var13.MENTIONABLE_SELECT;
-            if(!(var16 !== var13)) { _fun0001_ip = 456; continue _fun0001 }
+            var13 = var13.ROLE_SELECT;
+            if(!(var16 !== var13)) { _fun0001_ip = 503; continue _fun0001 }
  409:
             var13 = var2 == var1;
             var16 = undefined;
@@ -183,25 +182,39 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var13 = var13[var15];
             var13 = var17.bind(var4)(var13);
             var13 = var13.ComponentType;
-            var13 = var13.CHANNEL_SELECT;
-            if(!(var16 === var13)) { _fun0001_ip = 462; continue _fun0001 }
+            var13 = var13.MENTIONABLE_SELECT;
+            if(!(var16 !== var13)) { _fun0001_ip = 503; continue _fun0001 }
  456:
+            var13 = var2 == var1;
+            var16 = undefined;
+            if(var13) { _fun0001_ip = 470; continue _fun0001 }
+ 465:
+            var16 = var1.type;
+ 470:
+            var17 = _closure1_slot0;
+            var13 = _closure1_slot2;
+            var13 = var13[var15];
+            var13 = var17.bind(var4)(var13);
+            var13 = var13.ComponentType;
+            var13 = var13.CHANNEL_SELECT;
+            if(!(var16 === var13)) { _fun0001_ip = 509; continue _fun0001 }
+ 503:
             var9 = var1.selectedOptions;
- 462:
+ 509:
             var1 = var11.getParents;
             var13 = var1.bind(var11)(var8);
             var16 = var2 == var13;
             var1 = undefined;
-            if(var16) { _fun0001_ip = 486; continue _fun0001 }
- 482:
+            if(var16) { _fun0001_ip = 533; continue _fun0001 }
+ 529:
             var1 = var13[var14];
- 486:
+ 533:
             var2 = var2 == var1;
             var14 = undefined;
-            if(var2) { _fun0001_ip = 500; continue _fun0001 }
- 495:
+            if(var2) { _fun0001_ip = 547; continue _fun0001 }
+ 542:
             var14 = var1.type;
- 500:
+ 547:
             var13 = _closure1_slot0;
             var2 = _closure1_slot2;
             var2 = var2[var15];
@@ -209,10 +222,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var2 = var2.ComponentType;
             var13 = var2.LABEL;
             var2 = undefined;
-            if(!(var14 === var13)) { _fun0001_ip = 538; continue _fun0001 }
- 535:
+            if(!(var14 === var13)) { _fun0001_ip = 585; continue _fun0001 }
+ 582:
             var2 = var1;
- 538:
+ 585:
             var1 = {};
             var11 = var11.channelId;
             var1['channelId'] = var11;

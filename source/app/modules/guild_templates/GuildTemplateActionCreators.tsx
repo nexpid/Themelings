@@ -44,13 +44,13 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var5 = var5.bind(var7)(var2);
             var2 = var5.isDispatching;
             var2 = var2.bind(var5)();
-            if(var2) { _fun0001_ip = 238; continue _fun0001 }
+            if(var2) { _fun0001_ip = 234; continue _fun0001 }
  50:
             var5 = _closure1_slot5;
             var2 = var5.get;
             var2 = var2.bind(var5)(var6);
             var5 = null;
-            if(!(var5 == var2)) { _fun0001_ip = 236; continue _fun0001 }
+            if(!(var5 == var2)) { _fun0001_ip = 232; continue _fun0001 }
  73:
             var5 = _closure1_slot1;
             var8 = _closure1_slot2;
@@ -164,9 +164,9 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var4 = var5.set;
             var4 = var4.bind(var5)(var6, var3);
             return var3;
- 236:
+ 232:
             return var2;
- 238:
+ 234:
             var2 = global;
             var3 = var2.Promise;
             var2 = var3.resolve;

@@ -881,8 +881,8 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var9 = var9.Branding;
             var9 = var9.BUNDLE;
             var8 = null;
-            if(!(var15 === var9)) { _fun0008_ip = 712; continue _fun0008 }
- 662:
+            if(!(var15 === var9)) { _fun0008_ip = 710; continue _fun0008 }
+ 660:
             var17 = _closure1_slot7;
             var12 = _closure1_slot3;
             var9 = {};
@@ -895,7 +895,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             var18 = var16.logoPlusPremiumGuild;
             var9['style'] = var18;
             var8 = var17.bind(var4)(var12, var9);
- 712:
+ 710:
             var7[1] = var8;
             var12 = _closure1_slot7;
             var9 = _closure1_slot3;

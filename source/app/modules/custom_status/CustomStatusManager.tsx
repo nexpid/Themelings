@@ -159,19 +159,41 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                 var3 = {};
                 var4 = function POST_CONNECTION_OPEN() {
                     var2 = _closure3_slot0;
-                    var1 = var2.handleUpdate;
+                    var1 = var2.handlePostConnectionOpen;
                     var1 = var1.bind(var2)();
                     return var1;
                 };
                 var3['POST_CONNECTION_OPEN'] = var4;
                 var4 = function USER_SETTINGS_PROTO_UPDATE() {
                     var2 = _closure3_slot0;
-                    var1 = var2.handleUpdate;
+                    var1 = var2.handleUserSettingsProtoUpdate;
                     var1 = var1.bind(var2)();
                     return var1;
                 };
                 var3['USER_SETTINGS_PROTO_UPDATE'] = var4;
                 var1['actions'] = var3;
+                var3 = function() {
+                    var2 = _closure3_slot0;
+                    var3 = _closure1_slot8;
+                    var1 = var3.getStatus;
+                    var1 = var1.bind(var3)();
+                    var2['previousStatus'] = var1;
+                    var1 = var2.handleCommonUpdates;
+                    var1 = var1.bind(var2)();
+                    var1 = undefined;
+                    return var1;
+                };
+                var1['handlePostConnectionOpen'] = var3;
+                var3 = function() {
+                    var2 = _closure3_slot0;
+                    var1 = var2.handleCommonUpdates;
+                    var1 = var1.bind(var2)();
+                    var1 = var2.manageDoNotDisturbReminderPopover;
+                    var1 = var1.bind(var2)();
+                    var1 = undefined;
+                    return var1;
+                };
+                var1['handleUserSettingsProtoUpdate'] = var3;
                 var3 = function() {
                     var2 = _closure3_slot0;
                     var1 = var2.manageExpiringCustomStatus;
@@ -182,12 +204,10 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                     var1 = var1.bind(var2)();
                     var1 = var2.manageExpiringFocusMode;
                     var1 = var1.bind(var2)();
-                    var1 = var2.manageDoNotDisturbReminderPopover;
-                    var1 = var1.bind(var2)();
                     var1 = undefined;
                     return var1;
                 };
-                var1['handleUpdate'] = var3;
+                var1['handleCommonUpdates'] = var3;
                 var3 = function() {
                     _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {
  0:

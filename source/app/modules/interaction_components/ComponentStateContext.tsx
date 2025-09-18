@@ -7,6 +7,17 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var _closure1_slot0 = var7;
     var _closure1_slot1 = var5;
     var _closure1_slot2 = var8;
+    var1 = function getApplicationWidgetContainerId(arg1) {
+        var1 = arg1;
+        var3 = var1.applicationId;
+        var1 = global;
+        var1 = var1.HermesInternal;
+        var2 = var1.concat;
+        var1 = 'app-widget-';
+        var1 = var2.bind(var1)(var3);
+        return var1;
+    };
+    var _closure1_slot17 = var1;
     var1 = function useComponentValidatorState(arg1, arg2) {
         _fun0001: for(var _fun0001_ip = 0; ; ) switch(_fun0001_ip) {
  0:
@@ -140,7 +151,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot17 = var1;
+    var _closure1_slot18 = var1;
     var1 = function useComponentStateForMessage(arg1, arg2, arg3) {
         _fun0005: for(var _fun0005_ip = 0; ; ) switch(_fun0005_ip) {
  0:
@@ -193,7 +204,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  135:
             var4 = var1;
  138:
-            var1 = _closure1_slot17;
+            var1 = _closure1_slot18;
             var1 = var1.bind(var6)(var7, var9);
             var2 = var1.error;
             var12 = var1.validate;
@@ -300,7 +311,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         }
     };
-    var _closure1_slot18 = var1;
+    var _closure1_slot19 = var1;
     var1 = function useComponentStateForModal(arg1, arg2, arg3) {
         var9 = arg1;
         var12 = arg2;
@@ -329,7 +340,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
             return var1;
         };
         var7 = var7.bind(var10)(var3, var2);
-        var2 = _closure1_slot17;
+        var2 = _closure1_slot18;
         var3 = var2.bind(var4)(var12, var7);
         var2 = var3.error;
         var3 = var3.validate;
@@ -404,7 +415,29 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
         var1['error'] = var2;
         return var1;
     };
-    var _closure1_slot19 = var1;
+    var _closure1_slot20 = var1;
+    var1 = function getParentsNotSupported(arg1) {
+        var2 = 'ApplicationWidget';
+        var _closure2_slot0 = var2;
+        var1 = function() {
+            var1 = global;
+            var3 = var1.Error;
+            var5 = _closure2_slot0;
+            var1 = var1.HermesInternal;
+            var4 = var1.concat;
+            var2 = '';
+            var1 = ' does not support parents';
+            var7 = var4.bind(var2)(var5, var1);
+            var2 = var3.prototype;
+            var2 = Object.create(var2, {constructor: {value: var3}});
+            var8 = var2;
+            var1 = new var8[var3](var7, var6);
+            var1 = var1 instanceof Object ? var1 : var2;
+            throw var1;
+        };
+        return var1;
+    };
+    var _closure1_slot21 = var1;
     var1 = global;
     var9 = var1.Object;
     var6 = var9.defineProperty;
@@ -844,7 +877,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
     var6 = null;
     var6 = var9.bind(var10)(var6);
     var _closure1_slot16 = var6;
-    var6 = 22;
+    var6 = 21;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -857,66 +890,113 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
  0:
             var1 = arg1;
             var5 = var1.children;
-            var13 = var1.message;
-            var _closure2_slot0 = var13;
-            var12 = var1.modal;
-            var _closure2_slot1 = var12;
-            var11 = var1.validators;
-            var _closure2_slot2 = var11;
-            var10 = var1.validationErrors;
+            var14 = var1.message;
+            var _closure2_slot0 = var14;
+            var13 = var1.modal;
+            var _closure2_slot1 = var13;
+            var12 = var1.applicationWidget;
+            var _closure2_slot2 = var12;
+            var10 = var1.validators;
             var _closure2_slot3 = var10;
-            var9 = var1.setValidationErrors;
+            var9 = var1.validationErrors;
             var _closure2_slot4 = var9;
-            var8 = var1.shouldDisableInteractiveComponents;
-            var4 = undefined;
-            if(!(var8 === var4)) { _fun0014_ip = 73; continue _fun0014 }
- 71:
-            var8 = false;
- 73:
+            var8 = var1.setValidationErrors;
             var _closure2_slot5 = var8;
+            var11 = var1.shouldDisableInteractiveComponents;
+            var4 = undefined;
+            if(!(var11 === var4)) { _fun0014_ip = 83; continue _fun0014 }
+ 81:
+            var11 = false;
+ 83:
+            var _closure2_slot6 = var11;
             var7 = _closure1_slot4;
             var6 = var7.useMemo;
-            var3 = new Array(6);
-            var3[0] = var13;
-            var3[1] = var12;
-            var3[2] = var11;
-            var3[3] = var10;
-            var3[4] = var9;
-            var3[5] = var8;
+            var3 = new Array(7);
+            var3[0] = var14;
+            var3[1] = var13;
+            var3[2] = var12;
+            var3[3] = var11;
+            var3[4] = var10;
+            var3[5] = var9;
+            var3[6] = var8;
             var2 = function() {
                 _fun0015: for(var _fun0015_ip = 0; ; ) switch(_fun0015_ip) {
  0:
                     var1 = _closure2_slot0;
-                    var9 = null;
-                    if(!(var9 == var1)) { _fun0015_ip = 149; continue _fun0015 }
+                    var8 = null;
+                    if(!(var8 == var1)) { _fun0015_ip = 257; continue _fun0015 }
  18:
-                    var2 = _closure1_slot1;
-                    var6 = _closure1_slot2;
-                    var1 = 21;
-                    var1 = var6[var1];
-                    var8 = undefined;
-                    var7 = var2.bind(var8)(var1);
-                    var2 = _closure2_slot1;
-                    var6 = var9 != var2;
-                    var1 = 'modal is present if message is not';
-                    var1 = var7.bind(var8)(var6, var1);
+                    var1 = _closure2_slot1;
+                    if(!(var8 == var1)) { _fun0015_ip = 164; continue _fun0015 }
+ 29:
+                    var1 = _closure2_slot2;
+                    if(!(var8 == var1)) { _fun0015_ip = 73; continue _fun0015 }
+ 37:
+                    var1 = global;
+                    var5 = var1.Error;
+                    var1 = var5.prototype;
+                    var4 = Object.create(var1, {constructor: {value: var5}});
+                    var12 = 'ComponentStateContextProvider requires at least one of message, modal, or applicationWidget';
+                    var13 = var4;
+                    var1 = new var13[var5](var12, var11);
+                    var1 = var1 instanceof Object ? var1 : var4;
+                    throw var1;
+ 73:
                     var1 = {};
-                    var6 = _closure1_slot19;
+                    var6 = 'ApplicationWidget';
+                    var _closure3_slot0 = var6;
+                    var4 = function() {
+                        var1 = global;
+                        var3 = var1.Error;
+                        var5 = _closure3_slot0;
+                        var1 = var1.HermesInternal;
+                        var4 = var1.concat;
+                        var2 = '';
+                        var1 = ' does not support state';
+                        var7 = var4.bind(var2)(var5, var1);
+                        var2 = var3.prototype;
+                        var2 = Object.create(var2, {constructor: {value: var3}});
+                        var8 = var2;
+                        var1 = new var8[var3](var7, var6);
+                        var1 = var1 instanceof Object ? var1 : var2;
+                        throw var1;
+                    };
+                    var1['useComponentState'] = var4;
+                    var9 = _closure1_slot17;
+                    var7 = _closure2_slot2;
+                    var5 = undefined;
+                    var9 = var9.bind(var5)(var7);
+                    var1['containerId'] = var9;
+                    var1['applicationWidget'] = var7;
+                    var7 = _closure2_slot3;
+                    var1['validators'] = var7;
+                    var7 = _closure2_slot4;
+                    var1['validationErrors'] = var7;
+                    var7 = _closure2_slot5;
+                    var1['setValidationErrors'] = var7;
+                    var4 = _closure1_slot21;
+                    var4 = var4.bind(var5)(var6);
+                    var1['getParents'] = var4;
+                    return var1;
+ 164:
+                    var1 = {};
+                    var6 = _closure1_slot20;
                     var5 = var6.bind;
-                    var5 = var5.bind(var6)(var9, var2);
+                    var4 = _closure2_slot1;
+                    var5 = var5.bind(var6)(var8, var4);
                     var1['useComponentState'] = var5;
-                    var5 = var2.channelId;
+                    var5 = var4.channelId;
                     var1['channelId'] = var5;
-                    var5 = var2.customId;
+                    var5 = var4.customId;
                     var1['containerId'] = var5;
-                    var1['modal'] = var2;
-                    var2 = _closure2_slot2;
-                    var1['validators'] = var2;
-                    var2 = _closure2_slot3;
-                    var1['validationErrors'] = var2;
-                    var2 = _closure2_slot4;
-                    var1['setValidationErrors'] = var2;
-                    var2 = function getParents(arg1) {
+                    var1['modal'] = var4;
+                    var4 = _closure2_slot3;
+                    var1['validators'] = var4;
+                    var4 = _closure2_slot4;
+                    var1['validationErrors'] = var4;
+                    var4 = _closure2_slot5;
+                    var1['setValidationErrors'] = var4;
+                    var4 = function getParents(arg1) {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 20;
@@ -930,24 +1010,24 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var3.bind(var4)(var2, var1);
                         return var1;
                     };
-                    var1['getParents'] = var2;
-                    _fun0015_ip = 228; continue _fun0015;
- 149:
-                    var2 = {};
-                    var8 = _closure1_slot18;
-                    var7 = var8.bind;
-                    var5 = _closure2_slot0;
-                    var6 = _closure2_slot5;
-                    var6 = var7.bind(var8)(var9, var5, var6);
-                    var2['useComponentState'] = var6;
-                    var6 = var5.channel_id;
-                    var2['channelId'] = var6;
-                    var6 = var5.id;
-                    var2['containerId'] = var6;
-                    var2['message'] = var5;
-                    var4 = _closure2_slot2;
-                    var2['validators'] = var4;
-                    var3 = function getParents(arg1) {
+                    var1['getParents'] = var4;
+                    return var1;
+ 257:
+                    var1 = {};
+                    var7 = _closure1_slot19;
+                    var6 = var7.bind;
+                    var4 = _closure2_slot0;
+                    var5 = _closure2_slot6;
+                    var5 = var6.bind(var7)(var8, var4, var5);
+                    var1['useComponentState'] = var5;
+                    var5 = var4.channel_id;
+                    var1['channelId'] = var5;
+                    var5 = var4.id;
+                    var1['containerId'] = var5;
+                    var1['message'] = var4;
+                    var3 = _closure2_slot3;
+                    var1['validators'] = var3;
+                    var2 = function getParents(arg1) {
                         var3 = _closure1_slot0;
                         var2 = _closure1_slot2;
                         var1 = 20;
@@ -961,9 +1041,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var3.bind(var4)(var2, var1);
                         return var1;
                     };
-                    var2['getParents'] = var3;
-                    var1 = var2;
- 228:
+                    var1['getParents'] = var2;
                     return var1;
                 }
             };

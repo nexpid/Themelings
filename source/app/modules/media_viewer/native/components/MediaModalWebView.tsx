@@ -257,19 +257,19 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var2 = var2.data;
                         var2 = var3.bind(var4)(var2);
                         var3 = null;
-                        if(!(var3 != var2)) { _fun0004_ip = 52; continue _fun0004 }
- 38:
+                        if(!(var3 != var2)) { _fun0004_ip = 53; continue _fun0004 }
+ 39:
                         var3 = var2.event;
                         var2 = 'click';
-                        if(!(var2 !== var3)) { _fun0004_ip = 78; continue _fun0004 }
- 52:
+                        if(!(var2 !== var3)) { _fun0004_ip = 80; continue _fun0004 }
+ 53:
                         var3 = _closure2_slot1;
                         var1 = var1.nativeEvent;
                         var2 = var1.data;
                         var1 = undefined;
                         var1 = var3.bind(var1)(var2);
-                        _fun0004_ip = 119; continue _fun0004;
- 78:
+                        _fun0004_ip = 121; continue _fun0004;
+ 80:
                         var1 = _closure2_slot3;
                         var3 = var1.overlayEnabled;
                         var2 = var3.set;
@@ -278,7 +278,7 @@ export default (function(global, require, metroImportDefault, metroImportAll, mo
                         var1 = var1.bind(var4)();
                         var1 = !var1;
                         var1 = var2.bind(var3)(var1);
- 119:
+ 121:
                         var1 = undefined;
                         return var1;
                     }
