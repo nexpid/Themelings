@@ -10535,6 +10535,15 @@
         "width": 375,
         "height": 199.5
     },
+    "nitro_modal_header_background_v2": {
+        "file": "modules/quests/images/nitro_modal_header_background_v2.png",
+        "hash": "92f827adadc1f86811fd4e36c86fdf27",
+        "scales": [
+            1
+        ],
+        "width": 435,
+        "height": 218
+    },
     "nitro_wumpus_avatar": {
         "file": "images/nitro_wumpus_avatar.png",
         "hash": "212a10d1e3da5ff0492c97f7e14e9d29",
@@ -10732,6 +10741,16 @@
         ],
         "width": 301,
         "height": 128
+    },
+    "notification_nudge": {
+        "file": "modules/nuf/native/components/notification/notification_nudge.png",
+        "hash": "5c22e366542d98ef13d7a04fa7ca2713",
+        "scales": [
+            1,
+            2
+        ],
+        "width": 335,
+        "height": 144
     },
     "notification_upsell": {
         "file": "modules/nuf/native/components/notification/notification_upsell.png",
@@ -12919,6 +12938,16 @@
         "width": 24,
         "height": 24
     },
+    "TreatIcon": {
+        "file": "images/native/custom_app_icons/TreatIcon/TreatIcon.png",
+        "hash": "5722af1699b8cbf8487f2ee137aa43de",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 60,
+        "height": 60
+    },
     "TreehouseIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/TreehouseIcon.png",
         "hash": "b1797542a5108ce22eadaf8f097c0177",
@@ -12928,6 +12957,16 @@
         ],
         "width": 24,
         "height": 24
+    },
+    "TrickIcon": {
+        "file": "images/native/custom_app_icons/TrickIcon/TrickIcon.png",
+        "hash": "058e3859f5939b354e417c840c5064ef",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 60,
+        "height": 60
     },
     "TrophyIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/TrophyIcon.png",
